@@ -1,2 +1,2 @@
 # nextcloud.com
-Our website
+Our website. Contributions welcome, more info coming ;-)
