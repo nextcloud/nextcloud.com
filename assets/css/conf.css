@@ -1,0 +1,183 @@
+/* Style Conference page from here */
+div.conference {
+	background-color: #35537A;
+	background: -webkit-linear-gradient(top , #35537A, #1D2D44);
+	background: -moz-linear-gradient(top , #35537A, #1D2D44); 
+	background: -o-linear-gradient(top , #35537A, #1D2D44); 
+	background: linear-gradient( #35537A, #1D2D44);
+	margin-top: -20px;
+}
+
+div.conference h1,
+div.conference h2,
+div.conference h3 {
+	text-align: center;
+	margin-left: 0;
+}
+
+.navbar-default {
+    border: none;
+}
+
+.banner {
+    background-color: transparent;
+}
+
+div.conf-content {
+	color: #FFFFFF;
+}
+
+div.conference a:not(.btn) {
+	color: #FFFFFF;
+	padding: 0px;
+	border-bottom: 1px solid #FFFFFF;
+	border-radius: 2px;
+	text-decoration: none;
+}
+
+div.conference a:hover:not(.btn),
+div.conference a:active:not(.btn),
+div.conference a:focus:not(.btn)
+ {
+	border-bottom: 2px solid #FFFFFF;
+}
+
+div.conf-header {
+  	margin-top: 45px;
+	margin-bottom: 55px;
+	text-align: center;
+}
+
+.not-front .conf-img {
+  	margin: 0;
+  	width: 215px;
+}
+
+.conf-header > h2 {
+	font-size: 20px !important;
+}
+
+h2.conf-location {
+/*   	font-size: 1.75em; */
+/*     	font-weight: 500; */
+/* 	margin-top: 0.5em; */
+}
+
+div.conf-txt,
+div.conf-info,
+div.conf-partners,
+div.conf-about {
+  	padding-top: 20px;
+	padding-left: 20px;
+  	margin-bottom: 45px;
+}
+
+div.quotes {
+  	padding-top: 50px;
+  	margin-bottom: 400x;
+}	
+
+div.conf-info {
+	margin-left: -40px;
+	margin-right: -20px;
+}
+
+div.conf-info p,
+div.conf-info ul {
+	text-align: left;
+}
+
+div.conf-info ul {
+	margin-left: 15px;
+}
+
+
+div.conference {
+    margin-top: -128px;
+    padding-top: 128px;
+}
+
+div.conf-content h2 {
+	font-weight: 100;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+div.conf-content h2>small {
+	color: white;
+	display: block;
+	margin-top: 0px;
+	font-size: 15px;
+}
+
+div.conf-info i {
+	font-size: 37px;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: -30px;
+	text-align: center;
+}
+
+div.conf-partners img.banner {
+	display: block;
+	margin: 0 auto;
+	height: auto;
+	width: 200px;
+}
+
+div.footer-social-icons {
+	margin-top: 2em !important;
+}
+
+/* Reigstration page (we don't use this atm) */
+div.conference .hs-form .hs-form-required {
+	color: white !important;
+}
+
+div.conference div.hbspt-form label {
+	color: white;
+	font-size: 18px;
+}
+
+div.conference div.hbspt-form {
+	max-width: 500px;
+	margin: 0 auto;
+	margin-top: 48px;
+}
+
+div.conference .hs-input {
+	height: 30px;
+	font-size: 21px;	
+}
+
+div.conference .hs-form.stacked label {
+	font-weight: 400;
+}
+
+div.conference div.actions {
+	text-align: center;
+}
+
+div.conference a:hover {
+	color: white;
+}
+
+div.conf-partners a {
+	border: none !important;
+}
+
+.row.conf-partners {
+	margin: -20px 0;
+}
+
+div.conf-partners a {
+	border: none !important;
+}
+
+.row.conf-partners {
+	margin: -20px 0;
+}
+
+body {
+	background-color: #1D2D44;
+}
