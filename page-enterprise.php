@@ -20,7 +20,7 @@
 <h2>The Nextcloud Enterprise Subscription</h2>
 <p>We can provide you the confidence of knowing that your Nextcloud deployment is backed by the technical expertise of the engineers who wrote the software and with the features you need for your organization.</p>
 
-<p>With the nextCloud Enterprise subscription you get:
+<p>With the Nextcloud Enterprise subscription you get:
 
 <ul>
 	<li>Full lifecycle support, from project inception to production and user growth</li>
