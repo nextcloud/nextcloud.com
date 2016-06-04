@@ -50,7 +50,7 @@
 	</div>
 	<div class="row pad-bottom">
 		<div class="col-md-8 col-md-offset-2  text-center">
-			Nextcloud is started by an experienced team of engineers that has been working for years on the vision of bringing private file sync and share to the next level.<br /> Follow our <a href="/news">news page</a> and subscribe to our <a target="_blank" href="https://newsletter.nextcloud.com">newsletter</a> to learn more.
+			Nextcloud is started by an experienced team of engineers that has been working for years on the vision of bringing private file sync and share to the next level.<br /> Follow our <a href="/news">news page</a> and subscribe to our <a target="_blank" href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a> to learn more.
 		</div>
 	</div>
 <!--	<div class="row pad-bottom">
@@ -134,7 +134,7 @@
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3 text-center">
 		   <h2>Stay up to date with nextcloud news!</h2>
-		   <a href="https://newsletter.nextcloud.com" class="btn btn-block btn-primary btn-lg join-button">Subscribe to our newsletter</a><br />
+		   <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1" class="btn btn-block btn-primary btn-lg join-button">Subscribe to our newsletter</a><br />
 <!-- 		   <a class="btn btn-primary btn-lg" role="button" href="/features">Learn more about what Nextcloud can do for you &raquo;</a> -->
 		</div>
 	</div>

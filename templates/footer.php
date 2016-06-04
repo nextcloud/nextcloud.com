@@ -4,7 +4,7 @@
       <a target="_blank" href="https://www.facebook.com/Nextcloud-1032807203462807/"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.svg" title="Like our facebook page!" alt="Like our facebook page!"></img></a>
       <a target="_blank" href="https://twitter.com/nextclouders"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitter.svg" title="Subscribe to our twitter channel!" alt="Subscribe to our twitter channel!"></img></a>
       <a target="_blank" href="https://nextcloud.com/blogfeed"><img class="img-circle" width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/rss.svg" title="Subscribe to our news feed!" alt="Subscribe to our news feed!"></img></a>
-      <a target="_blank" href="https://newsletter.nextcloud.com"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/mail.svg" title="Subscribe to our newsletter!" alt="Subscribe to our newsletter!"></img></a>
+      <a target="_blank" href="https://newsletter.nextcloud.com/?p=subscribe&id=1"><img width=50 src="<?php echo get_template_directory_uri(); ?>/assets/img/social/mail.svg" title="Subscribe to our newsletter!" alt="Subscribe to our newsletter!"></img></a>
     </div>
   </div>
   
