@@ -143,9 +143,6 @@ body {
 		background: #2A6496;
 		border: 1px solid #2A6496;
 	}
-	.intro-text {
-/* 		margin-top:  10%; */
-	}
 	.intro-text h1 {
 		text-shadow: 0px 0px 3px #000000;
 		font-size: 36px;
@@ -189,9 +186,6 @@ body {
 	}
 	.teaser-area .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
 		margin-top: 15px;
-	}
-	.intro-text {
-/* 		margin-top:  10%; */
 	}
 	.intro-text h1 {
 /* 		text-shadow: 0px 0px 3px #000000; */
@@ -238,9 +232,6 @@ body {
         .teaser-area .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
                 margin-top: 15px;
         }
-        .intro-text {
-/*                 margin-top:  10%; */
-        }
         .intro-text h1 {
 /* 		text-shadow: 0px 0px 3px #000000; */
                 font-size: 36px;
@@ -275,9 +266,6 @@ body {
                 min-height: 500px !important;
 		background-position: 20% 0%;
 	}
-	.intro-text {
-		margin-left: 7%;
-	}
 
 	.home-event-img {
 		height: 30%;
@@ -307,9 +295,6 @@ only screen and ( min-resolution: 160dpi              ) and (min-width: 700px) a
                 min-height: 500px !important;
 		background-position: 20% 0%;
 	}
-	.intro-text {
-		margin-left: 7%;
-	}
 
 	.home-event-img {
 		height: 35%;
@@ -330,9 +315,6 @@ only screen and ( min-resolution: 160dpi              ) and (min-width: 700px) a
 @media only screen and (min-width: 862px) and (max-width: 992px) {
 	header {
 /* 		background-image: url(../img/home/720p.jpg); */
-	}
-	.intro-text {
-		margin-left: 8%;
 	}
 
 	.home-event-img {
@@ -360,9 +342,6 @@ only screen and ( min-resolution: 160dpi                 ) and (min-width: 862px
 	header {
 /* 		background-image: url(../img/home/1080p.jpg); */
 	}
-	.intro-text {
-		margin-left: 8%;
-	}
 	.home-event-img {
 		height: 35%;
 		margin: 0 0 0 0 !important;
@@ -381,9 +360,6 @@ only screen and ( min-resolution: 160dpi                 ) and (min-width: 862px
 @media only screen and (min-width: 992px) and (max-width: 1260px) {
 	header {
 /* 		background-image: url(../img/home/720p.jpg); */
-	}
-	.intro-text {
-		margin-left: 0%;
 	}
 	.home-event-img {
 		height: 35%;
@@ -410,9 +386,6 @@ only screen and ( min-resolution: 160dpi                 ) and (min-width: 992px
 	header {
 /* 		background-image: url(../img/home/1080p.jpg); */
 	}
-	.intro-text {
-		margin-left: 0%;
-	}
 	.home-event-img {
 		height: 35%;
 		margin: 0 0 0 0 !important;
@@ -432,12 +405,7 @@ only screen and ( min-resolution: 160dpi                 ) and (min-width: 992px
 	header {
 /* 		background-image: url(../img/home/1080p.jpg); */
 	}
-	.intro-text {
-/* 		margin-top: 12%; */
-		margin-left: -2%;
-		margin-right: 5%;
-	}
-	
+
 }
 
 /* full hd screen size, hi DPI */
@@ -451,11 +419,6 @@ only screen and ( min-resolution: 160dpi                 ) and (min-width: 1260p
 		header {
 /* 		background-image: url(../img/home/1440p.jpg); */
 	}
-	.intro-text {
-		margin-top: 12%;
-		margin-left: -2%;
-		margin-right: 5%;
-	}
 }
 
 /* larger than full hd screen size */
@@ -465,8 +428,5 @@ only screen and ( min-resolution: 160dpi                 ) and (min-width: 1260p
 		background-position: 5% 80%;
 /*         min-height: 1000px !important; */
 		min-height: 600px !important;
-	}
-	.intro-text {
-		margin-left: 0%;
 	}
 }
