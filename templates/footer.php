@@ -37,7 +37,7 @@
 <!--             <li class="menu-user-manual"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">Developer manual</a></li> -->
 <!--             <li class="menu-security"><a href="<?php get_bloginfo('url'); ?>/security/">Security</a></li> -->
 <!--             <li class="menu-store"><a href="http://www.cafepress.com/nextcloudshop">Nextcloud Store</a></li> -->
-          </ul>
+<!--          </ul>  -->
         </div>
      </div>
      <div class="col-sm-2 col-sm-offset-2">
