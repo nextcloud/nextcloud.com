@@ -4,7 +4,6 @@
    background-color: #23305D;
    background-attachment: scroll;
 /*    background-image: url(../img/home/720p.jpg); */
-   background-image: url(../img/home/background2.jpg);
    background-position: 0% 100%;
    background-repeat: none;
    -webkit-background-size: cover;
@@ -31,13 +30,13 @@ body {
     margin-top: 20px;
 	margin-bottom: 50px;
     background: #0082C9;
-    border: 1px solid #0062C9;
+    border: 1px solid rgba(210,210,210,.9);
 }
 
 .teaser-area .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
     margin-top: 20px;
     background: #2A6496;
-    border: 1px solid #2A6496;
+    border: 1px solid rgba(210,210,210,.4);
 }
 
 .intro-text {
