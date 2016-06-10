@@ -27,7 +27,7 @@
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: bold;
-	src: local('Open Sans Bold'), local('OpenSans-Bold'), url(../fonts/OpenSans-Bold.woff) format('woff'), url(../fonts/OpenSans-Bold.ttf) format('ttf');
+	src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(../fonts/OpenSans-Semibold.woff) format('woff'), url(../fonts/OpenSans-Semibold.ttf) format('ttf');
 }
 
 @font-face {
@@ -56,9 +56,9 @@ span.avoidwrap {
 
 /* Make background white, font grey and default buttons a bit darker to compensate */
 body {
-        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Font Awesome", sans-serif !important;
+        font-family: 'Open Sans', Frutiger, Calibri, 'Myriad Pro', Myriad, sans-serif !important;
 	color: #555;
-	background: white;
+	background: #fff;
 }
 
 
@@ -94,7 +94,7 @@ h3 {
 .btn-primary {
 	background: #0082C9;
 	border: 1px solid #0062C9;
-	color: white;
+	color: #fff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
@@ -117,7 +117,7 @@ button a:hover {text-decoration: none; }
    background-attachment: scroll;
 /*    background-image: url(../img/home/720p.jpg); */
    background-image: url(../img/home/background3.jpg);
-   background-position: 0% 100%;
+   background-position: center;
    background-repeat: none;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -998,7 +998,7 @@ img.desaturate {
 }
 
 .ft-everywhere-txt {
-	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+	/*text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);*/
 	color: white;
 	position: relative;
 	padding-top: 100px;
