@@ -29,14 +29,14 @@ body {
     padding: 18px 24px;
     margin-top: 20px;
 	margin-bottom: 50px;
-    background: #0082C9;
-    border: 1px solid rgba(210,210,210,.9);
+    background: rgba(255,255,255,0);
+    border: 3px solid white;
 }
 
 .teaser-area .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
     margin-top: 20px;
-    background: #2A6496;
-    border: 1px solid rgba(210,210,210,.4);
+    background: rgba(255,255,255,0);
+    border: 3px solid rgba(255,255,255,.75);
 }
 
 .intro-text {
