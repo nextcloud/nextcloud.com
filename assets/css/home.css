@@ -26,11 +26,12 @@ body {
 
 .teaser-area .btn-primary {
     font-size: 24px;
+    font-weight: 600;
     padding: 18px 24px;
     margin-top: 20px;
 	margin-bottom: 50px;
-    background: rgba(255,255,255,0);
-    border: 3px solid white;
+    background: transparent;
+    border: 3px solid #fff;
 }
 
 .teaser-area .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
@@ -47,7 +48,6 @@ body {
 .intro-text h1 {
 	font-size: 58px;
 	line-height: 70px;
-	text-shadow: 0px 0px 3px #000000;
 }
 
 .intro-text p {
@@ -134,16 +134,12 @@ body {
 		font-size: 18px;
 		padding: 12px 18px;
 		margin-top: 10px;
-		background: #35537a;
-		border: 1px solid #35537a;
 	}
 	.teaser-area .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
 		margin-top: 15px;
-		background: #2A6496;
-		border: 1px solid #2A6496;
 	}
 	.intro-text h1 {
-		text-shadow: 0px 0px 3px #000000;
+/*		text-shadow: 0px 0px 3px #000000; */
 		font-size: 36px;
 		line-height: 38px;
 	}
