@@ -105,7 +105,7 @@ body {
 /* event image */
 
 .home-event-img {
-	height: 45%;
+	height: 40%;
 	margin: 0 0 0 0 !important;
 	position: absolute;
 	bottom:5%;
@@ -150,7 +150,7 @@ body {
 	}
 
 	.home-event-img {
-		height: 35%;
+		height: 114px;
 		margin: 0 0 0 0 !important;
 		position: absolute;
 		bottom:-100px;
@@ -194,10 +194,10 @@ body {
 	}
 
 	.home-event-img {
-		height: 30%;
+		height: 114px;
 		margin: 0 0 0 0 !important;
 		position: absolute;
-		bottom:-20px;
+		bottom:-60px;
 		left:5%;
 		/* IE 9 */
 		-ms-transform: rotate(-11deg);
@@ -239,7 +239,7 @@ body {
         }
 
         .home-event-img {
-			height: 35%;
+			height: 125px;
 			margin: 0 0 0 0 !important;
 			position: absolute;
 			bottom:-20px;
@@ -263,10 +263,10 @@ body {
 	}
 
 	.home-event-img {
-		height: 30%;
+		height: 175px;
 		margin: 0 0 0 0 !important;
 		position: absolute;
-		top:20%;
+		bottom: -40px;
 		left:5%;
 		/* IE 9 */
 		-ms-transform: rotate(-11deg);
@@ -292,10 +292,10 @@ only screen and ( min-resolution: 160dpi              ) and (min-width: 700px) a
 	}
 
 	.home-event-img {
-		height: 35%;
+		height: 175px;
 		margin: 0 0 0 0 !important;
 		position: absolute;
-		top:60%;
+		bottom: -40px;
 		left:5%;
 		/* IE 9 */
 		-ms-transform: rotate(-11deg);
@@ -385,7 +385,7 @@ only screen and ( min-resolution: 160dpi                 ) and (min-width: 992px
 		height: 35%;
 		margin: 0 0 0 0 !important;
 		position: absolute;
-		top:25%;
+		top:50%;
 		left:5%;
 		/* IE 9 */
 		-ms-transform: rotate(-11deg);
