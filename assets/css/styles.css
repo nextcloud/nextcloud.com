@@ -406,7 +406,7 @@ i.icon-opensource {
 
 @media (max-width: 1199px) and (min-width: 992px) {
 	.banner ul#menu-header.nav {
-		width: 80%;
+		width: inherit;
 		padding-top: 20px;
 	}
 
@@ -687,6 +687,13 @@ p.federation-id {
 }
 
 /** media queries **/
+@media (max-width: 991px) and (min-width: 768px) {
+  .banner ul#menu-header.nav{
+    width:inherit;
+    padding-top:20px;
+  }
+}
+
 @media (max-width: 991px) {
   .new-timeline li .new-timeline-panel {
     width: 44%;
