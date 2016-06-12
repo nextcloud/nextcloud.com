@@ -316,7 +316,7 @@ only screen and ( min-resolution: 160dpi              ) and (min-width: 700px) a
 		height: 35%;
 		margin: 0 0 0 0 !important;
 		position: absolute;
-		top:20%;
+		top:60%;
 		left:5%;
 		/* IE 9 */
 		-ms-transform: rotate(-11deg);
