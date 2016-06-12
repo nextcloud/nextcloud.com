@@ -13,15 +13,15 @@
 <footer class="content-info" role="contentinfo">
 <div class="container">   
    <div class="row">
-     <div class="col-sm-2 col-sm-offset-1">
+     <div class="col-sm-2 col-sm-offset-2">
         <div class="footer-nav">
           <h4>About Nextcloud</h4>
           <ul id="menu-about" class="menu">
             <li class="menu-contact"><a href="<?php get_bloginfo('url'); ?>/about/">About us</a></li>
-            <li class="menu-contact"><a href="<?php get_bloginfo('url'); ?>/contact/">Contact us</a></li>
 <!--             <li class="menu-history"><a href="<?php get_bloginfo('url'); ?>/history/">History</a></li> -->
 <!--             <li class="menu-events"><a href="<?php get_bloginfo('url'); ?>/events/">Events</a></li> -->
-            <li class="menu-press"><a href="/press">Press</a></li>
+            <li class="menu-privacy"><a href="<?php get_bloginfo('url'); ?>/jobs">Jobs</a></li>
+            <li class="menu-privacy"><a href="<?php get_bloginfo('url'); ?>/community/code-of-conduct/">Code of conduct</a></li>
             <li class="menu-privacy"><a href="<?php get_bloginfo('url'); ?>/privacy/">Privacy and legal</a></li>
           </ul>
         </div>
@@ -40,13 +40,15 @@
 <!--          </ul>  -->
         </div>
      </div>
-     <div class="col-sm-2 col-sm-offset-2">
+     <div class="col-sm-2 <!--col-sm-offset-2-->">
         <div class="footer-nav">
           <h4>Interact</h4>
           <ul id="menu-interact" class="menu">
             <li class="menu-irc-channel"><a target="_blank" href="https://webchat.freenode.net/?channels=nextcloud">IRC Channel</a></li>
 <!--             <li class="menu-mailing-list"><a target="_blank" href="https://mailman.nextcloud.com/mailman/listinfo/">Mailing List</a></li> -->
             <li class="menu-forums"><a target="_blank" href="https://help.nextcloud.com/categories">Forums</a></li>
+            <li class="menu-contact"><a href="<?php get_bloginfo('url'); ?>/contact/">Contact us</a></li>
+            <li class="menu-press"><a href="/press">Press</a></li>
 <!--             <li class="menu-bug-tracker"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/index.html">Bug Tracker</a></li> -->
 <!--             <li class="menu-promote"><a href="/promote/">Spread the word</a></li> -->
           </ul>
