@@ -60,5 +60,9 @@
 </div>
 </footer>
 
+<script type="text/javascript" async defer
+  src="https://apis.google.com/js/platform.js?publisherid=104036748063781940910">
+</script>
+
 <?php wp_footer(); ?>
  
