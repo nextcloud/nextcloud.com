@@ -32,7 +32,7 @@
 								<li>Follow the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation">Nextcloud Admin Manuals’</a> installation chapter.</br>
 															If you already run Nextcloud, refer to the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/update.html">update documentation</a> for minor releases and the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html">upgrade manual</a> for moving to major new Nextcloud releases</li>
 							</ol>
-							<p><strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="http://mailman.nextcloud.com/mailman/listinfo/announcements">announcement mailing list</a>.</p>
+							<p><strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a>.</p>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">

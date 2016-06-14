@@ -68,7 +68,7 @@
 	<li>Full lifecycle support, from project inception to production and user growth</li>
 	<li>Help to scale your Nextcloud installation to large amounts of storage and large numbers of users</li>
 	<li>Security and hardening consulting</li>
-	<li>Access to the roadmap of the open source project</li>
+	<li>Influence on the roadmap of the open source project</li>
 	<li>Access to the core Nextcloud engineers</li>
 	<li>Access to consulting for custom capabilities</li>
 <!-- 	<li>Support for branding Nextcloud</li> -->
