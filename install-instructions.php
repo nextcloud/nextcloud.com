@@ -205,7 +205,7 @@
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/blackberry.png">
 							</a>-->
 							<br />
-							<p>Find the <a href="https://github.com/nextcloud/android">Android sources here</a>. We're working on more clients, stay tuned! In the mean time, any WebDAV client or the <a href="https://owncloud.org/install/#install-clients">old ownCloud clients</a> will work with Nextcloud.<!--or <a href="https://github.com/nextcloud/ios">iOS sources</a>? Looking for <a href="http://f-droid.org/app/com.nextcloud.android">F-Droid</a>?--></p>
+							<p>Find the <a href="https://github.com/nextcloud/android">Android sources here</a>. We're working on more clients, stay tuned! In the mean time, any WebDAV client or the <a href="https://owncloud.org/install/#install-clients">ownCloud clients</a> will work with Nextcloud.<!--or <a href="https://github.com/nextcloud/ios">iOS sources</a>? Looking for <a href="http://f-droid.org/app/com.nextcloud.android">F-Droid</a>?--></p>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
