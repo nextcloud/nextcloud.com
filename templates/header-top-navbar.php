@@ -21,7 +21,7 @@
         <li class="<?php if(is_page('contribute')){ echo 'top-nav-active '; } ?>menu-contribute"><a href="/contribute/">Get involved</a>
         <li class="<?php if(is_page('support')){ echo 'top-nav-active '; } ?>menu-support"><a href="/support/">Support</a></li>
         <li class="<?php if(is_page('enterprise')){ echo 'top-nav-active '; } ?>menu-enterprise"><a href="/enterprise/">Enterprise</a></li>
-<!--         <li class="<?php if(is_page('install')){ echo 'top-nav-active '; } ?>menu-install"><a href="/install/">Download</a></li> -->
+        <li class="<?php if(is_page('install')){ echo 'top-nav-active '; } ?>menu-install"><a href="/install/">Download</a></li>
       </ul>
     </nav>
   </div>

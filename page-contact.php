@@ -28,7 +28,7 @@
 
 		<!--If you want to talk to Nextcloud users, contributors and fans, join the <a href="/promote" target="_blank">community conversation</a> over social media, the forums and other places.--> 
 		<h1>Talk to us online!</h1>
-		Most of our contributors are active in <a href="irc://#nextcloud-dev@freenode.net" target="_blank">the Nextcloud development IRC channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. We are still bootstrapping this great new project and welcome your help! 
+		Most of our contributors are active in <a href="irc://#nextcloud-dev@freenode.net" target="_blank">the Nextcloud development IRC channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. We're also very active <a href="https://help.nextcloud.com" target="_blank">on our forums</a>. We are still bootstrapping this great new project and welcome your help! 
 		<!--If you are looking for answers to questions, see <a href="/faq" target="_blank">the Nextcloud FAQ</a> and our <a href="/support" target="_blank">support page</a>.-->
 
 		<!-- For the latest news, subscribe to our <a href="https://nextcloud.org/feed/">RSS feed</a>.</p> -->
