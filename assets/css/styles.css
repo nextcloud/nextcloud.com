@@ -514,6 +514,16 @@ p.federation-id {
 }
 
 
+/*---- Enterprise page ---- */
+
+.table-center {
+	text-align: center !important;
+}
+
+.enterprise-icon {
+	font-size:80px;
+	color: #0082c9;
+}
 
 
 /*---- history page ---- */
