@@ -2,46 +2,46 @@
 <div class="page-header">
 	<h1>Privacy and control for your organization</h1>
 </div>
-<h2>Subscription options</h2>
-The annual Nextcloud Enterprise Subscription starts at 50 users for Eur 3200 and is available in the following options:
+<!-- <h2>Subscription options</h2> -->
+<!-- The annual Nextcloud Enterprise Subscription starts at 50 users for Eur 3200 and is available in the following options: -->
 
-<table class="table table-striped">
-	<tr class="table-center">
-		<td class="info" style="min-width:250px"><i class="icon-home enterprise-icon"></i>
+<!-- <table class="table table-striped"> -->
+<!-- 	<tr class="table-center"> -->
+<!-- 		<td class="info" style="min-width:250px"><i class="icon-home enterprise-icon"></i> -->
 <!-- 			<img class="responsive" style="width: 50%" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/small.png" alt="for small businesses" /> -->
-		</td>
-		<td class="info" style="min-width:250px"><i class="icon-building enterprise-icon"></i>
+<!-- 		</td> -->
+<!-- 		<td class="info" style="min-width:250px"><i class="icon-building enterprise-icon"></i> -->
 <!-- 			<img class="responsive" style="width: 50%" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/medium.png" alt="for small businesses" /> -->
-		</td>
-		<td class="info" style="min-width:250px"><i class="icon-university enterprise-icon"></i>
+<!-- 		</td> -->
+<!-- 		<td class="info" style="min-width:250px"><i class="icon-university enterprise-icon"></i> -->
 <!-- 		<img class="responsive" style="width: 50%" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/large.png" alt="for small businesses" /> -->
-		</td>
-	</tr>
-	<tr>
-		<td class="info"><h2>50-100 users</h2></td>
-		<td class="info"><h2>100-5000 users</h2></td>
-		<td class="info"><h2>5000+ users</h2></td>
-	</tr>
-	<tr>
-		<td class="info">Deployment support</td>
-		<td class="info">Deployment support</td>
-		<td class="info">Deployment support</td>
-	</tr>
-	<tr>
-		<td class="info">Security and hardening consulting</td>
-		<td class="info">Security and hardening consulting</td>
-		<td class="info">Security and hardening consulting</td>
-	</tr>
-	<tr>
-		<td class="info">Office hours email support</td>
-		<td class="info">Extended office hours email and phone support</td>
-		<td class="info">All week email and phone support</td>
-	</tr>
-	<tr>
-		<td class="active E-price">Starting at Eur 3200</td>
-		<td class="active E-price">Starting at Eur 6200</td>
-		<td class="active E-price">Contact us</td>
-	</tr></table>
+<!-- 		</td> -->
+<!-- 	</tr> -->
+<!-- 	<tr> -->
+<!-- 		<td class="info"><h2>50-100 users</h2></td> -->
+<!-- 		<td class="info"><h2>100-5000 users</h2></td> -->
+<!-- 		<td class="info"><h2>5000+ users</h2></td> -->
+<!-- 	</tr> -->
+<!-- 	<tr> -->
+<!-- 		<td class="info">Deployment support</td> -->
+<!-- 		<td class="info">Deployment support</td> -->
+<!-- 		<td class="info">Deployment support</td> -->
+<!-- 	</tr> -->
+<!-- 	<tr> -->
+<!-- 		<td class="info">Security and hardening consulting</td> -->
+<!-- 		<td class="info">Security and hardening consulting</td> -->
+<!-- 		<td class="info">Security and hardening consulting</td> -->
+<!-- 	</tr> -->
+<!-- 	<tr> -->
+<!-- 		<td class="info">Office hours email support</td> -->
+<!-- 		<td class="info">Extended office hours email and phone support</td> -->
+<!-- 		<td class="info">All week email and phone support</td> -->
+<!-- 	</tr> -->
+<!-- 	<tr> -->
+<!-- 		<td class="active E-price">Starting at Eur 3200</td> -->
+<!-- 		<td class="active E-price">Starting at Eur 6200</td> -->
+<!-- 		<td class="active E-price">Contact us</td> -->
+<!-- 	</tr></table> -->
 
 <p>Nextcloud gives organizations control over their data. Manage access to data across devices and platforms, on-premise, on existing storage or with cloud storage. Communicate through secure video and audio conferencing and leverage file sharing and collaboration capabilities, knowing your privacy is protected. Nextcloud integrates in your infrastructure, offering the extensibility and features you need combined with the logging and fine grained control over file access and communication required in regulated industries.</p>
 
