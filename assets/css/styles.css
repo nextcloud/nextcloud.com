@@ -7,13 +7,6 @@
 	border-color: red;
  }*/
 
-.menu-install {
-	background: #35537a !important;
-}
-
-.menu-install:hover  {
-	background: #2A6496 !important;
-}
 
 
 @font-face {
@@ -99,7 +92,7 @@ h3 {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
 /* 	background: #428BCA; */
-/* 	border: 1px solid #1D2D44; */
+/* 	border: 1px solid #0082C9; */
 /* 	color: white; */
 }
 
@@ -204,7 +197,7 @@ li.top-nav-active > a {
 }
 
 div.feature-wide-row-wrap {
-  background-color: #1D2D44;
+  background-color: #0082C9;
   color: white;
   padding-bottom: 20px;
 }
@@ -454,12 +447,6 @@ div.row.home-row h2 {
 	padding-bottom: 0 !important;
 }
 
-@media (max-width: 1199px) {
-	.home #getapps .client-install {
-		margin-top: 10px;
-	}
-}
-
 @media (max-width: 991px) {
  	.home-header-image {
  		margin-top: 2em !important;
@@ -478,27 +465,6 @@ div.row.home-row h2 {
 	}
  }
 
-@media (max-width: 767px) {
-	.home #getapps .client-install, .home #getapps .btn-group, .home #getapps h2 {
-		margin-top: 0;
-	}
-
-	a.home-ent-button {
-		display: block;
-		width: 290px;
-		margin: 10px auto 0 auto !important;
-	}
-
-	div#getapps div.install-buttons {
-		margin-bottom: 40px;
-	}
-}
-
-@media (max-width: 562px) {
-	.home #getapps .client-install {
-		margin-top: 10px;
-	}
-}
 
 .home .home-row a.feature-link {
 	margin-bottom: 30px;
@@ -783,6 +749,43 @@ div.evnt-btn-wrap {
 
 /** Get Started/install Page **/
 
+.menu-install {
+	background: #0082C9 !important;
+}
+
+.menu-install:hover  {
+	background: #2A6496 !important;
+}
+
+
+@media (max-width: 1199px) {
+	.home #getapps .client-install {
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 767px) {
+	.home #getapps .client-install, .home #getapps .btn-group, .home #getapps h2 {
+		margin-top: 0;
+	}
+
+	a.home-ent-button {
+		display: block;
+		width: 290px;
+		margin: 10px auto 0 auto !important;
+	}
+
+	div#getapps div.install-buttons {
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 562px) {
+	.home #getapps .client-install {
+		margin-top: 10px;
+	}
+}
+
 div#getapps h2{
   text-align: center;
   font-weight:200;
@@ -818,7 +821,7 @@ div.numbadge {
 	width: 53px;
 	height: 53px;
 	color: white;
-	background: #1D2D44;
+	background: #0082C9;
 	text-align: center;
 	padding-top: 6px;
 	font-size: 21px;
@@ -838,7 +841,7 @@ body.install h4 {
 	margin-top: 30px;
 }
 body.install hr {
-	border-bottom: 1px dotted #1D2D44;
+	border-bottom: 1px dotted #0082C9;
 }
 
 body.install hr.narrow, body.install hr.wide {
@@ -856,7 +859,7 @@ body.install div.col-md-3 {
 body.install div.PopupGetStarted {
     height: auto;
     margin: 0 auto;
-/*     color: #1D2D44; no need to repeat that here */
+/*     color: #0082C9; no need to repeat that here */
     position: absolute;
     top: 0;
     right: 0;
@@ -912,7 +915,7 @@ body.install div.PopupGetStarted:target, body.install div.PopupGetStarted:target
     opacity: 1;
 }
 body.install .label-blue {
-	background-color: #35537a;
+	background-color: #0082C9;
 }
 body.install .close {
 	color: #575858;
