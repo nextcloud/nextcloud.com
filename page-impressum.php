@@ -3,7 +3,7 @@
 <!--         <div class="page-header"> -->
 <!--             </div> -->
 <h1>Legal Notice:</h1>
-<p>Nextcloud GmbH i.G.<br/>
+<p>Nextcloud<br/>
 Kronenstraße 22A<br/>
 70173 Stuttgart Germany<br/>
 T +49 711 89 66 56 0<br/>
