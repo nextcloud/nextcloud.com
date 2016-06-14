@@ -106,7 +106,7 @@ button a:hover {text-decoration: none; }
 /* Remove line under page headers (defined in main.min.css) */
 
 .navbar {
-	background-color: #23305D;
+	background-color: #005b8e;
    background-attachment: scroll;
 /*    background-image: url(../img/home/720p.jpg); */
    background-image: url(../img/home/background3.jpg);
@@ -121,8 +121,15 @@ button a:hover {text-decoration: none; }
 /*    min-height: 800px !important; */
    z-index: 0 !important;
 }
-
 	
+}
+
+.menu-install {
+	background: #0082c9 !important;
+}
+
+.menu-install:hover  {
+/* 	background: #428bca !important; */
 }
 
 div.page-header {
@@ -177,16 +184,6 @@ h2.featuretitle {
   padding-bottom: 6px;
   font-size: 1em;
 }
-
-.banner ul#menu-header.nav>li.menu-commercial>a:hover{
-  border-bottom: 2px solid #e8733b;
-}
-
-.btn.btn-orange {
-  background-color: #e8733b;
-  color: white;
-}
-
 
 div.sub-nav {
   margin-top: -20px;
@@ -759,13 +756,6 @@ div.evnt-btn-wrap {
 
 /** Get Started/install Page **/
 
-.menu-install {
-	background: #0082C9 !important;
-}
-
-.menu-install:hover  {
-	background: #2A6496 !important;
-}
 
 
 @media (max-width: 1199px) {
@@ -896,6 +886,7 @@ body.install a.mask {
     z-index: 500;
     display: none;
 }
+
 body.install .overlay-header {
 	background-color: rgba(240,240,240,.9);
 	border-radius: 4px;
