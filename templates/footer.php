@@ -57,7 +57,7 @@
    </div>
    <div class="row">
     <div class="col-lg-12 footer-text">
-      <p><font face="sans"> &copy; </font> <?php echo date('Y'); ?> Nextcloud. <small><a href="/impressum">Legal Notice</a></p></small>
+      <p><font face="sans"><a href="https://github.com/nextcloud/nextcloud.com">MIT</a> &copy; </font> <?php echo date('Y'); ?> Nextcloud, <small><a href="/impressum">Legal Notice</a> </p></small>
   </div>
 </div>
 </footer>
