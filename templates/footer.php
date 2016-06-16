@@ -20,8 +20,8 @@
             <li class="menu-contact"><a href="<?php get_bloginfo('url'); ?>/about/">About us</a></li>
 <!--             <li class="menu-history"><a href="<?php get_bloginfo('url'); ?>/history/">History</a></li> -->
 <!--             <li class="menu-events"><a href="<?php get_bloginfo('url'); ?>/events/">Events</a></li> -->
-            <li class="menu-privacy"><a href="<?php get_bloginfo('url'); ?>/jobs">Jobs</a></li>
-            <li class="menu-privacy"><a href="<?php get_bloginfo('url'); ?>/community/code-of-conduct/">Code of conduct</a></li>
+            <li class="menu-jobs"><a href="<?php get_bloginfo('url'); ?>/jobs">Jobs</a></li>
+            <li class="menu-coc"><a href="<?php get_bloginfo('url'); ?>/community/code-of-conduct/">Code of conduct</a></li>
             <li class="menu-privacy"><a href="<?php get_bloginfo('url'); ?>/privacy/">Privacy and legal</a></li>
           </ul>
         </div>
@@ -37,6 +37,7 @@
             <li class="menu-user-manual"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">Developer manual</a></li>
             <li class="menu-security"><a href="<?php get_bloginfo('url'); ?>/security/">Security</a></li>
 <!--             <li class="menu-store"><a href="http://www.cafepress.com/nextcloudshop">Nextcloud Store</a></li> -->
+			<li class="menu-code"><a href="https://github.com/nextcloud">Code on GitHub</a></li>
 <!--          </ul>  -->
         </div>
      </div>
@@ -49,7 +50,7 @@
             <li class="menu-forums"><a target="_blank" href="https://help.nextcloud.com/categories">Forums</a></li>
             <li class="menu-contact"><a href="<?php get_bloginfo('url'); ?>/contact/">Contact us</a></li>
             <li class="menu-press"><a href="/press">Press</a></li>
-<!--             <li class="menu-bug-tracker"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/index.html">Bug Tracker</a></li> -->
+            <li class="menu-bug-tracker"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/index.html">Bug Tracker</a></li>
 <!--             <li class="menu-promote"><a href="/promote/">Spread the word</a></li> -->
           </ul>
         </div>
