@@ -29,7 +29,7 @@
      <div class="col-sm-2 col-sm-offset-2">
         <div class="footer-nav">
           <h4>Resources</h4>
-			<ul id="menu-support-and-documentation" class="menu">
+          <ul id="menu-support-and-documentation" class="menu">
 <!--             <li class="menu-faq"><a href="<?php get_bloginfo('url'); ?>/faq/">FAQ</a></li> -->
             <li class="menu-support"><a href="<?php get_bloginfo('url'); ?>/support/">Support</a></li>
             <li class="menu-admin-manual"><a href="<?php echo $DOCUMENTATION_ADMIN; ?>">Admin manual</a></li>
@@ -37,8 +37,8 @@
             <li class="menu-user-manual"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">Developer manual</a></li>
 <!--             <li class="menu-security"><a href="<?php get_bloginfo('url'); ?>/security/">Security</a></li> -->
 <!--             <li class="menu-store"><a href="http://www.cafepress.com/nextcloudshop">Nextcloud Store</a></li> -->
-			<li class="menu-code"><a href="https://github.com/nextcloud">Code on GitHub</a></li>
-<!--          </ul>  -->
+            <li class="menu-code"><a href="https://github.com/nextcloud">Code on GitHub</a></li>
+          </ul>
         </div>
      </div>
      <div class="col-sm-2 col-sm-offset-2">
