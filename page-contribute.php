@@ -75,7 +75,7 @@ Do you want to <strong>help</strong> translate, promote or document Nextcloud?</
 <!--         <li>Answer Nextcloud user questions on <a href="https://mailman.nextcloud.org/mailman/listinfo/user">the Nextcloud user mailing list</a></li> -->
 		</ul>
     </div>
-</div>-->
+</div>
 <br />
 <p>Please be considerate of our <a href="/community/code-of-conduct/">code of conduct</a>. We want to provide a positive and enjoyable environment for everybody.</p>
 <h1>Let's make Nextcloud Rock!</h1>  
