@@ -15,7 +15,7 @@
         <li class="<?php if(is_page('news')){ echo 'top-nav-active '; } ?>menu-news"><a href="/news/">News</a></li>
 <!--         <li class="<?php if(is_page('features')){ echo 'top-nav-active '; } ?>menu-features"><a href="/features/">Features</a></li> -->
 <!--         <li class="menu-demo"><a target="_blank" href="https://demo.nextcloud.com">Demo</a></li> -->
-        <li class="menu-documentation"><a href="https://docs.nextcloud.com">Documentation</a></li>
+        <li class="menu-documentation"><a href="https://docs.nextcloud.org/">Documentation</a></li>
 		<li class="<?php if(is_page('about')){ echo 'top-nav-active '; } ?>menu-about"><a href="/about/">About us</a>
 <!-- 		<li class="<?php if(is_page('contact')){ echo 'top-nav-active '; } ?>menu-contact"><a href="/contact/">Contact us</a> -->
         <li class="<?php if(is_page('contribute')){ echo 'top-nav-active '; } ?>menu-contribute"><a href="/contribute/">Get involved</a>
