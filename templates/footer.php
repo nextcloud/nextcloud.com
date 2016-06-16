@@ -13,7 +13,7 @@
 <footer class="content-info" role="contentinfo">
 <div class="container">   
    <div class="row">
-     <div class="col-sm-2 col-sm-offset-2">
+     <div class="col-sm-2 col-sm-offset-1">
         <div class="footer-nav">
           <h4>About Nextcloud</h4>
           <ul id="menu-about" class="menu">
@@ -40,7 +40,7 @@
 <!--          </ul>  -->
         </div>
      </div>
-     <div class="col-sm-2 <!--col-sm-offset-2-->">
+     <div class="col-sm-2 col-sm-offset-2">
         <div class="footer-nav">
           <h4>Interact</h4>
           <ul id="menu-interact" class="menu">
