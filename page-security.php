@@ -1,5 +1,5 @@
 <?php get_template_part( 'templates/parts/title'); ?>
-<div class="sub-nav"><a href="/security/advisories">Security Advisories</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/security/hall-of-fame">Hall of Fame</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/security/threat-model">Threat Model</a>
+<div class="sub-nav"><a href="/security/advisories">Security Advisories</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/security/threat-model">Threat Model</a>
 </div>
 <h2>Security information</h2>
 <p>This page hosts our security policies and information with regards to reporting security flaws. You can <a href="<?php echo get_template_directory_uri(); ?>/advisories/advisories.rss">follow our advisories via RSS</a>.</p>

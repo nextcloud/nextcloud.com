@@ -9,7 +9,7 @@
 		</form>
 	</div>
 </div>
-<div class="sub-nav"><a href="/security">Security page</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/security/hall-of-fame">Hall of Fame</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/security/threat-model">Threat Model</a></div>
+<div class="sub-nav"><a href="/security">Security page</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/security/threat-model">Threat Model</a></div>
 <div style="margin-top: 20px;"><p>You can <a href="<?php echo get_template_directory_uri(); ?>/advisories/advisories.rss">follow our advisories via RSS</a>.</p></div>
 <div class="row" style="
     margin-top: 20px;
