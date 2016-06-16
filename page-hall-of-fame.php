@@ -1,6 +1,7 @@
 <div class="page-header">
 	<h1>Security Hall of Fame</h1>
 </div>
+<div class="sub-nav"><a href="/security">Security overview</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/security/advisories">Security Advisories</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/security/threat-model">Threat Model</a>
 <div class="alert alert-success"><strong>Heads up!</strong> We appreciate every vulnerability report, however, listing on this page is reserved for people who have reported unknown vulnerabilities which we have determined to be of a high or critical severity. People who have reported issues on our websites *.nextcloud.org and *.nextcloud.com can be found <a href="#issues-with-webservices">below</a>.</div>
 <p>The Nextcloud community would like to acknowledge the following people for their contributions to the security of Nextcloud:</p>
 <strong>2015</strong>
@@ -51,7 +52,7 @@
 	<li><a href="http://tgries.de/">Thomas Gries</a></li>
 </ul>
 <hr/>
-<a name="issues-with-webservices"></a>
+<!--<a name="issues-with-webservices"></a>
 <h2>Issues with our Web Services</h2>
 <div class="alert alert-warning">
 	<strong>Heads up!</strong> This hall of fame for website related reports is closed. We appreciate report about the web
@@ -60,36 +61,5 @@
 
 <p>The Nextcloud community would like to acknowledge the following people for their contributions to the security of our websites
 	*.nextcloud.org and *.nextcloud.com</p>
-<br/>
-<strong>2015</strong>
-<ul>
-	<li>Ilca Lucian (<a href="http://www.pwnthecode.org/">pwnthecode.org</a>)</li>
-</ul>
-<strong>2014</strong>
-<ul>
-	<li>Ali BenCafu (<a href="https://twitter.com/Th3Septimus">@Th3Septimus</a>)</li>
-	<li>M.Asim Shahzad (<a href="https://pk.linkedin.com/pub/m-asim-shahzad/a1/995/65a">LinkedIn</a>)</li>
-</ul>
-<strong>2013</strong>
-<ul>
-	<li><a href="http://www.yujikosuga.com">Yuji Kosuga</a></li>
-	<li>Tushar Rajhans Kumbhare - <a href="http://www.defencely.com/">defencely</a></li>
-	<li><a href="http://www.detectify.com">Fredrik N. Almroth</a></li>
-	<li>Ahmad Ashraff(<a href="https://twitter.com/yappare">@yappare</a>)</li>
-	<li>M.R.Vignesh Kumar (<a href="http://twitter.com/vigneshkumarmr">@vigneshkumarmr</a>)</li>
-	<li>Krutarth Shukla (@KrutarthShukla)</li>
-	<li>Kamil Sevi (<a href="https://twitter.com/kamilsevi">@kamilsevi</a>)</li>
-	<li><a href="http://computersecuritywithethicalhacking.blogspot.in/">Ajay Singh Negi</a> (<a href="https://twitter.com/ajaysinghnegi">@AjaySinghNegi</a>)</li>
-	<li>Nitin Goplani</li>
-</ul>
-<strong>2012</strong>
-<ul>
-	<li><a href="http://www.prajalkulkarni.com">Prajal Kulkarni</a></li>
-	<li>Emanuel Bronshtein (<a href="https://twitter.com/e3amn2l">@e3amn2l</a>)</li>
-	<li>Roland Van Laar</li>
-	<li><a href="http://oliver-arp.de/">Oliver Arp</a></li>
-	<li><a href="https://norsky.no/">Team NorSky</a></li>
-	<li><a href="http://www.frangez.ch">Igor Frangez</a></li>
-	<li>Kamil Sevi (<a href="https://twitter.com/kamilsevi">@kamilsevi</a>)</li>
-	<li><a href="http://rafayhackingarticles.net">Rafay Baloch</a></li>
-</ul>
+<br/>-->
+
