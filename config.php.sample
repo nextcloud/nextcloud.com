@@ -7,4 +7,8 @@ define(OFFICIALAUTHORID, 1);
 
 // Enables or disables the piwik tracking code
 define(PIWIKTRACKING, 0);
+
+// Recaptcha
+DEFINE(RECAPTCHA_SITEKEY, '');
+DEFINE(RECAPTCHA_SECRET, '');
 ?>
