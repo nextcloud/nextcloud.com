@@ -35,7 +35,7 @@
             <li class="menu-admin-manual"><a href="<?php echo $DOCUMENTATION_ADMIN; ?>">Admin manual</a></li>
             <li class="menu-user-manual"><a href="<?php echo $DOCUMENTATION_USER; ?>">User manual</a></li>
             <li class="menu-user-manual"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">Developer manual</a></li>
-<!--             <li class="menu-security"><a href="<?php get_bloginfo('url'); ?>/security/">Security</a></li> -->
+            <li class="menu-security"><a href="<?php get_bloginfo('url'); ?>/security/">Security</a></li>
 <!--             <li class="menu-store"><a href="http://www.cafepress.com/nextcloudshop">Nextcloud Store</a></li> -->
             <li class="menu-code"><a href="https://github.com/nextcloud">Code on GitHub</a></li>
           </ul>
