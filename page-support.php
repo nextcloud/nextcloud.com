@@ -10,14 +10,14 @@
 	<li><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">Developer manual</a></li>
 </ul>
 </p>
-<p>Use and enjoy the many apps from our built in app store, or find even more on <a href="https://apps.nextcloud.com" target="_blank">our app store</a>. Find <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/apps_management_installation.html">documentation on handling Apps here</a>.</p>
+<p>Use and enjoy the many apps from our built in app store<!--, or find even more on <a href="https://apps.owncloud.com" target="_blank">the web app store</a>-->. Find <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/apps_management_installation.html">documentation on handling Apps here</a>.</p>
 <p>You can ask for help in our community support channels:
 	<ul>
 	    <li><a href="https://help.nextcloud.com/categories" target="_blank">the Nextcloud Forums</a></li>
 	    <li><a href="irc://#nextcloud@freenode.net" target="_blank">the Nextcloud IRC chat channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud" target="_blank">webchat</a></li>
  	    <li>You can ask over our social media, including in the <a href="https://plus.google.com/u/0/communities/103772002345255844369" target="_blank">Nextcloud Google Plus community</a>, the <a href="https://www.facebook.com/Nextcloud-1032807203462807/" target="_blank">Facebook page</a> or on <a href="https://twitter.com/search?q=%23nextcloud&src=typd" target="_blank">Twitter</a></li> 
 <!-- 	    <li>Check out our documentation wiki page for <a href="https://github.com/nextcloud/documentation/wiki">edge cases and rare issues</a></li> -->
-	    <li>Finally, you could report a issue at our <a href="https://github.com/nextcloud/core/blob/master/CONTRIBUTING.md#submitting-issues" target="_blank">bug trackers</a> if you think you found a bug in Nextcloud itself</li>
+	    <li>Finally, you could report a issue at our <a href="https://github.com/nextcloud/server/blob/master/CONTRIBUTING.md#submitting-issues" target="_blank">bug trackers</a> if you think you found a bug in Nextcloud itself</li>
 
 	</ul>
 	<p>Please understand that all these channels essentially consist of users like you helping each other out. Consider helping others out where you can, to contribute back for the help you get. This is the only way to keep a community like Nextcloud healthy and sustainable!</p>
