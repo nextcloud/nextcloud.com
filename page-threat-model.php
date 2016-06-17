@@ -36,3 +36,6 @@ in those disabled features as not bounty-worthy.</p>
 
 <h3>User enumeration</h3>
 <p>We don't consider user enumeration a security risk as for convenience and for features such as Server-to-Server sharing this is an expected behaviour.</p>
+
+<h3>Brute force of credentials</h3>
+<p>At the moment we don't consider bruteforcing of credentials or a missing password treshold eligible vulnerabilities. In the case of Nextcloud we currently expect people to protect their instance using measures such as fail2ban. We're however working on adding a native anti-bruteforce protection.</p>
