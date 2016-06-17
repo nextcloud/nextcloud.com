@@ -39,3 +39,6 @@ in those disabled features as not bounty-worthy.</p>
 
 <h3>Brute force of credentials</h3>
 <p>At the moment we don't consider bruteforcing of credentials or a missing password treshold eligible vulnerabilities. In the case of Nextcloud we currently expect people to protect their instance using measures such as fail2ban. We're however working on adding a native anti-bruteforce protection.</p>
+
+<h3>Server-side request forgery</h3>
+<p>Nextcloud ships with multiple features that perform sending requests to other hosts, we do consider this accepted behaviour and advocate people to deploy Nextcloud into it's own seggregated network segment.</p>
