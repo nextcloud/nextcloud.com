@@ -25,6 +25,9 @@ in those disabled features as not bounty-worthy.</p>
 <h3>Audit logging</h3>
 <p>The audit logging feature in Nextcloud is at the moment missing some logs for things like "Accessing previews of files", these will be added in a future release and known issues are tracked in our <a href="https://github.com/nextcloud/server/issues/">issue tracker</a>.</p>
 
+<h3>Version disclosure</h3>
+<p>At the moment we consider version disclosure an accepted risk as an attacker can enumerate service versions using other means as well. (e.g. comparing behaviour)</p>
+
 <h3>Attacks involving other Android apps on the device</h3>
 <p>We do consider attacks involving other Android apps on the device as minimal risk, also especially considering that the Nextcloud Android apps stores synced files locally accessible on the device. (since no Content Provider is yet implemented).</p>
 
