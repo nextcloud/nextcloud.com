@@ -1,4 +1,5 @@
 <!--<?php get_template_part('templates/parts/title'); ?>-->
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
 		<h1>Contact us</h1>
@@ -19,6 +20,7 @@
 				<p><label for="comments">Your message<br />
 				<textarea  name="comments" maxlength="1000" cols="60" rows="6" placeholder="Let us know how we can help you!"></textarea></label></p>
 				<td colspan="2" style="text-align:center">
+				<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
 				<input type="submit" value=" Submit ">
 			</div>
 		</div>
