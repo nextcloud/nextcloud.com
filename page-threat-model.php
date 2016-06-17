@@ -30,3 +30,6 @@ in those disabled features as not bounty-worthy.</p>
 
 <h3>Content spoofing</h3>
 <p>Generally speaking we consider content spoofing not a bounty-worthy vulnerability.</p>
+
+<h3>User enumeration</h3>
+<p>We don't consider user enumeration a security risk as for convenience and for features such as Server-to-Server sharing this is an expected behaviour.</p>
