@@ -37,7 +37,7 @@ What we offer:
 	<li>Time for personal growth and education</li>
 </ul>
 Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-<h3 class="jobs">Linux expert</h3>
+<h3 class="jobs">Linux Kernel and Embedded Engineer</h3>
 <p>To satisfy the demand for our Spreedbox, we are seeking a Linux kernel and embedded development expert to join our team in Stuttgart. In this role you're responsible for the technical foundation of this product.</p>
 <p>Responsibilities:
 <ul>
