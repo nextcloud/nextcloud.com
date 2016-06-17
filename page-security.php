@@ -7,7 +7,7 @@
 <!--<p>If you are looking for information on encryption, <a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" target="_blank">see this blog</a>. For more general information around security, see our <a href="/faq#security" target="_blank">FAQ questions around security</a> and follow our development on <a href="https://nextcloud.com/news" target="_blank">nextcloud.com/news</a> to learn about <a href="https://statuscode.ch/2016/06/security-and-nextcloud-9/" target="_blank">security improvements like those introduced in Nextcloud 9</a>. For server owners, our documentation has a section with <a href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_server/harden_server.html" target="_blank">best practices and tips on securing a Nextcloud server</a>.</p>-->
 <div class="row">
 	<div class="span12">
-		<p>If you've discovered a security issue with Nextcloud, please read our responsible disclosure guidelines and contact us at <a href="https://hackerone.com/nextcloud"><strong>https://hackerone.com/nextcloud</strong></a>.  Your report should include:
+		<p>If you've discovered a security issue with Nextcloud, please read our responsible disclosure guidelines and contact us at <a href="https://hackerone.com/nextcloud"><strong>hackerone.com/nextcloud</strong></a>.  Your report should include:
 		<ul>
 			<li>Product version</li>
 			<li>A vulnerability description</li>

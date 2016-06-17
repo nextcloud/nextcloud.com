@@ -1,7 +1,7 @@
 <h1>About Nextcloud</h1>
 <p>You should have full control over your data. We help you achieve that: a safe home for all your data. Secure, under your control and developed in an open, transparent and trustworthy way. <strong>We are Nextcloud</strong>.</p>
 
-<p>Started by the well known open source file sync and share developer <a href="https://karlitschek.de">Frank Karlitschek</a> and joined by the most active contributors to his previous project, building on its mature code base, we offer a more reliable and sustainable solution for users and customers. We will develop a drop-in replacement for that legacy code base over the coming weeks, providing the bug fixes and security hardening all users need and the Enterprise Subscription capabilities enterprise customers require, all fully open source.</p>
+<p>Started by the well known open source file sync and share developer <a href="https://karlitschek.de">Frank Karlitschek</a> and joined by the most active contributors to his previous project, building on its mature code base, we offer a more reliable and sustainable solution for users and customers. We have developed a <a href="https://nextcloud.com/nextcloud-9-available-enterprise-functionality-to-be-open-source/">drop-in replacement for that legacy code base</a>, providing the bug fixes and security hardening all users need and the Enterprise Subscription capabilities enterprise customers require, all fully open source.</p>
 
 <h2>For customers and users of existing solutions</h2>
 <p>If you are an existing user or customer or are looking to deploy we have your back. Nextcloud will uncompromisingly focus on providing the best possible experience to all its users, customers and contributors. To ensure a smooth transition, we will support existing contracts on the code we wrote and support. Your support does not go away: Nextcloud will be there for you.</p>
@@ -13,7 +13,17 @@
 
 <p>On top of the file sync and share you all know and love, Nextcloud will provide full Spreed.ME support. Spreed.ME is a next generation, open source WebRTC based communication platform with video conferencing and text chat. We will also provide support for the popular Calendar and Contacts apps and improve and enrich the user experience in many other areas.</p>
 
-<p>New energy and greater ambitions for the future: Nextcloud is the next generation of on-premise cloud technology! You can find more information about our plans <a href="/news">in our blogs</a> and we'll update our website continuously.</p>
+<p>New energy and greater ambitions for the future: Nextcloud is the next generation of on-premise cloud technology! You can find more information about our plans <a href="/news">in our blogs</a> and we'll update our website continuously. Join the <a href="https://help.nextcloud.com">conversations on our forums</a>!</p>
+
+  <div class="wrap pad-bottom">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 text-center">
+                    <h2>Subscribe to our newsletter</h2>
+                    Stay up to date with Nextcloud news - future plans for releases, events and development are covered monthly in our news letter.
+		    <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1" class="btn btn-block btn-primary btn-lg join-button">Subscribe to our<br />monthly newsletter!</a><br />
+		</div>
+	</div>
+</div>
 
 <!--<h1>Our team</h1>
 <p>We have a highly experienced team on board, with many more joining the coming months.</p>
