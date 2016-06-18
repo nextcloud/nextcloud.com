@@ -13,7 +13,7 @@
 	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/common/favicon.png" />
 	<link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/assets/img/common/favicon.png" />
 	<?php wp_head(); ?>
-	<?php if(is_page('5years') || is_page('conf') || is_page('federation') || is_page('register') || is_page('thankyou')) { ?><link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/conf.css"><?php } ?>
+	<?php if(is_page('5years')/* || is_page('conf') || is_page('federation') || is_page('register') || is_page('thankyou')*/) { ?><link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/conf.css"><?php } ?>
 	<?php if(is_page('news')) { ?>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.infinitescroll.min.js"></script>

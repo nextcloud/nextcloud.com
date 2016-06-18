@@ -30,7 +30,7 @@ if(is_page('oc-news') || is_page('blogfeed')) { include roots_template_path(); }
 
 	<?php } else { // Handle further special layouts ?>
 
-	  <?php if(is_page('5years') || is_page('conf') || is_page('register') || is_page('federation') || is_page('thankyou')) { // Handle alternative layout ?>
+	  <?php if(is_page('5years') /*|| is_page('conf') || is_page('register') || is_page('federation') || is_page('thankyou')*/) { // Handle alternative layout ?>
 	    <div class="conference">
 	      <div class="wrap container conf-content" role="document">
 		<div class="content row">
@@ -39,7 +39,7 @@ if(is_page('oc-news') || is_page('blogfeed')) { include roots_template_path(); }
 		  </main><!-- /.main -->
 		</div><!-- /.content -->
 	      </div><!-- /.wrap -->
-	    </div><!-- /.conference -->
+	    </div>
 
 	  <?php } else { // Handle all other layouts ?>
 
