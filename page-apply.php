@@ -1,6 +1,24 @@
 <div class="page-header">
     <h1>Apply to be a listed Provider</h1>
 </div>
+
+
+<p>The Nextcloud community <a href="/providers">offers a list of providers for ownCoud users</a>. No endorsement is implied by these listings. If you would like to have your organization added to this page, please follow these instructions:
+<ul>
+	<li>Entries <strong>must</strong> be factual and relevant to Nextcloud. Generic services are not a good fit. Make sure that the link you submit contains references, a logo and a link to Nextcloud.</li>
+	<li>Your organization and the website you submit have to <strong>respect the <a href="/trademarks">Nextcloud trademark policy</a></strong>.</li>
+        <li>Being listed does not apply approval, endorsement or affiliation with the Nextcloud community or project and your website and/or description should not, incorrectly, claim so.</li>
+	<li>The <strong>description</strong> can be up to 150 characters. It should give an idea of the offered services so readers can quickly judge if an entry is of interest.<!-- Review the current list for the expected contents and format.--></li>
+	<ul>
+		<li><strong>Good</strong>: “We offer Swiss-hosted servers with daily off-site backup. You can install Nextcloud apps, Spreed.ME, Calendar and Contact included"</li>
+		<li><strong>Bad</strong>: “Awesome, Inc. is a successful hosting firm founded on solid engineering principles and is a leading provider of open source solutions.”</li>
+	(this does not explain what you offer and gives no reason for a visitor to click to your website)
+	</ul>
+	<li>A <strong>logo</strong> has to be of the size of 600x150 pixels in png or jpg format.</li>
+        <li>Submit a new entry if you made a mistake or if something has to change.</li>
+        <li>Entries with invalid links may be removed. Please keep us informed about changes.</li>
+        <li>It can take up to 4 weeks to be listed, please understand that we do this as a courtesy to the Nextcloud ecosystem. Please try to avoid submitting duplicate entries.</li>
+</ul></p>
 <div class="row providers">
     <div class="span12">
 		<p>To apply to be listed on the <a href="/providers">Nextcloud.org/providers</a> webpage as an open source provider, please complete the following form.</p>
@@ -27,7 +45,7 @@
 				<option value="freeplan">Yes</option>
 			</select></label></p>
 			<p><label for="description">100 character description of your offering.<br />
-			<textarea  name="description" maxlength="100" cols="60" rows="3" placeholder="Introduce your organization and offering in max 100 characters!"></textarea></label></p>
+			<textarea  name="description" maxlength="150" cols="60" rows="4" placeholder="Introduce your organization and offering in max 150 characters!"></textarea></label></p>
 			<p><label for="image">URL to your logo, 600x150 pixels<br>
 			<input  type="text" name="image" maxlength="80" size="60"></label></p>
 			<td colspan="2" style="text-align:center">
