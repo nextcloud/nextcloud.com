@@ -25,12 +25,12 @@ The goal should be to streamline productivity without sacrificing visibility int
   <table class="table table-striped">
     <tr>
       <td class="active" style="min-width:150px">Feature</td>
-<!--       <td class="info" style="min-width:300px"><i class="icon-users"></i>&nbsp;&nbsp;Private use</td> -->
+       <td class="info" style="min-width:300px"><i class="icon-users"></i>&nbsp;&nbsp;Private use</td>
       <td class="info" style="min-width:300px"><i class="icon-briefcase"></i>&nbsp;&nbsp;Abilities</td>
     </tr>
     <tr>
       <td class="active">Storage support</td>
-      <!--<td class="info">Private data from self, friends and family</td>-->
+      <td class="info">Private data from self, friends and family</td>
       <td class="info">Local storage, Windows Network Drive, (s)FTP, Sharepoint, S3, Swift, Google Drive, Dropbox</td>
     </tr>
     <tr>
