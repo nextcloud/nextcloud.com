@@ -60,10 +60,12 @@ The goal should be to streamline productivity without sacrificing visibility int
 			<p><label for="comments">Your message<br />
 			<textarea  name="comments" maxlength="1000" cols="60" rows="6" placeholder="Let us know how we can help you!"></textarea></label></p>
 			<td colspan="2" style="text-align:center">
+			<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
 			<input type="submit" value=" Submit inquiry ">
 			</form>
 		</div>
 	</div>
 </div>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
 
