@@ -6,10 +6,10 @@
 	</div>
 	<div class="col-md-7 col-md-offset-1">
 		<input type="checkbox" id="FreePlans"> Show only free plans<br>
-		<input type="checkbox" id="certified"> Show only Certified Partners<br>
-		<input type="radio" id="hostingc" name="hosting" value="consumers"> Consumers<br>
-		<input type="radio" id="hostingb" name="hosting" value="business"> Business<br>
-		<input type="radio" id="hostingo" name="hosting" value="both"> Both<br>
+<!-- 		<input type="checkbox" id="certified"> Show only Certified Partners<br> -->
+		<input type="radio" id="hostingboth" name="hosting" value="both" checked> Both<br>
+		<input type="radio" id="hostingconsumer" name="hosting" value="consumers"> Consumers<br>
+		<input type="radio" id="hostingorganization" name="hosting" value="organization"> Organization<br>
 	</div>
 </div>
 
@@ -19,15 +19,15 @@
 
 <!-- <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script> -->
 <script type="text/javascript">
-	$( "#hostingo" ).prop( "checked", true );
+// 	$( "#hostingboth" ).prop( "checked", true );
 	$( document ).ready(function() {
 		var items = [];
 		var countries = [];
 		var selectedCountryCode = 'all';
 		var filterFreePlans = false;
-		var filterOnlyCertified = false;
 		var filterHosting = 'both';
-		function filterItems(country) {
+		function filterItems(country, plan, hosting) {
+			console.log('here in filterItems');
 			var filteredItems = [];
 			$.each(items, function (key, provider) {
 				// Filter for the country
@@ -43,33 +43,27 @@
 					}
 				}
 				// Filter for free plans
-				if (filterFreePlans) {
+				console.log('plan:' + plan );
+				console.log('provider.freeplans:' + provider.freeplans );
+				if (plan) {
 					if(provider.freeplans !== true) {
 						return true;
 					}
 				}
 				// Filter for who this is perfect for
-				if (filterHosting) {
-					if(provider.supports !== 'both') {
-						return true;
-					}
-				}
-				if (filterHosting) {
-					if(provider.supports !== 'consumer') {
-						return true;
-					}
-				}
-				if (filterHosting) {
-					if(provider.supports !== 'business') {
+				if (hosting) {
+					console.log(provider.supports);
+					if(provider.supports !== hosting) {
+						console.log(hosting);
 						return true;
 					}
 				}
 				// Filter for supported partners
-				if (filterOnlyCertified) {
-					if(provider.supported !== true) {
-						return true;
-					}
-				}
+// 				if (filterOnlyCertified) {
+// 					if(provider.supported !== true) {
+// 						return true;
+// 					}
+// 				}
 				// Iterate and template all the remaining ones. Yay.
 				filteredItems.push('<div class="col-xs-12 col-sm-6 col-md-4">');
 						filteredItems.push('<div class="consulting thumbnail">');
@@ -113,8 +107,9 @@
 			}).appendTo('#providers');
 		}
 		$.getJSON('<?php echo get_template_directory_uri() ?>/assets/providers.json', function (data) {
+			console.log('getJSON');
 			items = data;
-			filterItems(selectedCountryCode);
+			filterItems(selectedCountryCode, filterFreePlans, filterHosting);
 			$.each(countries, function (key, countryCode) {
 				$('#countryPicker').append($('<option/>', {
 					value: countryCode,
@@ -124,27 +119,21 @@
 		});
 		$('#countryPicker').change(function () {
 			selectedCountryCode = $(this).find("option:selected").attr('value');
-			filterItems(selectedCountryCode, filterFreePlans, filterOnlyCertified, filterHosting);
+			filterItems(selectedCountryCode, filterFreePlans, filterHosting);
 		});
 		$('#FreePlans').change(function () {
 			filterFreePlans = $('#FreePlans').is(':checked');
-			filterItems(selectedCountryCode, filterFreePlans, filterOnlyCertified, filterHosting);
+			console.log('filterFreePlans:'+filterFreePlans);
+			filterItems(selectedCountryCode, filterFreePlans, filterHosting);
 		});
-		$('#certified').change(function () {
-			filterOnlyCertified = $('#certified').is(':checked');
-			filterItems(selectedCountryCode, filterFreePlans, filterOnlyCertified, filterHosting);
-		});
-		$('#hostingo').change(function () {
-			filterHosting = $('#hostingo').is('both');
-			filterItems(selectedCountryCode, filterFreePlans, filterOnlyCertified, filterHosting);
-		});
-		$('#hostingb').change(function () {
-			filterHosting = $('#hostingb').is('business');
-			filterItems(selectedCountryCode, filterFreePlans, filterOnlyCertified, filterHosting);
-		});
-		$('#hostingo').change(function () {
-			filterHosting = $('#hostingc').is('consumer');
-			filterItems(selectedCountryCode, filterFreePlans, filterOnlyCertified, filterHosting);
+// 		$('#certified').change(function () {
+// 			filterOnlyCertified = $('#certified').is(':checked');
+// 			filterItems(selectedCountryCode, filterFreePlans, filterOnlyCertified, filterHosting);
+// 		});
+		$("input[name='hosting']").change(function () {
+			filterHosting = $(this).val();
+			console.log(filterHosting);
+			filterItems(selectedCountryCode, filterFreePlans, filterHosting);
 		});
 	})
 </script>
