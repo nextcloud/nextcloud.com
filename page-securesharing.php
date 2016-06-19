@@ -20,7 +20,7 @@ The goal should be to streamline productivity without sacrificing visibility int
 <h3>Under IT's control</h3>
 <p>No matter the storage solution used, Nextcloud can ensure corporate policies are followed. Sharing can be restricted through the file firewall, filtering on user properties like location or group, or file properties like (automatically or manually) assigned tags, file type and more. With storage transparent to users, generic data can remain where it is while IT can make sure that business critical or compliance-relevant information is stored on internal infrastructure and does not leave the company.</p>
 
-<h2>Most important capabilities</h2>
+<!--<h2>Most important capabilities</h2>
 </p>
   <table class="table table-striped">
     <tr>
@@ -41,7 +41,7 @@ The goal should be to streamline productivity without sacrificing visibility int
       <td class="active">Sync clients</td>
       <td class="info">Web, Windows/Linux/Mac, Android, iOS</td>
     </tr>
-  </table>
+  </table>-->
 
 <div class="wrap pad-bottom">
 	<div class="row">
