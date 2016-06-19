@@ -8,7 +8,7 @@
 		<input type="checkbox" id="FreePlans"> Show only free plans<br>
 <!-- 		<input type="checkbox" id="certified"> Show only Certified Partners<br> -->
 		<input type="radio" id="hostingboth" name="hosting" value="both" checked> Both<br>
-		<input type="radio" id="hostingconsumer" name="hosting" value="consumers"> Consumers<br>
+		<input type="radio" id="hostingconsumer" name="hosting" value="consumer"> Consumers<br>
 		<input type="radio" id="hostingorganization" name="hosting" value="organization"> Organization<br>
 	</div>
 </div>
@@ -27,7 +27,6 @@
 		var filterFreePlans = false;
 		var filterHosting = 'both';
 		function filterItems(country, plan, hosting) {
-			console.log('here in filterItems');
 			var filteredItems = [];
 			$.each(items, function (key, provider) {
 				// Filter for the country
@@ -43,45 +42,30 @@
 					}
 				}
 				// Filter for free plans
-				console.log('plan:' + plan );
-				console.log('provider.freeplans:' + provider.freeplans );
 				if (plan) {
 					if(provider.freeplans !== true) {
 						return true;
 					}
 				}
 				// Filter for who this is perfect for
-				if (hosting) {
-					console.log(provider.supports);
-					if(provider.supports !== hosting) {
-						console.log(hosting);
-						return true;
+				if(hosting !== 'both') {
+					if(provider.supports !== 'both') {
+						if(provider.supports !== hosting) {
+							return true;
+						}
 					}
 				}
-				// Filter for supported partners
-// 				if (filterOnlyCertified) {
-// 					if(provider.supported !== true) {
-// 						return true;
-// 					}
-// 				}
 				// Iterate and template all the remaining ones. Yay.
 				filteredItems.push('<div class="col-xs-12 col-sm-6 col-md-4">');
-						filteredItems.push('<div class="consulting thumbnail">');
+						filteredItems.push('<div class="provider prov-thumbnail"> ');
 							filteredItems.push('<div class="bannerhead">')
 								filteredItems.push('<a href="');
-									filteredItems.push(provider.url);
-									filteredItems.push('" target="_blank" rel="noreferrer" title="');
-										filteredItems.push(provider.title);
-									filteredItems.push('">');
-									if(provider.supported == true) {
-										filteredItems.push('<img class="provider-logo-partner"');
-									}else{
-										filteredItems.push('<img class="provider-logo desaturate"');
-									}
-									filteredItems.push(' src="<?php echo get_template_directory_uri() ?>/assets/img/providers/');
-										filteredItems.push(provider.imagename);
-									filteredItems.push('">');
-								filteredItems.push('</a><br \>');
+								filteredItems.push(provider.url);
+								filteredItems.push('" target="_blank" rel="noreferrer" title="');
+								filteredItems.push(provider.title);
+								filteredItems.push('"><img class="provider-logo" src="<?php echo get_template_directory_uri() ?>/assets/img/providers/');
+								filteredItems.push(provider.imagename);
+								filteredItems.push('"></a><br \>');
 								filteredItems.push(provider.title);
 								$.each(provider.flags, function (key, value) {
 									filteredItems.push('<img class="flag" src="<?php echo get_template_directory_uri() ?>/assets/img/flags/' + value + '.gif">');
@@ -107,7 +91,6 @@
 			}).appendTo('#providers');
 		}
 		$.getJSON('<?php echo get_template_directory_uri() ?>/assets/providers.json', function (data) {
-			console.log('getJSON');
 			items = data;
 			filterItems(selectedCountryCode, filterFreePlans, filterHosting);
 			$.each(countries, function (key, countryCode) {
@@ -123,7 +106,6 @@
 		});
 		$('#FreePlans').change(function () {
 			filterFreePlans = $('#FreePlans').is(':checked');
-			console.log('filterFreePlans:'+filterFreePlans);
 			filterItems(selectedCountryCode, filterFreePlans, filterHosting);
 		});
 // 		$('#certified').change(function () {
@@ -132,7 +114,6 @@
 // 		});
 		$("input[name='hosting']").change(function () {
 			filterHosting = $(this).val();
-			console.log(filterHosting);
 			filterItems(selectedCountryCode, filterFreePlans, filterHosting);
 		});
 	})

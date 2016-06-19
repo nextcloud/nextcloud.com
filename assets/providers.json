@@ -1,45 +1,15 @@
 [
       {
-         "title":"testing1, freeplan, consumers",
-         "url":"http:\/\/www.acp.de",
+         "title":"WK-IT",
+         "url":"https:\/\/www.wk-it.net\/#nextcloud",
          "flags":[
             "de"
          ],
-         "freeplans":true,
-		 "supports":"consumers",
-         "specializes":[
-            "ACP realizes End-to-End solutions for companies, authorities and organizations of all sizes. We supply services, from PC maintenance to managed services, hardware, software, solutions and IT financing, as well as concepts for virtualization, storage and back up."
-         ],
-         "imagename":"acp.png",
-         "supported":false
-      },
-      {
-         "title":"testing2 nofree, business",
-         "url":"http:\/\/www.adfinis-sygroup.ch",
-         "flags":[
-            "ch"
-         ],
          "freeplans":false,
-         "supports":"organization",
+		 "supports":"both",
          "specializes":[
-            "Adfinis Sygroup AG works in the Open Source Environment more then 10 years and has established itself as a leading vendor around futureproof open source technologies."
+            "Backup & Network Solutions. Ihre Daten sind ihr Gut."
          ],
-         "imagename":"adfinis.png",
-         "supported":true
-      },
-      {
-         "title":"Testing3 - freeplan, both",
-         "url":"http:\/\/www.adfinis-sygroup.ch",
-         "flags":[
-            "ch"
-         ],
-         "freeplans":true,
-         "supports": "both",
-         "specializes":[
-            "Adfinis Sygroup AG works in the Open Source Environment more then 10 years and has established itself as a leading vendor around futureproof open source technologies."
-         ],
-         "imagename":"adfinis.png",
-         "supported":true
+         "imagename":"wkit.png"
       }
-
 ]

@@ -978,6 +978,53 @@ img.desaturate {
 	height: 180px;
 }
 
+/* Provider page */
+
+.prov-thumbnail {
+/* 	line-height: 1; */
+/*     background-color: #fff; */
+    border: 1px solid #eee;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    max-width: 100%;
+/*     height: auto; */
+/*     display: block; */
+    margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 5px;
+}
+
+.provider .providername {
+	height: 30px;
+}
+
+.provider .provider-logo { 
+	padding: 2px;
+	margin: auto;
+	width: 95%;
+}
+
+.provider .bannerhead {
+	height: 110px;
+	text-align: center;
+	background-color: white !important;
+	border-bottom: none !important;
+	margin-bottom: 5px;
+}
+
+.provider .flag {
+	margin: auto;
+	padding: 2px 5px;
+}
+
+.provider .bannerfoot {
+	height: 130px;
+	background-color: white !important;
+	border: none !important;
+}
+
 /* ownCloud.org/features */
 
 /* Full width background image */
