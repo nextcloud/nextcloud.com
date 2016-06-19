@@ -1,80 +1,150 @@
-<?php 
-
-get_template_part('templates/parts/title');
-
-$providers = json_decode(file_get_contents(dirname(__FILE__).'/assets/providers.json'))->providers;
-
-$supportedProviders = array();
-$freeProviders = array();
-$otherProviders = array();
-
-// Sort supported providers from non and free providers
-foreach($providers as $provider) {
-	if($provider->supported) {
-		$supportedProviders[] = $provider;
-	} else {
-		$otherProviders[] = $provider;
-	}
-	if($provider->freeplans) {
-		$freeProviders[] = $provider;
-	}
-}
-
-?>
-
-
-<div class="row col-xs-12">
-	<h2>Supported Providers</h2>
+<div class="row">
+	<div class="col-md-4">
+		Country: <select id="countryPicker" class="form-control">
+			<option value="all">World</option>
+		</select>
+	</div>
+	<div class="col-md-7 col-md-offset-1">
+		<input type="checkbox" id="FreePlans"> Show only free plans<br>
+		<input type="checkbox" id="certified"> Show only Certified Partners<br>
+		<input type="radio" id="hostingc" name="hosting" value="consumers"> Consumers<br>
+		<input type="radio" id="hostingb" name="hosting" value="business"> Business<br>
+		<input type="radio" id="hostingo" name="hosting" value="both"> Both<br>
+	</div>
 </div>
-<?php displayProviders($supportedProviders); ?>
-<div class="row col-xs-12">
-	<h2>Free Plans</h2>
-</div>
-<?php displayProviders($freeProviders, true); ?>
-<div class="row col-xs-12">
-	<h2>Other Providers</h2>
-</div>
-<?php displayProviders($otherProviders); ?>
-<?php
 
-function displayProviders($providers, $free=false) {
-	$numProviders = count($providers);
-		echo '<div class="row">';
-		for($provider=0; $provider<$numProviders; $provider++) {
-			echo '<div class="col-xs-12 col-sm-6 col-md-4 ">';
-			if($free && isset($providers[$provider]->freeurl)) {
-				$url = $providers[$provider]->freeurl;
-			} else {
-				$url = $providers[$provider]->url;
-			}
-			echo '<a href="' . $url . '" target="_blank" rel="noreferrer" title="' . $providers[$provider]->title . '"><div class="thumbnail">';
-			echo '<div class="bannerhead">';
-			foreach($providers[$provider]->flags as $flag) {
-				echo '<img class="flag" src="' . get_template_directory_uri() . '/assets/img/flags/' . $flag . '.gif"/>';
-			}
-			if($providers[$provider]->freeplans) {
-				echo '<span class="text-primary freeplans">Free plans!</span>';
-			}
-			echo '</div>';
-			echo '<img class="banner" src="' . get_template_directory_uri() . '/assets/img/providers/' . $providers[$provider]->imagename . '"/>';
+<div id="providers" class="row">
+</div>
+<div class="alert alert-info">If you offer Nextcloud Server account hosting, you can be <a href="/providers/apply">listed on this page</a>. If you want to report an abuse by one of the providers listed above, you can sent us an email to abuse@nextcloud.com.</div>
 
-			echo '</a><div class="bannerfoot">';
-			if(!empty($providers[$provider]->supports)) {
-				echo '<span>Ideal for: </span>';
-				echo '<ul class="list-unstyled list-inline">';
-				foreach($providers[$provider]->supports as $supporting) {
-					echo '<li class="text-primary">' . $supporting . '</li>';
+<!-- <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script> -->
+<script type="text/javascript">
+	$( "#hostingo" ).prop( "checked", true );
+	$( document ).ready(function() {
+		var items = [];
+		var countries = [];
+		var selectedCountryCode = 'all';
+		var filterFreePlans = false;
+		var filterOnlyCertified = false;
+		var filterHosting = 'both';
+		function filterItems(country) {
+			var filteredItems = [];
+			$.each(items, function (key, provider) {
+				// Filter for the country
+				if(typeof country !== 'undefined' && country !== 'all') {
+					var hasCountryFlag = false;
+					$.each(provider.flags, function (key, value) {
+						if(value === country) {
+							hasCountryFlag = true;
+						}
+					});
+					if(!hasCountryFlag) {
+						return true;
+					}
 				}
-				echo '</ul>';
-			}
-			echo '</div>';
-			echo '</div>';
-			echo '</div>';
+				// Filter for free plans
+				if (filterFreePlans) {
+					if(provider.freeplans !== true) {
+						return true;
+					}
+				}
+				// Filter for who this is perfect for
+				if (filterHosting) {
+					if(provider.supports !== 'both') {
+						return true;
+					}
+				}
+				if (filterHosting) {
+					if(provider.supports !== 'consumer') {
+						return true;
+					}
+				}
+				if (filterHosting) {
+					if(provider.supports !== 'business') {
+						return true;
+					}
+				}
+				// Filter for supported partners
+				if (filterOnlyCertified) {
+					if(provider.supported !== true) {
+						return true;
+					}
+				}
+				// Iterate and template all the remaining ones. Yay.
+				filteredItems.push('<div class="col-xs-12 col-sm-6 col-md-4">');
+						filteredItems.push('<div class="consulting thumbnail">');
+							filteredItems.push('<div class="bannerhead">')
+								filteredItems.push('<a href="');
+									filteredItems.push(provider.url);
+									filteredItems.push('" target="_blank" rel="noreferrer" title="');
+										filteredItems.push(provider.title);
+									filteredItems.push('">');
+									if(provider.supported == true) {
+										filteredItems.push('<img class="provider-logo-partner"');
+									}else{
+										filteredItems.push('<img class="provider-logo desaturate"');
+									}
+									filteredItems.push(' src="<?php echo get_template_directory_uri() ?>/assets/img/providers/');
+										filteredItems.push(provider.imagename);
+									filteredItems.push('">');
+								filteredItems.push('</a><br \>');
+								filteredItems.push(provider.title);
+								$.each(provider.flags, function (key, value) {
+									filteredItems.push('<img class="flag" src="<?php echo get_template_directory_uri() ?>/assets/img/flags/' + value + '.gif">');
+									// Add country to country array if it does not exists.
+									if ($.inArray(value, countries) == -1) {
+										countries.push(value);
+									}
+								});
+							filteredItems.push('<br \></div>');
+							filteredItems.push('<div class="bannerfoot">');
+								filteredItems.push('<p>');
+									filteredItems.push(provider.specializes);
+								filteredItems.push('</p>');
+							filteredItems.push("</div>");
+						filteredItems.push("</div>");
+					filteredItems.push("</div>");
+ 				filteredItems.push("</div>");
+// 			filteredItems.push("</div>");
+			});
+			$('#providers').empty();
+			$("<div/>", {
+				html: filteredItems.join("")
+			}).appendTo('#providers');
 		}
-		echo '</div>';
-
-}
-
-?>
-<div class="alert alert-info">If you offer Nextcloud Server account hosting, you can be <a href="/providers/apply">listed on this page</a>. To find out more about becoming an enterprise provider with a support contract from <a target="_blank" href="https://nextcloud.com">Nextcloud Inc</a> please see <a target="_blank" href="https://nextcloud.com/products/service-provider">their website</a>. If you want to report an abuse by one of the providers listed above, you can sent us an email to abuse@nextcloud.com.</div>
-
+		$.getJSON('<?php echo get_template_directory_uri() ?>/assets/providers.json', function (data) {
+			items = data;
+			filterItems(selectedCountryCode);
+			$.each(countries, function (key, countryCode) {
+				$('#countryPicker').append($('<option/>', {
+					value: countryCode,
+					html: countryCode
+				}));
+			});
+		});
+		$('#countryPicker').change(function () {
+			selectedCountryCode = $(this).find("option:selected").attr('value');
+			filterItems(selectedCountryCode, filterFreePlans, filterOnlyCertified, filterHosting);
+		});
+		$('#FreePlans').change(function () {
+			filterFreePlans = $('#FreePlans').is(':checked');
+			filterItems(selectedCountryCode, filterFreePlans, filterOnlyCertified, filterHosting);
+		});
+		$('#certified').change(function () {
+			filterOnlyCertified = $('#certified').is(':checked');
+			filterItems(selectedCountryCode, filterFreePlans, filterOnlyCertified, filterHosting);
+		});
+		$('#hostingo').change(function () {
+			filterHosting = $('#hostingo').is('both');
+			filterItems(selectedCountryCode, filterFreePlans, filterOnlyCertified, filterHosting);
+		});
+		$('#hostingb').change(function () {
+			filterHosting = $('#hostingb').is('business');
+			filterItems(selectedCountryCode, filterFreePlans, filterOnlyCertified, filterHosting);
+		});
+		$('#hostingo').change(function () {
+			filterHosting = $('#hostingc').is('consumer');
+			filterItems(selectedCountryCode, filterFreePlans, filterOnlyCertified, filterHosting);
+		});
+	})
+</script>
