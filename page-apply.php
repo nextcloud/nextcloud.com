@@ -45,7 +45,7 @@
 				<option value="nofreeplan">No</option>
 				<option value="freeplan">Yes</option>
 			</select></label></p>
-			<p><label for="description">100 character description of your offering.<br />
+			<p><label for="description">150 character description of your offering.<br />
 			<textarea  name="description" maxlength="150" cols="60" rows="4" placeholder="Introduce your organization and offering in max 150 characters!"></textarea></label></p>
 			<p><label for="image">URL to your logo, 600x150 pixels<br>
 			<input  type="text" name="image" maxlength="80" size="60"></label></p>
