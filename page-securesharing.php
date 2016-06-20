@@ -48,7 +48,7 @@ The goal should be to streamline productivity without sacrificing visibility int
 		<div class="col-md-6 col-md-offset-3 text-center">
 `		<h2>Contact us</h2>
                     Learn more about what Nextcloud has to offer your organization.
-		    <form name="sales" method="post" action="securesharingsubmit/">
+		    <form name="sales" method="post" action="securesharesubmit/">
 			<p><label for="yourname">Your name<br>
 			<input  type="text" name="yourname" maxlength="60" size="60"></label></p>
 			<p><label for="email">Email<br>
