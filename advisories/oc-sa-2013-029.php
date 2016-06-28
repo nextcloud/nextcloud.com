@@ -15,7 +15,7 @@
         
         
         <h3>Description</h3>
-        <p><p>Multiple stored and reflected XSS have been adressed.</p>
+        <p><p>Multiple stored and reflected XSS have been addressed.</p>
 </p>
         <h3>Affected Software</h3>
         <ul>
