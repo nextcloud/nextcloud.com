@@ -207,7 +207,7 @@ class Recent_Docs extends WP_Widget
 	/**
 	 * Update the Administrative parameters
 	 * 
-	 * This function will merge any posted paramters with that of the saved
+	 * This function will merge any posted parameters with that of the saved
 	 * parameters. This ensures that the widget options never get lost. This
 	 * method does not need to be changed.
 	 *
