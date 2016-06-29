@@ -12,17 +12,17 @@
 	<tr class="table-center">
 		<td class="">
 		</td>
-		<td class="info ebasic" style="min-width:250px"><i class="icon-briefcase enterprise-icon"></i>
+		<td class="ebasic" style="min-width:250px"><i class="icon-briefcase enterprise-icon"></i>
 			<!--<img class="responsive" style="width: 50%" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/small.png" alt="for small businesses" />--><br />
 			Basic<br />
 			From € 1500
 		</td>
-		<td class="info epro" style="min-width:250px"><i class="icon-building enterprise-icon"></i>
+		<td class="epro" style="min-width:250px"><i class="icon-building enterprise-icon"></i>
 			<!--<img class="responsive" style="width: 50%" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/medium.png" alt="for small businesses" />--><br />
 			Pro<br />
 			From € 2500
 		</td>
-		<td class="info eenterprise" style="min-width:250px"><i class="icon-industry enterprise-icon"></i>
+		<td class="eenterprise" style="min-width:250px"><i class="icon-industry enterprise-icon"></i>
 		<!--<img class="responsive" style="width: 50%" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/large.png" alt="for small businesses" />--><br />
 		Enterprise<br />
 			From € 3250
@@ -35,40 +35,40 @@
 		<td class="eenterprise"></td>
 	</tr>
 	<tr>
-		<td class="info">File sync and share</td>
-		<td class="info ebasic text-center"><i class="icon-check"></i></td>
-		<td class="info epro text-center"><i class="icon-check"></i></td>
-		<td class="info eenterprise text-center"><i class="icon-check"></i></td>
+		<td class="">File sync and share</td>
+		<td class="ebasic text-center"><i class="icon-check"></i></td>
+		<td class="epro text-center"><i class="icon-check"></i></td>
+		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
-		<td class="info">Enterprise features</td>
-		<td class="info ebasic text-center"><i class="icon-check"></i></td>
-		<td class="info epro text-center"><i class="icon-check"></i></td>
-		<td class="info eenterprise text-center"><i class="icon-check"></i></td>
+		<td class="">Enterprise features</td>
+		<td class="ebasic text-center"><i class="icon-check"></i></td>
+		<td class="epro text-center"><i class="icon-check"></i></td>
+		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
-		<td class="info">Calendar and Contacts</td>
-		<td class="info ebasic text-center">-</td>
-		<td class="info epro text-center"><i class="icon-check"></i></td>
-		<td class="info eenterprise text-center"><i class="icon-check"></i></td>
+		<td class="">Calendar and Contacts</td>
+		<td class="ebasic text-center">-</td>
+		<td class="epro text-center"><i class="icon-check"></i></td>
+		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
-		<td class="info">Web meetings</td>
-		<td class="info ebasic text-center">-</td>
-		<td class="info epro text-center"><i class="icon-check"></i></td>
-		<td class="info eenterprise text-center"><i class="icon-check"></i></td>
+		<td class="">Web meetings</td>
+		<td class="ebasic text-center">-</td>
+		<td class="epro text-center"><i class="icon-check"></i></td>
+		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
-		<td class="info">SIP gateway</td>
-		<td class="info ebasic text-center">-</td>
-		<td class="info epro text-center">Optional</td>
-		<td class="info eenterprise text-center">Included</td>
+		<td class="">SIP gateway</td>
+		<td class="ebasic text-center">-</td>
+		<td class="epro text-center">Optional</td>
+		<td class="eenterprise text-center">Included</td>
 	</tr>
 	<tr>
-		<td class="info">Online Office</td>
-		<td class="info ebasic text-center">-</td>
-		<td class="info epro text-center">Optional</td>
-		<td class="info eenterprise text-center">Optional</td>
+		<td class="">Online Office</td>
+		<td class="ebasic text-center">-</td>
+		<td class="epro text-center">Optional</td>
+		<td class="eenterprise text-center">Optional</td>
 	</tr>
 
 	<tr>
@@ -78,49 +78,49 @@
 		<td class="eenterprise"></td>
 	</tr>
 	<tr>
-		<td class="info">SLA</td>
-		<td class="info ebasic text-center">72 hours
+		<td class="">SLA</td>
+		<td class="ebasic text-center">72 hours
 		</td>
-		<td class="info epro text-center">36 hours
+		<td class="epro text-center">36 hours
 		</td>
-		<td class="info eenterprise text-center">12 hours
+		<td class="eenterprise text-center">12 hours
 		</td>
 	</tr>
 	<tr>
-		<td class="info">Portal support</td>
-		<td class="info ebasic text-center"><i class="icon-check"></i></td>
-		<td class="info epro text-center"><i class="icon-check"></i></td>
-		<td class="info eenterprise text-center"><i class="icon-check"></i></td>
+		<td class="">Portal support</td>
+		<td class="ebasic text-center"><i class="icon-check"></i></td>
+		<td class="epro text-center"><i class="icon-check"></i></td>
+		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
-		<td class="info">Email support</td>
-		<td class="info ebasic text-center">-</td>
-		<td class="info epro text-center">8/5</td>
-		<td class="info eenterprise text-center">up to 24/7</td>
+		<td class="">Email support</td>
+		<td class="ebasic text-center">-</td>
+		<td class="epro text-center">8/5</td>
+		<td class="eenterprise text-center">up to 24/7</td>
 	</tr>
 	<tr>
-		<td class="info">phone support</td>
-		<td class="info ebasic text-center">-</td>
-		<td class="info epro text-center">8/5</td>
-		<td class="info eenterprise text-center">up to 24/7</td>
+		<td class="">phone support</td>
+		<td class="ebasic text-center">-</td>
+		<td class="epro text-center">8/5</td>
+		<td class="eenterprise text-center">up to 24/7</td>
 	</tr>
 	<tr>
-		<td class="info">Custom consulting</td>
-		<td class="info ebasic text-center">-</td>
-		<td class="info epro text-center"><i class="icon-check"></i></td>
-		<td class="info eenterprise text-center"><i class="icon-check"></i></td>
+		<td class="">Custom consulting</td>
+		<td class="ebasic text-center">-</td>
+		<td class="epro text-center"><i class="icon-check"></i></td>
+		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
-		<td class="info">Clustering support</td>
-		<td class="info ebasic text-center">-</td>
-		<td class="info epro text-center">-</td>
-		<td class="info eenterprise text-center"><i class="icon-check"></i></td>
+		<td class="">Clustering support</td>
+		<td class="ebasic text-center">-</td>
+		<td class="epro text-center">-</td>
+		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
-		<td class="info">Lifecycle</td>
-		<td class="info ebasic text-center">1 year</td>
-		<td class="info epro text-center">3 years</td>
-		<td class="info eenterprise text-center">up to 6 years</td>
+		<td class="">Lifecycle</td>
+		<td class="ebasic text-center">1 year</td>
+		<td class="epro text-center">3 years</td>
+		<td class="eenterprise text-center">up to 6 years</td>
 	</tr>
 	<tr>
 		<td class=""><h2>Price per user</h2></td>
@@ -129,46 +129,46 @@
 		<td class="eenterprise"></td>
 	</tr>
 	<tr>
-		<td class="info">50-100</td>
-		<td class="info ebasic price">€30/user</td>
-		<td class="info epro price">€50/user</td>
-		<td class="info eenterprise price">€65/user</td>
+		<td class="">50-100</td>
+		<td class="ebasic price">€30/user</td>
+		<td class="epro price">€50/user</td>
+		<td class="eenterprise price">€65/user</td>
 	</tr>
 	<tr>
-		<td class="info">1000-250</td>
-		<td class="info ebasic price">€20/user</td>
-		<td class="info epro price">€30/user</td>
-		<td class="info eenterprise price">€50/user</td>
+		<td class="">1000-250</td>
+		<td class="ebasic price">€20/user</td>
+		<td class="epro price">€30/user</td>
+		<td class="eenterprise price">€50/user</td>
 	</tr>
 	<tr>
-		<td class="info">250-1000</td>
-		<td class="info ebasic price">€15/user</td>
-		<td class="info epro price">€20/user</td>
-		<td class="info eenterprise price">€30/user</td>
+		<td class="">250-1000</td>
+		<td class="ebasic price">€15/user</td>
+		<td class="epro price">€20/user</td>
+		<td class="eenterprise price">€30/user</td>
 	</tr>
 	<tr>
-		<td class="info">1000-2500</td>
-		<td class="info ebasic price">-</td>
-		<td class="info epro price">€15/user</td>
-		<td class="info eenterprise price">€20/user</td>
+		<td class="">1000-2500</td>
+		<td class="ebasic price">-</td>
+		<td class="epro price">€15/user</td>
+		<td class="eenterprise price">€20/user</td>
 	</tr>
 	<tr>
-		<td class="info">2500-10.000</td>
-		<td class="info ebasic price">-</td>
-		<td class="info epro price">-</td>
-		<td class="info eenterprise price">€15/user</td>
+		<td class="">2500-10.000</td>
+		<td class="ebasic price">-</td>
+		<td class="epro price">-</td>
+		<td class="eenterprise price">€15/user</td>
 	</tr>
 	<tr>
-		<td class="info">10.000-25.000</td>
-		<td class="info ebasic price">-</td>
-		<td class="info epro price">-</td>
-		<td class="info eenterprise price">€10/user</td>
+		<td class="">10.000-25.000</td>
+		<td class="ebasic price">-</td>
+		<td class="epro price">-</td>
+		<td class="eenterprise price">€10/user</td>
 	</tr>
 	<tr>
-		<td class="info">>25.000</td>
-		<td class="info ebasic price">-</td>
-		<td class="info epro  price">-</td>
-		<td class="info eenterprise text-center"><a href="#contact">Contact us!</a></td>
+		<td class="">>25.000</td>
+		<td class="ebasic price">-</td>
+		<td class="epro  price">-</td>
+		<td class="eenterprise text-center"><a href="#contact">Contact us!</a></td>
 	</tr>
 </table>
 
@@ -201,7 +201,7 @@
 		<p>Just contact us or one of our partners. Our partners will help you set up Nextcloud and they act as your first point of contact.</p>
 
 		<h3>How do I become a Nextcloud partner?</h3>
-		<p>We are always looking for competent partners who share our passion for making customers happy! You can join our ecosystem, see for more information here.</p>
+		<p>We are always looking for competent partners who share our passion for making customers happy! You can join our ecosystem, see for more rmation here.</p>
 	</div>
 </div>
 
@@ -243,7 +243,7 @@
 <p>Nextcloud consulting goes beyond technical expertise, offering strategic advice for organizations. We analyze your challenges and help you implement a comprehensive, cost-effective and compliance-aware solution which reduces complexity and risks while delivering the highest security and privacy protection.</p>
 
 <a name="contact"></a>
-<h3>Contact us for more information and a quote.</h3>
+<h3>Contact us for more rmation and a quote.</h3>
 <form name="sales" method="post" action="salessubmit/">
 <!--<div class="row">
 	<div class="col-md-12">-->
