@@ -1,50 +1,211 @@
 <!-- <?php get_template_part('templates/parts/title'); ?> -->
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <div class="page-header">
-	<h1>Privacy and control for your organization</h1>
+	<h1>Nextcloud support</h1>
+</div>
+<p>Nextcloud gives organizations control over their data. Your Nextcloud subscription gives you access to technical experts and support to help you successfully deploy and manage your servers.</p>
+<p>Our open approach gives you direct access to Nextcloud engineers, the latest knowledge and best practices. We provide technical expertise, guidance and collaboration with phone and chat contact. Pro-active security support helps you identify and address vulnerabilities and harden your servers to protect the safety and integrity of your data.</p>
+<h2>Subscription options</h2>
+<p>The annual Nextcloud Enterprise Subscription starts at Eur 1500 for 50 users and is available in the following options:</p>
+
+<table class="table table-striped">
+	<tr class="table-center">
+		<td class="">
+		</td>
+		<td class="info ebasic" style="min-width:250px"><i class="icon-briefcase enterprise-icon"></i>
+			<!--<img class="responsive" style="width: 50%" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/small.png" alt="for small businesses" />--><br />
+			Basic<br />
+			From € 1500
+		</td>
+		<td class="info epro" style="min-width:250px"><i class="icon-building enterprise-icon"></i>
+			<!--<img class="responsive" style="width: 50%" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/medium.png" alt="for small businesses" />--><br />
+			Pro<br />
+			From € 2500
+		</td>
+		<td class="info eenterprise" style="min-width:250px"><i class="icon-industry enterprise-icon"></i>
+		<!--<img class="responsive" style="width: 50%" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/large.png" alt="for small businesses" />--><br />
+		Enterprise<br />
+			From € 3250
+		</td>
+	</tr>
+	<tr>
+		<td class=""><h2>Supported capabilities</h2></td>
+		<td class="ebasic"></td>
+		<td class="epro"></td>
+		<td class="eenterprise"></td>
+	</tr>
+	<tr>
+		<td class="info">File sync and share</td>
+		<td class="info ebasic text-center"><i class="icon-check"></i></td>
+		<td class="info epro text-center"><i class="icon-check"></i></td>
+		<td class="info eenterprise text-center"><i class="icon-check"></i></td>
+	</tr>
+	<tr>
+		<td class="info">Enterprise features</td>
+		<td class="info ebasic text-center"><i class="icon-check"></i></td>
+		<td class="info epro text-center"><i class="icon-check"></i></td>
+		<td class="info eenterprise text-center"><i class="icon-check"></i></td>
+	</tr>
+	<tr>
+		<td class="info">Calendar and Contacts</td>
+		<td class="info ebasic text-center">-</td>
+		<td class="info epro text-center"><i class="icon-check"></i></td>
+		<td class="info eenterprise text-center"><i class="icon-check"></i></td>
+	</tr>
+	<tr>
+		<td class="info">Web meetings</td>
+		<td class="info ebasic text-center">-</td>
+		<td class="info epro text-center"><i class="icon-check"></i></td>
+		<td class="info eenterprise text-center"><i class="icon-check"></i></td>
+	</tr>
+	<tr>
+		<td class="info">SIP gateway</td>
+		<td class="info ebasic text-center">-</td>
+		<td class="info epro text-center">Optional</td>
+		<td class="info eenterprise text-center">Included</td>
+	</tr>
+	<tr>
+		<td class="info">Online Office</td>
+		<td class="info ebasic text-center">-</td>
+		<td class="info epro text-center">Optional</td>
+		<td class="info eenterprise text-center">Optional</td>
+	</tr>
+
+	<tr>
+		<td class=""><h2>Support</h2></td>
+		<td class="ebasic"></td>
+		<td class="epro"></td>
+		<td class="eenterprise"></td>
+	</tr>
+	<tr>
+		<td class="info">SLA</td>
+		<td class="info ebasic text-center">72 hours
+		</td>
+		<td class="info epro text-center">36 hours
+		</td>
+		<td class="info eenterprise text-center">12 hours
+		</td>
+	</tr>
+	<tr>
+		<td class="info">Portal support</td>
+		<td class="info ebasic text-center"><i class="icon-check"></i></td>
+		<td class="info epro text-center"><i class="icon-check"></i></td>
+		<td class="info eenterprise text-center"><i class="icon-check"></i></td>
+	</tr>
+	<tr>
+		<td class="info">Email support</td>
+		<td class="info ebasic text-center">-</td>
+		<td class="info epro text-center">8/5</td>
+		<td class="info eenterprise text-center">up to 24/7</td>
+	</tr>
+	<tr>
+		<td class="info">phone support</td>
+		<td class="info ebasic text-center">-</td>
+		<td class="info epro text-center">8/5</td>
+		<td class="info eenterprise text-center">up to 24/7</td>
+	</tr>
+	<tr>
+		<td class="info">Custom consulting</td>
+		<td class="info ebasic text-center">-</td>
+		<td class="info epro text-center"><i class="icon-check"></i></td>
+		<td class="info eenterprise text-center"><i class="icon-check"></i></td>
+	</tr>
+	<tr>
+		<td class="info">Clustering support</td>
+		<td class="info ebasic text-center">-</td>
+		<td class="info epro text-center">-</td>
+		<td class="info eenterprise text-center"><i class="icon-check"></i></td>
+	</tr>
+	<tr>
+		<td class="info">Lifecycle</td>
+		<td class="info ebasic text-center">1 year</td>
+		<td class="info epro text-center">3 years</td>
+		<td class="info eenterprise text-center">up to 6 years</td>
+	</tr>
+	<tr>
+		<td class=""><h2>Price per user</h2></td>
+		<td class="ebasic"></td>
+		<td class="epro"></td>
+		<td class="eenterprise"></td>
+	</tr>
+	<tr>
+		<td class="info">50-100</td>
+		<td class="info ebasic price">€30/user</td>
+		<td class="info epro price">€50/user</td>
+		<td class="info eenterprise price">€65/user</td>
+	</tr>
+	<tr>
+		<td class="info">1000-250</td>
+		<td class="info ebasic price">€20/user</td>
+		<td class="info epro price">€30/user</td>
+		<td class="info eenterprise price">€50/user</td>
+	</tr>
+	<tr>
+		<td class="info">250-1000</td>
+		<td class="info ebasic price">€15/user</td>
+		<td class="info epro price">€20/user</td>
+		<td class="info eenterprise price">€30/user</td>
+	</tr>
+	<tr>
+		<td class="info">1000-2500</td>
+		<td class="info ebasic price">-</td>
+		<td class="info epro price">€15/user</td>
+		<td class="info eenterprise price">€20/user</td>
+	</tr>
+	<tr>
+		<td class="info">2500-10.000</td>
+		<td class="info ebasic price">-</td>
+		<td class="info epro price">-</td>
+		<td class="info eenterprise price">€15/user</td>
+	</tr>
+	<tr>
+		<td class="info">10.000-25.000</td>
+		<td class="info ebasic price">-</td>
+		<td class="info epro price">-</td>
+		<td class="info eenterprise price">€10/user</td>
+	</tr>
+	<tr>
+		<td class="info">>25.000</td>
+		<td class="info ebasic price">-</td>
+		<td class="info epro  price">-</td>
+		<td class="info eenterprise text-center"><a href="#contact">Contact us!</a></td>
+	</tr>
+</table>
+
+<div class="row">
+	<div class="col-md-12 text-center">
+		<h1>Discounts</h1>
+		We offer special prices in these cases:
+	</div>
+	<div class="col-md-5 col-md-offset-1 text-center">
+		<h3><i class="icon-bank"></i> Public Sector</h3>
+		We provide interesting discount options to organizations in the public sector.
+	</div>
+	<div class="col-md-5 text-center">
+		<h3><i class="icon-graduation-cap"></i> Education</h3>
+		Organizations in the educational sector receive a significant discount on all subscriptions
+	</div>
 </div>
 
-<!-- <h2>Subscription options</h2> -->
-<!-- The annual Nextcloud Enterprise Subscription starts at 50 users for Eur 3200 and is available in the following options: -->
 
-<!-- <table class="table table-striped"> -->
-<!-- 	<tr class="table-center"> -->
-<!-- 		<td class="info" style="min-width:250px"><i class="icon-home enterprise-icon"></i> -->
-<!-- 			<img class="responsive" style="width: 50%" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/small.png" alt="for small businesses" /> -->
-<!-- 		</td> -->
-<!-- 		<td class="info" style="min-width:250px"><i class="icon-building enterprise-icon"></i> -->
-<!-- 			<img class="responsive" style="width: 50%" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/medium.png" alt="for small businesses" /> -->
-<!-- 		</td> -->
-<!-- 		<td class="info" style="min-width:250px"><i class="icon-university enterprise-icon"></i> -->
-<!-- 		<img class="responsive" style="width: 50%" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/large.png" alt="for small businesses" /> -->
-<!-- 		</td> -->
-<!-- 	</tr> -->
-<!-- 	<tr> -->
-<!-- 		<td class="info"><h2>50-100 users</h2></td> -->
-<!-- 		<td class="info"><h2>100-5000 users</h2></td> -->
-<!-- 		<td class="info"><h2>5000+ users</h2></td> -->
-<!-- 	</tr> -->
-<!-- 	<tr> -->
-<!-- 		<td class="info">Deployment support</td> -->
-<!-- 		<td class="info">Deployment support</td> -->
-<!-- 		<td class="info">Deployment support</td> -->
-<!-- 	</tr> -->
-<!-- 	<tr> -->
-<!-- 		<td class="info">Security and hardening consulting</td> -->
-<!-- 		<td class="info">Security and hardening consulting</td> -->
-<!-- 		<td class="info">Security and hardening consulting</td> -->
-<!-- 	</tr> -->
-<!-- 	<tr> -->
-<!-- 		<td class="info">Office hours email support</td> -->
-<!-- 		<td class="info">Extended office hours email and phone support</td> -->
-<!-- 		<td class="info">All week email and phone support</td> -->
-<!-- 	</tr> -->
-<!-- 	<tr> -->
-<!-- 		<td class="active E-price">Starting at Eur 3200</td> -->
-<!-- 		<td class="active E-price">Starting at Eur 6200</td> -->
-<!-- 		<td class="active E-price">Contact us</td> -->
-<!-- 	</tr></table> -->
+<div class="row">
+	<div class="col-md-12">
+		<h2>Frequently asked questions</h2>
+	</div>
+	<div class="col-md-12 col-sm-12">
+		<h3>Why would I pay for open source software?</h3>
+		<p>Nextcloud is great out of the box. But installing and running a server in a secure and reliable manner and for hundreds or thousands of users, important for a mission critical environment, is not always easy. You probably want access to an expert if something does not function as expected. We provide not only that but also pro-active support with installation and security issues, we reach out when we do feature planning to ensure your needs are served and we support Nextcloud long after you would otherwise be forced to upgrade for security, performance and stability reasons.</p>
+		<p>By offering more in-depth knowledge than anybody else, we give you the confidence you need to be able to rely on Nextcloud.</p>
 
+		<h3>How do I buy Nextcloud subscriptions?</h3>
+		<p>Just contact us or one of our partners. Our partners will help you set up Nextcloud and they act as your first point of contact.</p>
+
+		<h3>How do I become a Nextcloud partner?</h3>
+		<p>We are always looking for competent partners who share our passion for making customers happy! You can join our ecosystem, see for more information here.</p>
+	</div>
+</div>
+
+<h1>Product overview</h1>
 <p>Nextcloud gives organizations control over their data. Manage access to data across devices and platforms, on-premise, on existing storage or with cloud storage. Communicate through secure video and audio conferencing and leverage file sharing and collaboration capabilities, knowing your privacy is protected. Nextcloud integrates in your infrastructure, offering the extensibility and features you need combined with the logging and fine grained control over file access and communication required in regulated industries.</p>
 
 <h2>Enterprise capabilities</h2>
@@ -66,7 +227,8 @@
 
 <p>With the Nextcloud Enterprise subscription you get:
 <ul>
-	<li>Full lifecycle support, from project inception to production and user growth</li>
+	<li>Full lifecycle support with multi-year security and stability fixes</li>
+	<li>Technical expertise and help covering project inception to production and user growth</li>
 	<li>Help to scale your Nextcloud installation to large amounts of storage and large numbers of users</li>
 	<li>Security and hardening consulting</li>
 	<li>Influence on the roadmap of the open source project</li>
@@ -76,10 +238,12 @@
 <!-- 	<li>Full support for integrated video conferencing and communication features based on spreed.me and WebRTC </li> -->
 </ul>
 
+<h3>Consulting</h3>
 
+<p>Nextcloud consulting goes beyond technical expertise, offering strategic advice for organizations. We analyze your challenges and help you implement a comprehensive, cost-effective and compliance-aware solution which reduces complexity and risks while delivering the highest security and privacy protection.</p>
 
+<a name="contact"></a>
 <h3>Contact us for more information and a quote.</h3>
-
 <form name="sales" method="post" action="salessubmit/">
 <!--<div class="row">
 	<div class="col-md-12">-->
