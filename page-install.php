@@ -28,8 +28,11 @@
 		<p>Connect to your Nextcloud with our Android app<!--clients for your devices-->:</p>
 		<a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png">
+		</a> 
+		<a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID; ?>">
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png">
 		</a>
-		<p><a href="https://github.com/nextcloud/android">Sources here</a>, more coming! Any WebDAV client or the <a href="https://owncloud.org/install/#install-clients">old ownCloud clients</a> will work with Nextcloud.</p>
+		<p><a href="https://github.com/nextcloud/android">Sources here</a>, <a href="https://download.nextcloud.com/android">APK here</a> and you can help test our upcoming beta <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID; ?>">on F-Droid here</a>. Any WebDAV client or the <a href="https://owncloud.org/install/#install-clients">old ownCloud clients</a> will work with Nextcloud.</p>
 <!--     <div class="btn-group"> -->
 <!--       <a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients">Desktop Clients</a> -->
 <!--       <a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">Android Mobile client</a> -->
