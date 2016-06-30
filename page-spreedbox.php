@@ -3,15 +3,37 @@
 <div class="page-header">
 	<h1>Spreedbox: Most private video chat and file exchange</h1>
 </div>
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/egLqRqb4sHA?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2>The Spreedbox</h2>
-<p>Rediscover private video chat, messaging and file exchange. The Spreedbox is a unique device for secure audio/video conferencing, text and video messaging and file sharing. The Spreedbox is your own conferencing, meeting and file exchange service on the Internet and puts the control and security of your data into your own hands.</p>
+<div class="row featurerow topfeature">
+	<div class="col-md-5">
+		<div class="ft-img-overlay">
+			<a class="youtube" href="https://www.youtube.com/watch?v=egLqRqb4sHA" title="Introduction to Nextcloud 9">
+				<img class="img-responsive" src="https://img.youtube.com/vi/egLqRqb4sHA/hqdefault.jpg" title="Introduction to Nextcloud 9" />
+				<i class="icon-youtube-play ft-play-overlay"></i>
+			</a>
+		</div>
+	</div>
+	<div class="col-md-7">
+		<h2>The Spreedbox</h2>
+		<p>Rediscover private video chat, messaging and file exchange. The Spreedbox is a unique device for secure audio/video conferencing, text and video messaging and file sharing. The Spreedbox is your own conferencing, meeting and file exchange service on the Internet and puts the control and security of your data into your own hands.</p>
+	</div>
+</div>
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/Yc6avTVowc0?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<h2>Cloud vs. Private Cloud</h2>
-<p>Today, most organizations use online services for communication and often have confidential data shared and stored with service providers. Just think of Google®, Skype®, WebEx®, GoToMeeting®, BlueJeans® and many others. You may already have used these services to video conference, share files, keep your address books and stay in touch. All great features, without a doubt. But where is your data? Who has access to it? Confidential conversations, files, videos and personal contacts are uploaded and shared with these service providers without having an adequate service and privacy agreement that meets your requirements in privacy and confidentiality.
+<div class="row featurerow topfeature">
+	<div class="col-md-7">
+		<h2>Cloud vs. Private Cloud</h2>
+		<p>Today, most organizations use online services for communication and often have confidential data shared and stored with service providers. Just think of Google®, Skype®, WebEx®, GoToMeeting®, BlueJeans® and many others. You may already have used these services to video conference, share files, keep your address books and stay in touch. All great features, without a doubt. But where is your data? Who has access to it? Confidential conversations, files, videos and personal contacts are uploaded and shared with these service providers without having an adequate service and privacy agreement that meets your requirements in privacy and confidentiality.
+	</div>
+	<div class="col-md-5">
+		<div class="ft-img-overlay">
+			<a class="youtube" href="https://www.youtube.com/watch?v=Yc6avTVowc0" title="Introduction to Nextcloud 9">
+				<img class="img-responsive" src="https://img.youtube.com/vi/Yc6avTVowc0/hqdefault.jpg" title="Introduction to Nextcloud 9" />
+				<i class="icon-youtube-play ft-play-overlay"></i>
+			</a>
+		</div>
+	</div>
+</div>
 
 <h2>Your Data, Your Control</h2></p>
 <p>This is where the Spreedbox comes in. The Spreedbox allows you to take back ownership of your data. The Spreedbox empowers you to operate your own secure audio/video chat, messaging and file sharing service with the highest measurements for control and security of your own data. It is your own video meeting and file sharing service that can be available on computers, mobile phones and tablets through the Internet or limited to an Intranet. Your data always stays on your Spreedbox. Make a call, invite your friends and clients, and collaborate in closed groups through video/audio, text messaging, and document and file sharing. You can access your private data in an easy-to-use web interface with PC, Android and iOS devices.
@@ -33,3 +55,12 @@
 <h2><a href="https://www.spreed.me/spreedbox/">LEARN MORE AND PURCHASE A SPREEDBOX</a></h2>
 
 
+<link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/vendor/jquery.youtubepopup.min.js"></script>
+
+<script type="text/javascript">
+$(function () {
+	$("a.youtube").YouTubePopup({ hideTitleBar: true });
+});
+</script>
