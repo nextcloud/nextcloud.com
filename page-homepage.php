@@ -2,7 +2,7 @@
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/home.css" rel="stylesheet">
 <!-- Teaser Area -->
 
-<div class="row wrap home-features clearfix">
+<div class="row wrap home-features clearfix pad-bottom">
 	<div class="col-sm-4">
 		<i class="icon-group icon"></i>
 		<h3 class="ft-title">Community</h3>
@@ -29,36 +29,37 @@
 	</div>
 </div>
 
-<div class="wrap container pad-bottom">
-	<div class="row">
-		<div class="col-md-12 text-center">
-			<h2>Enterprise solutions</h2>
-		</div>
+<div class="row wrap home-features clearfix pad-bottom">
+	<div class="col-md-12 text-center">
+		<h1>Perfect for home and office</h1>
 	</div>
-	<div class="row pad-bottom">
-		<div class="col-md-8 col-md-offset-2  text-center">
-			Nextcloud gives organizations control over their data. Manage access to data across devices and platforms, on-premise, on existing storage or with cloud storage. Nextcloud integrates in your infrastructure, offering the extensibility and features you need. <a class="btn btn-block btn-lg " href="/enterprise" role="button">Learn more</a>
-		</div>
+	<div class="col-md-6 text-center">
+		<h3><i class="icon-home"></i> Home users</h3>
+		Nextcloud gives you a private, secure way to share, work with others and access your own data using an easy to use interface. Be it music, calendar appointments, bookmarks, email or your documents, Nextcloud will keep you safe. <a class="btn btn-block btn-lg " href="/install" role="button">Get your Nextcloud!</a>
+	</div>
+	<div class="col-md-6 text-center">
+		<h3><i class="icon-bank"></i> Enterprise</h3>
+		Nextcloud gives organizations control over their data. Manage access to data and communication across devices and platforms, on-premise, on existing storage or with cloud storage. Nextcloud integrates in your infrastructure, offering the extensibility and features you need. <a class="btn btn-block btn-lg " href="/enterprise" role="button">Learn more</a>
 	</div>
 </div>
 
-<div class="wrap container pad-bottom">
-	<div class="row">
-		<div class="col-md-12 text-center">
-			<h2>Your next cloud</h2>
+<div class="row wrap clearfix pad-bottom">
+	<div class="col-md-5">
+		<div class="ft-img-overlay">
+			<a class="youtube" href="https://www.youtube.com/watch?v=egLqRqb4sHA" title="Spreedbox : most private video chat and file exchange">
+				<img class="img-responsive" src="https://img.youtube.com/vi/egLqRqb4sHA/hqdefault.jpg" title="Spreedbox : most private video chat and file exchange" />
+				<i class="icon-youtube-play ft-play-overlay"></i>
+			</a>
 		</div>
 	</div>
-	<div class="row pad-bottom">
-		<div class="col-md-8 col-md-offset-2  text-center">
-			Nextcloud is started by an experienced team of engineers that has been working for years on the vision of bringing private file sync and share to the next level.<br /> Follow our <a href="/news">news page</a> and subscribe to our <a target="_blank" href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a> to learn more.
-		</div>
+	<div class="col-md-7">
+		<h2>Introducing the Spreedbox</h2>
+		<p>Rediscover private video chat, messaging and file exchange. The Spreedbox is a unique device for secure audio/video conferencing, text and video messaging and file sharing. The Spreedbox is your own conferencing, meeting and file exchange service on the Internet and puts the control and security of your data into your own hands.</p>
+		<p>Featuring Nextcloud, this device is available both for consumers and companies, bringing them the privacy and security they need to confidently share, communicate and collaborate.</p>
+		<a class="btn btn-block btn-lg " href="/spreedbox" role="button">Learn more!</a>
 	</div>
-<!--	<div class="row pad-bottom">
-		<div class="col-md-12 text-center">
-			  <a class="btn btn-block btn-lg join-button events-button" href="/news" role="button">Stay up to date with news from Nextcloud!</a>
-		</div>
-	</div>-->
 </div>
+
 
 
 <!--<div class="wrap container pad-bottom">
@@ -158,3 +159,13 @@
 		<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,4); }?></span>
 	</div>
 </div>
+
+<link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/vendor/jquery.youtubepopup.min.js"></script>
+
+<script type="text/javascript">
+$(function () {
+	$("a.youtube").YouTubePopup({ hideTitleBar: true });
+});
+</script>
