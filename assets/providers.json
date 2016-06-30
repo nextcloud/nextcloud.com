@@ -8,7 +8,7 @@
          "freeplans":false,
 		 "supports":"both",
          "specializes":[
-            "Backup & Network Solutions. Ihre Daten sind ihr Gut."
+            "Nextcloud gehostet in Eichenzell / Hessen. Von Einzelaccounts bis hin zu eigenen Instanzen mit garantierter exklusiver Bandbreite und Ressourcen."
          ],
          "imagename":"wkit.png"
       },
@@ -17,7 +17,7 @@
          "url":"https:\/\/www.hkn.de\/#nextcloud",
          "flags":[
             "de",
-            "us"
+            "all"
          ],
          "freeplans":false,
 		 "supports":"organization",
@@ -30,13 +30,28 @@
          "title":"Hostiso",
          "url":"https:\/\/hostiso.com\/nextcloud-hosting",
          "flags":[
-            "us"
+            "us",
+            "all"
          ],
          "freeplans":true,
 		 "supports":"both",
          "specializes":[
             "Hostiso is all in one solution for your Nextcloud, from free to Enterprise offering, with included free support for NextCloud, setup, install!"
          ],
-         "imagename":"hkn.jpg"
+         "imagename":"hostiso.png"
+      },
+	{
+         "title":"OwnCube e.U.",
+         "url":"https:\/\/owncube.com\/index-en.php",
+         "flags":[
+            "de",
+            "all"
+         ],
+         "freeplans":false,
+		 "supports":"both",
+         "specializes":[
+            "Say Goodbye to US based cloud storage services like Dropbox, Google Drive, ... Host your own OPEN SOURCE cloud at OwnCube!"
+         ],
+         "imagename":"owncube.png"
       }
 ]
