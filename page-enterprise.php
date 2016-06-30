@@ -2,9 +2,11 @@
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <div class="page-header">
 	<h1>Nextcloud support</h1>
-</div>
-<p>Nextcloud gives organizations control over their data. Your Nextcloud subscription gives you access to technical experts and support to help you successfully deploy and manage your servers.</p>
+
+<p class="eintro">Nextcloud gives organizations control over their data. With Nextcloud you manage data across devices, wherever it is stored, communicate through secure video and audio conferencing and share and collaborate with users within and across the boundaries of your organization. Nextcloud integrates in your infrastructure and gives you the fine grained control over file access required in regulated industries. Your Nextcloud subscription enables you to successfully deploy and manage your servers.</p>
+
 <p>Our open approach gives you direct access to Nextcloud engineers, the latest knowledge and best practices. We provide technical expertise, guidance and collaboration with phone and chat contact. Pro-active security support helps you identify and address vulnerabilities and harden your servers to protect the safety and integrity of your data.</p>
+</div>
 <h2>Subscription options</h2>
 <p>The annual Nextcloud Enterprise Subscription starts at Eur 1500 for 50 users and is available in the following options:</p>
 
@@ -15,17 +17,17 @@
 		<td class="ebasic" style="min-width:250px"><i class="icon-briefcase enterprise-icon"></i>
 			<!--<img class="responsive" style="width: 50%" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/small.png" alt="for small businesses" />--><br />
 			Basic<br />
-			From € 1500
+			From € 1500/year
 		</td>
 		<td class="epro" style="min-width:250px"><i class="icon-building enterprise-icon"></i>
 			<!--<img class="responsive" style="width: 50%" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/medium.png" alt="for small businesses" />--><br />
-			Pro<br />
-			From € 2500
+			Standard<br />
+			From € 2500/year
 		</td>
 		<td class="eenterprise" style="min-width:250px"><i class="icon-industry enterprise-icon"></i>
 		<!--<img class="responsive" style="width: 50%" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/large.png" alt="for small businesses" />--><br />
-		Enterprise<br />
-			From € 3250
+			Premium<br />
+			From € 3250/year
 		</td>
 	</tr>
 	<tr>
@@ -78,12 +80,12 @@
 		<td class="eenterprise"></td>
 	</tr>
 	<tr>
-		<td class="">SLA</td>
-		<td class="ebasic text-center">72 hours
+		<td class="">Production Support SLA</td>
+		<td class="ebasic text-center">3 business day
 		</td>
-		<td class="epro text-center">36 hours
+		<td class="epro text-center">2 business day
 		</td>
-		<td class="eenterprise text-center">12 hours
+		<td class="eenterprise text-center">1 business day or as agreed
 		</td>
 	</tr>
 	<tr>
@@ -95,13 +97,13 @@
 	<tr>
 		<td class="">Email support</td>
 		<td class="ebasic text-center">-</td>
-		<td class="epro text-center">8/5</td>
+		<td class="epro text-center">Business hours</td>
 		<td class="eenterprise text-center">up to 24/7</td>
 	</tr>
 	<tr>
 		<td class="">phone support</td>
 		<td class="ebasic text-center">-</td>
-		<td class="epro text-center">8/5</td>
+		<td class="epro text-center">Business hours</td>
 		<td class="eenterprise text-center">up to 24/7</td>
 	</tr>
 	<tr>
@@ -123,7 +125,7 @@
 		<td class="eenterprise text-center">up to 6 years</td>
 	</tr>
 	<tr>
-		<td class=""><h2>Price per user</h2></td>
+		<td class=""><h2>Price per year</h2></td>
 		<td class="ebasic"></td>
 		<td class="epro"></td>
 		<td class="eenterprise"></td>
@@ -171,6 +173,7 @@
 		<td class="eenterprise text-center"><a href="#contact">Contact us!</a></td>
 	</tr>
 </table>
+<p>For organizations and teams with less than 50 users we recommend purchasing the <a href="https://www.spreed.me/store/product/spreedbox-business/">Spreedbox Business</a>, which provides Nextcloud and web conferencing in an integrated, easy to handle device complete with a 1 year support contract.</p>
 
 <div class="row">
 	<div class="col-md-12 text-center">
