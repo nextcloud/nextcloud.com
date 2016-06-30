@@ -1,13 +1,13 @@
 <div class="row conf-header">
 	<div class="col-sm-6 col-sm-offset-3">
-		<img class="conf-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/evolution.jpeg" alt="succession of Nextcloud devices" />
+<!-- 		<img class="conf-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/evolution.jpeg" alt="succession of Nextcloud devices" /> -->
 		<h2 class="conf-location">Nextcloud and WD Labs collaboration: the Nextcloud Pi Project</h2>
 	</div>
 </div>
 <div class="row conf-info">
 	<div class="col-sm-6">
 		<h1 class="text-center"><i class="icon-hdd-o"></i></br> Bring your data home</h1>
-		<p>The goal of the Nextcloud Pi Project is to create a device that makes it easier for people to self-host their data. As we <a href="https://nextcloud.org/blog/western-digital-and-nextcloud-team-up-to-bring-nextcloud-to-home-users/" target="_blank">announced in December 2015</a>, we're working with <a href="http://wdlabs.wd.com/" target="_blank">WDLabs</a> on this.</p>
+		<p>The goal of the Nextcloud Pi Project is to create a device that makes it easier for people to self-host their data. We're working with <a href="http://wdlabs.wd.com/" target="_blank">WDLabs</a> on this.</p>
 		<p>Our goals are to make a device that is:</p>
 		<ul>
 			<li>Affordable</li>
@@ -27,14 +27,7 @@
 			<li><a href="https://developer.ubuntu.com/en/snappy/" target="_blank">Snappy Ubuntu Core</a> as OS</li>
 			<li>Apache, MySQL, latest Nextcloud</li>
 		</ul>
-		<p>We've covered progress in <a href="https://nextcloud.org/news" target="_blank">our blogs</a>:</p>
-		<ul>
-			<li><a href="https://nextcloud.org/blog/western-digital-and-nextcloud-team-up-to-bring-nextcloud-to-home-users/" target="_blank">Announcement and request for proposals</a>(Dec 2015)</li>
-			<li><a href="https://nextcloud.org/blog/update-about-the-western-digital-and-nextcloud-pi-project/" target="_blank">Progress update</a> (Dec 2015)</li>
-			<li><a href="https://nextcloud.org/blog/wd-labs-raspberry-pi-nextcloud-and-ubuntu/" target="_blank">Announcing Ubuntu Snappy images for testing</a> (Mar 2016)</li>
-			<li><a href="https://nextcloud.org/blog/pioneer-our-nextcloud-pi-drives/" target="_blank">Availability of Pioneer devices</a> (Mar 2016)</li>
-		</ul>
-		<p>You can <a href="https://github.com/nextcloud/pi-image/wiki" target="_blank">get involved here</a>! Test images of the Snap for Raspberry Pi devices <a href="http://people.canonical.com/~kyrofa/nextcloud-pi/" target="_blank">can be found here</a>.</p>
+		<p>Stay tuned for more information, coming soon!</p>
 	</div>
 </div>
 <div class="row conf-partners-title">
