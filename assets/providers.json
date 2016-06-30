@@ -11,5 +11,32 @@
             "Backup & Network Solutions. Ihre Daten sind ihr Gut."
          ],
          "imagename":"wkit.png"
+      },
+	{
+         "title":"HKN GmbH",
+         "url":"https:\/\/www.hkn.de\/#nextcloud",
+         "flags":[
+            "de",
+            "us"
+         ],
+         "freeplans":false,
+		 "supports":"organization",
+         "specializes":[
+            "We are a specialist for fully managed Nextcloud-Servers hosted in Germany with german privacy protection."
+         ],
+         "imagename":"hkn.jpg"
+      },
+	{
+         "title":"Hostiso",
+         "url":"https:\/\/hostiso.com\/nextcloud-hosting",
+         "flags":[
+            "us"
+         ],
+         "freeplans":true,
+		 "supports":"both",
+         "specializes":[
+            "Hostiso is all in one solution for your Nextcloud, from free to Enterprise offering, with included free support for NextCloud, setup, install!"
+         ],
+         "imagename":"hkn.jpg"
       }
 ]
