@@ -513,6 +513,31 @@ p.federation-id {
 
 /*---- Enterprise page ---- */
 
+.epricevat {
+	font-weight: light;
+	font-size: .7em;
+	text-align: right;
+	padding: 0px;
+	margin-top: -20px;
+}
+
+.egetstarted .btn-primary {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 18px 24px;
+    margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.intro-text {
+	
+}
+
+.einfo span:hover {
+    border-bottom: 1px dotted gray;
+/* 	cursor: pointer; */
+}
+
 .table-center {
 	text-align: center !important;
 }
