@@ -4,7 +4,7 @@
 </div>
 
 
-<p>The Nextcloud community <a href="/providers">offers a list of providers for ownCoud users</a>. No endorsement is implied by these listings. If you would like to have your organization added to this page, please follow these instructions:
+<p>The Nextcloud community <a href="/providers">offers a list of providers for Nextcloud users</a>. No endorsement is implied by these listings. If you would like to have your organization added to this page, please follow these instructions:
 <ul>
 	<li>Entries <strong>must</strong> be factual and relevant to Nextcloud. Generic services are not a good fit. Make sure that the link you submit contains references, a logo and a link to Nextcloud.</li>
 	<li>Your organization and the website you submit have to <strong>respect the <a href="/trademarks">Nextcloud trademark policy</a></strong>.</li>
