@@ -49,8 +49,8 @@
 			</select></label></p>
 			<p><label for="description">150 character description of your offering.<br />
 			<textarea  name="description" maxlength="150" cols="60" rows="4" placeholder="Introduce your organization and offering in max 150 characters!"></textarea></label></p>
-			<p><label for="image">URL to your logo, 600x150 pixels<br>
-			<input  type="text" name="image" maxlength="80" size="60"></label></p>
+			<p><label for="image">URL to your logo, 600x150 pixels, png or jpg<br>
+			<input  type="text" name="image" maxlength="150" size="60"></label></p>
 			<td colspan="2" style="text-align:center">
 			<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
 			<input type="submit" value=" Submit ">

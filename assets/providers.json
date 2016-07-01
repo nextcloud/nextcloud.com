@@ -53,5 +53,50 @@
             "OwnCube - open source cloud hosting since 2012. Nextcloud Single and Admin, own apps, design, users, ... More than 30 data center locations worldwide."
          ],
          "imagename":"owncube.png"
+      },
+	{
+         "title":"Kinamo SA",
+         "url":"https:\/\/www.kinamo.be\/en\/cloud\/storage",
+         "flags":[
+            "nl",
+            "fr",
+            "uk",
+            "be"
+         ],
+         "freeplans":false,
+		 "supports":"both",
+         "specializes":[
+            "Kinamo offers cloud storage solutions based on NextCloud, both on a per user base as well as a cloud server instances with business support."
+         ],
+         "imagename":"kinamo.png"
+      },
+	{
+         "title":"LineONE",
+         "url":"https:\/\/lineone.io\/nextcloud",
+         "flags":[
+            "de",
+            "at",
+            "eu"
+         ],
+         "freeplans":false,
+		 "supports":"both",
+         "specializes":[
+            "Discover an enterprise-ready and innovative way to access and share your files, calendars, contacts and mail. Hosted in Germany."
+         ],
+         "imagename":"lineone.png"
+      },
+	{
+         "title":"Tech and Me",
+         "url":"https:\/\/shop.techandme.se\/product-category\/virtual-machine\/nextcloud",
+         "flags":[
+            "all",
+            "eu"
+         ],
+         "freeplans":false,
+		 "supports":"consumer",
+         "specializes":[
+            "Swedish-hosted virtual machine images with Nextcloud pre-installed and various service options available for secure and easy file sync and share!"
+         ],
+         "imagename":"techandme.png"
       }
 ]
