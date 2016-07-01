@@ -44,16 +44,21 @@
 </div>
 
 <div class="row wrap clearfix pad-bottom">
+	<div class="col-md-12 text-center">
+		<h1>Introducing the Spreedbox</h1>
+	</div>
 	<div class="col-md-5">
-		<div class="ft-img-overlay">
+		<div class="yt-img-overlay">
 			<a class="youtube" href="https://www.youtube.com/watch?v=egLqRqb4sHA" title="Spreedbox : most private video chat and file exchange">
-				<img class="img-responsive" src="https://img.youtube.com/vi/egLqRqb4sHA/hqdefault.jpg" title="Spreedbox : most private video chat and file exchange" />
-				<i class="icon-youtube-play ft-play-overlay"></i>
+				<img src="https://img.youtube.com/vi/egLqRqb4sHA/hqdefault.jpg" title="Spreedbox : most private video chat and file exchange" />
+				<div class="yt-play-btn">
+						<i></i> 
+				</div>
 			</a>
 		</div>
 	</div>
 	<div class="col-md-7">
-		<h2>Introducing the Spreedbox</h2>
+		<h2>Privacy in a box</h2>
 		<p>Rediscover private video chat, messaging and file exchange. The Spreedbox is a unique device for secure audio/video conferencing, text and video messaging and file sharing. The Spreedbox is your own conferencing, meeting and file exchange service on the Internet and puts the control and security of your data into your own hands.</p>
 		<p>Featuring Nextcloud, this device is available both for consumers and companies, bringing them the privacy and security they need to confidently share, communicate and collaborate.</p>
 		<a class="btn btn-block btn-lg " href="/spreedbox" role="button">Learn more!</a>
