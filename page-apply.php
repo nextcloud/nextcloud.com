@@ -32,8 +32,10 @@
 			<input  type="text" name="email" maxlength="80" size="60"></label></p>
 			<p><label for="phone">Phone number<br>
 			<input  type="text" name="phone" maxlength="40" size="60" placeholder="Please include country code"></label></p>
-			<p><label for="target_countries">Countries you intend to service<br>
-			<input  type="text" name="target_countries" maxlength="40" size="60" placeholder="country codes separated by comma, like 'NL, FR, DE'"></label></p>
+			<p><label for="hostingurl">URL to Nextcloud offering<br>
+			<input  type="text" name="hostingurl" maxlength="80" size="60"></label></p>
+			<p><label for="targetcountries">Countries you intend to service<br>
+			<input  type="text" name="targetcountries" maxlength="40" size="60" placeholder="country codes separated by comma, like 'NL, FR, DE'"></label></p>
 			<p><label for="hosting">What audience do you target, home users, businesses or both?<br>
 			<select name="hosting">
 				<option value="both">Both</option>

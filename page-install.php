@@ -9,9 +9,10 @@
 			<i class="icon-download"></i>
 		</div>
 		<h2>1. Get Nextcloud Server</h2>
-		<p>Set up a server for yourself<!--, deploy to the cloud or find a provider-->:
+		<p>Set up a server for yourself<!--, deploy to the cloud--> or find a provider:
 		<div class="btn-group">
 			<a class="btn btn-default btn-large" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">Download</a>
+			<a class="btn btn-default btn-large" href="/providers">Providers</a>
 			<a class="btn btn-default btn-large" href="<?php echo $DOCUMENTATION_ADMIN; ?>">Documentation</a>
 		</div>
 		<br />

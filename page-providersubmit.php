@@ -5,6 +5,7 @@ if(isset($_POST['email'])) {
         echo "We are very sorry, but there were error(s) found with the form you submitted: ";
         echo "<br />";
         echo $error."<br />";
+        echo  $hostingurl."<br />";
         echo "Please go back and fix these errors.<br />";
         die();
     }
@@ -13,7 +14,8 @@ if(isset($_POST['email'])) {
         !isset($_POST['yourname']) ||
         !isset($_POST['email']) ||
         !isset($_POST['phone']) ||
-        !isset($_POST['target_countries']) ||
+        !isset($_POST['hostingurl']) ||
+        !isset($_POST['targetcountries']) ||
         !isset($_POST['hosting']) ||
         !isset($_POST['free']) ||
         !isset($_POST['description']) ||
@@ -24,11 +26,12 @@ if(isset($_POST['email'])) {
     $yourname = $_POST['yourname']; // required
     $phone= $_POST['phone']; // required
     $email_from = $_POST['email']; // required
-    $target_countries = $_POST['target_countries']; // required
+    $targetcountries = $_POST['targetcountries']; // required
     $hosting = $_POST['hosting']; // required
     $free = $_POST['free']; // required
     $description = $_POST['description']; // required
     $image = $_POST['image']; // required
+    $hostingurl= $_POST['hostingurl']; // required
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
   if(!preg_match($email_exp,$email_from)) {
@@ -49,8 +52,11 @@ if(isset($_POST['email'])) {
   if(strlen($description) < 5) {
     $error_message .= 'Your input is pretty short! <br />';
   }
-  if(strlen($target_countries) < 2) {
+  if(strlen($targetcountries) < 2) {
     $error_message .= 'You did not enter any country code! <br />';
+  }
+  if(!filter_var($hostingurl, FILTER_VALIDATE_URL)) {
+    $error_message .= 'The URL you entered does not appear to be valid.<br />';
   }
   if(RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
     $url = 'https://www.google.com/recaptcha/api/siteverify';
@@ -83,7 +89,9 @@ if(isset($_POST['email'])) {
     $email_message .= "Contact name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Phone: ".clean_string($phone)."\n";
+    $email_message .= "URL to Nc: ".clean_string($hostingurl)."\n";
     $email_message .= "Hosting type: ".clean_string($hosting)."\n";
+    $email_message .= "Target countries: ".clean_string($targetcountries)."\n";
     $email_message .= "Free plan or not: ".clean_string($free)."\n";
     $email_message .= "Description: ".clean_string($description)."\n";
     $email_message .= "Image: ".clean_string($image)."\n";
