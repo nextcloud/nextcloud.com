@@ -53,5 +53,21 @@
             "OwnCube - open source cloud hosting since 2012. Nextcloud Single and Admin, own apps, design, users, ... More than 30 data center locations worldwide."
          ],
          "imagename":"owncube.png"
+      },
+	{
+         "title":"Kinamo SA",
+         "url":"https:\/\/www.kinamo.be\/en\/cloud\/storage",
+         "flags":[
+            "nl",
+            "fr",
+            "uk",
+            "be"
+         ],
+         "freeplans":false,
+		 "supports":"both",
+         "specializes":[
+            "Kinamo offers cloud storage solutions based on NextCloud, both on a per user base as well as a cloud server instances with business support."
+         ],
+         "imagename":"kinamo.png"
       }
 ]
