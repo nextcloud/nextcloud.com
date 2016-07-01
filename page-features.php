@@ -1,11 +1,13 @@
 <div class="row featurerow topfeature">
 	<div class="col-md-5">
 <!-- 		<iframe width="95%" height="315" src="https://www.youtube.com/embed/g3b0XDpcvuc?rel=0" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe> -->
-		<div class="ft-img-overlay">
-			<a class="youtube" href="https://www.youtube.com/watch?v=g3b0XDpcvuc" title="Introduction to Nextcloud 9">
-				<img class="img-responsive" src="https://img.youtube.com/vi/g3b0XDpcvuc/hqdefault.jpg" title="Introduction to Nextcloud 9" />
-				<i class="icon-youtube-play ft-play-overlay"></i>
-			</a>
+		<div class="yt-img-overlay">
+				<a class="youtube" href="https://www.youtube.com/watch?v=g3b0XDpcvuc" title="Introduction to Nextcloud 9">
+					<img  src="https://img.youtube.com/vi/g3b0XDpcvuc/hqdefault.jpg" title="Introduction to Nextcloud 9" />
+					<div class="yt-play-btn">
+						<i></i> 
+					</div>
+				</a>
 		</div>
 
 	</div>
@@ -107,33 +109,44 @@
 		<div id="share" class="collapse">
 			<p class="featuredesc">You and others can comment on files, tag them, and see the comments and tags by others. Nextcloud lets you share files, calendars and other data with users on your Nextcloud or on other Nextcloud servers ("federation"). User names on remote Nextcloud servers ("Federated Cloud ID's") are auto-completed once the server is added as trusted (this can be done automatically on the first time you share with the other server) and files you share with others always remain on your server. You can also share via public links with or without upload rights, password protection and automatic expiration.</p>
 <!-- 		Adding tags to files -->
-			<div class="ft-img-overlay">
-				<a class="youtube" href="https://www.youtube.com/watch?v=6coT-WCbEyo" title="Adding tags to files">
-					<img class="img-responsive" src="https://img.youtube.com/vi/6coT-WCbEyo/hqdefault.jpg" title="Adding tags to files" />
-					<i class="icon-youtube-play ft-play-overlay"></i>
-				</a>
-			</div>
-<!-- 		Adding comments to files -->
-			<div class="ft-img-overlay">
-				<a class="youtube" href="https://www.youtube.com/watch?v=hOl2OhvKZQY" title="Adding comments to files">
-					<img class="img-responsive" src="https://img.youtube.com/vi/hOl2OhvKZQY/hqdefault.jpg" title="Adding comments to files" />
-					<i class="icon-youtube-play ft-play-overlay"></i>
-				</a>
-			</div>
-<!-- 		Creating a public upload folder -->
-			<div class="ft-img-overlay">
-				<a class="youtube" href="https://www.youtube.com/watch?v=3GSppxEhmZY" title="Creating a public upload folder">
-					<img class="img-responsive" src="https://img.youtube.com/vi/3GSppxEhmZY/hqdefault.jpg" title="Creating a public upload folder" />
-					<i class="icon-youtube-play ft-play-overlay"></i>
-				</a>
-			</div>
-<!-- 		Federation -->
-			<div class="ft-img-overlay">
-				<a class="youtube" href="https://www.youtube.com/watch?v=b1F-N3QXN2s" title="Nextcloud Federation in action">
-					<img class="img-responsive" src="https://img.youtube.com/vi/b1F-N3QXN2s/hqdefault.jpg" title="Nextcloud Federation in action" />
-					<i class="icon-youtube-play ft-play-overlay"></i>
-				</a>
-			</div>
+<!-- 			<div class="show-videos"> -->
+			Watch these videos to see these features in action:
+				<div class="yt-img-overlay">
+					<a class="youtube" href="https://www.youtube.com/watch?v=6coT-WCbEyo" title="Adding tags to files">
+						<img  src="https://img.youtube.com/vi/6coT-WCbEyo/hqdefault.jpg" title="Adding tags to files" />
+						<div class="yt-play-btn">
+						<i></i> 
+					</div>
+					</a>
+				</div>
+	<!-- 		Adding comments to files -->
+				<div class="yt-img-overlay">
+					<a class="youtube" href="https://www.youtube.com/watch?v=hOl2OhvKZQY" title="Adding comments to files">
+						<img  src="https://img.youtube.com/vi/hOl2OhvKZQY/hqdefault.jpg" title="Adding comments to files" />
+						<div class="yt-play-btn">
+						<i></i> 
+					</div>
+					</a>
+				</div>
+	<!-- 		Creating a public upload folder -->
+				<div class="yt-img-overlay">
+					<a class="youtube" href="https://www.youtube.com/watch?v=3GSppxEhmZY" title="Creating a public upload folder">
+						<img  src="https://img.youtube.com/vi/3GSppxEhmZY/hqdefault.jpg" title="Creating a public upload folder" />
+						<div class="yt-play-btn">
+						<i></i> 
+					</div>
+					</a>
+				</div>
+	<!-- 		Federation -->
+				<div class="yt-img-overlay">
+					<a class="youtube" href="https://www.youtube.com/watch?v=b1F-N3QXN2s" title="Nextcloud Federation in action">
+						<img  src="https://img.youtube.com/vi/b1F-N3QXN2s/hqdefault.jpg" title="Nextcloud Federation in action" />
+						<div class="yt-play-btn">
+						<i></i> 
+					</div>
+					</a>
+				</div>
+<!-- 			</div> -->
 	        <p>Learn <a href="/federation">more about federation here</a>.</p>
 		</div>
 	</div>
@@ -146,11 +159,16 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 		<div id="store" class="collapse">
 			<p class="featuredesc">You can add external storage to your Nextcloud with Dropbox, SWIFT, (S)FTP, Google Drive, Amazon S3, OpenStack Object Storage, local hard drives, WebDAV, SMB/CIFS and more. You can control if you want to retrieve thumbnails and how often you want to check for changes. With the Nextcloud Encryption app, data can be encrypted on local and/or remote storage. Keys never leave the Nextcloud server but can also be managed by an external key management tool.</p>
 <!-- 			Configuring external storage -->
-			<div class="ft-img-overlay">
-				<a class="youtube" href="https://www.youtube.com/watch?v=uezzFDRnoPY" title="Configuring external storage">
-					<img class="img-responsive" src="https://img.youtube.com/vi/uezzFDRnoPY/hqdefault.jpg" title="Configuring external storage" />
-					<i class="icon-youtube-play ft-play-overlay"></i>
-				</a>
+			<div class="show-videos">
+				Watch to see these features in action:
+				<div class="yt-img-overlay">
+					<a class="youtube" href="https://www.youtube.com/watch?v=uezzFDRnoPY" title="Configuring external storage">
+						<img  src="https://img.youtube.com/vi/uezzFDRnoPY/hqdefault.jpg" title="Configuring external storage" />
+						<div class="yt-play-btn">
+						<i></i> 
+					</div>
+					</a>
+				</div>
 			</div>
 			<p>Read on <a href="https://opensource.com/business/16/3/cern-and-nextcloud">on opensource.com</a> about the work of Nextcloud and physics labs CERN, inventors of the Internet, collaborating on bringing the scalability of file sync and share to a new level.</p>
 			<p>Since Nextcloud 9.0, you can enable or disable encryption on the local storage as well as for each external storage separately.</p>
@@ -189,11 +207,16 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 		<div id="editing" class="collapse">
 			<p class="featuredesc">Nextcloud Documents is collaborative editing of rich-text documents that lets up to 5 individuals collaborate to edit .odt or .doc files securely 
 			within the browser. Documents may then be shared inside Nextcloud or via a public link. Other collaboration apps are in development, like a <a href="https://www.collaboraoffice.com/community-news/code-updates-2/">full online office suite for Nextcloud by Collabora</a> and <a href="https://nextcloud.org/blog/spreed-brings-private-video-calls-to-nextcloud/">private video calls and chat by Spreed</a>.</p>
-			<div class="ft-img-overlay">
-				<a class="youtube" href="https://www.youtube.com/watch?v=597gjnBB2JM" title="Nextcloud Documents in action">
-					<img class="img-responsive" src="https://img.youtube.com/vi/597gjnBB2JM/hqdefault.jpg" title="Nextcloud Documents in action" />
-					<i class="icon-youtube-play ft-play-overlay"></i>
-				</a>
+			<div class="show-videos">
+				Watch to see these features in action:
+				<div class="yt-img-overlay">
+					<a class="youtube" href="https://www.youtube.com/watch?v=597gjnBB2JM" title="Nextcloud Documents in action">
+						<img  src="https://img.youtube.com/vi/597gjnBB2JM/hqdefault.jpg" title="Nextcloud Documents in action" />
+						<div class="yt-play-btn">
+						<i></i> 
+					</div>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -257,87 +280,111 @@ wherever it is.<br/> <span class="caret"></span><a href="#store" data-toggle="co
 <!--<div class="row">-->
 <div class="row">
 <!--	Your first minute with Nextcloud - installation and admin screen -->
-	<div class="col-md-4 ft-img-overlay">
+	<div class="col-md-4 yt-img-overlay">
 		<a class="youtube" href="https://www.youtube.com/watch?v=8QeJKGyhFhk" title="your first minute with Nextcloud">
-		<img class="img-responsive" src="https://img.youtube.com/vi/8QeJKGyhFhk/hqdefault.jpg" title="your first minute with Nextcloud" />
-		<i class="icon-youtube-play ft-play-overlay"></i>
+		<img  src="https://img.youtube.com/vi/8QeJKGyhFhk/hqdefault.jpg" title="your first minute with Nextcloud" />
+		<div class="yt-play-btn">
+						<i></i> 
+					</div>
 		</a>
     </div>
 <!--     Adding tags to your files -->
-	<div class="col-md-4  ft-img-overlay">
+	<div class="col-md-4  yt-img-overlay">
 		<a class="youtube" href="https://www.youtube.com/watch?v=6coT-WCbEyo" title="Adding tags to your files">
-		<img class="img-responsive" src="https://img.youtube.com/vi/6coT-WCbEyo/hqdefault.jpg" title="Adding tags to your files" />
-		<i class="icon-youtube-play ft-play-overlay"></i>
+		<img  src="https://img.youtube.com/vi/6coT-WCbEyo/hqdefault.jpg" title="Adding tags to your files" />
+		<div class="yt-play-btn">
+						<i></i> 
+					</div>
 		</a>
     </div>
 <!--     Adding comments to your files -->
-	<div class="col-md-4  ft-img-overlay">
+	<div class="col-md-4  yt-img-overlay">
 		<a class="youtube" href="https://www.youtube.com/watch?v=hOl2OhvKZQY" title="Adding comments to your files">
-		<img class="img-responsive" src="https://img.youtube.com/vi/hOl2OhvKZQY/hqdefault.jpg" title="Adding comments to your files" />
-		<i class="icon-youtube-play ft-play-overlay"></i>
+		<img  src="https://img.youtube.com/vi/hOl2OhvKZQY/hqdefault.jpg" title="Adding comments to your files" />
+		<div class="yt-play-btn">
+						<i></i> 
+					</div>
 		</a>
     </div>
 <!--     Sharing between Nextcloud Servers -->
-	<div class="col-md-4  ft-img-overlay">
+	<div class="col-md-4  yt-img-overlay">
 		<a class="youtube" href="https://www.youtube.com/watch?v=b1F-N3QXN2s" title="Sharing between Nextcloud servers">
-		<img class="img-responsive" src="https://img.youtube.com/vi/b1F-N3QXN2s/hqdefault.jpg" title="Sharing between Nextcloud servers" />
-		<i class="icon-youtube-play ft-play-overlay"></i>
+		<img  src="https://img.youtube.com/vi/b1F-N3QXN2s/hqdefault.jpg" title="Sharing between Nextcloud servers" />
+		<div class="yt-play-btn">
+						<i></i> 
+					</div>
 		</a>
     </div>
 <!--	Nextcloud Documents new features in 8.1 -->
- 	<div class="col-md-4  ft-img-overlay">
+ 	<div class="col-md-4  yt-img-overlay">
 		<a class="youtube" href="https://www.youtube.com/watch?v=597gjnBB2JM" title="Nextcloud Documents new features in 8.1">
-		<img class="img-responsive" src="https://img.youtube.com/vi/597gjnBB2JM/hqdefault.jpg" title="Nextcloud Documents new features in 8.1" />
-		<i class="icon-youtube-play ft-play-overlay"></i>
+		<img  src="https://img.youtube.com/vi/597gjnBB2JM/hqdefault.jpg" title="Nextcloud Documents new features in 8.1" />
+		<div class="yt-play-btn">
+						<i></i> 
+					</div>
 		</a>
     </div>
 <!--	walk-through of the admin configuration -->
-	<div class="col-md-4  ft-img-overlay">
+	<div class="col-md-4  yt-img-overlay">
 		<a class="youtube" href="https://www.youtube.com/watch?v=J2R-7lpBXjU" title="walk-through of the admin configuration">
-		<img class="img-responsive" src="https://img.youtube.com/vi/J2R-7lpBXjU/hqdefault.jpg" title="walk-through of the admin configuration" />
-		<i class="icon-youtube-play ft-play-overlay"></i>
+		<img  src="https://img.youtube.com/vi/J2R-7lpBXjU/hqdefault.jpg" title="walk-through of the admin configuration" />
+		<div class="yt-play-btn">
+						<i></i> 
+					</div>
 		</a>
     </div>
 <!--	Configuring external storage -->
-	<div class="col-md-4  ft-img-overlay">
+	<div class="col-md-4  yt-img-overlay">
 		<a class="youtube" href="https://www.youtube.com/watch?v=uezzFDRnoPY" title="Configuring external storage">
-		<img class="img-responsive" src="https://img.youtube.com/vi/uezzFDRnoPY/hqdefault.jpg" title="Configuring external storage" />
-		<i class="icon-youtube-play ft-play-overlay"></i>
+		<img  src="https://img.youtube.com/vi/uezzFDRnoPY/hqdefault.jpg" title="Configuring external storage" />
+		<div class="yt-play-btn">
+						<i></i> 
+					</div>
 		</a>
     </div>
 <!--	Managing (adding, removing, changing) users in Nextcloud -->
-	<div class="col-md-4  ft-img-overlay">
+	<div class="col-md-4  yt-img-overlay">
 		<a class="youtube" href="https://www.youtube.com/watch?v=teelHVdXD4k" title="Managing (adding, removing, changing) users in Nextcloud">
-		<img class="img-responsive" src="https://img.youtube.com/vi/teelHVdXD4k/hqdefault.jpg" title="Managing (adding, removing, changing) users in Nextcloud" />
-		<i class="icon-youtube-play ft-play-overlay"></i>
+		<img  src="https://img.youtube.com/vi/teelHVdXD4k/hqdefault.jpg" title="Managing (adding, removing, changing) users in Nextcloud" />
+		<div class="yt-play-btn">
+						<i></i> 
+					</div>
 		</a>
     </div>
 <!--	New external storage options explained-->
-	<div class="col-md-4  ft-img-overlay">
+	<div class="col-md-4  yt-img-overlay">
 		<a class="youtube" href="https://www.youtube.com/watch?v=nx5PGWc7X18" title="New external storage options explained">
-		<img class="img-responsive" src="https://img.youtube.com/vi/nx5PGWc7X18/hqdefault.jpg" title="New external storage options explained" />
-		<i class="icon-youtube-play ft-play-overlay"></i>
+		<img  src="https://img.youtube.com/vi/nx5PGWc7X18/hqdefault.jpg" title="New external storage options explained" />
+		<div class="yt-play-btn">
+						<i></i> 
+					</div>
 		</a>
     </div>
 <!--Nextcloud Federated Sharing video-->
-	<div class="col-md-4  ft-img-overlay">
+	<div class="col-md-4  yt-img-overlay">
 		<a class="youtube" href="https://www.youtube.com/watch?v=9-JEmlH2DEg" title="Nextcloud Federated Sharing video">
-		<img class="img-responsive" src="https://img.youtube.com/vi/9-JEmlH2DEg/hqdefault.jpg" title="Nextcloud Federated Sharing video" />
-		<i class="icon-youtube-play ft-play-overlay"></i>
+		<img  src="https://img.youtube.com/vi/9-JEmlH2DEg/hqdefault.jpg" title="Nextcloud Federated Sharing video" />
+		<div class="yt-play-btn">
+						<i></i> 
+					</div>
 		</a>
     </div>
 <!--Creating a public upload folder-->
-	<div class="col-md-4  ft-img-overlay">
+	<div class="col-md-4  yt-img-overlay">
 		<a class="youtube" href="https://www.youtube.com/watch?v=3GSppxEhmZY" title="Creating a public upload folder">
-		<img class="img-responsive" src="https://img.youtube.com/vi/3GSppxEhmZY/hqdefault.jpg" title="Creating a public upload folder" />
-		<i class="icon-youtube-play ft-play-overlay"></i>
+		<img  src="https://img.youtube.com/vi/3GSppxEhmZY/hqdefault.jpg" title="Creating a public upload folder" />
+		<div class="yt-play-btn">
+						<i></i> 
+					</div>
 		</a>
     </div>
 <!--Experimental apps in the app store-->
-	<div class="col-md-4  ft-img-overlay">
+	<div class="col-md-4  yt-img-overlay">
 		<a class="youtube" href="https://www.youtube.com/watch?v=ujCFy41J2ag" title="Experimental apps in the app store">
-		<img class="img-responsive" src="https://img.youtube.com/vi/ujCFy41J2ag/hqdefault.jpg" title="Experimental apps in the app store" />
-		<i class="icon-youtube-play ft-play-overlay"></i>
+		<img  src="https://img.youtube.com/vi/ujCFy41J2ag/hqdefault.jpg" title="Experimental apps in the app store" />
+		<div class="yt-play-btn">
+						<i></i> 
+					</div>
 		</a>
     </div>
 </div>

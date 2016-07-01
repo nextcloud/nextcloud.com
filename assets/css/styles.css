@@ -1097,40 +1097,61 @@ img.desaturate {
 	
 }
 
-/* image overlay */
+/* YouTube image overlay (to not let YT videos slow down page loading but - look must be same) */
 
-.ft-img-overlay {
+.yt-img-overlay {
 	position: relative;
-	max-width: 500px;
-	left: 0px;  /* stick it wherever it was positioned by default */
+	left: 0px;
     top: 0px;
-	display: table;
+    overflow: hidden;
+	display: block;
+    max-width: 90%;
+    height: auto;
+	margin: 5%;
+	text-decoration: none;
 }
 
-/*.ft-img-overlay a {
-	display: table;
-}*/
+.yt-img-overlay img {
+    width: 110%;
+    height: 110%;
+    margin: -11% 0 -11% -5%;
+}
 
-/*.ft-img-overlay img {
+.yt-play-btn {
+	padding-left: 45%;
+	padding-top: 25%;
+/* 	padding-top: 20%; */
+	position: absolute;
+	top: 0;
+/* 	top: -5%; */
+/* 	left: -5% */
+/* 	padding-left: 45%; */
 	width: 100%;
 	height: 100%;
-}*/
-
-.ft-play-overlay {
-	font-size: 300%;
-	position: absolute;
-	top: 30%;
-	left: 45%;
-	margin-top: 10px;
-/* 	width: 0px; */
-/* 	height: 0px; */
-/* 	padding: 50%; */
 }
 
-.youtube i {
-	color: white;
+.yt-play-btn i {
+/* 	left: 5% */
+   background-image: url(../img/common/YTplay.svg);
+   background-position: center;
+   background-repeat: none;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+   background-clip: border-box;
+   border: 0px;
+/*    min-height: 10px !important; */
+   z-index: 0 !important;
+   width: 68px;
+   height: 50px;
+   display: inline-block;
 }
 
-.youtube i:hover {
-	color: #CC181E;
+.yt-play-btn:hover i{
+   background-image: url(../img/common/YTplayHover.svg);
+   transition: background-image 0.1s;
+   -webkit-transition: background-image 0.1s;
+/*	width: 100%;
+	height: 100%;*/
 }
