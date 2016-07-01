@@ -35,7 +35,7 @@
 	</div>
 	<div class="col-md-6 text-center">
 		<h3><i class="icon-home"></i> Home users</h3>
-		Nextcloud gives you a private, secure way to share, work with others and access your own data using an easy to use interface. Be it music, calendar appointments, bookmarks, email or your documents, Nextcloud will keep you safe. <a class="btn btn-block btn-lg " href="/install" role="button">Get your Nextcloud!</a>
+		Nextcloud gives you a private, secure way to share, work with others and access your own data using an easy to use interface. Be it music, calendar appointments, bookmarks, email or your documents, Nextcloud keeps you safe. <a class="btn btn-block btn-lg " href="/install" role="button">Get your Nextcloud!</a>
 	</div>
 	<div class="col-md-6 text-center">
 		<h3><i class="icon-bank"></i> Enterprise</h3>
