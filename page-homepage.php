@@ -29,16 +29,16 @@
 	</div>
 </div>
 
-<div class="row wrap home-features clearfix pad-bottom">
+<div class="row wrap clearfix pad-bottom">
 	<div class="col-md-12 text-center">
 		<h1>Perfect for home and office</h1>
 	</div>
-	<div class="col-md-6 text-center">
-		<h3><i class="icon-home"></i> Home users</h3>
+	<div class="col-md-6">
+		<h3 class="text-center"><i class="icon-home"></i> Home users</h3>
 		Nextcloud gives you a private, secure way to share, work with others and access your own data using an easy to use interface. Be it music, calendar appointments, bookmarks, email or your documents, Nextcloud keeps you safe. <a class="btn btn-block btn-lg " href="/install" role="button">Get your Nextcloud!</a>
 	</div>
-	<div class="col-md-6 text-center">
-		<h3><i class="icon-bank"></i> Enterprise</h3>
+	<div class="col-md-6">
+		<h3 class="text-center"><i class="icon-bank"></i> Enterprise</h3>
 		Nextcloud gives organizations control over their data. Manage access to data and communication across devices and platforms, on-premise, on existing storage or with cloud storage. Nextcloud integrates in your infrastructure, offering the extensibility and features you need. <a class="btn btn-block btn-lg " href="/enterprise" role="button">Learn more</a>
 	</div>
 </div>
