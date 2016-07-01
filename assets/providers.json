@@ -84,5 +84,19 @@
             "Discover an enterprise-ready and innovative way to access and share your files, calendars, contacts and mail. Hosted in Germany."
          ],
          "imagename":"lineone.png"
+      },
+	{
+         "title":"Tech and Me",
+         "url":"https:\/\/shop.techandme.se\/product-category\/virtual-machine\/nextcloud",
+         "flags":[
+            "all",
+            "eu"
+         ],
+         "freeplans":false,
+		 "supports":"consumer",
+         "specializes":[
+            "Swedish-hosted virtual machine images with Nextcloud pre-installed and various service options available for secure and easy file sync and share!"
+         ],
+         "imagename":"techandme.png"
       }
 ]
