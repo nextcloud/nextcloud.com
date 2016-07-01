@@ -30,7 +30,7 @@
 								<li>Check package integrity using MD5 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_MD5; ?>">.zip</a>) or SHA256 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_SHA256; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_SHA256; ?>">.zip</a>)</li>
 								<li>Verify the authenticity via PGP (<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_PGP; ?>">.tar.bz2 </a>/<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_PGP ?>">.zip</a>). The Nextcloud GPG key <a target="_blank" href="<?php echo $NEXTCLOUD_GPG ; ?>">is here</a>.</li>
 								<li>Follow the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation">Nextcloud Admin Manuals’</a> installation chapter.</br>
-															If you already run Nextcloud, refer to the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/update.html">update documentation</a> for minor releases and the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html">upgrade manual</a> for moving to major new Nextcloud releases</li>
+								If you already run Nextcloud, refer to the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/update.html">update documentation</a> for minor releases and the <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html">upgrade manual</a> for moving to major new Nextcloud releases</li>
 							</ol>
 							<p><strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a>.</p>
 						</div>
@@ -62,7 +62,7 @@
 								<div class="thumbnail">
 									<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
 								</div>
-									<p><strong>Security note:</strong></br> Once the setup is done, the Nextcloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="http://mailman.nextcloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find here the public Nextcloud <a href="<?php echo $NEXTCLOUD_GPG; ?>">GPG key</a>.</p>
+									<p><strong>Security note:</strong></br> Once the setup is done, the Nextcloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a> for notifications on updates and security issues. Find here the public Nextcloud <a href="<?php echo $NEXTCLOUD_GPG; ?>">GPG key</a>.</p>
 									<p><small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the Nextcloud Appliance</a> on Windows Server.</small></p>
 								</div>
 							</div>
@@ -81,7 +81,7 @@
 									<div class="thumbnail">
 										<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
 									</div>
-										<p><strong>Security note:</strong></br> We recommend a subscription to our low-traffic <a href="http://mailman.nextcloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security 	issues. Find the <a href="<?php echo $NEXTCLOUD_GPG; ?>">public Nextcloud GPG key here</a>.</p>
+										<p><strong>Security note:</strong></br> We recommend a subscription to our low-traffic <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a> for notifications on updates and security issues. Find the <a href="<?php echo $NEXTCLOUD_GPG; ?>">public Nextcloud GPG key here</a>.</p>
 										<p>Looking for repositories of <a href="/changelog">previous major releases</a>?</p>
 										<p><small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the Nextcloud Appliance</a> on Windows Server.</small></p>
 									</div>
@@ -144,7 +144,7 @@
 										<div class="thumbnail">
 											<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
 										</div>
-										<p><strong>Security note:</strong></br> These images do not all offer automatic update technology. We recommend a subscription to our low-traffic <a href="http://mailman.nextcloud.org/mailman/listinfo/announcements">announcement mailing list</a> for notifications on updates and security issues. Find here the public Nextcloud <a href="<?php echo $NEXTCLOUD_GPG; ?>">GPG key</a>.</p>
+										<p><strong>Security note:</strong></br> These images do not all offer automatic update technology. We recommend a subscription to our low-traffic <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a> for notifications on updates and security issues. Find here the public Nextcloud <a href="<?php echo $NEXTCLOUD_GPG; ?>">GPG key</a>.</p>
 									</div>
 								</div>
 							</div>
@@ -167,8 +167,8 @@
 					<li id="li-tab-desktop" class="active"><a href="#tab-desktop" class="btn btn-lg" title="Install Desktop Clients" role="tab" data-toggle="tab"><i class="icon-archive"></i> Install Desktop Clients</a></li>
 					<li id="li-tab-mobile"><a href="#tab-mobile" class="btn btn-lg" title="Install Mobile Apps" role="tab" data-toggle="tab"><i class="icon-code"></i> Install Mobile Apps</a></li>
 				</ul>-->
-			</div>
-			<div  class="tab-content">
+<!-- 			</div> -->
+<!--			<div  class="tab-content">
 				<div id="tab-desktop" role="tabpanel" class="tab-pane active">
 					<div class="overlay-body row">
 						<div class="col-md-6">
@@ -186,26 +186,34 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div>-->
 				<div id="tab-mobile" role="tabpanel" class="tab-pane">
 					<div class="overlay-body row">
-				<a href="#" class="close">&times;</a>
+					<a href="#" class="close">&times;</a>
 						<div class="col-md-6">
-							<p>Our Android app is available for free in the Google Play Store.</p>
+							<p>The Android app is available for free in the Google Play and F-Droid Stores.</p>
 							<p>The app allows you to access, sync and upload your data and features instant upload for fotos and videos, upload management and more features.</p>
 							<br />
 							<!--<p><strong>Mobile apps</strong> are available in both the Apple App Store and the Google Play Store, allowing you to access, sync and upload your data on the go.</p>
 							<a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
 							</a>-->
-							<a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png">
-							</a>
+							<div class="row">
+								<div class="col-xs-6">
+									<a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"><br /><a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>">Beta client</a>
+									</a>
+								</div>
+								<div class="col-xs-6">
+									<a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID; ?>">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a><br /><a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>">Beta client</a>
+								</div>
 							<!--<a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_BLACKBERRY; ?>">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/blackberry.png">
 							</a>-->
-							<br />
-							<p>Find the <a href="https://github.com/nextcloud/android">Android sources here</a>. We're working on more clients, stay tuned! In the mean time, any WebDAV client or the <a href="https://owncloud.org/install/#install-clients">ownCloud clients</a> will work with Nextcloud.<!--or <a href="https://github.com/nextcloud/ios">iOS sources</a>? Looking for <a href="http://f-droid.org/app/com.nextcloud.android">F-Droid</a>?--></p>
+							</div>
+							<p><a href="https://github.com/nextcloud/android">Sources here</a>, <a href="https://download.nextcloud.com/android">direct APK download here</a>.</p>
+							<p>Any WebDAV client or the <a href="https://owncloud.org/install/#install-clients">old ownCloud clients</a> will work with Nextcloud. We will be adding new clients shortly!</p>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">

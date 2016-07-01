@@ -25,14 +25,13 @@
 			<i class="icon-refresh"></i>
 		</div>
 		<h2>2. Sync your data</h2>
-		<p>Connect to your Nextcloud with our Android app<!--clients for your devices-->:</p>
+		<p>Connect to your Nextcloud with our clients:</p>
 		<a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png">
-		</a>
-		<p><a href="https://github.com/nextcloud/android">Sources here</a>, more coming! Any WebDAV client or the <a href="https://owncloud.org/install/#install-clients">old ownCloud clients</a> will work with Nextcloud.</p>
+		</a> 
 <!--     <div class="btn-group"> -->
 <!--       <a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients">Desktop Clients</a> -->
-<!--       <a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">Android Mobile client</a> -->
+		<br /><a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">More Clients</a>
 <!--     </div> -->
 	</div>
   <!--<div class="col-md-4">
