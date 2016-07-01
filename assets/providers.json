@@ -69,5 +69,20 @@
             "Kinamo offers cloud storage solutions based on NextCloud, both on a per user base as well as a cloud server instances with business support."
          ],
          "imagename":"kinamo.png"
+      },
+	{
+         "title":"LineONE",
+         "url":"https:\/\/lineone.io\/nextcloud",
+         "flags":[
+            "de",
+            "at",
+            "eu"
+         ],
+         "freeplans":false,
+		 "supports":"both",
+         "specializes":[
+            "Discover an enterprise-ready and innovative way to access and share your files, calendars, contacts and mail. Hosted in Germany."
+         ],
+         "imagename":"lineone.png"
       }
 ]
