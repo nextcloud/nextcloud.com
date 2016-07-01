@@ -49,14 +49,20 @@ if(isset($_POST['email'])) {
   if(!preg_match($string_exp,$phone)) {
     $error_message .= 'The phone number you entered does not appear to be valid, did you add a country code like +49?<br />';
     }
-  if(strlen($description) < 5) {
-    $error_message .= 'Your input is pretty short! <br />';
+  if(strlen($description) < 15) {
+    $error_message .= 'Your description is really short! <br />';
   }
   if(strlen($targetcountries) < 2) {
     $error_message .= 'You did not enter any country code! <br />';
   }
   if(!filter_var($hostingurl, FILTER_VALIDATE_URL)) {
     $error_message .= 'The URL you entered does not appear to be valid.<br />';
+  }
+  if(strlen($image) < 7) {
+    $error_message .= 'The link to an image you entered does not appear to be valid.<br />';
+  }
+  if(!filter_var($image, FILTER_VALIDATE_URL)) {
+    $error_message .= 'The link to an image you entered does not appear to be valid.<br />';
   }
   if(RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
     $url = 'https://www.google.com/recaptcha/api/siteverify';
