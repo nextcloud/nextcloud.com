@@ -87,9 +87,19 @@
 			<i class="icon-rocket"></i>
 		</div>
 		<h2>Get Involved</h2>
-		<p>If you want to help out with <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank" rel="tooltip" title="Developer Documentation">developing</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html" target="_blank"  rel="tooltip" title="Testing Documentation">testing</a>, grab a daily build. Our <a href="https://github.com/nextcloud" target="_blank">code is here</a>.</p>
+		<p>If you want to help out with <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank" rel="tooltip" title="Developer Documentation">developing</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html" target="_blank"  rel="tooltip" title="Testing Documentation">testing</a>, grab a daily build. Our <a href="https://github.com/nextcloud" target="_blank">code is here</a>.<br />
+		<a href="<?php echo $DOWNLOAD_SERVER_DAILY_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i>  Daily build</a></p>
+		<?php if(!empty($SERVER_TESTING_VERSION)) { ?>
+			    <p>Latest testing version: <span class="label label-blue"><?php echo $SERVER_TESTING_VERSION; ?></span><br />
+		<?php } ?>
+		<?php if(!empty($DOWNLOAD_SERVER_ZIP_TESTING)) { ?>
+			      <a href="<?php echo $DOWNLOAD_SERVER_ZIP_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> zip</a>
+		<?php } ?>
+		<?php if(!empty($DOWNLOAD_SERVER_TAR_TESTING)) { ?>
+			<a href="<?php echo $DOWNLOAD_SERVER_TAR_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> tar.bz2</a>
+		<?php } ?></p>
 		<p>See more <a href="/contribute" target="_blank" rel="tooltip" title="The Nextcloud Contribute Page">ways to get involved</a>!</p>
-		<a href="<?php echo $DOWNLOAD_SERVER_DAILY_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i>  Daily build</a>
+		
 	</div>
 </div>
 <script>
