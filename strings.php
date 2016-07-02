@@ -61,10 +61,10 @@ $DOWNLOAD_SERVER_DAILY_TAR_MD5 = $DOWNLOAD_SERVER_BASE.'daily/latest.tar.bz2.md5
 $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.nextcloud.com/download/repositories/nightly/nextcloud';
 
 // Testing
-$DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.nextcloud.org/download/repositories/testing/nextcloud';
-$SERVER_TESTING_VERSION ='9.0.1 RC2';
-$DOWNLOAD_SERVER_TAR_TESTING ='http://download.nextcloud.org/community/testing/nextcloud-9.0.1RC2.tar.bz2';
-$DOWNLOAD_SERVER_ZIP_TESTING ='http://download.nextcloud.org/community/testing/nextcloud-9.0.1RC2.zip';
+$DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.nextcloud.com/server/prereleases/';
+$SERVER_TESTING_VERSION ='9.0.52RC';
+$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-9.0.52RC1.tar.bz2';
+$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-9.0.52RC1.zip';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.nextcloud.com/download/community/setup-nextcloud.php';
