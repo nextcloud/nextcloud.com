@@ -6,10 +6,12 @@
 
 <div class="row featurerow topfeature">
 	<div class="col-md-5">
-		<div class="ft-img-overlay">
+		<div class="yt-img-overlay">
 			<a class="youtube" href="https://www.youtube.com/watch?v=egLqRqb4sHA" title="Introduction to Nextcloud 9">
 				<img class="img-responsive" src="https://img.youtube.com/vi/egLqRqb4sHA/hqdefault.jpg" title="Introduction to Nextcloud 9" />
-				<i class="icon-youtube-play ft-play-overlay"></i>
+				<div class="yt-play-btn">
+					<i></i> 
+				</div>
 			</a>
 		</div>
 	</div>
@@ -26,10 +28,12 @@
 		<p>Today, most organizations use online services for communication and often have confidential data shared and stored with service providers. Just think of Google®, Skype®, WebEx®, GoToMeeting®, BlueJeans® and many others. You may already have used these services to video conference, share files, keep your address books and stay in touch. All great features, without a doubt. But where is your data? Who has access to it? Confidential conversations, files, videos and personal contacts are uploaded and shared with these service providers without having an adequate service and privacy agreement that meets your requirements in privacy and confidentiality.
 	</div>
 	<div class="col-md-5">
-		<div class="ft-img-overlay">
+		<div class="yt-img-overlay">
 			<a class="youtube" href="https://www.youtube.com/watch?v=Yc6avTVowc0" title="Introduction to Nextcloud 9">
 				<img class="img-responsive" src="https://img.youtube.com/vi/Yc6avTVowc0/hqdefault.jpg" title="Introduction to Nextcloud 9" />
-				<i class="icon-youtube-play ft-play-overlay"></i>
+				<div class="yt-play-btn">
+					<i></i> 
+				</div>
 			</a>
 		</div>
 	</div>
