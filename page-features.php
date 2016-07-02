@@ -1,3 +1,8 @@
+
+<h2>Telephony integration</h2>
+Adding to the Spreedbox support for communication through browsers or mobile apps is the optional SIP Gateway support, enabling web conferencing participants to dial in through a more traditional telephone connection. It is also possible to dial out from the nice Spreed interface to land or mobile lines!
+
+
 <div class="row featurerow topfeature">
 	<div class="col-md-5">
 <!-- 		<iframe width="95%" height="315" src="https://www.youtube.com/embed/g3b0XDpcvuc?rel=0" frameborder="0" style="margin-top:10px;" allowfullscreen></iframe> -->
