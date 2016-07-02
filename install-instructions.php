@@ -201,7 +201,7 @@
 							<div class="row">
 								<div class="col-xs-6">
 									<a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"><br /><a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>">Beta client</a>
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"><br /><a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>">Beta client</a>
 									</a>
 								</div>
 								<div class="col-xs-6">
