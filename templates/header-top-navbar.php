@@ -13,7 +13,7 @@
     <nav class="collapse navbar-collapse" role="navigation">
       <ul id="menu-header" class="nav navbar-nav">
         <li class="<?php if(is_page('news')){ echo 'top-nav-active '; } ?>menu-news"><a href="/news/">News</a></li>
-<!--         <li class="<?php if(is_page('features')){ echo 'top-nav-active '; } ?>menu-features"><a href="/features/">Features</a></li> -->
+        <li class="<?php if(is_page('features')){ echo 'top-nav-active '; } ?>menu-features"><a href="/features/">Features</a></li>
 <!--         <li class="menu-demo"><a target="_blank" href="https://demo.nextcloud.com">Demo</a></li> -->
 <!--         <li class="menu-documentation"><a href="https://doc.nextcloud.com">Documentation</a></li> -->
 		<li class="<?php if(is_page('about')){ echo 'top-nav-active '; } ?>menu-about"><a href="/about/">About us</a>
