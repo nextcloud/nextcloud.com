@@ -786,6 +786,10 @@ div.evnt-btn-wrap {
 	}
 }
 
+.mobileclientbuttons {
+	margin-top: 15px;
+}
+
 div#getapps h2{
   text-align: center;
   font-weight:200;

@@ -163,61 +163,62 @@
 	<div id="install-clients" class="container row PopupGetStarted">
 		<div class="instructions">
 			<div class="row">
-				<!--<ul class="nav nav-tabs" role="tablist">
+					<a href="#" class="close">&times;</a>
+				<ul class="nav nav-tabs" role="tablist">
 					<li id="li-tab-desktop" class="active"><a href="#tab-desktop" class="btn btn-lg" title="Install Desktop Clients" role="tab" data-toggle="tab"><i class="icon-archive"></i> Install Desktop Clients</a></li>
 					<li id="li-tab-mobile"><a href="#tab-mobile" class="btn btn-lg" title="Install Mobile Apps" role="tab" data-toggle="tab"><i class="icon-code"></i> Install Mobile Apps</a></li>
-				</ul>-->
-<!-- 			</div> -->
-<!--			<div  class="tab-content">
+				</ul>
+			</div>
+			<div  class="tab-content">
 				<div id="tab-desktop" role="tabpanel" class="tab-pane active">
 					<div class="overlay-body row">
 						<div class="col-md-6">
 							<p>Latest stable version: <?php echo $VERSIONS_CLIENT_DESKTOP_STABLE_FULL; ?>&nbsp;&nbsp;(<a href="/changelog/desktop"><small>Changelog</small></a>)</p>
-							<p>synchronize your Nextcloud with your computer using our <strong>desktop clients</strong>. Select one or more directories on your local machine and always have access to your latest files wherever you are.</p>
+							<p>Use the desktop clients to keep your files synchronized between your Nextcloud server and your desktop. Select one or more directories on your local machine and always have access to your latest files wherever you are. As the clients are compatible, below simply links to the ownCloud client.</p>
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN; ?>" id="client-download-win" class="btn btn-lg btn-default"><i class="icon-windows"></i>  Windows<br /><small>7, 8.x and 10</small></a>
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC; ?>" id="client-download-mac" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac<br /><small>OSX 10.7+, 64 bit</small></a>
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX; ?>" id="client-download-linux" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux<br /><small>Multiple distributions</small></a>
 							<br><br>
-							<p>Looking for the <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>">Sources</a> (<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP; ?>">PGP signature</a>) or <a href="/changelog/desktop">older versions</a>? For more information on the sync client, check out the <a target="_blank" href="<?php echo $DOCUMENTATION_CLIENT_DESKTOP; ?>/">documentation</a>.</p>
+							<p>Looking for the <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>">Sources</a>? <!--(<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP; ?>">PGP signature</a>) or <a href="/changelog/desktop">older versions</a>?--> For more information on the sync client, check out the <a target="_blank" href="<?php echo $DOCUMENTATION_CLIENT_DESKTOP; ?>/">documentation</a>.</p>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
-								<img style="width: 100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/macsettings.png" alt="Nextcloud Desktop Client" />
+								<img style="width: 100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/macsettings.png" alt="Desktop Client" />
 							</div>
 						</div>
 					</div>
-				</div>-->
+				</div>
 				<div id="tab-mobile" role="tabpanel" class="tab-pane">
 					<div class="overlay-body row">
-					<a href="#" class="close">&times;</a>
 						<div class="col-md-6">
-							<p>The Android app is available for free in the Google Play and F-Droid Stores.</p>
-							<p>The app allows you to access, sync and upload your data and features instant upload for fotos and videos, upload management and more features.</p>
+							<p>The Nextcloud mobile apps are available in various app stores.</p>
+							<p>The apps allow you to access, sync and upload your data and feature instant upload for fotos and videos, upload management and more features.</p>
 							<br />
-							<!--<p><strong>Mobile apps</strong> are available in both the Apple App Store and the Google Play Store, allowing you to access, sync and upload your data on the go.</p>
-							<a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
-							</a>-->
 							<div class="row">
 								<div class="col-xs-6">
-									<a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
+									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"><br /><a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>">Beta client</a>
 									</a>
 								</div>
 								<div class="col-xs-6">
-									<a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID; ?>">
+									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID; ?>">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a><br /><a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>">Beta client</a>
+								</div>
+								<div class="col-xs-6 mobileclientbuttons">
+									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
+									</a>
 								</div>
 							<!--<a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_BLACKBERRY; ?>">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/blackberry.png">
 							</a>-->
 							</div>
 							<p><a href="https://github.com/nextcloud/android">Sources here</a>, <a href="https://download.nextcloud.com/android">direct APK download here</a>.</p>
-							<p>Any WebDAV client or the <a href="https://owncloud.org/install/#install-clients">old ownCloud clients</a> will work with Nextcloud. We will be adding new clients shortly!</p>
+							<p>Any WebDAV client will work with Nextcloud!</p>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
-								<img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/androidmodel.png" alt="Nextcloud Mobile Client" />
+								<img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/andoid.gif" alt="Nextcloud Mobile Client" />
 							</div>
 						</div>
 					</div>
