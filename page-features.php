@@ -216,23 +216,21 @@
 <p><a href="/install" class="btn btn-lg btn-primary install-8-btn">Install Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?> now</a></p>
 
 
-<!-- <a name="video"></a> -->
+<a name="video"></a>
+<div class="featurewrapper"><h2>Nextcloud in Action</h2></div>
 
-<!-- <div class="featurewrapper"><h2>Nextcloud in Action</h2></div> -->
-
-<!--<div class="row">-->
-<!-- <div class="row"> -->
-<!--	Your first minute with Nextcloud - installation and admin screen -->
-<!-- 	<div class="col-md-4 yt-img-overlay"> -->
-<!-- 		<a class="youtube" href="https://www.youtube.com/watch?v=8QeJKGyhFhk" title="your first minute with Nextcloud"> -->
-<!-- 		<img  src="https://img.youtube.com/vi/8QeJKGyhFhk/hqdefault.jpg" title="your first minute with Nextcloud" /> -->
-<!-- 		<div class="yt-play-btn"> -->
-<!-- 						<i></i>  -->
-<!-- 					</div> -->
-<!-- 		</a> -->
-<!--     </div> -->
-<!-- </div> -->
-
+<div class="row">
+<!-- 	Theming in 30 seconds -->
+	<div class="col-md-4 yt-img-overlay">
+		<a class="youtube" href="https://www.youtube.com/watch?v=wqRgeFXYUys" title="Theming Nextcloud in 30 seconds">
+		<img  src="https://img.youtube.com/vi/wqRgeFXYUys/hqdefault.jpg" title="Theming Nextcloud in 30 seconds" />
+		<div class="yt-play-btn">
+						<i></i> 
+					</div>
+		</a>
+    </div>
+</div>
+<p>More videos coming soon!</p>
 
 
 
