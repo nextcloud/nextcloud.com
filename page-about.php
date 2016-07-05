@@ -4,14 +4,14 @@
 <p>Started by the well known open source file sync and share developer <a href="https://karlitschek.de">Frank Karlitschek</a> and joined by the most active contributors to his previous project, building on its mature code base, we offer a more reliable and sustainable solution for users and customers. We have developed a <a href="https://nextcloud.com/nextcloud-9-available-enterprise-functionality-to-be-open-source/">drop-in replacement for that legacy code base</a>, providing the bug fixes and security hardening all users need and the Enterprise Subscription capabilities enterprise customers require, all fully open source.</p>
 
 <h2>For customers and users of existing solutions</h2>
-<p>If you are an existing user or customer or are looking to deploy we have your back. Nextcloud will uncompromisingly focus on providing the best possible experience to all its users, customers and contributors. To ensure a smooth transition, we will support existing contracts on the code we wrote and support. Your support does not go away: Nextcloud will be there for you.</p>
+<p>If you are an existing user or customer or are looking to deploy we have your back. Nextcloud will uncompromisingly focus on providing the best possible experience to all its users, customers and contributors. To ensure a smooth transition, we support existing contracts on the code we wrote and support. Your support does not go away: Nextcloud will be there for you.</p>
 
-<p>We will provide more details about our offering but you can already contact us for questions about your support contract or a new installation. See <a href="/enterprise">our enterprise page</a> for more information.</p>
+<p>See <a href="/enterprise">our enterprise page</a> for more information about pricing of our Enterprise Support Subscriptions.</p>
 
 <h2>What will be better</h2>
 <p>An Open Source business model depends on a carefully balanced equilibrium between the needs of a business and its customers, users and contributing community. Nextcloud is a reboot of the most popular open source file sync and share solution, a new way of re-defining the balance into a more sustainable, open ecosystem with a single focus: putting users in control of their data. Kickstarted as a healthy, growing company, Nextcloud reduces barriers to contribution and increases transparency to enable more input of customers and users.</p>
 
-<p>On top of the file sync and share you all know and love, Nextcloud will provide full Spreed.ME support. Spreed.ME is a next generation, open source WebRTC based communication platform with video conferencing and text chat. We will also provide support for the popular Calendar and Contacts apps and improve and enrich the user experience in many other areas.</p>
+<p>On top of the file sync and share you all know and love, Nextcloud provides full Spreed.ME support. Spreed.ME is a next generation, open source WebRTC based communication platform with video conferencing and text chat. We also provide support for the popular Calendar and Contacts apps, Online Office capabilities and have improved and enriched the user experience in many other areas.</p>
 
 <p>New energy and greater ambitions for the future: Nextcloud is the next generation of on-premise cloud technology! You can find more information about our plans <a href="/news">in our blogs</a> and we'll update our website continuously. Join the <a href="https://help.nextcloud.com">conversations on our forums</a>!</p>
 
