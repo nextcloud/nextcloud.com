@@ -27,9 +27,12 @@
 		</div>
 		<h2>2. Sync your data</h2>
 		<p>Connect to your Nextcloud with our clients:</p>
-		<a style="opacity: 0.9" target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
+		<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png">
-		</a> 
+		</a>
+		<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
+		</a>
 <!--     <div class="btn-group"> -->
 <!--       <a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients">Desktop Clients</a> -->
 		<br /><a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">More Clients</a>
