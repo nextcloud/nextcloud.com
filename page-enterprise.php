@@ -143,43 +143,43 @@
 		<td class="eenterprise"></td>
 	</tr>
 	<tr>
-		<td class="">50-100</td>
+		<td class="">51-100</td>
 		<td class="ebasic price"><a href="#contact">30€/user</a></td>
 		<td class="epro price"><a href="#contact">50€/user</a></td>
 		<td class="eenterprise price"><a href="#contact">65€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">100-250</td>
+		<td class="">101-250</td>
 		<td class="ebasic price"><a href="#contact">20€/user</a></td>
 		<td class="epro price"><a href="#contact">30€/user</a></td>
 		<td class="eenterprise price"><a href="#contact">50€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">250-1000</td>
+		<td class="">251-1000</td>
 		<td class="ebasic price"><a href="#contact">15€/user</a></td>
 		<td class="epro price"><a href="#contact">20€/user</a></td>
 		<td class="eenterprise price"><a href="#contact">30€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">1000-2500</td>
+		<td class="">1001-2500</td>
 		<td class="ebasic price">-</td>
 		<td class="epro price"><a href="#contact">15€/user</a></td>
 		<td class="eenterprise price"><a href="#contact">20€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">2500-10.000</td>
+		<td class="">2501-10.000</td>
 		<td class="ebasic price">-</td>
 		<td class="epro price">-</td>
 		<td class="eenterprise price"><a href="#contact">15€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">10.000-25.000</td>
+		<td class="">10.001-25.000</td>
 		<td class="ebasic price">-</td>
 		<td class="epro price">-</td>
 		<td class="eenterprise price"><a href="#contact">10€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">>25.000</td>
+		<td class="">>25.001</td>
 		<td class="ebasic price">-</td>
 		<td class="epro  price">-</td>
 		<td class="eenterprise text-center"><a href="#contact">Contact us!</a></td>
