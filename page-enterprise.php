@@ -280,7 +280,7 @@
 <p>Nextcloud consulting goes beyond technical expertise, offering strategic advice for organizations. We analyze your challenges and help you implement a comprehensive, cost-effective and compliance-aware solution which reduces complexity and risks while delivering the highest security and privacy protection.</p>
 
 <a name="contact"></a>
-<h3>Contact us for more information and a quote for your situation.</h3>
+<h3>Contact us for more information and a quote fitting your use case.</h3>
 <form name="sales" method="post" action="salessubmit/">
 <!--<div class="row">
 	<div class="col-md-12">-->
