@@ -126,7 +126,7 @@
 				<li>Easy to use interface</li>
 				<li>Private and shared calendars with permission handling</li>
 				<li>Private and shared addressbooks with permission handling</li>
-				<li>CalDAV and CardDAV sync with clients like DAVDroid, native in iOS, Thunderbird etc</li>
+				<li>CalDAV and CardDAV sync with third party clients on Android, native in iOS, Thunderbird etc</li>
 			</ul>
 			</p>
 		</div>
