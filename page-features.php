@@ -201,7 +201,7 @@
 		<li>Nextcloud offers an easy user interface with search, favorites, tags and other ways to quickly get at your files.</li>
 		<li>File editing and preview support for PDF, images, text files, Open Document, Word files and more.</li>
 		<li>Integration of anti-virus scanning functionality with the anti-virus app.</li>
-		<li>LDAP / Active Directory integration</li>
+		<li>LDAP / Active Directory integration and SAML 2.0 support</li>
 		<li>Example files for new users. Preload a new user's Files area with, for example, a tutorial file, which appears when they first log in.</li>
 		<li>Powerful integrated logging and password policy control</li>
 		<li>Fine-grained control over access to data and sharing capabilities by user and by group.</li>

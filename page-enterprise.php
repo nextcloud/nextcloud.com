@@ -75,8 +75,8 @@
 	<tr>
 		<td class="einfo"><span title="Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.">Online Office</span></td>
 		<td class="ebasic text-center">-</td>
-		<td class="einfo epro text-center"><span title="can be purchased at additional cost.">Optional</span></td>
-		<td class="einfo eenterprise text-center"><span title="can be purchased at additional cost.">Optional</span></td>
+		<td class="einfo epro text-center"><span title="can be purchased at additional cost (starting at 7€/user/year.">Optional</span></td>
+		<td class="einfo eenterprise text-center"><span title="can be purchased at additional cost (starting at 7€/user/year.">Optional</span></td>
 	</tr>
 
 	<tr>
@@ -211,7 +211,6 @@
 	</div>
 </div>
 
-
 <div class="row">
 	<div class="col-md-12">
 		<h2>Frequently asked questions</h2>
@@ -237,16 +236,24 @@
 <h1>Product overview</h1>
 <p>Nextcloud gives organizations control over their data. Manage access to data across devices and platforms, on-premise, on existing storage or with cloud storage. Communicate through secure video and audio conferencing and leverage file sharing and collaboration capabilities, knowing your privacy is protected. Nextcloud integrates in your infrastructure, offering the extensibility and features you need combined with the logging and fine grained control over file access and communication required in regulated industries.</p>
 
+<div class="row egetstarted">
+	<div class="col-md-12">
+		<a class="btn btn-primary" href="/features">Learn more about Nextcloud features</a>
+	</div>
+</div>
+
 <h2>Enterprise capabilities</h2>
 <!--<p>If you need to handle hundreds to hundreds of thousands of users, terabytes to petabytes of data, require high availability and multi-server scaling, need integration in enterprise infrastructure and/or have specific needs around compliance in regulated industries, our Enterprise offering is perfect for you.</p>-->
 <p>Nextcloud offers you a full open source file sync & share and collaboration solution, including:
 <ul>
 	<li>File sync and share from any device and with an easy to use web interface</li>
 	<li>Access to all data in your organization, no matter where it is stored</li>
+	<li>Deep integration in corporate infrastructure like LDAP and SAML 2.0 authentication, Windows Network Drive storage support and more</li>
 	<li>Seamless collaboration and communication built in</li>
 	<li>Fully secure and encrypted data handling<!-- with fine grained file access control--></li>
 	<li>Compliance capabilities with <!--retention,--> logging and auditing</li>
-	<!--<li>Calendar, Contacts and secure video and audio conferencing</li>-->
+	<li>Anti-virus integration</li>
+	<li>Calendar, Contacts and secure video and audio conferencing</li>
 	<li>We continuously improve our product and add new capabilities in close collaboration with partners and customers</li>
 </ul>
 </p>
@@ -263,8 +270,9 @@
 	<li>Influence on the roadmap of the open source project</li>
 	<li>Access to the core Nextcloud engineers</li>
 	<li>Access to consulting for custom capabilities</li>
-<!-- 	<li>Support for branding Nextcloud</li> -->
-<!-- 	<li>Full support for integrated video conferencing and communication features based on spreed.me and WebRTC </li> -->
+	<li>Support for branding Nextcloud</li>
+	<li>Full support for integrated video conferencing and communication features based on spreed.me and WebRTC</li>
+	<li>Optional Online Office capabilities which can handle a wide range of industry-standard file formats</li>
 </ul>
 
 <h3>Consulting</h3>

@@ -35,7 +35,7 @@
 				<a class="btn btn-primary btn-lg" role="button" href="/install">Get your Nextcloud &raquo;</a>
 			</div>
 		</div>
-		<a href="https://plus.google.com/events/cnntcg90ehkd9j6gdglumj1g708"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/hangout2.png" class="home-event-img"  /></a>
+		<a href="/enterprise"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/pricing.png" class="home-event-img"  /></a>
 	</div>
   <?php endif; ?>
 </header>
