@@ -7,25 +7,25 @@
 		<i class="icon-group icon"></i>
 		<h3 class="ft-title">Community</h3>
 		<p class="featuredesc">Nextcloud is developed in a transparent and inviting way by the open source community.</p>
-<!--		<a href="/contribute">
+		<a href="/contribute">
 		<p class="featurelink">Join our community!</p>
-		</a>-->
+		</a>
 	</div>
 	<div class="col-sm-4">
 		<i class="icon-eye icon"></i>
 		<h3 class="ft-title">Privacy</h3>
 		<p class="featuredesc">Nextcloud keeps your files secure and private - you decide where you host your data.</p>
-<!--		<a href="/install/#instructions-server">
+		<a href="/install">
 		<p class="featurelink">Install your Nextcloud Server!</p>
-		</a>-->
+		</a>
 	</div>
 	<div class="col-sm-4">
 		<i class="icon-cubes icon"></i>
 		<h3 class="ft-title">Flexibility</h3>
 		<p class="featuredesc">Nextcloud is extensible with new functionality to provide all you need to live your digital life.</p>
-<!--		<a href="/features">
+		<a href="/features">
 		<p>Learn about more features!</p>
-		</a>-->
+		</a>
 	</div>
 </div>
 
