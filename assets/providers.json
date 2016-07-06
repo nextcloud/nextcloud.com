@@ -102,15 +102,33 @@
       },
 	{
          "title":"Service Metric",
-         "url":"https:\/\/shop.techandme.se\/index.php\/product\/host-your-nextcloud-vm-at-tech-and-me",
+         "url":"https:\/\/www.servicemetric.com\/storage.html",
          "flags":[
             "us"
          ],
          "freeplans":true,
-		 "supports":"consumer",
+		 "supports":"both",
          "specializes":[
             "Service Metric offers per user cloud storage to enterprise solutions powered by Nextcloud on fully managed high availability infrastructure in the US."
          ],
          "imagename":"ServiceMetric.png"
+      },
+	{
+         "title":"WEB-SHOP-HOSTING",
+         "url":"https:\/\/www.web-shop-hosting.de\/nextcloud-hosting",
+         "flags":[
+            "de",
+            "uk",
+            "ru",
+            "pl",
+            "ua",
+            "lt"
+         ],
+         "freeplans":false,
+		 "supports":"both",
+         "specializes":[
+            "In Germany, Berlin hosted NextCloud optimized solutions for customers and organizations."
+         ],
+         "imagename":"web-shop-hosting.png"
       }
 ]
