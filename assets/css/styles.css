@@ -1298,3 +1298,22 @@ img.desaturate {
 /*	width: 100%;
 	height: 100%;*/
 }
+
+.YouTubeDialog {
+	width: 50% !important;
+	height: 50% !important;
+	padding: 5px;
+/* 	padding-top: 15% !important; */
+}
+
+@media (max-width: 991px) {
+	.YouTubeDialog {
+		width: 100% !important;
+		height: 40% !important;
+		padding: 5px;
+	}
+}
+
+.YouTubeDialog .ui-dialog-content {
+	height: 100% !important;
+}
