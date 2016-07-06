@@ -179,7 +179,7 @@
 		<td class="eenterprise price"><a href="#contact">10€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">>25.001</td>
+		<td class="">>25.000</td>
 		<td class="ebasic price">-</td>
 		<td class="epro  price">-</td>
 		<td class="eenterprise text-center"><a href="#contact">Contact us!</a></td>
