@@ -99,5 +99,18 @@
             "Swedish-hosted virtual machine images with Nextcloud pre-installed and various service options available for secure and easy file sync and share!"
          ],
          "imagename":"techandme.png"
+      },
+	{
+         "title":"Service Metric",
+         "url":"https:\/\/shop.techandme.se\/index.php\/product\/host-your-nextcloud-vm-at-tech-and-me",
+         "flags":[
+            "us"
+         ],
+         "freeplans":true,
+		 "supports":"consumer",
+         "specializes":[
+            "Service Metric offers per user cloud storage to enterprise solutions powered by Nextcloud on fully managed high availability infrastructure in the US."
+         ],
+         "imagename":"ServiceMetric.png"
       }
 ]
