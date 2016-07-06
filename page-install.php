@@ -13,7 +13,6 @@
 		<div class="btn-group">
 			<a class="btn btn-default btn-large" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">Download</a>
 			<a class="btn btn-default btn-large" href="/providers">Providers</a>
-			<a class="btn btn-default btn-large" href="<?php echo $DOCUMENTATION_ADMIN; ?>">Documentation</a>
 		</div>
 		<br />
 		<a class="label label-blue" role="button" href="#instructions-server" rel="tooltip" title="Install instructions" id="server" data-toggle="popover">More details</a></p>
