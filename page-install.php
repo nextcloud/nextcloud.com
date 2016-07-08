@@ -89,7 +89,7 @@
 			<i class="icon-rocket"></i>
 		</div>
 		<h2>Get Involved</h2>
-		<p>If you want to help out with <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank" rel="tooltip" title="Developer Documentation">developing</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html" target="_blank"  rel="tooltip" title="Testing Documentation">testing</a>, grab a daily build. Our <a href="https://github.com/nextcloud" target="_blank">code is here</a>.<br />
+		<p>If you want to help out with <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank" rel="tooltip" title="Developer Documentation">developing</a> and <!--<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html" target="_blank"  rel="tooltip" title="Testing Documentation">-->testing<!--</a>-->, grab a daily build. Our <a href="https://github.com/nextcloud" target="_blank">code is here</a>.<br />
 		<a href="<?php echo $DOWNLOAD_SERVER_DAILY_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i>  Daily build</a></p>
 		<?php if(!empty($SERVER_TESTING_VERSION)) { ?>
 			    <p>Latest testing version: <span class="label label-blue"><?php echo $SERVER_TESTING_VERSION; ?></span><br />
