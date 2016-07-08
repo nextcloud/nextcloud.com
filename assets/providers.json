@@ -130,5 +130,24 @@
             "In Germany, Berlin hosted NextCloud optimized solutions for customers and organizations."
          ],
          "imagename":"web-shop-hosting.png"
+      },
+	{
+         "title":"Zaclys",
+         "url":"https:\/\/cloud.zaclys.com",
+         "flags":[
+            "fr",
+            "us",
+            "es",
+            "de",
+            "it",
+            "ru",
+            "pl"
+         ],
+         "freeplans":false,
+		 "supports":"both",
+         "specializes":[
+            "Zaclys is a French organization, respectful of privacy. We offer free and alternative Cloud solutions for all. Ready to use or dedicated server."
+         ],
+         "imagename":"zaclys.png"
       }
 ]
