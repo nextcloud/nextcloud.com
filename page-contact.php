@@ -18,7 +18,7 @@
 				<p><label for="phone">Phone number<br>
 				<input  type="text" name="phone" maxlength="40" size="60" placeholder="Please include country code"></label></p>
 				<p><label for="comments">Your message<br />
-				<textarea  name="comments" maxlength="1000" cols="60" rows="6" placeholder="Let us know how we can help you!"></textarea></label></p>
+				<textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Let us know how we can help you!"></textarea></label></p>
 				<td colspan="2" style="text-align:center">
 				<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
 				<input type="submit" value=" Submit ">
