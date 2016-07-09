@@ -10,7 +10,7 @@
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/serverwebui.png" />
 		</div>
 		<div class="col-md-5 featureblock">
-			<p class="">Nextcloud puts your data at your fingertips, under your control. You store your photos, calendar, contacts and documents on a server of your choosing, be it at home, a rented server or at one of <a href="/providers">providers</a>. Your existing data can stay at that FTP drive at work, dropbox or a NAS you have at home, while you get at it through Nextcloud.</p>
+			<p class="">Nextcloud puts your data at your fingertips, under your control. You store your photos, calendar, contacts and documents on a server of your choosing, be it at home, a rented server or at one of our <a href="/providers">providers</a>. Your existing data can stay at that FTP drive at work, dropbox or a NAS you have at home, while you get at it through Nextcloud.</p>
 			<p class="">A trusted solution giving you access to all data you care about in one convenient place!</p>
 		</div>
 	</div>
