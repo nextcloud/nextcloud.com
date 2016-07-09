@@ -149,5 +149,19 @@
             "Zaclys is a French organization, respectful of privacy. We offer free and alternative Cloud solutions for all. Ready to use or dedicated server."
          ],
          "imagename":"zaclys.png"
+      },
+	{
+         "title":"J.I.T. Creatives",
+         "url":"https:\/\/www.jit-creatives.de\/products/",
+         "flags":[
+            "de",
+            "eu"
+         ],
+         "freeplans":false,
+		 "supports":"both",
+         "specializes":[
+            "We offer mailaccounts with Nextcloud-based Calendar, Contacts, Photos, News and online editing of documents. Hosted in Germany."
+         ],
+         "imagename":"jit.png"
       }
 ]
