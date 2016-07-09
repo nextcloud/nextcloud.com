@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
         <div class="page-header">
-            <h1>Nextcloud i.G Privacy and Legal Policy - Introduction</h1>
+            <h1>Nextcloud GmbH i.G Privacy and Legal Policy - Introduction</h1>
         </div>
         <p>We recognize that privacy is extremely important to all visitors to this website. We do not share any individual information with anybody without your permission.<p>
         <p>We use <a href="http://piwik.org/">Piwik</a> to get information on how our website is used and use <a href="https://www.phplist.com/">phplist</a> to handle our newsletters. From neither will we hand over individual data to anybody else. Any privacy breaches we will disclose as soon as possible.</p>
@@ -91,7 +91,7 @@ However, non-personally identifiable visitor information may be provided to othe
 <p>If there are any questions regarding this privacy policy you may contact us using the information below.</p>
 
 <h2>Legal Notice</h2>
-<p>Nextcloud<br/>
+<p>Nextcloud GmbH i.G.<br/>
 Kronenstraße 22A<br/>
 70173 Stuttgart Germany<br/>
 T +49 711 89 66 56 0<br/>
@@ -103,7 +103,7 @@ Niels Mache<br/>
 Frank Karlitschek<br/>
 </p>
 
-<p>Last Edited on 2016-06-03</p>
+<p>Last Edited on 2016-07-09</p>
     
     </div>
 </div>
