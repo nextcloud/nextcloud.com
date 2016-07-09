@@ -5,7 +5,7 @@
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/common/nextcloud-square-logo.png" style="width: 200px" title="Nextcloud logo governed by this document" alt="Nextcloud logo governed by this document" class="img-thumbnail alignright">
 
 <h2>The Nextcloud Marks</h2>
-<p>Nextcloud and the Nextcloud Logo is a registered trademark of <a href="http://nextcloud.com" target="_blank">Nextcloud</a> in the Germany, other countries or both.</p>
+<p>Nextcloud and the Nextcloud Logo is a registered trademark of <a href="http://nextcloud.com" target="_blank">Nextcloud GmbH i.G.</a> in Germany and/or other countries..</p>
 
 <p>These guidelines cover the following marks pertaining both to the product name and the logo: Nextcloud and the blue/white cloud logo with or without the word Nextcloud. This set of marks is collectively referred to as the "Nextcloud Marks." Please note that use of the white/orange/blue cloud logo is used exclusively by Nextcloud and its approved partners and is therefor not covered under these guidelines. Any permission for usage of that particular logo must be granted explicitly by Nextcloud whom you can contact at at <a href="/contact" target="_blank">our contact page</a>.</p>
 
