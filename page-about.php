@@ -15,6 +15,55 @@
 
 <p>New energy and greater ambitions for the future: Nextcloud is the next generation of on-premise cloud technology! You can find more information about our plans <a href="/news">in our blogs</a> and we'll update our website continuously. Join the <a href="https://help.nextcloud.com">conversations on our forums</a>!</p>
 
+<h2>More information</h2>
+<p>Our launch has been covered in the media and we've been interviewed, explaining the why, how and what behind our fork. Watch and read these to find out what happened!</p>
+<div class="row yt-row">
+	<div class="col-md-4 yt-img-overlay">
+		<a class="youtube" it="iMfokaX2r8g" href="https://www.youtube.com/watch?v=iMfokaX2r8g" target="_blank" title="Interview by Bryan Lunduke">
+		<img  src="https://img.youtube.com/vi/iMfokaX2r8g/hqdefault.jpg" title="Interview by Bryan Lunduke" />
+		<div class="yt-play-btn">
+						<i></i> 
+					</div>
+		</a>
+    </div>
+	<div class="col-md-4 yt-img-overlay">
+		<a class="youtube" id="Yjqd7MX434I?start=2678" href="https://youtu.be/Yjqd7MX434I?t=44m38s" target="_blank" title="The Linux Action Show">
+		<img  src="https://img.youtube.com/vi/Yjqd7MX434I/hqdefault.jpg" title="The Linux Action Show" />
+		<div class="yt-play-btn">
+						<i></i> 
+					</div>
+		</a>
+    </div>
+	<div class="col-md-4 yt-img-overlay">
+		<a class="youtube" id="rAXf8SGAXFE?start=2173" href="https://www.youtu.be/rAXf8SGAXFE?t=36m21s" target="_blank" title="Bad Voltage">
+		<img  src="https://img.youtube.com/vi/rAXf8SGAXFE/hqdefault.jpg" title="Bad Voltage" />
+		<div class="yt-play-btn">
+						<i></i> 
+					</div>
+		</a>
+    </div>
+	<div class="col-md-4 yt-img-overlay">
+		<a href="https://www.radiotux.de/index.php?/archives/8015-RadioTux-Sendung-Juni-2016.html" target="_blank" title="RadioTux interview (German)">
+		<img class="" src="<?php bloginfo('template_directory'); ?>/assets/img/history/radiotux.png" title="Radio Tux interview"/>
+		</a>
+    </div>
+    <div class="col-md-4 yt-img-overlay">
+		<a href="http://www.cio.com/article/3078173/cloud-computing/owncloud-forked-to-create-nextcloud.html" target="_blank" title="CIO on the fork">
+		<img class="" src="<?php bloginfo('template_directory'); ?>/assets/img/history/cio_logo.png" title="CIO on the fork"/>
+		</a>
+    </div>
+    <div class="col-md-4 yt-img-overlay">
+		<a href="http://fortune.com/2016/06/03/what-happened-to-owncloud/" title="Fortune on the fork">
+		<img class="" src="<?php bloginfo('template_directory'); ?>/assets/img/history/fortune.png" target="_blank" title="Fortune on the fork"/>
+		</a>
+    </div>
+    <div class="col-md-4 yt-img-overlay">
+		<a href="http://www.zdnet.com/article/nextcloud-adds-enterprise-support-and-ios-appliance/" target="_blank" title="ZDNet on the fork">
+		<img class="" src="<?php bloginfo('template_directory'); ?>/assets/img/history/ZDNet.png" title="ZDNet on the fork"/>
+		</a>
+    </div>
+</div>
+    
   <div class="wrap pad-bottom">
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3 text-center">
@@ -108,4 +157,12 @@
 		<p>If you enjoy working in an open environment at a great open source software business, <a href="mailto:jobs@nextcloud.com">get in contact with us!</p>
 	</div>
 </div>-->
+<link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/vendor/jquery.youtubepopup.js"></script>
 
+<script type="text/javascript">
+$(function () {
+	$("a.youtube").YouTubePopup({ hideTitleBar: true });
+});
+</script>
