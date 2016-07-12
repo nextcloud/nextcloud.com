@@ -42,11 +42,6 @@
 					</div>
 		</a>
     </div>
-	<div class="col-md-4 yt-img-overlay">
-		<a href="https://www.radiotux.de/index.php?/archives/8015-RadioTux-Sendung-Juni-2016.html" target="_blank" title="RadioTux interview (German)">
-		<img class="" src="<?php bloginfo('template_directory'); ?>/assets/img/history/radiotux.png" title="Radio Tux interview"/>
-		</a>
-    </div>
     <div class="col-md-4 yt-img-overlay">
 		<a href="http://www.cio.com/article/3078173/cloud-computing/owncloud-forked-to-create-nextcloud.html" target="_blank" title="CIO on the fork">
 		<img class="" src="<?php bloginfo('template_directory'); ?>/assets/img/history/cio_logo.png" title="CIO on the fork"/>
@@ -60,6 +55,11 @@
     <div class="col-md-4 yt-img-overlay">
 		<a href="http://www.zdnet.com/article/nextcloud-adds-enterprise-support-and-ios-appliance/" target="_blank" title="ZDNet on the fork">
 		<img class="" src="<?php bloginfo('template_directory'); ?>/assets/img/history/ZDNet.png" title="ZDNet on the fork"/>
+		</a>
+    </div>
+	<div class="col-md-4 yt-img-overlay">
+		<a href="https://www.radiotux.de/index.php?/archives/8015-RadioTux-Sendung-Juni-2016.html" target="_blank" title="RadioTux interview (German)">
+		<img class="" src="<?php bloginfo('template_directory'); ?>/assets/img/history/radiotux.png" title="Radio Tux interview"/>
 		</a>
     </div>
 </div>
