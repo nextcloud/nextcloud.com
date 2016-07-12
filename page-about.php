@@ -157,6 +157,9 @@
 		<p>If you enjoy working in an open environment at a great open source software business, <a href="mailto:jobs@nextcloud.com">get in contact with us!</p>
 	</div>
 </div>-->
+<br /><br />
+<p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
+
 <link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/vendor/jquery.youtubepopup.js"></script>

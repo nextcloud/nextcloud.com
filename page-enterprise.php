@@ -301,5 +301,5 @@
 </div>-->
 </form>
 
-<p><small>All product names and trademarks are the property of their respective owners, which are in no way associated or affiliated with Nextcloud</small></p>
+<p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
 
