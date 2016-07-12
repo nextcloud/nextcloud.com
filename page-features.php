@@ -225,12 +225,23 @@
 		<a class="youtube" href="https://www.youtube.com/watch?v=wqRgeFXYUys" title="Theming Nextcloud in 30 seconds">
 		<img  src="https://img.youtube.com/vi/wqRgeFXYUys/hqdefault.jpg" title="Theming Nextcloud in 30 seconds" />
 		<div class="yt-play-btn">
+						<i></i>
+						
+					</div>
+		</a>
+		</br> Theming your Nextcloud in 30 seconds!
+    </div>
+    <div class="col-md-4 yt-img-overlay">
+		<a class="youtube" href="https://www.youtube.com/watch?v=Fe1I7wYW6hA" title="Creating anonymous upload links">
+		<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/hqdefault.jpg" title="Creating anonymous upload links" />
+		<div class="yt-play-btn">
 						<i></i> 
 					</div>
 		</a>
+		</br> Creating an anonymous upload link
     </div>
 </div>
-<p>More videos coming soon!</p>
+<p>Stay tuned for more videos!</p>
 
 
 
