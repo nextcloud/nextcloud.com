@@ -42,9 +42,9 @@
 					</div>
 		</a>
     </div>
-    <div class="col-md-4 yt-img-overlay">
-		<a href="http://www.cio.com/article/3078173/cloud-computing/owncloud-forked-to-create-nextcloud.html" target="_blank" title="CIO on the fork">
-		<img class="" src="<?php bloginfo('template_directory'); ?>/assets/img/history/cio_logo.png" title="CIO on the fork"/>
+	<div class="col-md-4 yt-img-overlay">
+		<a href="http://www.zdnet.com/article/nextcloud-releases-owncloud-fork-ahead-of-schedule/" target="_blank" title="ZDNet on the fork">
+		<img class="" src="<?php bloginfo('template_directory'); ?>/assets/img/history/ZDNet.png" title="ZDNet on the fork"/>
 		</a>
     </div>
     <div class="col-md-4 yt-img-overlay">
@@ -52,9 +52,19 @@
 		<img class="" src="<?php bloginfo('template_directory'); ?>/assets/img/history/fortune.png" target="_blank" title="Fortune on the fork"/>
 		</a>
     </div>
+	<div class="col-md-4 yt-img-overlay">
+		<a href="http://thenewstack.io/story-behind-nextcloud/" target="_blank" title="TheNewStack on the fork">
+		<img class="" src="<?php bloginfo('template_directory'); ?>/assets/img/history/thenewstack.png" title="TheNewStack on the fork"/>
+		</a>
+    </div>
     <div class="col-md-4 yt-img-overlay">
-		<a href="http://www.zdnet.com/article/nextcloud-adds-enterprise-support-and-ios-appliance/" target="_blank" title="ZDNet on the fork">
-		<img class="" src="<?php bloginfo('template_directory'); ?>/assets/img/history/ZDNet.png" title="ZDNet on the fork"/>
+		<a href="http://www.eweek.com/cloud/nextcloud-improves-security-adds-enterprise-support.html" target="_blank" title="eWeek on the fork">
+		<img class="" src="<?php bloginfo('template_directory'); ?>/assets/img/history/eweek.png" title="eWeek on the fork"/>
+		</a>
+    </div>
+    <div class="col-md-4 yt-img-overlay">
+		<a href="http://www.cio.com/article/3079866/open-source-tools/what-we-can-learn-from-ownclouds-collapse.html" target="_blank" title="CIO on the fork">
+		<img class="" src="<?php bloginfo('template_directory'); ?>/assets/img/history/cio_logo.png" title="CIO on the fork"/>
 		</a>
     </div>
 	<div class="col-md-4 yt-img-overlay">
