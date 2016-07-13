@@ -152,7 +152,7 @@
       },
 	{
          "title":"J.I.T. Creatives",
-         "url":"https:\/\/www.jit-creatives.de\/products/",
+         "url":"https:\/\/www.jit-creatives.de\/products",
          "flags":[
             "de",
             "eu"
@@ -163,5 +163,22 @@
             "We offer mailaccounts with Nextcloud-based Calendar, Contacts, Photos, News and online editing of documents. Hosted in Germany."
          ],
          "imagename":"jit.png"
+      },
+	{
+         "title":"RoseHosting",
+         "url":"https:\/\/rosehosting.com\/nextcloud-hosting.html",
+         "flags":[
+            "us",
+            "uk",
+            "ca",
+            "de",
+            "all"
+         ],
+         "freeplans":false,
+		 "supports":"both",
+         "specializes":[
+            "We offer managed Linux VPS with free 24/7 support. We will install and configure Nextcloud and any other app for you for free. Free migrations included."
+         ],
+         "imagename":"rosehosting.png"
       }
 ]
