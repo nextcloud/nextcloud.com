@@ -16,7 +16,7 @@ The goal should be to streamline productivity without sacrificing visibility int
 <h2>Solutions</h2>
 <p>By providing businesses an open source, on-premise file access, sync and share solution with powerful integration in existing infrastructure and storage solutions, Nextcloud makes data available to users wherever it is. Its familiar, easy to use interface allow users to work efficiently and be confident everybody has access to the same, latest version of data. Its enterprise capabilities ensure IT maintains full control over sharing, retention and availability of data within and across the boundaries of the organization.</p>
 <h3>Wherever it is</h3>
-<p>Modern organizations have data in a wide variety of silos like Sharepoint, Windows Network Drives, FTP sites and (often without knowledge of management) Dropbox or Google Drive. Nextcloud acts as a single file access, sync and share layer across all these storage systems, integrating with enterprise native account handling like LDAP or Shiboleth.</p>
+<p>Modern organizations have data in a wide variety of silos like Sharepoint, Windows Network Drives, FTP sites and (often without knowledge of management) Dropbox or Google Drive. Nextcloud acts as a single file access, sync and share layer across all these storage systems, integrating with enterprise native account handling like LDAP or SAML.</p>
 <h3>Under IT's control</h3>
 <p>No matter the storage solution used, Nextcloud can ensure corporate policies are followed. Sharing can be restricted through the file firewall, filtering on user properties like location or group, or file properties like (automatically or manually) assigned tags, file type and more. With storage transparent to users, generic data can remain where it is while IT can make sure that business critical or compliance-relevant information is stored on internal infrastructure and does not leave the company.</p>
 
@@ -58,7 +58,7 @@ The goal should be to streamline productivity without sacrificing visibility int
 			<p><label for="phone">Phone number<br>
 			<input  type="text" name="phone" maxlength="40" size="60" placeholder="Please include country code"></label></p>
 			<p><label for="comments">Your message<br />
-			<textarea  name="comments" maxlength="1000" cols="60" rows="6" placeholder="Let us know how we can help you!"></textarea></label></p>
+			<textarea  name="comments" maxlength="2000" cols="60" rows="6" placeholder="Let us know how we can help you!"></textarea></label></p>
 			<td colspan="2" style="text-align:center">
 			<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
 			<input type="submit" value=" Submit inquiry ">

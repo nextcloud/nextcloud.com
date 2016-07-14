@@ -17,7 +17,7 @@ if(isset($_POST['email'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all fields?'); }
     $yourname = $_POST['yourname']; // required
     $organization= $_POST['organization']; // required
-    $phone = $_POST['phone']; // required
+    $phone= $_POST['phone']; // required
     $email_from = $_POST['email']; // required
     $comments = $_POST['comments']; // required
     $error_message = "";
@@ -40,29 +40,24 @@ if(isset($_POST['email'])) {
   if(strlen($comments) < 5) {
     $error_message .= 'Your input is pretty short! <br />';
   }
+	  if(RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
+	    $url = 'https://www.google.com/recaptcha/api/siteverify';
+	    $ch = curl_init();
+	    curl_setopt($ch, CURLOPT_URL, $url);
+	    curl_setopt($ch, CURLOPT_POST, 1);
+	    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
+	    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	    $server_output = curl_exec($ch);
+	    $server_output = json_decode($server_output, true);
+	    curl_close($ch);
+	    if (!isset($server_output['success']) || $server_output['success'] !== true) {
+	      $error_message .= 'The captcha result was invalid.<br />';
+	    }
+	  } else {
+	    $error_message .= 'Captcha code is missing.<br />';
+	  }
   if(strlen($error_message) > 0) {
     died($error_message);
-  }
-  if(RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
-    $url = 'https://www.google.com/recaptcha/api/siteverify';
-    $ch = curl_init();
-
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_POST, 1);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-    $server_output = curl_exec($ch);
-
-    $server_output = json_decode($server_output, true);
-
-    curl_close($ch);
-
-    if (!isset($server_output['success']) || $server_output['success'] !== true) {
-      $error_message .= 'The captcha result was invalid.<br />';
-    }
-  } else {
-    $error_message .= 'Captcha code is missing.<br />';
   }
     $email_message = "Form details below.\n\n";
         function clean_string($string) {
@@ -71,11 +66,11 @@ if(isset($_POST['email'])) {
     }
 // the app review mailing list address
     $email_to = "sales@nextcloud.com";
-	$email_subject = "Secure_sharing_form";
+	$email_subject = "Secure sharing form";
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Organization: ".clean_string($organization)."\n";
-    $email_message .= "Phone number: ".clean_string($phone)."\n";
+    $email_message .= "Phone: ".clean_string($phone)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
 // create email headers
     $headers = 'From: '.$email_from."\r\n".
