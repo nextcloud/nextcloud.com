@@ -1,6 +1,7 @@
 <?php get_template_part( 'templates/parts/title'); ?>
-<div class="sub-nav"><a href="#files">File access and sharing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#clients">Mobile and desktop clients</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#externalstorage">External storage</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#calendarcontacts">Calendar and Contacts</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#webrtc">WebRTC video conferencing</a><!--&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#onlineoffice">Online Office</a>-->
+<div class="sub-nav"><a href="#files">File access and sharing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#clients">Mobile and desktop clients</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#externalstorage">External storage</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#calendarcontacts">Calendar and Contacts</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#webrtc">WebRTC video conferencing</a><!--&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#onlineoffice">Online Office</a>-->|&nbsp;&nbsp;<a href="#video">Nextcloud in action</a>
 </div>
+
 
 <a name="files"></a>
 <div class="featurerow">
