@@ -121,7 +121,7 @@ button a:hover {text-decoration: none; }
 /*		min-height: 800px !important; */
 	 z-index: 0 !important;
 }
-	
+
 }
 
 .menu-install {
@@ -166,7 +166,7 @@ h1.featuretitle {
 .featureimg {
 	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
 	-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
-	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15); 
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
 }
 
 .page-content-header > div > h1 {
@@ -492,7 +492,7 @@ div.row.home-row h2 {
 }
 
 
-@media (max-width: 1200px) { 
+@media (max-width: 1200px) {
 
 div.customers {
 	margin-top:20px;
@@ -511,13 +511,13 @@ p.federation-id {
 /*---- App store approval form Page ---- */
 .appform label {
 				font-weight: normal;
-		
+
 }
 
 /**---- Jobs page ---- */
 .jobs h3 {
 				margin-top: 25px;
-		
+
 }
 
 
@@ -540,7 +540,7 @@ p.federation-id {
 }
 
 .intro-text {
-	
+
 }
 
 .einfo span:hover {
@@ -594,7 +594,7 @@ p.federation-id {
 	padding: 20px 0 20px;
 	position: relative;
 }
- 
+
 .new-timeline:before {
 	top: 0;
 	bottom: 0;
@@ -605,8 +605,8 @@ p.federation-id {
 	left: 50%;
 	margin-left: -2.5px;
 }
- 
- 
+
+
 .tldate {
 	display: block;
 	margin: 0 auto;
@@ -615,7 +615,7 @@ p.federation-id {
 	text-align: center;
 	margin-left:17px;
 }
- 
+
 .new-timeline li {
 	margin-bottom: 25px;
 	position: relative;
@@ -670,7 +670,7 @@ p.federation-id {
 	border-bottom: 15px solid transparent;
 	content: " ";
 }
- 
+
 .new-timeline li .new-timeline-panel:after {
 	position: absolute;
 	top: 27px;
@@ -688,18 +688,18 @@ p.federation-id {
 	display: none;
 	border: 0;
 }
- 
+
 .new-timeline li.new-timeline-inverted .new-timeline-panel {
 	float: right;
 }
- 
+
 .new-timeline li.new-timeline-inverted .new-timeline-panel:before {
 	border-left-width: 0;
 	border-right-width: 15px;
 	left: -15px;
 	right: auto;
 }
- 
+
 .new-timeline li.new-timeline-inverted .new-timeline-panel:after {
 	border-left-width: 0;
 	border-right-width: 14px;
@@ -733,24 +733,24 @@ p.federation-id {
 		width: 44%;
 	}
 }
- 
+
 @media (max-width: 700px) {
 	.new-timeline li {
 	clear: both;
 	}
- 
+
 	ul.new-timeline:before {
 		left: 40px;
 	}
- 
+
 	.tldate { width: 140px; }
- 
+
 	ul.new-timeline li .new-timeline-panel {
 		width: calc(100% - 90px);
 		width: -moz-calc(100% - 90px);
 		width: -webkit-calc(100% - 90px);
 	}
- 
+
 	ul.new-timeline li .tl-circ {
 		top: 22px;
 		left: 22px;
@@ -760,18 +760,18 @@ p.federation-id {
 	ul.new-timeline > li > .tldate {
 		margin: 0;
 	}
- 
+
 	ul.new-timeline > li > .new-timeline-panel {
 		float: right;
 	}
- 
+
 	ul.new-timeline > li > .new-timeline-panel:before {
 		border-left-width: 0;
 		border-right-width: 15px;
 		left: -15px;
 		right: auto;
 	}
- 
+
 	ul.new-timeline > li > .new-timeline-panel:after {
 		border-left-width: 0;
 		border-right-width: 14px;
@@ -1013,13 +1013,13 @@ body.install a.btn-lg {
 	height: 30px;
 }
 
-.consulting .consultant-logo { 
+.consulting .consultant-logo {
 	padding: 15px;
 	margin: auto;
 	width: 80%;
 }
 
-img.desaturate { 
+img.desaturate {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
@@ -1065,7 +1065,7 @@ img.desaturate {
 	height: 30px;
 }
 
-.provider .provider-logo { 
+.provider .provider-logo {
 	padding: 2px;
 	margin: auto;
 	width: 95%;
@@ -1164,7 +1164,7 @@ img.desaturate {
 	.ft-sharing-img {
 		padding-top: 2%
 	}
-	
+
 }
 /* go-to-top button */
 
@@ -1226,6 +1226,23 @@ img.desaturate {
 		bottom: 20px;
 		text-decoration: none;
 	}
+
+	.navbar-toggle {
+		display: block;
+	}
+
+	.navbar-header {
+		float: none;
+	}
+
+	#menu-header {
+		display: none;
+	}
+
+	.in #menu-header {
+		display: block;
+	}
+
 }
 @media only screen and (min-width: 1024px) {
 	.back-to-top {
@@ -1234,6 +1251,25 @@ img.desaturate {
 		right: 30px;
 		bottom: 30px;
 		text-decoration: none;
+	}
+
+	.navbar-header {
+		float: left;
+	}
+
+	.navbar-collapse {
+		width: auto;
+		border-top: 0;
+		box-shadow: none;
+		margin-top: 4px;
+	}
+
+	.navbar-toggle {
+		display: none;
+	}
+
+	#menu-header {
+		display: block;
 	}
 }
 
