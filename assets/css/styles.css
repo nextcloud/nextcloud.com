@@ -187,11 +187,13 @@ h1.featuretitle {
 
 .banner ul#menu-header.nav>li:not(.menu-install) >a:hover {
 	border-bottom: 2px solid white;
+	margin-bottom: 17px;
 }
 
 .banner ul#menu-header.nav>li>a {
 	padding-bottom: 6px;
 	font-size: 1em;
+/* 	margin-bottom: 21px; */
 }
 
 div.sub-nav {
