@@ -1,6 +1,9 @@
 <?php get_template_part( 'templates/parts/title'); ?>
-<div class="sub-nav"><a href="#files">File access and sharing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#clients">Mobile and desktop clients</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#externalstorage">External storage</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#calendarcontacts">Calendar and Contacts</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#webrtc">WebRTC video conferencing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#onlineoffice">Collabora Online Office</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#video">Nextcloud in action</a>
+<div class="sub-nav">
+	<a href="#files">File access and sharing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#clients">Mobile and desktop clients</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#externalstorage">External storage</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#calendarcontacts">Calendar and Contacts</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#webrtc">WebRTC video conferencing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#onlineoffice">Collabora Online Office</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#video">Nextcloud in action</a>
 </div>
+</div>
+
 <div class="row ">
 	<div class="col-md-5">
 		<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/serverwebui.png" />
@@ -17,36 +20,19 @@
 <div class="featurerow">
 	<h1 class="featuretitle">File access and sharing</h1>
 	<div class="row">
-			<div class="col-md-6 featureblock">
+		<div class="col-md-6 featureblock">
 			<h2 class="featuretitle">Share on your terms</h2>
 			<p class="">Nextcloud features an easy to use and powerful web interface. You can access all your files wherever you are and however you like.</p>
 			<p class="">The easy interface allows you to share with other users on your server, send password protected public links, let others upload files to you and get notifications on your phone when a user on another Nextcloud server shares files directly with you.</p>
 			<p>Nextcloud makes sharing and collaboration easy!</p>
+			<a href="/sharing" class="btn btn-primary">Learn more about sharing in Nextcloud</a>
 		</div>
 		<div class="col-md-6">
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/upload.png" class="img-responsive featureimg" />
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-md-6">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing_admin.png" class="img-responsive featureimg" />
-		</div>
-		<div class="col-md-6">
-			<p class="">Features:
-			<ul>
-				<li>Tag and comment on files, and see tags and comments by others</li>
-				<li>See what is happening on your Nextcloud in the Activity feed</li>
-				<li>Previous versions of files you modified are retained and can be brought back. Deleted files can be found in the trash.</li>
-				<li>Share photo galleries</li>
-				<li>Share public links read-only or with editing capabilities</li>
-				<li>Anonymous upload hides existing files, providing just an upload target</li>
-				<li>Optionally put a password or expiration date on public link shares</li>
-				<li>Share directly to users on other Nextcloud, ownCloud or Pydio servers (<a href="/federation">"federation"</a>)</li>
-				<li>Admins can control all these abilities, add trusted Federation servers and more</li>
-			</ul>
-			</p>
-		</div>
 </div>
+
 
 <a name="clients"></a>
 <div class="featurerow">
@@ -113,15 +99,18 @@
 <div class="featurerow">
 	<h1 class="featuretitle">Calendar and Contacts</h1>
 	<div class="row">
-		<div class="col-md-7">
+		<div class="col-md-6">
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" />
 		</div>
-		<div class="col-md-5 featureblock">
+		<div class="col-md-6 featureblock">
 			<p class="">The Nextcloud Calendar and Contacts apps allow you to store, sync and share your plans and contacts. You can share with users or groups on your server, sync the calendar or contacts with your devices and access them wherever you are.</p>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-5 featureblock">
+<!--	</div>
+	<div class="row">-->
+		<div class="col-md-6">
+			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/contacts.png" />
+		</div>
+		<div class="col-md-6 featureblock">
 			<p class="">
 			The Calendar and Contacts app feature:
 			<ul>
@@ -131,9 +120,6 @@
 				<li>CalDAV and CardDAV sync with third party clients on Android, native in iOS, Thunderbird etc</li>
 			</ul>
 			</p>
-		</div>
-		<div class="col-md-7">
-			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/contacts.png" />
 		</div>
 	</div>
 </div>
@@ -184,35 +170,101 @@
 		<a href="/collaboraonline" class="btn btn-primary">Learn more about Collabora Online</a></p>
 		</div>
 		<div class="col-md-7">
-			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collaboraonline1.png" />
+			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png" />
 		</div>
 	</div>
 </div>
 
-<h1 class="featuretitle">And more</h1>
-<div class="row">
-	<ul class="featureslist">
-		<li>Nextcloud is open source - there are no limitations and you can inspect, integrate, extend and modify Nextcloud however you want.</li>
-		<li>Nextcloud offers an easy user interface with search, favorites, tags and other ways to quickly get at your files.</li>
-		<li>File editing and preview support for PDF, images, text files, Open Document, Word files and more.</li>
-		<li>Integration of anti-virus scanning functionality with the anti-virus app.</li>
-		<li>LDAP / Active Directory integration and SAML 2.0 support</li>
-		<li>Example files for new users. Preload a new user's Files area with, for example, a tutorial file, which appears when they first log in.</li>
-		<li>Powerful integrated logging and password policy control</li>
-		<li>Fine-grained control over access to data and sharing capabilities by user and by group.</li>
-		<li>Advanced quota management with configurable accounting of external storage.</li>
-		<li>Sharing REST API. Control sharing from mobile apps and desktop clients</li>
-		<li>Easy development of 3rd party apps with the share REST API. Quick access to core functions for app development with the powerful Nextcloud App API and webhooks following the publication / subscription model.</li>
-		<li>Built in, easy to use theming</li>
-	</ul>
-<!-- 	<p>Find answers to your questions on our <a href="/faq">Frequently Asked Questions page</a>.</p> -->
 </div>
 
+<div class="wrap container featuregroup">
+<h1 class="featuretitle">And more.</h1>
+	<div class="row">
+		<div class="col-md-1 featureblock">
+		<i class="icon-code-fork icon"></i>
+		</div>
+		<div class="col-md-3 featureblock">
+		<p class=""> Nextcloud is open source - there are no limitations and you can inspect, integrate, extend and modify Nextcloud however you want</p>
+		</div>
+		<div class="col-md-1 featureblock">
+		<i class="icon-tags icon"></i>
+		</div>
+		<div class="col-md-3 featureblock">
+		<p class="">Nextcloud offers an easy user interface with search, favorites, tags and other ways to quickly get at your files</p>
+		</div>
+		<div class="col-md-1 featureblock">
+		<i class="icon-file-text icon"></i>
+		</div>
+		<div class="col-md-3 featureblock">
+		<p class="">File editing and preview support for PDF, images, text files, Open Document, Word files and more</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-1 featureblock">
+		<i class="icon-bug icon"></i>
+		</div>
+		<div class="col-md-3 featureblock">
+		<p class="">Integration of anti-virus scanning functionality with the anti-virus app</p>
+		</div>
+		<div class="col-md-1 featureblock">
+		<i class="icon-puzzle-piece icon"></i>
+		</div>
+		<div class="col-md-3 featureblock">
+		<p class="">LDAP / Active Directory integration and SAML 2.0 support</p>
+		</div>
+		<div class="col-md-1 featureblock">
+		<i class="icon-life-ring icon"></i>
+		</div>
+		<div class="col-md-3 featureblock">
+		<p class="">Example files for new users. Preload a new user's Files area with, for example, a tutorial file, which appears when they first log in.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-1 featureblock">
+		<i class="icon-key icon"></i>
+		</div>
+		<div class="col-md-3 featureblock">
+		<p class="">Powerful integrated logging and password policy control</p>
+		</div>
+		<div class="col-md-1 featureblock">
+		<i class="icon-share-alt icon"></i>
+		</div>
+		<div class="col-md-3 featureblock">
+		<p class="">Fine-grained control over access to data and sharing capabilities by user and by group</p>
+		</div>
+		<div class="col-md-1 featureblock">
+		<i class="icon-archive icon"></i>
+		</div>
+		<div class="col-md-3 featureblock">
+		<p class="">Advanced quota management with configurable accounting of external storage</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-1 featureblock">
+		<i class="icon-code icon"></i>
+		</div>
+		<div class="col-md-3 featureblock">
+		<p class="">Sharing REST API. Control sharing from mobile apps and desktop clients</p>
+		</div>
+		<div class="col-md-1 featureblock">
+		<i class="icon-certificate icon"></i>
+		</div>
+		<div class="col-md-3 featureblock">
+		<p class="">Easy development of 3rd party apps with the share REST API. Quick access to core functions for app development with the powerful Nextcloud App API and webhooks following the publication / subscription model</p>
+		</div>
+		<div class="col-md-1 featureblock">
+		<i class="icon-paint-brush icon"></i>
+		</div>
+		<div class="col-md-3 featureblock">
+		<p class="">Built in, easy to use theming</p>
+		</div>
+	</div>
+</div>
 <p><a href="/install" class="btn btn-lg btn-primary install-8-btn">Install Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?> now</a></p>
 
-
+<div class="wrap container">
 <a name="video"></a>
-<div class="featurewrapper"><h2>Nextcloud in Action</h2></div>
+<div class="featurewrapper"><h1 class="featuretitle">Nextcloud in Action</h1></div>
 
 <div class="row">
 <!-- 	Theming in 30 seconds -->
@@ -245,7 +297,7 @@
     </div>
 </div>
 <p>Stay tuned for more videos!</p>
-
+</div>
 
 
 <div class="wrap container">

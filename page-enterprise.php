@@ -73,7 +73,7 @@
 		<td class="eenterprise text-center">Included</td>
 	</tr>
 	<tr>
-		<td class="einfo"><span title="Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.">Online Office</span></td>
+		<td class="einfo"><span title="Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.">Collabora Online Office</span></td>
 		<td class="ebasic text-center">-</td>
 		<td class="einfo epro text-center"><span title="can be purchased at additional cost (starting at 7€/user/year.">Optional</span></td>
 		<td class="einfo eenterprise text-center"><span title="can be purchased at additional cost (starting at 7€/user/year.">Optional</span></td>
