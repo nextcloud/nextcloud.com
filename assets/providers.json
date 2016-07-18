@@ -180,5 +180,21 @@
             "We offer managed Linux VPS with free 24/7 support. We will install and configure Nextcloud and any other app for you for free. Free migrations included."
          ],
          "imagename":"rosehosting.png"
+      },
+	{
+         "title":"woelkli Cloud Storage",
+         "url":"https:\/\/woelkli.com/en/about",
+         "flags":[
+            "ch",
+            "fr",
+            "at",
+            "de"
+         ],
+         "freeplans":true,
+		 "supports":"both",
+         "specializes":[
+            "wölkli lives on secure Swiss servers and offers encrypted cloud storage for everyone; from free accounts to full-featured private cloud installations."
+         ],
+         "imagename":"woelkli.png"
       }
 ]
