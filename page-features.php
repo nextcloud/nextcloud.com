@@ -1,28 +1,29 @@
 <?php get_template_part( 'templates/parts/title'); ?>
-<div class="sub-nav"><a href="#files">File access and sharing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#clients">Mobile and desktop clients</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#externalstorage">External storage</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#calendarcontacts">Calendar and Contacts</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#webrtc">WebRTC video conferencing</a><!--&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#onlineoffice">Online Office</a>-->&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#video">Nextcloud in action</a>
+<div class="sub-nav"><a href="#files">File access and sharing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#clients">Mobile and desktop clients</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#externalstorage">External storage</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#calendarcontacts">Calendar and Contacts</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#webrtc">WebRTC video conferencing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#onlineoffice">Collabora Online Office</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#video">Nextcloud in action</a>
+</div>
+<div class="row ">
+	<div class="col-md-5">
+		<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/serverwebui.png" />
+	</div>
+	<div class="col-md-7 featureblock">
+		<h1>Nextcloud puts you in control</h1>
+		<p class="">Nextcloud puts your data at your fingertips, under your control. You store your photos, calendar, contacts and documents on a server of your choosing, be it at home, a rented server or at one of our <a href="/providers">providers</a>. Your existing data can stay at that FTP drive at work, dropbox or a NAS you have at home, while you get at it through Nextcloud.</p>
+		<p class="">A trusted solution giving you access to all data you care about in one convenient place!</p>
+	</div>
 </div>
 
 
 <a name="files"></a>
 <div class="featurerow">
 	<h1 class="featuretitle">File access and sharing</h1>
-	<div class="row ">
-		<div class="col-md-7">
-			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/serverwebui.png" />
-		</div>
-		<div class="col-md-5 featureblock">
-			<p class="">Nextcloud puts your data at your fingertips, under your control. You store your photos, calendar, contacts and documents on a server of your choosing, be it at home, a rented server or at one of our <a href="/providers">providers</a>. Your existing data can stay at that FTP drive at work, dropbox or a NAS you have at home, while you get at it through Nextcloud.</p>
-			<p class="">A trusted solution giving you access to all data you care about in one convenient place!</p>
-		</div>
-	</div>
 	<div class="row">
-			<div class="col-md-5 featureblock">
+			<div class="col-md-6 featureblock">
 			<h2 class="featuretitle">Share on your terms</h2>
-			<p class="">Share with other users on your server, send password protected public links, let others upload files to you and get notifications on your phone when a user on another Nextcloud server shares files directly with you.</p>
-			<p>Nextcloud makes sharing and collaboration easy!
-			</p>
+			<p class="">Nextcloud features an easy to use and powerful web interface. You can access all your files wherever you are and however you like.</p>
+			<p class="">The easy interface allows you to share with other users on your server, send password protected public links, let others upload files to you and get notifications on your phone when a user on another Nextcloud server shares files directly with you.</p>
+			<p>Nextcloud makes sharing and collaboration easy!</p>
 		</div>
-		<div class="col-md-7">
+		<div class="col-md-6">
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/upload.png" class="img-responsive featureimg" />
 		</div>
 	</div>
@@ -153,47 +154,40 @@
 		</div>
 		<div class="col-md-7">
 			<p>Operate your own secure audio/video chat, messaging and file sharing service with the highest measurements for control and security of your own data. Your own video meeting and file sharing service can be available on computers, mobile phones and tablets through the Internet or limited to an Intranet. Make a call, invite your friends and clients, and collaborate in closed groups through video/audio, text messaging, and document and file sharing. You can access your private data in an easy-to-use web interface with PC, Android and iOS devices.</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-7">
-			<h3>On any device and platform!</h3>
-			<p>You can do video calls in any modern WebRTC browser, currently Chrome, Firefox, Chromium and Opera. <a href="https://caniuse.spreed.me/">Run a test for your system here</a>.</p>
-
-			<p>There is a Spreed.ME video and audio chat Desktop App for Windows, Linux and Mac OS X <a href="https://www.spreed.me/download">to be found here</a>, an <a href="https://itunes.apple.com/app/spreed.me/id1058498417?mt=8">iOS app here</a> and an Android based client is coming soon.</p>
-
-			<h3>Telephony integration</h3>
-			Adding to the support for communication through browsers or mobile apps is the optional SIP Gateway support, enabling web conferencing participants to dial in through a more traditional telephone connection. It is also possible to dial out from the Nextcloud interface to land or mobile lines!
-		</div>
-		<div class="col-md-5">
-			<div class="yt-img-overlay"><div class="row featurerow">
-				<a class="youtube" href="https://www.youtube.com/watch?v=Yc6avTVowc0" title="Introduction to Nextcloud 9">
-					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/Yc6avTVowc0/hqdefault.jpg" title="Introduction to Nextcloud 9" />
-					<div class="yt-play-btn">
-						<i></i> 
-					</div>
-				</a>
-			</div>
+			<p><a href="/spreedbox" class="btn btn-primary">Learn more about Secure WebRTC Conferencing</a></p>
 		</div>
 	</div>
 </div>
-<h3>Capabilities:</h3>
-<p><ul>
-	<li>Secure video/audio and text chat with up to 6 people in a meeting</li>
-	<li>HD wideband audio codec with 20kHz audio bandwidth and stereo (optional)</li>
-	<li>HD video with video resolution of up to 1080p (max. video resolution depends on operating system and USB camera)</li>
-	<li>High-Definition screen sharing</li>
-	<li>PDF files and Open Document Format (ODF) presentations</li>
-	<li>Voice and video recording</li>
-	<li>Capable of streaming H.265/HEVC video</li>
-</ul>
-</p>
 
-<!-- coming soon!!! -->
-<!--<a name="#onlineoffice"></a>
+<a name="onlineoffice"></a>
 <div class="featurerow">
-	<h1  class="featuretitle">Online Office</h1>
-</div>-->
+	<h1  class="featuretitle">CollaboraOnline Office</h1>
+	<div class="row">
+		<div class="col-md-5 featureblock">
+			<p class="">Collabora Online is a powerful LibreOffice-based online office suite that supports all major document, spreadsheet and presentation file formats.</p>
+			<p class="">Features:
+			<ul>
+				<li>Basic editing</li>
+				<li>Document Support:
+					<ul>
+						<li>DOC, DOCX, PPT, PPTX, XLS, XLSX + ODF</li>
+						<li>Import/View Visio, Publisher, + 100 more</li>
+					</ul>
+				</li>
+				<li>High fidelity, WYSIWYG rendering</li>
+				<li>Shared editing
+					<ul>
+						<li>One user edits, others can follow. You can change who edits.</li>
+					</ul>
+				</li>
+			</ul>
+		<a href="/collaboraonline" class="btn btn-primary">Learn more about Collabora Online</a></p>
+		</div>
+		<div class="col-md-7">
+			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collaboraonline1.png" />
+		</div>
+	</div>
+</div>
 
 <h1 class="featuretitle">And more</h1>
 <div class="row">
@@ -256,7 +250,7 @@
 
 <div class="wrap container">
 <h2>Get involved!</h2>
-<!--<p><a target="_blank" href="/promote/" class="btn btn-lg btn-default"> <i class="icon-bullhorn"></i> Discuss and share Nextcloud</a></p>-->
+<p><a target="_blank" href="https://help.nextcloud.com" class="btn btn-lg btn-default"> <i class="icon-bullhorn"></i> Discuss Nextcloud</a></p>
 <p><a target="_blank" href="/contribute/" class="btn btn-lg btn-default"> <i class="icon-code"></i> Contribute to Nextcloud</a></p>
 <!-- <p><a target="_blank" href="/conf/" class="btn btn-lg btn-default"> <i class="icon-group"></i> Nextcloud Contributor Conf</a></p> -->
 </div>
