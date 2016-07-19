@@ -35,5 +35,6 @@
             <li>Rudra Pratap Singh - Vulnerability discovery and disclosure.</li>
         </ul>
         <br/>
+        <small style="color:grey">This advisory is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</small>
     </div>
 </div>
