@@ -30,7 +30,7 @@
         <p><p>The permission check is now also performed on restore actions,</p>
 </p>
         <h3>Acknowledgements</h3>
-        <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
+        <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
             <li>Rudra Pratap Singh - Vulnerability discovery and disclosure.</li>
         </ul>

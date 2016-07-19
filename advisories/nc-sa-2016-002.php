@@ -31,7 +31,7 @@
         <p><p>The file is now delivered with a content-type of "application/octet-stream".</p>
 </p>
         <h3>Acknowledgements</h3>
-        <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
+        <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
             <li>Alejo Popovici - Vulnerability discovery and disclosure.</li>
         </ul>
