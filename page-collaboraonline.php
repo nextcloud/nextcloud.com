@@ -3,7 +3,7 @@
 	<h1>Collabora Online in Nextcloud</h1>
 	<h3>Bringing Self Hosted Online Office to everybody</h3>
 </div>
-<p>We're very excited to provide a solution for Online Office for the entire Nextcloud community through our <a target="_blank" href="https://www.collaboraoffice.com/">partnership with Collabora</a>. Together we are making available the latest and greatest of Online Office in an <strong>easy to use docker image for home users</strong>.</p>
+<p>We're very excited to provide a solution for Online Office for the entire Nextcloud community through our <a target="_blank" href="https://nextcloud.com/?p=589">partnership with Collabora</a>. Together we are making available the latest and greatest of Online Office in an <strong>easy to use <a href="https://hub.docker.com/r/collabora/code/">docker image</a> for home users</strong>.</p>
 <p>Our enterprise customers can take advantage of a <a href="/enterprise">single-vendor support contract for Nextcloud and Collabora Online</a>.</p>
 
 <div class="row featurerow topfeature">
@@ -29,21 +29,31 @@
 		More features and capabilities are in development.</p>
 	</div>
 	<div class="col-md-5">
-		<div class="">
-			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png" />
+		<div class="yt-img-overlay">
+			<a class="youtube" href="https://www.youtube.com/watch?v=sZpYXUD1ZVM" title="Collabora Online in Nextcloud">
+				<img class="img-responsive featureimg" src="https://img.youtube.com/vi/sZpYXUD1ZVM/hqdefault.jpg" title="Collabora Online in Nextcloud" />
+				<div class="yt-play-btn">
+					<i></i> 
+				</div>
+			</a>
 		</div>
 	</div>
 </div>
 
 <div class="row featurerow topfeature">
-	<div class="col-md-6">
+	<div class="col-md-4">
 		<div class="">
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-app.png" />
 		</div>
 	</div>
-	<div class="col-md-6">
+	<div class="col-md-4">
 		<div class="">
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-presentation.png" />
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="">
+			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png" />
 		</div>
 	</div>
 </div>
@@ -82,8 +92,8 @@
 <strong>Note:</strong> This guide does <em>NOT</em> cover self-signed certificates. If you use a self-signed certificate then you're mostly on your own ;-)</p>
 <h3>1. Install the Collabora Online server</h3>
 <p>The following steps will download the Collabora Online docker, make sure to replace "cloud.nextcloud.com" with the host that your own Nextcloud runs on. (make sure to escape all dots with a <code>\</code> character)</p>
-<p><pre><code>docker pull nextclouders/collaboraonline
-docker run -t -d -p 127.0.0.1:9980:9980 -e "domain=cloud\.nextcloud\.com" --cap-add MKNOD nextclouders/collaboraonline
+<p><pre><code>docker pull collabora/code
+docker run -t -d -p 127.0.0.1:9980:9980 -e "domain=cloud\.nextcloud\.com" --cap-add MKNOD collabora/code
 </code></pre></p>
 <p>That will be enough. Once you have done that the server will listen on "localhost:9980". Now we just need to configure the locally installed Apache reverse proxy.</p>
 <h3></a>2. Install the Apache reverse proxy</h3>

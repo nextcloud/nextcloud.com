@@ -35,7 +35,7 @@
 				<a class="btn btn-primary btn-lg" role="button" href="/install">Get your Nextcloud &raquo;</a>
 			</div>
 		</div>
-		<a href="/enterprise"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/pricing.png" class="home-event-img"  /></a>
+		<a href="/collaboraonline"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/collabora.png" class="home-event-img"  /></a>
 	</div>
   <?php endif; ?>
 </header>
