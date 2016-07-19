@@ -3,63 +3,17 @@
 	<a href="#files">File access and sharing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#clients">Mobile and desktop clients</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#externalstorage">External storage</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#calendarcontacts">Calendar and Contacts</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#webrtc">WebRTC video conferencing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#onlineoffice">Collabora Online Office</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#video">Nextcloud in action</a>
 </div>
 </div>
-
-<div class="row ">
-	<div class="col-md-5">
-		<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/serverwebui.png" />
+<div class="featurerow">
+	<div class="row ">
+		<div class="col-md-5">
+			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/serverwebui.png" />
+		</div>
+		<div class="col-md-7 featureblock">
+			<h1>Nextcloud puts you in control</h1>
+			<p class="">Nextcloud puts your data at your fingertips, under your control. You store your photos, calendar, contacts and documents on a server of your choosing, be it at home, a rented server or at one of our <a href="/providers">providers</a>. Your existing data can stay at that FTP drive at work, dropbox or a NAS you have at home, while you get at it through Nextcloud.</p>
+			<p class="">A trusted solution giving you access to all data you care about in one convenient place!</p>
+		</div>
 	</div>
-	<div class="col-md-7 featureblock">
-		<h1>Nextcloud puts you in control</h1>
-		<p class="">Nextcloud puts your data at your fingertips, under your control. You store your photos, calendar, contacts and documents on a server of your choosing, be it at home, a rented server or at one of our <a href="/providers">providers</a>. Your existing data can stay at that FTP drive at work, dropbox or a NAS you have at home, while you get at it through Nextcloud.</p>
-		<p class="">A trusted solution giving you access to all data you care about in one convenient place!</p>
-	</div>
-</div>
-
-
-<div class="wrap container">
-<a name="video"></a>
-<div class="featurewrapper"><h1 class="featuretitle">Nextcloud in Action</h1></div>
-
-<div class="row">
-<!-- 	Theming in 30 seconds -->
-	<div class="col-md-4 yt-img-overlay">
-		<a class="youtube" href="https://www.youtube.com/watch?v=wqRgeFXYUys" title="Theming Nextcloud in 30 seconds">
-		<img  src="https://img.youtube.com/vi/wqRgeFXYUys/hqdefault.jpg" title="Theming Nextcloud in 30 seconds" />
-		<div class="yt-play-btn">
-			<i></i>
-		</div>
-		</a>
-		</br> Theming your Nextcloud in 30 seconds!
-    </div>
-    <div class="col-md-4 yt-img-overlay">
-		<a class="youtube" href="https://www.youtube.com/watch?v=Fe1I7wYW6hA" title="Creating anonymous upload links">
-		<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/hqdefault.jpg" title="Creating anonymous upload links" />
-		<div class="yt-play-btn">
-			<i></i> 
-		</div>
-		</a>
-		</br> Creating an anonymous upload link
-    </div>
-   <div class="col-md-4 yt-img-overlay">
-		<a class="youtube" href="https://www.youtube.com/watch?v=yqr22XG8P4w" title="Shorten share URL: removing index.php">
-		<img  src="https://img.youtube.com/vi/yqr22XG8P4w/hqdefault.jpg" title="Shorten share URL: removing index.php" />
-		<div class="yt-play-btn">
-			<i></i> 
-		</div>
-		</a>
-		</br> Shorten share URL: removing index.php
-    </div>
-</div>
-<div class="row">
-	<div class="col-md-4 yt-img-overlay">
-		<a class="youtube" href="https://www.youtube.com/watch?v=sZpYXUD1ZVM" title="Collabora Online Office in Nextcloud">
-		<img  src="https://img.youtube.com/vi/sZpYXUD1ZVM/hqdefault.jpg" title="Collabora Online Office in Nextcloud" />
-		<div class="yt-play-btn">
-			<i></i> 
-		</div>
-		</a>
-		</br> Collabora Online Office in Nextcloud
-    </div>
 </div>
 
 <a name="files"></a>
@@ -229,95 +183,143 @@
 </div>
 
 </div>
+<div class="featurerow">
+	<div class="wrap container featuregroup">
+	<h1 class="featuretitle">And more.</h1>
+		<div class="row">
+			<div class="col-md-1 featureblock">
+			<i class="icon-code-fork icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class=""> Nextcloud is open source - there are no limitations and you can inspect, integrate, extend and modify Nextcloud however you want</p>
+			</div>
+			<div class="col-md-1 featureblock">
+			<i class="icon-tags icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class="">Nextcloud offers an easy user interface with search, favorites, tags and other ways to quickly get at your files</p>
+			</div>
+			<div class="col-md-1 featureblock">
+			<i class="icon-file-text icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class="">File editing and preview support for PDF, images, text files, Open Document, Word files and more</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1 featureblock">
+			<i class="icon-bug icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class="">Integration of anti-virus scanning functionality with the anti-virus app</p>
+			</div>
+			<div class="col-md-1 featureblock">
+			<i class="icon-puzzle-piece icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class="">LDAP / Active Directory integration and SAML 2.0 support</p>
+			</div>
+			<div class="col-md-1 featureblock">
+			<i class="icon-life-ring icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class="">Example files for new users. Preload a new user's Files area with, for example, a tutorial file, which appears when they first log in.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1 featureblock">
+			<i class="icon-key icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class="">Powerful integrated logging and password policy control</p>
+			</div>
+			<div class="col-md-1 featureblock">
+			<i class="icon-share-alt icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class="">Fine-grained control over access to data and sharing capabilities by user and by group</p>
+			</div>
+			<div class="col-md-1 featureblock">
+			<i class="icon-archive icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class="">Advanced quota management with configurable accounting of external storage</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1 featureblock">
+			<i class="icon-code icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class="">Sharing REST API. Control sharing from mobile apps and desktop clients</p>
+			</div>
+			<div class="col-md-1 featureblock">
+			<i class="icon-certificate icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class="">Easy development of 3rd party apps with the share REST API. Quick access to core functions for app development with the powerful Nextcloud App API and webhooks following the publication / subscription model</p>
+			</div>
+			<div class="col-md-1 featureblock">
+			<i class="icon-paint-brush icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class="">Built in, easy to use theming</p>
+			</div>
+		</div>
+	</div>
+	<p><a href="/install" class="btn btn-lg btn-primary install-8-btn">Install Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?> now</a></p>
+</div>
 
-<div class="wrap container featuregroup">
-<h1 class="featuretitle">And more.</h1>
+<a name="video"></a>
+<div class="wrap container">
+<div class="featurerow">
+	<div class="featurewrapper">
+		<h1 class="featuretitle">Nextcloud in Action</h1>
+	</div>
 	<div class="row">
-		<div class="col-md-1 featureblock">
-		<i class="icon-code-fork icon"></i>
+	<!-- 	Theming in 30 seconds -->
+		<div class="col-md-4 yt-img-overlay">
+			<a class="youtube" href="https://www.youtube.com/watch?v=wqRgeFXYUys" title="Theming Nextcloud in 30 seconds">
+			<img  src="https://img.youtube.com/vi/wqRgeFXYUys/hqdefault.jpg" title="Theming Nextcloud in 30 seconds" />
+			<div class="yt-play-btn">
+				<i></i>
+			</div>
+			</a>
+			</br> Theming your Nextcloud in 30 seconds!
 		</div>
-		<div class="col-md-3 featureblock">
-		<p class=""> Nextcloud is open source - there are no limitations and you can inspect, integrate, extend and modify Nextcloud however you want</p>
+		<div class="col-md-4 yt-img-overlay">
+			<a class="youtube" href="https://www.youtube.com/watch?v=Fe1I7wYW6hA" title="Creating anonymous upload links">
+			<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/hqdefault.jpg" title="Creating anonymous upload links" />
+			<div class="yt-play-btn">
+				<i></i> 
+			</div>
+			</a>
+			</br> Creating an anonymous upload link
 		</div>
-		<div class="col-md-1 featureblock">
-		<i class="icon-tags icon"></i>
-		</div>
-		<div class="col-md-3 featureblock">
-		<p class="">Nextcloud offers an easy user interface with search, favorites, tags and other ways to quickly get at your files</p>
-		</div>
-		<div class="col-md-1 featureblock">
-		<i class="icon-file-text icon"></i>
-		</div>
-		<div class="col-md-3 featureblock">
-		<p class="">File editing and preview support for PDF, images, text files, Open Document, Word files and more</p>
+	<div class="col-md-4 yt-img-overlay">
+			<a class="youtube" href="https://www.youtube.com/watch?v=yqr22XG8P4w" title="Shorten share URL: removing index.php">
+			<img  src="https://img.youtube.com/vi/yqr22XG8P4w/hqdefault.jpg" title="Shorten share URL: removing index.php" />
+			<div class="yt-play-btn">
+				<i></i> 
+			</div>
+			</a>
+			</br> Shorten share URL: removing index.php
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-1 featureblock">
-		<i class="icon-bug icon"></i>
-		</div>
-		<div class="col-md-3 featureblock">
-		<p class="">Integration of anti-virus scanning functionality with the anti-virus app</p>
-		</div>
-		<div class="col-md-1 featureblock">
-		<i class="icon-puzzle-piece icon"></i>
-		</div>
-		<div class="col-md-3 featureblock">
-		<p class="">LDAP / Active Directory integration and SAML 2.0 support</p>
-		</div>
-		<div class="col-md-1 featureblock">
-		<i class="icon-life-ring icon"></i>
-		</div>
-		<div class="col-md-3 featureblock">
-		<p class="">Example files for new users. Preload a new user's Files area with, for example, a tutorial file, which appears when they first log in.</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-1 featureblock">
-		<i class="icon-key icon"></i>
-		</div>
-		<div class="col-md-3 featureblock">
-		<p class="">Powerful integrated logging and password policy control</p>
-		</div>
-		<div class="col-md-1 featureblock">
-		<i class="icon-share-alt icon"></i>
-		</div>
-		<div class="col-md-3 featureblock">
-		<p class="">Fine-grained control over access to data and sharing capabilities by user and by group</p>
-		</div>
-		<div class="col-md-1 featureblock">
-		<i class="icon-archive icon"></i>
-		</div>
-		<div class="col-md-3 featureblock">
-		<p class="">Advanced quota management with configurable accounting of external storage</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-1 featureblock">
-		<i class="icon-code icon"></i>
-		</div>
-		<div class="col-md-3 featureblock">
-		<p class="">Sharing REST API. Control sharing from mobile apps and desktop clients</p>
-		</div>
-		<div class="col-md-1 featureblock">
-		<i class="icon-certificate icon"></i>
-		</div>
-		<div class="col-md-3 featureblock">
-		<p class="">Easy development of 3rd party apps with the share REST API. Quick access to core functions for app development with the powerful Nextcloud App API and webhooks following the publication / subscription model</p>
-		</div>
-		<div class="col-md-1 featureblock">
-		<i class="icon-paint-brush icon"></i>
-		</div>
-		<div class="col-md-3 featureblock">
-		<p class="">Built in, easy to use theming</p>
+		<div class="col-md-4 yt-img-overlay">
+			<a class="youtube" href="https://www.youtube.com/watch?v=sZpYXUD1ZVM" title="Collabora Online Office in Nextcloud">
+			<img  src="https://img.youtube.com/vi/sZpYXUD1ZVM/hqdefault.jpg" title="Collabora Online Office in Nextcloud" />
+			<div class="yt-play-btn">
+				<i></i> 
+			</div>
+			</a>
+			</br> Collabora Online Office in Nextcloud
 		</div>
 	</div>
 </div>
-<p><a href="/install" class="btn btn-lg btn-primary install-8-btn">Install Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?> now</a></p>
+
 </div>
-
-
-
 <div class="wrap container">
 <h2>Get involved!</h2>
 <p><a target="_blank" href="https://help.nextcloud.com" class="btn btn-lg btn-default"> <i class="icon-bullhorn"></i> Discuss Nextcloud</a></p>
