@@ -4,10 +4,10 @@
 <a href="/nine" class="btn btn-lg btn-default">Overview of new features</a>
 <h2>Press releases</h2>
 <ul>
-	<li><a href="/pressreleases/page-20160602.php/">June 2nd, 2016: Core Contributors Fork Into Nextcloud</a></li>
-	<li><a href="/pressreleases/page-20160614.php/">June 14, 2016: Nextcloud 9 Released Ahead of Promised Date and Fully Commited to Open Source</a></li>
-	<li><a href="/pressreleases/page-20160705.php/">July 5th, 2016: Nextcloud delivers secure enterprise functionality backed by expert support and with partner-provided iOS client</a></li>
-	<li><a href="/pressreleases/page-20160719.php/">July 19th, 2016: Nextcloud and Collabora Partner to Offer Community and Enterprise Solution for Online Office</a></li>
+	<li><a href="/press/pr20160602">June 2nd, 2016: Core Contributors Fork Into Nextcloud</a></li>
+	<li><a href="/press/pr20160614">June 14, 2016: Nextcloud 9 Released Ahead of Promised Date and Fully Commited to Open Source</a></li>
+	<li><a href="/press/pr20160705/">July 5th, 2016: Nextcloud delivers secure enterprise functionality backed by expert support and with partner-provided iOS client</a></li>
+	<li><a href="/press/pr20160719/">July 19th, 2016: Nextcloud and Collabora Partner to Offer Community and Enterprise Solution for Online Office</a></li>
 </ul>
 
 <h2>Latest News and Annoucements</h2>
