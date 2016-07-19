@@ -8,7 +8,7 @@
 
 <p>"Nextcloud is a community focused project", noted Michael Meeks, General Manager, Collabora Productivity. "making a secure and up to date solution for online document editing available to everybody was a key concern for their community and we're proud to have been able to deliver that together with Nextcloud"</p>
 
-<p>"Working with Collabora and the LibreOffice community enables us to provide a great solution to for our enterprise customers", said Frank Karlitsche, Managing Director, Nextcloud. "We're proud to partner with Collabora the creators of LibreOffice Online to enable our community and customers to run their own Online Office suite."</p>
+<p>"Working with Collabora and the LibreOffice community enables us to provide a great solution for our enterprise customers", said Frank Karlitschek, Managing Director, Nextcloud. "We're proud to partner with Collabora the creators of LibreOffice Online to enable our community and customers to run their own Online Office suite."</p>
 
 <p>Home users can get started with their self-hosted Online Office integration with Nextcloud from the Nextcloud website: http://www.nextcloud.com/collabora/ while Enterprise users have access to a supported, secure and scalable solution, starting at 1000 EUR or 1200 USD for 50 users per year in addition to an Nextcloud Standard or Nextcloud Premium Support Subscription.</p>
 
