@@ -85,11 +85,11 @@
 <ol>
  	<li>A host that can run a Docker container</li>
  	<li>A subdomain or a second domain that the Collabora Online server can run on</li>
- 	<li>An Apache server with some enabled modules</li>
+ 	<li>An Apache server with some enabled modules (<a href="https://icewind.nl/entry/collabora-online">NGNIX instructions in a blog here</a></li>
  	<li>A valid SSL certificate for the domain that CollaboraOnline should run on</li>
  	<li>A valid SSL certificate for your Nextcloud</li>
 </ol>
-<strong>Note:</strong> This guide does <em>NOT</em> cover self-signed certificates. If you use a self-signed certificate then you're mostly on your own ;-)</p>
+<strong>Note:</strong> This guide does <em>NOT</em> cover self-signed certificates. If you use a self-signed certificate then you're mostly on your own ;-) Find <a href="https://icewind.nl/entry/collabora-online">NGNIX instructions in this blog</a>.</p>
 <h3>1. Install the Collabora Online server</h3>
 <p>The following steps will download the Collabora Online docker, make sure to replace "cloud.nextcloud.com" with the host that your own Nextcloud runs on. (make sure to escape all dots with a <code>\</code> character)</p>
 <p><pre><code>docker pull collabora/code
