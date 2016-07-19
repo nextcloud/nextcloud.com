@@ -390,7 +390,7 @@ div.alert-info > a {
 }
 
 i.icon-opensource {
-	background: url("../img/opensource.png") no-repeat;
+	background: url("../img/opensource.svg") no-repeat;
 	display: inline-block;
 	width: 27px;
 	background-size: 27px;
@@ -1092,7 +1092,7 @@ img.desaturate {
 	border: none !important;
 }
 
-/* ownCloud.org/features */
+/* ownCloud.org/features features page*/
 
 /* Full width background image */
 
@@ -1119,6 +1119,31 @@ img.desaturate {
 /*.ft-img-center {
 	margin: 0 auto;
 }*/
+
+.featuregroup {
+	width: 80%;
+}
+
+.featuregroup .featuretitle {
+text-align: center;
+}
+
+.featureblock .icon {
+        font-size: 60px;
+		display: block;
+		color: #0082c9;
+		text-align: center;
+		padding-top: 20%;
+}
+
+@media (max-width: 991px) {
+	.featuregroup {
+		text-align: center;
+	}
+	
+	
+}
+
 
 .ft-sharing {
 }
