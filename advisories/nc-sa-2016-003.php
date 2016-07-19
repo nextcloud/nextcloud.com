@@ -32,7 +32,7 @@
         <p><p>The passed parameter is now verified.</p>
 </p>
         <h3>Acknowledgements</h3>
-        <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
+        <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
             <li><a href="https://twitter.com/meshahriyar" target="_blank" rel="noreferrer">Md. Ishrat Shahriyar - Vulnerability discovery and disclosure.</a></li>
         </ul>

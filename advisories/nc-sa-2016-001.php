@@ -32,7 +32,7 @@
         <p><p>The user input is now properly sanitised before provided back to the user. </p>
 </p>
         <h3>Acknowledgements</h3>
-        <p>The ownCloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
+        <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
             <li><a href="https://www.detectify.com" target="_blank" rel="noreferrer">Frans Rosen - Detectify - Vulnerability discovery and disclosure.</a></li>
         </ul>
