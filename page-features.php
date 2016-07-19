@@ -16,6 +16,52 @@
 </div>
 
 
+<div class="wrap container">
+<a name="video"></a>
+<div class="featurewrapper"><h1 class="featuretitle">Nextcloud in Action</h1></div>
+
+<div class="row">
+<!-- 	Theming in 30 seconds -->
+	<div class="col-md-4 yt-img-overlay">
+		<a class="youtube" href="https://www.youtube.com/watch?v=wqRgeFXYUys" title="Theming Nextcloud in 30 seconds">
+		<img  src="https://img.youtube.com/vi/wqRgeFXYUys/hqdefault.jpg" title="Theming Nextcloud in 30 seconds" />
+		<div class="yt-play-btn">
+			<i></i>
+		</div>
+		</a>
+		</br> Theming your Nextcloud in 30 seconds!
+    </div>
+    <div class="col-md-4 yt-img-overlay">
+		<a class="youtube" href="https://www.youtube.com/watch?v=Fe1I7wYW6hA" title="Creating anonymous upload links">
+		<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/hqdefault.jpg" title="Creating anonymous upload links" />
+		<div class="yt-play-btn">
+			<i></i> 
+		</div>
+		</a>
+		</br> Creating an anonymous upload link
+    </div>
+   <div class="col-md-4 yt-img-overlay">
+		<a class="youtube" href="https://www.youtube.com/watch?v=yqr22XG8P4w" title="Shorten share URL: removing index.php">
+		<img  src="https://img.youtube.com/vi/yqr22XG8P4w/hqdefault.jpg" title="Shorten share URL: removing index.php" />
+		<div class="yt-play-btn">
+			<i></i> 
+		</div>
+		</a>
+		</br> Shorten share URL: removing index.php
+    </div>
+</div>
+<div class="row">
+	<div class="col-md-4 yt-img-overlay">
+		<a class="youtube" href="https://www.youtube.com/watch?v=sZpYXUD1ZVM" title="Collabora Online Office in Nextcloud">
+		<img  src="https://img.youtube.com/vi/sZpYXUD1ZVM/hqdefault.jpg" title="Collabora Online Office in Nextcloud" />
+		<div class="yt-play-btn">
+			<i></i> 
+		</div>
+		</a>
+		</br> Collabora Online Office in Nextcloud
+    </div>
+</div>
+
 <a name="files"></a>
 <div class="featurerow">
 	<h1 class="featuretitle">File access and sharing</h1>
@@ -28,7 +74,14 @@
 			<a href="/sharing" class="btn btn-primary">Learn more about sharing in Nextcloud</a>
 		</div>
 		<div class="col-md-6">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/upload.png" class="img-responsive featureimg" />
+			<div class="yt-img-overlay">
+				<a class="youtube" href="https://www.youtube.com/watch?v=Fe1I7wYW6hA" title="Creating anonymous upload links">
+					<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/hqdefault.jpg" title="Creating anonymous upload links" />
+					<div class="yt-play-btn">
+						<i></i> 
+					</div>
+				</a>
+			</div>
 		</div>
 	</div>
 </div>
@@ -130,8 +183,8 @@
 	<div class="row">
 		<div class="col-md-5">
 			<div class="yt-img-overlay">
-				<a class="youtube" href="https://www.youtube.com/watch?v=egLqRqb4sHA" title="Introduction to Nextcloud 9">
-					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/egLqRqb4sHA/hqdefault.jpg" title="Introduction to Nextcloud 9" />
+				<a class="youtube" href="https://www.youtube.com/watch?v=egLqRqb4sHA" title="Spreedbox explained">
+					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/egLqRqb4sHA/hqdefault.jpg" title="Spreedbox explained" />
 					<div class="yt-play-btn">
 						<i></i> 
 					</div>
@@ -261,43 +314,8 @@
 	</div>
 </div>
 <p><a href="/install" class="btn btn-lg btn-primary install-8-btn">Install Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?> now</a></p>
-
-<div class="wrap container">
-<a name="video"></a>
-<div class="featurewrapper"><h1 class="featuretitle">Nextcloud in Action</h1></div>
-
-<div class="row">
-<!-- 	Theming in 30 seconds -->
-	<div class="col-md-4 yt-img-overlay">
-		<a class="youtube" href="https://www.youtube.com/watch?v=wqRgeFXYUys" title="Theming Nextcloud in 30 seconds">
-		<img  src="https://img.youtube.com/vi/wqRgeFXYUys/hqdefault.jpg" title="Theming Nextcloud in 30 seconds" />
-		<div class="yt-play-btn">
-			<i></i>
-		</div>
-		</a>
-		</br> Theming your Nextcloud in 30 seconds!
-    </div>
-    <div class="col-md-4 yt-img-overlay">
-		<a class="youtube" href="https://www.youtube.com/watch?v=Fe1I7wYW6hA" title="Creating anonymous upload links">
-		<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/hqdefault.jpg" title="Creating anonymous upload links" />
-		<div class="yt-play-btn">
-			<i></i> 
-		</div>
-		</a>
-		</br> Creating an anonymous upload link
-    </div>
-   <div class="col-md-4 yt-img-overlay">
-		<a class="youtube" href="https://www.youtube.com/watch?v=yqr22XG8P4w" title="Shorten share URL: removing index.php">
-		<img  src="https://img.youtube.com/vi/yqr22XG8P4w/hqdefault.jpg" title="Shorten share URL: removing index.php" />
-		<div class="yt-play-btn">
-			<i></i> 
-		</div>
-		</a>
-		</br> Shorten share URL: removing index.php
-    </div>
 </div>
-<p>Stay tuned for more videos!</p>
-</div>
+
 
 
 <div class="wrap container">

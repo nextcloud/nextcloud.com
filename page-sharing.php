@@ -17,7 +17,14 @@ $(document).ready(function() {
 			<p>Nextcloud makes sharing and collaboration easy!</p>
 		</div>
 		<div class="col-md-6">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/upload.png" class="img-responsive featureimg" />
+			<div class="yt-img-overlay">
+				<a class="youtube" href="https://www.youtube.com/watch?v=Fe1I7wYW6hA" title="Creating anonymous upload links">
+					<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/hqdefault.jpg" title="Creating anonymous upload links" />
+					<div class="yt-play-btn">
+						<i></i> 
+					</div>
+				</a>
+			</div>
 		</div>
 	</div>
 	<div class="row">
