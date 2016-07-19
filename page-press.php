@@ -1,7 +1,7 @@
 <?php get_template_part('templates/parts/title'); ?>
 <h2>Current Release Information <small> Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></small></h2>
 <a target="_blank" href="https://nextcloud.com/nextcloud-9-update-brings-security-open-source-enterprise-capabilities-and-support-subscription-ios-app/" class="btn btn-lg btn-default">Announcement</a>
-<a href="/nine" class="btn btn-lg btn-default">Overview of new features</a>
+<!-- <a href="/nine" class="btn btn-lg btn-default">Overview of new features</a> -->
 <h2>Press releases</h2>
 <ul>
 	<li><a href="/press/pr20160602">June 2nd, 2016: Core Contributors Fork Into Nextcloud</a></li>
