@@ -3,7 +3,7 @@
 	<h1>Collabora Online in Nextcloud</h1>
 	<h3>Bringing Self Hosted Online Office to everybody</h3>
 </div>
-<p>We're very excited to provide a solution for Online Office for the entire Nextcloud community through our <a target="_blank" href="https://nextcloud.com/?p=589">partnership with Collabora</a>. Together we are making available the latest and greatest of Online Office in an <strong>easy to use <a href="https://hub.docker.com/r/collabora/code/">docker image</a> for home users</strong>.</p>
+<p>We're very excited to provide a solution for Online Office for the entire Nextcloud community through our <a target="_blank" href="https://nextcloud.com/?p=589">partnership with Collabora</a>. Together we are making available the latest and greatest of Online Office in an <strong>easy to use <a href="https://hub.docker.com/r/collabora/code">docker image</a> for home users</strong>.</p>
 <p>Our enterprise customers can take advantage of a <a href="/enterprise">single-vendor support contract for Nextcloud and Collabora Online</a>.</p>
 
 <div class="row featurerow topfeature">
