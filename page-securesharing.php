@@ -54,7 +54,7 @@ The goal should be to streamline productivity without sacrificing visibility int
 			<p><label for="email">Email<br>
 			<input  type="text" name="email" maxlength="80" size="60"></label></p>
 			<p><label for="organization">Organization<br>
-			<input  type="text" name="organization" maxlength="80" size="60" placeholder=""></label></p>
+			<input  type="text" name="organization" maxlength="100" size="60" placeholder=""></label></p>
 			<p><label for="phone">Phone number<br>
 			<input  type="text" name="phone" maxlength="40" size="60" placeholder="Please include country code"></label></p>
 			<p><label for="comments">Your message<br />
