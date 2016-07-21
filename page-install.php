@@ -83,6 +83,7 @@
 		These consist of users helping each other. Consider helping out others, too! <a href="/enterprise">Need enterprise support?</a></p>
 		<!--     <p>Find <a href="/support" target="_blank" rel="tooltip" title="An overview of where to find help">more support resources here</a>.</p> -->
 	</div>
+	<a name="testing"></a>
 	<div class="col-md-4 col-md-offset-2">
 		<hr class="narrow"></hr>
 		<div class="numbadge centre">
