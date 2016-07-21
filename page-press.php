@@ -8,6 +8,7 @@
 	<li><a href="/press/pr20160614">June 14, 2016: Nextcloud 9 Released Ahead of Promised Date and Fully Commited to Open Source</a></li>
 	<li><a href="/press/pr20160705/">July 5th, 2016: Nextcloud delivers secure enterprise functionality backed by expert support and with partner-provided iOS client</a></li>
 	<li><a href="/press/pr20160719/">July 19th, 2016: Nextcloud and Collabora Partner to Offer Community and Enterprise Solution for Online Office</a></li>
+	<li><a href="/press/pr20160719/">July 21th, 2016: Beta of Nextcloud 10 with Brute Force Protection, Two-Factor Authentication, Improved Federation and more</a></li>
 </ul>
 
 <h2>Latest News and Annoucements</h2>
