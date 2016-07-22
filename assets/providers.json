@@ -238,5 +238,22 @@
             "Nimmerland plant, hostet und betreut seit 2013 ownCloud für Business. Naturstrom. Daily Backup. Serverstandort Berlin. Low Budget für Privatkunden."
          ],
          "imagename":"nimmerland.png"
+      },
+	{
+         "title":"OwnDrive.com",
+         "url":"https:\/\/owndrive.com",
+         "flags":[
+            "no",
+            "se",
+            "dk",
+            "eu",
+            "all"
+         ],
+         "freeplans":true,
+		 "supports":"both",
+         "specializes":[
+            "Security and privacy oriented cloud storage service provider based in Europe with headquarters in Norway. "
+         ],
+         "imagename":"owndrive.png"
       }
 ]
