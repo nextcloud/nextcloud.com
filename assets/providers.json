@@ -196,5 +196,47 @@
             "wölkli lives on secure Swiss servers and offers encrypted cloud storage for everyone; from free accounts to full-featured private cloud installations."
          ],
          "imagename":"woelkli.png"
+      },
+	{
+         "title":"CW-Film - HomeCloud",
+         "url":"https:\/\/www.cw-film.com\/homecloud",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+		 "supports":"both",
+         "specializes":[
+            "It is not a cloudservice! We offer the whole server, fully personalized for your business or home office. Homecloud - a small and fast solution!"
+         ],
+         "imagename":"homecloud.jpg"
+      },
+	{
+         "title":"Saas Web Internet Solutions GmbH",
+         "url":"https:\/\/www.saasweb.net\/de\/managed-hosting\/nextcloud",
+         "flags":[
+            "de",
+            "fr",
+            "all"
+         ],
+         "freeplans":false,
+		 "supports":"organization",
+         "specializes":[
+            "Managed Nextcloud for your business. Store and share large files easily. SaaS Web manages the Nextcloud environment in all technical aspects."
+         ],
+         "imagename":"saasweb.png"
+      },
+	{
+         "title":"nimmerland",
+         "url":"https:\/\/nextcloud.space",
+         "flags":[
+            "de",
+            "eu"
+         ],
+         "freeplans":false,
+		 "supports":"both",
+         "specializes":[
+            "Nimmerland plant, hostet und betreut seit 2013 ownCloud für Business. Naturstrom. Daily Backup. Serverstandort Berlin. Low Budget für Privatkunden."
+         ],
+         "imagename":"nimmerland.png"
       }
 ]
