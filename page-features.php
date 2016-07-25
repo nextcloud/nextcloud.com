@@ -6,7 +6,7 @@
 <div class="featurerow">
 	<div class="row ">
 		<div class="col-md-5">
-			<a href="https://demo.nextcloud.com" title="try for yourself!"><img title="try for yourself!" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/serverwebui.png" /></a>
+			<a href="https://demo.nextcloud.com"><img alt="Try for yourself!" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/serverwebui.png" /></a>
 		</div>
 		<div class="col-md-7 featureblock">
 			<h1>Nextcloud puts you in control</h1>
