@@ -47,7 +47,7 @@ Fax: +49-2407- 55290-89<br />
 Email: mike.decker@geniatech.com<br />
 https://www.geniatech.eu  http://www.geniatech.com <br />
 <br />
-struktur AG<br /> <br />
+struktur AG<br />
 Patrick Walther<br />
 Kronenstraße 22A<br />
 D-70173 Stuttgart, Germany<br />
