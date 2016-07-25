@@ -92,7 +92,8 @@
 									<div class="col-md-6">
 										<p>The official Nextcloud appliance, provided by TechandMe.se, is the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure connection<!-- and the <a href="/connect">Nextcloud Proxy app</a>-->. <!--You can install <a href="https://www.virtualbox.org/">virtual box</a>, download our <a href="<?php echo $DOWNLOAD_VM_OVA; ?>">OVA</a> file and load it up. See our <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/appliance_installation.html">documentation for more details</a>.--></p>
 										<h4>Grab the Nextcloud virtual machine image from the TechandMe.se website<!--in one of these formats-->:</h4>
-										<a class="btn btn-primary" href="https://www.techandme.se/nextcloud-vm/">Instructions and download</a>
+										<p><a class="btn btn-primary" href="https://www.techandme.se/nextcloud-vm/">Instructions and download</a></p>
+										<p>Find <a href="https://github.com/nextcloud/vm">source here</a>.</p>
 <!-- 										<a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_OVA; ?>">OVA</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_QCOW2; ?>">QCOW2</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_RAW; ?>">raw</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_VHDX; ?>">VHDX</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_VMDK; ?>">VMDK</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_VMX; ?>">VMX</a> -->
 										
 										<!--<h4>Third party Nextcloud VM images</h4>
