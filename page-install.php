@@ -15,7 +15,7 @@
 			<a class="btn btn-default btn-large" href="/providers">Providers</a>
 		</div>
 		<br />
-		<a class="label label-blue" role="button" href="#instructions-server" rel="tooltip" title="Install instructions" id="server" data-toggle="popover">More details</a></p>
+		<a class="label label-blue" role="button" href="#instructions-server" rel="tooltip" title="Install instructions" id="server" data-toggle="popover">More options</a></p>
 <!--       <a class="btn btn-default btn-lg" role="button" href="/hardware-TBD">Servers</a> - disabled for now, until we have a page like that... -->
       <!--<a class="btn btn-default btn-lg" role="button" href="/providers" rel="tooltip" title="Third Party Nextcloud Providers">Providers</a>-->
 	</div>

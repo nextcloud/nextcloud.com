@@ -6,17 +6,17 @@
 <div class="installers">
 	<div id="instructions-server" class="container row PopupGetStarted">
 		<div class="instructions">
-<!-- 			<div class="row"> -->
-				<!--<ul class="nav nav-tabs" role="tablist">
-					<li id="li-tab-archive" class="active"><a href="#tab-archive" title="For server owners" role="tab" data-toggle="tab"><i class="icon-archive"></i> Archive File<br><small>For server owners</small></a></li>
-					<li><a href="#tab-web" title="Best for shared hosts" role="tab" data-toggle="tab"><i class="icon-code"></i> Web Installer<br><small>For shared hosts</small></a></li>
-					<li id="li-tab-packages"><a href="#tab-packages" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-linux"></i> Packages<br><small>For auto updates</small></a></li>
-					<li><a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-cloud"></i> Appliances<br><small>For easy deployment</small></a></li>
-				</ul>-->
-<!-- 			</div> -->
-<!-- 			<br> -->
-			<div class="overlay-header row">
+			<div class="row">
 				<a href="#" class="close">&times;</a>
+				<ul class="nav nav-tabs" role="tablist">
+					<li id="li-tab-archive" class="active"><a href="#tab-archive" title="For server owners" role="tab" data-toggle="tab"><i class="icon-archive"></i> Archive File<br><small>For server owners</small></a></li>
+<!-- 					<li><a href="#tab-web" title="Best for shared hosts" role="tab" data-toggle="tab"><i class="icon-code"></i> Web Installer<br><small>For shared hosts</small></a></li> -->
+<!-- 					<li id="li-tab-packages"><a href="#tab-packages" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-linux"></i> Packages<br><small>For auto updates</small></a></li> -->
+					<li><a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-cloud"></i> Appliances<br><small>For easy deployment</small></a></li>
+				</ul>
+			</div>
+			<br>
+			<div class="overlay-header row">
 				<p>Latest stable version:  <span class="label label-blue"><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></span> <!--(<a href="/changelog"><small>Changelog</small></a>)--></br>
 				<p>Nextcloud Server supports Linux (like) operating systems<!--, and is available via packages, sources, appliances or a one file php installer-->.</p>
 			</div>
@@ -24,7 +24,7 @@
 				<div id="tab-archive" role="tabpanel" class="tab-pane active">
 					<div class="overlay-body row">
 						<div class="col-md-6">
-<!-- 							<p>The <strong>archive</strong> provides the server and all immediate 3rd party PHP libraries.</p> -->
+							<p>The <strong>archive</strong> provides the server and all immediate 3rd party PHP libraries.</p>
 							<ol>
 								<li>Download <a class="label label-blue" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">.tar.bz2</a> or <a class="label label-blue" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">.zip</a> archive.</li>
 								<li>Check package integrity using MD5 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_MD5; ?>">.zip</a>) or SHA256 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_SHA256; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_SHA256; ?>">.zip</a>)</li>
@@ -39,8 +39,8 @@
 								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
 							</div>
 								<!--<p><strong>Note:</strong></br> If you run Nextcloud on Linux, <a id="packages" href="#tab-packages" title="Provides automated updates" role="tab" data-toggle="tab">using packages</a> is recommended.</p>-->
-								<!--<p>Looking for <a href="/changelog">older versions or major releases</a>?</p>
-								<p><small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the Nextcloud Appliance</a> on Windows Server.</small></p>-->
+<!-- 								<p>Looking for <a href="/changelog">older versions or major releases</a>?</p> -->
+								<p><small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the Nextcloud Appliance</a> on Windows Server.</small></p>
 							</div>
 						</div>
 					</div>
@@ -89,13 +89,13 @@
 							</div>
 							<div id="tab-cloud" role="tabpanel" class="tab-pane">
 								<div class="overlay-body row">
-									<div class="col-md-8">
-										<p>Nextcloud provides an official appliance as the easiest way to get Nextcloud up and running for non-technical users. It is built on Ubuntu Linux and fully set up and configured with a secure connection and the <a href="/connect">Nextcloud Proxy app</a>. You can install <a href="https://www.virtualbox.org/">virtual box</a>, download our <a href="<?php echo $DOWNLOAD_VM_OVA; ?>">OVA</a> file and load it up. See our <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/appliance_installation.html">documentation for more details</a>.</p>
-										<p><strong>NOTE</strong>: the appliances have been updated to the <a href="https://nextcloud.org/blog/nextcloud-server-9-0-released/">freshly released Nextcloud 9.0</a> but have only gone through absolutely minimal testing. It is recommended to not use these for important data yet - giving them a trial run however and giving us feedback is greatly appreciated!</p>
-										<h4>Grab the official Nextcloud virtual machine image in one of these formats:</h4>
-										<a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_OVA; ?>">OVA</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_QCOW2; ?>">QCOW2</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_RAW; ?>">raw</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_VHDX; ?>">VHDX</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_VMDK; ?>">VMDK</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_VMX; ?>">VMX</a>
+									<div class="col-md-6">
+										<p>The official Nextcloud appliance, provided by TechandMe.se, is the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure connection<!-- and the <a href="/connect">Nextcloud Proxy app</a>-->. <!--You can install <a href="https://www.virtualbox.org/">virtual box</a>, download our <a href="<?php echo $DOWNLOAD_VM_OVA; ?>">OVA</a> file and load it up. See our <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/appliance_installation.html">documentation for more details</a>.--></p>
+										<h4>Grab the Nextcloud virtual machine image from the TechandMe.se website<!--in one of these formats-->:</h4>
+										<a class="btn btn-primary" href="https://www.techandme.se/nextcloud-vm/">Instructions and download</a>
+<!-- 										<a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_OVA; ?>">OVA</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_QCOW2; ?>">QCOW2</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_RAW; ?>">raw</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_VHDX; ?>">VHDX</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_VMDK; ?>">VMDK</a> <a class="btn btn-primary" href="<?php echo $DOWNLOAD_VM_VMX; ?>">VMX</a> -->
 										
-										<h4>Third party Nextcloud VM images</h4>
+										<!--<h4>Third party Nextcloud VM images</h4>
 										<p>These are not maintained by the Nextcloud community itself.</p>
 										<div class="row">
 											<div class="row">
@@ -138,23 +138,23 @@
 													<a href="https://www.techandme.se/machine-setup-nextcloud/" target="_blank">Pre-configured Ubuntu 16.04 VM with PHP 7, Apache and MySQL</a>. Manages updates with script, can be automated.
 												</div>
 											</div>
-										</div>
+										</div>-->
 									</div>
-									<div class="col-md-4">
+									<div class="col-md-6">
 										<div class="thumbnail">
-											<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
+											<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/VMwelcome.png" alt="Nextcloud VM" />
 										</div>
-										<p><strong>Security note:</strong></br> These images do not all offer automatic update technology. We recommend a subscription to our low-traffic <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a> for notifications on updates and security issues. Find here the public Nextcloud <a href="<?php echo $NEXTCLOUD_GPG; ?>">GPG key</a>.</p>
+										<p><strong>Security note:</strong></br> <!--These images do not all offer automatic update technology.--> We recommend a subscription to our low-traffic <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a> for notifications on updates and security issues. Find here the public Nextcloud <a href="<?php echo $NEXTCLOUD_GPG; ?>">GPG key</a>.</p>
 									</div>
 								</div>
 							</div>
 						</div>
-						<!--<div class="overlay-footer row">
-							<p>We offer <a href="/release-channels">Release Channels</a> to track specific branches like Beta's or older stable branches. Find <a href="/install/#testing-development">development packages for testing here</a>.</p>
-						</div>-->
-					</div>
+<!-- 						<div class="overlay-footer row"> -->
+<!-- 							<p>We offer <a href="/release-channels">Release Channels</a> to track specific branches like Beta's or older stable branches. Find <a href="/install/#testing-development">development packages for testing here</a>.</p> -->
+<!-- 						</div> -->
+				</div>
 	</div>
-<!--         </div> -->
+<!-- </div> -->
 <!--  Mask instructions server -->
 <a href="#" class="mask"></a>
 </div>
