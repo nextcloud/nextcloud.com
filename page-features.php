@@ -1,17 +1,18 @@
 <?php get_template_part( 'templates/parts/title'); ?>
 <div class="sub-nav">
-	<a href="#files">File access and sharing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#clients">Mobile and desktop clients</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#externalstorage">External storage</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#calendarcontacts">Calendar and Contacts</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#webrtc">WebRTC video conferencing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#onlineoffice">Collabora Online Office</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#video">Nextcloud in action</a>
+	<a href="#files">File access and sharing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#clients">Mobile and desktop clients</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#externalstorage">External storage</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#calendarcontacts">Calendar and Contacts</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#webrtc">WebRTC video conferencing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#onlineoffice">Collabora Online Office</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#video">Videos</a>
 </div>
 </div>
 <div class="featurerow">
 	<div class="row ">
 		<div class="col-md-5">
-			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/serverwebui.png" />
+			<a href="https://demo.nextcloud.com" title="try for yourself!"><img title="try for yourself!" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/serverwebui.png" /></a>
 		</div>
 		<div class="col-md-7 featureblock">
 			<h1>Nextcloud puts you in control</h1>
 			<p class="">Nextcloud puts your data at your fingertips, under your control. You store your photos, calendar, contacts and documents on a server of your choosing, be it at home, a rented server or at one of our <a href="/providers">providers</a>. Your existing data can stay at that FTP drive at work, dropbox or a NAS you have at home, while you get at it through Nextcloud.</p>
 			<p class="">A trusted solution giving you access to all data you care about in one convenient place!</p>
+			<a href="https://demo.nextcloud.com" class="btn btn-primary">Try it out!</a>
 		</div>
 	</div>
 </div>
@@ -110,7 +111,7 @@
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" />
 		</div>
 		<div class="col-md-6 featureblock">
-			<p class="">The Nextcloud Calendar and Contacts apps allow you to store, sync and share your plans and contacts. You can share with users or groups on your server, sync the calendar or contacts with your devices and access them wherever you are.</p>
+			<p style="padding-bottom: 30px;">The Nextcloud Calendar and Contacts apps allow you to store, sync and share your plans and contacts. You can share with users or groups on your server, sync the calendar or contacts with your devices and access them wherever you are.</p>
 		</div>
 <!--	</div>
 	<div class="row">-->
@@ -118,7 +119,7 @@
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/contacts.png" />
 		</div>
 		<div class="col-md-6 featureblock">
-			<p class="">
+			<p style="margin-top: -80px;" class="">
 			The Calendar and Contacts app feature:
 			<ul>
 				<li>Easy to use interface</li>
