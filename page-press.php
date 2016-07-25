@@ -9,6 +9,7 @@
 	<li><a href="/press/pr20160705/">July 5th, 2016: Nextcloud delivers secure enterprise functionality backed by expert support and with partner-provided iOS client</a></li>
 	<li><a href="/press/pr20160719/">July 19th, 2016: Nextcloud and Collabora Partner to Offer Community and Enterprise Solution for Online Office</a></li>
 	<li><a href="/press/pr20160721/">July 21th, 2016: Beta of Nextcloud 10 with Brute Force Protection, Two-Factor Authentication, Improved Federation and more</a></li>
+	<li><a href="/press/pr20160725/">July 21th, 2016: Geniatech / Struktur AG cooperating on the development and deployment of DVB-T2 HD HEVC H.265 applications / EyeTV T2 product launch</a></li>
 </ul>
 
 <h2>Latest News and Annoucements</h2>
