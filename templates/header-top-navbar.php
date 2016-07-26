@@ -12,7 +12,6 @@
 
     <nav class="collapse navbar-collapse" role="navigation">
       <ul id="menu-header" class="nav navbar-nav">
-        <li class="menu-demo"><a target="_blank" href="https://demo.nextcloud.com">Demo</a></li>
         <li class="<?php if(is_page('news')){ echo 'top-nav-active '; } ?>menu-news"><a href="/news/">News</a></li>
         <li class="<?php if(is_page('features')){ echo 'top-nav-active '; } ?>menu-features"><a href="/features/">Features</a></li>
 <!--         <li class="menu-documentation"><a href="https://doc.nextcloud.com">Documentation</a></li> -->
@@ -21,6 +20,7 @@
         <li class="<?php if(is_page('contribute')){ echo 'top-nav-active '; } ?>menu-contribute"><a href="/contribute/">Get involved</a>
         <li class="<?php if(is_page('support')){ echo 'top-nav-active '; } ?>menu-support"><a href="/support/">Support</a></li>
         <li class="<?php if(is_page('enterprise')){ echo 'top-nav-active '; } ?>menu-enterprise"><a href="/enterprise/">Enterprise</a></li>
+        <li class="menu-demo"><a target="_blank" href="https://demo.nextcloud.com">Demo</a></li>
         <li class="<?php if(is_page('install')){ echo 'top-nav-active '; } ?>menu-install"><a href="/install/">Download</a></li>
       </ul>
     </nav>
