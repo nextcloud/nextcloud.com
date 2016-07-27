@@ -107,7 +107,7 @@
 <h3>1. Install the Collabora Online server</h3>
 <p>The following steps will download the Collabora Online docker, make sure to replace "cloud.nextcloud.com" with the host that your own Nextcloud runs on. (make sure to escape all dots with a <code>\</code> character)</p>
 <p><pre><code>docker pull collabora/code
-docker run -t -d -p 127.0.0.1:9980:9980 -e "domain=cloud\.nextcloud\.com" --cap-add MKNOD collabora/code
+docker run -t -d -p 127.0.0.1:9980:9980 -e "domain=cloud\.nextcloud\.com" --restart always --cap-add MKNOD collabora/code
 </code></pre></p>
 <p>That will be enough. Once you have done that the server will listen on "localhost:9980". Now we just need to configure the locally installed Apache reverse proxy.</p>
 <h3></a>2. Install the Apache reverse proxy</h3>
