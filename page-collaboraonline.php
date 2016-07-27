@@ -76,7 +76,21 @@
 		</div>
 	</div>
 </div>
-
+<div class="featurerow">
+	<h2 class="featuretitle">Collabora Online integration tutorial video</h2>
+	<div class="row">
+		<div class="col-md-8">
+			<div class="yt-img-overlay">
+				<a class="youtube" href="https://www.youtube.com/watch?v=MDc1bNxn3js" title="Collabora Online in Nextcloud">
+					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/MDc1bNxn3js/hqdefault.jpg" title="Collabora Online in Nextcloud tutorial" />
+					<div class="yt-play-btn">
+						<i></i> 
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
 <h2>Getting started in 3 steps</h2>
 <p>We'll describe how to get Collabora Online running on your server and how to integrate it into your Nextcloud using the docker image Nextcloud and Collabora built.</p>
 
@@ -85,11 +99,11 @@
 <ol>
  	<li>A host that can run a Docker container</li>
  	<li>A subdomain or a second domain that the Collabora Online server can run on</li>
- 	<li>An Apache server with some enabled modules (<a href="https://icewind.nl/entry/collabora-online">NGNIX instructions in a blog here</a></li>
+ 	<li>An Apache server with some enabled modules (<a href="https://icewind.nl/entry/collabora-online">NGNIX instructions in a blog here</a>)</li>
  	<li>A valid SSL certificate for the domain that CollaboraOnline should run on</li>
  	<li>A valid SSL certificate for your Nextcloud</li>
 </ol>
-<strong>Note:</strong> This guide does <em>NOT</em> cover self-signed certificates. If you use a self-signed certificate then you're mostly on your own ;-) Find <a href="https://icewind.nl/entry/collabora-online">NGNIX instructions in this blog</a>.</p>
+<strong>Note:</strong> This guide does <em>NOT</em> cover self-signed certificates. If you use a self-signed certificate then you're mostly on your own ;-)</p>
 <h3>1. Install the Collabora Online server</h3>
 <p>The following steps will download the Collabora Online docker, make sure to replace "cloud.nextcloud.com" with the host that your own Nextcloud runs on. (make sure to escape all dots with a <code>\</code> character)</p>
 <p><pre><code>docker pull collabora/code
@@ -159,7 +173,22 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e "domain=cloud\.nextcloud\.com" --cap-
 </ol>
 Now your Nextcloud has Collabora Online Office integrated!<p>
 
-<h2>Enjoy and let us know what you think <a href="https://help.nextcloud.com">on the forums</a>!</h2>
+<h2>Troubleshooting</h2>
+<p>Some common issues:
+<ul>
+	<li><strong>Issue:</strong> Can't configure the URL in the Admin panel.<br/>
+	This is most likely caused by the Documents app being enabled. Disable it and you can set the URL.</li>
+	<li><strong>Issue:</strong> I get connection errors when trying to open documents<br/>
+	Be sure to check the error log from docker (<code>docker logs id-of-your-instance</code>). If the logs note something like:<br/>
+	<code>No acceptable WOPI hosts found matching the target host [YOUR NEXTCLOUD DOMAIN] in config.</code><br/>
+	you might have started the docker container with the wrong URL. Be sure to start it with the URL of your Nextcloud server, not the server where Collabora Online runs on.</li>
+	<li><strong>Issue:</strong> <code>Connection is not allowed</code> errors.<br/>
+	It is possible your firewall is blocking connections. Try to start docker after you started the firewall, it makes changes to your iptables to enable Collabora Online to function.</li>
+</ul>
+Find more questions and answers in the <a href="https://help.nextcloud.com/t/issue-installing-collabora-following-official-guide/1746/58">discussion thread on the forums</a>.</p>
+
+
+<h2>Enjoy and let us know what you think <a href="https://help.nextcloud.com">on the forums</a>!</h2> 
 
 
 <link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
