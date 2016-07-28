@@ -250,8 +250,8 @@
 	<li>Access to all data in your organization, no matter where it is stored</li>
 	<li>Deep integration in corporate infrastructure like LDAP and SAML 2.0 authentication, Windows Network Drive storage support and more</li>
 	<li>Seamless collaboration and communication built in</li>
-	<li>Fully secure and encrypted data handling<!-- with fine grained file access control--></li>
-	<li>Compliance capabilities with <!--retention,--> logging and auditing</li>
+	<li>Fully secure and encrypted data handling with fine grained file access control</li>
+	<li>Compliance capabilities with retention, logging and auditing</li>
 	<li>Anti-virus integration</li>
 	<li>Calendar, Contacts and secure video and audio conferencing</li>
 	<li>We continuously improve our product and add new capabilities in close collaboration with partners and customers</li>
