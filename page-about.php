@@ -1,4 +1,8 @@
-<h1>About Nextcloud</h1>
+<?php get_template_part( 'templates/parts/title'); ?>
+<div class="sub-nav">
+	<a href="/contributors">Nextcloud Community</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/team">Nextcloud GmbH team</a>
+</div>
+
 <p>You should have full control over your data. We help you achieve that: a safe home for all your data. Secure, under your control and developed in an open, transparent and trustworthy way. <strong>We are Nextcloud</strong>.</p>
 
 <p>Nextcloud, the next generation Enterprise File Sync & Share was started by ownCloud inventor <a href="https://karlitschek.de">Frank Karlitschek</a> to empower users to take back control over their data and communication. The company was founded as a spin-off from Struktur AG, a leading web conferencing and financial planning software company since 1995, servicing customers like Deutsche Bank, Vodafone, BNP Paribas and many others. Nextcloud gives organizations fine-grained control over data access, facilitates file synchronization and sharing across devices, enables collaboration within and across organizational boundaries and lets users communicate through secure WebRTC audio and video conferencing.</p>
@@ -71,7 +75,8 @@
     </div>
 </div>
     
-  <div class="wrap pad-bottom">
+
+<div class="wrap pad-bottom">
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3 text-center">
                     <h2>Subscribe to our newsletter</h2>
@@ -80,7 +85,6 @@
 		</div>
 	</div>
 </div>
-
 
 <p>Disclaimer: </br>
 <small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.<br />

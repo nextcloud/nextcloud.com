@@ -1,7 +1,8 @@
-<div class="page-header">
-	<h1>Meet our Team</h1>
+<?php get_template_part( 'templates/parts/title'); ?>
+<div class="sub-nav">
+	<a href="/about">About Nextcloud</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/contributors">Nextcloud Community</a>
 </div>
-<p class="teamdescription">Open Source cloud computing is our passion at Nextcloud GmbH and we've built a great team of experts around it. Our engineers, designers and support professionals work as an integral part of the wider Nextcloud community to give customers direct access to the most advanced, in-depth knowledge they need for success.</p>
+<p>Open Source cloud computing is our passion at Nextcloud GmbH and we've built a great team of experts around it. Our engineers, designers and support professionals work as an integral part of the wider Nextcloud community to give customers direct access to the most advanced, in-depth knowledge they need for success.</p>
 <!-- End main -->
 </div>
 </div>
