@@ -49,7 +49,7 @@ span.avoidwrap {
 
 /* Make background white, font grey and default buttons a bit darker to compensate */
 body {
-				font-family: 'Open Sans', Frutiger, Calibri, 'Myriad Pro', Myriad, sans-serif !important;
+	font-family: 'Open Sans', Frutiger, Calibri, 'Myriad Pro', Myriad, sans-serif !important;
 	color: #555;
 	background: #fff;
 }
@@ -1399,4 +1399,118 @@ text-align: center;
 	.col-md-3.yt-img-overlay {  /* compensate for the 1% margin yt images need */
 		width: 97%;
 	}
+}
+
+
+/* team page */
+
+
+.teamgroup {
+	width: 100%;
+}
+
+.teamgroup .featuretitle {
+text-align: center;
+}
+.teamp {
+	-webkit-box-shadow: 0 3px 3px #ccc;
+	-moz-box-shadow: 0 3px 3px #ccc;
+	box-shadow: 0 3px 3px #ccc;
+	margin: 10%;
+}
+
+.teamimg {
+	width: 60%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	margin-top: 15px;
+}
+
+.teamname {
+	text-align: center;
+}
+.teammeta {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 200;
+	color: #777;
+	line-height: 1;
+}
+
+.teamtitle {
+	margin: 6px;
+	font-size: 22px;
+}
+
+.teamexpertise {
+	margin: 2px;
+	font-size: 14px;
+}
+
+.teamlocation {
+	margin: 2px;
+	font-size: 14px;
+}
+
+.teamsocial {
+	margin: 15px;
+	font-size: 30px;
+	color: #777 !important;
+}
+
+.teamsocial a {
+	color: #AAA;
+	transition: all .2s;
+}
+
+.teamsocial a:hover {
+	color:  #0082C9;
+}
+
+
+.teamdescription {
+	margin: 20px;
+	padding-bottom: 30px;
+}
+
+/* Contributor list page */
+
+.contributorgroup {
+	width: 100%;
+}
+
+.contribshowhide {
+	position: relative;
+}
+
+.contribtext { 
+	transition: all .5s;
+	background-color: #0082C9;
+	border-radius: 50%;
+	opacity: 0;
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	line-height: 100%;
+}
+.contribshowhide:hover .contribtext{
+	opacity: 0.9;
+}
+
+.contribtext a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 0.9;
+	vertical-align: center;
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	text-align:center;
+	position: absolute;
+	top: 50%;
+	margin-top: -12px;
 }

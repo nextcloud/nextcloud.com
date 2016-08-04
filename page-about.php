@@ -1,7 +1,7 @@
 <h1>About Nextcloud</h1>
 <p>You should have full control over your data. We help you achieve that: a safe home for all your data. Secure, under your control and developed in an open, transparent and trustworthy way. <strong>We are Nextcloud</strong>.</p>
 
-<p>Nextcloud, the next generation Enterprise File Sync & Share was started by ownCloud inventor <a href="https://karlitschek.de">Frank Karlitschek</a> to empower users to take back their data. Nextcloud gives organizations fine-grained control over data access, facilitates file synchronization and sharing across devices, enables collaboration within and across organizational boundaries and lets users communicate through secure WebRTC audio and video conferencing.</p>
+<p>Nextcloud, the next generation Enterprise File Sync & Share was started by ownCloud inventor <a href="https://karlitschek.de">Frank Karlitschek</a> to empower users to take back control over their data and communication. The company was founded as a spin-off from Struktur AG, a leading web conferencing and financial planning software company since 1995, servicing customers like Deutsche Bank, Vodafone, BNP Paribas and many others. Nextcloud gives organizations fine-grained control over data access, facilitates file synchronization and sharing across devices, enables collaboration within and across organizational boundaries and lets users communicate through secure WebRTC audio and video conferencing.</p>
 
 <p>See <a href="/features">our features page</a> for more information about what Nextcloud can do for you.</p>
 
@@ -82,126 +82,6 @@
 </div>
 
 
-<div class="row">
-	<ul class="nav nav-tabs" role="tablist">
-		<li class="active"><a href="#tab-community" title="Community contributors" role="tab" data-toggle="tab"><i class="icon-users"></i> Community<br><small>Contributors to Nextcloud</small></a></li>
-		<li><a href="#tab-team" title="Nextcloud GmbH team" role="tab" data-toggle="tab"><i class="icon-briefcase"></i> Team<br><small>Nextcloud GmbH at your service</small></a></li>
-	</ul>
-</div>
-<!-- end main -->
-</div>
-</div>
-<div class="featurerow">
-<div class="wrap container featuregroup">
-
-<div  class="tab-content">
-	<div id="tab-community" role="tabpanel" class="tab-pane active">
-	<!--Code to show ppl in our github project-->
-	</div>
-	<div id="tab-team" role="tabpanel" class="tab-pane">
-<!-- 		<h1>Our team</h1> -->
-<!-- 		<p>We have a highly experienced team on board.</p> -->
-		<div class="row">
-			<div class="col-md-4">
-				<div class="row">
-					<div class="col-md-4 picture">
-						<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/arthur.jpg" />
-					</div>
-					<div class="col-md-8 text">
-						<h3>Arthur Schiwon</h3>
-						<p>Software Engineer, LDAP and Sharepoint expert</p>
-						<p><a href="https://arthur-schiwon.de">website</a>, <a href="https://github.com/blizzz">github</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="row">
-					<div class="col-md-4 picture">
-						<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/bjoern.jpg" />
-					</div>
-					<div class="col-md-8 text">
-						<h3>Björn Schießle</h3>
-						<p>Software Engineer, Federation expert</p>
-						<p><a href="https://www.schiessle.org">website</a>, <a href="https://github.com/schiesbn">github</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="row">
-					<div class="col-md-4 picture">
-						<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/frank.jpg" />
-					</div>
-					<div class="col-md-8 text">
-						<h3>Frank Karlitschek</h3>
-						<p>Managing Director</p>
-						<p><a href="https://blog.jospoortvliet.com">website</a>, <a href="https://github.com/jospoortvliet">github</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4">
-				<div class="row">
-					<div class="col-md-4 picture">
-						<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
-					</div>
-					<div class="col-md-8 text">
-						<h3>Jan-Christoph Borchardt</h3>
-						<p>User Interaction Design</p>
-						<p><a href="http://jancborchardt.net/">website</a>, <a href="https://github.com/jospoortvliet">github</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="row">
-					<div class="col-md-4 picture">
-						<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jos.jpg" />
-					</div>
-					<div class="col-md-8 text">
-						<h3>Jos Poortvliet</h3>
-						<p>Marketing and Communications.</p>
-						<p><a href="https://blog.jospoortvliet.com">website</a>, <a href="https://github.com/jospoortvliet">github</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="row">
-					<div class="col-md-4 picture">
-						<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/lukas.jpg" />
-					</div>
-					<div class="col-md-8 text">
-						<h3>Lukas Reschke</h3>
-						<p>Software engineer, Security Team Lead</p>
-						<p><a href="https://statuscode.ch">website</a>, <a href="https://github.com/LukasReschke">github</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4">
-				<div class="row">
-					<div class="col-md-4 picture">
-						<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-					</div>
-					<div class="col-md-8 text">
-						<h3>You?</h3>
-						<p>If you enjoy working in an open environment at a great open source software business, <a href="mailto:jobs@nextcloud.com">get in contact with us!</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-</div>
-</div>
-<div class="featurerow">
-<div class="wrap container">
-
-
-
-
-<br /><br />
 <p>Disclaimer: </br>
 <small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.<br />
 Nextcloud is not responsible for the content of the linked articles.</small></p>
