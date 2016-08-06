@@ -183,12 +183,14 @@
       },
 	{
          "title":"woelkli Cloud Storage",
-         "url":"https:\/\/woelkli.com/en/about",
+         "url":"https:\/\/woelkli.com/",
          "flags":[
             "ch",
             "fr",
             "at",
-            "de"
+            "de",
+            "gb",
+            "eu"
          ],
          "freeplans":true,
 		 "supports":"both",
