@@ -5,7 +5,7 @@
 
 <p>You should have full control over your data. We help you achieve that: a safe home for all your data. Secure, under your control and developed in an open, transparent and trustworthy way. <strong>We are Nextcloud</strong>.</p>
 
-<p>Nextcloud, the next generation Enterprise File Sync & Share was started by ownCloud inventor <a href="https://karlitschek.de">Frank Karlitschek</a> to empower users to take back control over their data and communication. The company was founded as a spin-off from Struktur AG, a leading web conferencing and financial planning software company since 1995, servicing customers like Deutsche Bank, Vodafone, BNP Paribas and many others. Nextcloud gives organizations fine-grained control over data access, facilitates file synchronization and sharing across devices, enables collaboration within and across organizational boundaries and lets users communicate through secure WebRTC audio and video conferencing.</p>
+<p>Nextcloud, the next generation Enterprise File Sync & Share was started by ownCloud inventor <a href="https://karlitschek.de">Frank Karlitschek</a> to empower users to take back control over their data and communication. The company was founded as a spin-off from <a href="https://struktur.de" target="_blank">Struktur AG</a>, a leading web conferencing and financial planning software company since 1995, servicing customers like Deutsche Bank, Vodafone, BNP Paribas and many others. Nextcloud gives organizations fine-grained control over data access, facilitates file synchronization and sharing across devices, enables collaboration within and across organizational boundaries and lets users communicate through secure WebRTC audio and video conferencing.</p>
 
 <p>See <a href="/features">our features page</a> for more information about what Nextcloud can do for you.</p>
 
@@ -17,7 +17,7 @@
 <p>You can follow what we are up to <a href="/news">in our blogs</a> and join the <a href="https://help.nextcloud.com">conversations on our forums.</a></p>
 
 <h2>In the media</h2>
-<p>Our launch has been covered in the media and we've been interviewed, explaining the why, how and what behind our fork. Watch and read these to find out what happened!</p>
+<p>Our launch has been covered in the media and we've been interviewed, explaining the why, how and what behind our endeavor. Watch and read these to learn more!</p>
 <div class="row yt-row">
 	<div class="col-md-4 yt-img-overlay">
 		<a class="youtube" it="iMfokaX2r8g" href="https://www.youtube.com/watch?v=iMfokaX2r8g" target="_blank" title="Interview by Bryan Lunduke">

@@ -254,10 +254,10 @@
 			<div class="teammeta">
 				<h3 class="teamtitle">Security lead</h3>
 				<h4 class="teamexpertise">Security</h4>
-				<h4 class="teamlocation">lives in bla, Switzerland</h4>
+				<h4 class="teamlocation">lives in St Gallen, Switzerland</h4>
 				<p class="teamsocial"><a href="https://statuscode.ch/"><i class="icon-rss icon"></i></a> <a href="https://github.com/LukasReschke"><i class="icon-github-alt icon"></i></a> <a href="https://twitter.com/LukasReschke"><i class="icon-twitter icon"></i></a> </p>
 			</div>
-			<p class="teamdescription">Lukas Reschke is awesome.</p>
+			<p class="teamdescription">Lukas has been contributing since 2012 to project and responsible for many of the security hardenings in the code. He worked as security assessment and forensic investigator, reviewing security, giving trainings and dealing with breaches at Fortune 500 companies and several of the largest Swiss financial institutes.</p>
 		</div>
 	</div>
 </div>
