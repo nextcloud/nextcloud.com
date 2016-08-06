@@ -16,7 +16,6 @@
 <div class="row">
 	<div class="col-md-4">
 		<div class="teamp">
-		 &nbsp;
 			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/frank.jpg" />
 			<h2 class="teamname">Frank Karlitschek</h2>
 			<div class="teammeta">
@@ -29,11 +28,8 @@
 		</div>
 	</div>
 	<div class="col-md-4">
-		 &nbsp;
 		<div class="teamp">
-			<div class="teamimg">
-				<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/niels.jpg" />
-			</div>
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/niels.jpg" />
 			<h2 class="teamname">Niels Mache</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Managing Director</h3>
@@ -45,11 +41,8 @@
 		</div>
 	</div>
 	<div class="col-md-4">
-		 &nbsp;
 		<div class="teamp">
-			<div class="teamimg">
-				<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/andreas.jpg" />
-			</div>
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/andreas.jpg" />
 			<h2 class="teamname">Andreas Rode</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Sales Director</h3>
@@ -64,10 +57,7 @@
 <div class="row">
 	<div class="col-md-4">
 		<div class="teamp">
-		 &nbsp;
-			<div class="teamimg">
-				<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/arthur.jpg" />
-			</div>
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/arthur.jpg" />
 			<h2 class="teamname">Arthur Schiwon</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
@@ -79,11 +69,8 @@
 		</div>
 	</div>
 	<div class="col-md-4">
-		 &nbsp;
 		<div class="teamp">
-			<div class="teamimg">
-				<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/bjoern.jpg" />
-			</div>
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/bjoern.jpg" />
 			<h2 class="teamname">Björn Schließle</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
@@ -95,11 +82,8 @@
 		</div>
 	</div>
 	<div class="col-md-4">
-		 &nbsp;
 		<div class="teamp">
-			<div class="teamimg">
-				<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/joas.jpg" />
-			</div>
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/joas.jpg" />
 			<h2 class="teamname">Joas Schilling</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
@@ -113,11 +97,8 @@
 </div>
 <div class="row">
 	<div class="col-md-4">
-		 &nbsp;
 		<div class="teamp">
-			<div class="teamimg">
-				<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/olivier.jpg" />
-			</div>
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/olivier.jpg" />
 			<h2 class="teamname">Olivier Paroz</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Senior Solutions Consultant</h3>
@@ -129,11 +110,8 @@
 		</div>
 	</div>
 	<div class="col-md-4">
-		 &nbsp;
 		<div class="teamp">
-			<div class="teamimg">
-				<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/patrick.jpg" />
-			</div>
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/patrick.jpg" />
 			<h2 class="teamname">Patrick Walther</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Sales Manager</h3>
@@ -145,11 +123,8 @@
 		</div>
 	</div>
 	<div class="col-md-4">
-		 &nbsp;
 		<div class="teamp">
-			<div class="teamimg">
-				<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
-			</div>
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
 			<h2 class="teamname">Jan-Christoph Borchardt</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Lead Designer</h3>
@@ -163,11 +138,8 @@
 </div>
 <div class="row">
 	<div class="col-md-4">
-		 &nbsp;
 		<div class="teamp">
-			<div class="teamimg">
-				<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jos.jpg" />
-			</div>
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jos.jpg" />
 			<h2 class="teamname">Jos Poortvliet</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Marketing Manager</h3>
@@ -179,11 +151,8 @@
 		</div>
 	</div>
 	<div class="col-md-4">
-		 &nbsp;
 		<div class="teamp">
-			<div class="teamimg">
-				<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/robin.jpg" />
-			</div>
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/robin.jpg" />
 			<h2 class="teamname">Robin Appelman</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
@@ -195,11 +164,8 @@
 		</div>
 	</div>
 	<div class="col-md-4">
-		 &nbsp;
 		<div class="teamp">
-			<div class="teamimg">
-				<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vanessa.jpg" />
-			</div>
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vanessa.jpg" />
 			<h2 class="teamname">Vanessa Steeg</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Project Manager</h3>
@@ -213,11 +179,8 @@
 </div>
 <div class="row">
 	<div class="col-md-4">
-		 &nbsp;
 		<div class="teamp">
-			<div class="teamimg">
-				<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/roeland.jpg" />
-			</div>
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/roeland.jpg" />
 			<h2 class="teamname">Roeland Douma</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
@@ -229,11 +192,8 @@
 		</div>
 	</div>
 	<div class="col-md-4">
-		 &nbsp;
 		<div class="teamp">
-			<div class="teamimg">
-				<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/simon.jpg" />
-			</div>
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/simon.jpg" />
 			<h2 class="teamname">Simon Eisenmann</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
@@ -245,11 +205,8 @@
 		</div>
 	</div>
 	<div class="col-md-4">
-		 &nbsp;
 		<div class="teamp">
-			<div class="teamimg">
-				<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/lukas.jpg" />
-			</div>
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/lukas.jpg" />
 			<h2 class="teamname">Lukas Reschke</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Security lead</h3>
@@ -263,11 +220,8 @@
 </div>
 <div class="row">
 	<div class="col-md-4">
-		 &nbsp;
 		<div class="teamp">
-			<div class="teamimg">
-				<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/morris.jpg" />
-			</div>
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/morris.jpg" />
 			<h2 class="teamname">Morris Jobke</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Support and Software Engineer</h3>
@@ -279,11 +233,8 @@
 		</div>
 	</div>
 	<div class="col-md-4">
-		 &nbsp;
 		<div class="teamp">
-			<div class="teamimg">
-				<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/ivan.jpg" />
-			</div>
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/ivan.jpg" />
 			<h2 class="teamname">Ivan</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
@@ -295,11 +246,8 @@
 		</div>
 	</div>
 	<div class="col-md-4">
-		 &nbsp;
 		<div class="teamp">
-			<div class="teamimg">
-				<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/brian.jpg" />
-			</div>
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/brian.jpg" />
 			<h2 class="teamname">Brian</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Support Engineer</h3>
@@ -311,3 +259,19 @@
 		</div>
 	</div>
 </div>
+<div class="row">
+	<div class="col-md-4">
+		<div class="teamp">
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/leon.jpg" />
+			<h2 class="teamname">Leon</h2>
+			<div class="teammeta">
+				<h3 class="teamtitle">Software Engineer</h3>
+				<h4 class="teamexpertise">Spreed.ME integration</h4>
+				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+				<p class="teamsocial"><!--<a href="https://www.stdin.xyz/"><i class="icon-rss icon"></i></a> <a href="https://github.com/longsleep"><i class="icon-github-alt icon"></i></a> <a href="https://twitter.com/rullzer"><i class="icon-twitter icon"></i></a>--> &nbsp;</p>
+			</div>
+			<p class="teamdescription">Leon is awesome.</p>
+		</div>
+	</div>
+</div>
+

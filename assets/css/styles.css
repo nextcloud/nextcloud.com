@@ -1406,7 +1406,7 @@ text-align: center;
 
 
 .teamgroup {
-	width: 100%;
+	width: 95%;
 }
 
 .teamgroup .featuretitle {
@@ -1416,14 +1416,16 @@ text-align: center;
 	-webkit-box-shadow: 0 3px 3px #ccc;
 	-moz-box-shadow: 0 3px 3px #ccc;
 	box-shadow: 0 3px 3px #ccc;
-	margin: 10%;
-	padding-bottom: 30px;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 3%;
+	padding-top: 60px;
+	padding-bottom: 5px;
 }
 
 .teamimg {
 	width: 50%;
 	display:block;
-	margin-top: 15px;
 	margin: 0 auto !important;
 }
 
@@ -1457,6 +1459,7 @@ text-align: center;
 	margin: 15px;
 	font-size: 30px;
 	color: #777 !important;
+	height: 40px;
 }
 
 .teamsocial a {
@@ -1468,29 +1471,44 @@ text-align: center;
 	color:  #0082C9;
 }
 
-
 .teamdescription {
 	margin: 20px;
-	min-height: 150px;
 }
 
-@media (max-width: 1899px) {
-	.teamdescription {
-		min-height: 250px;
+.teamp {
+	min-height: 800px;
+}
+
+@media (max-width: 2200px) {
+	.teamp {
+		min-height: 780px;
 	}
 }
 
-@media (max-width: 1499px) {
-	.teamdescription {
-		min-height: 370px;
+@media (max-width: 1910px) {
+	.teamp {
+		min-height: 750px;
+	}
+}
+
+@media (max-width: 1450px) {
+	.teamp {
+		min-height: 790px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.teamp {
+		min-height: 830px;
 	}
 }
 
 @media (max-width: 991px) {
-	.teamdescription {
-		min-height: 100px;
+	.teamp {
+		min-height: auto;
 	}
 }
+
 /* Contributor list page */
 
 .contributorgroup {
