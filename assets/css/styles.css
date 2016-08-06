@@ -1417,14 +1417,14 @@ text-align: center;
 	-moz-box-shadow: 0 3px 3px #ccc;
 	box-shadow: 0 3px 3px #ccc;
 	margin: 10%;
+	padding-bottom: 30px;
 }
 
 .teamimg {
-	width: 60%;
-	margin-left:auto;
-	margin-right:auto;
+	width: 50%;
 	display:block;
 	margin-top: 15px;
+	margin: 0 auto !important;
 }
 
 .teamname {
@@ -1471,9 +1471,26 @@ text-align: center;
 
 .teamdescription {
 	margin: 20px;
-	padding-bottom: 30px;
+	min-height: 150px;
 }
 
+@media (max-width: 1899px) {
+	.teamdescription {
+		min-height: 250px;
+	}
+}
+
+@media (max-width: 1499px) {
+	.teamdescription {
+		min-height: 370px;
+	}
+}
+
+@media (max-width: 991px) {
+	.teamdescription {
+		min-height: 100px;
+	}
+}
 /* Contributor list page */
 
 .contributorgroup {
