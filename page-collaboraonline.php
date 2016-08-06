@@ -170,8 +170,24 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e "domain=cloud\.nextcloud\.com" --rest
  	<li>Go to the Apps section and choose "Productivity"</li>
  	<li>Install the "Collabora Online app"</li>
  	<li>Admin -&gt; Collabora Online -&gt; Specify the server you have setup before (e.g. "<a href="https://office.nextcloud.com/">https://office.nextcloud.com</a>")</li>
-</ol>
-Now your Nextcloud has Collabora Online Office integrated!<p>
+</ol></p>
+<h1>Congratulations, your Nextcloud has Collabora Online Office integrated!</h1>
+
+<h2>Updating</h2>
+<p>Occasionally, new versions of this docker image are released with security and feature updates. We will of course let you know when that happens! This is how you upgrade to a new version:
+<ul>
+<li>grab new docker image:<br/>
+<code>docker pull docker pull</code></li>
+<li>List docker images:<br/>
+<code>docker ps</code><br/>
+from the output you can glean the Container ID of your Collabora Online docker image.</li>
+<li>stop and remove the Collabora Online docker image:<br/>
+<code>docker stop CONTAINER_ID</code><br/>
+docker rm CONTAINER_ID</code></li>
+<li>start the new image:<br/>
+<code>docker run -t -d -p 127.0.0.1:9980:9980 -e "domain=cloud\.nextcloud\.com" --restart always --cap-add MKNOD collabora/code</code></li>
+</ul>
+Enjoy!</p>
 
 <h2>Troubleshooting</h2>
 <p>Some common issues:
