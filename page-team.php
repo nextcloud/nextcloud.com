@@ -103,7 +103,7 @@
 			<div class="teammeta">
 				<h3 class="teamtitle">Senior Solutions Consultant</h3>
 				<h4 class="teamexpertise">Business solutions, multimedia and Snap</h4>
-				<h4 class="teamlocation">lives in lausanne, Switzerland</h4>
+				<h4 class="teamlocation">lives in Lausanne, Switzerland</h4>
 				<p class="teamsocial"><a href="https://www.linkedin.com/in/olivierparoz"><i class="icon-rss icon"></i></a> <a href="https://github.com/oparoz"><i class="icon-github-alt icon"></i></a><a href="https://twitter.com/oparoz"><i class="icon-twitter icon"></i></a></p>
 			</div>
 			<p class="teamdescription">Olivier studied Economics and Information and Communications Systems Management at the University of Geneva. He has 15 years experience in delivering strategic solutions with a focus on open source, security and privacy for customers in industries as diverse as telecom, media, insurance, retail, broadcasting, sports and science.</p>
@@ -214,7 +214,7 @@
 				<h4 class="teamlocation">lives in St. Gallen, Switzerland</h4>
 				<p class="teamsocial"><a href="https://statuscode.ch/"><i class="icon-rss icon"></i></a> <a href="https://github.com/LukasReschke"><i class="icon-github-alt icon"></i></a> <a href="https://twitter.com/LukasReschke"><i class="icon-twitter icon"></i></a> </p>
 			</div>
-			<p class="teamdescription">Lukas has been contributing since 2012 to project and responsible for many of the security hardenings in the code. He worked as security assessment and forensic investigator, reviewing security, giving trainings and dealing with breaches at Fortune 500 companies and several of the largest Swiss financial institutes.</p>
+			<p class="teamdescription">Lukas has been contributing to the project since 2012, and is responsible for many of the security hardenings in the code. He has worked as security assessment and forensic investigator, reviewing security, giving trainings and dealing with breaches at Fortune 500 companies and several of the largest Swiss financial institutes.</p>
 		</div>
 	</div>
 </div>
