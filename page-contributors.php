@@ -33,7 +33,7 @@ if(CONTRIBOOK) {
 	foreach($users as $user) {
 		$data = CONTRIBOOK_USER::getuser($user);
 		$image_src = CONTRIBOOK_PHOTO_URL.blogger_200.png;
-		echo('<div class="col-sm-3 col-md-2 col-lg-1"><div class="contribshowhide">');
+		echo('<div class="col-sm-4 col-md-3 col-lg-2"><div class="contribshowhide">');
 		if($data['picture_200'] !== ''){
 			$image_src = CONTRIBOOK_PHOTO_URL.$data['picture_200'];
 // 			echo('<span class="bloguserpicture"><img src="'.CONTRIBOOK_PHOTO_URL.$_['picture_200'].'" border="1" /></span>');
