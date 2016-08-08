@@ -28,7 +28,7 @@
 if(CONTRIBOOK) {
 	require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php');
 	$users = CONTRIBOOK_USER::getusers();
-// 	shuffle($users);
+	shuffle($users);
 	echo('<div class="row">');
 	foreach($users as $user) {
 		$data = CONTRIBOOK_USER::getuser($user);
