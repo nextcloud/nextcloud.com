@@ -41,7 +41,7 @@ if(CONTRIBOOK) {
 			$image_src = 'https://avatars2.githubusercontent.com/u/'.$data['githubId'].'?v=3&s=200';
 // 			echo('<span class="bloguserpicture"><img src="https://avatars2.githubusercontent.com/u/'.$_['githubId'].'?v=3&s=200" border="1" /></span>');
 		}
-		echo('<div class="contribimg"><span class="contribook_microbloguserpicture"><a href="/user/?user='.$user.'"><img class="img-responsive img-circle" src="'.$image_src.'" border="0" /></a></span></div>');
+		echo('<div class="contribimg"><span class="contribook_microbloguserpicture"><a href="/user/?user='.$user.'"><img class="img-responsive img-circle" src="'.$image_src.'" border="0" height="200px" width="200px" /></a></span></div>');
 
 		echo('<div class="contribtext"><a href="/user/?user='.$user.'">'.$data['name'].'</a></div>');
 		echo('</div>');
