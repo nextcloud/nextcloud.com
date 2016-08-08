@@ -160,7 +160,7 @@
 			<h2 class="teamname">Ivan Sein</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
-				<h4 class="teamexpertise">iOS, Monitoring</h4>
+				<h4 class="teamexpertise">monitoring app and Spreed.ME integration</h4>
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 				<p class="teamsocial"><!--<a href="https://www.stdin.xyz/"><i class="icon-rss icon"></i></a>--> <a href="https://github.com/Ivansss"><i class="icon-github-alt icon"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="icon-twitter icon"></i></a>--> </p>
 			</div>
