@@ -118,14 +118,14 @@
 	<div class="col-md-4">
 		<div class="teamp">
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/brian.jpg" />
-			<h2 class="teamname">Brian</h2>
+			<h2 class="teamname">Brian Krause</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Support Engineer</h3>
 				<h4 class="teamexpertise">Spreed.ME</h4>
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-				<p class="teamsocial"><!--<a href="https://www.stdin.xyz/"><i class="icon-rss icon"></i></a> <a href="https://github.com/longsleep"><i class="icon-github-alt icon"></i></a> <a href="https://twitter.com/rullzer"><i class="icon-twitter icon"></i></a>--> &nbsp;</p>
+				<p class="teamsocial"><a href="https://www.xing.com/profile/Brian_Krause"><i class="icon-xing icon"></i></a> <!--<a href="https://github.com/longsleep"><i class="icon-github-alt icon"></i></a> <a href="https://twitter.com/rullzer"><i class="icon-twitter icon"></i></a>--></p>
 			</div>
-			<p class="teamdescription">Brian is awesome.</p>
+			<p class="teamdescription">Brian has a degree as IT-Systemkaufmann, decades of professional experience in IT Customer Service, Support and Sales and joined Struktur AG in 2010 as Customer Care representative. As first contact person for Nextcloud, Struktur AG and Spreed he makes sure you get the best possible support.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
