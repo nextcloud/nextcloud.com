@@ -1,22 +1,23 @@
-<h1>About Nextcloud</h1>
+<?php get_template_part( 'templates/parts/title'); ?>
+<div class="sub-nav">
+	<a href="/contributors">Nextcloud Community</a><!--&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/team">Nextcloud GmbH team</a>-->
+</div>
+
 <p>You should have full control over your data. We help you achieve that: a safe home for all your data. Secure, under your control and developed in an open, transparent and trustworthy way. <strong>We are Nextcloud</strong>.</p>
 
-<p>Started by the well known open source file sync and share developer <a href="https://karlitschek.de">Frank Karlitschek</a> and joined by the most active contributors to his previous project, building on its mature code base, we offer a more reliable and sustainable solution for users and customers. We have developed a <a href="https://nextcloud.com/nextcloud-9-available-enterprise-functionality-to-be-open-source/">drop-in replacement for that legacy code base</a>, providing the bug fixes and security hardening all users need and the Enterprise Subscription capabilities enterprise customers require, all fully open source.</p>
+<p>Nextcloud, the next generation Enterprise File Sync & Share was started by ownCloud inventor <a href="https://karlitschek.de">Frank Karlitschek</a> to empower users to take back control over their data and communication. The company was founded as a spin-off from <a href="https://struktur.de" target="_blank">Struktur AG</a>, a leading web conferencing and financial planning software company since 1995, servicing customers like Deutsche Bank, Vodafone, BNP Paribas and many others. Nextcloud gives organizations fine-grained control over data access, facilitates file synchronization and sharing across devices, enables collaboration within and across organizational boundaries and lets users communicate through secure WebRTC audio and video conferencing.</p>
 
-<h2>For customers and users of existing solutions</h2>
-<p>If you are an existing user or customer or are looking to deploy we have your back. Nextcloud will uncompromisingly focus on providing the best possible experience to all its users, customers and contributors. To ensure a smooth transition, we support existing contracts on the code we wrote and support. Your support does not go away: Nextcloud will be there for you.</p>
+<p>See <a href="/features">our features page</a> for more information about what Nextcloud can do for you.</p>
 
-<p>See <a href="/enterprise">our enterprise page</a> for more information about pricing of our Enterprise Support Subscriptions.</p>
+<h2>User Focus</h2>
+<p>At Nextcloud, we believe that a open, transparent development process and a clear focus on the needs of users and customers results in a better product.</p>
 
-<h2>What will be better</h2>
-<p>An Open Source business model depends on a carefully balanced equilibrium between the needs of a business and its customers, users and contributing community. Nextcloud is a reboot of the most popular open source file sync and share solution, a new way of re-defining the balance into a more sustainable, open ecosystem with a single focus: putting users in control of their data. Kickstarted as a healthy, growing company, Nextcloud reduces barriers to contribution and increases transparency to enable more input of customers and users.</p>
+<p>By offering access to our engineers, customers get the best possible support while having an opportunity to participate in and benefit from the open source model. See <a href="/enterprise">our enterprise page</a> for more information about our Enterprise Support Subscriptions.</p>
 
-<p>On top of the file sync and share you all know and love, Nextcloud provides full Spreed.ME support. Spreed.ME is a next generation, open source WebRTC based communication platform with video conferencing and text chat. We also provide support for the popular Calendar and Contacts apps, Online Office capabilities and have improved and enriched the user experience in many other areas.</p>
+<p>You can follow what we are up to <a href="/news">in our blogs</a> and join the <a href="https://help.nextcloud.com">conversations on our forums.</a></p>
 
-<p>New energy and greater ambitions for the future: Nextcloud is the next generation of on-premise cloud technology! You can find more information about our plans <a href="/news">in our blogs</a> and we'll update our website continuously. Join the <a href="https://help.nextcloud.com">conversations on our forums</a>!</p>
-
-<h2>More information</h2>
-<p>Our launch has been covered in the media and we've been interviewed, explaining the why, how and what behind our fork. Watch and read these to find out what happened!</p>
+<h2>In the media</h2>
+<p>Our launch has been covered in the media and we've been interviewed, explaining the why, how and what behind our endeavor. Watch and read these to learn more!</p>
 <div class="row yt-row">
 	<div class="col-md-4 yt-img-overlay">
 		<a class="youtube" it="iMfokaX2r8g" href="https://www.youtube.com/watch?v=iMfokaX2r8g" target="_blank" title="Interview by Bryan Lunduke">
@@ -74,100 +75,17 @@
     </div>
 </div>
     
-  <div class="wrap pad-bottom">
+
+<div class="wrap pad-bottom">
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3 text-center">
                     <h2>Subscribe to our newsletter</h2>
-                    Stay up to date with Nextcloud news - future plans for releases, events and development are covered monthly in our news letter.
-		    <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1" class="btn btn-block btn-primary btn-lg join-button">Subscribe to our<br />monthly newsletter!</a><br />
+                    <p>Stay up to date with Nextcloud news - future plans for releases, events and development are covered monthly in our news letter.</p>
+		    <p><a href="https://newsletter.nextcloud.com/?p=subscribe&id=1" class="btn btn-block btn-primary btn-lg join-button">Subscribe to our<br />monthly newsletter!</a></p>
 		</div>
 	</div>
 </div>
 
-<!--<h1>Our team</h1>
-<p>We have a highly experienced team on board, with many more joining the coming months.</p>
-
-<div class="row">
-	<div class="col-sm-3 col-md-2">
-		<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/arthur.jpg" />
-	</div>
-	<div class="col-sm-9 col-md-10">
-		<h3>Arthur Schiwon</h3>
-		<p>Father, coffee addict and free software enthusiast. Enjoys time with his family, travelling (far too rarely!), a good cup of coffee (can recommend roasters around), playing football (not handegg!), reading, all the alternatives and what not :)</p>
-		<p>juggling php, javascript and ideas at Nextcloud, previously Senior Software Developer at ownCloud, SEO project manager at construktiv, active member at the (german speaking) Kubuntu community.</p>
-		<p><a href="https://arthur-schiwon.de">website</a>, <a href="https://github.com/blizzz">github</a></p>
-	</div>
-</div>
-
-<div class="row">
-	<div class="col-sm-3 col-md-2">
-		<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/bjoern.jpg" />
-	</div>
-	<div class="col-sm-9 col-md-10">
-		<h3>Björn Schießle</h3>
-		<p>Free Software evangelist. Advocating for privacy respecting, decentralized and federated systems. RoboCup champion 2009. Long time volunteer at Free Software Foundation Europe (FSFE), pushing for technology-enabled political and social change.</p>
-		<p>Herding federated bits at Nextcloud, located in Stuttgart/Germany.</p>
-		<p><a href="https://www.schiessle.org">website</a>, <a href="https://github.com/schiesbn">github</a></p>
-	</div>
-</div>
-
-<div class="row">
-	<div class="col-sm-3 col-md-2">
-		<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/frank.jpg" />
-	</div>
-	<div class="col-sm-9 col-md-10">
-		<h3>Frank Karlitschek</h3>
-		<p>Founder of ownCloud project, ownCloud, Inc. and now Nextcloud. Thinker of great thoughts, tinkerer of awesome things. Revolutionairy dude all over. More to be made up by him.</p>
-		<p>Chief Coffee Officer at Nextcloud</p>
-		<p><a href="https://blog.jospoortvliet.com">website</a>, <a href="https://github.com/jospoortvliet">github</a></p>
-	</div>
-</div>
-
-<div class="row">
-	<div class="col-sm-3 col-md-2">
-		<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
-	</div>
-	<div class="col-sm-9 col-md-10">
-		<h3>Jan-Christoph Borchardt</h3>
-		<p>open source designer, advisor and educator</p>
-		<p>Designing, advising and educating at Nextcloud</p>
-		<p><a href="http://jancborchardt.net/">website</a>, <a href="https://github.com/jospoortvliet">github</a></p>
-	</div>
-</div>
-
-<div class="row">
-	<div class="col-sm-3 col-md-2">
-		<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jos.jpg" />
-	</div>
-	<div class="col-sm-9 col-md-10">
-		<h3>Jos Poortvliet</h3>
-		<p>People person, technology enthusiast and all-things-open evangelist. Talking and writing at Nextcloud, previously community manager ownCloud and SUSE and continuing an decade long involvement in the KDE community. Enjoys avoiding traffic and public transport on bike through Berlin, but only when the weather is good.</p>
-		<p><a href="https://blog.jospoortvliet.com">website</a>, <a href="https://github.com/jospoortvliet">github</a></p>
-	</div>
-</div>
-
-<div class="row">
-	<div class="col-sm-3 col-md-2">
-		<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/lukas.jpg" />
-	</div>
-	<div class="col-sm-9 col-md-10">
-		<h3>Lukas Reschke</h3>
-		<p>Breaker of software, creator of code and maker of pasta. After realizing that building secure software is much more important (and fun) than finding security issues in finance software, he joined ownCloud Inc. to lead it's security efforts.</p>
-		<p>Located in beautiful Switzerland and nowadays a Nextcloud keeping you safe.</p>
-		<p><a href="https://statuscode.ch">website</a>, <a href="https://github.com/LukasReschke">github</a></p>
-	</div>
-</div>
-
-<div class="row">
-	<div class="col-sm-3 col-md-2">
-		<img class="img-responsive img-circle" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-	</div>
-	<div class="col-sm-9 col-md-10">
-		<h3>You?</h3>
-		<p>If you enjoy working in an open environment at a great open source software business, <a href="mailto:jobs@nextcloud.com">get in contact with us!</p>
-	</div>
-</div>-->
-<br /><br />
 <p>Disclaimer: </br>
 <small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.<br />
 Nextcloud is not responsible for the content of the linked articles.</small></p>
