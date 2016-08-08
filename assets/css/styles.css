@@ -1512,7 +1512,8 @@ text-align: center;
 /* Contributor list page */
 
 .contributorgroup {
-	width: 100%;
+	width: 95%;
+	max-width: 2000px;
 }
 
 .contribshowhide {
