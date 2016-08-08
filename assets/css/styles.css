@@ -1550,3 +1550,8 @@ text-align: center;
 	top: 30%;
 /* 	margin-top: -20%; */
 }
+
+.contribimg img {
+	max-width: 200px;
+	max-height: 200px;
+}
