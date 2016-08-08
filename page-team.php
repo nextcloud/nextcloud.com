@@ -157,14 +157,14 @@
 	<div class="col-md-4">
 		<div class="teamp">
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/ivan.jpg" />
-			<h2 class="teamname">Ivan</h2>
+			<h2 class="teamname">Ivan Sein</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
 				<h4 class="teamexpertise">iOS, Monitoring</h4>
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-				<p class="teamsocial"><!--<a href="https://www.stdin.xyz/"><i class="icon-rss icon"></i></a> <a href="https://github.com/longsleep"><i class="icon-github-alt icon"></i></a> <a href="https://twitter.com/rullzer"><i class="icon-twitter icon"></i></a>--> &nbsp;</p>
+				<p class="teamsocial"><!--<a href="https://www.stdin.xyz/"><i class="icon-rss icon"></i></a>--> <a href="https://github.com/Ivansss"><i class="icon-github-alt icon"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="icon-twitter icon"></i></a>--> </p>
 			</div>
-			<p class="teamdescription">Ivan is awesome.</p>
+			<p class="teamdescription">Ivan graduated as CS engineer from the University of the Basque Country and has been at Struktur AG since 2013 developing the Spreed.ME iOS app and more. He joined Nextcloud in July 2016, working on the monitoring app and iOS.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
