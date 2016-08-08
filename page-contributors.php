@@ -33,11 +33,11 @@ if(CONTRIBOOK) {
 		$data = CONTRIBOOK_USER::getuser($user);
 		$image_src = CONTRIBOOK_PHOTO_URL.blogger_200.png;
 		echo('<div class="col-md-2">');
-		if($_['picture_200']<>''){
-			$image_src = CONTRIBOOK_PHOTO_URL.$_['picture_200'];
+		if($data['picture_200'] !== ''){
+			$image_src = CONTRIBOOK_PHOTO_URL.$data['picture_200'];
 // 			echo('<span class="bloguserpicture"><img src="'.CONTRIBOOK_PHOTO_URL.$_['picture_200'].'" border="1" /></span>');
-		} elseif($_['githubId']) {
-			$image_src = 'https://avatars2.githubusercontent.com/u/'.$_['githubId'].'?v=3&s=200';
+		} elseif($data['githubId']) {
+			$image_src = 'https://avatars2.githubusercontent.com/u/'.$data['githubId'].'?v=3&s=200';
 // 			echo('<span class="bloguserpicture"><img src="https://avatars2.githubusercontent.com/u/'.$_['githubId'].'?v=3&s=200" border="1" /></span>');
 		}
 		echo('<div class="contribimg"><span class="contribook_microbloguserpicture"><a href="/user/?user='.$user.'"><img class="img-responsive img-circle" src="'.$image_src.'" border="0" /></a></span></div>');
