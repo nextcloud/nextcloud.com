@@ -1,11 +1,12 @@
+
 <h1>Get involved!</h1>
 <p>Nextcloud is an <strong>open source project</strong> and an open company. That means it is <em>yours</em> to make a difference!</p>
-<p>While we bootstrap our product, website and community infrastructure, we invite you to join our <a href="https://github.com/nextcloud" target="_blank">development efforts in github</a> and the conversations on <a href="https://help.nextcloud.com" target="_blank">our forums</a> and our <a href="irc://#nextcloud-dev@freenode.net" target="_blank">IRC channel on freenode</a>. Interact with us on our <a href="/news">blogs and social media</a>, too!</p>
+<p>We invite you to join our <a href="https://github.com/nextcloud" target="_blank">development efforts on GitHub</a>, the conversations on <a href="https://help.nextcloud.com" target="_blank">our forums</a> and our <a href="irc://#nextcloud-dev@freenode.net" target="_blank">IRC channel on freenode</a>. Interact with us on our <a href="/news">blogs and social media channels</a>, too!</p>
 
 
 <p>Do you want to get a certain <strong>improvement</strong> in Nextcloud? Did you find a <strong>problem</strong>?
 Do you want to <strong>help</strong> translate, promote or document Nextcloud?</p>
-<h2>Become part of the Nextcloud Community and help us liberate data across the globe!</h2>
+<h2>Become part of the <a href="/contributors/" target="_blank">Nextcloud Community</a> and help us liberate data across the globe!</h2>
 <!--<div class="row" style="text-align: center">
   <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html" class="btn btn-lg btn-default">
   <i class="icon-lightbulb-o"></i> Join the Test Pilots!</a>
@@ -35,8 +36,8 @@ Do you want to <strong>help</strong> translate, promote or document Nextcloud?</
             <ul>
             <li>Develop your own Nextcloud Server app (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>app">app development documentation</a>)</li>
             <li>Get a bug fixed (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker">bugtracker documentation</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>general">general guidelines and setup</a>)</li>
-            <li>Improve the Nextcloud Core (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>core">core development documentation</a>)</li>
-            <li>Learn to write Nextcloud code. (Try your hands on a <a href="https://github.com/nextcloud/core/issues?labels=Junior+Job&state=open" target="_blank">Junior Job</a>
+            <li>Improve the Nextcloud Server (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>core">core development documentation</a>)</li>
+            <li>Learn to write Nextcloud code. (Try your hands on a <a href="https://github.com/nextcloud/core/issues?labels=Starter+Issue&state=open" target="_blank">Starter Issue</a>
           <!--and see the <a href="https://github.com/nextcloud/core/wiki/Project-ideas#coding">project ideas page</a>-->)
           </ul>
           <p>Talk to us <a href="irc://#nextcloud-dev@freenode.net">on IRC</a> and on our
