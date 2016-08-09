@@ -10,7 +10,7 @@
 				<a href="#" class="close">&times;</a>
 				<ul class="nav nav-tabs" role="tablist">
 					<li id="li-tab-archive" class="active"><a href="#tab-archive" title="For server owners" role="tab" data-toggle="tab"><i class="icon-archive"></i> Archive File<br><small>For server owners</small></a></li>
-<!-- 					<li><a href="#tab-web" title="Best for shared hosts" role="tab" data-toggle="tab"><i class="icon-code"></i> Web Installer<br><small>For shared hosts</small></a></li> -->
+					<li><a href="#tab-web" title="Best for shared hosts" role="tab" data-toggle="tab"><i class="icon-code"></i> Web Installer<br><small>For shared hosts</small></a></li>
 <!-- 					<li id="li-tab-packages"><a href="#tab-packages" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-linux"></i> Packages<br><small>For auto updates</small></a></li> -->
 					<li><a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-cloud"></i> Appliances<br><small>For easy deployment</small></a></li>
 				</ul>
@@ -49,7 +49,7 @@
 							<div class="col-md-6">
 								<p>The <strong>Web Installer</strong> is the easiest way to install Nextcloud on a web space. It checks the dependencies, downloads Nextcloud from the official server, unpacks it with the right permissions and the right user account. Finally, you will be redirected to the Nextcloud installer.</p>
 								<ol>
-									<li>Right-click <a href="https://download.nextcloud.com/download/community/setup-nextcloud.php">here</a> and save the file to your computer</li>
+									<li>Right-click <a href="https://download.nextcloud.com/server/installer/setup-nextcloud.php">here</a> and save the file to your computer</li>
 									<li>Upload <tt>setup-nextcloud.php</tt> to your web space</li>
 									<li>Point your web browser to <tt>setup-nextcloud.php</tt> on your webspace</li>
 									<li>Follow the instructions and configure Nextcloud</li>
@@ -90,7 +90,7 @@
 							<div id="tab-cloud" role="tabpanel" class="tab-pane">
 								<div class="overlay-body row">
 									<div class="col-md-6">
-										<p>The official Nextcloud appliance, provided by TechandMe.se, is the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure connection<!-- and the <a href="/connect">Nextcloud Proxy app</a>-->. <!--You can install <a href="https://www.virtualbox.org/">virtual box</a>, download our <a href="<?php echo $DOWNLOAD_VM_OVA; ?>">OVA</a> file and load it up. See our <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/appliance_installation.html">documentation for more details</a>.--></p>
+										<p>The official Nextcloud appliance, provided by <a target="_blank" href="https://www.techandme.se/">TechandMe.se</a>, is the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure connection<!-- and the <a href="/connect">Nextcloud Proxy app</a>-->. <!--You can install <a href="https://www.virtualbox.org/">virtual box</a>, download our <a href="<?php echo $DOWNLOAD_VM_OVA; ?>">OVA</a> file and load it up. See our <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/appliance_installation.html">documentation for more details</a>.--></p>
 										<h4>Grab the Nextcloud virtual machine image from the TechandMe.se website<!--in one of these formats-->:</h4>
 										<p><a class="btn btn-primary" href="https://www.techandme.se/nextcloud-vm/">Instructions and download</a></p>
 										<p>Find <a href="https://github.com/nextcloud/vm">source here</a>.</p>
