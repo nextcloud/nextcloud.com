@@ -105,6 +105,7 @@
 		
 	</div>
 </div>
+<?php require get_template_directory().'/install-instructions.php'; ?>
 <script>
     $('#mobile').click(function () {
         $("#tab-desktop").removeClass("active");

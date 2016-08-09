@@ -56,7 +56,6 @@ if(is_page('oc-news') || is_page('blogfeed')) { include roots_template_path(); }
     
     <?php require get_template_directory().'/templates/footer.php'; ?>
 
-    <?php if(is_page('install')) { require get_template_directory().'/install-instructions.php'; } ?>
     <?php if(PIWIKTRACKING) { get_template_part('templates/piwik-tracking'); } ?>
 
   </body>
