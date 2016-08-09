@@ -19,7 +19,7 @@
           <ul id="menu-about" class="menu">
             <li class="menu-contact"><a href="<?php get_bloginfo('url'); ?>/about/">About us</a></li>
             <li class="menu-contact"><a href="<?php get_bloginfo('url'); ?>/contributors/">Community</a></li>
-            <li class="menu-contact"><a href="<?php get_bloginfo('url'); ?>/team/">Company</a></li>
+<!--             <li class="menu-contact"><a href="<?php get_bloginfo('url'); ?>/team/">Company</a></li> -->
 <!--             <li class="menu-history"><a href="<?php get_bloginfo('url'); ?>/history/">History</a></li> -->
 <!--             <li class="menu-events"><a href="<?php get_bloginfo('url'); ?>/events/">Events</a></li> -->
             <li class="menu-jobs"><a href="<?php get_bloginfo('url'); ?>/jobs">Jobs</a></li>
