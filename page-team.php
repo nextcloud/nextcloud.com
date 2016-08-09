@@ -47,7 +47,7 @@
 				<h4 class="teamlocation">lives in Hannover, Germany</h4>
 				<p class="teamsocial"><!--<a href="https://www.schilljs.com/"><i class="icon-rss icon"></i></a>--> <!--<a href="https://github.com/nickvergessen"><i class="icon-github-alt icon"></i></a>--> <!--<a href="https://twitter.com/nickvergessen"><i class="icon-twitter icon"></i></a>--> &nbsp; </p>
 			</div>
-			<p class="teamdescription">Andreas is awesome.</p>
+			<p class="teamdescription">Andreas studied Economics and has 20 years experience in Business Development, Partner- and Sales Management. Andreas worked for companies like Oracle, EMC, Yahoo and Google and also for start ups in the Cloud Computing and Online Marketing space.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
@@ -87,6 +87,19 @@
 				<p class="teamsocial"><a href="http://blog.jospoortvliet.com/"><i class="icon-rss icon"></i></a> <a href="https://github.com/jospoortvliet"><i class="icon-github-alt icon"></i></a> <a href="https://twitter.com/jospoortvliet"><i class="icon-twitter icon"></i></a> </p>
 			</div>
 			<p class="teamdescription">Jos graduated in Psychology from the University of Utrecht and did project and service level management at Royal Bank of Scottland, KPN and the Dutch Department of Education. He has over a decade open source marketing and PR experience, previously working as Community Manager for SUSE Linux and ownCloud GmbH.</p>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="teamp">
+			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/lukas.jpg" />
+			<h2 class="teamname">Lukas Reschke</h2>
+			<div class="teammeta">
+				<h3 class="teamtitle">Security lead</h3>
+				<h4 class="teamexpertise">Security</h4>
+				<h4 class="teamlocation">lives in St. Gallen, Switzerland</h4>
+				<p class="teamsocial"><a href="https://statuscode.ch/"><i class="icon-rss icon"></i></a> <a href="https://github.com/LukasReschke"><i class="icon-github-alt icon"></i></a> <a href="https://twitter.com/LukasReschke"><i class="icon-twitter icon"></i></a> </p>
+			</div>
+			<p class="teamdescription">Lukas has been contributing to the project since 2012, and is responsible for many of the security hardenings in the code. He has worked as security assessment and forensic investigator, reviewing security, giving trainings and dealing with breaches at Fortune 500 companies and several of the largest Swiss financial institutes.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
