@@ -52,15 +52,12 @@
 <p>You can either install the Spreed.ME docker container, install packages for your distribution or built the binary yourself.</p>
 
 <h4>Docker</h4>
-<p><pre><code>docker pull struktur/spreedme
-docker run -t -d -p 127.0.0.1:8080 -e "domain=cloud\.yourcloud\.com" --restart always --cap-add MKNOD struktur/spreedme
-</code></pre></p>
-<p>That will be enough. Once you have done that the server will listen on "localhost:8080". Now we just need to configure Apache to serve Spreed.ME from there.</p>
-<p><strong>Note: We don't yet have a docker image, WIP</strong></p>
+<p>There is a docker image. It requires that you first create the server.conf, taking the template as can be found on <a href="https://hub.docker.com/r/spreed/webrtc/" target="_blank">the docker hub page</a> and modify it following the directions in the third section below. You then have to put it in a place where the docker image can reach it, in the example below we picked <code>/srv/extra/server.conf</code> for that.</p>
+<p><pre><code>docker run --rm --name my-spreed-webrtc -p 8080:8080 -p 8443:8443 -v `pwd`:/srv/extra -i -t spreed/webrtc -c /srv/extra/server.conf</code></pre></p>
+<p>Once it is running the server will listen on "localhost:8080". Now we just need to configure Apache to serve Spreed.ME from there.</p>
 
 <h4>Packages</h4>
-<p>I'm not aware of any packages at the moment...</p>
-
+<p>There are packages for Ubuntu, see <a href="https://github.com/strukturag/spreed-webrtc/wiki/Ubuntu-Repository" target="_blank">instructions here</a></p>
 <h4>Building</h4>
 <p>Building Spreed.ME is relatively simple as it is written in <a href="https://golang.org/">Go</a>. Follow these steps, adjusting for your system:
 <ol>
