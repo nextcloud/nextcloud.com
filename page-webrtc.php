@@ -21,6 +21,22 @@
 	</div>
 </div>
 
+<div class="featurerow">
+	<h2 class="featuretitle">Spreed.ME integration tutorial video</h2>
+	<div class="row">
+		<div class="col-md-8">
+			<div class="yt-img-overlay">
+				<a class="youtube" href="https://www.youtube.com/watch?v=1zXnypuu27I" title="Spreed.ME in Nextcloud">
+					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/1zXnypuu27I/hqdefault.jpg" title="Spreed.ME in Nextcloud tutorial" />
+					<div class="yt-play-btn">
+						<i></i> 
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
 <h2>Getting started in 3 steps</h2>
 <p>We'll describe how to get Spreed.ME integrated in your server using the Spreed.ME source, binaries or a docker image and the Nextcloud Spreed app.</p>
 
@@ -135,7 +151,7 @@ The app is now installed.</p>
 		
 			<li>Enable <code>authorizeRoomJoin</code> and set it to true:<br /> <code>authorizeRoomJoin = true</code></li>
 			<li>Enable <code>extra</code> and set it to the full absolute path of the <code>spreedme/extra</code> directory in your apps folder of your Nextcloud installation:<br /> <code>extra = /srv/www/htdocs/nextcloud/apps/spreedme/extra</code></li>
-			<li>Enable <code>plugin</code> and set it to <code>extra/static/owncloud.js</code>:<br /> <code>plugin = extra/static/owncloud.js</code></li>
+			<li>Enable <code>plugin</code> and set it to <code>extra/static/owncloud.js</code>:<br /> <code>plugin = extra/static/owncloud.js</code><br/>The latest version of Spreed.ME does this automatically so you don't need to set this</li>
 		</ul></li>
 		<li>In the <code>[users]</code> section:
 		<ul>
