@@ -140,6 +140,7 @@ The app is now installed.</p>
 	<li><code>rcapache2 restart</code><br/>
  	Now restart the Apache webserver</li>
 </ol>
+<p>Ngnix users should check out the <a href="https://github.com/strukturag/nextcloud-spreedme/blob/update-apache-nginx-docs/doc/example-config-nginx.md" target="_blank">ngnix config file here.</a></p>
 
 <h3>Spreed.ME config</h3>
 <p>Now we'll adjust the Spreed.ME config, this is server.conf or webrtc.conf if you have installed packages. This is a large number of steps, each relatively simple but it is important not to miss anything!
@@ -201,23 +202,10 @@ Now the app is configured, go to the Nextcloud App store, locate the app in the 
 <h2>And DONE!</h2>
 <p>At this point, you should be able to go to the Spreed.ME app in your Nextcloud and have a working video- and audio conferencing system. Congratulations!</p>
 
+<h2>Troubleshooting and other documentation</h2>
+<p>Community members are already discussing the Spreed.ME integration. You can find a how-to for <a href="https://help.nextcloud.com/t/nextcloud-9-update-brings-security-open-source-enterprise-capabilities-and-support-subscription-ios-app/1383/43" target="_blank">installing Spreed.ME under Ubuntu 16.04 an armhf-device (odroid xu4) here!</a></p>
+
 <h1><a href="https://help.nextcloud.com">Discuss Spreed.ME integration on our forums</a></h1>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
