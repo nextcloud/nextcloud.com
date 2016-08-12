@@ -16,15 +16,28 @@
 		</div>
 	</div>
 	<div class="col-md-7">
-		<h2>Spreed WebRTC</h2>
-		<p>Rediscover private video chat and messaging! WebRTC integration in Nextcloud, provided by Spreed.ME, gives you a fully secure and easy to use web conferencing and communication, putting control over your communication back into your own hands.</p>
+		<h2>Spreed.ME</h2>
+		<p>Rediscover private video chat and messaging! Secure audio, video and text chat integration in Nextcloud, provided by Spreed.ME, brings you safe and easy to use web conferencing, one to one calls and chat, putting control over your communication back into your own hands.</p>
+	</div>
+</div>
+
+<h2>Spreed.ME and secure video and audio chat</h2>
+
+<div class="row ">
+	<div class="col-md-8 featureblock">
+		<p>Spreed.ME uses a technology called "WebRTC" which allows browsers to make direct, peer to peer connections between each other. These are fully end to end encrypted, both for audio/video and text chat. This means it is entirely impossible for anyone to eaves-drop on the conversation, including even the server administrator!</p>
+		<p>User handling is integrated in Nextcloud so you will show up with avatar and user names all set up. You can also invite people without a user account to a call by creating a temporary password for a user (with the key icon). You will get a link you can give to them to join you in a call. You don't have to enbable this ability, though and you can also restrict the usage of Spreed.ME to a specific user group if you need to!</p>
+	</div>
+	<div class="col-md-4">
+		<img alt="Try for yourself!" class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-temp-password.png" />
 	</div>
 </div>
 
 <div class="featurerow">
 	<h2 class="featuretitle">Spreed.ME integration tutorial video</h2>
+	<p>In this video, we walk you through the tutorial below from beginning to end.</p>
 	<div class="row">
-		<div class="col-md-8">
+		<div class="col-md-10">
 			<div class="yt-img-overlay">
 				<a class="youtube" href="https://www.youtube.com/watch?v=1zXnypuu27I" title="Spreed.ME in Nextcloud">
 					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/1zXnypuu27I/hqdefault.jpg" title="Spreed.ME in Nextcloud tutorial" />

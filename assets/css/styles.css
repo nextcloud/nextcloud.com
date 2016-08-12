@@ -285,6 +285,7 @@ footer div.footer-nav>h4 {
 }
 
 div.thumbnail > img {
+	margin: 5px;
 	margin-bottom: 0;
 }
 
