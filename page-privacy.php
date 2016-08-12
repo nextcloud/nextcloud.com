@@ -91,9 +91,10 @@ However, non-personally identifiable visitor information may be provided to othe
 <p>If there are any questions regarding this privacy policy you may contact us using the information below.</p>
 
 <h2>Legal Notice</h2>
-<p>Nextcloud GmbH i.G.<br/>
+<p>Nextcloud GmbH<br/>
 Kronenstraße 22A<br/>
 70173 Stuttgart Germany<br/>
+HRB 227086 (AG München)<br/>
 T +49 711 89 66 56 0<br/>
 support@nextcloud.com<br/>
 </p>
