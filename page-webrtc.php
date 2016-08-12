@@ -32,6 +32,7 @@
 		<img alt="Try for yourself!" class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-temp-password.png" />
 	</div>
 </div>
+<p>Test out Spreed.ME for yourself on <a href="https://spreed.me" target="_blank">the Spreed.ME website!</a></p>
 
 <div class="featurerow">
 	<h2 class="featuretitle">Spreed.ME integration tutorial video</h2>
