@@ -1,6 +1,6 @@
 <?php get_template_part( 'templates/parts/title'); ?>
 <div class="sub-nav">
-	<a href="#files">File access and sharing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#clients">Mobile and desktop clients</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#externalstorage">External storage</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#calendarcontacts">Calendar and Contacts</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#webrtc">WebRTC video conferencing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#onlineoffice">Collabora Online Office</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#video">Videos</a>
+	<a href="#files"><span class="avoidwrap">File access & sharing</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#clients"><span class="avoidwrap">Mobile & desktop clients</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#externalstorage"><span class="avoidwrap">External storage</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#calendarcontacts"><span class="avoidwrap">Calendar & Contacts</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#webrtc"><span class="avoidwrap">Secure audio & video calls</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#onlineoffice"><span class="avoidwrap">Collabora Online Office</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#video"><span class="avoidwrap">Videos of Nextcloud in action</span></a>
 </div>
 </div>
 <div class="featurerow">
@@ -137,7 +137,7 @@
 
 <a name="webrtc"></a>
 <div class="featurerow">
-	<h1  class="featuretitle">Secure WebRTC Conferencing</h1>
+	<h1  class="featuretitle">Secure Audio and Video Calls</h1>
 	<div class="row">
 		<div class="col-md-5">
 			<div class="yt-img-overlay">
