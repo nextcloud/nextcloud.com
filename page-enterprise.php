@@ -238,7 +238,7 @@
 
 <div class="row egetstarted">
 	<div class="col-md-12">
-		<a class="btn btn-primary" href="/features">Learn more about Nextcloud features</a>
+		<a class="btn btn-primary" href="/features">Nextcloud features</a>
 	</div>
 </div>
 
