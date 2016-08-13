@@ -12,7 +12,9 @@
 			<h1>Nextcloud puts you in control</h1>
 			<p class="">Nextcloud puts your data at your fingertips, under your control. You store your photos, calendar, contacts and documents on a server of your choosing, be it at home, a rented server or at one of our <a href="/providers">providers</a>. Your existing data can stay on that FTP drive at work, dropbox or a NAS you have at home, while you access it through Nextcloud.</p>
 			<p class="">A trusted solution giving you access to all data you care about in one convenient place!</p>
-			<a href="https://demo.nextcloud.com" class="btn btn-primary">Try it out!</a>
+			<div class="text-center morebuttondiv">
+				<a href="https://demo.nextcloud.com" class="btn btn-primary morebutton">Try it out now! <i class="icon-arrow-circle-o-right icon"></i></a>
+			</div>
 		</div>
 	</div>
 </div>
@@ -26,7 +28,9 @@
 			<p class="">Nextcloud features an easy to use and powerful web interface. You can access all your files wherever you are and however you like.</p>
 			<p class="">The easy interface allows you to share files with other users on your server, to create and send password protected public links, to let others upload files to your cloud and to get notifications on your phone and desktop when a user on another cloud server shares files directly with you.</p>
 			<p>Nextcloud makes sharing and collaboration easy!</p>
-			<a href="/sharing" class="btn btn-primary">Learn more about sharing in Nextcloud</a>
+			<div class="text-center morebuttondiv">
+					<a href="/sharing" class="btn btn-primary morebutton">Sharing in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a>
+			</div>
 		</div>
 		<div class="col-md-6">
 			<div class="yt-img-overlay">
@@ -144,10 +148,17 @@
 					</div>
 				</a>
 			</div>
+			<div class="text-center morebuttondiv">
+				<p><a href="/spreedbox" class="btn btn-primary morebutton">The Spreedbox <i class="icon-arrow-circle-o-right icon"></i></a></p>
+			</div>
 		</div>
 		<div class="col-md-7">
 			<p>Operate your own secure audio/video chat, messaging and file sharing service with the highest measurements for control and security of your own data. Your own video meeting and file sharing service can be available on computers, mobile phones and tablets through the Internet or limited to an Intranet. Make a call, invite your friends and clients, and collaborate in closed groups through video/audio, text messaging, and document and file sharing. You can access your private data in an easy-to-use web interface with PC, Android and iOS devices.</p>
-			<p><a href="/spreedbox" class="btn btn-primary">Learn more about Secure WebRTC Conferencing</a></p>
+			<p>You can integrate secure communication in your nextcloud server or purchase our Spreedbox appliance in one cool, aluminum Cube!</p>
+			<div class="text-center morebuttondiv">
+				<p><a href="/webrtc" class="btn btn-primary morebutton">Secure WebRTC Conferencing in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a></p>
+				<br/>
+			</div>
 		</div>
 	</div>
 </div>
@@ -175,7 +186,9 @@
 					</ul>
 				</li>
 			</ul>
-		<a href="/collaboraonline" class="btn btn-primary">Learn more about Collabora Online</a></p>
+			<div class="text-center morebuttondiv">
+				<a href="/collaboraonline" class="btn btn-primary morebutton">Collabora Online  <i class="icon-arrow-circle-o-right icon"></i></a></p>
+			</div>
 		</div>
 		<div class="col-md-7">
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png" />
@@ -318,7 +331,12 @@
 			</br> Collabora Online Office in Nextcloud
 		</div>
 	</div>
+	<div class="col-md-12 text-center  morebuttondiv">
+		<a href="http://www.youtube.com/c/Nextcloud " class="btn btn-primary morebutton morebuttonyoutube">Nextcloud on <i class="icon-youtube icon"></i></a>
+	</div>
 </div>
+
+
 
 </div>
 <div class="wrap container">

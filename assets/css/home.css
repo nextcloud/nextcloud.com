@@ -105,7 +105,7 @@ body {
 /* event image */
 
 .home-event-img {
-	height: 40%;
+	height: 45%;
 	margin: 0 0 0 0 !important;
 	position: absolute;
 	bottom:5%;
@@ -150,7 +150,7 @@ body {
 	}
 
 	.home-event-img {
-		height: 114px;
+		height: 144px;
 		margin: 0 0 0 0 !important;
 		position: absolute;
 		bottom:-100px;
@@ -194,7 +194,7 @@ body {
 	}
 
 	.home-event-img {
-		height: 114px;
+		height: 154px;
 		margin: 0 0 0 0 !important;
 		position: absolute;
 		bottom:-60px;
@@ -239,7 +239,7 @@ body {
         }
 
         .home-event-img {
-			height: 125px;
+			height: 155px;
 			margin: 0 0 0 0 !important;
 			position: absolute;
 			bottom:-20px;
@@ -263,7 +263,7 @@ body {
 	}
 
 	.home-event-img {
-		height: 175px;
+		height: 185px;
 		margin: 0 0 0 0 !important;
 		position: absolute;
 		bottom: -40px;
@@ -292,7 +292,7 @@ only screen and ( min-resolution: 160dpi              ) and (min-width: 700px) a
 	}
 
 	.home-event-img {
-		height: 175px;
+		height: 185px;
 		margin: 0 0 0 0 !important;
 		position: absolute;
 		bottom: -40px;
@@ -313,7 +313,7 @@ only screen and ( min-resolution: 160dpi              ) and (min-width: 700px) a
 	}
 
 	.home-event-img {
-		height: 35%;
+		height: 40%;
 		margin: 0 0 0 0 !important;
 		position: absolute;
 		top:60%;
@@ -338,7 +338,7 @@ only screen and ( min-resolution: 160dpi                 ) and (min-width: 862px
 /* 		background-image: url(../img/home/1080p.jpg); */
 	}
 	.home-event-img {
-		height: 35%;
+		height: 40%;
 		margin: 0 0 0 0 !important;
 		position: absolute;
 		top:60%;
@@ -357,7 +357,7 @@ only screen and ( min-resolution: 160dpi                 ) and (min-width: 862px
 /* 		background-image: url(../img/home/720p.jpg); */
 	}
 	.home-event-img {
-		height: 35%;
+		height: 40%;
 		margin: 0 0 0 0 !important;
 		position: absolute;
 		top:20%;
@@ -382,7 +382,7 @@ only screen and ( min-resolution: 160dpi                 ) and (min-width: 992px
 /* 		background-image: url(../img/home/1080p.jpg); */
 	}
 	.home-event-img {
-		height: 35%;
+		height: 40%;
 		margin: 0 0 0 0 !important;
 		position: absolute;
 		top:50%;

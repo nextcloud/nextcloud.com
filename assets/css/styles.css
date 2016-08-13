@@ -388,7 +388,7 @@ article.post figcaption {
 
 a.join-button {
 	width: 70%;
-	margin: 0 auto;
+		margin: 0 auto;
 }
 
 div.alert-info > a {
@@ -1135,11 +1135,11 @@ text-align: center;
 }
 
 .featureblock .icon {
-        font-size: 60px;
-		display: block;
-		color: #0082c9;
-		text-align: center;
-		padding-top: 20%;
+	font-size: 60px;
+	display: block;
+	color: #0082c9;
+	text-align: center;
+	padding-top: 20%;
 }
 
 @media (max-width: 991px) {
@@ -1150,6 +1150,32 @@ text-align: center;
 	
 }
 
+.morebuttondiv {
+	margin: 20px auto 40px auto;
+}
+
+.morebutton .icon {
+	font-size: 20px;
+	display: inline;
+	color: white;
+	text-align: center;
+	padding-left: 5px;
+}
+
+.morebutton {
+	margin: 0 auto;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+}
+
+.morebuttonyoutube {
+	font-size: 30px;
+}
+
+.morebuttonyoutube .icon {
+	font-size: 45px;
+	line-height: 30px;
+}
 
 .ft-sharing {
 }
