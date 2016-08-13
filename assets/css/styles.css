@@ -46,6 +46,11 @@ span.avoidwrap {
 		display: none;
 	}
 }
+/* make code areas scrollable */
+code {
+	overflow-x: scroll;
+	overflow-wrap: break-word;
+}
 
 /* Make background white, font grey and default buttons a bit darker to compensate */
 body {
@@ -1124,6 +1129,7 @@ img.desaturate {
 
 .spreedfeatures {
 	padding-top: 50px;
+	width: 100%;
 }
 
 @media (max-width: 991px) {
