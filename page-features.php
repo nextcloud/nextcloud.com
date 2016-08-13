@@ -13,7 +13,7 @@
 			<p class="">Nextcloud puts your data at your fingertips, under your control. You store your photos, calendar, contacts and documents on a server of your choosing, be it at home, a rented server or at one of our <a href="/providers">providers</a>. Your existing data can stay on that FTP drive at work, dropbox or a NAS you have at home, while you access it through Nextcloud.</p>
 			<p class="">A trusted solution giving you access to all data you care about in one convenient place!</p>
 			<div class="text-center morebuttondiv">
-				<a href="https://demo.nextcloud.com" class="btn btn-primary morebutton">Try it out now! <i class="icon-arrow-circle-o-right icon"></i></a>
+				<a href="https://demo.nextcloud.com" class="btn btn-primary morebutton" target="_blank">Try it out now! <i class="icon-arrow-circle-o-right icon"></i></a>
 			</div>
 		</div>
 	</div>
@@ -137,7 +137,7 @@
 
 <a name="webrtc"></a>
 <div class="featurerow">
-	<h1  class="featuretitle">Secure Audio and Video Calls</h1>
+	<h1  class="featuretitle">Secure audio and video calls</h1>
 	<div class="row">
 		<div class="col-md-5">
 			<div class="yt-img-overlay">
@@ -150,14 +150,15 @@
 			</div>
 			<div class="text-center morebuttondiv">
 				<p><a href="/spreedbox" class="btn btn-primary morebutton">The Spreedbox <i class="icon-arrow-circle-o-right icon"></i></a></p>
+				<br/>
+				<p><a href="https://spreed.me" class="btn btn-primary morebutton" target="_blank">Test Spreed.ME <i class="icon-arrow-circle-o-right icon"></i></a></p>
 			</div>
 		</div>
 		<div class="col-md-7">
-			<p>Operate your own secure audio/video chat, messaging and file sharing service with the highest measurements for control and security of your own data. Your own video meeting and file sharing service can be available on computers, mobile phones and tablets through the Internet or limited to an Intranet. Make a call, invite your friends and clients, and collaborate in closed groups through video/audio, text messaging, and document and file sharing. You can access your private data in an easy-to-use web interface with PC, Android and iOS devices.</p>
-			<p>You can integrate secure communication in your Nextcloud server or purchase our Spreedbox appliance in one cool, aluminum cube!</p>
+			<p>Operate your own secure and private audio/video and text chat. Your own video meeting service is accessible through browsers and dedicated apps on computers, mobile phones and tablets through the Internet or limited to an Intranet. Make a call, invite your friends and clients, and collaborate in closed groups through secure, end to end encrypted video/audio, text messaging, and document and file sharing. The Spreed.ME technology used offers peer to peer, WebRTC based communication channels which can not be intercepted even by the admin of the server. It provides an easy ot use interface and can optionally interface with telephone lines, handling up to 10 participants in one session and tens of sessions on a single server.</p>
+			<p>You can integrate this secure communication in your Nextcloud server or purchase our Spreedbox appliance in one cool, aluminum cube!</p>
 			<div class="text-center morebuttondiv">
-				<p><a href="/webrtc" class="btn btn-primary morebutton">Secure WebRTC Conferencing in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a></p>
-				<br/>
+				<p><a href="/webrtc" class="btn btn-primary morebutton">Secure audio and video calls in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a></p>
 			</div>
 		</div>
 	</div>
@@ -165,7 +166,7 @@
 
 <a name="onlineoffice"></a>
 <div class="featurerow">
-	<h1  class="featuretitle">CollaboraOnline Office</h1>
+	<h1  class="featuretitle">Collabora Online Office</h1>
 	<div class="row">
 		<div class="col-md-5 featureblock">
 			<p class="">Collabora Online is a powerful LibreOffice-based online office suite which supports all major document, spreadsheet and presentation file formats.</p>
