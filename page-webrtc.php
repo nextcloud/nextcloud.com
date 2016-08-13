@@ -18,12 +18,15 @@
 	<div class="col-md-7">
 		<h2>Spreed.ME</h2>
 		<p>Rediscover private video chat and messaging! Secure audio, video and text chat integration in Nextcloud, provided by Spreed.ME, brings you safe and easy to use web conferencing, one to one calls and chat, putting control over your communication back into your own hands.</p>
+		<div class="col-md-6 text-center morebuttondiv">
+			<p><a href="https://spreed.me/?fw" class="btn btn-primary morebutton" target="_blank">Try Spreed.ME <i class="icon-arrow-circle-o-right icon"></i></a></p>
+		</div>
 	</div>
 </div>
 
 <h2>Spreed.ME and secure video and audio chat</h2>
 
-<div class="row ">
+<div class="row">
 	<div class="col-md-8 featureblock">
 		<p>Spreed.ME uses a technology called "WebRTC" which allows browsers to make direct, peer to peer connections between each other. These are fully end to end encrypted, both for audio/video and text chat. This means it is entirely impossible for anyone to eaves-drop on the conversation, including even the server administrator!</p>
 		<p>User handling is integrated in Nextcloud so you will show up with avatar and user names all set up. You can also invite people without a user account to a call by creating a temporary password for a user (with the key icon). You will get a link you can give to them to join you in a call. You don't have to enbable this ability, though and you can also restrict the usage of Spreed.ME to a specific user group if you need to!</p>
@@ -32,10 +35,40 @@
 		<img alt="Try for yourself!" class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-temp-password.png" />
 	</div>
 </div>
-<p>Test out Spreed.ME for yourself on <a href="https://spreed.me" target="_blank">the Spreed.ME website!</a></p>
+<div class="row">
+
+</div>
+
+<!-- end main -->
+</div>
+</div>
+
+<div class="spreedbox">
+<div class="row spreedfeatures">
+	<div class="col-md-6">
+	</div>
+	<div class="col-md-6 spreedfeatures">
+		<h1>Spreedbox: <span class="avoidwrap">The most private video chat</span> <span class="avoidwrap">and file exchange technology</span></h1>
+		<ul>
+			<li>Easy audio and video calls</li>
+			<li>Nextcloud based file sync and share</li>
+			<li>End to end encrypted</li>
+			<li>You decide where your data is</li>
+			<li>Custom secure hardware key-generator</li>
+			<li>Fully Open Source</li>
+		</ul>
+	<div class="col-md-12 morebuttondiv">
+		<p><a href="https://spreed.me" class="btn btn-primary morebutton" target="_blank">Get your Spreedbox <i class="icon-arrow-circle-o-right icon"></i></a></p>
+	</div>
+	</div>
+</div>
+</div>
+
+<!-- Start main -->
+<div class="wrap container">
 
 <div class="featurerow">
-	<h2 class="featuretitle">Spreed.ME integration tutorial video</h2>
+	<h2 class="featuretitle">Spreed.ME Nextcloud integration tutorial video</h2>
 	<p>In this video, we walk you through the tutorial below from beginning to end.</p>
 	<div class="row">
 		<div class="col-md-10">
