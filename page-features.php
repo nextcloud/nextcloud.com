@@ -154,7 +154,7 @@
 		</div>
 		<div class="col-md-7">
 			<p>Operate your own secure audio/video chat, messaging and file sharing service with the highest measurements for control and security of your own data. Your own video meeting and file sharing service can be available on computers, mobile phones and tablets through the Internet or limited to an Intranet. Make a call, invite your friends and clients, and collaborate in closed groups through video/audio, text messaging, and document and file sharing. You can access your private data in an easy-to-use web interface with PC, Android and iOS devices.</p>
-			<p>You can integrate secure communication in your nextcloud server or purchase our Spreedbox appliance in one cool, aluminum Cube!</p>
+			<p>You can integrate secure communication in your Nextcloud server or purchase our Spreedbox appliance in one cool, aluminum cube!</p>
 			<div class="text-center morebuttondiv">
 				<p><a href="/webrtc" class="btn btn-primary morebutton">Secure WebRTC Conferencing in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a></p>
 				<br/>
