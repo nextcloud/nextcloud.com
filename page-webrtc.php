@@ -45,9 +45,7 @@
 
 <div class="spreedbox">
 <div class="row spreedfeatures">
-	<div class="col-md-6">
-	</div>
-	<div class="col-md-6 spreedfeatures">
+	<div class="col-sm-7 col-sm-offset-5 col-md-7 col-md-offset-5 col-lg-6 col-lg-offset-6 spreedfeatures">
 		<h1>Spreedbox: <span class="avoidwrap">The most private video chat</span> <span class="avoidwrap">and file exchange technology</span></h1>
 		<ul>
 			<li>Easy audio and video calls</li>
@@ -57,9 +55,9 @@
 			<li>Custom secure hardware key-generator</li>
 			<li>Fully Open Source</li>
 		</ul>
-	<div class="col-md-12 morebuttondiv">
-		<p><a href="https://spreed.me" class="btn btn-primary morebutton" target="_blank">Get your Spreedbox <i class="icon-arrow-circle-o-right icon"></i></a></p>
 	</div>
+	<div class="col-md-12 text-center morebuttondiv">
+		<p><a href="https://spreed.me" class="btn btn-primary morebutton" target="_blank">Get your Spreedbox <i class="icon-arrow-circle-o-right icon"></i></a></p>
 	</div>
 </div>
 </div>

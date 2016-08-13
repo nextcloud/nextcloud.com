@@ -158,7 +158,7 @@
 			<p>Operate your own secure and private audio/video and text chat. Your own video meeting service is accessible through browsers and dedicated apps on computers, mobile phones and tablets through the Internet or limited to an Intranet. Make a call, invite your friends and clients, and collaborate in closed groups through secure, end to end encrypted video/audio, text messaging, and document and file sharing. The Spreed.ME technology used offers peer to peer, WebRTC based communication channels which can not be intercepted even by the admin of the server. It provides an easy ot use interface and can optionally interface with telephone lines, handling up to 10 participants in one session and tens of sessions on a single server.</p>
 			<p>You can integrate this secure communication in your Nextcloud server or purchase our Spreedbox appliance in one cool, aluminum cube!</p>
 			<div class="text-center morebuttondiv">
-				<p><a href="/webrtc" class="btn btn-primary morebutton">Secure audio and video calls in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a></p>
+				<p><a href="/webrtc" class="btn btn-primary morebutton">Secure communication in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a></p>
 			</div>
 		</div>
 	</div>
