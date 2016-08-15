@@ -195,13 +195,13 @@
 	</div>
 	<div class="col-md-4">
 		<div class="teamp">
-			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/leon.jpg" />
-			<h2 class="teamname">Leon</h2>
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+			<h2 class="teamname">Leon Klingele</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
 				<h4 class="teamexpertise">Spreed.ME integration</h4>
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-				<p class="teamsocial"><!--<a href="https://www.stdin.xyz/"><i class="icon-rss icon"></i></a> <a href="https://github.com/longsleep"><i class="icon-github-alt icon"></i></a> <a href="https://twitter.com/rullzer"><i class="icon-twitter icon"></i></a>--> &nbsp;</p>
+				<p class="teamsocial"><a href="https://github.com/leonklingele"><i class="icon-github-alt icon"></i></a> </p>
 			</div>
 			<p class="teamdescription">Leon is awesome.</p>
 		</div>
