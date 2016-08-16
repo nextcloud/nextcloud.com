@@ -177,7 +177,7 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e "domain=cloud\.nextcloud\.com" --rest
 <p>Occasionally, new versions of this docker image are released with security and feature updates. We will of course let you know when that happens! This is how you upgrade to a new version:
 <ul>
 <li>grab new docker image:<br/>
-<code>docker pull docker pull</code></li>
+<code>docker pull collabora/code</code></li>
 <li>List docker images:<br/>
 <code>docker ps</code><br/>
 from the output you can glean the Container ID of your Collabora Online docker image.</li>
