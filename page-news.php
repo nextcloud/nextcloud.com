@@ -8,7 +8,7 @@ require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.p
     <a href="/blogfeed" class="rss-button"><img style="vertical-align: top;" width=35 class="img-circle" src="<?php echo get_template_directory_uri(); ?>/assets/img/social/rss.png"></img></a>
     <p>Welcome to Nextcloud News, our contributor blog roll. Nextcloud contributors should <a href="mailto:jos@nextcloud.com">ask to get added</a>!</p>
     <p>Opinions are the responsibility of those who express them. See our <a href="/privacy">privacy policy</a>.</p>
-    <p>If you'd like to stay up to date with Nextcloud news you could also <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">subscribe to our newsletter</a>!</p>
+    <p>If you'd like to stay up to date with Nextcloud news you could also <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">subscribe to our newsletter</a>! A RSS feed with only release updates can be <a href="/category/release/feed/">found here <i class="icon-rss icon"></i></a></p>
   </div>
 </div>
 
