@@ -190,17 +190,17 @@ The app is now installed.</p>
 		</ul></li>
 		<li>In the <code>[app]</code> section:
 		<ul>
-		add serverToken = random
-
 			<li>Enable <code>authorizeRoomJoin</code> and set it to true:<br /> <code>authorizeRoomJoin = true</code></li>
 			<li>Enable <code>extra</code> and set it to the full absolute path of the <code>spreedme/extra</code> directory in your apps folder of your Nextcloud installation:<br /> <code>extra = /srv/www/htdocs/nextcloud/apps/spreedme/extra</code></li>
 			<li>Enable <code>plugin</code> and set it to <code>extra/static/owncloud.js</code>:<br /> <code>plugin = extra/static/owncloud.js</code></li>
+			<li>Change <code>sessionSecret</code> to a random 64-character HEX string. <strong>Do NOT use the string given below</strong>. You can generate your own 64-character HEX string by running <code>xxd -ps -l 32 -c 32 /dev/random</code> or <code>openssl rand -hex 32</code> in a console. It should look like:<br /> <code>sessionSecret = bb04fb058e2d7fd19c5bdaa129e7883195f73a9c49414a7eXXXXXXXXXXXXXXXX</code></li>
+			<li>Change <code>encryptionSecret</code> to a random 64-character HEX string. <strong>Do NOT use the string given below</strong>. See above on how to generate such a random secret. It should look like:<br /> <code>encryptionSecret = bb04fb058e2d7fd19c5bdaa129e7883195f73a9c49414a7eXXXXXXXXXXXXXXXX</code></li>
 		</ul></li>
 		<li>In the <code>[users]</code> section:
 		<ul>
 			<li>Enable <code>enabled</code> and set it to true:<br /> <code>enabled = true</code></li>
 			<li>Enable <code>mode</code> and set it to <code>sharedsecret</code>:<br /> <code>mode = sharedsecret</code></li>
-			<li>Enable <code>sharedsecret_secret</code> and set it to a random 64-character HEX string. <strong>Do NOT use the string given below</strong>. You can generate your own 64-character HEX string by running <code>xxd -ps -l 32 -c 32 /dev/random</code> or <code>openssl rand -hex 32</code> in a console. It should look like:<br /> <code>sharedsecret_secret = bb04fb058e2d7fd19c5bdaa129e7883195f73a9c49414a7eXXXXXXXXXXXXXXXX</code></li>
+			<li>Enable <code>sharedsecret_secret</code> and set it to a random 64-character HEX string. <strong>Do NOT use the string given below</strong>. See above on how to generate such a random secret. It should look like:<br /> <code>sharedsecret_secret = bb04fb058e2d7fd19c5bdaa129e7883195f73a9c49414a7eXXXXXXXXXXXXXXXX</code></li>
 		</ul></li>
 		<li>Now save and close the file.</li>
 	</ul></li>
