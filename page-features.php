@@ -333,7 +333,7 @@
 		</div>
 	</div>
 	<div class="col-md-12 text-center  morebuttondiv">
-		<a href="http://www.youtube.com/c/Nextcloud " class="btn btn-primary morebutton morebuttonyoutube">Nextcloud on <i class="icon-youtube icon"></i></a>
+		<a href="http://www.youtube.com/c/nextcloud " class="btn btn-primary morebutton morebuttonyoutube">Nextcloud on <i class="icon-youtube icon"></i></a>
 	</div>
 </div>
 
