@@ -60,11 +60,12 @@ $DOWNLOAD_SERVER_DAILY_TAR = $DOWNLOAD_SERVER_BASE.'daily/latest.tar.bz2';
 $DOWNLOAD_SERVER_DAILY_TAR_MD5 = $DOWNLOAD_SERVER_BASE.'daily/latest.tar.bz2.md5';
 $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.nextcloud.com/download/repositories/nightly/nextcloud';
 
+
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.nextcloud.com/server/prereleases/';
 $SERVER_TESTING_VERSION ='10.0 beta';
-$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-10.0beta.tar.bz2';
-$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-10.0beta.zip';
+$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-10.0RC1.tar.bz2';
+$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-10.0RC1.zip';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.nextcloud.com/download/community/setup-nextcloud.php';
