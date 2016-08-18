@@ -174,6 +174,16 @@ The app is now installed.</p>
 </ol>
 <p>Ngnix users should check out the <a href="https://github.com/strukturag/nextcloud-spreedme/blob/update-apache-nginx-docs/doc/example-config-nginx.md" target="_blank">ngnix config file here</a>.</p>
 
+<h3>App configuration</h3>
+<p>We now have to configure the Spreed.ME app.<br/>
+At first, go to the Nextcloud App Store, locate the app in the 'not enabled' section and click on <code>Enable</code>.<br/>
+Open the Nextcloud admin settings page (/index.php/settings/admin#goto-spreed.me) in your browser and configure this app:
+<ol>
+ 	<li>Click on <code>Generate new shared secret</code>. It will output a random string which you will need in one of the next steps. Copy it to your clipboard or a temporary text file.</li>
+ 	<li>Click on <code>Save settings</code>.</li>
+</ol>
+</p>
+
 <h3>Spreed WebRTC config</h3>
 <p>Now we'll adjust the Spreed WebRTC config, this is server.conf or webrtc.conf if you have installed packages. This is a large number of steps, each relatively simple but it is important not to miss anything!
 <ol>
@@ -200,37 +210,14 @@ The app is now installed.</p>
 		<ul>
 			<li>Enable <code>enabled</code> and set it to true:<br /> <code>enabled = true</code></li>
 			<li>Enable <code>mode</code> and set it to <code>sharedsecret</code>:<br /> <code>mode = sharedsecret</code></li>
-			<li>Enable <code>sharedsecret_secret</code> and set it to a random 64-character HEX string. <strong>Do NOT use the string given below</strong>. See above on how to generate such a random secret. It should look like:<br /> <code>sharedsecret_secret = bb04fb058e2d7fd19c5bdaa129e7883195f73a9c49414a7eXXXXXXXXXXXXXXXX</code></li>
+			<li>Enable <code>sharedsecret_secret</code> and set it to the random string you have in your clipboard / temporary text file. It should look like:<br /> <code>sharedsecret_secret = bb04fb058e2d7fd19c5bdaa129e7883195f73a9c49414a7eXXXXXXXXXXXXXXXX</code></li>
 		</ul></li>
 		<li>Now save and close the file.</li>
 	</ul></li>
 </ol>
-You will need to copy the shared secret in another file, so keep it in your clipboard, another terminal or a temporary text file.</p>
+</p>
 <p>Now, start the server by running ./spreed-webrtc-server in the folder where Spreed WebRTC is located. You can configure a script to run the server automatically when you boot up your system.</p>
 
-<h3>App configuration</h3>
-<p>Now, we have to configure the Spreed.ME app so it an talk to the Spreed WebRTC server.
-<ol>
- 	<li><code>cd /srv/www/htdocs/nextcloud/apps/spreedme/config</code><br/>
- 	Go to the Nextcloud spreedme app configuration folder</li>
- 	<li><code>cp config.php.in config.php</code><br/>
- 	Create the PHP config file from the default file</li>
- 	<li><code>vi config.php</code><br/>
- 	Edit the config file and make these modifications:
- 	<ul>
-		<li>Set <code>SPREED_WEBRTC_BASEPATH</code> to <code>/webrtc/</code>: <code>const SPREED_WEBRTC_BASEPATH = '/webrtc/';</code>
-		<li>Set <code>SPREED_WEBRTC_SHAREDSECRET</code> to the shared secret you generated for the Spreed WebRTC server configuration above: <code>const SPREED_WEBRTC_SHAREDSECRET = 'bb04fb058e2d7fd19c5bdaa129e7883195f73a9c49414a7eXXXXXXXXXXXXXXXX';</code></li>
-		<li>You can choose to modify <code>OWNCLOUD_TEMPORARY_PASSWORD_LOGIN_ENABLED</code> to <code>true</code> to allow your users to invite other, unregistered users for a call. With this on <code>false</code> users need to have a Nextcloud account to join a call. If you enable it, generate a new random string and put it below, see the included instructions.</li>
-		<li>Now save and close the file.</li>
-	</ul></li>
-	<li><code>cd /srv/www/htdocs/nextcloud/spreedme/extra/static/config</code><br/>
- 	Go to the Nextcloud spreedme app extra/static/config folder</li>
- 	<li><code>cp OwnCloudConfig.js.in OwnCloudConfig.js</code><br/>
- 	Create the JavaScript config file from the default file<br />
- 	If you put Spreed WebRTC in /webrtc/ (as this manual assumes), you don't need to make any other changes. If you put it in its own domain you have to edit the file and make sure you set <code>OWNCLOUD_ORIGIN</code> to your Nextcloud server.</li>
-</ol>
-Now the app is configured, go to the Nextcloud App Store, locate the app in the 'not enabled' section and click on <code>Enable</code>!
-</p>
 <h2>And DONE!</h2>
 <p>At this point, you should be able to go to the Spreed.ME app in your Nextcloud and have a working video- and audio conferencing system. Congratulations!</p>
 
