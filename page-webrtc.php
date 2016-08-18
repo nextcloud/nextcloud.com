@@ -172,7 +172,7 @@ The app is now installed.</p>
 	<li><code>rcapache2 restart</code><br/>
  	Now restart the Apache webserver</li>
 </ol>
-<p>Ngnix users should check out the <a href="https://github.com/strukturag/nextcloud-spreedme/blob/update-apache-nginx-docs/doc/example-config-nginx.md" target="_blank">ngnix config file here</a>.</p>
+<p>Nginx users should check out the <a href="https://github.com/strukturag/nextcloud-spreedme/blob/update-apache-nginx-docs/doc/example-config-nginx.md" target="_blank">Nginx config file here</a>.</p>
 
 <h3>Spreed WebRTC config</h3>
 <p>Now we'll adjust the Spreed WebRTC config, this is server.conf or webrtc.conf if you have installed packages. This is a large number of steps, each relatively simple but it is important not to miss anything!
