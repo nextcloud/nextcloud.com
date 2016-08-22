@@ -25,8 +25,8 @@
 	<div class="row">
 		<div class="col-md-6 featureblock">
 			<h2 class="featuretitle">Your files everywhere</h2>
-			<p class="">Nextcloud features an easy to use and powerful web interface. You can access all your files wherever you are and however you like.</p>
-			<p class="">The easy interface allows you to share files with other users on your server, to create and send password protected public links, to let others upload files to your cloud and to get notifications on your phone and desktop when a user on another cloud server shares files directly with you.</p>
+			<p class="">Nextcloud gives you access to all your files wherever you are and whatever device you use.</p>
+			<p class="">The easy web interface allows you to share files with other users on your server, to create and send password protected public links, to let others upload files to your cloud and to get notifications on your phone and desktop when a user on another cloud server shares files directly with you. And you can do all these things from the desktop or mobile clients, too.</p>
 			<p>Nextcloud makes sharing and collaboration easy!</p>
 			<div class="text-center morebuttondiv">
 				<a href="/sharing" class="btn btn-primary morebutton">Collaboration in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a>
