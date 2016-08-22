@@ -44,6 +44,7 @@ $(document).ready(function() {
 				<li>Share directly to users on other Nextcloud, ownCloud or Pydio servers (<a href="#federation">"federation"</a>)</li>
 				<li>Admins can control all these abilities, add trusted Federation servers and more</li>
 			</ul>
+			<a href="/workflow" class="btn btn-primary morebutton">More about Admin control <i class="icon-arrow-circle-o-right icon"></i></a>
 			</p>
 		</div>
 	</div>
