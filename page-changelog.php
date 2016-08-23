@@ -84,7 +84,7 @@ PGP (<a href="https://nextcloud.org/nextcloud.asc">Key</a>): <a href="https://do
 <li>Cron gives errors on getQuota() on null in apps/files_versions/lib/storage.php on line 691 - <a href="https://github.com/nextcloud/core/issues/23513">#23513</a></li>
 <li>[9.0] Change the sort order of background jobs to be DESC instead of ASC - <a href="https://github.com/nextcloud/core/issues/24196">#24196</a></li>
 <li>No "Personal" calendar created for installing user - <a href="https://github.com/nextcloud/core/issues/24082">#24082</a></li>
-<li>[9.0] dont do optimized size propagation for encrypted files - <a href="https://github.com/nextcloud/core/issues/24158">#24158</a></li>
+<li>[9.0] don't do optimized size propagation for encrypted files - <a href="https://github.com/nextcloud/core/issues/24158">#24158</a></li>
 <li>[stable9] on clone Connection, do not take over the existing LDAP resource - <a href="https://github.com/nextcloud/core/issues/24236">#24236</a></li>
 <li>[stable9] Fix LDAP race conditions - <a href="https://github.com/nextcloud/core/issues/24242">#24242</a></li>
 <li>Catching undefined exception in versions expire - <a href="https://github.com/nextcloud/core/issues/24233">#24233</a></li>
@@ -233,7 +233,7 @@ PGP (<a href="https://nextcloud.org/nextcloud.asc">Key</a>): <a href="https://do
 	<li>"Allow editing" capability in share by link not disabled <a href="https://github.com/nextcloud/core/issues/23325">#23325</a></li>
 	<li>Fix archive file name when downloading public share <a href="https://github.com/nextcloud/core/issues/22922">#22922</a></li>
 	<li>Link to the folder/file is broken/wrong in the email sent via internal share. <a href="https://github.com/nextcloud/core/issues/23197">#23197</a></li>
-	<li>Dont break when there is an invalid share <a href="https://github.com/nextcloud/core/issues/23252">#23252</a></li>
+	<li>Don't break when there is an invalid share <a href="https://github.com/nextcloud/core/issues/23252">#23252</a></li>
 	<li>Add webdav share-types property to fix favorites/tags share status icon <a href="https://github.com/nextcloud/core/issues/23384">#23384</a></li>
 	<li>In files view, the user that made the shares is not shown <a href="https://github.com/nextcloud/core/issues/23645">#23645</a></li>
 	<li>files:transfer-ownership command does not work in some scenarios with shares <a href="https://github.com/nextcloud/core/issues/23686">#23686</a></li>
@@ -337,7 +337,7 @@ PGP (<a href="https://nextcloud.org/nextcloud.asc">Key</a>): <a href="https://do
 <li>Query the cache when checking if a node exists <a href="https://github.com/nextcloud/core/issues/23520">#23520</a></li>
 <li>Menu language can't be changed <a href="https://github.com/nextcloud/core/issues/22695">#22695</a></li>
 <li>open_basedir issue in router.php <a href="https://github.com/nextcloud/core/issues/23533">#23533</a></li>
-<li>Dont die when we cant save the resized avatar, log instead <a href="https://github.com/nextcloud/core/issues/23582">#23582</a></li>
+<li>Don't die when we can't save the resized avatar, log instead <a href="https://github.com/nextcloud/core/issues/23582">#23582</a></li>
 <li>Themes background don't stick with local images <a href="https://github.com/nextcloud/core/issues/23239">#23239</a></li>
 <li>Activity notification in OC9.0.0 does not specify what was accessed <a href="https://github.com/nextcloud/core/issues/23503">#23503</a></li>
 <li>Correct form of upload-white icon to be same as upload icon <a href="https://github.com/nextcloud/core/issues/23631">#23631</a></li>
@@ -528,7 +528,7 @@ PGP (<a href="https://nextcloud.org/nextcloud.asc">Key</a>): <a href="https://do
 	<ul>
 		<li>MySQL file socket not working during initial setup</li>
 		<li>Multiple PUT requests to new DAV backend results in locked file</li>
-		<li>Dont output paths in scan.php</li>
+		<li>Don't output paths in scan.php</li>
 		<li>Activity oracle sql error for favorites</li>
 		<li>Check the expiration date for null</li>
 		<li>Stray locks not being cleaned: server replied: Locked</li>
@@ -802,7 +802,7 @@ Packages on our Build Service: <a href="https://download.nextcloud.org/download/
 
 <h3>Version 8.1.3 <small>September 15 2015</small></h3>
 <ul>
-<li>Sharing improvments:<ul>
+<li>Sharing improvements:<ul>
 <li>New share dialog autocomplete option</li>
 <li>Public shared folder upload fix</li>
 <li>Sharing by link fix</li>
@@ -1917,7 +1917,7 @@ MD5: <a href="https://download.nextcloud.org/community/nextcloud-4.5.10.tar.bz2.
 <li>Fixed upgrade for PostgreSQL users</li>
 <li>Improved LDAP compatibility</li>
 <li>Fix the upgrade hint</li>
-<li>Make upgrade more robust fix maintainance mode</li> 
+<li>Make upgrade more robust fix maintenance mode</li>
 <li>Smaller CSS fixes</li>
 <li>Fix internet check for proxy users</li> 
 <li>Manually disable files_archive app to fix upgrade</li>
@@ -2156,7 +2156,7 @@ MD5: <a href="https://mirrors.nextcloud.org/releases/nextcloud-4.0.11.tar.bz2.md
 <li>Fix mimetype icons for new files</li>
 <li>Fix the folder size calculation</li>
 <li>Fix for deleting multiple files</li>
-<li>Fix for controling the data dir with LDAP</li>
+<li>Fix for controlling the data dir with LDAP</li>
 <li>Security: Auth bypass in user_webdavauth and user_ldap (<a href="/security/advisory/?id=oC-SA-2012-006">oC-SA-2012-006)</li>
 <li>Security: XSS vulnerability in bookmarks (<a href="/security/advisory/?id=oC-SA-2012-007">oC-SA-2012-007)</li>
 </ul>
@@ -2247,7 +2247,7 @@ MD5: <a href="https://mirrors.nextcloud.org/releases/nextcloud-4.0.9.tar.bz2.md5
 <ul>
 	<li>Fix path encoding in breadcrumb</li>
 	<li>Fix sharing of files with special characters</li>
-	<li>Fix upercase/lowercase probelm in usernames with WebDAV</li>
+	<li>Fix uppercase/lowercase problem in usernames with WebDAV</li>
 	<li>Fix LDAP plugin with Postgres</li>
 	<li>Fix userID migration</li>
 	<li>Fix sharing of mounted Files</li>

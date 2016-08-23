@@ -33,7 +33,7 @@ Download:
 <h3 id="211">Release 2.1.1 <small>Februrary 10th 2016</small></h3>
 <ul>
 <li>UI improvements for HiDPI screens, error messages, RTL languages</li>
-<li>Fix occurences of "Connection Closed" when a new unauthenticated TCP socket is used</li>
+<li>Fix occurrences of "Connection Closed" when a new unauthenticated TCP socket is used</li>
 <li>Fix undeliberate WiFi scanning done by Qt Network classes</li>
 <li>Several fixes/improvements to the sharing dialog</li>
 <li>Several fixes/improvements to the server activity tab</li>
@@ -69,7 +69,7 @@ Download:
 <li>Blacklist: Clear on successful chunk upload (<a href="https://github.com/nextcloud/client/issues/3934">#3934</a>)</li>
 <li>Improved reconnecting after network change/disconnect (<a href="https://github.com/nextcloud/client/issues/4167">#4167</a> <a href="https://github.com/nextcloud/client/issues/3969">#3969</a> ...)</li>
 <li>Improved performance in Windows file system discovery</li>
-<li>Removed libneon-based propagator. As a consequence, The client can no longer provide bandwith limiting on Linux-distributions where it is using Qt &lt; 5.4</li>
+<li>Removed libneon-based propagator. As a consequence, The client can no longer provide bandwidth limiting on Linux-distributions where it is using Qt &lt; 5.4</li>
 <li>Performance improvements in the logging functions</li>
 <li>Ensured that local disk space problems are handled gracefully (<a href="https://github.com/nextcloud/client/issues/2939">#2939</a>)</li>
 <li>Improved handling of checksums: transport validation, db (<a href="https://github.com/nextcloud/client/issues/3735">#3735</a>)</li>
@@ -88,7 +88,7 @@ Download:
 <li>GUI: Ensured folder names which are excluded from sync can be clicked</li>
 <li>Shell Integration: Dolphin support, requires KF 5.16 and KDE Application 15.12</li>
 <li>FolderStatusModel: Ensured reset also if a folder was renamed (<a href="https://github.com/nextcloud/client/issues/4011">#4011</a>)</li>
-<li>GUI: Fixed accessiblity of remaing items in full settings toolbar (<a href="https://github.com/nextcloud/client/issues/3795">#3795</a>)</li>
+<li>GUI: Fixed accessiblity of remaining items in full settings toolbar (<a href="https://github.com/nextcloud/client/issues/3795">#3795</a>)</li>
 <li>Introduced the term "folder sync connection" in more places (<a href="https://github.com/nextcloud/client/issues/3757">#3757</a>)</li>
 <li>AccountSettings: Don't disable pause when offline (<a href="https://github.com/nextcloud/client/issues/4010">#4010</a>)</li>
 <li>Fixed handling of hidden files (<a href="https://github.com/nextcloud/client/issues/3980">#3980</a>)</li>
@@ -567,7 +567,7 @@ Download:
   <li>Add proxy support to nextcloud commandline client</li>
   <li>NSIS fixes</li>
   <li>A lot of other fixes and minor improvements</li>
-  <li>Improve Qt5 compatability</li>
+  <li>Improve Qt5 compatibility</li>
 </ul>
 
 <h3>Release 1.5.0 <small>December 12th 2013</small></h3>
@@ -762,14 +762,14 @@ csync 0.90.0 required
   <li>Many fixes found by a Coverity check.</li>
   <li>Fix: use correct stat struct on all platforms</li>
   <li>Fix: download resuming.</li>
-  <li>Nextcloud module: Bandwith limitation added.</li>
+  <li>Nextcloud module: Bandwidth limitation added.</li>
   <li>Added ability to remove ignored files automatically.</li>
   <li>Fix: Use int64_t and friends</li>
   <li>Fix: Removed all compile warnings.</li>
   <li>Left excluded files and links in csync's tree to be able to show.</li>
     them to the user.</li>
   <li>Add OC-Total-Length header for better quota handling.</li>
-  <li>Report inbetween progress</li>
+  <li>Report between progress</li>
 </ul>
 
 <hr />
@@ -870,7 +870,7 @@ csync 0.70.6 required.
   <li>[Fixes] Handle IGNORE status correctly</li>
   <li>[Fixes] Set path and phash for ignored files</li>
   <li>[Fixes] Fix some issues discovered by Coverity</li>
-  <li>[Fixes] Make sure to never allow empty pathes in rmdir</li>
+  <li>[Fixes] Make sure to never allow empty paths in rmdir</li>
   <li>[Fixes] Fix a crash caused by superfluous free() calls</li>
 </ul>
 <hr/>
@@ -1180,7 +1180,7 @@ csync 0.50.7 required.
 <li>[APP] Allow to specify sync frequency in the config file.</li>
 <li>[Fixes] Do not use csync database files from a sync before.
 </li>
-<li>[Fixes] In Connection wizard, write the final config onyl if the user really accepted. Also remove the former database.
+<li>[Fixes] In Connection wizard, write the final config only if the user really accepted. Also remove the former database.
 </li>
 <li>[Fixes] Allow special characters in the sync directory names.</li>
 <li>[Fixes] Win32: Fixed directory removal with special character dirs.</li>
