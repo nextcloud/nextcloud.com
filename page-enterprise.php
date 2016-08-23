@@ -49,7 +49,7 @@
 		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
-		<td class="einfo"><span title="Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging and more.">Enterprise capabilities</span></td>
+		<td class="einfo"><span title="Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.">Enterprise capabilities</span></td>
 		<td class="ebasic text-center"><i class="icon-check"></i></td>
 		<td class="epro text-center"><i class="icon-check"></i></td>
 		<td class="eenterprise text-center"><i class="icon-check"></i></td>
@@ -61,16 +61,16 @@
 		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
-		<td class="einfo"><span title="Secure and private peer to peer audio and video conferencing.">Secure WebRTC Conferencing</span></td>
+		<td class="einfo"><span title="Support for our secure and private peer to peer audio and video conferencing.">Secure WebRTC Conferencing</span></td>
 		<td class="ebasic text-center">-</td>
-		<td class="epro text-center"><i class="icon-check"></i></td>
-		<td class="eenterprise text-center"><i class="icon-check"></i></td>
+		<td class="epro text-center"><span title="can be purchased at additional cost.">Optional</span></td>
+		<td class="eenterprise text-center"><span title="can be purchased at additional cost.">Optional</span></td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="Allows web conferencing calls to connect with phone lines.">SIP gateway</span></td>
 		<td class="ebasic text-center">-</td>
 		<td class="einfo epro text-center"><span title="can be purchased at additional cost.">Optional</span></td>
-		<td class="eenterprise text-center">Included</td>
+		<td class="eenterprise text-center"><span title="can be purchased at additional cost.">Optional</span></td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.">Collabora Online Office</span></td>
