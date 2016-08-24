@@ -29,7 +29,7 @@ $(document).ready(function() {
 	</div>
 	<div class="row">
 		<div class="col-md-6">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing_admin.png" class="img-responsive featureimg" />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing_admin_full.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing_admin.png" class="img-responsive featureimg" /></a>
 		</div>
 		<div class="col-md-6">
 			<p class="">Features:
@@ -44,8 +44,16 @@ $(document).ready(function() {
 				<li>Share directly to users on other Nextcloud, ownCloud or Pydio servers (<a href="#federation">"federation"</a>)</li>
 				<li>Admins can control all these abilities, add trusted Federation servers and more</li>
 			</ul>
-			<a href="/workflow" class="btn btn-primary morebutton">More about Admin control <i class="icon-arrow-circle-o-right icon"></i></a>
 			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-7">
+			<p class="">You can comment on files and discuss options. Through <a href="/collaboraonline">our Collabora Online integration</a> you can work together on presentations or word documents and our <a href="/webrtc">video Conferencing features</a> allow you to call and discuss in real time!</p>
+			<p>You can find files by giving them tags and searching for them. Admins can even use <a href="/workflow">our Workflow tools</a> to automatically tag files uploaded by specific users, groups or by filetype.
+		</div>
+		<div class="col-md-5">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/comments.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/comments-wee.png" class="img-responsive featureimg" /></a>
 		</div>
 	</div>
 </div>
