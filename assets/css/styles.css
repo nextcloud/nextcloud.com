@@ -300,7 +300,7 @@ div.thumbnail > img {
 }
 
 .alignright {
-	margin: 5px;
+	margin: 1em 1em 1em 1em !important;
 }
 
 /*	Make YouTube videos responsive */
