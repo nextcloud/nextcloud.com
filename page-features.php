@@ -1,6 +1,6 @@
 <?php get_template_part( 'templates/parts/title'); ?>
 <div class="sub-nav">
-	<a href="#files"><span class="avoidwrap">File access & sharing</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#clients"><span class="avoidwrap">Mobile & desktop clients</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#externalstorage"><span class="avoidwrap">External storage</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#calendarcontacts"><span class="avoidwrap">Calendar & Contacts</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#webrtc"><span class="avoidwrap">Secure audio & video calls</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#onlineoffice"><span class="avoidwrap">Collabora Online Office</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#video"><span class="avoidwrap">Videos of Nextcloud in action</span></a>
+	<a href="#files"><span class="avoidwrap">File access & sharing</span></a>&nbsp;&nbsp;|<a href="#control"><span class="avoidwrap">Security & control</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#clients"><span class="avoidwrap">Mobile & desktop clients</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#externalstorage"><span class="avoidwrap">External storage</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#calendarcontacts"><span class="avoidwrap">Calendar & Contacts</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#webrtc"><span class="avoidwrap">Secure audio & video calls</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#onlineoffice"><span class="avoidwrap">Collabora Online Office</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#video"><span class="avoidwrap">Videos of Nextcloud in action</span></a>
 </div>
 </div>
 <div class="featurerow">
@@ -24,12 +24,12 @@
 	<h1 class="featuretitle">File access and sharing</h1>
 	<div class="row">
 		<div class="col-md-6 featureblock">
-			<h2 class="featuretitle">Share on your terms</h2>
-			<p class="">Nextcloud features an easy to use and powerful web interface. You can access all your files wherever you are and however you like.</p>
-			<p class="">The easy interface allows you to share files with other users on your server, to create and send password protected public links, to let others upload files to your cloud and to get notifications on your phone and desktop when a user on another cloud server shares files directly with you.</p>
+			<h2 class="featuretitle">Your files everywhere</h2>
+			<p class="">Nextcloud gives you access to all your files wherever you are and whatever device you use.</p>
+			<p class="">The easy web interface allows you to share files with other users on your server, to create and send password protected public links, to let others upload files to your cloud and to get notifications on your phone and desktop when a user on another cloud server shares files directly with you. And you can do all these things from the desktop or mobile clients, too.</p>
 			<p>Nextcloud makes sharing and collaboration easy!</p>
 			<div class="text-center morebuttondiv">
-					<a href="/sharing" class="btn btn-primary morebutton">Sharing in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a>
+				<a href="/sharing" class="btn btn-primary morebutton">Collaboration in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a>
 			</div>
 		</div>
 		<div class="col-md-6">
@@ -44,6 +44,47 @@
 		</div>
 	</div>
 </div>
+
+<a name="control"></a>
+<div class="featurerow">
+	<h1 class="featuretitle">Security and control</h1>
+	<div class="row">
+		<div class="col-md-6 featureblock">
+			<h2 class="featuretitle">Share on your terms</h2>
+			<p class="">With Nextcloud, system administrators can control and direct the flow of data between users on a server. Rule based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements.</p>
+			<p>Features including our monitoring app, 2-factor authentication, brute force protection and our <a href="https://nextcloud.com/introducing-the-nextcloud-bug-bounty-program/" target="_blank">Eur 5000 security bug bounty program</a> give you the highest level of security and protection against privacy breaches.</p>
+			<p>Nextcloud puts you in control of your data and keeps it safe.</p>
+			<div class="text-center morebuttondiv">
+				<a href="/workflow" class="btn btn-primary morebutton">Workflow handling in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<!--<div class="yt-img-overlay">
+				<a class="youtube" href="https://www.youtube.com/watch?v=Fe1I7wYW6hA" title="Creating anonymous upload links">
+					<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/hqdefault.jpg" title="Creating anonymous upload links" />
+					<div class="yt-play-btn">
+						<i></i> 
+					</div>
+				</a>
+			</div>-->
+			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control-wee.png" />
+		</div>
+	</div>
+	<h2 class="">Monitoring your Nextcloud server</h2>
+	<div class="row">
+		<div class="col-md-4">
+	<!-- 		<a href="https://www.youtube.com/watch?v=9-JEmlH2DEg" target="_blank" style="border: none;"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/federation/federation.gif" alt="in action" /></a> -->
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/monitoring.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-wee.png" alt="in action" /></a>
+		</div>
+		<div class="col-md-8">
+			<p>The Server Information app provides a way for admins to monitor the health and performance of a Nextcloud system. Besides the graphical UI, an API endpoint provided makes it possible for system administrators to import this data in their monitoring app so they can keep an eye on Nextcloud operations from the same place they monitor the rest of their infrastructure.</p>
+			<div class="text-center morebuttondiv">
+				<a href="/workflow#monitoring" class="btn btn-primary morebutton">Monitoring in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a>
+			</div>
+		</div>
+	</div>
+</div>
+
 
 
 <a name="clients"></a>
