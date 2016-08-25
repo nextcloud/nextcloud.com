@@ -19,6 +19,7 @@
 			<p>File retention and deletion can also be controlled based on tags set manually or automatically, ensuring legal or practical requirements for the longevity of data lifespans can be enforced.</p>
 		</div>
 	</div>
+	<a name="monitoring">
 	<h2 class="">Monitoring your Nextcloud server</h2>
 	<div class="row">
 		<div class="col-md-4">
@@ -27,9 +28,17 @@
 		</div>
 		<div class="col-md-8">
 			<p>The Server Information app provides a way for admins to monitor the health and performance of a Nextcloud system. Besides the graphical UI, an API endpoint provided makes it possible for system administrators to import this data in their monitoring app so they can keep an eye on Nextcloud operations from the same place they monitor the rest of their infrastructure.</p>
-			<p>The <a href="http://opennms.org/">openNMS monitoring app</a> already has support for monitoring Nextcloud 10 systems and the template can be easily modified for other tools like Nagios.</p>
+			<p>The <a href="http://opennms.org/" target="_blank">openNMS monitoring app</a> already has support for monitoring Nextcloud 10 systems and <a href="https://github.com/opennms-config-modules/nextcloud" target="_blank">the configuration module</a> can be easily modified for other tools like Nagios.</p>
 		</div>
 	</div>
+	<p>The app lets you track:
+	<ul>
+		<li>CPU load and memory usage</li>
+		<li>Number of active users over time</li>
+		<li>Number of shares in various categories</li>
+		<li>storage statistics</li>
+		<li>Server settings like PHP version, database type and size, memory limits and more</li>
+	</ul>
 </div>
 
 <div class="featurerow">
@@ -46,6 +55,12 @@
 		</div>
 		<div class="col-md-6">
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/tagging-retention.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/tagging-retention.png" class="img-responsive featureimg" /></a>
+		</div>
+		<div class="col-md-6">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/nextcloud-users.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/nextcloud-users-wee.png" class="img-responsive featureimg" /></a>
+		</div>
+		<div class="col-md-6">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/grafana-dashboard.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/grafana-dashboard-wee.png" class="img-responsive featureimg" /></a>
 		</div>
 	</div>
 </div>

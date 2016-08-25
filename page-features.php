@@ -78,7 +78,9 @@
 		</div>
 		<div class="col-md-8">
 			<p>The Server Information app provides a way for admins to monitor the health and performance of a Nextcloud system. Besides the graphical UI, an API endpoint provided makes it possible for system administrators to import this data in their monitoring app so they can keep an eye on Nextcloud operations from the same place they monitor the rest of their infrastructure.</p>
-			<p>The <a href="http://opennms.org/">openNMS monitoring app</a> already has support for monitoring Nextcloud 10 systems and the template can be easily modified for other tools like Nagios.</p>
+			<div class="text-center morebuttondiv">
+				<a href="/workflow#monitoring" class="btn btn-primary morebutton">Monitoring in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a>
+			</div>
 		</div>
 	</div>
 </div>
