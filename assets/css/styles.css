@@ -299,6 +299,10 @@ div.thumbnail > img {
 	margin: 5px;
 }
 
+.alignright {
+	margin: 5px;
+}
+
 /*	Make YouTube videos responsive */
 @media(min-width: 995px) {
 	.videoWrapper {
