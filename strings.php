@@ -2,15 +2,15 @@
 // Strings used throughout Nextcloud.org.
 
 /* VERSIONS */
-$VERSIONS_SERVER_MAJOR_STABLE = '9';
-$VERSIONS_SERVER_FULL_STABLE = '9.0.53';
-$VERSIONS_SERVER_MAJOR_DEVELOPMENT = '10';
-$VERSIONS_SERVER_MAJOR_DEV_DOCS = '9'; // Used in dev docs links
+$VERSIONS_SERVER_MAJOR_STABLE = '10';
+$VERSIONS_SERVER_FULL_STABLE = '10.0.0';
+$VERSIONS_SERVER_MAJOR_DEVELOPMENT = '11';
+$VERSIONS_SERVER_MAJOR_DEV_DOCS = '10'; // Used in dev docs links
 $VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.2.3';
 $VERSIONS_CLIENT_DESKTOP_STABLE_SHORT = '2.2'; // For use in documentation link
 
 /* DOCUMENTATION */
-$DOCUMENTATION_BASE = 'https://docs.nextcloud.org';
+$DOCUMENTATION_BASE = 'https://docs.nextcloud.com';
 $DOCUMENTATION_DEVELOPER = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR_DEV_DOCS.'/developer_manual/';
 $DOCUMENTATION_ADMIN = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR_STABLE.'/admin_manual/';
 $DOCUMENTATION_USER = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR_STABLE.'/user_manual/';
@@ -63,7 +63,7 @@ $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.nextcloud.com/download/repos
 
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.nextcloud.com/server/prereleases/';
-$SERVER_TESTING_VERSION ='10.0 RC1';
+$SERVER_TESTING_VERSION ='';
 $DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-10.0RC1.tar.bz2';
 $DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-10.0RC1.zip';
 

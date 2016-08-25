@@ -94,12 +94,13 @@
 		<p><a href="<?php echo $DOWNLOAD_SERVER_DAILY_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i>  Daily build</a></p>
 		<?php if(!empty($SERVER_TESTING_VERSION)) { ?>
 			    <p>Latest testing version: <span class="label label-blue"><?php echo $SERVER_TESTING_VERSION; ?></span></p>
-		<p><?php } ?>
+		<p>
 		<?php if(!empty($DOWNLOAD_SERVER_ZIP_TESTING)) { ?>
 			      <a href="<?php echo $DOWNLOAD_SERVER_ZIP_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> zip</a>
 		<?php } ?>
 		<?php if(!empty($DOWNLOAD_SERVER_TAR_TESTING)) { ?>
 			<a href="<?php echo $DOWNLOAD_SERVER_TAR_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> tar.bz2</a>
+		<?php } ?>
 		<?php } ?>
 		<?php if(!empty($VERSIONS_CLIENT_DESKTOP_TESTING)) { ?>
 			<h4>Desktop Clients <small><?php echo $VERSIONS_CLIENT_DESKTOP_TESTING; ?></small></h4>
