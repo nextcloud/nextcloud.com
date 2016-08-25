@@ -133,7 +133,7 @@
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
 			  <a href="https://nextcloud.com/customer-stories" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/rakuten.png" title="Rakuten, Inc. is a Japanese electronic commerce and Internet company based in Tokyo, Japan. Its B2B2C e-commerce platform Rakuten Ichiba is among the world’s largest by sales." /></a>
-			  <a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/HMA.png" title="HMA is an independent, national healthcare research and consulting firm with 16 offices througout the USA." alt="HMA is an independent, national healthcare research and consulting firm with 16 offices througout the USA." /></a>
+			  <a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/HMA.png" title="HMA is an independent, national healthcare research and consulting firm with 16 offices throughout the USA." alt="HMA is an independent, national healthcare research and consulting firm with 16 offices throughout the USA." /></a>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
 			  <a href="https://nextcloud.com/customer/jefferson-national/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/jeffnat.png" alt="Jefferson National replaced Dropbox with Nextcloud to keep their financial information secure" title="Jefferson National replaced Dropbox with Nextcloud to keep their financial information secure" /></a>
