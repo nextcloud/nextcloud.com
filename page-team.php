@@ -120,12 +120,12 @@
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
 			<h2 class="teamname">Jan-Christoph Borchardt</h2>
 			<div class="teammeta">
-				<h3 class="teamtitle">Lead Designer</h3>
-				<h4 class="teamexpertise">User Interaction, design</h4>
-				<h4 class="teamlocation">lives in Ljubljan, Slovenia</h4>
+				<h3 class="teamtitle">Design lead</h3>
+				<h4 class="teamexpertise">simplicity & ease of use</h4>
+				<h4 class="teamlocation">lives in Ljubljana, Slovenia</h4>
 				<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="icon-rss icon"></i></a> <a href="https://github.com/jancborchardt"><i class="icon-github-alt icon"></i></a> <a href="https://twitter.com/jancborchardt"><i class="icon-twitter icon"></i></a> </p>
 			</div>
-			<p class="teamdescription">Jan is an open source designer, adviser and educator who's been involved with X, Y Z.</p>
+			<p class="teamdescription">Jan-Christoph is responsible for design on the project since early 2011. He pushes forward better design in open source through founding and contributing to several projects, giving talks, working with universities, and fostering the Open Source Design collective.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
