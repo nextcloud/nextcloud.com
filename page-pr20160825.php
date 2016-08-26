@@ -1,5 +1,4 @@
 <h1>Nextcloud 10 Delivers Secure, Fine Grained Control over Data Access and Workflows</h1>
-<small>Phase 1: DVB-T2 HEVC HD H.265 Media Codec (Germany)</small>
 <p><strong>Stuttgart, Germany, August 24, 2016</strong> Nextcloud GmbH, the company behind the next generation privacy-aware open source file sync and share, communication and collaboration technology announces the immediate availability of Nextcloud 10.</p>
 
 <p>Nextcloud 10 delivers powerful capabilities for system administrators to control and direct the flow of data between users on a Nextcloud server. Rule based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements. Monitoring, security and performance improvements complement this release, enabling larger and more efficient Nextcloud installations. Users will appreciate a number of usability improvements in the Files app. Nextcloud also makes available this week the official Nextcloud Desktop Client for Windows, Mac and Linux.</p>
