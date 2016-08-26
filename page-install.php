@@ -32,10 +32,10 @@
 		<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
 		</a>
-<!--     <div class="btn-group"> -->
-<!--       <a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients">Desktop Clients</a> -->
-		<br /><a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">More Clients</a>
-<!--     </div> -->
+		<div class="btn-group">
+			<a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients">Desktop Clients</a> 
+			<a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">More Clients</a>
+	</div>
 	</div>
   <!--<div class="col-md-4">
     <hr class="narrow"></hr>
