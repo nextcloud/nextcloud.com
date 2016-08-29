@@ -1,4 +1,4 @@
-<p><small>Press Breakfast Invitation</small></p>
+<p><small>Press Breakfast Invitation from Fairphone, Little Sun, iFixit, Ecosia and Nextcloud</small></p>
 
 <h1>Press event at IFA 2016: Using everyday technology to make a positive impact</h1>
 <p><strong>Stuttgart, Germany, August 12, 2016</strong> Nextcloud joins forces with other socially-minded enterprises to put sustainability and ethical
