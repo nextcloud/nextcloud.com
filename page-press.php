@@ -6,8 +6,8 @@
 <ul>
 	<li><a href="/press/pr20160825/">August 25th, 2016: Nextcloud 10 Delivers Secure, Fine Grained Control over Data Access and Workflows</a></li>
 	<li><a href="/press/pr20160812/">August 12th, 2016: Press event at IFA 2016: Using everyday technology to make a positive impact</a></li>
-	<li><a href="/press/pr20160719/">July 19th, 2016: Nextcloud and Collabora Partner to Offer Community and Enterprise Solution for Online Office</a></li>
 	<li><a href="/press/pr20160721/">July 21th, 2016: Beta of Nextcloud 10 with Brute Force Protection, Two-Factor Authentication, Improved Federation and more</a></li>
+	<li><a href="/press/pr20160719/">July 19th, 2016: Nextcloud and Collabora Partner to Offer Community and Enterprise Solution for Online Office</a></li>
 	<li><a href="/press/pr20160705/">July 5th, 2016: Nextcloud delivers secure enterprise functionality backed by expert support and with partner-provided iOS client</a></li>
 	<li><a href="/press/pr20160614">June 14, 2016: Nextcloud 9 Released Ahead of Promised Date and Fully Committed to Open Source</a></li>
 	<li><a href="/press/pr20160602">June 2nd, 2016: Core Contributors Fork Into Nextcloud</a></li>
