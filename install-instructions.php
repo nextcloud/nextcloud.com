@@ -215,7 +215,14 @@
 							</a>-->
 							</div>
 							<p><a href="https://github.com/nextcloud/android">Sources here</a>, <a href="https://download.nextcloud.com/android">direct APK download here</a>.</p>
-							<p>Any WebDAV client will work with Nextcloud!</p>
+							<p>Any WebDAV client will work with Nextcloud! <!--<span class="caret"></span><a href="#thirdpartymobile" data-toggle="collapse"> third party clients</a></p>
+								<div id="thirdpartymobile" class="collapse">-->
+								Compatible third party clients include:
+								<ul>
+									<li><a href="https://davdroid.bitfire.at/">DAVDroid</a> supports the Nextcloud Calendar and Contacts apps, syncing your agenda and address book (android only, open source)</li>
+									<li><a href="https://crosscloud.me/">crosscloud</a>, a multi-cloud access client</li>
+									<li><a href="https://itunes.apple.com/us/app/crypto-cloud-for-dropbox-owncloud/id950341361?mt=8">Cryptocloud</a> which can encrypt files client-side (iOS only)</li>
+<!-- 								</div> -->
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
