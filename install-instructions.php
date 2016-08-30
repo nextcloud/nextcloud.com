@@ -219,7 +219,7 @@
 								<div id="thirdpartymobile" class="collapse">-->
 								Compatible third party clients include:
 								<ul>
-									<li><a href="https://davdroid.bitfire.at/">DAVDroid</a> supports the Nextcloud Calendar and Contacts apps, syncing your agenda and address book (android only, open source</li>
+									<li><a href="https://davdroid.bitfire.at/">DAVDroid</a> supports the Nextcloud Calendar and Contacts apps, syncing your agenda and address book (android only, open source)</li>
 									<li><a href="https://crosscloud.me/">crosscloud</a>, a multi-cloud access client</li>
 									<li><a href="https://itunes.apple.com/us/app/crypto-cloud-for-dropbox-owncloud/id950341361?mt=8">Cryptocloud</a> which can encrypt files client-side (iOS only)</li>
 <!-- 								</div> -->
