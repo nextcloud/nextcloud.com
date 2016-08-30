@@ -56,25 +56,25 @@
 	</tr>
 	<tr>
 		<td class="einfo"><span title="Support for the Calendar and Contacts apps.">Calendar and Contacts</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="epro text-center"><i class="icon-check"></i></td>
 		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="Support for our secure and private peer to peer audio and video conferencing.">Secure WebRTC Conferencing</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="epro text-center"><span title="can be purchased at additional cost.">Optional</span></td>
 		<td class="eenterprise text-center"><span title="can be purchased at additional cost.">Optional</span></td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="Allows web conferencing calls to connect with phone lines.">SIP gateway</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="einfo epro text-center"><span title="can be purchased at additional cost.">Optional</span></td>
 		<td class="eenterprise text-center"><span title="can be purchased at additional cost.">Optional</span></td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.">Collabora Online Office</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="einfo epro text-center"><span title="can be purchased at additional cost (starting at 7€/user/year.">Optional</span></td>
 		<td class="einfo eenterprise text-center"><span title="can be purchased at additional cost (starting at 7€/user/year.">Optional</span></td>
 	</tr>
@@ -108,26 +108,26 @@
 	</tr>
 	<tr>
 		<td class="einfo"><span title="You can contact our capable and responsive support team by email and expect a quick response time.">Email support</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="epro text-center">Business hours</td>
 		<td class="eenterprise text-center">up to 24/7</td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="You can contact our support engineers by phone in these times.">Phone support</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="epro text-center">Business hours</td>
 		<td class="eenterprise text-center">up to 24/7</td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="If you need access to experienced engineers to built custom solutions for your unique needs.">Custom consulting</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="epro text-center"><i class="icon-check"></i></td>
 		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering support</span></td>
-		<td class="ebasic text-center">-</td>
-		<td class="epro text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
+		<td class="epro text-center"><i class="icon-times"></i></td>
 		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
@@ -143,45 +143,45 @@
 		<td class="eenterprise"></td>
 	</tr>
 	<tr>
-		<td class="">51-100</td>
+		<td class="">Users 51-100</td>
 		<td class="ebasic price"><a href="#contact">30€/user</a></td>
 		<td class="epro price"><a href="#contact">50€/user</a></td>
 		<td class="eenterprise price"><a href="#contact">65€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">101-250</td>
+		<td class="">Users 101-250</td>
 		<td class="ebasic price"><a href="#contact">20€/user</a></td>
 		<td class="epro price"><a href="#contact">30€/user</a></td>
 		<td class="eenterprise price"><a href="#contact">50€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">251-1000</td>
+		<td class="">Users 251-1000</td>
 		<td class="ebasic price"><a href="#contact">15€/user</a></td>
 		<td class="epro price"><a href="#contact">20€/user</a></td>
 		<td class="eenterprise price"><a href="#contact">30€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">1001-2500</td>
-		<td class="ebasic price">-</td>
+		<td class="">Users 1001-2500</td>
+		<td class="ebasic price"><i class="icon-times"></i></td>
 		<td class="epro price"><a href="#contact">15€/user</a></td>
 		<td class="eenterprise price"><a href="#contact">20€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">2501-10.000</td>
-		<td class="ebasic price">-</td>
-		<td class="epro price">-</td>
+		<td class="">Users 2501-10.000</td>
+		<td class="ebasic price"><i class="icon-times"></i></td>
+		<td class="epro price"><i class="icon-times"></i></td>
 		<td class="eenterprise price"><a href="#contact">15€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">10.001-25.000</td>
-		<td class="ebasic price">-</td>
-		<td class="epro price">-</td>
+		<td class="">Users 10.001-25.000</td>
+		<td class="ebasic price"><i class="icon-times"></i></td>
+		<td class="epro price"><i class="icon-times"></i></td>
 		<td class="eenterprise price"><a href="#contact">10€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">>25.000</td>
-		<td class="ebasic price">-</td>
-		<td class="epro  price">-</td>
+		<td class="">Users >25.000</td>
+		<td class="ebasic price"><i class="icon-times"></i></td>
+		<td class="epro  price"><i class="icon-times"></i></td>
 		<td class="eenterprise text-center"><a href="#contact">Contact us!</a></td>
 	</tr>
 </table>
