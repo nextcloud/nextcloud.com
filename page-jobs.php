@@ -26,6 +26,7 @@ Required skills:
 	<li>A focus on solutions sales in a competitive environment</li>
 	<li>experience with cloud, storage, groupware, communication and/or collaboration technologies is a plus</li>
 	<li>Insight in benefits of a open source support and service business model</li>
+	<li>Writing and speaking German language</li>
 </ul>
 What we offer:
 <ul>
