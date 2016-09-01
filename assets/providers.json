@@ -330,5 +330,20 @@
             "oCloud.de bietet die Original Nextcloud demnaechst auch mit Dokumentenverwaltung an."
          ],
          "imagename":"ocloud.png"
+      },
+    {
+         "title":"Portknox.net",
+         "url":"https:\/\/portknox.net",
+         "flags":[
+            "de",
+            "eu",
+            "all"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Nextcloud Hosing with love from Munich/Germany. Managed, Secure & specialised. 100% Admin-Accounts, no shared instances."
+         ],
+         "imagename":"portknox.png"
       }
 ]
