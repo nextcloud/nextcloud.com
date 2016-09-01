@@ -4,6 +4,7 @@
 <!-- <a href="/nine" class="btn btn-lg btn-default">Overview of new features</a> -->
 <h2>Press releases</h2>
 <ul>
+	<li><a href="/press/pr20160901/">Semptember 1st, 2016: Nextcloud Conference to Feature Launch Event, Keynote Speakers: Jane Silber, CEO of Canonical and Karen Sandler, Executive Director at the Software Freedom Conservancy</a></li>
 	<li><a href="/press/pr20160825/">August 25th, 2016: Nextcloud 10 Delivers Secure, Fine Grained Control over Data Access and Workflows</a></li>
 	<li><a href="/press/pr20160812/">August 12th, 2016: Press event at IFA 2016: Using everyday technology to make a positive impact</a></li>
 	<li><a href="/press/pr20160721/">July 21th, 2016: Beta of Nextcloud 10 with Brute Force Protection, Two-Factor Authentication, Improved Federation and more</a></li>
