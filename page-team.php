@@ -211,12 +211,25 @@
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/morris.jpg" />
 			<h2 class="teamname">Morris Jobke</h2>
 			<div class="teammeta">
-				<h3 class="teamtitle">Support and Software Engineer</h3>
-				<h4 class="teamexpertise">Supprt</h4>
-				<h4 class="teamlocation">lives in bla, Germany</h4>
+				<h3 class="teamtitle">Software and Support Engineer</h3>
+				<h4 class="teamexpertise">Server and Support</h4>
+				<h4 class="teamlocation">lives near Chemnitz, Germany</h4>
 				<p class="teamsocial"><a href="http://morrisjobke.de/"><i class="icon-rss icon"></i></a> <a href="https://github.com/MorrisJobke"><i class="icon-github-alt icon"></i></a> <a href="https://twitter.com/MorrisJbk"><i class="icon-twitter icon"></i></a> </p>
 			</div>
-			<p class="teamdescription">Morris is awesome.</p>
+			<p class="teamdescription">Morris has worked on the project since early 2013. He has worked with most components of the server and uses his experience to troubleshoot and create fixes for issues in large scale installations.</p>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="teamp">
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/morris.jpg" />
+			<h2 class="teamname">Joachim</h2>
+			<div class="teammeta">
+				<h3 class="teamtitle">Software Engineer</h3>
+				<h4 class="teamexpertise">TBD</h4>
+				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+				<p class="teamsocial"><a href="http://morrisjobke.de/"><i class="icon-rss icon"></i></a> <a href="https://github.com/MorrisJobke"><i class="icon-github-alt icon"></i></a> <a href="https://twitter.com/MorrisJbk"><i class="icon-twitter icon"></i></a> </p>
+			</div>
+			<p class="teamdescription">Joachim is awesome.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
