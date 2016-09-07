@@ -126,7 +126,7 @@
 You should now have Spreed WebRTC installed.</p>
 
 <h3>2. Install the Spreed.ME Nextcloud app</h2>
-<p>We'll now install the Spreed.ME app. This can be done either from the Nextcloud App Store (if it is available there for your version of Nextcloud) or, as we'll show here, directly from Github.
+<p>We'll now install the Spreed.ME app. This can be done either from the Nextcloud App Store (if it is available there for your version of Nextcloud) or, as we'll show here, directly from GitHub.
 <ol>
  	<li><code>cd /srv/www/htdocs/nextcloud/apps</code><br/>
  	Go to the Nextcloud app folder on your server</li>

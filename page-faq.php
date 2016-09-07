@@ -294,7 +294,7 @@ Rather the opposite. It signals that Nextcloud is a mature project taking respon
 <h3>How can I get started writing mobile (Android, iOS) clients or third party (web) apps?</h3>
 <ul>
 	<li>First of all, awesome you want to bring Nextcloud support to your app or build an app entirely for Nextcloud, rocking!</li>
-	<li>If you're interested in writing an Android or iOS app with Nextcloud support, you can use our MIT licensed libraries on those platforms. Find them on Github: <a href="https://github.com/nextcloud/ios-library">iOS</a>, <a href="https://github.com/nextcloud/android-library">Android</a>. You can then use the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>ios_library">iOS</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>android_library">Android</a> developer docs.</li>
+	<li>If you're interested in writing an Android or iOS app with Nextcloud support, you can use our MIT licensed libraries on those platforms. Find them on GitHub: <a href="https://github.com/nextcloud/ios-library">iOS</a>, <a href="https://github.com/nextcloud/android-library">Android</a>. You can then use the <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>ios_library">iOS</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>android_library">Android</a> developer docs.</li>
 	<li>To build a third party application accessing Nextcloud data through its external API, <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>core/ocs-share-api.html">find the documentation here</a>.
 </ul>
 
