@@ -199,11 +199,11 @@
 			<h2 class="teamname">Leon Klingele</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
-				<h4 class="teamexpertise">Spreed.ME integration</h4>
+				<h4 class="teamexpertise">Spreed.ME, iOS app</h4>
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 				<p class="teamsocial"><a href="https://github.com/leonklingele"><i class="icon-github-alt icon"></i></a> </p>
 			</div>
-			<p class="teamdescription">Leon is awesome.</p>
+			<p class="teamdescription">Leon develops the Spreed.ME iOS app.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
@@ -222,7 +222,7 @@
 	<div class="col-md-4">
 		<div class="teamp">
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/joachim.jpg" />
-			<h2 class="teamname">Joachim</h2>
+			<h2 class="teamname">Joachim Bauch</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
 				<h4 class="teamexpertise">TBD</h4>
@@ -268,7 +268,7 @@
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 				<p class="teamsocial"><a href="https://www.stdin.xyz/"><i class="icon-rss icon"></i></a> <a href="https://github.com/longsleep"><i class="icon-github-alt icon"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="icon-twitter icon"></i></a>--> </p>
 			</div>
-			<p class="teamdescription">Simon is awesome.</p>
+			<p class="teamdescription">Simon has been working at struktur AG since 2001 and is Director of Development, handling technical project management and coding. He spearheads the backend and frontend services development and defines the system architecture and infrastructure. He has extensive WebRTC, AngularJS, Go  and Python experience.</p>
 		</div>
 	</div>
 </div>
