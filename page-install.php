@@ -9,7 +9,7 @@
 			<i class="icon-download"></i>
 		</div>
 		<h2>1. Get Nextcloud Server</h2>
-		<p>Set up a server for yourself<!--, deploy to the cloud--> or find a provider:
+		<p>Set up a server for yourself, use our appliances or find a provider:</p>
 		<div class="btn-group">
 			<a class="btn btn-default btn-large" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">Download</a>
 			<a class="btn btn-default btn-large" href="/providers">Providers</a>
@@ -26,15 +26,9 @@
 		</div>
 		<h2>2. Sync your data</h2>
 		<p>Connect to your Nextcloud with our clients:</p>
-		<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png">
-		</a>
-		<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
-		</a>
 		<div class="btn-group">
-			<a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients">Desktop Clients</a> 
-			<a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">More Clients</a>
+			<a class="btn btn-default btn-large" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients">Desktop Clients</a> 
+			<a class="btn btn-default btn-large" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">Mobile Clients</a>
 	</div>
 	</div>
   <!--<div class="col-md-4">
