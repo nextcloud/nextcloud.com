@@ -25,7 +25,7 @@
 			<i class="icon-refresh"></i>
 		</div>
 		<h2>2. Sync your data</h2>
-		<p>Connect to your Nextcloud with our clients:</p>
+		<p>Connect to your Nextcloud with our clients for all your devices:</p>
 		<div class="btn-group">
 			<a class="btn btn-default btn-large" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients">Desktop Clients</a> 
 			<a class="btn btn-default btn-large" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">Mobile Clients</a>
