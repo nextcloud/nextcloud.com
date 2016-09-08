@@ -57,7 +57,7 @@ Do you want to <strong>help</strong> translate, promote or document Nextcloud?</
          <p>Translate Nextcloud to your language. Go to <a href="https://www.transifex.com/projects/p/nextcloud/">Transifex</a> and get going!</p>
         <p>Help us improve the Nextcloud documentation! Find out how to make a difference <a href="https://doc.nextcloud.org/howto_contribute.html">in this contribution guide</a>!</p>
         <p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/misc/contribute-doc.gif" style="width: 100%" alt="front door" class="aligncenter" /></p>
-        <p>The animation shows the easiest way to contribute to the Nextcloud documentation. Go to the <a href="https://github.com/nextcloud/documentation">documentation in Github</a>, click the
+        <p>The animation shows the easiest way to contribute to the Nextcloud documentation. Go to the <a href="https://github.com/nextcloud/documentation">documentation in GitHub</a>, click the
         'edit' icon on a page, make the changes and create a pull request. This will notify the documentation maintainers of your proposed change and after review, it can be included!</p>
     </div>-->
 <!--    <div class="col-md-6">
