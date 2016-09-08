@@ -185,7 +185,7 @@
 		<td class="eenterprise text-center"><a href="#contact">Contact us!</a></td>
 	</tr>
 </table>
-<p class="epricevat">Prices are in Euro and net/excl. VAT.</p>
+<p class="epricevat">Prices are in Euro and net/excl. VAT.<br />As a quick pricing example, 150 users on a Pro subscription would cost 100*50 + 50*30 = Eur 6500/year</p>
 <p>* with optional additional 5 years Extended Life Cycle Support.</p>
 
 <div class="row egetstarted">
