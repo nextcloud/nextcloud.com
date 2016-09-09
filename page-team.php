@@ -199,11 +199,11 @@
 			<h2 class="teamname">Leon Klingele</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
-				<h4 class="teamexpertise">Spreed.ME, iOS app</h4>
+				<h4 class="teamexpertise">Spreed.ME, Spreedbox</h4>
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 				<p class="teamsocial"><a href="https://github.com/leonklingele"><i class="icon-github-alt icon"></i></a> </p>
 			</div>
-			<p class="teamdescription">Leon develops the Spreed.ME iOS app.</p>
+			<p class="teamdescription">Leon has been working for struktur AG since 2011. He is currently doing his Bachelor of Science at Media University, Stuttgart. His primary tasks lie in the development of the Spreedbox and Spreed.ME software components.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
