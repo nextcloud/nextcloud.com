@@ -7,7 +7,6 @@
 		'contribute' => 'Get involved',
 		'support' => 'Support',
 		'enterprise' => 'Enterprise',
-		'demo' => 'Demo'
 	];
 ?>
 <section class="Header-Navigation">
@@ -35,6 +34,7 @@
 					?>
 					<li <?php if($active): ?>class="active"<?php endif;?>><a href="<?php echo home_url($key) ?>"><?php echo $text ?></a></li>
 					<?php endforeach; ?>
+					<li><a href="https://demo.nextcloud.com/">Demo</a></li>
 					<li class="btn-primary"><a href="<?php echo home_url('install') ?>">Download</a></li>
 				</ul>
 			</div>
