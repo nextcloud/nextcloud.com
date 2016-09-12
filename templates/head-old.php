@@ -22,6 +22,7 @@
 	<?php wp_head(); ?>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/navigation.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/old/scripts.min.js"></script>
 	<?php if(is_page('news')) { ?>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/old/vendor/jquery.infinitescroll.min.js"></script>
   	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/old/vendor/jquery.masonry.min.js"></script>
