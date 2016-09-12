@@ -23,8 +23,8 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/navigation.js"></script>
 	<?php if(is_page('news')) { ?>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.infinitescroll.min.js"></script>
-  	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.masonry.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/old/vendor/jquery.infinitescroll.min.js"></script>
+  	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/old/vendor/jquery.masonry.min.js"></script>
 	<?php } ?>
 	<link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
 </head>
