@@ -87,7 +87,7 @@ $oldPages = [
 	'workflow'
 
 ];
-$currentPage = strtolower(get_post()->post_title);
+$currentPage = strtolower(get_post()->post_name);
 $oldPage = true;
 if(in_array($currentPage, $oldPages)) {
 	// It's an old page, use the old template
