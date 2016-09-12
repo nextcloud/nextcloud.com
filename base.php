@@ -4,10 +4,101 @@
 require get_template_directory().'/config.php';
 require get_template_directory().'/strings.php';
 
-// If oc-new rss page, only show page content...
-if(is_page('oc-news') || is_page('blogfeed')) { include roots_template_path(); } else {
-  get_template_part('templates/head'); 
-  ?>
+/**
+ * Pages that still use the old layout and haven't been migrated
+ */
+$oldPages = [
+	'5years',
+	'about',
+	'advisories',
+	'advisory',
+	'agreement',
+	'android',
+	'appform',
+	'appform-submit',
+	'apply',
+	'apply2',
+	'changelog',
+	'code-of-conduct',
+	'collaboraonline',
+	'community',
+	'conf',
+	'conference-program',
+	'confinfo',
+	'confsubscribe',
+	'connect',
+	'consulting',
+	'contact',
+	'contactform',
+	'contactsubmit',
+	'contribute',
+	'contibutors',
+	'design',
+	'desktop',
+	'enterprise',
+	'events',
+	'faq',
+	'features',
+	'federation',
+	'hackathon',
+	'history',
+	'impressum',
+	'install',
+	'install-backup',
+	'jobs',
+	'meetups',
+	'news',
+	'newsletter',
+	'nine',
+	'pidrive',
+	'policy',
+	'pr20160602',
+	'pr20160614',
+	'pr20160705',
+	'pr20160719',
+	'pr20160721',
+	'pr20160725',
+	'pr20160812',
+	'pr20160825',
+	'pr20160901',
+	'press',
+	'privacy',
+	'promote',
+	'providers',
+	'providersubmit',
+	'release-channels',
+	'salessubmit',
+	'securesharesubmit',
+	'securesharing',
+	'security',
+	'sharing',
+	'speaking',
+	'spreedbox',
+	'support',
+	'team',
+	'thanks',
+	'thankyou',
+	'theming',
+	'threat-model',
+	'trademarks',
+	'translation',
+	'user',
+	'webrtc',
+	'workflow'
+
+];
+$currentPage = strtolower(get_post()->post_title);
+$oldPage = true;
+if(in_array($currentPage, $oldPages)) {
+	// It's an old page, use the old template
+	get_template_part('templates/head-old');
+} else {
+	// It's a new page, use the new template
+	get_template_part('templates/head');
+	$oldPage = false;
+}
+
+?>
   <body <?php body_class(); ?>>
 
     <!--[if lt IE 8]>
@@ -17,48 +108,23 @@ if(is_page('oc-news') || is_page('blogfeed')) { include roots_template_path(); }
     <![endif]-->
 
     <?php
-      do_action('get_header');
       get_template_part('templates/header-top-navbar');
     ?>
-
-    <?php if(is_page('home')) { // Handle home page ?>
-	<div class="homepage">
-	    <main class="main <?php echo roots_main_class(); ?>" role="main">
-	      <?php include roots_template_path(); ?>
-	    </main><!-- /.main -->
-	</div><!-- /.wrap -->
-
-	<?php } else { // Handle further special layouts ?>
-
-	  <?php if(is_page('5years') /*|| is_page('conf') || is_page('register') || is_page('federation') || is_page('thankyou')*/) { // Handle alternative layout ?>
-	    <div class="conference">
-	      <div class="wrap container conf-content" role="document">
-		<div class="content row">
-		  <main class="main <?php echo roots_main_class(); ?>" role="main">
-		    <?php include roots_template_path(); ?>
-		  </main><!-- /.main -->
-		</div><!-- /.content -->
-	      </div><!-- /.wrap -->
-	    </div>
-
-	  <?php } else { // Handle all other layouts ?>
-
-	    <div class="wrap container" role="document">
-	      <div class="content row">
+	<?php if($oldPage === true): ?>
+		<div class="wrap container" role="document">
+		  <div class="content row">
 		<main class="main <?php echo roots_main_class(); ?>" role="main">
 		  <?php include roots_template_path(); ?>
 		</main><!-- /.main -->
-	      </div><!-- /.content -->
-	    </div><!-- /.wrap -->
+		  </div><!-- /.content -->
+		</div><!-- /.wrap -->
+	<?php else: ?>
+		<?php include roots_template_path(); ?>
+	<?php endif; ?>
 
-	  <?php } ?>
-    <?php } ?>
-    
-    <?php require get_template_directory().'/templates/footer.php'; ?>
+	<?php require get_template_directory().'/templates/footer.php'; ?>
 
     <?php if(PIWIKTRACKING) { get_template_part('templates/piwik-tracking'); } ?>
 
   </body>
 </html>
-
-<?php } ?>

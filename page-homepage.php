@@ -1,197 +1,253 @@
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/home.css" rel="stylesheet">
-<!-- Teaser Area -->
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/home.js"></script>
 
-<div class="row wrap home-features clearfix pad-bottom">
-	<div class="col-sm-4">
-		<i class="icon-group icon"></i>
-		<h3 class="ft-title">Community</h3>
-		<p class="featuredesc">Nextcloud is developed in a transparent and inviting way by the open source community.</p>
-		<a href="/contribute">
-		<p class="featurelink">Join our community!</p>
-		</a>
-	</div>
-	<div class="col-sm-4">
-		<i class="icon-eye icon"></i>
-		<h3 class="ft-title">Privacy</h3>
-		<p class="featuredesc">Nextcloud keeps your files secure and private - you decide where you host your data.</p>
-		<a href="/install">
-		<p class="featurelink">Install your Nextcloud Server!</p>
-		</a>
-	</div>
-	<div class="col-sm-4">
-		<i class="icon-cubes icon"></i>
-		<h3 class="ft-title">Flexibility</h3>
-		<p class="featuredesc">Nextcloud is extensible with new functionality to provide all you need to live your digital life.</p>
-		<a href="/features">
-		<p>Learn about more features!</p>
-		</a>
-	</div>
-</div>
-
-<div class="row wrap clearfix pad-bottom">
-	<div class="col-md-12 text-center">
-		<h1>Perfect for home and office</h1>
-	</div>
-	<div class="col-md-6">
-		<h3 class="text-center"><i class="icon-home"></i> Home users</h3>
-		Nextcloud gives you a private, secure way to share, work with others and access your own data using an easy to use interface. Be it music, calendar appointments, bookmarks, email or your documents, Nextcloud keeps your data safe. <a class="btn btn-block btn-lg " href="/install" role="button">Get your Nextcloud!</a>
-	</div>
-	<div class="col-md-6">
-		<h3 class="text-center"><i class="icon-bank"></i> Enterprise</h3>
-		Nextcloud gives organizations control over their data. Manage access to data and communication across devices and platforms, on-premise, on existing storage or with cloud storage. Nextcloud integrates in your infrastructure, offering the extensibility and features you need. <a class="btn btn-block btn-lg " href="/enterprise" role="button">Learn more</a>
-	</div>
-</div>
-
-<!--<div class="row wrap clearfix pad-bottom">
-	<div class="col-md-12 text-center">
-		<h1>Introducing the Spreedbox</h1>
-	</div>
-	<div class="col-md-5">
-		<div class="yt-img-overlay">
-			<a class="youtube" href="https://www.youtube.com/watch?v=egLqRqb4sHA" title="Spreedbox : most private video chat and file exchange">
-				<img src="https://img.youtube.com/vi/egLqRqb4sHA/hqdefault.jpg" title="Spreedbox : most private video chat and file exchange" />
-				<div class="yt-play-btn">
-						<i></i> 
-				</div>
-			</a>
-		</div>
-	</div>
-	<div class="col-md-7">
-		<h2>Privacy in a box</h2>
-		<p>Rediscover private video chat, messaging and file exchange. The Spreedbox is a unique device for secure audio/video conferencing, text and video messaging and file sharing. The Spreedbox is your own conferencing, meeting and file exchange service on the Internet and puts the control and security of your data into your own hands.</p>
-		<p>Featuring Nextcloud, this device is available both for consumers and companies, bringing them the privacy and security they need to confidently share, communicate and collaborate.</p>
-		<a class="btn btn-block btn-lg " href="/spreedbox" role="button">Learn more!</a>
-	</div>
-</div>-->
-
-<div class="row wrap clearfix pad-bottom">
-	<div class="col-md-12 text-center">
-		<h1>Introducing Nextcloud 10!</h1>
-	</div>
-	<div class="col-md-5">
-		<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control-wee.png" /></a>
-		<!--<div class="yt-img-overlay">
-			<a class="youtube" href="https://www.youtube.com/watch?v=egLqRqb4sHA" title="Spreedbox : most private video chat and file exchange">
-				<img src="https://img.youtube.com/vi/egLqRqb4sHA/hqdefault.jpg" title="Spreedbox : most private video chat and file exchange" />
-				<div class="yt-play-btn">
-						<i></i> 
-				</div>
-			</a>
-		</div>-->
-	</div>
-	<div class="col-md-7">
-		<h2>Secure, Fine Grained Control over Data Access and Workflows</h2>
-		<p>Nextcloud 10 is now available, bringing significant new features for system administrators to control and direct the flow of data between users on a Nextcloud server. Rule based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements. Monitoring, security and performance improvements complement this release, enabling larger and more efficient Nextcloud installations.</p>
-		<a class="btn btn-block btn-lg " href="https://nextcloud.com/?p=859" role="button">Learn more!</a>
-	</div>
-</div>
-
-
-<!--<div class="wrap container pad-bottom">
-	<div class="row">
-		<div class="col-md-12 text-center">
-			<h2>We rock the Nextcloud Contributor Conference!</h2>
-		</div>
-	</div>
-	<div class="row pad-bottom">
-		<div class="text-center videoWrapper">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/DvW_EoIoD1Y" frameborder="0" allowfullscreen></iframe>
-		</div>
-	</div>
-	<div class="row pad-bottom">
-		<div class="col-md-12 text-center">
-			  <a class="btn btn-block btn-lg join-button events-button" href="/conf" role="button">Learn more about the event and the announcements!</a>
-		</div>
-	</div>
-</div>-->
-
-<!--<div class="users">
-		<div class="row">
-			<div class="col-md-12">
-				<h2>Trusted by hundreds of organizations worldwide</h2>
+<div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="container-fluid">
+			<div class="col-md-6">
+				<h1>A safe home for your digital life</h1>
+				<h2>Access & share your files, calendars, contacts, mail & more from any device, on your terms.</h2>
+				<p><a class="btn btn-primary btn-lg" href="#" role="button" id="get-nextcloud-button">Get Nextcloud <span class="glyphicon glyphicon-arrow-right"></span></a></p>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			  <a href="https://nextcloud.com/cern-smashbox-and-nextcloud-collaboration/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/cern.png" alt="The Scientific Atom Smashers in Switzerland" title="The Scientific Atom Smashers in Switzerland" /></a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			  <a href="https://nextcloud.com/customer-stories" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/joyglobal.png" title="Joy Global Inc. is an American fortune 1000 company that manufactures and services heavy machinery used in underground and surface mining." alt="Joy Global Inc. is an American fortune 1000 company that manufactures and services heavy machinery used in underground and surface mining." /></a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			<a href="https://nextcloud.com/customer-stories" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/bauhaus.png" alt="Swiss retail chain offering products for home improvement, gardening and workshop all over Europe." title="Swiss retail chain offering products for home improvement, gardening and workshop all over Europe." /></a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			  <a href="https://nextcloud.com/customer-stories" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/delongi.png" alt="DeLongi is a major Italian appliance manufacturer." title="DeLongi is a major Italian appliance manufacturer." /></a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			  <a href="https://www.amnesty.de/" target="_blank"><img class="customer" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/amnesty.png" alt="Amnesty Germany" /></a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			  <a href="http://oc.nextcloud.com/opencloudmesh.html" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/uoh.png" alt="The university of Hawaii has 50.000 students and famous alumni." title="The university of Hawaii has 50.000 students and famous alumni." /></a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
-			  <a href="https://nextcloud.com/customer-stories" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/rakuten.png" title="Rakuten, Inc. is a Japanese electronic commerce and Internet company based in Tokyo, Japan. Its B2B2C e-commerce platform Rakuten Ichiba is among the world’s largest by sales." /></a>
-			  <a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/HMA.png" title="HMA is an independent, national healthcare research and consulting firm with 16 offices throughout the USA." alt="HMA is an independent, national healthcare research and consulting firm with 16 offices throughout the USA." /></a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
-			  <a href="https://nextcloud.com/customer/jefferson-national/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/jeffnat.png" alt="Jefferson National replaced Dropbox with Nextcloud to keep their financial information secure" title="Jefferson National replaced Dropbox with Nextcloud to keep their financial information secure" /></a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
-			  <a href="https://nextcloud.com/customer/sciebo/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/sciebo.png" title="Through Sciebo, 22 German universities scale up to 500,000 users on a federated Nextcloud network." alt="Through Sciebo, 22 German universities scale up to 500,000 users on a federated Nextcloud network." /></a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
-			  <a href="https://nextcloud.com/customer/deutsche-bahn-ag/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/DB.png" title="German Railway Deutsche Bahn uses Nextcloud to organize its transportation services." alt="German Railway Deutsche Bahn uses Nextcloud to organize its transportation services." /></a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
-			<a href="https://www.youtube.com/watch?v=L6SLi6D6dz4&index=3&list=PLtZe22ggl2YCHUFQiUfFHq8DWNBzBdQ0U" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/TUB.png" alt="Technische Universität Berlin and home of the Nextcloud Contributor Conference." title="Technische Universität Berlin and home of the Nextcloud Contributor Conference." /></a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
-			  <a href="http://www.forbes.com/sites/benkepes/2015/06/12/nextcloud-and-datto-partner-to-secure-private-file-sharing/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/datto.png" title="Datto is one of the worlds leading backup solution providers and integrates Nextcloud in all their backup solutions." alt="Datto is one of the worlds leading backup solution providers and integrates Nextcloud in all their backup solutions." /></a>
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
-			  <a href="https://nextcloud.com/customer-stories" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/IPC.png" title="IPC is a Canadian Wealth Management company running a series of subsidiary companies in the financial services and investment area." alt="IPC is a Canadian Wealth Management company running a series of subsidiary companies in the financial services and investment area" /></a>
-			</div>
-		</div>
-	<p>Learn more about Nextcloud, Inc. customers and their stories <a href="https://nextcloud.com/customer-stories/" target="_blank">here</a></p>
-</div>-->
-
-<div class="wrap newsletter">
-	<div class="row">
-		<div class="col-md-6 col-md-offset-3 text-center">
-		   <h2>Stay up to date with nextcloud news!</h2>
-		   <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1" class="btn btn-block btn-primary btn-lg join-button">Subscribe to our newsletter</a><br />
-<!-- 		   <a class="btn btn-primary btn-lg" role="button" href="/features">Learn more about what Nextcloud can do for you &raquo;</a> -->
 		</div>
 	</div>
 </div>
 
+<section id="why-nextcloud">
+	<div class="container">
+		<h2 class="text-center">Why Nextcloud?</h2>
+		<div class="highlights">
+			<div class="highlights__align">
+				<div class="community-icon" data-animation-path="img/home/community/" data-anim-loop="false" data-name="community"></div>
+				<h4>Community</h4>
+				<p class="highlights__text">Enjoy constant improvements
+					from a thriving and transparent,
+					all open-source community
+					development model, free of
+					lockins or paywalls.</p>
+			</div>
+			<div class="highlights__align">
+				<div class="privacy-icon" data-animation-path="img/home/privacy/" data-anim-loop="false" data-name="privacy"></div>
+				<h4>Privacy</h4>
+				<p class="highlights__text">Keep all of your life / business
+					private and secure. Share
+					with only who you choose,
+					and no-one else.</p>
+			</div>
+			<div class="highlights__align">
+				<div class="flexibility-icon" data-animation-path="img/home/flexibility/" data-anim-loop="false" data-name="flexibility"></div>
+				<h4>Flexibility</h4>
+				<p class="highlights__text">Expand Nextcloud's ability
+					to do whatever you want,
+					with Nextcloud apps.</p>
+			</div>
+		</div>
+	</div>
+</section>
 
-<div class="row 3-column-lg-md-sm home-social">
-	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-		<i class="icon-cloud"></i>
-		<h3><a href="/news">Nextcloud News</a></h3>
-		<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,4); } ?></span>
-	</div>
-	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-		<i class="icon-twitter"></i>
-		<h3>The latest <a href="https://twitter.com/nextclouders">Twitter posts</a></h3>
-		<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,2); } ?></span>
-	</div>
-	<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
-		<i class="icon-comment"></i>
-		<h3>The latest <a href="https://help.nextcloud.com">from the forum</a></h3>
-		<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,4); }?></span>
+<div class="container-fluid" id="perfect-for-home-and-business">
+	<div>
+		<h2>Perfect for home and office</h2>
+		<p>Access everything with the tools you're already using,
+			regardless of the device or platform you're on. Pictures,
+			videos, documents, contacts, communications - they're all
+			available right where you need them whether they're
+			coming from your local storage or remote cloud services.</p>
+		<p><a class="btn btn-primary btn-lg" href="<?php echo home_url('features') ?>"" role="button">Get to know all the features <span class="glyphicon glyphicon-arrow-right"></span></a></p>
 	</div>
 </div>
 
-<link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/vendor/jquery.youtubepopup.min.js"></script>
+<!--
+<section class="Section-Introducing-Nextcloud">
+	<h2 class="text-center">Nextcloud Features</h2>
+	<div class="indicators">
+		<ul class="carousel__dots" ></ul>
+		<li class="btn__carousel"></li>
+		<li class="btn__carousel"></li>
+		<li class="btn__carousel"></li>
+	</div>
+	<div class=" container col-md-6 img__carousel">
+		<img src="./img/home/introducing-nc-10.png" class="img-responsive">
+	</div>
+	<div class="col-md-5 top__features ">
+		<div class="top__features__container">
+			<h4>Secure, Fine Grained Control over Data Access and Workflows</h4>
+			<p>Monitoring, security and performance improvements
+				complement this release, enabling larger and more efficient
+				Nextcloud installations.</p>
+			<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a></p>
+		</div>
+	</div>
+	<div class="col-md-5 top__features">
+		<div class="top__features__container hide">
+			<h4>Faster and more reliable operation at scale</h4>
+			<p> Nextcloud 10 introduces the Server Information app which provides a way for admins to monitor the health and performance of a Nextcloud system. Besides a graphical UI, an API endpoint provided makes it possible for system administrators to import this data in their monitoring app so they can keep an eye on Nextcloud operations from the same place they keep an eye on the rest of their infrastructure.</p>
+			<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a></p>
+		</div>
+	</div>
+	<div class="col-md-5 top__features">
+		<div class="top__features__container hide">
+			<h4>Authentication and security</h4>
+			<p> Nextcloud 10 delivers security improvements in several areas. Plugin based Two Factor Authentication enables an optional extra layer of protection for logins, brute force protection makes it harder for attackers to guess passwords and session management is introduced to enable administrators and users to monitor and invalidate active sessions.</p>
+			<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a></p>
+		</div>
+	</div>
+	</div>
+</section>
 
-<script type="text/javascript">
-$(function () {
-	$("a.youtube").YouTubePopup({ hideTitleBar: true });
-});
+
+<!--
+
+<section class="Section-Introducing-Nextcloud">
+<div id="pinContainer">
+    <h2 class="text-center section-title">Introducing Nextcloud 10</h2>
+    <div class="introducing-slider hidden" style="float:right; width: 200px;">
+        <div class="slider-oval"></div>
+        <div class="slider-oval"></div>
+        <div class="slider-oval"></div>
+        <div class="slider-oval"></div>
+    </div>
+    <section class="panel-workflow">
+        <div class="container">
+            <div class="row introducing-nc-10">
+                <div class="container">
+                    <div class="container col-md-6">
+                        <img src="./img/home/introducing-nc-10.png">
+                    </div>
+                    <div class="container col-md-6 right-text-grey" style="opacity: 1; padding-top: 0 !important;">
+                        <h5>Secure, Fine Grained Control over
+                            Data Access and Workflows</h5>
+                        <p>Monitoring, security and performance improvements
+                            complement this release, enabling larger and more efficient
+                            Nextcloud installations.</p>
+                        <br/>
+                        <p>
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="panel-monitoring hidden">
+        <div class="container">
+            <div class="row introducing-nc-10">
+                <div class="container">
+                    <div class="container col-md-6">
+                        <img src="./img/home/monitoring-nc-10.png">
+                    </div>
+                    <div class="container col-md-6 right-text-grey">
+                        <h5>Faster and more reliable operation at scale</h5>
+                        <p>Nextcloud 10 introduces the Server Information app which provides a way for admins to monitor
+                            the health and performance of a Nextcloud system. Besides a graphical UI, an API endpoint
+                            provided makes it possible for system administrators to import this data in their monitoring
+                            app so they can keep an eye on Nextcloud operations from the same place they keep an eye
+                            on the rest of their infrastructure.</p>
+                        <br/>
+                        <p>
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="panel-authentication hidden">
+        <div class="container">
+            <div class="row introducing-nc-10">
+                <div class="container">
+                    <div class="container col-md-6">
+                        <img src="./img/home/auth-nc-10.png">
+                    </div>
+                    <div class="container col-md-6 right-text-grey">
+                        <h5>Authentication and security</h5>
+                        <p>
+                            Nextcloud 10 delivers security improvements in several areas. Plugin based Two Factor
+                            Authentication enables an optional extra layer of protection for logins, brute force
+                            protection makes it harder for attackers to guess passwords and session management is
+                            introduced to enable administrators and users to monitor and invalidate active sessions.
+                        </p>
+                        <br/>
+                        <p>
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="panel-authentication hidden">
+        <div class="container">
+            <div class="row introducing-nc-10">
+                <div class="container">
+                    <div class="container col-md-6">
+                        <img src="./img/home/auth-nc-10.png">
+                    </div>
+                    <div class="container col-md-6 right-text-grey">
+                        <h5>Foo & Bar</h5>
+                        <p>
+                            Nextcloud 10 delivers security improvements in several areas. Plugin based Two Factor
+                            Authentication enables an optional extra layer of protection for logins, brute force
+                            protection makes it harder for attackers to guess passwords and session management is
+                            introduced to enable administrators and users to monitor and invalidate active sessions.
+                        </p>
+                        <br/>
+                        <p>
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</section>
+<script>
+    // Only make the scrolling effect for devices bigger than the 768px in width
+    if ($(window).width() > 768) {
+        var controller = new ScrollMagic.Controller();
+        new ScrollMagic.Scene({triggerElement: '#pinContainer', triggerHook: 'onLeave', duration: 750})
+                .addTo(controller)
+                .setPin('#pinContainer')
+                .on('enter leave', function (e) {
+                    $('.introducing-slider').addClass('hidden');
+                })
+                .on('start end', function (e) {
+                    $('.introducing-slider').removeClass('hidden');
+                })
+                .on('progress', function (e) {
+                    var progressNumber = e.progress.toFixed(4);
+                    var currentProgress = Math.round(10 * ((progressNumber / 10) * 3));
+                    $('#pinContainer section:lt(' + currentProgress + ')').addClass('hidden');
+                    $('#pinContainer section:gt(' + currentProgress + ')').addClass('hidden');
+                    $('#pinContainer section:nth(' + currentProgress + ')').removeClass('hidden');
+                    $('.introducing-slider .slider-oval').html('');
+                    $('.introducing-slider .slider-oval:nth(' + currentProgress + ')').html('<div class="active"></div>');
+
+                    if (currentProgress > 0) {
+                        $('#pinContainer section:nth(' + currentProgress + ') .right-text-grey')
+                                .animate({
+                                    'opacity': 1,
+                                    'margin-top': '-25px'
+                                }, 750);
+                    }
+                });
+    } else {
+        $('section:nth(0)').removeClass('hidden')
+        $('#pinContainer section .right-text-grey:nth(0)').css('opacity', '1.0');
+        $('#pinContainer').css('width', 'inherit');
+        $('#pinContainer').css('height', 'inherit');
+    }
 </script>
+
+-->
+
+<div class="container-fluid" id="stay-up-to-date">
+	<div class="row stay-up-to-date">
+		<div class="container text-center" style="padding-top: 70px; padding-bottom: 70px;">
+			<h5>Stay up to date with Nextcloud's latest enhancements!</h5>
+			<p><a class="btn btn-primary btn-lg" href="https://newsetter.nextcloud.com/" role="button">Just click here <span class="glyphicon glyphicon-arrow-right"></span></a></p>
+		</div>
+	</div>
+</div>
