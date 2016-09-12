@@ -7,7 +7,7 @@
 			<div class="col-md-6">
 				<h1>A safe home for your digital life</h1>
 				<h2>Access & share your files, calendars, contacts, mail & more from any device, on your terms.</h2>
-				<p><a class="btn btn-primary btn-lg" href="#" role="button" id="get-nextcloud-button">Get Nextcloud <span class="glyphicon glyphicon-arrow-right"></span></a></p>
+				<p><a class="btn btn-primary btn-lg" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button">Get Nextcloud <span class="glyphicon glyphicon-arrow-right"></span></a></p>
 			</div>
 		</div>
 	</div>
@@ -53,7 +53,7 @@
 			videos, documents, contacts, communications - they're all
 			available right where you need them whether they're
 			coming from your local storage or remote cloud services.</p>
-		<p><a class="btn btn-primary btn-lg" href="<?php echo home_url('features') ?>"" role="button">Get to know all the features <span class="glyphicon glyphicon-arrow-right"></span></a></p>
+		<p><a class="btn btn-primary btn-lg" href="<?php echo home_url('features') ?>" role="button">Get to know all the features <span class="glyphicon glyphicon-arrow-right"></span></a></p>
 	</div>
 </div>
 
