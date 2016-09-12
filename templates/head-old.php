@@ -26,6 +26,8 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/old/vendor/jquery.infinitescroll.min.js"></script>
   	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/old/vendor/jquery.masonry.min.js"></script>
 	<?php } ?>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 	<link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
 </head>
 
