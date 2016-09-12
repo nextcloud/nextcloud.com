@@ -3,7 +3,7 @@
 		'homepage' => 'Home',
 		'news' => 'News',
 		'features' => 'Features',
-		'aboutus' => 'About us',
+		'about' => 'About us',
 		'contribute' => 'Get involved',
 		'support' => 'Support',
 		'enterprise' => 'Enterprise',
