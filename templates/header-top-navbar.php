@@ -29,7 +29,7 @@
 					<?php
 						foreach($navigationItems as $key => $text):
 							$active = false;
-							if($key === strtolower(get_post()->post_title)) {
+							if($key === strtolower(get_post()->post_name)) {
 								$active = true;
 							}
 					?>
