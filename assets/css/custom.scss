@@ -620,6 +620,23 @@ section#why-nextcloud {
 }
 
 /**
+ * Homepage: Social media parts
+ */
+#social-media {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    i {
+        font-size: 40px;
+    }
+    .social-feed {
+        text-align: left;
+    }
+    div {
+        text-align: center;
+    }
+}
+
+/**
  * Home page: Stay up to date
  */
 #stay-up-to-date a {

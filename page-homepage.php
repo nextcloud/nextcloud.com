@@ -243,6 +243,26 @@
 
 -->
 
+<div class="container" id="social-media">
+	<div class="row 3-column-lg-md-sm home-social">
+		<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
+			<i class="glyphicon glyphicon-cloud"></i>
+			<h3><a href="<?php echo home_url('news') ?>">Nextcloud News</a></h3>
+			<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,4); } ?></span>
+		</div>
+		<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
+			<i class="fa fa-twitter"></i>
+			<h3>Latest <a href="https://twitter.com/nextclouders">Twitter posts</a></h3>
+			<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,2); } ?></span>
+		</div>
+		<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
+			<i class="fa fa-comment"></i>
+			<h3>Latest <a href="https://help.nextcloud.com">from the forum</a></h3>
+			<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,4); }?></span>
+		</div>
+	</div>
+</div>
+
 <div class="container-fluid" id="stay-up-to-date">
 	<div class="row stay-up-to-date">
 		<div class="container text-center" style="padding-top: 70px; padding-bottom: 70px;">

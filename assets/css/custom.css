@@ -525,6 +525,19 @@ section#why-nextcloud {
   width: 300px; }
 
 /**
+ * Homepage: Social media parts
+ */
+#social-media {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  #social-media i {
+    font-size: 40px; }
+  #social-media .social-feed {
+    text-align: left; }
+  #social-media div {
+    text-align: center; }
+
+/**
  * Home page: Stay up to date
  */
 #stay-up-to-date a {
