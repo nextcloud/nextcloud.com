@@ -7,7 +7,7 @@
 <div class="row conf-info">
     <div class="col-md-6">
     <h2>What and where</h2>
-    <p>Be sure to have <a href="https://conf.nextcloud.com/conference/NextcloudConference2016/register/new">registered in advance for the conference</a>! Pick up your badge and some food tickets at the entree of the "<em>Haubtgebaude</em>" building, Straße des 17. Juni 135 (<a href="http://www.openstreetmap.org/?mlat=52.512085&amp;mlon=13.32675#map=16/52.5132/13.3234">see on a map</a>).</p>
+    <p>Be sure to have <a href="https://conf.nextcloud.com/conference/NextcloudConference2016/register/new">registered in advance for the conference</a>! Pick up your badge and some food tickets at the entree of the "<em>Hauptgebaude</em>" building, Straße des 17. Juni 135 (<a href="http://www.openstreetmap.org/?mlat=52.512085&amp;mlon=13.32675#map=16/52.5132/13.3234">see on a map</a>).</p>
     <p>"<em>Ernst-Reuter-Platz (U)</em>" and "<em>Tiergarten (S)</em>" are the closest public transport stops. Use <a href="http://fahrinfo.bvg.de/Fahrinfo/bin/query.bin/en?pk_campaign=BVG.de_Eingabe&from=&REQ0JourneyStopsS0ID=&REQ0JourneyStopsfromID=&REQ0JourneyStopsSA1=7&HWAI%3DJS!js=yes&HWAI%3DJS!ajax=yes&to=+10623+Berlin-Charlottenburg%2C+Str.+des+17.+Juni+136&REQ0JourneyStopsZ0ID=&REQ0JourneyStopstoID=A%3D2%40O%3D10623+Berlin-Charlottenburg%2C+Str.+des+17.+Juni+135%40X%3D13326247%40Y%3D52513247%40U%3D103%40L%3D7706964%40B%3D1%40p%3D1431509568%40&REQ0JourneyStopsZA1=7&date=16.09.2016&time=09%3A00&timesel=arrive&start=1">this</a> to plan your trip.</p>
     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/frontdoornew.jpg" style="width: 100%" alt="front door" class="aligncenter" /></p>
 
@@ -16,7 +16,7 @@
     <div class="col-md-6">
     <h2>In the building</h2>
     <h3>Conference days - Saturday and Sunday</h3>
-    <p>Registration opens at 9 and at 10 we start with opening, keynotes and lightning talks in room <code>H1058</code>, 1st floor in the back of the "<em>Haubtgebaude</em>" building. After lunch (outside) the hacking rooms open. You can find the workshops in <code>H3004</code>, with the Nextcloud coding for beginners session in <code>H3006</code></p>
+    <p>Registration opens at 9 and at 10 we start with opening, keynotes and lightning talks in room <code>H1058</code>, 1st floor in the back of the "<em>Hauptgebaude</em>" building. After lunch (outside) the hacking rooms open. You can find the workshops in <code>H3004</code>, with the Nextcloud coding for beginners session in <code>H3006</code></p>
     <p>Find the <a href="https://conf.nextcloud.com/conference/NextcloudConference2016/schedule">conference program here</a>.</p>
     <h3>Hackathon</h3>
     <p>Friday, registration and hacking rooms open at 9. Walk from registration desk to the elevators in the back. This is where we are:
@@ -60,14 +60,14 @@
     <p>You get a number of food tickets at badge pickup:
     <ul>
         <li>Daily lunch tickets for the cafetaria on the top floor of the "<em>Mathematik</em>" building (during the week)</li>
-        <li>Ticket for the social event on Sunday evening</li>
+        <li>Ticket for the social event on Saturday evening</li>
         <li>Ticket for Saturday and Sunday lunch (available from 13:00 to 15:00)</li>
     </ul>
     We always have vegetarian and meat options.</p></div>
     <div class="col-md-6">
     <p>We have a wide variety of free drinks and some fruit and snacks in room <code>H3008</code>.</p>
     <p>During the hackathon we have free bread with a variety of things to put on it in room <code>H3008</code> - make your own dinner. Restaurants can be found at <a href="http://www.openstreetmap.org/?mlat=52.50602&mlon=13.32248#map=18/52.50602/13.32248">Savignyplatz</a>, a 10 minute walk from the venue.</p>
-    <p>During weekdays, there is an open cafe at the entree of the "<em>Mathematik</em>" building and one in the Haubtgebaude itself.</p>
+    <p>During weekdays, there is an open cafe at the entree of the "<em>Mathematik</em>" building and one in the Hauptgebaude itself.</p>
     </div>
     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/room_307.jpg" style="width: 100%" alt="front door" class="aligncenter" />
 </div>
