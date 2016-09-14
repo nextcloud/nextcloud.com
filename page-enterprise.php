@@ -185,8 +185,60 @@
 		<td class="eenterprise text-center"><a href="#contact">Contact us!</a></td>
 	</tr>
 </table>
-<p class="epricevat">Prices are in Euro and net/excl. VAT.</p>
-<p>* with optional additional 5 years Extended Life Cycle Support.</p>
+<p class="epricevat">* with optional an additional 5 years Extended Life Cycle Support reaching up to 15 years in total.</p>
+<p class="epricevat">Prices are in Euro and net/excl. VAT. <span class="caret"></span><a href="#pricing" data-toggle="collapse"> pricing example</a>
+	<div id="pricing" class="collapse">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-6">
+				<p>We have a tiered price list.</p>
+				<p>Example for 500 users Standard Subscription:
+<!-- 				<div class="col-md-6"> -->
+				<table class="table table-striped">
+					<tr>
+						<td>
+						The first 50 users:
+						</td>
+						<td>
+							+ 2.500€
+						</td>
+					</tr>
+					<tr>
+						<td>
+						User 51-100 (50*50€):
+						</td>
+						<td>
+							+ 2.500€
+						</td>
+					</tr>
+					<tr>
+						<td>
+						User 101-250 (150*30€):
+						</td>
+						<td>
+							+ 4.500€
+						</td>
+					</tr>
+					<tr>
+						<td>
+						User 251-500 (250*20€):
+						</td>
+						<td>
+							+ 5.500€
+						</td>
+					</tr>
+					<tr class="success">
+						<td>
+						total for 500 users
+						</td>
+						<td>
+							= 14.500€
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</p>
 
 <div class="row egetstarted">
 	<div class="col-md-2 col-md-offset-5">
