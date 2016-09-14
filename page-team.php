@@ -225,11 +225,11 @@
 			<h2 class="teamname">Joachim Bauch</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
-				<h4 class="teamexpertise">TBD</h4>
+				<h4 class="teamexpertise">WebRTC, realtime streaming, telephony interfacing</h4>
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-				<p class="teamsocial"><a href="http://morrisjobke.de/"><i class="icon-rss icon"></i></a> <a href="https://github.com/MorrisJobke"><i class="icon-github-alt icon"></i></a> <a href="https://twitter.com/MorrisJbk"><i class="icon-twitter icon"></i></a> </p>
+				<p class="teamsocial"><a href="https://www.joachim-bauch.de"><i class="icon-rss icon"></i></a> <a href="https://github.com/fancycode"><i class="icon-github-alt icon"></i></a> <a href="https://twitter.com/fancycode"><i class="icon-twitter icon"></i></a> </p>
 			</div>
-			<p class="teamdescription">Joachim is awesome.</p>
+			<p class="teamdescription">Joachim graduated computer science in Stuttgart and has been committing to various open source projects for a long time, including Google's WebRTC project and was core developer for the Red5 streaming server between 2005 and 2008.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
