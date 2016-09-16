@@ -1,6 +1,8 @@
 <div class="page-header">
     <h1>Practical Conference Info 2016</h1>
     <p>Here you find everything you need to know while participating in the Nextcloud Conference!</p>
+    <p><strong>Registration on Friday and Mon-Thur is at the hacking area, room <code>3008</code>, Friday talks at room <code>3004</code>!</strong></p>
+    <p><strong>Registration on the weekend is at room <code>1058</code>, the keynote room.</strong></p>
 </div>
 
 <img src="https://raw.githubusercontent.com/nextcloud/promo/8dbb6978d22761589b012ec440d8ab11cc9bb46f/conference/conference-social-media-banner.png" style="width: 100%" alt="front door" class="alignright" />
