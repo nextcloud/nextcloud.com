@@ -1107,6 +1107,14 @@ img.desaturate {
 	border: none !important;
 }
 
+
+/* Box page */
+
+.buybutton {
+	padding: 10px;
+	padding-bottom: 50px;
+}
+
 /* ownCloud.org/features features page*/
 
 /* Full width background image */

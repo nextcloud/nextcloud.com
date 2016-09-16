@@ -35,7 +35,7 @@
 				<a class="btn btn-primary btn-lg" role="button" href="/install">Get your Nextcloud &raquo;</a>
 			</div>
 		</div>
-		<a href="https://conf.nextcloud.com"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/conf-badge.png" class="home-event-img"  /></a>
+		<a href="/box"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/box.png" class="home-event-img"  /></a>
 	</div>
   <?php endif; ?>
 </header>
