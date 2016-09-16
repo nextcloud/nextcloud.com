@@ -16,10 +16,10 @@
     <div class="col-md-6">
     <h2>In the building</h2>
     <h3>Conference days - Saturday and Sunday</h3>
-    <p>Registration opens at 9 and at 10 we start with opening, keynotes and lightning talks in room <code>H1058</code>, 1st floor in the back of the "<em>Hauptgebaude</em>" building. After lunch (outside) the hacking rooms open. You can find the workshops in <code>H3004</code>, with the Nextcloud coding for beginners session in <code>H3006</code></p>
-    <p>Find the <a href="https://conf.nextcloud.com/conference/NextcloudConference2016/schedule">conference program here</a>.</p>
+    <p>Registration opens at 9 and at 10 we start with opening, keynotes and lightning talks in room <code>H1058</code>, 1st floor in the back of the "<em>Hauptgebaude</em>" building. Registration is in front of the keynote room so follow the signs in that direction! After lunch (outside the building, at one of the food trucks) the hacking rooms open. You can find the workshops in the meeting room <code>H3004</code>, with the Nextcloud coding for beginners session in room <code>H3006</code></p>
+    <p>See the <a href="https://conf.nextcloud.com/conference/NextcloudConference2016/schedule">conference program here</a>.</p>
     <h3>Hackathon</h3>
-    <p>Friday, registration and hacking rooms open at 9. Walk from registration desk to the elevators in the back. This is where we are:
+    <p>Friday, registration is at the hacking rooms and opens at 9. Walk from entry to the stairs on the right and follow the signs! This is where we are:
     <ul>
 	<li>3th floor:
 		<ul>
@@ -27,7 +27,7 @@
 		<li>food-and-drink room <code>H3008</code></li>
 		<li>the hacking rooms: <code>H3006</code> (<em>starters room</em>), <code>H3007</code></li>
 	</ul></li>
-	<li>In the Mathematik building across the street, all the way to the top and up the stairs one more floor for lunch (with your food ticket!) and a great view over the city in the restaurant</li>
+	<li>Of course, coding has to be supported with some calories. In the Mathematik building across the street, all the way to the top and up the stairs one more floor you will find your daily lunch (with your food ticket!) and a great view over the city in the University Math Mensa. During weekdays you can also find a cafe in the main building as well as one in the front of the Mathematics building.</li>
     </ul>
     </p>
     </div>
@@ -59,8 +59,8 @@
     <div class="col-md-6">
     <p>You get a number of food tickets at badge pickup:
     <ul>
-        <li>Daily lunch tickets for the cafetaria on the top floor of the "<em>Mathematik</em>" building (during the week)</li>
-        <li>Ticket for the social event on Saturday evening</li>
+        <li>Daily lunch tickets for the mensa on the top floor of the "<em>Mathematik</em>" building (during the week)</li>
+        <li>Ticket for the social event on Saturday evening (you will get this at registration Saturday morning)</li>
         <li>Ticket for Saturday and Sunday lunch (available from 13:00 to 15:00)</li>
     </ul>
     We always have vegetarian and meat options.</p></div>
