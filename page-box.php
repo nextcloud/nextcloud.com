@@ -36,8 +36,11 @@
 <div class="text-center morebuttondiv">
 	<h1 class="text-center"><i class="icon-hdd-o"></i></br> Get the Box</h1>
 	<p>Currenly you can only purchase the Nextcloud Box in Europe and the USA. We're working on bringing the box to other regions!</p>
+	<div class="buybutton">
 					<a href="http://store.wdc.com/promo/4822802800" class="btn btn-primary morebutton" target="_blank">Buy in Europe <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="http://store.wdc.com/promo/4823854300" class="btn btn-primary morebutton" target="_blank">Buy in the UK <i class="icon-arrow-circle-o-right icon"></i></a>
 					<a href="http://store.wdc.com/promo/4822802900" class="btn btn-primary morebutton" target="_blank">Buy in the USA <i class="icon-arrow-circle-o-right icon"></i></a>
+	</div>
 </div>
 
 <div class="wrap container">
