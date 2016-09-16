@@ -52,7 +52,7 @@
 </div>
 <div class="row">
 	<div class="col-xs-12 col-sm-4 col-md-3">
-		<a target="_blank" href="https://developer.ubuntu.com/en/snappy/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/snappy.svg" alt="Snappy Ubuntu Core" /></a>
+		<a target="_blank" href="https://developer.ubuntu.com/en/snappy/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/ubuntu-core_black-orange_st_hex.png" alt="Snappy Ubuntu Core" /></a>
 	</div>
 	<div class="col-xs-12 col-sm-4 col-md-3">
 		<a target="_blank" href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/wdlabs.png" alt="Visit lwn.net" /></a>
