@@ -36,10 +36,20 @@
 <div class="text-center morebuttondiv">
 	<h1 class="text-center"><i class="icon-hdd-o"></i></br> Get the Box</h1>
 	<p>Currenly you can only purchase the Nextcloud Box in Europe and the USA. We're working on bringing the box to other regions!</p>
+	<div class="col-md-6 col-md-offset-3">
 	<div class="buybutton">
-					<a href="http://store.wdc.com/promo/4822802800" class="btn btn-primary morebutton" target="_blank">Buy in Europe <i class="icon-arrow-circle-o-right icon"></i></a>
-					<a href="http://store.wdc.com/promo/4823854300" class="btn btn-primary morebutton" target="_blank">Buy in the UK <i class="icon-arrow-circle-o-right icon"></i></a>
-					<a href="http://store.wdc.com/promo/4822802900" class="btn btn-primary morebutton" target="_blank">Buy in the USA <i class="icon-arrow-circle-o-right icon"></i></a>
+		<a href="http://store.wdc.com/promo/4822802900" class="btn btn-primary morebutton" target="_blank">Buy in the USA <i class="icon-arrow-circle-o-right icon"></i></a>
+	</div>
+	<div class="buybutton">
+		<a href="http://store.wdc.com/promo/4823854300" class="btn btn-primary morebutton" target="_blank">Buy in the UK <i class="icon-arrow-circle-o-right icon"></i></a>
+		<a href="http://store.wdc.com/promo/4823854500" class="btn btn-primary morebutton" target="_blank">Buy in Germany <i class="icon-arrow-circle-o-right icon"></i></a>
+		<a href="http://store.wdc.com/promo/4823854600" class="btn btn-primary morebutton" target="_blank">Buy in Spain <i class="icon-arrow-circle-o-right icon"></i></a>
+		<a href="http://store.wdc.com/promo/4823854700" class="btn btn-primary morebutton" target="_blank">Buy in France <i class="icon-arrow-circle-o-right icon"></i></a>
+		<a href="http://store.wdc.com/promo/4823854800" class="btn btn-primary morebutton" target="_blank">Buy in Italy <i class="icon-arrow-circle-o-right icon"></i></a>
+		<a href="http://store.wdc.com/promo/4823854900" class="btn btn-primary morebutton" target="_blank">Buy in the Netherlands <i class="icon-arrow-circle-o-right icon"></i></a> <br />
+	</div>
+	<div class="buybutton">
+		<a href="http://store.wdc.com/promo/4822802800" class="btn btn-primary morebutton" target="_blank">Buy in rest of Europe <i class="icon-arrow-circle-o-right icon"></i></a>
 	</div>
 </div>
 
