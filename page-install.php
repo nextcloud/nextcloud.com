@@ -9,7 +9,7 @@
 			<i class="icon-download"></i>
 		</div>
 		<h2>1. Get Nextcloud Server</h2>
-		<p>You can set up a server by yourself, use our appliances, buy a box or find a provider:</p>
+		<p>There are several ways to get your own Nextcloud for you and your data:</p>
 		<div class="btn-group">
 			<a class="btn btn-default btn-large" href="#instructions-server">Download</a>
 			<a class="btn btn-default btn-large" href="/box">Devices</a>
