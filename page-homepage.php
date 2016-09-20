@@ -5,9 +5,9 @@
 	<div class="row jumbotron">
 		<div class="container-fluid">
 			<div class="col-md-6">
-				<h1>A safe home for your digital life</h1>
-				<h2>Access & share your files, calendars, contacts, mail & more from any device, on your terms.</h2>
-				<p><a class="btn btn-primary btn-lg" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button">Get Nextcloud <span class="glyphicon glyphicon-arrow-right"></span></a></p>
+				<h1>A safe home for all your data</h1>
+				<h2>Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.</h2>
+				<p><a class="btn btn-primary btn-lg btn--absolute-icon" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button">Get Nextcloud <span class="icon-arrow"></span></a></p>
 			</div>
 		</div>
 	</div>
@@ -36,10 +36,8 @@
 			</div>
 			<div class="highlights__align">
 				<div class="flexibility-icon" data-animation-path="img/home/flexibility/" data-anim-loop="false" data-name="flexibility"></div>
-				<h4>Flexibility</h4>
-				<p class="highlights__text">Expand Nextcloud's ability
-					to do whatever you want,
-					with Nextcloud apps.</p>
+				<h4>Enterprise</h4>
+				<p class="highlights__text">Protect, control and scale the data and communication in your company and organization.</p>
 			</div>
 		</div>
 	</div>
@@ -53,66 +51,26 @@
 			videos, documents, contacts, communications - they're all
 			available right where you need them whether they're
 			coming from your local storage or remote cloud services.</p>
-		<p><a class="btn btn-primary btn-lg" href="<?php echo home_url('features') ?>" role="button">Get to know all the features <span class="glyphicon glyphicon-arrow-right"></span></a></p>
+		<p><a class="btn btn-primary btn-lg btn--absolute-icon" href="<?php echo home_url('features') ?>" role="button">Get to know all the features <span class="icon-arrow"></span></a></p>
 	</div>
 </div>
 
-<!--
-<section class="Section-Introducing-Nextcloud">
-	<h2 class="text-center">Nextcloud Features</h2>
-	<div class="indicators">
-		<ul class="carousel__dots" ></ul>
-		<li class="btn__carousel"></li>
-		<li class="btn__carousel"></li>
-		<li class="btn__carousel"></li>
-	</div>
-	<div class=" container col-md-6 img__carousel">
-		<img src="./img/home/introducing-nc-10.png" class="img-responsive">
-	</div>
-	<div class="col-md-5 top__features ">
-		<div class="top__features__container">
-			<h4>Secure, Fine Grained Control over Data Access and Workflows</h4>
-			<p>Monitoring, security and performance improvements
-				complement this release, enabling larger and more efficient
-				Nextcloud installations.</p>
-			<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a></p>
-		</div>
-	</div>
-	<div class="col-md-5 top__features">
-		<div class="top__features__container hide">
-			<h4>Faster and more reliable operation at scale</h4>
-			<p> Nextcloud 10 introduces the Server Information app which provides a way for admins to monitor the health and performance of a Nextcloud system. Besides a graphical UI, an API endpoint provided makes it possible for system administrators to import this data in their monitoring app so they can keep an eye on Nextcloud operations from the same place they keep an eye on the rest of their infrastructure.</p>
-			<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a></p>
-		</div>
-	</div>
-	<div class="col-md-5 top__features">
-		<div class="top__features__container hide">
-			<h4>Authentication and security</h4>
-			<p> Nextcloud 10 delivers security improvements in several areas. Plugin based Two Factor Authentication enables an optional extra layer of protection for logins, brute force protection makes it harder for attackers to guess passwords and session management is introduced to enable administrators and users to monitor and invalidate active sessions.</p>
-			<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a></p>
-		</div>
-	</div>
-	</div>
-</section>
-
-
-<!--
-
-<section class="Section-Introducing-Nextcloud">
-<div id="pinContainer">
+<section class="Section-Introducing-Nextcloud" id="pinContainer">
+<div >
     <h2 class="text-center section-title">Introducing Nextcloud 10</h2>
-    <div class="introducing-slider hidden" style="float:right; width: 200px;">
-        <div class="slider-oval"></div>
-        <div class="slider-oval"></div>
-        <div class="slider-oval"></div>
-        <div class="slider-oval"></div>
-    </div>
+	<div class="indicators">
+		<ul class="carousel__dots"></ul>
+		<li class="btn__carousel"></li>
+		<li class="btn__carousel"></li>
+		<li class="btn__carousel"></li>
+		<li class="btn__carousel"></li>
+	</div>
     <section class="panel-workflow">
         <div class="container">
             <div class="row introducing-nc-10">
                 <div class="container">
                     <div class="container col-md-6">
-                        <img src="./img/home/introducing-nc-10.png">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-10.png">
                     </div>
                     <div class="container col-md-6 right-text-grey" style="opacity: 1; padding-top: 0 !important;">
                         <h5>Secure, Fine Grained Control over
@@ -122,7 +80,7 @@
                             Nextcloud installations.</p>
                         <br/>
                         <p>
-                            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a>
+                            <a class="btn btn-primary btn-lg " href="#" role="button">Learn more <span class="icon-arrow"></span></a>
                         </p>
                     </div>
                 </div>
@@ -134,7 +92,7 @@
             <div class="row introducing-nc-10">
                 <div class="container">
                     <div class="container col-md-6">
-                        <img src="./img/home/monitoring-nc-10.png">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/monitoring-nc-10.png">
                     </div>
                     <div class="container col-md-6 right-text-grey">
                         <h5>Faster and more reliable operation at scale</h5>
@@ -157,7 +115,7 @@
             <div class="row introducing-nc-10">
                 <div class="container">
                     <div class="container col-md-6">
-                        <img src="./img/home/auth-nc-10.png">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/auth-nc-10.png">
                     </div>
                     <div class="container col-md-6 right-text-grey">
                         <h5>Authentication and security</h5>
@@ -177,12 +135,12 @@
         </div>
     </section>
 
-<section class="panel-authentication hidden">
+	<section class="panel-authentication hidden">
         <div class="container">
             <div class="row introducing-nc-10">
                 <div class="container">
                     <div class="container col-md-6">
-                        <img src="./img/home/auth-nc-10.png">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/auth-nc-10.png">
                     </div>
                     <div class="container col-md-6 right-text-grey">
                         <h5>Foo & Bar</h5>
@@ -203,45 +161,46 @@
     </section>
 </div>
 </section>
-<script>
-    // Only make the scrolling effect for devices bigger than the 768px in width
-    if ($(window).width() > 768) {
-        var controller = new ScrollMagic.Controller();
-        new ScrollMagic.Scene({triggerElement: '#pinContainer', triggerHook: 'onLeave', duration: 750})
-                .addTo(controller)
-                .setPin('#pinContainer')
-                .on('enter leave', function (e) {
-                    $('.introducing-slider').addClass('hidden');
-                })
-                .on('start end', function (e) {
-                    $('.introducing-slider').removeClass('hidden');
-                })
-                .on('progress', function (e) {
-                    var progressNumber = e.progress.toFixed(4);
-                    var currentProgress = Math.round(10 * ((progressNumber / 10) * 3));
-                    $('#pinContainer section:lt(' + currentProgress + ')').addClass('hidden');
-                    $('#pinContainer section:gt(' + currentProgress + ')').addClass('hidden');
-                    $('#pinContainer section:nth(' + currentProgress + ')').removeClass('hidden');
-                    $('.introducing-slider .slider-oval').html('');
-                    $('.introducing-slider .slider-oval:nth(' + currentProgress + ')').html('<div class="active"></div>');
 
-                    if (currentProgress > 0) {
-                        $('#pinContainer section:nth(' + currentProgress + ') .right-text-grey')
-                                .animate({
-                                    'opacity': 1,
-                                    'margin-top': '-25px'
-                                }, 750);
-                    }
-                });
-    } else {
-        $('section:nth(0)').removeClass('hidden')
-        $('#pinContainer section .right-text-grey:nth(0)').css('opacity', '1.0');
-        $('#pinContainer').css('width', 'inherit');
-        $('#pinContainer').css('height', 'inherit');
-    }
+<script>
+	// Only make the scrolling effect for devices bigger than the 768px in width
+	if ($(window).width() > 768) {
+		var controller = new ScrollMagic.Controller();
+		new ScrollMagic.Scene({triggerElement: '#pinContainer', triggerHook: 'onLeave', duration: 750, offset: -100})
+			.addTo(controller)
+			.setPin('#pinContainer')
+			.on('enter leave', function (e) {
+				$('.indicators').addClass('hidden');
+			})
+			.on('start end', function (e) {
+				$('.indicators').removeClass('hidden');
+			})
+			.on('progress', function (e) {
+				var progressNumber = e.progress.toFixed(4);
+				var currentProgress = Math.round(10 * ((progressNumber / 10) * 3));
+				$('#pinContainer section:lt(' + currentProgress + ')').addClass('hidden');
+				$('#pinContainer section:gt(' + currentProgress + ')').addClass('hidden');
+				$('#pinContainer section:nth(' + currentProgress + ')').removeClass('hidden');
+				$('.indicators .btn__carousel').html('');
+				$('.indicators .btn__carousel').removeClass('active');
+				$('.indicators .btn__carousel:nth(' + currentProgress + ')').addClass('active');
+
+				if (currentProgress > 0) {
+					$('#pinContainer section:nth(' + currentProgress + ') .right-text-grey')
+						.animate({
+							'opacity': 1,
+							'margin-top': '-25px'
+						}, 750);
+				}
+			});
+	} else {
+		$('section:nth(0)').removeClass('hidden')
+		$('#pinContainer section .right-text-grey:nth(0)').css('opacity', '1.0');
+		$('#pinContainer').css('width', 'inherit');
+		$('#pinContainer').css('height', 'inherit');
+	}
 </script>
 
--->
 
 <div class="container-fluid" id="social-media">
 	<div class="row 3-column-lg-md-sm home-social">
@@ -256,7 +215,7 @@
 			<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,2); } ?></span>
 		</div>
 		<div class="col-md-4">
-			<i class="fa fa-comment"></i>
+			<i class="fa fa-comment"></i> d
 			<h3>Latest <a href="https://help.nextcloud.com">from the forum</a></h3>
 			<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,4); }?></span>
 		</div>
@@ -267,7 +226,7 @@
 	<div class="row stay-up-to-date">
 		<div class="container text-center" style="padding-top: 70px; padding-bottom: 70px;">
 			<h5>Stay up to date with Nextcloud's latest enhancements!</h5>
-			<p><a class="btn btn-primary btn-lg" href="https://newsletter.nextcloud.com/" role="button">Just click here <span class="glyphicon glyphicon-arrow-right"></span></a></p>
+			<p><a class="btn btn-primary btn-lg btn--absolute-icon" href="https://newsletter.nextcloud.com/" role="button">Subscribe to our newsletter<span class="icon-arrow"></span></a></p>
 		</div>
 	</div>
 </div>

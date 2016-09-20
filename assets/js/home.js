@@ -10,6 +10,7 @@ $(window).load(function() {
     elements.forEach(function(key) {
         new Waypoint({
             element: document.getElementById('why-nextcloud'),
+            offset: '60%',
             handler: function() {
                 anim.play();
             }
