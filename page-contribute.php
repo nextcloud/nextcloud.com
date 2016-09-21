@@ -1,11 +1,12 @@
+
 <h1>Get involved!</h1>
 <p>Nextcloud is an <strong>open source project</strong> and an open company. That means it is <em>yours</em> to make a difference!</p>
-<p>While we bootstrap our product, website and community infrastructure, we invite you to join our <a href="https://github.com/nextcloud" target="_blank">development efforts in github</a> and the conversations on <a href="https://help.nextcloud.com" target="_blank">our forums</a> and our <a href="irc://#nextcloud-dev@freenode.net" target="_blank">IRC channel on freenode</a>. Interact with us on our <a href="/news">blogs and social media</a>, too!</p>
+<p>We invite you to join our <a href="https://github.com/nextcloud" target="_blank">development efforts on GitHub</a>, the conversations on <a href="https://help.nextcloud.com" target="_blank">our forums</a> and our <a href="irc://#nextcloud-dev@freenode.net" target="_blank">IRC channel on freenode</a>. Interact with us on our <a href="/news">blogs and social media channels</a>, too!</p>
 
 
 <p>Do you want to get a certain <strong>improvement</strong> in Nextcloud? Did you find a <strong>problem</strong>?
 Do you want to <strong>help</strong> translate, promote or document Nextcloud?</p>
-<h2>Become part of the Nextcloud Community and help us liberate data across the globe!</h2>
+<h2>Become part of the <a href="/contributors/" target="_blank">Nextcloud Community</a> and help us liberate data across the globe!</h2>
 <!--<div class="row" style="text-align: center">
   <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html" class="btn btn-lg btn-default">
   <i class="icon-lightbulb-o"></i> Join the Test Pilots!</a>
@@ -35,12 +36,13 @@ Do you want to <strong>help</strong> translate, promote or document Nextcloud?</
             <ul>
             <li>Develop your own Nextcloud Server app (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>app">app development documentation</a>)</li>
             <li>Get a bug fixed (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker">bugtracker documentation</a> and <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>general">general guidelines and setup</a>)</li>
-            <li>Improve the Nextcloud Core (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>core">core development documentation</a>)</li>
-            <li>Learn to write Nextcloud code. (Try your hands on a <a href="https://github.com/nextcloud/core/issues?labels=Junior+Job&state=open" target="_blank">Junior Job</a>
+            <li>Improve the Nextcloud Server (<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>core">core development documentation</a>)</li>
+            <li>Learn to write Nextcloud code. (Try your hands on a <a href="https://github.com/nextcloud/core/issues?labels=Starter+Issue&state=open" target="_blank">Starter Issue</a>
           <!--and see the <a href="https://github.com/nextcloud/core/wiki/Project-ideas#coding">project ideas page</a>-->)
           </ul>
           <p>Talk to us <a href="irc://#nextcloud-dev@freenode.net">on IRC</a> and on our
           <a href="https://help.nextcloud.com" target="_blank">forum</a>! We look forward to your code and thoughts.</p>
+          <p>Note that <a href="/jobs">we're hiring</a>. We look especially for people who want to turn their passion into their job! When possible, we hire people from our active community base or from the wider open source community.</p>
 <!--           <iframe width="100%" height="360" src="https://www.youtube.com/embed/M_-PtACnnz4?rel=0" frameborder="0" allowfullscreen></iframe> -->
 	</div>
 	<div class="col-md-6">
@@ -56,7 +58,7 @@ Do you want to <strong>help</strong> translate, promote or document Nextcloud?</
          <p>Translate Nextcloud to your language. Go to <a href="https://www.transifex.com/projects/p/nextcloud/">Transifex</a> and get going!</p>
         <p>Help us improve the Nextcloud documentation! Find out how to make a difference <a href="https://doc.nextcloud.org/howto_contribute.html">in this contribution guide</a>!</p>
         <p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/misc/contribute-doc.gif" style="width: 100%" alt="front door" class="aligncenter" /></p>
-        <p>The animation shows the easiest way to contribute to the Nextcloud documentation. Go to the <a href="https://github.com/nextcloud/documentation">documentation in Github</a>, click the
+        <p>The animation shows the easiest way to contribute to the Nextcloud documentation. Go to the <a href="https://github.com/nextcloud/documentation">documentation in GitHub</a>, click the
         'edit' icon on a page, make the changes and create a pull request. This will notify the documentation maintainers of your proposed change and after review, it can be included!</p>
     </div>-->
 <!--    <div class="col-md-6">

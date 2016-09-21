@@ -1,6 +1,6 @@
 <?php get_template_part( 'templates/parts/title'); ?>
 <div class="sub-nav">
-	<a href="#files">File access and sharing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#clients">Mobile and desktop clients</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#externalstorage">External storage</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#calendarcontacts">Calendar and Contacts</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#webrtc">WebRTC video conferencing</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#onlineoffice">Collabora Online Office</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#video">Videos</a>
+	<a href="#files"><span class="avoidwrap">File access & sharing</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#control"><span class="avoidwrap">Security & control</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#clients"><span class="avoidwrap">Mobile & desktop clients</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#externalstorage"><span class="avoidwrap">External storage</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#calendarcontacts"><span class="avoidwrap">Calendar & Contacts</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#webrtc"><span class="avoidwrap">Secure audio & video calls</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#onlineoffice"><span class="avoidwrap">Collabora Online Office</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#video"><span class="avoidwrap">Videos of Nextcloud in action</span></a>
 </div>
 </div>
 <div class="featurerow">
@@ -10,9 +10,11 @@
 		</div>
 		<div class="col-md-7 featureblock">
 			<h1>Nextcloud puts you in control</h1>
-			<p class="">Nextcloud puts your data at your fingertips, under your control. You store your photos, calendar, contacts and documents on a server of your choosing, be it at home, a rented server or at one of our <a href="/providers">providers</a>. Your existing data can stay at that FTP drive at work, dropbox or a NAS you have at home, while you get at it through Nextcloud.</p>
+			<p class="">Nextcloud puts your data at your fingertips, under your control. You store your photos, calendar, contacts and documents on a server of your choosing, be it at home, a rented server or at one of our <a href="/providers">providers</a>. Your existing data can stay on that FTP drive at work, dropbox or a NAS you have at home, while you access it through Nextcloud.</p>
 			<p class="">A trusted solution giving you access to all data you care about in one convenient place!</p>
-			<a href="https://demo.nextcloud.com" class="btn btn-primary">Try it out!</a>
+			<div class="text-center morebuttondiv">
+				<a href="https://demo.nextcloud.com" class="btn btn-primary morebutton" target="_blank">Try it out now! <i class="icon-arrow-circle-o-right icon"></i></a>
+			</div>
 		</div>
 	</div>
 </div>
@@ -22,11 +24,13 @@
 	<h1 class="featuretitle">File access and sharing</h1>
 	<div class="row">
 		<div class="col-md-6 featureblock">
-			<h2 class="featuretitle">Share on your terms</h2>
-			<p class="">Nextcloud features an easy to use and powerful web interface. You can access all your files wherever you are and however you like.</p>
-			<p class="">The easy interface allows you to share with other users on your server, send password protected public links, let others upload files to you and get notifications on your phone when a user on another Nextcloud server shares files directly with you.</p>
+			<h2 class="featuretitle">Your files everywhere</h2>
+			<p class="">Nextcloud gives you access to all your files wherever you are and whatever device you use.</p>
+			<p class="">The easy web interface allows you to share files with other users on your server, to create and send password protected public links, to let others upload files to your cloud and to get notifications on your phone and desktop when a user on another cloud server shares files directly with you. And you can do all these things from the desktop or mobile clients, too.</p>
 			<p>Nextcloud makes sharing and collaboration easy!</p>
-			<a href="/sharing" class="btn btn-primary">Learn more about sharing in Nextcloud</a>
+			<div class="text-center morebuttondiv">
+				<a href="/sharing" class="btn btn-primary morebutton">Collaboration in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a>
+			</div>
 		</div>
 		<div class="col-md-6">
 			<div class="yt-img-overlay">
@@ -41,6 +45,47 @@
 	</div>
 </div>
 
+<a name="control"></a>
+<div class="featurerow">
+	<h1 class="featuretitle">Security and control</h1>
+	<div class="row">
+		<div class="col-md-6 featureblock">
+			<h2 class="featuretitle">Share on your terms</h2>
+			<p class="">With Nextcloud, system administrators can control and direct the flow of data between users on a server. Rule based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements.</p>
+			<p>Features including our monitoring app, 2-factor authentication, brute force protection and our <a href="https://nextcloud.com/introducing-the-nextcloud-bug-bounty-program/" target="_blank">Eur 5000 security bug bounty program</a> give you the highest level of security and protection against privacy breaches.</p>
+			<p>Nextcloud puts you in control of your data and keeps it safe.</p>
+			<div class="text-center morebuttondiv">
+				<a href="/workflow" class="btn btn-primary morebutton">Workflow handling in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<!--<div class="yt-img-overlay">
+				<a class="youtube" href="https://www.youtube.com/watch?v=Fe1I7wYW6hA" title="Creating anonymous upload links">
+					<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/hqdefault.jpg" title="Creating anonymous upload links" />
+					<div class="yt-play-btn">
+						<i></i> 
+					</div>
+				</a>
+			</div>-->
+			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control-wee.png" />
+		</div>
+	</div>
+	<h2 class="">Monitoring your Nextcloud server</h2>
+	<div class="row">
+		<div class="col-md-4">
+	<!-- 		<a href="https://www.youtube.com/watch?v=9-JEmlH2DEg" target="_blank" style="border: none;"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/federation/federation.gif" alt="in action" /></a> -->
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/monitoring.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-wee.png" alt="in action" /></a>
+		</div>
+		<div class="col-md-8">
+			<p>The Server Information app provides a way for admins to monitor the health and performance of a Nextcloud system. Besides the graphical UI, an API endpoint provided makes it possible for system administrators to import this data in their monitoring app so they can keep an eye on Nextcloud operations from the same place they monitor the rest of their infrastructure.</p>
+			<div class="text-center morebuttondiv">
+				<a href="/workflow#monitoring" class="btn btn-primary morebutton">Monitoring in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
 
 <a name="clients"></a>
 <div class="featurerow">
@@ -51,20 +96,20 @@
 		</div>
 		<div class="col-md-8 featureblock">
 			<p class="">
-			Nextcloud clients for Android, iOS and desktop systems allow you to sync and share files, fully secured and encrypted. The mobile clients feature automatic upload of pictures and videos you take and can synchronize select files and folders. The clients can handle multiple accounts, show you activities on your server and give notifications of new shares and other important updates.</p>
+			Nextcloud clients for Android, iOS and desktop systems allow you to sync and share files, in a fully secure way through an encrypted connection. The mobile clients feature automatic upload of pictures and videos you take and can synchronize select files and folders. The clients can handle multiple accounts, show all activity happening on your server and notify you of new events such as the availability of new shares.</p>
 <!--		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-10 featureblock">-->
-			<p class="">While not all clients support all features yet, this is by an large what you can do with them:
+			<p class="">While not all clients support all features yet, here is a non-exhaustive list of what you can do today:
 			<ul>
-				<li>File handling like renaming, deleting and moving of files</li>
-				<li>Display of documents, photos, videos, audio files with previews</li>
-				<li>Favorite files to keep them synchronized and available offline</li>
-				<li>Automatic uploading of images taken with the phone camera</li>
-				<li>Share directly to users on your Nextcloud, other servers or via a public link</li>
+				<li>Perform file operations such as rename, delete and move</li>
+				<li>Show previews of documents, photos and videos and choose between list and grid view</li>
+				<li>Mark files as favourites to keep them in sync with the server and available offline</li>
+				<li>Upload pictures taken with your phone's camera automatically</li>
+				<li>Share files directly with users on your Nextcloud, with other cloud servers or via public link</li>
 				<li>Get notified of shares or other events</li>
-				<li>See what happens with your files on the server</li>
+				<li>Show all activity related to your files</li>
 			</ul>
 			</p>
 		</div>
@@ -82,18 +127,18 @@
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png" />
 		</div>
 		<div class="col-md-5 featureblock">
-			<p class="">The external storage feature of Nextcloud gives you access to your data wherever it is. Nextcloud can access your files residing at a wide variety of external storage providers, from known cloud service providers like Amazon, Google and Dropbox to general standards like (S)FTP, WebDAV and more.</p>
-			<p class="">The Encryption App can encrypt data on the Nextcloud server for local or remote storage. Keys can be handled by an external key management server or be kept local. Nextcloud will keep your data where they are and grab them over a secure channel whenever you need access to them.</p>
+			<p class="">The external storage feature of Nextcloud gives you access to your data wherever it is. Nextcloud can access files stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but you can also access them using standard protocols such as (S)FTP, WebDAV and more.</p>
+			<p class="">The Encryption App can encrypt data at rest for both local and remote storage, protecting data stored on networks outside of your infrastructure. Keys can be handled by an external key management server or stored locally, on the server. Nextcloud will keep your data where it is and retrieve it over a secure communication channel whenever you need to access it.</p>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-5 featureblock">
 			<p class="">External storage features:
 			<ul>
-				<li>Support for SWIFT, (S)FTP, WebDAV, Amazon S3, Google Drive, Dropbox, SMB/CIFS/Windows Network Drive and Open Stack Object Storage.</li>
-				<li>Full Server side encryption with optional external key management</li>
+				<li>Support for SWIFT, (S)FTP, WebDAV, Amazon S3, Google Drive, Dropbox, SMB/CIFS/Windows Network Drive, Sharepoint and OpenStack Object Storage (Swift).</li>
+				<li>Full server side encryption with optional external key management</li>
 				<li>Encryption can be enabled or disabled for each external storage system</li>
-				<li>Admin can control if and which types of external storage users can add</li>
+				<li>Administrators can control the list of external storage types users have access to</li>
 			</ul>
 			</p>
 		</div>
@@ -111,7 +156,7 @@
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" />
 		</div>
 		<div class="col-md-6 featureblock">
-			<p style="padding-bottom: 30px;">The Nextcloud Calendar and Contacts apps allow you to store, sync and share your plans and contacts. You can share with users or groups on your server, sync the calendar or contacts with your devices and access them wherever you are.</p>
+			<p style="padding-bottom: 30px;">The Nextcloud Calendar and Contacts apps allow you to store, sync and share your plans and contacts. You can share with users or groups on your server or sync the calendar or contacts with your devices and access them wherever you are.</p>
 		</div>
 <!--	</div>
 	<div class="row">-->
@@ -123,9 +168,8 @@
 			The Calendar and Contacts app feature:
 			<ul>
 				<li>Easy to use interface</li>
-				<li>Private and shared calendars with permission handling</li>
-				<li>Private and shared addressbooks with permission handling</li>
-				<li>CalDAV and CardDAV sync with third party clients on Android, native in iOS, Thunderbird etc</li>
+				<li>Private and shared calendars and addressbooks with permissions management</li>
+				<li>CalDAV and CardDAV sync with third party clients both on mobile and desktop (i.e with Thunderbird)</li>
 			</ul>
 			</p>
 		</div>
@@ -134,7 +178,7 @@
 
 <a name="webrtc"></a>
 <div class="featurerow">
-	<h1  class="featuretitle">Secure WebRTC Conferencing</h1>
+	<h1  class="featuretitle">Secure audio and video calls</h1>
 	<div class="row">
 		<div class="col-md-5">
 			<div class="yt-img-overlay">
@@ -145,37 +189,48 @@
 					</div>
 				</a>
 			</div>
+			<div class="text-center morebuttondiv">
+				<p><a href="/spreedbox" class="btn btn-primary morebutton">The Spreedbox <i class="icon-arrow-circle-o-right icon"></i></a></p>
+				<br/>
+				<p><a href="https://spreed.me" class="btn btn-primary morebutton" target="_blank">Test Spreed.ME <i class="icon-arrow-circle-o-right icon"></i></a></p>
+			</div>
 		</div>
 		<div class="col-md-7">
-			<p>Operate your own secure audio/video chat, messaging and file sharing service with the highest measurements for control and security of your own data. Your own video meeting and file sharing service can be available on computers, mobile phones and tablets through the Internet or limited to an Intranet. Make a call, invite your friends and clients, and collaborate in closed groups through video/audio, text messaging, and document and file sharing. You can access your private data in an easy-to-use web interface with PC, Android and iOS devices.</p>
-			<p><a href="/spreedbox" class="btn btn-primary">Learn more about Secure WebRTC Conferencing</a></p>
+			<p>Operate your own secure and private audio/video and text chat. Your own video meeting service is accessible through browsers and dedicated apps on computers, mobile phones and tablets through the Internet or limited to an Intranet. Make a call, invite your friends and clients, and collaborate in closed groups through secure, end to end encrypted video/audio, text messaging, and document and file sharing. The Spreed.ME technology used offers peer to peer, WebRTC based communication channels which can not be intercepted even by the admin of the server. It provides an easy ot use interface and can optionally interface with telephone lines, handling up to 10 participants in one session and tens of sessions on a single server.</p>
+			<p>You can integrate this secure communication in your Nextcloud server or purchase our Spreedbox appliance in one cool, aluminum cube!</p>
+			<div class="text-center morebuttondiv">
+				<p><a href="/webrtc" class="btn btn-primary morebutton">Communication in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a></p>
+			</div>
 		</div>
 	</div>
 </div>
 
 <a name="onlineoffice"></a>
 <div class="featurerow">
-	<h1  class="featuretitle">CollaboraOnline Office</h1>
+	<h1  class="featuretitle">Collabora Online Office</h1>
 	<div class="row">
 		<div class="col-md-5 featureblock">
-			<p class="">Collabora Online is a powerful LibreOffice-based online office suite that supports all major document, spreadsheet and presentation file formats.</p>
+			<p class="">Collabora Online is a powerful LibreOffice-based online office suite which supports all major document, spreadsheet and presentation file formats.</p>
 			<p class="">Features:
 			<ul>
-				<li>Basic editing</li>
-				<li>Document Support:
+				<li>Large document format support:
 					<ul>
-						<li>DOC, DOCX, PPT, PPTX, XLS, XLSX + ODF</li>
-						<li>Import/View Visio, Publisher, + 100 more</li>
+						<li>DOC, DOCX, PPT, PPTX, XLS, XLSX</li>
+						<li>ODF, ODS, ODP</li>
+						<li>Visio (read-only), Publisher, + 100 more</li>
 					</ul>
 				</li>
 				<li>High fidelity, WYSIWYG rendering</li>
+				<li>Basic editing functions</li>
 				<li>Shared editing
 					<ul>
-						<li>One user edits, others can follow. You can change who edits.</li>
+						<li>One editor at a time, others can see changes live. You can assign a different editor at any time.</li>
 					</ul>
 				</li>
 			</ul>
-		<a href="/collaboraonline" class="btn btn-primary">Learn more about Collabora Online</a></p>
+			<div class="text-center morebuttondiv">
+				<a href="/collaboraonline" class="btn btn-primary morebutton">Collabora Online  <i class="icon-arrow-circle-o-right icon"></i></a></p>
+			</div>
 		</div>
 		<div class="col-md-7">
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png" />
@@ -198,13 +253,13 @@
 			<i class="icon-tags icon"></i>
 			</div>
 			<div class="col-md-3 featureblock">
-			<p class="">Nextcloud offers an easy user interface with search, favorites, tags and other ways to quickly get at your files</p>
+			<p class="">Nextcloud offers an easy to use user interface which comes with search functionality, favorites, tags and even more ways to quickly reach the files you need</p>
 			</div>
 			<div class="col-md-1 featureblock">
 			<i class="icon-file-text icon"></i>
 			</div>
 			<div class="col-md-3 featureblock">
-			<p class="">File editing and preview support for PDF, images, text files, Open Document, Word files and more</p>
+			<p class="">Document editing and thumbnail previews of PDF, images, text files, office files and more</p>
 			</div>
 		</div>
 		<div class="row">
@@ -218,13 +273,13 @@
 			<i class="icon-puzzle-piece icon"></i>
 			</div>
 			<div class="col-md-3 featureblock">
-			<p class="">LDAP / Active Directory integration and SAML 2.0 support</p>
+			<p class="">LDAP / Active Directory integration and Shibboleth / SAML 2.0 support</p>
 			</div>
 			<div class="col-md-1 featureblock">
 			<i class="icon-life-ring icon"></i>
 			</div>
 			<div class="col-md-3 featureblock">
-			<p class="">Example files for new users. Preload a new user's Files area with, for example, a tutorial file, which appears when they first log in.</p>
+			<p class="">Pre-loaded files and folders for new users. Populate a new user's Files area with, for example, a tutorial file, which appears when they first log in.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -232,13 +287,13 @@
 			<i class="icon-key icon"></i>
 			</div>
 			<div class="col-md-3 featureblock">
-			<p class="">Powerful integrated logging and password policy control</p>
+			<p class="">Powerful, integrated logging and password policy control functionalities</p>
 			</div>
 			<div class="col-md-1 featureblock">
 			<i class="icon-share-alt icon"></i>
 			</div>
 			<div class="col-md-3 featureblock">
-			<p class="">Fine-grained control over access to data and sharing capabilities by user and by group</p>
+			<p class="">Fine-grained control from mobile, desktop or the Web over data access and sharing capabilities. Pick from the list of users and groups, stored either locally or on another, authorised, server. </p>
 			</div>
 			<div class="col-md-1 featureblock">
 			<i class="icon-archive icon"></i>
@@ -252,13 +307,13 @@
 			<i class="icon-code icon"></i>
 			</div>
 			<div class="col-md-3 featureblock">
-			<p class="">Sharing REST API. Control sharing from mobile apps and desktop clients</p>
+			<p class="">Sharing and Provisioning REST APIs. Facilitates the integration of remote 3rd party apps</p>
 			</div>
 			<div class="col-md-1 featureblock">
 			<i class="icon-certificate icon"></i>
 			</div>
 			<div class="col-md-3 featureblock">
-			<p class="">Easy development of 3rd party apps with the share REST API. Quick access to core functions for app development with the powerful Nextcloud App API and webhooks following the publication / subscription model</p>
+			<p class="">Quick access to core functions for app development with the powerful Nextcloud App API and webhooks following the publication / subscription model</p>
 			</div>
 			<div class="col-md-1 featureblock">
 			<i class="icon-paint-brush icon"></i>
@@ -318,7 +373,12 @@
 			</br> Collabora Online Office in Nextcloud
 		</div>
 	</div>
+	<div class="col-md-12 text-center  morebuttondiv">
+		<a href="http://www.youtube.com/c/nextcloud " class="btn btn-primary morebutton morebuttonyoutube">Nextcloud on <i class="icon-youtube icon"></i></a>
+	</div>
 </div>
+
+
 
 </div>
 <div class="wrap container">

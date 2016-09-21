@@ -9,7 +9,7 @@
 			<i class="icon-download"></i>
 		</div>
 		<h2>1. Get Nextcloud Server</h2>
-		<p>Set up a server for yourself<!--, deploy to the cloud--> or find a provider:
+		<p>Set up a server for yourself, use our appliances or find a provider:</p>
 		<div class="btn-group">
 			<a class="btn btn-default btn-large" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">Download</a>
 			<a class="btn btn-default btn-large" href="/providers">Providers</a>
@@ -25,17 +25,11 @@
 			<i class="icon-refresh"></i>
 		</div>
 		<h2>2. Sync your data</h2>
-		<p>Connect to your Nextcloud with our clients:</p>
-		<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png">
-		</a>
-		<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
-		</a>
-<!--     <div class="btn-group"> -->
-<!--       <a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients">Desktop Clients</a> -->
-		<br /><a class="btn btn-default btn-lg" role="button" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">More Clients</a>
-<!--     </div> -->
+		<p>Connect to your Nextcloud with our clients for all your devices:</p>
+		<div class="btn-group">
+			<a class="btn btn-default btn-large" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients">Desktop Clients</a> 
+			<a class="btn btn-default btn-large" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">Mobile Clients</a>
+	</div>
 	</div>
   <!--<div class="col-md-4">
     <hr class="narrow"></hr>
@@ -90,21 +84,36 @@
 			<i class="icon-rocket"></i>
 		</div>
 		<h2>Get Involved</h2>
-		<p>If you want to help out with <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank" rel="tooltip" title="Developer Documentation">developing</a> and <!--<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html" target="_blank"  rel="tooltip" title="Testing Documentation">-->testing<!--</a>-->, grab a daily build. Our <a href="https://github.com/nextcloud" target="_blank">code is here</a>.<br />
-		<a href="<?php echo $DOWNLOAD_SERVER_DAILY_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i>  Daily build</a></p>
+		<p>If you want to help out with <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank" rel="tooltip" title="Developer Documentation">developing</a> and <!--<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>testing/index.html" target="_blank"  rel="tooltip" title="Testing Documentation">-->testing<!--</a>-->, grab a daily build. Our <a href="https://github.com/nextcloud" target="_blank">GitHub project is here</a> and the <a href="https://github.com/nextcloud/server/issues" target="_blank">issue tracker for the server here</a>.</p>
+		<p><a href="<?php echo $DOWNLOAD_SERVER_DAILY_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i>  Daily build</a></p>
 		<?php if(!empty($SERVER_TESTING_VERSION)) { ?>
-			    <p>Latest testing version: <span class="label label-blue"><?php echo $SERVER_TESTING_VERSION; ?></span><br />
-		<?php } ?>
+			    <p>Latest testing version: <span class="label label-blue"><?php echo $SERVER_TESTING_VERSION; ?></span></p>
+		<p>
 		<?php if(!empty($DOWNLOAD_SERVER_ZIP_TESTING)) { ?>
 			      <a href="<?php echo $DOWNLOAD_SERVER_ZIP_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> zip</a>
 		<?php } ?>
 		<?php if(!empty($DOWNLOAD_SERVER_TAR_TESTING)) { ?>
 			<a href="<?php echo $DOWNLOAD_SERVER_TAR_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> tar.bz2</a>
+		<?php } ?>
+		<?php } ?>
+		<?php if(!empty($VERSIONS_CLIENT_DESKTOP_TESTING)) { ?>
+			<h4>Desktop Clients <small><?php echo $VERSIONS_CLIENT_DESKTOP_TESTING; ?></small></h4>
+			<p>Please report any issues to the <a href="https://github.com/nextcloud/client_theming" target="_blank">issue tracker</a>.</p>
+			<!--<p>You can check the authenticity of the sources using this <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES_PGP; ?>">PGP signature</a>.</p>-->
+			<div class="btn-group">
+				<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_WIN; ?>" class="btn btn-lg btn-default"><i class="icon-windows"></i>  Windows</a>
+				<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_MAC; ?>" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac</a>
+			</div>
+		    <div class="btn-group">
+				<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux</a>
+				<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> Sources</a>
+			</div>
 		<?php } ?></p>
 		<p>See more <a href="/contribute" target="_blank" rel="tooltip" title="The Nextcloud Contribute Page">ways to get involved</a>!</p>
 		
 	</div>
 </div>
+<?php require get_template_directory().'/install-instructions.php'; ?>
 <script>
     $('#mobile').click(function () {
         $("#tab-desktop").removeClass("active");

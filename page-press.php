@@ -1,15 +1,18 @@
 <?php get_template_part('templates/parts/title'); ?>
 <h2>Current Release Information <small> Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></small></h2>
-<a target="_blank" href="https://nextcloud.com/nextcloud-9-update-brings-security-open-source-enterprise-capabilities-and-support-subscription-ios-app/" class="btn btn-lg btn-default">Announcement</a>
+<a target="_blank" href="https://nextcloud.com/?p=859" class="btn btn-lg btn-default">Announcement</a>
 <!-- <a href="/nine" class="btn btn-lg btn-default">Overview of new features</a> -->
 <h2>Press releases</h2>
 <ul>
-	<li><a href="/press/pr20160602">June 2nd, 2016: Core Contributors Fork Into Nextcloud</a></li>
-	<li><a href="/press/pr20160614">June 14, 2016: Nextcloud 9 Released Ahead of Promised Date and Fully Commited to Open Source</a></li>
-	<li><a href="/press/pr20160705/">July 5th, 2016: Nextcloud delivers secure enterprise functionality backed by expert support and with partner-provided iOS client</a></li>
-	<li><a href="/press/pr20160719/">July 19th, 2016: Nextcloud and Collabora Partner to Offer Community and Enterprise Solution for Online Office</a></li>
+	<li><a href="/press/pr20160916/">Semptember 16, 2016: Nextcloud Box – a private cloud and IoT solution for home users – from Nextcloud, Canonical and WDLabs</a></li>
+	<li><a href="/press/pr20160901/">Semptember 1st, 2016: Nextcloud Conference to Feature Launch Event, Keynote Speakers: Jane Silber, CEO of Canonical and Karen Sandler, Executive Director at the Software Freedom Conservancy</a></li>
+	<li><a href="/press/pr20160825/">August 25th, 2016: Nextcloud 10 Delivers Secure, Fine Grained Control over Data Access and Workflows</a></li>
+	<li><a href="/press/pr20160812/">August 12th, 2016: Press event at IFA 2016: Using everyday technology to make a positive impact</a></li>
 	<li><a href="/press/pr20160721/">July 21th, 2016: Beta of Nextcloud 10 with Brute Force Protection, Two-Factor Authentication, Improved Federation and more</a></li>
-	<li><a href="/press/pr20160725/">July 21th, 2016: Geniatech / Struktur AG cooperating on the development and deployment of DVB-T2 HD HEVC H.265 applications / EyeTV T2 product launch</a></li>
+	<li><a href="/press/pr20160719/">July 19th, 2016: Nextcloud and Collabora Partner to Offer Community and Enterprise Solution for Online Office</a></li>
+	<li><a href="/press/pr20160705/">July 5th, 2016: Nextcloud delivers secure enterprise functionality backed by expert support and with partner-provided iOS client</a></li>
+	<li><a href="/press/pr20160614">June 14, 2016: Nextcloud 9 Released Ahead of Promised Date and Fully Committed to Open Source</a></li>
+	<li><a href="/press/pr20160602">June 2nd, 2016: Core Contributors Fork Into Nextcloud</a></li>
 </ul>
 
 <h2>Latest News and Annoucements</h2>

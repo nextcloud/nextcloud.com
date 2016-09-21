@@ -49,32 +49,32 @@
 		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
-		<td class="einfo"><span title="Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging and more.">Enterprise capabilities</span></td>
+		<td class="einfo"><span title="Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.">Enterprise capabilities</span></td>
 		<td class="ebasic text-center"><i class="icon-check"></i></td>
 		<td class="epro text-center"><i class="icon-check"></i></td>
 		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="Support for the Calendar and Contacts apps.">Calendar and Contacts</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="epro text-center"><i class="icon-check"></i></td>
 		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
-		<td class="einfo"><span title="Secure and private peer to peer audio and video conferencing.">Secure WebRTC Conferencing</span></td>
-		<td class="ebasic text-center">-</td>
-		<td class="epro text-center"><i class="icon-check"></i></td>
-		<td class="eenterprise text-center"><i class="icon-check"></i></td>
+		<td class="einfo"><span title="Support for our secure and private peer to peer audio and video conferencing.">Secure WebRTC Conferencing</span></td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
+		<td class="epro text-center"><span title="can be purchased at additional cost.">Optional</span></td>
+		<td class="eenterprise text-center"><span title="can be purchased at additional cost.">Optional</span></td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="Allows web conferencing calls to connect with phone lines.">SIP gateway</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="einfo epro text-center"><span title="can be purchased at additional cost.">Optional</span></td>
-		<td class="eenterprise text-center">Included</td>
+		<td class="eenterprise text-center"><span title="can be purchased at additional cost.">Optional</span></td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.">Collabora Online Office</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="einfo epro text-center"><span title="can be purchased at additional cost (starting at 7€/user/year.">Optional</span></td>
 		<td class="einfo eenterprise text-center"><span title="can be purchased at additional cost (starting at 7€/user/year.">Optional</span></td>
 	</tr>
@@ -108,26 +108,26 @@
 	</tr>
 	<tr>
 		<td class="einfo"><span title="You can contact our capable and responsive support team by email and expect a quick response time.">Email support</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="epro text-center">Business hours</td>
 		<td class="eenterprise text-center">up to 24/7</td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="You can contact our support engineers by phone in these times.">Phone support</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="epro text-center">Business hours</td>
 		<td class="eenterprise text-center">up to 24/7</td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="If you need access to experienced engineers to built custom solutions for your unique needs.">Custom consulting</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="epro text-center"><i class="icon-check"></i></td>
 		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering support</span></td>
-		<td class="ebasic text-center">-</td>
-		<td class="epro text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
+		<td class="epro text-center"><i class="icon-times"></i></td>
 		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
@@ -143,50 +143,102 @@
 		<td class="eenterprise"></td>
 	</tr>
 	<tr>
-		<td class="">51-100</td>
+		<td class="">Users 51-100</td>
 		<td class="ebasic price"><a href="#contact">30€/user</a></td>
 		<td class="epro price"><a href="#contact">50€/user</a></td>
 		<td class="eenterprise price"><a href="#contact">65€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">101-250</td>
+		<td class="">Users 101-250</td>
 		<td class="ebasic price"><a href="#contact">20€/user</a></td>
 		<td class="epro price"><a href="#contact">30€/user</a></td>
 		<td class="eenterprise price"><a href="#contact">50€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">251-1000</td>
+		<td class="">Users 251-1000</td>
 		<td class="ebasic price"><a href="#contact">15€/user</a></td>
 		<td class="epro price"><a href="#contact">20€/user</a></td>
 		<td class="eenterprise price"><a href="#contact">30€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">1001-2500</td>
-		<td class="ebasic price">-</td>
+		<td class="">Users 1001-2500</td>
+		<td class="ebasic price"><i class="icon-times"></i></td>
 		<td class="epro price"><a href="#contact">15€/user</a></td>
 		<td class="eenterprise price"><a href="#contact">20€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">2501-10.000</td>
-		<td class="ebasic price">-</td>
-		<td class="epro price">-</td>
+		<td class="">Users 2501-10.000</td>
+		<td class="ebasic price"><i class="icon-times"></i></td>
+		<td class="epro price"><i class="icon-times"></i></td>
 		<td class="eenterprise price"><a href="#contact">15€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">10.001-25.000</td>
-		<td class="ebasic price">-</td>
-		<td class="epro price">-</td>
+		<td class="">Users 10.001-25.000</td>
+		<td class="ebasic price"><i class="icon-times"></i></td>
+		<td class="epro price"><i class="icon-times"></i></td>
 		<td class="eenterprise price"><a href="#contact">10€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">>25.000</td>
-		<td class="ebasic price">-</td>
-		<td class="epro  price">-</td>
+		<td class="">Users >25.000</td>
+		<td class="ebasic price"><i class="icon-times"></i></td>
+		<td class="epro  price"><i class="icon-times"></i></td>
 		<td class="eenterprise text-center"><a href="#contact">Contact us!</a></td>
 	</tr>
 </table>
-<p class="epricevat">Prices are in Euro and net/excl. VAT.</p>
-<p>* with optional additional 5 years Extended Life Cycle Support.</p>
+<p class="epricevat">* with optional an additional 5 years Extended Life Cycle Support reaching up to 15 years in total.</p>
+<p class="epricevat">Prices are in Euro and net/excl. VAT. <span class="caret"></span><a href="#pricing" data-toggle="collapse"> pricing example</a>
+	<div id="pricing" class="collapse">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-6">
+				<p>We have a tiered price list.</p>
+				<p>Example for 500 users Standard Subscription:
+<!-- 				<div class="col-md-6"> -->
+				<table class="table table-striped">
+					<tr>
+						<td>
+						The first 50 users:
+						</td>
+						<td>
+							+ 2.500€
+						</td>
+					</tr>
+					<tr>
+						<td>
+						User 51-100 (50*50€):
+						</td>
+						<td>
+							+ 2.500€
+						</td>
+					</tr>
+					<tr>
+						<td>
+						User 101-250 (150*30€):
+						</td>
+						<td>
+							+ 4.500€
+						</td>
+					</tr>
+					<tr>
+						<td>
+						User 251-500 (250*20€):
+						</td>
+						<td>
+							+ 5.500€
+						</td>
+					</tr>
+					<tr class="success">
+						<td>
+						total for 500 users
+						</td>
+						<td>
+							= 14.500€
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</p>
 
 <div class="row egetstarted">
 	<div class="col-md-2 col-md-offset-5">
@@ -238,7 +290,7 @@
 
 <div class="row egetstarted">
 	<div class="col-md-12">
-		<a class="btn btn-primary" href="/features">Learn more about Nextcloud features</a>
+		<a class="btn btn-primary" href="/features">Nextcloud features</a>
 	</div>
 </div>
 
@@ -250,8 +302,8 @@
 	<li>Access to all data in your organization, no matter where it is stored</li>
 	<li>Deep integration in corporate infrastructure like LDAP and SAML 2.0 authentication, Windows Network Drive storage support and more</li>
 	<li>Seamless collaboration and communication built in</li>
-	<li>Fully secure and encrypted data handling<!-- with fine grained file access control--></li>
-	<li>Compliance capabilities with <!--retention,--> logging and auditing</li>
+	<li>Fully secure and encrypted data handling with fine grained file access control</li>
+	<li>Compliance capabilities with retention, logging and auditing</li>
 	<li>Anti-virus integration</li>
 	<li>Calendar, Contacts and secure video and audio conferencing</li>
 	<li>We continuously improve our product and add new capabilities in close collaboration with partners and customers</li>

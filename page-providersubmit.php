@@ -45,7 +45,7 @@ if(isset($_POST['email'])) {
   if(!preg_match($string_exp,$organization)) {
     $error_message .= 'The organization you entered does not appear to be valid.<br />';
     }
-    $string_exp = "/^((\+|00)\d{1,3})?\d+$/";
+    $string_exp = "/^((\+|00)\d{1,3})?(\d+|\s+)+\d$/";
   if(!preg_match($string_exp,$phone)) {
     $error_message .= 'The phone number you entered does not appear to be valid, did you add a country code like +49?<br />';
     }

@@ -10,7 +10,7 @@
 				<a href="#" class="close">&times;</a>
 				<ul class="nav nav-tabs" role="tablist">
 					<li id="li-tab-archive" class="active"><a href="#tab-archive" title="For server owners" role="tab" data-toggle="tab"><i class="icon-archive"></i> Archive File<br><small>For server owners</small></a></li>
-<!-- 					<li><a href="#tab-web" title="Best for shared hosts" role="tab" data-toggle="tab"><i class="icon-code"></i> Web Installer<br><small>For shared hosts</small></a></li> -->
+					<li><a href="#tab-web" title="Best for shared hosts" role="tab" data-toggle="tab"><i class="icon-code"></i> Web Installer<br><small>For shared hosts</small></a></li>
 <!-- 					<li id="li-tab-packages"><a href="#tab-packages" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-linux"></i> Packages<br><small>For auto updates</small></a></li> -->
 					<li><a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-cloud"></i> Appliances<br><small>For easy deployment</small></a></li>
 				</ul>
@@ -49,7 +49,7 @@
 							<div class="col-md-6">
 								<p>The <strong>Web Installer</strong> is the easiest way to install Nextcloud on a web space. It checks the dependencies, downloads Nextcloud from the official server, unpacks it with the right permissions and the right user account. Finally, you will be redirected to the Nextcloud installer.</p>
 								<ol>
-									<li>Right-click <a href="https://download.nextcloud.com/download/community/setup-nextcloud.php">here</a> and save the file to your computer</li>
+									<li>Right-click <a href="https://download.nextcloud.com/server/installer/setup-nextcloud.php">here</a> and save the file to your computer</li>
 									<li>Upload <tt>setup-nextcloud.php</tt> to your web space</li>
 									<li>Point your web browser to <tt>setup-nextcloud.php</tt> on your webspace</li>
 									<li>Follow the instructions and configure Nextcloud</li>
@@ -90,7 +90,7 @@
 							<div id="tab-cloud" role="tabpanel" class="tab-pane">
 								<div class="overlay-body row">
 									<div class="col-md-6">
-										<p>The official Nextcloud appliance, provided by TechandMe.se, is the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure connection<!-- and the <a href="/connect">Nextcloud Proxy app</a>-->. <!--You can install <a href="https://www.virtualbox.org/">virtual box</a>, download our <a href="<?php echo $DOWNLOAD_VM_OVA; ?>">OVA</a> file and load it up. See our <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/appliance_installation.html">documentation for more details</a>.--></p>
+										<p>The official Nextcloud appliance, provided by <a target="_blank" href="https://www.techandme.se/">TechandMe.se</a>, is the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure connection<!-- and the <a href="/connect">Nextcloud Proxy app</a>-->. <!--You can install <a href="https://www.virtualbox.org/">virtual box</a>, download our <a href="<?php echo $DOWNLOAD_VM_OVA; ?>">OVA</a> file and load it up. See our <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/appliance_installation.html">documentation for more details</a>.--></p>
 										<h4>Grab the Nextcloud virtual machine image from the TechandMe.se website<!--in one of these formats-->:</h4>
 										<p><a class="btn btn-primary" href="https://www.techandme.se/nextcloud-vm/">Instructions and download</a></p>
 										<p>Find <a href="https://github.com/nextcloud/vm">source here</a>.</p>
@@ -174,14 +174,13 @@
 				<div id="tab-desktop" role="tabpanel" class="tab-pane active">
 					<div class="overlay-body row">
 						<div class="col-md-6">
-							<p>Latest stable version: <?php echo $VERSIONS_CLIENT_DESKTOP_STABLE_FULL; ?>&nbsp;&nbsp;(<a href="/changelog/desktop"><small>Changelog</small></a>)</p>
-							<p>Use the desktop clients to keep your files synchronized between your Nextcloud server and your desktop. Select one or more directories on your local machine and always have access to your latest files wherever you are. As the clients are compatible, below simply links to the ownCloud™ client.</p>
+							<p>Latest stable version: <?php echo $VERSIONS_CLIENT_DESKTOP_STABLE_FULL; ?>&nbsp;&nbsp;<!--(<a href="https://owncloud.org/changelog/desktop/"><small>ownCloud™ Changelog</small></a>)--></p>
+							<p>Use the desktop clients to keep your files synchronized between your Nextcloud server and your desktop. Select one or more directories on your local machine and always have access to your latest files wherever you are.</p>
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN; ?>" id="client-download-win" class="btn btn-lg btn-default"><i class="icon-windows"></i>  Windows<br /><small>7, 8.x and 10</small></a>
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC; ?>" id="client-download-mac" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac<br /><small>OSX 10.7+, 64 bit</small></a>
-							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX; ?>" id="client-download-linux" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux<br /><small>Multiple distributions</small></a>
+							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX; ?>" id="client-download-linux" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux<br /><small>Source</small></a>
 							<br><br>
-							<p>Looking for the <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>">Sources</a>? <!--(<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP; ?>">PGP signature</a>) or <a href="/changelog/desktop">older versions</a>?--> For more information on the sync client, check out the <a target="_blank" href="<?php echo $DOCUMENTATION_CLIENT_DESKTOP; ?>/">documentation</a>.</p>
-							<p><small>All product names and trademarks are the property of their respective owners, which are in no way associated or affiliated with Nextcloud</small></p>
+							<p>Looking for the <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>">Sources</a>? Distributions are building packages. <!--(<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP; ?>">PGP signature</a>) or <a href="/changelog/desktop">older versions</a>?--> <!--For more information on the sync client, check out the <a target="_blank" href="https://docs.nextcloud.com/desktop/2.2/"> ownCloud™ documentation</a>.--></p>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
@@ -216,7 +215,14 @@
 							</a>-->
 							</div>
 							<p><a href="https://github.com/nextcloud/android">Sources here</a>, <a href="https://download.nextcloud.com/android">direct APK download here</a>.</p>
-							<p>Any WebDAV client will work with Nextcloud!</p>
+							<p>Any WebDAV client will work with Nextcloud! <!--<span class="caret"></span><a href="#thirdpartymobile" data-toggle="collapse"> third party clients</a></p>
+								<div id="thirdpartymobile" class="collapse">-->
+								Compatible third party clients include:
+								<ul>
+									<li><a href="https://davdroid.bitfire.at/">DAVDroid</a> supports the Nextcloud Calendar and Contacts apps, syncing your agenda and address book (android only, open source)</li>
+									<li><a href="https://crosscloud.me/">crosscloud</a>, a multi-cloud access client</li>
+									<li><a href="https://itunes.apple.com/us/app/crypto-cloud-for-dropbox-owncloud/id950341361?mt=8">Cryptocloud</a> which can encrypt files client-side (iOS only)</li>
+<!-- 								</div> -->
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">

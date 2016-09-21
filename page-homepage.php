@@ -43,7 +43,7 @@
 	</div>
 </div>
 
-<div class="row wrap clearfix pad-bottom">
+<!--<div class="row wrap clearfix pad-bottom">
 	<div class="col-md-12 text-center">
 		<h1>Introducing the Spreedbox</h1>
 	</div>
@@ -63,8 +63,29 @@
 		<p>Featuring Nextcloud, this device is available both for consumers and companies, bringing them the privacy and security they need to confidently share, communicate and collaborate.</p>
 		<a class="btn btn-block btn-lg " href="/spreedbox" role="button">Learn more!</a>
 	</div>
-</div>
+</div>-->
 
+<div class="row wrap clearfix pad-bottom">
+	<div class="col-md-12 text-center">
+		<h1>Introducing Nextcloud 10!</h1>
+	</div>
+	<div class="col-md-5">
+		<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control-wee.png" /></a>
+		<!--<div class="yt-img-overlay">
+			<a class="youtube" href="https://www.youtube.com/watch?v=egLqRqb4sHA" title="Spreedbox : most private video chat and file exchange">
+				<img src="https://img.youtube.com/vi/egLqRqb4sHA/hqdefault.jpg" title="Spreedbox : most private video chat and file exchange" />
+				<div class="yt-play-btn">
+						<i></i> 
+				</div>
+			</a>
+		</div>-->
+	</div>
+	<div class="col-md-7">
+		<h2>Secure, Fine Grained Control over Data Access and Workflows</h2>
+		<p>Nextcloud 10 is now available, bringing significant new features for system administrators to control and direct the flow of data between users on a Nextcloud server. Rule based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements. Monitoring, security and performance improvements complement this release, enabling larger and more efficient Nextcloud installations.</p>
+		<a class="btn btn-block btn-lg " href="https://nextcloud.com/?p=859" role="button">Learn more!</a>
+	</div>
+</div>
 
 
 <!--<div class="wrap container pad-bottom">
@@ -112,7 +133,7 @@
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers">
 			  <a href="https://nextcloud.com/customer-stories" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/rakuten.png" title="Rakuten, Inc. is a Japanese electronic commerce and Internet company based in Tokyo, Japan. Its B2B2C e-commerce platform Rakuten Ichiba is among the world’s largest by sales." /></a>
-			  <a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/HMA.png" title="HMA is an independent, national healthcare research and consulting firm with 16 offices througout the USA." alt="HMA is an independent, national healthcare research and consulting firm with 16 offices througout the USA." /></a>
+			  <a href="" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/HMA.png" title="HMA is an independent, national healthcare research and consulting firm with 16 offices throughout the USA." alt="HMA is an independent, national healthcare research and consulting firm with 16 offices throughout the USA." /></a>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 customers hideonsmall">
 			  <a href="https://nextcloud.com/customer/jefferson-national/" target="_blank"><img class="customer img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/jeffnat.png" alt="Jefferson National replaced Dropbox with Nextcloud to keep their financial information secure" title="Jefferson National replaced Dropbox with Nextcloud to keep their financial information secure" /></a>
