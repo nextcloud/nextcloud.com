@@ -101,6 +101,17 @@ h3 {
 /* 	color: white; */
 }
 
+.btn-secondary {
+	border: 1px solid #cccccc;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open > .dropdown-toggle.btn-secondary {
+	border: 1px solid #adadad;
+	background: #e6e6e6;
+}
+
+
+
 /* button a {color: #1d2d44} */
 button a:hover {text-decoration: none; }
 
