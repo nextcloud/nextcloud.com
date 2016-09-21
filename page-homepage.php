@@ -201,7 +201,7 @@
 	}
 </script>
 
-
+<!--
 <div class="container-fluid" id="social-media">
 	<div class="row 3-column-lg-md-sm home-social">
 		<div class="col-md-4">
@@ -221,7 +221,7 @@
 		</div>
 	</div>
 </div>
-
+-->
 <div class="container-fluid" id="stay-up-to-date">
 	<div class="row stay-up-to-date">
 		<div class="container text-center" style="padding-top: 70px; padding-bottom: 70px;">
