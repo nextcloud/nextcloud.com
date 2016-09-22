@@ -9,7 +9,7 @@
 
 <p>See <a href="/features">our features page</a> for more information about what Nextcloud can do for you.</p>
 
-<h2>User Focus</h2>
+<h2>Our Values</h2>
 <p>At Nextcloud, we believe that a open, transparent development process and a clear focus on the needs of users and customers results in a better product.</p>
 
 <p>By offering access to our engineers, customers get the best possible support while having an opportunity to participate in and benefit from the open source model. See <a href="/enterprise">our enterprise page</a> for more information about our Enterprise Support Subscriptions.</p>
