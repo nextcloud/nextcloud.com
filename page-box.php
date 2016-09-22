@@ -6,6 +6,7 @@
 </div>
 </div>
 </div>
+
 <div class="featurerow">
 	<div class="wrap container featuregroup">
 	<div class="row conf-info">
@@ -14,7 +15,7 @@
 			<p>The Nextcloud Box is your private cloud. It stores your data and enables you to sync between your devices and share with others.</p>
 			<img class="conf-img img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/serverwebui.png" alt="Web UI" />
 			<div class="text-center morebuttondiv">
-					<a href="/features" class="btn btn-primary morebutton" target="_blank">Learn more about Nextcloud! <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="/features"target="_blank">Learn more about Nextcloud!</a>
 			</div>
 		</div>
 		<div class="col-sm-5 col-sm-offset-2">
@@ -33,46 +34,54 @@
 	</div>
 	</div>
 </div>
-<div class="text-center morebuttondiv">
-	<h1 class="text-center"><i class="icon-hdd-o"></i></br> Get the Box</h1>
-	<p>Currenly you can only purchase the Nextcloud Box in Europe and the USA. We're working on bringing the box to other regions!</p>
+<div class="wrap container">
+<div class="boxinfo">
+	<div class="row">
 	<div class="col-md-6 col-md-offset-3">
-	<div class="buybutton">
-		<a href="http://store.wdc.com/promo/4822802900" class="btn btn-primary morebutton" target="_blank">Buy in the USA <i class="icon-arrow-circle-o-right icon"></i></a>
+	<h1 class="">Get the Box</h1>
+	<img class="conf-img img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/pidrive/wrap.jpg" alt="contents" />
+	<p>Currenly you can only purchase the Nextcloud Box in Europe and the USA. We're working on bringing the box to other regions!</p>
 	</div>
-	<div class="buybutton">
-		<a href="http://store.wdc.com/promo/4823854300" class="btn btn-primary morebutton" target="_blank">Buy in the UK <i class="icon-arrow-circle-o-right icon"></i></a>
-		<a href="http://store.wdc.com/promo/4823854500" class="btn btn-primary morebutton" target="_blank">Buy in Germany <i class="icon-arrow-circle-o-right icon"></i></a>
-		<a href="http://store.wdc.com/promo/4823854600" class="btn btn-primary morebutton" target="_blank">Buy in Spain <i class="icon-arrow-circle-o-right icon"></i></a>
-		<a href="http://store.wdc.com/promo/4823854700" class="btn btn-primary morebutton" target="_blank">Buy in France <i class="icon-arrow-circle-o-right icon"></i></a>
-		<a href="http://store.wdc.com/promo/4823854800" class="btn btn-primary morebutton" target="_blank">Buy in Italy <i class="icon-arrow-circle-o-right icon"></i></a>
-		<a href="http://store.wdc.com/promo/4823854900" class="btn btn-primary morebutton" target="_blank">Buy in the Netherlands <i class="icon-arrow-circle-o-right icon"></i></a> <br />
+	<div class="col-md-6 col-md-offset-3">
+	<div class="btn-group">
+	<!--<div class="buybutton">-->
+		<button type="button" data-toggle="dropdown" class="btn btn-primary buybutton dropdown-toggle">Default &nbsp;<span class="caret"></span></button>
+		<ul role="menu" class="dropdown-menu">
+			<li><a href="http://store.wdc.com/promo/4822802900" target="_blank">Buy in the USA </a></li>
+			<li><a href="http://store.wdc.com/promo/4823854300"target="_blank">Buy in the UK </a></li>
+		<li><a href="http://store.wdc.com/promo/4823854500"target="_blank">Buy in Germany </a></li>
+		<li><a href="http://store.wdc.com/promo/4823854600"target="_blank">Buy in Spain </a></li>
+		<li><a href="http://store.wdc.com/promo/4823854700"target="_blank">Buy in France </a></li>
+		<li><a href="http://store.wdc.com/promo/4823854800"target="_blank">Buy in Italy </a></li>
+		<li><a href="http://store.wdc.com/promo/4823854900"target="_blank">Buy in the Netherlands </a></li>
+		<li><a href="http://store.wdc.com/promo/4822802800"target="_blank">Buy in rest of Europe </a></li>
+		</ul>
+<!-- 	</div> -->
 	</div>
-	<div class="buybutton">
-		<a href="http://store.wdc.com/promo/4822802800" class="btn btn-primary morebutton" target="_blank">Buy in rest of Europe <i class="icon-arrow-circle-o-right icon"></i></a>
+	</div>
 	</div>
 </div>
 
-<div class="wrap container">
-<div class="row conf-partners-title">
-					<img class="conf-img img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/pidrive/wrap.jpg" alt="contents" />
+<div class="row boxinfo">
 	<div class="col-md-12">
-		<h2>Partners</h2>
-	</div>
-</div>
-<div class="row">
-	<div class="col-xs-12 col-sm-4 col-md-3">
-		<a target="_blank" href="https://developer.ubuntu.com/en/snappy/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/ubuntu-core_black-orange_st_hex.png" alt="Snappy Ubuntu Core" /></a>
-	</div>
-	<div class="col-xs-12 col-sm-4 col-md-3">
-		<a target="_blank" href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/wdlabs.png" alt="Visit lwn.net" /></a>
-	</div>
-</div>
-<div class="row conf-partners-title">
-	<div class="col-md-12">
-		<h2>How to Box</h2>
+		<h1>How to Box</h1>
+		<p><a href="<?php echo get_template_directory_uri(); ?>/assets/files/Box-Assembly-Guide.pdf"><img class="conf-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/guide.png" alt="" /></a></p>
+		<p><a href="<?php echo get_template_directory_uri(); ?>/assets/files/Box-Assembly-Guide.pdf" class="btn btn-default">download <i class="icon-file-pdf-o"></i></a></p>
 		<p>More information about using the Nextcloud Box is coming soon! Stay tuned.</p>
 	</div>
 </div>
-<div class="row">
+<div class="boxinfo">
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Partners</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-4 col-md-3">
+			<a target="_blank" href="https://developer.ubuntu.com/en/snappy/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/ubuntu-core_black-orange_st_hex.png" alt="Snappy Ubuntu Core" /></a>
+		</div>
+		<div class="col-xs-12 col-sm-4 col-md-3">
+			<a target="_blank" href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/wdlabs.png" alt="Visit lwn.net" /></a>
+		</div>
+	</div>
 </div>
