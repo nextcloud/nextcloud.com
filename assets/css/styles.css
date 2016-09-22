@@ -1123,7 +1123,9 @@ img.desaturate {
 
 .buybutton {
 	padding: 10px;
-	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	
 }
 
 /* ownCloud.org/features features page*/
@@ -1670,4 +1672,10 @@ text-align: center;
 	height: 100%;
 	max-width: 200px;
 	max-height: 200px;
+}
+
+/* Nextcloud Box page */
+.boxinfo {
+	text-align: center;
+	margin-bottom: 50px;
 }
