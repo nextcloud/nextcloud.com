@@ -45,7 +45,7 @@
 	<div class="col-md-6 col-md-offset-3">
 	<div class="btn-group">
 	<!--<div class="buybutton">-->
-		<button type="button" data-toggle="dropdown" class="btn btn-primary buybutton dropdown-toggle">Default &nbsp;<span class="caret"></span></button>
+		<button type="button" data-toggle="dropdown" class="btn btn-primary buybutton dropdown-toggle">Select your country &nbsp;<span class="caret"></span></button>
 		<ul role="menu" class="dropdown-menu">
 			<li><a href="http://store.wdc.com/promo/4822802900" target="_blank">Buy in the USA </a></li>
 			<li><a href="http://store.wdc.com/promo/4823854300"target="_blank">Buy in the UK </a></li>
@@ -67,6 +67,9 @@
 		<h1>How to Box</h1>
 		<p><a href="<?php echo get_template_directory_uri(); ?>/assets/files/Box-Assembly-Guide.pdf"><img class="conf-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/guide.png" alt="" /></a></p>
 		<p><a href="<?php echo get_template_directory_uri(); ?>/assets/files/Box-Assembly-Guide.pdf" class="btn btn-default">download <i class="icon-file-pdf-o"></i></a></p>
+		<div class="text-center morebuttondiv">
+				<a href="https://help.nextcloud.com/t/the-great-nextcloud-box-topic/3510" class="btn btn-primary morebutton" target="_blank">Help on our forums <i class="icon-arrow-circle-o-right icon"></i></a>
+		</div>
 		<p>More information about using the Nextcloud Box is coming soon! Stay tuned.</p>
 	</div>
 </div>
