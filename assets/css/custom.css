@@ -8,19 +8,6 @@
   width: 100%;
   position: absolute; }
 
-.introducing-nc-10 {
-  padding-top: 100px; }
-  .introducing-nc-10 img {
-    height: 40vh;
-    display: block;
-    margin: 0 auto; }
-    @media (max-width: 768px) {
-      .introducing-nc-10 img {
-        width: 90%;
-        height: 90%;
-        display: block;
-        margin: 0 auto; } }
-
 body {
   font-family: "Open Sans", Frutiger, Calibri, "Myriad Pro", Myriad, sans-serif !important;
   -webkit-font-smoothing: antialiased;
@@ -127,7 +114,7 @@ footer {
   .collapse.in {
     display: block !important; } }
 .navbar {
-  background-color: #0080cc;
+  background-color: #0082c9;
   height: 100px;
   transition: all .2s ease-in;
   z-index: 5; }
@@ -153,7 +140,7 @@ footer {
     #navbar a {
       color: #75badd; } }
   #navbar .btn-primary {
-    background-color: #0080cc;
+    background-color: #0082c9;
     border: 1px solid white;
     padding-top: 0;
     font-size: 16px;
@@ -171,9 +158,9 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #0073B2; }
+        background-color: #0073b2; }
         #navbar .btn-primary a {
-          color: #ffffff; } }
+          color: white; } }
   #navbar .active {
     font-weight: 600; }
 
@@ -248,7 +235,7 @@ footer {
     color: white !important; }
   @media (max-width: 1100px) {
     .navbar.scrolled .navbar-collapse {
-      background-color: #ffffff;
+      background-color: white;
       margin-left: -6% !important; } }
 
 /**
@@ -308,16 +295,16 @@ footer {
   text-align: center;
   transition: all 0.3s ease 0s; }
   .btn-primary:hover {
-    background-color: #0073B2 !important; }
+    background-color: #0073b2 !important; }
   .btn-primary:active {
     -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
-    background-color: #0073B2; }
-  .btn-primary.btn--absolute-icon {
+    background-color: #0073b2; }
+  .btn-primary.btn-absolute-icon {
     position: relative;
     text-indent: -20px; }
-    .btn-primary.btn--absolute-icon .icon-arrow {
+    .btn-primary.btn-absolute-icon .icon-arrow {
       background: url(../img/arrow_right.svg) center/contain no-repeat;
       position: absolute;
       width: 30px;
@@ -329,7 +316,7 @@ footer {
  * Home page jumbotron
  */
 .jumbotron {
-  background-image: url("../img/home/t-o-p-banner@2x.png"), linear-gradient(to bottom, #0080cc, #3e9ed8 100%, #d8d8d8);
+  background-image: url("../img/home/t-o-p-banner@2x.png"), linear-gradient(to bottom, #0082c9, #3e9ed8 100%, #d8d8d8);
   padding-bottom: 0;
   padding-top: 0;
   margin-bottom: 0;
@@ -388,7 +375,7 @@ footer {
 .icon-row h4 {
   padding-top: 39px; }
 
-.highlights__text {
+.highlights_text {
   font-size: 20px;
   color: #434343;
   line-height: 1.36;
@@ -406,8 +393,20 @@ footer {
   font-weight: 100;
   color: #555555; }
 
-.introducing-nc-10 {
+.introducing-nc-release {
+  padding-top: 100px;
   padding-bottom: 75px; }
+  .introducing-nc-release img {
+    /*         height: 30vw; */
+    /*         width: 100%; */
+    display: block;
+    margin: 0 auto; }
+    @media (max-width: 768px) {
+      .introducing-nc-release img {
+        width: 90%;
+        height: 90%;
+        /*             display: block; */
+        /*             margin: 0 auto; */ } }
 
 /**
  * Home page: Stay up to date
@@ -431,10 +430,24 @@ footer {
   padding-bottom: 50px;
   padding-left: 0;
   padding-right: 0;
-  background-image: url("../img/home/perfect-for-home-and-business.png");
+  background-image: url("../img/home/perfect-for-home-and-business-wide.jpg");
   background-size: cover; }
   #perfect-for-home-and-business .btn-primary {
     width: 430px; }
+  @media (min-width: 1600px) {
+    #perfect-for-home-and-business {
+      padding-top: 120px;
+      padding-bottom: 180px; } }
+  @media (max-width: 768px) {
+    #perfect-for-home-and-business .btn-primary {
+      width: 300px; }
+      #perfect-for-home-and-business .btn-primary .icon-arrow {
+        background: url(../img/arrow_right.svg) center/contain no-repeat;
+        position: absolute;
+        width: 20px;
+        height: 100%;
+        right: 20px;
+        top: 2px; } }
   #perfect-for-home-and-business h2 {
     font-size: 60px;
     line-height: 0.9;
@@ -465,6 +478,16 @@ footer {
  */
 #stay-up-to-date a {
   width: 400px; }
+@media (max-width: 768px) {
+  #stay-up-to-date .btn-primary {
+    width: 300px; }
+    #stay-up-to-date .btn-primary .icon-arrow {
+      background: url(../img/arrow_right.svg) center/contain no-repeat;
+      position: absolute;
+      width: 20px;
+      height: 100%;
+      right: 20px;
+      top: 2px; } }
 
 .community-icon {
   height: 207px;
@@ -529,7 +552,7 @@ footer {
     color: #2a2a36; }
 
   .jumbotron {
-    background-image: url("../img/home/t-o-p-banner@2x_mobile.png"), linear-gradient(to bottom, #0080cc, #3e9ed8 100%, #d8d8d8);
+    background-image: url("../img/home/t-o-p-banner@2x_mobile.png"), linear-gradient(to bottom, #0082c9, #3e9ed8 100%, #d8d8d8);
     background-size: 50% auto, cover; }
 
   .jumbotron h1 {
@@ -567,7 +590,14 @@ footer {
     width: 160px;
     height: 60px;
     padding-top: 22px;
-    font-size: 14px; } }
+    font-size: 14px; }
+    .jumbotron > .container-fluid > .col-md-6 > p > a.btn-absolute-icon .icon-arrow {
+      background: url(../img/arrow_right.svg) center/contain no-repeat;
+      position: absolute;
+      width: 20px;
+      height: 100%;
+      right: 20px;
+      top: 2px; } }
 section#why-nextcloud {
   padding-top: 130px; }
   @media (max-width: 1367px) {
@@ -595,22 +625,22 @@ section#why-nextcloud {
       text-align: center;
       margin: 0 10px 0 10px; } }
 
-.highlights__align {
+.highlights_align {
   padding-top: 100px;
   flex-basis: 33.33333%;
   max-width: 33.33333%;
   padding-left: 64px; }
-  .highlights__align:first-child {
+  .highlights_align:first-child {
     padding-left: 0px; }
   @media (max-width: 1200px) {
-    .highlights__align {
+    .highlights_align {
       flex-basis: auto;
       max-width: none;
       padding-left: 0;
       padding-top: 50px; } }
-  .highlights__align svg {
+  .highlights_align svg {
     margin-left: -10px; }
-  .highlights__align h4 {
+  .highlights_align h4 {
     text-align: center;
     margin-top: 20px;
     margin-left: -20px; }
@@ -625,18 +655,18 @@ section#why-nextcloud {
     .Section-Introducing-Nextcloud {
       padding-top: 60px;
       height: 100vh; } }
-  .Section-Introducing-Nextcloud .img__carousel {
+  .Section-Introducing-Nextcloud .img_carousel {
     padding-top: 100px;
     position: relative; }
     @media (max-height: 800px) {
-      .Section-Introducing-Nextcloud .img__carousel {
+      .Section-Introducing-Nextcloud .img_carousel {
         padding-top: 60px; } }
-    .Section-Introducing-Nextcloud .img__carousel img {
+    .Section-Introducing-Nextcloud .img_carousel img {
       float: right;
       width: 582px;
       height: 474px; }
       @media (max-height: 800px) {
-        .Section-Introducing-Nextcloud .img__carousel img {
+        .Section-Introducing-Nextcloud .img_carousel img {
           width: 490px;
           height: 402px; } }
   .Section-Introducing-Nextcloud .indicators {
@@ -647,7 +677,7 @@ section#why-nextcloud {
     z-index: 2;
     bottom: 50vh;
     right: 0; }
-    .Section-Introducing-Nextcloud .indicators .btn__carousel {
+    .Section-Introducing-Nextcloud .indicators .btn_carousel {
       margin-top: 10px;
       width: 14px;
       height: 14px;
@@ -661,28 +691,26 @@ section#why-nextcloud {
       transform: scale(0.5);
       -webkit-transition: all 250ms ease-in-out;
       transition: all 250ms ease-in-out; }
-    .Section-Introducing-Nextcloud .indicators .btn__carousel.active {
+    .Section-Introducing-Nextcloud .indicators .btn_carousel.active {
       background-color: transparent;
       -webkit-transform: scale(1);
       -ms-transform: scale(1);
       transform: scale(1); }
-  .Section-Introducing-Nextcloud .top__features {
+  .Section-Introducing-Nextcloud .top_features {
     padding-top: 150px;
     max-width: 582px; }
     @media (max-height: 800px) {
-      .Section-Introducing-Nextcloud .top__features {
+      .Section-Introducing-Nextcloud .top_features {
         padding-top: 90px; } }
-    .Section-Introducing-Nextcloud .top__features .top__features__container {
+    .Section-Introducing-Nextcloud .top_features .top_features_container {
       margin-left: 40px; }
-      .Section-Introducing-Nextcloud .top__features .top__features__container h4 {
+      .Section-Introducing-Nextcloud .top_features .top_features_container h4 {
         margin: 0; }
-      .Section-Introducing-Nextcloud .top__features .top__features__container p {
+      .Section-Introducing-Nextcloud .top_features .top_features_container p {
         font-size: 18px;
         font-weight: 300;
         line-height: 1.6;
         margin-top: 15px;
         margin-bottom: 40px; }
-      .Section-Introducing-Nextcloud .top__features .top__features__container .hide {
+      .Section-Introducing-Nextcloud .top_features .top_features_container .hide {
         display: none; }
-
-/*# sourceMappingURL=custom.css.map */

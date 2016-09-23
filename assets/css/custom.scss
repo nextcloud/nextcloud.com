@@ -1,11 +1,4 @@
-$dark-blue: #2a2a36;
-$medium-blue: #0073B2;
-$nextcloud-blue: #0082c9;
-$medium-grey: #555555;
-$white: #ffffff;
-$font-stack: 'Open Sans', Frutiger, Calibri, 'Myriad Pro', Myriad, sans-serif !important;
-$break-small: 768px;
-$navbar-breaksize: 1100px;
+@import "variables.scss";
 
 #pinContainer {
     width: 100%;
@@ -16,21 +9,6 @@ $navbar-breaksize: 1100px;
     height: 100%;
     width: 100%;
     position: absolute;
-}
-
-.introducing-nc-10 {
-    padding-top: 100px;
-    img {
-        height: 40vh;
-        display: block;
-        margin: 0 auto;
-        @media (max-width: $break-small) {
-            width: 90%;
-            height: 90%;
-            display: block;
-            margin: 0 auto;
-        }
-    }
 }
 
 body {
@@ -155,7 +133,7 @@ footer {
 }
 
 .navbar {
-    background-color: #0080cc;
+    background-color: $nextcloud-blue;
     height: 100px;
     transition: all .2s ease-in;
     z-index: 5;
@@ -192,7 +170,7 @@ footer {
         }
     }
     .btn-primary {
-        background-color: #0080cc;
+        background-color: $nextcloud-blue;
         border: 1px solid white;
         padding-top: 0;
         font-size: 16px;
@@ -401,7 +379,7 @@ footer {
         background-color: $medium-blue;
     }
 
-    &.btn--absolute-icon {
+    &.btn-absolute-icon {
         position: relative;
         text-indent: -20px;
 
@@ -421,7 +399,7 @@ footer {
  */
 
 .jumbotron {
-    background-image: url("../img/home/t-o-p-banner@2x.png"),linear-gradient(to bottom, #0080cc, #3e9ed8 100%, #d8d8d8);
+    background-image: url("../img/home/t-o-p-banner@2x.png"),linear-gradient(to bottom, $nextcloud-blue, #3e9ed8 100%, #d8d8d8);
     padding-bottom: 0;
     padding-top: 0;
     margin-bottom: 0;
@@ -483,7 +461,7 @@ footer {
 .icon-row h4 {
     padding-top: 39px;
 }
-.highlights__text {
+.highlights_text {
     font-size: 20px;
     color: #434343;
     line-height: 1.36;
@@ -503,8 +481,22 @@ footer {
     font-weight: 100;
     color: #555555;
 }
-.introducing-nc-10  {
+
+.introducing-nc-release {
+    padding-top: 100px;
     padding-bottom: 75px;
+    img {
+/*         height: 30vw; */
+/*         width: 100%; */
+        display: block;
+        margin: 0 auto;
+        @media (max-width: $break-small) {
+            width: 90%;
+            height: 90%;
+/*             display: block; */
+/*             margin: 0 auto; */
+        }
+    }
 }
 
 /**
@@ -532,11 +524,30 @@ footer {
     padding-bottom: 50px;
     padding-left: 0;
     padding-right: 0;
-    background-image: url('../img/home/perfect-for-home-and-business.png');
+    background-image: url('../img/home/perfect-for-home-and-business-wide.jpg');
     background-size: cover;
 
     .btn-primary {
         width: 430px;
+    }
+    
+    @media (min-width: $very-wide) {
+        padding-top: 120px;
+        padding-bottom: 180px;
+    }
+
+    @media (max-width: $break-small) {
+        .btn-primary {
+            width: 300px;
+        .icon-arrow {
+            background: url(../img/arrow_right.svg) center/contain no-repeat;
+            position: absolute;
+            width: 20px;
+            height: 100%;
+            right: 20px;
+            top: 2px;
+        }
+        }
     }
     h2 {
         font-size: 60px;
@@ -575,6 +586,19 @@ footer {
     a {
         width: 400px;
     }
+    @media (max-width: $break-small) {
+        .btn-primary {
+            width: 300px;
+        .icon-arrow {
+            background: url(../img/arrow_right.svg) center/contain no-repeat;
+            position: absolute;
+            width: 20px;
+            height: 100%;
+            right: 20px;
+            top: 2px;
+        }
+        }
+    }
 }
 
 .community-icon {
@@ -609,7 +633,7 @@ footer {
  * Mobile
  */
 
-@media (max-width: 768px) {
+@media (max-width: $break-small) {
     h1 {
         font-size: 35px;
         line-height: 35px;
@@ -645,7 +669,7 @@ footer {
         color: $dark-blue;
     }
     .jumbotron {
-        background-image: url("../img/home/t-o-p-banner@2x_mobile.png"),linear-gradient(to bottom, #0080cc, #3e9ed8 100%, #d8d8d8);
+        background-image: url("../img/home/t-o-p-banner@2x_mobile.png"),linear-gradient(to bottom, $nextcloud-blue, #3e9ed8 100%, #d8d8d8);
         background-size: 50% auto, cover;
     }
 
@@ -694,6 +718,18 @@ footer {
         height: 60px;
         padding-top: 22px;
         font-size: 14px;
+        
+        &.btn-absolute-icon {
+
+        .icon-arrow {
+            background: url(../img/arrow_right.svg) center/contain no-repeat;
+            position: absolute;
+            width: 20px;
+            height: 100%;
+            right: 20px;
+            top: 2px;
+        }
+    }
     }
 }
 
@@ -728,7 +764,7 @@ section#why-nextcloud {
 
 }
 
-.highlights__align {
+.highlights_align {
     padding-top: 100px;
     flex-basis: 33.33333%;
     max-width: 33.33333%;
@@ -764,7 +800,7 @@ section#why-nextcloud {
         padding-top: 60px;
         height: 100vh;
     }
-    .img__carousel {
+    .img_carousel {
         padding-top: 100px;
         position:relative;
         @media (max-height: 800px) {
@@ -788,7 +824,7 @@ section#why-nextcloud {
         z-index: 2;
         bottom: 50vh;
         right: 0;
-        .btn__carousel{
+        .btn_carousel{
             margin-top: 10px;
             width: 14px;
             height: 14px;
@@ -803,20 +839,20 @@ section#why-nextcloud {
             -webkit-transition: all 250ms ease-in-out;
             transition: all 250ms ease-in-out;
         }
-        .btn__carousel.active{
+        .btn_carousel.active{
             background-color: transparent;
             -webkit-transform: scale(1);
             -ms-transform: scale(1);
             transform: scale(1);
         }
     }
-    .top__features{
+    .top_features{
         padding-top: 150px;
         max-width: 582px;
         @media (max-height: 800px) {
             padding-top: 90px;
         }
-        .top__features__container{
+        .top_features_container{
             margin-left: 40px;
             h4{
                 margin: 0;

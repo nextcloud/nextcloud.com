@@ -1,4 +1,4 @@
-<?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
+<?php if(CONTRIBOOK) { require(dirname(_FILE_).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/home.js"></script>
 
 <div class="container-fluid">
@@ -7,7 +7,7 @@
 			<div class="col-md-6">
 				<h1>A safe home for all your data</h1>
 				<h2>Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.</h2>
-				<p><a class="btn btn-primary btn-lg btn--absolute-icon" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button">Get Nextcloud <span class="icon-arrow"></span></a></p>
+				<p><a class="btn btn-primary btn-lg btn-absolute-icon" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button">Get Nextcloud <span class="icon-arrow"></span></a></p>
 			</div>
 		</div>
 	</div>
@@ -17,27 +17,27 @@
 	<div class="container">
 		<h2 class="text-center">Why Nextcloud?</h2>
 		<div class="highlights">
-			<div class="highlights__align">
+			<div class="highlights_align">
+				<div class="privacy-icon" data-animation-path="img/home/privacy/" data-anim-loop="false" data-name="privacy"></div>
+				<h4>Privacy</h4>
+				<p class="highlights_text">Keep all of your life / business
+					private and secure. Share
+					with only who you choose,
+					and no-one else.</p>
+			</div>
+			<div class="highlights_align">
 				<div class="community-icon" data-animation-path="img/home/community/" data-anim-loop="false" data-name="community"></div>
 				<h4>Community</h4>
-				<p class="highlights__text">Enjoy constant improvements
+				<p class="highlights_text">Enjoy constant improvements
 					from a thriving and transparent,
 					all open-source community
 					development model, free of
 					lockins or paywalls.</p>
 			</div>
-			<div class="highlights__align">
-				<div class="privacy-icon" data-animation-path="img/home/privacy/" data-anim-loop="false" data-name="privacy"></div>
-				<h4>Privacy</h4>
-				<p class="highlights__text">Keep all of your life / business
-					private and secure. Share
-					with only who you choose,
-					and no-one else.</p>
-			</div>
-			<div class="highlights__align">
+			<div class="highlights_align">
 				<div class="flexibility-icon" data-animation-path="img/home/flexibility/" data-anim-loop="false" data-name="flexibility"></div>
 				<h4>Enterprise</h4>
-				<p class="highlights__text">Protect, control and scale the data and communication in your company and organization.</p>
+				<p class="highlights_text">Protect, control and scale the data and communication in your company and organization.</p>
 			</div>
 		</div>
 	</div>
@@ -51,7 +51,7 @@
 			videos, documents, contacts, communications - they're all
 			available right where you need them whether they're
 			coming from your local storage or remote cloud services.</p>
-		<p><a class="btn btn-primary btn-lg btn--absolute-icon" href="<?php echo home_url('features') ?>" role="button">Get to know all the features <span class="icon-arrow"></span></a></p>
+		<p><a class="btn btn-primary btn-lg btn-absolute-icon" href="<?php echo home_url('features') ?>" role="button">Get to know all the features <span class="icon-arrow"></span></a></p>
 	</div>
 </div>
 
@@ -59,18 +59,18 @@
 <div >
     <h2 class="text-center section-title">Introducing Nextcloud 10</h2>
 	<div class="indicators">
-		<ul class="carousel__dots"></ul>
-		<li class="btn__carousel"></li>
-		<li class="btn__carousel"></li>
-		<li class="btn__carousel"></li>
-		<li class="btn__carousel"></li>
+		<ul class="carousel_dots"></ul>
+		<li class="btn_carousel"></li>
+		<li class="btn_carousel"></li>
+		<li class="btn_carousel"></li>
+		<li class="btn_carousel"></li>
 	</div>
     <section class="panel-workflow">
         <div class="container">
-            <div class="row introducing-nc-10">
+            <div class="row introducing-nc-release">
                 <div class="container">
                     <div class="container col-md-6">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-10.png">
+                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-10.png">
                     </div>
                     <div class="container col-md-6 right-text-grey" style="opacity: 1; padding-top: 0 !important;">
                         <h5>Secure, Fine Grained Control over
@@ -80,7 +80,7 @@
                             Nextcloud installations.</p>
                         <br/>
                         <p>
-                            <a class="btn btn-primary btn-lg " href="#" role="button">Learn more <span class="icon-arrow"></span></a>
+                            <a class="btn btn-primary btn-lg " href="/features" role="button">Learn more <span class="icon-arrow"></span></a>
                         </p>
                     </div>
                 </div>
@@ -89,10 +89,10 @@
     </section>
     <section class="panel-monitoring hidden">
         <div class="container">
-            <div class="row introducing-nc-10">
+            <div class="row introducing-nc-release">
                 <div class="container">
                     <div class="container col-md-6">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/monitoring-nc-10.png">
+                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/monitoring-nc-10.png">
                     </div>
                     <div class="container col-md-6 right-text-grey">
                         <h5>Faster and more reliable operation at scale</h5>
@@ -103,7 +103,7 @@
                             on the rest of their infrastructure.</p>
                         <br/>
                         <p>
-                            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a>
+                            <a class="btn btn-primary btn-lg" href="/workflow/#monitoring" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a>
                         </p>
                     </div>
                 </div>
@@ -112,22 +112,21 @@
     </section>
     <section class="panel-authentication hidden">
         <div class="container">
-            <div class="row introducing-nc-10">
+            <div class="row introducing-nc-release">
                 <div class="container">
                     <div class="container col-md-6">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/auth-nc-10.png">
+                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/auth-nc-10.png">
                     </div>
                     <div class="container col-md-6 right-text-grey">
                         <h5>Authentication and security</h5>
-                        <p>
-                            Nextcloud 10 delivers security improvements in several areas. Plugin based Two Factor
+                        <p>Nextcloud 10 delivers security improvements in several areas. Plugin based Two Factor
                             Authentication enables an optional extra layer of protection for logins, brute force
                             protection makes it harder for attackers to guess passwords and session management is
                             introduced to enable administrators and users to monitor and invalidate active sessions.
                         </p>
                         <br/>
                         <p>
-                            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a>
+                            <a class="btn btn-primary btn-lg" href="/workflow/" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a>
                         </p>
                     </div>
                 </div>
@@ -137,15 +136,14 @@
 
 	<section class="panel-authentication hidden">
         <div class="container">
-            <div class="row introducing-nc-10">
+            <div class="row introducing-nc-release">
                 <div class="container">
                     <div class="container col-md-6">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/auth-nc-10.png">
+                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/auth-nc-10.png">
                     </div>
                     <div class="container col-md-6 right-text-grey">
                         <h5>Foo & Bar</h5>
-                        <p>
-                            Nextcloud 10 delivers security improvements in several areas. Plugin based Two Factor
+                        <p>Nextcloud 10 delivers security improvements in several areas. Plugin based Two Factor
                             Authentication enables an optional extra layer of protection for logins, brute force
                             protection makes it harder for attackers to guess passwords and session management is
                             introduced to enable administrators and users to monitor and invalidate active sessions.
@@ -181,9 +179,9 @@
 				$('#pinContainer section:lt(' + currentProgress + ')').addClass('hidden');
 				$('#pinContainer section:gt(' + currentProgress + ')').addClass('hidden');
 				$('#pinContainer section:nth(' + currentProgress + ')').removeClass('hidden');
-				$('.indicators .btn__carousel').html('');
-				$('.indicators .btn__carousel').removeClass('active');
-				$('.indicators .btn__carousel:nth(' + currentProgress + ')').addClass('active');
+				$('.indicators .btn_carousel').html('');
+				$('.indicators .btn_carousel').removeClass('active');
+				$('.indicators .btn_carousel:nth(' + currentProgress + ')').addClass('active');
 
 				if (currentProgress > 0) {
 					$('#pinContainer section:nth(' + currentProgress + ') .right-text-grey')
@@ -226,7 +224,7 @@
 	<div class="row stay-up-to-date">
 		<div class="container text-center" style="padding-top: 70px; padding-bottom: 70px;">
 			<h5>Stay up to date with Nextcloud's latest enhancements!</h5>
-			<p><a class="btn btn-primary btn-lg btn--absolute-icon" href="https://newsletter.nextcloud.com/" role="button">Subscribe to our newsletter<span class="icon-arrow"></span></a></p>
+			<p><a class="btn btn-primary btn-lg btn-absolute-icon" href="https://newsletter.nextcloud.com/" role="button">Subscribe to our newsletter<span class="icon-arrow"></span></a></p>
 		</div>
 	</div>
 </div>
