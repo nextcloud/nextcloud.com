@@ -4,6 +4,10 @@
  * Home page background
  */
 
+.container-fluid .background {
+	width: 20%;
+}
+
 .background {
     background-image: url("../img/enterprise/enterprise.jpg"),linear-gradient(to bottom, $nextcloud-blue, #3e9ed8 100%, #d8d8d8);
 	padding-bottom: 0;
@@ -13,8 +17,9 @@
     background-position: bottom 0 right 0;
     background-size: cover;
     border-radius: 0 !important;
-	height: 100vh;
-    min-height: 400px;
+	height: 70vh;
+    min-height: 600px;
+	max-height: 800px;
 	font-family: $font-stack;
 }
 .background h1 {

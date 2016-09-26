@@ -138,6 +138,7 @@ footer {
     transition: all .2s ease-in;
     z-index: 5;
 }
+
 .navbar-brand > img {
     height: 50px;
     margin-top: 7px;
@@ -256,6 +257,18 @@ footer {
         }
     }
 }
+
+/* make transparent on some pages */
+
+body.enterprise .navbar:not(.scrolled) {
+    background-color: transparent;
+}
+
+body.enterprise .navbar:not(.scrolled) .btn-primary  {
+	background-color: transparent !important;
+}
+
+
 /**
  * Scrolled navbar style
  */

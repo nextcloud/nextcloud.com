@@ -209,6 +209,13 @@ footer {
     width: 100%;
     background: white; } }
 
+/* make transparent on some pages */
+body.enterprise .navbar:not(.scrolled) {
+  background-color: transparent; }
+
+body.enterprise .navbar:not(.scrolled) .btn-primary {
+  background-color: transparent !important; }
+
 /**
  * Scrolled navbar style
  */
