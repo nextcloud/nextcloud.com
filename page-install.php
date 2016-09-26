@@ -12,7 +12,7 @@
 		<p>There are several ways to get your own Nextcloud for you and your data:</p>
 		<div class="btn-group">
 			<a class="btn btn-default btn-large" href="#instructions-server">Download</a>
-			<a class="btn btn-default btn-large" href="/box">Devices</a>
+			<a class="btn btn-default btn-large" href="/devices">Devices</a>
 			<a class="btn btn-default btn-large" href="/providers">Providers</a>
 		</div>
 		<br />

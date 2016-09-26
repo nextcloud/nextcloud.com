@@ -1130,7 +1130,7 @@ img.desaturate {
 	min-height: 700px;
 	opacity: 1;
 	visibility: inherit;
-	background-image: url("../img/features/spreedbox.png");
+	background-image: url("../img/spreedbox/spreedbox.png");
 	background-color: rgba(0, 0, 0, 0);
 	background-size: cover;
 	background-position: center top;
@@ -1659,4 +1659,11 @@ text-align: center;
 	height: 100%;
 	max-width: 200px;
 	max-height: 200px;
+}
+
+/* devices page */
+.device-img {
+	margin-left: auto !important;
+    margin-right: auto !important;
+	height: 300px;
 }

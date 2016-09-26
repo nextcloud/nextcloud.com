@@ -1,5 +1,4 @@
 <!-- <?php get_template_part('templates/parts/title'); ?> -->
-<script src='https://www.google.com/recaptcha/api.js'></script>
 <div class="page-header">
 	<h1>Spreedbox: Most private video chat and file exchange</h1>
 </div>
@@ -45,7 +44,7 @@
 		<p>This is where the Spreedbox comes in. The Spreedbox allows you to take back ownership of your data. The Spreedbox empowers you to operate your own secure audio/video chat, messaging and file sharing service with the highest measurements for control and security of your own data. It is your own video meeting and file sharing service that can be available on computers, mobile phones and tablets through the Internet or limited to an Intranet. Your data always stays on your Spreedbox. Make a call, invite your friends and clients, and collaborate in closed groups through video/audio, text messaging, and document and file sharing. You can access your private data in an easy-to-use web interface with PC, Android and iOS devices.</p>
 	</div>
 	<div class="col-md-4">
-		<img alt="The Spreedbox" class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreedboxfeatures.png" />
+		<img alt="The Spreedbox" class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/spreedbox/spreedboxfeatures.png" />
 	</div>
 </div>
 	
