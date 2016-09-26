@@ -73,14 +73,11 @@
                         <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-10.png">
                     </div>
                     <div class="container col-md-6 right-text-grey" style="opacity: 1; padding-top: 0 !important;">
-                        <h5>Secure, Fine Grained Control over
-                            Data Access and Workflows</h5>
-                        <p>Monitoring, security and performance improvements
-                            complement this release, enabling larger and more efficient
-                            Nextcloud installations.</p>
+                        <h5>Secure, Fine Grained Control over Data Access and Workflows</h5>
+                        <p>This release delivers better scalability as well as monitoring, security and workflow management tools, enabling better control over Nextcloud servers and operation at scale.</p>
                         <br/>
                         <p>
-                            <a class="btn btn-primary btn-lg " href="/features" role="button">Learn more <span class="icon-arrow"></span></a>
+                            <a class="btn btn-primary btn-lg " href="https://nextcloud.com/blog/secure-monitor-and-control-your-data-with-nextcloud-10-get-it-now/" role="button">Learn more <span class="icon-arrow"></span></a>
                         </p>
                     </div>
                 </div>
@@ -139,18 +136,14 @@
             <div class="row introducing-nc-release">
                 <div class="container">
                     <div class="container col-md-6">
-                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/auth-nc-10.png">
+                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/federation-nc-10.png">
                     </div>
                     <div class="container col-md-6 right-text-grey">
-                        <h5>Foo & Bar</h5>
-                        <p>Nextcloud 10 delivers security improvements in several areas. Plugin based Two Factor
-                            Authentication enables an optional extra layer of protection for logins, brute force
-                            protection makes it harder for attackers to guess passwords and session management is
-                            introduced to enable administrators and users to monitor and invalidate active sessions.
-                        </p>
+                        <h5>Improved Federation</h5>
+                        <p>Nextcloud 10 normalizes federated shares, handling mounted link shares as federated shares, offering the same permissions for federated shares as for normal shares and directly connecting re-shared federated shares to other servers for improved performance.</p>
                         <br/>
                         <p>
-                            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a>
+                            <a class="btn btn-primary btn-lg" href="/federation" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a>
                         </p>
                     </div>
                 </div>
