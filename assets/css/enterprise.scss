@@ -1,0 +1,224 @@
+@import "variables.scss";
+
+/**
+ * Home page background
+ */
+
+.background {
+    background-image: url("../img/enterprise/enterprise.jpg"),linear-gradient(to bottom, $nextcloud-blue, #3e9ed8 100%, #d8d8d8);
+	padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-position: bottom 0 right 0;
+    background-size: cover;
+    border-radius: 0 !important;
+	height: 100vh;
+    min-height: 400px;
+	font-family: $font-stack;
+}
+.background h1 {
+/* 	margin-top: 243px; */
+  padding-top: 0;
+  color: white;
+}
+.background h2 {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.background .btn-primary {
+    margin-top: 50px;
+    width: 70%;
+}
+
+.background img {
+    height: 100%;
+    width: 100%;
+}
+
+.background > .container {
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
+
+.background > .container > .col-md-6 {
+/* 	width: 494px; */
+    padding-left: 5%;
+}
+.background > .container > .col-md-6 > p > a {
+    width: 290px;
+    height: 60px;
+    padding-top: 16px
+}
+
+.container-fluid > .background {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.topheader {
+	margin-left: 160px;
+}
+
+/* Pricing area */
+
+.pricing {
+  margin-top: 133px;
+}
+
+.header {
+	margin-bottom: 54px;
+}
+
+.pricing h1 {
+	font-family: $font-stack;
+	font-size: 60px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 0.88;
+	text-align: center;
+	color: #2a2a36;
+}
+
+.table-column {
+	border-radius: 8px;
+	border: solid 1px #eeeeee;
+	padding: 0px;
+/* 	margin-left: 52px; */
+	width: 30%;
+	margin: 1%;
+	@media (max-width: $break-small) {
+	width: 98%;
+	margin: 1%;
+	}
+}
+
+.table-header {
+	padding: 0px; 
+	margin: 0px;
+	width: 100%;
+	border-radius: 7px 7px 0px 0px;
+}
+
+.table-header > h1 {
+	text-align: center;
+	color: #2a2a36;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1.36;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 42px;
+}
+
+.table-header > h2 {
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+	color: #555555;
+	line-height: 1.61;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-bottom: 29px;
+}
+
+.basic {
+	background-color: #f9f9f9;
+}
+
+.standart {
+	background-color: #c4e1f7;
+}
+
+.premium {
+	background-color: #178ecd;
+}
+
+.premium > h1 {
+	color: white;
+}
+
+.premium > h2 {
+	color: white;
+}
+
+.table-content {
+	margin: 15px;
+	padding: 0px;
+}
+
+.table-content > h1 {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.22;
+  color: #555555;
+  text-align: left;
+}
+
+.line {
+	width: 90%;
+	height: 2px;
+	border: solid 2px #eeeeee;
+}
+
+.list .check {
+	font-family: OpenSans;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 2.5;
+	color: #555555;
+}
+
+
+
+
+
+
+
+/*@media (max-width: $break-small) {
+    .background {
+        background-image: url("../img/enterprise/enterprise.jpg");
+        background-size: 100% auto, cover;
+    }
+
+    .background h1 {
+        width: 250px;
+        letter-spacing: -1px;
+        font-size: 35px;
+        line-height: 1.2;
+    }
+
+    .background h2 {
+        font-size: 16px;
+        line-height: 1.6;
+        width: 250px;
+    }
+
+    .background > .container-fluid > .col-md-6 > p > a {
+        width: 160px;
+        height: 60px;
+        padding-top: 22px;
+        font-size: 14px;
+        
+        &.btn-absolute-icon {
+
+        .icon-arrow {
+            background: url(../img/arrow_right.svg) center/contain no-repeat;
+            position: absolute;
+            width: 20px;
+            height: 100%;
+            right: 20px;
+            top: 2px;
+        }
+    }
+    }
+}*/
+
