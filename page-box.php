@@ -28,7 +28,7 @@
 				<li>microSD card with <a href="https://developer.ubuntu.com/en/snappy/" target="_blank">Snappy Ubuntu Core</a> as OS</li>
 				<li>Apache, MySQL and the latest Nextcloud 10 pre-installed and ready to go</li>
 			</ul>
-			<p>The Box is compatible with the Raspberry Pi 2, which you need to supply yourself. The Box can also fit the Raspberry Pi 3 and the oDroid C2. These will be supported by the software in a future release.</p>
+			<p>The Box is compatible with the Raspberry Pi 2, <strong>(not included)</strong>. The Box can also fit the Raspberry Pi 3 and the oDroid C2. These will be supported by the software in a future release.</p>
 			<img class="conf-img img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/pidrive/box-open.jpg" alt="contents" />
 		</div>
 	</div>
@@ -58,6 +58,7 @@
 		</ul>
 <!-- 	</div> -->
 	</div>
+	<p><br /><a href="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/accessoires.jpg"><img class="conf-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/accessoires.jpg" alt="" /></a></p>
 	</div>
 	</div>
 </div>
