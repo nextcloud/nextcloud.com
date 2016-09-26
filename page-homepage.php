@@ -1,4 +1,4 @@
-<?php if(CONTRIBOOK) { require(dirname(_FILE_).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
+<?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/home.js"></script>
 
 <div class="container-fluid">
