@@ -30,4 +30,5 @@
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/font-awesome.min.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/custom.css" rel="stylesheet">
+	<?php if(is_page('Homepage')) { ?><link href="<?php echo get_template_directory_uri(); ?>/assets/css/home.css" rel="stylesheet"><?php } ?>
 </head>
