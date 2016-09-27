@@ -16,7 +16,7 @@
   height: 70vh;
   min-height: 600px;
   max-height: 800px;
-  font-family: "Open Sans", Frutiger, Calibri, "Myriad Pro", Myriad, sans-serif !important; }
+  /* 	font-family: $font-stack; */ }
 
 .background h1 {
   /* 	margin-top: 243px; */
@@ -60,7 +60,7 @@
 /* All headers */
 .header {
   margin-bottom: 54px;
-  font-family: "Open Sans", Frutiger, Calibri, "Myriad Pro", Myriad, sans-serif !important;
+  /* 	font-family: $font-stack; */
   font-size: 60px;
   font-weight: 300;
   font-style: normal;
@@ -150,7 +150,7 @@
   border: solid 2px #eeeeee; }
 
 .list .check {
-  font-family: OpenSans;
+  /* 	font-family: OpenSans; */
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -162,7 +162,7 @@
   list-style-image: url("../img/enterprise/check.svg"); }
 
 .list .nocheck {
-  font-family: OpenSans;
+  /*   font-family: OpenSans; */
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -192,7 +192,7 @@
   border: solid 1px #fbfbfb; }
 
 .discounts .box > h1 {
-  font-family: OpenSans;
+  /* 	font-family: OpenSans; */
   font-size: 25px;
   font-weight: bold;
   font-style: normal;
@@ -202,7 +202,7 @@
   color: #2a2a36; }
 
 .discounts .box > p {
-  font-family: OpenSans;
+  /*   font-family: OpenSans; */
   font-size: 20px;
   font-weight: 300;
   font-style: normal;
@@ -218,7 +218,7 @@
   margin-bottom: 17px; }
 
 .discounts a {
-  font-family: OpenSans;
+  /*   font-family: OpenSans; */
   font-size: 20px;
   font-weight: 300;
   font-style: normal;
@@ -240,7 +240,7 @@
   margin: 30px; }
 
 .faq h3 {
-  font-family: OpenSans;
+  /*   font-family: OpenSans; */
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -250,7 +250,7 @@
   color: #555555; }
 
 .faq h1 {
-  font-family: OpenSans;
+  /* 	font-family: OpenSans; */
   font-size: 60px;
   font-weight: 300;
   font-style: normal;
@@ -261,7 +261,7 @@
   margin-bottom: 80px; }
 
 .faq p {
-  font-family: OpenSans;
+  /* 	font-family: OpenSans; */
   font-size: 18px;
   font-weight: 300;
   font-style: normal;
