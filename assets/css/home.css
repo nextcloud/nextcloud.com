@@ -2,7 +2,7 @@
  * Home page jumbotron
  */
 .jumbotron {
-  background-image: url("../img/home/t-o-p-banner@2x.png"), linear-gradient(to bottom, #0082c9, #3e9ed8 100%, #d8d8d8);
+  background-image: url("../img/home/top-banner@2x.png"), linear-gradient(to bottom, #0082c9, #3e9ed8 100%, #d8d8d8);
   padding-bottom: 0;
   padding-top: 0;
   margin-bottom: 0;
@@ -204,7 +204,7 @@
  */
 @media (max-width: 768px) {
   .jumbotron {
-    background-image: url("../img/home/t-o-p-banner@2x_mobile.png"), linear-gradient(to bottom, #0082c9, #3e9ed8 100%, #d8d8d8);
+    background-image: url("../img/home/top-banner@2x_mobile.png"), linear-gradient(to bottom, #0082c9, #3e9ed8 100%, #d8d8d8);
     background-size: 50% auto, cover; }
 
   .jumbotron h1 {
