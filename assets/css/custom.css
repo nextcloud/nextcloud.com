@@ -113,6 +113,7 @@ footer {
 
   .collapse.in {
     display: block !important; } }
+
 .navbar {
   background-color: #0082c9;
   height: 100px;
@@ -214,6 +215,12 @@ body.enterprise .navbar:not(.scrolled) {
   background-color: transparent; }
 
 body.enterprise .navbar:not(.scrolled) .btn-primary {
+  background-color: transparent !important; }
+
+body.buy .navbar:not(.scrolled) {
+  background-color: transparent; }
+
+body.buy .navbar:not(.scrolled) .btn-primary {
   background-color: transparent !important; }
 
 /**

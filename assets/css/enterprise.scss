@@ -37,7 +37,7 @@
     width: 70%;
 }
 
-.background img {
+.background .container-fluid img {
     height: 100%;
     width: 100%;
 }
@@ -46,13 +46,19 @@
     top: 50%;
     transform: translateY(-50%);
     position: relative;
+	margin-left: 20%;
+	@media (max-width: $break-big) {
+	margin-left: 15%;
+	}
+	@media (max-width: $break-small) {
+	margin-left: 5%;
+	}
 }
 
-.background > .container > .col-md-6 {
-/* 	width: 494px; */
-    padding-left: 5%;
+.background > .container > .topheader {
 }
-.background > .container > .col-md-6 > p > a {
+
+.background > .container > .topheader > p > a {
     width: 290px;
     height: 60px;
     padding-top: 16px
@@ -63,9 +69,6 @@
     padding-right: 0;
 }
 
-.topheader {
-	margin-left: 160px;
-}
 
 /* All headers */
 

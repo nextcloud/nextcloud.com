@@ -142,6 +142,25 @@
 					<p>By offering more in-depth knowledge than anybody else, we give you the confidence you need to be able to rely on Nextcloud.</p>
 				</div>
 				<div class="line"></div>
+				<div class="downarrow"><a href="#what_I_get" data-toggle="collapse"><h3>What does the subscription give me?<span class="icon-arrow-down"></span></h3></a></div>
+				<div id="what_I_get" class="collapse">
+					<p>Your Nextcloud subscription enables you to successfully deploy and manage your servers. Our open approach gives you direct access to Nextcloud engineers, the latest knowledge and best practices. We provide technical expertise, guidance and collaboration with phone and chat contact. Pro-active security support helps you identify and address vulnerabilities and harden your servers to protect the safety and integrity of your data.</p>
+					<p>With the Nextcloud Enterprise subscription you get:
+					<ul>
+						<li>Full lifecycle support with multi-year security and stability fixes</li>
+						<li>Technical expertise and help covering project inception to production and user growth</li>
+						<li>Help to scale your Nextcloud installation to large amounts of storage and large numbers of users</li>
+						<li>Security and hardening consulting</li>
+						<li>Influence on the roadmap of the open source project</li>
+						<li>Access to the core Nextcloud engineers</li>
+						<li>Access to consulting for custom capabilities</li>
+						<li>Support for branding Nextcloud</li>
+						<li>Full support for integrated video conferencing and communication features based on spreed.me and WebRTC</li>
+						<li>Optional Online Office capabilities which can handle a wide range of industry-standard file formats</li>
+					</ul></p>
+					<p>Nextcloud consulting goes beyond technical expertise, offering strategic advice for organizations. We analyze your challenges and help you implement a comprehensive, cost-effective and compliance-aware solution which reduces complexity and risks while delivering the highest security and privacy protection.</p>
+				</div>
+				<div class="line"></div>
 				<div class="downarrow"><a href="#languages" data-toggle="collapse"><h3>In what languages do I get support?<span class="icon-arrow-down"></span></h3></a></div>
 				<div id="languages" class="collapse">
 					<p>We provide support in German and English and other languages through our partners, <a href="#contact">contact us</a> for details.</p>
@@ -149,12 +168,17 @@
 				<div class="line"></div>
 				<div class="downarrow"><a href="#howbuy" data-toggle="collapse"><h3>How do I buy Nextcloud subscriptions?<span class="icon-arrow-down"></span></h3></a></div>
 				<div id="howbuy" class="collapse">
-					<p>Just contact us or one of our partners. Our partners will help you set up Nextcloud and they act as your first point of contact.</p>
+					<p>Just <a href="/buy">contact us</a> or one of our partners. Our partners will help you set up Nextcloud and they act as your first point of contact.</p>
 				</div>
 				<div class="line"></div>
 				<div class="downarrow"><a href="#partner" data-toggle="collapse"><h3>How do I become a Nextcloud partner?<span class="icon-arrow-down"></span></h3></a></div>
 				<div id="partner" class="collapse">
 					<p>We are always looking for competent partners who share our passion for making customers happy! You can join our ecosystem, <a href="/contact">contact us for more information</a>.</p>
+				</div>
+				<div class="line"></div>
+				<div class="downarrow"><a href="#gpl" data-toggle="collapse"><h3>What does the Open Source License mean?<span class="icon-arrow-down"></span></h3></a></div>
+				<div id="gpl" class="collapse">
+					<p>Nextcloud is licensed under the GNU AGPLv3, one of the most widely used Open Source license. Written with input from lawyers and industry leaders from all over the world, it is a clear, balanced and well understood license, providing users a level of certainty no license from any single company can give. Today it is a widely used and broadly accepted license across various stakeholders, including developers, users, organizations and large enterprises. The AGPLv3 guarantees that all users of the software can use, study, share and improve the software without any legal risks. Further it's patent clause ensures all users have a non-exclusive, non-transferable, worldwide, royalty-free license on any patents owned by code contributors now or in the future. On top of this, Nextcloud GmbH guarantees that every customer can use Nextcloud and exercise all rights given by the GNU AGPLv3 without violating any patents or copyright.</p>
 				</div>
 				<div class="line"></div>
 				<div class="downarrow"><a href="#sourcerelease" data-toggle="collapse"><h3>Do I have to release the source code of systems Nextcloud connects to?<span class="icon-arrow-down"></span></h3></a></div>
@@ -181,8 +205,8 @@
 		</div>
 	</div>
 </div>
-
-
-
+<div class="container">
+	<p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
+</div>
 
 

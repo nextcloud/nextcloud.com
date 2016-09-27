@@ -324,3 +324,53 @@
     }
     }
 }*/
+.epricevat {
+  font-weight: light;
+  font-size: .7em;
+  text-align: right;
+  padding: 0px;
+  margin-top: -5px; }
+
+.einfo span:hover {
+  border-bottom: 1px dotted gray;
+  /* 	cursor: pointer; */ }
+
+.table-center {
+  text-align: center !important; }
+
+.enterprise-icon {
+  font-size: 80px;
+  color: #0082c9; }
+
+.blue {
+  color: #0082c9; }
+
+.price {
+  color: #0082c9;
+  font-weight: 80%;
+  text-align: center; }
+
+.ebasic {
+  background-color: #d9f2ff !important; }
+
+.epro {
+  background-color: #c6ecff !important; }
+
+.eenterprise {
+  background-color: #ace4ff !important; }
+
+.eintro {
+  font-size: 115%; }
+
+.pricingdetails > h2 {
+  margin-top: 150px;
+  margin-bottom: 80px; }
+
+.contact {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.contact > h3 {
+  margin-top: 90px;
+  margin-bottom: 20px;
+  text-align: left; }
