@@ -1,3 +1,4 @@
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/home.css" rel="stylesheet">
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/home.js"></script>
 
