@@ -67,17 +67,10 @@
 	margin-left: 160px;
 }
 
-/* Pricing area */
-
-.pricing {
-  margin-top: 133px;
-}
+/* All headers */
 
 .header {
 	margin-bottom: 54px;
-}
-
-.pricing h1 {
 	font-family: $font-stack;
 	font-size: 60px;
 	font-weight: 300;
@@ -88,16 +81,24 @@
 	color: #2a2a36;
 }
 
+/* Pricing area */
+
+.pricing {
+	margin-top: 133px;
+/* 	width: 1170px; */
+}
+
 .table-column {
 	border-radius: 8px;
 	border: solid 1px #eeeeee;
 	padding: 0px;
 /* 	margin-left: 52px; */
-	width: 30%;
-	margin: 1%;
-	@media (max-width: $break-small) {
+	width: 31%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 50px;
+	@media (max-width: $break-big) {
 	width: 98%;
-	margin: 1%;
 	}
 }
 
@@ -154,6 +155,8 @@
 .table-content {
 	margin: 15px;
 	padding: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .table-content > h1 {
@@ -182,11 +185,156 @@
 	color: #555555;
 }
 
+.list .check {
+	list-style-image: url("../img/enterprise/check.svg");
+}
+
+.list .nocheck {
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  color: #b1b1b1;
+}
+
+.list .nocheck {
+	list-style-image: url("../img/enterprise/nocheck.svg");
+}
+
+.table-content .btn-lg {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+/* Discount section */
+
+.discounts {
+	margin-top: 64px;
+	margin-bottom: 30px;
+}
+
+.discounts .box {
+  border: solid 1px transparent;
+  margin-bottom: 50px;
+}
+
+.discounts .box:hover {
+  box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
+  border: solid 1px #fbfbfb;
+}
+
+.discounts .box > h1 {
+	font-family: OpenSans;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  text-align: center;
+  color: #2a2a36;
+}
+
+.discounts .box > p {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  text-align: center;
+  color: #434343;
+}
+
+.discounts .box .img-responsive {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 36px;
+	margin-bottom: 17px;
+}
+
+.discounts a {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  text-align: center;
+  color: #178ecd;
+}
 
 
+.faq {
+	background: $nextcloud-blue;
+	margin-bottom: 50px;
+}
 
+.faq .container {
+	background: white;
+	margin-bottom: 90px;
+}
 
+.faq .container .row {
+	padding: 20px;
+	margin: 30px;
+}
 
+.faq h3 {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  text-align: left;
+  color: #555555;
+}
+
+.faq h1 {
+	font-family: OpenSans;
+  font-size: 60px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.88;
+  color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  
+}
+
+.faq p {
+	font-family: OpenSans;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.61;
+  text-align: left;
+  color: #555555;
+}
+
+.faq .line {
+	width: 100%;
+	height: 1px;
+	border: solid 1px #eeeeee;
+}
+
+.downarrow {
+	position: relative;
+}
+
+.downarrow span.icon-arrow-down {
+	background: url(../img/arrow_down.svg) center/contain no-repeat;
+	position: absolute;
+	width: 25px;
+	height: 100%;
+	right: 15px;
+	top: 0px;
+}
 
 /*@media (max-width: $break-small) {
     .background {

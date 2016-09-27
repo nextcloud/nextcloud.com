@@ -380,7 +380,7 @@ body.enterprise .navbar:not(.scrolled) .btn-primary  {
     font-family: 'Lato', sans-serif;
     text-align: center;
     transition: all 0.3s ease 0s;
-
+	min-width: 150px;
     &:hover {
         background-color: $medium-blue !important;
     }

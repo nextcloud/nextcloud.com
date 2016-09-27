@@ -300,7 +300,8 @@ body.enterprise .navbar:not(.scrolled) .btn-primary {
   font-size: 18px;
   font-family: 'Lato', sans-serif;
   text-align: center;
-  transition: all 0.3s ease 0s; }
+  transition: all 0.3s ease 0s;
+  min-width: 150px; }
   .btn-primary:hover {
     background-color: #0073b2 !important; }
   .btn-primary:active {
