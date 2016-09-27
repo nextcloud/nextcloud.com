@@ -281,7 +281,7 @@ button a:hover {text-decoration: none; }
 	width: 100%;
 	background: #656565; }
 @media (min-width: 1100px) {
-	.navbar.scrolled .active {
+	.navbar.scrolled .active a {
 		border-bottom: 3px solid #656565 !important; } }
 .navbar.scrolled .btn-primary a {
 	color: white !important; }
