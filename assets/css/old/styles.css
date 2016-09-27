@@ -80,6 +80,7 @@ h3 {
 
 .btn {
 	border-radius: 50px;
+	line-height: 1.7;
 }
 
 .btn-default {
@@ -116,7 +117,7 @@ button a:hover {text-decoration: none; }
 /**
  * Navbar
  */
-.btn-primary {
+.navbar .btn-primary {
 	background-color: #0082c9;
 	overflow: hidden;
 	border: none;
@@ -127,9 +128,9 @@ button a:hover {text-decoration: none; }
 	font-family: 'Lato', sans-serif;
 	text-align: center;
 	transition: all 0.3s ease 0s; }
-.btn-primary:hover {
+.navbar .btn-primary:hover {
 	background-color: #0073B2 !important; }
-.btn-primary:active {
+.navbar .btn-primary:active {
 	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
 	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
