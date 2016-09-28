@@ -1680,3 +1680,9 @@ text-align: center;
     margin-right: auto !important;
 	height: 300px;
 }
+
+/* Nextcloud Box page */
+.boxinfo {
+	text-align: center;
+	margin-bottom: 50px;
+}
