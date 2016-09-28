@@ -355,3 +355,13 @@ section#why-nextcloud {
   line-height: 1.61;
   text-align: left;
   color: #555555; }
+
+.news ul {
+  list-style-type: none;
+  color: #555555;
+  padding: 0;
+  -webkit-padding-start: 0px;
+  -moz-padding-start: 0px; }
+
+.news li {
+  border-bottom: solid 1px #eeeeee; }
