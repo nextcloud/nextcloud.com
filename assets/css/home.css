@@ -315,11 +315,13 @@ section#why-nextcloud {
 
 .news .col-md-4 {
   background: white;
-  margin-bottom: 90px; }
+  margin-bottom: 90px;
+  width: 28%; }
 
 .news .row .col-md-4 {
   padding: 20px;
-  margin: 30px; }
+  margin: 30px;
+  min-height: 400px; }
 
 .news h3 {
   /*   font-family: OpenSans; */
