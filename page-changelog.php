@@ -193,7 +193,7 @@ Go directly to the latest maintenance release of:
 	<li>Support changing the page title (<a href="https://github.com/nextcloud/server/pull/372">server/372</a>)</li>
 	<li>Add icon for the theming app (<a href="https://github.com/nextcloud/server/pull/1295">server/1295</a>)</li>
 	<li>Add theming information to capabilities for the clients (<a href="https://github.com/nextcloud/server/pull/1281">server/1281</a>)</li>
-</h5>
+</ul>
 
 <h5>Bug fixes</h5>
 <ul>
