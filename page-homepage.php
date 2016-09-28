@@ -156,21 +156,23 @@
 
 
 <div class="container-fluid news" id="social-media">
-	<div class="row 3-column-lg-md-sm">
-		<div class="col-md-4">
-			<i class="glyphicon glyphicon-cloud"></i>
-			<h3><a href="<?php echo home_url('news') ?>">Nextcloud News</a></h3>
-			<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,4); } ?></span></p>
-		</div>
-		<div class="col-md-4">
-			<i class="fa fa-twitter"></i>
-			<h3>Latest <a href="https://twitter.com/nextclouders">Twitter posts</a></h3>
-			<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,2); } ?></span></p>
-		</div>
-		<div class="col-md-4">
-			<i class="fa fa-comment"></i> d
-			<h3>Latest <a href="https://help.nextcloud.com">from the forum</a></h3>
-			<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,4); }?></span></p>
+	<div class="container">
+		<div class="row 3-column-lg-md-sm">
+			<div class="col-md-4">
+				<h3>Nextcloud News</a></h3>
+				<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,4); } ?></span></p>
+				<a href="<?php echo home_url('news') ?>">more</a>
+			</div>
+			<div class="col-md-4">
+				<h3>Latest Twitter posts</h3>
+				<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,2); } ?></span></p>
+				<a href="https://twitter.com/nextclouders">more</a>
+			</div>
+			<div class="col-md-4">
+				<h3>Latest from the forum</h3>
+				<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,4); }?></span></p>
+				<a href="https://help.nextcloud.com">more</a>
+			</div>
 		</div>
 	</div>
 </div>
