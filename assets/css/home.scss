@@ -415,23 +415,32 @@ section#why-nextcloud {
 
 .news p {
 /* 	font-family: OpenSans; */
-  font-size: 18px;
+  font-size: 60px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.61;
-  text-align: left;
-  color: #555555;
+  line-height: 0.88;
+  color: #ffffff;
 }
 
 .news ul {
 	list-style-type: none;
-	color: #555555;
 	padding: 0;
 	-webkit-padding-start: 0px;
 	-moz-padding-start: 0px;
 }
 
 .news li {
+	padding-top: 10px;
+	padding-bottom: 10px;
 	border-bottom: solid 1px #eeeeee;
+}
+
+.news a {
+  font-size: 60px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.88;
+  color: #ffffff;
 }
