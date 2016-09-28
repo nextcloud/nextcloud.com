@@ -1,7 +1,6 @@
 <div class="page-header">
 	<h1>Nextcloud Server Changelog</h1>
 </div>
-<p>We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest Nextcloud Server version which fits your needs.</p>
 Go directly to the latest maintenance release of:
 <ul>
 <li><a href="#latest10">Nextcloud 10</a></li>
