@@ -369,3 +369,40 @@ section#why-nextcloud {
         }
     }
 }
+
+.news {
+	background: $nextcloud-blue;
+	margin-bottom: 50px;
+}
+
+.news .col-md-4 {
+	background: white;
+	margin-bottom: 90px;
+}
+
+.news .row .col-md-4 {
+	padding: 20px;
+	margin: 30px;
+}
+
+.news h3 {
+/*   font-family: OpenSans; */
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  text-align: left;
+  color: #555555;
+}
+
+.news p {
+/* 	font-family: OpenSans; */
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.61;
+  text-align: left;
+  color: #555555;
+}

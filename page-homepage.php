@@ -154,6 +154,37 @@
 </div>
 </section>
 
+
+<div class="container-fluid news" id="social-media">
+	<div class="row 3-column-lg-md-sm">
+		<div class="col-md-4">
+			<i class="glyphicon glyphicon-cloud"></i>
+			<h3><a href="<?php echo home_url('news') ?>">Nextcloud News</a></h3>
+			<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,4); } ?></span></p>
+		</div>
+		<div class="col-md-4">
+			<i class="fa fa-twitter"></i>
+			<h3>Latest <a href="https://twitter.com/nextclouders">Twitter posts</a></h3>
+			<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,2); } ?></span></p>
+		</div>
+		<div class="col-md-4">
+			<i class="fa fa-comment"></i> d
+			<h3>Latest <a href="https://help.nextcloud.com">from the forum</a></h3>
+			<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,4); }?></span></p>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid" id="stay-up-to-date">
+	<div class="row stay-up-to-date">
+		<div class="container text-center" style="padding-top: 70px; padding-bottom: 70px;">
+			<h5>Stay up to date with Nextcloud's latest enhancements!</h5>
+			<p><a class="btn btn-primary btn-lg btn-absolute-icon" href="https://newsletter.nextcloud.com/" role="button">Subscribe to our newsletter<span class="icon-arrow"></span></a></p>
+		</div>
+	</div>
+</div>
+
+
 <script>
 	// Only make the scrolling effect for devices bigger than the 768px in width
 	if ($(window).width() > 768) {
@@ -192,33 +223,3 @@
 		$('#pinContainer').css('height', 'inherit');
 	}
 </script>
-
-<!--
-<div class="container-fluid" id="social-media">
-	<div class="row 3-column-lg-md-sm home-social">
-		<div class="col-md-4">
-			<i class="glyphicon glyphicon-cloud"></i>
-			<h3><a href="<?php echo home_url('news') ?>">Nextcloud News</a></h3>
-			<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,4); } ?></span>
-		</div>
-		<div class="col-md-4">
-			<i class="fa fa-twitter"></i>
-			<h3>Latest <a href="https://twitter.com/nextclouders">Twitter posts</a></h3>
-			<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,2); } ?></span>
-		</div>
-		<div class="col-md-4">
-			<i class="fa fa-comment"></i> d
-			<h3>Latest <a href="https://help.nextcloud.com">from the forum</a></h3>
-			<span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,4); }?></span>
-		</div>
-	</div>
-</div>
--->
-<div class="container-fluid" id="stay-up-to-date">
-	<div class="row stay-up-to-date">
-		<div class="container text-center" style="padding-top: 70px; padding-bottom: 70px;">
-			<h5>Stay up to date with Nextcloud's latest enhancements!</h5>
-			<p><a class="btn btn-primary btn-lg btn-absolute-icon" href="https://newsletter.nextcloud.com/" role="button">Subscribe to our newsletter<span class="icon-arrow"></span></a></p>
-		</div>
-	</div>
-</div>
