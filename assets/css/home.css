@@ -364,12 +364,13 @@ section#why-nextcloud {
 .news li {
   padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: solid 1px #eeeeee; }
+  border-bottom: solid 2px #eeeeee; }
 
 .news a {
-  font-size: 60px;
+  font-size: 18px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
-  line-height: 0.88;
-  color: #ffffff; }
+  line-height: 1.61;
+  text-align: left;
+  color: #555555; }
