@@ -37,41 +37,45 @@
 <div class="wrap container">
 <div class="boxinfo">
 	<div class="row">
-	<div class="col-md-6 col-md-offset-3">
-	<h1 class="">Get the Box</h1>
-	<img class="conf-img img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/pidrive/wrap.jpg" alt="contents" />
-	<p>Currenly you can only purchase the Nextcloud Box in Europe and the USA. We're working on bringing the box to other regions!</p>
+	<h1 class="text-center">Get the Box</h1>
+	<div class="col-md-6">
+		<img class="conf-img img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/pidrive/wrap.jpg" alt="contents" />
+		<p>Currenly you can only purchase the Nextcloud Box in Europe and the USA. We're working on bringing the box to other regions!</p>
+		<div class="btn-group">
+		<!--<div class="buybutton">-->
+			<button type="button" data-toggle="dropdown" class="btn btn-primary buybutton dropdown-toggle">Select your country &nbsp;<span class="caret"></span></button>
+			<ul role="menu" class="dropdown-menu">
+				<li><a href="http://store.wdc.com/promo/4822802900" target="_blank">Buy in the USA </a></li>
+				<li><a href="http://store.wdc.com/promo/4823854300"target="_blank">Buy in the UK </a></li>
+			<li><a href="http://store.wdc.com/promo/4823854500"target="_blank">Buy in Germany </a></li>
+			<li><a href="http://store.wdc.com/promo/4823854600"target="_blank">Buy in Spain </a></li>
+			<li><a href="http://store.wdc.com/promo/4823854700"target="_blank">Buy in France </a></li>
+			<li><a href="http://store.wdc.com/promo/4823854800"target="_blank">Buy in Italy </a></li>
+			<li><a href="http://store.wdc.com/promo/4823854900"target="_blank">Buy in the Netherlands </a></li>
+			<li><a href="http://store.wdc.com/promo/4822802800"target="_blank">Buy in rest of Europe </a></li>
+			</ul>
+	<!-- 	</div> -->
+		</div>
 	</div>
-	<div class="col-md-6 col-md-offset-3">
-	<div class="btn-group">
-	<!--<div class="buybutton">-->
-		<button type="button" data-toggle="dropdown" class="btn btn-primary buybutton dropdown-toggle">Select your country &nbsp;<span class="caret"></span></button>
-		<ul role="menu" class="dropdown-menu">
-			<li><a href="http://store.wdc.com/promo/4822802900" target="_blank">Buy in the USA </a></li>
-			<li><a href="http://store.wdc.com/promo/4823854300"target="_blank">Buy in the UK </a></li>
-		<li><a href="http://store.wdc.com/promo/4823854500"target="_blank">Buy in Germany </a></li>
-		<li><a href="http://store.wdc.com/promo/4823854600"target="_blank">Buy in Spain </a></li>
-		<li><a href="http://store.wdc.com/promo/4823854700"target="_blank">Buy in France </a></li>
-		<li><a href="http://store.wdc.com/promo/4823854800"target="_blank">Buy in Italy </a></li>
-		<li><a href="http://store.wdc.com/promo/4823854900"target="_blank">Buy in the Netherlands </a></li>
-		<li><a href="http://store.wdc.com/promo/4822802800"target="_blank">Buy in rest of Europe </a></li>
-		</ul>
-<!-- 	</div> -->
-	</div>
+	<div class="col-md-6">
 	<p><br /><a href="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/accessoires.jpg"><img class="conf-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/accessoires.jpg" alt="" /></a></p>
 	</div>
 	</div>
 </div>
 
 <div class="row boxinfo">
-	<div class="col-md-12">
-		<h1>How to Box</h1>
+		<h1 class="text-center">How to Box</h1>
+	<div class="col-lg-6 col-sm-12">
 		<p><a href="<?php echo get_template_directory_uri(); ?>/assets/files/Box-Assembly-Guide.pdf"><img class="conf-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/guide.png" alt="" /></a></p>
 		<p><a href="<?php echo get_template_directory_uri(); ?>/assets/files/Box-Assembly-Guide.pdf" class="btn btn-default">download <i class="icon-file-pdf-o"></i></a></p>
-		<div class="text-center morebuttondiv">
+	</div>
+	<div class="col-lg-6 col-sm-12">
+		<h2>Nextcloud Box Wiki and Forums</h2>
+		<p>You can find a lot of information, tips and tricks on configuring your Nextcloud Box on <a href="https://github.com/nextcloud/nextcloud-snap/wiki">our wiki</a>; discuss the Box and ask questions on <a href="https://help.nextcloud.com/t/the-great-nextcloud-box-topic/3510">our forums.</a></p>
+		<div class="text-center btn-group morebuttondiv">
 				<a href="https://help.nextcloud.com/t/the-great-nextcloud-box-topic/3510" class="btn btn-primary morebutton" target="_blank">Help on our forums <i class="icon-arrow-circle-o-right icon"></i></a>
+				<a href="https://github.com/nextcloud/nextcloud-snap/wiki" class="btn btn-primary morebutton" target="_blank">Manuals on our wiki <i class="icon-arrow-circle-o-right icon"></i></a>
 		</div>
-		<p>More information about using the Nextcloud Box is coming soon! Stay tuned.</p>
 	</div>
 </div>
 <div class="boxinfo">
