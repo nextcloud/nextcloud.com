@@ -372,7 +372,8 @@ section#why-nextcloud {
 
 .news {
 	background: $nextcloud-blue;
-	margin-bottom: 50px;
+	padding-bottom: 120px;
+	margin-bottom: 70px;
 }
 
 .news .col-md-4 {
@@ -385,6 +386,19 @@ section#why-nextcloud {
 	padding: 20px;
 	margin: 30px;
 	min-height: 400px;
+}
+
+.faq h1 {
+/* 	font-family: OpenSans; */
+  font-size: 60px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.88;
+  color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  
 }
 
 .news h3 {
