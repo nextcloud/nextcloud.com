@@ -39,11 +39,12 @@
 		<h3>Supported Product Versions</h3>
 		Nextcloud Server:
 		<ul>
-			<li>9.0.51</li>
+			<li>Latest 10.x release</li>
+			<li>Latest 9.0.x release</li>
 		</ul>
 		Nextcloud Android Client:
 		<ul>
-			<li>1.0.1</li>
+			<li>Latest release on Google PlayStore</li>
 		</ul>
 	</div>
 </div>
