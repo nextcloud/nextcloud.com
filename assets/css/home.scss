@@ -385,7 +385,7 @@ section#why-nextcloud {
 .news .row .col-md-4 {
 	padding: 20px;
 	margin: 30px;
-	min-height: 400px;
+	min-height: 500px;
 }
 
 .news h1 {
@@ -444,4 +444,12 @@ section#why-nextcloud {
   line-height: 1.61;
   text-align: left;
   color: #555555;
+}
+
+.news .contribook_microbloguserpicture img {
+ width: 0px !important;	
+}
+
+.news table {
+	margin-left: -15px;
 }
