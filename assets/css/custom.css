@@ -66,13 +66,16 @@
  */
 .right-text-grey {
   opacity: 0;
-  padding-top: 25px;
-  text-align: center; }
-
-.right-text-grey p {
-  font-size: 18px;
-  font-weight: 100;
-  color: #555555; }
+  padding-top: 75px; }
+  .right-text-grey:first-child {
+    padding-top: 50px; }
+  @media (max-width: 768px) {
+    .right-text-grey {
+      text-align: center; } }
+  .right-text-grey p {
+    font-size: 18px;
+    font-weight: 100;
+    color: #555555; }
 
 .introducing-nc-release {
   padding-top: 100px;
@@ -81,8 +84,8 @@
     .introducing-nc-release {
       padding-top: 50px; } }
   .introducing-nc-release img {
-    height: 30vw;
-    width: 100%;
+    width: 582px;
+    height: 474px;
     display: block;
     margin: 0 auto; }
     @media (max-width: 768px) {
@@ -305,8 +308,7 @@ section#why-nextcloud {
 
 .news {
   background: #0082c9;
-  padding-bottom: 120px;
-  margin-bottom: 70px; }
+  padding-bottom: 120px; }
 
 .news .col-md-4 {
   background: white;
@@ -375,6 +377,7 @@ section#why-nextcloud {
   text-align: left;
   color: #555555; }
 
+/* hide the image and table for the tweets */
 .news .contribook_microbloguserpicture img {
   width: 0px !important; }
 
@@ -401,6 +404,9 @@ section#why-nextcloud {
     .Header-Navigation .navbar .navbar-header .brand img {
       height: 50px;
       margin-top: 2px; }
+      @media (max-width: 1150px) {
+        .Header-Navigation .navbar .navbar-header .brand img {
+          margin-left: 16px; } }
   @media (min-width: 1100px) {
     .Header-Navigation .navbar li:last-child {
       padding-left: 30px;
@@ -543,15 +549,18 @@ section#why-nextcloud {
         padding-top: 3vh;
         font-size: 35px; } }
 
-.navbar-toggle .icon-bar {
+.icon-bar {
   width: 22px;
   transition: all 0.2s; }
-.navbar-toggle .top-bar {
+
+.top-bar {
   transform: rotate(45deg);
   transform-origin: 22.5%; }
-.navbar-toggle .middle-bar {
+
+.middle-bar {
   opacity: 0; }
-.navbar-toggle .bottom-bar {
+
+.bottom-bar {
   transform: rotate(-45deg);
   transform-origin: 22.5%; }
 
@@ -561,6 +570,12 @@ section#why-nextcloud {
   opacity: 1; }
 .navbar-toggle.collapsed .bottom-bar {
   transform: rotate(0deg); }
+
+.navbar-collapse {
+  display: none !important; }
+
+html {
+  margin-top: 0 !important; }
 
 body {
   font-family: "Open Sans", Frutiger, Calibri, "Myriad Pro", Myriad, sans-serif !important;

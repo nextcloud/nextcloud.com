@@ -4315,11 +4315,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
+
+@media (min-width: 1300px) {
+  .navbar-toggle {
+    display: none;
+  }
+}
+
+/* original media query
 @media (min-width: 768px) {
   .navbar-toggle {
     display: none;
   }
 }
+*/
 .navbar-nav {
   margin: 7.5px -15px;
 }

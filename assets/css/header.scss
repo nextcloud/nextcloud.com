@@ -1,3 +1,5 @@
+@import "variables.scss";
+
 .Header-Navigation{
     .navbar {
     top: 0;
@@ -21,7 +23,10 @@
                                 
                 img {    
                         height: 50px;
-                        margin-top: 2px;  
+                        margin-top: 2px;
+                        @media (max-width: 1150px){
+                            margin-left: 16px;
+                        }
                     }
                 }
 
@@ -229,6 +234,8 @@
 
 }
 .navbar-toggle {
+    }
+    
     .icon-bar {
         width: 22px;
         transition: all 0.2s;
@@ -247,7 +254,7 @@
         transform: rotate(-45deg);
         transform-origin: 22.5%;
     }
-}
+
 
 .navbar-toggle.collapsed {
     .top-bar {
@@ -262,3 +269,43 @@
         transform: rotate(0deg);
     }
 }
+
+.navbar-collapse {
+    display: none !important;
+}
+
+
+// Some Magic that get rid of the header bug when you rescize the window
+
+//@media (min-width: 768px) {
+//    .navbar-toggle {
+//        display: block !important;
+//    }
+//}
+//
+//@media (min-width: 1200px) {
+//    .navbar-toggle {
+//        display: none !important;
+//    }
+//}
+//
+//@media (min-width: 1200px) {
+//    .navbar-right {
+//        float: right !important;
+//        margin-right: -15px;
+//    }
+//}
+//
+//@media (min-width: 1200px){
+//    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse {
+//        padding-right: 0;
+//        padding-left: 0;
+//    }
+//}
+//
+//@media (min-width: 1200px) {
+//    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+//        margin-right: 0;
+//        margin-left: 0;
+//    }
+//}

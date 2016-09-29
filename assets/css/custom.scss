@@ -2,6 +2,10 @@
 @import"home.scss";
 @import"header.scss";
 
+html{
+    margin-top: 0 !important;
+}
+
 body {
   font-family: "Open Sans", Frutiger, Calibri, "Myriad Pro", Myriad, sans-serif !important;
   -webkit-font-smoothing: antialiased;

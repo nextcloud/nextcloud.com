@@ -66,10 +66,10 @@
         <div class="container">
             <div class="row introducing-nc-release">
                 <div class="container">
-                    <div class="container col-md-6">
+                    <div class="container col-md-6 ">
                         <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-10.png">
                     </div>
-                    <div class="container col-md-6 right-text-grey" style="opacity: 1; padding-top: 0 !important;">
+                    <div class="container col-md-6 right-text-grey" style="opacity: 1; padding-top: 50px;">
                         <h5>Secure, Fine Grained Control over Data Access and Workflows</h5>
                         <p>This release delivers better scalability as well as monitoring, security and workflow management tools, enabling better control over Nextcloud servers and operation at scale.</p>
                         <br/>

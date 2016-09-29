@@ -94,14 +94,20 @@
  */
 .right-text-grey {
     opacity: 0;
-    padding-top: 25px;
-    text-align: center;
+    padding-top: 75px;
+    &:first-child {
+        padding-top: 50px;
+    }
+    @media (max-width: 768px){
+        text-align: center;    
+    }
+    p {
+        font-size: 18px;
+        font-weight: 100;
+        color: #555555;
+    }
 }
-.right-text-grey p {
-    font-size: 18px;
-    font-weight: 100;
-    color: #555555;
-}
+
 
 .introducing-nc-release {
     padding-top: 100px;
@@ -111,8 +117,8 @@
     }
     
     img {
-        height: 30vw;
-        width: 100%; 
+        width: 582px;
+        height: 474px; 
         display: block;
         margin: 0 auto;
             @media (max-width: $break-small) {
@@ -393,7 +399,6 @@ section#why-nextcloud {
 .news {
 	background: $nextcloud-blue;
 	padding-bottom: 120px;
-	margin-bottom: 70px;
 }
 
 .news .col-md-4 {
