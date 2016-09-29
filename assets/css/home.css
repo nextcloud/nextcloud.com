@@ -323,7 +323,7 @@ section#why-nextcloud {
       width: 27%; } }
   @media (max-width: 991px) {
     .news .col-md-4 {
-      width: 100%; } }
+      width: 90%; } }
 
 .news .row .col-md-4 {
   padding: 20px;
