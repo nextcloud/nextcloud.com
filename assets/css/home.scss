@@ -371,6 +371,8 @@ section#why-nextcloud {
 }
 
 .news {
+
+.news {
 	background: $nextcloud-blue;
 	padding-bottom: 120px;
 	margin-bottom: 70px;
@@ -380,6 +382,13 @@ section#why-nextcloud {
 	background: white;
 	margin-bottom: 90px;
 	width: 28%;
+	@media (max-width: 1199px) {
+        width: 27%;
+	}
+	@media (max-width: 991px) {
+        width: 100%;
+	}
+	
 }
 
 .news .row .col-md-4 {
