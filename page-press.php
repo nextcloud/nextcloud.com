@@ -4,7 +4,7 @@
 <!-- <a href="/nine" class="btn btn-lg btn-default">Overview of new features</a> -->
 <h2>Press releases</h2>
 <ul>
-	<li><a href="/press/pr20160928/">Semptember 28, 2016: Danish research and education network moves from ownCloud to Nextcloud</a></li>
+	<li><a href="/press/pr20160929/">Semptember 29, 2016: Danish research and education network moves from ownCloud to Nextcloud</a></li>
 	<li><a href="/press/pr20160916/">Semptember 16, 2016: Nextcloud Box – a private cloud and IoT solution for home users – from Nextcloud, Canonical and WDLabs</a></li>
 	<li><a href="/press/pr20160901/">Semptember 1st, 2016: Nextcloud Conference to Feature Launch Event, Keynote Speakers: Jane Silber, CEO of Canonical and Karen Sandler, Executive Director at the Software Freedom Conservancy</a></li>
 	<li><a href="/press/pr20160825/">August 25th, 2016: Nextcloud 10 Delivers Secure, Fine Grained Control over Data Access and Workflows</a></li>
