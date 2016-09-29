@@ -1,3 +1,4 @@
+<div class="pr">
 <h1>Nextcloud Box – a private cloud and IoT solution for home users – from Nextcloud, Canonical and WDLabs</h1>
 <h3>Companies launch Raspberry Pi-based device to enable consumers greater control over their data</h3>
 <p><strong>Stuttgart, Germany, September 16, 2016</strong> Nextcloud, Canonical and WDLabs, are today launching the Nextcloud Box, a secure, private, self-hosted cloud and Internet of Things (IoT) platform giving consumers a way to take back control over their personal data. Nextcloud Box makes hosting a personal cloud simple and cost effective whilst maintaining a secure private environment that can be expanded with additional features via apps.</p>
@@ -45,3 +46,4 @@ Jos Poortvliet<br />
 Kronenstraße 22A<br />
 D-70173 Stuttgart, Germany<br />
 e-mail: <a href="mailto:pr@nextcloud.com">pr@nextcloud.com</a></p>
+</div>

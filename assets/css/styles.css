@@ -1686,3 +1686,9 @@ text-align: center;
 	text-align: center;
 	margin-bottom: 50px;
 }
+
+/* PR pages */
+
+.pr {
+	font-size: 18px;
+}

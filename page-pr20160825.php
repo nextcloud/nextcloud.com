@@ -1,3 +1,4 @@
+<div class="pr">
 <h1>Nextcloud 10 Delivers Secure, Fine Grained Control over Data Access and Workflows</h1>
 <p><strong>Stuttgart, Germany, August 24, 2016</strong> Nextcloud GmbH, the company behind the next generation privacy-aware open source file sync and share, communication and collaboration technology announces the immediate availability of Nextcloud 10.</p>
 
@@ -41,3 +42,4 @@ Jos Poortvliet<br />
 Kronenstraße 22A<br />
 D-70173 Stuttgart, Germany<br />
 e-mail: pr@nextcloud.com</p>
+</div>

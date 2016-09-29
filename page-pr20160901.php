@@ -1,3 +1,4 @@
+<div class="pr">
 <h1>Nextcloud Conference to Feature Launch Event, Keynote Speakers: Jane Silber, CEO of Canonical and Karen Sandler, Executive Director at the Software Freedom Conservancy</h1>
 <p><strong>Stuttgart, Germany, September 1st, 2016</strong> The Nextcloud Conference, scheduled September 16-22 2016 at the Technical University Berlin, Germany, will feature Jane Silber, CEO of Canonical and Karen Sandler, Executive Director at the Software Freedom Conservancy, as keynote speakers. The conference will showcase the momentum gathered by the Nextcloud open source project and community over the last few month across enterprise and consumer usage. Jane will talk about recent Canonical innovations while Karen will discuss what makes open source so successful. The first day  of the conference will feature the launch event of a new Nextcloud product, developed together with two partners.</p>
 
@@ -32,3 +33,4 @@ Jos Poortvliet<br />
 Kronenstraße 22A<br />
 D-70173 Stuttgart, Germany<br />
 e-mail: <a href="mailto:pr@nextcloud.com">pr@nextcloud.com</a></p>
+</div>

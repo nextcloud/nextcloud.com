@@ -1,3 +1,4 @@
+<div class="pr">
 <h1>Geniatech / Struktur AG cooperating on the development and deployment of DVB-T2 HD HEVC H.265 applications / EyeTV T2 product launch</h1>
 <small>Phase 1: DVB-T2 HEVC HD H.265 Media Codec (Germany)</small>
 <p><strong>Stuttgart, Herzogenrath, Shenzhen 21 July 2016</strong> Geniatech and Struktur AG have successfully completed the first phase of their cooperation on the development of HEVC.H.265 applications. With the market launch of EyeTV T2, end consumers now have access to a native solution which can receive and play DVB-T2 HD (FTA) on computers without putting additional strain on the existing hardware for decoding. </p>
@@ -20,7 +21,7 @@
 
 <p>Michael Decker, VP / MD of Geniatech, adds: "In terms of quality, this cooperation with Struktur AG is at the very highest level. Geniatech is delighted to be working together with one of the leading solution providers and experts in the media display field. Both companies have quality and cross-platform innovation as part of their DNA. In phase 1, we have already succeeded in providing the best platform for the decoding of DVB-T2 HEVC for Mac and Windows PC."</p>
 
-<p>All users playing films and live television broadcasts in the new high-resolution DVB-T2 HD standard  on computers and mobile devices can benefit from the cooperation.</p>
+<p>All users playing films and live television broadcasts in the new high-resolution DVB-T2 HD standard on computers and mobile devices can benefit from the cooperation. Nextcloud, a spin-off of Struktur AG, employs H.265 technology in Spreed.ME related products.</p>
 
 <p>About struktur AG<br />
 struktur AG develops innovative hardware and software technologies for global markets. Known products included Spreed Online Meetings and FPS Financial Planning Software (financial mathematical and consultancy software) plus libde265 HEVC high-efficiency video coding software.</p>
@@ -55,3 +56,4 @@ Tel: +49 (0)711-896656-0<br />
 Fax: +49 (0)711-896656-10<br />
 e-mail: presse@struktur.de<br />
 http://www.struktur.de</p>
+</div>
