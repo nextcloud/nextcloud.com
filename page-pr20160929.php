@@ -5,8 +5,6 @@
 
 <p><em>"We are very pleased with the addition of DeIC to our customer base in the educational market"</em> said Frank Karlitschek, Founder and Managing Director at Nextcloud. <em>"Their trust in our service and support is a strong validation of our more sustainable and long-term focused business model."</em></p>
 
-<p>Key WD components including the WD PiDrive and SanDisk SD card deliver a device with the flexibility and openness to enable learning and experimenting, with easy installation and allowing replacement of components, adding functionality and capabilities like more storage space, networking interfaces and other addons.</p>
-
 <p>As provider for educational and research institutions, DeIC requires a fully open source solution from a business partner with proven security and scalability expertise and a long term support offering. Unique features like a high quality SAML implementation and monitoring tooling were critical in choosing Nextcloud as supplier.</p>
 
 <p>About Nextcloud</br />
