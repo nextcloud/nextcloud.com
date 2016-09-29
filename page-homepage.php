@@ -2,17 +2,15 @@
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/home.js"></script>
 
-<div class="container-fluid">
-	<div class="row jumbotron">
+	<div class="jumbotron">
 		<div class="container-fluid">
 			<div class="col-md-6">
-				<h1>A safe home for all your data</h1>
+				<h1>A safe home for <br> all your data</h1>
 				<h2>Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.</h2>
 				<p><a class="btn btn-primary btn-lg btn-absolute-icon" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button">Get Nextcloud <span class="icon-arrow"></span></a></p>
 			</div>
 		</div>
 	</div>
-</div>
 
 <section id="why-nextcloud">
 	<div class="container">
@@ -45,7 +43,6 @@
 </section>
 
 <div class="container-fluid" id="perfect-for-home-and-business">
-	<div>
 		<h2>Perfect for home and office</h2>
 		<p>Access everything with the tools you're already using,
 			regardless of the device or platform you're on. Pictures,
@@ -53,7 +50,6 @@
 			available right where you need them whether they're
 			coming from your local storage or remote cloud services.</p>
 		<p><a class="btn btn-primary btn-lg btn-absolute-icon" href="<?php echo home_url('features') ?>" role="button">Get to know all the features <span class="icon-arrow"></span></a></p>
-	</div>
 </div>
 
 <section class="Section-Introducing-Nextcloud" id="pinContainer">

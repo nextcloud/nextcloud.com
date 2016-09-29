@@ -1,0 +1,264 @@
+.Header-Navigation{
+    .navbar {
+    top: 0;
+    border-width: 0 0 1px;
+    background-color: $nextcloud-blue;
+    height: 100px;
+    transition: all .2s ease-in;
+    z-index: 5;
+    padding-top: 25px;
+    font-size: 16px;
+        
+        .navbar-header{
+            @media (max-width: $navbar-breaksize) {
+                float: none;
+            }
+            .brand{
+                margin-top: -25px;
+                @media (min-width: $navbar-breaksize){
+                    padding-left: 5%;
+                }
+                                
+                img {    
+                        height: 50px;
+                        margin-top: 2px;  
+                    }
+                }
+
+            }
+           
+    @media (min-width: $navbar-breaksize) {
+        li{
+            &:last-child{
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            a {
+                color: white;
+            }
+        }
+        
+        .active a {
+            border-bottom: 3px solid white;
+        }
+    }
+    
+    @media (max-width: $navbar-breaksize) {
+         a {
+            color: #75badd;
+            .active {
+                color: white;
+                color: #75badd;
+            }
+        }
+    }
+    
+    .btn-primary {
+        background-color: $nextcloud-blue;
+        border: 1px solid white;
+        padding-top: 0;
+        font-size: 16px;
+        height: inherit;
+        @media (max-width: $navbar-breaksize) {
+            position: fixed;
+            bottom: 0;
+            margin-left: -5%;
+            width: 105%;
+            border-radius: 0;
+            border: 0;
+            height: 75px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $medium-blue;
+            
+            a {
+                color: $white;
+            }
+        }
+    }
+    
+    .active {
+        font-weight: 600;
+        }
+    }   
+    
+}
+
+
+// This breaks the navigation already at 1080px since we have too many entries otherwise to display those all properly
+@media (max-width: $navbar-breaksize) {
+}
+ 
+.navbar > .container-fluid {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    button {
+        color: white;
+        background-color: white;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+        margin-top: 0;
+        .icon-bar {
+            background-color: $dark-blue;
+            width: 100%;
+        }
+    }
+}
+
+.navbar-nav {
+    li {
+        @media (min-width: $break-small) {
+            margin: 0 0 0 10px;
+        }
+        a:hover {
+            background: none !important;
+        }
+        @media (min-width: $navbar-breaksize) {
+            a:hover {
+                color: white;
+            }
+        }
+    }
+    @media (min-width: $navbar-breaksize) {
+        li:before {
+            display: inline-block;
+            position: relative;
+            padding-bottom: 1px;
+        }
+        li:after {
+            content: '';
+            display: block;
+            margin: auto;
+            height: 3px;
+            width: 0;
+            background: transparent;
+            transition: width .2s ease, background-color .2s ease;
+        }
+        li:not(.btn-primary):not(.active):hover:before {
+            width: 100%;
+            background: white;
+            transition: width .2s ease-in;
+        }
+        li:not(.btn-primary):not(.active):hover:after {
+            width: 100%;
+            background: white;
+        }
+    }
+}
+
+/* make transparent on some pages */
+
+.navbar:not(.scrolled) {
+    background-color: transparent;
+}
+
+.navbar:not(.scrolled) .btn-primary  {
+	background-color: transparent !important;
+}
+
+
+/**
+ * Scrolled navbar style
+ */
+.navbar.scrolled {
+    transition: all .2s ease-in;
+    background: white;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09);
+    @media (max-height:800px) {
+        display: none;
+    }
+    a {
+        color: #656565 !important;
+    }
+    .navbar-nav li:not(.btn-primary):not(.active):hover:before {
+        width: 100%;
+        background: #656565;
+        transition: width .2s ease-in;
+    }
+    .navbar-nav li:not(.btn-primary):not(.active):hover:after {
+        width: 100%;
+        background: #656565;
+    }
+    @media (min-width: $navbar-breaksize) {
+        .active {
+            border-bottom: 3px solid #656565 !important;
+        }
+    }
+    .btn-primary a {
+        color: white !important;
+    }
+
+    .navbar-collapse {
+        @media (max-width: $navbar-breaksize) {
+            background-color: $white;
+            margin-left: -6% !important;
+        }
+    }
+}
+
+/**
+ * Collapsed navbar
+ */
+.navbar-collapse {
+    @media (max-width: $navbar-breaksize) {
+        padding-left: 0;
+        padding-right: 0;
+        width: calc(100vw + 1%);
+        min-height: 100vh;
+        background-color: $nextcloud-blue;
+        margin-left: -6% !important;
+        box-shadow: none;
+        transition: all .2s ease-in;
+
+        ul {
+            margin-right: 5%;
+            margin-left: 5%;
+            text-align: center;
+            min-height: 540px;
+            li {
+                padding-top: 3vh;
+                font-size: 35px;
+            }
+        }
+    }
+
+}
+.navbar-toggle {
+    .icon-bar {
+        width: 22px;
+        transition: all 0.2s;
+    }
+    
+    .top-bar {
+        transform: rotate(45deg);
+        transform-origin: 22.5%;
+    }
+    
+    .middle-bar {
+        opacity: 0;
+    }
+    
+    .bottom-bar {
+        transform: rotate(-45deg);
+        transform-origin: 22.5%;
+    }
+}
+
+.navbar-toggle.collapsed {
+    .top-bar {
+        transform: rotate(0deg);
+    }
+    
+    .middle-bar {
+        opacity: 1;
+    }
+    
+    .bottom-bar {
+        transform: rotate(0deg);
+    }
+}
