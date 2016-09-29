@@ -1,9 +1,7 @@
 <h1>Danish research and education network moves from ownCloud to Nextcloud</h1>
 <p><strong>Lyngby, Denmark and Stuttgart, Germany, September 29</strong> DeiC and Nextcloud announce their collaboration on a large scale migration of their several years old ownCloud deployment to Nextcloud 10. DeIC, Danish e-Infrastructure Cooperation, supports the development of Denmark as an eScience nation through the delivery of e-infrastructure, guidance, and initiatives at national level. Through DeIC, the research institutes and universities of Denmark will use Nextcloud to facilitate sharing and collaboration between staff and students.</p>
 
-<p><em>"We require a truly scalable and 100% open source enterprise solution from a reliable partner"</em>, said Dave Chew, Chief Engineer, WDLabs. <em>"We’ve combined our latest technologies to create an integrated hardware/software platform for the Nextcloud community focused on ease of use, extensibility and affordability."</em></p>
-
-<p><em>"We have always believed that collaboration brings out the best in communities and companies alike,"</em> said Martin Bech, Head of NREN at DeIC. <em>"so we decided to migrate our data.deic.dk service from ownCloud to Nextcloud 10"</em></p>
+<p><em>"We require a truly scalable and 100% open source enterprise solution from a reliable partner"</em>, said Martin Bech, Head of NREN at DeIC. <em>"so we decided to migrate our data.deic.dk service from ownCloud to Nextcloud 10"</em></p>
 
 <p><em>"We are very pleased with the addition of DeIC to our customer base in the educational market"</em> said Frank Karlitschek, Founder and Managing Director at Nextcloud. <em>"Their trust in our service and support is a strong validation of our more sustainable and long-term focused business model."</em></p>
 
