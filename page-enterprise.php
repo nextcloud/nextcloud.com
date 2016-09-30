@@ -111,7 +111,9 @@
 		</div>
 	</div>
 </div>
-
+<div class="container text-center">
+	<p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
+</div>
 <div class="container discounts">
 	<div class="row">
 		<h1 class="header">Discounts</h1>
@@ -205,10 +207,6 @@
 		</div>
 	</div>
 </div>
-<!--
-<div class="container">
-	<p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
-</div>
--->
+
 
 
