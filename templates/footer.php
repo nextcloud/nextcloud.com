@@ -41,5 +41,10 @@
                 <li><a href=""<?php echo home_url('blogfeed') ?>">RSS Feed</a></li>
             </ul>
         </div>
-    </div>
+    <div class="row">
+		<div class="col-sm-12 text-center">
+		<p><a href="https://github.com/nextcloud/nextcloud.com">MIT</a> &copy; </font> <?php echo date('Y'); ?> Nextcloud, <small><a href="/impressum">Legal Notice</a></small></p>
+		</div>
+	</div>
+  </div>
 </footer>
