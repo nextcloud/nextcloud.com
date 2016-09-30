@@ -454,9 +454,9 @@ section#why-nextcloud {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #0073b2; }
+        background-color: #0073B2; }
         .Header-Navigation .navbar .btn-primary a {
-          color: white; } }
+          color: #ffffff; } }
   .Header-Navigation .navbar .active {
     font-weight: 600; }
 
@@ -538,7 +538,7 @@ section#why-nextcloud {
     color: white !important; }
   @media (max-width: 1100px) {
     .navbar.scrolled .navbar-collapse {
-      background-color: white;
+      background-color: #ffffff;
       margin-left: -6% !important; } }
 
 /**
@@ -705,7 +705,8 @@ footer {
       footer li a:hover {
         color: #ffffff; }
   footer p {
-    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
     font-size: 15px;
     line-height: 1.8;
     color: #ffffff; }
@@ -731,12 +732,12 @@ footer {
   transition: all 0.3s ease 0s;
   min-width: 150px; }
   .btn-primary:hover {
-    background-color: #0073b2 !important; }
+    background-color: #0073B2 !important; }
   .btn-primary:active {
     -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
-    background-color: #0073b2; }
+    background-color: #0073B2; }
   .btn-primary.btn-absolute-icon {
     position: relative;
     text-indent: -20px; }
@@ -848,3 +849,5 @@ footer {
     @media (max-width: 1200px) {
       .highlights_align h4 {
         margin-left: 0; } }
+
+/*# sourceMappingURL=custom.css.map */
