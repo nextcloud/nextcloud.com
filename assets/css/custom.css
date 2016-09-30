@@ -398,6 +398,8 @@ section#why-nextcloud {
 .news table {
   margin-left: -15px; }
 
+/* header navbar */
+ 
 .Header-Navigation .navbar {
   top: 0;
   border-width: 0 0 1px;
@@ -440,7 +442,8 @@ section#why-nextcloud {
     border: 1px solid white;
     padding-top: 0;
     font-size: 16px;
-    height: inherit; }
+    height: inherit; 
+	transition: all 0.3s ease 0s;}
     @media (max-width: 1200px) {
       .Header-Navigation .navbar .btn-primary {
         position: fixed;

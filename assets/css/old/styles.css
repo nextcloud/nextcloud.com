@@ -173,16 +173,20 @@ button a:hover {text-decoration: none; }
 .navbar {
 	background-color: #0080cc;
 	height: 100px;
-	transition: all .2s ease-in; }
+	transition: all .2s ease-in;
+	padding-top: 25px;
+
+}
 .Header-Navigation {
 	padding-bottom: 120px;
 }
-.navbar-brand > img {
+.brand > img {
 	height: 50px;
-	margin-top: 7px; }
+	margin-top: 2px; 
+}
 
 #navbar {
-	padding-top: 25px;
+/* 	padding-top: 25px; */
 	font-size: 16px; }
 @media (min-width: 1100px) {
 	#navbar a {
@@ -218,7 +222,12 @@ button a:hover {text-decoration: none; }
 		color: #ffffff; } }
 #navbar .active {
 	font-weight: 600; }
-
+@media (min-width: 1200px) {
+	.Header-Navigation .navbar li:last-child {
+    padding-left: 30px;
+    padding-right: 30px;
+	}
+}
 .navbar > .container-fluid {
 	margin-left: 5%;
 	margin-right: 5%;
