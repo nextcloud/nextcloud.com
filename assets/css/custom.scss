@@ -91,12 +91,9 @@ footer {
     }
 
 
-
-
 /**
  * Overwrite button colors
  */
-
 .btn-primary {
     background-color: $nextcloud-blue;
     overflow: hidden;
@@ -221,7 +218,7 @@ footer {
     margin: -16px 0 0 -16px;
     padding: 0;
     list-style: none;
-    @media (max-width: 1200px) {
+    @media (max-width: 1024px) {
         display: block;
         text-align: center;
         margin: 0 10px 0 10px;
@@ -237,7 +234,7 @@ footer {
     &:first-child {
         padding-left: 0px;
     }
-    @media (max-width: 1200px) {
+    @media (max-width: 1024px) {
         flex-basis: auto;
         max-width: none;
         padding-left: 0;

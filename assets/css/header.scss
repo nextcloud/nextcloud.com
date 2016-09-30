@@ -32,7 +32,7 @@
 
             }
            
-    @media (min-width: $navbar-breaksize) {
+    @media (min-width: 1200px) {
         li{
             &:last-child{
                 padding-left: 30px;
@@ -48,7 +48,7 @@
         }
     }
     
-    @media (max-width: $navbar-breaksize) {
+    @media (max-width: 1200px) {
          a {
             color: #75badd;
             .active {
@@ -64,7 +64,7 @@
         padding-top: 0;
         font-size: 16px;
         height: inherit;
-        @media (max-width: $navbar-breaksize) {
+        @media (max-width: 1200px) {
             position: fixed;
             bottom: 0;
             margin-left: -5%;
@@ -210,7 +210,7 @@
  * Collapsed navbar
  */
 .navbar-collapse {
-    @media (max-width: $navbar-breaksize) {
+    @media (max-width: 1200px) {
         padding-left: 0;
         padding-right: 0;
         width: calc(100vw + 1%);
@@ -219,12 +219,13 @@
         margin-left: -6% !important;
         box-shadow: none;
         transition: all .2s ease-in;
-
+        
         ul {
             margin-right: 5%;
             margin-left: 5%;
             text-align: center;
             min-height: 540px;
+            
             li {
                 padding-top: 3vh;
                 font-size: 35px;
@@ -275,37 +276,52 @@
 }
 
 
-// Some Magic that get rid of the header bug when you rescize the window
-
-//@media (min-width: 768px) {
-//    .navbar-toggle {
-//        display: block !important;
-//    }
-//}
-//
-//@media (min-width: 1200px) {
-//    .navbar-toggle {
-//        display: none !important;
-//    }
-//}
-//
-//@media (min-width: 1200px) {
-//    .navbar-right {
-//        float: right !important;
-//        margin-right: -15px;
-//    }
-//}
-//
-//@media (min-width: 1200px){
-//    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse {
-//        padding-right: 0;
-//        padding-left: 0;
-//    }
-//}
-//
-//@media (min-width: 1200px) {
-//    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-//        margin-right: 0;
-//        margin-left: 0;
-//    }
-//}
+/**
+*Changed default media querys for navigation in bootstrap
+*/
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+   .navbar-nav .open .dropdown-menu {
+       position: static;
+       float: none;
+       width: auto;
+       margin-top: 0;
+       background-color: transparent;
+       border: 0;
+       -webkit-box-shadow: none;
+       box-shadow: none;
+    }
+}
