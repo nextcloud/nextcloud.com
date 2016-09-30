@@ -41,7 +41,8 @@
 .jumbotron > .container-fluid > .col-md-6 > p > a {
   width: 290px;
   height: 60px;
-  padding-top: 16px; }
+  padding-top: 16px;
+  text-indent: -30px; }
 
 /**
  * Home page: Why Nextcloud?
@@ -723,7 +724,7 @@ footer {
       position: absolute;
       width: 30px;
       height: 100%;
-      right: 60px;
+      right: 50px;
       top: 0; }
 
 /**

@@ -1,5 +1,5 @@
 <div class="container-fluid background">
-	<div class="row container">
+	<div class="container">
 		<div class="col-md-6 topheader">
 			<h1>Enterprise Support Subscriptions</h1>
 			<h2>An enterprise subscription provides you the confidence of knowing that your Nextcloud deployment is backed by the best available technical expertise and with the features you need for your organization</h2>
@@ -31,7 +31,7 @@
 				<h1>Support</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check">Production Support SLA: 3 business days</li>
+					<li class="check">Production SLA: 3 business days</li>
 					<li class="check">Portal support</li>
 					<li class="check">ownCloud™ migration support</li>
 					<li class="check">Email support</li>
@@ -64,7 +64,7 @@
 				<h1>Support</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check">Production Support SLA: 2 business days</li>
+					<li class="check">Production SLA: 2 business days</li>
 					<li class="check">Portal support</li>
 					<li class="check">ownCloud™ migration support</li>
 					<li class="check">Email support: business hours</li>
@@ -76,7 +76,7 @@
 				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button">BUY IT <span class="icon-arrow"></span></a>
 			</div>
 		</div>
-		<div class="col-md-4 table-column">
+		<div class="col-md-4 table-column highlight">
 			<div class="table-header premium">
 				<h1>Premium</h1>
 				<h2>From 3250€/year</h2>
@@ -97,13 +97,13 @@
 				<h1>Support</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check">Production Support SLA: 24h or as agreed</li>
+					<li class="check">Production SLA: 24h or as agreed</li>
 					<li class="check">Portal support</li>
 					<li class="check">ownCloud™ migration support</li>
-					<li class="check">Email support</li>
-					<li class="check">Phone support</li>
+					<li class="check">Email </li>
+					<li class="check">Phone </li>
 					<li class="check">Custom consulting</li>
-					<li class="check">Clustering support</li>
+					<li class="check">Clustering </li>
 					<li class="check">Maintenance life cycle: 5+5 year</li>
 				</div>
 				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button">BUY IT <span class="icon-arrow"></span></a>
@@ -205,8 +205,10 @@
 		</div>
 	</div>
 </div>
+<!--
 <div class="container">
 	<p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
 </div>
+-->
 
 
