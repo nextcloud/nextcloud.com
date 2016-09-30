@@ -95,11 +95,7 @@
                     </div>
                     <div class="container col-md-6 right-text-grey">
                         <h5>Faster and more reliable operation at scale</h5>
-                        <p>Nextcloud 10 introduces the Server Information app which provides a way for admins to monitor
-                            the health and performance of a Nextcloud system. Besides a graphical UI, an API endpoint
-                            provided makes it possible for system administrators to import this data in their monitoring
-                            app so they can keep an eye on Nextcloud operations from the same place they keep an eye
-                            on the rest of their infrastructure.</p>
+                        <p>Nextcloud 10 introduces the Server Information app which provides a way for admins to monitor the health and performance of a Nextcloud system through a graphical UI or in their enterprise monitoring tool.</p>
                         <br/>
                         <p>
                             <a class="btn btn-primary btn-lg" href="/workflow/#monitoring" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a>
