@@ -2,15 +2,20 @@
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/home.js"></script>
 
-	<div class="jumbotron">
-		<div class="container-fluid">
-			<div class="col-md-6">
+<div class="jumbotron">
+<!-- 	<div class="container-fluid"> -->
+		<div class="row">
+			<div class="col-md-6 toptext">
 				<h1>A safe home for <br> all your data</h1>
 				<h2>Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.</h2>
 				<p><a class="btn btn-primary btn-lg btn-absolute-icon" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button">Get Nextcloud <span class="icon-arrow"></span></a></p>
 			</div>
+			<div class="col-md-6 topbanner">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/empty.png"> <!--empty image to ensure the viewport is big enough-->
+			</div>
 		</div>
-	</div>
+<!-- 	</div> -->
+</div>
 
 <section id="why-nextcloud">
 	<div class="container">
