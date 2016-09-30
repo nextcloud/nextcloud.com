@@ -221,7 +221,8 @@
 
 .faq .container .row {
   padding: 20px;
-  margin: 30px; }
+  margin: 30px;
+  margin-right: 60px; }
 
 .faq h3 {
   /*   font-family: OpenSans; */
@@ -267,7 +268,7 @@
   position: absolute;
   width: 25px;
   height: 100%;
-  right: 15px;
+  right: -30px;
   top: 0px; }
 
 /*@media (max-width: $break-small) {
