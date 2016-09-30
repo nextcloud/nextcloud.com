@@ -23,7 +23,7 @@
     width: 350px; }
     @media (max-width: 768px) {
       .jumbotron .btn-primary {
-        width: 160px;
+        width: 180px;
         height: 60px;
         padding-top: 22px;
         font-size: 14px; }
