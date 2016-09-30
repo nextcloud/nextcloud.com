@@ -19,26 +19,26 @@
 				<h1>Supported Capabilities</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check">File sync and share</li>
-					<li class="check">Mobile and desktop clients</li>
-					<li class="check">Enterprise capabilities</li>
-					<li class="check">fully Open Source</li>
-					<li class="nocheck">Calendar and Contacts</li>
-					<li class="nocheck">Secure WebRTC Conferencing</li>
-					<li class="nocheck">SIP Gateway</li>
-					<li class="nocheck">Collabora Online Office</li>
+					<li class="check"><span title="Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.">File sync and share</span></li>
+					<li class="check"><span title="Android, iOS and desktop apps, branding possible.">Mobile and desktop clients</span></li>
+					<li class="check"><span title="Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.">Enterprise capabilities</span></li>
+					<li class="check"><span title="the AGPL license provides legal certainty for all customers and users.">Fully Open Source</span></li>
+					<li class="nocheck"><span title="Support for the Calendar and Contacts apps.">Calendar and Contacts</span></li>
+					<li class="nocheck"><span title="Support for our secure and private peer to peer audio and video conferencing.">Secure WebRTC Conferencing</span></li>
+					<li class="nocheck"><span title="Allows web conferencing calls to connect with phone lines.">SIP gateway</span></li>
+					<li class="nocheck"><span title="Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.">Collabora Online Office</span></li>
 				</div>
 				<h1>Support</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check">Production SLA: 3 business days</li>
-					<li class="check">Portal support</li>
-					<li class="check">ownCloud™ migration support</li>
-					<li class="check">Email support</li>
-					<li class="nocheck">Phone support</li>
-					<li class="nocheck">Custom consulting</li>
-					<li class="nocheck">Clustering support</li>
-					<li class="check">Maintenance life cycle: 1 year</li>
+					<li class="check"><span title="Questions and issues are generally dealt with in this time, depending on the severity of the issue">Production SLA: 3 business days</span></li>
+					<li class="check"><span title="Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team">Portal support</span></li>
+					<li class="check"><span title="We help you migrate from ownCloud to Nextcloud">ownCloud™ migration support</span></li>
+					<li class="check"><span title="You can contact our capable and responsive support team by email and expect a quick response time.">Email support</span></li>
+					<li class="nocheck"><span title="You can contact our support engineers by phone in these times.">Phone support</span></li>
+					<li class="nocheck"><span title="If you need access to experienced engineers to built custom solutions for your unique needs.">Custom consulting</span></li>
+					<li class="nocheck"><span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering support</span></li>
+					<li class="check"><span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 1 year</span></li>
 				</div>
 				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button">BUY IT <span class="icon-arrow"></span></a>
 			</div>
@@ -52,26 +52,26 @@
 				<h1>Supported Capabilities</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check">File sync and share</li>
-					<li class="check">Mobile and desktop clients</li>
-					<li class="check">Enterprise capabilities</li>
-					<li class="check">fully Open Source</li>
-					<li class="check">Calendar and Contacts</li>
-					<li class="nocheck">Secure WebRTC Conferencing</li>
-					<li class="nocheck">SIP Gateway</li>
-					<li class="nocheck">Collabora Online Office</li>
+					<li class="check"><span title="Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.">File sync and share</span></li>
+					<li class="check"><span title="Android, iOS and desktop apps, branding possible.">Mobile and desktop clients</span></li>
+					<li class="check"><span title="Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.">Enterprise capabilities</span></li>
+					<li class="check"><span title="the AGPL license provides legal certainty for all customers and users.">Fully Open Source</span></li>
+					<li class="check"><span title="Support for the Calendar and Contacts apps.">Calendar and Contacts</span></li>
+					<li class="nocheck"><span title="Support for our secure and private peer to peer audio and video conferencing.">Secure WebRTC Conferencing</span></li>
+					<li class="nocheck"><span title="Allows web conferencing calls to connect with phone lines.">SIP gateway</span></li>
+					<li class="nocheck"><span title="Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.">Collabora Online Office</span></li>
 				</div>
 				<h1>Support</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check">Production SLA: 2 business days</li>
-					<li class="check">Portal support</li>
-					<li class="check">ownCloud™ migration support</li>
-					<li class="check">Email support: business hours</li>
-					<li class="check">Phone support: business hours</li>
-					<li class="check">Custom consulting</li>
-					<li class="nocheck">Clustering support</li>
-					<li class="check">Maintenance life cycle: 3 years</li>
+					<li class="check"><span title="Questions and issues are generally dealt with in this time, depending on the severity of the issue">Production SLA: 2 business days</span></li>
+					<li class="check"><span title="Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team">Portal support</span></li>
+					<li class="check"><span title="We help you migrate from ownCloud to Nextcloud">ownCloud™ migration support</span></li>
+					<li class="check"><span title="You can contact our capable and responsive support team by email and expect a quick response time.">Email support: business hours</span></li>
+					<li class="check"><span title="You can contact our support engineers by phone in these times.">Phone support: business hours</span></li>
+					<li class="check"><span title="If you need access to experienced engineers to built custom solutions for your unique needs.">Custom consulting</span></li>
+					<li class="nocheck"><span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering support</span></li>
+					<li class="check"><span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 3 years</span></li>
 				</div>
 				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button">BUY IT <span class="icon-arrow"></span></a>
 			</div>
@@ -85,26 +85,26 @@
 				<h1>Supported Capabilities</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check">File sync and share</li>
-					<li class="check">Mobile and desktop clients</li>
-					<li class="check">Enterprise capabilities</li>
-					<li class="check">fully Open Source</li>
-					<li class="check">Calendar and Contacts</li>
-					<li class="check">Secure WebRTC Conferencing</li>
-					<li class="check">SIP Gateway</li>
-					<li class="check">Collabora Online Office</li>
+					<li class="check"><span title="Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.">File sync and share</span></li>
+					<li class="check"><span title="Android, iOS and desktop apps, branding possible.">Mobile and desktop clients</span></li>
+					<li class="check"><span title="Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.">Enterprise capabilities</span></li>
+					<li class="check"><span title="the AGPL license provides legal certainty for all customers and users.">Fully Open Source</span></li>
+					<li class="check"><span title="Support for the Calendar and Contacts apps.">Calendar and Contacts</span></li>
+					<li class="check"><span title="Support for our secure and private peer to peer audio and video conferencing.">Secure WebRTC Conferencing</span></li>
+					<li class="check"><span title="Allows web conferencing calls to connect with phone lines.">SIP gateway</span></li>
+					<li class="check"><span title="Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.">Collabora Online Office</span></li>
 				</div>
 				<h1>Support</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check">Production SLA: 24h or as agreed</li>
-					<li class="check">Portal support</li>
-					<li class="check">ownCloud™ migration support</li>
-					<li class="check">Email </li>
-					<li class="check">Phone </li>
-					<li class="check">Custom consulting</li>
-					<li class="check">Clustering </li>
-					<li class="check">Maintenance life cycle: 5+5 year</li>
+					<li class="check"><span title="Questions and issues are generally dealt with in this time, depending on the severity of the issue">Production SLA: 24h or as agreed</span></li>
+					<li class="check"><span title="Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team">Portal support</span></li>
+					<li class="check"><span title="We help you migrate from ownCloud to Nextcloud">ownCloud™ migration support</span></li>
+					<li class="check"><span title="You can contact our capable and responsive support team by email and expect a quick response time.">Email support: up to 24/7</span></li>
+					<li class="check"><span title="You can contact our support engineers by phone in these times.">Phone support: up to 24/7</span></li>
+					<li class="check"><span title="If you need access to experienced engineers to built custom solutions for your unique needs.">Custom consulting</span></li>
+					<li class="check"><span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering</span></li>
+					<li class="check"><span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 5+5 years</span></li>
 				</div>
 				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button">BUY IT <span class="icon-arrow"></span></a>
 			</div>
