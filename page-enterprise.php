@@ -188,17 +188,17 @@
 				<div class="line"></div>
 				<div class="downarrow"><a href="#logos" data-toggle="collapse"><h3>Are my logos or the company name affected by the AGPL?<span class="icon-arrow-down"></span></h3></a></div>
 				<div id="logos" class="collapse">
-					<p>No. Logos, company names, etc. are protected by trademarks. The GNU AGPLv3 is a copyright license and don't affect any trademarks. If you put your logo on your Nextcloud it is considered merely as data used by Nextcloud and has no effect on licenses or trademarks.</p></div>
+					<p>No. Logos, company names, etc. are protected by trademarks. The GNU AGPLv3 is a copyright license and doesn't affect any trademarks. If you put your logo on your Nextcloud it is considered merely as data used by Nextcloud and has no effect on licenses or trademarks.</p></div>
 				<div class="line">
 				</div>
 				<div class="downarrow"><a href="#pubsource" data-toggle="collapse"><h3>Do I need to publish the source code if I use Nextcloud?<span class="icon-arrow-down"></span></h3></a></div>
 				<div id="pubsource" class="collapse">
-					<p>No. As long as you didn't make any modifications to Nextcloud, make modifications to existing apps or write your own apps, you don't have to do anything. If you did make modifications, then you have to make that code available under the GNU AGPLv3 or a compatible license to the users of the system. The easiest way to do so is to provide a download link. In any case, Nextcloud GmbH is happy to assist you if you need more information on how to distribute your code.</p>
+					<p>No. As long as you didn't make any modifications to the Nextcloud code, existing apps or write your own apps, you don't have to do anything. Note that configuration does not count as modification! If you did make code modifications, then you have to make that code available under the GNU AGPLv3 or a compatible license to the users of the system. The easiest way to do so is to provide a download link. Nextcloud GmbH assists customers with license compliance.</p>
 				</div>
 				<div class="line"></div>
 				<div class="downarrow"><a href="#sellapp" data-toggle="collapse"><h3>Can I sell my Nextcloud App?<span class="icon-arrow-down"></span></h3></a></div>
 				<div id="sellapp" class="collapse">
-					<p>Yes. Nextcloud is licensed under the GNU AGPLv3. This license only defines the rights you have to give the users of the software, but not how they get the software. You can decide freely if you want to sell the software in an app store or through any other channel, or if you want to make the app publicly available. The only requiremnt is, that you license your app under the AGPLv3 or any compatible license.</p>
+					<p>Yes. Nextcloud is licensed under the GNU AGPLv3. This license only defines the rights you have to give the users of the software, but not how they get the software. You can decide freely if you want to sell the software in an app store or through any other channel, or if you want to make the app publicly available. The only requirement is that you license your app under the AGPLv3 or a compatible license.</p>
 				</div>
 				<div class="line"></div>
 			</div>
