@@ -684,8 +684,7 @@ h5 {
  * Footer
  */
 footer {
-  background-color: #2a2a36;
-  height: 349px; }
+  background-color: #2a2a36; }
   footer h1 {
     margin-top: 70px;
     font-size: 19px;
@@ -704,6 +703,15 @@ footer {
     footer li a {
       color: #ffffff; }
       footer li a:hover {
+        color: #ffffff; }
+  footer p {
+    padding: 30px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #ffffff; }
+    footer p a {
+      color: #ffffff; }
+      footer p a:hover {
         color: #ffffff; }
 
 /**
