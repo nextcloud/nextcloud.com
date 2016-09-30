@@ -223,6 +223,11 @@
   padding: 20px;
   margin: 30px;
   margin-right: 60px; }
+  @media (max-width: 768px) {
+    .faq .container .row {
+      padding: 10px;
+      margin: 10px;
+      margin-right: 30px; } }
 
 .faq h3 {
   /*   font-family: OpenSans; */
