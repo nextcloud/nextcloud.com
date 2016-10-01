@@ -266,7 +266,7 @@ section#why-nextcloud {
       padding-top: 80px; } }
   @media (min-width: 768px) {
     section#why-nextcloud .container {
-      width: 740px; } }
+      width: 720px; } }
 
 .Section-Introducing-Nextcloud {
   background-color: transparent;
@@ -341,7 +341,7 @@ section#why-nextcloud {
       width: 95%; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .news .container {
-      width: 740px !important; } }
+      width: 720px !important; } }
   .news .col-md-4 {
     background: white;
     margin-bottom: 90px;
