@@ -242,9 +242,9 @@
         font-size: 60px;
         line-height: 0.9;
         color: #ffffff;
-        width: 471px;
+        width: 90%;
         @media (max-width: $break-small) {
-            width: 320px;
+            width: 90%;
             font-size: 35px;
             line-height: 1.3;
         }
@@ -260,7 +260,7 @@
         padding-top: 30px;
         padding-bottom: 30px;
         @media (max-width: $break-small) {
-            width: 350px;
+            width: 90%;
             padding-top: 10px;
         }
     }
