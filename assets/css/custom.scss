@@ -106,7 +106,12 @@ footer {
                  }
             }
         }
+        @media (max-width: $break-small) {
+	  .container {
+	    width: 90%;
+	  }
 	}
+}
 
 
 /**

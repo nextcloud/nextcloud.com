@@ -10,21 +10,32 @@
   min-height: 700px;
   border-radius: 0 !important;
   position: relative; }
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     .jumbotron {
       min-height: 600px; } }
   .jumbotron h1 {
     padding-top: 0;
     color: white; }
+    @media (max-width: 991px) {
+      .jumbotron h1 {
+        width: 250px;
+        letter-spacing: -1px;
+        font-size: 35px;
+        line-height: 1.2; } }
   .jumbotron h2 {
     color: white;
     font-size: 18px;
     line-height: 1.6;
     width: 377px; }
+    @media (max-width: 991px) {
+      .jumbotron h2 {
+        font-size: 16px;
+        line-height: 1.6;
+        width: 250px; } }
   .jumbotron .btn-primary {
     margin-top: 50px;
     width: 350px; }
-    @media (max-width: 768px) {
+    @media (max-width: 991px) {
       .jumbotron .btn-primary {
         width: 180px;
         height: 60px;
@@ -57,6 +68,10 @@
       .jumbotron .topbanner {
         background-image: url("../img/home/top-banner@2x_mobile.png");
         padding-top: 100%; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .jumbotron .topbanner {
+        background-image: url("../img/home/top-banner@2x_mobile.png");
+        padding-top: 55%; } }
   .jumbotron .topbanner img {
     width: 100%;
     height: 100%;
@@ -66,7 +81,7 @@
     /* 		margin-top: 50px; */
     top: 30vh;
     margin-left: 5%; }
-    @media (max-width: 768px) {
+    @media (max-width: 991px) {
       .jumbotron .toptext {
         top: 120px;
         /* 		  margin-top: 50px; */ } }
@@ -80,21 +95,6 @@
 /**
  * Mobile
  */
-@media (max-width: 768px) {
-  .jumbotron {
-    /*         background-image: url("../img/home/top-banner@2x_mobile.png"),linear-gradient(to bottom, $nextcloud-blue, #3e9ed8 100%, #d8d8d8); */
-    /*         background-size: 50% auto, cover; */ }
-
-  .jumbotron h1 {
-    width: 250px;
-    letter-spacing: -1px;
-    font-size: 35px;
-    line-height: 1.2; }
-
-  .jumbotron h2 {
-    font-size: 16px;
-    line-height: 1.6;
-    width: 250px; } }
 /**
  * Home page: Why Nextcloud?
  */
@@ -157,6 +157,9 @@
     text-align: center;
     color: #2a2a36;
     padding-bottom: 40px; }
+  @media (max-width: 768px) {
+    .stay-up-to-date .container {
+      width: 100%; } }
 
 /**
  * Home page: perfect-for-home-and-business
@@ -193,7 +196,7 @@
     font-size: 60px;
     line-height: 0.9;
     color: #ffffff;
-    width: 90%; }
+    width: 469px; }
     @media (max-width: 768px) {
       #perfect-for-home-and-business h2 {
         width: 90%;
@@ -261,6 +264,9 @@ section#why-nextcloud {
   @media (max-width: 768px) {
     section#why-nextcloud {
       padding-top: 80px; } }
+  @media (min-width: 768px) {
+    section#why-nextcloud .container {
+      width: 740px; } }
 
 .Section-Introducing-Nextcloud {
   background-color: transparent;
@@ -330,73 +336,71 @@ section#why-nextcloud {
 .news {
   background: #0082c9;
   padding-bottom: 120px; }
-
-.news .col-md-4 {
-  background: white;
-  margin-bottom: 90px;
-  width: 28%; }
-  @media (max-width: 1199px) {
-    .news .col-md-4 {
-      width: 27%; } }
-  @media (max-width: 991px) {
-    .news .col-md-4 {
-      width: 90%; } }
-
-.news .row .col-md-4 {
-  padding: 20px;
-  margin: 30px;
-  min-height: 500px; }
-
-.news h1 {
-  /* 	font-family: OpenSans; */
-  font-size: 60px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.88;
-  text-align: center;
-  color: #ffffff;
-  margin-top: 120px;
-  margin-bottom: 80px; }
-
-.news h3 {
-  /*   font-family: OpenSans; */
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.45;
-  text-align: left;
-  color: #555555; }
-
-.news p {
-  /* 	font-family: OpenSans; */
-  font-size: 60px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.88;
-  color: #ffffff; }
-
-.news ul {
-  list-style-type: none;
-  padding: 0;
-  -webkit-padding-start: 0px;
-  -moz-padding-start: 0px; }
-
-.news li {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: solid 2px #eeeeee; }
-
-.news a {
-  font-size: 18px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.61;
-  text-align: left;
-  color: #555555; }
+  @media (max-width: 768px) {
+    .news .container {
+      width: 95%; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .news .container {
+      width: 740px !important; } }
+  .news .col-md-4 {
+    background: white;
+    margin-bottom: 90px;
+    width: 28%; }
+    @media (max-width: 1199px) {
+      .news .col-md-4 {
+        width: 27%; } }
+    @media (max-width: 991px) {
+      .news .col-md-4 {
+        width: 90%; } }
+  .news .row .col-md-4 {
+    padding: 20px;
+    margin: 30px;
+    min-height: 500px; }
+  .news h1 {
+    /* 	font-family: OpenSans; */
+    font-size: 60px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.88;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 120px;
+    margin-bottom: 80px; }
+  .news h3 {
+    /*   font-family: OpenSans; */
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    text-align: left;
+    color: #555555; }
+  .news p {
+    /* 	font-family: OpenSans; */
+    font-size: 60px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.88;
+    color: #ffffff; }
+  .news ul {
+    list-style-type: none;
+    padding: 0;
+    -webkit-padding-start: 0px;
+    -moz-padding-start: 0px; }
+  .news li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #eeeeee; }
+  .news a {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.61;
+    text-align: left;
+    color: #555555; }
 
 /* hide the image and table for the tweets */
 .news .contribook_microbloguserpicture img {
@@ -420,6 +424,9 @@ section#why-nextcloud {
   *Testing new navbar mobile
   */ }
   .Header-Navigation .navbar {
+    /*   width: 100% !important; */
+    /*       	border-style: solid !important; */
+    /* 	border-color: red !important; */
     top: 0;
     border-width: 0 0 1px;
     background-color: #0082c9;
@@ -471,9 +478,9 @@ section#why-nextcloud {
           display: flex;
           justify-content: center;
           align-items: center;
-          background-color: #0073B2; }
+          background-color: #0073b2; }
           .Header-Navigation .navbar .btn-primary a {
-            color: #ffffff; } }
+            color: white; } }
     .Header-Navigation .navbar .active {
       font-weight: 600; }
     .Header-Navigation .navbar .overlay-menu ul {
@@ -519,11 +526,140 @@ section#why-nextcloud {
   .Header-Navigation .navbar-nav li a:hover {
     background: none !important; }
   @media (min-width: 1100px) {
+<<<<<<< HEAD
     .Header-Navigation .navbar-nav li a:hover {
       color: white; } }
   @media (min-width: 1100px) {
     .Header-Navigation .navbar-nav li:before {
       display: inline-block;
+=======
+    .navbar.scrolled:not(.force-white) .active {
+      border-bottom: 3px solid #656565 !important; } }
+  .navbar.scrolled:not(.force-white) .btn-primary a {
+    color: white !important; }
+  @media (max-width: 1100px) {
+    .navbar.scrolled:not(.force-white) .navbar-collapse {
+      background-color: white;
+      margin-left: -6% !important; } }
+  .navbar.scrolled:not(.force-white) .container-fluid button {
+    background: #0082c9; }
+    .navbar.scrolled:not(.force-white) .container-fluid button .icon-bar {
+      background-color: white; }
+
+/**
+ * Collapsed navbar
+ */
+@media (max-width: 1200px) {
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+    width: calc(100vw + 1%);
+    min-height: 100vh;
+    background-color: #0082c9;
+    margin-left: -6% !important;
+    box-shadow: none;
+    transition: all .2s ease-in; }
+    .navbar-collapse ul {
+      margin-right: 5%;
+      margin-left: 5%;
+      text-align: center;
+      min-height: 540px; }
+      .navbar-collapse ul li {
+        padding-top: 3vh;
+        font-size: 35px; } }
+
+.icon-bar {
+  width: 22px;
+  transition: all 0.2s; }
+
+.top-bar {
+  transform: rotate(45deg);
+  transform-origin: 22.5%; }
+
+.middle-bar {
+  opacity: 0; }
+
+.bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 22.5%; }
+
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0deg); }
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1; }
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0deg); }
+
+.navbar-collapse {
+  display: none !important; }
+
+/**
+*Changed default media querys for navigation in bootstrap
+*/
+@media (max-width: 1200px) {
+  .navbar-header {
+    float: none; }
+
+  .navbar-left, .navbar-right {
+    float: none !important; }
+
+  .navbar-toggle {
+    display: block; }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px; }
+
+  .navbar-collapse.collapse {
+    display: none !important; }
+
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px; }
+
+  .navbar-nav > li {
+    float: none; }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+  .collapse.in {
+    display: block !important; }
+
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none; } }
+.overlay-menu ul {
+  float: right !important;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-right: -15px;
+  margin-bottom: 0; }
+  .overlay-menu ul li {
+    margin: 0 0 0 10px;
+    padding: 10px 15px;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle; }
+    .overlay-menu ul li:last-child {
+      padding-left: 30px;
+      padding-right: 30px; }
+  .overlay-menu ul .btn-primary {
+    padding: 5px 5px; }
+    .overlay-menu ul .btn-primary a {
+>>>>>>> some scrollbar issue at 768px
       position: relative;
       padding-bottom: 1px; }
     .Header-Navigation .navbar-nav li:after {
@@ -810,6 +946,9 @@ footer {
       color: #ffffff; }
       footer p a:hover {
         color: #ffffff; }
+  @media (max-width: 768px) {
+    footer .container {
+      width: 90%; } }
 
 /**
  * Overwrite button colors
@@ -828,12 +967,12 @@ footer {
   transition: all 0.3s ease 0s;
   min-width: 150px; }
   .btn-primary:hover {
-    background-color: #0073B2 !important; }
+    background-color: #0073b2 !important; }
   .btn-primary:active {
     -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
-    background-color: #0073B2; }
+    background-color: #0073b2; }
   .btn-primary.btn-absolute-icon {
     position: relative;
     text-indent: -20px; }
@@ -945,5 +1084,3 @@ footer {
     @media (max-width: 1200px) {
       .highlights_align h4 {
         margin-left: 0; } }
-
-/*# sourceMappingURL=custom.css.map */

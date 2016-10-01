@@ -10,21 +10,32 @@
   min-height: 700px;
   border-radius: 0 !important;
   position: relative; }
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     .jumbotron {
       min-height: 600px; } }
   .jumbotron h1 {
     padding-top: 0;
     color: white; }
+    @media (max-width: 991px) {
+      .jumbotron h1 {
+        width: 250px;
+        letter-spacing: -1px;
+        font-size: 35px;
+        line-height: 1.2; } }
   .jumbotron h2 {
     color: white;
     font-size: 18px;
     line-height: 1.6;
     width: 377px; }
+    @media (max-width: 991px) {
+      .jumbotron h2 {
+        font-size: 16px;
+        line-height: 1.6;
+        width: 250px; } }
   .jumbotron .btn-primary {
     margin-top: 50px;
     width: 350px; }
-    @media (max-width: 768px) {
+    @media (max-width: 991px) {
       .jumbotron .btn-primary {
         width: 180px;
         height: 60px;
@@ -57,6 +68,10 @@
       .jumbotron .topbanner {
         background-image: url("../img/home/top-banner@2x_mobile.png");
         padding-top: 100%; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .jumbotron .topbanner {
+        background-image: url("../img/home/top-banner@2x_mobile.png");
+        padding-top: 55%; } }
   .jumbotron .topbanner img {
     width: 100%;
     height: 100%;
@@ -66,7 +81,7 @@
     /* 		margin-top: 50px; */
     top: 30vh;
     margin-left: 5%; }
-    @media (max-width: 768px) {
+    @media (max-width: 991px) {
       .jumbotron .toptext {
         top: 120px;
         /* 		  margin-top: 50px; */ } }
@@ -80,21 +95,6 @@
 /**
  * Mobile
  */
-@media (max-width: 768px) {
-  .jumbotron {
-    /*         background-image: url("../img/home/top-banner@2x_mobile.png"),linear-gradient(to bottom, $nextcloud-blue, #3e9ed8 100%, #d8d8d8); */
-    /*         background-size: 50% auto, cover; */ }
-
-  .jumbotron h1 {
-    width: 250px;
-    letter-spacing: -1px;
-    font-size: 35px;
-    line-height: 1.2; }
-
-  .jumbotron h2 {
-    font-size: 16px;
-    line-height: 1.6;
-    width: 250px; } }
 /**
  * Home page: Why Nextcloud?
  */
@@ -157,6 +157,9 @@
     text-align: center;
     color: #2a2a36;
     padding-bottom: 40px; }
+  @media (max-width: 768px) {
+    .stay-up-to-date .container {
+      width: 100%; } }
 
 /**
  * Home page: perfect-for-home-and-business
@@ -193,7 +196,7 @@
     font-size: 60px;
     line-height: 0.9;
     color: #ffffff;
-    width: 90%; }
+    width: 469px; }
     @media (max-width: 768px) {
       #perfect-for-home-and-business h2 {
         width: 90%;
@@ -261,6 +264,9 @@ section#why-nextcloud {
   @media (max-width: 768px) {
     section#why-nextcloud {
       padding-top: 80px; } }
+  @media (min-width: 768px) {
+    section#why-nextcloud .container {
+      width: 740px; } }
 
 .Section-Introducing-Nextcloud {
   background-color: transparent;
@@ -330,73 +336,71 @@ section#why-nextcloud {
 .news {
   background: #0082c9;
   padding-bottom: 120px; }
-
-.news .col-md-4 {
-  background: white;
-  margin-bottom: 90px;
-  width: 28%; }
-  @media (max-width: 1199px) {
-    .news .col-md-4 {
-      width: 27%; } }
-  @media (max-width: 991px) {
-    .news .col-md-4 {
-      width: 90%; } }
-
-.news .row .col-md-4 {
-  padding: 20px;
-  margin: 30px;
-  min-height: 500px; }
-
-.news h1 {
-  /* 	font-family: OpenSans; */
-  font-size: 60px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.88;
-  text-align: center;
-  color: #ffffff;
-  margin-top: 120px;
-  margin-bottom: 80px; }
-
-.news h3 {
-  /*   font-family: OpenSans; */
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.45;
-  text-align: left;
-  color: #555555; }
-
-.news p {
-  /* 	font-family: OpenSans; */
-  font-size: 60px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.88;
-  color: #ffffff; }
-
-.news ul {
-  list-style-type: none;
-  padding: 0;
-  -webkit-padding-start: 0px;
-  -moz-padding-start: 0px; }
-
-.news li {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: solid 2px #eeeeee; }
-
-.news a {
-  font-size: 18px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.61;
-  text-align: left;
-  color: #555555; }
+  @media (max-width: 768px) {
+    .news .container {
+      width: 95%; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .news .container {
+      width: 740px !important; } }
+  .news .col-md-4 {
+    background: white;
+    margin-bottom: 90px;
+    width: 28%; }
+    @media (max-width: 1199px) {
+      .news .col-md-4 {
+        width: 27%; } }
+    @media (max-width: 991px) {
+      .news .col-md-4 {
+        width: 90%; } }
+  .news .row .col-md-4 {
+    padding: 20px;
+    margin: 30px;
+    min-height: 500px; }
+  .news h1 {
+    /* 	font-family: OpenSans; */
+    font-size: 60px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.88;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 120px;
+    margin-bottom: 80px; }
+  .news h3 {
+    /*   font-family: OpenSans; */
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    text-align: left;
+    color: #555555; }
+  .news p {
+    /* 	font-family: OpenSans; */
+    font-size: 60px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.88;
+    color: #ffffff; }
+  .news ul {
+    list-style-type: none;
+    padding: 0;
+    -webkit-padding-start: 0px;
+    -moz-padding-start: 0px; }
+  .news li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #eeeeee; }
+  .news a {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.61;
+    text-align: left;
+    color: #555555; }
 
 /* hide the image and table for the tweets */
 .news .contribook_microbloguserpicture img {

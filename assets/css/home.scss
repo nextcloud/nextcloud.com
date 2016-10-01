@@ -13,13 +13,19 @@
     min-height: 700px;
     border-radius: 0 !important;
     position: relative;
-    @media (max-width: $break-small) {
+    @media (max-width: $break-big) {
       min-height: 600px
     }
 
 	h1 {
         padding-top: 0;
         color: white;
+	@media (max-width: $break-big) {
+	  width: 250px;
+	  letter-spacing: -1px;
+	  font-size: 35px;
+	  line-height: 1.2;
+	}
     }
     
     h2 {
@@ -27,12 +33,17 @@
         font-size: 18px;
         line-height: 1.6;
         width: 377px;
+	@media (max-width: $break-big) {
+	  font-size: 16px;
+	  line-height: 1.6;
+	  width: 250px;
+	}
     }
     
     .btn-primary {
         margin-top: 50px;
 		width: 350px;
-		@media (max-width: $break-small) {
+		@media (max-width: $break-big) {
 			width: 180px;
 			height: 60px;
 			padding-top: 22px;
@@ -68,6 +79,10 @@
 			background-image: url("../img/home/top-banner@2x_mobile.png");
 			padding-top: 100%;
 		}
+		@media (min-width: $break-small) and (max-width: $break-big) {
+			background-image: url("../img/home/top-banner@2x_mobile.png");
+			padding-top: 55%;
+		}
 		
 	}
 	
@@ -82,7 +97,7 @@
 /* 		margin-top: 50px; */
 		top: 30vh;
 		margin-left: 5%;
-		@media (max-width: $break-small) {
+		@media (max-width: $break-big) {
 		  top: 120px;
 /* 		  margin-top: 50px; */
 		}
@@ -95,30 +110,11 @@
     padding-top: 16px;
     text-indent: -30px;
 }
-
 /**
  * Mobile
  */
 
-@media (max-width: $break-small) {
-    .jumbotron {
-/*         background-image: url("../img/home/top-banner@2x_mobile.png"),linear-gradient(to bottom, $nextcloud-blue, #3e9ed8 100%, #d8d8d8); */
-/*         background-size: 50% auto, cover; */
-    }
 
-    .jumbotron h1 {
-        width: 250px;
-        letter-spacing: -1px;
-        font-size: 35px;
-        line-height: 1.2;
-    }
-
-    .jumbotron h2 {
-        font-size: 16px;
-        line-height: 1.6;
-        width: 250px;
-    }
-}
 
 /**
  * Home page: Why Nextcloud?
@@ -194,6 +190,11 @@
         color: $dark-blue;
         padding-bottom: 40px;
     }
+    @media (max-width: $break-small) {
+       .container {
+	 width: 100%;
+       }
+    }
 }
 
 /**
@@ -242,7 +243,7 @@
         font-size: 60px;
         line-height: 0.9;
         color: #ffffff;
-        width: 90%;
+        width: 469px;
         @media (max-width: $break-small) {
             width: 90%;
             font-size: 35px;
@@ -324,6 +325,11 @@ section#why-nextcloud {
 
     @media (max-width: $break-small) {
         padding-top: 80px;
+    }
+    @media (min-width: $break-small) {
+      .container {
+      width: 740px;
+      }
     }
 }
 
@@ -408,84 +414,98 @@ section#why-nextcloud {
 .news {
 	background: $nextcloud-blue;
 	padding-bottom: 120px;
-}
-
-.news .col-md-4 {
-	background: white;
-	margin-bottom: 90px;
-	width: 28%;
-	@media (max-width: 1199px) {
-        width: 27%;
+	
+	@media (max-width: $break-small) {
+	.container {
+	  width: 95%;
+	  }
 	}
-	@media (max-width: 991px) {
-        width: 90%;
+
+	@media (min-width: $break-small) and (max-width: $break-big) {
+	.container {
+	  width: 740px !important;
+	  }
 	}
 	
+
+	.col-md-4 {
+		background: white;
+		margin-bottom: 90px;
+		width: 28%;
+		@media (max-width: 1199px) {
+		width: 27%;
+		}
+		@media (max-width: 991px) {
+		width: 90%;
+		}
+	}
+
+	.row .col-md-4 {
+		padding: 20px;
+		margin: 30px;
+		min-height: 500px;
+	}
+
+	h1 {
+	/* 	font-family: OpenSans; */
+	  font-size: 60px;
+	  font-weight: 300;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 0.88;
+	  text-align: center;
+	  color: #ffffff;
+	  margin-top: 120px;
+	  margin-bottom: 80px;
+	  
+	}
+
+
+	h3 {
+	/*   font-family: OpenSans; */
+	  font-size: 20px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.45;
+	  text-align: left;
+	  color: #555555;
+	}
+
+	p {
+	/* 	font-family: OpenSans; */
+	  font-size: 60px;
+	  font-weight: 300;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 0.88;
+	  color: #ffffff;
+	}
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+		-webkit-padding-start: 0px;
+		-moz-padding-start: 0px;
+	}
+
+	li {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-bottom: solid 2px #eeeeee;
+	}
+
+	a {
+	  font-size: 18px;
+	  font-weight: 300;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.61;
+	  text-align: left;
+	  color: #555555;
+	}
 }
 
-.news .row .col-md-4 {
-	padding: 20px;
-	margin: 30px;
-	min-height: 500px;
-}
-
-.news h1 {
-/* 	font-family: OpenSans; */
-  font-size: 60px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.88;
-  text-align: center;
-  color: #ffffff;
-  margin-top: 120px;
-  margin-bottom: 80px;
-  
-}
-
-.news h3 {
-/*   font-family: OpenSans; */
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.45;
-  text-align: left;
-  color: #555555;
-}
-
-.news p {
-/* 	font-family: OpenSans; */
-  font-size: 60px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.88;
-  color: #ffffff;
-}
-
-.news ul {
-	list-style-type: none;
-	padding: 0;
-	-webkit-padding-start: 0px;
-	-moz-padding-start: 0px;
-}
-
-.news li {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	border-bottom: solid 2px #eeeeee;
-}
-
-.news a {
-  font-size: 18px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.61;
-  text-align: left;
-  color: #555555;
-}
 
 /* hide the image and table for the tweets */
 

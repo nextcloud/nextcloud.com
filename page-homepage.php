@@ -155,7 +155,7 @@
 <div class="container-fluid news" id="social-media">
 	<div class="container">
 		<h1>Latest news</h1>
-		<div class="row 3-column-lg-md-sm">
+		<div class="row">
 			<div class="col-md-4">
 				<h3>Nextcloud News</a></h3>
 				<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,4); } ?></span></p>
