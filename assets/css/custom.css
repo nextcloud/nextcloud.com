@@ -66,6 +66,10 @@
     /* 		margin-top: 50px; */
     top: 30vh;
     margin-left: 5%; }
+    @media (max-width: 768px) {
+      .jumbotron .toptext {
+        top: 120px;
+        /* 		  margin-top: 50px; */ } }
 
 .jumbotron > .container-fluid > .col-md-6 > p > a {
   width: 290px;

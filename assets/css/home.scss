@@ -82,6 +82,10 @@
 /* 		margin-top: 50px; */
 		top: 30vh;
 		margin-left: 5%;
+		@media (max-width: $break-small) {
+		  top: 120px;
+/* 		  margin-top: 50px; */
+		}
 	}
 }
 
