@@ -90,9 +90,9 @@
 					<li class="check"><span title="Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.">Enterprise capabilities</span></li>
 					<li class="check"><span title="the AGPL license provides legal certainty for all customers and users.">Fully Open Source</span></li>
 					<li class="check"><span title="Support for the Calendar and Contacts apps.">Calendar and Contacts</span></li>
-					<li class="check"><span title="Support for our secure and private peer to peer audio and video conferencing.">Secure WebRTC Conferencing</span></li>
-					<li class="check"><span title="Allows web conferencing calls to connect with phone lines.">SIP gateway</span></li>
-					<li class="check"><span title="Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.">Collabora Online Office</span></li>
+					<li class="optional"><span title="Optional: Support for our secure and private peer to peer audio and video conferencing.">Secure WebRTC Conferencing</span></li>
+					<li class="optional"><span title="Optional: Allows web conferencing calls to connect with phone lines.">SIP gateway</span></li>
+					<li class="optional"><span title="Optional: Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.">Collabora Online Office</span></li>
 				</div>
 				<h1>Support</h1>
 				<div class="line"></div>
