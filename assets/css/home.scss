@@ -427,7 +427,15 @@ section#why-nextcloud {
 	.container {
 	  width: 720px !important;
 	  }
+		
 	}
+	
+	@media (min-width: $break-big) and (max-width: 1005px) {
+	.container {
+	  width: 950px !important;
+	  }
+	}
+	
 	
 
 	.col-md-4 {
@@ -435,7 +443,7 @@ section#why-nextcloud {
 		margin-bottom: 90px;
 		width: 28%;
 		@media (max-width: 1199px) {
-		width: 27%;
+		width: 26%;
 		}
 		@media (max-width: 991px) {
 		width: 90%;

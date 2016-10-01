@@ -342,13 +342,16 @@ section#why-nextcloud {
   @media (min-width: 768px) and (max-width: 991px) {
     .news .container {
       width: 720px !important; } }
+  @media (min-width: 991px) and (max-width: 1005px) {
+    .news .container {
+      width: 950px !important; } }
   .news .col-md-4 {
     background: white;
     margin-bottom: 90px;
     width: 28%; }
     @media (max-width: 1199px) {
       .news .col-md-4 {
-        width: 27%; } }
+        width: 26%; } }
     @media (max-width: 991px) {
       .news .col-md-4 {
         width: 90%; } }
