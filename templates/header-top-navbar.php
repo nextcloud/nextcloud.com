@@ -56,10 +56,7 @@
 					<span class="icon-bar middle-bar"></span>
 					<span class="icon-bar bottom-bar"></span>
 				</button>
-				<a class="brand" href="<?php echo home_url() ?>">
-					<img alt="Nextcloud logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo_nextcloud_white.svg">
-				</a>
-			</div>
+				<div class="logo"></div>
 		    <div class="overlay" id="overlay">
                 <nav class="overlay-menu">
                     <ul>
@@ -87,7 +84,7 @@
 $('#toggle').click(function() {
    $(this).toggleClass('active');
    $('#overlay').toggleClass('open');
-    $('.navbar').toggleClass('force-white');
+    $('.navbar').toggleClass('mobile-menu-open');
   });
 
 </script>

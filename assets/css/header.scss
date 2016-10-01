@@ -1,103 +1,123 @@
 @import "variables.scss";
 
+.Header-Navigation{      
+	.navbar {
+		top: 0;
+		border-width: 0 0 1px;
+		background-color: $nextcloud-blue;
+		height: 100px;
+		transition: all .2s ease-in;
+		z-index: 5;
+		padding-top: 24px;
+		font-size: 16px;
 
-.Header-Navigation{
-  width: 100% !important;
-    .navbar {
-        top: 0;
-        border-width: 0 0 1px;
-        background-color: $nextcloud-blue;
-        height: 100px;
-        transition: all .2s ease-in;
-        z-index: 5;
-        padding-top: 24px;
-        font-size: 16px;
-        
-        @media (min-width: 1200px) {
-        li{
-            &:last-child{
-                padding-left: 30px;
-                padding-right: 30px;
-            }
-            a {
-                color: white;
-            }
-        }
-        
-        .active a {
-            border-bottom: 3px solid white;
+		@media (min-width: 1200px) {
+			
+			li{
+				&:last-child{
+					padding-left: 30px;
+					padding-right: 30px;
+				}
+				a {
+					color: white;
+				}
+			}
+
+		.active a {
+			border-bottom: 3px solid white;
 			padding-bottom: 15px;
-            }
-        }
-    
-        @media (max-width: 1200px) {
-             a {
-                color: #75badd;
-                .active {
-                    color: white;
-                    color: #75badd;
-                }
-            }
-        }
-        
-        .navbar-header{
-            @media (max-width: $navbar-breaksize) {
-                float: none;
-                z-index: 5;
-                position: relative;
-            }
-            
-            .brand{
-                margin-top: -25px;
-                
-                @media (min-width: $navbar-breaksize) {
-                    padding-left: 5%;
-                }
-                                
-                img {    
-                    height: 50px;
-                    margin-top: 2px;
-                      
-                    @media (max-width: 1150px) {
-                        margin-left: 16px;
-                    }
-                }
-            }
+			}
+		}
 
-        }
-           
-    .btn-primary {
-        background-color: $nextcloud-blue;
-        border: 1px solid white;
-        //padding-top: 0;
-        font-size: 16px;
-        height: inherit;
-        @media (max-width: 1200px) {
-            position: fixed;
-            bottom: 0;
-            margin-left: -5%;
-            width: 105%;
-            border-radius: 0;
-            border: 0;
-            height: 75px;
-            font-size: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: $medium-blue;
-            
-            a {
-                color: $white;
-            }
-        }
-    }
-    
-    .active {
-        font-weight: 600;
-        }
-    }   
-    
+		@media (max-width: 1200px) {
+			 a {
+				color: #75badd;
+				.active {
+					color: white;
+					color: #75badd;
+				}
+			}
+		}
+
+	.navbar-header{
+		@media (max-width: $navbar-breaksize) {
+		float: none;
+		z-index: 5;
+		position: relative;
+		}
+
+		.logo { 
+			background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+			height: 50px;
+			width: 100px;
+			display: inline-block;				
+		}
+	}
+
+	.btn-primary {
+		background-color: $nextcloud-blue;
+		border: 1px solid white;
+		font-size: 16px;
+		height: inherit;
+		@media (max-width: 1200px) {
+			position: fixed;
+			bottom: 0;
+			margin-left: -5%;
+			width: 105%;
+			border-radius: 0;
+			border: 0;
+			height: 75px;
+			font-size: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: $medium-blue;
+
+			a {
+				color: $white;
+			}
+		}
+	}
+
+	.active {
+		font-weight: 600;
+		}
+	
+	.overlay-menu {
+		ul{
+		float: right !important;
+		padding-left: 0;
+		margin-bottom: 0;
+		list-style: none;
+		margin-right: -15px;
+		margin-bottom: 0;
+
+			li{
+			  margin: 0 0 0 10px;
+			  padding: 10px 15px;
+			  position: relative;
+			  display: table-cell;
+			  vertical-align: middle;
+
+				&:last-child {
+				  padding-left: 30px;
+				  padding-right: 30px;
+				}
+			  }
+
+			.btn-primary{
+				padding: 5px 5px;
+			  
+				a{
+				  position: relative;
+				  display: block;
+				  padding: 10px 15px;
+			  }
+			}
+		}
+	}   
 }
+
 
 
 // This breaks the navigation already at 1080px since we have too many entries otherwise to display those all properly
@@ -178,7 +198,7 @@
 /**
  * Scrolled navbar style
  */
-.navbar.scrolled:not(.force-white) {
+.navbar.scrolled:not(.mobile-menu-open) {
     transition: all .2s ease-in;
     background: white;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09);
@@ -212,7 +232,9 @@
             margin-left: -6% !important;
         }
     }
-    
+	.logo {
+		background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain; 
+	}
     .container-fluid button{
     background: $nextcloud-blue;
         
@@ -491,3 +513,4 @@
 }
     
 
+}
