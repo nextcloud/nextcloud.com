@@ -106,11 +106,17 @@ footer {
                  }
             }
         }
-        @media (max-width: $break-small) {
-	  .container {
-	    width: 90%;
-	  }
-	}
+/*       @media (max-width: $break-small) {
+			.container {
+			width: 90%;
+			}
+		}*/
+		@media (min-width: $break-small) and (max-width: $very-wide) {
+			.container {
+			width: 90%;
+			max-width: 900px;
+			}
+		}
 }
 
 
