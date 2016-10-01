@@ -29,3 +29,4 @@ $(window).load(function() {
         anim = bodymovin.loadAnimation(params);
     });
 });
+

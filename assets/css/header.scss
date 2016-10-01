@@ -1,38 +1,17 @@
 @import "variables.scss";
 
-.Header-Navigation{
+.Header-Navigation{      
     .navbar {
-    top: 0;
-    border-width: 0 0 1px;
-    background-color: $nextcloud-blue;
-    height: 100px;
-    transition: all .2s ease-in;
-    z-index: 5;
-    padding-top: 25px;
-    font-size: 16px;
+        top: 0;
+        border-width: 0 0 1px;
+        background-color: $nextcloud-blue;
+        height: 100px;
+        transition: all .2s ease-in;
+        z-index: 5;
+        padding-top: 24px;
+        font-size: 16px;
         
-        .navbar-header{
-            @media (max-width: $navbar-breaksize) {
-                float: none;
-            }
-            .brand{
-                margin-top: -25px;
-                @media (min-width: $navbar-breaksize){
-                    padding-left: 5%;
-                }
-                                
-                img {    
-                        height: 50px;
-                        margin-top: 2px;
-                        @media (max-width: 1150px){
-                            margin-left: 16px;
-                        }
-                    }
-                }
-
-            }
-           
-    @media (min-width: 1200px) {
+        @media (min-width: 1200px) {
         li{
             &:last-child{
                 padding-left: 30px;
@@ -45,23 +24,50 @@
         
         .active a {
             border-bottom: 3px solid white;
-        }
-    }
-    
-    @media (max-width: 1200px) {
-         a {
-            color: #75badd;
-            .active {
-                color: white;
-                color: #75badd;
+			padding-bottom: 15px;
             }
         }
-    }
     
+        @media (max-width: 1200px) {
+             a {
+                color: #75badd;
+                .active {
+                    color: white;
+                    color: #75badd;
+                }
+            }
+        }
+        
+        .navbar-header{
+            @media (max-width: $navbar-breaksize) {
+                float: none;
+                z-index: 5;
+                position: relative;
+            }
+            
+            .brand{
+                margin-top: -25px;
+                
+                @media (min-width: $navbar-breaksize) {
+                    padding-left: 5%;
+                }
+                                
+                img {    
+                    height: 50px;
+                    margin-top: 2px;
+                      
+                    @media (max-width: 1150px) {
+                        margin-left: 16px;
+                    }
+                }
+            }
+
+        }
+           
     .btn-primary {
         background-color: $nextcloud-blue;
         border: 1px solid white;
-        padding-top: 0;
+        //padding-top: 0;
         font-size: 16px;
         height: inherit;
         @media (max-width: 1200px) {
@@ -170,7 +176,7 @@
 /**
  * Scrolled navbar style
  */
-.navbar.scrolled {
+.navbar.scrolled:not(.force-white) {
     transition: all .2s ease-in;
     background: white;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09);
@@ -204,7 +210,16 @@
             margin-left: -6% !important;
         }
     }
+    
+    .container-fluid button{
+    background: $nextcloud-blue;
+        
+        .icon-bar {
+            background-color: white;
+        }
+    }
 }
+
 
 /**
  * Collapsed navbar
@@ -325,3 +340,152 @@
        box-shadow: none;
     }
 }
+
+
+.overlay-menu {
+  ul{
+	float: right !important;
+	padding-left: 0;
+    margin-bottom: 0;
+   	list-style: none;
+	margin-right: -15px;
+	margin-bottom: 0;
+	
+	
+	li{
+	  margin: 0 0 0 10px;
+	  padding: 10px 15px;
+	  position: relative;
+	  display: table-cell;
+	  vertical-align: middle;
+	  
+		&:last-child {
+		  padding-left: 30px;
+		  padding-right: 30px;
+		}
+	  }
+	
+	.btn-primary{
+		padding: 5px 5px;
+	  a{
+	  position: relative;
+	  display: block;
+	  padding: 10px 15px;
+	  }
+	}
+  }
+}
+
+            
+/**
+*Testing new navbar mobile
+*/
+
+@media (max-width: 1200px) {
+    
+.navbar{ 
+    .container-fluid button{
+    &:hover {
+        background:$nextcloud-blue;
+        transform: scale(1.1);
+        transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
+        transition-property: transform;
+        transition-duration: 0.3s;
+        transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
+        transition-delay: initial;
+            
+        .icon-bar {
+                background-color: white;
+                //transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.overlay {
+  position: absolute;
+  background: $nextcloud-blue;
+  padding-top: 25px;
+  z-index: 2;
+  top: 25px;
+  right: calc(5% + 15px);
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  visibility: hidden;
+  overflow: hidden;
+  border-radius: 50px;
+  transition: transform 0.6s ease;
+    
+  li {
+	display: block;
+//      height: 25%;
+//      height: calc(100% / 4);
+//      min-height: 50px;
+//      position: relative;
+	opacity: 0;
+      
+	a {
+		display: block;
+		position: relative;
+		color: white;
+		text-decoration: none;
+		overflow: hidden;
+
+		&:hover:after,
+		&:focus:after,
+		&:active:after {
+			width: 100%;
+		}
+
+		&:after {
+		  content: '';
+		  position: absolute;
+		  bottom: 0;
+		  left: 50%;
+		  width: 0%;
+		  transform: translateX(-50%);
+		  height: 3px;
+		  background: white;
+		  transition: .35s;
+		}
+      }
+    }
+    
+	&.open {
+		opacity: 1;
+		visibility: visible;
+		transform: scale(100);
+
+	ul {	
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+	position: relative;
+	height: 100%;
+	}
+}
+//      
+//      li{
+//        opacity: 1;
+//      animation: fadeInRight .5s ease forwards;
+//      animation-delay: .35s;
+//      &:nth-of-type(2) {
+//        animation-delay: .4s;
+//      }
+//          
+//      &:nth-of-type(3) {
+//        animation-delay: .45s;
+//      }
+//          
+//      &:nth-of-type(4) {
+//        animation-delay: .50s;
+//      }
+//    }
+
+    
+    }
+}
+    
+

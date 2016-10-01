@@ -398,8 +398,6 @@ section#why-nextcloud {
 .news table {
   margin-left: -15px; }
 
-/* header navbar */
- 
 .Header-Navigation .navbar {
   top: 0;
   border-width: 0 0 1px;
@@ -407,11 +405,28 @@ section#why-nextcloud {
   height: 100px;
   transition: all .2s ease-in;
   z-index: 5;
-  padding-top: 25px;
+  padding-top: 24px;
   font-size: 16px; }
+  @media (min-width: 1200px) {
+    .Header-Navigation .navbar li:last-child {
+      padding-left: 30px;
+      padding-right: 30px; }
+    .Header-Navigation .navbar li a {
+      color: white; }
+    .Header-Navigation .navbar .active a {
+      border-bottom: 3px solid white;
+      padding-bottom: 15px; } }
+  @media (max-width: 1200px) {
+    .Header-Navigation .navbar a {
+      color: #75badd; }
+      .Header-Navigation .navbar a .active {
+        color: white;
+        color: #75badd; } }
   @media (max-width: 1100px) {
     .Header-Navigation .navbar .navbar-header {
-      float: none; } }
+      float: none;
+      z-index: 5;
+      position: relative; } }
   .Header-Navigation .navbar .navbar-header .brand {
     margin-top: -25px; }
     @media (min-width: 1100px) {
@@ -423,27 +438,11 @@ section#why-nextcloud {
       @media (max-width: 1150px) {
         .Header-Navigation .navbar .navbar-header .brand img {
           margin-left: 16px; } }
-  @media (min-width: 1200px) {
-    .Header-Navigation .navbar li:last-child {
-      padding-left: 30px;
-      padding-right: 30px; }
-    .Header-Navigation .navbar li a {
-      color: white; }
-    .Header-Navigation .navbar .active a {
-      border-bottom: 3px solid white; } }
-  @media (max-width: 1200px) {
-    .Header-Navigation .navbar a {
-      color: #75badd; }
-      .Header-Navigation .navbar a .active {
-        color: white;
-        color: #75badd; } }
   .Header-Navigation .navbar .btn-primary {
     background-color: #0082c9;
     border: 1px solid white;
-    padding-top: 0;
     font-size: 16px;
-    height: inherit; 
-	transition: all 0.3s ease 0s;}
+    height: inherit; }
     @media (max-width: 1200px) {
       .Header-Navigation .navbar .btn-primary {
         position: fixed;
@@ -518,31 +517,35 @@ section#why-nextcloud {
 /**
  * Scrolled navbar style
  */
-.navbar.scrolled {
+.navbar.scrolled:not(.force-white) {
   transition: all .2s ease-in;
   background: white;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09); }
   @media (max-height: 800px) {
-    .navbar.scrolled {
+    .navbar.scrolled:not(.force-white) {
       display: none; } }
-  .navbar.scrolled a {
+  .navbar.scrolled:not(.force-white) a {
     color: #656565 !important; }
-  .navbar.scrolled .navbar-nav li:not(.btn-primary):not(.active):hover:before {
+  .navbar.scrolled:not(.force-white) .navbar-nav li:not(.btn-primary):not(.active):hover:before {
     width: 100%;
     background: #656565;
     transition: width .2s ease-in; }
-  .navbar.scrolled .navbar-nav li:not(.btn-primary):not(.active):hover:after {
+  .navbar.scrolled:not(.force-white) .navbar-nav li:not(.btn-primary):not(.active):hover:after {
     width: 100%;
     background: #656565; }
   @media (min-width: 1100px) {
-    .navbar.scrolled .active {
+    .navbar.scrolled:not(.force-white) .active {
       border-bottom: 3px solid #656565 !important; } }
-  .navbar.scrolled .btn-primary a {
+  .navbar.scrolled:not(.force-white) .btn-primary a {
     color: white !important; }
   @media (max-width: 1100px) {
-    .navbar.scrolled .navbar-collapse {
+    .navbar.scrolled:not(.force-white) .navbar-collapse {
       background-color: #ffffff;
       margin-left: -6% !important; } }
+  .navbar.scrolled:not(.force-white) .container-fluid button {
+    background: #0082c9; }
+    .navbar.scrolled:not(.force-white) .container-fluid button .icon-bar {
+      background-color: white; }
 
 /**
  * Collapsed navbar
@@ -638,6 +641,90 @@ section#why-nextcloud {
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none; } }
+.overlay-menu ul {
+  float: right !important;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-right: -15px;
+  margin-bottom: 0; }
+  .overlay-menu ul li {
+    margin: 0 0 0 10px;
+    padding: 10px 15px;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle; }
+    .overlay-menu ul li:last-child {
+      padding-left: 30px;
+      padding-right: 30px; }
+  .overlay-menu ul .btn-primary {
+    padding: 5px 5px; }
+    .overlay-menu ul .btn-primary a {
+      position: relative;
+      display: block;
+      padding: 10px 15px; }
+
+/**
+*Testing new navbar mobile
+*/
+@media (max-width: 1200px) {
+  .navbar .container-fluid button:hover {
+    background: #0082c9;
+    transform: scale(1.1);
+    transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
+    transition-delay: initial; }
+    .navbar .container-fluid button:hover .icon-bar {
+      background-color: white; }
+
+  .overlay {
+    position: absolute;
+    background: #0082c9;
+    padding-top: 25px;
+    z-index: 2;
+    top: 25px;
+    right: calc(5% + 15px);
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    visibility: hidden;
+    overflow: hidden;
+    border-radius: 50px;
+    transition: transform 0.6s ease; }
+    .overlay li {
+      display: block;
+      opacity: 0; }
+      .overlay li a {
+        display: block;
+        position: relative;
+        color: white;
+        text-decoration: none;
+        overflow: hidden; }
+        .overlay li a:hover:after, .overlay li a:focus:after, .overlay li a:active:after {
+          width: 100%; }
+        .overlay li a:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          width: 0%;
+          transform: translateX(-50%);
+          height: 3px;
+          background: white;
+          transition: .35s; }
+    .overlay.open {
+      opacity: 1;
+      visibility: visible;
+      transform: scale(100); }
+      .overlay.open ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        display: inline-block;
+        position: relative;
+        height: 100%; } }
 html {
   margin-top: 0 !important; }
 
@@ -713,6 +800,10 @@ footer {
     font-size: 15px;
     line-height: 1.8;
     color: #ffffff; }
+    @media (max-width: 768px) {
+      footer p {
+        float: left;
+        padding-left: 15px; } }
     footer p a {
       color: #ffffff; }
       footer p a:hover {
