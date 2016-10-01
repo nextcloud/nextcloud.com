@@ -10,6 +10,9 @@
   min-height: 700px;
   border-radius: 0 !important;
   position: relative; }
+  @media (max-width: 768px) {
+    .jumbotron {
+      min-height: 600px; } }
   .jumbotron h1 {
     padding-top: 0;
     color: white; }
@@ -53,7 +56,7 @@
     @media (max-width: 768px) {
       .jumbotron .topbanner {
         background-image: url("../img/home/top-banner@2x_mobile.png");
-        padding-top: 40%; } }
+        padding-top: 100%; } }
   .jumbotron .topbanner img {
     width: 100%;
     height: 100%;

@@ -12,7 +12,10 @@
     height: 100vh;
     min-height: 700px;
     border-radius: 0 !important;
-	position: relative;
+    position: relative;
+    @media (max-width: $break-small) {
+      min-height: 600px
+    }
 
 	h1 {
         padding-top: 0;
@@ -63,7 +66,7 @@
 		overflow: hidden;
 		@media (max-width: $break-small) {
 			background-image: url("../img/home/top-banner@2x_mobile.png");
-			padding-top: 40%;
+			padding-top: 100%;
 		}
 		
 	}
