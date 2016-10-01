@@ -179,7 +179,7 @@
 	<div class="row stay-up-to-date">
 		<div class="container text-center" style="padding-top: 70px; padding-bottom: 70px;">
 			<h5>Stay up to date with Nextcloud's latest enhancements!</h5>
-			<p><a class="btn btn-primary btn-lg btn-absolute-icon" href="https://newsletter.nextcloud.com/" role="button">Subscribe to our newsletter<span class="icon-arrow"></span></a></p>
+			<p><a class="btn btn-primary btn-lg btn-absolute-icon" href="https://newsletter.nextcloud.com/?p=subscribe&id=1" role="button">Subscribe to our newsletter<span class="icon-arrow"></span></a></p>
 		</div>
 	</div>
 </div>
