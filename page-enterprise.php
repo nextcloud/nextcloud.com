@@ -33,7 +33,7 @@
 				<div class="list">
 					<li class="check"><span title="Questions and issues are generally dealt with in this time, depending on the severity of the issue">Production SLA: 3 business days</span></li>
 					<li class="check"><span title="Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team">Portal support</span></li>
-					<li class="check"><span title="We help you migrate from ownCloud to Nextcloud">ownCloud™ migration support</span></li>
+					<li class="check"><span title="We help you migrate from ownCloud to Nextcloud">ownCloud migration support</span></li>
 					<li class="check"><span title="You can contact our capable and responsive support team by email and expect a quick response time.">Email support</span></li>
 					<li class="nocheck"><span title="You can contact our support engineers by phone in these times.">Phone support</span></li>
 					<li class="nocheck"><span title="If you need access to experienced engineers to built custom solutions for your unique needs.">Custom consulting</span></li>
@@ -49,7 +49,7 @@
 				<h2>From 2500€/year</h2>
 			</div>
 			<div class="table-content">
-				<h1>Supported Capabilities</h1>
+				<h1>Capabilities</h1>
 				<div class="line"></div>
 				<div class="list">
 					<li class="check"><span title="Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.">File sync and share</span></li>
@@ -66,7 +66,7 @@
 				<div class="list">
 					<li class="check"><span title="Questions and issues are generally dealt with in this time, depending on the severity of the issue">Production SLA: 2 business days</span></li>
 					<li class="check"><span title="Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team">Portal support</span></li>
-					<li class="check"><span title="We help you migrate from ownCloud to Nextcloud">ownCloud™ migration support</span></li>
+					<li class="check"><span title="We help you migrate from ownCloud to Nextcloud">ownCloud migration support</span></li>
 					<li class="check"><span title="You can contact our capable and responsive support team by email and expect a quick response time.">Email support: business hours</span></li>
 					<li class="check"><span title="You can contact our support engineers by phone in these times.">Phone support: business hours</span></li>
 					<li class="check"><span title="If you need access to experienced engineers to built custom solutions for your unique needs.">Custom consulting</span></li>
@@ -99,7 +99,7 @@
 				<div class="list">
 					<li class="check"><span title="Questions and issues are generally dealt with in this time, depending on the severity of the issue">Production SLA: 24h or as agreed</span></li>
 					<li class="check"><span title="Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team">Portal support</span></li>
-					<li class="check"><span title="We help you migrate from ownCloud to Nextcloud">ownCloud™ migration support</span></li>
+					<li class="check"><span title="We help you migrate from ownCloud to Nextcloud">ownCloud migration support</span></li>
 					<li class="check"><span title="You can contact our capable and responsive support team by email and expect a quick response time.">Email support: up to 24/7</span></li>
 					<li class="check"><span title="You can contact our support engineers by phone in these times.">Phone support: up to 24/7</span></li>
 					<li class="check"><span title="If you need access to experienced engineers to built custom solutions for your unique needs.">Custom consulting</span></li>
@@ -166,6 +166,11 @@
 				<div class="downarrow"><a href="#languages" data-toggle="collapse"><h3>In what languages do I get support?<span class="icon-arrow-down"></span></h3></a></div>
 				<div id="languages" class="collapse">
 					<p>We provide support in German and English and other languages through our partners, <a href="#contact">contact us</a> for details.</p>
+				</div>
+				<div class="line"></div>
+				<div class="downarrow"><a href="#migration" data-toggle="collapse"><h3>How difficult is migration from ownCloud?<span class="icon-arrow-down"></span></h3></a></div>
+				<div id="migration" class="collapse">
+					<p>Migration from ownCloud to Nextcloud is easy. Our support team will help you move to Nextcloud and optimally benefit from the added scalability, features, stability, performance and security. See <a href="/migration">our migration page</a> for more details on migration.</p>
 				</div>
 				<div class="line"></div>
 				<div class="downarrow"><a href="#howbuy" data-toggle="collapse"><h3>How do I buy Nextcloud subscriptions?<span class="icon-arrow-down"></span></h3></a></div>
