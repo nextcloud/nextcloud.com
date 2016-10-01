@@ -40,10 +40,11 @@
 		}
 
 	.navbar-header{
+		float: none;
 		@media (max-width: $navbar-breaksize) {
 		float: none;
 		z-index: 5;
-		position: relative;
+		position: absolute;
 		}
 
 		.logo { 
@@ -84,6 +85,7 @@
 		}
 	
 	.overlay-menu {
+		
 		ul{
 		float: right !important;
 		padding-left: 0;
@@ -108,39 +110,43 @@
 			.btn-primary{
 				padding: 5px 5px;
 			  
-				a{
-				  position: relative;
-				  display: block;
-				  padding: 10px 15px;
-			  }
+					a{
+					  position: relative;
+					  display: block;
+					  padding: 10px 15px;
+			  		}
+				}
+			}
+		}   
+	}
+}
+
+/**
+*Break Menu at 1200px
+*/
+
+ 
+.navbar  {
+	.container-fluid{
+		margin-left: 5%;
+		margin-right: 5%;
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+			
+		button {
+			color: white;
+			background-color: white;
+			border-radius: 50px;
+			width: 50px;
+			height: 50px;
+			margin-top: 0;
+				
+			.icon-bar {
+				background-color: $dark-blue;
+				width: 100%;
 			}
 		}
-	}   
-}
-
-
-
-// This breaks the navigation already at 1080px since we have too many entries otherwise to display those all properly
-@media (max-width: $navbar-breaksize) {
-}
- 
-.navbar > .container-fluid {
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    button {
-        color: white;
-        background-color: white;
-        border-radius: 50px;
-        width: 50px;
-        height: 50px;
-        margin-top: 0;
-        .icon-bar {
-            background-color: $dark-blue;
-            width: 100%;
-        }
-    }
+	}
 }
 
 .navbar-nav {
@@ -365,152 +371,152 @@
     }
 }
 
+.overlay{
+	display: inline-block;
+    float: right !important;
 
-.overlay-menu {
-  ul{
-	float: right !important;
-	padding-left: 0;
-    margin-bottom: 0;
-   	list-style: none;
-	margin-right: -15px;
-	margin-bottom: 0;
-	
-	
-	li{
-	  margin: 0 0 0 10px;
-	  padding: 10px 15px;
-	  position: relative;
-	  display: table-cell;
-	  vertical-align: middle;
-	  
-		&:last-child {
-		  padding-left: 30px;
-		  padding-right: 30px;
+	.overlay-menu {
+	  ul{
+		float: right !important;
+		padding-left: 0;
+		margin-bottom: 0;
+		list-style: none;
+		margin-right: -15px;
+		margin-bottom: 0;
+
+
+		li{
+		  margin: 0 0 0 10px;
+		  padding: 10px 15px;
+		  position: relative;
+		  display: table-cell;
+		  vertical-align: middle;
+
+			&:last-child {
+			  padding-left: 30px;
+			  padding-right: 30px;
+			}
+		  }
+
+		.btn-primary{
+			padding: 5px 5px;
+		  a{
+		  position: relative;
+		  display: block;
+		  padding: 10px 15px;
+		  }
 		}
 	  }
-	
-	.btn-primary{
-		padding: 5px 5px;
-	  a{
-	  position: relative;
-	  display: block;
-	  padding: 10px 15px;
-	  }
 	}
-  }
 }
-
             
 /**
-*Testing new navbar mobile
+*Mobile
 */
 
+
 @media (max-width: 1200px) {
-    
-.navbar{ 
-    .container-fluid button{
-    &:hover {
-        background:$nextcloud-blue;
-        transform: scale(1.1);
-        transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
-        transition-property: transform;
-        transition-duration: 0.3s;
-        transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
-        transition-delay: initial;
-            
-        .icon-bar {
-                background-color: white;
-                //transform: scale(1.1);
-            }
-        }
-    }
-}
+	.Header-Navigation{ 
+		
+		.navbar{ 
+			
+			.container-fluid{
+				
+				.navbar-header{
+					z-index: 5;
+					position: absolute;
+			
+					button{
+						&:hover {
+						transform: scale(1.1);
+						transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
+						transition-property: transform;
+						transition-duration: 0.3s;
+						transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
+						transition-delay: initial;
 
-.overlay {
-  position: absolute;
-  background: $nextcloud-blue;
-  padding-top: 25px;
-  z-index: 2;
-  top: 25px;
-  right: calc(5% + 15px);
-  width: 50px;
-  height: 50px;
-  opacity: 1;
-  visibility: hidden;
-  overflow: hidden;
-  border-radius: 50px;
-  transition: transform 0.6s ease;
-    
-  li {
-	display: block;
-//      height: 25%;
-//      height: calc(100% / 4);
-//      min-height: 50px;
-//      position: relative;
-	opacity: 0;
-      
-	a {
-		display: block;
-		position: relative;
-		color: white;
-		text-decoration: none;
-		overflow: hidden;
+						.icon-bar {
+								transform: scale(1.1);
+							}
+						}
+					}
+				
+					.overlay {
+					position: fixed;
+					background: $nextcloud-blue;
+					padding-top: 25px;
+					z-index: 2;
+					top: 0;
+					right: 0;
+					width: 0;
+					height: 0;
+					visibility: hidden;
+					overflow: hidden;
+					border-bottom-left-radius: 100%;
+					transition: all 0.6s ease;
 
-		&:hover:after,
-		&:focus:after,
-		&:active:after {
-			width: 100%;
+					  li {
+						display: block;
+						height: 25%;
+						height: calc(100% / 4);
+						min-height: 50px;
+						position: relative;
+						opacity: 1;
+
+//							a {
+//								display: block;
+//								position: relative;
+//								color: white;
+//								text-decoration: none;
+//								overflow: hidden;
+//
+//								&:hover:after,
+//								&:focus:after,
+//								&:active:after {
+//									width: 100%;
+//								}
+//
+//								&:after {
+//								  content: '';
+//								  position: absolute;
+//								  bottom: 0;
+//								  left: 50%;
+//								  width: 0%;
+//								  transform: translateX(-50%);
+//								  height: 3px;
+//								  background: white;
+//								  transition: .35s;
+//								}
+//							  }
+							}
+
+							&.open {
+								opacity: 1;
+								visibility: visible;
+								width: 150%;
+    							height: 150%;
+
+							ul {	
+							    list-style: none;
+								padding: 0;
+								margin: 0 auto;
+								display: inline-block;
+								position: relative;
+								height: 100%;
+								/* color: white; */
+								display: inline-block;
+								float: none;
+								margin-left: 50%;
+								margin: 10% 60%;
+								font-size: 26px;
+								color: white;
+								text-align: center;
+							}
+						}
+					}
+				}
+
+			}
 		}
-
-		&:after {
-		  content: '';
-		  position: absolute;
-		  bottom: 0;
-		  left: 50%;
-		  width: 0%;
-		  transform: translateX(-50%);
-		  height: 3px;
-		  background: white;
-		  transition: .35s;
-		}
-      }
-    }
-    
-	&.open {
-		opacity: 1;
-		visibility: visible;
-		transform: scale(100);
-
-	ul {	
-	list-style: none;
-	padding: 0;
-	margin: 0 auto;
-	display: inline-block;
-	position: relative;
-	height: 100%;
 	}
-}
-//      
-//      li{
-//        opacity: 1;
-//      animation: fadeInRight .5s ease forwards;
-//      animation-delay: .35s;
-//      &:nth-of-type(2) {
-//        animation-delay: .4s;
-//      }
-//          
-//      &:nth-of-type(3) {
-//        animation-delay: .45s;
-//      }
-//          
-//      &:nth-of-type(4) {
-//        animation-delay: .50s;
-//      }
-//    }
-
-    
-    }
-}
-    
-
 }
