@@ -9,13 +9,13 @@
 			<i class="icon-download"></i>
 		</div>
 		<h2>1. Get Nextcloud Server</h2>
-		<p>Set up a server for yourself, use our appliances or find a provider:</p>
+		<p>There are several ways to get your own Nextcloud for you and your data:</p>
 		<div class="btn-group">
-			<a class="btn btn-default btn-large" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">Download</a>
+			<a class="btn btn-default btn-large" href="#instructions-server">Download</a>
+			<a class="btn btn-default btn-large" href="/devices">Devices</a>
 			<a class="btn btn-default btn-large" href="/providers">Providers</a>
 		</div>
 		<br />
-		<a class="label label-blue" role="button" href="#instructions-server" rel="tooltip" title="Install instructions" id="server" data-toggle="popover">More options</a></p>
 <!--       <a class="btn btn-default btn-lg" role="button" href="/hardware-TBD">Servers</a> - disabled for now, until we have a page like that... -->
       <!--<a class="btn btn-default btn-lg" role="button" href="/providers" rel="tooltip" title="Third Party Nextcloud Providers">Providers</a>-->
 	</div>

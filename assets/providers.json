@@ -183,12 +183,14 @@
       },
 	{
          "title":"woelkli Cloud Storage",
-         "url":"https:\/\/woelkli.com/en/about",
+         "url":"https:\/\/woelkli.com/",
          "flags":[
             "ch",
             "fr",
             "at",
-            "de"
+            "de",
+            "gb",
+            "eu"
          ],
          "freeplans":true,
 		 "supports":"both",
@@ -345,5 +347,19 @@
             "Nextcloud Hosing with love from Munich/Germany. Managed, Secure & specialised. 100% Admin-Accounts, no shared instances."
          ],
          "imagename":"portknox.png"
+      },
+    {
+         "title":"Manuel Proksch",
+         "url":"https:\/\/m-pr.at\/?page_id=19",
+         "flags":[
+            "de",
+            "at"
+         ],
+         "freeplans":true,
+         "supports":"both",
+         "specializes":[
+            "Nextcloud Paket 1: 15 GB Speicherplatz, unlimited Traffic, Netzwerkanbindung bis zu Gbit EUR 5/Monat (1. Monat gratis testen)"
+         ],
+         "imagename":"EDV-Service.png"
       }
 ]

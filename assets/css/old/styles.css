@@ -105,6 +105,17 @@ h3 {
 /* 	color: white; */
 }
 
+.btn-secondary {
+	border: 1px solid #cccccc;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open > .dropdown-toggle.btn-secondary {
+	border: 1px solid #adadad;
+	background: #e6e6e6;
+}
+
+
+
 /* button a {color: #1d2d44} */
 button a:hover {text-decoration: none; }
 
@@ -777,9 +788,9 @@ p.federation-id {
 
 .epricevat {
 	font-weight: light;
-	font-size: .7em;
+	font-size: small;
 	text-align: right;
-	padding: 0px;
+	padding: 5px;
 	margin-top: -20px;
 }
 
@@ -1342,6 +1353,16 @@ img.desaturate {
 	border: none !important;
 }
 
+
+/* Box page */
+
+.buybutton {
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+
 /* ownCloud.org/features features page*/
 
 /* Full width background image */
@@ -1357,7 +1378,7 @@ img.desaturate {
 	min-height: 700px;
 	opacity: 1;
 	visibility: inherit;
-	background-image: url("../img/features/spreedbox.png");
+	background-image: url("../img/spreedbox/spreedbox.png");
 	background-color: rgba(0, 0, 0, 0);
 	background-size: cover;
 	background-position: center top;
@@ -1847,4 +1868,23 @@ text-align: center;
 	height: 100%;
 	max-width: 200px;
 	max-height: 200px;
+}
+
+/* devices page */
+.device-img {
+	margin-left: auto !important;
+    margin-right: auto !important;
+	height: 300px;
+}
+
+/* Nextcloud Box page */
+.boxinfo {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+/* PR pages */
+
+.pr {
+	font-size: 18px;
 }

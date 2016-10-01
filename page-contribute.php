@@ -42,6 +42,7 @@ Do you want to <strong>help</strong> translate, promote or document Nextcloud?</
           </ul>
           <p>Talk to us <a href="irc://#nextcloud-dev@freenode.net">on IRC</a> and on our
           <a href="https://help.nextcloud.com" target="_blank">forum</a>! We look forward to your code and thoughts.</p>
+          <p>Note that <a href="/jobs">we're hiring</a>. We look especially for people who want to turn their passion into their job! When possible, we hire people from our active community base or from the wider open source community.</p>
 <!--           <iframe width="100%" height="360" src="https://www.youtube.com/embed/M_-PtACnnz4?rel=0" frameborder="0" allowfullscreen></iframe> -->
 	</div>
 	<div class="col-md-6">

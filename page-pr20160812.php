@@ -1,3 +1,4 @@
+<div class="pr">
 <p><small>Press Breakfast Invitation from Fairphone, Little Sun, iFixit, Ecosia and Nextcloud</small></p>
 
 <h1>Press event at IFA 2016: Using everyday technology to make a positive impact</h1>
@@ -47,3 +48,4 @@ Jos Poortvliet<br />
 Kronenstraße 22A<br />
 D-70173 Stuttgart, Germany<br />
 e-mail: <a href="mailto:pr@nextcloud.com">pr@nextcloud.com</a></p>
+</div>
