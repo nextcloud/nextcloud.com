@@ -192,6 +192,7 @@
 
 .list .check {
 	list-style-image: url("../img/enterprise/check.svg");
+	list-style-position:inside;
 }
 
 .list .nocheck {
@@ -206,6 +207,7 @@
 
 .list .nocheck {
 	list-style-image: url("../img/enterprise/nocheck.svg");
+	list-style-position:inside;
 }
 
 
@@ -221,6 +223,7 @@
 
 .list .optional {
 	list-style-image: url("../img/enterprise/optional.svg");
+	list-style-position:inside;
 }
 
 .table-content .btn-lg {
