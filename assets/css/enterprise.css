@@ -148,7 +148,8 @@
   color: #555555; }
 
 .list .check {
-  list-style-image: url("../img/enterprise/check.svg"); }
+  list-style-image: url("../img/enterprise/check.svg");
+  list-style-position: inside; }
 
 .list .nocheck {
   /*   font-family: OpenSans; */
@@ -160,7 +161,8 @@
   color: #b1b1b1; }
 
 .list .nocheck {
-  list-style-image: url("../img/enterprise/nocheck.svg"); }
+  list-style-image: url("../img/enterprise/nocheck.svg");
+  list-style-position: inside; }
 
 .list .optional {
   /*   font-family: OpenSans; */
@@ -172,7 +174,8 @@
   color: #555555; }
 
 .list .optional {
-  list-style-image: url("../img/enterprise/optional.svg"); }
+  list-style-image: url("../img/enterprise/optional.svg");
+  list-style-position: inside; }
 
 .table-content .btn-lg {
   margin-top: 30px;
