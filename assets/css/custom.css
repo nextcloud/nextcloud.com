@@ -258,6 +258,8 @@
 
 section#why-nextcloud {
   padding-top: 130px; }
+  section#why-nextcloud .container {
+    width: 1170px !important; }
   @media (max-width: 1367px) {
     section#why-nextcloud {
       padding-top: 60px; } }
@@ -438,11 +440,6 @@ section#why-nextcloud {
         color: #75badd; } }
   .Header-Navigation .navbar .navbar-header {
     float: none; }
-    @media (max-width: 1100px) {
-      .Header-Navigation .navbar .navbar-header {
-        float: none;
-        z-index: 5;
-        position: absolute; } }
     .Header-Navigation .navbar .navbar-header .logo {
       background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
       height: 50px;
@@ -470,7 +467,8 @@ section#why-nextcloud {
         .Header-Navigation .navbar .btn-primary a {
           color: #ffffff; } }
   .Header-Navigation .navbar .active {
-    font-weight: 600; }
+    font-weight: 600;
+    z-index: 3; }
   .Header-Navigation .navbar .overlay-menu ul {
     float: right !important;
     padding-left: 0;
@@ -708,58 +706,57 @@ section#why-nextcloud {
 *Mobile
 */
 @media (max-width: 1200px) {
-  .Header-Navigation .navbar .container-fluid .navbar-header {
+  .Header-Navigation .navbar .container-fluid .navbar-header .logo {
     z-index: 5;
-    position: absolute; }
-    .Header-Navigation .navbar .container-fluid .navbar-header button:hover {
-      transform: scale(1.1);
-      transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
-      transition-property: transform;
-      transition-duration: 0.3s;
-      transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
-      transition-delay: initial; }
-      .Header-Navigation .navbar .container-fluid .navbar-header button:hover .icon-bar {
-        transform: scale(1.1); }
-    .Header-Navigation .navbar .container-fluid .navbar-header .overlay {
-      position: fixed;
-      background: #0082c9;
-      padding-top: 25px;
-      z-index: 2;
-      top: 0;
-      right: 0;
-      width: 0;
-      height: 0;
-      visibility: hidden;
-      overflow: hidden;
-      border-bottom-left-radius: 100%;
-      transition: all 0.6s ease; }
-      .Header-Navigation .navbar .container-fluid .navbar-header .overlay li {
-        display: block;
-        height: 25%;
-        height: calc(100% / 4);
-        min-height: 50px;
-        position: relative;
-        opacity: 1; }
-      .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open {
-        opacity: 1;
-        visibility: visible;
-        width: 150%;
-        height: 150%; }
-        .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul {
-          list-style: none;
-          padding: 0;
-          margin: 0 auto;
-          display: inline-block;
-          position: relative;
-          height: 100%;
-          /* color: white; */
-          display: inline-block;
-          float: none;
-          margin-left: 50%;
-          margin: 10% 60%;
-          font-size: 26px;
-          color: white;
-          text-align: center; } }
+    position: relative; }
+  .Header-Navigation .navbar .container-fluid .navbar-header button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
+    transition-delay: initial; }
+    .Header-Navigation .navbar .container-fluid .navbar-header button:hover .icon-bar {
+      transform: scale(1.1); }
+  .Header-Navigation .navbar .container-fluid .navbar-header .overlay {
+    position: fixed;
+    background: #0082c9;
+    padding-top: 25px;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    border-bottom-left-radius: 100%;
+    transition: all 0.6s ease; }
+    .Header-Navigation .navbar .container-fluid .navbar-header .overlay li {
+      display: block;
+      height: 25%;
+      height: calc(100% / 4);
+      min-height: 50px;
+      position: relative;
+      opacity: 1;
+      margin: 0; }
+    .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open {
+      opacity: 1;
+      visibility: visible;
+      width: 150%;
+      height: 150%; }
+      .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul {
+        list-style: none;
+        display: inline-block;
+        font-size: 26px;
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+        display: inline-block;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); } }
 html {
   margin-top: 0 !important; }
 

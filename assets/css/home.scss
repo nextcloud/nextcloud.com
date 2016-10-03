@@ -321,6 +321,9 @@
 
 section#why-nextcloud {
     padding-top: 130px;
+	.container {
+      width: 1170px !important;
+	}
     @media (max-width: 1367px) {
         padding-top: 60px;
     }
