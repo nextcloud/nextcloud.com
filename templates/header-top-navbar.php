@@ -14,10 +14,7 @@
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" id="toggle">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar top-bar"></span>
-					<span class="icon-bar middle-bar"></span>
-					<span class="icon-bar bottom-bar"></span>
+				<div class="menu-animation" data-animation-path="img/menu/black/" data-anim-loop="false" data-name="menu-black" id="menu-black"</div>
 				</button>
 				<a class="brand" href="<?php echo home_url() ?>">
 				<div class="logo"></div>
