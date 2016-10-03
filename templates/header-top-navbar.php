@@ -44,12 +44,3 @@
 	</nav>
 </div>
 </section>
-
-<script>
-$('#toggle').click(function() {
-   $(this).toggleClass('active');
-   $('#overlay').toggleClass('open');
-    $('.navbar').toggleClass('mobile-menu-open');
-  });
-
-</script>

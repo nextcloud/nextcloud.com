@@ -19,3 +19,10 @@ $(window).load(function() {
     }
 });
 
+$(document).ready(function() {
+	$('#toggle').click(function() {
+	$(this).toggleClass('active');
+	$('#overlay').toggleClass('open');
+	$('.navbar').toggleClass('mobile-menu-open');
+	});
+});

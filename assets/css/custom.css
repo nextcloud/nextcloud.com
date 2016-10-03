@@ -463,7 +463,7 @@ section#why-nextcloud {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #0073B2; }
+        background-color: transparent; }
         .Header-Navigation .navbar .btn-primary a {
           color: #ffffff; } }
   .Header-Navigation .navbar .active {
@@ -506,7 +506,8 @@ section#why-nextcloud {
     border-radius: 50px;
     width: 50px;
     height: 50px;
-    margin-top: 0; }
+    margin-top: 0;
+    z-index: 3; }
     .navbar .container-fluid button .icon-bar {
       background-color: #2a2a36;
       width: 100%; }
@@ -738,7 +739,8 @@ section#why-nextcloud {
       min-height: 50px;
       position: relative;
       opacity: 1;
-      margin: 0; }
+      margin: 0;
+      opacity: 0; }
     .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open {
       opacity: 1;
       visibility: visible;
@@ -756,7 +758,33 @@ section#why-nextcloud {
         top: 50%;
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%); } }
+        transform: translate(-50%, -50%); }
+        .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li {
+          font-size: 35px;
+          padding-top: 2vh;
+          animation: fadeInRight .5s ease forwards;
+          animation-delay: .35s; }
+          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(2) {
+            animation-delay: .4s; }
+          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(3) {
+            animation-delay: .45s; }
+          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(4) {
+            animation-delay: .50s; }
+          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(5) {
+            animation-delay: .55s; }
+          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(6) {
+            animation-delay: .60s; }
+          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(7) {
+            animation-delay: .65s; }
+          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(8) {
+            animation-delay: .70s; } }
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%; }
+  100% {
+    opacity: 1;
+    left: 0; } }
 html {
   margin-top: 0 !important; }
 

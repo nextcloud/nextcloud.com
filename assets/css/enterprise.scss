@@ -2,7 +2,7 @@
 
 
 /**
- * Home page background
+ * Enterprise Page
  */
 .background {
     background-image: url("../img/enterprise/enterprise.jpg");
@@ -75,14 +75,12 @@
 
 .pricing {
 	margin-top: 133px;
-/* 	width: 1170px; */
 }
 
 .table-column {
 	border-radius: 8px;
 	border: solid 1px #eeeeee;
 	padding: 0px;
-/* 	margin-left: 52px; */
 	width: 31%;
 	margin-left: 1%;
 	margin-right: 1%;
@@ -92,66 +90,71 @@
         margin: auto;
         margin-bottom: 60px;
 	}
-}
+	.table-header {
+		padding: 0px; 
+		margin: 0px;
+		width: 100%;
+		border-radius: 7px 7px 0px 0px;
 
-.highlight {
+		h1 {
+			text-align: center;
+			color: #2a2a36;
+			font-size: 22px;
+			font-weight: bold;
+			line-height: 1.36;
+			padding: 0px;
+			margin: 0px;
+			padding-top: 42px;
+			letter-spacing: 0;
+		}
+
+		h2 {
+			font-size: 18px;
+			font-weight: 300;
+			text-align: center;
+			color: #555555;
+			line-height: 1.61;
+			padding: 0px;
+			margin: 0px;
+			padding-top: 0px;
+			padding-bottom: 29px;
+		}
+	}
+	
+	.basic {
+	background-color: #f9f9f9;
+	}
+
+	.standart {
+		background-color: #c4e1f7;
+	}
+
+	.premium {
+		background-color: #178ecd;
+
+		h1 {
+			color: white !important;
+		}
+
+		h2 {
+			color: white !important;
+		}
+	}
+	
+	.highlight {
         box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.16);
+	}
 }
 
-.table-header {
-	padding: 0px; 
-	margin: 0px;
-	width: 100%;
-	border-radius: 7px 7px 0px 0px;
-    
-    h1 {
-        text-align: center;
-        color: #2a2a36;
-        font-size: 22px;
-        font-weight: bold;
-        line-height: 1.36;
-        padding: 0px;
-        margin: 0px;
-        padding-top: 42px;
-        letter-spacing: 0;
-    }
-    
-    h2 {
-        font-size: 18px;
-        font-weight: 300;
-        text-align: center;
-        color: #555555;
-        line-height: 1.61;
-        padding: 0px;
-        margin: 0px;
-        padding-top: 0px;
-        padding-bottom: 29px;
-    }
-}
+
+
+
 
  
 
 
 
-.basic {
-	background-color: #f9f9f9;
-}
 
-.standart {
-	background-color: #c4e1f7;
-}
-
-.premium {
-	background-color: #178ecd;
-}
-
-.premium > h1 {
-	color: white;
-}
-
-.premium > h2 {
-	color: white;
-}
 
 .table-content {
 	margin: 15px;
@@ -288,28 +291,29 @@
     }    
 }
 
+/* Discount section */
 .faq {
 	background: $nextcloud-blue;
     padding-bottom: 50px;
-}
-
-.faq .container {
-	background: white;
-	margin-bottom: 90px;
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-.faq .container .row {
-	padding: 30px;
-	margin: 40px;
-	margin-right: 60px;
-	@media (max-width: $break-small) {
-		padding-left: 10px;
-		padding-right: 10px;
-		margin-left: 10px;
-		margin-right: 10px;
-		margin-right: 30px;
+	
+	.container {
+		background: white;
+		margin-bottom: 90px;
+		padding-left: 0px;
+		padding-right: 0px;
+		
+		.row {
+			padding: 30px;
+			margin: 40px;
+			margin-right: 60px;
+			@media (max-width: $break-small) {
+				padding-left: 10px;
+				padding-right: 10px;
+				margin-left: 10px;
+				margin-right: 10px;
+				margin-right: 30px;
+			}
+		}
 	}
 }
 
