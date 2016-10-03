@@ -93,9 +93,6 @@
   text-indent: -30px; }
 
 /**
- * Mobile
- */
-/**
  * Home page: Why Nextcloud?
  */
 .icon-row {
@@ -258,17 +255,6 @@
 
 section#why-nextcloud {
   padding-top: 130px; }
-  section#why-nextcloud .container {
-    width: 1170px !important; }
-  @media (max-width: 1367px) {
-    section#why-nextcloud {
-      padding-top: 60px; } }
-  @media (max-width: 768px) {
-    section#why-nextcloud {
-      padding-top: 80px; } }
-  @media (min-width: 768px) {
-    section#why-nextcloud .container {
-      width: 720px; } }
 
 .Section-Introducing-Nextcloud {
   background-color: transparent;
@@ -605,21 +591,6 @@ section#why-nextcloud {
         padding-top: 3vh;
         font-size: 35px; } }
 
-.icon-bar {
-  width: 22px;
-  transition: all 0.2s; }
-
-.top-bar {
-  transform: rotate(45deg);
-  transform-origin: 22.5%; }
-
-.middle-bar {
-  opacity: 0; }
-
-.bottom-bar {
-  transform: rotate(-45deg);
-  transform-origin: 22.5%; }
-
 .navbar-toggle.collapsed .top-bar {
   transform: rotate(0deg); }
 .navbar-toggle.collapsed .middle-bar {
@@ -760,7 +731,7 @@ section#why-nextcloud {
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); }
         .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li {
-          font-size: 35px;
+          font-size: 25px;
           padding-top: 2vh;
           animation: fadeInRight .5s ease forwards;
           animation-delay: .35s; }

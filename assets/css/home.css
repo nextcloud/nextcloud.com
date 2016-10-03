@@ -93,9 +93,6 @@
   text-indent: -30px; }
 
 /**
- * Mobile
- */
-/**
  * Home page: Why Nextcloud?
  */
 .icon-row {
@@ -258,15 +255,6 @@
 
 section#why-nextcloud {
   padding-top: 130px; }
-  @media (max-width: 1367px) {
-    section#why-nextcloud {
-      padding-top: 60px; } }
-  @media (max-width: 768px) {
-    section#why-nextcloud {
-      padding-top: 80px; } }
-  @media (min-width: 768px) {
-    section#why-nextcloud .container {
-      width: 720px; } }
 
 .Section-Introducing-Nextcloud {
   background-color: transparent;
@@ -411,3 +399,5 @@ section#why-nextcloud {
 
 .news table {
   margin-left: -15px; }
+
+/*# sourceMappingURL=home.css.map */

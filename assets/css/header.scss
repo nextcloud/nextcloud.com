@@ -276,28 +276,6 @@
     }
 
 }
-.navbar-toggle {
-    }
-    
-    .icon-bar {
-        width: 22px;
-        transition: all 0.2s;
-    }
-    
-    .top-bar {
-        transform: rotate(45deg);
-        transform-origin: 22.5%;
-    }
-    
-    .middle-bar {
-        opacity: 0;
-    }
-    
-    .bottom-bar {
-        transform: rotate(-45deg);
-        transform-origin: 22.5%;
-    }
-
 
 .navbar-toggle.collapsed {
     .top-bar {
@@ -486,7 +464,7 @@
 								transform: translate(-50%, -50%);
 								
 								li {
-									font-size: 35px;
+									font-size: 25px;
 									padding-top: 2vh;	
 									animation: fadeInRight .5s ease forwards;
 									animation-delay: .35s;
