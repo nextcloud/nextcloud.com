@@ -169,6 +169,19 @@
 	</div>
 	<div class="col-md-4">
 		<div class="teamp">
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/christoph.jpg" />
+			<h2 class="teamname">Christoph Wurst</h2>
+			<div class="teammeta">
+				<h3 class="teamtitle">Software Engineer</h3>
+				<h4 class="teamexpertise">JavaScript, two-factor auth and Mail app</h4>
+				<h4 class="teamlocation">lives in Schrattenthal, Austria</h4>
+				<p class="teamsocial"><a href="http://blog.wuc.me/"><i class="icon-rss icon"></i></a> <a href="https://github.com/ChristophWurst"><i class="icon-github-alt icon"></i></a> <a href="https://twitter.com/ChristophWurst"><i class="icon-twitter icon"></i></a> </p>
+			</div>
+			<p class="teamdescription">Christoph has been contributing to the project since 2014. He is currently doing his Software Engineering master at the University of Applied Sciences Upper Austria.</p>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="teamp">
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/ivan.jpg" />
 			<h2 class="teamname">Ivan Sein</h2>
 			<div class="teammeta">
