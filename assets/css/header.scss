@@ -206,7 +206,7 @@
     background: white;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09);
     @media (max-height:800px) {
-        display: none;
+//        display: none;
     }
     a {
         color: #656565 !important;
@@ -509,4 +509,17 @@
     opacity: 1;
     left: 0;
   }
+}
+
+@media (max-height:800px) {
+	.nav-down {
+		opacity: 1;
+		transition: all .3s ease ;
+	}
+
+	.nav-up {
+		top: -100px !important;
+		opacity: 0;
+		transition: all .3s ease ;
+	}
 }

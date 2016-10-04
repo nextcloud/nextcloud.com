@@ -10,7 +10,7 @@
 	];
 ?>
 <section class="Header-Navigation">
-	<nav class="navbar navbar-fixed-top">
+	<nav class="navbar navbar-fixed-top" id="navbar">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" id="toggle">
