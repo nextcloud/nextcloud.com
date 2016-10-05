@@ -240,7 +240,7 @@ section#why-nextcloud {
   height: 200vh;
   position: relative;
   padding-top: 130px; }
-  @media (max-width: 1100px) {
+  @media (max-width: 1200px) {
     .Section-Introducing-Nextcloud {
       padding-top: 60px;
       height: 100vh; } }
@@ -387,10 +387,10 @@ section#why-nextcloud {
   z-index: 5;
   padding-top: 24px;
   font-size: 16px; }
-  @media (min-width: 1100px) {
+  @media (min-width: 1200px) {
     .Header-Navigation .navbar li.active {
       border-bottom: 3px solid #ffffff;
-      padding-bottom: 15px; }
+      padding-bottom: 35px; }
     .Header-Navigation .navbar li:last-child {
       padding-left: 30px;
       padding-right: 30px; }
@@ -398,12 +398,12 @@ section#why-nextcloud {
       color: white; }
       .Header-Navigation .navbar li a:hover {
         text-decoration: none; } }
-@media (min-width: 1100px) and (max-width: 1100px) {
+@media (min-width: 1200px) and (max-width: 1200px) {
   .Header-Navigation .navbar a {
     color: #75badd; }
     .Header-Navigation .navbar a .active {
       color: #ffffff; } }
-  @media (min-width: 1100px) {
+  @media (min-width: 1200px) {
     .Header-Navigation .navbar .navbar-header {
       float: none; }
       .Header-Navigation .navbar .navbar-header .logo {
@@ -418,7 +418,7 @@ section#why-nextcloud {
       height: inherit; }
       .Header-Navigation .navbar .btn-primary:before {
         visibility: hidden; } }
-  @media (min-width: 1100px) and (max-width: 1200px) {
+  @media (min-width: 1200px) and (max-width: 1200px) {
     .Header-Navigation .navbar .btn-primary {
       position: fixed;
       bottom: 0;
@@ -486,10 +486,10 @@ section#why-nextcloud {
     margin: 0 0 0 10px; } }
 .navbar-nav li a:hover {
   background: none !important; }
-@media (min-width: 1100px) {
+@media (min-width: 1200px) {
   .navbar-nav li a:hover {
     color: white; } }
-@media (min-width: 1100px) {
+@media (min-width: 1200px) {
   .navbar-nav li:before {
     display: inline-block;
     position: relative;
@@ -533,12 +533,12 @@ section#why-nextcloud {
   .navbar.scrolled:not(.mobile-menu-open) .navbar-nav li:not(.btn-primary):not(.active):hover:after {
     width: 100%;
     background: #656565; }
-  @media (min-width: 1100px) {
+  @media (min-width: 1200px) {
     .navbar.scrolled:not(.mobile-menu-open) .active {
       border-bottom: 3px solid #656565 !important; } }
   .navbar.scrolled:not(.mobile-menu-open) .btn-primary a {
     color: white !important; }
-  @media (max-width: 1100px) {
+  @media (max-width: 1200px) {
     .navbar.scrolled:not(.mobile-menu-open) .navbar-collapse {
       background-color: #ffffff;
       margin-left: -6% !important; } }
