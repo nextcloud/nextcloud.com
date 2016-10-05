@@ -79,77 +79,76 @@
 		</table>
 	</div>
 
-<p class="epricevat">Prices are in Euro per year and net/excl. VAT. <span class="caret"></span><a href="#pricing" data-toggle="collapse"> pricing example</a>
-	<div id="pricing" class="collapse">
-		<div class="row">
-			<div class="col-md-6 col-md-offset-6">
-				<p>We have a tiered price list.</p>
-				<p>Example for 500 users Standard Subscription:
-				<table class="table table-striped">
-					<tr>
-						<td>
-						The first 50 users:
-						</td>
-						<td>
-							+ 2.500€
-						</td>
-					</tr>
-					<tr>
-						<td>
-						User 51-100 (50*50€):
-						</td>
-						<td>
-							+ 2.500€
-						</td>
-					</tr>
-					<tr>
-						<td>
-						User 101-250 (150*30€):
-						</td>
-						<td>
-							+ 4.500€
-						</td>
-					</tr>
-					<tr>
-						<td>
-						User 251-500 (250*20€):
-						</td>
-						<td>
-							+ 5.500€
-						</td>
-					</tr>
-					<tr class="success">
-						<td>
-						total for 500 users
-						</td>
-						<td>
-							= 14.500€
-						</td>
-					</tr>
-				</table>
+	<p class="epricevat">Prices are in Euro per year and net/excl. VAT. <span class="caret"></span><a href="#pricing" data-toggle="collapse"> pricing example</a>
+		<div id="pricing" class="collapse">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-6">
+					<p>We have a tiered price list.</p>
+					<p>Example for 500 users Standard Subscription:
+					<table class="table table-striped">
+						<tr>
+							<td>
+							The first 50 users:
+							</td>
+							<td>
+								+ 2.500€
+							</td>
+						</tr>
+						<tr>
+							<td>
+							User 51-100 (50*50€):
+							</td>
+							<td>
+								+ 2.500€
+							</td>
+						</tr>
+						<tr>
+							<td>
+							User 101-250 (150*30€):
+							</td>
+							<td>
+								+ 4.500€
+							</td>
+						</tr>
+						<tr>
+							<td>
+							User 251-500 (250*20€):
+							</td>
+							<td>
+								+ 5.500€
+							</td>
+						</tr>
+						<tr class="success">
+							<td>
+							total for 500 users
+							</td>
+							<td>
+								= 14.500€
+							</td>
+						</tr>
+					</table>
+				</div>
 			</div>
 		</div>
+	</p>
+
+	<a name="contact"></a>
+	<div class="contact">
+		<h3>Contact us for more information and a quote fitting your use case.</h3>
+		<form name="sales" method="post" action="salessubmit/">
+				<p><label for="yourname">Your name<br>
+				<input  type="text" name="yourname" maxlength="60" size="60"></label></p>
+				<p><label for="email">Email<br>
+				<input  type="text" name="email" maxlength="80" size="60"></label></p>
+				<p><label for="organization">Organization<br>
+				<input  type="text" name="organization" maxlength="100" size="60" placeholder=""></label></p>
+				<p><label for="phone">Phone number<br>
+				<input  type="text" name="phone" maxlength="40" size="60" placeholder="Please include country code"></label></p>
+				<p><label for="comments">Your message<br />
+				<textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Let us know how we can help you!"></textarea></label></p>
+				<td colspan="2" style="text-align:center">
+				<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+				<input type="submit" value=" Submit inquiry ">
+		</form>
 	</div>
-</p>
-
-<a name="contact"></a>
-<div class="contact">
-	<h3>Contact us for more information and a quote fitting your use case.</h3>
-	<form name="sales" method="post" action="salessubmit/">
-			<p><label for="yourname">Your name<br>
-			<input  type="text" name="yourname" maxlength="60" size="60"></label></p>
-			<p><label for="email">Email<br>
-			<input  type="text" name="email" maxlength="80" size="60"></label></p>
-			<p><label for="organization">Organization<br>
-			<input  type="text" name="organization" maxlength="100" size="60" placeholder=""></label></p>
-			<p><label for="phone">Phone number<br>
-			<input  type="text" name="phone" maxlength="40" size="60" placeholder="Please include country code"></label></p>
-			<p><label for="comments">Your message<br />
-			<textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Let us know how we can help you!"></textarea></label></p>
-			<td colspan="2" style="text-align:center">
-			<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-			<input type="submit" value=" Submit inquiry ">
-	</form>
 </div>
-
-
