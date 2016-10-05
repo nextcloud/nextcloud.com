@@ -549,6 +549,8 @@ section#why-nextcloud {
     background: #0082c9; }
     .navbar.scrolled:not(.mobile-menu-open) .container-fluid button .icon-bar {
       background-color: white; }
+  .navbar.scrolled:not(.mobile-menu-open) svg {
+    filter: invert(100%); }
 
 /**
  * Collapsed navbar

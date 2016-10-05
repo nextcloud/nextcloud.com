@@ -19,7 +19,6 @@ $(window).load(function() {
     }
 });
 
-
 /**
 * Mobile fullscreen trigger
 */
@@ -31,11 +30,8 @@ $(document).ready(function() {
 	});
 });
 
-
-
-
 /**
-* Show Header when scroll in resolution lower then widht 800px
+* Show Header when scroll in resolution lower then width 800px
 */
 var didScroll;
 var lastScrollTop = 0;
@@ -75,69 +71,36 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
-// Make sure we not scroll when class .mobile-menu-open is active
 
-var keys = {37: 1, 38: 1, 39: 1, 40: 1};
 
 $(document).ready(function() {
-	if ( $('#overlay').hasClass('open') ) {
-			console.log(true);
-//	function preventDefault(e) {
-//	  e = e || window.event;
-//	  if (e.preventDefault)
-//		  e.preventDefault();
-//	  e.returnValue = false;  
-//	}
-//
-//	function preventDefaultForScrollKeys(e) {
-//		if (keys[e.keyCode]) {
-//			preventDefault(e);
-//			return false;
-//		}
-//	}
-//
-//	function disableScroll() {
-//	  if (window.addEventListener) // older FF
-//		  window.addEventListener('DOMMouseScroll', preventDefault, false);
-//	  window.onwheel = preventDefault; // modern standard
-//	  window.onmousewheel = document.onmousewheel = preventDefault; // older browsers, IE
-//	  window.ontouchmove  = preventDefault; // mobile
-//	  document.onkeydown  = preventDefaultForScrollKeys;
-//	}
-	}
+    var menuAnimation;
+    var menuOpened = false;
+
+    var animContainer = document.querySelectorAll('.navbar-header button')[0];
+    var params = {
+        container: animContainer,
+        renderer: 'svg',
+        loop: false,
+        autoplay: false,
+        autoloadSegments: true,
+        path: templateUrl + '/assets/img/menu/data.json'
+    };
+    menuAnimation = bodymovin.loadAnimation(params);
+    menuAnimation.stop();
+
+    $('.navbar-header button').click(function () {
+        if(menuOpened) {
+            menuAnimation.setDirection(-1);
+        } else {
+            menuAnimation.setDirection(0);
+        }
+        menuAnimation.play();
+
+        menuOpened = !menuOpened;
+        //anim.play();
+        //anim.play();
+
+    });
+
 });
-
-
-
-/**
-* Animations and behaviour of hamburguer menu
-*/
-//$(window).load(function() {
-//
-//    var elements = [
-//        'black',
-//        'white',
-//    ];
-//    elements.forEach(function(key) {
-//        new Waypoint({
-//            element: document.getElementById('menu-black'),
-//            offset: '0%',
-//            handler: function() {
-//                anim.play();
-//            }
-//        });
-//        var animContainer = document.querySelectorAll('#menu-black [data-name='+key+']')[0];
-//        var params = {
-//            container: animContainer,
-//            renderer: 'svg',
-//            loop: false,
-//            autoplay: false,
-//            autoloadSegments: false,
-//            path: templateUrl + '/assets/img/menu/'+key+'/data.json'// path to your data.json file you rendered from AE
-//
-//        };
-//        var anim;
-//        anim = bodymovin.loadAnimation(params);
-//    });
-//});
-//
