@@ -71,11 +71,18 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
-
-
 $(document).ready(function() {
     var menuAnimation;
     var menuOpened = false;
+
+    // Prevent scrolling if menu is opened
+    $('html').on('scroll touchmove mousewheel', function(e) {
+        if(menuOpened) {
+            e.preventDefault();
+            e.stopPropagation();
+            return false;
+        }
+    });
 
     var animContainer = document.querySelectorAll('.navbar-header button')[0];
     var params = {
@@ -96,11 +103,7 @@ $(document).ready(function() {
             menuAnimation.setDirection(0);
         }
         menuAnimation.play();
-
         menuOpened = !menuOpened;
-        //anim.play();
-        //anim.play();
-
     });
 
 });
