@@ -255,6 +255,10 @@
             background-color: white;
         }
     }
+
+	svg {
+		filter: invert(100%);
+	}
 }
 
 
