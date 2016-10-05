@@ -1,157 +1,157 @@
 @import "variables.scss";
 
-.Header-Navigation{      
-	.navbar {
-		top: 0;
-		border-width: 0 0 1px;
-		background-color: $nextcloud-blue;
-		height: 100px;
-		transition: all .2s ease-in;
-		z-index: 5;
-		padding-top: 24px;
-		font-size: 16px;
+.Header-Navigation{
+    .navbar {
+        top: 0;
+        border-width: 0 0 1px;
+        background-color: $nextcloud-blue;
+        height: 100px;
+        transition: all .2s ease-in;
+        z-index: 5;
+        padding-top: 24px;
+        font-size: 16px;
 
-		@media (min-width: $navbar-breaksize) {
+        @media (min-width: $navbar-breaksize) {
 
-			li.active {
-				border-bottom: 3px solid $white;
-				padding-bottom: 15px;
-			}
+            li.active {
+                border-bottom: 3px solid $white;
+                padding-bottom: 15px;
+            }
 
-			li {
-				&:last-child{
-					padding-left: 30px;
-					padding-right: 30px;
-				}
+            li {
+                &:last-child{
+                    padding-left: 30px;
+                    padding-right: 30px;
+                }
 
-				a {
-					color: white;
-					&:hover{
-						text-decoration: none;
-					}
-				}
-			}
+                a {
+                    color: white;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
 
-			@media (max-width: $navbar-breaksize) {
-				 a {
-					color: #75badd;
-					.active {
-						color: $white;
-					}
-				}
-			}
+            @media (max-width: $navbar-breaksize) {
+                a {
+                    color: #75badd;
+                    .active {
+                        color: $white;
+                    }
+                }
+            }
 
-		.navbar-header {
-			float: none;
+            .navbar-header {
+                float: none;
 
-			.logo { 
-				background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
-				height: 50px;
-				width: 71px;
-				display: inline-block;				
-			}
-		}
+                .logo {
+                    background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+                    height: 50px;
+                    width: 71px;
+                    display: inline-block;
+                }
+            }
 
-		.btn-primary {
-			background-color: $nextcloud-blue;
-			border: 1px solid white;
-			font-size: 16px;
-			height: inherit;
+            .btn-primary {
+                background-color: $nextcloud-blue;
+                border: 1px solid white;
+                font-size: 16px;
+                height: inherit;
 
-				&:before{
-					visibility: hidden;
-				}
+                &:before{
+                    visibility: hidden;
+                }
 
-			@media (max-width: 1200px) {
-				position: fixed;
-				bottom: 0;
-				margin-left: -5%;
-				width: 105%;
-				border-radius: 0;
-				border: 0;
-				height: 75px;
-				font-size: 20px;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				background-color: transparent;
+                @media (max-width: 1200px) {
+                    position: fixed;
+                    bottom: 0;
+                    margin-left: -5%;
+                    width: 105%;
+                    border-radius: 0;
+                    border: 0;
+                    height: 75px;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: transparent;
 
-				a {
-					color: $white;
-					}
-				}
-			}
-		}
+                    a {
+                        color: $white;
+                    }
+                }
+            }
+        }
 
-		.active {
-			font-weight: 600;
-			z-index: 3;
-			}
+        .active {
+            font-weight: 600;
+            z-index: 3;
+        }
 
-		.overlay-menu {
+        .overlay-menu {
 
-			ul{
-			float: right !important;
-			padding-left: 0;
-			margin-bottom: 0;
-			list-style: none;
-			margin-right: -15px;
-			margin-bottom: 0;
+            ul{
+                float: right !important;
+                padding-left: 0;
+                margin-bottom: 0;
+                list-style: none;
+                margin-right: -15px;
+                margin-bottom: 0;
 
-				li{
-				  margin: 0 0 0 10px;
-				  padding: 10px 15px;
-				  position: relative;
-				  display: table-cell;
-				  vertical-align: middle;
+                li{
+                    margin: 0 0 0 10px;
+                    padding: 10px 15px;
+                    position: relative;
+                    display: table-cell;
+                    vertical-align: middle;
 
-					&:last-child {
-					  padding-left: 30px;
-					  padding-right: 30px;
-					}
-				  }
+                    &:last-child {
+                        padding-left: 30px;
+                        padding-right: 30px;
+                    }
+                }
 
-			.btn-primary{
-				padding: 5px 5px;
-			  
-					a{
-					  position: relative;
-					  display: block;
-					  padding: 10px 15px;
-			  		}
-				}
-			}
-		}   
-	}
+                .btn-primary{
+                    padding: 5px 5px;
+
+                    a{
+                        position: relative;
+                        display: block;
+                        padding: 10px 15px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 /**
 *Break Menu at 1200px
 */
 
- 
+
 .navbar  {
-	.container-fluid{
-		margin-left: 5%;
-		margin-right: 5%;
-		padding-right: 0 !important;
-		padding-left: 0 !important;
-			
-		button {
-			color: white;
-			background-color: white;
-			border-radius: 50px;
-			width: 50px;
-			height: 50px;
-			margin-top: 0;
-			z-index: 3;
-				
-			.icon-bar {
-				background-color: $dark-blue;
-				width: 100%;
-			}
-		}
-	}
+    .container-fluid{
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+
+        button {
+            color: white;
+            background-color: white;
+            border-radius: 50px;
+            width: 50px;
+            height: 50px;
+            margin-top: 0;
+            z-index: 3;
+
+            .icon-bar {
+                background-color: $dark-blue;
+                width: 100%;
+            }
+        }
+    }
 }
 
 .navbar-nav {
@@ -202,7 +202,7 @@
 }
 
 .navbar:not(.scrolled) .btn-primary  {
-	background-color: transparent !important;
+    background-color: transparent !important;
 }
 
 
@@ -214,7 +214,7 @@
     background: white;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09);
     @media (max-height:800px) {
-//        display: none;
+        //        display: none;
     }
     a {
         color: #656565 !important;
@@ -243,20 +243,20 @@
             margin-left: -6% !important;
         }
     }
-	.logo {
-		background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain; 
-	}
+    .logo {
+        background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain;
+    }
     .container-fluid button{
-    background: $nextcloud-blue;
-        
+        background: $nextcloud-blue;
+
         .icon-bar {
             background-color: white;
         }
     }
 
-	svg {
-		filter: invert(100%);
-	}
+    svg {
+        filter: invert(100%);
+    }
 }
 
 
@@ -273,13 +273,13 @@
         margin-left: -6% !important;
         box-shadow: none;
         transition: all .2s ease-in;
-        
+
         ul {
             margin-right: 5%;
             margin-left: 5%;
             text-align: center;
             min-height: 540px;
-            
+
             li {
                 padding-top: 3vh;
                 font-size: 35px;
@@ -293,11 +293,11 @@
     .top-bar {
         transform: rotate(0deg);
     }
-    
+
     .middle-bar {
         opacity: 1;
     }
-    
+
     .bottom-bar {
         transform: rotate(0deg);
     }
@@ -346,55 +346,55 @@
     .collapse.in{
         display:block !important;
     }
-   .navbar-nav .open .dropdown-menu {
-       position: static;
-       float: none;
-       width: auto;
-       margin-top: 0;
-       background-color: transparent;
-       border: 0;
-       -webkit-box-shadow: none;
-       box-shadow: none;
+    .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
     }
 }
 
 .overlay{
-	display: inline-block;
+    display: inline-block;
     float: right !important;
 
-	.overlay-menu {
-	  ul{
-		float: right !important;
-		padding-left: 0;
-		margin-bottom: 0;
-		list-style: none;
-		margin-right: -15px;
-		margin-bottom: 0;
+    .overlay-menu {
+        ul{
+            float: right !important;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+            margin-right: -15px;
+            margin-bottom: 0;
 
 
-		li{
-		  margin: 0 0 0 10px;
-		  padding: 10px 15px;
-		  position: relative;
-		  display: table-cell;
-		  vertical-align: middle;
+            li{
+                margin: 0 0 0 10px;
+                padding: 10px 15px;
+                position: relative;
+                display: table-cell;
+                vertical-align: middle;
 
-			&:last-child {
-			  padding-left: 30px;
-			  padding-right: 30px;
-			}
-		  }
+                &:last-child {
+                    padding-left: 30px;
+                    padding-right: 30px;
+                }
+            }
 
-		.btn-primary{
-			padding: 5px 5px;
-		  a{
-		  position: relative;
-		  display: block;
-		  padding: 10px 15px;
-		  }
-		}
-	  }
-	}
+            .btn-primary{
+                padding: 5px 5px;
+                a{
+                    position: relative;
+                    display: block;
+                    padding: 10px 15px;
+                }
+            }
+        }
+    }
 }
 
 
@@ -402,155 +402,155 @@
 *Mobile
 */
 @media (max-width: 1200px) {
-	.Header-Navigation{ 
-		
-		.navbar{ 
-			
-			.container-fluid{
-				
-				.navbar-header{
-					margin-left: 0;
-					
-					.logo{
-						z-index: 5;
-						position: relative;
-						background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
-						height: 50px;
-						width: 71px;
-						display: inline-block;
-					}
-			
-					button{
-						&:hover {
-						transform: scale(1.1);
-						transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
-						transition-property: transform;
-						transition-duration: 0.3s;
-						transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
-						transition-delay: initial;
-						}
-					}
-				
-					.overlay {
-					position: fixed;
-					background: $nextcloud-blue;
-					padding-top: 25px;
-					z-index: 2;
-					top: 0;
-					right: 0;
-					width: 0;
-					height: 0;
-					visibility: hidden;
-					overflow: hidden;
-					border-bottom-left-radius: 100%;
-					transition: all 0.6s ease;
-						
-						.btn-primary {
-								
-							&:before {
-								visibility: hidden;
-							}
-						}
-						
-						li {
-							display: block;
-							height: 25%;
-							height: calc(100% / 4);
-							min-height: 50px;
-							position: relative;
-							opacity: 1;
-							margin: 0;
-							opacity: 0;
-							color: white;
+    .Header-Navigation{
 
-								&:last-child{
-										font-weight: 500;
-									}
+        .navbar{
 
-								a {
-									color: white;
-									text-decoration: none;
-								}
-							}
+            .container-fluid{
 
-							&.open {
-								opacity: 1;
-								visibility: visible;
-								width: 150%;
-								height: 150%;
+                .navbar-header{
+                    margin-left: 0;
 
-								ul {
-									list-style: none;
-									display: inline-block;
-									font-size: 26px;
-									color: white;
-									text-align: center;
-									margin: 0 auto;
-									display: inline-block;
-									position: fixed;
-									top: 50%;
-									left: 50%;
-									-webkit-transform: translate(-50%, -50%);
-									transform: translate(-50%, -50%);
+                    .logo{
+                        z-index: 5;
+                        position: relative;
+                        background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+                        height: 50px;
+                        width: 71px;
+                        display: inline-block;
+                    }
 
-									li {
-										font-size: 25px;
-										padding-top: 2vh;	
-										animation: fadeInRight .5s ease forwards;
-										animation-delay: .35s;
+                    button{
+                        &:hover {
+                            transform: scale(1.1);
+                            transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
+                            transition-property: transform;
+                            transition-duration: 0.3s;
+                            transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
+                            transition-delay: initial;
+                        }
+                    }
 
-										&:nth-of-type(2) {
-										animation-delay: .4s;
-										}
-										&:nth-of-type(3) {
-										animation-delay: .45s;
-										}
-										&:nth-of-type(4) {
-										animation-delay: .50s;
-										}
-										&:nth-of-type(5) {
-										animation-delay: .55s;								
-										}
-										&:nth-of-type(6) {
-										animation-delay: .60s;								
-										}
-										&:nth-of-type(7) {
-										animation-delay: .65s;								
-										}
-										&:nth-of-type(8) {
-										animation-delay: .70s;								
-										}
-									}	
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+                    .overlay {
+                        position: fixed;
+                        background: $nextcloud-blue;
+                        padding-top: 25px;
+                        z-index: 2;
+                        top: 0;
+                        right: 0;
+                        width: 0;
+                        height: 0;
+                        visibility: hidden;
+                        overflow: hidden;
+                        border-bottom-left-radius: 100%;
+                        transition: all 0.6s ease;
+
+                        .btn-primary {
+
+                            &:before {
+                                visibility: hidden;
+                            }
+                        }
+
+                        li {
+                            display: block;
+                            height: 25%;
+                            height: calc(100% / 4);
+                            min-height: 50px;
+                            position: relative;
+                            opacity: 1;
+                            margin: 0;
+                            opacity: 0;
+                            color: white;
+
+                            &:last-child{
+                                font-weight: 500;
+                            }
+
+                            a {
+                                color: white;
+                                text-decoration: none;
+                            }
+                        }
+
+                        &.open {
+                            opacity: 1;
+                            visibility: visible;
+                            width: 150%;
+                            height: 150%;
+
+                            ul {
+                                list-style: none;
+                                display: inline-block;
+                                font-size: 26px;
+                                color: white;
+                                text-align: center;
+                                margin: 0 auto;
+                                display: inline-block;
+                                position: fixed;
+                                top: 50%;
+                                left: 50%;
+                                -webkit-transform: translate(-50%, -50%);
+                                transform: translate(-50%, -50%);
+
+                                li {
+                                    font-size: 25px;
+                                    padding-top: 2vh;
+                                    animation: fadeInRight .5s ease forwards;
+                                    animation-delay: .35s;
+
+                                    &:nth-of-type(2) {
+                                        animation-delay: .4s;
+                                    }
+                                    &:nth-of-type(3) {
+                                        animation-delay: .45s;
+                                    }
+                                    &:nth-of-type(4) {
+                                        animation-delay: .50s;
+                                    }
+                                    &:nth-of-type(5) {
+                                        animation-delay: .55s;
+                                    }
+                                    &:nth-of-type(6) {
+                                        animation-delay: .60s;
+                                    }
+                                    &:nth-of-type(7) {
+                                        animation-delay: .65s;
+                                    }
+                                    &:nth-of-type(8) {
+                                        animation-delay: .70s;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 @keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    left: 20%;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
+    0% {
+        opacity: 0;
+        left: 20%;
+    }
+    100% {
+        opacity: 1;
+        left: 0;
+    }
 }
 
 @media (max-height:800px) {
-	.nav-down {
-		opacity: 1;
-		transition: all .2s ease-in-out ;
-	}
+    .nav-down {
+        opacity: 1;
+        transition: all .2s ease-in-out ;
+    }
 
-	.nav-up {
-		top: -100px !important;
-		opacity: 0;
-		transition: all .2s ease-in-out ;
-	}
+    .nav-up {
+        top: -100px !important;
+        opacity: 0;
+        transition: all .2s ease-in-out ;
+    }
 }
