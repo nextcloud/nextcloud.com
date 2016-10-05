@@ -40,7 +40,7 @@
 	<h1 class="text-center">Get the Box</h1>
 	<div class="col-md-6">
 		<img class="conf-img img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/pidrive/wrap.jpg" alt="contents" />
-		<p>Currenly you can only purchase the Nextcloud Box in Europe and the USA. We're working on bringing the box to other regions!</p>
+		<p>Currently you can only purchase the Nextcloud Box in Europe and the USA. We're working on bringing the box to other regions!</p>
 		<div class="btn-group">
 		<!--<div class="buybutton">-->
 			<button type="button" data-toggle="dropdown" class="btn btn-primary buybutton dropdown-toggle">Select your country &nbsp;<span class="caret"></span></button>
