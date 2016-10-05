@@ -387,24 +387,23 @@ section#why-nextcloud {
   z-index: 5;
   padding-top: 24px;
   font-size: 16px; }
-  @media (min-width: 1200px) {
+  @media (min-width: 1100px) {
+    .Header-Navigation .navbar li.active {
+      border-bottom: 3px solid #ffffff;
+      padding-bottom: 15px; }
     .Header-Navigation .navbar li:last-child {
       padding-left: 30px;
       padding-right: 30px; }
     .Header-Navigation .navbar li a {
       color: white; }
       .Header-Navigation .navbar li a:hover {
-        text-decoration: none; }
-    .Header-Navigation .navbar li .active a {
-      border-bottom: 3px solid white;
-      padding-bottom: 15px; } }
-@media (min-width: 1200px) and (max-width: 1200px) {
+        text-decoration: none; } }
+@media (min-width: 1100px) and (max-width: 1100px) {
   .Header-Navigation .navbar a {
     color: #75badd; }
     .Header-Navigation .navbar a .active {
-      color: white;
-      color: #75badd; } }
-  @media (min-width: 1200px) {
+      color: #ffffff; } }
+  @media (min-width: 1100px) {
     .Header-Navigation .navbar .navbar-header {
       float: none; }
       .Header-Navigation .navbar .navbar-header .logo {
@@ -419,7 +418,7 @@ section#why-nextcloud {
       height: inherit; }
       .Header-Navigation .navbar .btn-primary:before {
         visibility: hidden; } }
-  @media (min-width: 1200px) and (max-width: 1200px) {
+  @media (min-width: 1100px) and (max-width: 1200px) {
     .Header-Navigation .navbar .btn-primary {
       position: fixed;
       bottom: 0;
