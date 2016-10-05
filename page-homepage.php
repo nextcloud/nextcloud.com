@@ -8,7 +8,7 @@
 			<div class="col-md-6 toptext">
 				<h1>A safe home for <br> all your data</h1>
 				<h2>Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.</h2>
-				<p><a class="btn btn-primary btn-lg btn-absolute-icon" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button">Get Nextcloud <span class="icon-arrow"></span></a></p>
+				<p><a class="btn-primary" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button">Get Nextcloud</a></p>
 			</div>
 			<div class="col-md-6 topbanner">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/empty.png"> <!--empty image to ensure the viewport is big enough-->
@@ -54,7 +54,7 @@
 			videos, documents, contacts, communications - they're all
 			available right where you need them whether they're
 			coming from your local storage or remote cloud services.</p>
-		<p><a class="btn btn-primary btn-lg btn-absolute-icon" href="<?php echo home_url('features') ?>" role="button">Get to know all the features <span class="icon-arrow"></span></a></p>
+		<p><a class="btn-primary" href="<?php echo home_url('features') ?>" role="button">Know all the features</a></p>
 </div>
 
 <section class="Section-Introducing-Nextcloud" id="pinContainer">
@@ -79,7 +79,7 @@
                         <p>This release delivers better scalability as well as monitoring, security and workflow management tools, enabling better control over Nextcloud servers and operation at scale.</p>
                         <br/>
                         <p>
-                            <a class="btn btn-primary btn-lg " href="https://nextcloud.com/blog/secure-monitor-and-control-your-data-with-nextcloud-10-get-it-now/" role="button">Learn more <span class="icon-arrow"></span></a>
+                            <a class="btn-primary" href="https://nextcloud.com/blog/secure-monitor-and-control-your-data-with-nextcloud-10-get-it-now/" role="button">Learn more</a>
                         </p>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                         <p>Nextcloud 10 introduces the Server Information app which provides a way for admins to monitor the health and performance of a Nextcloud system through a graphical UI or in their enterprise monitoring tool.</p>
                         <br/>
                         <p>
-                            <a class="btn btn-primary btn-lg" href="/workflow/#monitoring" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a>
+                            <a class="btn-primary" href="/workflow/#monitoring" role="button">Learn more</a>
                         </p>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                         </p>
                         <br/>
                         <p>
-                            <a class="btn btn-primary btn-lg" href="/workflow/" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a>
+                            <a class="btn-primary" href="/workflow/" role="button">Learn more</a>
                         </p>
                     </div>
                 </div>
@@ -141,7 +141,7 @@
                         <p>Nextcloud 10 normalizes federated shares, handling mounted link shares as federated shares, offering the same permissions for federated shares as for normal shares and directly connecting re-shared federated shares to other servers for improved performance.</p>
                         <br/>
                         <p>
-                            <a class="btn btn-primary btn-lg" href="/federation" role="button">Learn more <span class="glyphicon glyphicon-arrow-right"></span></a>
+                            <a class="btn-primary" href="/federation" role="button">Learn more</a>
                         </p>
                     </div>
                 </div>
@@ -179,7 +179,7 @@
 	<div class="row stay-up-to-date">
 		<div class="container text-center" style="padding-top: 70px; padding-bottom: 70px;">
 			<h5>Stay up to date with Nextcloud's latest enhancements!</h5>
-			<p><a class="btn btn-primary btn-lg btn-absolute-icon" href="https://newsletter.nextcloud.com/?p=subscribe&id=1" role="button">Subscribe to our newsletter<span class="icon-arrow"></span></a></p>
+			<p><a class="btn-primary" href="https://newsletter.nextcloud.com/?p=subscribe&id=1" role="button">Subscribe to our newsletter</a></p>
 		</div>
 	</div>
 </div>

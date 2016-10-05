@@ -33,30 +33,15 @@
         font-size: 18px;
         line-height: 1.6;
         width: 377px;
-	@media (max-width: $break-big) {
-	  font-size: 16px;
-	  line-height: 1.6;
-	  width: 250px;
-	}
+		@media (max-width: $break-big) {
+		  font-size: 16px;
+		  line-height: 1.6;
+		  width: 250px;
+		}
     }
     
-    .btn-primary {
+    p {
         margin-top: 50px;
-		width: 350px;
-		@media (max-width: $break-big) {
-			width: 180px;
-			height: 60px;
-			padding-top: 22px;
-			font-size: 14px;
-			.icon-arrow {
-				background: url(../img/arrow_right.svg) center/contain no-repeat;
-				position: absolute;
-				width: 20px;
-				height: 100%;
-				right: 20px;
-				top: 2px;
-			}
-		}
     }
     
 	.topbanner {
@@ -154,23 +139,32 @@
 
 
 .introducing-nc-release {
-    padding-top: 100px;
-    padding-bottom: 75px;
-    @media (max-width: $break-small) {
-        padding-top: 50px;    
-    }
+	padding-top: 100px;
+	padding-bottom: 75px;
     
-    img {
-        width: 582px;
-        height: 474px; 
-        display: block;
-        margin: 0 auto;
-            @media (max-width: $break-small) {
-                width: 90%;
-                height: 90%;
-            }
-        }
-    }
+	@media (max-width: $break-small) {
+		padding-top: 50px;    
+	}
+
+	img {
+		width: 582px;
+		height: 474px; 
+		display: block;
+		margin: 0 auto;
+
+		@media (max-width: $break-small) {
+			width: 90%;
+			height: 90%;
+		}
+	}
+	
+	p {
+		
+		&:last-child {
+			margin-top: 30px;
+		}	
+	}
+}
 
 
 /**
@@ -269,19 +263,6 @@
 #stay-up-to-date {
     a {
         width: 400px;
-    }
-    @media (max-width: $break-small) {
-        .btn-primary {
-            width: 300px;
-        .icon-arrow {
-            background: url(../img/arrow_right.svg) center/contain no-repeat;
-            position: absolute;
-            width: 20px;
-            height: 100%;
-            right: 20px;
-            top: 2px;
-        }
-        }
     }
 }
 

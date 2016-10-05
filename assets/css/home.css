@@ -32,22 +32,8 @@
         font-size: 16px;
         line-height: 1.6;
         width: 250px; } }
-  .jumbotron .btn-primary {
-    margin-top: 50px;
-    width: 350px; }
-    @media (max-width: 991px) {
-      .jumbotron .btn-primary {
-        width: 180px;
-        height: 60px;
-        padding-top: 22px;
-        font-size: 14px; }
-        .jumbotron .btn-primary .icon-arrow {
-          background: url(../img/arrow_right.svg) center/contain no-repeat;
-          position: absolute;
-          width: 20px;
-          height: 100%;
-          right: 20px;
-          top: 2px; } }
+  .jumbotron p {
+    margin-top: 50px; }
   .jumbotron .topbanner {
     /* 		background-image: url("../img/home/top-banner@2x.png"); */
     /* 		background-position: bottom 0 right 0;  */
@@ -141,6 +127,8 @@
       .introducing-nc-release img {
         width: 90%;
         height: 90%; } }
+  .introducing-nc-release p:last-child {
+    margin-top: 30px; }
 
 /**
  * Home page: Stay up to date
@@ -218,16 +206,6 @@
  */
 #stay-up-to-date a {
   width: 400px; }
-@media (max-width: 768px) {
-  #stay-up-to-date .btn-primary {
-    width: 300px; }
-    #stay-up-to-date .btn-primary .icon-arrow {
-      background: url(../img/arrow_right.svg) center/contain no-repeat;
-      position: absolute;
-      width: 20px;
-      height: 100%;
-      right: 20px;
-      top: 2px; } }
 
 .community-icon {
   height: 207px;

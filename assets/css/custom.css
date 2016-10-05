@@ -32,22 +32,8 @@
         font-size: 16px;
         line-height: 1.6;
         width: 250px; } }
-  .jumbotron .btn-primary {
-    margin-top: 50px;
-    width: 350px; }
-    @media (max-width: 991px) {
-      .jumbotron .btn-primary {
-        width: 180px;
-        height: 60px;
-        padding-top: 22px;
-        font-size: 14px; }
-        .jumbotron .btn-primary .icon-arrow {
-          background: url(../img/arrow_right.svg) center/contain no-repeat;
-          position: absolute;
-          width: 20px;
-          height: 100%;
-          right: 20px;
-          top: 2px; } }
+  .jumbotron p {
+    margin-top: 50px; }
   .jumbotron .topbanner {
     /* 		background-image: url("../img/home/top-banner@2x.png"); */
     /* 		background-position: bottom 0 right 0;  */
@@ -141,6 +127,8 @@
       .introducing-nc-release img {
         width: 90%;
         height: 90%; } }
+  .introducing-nc-release p:last-child {
+    margin-top: 30px; }
 
 /**
  * Home page: Stay up to date
@@ -218,16 +206,6 @@
  */
 #stay-up-to-date a {
   width: 400px; }
-@media (max-width: 768px) {
-  #stay-up-to-date .btn-primary {
-    width: 300px; }
-    #stay-up-to-date .btn-primary .icon-arrow {
-      background: url(../img/arrow_right.svg) center/contain no-repeat;
-      position: absolute;
-      width: 20px;
-      height: 100%;
-      right: 20px;
-      top: 2px; } }
 
 .community-icon {
   height: 207px;
@@ -415,43 +393,49 @@ section#why-nextcloud {
       padding-right: 30px; }
     .Header-Navigation .navbar li a {
       color: white; }
-    .Header-Navigation .navbar .active a {
+      .Header-Navigation .navbar li a:hover {
+        text-decoration: none; }
+    .Header-Navigation .navbar li .active a {
       border-bottom: 3px solid white;
       padding-bottom: 15px; } }
-  @media (max-width: 1200px) {
-    .Header-Navigation .navbar a {
-      color: #75badd; }
-      .Header-Navigation .navbar a .active {
-        color: white;
-        color: #75badd; } }
-  .Header-Navigation .navbar .navbar-header {
-    float: none; }
-    .Header-Navigation .navbar .navbar-header .logo {
-      background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
-      height: 50px;
-      width: 100px;
-      display: inline-block; }
-  .Header-Navigation .navbar .btn-primary {
-    background-color: #0082c9;
-    border: 1px solid white;
-    font-size: 16px;
-    height: inherit; }
-    @media (max-width: 1200px) {
-      .Header-Navigation .navbar .btn-primary {
-        position: fixed;
-        bottom: 0;
-        margin-left: -5%;
-        width: 105%;
-        border-radius: 0;
-        border: 0;
-        height: 75px;
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: transparent; }
-        .Header-Navigation .navbar .btn-primary a {
-          color: #ffffff; } }
+@media (min-width: 1200px) and (max-width: 1200px) {
+  .Header-Navigation .navbar a {
+    color: #75badd; }
+    .Header-Navigation .navbar a .active {
+      color: white;
+      color: #75badd; } }
+  @media (min-width: 1200px) {
+    .Header-Navigation .navbar .navbar-header {
+      float: none; }
+      .Header-Navigation .navbar .navbar-header .logo {
+        background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+        height: 50px;
+        width: 71px;
+        display: inline-block; }
+    .Header-Navigation .navbar .btn-primary {
+      background-color: #0082c9;
+      border: 1px solid white;
+      font-size: 16px;
+      height: inherit; }
+      .Header-Navigation .navbar .btn-primary:before {
+        visibility: hidden; } }
+  @media (min-width: 1200px) and (max-width: 1200px) {
+    .Header-Navigation .navbar .btn-primary {
+      position: fixed;
+      bottom: 0;
+      margin-left: -5%;
+      width: 105%;
+      border-radius: 0;
+      border: 0;
+      height: 75px;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent; }
+      .Header-Navigation .navbar .btn-primary a {
+        color: #ffffff; } }
+
   .Header-Navigation .navbar .active {
     font-weight: 600;
     z-index: 3; }
@@ -675,77 +659,83 @@ section#why-nextcloud {
 *Mobile
 */
 @media (max-width: 1200px) {
-  .Header-Navigation .navbar .container-fluid .navbar-header .logo {
-    z-index: 5;
-    position: relative; }
-  .Header-Navigation .navbar .container-fluid .navbar-header button:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
-    transition-property: transform;
-    transition-duration: 0.3s;
-    transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
-    transition-delay: initial; }
-    .Header-Navigation .navbar .container-fluid .navbar-header button:hover .icon-bar {
-      transform: scale(1.1); }
-  .Header-Navigation .navbar .container-fluid .navbar-header .overlay {
-    position: fixed;
-    background: #0082c9;
-    padding-top: 25px;
-    z-index: 2;
-    top: 0;
-    right: 0;
-    width: 0;
-    height: 0;
-    visibility: hidden;
-    overflow: hidden;
-    border-bottom-left-radius: 100%;
-    transition: all 0.6s ease; }
-    .Header-Navigation .navbar .container-fluid .navbar-header .overlay li {
-      display: block;
-      height: 25%;
-      height: calc(100% / 4);
-      min-height: 50px;
+  .Header-Navigation .navbar .container-fluid .navbar-header {
+    margin-left: 0; }
+    .Header-Navigation .navbar .container-fluid .navbar-header .logo {
+      z-index: 5;
       position: relative;
-      opacity: 1;
-      margin: 0;
-      opacity: 0; }
-    .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open {
-      opacity: 1;
-      visibility: visible;
-      width: 150%;
-      height: 150%; }
-      .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul {
-        list-style: none;
-        display: inline-block;
-        font-size: 26px;
-        color: white;
-        text-align: center;
-        margin: 0 auto;
-        display: inline-block;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%); }
-        .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li {
-          font-size: 25px;
-          padding-top: 2vh;
-          animation: fadeInRight .5s ease forwards;
-          animation-delay: .35s; }
-          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(2) {
-            animation-delay: .4s; }
-          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(3) {
-            animation-delay: .45s; }
-          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(4) {
-            animation-delay: .50s; }
-          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(5) {
-            animation-delay: .55s; }
-          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(6) {
-            animation-delay: .60s; }
-          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(7) {
-            animation-delay: .65s; }
-          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(8) {
-            animation-delay: .70s; } }
+      background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+      height: 50px;
+      width: 71px;
+      display: inline-block; }
+    .Header-Navigation .navbar .container-fluid .navbar-header button:hover {
+      transform: scale(1.1);
+      transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
+      transition-property: transform;
+      transition-duration: 0.3s;
+      transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
+      transition-delay: initial; }
+      .Header-Navigation .navbar .container-fluid .navbar-header button:hover .icon-bar {
+        transform: scale(1.1); }
+    .Header-Navigation .navbar .container-fluid .navbar-header .overlay {
+      position: fixed;
+      background: #0082c9;
+      padding-top: 25px;
+      z-index: 2;
+      top: 0;
+      right: 0;
+      width: 0;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+      border-bottom-left-radius: 100%;
+      transition: all 0.6s ease; }
+      .Header-Navigation .navbar .container-fluid .navbar-header .overlay li {
+        display: block;
+        height: 25%;
+        height: calc(100% / 4);
+        min-height: 50px;
+        position: relative;
+        opacity: 1;
+        margin: 0;
+        opacity: 0; }
+      .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open {
+        opacity: 1;
+        visibility: visible;
+        width: 150%;
+        height: 150%; }
+        .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul {
+          list-style: none;
+          display: inline-block;
+          font-size: 26px;
+          color: white;
+          text-align: center;
+          margin: 0 auto;
+          display: inline-block;
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li {
+            font-size: 25px;
+            padding-top: 2vh;
+            animation: fadeInRight .5s ease forwards;
+            animation-delay: .35s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(2) {
+              animation-delay: .4s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(3) {
+              animation-delay: .45s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(4) {
+              animation-delay: .50s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(5) {
+              animation-delay: .55s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(6) {
+              animation-delay: .60s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(7) {
+              animation-delay: .65s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(8) {
+              animation-delay: .70s; } }
 @keyframes fadeInRight {
   0% {
     opacity: 0;
@@ -756,12 +746,12 @@ section#why-nextcloud {
 @media (max-height: 800px) {
   .nav-down {
     opacity: 1;
-    transition: all 0.3s ease; }
+    transition: all 0.2s ease-in-out; }
 
   .nav-up {
     top: -100px !important;
     opacity: 0;
-    transition: all 0.3s ease; } }
+    transition: all 0.2s ease-in-out; } }
 html {
   margin-top: 0 !important; }
 
@@ -856,38 +846,39 @@ footer {
       max-width: 900px; } }
 
 /**
- * Overwrite button colors
+ * Overwrite buttons for bootstrap
  */
 .btn-primary {
   background-color: #0082c9;
-  overflow: hidden;
-  border: none;
-  border-radius: 100px;
-  font-weight: bold;
-  padding-top: 18px;
-  height: 60px;
   font-size: 18px;
-  /*     font-family: 'Lato', sans-serif; */
+  padding: 25px 100px;
   text-align: center;
-  transition: all 0.3s ease 0s;
-  min-width: 150px; }
+  position: relative;
+  border: none;
+  font-weight: 600;
+  padding: 25px 100px;
+  border-radius: 100px;
+  transition: all 0.3s ease 0s; }
+  .btn-primary:before {
+    content: "";
+    background: url(../img/arrow_right.svg) center/contain no-repeat;
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 100%;
+    top: 0;
+    right: 50px;
+    transition: all 0.3s ease 0s; }
   .btn-primary:hover {
-    background-color: #0073B2 !important; }
+    background-color: #0073B2;
+    text-decoration: none; }
+    .btn-primary:hover:before {
+      right: 30px; }
   .btn-primary:active {
     -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     background-color: #0073B2; }
-  .btn-primary.btn-absolute-icon {
-    position: relative;
-    text-indent: -20px; }
-    .btn-primary.btn-absolute-icon .icon-arrow {
-      background: url(../img/arrow_right.svg) center/contain no-repeat;
-      position: absolute;
-      width: 30px;
-      height: 100%;
-      right: 50px;
-      top: 0; }
 
 /**
  * Mobile

@@ -13,43 +13,49 @@
       padding-right: 30px; }
     .Header-Navigation .navbar li a {
       color: white; }
-    .Header-Navigation .navbar .active a {
+      .Header-Navigation .navbar li a:hover {
+        text-decoration: none; }
+    .Header-Navigation .navbar li .active a {
       border-bottom: 3px solid white;
       padding-bottom: 15px; } }
-  @media (max-width: 1200px) {
-    .Header-Navigation .navbar a {
-      color: #75badd; }
-      .Header-Navigation .navbar a .active {
-        color: white;
-        color: #75badd; } }
-  .Header-Navigation .navbar .navbar-header {
-    float: none; }
-    .Header-Navigation .navbar .navbar-header .logo {
-      background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
-      height: 50px;
-      width: 100px;
-      display: inline-block; }
-  .Header-Navigation .navbar .btn-primary {
-    background-color: #0082c9;
-    border: 1px solid white;
-    font-size: 16px;
-    height: inherit; }
-    @media (max-width: 1200px) {
-      .Header-Navigation .navbar .btn-primary {
-        position: fixed;
-        bottom: 0;
-        margin-left: -5%;
-        width: 105%;
-        border-radius: 0;
-        border: 0;
-        height: 75px;
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: transparent; }
-        .Header-Navigation .navbar .btn-primary a {
-          color: #ffffff; } }
+@media (min-width: 1200px) and (max-width: 1200px) {
+  .Header-Navigation .navbar a {
+    color: #75badd; }
+    .Header-Navigation .navbar a .active {
+      color: white;
+      color: #75badd; } }
+  @media (min-width: 1200px) {
+    .Header-Navigation .navbar .navbar-header {
+      float: none; }
+      .Header-Navigation .navbar .navbar-header .logo {
+        background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+        height: 50px;
+        width: 71px;
+        display: inline-block; }
+    .Header-Navigation .navbar .btn-primary {
+      background-color: #0082c9;
+      border: 1px solid white;
+      font-size: 16px;
+      height: inherit; }
+      .Header-Navigation .navbar .btn-primary:before {
+        visibility: hidden; } }
+  @media (min-width: 1200px) and (max-width: 1200px) {
+    .Header-Navigation .navbar .btn-primary {
+      position: fixed;
+      bottom: 0;
+      margin-left: -5%;
+      width: 105%;
+      border-radius: 0;
+      border: 0;
+      height: 75px;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent; }
+      .Header-Navigation .navbar .btn-primary a {
+        color: #ffffff; } }
+
   .Header-Navigation .navbar .active {
     font-weight: 600;
     z-index: 3; }
@@ -273,77 +279,83 @@
 *Mobile
 */
 @media (max-width: 1200px) {
-  .Header-Navigation .navbar .container-fluid .navbar-header .logo {
-    z-index: 5;
-    position: relative; }
-  .Header-Navigation .navbar .container-fluid .navbar-header button:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
-    transition-property: transform;
-    transition-duration: 0.3s;
-    transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
-    transition-delay: initial; }
-    .Header-Navigation .navbar .container-fluid .navbar-header button:hover .icon-bar {
-      transform: scale(1.1); }
-  .Header-Navigation .navbar .container-fluid .navbar-header .overlay {
-    position: fixed;
-    background: #0082c9;
-    padding-top: 25px;
-    z-index: 2;
-    top: 0;
-    right: 0;
-    width: 0;
-    height: 0;
-    visibility: hidden;
-    overflow: hidden;
-    border-bottom-left-radius: 100%;
-    transition: all 0.6s ease; }
-    .Header-Navigation .navbar .container-fluid .navbar-header .overlay li {
-      display: block;
-      height: 25%;
-      height: calc(100% / 4);
-      min-height: 50px;
+  .Header-Navigation .navbar .container-fluid .navbar-header {
+    margin-left: 0; }
+    .Header-Navigation .navbar .container-fluid .navbar-header .logo {
+      z-index: 5;
       position: relative;
-      opacity: 1;
-      margin: 0;
-      opacity: 0; }
-    .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open {
-      opacity: 1;
-      visibility: visible;
-      width: 150%;
-      height: 150%; }
-      .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul {
-        list-style: none;
-        display: inline-block;
-        font-size: 26px;
-        color: white;
-        text-align: center;
-        margin: 0 auto;
-        display: inline-block;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%); }
-        .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li {
-          font-size: 25px;
-          padding-top: 2vh;
-          animation: fadeInRight .5s ease forwards;
-          animation-delay: .35s; }
-          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(2) {
-            animation-delay: .4s; }
-          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(3) {
-            animation-delay: .45s; }
-          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(4) {
-            animation-delay: .50s; }
-          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(5) {
-            animation-delay: .55s; }
-          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(6) {
-            animation-delay: .60s; }
-          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(7) {
-            animation-delay: .65s; }
-          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(8) {
-            animation-delay: .70s; } }
+      background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+      height: 50px;
+      width: 71px;
+      display: inline-block; }
+    .Header-Navigation .navbar .container-fluid .navbar-header button:hover {
+      transform: scale(1.1);
+      transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
+      transition-property: transform;
+      transition-duration: 0.3s;
+      transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
+      transition-delay: initial; }
+      .Header-Navigation .navbar .container-fluid .navbar-header button:hover .icon-bar {
+        transform: scale(1.1); }
+    .Header-Navigation .navbar .container-fluid .navbar-header .overlay {
+      position: fixed;
+      background: #0082c9;
+      padding-top: 25px;
+      z-index: 2;
+      top: 0;
+      right: 0;
+      width: 0;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+      border-bottom-left-radius: 100%;
+      transition: all 0.6s ease; }
+      .Header-Navigation .navbar .container-fluid .navbar-header .overlay li {
+        display: block;
+        height: 25%;
+        height: calc(100% / 4);
+        min-height: 50px;
+        position: relative;
+        opacity: 1;
+        margin: 0;
+        opacity: 0; }
+      .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open {
+        opacity: 1;
+        visibility: visible;
+        width: 150%;
+        height: 150%; }
+        .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul {
+          list-style: none;
+          display: inline-block;
+          font-size: 26px;
+          color: white;
+          text-align: center;
+          margin: 0 auto;
+          display: inline-block;
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li {
+            font-size: 25px;
+            padding-top: 2vh;
+            animation: fadeInRight .5s ease forwards;
+            animation-delay: .35s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(2) {
+              animation-delay: .4s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(3) {
+              animation-delay: .45s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(4) {
+              animation-delay: .50s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(5) {
+              animation-delay: .55s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(6) {
+              animation-delay: .60s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(7) {
+              animation-delay: .65s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(8) {
+              animation-delay: .70s; } }
 @keyframes fadeInRight {
   0% {
     opacity: 0;
@@ -354,11 +366,11 @@
 @media (max-height: 800px) {
   .nav-down {
     opacity: 1;
-    transition: all 0.3s ease; }
+    transition: all 0.2s ease-in-out; }
 
   .nav-up {
     top: -100px !important;
     opacity: 0;
-    transition: all 0.3s ease; } }
+    transition: all 0.2s ease-in-out; } }
 
 /*# sourceMappingURL=header.css.map */
