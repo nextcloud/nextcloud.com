@@ -240,7 +240,7 @@ section#why-nextcloud {
   height: 200vh;
   position: relative;
   padding-top: 130px; }
-  @media (max-width: 1100px) {
+  @media (max-width: 1200px) {
     .Section-Introducing-Nextcloud {
       padding-top: 60px;
       height: 100vh; } }

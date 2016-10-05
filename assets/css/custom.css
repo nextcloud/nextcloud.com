@@ -390,7 +390,7 @@ section#why-nextcloud {
   @media (min-width: 1200px) {
     .Header-Navigation .navbar li.active {
       border-bottom: 3px solid #ffffff;
-      padding-bottom: 35px; }
+      padding-bottom: 15px; }
     .Header-Navigation .navbar li:last-child {
       padding-left: 30px;
       padding-right: 30px; }
@@ -543,7 +543,7 @@ section#why-nextcloud {
       background-color: #ffffff;
       margin-left: -6% !important; } }
   .navbar.scrolled:not(.mobile-menu-open) .logo {
-    background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain; }
+    background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain !important; }
   .navbar.scrolled:not(.mobile-menu-open) .container-fluid button {
     background: #0082c9; }
     .navbar.scrolled:not(.mobile-menu-open) .container-fluid button .icon-bar {
@@ -887,6 +887,12 @@ footer {
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     background-color: #0073B2; }
 
+@media (max-width: 768px) {
+  .btn-primary {
+    padding: 20px 70px 20px 50px;
+    font-size: 15px; }
+    .btn-primary:before {
+      right: 30px; } }
 /**
  * Mobile
  */

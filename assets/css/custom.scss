@@ -164,6 +164,19 @@ footer {
     }
 }
 
+@media (max-width: $break-small) {
+	
+	.btn-primary{
+		padding: 20px 70px 20px 50px;
+		font-size: 15px;
+		
+		&:before {
+			right:30px;
+		}
+	}
+
+}
+
 
 /**
  * Mobile
