@@ -677,8 +677,6 @@ section#why-nextcloud {
       transition-duration: 0.3s;
       transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
       transition-delay: initial; }
-      .Header-Navigation .navbar .container-fluid .navbar-header button:hover .icon-bar {
-        transform: scale(1.1); }
     .Header-Navigation .navbar .container-fluid .navbar-header .overlay {
       position: fixed;
       background: #0082c9;
@@ -692,6 +690,8 @@ section#why-nextcloud {
       overflow: hidden;
       border-bottom-left-radius: 100%;
       transition: all 0.6s ease; }
+      .Header-Navigation .navbar .container-fluid .navbar-header .overlay .btn-primary:before {
+        visibility: hidden; }
       .Header-Navigation .navbar .container-fluid .navbar-header .overlay li {
         display: block;
         height: 25%;
@@ -700,7 +700,13 @@ section#why-nextcloud {
         position: relative;
         opacity: 1;
         margin: 0;
-        opacity: 0; }
+        opacity: 0;
+        color: white; }
+        .Header-Navigation .navbar .container-fluid .navbar-header .overlay li:last-child {
+          font-weight: 500; }
+        .Header-Navigation .navbar .container-fluid .navbar-header .overlay li a {
+          color: white;
+          text-decoration: none; }
       .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open {
         opacity: 1;
         visibility: visible;
