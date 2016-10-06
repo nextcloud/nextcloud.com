@@ -71,9 +71,10 @@
 	<div class="col-lg-6 col-sm-12">
 		<h2>Nextcloud Box Wiki and Forums</h2>
 		<p>You can find a lot of information, tips and tricks on configuring your Nextcloud Box on <a href="https://github.com/nextcloud/nextcloud-snap/wiki">our wiki</a>; discuss the Box and ask questions on <a href="https://help.nextcloud.com/t/the-great-nextcloud-box-topic/3510">our forums.</a></p>
-		<div class="text-center btn-group morebuttondiv">
-				<a href="https://help.nextcloud.com/t/the-great-nextcloud-box-topic/3510" class="btn btn-primary morebutton" target="_blank">Help on our forums <i class="icon-arrow-circle-o-right icon"></i></a>
-				<a href="https://github.com/nextcloud/nextcloud-snap/wiki" class="btn btn-primary morebutton" target="_blank">Manuals on our wiki <i class="icon-arrow-circle-o-right icon"></i></a>
+		<div class="text-center morebuttondiv">
+			<a href="https://help.nextcloud.com/t/the-great-nextcloud-box-topic/3510" class="btn btn-primary morebutton" target="_blank">Help on our forums <i class="icon-arrow-circle-o-right icon"></i></a>
+			<br/><br/>
+			<a href="https://github.com/nextcloud/nextcloud-snap/wiki" class="btn btn-primary morebutton" target="_blank">Manuals on our wiki <i class="icon-arrow-circle-o-right icon"></i></a>
 		</div>
 		<p>If you are interested in contributing to the software of the Box, you can find the Nextcloud Snap here - we look forward to your pull request. Find us on IRC in <a href="irc://#nextcloud-dev@freenode.net" target="_blank">the Nextloud development IRC chat channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a></p>
 	</div>
