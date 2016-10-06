@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAEA;;GAEG;AAEH,QAAS;EACP,OAAO,EAAE,YAAY;EACrB,WAAW,EAAE,eAAe",
+"mappings": "AAEA;;GAEG;AAEH,QAAS;EACP,OAAO,EAAE,YAAY;EACrB,WAAW,EAAE,eAAe;;AAG9B,mCAAqC;EACnC,YAAY,EAAE,KAAK;;AAGrB,0DAA2D;EACzD,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,GAAG;EACX,WAAW,EAAE,IAAI",
 "sources": ["legacy-fixes.scss"],
 "names": [],
 "file": "legacy-fixes.css"
