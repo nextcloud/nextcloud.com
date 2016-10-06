@@ -30,7 +30,6 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/navigation.js"></script>
 
 	<!-- Old styles below -->
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/old/main.min.css" />
@@ -39,16 +38,16 @@
 	<script type="text/javascript">
 		var templateUrl = '<?= get_bloginfo('template_url'); ?>';
 	</script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/navigation.js"></script>
 
 	<?php wp_head(); ?>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/navigation.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/old/scripts.min.js"></script>
 	<?php if(is_page('news')) { ?>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/old/vendor/jquery.infinitescroll.min.js"></script>
   	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/old/vendor/jquery.masonry.min.js"></script>
 	<?php } ?>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/navigation.js"></script>
+
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 	<link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
