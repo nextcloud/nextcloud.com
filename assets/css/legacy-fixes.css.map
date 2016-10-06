@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA;;GAEG;AAEH,QAAS;EACP,OAAO,EAAE,YAAY;EACrB,WAAW,EAAE,eAAe",
+"sources": ["legacy-fixes.scss"],
+"names": [],
+"file": "legacy-fixes.css"
+}

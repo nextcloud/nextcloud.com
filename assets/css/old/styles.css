@@ -202,8 +202,7 @@ button a:hover {text-decoration: none; }
 @media (min-width: 1100px) {
 	#navbar a {
 		color: white; }
-	#navbar .active a {
-		border-bottom: 3px solid white; } }
+}
 @media (max-width: 1100px) {
 	#navbar .active a {
 		color: white; }
@@ -300,9 +299,7 @@ button a:hover {text-decoration: none; }
 .navbar.scrolled .navbar-nav li:not(.btn-primary):not(.active):hover:after {
 	width: 100%;
 	background: #656565; }
-@media (min-width: 1100px) {
-	.navbar.scrolled .active a {
-		border-bottom: 3px solid #656565 !important; } }
+@media (min-width: 1100px) { }
 .navbar.scrolled .btn-primary a {
 	color: white !important; }
 @media (max-width: 1100px) {
@@ -1655,7 +1652,7 @@ text-align: center;
 
 .yt-play-btn i {
 /* 	left: 5% */
-	 background-image: url(../img/common/YTplay.svg);
+	 background-image: url(../../img/common/YTplay.svg);
 	 background-position: center;
 	 background-repeat: none;
 	 -webkit-background-size: cover;
@@ -1672,7 +1669,7 @@ text-align: center;
 }
 
 .yt-play-btn:hover i{
-	 background-image: url(../img/common/YTplayHover.svg);
+	 background-image: url(../../img/common/YTplayHover.svg);
 	 transition: background-image 0.1s;
 	 -webkit-transition: background-image 0.1s;
 /*	width: 100%;

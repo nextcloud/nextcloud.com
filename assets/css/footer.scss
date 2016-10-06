@@ -1,0 +1,91 @@
+@import "variables.scss";
+
+/**
+ * Footer
+ */
+footer {
+  background-color: #2a2a36;
+
+  h1 {
+    margin-top: 70px;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.8;
+    letter-spacing: -0.9px;
+    color: #8e8e8e;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  li {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #ffffff;
+    width: 140px;
+
+    a {
+      color: #ffffff;
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+
+  p {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #ffffff;
+    @media (max-width: $break-small) {
+      float: left;
+      padding-left: 15px;
+    }
+
+    a {
+      color: #ffffff;
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+
+  @media (min-width: $break-small) and (max-width: $very-wide) {
+    .container {
+      width: 90%;
+      max-width: 900px;
+    }
+  }
+}
+
+@media (max-width: $break-small) {
+  footer {
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    h1 {
+      margin-top: 30px;
+      font-size: 19px;
+      font-weight: bold;
+      line-height: 1.8;
+      letter-spacing: -0.9px;
+      color: #8e8e8e;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    li {
+      font-size: 15px;
+      line-height: 1.8;
+      color: #ffffff;
+      width: 140px;
+    }
+  }
+}

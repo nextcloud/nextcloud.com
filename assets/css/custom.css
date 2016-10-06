@@ -1,3 +1,10 @@
+/* Make Navbar transparent */
+.navbar:not(.scrolled) {
+  background-color: transparent; }
+
+.navbar:not(.scrolled) .btn-primary {
+  background-color: transparent !important; }
+
 /**
  * Home page jumbotron
  */
@@ -510,13 +517,6 @@ section#why-nextcloud {
     width: 100%;
     background: white; } }
 
-/* make transparent on some pages */
-.navbar:not(.scrolled) {
-  background-color: transparent; }
-
-.navbar:not(.scrolled) .btn-primary {
-  background-color: transparent !important; }
-
 /**
  * Scrolled navbar style
  */
@@ -759,6 +759,69 @@ section#why-nextcloud {
     top: -100px !important;
     opacity: 0;
     transition: all 0.2s ease-in-out; } }
+/**
+ * Footer
+ */
+footer {
+  background-color: #2a2a36; }
+  footer h1 {
+    margin-top: 70px;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.8;
+    letter-spacing: -0.9px;
+    color: #8e8e8e; }
+  footer ul {
+    list-style-type: none;
+    padding-left: 0; }
+  footer li {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #ffffff;
+    width: 140px; }
+    footer li a {
+      color: #ffffff; }
+      footer li a:hover {
+        color: #ffffff; }
+  footer p {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #ffffff; }
+    @media (max-width: 768px) {
+      footer p {
+        float: left;
+        padding-left: 15px; } }
+    footer p a {
+      color: #ffffff; }
+      footer p a:hover {
+        color: #ffffff; }
+  @media (min-width: 768px) and (max-width: 1600px) {
+    footer .container {
+      width: 90%;
+      max-width: 900px; } }
+
+@media (max-width: 768px) {
+  footer {
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    footer h1 {
+      margin-top: 30px;
+      font-size: 19px;
+      font-weight: bold;
+      line-height: 1.8;
+      letter-spacing: -0.9px;
+      color: #8e8e8e; }
+    footer ul {
+      list-style-type: none;
+      padding-left: 0; }
+    footer li {
+      font-size: 15px;
+      line-height: 1.8;
+      color: #ffffff;
+      width: 140px; } }
 html {
   margin-top: 0 !important; }
 
@@ -803,54 +866,6 @@ h5 {
   line-height: 1.5;
   letter-spacing: -1px;
   color: #2a2a36; }
-
-/**
- * Footer
- */
-footer {
-  background-color: #2a2a36;
-  /*       @media (max-width: $break-small) {
-  			.container {
-  			width: 90%;
-  			}
-  		}*/ }
-  footer h1 {
-    margin-top: 70px;
-    font-size: 19px;
-    font-weight: bold;
-    line-height: 1.8;
-    letter-spacing: -0.9px;
-    color: #8e8e8e; }
-  footer ul {
-    list-style-type: none;
-    padding-left: 0; }
-  footer li {
-    font-size: 15px;
-    line-height: 1.8;
-    color: #ffffff;
-    width: 140px; }
-    footer li a {
-      color: #ffffff; }
-      footer li a:hover {
-        color: #ffffff; }
-  footer p {
-    padding-top: 50px;
-    padding-bottom: 30px;
-    font-size: 15px;
-    line-height: 1.8;
-    color: #ffffff; }
-    @media (max-width: 768px) {
-      footer p {
-        float: left;
-        padding-left: 15px; } }
-    footer p a {
-      color: #ffffff; }
-      footer p a:hover {
-        color: #ffffff; }
-  @media (min-width: 768px) and (max-width: 1600px) {
-    footer .container {
-      width: 90%;
-      max-width: 900px; } }
 
 /**
  * Overwrite buttons for bootstrap
@@ -929,27 +944,7 @@ footer {
     font-weight: bold;
     line-height: 1.5;
     letter-spacing: -1px;
-    color: #2a2a36; }
-
-  footer {
-    height: 100%;
-    padding-top: 40px;
-    padding-bottom: 40px; }
-    footer h1 {
-      margin-top: 30px;
-      font-size: 19px;
-      font-weight: bold;
-      line-height: 1.8;
-      letter-spacing: -0.9px;
-      color: #8e8e8e; }
-    footer ul {
-      list-style-type: none;
-      padding-left: 0; }
-    footer li {
-      font-size: 15px;
-      line-height: 1.8;
-      color: #ffffff;
-      width: 140px; } }
+    color: #2a2a36; } }
 .highlights {
   display: -ms-flexbox;
   display: flex;

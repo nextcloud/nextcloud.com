@@ -1,6 +1,7 @@
 @import "variables.scss";
-@import"home.scss";
-@import"header.scss";
+@import "home.scss";
+@import "header.scss";
+@import "footer.scss";
 
 html{
     margin-top: 0 !important;
@@ -53,72 +54,6 @@ h5 {
   letter-spacing: -1px;
   color: #2a2a36; 
 }
-
-/**
- * Footer
- */
-footer {
-  background-color: #2a2a36;
-    
-    h1 {
-        margin-top: 70px;
-        font-size: 19px;
-        font-weight: bold;
-        line-height: 1.8;
-        letter-spacing: -0.9px;
-        color: #8e8e8e;
-    }
-    
-    ul {
-        list-style-type: none;
-        padding-left: 0; 
-    }
-    
-    li {
-        font-size: 15px;
-        line-height: 1.8;
-        color: #ffffff;
-        width: 140px; 
-             
-            a {
-                color: #ffffff; 
-                &:hover {
-                     color: #ffffff;
-                 }
-            }
-        }
-
-	p {
-        padding-top: 50px;
-        padding-bottom: 30px;
-		font-size: 15px;
-        line-height: 1.8;
-        color: #ffffff;
-        @media (max-width: $break-small) {
-            float: left;
-            padding-left: 15px;
-        }
-                 
-            a {
-                color: #ffffff; 
-                &:hover {
-                     color: #ffffff;
-                 }
-            }
-        }
-/*       @media (max-width: $break-small) {
-			.container {
-			width: 90%;
-			}
-		}*/
-		@media (min-width: $break-small) and (max-width: $very-wide) {
-			.container {
-			width: 90%;
-			max-width: 900px;
-			}
-		}
-}
-
 
 /**
  * Overwrite buttons for bootstrap
@@ -220,33 +155,6 @@ footer {
         line-height: 1.5;
         letter-spacing: -1px;
         color: $dark-blue;
-    }
-    
-    footer {
-        height: 100%;
-        padding-top: 40px;
-        padding-bottom: 40px;
-
-        h1 {
-            margin-top:30px;
-            font-size: 19px;
-            font-weight: bold;
-            line-height: 1.8;
-            letter-spacing: -0.9px;
-            color: #8e8e8e;
-        }
-
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-
-        li {
-            font-size: 15px;
-            line-height: 1.8;
-            color: #ffffff;
-            width: 140px;
-        }
     }
 
 }

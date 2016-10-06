@@ -1,0 +1,10 @@
+@import "variables.scss";
+
+/**
+ * This file contains fixes for legacy pages
+ */
+
+footer p {
+  padding: 0 !important;
+  padding-top: 20px !important;
+}

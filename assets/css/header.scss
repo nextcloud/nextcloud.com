@@ -195,17 +195,6 @@
     }
 }
 
-/* make transparent on some pages */
-
-.navbar:not(.scrolled) {
-    background-color: transparent;
-}
-
-.navbar:not(.scrolled) .btn-primary  {
-    background-color: transparent !important;
-}
-
-
 /**
  * Scrolled navbar style
  */

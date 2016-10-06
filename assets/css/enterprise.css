@@ -56,6 +56,7 @@
   margin-top: 133px; }
 
 .table-column {
+  cursor: default;
   border-radius: 8px;
   border: solid 1px #eeeeee;
   padding: 0px;
@@ -95,7 +96,7 @@
       padding-bottom: 29px; }
   .table-column .basic {
     background-color: #f9f9f9; }
-  .table-column .standart {
+  .table-column .standard {
     background-color: #c4e1f7; }
   .table-column .premium {
     background-color: #178ecd; }

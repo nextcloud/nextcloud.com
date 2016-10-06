@@ -12,12 +12,34 @@
 	<meta name="theme-color" content="#0082c9">
 	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/common/favicon.png" />
 	<link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/assets/img/common/favicon.png" />
+
+	<!-- New styles -->
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/header.css" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/footer.css" rel="stylesheet">
+
+	<!-- Fixes for the new style on legacy pages -->
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/legacy-fixes.css" rel="stylesheet">
+
+
+	<!-- New JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.waypoints.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/bodymovin.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/navigation.js"></script>
+
+	<!-- Old styles below -->
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/old/main.min.css" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/old/font-awesome.css"/>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/old/styles.css"/>
 	<script type="text/javascript">
 		var templateUrl = '<?= get_bloginfo('template_url'); ?>';
 	</script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/navigation.js"></script>
 
 	<?php wp_head(); ?>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
