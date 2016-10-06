@@ -1,6 +1,5 @@
 <?php
 	$navigationItems = [
-// 		'homepage' => 'Home',
 		'news' => 'News',
 		'features' => 'Features',
 		'about' => 'About us',
