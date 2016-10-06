@@ -1,9 +1,8 @@
-<div class="row conf-header">
+<div class="row conf-header" style="padding-top: 150px;">
 	<div class="col-sm-8 col-sm-offset-2">
 		<img class="conf-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/box.jpg" alt="" />
-		<h1 class="box-header text-center">Introducing the Nextcloud Box</h2>
+		<h1 class="box-header text-center">Introducing the Nextcloud Box</h1>
 	</div>
-</div>
 </div>
 </div>
 
@@ -93,4 +92,5 @@
 			<a target="_blank" href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/wdlabs.png" alt="Visit lwn.net" /></a>
 		</div>
 	</div>
+</div>
 </div>
