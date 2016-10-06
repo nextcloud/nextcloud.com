@@ -54,7 +54,8 @@
 
             .btn-primary {
                 background-color: $nextcloud-blue;
-                border: 1px solid white;
+                border: 1px solid transparent;
+                border-radius: 100px;
                 font-size: 16px;
                 height: inherit;
 
@@ -106,18 +107,18 @@
                     vertical-align: middle;
 
                     &:last-child {
-                        padding-left: 30px;
-                        padding-right: 30px;
+                        padding: 0px;
                     }
                 }
 
                 .btn-primary{
                     padding: 5px 5px;
 
-                    a{
+                    a {
                         position: relative;
                         display: block;
-                        padding: 10px 15px;
+                        padding: 15px 45px;
+                        border-radius: 100px;
                     }
                 }
             }

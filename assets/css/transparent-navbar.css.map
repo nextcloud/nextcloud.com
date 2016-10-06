@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,6BAA6B;AAC7B,sBAAuB;EACrB,gBAAgB,EAAE,WAAW;;AAG/B,mCAAqC;EACnC,gBAAgB,EAAE,sBAAsB",
+"mappings": "AAAA,6BAA6B;AAC7B,sBAAuB;EACrB,gBAAgB,EAAE,WAAW;;AAG/B,mCAAqC;EACnC,gBAAgB,EAAE,sBAAsB;EACxC,YAAY,EAAE,KAAK",
 "sources": ["transparent-navbar.scss"],
 "names": [],
 "file": "transparent-navbar.css"
