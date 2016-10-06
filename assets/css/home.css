@@ -3,7 +3,8 @@
   background-color: transparent; }
 
 .navbar:not(.scrolled) .btn-primary {
-  background-color: transparent !important; }
+  background-color: transparent !important;
+  border-color: white; }
 
 /**
  * Home page jumbotron

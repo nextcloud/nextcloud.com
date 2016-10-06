@@ -3,7 +3,8 @@
   background-color: transparent; }
 
 .navbar:not(.scrolled) .btn-primary {
-  background-color: transparent !important; }
+  background-color: transparent !important;
+  border-color: white; }
 
 /**
  * Home page jumbotron
@@ -420,7 +421,8 @@ section#why-nextcloud {
         display: inline-block; }
     .Header-Navigation .navbar .btn-primary {
       background-color: #0082c9;
-      border: 1px solid white;
+      border: 1px solid transparent;
+      border-radius: 100px;
       font-size: 16px;
       height: inherit; }
       .Header-Navigation .navbar .btn-primary:before {
@@ -459,14 +461,13 @@ section#why-nextcloud {
       display: table-cell;
       vertical-align: middle; }
       .Header-Navigation .navbar .overlay-menu ul li:last-child {
-        padding-left: 30px;
-        padding-right: 30px; }
+        padding: 0px; }
     .Header-Navigation .navbar .overlay-menu ul .btn-primary {
       padding: 5px 5px; }
       .Header-Navigation .navbar .overlay-menu ul .btn-primary a {
         position: relative;
         display: block;
-        padding: 10px 15px; }
+        padding: 15px 45px; }
 
 /**
 *Break Menu at 1200px
