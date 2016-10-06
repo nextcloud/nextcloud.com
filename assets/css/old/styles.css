@@ -203,11 +203,7 @@ button a:hover {text-decoration: none; }
 	#navbar a {
 		color: white; }
 }
-@media (max-width: 1200px) {
-	#navbar .active a {
-		color: white; }
-	#navbar a {
-		color: #75badd; } }
+
 
 #navbar .active {
 	font-weight: 600; }
