@@ -186,8 +186,8 @@
 
 
 <script>
-	// Only make the scrolling effect for devices bigger than the 768px in width
-	if ($(window).width() > 768) {
+	// Only make the scrolling effect for devices bigger than the 768px in width and 900px in height
+	if ($(window).width() > 768 && $(window).height() >= 900) {
 		var controller = new ScrollMagic.Controller();
 		new ScrollMagic.Scene({triggerElement: '#pinContainer', triggerHook: 'onLeave', duration: 750, offset: -100})
 			.addTo(controller)
@@ -217,6 +217,7 @@
 				}
 			});
 	} else {
+		$('.indicators').addClass('hidden');
 		$('section:nth(0)').removeClass('hidden')
 		$('#pinContainer section .right-text-grey:nth(0)').css('opacity', '1.0');
 		$('#pinContainer').css('width', 'inherit');
