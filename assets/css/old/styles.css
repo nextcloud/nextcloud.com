@@ -448,64 +448,6 @@ div.feature-wide-row-wrap div.featureblock h3.ft-title {
 i[class*='icon-'] {
 	font-style: normal;
 }
-/**
- * Footer
- */
-footer {
-	background-color: #2a2a36;
-	height: 349px; }
-footer h1 {
-	margin-top: 70px;
-	font-size: 19px;
-	font-weight: bold;
-	line-height: 1.8;
-	letter-spacing: -0.9px;
-	color: #8e8e8e; }
-footer ul {
-	list-style-type: none;
-	padding-left: 0; }
-footer li {
-	font-size: 15px;
-	line-height: 1.8;
-	width: 140px;
-}
-
-footer li a {
-	color: #FFFFFF;
-}
-footer li a:hover {
-	color: #FFFFFF;
-}
-
-/**
- * Mobile
- */
-@media (max-width: 768px) {
-	footer {
-		height: 100%;
-		padding-top: 40px;
-		padding-bottom: 40px; }
-	footer h1 {
-		margin-top: 30px;
-		font-size: 19px;
-		font-weight: bold;
-		line-height: 1.8;
-		letter-spacing: -0.9px;
-		color: #8e8e8e; }
-	footer ul {
-		list-style-type: none;
-		padding-left: 0; }
-	footer li {
-		font-size: 15px;
-		line-height: 1.8;
-		color: #ffffff;
-		width: 140px; }
-}
-div.thumbnail > img {
-	margin: 5px;
-	margin-bottom: 0;
-}
-
 /* Try to make thumbnails in wordpress have some distance to the text */
 .thumbnail {
 	margin: 5px;

@@ -3,7 +3,7 @@
 /**
  * Footer
  */
-footer {
+footer.page-footer {
   background-color: #2a2a36;
 
   h1 {
@@ -62,7 +62,7 @@ footer {
 }
 
 @media (max-width: $break-small) {
-  footer {
+  footer.page-footer {
     height: 100%;
     padding-top: 40px;
     padding-bottom: 40px;

@@ -1,5 +1,4 @@
-
-<footer>
+<footer class="page-footer">
     <div class="container">
         <div class="col-sm-3">
             <h1>About Nextcloud</h1>
