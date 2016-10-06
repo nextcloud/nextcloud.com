@@ -1,0 +1,377 @@
+.Header-Navigation .navbar {
+  top: 0;
+  border-width: 0 0 1px;
+  background-color: #0082c9;
+  height: 100px;
+  transition: all .2s ease-in;
+  z-index: 5;
+  padding-top: 24px;
+  font-size: 16px; }
+  @media (min-width: 1200px) {
+    .Header-Navigation .navbar li.active {
+      border-bottom: 3px solid #ffffff;
+      padding-bottom: 15px; }
+    .Header-Navigation .navbar li:last-child {
+      padding-left: 30px;
+      padding-right: 30px; }
+    .Header-Navigation .navbar li a {
+      color: white; }
+      .Header-Navigation .navbar li a:hover {
+        text-decoration: none; } }
+@media (min-width: 1200px) and (max-width: 1200px) {
+  .Header-Navigation .navbar a {
+    color: #75badd; }
+    .Header-Navigation .navbar a .active {
+      color: #ffffff; } }
+  @media (min-width: 1200px) {
+    .Header-Navigation .navbar .navbar-header {
+      float: none; }
+      .Header-Navigation .navbar .navbar-header .logo {
+        background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+        height: 50px;
+        width: 71px;
+        display: inline-block; }
+    .Header-Navigation .navbar .btn-primary {
+      background-color: #0082c9;
+      border: 1px solid transparent;
+      border-radius: 100px;
+      font-size: 16px;
+      height: inherit; }
+      .Header-Navigation .navbar .btn-primary:before {
+        visibility: hidden; } }
+  @media (min-width: 1200px) and (max-width: 1200px) {
+    .Header-Navigation .navbar .btn-primary {
+      position: fixed;
+      bottom: 0;
+      margin-left: -5%;
+      width: 105%;
+      border-radius: 0;
+      border: 0;
+      height: 75px;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent; }
+      .Header-Navigation .navbar .btn-primary a {
+        color: #ffffff; } }
+
+  .Header-Navigation .navbar .active {
+    font-weight: 600;
+    z-index: 3; }
+  .Header-Navigation .navbar .overlay-menu ul {
+    float: right !important;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-right: -15px;
+    margin-bottom: 0; }
+    .Header-Navigation .navbar .overlay-menu ul li {
+      margin: 0 0 0 10px;
+      padding: 10px 15px;
+      position: relative;
+      display: table-cell;
+      vertical-align: middle; }
+      .Header-Navigation .navbar .overlay-menu ul li:last-child {
+        padding: 0px; }
+    .Header-Navigation .navbar .overlay-menu ul .btn-primary {
+      padding: 5px 5px; }
+      .Header-Navigation .navbar .overlay-menu ul .btn-primary a {
+        position: relative;
+        display: block;
+        padding: 15px 45px;
+        border-radius: 100px; }
+
+/**
+*Break Menu at 1200px
+*/
+.navbar .container-fluid {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
+  .navbar .container-fluid button {
+    color: white;
+    background-color: white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-top: 0;
+    z-index: 3; }
+    .navbar .container-fluid button .icon-bar {
+      background-color: #2a2a36;
+      width: 100%; }
+
+@media (min-width: 768px) {
+  .navbar-nav li {
+    margin: 0 0 0 10px; } }
+.navbar-nav li a:hover {
+  background: none !important; }
+@media (min-width: 1200px) {
+  .navbar-nav li a:hover {
+    color: white; } }
+@media (min-width: 1200px) {
+  .navbar-nav li:before {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 1px; }
+  .navbar-nav li:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .2s ease, background-color .2s ease; }
+  .navbar-nav li:not(.btn-primary):not(.active):hover:before {
+    width: 100%;
+    background: white;
+    transition: width .2s ease-in; }
+  .navbar-nav li:not(.btn-primary):not(.active):hover:after {
+    width: 100%;
+    background: white; } }
+
+/**
+ * Scrolled navbar style
+ */
+.navbar.scrolled:not(.mobile-menu-open) {
+  transition: all .2s ease-in;
+  background: white;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09); }
+  .navbar.scrolled:not(.mobile-menu-open) a {
+    color: #656565 !important; }
+  .navbar.scrolled:not(.mobile-menu-open) .navbar-nav li:not(.btn-primary):not(.active):hover:before {
+    width: 100%;
+    background: #656565;
+    transition: width .2s ease-in; }
+  .navbar.scrolled:not(.mobile-menu-open) .navbar-nav li:not(.btn-primary):not(.active):hover:after {
+    width: 100%;
+    background: #656565; }
+  @media (min-width: 1200px) {
+    .navbar.scrolled:not(.mobile-menu-open) .active {
+      border-bottom: 3px solid #656565 !important; } }
+  .navbar.scrolled:not(.mobile-menu-open) .btn-primary a {
+    color: white !important; }
+  @media (max-width: 1200px) {
+    .navbar.scrolled:not(.mobile-menu-open) .navbar-collapse {
+      background-color: #ffffff;
+      margin-left: -6% !important; } }
+  .navbar.scrolled:not(.mobile-menu-open) .logo {
+    background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain !important; }
+  .navbar.scrolled:not(.mobile-menu-open) .container-fluid button {
+    background: #0082c9; }
+    .navbar.scrolled:not(.mobile-menu-open) .container-fluid button .icon-bar {
+      background-color: white; }
+  .navbar.scrolled:not(.mobile-menu-open) svg {
+    filter: invert(100%); }
+
+/**
+ * Collapsed navbar
+ */
+@media (max-width: 1200px) {
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+    width: calc(100vw + 1%);
+    min-height: 100vh;
+    background-color: #0082c9;
+    margin-left: -6% !important;
+    box-shadow: none;
+    transition: all .2s ease-in; }
+    .navbar-collapse ul {
+      margin-right: 5%;
+      margin-left: 5%;
+      text-align: center;
+      min-height: 540px; }
+      .navbar-collapse ul li {
+        padding-top: 3vh;
+        font-size: 35px; } }
+
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0deg); }
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1; }
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0deg); }
+
+.navbar-collapse {
+  display: none !important; }
+
+/**
+*Changed default media querys for navigation in bootstrap
+*/
+@media (max-width: 1200px) {
+  .navbar-header {
+    float: none; }
+
+  .navbar-left, .navbar-right {
+    float: none !important; }
+
+  .navbar-toggle {
+    display: block; }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px; }
+
+  .navbar-collapse.collapse {
+    display: none !important; }
+
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px; }
+
+  .navbar-nav > li {
+    float: none; }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+  .collapse.in {
+    display: block !important; }
+
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none; } }
+.overlay {
+  display: inline-block;
+  float: right !important; }
+  .overlay .overlay-menu ul {
+    float: right !important;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-right: -15px;
+    margin-bottom: 0; }
+    .overlay .overlay-menu ul li {
+      margin: 0 0 0 10px;
+      padding: 10px 15px;
+      position: relative;
+      display: table-cell;
+      vertical-align: middle; }
+      .overlay .overlay-menu ul li:last-child {
+        padding-left: 30px;
+        padding-right: 30px; }
+    .overlay .overlay-menu ul .btn-primary {
+      padding: 5px 5px; }
+      .overlay .overlay-menu ul .btn-primary a {
+        position: relative;
+        display: block;
+        padding: 10px 15px; }
+
+/**
+*Mobile
+*/
+@media (max-width: 1200px) {
+  .Header-Navigation .navbar .container-fluid .navbar-header {
+    margin-left: 0; }
+    .Header-Navigation .navbar .container-fluid .navbar-header .logo {
+      z-index: 5;
+      position: relative;
+      background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+      height: 50px;
+      width: 71px;
+      display: inline-block; }
+    .Header-Navigation .navbar .container-fluid .navbar-header button:hover {
+      transform: scale(1.1);
+      transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
+      transition-property: transform;
+      transition-duration: 0.3s;
+      transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
+      transition-delay: initial; }
+    .Header-Navigation .navbar .container-fluid .navbar-header .overlay {
+      position: fixed;
+      background: #0082c9;
+      padding-top: 25px;
+      z-index: 2;
+      top: 0;
+      right: 0;
+      width: 0;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+      border-bottom-left-radius: 100%;
+      transition: all 0.6s ease; }
+      .Header-Navigation .navbar .container-fluid .navbar-header .overlay .btn-primary:before {
+        visibility: hidden; }
+      .Header-Navigation .navbar .container-fluid .navbar-header .overlay li {
+        display: block;
+        height: 25%;
+        height: calc(100% / 4);
+        min-height: 50px;
+        position: relative;
+        opacity: 1;
+        margin: 0;
+        opacity: 0;
+        color: white; }
+        .Header-Navigation .navbar .container-fluid .navbar-header .overlay li:last-child {
+          font-weight: 500; }
+        .Header-Navigation .navbar .container-fluid .navbar-header .overlay li a {
+          color: white;
+          text-decoration: none; }
+      .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open {
+        opacity: 1;
+        visibility: visible;
+        width: 150%;
+        height: 150%; }
+        .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul {
+          list-style: none;
+          display: inline-block;
+          font-size: 26px;
+          color: white;
+          text-align: center;
+          margin: 0 auto;
+          display: inline-block;
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li {
+            font-size: 25px;
+            padding-top: 2vh;
+            animation: fadeInRight .5s ease forwards;
+            animation-delay: .35s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(2) {
+              animation-delay: .4s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(3) {
+              animation-delay: .45s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(4) {
+              animation-delay: .50s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(5) {
+              animation-delay: .55s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(6) {
+              animation-delay: .60s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(7) {
+              animation-delay: .65s; }
+            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(8) {
+              animation-delay: .70s; } }
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%; }
+  100% {
+    opacity: 1;
+    left: 0; } }
+@media (max-height: 800px) {
+  .nav-down {
+    opacity: 1;
+    transition: all 0.2s ease-in-out; }
+
+  .nav-up {
+    top: -100px !important;
+    opacity: 0;
+    transition: all 0.2s ease-in-out; } }
+
+/*# sourceMappingURL=header.css.map */

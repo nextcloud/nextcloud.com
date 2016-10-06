@@ -1,4 +1,41 @@
 <div class="featurerow">
+	<h1 class="featuretitle">Security and Authentication</h1>
+	<p>Nextcloud provides a wide range of security capabilities, from server side encryption and the use of TLS encryption for file transfers to brute force protection and 2-factor authentication.</p>
+	<div class="row">
+		<div class="col-md-7">
+			<h2>Brute force protection and 2FA</h2>
+			<p>Brute Force Protection logs invalid login attempts and slows down multiple attempts from a single IP address (or IPv6 range). This feature is enabled by default and protects against an attacker who tries to guess a password from one or more users.</p>
+			<p>The login system supports pluggable authentication including two-factor authentication and device specific passwords, complete with a list of connected browsers and devices on the users’ personal page.</p>
+			<p>Active sessions can be invalidated through the list, by removing the user in the admin settings or by changing passwords. This also works for LDAP users. Admins can enable or disable two-factor authentication for users on the command line.</p>
+			<p>Nextcloud supports SAML 2.0 (“Shibboleth”) authentication and has extensive LDAP directory integration.</p>
+		</div>
+		<div class="col-md-5">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP-wee.png" alt="in action" /></a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-5">
+			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/encryption-home.png" alt="in action" />
+		</div>
+		<div class="col-md-7">
+			<h2>Server side encryption</h2>
+			<p>Server side encryption protects files on the Nextcloud server or external storage from being seen by third parties. As files are encrypted and decrypted on the Nextcloud server, this does not protect from malicious system administrators or a compromised server but it provides an additional layer of protection for cases when server hardware gets stolen.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-7">
+			<p>Encryption is particularly useful when used in combination with external storage as the third party storage system will never see unencrypted files.</p>
+			<p>Nextcloud supports pluggable encryption key handling. If you have an external key server, this can be made to work with Nextcloud.</p>
+			<p>Administrators can set a system wide recovery key for encrypted files. This ensures that, even when users lose their password, files can always be decrypted. Encrypted files can be shared but after changing encryption settings, shares will have to be re-shared.</p>
+			<p>Learn how to use server side encryption in our <a href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_files/encryption_configuration.html" target="_blank" rel="tooltip" title="Server Side Encryption Configuration">documentation</a></p>
+		</div>
+		<div class="col-md-5">
+			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/encryption-recovery.png" alt="in action" />
+		</div>
+	</div>
+</div>
+
+<div class="featurerow">
 	<h1 class="featuretitle">File Access Control and Workflows</h1>
 	<div class="row">
 		<div class="col-md-6 featureblock">
@@ -30,6 +67,7 @@
 		</div>
 	</div>
 </div>
+
 	<a name="monitoring"></a>
 <div class="featurerow">
 	<h1 class="featuretitle">Monitoring your Nextcloud server</h1>
@@ -60,16 +98,28 @@
 	<h1 class="featuretitle">Screenshots</h1>
 	<div class="row">
 		<div class="col-md-6">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/monitoring-full.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/monitoring-full.png" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP.png" class="img-responsive featureimg" /></a>
 		</div>
 		<div class="col-md-6">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/monitoring-API.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/monitoring-API.png" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP-login.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP-login.png" class="img-responsive featureimg" /></a>
+		</div>
+		<div class="col-md-6">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-home.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-home.png" class="img-responsive featureimg" /></a>
+		</div>
+		<div class="col-md-6">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-default.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-default.png" class="img-responsive featureimg" /></a>
+		</div>
+		<div class="col-md-6">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/tagging-retention.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/tagging-retention.png" class="img-responsive featureimg" /></a>
 		</div>
 		<div class="col-md-6">
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control.png" /></a>
 		</div>
 		<div class="col-md-6">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/tagging-retention.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/tagging-retention.png" class="img-responsive featureimg" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/monitoring-full.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/monitoring-full.png" /></a>
+		</div>
+		<div class="col-md-6">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/monitoring-API.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/monitoring-API.png" /></a>
 		</div>
 		<div class="col-md-6">
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/nextcloud-users.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/nextcloud-users-wee.png" class="img-responsive featureimg" /></a>
@@ -77,5 +127,7 @@
 		<div class="col-md-6">
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/grafana-dashboard.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/grafana-dashboard-wee.png" class="img-responsive featureimg" /></a>
 		</div>
+		
+		
 	</div>
 </div>

@@ -1,41 +1,42 @@
-<header class="banner navbar navbar-default navbar-static-top" role="banner">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-       <a class="brand" href="<?php echo home_url(); ?>/"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/logo_nextcloud_white.svg" title="<?php bloginfo('name'); ?>" itemprop="logo"></a>
-    </div>
-
-    <nav class="collapse navbar-collapse" role="navigation">
-      <ul id="menu-header" class="nav navbar-nav">
-        <li class="<?php if(is_page('news')){ echo 'top-nav-active '; } ?>menu-news"><a href="/news/">News</a></li>
-        <li class="<?php if(is_page('features')){ echo 'top-nav-active '; } ?>menu-features"><a href="/features/">Features</a></li>
-<!--         <li class="menu-documentation"><a href="https://doc.nextcloud.com">Documentation</a></li> -->
-		<li class="<?php if(is_page('about')){ echo 'top-nav-active '; } ?>menu-about"><a href="/about/">About us</a>
-<!-- 		<li class="<?php if(is_page('contact')){ echo 'top-nav-active '; } ?>menu-contact"><a href="/contact/">Contact us</a> -->
-        <li class="<?php if(is_page('contribute')){ echo 'top-nav-active '; } ?>menu-contribute"><a href="/contribute/">Get involved</a>
-        <li class="<?php if(is_page('support')){ echo 'top-nav-active '; } ?>menu-support"><a href="/support/">Support</a></li>
-        <li class="<?php if(is_page('enterprise')){ echo 'top-nav-active '; } ?>menu-enterprise"><a href="/enterprise/">Enterprise</a></li>
-        <li class="menu-demo"><a target="_blank" href="https://demo.nextcloud.com">Demo</a></li>
-        <li class="<?php if(is_page('install')){ echo 'top-nav-active '; } ?>menu-install"><a href="/install/">Download</a></li>
-      </ul>
-    </nav>
-  </div>
-  <?php if(is_page('homepage')): ?>
-	<div class="container-fluid teaser-area">
-		<div class="col-xs-offset-0 col-sm-offset-1 col-md-offset-2 col-lg-offset-3  col-xs-12 col-sm-10 col-md-8 col-lg-6">
-			<div class="text-center intro-text">
-				<h1><span class="avoidwrap">A safe home</span> <span class="avoidwrap">for all your data</span></h1>
-				<p><span class="avoidwrap">Access & share your files</span>, calendars, contacts, <span class="avoidwrap">mail & more</span> <span class="avoidwrap">from any device, on your terms</span></p>
-				<br>
-				<a class="btn btn-primary btn-lg" role="button" href="/install">Get your Nextcloud &raquo;</a>
+<?php
+	$navigationItems = [
+		'news' => 'News',
+		'features' => 'Features',
+		'about' => 'About us',
+		'contribute' => 'Get involved',
+		'support' => 'Support',
+		'enterprise' => 'Enterprise',
+	];
+?>
+<section class="Header-Navigation">
+	<nav class="navbar navbar-fixed-top" id="navbar">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" id="toggle">
+				<div class="menu-animation" data-animation-path="img/menu/black/" data-anim-loop="false" data-name="menu-black" id="menu-black"</div>
+				</button>
+				<a class="brand" href="<?php echo home_url() ?>">
+				<div class="logo"></div>
+					</a>
+		    <div class="overlay" id="overlay">
+                <nav class="overlay-menu">
+                    <ul>
+                      <?php
+                        foreach($navigationItems as $key => $text):
+                            $active = false;
+                            if($key === strtolower(get_post()->post_name)) {
+                                $active = true;
+                                }
+                                ?>
+                                <li <?php if($active): ?>class="active"<?php endif;?>><a href="<?php echo home_url($key) ?>"><?php echo $text ?></a></li>
+                                <?php endforeach; ?>
+                                <li><a href="https://demo.nextcloud.com/">Demo</a></li>
+                                <li class="btn-primary"><a href="<?php echo home_url('install') ?>">Download</a>
+                        </li>
+                    </ul>
+                  </nav>
 			</div>
 		</div>
-		<a href="/box"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/box.png" class="home-event-img"  /></a>
-	</div>
-  <?php endif; ?>
-</header>
+	</nav>
+</div>
+</section>

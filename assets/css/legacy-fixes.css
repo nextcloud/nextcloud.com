@@ -1,0 +1,19 @@
+/**
+ * This file contains fixes for legacy pages
+ */
+footer p {
+  padding: 0 !important;
+  padding-top: 20px !important; }
+
+.navbar:not(.scrolled) .btn-primary {
+  border-color: white; }
+
+.Header-Navigation .navbar .overlay-menu ul .btn-primary a {
+  width: 169px;
+  height: 52px;
+  bottom: 4px; }
+  @media (max-width: 1200px) {
+    .Header-Navigation .navbar .overlay-menu ul .btn-primary a {
+      padding: 0 !important; } }
+
+/*# sourceMappingURL=legacy-fixes.css.map */

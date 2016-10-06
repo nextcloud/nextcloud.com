@@ -1,1 +1,5 @@
 config.php
+.sass-cache
+.directory
+*.kdev4
+node_modules/
