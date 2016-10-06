@@ -86,9 +86,15 @@ $oldPages = [
 	'workflow'
 
 ];
+function is_blog () {
+	global  $post;
+	$posttype = get_post_type($post );
+	return ( ((is_archive()) || (is_author()) || (is_category()) || (is_home()) || (is_single()) || (is_tag())) && ( $posttype == 'post')  ) ? true : false ;
+}
+
 $currentPage = strtolower(get_post()->post_name);
 $oldPage = true;
-if(in_array($currentPage, $oldPages)) {
+if(in_array($currentPage, $oldPages) || is_blog()) {
 	// It's an old page, use the old template
 	get_template_part('templates/head-old');
 } else {
