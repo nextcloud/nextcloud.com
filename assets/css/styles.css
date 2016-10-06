@@ -46,6 +46,11 @@ span.avoidwrap {
 		display: none;
 	}
 }
+/* make code areas scrollable */
+code {
+	overflow-x: scroll;
+	overflow-wrap: break-word;
+}
 
 /* Make background white, font grey and default buttons a bit darker to compensate */
 body {
@@ -95,6 +100,17 @@ h3 {
 /* 	border: 1px solid #0082C9; */
 /* 	color: white; */
 }
+
+.btn-secondary {
+	border: 1px solid #cccccc;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open > .dropdown-toggle.btn-secondary {
+	border: 1px solid #adadad;
+	background: #e6e6e6;
+}
+
+
 
 /* button a {color: #1d2d44} */
 button a:hover {text-decoration: none; }
@@ -285,7 +301,17 @@ footer div.footer-nav>h4 {
 }
 
 div.thumbnail > img {
+	margin: 5px;
 	margin-bottom: 0;
+}
+
+/* Try to make thumbnails in wordpress have some distance to the text */
+.thumbnail {
+	margin: 5px;
+}
+
+.alignright {
+	margin: 1em 1em 1em 1em !important;
 }
 
 /*	Make YouTube videos responsive */
@@ -382,7 +408,7 @@ article.post figcaption {
 
 a.join-button {
 	width: 70%;
-	margin: 0 auto;
+		margin: 0 auto;
 }
 
 div.alert-info > a {
@@ -527,17 +553,17 @@ p.federation-id {
 
 .epricevat {
 	font-weight: light;
-	font-size: .7em;
+	font-size: small;
 	text-align: right;
-	padding: 0px;
+	padding: 5px;
 	margin-top: -20px;
 }
 
 .egetstarted .btn-primary {
-    font-size: 24px;
-    font-weight: 600;
-    padding: 18px 24px;
-    margin-top: 20px;
+	font-size: 24px;
+	font-weight: 600;
+	padding: 18px 24px;
+	margin-top: 20px;
 	margin-bottom: 50px;
 }
 
@@ -546,7 +572,7 @@ p.federation-id {
 }
 
 .einfo span:hover {
-    border-bottom: 1px dotted gray;
+	border-bottom: 1px dotted gray;
 /* 	cursor: pointer; */
 }
 
@@ -1092,14 +1118,76 @@ img.desaturate {
 	border: none !important;
 }
 
+
+/* Box page */
+
+.buybutton {
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+
 /* ownCloud.org/features features page*/
 
 /* Full width background image */
 
 .featurerow {
-	margin-top: 50px;
+	margin-top: 10px;
 	margin-bottom: 100px;
 }
+
+.webrtcspreedbox {
+	width: 100%;
+	height: 100%;
+	min-height: 700px;
+	opacity: 1;
+	visibility: inherit;
+	background-image: url("../img/spreedbox/spreedbox.png");
+	background-color: rgba(0, 0, 0, 0);
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+/* 	color: white; */
+}
+
+.spreedfeatures {
+	padding-top: 50px;
+}
+
+.spreedfeatureswidth {
+	padding-right: 0px !important;
+}
+
+@media (max-width: 767px) {
+	.webrtcspreedbox {
+	background-position: 49% top;
+	}
+	.spreedfeatures {
+	padding: 2% 0% 0% 33%;
+/* 	padding-top: 10%; */
+/* 	padding-left: 23%; */
+	width: 100%;
+	color: black;
+	}
+}
+
+@media (max-width: 600px) {
+	.webrtcspreedbox {
+	background-position: 47% top;
+	}
+	.spreedfeatures {
+	padding: 2% 0% 0% 12%;
+	width: 100%;
+	text-shadow: 0px 0px 4px white;
+	font-weight: bold;
+	color: black;
+	}
+	.spreedfeatures .morebutton {
+	text-shadow: none;
+	}
+}
+
 
 .ft-image-bg {
 	 background-attachment: scroll;
@@ -1129,11 +1217,11 @@ text-align: center;
 }
 
 .featureblock .icon {
-        font-size: 60px;
-		display: block;
-		color: #0082c9;
-		text-align: center;
-		padding-top: 20%;
+	font-size: 60px;
+	display: block;
+	color: #0082c9;
+	text-align: center;
+	padding-top: 20%;
 }
 
 @media (max-width: 991px) {
@@ -1144,6 +1232,32 @@ text-align: center;
 	
 }
 
+.morebuttondiv {
+	margin: 20px auto 40px auto;
+}
+
+.morebutton .icon {
+	font-size: 20px;
+	display: inline;
+	color: white;
+	text-align: center;
+	padding-left: 5px;
+}
+
+.morebutton {
+	margin: 0 auto;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+}
+
+.morebuttonyoutube {
+	font-size: 30px;
+}
+
+.morebuttonyoutube .icon {
+	font-size: 45px;
+	line-height: 30px;
+}
 
 .ft-sharing {
 }
@@ -1512,7 +1626,8 @@ text-align: center;
 /* Contributor list page */
 
 .contributorgroup {
-	width: 100%;
+	width: 95%;
+	max-width: 2000px;
 }
 
 .contribshowhide {
@@ -1529,8 +1644,10 @@ text-align: center;
 	top: 0;
 	width: 100%;
 	height: 100%;
-	line-height: 100%;
+	max-width: 200px;
+	max-height: 200px;
 }
+
 .contribshowhide:hover .contribtext{
 	opacity: 0.9;
 }
@@ -1540,12 +1657,38 @@ text-align: center;
 	width: 100%;
 	height: 100%;
 	opacity: 0.9;
-	vertical-align: center;
+	vertical-align: middle;
 	color: white;
 	text-decoration: none;
 	font-size: 24px;
 	text-align:center;
 	position: absolute;
-	top: 50%;
-	margin-top: -12px;
+	top: 30%;
+/* 	margin-top: -20%; */
+}
+
+.contribimg img {
+	width: 100%;
+	height: 100%;
+	max-width: 200px;
+	max-height: 200px;
+}
+
+/* devices page */
+.device-img {
+	margin-left: auto !important;
+    margin-right: auto !important;
+	height: 300px;
+}
+
+/* Nextcloud Box page */
+.boxinfo {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+/* PR pages */
+
+.pr {
+	font-size: 18px;
 }

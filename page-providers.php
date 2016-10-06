@@ -81,7 +81,7 @@
 							filteredItems.push('<div class="bannerhead">')
 								filteredItems.push('<a href="');
 								filteredItems.push(provider.url);
-								filteredItems.push('" target="_blank" rel="noreferrer" title="');
+								filteredItems.push('" target="_blank" title="');
 								filteredItems.push(provider.title);
 								filteredItems.push('"><img class="provider-logo" src="<?php echo get_template_directory_uri() ?>/assets/img/providers/');
 								filteredItems.push(provider.imagename);

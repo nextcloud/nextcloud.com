@@ -3,9 +3,10 @@
 <!--         <div class="page-header"> -->
 <!--             </div> -->
 <h1>Legal Notice:</h1>
-<p>Nextcloud GmbH i.G.<br/>
+<p>Nextcloud GmbH<br/>
 Kronenstraße 22A<br/>
 70173 Stuttgart Germany<br/>
+HRB 227086 (AG München)<br/>
 T +49 711 89 66 56 0<br/>
 support@nextcloud.com<br/>
 </p>

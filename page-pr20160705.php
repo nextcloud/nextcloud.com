@@ -1,4 +1,4 @@
-<h1>Nextcloud delivers secure enterprise functionality backed by expert support and with partner-provided iOS client</h1>
+<div class="pr"><h1>Nextcloud delivers secure enterprise functionality backed by expert support and with partner-provided iOS client</h1>
 
 <p><strong>Stuttgart, Germany - June 5th, 2016</strong> Nextcloud, the next generation privacy-aware open source file sync and share, communication and collaboration solution announces immediate availability of Enterprise Support Subscriptions for the latest Nextcloud 9 update. This release introduces security fixes courtesy of the Nextcloud Security Bug Bounty Program and crucial enterprise functionality under an open source license for businesses seeking to regain control over their data and communication. The release is accompanied by the introduction of a state-of-the-art iOS client through the partnership with TWSweb, makers of the popular Cryptocloud iOS app.</p>
 
@@ -18,4 +18,4 @@ About Nextcloud
 N<p>extcloud offers a unique-in-the-industry fully open source solution for on-premise data handling and communication with a uncompromising focus on security and privacy. Nextcloud brings together universal access to data with next-generation secure communication and collaboration capabilities under direct control of IT and integrated with existing compliant infrastructure. Nextcloud's open, modular architecture, emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing assets within and across the borders of their organization. For more information, visit https://nextcloud.com</p>
 
 <p>Find the announcement of Nextcloud joining the Open Cloud Mesh initiative here: https://nextcloud.com/nextcloud-joins-open-cloud-mesh/</p>
- 
+ </div>

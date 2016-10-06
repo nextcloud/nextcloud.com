@@ -1,4 +1,5 @@
-<h1>Nextcloud 9 Released Ahead of Promised Date and Fully Commited to Open Source</h1>
+<div class="pr">
+<h1>Nextcloud 9 Released Ahead of Promised Date and Fully Committed to Open Source</h1>
 <p><strong>Stuttgart, Germany - June 14nd, 2016</strong> Ahead of a promised early July release, Nextcloud, the reliable solution for open source enterprise file sync and share, communication and collaboration, announces the availability of Nextcloud 9 with enterprise support options and the upcoming availability of enterprise functionality under an open source license.</p>
 
 <p>The first release delivers a capable, proven platform replacing existing cloud services for modern enterprises with a privacy-aware, secure solution under an open source license. Introducing often requested features like a file drop capability, a theming interface and enterprise grade logging, backed by long term, enterprise grade support, Nextcloud 9 provides a solid solution to migrate to for customers.</p>
@@ -13,4 +14,4 @@
 
 <p>About Nextcloud<br />
 Enterprises managing confidential data and communication internally and externally rely on Nextcloud's secure, on-premise enterprise file access and communication platform. Nextcloud combines unprecedented universal access to data with next-generation secure communication and collaboration capabilities under direct control of IT and integrated with existing compliant infrastructure. Nextcloud's open, modular architecture, emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing assets within and across the borders of their organization. For more information, visit https://nextcloud.com</p>
- 
+</div>

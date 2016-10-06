@@ -7,17 +7,17 @@
 <p>We're a modern, distributed, open source company. It is our mission to provide our users and customers with the means for data storage, access and communication under their control; protecting their privacy and security.</p>
 <p>We pursue a fully-open strategy, keeping internal communication to a minimum while aiming to work, discuss and develop in public. We're a thriving, quickly growing company with a solid customer base.</p>
 <h2>Job openings</h2>
-<h3 class="jobs">Sales Account Manager DACH/Europe</h3>
-<p>Nextcloud is getting an overwhelming response in the market and thus we are looking for a Sales Account Manager who can sell a product and services in multiple verticals. In this role you'll work to identify, nurture and close opportunities with new and existing customers, manage sales forecasts and track customer data. You will be responsible for all aspects of the sale, including pricing negotiations, contract development, and order fulfillment, managing the needed internal resources like technical or sales engineering support. An open source background is required.</p>
-<p>This position would ideally be based in Hamburg, Frankfurt or Munich but we are open to remote work.</p>
+<h3 class="jobs">Sales Engineer / Manager DACH/Europe</h3>
+<p>Nextcloud is getting an overwhelming response in the market and thus we are looking for another (junior) sales engineer and manager who can help sell our product and services in multiple verticals. In this role you'll work as a member of our sales team to identify, nurture and close opportunities with new and existing customers, presenting our product to them and helping them with Proof of Concepts. We would appreciate somebody with an open source background!</p>
+<p>This position would ideally be based in Stuttgart, Hamburg, Frankfurt or Munich but we are open to remote work.</p>
 <p>Responsibilities:
 <ul>
-	<li>Sell Nextcloud products</li>
+	<li>Present and sell Nextcloud products</li>
 	<li>Meet sales goals and represent and develop our brand, product and value proposition</li>
 	<li>Identify and build new relationships, and strengthen existing relationships with our customers</li>
-	<li>Update and manage the pipeline and prepare revenue forecasts</li>
-	<li>Create strategic and tactical sales plans to maximize revenue and growth</li>
 	<li>Provide credibility to customers and analyze their business and technical requirements</li>
+	<li>Work with customers on Proof of Concept deployments</li>
+	<li>Present the product and answer technical questions.</li>
 </ul>
 Required skills:
 <ul>
@@ -25,8 +25,8 @@ Required skills:
 	<li>Bachelor's degree, ideally in marketing, business or a technical discipline</li>
 	<li>A focus on solutions sales in a competitive environment</li>
 	<li>experience with cloud, storage, groupware, communication and/or collaboration technologies is a plus</li>
-	<li>A strong understanding of the sales cycle from prospecting to closing</li>
 	<li>Insight in benefits of a open source support and service business model</li>
+	<li>Writing and speaking German language</li>
 </ul>
 What we offer:
 <ul>
@@ -36,9 +36,9 @@ What we offer:
 	<li>Flexibility for a healthy work-life balance</li>
 	<li>Time for personal growth and education</li>
 </ul>
-Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+<p>We're looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 <h3 class="jobs">Linux Kernel and Embedded Engineer</h3>
-<p>To satisfy the demand for our Spreedbox, we are seeking a Linux kernel and embedded development expert to join our team in Stuttgart. In this role you're responsible for the technical foundation of this product.</p>
+<p>To satisfy the demand for our Spreedbox, we are seeking a Linux kernel and embedded development expert to join our team in Stuttgart (but we are open to remote work!). In this role you're responsible for the technical foundation of this product.</p>
 <p>Responsibilities:
 <ul>
 	<li>Software development for Linux and C/C++</li>
@@ -62,6 +62,6 @@ What we offer:
 	<li>Flexibility for a healthy work-life balance</li>
 	<li>Time for personal growth and education</li>
 </ul>
-If you are interested, shoot us an email at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a>.</p>
+We are looking for all people open to learning and growing into this role! If you are interested, shoot us an email at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a>.</p>
 <h3>And more</h3>
 <p>We're always looking for talented new people in all areas of our business--from engineering and support to sales and marketing. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> and tell us how you can help!</p>

@@ -1,4 +1,4 @@
-<h1>Core ownCloud Contributors Fork ownCloud Into Nextcloud</h1>
+<div class="pr"><h1>Core ownCloud Contributors Fork ownCloud Into Nextcloud</h1>
 <p><strong>Stuttgart, Germany - June 2nd, 2016</strong> Disrupting the market for open source enterprise file access, collaboration and communication, Nextcloud today announced its launch by successful open source entrepreneurs and co-managing directors, Niels Mache and Frank Karlitschek, founder of the ownCloud project.</p>
 
 <p>Nextcloud offers a comprehensive replacement and privacy-aware alternative for existing cloud services for enterprise use and with long term, enterprise grade support. It features secure fully federated universal file access and communication platform.  It integrates with the innovative secure Spreed.ME communication platform and will be available for download as well as for purchase with the international award winning Spreedbox cloud communicator.</p>
@@ -15,3 +15,4 @@
 
 <p>About Nextcloud<br />
 Enterprises managing confidential data and communication internally and externally rely on Nextcloud's secure, on-premise enterprise file access and communication platform. Nextcloud combines unprecedented universal access to data with next-generation secure communication and collaboration capabilities under direct control of IT and integrated with existing compliant infrastructure. Nextcloud's open, modular architecture, emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing assets within and across the borders of their organization. For more information, visit https://nextcloud.com</p>
+</div>

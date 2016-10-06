@@ -183,12 +183,14 @@
       },
 	{
          "title":"woelkli Cloud Storage",
-         "url":"https:\/\/woelkli.com/en/about",
+         "url":"https:\/\/woelkli.com/",
          "flags":[
             "ch",
             "fr",
             "at",
-            "de"
+            "de",
+            "gb",
+            "eu"
          ],
          "freeplans":true,
 		 "supports":"both",
@@ -199,7 +201,7 @@
       },
 	{
          "title":"CW-Film - HomeCloud",
-         "url":"https:\/\/www.cw-film.com\/homecloud",
+         "url":"http:\/\/www.cw-film.com\/homecloud",
          "flags":[
             "de"
          ],
@@ -240,7 +242,7 @@
          "imagename":"nimmerland.png"
       },
 	{
-         "title":"OwnDrive.com",
+         "title":"OwnDrive",
          "url":"https:\/\/owndrive.com",
          "flags":[
             "no",
@@ -252,8 +254,112 @@
          "freeplans":true,
 		 "supports":"both",
          "specializes":[
-            "Security and privacy oriented cloud storage service provider based in Europe with headquarters in Norway. "
+            "Security and privacy oriented cloud storage service provider based in Europe with headquarters in Norway."
          ],
          "imagename":"owndrive.png"
+      },
+	{
+         "title":"K and T Host",
+         "url":"https:\/\/www.knthost.com\/nextcloud-hosting",
+         "flags":[
+            "us",
+            "ca",
+            "cl",
+            "ar",
+            "mx"
+         ],
+         "freeplans":false,
+		 "supports":"both",
+         "specializes":[
+            "We offer scalable Nextcloud hosting on a clustered infrastructure with compressed data storage and unmetered bandwidth. Free trial and free setup."
+         ],
+         "imagename":"kandthost.png"
+      },
+	{
+         "title":"Pixel X e.K.",
+         "url":"https:\/\/www.pixelx.de/nextcloud.html",
+         "flags":[
+            "de",
+            "eu"
+         ],
+         "freeplans":true,
+		 "supports":"both",
+         "specializes":[
+            "Hosting Solutions for your Nextcloud, from free to middle SaaS installations (2-200GB) with free support to scalable Enterprise Cloud Containers."
+         ],
+         "imagename":"pixelx.png"
+      },
+	{
+         "title":"Sendin B.V.",
+         "url":"https:\/\/www.sendin.nl",
+         "flags":[
+            "nl"
+         ],
+         "freeplans":false,
+		 "supports":"both",
+         "specializes":[
+            "Sendin offers managed Nextcloud hosting on Dutch servers. Our enterprise app supports file distribution, paperless meetings and project management."
+         ],
+         "imagename":"sendin.png"
+      },
+	{
+         "title":"KLE-Hosting GbR",
+         "url":"https:\/\/www.kle-hosting.de\/klecloud",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+		 "supports":"both",
+         "specializes":[
+            "Die eigene Cloud für Privat und Firmen mit höchster Datensicherheit und bester Leistung. Nutze jetzt die Vorteile der KLE-Cloud-Storage."
+         ],
+         "imagename":"klecloud.png"
+      },
+	{
+         "title":"oCloud.de",
+         "url":"https:\/\/next.ocloud.de\/products.php",
+         "flags":[
+            "de",
+            "at",
+            "ch",
+            "uk",
+            "us",
+            "all"
+         ],
+         "freeplans":true,
+		 "supports":"both",
+         "specializes":[
+            "oCloud.de bietet die Original Nextcloud demnaechst auch mit Dokumentenverwaltung an."
+         ],
+         "imagename":"ocloud.png"
+      },
+    {
+         "title":"Portknox.net",
+         "url":"https:\/\/portknox.net",
+         "flags":[
+            "de",
+            "eu",
+            "all"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Nextcloud Hosing with love from Munich/Germany. Managed, Secure & specialised. 100% Admin-Accounts, no shared instances."
+         ],
+         "imagename":"portknox.png"
+      },
+    {
+         "title":"Manuel Proksch",
+         "url":"https:\/\/m-pr.at\/?page_id=19",
+         "flags":[
+            "de",
+            "at"
+         ],
+         "freeplans":true,
+         "supports":"both",
+         "specializes":[
+            "Nextcloud Paket 1: 15 GB Speicherplatz, unlimited Traffic, Netzwerkanbindung bis zu Gbit EUR 5/Monat (1. Monat gratis testen)"
+         ],
+         "imagename":"EDV-Service.png"
       }
 ]

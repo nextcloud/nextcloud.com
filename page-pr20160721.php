@@ -1,4 +1,4 @@
-<h1>Beta of Nextcloud 10 with Brute Force Protection, Two-Factor Authentication, Improved Federation and more</h1>
+<div class="pr"><h1>Beta of Nextcloud 10 with Brute Force Protection, Two-Factor Authentication, Improved Federation and more</h1>
 
 <p><strong>Stuttgart, Germany, July 21, 2016</strong> Nextcloud GmbH, the company behind the next generation privacy-aware open source file sync and share, communication and collaboration technology announces Beta of Nextcloud 10 with groundbreaking security, federation and feature improvements.</p>
 
@@ -20,3 +20,4 @@
 
 <p>About Nextcloud<br />
 Nextcloud offers a unique-in-the-industry fully open source solution for on-premise data handling and communication with a uncompromising focus on security and privacy. Nextcloud brings together universal access to data with next-generation secure communication and collaboration capabilities under direct control of IT and integrated with existing compliant infrastructure. Nextcloud's open, modular architecture, emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing assets within and across the borders of their organization. For more information, visit https://nextcloud.com or follow @Nextclouders on Twitter.</p>
+</div>

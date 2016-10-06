@@ -49,32 +49,38 @@
 		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
-		<td class="einfo"><span title="Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging and more.">Enterprise capabilities</span></td>
+		<td class="einfo"><span title="Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.">Enterprise capabilities</span></td>
+		<td class="ebasic text-center"><i class="icon-check"></i></td>
+		<td class="epro text-center"><i class="icon-check"></i></td>
+		<td class="eenterprise text-center"><i class="icon-check"></i></td>
+	</tr>
+	<tr>
+		<td class="einfo"><span title="the AGPL license provides legal certainty for all customers and users.">Fully Open Source <a href="#license"> </span> <i class="icon-info"> </i> </a></td>
 		<td class="ebasic text-center"><i class="icon-check"></i></td>
 		<td class="epro text-center"><i class="icon-check"></i></td>
 		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="Support for the Calendar and Contacts apps.">Calendar and Contacts</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="epro text-center"><i class="icon-check"></i></td>
 		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
-		<td class="einfo"><span title="Secure and private peer to peer audio and video conferencing.">Secure WebRTC Conferencing</span></td>
-		<td class="ebasic text-center">-</td>
-		<td class="epro text-center"><i class="icon-check"></i></td>
-		<td class="eenterprise text-center"><i class="icon-check"></i></td>
+		<td class="einfo"><span title="Support for our secure and private peer to peer audio and video conferencing.">Secure WebRTC Conferencing</span></td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
+		<td class="epro text-center"><span title="can be purchased at additional cost.">Optional</span></td>
+		<td class="eenterprise text-center"><span title="can be purchased at additional cost.">Optional</span></td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="Allows web conferencing calls to connect with phone lines.">SIP gateway</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="einfo epro text-center"><span title="can be purchased at additional cost.">Optional</span></td>
-		<td class="eenterprise text-center">Included</td>
+		<td class="eenterprise text-center"><span title="can be purchased at additional cost.">Optional</span></td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.">Collabora Online Office</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="einfo epro text-center"><span title="can be purchased at additional cost (starting at 7€/user/year.">Optional</span></td>
 		<td class="einfo eenterprise text-center"><span title="can be purchased at additional cost (starting at 7€/user/year.">Optional</span></td>
 	</tr>
@@ -108,26 +114,26 @@
 	</tr>
 	<tr>
 		<td class="einfo"><span title="You can contact our capable and responsive support team by email and expect a quick response time.">Email support</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="epro text-center">Business hours</td>
 		<td class="eenterprise text-center">up to 24/7</td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="You can contact our support engineers by phone in these times.">Phone support</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="epro text-center">Business hours</td>
 		<td class="eenterprise text-center">up to 24/7</td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="If you need access to experienced engineers to built custom solutions for your unique needs.">Custom consulting</span></td>
-		<td class="ebasic text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
 		<td class="epro text-center"><i class="icon-check"></i></td>
 		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
 		<td class="einfo"><span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering support</span></td>
-		<td class="ebasic text-center">-</td>
-		<td class="epro text-center">-</td>
+		<td class="ebasic text-center"><i class="icon-times"></i></td>
+		<td class="epro text-center"><i class="icon-times"></i></td>
 		<td class="eenterprise text-center"><i class="icon-check"></i></td>
 	</tr>
 	<tr>
@@ -143,50 +149,102 @@
 		<td class="eenterprise"></td>
 	</tr>
 	<tr>
-		<td class="">51-100</td>
+		<td class="">Users 51-100</td>
 		<td class="ebasic price"><a href="#contact">30€/user</a></td>
 		<td class="epro price"><a href="#contact">50€/user</a></td>
 		<td class="eenterprise price"><a href="#contact">65€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">101-250</td>
+		<td class="">Users 101-250</td>
 		<td class="ebasic price"><a href="#contact">20€/user</a></td>
 		<td class="epro price"><a href="#contact">30€/user</a></td>
 		<td class="eenterprise price"><a href="#contact">50€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">251-1000</td>
+		<td class="">Users 251-1000</td>
 		<td class="ebasic price"><a href="#contact">15€/user</a></td>
 		<td class="epro price"><a href="#contact">20€/user</a></td>
 		<td class="eenterprise price"><a href="#contact">30€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">1001-2500</td>
-		<td class="ebasic price">-</td>
+		<td class="">Users 1001-2500</td>
+		<td class="ebasic price"><i class="icon-times"></i></td>
 		<td class="epro price"><a href="#contact">15€/user</a></td>
 		<td class="eenterprise price"><a href="#contact">20€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">2501-10.000</td>
-		<td class="ebasic price">-</td>
-		<td class="epro price">-</td>
+		<td class="">Users 2501-10.000</td>
+		<td class="ebasic price"><i class="icon-times"></i></td>
+		<td class="epro price"><i class="icon-times"></i></td>
 		<td class="eenterprise price"><a href="#contact">15€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">10.001-25.000</td>
-		<td class="ebasic price">-</td>
-		<td class="epro price">-</td>
+		<td class="">Users 10.001-25.000</td>
+		<td class="ebasic price"><i class="icon-times"></i></td>
+		<td class="epro price"><i class="icon-times"></i></td>
 		<td class="eenterprise price"><a href="#contact">10€/user</a></td>
 	</tr>
 	<tr>
-		<td class="">>25.000</td>
-		<td class="ebasic price">-</td>
-		<td class="epro  price">-</td>
+		<td class="">Users >25.000</td>
+		<td class="ebasic price"><i class="icon-times"></i></td>
+		<td class="epro  price"><i class="icon-times"></i></td>
 		<td class="eenterprise text-center"><a href="#contact">Contact us!</a></td>
 	</tr>
 </table>
-<p class="epricevat">Prices are in Euro and net/excl. VAT.</p>
-<p>* with optional additional 5 years Extended Life Cycle Support.</p>
+<p class="epricevat">* with optional an additional 5 years Extended Life Cycle Support reaching up to 15 years in total.</p>
+<p class="epricevat">Prices are in Euro and net/excl. VAT. <span class="caret"></span><a href="#pricing" data-toggle="collapse"> pricing example</a>
+	<div id="pricing" class="collapse">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-6">
+				<p>We have a tiered price list.</p>
+				<p>Example for 500 users Standard Subscription:
+<!-- 				<div class="col-md-6"> -->
+				<table class="table table-striped">
+					<tr>
+						<td>
+						The first 50 users:
+						</td>
+						<td>
+							+ 2.500€
+						</td>
+					</tr>
+					<tr>
+						<td>
+						User 51-100 (50*50€):
+						</td>
+						<td>
+							+ 2.500€
+						</td>
+					</tr>
+					<tr>
+						<td>
+						User 101-250 (150*30€):
+						</td>
+						<td>
+							+ 4.500€
+						</td>
+					</tr>
+					<tr>
+						<td>
+						User 251-500 (250*20€):
+						</td>
+						<td>
+							+ 5.500€
+						</td>
+					</tr>
+					<tr class="success">
+						<td>
+						total for 500 users
+						</td>
+						<td>
+							= 14.500€
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</p>
 
 <div class="row egetstarted">
 	<div class="col-md-2 col-md-offset-5">
@@ -210,41 +268,19 @@
 		Organizations in the educational sector receive a significant discount on all subscriptions
 	</div>
 </div>
-
-<div class="row">
-	<div class="col-md-12">
-		<h2>Frequently asked questions</h2>
-	</div>
-	<div class="col-md-12 col-sm-12">
-		<h3>Why would I pay for open source software?</h3>
-		<p>Nextcloud is great out of the box. But installing and running a server in a secure and reliable manner and for hundreds or thousands of users, important for a mission critical environment, is not always easy. You probably want access to an expert if something does not function as expected. We provide not only that but also pro-active support with installation and security issues, we reach out when we do feature planning to ensure your needs are served and we support Nextcloud long after you would otherwise be forced to upgrade for security, performance and stability reasons.</p>
-		<p>By offering more in-depth knowledge than anybody else, we give you the confidence you need to be able to rely on Nextcloud.</p>
-		
-		<h3>In what languages do I get support?</h3>
-		<p>We provide support in German and English and other languages through our partners, <a href="#contact">contact us</a> for details.</p>
-
-
-		<h3>How do I buy Nextcloud subscriptions?</h3>
-		<p>Just contact us or one of our partners. Our partners will help you set up Nextcloud and they act as your first point of contact.</p>
-
-		<h3>How do I become a Nextcloud partner?</h3>
-		<p>We are always looking for competent partners who share our passion for making customers happy! You can join our ecosystem, <a href="/contact">contact us for more information</a>.</p>
-
-	</div>
-</div>
-
+<!--
 <h1>Product overview</h1>
 <p>Nextcloud gives organizations control over their data. Manage access to data across devices and platforms, on-premise, on existing storage or with cloud storage. Communicate through secure video and audio conferencing and leverage file sharing and collaboration capabilities, knowing your privacy is protected. Nextcloud integrates in your infrastructure, offering the extensibility and features you need combined with the logging and fine grained control over file access and communication required in regulated industries.</p>
 
 <div class="row egetstarted">
 	<div class="col-md-12">
-		<a class="btn btn-primary" href="/features">Learn more about Nextcloud features</a>
+		<a class="btn btn-primary" href="/features">Nextcloud features</a>
 	</div>
-</div>
+</div>-->
 
-<h2>Enterprise capabilities</h2>
+<!-- <h1>Enterprise capabilities</h1> -->
 <!--<p>If you need to handle hundreds to hundreds of thousands of users, terabytes to petabytes of data, require high availability and multi-server scaling, need integration in enterprise infrastructure and/or have specific needs around compliance in regulated industries, our Enterprise offering is perfect for you.</p>-->
-<p>Nextcloud offers you a full open source file sync & share and collaboration solution, including:
+<!--<p>Nextcloud offers you a full open source file sync & share and collaboration solution, including:
 <ul>
 	<li>File sync and share from any device and with an easy to use web interface</li>
 	<li>Access to all data in your organization, no matter where it is stored</li>
@@ -256,9 +292,9 @@
 	<li>Calendar, Contacts and secure video and audio conferencing</li>
 	<li>We continuously improve our product and add new capabilities in close collaboration with partners and customers</li>
 </ul>
-</p>
+</p>-->
 
-<h2>The Nextcloud Enterprise Subscription</h2>
+<h1>The Nextcloud Enterprise Subscription</h1>
 <p>We can provide you the confidence of knowing that your Nextcloud deployment is backed by the technical expertise of the team behind the product and with the features you need for your organization.</p>
 
 <p>With the Nextcloud Enterprise subscription you get:
@@ -275,9 +311,55 @@
 	<li>Optional Online Office capabilities which can handle a wide range of industry-standard file formats</li>
 </ul>
 
-<h3>Consulting</h3>
+<h2>Consulting</h2>
 
 <p>Nextcloud consulting goes beyond technical expertise, offering strategic advice for organizations. We analyze your challenges and help you implement a comprehensive, cost-effective and compliance-aware solution which reduces complexity and risks while delivering the highest security and privacy protection.</p>
+
+<!--<a href="#license" data-toggle="collapse">--><h2>Legal: Open Source Licenced</h2>
+<!--<div id="license" class="collapse">-->
+<a name="license"></a>
+<p>Nextcloud is licensed under the GNU AGPLv3, one of the most widely used Open Source license. Written with input from lawyers and industry leaders from all over the world, it is a clear, balanced and well understood license, providing users a level of certainty no license from any single company can give. Today it is a widely used and broadly accepted license across various stakeholders, including developers, users, organizations and large enterprises. The AGPLv3 guarantees that all users of the software can use, study, share and improve the software without any legal risks. Further it's patent clause ensures all users have a non-exclusive, non-transferable, worldwide, royalty-free license on any patents owned by code contributors now or in the future. On top of this, Nextcloud GmbH guarantees that every customer can use Nextcloud and exercise all rights given by the GNU AGPLv3 without violating any patents or copyright.</p><!--</div>-->
+
+<a class="btn btn-secondary" href="#contact">Get the Enterprise Subscription!</a>
+
+<div class="row">
+	<div class="col-md-12">
+		<h2>Frequently asked questions</h2>
+	</div>
+	<div class="col-md-12 col-sm-12">
+		<a href="#why_pay" data-toggle="collapse"><h3>Why would I pay for open source software?</h3></a>
+		<div id="why_pay" class="collapse">
+		<p>Nextcloud is great out of the box. But installing and running a server in a secure and reliable manner and for hundreds or thousands of users, important for a mission critical environment, is not always easy. You probably want access to an expert if something does not function as expected. We provide not only that but also pro-active support with installation and security issues, we reach out when we do feature planning to ensure your needs are served and we support Nextcloud long after you would otherwise be forced to upgrade for security, performance and stability reasons.</p>
+		<p>By offering more in-depth knowledge than anybody else, we give you the confidence you need to be able to rely on Nextcloud.</p></div>
+		<a href="#languages" data-toggle="collapse"><h3>In what languages do I get support?</h3></a>
+		<div id="languages" class="collapse">
+		<p>We provide support in German and English and other languages through our partners, <a href="#contact">contact us</a> for details.</p></div>
+
+		<a href="#howbuy" data-toggle="collapse"><h3>How do I buy Nextcloud subscriptions?</h3></a>
+		<div id="howbuy" class="collapse">
+		<p>Just contact us or one of our partners. Our partners will help you set up Nextcloud and they act as your first point of contact.</p></div>
+
+		<a href="#partner" data-toggle="collapse"><h3>How do I become a Nextcloud partner?</h3></a>
+		<div id="partner" class="collapse">
+		<p>We are always looking for competent partners who share our passion for making customers happy! You can join our ecosystem, <a href="/contact">contact us for more information</a>.</p></div>
+
+		<a href="#sourcerelease" data-toggle="collapse"><h3>Do I have to release the source code of systems Nextcloud connects to?</h3></a>
+		<div id="sourcerelease" class="collapse">
+		<p>No. Nextcloud will communicate with your back-end systems over external APIs. Those systems will not become a derivative work of Nextcloud just because they communitcate with it. Therefore you can keep the source code of your back-end systems private and don't have to share it with anyone.</p></div>
+
+		<a href="#logos" data-toggle="collapse"><h3>Are my logos or the company name affected by the AGPL?</h3></a>
+		<div id="logos" class="collapse">
+		<p>No. Logos, company names, etc. are protected by trademarks. The GNU AGPLv3 is a copyright license and don't affect any trademarks. If you put your logo on your Nextcloud it is considered merely as data used by Nextcloud and has no effect on licenses or trademarks.</p></div>
+
+		<a href="#pubsource" data-toggle="collapse"><h3>Do I need to publish the source code if I use Nextcloud?</h3></a>
+		<div id="pubsource" class="collapse">
+		<p>No. As long as you didn't make any modifications to Nextcloud, make modifications to existing apps or write your own apps, you don't have to do anything. If you did make modifications, then you have to make that code available under the GNU AGPLv3 or a compatible license to the users of the system. The easiest way to do so is to provide a download link. In any case, Nextcloud GmbH is happy to assist you if you need more information on how to distribute your code.</p></div>
+
+		<a href="#sellapp" data-toggle="collapse"><h3>Can I sell my Nextcloud App?</h3></a></a>
+		<div id="sellapp" class="collapse">
+		<p>Yes. Nextcloud is licensed under the GNU AGPLv3. This license only defines the rights you have to give the users of the software, but not how they get the software. You can decide freely if you want to sell the software in an app store or through any other channel, or if you want to make the app publicly available. The only requiremnt is, that you license your app under the AGPLv3 or any compatible license.</p></div>
+	</div>
+</div>
 
 <a name="contact"></a>
 <h3>Contact us for more information and a quote fitting your use case.</h3>

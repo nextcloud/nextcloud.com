@@ -2,15 +2,15 @@
 // Strings used throughout Nextcloud.org.
 
 /* VERSIONS */
-$VERSIONS_SERVER_MAJOR_STABLE = '9';
-$VERSIONS_SERVER_FULL_STABLE = '9.0.53';
-$VERSIONS_SERVER_MAJOR_DEVELOPMENT = '10';
-$VERSIONS_SERVER_MAJOR_DEV_DOCS = '9'; // Used in dev docs links
-$VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.2.2';
+$VERSIONS_SERVER_MAJOR_STABLE = '10';
+$VERSIONS_SERVER_FULL_STABLE = '10.0.1';
+$VERSIONS_SERVER_MAJOR_DEVELOPMENT = '11';
+$VERSIONS_SERVER_MAJOR_DEV_DOCS = '10'; // Used in dev docs links
+$VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.2.4';
 $VERSIONS_CLIENT_DESKTOP_STABLE_SHORT = '2.2'; // For use in documentation link
 
 /* DOCUMENTATION */
-$DOCUMENTATION_BASE = 'https://docs.nextcloud.org';
+$DOCUMENTATION_BASE = 'https://docs.nextcloud.com';
 $DOCUMENTATION_DEVELOPER = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR_DEV_DOCS.'/developer_manual/';
 $DOCUMENTATION_ADMIN = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR_STABLE.'/admin_manual/';
 $DOCUMENTATION_USER = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR_STABLE.'/user_manual/';
@@ -22,23 +22,23 @@ $DOCUMENTATION_CLIENT_DESKTOP = $DOCUMENTATION_BASE.'/desktop/'.$VERSIONS_CLIENT
 $NEXTCLOUD_GPG = 'https://nextcloud.com/nextcloud.asc';
 
 // Desktop client stable
-$DOWNLOAD_CLIENT_DESKTOP_BASE = 'https://download.owncloud.com/desktop/stable/';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN = $DOWNLOAD_CLIENT_DESKTOP_BASE.'ownCloud-2.2.2.6192-setup.exe';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC = $DOWNLOAD_CLIENT_DESKTOP_BASE.'ownCloud-2.2.2.3472.pkg';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX = 'https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES = $DOWNLOAD_CLIENT_DESKTOP_BASE.'owncloudclient-2.2.2.tar.xz';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES.'.asc';
+$DOWNLOAD_CLIENT_DESKTOP_BASE = 'https://download.nextcloud.com/desktop/releases/';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Windows/Nextcloud-2.2.4.2-setup.exe';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Mac/Installer/Nextcloud-2.2.4.1.pkg';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX = 'https://github.com/nextcloud/client_theming';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES = 'https://github.com/nextcloud/client_theming';
+// $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES.'.asc';
 
 // Desktop client testing
-$VERSIONS_CLIENT_DESKTOP_TESTING = '';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_BASE= 'https://download.nextcloud.com/desktop/testing/';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'Nextcloud-2.2.0.6069rc1-setup.exe';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'Nextcloud-2.2.0.3346rc1.pkg';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX = 'https://software.opensuse.org/download/package?project=isv:Nextcloud:community:testing&package=nextcloud-client';
-$DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'testpilotcloud-2.2.0.6070rc1-setup.exe';
-$DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'testpilotcloud-2.2.0.3347rc1.pkg';
-$DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_LINUX = 'https://software.opensuse.org/download/package?project=isv:Nextcloud:community:testing&package=testpilotcloud-client';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES= $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'nextcloudclient-2.2.0rc1.tar.xz';
+$VERSIONS_CLIENT_DESKTOP_TESTING = '2.2.3RC1';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_BASE= 'https://download.nextcloud.com/desktop/prereleases/';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'Windows/Nextcloud-2.2.3.3-rc1.exe';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'Mac/Nextcloud-2.2.3.3rc1.pkg';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX = 'https://github.com/nextcloud/client_theming';
+$DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'';
+$DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'';
+$DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_LINUX = '';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES= $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES.'.asc';
 
 // Server
@@ -60,11 +60,12 @@ $DOWNLOAD_SERVER_DAILY_TAR = $DOWNLOAD_SERVER_BASE.'daily/latest.tar.bz2';
 $DOWNLOAD_SERVER_DAILY_TAR_MD5 = $DOWNLOAD_SERVER_BASE.'daily/latest.tar.bz2.md5';
 $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.nextcloud.com/download/repositories/nightly/nextcloud';
 
+
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.nextcloud.com/server/prereleases/';
-$SERVER_TESTING_VERSION ='10.0 beta';
-$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-10.0beta.tar.bz2';
-$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-10.0beta.zip';
+$SERVER_TESTING_VERSION ='';
+$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-10.0RC1.tar.bz2';
+$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-10.0RC1.zip';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.nextcloud.com/download/community/setup-nextcloud.php';
@@ -80,7 +81,7 @@ $DOWNLOAD_VM_VMDK  = $DOWNLOAD_VM_BASE.'Ubuntu_'.$VM_UBUNTU_RELEASE.'-nextcloud-
 $DOWNLOAD_VM_VMX   = $DOWNLOAD_VM_BASE.'Ubuntu_'.$VM_UBUNTU_RELEASE.'-nextcloud-'.$VERSIONS_VM.'.vmx.zip';
 
 // Mobile clients
-$DOWNLOAD_CLIENT_MOBILE_IOS = 'https://itunes.apple.com/app/id1125420102';
+$DOWNLOAD_CLIENT_MOBILE_IOS = 'https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8';
 $DOWNLOAD_CLIENT_MOBILE_ANDROID = 'https://play.google.com/store/apps/details?id=com.nextcloud.client';
 $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA = 'https://play.google.com/apps/testing/com.nextcloud.client';
 $DOWNLOAD_CLIENT_MOBILE_BLACKBERRY = 'https://appworld.blackberry.com/webstore/content/59955931/';
