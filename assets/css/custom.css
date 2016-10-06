@@ -467,7 +467,8 @@ section#why-nextcloud {
       .Header-Navigation .navbar .overlay-menu ul .btn-primary a {
         position: relative;
         display: block;
-        padding: 15px 45px; }
+        padding: 15px 45px;
+        border-radius: 100px; }
 
 /**
 *Break Menu at 1200px
