@@ -40,11 +40,11 @@
 					<li class="nocheck"><span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering support</span></li>
 					<li class="check"><span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 1 year</span></li>
 				</div>
-				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button">BUY IT <span class="icon-arrow"></span></a>
+				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button">Request offer <span class="icon-arrow"></span></a>
 			</div>
 		</div>
 		<div class="col-md-4 table-column">
-			<div class="table-header standart">
+			<div class="table-header standard">
 				<h1>Standard</h1>
 				<h2>From 2500€/year</h2>
 			</div>
@@ -73,7 +73,7 @@
 					<li class="nocheck"><span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering support</span></li>
 					<li class="check"><span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 3 years</span></li>
 				</div>
-				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button">BUY IT <span class="icon-arrow"></span></a>
+				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button">Request offer <span class="icon-arrow"></span></a>
 			</div>
 		</div>
 		<div class="col-md-4 table-column highlight">
@@ -106,7 +106,7 @@
 					<li class="check"><span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering</span></li>
 					<li class="check"><span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 5+5 years</span></li>
 				</div>
-				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button">BUY IT <span class="icon-arrow"></span></a>
+				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button">Request offer <span class="icon-arrow"></span></a>
 			</div>
 		</div>
 	</div>
