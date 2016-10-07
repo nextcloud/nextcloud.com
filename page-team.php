@@ -58,7 +58,7 @@
 				<h3 class="teamtitle">Senior Solutions Consultant</h3>
 				<h4 class="teamexpertise">Business solutions, multimedia and Snap</h4>
 				<h4 class="teamlocation">lives in Lausanne, Switzerland</h4>
-				<p class="teamsocial"><a href="https://www.linkedin.com/in/olivierparoz"><i class="icon-rss icon"></i></a> <a href="https://github.com/oparoz"><i class="icon-github icon"></i></a><a href="https://twitter.com/oparoz"><i class="icon-twitter icon"></i></a></p>
+				<p class="teamsocial"><a href="https://www.linkedin.com/in/olivierparoz"><i class="icon-rss icon"></i></a> <a href="https://github.com/oparoz"><i class="icon-github icon"></i></a> <a href="https://twitter.com/oparoz"><i class="icon-twitter icon"></i></a></p>
 			</div>
 			<p class="teamdescription">Olivier studied Economics and Information and Communications Systems Management at the University of Geneva. He has 15 years experience in delivering strategic solutions with a focus on open source, security and privacy for customers in industries as diverse as telecom, media, insurance, retail, broadcasting, sports and science.</p>
 		</div>
