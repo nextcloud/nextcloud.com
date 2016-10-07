@@ -32,7 +32,7 @@ $oldPages = [
 	'contactform',
 	'contactsubmit',
 	'contribute',
-	'contibutors',
+	'contributors',
 	'design',
 	'desktop',
 	'events',
