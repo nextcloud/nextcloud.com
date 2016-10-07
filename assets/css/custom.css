@@ -880,7 +880,6 @@ h5 {
   position: relative;
   border: none;
   font-weight: 600;
-  padding: 25px 100px;
   border-radius: 100px;
   transition: all 0.3s ease 0s; }
   .btn-primary:before {
