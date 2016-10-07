@@ -17,7 +17,7 @@
 			<h2 class="teamname">Frank Karlitschek</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Managing Director</h3>
-				<h4 class="teamexpertise">founder</h4>
+				<h4 class="teamexpertise">Founder</h4>
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 				<p class="teamsocial"><a href="https://karlitschek.de/"><i class="icon-rss icon"></i></a> <a href="https://github.com/karlitschek"><i class="icon-github icon"></i></a> <a href="https://twitter.com/fkarlitschek"><i class="icon-twitter icon"></i></a> </p>
 			</div>
@@ -57,7 +57,7 @@
 			<div class="teammeta">
 				<h3 class="teamtitle">Senior Solutions Consultant</h3>
 				<h4 class="teamexpertise">Business solutions, multimedia and Snap</h4>
-				<h4 class="teamlocation">lives in lausanne, Switzerland</h4>
+				<h4 class="teamlocation">lives in Lausanne, Switzerland</h4>
 				<p class="teamsocial"><a href="https://www.linkedin.com/in/olivierparoz"><i class="icon-rss icon"></i></a> <a href="https://github.com/oparoz"><i class="icon-github icon"></i></a><a href="https://twitter.com/oparoz"><i class="icon-twitter icon"></i></a></p>
 			</div>
 			<p class="teamdescription">Olivier studied Economics and Information and Communications Systems Management at the University of Geneva. He has 15 years experience in delivering strategic solutions with a focus on open source, security and privacy for customers in industries as diverse as telecom, media, insurance, retail, broadcasting, sports and science.</p>
@@ -94,7 +94,7 @@
 			<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/lukas.jpg" />
 			<h2 class="teamname">Lukas Reschke</h2>
 			<div class="teammeta">
-				<h3 class="teamtitle">Security lead</h3>
+				<h3 class="teamtitle">Security Lead</h3>
 				<h4 class="teamexpertise">Security</h4>
 				<h4 class="teamlocation">lives in St. Gallen, Switzerland</h4>
 				<p class="teamsocial"><a href="https://statuscode.ch/"><i class="icon-rss icon"></i></a> <a href="https://github.com/LukasReschke"><i class="icon-github icon"></i></a> <a href="https://twitter.com/LukasReschke"><i class="icon-twitter icon"></i></a> </p>
@@ -120,7 +120,7 @@
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
 			<h2 class="teamname">Jan-Christoph Borchardt</h2>
 			<div class="teammeta">
-				<h3 class="teamtitle">Design lead</h3>
+				<h3 class="teamtitle">Design Lead</h3>
 				<h4 class="teamexpertise">simplicity & ease of use</h4>
 				<h4 class="teamlocation">lives in Ljubljana, Slovenia</h4>
 				<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="icon-rss icon"></i></a> <a href="https://github.com/jancborchardt"><i class="icon-github icon"></i></a> <a href="https://twitter.com/jancborchardt"><i class="icon-twitter icon"></i></a> </p>
