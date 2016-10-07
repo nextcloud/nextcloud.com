@@ -30,3 +30,9 @@ $(window).load(function() {
     });
 });
 
+//Basic function to fade in the content
+$(document).ready(function() {
+	$(".FadeIn")
+		.velocity('transition.slideUpIn')
+	});
+	
