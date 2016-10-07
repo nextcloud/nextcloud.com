@@ -226,7 +226,7 @@
 			<div class="teammeta">
 				<h3 class="teamtitle">Software and Support Engineer</h3>
 				<h4 class="teamexpertise">Server and Support</h4>
-				<h4 class="teamlocation">lives near Chemnitz, Germany</h4>
+				<h4 class="teamlocation">lives in Chemnitz, Germany</h4>
 				<p class="teamsocial"><a href="http://morrisjobke.de/"><i class="icon-rss icon"></i></a> <a href="https://github.com/MorrisJobke"><i class="icon-github icon"></i></a> <a href="https://twitter.com/MorrisJbk"><i class="icon-twitter icon"></i></a> </p>
 			</div>
 			<p class="teamdescription">Morris has worked on the project since early 2013. He has worked with most components of the server and uses his experience to troubleshoot and create fixes for issues in large scale installations.</p>
