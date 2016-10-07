@@ -5,12 +5,12 @@
 <div class="jumbotron">
 <!-- 	<div class="container-fluid"> -->
 		<div class="row">
-			<div class="col-md-6 toptext">
+			<div class="col-md-6 toptext FadeIn">
 				<h1>A safe home for <br> all your data</h1>
 				<h2>Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.</h2>
-				<p><a class="btn-primary" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button">Get Nextcloud</a></p>
+				<p><a class="btn-primary FadeIn" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button">Get Nextcloud</a></p>
 			</div>
-			<div class="col-md-6 topbanner">
+			<div class="col-md-6 topbanner FadeIn">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/empty.png"> <!--empty image to ensure the viewport is big enough-->
 			</div>
 		</div>
