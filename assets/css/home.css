@@ -386,4 +386,7 @@ section#why-nextcloud {
 .news table {
   margin-left: -15px; }
 
+.revealOnScroll {
+  opacity: 0; }
+
 /*# sourceMappingURL=home.css.map */

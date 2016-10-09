@@ -30,9 +30,16 @@ $(window).load(function() {
     });
 });
 
-//Basic function to fade in the content
+// Standart Fade in animation to the content
+
 $(document).ready(function() {
-	$(".FadeIn")
-		.velocity('transition.slideUpIn')
-	});
-	
+	$(window).on('scroll.fadeOnce', function(event) {	
+		var scrollTop = $(this).scrollTop();
+		$('.revealOnScroll:not(.fade-in)').each(function(index, element) {
+			var selectorOffset = $(element).offset();
+			if (scrollTop + window.innerHeight - 100 > selectorOffset.top) {
+				$(element).addClass("fade-in").velocity('transition.slideUpIn');
+			}
+		 });
+	});	
+});
