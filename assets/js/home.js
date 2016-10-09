@@ -42,4 +42,7 @@ $(document).ready(function() {
 			}
 		 });
 	});	
+	$(".topbanner").velocity('transition.slideUpBigIn');
+	$(".toptext").velocity('transition.fadeIn', 2000);
+	$(".navbar-header").velocity('transition.fadeIn', 1000 );
 });
