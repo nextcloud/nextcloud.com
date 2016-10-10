@@ -105,5 +105,7 @@ $(document).ready(function() {
         menuAnimation.play();
         menuOpened = !menuOpened;
     });
-
+	
+	// Fade In animation 
+	$(".navbar-header").velocity('transition.fadeIn', 1000 );
 });

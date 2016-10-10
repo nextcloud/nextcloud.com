@@ -1,3 +1,11 @@
+// Top Container Animations
+
+$(document).ready(function() {
+	$(".topbanner").velocity('transition.slideUpBigIn');
+	$(".toptext").velocity('transition.fadeIn', 2000);
+});
+
+// Why nextcloud icon animations
 $(window).load(function() {
     /**
      * Animations
@@ -28,21 +36,4 @@ $(window).load(function() {
         var anim;
         anim = bodymovin.loadAnimation(params);
     });
-});
-
-// Standart Fade in animation to the content
-
-$(document).ready(function() {
-	$(window).on('scroll.fadeOnce', function(event) {	
-		var scrollTop = $(this).scrollTop();
-		$('.revealOnScroll:not(.fade-in)').each(function(index, element) {
-			var selectorOffset = $(element).offset();
-			if (scrollTop + window.innerHeight - 100 > selectorOffset.top) {
-				$(element).addClass("fade-in").velocity('transition.slideUpIn');
-			}
-		 });
-	});	
-	$(".topbanner").velocity('transition.slideUpBigIn');
-	$(".toptext").velocity('transition.fadeIn', 2000);
-	$(".navbar-header").velocity('transition.fadeIn', 1000 );
 });
