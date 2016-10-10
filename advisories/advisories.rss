@@ -5,6 +5,36 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Server: Content-Spoofing in &quot;dav&quot; app (nC-SA-2016-011)</title>
+  <description>&lt;p&gt;The exception message displayed on the DAV endpoints contained partially user-controllable input leading to a potential misrepresentation of information.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-011&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-011</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2016-011</guid>
+  <pubDate>Mon, 10 Oct 2016 13:21:06 +0200</pubDate>
+ </item><item>
+  <title>Server: Content-Spoofing in &quot;files&quot; app (nC-SA-2016-010)</title>
+  <description>&lt;p&gt;The location bar in the files app was not verifying the passed parameters. An attacker could craft an invalid link to a fake directory structure and use this to display an attacker-controlled error message to the user.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-010&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-010</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2016-010</guid>
+  <pubDate>Mon, 10 Oct 2016 13:21:06 +0200</pubDate>
+ </item><item>
+  <title>Server: Stored XSS in Gallery application (nC-SA-2016-009)</title>
+  <description>&lt;p&gt;The gallery app was not properly sanitizing exception messages from the Nextcloud server. Due to an endpoint where an attacker could influence the error message this lead to a reflected Cross-Site-Scripting vulnerability.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-009&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-009</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2016-009</guid>
+  <pubDate>Mon, 10 Oct 2016 13:21:06 +0200</pubDate>
+ </item><item>
+  <title>Server: Improper authorization check on removing shares (nC-SA-2016-007)</title>
+  <description>&lt;p&gt;The Sharing Backend as implemented in Nextcloud does differentiate between shares to users and groups. In case of a received group share, users should be able to unshare the file to themselves but not to the whole group. The previous API implementation did simply unshare the file to all users in the group.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-007</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2016-007</guid>
+  <pubDate>Mon, 10 Oct 2016 13:21:06 +0200</pubDate>
+ </item><item>
+  <title>Server: SMB User Authentication Bypass (nC-SA-2016-006)</title>
+  <description>&lt;p&gt;Nextcloud includes an optional and not by default enabled SMB authentication component that allows to authenticate users against an SMB server.&lt;/p&gt;&lt;p&gt;This backend is implemented in a way that it tries to connect to a SMB server and if that succeeded consider the user logged-in.&lt;/p&gt;&lt;p&gt;The backend did not properly take into account SMB servers that any kind of anonymous auth configured. This is the default on SMB servers nowadays and allows an unauthenticated attacker to gain access to an account without valid credentials.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The SMB backend is disabled by default and requires manual configuration in the Nextcloud config file. If you have not configured the SMB backend then you're not affected by this vulnerability.&lt;/p&gt;&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://rhinosecuritylabs.com/2016/08/operation-ownedcloud-exploitation-post-exploitation-persistence&quot;&gt;The reporter has published a blog post about this issue on their website as well.&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-006&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-006</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2016-006</guid>
+  <pubDate>Mon, 10 Oct 2016 13:21:06 +0200</pubDate>
+ </item><item>
   <title>Server: Read-only share recipient can restore old versions of file (nC-SA-2016-005)</title>
   <description>&lt;p&gt;The restore capability of Nextcloud was not verifying whether an user has only read-only access to a share. Thus an user with read-only access was able to restore old versions.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-005&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-005</link>
