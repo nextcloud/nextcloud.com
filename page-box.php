@@ -1,4 +1,4 @@
-<div class="row conf-header" style="padding-top: 150px;">
+<div class="row conf-header">
 	<div class="col-sm-8 col-sm-offset-2">
 		<img class="conf-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/box.jpg" alt="" />
 		<h1 class="box-header text-center">Introducing the Nextcloud Box</h1>
