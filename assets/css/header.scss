@@ -26,8 +26,24 @@
 
                 a {
                     color: white;
+					
+					&:after {
+					content: '';
+					display: block;
+					margin: auto;
+					height: 2px;
+					width: 0px;
+					margin-top: 10px;	
+					background: transparent;
+					transition: width .2s ease-out, background-color .5s ease;
+				}
                     &:hover{
                         text-decoration: none;
+						
+						&:after{
+								width: 100%;
+								background: white;
+						}
                     }
                 }
             }

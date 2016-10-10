@@ -40,20 +40,23 @@
     position: relative;
     margin-left: 5%;
     padding: 0;
-    .topheader {
-      padding: 0;
-      a{
-        width: 290px;
-        height: 60px;
-        padding-top: 16px
+    
+	  .topheader {
+      	padding: 0;
+      
+		a{
+			width: 290px;
+			height: 60px;
+			padding-top: 16px
       }
     }
   }
 
   .container-fluid{
-    img {
-      height: 100%;
-      width: 100%;
+    
+	  img {
+      	height: 100%;
+      	width: 100%;
     }
   }
 }
