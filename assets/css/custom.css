@@ -407,8 +407,20 @@ section#why-nextcloud {
       padding-right: 30px; }
     .Header-Navigation .navbar li a {
       color: white; }
+      .Header-Navigation .navbar li a:after {
+        content: '';
+        display: block;
+        margin: auto;
+        height: 2px;
+        width: 0px;
+        margin-top: 10px;
+        background: transparent;
+        transition: width .2s ease-out, background-color .5s ease; }
       .Header-Navigation .navbar li a:hover {
-        text-decoration: none; } }
+        text-decoration: none; }
+        .Header-Navigation .navbar li a:hover:after {
+          width: 100%;
+          background: white; } }
 @media (min-width: 1200px) and (max-width: 1200px) {
   .Header-Navigation .navbar a {
     color: #75badd; }
