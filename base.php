@@ -18,6 +18,7 @@ $oldPages = [
 	'appform-submit',
 	'apply',
 	'apply2',
+	'box',
 	'changelog',
 	'code-of-conduct',
 	'collaboraonline',
