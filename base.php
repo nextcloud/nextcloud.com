@@ -36,6 +36,7 @@ $oldPages = [
 	'contributors',
 	'design',
 	'desktop',
+	'devices',
 	'events',
 	'faq',
 	'features',
