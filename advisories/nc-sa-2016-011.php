@@ -14,7 +14,7 @@
         <p>Risk level: <strong>Low</strong></p>
         <p>CVSS v3 Base Score: 3.1 (<a href="https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N">AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/451.html">User Interface (UI) Misrepresentation of Critical Information (CWE-451)</a></p>
-        <p>HackerOne report: <a href="https://hackerone.com/reports/154827">154827</a></p>
+        <p>HackerOne report: <a href="https://hackerone.com/reports/149798">149798</a></p>
         <h3>Description</h3>
         <p><p>The exception message displayed on the DAV endpoints contained partially user-controllable input leading to a potential misrepresentation of information.</p>
 </p>
