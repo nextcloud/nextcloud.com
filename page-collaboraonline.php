@@ -183,7 +183,7 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e "domain=cloud\.nextcloud\.com" --rest
 from the output you can glean the Container ID of your Collabora Online docker image.</li>
 <li>stop and remove the Collabora Online docker image:<br/>
 <code>docker stop CONTAINER_ID</code><br/>
-docker rm CONTAINER_ID</code></li>
+<code>docker rm CONTAINER_ID</code></li>
 <li>start the new image:<br/>
 <code>docker run -t -d -p 127.0.0.1:9980:9980 -e "domain=cloud\.nextcloud\.com" --restart always --cap-add MKNOD collabora/code</code></li>
 </ul>
