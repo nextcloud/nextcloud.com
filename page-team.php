@@ -164,7 +164,7 @@
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 				<p class="teamsocial"><a href="https://schiessle.org/"><i class="icon-rss icon"></i></a> <a href="https://github.com/schiesbn"><i class="icon-github icon"></i></a> <a href="https://twitter.com/schiessle"><i class="icon-twitter icon"></i></a> </p>
 			</div>
-			<p class="teamdescription">Björn has been developing federated technology for Nextcloud since 2012. Computer Scientist, graduated at University of Stuttgart and Open Source and Open Standards Evangelist for privacy respecting, distributed and federated networks, FSFE's Deputy Coordinator Germany has a deep understanding of the technical and social aspects of privacy-aware, distributed technology.</p>
+			<p class="teamdescription">Björn has been developing federated technology for Nextcloud since 2012. Computer Scientist, graduated at University of Stuttgart and Open Source and Open Standards Evangelist for privacy respecting, distributed and federated networks, FSFE's Deputy Coordinator Germany has a deep understanding of the technical and social aspects of technology.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
@@ -182,6 +182,19 @@
 	</div>
 	<div class="col-md-4">
 		<div class="teamp">
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+			<h2 class="teamname">Georg Ehrke</h2>
+			<div class="teammeta">
+				<h3 class="teamtitle">Software Engineer</h3>
+				<h4 class="teamexpertise">Calendar</h4>
+				<h4 class="teamlocation">lives in Rostock, Germany</h4>
+				<p class="teamsocial"><a href="https://georg.coffee/"><i class="icon-rss icon"></i></a> <a href="https://github.com/georgehrke"><i class="icon-github icon"></i></a> <a href="https://twitter.com/georgehrke"><i class="icon-twitter icon"></i></a> </p>
+			</div>
+			<p class="teamdescription">Georg Ehrke is studying computer science at University of Rostock and maintainer of the Calendar app. He's been doing Nextcloud for many years and knows both the front and backend code well.</p>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="teamp">
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/ivan.jpg" />
 			<h2 class="teamname">Ivan Sein</h2>
 			<div class="teammeta">
@@ -191,6 +204,19 @@
 				<p class="teamsocial"><!--<a href="https://www.stdin.xyz/"><i class="icon-rss icon"></i></a>--> <a href="https://github.com/Ivansss"><i class="icon-github icon"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="icon-twitter icon"></i></a>--> </p>
 			</div>
 			<p class="teamdescription">Ivan graduated as CS engineer from the University of the Basque Country and has been at Struktur AG since 2013 developing the Spreed.ME iOS app and more. He joined Nextcloud in July 2016, working on the monitoring app and iOS.</p>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="teamp">
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/joachim.jpg" />
+			<h2 class="teamname">Joachim Bauch</h2>
+			<div class="teammeta">
+				<h3 class="teamtitle">Software Engineer</h3>
+				<h4 class="teamexpertise">WebRTC, realtime streaming, telephony interfacing</h4>
+				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+				<p class="teamsocial"><a href="https://www.joachim-bauch.de"><i class="icon-rss icon"></i></a> <a href="https://github.com/fancycode"><i class="icon-github icon"></i></a> <a href="https://twitter.com/fancycode"><i class="icon-twitter icon"></i></a> </p>
+			</div>
+			<p class="teamdescription">Joachim graduated computer science in Stuttgart and has been committing to various open source projects for a long time, including Google's WebRTC project and was core developer for the Red5 streaming server between 2005 and 2008.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
@@ -208,7 +234,7 @@
 	</div>
 	<div class="col-md-4">
 		<div class="teamp">
-			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person2.jpg" />
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 			<h2 class="teamname">Leon Klingele</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
@@ -230,19 +256,6 @@
 				<p class="teamsocial"><a href="http://morrisjobke.de/"><i class="icon-rss icon"></i></a> <a href="https://github.com/MorrisJobke"><i class="icon-github icon"></i></a> <a href="https://twitter.com/MorrisJbk"><i class="icon-twitter icon"></i></a> </p>
 			</div>
 			<p class="teamdescription">Morris has worked on the project since early 2013. He has worked with most components of the server and uses his experience to troubleshoot and create fixes for issues in large scale installations.</p>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="teamp">
-			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/joachim.jpg" />
-			<h2 class="teamname">Joachim Bauch</h2>
-			<div class="teammeta">
-				<h3 class="teamtitle">Software Engineer</h3>
-				<h4 class="teamexpertise">WebRTC, realtime streaming, telephony interfacing</h4>
-				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-				<p class="teamsocial"><a href="https://www.joachim-bauch.de"><i class="icon-rss icon"></i></a> <a href="https://github.com/fancycode"><i class="icon-github icon"></i></a> <a href="https://twitter.com/fancycode"><i class="icon-twitter icon"></i></a> </p>
-			</div>
-			<p class="teamdescription">Joachim graduated computer science in Stuttgart and has been committing to various open source projects for a long time, including Google's WebRTC project and was core developer for the Red5 streaming server between 2005 and 2008.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
