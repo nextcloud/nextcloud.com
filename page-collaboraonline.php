@@ -200,6 +200,8 @@ Enjoy!</p>
 	you might have started the docker container with the wrong URL. Be sure to start it with the URL of your Nextcloud server, not the server where Collabora Online runs on.</li>
 	<li><strong>Issue:</strong> <code>Connection is not allowed</code> errors.<br/>
 	It is possible your firewall is blocking connections. Try to start docker after you started the firewall, it makes changes to your iptables to enable Collabora Online to function.</li>
+    <li><strong>Issue:</strong> <code>We are sorry, this is an unexpected connection error. Please try again.</code> error.<br />
+    The Collabora Online app doesn't work at the moment, if you enable it only for certain groups. Remove the group filter in the App section.</li>
 </ul>
 Find more questions and answers in the <a href="https://help.nextcloud.com/t/issue-installing-collabora-following-official-guide/1746/58">discussion thread on the forums</a>.</p>
 
