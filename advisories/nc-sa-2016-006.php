@@ -20,7 +20,7 @@
 <p>This backend is implemented in a way that it tries to connect to a SMB server and if that succeeded consider the user logged-in.</p>
 <p>The backend did not properly take into account SMB servers that any kind of anonymous auth configured. This is the default on SMB servers nowadays and allows an unauthenticated attacker to gain access to an account without valid credentials.</p>
 <p><strong>Note:</strong> The SMB backend is disabled by default and requires manual configuration in the Nextcloud config file. If you have not configured the SMB backend then you're not affected by this vulnerability.</p>
-<p><em><a href="https://rhinosecuritylabs.com/2016/08/operation-ownedcloud-exploitation-post-exploitation-persistence">The reporter has published a blog post about this issue on their website as well.</a></em></p>
+<p><em><a href="https://rhinosecuritylabs.com/2016/10/operation-ownedcloud-exploitation-post-exploitation-persistence/">The reporter has published a blog post about this issue on their website as well.</a></em></p>
 </p>
         <h3>Affected Software</h3>
         <ul>
