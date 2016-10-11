@@ -135,7 +135,7 @@
 	<a name="contact"></a>
 	<div class="contact">
 		<h3>Contact us for more information and a quote fitting your use case.</h3>
-		<form name="sales" method="post" action="salessubmit/">
+		<form name="sales" method="post" action="../salessubmit/">
 				<p><label for="yourname">Your name<br>
 				<input  type="text" name="yourname" maxlength="60" size="60"></label></p>
 				<p><label for="email">Email<br>
