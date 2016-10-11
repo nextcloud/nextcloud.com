@@ -7,6 +7,8 @@
 		<h1 class="box-header text-center">Introducing the Nextcloud Box</h1>
 	</div>
 </div>
+<!-- Exit main: -->
+</div>
 </div>
 
 <div class="featurerow">
