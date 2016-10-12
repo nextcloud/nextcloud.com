@@ -2,7 +2,7 @@
 <div class="sub-nav"><a href="/security/advisories">Security Advisories</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/security/threat-model">Threat Model</a>
 </div>
 <h2>Security information</h2>
-<p>This page hosts our security policies and information with regards to reporting security flaws. You can <a href="<?php echo get_template_directory_uri(); ?>/advisories/advisories.rss">follow our advisories via RSS</a>.</p>
+<p>This page hosts our security policies and information with regards to reporting security flaws. Learn more about how Nextcloud offers the <a href="/secure">best security in the open source file sync and share industry here</a>. You can <a href="<?php echo get_template_directory_uri(); ?>/advisories/advisories.rss">follow our advisories via RSS</a>.</p>
 
 <!--<p>If you are looking for information on encryption, <a href="https://owncloud.org/blog/how-owncloud-uses-encryption-to-protect-your-data/" target="_blank">see this blog</a>. For more general information around security, see our <a href="/faq#security" target="_blank">FAQ questions around security</a> and follow our development on <a href="https://nextcloud.com/news" target="_blank">nextcloud.com/news</a> to learn about <a href="https://statuscode.ch/2016/06/security-and-nextcloud-9/" target="_blank">security improvements like those introduced in Nextcloud 9</a>. For server owners, our documentation has a section with <a href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_server/harden_server.html" target="_blank">best practices and tips on securing a Nextcloud server</a>.</p>-->
 <div class="row">
