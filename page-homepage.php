@@ -14,7 +14,7 @@
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/empty.png"> <!--empty image to ensure the viewport is big enough-->
 			</div>
 		</div>
-<!-- 	</div> -->
+<!-- 	</div> --> 
 </div>
 
 <section id="why-nextcloud">
@@ -151,29 +151,30 @@
 </div>
 </section>
 
-
-<div class="container-fluid news" id="social-media">
-	<div class="container">
-		<h1 class="revealOnScroll">Latest news</h1>
-		<div class="row">
-			<div class="col-md-4">
-				<h3 class="revealOnScroll">Nextcloud News</a></h3>
-				<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,4); } ?></span></p>
-				<a class="revealOnScroll" href="<?php echo home_url('news') ?>">more</a>
-			</div>
-			<div class="col-md-4">
-				<h3 class="revealOnScroll">Latest Twitter posts</h3>
-				<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,2); } ?></span></p>
-				<a class="revealOnScroll" href="https://twitter.com/nextclouders">more</a>
-			</div>
-			<div class="col-md-4">
-				<h3 class="revealOnScroll">Latest from the forum</h3>
-				<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,4); }?></span></p>
-				<a class="revealOnScroll" href="https://help.nextcloud.com">more</a>
+<section class="news-section">
+	<div class="container-fluid news" id="social-media">
+		<div class="container">
+			<h1 class="revealOnScroll">Latest news</h1>
+			<div class="row">
+				<div class="col-md-4">
+					<h3 class="revealOnScroll">Nextcloud News</a></h3>
+					<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,4); } ?></span></p>
+					<a class="revealOnScroll" href="<?php echo home_url('news') ?>">more</a>
+				</div>
+				<div class="col-md-4">
+					<h3 class="revealOnScroll">Latest Twitter posts</h3>
+					<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,2); } ?></span></p>
+					<a class="revealOnScroll" href="https://twitter.com/nextclouders">more</a>
+				</div>
+				<div class="col-md-4">
+					<h3 class="revealOnScroll">Latest from the forum</h3>
+					<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,4); }?></span></p>
+					<a class="revealOnScroll" href="https://help.nextcloud.com">more</a>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
 <div class="container-fluid" id="stay-up-to-date">
 	<div class="row stay-up-to-date">

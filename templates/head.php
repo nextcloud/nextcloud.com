@@ -22,6 +22,7 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/navigation.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
 	<script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
 	<script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.ui.min.js"></script>
 		<script type="text/javascript">

@@ -19,7 +19,7 @@
             }
 
             li {
-                &:last-child{
+                &:last-child {
                     padding-left: 30px;
                     padding-right: 30px;
                 }
@@ -36,15 +36,20 @@
 					margin-top: 10px;	
 					background: transparent;
 					transition: width .2s ease-out, background-color .5s ease;
-				}
-                    &:hover{
+						
+						&:last-child {
+							margin-top: 0;
+					}
+					
+					}
+                    &:hover {
                         text-decoration: none;
 						
 						&:after{
 								width: 100%;
 								background: white;
 						}
-                    }
+					}
                 }
             }
 

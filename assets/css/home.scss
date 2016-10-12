@@ -23,7 +23,7 @@
     @media (max-width: $break-big) {
       width: 250px;
       letter-spacing: -1px;
-      font-size: 35px;
+      font-size: 35px; 
       line-height: 1.2;
     }
   }
@@ -377,106 +377,123 @@ section#why-nextcloud {
   position: absolute;
 }
 
-.news {
-  background: $nextcloud-blue;
-  padding-bottom: 120px;
 
-  @media (max-width: $break-small) {
-    .container {
-      width: 95%;
+.news-section {
+  position: relative;
+  overflow: hidden;
+
+  .news {
+    background: $nextcloud-blue;
+    padding-bottom: 120px;
+
+    &:before {
+      background: url(../img/home/pattern.svg) bottom 0 right 0/contain no-repeat;
+      height: 90vh;
+      width: 2000px;
+      position: absolute;
+      left: 50%;
+      background-position: bottom;
+      transform: translateX(-50%);
     }
-  }
 
-  @media (min-width: $break-small) and (max-width: $break-big) {
-    .container {
-      width: 720px !important;
+    @media (max-width: $break-small) {
+      .container {
+        width: 95%;
+      }
     }
 
-  }
+    @media (min-width: $break-small) and (max-width: $break-big) {
+      .container {
+        width: 720px !important;
+      }
 
-  @media (min-width: $break-big) and (max-width: 1005px) {
-    .container {
-      width: 950px !important;
     }
-  }
 
-
-
-  .col-md-4 {
-    background: white;
-    margin-bottom: 90px;
-    width: 28%;
-    @media (max-width: 1199px) {
-      width: 26%;
+    @media (min-width: $break-big) and (max-width: 1005px) {
+      .container {
+        width: 950px !important;
+      }
     }
-    @media (max-width: 991px) {
-      width: 90%;
+
+    .col-md-4 {
+      background: white;
+      margin-bottom: 90px;
+      width: 28%;
+      @media (max-width: 1199px) {
+        width: 26%;
+      }
+      @media (max-width: 991px) {
+        width: 90%;
+      }
     }
-  }
 
-  .row .col-md-4 {
-    padding: 20px;
-    margin: 30px;
-    min-height: 500px;
-  }
+    .row {
 
-  h1 {
-    /* 	font-family: OpenSans; */
-    font-size: 60px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.88;
-    text-align: center;
-    color: #ffffff;
-    margin-top: 120px;
-    margin-bottom: 80px;
+      .col-md-4 {
+        padding: 20px;
+        margin: 30px;
+        min-height: 500px;
+      }
+    }
 
-  }
+    h1 {
+      /* 	font-family: OpenSans; */
+      font-size: 60px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 0.88;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 120px;
+      margin-bottom: 80px;
+
+    }
 
 
-  h3 {
-    /*   font-family: OpenSans; */
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.45;
-    text-align: left;
-    color: #555555;
-  }
+    h3 {
+      /*   font-family: OpenSans; */
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.45;
+      text-align: left;
+      color: #555555;
+    }
 
-  p {
-    /* 	font-family: OpenSans; */
-    font-size: 60px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.88;
-    color: #ffffff;
-  }
+    p {
+      /* 	font-family: OpenSans; */
+      font-size: 60px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 0.88;
+      color: #ffffff;
+    }
 
-  ul {
-    list-style-type: none;
-    padding: 0;
-    -webkit-padding-start: 0px;
-    -moz-padding-start: 0px;
-  }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      -webkit-padding-start: 0px;
+      -moz-padding-start: 0px;
+    }
 
-  li {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: solid 2px #eeeeee;
-  }
+    li {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-bottom: solid 2px #eeeeee;
+    }
 
-  a {
-    font-size: 18px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.61;
-    text-align: left;
-    color: #555555;
+    a {
+      font-size: 18px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.61;
+      text-align: left;
+      color: #555555;
+    }
   }
 }
 

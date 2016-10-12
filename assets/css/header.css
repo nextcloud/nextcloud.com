@@ -25,6 +25,8 @@
         margin-top: 10px;
         background: transparent;
         transition: width .2s ease-out, background-color .5s ease; }
+        .Header-Navigation .navbar li a:after:last-child {
+          margin-top: 0; }
       .Header-Navigation .navbar li a:hover {
         text-decoration: none; }
         .Header-Navigation .navbar li a:hover:after {
