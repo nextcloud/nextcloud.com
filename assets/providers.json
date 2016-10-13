@@ -363,6 +363,21 @@
          "imagename":"EDV-Service.png"
       },
     {
+         "title":"rackSPEED GmbH",
+         "url":"https:\/\/rackspeed.de\/nextcloud-hosting\/",
+         "flags":[
+            "de",
+            "eu",
+            "all"
+         ],
+         "freeplans":false,
+         "supports":"organizations",
+         "specializes":[
+            "We offer German-hosted Nextcloud hosting and dedicated servers with daily off-site backup. All services are protected by strict german privacy law."
+         ],
+         "imagename":"rackspeed.png"
+      },
+    {
          "title":"Webo Hosting",
          "url":"https:\/\/webo.hosting\/en\/webo-cloud-en",
          "flags":[
