@@ -423,5 +423,29 @@
             "Die Webhosting Firma JABA e.K. bietet ihnen eine eigene Cloud für Ihre Daten mit schnellen Servern und maximale Sicherheit für privat oder Firmen!"
          ],
          "imagename":"jaba.png"
+      },
+    {
+         "title":"Unixcorn Project",
+         "url":"https:\/\/cloud.unixcorn.org",
+         "flags":[
+            "fr",
+            "en",
+            "de",
+            "nl",
+            "ch",
+            "es",
+            "it",
+            "au",
+            "sv",
+            "dn",
+            "ne",
+            "eu"
+         ],
+         "freeplans":true,
+         "supports":"both",
+         "specializes":[
+            "Unixcorn, a french project, aim to provide reliable hosting and good web services to all the people. Our Nextcloud instance is ready to use!"
+         ],
+         "imagename":"unixcorn.png"
       }
 ]
