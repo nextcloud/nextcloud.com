@@ -105,7 +105,7 @@
 </ol>
 <strong>Note:</strong> This guide does <em>NOT</em> cover self-signed certificates. If you use a self-signed certificate then you're mostly on your own ;-)</p>
 <h3>1. Install the Collabora Online server</h3>
-<p>The following steps will download the Collabora Online docker, make sure to replace "cloud.nextcloud.com" with the host that your own Nextcloud runs on. Also make sure to escape all dots with double backslashes (<code>\\</code>), since this string will be evaluated as a regular expression (and your bash 'eats' the first backslash.)</p>
+<p>The following steps will download the Collabora Online docker, make sure to replace "cloud.nextcloud.com" with the host that your own Nextcloud runs on. Also make sure to escape all dots with double backslashes (<code>\\</code>), since this string will be evaluated as a regular expression (and your bash 'eats' the first backslash.) If you want to use the docker container with more than one Nextcloud, you'll need to use <code>'domain=cloud\\.nextcloud\\.com\|second\\.nexcloud\\.com'</code> instead. (All hosts seperated by <code>\|</code>.)</p>
 <p><pre><code>docker pull collabora/code
 docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --restart always --cap-add MKNOD collabora/code
 </code></pre></p>
