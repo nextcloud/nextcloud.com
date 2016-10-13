@@ -126,6 +126,21 @@
 	</div>
 </div>
 
+<div class="container featureblock">
+	<div class="row">
+		<div class="col-md-6">
+			<a href="<?php echo get_template_directory_uri(); ?>/assets/img/security/hackerone.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/hackerone.png"></a>
+		</div>
+		<div class="col-md-6">
+			<a href="https://hackerone.com/nextcloud"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/HackerOne.png" alt="Our HackerOne program" /></a>
+			<h2>Security bug bounties</h2>
+			<p>We have partnered with the HackerOne platform because of its extraordinary popularity among IT security professionals. More than 3,000 hackers have reported over 24,000 bugs via the platform. Running a program on HackerOne allows us to quickly leverage the collective knowledge of a huge amount of these security experts.</p>
+			<p>Anyone reporting a security vulnerability in Nextcloud can earn up to USD 5000, making ours some of the highest security bug bounties in the open source industry. For more details, <a href="https://nextcloud.com/blog/introducing-the-nextcloud-bug-bounty-program/">see our announcement</a>.</p>
+			<p></p>
+		</div>
+	</div>
+</div>
+
 
 <div class="container featureblock">
 	<div class="row">
