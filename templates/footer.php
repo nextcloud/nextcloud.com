@@ -1,8 +1,8 @@
 <footer class="page-footer">
     <div class="container">
         <div class="col-sm-3">
-            <h1>About Nextcloud</h1>
-            <ul>
+            <h1 class="revealOnScroll">About Nextcloud</h1>
+            <ul class="revealOnScroll">
                 <li><a href="<?php echo home_url('about') ?>">About us</a></li>
                 <li><a href="<?php echo home_url('contributors') ?>">Community</a></li>
                 <li><a href="<?php echo home_url('jobs') ?>">Jobs</a></li>
@@ -11,8 +11,8 @@
             </ul>
         </div>
         <div class="col-sm-3">
-            <h1>Resources</h1>
-            <ul>
+            <h1  class="revealOnScroll">Resources</h1>
+            <ul class="revealOnScroll">
                 <li><a href="<?php echo home_url('support') ?>">Support</a></li>
                 <li><a href="https://docs.nextcloud.com/server/10/admin_manual/">Admin manual</a></li>
                 <li><a href="https://docs.nextcloud.com/server/10/user_manual/">User manual</a></li>
@@ -22,8 +22,8 @@
             </ul>
         </div>
         <div class="col-sm-3">
-            <h1>Interact</h1>
-            <ul>
+            <h1 class="revealOnScroll">Interact</h1>
+            <ul  class="revealOnScroll">
                 <li><a href="https://webchat.freenode.net/?channels=nextcloud">IRC Channel</a></li>
                 <li><a href="https://help.nextcloud.com/categories">Forums</a></li>
                 <li><a href="<?php echo home_url('contact') ?>">Contact us</a></li>
@@ -32,8 +32,8 @@
             </ul>
         </div>
         <div class="col-sm-3">
-            <h1>Follow us</h1>
-            <ul>
+            <h1 class="revealOnScroll">Follow us</h1>
+            <ul  class="revealOnScroll">
                 <li><a href="https://plus.google.com/b/104036748063781940910/104036748063781940910/about">Google+</a></li>
                 <li><a href="https://www.facebook.com/Nextcloud-1032807203462807/">Facebook</a></li>
                 <li><a href="https://twitter.com/nextclouders">Twitter</a></li>
@@ -42,7 +42,7 @@
         </div>
     <div class="row">
 		<div class="col-sm-12 text-center">
-		<p><a href="https://github.com/nextcloud/nextcloud.com">MIT</a> &copy; </font> <?php echo date('Y'); ?> Nextcloud, <small><a href="/impressum">Legal Notice</a></small></p>
+		<p  class="revealOnScroll"><a href="https://github.com/nextcloud/nextcloud.com">MIT</a> &copy; </font> <?php echo date('Y'); ?> Nextcloud, <small><a href="/impressum">Legal Notice</a></small></p>
 		</div>
 	</div>
   </div>

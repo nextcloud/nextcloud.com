@@ -45,21 +45,19 @@
 	<div class="col-md-6">
 		<img class="conf-img img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/pidrive/wrap.jpg" alt="contents" />
 		<p>Currently you can only purchase the Nextcloud Box in Europe and the USA. We're working on bringing the box to other regions!</p>
-		<p><strong>SOLD OUT</strong></p>
-		<p>We'll open sales again on October 17!</p>
-<!--		<div class="btn-group">
+		<div class="btn-group">
 			<button type="button" data-toggle="dropdown" class="btn btn-primary buybutton dropdown-toggle">Select your country &nbsp;<span class="caret"></span></button>
 			<ul role="menu" class="dropdown-menu">
-				<li><a href="http://store.wdc.com/promo/4822802900" target="_blank">Buy in the USA </a></li>
-				<li><a href="http://store.wdc.com/promo/4823854300"target="_blank">Buy in the UK </a></li>
-			<li><a href="http://store.wdc.com/promo/4823854500"target="_blank">Buy in Germany </a></li>
-			<li><a href="http://store.wdc.com/promo/4823854600"target="_blank">Buy in Spain </a></li>
-			<li><a href="http://store.wdc.com/promo/4823854700"target="_blank">Buy in France </a></li>
-			<li><a href="http://store.wdc.com/promo/4823854800"target="_blank">Buy in Italy </a></li>
-			<li><a href="http://store.wdc.com/promo/4823854900"target="_blank">Buy in the Netherlands </a></li>
-			<li><a href="http://store.wdc.com/promo/4822802800"target="_blank">Buy in rest of Europe </a></li>
+				<li><a href="http://shop.wdc.com/promo/4828823500" target="_blank">Buy in the USA </a></li>
+				<li><a href=" http://shop.wdc.com/promo/4828823600" target="_blank">Buy in the UK </a></li>
+			<li><a href="http://shop.wdc.com/promo/4828823700" target="_blank">Buy in Germany </a></li>
+			<li><a href="http://shop.wdc.com/promo/4828823800" target="_blank">Buy in Spain </a></li>
+			<li><a href="http://shop.wdc.com/promo/4828823900" target="_blank">Buy in France </a></li>
+			<li><a href="http://shop.wdc.com/promo/4828824000" target="_blank">Buy in Italy </a></li>
+			<li><a href="http://shop.wdc.com/promo/4828824100" target="_blank">Buy in the Netherlands </a></li>
+			<li><a href="http://shop.wdc.com/promo/4828824200" target="_blank">Buy in rest of Europe </a></li>
 			</ul>
-	 	</div> -->
+	 	</div>
 	</div>
 	<div class="col-md-6">
 	<p><br /><a href="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/accessoires.jpg"><img class="conf-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/accessoires.jpg" alt="" /></a></p>

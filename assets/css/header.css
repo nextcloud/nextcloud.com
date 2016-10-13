@@ -9,21 +9,26 @@
   font-size: 16px; }
   @media (min-width: 1200px) {
     .Header-Navigation .navbar li.active {
-      border-bottom: 3px solid #ffffff;
+      border-bottom: 3px solid white;
       padding-bottom: 15px; }
     .Header-Navigation .navbar li:last-child {
       padding-left: 30px;
       padding-right: 30px; }
     .Header-Navigation .navbar li a {
       color: white; }
+      .Header-Navigation .navbar li a:after {
+        content: '';
+        display: block;
+        margin: auto;
+        height: 2px;
+        width: 0px;
+        margin-top: 10px;
+        background: transparent;
+        transition: width .2s ease-out, background-color .5s ease; }
+        .Header-Navigation .navbar li a:after:last-child {
+          margin-top: 0; }
       .Header-Navigation .navbar li a:hover {
-        text-decoration: none; } }
-@media (min-width: 1200px) and (max-width: 1200px) {
-  .Header-Navigation .navbar a {
-    color: #75badd; }
-    .Header-Navigation .navbar a .active {
-      color: #ffffff; } }
-  @media (min-width: 1200px) {
+        text-decoration: none; }
     .Header-Navigation .navbar .navbar-header {
       float: none; }
       .Header-Navigation .navbar .navbar-header .logo {
@@ -40,22 +45,26 @@
       .Header-Navigation .navbar .btn-primary:before {
         visibility: hidden; } }
   @media (min-width: 1200px) and (max-width: 1200px) {
-    .Header-Navigation .navbar .btn-primary {
-      position: fixed;
-      bottom: 0;
-      margin-left: -5%;
-      width: 105%;
-      border-radius: 0;
-      border: 0;
-      height: 75px;
-      font-size: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: transparent; }
-      .Header-Navigation .navbar .btn-primary a {
-        color: #ffffff; } }
-
+    .Header-Navigation .navbar a {
+      color: #75badd; }
+      .Header-Navigation .navbar a .active {
+        color: white; } }
+    @media (min-width: 1200px) and (max-width: 1200px) {
+      .Header-Navigation .navbar .btn-primary {
+        position: fixed;
+        bottom: 0;
+        margin-left: -5%;
+        width: 105%;
+        border-radius: 0;
+        border: 0;
+        height: 75px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent; }
+        .Header-Navigation .navbar .btn-primary a {
+          color: white; } }
   .Header-Navigation .navbar .active {
     font-weight: 600;
     z-index: 3; }
@@ -154,7 +163,7 @@
     color: white !important; }
   @media (max-width: 1200px) {
     .navbar.scrolled:not(.mobile-menu-open) .navbar-collapse {
-      background-color: #ffffff;
+      background-color: white;
       margin-left: -6% !important; } }
   .navbar.scrolled:not(.mobile-menu-open) .logo {
     background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain !important; }
@@ -361,9 +370,11 @@
   0% {
     opacity: 0;
     left: 20%; }
+
   100% {
     opacity: 1;
     left: 0; } }
+
 @media (max-height: 800px) {
   .nav-down {
     opacity: 1;
@@ -373,5 +384,3 @@
     top: -100px !important;
     opacity: 0;
     transition: all 0.2s ease-in-out; } }
-
-/*# sourceMappingURL=header.css.map */

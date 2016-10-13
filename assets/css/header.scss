@@ -19,16 +19,33 @@
             }
 
             li {
-                &:last-child{
+                &:last-child {
                     padding-left: 30px;
                     padding-right: 30px;
                 }
 
                 a {
                     color: white;
-                    &:hover{
-                        text-decoration: none;
-                    }
+					
+					&:after {
+					content: '';
+					display: block;
+					margin: auto;
+					height: 2px;
+					width: 0px;
+					margin-top: 10px;	
+					background: transparent;
+					transition: width .2s ease-out, background-color .5s ease;
+						
+						&:last-child {
+							margin-top: 0;
+					   }
+					
+					}
+                    
+                    &:hover {
+						text-decoration: none;
+					}
                 }
             }
 
