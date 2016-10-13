@@ -1,8 +1,9 @@
 <div class="container-fluid background">
 	<div class="container">
 		<div class="col-md-6 topheader">
-			<h1>Security and Authentication</h1>
-			<h2>Nextcloud is designed to protect user data through multiple layers of protection.</h2>
+			<h1>Security and authentication</h1>
+			<h2>Nextcloud is designed to protect user data <br />
+			through multiple layers of protection.</h2>
 		</div>
 	</div>
 </div>
@@ -130,7 +131,7 @@
 	<div class="row">
 		<div class="col-md-7">
 			<h2>Authentication capabilities</h2>
-			<p>The Nextcloud login system supports pluggable authentication including two-factor authentication and device specific passwords, complete with a list of connected browsers and devices on the users’ personal page.</p>
+			<p>The Nextcloud authentication system supports pluggable authentication including two-factor authentication and device specific passwords, complete with a list of connected browsers and devices on the users’ personal page.</p>
 			<p>Active sessions can be invalidated through the list, by removing the user in the admin settings or by changing passwords. Admins can enable or disable two-factor authentication for users on the command line.</p>
 			<p>Nextcloud supports SAML 2.0 (“Shibboleth”) authentication and has extensive LDAP directory integration.</p>
 		</div>

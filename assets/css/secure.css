@@ -55,13 +55,13 @@
     margin-top: 20px;
     margin-bottom: 20px;
     border: solid 1px transparent;
-    border-radius: 8px;
+    border-radius: 0px;
     border: solid 1px #fbfbfb;
     box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.04); }
     .featureblock .screenshot:hover {
       box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
       border: solid 1px #fbfbfb;
-      border-radius: 8px;
+      border-radius: 0px;
       transition: all 0.5s ease; }
   .featureblock .header {
     margin-bottom: 54px;
@@ -214,7 +214,7 @@
     .development .box:hover {
       box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
       border: solid 1px #fbfbfb;
-      border-radius: 8px;
+      border-radius: 0px;
       transition: all 0.5s ease; }
     .development .box h1 {
       font-size: 25px;
