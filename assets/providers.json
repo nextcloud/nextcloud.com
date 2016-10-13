@@ -361,5 +361,52 @@
             "Nextcloud Paket 1: 15 GB Speicherplatz, unlimited Traffic, Netzwerkanbindung bis zu Gbit EUR 5/Monat (1. Monat gratis testen)"
          ],
          "imagename":"EDV-Service.png"
+      },
+    {
+         "title":"Webo Hosting",
+         "url":"https:\/\/webo.hosting\/en\/webo-cloud-en",
+         "flags":[
+            "si",
+            "eu",
+            "all"
+         ],
+         "freeplans":true,
+         "supports":"both",
+         "specializes":[
+            "We offer Nextcloud as SaaS solution for home and business use (also free plan) or as VPS. All plans include daily off-site backups and 24/7 support."
+         ],
+         "imagename":"webo.png"
+      },
+    {
+         "title":"eqipe GmbH",
+         "url":"https:\/\/eqipe.ch\/nextcloud\/",
+         "flags":[
+            "ch",
+            "de",
+            "au",
+            "eu"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Professional Nextcloud hosting in Switzerland. We provide a high-performance server infrastructure, secure backup and personal helpdesk and support."
+         ],
+         "imagename":"equipe.png"
+      },
+    {
+         "title":"JABA e.K.",
+         "url":"https:\/\/www.jaba.hosting/owncloud/",
+         "flags":[
+            "de",
+            "at",
+            "ch",
+            "eu"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Die Webhosting Firma JABA e.K. bietet ihnen eine eigene Cloud für Ihre Daten mit schnellen Servern und maximale Sicherheit für privat oder Firmen!"
+         ],
+         "imagename":"jaba.png"
       }
 ]
