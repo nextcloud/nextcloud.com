@@ -182,7 +182,8 @@
 .table-content .btn-lg {
   margin-top: 30px;
   margin-bottom: 30px;
-  width: 100%; }
+  width: 100%;
+  text-indent: -20px; }
 
 /* Discount section */
 .discounts {

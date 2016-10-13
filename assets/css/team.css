@@ -1,0 +1,80 @@
+.teamgroup {
+  width: 95%;
+  max-width: 2000px; }
+
+.teamgroup .featuretitle {
+  text-align: center; }
+
+.teamp {
+  -webkit-box-shadow: 0 3px 3px #ccc;
+  -moz-box-shadow: 0 3px 3px #ccc;
+  box-shadow: 0 3px 3px #ccc;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 7%;
+  padding-top: 60px;
+  padding-bottom: 5px; }
+
+.teamimg {
+  width: 50%;
+  display: block;
+  margin: 0 auto !important; }
+
+.teamname {
+  text-align: center; }
+
+.teammeta {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 200;
+  color: #777;
+  line-height: 1; }
+
+.teamtitle {
+  margin: 6px;
+  font-size: 22px; }
+
+.teamexpertise {
+  margin: 2px;
+  font-size: 14px; }
+
+.teamlocation {
+  margin: 2px;
+  font-size: 14px; }
+
+.teamsocial {
+  margin: 15px;
+  font-size: 30px;
+  color: #777 !important;
+  height: 40px; }
+
+.teamsocial a {
+  color: #AAA;
+  transition: all .2s; }
+
+.teamsocial a:hover {
+  color: #0082C9; }
+
+.teamdescription {
+  margin: 20px; }
+
+.teamp {
+  min-height: 800px; }
+
+@media (max-width: 2000px) {
+  .teamp {
+    min-height: 780px; } }
+@media (max-width: 1910px) {
+  .teamp {
+    min-height: 770px; } }
+@media (max-width: 1450px) {
+  .teamp {
+    min-height: 790px; } }
+@media (max-width: 1200px) {
+  .teamp {
+    min-height: 830px; } }
+@media (max-width: 991px) {
+  .teamp {
+    min-height: auto; } }
+
+/*# sourceMappingURL=team.css.map */
