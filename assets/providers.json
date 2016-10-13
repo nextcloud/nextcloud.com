@@ -361,5 +361,91 @@
             "Nextcloud Paket 1: 15 GB Speicherplatz, unlimited Traffic, Netzwerkanbindung bis zu Gbit EUR 5/Monat (1. Monat gratis testen)"
          ],
          "imagename":"EDV-Service.png"
+      },
+    {
+         "title":"rackSPEED GmbH",
+         "url":"https:\/\/rackspeed.de\/nextcloud-hosting\/",
+         "flags":[
+            "de",
+            "eu",
+            "all"
+         ],
+         "freeplans":false,
+         "supports":"organizations",
+         "specializes":[
+            "We offer German-hosted Nextcloud hosting and dedicated servers with daily off-site backup. All services are protected by strict german privacy law."
+         ],
+         "imagename":"rackspeed.png"
+      },
+    {
+         "title":"Webo Hosting",
+         "url":"https:\/\/webo.hosting\/en\/webo-cloud-en",
+         "flags":[
+            "si",
+            "eu",
+            "all"
+         ],
+         "freeplans":true,
+         "supports":"both",
+         "specializes":[
+            "We offer Nextcloud as SaaS solution for home and business use (also free plan) or as VPS. All plans include daily off-site backups and 24/7 support."
+         ],
+         "imagename":"webo.png"
+      },
+    {
+         "title":"eqipe GmbH",
+         "url":"https:\/\/eqipe.ch\/nextcloud\/",
+         "flags":[
+            "ch",
+            "de",
+            "au",
+            "eu"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Professional Nextcloud hosting in Switzerland. We provide a high-performance server infrastructure, secure backup and personal helpdesk and support."
+         ],
+         "imagename":"equipe.png"
+      },
+    {
+         "title":"JABA e.K.",
+         "url":"https:\/\/www.jaba.hosting/owncloud/",
+         "flags":[
+            "de",
+            "at",
+            "ch",
+            "eu"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Die Webhosting Firma JABA e.K. bietet ihnen eine eigene Cloud für Ihre Daten mit schnellen Servern und maximale Sicherheit für privat oder Firmen!"
+         ],
+         "imagename":"jaba.png"
+      },
+    {
+         "title":"Unixcorn Project",
+         "url":"https:\/\/cloud.unixcorn.org",
+         "flags":[
+            "fr",
+            "en",
+            "de",
+            "nl",
+            "ch",
+            "es",
+            "it",
+            "au",
+            "sv",
+            "dn",
+            "ne",
+            "eu"
+         ],
+         "freeplans":true,
+         "supports":"both",
+         "specializes":[
+            "Unixcorn, a french project, aim to provide reliable hosting and good web services to all the people. Our Nextcloud instance is ready to use!"
+         ],
+         "imagename":"unixcorn.png"
       }
 ]
