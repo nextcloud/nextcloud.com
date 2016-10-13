@@ -26,12 +26,7 @@
         background: transparent;
         transition: width .2s ease-out, background-color .5s ease; }
         .Header-Navigation .navbar li a:after:last-child {
-          margin-top: 0; }
-      .Header-Navigation .navbar li a:hover {
-        text-decoration: none; }
-        .Header-Navigation .navbar li a:hover:after {
-          width: 100%;
-          background: white; } }
+          margin-top: 0; } }
 @media (min-width: 1200px) and (max-width: 1200px) {
   .Header-Navigation .navbar a {
     color: #75badd; }

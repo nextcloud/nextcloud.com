@@ -1,9 +1,11 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.js"></script>
+
 <div class="row conf-header">
 	<div class="col-sm-8 col-sm-offset-2">
 		<img class="conf-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/box.jpg" alt="" />
-		<h1 class="box-header text-center">Introducing the Nextcloud Box</h2>
+		<h1 class="box-header text-center">Introducing the Nextcloud Box</h1>
 	</div>
-</div>
 </div>
 </div>
 
@@ -54,8 +56,8 @@
 			<li><a href="http://store.wdc.com/promo/4823854900"target="_blank">Buy in the Netherlands </a></li>
 			<li><a href="http://store.wdc.com/promo/4822802800"target="_blank">Buy in rest of Europe </a></li>
 			</ul>
-	<!-- 	</div> -->
-		</div>
+	 	</div> 
+<!--		</div>-->
 	</div>
 	<div class="col-md-6">
 	<p><br /><a href="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/accessoires.jpg"><img class="conf-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/accessoires.jpg" alt="" /></a></p>
@@ -72,9 +74,10 @@
 	<div class="col-lg-6 col-sm-12">
 		<h2>Nextcloud Box Wiki and Forums</h2>
 		<p>You can find a lot of information, tips and tricks on configuring your Nextcloud Box on <a href="https://github.com/nextcloud/nextcloud-snap/wiki">our wiki</a>; discuss the Box and ask questions on <a href="https://help.nextcloud.com/t/the-great-nextcloud-box-topic/3510">our forums.</a></p>
-		<div class="text-center btn-group morebuttondiv">
-				<a href="https://help.nextcloud.com/t/the-great-nextcloud-box-topic/3510" class="btn btn-primary morebutton" target="_blank">Help on our forums <i class="icon-arrow-circle-o-right icon"></i></a>
-				<a href="https://github.com/nextcloud/nextcloud-snap/wiki" class="btn btn-primary morebutton" target="_blank">Manuals on our wiki <i class="icon-arrow-circle-o-right icon"></i></a>
+		<div class="text-center morebuttondiv">
+			<a href="https://help.nextcloud.com/t/the-great-nextcloud-box-topic/3510" class="btn btn-primary morebutton" target="_blank">Help on our forums <i class="icon-arrow-circle-o-right icon"></i></a>
+			<br/><br/>
+			<a href="https://github.com/nextcloud/nextcloud-snap/wiki" class="btn btn-primary morebutton" target="_blank">Manuals on our wiki <i class="icon-arrow-circle-o-right icon"></i></a>
 		</div>
 		<p>If you are interested in contributing to the software of the Box, you can find the Nextcloud Snap here - we look forward to your pull request. Find us on IRC in <a href="irc://#nextcloud-dev@freenode.net" target="_blank">the Nextloud development IRC chat channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a></p>
 	</div>
@@ -93,4 +96,5 @@
 			<a target="_blank" href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/wdlabs.png" alt="Visit lwn.net" /></a>
 		</div>
 	</div>
+</div>
 </div>

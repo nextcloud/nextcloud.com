@@ -39,16 +39,11 @@
 						
 						&:last-child {
 							margin-top: 0;
-					}
+					   }
 					
 					}
+                    
                     &:hover {
-                        text-decoration: none;
-						
-						&:after{
-								width: 100%;
-								background: white;
-						}
 					}
                 }
             }

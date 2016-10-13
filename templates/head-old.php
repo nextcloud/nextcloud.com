@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title><?php wp_title('|', true, 'right'); ?></title>
+	<title><?php wp_title('-', true, 'right'); ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta itemprop="name" content="Nextcloud">
 	<meta itemprop="description" content="Nextcloud is an open source, self-hosted file sync and share and communication app platform. Access  &amp; sync your files, contacts, calendars  &amp; communicate and collaborate across your devices. You decide what happens with your data, where it is and who can access it!">
