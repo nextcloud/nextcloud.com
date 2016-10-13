@@ -37,4 +37,20 @@
 				<a href="/spreedbox" class="btn btn-primary morebutton" target="_blank">Learn more! <i class="icon-arrow-circle-o-right icon"></i></a>
 		</div>
 	</div>
+	<div class="col-md-6">
+		<img class="device-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/syncloud/syncloud.jpg" alt="">
+  	<h1 class="text-center">Syncloud</h1>
+		<p>Syncloud is a home server device which  fully supports Nextcloud.</p>
+		<p>It features:</p>
+		<ul>
+			<li>Easy installation and activation</li>
+			<li>Selection of hardware among 10+ boards</li>
+			<li>Easy use of external hard drives for storage</li>
+			<li>Domain name for device and access to device through Internet</li>
+			<li>Automatic HTTPS setup</li>
+			<li>More applications</li>
+		</ul>
+		<p>Syncloud devices start around USD 50.</p>
+		<div class="text-center morebuttondiv"> <a href="http://syncloud.org" class="btn btn-primary morebutton" target="_blank">Learn more! <i class="icon-arrow-circle-o-right icon"></i></a></div>
+	</div>
 </div>
