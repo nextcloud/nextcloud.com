@@ -40,12 +40,12 @@
 	<div class="col-md-6">
 		<img class="device-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/syncloud/syncloud.jpg" alt="">
   	<h1 class="text-center">Syncloud</h1>
-		<p>Syncloud is home server device. It fully supports Nextcloud.</p>
+		<p>Syncloud is a home server device which  fully supports Nextcloud.</p>
 		<p>It features:</p>
 		<ul>
 			<li>Easy installation and activation</li>
 			<li>Selection of hardware among 10+ boards</li>
-			<li>Easy use of external hard drive for storage</li>
+			<li>Easy use of external hard drives for storage</li>
 			<li>Domain name for device and access to device through Internet</li>
 			<li>Automatic HTTPS setup</li>
 			<li>More applications</li>
