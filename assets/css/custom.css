@@ -424,7 +424,7 @@ section#why-nextcloud {
         margin: auto;
         height: 2px;
         width: 0px;
-        margin-top: 10px;
+        /* 					margin-top: 10px; this makes the button look weirdly heigh and unsymmetrical */
         background: transparent;
         transition: width .2s ease-out, background-color .5s ease; }
         .Header-Navigation .navbar li a:after:last-child {
