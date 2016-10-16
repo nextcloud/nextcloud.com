@@ -101,7 +101,7 @@
 <p><pre><code>docker run --rm --name my-spreed-webrtc -p 127.0.0.1:8080:8080 -p 127.0.0.1:8443:8443 -v /srv/extra:/srv/extra -v path-to-your-nextcloud/apps/spreedme/extra:path-to-your-nextcloud/apps/spreedme/extra -i -t spreed/webrtc -c /srv/extra/server.conf</code></pre></p>
 <p>Once it is running, the server will listen on "localhost:8080". You have to change the following in the server.conf of the spreed.me server: section:<code> [http] </code> entry: <code> listen = 0.0.0.0:8080. </code></p> 
 <p>If you are running it in a virtual machine, you may not have enough entropy in /dev/random and the server stick at the keygeneration. To get around this, execute <code>rngd -f -r /dev/urandom</code> in another terminal session.</p>
-<p>To run the container in the background, start the container with: <code> run -t -d --name my-spreed-webrtc -p 127.0.0.1:8080:8080 -p 127.0.0.1:8443:8443 -v /srv/extra:/srv/extra -v path-to-your-nextcloud/apps/spreedme/extra:path-to-your-nextcloud/apps/spreedme/extra -i -t spreed/webrtc -c /srv/extra/server.conf</code>
+<p>To run the container in the background, start the container with: <code> run -t -d --name my-spreed-webrtc -p 127.0.0.1:8080:8080 -p 127.0.0.1:8443:8443 -v /srv/extra:/srv/extra -v path-to-your-nextcloud/apps/spreedme/extra:path-to-your-nextcloud/apps/spreedme/extra -i -t spreed/webrtc -c /srv/extra/server.conf</code></p>
 <p>Now we just need to configure Apache to serve Spreed WebRTC from there.</p>
 
 <h4>Packages</h4>
