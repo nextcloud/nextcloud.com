@@ -206,20 +206,21 @@
 
 
 <div class="wrap container featureblock">
-<div class="featurerow">
-	<h1 class="featuretitle">Screenshots</h1>
-	<div class="row">
-		<div class="col-md-6">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP.png" class="img-responsive screenshot" /></a>
-		</div>
-		<div class="col-md-6">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP-login.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP-login.png" class="img-responsive screenshot" /></a>
-		</div>
-		<div class="col-md-6">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-home.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-home.png" class="img-responsive screenshot" /></a>
-		</div>
-		<div class="col-md-6">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-default.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-default.png" class="img-responsive screenshot" /></a>
+	<div class="featurerow">
+		<h1 class="featuretitle">Screenshots</h1>
+		<div class="row">
+			<div class="col-md-6">
+				<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP.png" class="img-responsive screenshot" /></a>
+			</div>
+			<div class="col-md-6">
+				<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP-login.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP-login.png" class="img-responsive screenshot" /></a>
+			</div>
+			<div class="col-md-6">
+				<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-home.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-home.png" class="img-responsive screenshot" /></a>
+			</div>
+			<div class="col-md-6">
+				<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-default.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-default.png" class="img-responsive screenshot" /></a>
+			</div>
 		</div>
 	</div>
 </div>
