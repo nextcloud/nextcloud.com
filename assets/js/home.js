@@ -1,3 +1,11 @@
+// Top Container Animations
+
+$(document).ready(function() {
+	$(".topbanner").velocity('transition.slideUpBigIn');
+	$(".toptext").velocity('transition.fadeIn', 2000);
+});
+
+// Why nextcloud icon animations
 $(window).load(function() {
     /**
      * Animations
@@ -29,4 +37,3 @@ $(window).load(function() {
         anim = bodymovin.loadAnimation(params);
     });
 });
-

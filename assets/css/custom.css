@@ -307,77 +307,88 @@ section#why-nextcloud {
   width: 100%;
   position: absolute; }
 
-.news {
-  background: #0082c9;
-  padding-bottom: 120px; }
-  @media (max-width: 768px) {
-    .news .container {
-      width: 95%; } }
-  @media (min-width: 768px) and (max-width: 991px) {
-    .news .container {
-      width: 720px !important; } }
-  @media (min-width: 991px) and (max-width: 1005px) {
-    .news .container {
-      width: 950px !important; } }
-  .news .col-md-4 {
-    background: white;
-    margin-bottom: 90px;
-    width: 28%; }
-    @media (max-width: 1199px) {
-      .news .col-md-4 {
-        width: 26%; } }
-    @media (max-width: 991px) {
-      .news .col-md-4 {
-        width: 90%; } }
-  .news .row .col-md-4 {
-    padding: 20px;
-    margin: 30px;
-    min-height: 500px; }
-  .news h1 {
-    /* 	font-family: OpenSans; */
-    font-size: 60px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.88;
-    text-align: center;
-    color: #ffffff;
-    margin-top: 120px;
-    margin-bottom: 80px; }
-  .news h3 {
-    /*   font-family: OpenSans; */
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.45;
-    text-align: left;
-    color: #555555; }
-  .news p {
-    /* 	font-family: OpenSans; */
-    font-size: 60px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.88;
-    color: #ffffff; }
-  .news ul {
-    list-style-type: none;
-    padding: 0;
-    -webkit-padding-start: 0px;
-    -moz-padding-start: 0px; }
-  .news li {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: solid 2px #eeeeee; }
-  .news a {
-    font-size: 18px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.61;
-    text-align: left;
-    color: #555555; }
+.news-section {
+  position: relative;
+  overflow: hidden; }
+  .news-section .news {
+    background: #0082c9;
+    padding-bottom: 120px; }
+    .news-section .news:before {
+      background: url(../img/home/pattern.svg) bottom 0 right 0/contain no-repeat;
+      height: 90vh;
+      width: 2000px;
+      position: absolute;
+      left: 50%;
+      background-position: bottom;
+      transform: translateX(-50%); }
+    @media (max-width: 768px) {
+      .news-section .news .container {
+        width: 95%; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .news-section .news .container {
+        width: 720px !important; } }
+    @media (min-width: 991px) and (max-width: 1005px) {
+      .news-section .news .container {
+        width: 950px !important; } }
+    .news-section .news .col-md-4 {
+      background: white;
+      margin-bottom: 90px;
+      width: 28%; }
+      @media (max-width: 1199px) {
+        .news-section .news .col-md-4 {
+          width: 26%; } }
+      @media (max-width: 991px) {
+        .news-section .news .col-md-4 {
+          width: 90%; } }
+    .news-section .news .row .col-md-4 {
+      padding: 20px;
+      margin: 30px;
+      min-height: 500px; }
+    .news-section .news h1 {
+      /* 	font-family: OpenSans; */
+      font-size: 60px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 0.88;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 120px;
+      margin-bottom: 80px; }
+    .news-section .news h3 {
+      /*   font-family: OpenSans; */
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.45;
+      text-align: left;
+      color: #555555; }
+    .news-section .news p {
+      /* 	font-family: OpenSans; */
+      font-size: 60px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 0.88;
+      color: #ffffff; }
+    .news-section .news ul {
+      list-style-type: none;
+      padding: 0;
+      -webkit-padding-start: 0px;
+      -moz-padding-start: 0px; }
+    .news-section .news li {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-bottom: solid 2px #eeeeee; }
+    .news-section .news a {
+      font-size: 18px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.61;
+      text-align: left;
+      color: #555555; }
 
 /* hide the image and table for the tweets */
 .news .contribook_microbloguserpicture img {
@@ -385,6 +396,9 @@ section#why-nextcloud {
 
 .news table {
   margin-left: -15px; }
+
+.revealOnScroll {
+  opacity: 0; }
 
 .Header-Navigation .navbar {
   top: 0;
@@ -396,22 +410,31 @@ section#why-nextcloud {
   padding-top: 24px;
   font-size: 16px; }
   @media (min-width: 1200px) {
-    .Header-Navigation .navbar li.active {
-      border-bottom: 3px solid #ffffff;
+    .Header-Navigation .navbar li.active a {
+      border-bottom: 3px solid white;
       padding-bottom: 15px; }
     .Header-Navigation .navbar li:last-child {
       padding-left: 30px;
       padding-right: 30px; }
+      .Header-Navigation .navbar li:last-child:hover {
+        /* we can set a hover effect for the install button here */ }
     .Header-Navigation .navbar li a {
-      color: white; }
+      color: white;
+      /* hover effect for menu items: underline */ }
+      .Header-Navigation .navbar li a:after {
+        content: '';
+        display: block;
+        margin: auto;
+        height: 2px;
+        width: 0px;
+        background: transparent;
+        transition: width .2s ease-out, background-color .5s ease; }
+        .Header-Navigation .navbar li a:after:last-child {
+          margin-top: 0; }
       .Header-Navigation .navbar li a:hover {
-        text-decoration: none; } }
-@media (min-width: 1200px) and (max-width: 1200px) {
-  .Header-Navigation .navbar a {
-    color: #75badd; }
-    .Header-Navigation .navbar a .active {
-      color: #ffffff; } }
-  @media (min-width: 1200px) {
+        text-decoration: none;
+        padding-bottom: 15px;
+        border-bottom: 3px solid white; }
     .Header-Navigation .navbar .navbar-header {
       float: none; }
       .Header-Navigation .navbar .navbar-header .logo {
@@ -428,47 +451,58 @@ section#why-nextcloud {
       .Header-Navigation .navbar .btn-primary:before {
         visibility: hidden; } }
   @media (min-width: 1200px) and (max-width: 1200px) {
-    .Header-Navigation .navbar .btn-primary {
-      position: fixed;
-      bottom: 0;
-      margin-left: -5%;
-      width: 105%;
-      border-radius: 0;
-      border: 0;
-      height: 75px;
-      font-size: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: transparent; }
-      .Header-Navigation .navbar .btn-primary a {
-        color: #ffffff; } }
-
+    .Header-Navigation .navbar a {
+      color: #75badd; }
+      .Header-Navigation .navbar a .active {
+        color: white; } }
+    @media (min-width: 1200px) and (max-width: 1200px) {
+      .Header-Navigation .navbar .btn-primary {
+        position: fixed;
+        bottom: 0;
+        margin-left: -5%;
+        width: 105%;
+        border-radius: 0;
+        border: 0;
+        height: 75px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent; }
+        .Header-Navigation .navbar .btn-primary a {
+          color: white; } }
   .Header-Navigation .navbar .active {
     font-weight: 600;
     z-index: 3; }
-  .Header-Navigation .navbar .overlay-menu ul {
-    float: right !important;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    margin-right: -15px;
-    margin-bottom: 0; }
-    .Header-Navigation .navbar .overlay-menu ul li {
-      margin: 0 0 0 10px;
-      padding: 10px 15px;
-      position: relative;
-      display: table-cell;
-      vertical-align: middle; }
-      .Header-Navigation .navbar .overlay-menu ul li:last-child {
-        padding: 0px; }
-    .Header-Navigation .navbar .overlay-menu ul .btn-primary {
-      padding: 5px 5px; }
-      .Header-Navigation .navbar .overlay-menu ul .btn-primary a {
+  .Header-Navigation .navbar .overlay {
+    display: inline-block;
+    float: right !important; }
+    .Header-Navigation .navbar .overlay .overlay-menu ul {
+      float: right !important;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+      margin-right: -15px;
+      margin-bottom: 0; }
+      .Header-Navigation .navbar .overlay .overlay-menu ul li {
+        margin: 0 0 0 10px;
+        padding: 10px 15px;
         position: relative;
-        display: block;
-        padding: 15px 45px;
-        border-radius: 100px; }
+        display: table-cell;
+        vertical-align: middle; }
+        .Header-Navigation .navbar .overlay .overlay-menu ul li:last-child {
+          padding-left: 30px;
+          padding-right: 30px; }
+      .Header-Navigation .navbar .overlay .overlay-menu ul .btn-primary {
+        padding: 5px 5px; }
+        .Header-Navigation .navbar .overlay .overlay-menu ul .btn-primary a {
+          position: relative;
+          display: block;
+          padding: 10px 15px;
+          border-radius: 100px; }
+          .Header-Navigation .navbar .overlay .overlay-menu ul .btn-primary a:hover {
+            text-decoration: none;
+            border-bottom: none; }
 
 /**
 *Break Menu at 1200px
@@ -528,6 +562,10 @@ section#why-nextcloud {
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09); }
   .navbar.scrolled:not(.mobile-menu-open) a {
     color: #656565 !important; }
+    .navbar.scrolled:not(.mobile-menu-open) a:hover {
+      text-decoration: none;
+      padding-bottom: 15px;
+      border-bottom: 3px solid #656565; }
   .navbar.scrolled:not(.mobile-menu-open) .navbar-nav li:not(.btn-primary):not(.active):hover:before {
     width: 100%;
     background: #656565;
@@ -536,13 +574,13 @@ section#why-nextcloud {
     width: 100%;
     background: #656565; }
   @media (min-width: 1200px) {
-    .navbar.scrolled:not(.mobile-menu-open) .active {
-      border-bottom: 3px solid #656565 !important; } }
+    .navbar.scrolled:not(.mobile-menu-open) .active a {
+      border-bottom: 3px solid #656565; } }
   .navbar.scrolled:not(.mobile-menu-open) .btn-primary a {
     color: white !important; }
   @media (max-width: 1200px) {
     .navbar.scrolled:not(.mobile-menu-open) .navbar-collapse {
-      background-color: #ffffff;
+      background-color: white;
       margin-left: -6% !important; } }
   .navbar.scrolled:not(.mobile-menu-open) .logo {
     background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain !important; }
@@ -632,32 +670,6 @@ section#why-nextcloud {
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none; } }
-.overlay {
-  display: inline-block;
-  float: right !important; }
-  .overlay .overlay-menu ul {
-    float: right !important;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    margin-right: -15px;
-    margin-bottom: 0; }
-    .overlay .overlay-menu ul li {
-      margin: 0 0 0 10px;
-      padding: 10px 15px;
-      position: relative;
-      display: table-cell;
-      vertical-align: middle; }
-      .overlay .overlay-menu ul li:last-child {
-        padding-left: 30px;
-        padding-right: 30px; }
-    .overlay .overlay-menu ul .btn-primary {
-      padding: 5px 5px; }
-      .overlay .overlay-menu ul .btn-primary a {
-        position: relative;
-        display: block;
-        padding: 10px 15px; }
-
 /**
 *Mobile
 */
@@ -749,9 +761,11 @@ section#why-nextcloud {
   0% {
     opacity: 0;
     left: 20%; }
+
   100% {
     opacity: 1;
     left: 0; } }
+
 @media (max-height: 800px) {
   .nav-down {
     opacity: 1;
@@ -893,7 +907,7 @@ h5 {
     right: 50px;
     transition: all 0.3s ease 0s; }
   .btn-primary:hover {
-    background-color: #0073B2;
+    background-color: #0073b2;
     text-decoration: none; }
     .btn-primary:hover:before {
       right: 30px; }
@@ -901,7 +915,7 @@ h5 {
     -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
-    background-color: #0073B2; }
+    background-color: #0073b2; }
 
 @media (max-width: 768px) {
   .btn-primary {
@@ -989,5 +1003,3 @@ h5 {
     @media (max-width: 1200px) {
       .highlights_align h4 {
         margin-left: 0; } }
-
-/*# sourceMappingURL=custom.css.map */

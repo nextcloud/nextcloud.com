@@ -21,6 +21,5 @@
 </p>
 <br/>
 <h2>Contact form</h2>
-<script charset="utf-8" src="//js.hsforms.net/forms/current.js"></script>
-<script> hbspt.forms.create({ portalId: '328096', formId: '611ecd05-87a5-4df6-b668-43a09e74cdd8' }); </script>
+
 
