@@ -8,27 +8,31 @@
   padding-top: 24px;
   font-size: 16px; }
   @media (min-width: 1200px) {
-    .Header-Navigation .navbar li.active {
+    .Header-Navigation .navbar li.active a {
       border-bottom: 3px solid white;
       padding-bottom: 15px; }
     .Header-Navigation .navbar li:last-child {
       padding-left: 30px;
       padding-right: 30px; }
+      .Header-Navigation .navbar li:last-child:hover {
+        /* we can set a hover effect for the install button here */ }
     .Header-Navigation .navbar li a {
-      color: white; }
+      color: white;
+      /* hover effect for menu items: underline */ }
       .Header-Navigation .navbar li a:after {
         content: '';
         display: block;
         margin: auto;
         height: 2px;
         width: 0px;
-        /* 					margin-top: 10px; this makes the button look weirdly heigh and unsymmetrical */
         background: transparent;
         transition: width .2s ease-out, background-color .5s ease; }
         .Header-Navigation .navbar li a:after:last-child {
           margin-top: 0; }
       .Header-Navigation .navbar li a:hover {
-        text-decoration: none; }
+        text-decoration: none;
+        padding-bottom: 15px;
+        border-bottom: 3px solid white; }
     .Header-Navigation .navbar .navbar-header {
       float: none; }
       .Header-Navigation .navbar .navbar-header .logo {
@@ -68,28 +72,35 @@
   .Header-Navigation .navbar .active {
     font-weight: 600;
     z-index: 3; }
-  .Header-Navigation .navbar .overlay-menu ul {
-    float: right !important;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    margin-right: -15px;
-    margin-bottom: 0; }
-    .Header-Navigation .navbar .overlay-menu ul li {
-      margin: 0 0 0 10px;
-      padding: 10px 15px;
-      position: relative;
-      display: table-cell;
-      vertical-align: middle; }
-      .Header-Navigation .navbar .overlay-menu ul li:last-child {
-        padding: 0px; }
-    .Header-Navigation .navbar .overlay-menu ul .btn-primary {
-      padding: 5px 5px; }
-      .Header-Navigation .navbar .overlay-menu ul .btn-primary a {
+  .Header-Navigation .navbar .overlay {
+    display: inline-block;
+    float: right !important; }
+    .Header-Navigation .navbar .overlay .overlay-menu ul {
+      float: right !important;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+      margin-right: -15px;
+      margin-bottom: 0; }
+      .Header-Navigation .navbar .overlay .overlay-menu ul li {
+        margin: 0 0 0 10px;
+        padding: 10px 15px;
         position: relative;
-        display: block;
-        padding: 15px 45px;
-        border-radius: 100px; }
+        display: table-cell;
+        vertical-align: middle; }
+        .Header-Navigation .navbar .overlay .overlay-menu ul li:last-child {
+          padding-left: 30px;
+          padding-right: 30px; }
+      .Header-Navigation .navbar .overlay .overlay-menu ul .btn-primary {
+        padding: 5px 5px; }
+        .Header-Navigation .navbar .overlay .overlay-menu ul .btn-primary a {
+          position: relative;
+          display: block;
+          padding: 10px 15px;
+          border-radius: 100px; }
+          .Header-Navigation .navbar .overlay .overlay-menu ul .btn-primary a:hover {
+            text-decoration: none;
+            border-bottom: none; }
 
 /**
 *Break Menu at 1200px
@@ -149,6 +160,10 @@
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09); }
   .navbar.scrolled:not(.mobile-menu-open) a {
     color: #656565 !important; }
+    .navbar.scrolled:not(.mobile-menu-open) a:hover {
+      text-decoration: none;
+      padding-bottom: 15px;
+      border-bottom: 3px solid #656565; }
   .navbar.scrolled:not(.mobile-menu-open) .navbar-nav li:not(.btn-primary):not(.active):hover:before {
     width: 100%;
     background: #656565;
@@ -157,8 +172,8 @@
     width: 100%;
     background: #656565; }
   @media (min-width: 1200px) {
-    .navbar.scrolled:not(.mobile-menu-open) .active {
-      border-bottom: 3px solid #656565 !important; } }
+    .navbar.scrolled:not(.mobile-menu-open) .active a {
+      border-bottom: 3px solid #656565; } }
   .navbar.scrolled:not(.mobile-menu-open) .btn-primary a {
     color: white !important; }
   @media (max-width: 1200px) {
@@ -253,32 +268,6 @@
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none; } }
-.overlay {
-  display: inline-block;
-  float: right !important; }
-  .overlay .overlay-menu ul {
-    float: right !important;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    margin-right: -15px;
-    margin-bottom: 0; }
-    .overlay .overlay-menu ul li {
-      margin: 0 0 0 10px;
-      padding: 10px 15px;
-      position: relative;
-      display: table-cell;
-      vertical-align: middle; }
-      .overlay .overlay-menu ul li:last-child {
-        padding-left: 30px;
-        padding-right: 30px; }
-    .overlay .overlay-menu ul .btn-primary {
-      padding: 5px 5px; }
-      .overlay .overlay-menu ul .btn-primary a {
-        position: relative;
-        display: block;
-        padding: 10px 15px; }
-
 /**
 *Mobile
 */

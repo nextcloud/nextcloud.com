@@ -14,16 +14,22 @@
         @media (min-width: $navbar-breaksize) {
 
             li.active {
+				a {
                 border-bottom: 3px solid $white;
-                padding-bottom: 15px;
+				padding-bottom: 15px;
+				}
             }
 
             li {
                 &:last-child {
                     padding-left: 30px;
                     padding-right: 30px;
+					
+					&:hover {
+					/* we can set a hover effect for the install button here */
+					}
                 }
-
+                
                 a {
                     color: white;
 					
@@ -33,7 +39,6 @@
 					margin: auto;
 					height: 2px;
 					width: 0px;
-/* 					margin-top: 10px; this makes the button look weirdly heigh and unsymmetrical */
 					background: transparent;
 					transition: width .2s ease-out, background-color .5s ease;
 						
@@ -42,9 +47,11 @@
 					   }
 					
 					}
-                    
+                   /* hover effect for menu items: underline */
                     &:hover {
 						text-decoration: none;
+						padding-bottom: 15px; 
+						border-bottom: 3px solid $white;
 					}
                 }
             }
@@ -106,42 +113,55 @@
             z-index: 3;
         }
 
-        .overlay-menu {
+		.overlay{
+			display: inline-block;
+			float: right !important;
 
-            ul{
-                float: right !important;
-                padding-left: 0;
-                margin-bottom: 0;
-                list-style: none;
-                margin-right: -15px;
-                margin-bottom: 0;
+			.overlay-menu {
+				ul{
+					float: right !important;
+					padding-left: 0;
+					margin-bottom: 0;
+					list-style: none;
+					margin-right: -15px;
+					margin-bottom: 0;
 
-                li{
-                    margin: 0 0 0 10px;
-                    padding: 10px 15px;
-                    position: relative;
-                    display: table-cell;
-                    vertical-align: middle;
 
-                    &:last-child {
-                        padding: 0px;
-                    }
-                }
+					li{
+						margin: 0 0 0 10px;
+						padding: 10px 15px;
+						position: relative;
+						display: table-cell;
+						vertical-align: middle;
 
-                .btn-primary{
-                    padding: 5px 5px;
+						&:last-child {
+							padding-left: 30px;
+							padding-right: 30px;
+						}
+						
+					}
 
-                    a {
-                        position: relative;
-                        display: block;
-                        padding: 15px 45px;
-                        border-radius: 100px;
-                    }
-                }
-            }
-        }
+					.btn-primary{
+						padding: 5px 5px;
+						a{
+							position: relative;
+							display: block;
+							padding: 10px 15px;
+							border-radius: 100px;
+
+							&:hover {
+							text-decoration: none;
+							border-bottom: none;
+							}
+						}
+					}
+				}
+			}
+		}
+
     }
 }
+
 
 /**
 *Break Menu at 1200px
@@ -225,6 +245,11 @@
     }
     a {
         color: #656565 !important;
+		&:hover {
+			text-decoration: none;
+			padding-bottom: 15px; 
+			border-bottom: 3px solid #656565;
+		}
     }
     .navbar-nav li:not(.btn-primary):not(.active):hover:before {
         width: 100%;
@@ -237,8 +262,11 @@
     }
     @media (min-width: $navbar-breaksize) {
         .active {
-            border-bottom: 3px solid #656565 !important;
+			a {
+				border-bottom: 3px solid #656565;
+			}
         }
+        
     }
     .btn-primary a {
         color: white !important;
@@ -364,46 +392,6 @@
         box-shadow: none;
     }
 }
-
-.overlay{
-    display: inline-block;
-    float: right !important;
-
-    .overlay-menu {
-        ul{
-            float: right !important;
-            padding-left: 0;
-            margin-bottom: 0;
-            list-style: none;
-            margin-right: -15px;
-            margin-bottom: 0;
-
-
-            li{
-                margin: 0 0 0 10px;
-                padding: 10px 15px;
-                position: relative;
-                display: table-cell;
-                vertical-align: middle;
-
-                &:last-child {
-                    padding-left: 30px;
-                    padding-right: 30px;
-                }
-            }
-
-            .btn-primary{
-                padding: 5px 5px;
-                a{
-                    position: relative;
-                    display: block;
-                    padding: 10px 15px;
-                }
-            }
-        }
-    }
-}
-
 
 /**
 *Mobile
