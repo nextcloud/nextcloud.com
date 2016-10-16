@@ -135,7 +135,7 @@
 		<div class="col-md-5 featureblock">
 			<p class="">External storage features:
 			<ul>
-				<li>Support for SWIFT, (S)FTP, WebDAV, Amazon S3, Google Drive, Dropbox, SMB/CIFS/Windows Network Drive, Sharepoint and OpenStack Object Storage (Swift).</li>
+				<li>Support for SWIFT, (S)FTP, WebDAV, Amazon S3, Google Drive, Dropbox, SMB/CIFS/Windows Network Drive<!--TODO , Sharepoint coming in Nc 11 --> and OpenStack Object Storage (Swift).</li>
 				<li>Full server side encryption with optional external key management</li>
 				<li>Encryption can be enabled or disabled for each external storage system</li>
 				<li>Administrators can control the list of external storage types users have access to</li>
