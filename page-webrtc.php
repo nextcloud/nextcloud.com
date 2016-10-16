@@ -98,8 +98,11 @@
 
 <h4>Docker</h4>
 <p>There is a Docker image. It requires that you first create the server.conf, taking the template as can be found on <a href="https://hub.docker.com/r/spreed/webrtc/" target="_blank">the Docker hub page</a> and modify it following the directions in the third section below. You then have to put it in a place where the Docker image can reach it, in the example below we picked <code>/srv/extra/server.conf</code> for that.</p>
-<p><pre><code>docker run --rm --name my-spreed-webrtc -p 8080:8080 -p 8443:8443 -v `pwd`:/srv/extra -i -t spreed/webrtc -c /srv/extra/server.conf</code></pre></p>
-<p>Once it is running, the server will listen on "localhost:8080". Now we just need to configure Apache to serve Spreed WebRTC from there.</p>
+<p><pre><code>docker run --rm --name my-spreed-webrtc -p 127.0.0.1:8080:8080 -p 127.0.0.1:8443:8443 -v /srv/extra:/srv/extra -v path-to-your-nextcloud/apps/spreedme/extra:path-to-your-nextcloud/apps/spreedme/extra -i -t spreed/webrtc -c /srv/extra/server.conf</code></pre></p>
+<p>Once it is running, the server will listen on "localhost:8080". You have to change the following in the server.conf of the spreed.me server: section:<code> [http] </code> entry: <code> listen = 0.0.0.0:8080. </code></p> 
+<p>If you are running it in a virtual machine, you may not have enough entropy in /dev/random and the server stick at the keygeneration. To get around this, execute <code>rngd -f -r /dev/urandom</code> in another terminal session.</p>
+<p>To run the container in the background, start the container with: <code> run -t -d --name my-spreed-webrtc -p 127.0.0.1:8080:8080 -p 127.0.0.1:8443:8443 -v /srv/extra:/srv/extra -v path-to-your-nextcloud/apps/spreedme/extra:path-to-your-nextcloud/apps/spreedme/extra -i -t spreed/webrtc -c /srv/extra/server.conf</code>
+<p>Now we just need to configure Apache to serve Spreed WebRTC from there.</p>
 
 <h4>Packages</h4>
 <p>There are packages for Ubuntu, see <a href="https://github.com/strukturag/spreed-webrtc/wiki/Ubuntu-Repository" target="_blank">instructions here</a></p>
