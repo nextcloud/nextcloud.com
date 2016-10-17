@@ -1,4 +1,115 @@
-<?php
+<header class="global-nav">
+	<div class="container">
+		<div class="nav-wrapper">
+		
+		<div class="brand">
+			
+			<div class="logo"></div>
+		</div>
+			
+			<div class="center-nav">
+				<ul>
+					<li class="has-dropdown" data-content="about">
+						<a href="#0">About us</a>
+					</li>
+		 
+					<li class="has-dropdown" data-content="involved">
+						<a href="#0">Get involved</a>
+					</li>
+		 
+					<li class="has-dropdown" data-content="features">
+						<a href="#0">Features</a>
+					</li>
+
+					<li class="has-dropdown" data-content="enterprise">
+						<a href="#0">Enterprise</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="right-nav">
+				<ul>
+
+					<li>
+					<a href="#0">Demo</a>
+					</li>
+
+					<li>
+					<a href="#0">Download</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="morph-dropdown-wrapper">
+			<div class="dropdown-list">
+			<ul>
+					<li id="about" class="dropdown button">
+						<a href="#0" class="label">Contact</a>
+						
+						<div class="content">	
+							<ul class="links-list">
+								<li><a href="#0">Who we are</a></li>
+								<li><a href="#0">Community</a></li>
+								<li><a href="#0">Team</a></li>
+								<li><a href="#0">Jobs</a></li>
+								<li><a href="#0">Code of Conduct</a></li>
+							</ul>
+
+							<a href="#0" class="btn">Get in Touch</a>
+						</div>
+					</li>
+
+
+
+
+				<!-- <ul>
+					<li id="about">
+						<a href="#0">Who we are</a>
+						<a href="#0">Community</a>
+						<a href="#0">Team</a>
+						<a href="#0">Jobs</a>
+						<a href="#0">Code of Conduct</a>
+					</li>
+	 
+					<li id="involved">
+						<!-- dropdown content here -->
+					</li>
+	 
+					<li id="features">
+						<!-- dropdown content here -->
+					</li>
+
+					<li id="enterprise">
+						<!-- dropdown content here -->
+					</li>
+				</ul> -->
+	 
+				<div class="bg-layer" aria-hidden="true"></div>
+			</div> 
+		</div> 
+	</div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Older -->
+
+<!-- <?php
 	$navigationItems = [
 		'news' => 'News',
 		'features' => 'Features',
@@ -7,7 +118,7 @@
 		'support' => 'Support',
 		'enterprise' => 'Enterprise',
 	];
-?>
+?> -->
 <!-- <section class="Header-Navigation">
 	<nav class="navbar navbar-fixed-top" id="navbar">
 		<div class="container-fluid">
@@ -42,105 +153,4 @@
 </section>
  -->
 
- <header class="cd-morph-dropdown">
-	<a class="brand" href="<?php echo home_url() ?>">
-		<div class="logo"></div>
-	</a>
-		<a href="#0" class="nav-trigger">Open Nav<span aria-hidden="true"></span></a>
-		
-		<nav class="main-nav">
-			<ul>
-				<li class="has-dropdown gallery" data-content="about">
-					<a href="#0">About us</a>
-				</li>
-
-				<li class="has-dropdown links" data-content="Get Involved">
-					<a href="#0">Get Involved</a>
-				</li>
-
-				<li class="has-dropdown button" data-content="Features">
-					<a href="#0">Features</a>
-				</li>
-
-				<li class="has-dropdown button" data-content="Enterprise">
-					<a href="#0">Enterprise</a>
-				</li>
-			</ul>
-		</nav>
-		
-		<div class="morph-dropdown-wrapper">
-			<div class="dropdown-list" style="transform: translateX(757px); width: 390px; height: 349px;">
-				<ul>
-					<li id="about" class="dropdown gallery">
-						<a href="#0" class="label">About</a>
-						
-						<div class="content">
-							<ul>
-								<li><a href="#0">Who we are</a></li>
-								<li><a href="#0">Community</a></li>
-								<li><a href="#0">Team</a></li>
-								<li><a href="#0">Jobs</a></li>
-								<li><a href="#0">Code of conduct</a></li>
-						</div>
-					</li>
-
-					<li id="Get Involved" class="dropdown links">
-						<a href="#0" class="label">Get Involved</a>
-
-						<div class="content">
-							<ul>
-								<li>
-									<h2>Services</h2>
-
-									<ul class="links-list">
-										<li><a href="#0">Logo Design</a></li>
-										<li><a href="#0">Branding</a></li>
-										<li><a href="#0">Web Design</a></li>
-										<li><a href="#0">iOS</a></li>
-										<li><a href="#0">Android</a></li>
-										<li><a href="#0">HTML/CSS/JS</a></li>
-										<li><a href="#0">Packaging</a></li>
-										<li><a href="#0">Mobile</a></li>
-										<li><a href="#0">UI/UX</a></li>
-										<li><a href="#0">Prototyping</a></li>
-									</ul>
-								</li>
-
-								<li>
-									<h2>Projects</h2>
-
-									<ul class="links-list">
-										<li><a href="#0">Logo Design</a></li>
-										<li><a href="#0">Branding</a></li>
-										<li><a href="#0">Web Design</a></li>
-										<li><a href="#0">iOS</a></li>
-										<li><a href="#0">Android</a></li>
-										<li><a href="#0">HTML/CSS/JS</a></li>
-									</ul>
-								</li>
-							</ul>
-						</div>
-					</li>
-
-					<li id="Features" class="dropdown button">
-						<a href="#0" class="label">Features</a>
-						
-						<div class="content">	
-							<ul class="links-list">
-								<li><a href="#0">Link #1</a></li>
-								<li><a href="#0">Link #2</a></li>
-								<li><a href="#0">Link #3</a></li>
-								<li><a href="#0">Link #4</a></li>
-								<li><a href="#0">Link #5</a></li>
-								<li><a href="#0">Link #6</a></li>
-							</ul>
-
-							<a href="#0" class="btn">Get in Touch</a>
-						</div>
-					</li>
-				</ul>
-
-				<div class="bg-layer" aria-hidden="true" style="transform: scaleX(390) scaleY(349);"></div>
-			</div> <!-- dropdown-list -->
-		</div> <!-- morph-dropdown-wrapper -->
-	</header>
+ 

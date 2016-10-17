@@ -1,986 +1,651 @@
 @import "variables.scss";
 
-.Header-Navigation{
-    .navbar {
-        top: 0;
-        border-width: 0 0 1px;
-        background-color: $nextcloud-blue;
-        height: 100px;
-        transition: all .2s ease-in;
-        z-index: 5;
-        padding-top: 24px;
-        font-size: 16px;
+.global-nav {
+    z-index: 1;
+    top: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
 
-        @media (min-width: $navbar-breaksize) {
+    &:before {
+        // content: 'desktop';
+    }
 
-            li.active {
-				a {
-                border-bottom: 3px solid $white;
-				padding-bottom: 15px;
-				}
-            }
+    .container {
 
-            li {
-                &:last-child {
-                    padding-left: 30px;
-                    padding-right: 30px;
-					
-					&:hover {
-					/* we can set a hover effect for the install button here */
-					}
-                }
-                
-                a {
-                    color: white;
-					
-					&:after {
-					content: '';
-					display: block;
-					margin: auto;
-					height: 2px;
-					width: 0px;
-					background: transparent;
-					transition: width .2s ease-out, background-color .5s ease;
-						
-						&:last-child {
-							margin-top: 0;
-					   }
-					
-					}
-                   /* hover effect for menu items: underline */
-                    &:hover {
-						text-decoration: none;
-						padding-bottom: 15px; 
-						border-bottom: 3px solid $white;
-					}
-                }
-            }
+        .nav-wrapper {
+            position:relative;
 
-            @media (max-width: $navbar-breaksize) {
-                a {
-                    color: #75badd;
-                    .active {
-                        color: $white;
-                    }
-                }
-            }
+            .brand {
+                position: absolute;
+                top: 0;
+                left: 0;
 
-            .navbar-header {
-                float: none;
-
+            
                 .logo {
                     background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
                     height: 50px;
                     width: 71px;
                     display: inline-block;
-                }
+                }    
             }
 
-            .btn-primary {
-                background-color: $nextcloud-blue;
-                border: 1px solid transparent;
-                border-radius: 100px;
-                font-size: 16px;
-                height: inherit;
+        .center-nav {
+                display: flex;
+                -webkit-box-pack: center;
+                -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                justify-content: center;
 
-                &:before{
-                    visibility: hidden;
+                ul {
+                    li {
+                        display: inline-block;
+                        padding: 0 20px;
+
+                        a {
+                            color: white;
+                            font-size: 16px;
+                            line-height: 55px;
+
+
+                        }
+                    }
                 }
+            }
+        }
 
-                @media (max-width: 1200px) {
-                    position: fixed;
-                    bottom: 0;
-                    margin-left: -5%;
-                    width: 105%;
-                    border-radius: 0;
-                    border: 0;
-                    height: 75px;
-                    font-size: 20px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    background-color: transparent;
+        .right-nav {
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: flex;
+
+            ul {
+                li{
+                    display: inline-block;
+                    padding: 0 20px;
 
                     a {
-                        color: $white;
+                        color: white;
+                        font-size: 16px;
+                        line-height: 55px;
                     }
                 }
             }
         }
 
-        .active {
-            font-weight: 600;
-            z-index: 3;
-        }
-
-		.overlay{
-			display: inline-block;
-			float: right !important;
-
-			.overlay-menu {
-				ul{
-					float: right !important;
-					padding-left: 0;
-					margin-bottom: 0;
-					list-style: none;
-					margin-right: -15px;
-					margin-bottom: 0;
-
-
-					li{
-						margin: 0 0 0 10px;
-						padding: 10px 15px;
-						position: relative;
-						display: table-cell;
-						vertical-align: middle;
-
-						&:last-child {
-							padding-left: 30px;
-							padding-right: 30px;
-						}
-						
-					}
-
-					.btn-primary{
-						padding: 5px 5px;
-						a{
-							position: relative;
-							display: block;
-							padding: 10px 15px;
-							border-radius: 100px;
-
-							&:hover {
-							text-decoration: none;
-							border-bottom: none;
-							}
-						}
-					}
-				}
-			}
-		}
-
-    }
-}
-
-
-/**
-*Break Menu at 1200px
-*/
-
-
-.navbar  {
-    .container-fluid{
-        margin-left: 5%;
-        margin-right: 5%;
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-
-        button {
-            color: white;
-            background-color: white;
-            border-radius: 50px;
-            width: 50px;
-            height: 50px;
-            margin-top: 0;
-            z-index: 3;
-
-            .icon-bar {
-                background-color: $dark-blue;
-                width: 100%;
-            }
-        }
-    }
-}
-
-.navbar-nav {
-    li {
-        @media (min-width: $break-small) {
-            margin: 0 0 0 10px;
-        }
-        a:hover {
-            background: none !important;
-        }
-        @media (min-width: $navbar-breaksize) {
-            a:hover {
-                color: white;
-            }
-        }
-    }
-    @media (min-width: $navbar-breaksize) {
-        li:before {
-            display: inline-block;
-            position: relative;
-            padding-bottom: 1px;
-        }
-        li:after {
-            content: '';
+        .morph-dropdown-wrapper {
+            display: none;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            width: 100%;
+            padding: 1.2em 5%;
+            box-shadow: inset 0 1px 0 #e6e6e6;
+            background-color: #FFFFFF;
+          }
+          
+          &.nav-open .morph-dropdown-wrapper {
             display: block;
-            margin: auto;
-            height: 3px;
-            width: 0;
-            background: transparent;
-            transition: width .2s ease, background-color .2s ease;
-        }
-        li:not(.btn-primary):not(.active):hover:before {
-            width: 100%;
-            background: white;
-            transition: width .2s ease-in;
-        }
-        li:not(.btn-primary):not(.active):hover:after {
-            width: 100%;
-            background: white;
+          
         }
     }
 }
 
-/**
- * Scrolled navbar style
- */
-.navbar.scrolled:not(.mobile-menu-open) {
-    transition: all .2s ease-in;
-    background: white;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09);
-    @media (max-height:800px) {
-        //        display: none;
-    }
-    a {
-        color: #656565 !important;
-		&:hover {
-			text-decoration: none;
-			padding-bottom: 15px; 
-			border-bottom: 3px solid #656565;
-		}
-    }
-    .navbar-nav li:not(.btn-primary):not(.active):hover:before {
-        width: 100%;
-        background: #656565;
-        transition: width .2s ease-in;
-    }
-    .navbar-nav li:not(.btn-primary):not(.active):hover:after {
-        width: 100%;
-        background: #656565;
-    }
-    @media (min-width: $navbar-breaksize) {
-        .active {
-			a {
-				border-bottom: 3px solid #656565;
-			}
-        }
+
+
+
+
+
+
+// Older version
+
+// .Header-Navigation{
+//     .navbar {
+//         top: 0;
+//         border-width: 0 0 1px;
+//         background-color: $nextcloud-blue;
+//         height: 100px;
+//         transition: all .2s ease-in;
+//         z-index: 5;
+//         padding-top: 24px;
+//         font-size: 16px;
+
+//         @media (min-width: $navbar-breaksize) {
+
+//             li.active {
+// 				a {
+//                 border-bottom: 3px solid $white;
+// 				padding-bottom: 15px;
+// 				}
+//             }
+
+//             li {
+//                 &:last-child {
+//                     padding-left: 30px;
+//                     padding-right: 30px;
+					
+// 					&:hover {
+// 					/* we can set a hover effect for the install button here */
+// 					}
+//                 }
+                
+//                 a {
+//                     color: white;
+					
+// 					&:after {
+// 					content: '';
+// 					display: block;
+// 					margin: auto;
+// 					height: 2px;
+// 					width: 0px;
+// 					background: transparent;
+// 					transition: width .2s ease-out, background-color .5s ease;
+						
+// 						&:last-child {
+// 							margin-top: 0;
+// 					   }
+					
+// 					}
+//                    /* hover effect for menu items: underline */
+//                     &:hover {
+// 						text-decoration: none;
+// 						padding-bottom: 15px; 
+// 						border-bottom: 3px solid $white;
+// 					}
+//                 }
+//             }
+
+//             @media (max-width: $navbar-breaksize) {
+//                 a {
+//                     color: #75badd;
+//                     .active {
+//                         color: $white;
+//                     }
+//                 }
+//             }
+
+//             .navbar-header {
+//                 float: none;
+
+//                 .logo {
+//                     background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+//                     height: 50px;
+//                     width: 71px;
+//                     display: inline-block;
+//                 }
+//             }
+
+//             .btn-primary {
+//                 background-color: $nextcloud-blue;
+//                 border: 1px solid transparent;
+//                 border-radius: 100px;
+//                 font-size: 16px;
+//                 height: inherit;
+
+//                 &:before{
+//                     visibility: hidden;
+//                 }
+
+//                 @media (max-width: 1200px) {
+//                     position: fixed;
+//                     bottom: 0;
+//                     margin-left: -5%;
+//                     width: 105%;
+//                     border-radius: 0;
+//                     border: 0;
+//                     height: 75px;
+//                     font-size: 20px;
+//                     display: flex;
+//                     justify-content: center;
+//                     align-items: center;
+//                     background-color: transparent;
+
+//                     a {
+//                         color: $white;
+//                     }
+//                 }
+//             }
+//         }
+
+//         .active {
+//             font-weight: 600;
+//             z-index: 3;
+//         }
+
+// 		.overlay{
+// 			display: inline-block;
+// 			float: right !important;
+
+// 			.overlay-menu {
+// 				ul{
+// 					float: right !important;
+// 					padding-left: 0;
+// 					margin-bottom: 0;
+// 					list-style: none;
+// 					margin-right: -15px;
+// 					margin-bottom: 0;
+
+
+// 					li{
+// 						margin: 0 0 0 10px;
+// 						padding: 10px 15px;
+// 						position: relative;
+// 						display: table-cell;
+// 						vertical-align: middle;
+
+// 						&:last-child {
+// 							padding-left: 30px;
+// 							padding-right: 30px;
+// 						}
+						
+// 					}
+
+// 					.btn-primary{
+// 						padding: 5px 5px;
+// 						a{
+// 							position: relative;
+// 							display: block;
+// 							padding: 10px 15px;
+// 							border-radius: 100px;
+
+// 							&:hover {
+// 							text-decoration: none;
+// 							border-bottom: none;
+// 							}
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+
+//     }
+// }
+
+
+// /**
+// *Break Menu at 1200px
+// */
+
+
+// .navbar  {
+//     .container-fluid{
+//         margin-left: 5%;
+//         margin-right: 5%;
+//         padding-right: 0 !important;
+//         padding-left: 0 !important;
+
+//         button {
+//             color: white;
+//             background-color: white;
+//             border-radius: 50px;
+//             width: 50px;
+//             height: 50px;
+//             margin-top: 0;
+//             z-index: 3;
+
+//             .icon-bar {
+//                 background-color: $dark-blue;
+//                 width: 100%;
+//             }
+//         }
+//     }
+// }
+
+// .navbar-nav {
+//     li {
+//         @media (min-width: $break-small) {
+//             margin: 0 0 0 10px;
+//         }
+//         a:hover {
+//             background: none !important;
+//         }
+//         @media (min-width: $navbar-breaksize) {
+//             a:hover {
+//                 color: white;
+//             }
+//         }
+//     }
+//     @media (min-width: $navbar-breaksize) {
+//         li:before {
+//             display: inline-block;
+//             position: relative;
+//             padding-bottom: 1px;
+//         }
+//         li:after {
+//             content: '';
+//             display: block;
+//             margin: auto;
+//             height: 3px;
+//             width: 0;
+//             background: transparent;
+//             transition: width .2s ease, background-color .2s ease;
+//         }
+//         li:not(.btn-primary):not(.active):hover:before {
+//             width: 100%;
+//             background: white;
+//             transition: width .2s ease-in;
+//         }
+//         li:not(.btn-primary):not(.active):hover:after {
+//             width: 100%;
+//             background: white;
+//         }
+//     }
+// }
+
+// /**
+//  * Scrolled navbar style
+//  */
+// .navbar.scrolled:not(.mobile-menu-open) {
+//     transition: all .2s ease-in;
+//     background: white;
+//     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09);
+//     @media (max-height:800px) {
+//         //        display: none;
+//     }
+//     a {
+//         color: #656565 !important;
+// 		&:hover {
+// 			text-decoration: none;
+// 			padding-bottom: 15px; 
+// 			border-bottom: 3px solid #656565;
+// 		}
+//     }
+//     .navbar-nav li:not(.btn-primary):not(.active):hover:before {
+//         width: 100%;
+//         background: #656565;
+//         transition: width .2s ease-in;
+//     }
+//     .navbar-nav li:not(.btn-primary):not(.active):hover:after {
+//         width: 100%;
+//         background: #656565;
+//     }
+//     @media (min-width: $navbar-breaksize) {
+//         .active {
+// 			a {
+// 				border-bottom: 3px solid #656565;
+// 			}
+//         }
         
-    }
-    .btn-primary a {
-        color: white !important;
-    }
+//     }
+//     .btn-primary a {
+//         color: white !important;
+//     }
 
-    .navbar-collapse {
-        @media (max-width: $navbar-breaksize) {
-            background-color: $white;
-            margin-left: -6% !important;
-        }
-    }
-    .logo {
-        background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain !important;
-    }
-    .container-fluid button{
-        background: $nextcloud-blue;
+//     .navbar-collapse {
+//         @media (max-width: $navbar-breaksize) {
+//             background-color: $white;
+//             margin-left: -6% !important;
+//         }
+//     }
+//     .logo {
+//         background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain !important;
+//     }
+//     .container-fluid button{
+//         background: $nextcloud-blue;
 
-        .icon-bar {
-            background-color: white;
-        }
-    }
+//         .icon-bar {
+//             background-color: white;
+//         }
+//     }
 
-    svg {
-        filter: invert(100%);
-    }
-}
-
-
-/**
- * Collapsed navbar
- */
-.navbar-collapse {
-    @media (max-width: 1200px) {
-        padding-left: 0;
-        padding-right: 0;
-        width: calc(100vw + 1%);
-        min-height: 100vh;
-        background-color: $nextcloud-blue;
-        margin-left: -6% !important;
-        box-shadow: none;
-        transition: all .2s ease-in;
-
-        ul {
-            margin-right: 5%;
-            margin-left: 5%;
-            text-align: center;
-            min-height: 540px;
-
-            li {
-                padding-top: 3vh;
-                font-size: 35px;
-            }
-        }
-    }
-
-}
-
-.navbar-toggle.collapsed {
-    .top-bar {
-        transform: rotate(0deg);
-    }
-
-    .middle-bar {
-        opacity: 1;
-    }
-
-    .bottom-bar {
-        transform: rotate(0deg);
-    }
-}
-
-.navbar-collapse {
-    display: none !important;
-}
+//     svg {
+//         filter: invert(100%);
+//     }
+// }
 
 
-/**
-*Changed default media querys for navigation in bootstrap
-*/
-@media (max-width: 1200px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin-top: 7.5px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in{
-        display:block !important;
-    }
-    .navbar-nav .open .dropdown-menu {
-        position: static;
-        float: none;
-        width: auto;
-        margin-top: 0;
-        background-color: transparent;
-        border: 0;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-    }
-}
+// /**
+//  * Collapsed navbar
+//  */
+// .navbar-collapse {
+//     @media (max-width: 1200px) {
+//         padding-left: 0;
+//         padding-right: 0;
+//         width: calc(100vw + 1%);
+//         min-height: 100vh;
+//         background-color: $nextcloud-blue;
+//         margin-left: -6% !important;
+//         box-shadow: none;
+//         transition: all .2s ease-in;
 
-/**
-*Mobile
-*/
-@media (max-width: 1200px) {
-    .Header-Navigation{
+//         ul {
+//             margin-right: 5%;
+//             margin-left: 5%;
+//             text-align: center;
+//             min-height: 540px;
 
-        .navbar{
+//             li {
+//                 padding-top: 3vh;
+//                 font-size: 35px;
+//             }
+//         }
+//     }
 
-            .container-fluid{
+// }
 
-                .navbar-header{
-                    margin-left: 0;
+// .navbar-toggle.collapsed {
+//     .top-bar {
+//         transform: rotate(0deg);
+//     }
 
-                    .logo{
-                        z-index: 5;
-                        position: relative;
-                        background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
-                        height: 50px;
-                        width: 71px;
-                        display: inline-block;
-                    }
+//     .middle-bar {
+//         opacity: 1;
+//     }
 
-                    button{
-                        &:hover {
-                            transform: scale(1.1);
-                            transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
-                            transition-property: transform;
-                            transition-duration: 0.3s;
-                            transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
-                            transition-delay: initial;
-                        }
-                    }
+//     .bottom-bar {
+//         transform: rotate(0deg);
+//     }
+// }
 
-                    .overlay {
-                        position: fixed;
-                        background: $nextcloud-blue;
-                        padding-top: 25px;
-                        z-index: 2;
-                        top: 0;
-                        right: 0;
-                        width: 0;
-                        height: 0;
-                        visibility: hidden;
-                        overflow: hidden;
-                        border-bottom-left-radius: 100%;
-                        transition: all 0.6s ease;
-
-                        .btn-primary {
-
-                            &:before {
-                                visibility: hidden;
-                            }
-                        }
-
-                        li {
-                            display: block;
-                            height: 25%;
-                            height: calc(100% / 4);
-                            min-height: 50px;
-                            position: relative;
-                            opacity: 1;
-                            margin: 0;
-                            opacity: 0;
-                            color: white;
-
-                            &:last-child{
-                                font-weight: 500;
-                            }
-
-                            a {
-                                color: white;
-                                text-decoration: none;
-                            }
-                        }
-
-                        &.open {
-                            opacity: 1;
-                            visibility: visible;
-                            width: 150%;
-                            height: 150%;
-
-                            ul {
-                                list-style: none;
-                                display: inline-block;
-                                font-size: 26px;
-                                color: white;
-                                text-align: center;
-                                margin: 0 auto;
-                                display: inline-block;
-                                position: fixed;
-                                top: 50%;
-                                left: 50%;
-                                -webkit-transform: translate(-50%, -50%);
-                                transform: translate(-50%, -50%);
-
-                                li {
-                                    font-size: 25px;
-                                    padding-top: 2vh;
-                                    animation: fadeInRight .5s ease forwards;
-                                    animation-delay: .35s;
-
-                                    &:nth-of-type(2) {
-                                        animation-delay: .4s;
-                                    }
-                                    &:nth-of-type(3) {
-                                        animation-delay: .45s;
-                                    }
-                                    &:nth-of-type(4) {
-                                        animation-delay: .50s;
-                                    }
-                                    &:nth-of-type(5) {
-                                        animation-delay: .55s;
-                                    }
-                                    &:nth-of-type(6) {
-                                        animation-delay: .60s;
-                                    }
-                                    &:nth-of-type(7) {
-                                        animation-delay: .65s;
-                                    }
-                                    &:nth-of-type(8) {
-                                        animation-delay: .70s;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+// .navbar-collapse {
+//     display: none !important;
+// }
 
 
-@keyframes fadeInRight {
-    0% {
-        opacity: 0;
-        left: 20%;
-    }
-    100% {
-        opacity: 1;
-        left: 0;
-    }
-}
+// /**
+// *Changed default media querys for navigation in bootstrap
+// */
+// @media (max-width: 1200px) {
+//     .navbar-header {
+//         float: none;
+//     }
+//     .navbar-left,.navbar-right {
+//         float: none !important;
+//     }
+//     .navbar-toggle {
+//         display: block;
+//     }
+//     .navbar-collapse {
+//         border-top: 1px solid transparent;
+//         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+//     }
+//     .navbar-fixed-top {
+//         top: 0;
+//         border-width: 0 0 1px;
+//     }
+//     .navbar-collapse.collapse {
+//         display: none!important;
+//     }
+//     .navbar-nav {
+//         float: none!important;
+//         margin-top: 7.5px;
+//     }
+//     .navbar-nav>li {
+//         float: none;
+//     }
+//     .navbar-nav>li>a {
+//         padding-top: 10px;
+//         padding-bottom: 10px;
+//     }
+//     .collapse.in{
+//         display:block !important;
+//     }
+//     .navbar-nav .open .dropdown-menu {
+//         position: static;
+//         float: none;
+//         width: auto;
+//         margin-top: 0;
+//         background-color: transparent;
+//         border: 0;
+//         -webkit-box-shadow: none;
+//         box-shadow: none;
+//     }
+// }
 
-@media (max-height:800px) {
-    .nav-down {
-        opacity: 1;
-        transition: all .2s ease-in-out ;
-    }
+// /**
+// *Mobile
+// */
+// @media (max-width: 1200px) {
+//     .Header-Navigation{
 
-    .nav-up {
-        top: -100px !important;
-        opacity: 0;
-        transition: all .2s ease-in-out ;
-    }
-}
+//         .navbar{
 
-//new stuff
+//             .container-fluid{
+
+//                 .navbar-header{
+//                     margin-left: 0;
+
+//                     .logo{
+//                         z-index: 5;
+//                         position: relative;
+//                         background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+//                         height: 50px;
+//                         width: 71px;
+//                         display: inline-block;
+//                     }
+
+//                     button{
+//                         &:hover {
+//                             transform: scale(1.1);
+//                             transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
+//                             transition-property: transform;
+//                             transition-duration: 0.3s;
+//                             transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
+//                             transition-delay: initial;
+//                         }
+//                     }
+
+//                     .overlay {
+//                         position: fixed;
+//                         background: $nextcloud-blue;
+//                         padding-top: 25px;
+//                         z-index: 2;
+//                         top: 0;
+//                         right: 0;
+//                         width: 0;
+//                         height: 0;
+//                         visibility: hidden;
+//                         overflow: hidden;
+//                         border-bottom-left-radius: 100%;
+//                         transition: all 0.6s ease;
+
+//                         .btn-primary {
+
+//                             &:before {
+//                                 visibility: hidden;
+//                             }
+//                         }
+
+//                         li {
+//                             display: block;
+//                             height: 25%;
+//                             height: calc(100% / 4);
+//                             min-height: 50px;
+//                             position: relative;
+//                             opacity: 1;
+//                             margin: 0;
+//                             opacity: 0;
+//                             color: white;
+
+//                             &:last-child{
+//                                 font-weight: 500;
+//                             }
+
+//                             a {
+//                                 color: white;
+//                                 text-decoration: none;
+//                             }
+//                         }
+
+//                         &.open {
+//                             opacity: 1;
+//                             visibility: visible;
+//                             width: 150%;
+//                             height: 150%;
+
+//                             ul {
+//                                 list-style: none;
+//                                 display: inline-block;
+//                                 font-size: 26px;
+//                                 color: white;
+//                                 text-align: center;
+//                                 margin: 0 auto;
+//                                 display: inline-block;
+//                                 position: fixed;
+//                                 top: 50%;
+//                                 left: 50%;
+//                                 -webkit-transform: translate(-50%, -50%);
+//                                 transform: translate(-50%, -50%);
+
+//                                 li {
+//                                     font-size: 25px;
+//                                     padding-top: 2vh;
+//                                     animation: fadeInRight .5s ease forwards;
+//                                     animation-delay: .35s;
+
+//                                     &:nth-of-type(2) {
+//                                         animation-delay: .4s;
+//                                     }
+//                                     &:nth-of-type(3) {
+//                                         animation-delay: .45s;
+//                                     }
+//                                     &:nth-of-type(4) {
+//                                         animation-delay: .50s;
+//                                     }
+//                                     &:nth-of-type(5) {
+//                                         animation-delay: .55s;
+//                                     }
+//                                     &:nth-of-type(6) {
+//                                         animation-delay: .60s;
+//                                     }
+//                                     &:nth-of-type(7) {
+//                                         animation-delay: .65s;
+//                                     }
+//                                     &:nth-of-type(8) {
+//                                         animation-delay: .70s;
+//                                     }
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
 
 
+// @keyframes fadeInRight {
+//     0% {
+//         opacity: 0;
+//         left: 20%;
+//     }
+//     100% {
+//         opacity: 1;
+//         left: 0;
+//     }
+// }
 
+// @media (max-height:800px) {
+//     .nav-down {
+//         opacity: 1;
+//         transition: all .2s ease-in-out ;
+//     }
 
-.cd-morph-dropdown {
-  position: relative;
-  height: 60px;
-  background-color: #FFFFFF;
-  z-index: 1;
-
-  .logo {
-    background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
-    height: 50px;
-    width: 71px;
-    display: inline-block;
-    }
-  
-  &::before {
-    /* never visible - used in JS to check mq */
-    content: 'mobile';
-    display: none;
-  }
-  
-  .nav-trigger {
-    /* menu icon - visible on small screens only */
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 60px;
-    width: 60px;
-    /* replace text with icon */
-    overflow: hidden;
-    text-indent: 100%;
-    white-space: nowrap;
-    color: transparent;
-    
-    span {
-      /* these are the 3 lines of the menu icon */
-      position: absolute;
-      background-color: #1A1A1A;
-      height: 3px;
-      width: 26px;
-      
-      &::after, &::before {
-        /* these are the 3 lines of the menu icon */
-        position: absolute;
-        background-color: #1A1A1A;
-        height: 3px;
-        width: 26px;
-      }
-      left: 50%;
-      top: 50%;
-      bottom: auto;
-      right: auto;
-      -webkit-transform: translateX(-50%) translateY(-50%);
-      -ms-transform: translateX(-50%) translateY(-50%);
-      transform: translateX(-50%) translateY(-50%);
-      -webkit-transition: background-color .3s;
-      transition: background-color .3s;
-      
-      &::after {
-        content: '';
-        left: 0;
-        -webkit-transition: -webkit-transform .3s;
-        transition: -webkit-transform .3s;
-        transition: transform .3s;
-        transition: transform .3s, -webkit-transform .3s;
-      }
-      
-      &::before {
-        content: '';
-        left: 0;
-        -webkit-transition: -webkit-transform .3s;
-        transition: -webkit-transform .3s;
-        transition: transform .3s;
-        transition: transform .3s, -webkit-transform .3s;
-        -webkit-transform: translateY(-9px);
-        -ms-transform: translateY(-9px);
-        transform: translateY(-9px);
-      }
-      
-      &::after {
-        -webkit-transform: translateY(9px);
-        -ms-transform: translateY(9px);
-        transform: translateY(9px);
-      }
-    }
-  }
-
-  &.nav-open .nav-trigger span {
-    background-color: transparent;
-    
-    &::before {
-      -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      transform: rotate(45deg);
-    }
-    
-    &::after {
-      -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-      transform: rotate(-45deg);
-    }
-  }
-  
-  .main-nav {
-    display: none;
-  }
-  
-  .morph-dropdown-wrapper {
-    display: none;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    padding: 1.2em 5%;
-    box-shadow: inset 0 1px 0 #e6e6e6;
-    background-color: #FFFFFF;
-  }
-  
-  &.nav-open .morph-dropdown-wrapper {
-    display: block;
-  }
-  
-  .dropdown-list > ul > li {
-    margin-bottom: 3.3em;
-  }
-  
-  .label {
-    display: block;
-    font-size: 2.2rem;
-    color: #1A1A1A;
-    margin-bottom: .8em;
-  }
-  
-  .content li::after {
-    clear: both;
-    content: "";
-    display: block;
-  }
-  
-  .gallery {
-    
-    .content {
-      li {
-        margin-bottom: 1.4em;
-      }
-      
-      a {
-        display: block;
-        
-        span {
-          display: block;
-          line-height: 1.2;
-        }
-        
-        em {
-          display: block;
-          line-height: 1.2;
-          font-size: 1.8rem;
-          padding: .4em 0 .2em;
-          color: #1A1A1A;
-        }
-        
-        span {
-          font-size: 1.4rem;
-          color: #a6a6a6;
-        }
-        
-      }
-    }
-  }
-
-  .links .content > ul > li {
-    margin-top: 1em;
-  }
-
-  .links-list a, .btn {
-    display: block;
-    margin-left: 14px;
-    font-size: 2.2rem;
-    line-height: 1.6;
-  }
-
-  .links-list a:hover, .btn:hover {
-    color: #1A1A1A;
-  }
-
-  .content h2 {
-    color: #a6a6a6;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.3rem;
-    margin: 20px 0 10px 14px;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .cd-morph-dropdown {
-    position: absolute;
-    height: 80px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    padding: 0;
-    text-align: center;
-    background-color: transparent;
-    &::before {
-      content: 'desktop';
-    }
-    .nav-trigger {
-      display: none;
-    }
-    .main-nav {
-      display: inline-block;
-      > ul > li {
-        display: inline-block;
-        float: left;
-        > a {
-          display: block;
-          padding: 0 1.8em;
-          height: 70px;
-          line-height: 70px;
-          color: #FFFFFF;
-          font-size: 1.8rem;
-          -webkit-font-smoothing: antialiased;
-          -moz-osx-font-smoothing: grayscale;
-          -webkit-transition: opacity .2s;
-          transition: opacity .2s;
-        }
-      }
-    }
-    &.is-dropdown-visible .main-nav > ul > li {
-      > a {
-        /* main navigation hover effect - on hover, reduce opacity of elements not hovered over */
-        opacity: .6;
-      }
-      &.active > a {
-        opacity: 1;
-      }
-    }
-    .morph-dropdown-wrapper {
-      /* dropdown wrapper - used to create the slide up/slide down effect when dropdown is revealed/hidden */
-      display: block;
-      top: 58px;
-      /* overwrite mobile style */
-      width: auto;
-      padding: 0;
-      box-shadow: none;
-      background-color: transparent;
-      /* Force Hardware acceleration */
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0);
-      will-change: transform;
-      -webkit-transform: translateY(20px);
-      -ms-transform: translateY(20px);
-      transform: translateY(20px);
-      -webkit-transition: -webkit-transform .3s;
-      transition: -webkit-transform .3s;
-      transition: transform .3s;
-      transition: transform .3s, -webkit-transform .3s;
-    }
-    &.is-dropdown-visible .morph-dropdown-wrapper {
-      -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-      transform: translateY(0);
-    }
-    .dropdown-list {
-      position: absolute;
-      top: 0;
-      left: 0;
-      visibility: hidden;
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0);
-      will-change: transform, width, height;
-      -webkit-transition: visibility .3s;
-      transition: visibility .3s;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
-    }
-  }
-  .no-csstransitions .cd-morph-dropdown .dropdown-list {
-    display: none;
-  }
-  .cd-morph-dropdown {
-    .dropdown-list {
-      &::before {
-        /* dropdown top triangle */
-        content: '';
-        position: absolute;
-        bottom: 100%;
-        left: 50%;
-        right: auto;
-        -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        transform: translateX(-50%);
-        height: 0;
-        width: 0;
-        border: 8px solid transparent;
-        border-bottom-color: #FFFFFF;
-        opacity: 0;
-        -webkit-transition: opacity .3s;
-        transition: opacity .3s;
-      }
-      > ul {
-        position: relative;
-        z-index: 1;
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
-      }
-    }
-    &.is-dropdown-visible .dropdown-list {
-      visibility: visible;
-      -webkit-transition: width .3s, height .3s, -webkit-transform .3s;
-      transition: width .3s, height .3s, -webkit-transform .3s;
-      transition: transform .3s, width .3s, height .3s;
-      transition: transform .3s, width .3s, height .3s, -webkit-transform .3s;
-      &::before {
-        opacity: 1;
-      }
-    }
-    .dropdown {
-      position: absolute;
-      left: 0;
-      top: 0;
-      opacity: 0;
-      visibility: hidden;
-      width: 100%;
-      -webkit-transition: opacity .3s, visibility .3s;
-      transition: opacity .3s, visibility .3s;
-      &.active {
-        opacity: 1;
-        visibility: visible;
-      }
-      &.move-left .content {
-        -webkit-transform: translateX(-100px);
-        -ms-transform: translateX(-100px);
-        transform: translateX(-100px);
-      }
-      &.move-right .content {
-        -webkit-transform: translateX(100px);
-        -ms-transform: translateX(100px);
-        transform: translateX(100px);
-      }
-    }
-    .label {
-      /* hide the label on bigger devices */
-      display: none;
-    }
-
-    .content {
-      padding: 2.2em 1.8em;
-      -webkit-transition: -webkit-transform .3s;
-      transition: -webkit-transform .3s;
-      transition: transform .3s;
-      transition: transform .3s, -webkit-transform .3s;
-      text-align: center;
-    }
-
-    .gallery .content {
-      /* you need to set a width for the .content elements because they have a position absolute */
-      width: 510px;
-      padding-bottom: .8em;
-      li {
-        margin-bottom: 1.8em;
-      }
-    }
-    .links .content {
-      > ul > li {
-        margin-top: 0;
-      }
-      width: 390px;
-    }
-    .button .content {
-      width: 390px;
-    }
-    .links-list a {
-      font-size: 1.6rem;
-      margin-left: 0;
-    }
-    .btn {
-      display: block;
-      width: 100%;
-      height: 60px;
-      margin: 1.5em 0 0;
-      font-size: 1.8rem;
-      text-align: center;
-      color: #FFFFFF;
-      line-height: 60px;
-      background: #DB6356;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      &:hover {
-        background: #1A1A1A;
-        color: #FFFFFF;
-      }
-    }
-    .content h2 {
-      font-size: 1.8rem;
-      text-transform: none;
-      font-weight: normal;
-      color: #1A1A1A;
-      margin: 0 0 .6em;
-    }
-    .bg-layer {
-      /* morph dropdown background */
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 1px;
-      width: 1px;
-      background: #FFFFFF;
-      opacity: 0;
-      -webkit-transition: opacity .3s;
-      transition: opacity .3s;
-      -webkit-transform-origin: top left;
-      -ms-transform-origin: top left;
-      transform-origin: top left;
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0);
-      will-change: transform;
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-    }
-    &.is-dropdown-visible .bg-layer {
-      opacity: 1;
-      -webkit-transition: opacity .3s, -webkit-transform .3s;
-      transition: opacity .3s, -webkit-transform .3s;
-      transition: transform .3s, opacity .3s;
-      transition: transform .3s, opacity .3s, -webkit-transform .3s;
-    }
-  }
-}
+//     .nav-up {
+//         top: -100px !important;
+//         opacity: 0;
+//         transition: all .2s ease-in-out ;
+//     }
+// }
