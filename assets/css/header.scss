@@ -1,523 +1,171 @@
 @import "variables.scss";
 
-.Header-Navigation{
-    .navbar {
-        top: 0;
-        border-width: 0 0 1px;
-        background-color: $nextcloud-blue;
-        height: 100px;
-        transition: all .2s ease-in;
-        z-index: 5;
-        padding-top: 24px;
-        font-size: 16px;
 
-        @media (min-width: $navbar-breaksize) {
+.nav {
+    z-index: 1;
+    top: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
 
-            li.active {
-				a {
-                border-bottom: 3px solid $white;
-				padding-bottom: 15px;
-				}
-            }
+    .container {
+        position: relative; //this breaks the bg position
 
-            li {
-                &:last-child {
-                    padding-left: 30px;
-                    padding-right: 30px;
-					
-					&:hover {
-					/* we can set a hover effect for the install button here */
-					}
+        .brand {
+            position: absolute;
+            top: 0;
+            left: 0;
+
+
+            .logo {
+                background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+                height: 50px;
+                width: 71px;
+                display: inline-block;
+            }    
+        }
+
+        .nav__bg-wrapper {
+            position: absolute;
+            left: 0;
+            top: 100%;
+            visibility: hidden;
+            opacity: 0;
+            -webkit-transition: 0.3s;
+            transition: 0.3s;
+            will-change: opacity;
+
+                &.is-visible {
+                    visibility: visible;
+                    opacity: 1;
                 }
+
+            .nav__bg {
+                width: 300px;
+                height: 200px;
+                background: white;
+                box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.11);
+                border: solid 1px #f3f3f3;
+                border-radius: 4px;
+                -webkit-transform-origin: left top;
+                transform-origin: left top;
+                will-change: transform;
                 
-                a {
-                    color: white;
-					
-					&:after {
-					content: '';
-					display: block;
-					margin: auto;
-					height: 2px;
-					width: 0px;
-					background: transparent;
-					transition: width .2s ease-out, background-color .5s ease;
-						
-						&:last-child {
-							margin-top: 0;
-					   }
-					
-					}
-                   /* hover effect for menu items: underline */
-                    &:hover {
-						text-decoration: none;
-						padding-bottom: 15px; 
-						border-bottom: 3px solid $white;
-					}
+                &:before {
+                content: '';
+                position: absolute;
+                bottom: 100%;
+                left: 50%;
+                right: auto;
+                -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+                height: 0;
+                width: 0;
+                border: 8px solid transparent;
+                border-bottom-color: #FFFFFF;
+                }
+            
+                &.is-animatable {
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
                 }
             }
+         }   
 
-            @media (max-width: $navbar-breaksize) {
-                a {
-                    color: #75badd;
-                    .active {
-                        color: $white;
+        .nav__sections {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            list-style-type: none;
+            margin-top: 13px;
+
+        
+            .nav__section {
+                position: relative;
+
+                &:hover {
+                    .nav__label {
+                        opacity: 0.6;
+                    }
+
+                    .nav__links {
+                        visibility: visible;
+                        opacity: 1;
                     }
                 }
-            }
 
-            .navbar-header {
-                float: none;
-
-                .logo {
-                    background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
-                    height: 50px;
-                    width: 71px;
+                .nav__label {
                     display: inline-block;
+                    padding-left: 30px;
+                    padding-bottom: 5px;
+                    color: white;
+                    -webkit-transition: 0.3s;
+                    transition: 0.3s;
+                    font-size: 16px;
                 }
-            }
 
-            .btn-primary {
-                background-color: $nextcloud-blue;
-                border: 1px solid transparent;
-                border-radius: 100px;
-                font-size: 16px;
-                height: inherit;
+                .nav__links--large {
+                    width: 25em;
+                }
 
-                &:before{
+                .nav__links--medium {
+                    width: 18.75em;
+                }
+
+                .nav__links--small {
+                    width: 12.5em;
+                }
+
+                .nav__links {
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    padding: 1.875em;
                     visibility: hidden;
-                }
+                    opacity: 0;
+                    -webkit-transition: 0.3s;
+                    transition: 0.3s;
+                    list-style-type: none;
 
-                @media (max-width: 1200px) {
-                    position: fixed;
-                    bottom: 0;
-                    margin-left: -5%;
-                    width: 105%;
-                    border-radius: 0;
-                    border: 0;
-                    height: 75px;
-                    font-size: 20px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    background-color: transparent;
+                    .nav__item {
+                        color: #666;
+                        margin-top: 15px;
 
-                    a {
-                        color: $white;
+                        a {
+                            font-size: 16px;
+                            color: $medium-grey;
+                        }
+
+                        &:not(:last-of-type) {
+                            margin-bottom: 0.625em;
+                        }
                     }
-                }
+                }        
             }
-        }
-
-        .active {
-            font-weight: 600;
-            z-index: 3;
-        }
-
-		.overlay{
-			display: inline-block;
-			float: right !important;
-
-			.overlay-menu {
-				ul{
-					float: right !important;
-					padding-left: 0;
-					margin-bottom: 0;
-					list-style: none;
-					margin-right: -15px;
-					margin-bottom: 0;
-
-
-					li{
-						margin: 0 0 0 10px;
-						padding: 10px 15px;
-						position: relative;
-						display: table-cell;
-						vertical-align: middle;
-
-						&:last-child {
-							padding-left: 30px;
-							padding-right: 30px;
-						}
-						
-					}
-
-					.btn-primary{
-						padding: 5px 5px;
-						a{
-							position: relative;
-							display: block;
-							padding: 10px 15px;
-							border-radius: 100px;
-
-							&:hover {
-							text-decoration: none;
-							border-bottom: none;
-							}
-						}
-					}
-				}
-			}
-		}
-
-    }
-}
-
-
-/**
-*Break Menu at 1200px
-*/
-
-
-.navbar  {
-    .container-fluid{
-        margin-left: 5%;
-        margin-right: 5%;
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-
-        button {
-            color: white;
-            background-color: white;
-            border-radius: 50px;
-            width: 50px;
-            height: 50px;
-            margin-top: 0;
-            z-index: 3;
-
-            .icon-bar {
-                background-color: $dark-blue;
-                width: 100%;
-            }
-        }
-    }
-}
-
-.navbar-nav {
-    li {
-        @media (min-width: $break-small) {
-            margin: 0 0 0 10px;
-        }
-        a:hover {
-            background: none !important;
-        }
-        @media (min-width: $navbar-breaksize) {
-            a:hover {
-                color: white;
-            }
-        }
-    }
-    @media (min-width: $navbar-breaksize) {
-        li:before {
-            display: inline-block;
-            position: relative;
-            padding-bottom: 1px;
-        }
-        li:after {
-            content: '';
-            display: block;
-            margin: auto;
-            height: 3px;
-            width: 0;
-            background: transparent;
-            transition: width .2s ease, background-color .2s ease;
-        }
-        li:not(.btn-primary):not(.active):hover:before {
-            width: 100%;
-            background: white;
-            transition: width .2s ease-in;
-        }
-        li:not(.btn-primary):not(.active):hover:after {
-            width: 100%;
-            background: white;
-        }
-    }
-}
-
-/**
- * Scrolled navbar style
- */
-.navbar.scrolled:not(.mobile-menu-open) {
-    transition: all .2s ease-in;
-    background: white;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09);
-    @media (max-height:800px) {
-        //        display: none;
-    }
-    a {
-        color: #656565 !important;
-		&:hover {
-			text-decoration: none;
-			padding-bottom: 15px; 
-			border-bottom: 3px solid #656565;
-		}
-    }
-    .navbar-nav li:not(.btn-primary):not(.active):hover:before {
-        width: 100%;
-        background: #656565;
-        transition: width .2s ease-in;
-    }
-    .navbar-nav li:not(.btn-primary):not(.active):hover:after {
-        width: 100%;
-        background: #656565;
-    }
-    @media (min-width: $navbar-breaksize) {
-        .active {
-			a {
-				border-bottom: 3px solid #656565;
-			}
         }
         
-    }
-    .btn-primary a {
-        color: white !important;
-    }
+        .right-buttons{
+            position: absolute;
+            top: 0;
+            right: 0;
 
-    .navbar-collapse {
-        @media (max-width: $navbar-breaksize) {
-            background-color: $white;
-            margin-left: -6% !important;
-        }
-    }
-    .logo {
-        background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain !important;
-    }
-    .container-fluid button{
-        background: $nextcloud-blue;
+            ul {
+                margin-top: 13px;
 
-        .icon-bar {
-            background-color: white;
-        }
-    }
+                li {
+                    display: inline-block;
+                    padding-left: 30px;
+                    padding-bottom: 5px;
+                    font-size: 16px;
 
-    svg {
-        filter: invert(100%);
-    }
-}
-
-
-/**
- * Collapsed navbar
- */
-.navbar-collapse {
-    @media (max-width: 1200px) {
-        padding-left: 0;
-        padding-right: 0;
-        width: calc(100vw + 1%);
-        min-height: 100vh;
-        background-color: $nextcloud-blue;
-        margin-left: -6% !important;
-        box-shadow: none;
-        transition: all .2s ease-in;
-
-        ul {
-            margin-right: 5%;
-            margin-left: 5%;
-            text-align: center;
-            min-height: 540px;
-
-            li {
-                padding-top: 3vh;
-                font-size: 35px;
-            }
-        }
-    }
-
-}
-
-.navbar-toggle.collapsed {
-    .top-bar {
-        transform: rotate(0deg);
-    }
-
-    .middle-bar {
-        opacity: 1;
-    }
-
-    .bottom-bar {
-        transform: rotate(0deg);
-    }
-}
-
-.navbar-collapse {
-    display: none !important;
-}
-
-
-/**
-*Changed default media querys for navigation in bootstrap
-*/
-@media (max-width: 1200px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin-top: 7.5px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in{
-        display:block !important;
-    }
-    .navbar-nav .open .dropdown-menu {
-        position: static;
-        float: none;
-        width: auto;
-        margin-top: 0;
-        background-color: transparent;
-        border: 0;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-    }
-}
-
-/**
-*Mobile
-*/
-@media (max-width: 1200px) {
-    .Header-Navigation{
-
-        .navbar{
-
-            .container-fluid{
-
-                .navbar-header{
-                    margin-left: 0;
-
-                    .logo{
-                        z-index: 5;
-                        position: relative;
-                        background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
-                        height: 50px;
-                        width: 71px;
-                        display: inline-block;
-                    }
-
-                    button{
-                        &:hover {
-                            transform: scale(1.1);
-                            transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
-                            transition-property: transform;
-                            transition-duration: 0.3s;
-                            transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
-                            transition-delay: initial;
-                        }
-                    }
-
-                    .overlay {
-                        position: fixed;
-                        background: $nextcloud-blue;
-                        padding-top: 25px;
-                        z-index: 2;
-                        top: 0;
-                        right: 0;
-                        width: 0;
-                        height: 0;
-                        visibility: hidden;
-                        overflow: hidden;
-                        border-bottom-left-radius: 100%;
-                        transition: all 0.6s ease;
-
-                        .btn-primary {
-
-                            &:before {
-                                visibility: hidden;
-                            }
-                        }
-
-                        li {
-                            display: block;
-                            height: 25%;
-                            height: calc(100% / 4);
-                            min-height: 50px;
-                            position: relative;
-                            opacity: 1;
-                            margin: 0;
-                            opacity: 0;
-                            color: white;
-
-                            &:last-child{
-                                font-weight: 500;
-                            }
-
-                            a {
-                                color: white;
-                                text-decoration: none;
-                            }
-                        }
-
-                        &.open {
-                            opacity: 1;
-                            visibility: visible;
-                            width: 150%;
-                            height: 150%;
-
-                            ul {
-                                list-style: none;
-                                display: inline-block;
-                                font-size: 26px;
-                                color: white;
-                                text-align: center;
-                                margin: 0 auto;
-                                display: inline-block;
-                                position: fixed;
-                                top: 50%;
-                                left: 50%;
-                                -webkit-transform: translate(-50%, -50%);
-                                transform: translate(-50%, -50%);
-
-                                li {
-                                    font-size: 25px;
-                                    padding-top: 2vh;
-                                    animation: fadeInRight .5s ease forwards;
-                                    animation-delay: .35s;
-
-                                    &:nth-of-type(2) {
-                                        animation-delay: .4s;
-                                    }
-                                    &:nth-of-type(3) {
-                                        animation-delay: .45s;
-                                    }
-                                    &:nth-of-type(4) {
-                                        animation-delay: .50s;
-                                    }
-                                    &:nth-of-type(5) {
-                                        animation-delay: .55s;
-                                    }
-                                    &:nth-of-type(6) {
-                                        animation-delay: .60s;
-                                    }
-                                    &:nth-of-type(7) {
-                                        animation-delay: .65s;
-                                    }
-                                    &:nth-of-type(8) {
-                                        animation-delay: .70s;
-                                    }
-                                }
-                            }
-                        }
+                    a {
+                        color: white;
                     }
                 }
             }
@@ -526,26 +174,662 @@
 }
 
 
-@keyframes fadeInRight {
-    0% {
-        opacity: 0;
-        left: 20%;
-    }
-    100% {
-        opacity: 1;
-        left: 0;
-    }
-}
 
-@media (max-height:800px) {
-    .nav-down {
-        opacity: 1;
-        transition: all .2s ease-in-out ;
-    }
 
-    .nav-up {
-        top: -100px !important;
-        opacity: 0;
-        transition: all .2s ease-in-out ;
-    }
-}
+
+// .global-nav {
+//     z-index: 1;
+//     top: 10px;
+//     position: absolute;
+//     left: 0;
+//     right: 0;
+//     .container {
+
+//         .nav-wrapper {
+//             position:relative;
+
+//             .brand {
+//                 position: absolute;
+//                 top: 0;
+//                 left: 0;
+
+            
+//                 .logo {
+//                     background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+//                     height: 50px;
+//                     width: 71px;
+//                     display: inline-block;
+//                 }    
+//             }
+
+//         .center-nav {
+//                 display: flex;
+//                 -webkit-box-pack: center;
+//                 -webkit-justify-content: center;
+//                 -ms-flex-pack: center;
+//                 justify-content: center;
+
+//                 ul {
+//                     li {
+//                         display: inline-block;
+//                         padding: 0 20px;
+
+//                         a {
+//                             color: white;
+//                             font-size: 16px;
+//                             line-height: 55px;
+
+
+//                         }
+//                     }
+//                 }
+
+//                 &.is-dropdown-visible .main-nav > ul > li {
+// > a {
+// /* main navigation hover effect - on hover, reduce opacity of elements not hovered over */
+// opacity: .6;
+// }
+
+// &.active > a {
+// opacity: 1;
+
+//                     }
+//                 }
+//             }
+//         }
+
+//         .right-nav {
+//             position: absolute;
+//             top: 0;
+//             right: 0;
+//             display: flex;
+
+//             ul {
+//                 li{
+//                     display: inline-block;
+//                     padding: 0 20px;
+
+//                     a {
+//                         color: white;
+//                         font-size: 16px;
+//                         line-height: 55px;
+//                     }
+//                 }
+//             }
+//         }
+
+//         .morph-dropdown-wrapper {
+//             display: none;
+//             position: absolute;
+//             top: 60px;
+//             left: 0;
+//             width: 100%;
+//             padding: 1.2em 5%;
+//             box-shadow: inset 0 1px 0 #e6e6e6;
+//             background-color: #FFFFFF;
+//           }
+          
+//           &.nav-open .morph-dropdown-wrapper {
+//             display: block;
+          
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+// Older version
+
+// .Header-Navigation{
+//     .navbar {
+//         top: 0;
+//         border-width: 0 0 1px;
+//         background-color: $nextcloud-blue;
+//         height: 100px;
+//         transition: all .2s ease-in;
+//         z-index: 5;
+//         padding-top: 24px;
+//         font-size: 16px;
+
+//         @media (min-width: $navbar-breaksize) {
+
+//             li.active {
+// 				a {
+//                 border-bottom: 3px solid $white;
+// 				padding-bottom: 15px;
+// 				}
+//             }
+
+//             li {
+//                 &:last-child {
+//                     padding-left: 30px;
+//                     padding-right: 30px;
+					
+// 					&:hover {
+// 					/* we can set a hover effect for the install button here */
+// 					}
+//                 }
+                
+//                 a {
+//                     color: white;
+					
+// 					&:after {
+// 					content: '';
+// 					display: block;
+// 					margin: auto;
+// 					height: 2px;
+// 					width: 0px;
+// 					background: transparent;
+// 					transition: width .2s ease-out, background-color .5s ease;
+						
+// 						&:last-child {
+// 							margin-top: 0;
+// 					   }
+					
+// 					}
+//                    /* hover effect for menu items: underline */
+//                     &:hover {
+// 						text-decoration: none;
+// 						padding-bottom: 15px; 
+// 						border-bottom: 3px solid $white;
+// 					}
+//                 }
+//             }
+
+//             @media (max-width: $navbar-breaksize) {
+//                 a {
+//                     color: #75badd;
+//                     .active {
+//                         color: $white;
+//                     }
+//                 }
+//             }
+
+//             .navbar-header {
+//                 float: none;
+
+//                 .logo {
+//                     background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+//                     height: 50px;
+//                     width: 71px;
+//                     display: inline-block;
+//                 }
+//             }
+
+//             .btn-primary {
+//                 background-color: $nextcloud-blue;
+//                 border: 1px solid transparent;
+//                 border-radius: 100px;
+//                 font-size: 16px;
+//                 height: inherit;
+
+//                 &:before{
+//                     visibility: hidden;
+//                 }
+
+//                 @media (max-width: 1200px) {
+//                     position: fixed;
+//                     bottom: 0;
+//                     margin-left: -5%;
+//                     width: 105%;
+//                     border-radius: 0;
+//                     border: 0;
+//                     height: 75px;
+//                     font-size: 20px;
+//                     display: flex;
+//                     justify-content: center;
+//                     align-items: center;
+//                     background-color: transparent;
+
+//                     a {
+//                         color: $white;
+//                     }
+//                 }
+//             }
+//         }
+
+//         .active {
+//             font-weight: 600;
+//             z-index: 3;
+//         }
+
+// 		.overlay{
+// 			display: inline-block;
+// 			float: right !important;
+
+// 			.overlay-menu {
+// 				ul{
+// 					float: right !important;
+// 					padding-left: 0;
+// 					margin-bottom: 0;
+// 					list-style: none;
+// 					margin-right: -15px;
+// 					margin-bottom: 0;
+
+
+// 					li{
+// 						margin: 0 0 0 10px;
+// 						padding: 10px 15px;
+// 						position: relative;
+// 						display: table-cell;
+// 						vertical-align: middle;
+
+// 						&:last-child {
+// 							padding-left: 30px;
+// 							padding-right: 30px;
+// 						}
+						
+// 					}
+
+// 					.btn-primary{
+// 						padding: 5px 5px;
+// 						a{
+// 							position: relative;
+// 							display: block;
+// 							padding: 10px 15px;
+// 							border-radius: 100px;
+
+// 							&:hover {
+// 							text-decoration: none;
+// 							border-bottom: none;
+// 							}
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+
+//     }
+// }
+
+
+// /**
+// *Break Menu at 1200px
+// */
+
+
+// .navbar  {
+//     .container-fluid{
+//         margin-left: 5%;
+//         margin-right: 5%;
+//         padding-right: 0 !important;
+//         padding-left: 0 !important;
+
+//         button {
+//             color: white;
+//             background-color: white;
+//             border-radius: 50px;
+//             width: 50px;
+//             height: 50px;
+//             margin-top: 0;
+//             z-index: 3;
+
+//             .icon-bar {
+//                 background-color: $dark-blue;
+//                 width: 100%;
+//             }
+//         }
+//     }
+// }
+
+// .navbar-nav {
+//     li {
+//         @media (min-width: $break-small) {
+//             margin: 0 0 0 10px;
+//         }
+//         a:hover {
+//             background: none !important;
+//         }
+//         @media (min-width: $navbar-breaksize) {
+//             a:hover {
+//                 color: white;
+//             }
+//         }
+//     }
+//     @media (min-width: $navbar-breaksize) {
+//         li:before {
+//             display: inline-block;
+//             position: relative;
+//             padding-bottom: 1px;
+//         }
+//         li:after {
+//             content: '';
+//             display: block;
+//             margin: auto;
+//             height: 3px;
+//             width: 0;
+//             background: transparent;
+//             transition: width .2s ease, background-color .2s ease;
+//         }
+//         li:not(.btn-primary):not(.active):hover:before {
+//             width: 100%;
+//             background: white;
+//             transition: width .2s ease-in;
+//         }
+//         li:not(.btn-primary):not(.active):hover:after {
+//             width: 100%;
+//             background: white;
+//         }
+//     }
+// }
+
+// /**
+//  * Scrolled navbar style
+//  */
+// .navbar.scrolled:not(.mobile-menu-open) {
+//     transition: all .2s ease-in;
+//     background: white;
+//     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09);
+//     @media (max-height:800px) {
+//         //        display: none;
+//     }
+//     a {
+//         color: #656565 !important;
+// 		&:hover {
+// 			text-decoration: none;
+// 			padding-bottom: 15px; 
+// 			border-bottom: 3px solid #656565;
+// 		}
+//     }
+//     .navbar-nav li:not(.btn-primary):not(.active):hover:before {
+//         width: 100%;
+//         background: #656565;
+//         transition: width .2s ease-in;
+//     }
+//     .navbar-nav li:not(.btn-primary):not(.active):hover:after {
+//         width: 100%;
+//         background: #656565;
+//     }
+//     @media (min-width: $navbar-breaksize) {
+//         .active {
+// 			a {
+// 				border-bottom: 3px solid #656565;
+// 			}
+//         }
+        
+//     }
+//     .btn-primary a {
+//         color: white !important;
+//     }
+
+//     .navbar-collapse {
+//         @media (max-width: $navbar-breaksize) {
+//             background-color: $white;
+//             margin-left: -6% !important;
+//         }
+//     }
+//     .logo {
+//         background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain !important;
+//     }
+//     .container-fluid button{
+//         background: $nextcloud-blue;
+
+//         .icon-bar {
+//             background-color: white;
+//         }
+//     }
+
+//     svg {
+//         filter: invert(100%);
+//     }
+// }
+
+
+// /**
+//  * Collapsed navbar
+//  */
+// .navbar-collapse {
+//     @media (max-width: 1200px) {
+//         padding-left: 0;
+//         padding-right: 0;
+//         width: calc(100vw + 1%);
+//         min-height: 100vh;
+//         background-color: $nextcloud-blue;
+//         margin-left: -6% !important;
+//         box-shadow: none;
+//         transition: all .2s ease-in;
+
+//         ul {
+//             margin-right: 5%;
+//             margin-left: 5%;
+//             text-align: center;
+//             min-height: 540px;
+
+//             li {
+//                 padding-top: 3vh;
+//                 font-size: 35px;
+//             }
+//         }
+//     }
+
+// }
+
+// .navbar-toggle.collapsed {
+//     .top-bar {
+//         transform: rotate(0deg);
+//     }
+
+//     .middle-bar {
+//         opacity: 1;
+//     }
+
+//     .bottom-bar {
+//         transform: rotate(0deg);
+//     }
+// }
+
+// .navbar-collapse {
+//     display: none !important;
+// }
+
+
+// /**
+// *Changed default media querys for navigation in bootstrap
+// */
+// @media (max-width: 1200px) {
+//     .navbar-header {
+//         float: none;
+//     }
+//     .navbar-left,.navbar-right {
+//         float: none !important;
+//     }
+//     .navbar-toggle {
+//         display: block;
+//     }
+//     .navbar-collapse {
+//         border-top: 1px solid transparent;
+//         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+//     }
+//     .navbar-fixed-top {
+//         top: 0;
+//         border-width: 0 0 1px;
+//     }
+//     .navbar-collapse.collapse {
+//         display: none!important;
+//     }
+//     .navbar-nav {
+//         float: none!important;
+//         margin-top: 7.5px;
+//     }
+//     .navbar-nav>li {
+//         float: none;
+//     }
+//     .navbar-nav>li>a {
+//         padding-top: 10px;
+//         padding-bottom: 10px;
+//     }
+//     .collapse.in{
+//         display:block !important;
+//     }
+//     .navbar-nav .open .dropdown-menu {
+//         position: static;
+//         float: none;
+//         width: auto;
+//         margin-top: 0;
+//         background-color: transparent;
+//         border: 0;
+//         -webkit-box-shadow: none;
+//         box-shadow: none;
+//     }
+// }
+
+// /**
+// *Mobile
+// */
+// @media (max-width: 1200px) {
+//     .Header-Navigation{
+
+//         .navbar{
+
+//             .container-fluid{
+
+//                 .navbar-header{
+//                     margin-left: 0;
+
+//                     .logo{
+//                         z-index: 5;
+//                         position: relative;
+//                         background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+//                         height: 50px;
+//                         width: 71px;
+//                         display: inline-block;
+//                     }
+
+//                     button{
+//                         &:hover {
+//                             transform: scale(1.1);
+//                             transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
+//                             transition-property: transform;
+//                             transition-duration: 0.3s;
+//                             transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
+//                             transition-delay: initial;
+//                         }
+//                     }
+
+//                     .overlay {
+//                         position: fixed;
+//                         background: $nextcloud-blue;
+//                         padding-top: 25px;
+//                         z-index: 2;
+//                         top: 0;
+//                         right: 0;
+//                         width: 0;
+//                         height: 0;
+//                         visibility: hidden;
+//                         overflow: hidden;
+//                         border-bottom-left-radius: 100%;
+//                         transition: all 0.6s ease;
+
+//                         .btn-primary {
+
+//                             &:before {
+//                                 visibility: hidden;
+//                             }
+//                         }
+
+//                         li {
+//                             display: block;
+//                             height: 25%;
+//                             height: calc(100% / 4);
+//                             min-height: 50px;
+//                             position: relative;
+//                             opacity: 1;
+//                             margin: 0;
+//                             opacity: 0;
+//                             color: white;
+
+//                             &:last-child{
+//                                 font-weight: 500;
+//                             }
+
+//                             a {
+//                                 color: white;
+//                                 text-decoration: none;
+//                             }
+//                         }
+
+//                         &.open {
+//                             opacity: 1;
+//                             visibility: visible;
+//                             width: 150%;
+//                             height: 150%;
+
+//                             ul {
+//                                 list-style: none;
+//                                 display: inline-block;
+//                                 font-size: 26px;
+//                                 color: white;
+//                                 text-align: center;
+//                                 margin: 0 auto;
+//                                 display: inline-block;
+//                                 position: fixed;
+//                                 top: 50%;
+//                                 left: 50%;
+//                                 -webkit-transform: translate(-50%, -50%);
+//                                 transform: translate(-50%, -50%);
+
+//                                 li {
+//                                     font-size: 25px;
+//                                     padding-top: 2vh;
+//                                     animation: fadeInRight .5s ease forwards;
+//                                     animation-delay: .35s;
+
+//                                     &:nth-of-type(2) {
+//                                         animation-delay: .4s;
+//                                     }
+//                                     &:nth-of-type(3) {
+//                                         animation-delay: .45s;
+//                                     }
+//                                     &:nth-of-type(4) {
+//                                         animation-delay: .50s;
+//                                     }
+//                                     &:nth-of-type(5) {
+//                                         animation-delay: .55s;
+//                                     }
+//                                     &:nth-of-type(6) {
+//                                         animation-delay: .60s;
+//                                     }
+//                                     &:nth-of-type(7) {
+//                                         animation-delay: .65s;
+//                                     }
+//                                     &:nth-of-type(8) {
+//                                         animation-delay: .70s;
+//                                     }
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+
+// @keyframes fadeInRight {
+//     0% {
+//         opacity: 0;
+//         left: 20%;
+//     }
+//     100% {
+//         opacity: 1;
+//         left: 0;
+//     }
+// }
+
+// @media (max-height:800px) {
+//     .nav-down {
+//         opacity: 1;
+//         transition: all .2s ease-in-out ;
+//     }
+
+//     .nav-up {
+//         top: -100px !important;
+//         opacity: 0;
+//         transition: all .2s ease-in-out ;
+//     }
+// }
