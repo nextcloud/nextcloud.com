@@ -86,7 +86,7 @@
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3 ">
 			<h2>Partners</h2>
-			<p> The Nextcloud Box was developed in a partnership with WDLabs and Canonical and is one of <a href="https://nextcloud.com/devices">multiple devices from Nextcloud partners.</a> It is a reference device, meant to inspire and invite anyone to built their own. <a href="/contact">Get in contact</a> if you're interested in building a Nextcloud Box like device!</p>
+			<p> The Nextcloud Box was developed in a partnership with WDLabs and Canonical and is one of <a href="https://nextcloud.com/devices">multiple devices from Nextcloud partners.</a> It is a reference device, meant to inspire and invite anyone to build their own. <a href="/contact">Get in contact</a> if you're interested in building a Nextcloud Box like device!</p>
 		</div>
 	</div>
 	<div class="row">
