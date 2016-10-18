@@ -24,6 +24,9 @@ consumer technology to create a positive impact, including:</p>
 	<li><a href="https://nextcloud.com" target="_blank">Nextcloud</a> (Frank Karlitschek, Founder): A secure, open source cloud platform that gives businesses and individuals more control over their data.</li>
 </ul>
 
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/jTYsqtrMzYs" frameborder="0" allowfullscreen></iframe></p>
+<p>promotional video</p>
+
 <p><strong>Event details</strong><br />
 <em>What</em>: Press breakfast with Nextcloud<br />
 <em>When</em>: Monday, 5 September, start at 9:00, registration from 8:45<br />

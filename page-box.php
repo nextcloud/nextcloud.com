@@ -79,13 +79,14 @@
 			<br/><br/>
 			<a href="https://github.com/nextcloud/nextcloud-snap/wiki" class="btn btn-primary morebutton" target="_blank">Manuals on our wiki <i class="icon-arrow-circle-o-right icon"></i></a>
 		</div>
-		<p>If you are interested in contributing to the software of the Box, you can find the Nextcloud Snap here - we look forward to your pull request. Find us on IRC in <a href="irc://#nextcloud-dev@freenode.net" target="_blank">the Nextloud development IRC chat channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a></p>
+		<p>If you are interested in contributing to the software of the Box, you can <a href="https://github.com/nextcloud/nextcloud-snap">find the Nextcloud Snap here</a> - we look forward to your pull request. Find us on IRC in <a href="irc://#nextcloud-dev@freenode.net" target="_blank">the Nextloud development IRC chat channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a></p>
 	</div>
 </div>
 <div class="boxinfo">
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-6 col-md-offset-3 ">
 			<h2>Partners</h2>
+			<p> The Nextcloud Box was developed in a partnership with WDLabs and Canonical and is one of <a href="https://nextcloud.com/devices">multiple devices from Nextcloud partners.</a> It is a reference device, meant to inspire and invite anyone to build their own. <a href="/contact">Get in contact</a> if you're interested in building a Nextcloud Box like device!</p>
 		</div>
 	</div>
 	<div class="row">
@@ -96,5 +97,6 @@
 			<a target="_blank" href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/wdlabs.png" alt="Visit lwn.net" /></a>
 		</div>
 	</div>
+		
 </div>
 </div>
