@@ -180,6 +180,7 @@
   border: solid 1px #eeeeee;
   margin-top: -5px;
   margin-bottom: 15px;
+  z-index: -1;
 }
 
 .list .check {
@@ -228,11 +229,76 @@
   list-style-position:inside;
 }
 
+.list .price {
+  /* 	font-family: OpenSans; */
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  color: #555555;
+}
+
+.list .price {
+  list-style-image: url("../img/enterprise/nocheck.svg");
+  list-style-position:inside;
+}
+
 .table-content .btn-lg {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	width: 100%;
 	text-indent: -20px;
+}
+
+/* Tooltips */
+
+/* Tooltip container */
+.overinfo {
+}
+
+/* Tooltip text */
+.overinfo .infotext {
+    visibility: hidden;
+/*     width: 200px; */
+    background-color: #555555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+	line-height: 1.4;
+border-radius: 6px;
+ 
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 10;
+/*     top: 100%; */
+/*     left: 50%;  */
+/*     margin-left: -100px; */
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.overinfo:hover .infotext {
+    visibility: visible;
+}
+
+.overinfo .infotext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #555555 transparent;
+}
+
+.overinfo .infotext {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.overinfo:hover .infotext {
+    opacity: 1;
 }
 
 /* Discount section */
