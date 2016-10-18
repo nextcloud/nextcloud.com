@@ -1,7 +1,7 @@
 
 <h1>Get involved!</h1>
 <p>Nextcloud is an <strong>open source project</strong> and an open company. That means it is <em>yours</em> to make a difference!</p>
-<p>We invite you to join our <a href="https://github.com/nextcloud" target="_blank">development efforts on GitHub</a>, the conversations on <a href="https://help.nextcloud.com" target="_blank">our forums</a> and our <a href="irc://#nextcloud-dev@freenode.net" target="_blank">IRC channel on freenode</a>. Interact with us on our <a href="/news">blogs and social media channels</a>, too!</p>
+<p>We invite you to join our <a href="https://github.com/nextcloud" target="_blank">development efforts on GitHub</a>, the conversations on <a href="https://help.nextcloud.com" target="_blank">our forums</a> and our <a href="irc://#nextcloud-dev@freenode.net" target="_blank">IRC channel on freenode</a>, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. Interact with us on our <a href="/news">blogs and social media channels</a>, too!</p>
 
 
 <p>Do you want to get a certain <strong>improvement</strong> in Nextcloud? Did you find a <strong>problem</strong>?
@@ -40,7 +40,7 @@ Do you want to <strong>help</strong> translate, promote or document Nextcloud?</
             <li>Learn to write Nextcloud code. (Try your hands on a <a href="https://github.com/nextcloud/core/issues?labels=Starter+Issue&state=open" target="_blank">Starter Issue</a>
           <!--and see the <a href="https://github.com/nextcloud/core/wiki/Project-ideas#coding">project ideas page</a>-->)
           </ul>
-          <p>Talk to us <a href="irc://#nextcloud-dev@freenode.net">on IRC</a> and on our
+          <p>Talk to us <a href="irc://#nextcloud-dev@freenode.net">on IRC</a>, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>, and on our
           <a href="https://help.nextcloud.com" target="_blank">forum</a>! We look forward to your code and thoughts.</p>
           <p>Note that <a href="/jobs">we're hiring</a>. We look especially for people who want to turn their passion into their job! When possible, we hire people from our active community base or from the wider open source community.</p>
 <!--           <iframe width="100%" height="360" src="https://www.youtube.com/embed/M_-PtACnnz4?rel=0" frameborder="0" allowfullscreen></iframe> -->
