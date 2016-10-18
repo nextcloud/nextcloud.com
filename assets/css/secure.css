@@ -65,21 +65,16 @@
       transition: all 0.5s ease; }
   .featureblock .header {
     margin-bottom: 54px;
-    /* 	font-family: $font-stack; */
-    font-size: 60px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.88;
-    text-align: center;
-    color: #2a2a36; }
+    text-align: center; }
   .featureblock h2 {
     text-align: left;
     color: #2a2a36;
     margin-top: 25px;
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    font-size: 40px; }
   .featureblock h3 {
-    text-align: left; }
+    text-align: left;
+    font-size: 30px; }
   .featureblock .row {
     margin-bottom: 50px; }
 
