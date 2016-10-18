@@ -37,5 +37,6 @@
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/font-awesome.min.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/custom.css" rel="stylesheet">
 	<?php if(is_page('enterprise')) { ?><link href="<?php echo get_template_directory_uri(); ?>/assets/css/enterprise.css" rel="stylesheet"><?php } ?>
+	<?php if(is_page('secure')) { ?><link href="<?php echo get_template_directory_uri(); ?>/assets/css/secure.css" rel="stylesheet"><?php } ?>
 	<?php if(is_page('buy')) { ?><link href="<?php echo get_template_directory_uri(); ?>/assets/css/buy.css" rel="stylesheet"><?php } ?>
 </head>
