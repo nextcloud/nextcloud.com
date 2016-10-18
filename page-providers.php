@@ -17,7 +17,7 @@
 </div>
 <div class="alert alert-info">If you offer Nextcloud Server account hosting, you can be <a href="/providers/apply">listed on this page</a>. If you want to report an abuse by one of the providers listed above, you can send us an email to abuse@nextcloud.com.</div>
 
-<!-- <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script> -->
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
 <script type="text/javascript">
 // 	$( "#hostingboth" ).prop( "checked", true );
 	$( document ).ready(function() {

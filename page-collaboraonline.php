@@ -105,9 +105,9 @@
 </ol>
 <strong>Note:</strong> This guide does <em>NOT</em> cover self-signed certificates. If you use a self-signed certificate then you're mostly on your own ;-)</p>
 <h3>1. Install the Collabora Online server</h3>
-<p>The following steps will download the Collabora Online docker, make sure to replace "cloud.nextcloud.com" with the host that your own Nextcloud runs on. (make sure to escape all dots with a <code>\</code> character)</p>
+<p>The following steps will download the Collabora Online docker, make sure to replace "cloud.nextcloud.com" with the host that your own Nextcloud runs on. Also make sure to escape all dots with double backslashes (<code>\\</code>), since this string will be evaluated as a regular expression (and your bash 'eats' the first backslash.) If you want to use the docker container with more than one Nextcloud, you'll need to use <code>'domain=cloud\\.nextcloud\\.com\|second\\.nexcloud\\.com'</code> instead. (All hosts seperated by <code>\|</code>.)</p>
 <p><pre><code>docker pull collabora/code
-docker run -t -d -p 127.0.0.1:9980:9980 -e "domain=cloud\.nextcloud\.com" --restart always --cap-add MKNOD collabora/code
+docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --restart always --cap-add MKNOD collabora/code
 </code></pre></p>
 <p>That will be enough. Once you have done that the server will listen on "localhost:9980". Now we just need to configure the locally installed Apache reverse proxy.</p>
 <h3></a>2. Install the Apache reverse proxy</h3>
@@ -154,7 +154,7 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e "domain=cloud\.nextcloud\.com" --rest
   ProxyPassReverse    /hosting/discovery https://127.0.0.1:9980/hosting/discovery
 
   # Main websocket
-  ProxyPass   /lool/ws      wss://127.0.0.1:9980/lool/ws
+  ProxyPassMatch "/lool/(.*)/ws$" wss://127.0.0.1:9980/lool/$1/ws
 
   # Admin Console websocket
   ProxyPass   /lool/adminws wss://127.0.0.1:9980/lool/adminws
@@ -183,9 +183,9 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e "domain=cloud\.nextcloud\.com" --rest
 from the output you can glean the Container ID of your Collabora Online docker image.</li>
 <li>stop and remove the Collabora Online docker image:<br/>
 <code>docker stop CONTAINER_ID</code><br/>
-docker rm CONTAINER_ID</code></li>
+<code>docker rm CONTAINER_ID</code></li>
 <li>start the new image:<br/>
-<code>docker run -t -d -p 127.0.0.1:9980:9980 -e "domain=cloud\.nextcloud\.com" --restart always --cap-add MKNOD collabora/code</code></li>
+<code>docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --restart always --cap-add MKNOD collabora/code</code></li>
 </ul>
 Enjoy!</p>
 
@@ -200,6 +200,8 @@ Enjoy!</p>
 	you might have started the docker container with the wrong URL. Be sure to start it with the URL of your Nextcloud server, not the server where Collabora Online runs on.</li>
 	<li><strong>Issue:</strong> <code>Connection is not allowed</code> errors.<br/>
 	It is possible your firewall is blocking connections. Try to start docker after you started the firewall, it makes changes to your iptables to enable Collabora Online to function.</li>
+    <li><strong>Issue:</strong> <code>We are sorry, this is an unexpected connection error. Please try again.</code> error.<br />
+    The Collabora Online app doesn't work at the moment, if you enable it only for certain groups. Remove the group filter in the App section.</li>
 </ul>
 Find more questions and answers in the <a href="https://help.nextcloud.com/t/issue-installing-collabora-following-official-guide/1746/58">discussion thread on the forums</a>.</p>
 

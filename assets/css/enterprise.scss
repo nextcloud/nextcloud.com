@@ -40,20 +40,23 @@
     position: relative;
     margin-left: 5%;
     padding: 0;
-    .topheader {
-      padding: 0;
-      a{
-        width: 290px;
-        height: 60px;
-        padding-top: 16px
+    
+	  .topheader {
+      	padding: 0;
+      
+		a{
+			width: 290px;
+			height: 60px;
+			padding-top: 16px
       }
     }
   }
 
   .container-fluid{
-    img {
-      height: 100%;
-      width: 100%;
+    
+	  img {
+      	height: 100%;
+      	width: 100%;
     }
   }
 }
@@ -226,9 +229,10 @@
 }
 
 .table-content .btn-lg {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+	text-indent: -20px;
 }
 
 /* Discount section */
@@ -346,6 +350,15 @@
   line-height: 1.61;
   text-align: left;
   color: #555555;
+}
+
+.faq a {
+		color: #555555;
+}
+
+	
+.faq a:hover {
+		text-decoration: none;
 }
 
 .faq .line {

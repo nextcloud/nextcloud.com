@@ -1775,7 +1775,7 @@ text-align: center;
 .device-img {
 	margin-left: auto !important;
     margin-right: auto !important;
-	height: 300px;
+	max-height: 300px;
 }
 
 /* Nextcloud Box page */

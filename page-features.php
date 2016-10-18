@@ -49,10 +49,28 @@
 <div class="featurerow">
 	<h1 class="featuretitle">Security and control</h1>
 	<div class="row">
+		<div class="col-md-7 featureblock">
+			<h2 class="featuretitle">Security first</h2>
+			<p>We are deeply committed to protect the safety of the data of our customers. Because:
+			<ul>
+			<li>our development follows industry best practices around security</li>
+			<li>we implement a wide variety of security features and hardening</li>
+			<li>we offer the <a href="https://nextcloud.com/introducing-the-nextcloud-bug-bounty-program/" target="_blank">highest security bug bounties in the open source industry</a></li>
+			</ul>
+			we are confident that Nextcloud offers the best security in the open source file sync and share industry.</p>
+			<div class="text-center morebuttondiv">
+				<a href="/secure" class="btn btn-primary morebutton">Security in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a>
+			</div>
+		</div>
+		<div class="col-md-5">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP-wee.png" alt="in action" /></a>
+		</div>
+
+	</div>
+	<div class="row">
 		<div class="col-md-6 featureblock">
-			<h2 class="featuretitle">Share on your terms</h2>
-			<p class="">With Nextcloud, system administrators can control and direct the flow of data between users on a server. Rule based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements.</p>
-			<p>Features including our monitoring app, 2-factor authentication, brute force protection and our <a href="https://nextcloud.com/introducing-the-nextcloud-bug-bounty-program/" target="_blank">Eur 5000 security bug bounty program</a> give you the highest level of security and protection against privacy breaches.</p>
+			<h2 class="featuretitle">Workflow management</h2>
+			<p class="">With Nextcloud, system administrators can control and direct the flow of data between users on or between servers. Rule based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements.</p>
 			<p>Nextcloud puts you in control of your data and keeps it safe.</p>
 			<div class="text-center morebuttondiv">
 				<a href="/workflow" class="btn btn-primary morebutton">Workflow handling in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a>
@@ -135,7 +153,7 @@
 		<div class="col-md-5 featureblock">
 			<p class="">External storage features:
 			<ul>
-				<li>Support for SWIFT, (S)FTP, WebDAV, Amazon S3, Google Drive, Dropbox, SMB/CIFS/Windows Network Drive, Sharepoint and OpenStack Object Storage (Swift).</li>
+				<li>Support for SWIFT, (S)FTP, WebDAV, Amazon S3, Google Drive, Dropbox, SMB/CIFS/Windows Network Drive<!--TODO , Sharepoint coming in Nc 11 --> and OpenStack Object Storage (Swift).</li>
 				<li>Full server side encryption with optional external key management</li>
 				<li>Encryption can be enabled or disabled for each external storage system</li>
 				<li>Administrators can control the list of external storage types users have access to</li>

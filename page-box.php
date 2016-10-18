@@ -1,8 +1,13 @@
-<div class="row conf-header" style="padding-top: 150px;">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.js"></script>
+
+<div class="row conf-header">
 	<div class="col-sm-8 col-sm-offset-2">
 		<img class="conf-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/box.jpg" alt="" />
 		<h1 class="box-header text-center">Introducing the Nextcloud Box</h1>
 	</div>
+</div>
+<!-- Exit main: -->
 </div>
 </div>
 
@@ -41,20 +46,18 @@
 		<img class="conf-img img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/pidrive/wrap.jpg" alt="contents" />
 		<p>Currently you can only purchase the Nextcloud Box in Europe and the USA. We're working on bringing the box to other regions!</p>
 		<div class="btn-group">
-		<!--<div class="buybutton">-->
 			<button type="button" data-toggle="dropdown" class="btn btn-primary buybutton dropdown-toggle">Select your country &nbsp;<span class="caret"></span></button>
 			<ul role="menu" class="dropdown-menu">
-				<li><a href="http://store.wdc.com/promo/4822802900" target="_blank">Buy in the USA </a></li>
-				<li><a href="http://store.wdc.com/promo/4823854300"target="_blank">Buy in the UK </a></li>
-			<li><a href="http://store.wdc.com/promo/4823854500"target="_blank">Buy in Germany </a></li>
-			<li><a href="http://store.wdc.com/promo/4823854600"target="_blank">Buy in Spain </a></li>
-			<li><a href="http://store.wdc.com/promo/4823854700"target="_blank">Buy in France </a></li>
-			<li><a href="http://store.wdc.com/promo/4823854800"target="_blank">Buy in Italy </a></li>
-			<li><a href="http://store.wdc.com/promo/4823854900"target="_blank">Buy in the Netherlands </a></li>
-			<li><a href="http://store.wdc.com/promo/4822802800"target="_blank">Buy in rest of Europe </a></li>
+				<li><a href="http://shop.wdc.com/promo/4828823500" target="_blank">Buy in the USA </a></li>
+				<li><a href=" http://shop.wdc.com/promo/4828823600" target="_blank">Buy in the UK </a></li>
+			<li><a href="http://shop.wdc.com/promo/4828823700" target="_blank">Buy in Germany </a></li>
+			<li><a href="http://shop.wdc.com/promo/4828823800" target="_blank">Buy in Spain </a></li>
+			<li><a href="http://shop.wdc.com/promo/4828823900" target="_blank">Buy in France </a></li>
+			<li><a href="http://shop.wdc.com/promo/4828824000" target="_blank">Buy in Italy </a></li>
+			<li><a href="http://shop.wdc.com/promo/4828824100" target="_blank">Buy in the Netherlands </a></li>
+			<li><a href="http://shop.wdc.com/promo/4828824200" target="_blank">Buy in rest of Europe </a></li>
 			</ul>
-	<!-- 	</div> -->
-		</div>
+	 	</div>
 	</div>
 	<div class="col-md-6">
 	<p><br /><a href="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/accessoires.jpg"><img class="conf-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/accessoires.jpg" alt="" /></a></p>
@@ -76,13 +79,14 @@
 			<br/><br/>
 			<a href="https://github.com/nextcloud/nextcloud-snap/wiki" class="btn btn-primary morebutton" target="_blank">Manuals on our wiki <i class="icon-arrow-circle-o-right icon"></i></a>
 		</div>
-		<p>If you are interested in contributing to the software of the Box, you can find the Nextcloud Snap here - we look forward to your pull request. Find us on IRC in <a href="irc://#nextcloud-dev@freenode.net" target="_blank">the Nextloud development IRC chat channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a></p>
+		<p>If you are interested in contributing to the software of the Box, you can <a href="https://github.com/nextcloud/nextcloud-snap">find the Nextcloud Snap here</a> - we look forward to your pull request. Find us on IRC in <a href="irc://#nextcloud-dev@freenode.net" target="_blank">the Nextloud development IRC chat channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a></p>
 	</div>
 </div>
 <div class="boxinfo">
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-6 col-md-offset-3 ">
 			<h2>Partners</h2>
+			<p> The Nextcloud Box was developed in a partnership with WDLabs and Canonical and is one of <a href="https://nextcloud.com/devices">multiple devices from Nextcloud partners.</a> It is a reference device, meant to inspire and invite anyone to build their own. <a href="/contact">Get in contact</a> if you're interested in building a Nextcloud Box like device!</p>
 		</div>
 	</div>
 	<div class="row">
@@ -93,5 +97,6 @@
 			<a target="_blank" href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/wdlabs.png" alt="Visit lwn.net" /></a>
 		</div>
 	</div>
+		
 </div>
 </div>
