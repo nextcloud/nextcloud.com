@@ -183,17 +183,17 @@
 				<div id="what_I_get" class="collapse">
 					<p>Your Nextcloud subscription enables you to successfully deploy and manage your servers. Our open approach gives you direct access to Nextcloud engineers, the latest knowledge and best practices. We provide technical expertise, guidance and collaboration with phone and chat contact. Pro-active security support helps you identify and address vulnerabilities and harden your servers to protect the safety and integrity of your data.</p>
 					<p>With the Nextcloud Enterprise subscription you get:
-					<ul>
-						<li>Full lifecycle support with multi-year security and stability fixes</li>
-						<li>Technical expertise and help covering project inception to production and user growth</li>
-						<li>Help to scale your Nextcloud installation to large amounts of storage and large numbers of users</li>
-						<li>Security and hardening consulting</li>
-						<li>Influence on the roadmap of the open source project</li>
-						<li>Access to the core Nextcloud engineers</li>
-						<li>Access to consulting for custom capabilities</li>
-						<li>Support for branding Nextcloud</li>
-						<li>Full support for integrated video conferencing and communication features based on spreed.me and WebRTC</li>
-						<li>Optional Online Office capabilities which can handle a wide range of industry-standard file formats</li>
+					<ul class="list">
+						<li class="check">Full lifecycle support with multi-year security and stability fixes</li>
+						<li class="check">Technical expertise and help covering project inception to production and user growth</li>
+						<li class="check">Help to scale your Nextcloud installation to large amounts of storage and large numbers of users</li>
+						<li class="check">Security and hardening consulting</li>
+						<li class="check">Influence on the roadmap of the open source project</li>
+						<li class="check">Access to the core Nextcloud engineers</li>
+						<li class="check">Access to consulting for custom capabilities</li>
+						<li class="check">Support for branding Nextcloud</li>
+						<li class="check">Full support for integrated video conferencing and communication features based on spreed.me and WebRTC</li>
+						<li class="check">Optional Online Office capabilities which can handle a wide range of industry-standard file formats</li>
 					</ul></p>
 					<p>Nextcloud consulting goes beyond technical expertise, offering strategic advice for organizations. We analyze your challenges and help you implement a comprehensive, cost-effective and compliance-aware solution which reduces complexity and risks while delivering the highest security and privacy protection.</p>
 				</div>
