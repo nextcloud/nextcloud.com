@@ -23,12 +23,12 @@
 				<div class="line revealOnScroll"></div>
 				<div class="list revealOnScroll">
 					<li class="check overinfo"><div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>File sync and share</li>
-					<li class="check overinfo"><div class="infotext">Android, iOS and desktop apps, branding possible.</div>Mobile and desktop clients</li>
-					<li class="check overinfo"><div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities</li>
+<!-- 					<li class="check overinfo"><div class="infotext">Android, iOS and desktop apps, branding possible.</div>Mobile and desktop clients</li> -->
+<!-- 					<li class="check overinfo"><div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities</li> -->
 					<li class="check overinfo"><div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source</li>
 					<li class="nocheck overinfo"><div class="infotext">Support for the Calendar and Contacts apps.</div>Calendar and Contacts</li>
 					<li class="nocheck overinfo"><div class="infotext">Support for our secure and private peer to peer audio and video conferencing.</div>Secure WebRTC Conferencing</li>
-					<li class="nocheck overinfo"><div class="infotext">Allows web conferencing calls to connect with phone lines.</div>SIP gateway</li>
+<!-- 					<li class="nocheck overinfo"><div class="infotext">Allows web conferencing calls to connect with phone lines.</div>SIP gateway</li> -->
 					<li class="nocheck overinfo"><div class="infotext">Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div>Collabora Online Office</li>
 				</div>
 				<h1 class="header revealOnScroll">Support</h1>
@@ -37,7 +37,7 @@
 					<li class="check overinfo"><div class="infotext">Questions and issues are generally dealt with in this time, depending on the severity of the issue.</div>Production SLA: 3 business days</li>
 					<li class="check overinfo"><div class="infotext">Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.</div>Portal and email support</li>
 					<li class="check overinfo"><div class="infotext">We help you migrate from ownCloud to Nextcloud.</div><a href="/migration">ownCloud migration support</a></li>
-					<li class="check overinfo"><div class="infotext">You can contact our capable and responsive support team by email and expect a quick response time.</div>Email support</li>
+<!-- 					<li class="check overinfo"><div class="infotext">You can contact our capable and responsive support team by email and expect a quick response time.</div>Email support</li> -->
 					<li class="nocheck overinfo"><div class="infotext">You can contact our support engineers by phone in these times.</div>Phone support</li>
 					<li class="nocheck overinfo"><div class="infotext">If you need access to experienced engineers to built custom solutions for your unique needs.</div>Custom consulting</li>
 					<li class="nocheck overinfo"><div class="infotext">Our engineers walk you through the installation process where needed.</div>Remote installation support</li>
@@ -66,12 +66,12 @@
 				<div class="line revealOnScroll"></div>
 				<div class="list revealOnScroll">
 					<li class="check overinfo"><div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>File sync and share</li>
-					<li class="check overinfo"><div class="infotext">Android, iOS and desktop apps, branding possible.</div>Mobile and desktop clients</li>
-					<li class="check overinfo"><div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities</li>
+<!-- 					<li class="check overinfo"><div class="infotext">Android, iOS and desktop apps, branding possible.</div>Mobile and desktop clients</li> -->
+<!-- 					<li class="check overinfo"><div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities</li> -->
 					<li class="check overinfo"><div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source</li>
 					<li class="optional overinfo"><div class="infotext">Support for the Calendar and Contacts apps.</div>Calendar and Contacts</li>
 					<li class="optional overinfo"><div class="infotext">Support for our secure and private peer to peer audio and video conferencing.</div><a href="/webrtc" target="_blank">Secure WebRTC Conferencing</a></li>
-					<li class="optional overinfo"><div class="infotext">Allows web conferencing calls to connect with phone lines.</div>SIP gateway</li>
+<!-- 					<li class="optional overinfo"><div class="infotext">Allows web conferencing calls to connect with phone lines.</div>SIP gateway</li> -->
 					<li class="optional overinfo"><div class="infotext">Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div><a href="/collaboraonline" target="_blank">Collabora Online Office</a></li>
 				</div>
 				<h1 class="revealOnScroll">Support</h1>
@@ -80,7 +80,7 @@
 					<li class="check overinfo"><div class="infotext">Questions and issues are generally dealt with in this time, depending on the severity of the issue.</div>Production SLA: 2 business days</li>
 					<li class="check overinfo"><div class="infotext">Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.</div>Portal and email support</li>
 					<li class="check overinfo"><div class="infotext">We help you migrate from ownCloud to Nextcloud.</div><a href="/migration">ownCloud migration support</a></li>
-					<li class="check overinfo"><div class="infotext">You can contact our capable and responsive support team by email and expect a quick response time.</div>Email support: business hours</li>
+<!-- 					<li class="check overinfo"><div class="infotext">You can contact our capable and responsive support team by email and expect a quick response time.</div>Email support: business hours</li> -->
 					<li class="check overinfo"><div class="infotext">You can contact our support engineers by phone in these times.</div>Phone support: business hours</li>
 					<li class="check overinfo"><div class="infotext">If you need access to experienced engineers to built custom solutions for your unique needs.</div>Custom consulting</li>
 					<li class="check overinfo"><div class="infotext">Our engineers walk you through the installation process where needed.</div>Remote installation support</li>
@@ -109,12 +109,12 @@
 				<div class="line revealOnScroll"></div>
 				<div class="list revealOnScroll">
 					<li class="check overinfo"><div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>File sync and share</li>
-					<li class="check overinfo"><div class="infotext">Android, iOS and desktop apps, branding possible.</div>Mobile and desktop clients</li>
-					<li class="check overinfo"><div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities</li>
+<!-- 					<li class="check overinfo"><div class="infotext">Android, iOS and desktop apps, branding possible.</div>Mobile and desktop clients</li> -->
+<!-- 					<li class="check overinfo"><div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities</li> -->
 					<li class="check overinfo"><div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source</li>
 					<li class="check overinfo"><div class="infotext">Support for the Calendar and Contacts apps.</div>Calendar and Contacts</li>
 					<li class="optional overinfo"><div class="infotext">Optional: Support for our secure and private peer to peer audio and video conferencing.</div><a href="/webrtc" target="_blank">Secure WebRTC Conferencing</a></li>
-					<li class="optional overinfo"><div class="infotext">Optional: Allows web conferencing calls to connect with phone lines.</div>SIP gateway</li>
+<!-- 					<li class="optional overinfo"><div class="infotext">Optional: Allows web conferencing calls to connect with phone lines.</div>SIP gateway</li> -->
 					<li class="optional overinfo"><div class="infotext">Optional: Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div><a href="/collaboraonline" target="_blank">Collabora Online Office</a></li>
 				</div>
 				<h1 class="revealOnScroll">Support</h1>
@@ -123,7 +123,7 @@
 					<li class="check overinfo"><div class="infotext">Questions and issues are generally dealt with in this time, depending on the severity of the issue.</div>Production SLA: 24h or as agreed</li>
 					<li class="check overinfo"><div class="infotext">Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.</div>Portal and email support</li>
 					<li class="check overinfo"><div class="infotext">We help you migrate from ownCloud to Nextcloud.</div><a href="/migration">ownCloud migration support</a></li>
-					<li class="check overinfo"><div class="infotext">You can contact our capable and responsive support team by email and expect a quick response time.</div>Email support: up to 24/7</li>
+<!-- 					<li class="check overinfo"><div class="infotext">You can contact our capable and responsive support team by email and expect a quick response time.</div>Email support: up to 24/7</li> -->
 					<li class="check overinfo"><div class="infotext">You can contact our support engineers by phone in these times.</div>Phone support: up to 24/7</li>
 					<li class="check overinfo"><div class="infotext">If you need access to experienced engineers to built custom solutions for your unique needs.</div>Custom consulting</li>
 					<li class="check overinfo"><div class="infotext">Our engineers walk you through the installation process where needed.</div>Remote installation support</li>
