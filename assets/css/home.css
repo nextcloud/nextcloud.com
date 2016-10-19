@@ -163,11 +163,11 @@
   padding-bottom: 50px;
   padding-left: 0;
   padding-right: 0;
-  background-image: url("../img/home/perfect-for-home-and-business-wide.jpg");
+  background-image: url("../img/home/perfect-for-home-and-business.png");
   background-size: cover; }
   @media (max-width: 768px) {
     #perfect-for-home-and-business {
-      background-image: url("../img/home/perfect-for-home-and-business-mobile.jpg"); } }
+      background-image: url("../img/home/perfect-for-home-and-business-mobile.png"); } }
   #perfect-for-home-and-business .btn-primary {
     width: 430px; }
   @media (min-width: 1600px) {
