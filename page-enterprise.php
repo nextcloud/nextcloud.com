@@ -22,7 +22,7 @@
 				<h1 class="header revealOnScroll">Capabilities</h1>
 				<div class="line revealOnScroll"></div>
 				<div class="list revealOnScroll">
-					<li class="check overinfo"><div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>File sync and share</li>
+					<li class="check overinfo"><div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>Universal file access</li>
 <!-- 					<li class="check overinfo"><div class="infotext">Android, iOS and desktop apps, branding possible.</div>Mobile and desktop clients</li> -->
 <!-- 					<li class="check overinfo"><div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities</li> -->
 					<li class="check overinfo"><div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source</li>
@@ -65,7 +65,7 @@
 				<h1 class="revealOnScroll revealOnScroll">Capabilities</h1>
 				<div class="line revealOnScroll"></div>
 				<div class="list revealOnScroll">
-					<li class="check overinfo"><div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>File sync and share</li>
+					<li class="check overinfo"><div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>Universal file access</li>
 <!-- 					<li class="check overinfo"><div class="infotext">Android, iOS and desktop apps, branding possible.</div>Mobile and desktop clients</li> -->
 <!-- 					<li class="check overinfo"><div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities</li> -->
 					<li class="check overinfo"><div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source</li>
@@ -108,7 +108,7 @@
 				<h1 class="revealOnScroll">Capabilities</h1>
 				<div class="line revealOnScroll"></div>
 				<div class="list revealOnScroll">
-					<li class="check overinfo"><div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>File sync and share</li>
+					<li class="check overinfo"><div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>Universal file access</li>
 <!-- 					<li class="check overinfo"><div class="infotext">Android, iOS and desktop apps, branding possible.</div>Mobile and desktop clients</li> -->
 <!-- 					<li class="check overinfo"><div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities</li> -->
 					<li class="check overinfo"><div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source</li>
