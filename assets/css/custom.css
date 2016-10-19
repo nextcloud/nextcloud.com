@@ -857,13 +857,13 @@ h1 {
   font-weight: 500; }
 
 h2 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 300;
   line-height: 0.9;
   color: #2a2a36; }
 
 h3 {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 300;
   line-height: 1.5;
   text-align: center;
@@ -882,6 +882,19 @@ h5 {
   line-height: 1.5;
   letter-spacing: -1px;
   color: #2a2a36; }
+
+p {
+  font-family: "Open Sans", Frutiger, Calibri, "Myriad Pro", Myriad, sans-serif !important;
+  font-size: 16px; }
+
+/* primary page header from bootstrap: adding some margin to not have the top bar overlap and removing bottom border line */
+.page-header {
+  margin-top: 140px;
+  border-bottom: none; }
+
+/* Standard container from bootstrap: adding some margin to the bottom. */
+.container {
+  margin-bottom: 50px; }
 
 /**
  * Overwrite buttons for bootstrap

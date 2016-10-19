@@ -190,7 +190,7 @@
   color: #555555; }
 
 .list .price {
-  list-style-image: url("../img/enterprise/nocheck.svg");
+  list-style-image: url("../img/enterprise/blank.svg");
   list-style-position: inside; }
 
 .table-content .btn-lg {
@@ -214,6 +214,7 @@
   /* Position the tooltip text */
   position: absolute;
   z-index: 10;
+  padding: 3px;
   /*     top: 100%; */
   /*     left: 50%;  */
   /*     margin-left: -100px; */ }
