@@ -84,14 +84,7 @@
 	
 	.header {
 		margin-bottom: 54px;
-		/* 	font-family: $font-stack; */
-		font-size: 60px;
-		font-weight: 300;
-		font-style: normal;
-		font-stretch: normal;
-		line-height: 0.88;
 		text-align: center;
-		color: #2a2a36;
 		}
 	
 	h2 {
@@ -99,9 +92,12 @@
       color: #2a2a36;
 	  margin-top: 25px;
 	  margin-bottom: 25px;
+	  font-size: 40px;
 	}
+	
 	h3 {
 		text-align: left;
+		font-size: 30px;
 	}
 	
 	p {
@@ -140,12 +136,26 @@
         margin-bottom: 30px;
       }
     }
-	  
-	@media (min-width: $break-big) {
+	
+	
+	
+	
+	@media (min-width: $break-small) {
 		height: 850px;
+		
+		.nav-pills li {
+			width: 19%;
+			margin: 0px;
+		}
+		
 		.nav-pills li a {
 			padding: 0px;
-		margin-left: -25px;
+		}
+		
+		.nav-pills li a img {
+			width: 115%;
+/* 			height: 100%; */
+/* 			height: 70px; */
 		}
 		
 			.nav-pills>li>a {
@@ -195,18 +205,137 @@
 		}
 
 		.main {
-			width: 1046px;
-			height: auto;
+/* 			width: 1046px; */
+/* 			height: auto; */
 		}
 		.processimg {
 			position: relative;
-			height: 60px;
-			width: 1046px;
+/* 			height: 60px; */
+/* 			width: 1046px; */
 		}
 	
 		.info {
 			position: absolute;
 			top: 70px;
+	/* 		left: -120px; */
+	/* 		bottom: 0; */
+	/* 		right: 0; */
+	/* 		background-color: rgba(255, 255, 255, 0.6); */
+			p {
+			font-size: 20px;
+			font-weight: 300;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.36;
+			text-align: center;
+			color: #434343;
+			&:last-of-type {
+				margin-bottom: 30px;
+				}
+			}
+			
+		}
+		
+/*		.number1 {
+			left: -12%;
+		}
+		.number2 {
+			left: 1%;
+		}
+		.number3 {
+			left: 15%;
+		}
+		.number4 {
+			left: 30%;
+		}
+		.number5 {
+			left: 44%;
+		}
+		.number6 {
+			left: 58%;
+		}
+		.number7 {
+			left: 72%;
+		}*/
+	}
+	
+	@media (max-width: $break-small) {
+		height: 1250px;
+		
+		.nav-pills li {
+			width: 30%;
+			margin: 10px 0px 0px 0px;
+		}
+		
+		.nav-pills li a {
+			padding: 0px;
+		}
+		
+		.nav-pills li a img {
+			width: 115%;
+/* 			height: 100%; */
+/* 			height: 70px; */
+		}
+		
+			.nav-pills>li>a {
+			background-color: transparent;
+		}
+		
+		.nav-pills>li>a:focus {
+			-webkit-filter: grayscale(50%); /* Chrome, Safari, Opera */
+			filter: grayscale(50%);
+			background-color: transparent;
+		}
+		
+		.nav-pills>li>a:hover {
+			-webkit-filter: grayscale(50%); /* Chrome, Safari, Opera */
+			filter: grayscale(50%);
+			background-color: transparent;
+		}
+			
+		.nav-pills>li.active>a {
+			-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+			filter: grayscale(100%);
+			background-color: transparent;
+		}
+		
+		.nav-pills>li.active>a:focus {
+			-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+			filter: grayscale(100%);
+			background-color: transparent;
+		}
+		
+		.nav-pills>li.active>a:hover {
+			-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+			filter: grayscale(100%);
+			background-color: transparent;
+		}
+			
+		.nav-pills li.active img {
+			-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+			filter: grayscale(100%);
+			background-color: transparent;
+		}
+		.img-responsive {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 36px;
+		margin-bottom: 17px;
+		}
+
+		.main {
+/* 			width: 1046px; */
+			height: auto;
+		}
+		.processimg {
+			position: relative;
+/* 			height: 60px; */
+			width: 100%;
+		}
+	
+		.info {
+			position: absolute;
+			top: 140px;
 	/* 		left: -120px; */
 	/* 		bottom: 0; */
 	/* 		right: 0; */

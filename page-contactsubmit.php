@@ -30,9 +30,9 @@ if(isset($_POST['email'])) {
     $error_message .= 'The name you entered does not appear to be valid.<br />';
   }
     $string_exp = "/^((\+|00)\d{1,3})?(\d+|\s+)+\d$/";
-  if(!preg_match($string_exp,$phone)) {
-    $error_message .= 'The phone number you entered does not appear to be valid, did you add a country code like +49?<br />';
-    }
+//   if(!preg_match($string_exp,$phone)) {   -- remove checking on phone number, it's been a pita.
+//     $error_message .= 'The phone number you entered does not appear to be valid, did you add a country code like +49?<br />';
+//     }
   if(strlen($comments) < 8) {
     $error_message .= 'Your input is pretty short! <br />';
   }

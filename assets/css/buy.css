@@ -281,6 +281,12 @@
   text-align: left;
   color: #555555; }
 
+.faq a {
+  color: #555555; }
+
+.faq a:hover {
+  text-decoration: none; }
+
 .faq .line {
   width: 100%;
   height: 1px;
@@ -347,5 +353,3 @@
   margin-top: 90px;
   margin-bottom: 20px;
   text-align: left; }
-
-/*# sourceMappingURL=buy.css.map */

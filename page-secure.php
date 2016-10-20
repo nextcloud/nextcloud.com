@@ -9,24 +9,22 @@
 </div>
 <div class="container">
 	<div class="featureblock process">
-		<h1 class="header">Security process</h1>
+		<h2 class="header">Security process</h2>
 		<p>Security bugs are like technical debt: fixing them later is expensive. Our strategy is thus to prevent them from happening through a rigorous focus on security through the entire life cycle of our product.</p>
-		<p><small>Click each step in the process to learn more</small></p>
-		<div class="processimg">
+		<p><small><strong>Click each step in the process to learn more</strong></small></p>
+		<div id="processimg" class="processimg">
 			<ul class="nav nav-pills">
-				<li class="active"><a data-toggle="tab" href="#training"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/security/training.png"></a></li>
-				<li><a data-toggle="tab" href="#requirements"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/security/requirements.png"></a></li>
-				<li><a data-toggle="tab" href="#design"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/security/design.png"></a></a></li>
-				<li><a data-toggle="tab" href="#implementation"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/security/implementation.png"></a></a></li>
-				<li><a data-toggle="tab" href="#verification"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/security/verification.png"></a></a></li>
-				<li><a data-toggle="tab" href="#release"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/security/release.png"></a></a></li>
-				<li><a data-toggle="tab" href="#response"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/security/response.png"></a></a></li>
+				<li class="active"><a data-toggle="tab" href="#training"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/security/training.svg"></a></li>
+				<li><a data-toggle="tab" href="#requirements"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/security/requirements.svg"></a></li>
+				<li><a data-toggle="tab" href="#implementation"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/security/implementation.svg"></a></li>
+				<li><a data-toggle="tab" href="#verification"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/security/verification.svg"></a></li>
+				<li><a data-toggle="tab" href="#response"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/security/response.svg"></a></li>
 			</ul>
 			<div class="tab-content">
 				<div id="training" class="tab-pane fade in active">
 					<div class="info">
 						<div class="col-md-6">
-							<h1>Security training</h1>
+							<h3>Security training</h3>
 							<ul>
 								<li>We provide <a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>general/security.html" target="_blank" rel="tooltip" title="Information for Developers">detailed documentation</a> about common web security vulnerabilities</li>
 								<li>We organize internal and <a href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/4">public security trainings</a></li>
@@ -41,22 +39,10 @@
 				<div id="requirements" class="tab-pane fade">
 					<div class="info">
 						<div class="col-md-6">
-							<h1>Requirements</h1>
+							<h3>Requirements</h3>
 							<ul>
 								<li>Privacy and security risks are analyzed and requirements are established</li>
 								<li>We employ advanced <a href="https://nextcloud.com/security/threat-model/">threat modelling / attack surface analysis</a></li>
-							</ul>
-						</div>
-						<div class="col-md-6">
-							<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/threatmodel.png">
-						</div>
-					</div>
-				</div>
-				<div id="design" class="tab-pane fade">
-					<div class="info">
-						<div class="col-md-6">
-							<h1>Design</h1>
-							<ul>
 								<li>Designs are reviewed for security implications</li>
 							</ul>
 						</div>
@@ -68,10 +54,11 @@
 				<div id="implementation" class="tab-pane fade">
 					<div class="info">
 						<div class="col-md-6">
-							<h1>Implementation</h1>
+							<h3>Implementation</h3>
 							<ul>
 								<li>Unsafe functions are forbidden (e.g. unserialize, non-prepared statements and unsafe comparisons)</li>
 								<li>Our internal functions are designed to provide secure defaults for developers</li>
+								<li>We employ a strict mandatory code review process with 2 reviewers besides the original developer</li>
 							</ul>
 						</div>
 						<div class="col-md-6">
@@ -82,10 +69,11 @@
 				<div id="verification" class="tab-pane fade">
 					<div class="info">
 						<div class="col-md-6">
-							<h1>Verification</h1>
+							<h3>Verification</h3>
 							<ul>
 								<li>We regularly run static and dynamic security scans</li>
-								<li>We employ a strict mandatory code review process</li>
+								<li>We follow industry best practices in disclosing security issues fixed in a release: 2 weeks after the release is made available.</li>
+								<li>Advisories with CVE identifiers are published</li>
 							</ul>
 						</div>
 						<div class="col-md-6">
@@ -93,26 +81,12 @@
 						</div>
 					</div>
 				</div>
-				<div id="release" class="tab-pane fade">
-					<div class="info">
-						<div class="col-md-6">
-							<h1>Release</h1>
-							<ul>
-								<li>We follow industry best practices in disclosing security issues fixed in a release: 2 weeks after the release is made available.</li>
-								<li>Advisories with CVE identifiers are published</li>
-							</ul>
-						</div>
-						<div class="col-md-6">
-							<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/release2.png">
-						</div>
-					</div>
-				</div>
 				<div id="response" class="tab-pane fade">
 					<div class="info">
 						<div class="col-md-6">
-							<h1>Response</h1>
+							<h3>Response</h3>
 							<ul>
-								<li>We run a <a href="https://hackerone.com/nextcloud">successful bug bounty program with high payouts</a></li>
+								<li>We run a <a href="https://hackerone.com/nextcloud">successful bug bounty program with high payouts</a>, up to EUR 5000</li>
 								<li>Statistics show a massive decrease of valid external security reports</li>
 							</ul>
 						</div>
@@ -127,16 +101,16 @@
 </div>
 
 <div class="container featureblock">
+	<h2 class="header">Security bug bounties</h2>
 	<div class="row">
 		<div class="col-md-6">
 			<a href="<?php echo get_template_directory_uri(); ?>/assets/img/security/hackerone.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/hackerone.png"></a>
 		</div>
 		<div class="col-md-6">
-			<a href="https://hackerone.com/nextcloud"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/HackerOne.png" alt="Our HackerOne program" /></a>
-			<h2>Security bug bounties</h2>
 			<p>We have partnered with the HackerOne platform because of its extraordinary popularity among IT security professionals. More than 3,000 hackers have reported over 24,000 bugs via the platform. Running a program on HackerOne allows us to quickly leverage the collective knowledge of a huge amount of these security experts.</p>
 			<p>Anyone reporting a security vulnerability in Nextcloud can earn up to USD 5000, making ours some of the highest security bug bounties in the open source industry. For more details, <a href="https://nextcloud.com/blog/introducing-the-nextcloud-bug-bounty-program/">see our announcement</a>.</p>
 			<p>Find an example of RhinoSecurityLabs blogging about <a href="https://rhinosecuritylabs.com/2016/10/operation-ownedcloud-exploitation-post-exploitation-persistence/">a security issue dealt with here</a>.</p>
+			<a href="https://hackerone.com/nextcloud"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/HackerOne.png" alt="Our HackerOne program" /></a>
 		</div>
 	</div>
 </div>
@@ -161,21 +135,23 @@
 		<div class="col-md-6">
 			<h3>Brute force protection</h3>
 			<p>Brute Force Protection logs invalid login attempts and slows down multiple attempts from a single IP address (or IPv6 range). This feature is enabled by default and protects against an attacker who tries to guess a password from one or more users.</p>
+			<p>You can find more information on hardening your Nextcloud installation in our extensive <a href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_server/harden_server.html" target="_blank" rel="tooltip" title="Information for Admins">hardening guide</a> 
 		</div>
 		<div class="col-md-6">
 		<h3>Security hardening</h3>
 		<p>Nextcloud employs a wide variety of extra security hardening capabilities, including:</p>
 			<ul>
-			<li>Content Security Policy
-			<ul>
-				<li>First implementation in 2013</li>
-				<li><a href="https://blogs.dropbox.com/tech/tag/content-security-policy/">Dropbox implemented it in 2015</a></li>
-			</ul></li>
-			<li>Same-Site Cookies
-			<ul>
-				<li>Cookies will only be sent if request originates from the same origin (preventing CSRF vulnerabilities)</li>
-				<li>Currently only supported in Chrome and Opera, Mozilla is working on Firefox support.</li>
-			</ul></li>
+				<li>Content Security Policy
+				<ul>
+					<li>First implementation in 2013</li>
+					<li><a href="https://blogs.dropbox.com/tech/tag/content-security-policy/">Dropbox implemented it in 2015</a></li>
+				</ul></li>
+				<li>Same-Site Cookies
+				<ul>
+					<li>Cookies will only be sent if request originates from the same origin (preventing CSRF vulnerabilities)</li>
+					<li>Currently only supported in Chrome and Opera, Mozilla is working on Firefox support.</li>
+				</ul></li>
+			</ul>
 		</div>
 	</div>
 </div>
@@ -207,7 +183,7 @@
 
 <div class="wrap container featureblock">
 	<div class="featurerow">
-		<h1 class="featuretitle">Screenshots</h1>
+		<h2 class="header">Screenshots</h2>
 		<div class="row">
 			<div class="col-md-6">
 				<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP.png" class="img-responsive screenshot" /></a>
@@ -224,3 +200,69 @@
 		</div>
 	</div>
 </div>
+
+
+<script>
+// Tab-Pane change function
+
+tabChange = function(){
+    var tabs = $('.nav-pills > li');
+    var active = tabs.filter('.active');
+    var next = active.next('li').length? active.next('li').find('a') : tabs.filter(':first-child').find('a');
+    // Use the Bootsrap tab show method
+    next.tab('show');
+}    // Tab Cycle function
+function settabchnge () {
+    //alert("in set tab");
+tabCycle = setInterval(tabChange, 3000);
+}
+
+settabchnge();
+
+function cleartabchange () {
+    clearInterval(tabCycle);
+}
+
+$(function(){
+
+    var counterofclock = 1;
+    var counterofmoreclicks = 1; 
+    var clicked = false;
+    var sec = 0;
+    function startClock() {
+        if (clicked === false) {
+            clock = setInterval(stopWatch, 1000);
+            clicked = true;
+        }else if (clicked === true) {
+        }
+    }       
+    function stopWatch() {
+            sec++;
+    }
+    function stopClock() {
+            window.clearInterval(clock);
+            sec = 0;
+            clicked = false;
+    }
+    $('.nav-pills a').click(function(e) {
+        if(counterofclock === 1){
+            startClock();
+            counterofclock = 2;
+        }else {
+            stopClock();
+            startClock();
+        }
+        e.preventDefault();
+        // Stop the cycle
+        if (counterofmoreclicks == 2 && sec < 11){
+            clearTimeout(starttabchnage);
+        }
+        counterofmoreclicks = 2;
+        clearInterval(tabCycle);
+        // Show the clicked tabs associated tab-pane
+        $(this).tab('show')
+        // Start the cycle again in a predefined amount of time
+        starttabchnage = setTimeout(function(){ settabchnge();}, 15000);
+    });
+})
+</script>
