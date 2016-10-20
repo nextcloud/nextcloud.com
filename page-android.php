@@ -1,8 +1,8 @@
 <div class="page-header">
-	<h1>Nextcloud Android Client</h1>
+	<h1><?php echo $l->t('Nextcloud Android Client');\?></h1>
 </div>
-<h2>Get it</h2>
-Find the Nextcloud Android Client <a href="/install">on our install page</a>.
+<h2><?php echo $l->t('Get it');\?></h2>
+<p><?php echo $l->t('Find the Nextcloud Android Client <a href="/install">on our install page</a>.');\?></p>
 
-<h2>Find Help</h2>
-Find help in <a href="https://doc.nextcloud.org/android/">our documentation</a>.
+<h2><?php echo $l->t('Find Help');\?></h2>
+<p><?php echo $l->t('Find help in <a href="https://doc.nextcloud.org/android/">our documentation</a>.');\?></p>
