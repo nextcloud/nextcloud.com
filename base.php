@@ -1,5 +1,8 @@
 <?php 
 
+// Include translation file
+require_once __DIR__ . '/l10n.php';
+
 // Base file to handle each page request
 require get_template_directory().'/config.php';
 require get_template_directory().'/strings.php';
