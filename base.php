@@ -3,6 +3,8 @@
 // Base file to handle each page request
 require get_template_directory().'/config.php';
 require get_template_directory().'/strings.php';
+// If news then include nothing
+if(!(is_page('oc-news') || is_page('blogfeed'))) { 
 
 /**
  * Pages that still use the old layout and haven't been migrated
@@ -105,8 +107,6 @@ if(in_array($currentPage, $oldPages) || is_blog()) {
 	$oldPage = false;
 }
 
-// If news then include nothing
-if(!(is_page('oc-news') || is_page('blogfeed'))) { 
 ?>
   <body <?php body_class(); ?>>
 
