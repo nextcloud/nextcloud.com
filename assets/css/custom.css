@@ -163,7 +163,7 @@
   padding-bottom: 50px;
   padding-left: 0;
   padding-right: 0;
-  background-image: url("../img/home/perfect-for-home-and-business-wide.jpg");
+  background-image: url("../img/home/perfect-for-home-and-business.jpg");
   background-size: cover; }
   @media (max-width: 768px) {
     #perfect-for-home-and-business {
@@ -586,7 +586,7 @@ h5 {
     right: 50px;
     transition: all 0.3s ease 0s; }
   .btn-primary:hover {
-    background-color: #0073B2;
+    background-color: #0073b2;
     text-decoration: none; }
     .btn-primary:hover:before {
       right: 30px; }
@@ -594,7 +594,7 @@ h5 {
     -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
-    background-color: #0073B2; }
+    background-color: #0073b2; }
 
 @media (max-width: 768px) {
   .btn-primary {
@@ -682,5 +682,3 @@ h5 {
     @media (max-width: 1200px) {
       .highlights_align h4 {
         margin-left: 0; } }
-
-/*# sourceMappingURL=custom.css.map */
