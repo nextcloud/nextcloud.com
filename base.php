@@ -106,10 +106,7 @@ if(in_array($currentPage, $oldPages) || is_blog()) {
 }
 
 // If news then include nothing
-if(is_page('oc-news') || is_page('blogfeed')) {
-	return;
-}
-
+if(!(is_page('oc-news') || is_page('blogfeed'))) { 
 ?>
   <body <?php body_class(); ?>>
 
@@ -140,3 +137,4 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 
   </body>
 </html>
+<?php } ?>
