@@ -4,7 +4,9 @@
 require get_template_directory().'/config.php';
 require get_template_directory().'/strings.php';
 // If news then include nothing
-if(!(is_page('oc-news') || is_page('blogfeed'))) { 
+if(is_page('oc-news') || is_page('blogfeed')) {
+	include roots_template_path();
+} else { 
 
 /**
  * Pages that still use the old layout and haven't been migrated
