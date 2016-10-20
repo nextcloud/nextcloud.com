@@ -94,7 +94,7 @@
             "se"
          ],
          "freeplans":false,
-		 "supports":"consumer",
+		 "supports":"both",
          "specializes":[
             "Swedish-hosted virtual machine images with Nextcloud pre-installed and various service options available for secure and easy file sync and share!"
          ],
