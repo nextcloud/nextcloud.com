@@ -3,13 +3,44 @@
 class L10N {
 	/** @var string */
 	private $pageName;
+	/** @var array */
+	private $baseTranslations = null;
+	/** @var bool */
+	private $changed = false;
+	/** @var array */
+	private $requestedStrings = [];
+	/** @var int */
+	private $countBefore = 0;
 
+	/**
+	 * @param string $pageName
+	 */
 	public function __construct($pageName) {
 		$this->pageName = $pageName;
 	}
 
+	/**
+	 * Clean-up unused strings in the JSON file
+	 */
+	public function __destruct() {
+		if($this->changed === true || $this->countBefore !== count($this->requestedStrings)) {
+			file_put_contents($this->getBaseTranslationFilePath(), json_encode($this->requestedStrings, JSON_PRETTY_PRINT));
+		}
+	}
+
+	/**
+	 * @return string
+	 */
+	private function getBaseTranslationFilePath() {
+		return $baseTranslationFile = __DIR__ . '/l10n/base/' . $this->pageName . '.json';
+	}
+
+	/**
+	 * Gets the currently used language either from the hl parameter or the current domain
+	 *
+	 * @return string
+	 */
 	private function getCurrentLanguage() {
-		// We detect the current language on the hl parameter
 		if(isset($_GET['hl'])) {
 			$hl = strtolower((string)$_GET['hl']);
 			if(ctype_alnum($hl) && strlen($hl) === 2) {
@@ -21,17 +52,21 @@ class L10N {
 	}
 
 	public function t($string) {
-		$baseTranslationFile = __DIR__ . '/l10n/base/' . $this->pageName . '.json';
+		$baseTranslationFile = $this->getBaseTranslationFilePath();
 		if(!file_exists($baseTranslationFile)) {
 			file_put_contents($baseTranslationFile, json_encode([]));
 		}
 
 		// If the string doesn't yet exist to translate: Create it
-		$baseTranslations = json_decode(file_get_contents($baseTranslationFile), true);
-		if(!isset($baseTranslationFile[$string])) {
-			$baseTranslations[$string] = $string;
-			file_put_contents($baseTranslationFile, json_encode($baseTranslations, JSON_PRETTY_PRINT));
+		if($this->baseTranslations === null) {
+			$this->baseTranslations= json_decode(file_get_contents($baseTranslationFile), true);
+			$this->countBefore = count($this->baseTranslations);
+			if (!isset($this->baseTranslations[$string])) {
+				$this->baseTranslations[$string] = $string;
+				$this->changed = true;
+			}
 		}
+		$this->requestedStrings[$string] = $string;
 
 		// Read the translated string
 		$translationFile = __DIR__ . '/l10n/'.$this->getCurrentLanguage().'/' .  $this->pageName . '.json';
