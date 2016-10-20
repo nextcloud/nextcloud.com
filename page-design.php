@@ -1,47 +1,31 @@
-<h2>Contribute to Nextcloud design!</h2>
+<h2>Design at Nextcloud</h2>
+<p>Design is open at Nextcloud. You can directly contribute at <a href="https://github.com/nextcloud/server/issues?labels=design">GitHub</a>. This is our main channel to discuss the design of nextcloud.</p>
 <ul>
-	<li>We have a <a href="https://github.com/nextcloud/core/issues?labels=Design">Design label on GitHub</a> – check out these issues if you want to help and fix interface problems. This label is also in the other repositories for clients and apps.</li>
-	<li>For easier issues and to get started, check out the <a href="https://github.com/nextcloud/core/issues?labels=Design%2CJunior+Job">Design issues also marked »Junior Job«</a></li>
-	<li><a href="https://github.com/nextcloud/core/issues?labels=Design,High">High priority design issues</a> are additionally marked with the »High« label – these we need to prioritize, and fixing any of those will make you everyone’s hero!</li>
+	<li>We have a <a href="https://github.com/nextcloud/server/issues?labels=design">Design</a> label on GitHub. Check out these issues, if you want to help with the design. This label is used in all repositories.</li>
+	<li>To get started, check out the <a href="https://github.com/nextcloud/server/issues?q=label%3Adesign+label%3A%22starter+issue%22">Starter Issues</a> labeled with design.</li>
+	<li>Or look for <a href="https://github.com/nextcloud/server/issues?q=is%3Aopen+is%3Aissue+label%3Apapercut">papercut issues</a>! Fixing these will increase the user experience tremendously.</li>
 </ul>
-
-
 
 <h2>Design Team</h2>
 
-<p>There is an <strong>@nextcloud/designers group on GitHub</strong>. This enables people to just mention @nextcloud/designers in issues and pull requests to notify all designers. Otherwise you have to mention each one individually.</p>
+<p>There is an <strong>@nextcloud/designers</strong> team on GitHub. Just mention <strong>@nextcloud/designers</strong> in issues and pull requests to notify all designers.</p>
 
-<p>The people currently in this group are:
+<p>If you want to be part of the team contact us over <a href="https://webchat.freenode.net/?channels=nextcloud">IRC</a>, on <a href="https://github.com/nextcloud">github</a> or via <a href="mailto:design@nextcloud.com">design@nextcloud.com</a>.</p>
+
+<h2>Design guide</h2>
 <ul>
-	<li><a href="https://github.com/jancborchardt">Jan-Christoph Borchardt</a></li>
-	<li><a href="https://github.com/MorrisJobke">Morris Jobke</a></li>
-	<li><a href="https://github.com/PVince81">Vincent Petry</a></li>
-	<li><a href="https://github.com/jbtbnl">Jan ten Bokkel</a></li>
-	<li><a href="https://github.com/wakeup">Volkan Gezer</a></li>
-	<li><a href="https://github.com/raghunayyar">Raghu Nayyar</a></li>
-	<li><a href="https://github.com/Kondou-ger">Kondou</a></li>
-	<li><a href="https://github.com/enoch85">Daniel Hansson</a></li>
-	<li><a href="https://github.com/stefan-niedermann">Stefan Niedermann</a></li>
-</ul>
-Please let us know if you want to contribute to the design and would like to be in this group. You will be notified every time someone mentions this team in an issue, which would be every design issue or pull request.</p>
-
-<p>You should also join the <strong><a href="https://webchat.freenode.net/?channels=nextcloud-design">#nextcloud-design channel on IRC</a></strong>. We use this to communicate on smaller issues, talk about what to work on next, and just general chatter. It’s good to get to know the other people and for organization in general.</p>
+	<li><strong>Make it easy to use:</strong> Show only what’s necessary, but don’t hide the functionality in multiple levels – one or two clicks.</li>
+	<li><strong>Make it intelligent:</strong> Let nextcloud do things automatically, instead of offering too many options.</li>
+	<li><strong>Make it work:</strong> It’s better to miss a feature than having one that works poorly.</li>
+	<li><strong>Provide feedback:</strong> The state of the application should be clear. If something loads, show a loader animation.</li>
+	<li><strong>Be bold to adapt new modalities:</strong> Let go of broken concepts (e.g. the design of desktop apps). We provide a better interface.</li>
+	<li><strong>Test it yourself:</strong> Regularly reset your installation to see what the first-run experience is like.</li>
+	<li><strong>Test with people:</strong> Do <a href="http://jancborchardt.net/usability-in-free-software">usability testing</a> or just ask someone to have a look or watch people using nextcloud.</li>
+	<li><strong>Test on different devices:</strong> We need to fully support the <a href="http://caniuse.com/usage-table">common browsers</a>, but also the whole range from desktop to mobile devices.</li>
+	<li><strong>Analyze the user's needs:</strong> When people ask for features, find out what the root of the problem is, instead of just adding the feature.</li>
 
 
-
-<h2>Design guidelines</h2>
-<ul>
-	<li>Software should work. Only put features into master when they are complete. It’s better to not have a feature instead of having one that works poorly.</li>
-	<li>Software should get out of the way. Do things automatically instead of offering configuration options.</li>
-	<li>Software should be easy to use. Show only the most important elements. Secondary elements only on hover or via »Advanced« function.</li>
 	<li>People’s data is sacred. Provide undo instead of asking for confirmation – <a href="http://www.alistapart.com/articles/neveruseawarning/">which might be dismissed</a>.</li>
-	<li>The state of the application should be clear. If something loads, provide feedback.</li>
-	<li>Do not adapt broken concepts (for example design of desktop apps) just for the sake of »consistency«. We provide a better interface.</li>
-	<li>Regularly reset your installation to see what the first-run experience is like. And improve it.</li>
-	<li>Ideally do <a href="http://jancborchardt.net/usability-in-free-software">usability testing</a> to know how people use the software.</li>
-	<li>When people ask for features, find out what the root of the problem is. Then fix that instead of just adding a feature.</li>
-	<li>Test in different browsers. We need to fully support the common browsers like Firefox and Chrome as well as Internet Explorer down to version 8.</li>
-	<li>Test on different devices. The web interface should work on a smartphone or tablet as well as it does on desktop.</li>
 	<li>For further UX principles, read <a href="http://uxmag.com/articles/quantifying-usability">Alex Faaborg from Mozilla</a>.</li>
 </ul>
 
@@ -55,8 +39,8 @@ Please let us know if you want to contribute to the design and would like to be 
 			<li>Sorting of declarations should be sensically grouped instead of alphabetized. First positioning and sizes, then typography, then colors, then additional rules.</li>
 		</ul>
 	</li>
-	<li>HTML and CSS building blocks are in <a href="https://doc.nextcloud.org/server/8.0/developer_manual/app/css.html">the documentation</a>.</li>
-	<li>Clickable elements should be a minimum of 44*44px to be easily tappable on mobile devices and well visible on desktop. See the <a href="https://developer.apple.com/library/iOS/documentation/UserExperience/Conceptual/MobileHIG/LayoutandAppearance.html">Apple Human Interface Guidelines</a> for reference.</li>
+	<li>HTML and CSS building blocks are in <a href="https://docs.nextcloud.com/server/10/developer_manual/app/css.html">the documentation</a>.</li>
+	<li>Interactive elements should be a minimum of <em>44 px x 44 px</em> to be easy to tap on mobile devices and visible on desktop. See the <a href="https://developer.apple.com/library/iOS/documentation/UserExperience/Conceptual/MobileHIG/LayoutandAppearance.html">Apple Human Interface Guidelines</a> for reference.</li>
 	<li>We don’t use SASS or another preprocessor because of the barrier to entry.</li>
 	<li>We don’t use Bootstrap because there’s lots of parts we don’t need and we would need to customize a lot anyway. We do use pieces of Bootstrap though, like Tipsy for tooltips.</li>
 </ul>
