@@ -1,11 +1,14 @@
 <?php
+
+	$l = new L10N('header-navbar');
+
 	$navigationItems = [
-		'news' => 'News',
-		'features' => 'Features',
-		'about' => 'About us',
-		'contribute' => 'Get involved',
-		'support' => 'Support',
-		'enterprise' => 'Enterprise',
+		'news' => $l->t('News'),
+		'features' => $l->t('Features'),
+		'about' => $l->t('About us'),
+		'contribute' => $l->t('Get involved'),
+		'support' => $l->t('Support'),
+		'enterprise' => $l->t('Enterprise'),
 	];
 ?>
 <section class="Header-Navigation">
@@ -30,8 +33,8 @@
                                 ?>
                                 <li <?php if($active): ?>class="active"<?php endif;?>><a href="<?php echo home_url($key) ?>"><?php echo $text ?></a></li>
                                 <?php endforeach; ?>
-                                <li><a href="https://demo.nextcloud.com/">Demo</a></li>
-                                <li class="btn-primary"><a href="<?php echo home_url('install') ?>">Download</a>
+                                <li><a href="https://demo.nextcloud.com/"><?php echo $l->t('Demo') ?></a></li>
+                                <li class="btn-primary"><a href="<?php echo home_url('install') ?>"><?php echo $l->t('Download') ?></a>
                         </li>
                     </ul>
                   </nav>

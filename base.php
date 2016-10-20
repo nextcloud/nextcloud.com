@@ -3,9 +3,6 @@
 // Include translation file
 require_once __DIR__ . '/l10n.php';
 
-// The basic translation for the files
-$l = new L10N(get_post()->post_name);
-
 // Base file to handle each page request
 require get_template_directory().'/config.php';
 require get_template_directory().'/strings.php';
@@ -125,8 +122,11 @@ if(in_array($currentPage, $oldPages) || is_blog()) {
     <![endif]-->
 
     <?php
-      get_template_part('templates/header-top-navbar');
-    ?>
+		get_template_part('templates/header-top-navbar');
+
+		// The basic translation for the files
+		$l = new L10N(get_post()->post_name);
+	?>
 	<?php if($oldPage === true): ?>
 		<div class="wrap container" role="document">
 		  <div class="content row">
