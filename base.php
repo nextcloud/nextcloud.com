@@ -3,6 +3,9 @@
 // Include translation file
 require_once __DIR__ . '/l10n.php';
 
+// The basic translation for the files
+$l = new L10N(get_post()->post_name);
+
 // Base file to handle each page request
 require get_template_directory().'/config.php';
 require get_template_directory().'/strings.php';

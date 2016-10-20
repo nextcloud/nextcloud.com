@@ -1,6 +1,13 @@
 <?php
 
 class L10N {
+	/** @var string */
+	private $pageName;
+
+	public function __construct($pageName) {
+		$this->pageName = $pageName;
+	}
+
 	private function getCurrentLanguage() {
 		// We detect the current language on the hl parameter
 		if(isset($_GET['hl'])) {
@@ -14,7 +21,7 @@ class L10N {
 	}
 
 	public function t($string) {
-		$baseTranslationFile = __DIR__ . '/l10n/base/' . get_post()->post_name . '.json';
+		$baseTranslationFile = __DIR__ . '/l10n/base/' . $this->pageName . '.json';
 		if(!file_exists($baseTranslationFile)) {
 			file_put_contents($baseTranslationFile, json_encode([]));
 		}
@@ -27,7 +34,7 @@ class L10N {
 		}
 
 		// Read the translated string
-		$translationFile = __DIR__ . '/l10n/'.$this->getCurrentLanguage().'/' .  get_post()->post_name . '.json';
+		$translationFile = __DIR__ . '/l10n/'.$this->getCurrentLanguage().'/' .  $this->pageName . '.json';
 		if(file_exists($translationFile)) {
 			$translations = json_decode(file_get_contents($translationFile), true);
 			if(isset($translations[$string])) {
@@ -38,5 +45,3 @@ class L10N {
 		return $string;
 	}
 }
-
-$l = new L10N();
