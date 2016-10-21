@@ -57,23 +57,25 @@ class L10N {
 			file_put_contents($baseTranslationFile, json_encode([]));
 		}
 
+		$stringHash = md5($string);
+
 		// If the string doesn't yet exist to translate: Create it
 		if($this->baseTranslations === null) {
 			$this->baseTranslations= json_decode(file_get_contents($baseTranslationFile), true);
 			$this->countBefore = count($this->baseTranslations);
-			if (!isset($this->baseTranslations[$string])) {
-				$this->baseTranslations[$string] = $string;
+			if (!isset($this->baseTranslations[$stringHash])) {
+				$this->baseTranslations[$stringHash] = $string;
 				$this->changed = true;
 			}
 		}
-		$this->requestedStrings[$string] = $string;
+		$this->requestedStrings[$stringHash] = $string;
 
 		// Read the translated string
 		$translationFile = __DIR__ . '/l10n/'.$this->getCurrentLanguage().'/' .  $this->pageName . '.json';
 		if(file_exists($translationFile)) {
 			$translations = json_decode(file_get_contents($translationFile), true);
-			if(isset($translations[$string])) {
-				return $translations[$string];
+			if(isset($translations[$stringHash])) {
+				return $translations[$stringHash];
 			}
 		}
 
