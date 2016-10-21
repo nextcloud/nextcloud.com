@@ -1,0 +1,13 @@
+/* Make Navbar transparent */
+.navbar:not(.scrolled) {
+  background-color: transparent; }
+
+.navbar:not(.scrolled) .btn-primary {
+  background-color: transparent !important;
+  border-color: white; }
+
+.top-jumbotron {
+  height: 531px;
+  background-color: #252323; }
+
+/*# sourceMappingURL=box.css.map */

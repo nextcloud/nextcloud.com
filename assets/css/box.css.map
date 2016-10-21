@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,6BAA6B;AAC7B,sBAAuB;EACrB,gBAAgB,EAAE,WAAW;;AAG/B,mCAAqC;EACnC,gBAAgB,EAAE,sBAAsB;EACxC,YAAY,EAAE,KAAK;;ACJrB,cAAe;EACd,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,OAAO",
+"sources": ["transparent-navbar.scss","box.scss"],
+"names": [],
+"file": "box.css"
+}
