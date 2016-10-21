@@ -1,6 +1,12 @@
 @import "variables.scss";
 @import "transparent-navbar.scss";
 
+body {
+	background: #eee;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
 .section-top-jumbotron {
 	height: 531px;
 	background-color: #252323;
@@ -29,6 +35,7 @@
 	width: 100%;
 	text-align: center;
 
+
 	h2 {
 		padding-top: 280px;
 	}
@@ -49,11 +56,86 @@
 
 .section-tecnology {
 	padding-top: 100px;
+	padding-bottom:200px;
 	height: 100%;
 	width: 100%;
+	background-color: white;
 	
 	.line {
 		border: 1px solid #E8E8E8;
-		padding-bottom: 100px;
+	}
+	
+	.container {
+
+		.box-open {
+			background-image: url("../img/box/box-open.png");
+			width: 651px;
+			height: 476px;
+			margin-top: 120px;
+		}
+
+		.wrapper-tex {
+			margin-top: 120px;
+
+			h6 {
+				font-size: 18px;
+				font-weight: 500;
+				padding-top: 30px;
+			}
+		}
 	}
 }
+
+.section-getbox {
+	padding-top: 100px;
+	height: 400px;
+	width: 100%;
+	background-color: #252323;
+	position: relative;
+
+	.container {
+
+		.wrapper-tex {
+			color:white;
+			@include vertical-center;
+
+			h2 {
+				color: white;
+			}
+			
+			p {
+				padding-top: 10px;
+			}
+
+			.btn-primary {
+				margin-top:20px;
+				
+				&:before {
+					display: none;
+				}
+			}
+		}
+
+		.box-perspective {
+			background-image: url("../img/box/box-perspective.png");
+			width: 692px;
+			height: 485px;
+		    background-repeat: no-repeat;
+		    float: right;
+	        margin-top: -220px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
