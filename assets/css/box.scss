@@ -1,0 +1,59 @@
+@import "variables.scss";
+@import "transparent-navbar.scss";
+
+.section-top-jumbotron {
+	height: 531px;
+	background-color: #252323;
+
+	.container {
+
+		h2{
+			color: white;
+			padding-top: 150px;
+		}
+
+		.box {
+			background-image: url("../img/box/box_front.png");
+			width: 689px;
+			height: 569.8px;
+			margin: 0 auto;
+		    margin-top: 80px;
+		    position: relative;
+		}
+	}
+}
+
+.section-data-home {
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+
+	h2 {
+		padding-top: 280px;
+	}
+
+	p {
+	    font-size: 18px;
+    	font-weight: 300;
+    	max-width: 600px;
+    	padding-top: 20px;
+    	margin: 0 auto;
+	}
+
+	.btn-primary {
+		margin-top: 40px;
+	}
+}
+
+
+.section-tecnology {
+	padding-top: 100px;
+	height: 100%;
+	width: 100%;
+	
+	.line {
+		border: 1px solid #E8E8E8;
+		padding-bottom: 100px;
+	}
+}

@@ -1,0 +1,47 @@
+/* Make Navbar transparent */
+.navbar:not(.scrolled) {
+  background-color: transparent; }
+
+.navbar:not(.scrolled) .btn-primary {
+  background-color: transparent !important;
+  border-color: white; }
+
+.section-top-jumbotron {
+  height: 531px;
+  background-color: #252323; }
+  .section-top-jumbotron .container h2 {
+    color: white;
+    padding-top: 150px; }
+  .section-top-jumbotron .container .box {
+    background-image: url("../img/box/box_front.png");
+    width: 689px;
+    height: 569.8px;
+    margin: 0 auto;
+    margin-top: 80px;
+    position: relative; }
+
+.section-data-home {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  text-align: center; }
+  .section-data-home h2 {
+    padding-top: 280px; }
+  .section-data-home p {
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 600px;
+    padding-top: 20px;
+    margin: 0 auto; }
+  .section-data-home .btn-primary {
+    margin-top: 40px; }
+
+.section-tecnology {
+  padding-top: 100px;
+  height: 100%;
+  width: 100%; }
+  .section-tecnology .line {
+    border: 1px solid #E8E8E8;
+    padding-bottom: 100px; }
+
+/*# sourceMappingURL=box.css.map */
