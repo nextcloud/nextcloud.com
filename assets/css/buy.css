@@ -161,6 +161,9 @@
   font-stretch: normal;
   line-height: 2.5;
   color: #b1b1b1; }
+  .list .nocheck a {
+    color: #b1b1b1;
+    font-decoration: none; }
 
 .list .nocheck {
   list-style-image: url("../img/enterprise/nocheck.svg");
