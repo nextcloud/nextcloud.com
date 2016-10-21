@@ -1,0 +1,8 @@
+{
+    "Security Advisories": "Security Advisories",
+    "<a href=\"\/security\">Security page<\/a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=\"\/security\/threat-model\">Threat Model<\/a>": "<a href=\"\/security\">Security page<\/a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=\"\/security\/threat-model\">Threat Model<\/a>",
+    "You can <a href=\"\/advisories\/advisories.rss\">follow our advisories via RSS<\/a>.": "You can <a href=\"\/advisories\/advisories.rss\">follow our advisories via RSS<\/a>.",
+    "Nextcloud Server": "Nextcloud Server",
+    "Desktop Clients": "Desktop Clients",
+    "Mobile Clients": "Mobile Clients"
+}
