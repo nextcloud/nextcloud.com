@@ -40,6 +40,7 @@
 					<li class="check"><?php echo $l->t('<span title="You can contact our capable and responsive support team by email and expect a quick response time.">Email support</span>');?></li>
 					<li class="nocheck"><?php echo $l->t('<span title="You can contact our support engineers by phone in these times.">Phone support</span>');?></li>
 					<li class="nocheck"><?php echo $l->t('<span title="If you need access to experienced engineers to built custom solutions for your unique needs.">Custom consulting</span>');?></li>
+					<li class="nocheck"><?php echo $l->t('<span title="Fully branded clients and web UI.">Branding support');?></li>
 					<li class="nocheck"><?php echo $l->t('<span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering support</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 1 year</span>');?></li>
 				</div>
@@ -81,6 +82,7 @@
 					<li class="check"><?php echo $l->t('<span title="You can contact our capable and responsive support team by email and expect a quick response time.">Email support: business hours</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="You can contact our support engineers by phone in these times.">Phone support: business hours</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="If you need access to experienced engineers to built custom solutions for your unique needs.">Custom consulting</span>');?></li>
+					<li class="nocheck"><?php echo $l->t('<span title="Fully branded clients and web UI.">Branding support');?></li>
 					<li class="nocheck"><?php echo $l->t('<span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering support</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 3 years</span>');?></li>
 				</div>
@@ -122,6 +124,7 @@
 					<li class="check"><?php echo $l->t('<span title="You can contact our capable and responsive support team by email and expect a quick response time.">Email support: up to 24/7</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="You can contact our support engineers by phone in these times.">Phone support: up to 24/7</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="If you need access to experienced engineers to built custom solutions for your unique needs.">Custom consulting</span>');?></li>
+					<li class="check"><?php echo $l->t('<span title="Fully branded clients and web UI.">Branding support');?></li>
 					<li class="check"><?php echo $l->t('<span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 5+5 years</span>');?></li>
 				</div>
