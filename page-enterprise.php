@@ -145,6 +145,7 @@
 	</div>
 </div>
 <div class="container text-center">
+	<p class="revealOnScroll epricevat"><?php echo $l->t('Prices are in Euro per year and net/excl. VAT.');?></p>
 	<p class="revealOnScroll"><?php echo $l->t('<small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small>');?></p>
 </div>
 <div class="container discounts">
