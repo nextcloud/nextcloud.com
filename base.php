@@ -69,6 +69,8 @@ $oldPages = [
 	'pr20160812',
 	'pr20160825',
 	'pr20160901',
+	'pr20160916',
+	'pr20160929',
 	'press',
 	'privacy',
 	'promote',
