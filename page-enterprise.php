@@ -34,6 +34,7 @@
 				<h1 class="header revealOnScroll"><?php echo $l->t('Support');?></h1>
 				<div class="line revealOnScroll"></div>
 				<div class="list revealOnScroll">
+					<li class="check"><?php echo $l->t('<span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 1 year</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Questions and issues are generally dealt with in this time, depending on the severity of the issue">Production SLA: 3 business days</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team">Portal support</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="We help you migrate from ownCloud to Nextcloud">ownCloud migration support</span>');?></li>
@@ -43,7 +44,6 @@
 					<li class="nocheck"><?php echo $l->t('<span title="Our engineers walk you through the installation process where needed.">Remote installation support</span>');?></li>
 					<li class="nocheck"><?php echo $l->t('<span title="Fully branded clients and web UI.">Branding support');?></li>
 					<li class="nocheck"><?php echo $l->t('<span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering support</span>');?></li>
-					<li class="check"><?php echo $l->t('<span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 1 year</span>');?></li>
 				</div>
 				<a class="btn btn-primary btn-lg btn-absolute-icon revealOnScroll" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
@@ -69,6 +69,7 @@
 				<h1 class="revealOnScroll"><?php echo $l->t('Support');?></h1>
 				<div class="line revealOnScroll"></div>
 				<div class="list revealOnScroll">
+					<li class="check"><?php echo $l->t('<span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 3 years</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Questions and issues are generally dealt with in this time, depending on the severity of the issue">Production SLA: 2 business days</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team">Portal support</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="We help you migrate from ownCloud to Nextcloud">ownCloud migration support</span>');?></li>
@@ -78,7 +79,6 @@
 					<li class="check"><?php echo $l->t('<span title="Our engineers walk you through the installation process where needed.">Remote installation support</span>');?></li>
 					<li class="nocheck"><?php echo $l->t('<span title="Fully branded clients and web UI.">Branding support');?></li>
 					<li class="nocheck"><?php echo $l->t('<span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering support</span>');?></li>
-					<li class="check"><?php echo $l->t('<span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 3 years</span>');?></li>
 				</div>
 				<a class="btn btn-primary btn-lg btn-absolute-icon revealOnScroll" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
@@ -104,6 +104,7 @@
 				<h1 class="revealOnScroll"><?php echo $l->t('Support');?></h1>
 				<div class="line revealOnScroll"></div>
 				<div class="list revealOnScroll">
+					<li class="check"><?php echo $l->t('<span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 5+5 years</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Questions and issues are generally dealt with in this time, depending on the severity of the issue">Production SLA: 24h or as agreed</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team">Portal support</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="We help you migrate from ownCloud to Nextcloud">ownCloud migration support</span>');?></li>
@@ -113,7 +114,6 @@
 					<li class="check"><?php echo $l->t('<span title="Our engineers walk you through the installation process where needed.">Remote installation support</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Fully branded clients and web UI.">Branding support');?></li>
 					<li class="check"><?php echo $l->t('<span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering</span>');?></li>
-					<li class="check"><?php echo $l->t('<span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 5+5 years</span>');?></li>
 				</div>
 				<a class="btn btn-primary btn-lg btn-absolute-icon revealOnScroll" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
