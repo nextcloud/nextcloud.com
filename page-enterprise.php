@@ -23,12 +23,9 @@
 				<div class="line revealOnScroll"></div>
 				<div class="list revealOnScroll">
 					<li class="check"><?php echo $l->t('<span title="Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.">File sync and share</span>');?></li>
-					<li class="check"><?php echo $l->t('<span title="Android, iOS and desktop apps, branding possible.">Mobile and desktop clients</span>');?></li>
-					<li class="check"><?php echo $l->t('<span title="Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.">Enterprise capabilities</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="the AGPL license provides legal certainty for all customers and users.">Fully Open Source</span>');?></li>
 					<li class="nocheck"><?php echo $l->t('<span title="Support for the Calendar and Contacts apps.">Calendar and Contacts</span>');?></li>
 					<li class="nocheck"><?php echo $l->t('<span title="Support for our secure and private peer to peer audio and video conferencing."><a href="/webrtc" target="_blank">Secure WebRTC Conferencing</a></span>');?></li>
-					<li class="nocheck"><?php echo $l->t('<span title="Allows web conferencing calls to connect with phone lines.">SIP gateway</span>');?></li>
 					<li class="nocheck"><?php echo $l->t('<span title="Real time collaborative editing of often used office fileformats like DOCX, PPTX and more."><a href="/collaboraonline" target="_blank">Collabora Online Office</a></span>');?></li>
 				</div>
 				<h1 class="header revealOnScroll"><?php echo $l->t('Support');?></h1>
@@ -58,12 +55,9 @@
 				<div class="line revealOnScroll"></div>
 				<div class="list revealOnScroll">
 					<li class="check"><?php echo $l->t('<span title="Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.">File sync and share</span>');?></li>
-					<li class="check"><?php echo $l->t('<span title="Android, iOS and desktop apps, branding possible.">Mobile and desktop clients</span>');?></li>
-					<li class="check"><?php echo $l->t('<span title="Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.">Enterprise capabilities</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="the AGPL license provides legal certainty for all customers and users.">Fully Open Source</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Support for the Calendar and Contacts apps.">Calendar and Contacts</span>');?></li>
 					<li class="optional"><?php echo $l->t('<span title="Support for our secure and private peer to peer audio and video conferencing."><a href="/webrtc" target="_blank">Secure WebRTC Conferencing</a></span>');?></li>
-					<li class="optional"><?php echo $l->t('<span title="Allows web conferencing calls to connect with phone lines.">SIP gateway</span>');?></li>
 					<li class="optional"><?php echo $l->t('<span title="Real time collaborative editing of often used office fileformats like DOCX, PPTX and more."><a href="/collaboraonline" target="_blank">Collabora Online Office</a></span>');?></li>
 				</div>
 				<h1 class="revealOnScroll"><?php echo $l->t('Support');?></h1>
@@ -93,12 +87,9 @@
 				<div class="line revealOnScroll"></div>
 				<div class="list revealOnScroll">
 					<li class="check"><?php echo $l->t('<span title="Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.">File sync and share</span>');?></li>
-					<li class="check"><?php echo $l->t('<span title="Android, iOS and desktop apps, branding possible.">Mobile and desktop clients</span>');?></li>
-					<li class="check"><?php echo $l->t('<span title="Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.">Enterprise capabilities</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="the AGPL license provides legal certainty for all customers and users.">Fully Open Source</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Support for the Calendar and Contacts apps.">Calendar and Contacts</span>');?></li>
 					<li class="optional"><?php echo $l->t('<span title="Optional: Support for our secure and private peer to peer audio and video conferencing."><a href="/webrtc" target="_blank">Secure WebRTC Conferencing</a></span>');?></li>
-					<li class="optional"><?php echo $l->t('<span title="Optional: Allows web conferencing calls to connect with phone lines.">SIP gateway</span>');?></li>
 					<li class="optional"><?php echo $l->t('<span title="Optional: Real time collaborative editing of often used office fileformats like DOCX, PPTX and more."><a href="/collaboraonline" target="_blank">Collabora Online Office</a></span>');?></li>
 				</div>
 				<h1 class="revealOnScroll"><?php echo $l->t('Support');?></h1>
