@@ -179,6 +179,19 @@
   list-style-image: url("../img/enterprise/optional.svg");
   list-style-position: inside; }
 
+.list .price {
+  /* 	font-family: OpenSans; */
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  color: #555555; }
+
+.list .price {
+  list-style-image: url("../img/enterprise/blank.svg");
+  list-style-position: inside; }
+
 .table-content .btn-lg {
   margin-top: 30px;
   margin-bottom: 30px;
