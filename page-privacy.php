@@ -5,7 +5,7 @@
         </div>
         <p><?php echo $l->t('We recognize that privacy is extremely important to all visitors to this website. We do not share any individual information with anybody without your permission.');?></p>
         <p><?php echo $l->t('We use <a href="http://piwik.org/">Piwik</a> to get information on how our website is used and use <a href="https://www.phplist.com/">phplist</a> to handle our newsletters. From neither will we hand over individual data to anybody else. Any privacy breaches we will disclose as soon as possible.');?></p>
-        <p><?php echo $l->t('Please note that <a href="/news">nextcloud.org/news</a> aggregates community blogs and we can not be held responsible for their opinions or content.');?></p>
+        <p><?php echo $l->t('Please note that <a href="/news">nextcloud.com/news</a> aggregates community blogs and we can not be held responsible for their opinions or content.');?></p>
         <p><?php echo $l->t('If you see any problems, please report it to <a href="mailto:abuse@nextcloud.com">abuse@nextcloud.com</a>.');?></p>
 
         <p><?php echo $l->t('You can find our full privacy policy below.');?></p>
