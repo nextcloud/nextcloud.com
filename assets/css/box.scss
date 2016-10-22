@@ -1,12 +1,6 @@
 @import "variables.scss";
 @import "transparent-navbar.scss";
 
-body {
-	background: #eee;
-    margin: 0 auto;
-    max-width: 1440px;
-}
-
 .section-top-jumbotron {
 	height: 531px;
 	background-color: #252323;
@@ -53,7 +47,6 @@ body {
 	}
 }
 
-
 .section-tecnology {
 	padding-top: 100px;
 	padding-bottom:200px;
@@ -61,11 +54,8 @@ body {
 	width: 100%;
 	background-color: white;
 	
-	.line {
-		border: 1px solid #E8E8E8;
-	}
-	
 	.container {
+		border-top: 1px solid #E8E8E8;
 
 		.box-open {
 			background-image: url("../img/box/box-open.png");
@@ -127,8 +117,123 @@ body {
 	}
 }
 
+.section-how-to-box {
+	padding-top: 100px;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+
+	.container {
+
+		p {
+		    font-size: 18px;
+	    	font-weight: 300;
+	    	max-width: 550px;
+	    	margin: 0 auto;
+	    	margin-top: 10px;
+	    	text-align: center;
+		}
+		
+		.assembly {
+			background-image: url("../img/box/assembly.png");
+			width: 639px;
+			height: 541px;
+		    background-repeat: no-repeat;
+		    margin: 0 auto;
+		}
+		
+		.btn-primary {
+			text-align: center;
+			margin: 0 auto;
+			margin-top:20px;
+				
+			&:before {
+				display: none;
+			}
+		}
+	}
+}
+
+.section-wiki-forums {
+	padding-top: 100px;
+	height: 100%;
+	width: 100%;
+
+	.container {
+		border-top: 1px solid #E8E8E8;
+		padding-top: 60px;
+
+		p {
+		    font-size: 18px;
+	    	font-weight: 300;
+	    	max-width: 650px;
+	    	margin: 0 auto;
+	    	margin-top: 10px;
+		}
+
+		.wrapper-buttons {
+			text-align: center;
+			margin-top: 50px;
 
 
+			p {
+				display: inline-block;
+			}
+
+			.btn-primary{
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+		
+		}
+	}
+}
+
+.section-partners {
+	padding-top: 120px;
+	padding-bottom:100px;
+	height: 100%;
+	width: 100%;
+
+	.container {
+		border-top: 1px solid #E8E8E8;
+		padding-top: 60px;
+
+		p {
+		    font-size: 18px;
+			font-weight: 300;
+			max-width: 650px;
+			margin: 0 auto;
+			margin-top: 10px;
+		}
+
+		.wrapper-images {
+			text-align: center;
+			margin-top: 25px;
+		
+			.logo-wd {
+			background-image: url("../img/box/wd-logo.png");
+			width: 245.8px;
+			height: 58.7px;
+		    background-repeat: no-repeat;
+		    display: inline-block;
+		    margin-left: 25px;
+			margin-right: 25px;
+			}
+
+			.logo-ubuntu {
+			background-image: url("../img/box/ubuntu-logo.png");
+			width: 242.5px;
+			height: 60px;
+		    background-repeat: no-repeat;
+		    display: inline-block;
+		    margin-left: 10px;
+			margin-right: 10px;
+				
+			}
+		}
+	}
+}
 
 
 
