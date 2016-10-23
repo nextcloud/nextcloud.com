@@ -16,7 +16,7 @@
 		<div class="col-md-4 table-column revealOnScroll">
 			<div class="table-header basic revealOnScroll">
 				<h1 class="header revealOnScroll"><?php echo $l->t('Basic');?></h1>
-				<h2 class="header revealOnScroll"><?php echo $l->t('From 1500€/year');?></h2>
+				<h2 class="header revealOnScroll"><?php echo $l->t('From 2000€/year');?></h2>
 			</div>
 			<div class="table-content">
 				<h1 class="header revealOnScroll"><?php echo $l->t('Capabilities');?></h1>
@@ -48,8 +48,8 @@
 				<h1 class="revealOnScroll">Pricing</h1>
 				<div class="line revealOnScroll"></div>
 				<div class="list revealOnScroll">
-					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">50 users: €1500');?></li>
-					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">500 users: €6260');?></li>
+					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">50 users: €2000');?></li>
+					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">100 users: €3500');?></li>
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">Additional pricing tiers of 10.000, 100.000 and 1.000.000 users available');?></li>
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">Framework agreements available');?></li>
 				</div>
@@ -91,8 +91,8 @@
 				<h1 class="revealOnScroll">Pricing</h1>
 				<div class="line revealOnScroll"></div>
 				<div class="list revealOnScroll">
-					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">50 users: €2500');?></li>
-					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">500 users: €14500');?></li>
+					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">50 users: €3500');?></li>
+					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">100 users: €6000');?></li>
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">Additional pricing tiers of 10.000, 100.000 and 1.000.000 users available');?></li>
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">Framework agreements available');?></li>
 				</div>
@@ -134,8 +134,8 @@
 				<h1 class="revealOnScroll">Pricing</h1>
 				<div class="line revealOnScroll"></div>
 				<div class="list revealOnScroll">
-					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market vertical.">50 users: €3250');?></li>
-					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market vertical.">500 users: €21500');?></li>
+					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market vertical.">50 users: €5000');?></li>
+					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market vertical.">100 users: €8250');?></li>
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market vertical.">Additional pricing tiers of 10.000, 100.000 and 1.000.000 users available');?></li>
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">Framework agreements available');?></li>
 				</div>
