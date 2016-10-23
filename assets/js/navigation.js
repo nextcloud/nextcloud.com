@@ -1,30 +1,45 @@
 $(window).load(function() {
     'use strict';
-    var sections = $('.nav__sections')[0];
-    var links = $('.nav__section');
-    var bgWrapper = $('.nav__bg-wrapper')[0];
-    var bg = $('.nav__bg')[0];
-    console.log(sections);
-    var bgBCR = bg.getBoundingClientRect();
-    sections.addEventListener('mouseover', function () {
-        setTimeout(function () {
-            return bg.classList.add('is-animatable');
+    var section = $('.nav__sections');
+    var menus = $('.nav__section');
+    var bgWrapper = $('.nav__bg-wrapper');
+    var bg = $('.nav__bg');
+    
+    section.on('mouseover', function () {
+        setTimeout(function() {
+            bg.addClass('is-animatable');
         });
     });
-    sections.addEventListener('mouseleave', function () {
-        bg.classList.remove('is-animatable');
-    });
-    [].forEach.call(links, function (link) {
-        link.addEventListener('mouseover', function () {
-            bgWrapper.classList.add('is-visible');
-            var links = this.querySelector('.nav__links');
-            var linksBCR = links.getBoundingClientRect();
-            var scaleX = linksBCR.width / bgBCR.width;
-            var scaleY = linksBCR.height / bgBCR.height;
-            bg.style.transform = 'translate(' + linksBCR.left + 'px) scale(' + scaleX + ', ' + scaleY + ')';
+
+    section.on('mouseleave', function () {
+        setTimeout(function() {
+            bg.removeClass('is-animatable');
         });
-        link.addEventListener('mouseleave', function () {
-            bgWrapper.classList.remove('is-visible');
+    });
+
+    $(menus).each(function(index, element) {
+        var menu = $(element);
+        menu.on('mouseover', function () {
+            bgWrapper.addClass('is-visible');
+            var selectedDropdown = menu.find('.nav__links');
+            window.test = menu.find('.nav__links');
+            var cssPadding = 30;
+            var height = selectedDropdown.innerHeight(),
+                width = selectedDropdown.innerWidth(),
+                left = menu.offset().left - cssPadding + menu.innerWidth()/2 - width/2;
+            bg.css({
+                '-moz-transform': 'translateX(' + left + 'px)',
+                '-webkit-transform': 'translateX(' + left + 'px)',
+                '-ms-transform': 'translateX(' + left + 'px)',
+                '-o-transform': 'translateX(' + left + 'px)',
+                'transform': 'translateX(' + left + 'px)',
+                'width': width+'px',
+                'height': height+'px'
+            });
+        });
+
+        menu.on('mouseleave', function () {
+            bgWrapper.removeClass('is-visible');
         });
     });
 });
@@ -37,9 +52,9 @@ $(window).load(function() {
 
 // Older version
 
-// /**
-// * Listen to scroll to change header opacity class
-// */
+/**
+* Listen to scroll to change header opacity class
+*/
 // $(window).load(function() {
    
 //     function checkScroll() {

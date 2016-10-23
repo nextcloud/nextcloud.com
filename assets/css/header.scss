@@ -92,6 +92,8 @@
                 &:hover {
                     .nav__label {
                         opacity: 0.6;
+                        cursor: default;
+                        text-decoration: none;
                     }
 
                     .nav__links {
@@ -110,18 +112,6 @@
                     font-size: 16px;
                 }
 
-                .nav__links--large {
-                    width: 25em;
-                }
-
-                .nav__links--medium {
-                    width: 18.75em;
-                }
-
-                .nav__links--small {
-                    width: 12.5em;
-                }
-
                 .nav__links {
                     position: absolute;
                     top: 100%;
@@ -136,6 +126,7 @@
                     .nav__item {
                         color: #666;
                         margin-top: 15px;
+                        white-space: nowrap;
 
                         a {
                             font-size: 16px;

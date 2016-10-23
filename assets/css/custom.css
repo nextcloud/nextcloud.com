@@ -469,7 +469,9 @@ section#why-nextcloud {
       .nav .container .nav__sections .nav__section {
         position: relative; }
         .nav .container .nav__sections .nav__section:hover .nav__label {
-          opacity: 0.6; }
+          opacity: 0.6;
+          cursor: default;
+          text-decoration: none; }
         .nav .container .nav__sections .nav__section:hover .nav__links {
           visibility: visible;
           opacity: 1; }
@@ -481,12 +483,6 @@ section#why-nextcloud {
           -webkit-transition: 0.3s;
           transition: 0.3s;
           font-size: 16px; }
-        .nav .container .nav__sections .nav__section .nav__links--large {
-          width: 25em; }
-        .nav .container .nav__sections .nav__section .nav__links--medium {
-          width: 18.75em; }
-        .nav .container .nav__sections .nav__section .nav__links--small {
-          width: 12.5em; }
         .nav .container .nav__sections .nav__section .nav__links {
           position: absolute;
           top: 100%;
@@ -499,7 +495,8 @@ section#why-nextcloud {
           list-style-type: none; }
           .nav .container .nav__sections .nav__section .nav__links .nav__item {
             color: #666;
-            margin-top: 15px; }
+            margin-top: 15px;
+            white-space: nowrap; }
             .nav .container .nav__sections .nav__section .nav__links .nav__item a {
               font-size: 16px;
               color: #555555; }
