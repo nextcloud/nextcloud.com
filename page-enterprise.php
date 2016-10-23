@@ -165,8 +165,9 @@
 						<li class="check"><?php echo $l->t('Influence on the roadmap of the open source project');?></li>
 						<li class="check"><?php echo $l->t('Access to the core Nextcloud engineers');?></li>
 						<li class="check"><?php echo $l->t('Access to consulting for custom capabilities');?></li>
+						<li class="check"><?php echo $l->t('Help and advice if you decide to (pay somebody to) develop a custom app or changes');?></li>
 						<li class="check"><?php echo $l->t('Support for branding Nextcloud');?></li>
-						<li class="check"><?php echo $l->t('Full support for integrated video conferencing and communication features based on spreed.me and WebRTC');?></li>
+						<li class="check"><?php echo $l->t('Optional support for integrated video conferencing and communication features based on spreed.me and WebRTC');?></li>
 						<li class="check"><?php echo $l->t('Optional Online Office capabilities which can handle a wide range of industry-standard file formats');?></li>
 					</ul></p>
 					<p><?php echo $l->t('Nextcloud consulting goes beyond technical expertise, offering strategic advice for organizations. We analyze your challenges and help you implement a comprehensive, cost-effective and compliance-aware solution which reduces complexity and risks while delivering the highest security and privacy protection.');?></p>
