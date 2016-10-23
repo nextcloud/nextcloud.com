@@ -12,16 +12,16 @@
 
 <div class="container pricing">
 	<div class="row">
-		<h1 class="header revealOnScroll"><?php echo $l->t('Plans and Pricing');?></h1>
-		<div class="col-md-4 table-column revealOnScroll">
-			<div class="table-header basic revealOnScroll">
-				<h1 class="header revealOnScroll"><?php echo $l->t('Basic');?></h1>
-				<h2 class="header revealOnScroll"><?php echo $l->t('From 2000€/year');?></h2>
+		<h1 class="header"><?php echo $l->t('Plans and Pricing');?></h1>
+		<div class="col-md-4 table-column">
+			<div class="table-header basic">
+				<h1 class="header"><?php echo $l->t('Basic');?></h1>
+				<h2 class="header"><?php echo $l->t('From 2000€/year');?></h2>
 			</div>
 			<div class="table-content">
-				<h1 class="header revealOnScroll"><?php echo $l->t('Capabilities');?></h1>
-				<div class="line revealOnScroll"></div>
-				<div class="list revealOnScroll">
+				<h1 class="header"><?php echo $l->t('Supported Capabilities');?></h1>
+				<div class="line"></div>
+				<div class="list">
 					<li class="check"><?php echo $l->t('<span title="Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.">File sync and share</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Android, iOS and desktop apps, branding possible.">Mobile and desktop clients</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.">Enterprise capabilities</span>');?></li>
@@ -31,9 +31,9 @@
 					<li class="nocheck"><?php echo $l->t('<span title="Allows web conferencing calls to connect with phone lines.">SIP gateway</span>');?></li>
 					<li class="nocheck"><?php echo $l->t('<span title="Real time collaborative editing of often used office fileformats like DOCX, PPTX and more."><a href="/collaboraonline" target="_blank">Collabora Online Office</a></span>');?></li>
 				</div>
-				<h1 class="header revealOnScroll"><?php echo $l->t('Support');?></h1>
-				<div class="line revealOnScroll"></div>
-				<div class="list revealOnScroll">
+				<h1 class="header"><?php echo $l->t('Support');?></h1>
+				<div class="line"></div>
+				<div class="list">
 					<li class="check"><?php echo $l->t('<span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 1 year</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Questions and issues are generally dealt with in this time, depending on the severity of the issue">Production SLA: 3 business days</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team">Portal support</span>');?></li>
@@ -45,26 +45,26 @@
 					<li class="nocheck"><?php echo $l->t('<span title="Fully branded clients and web UI.">Branding support');?></li>
 					<li class="nocheck"><?php echo $l->t('<span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering support</span>');?></li>
 				</div>
-				<h1 class="revealOnScroll">Pricing</h1>
-				<div class="line revealOnScroll"></div>
-				<div class="list revealOnScroll">
+				<h1 class="">Pricing</h1>
+				<div class="line"></div>
+				<div class="list">
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">50 users: €2000');?></li>
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">100 users: €3500');?></li>
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">Additional pricing tiers of 10.000, 100.000 and 1.000.000 users available');?></li>
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">Framework agreements available');?></li>
 				</div>
-				<a class="btn btn-primary btn-lg btn-absolute-icon revealOnScroll" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
+				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
 		</div>
-		<div class="col-md-4 table-column revealOnScroll">
-			<div class="table-header standard revealOnScroll">
-				<h1 class="revealOnScroll"><?php echo $l->t('Standard');?></h1>
-				<h2 class="revealOnScroll"><?php echo $l->t('From 2500€/year');?></h2>
+		<div class="col-md-4 table-column">
+			<div class="table-header standard">
+				<h1 class=""><?php echo $l->t('Standard');?></h1>
+				<h2 class=""><?php echo $l->t('From 2500€/year');?></h2>
 			</div>
 			<div class="table-content">
-				<h1 class="revealOnScroll revealOnScroll"><?php echo $l->t('Capabilities');?></h1>
-				<div class="line revealOnScroll"></div>
-				<div class="list revealOnScroll">
+				<h1 class=""><?php echo $l->t('Capabilities');?></h1>
+				<div class="line"></div>
+				<div class="list">
 					<li class="check"><?php echo $l->t('<span title="Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.">File sync and share</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Android, iOS and desktop apps, branding possible.">Mobile and desktop clients</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.">Enterprise capabilities</span>');?></li>
@@ -74,9 +74,9 @@
 					<li class="optional"><?php echo $l->t('<span title="Allows web conferencing calls to connect with phone lines.">SIP gateway</span>');?></li>
 					<li class="optional"><?php echo $l->t('<span title="Real time collaborative editing of often used office fileformats like DOCX, PPTX and more."><a href="/collaboraonline" target="_blank">Collabora Online Office</a></span>');?></li>
 				</div>
-				<h1 class="revealOnScroll"><?php echo $l->t('Support');?></h1>
-				<div class="line revealOnScroll"></div>
-				<div class="list revealOnScroll">
+				<h1 class=""><?php echo $l->t('Support');?></h1>
+				<div class="line"></div>
+				<div class="list">
 					<li class="check"><?php echo $l->t('<span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 3 years</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Questions and issues are generally dealt with in this time, depending on the severity of the issue">Production SLA: 2 business days</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team">Portal support</span>');?></li>
@@ -88,26 +88,32 @@
 					<li class="nocheck"><?php echo $l->t('<span title="Fully branded clients and web UI.">Branding support');?></li>
 					<li class="nocheck"><?php echo $l->t('<span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering support</span>');?></li>
 				</div>
-				<h1 class="revealOnScroll">Pricing</h1>
-				<div class="line revealOnScroll"></div>
-				<div class="list revealOnScroll">
+				<h1 class="">Pricing</h1>
+				<div class="line"></div>
+				<div class="list">
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">50 users: €3500');?></li>
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">100 users: €6000');?></li>
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">Additional pricing tiers of 10.000, 100.000 and 1.000.000 users available');?></li>
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">Framework agreements available');?></li>
 				</div>
-				<a class="btn btn-primary btn-lg btn-absolute-icon revealOnScroll" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
+				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
 		</div>
-		<div class="col-md-4 table-column highlight revealOnScroll">
-			<div class="table-header premium revealOnScroll">
-				<h1 class="revealOnScroll"><?php echo $l->t('Premium');?></h1>
-				<h2 class="revealOnScroll"><?php echo $l->t('From 3250€/year');?></h2>
+		<div class="col-md-4 table-column highlight">
+			<div class="table-header premium">
+				<h1 class=""><?php echo $l->t('Premium');?></h1>
+				<h2 class=""><?php echo $l->t('From 3250€/year');?></h2>
 			</div>
 			<div class="table-content">
+<<<<<<< HEAD
 				<h1 class="revealOnScroll"><?php echo $l->t('Capabilities');?></h1>
 				<div class="line revealOnScroll"></div>
 				<div class="list revealOnScroll">
+=======
+				<h1 class=""><?php echo $l->t('Supported Capabilities');?></h1>
+				<div class="line"></div>
+				<div class="list">
+>>>>>>> remove reveal on table
 					<li class="check"><?php echo $l->t('<span title="Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.">File sync and share</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Android, iOS and desktop apps, branding possible.">Mobile and desktop clients</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.">Enterprise capabilities</span>');?></li>
@@ -117,9 +123,9 @@
 					<li class="optional"><?php echo $l->t('<span title="Optional: Allows web conferencing calls to connect with phone lines.">SIP gateway</span>');?></li>
 					<li class="optional"><?php echo $l->t('<span title="Optional: Real time collaborative editing of often used office fileformats like DOCX, PPTX and more."><a href="/collaboraonline" target="_blank">Collabora Online Office</a></span>');?></li>
 				</div>
-				<h1 class="revealOnScroll"><?php echo $l->t('Support');?></h1>
-				<div class="line revealOnScroll"></div>
-				<div class="list revealOnScroll">
+				<h1 class=""><?php echo $l->t('Support');?></h1>
+				<div class="line"></div>
+				<div class="list">
 					<li class="check"><?php echo $l->t('<span title="If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.">Maintenance life cycle: 5+5 years</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Questions and issues are generally dealt with in this time, depending on the severity of the issue">Production SLA: 24h or as agreed</span>');?></li>
 					<li class="check"><?php echo $l->t('<span title="Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team">Portal support</span>');?></li>
@@ -131,15 +137,15 @@
 					<li class="check"><?php echo $l->t('<span title="Fully branded clients and web UI.">Branding support');?></li>
 					<li class="check"><?php echo $l->t('<span title="Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.">Clustering</span>');?></li>
 				</div>
-				<h1 class="revealOnScroll">Pricing</h1>
-				<div class="line revealOnScroll"></div>
-				<div class="list revealOnScroll">
+				<h1 class="">Pricing</h1>
+				<div class="line"></div>
+				<div class="list">
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market vertical.">50 users: €5000');?></li>
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market vertical.">100 users: €8250');?></li>
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market vertical.">Additional pricing tiers of 10.000, 100.000 and 1.000.000 users available');?></li>
 					<li class="price"><?php echo $l->t('<span title="Contact us for a quote relevant for your specific market.">Framework agreements available');?></li>
 				</div>
-				<a class="btn btn-primary btn-lg btn-absolute-icon revealOnScroll" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
+				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
 		</div>
 	</div>
