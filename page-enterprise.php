@@ -19,7 +19,7 @@
 				<h2 class="header"><?php echo $l->t('From 2000€/year');?></h2>
 			</div>
 			<div class="table-content">
-				<h1 class="header"><?php echo $l->t('Supported Capabilities');?></h1>
+				<h1 class="header"><?php echo $l->t('Capabilities');?></h1>
 				<div class="line"></div>
 				<div class="list">
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>File sync and share');?></li>
@@ -105,7 +105,7 @@
 				<h2 class=""><?php echo $l->t('From 3250€/year');?></h2>
 			</div>
 			<div class="table-content">
-				<h1 class=""><?php echo $l->t('Supported Capabilities');?></h1>
+				<h1 class=""><?php echo $l->t('Capabilities');?></h1>
 				<div class="line"></div>
 				<div class="list">
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>File sync and share');?></li>
