@@ -127,7 +127,7 @@
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC; ?>" id="client-download-mac" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac<br /><small>OSX 10.9+, 64 bit</small></a>
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX; ?>" id="client-download-linux" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux<br /><small>Source</small></a>
 							<br><br>
-							<p><?php echo $l->t('Looking for the');?> <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>"><?php echo $l->t('Sources</a>? Distributions are building packages.');?></p>
+							<p><?php echo $l->t('Looking for the');?> <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>"><?php echo $l->t('Sources</a>? You can find Nextcloud Desktop client packages included in openSUSE Tumbleweed, Archlinux, Fedora (<a href="https://copr.fedorainfracloud.org/coprs/tpokorra/nextcloud/">on Copr</a>). Ask your distribution for packages or contribute!.');?></p>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
