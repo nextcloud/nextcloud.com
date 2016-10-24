@@ -26,15 +26,17 @@ $(window).load(function() {
             var cssPadding = 30;
             var height = selectedDropdown.innerHeight(),
                 width = selectedDropdown.innerWidth(),
-                left = menu.offset().left - cssPadding + menu.innerWidth()/2 - width/2;
+                left = menu.offset().left + cssPadding + (menu.innerWidth() - cssPadding)/2 - width/2;
+                console.log(selectedDropdown.innerHeight())
+                console.log(menu.offset().left + cssPadding + (menu.innerWidth() - cssPadding)/2)
             bg.css({
                 '-moz-transform': 'translateX(' + left + 'px)',
                 '-webkit-transform': 'translateX(' + left + 'px)',
                 '-ms-transform': 'translateX(' + left + 'px)',
                 '-o-transform': 'translateX(' + left + 'px)',
                 'transform': 'translateX(' + left + 'px)',
-                'width': width+'px',
-                'height': height+'px'
+                'width': width +'px',
+                'height': height +'px'
             });
         });
 
