@@ -23,7 +23,7 @@ Go directly to the latest maintenance release of:
 
 <h5>Bug fixes</h5>
 <ul>
-	<li>Don't print exception message in HTML (<a href="https://github.com/nextcloud/server/pull/1343">server/1343</a>)</li>
+	<li>Don\'t print exception message in HTML (<a href="https://github.com/nextcloud/server/pull/1343">server/1343</a>)</li>
 	<li>Filter more mimetypes for VCF images (<a href="https://github.com/nextcloud/server/pull/1340">server/1340</a>)</li>
 	<li>Make OS X Finder work with WebDAV again (<a href="https://github.com/nextcloud/server/pull/1331">server/1331</a>)</li>
 	<li>Only match for Same-Site Cookie instead of all, makes Nextcloud work with OVH again (<a href="https://github.com/nextcloud/server/pull/1331">server/1331</a>)</li>
@@ -169,19 +169,19 @@ Go directly to the latest maintenance release of:
 	<li>Fix required permissions for webdav move and copy (<a href="https://github.com/nextcloud/server/pull/1321">server/1321</a>)</li>
 	<li>Show an download button instead of the updater (<a href="https://github.com/nextcloud/server/pull/1325">server/1325</a>)</li>
 	<li>Allow to call status.php before the instance is installed (<a href="https://github.com/nextcloud/server/pull/1289">server/1289</a>)</li>
-	<li>Don't print exception message in HTML (<a href="https://github.com/nextcloud/server/pull/1344">server/1344</a>)</li>
+	<li>Don\'t print exception message in HTML (<a href="https://github.com/nextcloud/server/pull/1344">server/1344</a>)</li>
 </ul>
 
 <h4>Updater</h4>
 <h5>Enhancements</h5>
 <ul>
-	<li>A new updater has been added improving the updater experience (https://github.com/nextcloud/updater)
+	<li>A new updater has been added improving the updater experience (https://github.com/nextcloud/updater)</li>
 </ul>
 
 <h4>Activity</h4>
 <h5>Bug fixes</h5>
 <ul>
-	<li>Make sure an empty file name doesn't break the stream (<a href="https://github.com/nextcloud/activity/pull/8">activity/8</a>)</li>
+	<li>Make sure an empty file name doesn\'t break the stream (<a href="https://github.com/nextcloud/activity/pull/8">activity/8</a>)</li>
 	<li>Fix broken avatar of remote users in sidebar (<a href="https://github.com/nextcloud/activity/pull/17">activity/17</a>)</li>
 	<li>Use the last known user instead of erroring (<a href="https://github.com/nextcloud/activity/pull/24">activity/24</a>)</li>
 </ul>

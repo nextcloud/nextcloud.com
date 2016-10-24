@@ -5,17 +5,17 @@
 		</select>
 	</div>
 	<div class="col-md-7 col-md-offset-1">
-		<input type="checkbox" id="FreePlans"> Show only free plans<br>
+		<input type="checkbox" id="FreePlans"> <?php echo $l->t('Show only free plans');?><br>
 <!-- 		<input type="checkbox" id="certified"> Show only Certified Partners<br> -->
-		<input type="radio" id="hostingboth" name="hosting" value="both" checked> Both<br>
-		<input type="radio" id="hostingconsumer" name="hosting" value="consumer"> Consumers<br>
-		<input type="radio" id="hostingorganization" name="hosting" value="organization"> Organization<br>
+		<input type="radio" id="hostingboth" name="hosting" value="both" checked> <?php echo $l->t('Both');?><br>
+		<input type="radio" id="hostingconsumer" name="hosting" value="consumer"> <?php echo $l->t('Consumers');?><br>
+		<input type="radio" id="hostingorganization" name="hosting" value="organization"> <?php echo $l->t('Organization');?><br>
 	</div>
 </div>
 
 <div id="providers" class="row">
 </div>
-<div class="alert alert-info">If you offer Nextcloud Server account hosting, you can be <a href="/providers/apply">listed on this page</a>. If you want to report an abuse by one of the providers listed above, you can send us an email to abuse@nextcloud.com.</div>
+<div class="alert alert-info"><?php echo $l->t('If you offer Nextcloud Server account hosting, you can be <a href="/providers/apply">listed on this page</a>. If you want to report an abuse by one of the providers listed above, you can send us an email to abuse@nextcloud.com.');?></div>
 
 <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
 <script type="text/javascript">

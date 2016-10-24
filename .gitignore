@@ -3,3 +3,4 @@ config.php
 .directory
 *.kdev4
 node_modules/
+l10n/
