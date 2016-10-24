@@ -42,7 +42,7 @@
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/andreas.jpg" />
 			<h2 class="teamname">Andreas Rode</h2>
 			<div class="teammeta">
-				<h3 class="teamtitle">Sales Director</h3>
+				<h3 class="teamtitle">Head of Sales</h3>
 				<h4 class="teamexpertise">Sales and Partnerships</h4>
 				<h4 class="teamlocation">lives in Hannover, Germany</h4>
 				<p class="teamsocial"><!--<a href="https://www.schilljs.com/"><i class="icon-rss icon"></i></a>--> <!--<a href="https://github.com/nickvergessen"><i class="icon-github icon"></i></a>--> <!--<a href="https://twitter.com/nickvergessen"><i class="icon-twitter icon"></i></a>--> &nbsp; </p>
@@ -73,7 +73,7 @@
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 				<p class="teamsocial"><!--<a href="https://www.schilljs.com/"><i class="icon-rss icon"></i></a>--> <!--<a href="https://github.com/nickvergessen"><i class="icon-github icon"></i></a>--> <!--<a href="https://twitter.com/nickvergessen"><i class="icon-twitter icon"></i></a>--> &nbsp; </p>
 			</div>
-			<p class="teamdescription">Patrick was co-founder of struktur AG in 2000 and serves as COO of the company, responsible for sales and finance. Prior to founding Struktur he held several sales and marketing positions at IBM and Oracle, adding up to more than two decades of experience in the IT industry.</p>
+			<p class="teamdescription">Patrick was co-founder of struktur AG in 2000, responsible for sales and finance. He held several sales and marketing positions at IBM and Oracle, adding up to more than two decades of experience in the IT industry.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
@@ -81,7 +81,7 @@
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jos.jpg" />
 			<h2 class="teamname">Jos Poortvliet</h2>
 			<div class="teammeta">
-				<h3 class="teamtitle">Marketing Manager</h3>
+				<h3 class="teamtitle">Head of Marketing</h3>
 				<h4 class="teamexpertise">Marketing and communication</h4>
 				<h4 class="teamlocation">lives in Berlin, Germany</h4>
 				<p class="teamsocial"><a href="http://blog.jospoortvliet.com/"><i class="icon-rss icon"></i></a> <a href="https://github.com/jospoortvliet"><i class="icon-github icon"></i></a> <a href="https://twitter.com/jospoortvliet"><i class="icon-twitter icon"></i></a> </p>
@@ -99,7 +99,7 @@
 				<h4 class="teamlocation">lives in St. Gallen, Switzerland</h4>
 				<p class="teamsocial"><a href="https://statuscode.ch/"><i class="icon-rss icon"></i></a> <a href="https://github.com/LukasReschke"><i class="icon-github icon"></i></a> <a href="https://twitter.com/LukasReschke"><i class="icon-twitter icon"></i></a> </p>
 			</div>
-			<p class="teamdescription">Lukas has been contributing to the project since 2012, and is responsible for many of the security hardenings in the code. He has worked as security assessment and forensic investigator, reviewing security, giving trainings and dealing with breaches at Fortune 500 companies and several of the largest Swiss financial institutes.</p>
+			<p class="teamdescription">Lukas has been contributing to Nextcloud code since 2012, and is responsible for many of the security hardenings in the code. He has worked as security assessment and forensic investigator, reviewing security, giving trainings and dealing with breaches at Fortune 500 companies and several of the largest Swiss financial institutes.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
@@ -203,7 +203,7 @@
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 				<p class="teamsocial"><!--<a href="https://www.stdin.xyz/"><i class="icon-rss icon"></i></a>--> <a href="https://github.com/Ivansss"><i class="icon-github icon"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="icon-twitter icon"></i></a>--> </p>
 			</div>
-			<p class="teamdescription">Ivan graduated as CS engineer from the University of the Basque Country and has been at Struktur AG since 2013 developing the Spreed.ME iOS app and more. He joined Nextcloud in July 2016, working on the monitoring app and iOS.</p>
+			<p class="teamdescription">Ivan graduated as CS engineer from the University of the Basque Country and has been developing the Spreed.ME iOS app since 2013. He has also been working on server monitoring and iOS support.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
@@ -242,7 +242,7 @@
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 				<p class="teamsocial"><a href="https://github.com/leonklingele"><i class="icon-github icon"></i></a> </p>
 			</div>
-			<p class="teamdescription">Leon has been working for struktur AG since 2011. He is currently doing his Bachelor of Science at Media University, Stuttgart. His primary tasks lie in the development of the Spreedbox and Spreed.ME software components.</p>
+			<p class="teamdescription">Leon is currently doing his Bachelor of Science at Media University, Stuttgart. His primary tasks lie in the development of the Spreedbox and Spreed.ME software components.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
@@ -294,7 +294,7 @@
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 				<p class="teamsocial"><a href="https://www.stdin.xyz/"><i class="icon-rss icon"></i></a> <a href="https://github.com/longsleep"><i class="icon-github icon"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="icon-twitter icon"></i></a>--> </p>
 			</div>
-			<p class="teamdescription">Simon has been working at struktur AG since 2001 and is Director of Development, handling technical project management and coding. He spearheads the backend and frontend services development and defines the system architecture and infrastructure. He has extensive WebRTC, AngularJS, Go and Python experience.</p>
+			<p class="teamdescription">Simon handles technical project management and coding. He spearheads the backend and frontend services development and defines the system architecture and infrastructure for the Spreedbox. He has extensive WebRTC, AngularJS, Go and Python experience.</p>
 		</div>
 	</div>
 </div>
