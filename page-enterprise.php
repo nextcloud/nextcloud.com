@@ -183,16 +183,17 @@
 					<p><?php echo $l->t('Your Nextcloud subscription enables you to successfully deploy and manage your servers. Our open approach gives you direct access to Nextcloud engineers, the latest knowledge and best practices. We provide technical expertise, guidance and collaboration with phone and chat contact. Pro-active security support helps you identify and address vulnerabilities and harden your servers to protect the safety and integrity of your data.');?></p>
 					<p><?php echo $l->t('With the Nextcloud Enterprise subscription you get:');?></p>
 					<ul class="list">
-						<li class="check overinfo"><?php echo $l->t('Full lifecycle support with multi-year security and stability fixes');?></li>
-						<li class="check overinfo"><?php echo $l->t('Technical expertise and help covering project inception to production and user growth');?></li>
-						<li class="check overinfo"><?php echo $l->t('Help to scale your Nextcloud installation to large amounts of storage and large numbers of users');?></li>
-						<li class="check overinfo"><?php echo $l->t('Security and hardening consulting');?></li>
-						<li class="check overinfo"><?php echo $l->t('Influence on the roadmap of the open source project');?></li>
-						<li class="check overinfo"><?php echo $l->t('Access to the core Nextcloud engineers');?></li>
-						<li class="check overinfo"><?php echo $l->t('Access to consulting for custom capabilities');?></li>
-						<li class="check overinfo"><?php echo $l->t('Support for branding Nextcloud');?></li>
-						<li class="check overinfo"><?php echo $l->t('Full support for integrated video conferencing and communication features based on spreed.me and WebRTC');?></li>
-						<li class="check overinfo"><?php echo $l->t('Optional Online Office capabilities which can handle a wide range of industry-standard file formats');?></li>
+						<li class="check"><?php echo $l->t('Full lifecycle support with multi-year security and stability fixes');?></li>
+						<li class="check"><?php echo $l->t('Technical expertise and help covering project inception to production and user growth');?></li>
+						<li class="check"><?php echo $l->t('Help to scale your Nextcloud installation to large amounts of storage and large numbers of users');?></li>
+						<li class="check"><?php echo $l->t('Security and hardening consulting');?></li>
+						<li class="check"><?php echo $l->t('Influence on the roadmap of the open source project');?></li>
+						<li class="check"><?php echo $l->t('Access to the core Nextcloud engineers');?></li>
+						<li class="check"><?php echo $l->t('Access to consulting for custom capabilities');?></li>
+						<li class="check"><?php echo $l->t('Help and advice if you decide to (pay somebody to) develop a custom app or changes');?></li>
+						<li class="check"><?php echo $l->t('Support for branding Nextcloud');?></li>
+						<li class="check"><?php echo $l->t('Optional support for integrated video conferencing and communication features based on spreed.me and WebRTC');?></li>
+						<li class="check"><?php echo $l->t('Optional Online Office capabilities which can handle a wide range of industry-standard file formats');?></li>
 					</ul></p>
 					<p><?php echo $l->t('Nextcloud consulting goes beyond technical expertise, offering strategic advice for organizations. We analyze your challenges and help you implement a comprehensive, cost-effective and compliance-aware solution which reduces complexity and risks while delivering the highest security and privacy protection.');?></p>
 				</div>
