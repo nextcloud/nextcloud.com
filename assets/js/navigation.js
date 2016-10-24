@@ -4,6 +4,8 @@ $(window).load(function() {
     var menus = $('.nav__section');
     var bgWrapper = $('.nav__bg-wrapper');
     var bg = $('.nav__bg');
+
+    console.log(bg.offset().left + ' posição do background')
     
     section.on('mouseover', function () {
         setTimeout(function() {
@@ -23,27 +25,37 @@ $(window).load(function() {
             bgWrapper.addClass('is-visible');
             var selectedDropdown = menu.find('.nav__links');
             window.test = menu.find('.nav__links');
+            
+            var formattedBord = $('.container').outerWidth() - $('.container').innerWidth();
+            var formattedPadd = $('.container').innerWidth() - $('.container').width();
+            var formattedMarg = $('.container').outerWidth(true) - $('.container').outerWidth();
+
             var cssPadding = 30;
             var height = selectedDropdown.innerHeight(),
                 width = selectedDropdown.innerWidth(),
-                left = menu.offset().left + cssPadding + (menu.innerWidth() - cssPadding)/2 - width/2;
-                console.log(selectedDropdown.innerHeight())
-                console.log(menu.offset().left + cssPadding + (menu.innerWidth() - cssPadding)/2)
+                left = menu.offset().left + cssPadding + (menu.innerWidth() - cssPadding)/2 ;
+                console.log(left + " Soma do valor inical mais metade do elemento")
+                console.log(formattedMarg/2 + " Margem container")
+                console.log(bg.offset().left + ' posição do background')
+                
+            var centerLabel = left - (formattedMarg/2) - menu.innerWidth() ;
+            // console.log(left)
+            
             bg.css({
-                '-moz-transform': 'translateX(' + left + 'px)',
-                '-webkit-transform': 'translateX(' + left + 'px)',
-                '-ms-transform': 'translateX(' + left + 'px)',
-                '-o-transform': 'translateX(' + left + 'px)',
-                'transform': 'translateX(' + left + 'px)',
+                '-moz-transform': 'translateX(' + centerLabel + 'px)',
+                '-webkit-transform': 'translateX(' + centerLabel + 'px)',
+                '-ms-transform': 'translateX(' + centerLabel + 'px)',
+                '-o-transform': 'translateX(' + centerLabel + 'px)',
+                'transform': 'translateX(' + centerLabel + 'px)',
                 'width': width +'px',
                 'height': height +'px'
             });
-        });
-
+        })
         menu.on('mouseleave', function () {
             bgWrapper.removeClass('is-visible');
         });
     });
+    // console.log(bg.offset().left + ' posição do background')
 });
 
 

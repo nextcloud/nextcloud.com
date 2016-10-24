@@ -405,9 +405,11 @@ section#why-nextcloud {
   top: 20px;
   position: absolute;
   left: 0;
-  right: 0; }
+  right: 0;
+  border: 1px solid red; }
   .nav .container {
-    position: relative; }
+    position: relative;
+    border: 1px solid red; }
     .nav .container .brand {
       position: absolute;
       top: 0;
@@ -467,7 +469,8 @@ section#why-nextcloud {
       list-style-type: none;
       margin-top: 13px; }
       .nav .container .nav__sections .nav__section {
-        position: relative; }
+        position: relative;
+        border: 1px solid red; }
         .nav .container .nav__sections .nav__section:hover .nav__label {
           opacity: 0.6;
           cursor: default;

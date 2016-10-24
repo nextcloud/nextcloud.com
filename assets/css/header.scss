@@ -7,9 +7,11 @@
     position: absolute;
     left: 0;
     right: 0;
+    border: 1px solid red;
 
     .container {
         position: relative; //this breaks the bg position
+        border: 1px solid red;
 
         .brand {
             position: absolute;
@@ -88,6 +90,7 @@
         
             .nav__section {
                 position: relative;
+                border: 1px solid red;
 
                 &:hover {
                     .nav__label {
