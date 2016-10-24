@@ -36,7 +36,7 @@
 				<div class="list">
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.</div>Maintenance life cycle: 1 year');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Questions and issues are generally dealt with in this time, depending on the severity of the issue.</div>Production SLA: 3 business days');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team">Portal support.');?></li>
+					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.</div>Portal support.');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">We help you migrate from ownCloud to Nextcloud.</div><a href="/migration">ownCloud migration support</a>');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">You can contact our capable and responsive support team by email and expect a quick response time.</div>Email support');?></li>
 					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">You can contact our support engineers by phone in these times.</div>Phone support');?></li>
