@@ -19,7 +19,7 @@
 				<h2 class="header"><?php echo $l->t('From 2000€/year');?></h2>
 			</div>
 			<div class="table-content">
-				<h1 class="header"><?php echo $l->t('Capabilities');?></h1>
+				<h1 class="header"><?php echo $l->t('Features');?></h1>
 				<div class="line"></div>
 				<div class="list">
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>File sync and share');?></li>
@@ -43,13 +43,13 @@
 					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">If you need access to experienced engineers to built custom solutions for your unique needs.</div>Custom consulting');?></li>
 					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Our engineers walk you through the installation process where needed.</div>Remote installation support');?></li>
 					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Fully branded clients and web UI.</div>Branding support');?></li>
-					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.</div>Clustering support');?></li>
+					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.</div>Clustering support support');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>50 users: €2000');?></li>
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>100 users: €3500');?></li>
+					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>50 users: €1900');?></li>
+					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>100 users: €3400');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Additional pricing tiers of 10.000, 100.000 and 1.000.000 users available');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Framework agreements available');?></li>
 				</div>
@@ -62,7 +62,7 @@
 				<h2 class=""><?php echo $l->t('From 2500€/year');?></h2>
 			</div>
 			<div class="table-content">
-				<h1 class=""><?php echo $l->t('Capabilities');?></h1>
+				<h1 class=""><?php echo $l->t('Features');?></h1>
 				<div class="line"></div>
 				<div class="list">
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>File sync and share');?></li>
@@ -86,13 +86,13 @@
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">If you need access to experienced engineers to built custom solutions for your unique needs.</div>Custom consulting');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Our engineers walk you through the installation process where needed.</div>Remote installation support');?></li>
 					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Fully branded clients and web UI.</div>Branding support');?></li>
-					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.</div>Clustering support');?></li>
+					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.</div>Clustering support support');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>50 users: €3500');?></li>
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>100 users: €6000');?></li>
+					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>50 users: €3400');?></li>
+					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>100 users: €6100');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Additional pricing tiers of 10.000, 100.000 and 1.000.000 users available');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Framework agreements available');?></li>
 				</div>
@@ -105,7 +105,7 @@
 				<h2 class=""><?php echo $l->t('From 3250€/year');?></h2>
 			</div>
 			<div class="table-content">
-				<h1 class=""><?php echo $l->t('Capabilities');?></h1>
+				<h1 class=""><?php echo $l->t('Features');?></h1>
 				<div class="line"></div>
 				<div class="list">
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>File sync and share');?></li>
@@ -129,13 +129,13 @@
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">If you need access to experienced engineers to built custom solutions for your unique needs.</div>Custom consulting');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Our engineers walk you through the installation process where needed.</div>Remote installation support');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Fully branded clients and web UI.</div>Branding support');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.</div>Clustering');?></li>
+					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.</div>Clustering support');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market vertical.</div>50 users: €5000');?></li>
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market vertical.</div>100 users: €8250');?></li>
+					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market vertical.</div>50 users: €4900');?></li>
+					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market vertical.</div>100 users: €8900');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market vertical.</div>Additional pricing tiers of 10.000, 100.000 and 1.000.000 users available');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Framework agreements available');?></li>
 				</div>
