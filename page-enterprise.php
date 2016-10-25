@@ -50,7 +50,7 @@
 				<div class="list">
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>50 users: €1900');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>100 users: €3400');?></li>
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Additional pricing tiers of 10.000, 100.000 and 1.000.000 users available');?></li>
+					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Additional pricing tiers are available up to 10 million');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Framework agreements available');?></li>
 				</div>
 				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
@@ -93,7 +93,7 @@
 				<div class="list">
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>50 users: €3400');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>100 users: €6100');?></li>
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Additional pricing tiers of 10.000, 100.000 and 1.000.000 users available');?></li>
+					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Additional pricing tiers are available up to 10 million');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Framework agreements available');?></li>
 				</div>
 				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
@@ -136,7 +136,7 @@
 				<div class="list">
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market vertical.</div>50 users: €4900');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market vertical.</div>100 users: €8900');?></li>
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market vertical.</div>Additional pricing tiers of 10.000, 100.000 and 1.000.000 users available');?></li>
+					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market vertical.</div>Additional pricing tiers are available up to 10 million');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Framework agreements available');?></li>
 				</div>
 				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
