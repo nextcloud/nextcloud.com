@@ -1,6 +1,6 @@
 <?php get_template_part( 'templates/parts/title');?>
 <div class="sub-nav">
-	<a href="/contributors"><?php echo $l->t('Nextcloud Community');?></a><!--&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/team">Nextcloud GmbH team</a>-->
+	<a href="/contributors"><?php echo $l->t('Nextcloud Community');?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/team"><?php echo $l->t('Nextcloud GmbH team</a>');?>
 </div>
 
 <p><?php echo $l->t('You should have full control over your data. We help you achieve that: a safe home for all your data. Secure, under your control and developed in an open, transparent and trustworthy way. <strong>We are Nextcloud</strong>.');?></p>
