@@ -7,11 +7,9 @@
     position: absolute;
     left: 0;
     right: 0;
-    border: 1px solid red;
 
     .container {
         position: relative; //this breaks the bg position
-        border: 1px solid red;
 
         .brand {
             position: absolute;
@@ -43,8 +41,8 @@
                 }
 
             .nav__bg {
-                width: 300px;
-                height: 200px;
+                width: 1px;
+                height: 1px;
                 background: white;
                 box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.11);
                 border: solid 1px #f3f3f3;
@@ -90,7 +88,6 @@
         
             .nav__section {
                 position: relative;
-                border: 1px solid red;
 
                 &:hover {
                     .nav__label {
@@ -168,111 +165,43 @@
 }
 
 
+//Navigation breaked
 
+@media (max-width: 992px) {
 
+    .nav { 
 
-// .global-nav {
-//     z-index: 1;
-//     top: 10px;
-//     position: absolute;
-//     left: 0;
-//     right: 0;
-//     .container {
+        .container {
 
-//         .nav-wrapper {
-//             position:relative;
+            button{
+                color: white;
+                background-color: white;
+                border-radius: 50px;
+                width: 50px;
+                height: 50px;
+                margin-top: 0;
+                z-index: 3;
 
-//             .brand {
-//                 position: absolute;
-//                 top: 0;
-//                 left: 0;
+                &:hover {
+                    transform: scale(1.1);
+                    transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
+                    transition-property: transform;
+                    transition-duration: 0.3s;
+                    transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
+                    transition-delay: initial;
+                }
+            }
 
+            .nav__sections {
+                display: none;
+            }
             
-//                 .logo {
-//                     background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
-//                     height: 50px;
-//                     width: 71px;
-//                     display: inline-block;
-//                 }    
-//             }
-
-//         .center-nav {
-//                 display: flex;
-//                 -webkit-box-pack: center;
-//                 -webkit-justify-content: center;
-//                 -ms-flex-pack: center;
-//                 justify-content: center;
-
-//                 ul {
-//                     li {
-//                         display: inline-block;
-//                         padding: 0 20px;
-
-//                         a {
-//                             color: white;
-//                             font-size: 16px;
-//                             line-height: 55px;
-
-
-//                         }
-//                     }
-//                 }
-
-//                 &.is-dropdown-visible .main-nav > ul > li {
-// > a {
-// /* main navigation hover effect - on hover, reduce opacity of elements not hovered over */
-// opacity: .6;
-// }
-
-// &.active > a {
-// opacity: 1;
-
-//                     }
-//                 }
-//             }
-//         }
-
-//         .right-nav {
-//             position: absolute;
-//             top: 0;
-//             right: 0;
-//             display: flex;
-
-//             ul {
-//                 li{
-//                     display: inline-block;
-//                     padding: 0 20px;
-
-//                     a {
-//                         color: white;
-//                         font-size: 16px;
-//                         line-height: 55px;
-//                     }
-//                 }
-//             }
-//         }
-
-//         .morph-dropdown-wrapper {
-//             display: none;
-//             position: absolute;
-//             top: 60px;
-//             left: 0;
-//             width: 100%;
-//             padding: 1.2em 5%;
-//             box-shadow: inset 0 1px 0 #e6e6e6;
-//             background-color: #FFFFFF;
-//           }
-          
-//           &.nav-open .morph-dropdown-wrapper {
-//             display: block;
-          
-//         }
-//     }
-// }
-
-
-
-
+            .right-buttons {
+                display: none;
+            }
+        }
+    }
+}
 
 
 
@@ -621,55 +550,55 @@
 // }
 
 
-// /**
-// *Changed default media querys for navigation in bootstrap
-// */
-// @media (max-width: 1200px) {
-//     .navbar-header {
-//         float: none;
-//     }
-//     .navbar-left,.navbar-right {
-//         float: none !important;
-//     }
-//     .navbar-toggle {
-//         display: block;
-//     }
-//     .navbar-collapse {
-//         border-top: 1px solid transparent;
-//         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-//     }
-//     .navbar-fixed-top {
-//         top: 0;
-//         border-width: 0 0 1px;
-//     }
-//     .navbar-collapse.collapse {
-//         display: none!important;
-//     }
-//     .navbar-nav {
-//         float: none!important;
-//         margin-top: 7.5px;
-//     }
-//     .navbar-nav>li {
-//         float: none;
-//     }
-//     .navbar-nav>li>a {
-//         padding-top: 10px;
-//         padding-bottom: 10px;
-//     }
-//     .collapse.in{
-//         display:block !important;
-//     }
-//     .navbar-nav .open .dropdown-menu {
-//         position: static;
-//         float: none;
-//         width: auto;
-//         margin-top: 0;
-//         background-color: transparent;
-//         border: 0;
-//         -webkit-box-shadow: none;
-//         box-shadow: none;
-//     }
-// }
+/**
+*Changed default media querys for navigation in bootstrap
+*/
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}
 
 // /**
 // *Mobile

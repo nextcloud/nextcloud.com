@@ -9,9 +9,13 @@
 			<div class="logo"></div>
 		</div>
 
+		<button type="button" class="navbar-toggle collapsed" id="toggle">
+			<div class="menu-animation" data-animation-path="img/menu/black/" data-anim-loop="false" data-name="menu-black" id="menu-black"</div>
+		</button>
+
 		<ul class="nav__sections">
 			<li class="nav__section"><a href="#0" class="nav__label">About us</a>
-				<ul class="nav__links nav__links--large">
+				<ul class="nav__links">
 					<li class="nav__item"><a href="#0">Who we are</a></li>
 					<li class="nav__item"><a href="#0">Community</a></li>
 					<li class="nav__item"><a href="#0">Team</a></li>
@@ -21,14 +25,14 @@
 			</li>
 
 			<li class="nav__section"><a href="#0" class="nav__label">News</a>
-				<ul class="nav__links nav__links--small">
+				<ul class="nav__links">
 					<li class="nav__item"><a href="#0">Blog</a></li>
 					<li class="nav__item"><a href="#0">Newsletter</a></li>
 				</ul>
 			</li>
 
 			<li class="nav__section"><a href="#0" class="nav__label">Features</a>
-				<ul class="nav__links nav__links--medium">
+				<ul class="nav__links ">
 					<li class="nav__item"><a href="#0">Sharing</a></li>
 					<li class="nav__item"><a href="#0">Workflow</a></li>
 					<li class="nav__item"><a href="#0">Secure</a></li>
@@ -38,7 +42,7 @@
 			</li>
 
 			<li class="nav__section"><a href="#0" class="nav__label">Enterprise</a>
-				<ul class="nav__links nav__links--medium">
+				<ul class="nav__links">
 					<li class="nav__item"><a href="#0">Enterprise</a></li>
 					<li class="nav__item"><a href="#0">Subscripitions</a></li>
 					<li class="nav__item"><a href="#0">Pricing</a></li>
@@ -46,7 +50,7 @@
 			</li>
 
 			<li class="nav__section"><a href="#0" class="nav__label">Support</a>
-				<ul class="nav__links nav__links--medium">
+				<ul class="nav__links">
 					<li class="nav__item"><a href="#0">Support options</a></li>
 					<li class="nav__item"><a href="#0">User Documentation</a></li>
 					<li class="nav__item"><a href="#0">Administrator</a></li>

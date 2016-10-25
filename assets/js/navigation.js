@@ -34,9 +34,9 @@ $(window).load(function() {
             var height = selectedDropdown.innerHeight(),
                 width = selectedDropdown.innerWidth(),
                 left = menu.offset().left + cssPadding + (menu.innerWidth() - cssPadding)/2 ;
-                console.log(left + " Soma do valor inical mais metade do elemento")
-                console.log(formattedMarg/2 + " Margem container")
-                console.log(bg.offset().left + ' posição do background')
+                console.log(left + " Inital value of the element + half of the element")
+                console.log(formattedMarg/2 + " Margin container")
+                console.log(bg.offset().left + ' Background position')
                 
             var centerLabel = left - (formattedMarg/2) - menu.innerWidth() ;
             // console.log(left)
@@ -55,7 +55,74 @@ $(window).load(function() {
             bgWrapper.removeClass('is-visible');
         });
     });
-    // console.log(bg.offset().left + ' posição do background')
+
+    
+    /**
+    * Listen to scroll to change header opacity class
+    */
+    function checkScroll() {
+    var bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+      if (bodyScrollTop !== 0) {
+            $('.nav').addClass('scrolled');
+        } else {
+            $('.nav').removeClass('scrolled');
+        }
+    }
+
+    if ($('.navbar').length > 0) {
+        $(window).on('scroll load resize', function () {
+            checkScroll();
+        });
+    }
+});
+
+
+//Bodymovin menu Animation
+$(document).ready(function() {
+    var menuAnimation;
+    var menuOpened = false;
+
+    
+    // Prevent scrolling if menu is opened
+    $('html').on('scroll touchmove mousewheel', function(e) {
+        if(menuOpened) {
+            e.preventDefault();
+            e.stopPropagation();
+            return false;
+        }
+    });
+
+    var animContainer = document.querySelectorAll('.container button')[0];
+    var params = {
+        container: animContainer,
+        renderer: 'svg',
+        loop: false,
+        autoplay: false,
+        autoloadSegments: true,
+        path: templateUrl + '/assets/img/menu/data.json'
+    };
+    menuAnimation = bodymovin.loadAnimation(params);
+    menuAnimation.stop();
+
+    $('.container button').click(function () {
+        if(menuOpened) {
+            menuAnimation.setDirection(-1);
+        } else {
+            menuAnimation.setDirection(0);
+        }
+        menuAnimation.play();
+        menuOpened = !menuOpened;
+    });
+
+    
+    /**
+    * Mobile fullscreen trigger
+    */
+    $('#toggle').click(function() {
+        $(this).toggleClass('active');
+        $('#overlay').toggleClass('open');
+        $('.navbar').toggleClass('mobile-menu-open');
+    });
 });
 
 
@@ -152,7 +219,7 @@ $(window).load(function() {
 //         }
 //     });
 
-//     var animContainer = document.querySelectorAll('.navbar-header button')[0];
+//     var animContainer = document.querySelectorAll('.container button')[0];
 //     var params = {
 //         container: animContainer,
 //         renderer: 'svg',
@@ -173,6 +240,7 @@ $(window).load(function() {
 //         menuAnimation.play();
 //         menuOpened = !menuOpened;
 //     });
+// });
 	
 // 	// Fade In animation 
 // 	$(".navbar-header").velocity('transition.fadeIn', 1000 );
