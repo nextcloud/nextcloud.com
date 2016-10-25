@@ -21,7 +21,7 @@
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 				<p class="teamsocial"><a href="https://karlitschek.de/"><i class="icon-rss icon"></i></a> <a href="https://github.com/karlitschek"><i class="icon-github icon"></i></a> <a href="https://twitter.com/fkarlitschek"><i class="icon-twitter icon"></i></a> </p>
 			</div>
-			<p class="teamdescription">Frank founded the ownCloud project in 2010 to put people back in control of their data. To improve the company-community balance and accelerate the project he founded Nextcloud in 2016 and has been tirelessly working to realize his vision ever since.</p>
+			<p class="teamdescription">Frank founded the ownCloud project in 2010 to put home users and enterprises back in control of their data. To improve the company-community balance and accelerate the project he founded Nextcloud in 2016 and has been tirelessly working to realize his vision ever since.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
