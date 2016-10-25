@@ -16,7 +16,7 @@
 		<div class="col-md-4 table-column">
 			<div class="table-header basic">
 				<h1 class="header"><?php echo $l->t('Basic');?></h1>
-				<h2 class="header"><?php echo $l->t('From 2000€/year');?></h2>
+				<h2 class="header"><?php echo $l->t('From 1900€/year');?></h2>
 			</div>
 			<div class="table-content">
 				<h1 class="header"><?php echo $l->t('Features');?></h1>
@@ -59,7 +59,7 @@
 		<div class="col-md-4 table-column">
 			<div class="table-header standard">
 				<h1 class=""><?php echo $l->t('Standard');?></h1>
-				<h2 class=""><?php echo $l->t('From 2500€/year');?></h2>
+				<h2 class=""><?php echo $l->t('From 3400€/year');?></h2>
 			</div>
 			<div class="table-content">
 				<h1 class=""><?php echo $l->t('Features');?></h1>
@@ -102,7 +102,7 @@
 		<div class="col-md-4 table-column highlight">
 			<div class="table-header premium">
 				<h1 class=""><?php echo $l->t('Premium');?></h1>
-				<h2 class=""><?php echo $l->t('From 3250€/year');?></h2>
+				<h2 class=""><?php echo $l->t('From 4900€/year');?></h2>
 			</div>
 			<div class="table-content">
 				<h1 class=""><?php echo $l->t('Features');?></h1>
