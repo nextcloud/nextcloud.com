@@ -5,7 +5,7 @@
 </div>
 <p><?php echo $l->t('We\'re very excited to provide a solution for Online Office for the entire Nextcloud community through our <a target="_blank" href="https://nextcloud.com/?p=589">partnership with Collabora</a>. Together we are making available the latest and greatest of Online Office in an <strong>easy to use <a href="https://hub.docker.com/r/collabora/code">docker image</a> for home users</strong>.');?></p>
 <p><?php echo $l->t('Enterprise users who need a more reliable and scalable solution can take advantage of our <a href="/enterprise">support contract for Nextcloud and Collabora Online</a>.');?></p>
-
+<p><?php echo $l->t('If you\'re looking for instructions to update to a new version, <a href="#update">see here.</a>');?></p>
 <div class="row featurerow topfeature">
 	<div class="col-md-7">
 		<h2><?php echo $l->t('Collabora Online');?></h2>
@@ -163,6 +163,7 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --re
   ProxyPassReverse    /lool https://127.0.0.1:9980/lool
 &lt;/VirtualHost&gt;
 </code></pre></p>
+<a name="update"></a>
 <p><?php echo $l->t('After configuring these do restart your apache using <code>/etc/init.d/apache2 restart</code>.');?></p>
 <h3><?php echo $l->t('3. Configure the app in Nextcloud');?></h3>
 <ol>
@@ -171,6 +172,7 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --re
  	<li><?php echo $l->t('Admin -&gt; Collabora Online -&gt; Specify the server you have setup before (e.g. "<a href="https://office.nextcloud.com/">https://office.nextcloud.com</a>")');?></li>
 </ol>
 <h1><?php echo $l->t('Congratulations, your Nextcloud has Collabora Online Office integrated!');?></h1>
+
 
 <h2><?php echo $l->t('Updating');?></h2>
 <p><?php echo $l->t('Occasionally, new versions of this docker image are released with security and feature updates. We will of course let you know when that happens! This is how you upgrade to a new version:');?></p>
