@@ -103,7 +103,7 @@
 				</div>
 	</div>
 <!-- </div> -->
-<!--  Mask instructions server -->	
+<!--  Mask instructions server -->
 <a href="#" class="mask"></a>
 </div>
 
@@ -128,6 +128,10 @@
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX; ?>" id="client-download-linux" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux<br /><small>Source</small></a>
 							<br><br>
 							<p><?php echo $l->t('Looking for the');?> <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>"><?php echo $l->t('Sources</a>? Distributions are building packages.');?></p>
+              <p><?php echo $l->t('Nextcloud is using WebDAV, so you can also try out any other client you want!');?></p>
+              <p><?php echo $l->t('Compatible third party clients include:');?></p>
+              <ul>
+                <li><a href="https://crosscloud.me">CrossCloud</a> <?php echo $l->t('a multi-cloud access client');?></li>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
@@ -152,19 +156,17 @@
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID; ?>">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a><br /><a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><?php echo $l->t('Beta client');?></a>
 								</div>
+                <p><a href="https://github.com/nextcloud/android"><?php echo $l->t('Android Sources here</a>, <a href="https://download.nextcloud.com/android">direct APK download here.');?></a></p>
 								<div class="col-xs-6 mobileclientbuttons">
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
 									</a>
 								</div>
 							</div>
-							<p><a href="https://github.com/nextcloud/android"><?php echo $l->t('Sources here</a>, <a href="https://download.nextcloud.com/android">direct APK download here.');?></a></p>
-							<p><?php echo $l->t('Any WebDAV client will work with Nextcloud! ');?></p>
+							<p><?php echo $l->t('Nextcloud is using WebDAV, so you can also try out any other client you want!');?></p>
 								<p><?php echo $l->t('Compatible third party clients include:');?></p>
 								<ul>
-									<li><a href="https://davdroid.bitfire.at/">DAVDroid</a> <?php echo $l->t('supports the Nextcloud Calendar and Contacts apps, syncing your agenda and address book (android only, open source)');?></li>
-									<li><a href="https://crosscloud.me/">crosscloud</a>, <?php echo $l->t('a multi-cloud access client');?></li>
-									<li><a href="https://itunes.apple.com/us/app/crypto-cloud-for-dropbox-owncloud/id950341361?mt=8">Cryptocloud</a> <?php echo $l->t('which can encrypt files client-side (iOS only)');?></li>
+									<li><a href="https://davdroid.bitfire.at/">DAVDroid</a> <?php echo $l->t('supports Nextcloud Calendar, Tasks and Contacts, syncing your agenda, tasks and addressbook (android only, open source)');?></li>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
@@ -201,7 +203,7 @@
 			    <p><?php echo $l->t('Latest testing version:');?> <span class="label label-blue"><?php echo $SERVER_TESTING_VERSION; ?></span></p>
 		    <?php } ?>
 		    <div class="btn-group">
-		    
+
 		    <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> <?php echo $l->t('Linux Packages');?></a>
 		    <?php if(!empty($DOWNLOAD_SERVER_ZIP_TESTING)) { ?>
 			      <a href="<?php echo $DOWNLOAD_SERVER_ZIP_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> zip</a>
