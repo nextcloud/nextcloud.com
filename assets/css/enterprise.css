@@ -329,6 +329,24 @@
         margin-top: 36px;
         margin-bottom: 17px; }
 
+.explore {
+  padding: 50px;
+  margin-bottom: 100px; }
+  .explore h1 {
+    font-size: 60px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    color: #555555;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: center; }
+  .explore .explorebutton {
+    margin-left: 35%; }
+  .explore span.avoidwrap {
+    display: inline-block; }
+
 /* Discount section */
 .discounts {
   margin-top: 64px;

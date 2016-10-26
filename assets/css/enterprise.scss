@@ -423,14 +423,28 @@ border-radius: 6px;
 	}
 }
  
-
-
-
-
-
-
-
-
+.explore {
+	padding: 50px;
+	margin-bottom: 100px;
+	h1 {
+		font-size: 60px;
+		font-weight: 300;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.4;
+		color: #555555;
+		margin-top: 100px;
+		margin-bottom: 80px;
+		text-align: center;
+	}
+	.explorebutton {
+		margin-left: 35%;
+	}
+	
+	span.avoidwrap {
+		display:inline-block;
+	}
+}
 
 /* Discount section */
 
