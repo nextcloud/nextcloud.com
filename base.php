@@ -15,6 +15,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
  * Pages that still use the old layout and haven't been migrated
  */
 $oldPages = [
+	'404',
 	'5years',
 	'about',
 	'advisories',
