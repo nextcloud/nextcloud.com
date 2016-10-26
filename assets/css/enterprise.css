@@ -339,10 +339,10 @@
   text-align: left;
   color: #555555; }
 
-.faq a {
+.faq .downarrow a {
   color: #555555; }
 
-.faq a:hover {
+.faq .downarrow a:hover {
   text-decoration: none; }
 
 .faq .line {
@@ -360,5 +360,3 @@
   height: 100%;
   right: -30px;
   top: 0px; }
-
-/*# sourceMappingURL=enterprise.css.map */

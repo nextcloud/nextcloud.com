@@ -339,10 +339,10 @@
   text-align: left;
   color: #555555; }
 
-.faq a {
+.faq .downarrow a {
   color: #555555; }
 
-.faq a:hover {
+.faq .downarrow a:hover {
   text-decoration: none; }
 
 .faq .line {
@@ -411,5 +411,3 @@
   margin-top: 90px;
   margin-bottom: 20px;
   text-align: left; }
-
-/*# sourceMappingURL=buy.css.map */
