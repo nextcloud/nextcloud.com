@@ -198,7 +198,8 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --re
 	<li><?php echo $l->t('<strong>Issue:</strong> I get connection errors when trying to open documents<br/>
 	Be sure to check the error log from docker (<code>docker logs id-of-your-instance</code>). If the logs note something like:<br/>
 	<code>No acceptable WOPI hosts found matching the target host [YOUR NEXTCLOUD DOMAIN] in config.</code><br/>
-	you might have started the docker container with the wrong URL. Be sure to start it with the URL of your Nextcloud server, not the server where Collabora Online runs on.');?></li>
+	<code>Unauthorized WOPI host. Please try again later and report to your administrator if the issue persists.</code><br/>
+	you might have started the docker container with the wrong URL. Be sure to triplecheck that you start it with the URL of your Nextcloud server, not the server where Collabora Online runs on.');?></li>
 	<li><?php echo $l->t('<strong>Issue:</strong> <code>Connection is not allowed</code> errors.<br/>
 	It is possible your firewall is blocking connections. Try to start docker after you started the firewall, it makes changes to your iptables to enable Collabora Online to function.');?></li>
 	<li><?php echo $l->t('<strong>Issue:</strong> <code>We are sorry, this is an unexpected connection error. Please try again.</code> error.<br />
