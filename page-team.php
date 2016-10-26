@@ -162,7 +162,7 @@
 				<h3 class="teamtitle">Software Engineer</h3>
 				<h4 class="teamexpertise">Federation and Encryption</h4>
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-				<p class="teamsocial"><a href="https://schiessle.org/"><i class="icon-rss icon"></i></a> <a href="https://github.com/schiesbn"><i class="icon-github icon"></i></a> <a href="https://twitter.com/schiessle"><i class="icon-twitter icon"></i></a> </p>
+				<p class="teamsocial"><a href="https://schiessle.org/"><i class="icon-rss icon"></i></a> <a href="https://github.com/schiessle"><i class="icon-github icon"></i></a> <a href="https://twitter.com/schiessle"><i class="icon-twitter icon"></i></a> </p>
 			</div>
 			<p class="teamdescription">Björn has been developing federated technology for Nextcloud since 2012. Computer Scientist, graduated at University of Stuttgart and Open Source and Open Standards Evangelist for privacy respecting, distributed and federated networks, FSFE's Deputy Coordinator Germany has a deep understanding of the technical and social aspects of technology.</p>
 		</div>
