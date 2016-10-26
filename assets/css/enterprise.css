@@ -59,6 +59,33 @@
   text-align: center;
   color: #2a2a36; }
 
+/* Introduction */
+.intro {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .intro h1 {
+    text-align: left;
+    color: #2a2a36;
+    font-size: 60px;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 0;
+    padding-bottom: 50px; }
+  .intro h2 {
+    font-weight: bold;
+    text-align: left;
+    font-size: 26px;
+    font-weight: 300;
+    color: #0082c9;
+    line-height: 1.61; }
+  .intro p {
+    text-align: left;
+    font-size: 22px;
+    font-weight: 300;
+    color: #555555;
+    line-height: 1.61;
+    /* 	  padding-bottom: 30px; */ }
+
 /* Pricing area */
 .pricing {
   margin-top: 133px; }
@@ -243,6 +270,65 @@
 .overinfo:hover .infotext {
   opacity: 1; }
 
+/* what you get */
+.youget {
+  background: #0082c9;
+  padding-bottom: 50px; }
+  .youget h1 {
+    font-size: 60px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.88;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: center; }
+  .youget .container {
+    background: white;
+    margin-bottom: 90px;
+    padding: 70px;
+    padding: 70px; }
+    .youget .container .row {
+      margin-top: 100px; }
+    .youget .container h3 {
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.45;
+      text-align: left;
+      color: #555555; }
+    .youget .container p {
+      font-size: 18px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.61;
+      text-align: left;
+      color: #555555;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    .youget .container h2 {
+      margin-top: 50px;
+      margin-bottom: 30px; }
+    .youget .container .details {
+      text-align: center;
+      border: solid 1px transparent;
+      margin-bottom: 50px; }
+      .youget .container .details:hover {
+        box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
+        border: solid 1px #fbfbfb;
+        border-radius: 8px;
+        transition: all 0.5s ease; }
+      .youget .container .details a:hover {
+        text-decoration: none; }
+      .youget .container .details .img-responsive {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 36px;
+        margin-bottom: 17px; }
+
 /* Discount section */
 .discounts {
   margin-top: 64px;
@@ -287,7 +373,7 @@
       margin-top: 36px;
       margin-bottom: 17px; }
 
-/* Discount section */
+/* FAQ section */
 .faq {
   background: #0082c9;
   padding-bottom: 50px; }
@@ -327,7 +413,8 @@
   line-height: 0.88;
   color: #ffffff;
   margin-top: 100px;
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  text-align: center; }
 
 .faq p {
   /* 	font-family: OpenSans; */
