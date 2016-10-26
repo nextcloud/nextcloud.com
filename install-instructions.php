@@ -37,8 +37,7 @@
 							<div class="thumbnail">
 								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
 							</div>
-								<!--<p><?php echo $l->t('<strong>Note:</strong></br> If you run Nextcloud on Linux, <a id="packages" href="#tab-packages" title="Provides automated updates" role="tab" data-toggle="tab">using packages</a> is recommended.');?></p>-->
-<!-- 								<p><?php echo $l->t('Looking for <a href="/changelog">older versions or major releases</a>?');?></p> -->
+								<p><?php echo $l->t('Looking for <a href="/changelog">older versions or major releases</a>?');?></p>
 								<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the Nextcloud Appliance</a> on Windows Server.</small>');?></p>
 							</div>
 						</div>
@@ -127,36 +126,36 @@
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC; ?>" id="client-download-mac" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac<br /><small>OSX 10.9+, 64 bit</small></a>
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX; ?>" id="client-download-linux" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux<br /><small>Source</small></a>
 							<br><br>
-							<p><?php echo $l->t('Looking for the');?> <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>"><?php echo $l->t('Sources</a>? Distributions are building packages.');?></p>
-              <p><?php echo $l->t('Nextcloud is using WebDAV, so you can also try out any other client you want!');?></p>
-              <p><?php echo $l->t('Compatible third party clients include:');?></p>
-              <ul>
-                <li><a href="https://crosscloud.me">CrossCloud</a> <?php echo $l->t('a multi-cloud access client');?></li>
-						</div>
-						<div class="col-md-6">
-							<div class="thumbnail">
-								<img style="width: 100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/macsettings.png" alt="Desktop Client" />
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="tab-mobile" role="tabpanel" class="tab-pane">
-					<div class="overlay-body row">
-						<div class="col-md-6">
-							<p><?php echo $l->t('The Nextcloud mobile apps are available in various app stores.');?></p>
-							<p><?php echo $l->t('The apps allow you to access, sync and upload your data and feature instant upload for fotos and videos, upload management and more features.');?></p>
-							<br />
-							<div class="row">
-								<div class="col-xs-6">
-									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"><br /><a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>"><?php echo $l->t('Beta client');?></a>
-									</a>
+							<p><?php echo $l->t('Looking for the');?> <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>"><?php echo $l->t('Sources</a>? You can find Nextcloud Desktop client packages included in openSUSE Tumbleweed, Archlinux, Fedora (<a href="https://copr.fedorainfracloud.org/coprs/tpokorra/nextcloud/">on Copr</a>). Ask your distribution for packages or contribute!');?></p>
+							<p><?php echo $l->t('Nextcloud is using WebDAV, so you can also try out any other client you want!');?></p>
+							<p><?php echo $l->t('Compatible third party clients include:');?></p>
+							<ul>
+								<li><a href="https://crosscloud.me">CrossCloud</a> <?php echo $l->t('a multi-cloud access client');?></li>
+										</div>
+										<div class="col-md-6">
+											<div class="thumbnail">
+												<img style="width: 100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/macsettings.png" alt="Desktop Client" />
+											</div>
+										</div>
+									</div>
 								</div>
-								<div class="col-xs-6">
-									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID; ?>">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a><br /><a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><?php echo $l->t('Beta client');?></a>
-								</div>
-                <p><a href="https://github.com/nextcloud/android"><?php echo $l->t('Android Sources here</a>, <a href="https://download.nextcloud.com/android">direct APK download here.');?></a></p>
+								<div id="tab-mobile" role="tabpanel" class="tab-pane">
+									<div class="overlay-body row">
+										<div class="col-md-6">
+											<p><?php echo $l->t('The Nextcloud mobile apps are available in various app stores.');?></p>
+											<p><?php echo $l->t('The apps allow you to access, sync and upload your data and feature instant upload for fotos and videos, upload management and more features.');?></p>
+											<br />
+											<div class="row">
+												<div class="col-xs-6">
+													<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
+													<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"><br /><a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>"><?php echo $l->t('Beta client');?></a>
+													</a>
+												</div>
+												<div class="col-xs-6">
+													<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID; ?>">
+													<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a><br /><a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><?php echo $l->t('Beta client');?></a>
+												</div>
+								<p><a href="https://github.com/nextcloud/android"><?php echo $l->t('Android Sources here</a>, <a href="https://download.nextcloud.com/android">direct APK download here.');?></a></p>
 								<div class="col-xs-6 mobileclientbuttons">
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
