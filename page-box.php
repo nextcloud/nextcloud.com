@@ -37,7 +37,7 @@ you to sync between your devices and share with others.</p>
 
 <section class="section-getbox">
 	<div class="container">
-		<div class="wrapper-tex col-md-3">
+		<div class="wrapper-tex col-md-4">
 			<h2 class="revealOnScroll">Get the box</h2>
 			<p class="revealOnScroll">Currently you can only purchase the Nextcloud Box in Europe and the USA. We're working on bringing the box to other regions!</p>
 			<button type="button" data-toggle="dropdown" class="btn btn-primary buybutton dropdown-toggle revealOnScroll" aria-expanded="false">Select your country &nbsp;<span class="caret"></span></button>

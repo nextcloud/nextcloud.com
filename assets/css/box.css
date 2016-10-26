@@ -13,7 +13,7 @@
     color: white;
     padding-top: 150px; }
   .section-top-jumbotron .container .box {
-    background-image: url("../img/box/box_front.png");
+    background: url("../img/box/box_front.png") no-repeat;
     width: 689px;
     height: 569.8px;
     margin: 0 auto;
@@ -163,5 +163,18 @@
         display: inline-block;
         margin-left: 10px;
         margin-right: 10px; }
+
+@media (max-width: 768px) {
+  .section-top-jumbotron .container {
+    height: 100%; }
+    .section-top-jumbotron .container .box {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      background-size: contain;
+      margin-top: 120px; }
+
+  .section-data-home h2 {
+    padding-top: 150px; } }
 
 /*# sourceMappingURL=box.css.map */
