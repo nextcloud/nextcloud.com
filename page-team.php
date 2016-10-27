@@ -45,7 +45,7 @@
 				<h3 class="teamtitle">Head of Sales</h3>
 				<h4 class="teamexpertise">Sales and Partnerships</h4>
 				<h4 class="teamlocation">lives in Hannover, Germany</h4>
-				<p class="teamsocial"><!--<a href="https://www.schilljs.com/"><i class="icon-rss icon"></i></a>--> <!--<a href="https://github.com/nickvergessen"><i class="icon-github icon"></i></a>--> <!--<a href="https://twitter.com/nickvergessen"><i class="icon-twitter icon"></i></a>--> &nbsp; </p>
+				<p class="teamsocial"><a href="https://www.xing.com/profile/Andreas_Rode2"><i class="icon-xing icon"></i></a><!--<a href="https://github.com/nickvergessen"><i class="icon-github icon"></i></a>--> <!--<a href="https://twitter.com/nickvergessen"><i class="icon-twitter icon"></i></a>--> &nbsp; </p>
 			</div>
 			<p class="teamdescription">Andreas studied Economics and has 20 years experience in Business Development, Partner- and Sales Management. Andreas worked for companies like Oracle, EMC, Yahoo and Google and also for start ups in the Cloud Computing and Online Marketing space.</p>
 		</div>
@@ -266,7 +266,7 @@
 				<h3 class="teamtitle">Software Engineer</h3>
 				<h4 class="teamexpertise">Filesystem and scalability</h4>
 				<h4 class="teamlocation">lives in Eindhoven, Netherlands</h4>
-				<p class="teamsocial"><a href="http://blog.jospoortvliet.com/"><i class="icon-rss icon"></i></a> <a href="https://github.com/jospoortvliet"><i class="icon-github icon"></i></a> <a href="https://twitter.com/jospoortvliet"><i class="icon-twitter icon"></i></a> </p>
+				<p class="teamsocial"><a href="https://icewind.nl"><i class="icon-rss icon"></i></a> <a href="https://github.com/icewind1991"><i class="icon-github icon"></i></a></p>
 			</div>
 			<p class="teamdescription">Robin studied computer science and is highly experienced in scaling file storage and handling systems. He has been working on Nextcloud code for over half a decade and has, at one point or another, touched code in every corner.</p>
 		</div>
