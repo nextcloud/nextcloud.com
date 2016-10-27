@@ -266,7 +266,7 @@
 				<h3 class="teamtitle">Software Engineer</h3>
 				<h4 class="teamexpertise">Filesystem and scalability</h4>
 				<h4 class="teamlocation">lives in Eindhoven, Netherlands</h4>
-				<p class="teamsocial"><a href="https://icewind.nl"><i class="icon-rss icon"></i></a> <a href="https://github.com/icewind1991"><i class="icon-github icon"></i></a></p>
+				<p class="teamsocial"><a href="https://icewind.nl"><i class="icon-rss icon"></i></a> <a href="https://github.com/icewind1991"><i class="icon-github icon"></i></a> <a href="https://twitter.com/icewind1991"><i class="icon-twitter icon"></i></a></p>
 			</div>
 			<p class="teamdescription">Robin studied computer science and is highly experienced in scaling file storage and handling systems. He has been working on Nextcloud code for over half a decade and has, at one point or another, touched code in every corner.</p>
 		</div>
