@@ -12,7 +12,7 @@
 
 <section class="section-data-home">
 	<div class="container">
-		<h2 class="text-center revealOnScroll"><?php echo $l->t('Bring your data to home');?></h2>
+		<h2 class="text-center revealOnScroll"><?php echo $l->t('Bring your data home');?></h2>
 		<p class="text-center revealOnScroll"><?php echo $l->t('The Nextcloud Box is your private cloud. It stores your data and enables 
 you to sync between your devices and share with others.');?></p>
 		<p><a class="btn-primary revealOnScroll" href="<?php echo home_url('features') ?>" role="button"><?php echo $l->t('Know Nextcloud</a>');?></p>
@@ -36,6 +36,7 @@ you to sync between your devices and share with others.');?></p>
 
 <section class="section-getbox">
 	<div class="container">
+		<div class="row">
 		<div class="wrapper-text col-md-4">
 			<h2 class="revealOnScroll"><?php echo $l->t('Get the box');?></h2>
 			<p class="revealOnScroll"><?php echo $l->t('Currently you can only purchase the Nextcloud Box in Europe and the USA. We are working on bringing the box to other regions!');?></p>
@@ -54,6 +55,7 @@ you to sync between your devices and share with others.');?></p>
 			</div>
 		</div>
 		<div class="box-perspective col-md-8 revealOnScroll"></div>
+		</div>
 	</div>
 </section>
 
@@ -80,7 +82,7 @@ you to sync between your devices and share with others.');?></p>
 <section class="section-partners">
 	<div class="container">
 		<h3 class="text-center revealOnScroll"><?php echo $l->t('Partners');?></h3>
-		<p class="text-center revealOnScroll"><?php echo $l->t('The Nextcloud Box was developed in a partnership with WDLabs and Canonical and is one of multiple devices from Nextcloud partners. It is a reference device, meant to inspire and invite anyone to build their own. <a href="/contact">Get in contact</a> if you\'re interested in building a Nextcloud Box like device!');?></p>
+		<p class="text-center revealOnScroll"><?php echo $l->t('The Nextcloud Box was developed in a partnership with WDLabs and Canonical and is one of');?> <a href="<?php echo home_url('devices') ?>"><?php echo $l->t('multiple devices</a>	 from Nextcloud partners. It is a reference device, meant to inspire and invite anyone to build their own. <a href="/contact">Get in contact</a> if you\'re interested in building a Nextcloud Box like device!');?></p>
 		<div class="wrapper-images">
 			<a target="_blank" href="https://developer.ubuntu.com/en/snappy/"><div class="logo-wd"></div></a>
 			<a target="_blank" href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/"><div class="logo-ubuntu"></div></a>

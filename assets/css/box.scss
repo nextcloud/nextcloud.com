@@ -10,6 +10,7 @@
 		h2{
 			color: white;
 			padding-top: 150px;
+			line-height: 1.4;
 		}
 
 		.box {
@@ -86,9 +87,9 @@
 	.container {
 
 		.wrapper-text {
+			max-width: 550px;
 			color:white;
 			@include vertical-center;
-
 			h2 {
 				color: white;
 			}
@@ -233,6 +234,48 @@
 
 //Mobile
 
+@media(max-width: $break-big) {
+	.section-data-home {
+		h2 {
+			padding-top: 350px;
+		}
+	}
+	.section-getbox {
+		padding-top: 100px;
+		height: 450px;
+
+		.container {
+
+			.wrapper-text {
+				margin-top: 60px;
+
+				h2 {
+					color: white;
+				}
+				
+				p {
+					padding-top: 10px;
+				}
+				.btn-primary {
+					margin-top:20px;
+					padding: 20px 50px 20px 50px;
+					
+					&:before {
+						display: none;
+					}
+				}
+			}
+			.box-perspective {
+				width: 346px;
+				height: 242px;
+			    background-repeat: no-repeat;
+			    background-size: contain;
+		        margin-top: -200px;
+			}
+		}
+	}
+}
+
 @media(max-width: $break-small) {
 	.section-top-jumbotron {
 
@@ -251,7 +294,7 @@
 
 	.section-data-home {
 		h2 {
-			padding-top: 150px;
+			padding-top: 180px;
 		}
 	}
 
