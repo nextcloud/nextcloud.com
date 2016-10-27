@@ -30,7 +30,7 @@
 	</div>
 	<div class="col-md-5">
 		<div class="yt-img-overlay">
-			<a class="youtube" href="https://www.youtube.com/watch?v=sZpYXUD1ZVM" title="Collabora Online in Nextcloud">
+			<a class="youtube" id="sZpYXUD1ZVM" href="https://www.youtube.com/watch?v=sZpYXUD1ZVM" title="Collabora Online in Nextcloud">
 				<img class="img-responsive featureimg" src="https://img.youtube.com/vi/sZpYXUD1ZVM/hqdefault.jpg" title="Collabora Online in Nextcloud" />
 				<div class="yt-play-btn">
 					<i></i> 
@@ -80,7 +80,7 @@
 	<div class="row">
 		<div class="col-md-8">
 			<div class="yt-img-overlay">
-				<a class="youtube" href="https://www.youtube.com/watch?v=MDc1bNxn3js" title="Collabora Online in Nextcloud">
+				<a class="youtube" id="MDc1bNxn3js" href="https://www.youtube.com/watch?v=MDc1bNxn3js" title="Collabora Online in Nextcloud">
 					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/MDc1bNxn3js/hqdefault.jpg" title="Collabora Online in Nextcloud tutorial" />
 					<div class="yt-play-btn">
 						<i></i> 
@@ -214,10 +214,10 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --re
 
 <link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/vendor/jquery.youtubepopup.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/old/vendor/jquery.youtubepopup.min.js"></script>
 
 <script type="text/javascript">
-$(function () {
+// $(function () {
 	$("a.youtube").YouTubePopup({ hideTitleBar: true });
-});
+// });
 </script>
