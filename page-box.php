@@ -81,8 +81,8 @@ you to sync between your devices and share with others.');?></p>
 		<h3 class="text-center revealOnScroll"><?php echo $l->t('Partners');?></h3>
 		<p class="text-center revealOnScroll"><?php echo $l->t('The Nextcloud Box was developed in a partnership with WDLabs and Canonical and is one of');?> <a href="<?php echo home_url('devices') ?>"><?php echo $l->t('multiple devices</a>	 from Nextcloud partners. It is a reference device, meant to inspire and invite anyone to build their own. <a href="/contact">Get in contact</a> if you\'re interested in building a Nextcloud Box like device!');?></p>
 		<div class="wrapper-images">
-			<a target="_blank" href="https://developer.ubuntu.com/en/snappy/"><div class="logo-wd"></div></a>
-			<a target="_blank" href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/"><div class="logo-ubuntu"></div></a>
+			<a target="_blank" href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/"><div class="logo-wd"></div></a>
+			<a target="_blank" href="https://developer.ubuntu.com/en/snappy/"><div class="logo-ubuntu"></div></a>
 		</div>
 	</div>
 </section>
