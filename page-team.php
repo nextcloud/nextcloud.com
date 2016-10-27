@@ -122,7 +122,7 @@
 			<div class="teammeta">
 				<h3 class="teamtitle">Design Lead</h3>
 				<h4 class="teamexpertise">simplicity & ease of use</h4>
-				<h4 class="teamlocation">lives in Ljubljana, Slovenia</h4>
+				<h4 class="teamlocation">lives in Munich, Germany</h4>
 				<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="icon-rss icon"></i></a> <a href="https://github.com/jancborchardt"><i class="icon-github icon"></i></a> <a href="https://twitter.com/jancborchardt"><i class="icon-twitter icon"></i></a> </p>
 			</div>
 			<p class="teamdescription">Jan-Christoph is responsible for design on the project since early 2011. He pushes forward better design in open source through founding and contributing to several projects, giving talks, working with universities, and fostering the Open Source Design collective.</p>
@@ -298,4 +298,3 @@
 		</div>
 	</div>
 </div>
-
