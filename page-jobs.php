@@ -10,7 +10,7 @@
 <h2>Job openings</h2>
 <p>We have the following job openings:</p>
 <p><a href="#1">Account Manager</a> | <a href="#2">Sales Engineer/Consultant</a> | <a href="#3">Linux Kernel and Embedded Engineer</a></p>
-<h3 class="jobs">Account Manager<!-- DACH/Europe--></h3>
+<h3 class="jobs">Account Manager</h3>
 <p>We are looking for a passionate Account Manager who will partner with and ensure the long-term success of our customers.</p>
 <p>Your account management responsibilities include developing long-term relationships with your portfolio of assigned customers, connecting with key business executives and stakeholders. You will liaise between customers and cross-functional internal teams to ensure the timely and successful delivery of our solutions according to customer needs.</p>
 <!-- <p>This position would ideally be based in Stuttgart, Hamburg, Frankfurt or Munich but we are open to remote work.</p> -->
@@ -45,7 +45,7 @@
 	<li>Excellent listening, negotiation and presentation skills</li>
 	<li>Excellent verbal and written communications skills</li>
 	<li>Problem solving skills</li>
-<!-- 	<li>Writing and speaking German language</li> -->
+	<li>Writing and speaking German language</li>
 </ul>
 <p>What we offer:</p>
 <ul>
@@ -57,7 +57,7 @@
 	<li>Time for personal growth and education</li>
 </ul>
 <p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-<h3 class="jobs">Sales Engineer/Consultant<!-- DACH/Europe--></h3>
+<h3 class="jobs">Sales Engineer/Consultant</h3>
 <p>Technical sales engineers use their technical knowledge along with sales skills to provide advice and support on a range of products, for which a certain level of expertise is needed.</p>
 <p>You work close together with sales and engineering and assist colleagues with bids and tenders for new clients from a technical perspective, working on proof of concept deployments and answering questions.</p>
 <p>You like to work independently and self responsible on dedicated projects but like to also to exchange your knowledge with your colleagues.</p>
@@ -89,7 +89,7 @@
 	<li>Problem solving</li>
 	<li>Product knowledge around open source technology</li>
 	<li>General programming skills in PHP, HTML, CSS</li>
-<!-- 	<li>Writing and speaking German language</li> -->
+	<li>Writing and speaking German language</li>
 </ul>
 <p>What we offer:</p>
 <ul>
