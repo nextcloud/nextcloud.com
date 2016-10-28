@@ -1,6 +1,5 @@
 @import "variables.scss";
 
-
 .nav {
     z-index: 1;
     top: 20px;
@@ -12,6 +11,7 @@
         position: relative; //this breaks the bg position
 
         .brand {
+            z-index: 3;
             position: absolute;
             top: 0;
             left: 0;
@@ -172,6 +172,28 @@
     .nav { 
 
         .container {
+
+            .mobile-bg {
+                position: fixed;
+                background: #0082c9;
+                padding-top: 25px;
+                z-index: 2;
+                top: 0;
+                right: 0;
+                width: 0;
+                height: 0;
+                visibility: hidden;
+                overflow: hidden;
+                border-bottom-left-radius: 100%;
+                transition: all 0.6s ease;
+            }
+
+            .active {
+                opacity: 1;
+                visibility: visible;
+                width: 150%;
+                height: 150%;
+            }
 
             button{
                 color: white;

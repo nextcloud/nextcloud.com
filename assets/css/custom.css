@@ -409,6 +409,7 @@ section#why-nextcloud {
   .nav .container {
     position: relative; }
     .nav .container .brand {
+      z-index: 3;
       position: absolute;
       top: 0;
       left: 0; }
@@ -517,6 +518,24 @@ section#why-nextcloud {
             color: white; }
 
 @media (max-width: 992px) {
+  .nav .container .mobile-bg {
+    position: fixed;
+    background: #0082c9;
+    padding-top: 25px;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    border-bottom-left-radius: 100%;
+    transition: all 0.6s ease; }
+  .nav .container .active {
+    opacity: 1;
+    visibility: visible;
+    width: 150%;
+    height: 150%; }
   .nav .container button {
     color: white;
     background-color: white;

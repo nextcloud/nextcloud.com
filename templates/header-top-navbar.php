@@ -1,4 +1,3 @@
-
 <nav class="nav">
 	<div class="container">
 		<div class="nav__bg-wrapper">
@@ -12,6 +11,8 @@
 		<button type="button" class="navbar-toggle collapsed" id="toggle">
 			<div class="menu-animation" data-animation-path="img/menu/black/" data-anim-loop="false" data-name="menu-black" id="menu-black"</div>
 		</button>
+
+		<div class="mobile-bg"></div>
 
 		<ul class="nav__sections">
 			<li class="nav__section"><a href="#0" class="nav__label">About us</a>

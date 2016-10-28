@@ -154,16 +154,16 @@ $(document).ready(function() {
 //     }
 // });
 
-// /**
-// * Mobile fullscreen trigger
-// */
-// $(document).ready(function() {
-// 	$('#toggle').click(function() {
-// 	$(this).toggleClass('active');
-// 	$('#overlay').toggleClass('open');
-// 	$('.navbar').toggleClass('mobile-menu-open');
-// 	});
-// });
+ /**
+ * Mobile fullscreen trigger
+ */
+ $(document).ready(function() {
+     $('#toggle').click(function() {
+     $(this).toggleClass('active');
+     $('.mobile-bg').toggleClass('active');
+     //$('.navbar').toggleClass('mobile-menu-open');
+     });
+});
 
 // /**
 // * Show Header when scroll in resolution lower then width 800px
