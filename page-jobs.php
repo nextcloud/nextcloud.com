@@ -21,6 +21,8 @@
 
 		<h2 class="text-center revealOnScroll">Job openings</h2>
 
+		<div class="wrapper-text">
+
 	<!-- 	<p>We have the following job openings:</p> -->
 
 		<h3 class="jobs"><a data-target="#accountmgr" data-toggle="collapse">Account Manager</a></h3>
@@ -147,6 +149,7 @@
 			</ul>
 			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 		</div>
+
 		<a data-target="#linuxeng" data-toggle="collapse"><h3 class="jobs">Linux Kernel and Embedded Engineer</h3></a>
 		<div id="linuxeng" class="collapse">
 			<p>To satisfy the demand for our Spreedbox, we are seeking a Linux kernel and embedded development expert to join our team in Stuttgart (but we are open to remote work!). In this role you are responsible for the technical foundation of this product.</p>
@@ -179,5 +182,6 @@
 		<div>
 			<p>We are always looking for talented new people in all areas of our business--from engineering and support to sales and marketing. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> and tell us how you can help!</p>
 		</div>
+	</div>
 </section>
 

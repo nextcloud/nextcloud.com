@@ -32,7 +32,6 @@
 	}
 }
 
-
 .section-company-description {
 	margin-top: 130px;
 
@@ -50,22 +49,23 @@
 }
 
 .section-jobs-opening {
-	margin-top: 130px;
+	margin-top: 70px;
 	margin-bottom: 100px;
-	text-align: center;
 
-	p {
-		max-width: 700px;
-		margin: 0 auto;
+	.wrapper-text {
 		padding-top: 20px;
-		font-size: 18px;
-		text-align: center;
-	}
+		width: 60%;
+    	margin: 0 auto; 
 
-	ul {
-		list-style-type: none;
+		p {
+			max-width: 700px;
+			padding-top: 20px;
+			font-size: 18px;
+		}
 	}
 }
+
+	
 
 
 

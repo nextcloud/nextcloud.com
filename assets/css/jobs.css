@@ -42,16 +42,15 @@
     text-align: center; }
 
 .section-jobs-opening {
-  margin-top: 130px;
-  margin-bottom: 100px;
-  text-align: center; }
-  .section-jobs-opening p {
-    max-width: 700px;
-    margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 100px; }
+  .section-jobs-opening .wrapper-text {
     padding-top: 20px;
-    font-size: 18px;
-    text-align: center; }
-  .section-jobs-opening ul {
-    list-style-type: none; }
+    width: 60%;
+    margin: 0 auto; }
+    .section-jobs-opening .wrapper-text p {
+      max-width: 700px;
+      padding-top: 20px;
+      font-size: 18px; }
 
 /*# sourceMappingURL=jobs.css.map */
