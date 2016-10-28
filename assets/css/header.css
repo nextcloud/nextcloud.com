@@ -1,6 +1,6 @@
 .nav {
   z-index: 1;
-  top: 20px;
+  padding-top: 20px;
   position: absolute;
   left: 0;
   right: 0; }
@@ -153,6 +153,51 @@
     display: none; }
   .nav .container .right-buttons {
     display: none; } }
+@media (max-height: 800px) {
+  .nav-down {
+    opacity: 1;
+    transition: all 0.2s ease-in-out; }
+
+  .nav-up {
+    top: -100px !important;
+    opacity: 0;
+    transition: all 0.2s ease-in-out; } }
+/**
+ * Scrolled navbar style
+ */
+.nav.scrolled:not(.mobile-bg) {
+  position: fixed;
+  transition: all .2s ease-in;
+  background: white;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09);
+  padding-bottom: 20px; }
+  .nav.scrolled:not(.mobile-bg) a {
+    color: #656565 !important; }
+  .nav.scrolled:not(.mobile-bg) .nav li:not(.btn-primary):not(.active):hover:before {
+    width: 100%;
+    background: #656565;
+    transition: width .2s ease-in; }
+  .nav.scrolled:not(.mobile-bg) .nav li:not(.btn-primary):not(.active):hover:after {
+    width: 100%;
+    background: #656565; }
+  @media (min-width: 1200px) {
+    .nav.scrolled:not(.mobile-bg) .active a {
+      border-bottom: 3px solid #656565; } }
+  .nav.scrolled:not(.mobile-bg) .btn-primary a {
+    color: white !important; }
+  @media (max-width: 1200px) {
+    .nav.scrolled:not(.mobile-bg) .navbar-collapse {
+      background-color: #ffffff;
+      margin-left: -6% !important; } }
+  .nav.scrolled:not(.mobile-bg) .logo {
+    background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain !important; }
+  .nav.scrolled:not(.mobile-bg) .container-fluid button {
+    background: #0082c9; }
+    .nav.scrolled:not(.mobile-bg) .container-fluid button .icon-bar {
+      background-color: white; }
+  .nav.scrolled:not(.mobile-bg) svg {
+    filter: invert(100%); }
+
 /**
 *Changed default media querys for navigation in bootstrap
 */
