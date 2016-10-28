@@ -6,9 +6,8 @@
   padding-bottom: 0;
   padding-top: 0;
   margin-bottom: 0;
-  background-position: bottom 0 right 0;
+  background-position: center;
   background-size: cover;
-  border-radius: 0 !important;
   height: 70vh;
   min-height: 600px;
   max-height: 800px;
@@ -33,20 +32,40 @@
 	}
 }
 
-.hiring {
-		margin-bottom: 50px;
 
-	h2 {
-		margin-top: 100px;
-	}
+.section-company-description {
+	margin-top: 130px;
 
 	h3{
 		font-size: 22px;
 	}
 
 	p {
-		margin: 10px;
-		max-width: 600px;
+		max-width: 700px;
 		margin: 0 auto;
+		padding-top: 20px;
+		font-size: 18px;
+		text-align: center;
 	}
 }
+
+.section-jobs-opening {
+	margin-top: 130px;
+	margin-bottom: 100px;
+	text-align: center;
+
+	p {
+		max-width: 700px;
+		margin: 0 auto;
+		padding-top: 20px;
+		font-size: 18px;
+		text-align: center;
+	}
+
+	ul {
+		list-style-type: none;
+	}
+}
+
+
+

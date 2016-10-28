@@ -11,9 +11,8 @@
   padding-bottom: 0;
   padding-top: 0;
   margin-bottom: 0;
-  background-position: bottom 0 right 0;
+  background-position: center;
   background-size: cover;
-  border-radius: 0 !important;
   height: 70vh;
   min-height: 600px;
   max-height: 800px; }
@@ -31,15 +30,28 @@
     font-size: 18px;
     line-height: 1.6; }
 
-.hiring {
-  margin-bottom: 50px; }
-  .hiring h2 {
-    margin-top: 100px; }
-  .hiring h3 {
+.section-company-description {
+  margin-top: 130px; }
+  .section-company-description h3 {
     font-size: 22px; }
-  .hiring p {
-    margin: 10px;
-    max-width: 600px;
-    margin: 0 auto; }
+  .section-company-description p {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center; }
+
+.section-jobs-opening {
+  margin-top: 130px;
+  margin-bottom: 100px;
+  text-align: center; }
+  .section-jobs-opening p {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center; }
+  .section-jobs-opening ul {
+    list-style-type: none; }
 
 /*# sourceMappingURL=jobs.css.map */
