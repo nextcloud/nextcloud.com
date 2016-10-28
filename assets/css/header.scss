@@ -92,6 +92,7 @@
         
             .nav__section {
                 position: relative;
+                z-index: 3;
 
                 &:hover {
                     .nav__label {
@@ -221,6 +222,10 @@
 
             .nav__sections {
                 display: none;
+            }
+
+            .active {
+                display: block;
             }
             
             .right-buttons {

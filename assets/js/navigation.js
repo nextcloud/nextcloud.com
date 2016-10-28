@@ -53,15 +53,6 @@ $(document).ready(function() {
         menuAnimation.play();
         menuOpened = !menuOpened;
     });
-    
-    /**
-    * Mobile fullscreen trigger
-    */
-    $('#toggle').click(function() {
-        $(this).toggleClass('active');
-        $('#overlay').toggleClass('open');
-        $('.navbar').toggleClass('mobile-menu-open');
-    });
 });
 
 /**
@@ -71,6 +62,7 @@ $(document).ready(function() {
      $('#toggle').click(function() {
      $(this).toggleClass('active');
      $('.mobile-bg').toggleClass('active');
+     $('.nav__sections').toggleClass('active');
      });
 
     /**

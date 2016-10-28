@@ -470,7 +470,8 @@ section#why-nextcloud {
       list-style-type: none;
       margin-top: 13px; }
       .nav .container .nav__sections .nav__section {
-        position: relative; }
+        position: relative;
+        z-index: 3; }
         .nav .container .nav__sections .nav__section:hover .nav__label {
           opacity: 0.6;
           cursor: default;
@@ -556,6 +557,8 @@ section#why-nextcloud {
       transition-delay: initial; }
   .nav .container .nav__sections {
     display: none; }
+  .nav .container .active {
+    display: block; }
   .nav .container .right-buttons {
     display: none; } }
 @media (max-height: 800px) {
