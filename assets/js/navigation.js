@@ -62,7 +62,7 @@ $(document).ready(function() {
      $('#toggle').click(function() {
      $(this).toggleClass('active');
      $('.mobile-bg').toggleClass('active');
-     $('.nav__sections').toggleClass('active');
+     $('.nav__sections').toggleClass('mobile-active');
      });
 
     /**
@@ -116,8 +116,13 @@ enquire.register("screen and (max-width: 992px)", {
   // Triggered when the media query transitions
   // from *unmatched* to *matched*
   match : function() {
-
-    console.log('it works');
+    
+    // var section = $('.nav__sections');
+    // var menus = $('.nav__section');
+    
+    // $(section).click(function() {
+    // $(this).parent().find(menus).toggle();
+    // });
   },
   
   // Triggered when the media query transitions 

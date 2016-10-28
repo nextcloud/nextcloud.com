@@ -222,16 +222,91 @@
 
             .nav__sections {
                 display: none;
-            }
 
-            .active {
-                display: block;
-            }
+                .nav__section {
+                    display: block;
+                    height: 25%;
+                    height: calc(100% / 4);
+                    min-height: 50px;
+                    position: relative;
+                    opacity: 1;
+                    margin: 0;
+                    opacity: 0;
+                    color: white;
+
+                    &:last-child{
+                        font-weight: 500;
+                    }
+
+                    a {
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+
+                &.mobile-active {
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    margin: 0 auto;
+                    display: inline-block;
+                    position: fixed;
+                    top: 50%;
+                    left: 50%;
+                    -webkit-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                    z-index: 2;
+                    padding: 0;
+
+                        .nav__section {
+                            animation: fadeInRight .5s ease forwards;
+                            animation-delay: .35s;
+
+                            a {
+                                font-size: 4vh;
+                                padding-top: 2vh;
+                            }
+
+                            &:nth-of-type(2) {
+                                animation-delay: .4s;
+                            }
+                            &:nth-of-type(3) {
+                                animation-delay: .45s;
+                            }
+                            &:nth-of-type(4) {
+                                animation-delay: .50s;
+                            }
+                            &:nth-of-type(5) {
+                                animation-delay: .55s;
+                            }
+                            &:nth-of-type(6) {
+                                animation-delay: .60s;
+                            }
+                            &:nth-of-type(7) {
+                                animation-delay: .65s;
+                            }
+                            &:nth-of-type(8) {
+                                animation-delay: .70s;
+                            }
+                        }
+                    }
+                }
             
             .right-buttons {
                 display: none;
             }
         }
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        left: 20%;
+    }
+    100% {
+        opacity: 1;
+        left: 0;
     }
 }
 
