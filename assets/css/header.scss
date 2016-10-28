@@ -8,7 +8,11 @@
     right: 0;
 
     .container {
-        position: relative; //this breaks the bg position
+        position: relative;
+
+        .navbar-toggle {
+            display: none;
+        }
 
         .brand {
             z-index: 3;
@@ -195,7 +199,7 @@
                 height: 150%;
             }
 
-            button{
+            .navbar-toggle {
                 color: white;
                 background-color: white;
                 border-radius: 50px;
@@ -203,6 +207,7 @@
                 height: 50px;
                 margin-top: 0;
                 z-index: 3;
+                display: block;
 
                 &:hover {
                     transform: scale(1.1);

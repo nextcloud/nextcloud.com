@@ -408,6 +408,8 @@ section#why-nextcloud {
   right: 0; }
   .nav .container {
     position: relative; }
+    .nav .container .navbar-toggle {
+      display: none; }
     .nav .container .brand {
       z-index: 3;
       position: absolute;
@@ -536,15 +538,16 @@ section#why-nextcloud {
     visibility: visible;
     width: 150%;
     height: 150%; }
-  .nav .container button {
+  .nav .container .navbar-toggle {
     color: white;
     background-color: white;
     border-radius: 50px;
     width: 50px;
     height: 50px;
     margin-top: 0;
-    z-index: 3; }
-    .nav .container button:hover {
+    z-index: 3;
+    display: block; }
+    .nav .container .navbar-toggle:hover {
       transform: scale(1.1);
       transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
       transition-property: transform;
