@@ -53,7 +53,6 @@ $oldPages = [
 	'impressum',
 	'install',
 	'install-backup',
-	'jobs',
 	'meetups',
 	'news',
 	'newsletter',
