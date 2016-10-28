@@ -32,8 +32,10 @@
     line-height: 1.6; }
 
 .hiring {
+  margin: 0 auto;
   margin-top: 120px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  max-width: 600px; }
   .hiring h1 {
     font-size: 40px; }
   .hiring h2 {
