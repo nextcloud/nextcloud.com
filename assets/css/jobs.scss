@@ -34,17 +34,10 @@
 }
 
 .hiring {
-		margin: 0 auto;
-		margin-top: 120px;
 		margin-bottom: 50px;
-		max-width: 600px;
-
-	h1 {
-		font-size: 40px;
-	}
 
 	h2 {
-		font-size: 30px;
+		margin-top: 100px;
 	}
 
 	h3{
@@ -53,5 +46,7 @@
 
 	p {
 		margin: 10px;
+		max-width: 600px;
+		margin: 0 auto;
 	}
 }
