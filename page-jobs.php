@@ -25,7 +25,7 @@
 
 	<!-- 	<p>We have the following job openings:</p> -->
 
-		<h3 class="jobs"><a data-target="#accountmgr" data-toggle="collapse">Account Manager</a></h3>
+		<a data-target="#accountmgr" data-toggle="collapse"><h3 class="jobs">Account Manager<span class="icon-arrow"></span></h3></a>
 
 		<div id="accountmgr" class="collapse">
 
@@ -103,7 +103,7 @@
 			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 		</div>
 
-		<a data-target="#saleseng" data-toggle="collapse"><h3 class="jobs">Sales Engineer/Consultant</h3></a>
+		<a data-target="#saleseng" data-toggle="collapse"><h3 class="jobs">Sales Engineer/Consultant<span class="icon-arrow"></span></h3></a>
 		
 		<div id="saleseng" class="collapse">
 			<p>Technical sales engineers use their technical knowledge along with sales skills to provide advice and support on a range of products, for which a certain level of expertise is needed.</p>
@@ -150,7 +150,7 @@
 			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 		</div>
 
-		<a data-target="#linuxeng" data-toggle="collapse"><h3 class="jobs">Linux Kernel and Embedded Engineer</h3></a>
+		<a data-target="#linuxeng" data-toggle="collapse"><h3 class="jobs">Linux Kernel and Embedded Engineer<span class="icon-arrow"></span></h3></a>
 		<div id="linuxeng" class="collapse">
 			<p>To satisfy the demand for our Spreedbox, we are seeking a Linux kernel and embedded development expert to join our team in Stuttgart (but we are open to remote work!). In this role you are responsible for the technical foundation of this product.</p>
 			<p>Responsibilities:</p>

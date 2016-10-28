@@ -34,9 +34,9 @@
 
 .section-company-description {
 	margin-top: 130px;
-
 	h3{
 		font-size: 22px;
+		
 	}
 
 	p {
@@ -51,6 +51,26 @@
 .section-jobs-opening {
 	margin-top: 70px;
 	margin-bottom: 100px;
+	a:hover, a:focus {
+		text-decoration: none;
+		font-decoration: none;
+		color: #2a2a36;
+		border-bottom: none;
+		cursor: pointer;
+		cursor: hand;
+	}
+	h3 {
+		position: relative;
+	}
+	
+	.icon-arrow {
+        background: url(../img/arrow_down.svg) center/contain no-repeat;
+        position: absolute;
+        width: 20px;
+        height: 100%;
+        right: 20px;
+        top: 2px;
+      }
 
 	.wrapper-text {
 		padding-top: 20px;
