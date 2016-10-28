@@ -1,0 +1,46 @@
+/* Make Navbar transparent */
+.navbar:not(.scrolled) {
+  background-color: transparent; }
+
+.navbar:not(.scrolled) .btn-primary {
+  background-color: transparent !important;
+  border-color: white; }
+
+.background {
+  background: url("../img/jobs/team.jpg") no-repeat;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  background-position: bottom 0 right 0;
+  background-size: cover;
+  border-radius: 0 !important;
+  height: 70vh;
+  min-height: 600px;
+  max-height: 800px; }
+  .background .container {
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    margin-left: 5%;
+    padding: 0; }
+  .background h1 {
+    padding-top: 0;
+    color: white; }
+  .background h2 {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6; }
+
+.hiring {
+  margin-top: 120px;
+  margin-bottom: 50px; }
+  .hiring h1 {
+    font-size: 40px; }
+  .hiring h2 {
+    font-size: 30px; }
+  .hiring h3 {
+    font-size: 22px; }
+  .hiring p {
+    margin: 10px; }
+
+/*# sourceMappingURL=jobs.css.map */

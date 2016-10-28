@@ -1,8 +1,14 @@
+<div class="container-fluid background"> 
+	<div class="container">
+		<div class="col-md-6 topheader">
+			<h1>We are hiring</h1>
+			<h2>Nextcloud is looking for people who want to join our team</h2>
+		</div>
+	</div>
+</div>
+
 <div class="wrap container hiring">
 	<div class="page-header">
-		<h1>We are hiring!</h1>
-	</div>
-	<p>Nextcloud is looking for people who want to <a href="<?php echo home_url('team') ?>">join our team.</a></p>
 	<h2>Company description</h2>
 	<p>We are a modern, distributed, open source company. It is our mission to provide our users and customers with the means for data storage, access and communication under their control; protecting their privacy and security.</p>
 	<p>We pursue a fully-open strategy, keeping internal communication to a minimum while aiming to work, discuss and develop in public. We are a thriving, quickly growing company with a solid customer base. An open source background or experience contributing to Nextcloud is a big plus for job applicants!</p>
