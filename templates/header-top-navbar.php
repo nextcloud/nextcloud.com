@@ -17,11 +17,11 @@
 		<ul class="nav__sections">
 			<li class="nav__section"><a href="<?php echo home_url('about') ?>" class="nav__label">About us</a>
 				<ul class="nav__links">
-					<li class="nav__item"><a href="<?php echo home_url('about') ?>">Who we are</a></li>
-					<li class="nav__item"><a href="<?php echo home_url('contributors') ?>">Community</a></li>
-					<li class="nav__item"><a href="<?php echo home_url('team') ?>">Team</a></li>
-					<li class="nav__item"><a href="<?php echo home_url('jobs') ?>">Jobs</a></li>
-					<li class="nav__item"><a href="<?php echo home_url('code-on-conduct') ?>">Code of Conduct</a></li>
+					<li class="nav__item"><a>Who we are</a></li>
+					<li class="nav__item"><a>Community</a></li>
+					<li class="nav__item"><a>Team</a></li>
+					<li class="nav__item"><a>Jobs</a></li>
+					<li class="nav__item"><a>Code of Conduct</a></li>
 				</ul>
 			</li>
 
@@ -53,8 +53,8 @@
 			<li class="nav__section"><a href="<?php echo home_url('support') ?>" class="nav__label">Support</a>
 				<ul class="nav__links">
 					<li class="nav__item"><a href="<?php echo home_url('support') ?>">Support options</a></li>
-					<li class="nav__item"><a href="<?php echo $DOCUMENTATION_USER; ?>">">User Documentation</a></li>
-					<li class="nav__item"><a href="<?php echo $DOCUMENTATION_ADMIN; ?>">">Administrator</a></li>
+					<li class="nav__item"><a href="<?php echo $DOCUMENTATION_USER; ?>">User Documentation</a></li>
+					<li class="nav__item"><a href="<?php echo $DOCUMENTATION_ADMIN; ?>">Administrator</a></li>
 					<li class="nav__item"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">Developer</a></li>
 					<li class="nav__item"><a href="<?php echo home_url('security') ?>">Security</a></li>
 				</ul>
