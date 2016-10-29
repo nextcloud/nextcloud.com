@@ -20,72 +20,52 @@ enquire.register("screen and (max-width: 992px)", {
 
 $(window).load(function() {
     'use strict';
-    var section = $('.nav__sections:not(.enquire-mobile)');
-    var menus = $('.nav__section:not(.enquire-mobile)');
-    var bgWrapper = $('.nav__bg-wrapper:not(.enquire-mobile)');
-    var bg = $('.nav__bg:not(.enquire-mobile)');
 
-    console.log(bg.offset().left + ' posição do background')
+    $('.nav__section').on('mouseover', function (event) { 
+      
+	var bg = $(this).find('.nav__bg').first();
+        bg.addClass('is-animatable');
+	
+	var bgWrapper = $(this).find('.nav__bg-wrapper').first(); 
+	var menu = $(this).find('.nav__links').first();
+
+	bgWrapper.addClass('is-visible');
+	
+	var selectedDropdown = menu,
+	    height = selectedDropdown.innerHeight(),
+	    width = selectedDropdown.innerWidth(),
+	    liWidth = $(this).width(), // The total length of the li content text + padding
+	    aWidth =  $(this).find('a').first().width(), // The total length of the text
+	    half = liWidth - (aWidth/2);	
+
+	bg.css({
+	    'width': width +'px',
+	    'height': height +'px'
+	});
+	
+	// To set the arrow above the drop down menu in the middle of the link text
+	$('#nav-bg').text('.nav__bg:before { left: '+ half +'px}');
+    });
     
-    section.on('mouseover', function () {
-        setTimeout(function() {
-            bg.addClass('is-animatable');
-        });
+    $('.nav__section').on('mouseleave', function () {
+	var bg = $(this).find('.nav__bg').first();
+        bg.removeClass('is-animatable');
+	
+	var bgWrapper = $(this).find('.nav__bg-wrapper').first();   
+	bgWrapper.removeClass('is-visible');
+	$('#nav-bg').text();
     });
-
-    section.on('mouseleave', function () {
-        setTimeout(function() {
-            bg.removeClass('is-animatable');
-        });
-    });
-
-    $(menus).each(function(index, element) {
-        var menu = $(element);
-        menu.on('mouseover', function () {
-            bgWrapper.addClass('is-visible');
-            var selectedDropdown = menu.find('.nav__links');
-            window.test = menu.find('.nav__links');
-            
-            var formattedBord = $('.container').outerWidth() - $('.container').innerWidth();
-            var formattedPadd = $('.container').innerWidth() - $('.container').width();
-            var formattedMarg = $('.container').outerWidth(true) - $('.container').outerWidth();
-
-            var cssPadding = 30;
-            var height = selectedDropdown.innerHeight(),
-                width = selectedDropdown.innerWidth(),
-                left = menu.offset().left + cssPadding + (menu.innerWidth() - cssPadding)/2 ;
-                console.log(left + " Inital value of the element + half of the element")
-                console.log(formattedMarg/2 + " Margin container")
-                console.log(bg.offset().left + ' Background position')
-                
-            var centerLabel = left - (formattedMarg/2) - menu.innerWidth() ;
-            // console.log(left)
-            
-            bg.css({
-                '-moz-transform': 'translateX(' + centerLabel + 'px)',
-                '-webkit-transform': 'translateX(' + centerLabel + 'px)',
-                '-ms-transform': 'translateX(' + centerLabel + 'px)',
-                '-o-transform': 'translateX(' + centerLabel + 'px)',
-                'transform': 'translateX(' + centerLabel + 'px)',
-                'width': width +'px',
-                'height': height +'px'	
-            });
-        })
-        menu.on('mouseleave', function () {
-            bgWrapper.removeClass('is-visible');
-        });
-    });
-
+    
     /**
     * Listen to scroll to change header opacity class
     */
-    function checkScroll() {
-    var bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    function checkScroll() {      
+      var bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
       if (bodyScrollTop !== 0) {
-            $('.nav').addClass('scrolled');
-        } else {
-            $('.nav').removeClass('scrolled');
-        }
+	    $('.nav').addClass('scrolled');
+	} else {
+	    $('.nav').removeClass('scrolled');
+	}
     }
 
     if ($('.nav').length > 0) {
@@ -93,10 +73,9 @@ $(window).load(function() {
             checkScroll();
         });
     }
-});
 
-//Bodymovin menu Animation
-$(document).ready(function() {
+  //Bodymovin menu Animation
+
     var menuAnimation;
     var menuOpened = false;
     
@@ -130,16 +109,16 @@ $(document).ready(function() {
         menuAnimation.play();
         menuOpened = !menuOpened;
     });
-});
 
-/**
-* Mobile fullscreen trigger
-*/
-$(document).ready(function() {
+
+    /**
+    * Mobile fullscreen trigger
+    */
+
      $('#toggle').click(function() {
-     $(this).toggleClass('active');
-     $('.mobile-bg').toggleClass('active');
-     $('.nav__sections').toggleClass('mobile-active');
+      $(this).toggleClass('active');
+      $('.mobile-bg').toggleClass('active');
+      $('.nav__sections').toggleClass('mobile-active');
      });
 
     /**
@@ -185,4 +164,5 @@ $(document).ready(function() {
 
     // Fade In animation 
     $("#nav").velocity('transition.fadeIn', 1000 );
+    
 });

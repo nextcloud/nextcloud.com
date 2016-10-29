@@ -30,13 +30,8 @@
         }
 
         .nav__bg-wrapper {
-/*             position: absolute; */
-/*            left: 0;
-            top: 100%;     */       
-/*             opacity: 0; */
             -webkit-transition: 0.3s;
             transition: 0.3s;	    	    
-            /*will-change: opacity;*/
                 &.is-visible {
                     visibility: visible;
                     opacity: 1;		    
@@ -55,14 +50,12 @@
 		visibility: hidden;
 		position: absolute;
 		z-index: 1;
-		top: 100%;
+		top: 130%;
                 
                 &:before {
                 content: '';
                 position: absolute;
                 bottom: 100%;
-                left: 50%;
-                right: auto;
                 -webkit-transform: translateX(-50%);
                 -ms-transform: translateX(-50%);
                 transform: translateX(-50%);
@@ -120,20 +113,18 @@
 
                 .nav__links {
                     position: absolute;
-                    top: 100%;
-/*                     left: 0; */
-                    padding: 1.875em;
+                    padding: 1.5em;
                     visibility: hidden;
                     opacity: 0;
                     -webkit-transition: 0.3s;
                     transition: 0.3s;
                     list-style-type: none;
-		    margin: 0 0 0 -1em;
 
                     .nav__item {
                         color: #666;
-                        margin-top: 15px;
+                        margin-top: 5px;
                         white-space: nowrap;
+			margin-left: 10px;
 
                         a {
                             font-size: 16px;
@@ -149,7 +140,7 @@
         }
         
         .right-buttons{
-            position: absolute;
+/*             position: absolute; */
             top: 0;
             right: 0;
 

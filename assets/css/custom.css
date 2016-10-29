@@ -421,13 +421,8 @@ section#why-nextcloud {
         width: 71px;
         display: inline-block; }
     .nav .container .nav__bg-wrapper {
-      /*             position: absolute; */
-      /*            left: 0;
-                  top: 100%;     */
-      /*             opacity: 0; */
       -webkit-transition: 0.3s;
-      transition: 0.3s;
-      /*will-change: opacity;*/ }
+      transition: 0.3s; }
       .nav .container .nav__bg-wrapper.is-visible {
         visibility: visible;
         opacity: 1; }
@@ -444,13 +439,11 @@ section#why-nextcloud {
         visibility: hidden;
         position: absolute;
         z-index: 1;
-        top: 100%; }
+        top: 130%; }
         .nav .container .nav__bg-wrapper .nav__bg:before {
           content: '';
           position: absolute;
           bottom: 100%;
-          left: 50%;
-          right: auto;
           -webkit-transform: translateX(-50%);
           -ms-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -493,26 +486,24 @@ section#why-nextcloud {
           font-size: 16px; }
         .nav .container .nav__sections .nav__section .nav__links {
           position: absolute;
-          top: 100%;
-          /*                     left: 0; */
-          padding: 1.875em;
+          padding: 1.5em;
           visibility: hidden;
           opacity: 0;
           -webkit-transition: 0.3s;
           transition: 0.3s;
-          list-style-type: none;
-          margin: 0 0 0 -1em; }
+          list-style-type: none; }
           .nav .container .nav__sections .nav__section .nav__links .nav__item {
             color: #666;
-            margin-top: 15px;
-            white-space: nowrap; }
+            margin-top: 5px;
+            white-space: nowrap;
+            margin-left: 10px; }
             .nav .container .nav__sections .nav__section .nav__links .nav__item a {
               font-size: 16px;
               color: #555555; }
             .nav .container .nav__sections .nav__section .nav__links .nav__item:not(:last-of-type) {
               margin-bottom: 0.625em; }
     .nav .container .right-buttons {
-      position: absolute;
+      /*             position: absolute; */
       top: 0;
       right: 0; }
       .nav .container .right-buttons ul {
