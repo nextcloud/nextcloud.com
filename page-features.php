@@ -241,7 +241,7 @@
 				<li><?php
  echo $l->t('CalDAV and CardDAV sync with third party clients both on mobile and desktop (i.e with Thunderbird)');?></li>
 			</ul>
-			');?></p>
+			</p>
 		</div>
 	</div>
 </div>
