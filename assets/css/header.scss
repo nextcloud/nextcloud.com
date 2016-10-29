@@ -78,7 +78,7 @@
 		visibility: hidden;
 		position: absolute;
 		z-index: 1;
-		top: 130%;
+		top: 100%;
 		
 		&:before,&:after {
 		content: '';
@@ -123,11 +123,13 @@
             -ms-flex-pack: center;
             justify-content: center;
             list-style-type: none;
-            margin-top: 13px;
-	    position: relative;
+	    position: absolute;
+	    z-index: -1;	    
+	    left: 20%;	    
+	    top: 0%;
         
             .nav__section {
-                z-index: 3;
+		padding: 15px 0 15px 0;
                 &:hover {
                     .nav__label {
                         opacity: 0.6;

@@ -467,7 +467,7 @@ section#why-nextcloud {
         visibility: hidden;
         position: absolute;
         z-index: 1;
-        top: 130%; }
+        top: 100%; }
         .nav .container .nav__bg-wrapper .nav__bg:before, .nav .container .nav__bg-wrapper .nav__bg:after {
           content: '';
           position: absolute;
@@ -502,10 +502,12 @@ section#why-nextcloud {
       -ms-flex-pack: center;
       justify-content: center;
       list-style-type: none;
-      margin-top: 13px;
-      position: relative; }
+      position: absolute;
+      z-index: -1;
+      left: 20%;
+      top: 0%; }
       .nav .container .nav__sections .nav__section {
-        z-index: 3; }
+        padding: 15px 0 15px 0; }
         .nav .container .nav__sections .nav__section:hover .nav__label {
           opacity: 0.6;
           cursor: default;
