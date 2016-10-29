@@ -30,18 +30,16 @@
         }
 
         .nav__bg-wrapper {
-            position: absolute;
-            left: 0;
-            top: 100%;
-            visibility: hidden;
-            opacity: 0;
+/*             position: absolute; */
+/*            left: 0;
+            top: 100%;     */       
+/*             opacity: 0; */
             -webkit-transition: 0.3s;
-            transition: 0.3s;
-            will-change: opacity;
-
+            transition: 0.3s;	    	    
+            /*will-change: opacity;*/
                 &.is-visible {
                     visibility: visible;
-                    opacity: 1;
+                    opacity: 1;		    
                 }
 
             .nav__bg {
@@ -54,6 +52,10 @@
                 -webkit-transform-origin: left top;
                 transform-origin: left top;
                 will-change: transform;
+		visibility: hidden;
+		position: absolute;
+		z-index: 1;
+		top: 100%;
                 
                 &:before {
                 content: '';
@@ -73,6 +75,7 @@
                 &.is-animatable {
                 -webkit-transition: 0.3s;
                 transition: 0.3s;
+		visibility: visible;
                 }
             }
          }   
@@ -88,12 +91,10 @@
             justify-content: center;
             list-style-type: none;
             margin-top: 13px;
-
+	    position: relative;
         
             .nav__section {
-                position: relative;
                 z-index: 3;
-
                 &:hover {
                     .nav__label {
                         opacity: 0.6;
@@ -120,13 +121,14 @@
                 .nav__links {
                     position: absolute;
                     top: 100%;
-                    left: 0;
+/*                     left: 0; */
                     padding: 1.875em;
                     visibility: hidden;
                     opacity: 0;
                     -webkit-transition: 0.3s;
                     transition: 0.3s;
                     list-style-type: none;
+		    margin: 0 0 0 -1em;
 
                     .nav__item {
                         color: #666;
@@ -228,7 +230,7 @@
                     height: 25%;
                     height: calc(100% / 4);
                     min-height: 50px;
-                    position: relative;
+                    /*position: relative;*/
                     opacity: 1;
                     margin: 0;
                     opacity: 0;

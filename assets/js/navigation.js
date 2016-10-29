@@ -19,7 +19,7 @@ enquire.register("screen and (max-width: 992px)", {
 });
 
 $(window).load(function() {
-      'use strict';
+    'use strict';
     var section = $('.nav__sections:not(.enquire-mobile)');
     var menus = $('.nav__section:not(.enquire-mobile)');
     var bgWrapper = $('.nav__bg-wrapper:not(.enquire-mobile)');
@@ -68,7 +68,7 @@ $(window).load(function() {
                 '-o-transform': 'translateX(' + centerLabel + 'px)',
                 'transform': 'translateX(' + centerLabel + 'px)',
                 'width': width +'px',
-                'height': height +'px'
+                'height': height +'px'	
             });
         })
         menu.on('mouseleave', function () {

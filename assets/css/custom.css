@@ -421,14 +421,13 @@ section#why-nextcloud {
         width: 71px;
         display: inline-block; }
     .nav .container .nav__bg-wrapper {
-      position: absolute;
-      left: 0;
-      top: 100%;
-      visibility: hidden;
-      opacity: 0;
+      /*             position: absolute; */
+      /*            left: 0;
+                  top: 100%;     */
+      /*             opacity: 0; */
       -webkit-transition: 0.3s;
       transition: 0.3s;
-      will-change: opacity; }
+      /*will-change: opacity;*/ }
       .nav .container .nav__bg-wrapper.is-visible {
         visibility: visible;
         opacity: 1; }
@@ -441,7 +440,11 @@ section#why-nextcloud {
         border-radius: 4px;
         -webkit-transform-origin: left top;
         transform-origin: left top;
-        will-change: transform; }
+        will-change: transform;
+        visibility: hidden;
+        position: absolute;
+        z-index: 1;
+        top: 100%; }
         .nav .container .nav__bg-wrapper .nav__bg:before {
           content: '';
           position: absolute;
@@ -457,7 +460,8 @@ section#why-nextcloud {
           border-bottom-color: #FFFFFF; }
         .nav .container .nav__bg-wrapper .nav__bg.is-animatable {
           -webkit-transition: 0.3s;
-          transition: 0.3s; }
+          transition: 0.3s;
+          visibility: visible; }
     .nav .container .nav__sections {
       display: -webkit-box;
       display: -webkit-flex;
@@ -468,9 +472,9 @@ section#why-nextcloud {
       -ms-flex-pack: center;
       justify-content: center;
       list-style-type: none;
-      margin-top: 13px; }
+      margin-top: 13px;
+      position: relative; }
       .nav .container .nav__sections .nav__section {
-        position: relative;
         z-index: 3; }
         .nav .container .nav__sections .nav__section:hover .nav__label {
           opacity: 0.6;
@@ -490,13 +494,14 @@ section#why-nextcloud {
         .nav .container .nav__sections .nav__section .nav__links {
           position: absolute;
           top: 100%;
-          left: 0;
+          /*                     left: 0; */
           padding: 1.875em;
           visibility: hidden;
           opacity: 0;
           -webkit-transition: 0.3s;
           transition: 0.3s;
-          list-style-type: none; }
+          list-style-type: none;
+          margin: 0 0 0 -1em; }
           .nav .container .nav__sections .nav__section .nav__links .nav__item {
             color: #666;
             margin-top: 15px;
@@ -562,7 +567,7 @@ section#why-nextcloud {
       height: 25%;
       height: calc(100% / 4);
       min-height: 50px;
-      position: relative;
+      /*position: relative;*/
       opacity: 1;
       margin: 0;
       opacity: 0;
