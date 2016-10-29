@@ -23,8 +23,10 @@ $(window).load(function() {
 
     $('.nav__section').on('mouseover', function (event) { 
       
-	var bg = $(this).find('.nav__bg').first();
-        bg.addClass('is-animatable');
+	var bg = $(this).find('.nav__bg').first();        
+        setTimeout(function() {
+            bg.addClass('is-animatable');
+        });	
 	
 	var bgWrapper = $(this).find('.nav__bg-wrapper').first(); 
 	var menu = $(this).find('.nav__links').first();
@@ -48,8 +50,10 @@ $(window).load(function() {
     });
     
     $('.nav__section').on('mouseleave', function () {
-	var bg = $(this).find('.nav__bg').first();
-        bg.removeClass('is-animatable');
+	var bg = $(this).find('.nav__bg').first();        
+        setTimeout(function() {
+            bg.removeClass('is-animatable');
+        });	
 	
 	var bgWrapper = $(this).find('.nav__bg-wrapper').first();   
 	bgWrapper.removeClass('is-visible');
