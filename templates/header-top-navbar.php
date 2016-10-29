@@ -15,48 +15,48 @@
 		<div class="mobile-bg"></div>
 
 		<ul class="nav__sections">
-			<li class="nav__section"><a href="#0" class="nav__label">About us</a>
+			<li class="nav__section"><a href="<?php echo home_url('about') ?>" class="nav__label">About us</a>
 				<ul class="nav__links">
-					<li class="nav__item"><a href="#0">Who we are</a></li>
-					<li class="nav__item"><a href="#0">Community</a></li>
-					<li class="nav__item"><a href="#0">Team</a></li>
-					<li class="nav__item"><a href="#0">Jobs</a></li>
-					<li class="nav__item"><a href="#0">Code of Conduct</a></li>
+					<li class="nav__item"><a href="<?php echo home_url('about') ?>">Who we are</a></li>
+					<li class="nav__item"><a href="<?php echo home_url('contributors') ?>">Community</a></li>
+					<li class="nav__item"><a href="<?php echo home_url('team') ?>">Team</a></li>
+					<li class="nav__item"><a href="<?php echo home_url('jobs') ?>">Jobs</a></li>
+					<li class="nav__item"><a href="<?php echo home_url('code-on-conduct') ?>">Code of Conduct</a></li>
 				</ul>
 			</li>
 
-			<li class="nav__section"><a href="#0" class="nav__label">News</a>
+			<li class="nav__section"><a href="<?php echo home_url('news') ?>" class="nav__label">News</a>
 				<ul class="nav__links">
-					<li class="nav__item"><a href="#0">Blog</a></li>
-					<li class="nav__item"><a href="#0">Newsletter</a></li>
+					<li class="nav__item"><a href="<?php echo home_url('news') ?>">Blog</a></li>
+					<li class="nav__item"><a href="https://newsletter.nextcloud.com">Newsletter</a></li>
 				</ul>
 			</li>
 
-			<li class="nav__section"><a href="#0" class="nav__label">Features</a>
+			<li class="nav__section"><a href="<?php echo home_url('features') ?>" class="nav__label">Features</a>
 				<ul class="nav__links ">
-					<li class="nav__item"><a href="#0">Sharing</a></li>
-					<li class="nav__item"><a href="#0">Workflow</a></li>
-					<li class="nav__item"><a href="#0">Secure</a></li>
-					<li class="nav__item"><a href="#0">Collabora online</a></li>
-					<li class="nav__item"><a href="#0">Webrtc</a></li>
+					<li class="nav__item"><a href="<?php echo home_url('sharing') ?>">Sharing</a></li>
+					<li class="nav__item"><a href="<?php echo home_url('workflow') ?>">Workflow</a></li>
+					<li class="nav__item"><a href="<?php echo home_url('secure') ?>">Security</a></li>
+					<li class="nav__item"><a href="<?php echo home_url('collabora') ?>">Online office</a></li>
+					<li class="nav__item"><a href="<?php echo home_url('webrtc') ?>">Audio and video chat</a></li>
 				</ul>
 			</li>
 
-			<li class="nav__section"><a href="#0" class="nav__label">Enterprise</a>
+			<li class="nav__section"><a href="<?php echo home_url('enterprise') ?>" class="nav__label">Enterprise</a>
 				<ul class="nav__links">
-					<li class="nav__item"><a href="#0">Enterprise</a></li>
-					<li class="nav__item"><a href="#0">Subscripitions</a></li>
-					<li class="nav__item"><a href="#0">Pricing</a></li>
+					<li class="nav__item"><a href="<?php echo home_url('enterprise') ?>">Value of a subscription</a></li>
+					<li class="nav__item"><a href="<?php echo home_url('pricing') ?>">Pricing</a></li>
+					<li class="nav__item"><a href="<?php echo home_url('buy') ?>">Get an offer</a></li>
 				</ul>
 			</li>
 
-			<li class="nav__section"><a href="#0" class="nav__label">Support</a>
+			<li class="nav__section"><a href="<?php echo home_url('support') ?>" class="nav__label">Support</a>
 				<ul class="nav__links">
-					<li class="nav__item"><a href="#0">Support options</a></li>
-					<li class="nav__item"><a href="#0">User Documentation</a></li>
-					<li class="nav__item"><a href="#0">Administrator</a></li>
-					<li class="nav__item"><a href="#0">Developer</a></li>
-					<li class="nav__item"><a href="#0">Security</a></li>
+					<li class="nav__item"><a href="<?php echo home_url('support') ?>">Support options</a></li>
+					<li class="nav__item"><a href="<?php echo $DOCUMENTATION_USER; ?>">">User Documentation</a></li>
+					<li class="nav__item"><a href="<?php echo $DOCUMENTATION_ADMIN; ?>">">Administrator</a></li>
+					<li class="nav__item"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>">Developer</a></li>
+					<li class="nav__item"><a href="<?php echo home_url('security') ?>">Security</a></li>
 				</ul>
 			</li>
 		</ul>
