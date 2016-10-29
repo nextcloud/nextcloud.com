@@ -44,7 +44,7 @@ $(window).load(function() {
 	});
 	
 	// To set the arrow above the drop down menu in the middle of the link text
-	$('#nav-bg').text('.nav__bg:before { left: '+ half +'px}');
+	$('#nav-bg').text('.nav__bg:before, .nav__bg:after { left: '+ half +'px}');
     });
     
     $('.nav__section').on('mouseleave', function () {
