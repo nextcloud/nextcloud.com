@@ -3,7 +3,7 @@
 
 
 		<div class="brand">
-			<div class="logo"></div>
+			<a href="<?php echo home_url('homepage') ?>"><div class="logo"></div></a>
 		</div>
 
 		<button type="button" class="navbar-toggle collapsed" id="toggle">
