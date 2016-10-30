@@ -1,7 +1,7 @@
 <div class="pr">
 <h1>Nextcloud GmbH continues growth path with addition of Head of Sales</h1>
 
-<p><strong>Stuttgart, Germany, August 27, 2016</strong> Nextcloud GmbH, the company behind the next generation privacy-aware open source file sync and share technology continues its aggressive growth strategy with the addition of Andreas Rode as Head of Sales, responsible for driving the Nextcloud sales efforts.</p>
+<p><strong>Stuttgart, Germany, October 27, 2016</strong> Nextcloud GmbH, the company behind the next generation privacy-aware open source file sync and share technology continues its aggressive growth strategy with the addition of Andreas Rode as Head of Sales, responsible for driving the Nextcloud sales efforts.</p>
 
 <p>Andreas brings significant sales experience and proven success to Nextcloud, with a background in cloud technologies at Google and EMC. Throughout his career he was responsible for the account management for large industry customers at Oracle and also for global accounts. Later he had build up the partner sales for EMC and started the cloud business for Google in central Europe. Andreas has broad people management experience, build up teams of Account Managers and Sales Consultants and was leading sales teams in different positions. He is specialized in IT/Internet Infrastructure, Enterprise Solutions and Online/Mobile Solutions as well as for small companies as for global enterprises. During his career he was working together with partners in several industries like Automotive, Telecommunication, FMCG, Finance and Media. </p>
 
