@@ -78,7 +78,7 @@
 				      </div>
 				</li>
 				<li class="nav__section"><a href="https://demo.nextcloud.com/" class="nav__label">Demo</a></li>
-				<li class="nav__section"><a href="<?php echo home_url('install') ?>" class="nav__label">Download</a></li>
+				<li class="install-btn"><a href="<?php echo home_url('install') ?>">Download</a></li>
 			</ul>
 		</div>
 		</div>
