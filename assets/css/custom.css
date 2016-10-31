@@ -554,6 +554,32 @@ section#why-nextcloud {
           font-size: 16px; }
           .nav .container .right-buttons ul li a {
             color: white; }
+    .nav .container .install-btn {
+      margin: -5px 0px 0px 30px;
+      /* 		position: relative; */
+      /* 		display: table-cell; */
+      /* 		background-color: transparent; */
+      /*width: 150px;*/ }
+      .nav .container .install-btn a {
+        width: auto;
+        height: auto;
+        padding: 20px 50px 20px 50px;
+        vertical-align: middle;
+        border: 1px solid white;
+        border-radius: 100px;
+        transition: all 0.3s ease 0s;
+        /* 			position: relative; */
+        display: block;
+        border-radius: 100px;
+        color: white;
+        text-decoration: none;
+        background-color: transparent;
+        box-sizing: border-box;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center; }
+      .nav .container .install-btn a:hover {
+        background-color: #006aa3; }
 
 @media (max-width: 992px) {
   .nav .container .mobile-bg {
