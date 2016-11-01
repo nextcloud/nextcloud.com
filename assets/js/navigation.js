@@ -1,27 +1,38 @@
-//Enquire.js This hides the list on hover in the mobile
-enquire.register("screen and (max-width: 992px)", {
-
-  // Triggered when the media query transitions
-  // from *unmatched* to *matched*
-  match : function() {
-    $(".nav__sections").addClass("enquire-mobile")
-    $(".nav__section").addClass("enquire-mobile")
-    $(".nav__bg-wrapper").addClass("enquire-mobile")
-    $(".nav__bg").addClass("enquire-mobile")
-  },
-  
-  // Triggered when the media query transitions 
-  // from a *matched* to *unmatched*                        
-  unmatch : function() {
-
-  },    
-                                        
-});
-
 $(window).load(function() {
+
+    //Enquire.js This hides the list on hover in the mobile
+    enquire.register("screen and (max-width: 992px)", {
+
+      // Triggered when the media query transitions
+      // from *unmatched* to *matched*
+      match : function() {
+        showListMobile();
+      },
+      
+    // Triggered when the media query transitions 
+    // from a *matched* to *unmatched*                        
+    unmatch : function() {
+
+      },    
+                                            
+    });
+
+
+    function showListMobile() {
+        console.log('it works');
+         
+        $('.nav__section').click(function () {
+            $('span', this).toggle();
+        });
+        //toggle list
+        $('.nav__section').click(function () {
+            $('.nav__item').toggle('slow');
+        });
+    }
+
     'use strict';
 
-    $('.nav__section').on('mouseover', function (event) { 
+    $('.nav__section:not(.enquire-mobile)').on('mouseover', function (event) { 
       
 	var bg = $(this).find('.nav__bg').first();        
         setTimeout(function() {

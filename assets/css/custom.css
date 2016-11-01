@@ -422,35 +422,7 @@ section#why-nextcloud {
         display: inline-block; }
     .nav .container .nav__bg-wrapper {
       -webkit-transition: 0.3s;
-      transition: 0.3s;
-      /*.arrow_box {
-      	position: relative;
-      	background: #fff;
-      	border: 1px solid #ccc;
-      }
-      .arrow_box:after, .arrow_box:before {
-      	bottom: 100%;
-      	left: 50%;
-      	border: solid transparent;
-      	content: " ";
-      	height: 0;
-      	width: 0;
-      	position: absolute;
-      	pointer-events: none;
-      }
-      
-      .arrow_box:after {
-      	border-color: rgba(255, 255, 255, 0);
-      	border-bottom-color: #fff;
-      	border-width: 10px;
-      	margin-left: -10px;
-      }
-      .arrow_box:before {
-      	border-color: rgba(204, 204, 204, 0);
-      	border-bottom-color: #ccc;
-      	border-width: 11px;
-      	margin-left: -11px;
-      }*/ }
+      transition: 0.3s; }
       .nav .container .nav__bg-wrapper.is-visible {
         visibility: visible;
         opacity: 1; }
@@ -542,9 +514,12 @@ section#why-nextcloud {
             .nav .container .nav__sections .nav__section .nav__links .nav__item:not(:last-of-type) {
               margin-bottom: 0.625em; }
     .nav .container .right-buttons {
-      /*             position: absolute; */
+      position: absolute;
       top: 0;
       right: 0; }
+      .nav .container .right-buttons .ghost-btn {
+        text-align: center;
+        position: relative; }
       .nav .container .right-buttons ul {
         margin-top: 13px; }
         .nav .container .right-buttons ul li {
@@ -554,32 +529,6 @@ section#why-nextcloud {
           font-size: 16px; }
           .nav .container .right-buttons ul li a {
             color: white; }
-    .nav .container .install-btn {
-      margin: -5px 0px 0px 30px;
-      /* 		position: relative; */
-      /* 		display: table-cell; */
-      /* 		background-color: transparent; */
-      /*width: 150px;*/ }
-      .nav .container .install-btn a {
-        width: auto;
-        height: auto;
-        padding: 20px 50px 20px 50px;
-        vertical-align: middle;
-        border: 1px solid white;
-        border-radius: 100px;
-        transition: all 0.3s ease 0s;
-        /* 			position: relative; */
-        display: block;
-        border-radius: 100px;
-        color: white;
-        text-decoration: none;
-        background-color: transparent;
-        box-sizing: border-box;
-        font-size: 16px;
-        font-weight: 600;
-        text-align: center; }
-      .nav .container .install-btn a:hover {
-        background-color: #006aa3; }
 
 @media (max-width: 992px) {
   .nav .container .mobile-bg {
