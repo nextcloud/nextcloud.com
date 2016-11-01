@@ -25,8 +25,9 @@ you to sync between your devices and share with others.');?></p>
 			<p><?php echo $l->t('1 TB USB3 hard drive from WDLabs');?></p>
 			<p><?php echo $l->t('Nextcloud case with room for the drive and a compute board');?></p>
 			<p><?php echo $l->t('microUSB charger, cables and adapters, a screw driver and screws');?></p>
-			<p><?php echo $l->t('microSD card with Snappy Ubuntu Core as OS Apache, MySQL and the latest Nextcloud 10 pre-installed and ready to go');?></p>
+			<p><?php echo $l->t('microSD card with Snappy Ubuntu Core as OS, including Apache, MySQL and the latest Nextcloud 10 pre-installed and ready to go');?></p>
 			<p><?php echo $l->t('The Box is compatible with the Raspberry Pi 2 and 3, and also with oDroid C2 (not included).');?></p>
+			<p><?php echo $l->t('Right now, the OS only works with the Raspberry Pi 2. Software support for Raspberry Pi 3 is planned for November 2016, there is no plan for oDroid C2 yet.');?></p>
 		</div>
 	</div>
 </section>
