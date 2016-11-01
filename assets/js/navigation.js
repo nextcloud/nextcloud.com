@@ -13,26 +13,18 @@ $(window).load(function() {
     // from a *matched* to *unmatched*                        
     unmatch : function() {
 
-      },    
-                                            
+      },                                                
     });
 
-
     function showListMobile() {
-        console.log('it works');
-         
-        $('.nav__section').click(function () {
-            $('span', this).toggle();
-        });
-        //toggle list
-        $('.nav__section').click(function () {
-            $('.nav__item').toggle('slow');
+        $('.nav__section').click(function() {
+            $(this).find("span").append($(".nav__item"));
         });
     }
 
     'use strict';
 
-    $('.nav__section:not(.enquire-mobile)').on('mouseover', function (event) { 
+    $('.nav__section').on('mouseover', function (event) { 
       
 	var bg = $(this).find('.nav__bg').first();        
         setTimeout(function() {

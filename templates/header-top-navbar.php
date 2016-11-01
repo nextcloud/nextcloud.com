@@ -3,7 +3,7 @@
 		<div class="brand">
 			<a href="<?php echo home_url('homepage') ?>"><div class="logo"></div></a>
 		</div>
-
+ 
 		<button type="button" class="navbar-toggle collapsed" id="toggle">
 			<div class="menu-animation" data-animation-path="img/menu/black/" data-anim-loop="false" data-name="menu-black" id="menu-black"</div>
 		</button>
