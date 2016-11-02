@@ -7,13 +7,16 @@ $(window).load(function() {
       // from *unmatched* to *matched*
       match : function() {
         showListMobile();
-      },
-      
-    // Triggered when the media query transitions 
-    // from a *matched* to *unmatched*                        
-    unmatch : function() {
+      },                                         
+    });
+
+    enquire.register("screen and (min-width: 993px)", {
+
+      // Triggered when the media query transitions
+      // from *unmatched* to *matched*
+      match : function() {
         desktopDropdown();
-      },                                                
+      },                                         
     });
 
     function showListMobile() {
