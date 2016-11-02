@@ -1,5 +1,5 @@
 $(window).load(function() {
-
+    'use strict';
     //Enquire.js This hides the list on hover in the mobile
     enquire.register("screen and (max-width: 992px)", {
 
@@ -12,17 +12,17 @@ $(window).load(function() {
     // Triggered when the media query transitions 
     // from a *matched* to *unmatched*                        
     unmatch : function() {
-
+        desktopDropdown();
       },                                                
     });
 
     function showListMobile() {
-        $('.nav__section').click(function() {
-            $(this).find("span").append($(".nav__item"));
+        $(".nav__section").click(function() {
+            $(this).append($(".nav__item", this));
         });
     }
 
-    'use strict';
+    function desktopDropdown() {
 
     $('.nav__section').on('mouseover', function (event) { 
       
@@ -62,6 +62,7 @@ $(window).load(function() {
 	bgWrapper.removeClass('is-visible');
 	$('#nav-bg').text();
     });
+    };
     
     /**
     * Listen to scroll to change header opacity class
