@@ -21,7 +21,7 @@ $(window).load(function() {
 
     function showListMobile() {
         
-        $("#nav").addClass("mobile")
+        $("#nav").addClass("mobile");
 
         /**
         * Mobile fullscreen trigger
@@ -34,13 +34,12 @@ $(window).load(function() {
             $(".right-buttons").toggleClass("mobile-active");            
         });
 
-
-
-        $(".nav__section").click(function() {
-            $(".nav__links").removeClass("active");
-            $(".nav__sections-wrapper").removeClass("mobile-active");
-            $(".nav__links", this).addClass("active");
-            $(".nav__sections-wrapper").addClass("mobile-active");
+        $(".nav__section").click(function(e) {
+                e.preventDefault();
+                var $this = $(this).parent().find('nav__links');
+                $(".nav__links").not($this).hide();
+            $(".nav__links", this).toggleClass("active");
+            $(".nav__sections-wrapper").toggleClass("mobile-active");
         });
     }
 
