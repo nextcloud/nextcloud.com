@@ -143,6 +143,19 @@
 	</div>
 	<div class="col-md-4">
 		<div class="teamp">
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+			<h2 class="teamname">Artur Bergen</h2>
+			<div class="teammeta">
+				<h3 class="teamtitle">Software Engineer</h3>
+				<h4 class="teamexpertise">Spreedbox, Spreed.ME</h4>
+				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+				<p class="teamsocial"><a href="https://de.linkedin.com/in/artur-bergen-3b113090"><i class="icon-rss icon"></i></a> <a href="https://github.com/artberg"><i class="icon-github icon"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="icon-twitter icon"></i></a>--> </p>
+			</div>
+			<p class="teamdescription">Artur is graduated Interface Designer (B.A.) and he is currently doing his second Bachelor in Media Informatics (B.Sc.), Stuttgart. His primary tasks lie in the development of the Spreedbox and Spreed.ME hard- and software components.</p>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="teamp">
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/arthur.jpg" />
 			<h2 class="teamname">Arthur Schiwon</h2>
 			<div class="teammeta">
@@ -178,6 +191,19 @@
 				<p class="teamsocial"><a href="http://blog.wuc.me/"><i class="icon-rss icon"></i></a> <a href="https://github.com/ChristophWurst"><i class="icon-github icon"></i></a> <a href="https://twitter.com/ChristophWurst"><i class="icon-twitter icon"></i></a> </p>
 			</div>
 			<p class="teamdescription">Christoph has been contributing to the project since 2014. He is currently doing his Software Engineering master at the University of Applied Sciences Upper Austria.</p>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="teamp">
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+			<h2 class="teamname">Dirk Farin</h2>
+			<div class="teammeta">
+				<h3 class="teamtitle">Research Scientist and Software Engineer</h3>
+				<h4 class="teamexpertise">WebRTC, Codecs, Spreed.ME</h4>
+				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+				<p class="teamsocial"><a href="http://www.dirk-farin.net/"><i class="icon-rss icon"></i></a> <a href="https://github.com/farindk"><i class="icon-github icon"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="icon-twitter icon"></i></a>--> </p>
+			</div>
+			<p class="teamdescription">Dirk graduated from the University of Stuttgart, Germany and received his PhD from the University of Technology in Eindhoven. He worked on MPEG-4 video coding, panoramic video visualiation and compression for 3-D television at universities and research institutions in Europe and the United States and currently workes on an ope source H.265 decoding/encoding library.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
