@@ -11,7 +11,9 @@
 								<a class="btn btn-primary btn-large" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>"><?php echo $l->t('Download Nextcloud');?></a>
 							</div>
 							<p><?php echo $l->t('Follow the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation"><?php echo $l->t('Nextcloud Admin Manuals</a> installation chapter.</br>
-							If you already run Nextcloud, refer to the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html"><?php echo $l->t('upgrade manual');?>.</a></p>
+							If you already run Nextcloud, refer to the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html"><?php echo $l->t('upgrade manual.');?></a><br/>
+							<?php echo $l->t('<a href="/enterprise">Need enterprise support?</a>');?></p>
+							
 							<a class="btn btn-default" data-toggle="collapse" href="#more">Details and Download options</a>
 							<div class="collapse" id="more">
 								<ol>

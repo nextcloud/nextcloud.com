@@ -15,9 +15,6 @@
 			<a class="btn btn-default btn-large" href="/devices">Devices</a>
 			<a class="btn btn-default btn-large" href="/providers">Providers</a>
 		</div>
-		<br />
-<!--       <a class="btn btn-default btn-lg" role="button" href="/hardware-TBD">Servers</a> - disabled for now, until we have a page like that... -->
-      <!--<a class="btn btn-default btn-lg" role="button" href="/providers" rel="tooltip" title="Third Party Nextcloud Providers">Providers</a>-->
 	</div>
 	<div class="col-md-4  col-md-offset-2">
 		<hr class="narrow"></hr>
@@ -38,7 +35,7 @@
     <p><?php echo $l->t('Browse hundreds of free apps and connect services you use to Nextcloud:');?></p>
      <div class="btn-group">
         <a class="btn btn-default btn-lg" role="button" href="https://apps.nextcloud.com" target="_blank" rel="tooltip" title="The Nextcloud Appstore">Nextcloud Apps</a>
-        <a class="btn btn-default btn-lg" role="button" href="https://github.com/nextcloud/core/wiki/Apps" target="_blank" rel="tooltip" title="3rd Party App List on the Nextcloud Wiki">3rd Party Apps</a>
+        <a class="btn btn-default btn-lg" role="button" href="https://github.com/nextcloud/server/wiki/Apps" target="_blank" rel="tooltip" title="3rd Party App List on the Nextcloud Wiki">3rd Party Apps</a>
       </div>
   </div>-->
 </div>
@@ -55,10 +52,10 @@
 		<h2><?php echo $l->t('Read the documentation');?></h2>
 		<p><?php echo $l->t('Here you can find our manuals:');?></p>
 		<ul>
-			<li><a href="<?php echo $DOCUMENTATION_USER; ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('End User Documentation">Users');?></a></li>
-			<li><a href="<?php echo $DOCUMENTATION_ADMIN; ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">Admins');?></a></li>
-			<li><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud Developer Documentation">Developers');?></a></li>
-			<li><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/" target="_blank" rel="tooltip" title="<?php echo $l->t('Information for Testers">Testers');?></a></li>
+			<li><?php echo $l->t('<a href="<?php echo $DOCUMENTATION_USER; ?>" target="_blank" rel="tooltip" title="End User Documentation">Users</a>');?></li>
+			<li><?php echo $l->t('<a href="<?php echo $DOCUMENTATION_ADMIN; ?>" target="_blank" rel="tooltip" title="Nextcloud administrator Documentation">Admins</a>');?></li>
+			<li><?php echo $l->t('<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank" rel="tooltip" title="Nextcloud Developer Documentation">Developers</a>');?></li>
+			<li><?php echo $l->t('<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/" target="_blank" rel="tooltip" title="Information for Testers">Testers</a>');?></li>
 		</ul>
 	</div>
 	<div class="col-md-4">
@@ -69,11 +66,11 @@
 		<h2><?php echo $l->t('Need help?');?></h2>
 		<p><?php echo $l->t('Discuss using, installing or maintaining Nextcloud in our support channels.');?></p>
 		<ul>
-			<li><a href="http://help.nextcloud.com" target="_blank" rel="tooltip" title="<?php echo $l->t('The Nextcloud User Forums">Forum</a>');?></li>
-			<li><a href="irc://#nextcloud@freenode.net" target="_blank" rel="tooltip" title="<?php echo $l->t('The Nextcloud IRC Channel">IRC Channel</a> (<a href="http://webchat.freenode.net/?channels=nextcloud" target="_blank"  rel="tooltip" title="Web interface to the Nextcloud IRC Channel">Webchat</a>)');?></li>
+			<li><?php echo $l->t('The<a href="http://help.nextcloud.com" target="_blank" rel="tooltip" title=" Nextcloud User Forums">Forum</a>');?></li>
+			<li><?php echo $l->t('<a href="irc://#nextcloud@freenode.net" target="_blank" rel="tooltip" title="The Nextcloud IRC Channel">IRC Channel</a> (<a href="http://webchat.freenode.net/?channels=nextcloud" target="_blank"  rel="tooltip" title="Web interface to the Nextcloud IRC Channel">Webchat</a>)');?></li>
 		</ul>
-		<p><?php echo $l->t('These consist of users helping each other. Consider helping out others, too! <a href="/enterprise">Need enterprise support?</a>');?></p>
-		<!--     <p><?php echo $l->t('Find <a href="/support" target="_blank" rel="tooltip" title="An overview of where to find help">more support resources here</a>.');?></p> -->
+		<p><?php echo $l->t('These consist of users helping each other. Consider helping out others, too!');?><br />
+		<?php echo $l->t('<a href="/enterprise">Need enterprise support?</a>');?></p>
 	</div>
 	<a name="testing"></a>
 	<div class="col-md-4">
