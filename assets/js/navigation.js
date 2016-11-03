@@ -34,7 +34,7 @@ $(window).load(function() {
             $(".right-buttons").toggleClass("mobile-active");            
         });
 
-        
+
 
         $(".nav__section").click(function() {
             $(".nav__links").removeClass("active");

@@ -576,14 +576,11 @@ section#why-nextcloud {
       transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
       transition-delay: initial; }
   .nav .container .nav__sections-wrapper {
-    text-align: center;
     margin: 0 auto;
     display: inline-block;
     position: fixed;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    top: 90px;
+    margin-left: 60px;
     z-index: 2;
     padding: 0; }
     .nav .container .nav__sections-wrapper .nav__sections {
@@ -607,14 +604,17 @@ section#why-nextcloud {
           text-decoration: none; }
       .nav .container .nav__sections-wrapper .nav__sections.mobile-active {
         display: block;
-        color: white; }
+        color: white;
+        margin: 0; }
         .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section {
           animation: fadeInRight .5s ease forwards;
           animation-delay: .35s; }
           .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section .nav__label {
-            font-size: 4vh;
-            padding-top: 2vh;
-            padding-left: 0; }
+            font-size: 35px;
+            line-height: 45px;
+            padding-left: 0;
+            letter-spacing: -2px;
+            font-weight: 600; }
           .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section:nth-of-type(2) {
             animation-delay: .4s; }
           .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section:nth-of-type(3) {
@@ -636,14 +636,18 @@ section#why-nextcloud {
           .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__bg .nav__links {
             display: none;
             position: relative;
-            text-align: center;
             padding: 0; }
-            .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__bg .nav__links .nav__item a {
-              font-size: 3vh;
-              padding-top: 1.5vh;
-              color: white; }
+            .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__bg .nav__links .nav__item {
+              margin-left: 0; }
+              .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__bg .nav__links .nav__item a {
+                font-size: 30px;
+                line-height: 39px;
+                color: white;
+                margin-left: 0;
+                font-weight: 100;
+                letter-spacing: -2px; }
             .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__bg .nav__links.active {
-              display: block;
+              display: inline;
               visibility: visible;
               opacity: 1; }
     .nav .container .nav__sections-wrapper .right-buttons {
@@ -656,9 +660,13 @@ section#why-nextcloud {
         opacity: 1;
         transition-delay: .65s; }
       .nav .container .nav__sections-wrapper .right-buttons .nav__section {
-        font-size: 4vh;
-        padding-top: 2vh;
+        font-size: 35px;
+        line-height: 45px;
+        padding-left: 0;
+        letter-spacing: -2px;
+        font-weight: 600;
         display: block;
+        text-align: left;
         padding-left: 0;
         height: calc(100% / 7);
         animation: fadeInRight .5s ease forwards; } }
@@ -693,6 +701,8 @@ section#why-nextcloud {
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09); }
     .nav.scrolled .logo {
       background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain !important; }
+    .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons .nav__section .nav__label {
+      color: #555555; }
 
 .nav.mobile .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.mobile .nav__sections-wrapper .right-buttons .nav__section .nav__label {
   color: #white; }

@@ -253,14 +253,16 @@
             }
 
             .nav__sections-wrapper {
-                text-align: center;
+                //text-align: center;
                 margin: 0 auto;
                 display: inline-block;
                 position: fixed;
-                top: 50%;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
+                top: 90px;
+                margin-left: 60px;
+                //top: 50%;
+                //left: 50%;
+                //-webkit-transform: translate(-50%, -50%);
+                //transform: translate(-50%, -50%);
                 z-index: 2;
                 padding: 0;
 
@@ -293,15 +295,18 @@
                     &.mobile-active {
                         display: block;
                         color: white;
+                        margin: 0;
 
                             .nav__section {
                                 animation: fadeInRight .5s ease forwards;
                                 animation-delay: .35s;
 
                                 .nav__label {
-                                    font-size: 4vh;
-                                    padding-top: 2vh;
+                                    font-size: 35px;
+                                    line-height: 45px;
                                     padding-left: 0;
+                                    letter-spacing: -2px;
+                                    font-weight: 600;
                                 }
 
                                 &:nth-of-type(2) {
@@ -334,19 +339,24 @@
                                 .nav__links {
                                     display: none;
                                     position: relative;
-                                    text-align: center;
+                                    //text-align: center;
                                     padding: 0;
                                     
                                     .nav__item {
+                                        margin-left: 0;
+
                                         a {
-                                            font-size: 3vh;
-                                            padding-top: 1.5vh;
+                                            font-size: 30px;
+                                            line-height: 39px;
                                             color: white;
+                                            margin-left: 0;
+                                            font-weight: 100;
+                                            letter-spacing: -2px
                                         }
                                     }
 
                                     &.active {
-                                        display: block;
+                                        display: inline;
                                         visibility: visible;
                                         opacity: 1;
                                     }
@@ -368,9 +378,13 @@
                     }
 
                     .nav__section {
-                        font-size: 4vh;
-                        padding-top: 2vh;
+                        font-size: 35px;
+                        line-height: 45px;
+                        padding-left: 0;
+                        letter-spacing: -2px;
+                        font-weight: 600;
                         display: block;
+                        text-align: left;
                         padding-left:0;
                         height: calc(100% / 7);
                         animation: fadeInRight .5s ease forwards;
@@ -427,6 +441,17 @@
         .logo {
             background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain !important;
         }
+
+        .nav__sections-wrapper {
+
+            .nav__sections, .right-buttons {
+                
+                .nav__section .nav__label {
+                    color: $medium-grey;
+                }
+            }
+        }
+
     }
 }
 
