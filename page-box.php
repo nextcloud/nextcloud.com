@@ -48,7 +48,7 @@ you to sync between your devices and share with others.');?></p>
 					<li><?php echo $l->t('<a href="http://shop.wdc.com/promo/4828823900" target="_blank">Buy in France </a>');?></li>
 					<li><?php echo $l->t('<a href="http://shop.wdc.com/promo/4828824000" target="_blank">Buy in Italy </a>');?></li>
 					<li><?php echo $l->t('<a href="http://shop.wdc.com/promo/4828824100" target="_blank">Buy in the Netherlands </a>');?></li>
-					<li><?php echo $l->t('<a href="http://shop.wdc.com/promo/4828824200" target="_blank">Buy in rest of Europe </a>');?></li>
+					<li><?php echo $l->t('<a href="http://shop.wdc.com/promo/4832872800" target="_blank">Buy in rest of Europe </a>');?></li>
 				</ul>
 			</div>
 		</div>
