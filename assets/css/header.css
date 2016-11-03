@@ -29,7 +29,7 @@
         height: 1px;
         background: white;
         box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.11);
-        border: solid 1px #ccc;
+        border: solid 1px #f1f1f1;
         border-radius: 4px;
         -webkit-transform-origin: left top;
         transform-origin: left top;
@@ -51,13 +51,13 @@
         .nav .container .nav__bg-wrapper .nav__bg:after {
           border-color: rgba(255, 255, 255, 0);
           border-bottom-color: #fff;
-          border-width: 8px;
+          border-width: 7px;
           margin-left: -8px; }
         .nav .container .nav__bg-wrapper .nav__bg:before {
           border-color: rgba(204, 204, 204, 0);
-          border-bottom-color: #ccc;
+          border-bottom-color: #f1f1f1;
           border-width: 9px;
-          margin-left: -9px; }
+          margin-left: -8px; }
         .nav .container .nav__bg-wrapper .nav__bg.is-animatable {
           -webkit-transition: 0.3s;
           transition: 0.3s;
@@ -118,6 +118,12 @@
       .nav .container .right-buttons .ghost-btn {
         text-align: center;
         position: relative; }
+        .nav .container .right-buttons .ghost-btn a {
+          padding-right: 25px; }
+        .nav .container .right-buttons .ghost-btn:hover {
+          opacity: 0.6; }
+          .nav .container .right-buttons .ghost-btn:hover a {
+            text-decoration: none; }
       .nav .container .right-buttons ul {
         margin-top: 13px; }
         .nav .container .right-buttons ul li {
