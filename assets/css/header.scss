@@ -157,13 +157,14 @@
             position: absolute;
             top: 0;
             right: 0;
+            margin-top: 15px;
 
             .ghost-btn {
                 text-align: center;
                 position: relative;
 
                 a {
-                    padding-right: 25px;
+                    padding-right: 10px;
                 }
         
                  &:hover {
@@ -175,18 +176,14 @@
                  }
             }
 
-            ul {
-                margin-top: 13px;
+            li {
+                display: inline-block;
+                padding-left: 30px;
+                padding-bottom: 5px;
+                font-size: 16px;
 
-                li {
-                    display: inline-block;
-                    padding-left: 30px;
-                    padding-bottom: 5px;
-                    font-size: 16px;
-
-                    a {
-                        color: white;
-                    }
+                a {
+                    color: white;
                 }
             }
         }
@@ -244,92 +241,110 @@
                 }
             }
 
-            .nav__sections {
-                display: none;
+            .nav__sections-wrapper {
 
-                .nav__section {
-                    display: block;
-                    height: 25%;
-                    height: calc(100% / 4);
-                    min-height: 50px;
-                    /*position: relative;*/
-                    opacity: 1;
-                    margin: 0;
-                    opacity: 0;
-                    color: white;
+                .nav__sections {
+                    display: none;
 
-                    &:last-child{
-                        font-weight: 500;
-                    }
-
-                    a {
+                    .nav__section {
+                        display: block;
+                        height: 25%;
+                        height: calc(100% / 4);
+                        min-height: 50px;
+                        /*position: relative;*/
+                        opacity: 1;
+                        margin: 0;
+                        opacity: 0;
                         color: white;
-                        text-decoration: none;
-                    }
-                }
 
-                &.mobile-active {
-                    display: block;
-                    color: white;
-                    text-align: center;
-                    margin: 0 auto;
-                    display: inline-block;
-                    position: fixed;
-                    top: 50%;
-                    left: 50%;
-                    -webkit-transform: translate(-50%, -50%);
-                    transform: translate(-50%, -50%);
-                    z-index: 2;
-                    padding: 0;
-
-                        .nav__section {
-                            animation: fadeInRight .5s ease forwards;
-                            animation-delay: .35s;
-
-                            .nav__label {
-                                font-size: 4vh;
-                                padding-top: 2vh;
-                                padding-left: 0;
-                            }
-
-                            &:nth-of-type(2) {
-                                animation-delay: .4s;
-                            }
-                            &:nth-of-type(3) {
-                                animation-delay: .45s;
-                            }
-                            &:nth-of-type(4) {
-                                animation-delay: .50s;
-                            }
-                            &:nth-of-type(5) {
-                                animation-delay: .55s;
-                            }
-                            &:nth-of-type(6) {
-                                animation-delay: .60s;
-                            }
-                            &:nth-of-type(7) {
-                                animation-delay: .65s;
-                            }
-                            &:nth-of-type(8) {
-                                animation-delay: .70s;
-                            }
+                        &:last-child{
+                            font-weight: 500;
                         }
-                        .nav__bg {
-                            position: relative;
 
-                            .nav__links {
-                                display: none;
+                        a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
 
-                                &.active {
-                                    display: block;
+                    &.mobile-active {
+                        display: block;
+                        color: white;
+                        text-align: center;
+                        margin: 0 auto;
+                        display: inline-block;
+                        position: fixed;
+                        top: 50%;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
+                        z-index: 2;
+                        padding: 0;
+
+                            .nav__section {
+                                animation: fadeInRight .5s ease forwards;
+                                animation-delay: .35s;
+
+                                .nav__label {
+                                    font-size: 4vh;
+                                    padding-top: 2vh;
+                                    padding-left: 0;
+                                }
+
+                                &:nth-of-type(2) {
+                                    animation-delay: .4s;
+                                }
+                                &:nth-of-type(3) {
+                                    animation-delay: .45s;
+                                }
+                                &:nth-of-type(4) {
+                                    animation-delay: .50s;
+                                }
+                                &:nth-of-type(5) {
+                                    animation-delay: .55s;
+                                }
+                                &:nth-of-type(6) {
+                                    animation-delay: .60s;
+                                }
+                                &:nth-of-type(7) {
+                                    animation-delay: .65s;
+                                }
+                                &:nth-of-type(8) {
+                                    animation-delay: .70s;
+                                }
+                            }
+                            .nav__bg {
+                                position: relative;
+                                width: 100%;
+                                height: 100%;
+
+                                .nav__links {
+                                    display: none;
+                                    position: relative;
+                                    text-align: center;
+                                    padding: 0;
+                                    
+                                    .nav__item {
+                                        a {
+                                            font-size: 3vh;
+                                            padding-top: 1.5vh;
+                                            color: white;
+                                        }
+                                    }
+
+                                    &.active {
+                                        display: block;
+                                        visibility: visible;
+                                        opacity: 1;
+                                    }
                                 }
                             }
                         }
                     }
+                
+                .right-buttons {
+                    display: none;
                 }
-            
-            .right-buttons {
-                display: none;
             }
         }
     }
@@ -347,7 +362,7 @@
 }
 
 //Hide and show navigation 
- @media (max-height:800px) {
+@media (max-height:800px) {
      .nav-down {
          opacity: 1;
          transition: all .2s ease-in-out ;

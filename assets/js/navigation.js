@@ -22,7 +22,10 @@ $(window).load(function() {
     function showListMobile() {
         $(".nav__section").click(function() {
             $(".nav__links").removeClass("active");
+            $(".nav__sections-wrapper").removeClass("mobile-active");
             $(".nav__links", this).addClass("active");
+            $(".nav__sections-wrapper").addClass("mobile-active");
+
         });
     }
 

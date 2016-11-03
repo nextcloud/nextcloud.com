@@ -112,25 +112,24 @@
     .nav .container .right-buttons {
       position: absolute;
       top: 0;
-      right: 0; }
+      right: 0;
+      margin-top: 15px; }
       .nav .container .right-buttons .ghost-btn {
         text-align: center;
         position: relative; }
         .nav .container .right-buttons .ghost-btn a {
-          padding-right: 25px; }
+          padding-right: 10px; }
         .nav .container .right-buttons .ghost-btn:hover {
           opacity: 0.6; }
           .nav .container .right-buttons .ghost-btn:hover a {
             text-decoration: none; }
-      .nav .container .right-buttons ul {
-        margin-top: 13px; }
-        .nav .container .right-buttons ul li {
-          display: inline-block;
-          padding-left: 30px;
-          padding-bottom: 5px;
-          font-size: 16px; }
-          .nav .container .right-buttons ul li a {
-            color: white; }
+      .nav .container .right-buttons li {
+        display: inline-block;
+        padding-left: 30px;
+        padding-bottom: 5px;
+        font-size: 16px; }
+        .nav .container .right-buttons li a {
+          color: white; }
 
 @media (max-width: 992px) {
   .nav .container .mobile-bg {
@@ -167,9 +166,9 @@
       transition-duration: 0.3s;
       transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
       transition-delay: initial; }
-  .nav .container .nav__sections {
+  .nav .container .nav__sections-wrapper .nav__sections {
     display: none; }
-    .nav .container .nav__sections .nav__section {
+    .nav .container .nav__sections-wrapper .nav__sections .nav__section {
       display: block;
       height: 25%;
       height: calc(100% / 4);
@@ -179,12 +178,12 @@
       margin: 0;
       opacity: 0;
       color: white; }
-      .nav .container .nav__sections .nav__section:last-child {
+      .nav .container .nav__sections-wrapper .nav__sections .nav__section:last-child {
         font-weight: 500; }
-      .nav .container .nav__sections .nav__section a {
+      .nav .container .nav__sections-wrapper .nav__sections .nav__section a {
         color: white;
         text-decoration: none; }
-    .nav .container .nav__sections.mobile-active {
+    .nav .container .nav__sections-wrapper .nav__sections.mobile-active {
       display: block;
       color: white;
       text-align: center;
@@ -197,34 +196,45 @@
       transform: translate(-50%, -50%);
       z-index: 2;
       padding: 0; }
-      .nav .container .nav__sections.mobile-active .nav__section {
+      .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section {
         animation: fadeInRight .5s ease forwards;
         animation-delay: .35s; }
-        .nav .container .nav__sections.mobile-active .nav__section .nav__label {
+        .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section .nav__label {
           font-size: 4vh;
           padding-top: 2vh;
           padding-left: 0; }
-        .nav .container .nav__sections.mobile-active .nav__section:nth-of-type(2) {
+        .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section:nth-of-type(2) {
           animation-delay: .4s; }
-        .nav .container .nav__sections.mobile-active .nav__section:nth-of-type(3) {
+        .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section:nth-of-type(3) {
           animation-delay: .45s; }
-        .nav .container .nav__sections.mobile-active .nav__section:nth-of-type(4) {
+        .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section:nth-of-type(4) {
           animation-delay: .50s; }
-        .nav .container .nav__sections.mobile-active .nav__section:nth-of-type(5) {
+        .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section:nth-of-type(5) {
           animation-delay: .55s; }
-        .nav .container .nav__sections.mobile-active .nav__section:nth-of-type(6) {
+        .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section:nth-of-type(6) {
           animation-delay: .60s; }
-        .nav .container .nav__sections.mobile-active .nav__section:nth-of-type(7) {
+        .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section:nth-of-type(7) {
           animation-delay: .65s; }
-        .nav .container .nav__sections.mobile-active .nav__section:nth-of-type(8) {
+        .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section:nth-of-type(8) {
           animation-delay: .70s; }
-      .nav .container .nav__sections.mobile-active .nav__bg {
-        position: relative; }
-        .nav .container .nav__sections.mobile-active .nav__bg .nav__links {
-          display: none; }
-          .nav .container .nav__sections.mobile-active .nav__bg .nav__links.active {
-            display: block; }
-  .nav .container .right-buttons {
+      .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__bg {
+        position: relative;
+        width: 100%;
+        height: 100%; }
+        .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__bg .nav__links {
+          display: none;
+          position: relative;
+          text-align: center;
+          padding: 0; }
+          .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__bg .nav__links .nav__item a {
+            font-size: 3vh;
+            padding-top: 1.5vh;
+            color: white; }
+          .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__bg .nav__links.active {
+            display: block;
+            visibility: visible;
+            opacity: 1; }
+  .nav .container .nav__sections-wrapper .right-buttons {
     display: none; } }
 @keyframes fadeInRight {
   0% {

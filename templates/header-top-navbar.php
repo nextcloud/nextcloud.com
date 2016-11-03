@@ -9,7 +9,7 @@
 		</button>
 
 		<div class="mobile-bg"></div>
-				
+			<div class="nav__sections-wrapper">
 			<ul class="nav__sections">
 				<li class="nav__section"><a class="nav__label">About us</a>
 				      <div class="nav__bg-wrapper">
@@ -76,12 +76,10 @@
 				      </div>
 				</li>
 			</ul>
-
-			<div class="right-buttons">
-				<ul>
-					<li class="nav__section ghost-btn"><a href="https://demo.nextcloud.com/" class="nav__label">Demo</a></li>
-					<li class="nav__section ghost-btn"><a href="<?php echo home_url('install') ?>">Download</a></li>
-				</ul>
+			<ul class="right-buttons">
+				<li class="nav__section ghost-btn"><a href="https://demo.nextcloud.com/" class="nav__label">Demo</a></li>
+				<li class="nav__section ghost-btn"><a href="<?php echo home_url('install') ?>">Download</a></li>
+			</ul>
 			</div>
 		</div>
 	</div>
