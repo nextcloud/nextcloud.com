@@ -206,6 +206,8 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --re
 	The Collabora Online app doesn\'t work at the moment, if you enable it only for certain groups. Remove the group filter in the App section.');?></li>
 	<li><?php echo $l->t('<strong>Issue:</strong> Collabora Online doesn\'t handle my 500 users.<br/>
 	This docker image is designed for limited numbers of users and open documents. If you need a more scalable solution, consider <a href="/enterprise/">a support subscription</a> for a reliable, business-ready online office experience.');?></li>
+	<li><?php echo $l->t('<strong>Issue:</strong> Collabora Online doesn\'t work with Encryption.<br/>
+	Yes, this is currently unsupported.');?></li>
 </ul>
 <p><?php echo $l->t('Find more questions and answers in the <a href="https://help.nextcloud.com/t/issue-installing-collabora-following-official-guide/1746/58">discussion thread on the forums</a>.');?></p>
 
