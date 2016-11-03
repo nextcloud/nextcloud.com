@@ -984,8 +984,6 @@ div.evnt-btn-wrap {
 
 /** Get Started/install Page **/
 
-
-
 @media (max-width: 1199px) {
 	.home #getapps .client-install {
 		margin-top: 10px;
@@ -1215,13 +1213,27 @@ body.install .nav-tabs {
 body.install  .nav-tabs > li {
 	margin-bottom: 0px;
 	margin-top:-1px;
+	margin-left: 0px;
 }
 
 body.install .nav-tabs > li > a {
 	padding-top: 8px;
 	padding-bottom: 8px;
 	line-height: 20px;
-	border: 1px solid transparent;
+}
+
+body.install .nav-tabs > .active {
+/* 	background-color: #eeeeee; */
+}
+
+body.install .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+	color: #555555;
+	cursor: default;
+	background-color: #ffffff;
+	border-top-color: transparent !important;
+	border-bottom-color: #ddd;
+	border-left-color: #ddd;
+	border-right-color: #ddd;
 	-moz-border-radius:0px;
 	-webkit-border-radius:0px;
 	border-radius:0px;
@@ -1231,19 +1243,6 @@ body.install .nav-tabs > li > a {
 	-moz-border-radius-bottomleft: 5px;
 	-webkit-border-bottom-left-radius: 5px;
 	border-bottom-left-radius: 5px;
-}
-
-body.install .nav-tabs > .active {
-	background-color: #eeeeee;
-}
-
-body.install .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
-	border-bottom-color: #ddd  !important;
-	color: #555555;
-	cursor: default;
-	background-color: #ffffff;
-	border: 1px solid #ddd;
-	border-top-color: transparent !important;
 }
 
 
