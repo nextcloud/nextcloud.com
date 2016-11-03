@@ -196,9 +196,10 @@
       .nav .container .nav__sections.mobile-active .nav__section {
         animation: fadeInRight .5s ease forwards;
         animation-delay: .35s; }
-        .nav .container .nav__sections.mobile-active .nav__section a {
+        .nav .container .nav__sections.mobile-active .nav__section .nav__label {
           font-size: 4vh;
-          padding-top: 2vh; }
+          padding-top: 2vh;
+          padding-left: 0; }
         .nav .container .nav__sections.mobile-active .nav__section:nth-of-type(2) {
           animation-delay: .4s; }
         .nav .container .nav__sections.mobile-active .nav__section:nth-of-type(3) {
@@ -213,6 +214,12 @@
           animation-delay: .65s; }
         .nav .container .nav__sections.mobile-active .nav__section:nth-of-type(8) {
           animation-delay: .70s; }
+      .nav .container .nav__sections.mobile-active .nav__bg {
+        position: relative; }
+        .nav .container .nav__sections.mobile-active .nav__bg .nav__links {
+          display: none; }
+          .nav .container .nav__sections.mobile-active .nav__bg .nav__links.active {
+            display: block; }
   .nav .container .right-buttons {
     display: none; } }
 @keyframes fadeInRight {

@@ -21,7 +21,8 @@ $(window).load(function() {
 
     function showListMobile() {
         $(".nav__section").click(function() {
-            $(this).append($(".nav__item", this));
+            $(".nav__links").removeClass("active");
+            $(".nav__links", this).addClass("active");
         });
     }
 
