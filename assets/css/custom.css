@@ -500,8 +500,6 @@ section#why-nextcloud {
           padding: 1.5em;
           visibility: hidden;
           opacity: 0;
-          -webkit-transition: 0.3s;
-          transition: 0.3s;
           list-style-type: none; }
           .nav .container .nav__sections .nav__section .nav__links .nav__item {
             color: #666;
