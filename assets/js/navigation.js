@@ -20,12 +20,27 @@ $(window).load(function() {
     });
 
     function showListMobile() {
+        
+        $("#nav").addClass("mobile")
+
+        /**
+        * Mobile fullscreen trigger
+        */
+
+        $('#toggle').click(function() {
+            $(this).toggleClass('active');
+            $('.mobile-bg').toggleClass('active');
+            $('.nav__sections').toggleClass('mobile-active');
+            $(".right-buttons").toggleClass("mobile-active");            
+        });
+
+        
+
         $(".nav__section").click(function() {
             $(".nav__links").removeClass("active");
             $(".nav__sections-wrapper").removeClass("mobile-active");
             $(".nav__links", this).addClass("active");
             $(".nav__sections-wrapper").addClass("mobile-active");
-
         });
     }
 
@@ -124,17 +139,6 @@ $(window).load(function() {
         menuAnimation.play();
         menuOpened = !menuOpened;
     });
-
-
-    /**
-    * Mobile fullscreen trigger
-    */
-
-     $('#toggle').click(function() {
-      $(this).toggleClass('active');
-      $('.mobile-bg').toggleClass('active');
-      $('.nav__sections').toggleClass('mobile-active');
-     });
 
     /**
     * Show Header when scroll in resolution lower then width 800px

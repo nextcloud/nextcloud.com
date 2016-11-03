@@ -78,7 +78,7 @@
 			</ul>
 			<ul class="right-buttons">
 				<li class="nav__section ghost-btn"><a href="https://demo.nextcloud.com/" class="nav__label">Demo</a></li>
-				<li class="nav__section ghost-btn"><a href="<?php echo home_url('install') ?>">Download</a></li>
+				<li class="nav__section ghost-btn"><a href="<?php echo home_url('install') ?>" class="nav__label">Download</a></li>
 			</ul>
 			</div>
 		</div>
