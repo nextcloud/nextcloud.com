@@ -6,13 +6,13 @@
 				<div id="tab-archive" role="tabpanel" class="tab-pane active">
 					<div class="overlay-body row">
 						<div class="col-md-6">
-							<p><?php echo $l->t('The <strong>archive</strong> should be extracted in a folder your web server has access to.');?></p>
+							<p><?php echo $l->t('The <strong>archive</strong> should be extracted in a folder your web server has access to. Latest stable version');?>:  <span class="label label-blue"><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></span> (<a href="/changelog"><small><?php echo $l->t('Changelog');?></small></a>)</br>
 							<div class="downloadbutton">
 								<a class="btn btn-primary btn-large" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>"><?php echo $l->t('Download Nextcloud');?></a>
 							</div>
 							<p><?php echo $l->t('Follow the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation"><?php echo $l->t('Nextcloud Admin Manuals</a> installation chapter.</br>
 							If you already run Nextcloud, refer to the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html"><?php echo $l->t('upgrade manual');?>.</a></p>
-							<a class="btn btn-default" data-toggle="collapse" href="#more">More info</a>
+							<a class="btn btn-default" data-toggle="collapse" href="#more">Details and Download options</a>
 							<div class="collapse" id="more">
 								<ol>
 									<li><?php echo $l->t('Download the');?> <a class="label label-blue" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">.tar.bz2</a> <?php echo $l->t('or');?> <a class="label label-blue" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">.zip</a> <?php echo $l->t('archive.');?></li>
@@ -20,7 +20,6 @@
 									<li><?php echo $l->t('Verify the authenticity via PGP');?> (<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_PGP; ?>">.tar.bz2 </a>/<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_PGP ?>">.zip</a>). <?php echo $l->t('The Nextcloud GPG key');?> <a target="_blank" href="<?php echo $NEXTCLOUD_GPG ; ?>"><?php echo $l->t('is here');?></a>.</li>
 								</ol>
 							<p><?php echo $l->t('<strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a>.');?></p>
-							<p><?php echo $l->t('Latest stable version');?>:  <span class="label label-blue"><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></span> (<a href="/changelog"><small><?php echo $l->t('Changelog');?></small></a>)</p>
 							</div>
 						</div>
 						<div class="col-md-6">
