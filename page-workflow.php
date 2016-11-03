@@ -35,13 +35,22 @@
 <div class="featurerow">
 	<h1 class="featuretitle"><?php echo $l->t('Monitoring your Nextcloud server');?></h1>
 	<div class="row">
+		<div class="col-md-6">
+			<p><?php echo $l->t('The nextcloud Activity app gives users a clear view on what is happening with their files. It tracks file modifications, downloads of shares and changes to comments or tags, providing an overview in the browser or via email notifications and an RSS feed.');?></p>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/activity-config.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/activity-config.png" alt="activity settings" /></a>
+		</div>
+		<div class="col-md-6">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/activity.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/activity.png" alt="activity overview" /></a>
+		</div>
+	</div>
+	<h2 class="featuretitle"><?php echo $l->t('Server Information');?></h2>
+	<div class="row">
+		<div class="col-md-4">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/monitoring.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-wee.png" alt="in action" /></a>
+		</div>
 		<div class="col-md-8">
 			<p><?php echo $l->t('The Server Information app provides a way for admins to monitor the health and performance of a Nextcloud system. Besides the graphical UI, an API endpoint provided makes it possible for system administrators to import this data in their monitoring app so they can keep an eye on Nextcloud operations from the same place they monitor the rest of their infrastructure.');?></p>
 			<p><?php echo $l->t('The <a href="http://opennms.org/" target="_blank">openNMS monitoring app</a> already has support for monitoring Nextcloud 10 systems and <a href="https://github.com/opennms-config-modules/nextcloud" target="_blank">the configuration module</a> can be easily modified for other tools like Nagios.');?></p>
-		</div>
-		<div class="col-md-4">
-	<!-- 		<a href="https://www.youtube.com/watch?v=9-JEmlH2DEg" target="_blank" style="border: none;"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/federation/federation.gif" alt="in action" /></a> -->
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/monitoring.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-wee.png" alt="in action" /></a>
 		</div>
 	</div>
 	<p><?php echo $l->t('The app lets you track:');?></p>
@@ -83,6 +92,12 @@
 		</div>
 		<div class="col-md-6">
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/monitoring-API.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/monitoring-API.png" /></a>
+		</div>
+		<div class="col-md-6">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/activity.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/activity.png" /></a>
+		</div>
+		<div class="col-md-6">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/activity-config.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/activity-config.png" /></a>
 		</div>
 		<div class="col-md-6">
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/nextcloud-users.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/nextcloud-users-wee.png" class="img-responsive featureimg" /></a>
