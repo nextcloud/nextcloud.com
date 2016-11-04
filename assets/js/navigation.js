@@ -1,5 +1,5 @@
 $(window).load(function() {
-    'use strict';
+    "use strict";
     //Enquire.js This hides the list on hover in the mobile
     enquire.register("screen and (max-width: 992px)", {
 
@@ -7,7 +7,7 @@ $(window).load(function() {
       // from *unmatched* to *matched*
       match : function() {
         showListMobile();
-      },                                         
+      }                                         
     });
 
     enquire.register("screen and (min-width: 993px)", {
@@ -16,28 +16,27 @@ $(window).load(function() {
       // from *unmatched* to *matched*
       match : function() {
         desktopDropdown();
-      },                                         
+      }                                         
     });
 
     function showListMobile() {
-        
+
         $("#nav").addClass("mobile");
 
         /**
         * Mobile fullscreen trigger
         */
 
-        $('#toggle').click(function() {
-            $(this).toggleClass('active');
-            $('.mobile-bg').toggleClass('active');
-            $('.nav__sections').toggleClass('mobile-active');
+        $("#toggle").click(function() {
+            $(this).toggleClass("active");
+            $(".mobile-bg").toggleClass("active");
+            $(".nav__sections").toggleClass("mobile-active");
             $(".right-buttons").toggleClass("mobile-active");            
         });
 
-        $(".nav__section").click(function(e) {
-                e.preventDefault();
-                var $this = $(this).parent().find('nav__links');
-                $(".nav__links").not($this).hide();
+        $(".nav__section").click(function() {
+            $(".nav__links").removeClass("active");
+            $(".nav__sections-wrapper").removeClass("mobile-active");
             $(".nav__links", this).toggleClass("active");
             $(".nav__sections-wrapper").toggleClass("mobile-active");
         });
@@ -45,43 +44,43 @@ $(window).load(function() {
 
     function desktopDropdown() {
 
-    $('.nav__section').on('mouseover', function (event) { 
+    $(".nav__section").on("mouseover", function (event) { 
       
-	var bg = $(this).find('.nav__bg').first();        
+	var bg = $(this).find(".nav__bg").first();        
         setTimeout(function() {
-            bg.addClass('is-animatable');
+            bg.addClass("is-animatable");
         });	
 	
-	var bgWrapper = $(this).find('.nav__bg-wrapper').first(); 
-	var menu = $(this).find('.nav__links').first();
+	var bgWrapper = $(this).find(".nav__bg-wrapper").first(); 
+	var menu = $(this).find(".nav__links").first();
 
-	bgWrapper.addClass('is-visible');
+	bgWrapper.addClass("is-visible");
 	
 	var selectedDropdown = menu,
 	    height = selectedDropdown.innerHeight(),
 	    width = selectedDropdown.innerWidth(),
 	    liWidth = $(this).width(), // The total length of the li content text + padding
-	    aWidth =  $(this).find('a').first().width(), // The total length of the text
+	    aWidth =  $(this).find("a").first().width(), // The total length of the text
 	    half = liWidth - (aWidth/2);	
 
 	bg.css({
-	    'width': width +'px',
-	    'height': height +'px'
+	    "width": width +"px",
+	    "height": height +"px"
 	});
 	
 	// To set the arrow above the drop down menu in the middle of the link text
-	$('#nav-bg').text('.nav__bg:before, .nav__bg:after { left: '+ half +'px}');
+	$("#nav-bg").text(".nav__bg:before, .nav__bg:after { left: "+ half +"px}");
     });
     
-    $('.nav__section').on('mouseleave', function () {
-	var bg = $(this).find('.nav__bg').first();        
+    $(".nav__section").on("mouseleave", function () {
+	var bg = $(this).find(".nav__bg").first();        
         setTimeout(function() {
-            bg.removeClass('is-animatable');
+            bg.removeClass("is-animatable");
         });	
 	
-	var bgWrapper = $(this).find('.nav__bg-wrapper').first();   
-	bgWrapper.removeClass('is-visible');
-	$('#nav-bg').text();
+	var bgWrapper = $(this).find(".nav__bg-wrapper").first();   
+	bgWrapper.removeClass("is-visible");
+	$("#nav-bg").text();
     });
     };
     
@@ -91,14 +90,14 @@ $(window).load(function() {
     function checkScroll() {      
       var bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
       if (bodyScrollTop !== 0) {
-	    $('.nav').addClass('scrolled');
+	    $(".nav").addClass("scrolled");
 	} else {
-	    $('.nav').removeClass('scrolled');
+	    $(".nav").removeClass("scrolled");
 	}
     }
 
-    if ($('.nav').length > 0) {
-        $(window).on('scroll load resize', function () {
+    if ($(".nav").length > 0) {
+        $(window).on("scroll load resize", function () {
             checkScroll();
         });
     }
@@ -109,7 +108,7 @@ $(window).load(function() {
     var menuOpened = false;
     
     // Prevent scrolling if menu is opened
-    $('html').on('scroll touchmove mousewheel', function(e) {
+    $("html").on("scroll touchmove mousewheel", function(e) {
         if(menuOpened) {
             e.preventDefault();
             e.stopPropagation();
@@ -117,19 +116,19 @@ $(window).load(function() {
         }
     });
 
-    var animContainer = document.querySelectorAll('.container button')[0];
+    var animContainer = document.querySelectorAll(".container button")[0];
     var params = {
         container: animContainer,
-        renderer: 'svg',
+        renderer: "svg",
         loop: false,
         autoplay: false,
         autoloadSegments: true,
-        path: templateUrl + '/assets/img/menu/data.json'
+        path: templateUrl + "/assets/img/menu/data.json"
     };
     menuAnimation = bodymovin.loadAnimation(params);
     menuAnimation.stop();
 
-    $('.container button').click(function () {
+    $(".container button").click(function () {
         if(menuOpened) {
             menuAnimation.setDirection(-1);
         } else {
@@ -145,7 +144,7 @@ $(window).load(function() {
     var didScroll;
     var lastScrollTop = 0;
     var delta = 100;
-    var navbarHeight = $('#nav').outerHeight();
+    var navbarHeight = $("#nav").outerHeight();
 
      $(window).scroll(function(event){
          didScroll = true;
@@ -169,11 +168,11 @@ $(window).load(function() {
          // This is necessary so you never see what is "behind" the navbar.
          if (st > lastScrollTop && st > navbarHeight){
              // Scroll Down
-             $('#nav').removeClass('nav-down').addClass('nav-up');
+             $("#nav").removeClass("nav-down").addClass("nav-up");
          } else {
              // Scroll Up
              if(st + $(window).height() < $(document).height()) {
-                 $('#nav').removeClass('nav-up').addClass('nav-down');
+                 $("#nav").removeClass("nav-up").addClass("nav-down");
              }
          }
         
@@ -181,6 +180,6 @@ $(window).load(function() {
      }
 
     // Fade In animation 
-    $("#nav").velocity('transition.fadeIn', 1000 );
+    $("#nav").velocity("transition.fadeIn", 1000 );
     
 });
