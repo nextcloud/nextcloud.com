@@ -129,7 +129,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		$oldPage = false;
 	}
 
-	$html .= '<body ' . body_class() . '>';
+	$html .= '<body>';
 
 	ob_clean();
 	ob_start();
