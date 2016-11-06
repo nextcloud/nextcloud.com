@@ -13,7 +13,7 @@
       position: absolute;
       top: 0;
       left: 0; }
-      .nav .container .brand .logo {
+      .nav .container .brand .logo:not(.scrolled) {
         background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
         height: 50px;
         width: 71px;
@@ -137,7 +137,10 @@
   .nav .container .brand {
     padding-left: 15px; }
     .nav .container .brand .logo {
-      height: 53px; }
+      height: 53px;
+      width: 71px; }
+      .nav .container .brand .logo.menu-open {
+        background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain; }
   .nav .container .mobile-bg {
     position: fixed;
     background: #0082c9;
@@ -297,15 +300,16 @@
     transition: all .2s ease-in;
     background: white;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09); }
-    .nav.scrolled .navbar-toggle {
+    .nav.scrolled .navbar-toggle:not(.active) {
       background-color: #0082c9; }
-    .nav.scrolled .logo {
-      background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain !important; }
+      .nav.scrolled .navbar-toggle:not(.active) svg {
+        filter: invert(100%); }
+    .nav.scrolled .logo:not(.menu-open) {
+      background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain; }
     .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons .nav__section .nav__label {
       color: #555555; }
-
-.nav.mobile .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.mobile .nav__sections-wrapper .right-buttons .nav__section .nav__label {
-  color: #white; }
+  .nav.mobile .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.mobile .nav__sections-wrapper .right-buttons .nav__section .nav__label {
+    color: white; }
 
 /**
 *Changed default media querys for navigation in bootstrap

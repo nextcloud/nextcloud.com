@@ -20,7 +20,7 @@
             top: 0;
             left: 0;
 
-            .logo {
+            .logo:not(.scrolled) {
                 background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
                 height: 50px;
                 width: 71px;
@@ -32,10 +32,10 @@
             -webkit-transition: 0.3s;
             transition: 0.3s;	    	    
                 
-                &.is-visible {
-                    visibility: visible;
-                    opacity: 1;		    
-                }
+            &.is-visible {
+                visibility: visible;
+                opacity: 1;		    
+            }
 
             .nav__bg {
                 width: 1px;
@@ -206,6 +206,11 @@
 
                 .logo {
                     height: 53px;
+                    width: 71px;
+                    
+                    &.menu-open {
+                    background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+                    }
                 }
             }
 
@@ -437,12 +442,16 @@
         background: white;
         box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09);
 
-        .navbar-toggle {
+        .navbar-toggle:not(.active) {
             background-color:$nextcloud_blue;
+
+            svg {
+                filter: invert(100%);
+            }
         }
 
-        .logo {
-            background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain !important;
+        .logo:not(.menu-open) {
+            background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain;
         }
 
         .nav__sections-wrapper {
@@ -453,14 +462,12 @@
             }
         }
     }
-}
 
-.nav {    
     &.mobile {
         .nav__sections-wrapper {
             .nav__sections, .right-buttons {               
                 .nav__section .nav__label {
-                    color: #white;
+                    color: white;
                 }
             }
         }

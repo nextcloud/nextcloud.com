@@ -27,7 +27,8 @@ $(window).load(function() {
             $(this).toggleClass("active");
             $(".mobile-bg").toggleClass("active");
             $(".nav__sections").toggleClass("mobile-active");
-            $(".right-buttons").toggleClass("mobile-active");            
+            $(".right-buttons").toggleClass("mobile-active");
+            $(".logo").toggleClass("menu-open");           
         });
 
         $(".nav__section").click(function() {
@@ -87,8 +88,10 @@ $(window).load(function() {
       var bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
       if (bodyScrollTop !== 0) {
 	    $(".nav").addClass("scrolled");
+        $(".logo").addClass("scrolled");
 	} else {
 	    $(".nav").removeClass("scrolled");
+        $(".logo").removeClass("scrolled");
 	}
     }
 
