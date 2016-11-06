@@ -17,10 +17,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.waypoints.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/bodymovin.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/TweenMax.min.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/ScrollMagic.min.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/animation.gsap.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/debug.addIndicators.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/pagePiling.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/bootstrap.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/navigation.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
@@ -35,6 +32,7 @@
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/font-awesome.min.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/custom.css" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery.pagepiling.css" rel="stylesheet">
 	<?php if(is_page('enterprise')) { ?><link href="<?php echo get_template_directory_uri(); ?>/assets/css/enterprise.css" rel="stylesheet"><?php } ?>
 	<?php if(is_page('secure')) { ?><link href="<?php echo get_template_directory_uri(); ?>/assets/css/secure.css" rel="stylesheet"><?php } ?>
 	<?php if(is_page('buy')) { ?><link href="<?php echo get_template_directory_uri(); ?>/assets/css/buy.css" rel="stylesheet"><?php } ?>

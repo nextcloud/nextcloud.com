@@ -81,8 +81,10 @@
 		<li class="btn_carousel"></li>
 		<li class="btn_carousel"></li>
 	</div>
-    <section class="panel-workflow">
-        <div class="container">
+
+    <div class="pp-scrollable" id="pagepiling">
+	    <div class="section" id="section1">
+	    <div class="container">
             <div class="row introducing-nc-release">
                 <div class="container">
                     <div class="container col-md-6 ">
@@ -90,92 +92,30 @@
                     </div>
                     <div class="container col-md-6 right-text-grey" style="opacity: 1; padding-top: 50px;">
                         <h5><?php
- echo $l->t('Secure, Fine Grained Control over Data Access and Workflows');?></h5>
+ 						echo $l->t('Secure, Fine Grained Control over Data Access and Workflows');?></h5>
                         <p><?php
- echo $l->t('This release delivers better scalability as well as monitoring, security and workflow management tools, enabling better control over Nextcloud servers and operation at scale.');?></p>
+ 						echo $l->t('This release delivers better scalability as well as monitoring, security and workflow management tools, enabling better control over Nextcloud servers and operation at scale.');?></p>
                         <br/>
                         <p>
                             <a class="btn-primary" href="https://nextcloud.com/blog/secure-monitor-and-control-your-data-with-nextcloud-10-get-it-now/" role="button"><?php
- echo $l->t('Learn more');?></a>
+ 							echo $l->t('Learn more');?></a>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="panel-monitoring hidden">
-        <div class="container">
-            <div class="row introducing-nc-release">
-                <div class="container">
-                    <div class="container col-md-6">
-                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/monitoring-nc-10.png">
-                    </div>
-                    <div class="container col-md-6 right-text-grey">
-                        <h5><?php
- echo $l->t('Faster and more reliable operation at scale');?></h5>
-                        <p><?php
- echo $l->t('Nextcloud 10 introduces the Server Information app which provides a way for admins to monitor the health and performance of a Nextcloud system through a graphical UI or in their enterprise monitoring tool.');?></p>
-                        <br/>
-                        <p>
-                            <a class="btn-primary" href="/workflow/#monitoring" role="button"><?php
- echo $l->t('Learn more');?></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="panel-authentication hidden">
-        <div class="container">
-            <div class="row introducing-nc-release">
-                <div class="container">
-                    <div class="container col-md-6">
-                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/auth-nc-10.png">
-                    </div>
-                    <div class="container col-md-6 right-text-grey">
-                        <h5><?php
- echo $l->t('Authentication and security');?></h5>
-                        <p><?php
- echo $l->t('Nextcloud 10 delivers security improvements in several areas. Plugin based Two Factor
-                            Authentication enables an optional extra layer of protection for logins, brute force
-                            protection makes it harder for attackers to guess passwords and session management is
-                            introduced to enable administrators and users to monitor and invalidate active sessions.
-                        ');?></p>
-                        <br/>
-                        <p>
-                            <a class="btn-primary" href="/workflow/" role="button"><?php
- echo $l->t('Learn more');?></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-	<section class="panel-authentication hidden">
-        <div class="container">
-            <div class="row introducing-nc-release">
-                <div class="container">
-                    <div class="container col-md-6">
-                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/federation-nc-10.png">
-                    </div>
-                    <div class="container col-md-6 right-text-grey">
-                        <h5><?php
- echo $l->t('Improved Federation');?></h5>
-                        <p><?php
- echo $l->t('Nextcloud 10 normalizes federated shares, handling mounted link shares as federated shares, offering the same permissions for federated shares as for normal shares and directly connecting re-shared federated shares to other servers for improved performance.');?></p>
-                        <br/>
-                        <p>
-                            <a class="btn-primary" href="/federation" role="button"><?php
- echo $l->t('Learn more');?></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-</section>
+	    	
+	    </div>
+	    <div class="section" id="section2">
+	    	
+	    </div>
+	    <div class="section" id="section3">
+	    	
+	    </div>
+	    <div class="section" id="section4">
+	    	
+	    </div>
+	</div>
 
 <section class="news-section">
 	<div class="container-fluid news" id="social-media">
@@ -216,44 +156,3 @@
 		</div>
 	</div>
 </div>
-
-
-<script>
-	// Only make the scrolling effect for devices bigger than the 768px in width and 900px in height
-	if ($(window).width() > 768 && $(window).height() >= 900) {
-		var controller = new ScrollMagic.Controller();
-		new ScrollMagic.Scene({triggerElement: '#pinContainer', triggerHook: 'onLeave', duration: 750, offset: -100})
-			.addTo(controller)
-			.setPin('#pinContainer')
-			.on('enter leave', function (e) {
-				$('.indicators').addClass('hidden');
-			})
-			.on('start end', function (e) {
-				$('.indicators').removeClass('hidden');
-			})
-			.on('progress', function (e) {
-				var progressNumber = e.progress.toFixed(4);
-				var currentProgress = Math.round(10 * ((progressNumber / 10) * 3));
-				$('#pinContainer section:lt(' + currentProgress + ')').addClass('hidden');
-				$('#pinContainer section:gt(' + currentProgress + ')').addClass('hidden');
-				$('#pinContainer section:nth(' + currentProgress + ')').removeClass('hidden');
-				$('.indicators .btn_carousel').html('');
-				$('.indicators .btn_carousel').removeClass('active');
-				$('.indicators .btn_carousel:nth(' + currentProgress + ')').addClass('active');
-
-				if (currentProgress > 0) {
-					$('#pinContainer section:nth(' + currentProgress + ') .right-text-grey')
-						.animate({
-							'opacity': 1,
-							'margin-top': '-25px'
-						}, 750);
-				}
-			});
-	} else {
-		$('.indicators').addClass('hidden');
-		$('section:nth(0)').removeClass('hidden')
-		$('#pinContainer section .right-text-grey:nth(0)').css('opacity', '1.0');
-		$('#pinContainer').css('width', 'inherit');
-		$('#pinContainer').css('height', 'inherit');
-	}
-</script>

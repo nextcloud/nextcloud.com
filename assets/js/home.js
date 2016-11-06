@@ -7,6 +7,10 @@ $(document).ready(function() {
 
 // Why nextcloud icon animations
 $(window).load(function() {
+    $('#pagepiling').pagepiling({
+        verticalCentered: false,
+        css3: false,
+    });
     /**
      * Animations
      */

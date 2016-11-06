@@ -44,6 +44,22 @@
 .section-jobs-opening {
   margin-top: 70px;
   margin-bottom: 100px; }
+  .section-jobs-opening a:hover, .section-jobs-opening a:focus {
+    text-decoration: none;
+    font-decoration: none;
+    color: #2a2a36;
+    border-bottom: none;
+    cursor: pointer;
+    cursor: hand; }
+  .section-jobs-opening h3 {
+    position: relative; }
+  .section-jobs-opening .icon-arrow {
+    background: url(../img/arrow_down.svg) center/contain no-repeat;
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    right: 20px;
+    top: 2px; }
   .section-jobs-opening .wrapper-text {
     padding-top: 20px;
     width: 60%;
