@@ -2,7 +2,6 @@ $(window).load(function() {
     "use strict";
     //Enquire.js This hides the list on hover in the mobile
     enquire.register("screen and (max-width: 992px)", {
-
       // Triggered when the media query transitions
       // from *unmatched* to *matched*
       match : function() {
@@ -11,7 +10,6 @@ $(window).load(function() {
     });
 
     enquire.register("screen and (min-width: 993px)", {
-
       // Triggered when the media query transitions
       // from *unmatched* to *matched*
       match : function() {
@@ -20,13 +18,11 @@ $(window).load(function() {
     });
 
     function showListMobile() {
-
         $("#nav").addClass("mobile");
 
         /**
         * Mobile fullscreen trigger
         */
-
         $("#toggle").click(function() {
             $(this).toggleClass("active");
             $(".mobile-bg").toggleClass("active");
@@ -44,44 +40,44 @@ $(window).load(function() {
 
     function desktopDropdown() {
 
-    $(".nav__section").on("mouseover", function (event) { 
-      
-	var bg = $(this).find(".nav__bg").first();        
-        setTimeout(function() {
-            bg.addClass("is-animatable");
-        });	
-	
-	var bgWrapper = $(this).find(".nav__bg-wrapper").first(); 
-	var menu = $(this).find(".nav__links").first();
+        $(".nav__section").on("mouseover", function (event) { 
+          
+    	var bg = $(this).find(".nav__bg").first();        
+            setTimeout(function() {
+                bg.addClass("is-animatable");
+            });	
+    	
+    	var bgWrapper = $(this).find(".nav__bg-wrapper").first(); 
+    	var menu = $(this).find(".nav__links").first();
 
-	bgWrapper.addClass("is-visible");
-	
-	var selectedDropdown = menu,
-	    height = selectedDropdown.innerHeight(),
-	    width = selectedDropdown.innerWidth(),
-	    liWidth = $(this).width(), // The total length of the li content text + padding
-	    aWidth =  $(this).find("a").first().width(), // The total length of the text
-	    half = liWidth - (aWidth/2);	
+    	bgWrapper.addClass("is-visible");
+    	
+    	var selectedDropdown = menu,
+    	    height = selectedDropdown.innerHeight(),
+    	    width = selectedDropdown.innerWidth(),
+    	    liWidth = $(this).width(), // The total length of the li content text + padding
+    	    aWidth =  $(this).find("a").first().width(), // The total length of the text
+    	    half = liWidth - (aWidth/2);	
 
-	bg.css({
-	    "width": width +"px",
-	    "height": height +"px"
-	});
-	
-	// To set the arrow above the drop down menu in the middle of the link text
-	$("#nav-bg").text(".nav__bg:before, .nav__bg:after { left: "+ half +"px}");
-    });
-    
-    $(".nav__section").on("mouseleave", function () {
-	var bg = $(this).find(".nav__bg").first();        
-        setTimeout(function() {
-            bg.removeClass("is-animatable");
-        });	
-	
-	var bgWrapper = $(this).find(".nav__bg-wrapper").first();   
-	bgWrapper.removeClass("is-visible");
-	$("#nav-bg").text();
-    });
+    	bg.css({
+    	    "width": width +"px",
+    	    "height": height +"px"
+    	});
+    	
+    	// To set the arrow above the drop down menu in the middle of the link text
+    	$("#nav-bg").text(".nav__bg:before, .nav__bg:after { left: "+ half +"px}");
+        });
+        
+        $(".nav__section").on("mouseleave", function () {
+    	var bg = $(this).find(".nav__bg").first();        
+            setTimeout(function() {
+                bg.removeClass("is-animatable");
+            });	
+    	
+    	var bgWrapper = $(this).find(".nav__bg-wrapper").first();   
+    	bgWrapper.removeClass("is-visible");
+    	$("#nav-bg").text();
+        });
     };
     
     /**
@@ -181,5 +177,4 @@ $(window).load(function() {
 
     // Fade In animation 
     $("#nav").velocity("transition.fadeIn", 1000 );
-    
 });
