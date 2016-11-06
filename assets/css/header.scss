@@ -438,6 +438,10 @@
         background: white;
         box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09);
 
+        .navbar-toggle {
+            background-color:$nextcloud_blue;
+        }
+
         .logo {
             background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain !important;
         }
