@@ -71,8 +71,8 @@
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Support for the Calendar and Contacts apps.</div>Calendar and Contacts');?></li>
 					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Support for our secure and private peer to peer audio and video conferencing.</div><a href="/webrtc" target="_blank">Secure WebRTC Conferencing</a>');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Allows web conferencing calls to connect with phone lines.</div>SIP gateway');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div><a href="/collaboraonline" target="_blank">Collabora Online Office</a>');?></li>
+					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: allows web conferencing calls to connect with phone lines.</div>SIP gateway');?></li>
+					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div><a href="/collaboraonline" target="_blank">Collabora Online Office</a>');?></li>
 				</div>
 				<h1 class=""><?php echo $l->t('Support');?></h1>
 				<div class="line"></div>

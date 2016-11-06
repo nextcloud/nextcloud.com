@@ -2,22 +2,22 @@
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
-		<h1><?php echo $l->t('Contact us');?></h1>
-		<p><?php echo $l->t('If you have any questions or comments, complete the form below and we\'ll get back to you!');?></p>
+		<h1><?php echo $l->t('Contact us');?></h1>
+		<p><?php echo $l->t('If you have any questions or comments, complete the form below and we\'ll get back to you!');?></p>
 	</div>
 	<div class="col-md-6 col-md-offset-3">
 		<form name="contact" method="post" action="contactsubmit/">
 		<div class="row">
 			<div class="col-md-8">
-				<p><?php echo $l->t('<label for="yourname">Your name<br>
+				<p><?php echo $l->t('<label for="yourname">Your name<br>
 				<input  type="text" name="yourname" maxlength="60" size="60"></label>');?></p>
-				<p><?php echo $l->t('<label for="email">Email<br>
+				<p><?php echo $l->t('<label for="email">Email<br>
 				<input  type="text" name="email" maxlength="80" size="60"></label>');?></p>
-				<p><?php echo $l->t('<label for="organization">Organization<br>
+				<p><?php echo $l->t('<label for="organization">Organization<br>
 				<input  type="text" name="organization" maxlength="100" size="60" placeholder=""></label>');?></p>
-				<p><?php echo $l->t('<label for="phone">Phone number<br>
+				<p><?php echo $l->t('<label for="phone">Phone number<br>
 				<input  type="text" name="phone" maxlength="40" size="60" placeholder="Please include country code (00 or +XX)"></label>');?></p>
-				<p><?php echo $l->t('<label for="comments">Your message<br />
+				<p><?php echo $l->t('<label for="comments">Your message<br />
 				<textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Let us know how we can help you!"></textarea></label>');?></p>
 				<td colspan="2" style="text-align:center">
 				<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
@@ -29,17 +29,17 @@
 	<div class="col-md-6 col-md-offset-3">
 
 		<!--If you want to talk to Nextcloud users, contributors and fans, join the <a href="/promote" target="_blank">community conversation</a> over social media, the forums and other places.--> 
-		<h1><?php echo $l->t('Talk to us online!');?></h1>
-		<p><?php echo $l->t('Most of our contributors are active in <a href="irc://#nextcloud-dev@freenode.net" target="_blank">the Nextcloud development IRC channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. We are also very active <a href="https://help.nextcloud.com" target="_blank">on our forums</a>.');?> <?php echo $l->t('<a href="/contribute">Get involved!!</a>');?></p>
+		<h1><?php echo $l->t('Talk to us online!');?></h1>
+		<p><?php echo $l->t('Most of our contributors are active in <a href="irc://#nextcloud-dev@freenode.net" target="_blank">the Nextcloud development IRC channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. We are also very active <a href="https://help.nextcloud.com" target="_blank">on our forums</a>.');?> <?php echo $l->t('<a href="/contribute">Get involved!!</a>');?></p>
 		<!--If you are looking for answers to questions, see <a href="/faq" target="_blank">the Nextcloud FAQ</a> and our <a href="/support" target="_blank">support page</a>.-->
 
 		<!-- For the latest news, subscribe to our <a href="https://nextcloud.org/feed/">RSS feed</a>.');?></p> -->
 
-		<!-- <p><?php echo $l->t('For reporting vulnerabilities, read <a href="https://nextcloud.org/security">Security</a>.');?></p> -->
+		<!-- <p><?php echo $l->t('For reporting vulnerabilities, read <a href="https://nextcloud.org/security">Security</a>.');?></p> -->
 	</div>
 </div>
 
-<!--<h2><?php echo $l->t('Active contributors on the <a href="../news">Nextcloud blog roll</a>:');?></h2>-->
+<!--<h2><?php echo $l->t('Active contributors on the <a href="../news">Nextcloud blog roll</a>:');?></h2>-->
 
 <!-- <?php
 // if(CONTRIBOOK) {
