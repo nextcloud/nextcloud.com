@@ -11,7 +11,7 @@ $(window).load(function() {
       enquire.register("screen and (min-width: 993px)", {
         // Triggered when the media query transitions
         // from *unmatched* to *matched*
-        match: _.bind_(this.desktopDropdown, this)                                        
+        match: _.bind_(this.desktopDropdown, this)                                       
       });
     },
 
@@ -54,7 +54,7 @@ $(window).load(function() {
 
       desktopDropdown: function() {
 
-        $(".nav__section").on("mouseover", function (event) { 
+        $(this.variables.sectionSelector).on("mouseover", function (event) { 
             
       	var bg = $(this).find(".nav__bg").first();        
               setTimeout(function() {
@@ -80,18 +80,18 @@ $(window).load(function() {
       	
       	// To set the arrow above the drop down menu in the middle of the link text
       	$("#nav-bg").text(".nav__bg:before, .nav__bg:after { left: "+ half +"px}");
-          });
+        });
           
-          $(".nav__section").on("mouseleave", function () {
+        $(".nav__section").on("mouseleave", function () {
       	var bg = $(this).find(".nav__bg").first();        
-              setTimeout(function() {
-                  bg.removeClass("is-animatable");
-              });	
+        setTimeout(function() {
+            bg.removeClass("is-animatable");
+          });	
       	
       	var bgWrapper = $(this).find(".nav__bg-wrapper").first();   
       	bgWrapper.removeClass("is-visible");
-      	$("#nav-bg").text();
-          });
+      	 $("#nav-bg").text();
+        });
       },
       
       /**
@@ -99,18 +99,20 @@ $(window).load(function() {
       */
       checkScroll: function() {      
         var bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        
         if (bodyScrollTop !== 0) {
-  	    $(".nav").addClass("scrolled");
-          $(".logo").addClass("scrolled");
-  	} else {
-  	    $(".nav").removeClass("scrolled");
-          $(".logo").removeClass("scrolled");
-  	}
-      }
+    	    $(".nav").addClass("scrolled");
+            $(".logo").addClass("scrolled");
+        }
 
-      if ($(".nav").length > 0) {
+        else {
+    	    $(".nav").removeClass("scrolled");
+            $(".logo").removeClass("scrolled");
+        }
+      
+        if ($(".nav").length > 0) {
           $(window).on("scroll load resize", function () {
-              checkScroll();
+            checkScroll();
           });
       }
 
@@ -193,7 +195,7 @@ $(window).load(function() {
 
       // Fade In animation 
       $("#nav").velocity("transition.fadeIn", 1000 );
-    };
+    }
   }
   init();
 });
