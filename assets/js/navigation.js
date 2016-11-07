@@ -19,11 +19,15 @@ $(window).load(function() {
         toggleSelector: "#toggle",
         navigationSelector: "#nav",
         sectionsSelector: ".nav__sections",
+        sectionsContainerSelector: ".nav__sections-wrapper",
+        sectionSelector: ".nav__section",
         rightNavigationSelector: ".right-buttons",
+        linksSelector: ".nav__links",
         logoSelector: ".logo",
         mobileClass: "mobile",
         activeClass: "active",
-        mobileBackgroundSelector: ".mobile-bg"
+        mobileBackgroundSelector: ".mobile-bg",
+        mobileMenuClass: "menu-open"
     	}, 
 
       showListMobile: function() {
@@ -37,20 +41,20 @@ $(window).load(function() {
               $(this.variables.mobileBackgroundSelector).toggleClass(this.variables.activeClass);
               $(this.variables.sectionsSelector).toggleClass(this.variables.activeClass);
               $(this.variables.rightNavigationSelector).toggleClass(this.variables.activeClass);
-              $(this.variables.logoSelector).toggleClass("menu-open");           
+              $(this.variables.logoSelector).toggleClass(this.variables.sermobileMenuClass);           
           });
 
-          $(".nav__section").click(function() {
-              $(".nav__links").removeClass(this.variables.activeClass);
-              $(".nav__sections-wrapper").removeClass("mobile-active");
-              $(".nav__links", this).toggleClass(this.activeClass);
-              $(".nav__sections-wrapper").toggleClass("mobile-active");
+          $(this.variables.sectionSelector).click(function() {
+              $(this.variables.linksSelector).removeClass(this.variables.activeClass);
+              $(this.variables.sectionsContainerSelector).removeClass(this.variables.mobileClass);
+              $(this.variables.linksSelector, this).toggleClass(this.activeClass);
+              $(this.variables.sectionsContainerSelector).toggleClass(this.variables.mobileClass);
           });
       },
 
       desktopDropdown: function() {
 
-          $(".nav__section").on("mouseover", function (event) { 
+        $(".nav__section").on("mouseover", function (event) { 
             
       	var bg = $(this).find(".nav__bg").first();        
               setTimeout(function() {
@@ -88,12 +92,12 @@ $(window).load(function() {
       	bgWrapper.removeClass("is-visible");
       	$("#nav-bg").text();
           });
-      };
+      },
       
       /**
       * Listen to scroll to change header opacity class
       */
-      function checkScroll() {      
+      checkScroll: function() {      
         var bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
         if (bodyScrollTop !== 0) {
   	    $(".nav").addClass("scrolled");

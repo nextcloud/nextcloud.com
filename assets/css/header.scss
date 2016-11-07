@@ -297,7 +297,7 @@
                         }
                     }
 
-                    &.mobile-active {
+                    &.mobile {
                         display: block;
                         color: white;
                         margin: 0;
@@ -377,7 +377,7 @@
                     opacity: 0;
                     transition: all 0.3s;
 
-                    &.mobile-active {
+                    &.mobile {
                         opacity: 1;
                         transition-delay: .65s;
                     }
