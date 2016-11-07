@@ -1,7 +1,7 @@
 @import "variables.scss";
 @import "transparent-navbar.scss";
 
-.background {
+.jbackground {
   background: url("../img/jobs/team.jpg") no-repeat;
   padding-bottom: 0;
   padding-top: 0;
@@ -11,14 +11,7 @@
   height: 70vh;
   min-height: 600px;
   max-height: 800px;
-
-	.container {
-		top: 50%;
-		transform: translateY(-50%);
-		position: relative;
-		margin-left: 5%;
-		padding: 0;
-	}
+  position: relative;
 
 	h1 {
 		padding-top: 0;
@@ -30,6 +23,14 @@
 		font-size: 18px;
 		line-height: 1.6;
 	}
+	
+	.topheader {
+		position: absolute;
+		top: 30%;
+		margin-left: 5%;
+		max-width: 600px;
+	}
+	
 }
 
 .section-company-description {

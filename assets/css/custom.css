@@ -846,7 +846,7 @@ footer.page-footer {
   background-color: transparent !important;
   border-color: white; }
 
-.background {
+.jbackground {
   background: url("../img/jobs/team.jpg") no-repeat;
   padding-bottom: 0;
   padding-top: 0;
@@ -855,20 +855,20 @@ footer.page-footer {
   background-size: cover;
   height: 70vh;
   min-height: 600px;
-  max-height: 800px; }
-  .background .container {
-    top: 50%;
-    transform: translateY(-50%);
-    position: relative;
-    margin-left: 5%;
-    padding: 0; }
-  .background h1 {
+  max-height: 800px;
+  position: relative; }
+  .jbackground h1 {
     padding-top: 0;
     color: white; }
-  .background h2 {
+  .jbackground h2 {
     color: white;
     font-size: 18px;
     line-height: 1.6; }
+  .jbackground .topheader {
+    position: absolute;
+    top: 30%;
+    margin-left: 5%;
+    max-width: 600px; }
 
 .section-company-description {
   margin-top: 130px; }
@@ -1226,6 +1226,12 @@ h5 {
   line-height: 1.5;
   letter-spacing: -1px;
   color: #2a2a36; }
+
+/* New widest container for headers */
+.container-widest {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1800px; }
 
 /**
  * Overwrite buttons for bootstrap

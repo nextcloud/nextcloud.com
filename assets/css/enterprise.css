@@ -9,7 +9,7 @@
 /**
  * Enterprise Page
  */
-.background {
+.ebackground {
   background-image: url("../img/enterprise/enterprise.jpg");
   padding-bottom: 0;
   padding-top: 0;
@@ -20,32 +20,20 @@
   border-radius: 0 !important;
   height: 70vh;
   min-height: 600px;
-  max-height: 800px; }
-  .background h1 {
+  max-height: 800px;
+  position: relative; }
+  .ebackground h1 {
     padding-top: 0;
     color: white; }
-  .background h2 {
+  .ebackground h2 {
     color: white;
     font-size: 18px;
     line-height: 1.6; }
-  .background .btn-primary {
-    margin-top: 50px;
-    width: 70%; }
-  .background .container {
-    top: 50%;
-    transform: translateY(-50%);
-    position: relative;
+  .ebackground .topheader {
+    position: absolute;
+    top: 30%;
     margin-left: 5%;
-    padding: 0; }
-    .background .container .topheader {
-      padding: 0; }
-      .background .container .topheader a {
-        width: 290px;
-        height: 60px;
-        padding-top: 16px; }
-  .background .container-fluid img {
-    height: 100%;
-    width: 100%; }
+    max-width: 600px; }
 
 /* All headers */
 .header {
@@ -360,5 +348,3 @@
   height: 100%;
   right: -30px;
   top: 0px; }
-
-/*# sourceMappingURL=enterprise.css.map */

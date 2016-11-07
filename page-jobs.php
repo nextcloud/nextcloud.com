@@ -1,8 +1,10 @@
-<div class="container-fluid background"> 
-	<div class="container">
-		<div class="col-md-6 topheader">
-			<h1>We are hiring</h1>
-			<h2>Nextcloud is looking for people who want to join our team</h2>
+<div class="jbackground"> 
+	<div class="container-widest">
+		<div class="row">
+			<div class="col-md-6 topheader">
+				<h1>We are hiring</h1>
+				<h2>Nextcloud is looking for people who want to join our team</h2>
+			</div>
 		</div>
 	</div>
 </div>
