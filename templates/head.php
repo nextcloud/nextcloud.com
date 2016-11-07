@@ -18,6 +18,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.waypoints.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/enquire.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/bodymovin.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/underscore.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
