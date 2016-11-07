@@ -984,8 +984,6 @@ div.evnt-btn-wrap {
 
 /** Get Started/install Page **/
 
-
-
 @media (max-width: 1199px) {
 	.home #getapps .client-install {
 		margin-top: 10px;
@@ -1088,6 +1086,7 @@ body.install hr.narrow {
 body.install div.col-md-3 {
 	margin-bottom: 45px;
 }
+
 body.install div.PopupGetStarted {
 		height: auto;
 		margin: 0 auto;
@@ -1099,15 +1098,18 @@ body.install div.PopupGetStarted {
 		z-index: 1000;
 		display: none;
 }
+
 body.install div.PopupGetStarted div.row{
 		margin: 0;
 }
+
 body.install div.PopupGetStarted div.instructions{
 		background: white !important; /* I seem to have to enforce this, comes from main.min.css*/
-		margin-top: 150px !important;
+		margin-top: 70px !important;
 		padding: 10px;
 		border-radius: 4px;
 }
+
 body.install a.mask {
 		position: fixed;
 		top: 0;
@@ -1123,44 +1125,126 @@ body.install .overlay-header {
 	background-color: rgba(240,240,240,.9);
 	border-radius: 4px;
 }
+
 body.install .overlay-header h3 {
 		margin-left: 15px;
 }
+
 body.install .overlay-header a.close {
 		margin-right: 15px;
 }
+
 body.install .overlay-body {
 		padding-top: 10px;
 }
+
 body.install .overlay-footer {
 	background-color: rgba(240,240,240,.9);
 	border-radius: 4px;
 }
+
 body.install .overlay-footer a.btn {
 		float: right;
 		margin-right: 15px;
 }
+
 body.install .overlay-footer p {
 		margin-bottom: 0px;
 }
+
 body.install div.PopupGetStarted:target, body.install div.PopupGetStarted:target+a.mask{
 		display: block;
 		opacity: 1;
 }
+
 body.install .label-blue {
 	background-color: #0082C9;
 }
+
 body.install .close {
 	color: #575858;
 		font-size: 1.75em;
 		opacity: 0.8;
 }
+
 body.install .close:hover, body.install .close:focus {
 		opacity: 1;
 }
+
 body.install a.btn-lg {
 		font-size: 16px;
 }
+
+body.install .installers ul.tabs {
+	padding: 5px 0 0 5px;
+}
+
+body.install .installers ul.tabs li {
+	float: left;
+	list-style: none;
+	margin-left: 5px;
+	padding-left: 0; 
+}
+
+body.install .overlay-header, .overlay-footer {
+	padding: 8px;
+}
+
+body.install #tab-archive .btn {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+body.install .downloadbutton {
+	text-align: center;
+	position: relative;
+}
+
+body.install .downloadbutton .btn {
+	padding: 20px;
+	font-size: 22px;
+}
+
+body.install .nav-tabs {
+	border-bottom: 0px;
+	border-top: 1px solid #ddd;
+}
+
+body.install  .nav-tabs > li {
+	margin-bottom: 0px;
+	margin-top:-1px;
+	margin-left: 0px;
+}
+
+body.install .nav-tabs > li > a {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	line-height: 20px;
+}
+
+body.install .nav-tabs > .active {
+/* 	background-color: #eeeeee; */
+}
+
+body.install .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+	color: #555555;
+	cursor: default;
+	background-color: #ffffff;
+	border-top-color: transparent !important;
+	border-bottom-color: #ddd;
+	border-left-color: #ddd;
+	border-right-color: #ddd;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border-radius:0px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
 
 @media(min-width: 996px) {
 	body.install hr.wide {

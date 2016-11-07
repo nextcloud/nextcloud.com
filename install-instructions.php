@@ -1,109 +1,106 @@
-<style type="text/css">
-      ul.tabs { padding: 5px 0 0 5px; }
-      ul.tabs li { float: left; list-style: none; margin-left: 5px; padding-left: 0; }
-      .overlay-header, .overlay-footer { padding: 8px; }
-</style>
 <div class="installers">
 	<div id="instructions-server" class="container row PopupGetStarted">
 		<div class="instructions">
+			<a href="#" class="close">&times;</a>
+			<div  class="tab-content">
+				<div id="tab-archive" role="tabpanel" class="tab-pane active">
+					<div class="overlay-body row">
+						<div class="col-md-6">
+							<p><?php echo $l->t('The <strong>archive</strong> should be extracted in a folder your web server has access to. Latest stable version');?>:  <span class="label label-blue"><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></span> (<a href="/changelog"><small><?php echo $l->t('Changelog');?></small></a>)</br>
+							<div class="downloadbutton">
+								<a class="btn btn-primary btn-large" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>"><?php echo $l->t('Download Nextcloud');?></a>
+							</div>
+							<p><?php echo $l->t('Follow the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation"><?php echo $l->t('Nextcloud Admin Manuals</a> installation chapter.</br>
+							If you already run Nextcloud, refer to the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html"><?php echo $l->t('upgrade manual.');?></a><br/>
+							<?php echo $l->t('<a href="/enterprise">Need enterprise support?</a>');?></p>
+							
+							<a class="btn btn-default" data-toggle="collapse" href="#more">Details and Download options</a>
+							<div class="collapse" id="more">
+								<ol>
+									<li><?php echo $l->t('Download the');?> <a class="label label-blue" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">.tar.bz2</a> <?php echo $l->t('or');?> <a class="label label-blue" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">.zip</a> <?php echo $l->t('archive.');?></li>
+									<li><?php echo $l->t('Check package integrity using MD5');?> (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_MD5; ?>">.zip</a>) <?php echo $l->t('or');?> SHA256 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_SHA256; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_SHA256; ?>">.zip</a>)</li>
+									<li><?php echo $l->t('Verify the authenticity via PGP');?> (<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_PGP; ?>">.tar.bz2 </a>/<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_PGP ?>">.zip</a>). <?php echo $l->t('The Nextcloud GPG key');?> <a target="_blank" href="<?php echo $NEXTCLOUD_GPG ; ?>"><?php echo $l->t('is here');?></a>.</li>
+								</ol>
+							<p><?php echo $l->t('<strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a>.');?></p>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="thumbnail">
+								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
+							</div>
+							<p><?php echo $l->t('Looking for <a href="/changelog">older versions or major releases</a>?');?></p>
+							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the Nextcloud Appliance</a> on Windows Server.</small>');?></p>
+						</div>
+					</div>
+				</div>
+				<div id="tab-web" role="tabpanel" class="tab-pane">
+					<div class="overlay-body row">
+						<div class="col-md-6">
+							<p><?php echo $l->t('The <strong>Web Installer</strong> is the easiest way to install Nextcloud on a web space. It checks the dependencies, downloads Nextcloud from the official server, unpacks it with the right permissions and the right user account. Finally, you will be redirected to the Nextcloud installer.');?></p>
+							<ol>
+								<li><?php echo $l->t('Right-click <a href="https://download.nextcloud.com/server/installer/setup-nextcloud.php">here</a> and save the file to your computer');?></li>
+								<li><?php echo $l->t('Upload <tt>setup-nextcloud.php</tt> to your web space');?></li>
+								<li><?php echo $l->t('Point your web browser to <tt>setup-nextcloud.php</tt> on your webspace');?></li>
+								<li><?php echo $l->t('Follow the instructions and configure Nextcloud');?></li>
+								<li><?php echo $l->t('Login to your newly created Nextcloud instance!');?></li>
+							</ol>
+							<p><?php echo $l->t('You can find further instructions in the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Nextcloud Admin Manual');?></a>.</p>
+							<p><?php echo $l->t('<strong>Note</strong> that the installer uses the same Nextcloud version as available for the built in updater in Nextcloud. After a major release it can take up to a month before it becomes available through the web installer and the updater. This is done to spread the deployment of new major releases out over time.');?></p>
+						</div>
+						<div class="col-md-6">
+							<div class="thumbnail">
+								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
+							</div>
+							<p><?php echo $l->t('<strong>Security note:</strong></br> Once the setup is done, the Nextcloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a> for notifications on updates and security issues. Find here the public Nextcloud');?> <a href="<?php echo $NEXTCLOUD_GPG; ?>">GPG key</a>.</p>
+							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the Nextcloud Appliance</a> on Windows Server.</small>');?></p>
+						</div>
+					</div>
+				</div>
+				<div id="tab-packages" role="tabpanel" class="tab-pane">
+					<div class="overlay-body row">
+						<div class="col-md-6">
+							<p><?php echo $l->t('You can find further instructions in the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Nextcloud Admin Manual');?></a>.</br>
+							<?php echo $l->t('If you already run Nextcloud, refer to the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html"><?php echo $l->t('upgrade manual</a> for moving to new Nextcloud releases.');?></p>
+							<br/><a class="btn btn-primary" href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>">Continue</a></br></br>
+						</div>
+						<div class="col-md-6">
+							<div class="thumbnail">
+								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
+							</div>
+							<p><?php echo $l->t('<strong>Security note:</strong></br> We recommend a subscription to our low-traffic <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a> for notifications on updates and security issues. Find the <a href="<?php echo $NEXTCLOUD_GPG; ?>">public Nextcloud GPG key here</a>.');?></p>
+							<p><?php echo $l->t('Looking for repositories of <a href="/changelog">previous major releases</a>?');?></p>
+							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the Nextcloud Appliance</a> on Windows Server.</small>');?></p>
+						</div>
+					</div>
+				</div>
+				<div id="tab-cloud" role="tabpanel" class="tab-pane">
+					<div class="overlay-body row">
+						<div class="col-md-6">
+							<p><?php echo $l->t('The official Nextcloud appliance, provided by <a target="_blank" href="https://www.techandme.se/">TechandMe.se</a>, is the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure connection. ');?></p>
+							<h4><?php echo $l->t('Grab the Nextcloud virtual machine image from the TechandMe.se website:');?></h4>
+							<p><?php echo $l->t('<a class="btn btn-primary" href="https://www.techandme.se/nextcloud-vm/">Instructions and download</a>');?></p>
+							<p><?php echo $l->t('Find <a href="https://github.com/nextcloud/vm">source here</a>.');?></p>
+						</div>
+						<div class="col-md-6">
+							<div class="thumbnail">
+								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/VMwelcome.png" alt="Nextcloud VM" />
+							</div>
+							<p><?php echo $l->t('<strong>Security note:</strong></br> We recommend a subscription to our low-traffic <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a> for notifications on updates and security issues. Find here the public Nextcloud');?> <a href="<?php echo $NEXTCLOUD_GPG; ?>"><?php echo $l->t('GPG key');?></a>.</p>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="row">
-				<a href="#" class="close">&times;</a>
 				<ul class="nav nav-tabs" role="tablist">
 					<li id="li-tab-archive" class="active"><a href="#tab-archive" title="For server owners" role="tab" data-toggle="tab"><i class="icon-archive"></i> <?php echo $l->t('Archive File<br><small>For server owners');?></small></a></li>
 					<li><a href="#tab-web" title="Best for shared hosts" role="tab" data-toggle="tab"><i class="icon-code"></i> <?php echo $l->t('Web Installer<br><small>For shared hosts');?></small></a></li>
 					<li><a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-cloud"></i> <?php echo $l->t('Appliances<br><small>For easy deployment');?></small></a></li>
 				</ul>
 			</div>
-			<br>
-			<div class="overlay-header row">
-				<p><?php echo $l->t('Latest stable version');?>:  <span class="label label-blue"><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></span> (<a href="/changelog"><small><?php echo $l->t('Changelog');?></small></a>)</br>
-				<p><?php echo $l->t('Nextcloud Server supports Linux (like) operating systems, and is available via packages, sources, appliances or a one file php installer.');?></p>
-			</div>
-			<div  class="tab-content">
-				<div id="tab-archive" role="tabpanel" class="tab-pane active">
-					<div class="overlay-body row">
-						<div class="col-md-6">
-							<p><?php echo $l->t('The <strong>archive</strong> provides the server and all immediate 3rd party PHP libraries.');?></p>
-							<ol>
-								<li><?php echo $l->t('Download');?> <a class="label label-blue" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">.tar.bz2</a> <?php echo $l->t('or');?> <a class="label label-blue" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">.zip</a> <?php echo $l->t('archive.');?></li>
-								<li><?php echo $l->t('Check package integrity using MD5');?> (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_MD5; ?>">.zip</a>) <?php echo $l->t('or');?> SHA256 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_SHA256; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_SHA256; ?>">.zip</a>)</li>
-								<li><?php echo $l->t('Verify the authenticity via PGP');?> (<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_PGP; ?>">.tar.bz2 </a>/<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_PGP ?>">.zip</a>). <?php echo $l->t('The Nextcloud GPG key');?> <a target="_blank" href="<?php echo $NEXTCLOUD_GPG ; ?>"><?php echo $l->t('is here');?></a>.</li>
-								<li><?php echo $l->t('Follow the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation"><?php echo $l->t('Nextcloud Admin Manuals</a> installation chapter.v</br>
-								If you already run Nextcloud, refer to the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/update.html"><?php echo $l->t('update documentation</a> for minor releases and the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html"><?php echo $l->t('upgrade manual</a> for moving to major new Nextcloud releases');?></li>
-							</ol>
-							<p><?php echo $l->t('<strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a>.');?></p>
-						</div>
-						<div class="col-md-6">
-							<div class="thumbnail">
-								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
-							</div>
-								<p><?php echo $l->t('Looking for <a href="/changelog">older versions or major releases</a>?');?></p>
-								<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the Nextcloud Appliance</a> on Windows Server.</small>');?></p>
-							</div>
-						</div>
-					</div>
-					<div id="tab-web" role="tabpanel" class="tab-pane">
-						<div class="overlay-body row">
-							<div class="col-md-6">
-								<p><?php echo $l->t('The <strong>Web Installer</strong> is the easiest way to install Nextcloud on a web space. It checks the dependencies, downloads Nextcloud from the official server, unpacks it with the right permissions and the right user account. Finally, you will be redirected to the Nextcloud installer.');?></p>
-								<ol>
-									<li><?php echo $l->t('Right-click <a href="https://download.nextcloud.com/server/installer/setup-nextcloud.php">here</a> and save the file to your computer');?></li>
-									<li><?php echo $l->t('Upload <tt>setup-nextcloud.php</tt> to your web space');?></li>
-									<li><?php echo $l->t('Point your web browser to <tt>setup-nextcloud.php</tt> on your webspace');?></li>
-									<li><?php echo $l->t('Follow the instructions and configure Nextcloud');?></li>
-									<li><?php echo $l->t('Login to your newly created Nextcloud instance!');?></li>
-								</ol>
-								<p><?php echo $l->t('You can find further instructions in the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Nextcloud Admin Manual');?></a>.</p>
-								<p><?php echo $l->t('<strong>Note</strong> that the installer uses the same Nextcloud version as available for the built in updater in Nextcloud. After a major release it can take up to a month before it becomes available through the web installer and the updater. This is done to spread the deployment of new major releases out over time.');?></p>
-							</div>
-							<div class="col-md-6">
-								<div class="thumbnail">
-									<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
-								</div>
-									<p><?php echo $l->t('<strong>Security note:</strong></br> Once the setup is done, the Nextcloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a> for notifications on updates and security issues. Find here the public Nextcloud');?> <a href="<?php echo $NEXTCLOUD_GPG; ?>">GPG key</a>.</p>
-									<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the Nextcloud Appliance</a> on Windows Server.</small>');?></p>
-								</div>
-							</div>
-						</div>
-						<div id="tab-packages" role="tabpanel" class="tab-pane">
-							<div class="overlay-body row">
-								<div class="col-md-6">
-									<p><?php echo $l->t('You can find further instructions in the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Nextcloud Admin Manual');?></a>.</br>
-									<?php echo $l->t('If you already run Nextcloud, refer to the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html"><?php echo $l->t('upgrade manual</a> for moving to new Nextcloud releases.');?></p>
-										<br/><a class="btn btn-primary" href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>">Continue</a></br></br>
-								</div>
-								<div class="col-md-6">
-									<div class="thumbnail">
-										<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
-									</div>
-										<p><?php echo $l->t('<strong>Security note:</strong></br> We recommend a subscription to our low-traffic <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a> for notifications on updates and security issues. Find the <a href="<?php echo $NEXTCLOUD_GPG; ?>">public Nextcloud GPG key here</a>.');?></p>
-										<p><?php echo $l->t('Looking for repositories of <a href="/changelog">previous major releases</a>?');?></p>
-										<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the Nextcloud Appliance</a> on Windows Server.</small>');?></p>
-									</div>
-								</div>
-							</div>
-							<div id="tab-cloud" role="tabpanel" class="tab-pane">
-								<div class="overlay-body row">
-									<div class="col-md-6">
-										<p><?php echo $l->t('The official Nextcloud appliance, provided by <a target="_blank" href="https://www.techandme.se/">TechandMe.se</a>, is the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure connection. ');?></p>
-										<h4><?php echo $l->t('Grab the Nextcloud virtual machine image from the TechandMe.se website:');?></h4>
-										<p><?php echo $l->t('<a class="btn btn-primary" href="https://www.techandme.se/nextcloud-vm/">Instructions and download</a>');?></p>
-										<p><?php echo $l->t('Find <a href="https://github.com/nextcloud/vm">source here</a>.');?></p>
-									</div>
-									<div class="col-md-6">
-										<div class="thumbnail">
-											<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/VMwelcome.png" alt="Nextcloud VM" />
-										</div>
-										<p><?php echo $l->t('<strong>Security note:</strong></br> We recommend a subscription to our low-traffic <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a> for notifications on updates and security issues. Find here the public Nextcloud');?> <a href="<?php echo $NEXTCLOUD_GPG; ?>"><?php echo $l->t('GPG key');?></a>.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-				</div>
+		</div>
 	</div>
-<!-- </div> -->
 <!--  Mask instructions server -->
-<a href="#" class="mask"></a>
+	<a href="#" class="mask"></a>
 </div>
 
 <div class="installers">
@@ -249,25 +246,24 @@
         <!--  Mask instructions server -->
    <a href="#" class="mask"></a>
 </div>
-<script>
-    $('#packages').click(function () {
-        $("#tab-archive").removeClass("active");
-        $("#tab-packages").addClass("active");
-        $("#li-tab-archive").removeClass("active");
-        $("#li-tab-packages").addClass("active");
-    });
-</script>
 <script type="text/javascript">
-	$(function() {
-		if (navigator.appVersion.indexOf("Win")!=-1) {
-			var e = document.getElementById("client-download-win");
-			e.className += ' btn-primary';
-		} else if(navigator.appVersion.indexOf("Mac")!=-1) {
-			var e = document.getElementById("client-download-mac");
-			e.className += " btn-primary";
-		} else if (navigator.appVersion.indexOf("X11")!=-1 || navigator.appVersion.indexOf("Linux")!=-1) {
-			var e = document.getElementById("client-download-linux");
-			e.className += ' btn-primary';
-		}
-	});
+$('#packages').click(function () {
+	$("#tab-archive").removeClass("active");
+	$("#tab-packages").addClass("active");
+	$("#li-tab-archive").removeClass("active");
+	$("#li-tab-packages").addClass("active");
+});
+
+$(function() {
+	if (navigator.appVersion.indexOf("Win")!=-1) {
+		var e = document.getElementById("client-download-win");
+		e.className += ' btn-primary';
+	} else if(navigator.appVersion.indexOf("Mac")!=-1) {
+		var e = document.getElementById("client-download-mac");
+		e.className += " btn-primary";
+	} else if (navigator.appVersion.indexOf("X11")!=-1 || navigator.appVersion.indexOf("Linux")!=-1) {
+		var e = document.getElementById("client-download-linux");
+		e.className += ' btn-primary';
+	}
+});
 </script>
