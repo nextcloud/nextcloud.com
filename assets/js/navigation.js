@@ -47,7 +47,7 @@ $(window).load(function() {
               $(this.variables.mobileBackgroundSelector).toggleClass(this.variables.activeClass);
               $(this.variables.sectionsSelector).toggleClass(this.variables.activeClass);
               $(this.variables.rightNavigationSelector).toggleClass(this.variables.activeClass);
-              $(this.variables.logoSelector).toggleClass(this.variables.sermobileMenuClass);
+              $(this.variables.logoSelector).toggleClass(this.variables.mobileMenuClass);
           });
 
           $(this.variables.sectionSelector).click(function() {
@@ -130,7 +130,7 @@ $(window).load(function() {
 
 
     //Bodymovin menu Animation
-    menuToggledAnimation: function () {
+    menuToggledAnimation: function() {
         var menuAnimation;
         var menuOpened = false;
 
@@ -211,7 +211,6 @@ $(window).load(function() {
 
     // Fade In animation
     $(this.variables.navigationSelector).velocity("transition.fadeIn", 1000 );
-    }
   },
 
   HeaderApp.init();
