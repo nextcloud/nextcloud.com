@@ -1,6 +1,6 @@
 $(window).load(function() {
   "use strict";
-  return {
+  var HeaderApp = {
     init: function() {
       
       //Enquire.js This hides the list on hover in the mobile
@@ -21,11 +21,14 @@ $(window).load(function() {
         sectionsSelector: ".nav__sections",
         sectionsContainerSelector: ".nav__sections-wrapper",
         sectionSelector: ".nav__section",
+        navBackgroundSelector: ".nav__bg",
         rightNavigationSelector: ".right-buttons",
         linksSelector: ".nav__links",
         logoSelector: ".logo",
         mobileClass: "mobile",
         activeClass: "active",
+        backgroundAnimationClass: "is-animatable",
+        linksVisibleClass: "is-visible",
         mobileBackgroundSelector: ".mobile-bg",
         mobileMenuClass: "menu-open"
     	}, 
@@ -37,7 +40,7 @@ $(window).load(function() {
           * Mobile fullscreen trigger
           */
           $(this.variables.toggleSelector).click(function(index, element) {
-              $(this).toggleClass(this.variables.activeClass);
+              $(element).toggleClass(this.variables.activeClass);
               $(this.variables.mobileBackgroundSelector).toggleClass(this.variables.activeClass);
               $(this.variables.sectionsSelector).toggleClass(this.variables.activeClass);
               $(this.variables.rightNavigationSelector).toggleClass(this.variables.activeClass);
@@ -53,45 +56,44 @@ $(window).load(function() {
       },
 
       desktopDropdown: function() {
-
         $(this.variables.sectionSelector).on("mouseover", function (event) { 
-            
-      	var bg = $(this).find(".nav__bg").first();        
-              setTimeout(function() {
-                  bg.addClass("is-animatable");
-              });	
+      			var bg = $(this).find(this.variables.navBackgroundSelector).first();        
+        		setTimeout(function() {
+          			bg.addClass(this.variables.backgroundAnimationClass);
+        		});	
       	
-      	var bgWrapper = $(this).find(".nav__bg-wrapper").first(); 
-      	var menu = $(this).find(".nav__links").first();
+		      	var bgWrapper = $(this).find(".nav__bg-wrapper").first(); 
+		      	var menu = $(this).find(this.variables.linksSelector).first();
 
-      	bgWrapper.addClass("is-visible");
-      	
-      	var selectedDropdown = menu,
-      	    height = selectedDropdown.innerHeight(),
-      	    width = selectedDropdown.innerWidth(),
-      	    liWidth = $(this).width(), // The total length of the li content text + padding
-      	    aWidth =  $(this).find("a").first().width(), // The total length of the text
-      	    half = liWidth - (aWidth/2);	
+		      	bgWrapper.addClass(this.variables.linksVisibleClass);
+		      	
+		      	var selectedDropdown = menu,
+		      	    height = selectedDropdown.innerHeight(),
+		      	    width = selectedDropdown.innerWidth(),
+		      	    liWidth = $(this).width(), // The total length of the li content text + padding
+		      	    aWidth =  $(this).find("a").first().width(), // The total length of the text
+		      	    half = liWidth - (aWidth/2);	
 
-      	bg.css({
-      	    "width": width +"px",
-      	    "height": height +"px"
-      	});
+		      	bg.css({
+		      	    "width": width +"px",
+		      	    "height": height +"px"
+		      	});
       	
-      	// To set the arrow above the drop down menu in the middle of the link text
-      	$("#nav-bg").text(".nav__bg:before, .nav__bg:after { left: "+ half +"px}");
-        });
-          
-        $(".nav__section").on("mouseleave", function () {
-      	var bg = $(this).find(".nav__bg").first();        
-        setTimeout(function() {
-            bg.removeClass("is-animatable");
-          });	
-      	
-      	var bgWrapper = $(this).find(".nav__bg-wrapper").first();   
-      	bgWrapper.removeClass("is-visible");
-      	 $("#nav-bg").text();
-        });
+      			// To set the arrow above the drop down menu in the middle of the link text
+		      	$("#nav-bg").text(".nav__bg:before, .nav__bg:after { left: "+ half +"px}");
+		        });
+		          
+		        $(this.variables.sectionSelector).on("mouseleave", function () {
+		      			var bg = $(this).find(this.variables.navBackgroundSelector).first();        
+				        setTimeout(function() {
+				            bg.removeClass(this.variables.backgroundAnimationClass);
+				          });	
+				      	
+				      	var bgWrapper = $(this).find(".nav__bg-wrapper").first();   
+				      	bgWrapper.removeClass(this.variables.linksVisibleClass);
+				      	 $("#nav-bg").text();
+				        }
+		        );
       },
       
       /**
@@ -197,5 +199,6 @@ $(window).load(function() {
       $("#nav").velocity("transition.fadeIn", 1000 );
     }
   }
-  init();
+
+  HeaderApp.init();
 });
