@@ -86,7 +86,7 @@
 						<div class="col-md-6">
 							<h3><?php echo $l->t('Response');?></h3>
 							<ul>
-								<li><?php echo $l->t('We run a <a href="https://hackerone.com/nextcloud">successful bug bounty program with high payouts</a>, up to EUR 5000');?></li>
+								<li><?php echo $l->t('We run a <a href="https://hackerone.com/nextcloud">successful bug bounty program with high payouts</a>, up to $5000');?></li>
 								<li><?php echo $l->t('Statistics show a massive decrease of valid external security reports');?></li>
 							</ul>
 						</div>
@@ -108,7 +108,7 @@
 		</div>
 		<div class="col-md-6">
 			<p><?php echo $l->t('We have partnered with the HackerOne platform because of its extraordinary popularity among IT security professionals. More than 3,000 hackers have reported over 24,000 bugs via the platform. Running a program on HackerOne allows us to quickly leverage the collective knowledge of a huge amount of these security experts.');?></p>
-			<p><?php echo $l->t('Anyone reporting a security vulnerability in Nextcloud can earn up to USD 5000, making ours some of the highest security bug bounties in the open source industry. For more details, <a href="https://nextcloud.com/blog/introducing-the-nextcloud-bug-bounty-program/">see our announcement</a>.');?></p>
+			<p><?php echo $l->t('Anyone reporting a security vulnerability in Nextcloud can earn up to $5000, making ours some of the highest security bug bounties in the open source industry. For more details, <a href="https://nextcloud.com/blog/introducing-the-nextcloud-bug-bounty-program/">see our announcement</a>.');?></p>
 			<p><?php echo $l->t('Find an example of RhinoSecurityLabs blogging about <a href="https://rhinosecuritylabs.com/2016/10/operation-ownedcloud-exploitation-post-exploitation-persistence/">a security issue dealt with here</a>.');?></p>
 			<a href="https://hackerone.com/nextcloud"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/hacker-one-logo.png" alt="Our HackerOne program" /></a>
 		</div>
