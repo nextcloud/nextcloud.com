@@ -1,12 +1,12 @@
-// Top Container Animations
 
-$(document).ready(function() {
-	$(".topbanner").velocity('transition.slideUpBigIn');
-	$(".toptext").velocity('transition.fadeIn', 2000);
-});
 
 // Why nextcloud icon animations
 $(window).load(function() {
+    // Top Container Animations
+    $(".topbanner").velocity('transition.slideUpBigIn');
+    $(".toptext").velocity('transition.fadeIn', 2000);
+
+
     /**
      * Animations
      */
@@ -36,4 +36,12 @@ $(window).load(function() {
         var anim;
         anim = bodymovin.loadAnimation(params);
     });
+    
+    var controller = new ScrollMagic.Controller();
+    var scene = new ScrollMagic.Scene ({
+        triggerElement: "#imageTrigger"
+    })
+    .setClassToggle("#imageTrigger", "image-container-fixed")
+    .addTo(controller);
+
 });
