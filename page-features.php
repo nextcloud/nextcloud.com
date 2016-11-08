@@ -13,7 +13,7 @@
 			<p class=""><?php echo $l->t('Nextcloud puts your data at your fingertips, under your control. You store your photos, calendar, contacts and documents on a server of your choosing, be it at home, a rented server or at one of our <a href="/providers">providers</a>. Your existing data can stay on that FTP drive at work, dropbox or a NAS you have at home, while you access it through Nextcloud.');?></p>
 			<p class=""><?php echo $l->t('A trusted solution giving you access to all data you care about in one convenient place!');?></p>
 			<div class="text-center morebuttondiv">
-				<a href="https://demo.nextcloud.com" class="btn btn-primary morebutton" target="_blank">Try it out now! <i class="icon-arrow-circle-o-right icon"></i></a>
+				<a href="https://demo.nextcloud.com" class="btn btn-primary morebutton" target="_blank"><?php echo $l->t('Try it out now!');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 			</div>
 		</div>
 	</div>
@@ -29,7 +29,7 @@
 			<p class=""><?php echo $l->t('The easy web interface allows you to share files with other users on your server, to create and send password protected public links, to let others upload files to your cloud and to get notifications on your phone and desktop when a user on another cloud server shares files directly with you. And you can do all these things from the desktop or mobile clients, too.');?></p>
 			<p><?php echo $l->t('Nextcloud makes sharing and collaboration easy!');?></p>
 			<div class="text-center morebuttondiv">
-				<a href="/sharing" class="btn btn-primary morebutton">Collaboration in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a>
+				<a href="/sharing" class="btn btn-primary morebutton"><?php echo $l->t('Collaboration in Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 			</div>
 		</div>
 		<div class="col-md-6">
@@ -59,7 +59,7 @@
 			</ul>
 			<p><?php echo $l->t('we are confident that Nextcloud offers the best security in the open source file sync and share industry.');?></p>
 			<div class="text-center morebuttondiv">
-				<a href="/secure" class="btn btn-primary morebutton">Security in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a>
+				<a href="/secure" class="btn btn-primary morebutton"><?php echo $l->t('Security in Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 			</div>
 		</div>
 		<div class="col-md-5">
@@ -73,7 +73,7 @@
 			<p class=""><?php echo $l->t('With Nextcloud, system administrators can control and direct the flow of data between users on or between servers. Rule based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements.');?></p>
 			<p><?php echo $l->t('Nextcloud puts you in control of your data and keeps it safe.');?></p>
 			<div class="text-center morebuttondiv">
-				<a href="/workflow" class="btn btn-primary morebutton">Workflow handling in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a>
+				<a href="/workflow" class="btn btn-primary morebutton"><?php echo $l->t('Workflow handling in Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 			</div>
 		</div>
 		<div class="col-md-6">
@@ -98,7 +98,7 @@
 			<p><?php echo $l->t('The Server Information app provides a way for admins to monitor the health and performance of a Nextcloud system. Besides the graphical UI, an API endpoint provided makes it possible for system administrators to import this data in their monitoring app so they can keep an eye on Nextcloud operations from the same place they monitor the rest of their infrastructure.');?></p>
 			<p><?php echo $l->t('The nextcloud Activity app gives users a clear view on what is happening with their files. It tracks file modifications, downloads of shares and changes to comments or tags, providing an overview in the browser or via email notifications and an RSS feed.');?></p>
 			<div class="text-center morebuttondiv">
-				<a href="/workflow#monitoring" class="btn btn-primary morebutton">Monitoring in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a>
+				<a href="/workflow#monitoring" class="btn btn-primary morebutton"><?php echo $l->t('Monitoring in Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 			</div>
 		</div>
 	</div>
@@ -210,14 +210,14 @@
 			<div class="text-center morebuttondiv">
 				<p><?php echo $l->t('<a href="/spreedbox" class="btn btn-primary morebutton">The Spreedbox <i class="icon-arrow-circle-o-right icon"></i></a>');?></p>
 				<br/>
-				<p><?php echo $l->t('<a href="https://spreed.me" class="btn btn-primary morebutton" target="_blank">Test Spreed.ME <i class="icon-arrow-circle-o-right icon"></i></a>');?></p>
+				<p><a href="https://spreed.me" class="btn btn-primary morebutton" target="_blank"><?php echo $l->t('Test Spreed.ME');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
 			</div>
 		</div>
 		<div class="col-md-7">
 			<p><?php echo $l->t('Operate your own secure and private audio/video and text chat. Your own video meeting service is accessible through browsers and dedicated apps on computers, mobile phones and tablets through the Internet or limited to an Intranet. Make a call, invite your friends and clients, and collaborate in closed groups through secure, end to end encrypted video/audio, text messaging, and document and file sharing. The Spreed.ME technology used offers peer to peer, WebRTC based communication channels which can not be intercepted even by the admin of the server. It provides an easy to use interface and can optionally interface with telephone lines, handling up to 10 participants in one session and tens of sessions on a single server.');?></p>
 			<p><?php echo $l->t('You can integrate this secure communication in your Nextcloud server or purchase our Spreedbox appliance in one cool, aluminum cube!');?></p>
 			<div class="text-center morebuttondiv">
-				<p><?php echo $l->t('<a href="/webrtc" class="btn btn-primary morebutton">Communication in Nextcloud <i class="icon-arrow-circle-o-right icon"></i></a>');?></p>
+				<p><a href="/webrtc" class="btn btn-primary morebutton"><?php echo $l->t('Communication in Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
 			</div>
 		</div>
 	</div>
@@ -247,7 +247,7 @@
 				</li>
 			</ul>
 			<div class="text-center morebuttondiv">
-				<a href="/collaboraonline" class="btn btn-primary morebutton">Collabora Online  <i class="icon-arrow-circle-o-right icon"></i></a></p>
+				<a href="/collaboraonline" class="btn btn-primary morebutton"><?php echo $l->t('Collabora Online');?>  <i class="icon-arrow-circle-o-right icon"></i></a></p>
 			</div>
 		</div>
 		<div class="col-md-7">
@@ -401,8 +401,8 @@
 </div>
 <div class="wrap container">
 <h2><?php echo $l->t('Get involved!');?></h2>
-<p><a target="_blank" href="https://help.nextcloud.com" class="btn btn-lg btn-default"> <i class="icon-bullhorn"></i> <?php echo $l->t('Discuss Nextcloud</a>');?></p>
-<p><a target="_blank" href="/contribute/" class="btn btn-lg btn-default"> <i class="icon-code"></i> <?php echo $l->t('Contribute to Nextcloud</a>');?></p>
+<p><a target="_blank" href="https://help.nextcloud.com" class="btn btn-lg btn-default"> <i class="icon-bullhorn"></i> <?php echo $l->t('Discuss Nextcloud');?></a></p>
+<p><a target="_blank" href="/contribute/" class="btn btn-lg btn-default"> <i class="icon-code"></i> <?php echo $l->t('Contribute to Nextcloud');?></a></p>
 </div>
 
 <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
