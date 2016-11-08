@@ -52,10 +52,10 @@
 		<h2><?php echo $l->t('Read the documentation');?></h2>
 		<p><?php echo $l->t('Here you can find our manuals:');?></p>
 		<ul>
-			<li><?php echo $l->t('<a href="<?php echo $DOCUMENTATION_USER; ?>" target="_blank" rel="tooltip" title="End User Documentation">Users</a>');?></li>
-			<li><?php echo $l->t('<a href="<?php echo $DOCUMENTATION_ADMIN; ?>" target="_blank" rel="tooltip" title="Nextcloud administrator Documentation">Admins</a>');?></li>
-			<li><?php echo $l->t('<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank" rel="tooltip" title="Nextcloud Developer Documentation">Developers</a>');?></li>
-			<li><?php echo $l->t('<a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/" target="_blank" rel="tooltip" title="Information for Testers">Testers</a>');?></li>
+			<li><a href="<?php echo $DOCUMENTATION_USER; ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('End User Documentation">Users</a>');?></li>
+			<li><a href="<?php echo $DOCUMENTATION_ADMIN; ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">Admins</a>');?></li>
+			<li><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud Developer Documentation">Developers</a>');?></li>
+			<li><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/" target="_blank" rel="tooltip" title="<?php echo $l->t('Information for Testers">Testers</a>');?></li>
 		</ul>
 	</div>
 	<div class="col-md-4">
