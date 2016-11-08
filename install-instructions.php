@@ -13,7 +13,7 @@
 							<p><?php echo $l->t('Follow the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation"><?php echo $l->t('Nextcloud Admin Manuals</a> installation chapter.</br>
 							If you already run Nextcloud, refer to the');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html"><?php echo $l->t('upgrade manual.');?></a><br/>
 							<?php echo $l->t('<a href="/enterprise">Need enterprise support?</a>');?></p>
-							
+
 							<a class="btn btn-default" data-toggle="collapse" href="#more">Details and Download options</a>
 							<div class="collapse" id="more">
 								<ol>
@@ -145,12 +145,13 @@
 											<div class="row">
 												<div class="col-xs-6">
 													<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
-													<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"><br /><a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>"><?php echo $l->t('Beta client');?></a>
-													</a>
+													<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"></a><br />
+													<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>"><?php echo $l->t('Beta client');?></a>
 												</div>
 												<div class="col-xs-6">
 													<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID; ?>">
-													<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a><br /><a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><?php echo $l->t('Beta client');?></a>
+													<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a><br />
+													<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><?php echo $l->t('Beta client');?></a>
 												</div>
 								<p><a href="https://github.com/nextcloud/android"><?php echo $l->t('Android Sources here</a>, <a href="https://download.nextcloud.com/android">direct APK download here.');?></a></p>
 								<div class="col-xs-6 mobileclientbuttons">
