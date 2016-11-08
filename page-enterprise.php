@@ -12,7 +12,7 @@
 		<div class="col-md-7">
 			<h2 class=""><?php echo $l->t('Get the best support');?></h2>
 			<h1 class=""><?php echo $l->t('From the source');?></h1>
-			<p><?php echo $l->t('Your Nextcloud subscription enables you to successfully deploy and manage your servers, complimenting your IT resources and increasing the efficiency and reliability of your service.');?></p>
+			<p><?php echo $l->t('Your Nextcloud subscription enables you to successfully deploy and manage your Nextcloud instances, complimenting your IT resources and increasing the efficiency and reliability of your service.');?></p>
 			<a class="btn btn-primary btn-lg btn-absolute-icon" href="/pricing" role="button"><?php echo $l->t('See pricing');?> <span class="icon-arrow"></span></a>
 		</div>
 		<div class="col-md-5">
@@ -27,7 +27,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3">
-				<p><?php echo $l->t('Our open approach gives you direct access to technical expertise of the top Nextcloud engineers, the latest knowledge and best practices. Pro-active security support helps you identify and address vulnerabilities and harden your servers to protect the safety and integrity of your data. Our multi-year life cycle support makes sure your business runs without disruptions.');?></p>
+				<p><?php echo $l->t('Our open approach gives you direct access to technical expertise of the top Nextcloud engineers, the latest knowledge and best practices. Pro-active security support helps you identify and address vulnerabilities and harden your servers to protect the safety and integrity of your data. Our multi-year life cycle support matches your OS and makes sure your business runs without disruptions.');?></p>
 			</div>
 		</div>
 		<div class="row">
@@ -55,8 +55,8 @@
 			<div class="col-md-8 revealOnScroll">
 			<h2><?php echo $l->t('Matter experts');?></h2>
 			<h3><?php echo $l->t('Dedicated to your success');?></h2>
-			<p><?php echo $l->t('As Nextcloud customer, we are dedicated to your success. An analysis of your needs, a pilot customized for your architecture and remote installation support ensures a smooth introduction of Nextcloud in your organization and we will help you scale up to meet growing demand in your organization.');?></p>
-			<p><?php echo $l->t('Nextcloud GmbH <a href="https://github.com/nextcloud/server/graphs/contributors?from=2015-10-24&to=2016-10-24&type=c">employs 8 of the top-ten developers</a> in the Nextcloud Server codebase, making <a href="/team">our engineering team</a> by far the most qualified to help you get the most out of your sync and share solution.');?></p>
+			<p><?php echo $l->t('We are dedicated to your success as Nextcloud customer. An analysis of your needs, a pilot customized for your architecture and remote installation support ensures a smooth introduction of Nextcloud in your organization and we will help you scale up to meet growing demand in your organization.');?></p>
+			<p><?php echo $l->t('Nextcloud GmbH <a href="https://github.com/nextcloud/server/graphs/contributors?from=2015-10-24&to=2016-10-24&type=c">employs 8 of the top-ten developers</a> in the Nextcloud Server codebase, making <a href="/team#engineering">our engineering team</a> by far the most qualified to help you get the most out of your Enterprise File Sync and Share solution.');?></p>
 			</div>
 			<div class="col-md-4 revealOnScroll">
 			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/education.svg">
@@ -72,7 +72,7 @@
 			<div class="col-md-8 revealOnScroll">
 			<h2><?php echo $l->t('Top notch security');?></h2>
 			<h3><?php echo $l->t('To keep your data safe');?></h2>
-			<p><?php echo $l->t('Nextcloud develops its software with a rigorous focus on security through the entire life cycle of the product. Our active and passive security measures are backed by the some of the highest security bug bounties in the open source industry.');?></p>
+			<p><?php echo $l->t('Nextcloud develops its software with a <a href="/secure">rigorous focus on security</a> through the entire life cycle of the product. Our active and passive security measures are backed by the some of the highest security bug bounties in the open source industry.');?></p>
 			<p><?php echo $l->t('As customer you get direct access to our security expertise, with hardening advice and ahead-of-release security issue mitigation and fixes.');?></p>
 			</div>
 		</div>
@@ -81,8 +81,8 @@
 			<div class="col-md-8 revealOnScroll">
 			<h2><?php echo $l->t('Multi-year lifecycle support');?></h2>
 			<h3><?php echo $l->t('For uninterupted service');?></h2>
-			<p><?php echo $l->t('A Nextcloud support subscriptionn gives you access to enterprise-ready software, updates, and information and support services that span your entire application infrastructure, life cycle, and architecture. You can count on receiving the latest product versions with the stability and security you need.');?></p>
-			<p><?php echo $l->t('Working with data is essential for your business and being forced on the upgrade threadmill is disruptive to your organization. With access to up to 15 years security and stability updates to Nextcloud, you can schedule upgrades when it works for you and secure the investments you did in your existing platform.');?></p>
+			<p><?php echo $l->t('A Nextcloud support subscription gives you access to enterprise-ready software, updates, and information and support services that span your entire OS and application infrastructure life cycle and architecture. You can count on receiving the latest product versions with the stability and security you need.');?></p>
+			<p><?php echo $l->t('Working with data is essential for your business and being forced on the upgrade threadmill is disruptive to your organization. With access to up to 15 years security and stability updates to Nextcloud, we match the lifecycle of your operating system so you can schedule upgrades when it works for you and secure the investments you did in your existing platform.');?></p>
 			<a class="btn btn-primary btn-lg btn-absolute-icon" href="/pricing" role="button"><?php echo $l->t('See pricing');?> <span class="icon-arrow"></span></a>
 			</div>
 			<div class="col-md-4 revealOnScroll">
