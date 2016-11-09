@@ -41,10 +41,11 @@ class L10N {
 	 * @return string
 	 */
 	private function getCurrentLanguage() {
-		if(isset($_GET['hl'])) {
-			$hl = strtolower((string)$_GET['hl']);
-			if(ctype_alnum($hl) && strlen($hl) === 2) {
-				return $hl;
+		$path = parse_url(site_url())['path'];
+		$language = explode('/', substr($_SERVER['REQUEST_URI'], strlen($path)));
+		if(isset($language[1]) && strlen($language[1]) === 2) {
+			if(ctype_alnum($language[1])) {
+				return $language[1];
 			}
 		}
 
