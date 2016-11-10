@@ -22,12 +22,15 @@ you to sync between your devices and share with others.');?></p>
 		<div class="wrapper-text col-md-5 revealOnScroll">
 			<h2><?php echo $l->t('Technology');?></h1>
 			<h6><?php echo $l->t('The Nextcloud box consists of the following parts:');?></h6>
-			<p><?php echo $l->t('1 TB USB3 hard drive from WDLabs');?></p>
-			<p><?php echo $l->t('Nextcloud case with room for the drive and a compute board');?></p>
-			<p><?php echo $l->t('microUSB charger, cables and adapters, a screw driver and screws');?></p>
-			<p><?php echo $l->t('microSD card with Snappy Ubuntu Core as OS, including Apache, MySQL and the latest Nextcloud 10 pre-installed and ready to go');?></p>
-			<p><?php echo $l->t('The Box is compatible with the Raspberry Pi 2 and 3, and also with oDroid C2 (not included).');?></p>
-			<p><?php echo $l->t('Right now, the OS only works with the Raspberry Pi 2. Software support for Raspberry Pi 3 is planned for November 2016, there is no plan for oDroid C2 yet.');?></p>
+			<ul>
+			<li><?php echo $l->t('1 TB USB3 hard drive from WDLabs');?></li>
+			<li><?php echo $l->t('Nextcloud case with room for the drive and a compute board');?></li>
+			<li><?php echo $l->t('microUSB charger, cables and adapters, a screw driver and screws');?></li>
+			<li><?php echo $l->t('microSD card with Snappy Ubuntu Core as OS, including Apache, MySQL and the latest Nextcloud 10 pre-installed and ready to go');?></li>
+			</ul>
+			<p><?php echo $l->t('The Box does not come with a Raspberry Pi.');?></p>
+			<p><?php echo $l->t('The Box is hardware-compatible with the Raspberry Pi 2 and 3, and the oDroid C2.');?></p>
+			<p><?php echo $l->t('Right now, the OS only works with the Raspberry Pi 2. Software support for Raspberry Pi 3 is planned for November 2016. There is no plan for oDroid C2 yet but Linux Kernel 4.10 has support planned for the hardware so first half 2017 is a reasonable guess.');?></p>
 		</div>
 	</div>
 </section>
@@ -38,6 +41,8 @@ you to sync between your devices and share with others.');?></p>
 		<div class="wrapper-text col-md-4">
 			<h2 class="revealOnScroll"><?php echo $l->t('Get the box');?></h2>
 			<p class="revealOnScroll"><?php echo $l->t('Currently you can only purchase the Nextcloud Box in Europe and the USA. We are working on bringing the box to other regions!');?></p>
+			<p><strong><?php echo $l->t('Note:');?></strong></p>
+			<p><?php echo $l->t('The Box does not come with a Raspberry Pi.');?></p>
 			<div class="btn-group">
 				<button type="button" data-toggle="dropdown" class="btn btn-primary buybutton dropdown-toggle revealOnScroll" aria-expanded="false"><?php echo $l->t('Select your country');?> &nbsp;<span class="caret"></span></button>
 				<ul role="menu" class="dropdown-menu">
