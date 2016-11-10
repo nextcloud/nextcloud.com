@@ -22,8 +22,13 @@ function translationUrlFilter($url, $path, $orig_scheme, $blog_id) {
 	$language = explode('/', substr($_SERVER['REQUEST_URI'], strlen($path)));
 	if(isset($language[1]) && $language[1] === 'de') {
 		$url = explode('/', $url);
+		if($path !== null) {
+			$count = 4;
+		} else {
+			$count = 3;
+		}
 		$languageEntry = ['de'];
-		array_splice($url, 4, 0, $languageEntry);
+		array_splice($url, $count, 0, $languageEntry);
 		return implode('/', $url);
 	}
 	return $url;
