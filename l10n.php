@@ -81,7 +81,7 @@ class L10N {
 				return $string;
 			}
 
-			if (array_keys($translationFile) !== array_keys($originalFile)) {
+			if(count(array_diff_key($translationFile, $originalFile)) > 0) {
 				return $string;
 			}
 
