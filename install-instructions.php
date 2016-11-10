@@ -123,7 +123,8 @@
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC; ?>" id="client-download-mac" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac<br /><small>OSX 10.9+, 64 bit</small></a>
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX; ?>" id="client-download-linux" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux<br /><small>Source</small></a>
 							<br><br>
-							<p><?php echo $l->t('Looking for the');?> <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>"><?php echo $l->t('Sources</a>? You can find Nextcloud Desktop client packages included in openSUSE Tumbleweed, Archlinux, Fedora (<a href="https://copr.fedorainfracloud.org/coprs/tpokorra/nextcloud/">on Copr</a>). Ask your distribution for packages or contribute!');?></p>
+							<p><?php echo $l->t('Looking for the');?> <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>"><?php echo $l->t('Sources</a>?');?>
+							<p><?php echo $l->t('You can already find Nextcloud Desktop client packages included in openSUSE Tumbleweed, Archlinux and Fedora (<a href="https://copr.fedorainfracloud.org/coprs/tpokorra/nextcloud/">on Copr</a>). Not in the list? Ask your distribution for packages or contribute to creating them!');?></p>
 							<p><?php echo $l->t('Nextcloud is using WebDAV, so you can also try out any other client you want!');?></p>
 							<p><?php echo $l->t('Compatible third party clients include:');?></p>
 							<ul>
@@ -153,16 +154,18 @@
 													<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a><br />
 													<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><?php echo $l->t('Beta client');?></a>
 												</div>
-								<p><a href="https://github.com/nextcloud/android"><?php echo $l->t('Android Sources here</a>, <a href="https://download.nextcloud.com/android">direct APK download here.');?></a></p>
 								<div class="col-xs-6 mobileclientbuttons">
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
 									</a>
+								</div>
+								<div class="col-xs-6 mobileclientbuttons">
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_WIN; ?>">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/windowsstore.png">
 									</a>
 								</div>
 							</div>
+							<p><a href="https://github.com/nextcloud/android"><?php echo $l->t('Android Sources here</a>, <a href="https://download.nextcloud.com/android">direct APK download here</a> and <a href="https://github.com/nextcloud/windows-uwp">Windows Mobile sources here</a>.');?></p>
 							<p><?php echo $l->t('Nextcloud is using WebDAV, so you can also try out any other client you want!');?></p>
 								<p><?php echo $l->t('Compatible third party clients include:');?></p>
 								<ul>
