@@ -23,7 +23,7 @@
 				<div class="line"></div>
 				<div class="list">
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>File sync and share');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Android, iOS and desktop apps, branding possible.</div>Mobile and desktop clients');?></li>
+					<li class="check overinfo"><?php echo $l->t('<div class="infotext">non-branded iOS app available for purchase, Windows Mobile, Android and desktop apps are free.</div>Mobile and desktop clients');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source');?></li>
 					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Support for the Calendar and Contacts apps.</div>Calendar and Contacts');?></li>
@@ -66,7 +66,7 @@
 				<div class="line"></div>
 				<div class="list">
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>File sync and share');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Android, iOS and desktop apps, branding possible.</div>Mobile and desktop clients');?></li>
+					<li class="check overinfo"><?php echo $l->t('<div class="infotext">on-branded iOS app available for purchase, Windows Mobile, Android and desktop apps are free. Branding optional.</div>Mobile and desktop clients');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Support for the Calendar and Contacts apps.</div>Calendar and Contacts');?></li>
@@ -109,7 +109,7 @@
 				<div class="line"></div>
 				<div class="list">
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>File sync and share');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Android, iOS and desktop apps, branding possible.</div>Mobile and desktop clients');?></li>
+					<li class="check overinfo"><?php echo $l->t('<div class="infotext">on-branded iOS app available for purchase, Windows Mobile, Android and desktop apps are free. Branding optional.</div>Mobile and desktop clients');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Support for the Calendar and Contacts apps.</div>Calendar and Contacts');?></li>
@@ -146,6 +146,7 @@
 </div>
 <div class="container text-center">
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Prices are in Euro per year and net/excl. VAT.');?></p>
+	<p class="revealOnScroll epricevat"><?php echo $l->t('Android, Windows Mobile and desktop apps are free; iOS app can be purchased in the Apple App Store.');?></p>
 	<p class="revealOnScroll"><?php echo $l->t('<small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small>');?></p>
 </div>
 <div class="container discounts">
