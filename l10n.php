@@ -70,12 +70,22 @@ class L10N {
 		}
 		$this->requestedStrings[$stringHash] = $string;
 
-		// Read the translated string
+		// Read the translated string if 100% translated
 		$translationFile = __DIR__ . '/l10n/'.$this->getCurrentLanguage().'/' .  $this->pageName . '.json';
 		if(file_exists($translationFile)) {
-			$translations = json_decode(file_get_contents($translationFile), true);
-			if(isset($translations[$stringHash])) {
-				return $translations[$stringHash];
+			$originalFile = json_decode(file_get_contents(__DIR__ . '/l10n/base/' . $this->pageName . '.json'), true);
+			$translationFile = json_decode(file_get_contents($translationFile), true);
+
+			if(!is_array($translationFile) || !is_array($originalFile)) {
+				return $string;
+			}
+
+			if (array_keys($translationFile) !== array_keys($originalFile)) {
+				return $string;
+			}
+
+			if(isset($translationFile[$stringHash])) {
+				return $translationFile[$stringHash];
 			}
 		}
 
