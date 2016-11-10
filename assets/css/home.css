@@ -252,60 +252,41 @@ section#why-nextcloud {
     .Section-Introducing-Nextcloud {
       padding-top: 60px;
       height: 100vh; } }
-  .Section-Introducing-Nextcloud .img_carousel {
-    padding-top: 100px;
-    position: relative; }
-    @media (max-height: 800px) {
-      .Section-Introducing-Nextcloud .img_carousel {
-        padding-top: 60px; } }
-    .Section-Introducing-Nextcloud .img_carousel img {
-      float: right;
-      width: 582px;
-      height: 474px; }
-      @media (max-height: 800px) {
-        .Section-Introducing-Nextcloud .img_carousel img {
-          width: 490px;
-          height: 402px; } }
-  .Section-Introducing-Nextcloud .indicators {
-    -webkit-transition: all .5s;
-    transition: all .5s;
-    opacity: 1;
-    position: absolute;
-    z-index: 2;
-    bottom: 50vh;
-    right: 0; }
-    @media (max-width: 768px) {
-      .Section-Introducing-Nextcloud .indicators {
-        display: none; } }
-    .Section-Introducing-Nextcloud .indicators .btn_carousel {
-      margin-top: 10px;
-      width: 14px;
-      height: 14px;
-      color: transparent;
-      border: 1px solid #0082c9;
-      background-color: #0082c9;
-      border-radius: 50%;
-      padding: 0;
-      -webkit-transform: scale(0.5);
-      -ms-transform: scale(0.5);
-      transform: scale(0.5);
-      -webkit-transition: all 250ms ease-in-out;
-      transition: all 250ms ease-in-out; }
-    .Section-Introducing-Nextcloud .indicators .btn_carousel.active {
-      background-color: transparent;
-      -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-      transform: scale(1); }
-
-#pinContainer {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden; }
-
-.panel {
-  height: 100%;
-  width: 100%;
-  position: absolute; }
+  .Section-Introducing-Nextcloud .container {
+    padding-top: 60px; }
+    .Section-Introducing-Nextcloud .container .col-md-6
+    .image-responsive:image-container-fixed {
+      position: fixed; }
+    .Section-Introducing-Nextcloud .container .indicators {
+      -webkit-transition: all .5s;
+      transition: all .5s;
+      opacity: 1;
+      position: absolute;
+      z-index: 2;
+      bottom: 50vh;
+      right: 0; }
+      @media (max-width: 768px) {
+        .Section-Introducing-Nextcloud .container .indicators {
+          display: none; } }
+      .Section-Introducing-Nextcloud .container .indicators .btn_carousel {
+        margin-top: 10px;
+        width: 14px;
+        height: 14px;
+        color: transparent;
+        border: 1px solid #0082c9;
+        background-color: #0082c9;
+        border-radius: 50%;
+        padding: 0;
+        -webkit-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transition: all 250ms ease-in-out;
+        transition: all 250ms ease-in-out; }
+      .Section-Introducing-Nextcloud .container .indicators .btn_carousel.active {
+        background-color: transparent;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1); }
 
 .news-section {
   position: relative;

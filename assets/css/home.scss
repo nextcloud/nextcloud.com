@@ -309,74 +309,56 @@ section#why-nextcloud {
     padding-top: 60px;
     height: 100vh;
   }
+  
+  .container {
+    padding-top: 60px;
 
-  .img_carousel {
-    padding-top: 100px;
-    position:relative;
-    @media (max-height: 800px) {
-      padding-top: 60px;
+    .col-md-6 
+
+    .image-responsive {
+
+      &:image-container-fixed {
+        position: fixed;
+      }
     }
 
-    img {
-      float: right;
-      width: 582px;
-      height: 474px;
-      @media (max-height: 800px) {
-        width: 490px;
-        height: 402px;
+    .indicators {
+      -webkit-transition: all .5s;
+      transition: all .5s;
+      opacity: 1;
+      position: absolute;
+      z-index: 2;
+      bottom: 50vh;
+      right: 0;
+      @media (max-width: $break-small) {
+        display: none;
+      }
+
+      .btn_carousel{
+        margin-top: 10px;
+        width: 14px;
+        height: 14px;
+        color: transparent;
+        border: 1px solid $nextcloud-blue;
+        background-color: $nextcloud-blue;
+        border-radius: 50%;
+        padding: 0;
+        -webkit-transform: scale(.5);
+        -ms-transform: scale(.5);
+        transform: scale(.5);
+        -webkit-transition: all 250ms ease-in-out;
+        transition: all 250ms ease-in-out;
+      }
+
+      .btn_carousel.active{
+        background-color: transparent;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
       }
     }
   }
-
-  .indicators {
-    -webkit-transition: all .5s;
-    transition: all .5s;
-    opacity: 1;
-    position: absolute;
-    z-index: 2;
-    bottom: 50vh;
-    right: 0;
-    @media (max-width: $break-small) {
-      display: none;
-    }
-
-    .btn_carousel{
-      margin-top: 10px;
-      width: 14px;
-      height: 14px;
-      color: transparent;
-      border: 1px solid $nextcloud-blue;
-      background-color: $nextcloud-blue;
-      border-radius: 50%;
-      padding: 0;
-      -webkit-transform: scale(.5);
-      -ms-transform: scale(.5);
-      transform: scale(.5);
-      -webkit-transition: all 250ms ease-in-out;
-      transition: all 250ms ease-in-out;
-    }
-
-    .btn_carousel.active{
-      background-color: transparent;
-      -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-      transform: scale(1);
-    }
-  }
 }
-
-#pinContainer {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.panel {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
 
 .news-section {
   position: relative;
