@@ -158,6 +158,9 @@
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
 									</a>
+									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_WIN; ?>">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/windowsstore.png">
+									</a>
 								</div>
 							</div>
 							<p><?php echo $l->t('Nextcloud is using WebDAV, so you can also try out any other client you want!');?></p>
