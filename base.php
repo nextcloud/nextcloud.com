@@ -184,8 +184,10 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 $storeToCache = false;
 $echoed = false;
 $hl = '';
-if(isset($_GET['hl'])) {
-	$hl = strtolower((string)$_GET['hl']);
+$path = parse_url(site_url())['path'];
+$language = explode('/', substr($_SERVER['REQUEST_URI'], strlen($path)));
+if(isset($language[1]) && $language[1] === 'de') {
+	$hl = strtolower((string)$language[1]);
 	if (ctype_alnum($hl) && strlen($hl) === 2) {
 		$l10nFiles = [
 			get_post()->post_name,
