@@ -5,13 +5,13 @@ $(window).load(function() {
 
         //Enquire.js This hides the list on hover in the mobile
         enquire.register("screen and (max-width: 992px,)", {
-        match: _.bind(this.showListMobile, this)
+        match: _.bind(this.mobileEvent, this)
         });
 
         enquire.register("screen and (min-width: 993px)", {
         // Triggered when the media query transitions
         // from *unmatched* to *matched*
-        match: _.bind_(this.desktopDropdown, this)
+        match: _.bind(this.desktopDropdownEvent, this)
         });
     },
 
@@ -35,77 +35,70 @@ $(window).load(function() {
         mobileMenuClass: "menu-open"
     },
 
-    showListMobile: function() {
-        $(this.variables.navigationSelector).addClass(this.variables.mobileClass);
-
-
-          /**
-          * Mobile fullscreen trigger
-          */
-          $(this.variables.toggleSelector).click(function(index, element) {
-              $(element).toggleClass(this.variables.activeClass);
-              $(this.variables.mobileBackgroundSelector).toggleClass(this.variables.activeClass);
-              $(this.variables.sectionsSelector).toggleClass(this.variables.activeClass);
-              $(this.variables.rightNavigationSelector).toggleClass(this.variables.activeClass);
-              $(this.variables.logoSelector).toggleClass(this.variables.mobileMenuClass);
-          });
-
-          $(this.variables.sectionSelector).click(function() {
-              $(this.variables.linksSelector).removeClass(this.variables.activeClass);
-              $(this.variables.sectionsContainerSelector).removeClass(this.variables.mobileClass);
-              $(this.variables.linksSelector, this).toggleClass(this.activeClass);
-              $(this.variables.sectionsContainerSelector).toggleClass(this.variables.mobileClass);
-          });
+    toggleMobileMenu: function(index, element) {
+        $(element).toggleClass(this.variables.activeClass);
+        $(this.variables.mobileBackgroundSelector).toggleClass(this.variables.activeClass);
+        $(this.variables.sectionsSelector).toggleClass(this.variables.activeClass);
+        $(this.variables.rightNavigationSelector).toggleClass(this.variables.activeClass);
+        $(this.variables.logoSelector).toggleClass(this.variables.mobileMenuClass);
     },
 
-    backgroundDropdown: function() {
+    showSubMenu: function() {
+        $(this.variables.linksSelector).removeClass(this.variables.activeClass);
+        $(this.variables.sectionsContainerSelector).removeClass(this.variables.mobileClass);
+        $(this.variables.linksSelector, this).toggleClass(this.activeClass);
+        $(this.variables.sectionsContainerSelector).toggleClass(this.variables.mobileClass);
+    },
 
-        $(this.variables.sectionSelector).on("mouseover", function (event) {
-            var bg = $(this).find(this.variables.navBackgroundSelector).first();
-            setTimeout(function () {
-                bg.addClass(this.variables.backgroundAnimationClass);
-            });
+    mobileEvent: function() {
+        $(this.variables.navigationSelector).addClass(this.variables.mobileClass);
+        $(this.variables.toggleSelector).click(_.bind(this.toggleMobileMenu, this));
+        $(this.variables.sectionSelector).click(_.bind(this.showSubMenu, this));
+    },
 
-            var bgWrapper = $(this).find(this.variables.navBackgroundWrapper).first();
-            var menu = $(this).find(this.variables.linksSelector).first();
+        setBackgroundDropdown: function () {
+            bg.addClass(this.variables.backgroundAnimationClass);
+        },
 
-            bgWrapper.addClass(this.variables.linksVisibleClass);
+        backgroundDropdown: function(index, element) {
+        var bg = $(element).find(this.variables.navBackgroundSelector).first(),
+            bgWrapper = $(this).find(this.variables.navBackgroundWrapper).first(),
+            menu = $(this).find(this.variables.linksSelector).first(),
+            selectedDropdown = menu,
+            height = selectedDropdown.innerHeight(),
+            width = selectedDropdown.innerWidth();
 
-            var selectedDropdown = menu,
-                height = selectedDropdown.innerHeight(),
-                width = selectedDropdown.innerWidth(),
-                liWidth = $(this).width(), // The total length of the li content text + padding
-                aWidth = $(this).find("a").first().width(), // The total length of the text
-                half = liWidth - (aWidth / 2);
-
-            bg.css({
-                "width": width + "px",
-                "height": height + "px"
-            });
+        bgWrapper.addClass(this.variables.linksVisibleClass);
+            _.bind(this.setBackgroundDropdown, this);
+        bg.css({
+            "width": width + "px",
+            "height": height + "px"
         });
+    },
+
+    desktopDropdownEvent: function() {
+        $(this.variables.sectionSelector).on("mouseover", _.bind(this.backgroundDropdown, this)),
+        $(this.variables.sectionSelector).on("mouseleave", _.bind(this.arrowDropdown, this))
+
     },
 
     // To set the arrow above the drop down menu in the middle of the link text
     arrowDropdown: function() {
+        var liWidth = $(this).width(), // The total length of the li content text + padding
+            aWidth = $(this).find("a").first().width(),// The total length of the text
+            half = liWidth - (aWidth / 2);
+
         $("#nav-bg").text(".nav__bg:before, .nav__bg:after { left: "+ half +"px}");
+        var bg = $(this).find(this.variables.navBackgroundSelector).first();
 
-        $(this.variables.sectionSelector).on("mouseleave", function () {
-            var bg = $(this).find(this.variables.navBackgroundSelector).first();
-            setTimeout(function() {
-                bg.removeClass(this.variables.backgroundAnimationClass);
-            });
-
-            var bgWrapper = $(this).find(this.variables.navBackgroundWrapper).first();
-            bgWrapper.removeClass(this.variables.linksVisibleClass);
-            $("#nav-bg").text();
+        setTimeout(function() {
+            bg.removeClass(this.variables.backgroundAnimationClass);
         });
-    },
 
-    desktopDropdown: function() {
-        _.bind(this.backgroundDropdown, this),
-        _.bind(this.arrowDropdown, this)
+        var bgWrapper = $(this).find(this.variables.navBackgroundWrapper).first();
+        bgWrapper.removeClass(this.variables.linksVisibleClass);
+        $("#nav-bg").text();
     },
-
 
     //Listen to scroll to change header opacity class
     checkScroll: function() {
@@ -128,23 +121,22 @@ $(window).load(function() {
         }
     },
 
+    // Prevent scrolling if menu is opened
+    blockScroll: function(e) {
+    if(menuOpened) {
+        e.preventDefault();
+        e.stopPropagation();
+        return false;
+        }
+    },
+
 
     //Bodymovin menu Animation
     menuToggledAnimation: function() {
-        var menuAnimation;
-        var menuOpened = false;
-
-        // Prevent scrolling if menu is opened
-        $("html").on("scroll touchmove mousewheel", function(e) {
-            if(menuOpened) {
-                e.preventDefault();
-                e.stopPropagation();
-                return false;
-            }
-        });
-
-        var animContainer = document.querySelectorAll(".container button")[0];
-        var params = {
+        var menuAnimation,
+            menuOpened = false,
+            animContainer = document.querySelectorAll(".container button")[0],
+            params = {
             container: animContainer,
             renderer: "svg",
             loop: false,
@@ -210,8 +202,7 @@ $(window).load(function() {
 
 
     // Fade In animation
-    $(this.variables.navigationSelector).velocity("transition.fadeIn", 1000 );
-  },
-
-  HeaderApp.init();
-});
+    //$(this.variables.navigationSelector).velocity("transition.fadeIn", 1000 );
+}
+    HeaderApp.init();
+});;
