@@ -251,10 +251,8 @@ section#why-nextcloud {
       .Section-Introducing-Nextcloud .container .image-top-container .image-top {
         position: absolute;
         width: 100%;
-        bottom: -373px;
+        bottom: -954px;
         transition: all ease-in 0.3s; }
-      .Section-Introducing-Nextcloud .container .image-top-container .active {
-        bottom: -26px; }
     .Section-Introducing-Nextcloud .container .texts-wrapper {
       float: right; }
       .Section-Introducing-Nextcloud .container .texts-wrapper .right-text-grey {
