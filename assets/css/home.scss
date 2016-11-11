@@ -118,26 +118,6 @@
 }
 
 
-/**
- * Home page: Introducing Nextcloud 10
- */
-.right-text-grey {
-  opacity: 0;
-  padding-top: 75px;
-  &:first-child {
-    padding-top: 50px;
-  }
-  @media (max-width: 768px){
-    text-align: center;
-  }
-  p {
-    font-size: 18px;
-    font-weight: 100;
-    color: #555555;
-  }
-}
-
-
 .introducing-nc-release {
   padding-top: 100px;
   padding-bottom: 75px;
@@ -302,25 +282,36 @@ section#why-nextcloud {
 .Section-Introducing-Nextcloud {
   background-color: transparent;
   overflow: hidden;
-  height: 200vh;
+  height: 100%;
   position: relative;
   padding-top: 130px;
   @media (max-width: $navbar-breaksize) {
     padding-top: 60px;
-    height: 100vh;
+    height: 100%;
   }
   
   .container {
     padding-top: 60px;
 
-    .col-md-6 
+    .texts-wrapper {
+      float: right;
 
-    .image-responsive {
+      .right-text-grey {
+        padding-top: 75px;
+        padding-bottom: 300px;
 
-      &:image-container-fixed {
-        position: fixed;
-      }
-    }
+        p {
+          font-size: 18px;
+          font-weight: 100;
+          color: #555555;
+       }
+     }
+
+     .right-text-grey:not(:nth-child(1)) {
+        padding-bottom:50%;
+        padding-top: 50%;
+     }
+   }
 
     .indicators {
       -webkit-transition: all .5s;

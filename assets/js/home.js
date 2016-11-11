@@ -39,9 +39,13 @@ $(window).load(function() {
     
     var controller = new ScrollMagic.Controller();
     var scene = new ScrollMagic.Scene ({
-        triggerElement: "#imageTrigger"
+        triggerElement: "#imageTrigger", 
+        offset:170,
+        duration: "400%"
     })
-    .setClassToggle("#imageTrigger", "image-container-fixed")
-    .addTo(controller);
-
+    .setPin("#imageTrigger")
+    .addIndicators({
+        colorTrigger:"black"
+    })
+.addTo(controller);
 });

@@ -104,22 +104,6 @@
   line-height: 1.36;
   font-weight: 100; }
 
-/**
- * Home page: Introducing Nextcloud 10
- */
-.right-text-grey {
-  opacity: 0;
-  padding-top: 75px; }
-  .right-text-grey:first-child {
-    padding-top: 50px; }
-  @media (max-width: 768px) {
-    .right-text-grey {
-      text-align: center; } }
-  .right-text-grey p {
-    font-size: 18px;
-    font-weight: 100;
-    color: #555555; }
-
 .introducing-nc-release {
   padding-top: 100px;
   padding-bottom: 75px; }
@@ -245,18 +229,27 @@ section#why-nextcloud {
 .Section-Introducing-Nextcloud {
   background-color: transparent;
   overflow: hidden;
-  height: 200vh;
+  height: 100%;
   position: relative;
   padding-top: 130px; }
   @media (max-width: 1200px) {
     .Section-Introducing-Nextcloud {
       padding-top: 60px;
-      height: 100vh; } }
+      height: 100%; } }
   .Section-Introducing-Nextcloud .container {
     padding-top: 60px; }
-    .Section-Introducing-Nextcloud .container .col-md-6
-    .image-responsive:image-container-fixed {
-      position: fixed; }
+    .Section-Introducing-Nextcloud .container .texts-wrapper {
+      float: right; }
+      .Section-Introducing-Nextcloud .container .texts-wrapper .right-text-grey {
+        padding-top: 75px;
+        padding-bottom: 300px; }
+        .Section-Introducing-Nextcloud .container .texts-wrapper .right-text-grey p {
+          font-size: 18px;
+          font-weight: 100;
+          color: #555555; }
+      .Section-Introducing-Nextcloud .container .texts-wrapper .right-text-grey:not(:nth-child(1)) {
+        padding-bottom: 50%;
+        padding-top: 50%; }
     .Section-Introducing-Nextcloud .container .indicators {
       -webkit-transition: all .5s;
       transition: all .5s;

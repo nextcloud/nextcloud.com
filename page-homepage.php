@@ -58,58 +58,58 @@
 </div>
 
 <section class="Section-Introducing-Nextcloud">
-	<div>
-	    <h2 class="text-center section-title revealOnScroll"><?php echo $l->t('Introducing Nextcloud 10');?></h2>
-		<div class="indicators">
-			<ul class="carousel_dots"></ul>
-			<li class="btn_carousel"></li>
-			<li class="btn_carousel"></li>
-			<li class="btn_carousel"></li>
-			<li class="btn_carousel"></li>
-		</div>
-        <div class="container">
-            <div class="col-md-6 ">
-                <img class="img-responsive" id="imageTrigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-10.png">
-            </div>
-            <div class="col-md-6 right-text-grey" style="opacity: 1; padding-top: 50px;">
-                <h5><?php echo $l->t('Secure, Fine Grained Control over Data Access and Workflows');?></h5>
-                <p><?php echo $l->t('This release delivers better scalability as well as monitoring, security and workflow management tools, enabling better control over Nextcloud servers and operation at scale.');?></p>
-                <br/>
-                <p>
-                    <a class="btn-primary" href="https://nextcloud.com/blog/secure-monitor-and-control-your-data-with-nextcloud-10-get-it-now/" role="button"><?php echo $l->t('Learn more');?></a>
-                </p>
-            </div>
+    <h2 class="text-center section-title revealOnScroll"><?php echo $l->t('Introducing Nextcloud 10');?></h2>
+	<div class="indicators">
+		<ul class="carousel_dots"></ul>
+		<li class="btn_carousel"></li>
+		<li class="btn_carousel"></li>
+		<li class="btn_carousel"></li>
+		<li class="btn_carousel"></li>
+	</div>
+    <div class="container">
+        <div class="col-md-6 ">
+            <img class="img-responsive" id="imageTrigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-10.png">
+        </div>
+        <div class="texts-wrapper col-md-6">
+	        <div class="right-text-grey">
+	            <h5><?php echo $l->t('Secure, Fine Grained Control over Data Access and Workflows');?></h5>
+	            <p><?php echo $l->t('This release delivers better scalability as well as monitoring, security and workflow management tools, enabling better control over Nextcloud servers and operation at scale.');?></p>
+	            <br/>
+	            <p>
+	                <a class="btn-primary" href="https://nextcloud.com/blog/secure-monitor-and-control-your-data-with-nextcloud-10-get-it-now/" role="button"><?php echo $l->t('Learn more');?></a>
+	            </p>
+	        </div>
 
-             <div class="col-md-6 right-text-grey">
-                <h5><?php echo $l->t('Faster and more reliable operation at scale');?></h5>
-                <p><?php echo $l->t('Nextcloud 10 introduces the Server Information app which provides a way for admins to monitor the health and performance of a Nextcloud system through a graphical UI or in their enterprise monitoring tool.');?></p>
-                <br/>
-                <p>
-                    <a class="btn-primary" href="/workflow/#monitoring" role="button"><?php echo $l->t('Learn more');?></a>
-                </p>
-            </div>
+	         <div class="right-text-grey">
+	            <h5><?php echo $l->t('Faster and more reliable operation at scale');?></h5>
+	            <p><?php echo $l->t('Nextcloud 10 introduces the Server Information app which provides a way for admins to monitor the health and performance of a Nextcloud system through a graphical UI or in their enterprise monitoring tool.');?></p>
+	            <br/>
+	            <p>
+	                <a class="btn-primary" href="/workflow/#monitoring" role="button"><?php echo $l->t('Learn more');?></a>
+	            </p>
+	        </div>
 
-            <div class="col-md-6 right-text-grey">
-                <h5><?php echo $l->t('Authentication and security');?></h5>
-                <p><?php echo $l->t('Nextcloud 10 delivers security improvements in several areas. Plugin based Two Factor
-                    Authentication enables an optional extra layer of protection for logins, brute force
-                    protection makes it harder for attackers to guess passwords and session management is
-                    introduced to enable administrators and users to monitor and invalidate active sessions.
-                ');?></p>
-                <br/>
-                <p>
-                    <a class="btn-primary" href="/workflow/" role="button"><?php echo $l->t('Learn more');?></a>
-                </p>
-            </div>
+	        <div class="right-text-grey">
+	            <h5><?php echo $l->t('Authentication and security');?></h5>
+	            <p><?php echo $l->t('Nextcloud 10 delivers security improvements in several areas. Plugin based Two Factor
+	                Authentication enables an optional extra layer of protection for logins, brute force
+	                protection makes it harder for attackers to guess passwords and session management is
+	                introduced to enable administrators and users to monitor and invalidate active sessions.
+	            ');?></p>
+	            <br/>
+	            <p>
+	                <a class="btn-primary" href="/workflow/" role="button"><?php echo $l->t('Learn more');?></a>
+	            </p>
+	        </div>
 
-            <div class="container col-md-6 right-text-grey">
-                <h5><?php echo $l->t('Improved Federation');?></h5>
-                <p><?php echo $l->t('Nextcloud 10 normalizes federated shares, handling mounted link shares as federated shares, offering the same permissions for federated shares as for normal shares and directly connecting re-shared federated shares to other servers for improved performance.');?></p>
-                <br/>
-                <p>
-                    <a class="btn-primary" href="/federation" role="button"><?php echo $l->t('Learn more');?></a>
-                </p>
-            </div>
+	        <div class="right-text-grey">
+	            <h5><?php echo $l->t('Improved Federation');?></h5>
+	            <p><?php echo $l->t('Nextcloud 10 normalizes federated shares, handling mounted link shares as federated shares, offering the same permissions for federated shares as for normal shares and directly connecting re-shared federated shares to other servers for improved performance.');?></p>
+	            <br/>
+	            <p>
+	                <a class="btn-primary" href="/federation" role="button"><?php echo $l->t('Learn more');?></a>
+	            </p>
+	        </div>
         </div>
     </div>
 </section>
