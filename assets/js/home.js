@@ -38,7 +38,19 @@ $(window).load(function() {
     });
     
     var controller = new ScrollMagic.Controller();
-    var scene = new ScrollMagic.Scene ({
+
+    var animateImage = new ScrollMagic.Scene ({
+        triggerElement: "#text-2",
+        triggerHook: 1
+    })
+
+    .setClassToggle(".image-top", "active")
+    .addIndicators({
+            colorTrigger:"red"
+        })
+    .addTo(controller);
+
+    var imagePin = new ScrollMagic.Scene ({
         triggerElement: "#imageTrigger", 
         offset:170,
         duration: "400%"
@@ -48,5 +60,6 @@ $(window).load(function() {
     .addIndicators({
         colorTrigger:"black"
     })
-.addTo(controller);
+    .addTo(controller);
+
 });

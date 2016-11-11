@@ -238,6 +238,23 @@ section#why-nextcloud {
       height: 100%; } }
   .Section-Introducing-Nextcloud .container {
     padding-top: 60px; }
+    .Section-Introducing-Nextcloud .container .image-back {
+      position: absolute; }
+    .Section-Introducing-Nextcloud .container .image-top-container {
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      width: 507px;
+      height: 318px;
+      top: 17px;
+      left: 17px; }
+      .Section-Introducing-Nextcloud .container .image-top-container .image-top {
+        position: absolute;
+        width: 100%;
+        bottom: -373px;
+        transition: all ease-in 0.3s; }
+      .Section-Introducing-Nextcloud .container .image-top-container .active {
+        bottom: -26px; }
     .Section-Introducing-Nextcloud .container .texts-wrapper {
       float: right; }
       .Section-Introducing-Nextcloud .container .texts-wrapper .right-text-grey {
@@ -272,11 +289,19 @@ section#why-nextcloud {
       transform: scale(0.5);
       -webkit-transition: all 250ms ease-in-out;
       transition: all 250ms ease-in-out; }
+      .Section-Introducing-Nextcloud .indicators .btn_carousel a {
+        width: 14px;
+        height: 14px; }
     .Section-Introducing-Nextcloud .indicators .btn_carousel.active {
       background-color: transparent;
       -webkit-transform: scale(1);
       -ms-transform: scale(1);
       transform: scale(1); }
+      .Section-Introducing-Nextcloud .indicators .btn_carousel.active a {
+        background-color: transparent;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1); }
   .Section-Introducing-Nextcloud .active {
     opacity: 1; }
 
