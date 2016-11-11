@@ -239,7 +239,8 @@ section#why-nextcloud {
   .Section-Introducing-Nextcloud .container {
     padding-top: 60px; }
     .Section-Introducing-Nextcloud .container .image-back {
-      position: absolute; }
+      position: absolute;
+      padding-bottom: 50%; }
     .Section-Introducing-Nextcloud .container .image-top-container {
       position: relative;
       overflow: hidden;
@@ -261,7 +262,8 @@ section#why-nextcloud {
         .Section-Introducing-Nextcloud .container .texts-wrapper .right-text-grey p {
           font-size: 18px;
           font-weight: 100;
-          color: #555555; }
+          color: #555555;
+          padding-bottom: 30px; }
       .Section-Introducing-Nextcloud .container .texts-wrapper .right-text-grey:not(:nth-child(1)) {
         padding-bottom: 50%;
         padding-top: 50%; }

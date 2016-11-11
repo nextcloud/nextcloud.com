@@ -36,24 +36,28 @@ $(window).load(function() {
         var anim;
         anim = bodymovin.loadAnimation(params);
     });
+
+    //features slideshow
     
     var controller = new ScrollMagic.Controller();
 
-    $(".textTrigger").each(function() {   
+    $(".textTrigger").each(function() {
+
+        var imageFeatures = $(".image-top");  
 
         var animateImage = new ScrollMagic.Scene ({
             triggerElement: this,
-            triggerHook: 1
+            triggerHook: 0.7
         })
 
         // .setClassToggle(this, "active")
 
         .on("enter", function () {
-            $(".image-top").css("bottom", (parseFloat($(".image-top").css('bottom')) + 318) + 'px');
+            imageFeatures.css("bottom", (parseFloat(imageFeatures.css('bottom')) + 318) + 'px');
         })
         
         .on("leave", function() {
-            $(".image-top").css("bottom", (parseFloat($(".image-top").css('bottom')) - 318) + 'px');
+            $(".image-top").css("bottom", (parseFloat(imageFeatures.css('bottom')) - 318) + 'px');
         })
         .addIndicators({
                 colorTrigger:"red"
@@ -62,12 +66,10 @@ $(window).load(function() {
         .addTo(controller);
     });
 
-
-
     var imagePin = new ScrollMagic.Scene ({
         triggerElement: "#imageTrigger", 
         offset:170,
-        duration: "265%"
+        duration: "400%"
     })
     .setPin("#imageTrigger")
     .setClassToggle(".indicators", "active")
@@ -76,4 +78,18 @@ $(window).load(function() {
     })
     .addTo(controller);
 
+    //change behaviour of scroll
+    //controller.scrollTo (function (newpos) {
+        //Tween.Max.to(window, 0.5, {scrollTo: {y: newpos}});
+    //});
+
+    //$(document).on("click", "a[href^="#"]", function (e) {
+        //var id = $(this).attr("href");
+        //if ($(id).length > 0) {
+            //e.preventDefault();
+
+            ////trigger scroll
+            //controller.scrollTo(id);
+        //}
+    //}
 });

@@ -61,10 +61,10 @@
     <h2 class="text-center section-title revealOnScroll"><?php echo $l->t('Introducing Nextcloud 10');?></h2>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
-		<li class="btn_carousel"><a href="#module-1"></a></li>
-		<li class="btn_carousel"><a href="#module-2"></a></li>
-		<li class="btn_carousel"><a href="#module-3"></a></li>
-		<li class="btn_carousel"><a href="#module-4"></a></li>
+		<li class="btn_carousel"><a href="#feature-1"></a></li>
+		<li class="btn_carousel"><a href="#feature-2"></a></li>
+		<li class="btn_carousel"><a href="#feature-3"></a></li>
+		<li class="btn_carousel"><a href="#feature-4"></a></li>
 	</div>
     <div class="container">
         <div class="col-md-6 ">
@@ -77,7 +77,7 @@
         </div>
         <div class="texts-wrapper col-md-6">
 	        <div class="right-text-grey">
-	            <h5><?php echo $l->t('Secure, Fine Grained Control over Data Access and Workflows');?></h5>
+	            <h5 id="feature-1"><?php echo $l->t('Secure, Fine Grained Control over Data Access and Workflows');?></h5>
 	            <p><?php echo $l->t('This release delivers better scalability as well as monitoring, security and workflow management tools, enabling better control over Nextcloud servers and operation at scale.');?></p>
 	            <br/>
 	            <p>
@@ -86,7 +86,7 @@
 	        </div>
 
 	         <div class="right-text-grey" >
-	            <h5 class="textTrigger"><?php echo $l->t('Faster and more reliable operation at scale');?></h5>
+	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('Faster and more reliable operation at scale');?></h5>
 	            <p><?php echo $l->t('Nextcloud 10 introduces the Server Information app which provides a way for admins to monitor the health and performance of a Nextcloud system through a graphical UI or in their enterprise monitoring tool.');?></p>
 	            <br/>
 	            <p>
@@ -95,7 +95,7 @@
 	        </div>
 
 	        <div class="right-text-grey">
-	            <h5 class="textTrigger"><?php echo $l->t('Authentication and security');?></h5>
+	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('Authentication and security');?></h5>
 	            <p><?php echo $l->t('Nextcloud 10 delivers security improvements in several areas. Plugin based Two Factor
 	                Authentication enables an optional extra layer of protection for logins, brute force
 	                protection makes it harder for attackers to guess passwords and session management is
@@ -108,7 +108,7 @@
 	        </div>
 
 	        <div class="right-text-grey">
-	            <h5 class="textTrigger"><?php echo $l->t('Improved Federation');?></h5>
+	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Improved Federation');?></h5>
 	            <p><?php echo $l->t('Nextcloud 10 normalizes federated shares, handling mounted link shares as federated shares, offering the same permissions for federated shares as for normal shares and directly connecting re-shared federated shares to other servers for improved performance.');?></p>
 	            <br/>
 	            <p>
