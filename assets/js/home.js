@@ -67,7 +67,7 @@ $(window).load(function() {
     var imagePin = new ScrollMagic.Scene ({
         triggerElement: "#imageTrigger", 
         offset:170,
-        duration: "400%"
+        duration: "265%"
     })
     .setPin("#imageTrigger")
     .setClassToggle(".indicators", "active")
