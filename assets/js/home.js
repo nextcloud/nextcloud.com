@@ -39,16 +39,30 @@ $(window).load(function() {
     
     var controller = new ScrollMagic.Controller();
 
-    var animateImage = new ScrollMagic.Scene ({
-        triggerElement: "#text-2",
-        triggerHook: 1
-    })
+    $(".textTrigger").each(function() {   
 
-    .setClassToggle(".image-top", "active")
-    .addIndicators({
-            colorTrigger:"red"
+        var animateImage = new ScrollMagic.Scene ({
+            triggerElement: this,
+            triggerHook: 1
         })
-    .addTo(controller);
+
+        // .setClassToggle(this, "active")
+
+        .on("enter", function () {
+            $(".image-top").css("bottom", (parseFloat($(".image-top").css('bottom')) + 318) + 'px');
+        })
+        
+        .on("leave", function() {
+            $(".image-top").css("bottom", (parseFloat($(".image-top").css('bottom')) - 318) + 'px');
+        })
+        .addIndicators({
+                colorTrigger:"red"
+            })
+
+        .addTo(controller);
+    });
+
+
 
     var imagePin = new ScrollMagic.Scene ({
         triggerElement: "#imageTrigger", 
