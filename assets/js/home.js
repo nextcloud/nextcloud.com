@@ -44,6 +44,7 @@ $(window).load(function() {
         duration: "400%"
     })
     .setPin("#imageTrigger")
+    .setClassToggle(".indicators", "active")
     .addIndicators({
         colorTrigger:"black"
     })

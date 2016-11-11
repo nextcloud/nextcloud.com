@@ -250,36 +250,35 @@ section#why-nextcloud {
       .Section-Introducing-Nextcloud .container .texts-wrapper .right-text-grey:not(:nth-child(1)) {
         padding-bottom: 50%;
         padding-top: 50%; }
-    .Section-Introducing-Nextcloud .container .indicators {
-      -webkit-transition: all .5s;
-      transition: all .5s;
-      opacity: 1;
-      position: absolute;
-      z-index: 2;
-      bottom: 50vh;
-      right: 0; }
-      @media (max-width: 768px) {
-        .Section-Introducing-Nextcloud .container .indicators {
-          display: none; } }
-      .Section-Introducing-Nextcloud .container .indicators .btn_carousel {
-        margin-top: 10px;
-        width: 14px;
-        height: 14px;
-        color: transparent;
-        border: 1px solid #0082c9;
-        background-color: #0082c9;
-        border-radius: 50%;
-        padding: 0;
-        -webkit-transform: scale(0.5);
-        -ms-transform: scale(0.5);
-        transform: scale(0.5);
-        -webkit-transition: all 250ms ease-in-out;
-        transition: all 250ms ease-in-out; }
-      .Section-Introducing-Nextcloud .container .indicators .btn_carousel.active {
-        background-color: transparent;
-        -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-        transform: scale(1); }
+  .Section-Introducing-Nextcloud .indicators {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    opacity: 0;
+    position: fixed;
+    z-index: 2;
+    bottom: 50vh;
+    right: 0; }
+    .Section-Introducing-Nextcloud .indicators .btn_carousel {
+      margin-top: 10px;
+      width: 14px;
+      height: 14px;
+      color: transparent;
+      border: 1px solid #0082c9;
+      background-color: #0082c9;
+      border-radius: 50%;
+      padding: 0;
+      -webkit-transform: scale(0.5);
+      -ms-transform: scale(0.5);
+      transform: scale(0.5);
+      -webkit-transition: all 250ms ease-in-out;
+      transition: all 250ms ease-in-out; }
+    .Section-Introducing-Nextcloud .indicators .btn_carousel.active {
+      background-color: transparent;
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1); }
+  .Section-Introducing-Nextcloud .active {
+    opacity: 1; }
 
 .news-section {
   position: relative;
