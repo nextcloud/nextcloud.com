@@ -60,6 +60,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'install',
 		'install-backup',
 		'meetups',
+		'migration',
 		'news',
 		'newsletter',
 		'nine',
