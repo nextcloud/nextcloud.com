@@ -51,6 +51,7 @@ $(window).load(function() {
     },
 
     mobileEvent: function() {
+        _.bind(this.menuToggledAnimation, this);
         $(this.variables.navigationSelector).addClass(this.variables.mobileClass);
         $(this.variables.toggleSelector).click(_.bind(this.toggleMobileMenu, this));
         $(this.variables.sectionSelector).click(_.bind(this.showSubMenu, this));
@@ -83,13 +84,15 @@ $(window).load(function() {
     },
 
     // To set the arrow above the drop down menu in the middle of the link text
-    arrowDropdown: function() {
-        var liWidth = $(this).width(), // The total length of the li content text + padding
-            aWidth = $(this).find("a").first().width(),// The total length of the text
+    arrowDropdown: function(index, element) {
+        var liWidth = $(element).width(), // The total length of the li content text + padding
+            aWidth = $(element).find("a").first().width(),// The total length of the text
             half = liWidth - (aWidth / 2);
 
+        console.log(this.variables.backgroundAnimationClass);
+
         $("#nav-bg").text(".nav__bg:before, .nav__bg:after { left: "+ half +"px}");
-        var bg = $(this).find(this.variables.navBackgroundSelector).first();
+        var bg = $(element).find(this.variables.navBackgroundSelector).first();
 
         setTimeout(function() {
             bg.removeClass(this.variables.backgroundAnimationClass);
@@ -199,7 +202,6 @@ $(window).load(function() {
             lastScrollTop = st;
         }
     },
-
 
     // Fade In animation
     //$(this.variables.navigationSelector).velocity("transition.fadeIn", 1000 );
