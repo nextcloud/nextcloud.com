@@ -5,8 +5,6 @@ $(window).load(function() {
     // Top Container Animations
     $(".topbanner").velocity('transition.slideUpBigIn');
     $(".toptext").velocity('transition.fadeIn', 2000);
-
-
     /**
      * Animations
      */
@@ -57,7 +55,7 @@ $(window).load(function() {
         })
         
         .on("leave", function() {
-            $(".image-top").css("bottom", (parseFloat(imageFeatures.css('bottom')) - 318) + 'px');
+            imageFeatures.css("bottom", (parseFloat(imageFeatures.css('bottom')) - 318) + 'px');
         })
         .addIndicators({
                 colorTrigger:"red"

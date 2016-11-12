@@ -20,6 +20,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/TweenMax.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/ScrollMagic.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/animation.gsap.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/ScrollToPlugin.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/debug.addIndicators.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/bootstrap.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/navigation.js"></script>
