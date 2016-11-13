@@ -235,10 +235,14 @@ section#why-nextcloud {
     .Section-Introducing-Nextcloud {
       height: 100%; } }
   .Section-Introducing-Nextcloud .section-title {
-    padding-top: 15vh; }
+    padding-top: 10vh;
+    position: absolute;
+    margin: auto 0;
+    text-align: center;
+    width: 100%; }
   .Section-Introducing-Nextcloud .container .container-image-center {
-    padding-top: calc((100vh - 308px) /2);
-    padding-bottom: calc((100vh - 308px) /2); }
+    padding-top: calc((100vh - 435px) /2);
+    padding-bottom: calc((100vh - 435px) /2); }
     .Section-Introducing-Nextcloud .container .container-image-center .image-back {
       position: absolute;
       height: 440px; }
@@ -258,7 +262,7 @@ section#why-nextcloud {
   .Section-Introducing-Nextcloud .container .texts-wrapper {
     height: 100vh; }
     .Section-Introducing-Nextcloud .container .texts-wrapper .right-text-grey {
-      padding-top: calc((100vh - 236px) /2);
+      padding-top: calc((100vh - 266px) /2);
       padding-bottom: calc((100vh - 236px) /2); }
       .Section-Introducing-Nextcloud .container .texts-wrapper .right-text-grey p {
         font-size: 18px;

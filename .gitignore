@@ -7,3 +7,5 @@ l10n/
 .css.map
 .vscode/
 *.css.map
+assets/css/home.css.map
+assets/css/custom.css.map

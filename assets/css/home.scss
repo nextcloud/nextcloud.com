@@ -291,8 +291,11 @@ section#why-nextcloud {
     }
 
     .section-title {
-
-      padding-top:15vh;
+      padding-top:10vh;
+      position: absolute;
+      margin: auto 0;
+      text-align: center;
+      width: 100%;
 
     }
 
@@ -301,7 +304,6 @@ section#why-nextcloud {
       .container-image-center { 
         padding-top: calc((100vh - 435px) /2);
         padding-bottom: calc((100vh - 435px) /2);
-
 
         .image-back {
           position: absolute;
@@ -330,7 +332,7 @@ section#why-nextcloud {
         height: 100vh;
 
         .right-text-grey {
-          padding-top: calc((100vh - 236px) /2);
+          padding-top: calc((100vh - 266px) /2);
           padding-bottom: calc((100vh - 236px) /2);
 
           p {
