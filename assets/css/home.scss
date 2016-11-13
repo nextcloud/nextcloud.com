@@ -284,55 +284,67 @@ section#why-nextcloud {
   overflow: hidden;
   height: 100%;
   position: relative;
-  padding-top: 130px;
+  // padding-top: 130px;
     @media (max-width: $navbar-breaksize) {
-      padding-top: 60px;
+      // padding-top: 60px;
       height: 100%;
     }
 
+    .section-title {
+
+      padding-top:15vh;
+
+    }
+
     .container {
-      padding-top: 60px;
+      // padding-top: 60px;
 
-      .image-back {
-        position: absolute;
-        padding-bottom: 50%;
-      }
+      .container-image-center { 
+        padding-top: calc((100vh - 308px) /2);
+        padding-bottom: calc((100vh - 308px) /2);
 
-      .image-top-container {
-        position: relative;
-        overflow: hidden;
-        z-index: 1;
-        width: 507px;
-        height: 318px;
-        top: 17px;
-        left: 17px;
 
-        .image-top {
+        .image-back {
           position: absolute;
-          width: 100%;
-          bottom: -954px;
-          transition: all ease-in 0.3s;
+          height: 440px
+        }
+
+        .image-top-container {
+          position: relative;
+          overflow: hidden;
+          z-index: 1;
+          width: 507px;
+          height: 318px;
+          top: 17px;
+          left: 17px;
+
+          .image-top {
+            position: absolute;
+            width: 100%;
+            bottom: -954px;
+            transition: all ease-in 0.3s;
+          }
         }
       }
-      
+
       .texts-wrapper {
-        float: right;
+        height: 100vh;
 
         .right-text-grey {
-          padding-top: 30px;
-          padding-bottom: 50%;
+        padding-top: calc((100vh - 236px) /2);
+        padding-bottom: calc((100vh - 236px) /2);
 
           p {
             font-size: 18px;
             font-weight: 100;
             color: #555555;
-            padding-bottom: 30px;
+            // padding-bottom: 30px;
           }
         }
 
         .right-text-grey:not(:nth-child(1)) {
-          padding-bottom:50%;
-          padding-top: 50%;
+          // padding-bottom: calc(50vh - 50px);
+          // padding-top: calc(50vh - 50px);
         }
       }
     }
@@ -506,6 +518,8 @@ section#why-nextcloud {
     }
   }
 }
+
+
 
 
 /* hide the image and table for the tweets */
