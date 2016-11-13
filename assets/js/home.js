@@ -39,13 +39,14 @@ $(window).load(function() {
     
     var controller = new ScrollMagic.Controller();
 
-    $(".texts-wrapper").each(function() {
+    $(".textTrigger").each(function() {
 
         var imageFeatures = $(".image-top");  
 
         var animateImage = new ScrollMagic.Scene ({
             triggerElement: this,
-            triggerHook: 0.7
+            offset: "100%",
+            triggerHook: 1
         })
 
         .setClassToggle(this, "active")
@@ -66,7 +67,6 @@ $(window).load(function() {
 
     var imagePin = new ScrollMagic.Scene ({
         triggerElement: "#imageTrigger", 
-        // offset:170
         duration: "300%",
         triggerHook: 0
     })
@@ -91,4 +91,4 @@ $(window).load(function() {
             //controller.scrollTo(id);
         //}
     //}
-});
+}); 

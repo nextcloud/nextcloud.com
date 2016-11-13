@@ -5,3 +5,5 @@ config.php
 node_modules/
 l10n/
 .css.map
+.vscode/
+*.css.map

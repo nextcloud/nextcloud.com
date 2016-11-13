@@ -297,11 +297,10 @@ section#why-nextcloud {
     }
 
     .container {
-      // padding-top: 60px;
 
       .container-image-center { 
-        padding-top: calc((100vh - 308px) /2);
-        padding-bottom: calc((100vh - 308px) /2);
+        padding-top: calc((100vh - 435px) /2);
+        padding-bottom: calc((100vh - 435px) /2);
 
 
         .image-back {
@@ -331,8 +330,8 @@ section#why-nextcloud {
         height: 100vh;
 
         .right-text-grey {
-        padding-top: calc((100vh - 236px) /2);
-        padding-bottom: calc((100vh - 236px) /2);
+          padding-top: calc((100vh - 236px) /2);
+          padding-bottom: calc((100vh - 236px) /2);
 
           p {
             font-size: 18px;
@@ -340,11 +339,6 @@ section#why-nextcloud {
             color: #555555;
             // padding-bottom: 30px;
           }
-        }
-
-        .right-text-grey:not(:nth-child(1)) {
-          // padding-bottom: calc(50vh - 50px);
-          // padding-top: calc(50vh - 50px);
         }
       }
     }
@@ -518,9 +512,6 @@ section#why-nextcloud {
     }
   }
 }
-
-
-
 
 /* hide the image and table for the tweets */
 
