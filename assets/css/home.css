@@ -243,6 +243,10 @@ section#why-nextcloud {
   .Section-Introducing-Nextcloud .container .container-image-center {
     padding-top: calc((100vh - 435px) /2);
     padding-bottom: calc((100vh - 435px) /2); }
+    @media (max-width: 1400px) {
+      .Section-Introducing-Nextcloud .container .container-image-center {
+        padding-top: calc((100vh - 315px) /2);
+        padding-bottom: calc((100vh - 315px) /2); } }
     .Section-Introducing-Nextcloud .container .container-image-center .image-back {
       position: absolute;
       height: 440px; }
@@ -290,9 +294,14 @@ section#why-nextcloud {
       transform: scale(0.5);
       -webkit-transition: all 250ms ease-in-out;
       transition: all 250ms ease-in-out; }
+      .Section-Introducing-Nextcloud .indicators .btn_carousel:hover {
+        background-color: transparent;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1); }
       .Section-Introducing-Nextcloud .indicators .btn_carousel a {
-        width: 14px;
-        height: 14px; }
+        width: 100%;
+        height: 100%; }
     .Section-Introducing-Nextcloud .indicators .btn_carousel.active {
       background-color: transparent;
       -webkit-transform: scale(1);

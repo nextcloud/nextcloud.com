@@ -49,8 +49,6 @@ $(window).load(function() {
             triggerHook: 1
         })
 
-        .setClassToggle(this, "active")
-
         .on("enter", function () {
             imageFeatures.css("bottom", (parseFloat(imageFeatures.css('bottom')) + 318) + 'px');
         })
@@ -78,17 +76,23 @@ $(window).load(function() {
     .addTo(controller);
 
     //change behaviour of scroll
-    //controller.scrollTo (function (newpos) {
-        //Tween.Max.to(window, 0.5, {scrollTo: {y: newpos}});
-    //});
+    controller.scrollTo (function (newpos) {
+        Tween.Max.to(window, 0.5, {scrollTo: {y: newpos}});
+    });
 
-    //$(document).on("click", "a[href^="#"]", function (e) {
-        //var id = $(this).attr("href");
-        //if ($(id).length > 0) {
-            //e.preventDefault();
+    $(document).on("click", "a[href=#]", function(e) {
+        var id = $(this).attr("href");
 
-            ////trigger scroll
-            //controller.scrollTo(id);
-        //}
-    //}
+    if($(id).length > 0) {
+        e.preventDefault();
+
+        // trigger scroll
+        controller.scrollTo(id);
+
+        // If supported by the browser we can also update the URL
+        if (window.history && window.history.pushState) {
+        history.pushState("", document.title, id);
+        }
+    }
+    });
 }); 
