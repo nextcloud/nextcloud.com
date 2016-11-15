@@ -75,24 +75,25 @@ $(window).load(function() {
     })
     .addTo(controller);
 
-    //change behaviour of scroll
-    controller.scrollTo (function (newpos) {
-        Tween.Max.to(window, 0.5, {scrollTo: {y: newpos}});
+    // Change behavior of controller
+    // to animate scroll instead of jump
+    controller.scrollTo(function(target) {
+
+    $(document).on("click", "a[href^='#']", function(e) {
+        var id = $(this).attr("href");
+        if ($(id).length > 0) {
+            e.preventDefault();
+            controller.scrollTo(id);
+        }
+    });
+    controller.scrollTo(function(newpos) {
+        newpos -= 68; // leave space for header
+        TweenMax.to(window, 0.5, {
+            scrollTo: {
+                y: newpos
+            }
+        });
     });
 
-    $(document).on("click", "a[href=#]", function(e) {
-        var id = $(this).attr("href");
-
-    if($(id).length > 0) {
-        e.preventDefault();
-
-        // trigger scroll
-        controller.scrollTo(id);
-
-        // If supported by the browser we can also update the URL
-        if (window.history && window.history.pushState) {
-        history.pushState("", document.title, id);
-        }
-    }
     });
 }); 

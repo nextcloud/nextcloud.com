@@ -154,35 +154,4 @@
 </div>
 
 
-<!-- <script>
-	// Only make the scrolling effect for devices bigger than the 768px in width and 900px in height
-		var controller = new ScrollMagic.Controller();
-		new ScrollMagic.Scene({triggerElement: '#pinConta  iner', triggerHook: 'onLeave', duration: 750})
-			.addTo(controller)
-			.setPin('#pinContainer')
-			.on('enter leave', function (e) {
-				$('.indicators').addClass('hidden');
-			})
-			.on('start end', function (e) {
-				$('.indicators').removeClass('hidden');
-			})
-			.on('progress', function (e) {
-				var progressNumber = e.progress.toFixed(4);
-				var currentProgress = Math.round(10 * ((progressNumber / 10) * 3));
-				$('#pinContainer section:lt(' + currentProgress + ')').addClass('hidden');
-				$('#pinContainer section:gt(' + currentProgress + ')').addClass('hidden');
-				$('#pinContainer section:nth(' + currentProgress + ')').removeClass('hidden');
-				$('.indicators .btn_carousel').html('');
-				$('.indicators .btn_carousel').removeClass('active');
-				$('.indicators .btn_carousel:nth(' + currentProgress + ')').addClass('active');
 
-				if (currentProgress > 0) {
-					$('#pinContainer section:nth(' + currentProgress + ') .right-text-grey')
-						.animate({
-							'opacity': 1,
-							'margin-top': '-25px'
-						}, 750);
-				}
-			});
-	
-</script> -->
