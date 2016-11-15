@@ -5,13 +5,13 @@ $(window).load(function() {
 
         //Enquire.js This hides the list on hover in the mobile
         enquire.register("screen and (max-width: 992px,)", {
-        match: _.bind(this.mobileEvent, this)
+            match: _.bind(this.mobileEvent, this)
         });
 
         enquire.register("screen and (min-width: 993px)", {
-        // Triggered when the media query transitions
-        // from *unmatched* to *matched*
-        match: _.bind(this.desktopDropdownEvent, this)
+            // Triggered when the media query transitions
+            // from *unmatched* to *matched*
+            match: _.bind(this.desktopDropdownEvent, this)
         });
     },
 
@@ -57,20 +57,21 @@ $(window).load(function() {
         $(this.variables.sectionSelector).click(_.bind(this.showSubMenu, this));
     },
 
-        setBackgroundDropdown: function () {
-            bg.addClass(this.variables.backgroundAnimationClass);
-        },
+    setBackgroundDropdown: function(bg) {
+        bg.addClass(this.variables.backgroundAnimationClass);
+    },
 
-        backgroundDropdown: function(index, element) {
+    backgroundDropdown: function(index, element) {
         var bg = $(element).find(this.variables.navBackgroundSelector).first(),
-            bgWrapper = $(this).find(this.variables.navBackgroundWrapper).first(),
-            menu = $(this).find(this.variables.linksSelector).first(),
-            selectedDropdown = menu,
+            bgWrapper = $(element).find(this.variables.navBackgroundWrapper).first(),
+            selectedDropdown = $(element).find(this.variables.linksSelector).first(),
             height = selectedDropdown.innerHeight(),
             width = selectedDropdown.innerWidth();
-
+            console.log(bg)
+        
+        setTimeout(_.bind(this.setBackgroundDropdown, this, bg));
         bgWrapper.addClass(this.variables.linksVisibleClass);
-            _.bind(this.setBackgroundDropdown, this);
+
         bg.css({
             "width": width + "px",
             "height": height + "px"
@@ -78,9 +79,8 @@ $(window).load(function() {
     },
 
     desktopDropdownEvent: function() {
-        $(this.variables.sectionSelector).on("mouseover", _.bind(this.backgroundDropdown, this)),
-        $(this.variables.sectionSelector).on("mouseleave", _.bind(this.arrowDropdown, this))
-
+        $(this.variables.sectionSelector).on("mouseover", _.bind(this.backgroundDropdown, this));
+        $(this.variables.sectionSelector).on("mouseleave", _.bind(this.arrowDropdown, this));
     },
 
     // To set the arrow above the drop down menu in the middle of the link text
@@ -89,16 +89,14 @@ $(window).load(function() {
             aWidth = $(element).find("a").first().width(),// The total length of the text
             half = liWidth - (aWidth / 2);
 
-        console.log(this.variables.backgroundAnimationClass);
-
         $("#nav-bg").text(".nav__bg:before, .nav__bg:after { left: "+ half +"px}");
         var bg = $(element).find(this.variables.navBackgroundSelector).first();
 
-        setTimeout(function() {
+        setTimeout(_.bind(function() {
             bg.removeClass(this.variables.backgroundAnimationClass);
-        });
+        },this));
 
-        var bgWrapper = $(this).find(this.variables.navBackgroundWrapper).first();
+        var bgWrapper = $(element).find(this.variables.navBackgroundWrapper).first();
         bgWrapper.removeClass(this.variables.linksVisibleClass);
         $("#nav-bg").text();
     },
@@ -118,9 +116,7 @@ $(window).load(function() {
         }
 
         if ($(this.variables.navigationSelector).length > 0) {
-            $(window).on("scroll load resize", function () {
-                checkScroll();
-            });
+            $(window).on("scroll load resize", _.bind(this.checkScroll, this)); 
         }
     },
 
@@ -207,4 +203,4 @@ $(window).load(function() {
     //$(this.variables.navigationSelector).velocity("transition.fadeIn", 1000 );
 }
     HeaderApp.init();
-});;
+});
