@@ -146,12 +146,10 @@
 												<div class="col-xs-6">
 													<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
 													<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"></a><br />
-													<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>"><?php echo $l->t('Beta client');?></a>
 												</div>
 												<div class="col-xs-6">
 													<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID; ?>">
 													<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a><br />
-													<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><?php echo $l->t('Beta client');?></a>
 												</div>
 								<p><a href="https://github.com/nextcloud/android"><?php echo $l->t('Android Sources here</a>, <a href="https://download.nextcloud.com/android">direct APK download here.');?></a></p>
 								<div class="col-xs-6 mobileclientbuttons">
