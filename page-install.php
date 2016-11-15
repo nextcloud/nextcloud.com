@@ -83,7 +83,7 @@
 		<p><a href="<?php echo $DOWNLOAD_SERVER_DAILY_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i>  <?php echo $l->t('Daily build');?></a></p>
 		<p><?php echo $l->t('Help test our clients:');?> <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>"><?php echo $l->t('Android Release Candidate client on Play store');?></a> and <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><?php echo $l->t('Android Beta client on F-Droid');?></a></p>
 		<?php if(!empty($SERVER_TESTING_VERSION)) { ?>
-		<p><?php echo $l->t('Latest testing version');?>: <span class="label label-blue"><?php echo $SERVER_TESTING_VERSION; ?></span></p>
+		<p><?php echo $l->t('Latest testing version:');?> <span class="label label-blue"><?php echo $SERVER_TESTING_VERSION; ?></span></p>
 		<p>
 		<?php if(!empty($DOWNLOAD_SERVER_ZIP_TESTING)) { ?>
 			      <a href="<?php echo $DOWNLOAD_SERVER_ZIP_TESTING; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i> zip</a>
