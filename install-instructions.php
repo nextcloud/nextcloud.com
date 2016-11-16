@@ -162,7 +162,7 @@
 							</div>
 							<p><a href="https://github.com/nextcloud/android"><?php echo $l->t('Find Android Sources here</a>, <a href="https://download.nextcloud.com/android">direct APK download here</a> and <a href="https://github.com/nextcloud/windows-uwp">Windows Mobile sources here</a>.');?></p>
 							<p><?php echo $l->t('Nextcloud is using WebDAV, so you can also try out any other client you want!');?></p>
-							<p><?php echo $l->t('<strong>note:</strong> Windows app is still alpha');?></p>
+							<p><?php echo $l->t('<strong>Note:</strong> The Windows app is still in alpha');?></p>
 								<div class="col-xs-12 mobileclientbuttons">
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_WIN; ?>">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/windowsstore.png">
