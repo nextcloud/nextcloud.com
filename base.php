@@ -60,6 +60,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'install',
 		'install-backup',
 		'meetups',
+		'migration',
 		'news',
 		'newsletter',
 		'nine',
@@ -196,9 +197,16 @@ if(isset($language[1]) && $language[1] === 'de') {
 		];
 		$storeToCache = true;
 		foreach($l10nFiles as $file) {
-			$translatedFile = json_decode(file_get_contents(__DIR__ . '/l10n/' . $hl . '/' . $file . '.json'), true);
-			$originalFile = json_decode(file_get_contents(__DIR__ . '/l10n/base/' . $file . '.json'), true);
+			$translatedPath = __DIR__ . '/l10n/' . $hl . '/' . $file . '.json';
+			$originalPath = __DIR__ . '/l10n/base/' . $file . '.json';
 
+			if(file_exists($translatedPath) && file_exists($originalPath)) {
+				$translatedFile = json_decode(file_get_contents($translatedPath), true);
+				$originalFile = json_decode(file_get_contents($originalPath), true);
+			} else {
+				$translatedFile = null;
+				$originalFile = null;
+			}
 			if(!is_array($translatedFile) || !is_array($originalFile)) {
 				$storeToCache = false;
 			}

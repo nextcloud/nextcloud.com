@@ -79,7 +79,7 @@
 
 .section-getbox {
 	padding-top: 100px;
-	height: 400px;
+	height: 440px;
 	width: 100%;
 	background-color: #252323;
 	position: relative;
@@ -115,11 +115,15 @@
 		    float: right;
 	        margin-top: -220px;
 		}
+		
+		.dropdown-menu {
+			z-index: 1000;
+		}
 	}
 }
 
 .section-how-to-box {
-	padding-top: 100px;
+	padding-top: 120px;
 	height: 100%;
 	width: 100%;
 	background-color: white;

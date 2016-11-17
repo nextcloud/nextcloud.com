@@ -411,7 +411,7 @@ section#why-nextcloud {
   font-size: 16px; }
   @media (min-width: 1200px) {
     .Header-Navigation .navbar li.active a {
-      border-bottom: 3px solid white;
+      border-bottom: 3px solid #ffffff;
       padding-bottom: 15px; }
     .Header-Navigation .navbar li:last-child {
       padding-left: 30px;
@@ -434,7 +434,13 @@ section#why-nextcloud {
       .Header-Navigation .navbar li a:hover {
         text-decoration: none;
         padding-bottom: 15px;
-        border-bottom: 3px solid white; }
+        border-bottom: 3px solid #ffffff; } }
+@media (min-width: 1200px) and (max-width: 1200px) {
+  .Header-Navigation .navbar a {
+    color: #75badd; }
+    .Header-Navigation .navbar a .active {
+      color: #ffffff; } }
+  @media (min-width: 1200px) {
     .Header-Navigation .navbar .navbar-header {
       float: none; }
       .Header-Navigation .navbar .navbar-header .logo {
@@ -451,26 +457,22 @@ section#why-nextcloud {
       .Header-Navigation .navbar .btn-primary:before {
         visibility: hidden; } }
   @media (min-width: 1200px) and (max-width: 1200px) {
-    .Header-Navigation .navbar a {
-      color: #75badd; }
-      .Header-Navigation .navbar a .active {
-        color: white; } }
-    @media (min-width: 1200px) and (max-width: 1200px) {
-      .Header-Navigation .navbar .btn-primary {
-        position: fixed;
-        bottom: 0;
-        margin-left: -5%;
-        width: 105%;
-        border-radius: 0;
-        border: 0;
-        height: 75px;
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: transparent; }
-        .Header-Navigation .navbar .btn-primary a {
-          color: white; } }
+    .Header-Navigation .navbar .btn-primary {
+      position: fixed;
+      bottom: 0;
+      margin-left: -5%;
+      width: 105%;
+      border-radius: 0;
+      border: 0;
+      height: 75px;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent; }
+      .Header-Navigation .navbar .btn-primary a {
+        color: #ffffff; } }
+
   .Header-Navigation .navbar .active {
     font-weight: 600;
     z-index: 3; }
@@ -580,7 +582,7 @@ section#why-nextcloud {
     color: white !important; }
   @media (max-width: 1200px) {
     .navbar.scrolled:not(.mobile-menu-open) .navbar-collapse {
-      background-color: white;
+      background-color: #ffffff;
       margin-left: -6% !important; } }
   .navbar.scrolled:not(.mobile-menu-open) .logo {
     background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain !important; }
@@ -761,11 +763,9 @@ section#why-nextcloud {
   0% {
     opacity: 0;
     left: 20%; }
-
   100% {
     opacity: 1;
     left: 0; } }
-
 @media (max-height: 800px) {
   .nav-down {
     opacity: 1;
@@ -970,7 +970,7 @@ footer.page-footer {
 
 .section-getbox {
   padding-top: 100px;
-  height: 400px;
+  height: 440px;
   width: 100%;
   background-color: #252323;
   position: relative; }
@@ -995,9 +995,11 @@ footer.page-footer {
     background-repeat: no-repeat;
     float: right;
     margin-top: -220px; }
+  .section-getbox .container .dropdown-menu {
+    z-index: 1000; }
 
 .section-how-to-box {
-  padding-top: 100px;
+  padding-top: 120px;
   height: 100%;
   width: 100%;
   background-color: white; }
@@ -1251,7 +1253,7 @@ h5 {
     right: 50px;
     transition: all 0.3s ease 0s; }
   .btn-primary:hover {
-    background-color: #0073b2;
+    background-color: #0073B2;
     text-decoration: none; }
     .btn-primary:hover:before {
       right: 30px; }
@@ -1259,7 +1261,7 @@ h5 {
     -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
-    background-color: #0073b2; }
+    background-color: #0073B2; }
 
 @media (max-width: 768px) {
   .btn-primary {
@@ -1347,3 +1349,5 @@ h5 {
     @media (max-width: 1200px) {
       .highlights_align h4 {
         margin-left: 0; } }
+
+/*# sourceMappingURL=custom.css.map */

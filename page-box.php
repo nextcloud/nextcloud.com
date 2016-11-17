@@ -31,6 +31,7 @@ you to sync between your devices and share with others.');?></p>
 			<p><?php echo $l->t('The Box does not come with a Raspberry Pi.');?></p>
 			<p><?php echo $l->t('The Box is hardware-compatible with the Raspberry Pi 2 and 3, and the oDroid C2.');?></p>
 			<p><?php echo $l->t('Right now, the OS only works with the Raspberry Pi 2. Software support for Raspberry Pi 3 is planned for November 2016. There is no plan for oDroid C2 yet but Linux Kernel 4.10 has support planned for the hardware so first half 2017 is a reasonable guess.');?></p>
+			<p><?php echo $l->t('Note that by default, the Nextcloud Box only works on the network it is connected to (like your home LAN). It requires configuration of encryption (https) and router ports to reach it from outside your home network.');?></p>
 		</div>
 	</div>
 </section>
@@ -86,7 +87,7 @@ you to sync between your devices and share with others.');?></p>
 <section class="section-partners">
 	<div class="container">
 		<h3 class="text-center revealOnScroll"><?php echo $l->t('Partners');?></h3>
-		<p class="text-center revealOnScroll"><?php echo $l->t('The Nextcloud Box was developed in a partnership with WDLabs and Canonical and is one of');?> <a href="<?php echo home_url('devices') ?>"><?php echo $l->t('multiple devices</a>	 from Nextcloud partners. It is a reference device, meant to inspire and invite anyone to build their own. <a href="/contact">Get in contact</a> if you\'re interested in building a Nextcloud Box like device!');?></p>
+		<p class="text-center revealOnScroll"><?php echo $l->t('The Nextcloud Box was developed in a partnership with WDLabs and Canonical and is one of');?> <a href="<?php echo home_url('devices') ?>"><?php echo $l->t('multiple devices</a> from Nextcloud partners. It is a reference device, meant to inspire and invite anyone to build their own. <a href="/contact">Get in contact</a> if you\'re interested in building a Nextcloud Box like device!');?></p>
 		<div class="wrapper-images">
 			<a target="_blank" href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/"><div class="logo-wd"></div></a>
 			<a target="_blank" href="https://developer.ubuntu.com/en/snappy/"><div class="logo-ubuntu"></div></a>

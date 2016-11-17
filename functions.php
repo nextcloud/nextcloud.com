@@ -17,7 +17,7 @@ require_once locate_template('/lib/relative-urls.php');   // Root relative URLs
 require_once locate_template('/lib/widgets.php');         // Sidebars and widgets
 require_once locate_template('/lib/custom.php');          // Custom functions
 
-function translationUrlFilter($url, $path, $orig_scheme, $blog_id) {
+function translationUrlFilter($url) {
 	$path = parse_url(site_url())['path'];
 	$language = explode('/', substr($_SERVER['REQUEST_URI'], strlen($path)));
 	if(isset($language[1]) && $language[1] === 'de') {
