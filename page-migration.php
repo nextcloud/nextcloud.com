@@ -6,7 +6,7 @@
 	<p><?php echo $l->t('Nextcloud strives to make migration of customers from ownCloud™ as seamless as possible. Due to the large technical overlap, the migration of the application is easy. Business processes are equally easily updated.');?></p>
 
 	<h2><?php echo $l->t('Technical migration');?></h2>
-	<p><?php echo $l->t('Moving from ownCloud™ to Nextcloud follows the same process as a upgrade within either product. You can essentially follow our <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/manual_upgrade.html" target="_blank" rel="tooltip" title="Nextcloud administrator Documentation">usual upgrade documentation.</a>');?></p>
+	<p><?php echo $l->t('Moving from ownCloud™ to Nextcloud follows the same process as a upgrade within either product. You can essentially follow our');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/manual_upgrade.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">usual upgrade documentation.</a>');?></p>
 
 	<p><?php echo $l->t('The steps are as follows:');?></p>
 	<ul>
@@ -17,7 +17,7 @@
 	<li><?php echo $l->t('start the upgrade process with the command line tool');?></li>
 	<li><?php echo $l->t('Disable Maintenance Mode');?></li>
 	</ul>
-	<p><?php echo $l->t('Find more details in <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/manual_upgrade.html" target="_blank" rel="tooltip" title="Nextcloud administrator Documentation">our documentation.</a>');?></p>
+	<p><?php echo $l->t('Find more details in');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/manual_upgrade.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">our documentation.</a>');?></p>
 
 	<p><?php echo $l->t('Note that, as ownCloud does not support skipping releases, upgrades have to go through all releases between the existing ownCloud release and the desired Nextcloud release. We will support upgrades from ownCloud 8.2 and onwards. If you are on a older release, <a href="mailto:support@nextcloud.com">contact our support team</a> or <a href="/contact">ask sales for an offer.</a>');?></p>
 	<h2><?php echo $l->t('Upgrade path');?></h2>
