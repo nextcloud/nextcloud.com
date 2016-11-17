@@ -156,21 +156,6 @@
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a><br />
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><?php echo $l->t('Beta client');?></a>
 								</div>
-								<div id="tab-mobile" role="tabpanel" class="tab-pane">
-									<div class="overlay-body row">
-										<div class="col-md-6">
-											<p><?php echo $l->t('The Nextcloud mobile apps are available in various app stores.');?></p>
-											<p><?php echo $l->t('The apps allow you to access, sync and upload your data and feature instant upload for fotos and videos, upload management and more features.');?></p>
-											<br />
-											<div class="row">
-												<div class="col-xs-6">
-													<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
-													<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"></a><br />
-												</div>
-												<div class="col-xs-6">
-													<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID; ?>">
-													<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a><br />
-												</div>
 								<div class="col-xs-6 mobileclientbuttons">
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
