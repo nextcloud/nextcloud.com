@@ -107,7 +107,7 @@
 	<div id="install-clients" class="container row PopupGetStarted">
 		<div class="instructions">
 			<div class="row">
-					<a href="#" class="close">&times;</a>
+				<a href="#" class="close">&times;</a>
 				<ul class="nav nav-tabs" role="tablist">
 					<li id="li-tab-desktop" class="active"><a href="#tab-desktop" class="btn btn-lg" title="Install Desktop Clients" role="tab" data-toggle="tab"><i class="icon-archive"></i> <?php echo $l->t('Install Desktop Clients');?></a></li>
 					<li id="li-tab-mobile"><a href="#tab-mobile" class="btn btn-lg" title="Install Mobile Apps" role="tab" data-toggle="tab"><i class="icon-code"></i> <?php echo $l->t('Install Mobile Apps');?></a></li>
@@ -129,29 +129,33 @@
 							<p><?php echo $l->t('Compatible third party clients include:');?></p>
 							<ul>
 								<li><a href="https://crosscloud.me">CrossCloud</a> <?php echo $l->t('a multi-cloud access client');?></li>
-										</div>
-										<div class="col-md-6">
-											<div class="thumbnail">
-												<img style="width: 100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/macsettings.png" alt="Desktop Client" />
-											</div>
-										</div>
-									</div>
+								<li><a href="https://sourceforge.net/projects/outlookcaldavsynchronizer/">OutlookCalDAVSynchronizer</a> <?php echo $l->t('Sync your Calendars, Contacts and Tasks with Outlook');?></li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<div class="thumbnail">
+								<img style="width: 100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/macsettings.png" alt="Desktop Client" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tab-mobile" role="tabpanel" class="tab-pane">
+					<div class="overlay-body row">
+						<div class="col-md-6">
+							<p><?php echo $l->t('The Nextcloud mobile apps are available in various app stores.');?></p>
+							<p><?php echo $l->t('The apps allow you to access, sync and upload your data and feature instant upload for fotos and videos, upload management and more features.');?></p>
+							<br />
+							<div class="row">
+								<div class="col-xs-6">
+									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"></a><br />
+									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>"><?php echo $l->t('Beta client');?></a>
 								</div>
-								<div id="tab-mobile" role="tabpanel" class="tab-pane">
-									<div class="overlay-body row">
-										<div class="col-md-6">
-											<p><?php echo $l->t('The Nextcloud mobile apps are available in various app stores.');?></p>
-											<p><?php echo $l->t('The apps allow you to access, sync and upload your data and feature instant upload for fotos and videos, upload management and more features.');?></p>
-											<br />
-											<div class="row">
-												<div class="col-xs-6">
-													<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
-													<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"></a><br />
-												</div>
-												<div class="col-xs-6">
-													<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID; ?>">
-													<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a><br />
-												</div>
+								<div class="col-xs-6">
+									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID; ?>">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a><br />
+									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><?php echo $l->t('Beta client');?></a>
+								</div>
 								<div class="col-xs-6 mobileclientbuttons">
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
@@ -170,9 +174,9 @@
 								</div>
 							</div>
 							<p><?php echo $l->t('Nextcloud is using WebDAV, so you can also try out any other client you want!');?></p>
-								<p><?php echo $l->t('Compatible third party clients include:');?></p>
-								<ul>
-									<li><a href="https://davdroid.bitfire.at/">DAVDroid</a> <?php echo $l->t('supports Nextcloud Calendar, Tasks and Contacts, syncing your agenda, tasks and addressbook (android only, open source)');?></li>
+							<p><?php echo $l->t('Compatible third party clients include:');?></p>
+							<ul>
+								<li><a href="https://davdroid.bitfire.at/">DAVDroid</a> <?php echo $l->t('supports Nextcloud Calendar, Tasks and Contacts, syncing your agenda, tasks and addressbook (android only, open source)');?></li>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
