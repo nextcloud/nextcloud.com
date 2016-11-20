@@ -3,7 +3,8 @@
   padding-top: 20px;
   position: absolute;
   left: 0;
-  right: 0; }
+  right: 0;
+  opacity: 0; }
   .nav .container {
     position: relative; }
     .nav .container .navbar-toggle {
@@ -203,51 +204,51 @@
         .nav .container .nav__sections-wrapper .nav__sections .nav__section a {
           color: white;
           text-decoration: none; }
-      .nav .container .nav__sections-wrapper .nav__sections.mobile-active {
+      .nav .container .nav__sections-wrapper .nav__sections.mobile {
         display: block;
         color: white;
         margin: 0; }
-        .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section {
+        .nav .container .nav__sections-wrapper .nav__sections.mobile .nav__section {
           animation: fadeInRight .5s ease forwards;
           animation-delay: .35s; }
-          .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section .nav__label {
+          .nav .container .nav__sections-wrapper .nav__sections.mobile .nav__section .nav__label {
             font-size: 35px;
             line-height: 45px;
             padding-left: 0;
             letter-spacing: -2px;
             font-weight: 600; }
-          .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section:nth-of-type(2) {
+          .nav .container .nav__sections-wrapper .nav__sections.mobile .nav__section:nth-of-type(2) {
             animation-delay: .4s; }
-          .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section:nth-of-type(3) {
+          .nav .container .nav__sections-wrapper .nav__sections.mobile .nav__section:nth-of-type(3) {
             animation-delay: .45s; }
-          .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section:nth-of-type(4) {
+          .nav .container .nav__sections-wrapper .nav__sections.mobile .nav__section:nth-of-type(4) {
             animation-delay: .50s; }
-          .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section:nth-of-type(5) {
+          .nav .container .nav__sections-wrapper .nav__sections.mobile .nav__section:nth-of-type(5) {
             animation-delay: .55s; }
-          .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section:nth-of-type(6) {
+          .nav .container .nav__sections-wrapper .nav__sections.mobile .nav__section:nth-of-type(6) {
             animation-delay: .60s; }
-          .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section:nth-of-type(7) {
+          .nav .container .nav__sections-wrapper .nav__sections.mobile .nav__section:nth-of-type(7) {
             animation-delay: .65s; }
-          .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__section:nth-of-type(8) {
+          .nav .container .nav__sections-wrapper .nav__sections.mobile .nav__section:nth-of-type(8) {
             animation-delay: .70s; }
-        .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__bg {
+        .nav .container .nav__sections-wrapper .nav__sections.mobile .nav__bg {
           position: relative;
           width: 100%;
           height: 100%; }
-          .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__bg .nav__links {
+          .nav .container .nav__sections-wrapper .nav__sections.mobile .nav__bg .nav__links {
             display: none;
             position: relative;
             padding: 0; }
-            .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__bg .nav__links .nav__item {
+            .nav .container .nav__sections-wrapper .nav__sections.mobile .nav__bg .nav__links .nav__item {
               margin-left: 0; }
-              .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__bg .nav__links .nav__item a {
+              .nav .container .nav__sections-wrapper .nav__sections.mobile .nav__bg .nav__links .nav__item a {
                 font-size: 30px;
                 line-height: 39px;
                 color: white;
                 margin-left: 0;
                 font-weight: 100;
                 letter-spacing: -2px; }
-            .nav .container .nav__sections-wrapper .nav__sections.mobile-active .nav__bg .nav__links.active {
+            .nav .container .nav__sections-wrapper .nav__sections.mobile .nav__bg .nav__links.active {
               display: inline;
               visibility: visible;
               opacity: 1; }
@@ -257,7 +258,7 @@
       margin: 0;
       opacity: 0;
       transition: all 0.3s; }
-      .nav .container .nav__sections-wrapper .right-buttons.mobile-active {
+      .nav .container .nav__sections-wrapper .right-buttons.mobile {
         opacity: 1;
         transition-delay: .65s; }
       .nav .container .nav__sections-wrapper .right-buttons .nav__section {

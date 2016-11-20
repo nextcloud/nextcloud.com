@@ -3,6 +3,9 @@ $(window).load(function() {
     var HeaderApp = {
         init: function() {
 
+        //Fade In animation
+        $(this.variables.navigationSelector).velocity("transition.fadeIn", 1000 );
+
         //Enquire.js This hides the list on hover in the mobile
         enquire.register("screen and (max-width: 992px,)", {
             match: _.bind(this.mobileEvent, this)
@@ -32,11 +35,13 @@ $(window).load(function() {
         backgroundAnimationClass: "is-animatable",
         linksVisibleClass: "is-visible",
         mobileBackgroundSelector: ".mobile-bg",
-        mobileMenuClass: "menu-open"
+        mobileMenuClass: "menu-open",
+        showNavigationClass:"nav-down",
+        hideNavigationClass: "nav-up"
     },
 
-    toggleMobileMenu: function(index, element) {
-        $(element).toggleClass(this.variables.activeClass);
+    toggleMobileMenu: function(event) {
+        $(event.currentTarget).toggleClass(this.variables.activeClass);
         $(this.variables.mobileBackgroundSelector).toggleClass(this.variables.activeClass);
         $(this.variables.sectionsSelector).toggleClass(this.variables.activeClass);
         $(this.variables.rightNavigationSelector).toggleClass(this.variables.activeClass);
@@ -61,14 +66,14 @@ $(window).load(function() {
         bg.addClass(this.variables.backgroundAnimationClass);
     },
 
-    backgroundDropdown: function(index, element) {
-        var bg = $(element).find(this.variables.navBackgroundSelector).first(),
-            bgWrapper = $(element).find(this.variables.navBackgroundWrapper).first(),
-            selectedDropdown = $(element).find(this.variables.linksSelector).first(),
+    backgroundDropdown: function(event) {
+        var bg = $(event.currentTarget).find(this.variables.navBackgroundSelector).first(),
+            bgWrapper = $(event.currentTarget).find(this.variables.navBackgroundWrapper).first(),
+            selectedDropdown = $(event.currentTarget).find(this.variables.linksSelector).first(),
             height = selectedDropdown.innerHeight(),
             width = selectedDropdown.innerWidth();
-            console.log(bg)
         
+        //console.log(index);
         setTimeout(_.bind(this.setBackgroundDropdown, this, bg));
         bgWrapper.addClass(this.variables.linksVisibleClass);
 
@@ -84,19 +89,19 @@ $(window).load(function() {
     },
 
     // To set the arrow above the drop down menu in the middle of the link text
-    arrowDropdown: function(index, element) {
-        var liWidth = $(element).width(), // The total length of the li content text + padding
-            aWidth = $(element).find("a").first().width(),// The total length of the text
+    arrowDropdown: function(event) {
+        var liWidth = $(event.currentTarget).width(), // The total length of the li content text + padding
+            aWidth = $(event.currentTarget).find("a").first().width(),// The total length of the text
             half = liWidth - (aWidth / 2);
 
         $("#nav-bg").text(".nav__bg:before, .nav__bg:after { left: "+ half +"px}");
-        var bg = $(element).find(this.variables.navBackgroundSelector).first();
+        var bg = $(event.currentTarget).find(this.variables.navBackgroundSelector).first();
 
         setTimeout(_.bind(function() {
             bg.removeClass(this.variables.backgroundAnimationClass);
         },this));
 
-        var bgWrapper = $(element).find(this.variables.navBackgroundWrapper).first();
+        var bgWrapper = $(event.currentTarget).find(this.variables.navBackgroundWrapper).first();
         bgWrapper.removeClass(this.variables.linksVisibleClass);
         $("#nav-bg").text();
     },
@@ -160,7 +165,7 @@ $(window).load(function() {
 
     //Show Header when scroll in resolution lower then width 800px
     showHeaderOnScroll: function () {
-        var didScroll;
+        var didScroll = false;
         var lastScrollTop = 0;
         var delta = 100;
         var navbarHeight = $(this.variables.navigationSelector).outerHeight();
@@ -187,20 +192,17 @@ $(window).load(function() {
             // This is necessary so you never see what is "behind" the navbar.
             if (st > lastScrollTop && st > navbarHeight){
                 // Scroll Down
-                $(this.variables.navigationSelector).removeClass("nav-down").addClass("nav-up");
+                $(this.variables.navigationSelector).removeClass(this.variables.showNavigationClass).addClass(this.variables.hideNavigationClass);
             } else {
                 // Scroll Up
                 if(st + $(window).height() < $(document).height()) {
-                    $(this.variables.navigationSelector).removeClass("nav-up").addClass("nav-down");
+                    $(this.variables.navigationSelector).removeClass(this.variables.hideNavigationClass).addClass(this.variables.showNavigationClass);
                 }
             }
 
             lastScrollTop = st;
         }
     },
-
-    // Fade In animation
-    //$(this.variables.navigationSelector).velocity("transition.fadeIn", 1000 );
 }
     HeaderApp.init();
 });
