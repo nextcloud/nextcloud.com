@@ -67,17 +67,26 @@ $(window).load(function() {
     },
 
     backgroundDropdown: function(event) {
-        var bg = $(event.currentTarget).find(this.variables.navBackgroundSelector).first(),
-            bgWrapper = $(event.currentTarget).find(this.variables.navBackgroundWrapper).first(),
-            selectedDropdown = $(event.currentTarget).find(this.variables.linksSelector).first(),
-            height = selectedDropdown.innerHeight(),
-            width = selectedDropdown.innerWidth();
-        
-        //console.log(index);
+        var cssPadding = 30,
+        bg = $(this.variables.navBackgroundSelector),
+        bgWrapper = $(this.variables.navBackgroundWrapper),
+        selectedDropdown = $(event.currentTarget).find(this.variables.linksSelector),
+        height = selectedDropdown.innerHeight(),
+        width = selectedDropdown.innerWidth(),
+        windowWidth = $(".nav").outerWidth(),
+        navigationWidth = $(".nav .container").outerWidth(),
+        marginNavigation = (windowWidth - navigationWidth) / 2,
+        backgroundDropdownPosition = $(event.currentTarget).offset().left + cssPadding + ($(this.variables.sectionSelector).innerWidth() - cssPadding) /2 -width/2 - marginNavigation;
+
         setTimeout(_.bind(this.setBackgroundDropdown, this, bg));
         bgWrapper.addClass(this.variables.linksVisibleClass);
 
         bg.css({
+            '-moz-transform': 'translateX(' + backgroundDropdownPosition + 'px)',
+            '-webkit-transform': 'translateX(' + backgroundDropdownPosition + 'px)',
+            '-ms-transform': 'translateX(' + backgroundDropdownPosition + 'px)',
+            '-o-transform': 'translateX(' + backgroundDropdownPosition + 'px)',
+            'transform': 'translateX(' + backgroundDropdownPosition + 'px)',
             "width": width + "px",
             "height": height + "px"
         });
@@ -85,25 +94,19 @@ $(window).load(function() {
 
     desktopDropdownEvent: function() {
         $(this.variables.sectionSelector).on("mouseover", _.bind(this.backgroundDropdown, this));
-        $(this.variables.sectionSelector).on("mouseleave", _.bind(this.arrowDropdown, this));
+        $(this.variables.sectionSelector).on("mouseleave", _.bind(this.destroyDropdown, this));
     },
 
-    // To set the arrow above the drop down menu in the middle of the link text
-    arrowDropdown: function(event) {
-        var liWidth = $(event.currentTarget).width(), // The total length of the li content text + padding
-            aWidth = $(event.currentTarget).find("a").first().width(),// The total length of the text
-            half = liWidth - (aWidth / 2);
-
-        $("#nav-bg").text(".nav__bg:before, .nav__bg:after { left: "+ half +"px}");
-        var bg = $(event.currentTarget).find(this.variables.navBackgroundSelector).first();
+    // Clear dropdowns in mouse leave
+    destroyDropdown: function(event) {
+        var bg = $(this.variables.navBackgroundSelector);
 
         setTimeout(_.bind(function() {
             bg.removeClass(this.variables.backgroundAnimationClass);
         },this));
 
-        var bgWrapper = $(event.currentTarget).find(this.variables.navBackgroundWrapper).first();
+        var bgWrapper = $(this.variables.navBackgroundWrapper)();
         bgWrapper.removeClass(this.variables.linksVisibleClass);
-        $("#nav-bg").text();
     },
 
     //Listen to scroll to change header opacity class

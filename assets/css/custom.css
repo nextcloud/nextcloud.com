@@ -409,6 +409,51 @@ section#why-nextcloud {
   opacity: 0; }
   .nav .container {
     position: relative; }
+    .nav .container .nav__bg-wrapper {
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      visibility: hidden;
+      transition: 0.3s;
+      will-change: opacity;
+      z-index: -2;
+      top: 50px; }
+      .nav .container .nav__bg-wrapper.is-visible {
+        visibility: visible;
+        opacity: 1; }
+      .nav .container .nav__bg-wrapper .nav__bg {
+        width: 300px;
+        height: 200px;
+        background: white;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.11);
+        border: solid 1px #f1f1f1;
+        border-radius: 4px;
+        -webkit-transform-origin: left top;
+        transform-origin: left top;
+        will-change: transform;
+        visibility: hidden;
+        position: absolute;
+        z-index: 1;
+        top: 100%; }
+        .nav .container .nav__bg-wrapper .nav__bg:before {
+          content: "";
+          position: absolute;
+          bottom: 100%;
+          left: 50%;
+          right: auto;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+          height: 0;
+          width: 0;
+          border: 8px solid transparent;
+          border-bottom-color: #FFFFFF; }
+        .nav .container .nav__bg-wrapper .nav__bg.is-animatable {
+          -webkit-transition: 0.3s;
+          transition: 0.3s;
+          visibility: visible; }
     .nav .container .navbar-toggle {
       display: none; }
     .nav .container .brand {
@@ -421,50 +466,6 @@ section#why-nextcloud {
         height: 50px;
         width: 71px;
         display: inline-block; }
-    .nav .container .nav__bg-wrapper {
-      -webkit-transition: 0.3s;
-      transition: 0.3s; }
-      .nav .container .nav__bg-wrapper.is-visible {
-        visibility: visible;
-        opacity: 1; }
-      .nav .container .nav__bg-wrapper .nav__bg {
-        width: 1px;
-        height: 1px;
-        background: white;
-        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.11);
-        border: solid 1px #f1f1f1;
-        border-radius: 4px;
-        -webkit-transform-origin: left top;
-        transform-origin: left top;
-        will-change: transform;
-        visibility: hidden;
-        position: absolute;
-        z-index: 1;
-        top: 100%; }
-        .nav .container .nav__bg-wrapper .nav__bg:before, .nav .container .nav__bg-wrapper .nav__bg:after {
-          content: '';
-          position: absolute;
-          bottom: 100%;
-          border: solid transparent;
-          -webkit-transform: translateX(-50%);
-          -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
-          height: 0;
-          width: 0; }
-        .nav .container .nav__bg-wrapper .nav__bg:after {
-          border-color: rgba(255, 255, 255, 0);
-          border-bottom-color: #fff;
-          border-width: 7px;
-          margin-left: -8px; }
-        .nav .container .nav__bg-wrapper .nav__bg:before {
-          border-color: rgba(204, 204, 204, 0);
-          border-bottom-color: #f1f1f1;
-          border-width: 9px;
-          margin-left: -8px; }
-        .nav .container .nav__bg-wrapper .nav__bg.is-animatable {
-          -webkit-transition: 0.3s;
-          transition: 0.3s;
-          visibility: visible; }
     .nav .container .nav__sections {
       display: -webkit-box;
       display: -webkit-flex;
