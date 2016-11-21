@@ -79,14 +79,18 @@
       left: 20%;
       top: 0%; }
       .nav .container .nav__sections .nav__section {
-        padding: 15px 0 15px 0; }
+        padding: 15px 0 15px 0;
+        position: relative; }
         .nav .container .nav__sections .nav__section:hover .nav__label {
           opacity: 0.6;
           cursor: default;
           text-decoration: none; }
         .nav .container .nav__sections .nav__section:hover .nav__links {
           visibility: visible;
-          opacity: 1; }
+          opacity: 1;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%); }
         .nav .container .nav__sections .nav__section .nav__label {
           display: inline-block;
           padding-left: 30px;
@@ -97,7 +101,7 @@
           font-size: 16px; }
         .nav .container .nav__sections .nav__section .nav__links {
           position: absolute;
-          padding: 1.5em;
+          padding: 20px 20px 20px 35px;
           visibility: hidden;
           opacity: 0;
           list-style-type: none; }

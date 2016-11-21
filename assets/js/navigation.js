@@ -1,26 +1,25 @@
-$(window).load(function() {
+$(document).ready(function() {
     "use strict";
     var HeaderApp = {
         init: function() {
 
         //Fade In animation
-        $(this.variables.navigationSelector).velocity("transition.fadeIn", 1000 );
+        $(this.variables.navigationId).velocity("transition.fadeIn", 1000 );
 
         //Enquire.js This hides the list on hover in the mobile
-        enquire.register("screen and (max-width: 992px,)", {
-            match: _.bind(this.mobileEvent, this)
+        enquire.register("screen and (max-width: 992px)", {
+            match: _.bind(this.mobileEvent, this) 
         });
 
         enquire.register("screen and (min-width: 993px)", {
-            // Triggered when the media query transitions
-            // from *unmatched* to *matched*
             match: _.bind(this.desktopDropdownEvent, this)
         });
     },
 
     variables : {
         toggleSelector: "#toggle",
-        navigationSelector: "#nav",
+        navigationId: "#nav",
+        navigationSelector: ".nav",
         sectionsSelector: ".nav__sections",
         sectionsContainerSelector: ".nav__sections-wrapper",
         sectionSelector: ".nav__section",
@@ -56,8 +55,8 @@ $(window).load(function() {
     },
 
     mobileEvent: function() {
-        _.bind(this.menuToggledAnimation, this);
-        $(this.variables.navigationSelector).addClass(this.variables.mobileClass);
+        this.menuToggledAnimation();
+        $(this.variables.navigationId).addClass(this.variables.mobileClass);
         $(this.variables.toggleSelector).click(_.bind(this.toggleMobileMenu, this));
         $(this.variables.sectionSelector).click(_.bind(this.showSubMenu, this));
     },
@@ -73,7 +72,7 @@ $(window).load(function() {
         selectedDropdown = $(event.currentTarget).find(this.variables.linksSelector),
         height = selectedDropdown.innerHeight(),
         width = selectedDropdown.innerWidth(),
-        windowWidth = $(".nav").outerWidth(),
+        windowWidth = $(this.variables.navigationSelector).outerWidth(),
         navigationWidth = $(".nav .container").outerWidth(),
         marginNavigation = (windowWidth - navigationWidth) / 2,
         backgroundDropdownPosition = $(event.currentTarget).offset().left + cssPadding + ($(event.currentTarget).innerWidth() - cssPadding) /2 - width/2 - marginNavigation;
@@ -110,34 +109,6 @@ $(window).load(function() {
         bgWrapper.removeClass(this.variables.linksVisibleClass);
     },
 
-    //Listen to scroll to change header opacity class
-    checkScroll: function() {
-        var bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-
-        if (bodyScrollTop !== 0) {
-            $(this.variables.navigationSelector).addClass(this.variables.scrolledClass);
-            $(this.variables.logoSelector).addClass(this.variables.scrolledClass);
-        }
-
-        else {
-            $(this.variables.navigationSelector).removeClass(this.variables.scrolledClass);
-            $(this.variables.logoSelector).removeClass(this.variables.scrolledClass);
-        }
-
-        if ($(this.variables.navigationSelector).length > 0) {
-            $(window).on("scroll load resize", _.bind(this.checkScroll, this)); 
-        }
-    },
-
-    // Prevent scrolling if menu is opened
-    blockScroll: function(e) {
-    if(menuOpened) {
-        e.preventDefault();
-        e.stopPropagation();
-        return false;
-        }
-    },
-
 
     //Bodymovin menu Animation
     menuToggledAnimation: function() {
@@ -166,13 +137,40 @@ $(window).load(function() {
         });
     },
 
+    //Listen to scroll to change header opacity class
+    checkScroll: function() {
+        var bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+
+        if (bodyScrollTop !== 0) {
+            $(this.variables.navigationId).addClass(this.variables.scrolledClass);
+            $(this.variables.logoSelector).addClass(this.variables.scrolledClass);
+        }
+
+        else {
+            $(this.variables.navigationId).removeClass(this.variables.scrolledClass);
+            $(this.variables.logoSelector).removeClass(this.variables.scrolledClass);
+        }
+
+        if ($(this.variables.navigationId).length > 0) {
+            $(window).on("scroll load resize", _.bind(this.checkScroll, this)); 
+        }
+    },
+
+    // Prevent scrolling if menu is opened
+    blockScroll: function(e) {
+    if(menuOpened) {
+        e.preventDefault();
+        e.stopPropagation();
+        return false;
+        }
+    },
 
     //Show Header when scroll in resolution lower then width 800px
     showHeaderOnScroll: function () {
         var didScroll = false;
         var lastScrollTop = 0;
         var delta = 100;
-        var navbarHeight = $(this.variables.navigationSelector).outerHeight();
+        var navbarHeight = $(this.variables.navigationId).outerHeight();
 
         $(window).scroll(function(event){
             didScroll = true;
@@ -196,11 +194,11 @@ $(window).load(function() {
             // This is necessary so you never see what is "behind" the navbar.
             if (st > lastScrollTop && st > navbarHeight){
                 // Scroll Down
-                $(this.variables.navigationSelector).removeClass(this.variables.showNavigationClass).addClass(this.variables.hideNavigationClass);
+                $(this.variables.navigationId).removeClass(this.variables.showNavigationClass).addClass(this.variables.hideNavigationClass);
             } else {
                 // Scroll Up
                 if(st + $(window).height() < $(document).height()) {
-                    $(this.variables.navigationSelector).removeClass(this.variables.hideNavigationClass).addClass(this.variables.showNavigationClass);
+                    $(this.variables.navigationId).removeClass(this.variables.hideNavigationClass).addClass(this.variables.showNavigationClass);
                 }
             }
 

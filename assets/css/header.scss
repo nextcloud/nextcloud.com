@@ -100,6 +100,7 @@
         
             .nav__section {
                 padding: 15px 0 15px 0;
+                position: relative;
                 
                 &:hover {
                     .nav__label {
@@ -111,6 +112,9 @@
                     .nav__links {
                         visibility: visible;
                         opacity: 1;
+                        position: absolute;
+                        left:50%;
+                        transform:translateX(-50%);
                     }
                 }
 
@@ -126,7 +130,7 @@
 
                 .nav__links {
                     position: absolute;
-                    padding: 1.5em;
+                    padding: 20px 20px 20px 35px;
                     visibility: hidden;
                     opacity: 0;
                     list-style-type: none;
