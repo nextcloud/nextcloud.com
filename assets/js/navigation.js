@@ -76,7 +76,7 @@ $(window).load(function() {
         windowWidth = $(".nav").outerWidth(),
         navigationWidth = $(".nav .container").outerWidth(),
         marginNavigation = (windowWidth - navigationWidth) / 2,
-        backgroundDropdownPosition = $(event.currentTarget).offset().left + cssPadding + ($(this.variables.sectionSelector).innerWidth() - cssPadding) /2 -width/2 - marginNavigation;
+        backgroundDropdownPosition = $(event.currentTarget).offset().left + cssPadding + ($(event.currentTarget).innerWidth() - cssPadding) /2 - width/2 - marginNavigation;
 
         setTimeout(_.bind(this.setBackgroundDropdown, this, bg));
         bgWrapper.addClass(this.variables.linksVisibleClass);
@@ -99,13 +99,14 @@ $(window).load(function() {
 
     // Clear dropdowns in mouse leave
     destroyDropdown: function(event) {
-        var bg = $(this.variables.navBackgroundSelector);
+        var bg = $(this.variables.navBackgroundSelector),
+            bgWrapper = $(this.variables.navBackgroundWrapper);
 
         setTimeout(_.bind(function() {
             bg.removeClass(this.variables.backgroundAnimationClass);
         },this));
 
-        var bgWrapper = $(this.variables.navBackgroundWrapper)();
+        var bgWrapper = $(this.variables.navBackgroundWrapper);
         bgWrapper.removeClass(this.variables.linksVisibleClass);
     },
 
