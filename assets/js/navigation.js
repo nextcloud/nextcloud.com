@@ -3,6 +3,9 @@ $(document).ready(function() {
     var HeaderApp = {
         init: function() {
 
+        this.menuOpened = false;
+        this.enquireInitializedMobile = false;
+        
         //Fade In animation
         $(this.variables.navigationId).velocity("transition.fadeIn", 1000 );
 
@@ -40,6 +43,7 @@ $(document).ready(function() {
     },
 
     toggleMobileMenu: function(event) {
+        $(this.variables.linksSelector).hide().removeClass(this.variables.activeClass); //hide all submenus without animation
         $(event.currentTarget).toggleClass(this.variables.activeClass);
         $(this.variables.mobileBackgroundSelector).toggleClass(this.variables.activeClass);
         $(this.variables.sectionsSelector).toggleClass(this.variables.activeClass);
@@ -47,15 +51,37 @@ $(document).ready(function() {
         $(this.variables.logoSelector).toggleClass(this.variables.mobileMenuClass);
     },
 
+    resetMobile: function() {
+        $(this.variables.toggleSelector).off("click");
+        $(this.variables.sectionSelector).off("click");
+        $(this.variables.linksSelector).css("display", "inherit").removeClass(this.variables.activeClass);
+    },    
+
+    resetDesktop: function() {
+        $(this.variables.sectionSelector).off("mouseover");
+        $(this.variables.sectionSelector).off("mouseleave");
+        $(this.variables.linksSelector).hide();
+    },    
+
     showSubMenu: function(event) {
-        $(this.variables.linksSelector).removeClass(this.variables.activeClass);
-        $(this.variables.sectionsContainerSelector).removeClass(this.variables.mobileClass);
-        $(this.variables.linksSelector, this).toggleClass(this.activeClass);
-        $(this.variables.sectionsContainerSelector).toggleClass(this.variables.mobileClass);
+        if ($(event.currentTarget).find(this.variables.linksSelector).hasClass(this.variables.activeClass)) {
+            $(this.variables.linksSelector).slideUp().removeClass(this.variables.activeClass);
+
+            return;
+        }
+
+        $(this.variables.linksSelector).slideUp().removeClass(this.variables.activeClass);
+        $(event.currentTarget).find(this.variables.linksSelector).slideToggle().addClass(this.variables.activeClass);
     },
 
     mobileEvent: function() {
-        this.menuToggledAnimation();
+        this.resetDesktop();
+        if (!this.enquireInitializedMobile) {
+            this.enquireInitializedMobile = true;
+            this.createMenuButton();
+        }
+
+        this.blockScroll();
         $(this.variables.navigationId).addClass(this.variables.mobileClass);
         $(this.variables.toggleSelector).click(_.bind(this.toggleMobileMenu, this));
         $(this.variables.sectionSelector).click(_.bind(this.showSubMenu, this));
@@ -92,6 +118,7 @@ $(document).ready(function() {
     },
 
     desktopDropdownEvent: function() {
+        this.resetMobile();
         $(this.variables.sectionSelector).on("mouseover", _.bind(this.backgroundDropdown, this));
         $(this.variables.sectionSelector).on("mouseleave", _.bind(this.destroyDropdown, this));
     },
@@ -111,9 +138,8 @@ $(document).ready(function() {
 
 
     //Bodymovin menu Animation
-    menuToggledAnimation: function() {
+    createMenuButton: function() {
         var menuAnimation,
-            menuOpened = false,
             animContainer = document.querySelectorAll(".container button")[0],
             params = {
             container: animContainer,
@@ -127,13 +153,13 @@ $(document).ready(function() {
         menuAnimation.stop();
 
         $(".container button").click(function () {
-            if(menuOpened) {
+            if(this.menuOpened) {
                 menuAnimation.setDirection(-1);
             } else {
                 menuAnimation.setDirection(0);
             }
             menuAnimation.play();
-            menuOpened = !menuOpened;
+            this.menuOpened = !this.menuOpened;
         });
     },
 
@@ -157,11 +183,12 @@ $(document).ready(function() {
     },
 
     // Prevent scrolling if menu is opened
-    blockScroll: function(e) {
-    if(menuOpened) {
-        e.preventDefault();
-        e.stopPropagation();
-        return false;
+    blockScroll: function(event) {
+        if(this.menuOpened) {
+            event.preventDefault();
+            event.stopPropagation();
+            
+            return false;
         }
     },
 
