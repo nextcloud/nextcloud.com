@@ -47,7 +47,7 @@ $(document).ready(function() {
         $(this.variables.logoSelector).toggleClass(this.variables.mobileMenuClass);
     },
 
-    showSubMenu: function() {
+    showSubMenu: function(event) {
         $(this.variables.linksSelector).removeClass(this.variables.activeClass);
         $(this.variables.sectionsContainerSelector).removeClass(this.variables.mobileClass);
         $(this.variables.linksSelector, this).toggleClass(this.activeClass);

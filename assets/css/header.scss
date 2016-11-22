@@ -298,7 +298,7 @@
                         }
                     }
 
-                    &.mobile {
+                    &.active {
                         display: block;
                         color: white;
                         margin: 0;
@@ -378,12 +378,12 @@
                     opacity: 0;
                     transition: all 0.3s;
 
-                    &.mobile {
+                    &.active {
                         opacity: 1;
                         transition-delay: .65s;
                     }
 
-                    .nav__section {
+                    .ghost-btn {
                         font-size: 35px;
                         line-height: 45px;
                         padding-left: 0;
@@ -466,7 +466,7 @@
 
     &.mobile {
         .nav__sections-wrapper {
-            .nav__sections, .right-buttons {               
+            .nav__sections, .ghost-btn {               
                 .nav__section .nav__label {
                     color: white;
                 }
