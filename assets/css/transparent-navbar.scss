@@ -1,4 +1,5 @@
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
+  position: absolute;
 }

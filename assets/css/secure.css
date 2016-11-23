@@ -1,6 +1,7 @@
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
-  background-color: transparent; }
+  background-color: transparent;
+  position: absolute; }
 
 /**
  * Secure Page
