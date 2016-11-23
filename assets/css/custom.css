@@ -1,10 +1,6 @@
 /* Make Navbar transparent */
-.navbar:not(.scrolled) {
+.nav:not(.scrolled) {
   background-color: transparent; }
-
-.navbar:not(.scrolled) .btn-primary {
-  background-color: transparent !important;
-  border-color: white; }
 
 /**
  * Home page jumbotron
@@ -406,7 +402,8 @@ section#why-nextcloud {
   position: absolute;
   left: 0;
   right: 0;
-  opacity: 0; }
+  opacity: 0;
+  background: #0082c9; }
   .nav .container {
     position: relative; }
     .nav .container .nav__bg-wrapper {

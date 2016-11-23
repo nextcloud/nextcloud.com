@@ -4,7 +4,8 @@
   position: absolute;
   left: 0;
   right: 0;
-  opacity: 0; }
+  opacity: 0;
+  background: #0082c9; }
   .nav .container {
     position: relative; }
     .nav .container .nav__bg-wrapper {
