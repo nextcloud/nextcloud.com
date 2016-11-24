@@ -2,7 +2,7 @@
 <div class="sub-nav">
 	<a href="/about">About Nextcloud</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/contributors">Nextcloud Community</a>
 </div>
-<p>Open Source cloud computing is our passion at Nextcloud GmbH and we've built a great team of experts around it. Our engineers, designers and support professionals work as an integral part of the wider Nextcloud community to give customers direct access to the most advanced, in-depth knowledge they need for success.</p>
+<p>Open source cloud computing is our passion at Nextcloud GmbH and we've built a great team of experts around it. Our engineers, designers and support professionals work as an integral part of the wider Nextcloud community to give customers direct access to the most advanced, in-depth knowledge they need for success.</p>
 <!-- End main -->
 </div>
 </div>
@@ -151,7 +151,7 @@
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 				<p class="teamsocial"><a href="https://de.linkedin.com/in/artur-bergen-3b113090"><i class="icon-rss icon"></i></a> <a href="https://github.com/artberg"><i class="icon-github icon"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="icon-twitter icon"></i></a>--> </p>
 			</div>
-			<p class="teamdescription">Artur is graduated Interface Designer (B.A.) and he is currently doing his second Bachelor in Media Informatics (B.Sc.), Stuttgart. His primary tasks lie in the development of the Spreedbox and Spreed.ME hard- and software components.</p>
+			<p class="teamdescription">Artur graduated Interface Designer (B.A.) and he is currently doing his second Bachelor in Media Informatics (B.Sc.), Stuttgart. His primary tasks lie in the development of the Spreedbox and Spreed.ME hardware and software components.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
@@ -203,7 +203,7 @@
 				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 				<p class="teamsocial"><a href="http://www.dirk-farin.net/"><i class="icon-rss icon"></i></a> <a href="https://github.com/farindk"><i class="icon-github icon"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="icon-twitter icon"></i></a>--> </p>
 			</div>
-			<p class="teamdescription">Dirk graduated from the University of Stuttgart, Germany and received his PhD from the University of Technology in Eindhoven. He worked on MPEG-4 video coding, panoramic video visualiation and compression for 3-D television at universities and research institutions in Europe and the United States and currently workes on an ope source H.265 decoding/encoding library.</p>
+			<p class="teamdescription">Dirk graduated from the University of Stuttgart, Germany and received his PhD from the University of Technology in Eindhoven. He worked on MPEG-4 video coding, panoramic video visualiation and compression for 3-D television at universities and research institutions in Europe and the United States and currently works on an open source H.265 decoding/encoding library.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
