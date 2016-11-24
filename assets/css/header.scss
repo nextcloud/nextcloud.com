@@ -136,6 +136,8 @@
                     visibility: hidden;
                     opacity: 0;
                     list-style-type: none;
+                    transition: opacity 0.3s ease;
+                    transition-delay: 0.1s;
 
                     .nav__item {
                         color: #666;
@@ -146,6 +148,11 @@
                         a {
                             font-size: 16px;
                             color: $medium-grey;
+
+                            &:hover {
+                                opacity: 0.6;
+                                text-decoration: none;
+                            }
                         }
 
                         &:not(:last-of-type) {
@@ -165,11 +172,13 @@
             .ghost-btn {
                 text-align: center;
                 position: relative;
-
+                display: inline-block;
+                
                 a {
                     padding-right: 10px;
                     -webkit-transition: 0.3s;
                     transition: 0.3s;
+                    position: relative;
                 }
         
                  &:hover {

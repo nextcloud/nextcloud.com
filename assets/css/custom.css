@@ -505,7 +505,9 @@ section#why-nextcloud {
           padding: 20px 20px 20px 35px;
           visibility: hidden;
           opacity: 0;
-          list-style-type: none; }
+          list-style-type: none;
+          transition: opacity 0.3s ease;
+          transition-delay: 0.1s; }
           .nav .container .nav__sections .nav__section .nav__links .nav__item {
             color: #666;
             margin-top: 5px;
@@ -514,6 +516,9 @@ section#why-nextcloud {
             .nav .container .nav__sections .nav__section .nav__links .nav__item a {
               font-size: 16px;
               color: #555555; }
+              .nav .container .nav__sections .nav__section .nav__links .nav__item a:hover {
+                opacity: 0.6;
+                text-decoration: none; }
             .nav .container .nav__sections .nav__section .nav__links .nav__item:not(:last-of-type) {
               margin-bottom: 0.625em; }
     .nav .container .right-buttons {
@@ -523,11 +528,13 @@ section#why-nextcloud {
       margin-top: 15px; }
       .nav .container .right-buttons .ghost-btn {
         text-align: center;
-        position: relative; }
+        position: relative;
+        display: inline-block; }
         .nav .container .right-buttons .ghost-btn a {
           padding-right: 10px;
           -webkit-transition: 0.3s;
-          transition: 0.3s; }
+          transition: 0.3s;
+          position: relative; }
         .nav .container .right-buttons .ghost-btn:hover {
           opacity: 0.6; }
           .nav .container .right-buttons .ghost-btn:hover a {
