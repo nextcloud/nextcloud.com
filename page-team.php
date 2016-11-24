@@ -143,7 +143,7 @@
 	</div>
 	<div class="col-md-4">
 		<div class="teamp">
-			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/artur.jpg" />
 			<h2 class="teamname">Artur Bergen</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
@@ -195,7 +195,7 @@
 	</div>
 	<div class="col-md-4">
 		<div class="teamp">
-			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/dirk.jpg" />
 			<h2 class="teamname">Dirk Farin</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Research Scientist and Software Engineer</h3>
