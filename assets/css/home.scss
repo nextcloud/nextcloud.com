@@ -122,7 +122,14 @@
           width: 12px;
           top: 7px;
           margin-left: 5px;
+          transition: all 0.3s ease;
         }
+
+          &:hover {
+            &:after {
+              margin-left: 10px;
+            }
+          }
       }
     }
   }

@@ -109,7 +109,10 @@
           height: 12px;
           width: 12px;
           top: 7px;
-          margin-left: 5px; }
+          margin-left: 5px;
+          transition: all 0.3s ease; }
+        .jumbotron .toptext .annoucement .message:hover:after {
+          margin-left: 10px; }
 
 .jumbotron > .container-fluid > .col-md-6 > p > a {
   width: 290px;
