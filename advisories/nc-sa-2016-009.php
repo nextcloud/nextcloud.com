@@ -9,7 +9,7 @@
         <?php get_template_part('advisories/advisory-side'); ?>
     </div>
     <div class="col-md-8">
-        <h2>Stored XSS in Gallery application (NC-SA-2016-009)</h2>
+        <h2>Reflected XSS in Gallery application (NC-SA-2016-009)</h2>
         <p>10th October 2016</p>
         <p>Risk level: <strong>Medium</strong></p>
         <p>CVSS v3 Base Score: 6.1 (<a href="https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N">AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N</a>)</p>

@@ -2,6 +2,8 @@
 @import "home.scss";
 @import "header.scss";
 @import "footer.scss";
+@import "jobs.scss";
+@import "box.scss";
 
 html{
     margin-top: 0 !important;
@@ -35,7 +37,7 @@ h3 {
   font-size: 35px;
   font-weight: 300;
   line-height: 1.5;
-  text-align: center;
+/*   text-align: center; */
   color: #2a2a36; 
 }
 

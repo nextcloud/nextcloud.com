@@ -1,0 +1,91 @@
+@import "variables.scss";
+@import "transparent-navbar.scss";
+
+.background {
+  background: url("../img/jobs/team.jpg") no-repeat;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  min-height: 600px;
+  max-height: 800px;
+
+	.container {
+		top: 50%;
+		transform: translateY(-50%);
+		position: relative;
+		margin-left: 5%;
+		padding: 0;
+	}
+
+	h1 {
+		padding-top: 0;
+		color: white;
+	}
+
+	h2 {
+		color: white;
+		font-size: 18px;
+		line-height: 1.6;
+	}
+}
+
+.section-company-description {
+	margin-top: 130px;
+	h3{
+		font-size: 22px;
+		
+	}
+
+	p {
+		max-width: 700px;
+		margin: 0 auto;
+		padding-top: 20px;
+		font-size: 18px;
+		text-align: center;
+	}
+}
+
+.section-jobs-opening {
+	margin-top: 70px;
+	margin-bottom: 100px;
+	a:hover, a:focus {
+		text-decoration: none;
+		font-decoration: none;
+		color: #2a2a36;
+		border-bottom: none;
+		cursor: pointer;
+		cursor: hand;
+	}
+	h3 {
+		position: relative;
+	}
+	
+	.icon-arrow {
+        background: url(../img/arrow_down.svg) center/contain no-repeat;
+        position: absolute;
+        width: 20px;
+        height: 100%;
+        right: 20px;
+        top: 2px;
+      }
+
+	.wrapper-text {
+		padding-top: 20px;
+		width: 60%;
+    	margin: 0 auto; 
+
+		p {
+			max-width: 700px;
+			padding-top: 20px;
+			font-size: 18px;
+		}
+	}
+}
+
+	
+
+
+
