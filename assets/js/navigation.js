@@ -10,7 +10,8 @@ $(document).ready(function() {
         //Fade In animation
         $(this.variables.navigationId).velocity("transition.fadeIn", 1000 );
 
-        this.showHeaderOnScroll();
+        //this.showHeaderOnScroll();
+        this.checkScroll();
 
         //Enquire.js This hides the list on hover in the mobile
         enquire.register("screen and (max-width: 992px)", {
@@ -167,8 +168,9 @@ $(document).ready(function() {
     },
 
     //Listen to scroll to change header opacity class
-    checkScroll: function() {
+    toggleScrolledClass: function() {
         var bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        
 
         if (bodyScrollTop !== 0) {
             $(this.variables.navigationId).addClass(this.variables.scrolledClass);
@@ -178,10 +180,12 @@ $(document).ready(function() {
         else {
             $(this.variables.navigationId).removeClass(this.variables.scrolledClass);
             $(this.variables.logoSelector).removeClass(this.variables.scrolledClass);
-        }
+        }      
+    },
 
-        if ($(this.variables.navigationId).length > 0) {
-            $(window).on("scroll load resize", _.bind(this.checkScroll, this)); 
+    checkScroll: function() {
+    if ($(this.variables.navigationId).length > 0) {
+            $(window).on("scroll load resize", _.bind(this.toggleScrolledClass, this)); 
         }
     },
 
@@ -216,11 +220,11 @@ $(document).ready(function() {
         var delta = 100;
         var navbarHeight = $(this.variables.navigationId).outerHeight();
         
-
+        //console.log(st + $(window).height())
+        //console.log($(document).height())
         // Make sure they scroll more than delta
         if(Math.abs(lastScrollTop - st) <= delta)
             return;
-console.log($(document).height());
         // If they scrolled down and are past the navbar, add class .nav-up.
         // This is necessary so you never see what is "behind" the navbar.
         if (st > lastScrollTop && st > navbarHeight){
@@ -228,7 +232,7 @@ console.log($(document).height());
             $(this.variables.navigationId).removeClass(this.variables.showNavigationClass).addClass(this.variables.hideNavigationClass);
         } else {
             // Scroll Up
-            if(st + $(window).height() < $(document).height()) {
+            if(st + $(window).height() > $(document).height()) {
                 $(this.variables.navigationId).removeClass(this.variables.hideNavigationClass).addClass(this.variables.showNavigationClass);
             }
         }

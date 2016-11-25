@@ -448,7 +448,20 @@ section#why-nextcloud {
           height: 0;
           width: 0;
           border: 8px solid transparent;
-          border-bottom-color: #FFFFFF; }
+          border-bottom-color: #f1f1f1; }
+        .nav .container .nav__bg-wrapper .nav__bg:after {
+          content: "";
+          position: absolute;
+          bottom: 100%;
+          left: 50%;
+          right: auto;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+          height: 0;
+          width: 0;
+          border: 6px solid transparent;
+          border-bottom-color: white; }
         .nav .container .nav__bg-wrapper .nav__bg.is-animatable {
           -webkit-transition: 0.3s;
           transition: 0.3s;
@@ -713,8 +726,11 @@ section#why-nextcloud {
       .nav.scrolled .navbar-toggle:not(.active) svg {
         filter: invert(100%); }
     .nav.scrolled .logo:not(.menu-open) {
-      background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain; }
-    .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons .nav__section .nav__label {
+      background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain;
+      height: 50px;
+      width: 71px;
+      display: inline-block; }
+    .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn a, .nav.scrolled .nav__sections-wrapper .right-buttons .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons .ghost-btn a {
       color: #555555; }
   .nav.mobile .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.mobile .nav__sections-wrapper .ghost-btn .nav__section .nav__label {
     color: white; }
