@@ -72,13 +72,44 @@
     opacity: 0; }
   .jumbotron .toptext {
     position: absolute;
-    /* 		margin-top: 50px; */
     top: 30vh;
     margin-left: 5%; }
     @media (max-width: 991px) {
       .jumbotron .toptext {
-        top: 120px;
-        /* 		  margin-top: 50px; */ } }
+        top: 120px; } }
+    .jumbotron .toptext .annoucement {
+      background-color: rgba(0, 115, 178, 0.51);
+      border-radius: 20px;
+      padding: 0 12px 0 5px;
+      text-decoration: none;
+      color: white;
+      line-height: 26px;
+      display: inline-flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .jumbotron .toptext .annoucement .type {
+        padding: 0 6px;
+        font-size: 11px;
+        line-height: 16px;
+        font-weight: 600;
+        background: #FF8B00;
+        text-transform: uppercase;
+        border-radius: 10px; }
+      .jumbotron .toptext .annoucement .message {
+        margin: 0 16px 0 6px;
+        font-size: 13px; }
+        .jumbotron .toptext .annoucement .message:after {
+          position: absolute;
+          display: inline-block;
+          content: ' ';
+          background-image: url("../img/next.svg");
+          background-size: 12px 12px;
+          height: 12px;
+          width: 12px;
+          top: 7px;
+          margin-left: 5px; }
 
 .jumbotron > .container-fluid > .col-md-6 > p > a {
   width: 290px;
