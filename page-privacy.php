@@ -15,7 +15,7 @@
 <div class="row">
     <div class="col-md-10 col-md-offset-1">
 <h2>Nextcloud Privacy Policy</h2>
-<p>This privacy policy has been compiled to better serve those who are concerned with how their \'Personally identifiable information\' (PII) is being used online. PII, as used in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.</p>
+<p>This privacy policy has been compiled to better serve those who are concerned with how their 'Personally identifiable information' (PII) is being used online. PII, as used in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.</p>
 <h3>What personal information do we collect from the people that visit our blog, website or app?</h3>
 <p>When registering or submitting a form on our site, as appropriate, you may be asked to enter your name, email address, phone number or other details to help you with your experience.</p>
 <h3>When do we collect information?</h3>
@@ -32,17 +32,17 @@
 <p>We use regular Malware Scanning.</p>
 <p>Your personal information is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems, and are required to keep the information confidential. In addition, all sensitive information you supply is encrypted via Secure Socket Layer (SSL) technology.</p>
 <p>We implement a variety of security measures when a user places an order enters, submits, or accesses their information to maintain the safety of your personal information.</p>
-<h3>Do we use \'cookies\'?</h3>
-<p>Yes. Cookies are small files that a site or its service provider transfers to your computer\'s hard drive through your Web browser (if you allow) that enables the site\'s or service provider\'s systems to recognize your browser and capture and remember certain information. For instance, we use cookies to help us remember and process the items in your shopping cart. They are also used to help us understand your preferences based on previous or current site activity, which enables us to provide you with improved services. We also use cookies to help us compile aggregate data about site traffic and site interaction so that we can offer better site experiences and tools in the future.</p>
+<h3>Do we use 'cookies'?</h3>
+<p>Yes. Cookies are small files that a site or its service provider transfers to your computer's hard drive through your Web browser (if you allow) that enables the site's or service provider's systems to recognize your browser and capture and remember certain information. For instance, we use cookies to help us remember and process the items in your shopping cart. They are also used to help us understand your preferences based on previous or current site activity, which enables us to provide you with improved services. We also use cookies to help us compile aggregate data about site traffic and site interaction so that we can offer better site experiences and tools in the future.</p>
 <p>We use cookies to:</p>
 <ul>
-<li>Understand and save user\'s preferences for future visits.</li>
+<li>Understand and save user's preferences for future visits.</li>
 <li>Compile aggregate data about site traffic and site interactions in order to offer better site experiences and tools in the future. We may also use trusted third-party services that track this information on our behalf.</li>
 </ul>
-<p>You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser (like Internet Explorer) settings. Each browser is a little different, so look at your browser\'s Help menu to learn the correct way to modify your cookies settings.</p>
+<p>You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser (like Internet Explorer) settings. Each browser is a little different, so look at your browser's Help menu to learn the correct way to modify your cookies settings.</p>
 <p>If you disable cookies, some minor features might be disabled.</p>
 <h3>Third-party disclosure</h3>
-<p>We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information unless we provide users with advance notice. This does not include website hosting partners and other parties who assist us in operating our website, conducting our business, or serving our users, so long as those parties agree to keep this information confidential. We may also release information when its release is appropriate to comply with the law, enforce our site policies, or protect ours or others\' rights, property or safety.<br />
+<p>We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information unless we provide users with advance notice. This does not include website hosting partners and other parties who assist us in operating our website, conducting our business, or serving our users, so long as those parties agree to keep this information confidential. We may also release information when its release is appropriate to comply with the law, enforce our site policies, or protect ours or others' rights, property or safety.<br />
 
 However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses.</p>
 <h3>Third-party links</h3>
@@ -50,7 +50,7 @@ However, non-personally identifiable visitor information may be provided to othe
 <h3>According to the California Online Privacy Protection Act (CalOPPA) we agree to the following:</h3>
 <p>Users can visit our site anonymously.</p>
 <p>Once this privacy policy is created, we will add a link to it on our home page or as a minimum on the first significant page after entering our website.</p>
-<p>Our Privacy Policy link includes the word \'Privacy\' and can be easily be found on the page specified above.</p>
+<p>Our Privacy Policy link includes the word 'Privacy' and can be easily be found on the page specified above.</p>
 <p>Users will be notified of any privacy policy changes on our Privacy Policy Page.</p>
 <p>Users are able to change their personal information:</p>
 <ul>
