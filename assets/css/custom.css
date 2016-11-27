@@ -726,10 +726,19 @@ section#why-nextcloud {
       .nav.scrolled .navbar-toggle:not(.active) svg {
         filter: invert(100%); }
     .nav.scrolled .logo:not(.menu-open) {
-      background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain;
-      height: 50px;
-      width: 71px;
-      display: inline-block; }
+      background: url(../img/logo/logo_sprite.png) 0 0 no-repeat;
+      height: 64px;
+      width: 96px;
+      display: inline-block;
+      transform: scale(0.7, 0.7);
+      background-position-x: -3168px; }
+      .nav.scrolled .logo:not(.menu-open).hoverPlay {
+        background-position-x: 0;
+        -webkit-animation: play 2s steps(33) forwards;
+        -moz-animation: play 2s steps(33) forwards;
+        -ms-animation: play 2s steps(33) forwards;
+        -o-animation: play 2s steps(33) forwards;
+        animation: play 2s steps(33) forwards; }
     .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn a, .nav.scrolled .nav__sections-wrapper .right-buttons .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons .ghost-btn a {
       color: #555555; }
   .nav.mobile .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.mobile .nav__sections-wrapper .ghost-btn .nav__section .nav__label {
@@ -782,6 +791,11 @@ section#why-nextcloud {
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none; } }
+@keyframes play {
+  from {
+    background-position-x: 0px; }
+  to {
+    background-position-x: -3168px; } }
 /**
  * Footer
  */
@@ -846,12 +860,9 @@ footer.page-footer {
       color: #ffffff;
       width: 140px; } }
 /* Make Navbar transparent */
-.navbar:not(.scrolled) {
-  background-color: transparent; }
-
-.navbar:not(.scrolled) .btn-primary {
-  background-color: transparent !important;
-  border-color: white; }
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
 
 .background {
   background: url("../img/jobs/team.jpg") no-repeat;
@@ -917,12 +928,9 @@ footer.page-footer {
       font-size: 18px; }
 
 /* Make Navbar transparent */
-.navbar:not(.scrolled) {
-  background-color: transparent; }
-
-.navbar:not(.scrolled) .btn-primary {
-  background-color: transparent !important;
-  border-color: white; }
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
 
 .section-top-jumbotron {
   height: 531px;

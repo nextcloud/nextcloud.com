@@ -13,6 +13,8 @@ $(document).ready(function() {
         //this.showHeaderOnScroll();
         this.checkScroll();
 
+        this.animatedLogoSprite();
+
         //Enquire.js This hides the list on hover in the mobile
         enquire.register("screen and (max-width: 992px)", {
             match: _.bind(this.mobileEvent, this) 
@@ -43,7 +45,8 @@ $(document).ready(function() {
         mobileBackgroundSelector: ".mobile-bg",
         mobileMenuClass: "menu-open",
         showNavigationClass:"nav-down",
-        hideNavigationClass: "nav-up"
+        hideNavigationClass: "nav-up",
+        playOnHoverClass: "hoverPlay",
     },
 
     toggleMobileMenu: function(event) {
@@ -240,6 +243,20 @@ $(document).ready(function() {
         lastScrollTop = st;
 
     },
+
+    animatedLogoSprite: function() {
+        $(this.variables.logoSelector).on("mouseover", _.bind(this.hoverLogo, this));
+
+    },
+
+    hoverLogo: function () {
+        $(this.variables.logoSelector).addClass(this.variables.playOnHoverClass);
+        setTimeout(_.bind(this.stopLogoAnimation, this), 2000);
+    },
+
+    stopLogoAnimation: function() {
+        $(this.variables.logoSelector).removeClass(this.variables.playOnHoverClass);
+    }
 }
     HeaderApp.init();
 });

@@ -16,6 +16,8 @@
 
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.waypoints.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery-ui.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/spriteControl.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/enquire.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/bodymovin.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/underscore.js"></script>

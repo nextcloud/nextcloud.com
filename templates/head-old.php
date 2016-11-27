@@ -22,18 +22,18 @@
 
 
 	<!-- New JS -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.waypoints.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/enquire.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/underscore.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/bodymovin.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/TweenMax.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/ScrollMagic.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/animation.gsap.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/debug.addIndicators.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/bootstrap.js"></script>
-	<script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
-	<script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.ui.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/velocity.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/velocity.ui.min.js"></script>
 
 	<!-- Old styles below -->
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/old/main.min.css" />
