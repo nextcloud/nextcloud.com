@@ -89,6 +89,7 @@
 		.wrapper-text {
 			max-width: 550px;
 			color:white;
+			z-index: 50;
 			@include vertical-center;
 			h2 {
 				color: white;
