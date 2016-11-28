@@ -63,6 +63,7 @@
   .section-getbox .container .wrapper-text {
     max-width: 550px;
     color: white;
+    z-index: 50;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%); }
@@ -270,5 +271,3 @@
         .section-partners .container .wrapper-images .logo-ubuntu {
           width: 121px;
           height: 30px; } }
-
-/*# sourceMappingURL=box.css.map */
