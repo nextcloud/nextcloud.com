@@ -54,7 +54,7 @@ $(window).load(function() {
             imageFeatures.css("bottom", (parseFloat(imageFeatures.css('bottom')) + 318) + 'px');
             const $sceneId = $trigger.attr('id');
 	    // Assumes that we find an indicator with the appropriate class *fingers crossed*
-	    const $indicator = $('a[href="#' + $sceneId + '"]');
+	    const $indicator = $('a[href="#' + $sceneId + '"]').parent();
 	    $indicator.addClass('active');
         })
         
@@ -62,7 +62,7 @@ $(window).load(function() {
             imageFeatures.css("bottom", (parseFloat(imageFeatures.css('bottom')) - 318) + 'px');
             const $sceneId = $trigger.attr('id');
 	    // Assumes that we find an indicator with the appropriate class *fingers crossed*
-	    const $indicator = $('a[href="#' + $sceneId + '"]');
+	    const $indicator = $('a[href="#' + $sceneId + '"]').parent();
 	    $indicator.removeClass('active');
         })
         .addIndicators({
