@@ -11,14 +11,14 @@ process easy and effective for everyone involved.
 2. Setup the repository
   1. Clone the www repo in a folder of your choice
     * `git clone git@github.com:nextcloud/nextcloud.com next`
-  2. In the wordpress installation in the wp-content/themes folder, create a link to the folder you just cloned our www repo in under the name 'next'
-3. Activate the theme in Appearance > Themes
-4. Import the website content.xml file
-  * First install the Wordpress Import Plugin (via Tools > Import > Wordpress Import > Install Plugin)
-  * Select the content.xml file from the www repo and click upload
+  2. In the wordpress installation in the `wp-content/themes` folder, create a link to the folder you just cloned our www repo in under the name 'next'
+3. Activate the theme in `Appearance > Themes`
+4. Import the website `content.xml` file
+  * First install the Wordpress Import Plugin (via `Tools > Import > Wordpress Import` > `Install Plugin`)
+  * Select the `content.xml` file from the www repo and click upload
   * Select Import
-5. Copy over config.php.sample to config.php and adjust settings as necessary (defaults will work just fine for local environments)
-6. In Settings > Reading assign a static front page of 'homepage'
+5. Copy over `config.php.sample` to `config.php` and adjust settings as necessary (defaults will work just fine for local environments)
+6. In `Settings > Reading` assign a static front page of 'homepage'
 
 ## Development Process
 
