@@ -137,14 +137,15 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 	$html .= ob_get_contents() . '>';
 	ob_end_clean();
 
-	ob_clean();
-	ob_start();
-	get_template_part('templates/header-top-navbar');
-	$html .= ob_get_contents();
-	ob_end_clean();
-
 	// The basic translation for the files
 	$l = new L10N(get_post()->post_name);
+
+	ob_clean();
+	ob_start();
+// 	get_template_part('templates/header-top-navbar');   -> this didn't work
+	require get_template_directory() . '/templates/header-top-navbar.php';
+	$html .= ob_get_contents();
+	ob_end_clean();
 
 	if ($oldPage === true) {
 		$html .= '<div class="wrap container" role="document"><div class="content row">';
@@ -193,6 +194,7 @@ if(isset($language[1]) && $language[1] === 'de') {
 		$l10nFiles = [
 			get_post()->post_name,
 			'header-navbar',
+			'header-top-navbar',
 			'footer',
 		];
 		$storeToCache = true;
