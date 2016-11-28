@@ -29,7 +29,6 @@
 	</script>
 
 	<?php wp_head(); ?>
-<!-- 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>  -->
 	<!-- New JS -->
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.waypoints.min.js"></script>
