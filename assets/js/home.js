@@ -41,6 +41,7 @@ $(window).load(function() {
 
     $(".textTrigger").each(function() {
 
+	const $trigger = $(this);
         var imageFeatures = $(".image-top");  
 
         var animateImage = new ScrollMagic.Scene ({
@@ -51,10 +52,18 @@ $(window).load(function() {
 
         .on("enter", function () {
             imageFeatures.css("bottom", (parseFloat(imageFeatures.css('bottom')) + 318) + 'px');
+            const $sceneId = $trigger.attr('id');
+	    // Assumes that we find an indicator with the appropriate class *fingers crossed*
+	    const $indicator = $('a[href="#' + $sceneId + '"]');
+	    $indicator.addClass('active');
         })
         
         .on("leave", function() {
             imageFeatures.css("bottom", (parseFloat(imageFeatures.css('bottom')) - 318) + 'px');
+            const $sceneId = $trigger.attr('id');
+	    // Assumes that we find an indicator with the appropriate class *fingers crossed*
+	    const $indicator = $('a[href="#' + $sceneId + '"]');
+	    $indicator.removeClass('active');
         })
         .addIndicators({
                 colorTrigger:"red"
