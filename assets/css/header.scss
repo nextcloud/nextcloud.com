@@ -1,347 +1,543 @@
 @import "variables.scss";
 
-.Header-Navigation{
-    .navbar {
-        top: 0;
-        border-width: 0 0 1px;
-        background-color: $nextcloud-blue;
-        height: 100px;
-        transition: all .2s ease-in;
-        z-index: 5;
-        padding-top: 24px;
-        font-size: 16px;
+.nav {
+    z-index: 1;
+    padding-top: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background: $nextcloud-blue;
+    position: relative;
 
-        @media (min-width: $navbar-breaksize) {
+    .container {
+        position: relative;
 
-            li.active {
-				a {
-                border-bottom: 3px solid $white;
-				padding-bottom: 15px;
-				}
+        .nav__bg-wrapper {
+            -webkit-transition: 0.3s;
+            transition: 0.3s;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            visibility: hidden;
+            transition: 0.3s;
+            will-change: opacity;
+            z-index: -2;
+            top: 50px;    	    
+                
+            &.is-visible {
+                visibility: visible;
+                opacity: 1;		    
             }
 
-            li {
-                &:last-child {
-                    padding-left: 30px;
-                    padding-right: 30px;
-					
-					&:hover {
-					/* we can set a hover effect for the install button here */
-					}
+            .nav__bg {
+                width: 300px;
+                height: 200px;
+                background: white;
+                box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.11);
+                border: solid 1px #f1f1f1;
+                border-radius: 4px;
+                -webkit-transform-origin: left top;
+                transform-origin: left top;
+                will-change: transform;
+        		visibility: hidden;
+        		position: absolute;
+        		z-index: 1;
+        		top: 100%;
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    bottom: 100%;
+                    left: 50%;
+                    right: auto;
+                    -webkit-transform: translateX(-50%);
+                    -ms-transform: translateX(-50%);
+                    transform: translateX(-50%);
+                    height: 0;
+                    width: 0;
+                    border: 8px solid transparent;
+                    border-bottom-color: #f1f1f1;
                 }
                 
-                a {
-                    color: white;
-					
-					&:after {
-					content: '';
-					display: block;
-					margin: auto;
-					height: 2px;
-					width: 0px;
-					background: transparent;
-					transition: width .2s ease-out, background-color .5s ease;
-						
-						&:last-child {
-							margin-top: 0;
-					   }
-					
-					}
-                   /* hover effect for menu items: underline */
-                    &:hover {
-						text-decoration: none;
-						padding-bottom: 15px; 
-						border-bottom: 3px solid $white;
-					}
+                &:after {
+                    content: "";
+                    position: absolute;
+                    bottom: 100%;
+                    left: 50%;
+                    right: auto;
+                    -webkit-transform: translateX(-50%);
+                    -ms-transform: translateX(-50%);
+                    transform: translateX(-50%);
+                    height: 0;
+                    width: 0;
+                    border: 6px solid transparent;
+                    border-bottom-color: white;
+                }
+
+                &.is-animatable {
+                    -webkit-transition: 0.3s;
+                    transition: 0.3s;
+            		visibility: visible;
                 }
             }
+         }   
 
-            @media (max-width: $navbar-breaksize) {
-                a {
-                    color: #75badd;
-                    .active {
-                        color: $white;
+        .navbar-toggle {
+            display: none;
+        }
+
+        .brand {
+            z-index: 3;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            .logo:not(.scrolled) {
+                background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
+                height: 100px;
+                width: 140px;
+                display: inline-block;
+                zoom: 0.5;
+
+                &.hoverPlay {
+                    background-position-x: 0;
+                    -webkit-animation: play 2s steps(33) forwards;
+                    -moz-animation: play 2s steps(33) forwards;
+                    -ms-animation: play 2s steps(33) forwards;
+                    -o-animation: play 2s steps(33) forwards;
+                    animation: play 2s steps(33) forwards;
+                }
+
+                &.stopedAnimation {
+                    background-position-x: -4620px;
+                }
+            }    
+        }
+        .nav__sections {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            list-style-type: none;
+    	    position: absolute;
+    	    z-index: -1;	    
+    	    left: 20%;	    
+    	    top: 0%;
+        
+            .nav__section {
+                padding: 15px 0 15px 0;
+                position: relative;
+                
+                &:hover {
+                    .nav__label {
+                        opacity: 0.6;
+                        cursor: default;
+                        text-decoration: none;
+                    }
+
+                    .nav__links {
+                        visibility: visible;
+                        opacity: 1;
+                        position: absolute;
+                        left:50%;
+                        transform:translateX(-50%);
                     }
                 }
-            }
 
-            .navbar-header {
-                float: none;
-
-                .logo {
-                    background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
-                    height: 50px;
-                    width: 71px;
+                .nav__label {
                     display: inline-block;
+                    padding-left: 30px;
+                    padding-bottom: 5px;
+                    color: white;
+                    -webkit-transition: 0.3s;
+                    transition: 0.3s;
+                    font-size: 16px;
                 }
-            }
 
-            .btn-primary {
-                background-color: $nextcloud-blue;
-                border: 1px solid transparent;
-                border-radius: 100px;
-                font-size: 16px;
-                height: inherit;
-
-                &:before{
+                .nav__links {
+                    position: absolute;
+                    padding: 20px 20px 20px 35px;
                     visibility: hidden;
-                }
+                    opacity: 0;
+                    list-style-type: none;
+                    transition: opacity 0.3s ease;
+                    transition-delay: 0.1s;
 
-                @media (max-width: 1200px) {
-                    position: fixed;
-                    bottom: 0;
-                    margin-left: -5%;
-                    width: 105%;
-                    border-radius: 0;
-                    border: 0;
-                    height: 75px;
-                    font-size: 20px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    background-color: transparent;
+                    .nav__item {
+                        color: #666;
+                        margin-top: 5px;
+                        white-space: nowrap;
+                        margin-left: 10px;
 
-                    a {
-                        color: $white;
+                        a {
+                            font-size: 16px;
+                            color: $medium-grey;
+
+                            &:hover {
+                                opacity: 0.6;
+                                text-decoration: none;
+                            }
+                        }
+
+                        &:not(:last-of-type) {
+                            margin-bottom: 0.625em;
+                        }
                     }
-                }
+                }        
             }
-        }
-
-        .active {
-            font-weight: 600;
-            z-index: 3;
-        }
-
-		.overlay{
-			display: inline-block;
-			float: right !important;
-
-			.overlay-menu {
-				ul{
-					float: right !important;
-					padding-left: 0;
-					margin-bottom: 0;
-					list-style: none;
-					margin-right: -15px;
-					margin-bottom: 0;
-
-
-					li{
-						margin: 0 0 0 10px;
-						padding: 10px 15px;
-						position: relative;
-						display: table-cell;
-						vertical-align: middle;
-
-						&:last-child {
-							padding-left: 30px;
-							padding-right: 30px;
-						}
-						
-					}
-
-					.btn-primary{
-						padding: 5px 5px;
-						a{
-							position: relative;
-							display: block;
-							padding: 10px 15px;
-							border-radius: 100px;
-
-							&:hover {
-							text-decoration: none;
-							border-bottom: none;
-							}
-						}
-					}
-				}
-			}
-		}
-
-    }
-}
-
-
-/**
-*Break Menu at 1200px
-*/
-
-
-.navbar  {
-    .container-fluid{
-        margin-left: 5%;
-        margin-right: 5%;
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-
-        button {
-            color: white;
-            background-color: white;
-            border-radius: 50px;
-            width: 50px;
-            height: 50px;
-            margin-top: 0;
-            z-index: 3;
-
-            .icon-bar {
-                background-color: $dark-blue;
-                width: 100%;
-            }
-        }
-    }
-}
-
-.navbar-nav {
-    li {
-        @media (min-width: $break-small) {
-            margin: 0 0 0 10px;
-        }
-        a:hover {
-            background: none !important;
-        }
-        @media (min-width: $navbar-breaksize) {
-            a:hover {
-                color: white;
-            }
-        }
-    }
-    @media (min-width: $navbar-breaksize) {
-        li:before {
-            display: inline-block;
-            position: relative;
-            padding-bottom: 1px;
-        }
-        li:after {
-            content: '';
-            display: block;
-            margin: auto;
-            height: 3px;
-            width: 0;
-            background: transparent;
-            transition: width .2s ease, background-color .2s ease;
-        }
-        li:not(.btn-primary):not(.active):hover:before {
-            width: 100%;
-            background: white;
-            transition: width .2s ease-in;
-        }
-        li:not(.btn-primary):not(.active):hover:after {
-            width: 100%;
-            background: white;
-        }
-    }
-}
-
-/**
- * Scrolled navbar style
- */
-.navbar.scrolled:not(.mobile-menu-open) {
-    transition: all .2s ease-in;
-    background: white;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09);
-    @media (max-height:800px) {
-        //        display: none;
-    }
-    a {
-        color: #656565 !important;
-		&:hover {
-			text-decoration: none;
-			padding-bottom: 15px; 
-			border-bottom: 3px solid #656565;
-		}
-    }
-    .navbar-nav li:not(.btn-primary):not(.active):hover:before {
-        width: 100%;
-        background: #656565;
-        transition: width .2s ease-in;
-    }
-    .navbar-nav li:not(.btn-primary):not(.active):hover:after {
-        width: 100%;
-        background: #656565;
-    }
-    @media (min-width: $navbar-breaksize) {
-        .active {
-			a {
-				border-bottom: 3px solid #656565;
-			}
         }
         
-    }
-    .btn-primary a {
-        color: white !important;
-    }
+        .right-buttons {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-top: 15px;
 
-    .navbar-collapse {
-        @media (max-width: $navbar-breaksize) {
-            background-color: $white;
-            margin-left: -6% !important;
+            .ghost-btn {
+                text-align: center;
+                position: relative;
+                display: inline-block;
+                
+                a {
+                    -webkit-transition: 0.3s;
+                    transition: 0.3s;
+                    position: relative;
+
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 2px;
+                        bottom: 0;
+                        left: 0;
+                        background-color: white;
+                        visibility: hidden;
+                        -webkit-transform: scaleX(0);
+                        transform: scaleX(0);
+                        -webkit-transition: all 0.2s ease-in-out 0s;
+                        transition: all 0.2s ease-in-out 0s;
+                    }
+                }
+        
+                 &:hover {
+
+                    a {
+                        text-decoration: none;
+
+                        &:before {
+                            visibility: visible;
+                            -webkit-transform: scaleX(1);
+                            transform: scaleX(1);
+                        }
+                    }
+                 }
+            }
+
+            li {
+                display: inline-block;
+                padding-left: 30px;
+                padding-bottom: 5px;
+                font-size: 16px;
+
+                a {
+                    color: white;
+                }
+            }
         }
-    }
-    .logo {
-        background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain !important;
-    }
-    .container-fluid button{
-        background: $nextcloud-blue;
-
-        .icon-bar {
-            background-color: white;
-        }
-    }
-
-    svg {
-        filter: invert(100%);
     }
 }
 
 
+//Navigation breaked
+
+@media (max-width: 992px) {
+    .nav { 
+        .container {
+            .brand {
+                padding-left: 15px;
+
+                .logo {
+                    height: 53px;
+                    width: 71px;
+                    
+                    &.menu-open {
+                        background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+                    }
+                }
+            }
+
+            .mobile-bg {
+                position: fixed;
+                background: #0082c9;
+                padding-top: 25px;
+                z-index: 2;
+                top: 0;
+                right: 0;
+                width: 0;
+                height: 0;
+                visibility: hidden;
+                overflow: hidden;
+                border-bottom-left-radius: 100%;
+                transition: all 0.6s ease;
+            }
+
+            .active {
+                opacity: 1;
+                visibility: visible;
+                width: 150%;
+                height: 150%;
+            }
+
+            .navbar-toggle {
+                color: white;
+                background-color: white;
+                border-radius: 50px;
+                width: 50px;
+                height: 50px;
+                margin-top: 0;
+                z-index: 3;
+                display: block;
+                margin-right: 0;
+
+                &:hover {
+                    transform: scale(1.1);
+                    transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
+                    transition-property: transform;
+                    transition-duration: 0.3s;
+                    transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
+                    transition-delay: initial;
+                }
+            }
+
+            .nav__sections-wrapper {
+                //text-align: center;
+                margin: 0 auto;
+                display: inline-block;
+                position: fixed;
+                top: 90px;
+                margin-left: 60px;
+                //top: 50%;
+                //left: 50%;
+                //-webkit-transform: translate(-50%, -50%);
+                //transform: translate(-50%, -50%);
+                z-index: 2;
+                padding: 0;
+
+                .nav__sections {
+                    display: none;
+                    position: relative;
+                    left: 0;
+                    padding: 0;
+
+                    .nav__section {
+                        display: block;
+                        height: calc(100% / 7);
+                        min-height: 50px;
+                        opacity: 1;
+                        margin: 0;
+                        opacity: 0;
+                        color: white;
+                        padding: 0;
+
+                        &:last-child{
+                            font-weight: 500;
+                        }
+
+                        a {
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+
+                    &.active {
+                        display: block;
+                        color: white;
+                        margin: 0;
+
+                            .nav__section {
+                                animation: fadeInRight .5s ease forwards;
+                                animation-delay: .35s;
+
+                                .nav__label {
+                                    font-size: 35px;
+                                    line-height: 45px;
+                                    padding-left: 0;
+                                    letter-spacing: -2px;
+                                    font-weight: 600;
+                                }
+
+                                &:nth-of-type(2) {
+                                    animation-delay: .4s;
+                                }
+                                &:nth-of-type(3) {
+                                    animation-delay: .45s;
+                                }
+                                &:nth-of-type(4) {
+                                    animation-delay: .50s;
+                                }
+                                &:nth-of-type(5) {
+                                    animation-delay: .55s;
+                                }
+                                &:nth-of-type(6) {
+                                    animation-delay: .60s;
+                                }
+                                &:nth-of-type(7) {
+                                    animation-delay: .65s;
+                                }
+                                &:nth-of-type(8) {
+                                    animation-delay: .70s;
+                                }
+                            
+                            .nav__links {
+                                display: none;
+                                position: relative;
+                                padding: 0;
+                                width: 100%;
+                                padding: 0 10px 0 20px;
+                                
+                                .nav__item {
+                                    margin-left: 0;
+
+                                    a {
+                                        font-size: 26px;
+                                        line-height: 39px;
+                                        color: white;
+                                        margin-left: 0;
+                                        font-weight: 100;
+                                        letter-spacing: -2px
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                .right-buttons {
+                    position: relative;
+                    padding: 0;
+                    margin: 0;
+                    opacity: 0;
+                    transition: all 0.3s;
+
+                    &.active {
+                        opacity: 1;
+                        transition-delay: .65s;
+                    }
+
+                    .ghost-btn {
+                        font-size: 35px;
+                        line-height: 45px;
+                        padding-left: 0;
+                        letter-spacing: -2px;
+                        font-weight: 600;
+                        display: block;
+                        text-align: left;
+                        padding-left:0;
+                        height: calc(100% / 7);
+                        animation: fadeInRight .5s ease forwards;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        left: 20%;
+    }
+    100% {
+        opacity: 1;
+        left: 0;
+    }
+}
+
+//Hide and show navigation 
+@media (max-height:800px) {
+     .nav-down {
+         opacity: 1;
+         transition: all .2s ease-in-out ;
+     }
+
+     .nav-up {
+         top: -100px !important;
+         opacity: 0;
+         transition: all .2s ease-in-out ;
+     }
+}
+
 /**
- * Collapsed navbar
- */
-.navbar-collapse {
-    @media (max-width: 1200px) {
-        padding-left: 0;
-        padding-right: 0;
-        width: calc(100vw + 1%);
-        min-height: 100vh;
-        background-color: $nextcloud-blue;
-        margin-left: -6% !important;
-        box-shadow: none;
+* Scrolled navbar style
+*/
+
+.nav {
+    padding-bottom: 70px;
+
+    @media (max-width: 992px) {
+        padding-bottom: 20px; 
+    } 
+
+    &.scrolled {
+        position: fixed;
         transition: all .2s ease-in;
+        background: white;
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09);
 
-        ul {
-            margin-right: 5%;
-            margin-left: 5%;
-            text-align: center;
-            min-height: 540px;
+        .navbar-toggle:not(.active) {
+            background-color:$nextcloud_blue;
 
-            li {
-                padding-top: 3vh;
-                font-size: 35px;
+            svg {
+                filter: invert(100%);
+            }
+        }
+
+        .logo:not(.menu-open) {
+            background: url(../img/logo/logo_blue_sprite.png) 0 0 no-repeat;
+            height: 100px;
+            width: 140px;
+            display: inline-block;
+            zoom: 0.5;
+
+
+            &.hoverPlay {
+                background-position-x: 0;
+                -webkit-animation: play 2s steps(33) forwards;
+                -moz-animation: play 2s steps(33) forwards;
+                -ms-animation: play 2s steps(33) forwards;
+                -o-animation: play 2s steps(33) forwards;
+                animation: play 2s steps(33) forwards;
+            }
+
+            &.stopedAnimation {
+                background-position-x: -4620px;
+            }
+        }
+
+        .nav__sections-wrapper {
+            .nav__sections, .right-buttons {                
+                .nav__section .nav__label, .ghost-btn a {
+                    color: $medium-grey;
+                }
             }
         }
     }
 
-}
-
-.navbar-toggle.collapsed {
-    .top-bar {
-        transform: rotate(0deg);
-    }
-
-    .middle-bar {
-        opacity: 1;
-    }
-
-    .bottom-bar {
-        transform: rotate(0deg);
+    &.mobile {
+        .nav__sections-wrapper {
+            .nav__sections, .ghost-btn {               
+                .nav__section .nav__label {
+                    color: white;
+                }
+            }
+        }
     }
 }
-
-.navbar-collapse {
-    display: none !important;
-}
-
 
 /**
 *Changed default media querys for navigation in bootstrap
@@ -393,159 +589,7 @@
     }
 }
 
-/**
-*Mobile
-*/
-@media (max-width: 1200px) {
-    .Header-Navigation{
-
-        .navbar{
-
-            .container-fluid{
-
-                .navbar-header{
-                    margin-left: 0;
-
-                    .logo{
-                        z-index: 5;
-                        position: relative;
-                        background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
-                        height: 50px;
-                        width: 71px;
-                        display: inline-block;
-                    }
-
-                    button{
-                        &:hover {
-                            transform: scale(1.1);
-                            transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
-                            transition-property: transform;
-                            transition-duration: 0.3s;
-                            transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
-                            transition-delay: initial;
-                        }
-                    }
-
-                    .overlay {
-                        position: fixed;
-                        background: $nextcloud-blue;
-                        padding-top: 25px;
-                        z-index: 2;
-                        top: 0;
-                        right: 0;
-                        width: 0;
-                        height: 0;
-                        visibility: hidden;
-                        overflow: hidden;
-                        border-bottom-left-radius: 100%;
-                        transition: all 0.6s ease;
-
-                        .btn-primary {
-
-                            &:before {
-                                visibility: hidden;
-                            }
-                        }
-
-                        li {
-                            display: block;
-                            height: 25%;
-                            height: calc(100% / 4);
-                            min-height: 50px;
-                            position: relative;
-                            opacity: 1;
-                            margin: 0;
-                            opacity: 0;
-                            color: white;
-
-                            &:last-child{
-                                font-weight: 500;
-                            }
-
-                            a {
-                                color: white;
-                                text-decoration: none;
-                            }
-                        }
-
-                        &.open {
-                            opacity: 1;
-                            visibility: visible;
-                            width: 150%;
-                            height: 150%;
-
-                            ul {
-                                list-style: none;
-                                display: inline-block;
-                                font-size: 26px;
-                                color: white;
-                                text-align: center;
-                                margin: 0 auto;
-                                display: inline-block;
-                                position: fixed;
-                                top: 50%;
-                                left: 50%;
-                                -webkit-transform: translate(-50%, -50%);
-                                transform: translate(-50%, -50%);
-
-                                li {
-                                    font-size: 25px;
-                                    padding-top: 2vh;
-                                    animation: fadeInRight .5s ease forwards;
-                                    animation-delay: .35s;
-
-                                    &:nth-of-type(2) {
-                                        animation-delay: .4s;
-                                    }
-                                    &:nth-of-type(3) {
-                                        animation-delay: .45s;
-                                    }
-                                    &:nth-of-type(4) {
-                                        animation-delay: .50s;
-                                    }
-                                    &:nth-of-type(5) {
-                                        animation-delay: .55s;
-                                    }
-                                    &:nth-of-type(6) {
-                                        animation-delay: .60s;
-                                    }
-                                    &:nth-of-type(7) {
-                                        animation-delay: .65s;
-                                    }
-                                    &:nth-of-type(8) {
-                                        animation-delay: .70s;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-@keyframes fadeInRight {
-    0% {
-        opacity: 0;
-        left: 20%;
-    }
-    100% {
-        opacity: 1;
-        left: 0;
-    }
-}
-
-@media (max-height:800px) {
-    .nav-down {
-        opacity: 1;
-        transition: all .2s ease-in-out ;
-    }
-
-    .nav-up {
-        top: -100px !important;
-        opacity: 0;
-        transition: all .2s ease-in-out ;
-    }
+@keyframes play {
+   from { background-position-x:    0px; }
+     to { background-position-x: -4620px; }
 }
