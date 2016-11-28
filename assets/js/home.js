@@ -55,15 +55,13 @@ $(window).load(function() {
             const $sceneId = $trigger.attr('id');
 	    // Assumes that we find an indicator with the appropriate class *fingers crossed*
 	    const $indicator = $('a[href="#' + $sceneId + '"]').parent();
+	    const $active = $('.btn_carousel.active');
+	    $active.removeClass('active');
 	    $indicator.addClass('active');
         })
         
         .on("leave", function() {
             imageFeatures.css("bottom", (parseFloat(imageFeatures.css('bottom')) - 318) + 'px');
-            const $sceneId = $trigger.attr('id');
-	    // Assumes that we find an indicator with the appropriate class *fingers crossed*
-	    const $indicator = $('a[href="#' + $sceneId + '"]').parent();
-	    $indicator.removeClass('active');
         })
         .addIndicators({
                 colorTrigger:"red"
