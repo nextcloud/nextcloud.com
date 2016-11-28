@@ -474,10 +474,20 @@ section#why-nextcloud {
       top: 0;
       left: 0; }
       .nav .container .brand .logo:not(.scrolled) {
-        background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
-        height: 50px;
-        width: 71px;
-        display: inline-block; }
+        background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
+        height: 100px;
+        width: 140px;
+        display: inline-block;
+        zoom: 0.5; }
+        .nav .container .brand .logo:not(.scrolled).hoverPlay {
+          background-position-x: 0;
+          -webkit-animation: play 2s steps(33) forwards;
+          -moz-animation: play 2s steps(33) forwards;
+          -ms-animation: play 2s steps(33) forwards;
+          -o-animation: play 2s steps(33) forwards;
+          animation: play 2s steps(33) forwards; }
+        .nav .container .brand .logo:not(.scrolled).stopedAnimation {
+          background-position-x: -4620px; }
     .nav .container .nav__sections {
       display: -webkit-box;
       display: -webkit-flex;
@@ -544,14 +554,28 @@ section#why-nextcloud {
         position: relative;
         display: inline-block; }
         .nav .container .right-buttons .ghost-btn a {
-          padding-right: 10px;
           -webkit-transition: 0.3s;
           transition: 0.3s;
           position: relative; }
-        .nav .container .right-buttons .ghost-btn:hover {
-          opacity: 0.6; }
-          .nav .container .right-buttons .ghost-btn:hover a {
-            text-decoration: none; }
+          .nav .container .right-buttons .ghost-btn a:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: white;
+            visibility: hidden;
+            -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+            -webkit-transition: all 0.2s ease-in-out 0s;
+            transition: all 0.2s ease-in-out 0s; }
+        .nav .container .right-buttons .ghost-btn:hover a {
+          text-decoration: none; }
+          .nav .container .right-buttons .ghost-btn:hover a:before {
+            visibility: visible;
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1); }
       .nav .container .right-buttons li {
         display: inline-block;
         padding-left: 30px;
@@ -726,12 +750,11 @@ section#why-nextcloud {
       .nav.scrolled .navbar-toggle:not(.active) svg {
         filter: invert(100%); }
     .nav.scrolled .logo:not(.menu-open) {
-      background: url(../img/logo/logo_sprite.png) 0 0 no-repeat;
-      height: 64px;
-      width: 96px;
+      background: url(../img/logo/logo_blue_sprite.png) 0 0 no-repeat;
+      height: 100px;
+      width: 140px;
       display: inline-block;
-      transform: scale(0.7, 0.7);
-      background-position-x: -3168px; }
+      zoom: 0.5; }
       .nav.scrolled .logo:not(.menu-open).hoverPlay {
         background-position-x: 0;
         -webkit-animation: play 2s steps(33) forwards;
@@ -739,6 +762,8 @@ section#why-nextcloud {
         -ms-animation: play 2s steps(33) forwards;
         -o-animation: play 2s steps(33) forwards;
         animation: play 2s steps(33) forwards; }
+      .nav.scrolled .logo:not(.menu-open).stopedAnimation {
+        background-position-x: -4620px; }
     .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn a, .nav.scrolled .nav__sections-wrapper .right-buttons .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons .ghost-btn a {
       color: #555555; }
   .nav.mobile .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.mobile .nav__sections-wrapper .ghost-btn .nav__section .nav__label {
@@ -795,7 +820,7 @@ section#why-nextcloud {
   from {
     background-position-x: 0px; }
   to {
-    background-position-x: -3168px; } }
+    background-position-x: -4620px; } }
 /**
  * Footer
  */

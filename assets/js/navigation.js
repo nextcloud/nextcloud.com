@@ -47,6 +47,7 @@ $(document).ready(function() {
         showNavigationClass:"nav-down",
         hideNavigationClass: "nav-up",
         playOnHoverClass: "hoverPlay",
+        stopAnimationClass: "stopedAnimation"
     },
 
     toggleMobileMenu: function(event) {
@@ -245,17 +246,19 @@ $(document).ready(function() {
     },
 
     animatedLogoSprite: function() {
+        this.hoverLogo();
         $(this.variables.logoSelector).on("mouseover", _.bind(this.hoverLogo, this));
-
     },
 
     hoverLogo: function () {
+        $(this.variables.logoSelector).removeClass(this.variables.stopAnimationClass);
         $(this.variables.logoSelector).addClass(this.variables.playOnHoverClass);
         setTimeout(_.bind(this.stopLogoAnimation, this), 2000);
     },
 
     stopLogoAnimation: function() {
         $(this.variables.logoSelector).removeClass(this.variables.playOnHoverClass);
+        $(this.variables.logoSelector).addClass(this.variables.stopAnimationClass);
     }
 }
     HeaderApp.init();
