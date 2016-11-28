@@ -1,3 +1,8 @@
+<?php
+
+$l = new L10N('header-navbar');
+
+?>
 <nav class="nav" id="nav">
 	<div class="container">
 		<div class="nav__bg-wrapper">
