@@ -14,14 +14,6 @@
 		<div class="mobile-bg"></div>
 			<div class="nav__sections-wrapper">
 			<ul class="nav__sections">
-				<li class="nav__section"><a class="nav__label"><?php echo $l->t('About');?></a>
-					<ul class="nav__links">
-						<li class="nav__item"><a href="<?php echo home_url('about') ?>"><?php echo $l->t('About us');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('team') ?>"><?php echo $l->t('Team');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('contributors') ?>"><?php echo $l->t('Community');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('jobs') ?>"><?php echo $l->t('Jobs');?></a></li>
-					</ul>
-				</li>
 
 				<li class="nav__section"><a class="nav__label"><?php echo $l->t('News');?></a>
 					<ul class="nav__links">
@@ -60,7 +52,7 @@
 						<li class="nav__item"><a href="<?php echo home_url('security') ?>"><?php echo $l->t('Security information');?></a></li>
 					</ul>
 				</li>
-				
+
 				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Get involved');?></a>
 					<ul class="nav__links">
 						<li class="nav__item"><a href="<?php echo home_url('contribute') ?>"><?php echo $l->t('How to contribute');?></a></li>
@@ -68,6 +60,15 @@
 						<li class="nav__item"><a href="https://github.com/nextcloud/server/issues/new"><?php echo $l->t('Report a bug');?></a></li>
 						<li class="nav__item"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>"><?php echo $l->t('Developer Documentation');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('code-of-conduct') ?>"><?php echo $l->t('Code of Conduct');?></a></li>
+					</ul>
+				</li>
+
+				<li class="nav__section"><a class="nav__label"><?php echo $l->t('About');?></a>
+					<ul class="nav__links">
+						<li class="nav__item"><a href="<?php echo home_url('about') ?>"><?php echo $l->t('About us');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('team') ?>"><?php echo $l->t('Team');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('contributors') ?>"><?php echo $l->t('Community');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('jobs') ?>"><?php echo $l->t('Jobs');?></a></li>
 					</ul>
 				</li>
 				
