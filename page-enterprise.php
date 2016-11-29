@@ -1,5 +1,5 @@
 <div class="ebackground"> 
-	<div class="container-widest">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Enterprise Support Subscriptions');?></h1>

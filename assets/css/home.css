@@ -69,13 +69,13 @@
     opacity: 0; }
   .jumbotron .toptext {
     position: absolute;
-    /* 		margin-top: 50px; */
-    top: 30vh;
-    margin-left: 5%; }
+    padding-left: 0;
+    margin-left: 0;
+    top: 30vh; }
     @media (max-width: 991px) {
       .jumbotron .toptext {
         top: 120px;
-        /* 		  margin-top: 50px; */ } }
+        margin-left: 5%; } }
 
 .jumbotron > .container-fluid > .col-md-6 > p > a {
   width: 290px;

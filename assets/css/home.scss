@@ -79,12 +79,12 @@
 
   .toptext {
     position: absolute;
-    /* 		margin-top: 50px; */
+    padding-left: 0;
+    margin-left: 0;
     top: 30vh;
-    margin-left: 5%;
     @media (max-width: $break-big) {
       top: 120px;
-      /* 		  margin-top: 50px; */
+      margin-left: 5%;
     }
   }
 }

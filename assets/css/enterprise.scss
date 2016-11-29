@@ -31,10 +31,15 @@
   }
 
   .topheader {
-	position: absolute;
-	top: 30%;
-	margin-left: 5%;
-	max-width: 600px;
+    position: absolute;
+    top: 30%;
+    margin: 0;
+    padding: 0;
+    max-width: 600px;
+    
+    @media (max-width: $break-big) {
+      padding-left: 5%;
+    }
   }
 }
 
@@ -185,7 +190,7 @@
   
   a {
   color: #b1b1b1;
-  font-decoration: none;
+  text-decoration: none;
   }
 }
 
@@ -234,10 +239,6 @@
 }
 
 /* Tooltips */
-
-/* Tooltip container */
-.overinfo {
-}
 
 /* Tooltip text */
 .overinfo .infotext {
