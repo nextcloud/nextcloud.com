@@ -460,5 +460,31 @@
             "We are Hosting Nextcloud and owncloud."
          ],
          "imagename":"nbi.png"
+      },
+    {
+         "title":"RB Media Group GmbH",
+         "url":"https:\/\/www.rb-media-group.de\/webhosting\/nextcloud-hosting.html",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Die RB Media Group GmbH bietet Managed NextCloud Hosting inkl. Update und Backup ab nur 9.95€ je Monat an."
+         ],
+         "imagename":"rbmg.png"
+      },
+    {
+         "title":"GWC-Systems",
+         "url":"https:\/\/www.gwc-systems.de\/enterprise-cloud",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Eine Cloud in Ihrem firmeneigenen Design! Die Daten liegen bei GWC-Systems auf deutschen, gesicherten Clustern und sind jederzeit durch Sie abrufbar."
+         ],
+         "imagename":"gwc.png"
       }
 ]

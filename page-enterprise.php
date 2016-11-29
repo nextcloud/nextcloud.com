@@ -185,11 +185,4 @@
 		</div>
 	</div>
 </div>
-<div class="container explore">
-	<h1 class="headline"><?php echo $l->t('<span class="avoidwrap">Explore what Nextcloud can do</span> <span class="avoidwrap">for your business</span>');?></h1>
-	<div class="explorebutton">
-		<a class="btn btn-primary btn-lg btn-absolute-icon" href="/features" role="button"><?php echo $l->t('Nextcloud features');?> <span class="icon-arrow"></span></a>
-	</div>
-</div>
 
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/enterprise.js"></script>

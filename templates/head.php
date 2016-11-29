@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<meta itemprop="image" content="https://nextcloud.com/wp-content/themes/nextcloudorgnew/assets/img/home/ncsplash.png">
+	<meta itemprop="image" content="https://nextcloud.com/wp-content/themes/next/assets/img/home/top-banner.png">
 	<meta itemprop="description" content="Nextcloud is an open source, self-hosted file sync and share and communication app platform. Access  &amp; sync your files, contacts, calendars  &amp; communicate and collaborate across your devices. You decide what happens with your data, where it is and who can access it!">
 	<meta name="description" content="Nextcloud is an open source, self-hosted file sync and share and communication app platbasform. Access  &amp; sync your files, contacts, calendars  &amp; communicate and collaborate across your devices. You decide what happens with your data, where it is and who can access it!">
 	<meta name="theme-color" content="#0082c9">
@@ -16,7 +16,9 @@
 
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.waypoints.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/enquire.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/bodymovin.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/underscore.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/TweenMax.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/ScrollMagic.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/animation.gsap.js"></script>

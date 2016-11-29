@@ -20,7 +20,7 @@
 <p><?php echo $l->t('Our launch has been covered in the media and we\'ve been interviewed, explaining the why, how and what behind our endeavor. Watch and read these to learn more!');?></p>
 <div class="row yt-row">
 	<div class="col-md-4 yt-img-overlay">
-		<a class="youtube" it="iMfokaX2r8g" href="https://www.youtube.com/watch?v=iMfokaX2r8g" target="_blank" title="Interview by Bryan Lunduke">
+		<a class="youtube" id="iMfokaX2r8g" href="https://www.youtube.com/watch?v=iMfokaX2r8g" target="_blank" title="Interview by Bryan Lunduke">
 		<img  src="https://img.youtube.com/vi/iMfokaX2r8g/hqdefault.jpg" title="Interview by Bryan Lunduke" />
 		<div class="yt-play-btn">
 						<i></i> 
@@ -28,7 +28,7 @@
 		</a>
     </div>
 	<div class="col-md-4 yt-img-overlay">
-		<a class="youtube" id="Yjqd7MX434I?start=2678" href="https://youtu.be/Yjqd7MX434I?t=44m38s" target="_blank" title="The Linux Action Show">
+		<a class="youtube" id="Yjqd7MX434I?start=2678" href="https://www.youtube.com/watch?v=Yjqd7MX434I?t=44m38s" target="_blank" title="The Linux Action Show">
 		<img  src="https://img.youtube.com/vi/Yjqd7MX434I/hqdefault.jpg" title="The Linux Action Show" />
 		<div class="yt-play-btn">
 						<i></i> 
@@ -36,7 +36,7 @@
 		</a>
     </div>
 	<div class="col-md-4 yt-img-overlay">
-		<a class="youtube" id="rAXf8SGAXFE?start=2173" href="https://www.youtu.be/rAXf8SGAXFE?t=36m21s" target="_blank" title="Bad Voltage">
+		<a class="youtube" id="rAXf8SGAXFE?start=2173" href="https://www.youtube.com/watch?v=rAXf8SGAXFE?t=36m21s" target="_blank" title="Bad Voltage">
 		<img  src="https://img.youtube.com/vi/rAXf8SGAXFE/hqdefault.jpg" title="Bad Voltage" />
 		<div class="yt-play-btn">
 						<i></i> 
@@ -96,11 +96,11 @@
 Nextcloud is not responsible for the content of the linked articles.</small>');?></p>
 
 <link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory');?>/assets/js/vendor/jquery.youtubepopup.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/assets/js/old/vendor/jquery.youtubepopup.min.js"></script>
 
 <script type="text/javascript">
-$(function () {
-	$("a.youtube").YouTubePopup({ hideTitleBar: true });
-});
+// $(function () {
+$("a.youtube").YouTubePopup({ hideTitleBar: true });
+// });
 </script>

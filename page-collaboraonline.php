@@ -30,7 +30,7 @@
 	</div>
 	<div class="col-md-5">
 		<div class="yt-img-overlay">
-			<a class="youtube" href="https://www.youtube.com/watch?v=sZpYXUD1ZVM" title="Collabora Online in Nextcloud">
+			<a class="youtube" id="sZpYXUD1ZVM" href="https://www.youtube.com/watch?v=sZpYXUD1ZVM" title="Collabora Online in Nextcloud">
 				<img class="img-responsive featureimg" src="https://img.youtube.com/vi/sZpYXUD1ZVM/hqdefault.jpg" title="Collabora Online in Nextcloud" />
 				<div class="yt-play-btn">
 					<i></i> 
@@ -80,7 +80,7 @@
 	<div class="row">
 		<div class="col-md-8">
 			<div class="yt-img-overlay">
-				<a class="youtube" href="https://www.youtube.com/watch?v=MDc1bNxn3js" title="Collabora Online in Nextcloud">
+				<a class="youtube" id="MDc1bNxn3js" href="https://www.youtube.com/watch?v=MDc1bNxn3js" title="Collabora Online in Nextcloud">
 					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/MDc1bNxn3js/hqdefault.jpg" title="Collabora Online in Nextcloud tutorial" />
 					<div class="yt-play-btn">
 						<i></i> 
@@ -204,8 +204,10 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --re
 	It is possible your firewall is blocking connections. Try to start docker after you started the firewall, it makes changes to your iptables to enable Collabora Online to function.');?></li>
 	<li><?php echo $l->t('<strong>Issue:</strong> <code>We are sorry, this is an unexpected connection error. Please try again.</code> error.<br />
 	The Collabora Online app doesn\'t work at the moment, if you enable it only for certain groups. Remove the group filter in the App section.');?></li>
-	<li><?php echo $l->t('<strong>Issue:</strong> Collabora Online doesn\'t handle my 500 users.<br/>
-	This docker image is designed for limited numbers of users and open documents. If you need a more scalable solution, consider <a href="/enterprise/">a support subscription</a> for a reliable, business-ready online office experience.');?></li>
+	<li><?php echo $l->t('<strong>Issue:</strong> Collabora Online doesn\'t handle my 100 users.<br/>
+	This docker image is designed for home usage with a limited numbers of users and open documents. If you need a more scalable solution, consider <a href="/enterprise/">a support subscription</a> for a reliable, business-ready online office experience.');?></li>
+	<li><?php echo $l->t('<strong>Issue:</strong> Collabora Online doesn\'t work with Encryption.<br/>
+	Yes, this is currently unsupported.');?></li>
 </ul>
 <p><?php echo $l->t('Find more questions and answers in the <a href="https://help.nextcloud.com/t/issue-installing-collabora-following-official-guide/1746/58">discussion thread on the forums</a>.');?></p>
 
@@ -214,10 +216,10 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --re
 
 <link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/vendor/jquery.youtubepopup.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/old/vendor/jquery.youtubepopup.min.js"></script>
 
 <script type="text/javascript">
-$(function () {
+// $(function () {
 	$("a.youtube").YouTubePopup({ hideTitleBar: true });
-});
+// });
 </script>

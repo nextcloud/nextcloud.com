@@ -16,3 +16,22 @@ require_once locate_template('/lib/comments.php');        // Custom comments mod
 require_once locate_template('/lib/relative-urls.php');   // Root relative URLs
 require_once locate_template('/lib/widgets.php');         // Sidebars and widgets
 require_once locate_template('/lib/custom.php');          // Custom functions
+
+function translationUrlFilter($url) {
+	$path = parse_url(site_url())['path'];
+	$language = explode('/', substr($_SERVER['REQUEST_URI'], strlen($path)));
+	if(isset($language[1]) && $language[1] === 'de') {
+		$url = explode('/', $url);
+		if($path !== null) {
+			$count = 4;
+		} else {
+			$count = 3;
+		}
+		$languageEntry = ['de'];
+		array_splice($url, $count, 0, $languageEntry);
+		return implode('/', $url);
+	}
+	return $url;
+}
+
+add_filter('home_url', 'translationUrlFilter');

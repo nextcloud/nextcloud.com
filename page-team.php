@@ -2,7 +2,7 @@
 <div class="sub-nav">
 	<a href="/about">About Nextcloud</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/contributors">Nextcloud Community</a>
 </div>
-<p>Open Source cloud computing is our passion at Nextcloud GmbH and we've built a great team of experts around it. Our engineers, designers and support professionals work as an integral part of the wider Nextcloud community to give customers direct access to the most advanced, in-depth knowledge they need for success.</p>
+<p>Open source cloud computing is our passion at Nextcloud GmbH and we've built a great team of experts around it. Our engineers, designers and support professionals work as an integral part of the wider Nextcloud community to give customers direct access to the most advanced, in-depth knowledge they need for success.</p>
 <!-- End main -->
 </div>
 </div>
@@ -45,7 +45,7 @@
 				<h3 class="teamtitle">Head of Sales</h3>
 				<h4 class="teamexpertise">Sales and Partnerships</h4>
 				<h4 class="teamlocation">lives in Hannover, Germany</h4>
-				<p class="teamsocial"><!--<a href="https://www.schilljs.com/"><i class="icon-rss icon"></i></a>--> <!--<a href="https://github.com/nickvergessen"><i class="icon-github icon"></i></a>--> <!--<a href="https://twitter.com/nickvergessen"><i class="icon-twitter icon"></i></a>--> &nbsp; </p>
+				<p class="teamsocial"><a href="https://www.xing.com/profile/Andreas_Rode2"><i class="icon-xing icon"></i></a><!--<a href="https://github.com/nickvergessen"><i class="icon-github icon"></i></a>--> <!--<a href="https://twitter.com/nickvergessen"><i class="icon-twitter icon"></i></a>--> &nbsp; </p>
 			</div>
 			<p class="teamdescription">Andreas studied Economics and has 20 years experience in Business Development, Partner- and Sales Management. Andreas worked for companies like Oracle, EMC, Yahoo and Google and also for start ups in the Cloud Computing and Online Marketing space.</p>
 		</div>
@@ -122,7 +122,7 @@
 			<div class="teammeta">
 				<h3 class="teamtitle">Design Lead</h3>
 				<h4 class="teamexpertise">simplicity & ease of use</h4>
-				<h4 class="teamlocation">lives in Ljubljana, Slovenia</h4>
+				<h4 class="teamlocation">lives in Munich, Germany</h4>
 				<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="icon-rss icon"></i></a> <a href="https://github.com/jancborchardt"><i class="icon-github icon"></i></a> <a href="https://twitter.com/jancborchardt"><i class="icon-twitter icon"></i></a> </p>
 			</div>
 			<p class="teamdescription">Jan-Christoph is responsible for design on the project since early 2011. He pushes forward better design in open source through founding and contributing to several projects, giving talks, working with universities, and fostering the Open Source Design collective.</p>
@@ -143,6 +143,19 @@
 	</div>
 	<div class="col-md-4">
 		<div class="teamp">
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/artur.jpg" />
+			<h2 class="teamname">Artur Bergen</h2>
+			<div class="teammeta">
+				<h3 class="teamtitle">Software Engineer</h3>
+				<h4 class="teamexpertise">Spreedbox, Spreed.ME</h4>
+				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+				<p class="teamsocial"><a href="https://de.linkedin.com/in/artur-bergen-3b113090"><i class="icon-rss icon"></i></a> <a href="https://github.com/artberg"><i class="icon-github icon"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="icon-twitter icon"></i></a>--> </p>
+			</div>
+			<p class="teamdescription">Artur graduated Interface Designer (B.A.) and he is currently doing his second Bachelor in Media Informatics (B.Sc.), Stuttgart. His primary tasks lie in the development of the Spreedbox and Spreed.ME hardware and software components.</p>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="teamp">
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/arthur.jpg" />
 			<h2 class="teamname">Arthur Schiwon</h2>
 			<div class="teammeta">
@@ -157,7 +170,7 @@
 	<div class="col-md-4">
 		<div class="teamp">
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/bjoern.jpg" />
-			<h2 class="teamname">Björn Schließle</h2>
+			<h2 class="teamname">Björn Schießle</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
 				<h4 class="teamexpertise">Federation and Encryption</h4>
@@ -178,6 +191,19 @@
 				<p class="teamsocial"><a href="http://blog.wuc.me/"><i class="icon-rss icon"></i></a> <a href="https://github.com/ChristophWurst"><i class="icon-github icon"></i></a> <a href="https://twitter.com/ChristophWurst"><i class="icon-twitter icon"></i></a> </p>
 			</div>
 			<p class="teamdescription">Christoph has been contributing to the project since 2014. He is currently doing his Software Engineering master at the University of Applied Sciences Upper Austria.</p>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="teamp">
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/dirk.jpg" />
+			<h2 class="teamname">Dirk Farin</h2>
+			<div class="teammeta">
+				<h3 class="teamtitle">Research Scientist and Software Engineer</h3>
+				<h4 class="teamexpertise">WebRTC, Codecs, Spreed.ME</h4>
+				<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+				<p class="teamsocial"><a href="http://www.dirk-farin.net/"><i class="icon-rss icon"></i></a> <a href="https://github.com/farindk"><i class="icon-github icon"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="icon-twitter icon"></i></a>--> </p>
+			</div>
+			<p class="teamdescription">Dirk graduated from the University of Stuttgart, Germany and received his PhD from the University of Technology in Eindhoven. He worked on MPEG-4 video coding, panoramic video visualiation and compression for 3-D television at universities and research institutions in Europe and the United States and currently works on an open source H.265 decoding/encoding library.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
@@ -266,7 +292,7 @@
 				<h3 class="teamtitle">Software Engineer</h3>
 				<h4 class="teamexpertise">Filesystem and scalability</h4>
 				<h4 class="teamlocation">lives in Eindhoven, Netherlands</h4>
-				<p class="teamsocial"><a href="http://blog.jospoortvliet.com/"><i class="icon-rss icon"></i></a> <a href="https://github.com/jospoortvliet"><i class="icon-github icon"></i></a> <a href="https://twitter.com/jospoortvliet"><i class="icon-twitter icon"></i></a> </p>
+				<p class="teamsocial"><a href="https://icewind.nl"><i class="icon-rss icon"></i></a> <a href="https://github.com/icewind1991"><i class="icon-github icon"></i></a> <a href="https://twitter.com/icewind1991"><i class="icon-twitter icon"></i></a></p>
 			</div>
 			<p class="teamdescription">Robin studied computer science and is highly experienced in scaling file storage and handling systems. He has been working on Nextcloud code for over half a decade and has, at one point or another, touched code in every corner.</p>
 		</div>
@@ -298,4 +324,3 @@
 		</div>
 	</div>
 </div>
-

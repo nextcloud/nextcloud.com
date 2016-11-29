@@ -1,10 +1,7 @@
 /* Make Navbar transparent */
-.navbar:not(.scrolled) {
-  background-color: transparent; }
-
-.navbar:not(.scrolled) .btn-primary {
-  background-color: transparent !important;
-  border-color: white; }
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
 
 /**
  * Enterprise Page
@@ -465,3 +462,5 @@
   height: 100%;
   right: -30px;
   top: 0px; }
+
+/*# sourceMappingURL=enterprise.css.map */

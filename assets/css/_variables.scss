@@ -8,3 +8,16 @@ $break-small: 768px;
 $break-big: 991px;
 $very-wide: 1600px;
 $navbar-breaksize: 1200px;
+
+@mixin horizontal-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin vertical-center {
+	position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
