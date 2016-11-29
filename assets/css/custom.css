@@ -1017,6 +1017,7 @@ footer.page-footer {
   .section-getbox .container .wrapper-text {
     max-width: 550px;
     color: white;
+    z-index: 50;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%); }

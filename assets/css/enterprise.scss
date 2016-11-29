@@ -6,7 +6,8 @@
  * Enterprise Page
  */
 .background {
-  background-image: url("../img/enterprise/enterprise.jpg");
+  background-color: $nextcloud-blue;
+  background-image: none;
   padding-bottom: 0;
   padding-top: 0;
   margin-bottom: 0;
@@ -17,8 +18,24 @@
   height: 70vh;
   min-height: 600px;
   max-height: 800px;
+}
 
-  h1 {
+.what-you-get {
+  .container {
+    padding-top: 140px;
+
+    p {
+      font-size: 18px;
+      font-weight: 300;
+      max-width: 600px;
+      padding-top: 20px;
+      margin: 0 auto;
+    }
+  }
+}
+
+/**
+ h1 {
     padding-top: 0;
     color: white;
   }
@@ -61,11 +78,9 @@
   }
 }
 
-/* All headers */
 
 .header {
   margin-bottom: 54px;
-  /* 	font-family: $font-stack; */
   font-size: 60px;
   font-weight: 300;
   font-style: normal;
@@ -75,7 +90,7 @@
   color: #2a2a36;
 }
 
-/* Introduction */
+// Introduction 
 .intro {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -104,15 +119,12 @@
       font-weight: 300;
       color:  #555555;
       line-height: 1.61;
-/* 	  padding-bottom: 30px; */
+//	  padding-bottom: 30px; 
 	}
 
 }
 
-
-
-
-/* Pricing area */
+// Pricing area 
 
 .pricing {
   margin-top: 133px;
@@ -220,7 +232,7 @@
 }
 
 .list .check {
-  /* 	font-family: OpenSans; */
+  // 	font-family: OpenSans; 
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -235,7 +247,7 @@
 }
 
 .list .nocheck {
-  /*   font-family: OpenSans; */
+  //  font-family: OpenSans; 
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -256,7 +268,7 @@
 
 
 .list .optional {
-  /*   font-family: OpenSans; */
+  //  font-family: OpenSans; 
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -271,7 +283,7 @@
 }
 
 .list .price {
-  /* 	font-family: OpenSans; */
+  // 	font-family: OpenSans; 
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -293,16 +305,16 @@
 	text-indent: -20px;
 }
 
-/* Tooltips */
+// Tooltips 
 
-/* Tooltip container */
+// Tooltip container 
 .overinfo {
 }
 
-/* Tooltip text */
+// Tooltip text 
 .overinfo .infotext {
     visibility: hidden;
-/*     width: 200px; */
+//    width: 200px; 
     background-color: #555555;
     color: #fff;
     text-align: center;
@@ -310,16 +322,16 @@
 	line-height: 1.4;
 border-radius: 6px;
  
-    /* Position the tooltip text */
+    // Position the tooltip text 
     position: absolute;
     z-index: 10;
 	padding: 3px;
-/*     top: 100%; */
-/*     left: 50%;  */
-/*     margin-left: -100px; */
+//     top: 100%; 
+//     left: 50%;  
+//     margin-left: -100px; 
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
+// Show the tooltip text when you mouse over the tooltip container 
 .overinfo:hover .infotext {
     visibility: visible;
 }
@@ -327,7 +339,7 @@ border-radius: 6px;
 .overinfo .infotext::after {
     content: " ";
     position: absolute;
-    bottom: 100%;  /* At the top of the tooltip */
+    bottom: 100%;  // At the top of the tooltip 
     left: 50%;
     margin-left: -5px;
     border-width: 5px;
@@ -344,7 +356,7 @@ border-radius: 6px;
     opacity: 1;
 }
 
-/* what you get */
+// what you get 
 .youget {
 	background: $nextcloud-blue;
 	padding-bottom: 50px;
@@ -446,7 +458,7 @@ border-radius: 6px;
 	}
 }
 
-/* Discount section */
+// Discount section 
 
 .discounts {
   margin-top: 64px;
@@ -502,7 +514,7 @@ border-radius: 6px;
   }
 }
 
-/* FAQ section */
+// FAQ section 
 .faq {
   background: $nextcloud-blue;
   padding-bottom: 50px;
@@ -529,7 +541,6 @@ border-radius: 6px;
 }
 
 .faq h3 {
-  /*   font-family: OpenSans; */
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -540,7 +551,6 @@ border-radius: 6px;
 }
 
 .faq h1 {
-  /* 	font-family: OpenSans; */
   font-size: 60px;
   font-weight: 300;
   font-style: normal;
@@ -554,7 +564,6 @@ border-radius: 6px;
 }
 
 .faq p {
-  /* 	font-family: OpenSans; */
   font-size: 18px;
   font-weight: 300;
   font-style: normal;
@@ -591,3 +600,5 @@ border-radius: 6px;
   right: -30px;
   top: 0px;
 }
+
+*/

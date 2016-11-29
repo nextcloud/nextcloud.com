@@ -1,25 +1,19 @@
 <div class="container-fluid background"> 
 	<div class="container">
 		<div class="col-md-6 topheader">
-			<h1><?php echo $l->t('The value of a Nextcloud Support Subscription');?></h1>
+			<h1><?php echo $l->t('Get support from the source');?></h1>
 			<h2><?php echo $l->t('Going beyond the traditional licensing model, Nextcloud frees you from vendor lock-in and provides value through supporting your business\' needs.');?></h2>
 		</div>
 	</div>
 </div>
 
-<div class="container intro">
-	<div class="row">
-		<div class="col-md-7">
-			<h2 class=""><?php echo $l->t('Get the best support');?></h2>
-			<h1 class=""><?php echo $l->t('From the source');?></h1>
-			<p><?php echo $l->t('Your Nextcloud subscription enables you to successfully deploy and manage your Nextcloud instances, complimenting your IT resources and increasing the efficiency and reliability of your service.');?></p>
-			<a class="btn btn-primary btn-lg btn-absolute-icon" href="/pricing" role="button"><?php echo $l->t('See pricing');?> <span class="icon-arrow"></span></a>
-		</div>
-		<div class="col-md-5">
-			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/publicsector.svg">
-		</div>
+<<sectio class="what-you-get">
+	<div class="container">
+		<h2 class="text-center revealOnScroll"><?php echo $l->t('What you will get');?></h2>
+		<p class="text-center revealOnScroll"><?php echo $l->t('Your Nextcloud subscription enables you to successfully deploy and manage your Nextcloud instances, complimenting your IT resources and increasing the efficiency and reliability of your service. Our open approach gives you direct access to technical expertise of the top Nextcloud engineers, the latest knowledge and best practices. Pro-active security support helps you identify and address vulnerabilities and harden your servers to protect the safety and integrity of your data. Our multi-year life cycle support matches your OS and makes sure your business runs without disruptions.');?></p>
 	</div>
-</div>
+</section>
+
 
 
 <div class="youget container-fluid">
@@ -100,7 +94,7 @@
 
 
 
-<div class="faq container-fluid">
+<<!--div class="faq container-fluid">
 	<h1 class="revealOnScroll"><?php echo $l->t('Frequently asked questions');?></h1>
 	<div class="container">
 		<div class="row">
@@ -185,4 +179,4 @@
 		</div>
 	</div>
 </div>
-
+-->
