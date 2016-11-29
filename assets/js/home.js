@@ -39,9 +39,11 @@ $(window).load(function() {
     
     var controller = new ScrollMagic.Controller();
 
+    //Create a new scene for each textTrigger, see the in the HTML we have 3 instead of 4
+
     $(".textTrigger").each(function() {
 
-	const $trigger = $(this);
+	    const $trigger = $(this);
         var imageFeatures = $(".image-top");  
 
         var animateImage = new ScrollMagic.Scene ({
@@ -51,33 +53,35 @@ $(window).load(function() {
         })
 
         .on("enter", function () {
-            imageFeatures.css("bottom", (parseFloat(imageFeatures.css('bottom')) + 318) + 'px');
+            imageFeatures.css("bottom", (parseFloat(imageFeatures.css('bottom')) + 318) + 'px'); //this updates the image position
+            
             const $sceneId = $trigger.attr('id');
-	    // Assumes that we find an indicator with the appropriate class *fingers crossed*
-	    const $indicator = $('a[href="#' + $sceneId + '"]').parent();
-	    const $active = $('.btn_carousel.active');
-	    $active.removeClass('active');
-	    $indicator.addClass('active');
+            // Assumes that we find an indicator with the appropriate class *fingers crossed*
+            const $indicator = $('a[href="#' + $sceneId + '"]').parent();
+            const $active = $('.btn_carousel.active');
+            $active.removeClass('active');
+            $indicator.addClass('active');
         })
         
         .on("leave", function() {
-            imageFeatures.css("bottom", (parseFloat(imageFeatures.css('bottom')) - 318) + 'px');
+            imageFeatures.css("bottom", (parseFloat(imageFeatures.css('bottom')) - 318) + 'px'); //this updates the image position
         })
         .addIndicators({
-                colorTrigger:"red"
+                colorTrigger:"red" //remove after finish, this are just need to to see the triggers
             })
 
         .addTo(controller);
     });
 
+    //set device image to fix a position
     var imagePin = new ScrollMagic.Scene ({
         triggerElement: "#imageTrigger", 
-        duration: "300%",
+        duration: "300%", //this set the duration of 3 times the viewport height
         triggerHook: 0
     })
     .setPin("#imageTrigger")
-    .setClassToggle(".indicators", "active")
-    .addIndicators({
+    .setClassToggle(".indicators", "active") // add indicators to scene
+    .addIndicators({ //remove after finish, this are just need to to see the triggers
         colorTrigger:"black"
     })
     .addTo(controller);
@@ -86,7 +90,7 @@ $(window).load(function() {
     // to animate scroll instead of jump
     controller.scrollTo(function(target) {
 
-    $(document).on("click", "a[href^='#']", function(e) {
+    $(document).on("click", "a[href^='#']", function(e) { //on click scroll to the anchor point
         var id = $(this).attr("href");
         if ($(id).length > 0) {
             e.preventDefault();
