@@ -1,13 +1,18 @@
-<div class="container-fluid background"> 
-	<div class="container">
-		<div class="col-md-6 topheader">
-			<h1><?php echo $l->t('Get support from the source');?></h1>
-			<h2><?php echo $l->t('Going beyond the traditional licensing model, Nextcloud frees you from vendor lock-in and provides value through supporting your business\' needs.');?></h2>
+<section class="hero-section">
+	<div class="container-fluid background"> 
+		<div class="container">
+			<div class="col-md-6 topheader">
+				<h1><?php echo $l->t('Get support from the source');?></h1>
+				<h2><?php echo $l->t('Going beyond the traditional licensing model, Nextcloud frees you from vendor lock-in and provides value through supporting your business\' needs.');?></h2>
+			</div>
+			<div class="col-md-6 image_animated"></div>
+			</div>
 		</div>
 	</div>
-</div>
+</section>
 
-<<sectio class="what-you-get">
+
+<<sectio class="what-you-get-section">
 	<div class="container">
 		<h2 class="text-center revealOnScroll"><?php echo $l->t('What you will get');?></h2>
 		<p class="text-center revealOnScroll"><?php echo $l->t('Your Nextcloud subscription enables you to successfully deploy and manage your Nextcloud instances, complimenting your IT resources and increasing the efficiency and reliability of your service. Our open approach gives you direct access to technical expertise of the top Nextcloud engineers, the latest knowledge and best practices. Pro-active security support helps you identify and address vulnerabilities and harden your servers to protect the safety and integrity of your data. Our multi-year life cycle support matches your OS and makes sure your business runs without disruptions.');?></p>

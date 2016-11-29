@@ -5,22 +5,31 @@
 /**
  * Enterprise Page
  */
-.background {
-  background-color: $nextcloud-blue;
-  background-image: none;
-  padding-bottom: 0;
-  padding-top: 0;
-  margin-bottom: 0;
-  background-repeat: no-repeat;
-  background-position: bottom 0 right 0;
-  background-size: cover;
-  border-radius: 0 !important;
-  height: 70vh;
-  min-height: 600px;
-  max-height: 800px;
-}
 
-.what-you-get {
+ .hero-section {
+   .background {
+    background-color: $nextcloud-blue;
+    background-image: none;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-position: bottom 0 right 0;
+    background-size: cover;
+    border-radius: 0 !important;
+    height: 70vh;
+    min-height: 600px;
+    max-height: 800px;
+  }
+
+  .image_animated {
+    background: url("../img/enterprise/Source_anim.gif") no-repeat center/contain;
+    height: 500px;
+  }
+ }
+
+
+.what-you-get-section {
   .container {
     padding-top: 140px;
 
