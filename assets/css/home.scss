@@ -118,26 +118,6 @@
 }
 
 
-/**
- * Home page: Introducing Nextcloud 10
- */
-.right-text-grey {
-  opacity: 0;
-  padding-top: 75px;
-  &:first-child {
-    padding-top: 50px;
-  }
-  @media (max-width: 768px){
-    text-align: center;
-  }
-  p {
-    font-size: 18px;
-    font-weight: 100;
-    color: #555555;
-  }
-}
-
-
 .introducing-nc-release {
   padding-top: 100px;
   padding-bottom: 75px;
@@ -302,79 +282,134 @@ section#why-nextcloud {
 .Section-Introducing-Nextcloud {
   background-color: transparent;
   overflow: hidden;
-  height: 200vh;
+  height: 100%;
   position: relative;
-  padding-top: 130px;
-  @media (max-width: $navbar-breaksize) {
-    padding-top: 60px;
-    height: 100vh;
-  }
-
-  .img_carousel {
-    padding-top: 100px;
-    position:relative;
-    @media (max-height: 800px) {
-      padding-top: 60px;
+  // padding-top: 130px;
+    @media (max-width: $navbar-breaksize) {
+      // padding-top: 60px;
+      height: 100%;
     }
 
-    img {
-      float: right;
-      width: 582px;
-      height: 474px;
-      @media (max-height: 800px) {
-        width: 490px;
-        height: 402px;
+    .section-title {
+      padding-top:10vh;
+      position: absolute;
+      margin: auto 0;
+      text-align: center;
+      width: 100%;
+
+    }
+
+    .container {
+
+      .container-image-center { 
+        padding-top: calc((100vh - 435px) /2);
+        padding-bottom: calc((100vh - 435px) /2);
+
+        @media (max-width: 1400px) {
+          padding-top: calc((100vh - 315px) /2);
+          padding-bottom: calc((100vh - 315px) /2);
+        }
+
+        .image-back {
+          position: absolute;
+          height: 440px
+        }
+
+        .image-top-container {
+          position: relative;
+          overflow: hidden;
+          z-index: 1;
+          width: 507px;
+          height: 318px;
+          top: 17px;
+          left: 17px;
+
+          .image-top {
+            position: absolute;
+            width: 100%;
+            bottom: -954px;
+            transition: all ease-in 0.3s;
+          }
+        }
+      }
+
+      .texts-wrapper {
+        height: 100vh;
+
+        .right-text-grey {
+          padding-top: calc((100vh - 266px) /2);
+          padding-bottom: calc((100vh - 236px) /2);
+
+          p {
+            font-size: 18px;
+            font-weight: 100;
+            color: #555555;
+            // padding-bottom: 30px;
+          }
+        }
       }
     }
-  }
 
-  .indicators {
-    -webkit-transition: all .5s;
-    transition: all .5s;
+    .indicators {
+      -webkit-transition: all .5s;
+      transition: all .5s;
+      opacity: 0;
+      position: fixed;
+      z-index: 2;
+      bottom: 50vh;
+      right: 0;
+
+      .btn_carousel {
+        margin-top: 10px;
+        width: 14px;
+        height: 14px;
+        color: transparent;
+        border: 1px solid $nextcloud-blue;
+        background-color: $nextcloud-blue;
+        border-radius: 50%;
+        padding: 0;
+        -webkit-transform: scale(.5);
+        -ms-transform: scale(.5);
+        transform: scale(.5);
+        -webkit-transition: all 250ms ease-in-out;
+        transition: all 250ms ease-in-out;
+
+        &:hover {
+          background-color: transparent;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+
+        }
+
+        a {
+          text-decoration: none;
+          display: block;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          }
+        }
+
+      .btn_carousel.active{
+        background-color: transparent;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+
+        a {
+          background-color: transparent;
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1);
+          }
+        }
+      }
+    
+  .active {
     opacity: 1;
-    position: absolute;
-    z-index: 2;
-    bottom: 50vh;
-    right: 0;
-    @media (max-width: $break-small) {
-      display: none;
-    }
-
-    .btn_carousel{
-      margin-top: 10px;
-      width: 14px;
-      height: 14px;
-      color: transparent;
-      border: 1px solid $nextcloud-blue;
-      background-color: $nextcloud-blue;
-      border-radius: 50%;
-      padding: 0;
-      -webkit-transform: scale(.5);
-      -ms-transform: scale(.5);
-      transform: scale(.5);
-      -webkit-transition: all 250ms ease-in-out;
-      transition: all 250ms ease-in-out;
-    }
-
-    .btn_carousel.active{
-      background-color: transparent;
-      -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-      transform: scale(1);
-    }
   }
-}
-
-#pinContainer {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.panel {
-  height: 100%;
-  width: 100%;
-  position: absolute;
 }
 
 
@@ -496,7 +531,6 @@ section#why-nextcloud {
     }
   }
 }
-
 
 /* hide the image and table for the tweets */
 
