@@ -60,6 +60,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'install',
 		'install-backup',
 		'meetups',
+		'migration',
 		'news',
 		'newsletter',
 		'nine',
@@ -184,8 +185,10 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 $storeToCache = false;
 $echoed = false;
 $hl = '';
-if(isset($_GET['hl'])) {
-	$hl = strtolower((string)$_GET['hl']);
+$path = parse_url(site_url())['path'];
+$language = explode('/', substr($_SERVER['REQUEST_URI'], strlen($path)));
+if(isset($language[1]) && $language[1] === 'de') {
+	$hl = strtolower((string)$language[1]);
 	if (ctype_alnum($hl) && strlen($hl) === 2) {
 		$l10nFiles = [
 			get_post()->post_name,
@@ -194,9 +197,16 @@ if(isset($_GET['hl'])) {
 		];
 		$storeToCache = true;
 		foreach($l10nFiles as $file) {
-			$translatedFile = json_decode(file_get_contents(__DIR__ . '/l10n/' . $hl . '/' . $file . '.json'), true);
-			$originalFile = json_decode(file_get_contents(__DIR__ . '/l10n/base/' . $file . '.json'), true);
+			$translatedPath = __DIR__ . '/l10n/' . $hl . '/' . $file . '.json';
+			$originalPath = __DIR__ . '/l10n/base/' . $file . '.json';
 
+			if(file_exists($translatedPath) && file_exists($originalPath)) {
+				$translatedFile = json_decode(file_get_contents($translatedPath), true);
+				$originalFile = json_decode(file_get_contents($originalPath), true);
+			} else {
+				$translatedFile = null;
+				$originalFile = null;
+			}
 			if(!is_array($translatedFile) || !is_array($originalFile)) {
 				$storeToCache = false;
 			}

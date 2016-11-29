@@ -41,10 +41,11 @@ class L10N {
 	 * @return string
 	 */
 	private function getCurrentLanguage() {
-		if(isset($_GET['hl'])) {
-			$hl = strtolower((string)$_GET['hl']);
-			if(ctype_alnum($hl) && strlen($hl) === 2) {
-				return $hl;
+		$path = parse_url(site_url())['path'];
+		$language = explode('/', substr($_SERVER['REQUEST_URI'], strlen($path)));
+		if(isset($language[1]) && strlen($language[1]) === 2) {
+			if(ctype_alnum($language[1])) {
+				return $language[1];
 			}
 		}
 
@@ -70,12 +71,22 @@ class L10N {
 		}
 		$this->requestedStrings[$stringHash] = $string;
 
-		// Read the translated string
+		// Read the translated string if 100% translated
 		$translationFile = __DIR__ . '/l10n/'.$this->getCurrentLanguage().'/' .  $this->pageName . '.json';
 		if(file_exists($translationFile)) {
-			$translations = json_decode(file_get_contents($translationFile), true);
-			if(isset($translations[$stringHash])) {
-				return $translations[$stringHash];
+			$originalFile = json_decode(file_get_contents(__DIR__ . '/l10n/base/' . $this->pageName . '.json'), true);
+			$translationFile = json_decode(file_get_contents($translationFile), true);
+
+			if(!is_array($translationFile) || !is_array($originalFile)) {
+				return $string;
+			}
+
+			if(count(array_diff_key($translationFile, $originalFile)) > 0) {
+				return $string;
+			}
+
+			if(isset($translationFile[$stringHash])) {
+				return $translationFile[$stringHash];
 			}
 		}
 

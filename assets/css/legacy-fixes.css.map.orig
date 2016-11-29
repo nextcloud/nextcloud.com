@@ -1,0 +1,11 @@
+{
+"version": 3,
+<<<<<<< HEAD
+"mappings": ";;;AAMA,QAAS;EACP,OAAO,EAAE,YAAY;EACrB,WAAW,EAAE,eAAe;;AAG9B,mCAAqC;EACnC,YAAY,EAAE,KAAK;;AAGrB,0DAA2D;;;;EAIzD,0BAAsC;IAJxC,0DAA2D;MAKvD,OAAO,EAAE,YAAW",
+=======
+"mappings": "AAEA;;GAEG;AAEH,QAAS;EACP,OAAO,EAAE,YAAY;EACrB,WAAW,EAAE,eAAe;;AAG9B,mCAAqC;EACnC,YAAY,EAAE,KAAK;;AAGrB,0DAA2D;EAC3D,qBAAqB;EACrB,qBAAqB;EACrB,oBAAoB;EAClB,0BAAsC;IAJxC,0DAA2D;MAKvD,OAAO,EAAE,YAAW",
+>>>>>>> master
+"sources": ["legacy-fixes.scss"],
+"names": [],
+"file": "legacy-fixes.css"
+}

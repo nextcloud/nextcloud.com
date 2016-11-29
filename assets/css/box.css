@@ -1,10 +1,7 @@
 /* Make Navbar transparent */
-.navbar:not(.scrolled) {
-  background-color: transparent; }
-
-.navbar:not(.scrolled) .btn-primary {
-  background-color: transparent !important;
-  border-color: white; }
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
 
 .section-top-jumbotron {
   height: 531px;
@@ -59,13 +56,14 @@
 
 .section-getbox {
   padding-top: 100px;
-  height: 400px;
+  height: 440px;
   width: 100%;
   background-color: #252323;
   position: relative; }
   .section-getbox .container .wrapper-text {
     max-width: 550px;
     color: white;
+    z-index: 50;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%); }
@@ -84,9 +82,11 @@
     background-repeat: no-repeat;
     float: right;
     margin-top: -220px; }
+  .section-getbox .container .dropdown-menu {
+    z-index: 1000; }
 
 .section-how-to-box {
-  padding-top: 100px;
+  padding-top: 120px;
   height: 100%;
   width: 100%;
   background-color: white; }
@@ -271,5 +271,3 @@
         .section-partners .container .wrapper-images .logo-ubuntu {
           width: 121px;
           height: 30px; } }
-
-/*# sourceMappingURL=box.css.map */
