@@ -19,6 +19,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/enquire.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/bodymovin.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/underscore.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/inview.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/TweenMax.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/ScrollMagic.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/animation.gsap.js"></script>
