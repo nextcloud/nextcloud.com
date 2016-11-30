@@ -1,3 +1,7 @@
+@-moz-document url-prefix() {
+  .brand {
+    -webkit-transform: scale(0.5);
+    top: -26px !important; } }
 .nav {
   z-index: 1;
   padding-top: 20px;
@@ -9,6 +13,9 @@
   position: relative; }
   .nav .container {
     position: relative; }
+    @media (min-width: 992px) {
+      .nav .container {
+        width: 90%; } }
     .nav .container .nav__bg-wrapper {
       -webkit-transition: 0.3s;
       transition: 0.3s;
@@ -74,20 +81,20 @@
       position: absolute;
       top: 0;
       left: 0; }
-      .nav .container .brand .logo:not(.scrolled) {
+      .nav .container .brand .logo:not(.scrolled):not(.menu-open) {
         background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
         height: 100px;
         width: 140px;
         display: inline-block;
         zoom: 0.5; }
-        .nav .container .brand .logo:not(.scrolled).hoverPlay {
+        .nav .container .brand .logo:not(.scrolled):not(.menu-open).hoverPlay {
           background-position-x: 0;
           -webkit-animation: play 2s steps(33) forwards;
           -moz-animation: play 2s steps(33) forwards;
           -ms-animation: play 2s steps(33) forwards;
           -o-animation: play 2s steps(33) forwards;
           animation: play 2s steps(33) forwards; }
-        .nav .container .brand .logo:not(.scrolled).stopedAnimation {
+        .nav .container .brand .logo:not(.scrolled):not(.menu-open).stopedAnimation {
           background-position-x: -4620px; }
     .nav .container .nav__sections {
       display: -webkit-box;
@@ -103,6 +110,9 @@
       z-index: -1;
       left: 20%;
       top: 0%; }
+      @media (max-width: 1200px) {
+        .nav .container .nav__sections {
+          left: 10%; } }
       .nav .container .nav__sections .nav__section {
         padding: 15px 0 15px 0;
         position: relative; }
@@ -192,7 +202,20 @@
       height: 53px;
       width: 71px; }
       .nav .container .brand .logo.menu-open {
-        background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain; }
+        background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
+        height: 100px;
+        width: 140px;
+        display: inline-block;
+        zoom: 0.5; }
+        .nav .container .brand .logo.menu-open.hoverPlay {
+          background-position-x: 0;
+          -webkit-animation: play 2s steps(33) forwards;
+          -moz-animation: play 2s steps(33) forwards;
+          -ms-animation: play 2s steps(33) forwards;
+          -o-animation: play 2s steps(33) forwards;
+          animation: play 2s steps(33) forwards; }
+        .nav .container .brand .logo.menu-open.stopedAnimation {
+          background-position-x: -4620px; }
   .nav .container .mobile-bg {
     position: fixed;
     background: #0082c9;
@@ -367,9 +390,9 @@
         animation: play 2s steps(33) forwards; }
       .nav.scrolled .logo:not(.menu-open).stopedAnimation {
         background-position-x: -4620px; }
-    .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons .ghost-btn .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons .ghost-btn .nav__label {
+    .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .ghost-btn .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .ghost-btn .nav__label {
       color: #555555; }
-      .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label:before, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label:before, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label:before, .nav.scrolled .nav__sections-wrapper .right-buttons .nav__section .nav__label:before, .nav.scrolled .nav__sections-wrapper .right-buttons .ghost-btn .nav__label:before, .nav.scrolled .nav__sections-wrapper .right-buttons .ghost-btn .nav__label:before {
+      .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label:before, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label:before, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label:before, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .nav__section .nav__label:before, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .ghost-btn .nav__label:before, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .ghost-btn .nav__label:before {
         background-color: #555555; }
   .nav.mobile .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.mobile .nav__sections-wrapper .ghost-btn .nav__section .nav__label {
     color: white; }
