@@ -60,6 +60,7 @@ $(document).ready(function() {
     },
 
     resetMobile: function() {
+        $(this.variables.navigationId).removeClass(this.variables.mobileClass);
         $(this.variables.toggleSelector).off("click");
         $(this.variables.sectionSelector).off("click");
         $(this.variables.linksSelector).css("display", "inherit").removeClass(this.variables.activeClass);
