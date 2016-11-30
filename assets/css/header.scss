@@ -527,7 +527,7 @@
         }
 
         .nav__sections-wrapper {
-            .nav__sections, .right-buttons {                
+            .nav__sections, .right-buttons:not(.active) {                
                 .nav__section .nav__label, .ghost-btn .nav__label, .ghost-btn .nav__label {
                     color: $medium-grey;
 
