@@ -705,6 +705,8 @@ section#why-nextcloud {
       .nav .container .nav__sections-wrapper .right-buttons.active {
         opacity: 1;
         transition-delay: .65s; }
+        .nav .container .nav__sections-wrapper .right-buttons.active .nav__label {
+          color: white; }
       .nav .container .nav__sections-wrapper .right-buttons .ghost-btn {
         font-size: 35px;
         line-height: 45px;
@@ -1017,6 +1019,7 @@ footer.page-footer {
   .section-getbox .container .wrapper-text {
     max-width: 550px;
     color: white;
+    z-index: 50;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%); }
