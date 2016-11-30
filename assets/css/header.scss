@@ -96,7 +96,7 @@
             top: 0;
             left: 0;
 
-            .logo:not(.scrolled) {
+            .logo:not(.scrolled):not(.menu-open) {
                 background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
                 height: 100px;
                 width: 140px;
@@ -269,7 +269,24 @@
                     width: 71px;
                     
                     &.menu-open {
-                        background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
+                        background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
+                        height: 100px;
+                        width: 140px;
+                        display: inline-block;
+                        zoom: 0.5;
+
+                        &.hoverPlay {
+                            background-position-x: 0;
+                            -webkit-animation: play 2s steps(33) forwards;
+                            -moz-animation: play 2s steps(33) forwards;
+                            -ms-animation: play 2s steps(33) forwards;
+                            -o-animation: play 2s steps(33) forwards;
+                            animation: play 2s steps(33) forwards;
+                        }
+                        
+                        &.stopedAnimation {
+                            background-position-x: -4620px;
+                        }
                     }
                 }
             }
