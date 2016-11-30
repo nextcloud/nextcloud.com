@@ -1,3 +1,7 @@
+@-moz-document url-prefix() {
+  .brand {
+    -webkit-transform: scale(0.5);
+    top: -26px !important; } }
 .nav {
   z-index: 1;
   padding-top: 20px;
