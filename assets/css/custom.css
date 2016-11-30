@@ -480,20 +480,20 @@ section#why-nextcloud {
       position: absolute;
       top: 0;
       left: 0; }
-      .nav .container .brand .logo:not(.scrolled) {
+      .nav .container .brand .logo:not(.scrolled):not(.menu-open) {
         background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
         height: 100px;
         width: 140px;
         display: inline-block;
         zoom: 0.5; }
-        .nav .container .brand .logo:not(.scrolled).hoverPlay {
+        .nav .container .brand .logo:not(.scrolled):not(.menu-open).hoverPlay {
           background-position-x: 0;
           -webkit-animation: play 2s steps(33) forwards;
           -moz-animation: play 2s steps(33) forwards;
           -ms-animation: play 2s steps(33) forwards;
           -o-animation: play 2s steps(33) forwards;
           animation: play 2s steps(33) forwards; }
-        .nav .container .brand .logo:not(.scrolled).stopedAnimation {
+        .nav .container .brand .logo:not(.scrolled):not(.menu-open).stopedAnimation {
           background-position-x: -4620px; }
     .nav .container .nav__sections {
       display: -webkit-box;
@@ -601,7 +601,20 @@ section#why-nextcloud {
       height: 53px;
       width: 71px; }
       .nav .container .brand .logo.menu-open {
-        background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain; }
+        background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
+        height: 100px;
+        width: 140px;
+        display: inline-block;
+        zoom: 0.5; }
+        .nav .container .brand .logo.menu-open.hoverPlay {
+          background-position-x: 0;
+          -webkit-animation: play 2s steps(33) forwards;
+          -moz-animation: play 2s steps(33) forwards;
+          -ms-animation: play 2s steps(33) forwards;
+          -o-animation: play 2s steps(33) forwards;
+          animation: play 2s steps(33) forwards; }
+        .nav .container .brand .logo.menu-open.stopedAnimation {
+          background-position-x: -4620px; }
   .nav .container .mobile-bg {
     position: fixed;
     background: #0082c9;
