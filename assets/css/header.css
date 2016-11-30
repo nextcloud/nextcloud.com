@@ -13,6 +13,9 @@
   position: relative; }
   .nav .container {
     position: relative; }
+    @media (min-width: 992px) {
+      .nav .container {
+        width: 90%; } }
     .nav .container .nav__bg-wrapper {
       -webkit-transition: 0.3s;
       transition: 0.3s;
@@ -107,6 +110,9 @@
       z-index: -1;
       left: 20%;
       top: 0%; }
+      @media (max-width: 1200px) {
+        .nav .container .nav__sections {
+          left: 10%; } }
       .nav .container .nav__sections .nav__section {
         padding: 15px 0 15px 0;
         position: relative; }
