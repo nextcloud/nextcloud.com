@@ -766,8 +766,10 @@ section#why-nextcloud {
         animation: play 2s steps(33) forwards; }
       .nav.scrolled .logo:not(.menu-open).stopedAnimation {
         background-position-x: -4620px; }
-    .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn a, .nav.scrolled .nav__sections-wrapper .right-buttons .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons .ghost-btn a {
+    .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons .ghost-btn .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons .ghost-btn .nav__label {
       color: #555555; }
+      .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label:before, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label:before, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label:before, .nav.scrolled .nav__sections-wrapper .right-buttons .nav__section .nav__label:before, .nav.scrolled .nav__sections-wrapper .right-buttons .ghost-btn .nav__label:before, .nav.scrolled .nav__sections-wrapper .right-buttons .ghost-btn .nav__label:before {
+        background-color: #555555; }
   .nav.mobile .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.mobile .nav__sections-wrapper .ghost-btn .nav__section .nav__label {
     color: white; }
 

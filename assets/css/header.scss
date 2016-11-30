@@ -525,8 +525,12 @@
 
         .nav__sections-wrapper {
             .nav__sections, .right-buttons {                
-                .nav__section .nav__label, .ghost-btn a {
+                .nav__section .nav__label, .ghost-btn .nav__label, .ghost-btn .nav__label {
                     color: $medium-grey;
+
+                    &:before {
+                        background-color: $medium-grey;
+                    }
                 }
             }
         }
