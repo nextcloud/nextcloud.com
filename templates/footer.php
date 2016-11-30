@@ -10,10 +10,12 @@ $l = new L10N('footer');
             <h1 class="revealOnScroll"><?php echo($l->t('About Nextcloud')) ?></h1>
             <ul class="revealOnScroll">
                 <li><a href="<?php echo home_url('about') ?>"><?php echo($l->t('About us')) ?></a></li>
-                <li><a href="<?php echo home_url('contributors') ?>"><?php echo($l->t('Community')) ?></a></li>
+                <li><a href="<?php echo home_url('team') ?>"><?php echo($l->t('Our team')) ?></a></li>
+                <li><a href="<?php echo home_url('contributors') ?>"><?php echo($l->t('Our community')) ?></a></li>
                 <li><a href="<?php echo home_url('jobs') ?>"><?php echo($l->t('Jobs')) ?></a></li>
                 <li><a href="<?php echo home_url('/community/code-of-conduct/') ?>"><?php echo($l->t('Code of conduct')) ?></a></li>
                 <li><a href="<?php echo home_url('privacy') ?>"><?php echo($l->t('Privacy and legal')) ?></a></li>
+                <li><a href="<?php echo home_url('trademarks') ?>"><?php echo($l->t('Trademark usage')) ?></a></li>
             </ul>
         </div>
         <div class="col-sm-3">
