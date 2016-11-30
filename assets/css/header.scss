@@ -430,6 +430,11 @@
                     &.active {
                         opacity: 1;
                         transition-delay: .65s;
+
+                        .nav__label {
+                                                    color: white;
+
+                        }
                     }
 
                     .ghost-btn {

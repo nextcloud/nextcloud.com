@@ -311,6 +311,8 @@
       .nav .container .nav__sections-wrapper .right-buttons.active {
         opacity: 1;
         transition-delay: .65s; }
+        .nav .container .nav__sections-wrapper .right-buttons.active .nav__label {
+          color: white; }
       .nav .container .nav__sections-wrapper .right-buttons .ghost-btn {
         font-size: 35px;
         line-height: 45px;
