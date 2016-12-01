@@ -86,6 +86,11 @@
       -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center; }
+      @media (max-width: 768px) {
+        .jumbotron .toptext .annoucement {
+          margin-left: -20px;
+          width: calc(100% + 20px * 2);
+          border-radius: 0; } }
       .jumbotron .toptext .annoucement .type {
         padding: 0 6px;
         font-size: 11px;
@@ -94,9 +99,17 @@
         background: #FF8B00;
         text-transform: uppercase;
         border-radius: 10px; }
+        @media (max-width: 768px) {
+          .jumbotron .toptext .annoucement .type {
+            margin-left: 10px; } }
       .jumbotron .toptext .annoucement .message {
         margin: 0 16px 0 6px;
         font-size: 13px; }
+        @media (max-width: 768px) {
+          .jumbotron .toptext .annoucement .message {
+            font-size: 15px;
+            line-height: 22px;
+            margin: 10px 10px; } }
         .jumbotron .toptext .annoucement .message:after {
           position: absolute;
           display: inline-block;
@@ -108,6 +121,10 @@
           top: 7px;
           margin-left: 5px;
           transition: all 0.3s ease; }
+          @media (max-width: 768px) {
+            .jumbotron .toptext .annoucement .message:after {
+              position: relative;
+              top: 2px; } }
         .jumbotron .toptext .annoucement .message:hover:after {
           margin-left: 10px; }
 
