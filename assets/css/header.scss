@@ -1,10 +1,5 @@
 @import "variables.scss";
 
-//Hack to make the zoom work in firefox
-@-moz-document url-prefix() {
-  .brand { -webkit-transform: scale(0.5); top: -26px !important; }
-}
-
 .nav {
     z-index: 1;
     padding-top: 20px;
@@ -17,10 +12,6 @@
 
     .container {
         position: relative;
-
-        @media (min-width: 992px) {
-            width: 90%;
-        }
 
         .nav__bg-wrapper {
             -webkit-transition: 0.3s;
@@ -102,7 +93,7 @@
             top: 0;
             left: 0;
 
-            .logo:not(.scrolled):not(.menu-open) {
+            .logo:not(.scrolled) {
                 background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
                 height: 100px;
                 width: 140px;
@@ -137,10 +128,6 @@
     	    z-index: -1;	    
     	    left: 20%;	    
     	    top: 0%;
-
-            @media (max-width: 1200px) {
-                left: 10%;
-             }
         
             .nav__section {
                 padding: 15px 0 15px 0;
@@ -279,24 +266,7 @@
                     width: 71px;
                     
                     &.menu-open {
-                        background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
-                        height: 100px;
-                        width: 140px;
-                        display: inline-block;
-                        zoom: 0.5;
-
-                        &.hoverPlay {
-                            background-position-x: 0;
-                            -webkit-animation: play 2s steps(33) forwards;
-                            -moz-animation: play 2s steps(33) forwards;
-                            -ms-animation: play 2s steps(33) forwards;
-                            -o-animation: play 2s steps(33) forwards;
-                            animation: play 2s steps(33) forwards;
-                        }
-                        
-                        &.stopedAnimation {
-                            background-position-x: -4620px;
-                        }
+                        background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
                     }
                 }
             }
@@ -457,10 +427,6 @@
                     &.active {
                         opacity: 1;
                         transition-delay: .65s;
-
-                        .nav__label {
-                            color: white;
-                        }
                     }
 
                     .ghost-btn {
@@ -554,13 +520,9 @@
         }
 
         .nav__sections-wrapper {
-            .nav__sections, .right-buttons:not(.active) {                
-                .nav__section .nav__label, .ghost-btn .nav__label, .ghost-btn .nav__label {
+            .nav__sections, .right-buttons {                
+                .nav__section .nav__label, .ghost-btn a {
                     color: $medium-grey;
-
-                    &:before {
-                        background-color: $medium-grey;
-                    }
                 }
             }
         }
