@@ -102,7 +102,7 @@
         font-size: 11px;
         line-height: 16px;
         font-weight: 600;
-        background: #FF8B00;
+        background: #ff8b00;
         text-transform: uppercase;
         border-radius: 10px; }
         @media (max-width: 768px) {
@@ -462,6 +462,7 @@
   .brand {
     -webkit-transform: scale(0.5);
     top: -26px !important; } }
+
 .nav {
   z-index: 1;
   padding-top: 20px;
@@ -785,9 +786,11 @@
   0% {
     opacity: 0;
     left: 20%; }
+
   100% {
     opacity: 1;
     left: 0; } }
+
 @media (max-height: 800px) {
   .nav-down {
     opacity: 1;
@@ -884,8 +887,10 @@
 @keyframes play {
   from {
     background-position-x: 0px; }
+
   to {
     background-position-x: -4620px; } }
+
 /**
  * Footer
  */
@@ -954,7 +959,7 @@ footer.page-footer {
   background-color: transparent;
   position: absolute; }
 
-.jbackground {
+.jobs-background {
   background: url("../img/jobs/team.jpg") no-repeat;
   background-position: center; }
 
@@ -1248,7 +1253,7 @@ footer.page-footer {
 /**
  * Migration Page
  */
-.mbackground {
+.migration-background {
   background-image: url("../img/enterprise/enterprise.jpg");
   background-position: bottom 0 right 0; }
 
@@ -1260,7 +1265,7 @@ footer.page-footer {
 /**
  * Enterprise Page
  */
-.ebackground {
+.enterprise-background {
   background-image: url("../img/enterprise/enterprise.jpg");
   background-position: bottom 0 right 0; }
 
@@ -1885,7 +1890,7 @@ footer.page-footer {
 /**
  * Enterprise Page
  */
-.ebackground {
+.enterprise-background {
   background-image: url("../img/enterprise/enterprise.jpg");
   background-position: bottom 0 right 0; }
 
@@ -2382,7 +2387,7 @@ p {
     right: 50px;
     transition: all 0.3s ease 0s; }
   .btn-primary:hover {
-    background-color: #0073B2;
+    background-color: #0073b2;
     text-decoration: none; }
     .btn-primary:hover:before {
       right: 30px; }
@@ -2390,7 +2395,7 @@ p {
     -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
-    background-color: #0073B2; }
+    background-color: #0073b2; }
 
 @media (max-width: 768px) {
   .btn-primary {
@@ -2478,5 +2483,3 @@ p {
     @media (max-width: 1200px) {
       .highlights_align h4 {
         margin-left: 0; } }
-
-/*# sourceMappingURL=custom.css.map */

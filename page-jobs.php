@@ -1,4 +1,4 @@
-<div class="background jbackground"> 
+<div class="background jobs-background"> 
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
