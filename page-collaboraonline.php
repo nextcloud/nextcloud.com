@@ -12,17 +12,16 @@
 		<p><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite that supports all major document, spreadsheet and presentation file formats.');?></p>
 		<p><?php echo $l->t('Features:');?></p>
 			<ul>
-				<li><?php echo $l->t('Basic editing');?></li>
+				<li><?php echo $l->t('Collaborative editing');?>
+				<li><?php echo $l->t('High fidelity, WYSIWYG rendering');?></li>
+					<ul>
+						<li><?php echo $l->t('Multiple people can edit simultaneously and see who is editing where and what realitme.');?></li>
+					</ul>
+				</li>
 				<li><?php echo $l->t('Document Support:');?>
 					<ul>
 						<li><?php echo $l->t('DOC, DOCX, PPT, PPTX, XLS, XLSX + ODF');?></li>
 						<li><?php echo $l->t('Import/View Visio, Publisher, + 100 more');?></li>
-					</ul>
-				</li>
-				<li><?php echo $l->t('High fidelity, WYSIWYG rendering');?></li>
-				<li><?php echo $l->t('Shared editing');?>
-					<ul>
-						<li><?php echo $l->t('One user edits, others can follow. You can change who edits.');?></li>
 					</ul>
 				</li>
 			</ul>
