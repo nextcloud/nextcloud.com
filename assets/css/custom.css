@@ -1283,6 +1283,15 @@ footer.page-footer {
   background-image: url("../img/enterprise/enterprise.jpg");
   background-position: bottom 0 right 0; }
 
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.abackground {
+  background: url("../img/jobs/team.jpg") no-repeat;
+  background-position: center; }
+
 html {
   margin-top: 0 !important; }
 
