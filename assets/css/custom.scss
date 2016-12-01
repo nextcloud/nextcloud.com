@@ -6,6 +6,9 @@
 @import "box.scss";
 @import "contribute.scss";
 @import "migration.scss";
+@import "enterprise.scss";
+@import "secure.scss";
+@import "buy.scss";
 
 
 html{
@@ -30,6 +33,7 @@ body {
 i[class*='fa-'] {
 	font-style: normal;
 	color: #555;
+	font-family: "fontawesome", fontawesome, "Font Awesome", Fontawesome !important; /* to override the Open Sans font set above */
 }
 
 h1 {
