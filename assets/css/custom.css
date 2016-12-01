@@ -70,10 +70,12 @@
   .jumbotron .toptext {
     position: absolute;
     top: 30vh;
-    margin-left: 5%; }
+    padding-left: 0;
+    margin-left: 0; }
     @media (max-width: 991px) {
       .jumbotron .toptext {
-        top: 120px; } }
+        top: 120px;
+        margin-left: 5%; } }
     .jumbotron .toptext .annoucement {
       background-color: rgba(0, 115, 178, 0.51);
       border-radius: 20px;

@@ -80,10 +80,12 @@
   .toptext {
     position: absolute;
     top: 30vh;
-    margin-left: 5%;
+	padding-left: 0;
+    margin-left: 0;
     
     @media (max-width: $break-big) {
       top: 120px;
+	  margin-left: 5%;
     }
     .annoucement {
       background-color:  rgba(0, 115, 178, 0.51);
