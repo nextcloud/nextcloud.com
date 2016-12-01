@@ -98,7 +98,7 @@
         font-size: 11px;
         line-height: 16px;
         font-weight: 600;
-        background: #ff8b00;
+        background: #FF8B00;
         text-transform: uppercase;
         border-radius: 10px; }
         @media (max-width: 768px) {
@@ -449,3 +449,5 @@ section#why-nextcloud {
 
 .revealOnScroll {
   opacity: 0; }
+
+/*# sourceMappingURL=home.css.map */

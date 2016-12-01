@@ -1,4 +1,5 @@
 @import "variables.scss";
+@import "helpers.scss";
 @import "home.scss";
 @import "header.scss";
 @import "footer.scss";
@@ -122,7 +123,29 @@ p {
  * Overwrite buttons for bootstrap
  */
 .button {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;    
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    padding: 0 30px;
+    border-radius: 30px;
 
+    @include modifier(large) {
+        height:60px;
+        line-height: 60px;
+    }
+
+    @include modifier(small) {
+        height: 40px;
+        line-height: 40px;
+    }
 }
 
 .btn-primary{

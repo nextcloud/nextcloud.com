@@ -1371,6 +1371,27 @@ p {
 /**
  * Overwrite buttons for bootstrap
  */
+.button {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: white;
+  border: solid 1px white;
+  padding: 0 30px;
+  border-radius: 30px; }
+  .button--large {
+    height: 60px;
+    line-height: 60px; }
+  .button--small {
+    height: 40px;
+    line-height: 40px; }
+
 .btn-primary {
   background-color: #0082c9;
   font-size: 18px;
