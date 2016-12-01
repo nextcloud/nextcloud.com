@@ -1,10 +1,14 @@
-<!-- <?php get_template_part('templates/parts/title'); ?> -->
-<div class="container">
-	<div class="page-header">
-		<h1><?php echo $l->t('Migration Guide');?></h1>
+<div class="background mbackground"> 
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 topheader">
+				<h1><?php echo $l->t('Migration Guide');?></h1>
+				<h2><?php echo $l->t('Nextcloud strives to make migration of customers from ownCloud™ as seamless as possible. Due to the large technical overlap, the migration of the application is easy. Business processes are equally easily updated.');?></h2>
+			</div>
+		</div>
 	</div>
-	<p><?php echo $l->t('Nextcloud strives to make migration of customers from ownCloud™ as seamless as possible. Due to the large technical overlap, the migration of the application is easy. Business processes are equally easily updated.');?></p>
-
+</div>
+<div class="container">
 	<h2><?php echo $l->t('Technical migration');?></h2>
 	<p><?php echo $l->t('Moving from ownCloud™ to Nextcloud follows the same process as a upgrade within either product. You can essentially follow our');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/manual_upgrade.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">usual upgrade documentation.</a>');?></p>
 

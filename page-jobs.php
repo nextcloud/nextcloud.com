@@ -1,5 +1,5 @@
-<div class="jbackground"> 
-	<div class="container-widest">
+<div class="background jbackground"> 
+	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
 				<h1>We are hiring</h1>

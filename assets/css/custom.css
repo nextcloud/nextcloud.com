@@ -1262,6 +1262,27 @@ footer.page-footer {
         .section-partners .container .wrapper-images .logo-ubuntu {
           width: 121px;
           height: 30px; } }
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.cbackground {
+  background: url("../img/jobs/team.jpg") no-repeat;
+  background-position: center; }
+
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+/**
+ * Migration Page
+ */
+.mbackground {
+  background-image: url("../img/enterprise/enterprise.jpg");
+  background-position: bottom 0 right 0; }
+
 html {
   margin-top: 0 !important; }
 
@@ -1270,42 +1291,59 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+/* Some space on top of pages */
+.container {
+  margin-top: 50px; }
+
 /**
- * Headers
+ * Headers and standard fonts
  */
+body {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-top: 5px;
+  color: #555; }
+
+i[class*='fa-'] {
+  font-style: normal;
+  color: #555; }
+
 h1 {
-  font-size: 60px;
-  line-height: 60px;
-  letter-spacing: -2px;
-  color: #2a2a36;
-  font-weight: 500; }
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 45px;
+  /*   line-height: 60px; */
+  /*   letter-spacing: -2px; */
+  color: #555;
+  font-weight: 300; }
 
 h2 {
-  font-size: 60px;
+  font-size: 27px;
   font-weight: 300;
-  line-height: 0.9;
-  color: #2a2a36; }
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 12px; }
 
 h3 {
-  font-size: 35px;
+  font-size: 22px;
   font-weight: 300;
   line-height: 1.5;
   /*   text-align: center; */
-  color: #2a2a36; }
+  color: #555; }
 
 h4 {
-  font-size: 25px;
+  font-size: 19px;
   font-weight: bold;
   line-height: 1.36;
-  color: #2a2a36;
+  color: #555;
   margin-bottom: 20px; }
 
 h5 {
-  font-size: 24px;
+  font-size: 17px;
   font-weight: bold;
   line-height: 1.5;
   letter-spacing: -1px;
-  color: #2a2a36; }
+  color: #555; }
 
 /* New widest container for headers */
 .container-widest {
