@@ -69,13 +69,64 @@
     opacity: 0; }
   .jumbotron .toptext {
     position: absolute;
-    padding-left: 0;
-    margin-left: 0;
-    top: 30vh; }
+    top: 30vh;
+    margin-left: 5%; }
     @media (max-width: 991px) {
       .jumbotron .toptext {
-        top: 120px;
-        margin-left: 5%; } }
+        top: 120px; } }
+    .jumbotron .toptext .annoucement {
+      background-color: rgba(0, 115, 178, 0.51);
+      border-radius: 20px;
+      padding: 0 12px 0 5px;
+      text-decoration: none;
+      color: white;
+      line-height: 26px;
+      display: inline-flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      @media (max-width: 768px) {
+        .jumbotron .toptext .annoucement {
+          margin-left: -20px;
+          width: calc(100% + 20px * 2);
+          border-radius: 0; } }
+      .jumbotron .toptext .annoucement .type {
+        padding: 0 6px;
+        font-size: 11px;
+        line-height: 16px;
+        font-weight: 600;
+        background: #ff8b00;
+        text-transform: uppercase;
+        border-radius: 10px; }
+        @media (max-width: 768px) {
+          .jumbotron .toptext .annoucement .type {
+            margin-left: 10px; } }
+      .jumbotron .toptext .annoucement .message {
+        margin: 0 16px 0 6px;
+        font-size: 13px; }
+        @media (max-width: 768px) {
+          .jumbotron .toptext .annoucement .message {
+            font-size: 15px;
+            line-height: 22px;
+            margin: 10px 10px; } }
+        .jumbotron .toptext .annoucement .message:after {
+          position: absolute;
+          display: inline-block;
+          content: ' ';
+          background-image: url("../img/next.svg");
+          background-size: 12px 12px;
+          height: 12px;
+          width: 12px;
+          top: 7px;
+          margin-left: 5px;
+          transition: all 0.3s ease; }
+          @media (max-width: 768px) {
+            .jumbotron .toptext .annoucement .message:after {
+              position: relative;
+              top: 2px; } }
+        .jumbotron .toptext .annoucement .message:hover:after {
+          margin-left: 10px; }
 
 .jumbotron > .container-fluid > .col-md-6 > p > a {
   width: 290px;
@@ -396,5 +447,3 @@ section#why-nextcloud {
 
 .revealOnScroll {
   opacity: 0; }
-
-/*# sourceMappingURL=home.css.map */
