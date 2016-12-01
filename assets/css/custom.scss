@@ -4,6 +4,9 @@
 @import "footer.scss";
 @import "jobs.scss";
 @import "box.scss";
+@import "contribute.scss";
+@import "migration.scss";
+
 
 html{
     margin-top: 0 !important;
@@ -15,46 +18,63 @@ body {
   -moz-osx-font-smoothing: grayscale; 
 }
 
-
 /**
- * Headers
+ * Headers and standard fonts
  */
+body {
+	font-size: 16px;
+	line-height: 1.7;
+	color: #555;
+}
+
+i[class*='fa-'] {
+	font-style: normal;
+	color: #555;
+}
+
 h1 {
-  font-size: 60px;
-  line-height: 60px;
-  letter-spacing: -2px;
-  color: #2a2a36;
-  font-weight: 500; }
+  margin-bottom: 10px;
+	font-size: 45px;
+/*   line-height: 60px; */
+/*   letter-spacing: -2px; */
+  color: #555;
+  font-weight: 300;
+}
 
 h2 {
-  font-size: 60px;
+  font-size: 27px;
   font-weight: 300;
-  line-height: 0.9;
-  color: #2a2a36; 
+  color: #555; 
+  line-height: 1.5;
+  margin-bottom: 12px;
 }
 
 h3 {
-  font-size: 35px;
+  font-size: 22px;
   font-weight: 300;
   line-height: 1.5;
 /*   text-align: center; */
-  color: #2a2a36; 
+  color: #555; 
 }
 
 h4 {
-  font-size: 25px;
+  font-size: 19px;
   font-weight: bold;
   line-height: 1.36;
-  color: #2a2a36;
+  color: #555;
   margin-bottom: 20px; 
 }
 
 h5 {
-  font-size: 24px;
+  font-size: 17px;
   font-weight: bold;
   line-height: 1.5;
   letter-spacing: -1px;
-  color: #2a2a36; 
+  color: #555; 
+}
+
+p {
+	margin-top: 5px;
 }
 
 /* New widest container for headers */
@@ -63,6 +83,44 @@ h5 {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1800px;
+}
+
+
+/* typical background images (hero section) like enterprise, security */
+.background {
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 !important;
+  height: 70vh;
+  min-height: 600px;
+  max-height: 800px;
+  position: relative;
+
+  h1 {
+    padding-top: 0;
+    color: white;
+  }
+
+  h2 {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .topheader {
+    position: absolute;
+    top: 30%;
+    margin: 0;
+    padding: 0;
+    max-width: 600px;
+    
+    @media (max-width: $break-big) {
+      padding-left: 5%;
+    }
+  }
 }
 
 

@@ -5,27 +5,7 @@
 
 .jbackground {
   background: url("../img/jobs/team.jpg") no-repeat;
-  padding-bottom: 0;
-  padding-top: 0;
-  margin-bottom: 0;
-  background-position: center;
-  background-size: cover;
-  height: 70vh;
-  min-height: 600px;
-  max-height: 800px;
-  position: relative; }
-  .jbackground h1 {
-    padding-top: 0;
-    color: white; }
-  .jbackground h2 {
-    color: white;
-    font-size: 18px;
-    line-height: 1.6; }
-  .jbackground .topheader {
-    position: absolute;
-    top: 30%;
-    margin-left: 5%;
-    max-width: 600px; }
+  background-position: center; }
 
 .section-company-description {
   margin-top: 130px; }

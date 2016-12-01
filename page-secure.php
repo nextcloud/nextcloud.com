@@ -1,9 +1,8 @@
-<div class="container-fluid background">
+<div class=" background sbackground">
 	<div class="container">
 		<div class="col-md-6 topheader">
 			<h1><?php echo $l->t('Security and authentication');?></h1>
-			<h2><?php echo $l->t('Nextcloud is designed to protect user data <br />
-			through multiple layers of protection.');?></h2>
+			<h2><?php echo $l->t('Nextcloud is designed to protect user data <br /> through multiple layers of protection.');?></h2>
 		</div>
 	</div>
 </div>

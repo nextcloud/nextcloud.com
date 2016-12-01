@@ -1,5 +1,5 @@
 <script src='https://www.google.com/recaptcha/api.js'></script>
-<div class="container-fluid background">
+<div class="background ebackground">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">

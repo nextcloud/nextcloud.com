@@ -323,6 +323,11 @@ button a:hover {text-decoration: none; }
 /* 	background: #428bca !important; */
 }
 
+.page-header {
+	margin-top: 40px !important;
+	border-bottom: 0px solid #EEE;
+}
+
 div.page-header {
 border-bottom: 0px solid #EEE;
 }
