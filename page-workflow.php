@@ -1,5 +1,5 @@
 <div class="featurerow">
-	<h1 class="featuretitle"><?php echo $l->t('File Access Control and Workflows');?></h1>
+	<h1 class="featuretitle page-header"><?php echo $l->t('File Access Control and Workflows');?></h1>
 	<div class="row">
 		<div class="col-md-6 featureblock">
 			<h2 class="featuretitle"><?php echo $l->t('Access on your terms');?></h2>

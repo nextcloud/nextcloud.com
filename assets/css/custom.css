@@ -1291,17 +1291,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* Some space on top of pages */
-.container {
-  margin-top: 50px; }
-
 /**
  * Headers and standard fonts
  */
 body {
   font-size: 16px;
   line-height: 1.7;
-  margin-top: 5px;
   color: #555; }
 
 i[class*='fa-'] {
@@ -1309,7 +1304,6 @@ i[class*='fa-'] {
   color: #555; }
 
 h1 {
-  margin-top: 20px;
   margin-bottom: 10px;
   font-size: 45px;
   /*   line-height: 60px; */
@@ -1345,6 +1339,9 @@ h5 {
   letter-spacing: -1px;
   color: #555; }
 
+p {
+  margin-top: 5px; }
+
 /* New widest container for headers */
 .container-widest {
   margin-left: auto;
@@ -1355,7 +1352,7 @@ h5 {
 .background {
   padding-bottom: 0;
   padding-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 50px;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 !important;
