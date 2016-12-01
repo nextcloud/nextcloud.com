@@ -1371,7 +1371,7 @@ img.desaturate {
 	min-height: 700px;
 	opacity: 1;
 	visibility: inherit;
-	background-image: url("../img/spreedbox/spreedbox.png");
+	background-image: url("../../img/spreedbox/spreedbox.png");
 	background-color: rgba(0, 0, 0, 0);
 	background-size: cover;
 	background-position: center top;

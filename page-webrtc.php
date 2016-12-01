@@ -227,7 +227,7 @@ Open the Nextcloud admin settings page (/index.php/settings/admin#goto-spreed.me
 <h2><?php echo $l->t('Troubleshooting and other documentation');?></h2>
 <p><?php echo $l->t('Community members are already discussing the Spreed.ME integration. You can find a how-to for <a href="https://help.nextcloud.com/t/nextcloud-9-update-brings-security-open-source-enterprise-capabilities-and-support-subscription-ios-app/1383/43" target="_blank">installing Spreed.ME under Ubuntu 16.04 an armhf-device (odroid xu4) here!</a>');?></p>
 
-<h1><?php echo $l->t('<a href="https://help.nextcloud.com">Discuss Spreed.ME integration on our forums</a>');?></h1>
+<h1><?php echo $l->t('<a href="https://help.nextcloud.com/c/apps/spreedme">Discuss Spreed.ME integration on our forums</a>');?></h1>
 
 
 <link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
