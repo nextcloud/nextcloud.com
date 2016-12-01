@@ -6,6 +6,29 @@
 		</div>
 	</div>
 </div>
+
+<style>
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('assets/img/features/collabora-document.png') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+</style>
+<video poster="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-document.png" id="bgvid" playsinline autoplay muted loop>
+<!-- <source src="" type="video/webm"> -->
+<source src="<?php bloginfo('template_directory'); ?>/assets/img/features/video-longest2.mp4" type="video/mp4">
+</video>
+
+
 <div class="container">
 	<p><?php echo $l->t('We invite you to join our <a href="https://github.com/nextcloud" target="_blank">development efforts on GitHub</a>, the conversations on <a href="https://help.nextcloud.com" target="_blank">our forums</a> and our <a href="irc://#nextcloud-dev@freenode.net" target="_blank">IRC channel on freenode</a>, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. Interact with us on our <a href="/news">blogs and social media channels</a>, too!');?></p>
 	<p><?php echo $l->t('Do you want to get a certain <strong>improvement</strong> in Nextcloud? Did you find a <strong>problem</strong>?
