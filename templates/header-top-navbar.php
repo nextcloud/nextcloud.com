@@ -43,7 +43,7 @@ $l = new L10N('header-navbar');
 
 				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Enterprise');?></a>
 					<ul class="nav__links">
-						<li class="nav__item"><a href="<?php echo home_url('pricing') ?>"><?php echo $l->t('Pricing');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Pricing');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('buy') ?>"><?php echo $l->t('Get an offer');?></a></li>
 					</ul>
 				</li>
