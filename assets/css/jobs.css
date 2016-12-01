@@ -3,7 +3,7 @@
   background-color: transparent;
   position: absolute; }
 
-.background {
+.jbackground {
   background: url("../img/jobs/team.jpg") no-repeat;
   padding-bottom: 0;
   padding-top: 0;
@@ -12,20 +12,20 @@
   background-size: cover;
   height: 70vh;
   min-height: 600px;
-  max-height: 800px; }
-  .background .container {
-    top: 50%;
-    transform: translateY(-50%);
-    position: relative;
-    margin-left: 5%;
-    padding: 0; }
-  .background h1 {
+  max-height: 800px;
+  position: relative; }
+  .jbackground h1 {
     padding-top: 0;
     color: white; }
-  .background h2 {
+  .jbackground h2 {
     color: white;
     font-size: 18px;
     line-height: 1.6; }
+  .jbackground .topheader {
+    position: absolute;
+    top: 30%;
+    margin-left: 5%;
+    max-width: 600px; }
 
 .section-company-description {
   margin-top: 130px; }
@@ -65,5 +65,3 @@
       max-width: 700px;
       padding-top: 20px;
       font-size: 18px; }
-
-/*# sourceMappingURL=jobs.css.map */

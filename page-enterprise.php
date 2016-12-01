@@ -1,14 +1,14 @@
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/enterprise.js"></script>
-
-
-<div class="container-fluid background"> 
+<div class="ebackground"> 
 	<div class="container">
-		<div class="col-md-6 topheader">
-			<h1><?php echo $l->t('Enterprise Support Subscriptions');?></h1>
-			<h2><?php echo $l->t('An enterprise subscription provides you the confidence of knowing that your Nextcloud deployment is backed by the best available technical expertise and with the features you need for your organization');?></h2>
+		<div class="row">
+			<div class="col-md-6 topheader">
+				<h1><?php echo $l->t('Enterprise Support Subscriptions');?></h1>
+				<h2><?php echo $l->t('An enterprise subscription provides you the confidence of knowing that your Nextcloud deployment is backed by the best available technical expertise and with the features you need for your organization');?></h2>
+			</div>
 		</div>
 	</div>
 </div>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/enterprise.js"></script>
 
 <div class="container pricing">
 	<div class="row">

@@ -5,7 +5,7 @@
 /**
  * Enterprise Page
  */
-.background {
+.ebackground {
   background-image: url("../img/enterprise/enterprise.jpg");
   padding-bottom: 0;
   padding-top: 0;
@@ -17,6 +17,7 @@
   height: 70vh;
   min-height: 600px;
   max-height: 800px;
+  position: relative;
 
   h1 {
     padding-top: 0;
@@ -29,34 +30,15 @@
     line-height: 1.6;
   }
 
-  .btn-primary {
-    margin-top: 50px;
-    width: 70%;
-  }
-
-  .container {
-    top: 50%;
-    transform: translateY(-50%);
-    position: relative;
-    margin-left: 5%;
+  .topheader {
+    position: absolute;
+    top: 30%;
+    margin: 0;
     padding: 0;
+    max-width: 600px;
     
-	  .topheader {
-      	padding: 0;
-      
-		a{
-			width: 290px;
-			height: 60px;
-			padding-top: 16px
-      }
-    }
-  }
-
-  .container-fluid{
-    
-	  img {
-      	height: 100%;
-      	width: 100%;
+    @media (max-width: $break-big) {
+      padding-left: 5%;
     }
   }
 }
@@ -208,7 +190,7 @@
   
   a {
   color: #b1b1b1;
-  font-decoration: none;
+  text-decoration: none;
   }
 }
 
@@ -257,10 +239,6 @@
 }
 
 /* Tooltips */
-
-/* Tooltip container */
-.overinfo {
-}
 
 /* Tooltip text */
 .overinfo .infotext {
