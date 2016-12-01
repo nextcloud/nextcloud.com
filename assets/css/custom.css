@@ -98,7 +98,7 @@
         font-size: 11px;
         line-height: 16px;
         font-weight: 600;
-        background: #ff8b00;
+        background: #FF8B00;
         text-transform: uppercase;
         border-radius: 10px; }
         @media (max-width: 768px) {
@@ -773,11 +773,9 @@ section#why-nextcloud {
   0% {
     opacity: 0;
     left: 20%; }
-
   100% {
     opacity: 1;
     left: 0; } }
-
 @media (max-height: 800px) {
   .nav-down {
     opacity: 1;
@@ -874,10 +872,8 @@ section#why-nextcloud {
 @keyframes play {
   from {
     background-position-x: 0px; }
-
   to {
     background-position-x: -4620px; } }
-
 /**
  * Footer
  */
@@ -1305,14 +1301,14 @@ i[class*='fa-'] {
 
 h1 {
   margin-bottom: 10px;
-  font-size: 45px;
+  font-size: 60px;
   /*   line-height: 60px; */
-  /*   letter-spacing: -2px; */
+  letter-spacing: -2px;
   color: #555;
-  font-weight: 300; }
+  font-weight: 500; }
 
 h2 {
-  font-size: 27px;
+  font-size: 60px;
   font-weight: 300;
   color: #555;
   line-height: 1.5;
@@ -1401,7 +1397,7 @@ p {
     right: 50px;
     transition: all 0.3s ease 0s; }
   .btn-primary:hover {
-    background-color: #0073b2;
+    background-color: #0073B2;
     text-decoration: none; }
     .btn-primary:hover:before {
       right: 30px; }
@@ -1409,7 +1405,7 @@ p {
     -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
-    background-color: #0073b2; }
+    background-color: #0073B2; }
 
 @media (max-width: 768px) {
   .btn-primary {
@@ -1497,3 +1493,5 @@ p {
     @media (max-width: 1200px) {
       .highlights_align h4 {
         margin-left: 0; } }
+
+/*# sourceMappingURL=custom.css.map */

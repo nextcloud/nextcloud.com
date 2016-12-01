@@ -1,0 +1,10 @@
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.cbackground {
+  background: url("../img/jobs/team.jpg") no-repeat;
+  background-position: center; }
+
+/*# sourceMappingURL=contribute.css.map */
