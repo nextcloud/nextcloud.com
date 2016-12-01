@@ -6,43 +6,9 @@
 /**
  * Secure Page
  */
-.background {
+.sbackground {
   background-image: url("../img/security/security.jpg");
-  padding-bottom: 0;
-  padding-top: 0;
-  margin-bottom: 0;
-  background-repeat: no-repeat;
-  background-position: bottom 0 right 0;
-  background-size: cover;
-  border-radius: 0 !important;
-  height: 70vh;
-  min-height: 600px;
-  max-height: 800px; }
-  .background h1 {
-    padding-top: 0;
-    color: white; }
-  .background h2 {
-    color: white;
-    font-size: 18px;
-    line-height: 1.6; }
-  .background .btn-primary {
-    margin-top: 50px;
-    width: 70%; }
-  .background .container {
-    top: 50%;
-    transform: translateY(-50%);
-    position: relative;
-    margin-left: 5%;
-    padding: 0; }
-    .background .container .topheader {
-      padding: 0; }
-      .background .container .topheader a {
-        width: 290px;
-        height: 60px;
-        padding-top: 16px; }
-  .background .container-fluid img {
-    height: 100%;
-    width: 100%; }
+  background-position: bottom 0 right 0; }
 
 /* All headers */
 .featureblock {
@@ -331,5 +297,3 @@
       margin-right: auto;
       margin-top: 36px;
       margin-bottom: 17px; }
-
-/*# sourceMappingURL=secure.css.map */

@@ -7,41 +7,7 @@
  */
 .ebackground {
   background-image: url("../img/enterprise/enterprise.jpg");
-  padding-bottom: 0;
-  padding-top: 0;
-  margin-bottom: 0;
-  background-repeat: no-repeat;
-  background-position: bottom 0 right 0;
-  background-size: cover;
-  border-radius: 0 !important;
-  height: 70vh;
-  min-height: 600px;
-  max-height: 800px;
-  position: relative;
-
-  h1 {
-    padding-top: 0;
-    color: white;
-  }
-
-  h2 {
-    color: white;
-    font-size: 18px;
-    line-height: 1.6;
-  }
-
-  .topheader {
-    position: absolute;
-    top: 30%;
-    margin: 0;
-    padding: 0;
-    max-width: 600px;
-    
-    @media (max-width: $break-big) {
-      padding-left: 5%;
-    }
-  }
-}
+  background-position: bottom 0 right 0;}
 
 /* All headers */
 

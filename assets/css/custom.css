@@ -948,27 +948,7 @@ footer.page-footer {
 
 .jbackground {
   background: url("../img/jobs/team.jpg") no-repeat;
-  padding-bottom: 0;
-  padding-top: 0;
-  margin-bottom: 0;
-  background-position: center;
-  background-size: cover;
-  height: 70vh;
-  min-height: 600px;
-  max-height: 800px;
-  position: relative; }
-  .jbackground h1 {
-    padding-top: 0;
-    color: white; }
-  .jbackground h2 {
-    color: white;
-    font-size: 18px;
-    line-height: 1.6; }
-  .jbackground .topheader {
-    position: absolute;
-    top: 30%;
-    margin-left: 5%;
-    max-width: 600px; }
+  background-position: center; }
 
 .section-company-description {
   margin-top: 130px; }
@@ -1332,6 +1312,35 @@ h5 {
   margin-left: auto;
   margin-right: auto;
   max-width: 1800px; }
+
+/* typical background images (hero section) like enterprise, security */
+.background {
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 !important;
+  height: 70vh;
+  min-height: 600px;
+  max-height: 800px;
+  position: relative; }
+  .background h1 {
+    padding-top: 0;
+    color: white; }
+  .background h2 {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6; }
+  .background .topheader {
+    position: absolute;
+    top: 30%;
+    margin: 0;
+    padding: 0;
+    max-width: 600px; }
+    @media (max-width: 991px) {
+      .background .topheader {
+        padding-left: 5%; } }
 
 /**
  * Overwrite buttons for bootstrap
