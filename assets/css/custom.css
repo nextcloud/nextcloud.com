@@ -1241,8 +1241,8 @@ footer.page-footer {
   background-color: transparent;
   position: absolute; }
 
-.cbackground {
-  background: url("../img/jobs/team.jpg") no-repeat;
+.contribute-background {
+  background: url("../img/headers/team.jpg") no-repeat;
   background-position: center; }
 
 /* Make Navbar transparent */
