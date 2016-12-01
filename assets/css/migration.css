@@ -1,0 +1,13 @@
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+/**
+ * Migration Page
+ */
+.mbackground {
+  background-image: url("../img/enterprise/enterprise.jpg");
+  background-position: bottom 0 right 0; }
+
+/*# sourceMappingURL=migration.css.map */

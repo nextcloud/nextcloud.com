@@ -20,7 +20,11 @@
       min-height: 600px; } }
   .jumbotron h1 {
     padding-top: 0;
-    color: white; }
+    color: white;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -2px;
+    font-weight: 500; }
     @media (max-width: 991px) {
       .jumbotron h1 {
         width: 250px;
@@ -98,7 +102,7 @@
         font-size: 11px;
         line-height: 16px;
         font-weight: 600;
-        background: #ff8b00;
+        background: #FF8B00;
         text-transform: uppercase;
         border-radius: 10px; }
         @media (max-width: 768px) {
@@ -289,8 +293,10 @@
     .flexibility-icon {
       margin: auto; } }
 
-section#why-nextcloud {
+#why-nextcloud {
   padding-top: 130px; }
+  #why-nextcloud h2 {
+    font-size: 60px; }
 
 .Section-Introducing-Nextcloud {
   background-color: transparent;
@@ -302,6 +308,8 @@ section#why-nextcloud {
     .Section-Introducing-Nextcloud {
       padding-top: 60px;
       height: 100vh; } }
+  .Section-Introducing-Nextcloud h2 {
+    font-size: 60px; }
   .Section-Introducing-Nextcloud .img_carousel {
     padding-top: 100px;
     position: relative; }
@@ -454,7 +462,6 @@ section#why-nextcloud {
   .brand {
     -webkit-transform: scale(0.5);
     top: -26px !important; } }
-
 .nav {
   z-index: 1;
   padding-top: 20px;
@@ -778,11 +785,9 @@ section#why-nextcloud {
   0% {
     opacity: 0;
     left: 20%; }
-
   100% {
     opacity: 1;
     left: 0; } }
-
 @media (max-height: 800px) {
   .nav-down {
     opacity: 1;
@@ -879,10 +884,8 @@ section#why-nextcloud {
 @keyframes play {
   from {
     background-position-x: 0px; }
-
   to {
     background-position-x: -4620px; } }
-
 /**
  * Footer
  */
@@ -2409,7 +2412,7 @@ p {
     right: 50px;
     transition: all 0.3s ease 0s; }
   .btn-primary:hover {
-    background-color: #0073b2;
+    background-color: #0073B2;
     text-decoration: none; }
     .btn-primary:hover:before {
       right: 30px; }
@@ -2417,7 +2420,7 @@ p {
     -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
-    background-color: #0073b2; }
+    background-color: #0073B2; }
 
 @media (max-width: 768px) {
   .btn-primary {
@@ -2505,3 +2508,5 @@ p {
     @media (max-width: 1200px) {
       .highlights_align h4 {
         margin-left: 0; } }
+
+/*# sourceMappingURL=custom.css.map */

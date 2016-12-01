@@ -20,6 +20,10 @@
   h1 {
     padding-top: 0;
     color: white;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -2px;
+    font-weight: 500;
     @media (max-width: $break-big) {
       width: 250px;
       letter-spacing: -1px;
@@ -363,9 +367,12 @@
   }
 }
 
-section#why-nextcloud {
+#why-nextcloud {
   padding-top: 130px;
-
+  
+  h2{
+    font-size: 60px;
+  }
 }
 
 .Section-Introducing-Nextcloud {
@@ -377,6 +384,10 @@ section#why-nextcloud {
   @media (max-width: $navbar-breaksize) {
     padding-top: 60px;
     height: 100vh;
+  }
+
+  h2{
+    font-size: 60px;
   }
 
   .img_carousel {

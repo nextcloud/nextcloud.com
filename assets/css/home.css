@@ -20,7 +20,11 @@
       min-height: 600px; } }
   .jumbotron h1 {
     padding-top: 0;
-    color: white; }
+    color: white;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -2px;
+    font-weight: 500; }
     @media (max-width: 991px) {
       .jumbotron h1 {
         width: 250px;
@@ -98,7 +102,7 @@
         font-size: 11px;
         line-height: 16px;
         font-weight: 600;
-        background: #ff8b00;
+        background: #FF8B00;
         text-transform: uppercase;
         border-radius: 10px; }
         @media (max-width: 768px) {
@@ -289,8 +293,10 @@
     .flexibility-icon {
       margin: auto; } }
 
-section#why-nextcloud {
+#why-nextcloud {
   padding-top: 130px; }
+  #why-nextcloud h2 {
+    font-size: 60px; }
 
 .Section-Introducing-Nextcloud {
   background-color: transparent;
@@ -302,6 +308,8 @@ section#why-nextcloud {
     .Section-Introducing-Nextcloud {
       padding-top: 60px;
       height: 100vh; } }
+  .Section-Introducing-Nextcloud h2 {
+    font-size: 60px; }
   .Section-Introducing-Nextcloud .img_carousel {
     padding-top: 100px;
     position: relative; }
@@ -449,3 +457,5 @@ section#why-nextcloud {
 
 .revealOnScroll {
   opacity: 0; }
+
+/*# sourceMappingURL=home.css.map */
