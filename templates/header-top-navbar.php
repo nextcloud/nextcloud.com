@@ -1,7 +1,6 @@
 <?php
-
 $l = new L10N('header-navbar');
-
+require get_template_directory().'/strings.php';
 ?>
 <nav class="nav" id="nav">
 	<div class="container">
