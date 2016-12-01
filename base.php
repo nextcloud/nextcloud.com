@@ -91,7 +91,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'sharing',
 		'speaking',
 		'spreedbox',
-		'support',
+// 		'support',
 		'team',
 		'thanks',
 		'thankyou',
