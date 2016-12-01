@@ -6,9 +6,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="annoucement" href="#">
+				<a class="annoucement" href="https://nextcloud.com/blog/second-nextcloud-11-beta-available/">
 				<span class="type">Fresh</span>
-				<span class="message"><strong>Nextcloud 11 has just arrive.</strong> Take a look at the new features</span>
+				<span class="message"><strong>Nextcloud 11 is in beta testing.</strong> help out!</span>
 				</a>
 				<h1><?php echo $l->t('A safe home for <br> all your data');?></h1>
 				<h2><?php echo $l->t('Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.');?></h2>
