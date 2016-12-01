@@ -38,6 +38,7 @@ $l = new L10N('header-navbar');
 						<li class="nav__item"><a href="<?php echo home_url('workflow') ?>"><?php echo $l->t('Workflow');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('collabora') ?>"><?php echo $l->t('Online office');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('webrtc') ?>"><?php echo $l->t('Video chat');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('devices') ?>"><?php echo $l->t('Nextcloud devices');?></a></li>
 					</ul>
 				</li>
 
@@ -74,6 +75,7 @@ $l = new L10N('header-navbar');
 						<li class="nav__item"><a href="<?php echo home_url('team') ?>"><?php echo $l->t('Team');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('contributors') ?>"><?php echo $l->t('Community');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('jobs') ?>"><?php echo $l->t('Jobs');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('press') ?>"><?php echo $l->t('Press');?></a></li>
 					</ul>
 				</li>
 				
