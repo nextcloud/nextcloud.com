@@ -13,18 +13,12 @@ html{
 }
 
 body {
-  font-family: "Open Sans", Frutiger, Calibri, "Myriad Pro", Myriad, sans-serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; 
-}
-
-/**
- * Headers and standard fonts
- */
-body {
-	font-size: 16px;
-	line-height: 1.7;
-	color: #555;
+    font-family: "Open Sans", Frutiger, Calibri, "Myriad Pro", Myriad, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
 }
 
 i[class*='fa-'] {
@@ -35,7 +29,7 @@ i[class*='fa-'] {
 h1 {
     margin-bottom: 10px;
     font-size: 60px;
-    /*   line-height: 60px; */
+    line-height: 60px; 
     letter-spacing: -2px; 
     color: #555;
     font-weight: 500;
@@ -127,6 +121,10 @@ p {
 /**
  * Overwrite buttons for bootstrap
  */
+.button {
+
+}
+
 .btn-primary{
 	background-color: $nextcloud-blue;
 	font-size: 18px;
