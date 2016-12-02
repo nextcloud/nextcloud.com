@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": ";AACA,mBAAoB;EAClB,gBAAgB,EAAE,WAAW;EAC7B,QAAQ,EAAE,QAAQ;;ACApB,YAAa;EACX,UAAU,EAAE,qCAAqC;EACjD,mBAAmB,EAAE,MAAM",
+"mappings": ";;;;AACA,mBAAoB;EAClB,gBAAgB,EAAE,WAAW;EAC7B,QAAQ,EAAE,QAAQ;;ACApB,YAAa;EACX,UAAU,EAAE,qCAAqC;EACjD,mBAAmB,EAAE,MAAM",
 "sources": ["transparent-navbar.scss","contribute.scss"],
 "names": [],
 "file": "contribute.css"

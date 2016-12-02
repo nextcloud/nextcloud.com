@@ -97,6 +97,111 @@ p {
         background-color: white;
     }
 
+    @include modifier(dropdown) {
+        padding: 0;
+        .dropdown-toggle {
+            font-size: 0;
+            z-index: 1;
+            cursor: pointer;
+            position: relative;
+            top: 0;
+            border: none;
+            padding: 0;
+            margin: 0 0 0 1px;
+            background: transparent;
+            width: 100%;
+            display: none;
+
+            &:focus {
+                outline: 0;
+                opacity: 1;
+                visibility:visible;
+                z-index: 2;
+                border-width: 0 4px 5px 4px;
+            }
+        }
+
+        .dropdown-text {
+            cursor: pointer;
+            z-index: 2;
+            padding: 0 30px;
+        }
+
+        .dropdown-content {
+            -webkit-transition: all .25s ease;
+            -moz-transition: all .25s ease;
+            -ms-transition: all .25s ease;
+            -o-transition: all .25s ease;
+            transition: all .25s ease;
+            list-style-type: none;
+            position: relative;
+            top: 15px;
+            padding: 15px 25px;
+            margin: 0;
+            opacity: 0;
+            visibility:hidden;
+            border-radius: 3px;
+            line-height: 32px;
+            background-color: white;
+            border: 1px solid $light-grey;
+            width: 100%;
+            box-shadow: $elevation-shadow-1;
+
+            &:before {
+                content: "";
+                position: absolute;
+                bottom: 100%;
+                left: 50%;
+                right: auto;
+                -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+                height: 0;
+                width: 0;
+                border: 8px solid transparent;
+                border-bottom-color: #f1f1f1;
+            }
+
+            &:after {
+                content: "";
+                position: absolute;
+                bottom: 100%;
+                left: 50%;
+                right: auto;
+                -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+                height: 0;
+                width: 0;
+                border: 6px solid transparent;
+                border-bottom-color: white;
+            }
+
+            &.visible {
+                visibility: visible;
+                opacity: 1;
+            }
+
+            a {
+                display: block;
+                text-transform: none;
+                font-size: 14px;
+                color: #a0a0a0;
+                font-weight: 400;
+                line-height: 2.14;
+            }
+
+            &:hover {
+                opacity: 1;
+                visibility:visible;
+
+                a {
+                    background: white;
+                }
+            }
+        }
+    }
+
     @include modifier(large) {
         height:60px;
         line-height: 60px;

@@ -1,3 +1,9 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -450,6 +456,9 @@ section#why-nextcloud {
 .revealOnScroll {
   opacity: 0; }
 
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 .nav {
   z-index: 1;
   padding-top: 20px;
@@ -874,6 +883,9 @@ section#why-nextcloud {
     background-position-x: 0px; }
   to {
     background-position-x: -4620px; } }
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /**
  * Footer
  */
@@ -937,6 +949,9 @@ footer.page-footer {
       line-height: 1.8;
       color: #ffffff;
       width: 140px; } }
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -985,6 +1000,9 @@ footer.page-footer {
       padding-top: 20px;
       font-size: 18px; }
 
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -1258,6 +1276,9 @@ footer.page-footer {
         .section-partners .container .wrapper-images .logo-ubuntu {
           width: 121px;
           height: 30px; } }
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -1267,6 +1288,9 @@ footer.page-footer {
   background: url("../img/jobs/team.jpg") no-repeat;
   background-position: center; }
 
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -1353,6 +1377,90 @@ p {
     text-decoration: none;
     color: #0082c9;
     background-color: white; }
+  .button--dropdown {
+    padding: 0; }
+    .button--dropdown .dropdown-toggle {
+      font-size: 0;
+      z-index: 1;
+      cursor: pointer;
+      position: relative;
+      top: 0;
+      border: none;
+      padding: 0;
+      margin: 0 0 0 1px;
+      background: transparent;
+      width: 100%;
+      display: none; }
+      .button--dropdown .dropdown-toggle:focus {
+        outline: 0;
+        opacity: 1;
+        visibility: visible;
+        z-index: 2;
+        border-width: 0 4px 5px 4px; }
+    .button--dropdown .dropdown-text {
+      cursor: pointer;
+      z-index: 2;
+      padding: 0 30px; }
+    .button--dropdown .dropdown-content {
+      -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease;
+      list-style-type: none;
+      position: relative;
+      top: 15px;
+      padding: 15px 25px;
+      margin: 0;
+      opacity: 0;
+      visibility: hidden;
+      border-radius: 3px;
+      line-height: 32px;
+      background-color: white;
+      border: 1px solid #f1f1f1;
+      width: 100%;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11); }
+      .button--dropdown .dropdown-content:before {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        right: auto;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        height: 0;
+        width: 0;
+        border: 8px solid transparent;
+        border-bottom-color: #f1f1f1; }
+      .button--dropdown .dropdown-content:after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        right: auto;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        height: 0;
+        width: 0;
+        border: 6px solid transparent;
+        border-bottom-color: white; }
+      .button--dropdown .dropdown-content.visible {
+        visibility: visible;
+        opacity: 1; }
+      .button--dropdown .dropdown-content a {
+        display: block;
+        text-transform: none;
+        font-size: 14px;
+        color: #a0a0a0;
+        font-weight: 400;
+        line-height: 2.14; }
+      .button--dropdown .dropdown-content:hover {
+        opacity: 1;
+        visibility: visible; }
+        .button--dropdown .dropdown-content:hover a {
+          background: white; }
   .button--large {
     height: 60px;
     line-height: 60px; }

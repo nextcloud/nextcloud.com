@@ -1,3 +1,6 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -45,3 +48,5 @@
       max-width: 700px;
       padding-top: 20px;
       font-size: 18px; }
+
+/*# sourceMappingURL=jobs.css.map */
