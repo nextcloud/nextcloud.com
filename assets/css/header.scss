@@ -156,7 +156,7 @@
                         opacity: 1;
                         position: absolute;
                         left:50%;
-                        transform:translateX(-50%);
+                        transform:translateX(-50%) translateZ(1px);
                     }
                 }
 

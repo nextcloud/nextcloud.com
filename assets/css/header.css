@@ -2,7 +2,6 @@
   .brand {
     -webkit-transform: scale(0.5);
     top: -26px !important; } }
-
 .nav {
   z-index: 1;
   padding-top: 20px;
@@ -126,7 +125,7 @@
           opacity: 1;
           position: absolute;
           left: 50%;
-          transform: translateX(-50%); }
+          transform: translateX(-50%) translateZ(1px); }
         .nav .container .nav__sections .nav__section .nav__label {
           display: inline-block;
           padding-left: 30px;
@@ -347,11 +346,9 @@
   0% {
     opacity: 0;
     left: 20%; }
-
   100% {
     opacity: 1;
     left: 0; } }
-
 @media (max-height: 800px) {
   .nav-down {
     opacity: 1;
@@ -450,6 +447,7 @@
 @keyframes play {
   from {
     background-position-x: 0px; }
-
   to {
     background-position-x: -4620px; } }
+
+/*# sourceMappingURL=header.css.map */
