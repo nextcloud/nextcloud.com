@@ -1294,6 +1294,7 @@ i[class*='fa-'] {
   font-style: normal;
   color: #555; }
 
+/*Default typographic styles*/
 h1 {
   margin-bottom: 10px;
   font-size: 60px;
@@ -1313,7 +1314,6 @@ h3 {
   font-size: 22px;
   font-weight: 300;
   line-height: 1.5;
-  /*   text-align: center; */
   color: #555; }
 
 h4 {
@@ -1332,6 +1332,53 @@ h5 {
 
 p {
   margin-top: 5px; }
+
+/*All default buttons*/
+.button {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: white;
+  border: solid 1px white;
+  padding: 0 30px;
+  border-radius: 30px;
+  transition: all 0.3s ease 0s; }
+  .button:hover {
+    text-decoration: none;
+    color: #0082c9;
+    background-color: white; }
+  .button--large {
+    height: 60px;
+    line-height: 60px; }
+  .button--small {
+    height: 40px;
+    line-height: 40px; }
+  .button--blue {
+    background-color: #0082c9;
+    border: none; }
+    .button--blue:hover {
+      background-color: #0082c9;
+      color: white; }
+  .button--arrow {
+    padding-right: calc(30px + 20px); }
+    .button--arrow:before {
+      content: "";
+      background: url(../img/arrow_right.svg) center/contain no-repeat;
+      position: absolute;
+      display: block;
+      width: 20px;
+      height: 100%;
+      top: 0;
+      right: 25px;
+      transition: all 0.3s ease 0s; }
+    .button--arrow:hover:before {
+      right: 15px; }
 
 /* New widest container for headers */
 .container-widest {
@@ -1367,30 +1414,6 @@ p {
     @media (max-width: 991px) {
       .background .topheader {
         padding-left: 5%; } }
-
-/**
- * Overwrite buttons for bootstrap
- */
-.button {
-  position: relative;
-  display: inline-block;
-  height: 50px;
-  line-height: 50px;
-  font-weight: 600;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-decoration: none;
-  color: white;
-  border: solid 1px white;
-  padding: 0 30px;
-  border-radius: 30px; }
-  .button--large {
-    height: 60px;
-    line-height: 60px; }
-  .button--small {
-    height: 40px;
-    line-height: 40px; }
 
 .btn-primary {
   background-color: #0082c9;

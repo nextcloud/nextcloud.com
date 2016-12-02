@@ -27,6 +27,8 @@ i[class*='fa-'] {
     color: #555;
 }
 
+/*Default typographic styles*/
+
 h1 {
     margin-bottom: 10px;
     font-size: 60px;
@@ -48,7 +50,6 @@ h3 {
   font-size: 22px;
   font-weight: 300;
   line-height: 1.5;
-/*   text-align: center; */
   color: #555; 
 }
 
@@ -70,6 +71,73 @@ h5 {
 
 p {
 	margin-top: 5px;
+}
+
+/*All default buttons*/
+
+.button {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;    
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    padding: 0 30px;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+        text-decoration: none;
+        color: $nextcloud-blue;
+        background-color: white;
+    }
+
+    @include modifier(large) {
+        height:60px;
+        line-height: 60px;
+    }
+
+    @include modifier(small) {
+        height: 40px;
+        line-height: 40px;
+    }
+    
+    @include modifier("blue") {
+        background-color: $nextcloud-blue;
+        border: none;
+
+        &:hover {
+            background-color: $nextcloud-blue;
+            color: white;
+        }
+    }
+
+    @include modifier(arrow) {
+        padding-right: calc(30px + 20px); //value of current padding plus width of the before statment
+
+        &:before {
+            content: "";
+            background: url(../img/arrow_right.svg) center/contain no-repeat;
+            position: absolute;
+            display: block;
+            width: 20px;
+            height: 100%;
+            top: 0;
+            right: 25px;
+            transition: all 0.3s ease 0s;
+        }
+
+        &:hover {
+            &:before {
+			    right: 15px;	
+		    }
+        }
+    }
 }
 
 /* New widest container for headers */
@@ -116,36 +184,6 @@ p {
       padding-left: 5%;
     }
   }
-}
-
-
-/**
- * Overwrite buttons for bootstrap
- */
-.button {
-    position: relative;
-    display: inline-block;
-    height: 50px;
-    line-height: 50px;    
-    font-weight: 600;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-decoration: none;
-    color: white;
-    border: solid 1px white;
-    padding: 0 30px;
-    border-radius: 30px;
-
-    @include modifier(large) {
-        height:60px;
-        line-height: 60px;
-    }
-
-    @include modifier(small) {
-        height: 40px;
-        line-height: 40px;
-    }
 }
 
 .btn-primary{
