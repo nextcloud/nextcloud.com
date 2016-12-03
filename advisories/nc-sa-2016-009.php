@@ -20,7 +20,7 @@
 </p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>10.0.1</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>10.0.1</strong> (CVE-2016-9466)</li>
 <ul>
 <li><a href="https://github.com/nextcloud/gallery/commit/f9ef505c1d60c9041e251682e0f6b3daad952d58">gallery/f9ef505c1d60c9041e251682e0f6b3daad952d58</a></li>
 </ul>
