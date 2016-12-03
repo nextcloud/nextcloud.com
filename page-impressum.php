@@ -10,6 +10,7 @@ Kronenstraße 22A<br/>
 70173 Stuttgart Germany<br/>
 HRB 227086 (AG München)<br/>
 T +49 711 89 66 56 0<br/>
+<a href="/contact">contact form</a><br/>
 ');?></p>
 <p><?php
  echo $l->t('
