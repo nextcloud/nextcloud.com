@@ -99,6 +99,25 @@ p {
 
     @include modifier(dropdown) {
         padding: 0;
+
+        &:before {
+            content: "";
+            background: url(../img/arrow_down_white.svg) center/contain no-repeat;
+            position: absolute;
+            display: block;
+            width: 20px;
+            height: 100%;
+            top: 0;
+            right: 20px;
+            transition: all 0.2s ease-in;
+        }
+
+        &.active {
+            &:before {
+                transform: rotate(180deg);
+            }
+        }
+        
         .dropdown-toggle {
             font-size: 0;
             z-index: 1;
@@ -124,7 +143,7 @@ p {
         .dropdown-text {
             cursor: pointer;
             z-index: 2;
-            padding: 0 30px;
+            padding: 0 50px 0 30px;
         }
 
         .dropdown-content {
@@ -135,7 +154,7 @@ p {
             transition: all .25s ease;
             list-style-type: none;
             position: relative;
-            top: 15px;
+            top: 10px;
             padding: 15px 25px;
             margin: 0;
             opacity: 0;
@@ -180,6 +199,7 @@ p {
             &.visible {
                 visibility: visible;
                 opacity: 1;
+                top: 20px;
             }
 
             a {
@@ -189,15 +209,16 @@ p {
                 color: #a0a0a0;
                 font-weight: 400;
                 line-height: 2.14;
+
+                &:hover {
+                    text-decoration: none;
+                    color: $medium-grey;
+                }
             }
 
             &:hover {
                 opacity: 1;
                 visibility:visible;
-
-                a {
-                    background: white;
-                }
             }
         }
     }
