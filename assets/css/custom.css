@@ -2402,6 +2402,41 @@ i[class*='fa-'] {
   font-family: "fontawesome", fontawesome, "Font Awesome", Fontawesome !important;
   /* to override the Open Sans font set above */ }
 
+/* Bootstrap centered columns styles */
+.row-centered {
+  text-align: center; }
+
+.col-centered {
+  float: none;
+  margin: 0 auto; }
+
+/*Default typographic styles*/
+.section--text--center {
+  margin: 0 auto;
+  text-align: center; }
+.section--heading-1 {
+  font-size: 3.79688em;
+  font-weight: 300; }
+.section--heading-2 {
+  font-size: 2.53125em;
+  font-weight: 300; }
+.section--intro {
+  font-size: 22px;
+  font-weight: 300; }
+.section--intro {
+  font-size: 1.125em;
+  font-weight: 300; }
+
+.hyperlink {
+  color: #a2a2a2;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: solid 1px;
+  transition: all 0.5s ease; }
+  .hyperlink:hover {
+    text-decoration: none;
+    color: #2a2a36; }
+
 h1 {
   margin-bottom: 10px;
   font-size: 60px;

@@ -11,6 +11,7 @@
 @import "secure.scss";
 @import "buy.scss";
 @import "support.scss";
+@import 'vendor/modular-scale/modular-scale.scss';
 
 
 html{
@@ -35,6 +36,57 @@ i[class*='fa-'] {
 	font-style: normal;
 	color: #555;
 	font-family: "fontawesome", fontawesome, "Font Awesome", Fontawesome !important; /* to override the Open Sans font set above */
+}
+
+/* Bootstrap centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+/*Default typographic styles*/
+
+.section {
+    @include modifier(text--center) {
+        margin: 0 auto;
+        text-align: center;
+    } 
+
+    @include modifier(heading-1) {
+        font-size: ms(3);
+        font-weight: 300;
+    }
+
+    @include modifier(heading-2) {
+        font-size: ms(2);
+        font-weight: 300;
+    }
+
+    @include modifier(intro) {
+        font-size: ms(0, 22px);
+        font-weight: 300;  
+    }   
+
+    @include modifier(intro) {
+        font-size: ms(0);
+        font-weight: 300;  
+    }   
+}
+
+.hyperlink {
+    color: #a2a2a2;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: solid 1px;
+    transition: all 0.5s ease;
+
+    &:hover {
+        text-decoration: none;
+        color: $dark-blue;
+    }
 }
 
 h1 {
