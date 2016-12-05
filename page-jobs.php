@@ -183,7 +183,7 @@
 		<a data-target="#qtdev" data-toggle="collapse"><h3 class="jobs">Qt Developer<span class="icon-arrow"></span></h3></a>
 		<div id="qtdev" class="collapse">
 			<p>We're looking for developers with experience in C++/Qt development to join our client team!</p>
-			<p>You would work with the engineering team to bring new features and improvements to our client for Windows, Linux and Mac. You ideally have open source experience, know your way around git and Github and live in the CET timezone.</p>
+			<p>You would work with the engineering team to bring new features and improvements to our client for Windows, Linux and Mac. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
 			<p>Responsibilities:</p>
 			<ul>
 				<li>Cross-platform development, branding</li>
@@ -210,7 +210,7 @@
 		<a data-target="#jsdev" data-toggle="collapse"><h3 class="jobs">Frontend Developer<span class="icon-arrow"></span></h3></a>
 		<div id="jsdev" class="collapse">
 			<p>We're looking for developers with experience in Javascript front-end development to join our server team!</p>
-			<p>You would work with the engineering team to bring new features and improvements to the server user interface like our File management app or one of the many other applications like Calendar and Contacts, Announcements and more. You ideally have open source experience, know your way around git and Github and live in the CET timezone.</p>
+			<p>You would work with the engineering team to bring new features and improvements to the server user interface like our File management app or one of the many other applications like Calendar and Contacts, Announcements and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
 			<p>Responsibilities:</p>
 			<ul>
 				<li>Front end development (JS, PHP)</li>
@@ -238,7 +238,7 @@
 		<a data-target="#phpdev" data-toggle="collapse"><h3 class="jobs">PHP back-end developer<span class="icon-arrow"></span></h3></a>
 		<div id="phpdev" class="collapse">
 			<p>We're looking for developers with experience in PHP back-end development to join our server team!</p>
-			<p>You would work with the engineering team to bring new features and improvements to the server back-end like new authentication or storage mechanisms, audio/video chat and more. You ideally have open source experience, know your way around git and Github and live in the CET timezone.</p>
+			<p>You would work with the engineering team to bring new features and improvements to the server back-end like new authentication or storage mechanisms, audio/video chat and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
 			<p>Responsibilities:</p>
 			<ul>
 				<li>Back end development (PHP)</li>
@@ -266,7 +266,7 @@
 		<a data-target="#androiddev" data-toggle="collapse"><h3 class="jobs">Android App developer<span class="icon-arrow"></span></h3></a>
 		<div id="androiddev" class="collapse">
 			<p>We're looking for developers with experience in Android app development to join our client team!</p>
-			<p>You would work with the engineering team to bring new features and improvements to the Android app like new authentication mechanisms, audio/video chat integration and more. You ideally have open source experience, know your way around git and Github and live in the CET timezone.</p>
+			<p>You would work with the engineering team to bring new features and improvements to the Android app like new authentication mechanisms, audio/video chat integration and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
 			<p>Responsibilities:</p>
 			<ul>
 				<li>Android development (JAVA)</li>
@@ -294,7 +294,7 @@
 		<a data-target="#iosdev" data-toggle="collapse"><h3 class="jobs">iOS App developer<span class="icon-arrow"></span></h3></a>
 		<div id="iosdev" class="collapse">
 			<p>We're looking for developers with experience in iOS app development to join our client team!</p>
-			<p>You would work with the engineering team to bring new features and improvements to the iOS app like new authentication mechanisms, audio/video chat integration and more. You ideally have open source experience, know your way around git and Github and live in the CET timezone.</p>
+			<p>You would work with the engineering team to bring new features and improvements to the iOS app like new authentication mechanisms, audio/video chat integration and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
 			<p>Responsibilities:</p>
 			<ul>
 				<li>iOS development (Objective-C/Swift)</li>
