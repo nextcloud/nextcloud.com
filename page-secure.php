@@ -12,7 +12,7 @@
 		<p><?php echo $l->t('Security bugs are like technical debt: fixing them later is expensive. Our strategy is to prevent them from happening through a rigorous focus on security through the entire life cycle of our product and to get those which find their way through found and fixed as soon as possible.');?></p>
 		<p><small><strong><?php echo $l->t('Click each step in the process to learn more');?></strong></small></p>
 		<div id="processimg" class="processimg">
-			<ul class="nav nav-pills">
+			<ul class="snav nav-pills">
 				<li class="active"><a data-toggle="tab" href="#training"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/security/training.svg"></a></li>
 				<li><a data-toggle="tab" href="#requirements"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/security/requirements.svg"></a></li>
 				<li><a data-toggle="tab" href="#implementation"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/security/implementation.svg"></a></li>

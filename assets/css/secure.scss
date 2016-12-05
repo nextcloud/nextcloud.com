@@ -88,12 +88,11 @@
         margin-bottom: 30px;
       }
     }
-	
-	.nav {
-		opacity: 1;
+	.snav {
+		padding-left: 0;
+		margin-bottom: 0;
+		list-style: none;
 	}
-	
-	
 	@media (min-width: $break-small) {
 		height: 850px;
 		
@@ -101,7 +100,6 @@
 			width: 19%;
 			margin: 0px;
 		}
-		
 		.nav-pills li a {
 			padding: 0px;
 		}
