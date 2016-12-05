@@ -1031,9 +1031,6 @@ footer.page-footer {
   .section-data-home h2 {
     padding-top: 280px; }
   .section-data-home p {
-    font-size: 18px;
-    font-weight: 300;
-    max-width: 600px;
     padding-top: 20px;
     margin: 0 auto; }
   .section-data-home .btn-primary {
@@ -1060,7 +1057,6 @@ footer.page-footer {
         padding-top: 30px; }
 
 .section-getbox {
-  padding-top: 100px;
   height: 440px;
   width: 100%;
   background-color: #252323;
@@ -1068,10 +1064,7 @@ footer.page-footer {
   .section-getbox .container .wrapper-text {
     max-width: 550px;
     color: white;
-    z-index: 50;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%); }
+    padding-top: 40px; }
     .section-getbox .container .wrapper-text h2 {
       color: white; }
     .section-getbox .container .wrapper-text p {
@@ -1086,9 +1079,7 @@ footer.page-footer {
     height: 485px;
     background-repeat: no-repeat;
     float: right;
-    margin-top: -220px; }
-  .section-getbox .container .dropdown-menu {
-    z-index: 1000; }
+    margin-top: -130px; }
 
 .section-how-to-box {
   padding-top: 120px;
@@ -1098,7 +1089,6 @@ footer.page-footer {
   .section-how-to-box .container p {
     font-size: 18px;
     font-weight: 300;
-    max-width: 550px;
     margin: 0 auto;
     margin-top: 10px;
     text-align: center; }
@@ -1124,7 +1114,6 @@ footer.page-footer {
     .section-wiki-forums .container p {
       font-size: 18px;
       font-weight: 300;
-      max-width: 650px;
       margin: 0 auto;
       margin-top: 10px; }
     .section-wiki-forums .container .wrapper-buttons {
@@ -1147,7 +1136,6 @@ footer.page-footer {
     .section-partners .container p {
       font-size: 18px;
       font-weight: 300;
-      max-width: 650px;
       margin: 0 auto;
       margin-top: 10px; }
     .section-partners .container .wrapper-images {
@@ -1256,11 +1244,11 @@ footer.page-footer {
     padding-top: 50px; }
     .section-wiki-forums .container {
       padding-top: 30px; }
-      .section-wiki-forums .container .wrapper-buttons {
+      .section-wiki-forums .container .col-xs-8 .wrapper-buttons {
         text-align: center;
         margin-top: 50px; }
-        .section-wiki-forums .container .wrapper-buttons p {
-          margin-bottom: 45px; }
+        .section-wiki-forums .container .col-xs-8 .wrapper-buttons .button {
+          margin: 0, 15px; }
 
   .section-partners {
     padding-top: 30px;
@@ -1318,7 +1306,41 @@ i[class*='fa-'] {
   font-style: normal;
   color: #555; }
 
+/* Bootstrap centered columns styles */
+.row-centered {
+  text-align: center; }
+
+.col-centered {
+  float: none;
+  margin: 0 auto; }
+
 /*Default typographic styles*/
+.section--text--center {
+  margin: 0 auto;
+  text-align: center; }
+.section--heading-1 {
+  font-size: 3.79688em;
+  font-weight: 300; }
+.section--heading-2 {
+  font-size: 2.53125em;
+  font-weight: 300; }
+.section--intro {
+  font-size: 22px;
+  font-weight: 300; }
+.section--intro {
+  font-size: 1.125em;
+  font-weight: 300; }
+
+.hyperlink {
+  color: #a2a2a2;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: solid 1px;
+  transition: all 0.5s ease; }
+  .hyperlink:hover {
+    text-decoration: none;
+    color: #2a2a36; }
+
 h1 {
   margin-bottom: 10px;
   font-size: 60px;

@@ -2,17 +2,19 @@
 
 <section class="section-top-jumbotron">
 	<div class="container">
-		<h2 class="text-center introText"><?php echo $l->t('Introducing the Nextcloud Box');?></h2>
+		<h2 class="section--heading-1 section--text--center text-center introText"><?php echo $l->t('Introducing the Nextcloud Box');?></h2>
 		<div class="box introImage"></div>
 	</div>
 </section>
 
 <section class="section-data-home">
 	<div class="container">
-		<h2 class="text-center revealOnScroll"><?php echo $l->t('Bring your data home');?></h2>
-		<p class="text-center revealOnScroll"><?php echo $l->t('The Nextcloud Box is your private cloud. It stores your data and enables 
-you to sync between your devices and share with others.');?></p>
-		<p><a class="button button--blue button--arrow button--large revealOnScroll" href="<?php echo home_url('features') ?>" role="button"><?php echo $l->t('Know Nextcloud</a>');?></p>
+		<div class="col-xs-8 col-centered">		
+		<h2 class="section--heading-1 section--text--center  revealOnScroll"><?php echo $l->t('Bring your data home');?></h2>
+		<p class="section--intro section--text--center  revealOnScroll"><?php echo $l->t('The Nextcloud Box is your private cloud. It stores your data and enables 
+		you to sync between your devices and share with others.');?></p>
+		<a class="button button--blue button--arrow button--large revealOnScroll" href="<?php echo home_url('features') ?>" role="button"><?php echo $l->t('Know Nextcloud</a>');?>
+		</div>
 	</div>
 </section>
 
@@ -40,16 +42,14 @@ you to sync between your devices and share with others.');?></p>
 	<div class="container">
 		<div class="row">
 		<div class="wrapper-text col-md-4">
-			<h2 class="revealOnScroll"><?php echo $l->t('Get the box');?></h2>
-			<p class="revealOnScroll"><?php echo $l->t('Currently you can only purchase the Nextcloud Box in Europe and the USA. We are working on bringing the box to other regions!');?></p>
-			<p><strong><?php echo $l->t('Note:');?></strong></p>
-			<p><?php echo $l->t('The Box does not come with a Raspberry Pi.');?></p>
+			<h2 class="section--title revealOnScroll"><?php echo $l->t('Get the box');?></h2>
+			<p class="section--intro revealOnScroll"><?php echo $l->t('Currently you can only purchase the Nextcloud Box in Europe and the USA. We are working on bringing the box to other regions!');?></p>
 			<div class="button button--blue button--dropdown">
 				<input class="dropdown-toggle" type="text">
 				<div class="dropdown-text">Select your country</div>
 				<ul class="dropdown-content">
 					<li><?php echo $l->t('<a href="http://shop.wdc.com/promo/4828823500" target="_blank">Buy in the USA </a>');?></li>
-					<li><?php echo $l->t('<a href=" http://shop.wdc.com/promo/4828823600" target="_blank">Buy in the UK </a>');?></li>
+					<li><?php echo $l->t('<a href="http://shop.wdc.com/promo/4828823600" target="_blank">Buy in the UK </a>');?></li>
 					<li><?php echo $l->t('<a href="http://shop.wdc.com/promo/4828823700" target="_blank">Buy in Germany </a>');?></li>
 					<li><?php echo $l->t('<a href="http://shop.wdc.com/promo/4828823800" target="_blank">Buy in Spain </a>');?></li>
 					<li><?php echo $l->t('<a href="http://shop.wdc.com/promo/4828823900" target="_blank">Buy in France </a>');?></li>
@@ -80,32 +80,39 @@ you to sync between your devices and share with others.');?></p>
 
 <section class="section-how-to-box">
 	<div class="container">
-		<h2 class="text-center revealOnScroll"><?php echo $l->t('How to Box');?></h2>
-		<p class="text-center revealOnScroll"><?php echo $l->t('The Nextcloud Box is very easy to assemble. It comes with all necessary screws and a screwdriver. The lid uses magnets (magic!) so you can quickly open and close it.');?></p>
-		<div class="assembly revealOnScroll"></div>
-		<p><a class="button button--blue button--arrow button--large revealOnScroll" href="<?php echo get_template_directory_uri(); ?>/assets/files/Box-Assembly-Guide.pdf" role="button"><?php echo $l->t('Download PDF</a>');?></p>
+		<div class="col-xs-8 col-centered">
+			<h2 class="section--heading-2 section--text--center revealOnScroll"><?php echo $l->t('How to Box');?></h2>
+			<p class="section--intro section--text--center revealOnScroll"><?php echo $l->t('The Nextcloud Box is very easy to assemble. It comes with all necessary screws and a screwdriver. The lid uses magnets (magic!) so you can quickly open and close it.');?></p>
+			<div class="assembly revealOnScroll"></div>
+			<a class="button button--blue button--arrow button--large revealOnScroll" href="<?php echo get_template_directory_uri(); ?>/assets/files/Box-Assembly-Guide.pdf" role="button"><?php echo $l->t('Download PDF</a>');?>
+		</div>
+
 	</div>
 </section>
 
 <section class="section-wiki-forums">
 	<div class="container">
-		<h3 class="text-center revealOnScroll"><?php echo $l->t('Nextcloud Box Wiki and Forums');?></h3>
-		<p class="text-center revealOnScroll"><?php echo $l->t('You can find a lot of information, tips and tricks on configuring your Nextcloud Box on our wiki; discuss the Box and ask questions on our forums.');?></p>
-		<p class="text-center revealOnScroll"><?php echo $l->t('If you are interested in contributing to the software of the Box, you can <a href="https://github.com/nextcloud/nextcloud-snap">find the Nextcloud Snap here</a> - we look forward to your pull request. Find us on IRC in <a href="irc://#nextcloud-dev@freenode.net" target="_blank">the Nextloud development IRC chat channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat.</a>');?></p>
-		<div class="wrapper-buttons">
-			<a class="button button--blue button--arrow button--large" href="https://help.nextcloud.com/t/the-great-nextcloud-box-topic/3510" role="button"><?php echo $l->t('Help on forum</a>');?>
-	 		<a class="button button--blue button--arrow button--large" href="https://github.com/nextcloud/nextcloud-snap/wiki" role="button"><?php echo $l->t('Manual on Wiki</a>');?>
+		<div class="col-xs-8 col-centered">
+			<h3 class="section--heading-2 text-center revealOnScroll"><?php echo $l->t('Nextcloud Box Wiki and Forums');?></h3>
+			<p class="section--intro text-center revealOnScroll"><?php echo $l->t('You can find a lot of information, tips and tricks on configuring your Nextcloud Box on our wiki; discuss the Box and ask questions on our forums.');?></p>
+			<p class="section--intro text-center revealOnScroll"><?php echo $l->t('If you are interested in contributing to the software of the Box, you can <a class="hyperlink" href="https://github.com/nextcloud/nextcloud-snap">find the Nextcloud Snap here</a> - we look forward to your pull request. Find us on IRC in <a class="hyperlink" href="irc://#nextcloud-dev@freenode.net" target="_blank">the Nextloud development IRC chat channel</a> on freenode.net, also accessible via <a class="hyperlink" href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat.</a>');?></p>
+			<div class="wrapper-buttons">
+				<a class="button button--blue button--arrow button--large" href="https://help.nextcloud.com/t/the-great-nextcloud-box-topic/3510" role="button"><?php echo $l->t('Help on forum</a>');?>
+				<a class="button button--blue button--arrow button--large" href="https://github.com/nextcloud/nextcloud-snap/wiki" role="button"><?php echo $l->t('Manual on Wiki</a>');?>
+			</div>
 		</div>
 	</div>
 </section>
 
 <section class="section-partners">
 	<div class="container">
-		<h3 class="text-center revealOnScroll"><?php echo $l->t('Partners');?></h3>
-		<p class="text-center revealOnScroll"><?php echo $l->t('The Nextcloud Box was developed in a partnership with WDLabs and Canonical and is one of');?> <a href="<?php echo home_url('devices') ?>"><?php echo $l->t('multiple devices</a> from Nextcloud partners. It is a reference device, meant to inspire and invite anyone to build their own. <a href="/contact">Get in contact</a> if you\'re interested in building a Nextcloud Box like device!');?></p>
-		<div class="wrapper-images">
-			<a target="_blank" href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/"><div class="logo-wd"></div></a>
-			<a target="_blank" href="https://developer.ubuntu.com/en/snappy/"><div class="logo-ubuntu"></div></a>
+		<div class="col-xs-8 col-centered">
+			<h3 class="section--heading-2 text-center revealOnScroll"><?php echo $l->t('Partners');?></h3>
+			<p class="section--intro text-center revealOnScroll"><?php echo $l->t('The Nextcloud Box was developed in a partnership with WDLabs and Canonical and is one of');?> <a class="hyperlink" href="<?php echo home_url('devices') ?>"><?php echo $l->t('multiple devices</a> from Nextcloud partners. It is a reference device, meant to inspire and invite anyone to build their own. <a class="hyperlink" href="/contact">Get in contact</a> if you\'re interested in building a Nextcloud Box like device!');?></p>
+			<div class="wrapper-images">
+				<a target="_blank" href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/"><div class="logo-wd"></div></a>
+				<a target="_blank" href="https://developer.ubuntu.com/en/snappy/"><div class="logo-ubuntu"></div></a>
+			</div>
 		</div>
 	</div>
 </section>
