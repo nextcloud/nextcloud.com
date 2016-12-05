@@ -9,7 +9,7 @@
 /**
  * Secure Page
  */
-.sbackground {
+.security-background {
   background-image: url("../img/security/security.jpg");
   background-position: bottom 0 right 0; }
 
@@ -43,6 +43,14 @@
     font-size: 30px; }
   .featureblock .row {
     margin-bottom: 50px; }
+
+/* security badges */
+.security-badge {
+  text-align: center;
+  /* 	display: inline-block; */ }
+  .security-badge img {
+    height: 140px;
+    padding: 5px; }
 
 /* Process image */
 .process {
