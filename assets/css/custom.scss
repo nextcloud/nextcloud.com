@@ -312,6 +312,22 @@ p {
 		    }
         }
     }
+
+    @include modifier(icon) {
+       padding: 0 30px 0 50px;
+
+        &:after {
+            content: "";
+            background: url(../img/common/pdf-icon.svg) center/contain no-repeat;
+            position: absolute;
+            display: block;
+            width: 24px;
+            height: 100%;
+            top: 0;
+            left: 20px;
+            transition: all 0.3s ease 0s;
+        }
+    }
 }
 
 /* New widest container for headers */

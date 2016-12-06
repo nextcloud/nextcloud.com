@@ -84,7 +84,7 @@
 			<h2 class="section--heading-2 section--text--center revealOnScroll"><?php echo $l->t('How to Box');?></h2>
 			<p class="section--intro section--text--center revealOnScroll"><?php echo $l->t('The Nextcloud Box is very easy to assemble. It comes with all necessary screws and a screwdriver. The lid uses magnets (magic!) so you can quickly open and close it.');?></p>
 			<div class="assembly revealOnScroll"></div>
-			<a class="button button--blue button--arrow button--large revealOnScroll" href="<?php echo get_template_directory_uri(); ?>/assets/files/Box-Assembly-Guide.pdf" role="button"><?php echo $l->t('Download PDF</a>');?>
+			<a class="button button--blue button--icon button--large revealOnScroll" href="<?php echo get_template_directory_uri(); ?>/assets/files/Box-Assembly-Guide.pdf" role="button"><?php echo $l->t('Download PDF</a>');?>
 		</div>
 
 	</div>
