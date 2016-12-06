@@ -1,0 +1,322 @@
+@import "variables.scss";
+@import "helpers.scss";
+@import "home.scss";
+@import "header.scss";
+@import "footer.scss";
+@import "jobs.scss";
+@import "box.scss";
+@import "contribute.scss";
+@import "migration.scss";
+@import "enterprise.scss";
+@import "secure.scss";
+@import "buy.scss";
+@import "support.scss";
+
+
+html{
+    margin-top: 0 !important;
+}
+
+body {
+  font-family: "Open Sans", Frutiger, Calibri, "Myriad Pro", Myriad, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+/**
+ * Headers and standard fonts
+ */
+body {
+	font-size: 16px;
+	line-height: 1.7;
+	color: #555;
+}
+
+i[class*='fa-'] {
+	font-style: normal;
+	color: #555;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 60px;
+    /*   line-height: 60px; */
+    letter-spacing: -2px; 
+    color: #555;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 300;
+    color: #555; 
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.5;
+/*   text-align: center; */
+  color: #555; 
+}
+
+h4 {
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 1.36;
+  color: #555;
+  margin-bottom: 20px; 
+}
+
+h5 {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: -1px;
+  color: #555; 
+}
+
+p {
+	margin-top: 5px;
+}
+
+/* New widest container for headers */
+
+.container-widest {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1800px;
+}
+
+
+/* typical background images (hero section) like enterprise, security */
+.background {
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 !important;
+  height: 70vh;
+  min-height: 600px;
+  max-height: 800px;
+  position: relative;
+
+  h1 {
+    padding-top: 0;
+    color: white;
+  }
+
+  h2 {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .topheader {
+    position: absolute;
+    top: 30%;
+    margin: 0;
+    padding: 0;
+    max-width: 600px;
+    
+    @media (max-width: $break-big) {
+      padding-left: 5%;
+    }
+  }
+}
+
+
+/**
+ * Overwrite buttons for bootstrap
+ */
+<<<<<<< HEAD
+=======
+.button {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;    
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    padding: 0 30px;
+    border-radius: 30px;
+
+    @include modifier(large) {
+        height:60px;
+        line-height: 60px;
+    }
+
+    @include modifier(small) {
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+>>>>>>> starting using BEM
+.btn-primary{
+	background-color: $nextcloud-blue;
+	font-size: 18px;
+	padding: 25px 100px;
+	text-align: center;
+	position: relative;
+	border: none;
+	font-weight: 600;
+	border-radius: 100px;
+	transition: all 0.3s ease 0s;
+	
+	&:before {
+        content: "";
+		background: url(../img/arrow_right.svg) center/contain no-repeat;
+	    position: absolute;
+		display: block;
+		width: 30px;
+		height: 100%;
+    	top: 0;
+		right: 50px;
+		transition: all 0.3s ease 0s;
+    }
+	
+	&:hover {
+		background-color: $medium-blue;
+		text-decoration: none;
+		
+		&:before {
+			right: 30px;	
+		}
+	}
+	
+	&:active {
+        -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+        background-color: $medium-blue;
+    }
+}
+
+@media (max-width: $break-small) {
+	
+	.btn-primary{
+		padding: 20px 70px 20px 50px;
+		font-size: 15px;
+		
+		&:before {
+			right:30px;
+		}
+	}
+
+}
+
+
+/**
+ * Mobile
+ */
+
+@media (max-width: $break-small) {
+    h1 {
+        font-size: 35px;
+        line-height: 35px;
+        letter-spacing: -2px;
+        color: $dark-blue;
+        font-weight: 500;
+    }
+    
+    h2 {
+        font-size: 35px;
+        font-weight: 300;
+        line-height: 1.5;
+        color: $dark-blue;
+    }
+    
+    h3 {
+        font-size: 35px;
+        font-weight: 300;
+        line-height: 1.5;
+        text-align: center;
+        color: $dark-blue;
+    }
+    
+    h4 {
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 1.36;
+        color: $dark-blue;
+        margin-bottom: 20px;
+    }
+    
+    h5 {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1.5;
+        letter-spacing: -1px;
+        color: $dark-blue;
+    }
+
+}
+
+.highlights {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: -16px 0 0 -16px;
+    padding: 0;
+    list-style: none;
+    @media (max-width: 1024px) {
+        display: block;
+        text-align: center;
+        margin: 0 10px 0 10px;
+    }
+
+}
+
+.highlights_align {
+    padding-top: 100px;
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+    padding-left: 64px;
+    &:first-child {
+        padding-left: 0px;
+    }
+    @media (max-width: 1024px) {
+        flex-basis: auto;
+        max-width: none;
+        padding-left: 0;
+        padding-top: 50px;
+    }
+
+    svg {
+        margin-left: -10px;
+        @media (max-width: 1200px) {
+            margin-left: 0;
+        }
+    }
+
+    h4 {
+        text-align: center;
+        margin-top: 20px;
+        margin-left: -20px;
+        @media (max-width: 1200px) {
+            margin-left: 0;
+        }
+    }
+}
+
+//.FadeOut{
+//	opacity: 0;
+//}
+//
+//.FadeIn{
+//	opacity: 1;
+//}
