@@ -2,6 +2,7 @@
   .brand {
     -webkit-transform: scale(0.5);
     top: -26px !important; } }
+
 .nav {
   z-index: 1;
   padding-top: 20px;
@@ -263,7 +264,8 @@
       display: none;
       position: relative;
       left: 0;
-      padding: 0; }
+      padding: 0;
+      visibility: hidden; }
       .nav .container .nav__sections-wrapper .nav__sections .nav__section {
         display: block;
         height: calc(100% / 7);
@@ -272,7 +274,8 @@
         margin: 0;
         opacity: 0;
         color: white;
-        padding: 0; }
+        padding: 0;
+        visibility: hidden; }
         .nav .container .nav__sections-wrapper .nav__sections .nav__section:last-child {
           font-weight: 500; }
         .nav .container .nav__sections-wrapper .nav__sections .nav__section a {
@@ -281,10 +284,12 @@
       .nav .container .nav__sections-wrapper .nav__sections.active {
         display: block;
         color: white;
-        margin: 0; }
+        margin: 0;
+        visibility: visible; }
         .nav .container .nav__sections-wrapper .nav__sections.active .nav__section {
           animation: fadeInRight .5s ease forwards;
-          animation-delay: .35s; }
+          animation-delay: .35s;
+          visibility: visible; }
           .nav .container .nav__sections-wrapper .nav__sections.active .nav__section .nav__label {
             font-size: 35px;
             line-height: 45px;
@@ -331,6 +336,8 @@
         transition-delay: .65s; }
         .nav .container .nav__sections-wrapper .right-buttons.active .nav__label {
           color: white; }
+        .nav .container .nav__sections-wrapper .right-buttons.active .ghost-btn a {
+          pointer-events: all; }
       .nav .container .nav__sections-wrapper .right-buttons .ghost-btn {
         font-size: 35px;
         line-height: 45px;
@@ -341,14 +348,17 @@
         text-align: left;
         padding-left: 0;
         height: calc(100% / 7);
-        animation: fadeInRight .5s ease forwards; } }
+        animation: fadeInRight .5s ease forwards;
+        pointer-events: none; } }
 @keyframes fadeInRight {
   0% {
     opacity: 0;
     left: 20%; }
+
   100% {
     opacity: 1;
     left: 0; } }
+
 @media (max-height: 800px) {
   .nav-down {
     opacity: 1;
@@ -447,7 +457,6 @@
 @keyframes play {
   from {
     background-position-x: 0px; }
+
   to {
     background-position-x: -4620px; } }
-
-/*# sourceMappingURL=header.css.map */

@@ -361,6 +361,7 @@
                     position: relative;
                     left: 0;
                     padding: 0;
+					visibility: hidden;
 
                     .nav__section {
                         display: block;
@@ -371,6 +372,7 @@
                         opacity: 0;
                         color: white;
                         padding: 0;
+						visibility: hidden;
 
                         &:last-child{
                             font-weight: 500;
@@ -386,11 +388,12 @@
                         display: block;
                         color: white;
                         margin: 0;
+						visibility: visible;
 
                             .nav__section {
                                 animation: fadeInRight .5s ease forwards;
                                 animation-delay: .35s;
-
+								visibility: visible;
                                 .nav__label {
                                     font-size: 35px;
                                     line-height: 45px;
@@ -459,6 +462,9 @@
                         .nav__label {
                             color: white;
                         }
+                        .ghost-btn a {
+							pointer-events: all;
+						}
                     }
 
                     .ghost-btn {
@@ -472,6 +478,8 @@
                         padding-left:0;
                         height: calc(100% / 7);
                         animation: fadeInRight .5s ease forwards;
+						pointer-events: none;
+					
                     }
                 }
             }
