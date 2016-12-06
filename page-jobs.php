@@ -105,7 +105,7 @@
 			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 		</div>
 
-		<a data-target="#saleseng" data-toggle="collapse"><h3 class="jobs">Sales Engineer/Consultant<span class="icon-arrow"></span></h3></a>
+		<a data-target="#saleseng" data-toggle="collapse"><h3 class="jobs">Sales Engineer/ Consultant<span class="icon-arrow"></span></h3></a>
 		
 		<div id="saleseng" class="collapse">
 			<p>Technical sales engineers use their technical knowledge along with sales skills to provide advice and support on a range of products, for which a certain level of expertise is needed.</p>

@@ -56,5 +56,9 @@
 			padding-top: 20px;
 			font-size: 18px;
 		}
+		@media (max-width: $break-small) {
+			margin: 0; 
+			width: 100%;
+		}
 	}
 }
