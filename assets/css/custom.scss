@@ -7,7 +7,14 @@
 @import "box.scss";
 @import "contribute.scss";
 @import "migration.scss";
+<<<<<<< HEAD
 @import 'vendor/modular-scale/modular-scale.scss';
+=======
+@import "enterprise.scss";
+@import "secure.scss";
+@import "buy.scss";
+@import "support.scss";
+>>>>>>> master
 
 
 html{
@@ -28,6 +35,7 @@ i[class*='fa-'] {
     color: #555;
 }
 
+<<<<<<< HEAD
 /* Bootstrap centered columns styles */
 .row-centered {
     text-align:center;
@@ -77,6 +85,12 @@ i[class*='fa-'] {
         text-decoration: none;
         color: $dark-blue;
     }
+=======
+i[class*='fa-'] {
+	font-style: normal;
+	color: #555;
+	font-family: "fontawesome", fontawesome, "Font Awesome", Fontawesome !important; /* to override the Open Sans font set above */
+>>>>>>> master
 }
 
 h1 {

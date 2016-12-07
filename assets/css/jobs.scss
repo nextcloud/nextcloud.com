@@ -1,8 +1,8 @@
 @import "variables.scss";
 @import "transparent-navbar.scss";
 
-.jbackground {
-  background: url("../img/jobs/team.jpg") no-repeat;
+.jobs-background {
+  background: url("../img/headers/team.jpg") no-repeat;
   background-position: center;
 }
 
@@ -56,10 +56,9 @@
 			padding-top: 20px;
 			font-size: 18px;
 		}
+		@media (max-width: $break-small) {
+			margin: 0; 
+			width: 100%;
+		}
 	}
 }
-
-	
-
-
-

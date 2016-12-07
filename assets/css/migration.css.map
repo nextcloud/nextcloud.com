@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";;;;AACA,mBAAoB;EAClB,gBAAgB,EAAE,WAAW;EAC7B,QAAQ,EAAE,QAAQ;;;;;ACIpB,YAAa;EACX,gBAAgB,EAAE,uCAAuC;EACzD,mBAAmB,EAAE,gBAAgB",
-"sources": ["transparent-navbar.scss","migration.scss"],
-"names": [],
-"file": "migration.css"
-}

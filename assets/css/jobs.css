@@ -6,8 +6,8 @@
   background-color: transparent;
   position: absolute; }
 
-.jbackground {
-  background: url("../img/jobs/team.jpg") no-repeat;
+.jobs-background {
+  background: url("../img/headers/team.jpg") no-repeat;
   background-position: center; }
 
 .section-company-description {
@@ -48,5 +48,7 @@
       max-width: 700px;
       padding-top: 20px;
       font-size: 18px; }
-
-/*# sourceMappingURL=jobs.css.map */
+    @media (max-width: 768px) {
+      .section-jobs-opening .wrapper-text {
+        margin: 0;
+        width: 100%; } }

@@ -50,7 +50,7 @@
 		</div>
 		<div class="col-md-8">
 			<p><?php echo $l->t('The Server Information app provides a way for admins to monitor the health and performance of a Nextcloud system. Besides the graphical UI, an API endpoint provided makes it possible for system administrators to import this data in their monitoring app so they can keep an eye on Nextcloud operations from the same place they monitor the rest of their infrastructure.');?></p>
-			<p><?php echo $l->t('The <a href="http://opennms.org/" target="_blank">openNMS monitoring app</a> already has support for monitoring Nextcloud 10 systems and <a href="https://github.com/opennms-config-modules/nextcloud" target="_blank">the configuration module</a> can be easily modified for other tools like Nagios.');?></p>
+			<p><?php echo $l->t('Monitoring and systems intelligence tools <a href="http://opennms.org/" target="_blank">openNMS</a> and <a href="https://splunkbase.splunk.com/apps/#/search/nextcloud/">Splunk</a> already have support for monitoring Nextcloud 10+ systems and <a href="https://github.com/opennms-config-modules/nextcloud" target="_blank">the openNMS configuration module</a> can be easily modified for other tools like Nagios.');?></p>
 		</div>
 	</div>
 	<p><?php echo $l->t('The app lets you track:');?></p>

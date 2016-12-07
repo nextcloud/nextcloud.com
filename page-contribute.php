@@ -1,4 +1,4 @@
-<div class="background cbackground">
+<div class="background contribute-background">
 	<div class="container">
 		<div class="col-md-6 topheader">
 			<h1><?php echo $l->t('Get involved!');?></h1>

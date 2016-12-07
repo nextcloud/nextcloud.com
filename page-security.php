@@ -3,11 +3,11 @@
 </div>
 <h2><?php echo $l->t('Security information');?></h2>
 <p><?php echo $l->t('This page hosts our security policies and information with regards to reporting security flaws. Learn more about how Nextcloud offers the <a href="/secure">best security in the open source file sync and share industry here</a>. You can');?> <a href="<?php echo get_template_directory_uri(); ?>/advisories/advisories.rss"><?php echo $l->t('follow our advisories via RSS</a>.');?></p>
-<p><?php echo $l->t('For server owners, our documentation has a section with <a href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_server/harden_server.html" target="_blank">best practices and tips on securing a Nextcloud server</a>.');?></p>
+<p><?php echo $l->t('For server owners, our documentation has a section with');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?><?php echo $l->t('configuration_server/harden_server.html" target="_blank">best practices and tips on securing a Nextcloud server</a>.');?></p>
 
 <div class="row">
 	<div class="span12">
-		<p><?php echo $l->t('If you have discovered a security issue with Nextcloud, please read our responsible disclosure guidelines and contact us at <a href="https://hackerone.com/nextcloud"><strong>hackerone.com/nextcloud</strong></a>.  Your report should include:');?></p>
+		<p><?php echo $l->t('If you have discovered a security issue with Nextcloud, please read our responsible disclosure guidelines and contact us at <a href="https://hackerone.com/nextcloud"><strong>hackerone.com/nextcloud</strong></a>. Your report should include:');?></p>
 		<ul>
 			<li><?php echo $l->t('Product version');?></li>
 			<li><?php echo $l->t('A vulnerability description');?></li>

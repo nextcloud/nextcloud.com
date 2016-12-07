@@ -319,6 +319,24 @@ button a:hover {text-decoration: none; }
 	background: #0082c9 !important;
 }
 
+.install-nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.install-nav>li {
+	position: relative;
+    display: block;
+}
+
+.install-nav>li>a {
+	position: relative;
+    display: block;
+    padding: 10px 15px;
+	text-decoration: none;
+}
+	
 .menu-install:hover	{
 /* 	background: #428bca !important; */
 }
@@ -1371,7 +1389,7 @@ img.desaturate {
 	min-height: 700px;
 	opacity: 1;
 	visibility: inherit;
-	background-image: url("../img/spreedbox/spreedbox.png");
+	background-image: url("../../img/spreedbox/spreedbox.png");
 	background-color: rgba(0, 0, 0, 0);
 	background-size: cover;
 	background-position: center top;

@@ -1,4 +1,4 @@
-<div class="background ebackground"> 
+<div class="background enterprise-background"> 
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
