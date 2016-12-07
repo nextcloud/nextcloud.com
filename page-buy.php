@@ -19,7 +19,9 @@
 				<p><?php echo $l->t('<label for="email">Email<br>
 				<input  type="text" name="email" maxlength="80" size="60"></label>');?></p>
 				<p><?php echo $l->t('<label for="organization">Organization<br>
-				<input  type="text" name="organization" maxlength="100" size="60" placeholder=""></label>');?></p>
+				<input  type="text" name="organization" maxlength="100" size="60" placeholder="Name of your organization"></label>');?></p>
+				<p><?php echo $l->t('<label for="users">Number of users<br>
+				<input  type="text" name="users" maxlength="80" size="60" placeholder="Estimated number of users looking to use Nextcloud"></label>');?></p>
 				<p><?php echo $l->t('<label for="phone">Phone number<br>
 				<input  type="text" name="phone" maxlength="40" size="60" placeholder="Please include country code"></label>');?></p>
 				<p><?php echo $l->t('<label for="comments">Your message<br />
