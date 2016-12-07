@@ -482,7 +482,7 @@
   position: relative; }
   .nav .container {
     position: relative; }
-    @media (min-width: 992px) {
+    @media (max-width: 992px) {
       .nav .container {
         width: 90%; } }
     .nav .container .nav__bg-wrapper {
@@ -1186,9 +1186,9 @@ footer.page-footer {
       margin-top: 50px; }
       .section-wiki-forums .container .wrapper-buttons p {
         display: inline-block; }
-      .section-wiki-forums .container .wrapper-buttons .btn-primary {
-        margin-left: 10px;
-        margin-right: 10px; }
+      .section-wiki-forums .container .wrapper-buttons .button {
+        margin-left: 20px;
+        margin-right: 20px; }
 
 .section-partners {
   padding-top: 120px;
@@ -2318,56 +2318,9 @@ footer.page-footer {
   right: -30px;
   top: 0px; }
 
-.epricevat {
-  font-weight: light;
-  font-size: .7em;
-  text-align: right;
-  padding: 0px;
-  margin-top: -5px; }
-
-.einfo span:hover {
-  border-bottom: 1px dotted gray;
-  /* 	cursor: pointer; */ }
-
-.table-center {
-  text-align: center !important; }
-
-.enterprise-icon {
-  font-size: 80px;
-  color: #0082c9; }
-
-.blue {
-  color: #0082c9; }
-
-.price {
-  color: #0082c9;
-  font-weight: 80%;
-  text-align: center; }
-
-.ebasic {
-  background-color: #d9f2ff !important; }
-
-.epro {
-  background-color: #c6ecff !important; }
-
-.eenterprise {
-  background-color: #ace4ff !important; }
-
-.eintro {
-  font-size: 115%; }
-
-.pricingdetails > h2 {
-  margin-top: 150px;
-  margin-bottom: 80px; }
-
 .contact {
   margin-top: 50px;
-  margin-bottom: 50px; }
-
-.contact > h3 {
-  margin-top: 90px;
-  margin-bottom: 20px;
-  text-align: left; }
+  margin-bottom: 150px; }
 
 /*Colors*/
 /*Shadows*/
@@ -2401,6 +2354,41 @@ i[class*='fa-'] {
   color: #555;
   font-family: "fontawesome", fontawesome, "Font Awesome", Fontawesome !important;
   /* to override the Open Sans font set above */ }
+
+/* Bootstrap centered columns styles */
+.row-centered {
+  text-align: center; }
+
+.col-centered {
+  float: none;
+  margin: 0 auto; }
+
+/*Default typographic styles*/
+.section--text--center {
+  margin: 0 auto;
+  text-align: center; }
+.section--heading-1 {
+  font-size: 3.79688em;
+  font-weight: 300; }
+.section--heading-2 {
+  font-size: 2.53125em;
+  font-weight: 300; }
+.section--intro {
+  font-size: 22px;
+  font-weight: 300; }
+.section--intro {
+  font-size: 1.125em;
+  font-weight: 300; }
+
+.hyperlink {
+  color: #a2a2a2;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: solid 1px;
+  transition: all 0.5s ease; }
+  .hyperlink:hover {
+    text-decoration: none;
+    color: #2a2a36; }
 
 h1 {
   margin-bottom: 10px;
@@ -2453,7 +2441,8 @@ p {
   border: solid 1px white;
   padding: 0 30px;
   border-radius: 30px;
-  transition: all 0.3s ease 0s; }
+  transition: all 0.3s ease 0s;
+  margin: 20px 0 20px 0; }
   .button:hover {
     text-decoration: none;
     color: #0082c9;
@@ -2462,7 +2451,7 @@ p {
     padding: 0; }
     .button--dropdown:before {
       content: "";
-      background: url(../img/arrow_down_white.svg) center/contain no-repeat;
+      background: url(../img/common/arrow_down_white.svg) center/contain no-repeat;
       position: absolute;
       display: block;
       width: 20px;
@@ -2568,11 +2557,13 @@ p {
     .button--blue:hover {
       background-color: #0082c9;
       color: white; }
+      .button--blue:hover:before {
+        background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
   .button--arrow {
     padding-right: calc(30px + 20px); }
     .button--arrow:before {
       content: "";
-      background: url(../img/arrow_right.svg) center/contain no-repeat;
+      background: url(../img/common/arrow_right.svg) center/contain no-repeat;
       position: absolute;
       display: block;
       width: 20px;
@@ -2642,7 +2633,7 @@ p {
   transition: all 0.3s ease 0s; }
   .btn-primary:before {
     content: "";
-    background: url(../img/arrow_right.svg) center/contain no-repeat;
+    background: url(../img/common/arrow_right.svg) center/contain no-repeat;
     position: absolute;
     display: block;
     width: 30px;
