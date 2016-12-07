@@ -1,3 +1,9 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -102,7 +108,7 @@
         font-size: 11px;
         line-height: 16px;
         font-weight: 600;
-        background: #ff8b00;
+        background: #FF8B00;
         text-transform: uppercase;
         border-radius: 10px; }
         @media (max-width: 768px) {
@@ -458,11 +464,13 @@
 .revealOnScroll {
   opacity: 0; }
 
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 @-moz-document url-prefix() {
   .brand {
     -webkit-transform: scale(0.5);
     top: -26px !important; } }
-
 .nav {
   z-index: 1;
   padding-top: 20px;
@@ -814,11 +822,9 @@
   0% {
     opacity: 0;
     left: 20%; }
-
   100% {
     opacity: 1;
     left: 0; } }
-
 @media (max-height: 800px) {
   .nav-down {
     opacity: 1;
@@ -917,10 +923,11 @@
 @keyframes play {
   from {
     background-position-x: 0px; }
-
   to {
     background-position-x: -4620px; } }
-
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /**
  * Footer
  */
@@ -1003,6 +1010,9 @@ footer.page-footer {
       line-height: 1.8;
       color: #ffffff;
       width: 140px; } }
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -1055,6 +1065,9 @@ footer.page-footer {
         margin: 0;
         width: 100%; } }
 
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -1083,9 +1096,6 @@ footer.page-footer {
   .section-data-home h2 {
     padding-top: 280px; }
   .section-data-home p {
-    font-size: 18px;
-    font-weight: 300;
-    max-width: 600px;
     padding-top: 20px;
     margin: 0 auto; }
   .section-data-home .btn-primary {
@@ -1112,7 +1122,6 @@ footer.page-footer {
         padding-top: 30px; }
 
 .section-getbox {
-  padding-top: 100px;
   height: 440px;
   width: 100%;
   background-color: #252323;
@@ -1120,10 +1129,7 @@ footer.page-footer {
   .section-getbox .container .wrapper-text {
     max-width: 550px;
     color: white;
-    z-index: 50;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%); }
+    padding-top: 40px; }
     .section-getbox .container .wrapper-text h2 {
       color: white; }
     .section-getbox .container .wrapper-text p {
@@ -1138,9 +1144,7 @@ footer.page-footer {
     height: 485px;
     background-repeat: no-repeat;
     float: right;
-    margin-top: -220px; }
-  .section-getbox .container .dropdown-menu {
-    z-index: 1000; }
+    margin-top: -130px; }
 
 .section-how-to-box {
   padding-top: 120px;
@@ -1150,7 +1154,6 @@ footer.page-footer {
   .section-how-to-box .container p {
     font-size: 18px;
     font-weight: 300;
-    max-width: 550px;
     margin: 0 auto;
     margin-top: 10px;
     text-align: center; }
@@ -1176,7 +1179,6 @@ footer.page-footer {
     .section-wiki-forums .container p {
       font-size: 18px;
       font-weight: 300;
-      max-width: 650px;
       margin: 0 auto;
       margin-top: 10px; }
     .section-wiki-forums .container .wrapper-buttons {
@@ -1199,7 +1201,6 @@ footer.page-footer {
     .section-partners .container p {
       font-size: 18px;
       font-weight: 300;
-      max-width: 650px;
       margin: 0 auto;
       margin-top: 10px; }
     .section-partners .container .wrapper-images {
@@ -1308,11 +1309,11 @@ footer.page-footer {
     padding-top: 50px; }
     .section-wiki-forums .container {
       padding-top: 30px; }
-      .section-wiki-forums .container .wrapper-buttons {
+      .section-wiki-forums .container .col-xs-8 .wrapper-buttons {
         text-align: center;
         margin-top: 50px; }
-        .section-wiki-forums .container .wrapper-buttons p {
-          margin-bottom: 45px; }
+        .section-wiki-forums .container .col-xs-8 .wrapper-buttons .button {
+          margin: 0, 15px; }
 
   .section-partners {
     padding-top: 30px;
@@ -1328,6 +1329,9 @@ footer.page-footer {
         .section-partners .container .wrapper-images .logo-ubuntu {
           width: 121px;
           height: 30px; } }
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -1337,6 +1341,9 @@ footer.page-footer {
   background: url("../img/headers/team.jpg") no-repeat;
   background-position: center; }
 
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -1349,6 +1356,9 @@ footer.page-footer {
   background-image: url("../img/enterprise/enterprise.jpg");
   background-position: bottom 0 right 0; }
 
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -1674,6 +1684,9 @@ footer.page-footer {
   right: -30px;
   top: 0px; }
 
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -1974,6 +1987,12 @@ footer.page-footer {
       margin-top: 36px;
       margin-bottom: 17px; }
 
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -2350,6 +2369,9 @@ footer.page-footer {
   margin-bottom: 20px;
   text-align: left; }
 
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -2363,16 +2385,15 @@ html {
   margin-top: 0 !important; }
 
 body {
-  font-family: "Open Sans", Frutiger, Calibri, "Myriad Pro", Myriad, sans-serif !important;
+  font-family: "Open Sans", Frutiger, Calibri, "Myriad Pro", Myriad, sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-/**
- * Headers and standard fonts
- */
-body {
+  -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
   line-height: 1.7;
+  color: #555; }
+
+i[class*='fa-'] {
+  font-style: normal;
   color: #555; }
 
 i[class*='fa-'] {
@@ -2383,14 +2404,14 @@ i[class*='fa-'] {
 
 h1 {
   margin-bottom: 10px;
-  font-size: 45px;
-  /*   line-height: 60px; */
-  /*   letter-spacing: -2px; */
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -2px;
   color: #555;
-  font-weight: 300; }
+  font-weight: 500; }
 
 h2 {
-  font-size: 27px;
+  font-size: 60px;
   font-weight: 300;
   color: #555;
   line-height: 1.5;
@@ -2400,7 +2421,6 @@ h3 {
   font-size: 22px;
   font-weight: 300;
   line-height: 1.5;
-  /*   text-align: center; */
   color: #555; }
 
 h4 {
@@ -2419,6 +2439,161 @@ h5 {
 
 p {
   margin-top: 5px; }
+
+/*All default buttons*/
+.button {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  border: solid 1px white;
+  padding: 0 30px;
+  border-radius: 30px;
+  transition: all 0.3s ease 0s; }
+  .button:hover {
+    text-decoration: none;
+    color: #0082c9;
+    background-color: white; }
+  .button--dropdown {
+    padding: 0; }
+    .button--dropdown:before {
+      content: "";
+      background: url(../img/arrow_down_white.svg) center/contain no-repeat;
+      position: absolute;
+      display: block;
+      width: 20px;
+      height: 100%;
+      top: 0;
+      right: 20px;
+      transition: all 0.2s ease-in; }
+    .button--dropdown.active:before {
+      transform: rotate(180deg); }
+    .button--dropdown .dropdown-toggle {
+      font-size: 0;
+      z-index: 1;
+      cursor: pointer;
+      position: relative;
+      top: 0;
+      border: none;
+      padding: 0;
+      margin: 0 0 0 1px;
+      background: transparent;
+      width: 100%;
+      display: none; }
+      .button--dropdown .dropdown-toggle:focus {
+        outline: 0;
+        opacity: 1;
+        visibility: visible;
+        z-index: 2;
+        border-width: 0 4px 5px 4px; }
+    .button--dropdown .dropdown-text {
+      cursor: pointer;
+      z-index: 2;
+      padding: 0 50px 0 30px; }
+    .button--dropdown .dropdown-content {
+      -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease;
+      list-style-type: none;
+      position: relative;
+      top: 10px;
+      padding: 15px 25px;
+      margin: 0;
+      opacity: 0;
+      visibility: hidden;
+      border-radius: 3px;
+      line-height: 32px;
+      background-color: white;
+      border: 1px solid #f1f1f1;
+      width: 100%;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11); }
+      .button--dropdown .dropdown-content:before {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        right: auto;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        height: 0;
+        width: 0;
+        border: 8px solid transparent;
+        border-bottom-color: #f1f1f1; }
+      .button--dropdown .dropdown-content:after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        right: auto;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        height: 0;
+        width: 0;
+        border: 6px solid transparent;
+        border-bottom-color: white; }
+      .button--dropdown .dropdown-content.visible {
+        visibility: visible;
+        opacity: 1;
+        top: 20px; }
+      .button--dropdown .dropdown-content a {
+        display: block;
+        text-transform: none;
+        font-size: 14px;
+        color: #a0a0a0;
+        font-weight: 400;
+        line-height: 2.14; }
+        .button--dropdown .dropdown-content a:hover {
+          text-decoration: none;
+          color: #555555; }
+      .button--dropdown .dropdown-content:hover {
+        opacity: 1;
+        visibility: visible; }
+  .button--large {
+    height: 60px;
+    line-height: 60px; }
+  .button--small {
+    height: 40px;
+    line-height: 40px; }
+  .button--blue {
+    background-color: #0082c9;
+    border: none; }
+    .button--blue:hover {
+      background-color: #0082c9;
+      color: white; }
+  .button--arrow {
+    padding-right: calc(30px + 20px); }
+    .button--arrow:before {
+      content: "";
+      background: url(../img/arrow_right.svg) center/contain no-repeat;
+      position: absolute;
+      display: block;
+      width: 20px;
+      height: 100%;
+      top: 0;
+      right: 25px;
+      transition: all 0.3s ease 0s; }
+    .button--arrow:hover:before {
+      right: 15px; }
+  .button--icon {
+    padding: 0 30px 0 50px; }
+    .button--icon:after {
+      content: "";
+      background: url(../img/common/pdf-icon.svg) center/contain no-repeat;
+      position: absolute;
+      display: block;
+      width: 24px;
+      height: 100%;
+      top: 0;
+      left: 20px;
+      transition: all 0.3s ease 0s; }
 
 /* New widest container for headers */
 .container-widest {
@@ -2455,9 +2630,6 @@ p {
       .background .topheader {
         padding-left: 5%; } }
 
-/**
- * Overwrite buttons for bootstrap
- */
 .btn-primary {
   background-color: #0082c9;
   font-size: 18px;
@@ -2479,7 +2651,7 @@ p {
     right: 50px;
     transition: all 0.3s ease 0s; }
   .btn-primary:hover {
-    background-color: #0073b2;
+    background-color: #0073B2;
     text-decoration: none; }
     .btn-primary:hover:before {
       right: 30px; }
@@ -2487,7 +2659,7 @@ p {
     -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
-    background-color: #0073b2; }
+    background-color: #0073B2; }
 
 @media (max-width: 768px) {
   .btn-primary {
@@ -2575,3 +2747,5 @@ p {
     @media (max-width: 1200px) {
       .highlights_align h4 {
         margin-left: 0; } }
+
+/*# sourceMappingURL=custom.css.map */

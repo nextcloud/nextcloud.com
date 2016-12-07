@@ -1,4 +1,5 @@
 @import "variables.scss";
+@import "helpers.scss";
 @import "home.scss";
 @import "header.scss";
 @import "footer.scss";
@@ -17,18 +18,17 @@ html{
 }
 
 body {
-  font-family: "Open Sans", Frutiger, Calibri, "Myriad Pro", Myriad, sans-serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; 
+    font-family: "Open Sans", Frutiger, Calibri, "Myriad Pro", Myriad, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
 }
 
-/**
- * Headers and standard fonts
- */
-body {
-	font-size: 16px;
-	line-height: 1.7;
-	color: #555;
+i[class*='fa-'] {
+    font-style: normal;
+    color: #555;
 }
 
 i[class*='fa-'] {
@@ -38,27 +38,26 @@ i[class*='fa-'] {
 }
 
 h1 {
-  margin-bottom: 10px;
-	font-size: 45px;
-/*   line-height: 60px; */
-/*   letter-spacing: -2px; */
-  color: #555;
-  font-weight: 300;
+    margin-bottom: 10px;
+    font-size: 60px;
+    line-height: 60px; 
+    letter-spacing: -2px; 
+    color: #555;
+    font-weight: 500;
 }
 
 h2 {
-  font-size: 27px;
-  font-weight: 300;
-  color: #555; 
-  line-height: 1.5;
-  margin-bottom: 12px;
+    font-size: 60px;
+    font-weight: 300;
+    color: #555; 
+    line-height: 1.5;
+    margin-bottom: 12px;
 }
 
 h3 {
   font-size: 22px;
   font-weight: 300;
   line-height: 1.5;
-/*   text-align: center; */
   color: #555; 
 }
 
@@ -80,6 +79,213 @@ h5 {
 
 p {
 	margin-top: 5px;
+}
+
+/*All default buttons*/
+
+.button {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;    
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    padding: 0 30px;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+        text-decoration: none;
+        color: $nextcloud-blue;
+        background-color: white;
+    }
+
+    @include modifier(dropdown) {
+        padding: 0;
+
+        &:before {
+            content: "";
+            background: url(../img/arrow_down_white.svg) center/contain no-repeat;
+            position: absolute;
+            display: block;
+            width: 20px;
+            height: 100%;
+            top: 0;
+            right: 20px;
+            transition: all 0.2s ease-in;
+        }
+
+        &.active {
+            &:before {
+                transform: rotate(180deg);
+            }
+        }
+        
+        .dropdown-toggle {
+            font-size: 0;
+            z-index: 1;
+            cursor: pointer;
+            position: relative;
+            top: 0;
+            border: none;
+            padding: 0;
+            margin: 0 0 0 1px;
+            background: transparent;
+            width: 100%;
+            display: none;
+
+            &:focus {
+                outline: 0;
+                opacity: 1;
+                visibility:visible;
+                z-index: 2;
+                border-width: 0 4px 5px 4px;
+            }
+        }
+
+        .dropdown-text {
+            cursor: pointer;
+            z-index: 2;
+            padding: 0 50px 0 30px;
+        }
+
+        .dropdown-content {
+            -webkit-transition: all .25s ease;
+            -moz-transition: all .25s ease;
+            -ms-transition: all .25s ease;
+            -o-transition: all .25s ease;
+            transition: all .25s ease;
+            list-style-type: none;
+            position: relative;
+            top: 10px;
+            padding: 15px 25px;
+            margin: 0;
+            opacity: 0;
+            visibility:hidden;
+            border-radius: 3px;
+            line-height: 32px;
+            background-color: white;
+            border: 1px solid $light-grey;
+            width: 100%;
+            box-shadow: $elevation-shadow-1;
+
+            &:before {
+                content: "";
+                position: absolute;
+                bottom: 100%;
+                left: 50%;
+                right: auto;
+                -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+                height: 0;
+                width: 0;
+                border: 8px solid transparent;
+                border-bottom-color: #f1f1f1;
+            }
+
+            &:after {
+                content: "";
+                position: absolute;
+                bottom: 100%;
+                left: 50%;
+                right: auto;
+                -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+                height: 0;
+                width: 0;
+                border: 6px solid transparent;
+                border-bottom-color: white;
+            }
+
+            &.visible {
+                visibility: visible;
+                opacity: 1;
+                top: 20px;
+            }
+
+            a {
+                display: block;
+                text-transform: none;
+                font-size: 14px;
+                color: #a0a0a0;
+                font-weight: 400;
+                line-height: 2.14;
+
+                &:hover {
+                    text-decoration: none;
+                    color: $medium-grey;
+                }
+            }
+
+            &:hover {
+                opacity: 1;
+                visibility:visible;
+            }
+        }
+    }
+
+    @include modifier(large) {
+        height:60px;
+        line-height: 60px;
+    }
+
+    @include modifier(small) {
+        height: 40px;
+        line-height: 40px;
+    }
+    
+    @include modifier("blue") {
+        background-color: $nextcloud-blue;
+        border: none;
+
+        &:hover {
+            background-color: $nextcloud-blue;
+            color: white;
+        }
+    }
+
+    @include modifier(arrow) {
+        padding-right: calc(30px + 20px); //value of current padding plus width of the before statment
+
+        &:before {
+            content: "";
+            background: url(../img/arrow_right.svg) center/contain no-repeat;
+            position: absolute;
+            display: block;
+            width: 20px;
+            height: 100%;
+            top: 0;
+            right: 25px;
+            transition: all 0.3s ease 0s;
+        }
+
+        &:hover {
+            &:before {
+			    right: 15px;	
+		    }
+        }
+    }
+
+    @include modifier(icon) {
+       padding: 0 30px 0 50px;
+
+        &:after {
+            content: "";
+            background: url(../img/common/pdf-icon.svg) center/contain no-repeat;
+            position: absolute;
+            display: block;
+            width: 24px;
+            height: 100%;
+            top: 0;
+            left: 20px;
+            transition: all 0.3s ease 0s;
+        }
+    }
 }
 
 /* New widest container for headers */
@@ -128,10 +334,6 @@ p {
   }
 }
 
-
-/**
- * Overwrite buttons for bootstrap
- */
 .btn-primary{
 	background-color: $nextcloud-blue;
 	font-size: 18px;
