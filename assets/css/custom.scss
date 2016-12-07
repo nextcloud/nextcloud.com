@@ -320,6 +320,7 @@ p {
         &:hover {
             &:before {
 			    right: 15px;	
+				background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
 		    }
         }
     }
