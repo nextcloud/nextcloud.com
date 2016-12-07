@@ -161,7 +161,7 @@ p {
 
         &:before {
             content: "";
-            background: url(../img/arrow_down_white.svg) center/contain no-repeat;
+            background: url(../img/common/arrow_down_white.svg) center/contain no-repeat;
             position: absolute;
             display: block;
             width: 20px;
@@ -307,7 +307,7 @@ p {
 
         &:before {
             content: "";
-            background: url(../img/arrow_right.svg) center/contain no-repeat;
+            background: url(../img/common/arrow_right.svg) center/contain no-repeat;
             position: absolute;
             display: block;
             width: 20px;
@@ -400,7 +400,7 @@ p {
 	
 	&:before {
         content: "";
-		background: url(../img/arrow_right.svg) center/contain no-repeat;
+		background: url(../img/common/arrow_right.svg) center/contain no-repeat;
 	    position: absolute;
 		display: block;
 		width: 30px;
