@@ -1,60 +1,22 @@
-/*
-Error: Invalid CSS after "0 !important": expected expression (e.g. 1px, bold), was ";"
-        on line 8 of legacy-fixes.css
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/**
+ * This file contains fixes for legacy pages
+ */
+footer p {
+  padding: 0 !important;
+  padding-top: 20px !important; }
 
-3: /*Breakpoints*\/
-4: /**
-5:  * This file contains fixes for legacy pages
-6:  *\/
-7: footer p {
-8:   padding: 0 !important;
-9:   padding-top: 20px !important; }
-10: 
-11: .navbar:not(.scrolled) .btn-primary {
-12:   border-color: white; }
-13: 
+.navbar:not(.scrolled) .btn-primary {
+  border-color: white; }
 
-Backtrace:
-legacy-fixes.css:8
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/script/lexer.rb:229:in `expected!'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/script/parser.rb:738:in `assert_done'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/script/parser.rb:76:in `parse'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/script/parser.rb:240:in `parse'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/script.rb:27:in `parse'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:1151:in `parse_script'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:721:in `parse_property'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:692:in `parse_property_or_rule'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:658:in `parse_line'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:536:in `build_tree'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:555:in `block in append_children'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:554:in `each'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:554:in `append_children'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:545:in `block in build_tree'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:538:in `each'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:538:in `build_tree'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:555:in `block in append_children'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:554:in `each'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:554:in `append_children'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:409:in `_to_tree'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin.rb:82:in `update_stylesheets'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/bin/sass:23:in `load'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/bin/sass:23:in `<main>'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"0 !important\": expected expression (e.g. 1px, bold), was \";\"\A         on line 8 of legacy-fixes.css\A \A 3: /*Breakpoints*/\A 4: /**\A 5:  * This file contains fixes for legacy pages\A 6:  */\A 7: footer p {\A 8:   padding: 0 !important;\A 9:   padding-top: 20px !important; }\A 10: \A 11: .navbar:not(.scrolled) .btn-primary {\A 12:   border-color: white; }\A 13: "; }
+.Header-Navigation .navbar .overlay-menu ul .btn-primary a {
+  /*   width: 169px; */
+  /*   height: 52px; */
+  /*   bottom: 4px; */ }
+  @media (max-width: 1200px) {
+    .Header-Navigation .navbar .overlay-menu ul .btn-primary a {
+      padding: 0 !important; } }
+
+/*# sourceMappingURL=legacy-fixes.css.map */
