@@ -1,35 +1,9 @@
 @import "variables.scss";
 @import "transparent-navbar.scss";
 
-.background {
-  background: url("../img/jobs/team.jpg") no-repeat;
-  padding-bottom: 0;
-  padding-top: 0;
-  margin-bottom: 0;
+.jobs-background {
+  background: url("../img/headers/team.jpg") no-repeat;
   background-position: center;
-  background-size: cover;
-  height: 70vh;
-  min-height: 600px;
-  max-height: 800px;
-
-	.container {
-		top: 50%;
-		transform: translateY(-50%);
-		position: relative;
-		margin-left: 5%;
-		padding: 0;
-	}
-
-	h1 {
-		padding-top: 0;
-		color: white;
-	}
-
-	h2 {
-		color: white;
-		font-size: 18px;
-		line-height: 1.6;
-	}
 }
 
 .section-company-description {
@@ -82,10 +56,9 @@
 			padding-top: 20px;
 			font-size: 18px;
 		}
+		@media (max-width: $break-small) {
+			margin: 0; 
+			width: 100%;
+		}
 	}
 }
-
-	
-
-
-

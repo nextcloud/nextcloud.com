@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <section class="hero-section">
 	<div class="container-fluid background"> 
 		<div class="container">
@@ -18,6 +19,19 @@
 		<p class="text-center revealOnScroll"><?php echo $l->t('Your Nextcloud subscription enables you to successfully deploy and manage your Nextcloud instances, complimenting your IT resources and increasing the efficiency and reliability of your service. Our open approach gives you direct access to technical expertise of the top Nextcloud engineers, the latest knowledge and best practices. Pro-active security support helps you identify and address vulnerabilities and harden your servers to protect the safety and integrity of your data. Our multi-year life cycle support matches your OS and makes sure your business runs without disruptions.');?></p>
 	</div>
 </section>
+=======
+<div class="background enterprise-background"> 
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 topheader">
+				<h1><?php echo $l->t('Enterprise Support Subscriptions');?></h1>
+				<h2><?php echo $l->t('An enterprise subscription provides you the confidence of knowing that your Nextcloud deployment is backed by the best available technical expertise and with the features you need for your organization');?></h2>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/enterprise.js"></script>
+>>>>>>> master
 
 
 

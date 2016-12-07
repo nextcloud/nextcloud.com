@@ -20,6 +20,10 @@
   h1 {
     padding-top: 0;
     color: white;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -2px;
+    font-weight: 500;
     @media (max-width: $break-big) {
       width: 250px;
       letter-spacing: -1px;
@@ -79,12 +83,81 @@
 
   .toptext {
     position: absolute;
-    /* 		margin-top: 50px; */
     top: 30vh;
-    margin-left: 5%;
+	padding-left: 0;
+    margin-left: 0;
+    
     @media (max-width: $break-big) {
       top: 120px;
-      /* 		  margin-top: 50px; */
+	  margin-left: 5%;
+    }
+    .annoucement {
+      background-color:  rgba(0, 115, 178, 0.51);
+      border-radius: 20px;
+      padding: 0 12px 0 5px;
+      text-decoration: none;
+      color: white;
+      line-height: 26px;
+      display: inline-flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      
+      @media (max-width: $break-small) {
+        margin-left: -20px;
+        width: calc(100% + 20px * 2);
+        border-radius: 0;      
+      }
+
+      .type {
+        padding: 0 6px;
+        font-size: 11px;
+        line-height: 16px;
+        font-weight: 600;
+        background: $orange;
+        text-transform: uppercase;
+        border-radius: 10px;
+        
+        @media (max-width: $break-small) {
+          margin-left: 10px;
+        }
+      }
+
+      .message {
+        margin: 0 16px 0 6px;
+        font-size: 13px;
+
+        @media (max-width: $break-small) {
+          font-size: 15px;
+          line-height: 22px;
+          margin: 10px 10px;
+        }
+        
+        &:after {
+          position: absolute;
+          display: inline-block;
+          content: ' ';
+          background-image: url('../img/next.svg');
+          background-size: 12px 12px;
+          height: 12px;
+          width: 12px;
+          top: 7px;
+          margin-left: 5px;
+          transition: all 0.3s ease;
+
+          @media (max-width: $break-small) {
+            position: relative;
+            top: 2px;
+          }
+        }
+
+          &:hover {
+            &:after {
+              margin-left: 10px;
+            }
+          }
+      }
     }
   }
 }
@@ -294,9 +367,12 @@
   }
 }
 
-section#why-nextcloud {
+#why-nextcloud {
   padding-top: 130px;
-
+  
+  h2{
+    font-size: 60px;
+  }
 }
 
 .Section-Introducing-Nextcloud {
@@ -308,6 +384,10 @@ section#why-nextcloud {
   @media (max-width: $navbar-breaksize) {
     padding-top: 60px;
     height: 100vh;
+  }
+
+  h2{
+    font-size: 60px;
   }
 
   .img_carousel {

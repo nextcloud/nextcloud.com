@@ -1,66 +1,266 @@
-@import "variables.scss";
-@import "enterprise.scss";
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
 
-.epricevat {
-	font-weight: light;
-	font-size: .7em;
-	text-align: right;
-	padding: 0px;
-	margin-top: -5px;
-}
+.section-top-jumbotron {
+  height: 531px;
+  background-color: #252323; }
+  .section-top-jumbotron .container h2 {
+    color: white;
+    padding-top: 150px;
+    line-height: 1.4; }
+  .section-top-jumbotron .container .box {
+    background: url("../img/box/box_front.png") no-repeat;
+    width: 689px;
+    height: 569.8px;
+    margin: 0 auto;
+    margin-top: 80px;
+    position: relative; }
 
-.einfo span:hover {
-	border-bottom: 1px dotted gray;
-	/* 	cursor: pointer; */
-}
+.section-data-home {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  text-align: center; }
+  .section-data-home h2 {
+    padding-top: 280px; }
+  .section-data-home p {
+    padding-top: 20px;
+    margin: 0 auto; }
+  .section-data-home .btn-primary {
+    margin-top: 40px; }
 
-.table-center {
-	text-align: center !important;
-}
+.section-tecnology {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  height: 100%;
+  width: 100%;
+  background-color: white; }
+  .section-tecnology .container {
+    border-top: 1px solid #E8E8E8; }
+    .section-tecnology .container .box-open {
+      background: url("../img/box/box-open.png") no-repeat;
+      width: 651px;
+      height: 476px;
+      margin-top: 120px; }
+    .section-tecnology .container .wrapper-text {
+      margin-top: 120px; }
+      .section-tecnology .container .wrapper-text h6 {
+        font-size: 18px;
+        font-weight: 500;
+        padding-top: 30px; }
 
-.enterprise-icon {
-	font-size:80px;
-	color: #0082c9;
-}
+.section-getbox {
+  height: 440px;
+  width: 100%;
+  background-color: #252323;
+  position: relative; }
+  .section-getbox .container .wrapper-text {
+    max-width: 550px;
+    color: white;
+    padding-top: 40px; }
+    .section-getbox .container .wrapper-text h2 {
+      color: white; }
+    .section-getbox .container .wrapper-text p {
+      padding-top: 10px; }
+    .section-getbox .container .wrapper-text .btn-primary {
+      margin-top: 20px; }
+      .section-getbox .container .wrapper-text .btn-primary:before {
+        display: none; }
+  .section-getbox .container .box-perspective {
+    background: url("../img/box/box-perspective.png") no-repeat;
+    width: 692px;
+    height: 485px;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: -130px; }
 
-.blue {
-	color: #0082c9;
-}
+.section-how-to-box {
+  padding-top: 120px;
+  height: 100%;
+  width: 100%;
+  background-color: white; }
+  .section-how-to-box .container p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center; }
+  .section-how-to-box .container .assembly {
+    background: url("../img/box/assembly.png") no-repeat;
+    width: 639px;
+    height: 541px;
+    margin: 0 auto; }
+  .section-how-to-box .container .btn-primary {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px; }
+    .section-how-to-box .container .btn-primary:before {
+      display: none; }
 
-.price {
-	color: #0082c9;
-	font-weight: 80%;
-	text-align: center;
-}
+.section-wiki-forums {
+  padding-top: 100px;
+  height: 100%;
+  width: 100%; }
+  .section-wiki-forums .container {
+    border-top: 1px solid #E8E8E8;
+    padding-top: 60px; }
+    .section-wiki-forums .container p {
+      font-size: 18px;
+      font-weight: 300;
+      margin: 0 auto;
+      margin-top: 10px; }
+    .section-wiki-forums .container .wrapper-buttons {
+      text-align: center;
+      margin-top: 50px; }
+      .section-wiki-forums .container .wrapper-buttons p {
+        display: inline-block; }
+      .section-wiki-forums .container .wrapper-buttons .button {
+        margin-left: 20px;
+        margin-right: 20px; }
 
-.ebasic {
-	background-color: #d9f2ff !important;
-}
+.section-partners {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  height: 100%;
+  width: 100%; }
+  .section-partners .container {
+    border-top: 1px solid #E8E8E8;
+    padding-top: 60px; }
+    .section-partners .container p {
+      font-size: 18px;
+      font-weight: 300;
+      margin: 0 auto;
+      margin-top: 10px; }
+    .section-partners .container .wrapper-images {
+      text-align: center;
+      margin-top: 25px; }
+      .section-partners .container .wrapper-images .logo-wd {
+        background: url("../img/box/wd-logo.svg") no-repeat;
+        width: 245.8px;
+        height: 58.7px;
+        display: inline-block;
+        margin-left: 25px;
+        margin-right: 25px; }
+      .section-partners .container .wrapper-images .logo-ubuntu {
+        background: url("../img/box/ubuntu-logo.svg") no-repeat;
+        width: 242.5px;
+        height: 60px;
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px; }
 
-.epro {
-	background-color: #c6ecff !important;
-}
+@media (max-width: 991px) {
+  .section-data-home h2 {
+    padding-top: 350px; }
 
-.eenterprise {
-	background-color: #ace4ff !important;
-}
+  .section-getbox {
+    padding-top: 100px;
+    height: 450px; }
+    .section-getbox .container .wrapper-text {
+      margin-top: 60px; }
+      .section-getbox .container .wrapper-text h2 {
+        color: white; }
+      .section-getbox .container .wrapper-text p {
+        padding-top: 10px; }
+      .section-getbox .container .wrapper-text .btn-primary {
+        margin-top: 20px;
+        padding: 20px 50px 20px 50px; }
+        .section-getbox .container .wrapper-text .btn-primary:before {
+          display: none; }
+    .section-getbox .container .box-perspective {
+      width: 346px;
+      height: 242px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-top: -200px; } }
+@media (max-width: 768px) {
+  .section-top-jumbotron .container {
+    height: 100%; }
+    .section-top-jumbotron .container .box {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      background-size: contain;
+      margin-top: 120px; }
 
-.eintro {
-	font-size: 115%;
-}
+  .section-data-home h2 {
+    padding-top: 180px; }
 
-.pricingdetails > h2 {
-	margin-top: 150px;
-	margin-bottom: 80px;
-}
+  .section-tecnology {
+    padding-top: 60px;
+    padding-bottom: 150px; }
+    .section-tecnology .container .box-open {
+      width: 325px;
+      height: 238px;
+      margin-top: 60px;
+      background-size: contain; }
+    .section-tecnology .container .wrapper-text {
+      margin-top: 60px; }
+      .section-tecnology .container .wrapper-text h6 {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 500;
+        padding-top: 0;
+        padding-bottom: 10px; }
 
-.contact {
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
+  .section-getbox {
+    padding-top: 100px;
+    height: 450px; }
+    .section-getbox .container .wrapper-text {
+      margin-top: 60px; }
+      .section-getbox .container .wrapper-text h2 {
+        color: white; }
+      .section-getbox .container .wrapper-text p {
+        padding-top: 10px; }
+      .section-getbox .container .wrapper-text .btn-primary {
+        margin-top: 20px;
+        padding: 20px 50px 20px 50px; }
+        .section-getbox .container .wrapper-text .btn-primary:before {
+          display: none; }
+    .section-getbox .container .box-perspective {
+      width: 346px;
+      height: 242px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-top: -200px; }
 
-.contact > h3 {
-	margin-top: 90px;
-	margin-bottom: 20px;
-	text-align: left;
-}
+  .section-how-to-box {
+    padding-top: 50px; }
+    .section-how-to-box .container .assembly {
+      width: 319px;
+      height: 270px;
+      background-size: contain; }
+    .section-how-to-box .container .btn-primary {
+      padding: 20px 50px 20px 50px; }
+
+  .section-wiki-forums {
+    padding-top: 50px; }
+    .section-wiki-forums .container {
+      padding-top: 30px; }
+      .section-wiki-forums .container .col-xs-8 .wrapper-buttons {
+        text-align: center;
+        margin-top: 50px; }
+        .section-wiki-forums .container .col-xs-8 .wrapper-buttons .button {
+          margin: 0, 15px; }
+
+  .section-partners {
+    padding-top: 30px;
+    padding-bottom: 50px; }
+    .section-partners .container {
+      padding-top: 30px; }
+      .section-partners .container .wrapper-images {
+        text-align: center;
+        margin-top: 25px; }
+        .section-partners .container .wrapper-images .logo-wd {
+          width: 122px;
+          height: 29px; }
+        .section-partners .container .wrapper-images .logo-ubuntu {
+          width: 121px;
+          height: 30px; } }
+
+/*# sourceMappingURL=buy.scss.map */

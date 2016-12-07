@@ -1,0 +1,13 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.contribute-background {
+  background: url("../img/headers/team.jpg") no-repeat;
+  background-position: center; }
+
+/*# sourceMappingURL=contribute.css.map */

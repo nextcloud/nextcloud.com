@@ -1,3 +1,6 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -26,9 +29,6 @@
   .section-data-home h2 {
     padding-top: 280px; }
   .section-data-home p {
-    font-size: 18px;
-    font-weight: 300;
-    max-width: 600px;
     padding-top: 20px;
     margin: 0 auto; }
   .section-data-home .btn-primary {
@@ -55,7 +55,6 @@
         padding-top: 30px; }
 
 .section-getbox {
-  padding-top: 100px;
   height: 440px;
   width: 100%;
   background-color: #252323;
@@ -63,10 +62,7 @@
   .section-getbox .container .wrapper-text {
     max-width: 550px;
     color: white;
-    z-index: 50;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%); }
+    padding-top: 40px; }
     .section-getbox .container .wrapper-text h2 {
       color: white; }
     .section-getbox .container .wrapper-text p {
@@ -81,9 +77,7 @@
     height: 485px;
     background-repeat: no-repeat;
     float: right;
-    margin-top: -220px; }
-  .section-getbox .container .dropdown-menu {
-    z-index: 1000; }
+    margin-top: -130px; }
 
 .section-how-to-box {
   padding-top: 120px;
@@ -93,7 +87,6 @@
   .section-how-to-box .container p {
     font-size: 18px;
     font-weight: 300;
-    max-width: 550px;
     margin: 0 auto;
     margin-top: 10px;
     text-align: center; }
@@ -119,7 +112,6 @@
     .section-wiki-forums .container p {
       font-size: 18px;
       font-weight: 300;
-      max-width: 650px;
       margin: 0 auto;
       margin-top: 10px; }
     .section-wiki-forums .container .wrapper-buttons {
@@ -127,9 +119,9 @@
       margin-top: 50px; }
       .section-wiki-forums .container .wrapper-buttons p {
         display: inline-block; }
-      .section-wiki-forums .container .wrapper-buttons .btn-primary {
-        margin-left: 10px;
-        margin-right: 10px; }
+      .section-wiki-forums .container .wrapper-buttons .button {
+        margin-left: 20px;
+        margin-right: 20px; }
 
 .section-partners {
   padding-top: 120px;
@@ -142,7 +134,6 @@
     .section-partners .container p {
       font-size: 18px;
       font-weight: 300;
-      max-width: 650px;
       margin: 0 auto;
       margin-top: 10px; }
     .section-partners .container .wrapper-images {
@@ -251,11 +242,11 @@
     padding-top: 50px; }
     .section-wiki-forums .container {
       padding-top: 30px; }
-      .section-wiki-forums .container .wrapper-buttons {
+      .section-wiki-forums .container .col-xs-8 .wrapper-buttons {
         text-align: center;
         margin-top: 50px; }
-        .section-wiki-forums .container .wrapper-buttons p {
-          margin-bottom: 45px; }
+        .section-wiki-forums .container .col-xs-8 .wrapper-buttons .button {
+          margin: 0, 15px; }
 
   .section-partners {
     padding-top: 30px;

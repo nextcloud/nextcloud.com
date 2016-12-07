@@ -1,3 +1,6 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -20,7 +23,11 @@
       min-height: 600px; } }
   .jumbotron h1 {
     padding-top: 0;
-    color: white; }
+    color: white;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -2px;
+    font-weight: 500; }
     @media (max-width: 991px) {
       .jumbotron h1 {
         width: 250px;
@@ -69,13 +76,66 @@
     opacity: 0; }
   .jumbotron .toptext {
     position: absolute;
-    /* 		margin-top: 50px; */
     top: 30vh;
-    margin-left: 5%; }
+    padding-left: 0;
+    margin-left: 0; }
     @media (max-width: 991px) {
       .jumbotron .toptext {
         top: 120px;
-        /* 		  margin-top: 50px; */ } }
+        margin-left: 5%; } }
+    .jumbotron .toptext .annoucement {
+      background-color: rgba(0, 115, 178, 0.51);
+      border-radius: 20px;
+      padding: 0 12px 0 5px;
+      text-decoration: none;
+      color: white;
+      line-height: 26px;
+      display: inline-flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      @media (max-width: 768px) {
+        .jumbotron .toptext .annoucement {
+          margin-left: -20px;
+          width: calc(100% + 20px * 2);
+          border-radius: 0; } }
+      .jumbotron .toptext .annoucement .type {
+        padding: 0 6px;
+        font-size: 11px;
+        line-height: 16px;
+        font-weight: 600;
+        background: #FF8B00;
+        text-transform: uppercase;
+        border-radius: 10px; }
+        @media (max-width: 768px) {
+          .jumbotron .toptext .annoucement .type {
+            margin-left: 10px; } }
+      .jumbotron .toptext .annoucement .message {
+        margin: 0 16px 0 6px;
+        font-size: 13px; }
+        @media (max-width: 768px) {
+          .jumbotron .toptext .annoucement .message {
+            font-size: 15px;
+            line-height: 22px;
+            margin: 10px 10px; } }
+        .jumbotron .toptext .annoucement .message:after {
+          position: absolute;
+          display: inline-block;
+          content: ' ';
+          background-image: url("../img/next.svg");
+          background-size: 12px 12px;
+          height: 12px;
+          width: 12px;
+          top: 7px;
+          margin-left: 5px;
+          transition: all 0.3s ease; }
+          @media (max-width: 768px) {
+            .jumbotron .toptext .annoucement .message:after {
+              position: relative;
+              top: 2px; } }
+        .jumbotron .toptext .annoucement .message:hover:after {
+          margin-left: 10px; }
 
 .jumbotron > .container-fluid > .col-md-6 > p > a {
   width: 290px;
@@ -236,8 +296,10 @@
     .flexibility-icon {
       margin: auto; } }
 
-section#why-nextcloud {
+#why-nextcloud {
   padding-top: 130px; }
+  #why-nextcloud h2 {
+    font-size: 60px; }
 
 .Section-Introducing-Nextcloud {
   background-color: transparent;
@@ -249,6 +311,8 @@ section#why-nextcloud {
     .Section-Introducing-Nextcloud {
       padding-top: 60px;
       height: 100vh; } }
+  .Section-Introducing-Nextcloud h2 {
+    font-size: 60px; }
   .Section-Introducing-Nextcloud .img_carousel {
     padding-top: 100px;
     position: relative; }

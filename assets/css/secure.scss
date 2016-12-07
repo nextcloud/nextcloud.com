@@ -5,57 +5,9 @@
 /**
  * Secure Page
  */
-.background {
+.sbackground {
   background-image: url("../img/security/security.jpg");
-  padding-bottom: 0;
-  padding-top: 0;
-  margin-bottom: 0;
-  background-repeat: no-repeat;
   background-position: bottom 0 right 0;
-  background-size: cover;
-  border-radius: 0 !important;
-  height: 70vh;
-  min-height: 600px;
-  max-height: 800px;
-
-  h1 {
-    padding-top: 0;
-    color: white;
-  }
-
-  h2 {
-    color: white;
-    font-size: 18px;
-    line-height: 1.6;
-  }
-
-  .btn-primary {
-    margin-top: 50px;
-    width: 70%;
-  }
-
-  .container {
-    top: 50%;
-    transform: translateY(-50%);
-    position: relative;
-    margin-left: 5%;
-    padding: 0;
-    .topheader {
-      padding: 0;
-      a{
-        width: 290px;
-        height: 60px;
-        padding-top: 16px
-      }
-    }
-  }
-
-  .container-fluid{
-    img {
-      height: 100%;
-      width: 100%;
-    }
-  }
 }
 
 /* All headers */

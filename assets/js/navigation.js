@@ -60,6 +60,7 @@ $(document).ready(function() {
     },
 
     resetMobile: function() {
+        $(this.variables.navigationId).removeClass(this.variables.mobileClass);
         $(this.variables.toggleSelector).off("click");
         $(this.variables.sectionSelector).off("click");
         $(this.variables.linksSelector).css("display", "inherit").removeClass(this.variables.activeClass);
@@ -89,7 +90,7 @@ $(document).ready(function() {
             this.createMenuButton();
         }
 
-        this.blockScroll();
+        //this.blockScroll();
         $(this.variables.navigationId).addClass(this.variables.mobileClass);
         $(this.variables.toggleSelector).click(_.bind(this.toggleMobileMenu, this));
         $(this.variables.sectionSelector).click(_.bind(this.showSubMenu, this));
@@ -193,7 +194,7 @@ $(document).ready(function() {
         }
     },
 
-    // Prevent scrolling if menu is opened
+   /* // Prevent scrolling if menu is opened
     blockScroll: function(event) {
         if(this.menuOpened) {
             event.preventDefault();
@@ -201,49 +202,7 @@ $(document).ready(function() {
             
             return false;
         }
-    },
-
-    //Show Header when scroll in resolution lower then width 800px
-    showHeaderOnScroll: function () {
-
-        $(window).scroll(_.bind(function(event){
-            this.didScroll = true;
-        }, this));
-
-        setInterval(_.bind(function() {
-            if (this.didScroll) {
-                this.hasScrolled();
-                this.didScroll = false;
-            }
-        }, this, 250));
-    },
-
-    hasScrolled: function() {
-        var st = $(window).scrollTop();
-        var lastScrollTop = 0;
-        var delta = 100;
-        var navbarHeight = $(this.variables.navigationId).outerHeight();
-        
-        //console.log(st + $(window).height())
-        //console.log($(document).height())
-        // Make sure they scroll more than delta
-        if(Math.abs(lastScrollTop - st) <= delta)
-            return;
-        // If they scrolled down and are past the navbar, add class .nav-up.
-        // This is necessary so you never see what is "behind" the navbar.
-        if (st > lastScrollTop && st > navbarHeight){
-            // Scroll Down
-            $(this.variables.navigationId).removeClass(this.variables.showNavigationClass).addClass(this.variables.hideNavigationClass);
-        } else {
-            // Scroll Up
-            if(st + $(window).height() > $(document).height()) {
-                $(this.variables.navigationId).removeClass(this.variables.hideNavigationClass).addClass(this.variables.showNavigationClass);
-            }
-        }
-
-        lastScrollTop = st;
-
-    },
+    },*/
 
     animatedLogoSprite: function() {
         this.hoverLogo();

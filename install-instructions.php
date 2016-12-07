@@ -91,7 +91,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<ul class="nav nav-tabs" role="tablist">
+				<ul class="install-nav nav-tabs" role="tablist">
 					<li id="li-tab-archive" class="active"><a href="#tab-archive" title="For server owners" role="tab" data-toggle="tab"><i class="icon-archive"></i> <?php echo $l->t('Archive File<br><small>For server owners');?></small></a></li>
 					<li><a href="#tab-web" title="Best for shared hosts" role="tab" data-toggle="tab"><i class="icon-code"></i> <?php echo $l->t('Web Installer<br><small>For shared hosts');?></small></a></li>
 					<li><a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-cloud"></i> <?php echo $l->t('Appliances<br><small>For easy deployment');?></small></a></li>
@@ -108,7 +108,7 @@
 		<div class="instructions">
 			<div class="row">
 				<a href="#" class="close">&times;</a>
-				<ul class="nav nav-tabs" role="tablist">
+				<ul class="install-nav nav-tabs" role="tablist">
 					<li id="li-tab-desktop" class="active"><a href="#tab-desktop" class="btn btn-lg" title="Install Desktop Clients" role="tab" data-toggle="tab"><i class="icon-archive"></i> <?php echo $l->t('Install Desktop Clients');?></a></li>
 					<li id="li-tab-mobile"><a href="#tab-mobile" class="btn btn-lg" title="Install Mobile Apps" role="tab" data-toggle="tab"><i class="icon-code"></i> <?php echo $l->t('Install Mobile Apps');?></a></li>
 				</ul>

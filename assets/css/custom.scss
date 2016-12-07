@@ -1,65 +1,396 @@
 @import "variables.scss";
+@import "helpers.scss";
 @import "home.scss";
 @import "header.scss";
 @import "footer.scss";
 @import "jobs.scss";
 @import "box.scss";
+@import "contribute.scss";
+@import "migration.scss";
+@import "enterprise.scss";
+@import "secure.scss";
+@import "buy.scss";
+@import "support.scss";
+@import 'vendor/modular-scale/modular-scale.scss';
+
 
 html{
     margin-top: 0 !important;
 }
 
 body {
-  font-family: "Open Sans", Frutiger, Calibri, "Myriad Pro", Myriad, sans-serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; 
+    font-family: "Open Sans", Frutiger, Calibri, "Myriad Pro", Myriad, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
 }
 
+i[class*='fa-'] {
+    font-style: normal;
+    color: #555;
+}
 
-/**
- * Headers
- */
+i[class*='fa-'] {
+	font-style: normal;
+	color: #555;
+	font-family: "fontawesome", fontawesome, "Font Awesome", Fontawesome !important; /* to override the Open Sans font set above */
+}
+
+/* Bootstrap centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+/*Default typographic styles*/
+
+.section {
+    @include modifier(text--center) {
+        margin: 0 auto;
+        text-align: center;
+    } 
+
+    @include modifier(heading-1) {
+        font-size: ms(3);
+        font-weight: 300;
+    }
+
+    @include modifier(heading-2) {
+        font-size: ms(2);
+        font-weight: 300;
+    }
+
+    @include modifier(intro) {
+        font-size: ms(0, 22px);
+        font-weight: 300;  
+    }   
+
+    @include modifier(intro) {
+        font-size: ms(0);
+        font-weight: 300;  
+    }   
+}
+
+.hyperlink {
+    color: #a2a2a2;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: solid 1px;
+    transition: all 0.5s ease;
+
+    &:hover {
+        text-decoration: none;
+        color: $dark-blue;
+    }
+}
+
 h1 {
-  font-size: 60px;
-  line-height: 60px;
-  letter-spacing: -2px;
-  color: #2a2a36;
-  font-weight: 500; }
+    margin-bottom: 10px;
+    font-size: 60px;
+    line-height: 60px; 
+    letter-spacing: -2px; 
+    color: #555;
+    font-weight: 500;
+}
 
 h2 {
-  font-size: 60px;
-  font-weight: 300;
-  line-height: 0.9;
-  color: #2a2a36; 
+    font-size: 60px;
+    font-weight: 300;
+    color: #555; 
+    line-height: 1.5;
+    margin-bottom: 12px;
 }
 
 h3 {
-  font-size: 35px;
+  font-size: 22px;
   font-weight: 300;
   line-height: 1.5;
-/*   text-align: center; */
-  color: #2a2a36; 
+  color: #555; 
 }
 
 h4 {
-  font-size: 25px;
+  font-size: 19px;
   font-weight: bold;
   line-height: 1.36;
-  color: #2a2a36;
+  color: #555;
   margin-bottom: 20px; 
 }
 
 h5 {
-  font-size: 24px;
+  font-size: 17px;
   font-weight: bold;
   line-height: 1.5;
   letter-spacing: -1px;
-  color: #2a2a36; 
+  color: #555; 
 }
 
-/**
- * Overwrite buttons for bootstrap
- */
+p {
+	margin-top: 5px;
+}
+
+/*All default buttons*/
+
+.button {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;    
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    padding: 0 30px;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+	margin: 20px 0 20px 0;
+
+    &:hover {
+        text-decoration: none;
+        color: $nextcloud-blue;
+        background-color: white;
+    }
+
+    @include modifier(dropdown) {
+        padding: 0;
+
+        &:before {
+            content: "";
+            background: url(../img/common/arrow_down_white.svg) center/contain no-repeat;
+            position: absolute;
+            display: block;
+            width: 20px;
+            height: 100%;
+            top: 0;
+            right: 20px;
+            transition: all 0.2s ease-in;
+        }
+
+        &.active {
+            &:before {
+                transform: rotate(180deg);
+            }
+        }
+        
+        .dropdown-toggle {
+            font-size: 0;
+            z-index: 1;
+            cursor: pointer;
+            position: relative;
+            top: 0;
+            border: none;
+            padding: 0;
+            margin: 0 0 0 1px;
+            background: transparent;
+            width: 100%;
+            display: none;
+
+            &:focus {
+                outline: 0;
+                opacity: 1;
+                visibility:visible;
+                z-index: 2;
+                border-width: 0 4px 5px 4px;
+            }
+        }
+
+        .dropdown-text {
+            cursor: pointer;
+            z-index: 2;
+            padding: 0 50px 0 30px;
+        }
+
+        .dropdown-content {
+            -webkit-transition: all .25s ease;
+            -moz-transition: all .25s ease;
+            -ms-transition: all .25s ease;
+            -o-transition: all .25s ease;
+            transition: all .25s ease;
+            list-style-type: none;
+            position: relative;
+            top: 10px;
+            padding: 15px 25px;
+            margin: 0;
+            opacity: 0;
+            visibility:hidden;
+            border-radius: 3px;
+            line-height: 32px;
+            background-color: white;
+            border: 1px solid $light-grey;
+            width: 100%;
+            box-shadow: $elevation-shadow-1;
+
+            &:before {
+                content: "";
+                position: absolute;
+                bottom: 100%;
+                left: 50%;
+                right: auto;
+                -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+                height: 0;
+                width: 0;
+                border: 8px solid transparent;
+                border-bottom-color: #f1f1f1;
+            }
+
+            &:after {
+                content: "";
+                position: absolute;
+                bottom: 100%;
+                left: 50%;
+                right: auto;
+                -webkit-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+                height: 0;
+                width: 0;
+                border: 6px solid transparent;
+                border-bottom-color: white;
+            }
+
+            &.visible {
+                visibility: visible;
+                opacity: 1;
+                top: 20px;
+            }
+
+            a {
+                display: block;
+                text-transform: none;
+                font-size: 14px;
+                color: #a0a0a0;
+                font-weight: 400;
+                line-height: 2.14;
+
+                &:hover {
+                    text-decoration: none;
+                    color: $medium-grey;
+                }
+            }
+
+            &:hover {
+                opacity: 1;
+                visibility:visible;
+            }
+        }
+    }
+
+    @include modifier(large) {
+        height:60px;
+        line-height: 60px;
+    }
+
+    @include modifier(small) {
+        height: 40px;
+        line-height: 40px;
+    }
+    
+    @include modifier("blue") {
+        background-color: $nextcloud-blue;
+        border: none;
+
+        &:hover {
+            background-color: $nextcloud-blue;
+            color: white;
+			
+			&:before {
+				background: url(../img/common/arrow_right.svg) center/contain no-repeat;
+			}
+        }
+    }
+
+    @include modifier(arrow) {
+        padding-right: calc(30px + 20px); //value of current padding plus width of the before statement
+
+        &:before {
+            content: "";
+            background: url(../img/common/arrow_right.svg) center/contain no-repeat;
+            position: absolute;
+            display: block;
+            width: 20px;
+            height: 100%;
+            top: 0;
+            right: 25px;
+            transition: all 0.3s ease 0s;
+        }
+
+        &:hover {
+            &:before {
+			    right: 15px;
+		    }
+        }
+    }
+
+    @include modifier(icon) {
+       padding: 0 30px 0 50px;
+
+        &:after {
+            content: "";
+            background: url(../img/common/pdf-icon.svg) center/contain no-repeat;
+            position: absolute;
+            display: block;
+            width: 24px;
+            height: 100%;
+            top: 0;
+            left: 20px;
+            transition: all 0.3s ease 0s;
+        }
+    }
+}
+
+/* New widest container for headers */
+
+.container-widest {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1800px;
+}
+
+
+/* typical background images (hero section) like enterprise, security */
+.background {
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 !important;
+  height: 70vh;
+  min-height: 600px;
+  max-height: 800px;
+  position: relative;
+
+  h1 {
+    padding-top: 0;
+    color: white;
+  }
+
+  h2 {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .topheader {
+    position: absolute;
+    top: 30%;
+    margin: 0;
+    padding: 0;
+    max-width: 600px;
+    
+    @media (max-width: $break-big) {
+      padding-left: 5%;
+    }
+  }
+}
+
 .btn-primary{
 	background-color: $nextcloud-blue;
 	font-size: 18px;
@@ -73,7 +404,7 @@ h5 {
 	
 	&:before {
         content: "";
-		background: url(../img/arrow_right.svg) center/contain no-repeat;
+		background: url(../img/common/arrow_right.svg) center/contain no-repeat;
 	    position: absolute;
 		display: block;
 		width: 30px;

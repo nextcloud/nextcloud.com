@@ -8,7 +8,7 @@ $(document).ready(function() {
 </script>
 
 <div class="featurerow">
-	<h1 class="featuretitle"><?php echo $l->t('File access and sharing');?></h1>
+	<h1 class="featuretitle page-header"><?php echo $l->t('File access and sharing');?></h1>
 	<div class="row">
 		<div class="col-md-6 featureblock">
 			<h2 class="featuretitle"><?php echo $l->t('Share on your terms');?></h2>

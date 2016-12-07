@@ -1,4 +1,13 @@
 <<<<<<< HEAD
+@-moz-document url-prefix() {
+  .brand {
+    -webkit-transform: scale(0.5);
+    top: -26px !important; } }
+=======
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+>>>>>>> create dropdown buttons and change the structure in box page
 .nav {
   z-index: 1;
   padding-top: 20px;
@@ -10,6 +19,9 @@
   position: relative; }
   .nav .container {
     position: relative; }
+    @media (min-width: 992px) {
+      .nav .container {
+        width: 90%; } }
     .nav .container .nav__bg-wrapper {
       -webkit-transition: 0.3s;
       transition: 0.3s;
@@ -75,58 +87,21 @@
       position: absolute;
       top: 0;
       left: 0; }
-      .nav .container .brand .logo:not(.scrolled) {
-=======
-.Header-Navigation .navbar {
-  top: 0;
-  border-width: 0 0 1px;
-  background-color: #0082c9;
-  height: 100px;
-  transition: all .2s ease-in;
-  z-index: 5;
-  padding-top: 24px;
-  font-size: 16px; }
-  @media (min-width: 1200px) {
-    .Header-Navigation .navbar li.active a {
-      border-bottom: 3px solid #ffffff;
-      padding-bottom: 15px; }
-    .Header-Navigation .navbar li:last-child {
-      padding-left: 30px;
-      padding-right: 30px; }
-      .Header-Navigation .navbar li:last-child:hover {
-        /* we can set a hover effect for the install button here */ }
-    .Header-Navigation .navbar li a {
-      color: white;
-      /* hover effect for menu items: underline */ }
-      .Header-Navigation .navbar li a:after {
-        content: '';
-        display: block;
-        margin: auto;
-        height: 2px;
-        width: 0px;
-        background: transparent;
-        transition: width .2s ease-out, background-color .5s ease; }
-        .Header-Navigation .navbar li a:after:last-child {
-          margin-top: 0; }
-      .Header-Navigation .navbar li a:hover {
-        text-decoration: none;
-        padding-bottom: 15px;
-        border-bottom: 3px solid #ffffff; } }
-@media (min-width: 1200px) and (max-width: 1200px) {
-  .Header-Navigation .navbar a {
-    color: #75badd; }
-    .Header-Navigation .navbar a .active {
-      color: #ffffff; } }
-  @media (min-width: 1200px) {
-    .Header-Navigation .navbar .navbar-header {
-      float: none; }
-      .Header-Navigation .navbar .navbar-header .logo {
->>>>>>> master
-        background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
-        height: 50px;
-        width: 71px;
-        display: inline-block; }
-<<<<<<< HEAD
+      .nav .container .brand .logo:not(.scrolled):not(.menu-open) {
+        background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
+        height: 100px;
+        width: 140px;
+        display: inline-block;
+        zoom: 0.5; }
+        .nav .container .brand .logo:not(.scrolled):not(.menu-open).hoverPlay {
+          background-position-x: 0;
+          -webkit-animation: play 2s steps(33) forwards;
+          -moz-animation: play 2s steps(33) forwards;
+          -ms-animation: play 2s steps(33) forwards;
+          -o-animation: play 2s steps(33) forwards;
+          animation: play 2s steps(33) forwards; }
+        .nav .container .brand .logo:not(.scrolled):not(.menu-open).stopedAnimation {
+          background-position-x: -4620px; }
     .nav .container .nav__sections {
       display: -webkit-box;
       display: -webkit-flex;
@@ -141,6 +116,9 @@
       z-index: -1;
       left: 20%;
       top: 0%; }
+      @media (max-width: 1200px) {
+        .nav .container .nav__sections {
+          left: 10%; } }
       .nav .container .nav__sections .nav__section {
         padding: 15px 0 15px 0;
         position: relative; }
@@ -153,56 +131,9 @@
           opacity: 1;
           position: absolute;
           left: 50%;
-          transform: translateX(-50%); }
+          transform: translateX(-50%) translateZ(1px); }
         .nav .container .nav__sections .nav__section .nav__label {
           display: inline-block;
-=======
-    .Header-Navigation .navbar .btn-primary {
-      background-color: #0082c9;
-      border: 1px solid transparent;
-      border-radius: 100px;
-      font-size: 16px;
-      height: inherit; }
-      .Header-Navigation .navbar .btn-primary:before {
-        visibility: hidden; } }
-  @media (min-width: 1200px) and (max-width: 1200px) {
-    .Header-Navigation .navbar .btn-primary {
-      position: fixed;
-      bottom: 0;
-      margin-left: -5%;
-      width: 105%;
-      border-radius: 0;
-      border: 0;
-      height: 75px;
-      font-size: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: transparent; }
-      .Header-Navigation .navbar .btn-primary a {
-        color: #ffffff; } }
-
-  .Header-Navigation .navbar .active {
-    font-weight: 600;
-    z-index: 3; }
-  .Header-Navigation .navbar .overlay {
-    display: inline-block;
-    float: right !important; }
-    .Header-Navigation .navbar .overlay .overlay-menu ul {
-      float: right !important;
-      padding-left: 0;
-      margin-bottom: 0;
-      list-style: none;
-      margin-right: -15px;
-      margin-bottom: 0; }
-      .Header-Navigation .navbar .overlay .overlay-menu ul li {
-        margin: 0 0 0 10px;
-        padding: 10px 15px;
-        position: relative;
-        display: table-cell;
-        vertical-align: middle; }
-        .Header-Navigation .navbar .overlay .overlay-menu ul li:last-child {
->>>>>>> master
           padding-left: 30px;
           padding-bottom: 5px;
           color: white;
@@ -240,14 +171,28 @@
         position: relative;
         display: inline-block; }
         .nav .container .right-buttons .ghost-btn a {
-          padding-right: 10px;
           -webkit-transition: 0.3s;
           transition: 0.3s;
           position: relative; }
-        .nav .container .right-buttons .ghost-btn:hover {
-          opacity: 0.6; }
-          .nav .container .right-buttons .ghost-btn:hover a {
-            text-decoration: none; }
+          .nav .container .right-buttons .ghost-btn a:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: white;
+            visibility: hidden;
+            -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+            -webkit-transition: all 0.2s ease-in-out 0s;
+            transition: all 0.2s ease-in-out 0s; }
+        .nav .container .right-buttons .ghost-btn:hover a {
+          text-decoration: none; }
+          .nav .container .right-buttons .ghost-btn:hover a:before {
+            visibility: visible;
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1); }
       .nav .container .right-buttons li {
         display: inline-block;
         padding-left: 30px;
@@ -263,7 +208,20 @@
       height: 53px;
       width: 71px; }
       .nav .container .brand .logo.menu-open {
-        background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain; }
+        background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
+        height: 100px;
+        width: 140px;
+        display: inline-block;
+        zoom: 0.5; }
+        .nav .container .brand .logo.menu-open.hoverPlay {
+          background-position-x: 0;
+          -webkit-animation: play 2s steps(33) forwards;
+          -moz-animation: play 2s steps(33) forwards;
+          -ms-animation: play 2s steps(33) forwards;
+          -o-animation: play 2s steps(33) forwards;
+          animation: play 2s steps(33) forwards; }
+        .nav .container .brand .logo.menu-open.stopedAnimation {
+          background-position-x: -4620px; }
   .nav .container .mobile-bg {
     position: fixed;
     background: #0082c9;
@@ -291,7 +249,6 @@
     margin-top: 0;
     z-index: 3;
     display: block;
-<<<<<<< HEAD
     margin-right: 0; }
     .nav .container .navbar-toggle:hover {
       transform: scale(1.1);
@@ -378,6 +335,8 @@
       .nav .container .nav__sections-wrapper .right-buttons.active {
         opacity: 1;
         transition-delay: .65s; }
+        .nav .container .nav__sections-wrapper .right-buttons.active .nav__label {
+          color: white; }
       .nav .container .nav__sections-wrapper .right-buttons .ghost-btn {
         font-size: 35px;
         line-height: 45px;
@@ -400,58 +359,6 @@
   .nav-down {
     opacity: 1;
     transition: all 0.2s ease-in-out; }
-=======
-    margin: auto;
-    height: 3px;
-    width: 0;
-    background: transparent;
-    transition: width .2s ease, background-color .2s ease; }
-  .navbar-nav li:not(.btn-primary):not(.active):hover:before {
-    width: 100%;
-    background: white;
-    transition: width .2s ease-in; }
-  .navbar-nav li:not(.btn-primary):not(.active):hover:after {
-    width: 100%;
-    background: white; } }
-
-/**
- * Scrolled navbar style
- */
-.navbar.scrolled:not(.mobile-menu-open) {
-  transition: all .2s ease-in;
-  background: white;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09); }
-  .navbar.scrolled:not(.mobile-menu-open) a {
-    color: #656565 !important; }
-    .navbar.scrolled:not(.mobile-menu-open) a:hover {
-      text-decoration: none;
-      padding-bottom: 15px;
-      border-bottom: 3px solid #656565; }
-  .navbar.scrolled:not(.mobile-menu-open) .navbar-nav li:not(.btn-primary):not(.active):hover:before {
-    width: 100%;
-    background: #656565;
-    transition: width .2s ease-in; }
-  .navbar.scrolled:not(.mobile-menu-open) .navbar-nav li:not(.btn-primary):not(.active):hover:after {
-    width: 100%;
-    background: #656565; }
-  @media (min-width: 1200px) {
-    .navbar.scrolled:not(.mobile-menu-open) .active a {
-      border-bottom: 3px solid #656565; } }
-  .navbar.scrolled:not(.mobile-menu-open) .btn-primary a {
-    color: white !important; }
-  @media (max-width: 1200px) {
-    .navbar.scrolled:not(.mobile-menu-open) .navbar-collapse {
-      background-color: #ffffff;
-      margin-left: -6% !important; } }
-  .navbar.scrolled:not(.mobile-menu-open) .logo {
-    background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain !important; }
-  .navbar.scrolled:not(.mobile-menu-open) .container-fluid button {
-    background: #0082c9; }
-    .navbar.scrolled:not(.mobile-menu-open) .container-fluid button .icon-bar {
-      background-color: white; }
-  .navbar.scrolled:not(.mobile-menu-open) svg {
-    filter: invert(100%); }
->>>>>>> master
 
   .nav-up {
     top: -100px !important;
@@ -475,12 +382,24 @@
       .nav.scrolled .navbar-toggle:not(.active) svg {
         filter: invert(100%); }
     .nav.scrolled .logo:not(.menu-open) {
-      background: url(../img/logo/logo_nextcloud_blue.svg) no-repeat center/contain;
-      height: 50px;
-      width: 71px;
-      display: inline-block; }
-    .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn a, .nav.scrolled .nav__sections-wrapper .right-buttons .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons .ghost-btn a {
+      background: url(../img/logo/logo_blue_sprite.png) 0 0 no-repeat;
+      height: 100px;
+      width: 140px;
+      display: inline-block;
+      zoom: 0.5; }
+      .nav.scrolled .logo:not(.menu-open).hoverPlay {
+        background-position-x: 0;
+        -webkit-animation: play 2s steps(33) forwards;
+        -moz-animation: play 2s steps(33) forwards;
+        -ms-animation: play 2s steps(33) forwards;
+        -o-animation: play 2s steps(33) forwards;
+        animation: play 2s steps(33) forwards; }
+      .nav.scrolled .logo:not(.menu-open).stopedAnimation {
+        background-position-x: -4620px; }
+    .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .ghost-btn .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .ghost-btn .nav__label {
       color: #555555; }
+      .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label:before, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label:before, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label:before, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .nav__section .nav__label:before, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .ghost-btn .nav__label:before, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .ghost-btn .nav__label:before {
+        background-color: #555555; }
   .nav.mobile .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.mobile .nav__sections-wrapper .ghost-btn .nav__section .nav__label {
     color: white; }
 
@@ -531,112 +450,10 @@
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none; } }
-<<<<<<< HEAD
+@keyframes play {
+  from {
+    background-position-x: 0px; }
+  to {
+    background-position-x: -4620px; } }
 
-=======
-/**
-*Mobile
-*/
-@media (max-width: 1200px) {
-  .Header-Navigation .navbar .container-fluid .navbar-header {
-    margin-left: 0; }
-    .Header-Navigation .navbar .container-fluid .navbar-header .logo {
-      z-index: 5;
-      position: relative;
-      background: url(../img/logo/logo_nextcloud_white.svg) no-repeat center/contain;
-      height: 50px;
-      width: 71px;
-      display: inline-block; }
-    .Header-Navigation .navbar .container-fluid .navbar-header button:hover {
-      transform: scale(1.1);
-      transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
-      transition-property: transform;
-      transition-duration: 0.3s;
-      transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
-      transition-delay: initial; }
-    .Header-Navigation .navbar .container-fluid .navbar-header .overlay {
-      position: fixed;
-      background: #0082c9;
-      padding-top: 25px;
-      z-index: 2;
-      top: 0;
-      right: 0;
-      width: 0;
-      height: 0;
-      visibility: hidden;
-      overflow: hidden;
-      border-bottom-left-radius: 100%;
-      transition: all 0.6s ease; }
-      .Header-Navigation .navbar .container-fluid .navbar-header .overlay .btn-primary:before {
-        visibility: hidden; }
-      .Header-Navigation .navbar .container-fluid .navbar-header .overlay li {
-        display: block;
-        height: 25%;
-        height: calc(100% / 4);
-        min-height: 50px;
-        position: relative;
-        opacity: 1;
-        margin: 0;
-        opacity: 0;
-        color: white; }
-        .Header-Navigation .navbar .container-fluid .navbar-header .overlay li:last-child {
-          font-weight: 500; }
-        .Header-Navigation .navbar .container-fluid .navbar-header .overlay li a {
-          color: white;
-          text-decoration: none; }
-      .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open {
-        opacity: 1;
-        visibility: visible;
-        width: 150%;
-        height: 150%; }
-        .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul {
-          list-style: none;
-          display: inline-block;
-          font-size: 26px;
-          color: white;
-          text-align: center;
-          margin: 0 auto;
-          display: inline-block;
-          position: fixed;
-          top: 50%;
-          left: 50%;
-          -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%); }
-          .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li {
-            font-size: 25px;
-            padding-top: 2vh;
-            animation: fadeInRight .5s ease forwards;
-            animation-delay: .35s; }
-            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(2) {
-              animation-delay: .4s; }
-            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(3) {
-              animation-delay: .45s; }
-            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(4) {
-              animation-delay: .50s; }
-            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(5) {
-              animation-delay: .55s; }
-            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(6) {
-              animation-delay: .60s; }
-            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(7) {
-              animation-delay: .65s; }
-            .Header-Navigation .navbar .container-fluid .navbar-header .overlay.open ul li:nth-of-type(8) {
-              animation-delay: .70s; } }
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    left: 20%; }
-  100% {
-    opacity: 1;
-    left: 0; } }
-@media (max-height: 800px) {
-  .nav-down {
-    opacity: 1;
-    transition: all 0.2s ease-in-out; }
-
-  .nav-up {
-    top: -100px !important;
-    opacity: 0;
-    transition: all 0.2s ease-in-out; } }
-
->>>>>>> master
 /*# sourceMappingURL=header.css.map */

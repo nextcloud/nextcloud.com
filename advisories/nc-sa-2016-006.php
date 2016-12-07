@@ -24,11 +24,11 @@
 </p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>9.0.54</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>9.0.54</strong> (CVE-2016-9463)</li>
 <ul>
 <li><a href="https://github.com/nextcloud/apps/commit/decb91fd31f4ffab191cbf09ce4e5c55c67a4087">apps/decb91fd31f4ffab191cbf09ce4e5c55c67a4087</a></li>
 </ul>
-<li>Nextcloud Server &lt; <strong>10.0.1</strong> (CVE assignment pending)</li>
+<li>Nextcloud Server &lt; <strong>10.0.1</strong> (CVE-2016-9463)</li>
 <ul>
 <li><a href="https://github.com/nextcloud/apps/commit/b85ace6840b8a6704641086bc3b8eb8e81cb2274">apps/b85ace6840b8a6704641086bc3b8eb8e81cb2274</a></li>
 </ul>

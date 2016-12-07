@@ -1,3 +1,6 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /**
  * Footer
  */
@@ -19,9 +22,28 @@ footer.page-footer {
     color: #ffffff;
     width: 140px; }
     footer.page-footer li a {
-      color: #ffffff; }
+      color: #ffffff;
+      position: relative; }
+      footer.page-footer li a:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.2s ease-in-out 0s;
+        transition: all 0.2s ease-in-out 0s; }
       footer.page-footer li a:hover {
-        color: #ffffff; }
+        color: #ffffff;
+        text-decoration: none; }
+        footer.page-footer li a:hover:before {
+          visibility: visible;
+          -webkit-transform: scaleX(1);
+          transform: scaleX(1); }
   footer.page-footer p {
     padding-top: 50px;
     padding-bottom: 30px;

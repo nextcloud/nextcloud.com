@@ -36,9 +36,6 @@
 	}
 
 	p {
-	    font-size: 18px;
-    	font-weight: 300;
-    	max-width: 600px;
     	padding-top: 20px;
     	margin: 0 auto;
 	}
@@ -78,7 +75,6 @@
 }
 
 .section-getbox {
-	padding-top: 100px;
 	height: 440px;
 	width: 100%;
 	background-color: #252323;
@@ -89,8 +85,8 @@
 		.wrapper-text {
 			max-width: 550px;
 			color:white;
-			z-index: 50;
-			@include vertical-center;
+			padding-top: 40px;
+
 			h2 {
 				color: white;
 			}
@@ -114,11 +110,7 @@
 			height: 485px;
 		    background-repeat: no-repeat;
 		    float: right;
-	        margin-top: -220px;
-		}
-		
-		.dropdown-menu {
-			z-index: 1000;
+	        margin-top: -130px;
 		}
 	}
 }
@@ -134,7 +126,6 @@
 		p {
 		    font-size: 18px;
 	    	font-weight: 300;
-	    	max-width: 550px;
 	    	margin: 0 auto;
 	    	margin-top: 10px;
 	    	text-align: center;
@@ -171,7 +162,6 @@
 		p {
 		    font-size: 18px;
 	    	font-weight: 300;
-	    	max-width: 650px;
 	    	margin: 0 auto;
 	    	margin-top: 10px;
 		}
@@ -185,9 +175,9 @@
 				display: inline-block;
 			}
 
-			.btn-primary{
-				margin-left: 10px;
-				margin-right: 10px;
+			.button {
+				margin-left: 20px;
+				margin-right: 20px;
 			}
 		
 		}
@@ -207,7 +197,6 @@
 		p {
 		    font-size: 18px;
 			font-weight: 300;
-			max-width: 650px;
 			margin: 0 auto;
 			margin-top: 10px;
 		}
@@ -390,12 +379,12 @@
 		.container {
 			padding-top: 30px;
 
-			.wrapper-buttons {
+			.col-xs-8 .wrapper-buttons {
 				text-align: center;
 				margin-top: 50px;
 
-				p {
-					margin-bottom: 45px;
+				.button {
+					margin: 0, 15px;
 				}
 			}
 		}
