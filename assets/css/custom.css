@@ -1186,9 +1186,9 @@ footer.page-footer {
       margin-top: 50px; }
       .section-wiki-forums .container .wrapper-buttons p {
         display: inline-block; }
-      .section-wiki-forums .container .wrapper-buttons .btn-primary {
-        margin-left: 10px;
-        margin-right: 10px; }
+      .section-wiki-forums .container .wrapper-buttons .button {
+        margin-left: 20px;
+        margin-right: 20px; }
 
 .section-partners {
   padding-top: 120px;
@@ -2488,7 +2488,8 @@ p {
   border: solid 1px white;
   padding: 0 30px;
   border-radius: 30px;
-  transition: all 0.3s ease 0s; }
+  transition: all 0.3s ease 0s;
+  margin: 20px 0 20px 0; }
   .button:hover {
     text-decoration: none;
     color: #0082c9;
