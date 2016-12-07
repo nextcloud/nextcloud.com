@@ -119,9 +119,9 @@
       margin-top: 50px; }
       .section-wiki-forums .container .wrapper-buttons p {
         display: inline-block; }
-      .section-wiki-forums .container .wrapper-buttons .btn-primary {
-        margin-left: 10px;
-        margin-right: 10px; }
+      .section-wiki-forums .container .wrapper-buttons .button {
+        margin-left: 20px;
+        margin-right: 20px; }
 
 .section-partners {
   padding-top: 120px;
