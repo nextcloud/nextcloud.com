@@ -482,7 +482,7 @@
   position: relative; }
   .nav .container {
     position: relative; }
-    @media (min-width: 992px) {
+    @media (max-width: 992px) {
       .nav .container {
         width: 90%; } }
     .nav .container .nav__bg-wrapper {

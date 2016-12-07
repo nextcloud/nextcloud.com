@@ -4,5 +4,5 @@ config.php
 *.kdev4
 node_modules/
 l10n/
-.css.map
+*.css.map
 .idea/
