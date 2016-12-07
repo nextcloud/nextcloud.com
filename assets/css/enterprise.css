@@ -1,3 +1,6 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -322,3 +325,5 @@
   height: 100%;
   right: -30px;
   top: 0px; }
+
+/*# sourceMappingURL=enterprise.css.map */
