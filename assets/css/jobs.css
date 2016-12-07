@@ -1,60 +1,56 @@
-/*
-Error: Invalid CSS after "transparent": expected expression (e.g. 1px, bold), was ";"
-        on line 6 of jobs.css
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
 
-1: /*Colors*\/
-2: /*Shadows*\/
-3: /*Breakpoints*\/
-4: /* Make Navbar transparent *\/
-5: .nav:not(.scrolled) {
-6:   background-color: transparent;
-7:   position: absolute; }
-8: 
-9: .jobs-background {
-10:   background: url("../img/headers/team.jpg") no-repeat;
-11:   background-position: center; }
+.jobs-background {
+  background: url("../img/headers/team.jpg") no-repeat;
+  background-position: center; }
 
-Backtrace:
-jobs.css:6
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/script/lexer.rb:229:in `expected!'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/script/parser.rb:738:in `assert_done'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/script/parser.rb:76:in `parse'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/script/parser.rb:240:in `parse'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/script.rb:27:in `parse'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:1151:in `parse_script'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:721:in `parse_property'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:692:in `parse_property_or_rule'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:658:in `parse_line'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:536:in `build_tree'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:555:in `block in append_children'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:554:in `each'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:554:in `append_children'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:545:in `block in build_tree'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:538:in `each'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:538:in `build_tree'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:555:in `block in append_children'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:554:in `each'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:554:in `append_children'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:409:in `_to_tree'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin.rb:82:in `update_stylesheets'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/bin/sass:23:in `load'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/bin/sass:23:in `<main>'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"transparent\": expected expression (e.g. 1px, bold), was \";\"\A         on line 6 of jobs.css\A \A 1: /*Colors*/\A 2: /*Shadows*/\A 3: /*Breakpoints*/\A 4: /* Make Navbar transparent */\A 5: .nav:not(.scrolled) {\A 6:   background-color: transparent;\A 7:   position: absolute; }\A 8: \A 9: .jobs-background {\A 10:   background: url(\"../img/headers/team.jpg\") no-repeat;\A 11:   background-position: center; }"; }
+.section-company-description {
+  margin-top: 130px; }
+  .section-company-description h3 {
+    font-size: 22px; }
+  .section-company-description p {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center; }
+
+.section-jobs-opening {
+  margin-top: 70px;
+  margin-bottom: 100px; }
+  .section-jobs-opening a:hover, .section-jobs-opening a:focus {
+    text-decoration: none;
+    font-decoration: none;
+    color: #2a2a36;
+    border-bottom: none;
+    cursor: pointer;
+    cursor: hand; }
+  .section-jobs-opening h3 {
+    position: relative; }
+  .section-jobs-opening .icon-arrow {
+    background: url(../img/arrow_down.svg) center/contain no-repeat;
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    right: 20px;
+    top: 2px; }
+  .section-jobs-opening .wrapper-text {
+    padding-top: 20px;
+    width: 60%;
+    margin: 0 auto; }
+    .section-jobs-opening .wrapper-text p {
+      max-width: 700px;
+      padding-top: 20px;
+      font-size: 18px; }
+    @media (max-width: 768px) {
+      .section-jobs-opening .wrapper-text {
+        margin: 0;
+        width: 100%; } }
+
+/*# sourceMappingURL=jobs.css.map */

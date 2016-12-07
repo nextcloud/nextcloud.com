@@ -1990,338 +1990,322 @@ footer.page-footer {
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
-/*Colors*/
-/*Shadows*/
-/*Breakpoints*/
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
   position: absolute; }
 
-/**
- * Enterprise Page
- */
-.enterprise-background {
-  background-image: url("../img/enterprise/enterprise.jpg");
-  background-position: bottom 0 right 0; }
+.section-top-jumbotron {
+  height: 531px;
+  background-color: #252323; }
 
-/* All headers */
-.header {
-  margin-bottom: 54px;
-  /* 	font-family: $font-stack; */
-  font-size: 60px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.88;
-  text-align: center;
-  color: #2a2a36; }
+.section-top-jumbotron .container h2 {
+  color: white;
+  padding-top: 150px;
+  line-height: 1.4; }
 
-/* Pricing area */
-.pricing {
-  margin-top: 133px; }
-  .pricing .btn-primary {
-    text-indent: -20px; }
-
-.table-column {
-  cursor: default;
-  border-radius: 8px;
-  border: solid 1px #eeeeee;
-  padding: 0px;
-  width: 31%;
-  margin-left: 1%;
-  margin-right: 1%;
-  margin-bottom: 50px; }
-  @media (max-width: 991px) {
-    .table-column {
-      width: 80%;
-      margin: auto;
-      margin-bottom: 60px; } }
-  .table-column .table-header {
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    border-radius: 7px 7px 0px 0px; }
-    .table-column .table-header h1 {
-      text-align: center;
-      color: #2a2a36;
-      font-size: 22px;
-      font-weight: bold;
-      line-height: 1.36;
-      padding: 0px;
-      margin: 0px;
-      padding-top: 42px;
-      letter-spacing: 0; }
-    .table-column .table-header h2 {
-      font-size: 18px;
-      font-weight: 300;
-      text-align: center;
-      color: #555555;
-      line-height: 1.61;
-      padding: 0px;
-      margin: 0px;
-      padding-top: 0px;
-      padding-bottom: 29px; }
-  .table-column .basic {
-    background-color: #f9f9f9; }
-  .table-column .standard {
-    background-color: #c4e1f7; }
-  .table-column .premium {
-    background-color: #178ecd; }
-    .table-column .premium h1 {
-      color: white !important; }
-    .table-column .premium h2 {
-      color: white !important; }
-  .table-column .highlight {
-    box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.16); }
-
-.table-content {
-  margin: 15px;
-  padding: 0px;
-  margin-left: 30px;
-  margin-right: 30px; }
-  .table-content h1 {
-    font-size: 18px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2.22;
-    color: #555555;
-    text-align: left;
-    letter-spacing: 0;
-    margin-top: 25px;
-    margin-bottom: 0px; }
-
-.line {
-  width: 100%;
-  border: solid 1px #eeeeee;
-  margin-top: -5px;
-  margin-bottom: 15px; }
-
-.list .check {
-  /* 	font-family: OpenSans; */
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.5;
-  color: #555555; }
-
-.list .check {
-  list-style-image: url("../img/enterprise/check.svg");
-  list-style-position: inside; }
-
-.list .nocheck {
-  /*   font-family: OpenSans; */
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.5;
-  color: #b1b1b1; }
-  .list .nocheck a {
-    color: #b1b1b1;
-    text-decoration: none; }
-
-.list .nocheck {
-  list-style-image: url("../img/enterprise/nocheck.svg");
-  list-style-position: inside; }
-
-.list .optional {
-  /*   font-family: OpenSans; */
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.5;
-  color: #555555; }
-
-.list .optional {
-  list-style-image: url("../img/enterprise/optional.svg");
-  list-style-position: inside; }
-
-.list .price {
-  /* 	font-family: OpenSans; */
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.5;
-  color: #555555; }
-
-.list .price {
-  list-style-image: url("../img/enterprise/blank.svg");
-  list-style-position: inside; }
-
-.table-content .btn-lg {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  width: 100%;
-  text-indent: -20px; }
-
-/* Tooltips */
-/* Tooltip text */
-.overinfo .infotext {
-  visibility: hidden;
-  /*     width: 200px; */
-  background-color: #555555;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  line-height: 1.4;
-  border-radius: 6px;
-  /* Position the tooltip text */
-  position: absolute;
-  z-index: 10;
-  padding: 3px;
-  /*     top: 100%; */
-  /*     left: 50%;  */
-  /*     margin-left: -100px; */ }
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.overinfo:hover .infotext {
-  visibility: visible; }
-
-.overinfo .infotext::after {
-  content: " ";
-  position: absolute;
-  bottom: 100%;
-  /* At the top of the tooltip */
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent #555555 transparent; }
-
-.overinfo .infotext {
-  opacity: 0;
-  transition: opacity 0.5s; }
-
-.overinfo:hover .infotext {
-  opacity: 1; }
-
-/* Discount section */
-.discounts {
-  margin-top: 64px;
-  margin-bottom: 30px; }
-  .discounts a {
-    font-size: 20px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.36;
-    text-align: center;
-    color: #178ecd; }
-  .discounts .box {
-    border: solid 1px transparent;
-    margin-bottom: 50px; }
-    .discounts .box:hover {
-      box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
-      border: solid 1px #fbfbfb;
-      border-radius: 8px;
-      transition: all 0.5s ease; }
-    .discounts .box h1 {
-      font-size: 25px;
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.36;
-      text-align: center;
-      color: #2a2a36; }
-    .discounts .box p {
-      font-size: 20px;
-      font-weight: 300;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.36;
-      text-align: center;
-      color: #434343; }
-      .discounts .box p:last-of-type {
-        margin-bottom: 30px; }
-    .discounts .box .img-responsive {
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 36px;
-      margin-bottom: 17px; }
-
-/* Discount section */
-.faq {
-  background: #0082c9;
-  padding-bottom: 50px; }
-  .faq .container {
-    background: white;
-    margin-bottom: 90px;
-    padding-left: 0px;
-    padding-right: 0px; }
-    .faq .container .row {
-      padding: 30px;
-      margin: 40px;
-      margin-right: 60px; }
-      @media (max-width: 768px) {
-        .faq .container .row {
-          padding-left: 10px;
-          padding-right: 10px;
-          margin-left: 10px;
-          margin-right: 10px;
-          margin-right: 30px; } }
-
-.faq h3 {
-  /*   font-family: OpenSans; */
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.45;
-  text-align: left;
-  color: #555555; }
-
-.faq h1 {
-  /* 	font-family: OpenSans; */
-  font-size: 60px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.88;
-  color: #ffffff;
-  margin-top: 100px;
-  margin-bottom: 80px; }
-
-.faq p {
-  /* 	font-family: OpenSans; */
-  font-size: 18px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.61;
-  text-align: left;
-  color: #555555; }
-
-.faq .downarrow a {
-  color: #555555; }
-
-.faq .downarrow a:hover {
-  text-decoration: none; }
-
-.faq .line {
-  width: 100%;
-  height: 1px;
-  border: solid 1px #eeeeee; }
-
-.downarrow {
+.section-top-jumbotron .container .box {
+  background: url("../img/box/box_front.png") no-repeat;
+  width: 689px;
+  height: 569.8px;
+  margin: 0 auto;
+  margin-top: 80px;
   position: relative; }
 
-.downarrow span.icon-arrow-down {
-  background: url(../img/arrow_down.svg) center/contain no-repeat;
-  position: absolute;
-  width: 25px;
+.section-data-home {
+  background-color: white;
   height: 100%;
-  right: -30px;
-  top: 0px; }
+  width: 100%;
+  text-align: center; }
 
-.contact {
-  margin-top: 50px;
-  margin-bottom: 150px; }
+.section-data-home h2 {
+  padding-top: 280px; }
 
+.section-data-home p {
+  padding-top: 20px;
+  margin: 0 auto; }
+
+.section-data-home .btn-primary {
+  margin-top: 40px; }
+
+.section-tecnology {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  height: 100%;
+  width: 100%;
+  background-color: white; }
+
+.section-tecnology .container {
+  border-top: 1px solid #E8E8E8; }
+
+.section-tecnology .container .box-open {
+  background: url("../img/box/box-open.png") no-repeat;
+  width: 651px;
+  height: 476px;
+  margin-top: 120px; }
+
+.section-tecnology .container .wrapper-text {
+  margin-top: 120px; }
+
+.section-tecnology .container .wrapper-text h6 {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 30px; }
+
+.section-getbox {
+  height: 440px;
+  width: 100%;
+  background-color: #252323;
+  position: relative; }
+
+.section-getbox .container .wrapper-text {
+  max-width: 550px;
+  color: white;
+  padding-top: 40px; }
+
+.section-getbox .container .wrapper-text h2 {
+  color: white; }
+
+.section-getbox .container .wrapper-text p {
+  padding-top: 10px; }
+
+.section-getbox .container .wrapper-text .btn-primary {
+  margin-top: 20px; }
+
+.section-getbox .container .wrapper-text .btn-primary:before {
+  display: none; }
+
+.section-getbox .container .box-perspective {
+  background: url("../img/box/box-perspective.png") no-repeat;
+  width: 692px;
+  height: 485px;
+  background-repeat: no-repeat;
+  float: right;
+  margin-top: -130px; }
+
+.section-how-to-box {
+  padding-top: 120px;
+  height: 100%;
+  width: 100%;
+  background-color: white; }
+
+.section-how-to-box .container p {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center; }
+
+.section-how-to-box .container .assembly {
+  background: url("../img/box/assembly.png") no-repeat;
+  width: 639px;
+  height: 541px;
+  margin: 0 auto; }
+
+.section-how-to-box .container .btn-primary {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px; }
+
+.section-how-to-box .container .btn-primary:before {
+  display: none; }
+
+.section-wiki-forums {
+  padding-top: 100px;
+  height: 100%;
+  width: 100%; }
+
+.section-wiki-forums .container {
+  border-top: 1px solid #E8E8E8;
+  padding-top: 60px; }
+
+.section-wiki-forums .container p {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0 auto;
+  margin-top: 10px; }
+
+.section-wiki-forums .container .wrapper-buttons {
+  text-align: center;
+  margin-top: 50px; }
+
+.section-wiki-forums .container .wrapper-buttons p {
+  display: inline-block; }
+
+.section-wiki-forums .container .wrapper-buttons .button {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.section-partners {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  height: 100%;
+  width: 100%; }
+
+.section-partners .container {
+  border-top: 1px solid #E8E8E8;
+  padding-top: 60px; }
+
+.section-partners .container p {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0 auto;
+  margin-top: 10px; }
+
+.section-partners .container .wrapper-images {
+  text-align: center;
+  margin-top: 25px; }
+
+.section-partners .container .wrapper-images .logo-wd {
+  background: url("../img/box/wd-logo.svg") no-repeat;
+  width: 245.8px;
+  height: 58.7px;
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px; }
+
+.section-partners .container .wrapper-images .logo-ubuntu {
+  background: url("../img/box/ubuntu-logo.svg") no-repeat;
+  width: 242.5px;
+  height: 60px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+@media (max-width: 991px) {
+  .section-data-home h2 {
+    padding-top: 350px; }
+
+  .section-getbox {
+    padding-top: 100px;
+    height: 450px; }
+
+  .section-getbox .container .wrapper-text {
+    margin-top: 60px; }
+
+  .section-getbox .container .wrapper-text h2 {
+    color: white; }
+
+  .section-getbox .container .wrapper-text p {
+    padding-top: 10px; }
+
+  .section-getbox .container .wrapper-text .btn-primary {
+    margin-top: 20px;
+    padding: 20px 50px 20px 50px; }
+
+  .section-getbox .container .wrapper-text .btn-primary:before {
+    display: none; }
+
+  .section-getbox .container .box-perspective {
+    width: 346px;
+    height: 242px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -200px; } }
+@media (max-width: 768px) {
+  .section-top-jumbotron .container {
+    height: 100%; }
+
+  .section-top-jumbotron .container .box {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-size: contain;
+    margin-top: 120px; }
+
+  .section-data-home h2 {
+    padding-top: 180px; }
+
+  .section-tecnology {
+    padding-top: 60px;
+    padding-bottom: 150px; }
+
+  .section-tecnology .container .box-open {
+    width: 325px;
+    height: 238px;
+    margin-top: 60px;
+    background-size: contain; }
+
+  .section-tecnology .container .wrapper-text {
+    margin-top: 60px; }
+
+  .section-tecnology .container .wrapper-text h6 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    padding-top: 0;
+    padding-bottom: 10px; }
+
+  .section-getbox {
+    padding-top: 100px;
+    height: 450px; }
+
+  .section-getbox .container .wrapper-text {
+    margin-top: 60px; }
+
+  .section-getbox .container .wrapper-text h2 {
+    color: white; }
+
+  .section-getbox .container .wrapper-text p {
+    padding-top: 10px; }
+
+  .section-getbox .container .wrapper-text .btn-primary {
+    margin-top: 20px;
+    padding: 20px 50px 20px 50px; }
+
+  .section-getbox .container .wrapper-text .btn-primary:before {
+    display: none; }
+
+  .section-getbox .container .box-perspective {
+    width: 346px;
+    height: 242px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -200px; }
+
+  .section-how-to-box {
+    padding-top: 50px; }
+
+  .section-how-to-box .container .assembly {
+    width: 319px;
+    height: 270px;
+    background-size: contain; }
+
+  .section-how-to-box .container .btn-primary {
+    padding: 20px 50px 20px 50px; }
+
+  .section-wiki-forums {
+    padding-top: 50px; }
+
+  .section-wiki-forums .container {
+    padding-top: 30px; }
+
+  .section-wiki-forums .container .col-xs-8 .wrapper-buttons {
+    text-align: center;
+    margin-top: 50px; }
+
+  .section-wiki-forums .container .col-xs-8 .wrapper-buttons .button {
+    margin: 0, 15px; }
+
+  .section-partners {
+    padding-top: 30px;
+    padding-bottom: 50px; }
+
+  .section-partners .container {
+    padding-top: 30px; }
+
+  .section-partners .container .wrapper-images {
+    text-align: center;
+    margin-top: 25px; }
+
+  .section-partners .container .wrapper-images .logo-wd {
+    width: 122px;
+    height: 29px; }
+
+  .section-partners .container .wrapper-images .logo-ubuntu {
+    width: 121px;
+    height: 30px; } }
+/*# sourceMappingURL=buy.scss.map */
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
