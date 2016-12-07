@@ -299,11 +299,15 @@ p {
         &:hover {
             background-color: $nextcloud-blue;
             color: white;
+			
+			&:before {
+				background: url(../img/common/arrow_right.svg) center/contain no-repeat;
+			}
         }
     }
 
     @include modifier(arrow) {
-        padding-right: calc(30px + 20px); //value of current padding plus width of the before statment
+        padding-right: calc(30px + 20px); //value of current padding plus width of the before statement
 
         &:before {
             content: "";
@@ -319,8 +323,7 @@ p {
 
         &:hover {
             &:before {
-			    right: 15px;	
-				background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
+			    right: 15px;
 		    }
         }
     }

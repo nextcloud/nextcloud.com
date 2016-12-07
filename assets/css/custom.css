@@ -2557,6 +2557,8 @@ p {
     .button--blue:hover {
       background-color: #0082c9;
       color: white; }
+      .button--blue:hover:before {
+        background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
   .button--arrow {
     padding-right: calc(30px + 20px); }
     .button--arrow:before {
@@ -2570,8 +2572,7 @@ p {
       right: 25px;
       transition: all 0.3s ease 0s; }
     .button--arrow:hover:before {
-      right: 15px;
-      background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat; }
+      right: 15px; }
   .button--icon {
     padding: 0 30px 0 50px; }
     .button--icon:after {
