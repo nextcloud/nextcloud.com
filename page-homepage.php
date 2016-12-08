@@ -183,8 +183,8 @@
 <div class="container-fluid" id="stay-up-to-date">
 	<div class="row stay-up-to-date">
 		<div class="container text-center" style="padding-top: 70px; padding-bottom: 70px;">
-			<h5 class="revealOnScroll"><?php echo $l->t('Stay up to date with Nextcloud\'s latest enhancements!');?></h5>
-			<p class="revealOnScroll"><a class="button button--blue button--arrow button--large" href="https://newsletter.nextcloud.com/?p=subscribe&id=1" role="button"><?php echo $l->t('Subscribe to our newsletter</a>');?></p>
+			<h5 class="revealOnScroll"><?php echo $l->t('Stay up to date with Nextcloud\'s latest enhancements by subscribing to our newsletter!');?></h5>
+			<p class="revealOnScroll"><a class="button button--blue button--arrow button--large" href="https://newsletter.nextcloud.com/?p=subscribe&id=1" role="button"><?php echo $l->t('Subscribe</a>');?></p>
 		</div>
 	</div>
 </div>
