@@ -156,6 +156,10 @@ p {
         background-color: white;
     }
 
+    @include modifier(ghost) { 
+    
+    }
+
     @include modifier(dropdown) {
         padding: 0;
 
@@ -323,8 +327,15 @@ p {
 
         &:hover {
             &:before {
+                background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
 			    right: 15px;
 		    }
+        }
+
+        &.button--blue {
+            &:before {
+                background: url(../img/common/arrow_right.svg) center/contain no-repeat;
+            }
         }
     }
 
