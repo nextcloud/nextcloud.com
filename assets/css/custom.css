@@ -2556,7 +2556,10 @@ p {
       right: 25px;
       transition: all 0.3s ease 0s; }
     .button--arrow:hover:before {
+      background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
       right: 15px; }
+    .button--arrow.button--blue:before {
+      background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
   .button--icon {
     padding: 0 30px 0 50px; }
     .button--icon:after {
