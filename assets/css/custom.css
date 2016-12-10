@@ -1751,6 +1751,8 @@ footer.page-footer {
     color: #434343; }
     .process p:last-of-type {
       margin-bottom: 30px; }
+  .process .nav {
+    opacity: 1; }
   @media (min-width: 768px) {
     .process {
       height: 850px;
