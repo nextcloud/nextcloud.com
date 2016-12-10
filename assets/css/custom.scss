@@ -311,7 +311,7 @@ p {
     }
 
     @include modifier(arrow) {
-        padding-right: calc(30px + 20px); //value of current padding plus width of the before statement
+        padding-right: 50px; //value of current padding plus width of the before statement
 
         &:before {
             content: "";

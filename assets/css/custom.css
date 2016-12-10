@@ -2546,7 +2546,7 @@ p {
       .button--blue:hover:before {
         background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
   .button--arrow {
-    padding-right: calc(30px + 20px); }
+    padding-right: 50px; }
     .button--arrow:before {
       content: "";
       background: url(../img/common/arrow_right.svg) center/contain no-repeat;
