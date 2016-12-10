@@ -4,13 +4,22 @@
 .jobs-background {
   background: url("../img/headers/team.jpg") no-repeat;
   background-position: center;
+  
+  .container .row .col-md6 {
+	  padding-right: 5%;
+	  
+	  @media (max-width: $break-small) {
+			text-align: left;
+			font-size: 25px;
+		}
+  }
 }
 
 .section-company-description {
 	margin-top: 130px;
+	
 	h3{
 		font-size: 22px;
-		
 	}
 
 	p {
@@ -19,12 +28,17 @@
 		padding-top: 20px;
 		font-size: 18px;
 		text-align: center;
+
+		@media (max-width: $break-small) {
+			text-align: left;
+		}
 	}
 }
 
 .section-jobs-opening {
 	margin-top: 70px;
 	margin-bottom: 100px;
+	
 	a:hover, a:focus {
 		text-decoration: none;
 		font-decoration: none;
@@ -33,8 +47,14 @@
 		cursor: pointer;
 		cursor: hand;
 	}
-	h3 {
+	
+	.jobs {
 		position: relative;
+		
+		@media (max-width: $break-small) {
+			text-align: left;
+			font-size: 25px;
+		}
 	}
 	
 	.icon-arrow {
