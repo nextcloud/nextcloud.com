@@ -9,6 +9,12 @@
 .jobs-background {
   background: url("../img/headers/team.jpg") no-repeat;
   background-position: center; }
+  .jobs-background .container .row .col-md6 {
+    padding-right: 5%; }
+    @media (max-width: 768px) {
+      .jobs-background .container .row .col-md6 {
+        text-align: left;
+        font-size: 25px; } }
 
 .section-company-description {
   margin-top: 130px; }
@@ -20,6 +26,9 @@
     padding-top: 20px;
     font-size: 18px;
     text-align: center; }
+    @media (max-width: 768px) {
+      .section-company-description p {
+        text-align: left; } }
 
 .section-jobs-opening {
   margin-top: 70px;
@@ -31,8 +40,12 @@
     border-bottom: none;
     cursor: pointer;
     cursor: hand; }
-  .section-jobs-opening h3 {
+  .section-jobs-opening .jobs {
     position: relative; }
+    @media (max-width: 768px) {
+      .section-jobs-opening .jobs {
+        text-align: left;
+        font-size: 25px; } }
   .section-jobs-opening .icon-arrow {
     background: url(../img/arrow_down.svg) center/contain no-repeat;
     position: absolute;
