@@ -1,108 +1,84 @@
-@import "variables.scss";
-@import "transparent-navbar.scss";
-@import 'vendor/modular-scale/modular-scale.scss';
-
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
 
 /**
  * Enterprise Page
  */
-
- .hero-section {
-   .background {
-    background-color: $nextcloud-blue;
-    background-image: none;
-    padding-bottom: 0;
-    padding-top: 0;
-    margin-bottom: 0;
-    background-repeat: no-repeat;
-    background-position: bottom 0 right 0;
-    background-size: cover;
-    border-radius: 0 !important;
-    height: 70vh;
-    min-height: 600px;
-    max-height: 800px;
-  }
-
-  .topbanner {
-    width: auto;
-    height: auto;
-    max-width: 90vw;
-    max-height: 90vh;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    position: absolute;
-    bottom: 0;
-    right: 0px;
-    float: right;
-    overflow: hidden;
-    zoom: 0.55;
-  }
- }
-
+.hero-section .background {
+  background-color: #0082c9;
+  background-image: none;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  background-repeat: no-repeat;
+  background-position: bottom 0 right 0;
+  background-size: cover;
+  border-radius: 0 !important;
+  height: 70vh;
+  min-height: 600px;
+  max-height: 800px; }
+.hero-section .topbanner {
+  width: auto;
+  height: auto;
+  max-width: 90vw;
+  max-height: 90vh;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  float: right;
+  overflow: hidden;
+  zoom: 0.55; }
 
 .what-you-get-section {
-    background: -webkit-linear-gradient(top, #fff 0, #f6f6f6 150px);
-    background: linear-gradient(to bottom, #fff 0, #f6f6f6 150px);
-    background: -webkit-linear-gradient(to bottom, #fff 0, #f6f6f6 150px);
-  .container {
-    padding-top: ms(5);
-    padding-bottom: ms(5);
-    p {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
-  }
-}
+  background: -webkit-linear-gradient(top, #fff 0, #f6f6f6 150px);
+  background: linear-gradient(to bottom, #fff 0, #f6f6f6 150px);
+  background: -webkit-linear-gradient(to bottom, #fff 0, #f6f6f6 150px); }
+  .what-you-get-section .container {
+    padding-top: 8.54297rem;
+    padding-bottom: 8.54297rem; }
+    .what-you-get-section .container p {
+      max-width: 43.24878rem;
+      margin: 0 auto; }
 
 .section--expertise {
   background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
   background: -o-linear-gradient(#fff 0%, #f6f6f6 150px);
-  background: linear-gradient(#fff 0%, #f6f6f6 150px);
-  
-  .container{
-    padding-top: ms(5);
-    padding-bottom: ms(5);
-
-    .section--intro {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
-  }
-}
+  background: linear-gradient(#fff 0%, #f6f6f6 150px); }
+  .section--expertise .container {
+    padding-top: 8.54297rem;
+    padding-bottom: 8.54297rem; }
+    .section--expertise .container .section--intro {
+      max-width: 43.24878rem;
+      margin: 0 auto; }
 
 .section--security {
   background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
   background: -o-linear-gradient(#fff 0%, #f6f6f6 150px);
-  background: linear-gradient(#fff 0%, #f6f6f6 150px);
-  
-  .container{
-    padding-top: ms(5);
-    padding-bottom: ms(5);
-
-    .section--intro {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
-  }
-}
+  background: linear-gradient(#fff 0%, #f6f6f6 150px); }
+  .section--security .container {
+    padding-top: 8.54297rem;
+    padding-bottom: 8.54297rem; }
+    .section--security .container .section--intro {
+      max-width: 43.24878rem;
+      margin: 0 auto; }
 
 .section--lifecycle {
   background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
   background: -o-linear-gradient(#fff 0%, #f6f6f6 150px);
-  background: linear-gradient(#fff 0%, #f6f6f6 150px);
-  
-  .container{
-    padding-top: ms(5);
-    padding-bottom: ms(5);
-
-    .section--intro {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
-  }
-}
-
-
+  background: linear-gradient(#fff 0%, #f6f6f6 150px); }
+  .section--lifecycle .container {
+    padding-top: 8.54297rem;
+    padding-bottom: 8.54297rem; }
+    .section--lifecycle .container .section--intro {
+      max-width: 43.24878rem;
+      margin: 0 auto; }
 
 /**
  h1 {
@@ -673,3 +649,5 @@ FAQ section
 }
 
 */
+
+/*# sourceMappingURL=enterprise.css.map */

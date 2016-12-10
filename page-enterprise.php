@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <section class="hero-section">
 	<div class="container-fluid background"> 
 		<div class="container">
@@ -6,114 +5,51 @@
 				<h1><?php echo $l->t('Get support from the source');?></h1>
 				<h2><?php echo $l->t('Going beyond the traditional licensing model, Nextcloud frees you from vendor lock-in and provides value through supporting your business\' needs.');?></h2>
 			</div>
-			<div class="col-md-6 image_animated"></div>
+			<div class="col-md-6 topbanner"> <img src="../wp-content/themes/next/assets/img/enterprise/hero-image.png" alt=""></img></div>
 			</div>
 		</div>
 	</div>
 </section>
 
 
-<<sectio class="what-you-get-section">
+<section class="what-you-get-section">
 	<div class="container">
-		<h2 class="text-center revealOnScroll"><?php echo $l->t('What you will get');?></h2>
-		<p class="text-center revealOnScroll"><?php echo $l->t('Your Nextcloud subscription enables you to successfully deploy and manage your Nextcloud instances, complimenting your IT resources and increasing the efficiency and reliability of your service. Our open approach gives you direct access to technical expertise of the top Nextcloud engineers, the latest knowledge and best practices. Pro-active security support helps you identify and address vulnerabilities and harden your servers to protect the safety and integrity of your data. Our multi-year life cycle support matches your OS and makes sure your business runs without disruptions.');?></p>
+		<h2 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('What you will get');?></h2>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Your Nextcloud subscription enables you to successfully deploy and manage your Nextcloud instances, complimenting your IT resources and increasing the efficiency and reliability of your service. Our open approach gives you direct access to technical expertise of the top Nextcloud engineers, the latest knowledge and best practices. Pro-active security support helps you identify and address vulnerabilities and harden your servers to protect the safety and integrity of your data. Our multi-year life cycle support matches your OS and makes sure your business runs without disruptions.');?></p>
 	</div>
 </section>
-=======
-<div class="background enterprise-background"> 
+
+<section class="section--expertise">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Enterprise Support Subscriptions');?></h1>
-				<h2><?php echo $l->t('An enterprise subscription provides you the confidence of knowing that your Nextcloud deployment is backed by the best available technical expertise and with the features you need for your organization');?></h2>
-			</div>
-		</div>
+		<p class="section--intro text-center revealOnScroll">Matter experts</p>
+		<h3 class="section--heading-1 text-center revealOnScroll">Dedicated to your success</h3>
+		<p class="section--intro text-center revealOnScroll">We are dedicated to your success as Nextcloud customer. An analysis of your needs, a pilot customized for your architecture and remote installation support ensures a smooth introduction of Nextcloud in your organization and we will help you scale up to meet growing demand in your organization.
+		Nextcloud GmbH employs 8 of the top-ten developers in the Nextcloud Server codebase, making our engineering team by far the most qualified to help you get the most out of your Enterprise File Sync and Share solution.</p>
 	</div>
-</div>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/enterprise.js"></script>
->>>>>>> master
+</section>
 
-
-
-<div class="youget container-fluid">
-			<h1 class="revealOnScroll"><?php echo $l->t('What you get');?></h1>
+<section class="section--security">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
-				<p><?php echo $l->t('Our open approach gives you direct access to technical expertise of the top Nextcloud engineers, the latest knowledge and best practices. Pro-active security support helps you identify and address vulnerabilities and harden your servers to protect the safety and integrity of your data. Our multi-year life cycle support matches your OS and makes sure your business runs without disruptions.');?></p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4 details revealOnScroll">
-				<a href="#expertise">
-				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/publicsector.svg">
-				<h2><?php echo $l->t('Expertise');?></h2>
-				</a>
-			</div>
-			<div class="col-md-4 details revealOnScroll">
-				<a href="#security">
-				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/education.svg">
-				<h2><?php echo $l->t('Security');?></h2>
-				</a>
-			</div>
-			<div class="col-md-4 details revealOnScroll">
-				<a href="#lifecycle">
-				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/education.svg">
-				<h2><?php echo $l->t('Life cycle');?></h2>
-				</a>
-			</div>
-		</div>
-		<a name="expertise"></a>
-		<div class="row">
-			<div class="col-md-8 revealOnScroll">
-			<h2><?php echo $l->t('Matter experts');?></h2>
-			<h3><?php echo $l->t('Dedicated to your success');?></h2>
-			<p><?php echo $l->t('We are dedicated to your success as Nextcloud customer. An analysis of your needs, a pilot customized for your architecture and remote installation support ensures a smooth introduction of Nextcloud in your organization and we will help you scale up to meet growing demand in your organization.');?></p>
-			<p><?php echo $l->t('Nextcloud GmbH <a href="https://github.com/nextcloud/server/graphs/contributors?from=2015-10-24&to=2016-10-24&type=c">employs 8 of the top-ten developers</a> in the Nextcloud Server codebase, making <a href="/team#engineering">our engineering team</a> by far the most qualified to help you get the most out of your Enterprise File Sync and Share solution.');?></p>
-			</div>
-			<div class="col-md-4 revealOnScroll">
-			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/education.svg">
-<!-- 			picture of our contributions? Or relative graph? Link to https://github.com/nextcloud/server/graphs/contributors?from=2015-10-24&to=2016-10-24&type=c and/or https://www.openhub.net/p/nextcloud (has 'similar projects' with ownCloud, Pydio etc) and/or to team page -->
-			</div>
-		</div>
-		<a name="security"></a>
-		<div class="row">
-			<div class="col-md-4 revealOnScroll">
-				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/education.svg">
-<!-- 			picture of our contributions? Or relative graph? Link to https://github.com/nextcloud/server/graphs/contributors?from=2015-10-24&to=2016-10-24&type=c and/or https://www.openhub.net/p/nextcloud (has 'similar projects' with ownCloud, Pydio etc) and/or to team page -->
-			</div>
-			<div class="col-md-8 revealOnScroll">
-			<h2><?php echo $l->t('Top notch security');?></h2>
-			<h3><?php echo $l->t('To keep your data safe');?></h2>
-			<p><?php echo $l->t('Nextcloud develops its software with a <a href="/secure">rigorous focus on security</a> through the entire life cycle of the product. Our active and passive security measures are backed by the some of the highest security bug bounties in the open source industry.');?></p>
-			<p><?php echo $l->t('As customer you get direct access to our security expertise, with hardening advice and ahead-of-release security issue mitigation and fixes.');?></p>
-			</div>
-		</div>
-		<a name="lifecycle"></a>
-		<div class="row">
-			<div class="col-md-8 revealOnScroll">
-			<h2><?php echo $l->t('Multi-year lifecycle support');?></h2>
-			<h3><?php echo $l->t('For uninterupted service');?></h2>
-			<p><?php echo $l->t('A Nextcloud support subscription gives you access to enterprise-ready software, updates, and information and support services that span your entire OS and application infrastructure life cycle and architecture. You can count on receiving the latest product versions with the stability and security you need.');?></p>
-			<p><?php echo $l->t('Working with data is essential for your business and being forced on the upgrade threadmill is disruptive to your organization. With access to up to 15 years security and stability updates to Nextcloud, we match the lifecycle of your operating system so you can schedule upgrades when it works for you and secure the investments you did in your existing platform.');?></p>
-			<a class="btn btn-primary btn-lg btn-absolute-icon" href="/pricing" role="button"><?php echo $l->t('See pricing');?> <span class="icon-arrow"></span></a>
-			</div>
-			<div class="col-md-4 revealOnScroll">
-			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/education.svg">
-<!-- 			picture of our contributions? Or relative graph? Link to https://github.com/nextcloud/server/graphs/contributors?from=2015-10-24&to=2016-10-24&type=c and/or https://www.openhub.net/p/nextcloud (has 'similar projects' with ownCloud, Pydio etc) and/or to team page -->
-			</div>
-		</div>
-		
+		<p class="section--intro text-center revealOnScroll">Top notch security</p>
+		<h3 class="section--heading-1 text-center revealOnScroll">To keep your data safe</h3>
+		<p class="section--intro text-center revealOnScroll">Nextcloud develops its software with a rigorous focus on security through the entire life cycle of the product. Our active and passive security measures are backed by the some of the highest security bug bounties in the open source industry.
+		As customer you get direct access to our security expertise, with hardening advice and ahead-of-release security issue mitigation and fixes.</p>
 	</div>
-</div>
+</section>
+
+<section class="section--lifecycle">
+	<div class="container">
+		<p class="section--intro text-center revealOnScroll">Multi-year lifecycle</p>
+		<h3 class="section--heading-1 text-center revealOnScroll">For uninterupted service</h3>
+		<p class="section--intro text-center revealOnScroll">A Nextcloud support subscription gives you access to enterprise-ready software, updates, and information and support services that span your entire OS and application infrastructure life cycle and architecture. You can count on receiving the latest product versions with the stability and security you need.
+		Working with data is essential for your business and being forced on the upgrade threadmill is disruptive to your organization. With access to up to 15 years security and stability updates to Nextcloud, we match the lifecycle of your operating system so you can schedule upgrades when it works for you and secure the investments you did in your existing platform.</p>
+		<a class="button button--blue button--arrow button--large" href="">See pricing</a>
+	</div>
+</section>
 
 
 
-
-
-
-
-<<!--div class="faq container-fluid">
+<!--<div class="faq container-fluid">
 	<h1 class="revealOnScroll"><?php echo $l->t('Frequently asked questions');?></h1>
 	<div class="container">
 		<div class="row">

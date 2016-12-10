@@ -16,6 +16,7 @@
 
 html{
     margin-top: 0 !important;
+    font-size: 18px;
 }
 
 body {
@@ -58,22 +59,23 @@ i[class*='fa-'] {
     @include modifier(heading-1) {
         font-size: ms(3);
         font-weight: 300;
+        padding: 0;
+        margin: 0;
     }
 
     @include modifier(heading-2) {
         font-size: ms(2);
         font-weight: 300;
+        padding: 0;
+        margin: 0;
     }
 
     @include modifier(intro) {
         font-size: ms(0, 22px);
-        font-weight: 300;  
-    }   
-
-    @include modifier(intro) {
-        font-size: ms(0);
-        font-weight: 300;  
-    }   
+        font-weight: 300; 
+        padding: 0;
+        margin: 0; 
+    }    
 }
 
 .hyperlink {
