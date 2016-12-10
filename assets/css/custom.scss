@@ -175,6 +175,12 @@ p {
             transition: all 0.2s ease-in;
         }
 
+          /*&:hover {
+              &:before {
+                background: url(../img/common/arrow_down_white.svg) center/contain no-repeat !important;
+              }
+            }*/
+
         &.active {
             &:before {
                 transform: rotate(180deg);
@@ -307,6 +313,14 @@ p {
 			&:before {
 				background: url(../img/common/arrow_right.svg) center/contain no-repeat;
 			}
+        }
+
+        &.button--dropdown {
+            &:hover {
+                &:before {
+                    background: url(../img/common/arrow_down_white.svg) center/contain no-repeat;
+                }
+            }
         }
     }
 

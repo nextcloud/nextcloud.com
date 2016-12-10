@@ -2447,7 +2447,12 @@ p {
     color: #0082c9;
     background-color: white; }
   .button--dropdown {
-    padding: 0; }
+    padding: 0;
+    /*&:hover {
+        &:before {
+          background: url(../img/common/arrow_down_white.svg) center/contain no-repeat !important;
+        }
+      }*/ }
     .button--dropdown:before {
       content: "";
       background: url(../img/common/arrow_down_white.svg) center/contain no-repeat;
@@ -2558,6 +2563,8 @@ p {
       color: white; }
       .button--blue:hover:before {
         background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
+    .button--blue.button--dropdown:hover:before {
+      background: url(../img/common/arrow_down_white.svg) center/contain no-repeat; }
   .button--arrow {
     padding-right: 50px; }
     .button--arrow:before {
