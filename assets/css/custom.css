@@ -2447,12 +2447,7 @@ p {
     color: #0082c9;
     background-color: white; }
   .button--dropdown {
-    padding: 0;
-    /*&:hover {
-        &:before {
-          background: url(../img/common/arrow_down_white.svg) center/contain no-repeat !important;
-        }
-      }*/ }
+    padding: 0; }
     .button--dropdown:before {
       content: "";
       background: url(../img/common/arrow_down_white.svg) center/contain no-repeat;
@@ -2463,6 +2458,8 @@ p {
       top: 0;
       right: 20px;
       transition: all 0.2s ease-in; }
+    .button--dropdown:hover:before {
+      background: url(../img/common/arrow_down_white.svg) center/contain no-repeat !important; }
     .button--dropdown.active:before {
       transform: rotate(180deg); }
     .button--dropdown .dropdown-toggle {

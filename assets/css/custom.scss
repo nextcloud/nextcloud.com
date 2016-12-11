@@ -175,11 +175,11 @@ p {
             transition: all 0.2s ease-in;
         }
 
-          /*&:hover {
+          &:hover {
               &:before {
                 background: url(../img/common/arrow_down_white.svg) center/contain no-repeat !important;
               }
-            }*/
+            }
 
         &.active {
             &:before {
