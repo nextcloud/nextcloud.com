@@ -2437,6 +2437,14 @@ h5 {
 p {
   margin-top: 5px; }
 
+ul {
+  margin-top: 15px;
+  padding-left: 20px;
+  list-style-type: none; }
+
+li {
+  margin-top: 15px; }
+
 /*All default buttons*/
 .button {
   position: relative;
