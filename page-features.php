@@ -10,7 +10,7 @@
 		</div>
 		<div class="col-md-7 featureblock">
 			<h1><?php echo $l->t('Nextcloud puts you in control');?></h1>
-			<p class=""><?php echo $l->t('Nextcloud puts your data at your fingertips, under your control. You store your photos, calendar, contacts and documents on a server of your choosing, be it at home, a rented server or at one of our <a href="/providers">providers</a>. Your existing data can stay on that FTP drive at work, dropbox or a NAS you have at home, while you access it through Nextcloud.');?></p>
+			<p class=""><?php echo $l->t('Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your data center, at home or at one of our <a href="/providers">providers</a>. Through Nextcloud you also access, sync and share your existing data on that FTP drive at the office, dropbox or a NAS you have at home.');?></p>
 			<p class=""><?php echo $l->t('A trusted solution giving you access to all data you care about in one convenient place!');?></p>
 			<div class="text-center morebuttondiv">
 				<a href="https://demo.nextcloud.com" class="btn btn-primary morebutton" target="_blank"><?php echo $l->t('Try it out now!');?> <i class="icon-arrow-circle-o-right icon"></i></a>
@@ -27,7 +27,6 @@
 			<h2 class="featuretitle"><?php echo $l->t('Your files everywhere');?></h2>
 			<p class=""><?php echo $l->t('Nextcloud gives you access to all your files wherever you are and whatever device you use.');?></p>
 			<p class=""><?php echo $l->t('The easy web interface allows you to share files with other users on your server, to create and send password protected public links, to let others upload files to your cloud and to get notifications on your phone and desktop when a user on another cloud server shares files directly with you. And you can do all these things from the desktop or mobile clients, too.');?></p>
-			<p><?php echo $l->t('Nextcloud makes sharing and collaboration easy!');?></p>
 			<div class="text-center morebuttondiv">
 				<a href="/sharing" class="btn btn-primary morebutton"><?php echo $l->t('Collaboration in Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 			</div>
@@ -53,9 +52,9 @@
 			<h2 class="featuretitle"><?php echo $l->t('Security first');?></h2>
 			<p><?php echo $l->t('We are deeply committed to protect the safety of the data of our customers. Because:');?></p>
 			<ul>
-			<li><?php echo $l->t('our development follows industry best practices around security');?></li>
+			<li><?php echo $l->t('we follow industry best practices around security (aligned to ISO27001c14)');?></li>
 			<li><?php echo $l->t('we implement a wide variety of security features and hardening');?></li>
-			<li><?php echo $l->t('we offer the <a href="https://nextcloud.com/introducing-the-nextcloud-bug-bounty-program/" target="_blank">highest security bug bounties in the open source industry</a>');?></li>
+			<li><?php echo $l->t('we offer some of the <a href="https://nextcloud.com/introducing-the-nextcloud-bug-bounty-program/" target="_blank">highest security bug bounties in the open source industry</a>');?></li>
 			</ul>
 			<p><?php echo $l->t('we are confident that Nextcloud offers the best security in the open source file sync and share industry.');?></p>
 			<div class="text-center morebuttondiv">
@@ -95,8 +94,8 @@
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/monitoring.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-wee.png" alt="in action" /></a>
 		</div>
 		<div class="col-md-8">
-			<p><?php echo $l->t('The Server Information app provides a way for admins to monitor the health and performance of a Nextcloud system. Besides the graphical UI, an API endpoint provided makes it possible for system administrators to import this data in their monitoring app so they can keep an eye on Nextcloud operations from the same place they monitor the rest of their infrastructure.');?></p>
-			<p><?php echo $l->t('The nextcloud Activity app gives users a clear view on what is happening with their files. It tracks file modifications, downloads of shares and changes to comments or tags, providing an overview in the browser or via email notifications and an RSS feed.');?></p>
+			<p><?php echo $l->t('Nextcloud scales to millions of users and at that scale it is important to keep an eye on the health of a system. The Server Information app provides a way for admins to monitor the health and performance of a Nextcloud system. Besides the graphical UI, an API endpoint provided makes it possible for system administrators to import this data in their monitoring app so they can keep an eye on Nextcloud operations from the same place they monitor the rest of their infrastructure.');?></p>
+			<p><?php echo $l->t('The nextcloud Activity app gives users a clear view on what is happening with their files. It tracks file modifications, downloads of shares and changes to comments or tags, providing an overview in the browser, clients or via email notifications and an RSS feed.');?></p>
 			<div class="text-center morebuttondiv">
 				<a href="/workflow#monitoring" class="btn btn-primary morebutton"><?php echo $l->t('Monitoring in Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 			</div>
@@ -146,7 +145,7 @@
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png" />
 		</div>
 		<div class="col-md-5 featureblock">
-			<p class=""><?php echo $l->t('The external storage feature of Nextcloud gives you access to your data wherever it is. Nextcloud can access files stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but you can also access them using standard protocols such as (S)FTP, WebDAV and more.');?></p>
+			<p class=""><?php echo $l->t('The external storage feature of Nextcloud gives you access to your data wherever it is. Nextcloud can access files stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but you can also access them using standard protocols such as NFS, (S)FTP, WebDAV and more.');?></p>
 			<p class=""><?php echo $l->t('The Encryption App can encrypt data at rest for both local and remote storage, protecting data stored on networks outside of your infrastructure. Keys can be handled by an external key management server or stored locally, on the server. Nextcloud will keep your data where it is and retrieve it over a secure communication channel whenever you need to access it.');?></p>
 		</div>
 	</div>
@@ -154,7 +153,7 @@
 		<div class="col-md-5 featureblock">
 			<p class=""><?php echo $l->t('External storage features:');?></p>
 			<ul>
-				<li><?php echo $l->t('Support for SWIFT, (S)FTP, WebDAV, Amazon S3, Google Drive, Dropbox, SMB/CIFS/Windows Network Drive');?><!--TODO , Sharepoint coming in Nc 11 --> <?php echo $l->t('and OpenStack Object Storage (Swift).');?></li>
+				<li><?php echo $l->t('Support for SWIFT, (S)FTP, WebDAV, Amazon S3, Google Drive, Dropbox, SMB/CIFS/Windows Network Drive');?><!--TODO , Sharepoint coming in Nc 12 --> <?php echo $l->t('and OpenStack Object Storage (Swift).');?></li>
 				<li><?php echo $l->t('Full server side encryption with optional external key management');?></li>
 				<li><?php echo $l->t('Encryption can be enabled or disabled for each external storage system');?></li>
 				<li><?php echo $l->t('Administrators can control the list of external storage types users have access to');?></li>
@@ -214,7 +213,7 @@
 			</div>
 		</div>
 		<div class="col-md-7">
-			<p><?php echo $l->t('Operate your own secure and private audio/video and text chat. Your own video meeting service is accessible through browsers and dedicated apps on computers, mobile phones and tablets through the Internet or limited to an Intranet. Make a call, invite your friends and clients, and collaborate in closed groups through secure, end to end encrypted video/audio, text messaging, and document and file sharing. The Spreed.ME technology used offers peer to peer, WebRTC based communication channels which can not be intercepted even by the admin of the server. It provides an easy to use interface and can optionally interface with telephone lines, handling up to 10 participants in one session and tens of sessions on a single server.');?></p>
+			<p><?php echo $l->t('Operate your own secure and private audio/video and text chat. Your own video meeting service is accessible through browsers and dedicated apps on computers, mobile phones and tablets through the Internet or limited to an Intranet. Make a call, invite your friends and clients, and collaborate in closed groups through secure, end to end encrypted video/audio, text messaging, and document and file sharing. The Spreed.ME technology used offers peer to peer, WebRTC based communication channels which can not be intercepted even by the admin of the server. It provides an easy to use interface and can optionally interface with telephone lines, handling up to 10 participants in one session and dozens of sessions on a single server.');?></p>
 			<p><?php echo $l->t('You can integrate this secure communication in your Nextcloud server or purchase our Spreedbox appliance in one cool, aluminum cube!');?></p>
 			<div class="text-center morebuttondiv">
 				<p><a href="/webrtc" class="btn btn-primary morebutton"><?php echo $l->t('Communication in Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
@@ -240,11 +239,8 @@
 				</li>
 				<li><?php echo $l->t('High fidelity, WYSIWYG rendering');?></li>
 				<li><?php echo $l->t('Basic editing functions');?></li>
-				<li><?php echo $l->t('Shared editing');?>
-					<ul>
-						<li><?php echo $l->t('One editor at a time, others can see changes live. You can assign a different editor at any time.');?></li>
-					</ul>
-				</li>
+				<li><?php echo $l->t('Collaborative editing');?></li>
+				<li><?php echo $l->t('Share and edit documents with users on your server or via public links');?></li>
 			</ul>
 			<div class="text-center morebuttondiv">
 				<a href="/collaboraonline" class="btn btn-primary morebutton"><?php echo $l->t('Collabora Online');?>  <i class="icon-arrow-circle-o-right icon"></i></a></p>
@@ -271,7 +267,7 @@
 			<i class="icon-tags icon"></i>
 			</div>
 			<div class="col-md-3 featureblock">
-			<p class=""><?php echo $l->t('Nextcloud offers an easy to use user interface which comes with search functionality, favorites, tags and even more ways to quickly reach the files you need');?></p>
+			<p class=""><?php echo $l->t('Nextcloud offers an easy to use user interface which comes with search functionality, favorites, tags and even more ways to quickly reach the files you need. Full Text search is available using Apache Solr.');?></p>
 			</div>
 			<div class="col-md-1 featureblock">
 			<i class="icon-file-text icon"></i>
@@ -291,7 +287,7 @@
 			<i class="icon-puzzle-piece icon"></i>
 			</div>
 			<div class="col-md-3 featureblock">
-			<p class=""><?php echo $l->t('LDAP / Active Directory integration and Shibboleth / SAML 2.0 support');?></p>
+			<p class=""><?php echo $l->t('LDAP / Active Directory integration, Kerberos and Shibboleth / SAML 2.0 support');?></p>
 			</div>
 			<div class="col-md-1 featureblock">
 			<i class="icon-life-ring icon"></i>
@@ -311,7 +307,7 @@
 			<i class="icon-share-alt icon"></i>
 			</div>
 			<div class="col-md-3 featureblock">
-			<p class=""><?php echo $l->t('Fine-grained control from mobile, desktop or the Web over data access and sharing capabilities. Pick from the list of users and groups, stored either locally or on another, authorised, server. ');?></p>
+			<p class=""><?php echo $l->t('Fine-grained control from mobile, desktop or the Web over data access and sharing capabilities. Pick from the list of users and groups, stored either locally or on another, authorized, server. ');?></p>
 			</div>
 			<div class="col-md-1 featureblock">
 			<i class="icon-archive icon"></i>
