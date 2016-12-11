@@ -9,7 +9,7 @@
 <div class="container featureblock">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<p><blockquote><?php echo $l->t('"Nextcloud understands the necessity to provide core principle baseline security requirements, as such Nextcloud 11 is built on these security principles to ultimately deliver a secure solution to their customers"');?></blockquote><?php echo $l->t('Download the');?> <a href="<?php echo get_template_directory_uri(); ?>/assets/files/NCC_report_assurance.pdf"><?php echo $l->t('Assurance Statement</a> from the <a href="https://www.nccgroup.trust/de/">NCC group</a>');?></p>
+			<p><blockquote><?php echo $l->t('"Nextcloud understands the necessity to provide core principle baseline security requirements, as such Nextcloud 11 is built on these security principles to ultimately deliver a secure solution to their customers"');?></blockquote><?php echo $l->t('Download the');?> <a href="<?php echo get_template_directory_uri(); ?>/assets/files/NCC_report_assurance.pdf"><?php echo $l->t('Assurance Statement</a> from the <a href="https://www.nccgroup.trust">NCC group</a>');?></p>
 		</div>
 	</div>
 </div>
@@ -24,7 +24,7 @@
 	<div class="row security-badge">
 		<div class="col-sm-4 col-md-2 col-md-offset-3">
 				<a href="https://bestpractices.coreinfrastructure.org/projects/209"><img class="responsive" src="https://bestpractices.coreinfrastructure.org/assets/questions_page_badge-17b338c0e8528d695d8676e23f39f17ca2b89bb88176370803ee69aeebcb5be4.png"></a><br/>
-				<a href="https://bestpractices.coreinfrastructure.org/projects/209"><?php echo $l->t('full report');?></a>
+				<a href="https://bestpractices.coreinfrastructure.org/projects/209"><?php echo $l->t('Full report');?></a>
 		</div>
 		<div class="col-sm-4 col-md-2">
 				<a href="<?php echo get_template_directory_uri(); ?>/assets/files/veracode_report.pdf"><img class="responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/veracode-doc.png"></a><br/>
@@ -46,11 +46,11 @@
 			<ul>
 				<li><strong><?php echo $l->t('Authentication Support');?></strong><br/>
 				<ul>
-					<li>LDAP (AD)</br>
+					<li>LDAP / Active Directory</br>
 					<?php echo $l->t('Nextcloud has extensive LDAP/Active Directory support with an easy installation wizard.');?></li>
 					<li>SSO/SAML 2.0</br>
 					<?php echo $l->t('Nextcloud supports Single Sign On (SSO) and can work with Shibboleth, a SAML-based authentication in its web front end and clients.');?></li>
-					<li>two-factor authentication</br>
+					<li><?php echo $l->t('Two-factor authentication');?></br>
 					<?php echo $l->t('Nextcloud includes Universal 2nd Factor (U2F) and Time-based One-Time Password (TOTP) second factor apps to increase the security of user login handling.');?></li>
 				</ul></li>
 				<li><strong><?php echo $l->t('Existing storage and database technology');?></strong><br/>
@@ -76,9 +76,9 @@
 				<li><strong><?php echo $l->t('Permission and File Access Control');?></strong><br/>
 				<?php echo $l->t('Administrators can set permissions on sharing and access to files using groups. The powerful');?> <a href="/workflow/"><?php echo $l->t('workflow tools</a> in Nextcloud enable administrators to limit access to files following strict rules and perform automatic actions like file conversion.');?></li>
 				<li><strong><?php echo $l->t('Encryption');?></strong><br/>
-				<?php echo $l->t('Nextcloud uses industry-standard SSL encryption for data in transfer. Additionally, data at rest in storage can be encrypted using a default (AES-256) or custom cipher. Keys can be handled with the build in key management or you can opt for a custom key management for integration in existing infrastructure. As keys never leave the Nextcloud server, external storage systems never have access to unencrypted data.');?></li>
+				<?php echo $l->t('Nextcloud uses industry-standard SSL/TLS encryption for data in transfer. Additionally, data at rest in storage can be encrypted using a default military grade AES-256 encryption. Keys can be handled with the build in key management or you can opt for a custom key management for integration in existing infrastructure. As keys never leave the Nextcloud server, external storage systems never have access to unencrypted data.');?></li>
 				<li><strong><?php echo $l->t('Virus scanning');?></strong><br/>
-				<?php echo $l->t('Nextcloud supports integration with CLamAV for automated scanning of all uploaded files.');?></li>
+				<?php echo $l->t('Nextcloud supports integration with ClamAV for automated scanning of all uploaded files.');?></li>
 			</ul></p>
 		</div>
 	</div>
@@ -155,7 +155,7 @@
 								<div class="row security-badge">
 									<div class="col-sm-4 col-md-4">
 											<a href="https://bestpractices.coreinfrastructure.org/projects/209"><img class="responsive" src="https://bestpractices.coreinfrastructure.org/assets/questions_page_badge-17b338c0e8528d695d8676e23f39f17ca2b89bb88176370803ee69aeebcb5be4.png"></a><br/>
-											<a href="https://bestpractices.coreinfrastructure.org/projects/209"><?php echo $l->t('full report');?></a>
+											<a href="https://bestpractices.coreinfrastructure.org/projects/209"><?php echo $l->t('Full report');?></a>
 									</div>
 									<div class="col-sm-4 col-md-4">
 											<a href="<?php echo get_template_directory_uri(); ?>/assets/files/veracode_report.pdf"><img class="responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/veracode-doc.png"></a><br/>
@@ -212,9 +212,9 @@
 	<div class="row">
 		<div class="col-md-8">
 			<h2><?php echo $l->t('Authentication capabilities');?></h2>
-			<p><?php echo $l->t('The Nextcloud authentication system supports pluggable authentication including two-factor authentication and device specific passwords, complete with a list of connected browsers and devices on the users’ personal page. As extra protection, device specific password tokens can be denied access to the file system.');?></p>
+			<p><?php echo $l->t('The Nextcloud authentication system supports pluggable authentication including Two-factor authentication and device specific passwords, complete with a list of connected browsers and devices on the users’ personal page. As extra protection, device specific password tokens can be denied access to the file system.');?></p>
 			<p><?php echo $l->t('Included are Universal 2nd Factor (U2F) and Time-based One-Time Password (TOTP) second factor apps, enabling users to use tools like Yubikeys or Google Authenticator to secure their accounts.');?></p>
-			<p><?php echo $l->t('Active sessions can be invalidated through the list, by removing the user in the admin settings or by changing passwords. Admins can enable or disable two-factor authentication for users on the command line.');?></p>
+			<p><?php echo $l->t('Active sessions can be invalidated through the list, by removing the user in the admin settings or by changing passwords. Admins can enable or disable Two-factor authentication for users on the command line.');?></p>
 			<p><?php echo $l->t('Nextcloud supports SAML 2.0 (“Shibboleth”) and Kerberos authentication and has extensive LDAP directory integration.');?></p>
 		</div>
 		<div class="col-md-4">
@@ -241,7 +241,7 @@
 				<li><?php echo $l->t('Content Security Policy 3.0');?>
 				<ul>
 					<p><?php echo $l->t('CSP is a HTTP feature that allows the server to set specific restrictions on a resource when opened in a browser. Such as only allowing to load images or JavaScript from specific targets.');?></p>
-					<p><?php echo $l->t('CSP 3.0 is the latest, most strict version of the standart, increasing the barrier for  attackers to exploit a Cross-Site Scripting vulnerability.');?></p>
+					<p><?php echo $l->t('CSP 3.0 is the latest, most strict version of the standard, increasing the barrier for  attackers to exploit a Cross-Site Scripting vulnerability.');?></p>
 				</ul></li>
 				<li><?php echo $l->t('Same-Site Cookies');?>
 				<ul>
