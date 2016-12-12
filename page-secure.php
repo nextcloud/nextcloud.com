@@ -6,22 +6,22 @@
 		</div>
 	</div>
 </div>
-<div class="container featureblock revealOnScroll">
+<div class="container featureblock">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<p><blockquote><?php echo $l->t('"Nextcloud understands the necessity to provide core principle baseline security requirements, as such Nextcloud 11 is built on these security principles to ultimately deliver a secure solution to their customers"');?></blockquote><?php echo $l->t('Download the');?> <a href="<?php echo get_template_directory_uri(); ?>/assets/files/NCC_report_assurance.pdf"><?php echo $l->t('Assurance Statement</a> from the <a href="https://www.nccgroup.trust">NCC group</a>, a global expert in cyber security and risk mitigation.');?></p>
 		</div>
 	</div>
 </div>
-<div class="container featureblock revealOnScroll">
-	<div class="row">
+<div class="container featureblock">
+	<div class="row revealOnScroll">
 		<div class="col-md-8 col-md-offset-2">
 			<h2 class="header"><?php echo $l->t('Verified Enterprise Class Security');?></h2>
 			<p><?php echo $l->t('Our customers care deeply about security and so do we. Nextcloud aligns with industry standards such as Clause 14 of ISO/IEC27001-2013 and related standards, guidance and security principles.');?></p>
 			<p><?php echo $l->t('Our solution is built around combined assurance layers consisting of newly applied rich security features, applied best practices which are governed by policy and the design itself validated by industry standard testing processes.');?></p>
 		</div>
 	</div>
-	<div class="row security-badge">
+	<div class="row security-badge revealOnScroll">
 		<div class="col-sm-4 col-md-2 col-md-offset-3">
 				<a href="https://bestpractices.coreinfrastructure.org/projects/209"><img class="responsive" src="https://bestpractices.coreinfrastructure.org/assets/questions_page_badge-17b338c0e8528d695d8676e23f39f17ca2b89bb88176370803ee69aeebcb5be4.png"></a><br/>
 				<a href="https://bestpractices.coreinfrastructure.org/projects/209"><?php echo $l->t('Full report');?></a>
@@ -35,7 +35,7 @@
 				<a href="<?php echo get_template_directory_uri(); ?>/assets/files/NCC_report_assurance.pdf"><?php echo $l->t('NCC Group review');?></a><br/> (<a href="<?php echo get_template_directory_uri(); ?>/assets/files/NCC_report_full.pdf"><?php echo $l->t('summary');?></a>)
 		</div>
 	</div>
-	<p class="text-center"><a href="#process"><?php echo $l->t('Learn more about our security process and features');?></a></p>
+	<p class="text-center revealOnScroll"><a href="#process"><?php echo $l->t('Learn more about our security process and features');?></a></p>
 </div>
 
 <div class="container featureblock revealOnScroll">
@@ -227,7 +227,7 @@
 
 <div class="container featureblock">
 	<div class="row">
-		<div class="col-md-6">
+		<div class="col-md-6 revealOnScroll">
 			<h3><?php echo $l->t('Brute force protection');?></h3>
 			<p><?php echo $l->t('Brute Force Protection logs invalid login attempts and slows down multiple attempts from a single IP address (or IPv6 range). This feature is enabled by default and protects against an attacker who tries to guess a password from one or more users.');?></p>
 			<p><?php echo $l->t('You can find more information on hardening your Nextcloud installation in our extensive');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_server/harden_server.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Information for Admins">hardening guide</a>');?></p>
@@ -236,7 +236,7 @@
 			<p><?php echo $l->t('Password reset tokens are invalidated when critical information like user email has been changed to protect against phishing attacks.');?></p>
 			<p><?php echo $l->t('Nextcloud will ask system administrators for password confirmation on security critical actions. ');?></p>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 revealOnScroll">
 		<h3><?php echo $l->t('Security hardening');?></h3>
 		<p><?php echo $l->t('Nextcloud employs a wide variety of extra security hardening capabilities, including:');?></p>
 			<ul>
@@ -256,8 +256,8 @@
 	</div>
 </div>
 
-<div class="container featureblock revealOnScroll">
-	<div class="row">
+<div class="container featureblock">
+	<div class="row revealOnScroll">
 		<div class="col-md-5">
 			<img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/encryption-home.png" alt="in action" />
 		</div>
@@ -267,7 +267,7 @@
 			<p><?php echo $l->t('Server side encryption protects files on the Nextcloud server or external storage from being seen by third parties. As files are encrypted and decrypted on the Nextcloud server, this does not protect from malicious system administrators or a compromised server but it provides an additional layer of protection for cases when server hardware gets stolen.');?></p>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row revealOnScroll">
 		<div class="col-md-7">
 			<p><?php echo $l->t('Encryption is particularly useful when used in combination with external storage as the third party storage system will never see unencrypted files.');?></p>
 			<p><?php echo $l->t('Nextcloud supports pluggable encryption key handling. If you have an external key server, this can be made to work with Nextcloud.');?></p>
