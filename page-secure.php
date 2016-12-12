@@ -32,7 +32,7 @@
 		</div>
 		<div class="col-sm-4 col-md-2">
 				<a href="<?php echo get_template_directory_uri(); ?>/assets/files/NCC_report_full.pdf"><img class="responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/ncc-doc.png"></a><br/>
-				<a href="<?php echo get_template_directory_uri(); ?>/assets/files/NCC_report_full.pdf"><?php echo $l->t('NCC Group review');?></a><br/> (<a href="<?php echo get_template_directory_uri(); ?>/assets/files/NCC_report_full.pdf"><?php echo $l->t('summary');?></a>)
+				<a href="<?php echo get_template_directory_uri(); ?>/assets/files/NCC_report_assurance.pdf"><?php echo $l->t('NCC Group review');?></a><br/> (<a href="<?php echo get_template_directory_uri(); ?>/assets/files/NCC_report_full.pdf"><?php echo $l->t('summary');?></a>)
 		</div>
 	</div>
 	<p class="text-center"><a href="#process"><?php echo $l->t('Learn more about our security process and features');?></a></p>
