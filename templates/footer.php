@@ -33,7 +33,7 @@ $l = new L10N('footer');
                 <li><a href="https://webchat.freenode.net/?channels=nextcloud"><?php echo $l->t('IRC Channel') ?></a></li>
                 <li><a href="https://help.nextcloud.com/categories"><?php echo $l->t('Forums') ?></a></li>
                 <li><a href="<?php echo home_url('contact') ?>"><?php echo $l->t('Contact us') ?></a></li>
-                <li><a href="<?php echo home_url('press') ?>"><?php echo $l->t('Press') ?></a></li>
+                <li><a href="<?php echo home_url('press') ?>"><?php echo $l->t('Press center') ?></a></li>
                 <li><a href="https://docs.nextcloud.com/server/10/developer_manual/bugtracker/index.html"><?php echo $l->t('Bug Tracker') ?></a></li>
             </ul>
         </div>
