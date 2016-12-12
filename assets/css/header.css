@@ -15,7 +15,8 @@
   background: #0082c9;
   position: relative; }
   .nav .container {
-    position: relative; }
+    position: relative;
+    /* Fix ul and li settings in common */ }
     @media (max-width: 992px) {
       .nav .container {
         width: 90%; } }
@@ -99,6 +100,10 @@
           animation: play 2s steps(33) forwards; }
         .nav .container .brand .logo:not(.scrolled):not(.menu-open).stopedAnimation {
           background-position-x: -4620px; }
+    .nav .container ul {
+      margin-top: 0px; }
+      .nav .container ul li {
+        margin-top: 0px; }
     .nav .container .nav__sections {
       display: -webkit-box;
       display: -webkit-flex;
@@ -194,7 +199,8 @@
         display: inline-block;
         padding-left: 30px;
         padding-bottom: 5px;
-        font-size: 16px; }
+        font-size: 16px;
+        margin-top: 0px; }
         .nav .container .right-buttons li a {
           color: white; }
 
