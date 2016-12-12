@@ -9,7 +9,7 @@
 /**
  * Secure Page
  */
-.sbackground {
+.security-background {
   background-image: url("../img/security/security.jpg");
   background-position: bottom 0 right 0; }
 
@@ -44,6 +44,14 @@
   .featureblock .row {
     margin-bottom: 50px; }
 
+/* security badges */
+.security-badge {
+  text-align: center;
+  /* 	display: inline-block; */ }
+  .security-badge img {
+    height: 140px;
+    padding: 5px; }
+
 /* Process image */
 .process {
   height: 1100px; }
@@ -65,8 +73,10 @@
     color: #434343; }
     .process p:last-of-type {
       margin-bottom: 30px; }
-  .process .nav {
-    opacity: 1; }
+  .process .snav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none; }
   @media (min-width: 768px) {
     .process {
       height: 850px;
