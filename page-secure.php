@@ -6,14 +6,14 @@
 		</div>
 	</div>
 </div>
-<div class="container featureblock">
+<div class="container featureblock revealOnScroll">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<p><blockquote><?php echo $l->t('"Nextcloud understands the necessity to provide core principle baseline security requirements, as such Nextcloud 11 is built on these security principles to ultimately deliver a secure solution to their customers"');?></blockquote><?php echo $l->t('Download the');?> <a href="<?php echo get_template_directory_uri(); ?>/assets/files/NCC_report_assurance.pdf"><?php echo $l->t('Assurance Statement</a> from the <a href="https://www.nccgroup.trust">NCC group</a>, a global expert in cyber security and risk mitigation.');?></p>
 		</div>
 	</div>
 </div>
-<div class="container featureblock">
+<div class="container featureblock revealOnScroll">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<h2 class="header"><?php echo $l->t('Verified Enterprise Class Security');?></h2>
@@ -38,7 +38,7 @@
 	<p class="text-center"><a href="#process"><?php echo $l->t('Learn more about our security process and features');?></a></p>
 </div>
 
-<div class="container featureblock">
+<div class="container featureblock revealOnScroll">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
 			<h2 class="header"><?php echo $l->t('Integration');?></h2>
@@ -66,7 +66,7 @@
 	</div>
 </div>
 
-<div class="container featureblock">
+<div class="container featureblock revealOnScroll">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
 			<h2 class="header"><?php echo $l->t('Under your control');?></h2>
@@ -87,7 +87,7 @@
 </div>
 
 <a name="process"></a>
-<div class="container">
+<div class="container revealOnScroll">
 	<div class="featureblock process">
 		<h2 class="header"><?php echo $l->t('Security process');?></h2>
 		<p><?php echo $l->t('Nextcloud works following industry standard security processes. Security bugs are like technical debt: fixing them later is expensive. Our strategy is to prevent them from happening through a rigorous focus on security through the entire life cycle of our product and to get those which find their way through found and fixed as soon as possible.');?></p>
@@ -194,7 +194,7 @@
 	</div>
 </div>
 
-<div class="container featureblock">
+<div class="container featureblock revealOnScroll">
 	<h2 class="header"><?php echo $l->t('Security bug bounties');?></h2>
 	<div class="row">
 		<div class="col-md-6">
@@ -210,7 +210,7 @@
 </div>
 
 
-<div class="container featureblock">
+<div class="container featureblock revealOnScroll">
 	<div class="row">
 		<div class="col-md-8">
 			<h2><?php echo $l->t('Authentication capabilities');?></h2>
@@ -256,7 +256,7 @@
 	</div>
 </div>
 
-<div class="container featureblock">
+<div class="container featureblock revealOnScroll">
 	<div class="row">
 		<div class="col-md-5">
 			<img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/encryption-home.png" alt="in action" />
@@ -281,7 +281,7 @@
 </div>
 
 
-<div class="wrap container featureblock">
+<div class="wrap container featureblock revealOnScroll">
 	<div class="featurerow">
 		<h2 class="header"><?php echo $l->t('Screenshots');?></h2>
 		<div class="row">
