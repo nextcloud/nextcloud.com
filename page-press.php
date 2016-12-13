@@ -1,6 +1,6 @@
 <?php get_template_part('templates/parts/title'); ?>
 <h2>Current Release Information <small> Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></small></h2>
-<a target="_blank" href="https://nextcloud.com/?p=859" class="btn btn-lg btn-default">Announcement</a>
+<a target="_blank" href="https://nextcloud.com/blog/nextcloud-11-sets-new-standard-for-security-and-scalability/" class="btn btn-lg btn-default">Announcement blog</a>
 <!-- <a href="/nine" class="btn btn-lg btn-default">Overview of new features</a> -->
 <h2>Press releases</h2>
 <ul>
