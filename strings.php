@@ -2,10 +2,10 @@
 // Strings used throughout Nextcloud.org.
 
 /* VERSIONS */
-$VERSIONS_SERVER_MAJOR_STABLE = '10';
-$VERSIONS_SERVER_FULL_STABLE = '10.0.2';
-$VERSIONS_SERVER_MAJOR_DEVELOPMENT = '11';
-$VERSIONS_SERVER_MAJOR_DEV_DOCS = '10'; // Used in dev docs links
+$VERSIONS_SERVER_MAJOR_STABLE = '11';
+$VERSIONS_SERVER_FULL_STABLE = '11.0.0';
+$VERSIONS_SERVER_MAJOR_DEVELOPMENT = '12';
+$VERSIONS_SERVER_MAJOR_DEV_DOCS = '11'; // Used in dev docs links
 $VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.2.4';
 $VERSIONS_CLIENT_DESKTOP_STABLE_SHORT = '2.2'; // For use in documentation link
 
@@ -63,7 +63,7 @@ $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.nextcloud.com/download/repos
 
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.nextcloud.com/server/prereleases/';
-$SERVER_TESTING_VERSION ='11 RC2';
+$SERVER_TESTING_VERSION ='';
 $DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-11.0.0RC2.tar.bz2';
 $DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-11.0.0RC2.zip
 ';
