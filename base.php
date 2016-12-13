@@ -78,6 +78,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'pr20160916',
 		'pr20160929',
 		'pr20161027',
+		'pr20161213',
 		'press',
 		'privacy',
 		'promote',
