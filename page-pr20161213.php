@@ -27,19 +27,19 @@
 
 	<p><strong>Links:</strong>
 	<ul>
-	<li><a href="https://nextcloud.com/">Nextcloud website</a></li>
-	<li><a href="https://nextcloud.com/install">Download of Nextcloud 11</a></li>
-	<li><a href="https://nextcloud.com/?p=1332">Full announcement blog</a></li>
-	<li><a href="https://nextcloud.com/?p=1334">Details on security improvements</a></li>
-	<li><a href="https://nextcloud.com/?p=1373">Details on performance improvements</a></li>
-	<li><a href="https://nextcloud.com/?p=1371">Details on full text search</a></li>
-	<li><a href="http://blog.schiessle.org/2016/12/12/cloud-federation-getting-social">Details on federation</a></li>
-	<li><a href="https://nextcloud.com/?p=1399">Details on spreed video/audio calls</a></li>
-	<li><a href="https://nextcloud.com/?p=1222">Recent Nextcloud project growth statistics</a></li>
-	<li><a href="https://nextcloud.com/?p=1343">News: Nextcloud GmbH is growing strong</a></li>
+	<li>About Nextcloud: <a href="https://nextcloud.com/about">https://nextcloud.com/about</a></li>
+	<li>Download of Nextcloud 11: <a href="https://nextcloud.com/install">https://nextcloud.com/install</a></li>
+	<li>Full announcement blog: <a href="https://nextcloud.com/?p=1332">https://nextcloud.com/?p=1332</a></li>
+	<li>Details on security improvements: <a href="https://nextcloud.com/?p=1334">https://nextcloud.com/?p=1334</a></li>
+	<li>Details on performance improvements: <a href="https://nextcloud.com/?p=1373">https://nextcloud.com/?p=1373</a></li>
+	<li>Details on full text search: <a href="https://nextcloud.com/?p=1371">https://nextcloud.com/?p=1371</a></li>
+	<li>Details on federation: <a href="http://blog.schiessle.org/2016/12/12/cloud-federation-getting-social">http://blog.schiessle.org/2016/12/12/cloud-federation-getting-social</a></li>
+	<li>Details on spreed video/audio calls: <a href="https://nextcloud.com/?p=1399">https://nextcloud.com/?p=1399</a></li>
+	<li>Recent Nextcloud project growth statistics: <a href="https://nextcloud.com/?p=1222">https://nextcloud.com/?p=1222</a></li>
+	<li>News: Nextcloud GmbH is growing strong: <a href="https://nextcloud.com/?p=1343">https://nextcloud.com/?p=1343</a></li>
 	</ul>
 
-	<p>Nextcloud GmbH http://nextcloud.com<br />
+	<p>Nextcloud GmbH <a href="http://nextcloud.com">http://nextcloud.com</a><br />
 	</p>
 	<p><strong>Press contacts</strong><br />
 	Nextcloud GmbH<br />
