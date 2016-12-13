@@ -5,8 +5,13 @@
 </div>
 <div class="featurerow">
 	<div class="row ">
-		<div class="col-md-5">
-			<a href="https://demo.nextcloud.com"><img alt="Try for yourself!" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/serverwebui.png" /></a>
+		<div class="col-md-4 yt-img-overlay">
+			<a class="youtube" href="https://www.youtube.com/watch?v=9CGQ3dJkDdI" title="Nextcloud 11 in action">
+			<img  src="https://img.youtube.com/vi/9CGQ3dJkDdI/hqdefault.jpg" title="Nextcloud 11 in action" />
+			<div class="yt-play-btn">
+				<i></i> 
+			</div>
+			</a>
 		</div>
 		<div class="col-md-7 featureblock">
 			<h1><?php echo $l->t('Nextcloud puts you in control');?></h1>
