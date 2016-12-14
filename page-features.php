@@ -162,6 +162,7 @@
 				<li><?php echo $l->t('Full server side encryption with optional external key management');?></li>
 				<li><?php echo $l->t('Encryption can be enabled or disabled for each external storage system');?></li>
 				<li><?php echo $l->t('Administrators can control the list of external storage types users have access to');?></li>
+				<li><?php echo $l->t('It’s possible to use an object store (OpenStack Swift/Amazon S3) as primary storage');?></li>
 			</ul>
 		</div>
 		<div class="col-md-7">
