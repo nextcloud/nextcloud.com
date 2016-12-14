@@ -11,7 +11,7 @@
 	<li>expanded brute force protection to all API access points</li>
 	<li>more secure Federation through use of SSL/TLS</li>
 	<li>access rights on app-specific login tokens</li>
-	<li>Our new app store automatically checks apps and enforces signatures
+	<li>Our new app store automatically checks apps and enforces signatures</li>
 	</ul></p>
 
 	<p>With scalability a prime concern among Nextcloud's large enterprise customers, this release decreases the database load and lowers resource usage up to 60% for common server operations. Multi-bucket Object Store support, improved handling of previews and Collabora Online speed improvements enable scaling to greater numbers of users and files, decrease the server load and improve user experience.</p>

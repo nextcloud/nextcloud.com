@@ -21,11 +21,31 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <h4>Changes</h4>
 <p>Over 1000 changes were merged, among them:
 <ul>
-	<li>To be documented</li>
+	<li>Security improvements
+	<ul>
+		<li>support for cutting edge browser security features CSP 3.0 and Same-site Cookies</li>
+		<li>support for Kerberos authentication and Two-factor Authentication providers based on Universal 2nd Factor and Time-based One-Time Password</li>
+		<li>expanded brute force protection to all API access points</li>
+		<li>more secure Federation through use of SSL/TLS</li>
+		<li>access rights on app-specific login tokens</li>
+		<li>Our new app store automatically checks apps and enforces signatures</li>
+	</ul></li>
+	<li>Scalability and performance improvements
+	<ul>
+		<li>Reduce database load up to 80%, speed up small files transfer up to 60%</li>
+		<li>Introduce Multi-bucket support for better scalability on Object Stores</li>
+		<li>Improved preview handling, including no more duplicates for each user</li>
+		<li>Faster Collabora Online startup</li>
+		<li>Faster loading of large folders</li>
+	</ul></li>
+	<li>Apache Solr based Full Text Search with Nextant app</li>
+	<li>Next gen Federation supports optionally storing info in global 'addressbook' for easy finding of users</li>
+	<li>Experimental Spreed app integrates audio/video chat</li>
+	<li>Many more smaller changes like 'move file' option in menu, scrollable pdf previews and more</li>
+</ul>
 
 <p><a href="https://nextcloud.com/blog/nextcloud-11-sets-new-standard-for-security-and-scalability/">Release announcement with overview about features and changes</a></p>
 <p><a href="https://github.com/nextcloud/server/milestone/6?closed=1">See a full list of integrated pull requests here.</a></p>
-
 
 
 <a name="latest10"></a>
