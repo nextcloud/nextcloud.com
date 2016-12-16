@@ -1,13 +1,39 @@
 <!-- <?php get_template_part('templates/parts/title'); ?> -->
-<div class="page-header">
-	<h1><?php echo $l->t('Collabora Online in Nextcloud');?></h1>
-	<h3><?php echo $l->t('Bringing Self Hosted Online Office to everybody');?></h3>
+<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+		<div class="page-header">
+			<h1><?php echo $l->t('Collabora Online in Nextcloud');?></h1>
+			<h3><?php echo $l->t('Bringing Self Hosted Online Office to everybody');?></h3>
+		</div>
+		<p><?php echo $l->t('We\'re very excited to provide a solution for Online Office for the entire Nextcloud community through our <a target="_blank" href="https://nextcloud.com/?p=589">partnership with Collabora</a>. Together we are making available the latest and greatest of Online Office in an <strong>easy to use <a href="https://hub.docker.com/r/collabora/code">docker image</a> for home users</strong>.');?></p>
+		<p><?php echo $l->t('Enterprise users who need a more reliable and scalable solution can take advantage of our <a href="/enterprise">support contract for Nextcloud and Collabora Online</a>.');?></p>
+		<p><?php echo $l->t('If you\'re looking for instructions to update to a new version, <a href="#update">see here.</a>');?></p>
+	</div>
 </div>
-<p><?php echo $l->t('We\'re very excited to provide a solution for Online Office for the entire Nextcloud community through our <a target="_blank" href="https://nextcloud.com/?p=589">partnership with Collabora</a>. Together we are making available the latest and greatest of Online Office in an <strong>easy to use <a href="https://hub.docker.com/r/collabora/code">docker image</a> for home users</strong>.');?></p>
-<p><?php echo $l->t('Enterprise users who need a more reliable and scalable solution can take advantage of our <a href="/enterprise">support contract for Nextcloud and Collabora Online</a>.');?></p>
-<p><?php echo $l->t('If you\'re looking for instructions to update to a new version, <a href="#update">see here.</a>');?></p>
 <div class="row featurerow topfeature">
-	<div class="col-md-7">
+	<div class="col-md-6">
+		<div class="yt-img-overlay">
+			<a class="youtube" id="sZpYXUD1ZVM" href="https://www.youtube.com/watch?v=sZpYXUD1ZVM" title="Collabora Online in Nextcloud">
+				<img class="img-responsive featureimg" src="https://img.youtube.com/vi/sZpYXUD1ZVM/hqdefault.jpg" title="Collabora Online in Nextcloud" />
+				<div class="yt-play-btn">
+					<i></i> 
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="yt-img-overlay">
+			<a class="youtube" id="8iuSFKVl-xQ" href="https://www.youtube.com/watch?v=8iuSFKVl-xQ" title="Editing public link sharesd">
+				<img class="img-responsive featureimg" src="https://img.youtube.com/vi/8iuSFKVl-xQ/hqdefault.jpg" title="Editing public link shares" />
+				<div class="yt-play-btn">
+					<i></i> 
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="row featurerow topfeature">
+	<div class="col-md-8 col-md-offset-2">
 		<h2><?php echo $l->t('Collabora Online');?></h2>
 		<p><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite that supports all major document, spreadsheet and presentation file formats.');?></p>
 		<p><?php echo $l->t('Features:');?></p>
@@ -20,40 +46,26 @@
 					</ul>
 				</li>
 				<li><?php echo $l->t('High fidelity, WYSIWYG rendering');?></li>
-				<li><?php echo $l->t('Shared editing');?>
-					<ul>
-						<li><?php echo $l->t('One user edits, others can follow. You can change who edits.');?></li>
-					</ul>
-				</li>
+				<li><?php echo $l->t('Fully collaborative editing');?>
+				<li><?php echo $l->t('Anonymous editing  of files in public link shared folder');?></li>
 			</ul>
 		<p><?php echo $l->t('More features and capabilities are in development.');?></p>
 	</div>
-	<div class="col-md-5">
-		<div class="yt-img-overlay">
-			<a class="youtube" id="sZpYXUD1ZVM" href="https://www.youtube.com/watch?v=sZpYXUD1ZVM" title="Collabora Online in Nextcloud">
-				<img class="img-responsive featureimg" src="https://img.youtube.com/vi/sZpYXUD1ZVM/hqdefault.jpg" title="Collabora Online in Nextcloud" />
-				<div class="yt-play-btn">
-					<i></i> 
-				</div>
-			</a>
-		</div>
-	</div>
 </div>
-
 <div class="row featurerow topfeature">
 	<div class="col-md-4">
 		<div class="">
-			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-app.png" />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-app.png"  target="_blank"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-app.png" /></a>
 		</div>
 	</div>
 	<div class="col-md-4">
 		<div class="">
-			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-presentation.png" />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-presentation.png"  target="_blank"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-presentation.png" /></a>
 		</div>
 	</div>
 	<div class="col-md-4">
 		<div class="">
-			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png" />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png"  target="_blank"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png" /></a>
 		</div>
 	</div>
 </div>
@@ -71,14 +83,14 @@
 	</div>
 	<div class="col-md-5">
 		<div class="">
-			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-document.png" /> 
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-document.png" target="_blank"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-document.png" /> </a>
 		</div>
 	</div>
 </div>
 <div class="featurerow">
-	<h2 class="featuretitle"><?php echo $l->t('Collabora Online integration tutorial video');?></h2>
+	<h2 class="featuretitle text-center"><?php echo $l->t('Collabora Online integration tutorial video');?></h2>
 	<div class="row">
-		<div class="col-md-8">
+		<div class="col-md-10 col-md-offset-2">
 			<div class="yt-img-overlay">
 				<a class="youtube" id="MDc1bNxn3js" href="https://www.youtube.com/watch?v=MDc1bNxn3js" title="Collabora Online in Nextcloud">
 					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/MDc1bNxn3js/hqdefault.jpg" title="Collabora Online in Nextcloud tutorial" />
