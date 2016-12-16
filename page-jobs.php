@@ -290,6 +290,37 @@
 			</ul>
 			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 		</div>
+			<a href="#techwrite" data-toggle="collapse"><h3 class="jobs">Technical documentation writer<span class="icon-arrow"></span></h3></a>
+		<div id="techwrite" class="collapse">
+			<p>We're looking for a technical writer to join our server team!</p>
+			<p>You would work with the engineering team to make sure Nextcloud features are well documented, ensure installation and handling of Nextcloud is described well and that people can find their way around in the product. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
+			<p>Responsibilities:</p>
+			<ul>
+				<li>Taking ownership of the Nextcloud documentation</li>
+				<li>Working with the Engineering team on the technical, developer and end user facing documentation</li>
+				<li>Proactively identifying areas that need further documentation</li>
+				<li>Editing, clarifying and proofreading documents written by others</li>
+			</ul>
+			<p>Required skills:</p>
+			<ul>
+				<li>Confidence in writing and copy-editing English documentation</li>
+				<li>Knowledge about Linux and basic PHP knowledge</li>
+				<li>Proficient or native german knowledge</li>
+				<li>Experience with the LAMP stack</li>
+				<li>Teamworking capabilities</li>
+				<li>Independence and self-reliance.</li>
+				<li>Knowledge around open source technology</li>
+			</ul>
+			<p>What we offer:</p>
+			<ul>
+				<li>A distributed, open team with a passion for working on and within the open source community</li>
+				<li>Working on a product which pushes the boundaries of technology and with a global user and contributor community</li>
+				<li>A competitive salary</li>
+				<li>Flexibility for a healthy work-life balance</li>
+				<li>Time for personal growth and education</li>
+			</ul>
+			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+		</div>
 		<h3 class="jobs">And more</h3>
 		<div>
 			<p>We are always looking for talented new people in all areas of our business--from engineering and support to sales and marketing. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> and tell us how you can help!</p>
