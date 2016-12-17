@@ -76,8 +76,8 @@
 				<div id="tab-cloud" role="tabpanel" class="tab-pane">
 					<div class="overlay-body row">
 						<div class="col-md-6">
-							<p><?php echo $l->t('The official Nextcloud appliance, provided by <a target="_blank" href="https://www.techandme.se/">TechandMe.se</a>, is the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure connection. ');?></p>
-							<h4><?php echo $l->t('Grab the Nextcloud virtual machine image from the TechandMe.se website:');?></h4>
+							<p><?php echo $l->t('The official Nextcloud appliance, provided by <a target="_blank" href="https://www.techandme.se/">Tech and Me</a>, is the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure connection. ');?></p>
+							<h4><?php echo $l->t('Grab the Nextcloud virtual machine image from the Tech and Me website:');?></h4>
 							<p><?php echo $l->t('<a class="btn btn-primary" href="https://www.techandme.se/nextcloud-vm/">Instructions and download</a>');?></p>
 							<p><?php echo $l->t('Find <a href="https://github.com/nextcloud/vm">source here</a>.');?></p>
 						</div>
