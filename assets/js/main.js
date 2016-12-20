@@ -17,7 +17,7 @@ $(document).ready(function() {
 		buttonDropdown: function (event) {
 			this.variables.buttonDropdownSelector.toggleClass(this.variables.activeClass);
 			this.variables.buttonDropdownContent.toggleClass(this.variables.visibleClass);
-			event.preventDefault();
+// 			event.preventDefault();
 		}
 
 		}
