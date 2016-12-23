@@ -8,7 +8,7 @@
 	<div class="col-md-6">
 		<img class="device-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/box.jpg" alt="" />
 		<h1 class="text-center"><?php echo $l->t('The Nextcloud Box');?></h1>
-		<p><?php echo $l->t('The Nextcloud box comes preinstalled with Nextcloud, running on <a href="https://developer.ubuntu.com/en/snappy/" target="_blank">Snappy Ubuntu Core</a> as OS. The hardware:');?></p>
+		<p><?php echo $l->t('The Nextcloud box comes preinstalled with Nextcloud, running on <a href="https://developer.ubuntu.com/en/snappy/" target="_blank">Snappy Ubuntu Core</a> as the OS. The hardware:');?></p>
 		<ul>
 			<li><?php echo $l->t('1 TB USB3 hard drive from WDLabs');?></li>
 			<li><?php echo $l->t('Nextcloud case with room for the drive and a compute board');?></li>
