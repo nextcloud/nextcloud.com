@@ -16,11 +16,12 @@
 
 							<a class="btn btn-default" data-toggle="collapse" href="#more">Details and Download options</a>
 							<div class="collapse" id="more">
-								<ol>
-									<li><?php echo $l->t('Download the');?> <a class="label label-blue" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">.tar.bz2</a> <?php echo $l->t('or');?> <a class="label label-blue" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">.zip</a> <?php echo $l->t('archive.');?></li>
-									<li><?php echo $l->t('Check package integrity using MD5');?> (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_MD5; ?>">.zip</a>) <?php echo $l->t('or');?> SHA256 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_SHA256; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_SHA256; ?>">.zip</a>)</li>
-									<li><?php echo $l->t('Verify the authenticity via PGP');?> (<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_PGP; ?>">.tar.bz2 </a>/<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_PGP ?>">.zip</a>). <?php echo $l->t('The Nextcloud GPG key');?> <a target="_blank" href="<?php echo $NEXTCLOUD_GPG ; ?>"><?php echo $l->t('is here');?></a>.</li>
-								</ol>
+							<ol>
+								<li><?php echo $l->t('Download the');?> <a class="label label-blue" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">.tar.bz2</a> <?php echo $l->t('or');?> <a class="label label-blue" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">.zip</a> <?php echo $l->t('archive.');?></li>
+								<li><?php echo $l->t('Check package integrity using MD5');?> (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_MD5; ?>">.zip</a>) <?php echo $l->t('or');?> SHA256 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_SHA256; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_SHA256; ?>">.zip</a>)</li>
+								<li><?php echo $l->t('Verify the authenticity via PGP');?> (<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_PGP; ?>">.tar.bz2 </a>/<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_PGP ?>">.zip</a>). <?php echo $l->t('The Nextcloud GPG key');?> <a target="_blank" href="<?php echo $NEXTCLOUD_GPG ; ?>"><?php echo $l->t('is here');?></a>.</li>
+							</ol>
+							<p><?php echo $l->t('You can already find server packages included or being worked on for distributions like <a href="https://wiki.archlinux.org/index.php/Nextcloud">Archlinux</a>, Fedora (<a href="https://copr.fedorainfracloud.org/coprs/jhogarth/NextCloud/">on Copr</a>, EPEL/Stable coming) and <a href="https://software.opensuse.org/download.html?project=server%3Aphp%3Aapplications&package=nextcloud">openSUSE</a>. A volunteer has <a href="http://repo.morph027.de/nextcloud.php">provided Debian/Ubuntu packages.</a> As Cross-distribution solution you can <a href="https://uappexplorer.com/app/nextcloud.nextcloud">try the Nextcloud Snap.</a> Can\'t find packages you need? Ask your distribution for packages or contribute to creating them!');?></p>
 							<p><?php echo $l->t('<strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a>.');?></p>
 							</div>
 						</div>
@@ -124,7 +125,7 @@
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX; ?>" id="client-download-linux" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux<br /><small>Source</small></a>
 							<br><br>
 							<p><?php echo $l->t('Looking for the');?> <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>"><?php echo $l->t('Sources</a>?');?>
-							<p><?php echo $l->t('You can already find Nextcloud Desktop client packages included in openSUSE Tumbleweed, Archlinux and Fedora (<a href="https://copr.fedorainfracloud.org/coprs/tpokorra/nextcloud/">on Copr</a>). Not in the list? Ask your distribution for packages or contribute to creating them!');?></p>
+							<p><?php echo $l->t('You can already find Nextcloud Desktop client packages included in openSUSE Tumbleweed, Archlinux and Fedora (<a href="https://copr.fedorainfracloud.org/coprs/tpokorra/nextcloud/">on Copr</a>). A volunteer has <a href="http://repo.morph027.de/nextcloud-client.php">provided Debian/Ubuntu packages.</a> Can\'t find packages? Ask your distribution or contribute to creating them!');?></p>
 							<p><?php echo $l->t('Nextcloud is using WebDAV, so you can also try out any other client you want!');?></p>
 							<p><?php echo $l->t('Compatible third party clients include:');?></p>
 							<ul>
