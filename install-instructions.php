@@ -125,7 +125,7 @@
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX; ?>" id="client-download-linux" class="btn btn-lg btn-default"><i class="icon-linux"></i> Linux<br /><small>Source</small></a>
 							<br><br>
 							<p><?php echo $l->t('Looking for the');?> <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>"><?php echo $l->t('Sources</a>?');?>
-							<p><?php echo $l->t('You can already find Nextcloud Desktop client packages included in openSUSE Tumbleweed, Archlinux and Fedora (<a href="https://copr.fedorainfracloud.org/coprs/tpokorra/nextcloud/">on Copr</a>). Not in the list? Ask your distribution for packages or contribute to creating them!');?></p>
+							<p><?php echo $l->t('You can already find Nextcloud Desktop client packages included in openSUSE Tumbleweed, Archlinux and Fedora (<a href="https://copr.fedorainfracloud.org/coprs/tpokorra/nextcloud/">on Copr</a>). A volunteer has <a href="http://repo.morph027.de/nextcloud-client.php">provided Debian/Ubuntu packages.</a> Can\'t find packages? Ask your distribution or contribute to creating them!');?></p>
 							<p><?php echo $l->t('Nextcloud is using WebDAV, so you can also try out any other client you want!');?></p>
 							<p><?php echo $l->t('Compatible third party clients include:');?></p>
 							<ul>
