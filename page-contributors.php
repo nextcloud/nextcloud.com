@@ -2,7 +2,7 @@
 <div class="sub-nav">
 	<a href="/about"><?php echo $l->t('About Nextcloud');?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/team"><?php echo $l->t('Nextcloud GmbH team');?></a>
 </div>
-<p><?php echo $l->t('An open source project is its contributors. Over 1000 people have code in Nextcloud while about a 10th of those are part of our github project, meaning they have direct access to the code, working with it following our development process. Besides coders, there are designers, Nextcloud advocates, translators, forum admins and many others who are part of our awesome community. Below you see many, but not all of our awesome members, in random order. If you want to be listed just <a href="https://github.com/orgs/nextcloud/people">set yourself as public in our github repo on.</a>');?></p>
+<p><?php echo $l->t('An open source project is its contributors. Over 1000 people have code in Nextcloud while about a 10th of those are part of our GitHub organization, meaning they have direct access to the code, working with it following our development process. Besides coders, there are designers, Nextcloud advocates, translators, forum admins and many others who are part of our awesome community. Below you see many, but not all of our awesome members, in random order. If you want to be listed just <a href="https://github.com/orgs/nextcloud/people">set yourself as public in our GitHub organization.</a> If you want to take part in our community, <a href="https://nextcloud.com/contribute/">learn more about the different ways to contribute</a>');?></p>
 
 <!-- End main -->
 </div>
