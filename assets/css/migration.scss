@@ -8,4 +8,36 @@
 .migration-background {
   background-image: url("../img/enterprise/enterprise.jpg");
   background-position: bottom 0 right 0;
+  @media (max-width: $break-small) {
+	min-height: 750px !important; 
+	max-height: 900px !important;
+  }
+
+  .topquote {
+    position: absolute;
+    top: 50%;
+	left: 60%;
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+    h2 {
+		text-align: right;
+	}
+	
+	h3 {
+		color: white;
+	}
+    @media (max-width: $very-wide) {
+	  max-width: 390px;
+    }
+    @media (max-width: $navbar-breaksize) {
+		max-width: 95%;
+		top: 70%;
+		left: 10%;
+		h3 {
+			font-size: 18px;
+			text-align: left;
+		}
+    }
+  }
 }

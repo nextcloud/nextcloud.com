@@ -844,13 +844,13 @@
 * Scrolled navbar style
 */
 .nav {
-  padding-bottom: 70px; }
+  padding-bottom: 70px;
+  transition: all .2s ease-in; }
   @media (max-width: 992px) {
     .nav {
       padding-bottom: 20px; } }
   .nav.scrolled {
     position: fixed;
-    transition: all .2s ease-in;
     background: white;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09); }
     .nav.scrolled .navbar-toggle:not(.active) {
@@ -1374,6 +1374,32 @@ footer.page-footer {
 .migration-background {
   background-image: url("../img/enterprise/enterprise.jpg");
   background-position: bottom 0 right 0; }
+  @media (max-width: 768px) {
+    .migration-background {
+      min-height: 750px !important;
+      max-height: 900px !important; } }
+  .migration-background .topquote {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    margin: 0;
+    padding: 0;
+    max-width: 500px; }
+    .migration-background .topquote h2 {
+      text-align: right; }
+    .migration-background .topquote h3 {
+      color: white; }
+    @media (max-width: 1600px) {
+      .migration-background .topquote {
+        max-width: 390px; } }
+    @media (max-width: 1200px) {
+      .migration-background .topquote {
+        max-width: 95%;
+        top: 70%;
+        left: 10%; }
+        .migration-background .topquote h3 {
+          font-size: 18px;
+          text-align: left; } }
 
 /*Colors*/
 /*Shadows*/

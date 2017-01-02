@@ -5,10 +5,16 @@
 				<h1><?php echo $l->t('Migration Guide');?></h1>
 				<h2><?php echo $l->t('Nextcloud strives to make migration of customers from ownCloud™ as seamless as possible. Due to the large technical overlap, the migration of the application is easy. Business processes are equally easily updated.');?></h2>
 			</div>
+			<div class="col-md-6 topquote">
+				<h3><?php echo $l->t('"We require a truly scalable and 100% open source enterprise solution from a reliable partner so we decided to migrate our data.deic.dk service from ownCloud™ to Nextcloud 10"');?></h3>
+				<h2><a href="/pr20160929"><?php echo $l->t('-- Martin Bech, Head of NREN at DeIC');?></a></h2>
+			</div>
 		</div>
 	</div>
 </div>
 <div class="container">
+	<h2><?php echo $l->t('Why migrate');?></h2>
+	<p><?php echo $l->t('Nextcloud offers significant <a href="https://nextcloud.com/?p=1373">scalability</a>, <a href="https://nextcloud.com/?p=1334">security</a> and <a href="https://nextcloud.com/?p=1332">feature improvements</a> over ownCloud™ and our experienced support team has already helped almost a dozen customers migrate. Our customers appreciate expert help from a German, employee-owned company set up to provide a long term relationship between customers and business. Employing almost a dozen engineers with half a decade ownCloud™ experience, we are in the best position to support you in keeping your data secure and easily accessible to your employees.');?></p>
 	<h2><?php echo $l->t('Technical migration');?></h2>
 	<p><?php echo $l->t('Moving from ownCloud™ to Nextcloud follows the same process as a upgrade within either product. You can essentially follow our');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/manual_upgrade.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">usual upgrade documentation.</a>');?></p>
 
@@ -16,7 +22,7 @@
 	<ul>
 	<li><?php echo $l->t('Enable Maintenance Mode with the command line tool');?></li>
 	<li><?php echo $l->t('backup existing configuration and database');?></li>
-	<li><?php echo $l->t('delete the ownCloud code and extract the Nextcloud code');?></li>
+	<li><?php echo $l->t('delete the ownCloud™ code and extract the Nextcloud code');?></li>
 	<li><?php echo $l->t('copy back the configuration file');?></li>
 	<li><?php echo $l->t('start the upgrade process with the command line tool');?></li>
 	<li><?php echo $l->t('Disable Maintenance Mode');?></li>
