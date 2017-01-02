@@ -166,7 +166,7 @@
 					<a class="revealOnScroll" href="<?php echo home_url('news') ?>">more</a>
 				</div>
 				<div class="col-md-4">
-					<h3 class="revealOnScroll"><?php echo $l->t('Latest Twitter posts');?></h3>
+					<h3 class="revealOnScroll"><?php echo $l->t('Latest Tweets');?></h3>
 					<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,2); } ?></span></p>
 					<a class="revealOnScroll" href="https://twitter.com/nextclouders">more</a>
 				</div>
