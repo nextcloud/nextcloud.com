@@ -139,13 +139,13 @@
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market vertical.</div>Additional pricing tiers are available up to 10 million users');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Framework agreements available');?></li>
 				</div>
+				<a name="extracosts"></a> <!--has to be here due to header-->
 				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
 		</div>
 	</div>
 </div>
 <div class="container text-center">
-	<a name="extracosts"></a>
 	<p class="revealOnScroll epricevat"><?php echo $l->t('* At additional cost');?></p>
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Prices are in Euro per year and net/excl. VAT.');?></p>
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Android, Windows Mobile and desktop apps are free; iOS app can be purchased in the Apple App Store.');?></p>
