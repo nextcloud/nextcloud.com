@@ -142,7 +142,7 @@
                     </div>
                     <div class="container col-md-6 right-text-grey">
                         <h5><?php echo $l->t('Improved Federation');?></h5>
-                        <p><?php echo $l->t('Nextcloud 10 normalizes federated shares, handling mounted link shares as federated shares, offering the same permissions for federated shares as for normal shares and directly connecting re-shared federated shares to other servers for improved performance.');?></p>
+                        <p><?php echo $l->t('Nextcloud 11 normalizes federated shares, handling mounted link shares as federated shares, offering the same permissions for federated shares as for normal shares and directly connecting re-shared federated shares to other servers for improved performance.');?></p>
                         <br/>
                         <p>
                             <a class="button button--blue button--arrow button--large" href="/federation" role="button"><?php echo $l->t('Learn more');?></a>
