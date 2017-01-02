@@ -6,7 +6,7 @@
 			<h3><?php echo $l->t('Bringing Self Hosted Online Office to everybody');?></h3>
 		</div>
 		<p><?php echo $l->t('We\'re very excited to provide a solution for Online Office for the entire Nextcloud community through our <a target="_blank" href="https://nextcloud.com/?p=589">partnership with Collabora</a>. Together we are making available the latest and greatest of Online Office in an <strong>easy to use <a href="https://hub.docker.com/r/collabora/code">docker image</a> for home users</strong>.');?></p>
-		<p><?php echo $l->t('Enterprise users who need a more reliable and scalable solution can take advantage of our <a href="/enterprise">support contract for Nextcloud and Collabora Online</a>.');?></p>
+		<p><?php echo $l->t('Enterprise users who need a more reliable and scalable solution can take advantage of our <a href="/enterprise/buy">support contract for Nextcloud and Collabora Online</a>.');?></p>  -> change to be clear you pay extra
 		<p><?php echo $l->t('If you\'re looking for instructions to update to a new version, <a href="#update">see here.</a>');?></p>
 	</div>
 </div>

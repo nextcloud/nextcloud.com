@@ -247,7 +247,7 @@
 				</ul></li>
 				<li><?php echo $l->t('Same-Site Cookies');?>
 				<ul>
-					<p><?php echo $l->t('Same-Site cookies are a security measure supported by modern browsers that prevent CSRF vulnerabilities and protect your privacy further. Nextcloud enforces the same-site cookies to be present on every request by enforcing this within the request middleware.');?></p>
+					<p><?php echo $l->t('Same-Site cookies are a security measure supported by modern browsers that prevent CSRF vulnerabilities and protect your privacy further. Nextcloud enforces the same-site cookies to be present on every request by enforcing this within the request middle ware.');?></p>
 					<p><?php echo $l->t('We include the __Host prefix to the cookie (if supported by browser and server). This mitigates cookie injection vulnerabilities within potential third-party software sharing the same second level domain.');?></p>
 				</ul></li>
 			</ul>
@@ -263,15 +263,15 @@
 		</div>
 		<div class="col-md-7">
 			<h2><?php echo $l->t('Encryption');?></h2>
-			<p><?php echo $l->t('Nextcloud employs industry-standard TLS to encrypt data in transfer. On the server, admins can enable server side encryption for extra protection.');?></p>
-			<p><?php echo $l->t('Server side encryption protects files on the Nextcloud server or external storage from being seen by third parties. As files are encrypted and decrypted on the Nextcloud server, this does not protect from malicious system administrators or a compromised server but it provides an additional layer of protection for cases when server hardware gets stolen.');?></p>
+			<p><?php echo $l->t('Nextcloud employs industry-standard TLS to encrypt data in transfer. Usage of Object Storage like Amazon S3 or other external storage systems can be secured through Server Side Encryption.');?></p>
+			<p><?php echo $l->t('Server Side Encryption can also be used on local storage. However, inherent to the concept of server side encryption, encryption keys will be present in memory of the Nextcloud server during the time a user is logged in and could be retrieved by a determined attacker. We take care to ensure keys are not stored unencrypted on permanent storage and at rest keys are encrypted using a strong cipher.');?></p>
 		</div>
 	</div>
 	<div class="row revealOnScroll">
 		<div class="col-md-7">
-			<p><?php echo $l->t('Encryption is particularly useful when used in combination with external storage as the third party storage system will never see unencrypted files.');?></p>
 			<p><?php echo $l->t('Nextcloud supports pluggable encryption key handling. If you have an external key server, this can be made to work with Nextcloud.');?></p>
-			<p><?php echo $l->t('Administrators can set a system wide recovery key for encrypted files. This ensures that, even when users lose their password, files can always be decrypted. Encrypted files can be shared but after changing encryption settings, shares will have to be re-shared.');?></p>
+			<p><?php echo $l->t('Our default encryption key handling enables administrators to set a system wide recovery key for encrypted files. This ensures that, even when users lose their password, files can always be decrypted. Encrypted files can be shared but after changing encryption settings, shares will have to be re-shared. Using our command line tools, data can be encrypted, decrypted or re-encrypted when needed.');?></p>
+			<p><?php echo $l->t('If you face a regulatory or compliance need to encrypt data at rest but do not need to actually secure this data, locally encrypting data using our built in key management may satisfy compliance requirements.');?></p>
 			<p><?php echo $l->t('Learn how to use server side encryption in our');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_files/encryption_configuration.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Server Side Encryption Configuration">documentation</a>');?></p>
 		</div>
 		<div class="col-md-5">
