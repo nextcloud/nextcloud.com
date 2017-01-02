@@ -6,7 +6,7 @@
 				<h2><?php echo $l->t('Nextcloud strives to make migration of customers from ownCloud™ as seamless as possible. Due to the large technical overlap, the migration of the application is easy. Business processes are equally easily updated.');?></h2>
 			</div>
 			<div class="col-md-6 topquote">
-				<h3><?php echo $l->t('"We require a truly scalable and 100% open source enterprise solution from a reliable partner so we decided to migrate our data.deic.dk service from ownCloud™ to Nextcloud 10"');?></h3>
+				<h3><?php echo $l->t('<span class="big">"</span>We require a <span class="big">truly scalable</span> and 100% open source enterprise solution from a <span class="big">reliable partner</span> so we decided to <span class="big">migrate from ownCloud™ to Nextcloud"</span>');?></h3>
 				<h2><a href="/pr20160929"><?php echo $l->t('-- Martin Bech, Head of NREN at DeIC');?></a></h2>
 			</div>
 		</div>
@@ -14,7 +14,10 @@
 </div>
 <div class="container">
 	<h2><?php echo $l->t('Why migrate');?></h2>
-	<p><?php echo $l->t('Nextcloud offers significant <a href="https://nextcloud.com/?p=1373">scalability</a>, <a href="https://nextcloud.com/?p=1334">security</a> and <a href="https://nextcloud.com/?p=1332">feature improvements</a> over ownCloud™ and our experienced support team has already helped almost a dozen customers migrate. Our customers appreciate expert help from a German, employee-owned company set up to provide a long term relationship between customers and business. Employing almost a dozen engineers with half a decade ownCloud™ experience, we are in the best position to support you in keeping your data secure and easily accessible to your employees.');?></p>
+	<p><?php echo $l->t('Nextcloud offers significant <a href="https://nextcloud.com/?p=1373">scalability</a>, <a href="https://nextcloud.com/?p=1334">security</a> and <a href="https://nextcloud.com/?p=1332">feature improvements</a> over ownCloud™ and our experienced support team has already helped almost a dozen customers migrate. Our customers appreciate expert help from a German, employee-owned company set up to provide a long term relationship between customers and business.');?></p>
+	<p><?php echo $l->t('As <a href="http://blogs.gartner.com/brian_prentice/2010/03/31/open-core-the-emperors-new-clothes/">Gartner points out,</a> the freemium-like <em>\'open core\'</em> model ownCloudt™ employs offers customers no value over proprietary solutions. Nextcloud is fully licensed under the AGPL, giving you <a href="https://nextcloud.com/blog/why-the-agpl-is-great-for-business-users/">all the benefits of open source</a> and avoiding any risk of mixing a proprietary enterprise edition with open source components.');?></p>
+	<p><?php echo $l->t('First rate support as well as <a href="https://nextcloud.com/?p=1222">healthy development</a> happening in public are key to our offering. Employing over a dozen former ownCloud™ engineers as well as many other experienced software developers, we are in the best position to support you in keeping your data secure and easily accessible to your employees.');?></p>
+	
 	<h2><?php echo $l->t('Technical migration');?></h2>
 	<p><?php echo $l->t('Moving from ownCloud™ to Nextcloud follows the same process as a upgrade within either product. You can essentially follow our');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/manual_upgrade.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">usual upgrade documentation.</a>');?></p>
 
@@ -27,6 +30,7 @@
 	<li><?php echo $l->t('start the upgrade process with the command line tool');?></li>
 	<li><?php echo $l->t('Disable Maintenance Mode');?></li>
 	</ul>
+	<p><?php echo $l->t('An even easier way using our new updater is <a href="https://nextcloud.com/blog/get-up-to-date-with-the-new-nextcloud-updater/">detailed in this blog post.</a>');?></p>
 	<p><?php echo $l->t('Find more details in');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/manual_upgrade.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">our documentation.</a>');?></p>
 
 	<p><?php echo $l->t('Note that, as ownCloud™ does not support skipping releases, upgrades have to go through all releases between the existing ownCloud™ release and the desired Nextcloud release. We will support upgrades from ownCloud™ 8.2 and onwards. If you are on a older release, <a href="mailto:support@nextcloud.com">contact our support team</a> or');?> <a href="<?php echo home_url('contact') ?>"><?php echo $l->t('ask sales for an offer.</a>');?></p>

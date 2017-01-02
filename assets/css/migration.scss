@@ -9,7 +9,7 @@
   background-image: url("../img/enterprise/enterprise.jpg");
   background-position: bottom 0 right 0;
   @media (max-width: $break-small) {
-	min-height: 750px !important; 
+	min-height: 775px !important; 
 	max-height: 900px !important;
   }
 
@@ -47,6 +47,11 @@
 		color: white;
 		font-size: 18px;
 		text-align: left;
+		.big {
+			font-size: 28px;
+			font-weight: 100;
+		}
 	}
+
 	}
 }

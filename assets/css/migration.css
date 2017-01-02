@@ -14,7 +14,7 @@
   background-position: bottom 0 right 0; }
   @media (max-width: 768px) {
     .migration-background {
-      min-height: 750px !important;
+      min-height: 775px !important;
       max-height: 900px !important; } }
   .migration-background .topquote {
     position: absolute;
@@ -44,5 +44,8 @@
       color: white;
       font-size: 18px;
       text-align: left; }
+      .migration-background .topquote h3 .big {
+        font-size: 28px;
+        font-weight: 100; }
 
 /*# sourceMappingURL=migration.css.map */
