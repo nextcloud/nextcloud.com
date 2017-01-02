@@ -99,7 +99,7 @@
                     </div>
                     <div class="container col-md-6 right-text-grey">
                         <h5><?php echo $l->t('Faster and more reliable operation at scale');?></h5>
-                        <p><?php echo $l->t('Nextcloud 10 introduces the Server Information app which provides a way for admins to monitor the health and performance of a Nextcloud system through a graphical UI or in their enterprise monitoring tool.');?></p>
+                        <p><?php echo $l->t('Nextcloud 11 introduces the Server Information app which provides a way for admins to monitor the health and performance of a Nextcloud system through a graphical UI or in their enterprise monitoring tool.');?></p>
                         <br/>
                         <p>
                             <a class="button button--blue button--arrow button--large" href="/workflow/#monitoring" role="button"><?php echo $l->t('Learn more');?></a>
@@ -118,7 +118,7 @@
                     </div>
                     <div class="container col-md-6 right-text-grey">
                         <h5><?php echo $l->t('Authentication and security');?></h5>
-                        <p><?php echo $l->t('Nextcloud 10 delivers security improvements in several areas. Plugin based Two Factor
+                        <p><?php echo $l->t('Nextcloud 11 delivers security improvements in several areas. Plugin based Two Factor
                             Authentication enables an optional extra layer of protection for logins, brute force
                             protection makes it harder for attackers to guess passwords and session management is
                             introduced to enable administrators and users to monitor and invalidate active sessions.
