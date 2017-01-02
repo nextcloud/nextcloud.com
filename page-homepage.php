@@ -6,10 +6,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<!--<a class="annoucement" href="#">
+				<a class="annoucement" href="https://nextcloud.com/blog/nextcloud-11-sets-new-standard-for-security-and-scalability/">
 				<span class="type">Fresh</span>
-				<span class="message"><strong>Nextcloud 11 has just arrive.</strong> Take a look at the new features</span>
-				</a>-->
+				<span class="message"><strong>Nextcloud 11 has arrived.</strong> Take a look at the new features</span>
+				</a>
 				<h1><?php echo $l->t('A safe home for <br> all your data');?></h1>
 				<h2><?php echo $l->t('Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.');?></h2>
 				<a class="button button--large button--arrow" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Get Nextcloud</a>');?>
@@ -79,11 +79,11 @@
                         <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-10.png">
                     </div>
                     <div class="container col-md-6 right-text-grey" style="opacity: 1; padding-top: 50px;">
-                        <h5><?php echo $l->t('Secure, Fine Grained Control over Data Access and Workflows');?></h5>
-                        <p><?php echo $l->t('This release delivers better scalability as well as monitoring, security and workflow management tools, enabling better control over Nextcloud servers and operation at scale.');?></p>
+                        <h5><?php echo $l->t('A new standard for security and scalability');?></h5>
+                        <p><?php echo $l->t('This release delivers better scalability as well as a new app store, enhanced security, a new level of federation and many improvements into user interface and experience.');?></p>
                         <br/>
                         <p>
-                            <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/secure-monitor-and-control-your-data-with-nextcloud-10-get-it-now/" role="button"><?php echo $l->t('Learn more');?></a>
+                            <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-11-sets-new-standard-for-security-and-scalability/" role="button"><?php echo $l->t('Learn more');?></a>
                         </p>
                     </div>
                 </div>
