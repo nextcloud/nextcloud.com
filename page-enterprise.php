@@ -15,7 +15,12 @@
 <section class="what-you-get-section">
 	<div class="container">
 		<h2 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('What you will get');?></h2>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Your Nextcloud subscription enables you to successfully deploy and manage your Nextcloud instances, complimenting your IT resources and increasing the efficiency and reliability of your service. Our open approach gives you direct access to technical expertise of the top Nextcloud engineers, the latest knowledge and best practices. Pro-active security support helps you identify and address vulnerabilities and harden your servers to protect the safety and integrity of your data. Our multi-year life cycle support matches your OS and makes sure your business runs without disruptions.');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Your Nextcloud subscription enables you to successfully deploy and manage your Nextcloud instances, complimenting your IT resources and increasing the efficiency and reliability of your service.');?></p>
+		<ul>
+			<li class="check"><?php echo $l->t('Direct access to technical expertise of Nextcloud engineers, the latest knowledge and best practices.');?></li>
+			<li class="check"><?php echo $l->t('Pro-active security support to identify and address vulnerabilities and harden your servers, protecting the safety and integrity of your data.');?></li>
+			<li class="check"><?php echo $l->t('Multi-year life cycle support which matches your OS, making sure your business runs without disruptions.');?></li>
+		</ul>
 	</div>
 </section>
 
@@ -24,7 +29,7 @@
 		<p class="section--intro text-center revealOnScroll">Matter experts</p>
 		<h3 class="section--heading-1 text-center revealOnScroll">Dedicated to your success</h3>
 		<p class="section--intro text-center revealOnScroll">We are dedicated to your success as Nextcloud customer. An analysis of your needs, a pilot customized for your architecture and remote installation support ensures a smooth introduction of Nextcloud in your organization and we will help you scale up to meet growing demand in your organization.
-		Nextcloud GmbH employs 8 of the top-ten developers in the Nextcloud Server codebase, making our engineering team by far the most qualified to help you get the most out of your Enterprise File Sync and Share solution.</p>
+		Nextcloud GmbH employs <a href="https://nextcloud.com/blog/nextcloud-the-most-active-open-source-file-sync-and-share-project/">9 of the top-ten developers in the Nextcloud Server codebase</a>, making our engineering team by far the most qualified to help you get the most out of your Enterprise File Sync and Share solution.</p>
 	</div>
 </section>
 
@@ -43,13 +48,13 @@
 		<h3 class="section--heading-1 text-center revealOnScroll">For uninterupted service</h3>
 		<p class="section--intro text-center revealOnScroll">A Nextcloud support subscription gives you access to enterprise-ready software, updates, and information and support services that span your entire OS and application infrastructure life cycle and architecture. You can count on receiving the latest product versions with the stability and security you need.
 		Working with data is essential for your business and being forced on the upgrade threadmill is disruptive to your organization. With access to up to 15 years security and stability updates to Nextcloud, we match the lifecycle of your operating system so you can schedule upgrades when it works for you and secure the investments you did in your existing platform.</p>
-		<a class="button button--blue button--arrow button--large" href="">See pricing</a>
+		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/pricing">See pricing</a></p>
 	</div>
 </section>
 
 
 
-<!--<div class="faq container-fluid">
+<div class="faq container-fluid">
 	<h1 class="revealOnScroll"><?php echo $l->t('Frequently asked questions');?></h1>
 	<div class="container">
 		<div class="row">
@@ -134,4 +139,4 @@
 		</div>
 	</div>
 </div>
--->
+

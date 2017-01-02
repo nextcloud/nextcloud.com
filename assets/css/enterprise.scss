@@ -51,6 +51,23 @@
       max-width: ms(9);
       margin: 0 auto;
     }
+    ul {
+		max-width: ms(9);
+		margin: 0 auto;
+		margin-top: 40px;
+/* 		li { */
+		.check {
+			font-size: 22px;
+			font-weight: 300;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 2.0;
+			color: #555555;
+			list-style-image: url("../img/enterprise/check.svg");
+			list-style-position:inside;
+			}
+/* 		} */
+	}
   }
 }
 
@@ -584,8 +601,8 @@ border-radius: 6px;
     }
   }
 }
-
-FAQ section 
+*/
+/* FAQ section  */
 .faq {
   background: $nextcloud-blue;
   padding-bottom: 50px;
@@ -672,4 +689,4 @@ FAQ section
   top: 0px;
 }
 
-*/
+
