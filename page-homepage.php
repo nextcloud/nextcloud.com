@@ -63,7 +63,7 @@
 
 <section class="Section-Introducing-Nextcloud" id="pinContainer">
 <div >
-    <h2 class="text-center section-title revealOnScroll"><?php echo $l->t('Introducing Nextcloud 10');?></h2>
+    <h2 class="text-center section-title revealOnScroll"><?php echo $l->t('Introducing Nextcloud 11');?></h2>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
 		<li class="btn_carousel"></li>
