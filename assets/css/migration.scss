@@ -8,11 +8,17 @@
 .migration-background {
   background-image: url("../img/enterprise/enterprise.jpg");
   background-position: bottom 0 right 0;
-  @media (max-width: $break-small) {
-	min-height: 775px !important; 
-	max-height: 900px !important;
-  }
 
+  @media (max-width: $navbar-breaksize) {
+	min-height: 850px !important; 
+	max-height: 1000px !important;
+  }
+	.topheader {
+		@media (max-width: $break-small) {
+		top: 20% !important;
+		}
+	}
+	
   .topquote {
     position: absolute;
     top: 50%;
@@ -27,11 +33,17 @@
     @media (max-width: $navbar-breaksize) {
 		max-width: 95%;
 		max-width: 500px;
-		top: 70%;
-		left: 8%;
+		top: 65%;
+		left: 28%;
 		margin-right: 5px;
     }
     
+    
+	@media (max-width: $break-small) {
+		top: 55%;
+		left: 8%;
+	}
+	
     h2 {
 		text-align: right;
 		a {

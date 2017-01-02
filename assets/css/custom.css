@@ -1375,10 +1375,13 @@ footer.page-footer {
 .migration-background {
   background-image: url("../img/enterprise/enterprise.jpg");
   background-position: bottom 0 right 0; }
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     .migration-background {
-      min-height: 775px !important;
-      max-height: 900px !important; } }
+      min-height: 850px !important;
+      max-height: 1000px !important; } }
+  @media (max-width: 768px) {
+    .migration-background .topheader {
+      top: 20% !important; } }
   .migration-background .topquote {
     position: absolute;
     top: 50%;
@@ -1393,9 +1396,13 @@ footer.page-footer {
       .migration-background .topquote {
         max-width: 95%;
         max-width: 500px;
-        top: 70%;
-        left: 8%;
+        top: 65%;
+        left: 28%;
         margin-right: 5px; } }
+    @media (max-width: 768px) {
+      .migration-background .topquote {
+        top: 55%;
+        left: 8%; } }
     .migration-background .topquote h2 {
       text-align: right; }
       .migration-background .topquote h2 a {
