@@ -70,9 +70,9 @@
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Support for the Calendar and Contacts apps.</div>Calendar and Contacts');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Support for our secure and private peer to peer audio and video conferencing.</div><a href="/webrtc" target="_blank">Secure WebRTC Conferencing</a>');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: allows web conferencing calls to connect with phone lines.</div>SIP gateway');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div><a href="/collaboraonline" target="_blank">Collabora Online Office</a>');?></li>
+					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Support for our secure and private peer to peer audio and video conferencing.</div><a href="/webrtc" target="_blank">Secure WebRTC Conferencing</a><a href="#extracosts">*</a>');?></li>
+					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: allows web conferencing calls to connect with phone lines.</div>SIP gateway<a href="#extracosts">*</a>');?></li>
+					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div><a href="/collaboraonline" target="_blank">Collabora Online Office</a><a href="#extracosts">*</a>');?></li>
 				</div>
 				<h1 class=""><?php echo $l->t('Support');?></h1>
 				<div class="line"></div>
@@ -113,9 +113,9 @@
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Support for the Calendar and Contacts apps.</div>Calendar and Contacts');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: Support for our secure and private peer to peer audio and video conferencing.</div><a href="/webrtc" target="_blank">Secure WebRTC Conferencing</a>');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: Allows web conferencing calls to connect with phone lines.</div>SIP gateway');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div><a href="/collaboraonline" target="_blank">Collabora Online Office</a>');?></li>
+					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: Support for our secure and private peer to peer audio and video conferencing.</div><a href="/webrtc" target="_blank">Secure WebRTC Conferencing</a><a href="#extracosts">*</a>');?></li>
+					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: Allows web conferencing calls to connect with phone lines.</div>SIP gateway<a href="#extracosts">*</a>');?></li>
+					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div><a href="/collaboraonline" target="_blank">Collabora Online Office</a><a href="#extracosts">*</a>');?></li>
 				</div>
 				<h1 class=""><?php echo $l->t('Support');?></h1>
 				<div class="line"></div>
@@ -145,6 +145,8 @@
 	</div>
 </div>
 <div class="container text-center">
+	<a name="extracosts"></a>
+	<p class="revealOnScroll epricevat"><?php echo $l->t('* At additional cost');?></p>
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Prices are in Euro per year and net/excl. VAT.');?></p>
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Android, Windows Mobile and desktop apps are free; iOS app can be purchased in the Apple App Store.');?></p>
 	<p class="revealOnScroll"><?php echo $l->t('<small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small>');?></p>
