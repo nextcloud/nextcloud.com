@@ -18,7 +18,7 @@
 			<p class=""><?php echo $l->t('Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your data center, at home or at one of our <a href="/providers">providers</a>. Through Nextcloud you also access, sync and share your existing data on that FTP drive at the office, dropbox or a NAS you have at home.');?></p>
 			<p class=""><?php echo $l->t('A trusted solution giving you access to all data you care about in one convenient place!');?></p>
 			<div class="text-center morebuttondiv">
-				<a href="https://demo.nextcloud.com" class="btn btn-primary morebutton" target="_blank"><?php echo $l->t('Try it out now!');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+				<a href="https://nextcloud.com/install/" class="btn btn-primary morebutton" target="_blank"><?php echo $l->t('Try it out now!');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 			</div>
 		</div>
 	</div>
