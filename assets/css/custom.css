@@ -1385,21 +1385,27 @@ footer.page-footer {
     margin: 0;
     padding: 0;
     max-width: 500px; }
-    .migration-background .topquote h2 {
-      text-align: right; }
-    .migration-background .topquote h3 {
-      color: white; }
     @media (max-width: 1600px) {
       .migration-background .topquote {
         max-width: 390px; } }
     @media (max-width: 1200px) {
       .migration-background .topquote {
         max-width: 95%;
+        max-width: 500px;
         top: 70%;
-        left: 10%; }
-        .migration-background .topquote h3 {
-          font-size: 18px;
-          text-align: left; } }
+        left: 8%;
+        margin-right: 5px; } }
+    .migration-background .topquote h2 {
+      text-align: right; }
+      .migration-background .topquote h2 a {
+        color: white; }
+        .migration-background .topquote h2 a:hover {
+          text-decoration: underline;
+          color: white; }
+    .migration-background .topquote h3 {
+      color: white;
+      font-size: 18px;
+      text-align: left; }
 
 /*Colors*/
 /*Shadows*/
