@@ -23,12 +23,12 @@
 
 	<p><?php echo $l->t('The steps are as follows:');?></p>
 	<ul>
-	<li><?php echo $l->t('Enable Maintenance Mode with the command line tool');?></li>
-	<li><?php echo $l->t('backup existing configuration and database');?></li>
-	<li><?php echo $l->t('delete the ownCloud™ code and extract the Nextcloud code');?></li>
-	<li><?php echo $l->t('copy back the configuration file');?></li>
-	<li><?php echo $l->t('start the upgrade process with the command line tool');?></li>
-	<li><?php echo $l->t('Disable Maintenance Mode');?></li>
+	<li><?php echo $l->t('1. Enable Maintenance Mode with the command line tool');?></li>
+	<li><?php echo $l->t('2. Backup existing configuration and database');?></li>
+	<li><?php echo $l->t('3. Delete the ownCloud™ code and extract the Nextcloud code');?></li>
+	<li><?php echo $l->t('4. Copy back the configuration file');?></li>
+	<li><?php echo $l->t('5. Start the upgrade process with the command line tool');?></li>
+	<li><?php echo $l->t('6. Disable Maintenance Mode');?></li>
 	</ul>
 	<p><?php echo $l->t('An even easier way using our new updater is <a href="https://nextcloud.com/blog/get-up-to-date-with-the-new-nextcloud-updater/">detailed in this blog post.</a>');?></p>
 	<p><?php echo $l->t('Find more details in');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/manual_upgrade.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">our documentation.</a>');?></p>
