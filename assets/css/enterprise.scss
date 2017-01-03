@@ -76,13 +76,21 @@
   background: -o-linear-gradient(#fff 0%, #f6f6f6 150px);
   background: linear-gradient(#fff 0%, #f6f6f6 150px);
   
-  .container{
+  .container {
     padding-top: ms(5);
     padding-bottom: ms(5);
 
     .section--intro {
       max-width: ms(9);
       margin: 0 auto;
+    }
+
+    .expertise__ilustration {
+      background: url(../img/enterprise/ilustration_matterexperts.svg) no-repeat center/contain;
+      width: 878px;
+      height: 612px;
+      margin: 0 auto;
+      position: relative;
     }
   }
 }

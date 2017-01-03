@@ -1430,6 +1430,12 @@ footer.page-footer {
     .section--expertise .container .section--intro {
       max-width: 43.24878rem;
       margin: 0 auto; }
+    .section--expertise .container .expertise__ilustration {
+      background: url(../img/enterprise/ilustration_matterexperts.svg) no-repeat center/contain;
+      width: 878px;
+      height: 612px;
+      margin: 0 auto;
+      position: relative; }
 
 .section--security {
   background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
