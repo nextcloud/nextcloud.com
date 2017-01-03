@@ -40,6 +40,7 @@
 	<ul>
 		<li><?php echo $l->t('ownCloud™ 8.0.x -> ownCloud™ 8.1.x -> ownCloud™ 8.2.x -> Nextcloud 9.0.x -> Nextcloud 10.0.x');?></li>
 		<li><?php echo $l->t('ownCloud™ 8.2.x -> Nextcloud 9.0.x -> Nextcloud 10.0.x');?></li>
+		<li><?php echo $l->t('ownCloud™ 9.0.x -> Nextcloud 9.0.x -> Nextcloud 10.0.x');?></li>
 		<li><?php echo $l->t('ownCloud™ 9.1.x -> -> Nextcloud 10.0.x -> Nextcloud 11.0.x');?></li>
 	</ul>
 	<h2><?php echo $l->t('License Compliance');?></h2>
