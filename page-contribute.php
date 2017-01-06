@@ -10,7 +10,7 @@
 	<p><?php echo $l->t('We invite you to join our <a href="https://github.com/nextcloud" target="_blank">development efforts on GitHub</a>, the conversations on <a href="https://help.nextcloud.com" target="_blank">our forums</a> and our <a href="irc://#nextcloud-dev@freenode.net" target="_blank">IRC channel on freenode</a>, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. Interact with us on our <a href="/news">blogs and social media channels</a>, too!');?></p>
 	<p><?php echo $l->t('Do you want to get a certain <strong>improvement</strong> in Nextcloud? Did you find a <strong>problem</strong>?
 	Do you want to <strong>help</strong> translate, promote or document Nextcloud?');?></p>
-	<h2><?php echo $l->t('Become part of the <a href="/contributors/" target="_blank">Nextcloud Community</a> and help us liberate data across the globe!');?></h2>
+	<h1><?php echo $l->t('Become part of the <a href="/contributors/" target="_blank">Nextcloud Community</a> and help us liberate data across the globe!');?></h1>
 	<h2><?php echo $l->t('How to participate:');?></h2>
 	<div class="row">
 		<div class="col-md-6">
@@ -29,7 +29,7 @@
 			<h3><?php echo $l->t('<i class="fa-refresh"></i>&nbsp;&nbsp;Test Nextcloud');?></h3>
 			<p><?php echo $l->t('Testing upcoming Nextcloud Server releases is the best way of making sure the new release can do what you need it
 				to do. And of course, only if you report a problem to us we know about it and can fix it! If you have a bug to report,
-				find the <a href="https://github.com/nextcloud/server/blob/master/.github/CONTRIBUTING.md">issue submission guidelines here</a>.');?></p>
+				find the <a href="ownCloud vs Nextcloud">issue submission page</a>.');?></p>
 			<h3><?php echo $l->t('<i class="fa-pencil"></i>&nbsp;&nbsp;Design Nextcloud');?></h3>
 			<p><?php echo $l->t('Help out with Nextcloud user interaction design or graphic design! Get involved on <a href="design/">the design page</a>!');?></p>
 			<h3><?php echo $l->t('<i class="fa-money"></i>&nbsp;&nbsp;Support Nextcloud development with bounties');?></h3>
