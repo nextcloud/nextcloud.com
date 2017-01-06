@@ -16,7 +16,7 @@
 			<a class="youtube" id="sZpYXUD1ZVM" href="https://www.youtube.com/watch?v=sZpYXUD1ZVM" title="Collabora Online in Nextcloud">
 				<img class="img-responsive featureimg" src="https://img.youtube.com/vi/sZpYXUD1ZVM/hqdefault.jpg" title="Collabora Online in Nextcloud" />
 				<div class="yt-play-btn">
-					<i></i> 
+					<i></i>
 				</div>
 			</a>
 		</div>
@@ -26,7 +26,7 @@
 			<a class="youtube" id="8iuSFKVl-xQ" href="https://www.youtube.com/watch?v=8iuSFKVl-xQ" title="Editing public link sharesd">
 				<img class="img-responsive featureimg" src="https://img.youtube.com/vi/8iuSFKVl-xQ/hqdefault.jpg" title="Editing public link shares" />
 				<div class="yt-play-btn">
-					<i></i> 
+					<i></i>
 				</div>
 			</a>
 		</div>
@@ -95,7 +95,7 @@
 				<a class="youtube" id="MDc1bNxn3js" href="https://www.youtube.com/watch?v=MDc1bNxn3js" title="Collabora Online in Nextcloud">
 					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/MDc1bNxn3js/hqdefault.jpg" title="Collabora Online in Nextcloud tutorial" />
 					<div class="yt-play-btn">
-						<i></i> 
+						<i></i>
 					</div>
 				</a>
 			</div>
@@ -179,7 +179,7 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --re
 <p><?php echo $l->t('After configuring these do restart your apache using <code>/etc/init.d/apache2 restart</code>.');?></p>
 <h3><?php echo $l->t('3. Configure the app in Nextcloud');?></h3>
 <ol>
- 	<li><?php echo $l->t('Go to the Apps section and choose "Productivity"');?></li>
+ 	<li><?php echo $l->t('Go to the Apps section and choose "Office & text"');?></li>
  	<li><?php echo $l->t('Install the "Collabora Online app"');?></li>
  	<li><?php echo $l->t('Admin -&gt; Collabora Online -&gt; Specify the server you have setup before (e.g. "<a href="https://office.nextcloud.com/">https://office.nextcloud.com</a>")');?></li>
 </ol>
@@ -223,7 +223,7 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --re
 </ul>
 <p><?php echo $l->t('Find more questions and answers in the <a href="https://help.nextcloud.com/t/issue-installing-collabora-following-official-guide/1746/58">discussion thread on the forums</a>.');?></p>
 
-<h2><?php echo $l->t('Enjoy and let us know what you think <a href="https://help.nextcloud.com">on the forums</a>!');?></h2> 
+<h2><?php echo $l->t('Enjoy and let us know what you think <a href="https://help.nextcloud.com">on the forums</a>!');?></h2>
 
 
 <link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
