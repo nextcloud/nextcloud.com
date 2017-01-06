@@ -13,7 +13,7 @@
 	</div>
 </div>
 <div class="container">
-	<h2><?php echo $l->t('Why migrate');?></h2>
+	<h2><?php echo $l->t('Why migrate: ownCloud™ vs Nextcloud');?></h2>
 	<p><?php echo $l->t('Nextcloud offers significant <a href="https://nextcloud.com/?p=1373">scalability</a>, <a href="https://nextcloud.com/?p=1334">security</a> and <a href="https://nextcloud.com/?p=1332">feature improvements</a> over ownCloud™ and our experienced support team has already helped over a dozen customers migrate. Our customers appreciate expert help from a German, employee-owned company set up to provide a long term relationship between customers and business.');?></p>
 	<p><?php echo $l->t('Nextcloud is fully licensed under the AGPL, giving you <a href="https://nextcloud.com/blog/why-the-agpl-is-great-for-business-users/">all the benefits of open source</a> and avoiding any risk of mixing a proprietary enterprise edition with open source components.');?></p>
 	<p><?php echo $l->t('First rate support as well as <a href="https://nextcloud.com/?p=1222">healthy development</a> happening in public are key to our offering. Employing over a dozen former ownCloud™ engineers as well as many other experienced software developers, we are in the best position to support you in keeping your data secure and easily accessible to your employees.');?></p>
@@ -43,6 +43,16 @@
 		<li><?php echo $l->t('ownCloud™ 9.0.x -> Nextcloud 9.0.x -> Nextcloud 10.0.x');?></li>
 		<li><?php echo $l->t('ownCloud™ 9.1.x -> -> Nextcloud 10.0.x -> Nextcloud 11.0.x');?></li>
 	</ul>
+	<h2><?php echo $l->t('Settings');?></h2>
+	<p><?php echo $l->t('Nearly all ownCloud™ settings will be migrated to Nextcloud during the upgrade procedure. That means that internal and public (link) shares keep working, users keep their settings and you will retain app configuration, LDAP and external storage settings and more.');?></p>
+	<p><?php echo $l->t('Settings from proprietary extensions from ownCloud™ which have open source replacements in Nextcloud, however, will sometimes need to be reconfigured. The following apps have a Nextcloud equivalent but need re-configuration:');?></p>
+	<ul>
+		<li><?php echo $l->t('File Retention');?></li>
+		<li><?php echo $l->t('File Firewall');?></li>
+		<li><?php echo $l->t('File Automated Tagging');?></li>
+		<li><?php echo $l->t('Files Drop');?></li>
+	</ul>
+	<p><?php echo $l->t('The open source replacements of these apps in Nextcloud offer at least the same and typically more capabilities. Configuration settings not mentioned in this list will be carried over from ownCloud™ to Nextcloud during upgrade.');?>
 	<h2><?php echo $l->t('License Compliance');?></h2>
 	<p><?php echo $l->t('Nextcloud is licensed exclusively under the AGPL or less restrictive open source licenses, removing any risk of mixing incompatible licenses or other legal issues. If you have not made any changes to the code of ownCloud™ Server and did not develop custom ownCloud™ applications, you will not need to do anything to be in compliance with the open source licenses of Nextcloud. Note that theme changes or branding are unaffected by AGPL licensing. Find more information in our FAQ. Our sales team will be happy to <a href="');?><?php echo home_url('contact') ?>"><?php echo $l->t('answer any questions you have.</a>');?></p>
 
