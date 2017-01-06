@@ -20,9 +20,9 @@ $l = new L10N('footer');
             <h1  class="revealOnScroll"><?php echo($l->t('Resources')) ?></h1>
             <ul class="revealOnScroll">
                 <li><a href="<?php echo home_url('support') ?>"><?php echo($l->t('Support')) ?></a></li>
-                <li><a href="https://docs.nextcloud.com/server/10/admin_manual/"><?php echo $l->t('Admin manual') ?></a></li>
-                <li><a href="https://docs.nextcloud.com/server/10/user_manual/"><?php echo $l->t('User manual') ?></a></li>
-                <li><a href="https://docs.nextcloud.com/server/10/developer_manual/"><?php echo $l->t('Developer manual') ?></a></li>
+                <li><a href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Admin manual') ?></a></li>
+                <li><a href="<?php echo $DOCUMENTATION_USER; ?>"><?php echo $l->t('User manual') ?></a></li>
+                <li><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>"><?php echo $l->t('Developer manual') ?></a></li>
                 <li><a href="<?php echo home_url('security') ?>"><?php echo $l->t('Security') ?></a></li>
                 <li><a href="https://github.com/nextcloud"><?php echo $l->t('Code on GitHub') ?></a></li>
             </ul>
