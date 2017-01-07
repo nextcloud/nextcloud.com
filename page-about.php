@@ -5,19 +5,21 @@
 
 <p><?php echo $l->t('You should have full control over your data. We help you achieve that: a safe home for all your data. Secure, under your control and developed in an open, transparent and trustworthy way. <strong>We are Nextcloud</strong>.');?></p>
 
-<p><?php echo $l->t('Nextcloud, the next generation Enterprise File Sync & Share was started by ownCloud inventor <a href="https://karlitschek.de">Frank Karlitschek</a> to empower users to take back control over their data and communication. The company was founded as a spin-off from <a href="https://struktur.de" target="_blank">Struktur AG</a>, a leading web conferencing and financial planning software company since 1995, servicing customers like Deutsche Bank, Vodafone, BNP Paribas and many others. Nextcloud gives organizations fine-grained control over data access, facilitates file synchronization and sharing across devices, enables collaboration within and across organizational boundaries and lets users communicate through secure WebRTC audio and video conferencing.');?></p>
+<p><?php echo $l->t('Nextcloud, the next generation open source Enterprise File Sync and Share was started by ownCloud inventor <a href="https://karlitschek.de">Frank Karlitschek</a> and a dozen experienced engineers to empower users to take back control over their data and communication. The company was launched as a spin-off from <a href="https://struktur.de" target="_blank">Struktur AG</a>, a leading web conferencing and financial planning software company since 1995, servicing customers like Deutsche Bank, Vodafone, BNP Paribas and many others. Nextcloud gives organizations fine-grained control over data access, facilitates file synchronization and sharing across devices, enables collaboration within and across organizational boundaries and lets users communicate through secure audio and video conferencing.');?></p>
 
 <p><?php echo $l->t('See <a href="/features">our features page</a> for more information about what Nextcloud can do for you.');?></p>
 
 <h2><?php echo $l->t('User Focus');?></h2>
-<p><?php echo $l->t('At Nextcloud, we believe that a open, transparent development process and a clear focus on the needs of users and customers results in a better product.');?></p>
+<p><?php echo $l->t('At Nextcloud, we believe that an open, transparent development process and a clear focus on the needs of users and customers results in a better product.');?></p>
 
-<p><?php echo $l->t('By offering access to our engineers, customers get the best possible support while having an opportunity to participate in and benefit from the open source model. See <a href="/enterprise">our enterprise page</a> for more information about our Enterprise Support Subscriptions.');?></p>
+<p><?php echo $l->t('By having access to our engineers, customers get the best possible support while having an opportunity to participate in and benefit from the open source model. See <a href="/enterprise">our enterprise page</a> for more information about our Enterprise Support Subscriptions.');?></p>
 
 <p><?php echo $l->t('You can follow what we are up to <a href="/news">in our blogs</a> and join the <a href="https://help.nextcloud.com">conversations on our forums.</a>');?></p>
 
 <h2><?php echo $l->t('In the media');?></h2>
-<p><?php echo $l->t('Our launch has been covered in the media and we\'ve been interviewed, explaining the why, how and what behind our endeavor. Watch and read these to learn more!');?></p>
+<p><?php echo $l->t('Our launch has been covered extensively in the media and we\'ve been interviewed, explaining the why, how and what behind our endeavor. In short, most of the engineering team left ownCloud because we believed a better solution was possible for users, customers and fellow contributors. We see a business as a part of the ecosystem around an open source project, not owner of it. If it fails to play a healthy role, it is time to start fresh. This is what makes open source better for customers, protecting them from vendor lock-in. Subsequent events, including Nextcloud becoming the <a href="https://nextcloud.com/?p=1222">most active open source file sync and share project</a> backed by our <a href="https://nextcloud.com/?p=1343">healthy, profitable business</a> and the <a href="https://nextcloud.com/blog/join-our-hackathon-january-23-27/">hugely positive response to our Nextcloud 11 release</a>, have proven us right.');?></p>
+
+<p><?php echo $l->t('Watch the videos and interviews below to learn more about what happened.');?></p>
 <div class="row yt-row">
 	<div class="col-md-4 yt-img-overlay">
 		<a class="youtube" id="iMfokaX2r8g" href="https://www.youtube.com/watch?v=iMfokaX2r8g" target="_blank" title="Interview by Bryan Lunduke">
