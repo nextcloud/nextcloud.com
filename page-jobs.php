@@ -321,6 +321,36 @@
 			</ul>
 			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 		</div>
+			<a href="#qa" data-toggle="collapse"><h3 class="jobs">QA engineer<span class="icon-arrow"></span></h3></a>
+		<div id="qa" class="collapse">
+			<p>We're looking for an engineer who can help us test and make Nextcloud rock stable!</p>
+			<p>You would work with the engineering team to make sure Nextcloud is stable and well tested, developing and maintaining test plans, executing them and working with others to improve the automated and manual testing processes. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
+			<p>Responsibilities:</p>
+			<ul>
+				<li>Taking ownership of the Nextcloud testing/QA process</li>
+				<li>Working with the Engineering team on testing and guiding community testing</li>
+				<li>Proactively identifying areas that need more/better testing</li>
+				<li>Testing, improving automated and manual testing infrastructure</li>
+			</ul>
+			<p>Required skills:</p>
+			<ul>
+				<li>Experience managing and executing QA plans</li>
+				<li>Knowledge about Linux and basic PHP knowledge</li>
+				<li>Experience with the LAMP stack</li>
+				<li>Teamworking capabilities</li>
+				<li>Independence and self-reliance.</li>
+				<li>Knowledge around open source technology</li>
+			</ul>
+			<p>What we offer:</p>
+			<ul>
+				<li>A distributed, open team with a passion for working on and within the open source community</li>
+				<li>Working on a product which pushes the boundaries of technology and with a global user and contributor community</li>
+				<li>A competitive salary</li>
+				<li>Flexibility for a healthy work-life balance</li>
+				<li>Time for personal growth and education</li>
+			</ul>
+			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+		</div>
 		<h3 class="jobs">And more</h3>
 		<div>
 			<p>We are always looking for talented new people in all areas of our business--from engineering and support to sales and marketing. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> and tell us how you can help!</p>
