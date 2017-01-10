@@ -17,16 +17,60 @@
 <p><?php echo $l->t('You can follow what we are up to <a href="/news">in our blogs</a> and join the <a href="https://help.nextcloud.com">conversations on our forums.</a>');?></p>
 
 <h2><?php echo $l->t('In the media');?></h2>
-<p><?php echo $l->t('Our launch has been covered extensively in the media and we\'ve been interviewed, explaining the why, how and what behind our endeavor. In short, most of the engineering team left ownCloud because we believed a better solution was possible for users, customers and fellow contributors. We see a business as a part of the ecosystem around an open source project, not owner of it. If it fails to play a healthy role, it is time to start fresh. This is what makes open source better for customers, protecting them from vendor lock-in. Subsequent events, including Nextcloud becoming the <a href="https://nextcloud.com/?p=1222">most active open source file sync and share project</a> backed by our <a href="https://nextcloud.com/?p=1343">healthy, profitable business</a> and the <a href="https://nextcloud.com/blog/join-our-hackathon-january-23-27/">hugely positive response to our Nextcloud 11 release</a>, have proven us right.');?></p>
+<p><?php echo $l->t('Our launch has been covered extensively in the media and we\'ve been interviewed, explaining the why, how and what behind our endeavor. In short, most of the engineering team left ownCloud because we believed a better solution was possible for users, customers and fellow contributors. We see a business as an important part of the open source ecosystem around a project. Its role is to act as a catalyst, enabling individuals and businesses to grow and participate. It is in the nature of open source that a company failing to play this role can be replaced, protecting customers from vendor lock-in.');?></p>
+
+<p><?php echo $l->t('Subsequent events, including Nextcloud becoming the <a href="https://nextcloud.com/?p=1222">most active open source file sync and share project</a> backed by our <a href="https://nextcloud.com/?p=1343">healthy, profitable business</a> and the <a href="https://nextcloud.com/blog/join-our-hackathon-january-23-27/">hugely positive response to our Nextcloud 11 release</a>, have proven us right.');?></p>
 
 <p><?php echo $l->t('Watch the videos and interviews below to learn more about what happened.');?></p>
 <div class="row yt-row">
 	<div class="col-md-4 yt-img-overlay">
-		<a class="youtube" id="iMfokaX2r8g" href="https://www.youtube.com/watch?v=iMfokaX2r8g" target="_blank" title="Interview by Bryan Lunduke">
-		<img  src="https://img.youtube.com/vi/iMfokaX2r8g/hqdefault.jpg" title="Interview by Bryan Lunduke" />
-		<div class="yt-play-btn">
-						<i></i> 
-					</div>
+		<a href="http://www.techrepublic.com/article/nextcloud-11-cloud-server-an-impressive-security-focused-update/" target="_blank" title="Techrepublic on Nextcloud 11">
+		<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/techrepublic.png" title="Techrepublic on Nextcloud 11"/>
+		</a>
+    </div>
+	<div class="col-md-4 yt-img-overlay">
+		<a href="http://www.cio.com/article/3150864/open-source-tools/nextcloud-is-the-open-source-answer-to-mass-surveillance.html" target="_blank" title="CIO on Nextcloud 11">
+		<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/cio-on-11.png" title="CIO on Nextcloud 11"/>
+		</a>
+    </div>
+	<div class="col-md-4 yt-img-overlay">
+		<a href="http://www.zdnet.com/article/nextcloud-adds-security-and-scalability-to-its-private-cloud-offering/" target="_blank" title="ZDNet on Nextcloud 11">
+		<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/zdnet-on-11.png" title="ZDNet on Nextcloud 11"/>
+		</a>
+    </div>
+    <div class="col-md-4 yt-img-overlay">
+		<a href="http://www.eweek.com/cloud/nextcloud-improves-security-adds-enterprise-support.html" target="_blank" title="eWeek on the fork">
+		<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/eweek.png" title="eWeek on the fork"/>
+		</a>
+    </div>
+	<div class="col-md-4 yt-img-overlay">
+		<a href="http://www.zdnet.com/article/nextcloud-releases-owncloud-fork-ahead-of-schedule/" target="_blank" title="ZDNet on the fork">
+		<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/ZDNet.png" title="ZDNet on the fork"/>
+		</a>
+    </div>
+	<div class="col-md-4 yt-img-overlay">
+		<a href="http://thenewstack.io/story-behind-nextcloud/" target="_blank" title="TheNewStack on the fork">
+		<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/thenewstack.png" title="TheNewStack on the fork"/>
+		</a>
+    </div>
+    <div class="col-md-4 yt-img-overlay">
+		<a href="http://fortune.com/2016/06/03/what-happened-to-owncloud/" title="Fortune on the fork">
+		<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/fortune.png" target="_blank" title="Fortune on the fork"/>
+		</a>
+    </div>
+    <div class="col-md-4 yt-img-overlay">
+		<a href="http://www.cio.com/article/3079866/open-source-tools/what-we-can-learn-from-ownclouds-collapse.html" target="_blank" title="CIO on the fork">
+		<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/cio_logo.png" title="CIO on the fork"/>
+		</a>
+    </div>
+	<div class="col-md-4 yt-img-overlay">
+		<a href="http://www.theregister.co.uk/2016/07/28/open_source_insider_open_source_forkery/" target="_blank" title="Fork You - the Register analysis">
+		<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/TheRegister.png" title="Fork You - the Register analysis"/>
+		</a>
+    </div>
+	<div class="col-md-4 yt-img-overlay">
+		<a href="https://www.radiotux.de/index.php?/archives/8015-RadioTux-Sendung-Juni-2016.html" target="_blank" title="RadioTux interview (German)">
+		<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/radiotux.png" title="Radio Tux interview"/>
 		</a>
     </div>
 	<div class="col-md-4 yt-img-overlay">
@@ -46,38 +90,11 @@
 		</a>
     </div>
 	<div class="col-md-4 yt-img-overlay">
-		<a href="http://www.zdnet.com/article/nextcloud-releases-owncloud-fork-ahead-of-schedule/" target="_blank" title="ZDNet on the fork">
-		<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/ZDNet.png" title="ZDNet on the fork"/>
-		</a>
-    </div>
-    <div class="col-md-4 yt-img-overlay">
-		<a href="http://fortune.com/2016/06/03/what-happened-to-owncloud/" title="Fortune on the fork">
-		<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/fortune.png" target="_blank" title="Fortune on the fork"/>
-		</a>
-    </div>
-	<div class="col-md-4 yt-img-overlay">
-		<a href="http://thenewstack.io/story-behind-nextcloud/" target="_blank" title="TheNewStack on the fork">
-		<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/thenewstack.png" title="TheNewStack on the fork"/>
-		</a>
-    </div>
-    <div class="col-md-4 yt-img-overlay">
-		<a href="http://www.eweek.com/cloud/nextcloud-improves-security-adds-enterprise-support.html" target="_blank" title="eWeek on the fork">
-		<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/eweek.png" title="eWeek on the fork"/>
-		</a>
-    </div>
-    <div class="col-md-4 yt-img-overlay">
-		<a href="http://www.cio.com/article/3079866/open-source-tools/what-we-can-learn-from-ownclouds-collapse.html" target="_blank" title="CIO on the fork">
-		<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/cio_logo.png" title="CIO on the fork"/>
-		</a>
-    </div>
-	<div class="col-md-4 yt-img-overlay">
-		<a href="http://www.theregister.co.uk/2016/07/28/open_source_insider_open_source_forkery/" target="_blank" title="Fork You - the Register analysis">
-		<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/TheRegister.png" title="Fork You - the Register analysis"/>
-		</a>
-    </div>
-	<div class="col-md-4 yt-img-overlay">
-		<a href="https://www.radiotux.de/index.php?/archives/8015-RadioTux-Sendung-Juni-2016.html" target="_blank" title="RadioTux interview (German)">
-		<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/radiotux.png" title="Radio Tux interview"/>
+		<a class="youtube" id="iMfokaX2r8g" href="https://www.youtube.com/watch?v=iMfokaX2r8g" target="_blank" title="Interview by Bryan Lunduke">
+		<img  src="https://img.youtube.com/vi/iMfokaX2r8g/hqdefault.jpg" title="Interview by Bryan Lunduke" />
+		<div class="yt-play-btn">
+						<i></i> 
+					</div>
 		</a>
     </div>
 </div>
