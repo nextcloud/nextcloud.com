@@ -37,7 +37,51 @@
     overflow: hidden;
     zoom: 0.55;
   }
- }
+  .menu {
+	background: #fbfbfb;
+	height: 70px;
+	border-bottom: solid 1px #e4e4e4;
+	text-transform: uppercase;
+	vertical-align: middle;
+	.buttons {
+		font-weight: 600;
+		margin-top: 23px;
+		a {
+			padding-right: 10px;
+			color: gray;
+			&:focus {
+				text-decoration: none;
+				color: black;
+			}
+			&:hov
+			&:active {
+				text-decoration: none;
+				color: black;
+			}
+			&:hover {
+				text-decoration: none;
+				color: black;
+			}
+		}
+		.btn-primary {
+			float: right;
+			font-size: 14px;
+			padding: 8px 20px;
+			margin-left: 20px;
+			margin-top: -5px;
+			color: white;
+			&:hover {
+				text-decoration: none;
+				color: white;
+			}
+			&:before {
+				background: none;
+		}
+		}
+	}
+	
+   }
+}
 
 
 .what-you-get-section {

@@ -35,6 +35,40 @@
   float: right;
   overflow: hidden;
   zoom: 0.55; }
+.hero-section .menu {
+  background: #fbfbfb;
+  height: 70px;
+  border-bottom: solid 1px #e4e4e4;
+  text-transform: uppercase;
+  vertical-align: middle; }
+  .hero-section .menu .buttons {
+    font-weight: 600;
+    margin-top: 23px; }
+    .hero-section .menu .buttons a {
+      padding-right: 10px;
+      color: gray; }
+      .hero-section .menu .buttons a:focus {
+        text-decoration: none;
+        color: black; }
+      .hero-section .menu .buttons a:hov
+      .hero-section .menu .buttons a:active {
+        text-decoration: none;
+        color: black; }
+      .hero-section .menu .buttons a:hover {
+        text-decoration: none;
+        color: black; }
+    .hero-section .menu .buttons .btn-primary {
+      float: right;
+      font-size: 14px;
+      padding: 8px 20px;
+      margin-left: 20px;
+      margin-top: -5px;
+      color: white; }
+      .hero-section .menu .buttons .btn-primary:hover {
+        text-decoration: none;
+        color: white; }
+      .hero-section .menu .buttons .btn-primary:before {
+        background: none; }
 
 .what-you-get-section {
   background: -webkit-linear-gradient(top, #fff 0, #f6f6f6 150px);

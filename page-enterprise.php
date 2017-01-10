@@ -9,6 +9,15 @@
 			</div>
 		</div>
 	</div>
+	<div class="container-fluid menu">
+		<div class="container buttons">
+			<a href="#expertise">expertise</a>
+			<a href="#securit">security</a>
+			<a href="#lifecycle">lifecycle</a>
+			<a class="btn btn-primary" href="/pricing">see pricing</a>
+			<a class="btn btn-primary" href="/buy">get a quote</a>
+		</div>
+	</div>
 </section>
 
 
