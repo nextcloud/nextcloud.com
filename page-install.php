@@ -34,7 +34,7 @@
     <h3><i class="icon-globe"></i> <?php echo $l->t('Extend your cloud:');?></h3>
     <p><?php echo $l->t('Browse dozens of free apps and services you could use with your Nextcloud:');?></p>
      <div class="btn-group">
-        <a class="btn btn-default btn-lg" role="button" href="https://apps.nextcloud.com" target="_blank" rel="tooltip" title="App Store">App Store</a>
+        <a class="btn btn-default btn-large" role="button" href="https://apps.nextcloud.com" target="_blank" rel="tooltip" title="App Store">App Store</a>
       </div>
   </div>
 </div>
