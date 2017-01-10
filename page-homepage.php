@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="annoucement" href="https://nextcloud.com/blog/nextcloud-11-sets-new-standard-for-security-and-scalability/">
+				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-11-sets-new-standard-for-security-and-scalability/">
 				<span class="type">Fresh</span>
 				<span class="message"><strong>Nextcloud 11 has arrived.</strong> Take a look at the new features</span>
 				</a>
@@ -52,6 +52,7 @@
 </section>
 
 <div class="container-fluid" id="perfect-for-home-and-business">
+		<div class="container">
 		<h2 class="revealOnScroll"><?php echo $l->t('Perfect for home and office');?></h2>
 		<p class="revealOnScroll"><?php echo $l->t('Access everything with the tools you are already using,
 			regardless of the device or platform you are on. Pictures,
@@ -59,6 +60,7 @@
 			available right where you need them whether they are
 			coming from your local storage or remote cloud services.');?></p>
 		<p><a class="button button--blue button--arrow button--large revealOnScroll" href="<?php echo home_url('features') ?>" role="button"><?php echo $l->t('Know all the features</a>');?></p>
+		</div>
 </div>
 
 <section class="Section-Introducing-Nextcloud" id="pinContainer">

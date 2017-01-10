@@ -4,7 +4,7 @@
  * Footer
  */
 footer.page-footer {
-	margin-top: 50px;
+/* 	margin-top: 50px; */
   background-color: #2a2a36;
 
   h1 {
@@ -26,7 +26,7 @@ footer.page-footer {
     line-height: 1.8;
     color: #ffffff;
     width: 140px;
-
+	  margin-top: 0;
     a {
       color: #ffffff;
       position: relative;
@@ -111,6 +111,7 @@ footer.page-footer {
       line-height: 1.8;
       color: #ffffff;
       width: 140px;
+	  margin-top: 0;
     }
   }
 }

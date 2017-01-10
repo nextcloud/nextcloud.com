@@ -86,7 +86,7 @@
       .jumbotron .toptext {
         top: 120px;
         margin-left: 5%; } }
-    .jumbotron .toptext .annoucement {
+    .jumbotron .toptext .announcement {
       background-color: rgba(0, 115, 178, 0.51);
       border-radius: 20px;
       padding: 0 12px 0 5px;
@@ -99,11 +99,11 @@
       -ms-flex-align: center;
       align-items: center; }
       @media (max-width: 768px) {
-        .jumbotron .toptext .annoucement {
+        .jumbotron .toptext .announcement {
           margin-left: -20px;
           width: calc(100% + 20px * 2);
           border-radius: 0; } }
-      .jumbotron .toptext .annoucement .type {
+      .jumbotron .toptext .announcement .type {
         padding: 0 6px;
         font-size: 11px;
         line-height: 16px;
@@ -112,17 +112,17 @@
         text-transform: uppercase;
         border-radius: 10px; }
         @media (max-width: 768px) {
-          .jumbotron .toptext .annoucement .type {
+          .jumbotron .toptext .announcement .type {
             margin-left: 10px; } }
-      .jumbotron .toptext .annoucement .message {
+      .jumbotron .toptext .announcement .message {
         margin: 0 16px 0 6px;
         font-size: 13px; }
         @media (max-width: 768px) {
-          .jumbotron .toptext .annoucement .message {
+          .jumbotron .toptext .announcement .message {
             font-size: 15px;
             line-height: 22px;
             margin: 10px 10px; } }
-        .jumbotron .toptext .annoucement .message:after {
+        .jumbotron .toptext .announcement .message:after {
           position: absolute;
           display: inline-block;
           content: ' ';
@@ -130,14 +130,14 @@
           background-size: 12px 12px;
           height: 12px;
           width: 12px;
-          top: 7px;
+          top: 10px;
           margin-left: 5px;
           transition: all 0.3s ease; }
           @media (max-width: 768px) {
-            .jumbotron .toptext .annoucement .message:after {
+            .jumbotron .toptext .announcement .message:after {
               position: relative;
               top: 2px; } }
-        .jumbotron .toptext .annoucement .message:hover:after {
+        .jumbotron .toptext .announcement .message:hover:after {
           margin-left: 10px; }
 
 .jumbotron > .container-fluid > .col-md-6 > p > a {
@@ -165,7 +165,7 @@
   font-weight: 100; }
 
 /**
- * Home page: Introducing Nextcloud 10
+ * Home page: Introducing Nextcloud X
  */
 .right-text-grey {
   opacity: 0;
@@ -245,7 +245,6 @@
         right: 20px;
         top: 2px; } }
   #perfect-for-home-and-business h2 {
-    margin-left: 5%;
     font-size: 60px;
     line-height: 0.9;
     color: #ffffff;
@@ -256,7 +255,6 @@
         font-size: 35px;
         line-height: 1.3; } }
   #perfect-for-home-and-business p {
-    margin-left: 5%;
     font-size: 18px;
     font-weight: 300;
     line-height: 1.6;
@@ -938,7 +936,7 @@
  * Footer
  */
 footer.page-footer {
-  margin-top: 50px;
+  /* 	margin-top: 50px; */
   background-color: #2a2a36; }
   footer.page-footer h1 {
     margin-top: 70px;
@@ -954,7 +952,8 @@ footer.page-footer {
     font-size: 15px;
     line-height: 1.8;
     color: #ffffff;
-    width: 140px; }
+    width: 140px;
+    margin-top: 0; }
     footer.page-footer li a {
       color: #ffffff;
       position: relative; }
@@ -1016,7 +1015,8 @@ footer.page-footer {
       font-size: 15px;
       line-height: 1.8;
       color: #ffffff;
-      width: 140px; } }
+      width: 140px;
+      margin-top: 0; } }
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
