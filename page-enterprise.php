@@ -48,6 +48,7 @@
 	<div class="container">
 		<p class="section--intro text-center revealOnScroll">Top notch security</p>
 		<h3 class="section--heading-1 text-center revealOnScroll">To keep your data safe</h3>
+		<div class="security__ilustration"></div>
 		<p class="section--intro text-center revealOnScroll">Nextcloud develops its software with a rigorous focus on security through the entire life cycle of the product. Our active and passive security measures are backed by the some of the highest security bug bounties in the open source industry.
 		As customer you get direct access to our security expertise, with hardening advice and ahead-of-release security issue mitigation and fixes.</p>
 	</div>

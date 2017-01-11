@@ -45,9 +45,8 @@ $(document).ready(function() {
 			this.pinFiltersBar();
 		},
 
-
 		pinFiltersBar: function() {
-			var controller = new ScrollMagic.Controller({addIndicators: true});
+			var controller = new ScrollMagic.Controller();
 			var scene = new ScrollMagic.Scene({
 				triggerElement: this.variables.menuAnchorSelector,
 				triggerHook:0,

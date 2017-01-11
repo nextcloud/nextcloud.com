@@ -41,29 +41,35 @@
 	background: #fbfbfb;
 	height: 70px;
 	border-bottom: solid 1px #e4e4e4;
+  border-top: solid 1px #e4e4e4;
 	text-transform: uppercase;
 	vertical-align: middle;
   z-index: 5;
+
 	.buttons {
 		font-weight: 600;
 		margin-top: 23px;
-		a {
+		
+    a {
 			padding-right: 10px;
 			color: gray;
-			&:focus {
+			
+      &:focus {
 				text-decoration: none;
 				color: black;
 			}
-			&:hov
-			&:active {
+
+			&:hov &:active {
 				text-decoration: none;
 				color: black;
 			}
+
 			&:hover {
 				text-decoration: none;
 				color: black;
 			}
 		}
+
 		.btn-primary {
 			float: right;
 			font-size: 14px;
@@ -71,16 +77,17 @@
 			margin-left: 20px;
 			margin-top: -5px;
 			color: white;
+
 			&:hover {
 				text-decoration: none;
 				color: white;
 			}
+
 			&:before {
 				background: none;
 		}
 		}
 	}
-	
    }
 }
 
@@ -154,6 +161,14 @@
       max-width: ms(9);
       margin: 0 auto;
     }
+
+    .security__ilustration {
+      background: url(../img/enterprise/security.svg) no-repeat center/contain;
+      width: 672px;
+      height: 640px;
+      margin: 0 auto;
+      position: relative;
+    }
   }
 }
 
@@ -173,10 +188,10 @@
 
     .lifecycle__ilustration {
       background: url(../img/enterprise/data_safe.svg) no-repeat center/contain;
-      margin-left: 248px; //This put the image on the visual center
-      width: 702px;
-      height: 730px;
+      width: 562px;
+      height: 660px;
       margin: 0 auto;
+      margin-left: 248px; //This put the image on the visual center
       position: relative;
     }
   }
