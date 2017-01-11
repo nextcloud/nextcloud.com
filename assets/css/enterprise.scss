@@ -44,10 +44,10 @@
 	background: #fbfbfb;
 	height: 70px;
 	border-bottom: solid 1px #e4e4e4;
-  border-top: solid 1px #e4e4e4;
+	border-top: solid 1px #e4e4e4;
 	text-transform: uppercase;
 	vertical-align: middle;
-  z-index: 5;
+	z-index: 5;
 
 	.buttons {
 		font-weight: 600;
@@ -200,92 +200,77 @@
   }
 }
 
+/* Features section */
+.Section-Features-Nextcloud {
+  background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
+  background: -o-linear-gradient(#fff 0%, #f6f6f6 150px);
+  background: linear-gradient(#fff 0%, #f6f6f6 150px);
+  overflow: hidden;
+  height: 200vh;
+  position: relative;
+	padding-top: ms(5);
+    padding-bottom: ms(5);
+  @media (max-width: $navbar-breaksize) {
+    padding-top: 60px;
+    height: 100vh;
+  }
 
-/* FAQ section  */
-.faq {
-  background: $nextcloud-blue;
-  padding-bottom: 50px;
+  h2{
+    font-size: 60px;
+  }
 
-  .container {
-    background: white;
-    margin-bottom: 90px;
-    padding-left: 0px;
-    padding-right: 0px;
+  .img_carousel {
+    padding-top: 100px;
+    position:relative;
+    @media (max-height: 800px) {
+      padding-top: 60px;
+    }
 
-    .row {
-      padding: 30px;
-      margin: 40px;
-      margin-right: 60px;
-      @media (max-width: $break-small) {
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-right: 30px;
+    img {
+      float: right;
+      width: 582px;
+      height: 474px;
+      @media (max-height: 800px) {
+        width: 490px;
+        height: 402px;
       }
     }
   }
+
+  .indicators {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    opacity: 1;
+    position: absolute;
+    z-index: 2;
+    bottom: 50vh;
+    right: 0;
+    @media (max-width: $break-small) {
+      display: none;
+    }
+
+    .btn_carousel{
+      margin-top: 10px;
+      width: 14px;
+      height: 14px;
+      color: transparent;
+      border: 1px solid $nextcloud-blue;
+      background-color: $nextcloud-blue;
+      border-radius: 50%;
+      padding: 0;
+      -webkit-transform: scale(.5);
+      -ms-transform: scale(.5);
+      transform: scale(.5);
+      -webkit-transition: all 250ms ease-in-out;
+      transition: all 250ms ease-in-out;
+    }
+
+    .btn_carousel.active{
+      background-color: transparent;
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+    }
+  }
 }
-
-.faq h3 {
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.45;
-  text-align: left;
-  color: #555555;
-}
-
-.faq h1 {
-  font-size: 60px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.88;
-  color: #ffffff;
-  margin-top: 100px;
-  margin-bottom: 80px;
-  text-align: center;
-
-}
-
-.faq p {
-  font-size: 18px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.61;
-  text-align: left;
-  color: #555555;
-}
-
-.faq .downarrow a {
-		color: #555555;
-}
-
-	
-.faq .downarrow a:hover {
-		text-decoration: none;
-}
-
-.faq .line {
-  width: 100%;
-  height: 1px;
-  border: solid 1px #eeeeee;
-}
-
-.downarrow {
-  position: relative;
-}
-
-.downarrow span.icon-arrow-down {
-  background: url(../img/arrow_down.svg) center/contain no-repeat;
-  position: absolute;
-  width: 25px;
-  height: 100%;
-  right: -30px;
-  top: 0px;
-}
-
 
