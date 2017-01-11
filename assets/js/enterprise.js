@@ -4,6 +4,7 @@ $(document).ready(function() {
         init: function() {
 
 			this.animationOnLoadPage();
+			this.smothScroll();
 
 			enquire.register('screen and (max-width: 480px)', {
 				//match: _.bind(this.resultsBindMobile, this) 
@@ -20,9 +21,24 @@ $(document).ready(function() {
 			menuAnchorSelector: "#menuAnchor"
 		},
 
-		animationOnLoadPage : function() {
+		animationOnLoadPage: function() {
 			$(this.variables.topHeaderSelector).velocity('transition.slideUpBigIn');
 			$(this.variables.heroSectionBackgroundSelector).velocity('transition.fadeIn', 1000);
+		},
+
+		smothScroll: function() {
+			$('a[href*="#"]:not([href="#"])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				if (target.length) {
+					$('html, body').animate({
+					scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+				}
+			});
 		},
 
 		enterpriseBindDesktop: function() {
