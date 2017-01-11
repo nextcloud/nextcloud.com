@@ -25,13 +25,8 @@
 
 <section class="what-you-get-section">
 	<div class="container">
-		<h2 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('What you will get');?></h2>
+		<h2 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('What we offer');?></h2>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Your Nextcloud subscription enables you to successfully deploy and manage your Nextcloud instances, complimenting your IT resources and increasing the efficiency and reliability of your service.');?></p>
-		<ul>
-			<li class="check"><?php echo $l->t('Direct access to technical expertise of Nextcloud engineers, the latest knowledge and best practices.');?></li>
-			<li class="check"><?php echo $l->t('Pro-active security support to identify and address vulnerabilities and harden your servers, protecting the safety and integrity of your data.');?></li>
-			<li class="check"><?php echo $l->t('Multi-year life cycle support which matches your OS, making sure your business runs without disruptions.');?></li>
-		</ul>
 	</div>
 </section>
 
