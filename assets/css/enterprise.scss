@@ -39,61 +39,6 @@
   }
 }
 
-.enterprise-menu {
-	  .menu {
-	background: #fbfbfb;
-	height: 70px;
-	border-bottom: solid 1px #e4e4e4;
-	border-top: solid 1px #e4e4e4;
-	text-transform: uppercase;
-	vertical-align: middle;
-	z-index: 5;
-
-	.buttons {
-		font-weight: 600;
-		margin-top: 23px;
-		
-    a {
-			padding-right: 10px;
-			color: gray;
-			
-      &:focus {
-				text-decoration: none;
-				color: black;
-			}
-
-			&:hov &:active {
-				text-decoration: none;
-				color: black;
-			}
-
-			&:hover {
-				text-decoration: none;
-				color: black;
-			}
-		}
-
-		.btn-primary {
-			float: right;
-			font-size: 14px;
-			padding: 8px 20px;
-			margin-left: 20px;
-			margin-top: -5px;
-			color: white;
-
-			&:hover {
-				text-decoration: none;
-				color: white;
-			}
-
-			&:before {
-				background: none;
-		}
-		}
-	}
-   }
-}
-
 .what-you-get-section {
     background: -webkit-linear-gradient(top, #fff 0, #f6f6f6 150px);
     background: linear-gradient(to bottom, #fff 0, #f6f6f6 150px);
