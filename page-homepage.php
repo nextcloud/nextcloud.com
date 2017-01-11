@@ -193,6 +193,7 @@
 
 
 <script>
+// this is needed for the features/capabilities carousel!
 	// Only make the scrolling effect for devices bigger than the 768px in width and 900px in height
 	if ($(window).width() > 768 && $(window).height() >= 900) {
 		var controller = new ScrollMagic.Controller();

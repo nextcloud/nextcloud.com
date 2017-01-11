@@ -148,76 +148,65 @@
       margin-left: 248px;
       position: relative; }
 
-/* FAQ section  */
-.faq {
-  background: #0082c9;
-  padding-bottom: 50px; }
-  .faq .container {
-    background: white;
-    margin-bottom: 90px;
-    padding-left: 0px;
-    padding-right: 0px; }
-    .faq .container .row {
-      padding: 30px;
-      margin: 40px;
-      margin-right: 60px; }
-      @media (max-width: 768px) {
-        .faq .container .row {
-          padding-left: 10px;
-          padding-right: 10px;
-          margin-left: 10px;
-          margin-right: 10px;
-          margin-right: 30px; } }
-
-.faq h3 {
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.45;
-  text-align: left;
-  color: #555555; }
-
-.faq h1 {
-  font-size: 60px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.88;
-  color: #ffffff;
-  margin-top: 100px;
-  margin-bottom: 80px;
-  text-align: center; }
-
-.faq p {
-  font-size: 18px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.61;
-  text-align: left;
-  color: #555555; }
-
-.faq .downarrow a {
-  color: #555555; }
-
-.faq .downarrow a:hover {
-  text-decoration: none; }
-
-.faq .line {
-  width: 100%;
-  height: 1px;
-  border: solid 1px #eeeeee; }
-
-.downarrow {
-  position: relative; }
-
-.downarrow span.icon-arrow-down {
-  background: url(../img/arrow_down.svg) center/contain no-repeat;
-  position: absolute;
-  width: 25px;
-  height: 100%;
-  right: -30px;
-  top: 0px; }
+/* Features section */
+.Section-Features-Nextcloud {
+  background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
+  background: -o-linear-gradient(#fff 0%, #f6f6f6 150px);
+  background: linear-gradient(#fff 0%, #f6f6f6 150px);
+  overflow: hidden;
+  height: 200vh;
+  position: relative;
+  padding-top: 8.54297em;
+  padding-bottom: 8.54297em; }
+  @media (max-width: 1200px) {
+    .Section-Features-Nextcloud {
+      padding-top: 60px;
+      height: 100vh; } }
+  .Section-Features-Nextcloud h2 {
+    font-size: 60px; }
+  .Section-Features-Nextcloud .img_carousel {
+    padding-top: 100px;
+    position: relative; }
+    @media (max-height: 800px) {
+      .Section-Features-Nextcloud .img_carousel {
+        padding-top: 60px; } }
+    .Section-Features-Nextcloud .img_carousel img {
+      float: right;
+      width: 582px;
+      height: 474px; }
+      @media (max-height: 800px) {
+        .Section-Features-Nextcloud .img_carousel img {
+          width: 490px;
+          height: 402px; } }
+  .Section-Features-Nextcloud .indicators {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    opacity: 1;
+    position: absolute;
+    z-index: 2;
+    bottom: 50vh;
+    right: 0; }
+    @media (max-width: 768px) {
+      .Section-Features-Nextcloud .indicators {
+        display: none; } }
+    .Section-Features-Nextcloud .indicators .btn_carousel {
+      margin-top: 10px;
+      width: 14px;
+      height: 14px;
+      color: transparent;
+      border: 1px solid #0082c9;
+      background-color: #0082c9;
+      border-radius: 50%;
+      padding: 0;
+      -webkit-transform: scale(0.5);
+      -ms-transform: scale(0.5);
+      transform: scale(0.5);
+      -webkit-transition: all 250ms ease-in-out;
+      transition: all 250ms ease-in-out; }
+    .Section-Features-Nextcloud .indicators .btn_carousel.active {
+      background-color: transparent;
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1); }
 
 /*# sourceMappingURL=enterprise.css.map */

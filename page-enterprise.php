@@ -15,7 +15,7 @@
 			<a href="#expertise">expertise</a>
 			<a href="#security">security</a>
 			<a href="#lifecycle">lifecycle</a>
-			<a href="#faq">faq</a>
+			<a href="#capabilities">capabilities</a>
 			<a class="btn btn-primary" href="/pricing">pricing plans</a>
 			<a class="btn btn-primary" href="/buy">get a quote</a>
 		</div>
@@ -69,96 +69,136 @@
 	</div>
 </section>
 
-<a name="faq"></a>
-<div class="faq container-fluid">
-	<div class="text-center">
-		<h1 class="revealOnScroll"><?php echo $l->t('Frequently asked questions');?></h1>
+<a name="capabilities"></a>
+<section class="Section-Features-Nextcloud" id="pinContainer">
+<div >
+    <h2 class="text-center section-title revealOnScroll"><?php echo $l->t('Nextcloud Enterprise Capabilities');?></h2>
+	<div class="indicators">
+		<ul class="carousel_dots"></ul>
+		<li class="btn_carousel"></li>
+		<li class="btn_carousel"></li>
+		<li class="btn_carousel"></li>
+		<li class="btn_carousel"></li>
 	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12 ">
-				<div class="downarrow revealOnScroll"><a href="#why_pay" data-toggle="collapse"><h3><?php echo $l->t('Why would I pay for open source software?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="why_pay" class="collapse ">
-					<p><?php echo $l->t('Nextcloud is great out of the box. But installing and running a server in a secure and reliable manner and for hundreds or thousands of users, important for a mission critical environment, is not always easy. You probably want access to an expert if something does not function as expected. We provide not only that but also pro-active support with installation and security issues, we reach out when we do feature planning to ensure your needs are served and we support Nextcloud long after you would otherwise be forced to upgrade for security, performance and stability reasons.');?></p>
-					<p><?php echo $l->t('By offering more in-depth knowledge than anybody else, we give you the confidence you need to be able to rely on Nextcloud.');?></p>
-				</div>
-				<div class="line revealOnScroll"></div>
-				<div class="downarrow revealOnScroll"><a href="#what_I_get" data-toggle="collapse"><h3><?php echo $l->t('What does the subscription give me?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="what_I_get" class="collapse">
-					<p><?php echo $l->t('Your Nextcloud subscription enables you to successfully deploy and manage your servers. Our open approach gives you direct access to Nextcloud engineers, the latest knowledge and best practices. We provide technical expertise, guidance and collaboration with phone and chat contact. Pro-active security support helps you identify and address vulnerabilities and harden your servers to protect the safety and integrity of your data.');?></p>
-					<p><?php echo $l->t('With the Nextcloud Enterprise subscription you get:');?></p>
-					<ul class="list">
-						<li class="check"><?php echo $l->t('Full lifecycle support with up to 15 years security and stability fixes');?></li>
-						<li class="check"><?php echo $l->t('Technical expertise and help covering project inception to production and user growth');?></li>
-						<li class="check"><?php echo $l->t('Help to scale your Nextcloud installation to large amounts of storage and large numbers of users');?></li>
-						<li class="check"><?php echo $l->t('Security and hardening consulting');?></li>
-						<li class="check"><?php echo $l->t('Influence on the roadmap of the open source project');?></li>
-						<li class="check"><?php echo $l->t('Access to the core Nextcloud engineers');?></li>
-						<li class="check"><?php echo $l->t('Help and advice if you decide to (pay somebody to) develop a custom app or changes');?></li>
-						<li class="check"><?php echo $l->t('Support for branding Nextcloud');?></li>
-						<li class="check"><?php echo $l->t('Optional support for integrated video conferencing and communication features based on spreed.me and WebRTC');?></li>
-						<li class="check"><?php echo $l->t('Optional Online Office capabilities which can handle a wide range of industry-standard file formats');?></li>
-						<li class="check"><?php echo $l->t('Access to consulting for custom capabilities');?></li>
-					</ul></p>
-					<p><?php echo $l->t('Nextcloud consulting goes beyond technical expertise, offering strategic advice for organizations. We analyze your challenges and help you implement a comprehensive, cost-effective and compliance-aware solution which reduces complexity and risks while delivering the highest security and privacy protection.');?></p>
-				</div>
-				<div class="line revealOnScroll"></div>
-				<div class="downarrow revealOnScroll"><a href="#languages" data-toggle="collapse"><h3><?php echo $l->t('In what languages do I get support?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="languages" class="collapse">
-					<p><?php echo $l->t('We provide support in German and English and other languages through our partners, <a href="#contact">contact us</a> for details.');?></p>
-				</div>
-				<div class="line revealOnScroll"></div>
-				<div class="downarrow revealOnScroll"><a href="#branding" data-toggle="collapse"><h3><?php echo $l->t('What branding support do I get?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="branding" class="collapse">
-					<p><?php echo $l->t('Every interface through with you interact with your users or customers should be a representation of the brand behind you - a brand that stands out from the competition. Our support team will make sure Nextcloud represents your brand by helping you configure the web interface and providing you with branded clients if needed.');?></p>
-				</div>
-				<div class="line revealOnScroll"></div>
-				<div class="downarrow revealOnScroll"><a href="#migration" data-toggle="collapse"><h3><?php echo $l->t('How difficult is migration from ownCloud?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="migration" class="collapse">
-					<p><?php echo $l->t('Migration from ownCloud to Nextcloud is easy. Our support team will help you move to Nextcloud and optimally benefit from the added scalability, features, stability, performance and security. See <a href="/migration">our migration page</a> for more details on migration.');?></p>
-				</div>
-				<div class="line revealOnScroll"></div>
-				<div class="downarrow revealOnScroll"><a href="#howbuy" data-toggle="collapse"><h3><?php echo $l->t('How do I buy Nextcloud subscriptions?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="howbuy" class="collapse">
-					<p><?php echo $l->t('Just <a href="/buy">contact us</a> or one of our partners. Our partners will help you set up Nextcloud and they act as your first point of contact.');?></p>
-				</div>
-				<div class="line revealOnScroll"></div>
-				<div class="downarrow revealOnScroll"><a href="#partner" data-toggle="collapse"><h3><?php echo $l->t('How do I become a Nextcloud partner?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="partner" class="collapse">
-					<p><?php echo $l->t('We are always looking for competent partners who share our passion for making customers happy! You can join our ecosystem, <a href="/contact">contact us for more information</a>.');?></p>
-				</div>
-				<div class="line revealOnScroll"></div>
-				<div class="downarrow revealOnScroll"><a href="#gpl" data-toggle="collapse"><h3><?php echo $l->t('What does the Open Source License mean?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="gpl" class="collapse">
-					<p><?php echo $l->t('Nextcloud is licensed under the GNU AGPLv3, one of the most widely used Open Source license. Written with input from lawyers and industry leaders from all over the world, it is a clear, balanced and well understood license, providing users a level of certainty no license from any single company can give. Today it is a widely used and broadly accepted license across various stakeholders, including developers, users, organizations and large enterprises. The AGPLv3 guarantees that all users of the software can use, study, share and improve the software without any legal risks. Further its patent clause ensures all users have a non-exclusive, non-transferable, worldwide, royalty-free license on any patents owned by code contributors now or in the future. On top of this, Nextcloud GmbH guarantees that every customer can use Nextcloud and exercise all rights given by the GNU AGPLv3 without violating any patents or copyright.');?></p>
-				</div>
-				<div class="line revealOnScroll"></div>
-				<div class="downarrow revealOnScroll"><a href="#opencore" data-toggle="collapse"><h3><?php echo $l->t('Would a proprietary license not be better?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="opencore" class="collapse">
-					<p><?php echo $l->t('No. Components of Nextcloud as well as many Nextcloud apps are under a variety of open source licenses. While they are all compatible with the AGPL, many are not compatible with proprietary licenses and thus would nearly guarantee customers would be in violation of those licenses, creating legal risk.');?></p>
-				</div>
-				<div class="line revealOnScroll"></div>
-				<div class="downarrow revealOnScroll"><a href="#sourcerelease" data-toggle="collapse"><h3><?php echo $l->t('Do I have to release the source code of systems Nextcloud connects to?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="sourcerelease" class="collapse">
-					<p><?php echo $l->t('No. Nextcloud will communicate with your back-end systems over external APIs. Those systems will not become a derivative work of Nextcloud just because they communicate with it. Therefore you can keep the source code of your back-end systems private and do not have to share it with anyone.');?></p>
-				</div>
-				<div class="line revealOnScroll"></div>
-				<div class="downarrow revealOnScroll"><a href="#logos" data-toggle="collapse"><h3><?php echo $l->t('Are my logos or the company name affected by the AGPL?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="logos" class="collapse">
-					<p><?php echo $l->t('No. Logos, company names, etc. are protected by trademarks. The GNU AGPLv3 is a copyright license and does not affect any trademarks. If you put your logo on your Nextcloud it is considered merely as data used by Nextcloud and has no effect on licenses or trademarks.');?></p></div>
-				<div class="line revealOnScroll">
-				</div>
-				<div class="downarrow revealOnScroll"><a href="#pubsource" data-toggle="collapse"><h3><?php echo $l->t('Do I need to publish the source code if I use Nextcloud?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="pubsource" class="collapse">
-					<p><?php echo $l->t('No. As long as you did not make any modifications to the Nextcloud code, existing apps or write your own apps, you do not have to do anything. Note that configuration does not count as modification! If you did make code modifications, then you have to make that code available under the GNU AGPLv3 or a compatible license to the users of the system. The easiest way to do so is to provide a download link. Nextcloud GmbH assists customers with license compliance.');?></p>
-				</div>
-				<div class="line revealOnScroll"></div>
-				<div class="downarrow revealOnScroll"><a href="#sellapp" data-toggle="collapse"><h3><?php echo $l->t('Can I sell my Nextcloud App?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="sellapp" class="collapse">
-					<p><?php echo $l->t('Yes. Nextcloud is licensed under the GNU AGPLv3. This license only defines the rights you have to give the users of the software, but not how they get the software. You can decide freely if you want to sell the software in an app store or through any other channel, or if you want to make the app publicly available. The only requirement is that you license your app under the AGPLv3 or a compatible license.');?></p>
-				</div>
-				<div class="line revealOnScroll"></div>
-			</div>
-		</div>
-	</div>
+    <section class="panel-workflow">
+        <div class="container">
+            <div class="row introducing-nc-release">
+                <div class="container">
+                    <div class="container col-md-6 ">
+                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-integration.png">
+                    </div>
+                    <div class="container col-md-6 right-text-grey" style="opacity: 1; padding-top: 50px;">
+                        <h5><?php echo $l->t('Deep integration in your infrastructure');?></h5>
+                        <p><?php echo $l->t('Nextcloud offers LDAP/Active Directory, SAML and Kerboros authentication. It accesses data on NFS, (s)FTP, WebDAV, Windows Network Drive, Object Stores like SWIFT and many more.');?></p>
+                        <p><?php echo $l->t('Nextcloud systems offer logging and monitoring integration for SIEM tools like Splunk and monitoring appslike openNMS or Nagios. API\'s enable further integration, providing access to provisioning, sharing and other capabilities.');?></p>
+                        <p>
+                            <a class="button button--blue button--arrow button--large" href="<?php echo get_template_directory_uri(); ?>/assets/files/architecture-whitepaper.pdf" role="button"><?php echo $l->t('Architecture Whitepaper');?></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="panel-monitoring hidden">
+        <div class="container">
+            <div class="row introducing-nc-release">
+                <div class="container">
+                    <div class="container col-md-6">
+                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-security.png">
+                    </div>
+                    <div class="container col-md-6 right-text-grey">
+                        <h5><?php echo $l->t('Security features keep your data safe');?></h5>
+                        <p><?php echo $l->t('Nextcloud supports two-factor authentication and Server Side Encryption, has brute force protection and features industry-standard security measures like CSP, SSC and password and session management.');?></p>
+                        <p><?php echo $l->t('Our development process aligns with industry standards such as ISO/IEC27001-2013 and related standards. Our successful Security Bug Bounty program offers security experts up to USD 5000 for finding and reporting security problems.');?></p>
+                        <p>
+                            <a class="button button--blue button--arrow button--large" href="/secure" role="button"><?php echo $l->t('Learn more about security');?></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="panel-authentication hidden">
+        <div class="container">
+            <div class="row introducing-nc-release">
+                <div class="container">
+                    <div class="container col-md-6">
+                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-control.png">
+                    </div>
+                    <div class="container col-md-6 right-text-grey">
+                        <h5><?php echo $l->t('IT stays in control');?></h5>
+                        <p><?php echo $l->t('Our File Access Control app enables administrators to defining data access rules or triggering actions based on location, group membership, file type, tags and other properties.');?></p>
+                        <p><?php echo $l->t('Retention and file deletion can also be managed automatically, ensuring legal requirements can be enforced.');?></p>
+                        <p>
+                            <a class="button button--blue button--arrow button--large" href="/workflow/" role="button"><?php echo $l->t('Learn more about Workflow');?></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<section class="panel-authentication hidden">
+        <div class="container">
+            <div class="row introducing-nc-release">
+                <div class="container">
+                    <div class="container col-md-6">
+                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-access.png">
+                    </div>
+                    <div class="container col-md-6 right-text-grey">
+                        <h5><?php echo $l->t('Easy access for users');?></h5>
+                        <p><?php echo $l->t('Users can access and share their data on Nextcloud through sync clients for Windows, Linux and Mac as well as Android and IOS, providing a smooth experience no matter where data is located.');?></p>
+                        <p><?php echo $l->t('Nextcloud capabilities like Full Text Search, Audio/Video chat, Office Document Editing, sharing and more are at their fingertips.');?></p>
+                        <p>
+                            <a class="button button--blue button--arrow button--large" href="/features" role="button"><?php echo $l->t('Learn more about features');?></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
+</section>
+
+
+
+<script>
+// this is needed for the features/capabilities carousel!
+	// Only make the scrolling effect for devices bigger than the 768px in width and 900px in height
+	if ($(window).width() > 768 && $(window).height() >= 900) {
+		var controller = new ScrollMagic.Controller();
+		new ScrollMagic.Scene({triggerElement: '#pinContainer', triggerHook: 'onLeave', duration: 750, offset: -100})
+			.addTo(controller)
+			.setPin('#pinContainer')
+			.on('enter leave', function (e) {
+				$('.indicators').addClass('hidden');
+			})
+			.on('start end', function (e) {
+				$('.indicators').removeClass('hidden');
+			})
+			.on('progress', function (e) {
+				var progressNumber = e.progress.toFixed(4);
+				var currentProgress = Math.round(10 * ((progressNumber / 10) * 3));
+				$('#pinContainer section:lt(' + currentProgress + ')').addClass('hidden');
+				$('#pinContainer section:gt(' + currentProgress + ')').addClass('hidden');
+				$('#pinContainer section:nth(' + currentProgress + ')').removeClass('hidden');
+				$('.indicators .btn_carousel').html('');
+				$('.indicators .btn_carousel').removeClass('active');
+				$('.indicators .btn_carousel:nth(' + currentProgress + ')').addClass('active');
+
+				if (currentProgress > 0) {
+					$('#pinContainer section:nth(' + currentProgress + ') .right-text-grey')
+						.animate({
+							'opacity': 1,
+							'margin-top': '-25px'
+						}, 750);
+				}
+			});
+	} else {
+		$('.indicators').addClass('hidden');
+		$('section:nth(0)').removeClass('hidden')
+		$('#pinContainer section .right-text-grey:nth(0)').css('opacity', '1.0');
+		$('#pinContainer').css('width', 'inherit');
+		$('#pinContainer').css('height', 'inherit');
+	}
+</script>

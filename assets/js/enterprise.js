@@ -4,7 +4,7 @@ $(document).ready(function() {
         init: function() {
 
 			this.animationOnLoadPage();
-			this.smothScroll();
+			this.smoothScroll();
 
 			enquire.register('screen and (max-width: 480px)', {
 				//match: _.bind(this.resultsBindMobile, this) 
@@ -26,8 +26,8 @@ $(document).ready(function() {
 			$(this.variables.heroSectionBackgroundSelector).velocity('transition.fadeIn', 1000);
 		},
 
-		smothScroll: function() {
-			$('a[href*="#"]:not([href="#"])').click(function() {
+		smoothScroll: function() {
+			$('a[href*="#"]:not([href="#"]):not([data-toggle="collapse"]').click(function() {
 				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 				var target = $(this.hash);
 				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
