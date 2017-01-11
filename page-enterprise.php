@@ -37,7 +37,7 @@
 	<div class="container">	
 		<p class="section--intro text-center revealOnScroll">Matter experts</p>
 		<h3 class="section--heading-1 text-center revealOnScroll">Dedicated to your success</h3>
-		<div class="expertise__ilustration"> </div>
+		<div class="expertise__ilustration"></div>
 		<p class="section--intro text-center revealOnScroll">We are dedicated to your success as Nextcloud customer. An analysis of your needs, a pilot customized for your architecture and remote installation support ensures a smooth introduction of Nextcloud in your organization and we will help you scale up to meet growing demand in your organization.
 		Nextcloud GmbH employs <a href="https://nextcloud.com/blog/nextcloud-the-most-active-open-source-file-sync-and-share-project/">9 of the top-ten developers in the Nextcloud Server codebase</a>, making our engineering team by far the most qualified to help you get the most out of your Enterprise File Sync and Share solution.</p>
 	</div>
@@ -56,6 +56,7 @@
 	<div class="container">
 		<p class="section--intro text-center revealOnScroll">Multi-year lifecycle</p>
 		<h3 class="section--heading-1 text-center revealOnScroll">For uninterupted service</h3>
+		<div class="lifecycle__ilustration"></div>
 		<p class="section--intro text-center revealOnScroll">A Nextcloud support subscription gives you access to enterprise-ready software, updates, and information and support services that span your entire OS and application infrastructure life cycle and architecture. You can count on receiving the latest product versions with the stability and security you need.
 		Working with data is essential for your business and being forced on the upgrade threadmill is disruptive to your organization. With access to up to 15 years security and stability updates to Nextcloud, we match the lifecycle of your operating system so you can schedule upgrades when it works for you and secure the investments you did in your existing platform.</p>
 		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/pricing">See pricing</a></p>

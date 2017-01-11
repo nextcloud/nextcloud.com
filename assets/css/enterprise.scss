@@ -83,35 +83,36 @@
    }
 }
 
-
 .what-you-get-section {
     background: -webkit-linear-gradient(top, #fff 0, #f6f6f6 150px);
     background: linear-gradient(to bottom, #fff 0, #f6f6f6 150px);
     background: -webkit-linear-gradient(to bottom, #fff 0, #f6f6f6 150px);
+  
   .container {
     padding-top: ms(5);
     padding-bottom: ms(5);
+    
     p {
       max-width: ms(9);
       margin: 0 auto;
     }
+    
     ul {
-		max-width: ms(9);
-		margin: 0 auto;
-		margin-top: 40px;
-/* 		li { */
-		.check {
-			font-size: 22px;
-			font-weight: 300;
-			font-style: normal;
-			font-stretch: normal;
-			line-height: 2.0;
-			color: #555555;
-			list-style-image: url("../img/enterprise/check.svg");
-			list-style-position:inside;
-			}
-/* 		} */
-	}
+      max-width: ms(9);
+      margin: 0 auto;
+      margin-top: 40px;
+
+      .check {
+        font-size: 22px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.0;
+        color: #555555;
+        list-style-image: url("../img/enterprise/check.svg");
+        list-style-position:inside;
+      }
+    }
   }
 }
 
@@ -167,6 +168,15 @@
     .section--intro {
       max-width: ms(9);
       margin: 0 auto;
+    }
+
+    .lifecycle__ilustration {
+      background: url(../img/enterprise/data_safe.svg) no-repeat center/contain;
+      margin-left: 248px; //This put the image on the visual center
+      width: 702px;
+      height: 730px;
+      margin: 0 auto;
+      position: relative;
     }
   }
 }

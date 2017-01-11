@@ -83,9 +83,7 @@
     .what-you-get-section .container ul {
       max-width: 43.24878rem;
       margin: 0 auto;
-      margin-top: 40px;
-      /* 		li { */
-      /* 		} */ }
+      margin-top: 40px; }
       .what-you-get-section .container ul .check {
         font-size: 22px;
         font-weight: 300;
@@ -134,6 +132,13 @@
     .section--lifecycle .container .section--intro {
       max-width: 43.24878rem;
       margin: 0 auto; }
+    .section--lifecycle .container .lifecycle__ilustration {
+      background: url(../img/enterprise/data_safe.svg) no-repeat center/contain;
+      margin-left: 248px;
+      width: 702px;
+      height: 730px;
+      margin: 0 auto;
+      position: relative; }
 
 /**
  h1 {
