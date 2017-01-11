@@ -12,7 +12,7 @@
 @import "buy.scss";
 @import "support.scss";
 @import 'vendor/modular-scale/modular-scale.scss';
-
+@import "pricing.scss";
 
 html{
     margin-top: 0 !important;
@@ -144,6 +144,19 @@ li {
 	
 }
 
+/* All headers */
+
+.header {
+  margin-bottom: 54px;
+  /* 	font-family: $font-stack; */
+  font-size: 60px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.88;
+  text-align: center;
+  color: #2a2a36;
+}
 
 /*All default buttons*/
 
@@ -395,7 +408,6 @@ li {
 .background {
   padding-bottom: 0;
   padding-top: 0;
-  margin-bottom: 50px;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 !important;
