@@ -13,7 +13,7 @@
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
 			<a href="#expertise">expertise</a>
-			<a href="#securit">security</a>
+			<a href="#security">security</a>
 			<a href="#lifecycle">lifecycle</a>
 			<a class="btn btn-primary" href="/pricing">see pricing</a>
 			<a class="btn btn-primary" href="/buy">get a quote</a>
@@ -33,7 +33,7 @@
 		</ul>
 	</div>
 </section>
-
+<a name="expertise"></a>
 <section class="section--expertise">
 	<div class="container">	
 		<p class="section--intro text-center revealOnScroll">Matter experts</p>
@@ -43,7 +43,7 @@
 		Nextcloud GmbH employs <a href="https://nextcloud.com/blog/nextcloud-the-most-active-open-source-file-sync-and-share-project/">9 of the top-ten developers in the Nextcloud Server codebase</a>, making our engineering team by far the most qualified to help you get the most out of your Enterprise File Sync and Share solution.</p>
 	</div>
 </section>
-
+<a name="security"></a>
 <section class="section--security">
 	<div class="container">
 		<p class="section--intro text-center revealOnScroll">Top notch security</p>
@@ -52,7 +52,7 @@
 		As customer you get direct access to our security expertise, with hardening advice and ahead-of-release security issue mitigation and fixes.</p>
 	</div>
 </section>
-
+<a name="lifecycle"></a>
 <section class="section--lifecycle">
 	<div class="container">
 		<p class="section--intro text-center revealOnScroll">Multi-year lifecycle</p>
