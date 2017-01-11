@@ -1,6 +1,6 @@
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/enterprise.js"></script>
-<section class="buy-hero-section enterprise-menu">
+<section class="buy-hero-section second-menu">
 	<div class="container-fluid background buy-background">
 		<div class="container">
 			<div class="row">

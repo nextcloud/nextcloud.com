@@ -1,5 +1,5 @@
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/enterprise.js"></script>
-<section class="enterprise-hero-section enterprise-menu">
+<section class="enterprise-hero-section second-menu">
 	<div class="container-fluid background"> 
 		<div class="container">
 			<div class="col-md-6 topheader">
