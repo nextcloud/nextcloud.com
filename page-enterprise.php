@@ -1,3 +1,4 @@
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/enterprise.js"></script>
 <section class="hero-section">
 	<div class="container-fluid background"> 
 		<div class="container">
@@ -9,7 +10,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid menu">
+	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
 			<a href="#expertise">expertise</a>
 			<a href="#securit">security</a>

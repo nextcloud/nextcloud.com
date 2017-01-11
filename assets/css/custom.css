@@ -1398,7 +1398,8 @@ footer.page-footer {
   height: 70px;
   border-bottom: solid 1px #e4e4e4;
   text-transform: uppercase;
-  vertical-align: middle; }
+  vertical-align: middle;
+  z-index: 5; }
   .hero-section .menu .buttons {
     font-weight: 600;
     margin-top: 23px; }
