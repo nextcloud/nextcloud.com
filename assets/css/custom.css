@@ -1,10 +1,7 @@
 /* Make Navbar transparent */
-.navbar:not(.scrolled) {
-  background-color: transparent; }
-
-.navbar:not(.scrolled) .btn-primary {
-  background-color: transparent !important;
-  border-color: white; }
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
 
 /**
  * Home page jumbotron
@@ -266,7 +263,7 @@ section#why-nextcloud {
   .Section-Introducing-Nextcloud .container .texts-wrapper {
     height: 100vh; }
     .Section-Introducing-Nextcloud .container .texts-wrapper .right-text-grey {
-      padding-top: calc((100vh - 266px) /2);
+      margin-top: calc((100vh - 266px) /2);
       padding-bottom: calc((100vh - 236px) /2); }
       .Section-Introducing-Nextcloud .container .texts-wrapper .right-text-grey p {
         font-size: 18px;
@@ -1025,13 +1022,14 @@ footer.page-footer {
 
 .section-getbox {
   padding-top: 100px;
-  height: 400px;
+  height: 440px;
   width: 100%;
   background-color: #252323;
   position: relative; }
   .section-getbox .container .wrapper-text {
     max-width: 550px;
     color: white;
+    z-index: 50;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%); }

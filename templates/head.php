@@ -30,6 +30,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/velocity.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/velocity.ui.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/viewport.js"></script>
 	<script type="text/javascript">
 
 		var templateUrl = '<?= get_bloginfo('template_url'); ?>';
