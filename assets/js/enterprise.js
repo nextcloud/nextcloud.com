@@ -4,7 +4,6 @@ $(document).ready(function() {
         init: function() {
 
 			this.animationOnLoadPage();
-			this.smoothScroll();
 
 			enquire.register('screen and (max-width: 480px)', {
 				//match: _.bind(this.resultsBindMobile, this) 

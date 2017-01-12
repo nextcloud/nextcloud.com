@@ -5,6 +5,7 @@ $(document).ready(function() {
         init: function() {
 
 			this.variables.buttonDropdownSelector.on("click", _.bind(this.buttonDropdown, this))
+            this.smoothScroll();
 		},
 
 		variables : {
@@ -35,37 +36,62 @@ $(document).ready(function() {
 			});
 		},
 
-		slideshow : function () {
+        IndicatorSlideshow: function() {
+            var visibleElement = $(".textTrigger").parent();
+            
+             $(visibleElement).on("inview", function(event, isInView) {
+                 if (isInView) {
+                    var currentSlide = $(event.currentTarget).data("slide");
+                    var $indicator = $(".btn_carousel:nth-child(" + (parseInt(currentSlide) + 1)+")")
+                    var $active = $('.btn_carousel.active');
+                    var imageFeatures = $(".image-top"); 
+
+                    $active.removeClass('active');
+                    $indicator.addClass('active');
+                 }
+             });
+        },
+
+       slideshow : function () {
+        this.IndicatorSlideshow();
+        
         var controller = new ScrollMagic.Controller();
 
-        //Create a new scene for each textTrigger, see the in the HTML we have 3 instead of 4
-
         this.variables.$textTrigger.each(function() {
-
-            const $trigger = $(this);
+        
+            var self = $(this);
             var imageFeatures = $(".image-top"); 
 
             var animateImage = new ScrollMagic.Scene ({
                 triggerElement: this,
                 offset: "100%",
+                reverse: true,
                 triggerHook: 1
             })
 
-            .on("enter", function () {
-                imageFeatures.css("bottom", (parseFloat(imageFeatures.css('bottom')) + 318) + 'px'); //this updates the image position
+            .on("enter", function() {
                 
-                const $sceneId = $trigger.attr('id');
-                // Assumes that we find an indicator with the appropriate class *fingers crossed*
-                const $indicator = $('a[href="#' + $sceneId + '"]').parent();
-                const $active = $('.btn_carousel.active');
-                $active.removeClass('active');
-                $indicator.addClass('active');
+                var visibleElement = $(".textTrigger").parent();
+                 
+                 $(visibleElement).on("inview", function(event, isInView) {
+                    if (isInView) {
+                        console.log("here")
+                        
+                    var currentSlide = $(event.currentTarget).data("slide");
+
+                    if (currentSlide > 1) {
+                        //console.log("here")
+                    }
+                        
+                                         }
+                });
+                    
+                imageFeatures.css("bottom", (parseFloat(imageFeatures.css('bottom')) + 318) + 'px'); //this updates the image position
             })
             
             .on("leave", function() {
                 imageFeatures.css("bottom", (parseFloat(imageFeatures.css('bottom')) - 318) + 'px'); //this updates the image position
             })
-
             .addIndicators({
                     colorTrigger:"red" //remove after finish, this are just need to to see the triggers
                 })
@@ -76,7 +102,7 @@ $(document).ready(function() {
         //set device image to fix a position
         var imagePin = new ScrollMagic.Scene ({
             triggerElement: "#imageTrigger", 
-            duration: "300%", //this set the duration of 3 times the viewport height
+            duration: "300%",
             triggerHook: 0
         })
         .setPin("#imageTrigger")
@@ -85,22 +111,7 @@ $(document).ready(function() {
             colorTrigger:"black"
         })
         .addTo(controller);
-
-        controller.scrollTo(function(target) {
-
-        $(document).click(_.bind(this.smoothScroll, this));
-
-        controller.scrollTo(function(newpos) {
-            newpos -= 68; // leave space for header
-            TweenMax.to(window, 0.5, {
-                scrollTo: {
-                    y: newpos
-                }
-            });
-        });
-        });
-		
-	}
+       } 
 		}
     defaultComponents.init();
 });
