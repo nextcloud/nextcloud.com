@@ -6,11 +6,13 @@ $(document).ready(function() {
 
 			this.variables.buttonDropdownSelector.on("click", _.bind(this.buttonDropdown, this))
             this.smoothScroll();
+            this.slideshow();
 		},
 
 		variables : {
 			buttonDropdownSelector: $(".button--dropdown"),
 			buttonDropdownContent: $(".dropdown-content"),
+            $SlideshowTextTrigger: $(".textTrigger"),
 			visibleClass : "visible",
 			activeClass: "active"
 		},
@@ -56,8 +58,8 @@ $(document).ready(function() {
         this.IndicatorSlideshow();
         
         var controller = new ScrollMagic.Controller();
-
-        this.variables.$textTrigger.each(function() {
+        console.log(this.variables.$SlideshowTextTrigger);
+        this.variables.$SlideshowTextTrigger.each(function() {
         
             var self = $(this);
             var imageFeatures = $(".image-top"); 
