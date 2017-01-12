@@ -2550,7 +2550,8 @@ li {
     height: 100vh; }
     .slideshow .container .texts-wrapper .right-text-grey {
       margin-top: calc((100vh - 266px) /2);
-      padding-bottom: calc((100vh - 236px) /2); }
+      padding-bottom: calc((100vh - 236px) /2);
+      opacity: 1; }
       .slideshow .container .texts-wrapper .right-text-grey p {
         font-size: 18px;
         font-weight: 100;
