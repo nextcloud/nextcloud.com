@@ -58,7 +58,6 @@ $(document).ready(function() {
         this.IndicatorSlideshow();
         
         var controller = new ScrollMagic.Controller();
-        console.log(this.variables.$SlideshowTextTrigger);
         this.variables.$SlideshowTextTrigger.each(function() {
         
             var self = $(this);
@@ -77,12 +76,10 @@ $(document).ready(function() {
                  
                  $(visibleElement).on("inview", function(event, isInView) {
                     if (isInView) {
-                        console.log("here")
                         
                     var currentSlide = $(event.currentTarget).data("slide");
 
                     if (currentSlide > 1) {
-                        //console.log("here")
                     }
                         
                                          }
@@ -107,6 +104,7 @@ $(document).ready(function() {
             duration: "300%",
             triggerHook: 0
         })
+        //console.log("here")
         .setPin("#imageTrigger")
         .setClassToggle(".indicators", "active") // add indicators to scene
         .addIndicators({ //remove after finish, this are just need to to see the triggers
