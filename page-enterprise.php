@@ -67,7 +67,7 @@
 </section>
 
 <a name="capabilities"></a>
-<section class="Section-Features-Nextcloud">
+<section class="Section-Features-Nextcloud slideshow ">
     <h2 class="text-center section-title revealOnScroll"><?php echo $l->t('Nextcloud Enterprise Capabilities');?></h2>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
