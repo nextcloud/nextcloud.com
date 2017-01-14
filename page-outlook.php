@@ -29,7 +29,7 @@
 				</a>
 			</div>
 			<div class="col-md-6 col-md-offset-3 text-center">
-				<p class=""><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud customers to easily and securely sent files, folders or upload links to others. The Add-in automatically uploads files to Nextcloud and inserts a secure link in the email. It also enables users to provide the recipient with a place where they can securely upload files.');?></p>
+				<p class=""><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud customers to easily and securely sent files, folders or upload links to others from within Microsoft Outlook. The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>
 			</div>
 		</div>
 	</div>
