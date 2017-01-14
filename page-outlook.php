@@ -16,8 +16,11 @@
 
 <div class="container">
 	<div class="featurerow">
-		<div class="row ">
-			<div class="col-md-5 yt-img-overlay">
+		<h1><?php echo $l->t('Secure File Sharing by email');?></h1>
+		<div class="row">
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-10 yt-img-overlay">
 				<a class="youtube" href="https://www.youtube.com/watch?v=9CGQ3dJkDdI" title="Nextcloud 11 in action">
 				<img  src="https://img.youtube.com/vi/9CGQ3dJkDdI/hqdefault.jpg" title="Nextcloud 11 in action" />
 				<div class="yt-play-btn">
@@ -25,8 +28,7 @@
 				</div>
 				</a>
 			</div>
-			<div class="col-md-6">
-				<h1><?php echo $l->t('Secure File Sharing by email');?></h1>
+			<div class="col-md-6 col-md-offset-3 text-center">
 				<p class=""><?php echo $l->t('The Nextcloud Outlook Secure Sharing Add-in enables Nextcloud customers to easily and securely sent files, folders or upload links to others. The Add-in automatically uploads files to Nextcloud and inserts a secure link in the email. It also enables users to provide the recipient with a place where they can securely upload files.');?></p>
 			</div>
 		</div>
@@ -54,40 +56,39 @@
 			</div>
 			<div class="col-md-6 featureblock">
 				<h2 class="featuretitle"><?php echo $l->t('Features');?></h2>
-				<p><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in supports:');?></p>
-				<ul>
-				<li><?php echo $l->t('Picking local files and uploading them to Nextcloud');?></li>
-				<li><?php echo $l->t('Providing a link where recipient can upload files to');?></li>
-				<li><?php echo $l->t('Customization (via html) of the link insert code');?></li>
-				<li><?php echo $l->t('Optionally enforced automatic or custom shared link password generation;');?></li>
-				<li><?php echo $l->t('optionally default expiry date.');?></li>
+				<p><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in lets you pick local files and upload them to Nextcloud. It can provide a link where the recipient of the email can upload files to and enables customization (via html) of the inserted information. Admins can optionally enforce passwords which can be custom or auto-generated. A default expiration date can also be set.');?></li>
 				</ul>
 			</div>
 		</div>
 	</div>
-	<div class="featurerow">
+</div>
+
+<div class="container-fluid quote">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 featureblock text-center">
 				<p class=""><?php echo $l->t('Pricing for the Nextcloud Secure Sharing Outlook Add-in starts at USD 5 per user per year with discounts for larger user numbers.');?></p>
 				<div class="text-center morebuttondiv">
-					<a href="/buy" class="btn btn-primary morebutton"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="/buy" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="calendar-background-image">
-		<h1>Calendar and Contacts syncing</h1>
-</div>
+
 <div class="container">
 	<div class="featurerow">
+		<h1><?php echo $l->t('Sync Calendars and Contacts');?></h1>
 		<div class="row ">
-			<div class="col-md-6">
-				<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar.png" alt="in action" /></a>
+			<div class="col-md-1">
 			</div>
-			<div class="col-md-6 featureblock">
-				<h1><?php echo $l->t('Sync Calendars and Contacts');?></h1>
-				<p class=""><?php echo $l->t('Thanks to a collaboration btween the developers behind the Outlook CalDav Synchronizer and Nextcloud, Outlook users can now easily sync their events, tasks and contacts between Outlook and Nextcloud servers.');?></p>
+			<div class="col-md-10">
+				<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-header.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-header.png" alt="in action" /></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 featureblock text-center">
+				<p class=""><?php echo $l->t('With the Outlook CalDav Synchronizer integration with Nextcloud, Outlook users can easily sync their events, tasks and contacts between Microsoft Outlook and their Nextcloud server.');?></p>
 			</div>
 		</div>
 	</div>
@@ -105,7 +106,6 @@
 		</div>
 	</div>
 
-
 	<div class="featurerow">
 		<div class="row ">
 			<div class="col-md-6">
@@ -113,18 +113,14 @@
 			</div>
 			<div class="col-md-6 featureblock">
 				<h2 class="featuretitle"><?php echo $l->t('Features');?></h2>
-				<p><?php echo $l->t('The Outlook CalDav Synchronizer supports:');?></p>
-				<ul>
-				<li><?php echo $l->t('SSL/TLS, also with self-signed certificates and proxy');?></li>
-				<li><?php echo $l->t('Auto discovery of calendars and address books');?></li>
-				<li><?php echo $l->t('Configurable sync time range filter');?></li>
-				<li><?php echo $l->t('Time-triggered-sync and sync changes from Outlook immediately');?></li>
-				<li><?php echo $l->t('Use server settings from Outlook IMAP/POP3 account profile');?></li>
-				</ul>
+				<p><?php echo $l->t('The Outlook CalDav Synchronizer supports:</br>
+				SSL/TLS, also with self-signed certificates and proxy;</br>
+				Auto discovery of calendars and address books;</br>
+				Configurable sync time range filter;</br>
+				Time-triggered-sync and sync changes from Outlook immediately;</br>
+				and it can use server settings from an Outlook IMAP/POP3 account profile.');?></p>
 				<div class="text-center morebuttondiv">
 					<a href="https://nextcloud.com/blog/nextcloud-offers-caldav-synchronizer-for-outlook-users/" class="btn btn-primary morebutton"><?php echo $l->t('Learn more in our blog');?> <i class="icon-arrow-circle-o-right icon"></i></a>
-				</div>
-				<div class="text-center morebuttondiv">
 					<a href="https://sourceforge.net/projects/outlookcaldavsynchronizer/" class="btn btn-primary morebutton"><?php echo $l->t('Get the plugin');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
