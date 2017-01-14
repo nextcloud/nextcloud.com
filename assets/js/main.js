@@ -81,7 +81,7 @@ $(document).ready(function() {
                             });
                      }
 
-                     if (currentSlide === 3) {
+                     if (currentSlide === 4) {
                          imageFeatures.css({
                              "bottom": "8" + "px"
                             });
