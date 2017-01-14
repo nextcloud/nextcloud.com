@@ -36,7 +36,8 @@ $(document).ready(function() {
 				triggerHook:0,
 				offset:-90
 			})
-				.setPin(this.variables.menuAnchorSelector) 
+				.setPin(this.variables.menuAnchorSelector)
+				.setClassToggle(".nav", "no-shadow")
 				.addTo(controller);
 		}
     }

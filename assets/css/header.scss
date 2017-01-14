@@ -533,6 +533,10 @@
         padding-bottom: 20px; 
     } 
 
+    &.no-shadow {
+        box-shadow: none !important;
+    }
+
     &.scrolled {
         position: fixed;
         

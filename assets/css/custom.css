@@ -847,6 +847,8 @@
   @media (max-width: 992px) {
     .nav {
       padding-bottom: 20px; } }
+  .nav.no-shadow {
+    box-shadow: none !important; }
   .nav.scrolled {
     position: fixed;
     background: white;
@@ -2465,7 +2467,8 @@ li {
         visibility: visible; }
   .button--large {
     height: 60px;
-    line-height: 60px; }
+    line-height: 60px;
+    min-width: 200px; }
   .button--small {
     height: 40px;
     line-height: 40px; }
@@ -2620,7 +2623,7 @@ li {
     border-top: solid 1px #e4e4e4;
     text-transform: uppercase;
     vertical-align: middle;
-    z-index: 5; }
+    z-index: 2; }
     @media (max-width: 991px) {
       .second-menu .menu {
         display: none; } }
@@ -2629,7 +2632,8 @@ li {
       margin-top: 23px; }
       .second-menu .menu .buttons a {
         padding-right: 10px;
-        color: gray; }
+        color: gray;
+        transition: all 0.3s ease; }
         .second-menu .menu .buttons a:focus {
           text-decoration: none;
           color: black; }

@@ -320,6 +320,7 @@ li {
     @include modifier(large) {
         height:60px;
         line-height: 60px;
+        min-width: 200px;
     }
 
     @include modifier(small) {
@@ -548,13 +549,14 @@ li {
 		border-top: solid 1px #e4e4e4;
 		text-transform: uppercase;
 		vertical-align: middle;
-		z-index: 5;
+		z-index: 2;
 		.buttons {
 			font-weight: 600;
 			margin-top: 23px;
 			a {
 				padding-right: 10px;
 				color: gray;
+                transition: all 0.3s ease;
 				
 				&:focus {
 					text-decoration: none;

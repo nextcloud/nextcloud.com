@@ -13,6 +13,7 @@ $(document).ready(function() {
 			buttonDropdownSelector: $(".button--dropdown"),
 			buttonDropdownContent: $(".dropdown-content"),
             $SlideshowTextTrigger: $(".textTrigger"),
+            spriteSlideshowSelector: $(".image-top-container"),
 			visibleClass : "visible",
 			activeClass: "active"
 		},
@@ -38,7 +39,7 @@ $(document).ready(function() {
 			});
 		},
 
-        IndicatorSlideshow: function() {
+        indicatorSlideshow: function() {
             var visibleElement = $(".textTrigger").parent();
             
              $(visibleElement).on("inview", function(event, isInView) {
@@ -54,8 +55,44 @@ $(document).ready(function() {
              });
         },
 
+        slideshowImagePosition: function(currentSlide) {
+            var visibleElement = $(".textTrigger").parent();
+
+             $(visibleElement).on("inview", function(event, isInView) {
+                 if (isInView) { 
+                     var currentSlide = $(event.currentTarget).data("slide");
+                     var imageFeatures = $(".image-top"); 
+
+                      if (currentSlide === 1) {
+                         imageFeatures.css({
+                             "bottom": "-954" + "px"
+                            });
+                     }
+
+                     if (currentSlide === 2) {
+                         imageFeatures.css({
+                             "bottom": "-632" + "px"
+                            });
+                     }
+
+                     if (currentSlide === 3) {
+                         imageFeatures.css({
+                             "bottom": "-314" + "px"
+                            });
+                     }
+
+                     if (currentSlide === 3) {
+                         imageFeatures.css({
+                             "bottom": "8" + "px"
+                            });
+                     }
+                }
+             });
+        },
+
        slideshow : function () {
-        this.IndicatorSlideshow();
+        this.indicatorSlideshow();
+        this.slideshowImagePosition();
         
         var controller = new ScrollMagic.Controller();
         this.variables.$SlideshowTextTrigger.each(function() {
@@ -69,32 +106,6 @@ $(document).ready(function() {
                 reverse: true,
                 triggerHook: 1
             })
-
-            .on("enter", function() {
-                
-                var visibleElement = $(".textTrigger").parent();
-                 
-                 $(visibleElement).on("inview", function(event, isInView) {
-                    if (isInView) {
-                        
-                    var currentSlide = $(event.currentTarget).data("slide");
-
-                    if (currentSlide > 1) {
-                    }
-                        
-                                         }
-                });
-                    
-                imageFeatures.css("bottom", (parseFloat(imageFeatures.css('bottom')) + 318) + 'px'); //this updates the image position
-            })
-            
-            .on("leave", function() {
-                imageFeatures.css("bottom", (parseFloat(imageFeatures.css('bottom')) - 318) + 'px'); //this updates the image position
-            })
-            .addIndicators({
-                    colorTrigger:"red" //remove after finish, this are just need to to see the triggers
-                })
-
             .addTo(controller);
         });
 
@@ -104,12 +115,8 @@ $(document).ready(function() {
             duration: "300%",
             triggerHook: 0
         })
-        //console.log("here")
         .setPin("#imageTrigger")
         .setClassToggle(".indicators", "active") // add indicators to scene
-        .addIndicators({ //remove after finish, this are just need to to see the triggers
-            colorTrigger:"black"
-        })
         .addTo(controller);
        } 
 		}
