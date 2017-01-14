@@ -32,6 +32,21 @@
 		margin-bottom: 50px;
 		text-align: center;
 	}
+	@media (min-width: $break-big) {
+		.yt-img-overlay {
+			.yt-play-btn {
+				padding-left: 42%;
+				padding-top: 25%;
+				width: 100%;
+				height: 100%;
+				i {
+				width: 102px;
+				height: 75px;
+				}
+				
+			}
+		}
+	}
 }
 
 .featureblock {
@@ -42,15 +57,7 @@
 		color: #2a2a36;
 		margin-bottom: 5px;
 		}
-	.morebuttondiv {
-		margin-top: 50px;
-	}
-	.morebutton {
-		margin-top: 20px;
-		min-width: 300px;
-		width: 70%;
-	}
-	}
+}
 
 /* quote background */
 .quote {
@@ -62,143 +69,5 @@
 	}
 }
 
-/* Youtube dialog */
-.yt-img-overlay {
-	position: relative;
-	left: 0px;
-	top: 0px;
-	overflow: hidden;
-	display: block;
-	max-width: 90%;
-	height: auto;
-	margin: 1%;
-/* 	margin-top: 3%; */
-	text-decoration: none;
-	color: white;
-	img {
-			width: 110%;
-			height: 110%;
-			margin: -11% 0 -11% -5%;
-	}
-	.col-md-4 {  /* compensate for the 1% margin yt images need */
-		width: 31%;
-	}
 
-	.col-md-3 {  /* compensate for the 1% margin yt images need */
-		width: 22.8%;
-	}
-	.yt-play-btn {
-		padding-left: 42%;
-		padding-top: 22%;
-	/* 	padding-top: 20%; */
-		position: absolute;
-		top: 0;
-	/* 	top: -5%; */
-	/* 	left: -5% */
-	/* 	padding-left: 45%; */
-		width: 100%;
-		height: 100%;
-	}
-}
-
-
-
-
-.yt-play-btn i {
-/* 	left: 5% */
-	 background-image: url("../img/common/YTplay.svg");
-	 background-position: center;
-	 background-repeat: none;
-	 -webkit-background-size: cover;
-	 -moz-background-size: cover;
-	 background-size: cover;
-	 -o-background-size: cover;
-	 background-clip: border-box;
-	 border: 0px;
-/*		min-height: 10px !important; */
-	 z-index: 0 !important;
-	 width: 68px;
-	 height: 50px;
-	 display: inline-block;
-}
-
-.yt-play-btn:hover i{
-	 background-image: url("../img/common/YTplayHover.svg");
-	 transition: background-image 0.1s;
-	 -webkit-transition: background-image 0.1s;
-/*	width: 100%;
-	height: 100%;*/
-}
-
-.YouTubeDialog {
-	width: 50% !important;
-	height: 50% !important;
-	padding: 5px;
-}
-
-.YouTubeDialog .ui-dialog-content {
-	height: 100% !important;
-}
-
-.yt-row {  /* correction for row with yt images */
-/* 	margin-left: 15% !important; */
-}
-
-@media (max-width: 991px) {
-	.YouTubeDialog {
-		width: 100% !important;
-		height: 40% !important;
-/* 		padding: 5px; */
-	}
-	.yt-row {
-	margin-left: 0% !important;
-	}
-	.col-md-4.yt-img-overlay {  /* compensate for the 1% margin yt images need */
-		width: 97%;
-	}
-
-	.col-md-3.yt-img-overlay {  /* compensate for the 1% margin yt images need */
-		width: 97%;
-	}
-}
-
-
-
-/*	Make YouTube videos responsive */
-@media(min-width: 995px) {
-	.videoWrapper {
-		position: relative;
-		padding-bottom: 28.12%; /* 16:9 - lets them be quarter screen size.	56.25% for full */
-		padding-top: 25px;
-		width: 50%; /* 100%	for full screen size */
-		height: 0;
-	}
-	.videoWrapper iframe {
-		position: absolute;
-		margin-left: 50%;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	}
-}
-
-@media(max-width: 996px) {
-	.videoWrapper {
-		position: relative;
-		padding-bottom: 56.25%;
-		padding-top: 30px;
-		height: 0;
-		width: 100%;
-		padding-left: -50%;
-	}
-
-	.videoWrapper iframe, .videoWrapper object, .videoWrapper embed {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	}
-}
 
