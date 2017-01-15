@@ -412,6 +412,62 @@ section#why-nextcloud {
   }
 }
 
+section#slideshowMobile {
+/*   mobile carousel */
+	/* show-hide */
+	 @media (min-width: $break-big) {
+		 .carousel-mobile {
+			 display: none;
+		 }
+		 .carousel-desktop {
+			 display: block;
+		 }
+	 }
+	 @media (max-width: $break-big) {
+		 .carousel-mobile {
+			 display: block;
+		 }
+		 .carousel-desktop {
+			 display: none;
+		 }
+	 }
+	 @media (max-width: $break-big) {
+		.carousel-mobile {
+		 min-height: 200px;
+		}
+		.carousel-fade {
+			.carousel-inner {
+				.item {
+				opacity: 0;
+				-webkit-transition-property: opacity;
+				-moz-transition-property: opacity;
+				-o-transition-property: opacity;
+				transition-property: opacity;
+				}
+
+				.active {
+				opacity: 1;
+				}
+
+				.active.left,
+				.active.right {
+				left: 0;
+				opacity: 0;
+				z-index: 1;
+				}
+
+				.next.left,
+				.prev.right {
+				opacity: 1;
+				}
+			}
+
+			.carousel-control {
+				z-index: 2;
+			}
+		}
+	 }
+}
 
 .news-section {
   position: relative;

@@ -316,6 +316,41 @@ section#why-nextcloud {
   .Section-Introducing-Nextcloud .active {
     opacity: 1; }
 
+section#slideshowMobile {
+  /*   mobile carousel */
+  /* show-hide */ }
+  @media (min-width: 991px) {
+    section#slideshowMobile .carousel-mobile {
+      display: none; }
+    section#slideshowMobile .carousel-desktop {
+      display: block; } }
+  @media (max-width: 991px) {
+    section#slideshowMobile .carousel-mobile {
+      display: block; }
+    section#slideshowMobile .carousel-desktop {
+      display: none; } }
+  @media (max-width: 991px) {
+    section#slideshowMobile .carousel-mobile {
+      min-height: 200px; }
+    section#slideshowMobile .carousel-fade .carousel-inner .item {
+      opacity: 0;
+      -webkit-transition-property: opacity;
+      -moz-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity; }
+    section#slideshowMobile .carousel-fade .carousel-inner .active {
+      opacity: 1; }
+    section#slideshowMobile .carousel-fade .carousel-inner .active.left,
+    section#slideshowMobile .carousel-fade .carousel-inner .active.right {
+      left: 0;
+      opacity: 0;
+      z-index: 1; }
+    section#slideshowMobile .carousel-fade .carousel-inner .next.left,
+    section#slideshowMobile .carousel-fade .carousel-inner .prev.right {
+      opacity: 1; }
+    section#slideshowMobile .carousel-fade .carousel-control {
+      z-index: 2; } }
+
 .news-section {
   position: relative;
   overflow: hidden; }

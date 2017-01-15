@@ -119,6 +119,30 @@
     </div>
 </section>
 
+<section class="slideshowMobile">
+	<div class="carousel-mobile">
+	<div id="carousel" class="carousel slide carousel-fade">
+		<ol class="carousel-indicators">
+			<li data-target="#carousel" data-slide-to="0" class="active">.</li>
+			<li data-target="#carousel" data-slide-to="1">.</li>
+			<li data-target="#carousel" data-slide-to="2">.</li>
+			<li data-target="#carousel" data-slide-to="3">.</li>
+		</ol>
+		<!-- Carousel items -->
+		<div class="carousel-inner">
+			<div class="active item">1</div>
+			<div class="item">2</div>
+			<div class="item">3</div>
+			<div class="item">4</div>
+		</div>
+		<!-- Carousel nav -->
+		<a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+		<a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+	</div>
+	</div>
+</section>
+
+
 <section class="news-section">
 	<div class="container-fluid news" id="social-media">
 		<div class="container">
@@ -153,5 +177,7 @@
 	</div>
 </div>
 
-
+<script>
+$('.carousel').carousel();
+</script>
 
