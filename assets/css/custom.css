@@ -1494,10 +1494,10 @@ footer.page-footer {
       margin: 0 auto; }
     .section--expertise .container .expertise__ilustration {
       background: url(../img/enterprise/ilustration_matterexperts.svg) no-repeat center/contain;
-      width: 65vh;
-      height: 45vh;
+      width: 1366px;
+      height: 700px;
       max-width: 100%;
-      max-height: 50vw;
+      max-height: 60vw;
       margin: 0 auto;
       position: relative; }
 
@@ -1513,8 +1513,8 @@ footer.page-footer {
       margin: 0 auto; }
     .section--security .container .security__ilustration {
       background: url(../img/enterprise/security-new.svg) no-repeat center/contain;
-      width: 50vh;
-      height: 45vh;
+      width: 800px;
+      height: 700px;
       margin: 0 auto;
       max-width: 100%;
       max-height: 50vw;
@@ -1532,8 +1532,8 @@ footer.page-footer {
       margin: 0 auto; }
     .section--lifecycle .container .lifecycle__ilustration {
       background: url(../img/enterprise/data_safe-new.svg) no-repeat center/contain;
-      width: 60vh;
-      height: 45vh;
+      width: 950px;
+      height: 700px;
       margin: 0 auto;
       max-width: 100%;
       max-height: 50vw;
