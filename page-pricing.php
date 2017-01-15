@@ -160,7 +160,7 @@
 <div class="container text-center">
 	<p class="revealOnScroll epricevat"><?php echo $l->t('* At additional cost');?></p>
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Prices are in Euro per year and net/excl. VAT.');?></p>
-	<p class="revealOnScroll epricevat"><?php echo $l->t('Android, Windows Mobile and desktop apps are free; iOS app can be purchased in the Apple App Store.');?></p>
+	<p class="revealOnScroll epricevat"><?php echo $l->t('Android and desktop apps are free; iOS app can be purchased in the Apple App Store.');?></p>
 	<p class="revealOnScroll"><?php echo $l->t('<small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small>');?></p>
 </div>
 <a name="discounts"></a>
