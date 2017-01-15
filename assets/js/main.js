@@ -6,7 +6,14 @@ $(document).ready(function() {
 
 			this.variables.buttonDropdownSelector.on("click", _.bind(this.buttonDropdown, this))
             this.smoothScroll();
-            this.slideshow();
+            
+            enquire.register('screen and (max-width: 480px)', {
+				match: _.bind(this.modulesBindMobile, this) 
+			});
+
+			enquire.register('screen and (min-width: 481px)', {
+				match: _.bind(this.modulesBindDesktop, this) 
+			});
 		},
 
 		variables : {
@@ -14,9 +21,20 @@ $(document).ready(function() {
 			buttonDropdownContent: $(".dropdown-content"),
             $SlideshowTextTrigger: $(".textTrigger"),
             spriteSlideshowSelector: $(".image-top-container"),
+            slideshowContentSelector: ".slideshow",
 			visibleClass : "visible",
 			activeClass: "active"
 		},
+
+        modulesBindDesktop: function() {
+            $(this.variables.slideshowContent).show();
+            this.slideshow();
+        },
+
+        modulesBindMobile: function() {
+            $(this.variables.slideshowContentSelector).hide();
+        },
+
 
 		buttonDropdown: function (event) {
 			this.variables.buttonDropdownSelector.toggleClass(this.variables.activeClass);
@@ -65,25 +83,25 @@ $(document).ready(function() {
 
                       if (currentSlide === 1) {
                          imageFeatures.css({
-                             "bottom": "-954" + "px"
+                             "top": "0" + "px"
                             });
                      }
 
                      if (currentSlide === 2) {
                          imageFeatures.css({
-                             "bottom": "-632" + "px"
+                             "top": "-318" + "px"
                             });
                      }
 
                      if (currentSlide === 3) {
                          imageFeatures.css({
-                             "bottom": "-314" + "px"
+                             "top": "-636" + "px"
                             });
                      }
 
                      if (currentSlide === 4) {
                          imageFeatures.css({
-                             "bottom": "8" + "px"
+                             "top": "-954" + "px"
                             });
                      }
                 }
