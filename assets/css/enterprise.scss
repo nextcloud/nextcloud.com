@@ -88,10 +88,12 @@
 
     .expertise__ilustration {
       background: url(../img/enterprise/ilustration_matterexperts.svg) no-repeat center/contain;
-      width: 878px;
-      height: 612px;
-      margin: 0 auto;
-      position: relative;
+		width: 65vh;
+		height: 45vh;
+		max-width: 100%;
+		max-height: 50vw;
+		margin: 0 auto;
+		position: relative;
     }
   }
 }
@@ -112,10 +114,12 @@
 
     .security__ilustration {
       background: url(../img/enterprise/security-new.svg) no-repeat center/contain;
-      width: 672px;
-      height: 640px;
-      margin: 0 auto;
-      position: relative;
+		width: 50vh;
+		height: 45vh;
+		margin: 0 auto;
+		max-width: 100%;
+		max-height: 50vw;
+		position: relative;
     }
   }
 }
@@ -136,10 +140,11 @@
 
     .lifecycle__ilustration {
       background: url(../img/enterprise/data_safe-new.svg) no-repeat center/contain;
-      width: 562px;
-      height: 660px;
-      margin: 0 auto;
-      margin-left: 248px; //This put the image on the visual center
+		width: 60vh;
+		height: 45vh;
+		margin: 0 auto;
+		max-width: 100%;
+		max-height: 50vw;
       position: relative;
     }
   }
