@@ -1493,8 +1493,8 @@ footer.page-footer {
       max-width: 43.24878em;
       margin: 0 auto; }
     .section--expertise .container .expertise__ilustration {
-      background: url(../img/enterprise/ilustration_matterexperts.svg) no-repeat center/contain;
-      width: 1366px;
+      background: url(../img/enterprise/ilustration_matterexperts-new.svg) no-repeat center/contain;
+      width: 950px;
       height: 700px;
       max-width: 100%;
       max-height: 60vw;
@@ -1513,7 +1513,7 @@ footer.page-footer {
       margin: 0 auto; }
     .section--security .container .security__ilustration {
       background: url(../img/enterprise/security-new.svg) no-repeat center/contain;
-      width: 800px;
+      width: 850px;
       height: 700px;
       margin: 0 auto;
       max-width: 100%;
