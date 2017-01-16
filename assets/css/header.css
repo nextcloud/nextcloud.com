@@ -7,13 +7,20 @@
     top: -26px !important; } }
 .headroom {
   will-change: transform;
-  transition: transform 200ms linear; }
+  transition: transform 200ms ease; }
 
 .headroom--pinned {
   transform: translateY(0%); }
 
 .headroom--unpinned {
   transform: translateY(-100%); }
+
+.menu {
+  will-change: transform;
+  transition: transform 200ms ease; }
+
+.hidedPrincipalNavigation {
+  transform: translateY(-130%); }
 
 .nav {
   z-index: 10;

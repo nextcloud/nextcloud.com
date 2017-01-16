@@ -31,6 +31,7 @@ $(document).ready(function() {
         toggleSelector: "#toggle",
         navigationId: "#nav",
         navigationSelector: ".nav",
+        subMenuSelector: "#menuAnchor",
         sectionsSelector: ".nav__sections",
         sectionsContainerSelector: ".nav__sections-wrapper",
         sectionSelector: ".nav__section",
@@ -69,6 +70,7 @@ $(document).ready(function() {
     },    
 
     resetDesktop: function() {
+        headroom.destroy();
         $(this.variables.sectionSelector).off("mouseover");
         $(this.variables.sectionSelector).off("mouseleave");
         $(this.variables.linksSelector).hide();
@@ -87,8 +89,24 @@ $(document).ready(function() {
 
     showAndHideHeader: function() {
         var myElement = document.querySelector(".nav");
-        var headroom  = new Headroom(myElement);
+        
+        var headroom  = new Headroom(myElement,{
+            offset: 600,
+            tolerance : {
+                up : 5,
+                down : 0
+            },
+            
+            onPin: function () {
+                $(".menu").removeClass("hidedPrincipalNavigation");
+            },
+
+            onUnpin: function() {
+                $(".menu").addClass("hidedPrincipalNavigation");
+            }
+        });
         headroom.init(); 
+
     },
 
     mobileEvent: function() {

@@ -90,7 +90,7 @@
     .expertise__ilustration {
       background: url(../img/enterprise/ilustration_matterexperts-new.svg) no-repeat center/contain;
 		width: 950px;
-		height: 700px;
+		height: 500px;
 		max-width: 100%;
 		max-height: 60vw;
 		margin: 0 auto;
@@ -116,7 +116,7 @@
     .security__ilustration {
       background: url(../img/enterprise/security-new.svg) no-repeat center/contain;
 		width: 850px;
-		height: 700px;
+		height: 500px;
 		margin: 0 auto;
 		max-width: 100%;
 		max-height: 50vw;
@@ -142,190 +142,11 @@
     .lifecycle__ilustration {
       background: url(../img/enterprise/data_safe-new.svg) no-repeat center/contain;
 		width: 950px;
-		height: 700px;
+		height: 500px;
 		margin: 0 auto;
 		max-width: 100%;
 		max-height: 50vw;
       position: relative;
     }
   }
-}
-
-/* Features section */
-/*.Section-Features-Nextcloud {
-  background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
-  background: -o-linear-gradient(#fff 0%, #f6f6f6 150px);
-  background: linear-gradient(#fff 0%, #f6f6f6 150px);
-  overflow: hidden;
-  height: 200vh;
-  position: relative;
-	padding-top: ms(5);
-    padding-bottom: ms(5);
-  @media (max-width: $navbar-breaksize) {
-    padding-top: 60px;
-    height: 100vh;
-  }
-
-  h2{
-    font-size: 60px;
-  }
-
-  .img_carousel {
-    padding-top: 100px;
-    position:relative;
-    @media (max-height: 800px) {
-      padding-top: 60px;
-    }
-
-    img {
-      float: right;
-      width: 582px;
-      height: 474px;
-      @media (max-height: 800px) {
-        width: 490px;
-        height: 402px;
-      }
-    }
-  }
-
-  .indicators {
-    -webkit-transition: all .5s;
-    transition: all .5s;
-    opacity: 1;
-    position: absolute;
-    z-index: 2;
-    bottom: 50vh;
-    right: 0;
-    @media (max-width: $break-small) {
-      display: none;
-    }
-
-    .btn_carousel{
-      margin-top: 10px;
-      width: 14px;
-      height: 14px;
-      color: transparent;
-      border: 1px solid $nextcloud-blue;
-      background-color: $nextcloud-blue;
-      border-radius: 50%;
-      padding: 0;
-      -webkit-transform: scale(.5);
-      -ms-transform: scale(.5);
-      transform: scale(.5);
-      -webkit-transition: all 250ms ease-in-out;
-      transition: all 250ms ease-in-out;
-    }
-
-    .btn_carousel.active{
-      background-color: transparent;
-      -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-      transform: scale(1);
-    }
-  }
-}*/
-
-/* Hide slideshow on small screens */
-.slideshow {
-	@media (max-width: $navbar-breaksize) {
-		display:none;
-	}
-}
-
-.slideshow-mobile {
-/* 	hide on non-mobile */
-	@media (min-width: $navbar-breaksize) {
-		display:none;
-	}
-	background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
-	background: -o-linear-gradient(#fff 0%, #f6f6f6 150px);
-	background: linear-gradient(#fff 0%, #f6f6f6 150px);
-	padding-top: 50px;
-	padding-bottom: 50px;
-	padding-left: 10px;
-	padding-right: 10px;
-	height: 600px;
-	@media (max-width: $break-small) {
-		height: 800px;
-		img {
-			max-height: 400px;
-			width: auto;
-			margin-left: auto;
-			margin-right: auto;
-		}
-	}
-	
-	.carousel-fade {
-		.carousel-inner {
-			.item {
-			opacity: 0;
-			-webkit-transition-property: opacity;
-			-moz-transition-property: opacity;
-			-o-transition-property: opacity;
-			transition-property: opacity;
-			}
-
-			.active {
-			opacity: 1;
-			}
-
-			.active.left,
-			.active.right {
-			left: 0;
-			opacity: 0;
-			z-index: 1;
-			}
-
-			.next.left,
-			.prev.right {
-			opacity: 1;
-			}
-		}
-
-		.carousel-control {
-			z-index: 2;
-			position: absolute;
-			top: 45%;
-			@media (max-width: $break-small) {
-				top: 20%;
-			}
-			width: 40px;
-			height: 40px;
-			color: #fff;
-			background: #222;
-			border: 3px solid #fff;
-			-webkit-border-radius: 23px;
-			-moz-border-radius: 23px;
-			border-radius: 23px;
-			opacity: .5;
-			filter: alpha(opacity=50);
-			.glyphicon {
-/* 				margin-top: -15px; */
-				margin: -15px;
-				font-size: 30px;
-			}
-		}
-		.carousel-indicators {
-			li {
-				box-shadow: 0px 0px 3px grey;
-				margin: 7px;
-			}
-		}
-	}
-	
-	html, body, .carousel, .carousel-inner, .carousel-inner .item {
-	height: 100%;
-	}
-
-	.item:nth-child(1) {
-	}
-
-	.item:nth-child(2) {
-	}
-
-	.item:nth-child(3) {
-	}
-
-	.item:nth-child(4) {
-	}
 }

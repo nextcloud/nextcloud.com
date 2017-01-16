@@ -8,7 +8,8 @@
   position: relative; }
   @media (max-width: 1200px) {
     .slideshow {
-      height: 100%; } }
+      height: 100%;
+      display: none; } }
   .slideshow .section-title {
     padding-top: 10vh;
     position: absolute;
@@ -123,5 +124,68 @@
         -webkit-transform: scale(1);
         -ms-transform: scale(1);
         transform: scale(1); } }
+.slideshow-mobile {
+  /*  hide on non-mobile */
+  background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
+  background: -o-linear-gradient(#fff 0%, #f6f6f6 150px);
+  background: linear-gradient(#fff 0%, #f6f6f6 150px);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 600px; }
+  @media (min-width: 1200px) {
+    .slideshow-mobile {
+      display: none; } }
+  @media (max-width: 768px) {
+    .slideshow-mobile {
+      height: 800px; }
+      .slideshow-mobile img {
+        max-height: 400px;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto; } }
+  .slideshow-mobile .carousel-fade .carousel-inner .item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity; }
+  .slideshow-mobile .carousel-fade .carousel-inner .active {
+    opacity: 1; }
+  .slideshow-mobile .carousel-fade .carousel-inner .active.left,
+  .slideshow-mobile .carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1; }
+  .slideshow-mobile .carousel-fade .carousel-inner .next.left,
+  .slideshow-mobile .carousel-fade .carousel-inner .prev.right {
+    opacity: 1; }
+  .slideshow-mobile .carousel-fade .carousel-control {
+    z-index: 2;
+    position: absolute;
+    top: 45%;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background: #222;
+    border: 3px solid #fff;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+    opacity: .5;
+    filter: alpha(opacity=50); }
+    @media (max-width: 768px) {
+      .slideshow-mobile .carousel-fade .carousel-control {
+        top: 20%; } }
+    .slideshow-mobile .carousel-fade .carousel-control .glyphicon {
+      /*        margin-top: -15px; */
+      margin: -15px;
+      font-size: 30px; }
+  .slideshow-mobile .carousel-fade .carousel-indicators li {
+    box-shadow: 0px 0px 3px grey;
+    margin: 7px; }
+  .slideshow-mobile html, .slideshow-mobile body, .slideshow-mobile .carousel, .slideshow-mobile .carousel-inner, .slideshow-mobile .carousel-inner .item {
+    height: 100%; }
 
 /*# sourceMappingURL=slideshow.css.map */
