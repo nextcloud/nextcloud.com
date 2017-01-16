@@ -21,7 +21,8 @@
   border-radius: 0 !important;
   height: 70vh;
   min-height: 600px;
-  max-height: 800px; }
+  max-height: 800px;
+  background-image: url("../img/enterprise/hero__enterprise.jpg"); }
 .enterprise-hero-section .topbanner {
   width: auto;
   height: auto;
