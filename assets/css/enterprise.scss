@@ -151,7 +151,7 @@
 }
 
 /* Features section */
-.Section-Features-Nextcloud {
+/*.Section-Features-Nextcloud {
   background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
   background: -o-linear-gradient(#fff 0%, #f6f6f6 150px);
   background: linear-gradient(#fff 0%, #f6f6f6 150px);
@@ -222,5 +222,110 @@
       transform: scale(1);
     }
   }
+}*/
+
+/* Hide slideshow on small screens */
+.slideshow {
+	@media (max-width: $navbar-breaksize) {
+		display:none;
+	}
 }
 
+.slideshow-mobile {
+/* 	hide on non-mobile */
+	@media (min-width: $navbar-breaksize) {
+		display:none;
+	}
+	background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
+	background: -o-linear-gradient(#fff 0%, #f6f6f6 150px);
+	background: linear-gradient(#fff 0%, #f6f6f6 150px);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 600px;
+	@media (max-width: $break-small) {
+		height: 800px;
+		img {
+			max-height: 400px;
+			width: auto;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	
+	.carousel-fade {
+		.carousel-inner {
+			.item {
+			opacity: 0;
+			-webkit-transition-property: opacity;
+			-moz-transition-property: opacity;
+			-o-transition-property: opacity;
+			transition-property: opacity;
+			}
+
+			.active {
+			opacity: 1;
+			}
+
+			.active.left,
+			.active.right {
+			left: 0;
+			opacity: 0;
+			z-index: 1;
+			}
+
+			.next.left,
+			.prev.right {
+			opacity: 1;
+			}
+		}
+
+		.carousel-control {
+			z-index: 2;
+			position: absolute;
+			top: 45%;
+			@media (max-width: $break-small) {
+				top: 20%;
+			}
+			width: 40px;
+			height: 40px;
+			color: #fff;
+			background: #222;
+			border: 3px solid #fff;
+			-webkit-border-radius: 23px;
+			-moz-border-radius: 23px;
+			border-radius: 23px;
+			opacity: .5;
+			filter: alpha(opacity=50);
+			.glyphicon {
+/* 				margin-top: -15px; */
+				margin: -15px;
+				font-size: 30px;
+			}
+		}
+		.carousel-indicators {
+			li {
+				box-shadow: 0px 0px 3px grey;
+/* 				color: black; */
+/* 				border: 1px solid black; */
+			}
+		}
+	}
+	
+	html, body, .carousel, .carousel-inner, .carousel-inner .item {
+	height: 100%;
+	}
+
+	.item:nth-child(1) {
+	}
+
+	.item:nth-child(2) {
+	}
+
+	.item:nth-child(3) {
+	}
+
+	.item:nth-child(4) {
+	}
+}
