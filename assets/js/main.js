@@ -5,21 +5,138 @@ $(document).ready(function() {
         init: function() {
 
 			this.variables.buttonDropdownSelector.on("click", _.bind(this.buttonDropdown, this))
+            this.smoothScroll();
+            
+            enquire.register('screen and (max-width: 480px)', {
+				match: _.bind(this.modulesBindMobile, this) 
+			});
+
+			enquire.register('screen and (min-width: 481px)', {
+				match: _.bind(this.modulesBindDesktop, this) 
+			});
 		},
 
 		variables : {
 			buttonDropdownSelector: $(".button--dropdown"),
 			buttonDropdownContent: $(".dropdown-content"),
+            $SlideshowTextTrigger: $(".textTrigger"),
+            spriteSlideshowSelector: $(".image-top-container"),
+            slideshowContentSelector: ".slideshow",
 			visibleClass : "visible",
 			activeClass: "active"
 		},
+
+        modulesBindDesktop: function() {
+            $(this.variables.slideshowContent).show();
+            this.slideshow();
+        },
+
+        modulesBindMobile: function() {
+            $(this.variables.slideshowContentSelector).hide();
+        },
+
 
 		buttonDropdown: function (event) {
 			this.variables.buttonDropdownSelector.toggleClass(this.variables.activeClass);
 			this.variables.buttonDropdownContent.toggleClass(this.variables.visibleClass);
 // 			event.preventDefault();
-		}
+		},
 
+		smoothScroll: function() {
+			$('a[href*="#"]:not([href="#"]):not([data-toggle="collapse"]:not([href="#carousel"])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				if (target.length) {
+					$('html, body').animate({
+					scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+				}
+			});
+		},
+
+        indicatorSlideshow: function() {
+            var visibleElement = $(".textTrigger").parent();
+            
+             $(visibleElement).on("inview", function(event, isInView) {
+                 if (isInView) {
+                    var currentSlide = $(event.currentTarget).data("slide");
+                    var $indicator = $(".btn_carousel:nth-child(" + (parseInt(currentSlide) + 1)+")")
+                    var $active = $('.btn_carousel.active');
+                    var imageFeatures = $(".image-top"); 
+
+                    $active.removeClass('active');
+                    $indicator.addClass('active');
+                 }
+             });
+        },
+
+        slideshowImagePosition: function(currentSlide) {
+            var visibleElement = $(".textTrigger").parent();
+
+             $(visibleElement).on("inview", function(event, isInView) {
+                 if (isInView) { 
+                     var currentSlide = $(event.currentTarget).data("slide");
+                     var imageFeatures = $(".image-top"); 
+
+                      if (currentSlide === 1) {
+                         imageFeatures.css({
+                             "top": "0" + "px"
+                            });
+                     }
+
+                     if (currentSlide === 2) {
+                         imageFeatures.css({
+                             "top": "-318" + "px"
+                            });
+                     }
+
+                     if (currentSlide === 3) {
+                         imageFeatures.css({
+                             "top": "-636" + "px"
+                            });
+                     }
+
+                     if (currentSlide === 4) {
+                         imageFeatures.css({
+                             "top": "-954" + "px"
+                            });
+                     }
+                }
+             });
+        },
+
+       slideshow : function () {
+        this.indicatorSlideshow();
+        this.slideshowImagePosition();
+        
+        var controller = new ScrollMagic.Controller();
+        this.variables.$SlideshowTextTrigger.each(function() {
+        
+            var self = $(this);
+            var imageFeatures = $(".image-top"); 
+
+            var animateImage = new ScrollMagic.Scene ({
+                triggerElement: this,
+                offset: "100%",
+                reverse: true,
+                triggerHook: 1
+            })
+            .addTo(controller);
+        });
+
+        //set device image to fix a position
+        var imagePin = new ScrollMagic.Scene ({
+            triggerElement: "#imageTrigger", 
+            duration: "300%",
+            triggerHook: 0
+        })
+        .setPin("#imageTrigger")
+        .setClassToggle(".indicators", "active") // add indicators to scene
+        .addTo(controller);
+       } 
 		}
     defaultComponents.init();
 });
@@ -33,53 +150,3 @@ $(document).ready(function() {
 			}
 		 });
 	});	
-
-
-
-/*	 
-$(document).ready(function() {
-    "use strict";
-    var defaultComponents = {
-        init: function() {
-
-			this.variables.buttonDropdownSelector.on("click", _.bind(this.buttonDropdown, this))
-			this.variables.windowSelector.on('scroll.fadeOnce', _.bind(this.revealElementOnScroll, this))
-		},
-
-		variables : {
-			buttonDropdownSelector: $(".button--dropdown"),
-			buttonDropdownContentSelector: $(".dropdown-content"),
-			scrollTopSelector: $(this).scrollTop(),
-			elementNotRevealedSelector: $('.revealOnScroll:not(.fade-in)'),
- 			selectorOffsetSelector: $(element).offset(),
-			windowSelector: $(window), 
-			visibleClass : "visible",
-			activeClass: "active"
-		},
-		
-		buttonDropdown: function (event) {
-			this.variables.buttonDropdownSelector.toggleClass(this.variables.activeClass);
-			this.variables.buttonDropdownContentSelector.toggleClass(this.variables.visibleClass);
-			event.preventDefault();
-		},
-
-		revealElementOnScroll: function(event) {
-			this.variables.elementNotRevealedSelector.each(function(index, element) {
-				if (this.variables.scrollTopSelector + window.innerHeight - 100 > selectorOffset.top) {
-					$(element).addClass("fade-in").velocity('transition.slideUpIn');
-				}
-		 	});
-		}
-	}
-	defaultComponents.init();
-});*/
-
-/*	$(window).on('scroll.fadeOnce', function(event) {	
-		this.variables.elementNotRevealedSelector.each(function(index, element) {
-			if (this.variables.scrollTopSelector + window.innerHeight - 100 > selectorOffset.top) {
-				$(element).addClass("fade-in").velocity('transition.slideUpIn');
-			}
-		 });
-	});	*/
-	
-	

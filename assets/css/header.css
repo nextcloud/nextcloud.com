@@ -6,7 +6,7 @@
     -webkit-transform: scale(0.5);
     top: -26px !important; } }
 .nav {
-  z-index: 1;
+  z-index: 10;
   padding-top: 20px;
   position: absolute;
   left: 0;
@@ -383,6 +383,8 @@
   @media (max-width: 992px) {
     .nav {
       padding-bottom: 20px; } }
+  .nav.no-shadow {
+    box-shadow: none !important; }
   .nav.scrolled {
     position: fixed;
     background: white;

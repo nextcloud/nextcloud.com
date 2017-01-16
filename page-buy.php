@@ -1,14 +1,23 @@
 <script src='https://www.google.com/recaptcha/api.js'></script>
-<div class="background enterprise-background">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Contact us for a quote');?></h1>
-				<h2><?php echo $l->t('Our sales team will help you determine the best solution for your business needs');?></h2>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/enterprise.js"></script>
+<section class="buy-hero-section second-menu">
+	<div class="container-fluid background buy-background">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 topheader">
+					<h1><?php echo $l->t('Contact us for a quote');?></h1>
+					<h2><?php echo $l->t('Our sales team will help you determine the best solution for your business needs');?></h2>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
+	<div class="container-fluid menu" id="menuAnchor">
+		<div class="container buttons">
+			<a class="btn btn-primary" href="/pricing">pricing plans</a>
+			<a class="btn btn-primary" href="/enterprise">enterprise offering</a>
+		</div>
+	</div>
+</section>
 
 <div class="container">
 	<div class="contact">
