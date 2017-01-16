@@ -102,7 +102,8 @@
   .slideshow-mobile .carousel-control {
     display: none; }
   .slideshow-mobile .carousel-indicators {
-    top: 320px; }
+    top: 320px;
+    z-index: 1; }
     .slideshow-mobile .carousel-indicators li {
       width: 28px;
       height: 28px;

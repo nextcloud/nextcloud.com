@@ -105,7 +105,8 @@
   .slideshow-mobile .carousel-control {
     display: none; }
   .slideshow-mobile .carousel-indicators {
-    top: 320px; }
+    top: 320px;
+    z-index: 1; }
     .slideshow-mobile .carousel-indicators li {
       width: 28px;
       height: 28px;
@@ -593,6 +594,16 @@
   .brand {
     -webkit-transform: scale(0.5);
     top: -26px !important; } }
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear; }
+
+.headroom--pinned {
+  transform: translateY(0%); }
+
+.headroom--unpinned {
+  transform: translateY(-100%); }
+
 .nav {
   z-index: 10;
   padding-top: 20px;

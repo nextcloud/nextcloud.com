@@ -148,6 +148,7 @@
 
     .carousel-indicators {
       top: 320px;
+      z-index: 1; 
 
       li {
         width: 28px;

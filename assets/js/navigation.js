@@ -10,14 +10,16 @@ $(document).ready(function() {
         //Fade In animation
         $(this.variables.navigationId).velocity("transition.fadeIn", 1000 );
 
-        //this.showHeaderOnScroll();
-        this.checkScroll();
+        this.showAndHideHeader();
 
         this.animatedLogoSprite();
 
-        //Enquire.js This hides the list on hover in the mobile
         enquire.register("screen and (max-width: 992px)", {
             match: _.bind(this.mobileEvent, this) 
+        });
+
+        enquire.register("screen and (max-height: 700px)", {
+            match: _.bind(this.checkScroll, this) 
         });
 
         enquire.register("screen and (min-width: 993px)", {
@@ -81,6 +83,12 @@ $(document).ready(function() {
 
         $(this.variables.linksSelector).slideUp().removeClass(this.variables.activeClass);
         $(event.currentTarget).find(this.variables.linksSelector).slideToggle().addClass(this.variables.activeClass);
+    },
+
+    showAndHideHeader: function() {
+        var myElement = document.querySelector(".nav");
+        var headroom  = new Headroom(myElement);
+        headroom.init(); 
     },
 
     mobileEvent: function() {
