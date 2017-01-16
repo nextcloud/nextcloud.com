@@ -16,8 +16,8 @@
 			<a href="#security"><?php echo $l->t('security');?></a>
 			<a href="#lifecycle"><?php echo $l->t('lifecycle');?></a>
 			<a href="#capabilities"><?php echo $l->t('capabilities');?></a>
-			<a class="btn btn-primary" href="/pricing"><?php echo $l->t('pricing plans');?></a>
 			<a class="btn btn-primary" href="/buy"><?php echo $l->t('get a quote');?></a>
+			<a class="btn btn-primary" href="/pricing"><?php echo $l->t('pricing plans');?></a>
 		</div>
 	</div>
 </section>
