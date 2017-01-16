@@ -255,8 +255,7 @@
       font-size: 30px; }
   .slideshow-mobile .carousel-fade .carousel-indicators li {
     box-shadow: 0px 0px 3px grey;
-    /* 				color: black; */
-    /* 				border: 1px solid black; */ }
+    margin: 7px; }
   .slideshow-mobile html, .slideshow-mobile body, .slideshow-mobile .carousel, .slideshow-mobile .carousel-inner, .slideshow-mobile .carousel-inner .item {
     height: 100%; }
 
