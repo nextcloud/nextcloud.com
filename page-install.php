@@ -3,7 +3,7 @@
 </div>
 <hr class="wide"></hr>
 <div class="row">
-	<div class="col-md-4 col-md-offset-1">
+	<div class="col-md-4">
 		<hr class="narrow"></hr>
 		<div class="numbadge centre">
 			<i class="icon-download"></i>
@@ -16,7 +16,7 @@
 			<a class="btn btn-default btn-large" href="/providers">Providers</a>
 		</div>
 	</div>
-	<div class="col-md-4  col-md-offset-2">
+	<div class="col-md-4">
 		<hr class="narrow"></hr>
 		<div class="numbadge centre">
 			<i class="icon-refresh"></i>
@@ -26,7 +26,18 @@
 		<div class="btn-group">
 			<a class="btn btn-default btn-large" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients">Desktop Clients</a>
 			<a class="btn btn-default btn-large" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">Mobile Clients</a>
+		</div>
 	</div>
+	<div class="col-md-4">
+		<hr class="narrow"></hr>
+		<div class="numbadge centre">
+			<i class="icon-cloud"></i>
+		</div>
+		<h2><?php echo $l->t('Extend your cloud');?></h2>
+		<p><?php echo $l->t('Browse dozens of free apps and services you could use with your Nextcloud:');?></p>
+		<div class="btn-group">
+			<a class="btn btn-default btn-lg" role="button" href="https://apps.nextcloud.com" target="_blank" rel="tooltip" title="App Store">App Store</a>
+		</div>
 	</div>
   <div class="col-md-4">
     <hr class="narrow"></hr>

@@ -91,7 +91,7 @@
       top: 120px;
 	  margin-left: 5%;
     }
-    .annoucement {
+    .announcement {
       background-color:  rgba(0, 115, 178, 0.51);
       border-radius: 20px;
       padding: 0 12px 0 5px;
@@ -142,7 +142,7 @@
           background-size: 12px 12px;
           height: 12px;
           width: 12px;
-          top: 7px;
+          top: 10px;
           margin-left: 5px;
           transition: all 0.3s ease;
 
@@ -192,7 +192,7 @@
 
 
 /**
- * Home page: Introducing Nextcloud 10
+ * Home page: Introducing Nextcloud X
  */
 .right-text-grey {
   opacity: 0;
@@ -302,7 +302,6 @@
   }
 
   h2 {
-    margin-left: 5%;
     font-size: 60px;
     line-height: 0.9;
     color: #ffffff;
@@ -315,7 +314,6 @@
   }
 
   p {
-    margin-left: 5%;
     font-size: 18px;
     font-weight: 300;
     line-height: 1.6;
