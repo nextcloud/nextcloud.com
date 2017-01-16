@@ -10,7 +10,7 @@ $(document).ready(function() {
         //Fade In animation
         $(this.variables.navigationId).velocity("transition.fadeIn", 1000 );
 
-        this.showAndHideHeader();
+        this.checkScroll();
 
         this.animatedLogoSprite();
 
@@ -19,7 +19,7 @@ $(document).ready(function() {
         });
 
         enquire.register("screen and (max-height: 700px)", {
-            match: _.bind(this.checkScroll, this) 
+            match: _.bind(this.showAndHideHeader, this) 
         });
 
         enquire.register("screen and (min-width: 993px)", {
