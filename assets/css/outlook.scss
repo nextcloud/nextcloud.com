@@ -1,0 +1,73 @@
+@import "variables.scss";
+/*@import "transparent-navbar.scss";*/
+
+/* gradient behind nav */
+.nav:not(.scrolled) {
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  }
+
+/* background */
+.outlook-background {
+  background-image: url("../img/outlook/outlook-header.jpg");
+  background-position: bottom 50% right 50%;
+/*   text-shadow: 0px 0px 8px black; */
+}
+
+
+/* feature blocks */
+
+.featurerow {
+	margin-top: 100px;
+	padding-bottom: 50px;
+	p {
+		margin-top: 15px;
+	}
+	img {
+		box-shadow: 0px 0px 4px black;
+	}
+	h1 {
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	@media (min-width: $break-big) {
+		.yt-img-overlay {
+			.yt-play-btn {
+				padding-left: 42%;
+				padding-top: 25%;
+				width: 100%;
+				height: 100%;
+				i {
+				width: 102px;
+				height: 75px;
+				}
+				
+			}
+		}
+	}
+}
+
+.featureblock {
+	padding-top: 10px;
+	h2 {
+		font-size: 40px;
+		margin-top: 5px;
+		color: #2a2a36;
+		margin-bottom: 5px;
+		}
+}
+
+/* quote background */
+.quote {
+	margin: 80px 0 50px 0;
+	padding: 150px 0px 150px 0px;
+	background: $nextcloud-blue;
+	p {
+		color: white;
+	}
+}
+
+
+
