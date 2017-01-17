@@ -2683,47 +2683,46 @@ li {
   max-width: 1800px; }
 
 /* second header like on enterprise pages */
-.second-menu {
-  /* 	Hide on mobile */ }
-  .second-menu .menu {
-    background: #fbfbfb;
-    height: 70px;
-    border-bottom: solid 1px #e4e4e4;
-    border-top: solid 1px #e4e4e4;
-    text-transform: uppercase;
-    vertical-align: middle;
-    z-index: 2; }
-    @media (max-width: 991px) {
-      .second-menu .menu {
-        display: none; } }
-    .second-menu .menu .buttons {
-      font-weight: 600;
-      margin-top: 23px; }
-      .second-menu .menu .buttons a {
-        padding-right: 10px;
-        color: gray;
-        transition: all 0.3s ease; }
-        .second-menu .menu .buttons a:focus {
-          text-decoration: none;
-          color: black; }
-        .second-menu .menu .buttons a:hov .second-menu .menu .buttons a:active {
-          text-decoration: none;
-          color: black; }
-        .second-menu .menu .buttons a:hover {
-          text-decoration: none;
-          color: black; }
-      .second-menu .menu .buttons .btn-primary {
-        float: right;
-        font-size: 14px;
-        padding: 8px 20px;
-        margin-left: 20px;
-        margin-top: -5px;
+.second-menu .menu {
+  background: #fbfbfb;
+  height: 70px;
+  border-bottom: solid 1px #e4e4e4;
+  border-top: solid 1px #e4e4e4;
+  text-transform: uppercase;
+  vertical-align: middle;
+  z-index: 2; }
+  @media (max-width: 991px) {
+    .second-menu .menu {
+      display: none; } }
+  .second-menu .menu .buttons {
+    font-weight: 600;
+    margin-top: 23px; }
+    .second-menu .menu .buttons a {
+      padding-right: 10px;
+      color: gray;
+      transition: all 0.3s ease;
+      letter-spacing: 1px; }
+      .second-menu .menu .buttons a:focus {
+        text-decoration: none;
+        color: black; }
+      .second-menu .menu .buttons a:hov .second-menu .menu .buttons a:active {
+        text-decoration: none;
+        color: black; }
+      .second-menu .menu .buttons a:hover {
+        text-decoration: none;
+        color: black; }
+    .second-menu .menu .buttons .btn-primary {
+      float: right;
+      font-size: 14px;
+      padding: 8px 20px;
+      margin-left: 20px;
+      margin-top: -5px;
+      color: white; }
+      .second-menu .menu .buttons .btn-primary:hover {
+        text-decoration: none;
         color: white; }
-        .second-menu .menu .buttons .btn-primary:hover {
-          text-decoration: none;
-          color: white; }
-        .second-menu .menu .buttons .btn-primary:before {
-          background: none; }
+      .second-menu .menu .buttons .btn-primary:before {
+        background: none; }
 
 /* typical background images (hero section) like enterprise, security */
 .background {
