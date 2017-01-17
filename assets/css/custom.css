@@ -2262,14 +2262,14 @@ li {
   height: 70px;
   border-bottom: solid 1px #e4e4e4;
   border-top: solid 1px #e4e4e4;
-  text-transform: uppercase;
+  text-transform: capitalize;
   vertical-align: middle;
   z-index: 2; }
   @media (max-width: 991px) {
     .second-menu .menu {
       display: none; } }
   .second-menu .menu .buttons {
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 23px; }
     .second-menu .menu .buttons a {
       padding-right: 10px;

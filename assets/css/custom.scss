@@ -330,7 +330,7 @@ li {
 		height: 70px;
 		border-bottom: solid 1px #e4e4e4;
 		border-top: solid 1px #e4e4e4;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		vertical-align: middle;
 		z-index: 2;
         
@@ -339,7 +339,7 @@ li {
 		}
 
 		.buttons {
-			font-weight: 600;
+			font-weight: 500;
 			margin-top: 23px;
 
 			a {
