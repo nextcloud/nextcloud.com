@@ -10,7 +10,7 @@ $(document).ready(function() {
         //Fade In animation
         $(this.variables.navigationId).velocity("transition.fadeIn", 1000 );
 
-        this.checkScroll();
+        //this.checkScroll();
 
         this.animatedLogoSprite();
 
@@ -90,19 +90,32 @@ $(document).ready(function() {
     showAndHideHeader: function() {
         var myElement = document.querySelector(".nav");
         
+        //I should pass the variable object inside the headroom object
+
         var headroom  = new Headroom(myElement,{
-            offset: 600,
+            offset: 100,
             tolerance : {
                 up : 5,
                 down : 0
             },
+
+            onTop: function() {
+                $("#nav").removeClass("scrolled");
+                $(".logo").removeClass("scrolled");
+            },
             
-            onPin: function () {
+            onPin: function() {
                 $(".menu").removeClass("hidedPrincipalNavigation");
+                $("#nav").addClass("scrolled");
+                $(".logo").addClass("scrolled");
+                //$(this.variables.navigationId).addClass(this.variables.scrolledClass);
+                //$(this.variables.logoSelector).addClass(this.variables.scrolledClass);
             },
 
             onUnpin: function() {
                 $(".menu").addClass("hidedPrincipalNavigation");
+                $("#nav").removeClass("scrolled");
+                $(".logo").removeClass("scrolled");
             }
         });
         headroom.init(); 
