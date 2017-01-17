@@ -24,7 +24,7 @@
     position: relative;
 
     &.headroom {
-        transition: top 200ms ease;
+        transition: transform 200ms ease;
     }
     
     &.headroom--pinned {

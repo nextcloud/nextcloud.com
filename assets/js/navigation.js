@@ -90,7 +90,7 @@ $(document).ready(function() {
     showAndHideHeader: function() {
         var myElement = document.querySelector(".nav");
         
-        //I should pass the variable object inside the headroom object
+        //I should pass the variable object inside the headroom
 
         var headroom  = new Headroom(myElement,{
             offset: 100,
