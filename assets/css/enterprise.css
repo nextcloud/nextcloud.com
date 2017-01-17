@@ -6,6 +6,17 @@
   background-color: transparent;
   position: absolute; }
 
+/* gradient behind transparent nav */
+.nav:not(.scrolled) {
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+  /* IE6-9 */ }
+
 /**
  * Enterprise Page
  */
@@ -21,7 +32,8 @@
   border-radius: 0 !important;
   height: 70vh;
   min-height: 600px;
-  max-height: 800px; }
+  max-height: 800px;
+  background-image: url("../img/enterprise/hero__enterprise.jpg"); }
 .enterprise-hero-section .topbanner {
   width: auto;
   height: auto;
@@ -73,11 +85,13 @@
     .section--expertise .container .expertise__ilustration {
       background: url(../img/enterprise/ilustration_matterexperts-new.svg) no-repeat center/contain;
       width: 950px;
-      height: 700px;
+      height: 500px;
       max-width: 100%;
       max-height: 60vw;
       margin: 0 auto;
-      position: relative; }
+      position: relative;
+      margin-top: 60px;
+      margin-bottom: 60px; }
 
 .section--security {
   background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
@@ -92,11 +106,13 @@
     .section--security .container .security__ilustration {
       background: url(../img/enterprise/security-new.svg) no-repeat center/contain;
       width: 850px;
-      height: 700px;
+      height: 500px;
       margin: 0 auto;
       max-width: 100%;
       max-height: 50vw;
-      position: relative; }
+      position: relative;
+      margin-top: 60px;
+      margin-bottom: 60px; }
 
 .section--lifecycle {
   background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
@@ -111,152 +127,12 @@
     .section--lifecycle .container .lifecycle__ilustration {
       background: url(../img/enterprise/data_safe-new.svg) no-repeat center/contain;
       width: 950px;
-      height: 700px;
+      height: 500px;
       margin: 0 auto;
       max-width: 100%;
       max-height: 50vw;
-      position: relative; }
-
-/* Features section */
-/*.Section-Features-Nextcloud {
-  background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
-  background: -o-linear-gradient(#fff 0%, #f6f6f6 150px);
-  background: linear-gradient(#fff 0%, #f6f6f6 150px);
-  overflow: hidden;
-  height: 200vh;
-  position: relative;
-	padding-top: ms(5);
-    padding-bottom: ms(5);
-  @media (max-width: $navbar-breaksize) {
-    padding-top: 60px;
-    height: 100vh;
-  }
-
-  h2{
-    font-size: 60px;
-  }
-
-  .img_carousel {
-    padding-top: 100px;
-    position:relative;
-    @media (max-height: 800px) {
-      padding-top: 60px;
-    }
-
-    img {
-      float: right;
-      width: 582px;
-      height: 474px;
-      @media (max-height: 800px) {
-        width: 490px;
-        height: 402px;
-      }
-    }
-  }
-
-  .indicators {
-    -webkit-transition: all .5s;
-    transition: all .5s;
-    opacity: 1;
-    position: absolute;
-    z-index: 2;
-    bottom: 50vh;
-    right: 0;
-    @media (max-width: $break-small) {
-      display: none;
-    }
-
-    .btn_carousel{
-      margin-top: 10px;
-      width: 14px;
-      height: 14px;
-      color: transparent;
-      border: 1px solid $nextcloud-blue;
-      background-color: $nextcloud-blue;
-      border-radius: 50%;
-      padding: 0;
-      -webkit-transform: scale(.5);
-      -ms-transform: scale(.5);
-      transform: scale(.5);
-      -webkit-transition: all 250ms ease-in-out;
-      transition: all 250ms ease-in-out;
-    }
-
-    .btn_carousel.active{
-      background-color: transparent;
-      -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-      transform: scale(1);
-    }
-  }
-}*/
-/* Hide slideshow on small screens */
-@media (max-width: 1200px) {
-  .slideshow {
-    display: none; } }
-
-.slideshow-mobile {
-  /* 	hide on non-mobile */
-  background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
-  background: -o-linear-gradient(#fff 0%, #f6f6f6 150px);
-  background: linear-gradient(#fff 0%, #f6f6f6 150px);
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 10px;
-  padding-right: 10px;
-  height: 600px; }
-  @media (min-width: 1200px) {
-    .slideshow-mobile {
-      display: none; } }
-  @media (max-width: 768px) {
-    .slideshow-mobile {
-      height: 800px; }
-      .slideshow-mobile img {
-        max-height: 400px;
-        width: auto;
-        margin-left: auto;
-        margin-right: auto; } }
-  .slideshow-mobile .carousel-fade .carousel-inner .item {
-    opacity: 0;
-    -webkit-transition-property: opacity;
-    -moz-transition-property: opacity;
-    -o-transition-property: opacity;
-    transition-property: opacity; }
-  .slideshow-mobile .carousel-fade .carousel-inner .active {
-    opacity: 1; }
-  .slideshow-mobile .carousel-fade .carousel-inner .active.left,
-  .slideshow-mobile .carousel-fade .carousel-inner .active.right {
-    left: 0;
-    opacity: 0;
-    z-index: 1; }
-  .slideshow-mobile .carousel-fade .carousel-inner .next.left,
-  .slideshow-mobile .carousel-fade .carousel-inner .prev.right {
-    opacity: 1; }
-  .slideshow-mobile .carousel-fade .carousel-control {
-    z-index: 2;
-    position: absolute;
-    top: 45%;
-    width: 40px;
-    height: 40px;
-    color: #fff;
-    background: #222;
-    border: 3px solid #fff;
-    -webkit-border-radius: 23px;
-    -moz-border-radius: 23px;
-    border-radius: 23px;
-    opacity: .5;
-    filter: alpha(opacity=50); }
-    @media (max-width: 768px) {
-      .slideshow-mobile .carousel-fade .carousel-control {
-        top: 20%; } }
-    .slideshow-mobile .carousel-fade .carousel-control .glyphicon {
-      /* 				margin-top: -15px; */
-      margin: -15px;
-      font-size: 30px; }
-  .slideshow-mobile .carousel-fade .carousel-indicators li {
-    box-shadow: 0px 0px 3px grey;
-    margin: 7px; }
-  .slideshow-mobile html, .slideshow-mobile body, .slideshow-mobile .carousel, .slideshow-mobile .carousel-inner, .slideshow-mobile .carousel-inner .item {
-    height: 100%; }
+      position: relative;
+      margin-top: 60px;
+      margin-bottom: 60px; }
 
 /*# sourceMappingURL=enterprise.css.map */

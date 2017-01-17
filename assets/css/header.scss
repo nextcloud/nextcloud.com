@@ -3,6 +3,16 @@
   .brand { -webkit-transform: scale(0.5); top: -26px !important; }
 }
 
+
+.menu {
+    will-change: transform;
+    transition: transform 200ms ease;
+    
+    &.hidedPrincipalNavigation {
+        transform: translateY(-130%);
+    }
+}
+
 .nav {
     z-index: 10;
     padding-top: 20px;
@@ -12,6 +22,19 @@
     opacity: 0;
     background: $nextcloud-blue;
     position: relative;
+
+    &.headroom {
+        will-change: transform;
+        transition: transform 200ms ease;
+    }
+    
+    &.headroom--pinned {
+        transform: translateY(0%);
+    }
+
+    &.headroom--unpinned {
+        transform: translateY(-100%);
+    }
 
     .container {
         position: relative;
@@ -504,20 +527,6 @@
         opacity: 1;
         left: 0;
     }
-}
-
-//Hide and show navigation 
-@media (max-height:800px) {
-     .nav-down {
-         opacity: 1;
-         transition: all .2s ease-in-out ;
-     }
-
-     .nav-up {
-         top: -100px !important;
-         opacity: 0;
-         transition: all .2s ease-in-out ;
-     }
 }
 
 /**

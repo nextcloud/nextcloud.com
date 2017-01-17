@@ -6,8 +6,6 @@
 				<h1><?php echo $l->t('Get support from the source');?></h1>
 				<h2><?php echo $l->t('Going beyond the traditional licensing model, Nextcloud frees you from vendor lock-in and provides value through supporting your business\' needs.');?></h2>
 			</div>
-			<div class="col-md-6 topbanner"> <img src="<?php bloginfo('template_directory'); ?>/assets/img/enterprise/hero-image.png" alt=""></img></div>
-			</div>
 		</div>
 	</div>
 	<div class="container-fluid menu" id="menuAnchor">
@@ -21,7 +19,6 @@
 		</div>
 	</div>
 </section>
-
 
 <section class="what-you-get-section">
 	<div class="container">
@@ -37,7 +34,7 @@
 		<h3 class="section--heading-1 text-center revealOnScroll">Dedicated to your success</h3>
 		<div class="expertise__ilustration"></div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We are dedicated to your success as Nextcloud customer. An analysis of your needs, a pilot customized for your architecture and remote installation support ensures a smooth introduction of Nextcloud in your organization and we will help you scale up to meet growing demand in your organization.');?></p>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud GmbH employs <a href="https://nextcloud.com/blog/nextcloud-the-most-active-open-source-file-sync-and-share-project/">9 of the top-ten developers in the Nextcloud Server codebase</a>, making our engineering team by far the most qualified to help you get the most out of your Enterprise File Sync and Share solution.');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud GmbH employs <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-the-most-active-open-source-file-sync-and-share-project/">9 of the top-ten developers in the Nextcloud Server codebase</a>, making our engineering team by far the most qualified to help you get the most out of your Enterprise File Sync and Share solution.');?></p>
 		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/team">Our team</a></p>
 	</div>
 </section>
@@ -132,7 +129,7 @@
 				<div class="col-sm-6">
 					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-integration.png" alt="in action" />
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-6 text-container">
 					<h5><?php echo $l->t('Deep integration in your infrastructure');?></h5>
 					<p><?php echo $l->t('Nextcloud offers LDAP/Active Directory, SAML and Kerboros authentication. It accesses data on NFS, (s)FTP, WebDAV, Windows Network Drive, Object Stores like SWIFT and many more.');?></p>
 					<a class="button button--blue button--arrow button--large" href="<?php echo get_template_directory_uri(); ?>/assets/files/architecture-whitepaper.pdf" role="button"><?php echo $l->t('Architecture Whitepaper');?></a>
@@ -145,7 +142,7 @@
 				<div class="col-sm-6">
 					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-security.png" alt="in action" />
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-6 text-container">
 					<h5><?php echo $l->t('Security features keep your data safe');?></h5>
 					<p><?php echo $l->t('Nextcloud supports two-factor authentication and Server Side Encryption, has brute force protection and features industry-standard security measures like CSP, SSC and password and session management.');?></p>
 					<a class="button button--blue button--arrow button--large" href="/secure" role="button"><?php echo $l->t('Learn more about security');?></a>
@@ -158,7 +155,7 @@
 				<div class="col-sm-6">
 					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-control.png" alt="in action" />
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-6 text-container">
 					<h5><?php echo $l->t('IT stays in control');?></h5>
 					<p><?php echo $l->t('Our File Access Control app enables administrators to defining data access rules or triggering actions based on location, group membership, file type, tags and other properties.');?></p>
 					<a class="button button--blue button--arrow button--large" href="/workflow/" role="button"><?php echo $l->t('Learn more about Workflow');?></a>
@@ -171,7 +168,7 @@
 				<div class="col-sm-6">
 					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-access.png" alt="in action" />
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-6 text-container">
 					<h5><?php echo $l->t('Easy access for users');?></h5>
 					<p><?php echo $l->t('Users can access and share their data on Nextcloud through sync clients for Windows, Linux and Mac as well as Android and IOS, providing a smooth experience no matter where data is located.');?></p>
 					<a class="button button--blue button--arrow button--large" href="/features" role="button"><?php echo $l->t('Learn more about features');?></a>

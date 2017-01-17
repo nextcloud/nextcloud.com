@@ -10,14 +10,16 @@ $(document).ready(function() {
         //Fade In animation
         $(this.variables.navigationId).velocity("transition.fadeIn", 1000 );
 
-        //this.showHeaderOnScroll();
         this.checkScroll();
 
         this.animatedLogoSprite();
 
-        //Enquire.js This hides the list on hover in the mobile
         enquire.register("screen and (max-width: 992px)", {
             match: _.bind(this.mobileEvent, this) 
+        });
+
+        enquire.register("screen and (max-height: 700px)", {
+            match: _.bind(this.showAndHideHeader, this) 
         });
 
         enquire.register("screen and (min-width: 993px)", {
@@ -29,6 +31,7 @@ $(document).ready(function() {
         toggleSelector: "#toggle",
         navigationId: "#nav",
         navigationSelector: ".nav",
+        subMenuSelector: "#menuAnchor",
         sectionsSelector: ".nav__sections",
         sectionsContainerSelector: ".nav__sections-wrapper",
         sectionSelector: ".nav__section",
@@ -67,6 +70,7 @@ $(document).ready(function() {
     },    
 
     resetDesktop: function() {
+        //headroom.destroy();
         $(this.variables.sectionSelector).off("mouseover");
         $(this.variables.sectionSelector).off("mouseleave");
         $(this.variables.linksSelector).hide();
@@ -81,6 +85,28 @@ $(document).ready(function() {
 
         $(this.variables.linksSelector).slideUp().removeClass(this.variables.activeClass);
         $(event.currentTarget).find(this.variables.linksSelector).slideToggle().addClass(this.variables.activeClass);
+    },
+
+    showAndHideHeader: function() {
+        var myElement = document.querySelector(".nav");
+        
+        var headroom  = new Headroom(myElement,{
+            offset: 600,
+            tolerance : {
+                up : 5,
+                down : 0
+            },
+            
+            onPin: function () {
+                $(".menu").removeClass("hidedPrincipalNavigation");
+            },
+
+            onUnpin: function() {
+                $(".menu").addClass("hidedPrincipalNavigation");
+            }
+        });
+        headroom.init(); 
+
     },
 
     mobileEvent: function() {
