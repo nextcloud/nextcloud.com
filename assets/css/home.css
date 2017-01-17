@@ -26,12 +26,10 @@
     color: white;
     font-size: 60px;
     line-height: 60px;
-    letter-spacing: -2px;
     font-weight: 500; }
     @media (max-width: 991px) {
       .jumbotron h1 {
         width: 250px;
-        letter-spacing: -1px;
         font-size: 35px;
         line-height: 1.2; } }
   .jumbotron h2 {

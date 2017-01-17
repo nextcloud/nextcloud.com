@@ -40,7 +40,6 @@ h1 {
   margin-bottom: 10px;
   font-size: 60px;
   line-height: 60px;
-  letter-spacing: -2px;
   color: #555;
   font-weight: 500; }
 
@@ -68,7 +67,6 @@ h5 {
   font-size: 17px;
   font-weight: bold;
   line-height: 1.5;
-  letter-spacing: -1px;
   color: #555; }
 
 /*Colors*/
@@ -289,12 +287,10 @@ h5 {
     color: white;
     font-size: 60px;
     line-height: 60px;
-    letter-spacing: -2px;
     font-weight: 500; }
     @media (max-width: 991px) {
       .jumbotron h1 {
         width: 250px;
-        letter-spacing: -1px;
         font-size: 35px;
         line-height: 1.2; } }
   .jumbotron h2 {
@@ -1039,7 +1035,6 @@ h5 {
             font-size: 35px;
             line-height: 45px;
             padding-left: 0;
-            letter-spacing: -2px;
             font-weight: 600; }
           .nav .container .nav__sections-wrapper .nav__sections.active .nav__section:nth-of-type(2) {
             animation-delay: .4s; }
@@ -1068,8 +1063,7 @@ h5 {
                 line-height: 39px;
                 color: white;
                 margin-left: 0;
-                font-weight: 100;
-                letter-spacing: -2px; }
+                font-weight: 100; }
     .nav .container .nav__sections-wrapper .right-buttons {
       position: relative;
       padding: 0;
@@ -1087,7 +1081,6 @@ h5 {
         font-size: 35px;
         line-height: 45px;
         padding-left: 0;
-        letter-spacing: -2px;
         font-weight: 600;
         display: block;
         text-align: left;
@@ -2796,7 +2789,6 @@ li {
   h1 {
     font-size: 35px;
     line-height: 35px;
-    letter-spacing: -2px;
     color: #2a2a36;
     font-weight: 500; }
 
@@ -2824,7 +2816,6 @@ li {
     font-size: 24px;
     font-weight: bold;
     line-height: 1.5;
-    letter-spacing: -1px;
     color: #2a2a36; } }
 .highlights {
   display: -ms-flexbox;
