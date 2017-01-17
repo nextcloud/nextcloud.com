@@ -24,16 +24,15 @@
     position: relative;
 
     &.headroom {
-        will-change: transform;
-        transition: transform 200ms ease;
+        transition: top 200ms ease;
     }
     
     &.headroom--pinned {
-        transform: translateY(0%);
+        top:0px;
     }
 
     &.headroom--unpinned {
-        transform: translateY(-100%);
+        top:-100px;
     }
 
     .container {
