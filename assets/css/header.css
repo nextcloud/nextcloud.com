@@ -21,12 +21,11 @@
   background: #0082c9;
   position: relative; }
   .nav.headroom {
-    will-change: transform;
-    transition: transform 200ms ease; }
+    transition: top 200ms ease; }
   .nav.headroom--pinned {
-    transform: translateY(0%); }
+    top: 0px; }
   .nav.headroom--unpinned {
-    transform: translateY(-100%); }
+    top: -100px; }
   .nav .container {
     position: relative;
     /* Fix ul and li settings in common */ }
