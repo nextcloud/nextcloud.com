@@ -39,7 +39,7 @@
 h1 {
   margin-bottom: 10px;
   font-size: 60px;
-  line-height: 60px;
+  line-height: 120%;
   color: #555;
   font-weight: 500; }
 
@@ -286,7 +286,7 @@ h5 {
     padding-top: 0;
     color: white;
     font-size: 60px;
-    line-height: 60px;
+    line-height: 120%;
     font-weight: 500; }
     @media (max-width: 991px) {
       .jumbotron h1 {
@@ -2788,7 +2788,7 @@ li {
 @media (max-width: 768px) {
   h1 {
     font-size: 35px;
-    line-height: 35px;
+    line-height: 120%;
     color: #2a2a36;
     font-weight: 500; }
 

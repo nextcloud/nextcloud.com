@@ -1240,7 +1240,7 @@ body {
  */
 h1 {
   font-size: 60px;
-  line-height: 60px;
+  line-height: 120%;
   color: #2a2a36;
   font-weight: 500; }
 
@@ -1316,7 +1316,7 @@ h5 {
 @media (max-width: 768px) {
   h1 {
     font-size: 35px;
-    line-height: 35px;
+    line-height: 120%;
     color: #2a2a36;
     font-weight: 500; }
 

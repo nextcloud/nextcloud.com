@@ -40,7 +40,7 @@ i[class*='fa-'] {
 h1 {
     margin-bottom: 10px;
     font-size: 60px;
-    /*   line-height: 60px; */
+    /*   line-height: 120%; */
     color: #555;
     font-weight: 500;
 }
@@ -220,7 +220,7 @@ p {
 @media (max-width: $break-small) {
     h1 {
         font-size: 35px;
-        line-height: 35px;
+        line-height: 120%;
         color: $dark-blue;
         font-weight: 500;
     }
