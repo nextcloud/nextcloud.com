@@ -1,0 +1,90 @@
+@import "../variables.scss";
+@import "../helpers.scss";
+@import '../vendor/modular-scale/modular-scale.scss';
+
+.section {
+    @include modifier(text--center) {
+        margin: 0 auto;
+        text-align: center;
+    } 
+
+    @include modifier(heading-1) {
+        font-size: ms(3);
+        font-weight: 300;
+        margin: 0;
+                
+        @media (max-width: $break-small) {
+            font-size: ms(2);
+            line-height: 1;
+            margin-top: 0;
+        }
+    }
+
+    @include modifier(heading-2) {
+        font-size: ms(2);
+        font-weight: 300;
+    }
+
+    @include modifier(intro) {
+        font-size: ms(0, 22px);
+        font-weight: 300;  
+    }   
+
+    @include modifier(intro) {
+        font-size: ms(0);
+        font-weight: 300;  
+    }   
+}
+
+.hyperlink {
+    color: #a2a2a2;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: solid 1px;
+    transition: all 0.5s ease;
+
+    &:hover {
+        text-decoration: none;
+        color: $dark-blue;
+    }
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 60px;
+    line-height: 60px; 
+    letter-spacing: -2px; 
+    color: #555;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 300;
+    color: #555; 
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #555; 
+}
+
+h4 {
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 1.36;
+  color: #555;
+  margin-bottom: 20px; 
+}
+
+h5 {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: -1px;
+  color: #555; 
+}

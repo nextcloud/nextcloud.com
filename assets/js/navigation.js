@@ -70,7 +70,7 @@ $(document).ready(function() {
     },    
 
     resetDesktop: function() {
-        headroom.destroy();
+        //headroom.destroy();
         $(this.variables.sectionSelector).off("mouseover");
         $(this.variables.sectionSelector).off("mouseleave");
         $(this.variables.linksSelector).hide();

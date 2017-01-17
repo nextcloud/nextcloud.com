@@ -5,22 +5,11 @@
   .brand {
     -webkit-transform: scale(0.5);
     top: -26px !important; } }
-.headroom {
-  will-change: transform;
-  transition: transform 200ms ease; }
-
-.headroom--pinned {
-  transform: translateY(0%); }
-
-.headroom--unpinned {
-  transform: translateY(-100%); }
-
 .menu {
   will-change: transform;
   transition: transform 200ms ease; }
-
-.hidedPrincipalNavigation {
-  transform: translateY(-130%); }
+  .menu.hidedPrincipalNavigation {
+    transform: translateY(-130%); }
 
 .nav {
   z-index: 10;
@@ -31,6 +20,13 @@
   opacity: 0;
   background: #0082c9;
   position: relative; }
+  .nav.headroom {
+    will-change: transform;
+    transition: transform 200ms ease; }
+  .nav.headroom--pinned {
+    transform: translateY(0%); }
+  .nav.headroom--unpinned {
+    transform: translateY(-100%); }
   .nav .container {
     position: relative;
     /* Fix ul and li settings in common */ }
@@ -382,15 +378,6 @@
   100% {
     opacity: 1;
     left: 0; } }
-@media (max-height: 800px) {
-  .nav-down {
-    opacity: 1;
-    transition: all 0.2s ease-in-out; }
-
-  .nav-up {
-    top: -100px !important;
-    opacity: 0;
-    transition: all 0.2s ease-in-out; } }
 /**
 * Scrolled navbar style
 */

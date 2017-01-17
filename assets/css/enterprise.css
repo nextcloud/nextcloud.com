@@ -78,7 +78,9 @@
       max-width: 100%;
       max-height: 60vw;
       margin: 0 auto;
-      position: relative; }
+      position: relative;
+      margin-top: 60px;
+      margin-bottom: 60px; }
 
 .section--security {
   background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
@@ -97,7 +99,9 @@
       margin: 0 auto;
       max-width: 100%;
       max-height: 50vw;
-      position: relative; }
+      position: relative;
+      margin-top: 60px;
+      margin-bottom: 60px; }
 
 .section--lifecycle {
   background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
@@ -116,6 +120,8 @@
       margin: 0 auto;
       max-width: 100%;
       max-height: 50vw;
-      position: relative; }
+      position: relative;
+      margin-top: 60px;
+      margin-bottom: 60px; }
 
 /*# sourceMappingURL=enterprise.css.map */
