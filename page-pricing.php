@@ -2,7 +2,7 @@
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pricing.css" rel="stylesheet">
 
 <section class="pricing-hero-section second-menu">
-	<div class="background pricing-background"> 
+	<div class="background pricing-background">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 topheader">
@@ -16,7 +16,7 @@
 		<div class="container buttons">
 			<a href="#plans">plans</a>
 			<a href="#discounts">discounts</a>
-			<a href="#faq">faq</a>
+			<a href="#faq">FAQ</a>
 			<a class="btn btn-primary" href="/buy">get a quote</a>
 			<a class="btn btn-primary" href="/enterprise">enterprise offering</a>
 		</div>
