@@ -10,4 +10,7 @@
   background: url("../img/headers/team.jpg") no-repeat;
   background-position: center; }
 
+.section--contribute {
+  display: inline-block; }
+
 /*# sourceMappingURL=contribute.css.map */
