@@ -7,7 +7,7 @@
 .menu {
     will-change: transform;
     transition: transform 200ms ease;
-    
+
     &.hidedPrincipalNavigation {
         transform: translateY(-130%);
     }
@@ -26,7 +26,7 @@
     &.headroom {
         transition: transform 200ms ease;
     }
-    
+
     &.headroom--pinned {
         top:0px;
     }
@@ -52,11 +52,11 @@
             transition: 0.3s;
             will-change: opacity;
             z-index: -2;
-            top: 50px;    	    
-                
+            top: 50px;
+
             &.is-visible {
                 visibility: visible;
-                opacity: 1;		    
+                opacity: 1;
             }
 
             .nav__bg {
@@ -88,7 +88,7 @@
                     border: 8px solid transparent;
                     border-bottom-color: #f1f1f1;
                 }
-                
+
                 &:after {
                     content: "";
                     position: absolute;
@@ -110,7 +110,7 @@
             		visibility: visible;
                 }
             }
-         }   
+         }
 
         .navbar-toggle {
             display: none;
@@ -141,7 +141,7 @@
                 &.stopedAnimation {
                     background-position-x: -4620px;
                 }
-            }    
+            }
         }
 
 		/* Fix ul and li settings in common */
@@ -162,17 +162,17 @@
             justify-content: center;
             list-style-type: none;
     	    position: absolute;
-    	    z-index: -1;	    
-    	    left: 20%;	    
+    	    z-index: -1;
+    	    left: 20%;
     	    top: 0%;
             @media (max-width: 1200px) {
                 left: 10%;
              }
-        
+
             .nav__section {
                 padding: 15px 0 15px 0;
                 position: relative;
-                
+
                 &:hover {
                     .nav__label {
                         opacity: 0.6;
@@ -228,10 +228,10 @@
                             margin-bottom: 0.625em;
                         }
                     }
-                }        
+                }
             }
         }
-        
+
         .right-buttons {
             position: absolute;
             top: 0;
@@ -242,7 +242,7 @@
                 text-align: center;
                 position: relative;
                 display: inline-block;
-                
+
                 a {
                     -webkit-transition: 0.3s;
                     transition: 0.3s;
@@ -263,7 +263,7 @@
                         transition: all 0.2s ease-in-out 0s;
                     }
                 }
-        
+
                  &:hover {
 
                     a {
@@ -296,7 +296,7 @@
 //Navigation breaked
 
 @media (max-width: 992px) {
-    .nav { 
+    .nav {
         .container {
             .brand {
                 padding-left: 15px;
@@ -304,7 +304,7 @@
                 .logo {
                     height: 53px;
                     width: 71px;
-                    
+
                     &.menu-open {
                         background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
                         height: 100px;
@@ -320,7 +320,7 @@
                             -o-animation: play 2s steps(33) forwards;
                             animation: play 2s steps(33) forwards;
                         }
-                        
+
                         &.stopedAnimation {
                             background-position-x: -4620px;
                         }
@@ -385,7 +385,7 @@
                 z-index: 2;
                 padding: 0;
 
-				
+
                 .nav__sections {
                     display: none;
                     position: relative;
@@ -428,7 +428,6 @@
                                     font-size: 35px;
                                     line-height: 45px;
                                     padding-left: 0;
-                                    letter-spacing: -2px;
                                     font-weight: 600;
                                 }
 
@@ -453,14 +452,14 @@
                                 &:nth-of-type(8) {
                                     animation-delay: .70s;
                                 }
-                            
+
                             .nav__links {
                                 display: none;
                                 position: relative;
                                 padding: 0;
                                 width: 100%;
                                 padding: 0 10px 0 20px;
-                                
+
                                 .nav__item {
                                     margin-left: 0;
 
@@ -477,7 +476,7 @@
                         }
                     }
                 }
-                
+
                 .right-buttons {
                     position: relative;
                     padding: 0;
@@ -501,7 +500,6 @@
                         font-size: 35px;
                         line-height: 45px;
                         padding-left: 0;
-                        letter-spacing: -2px;
                         font-weight: 600;
                         display: block;
                         text-align: left;
@@ -509,7 +507,7 @@
                         height: calc(100% / 7);
                         animation: fadeInRight .5s ease forwards;
 						pointer-events: none;
-					
+
                     }
                 }
             }
@@ -534,12 +532,12 @@
 
 .nav {
     padding-bottom: 70px;
-	
+
     transition: all .2s ease-in;
 
     @media (max-width: 992px) {
-        padding-bottom: 20px; 
-    } 
+        padding-bottom: 20px;
+    }
 
     &.no-shadow {
         box-shadow: none !important;
@@ -547,7 +545,7 @@
 
     &.scrolled {
         position: fixed;
-        
+
         background: white;
         box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.09);
 
@@ -582,7 +580,7 @@
         }
 
         .nav__sections-wrapper {
-            .nav__sections, .right-buttons:not(.active) {                
+            .nav__sections, .right-buttons:not(.active) {
                 .nav__section .nav__label, .ghost-btn .nav__label, .ghost-btn .nav__label {
                     color: $medium-grey;
 
@@ -596,7 +594,7 @@
 
     &.mobile {
         .nav__sections-wrapper {
-            .nav__sections, .ghost-btn {               
+            .nav__sections, .ghost-btn {
                 .nav__section .nav__label {
                     color: white;
                 }

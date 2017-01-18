@@ -21,13 +21,11 @@
     padding-top: 0;
     color: white;
     font-size: 60px;
-    line-height: 60px;
-    letter-spacing: -2px;
+    line-height: 120%;
     font-weight: 500;
     @media (max-width: $break-big) {
       width: 250px;
-      letter-spacing: -1px;
-      font-size: 35px; 
+      font-size: 35px;
       line-height: 1.2;
     }
   }
@@ -86,7 +84,7 @@
     top: 30vh;
 	padding-left: 0;
     margin-left: 0;
-    
+
     @media (max-width: $break-big) {
       top: 120px;
 	  margin-left: 5%;
@@ -103,11 +101,11 @@
       -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center;
-      
+
       @media (max-width: $break-small) {
         margin-left: -20px;
         width: calc(100% + 20px * 2);
-        border-radius: 0;      
+        border-radius: 0;
       }
 
       .type {
@@ -118,7 +116,7 @@
         background: $orange;
         text-transform: uppercase;
         border-radius: 10px;
-        
+
         @media (max-width: $break-small) {
           margin-left: 10px;
         }
@@ -133,7 +131,7 @@
           line-height: 22px;
           margin: 10px 10px;
         }
-        
+
         &:after {
           position: absolute;
           display: inline-block;
@@ -366,7 +364,7 @@
 
 #why-nextcloud {
   padding-top: 130px;
-  
+
   h2{
     font-size: 60px;
   }

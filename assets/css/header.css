@@ -314,7 +314,6 @@
             font-size: 35px;
             line-height: 45px;
             padding-left: 0;
-            letter-spacing: -2px;
             font-weight: 600; }
           .nav .container .nav__sections-wrapper .nav__sections.active .nav__section:nth-of-type(2) {
             animation-delay: .4s; }
@@ -343,8 +342,7 @@
                 line-height: 39px;
                 color: white;
                 margin-left: 0;
-                font-weight: 100;
-                letter-spacing: -2px; }
+                font-weight: 100; }
     .nav .container .nav__sections-wrapper .right-buttons {
       position: relative;
       padding: 0;
@@ -362,7 +360,6 @@
         font-size: 35px;
         line-height: 45px;
         padding-left: 0;
-        letter-spacing: -2px;
         font-weight: 600;
         display: block;
         text-align: left;

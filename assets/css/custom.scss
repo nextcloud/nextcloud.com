@@ -21,7 +21,7 @@ html{
 body {
     font-family: "Open Sans", Frutiger, Calibri, "Myriad Pro", Myriad, sans-serif;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; 
+    -moz-osx-font-smoothing: grayscale;
     font-size: 16px;
     line-height: 1.7;
     color: #555;
@@ -59,7 +59,7 @@ ul {
 
 li {
 	margin-top: 15px;
-	
+
 }
 
 /* All headers */
@@ -82,7 +82,7 @@ li {
     position: relative;
     display: inline-block;
     height: 50px;
-    line-height: 50px;    
+    line-height: 50px;
     font-weight: 600;
     font-size: 16px;
     text-decoration: none;
@@ -99,8 +99,8 @@ li {
         background-color: white;
     }
 
-    @include modifier(ghost) { 
-    
+    @include modifier(ghost) {
+
     }
 
     @include modifier(dropdown) {
@@ -129,7 +129,7 @@ li {
                 transform: rotate(180deg);
             }
         }
-        
+
         .dropdown-toggle {
             font-size: 0;
             z-index: 1;
@@ -245,7 +245,7 @@ li {
         height: 40px;
         line-height: 40px;
     }
-    
+
     @include modifier("blue") {
         background-color: $nextcloud-blue;
         border: none;
@@ -253,7 +253,7 @@ li {
         &:hover {
             background-color: $nextcloud-blue;
             color: white;
-			
+
 			&:before {
 				background: url(../img/common/arrow_right.svg) center/contain no-repeat;
 			}
@@ -333,7 +333,7 @@ li {
 		text-transform: capitalize;
 		vertical-align: middle;
 		z-index: 2;
-        
+
         @media (max-width: $break-big) {
 			display: none;
 		}
@@ -347,7 +347,7 @@ li {
 				color: gray;
                 transition: all 0.3s ease;
                 letter-spacing: 1px;
-				
+
 				&:focus {
 					text-decoration: none;
 					color: black;
@@ -415,7 +415,7 @@ li {
     margin: 0;
     padding: 0;
     max-width: 600px;
-    
+
     @media (max-width: $break-big) {
       padding-left: 5%;
     }
@@ -432,7 +432,7 @@ li {
 	font-weight: 600;
 	border-radius: 100px;
 	transition: all 0.3s ease 0s;
-	
+
 	&:before {
         content: "";
 		background: url(../img/common/arrow_right.svg) center/contain no-repeat;
@@ -444,16 +444,16 @@ li {
 		right: 50px;
 		transition: all 0.3s ease 0s;
     }
-	
+
 	&:hover {
 		background-color: $medium-blue;
 		text-decoration: none;
-		
+
 		&:before {
-			right: 30px;	
+			right: 30px;
 		}
 	}
-	
+
 	&:active {
         -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
         -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -463,11 +463,11 @@ li {
 }
 
 @media (max-width: $break-small) {
-	
+
 	.btn-primary{
 		padding: 20px 70px 20px 50px;
 		font-size: 15px;
-		
+
 		&:before {
 			right:30px;
 		}
@@ -483,19 +483,18 @@ li {
 @media (max-width: $break-small) {
     h1 {
         font-size: 35px;
-        line-height: 35px;
-        letter-spacing: -2px;
+        line-height: 120%;
         color: $dark-blue;
         font-weight: 500;
     }
-    
+
     h2 {
         font-size: 35px;
         font-weight: 300;
         line-height: 1.5;
         color: $dark-blue;
     }
-    
+
     h3 {
         font-size: 35px;
         font-weight: 300;
@@ -503,7 +502,7 @@ li {
         text-align: center;
         color: $dark-blue;
     }
-    
+
     h4 {
         font-size: 25px;
         font-weight: bold;
@@ -511,12 +510,11 @@ li {
         color: $dark-blue;
         margin-bottom: 20px;
     }
-    
+
     h5 {
         font-size: 24px;
         font-weight: bold;
         line-height: 1.5;
-        letter-spacing: -1px;
         color: $dark-blue;
     }
 

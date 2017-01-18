@@ -36,8 +36,7 @@
 h1 {
   margin-bottom: 10px;
   font-size: 60px;
-  line-height: 60px;
-  letter-spacing: -2px;
+  line-height: 120%;
   color: #555;
   font-weight: 500; }
 
@@ -65,7 +64,6 @@ h5 {
   font-size: 17px;
   font-weight: bold;
   line-height: 1.5;
-  letter-spacing: -1px;
   color: #555; }
 
 /*# sourceMappingURL=typography.css.map */
