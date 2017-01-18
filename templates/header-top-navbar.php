@@ -37,6 +37,7 @@ require get_template_directory().'/strings.php';
 						<li class="nav__item"><a href="<?php echo home_url('workflow') ?>"><?php echo $l->t('Workflow');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('collabora') ?>"><?php echo $l->t('Online office');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('webrtc') ?>"><?php echo $l->t('Video chat');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('outlook') ?>"><?php echo $l->t('Outlook integration');?></a></li>
 					</ul>
 				</li>
 

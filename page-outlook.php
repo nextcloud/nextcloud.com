@@ -22,7 +22,7 @@
 			</div>
 			<div class="col-md-10 yt-img-overlay">
 				<a class="youtube" href="https://www.youtube.com/watch?v=luWFBBcvkyc" title="Nextcloud Secure Sharing Outlook Add-in">
-				<img  src="https://img.youtube.com/vi/luWFBBcvkyc/hqdefault.jpg" title="Nextcloud Secure Sharing Outlook Add-in" />
+				<img  src="https://img.youtube.com/vi/luWFBBcvkyc/maxresdefault.jpg" title="Nextcloud Secure Sharing Outlook Add-in" />
 				<div class="yt-play-btn">
 					<i></i> 
 				</div>

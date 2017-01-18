@@ -8,7 +8,7 @@
 	<div class="col-md-5">
 		<div class="yt-img-overlay">
 			<a class="youtube" href="https://www.youtube.com/watch?v=egLqRqb4sHA" title="Introduction to Nextcloud 9">
-				<img class="img-responsive" src="https://img.youtube.com/vi/egLqRqb4sHA/hqdefault.jpg" title="Introduction to Nextcloud 9" />
+				<img class="img-responsive" src="https://img.youtube.com/vi/egLqRqb4sHA/maxresdefault.jpg" title="Introduction to Nextcloud 9" />
 				<div class="yt-play-btn">
 					<i></i>
 				</div>
@@ -72,7 +72,7 @@
 		<div class="col-md-10">
 			<div class="yt-img-overlay">
 				<a class="youtube" href="https://www.youtube.com/watch?v=1zXnypuu27I" title="Spreed.ME in Nextcloud">
-					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/1zXnypuu27I/hqdefault.jpg" title="Spreed.ME in Nextcloud tutorial" />
+					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/1zXnypuu27I/maxresdefault.jpg" title="Spreed.ME in Nextcloud tutorial" />
 					<div class="yt-play-btn">
 						<i></i>
 					</div>

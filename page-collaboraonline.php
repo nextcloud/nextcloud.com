@@ -14,7 +14,7 @@
 	<div class="col-md-6">
 		<div class="yt-img-overlay">
 			<a class="youtube" id="sZpYXUD1ZVM" href="https://www.youtube.com/watch?v=sZpYXUD1ZVM" title="Collabora Online in Nextcloud">
-				<img class="img-responsive featureimg" src="https://img.youtube.com/vi/sZpYXUD1ZVM/hqdefault.jpg" title="Collabora Online in Nextcloud" />
+				<img class="img-responsive featureimg" src="https://img.youtube.com/vi/sZpYXUD1ZVM/maxresdefault.jpg" title="Collabora Online in Nextcloud" />
 				<div class="yt-play-btn">
 					<i></i>
 				</div>
@@ -24,7 +24,7 @@
 	<div class="col-md-6">
 		<div class="yt-img-overlay">
 			<a class="youtube" id="8iuSFKVl-xQ" href="https://www.youtube.com/watch?v=8iuSFKVl-xQ" title="Editing public link sharesd">
-				<img class="img-responsive featureimg" src="https://img.youtube.com/vi/8iuSFKVl-xQ/hqdefault.jpg" title="Editing public link shares" />
+				<img class="img-responsive featureimg" src="https://img.youtube.com/vi/8iuSFKVl-xQ/maxresdefault.jpg" title="Editing public link shares" />
 				<div class="yt-play-btn">
 					<i></i>
 				</div>
@@ -93,7 +93,7 @@
 		<div class="col-md-10 col-md-offset-2">
 			<div class="yt-img-overlay">
 				<a class="youtube" id="MDc1bNxn3js" href="https://www.youtube.com/watch?v=MDc1bNxn3js" title="Collabora Online in Nextcloud">
-					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/MDc1bNxn3js/hqdefault.jpg" title="Collabora Online in Nextcloud tutorial" />
+					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/MDc1bNxn3js/maxresdefault.jpg" title="Collabora Online in Nextcloud tutorial" />
 					<div class="yt-play-btn">
 						<i></i>
 					</div>

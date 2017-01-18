@@ -75,7 +75,7 @@
     </div>
 	<div class="col-md-4 yt-img-overlay">
 		<a class="youtube" id="Yjqd7MX434I?start=2678" href="https://www.youtube.com/watch?v=Yjqd7MX434I?t=44m38s" target="_blank" title="The Linux Action Show">
-		<img  src="https://img.youtube.com/vi/Yjqd7MX434I/hqdefault.jpg" title="The Linux Action Show" />
+		<img  src="https://img.youtube.com/vi/Yjqd7MX434I/maxresdefault.jpg" title="The Linux Action Show" />
 		<div class="yt-play-btn">
 						<i></i> 
 					</div>
@@ -83,7 +83,7 @@
     </div>
 	<div class="col-md-4 yt-img-overlay">
 		<a class="youtube" id="rAXf8SGAXFE?start=2173" href="https://www.youtube.com/watch?v=rAXf8SGAXFE?t=36m21s" target="_blank" title="Bad Voltage">
-		<img  src="https://img.youtube.com/vi/rAXf8SGAXFE/hqdefault.jpg" title="Bad Voltage" />
+		<img  src="https://img.youtube.com/vi/rAXf8SGAXFE/maxresdefault.jpg" title="Bad Voltage" />
 		<div class="yt-play-btn">
 						<i></i> 
 					</div>
@@ -91,7 +91,7 @@
     </div>
 	<div class="col-md-4 yt-img-overlay">
 		<a class="youtube" id="iMfokaX2r8g" href="https://www.youtube.com/watch?v=iMfokaX2r8g" target="_blank" title="Interview by Bryan Lunduke">
-		<img  src="https://img.youtube.com/vi/iMfokaX2r8g/hqdefault.jpg" title="Interview by Bryan Lunduke" />
+		<img  src="https://img.youtube.com/vi/iMfokaX2r8g/maxresdefault.jpg" title="Interview by Bryan Lunduke" />
 		<div class="yt-play-btn">
 						<i></i> 
 					</div>
