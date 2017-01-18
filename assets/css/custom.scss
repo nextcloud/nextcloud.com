@@ -1,3 +1,4 @@
+@import 'vendor/modular-scale/modular-scale.scss';
 @import "variables.scss";
 @import "helpers.scss";
 @import "modules/typography";
@@ -12,7 +13,6 @@
 @import "secure.scss";
 @import "buy.scss";
 @import "support.scss";
-@import 'vendor/modular-scale/modular-scale.scss';
 
 html{
     margin-top: 0 !important;

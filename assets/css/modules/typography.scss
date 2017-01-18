@@ -2,6 +2,32 @@
 @import "../helpers.scss";
 @import '../vendor/modular-scale/modular-scale.scss';
 
+.jumbotron {
+    @include modifier(heading-1) {
+        padding-top: 0;
+        color: white !important;
+        font-size: ms(3) !important;
+        line-height: 120%;
+        font-weight: 500;
+
+        @media (max-width: $break-small) {
+            font-size: ms(0, 34px) !important;
+            line-height: 1 !important;
+            margin-top: 0;
+        }
+    }
+
+    @include modifier(lead) {
+      font-size: ms(0);
+      color: white;
+      line-height: 1.6;
+
+      @media (max-width $break-small) {
+        font-size: ms(0, 16px)
+      }
+    }
+}
+
 .section {
     @include modifier(text--center) {
         margin: 0 auto;
@@ -11,6 +37,7 @@
     @include modifier(heading-1) {
         font-size: ms(3);
         font-weight: 300;
+        line-height: 1.2;
         margin: 0;
 
         @media (max-width: $break-small) {
@@ -30,9 +57,11 @@
         font-weight: 300;
     }
 
-    @include modifier(intro) {
+    @include modifier(paragraph) {
         font-size: ms(0);
         font-weight: 300;
+        line-height: 1.5;
+        color: #434343;
     }
 }
 
