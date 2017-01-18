@@ -19,10 +19,16 @@
   background-position: bottom 50% right 50%;
   /*   text-shadow: 0px 0px 8px black; */ }
 
+.yt-img-overlay {
+  padding-top: 50px; }
+
 /* feature blocks */
 .featurerow {
   margin-top: 100px;
   padding-bottom: 50px; }
+  .featurerow .floated {
+    float: right;
+    padding-bottom: 50px; }
   .featurerow p {
     margin-top: 15px; }
   .featurerow img {
@@ -40,18 +46,16 @@
         width: 102px;
         height: 75px; } }
 
-.featureblock {
-  padding-top: 10px; }
-  .featureblock h2 {
-    font-size: 40px;
-    margin-top: 5px;
-    color: #2a2a36;
-    margin-bottom: 5px; }
+.featureblock .section--heading-1 {
+  margin-top: 5px;
+  color: #2a2a36;
+  margin-bottom: 5px; }
+.featureblock .wrapper--buttons .button {
+  margin: 20px 10px 20px 20px; }
 
-/* quote background */
 .quote {
   margin: 80px 0 50px 0;
-  padding: 150px 0px 150px 0px;
+  padding: 50px 0px;
   background: #0082c9; }
   .quote p {
     color: white; }
