@@ -1063,7 +1063,8 @@ h5 {
                 line-height: 39px;
                 color: white;
                 margin-left: 0;
-                font-weight: 100; }
+                font-weight: 100;
+                letter-spacing: -2px; }
     .nav .container .nav__sections-wrapper .right-buttons {
       position: relative;
       padding: 0;
