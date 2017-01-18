@@ -10,7 +10,7 @@ require get_template_directory().'/strings.php';
 		<div class="brand">
 			<a href="<?php echo home_url('homepage') ?>"><div class="logo"></div></a>
 		</div>
- 
+
 		<button type="button" class="navbar-toggle collapsed" id="toggle">
 			<div class="menu-animation" data-animation-path="img/menu/black/" data-anim-loop="false" data-name="menu-black" id="menu-black"></div>
 		</button>
@@ -37,12 +37,13 @@ require get_template_directory().'/strings.php';
 						<li class="nav__item"><a href="<?php echo home_url('workflow') ?>"><?php echo $l->t('Workflow');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('collabora') ?>"><?php echo $l->t('Online office');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('webrtc') ?>"><?php echo $l->t('Video chat');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('outlook') ?>"><?php echo $l->t('Outlook integration');?></a></li>
 					</ul>
 				</li>
 
 				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Enterprise');?></a>
 					<ul class="nav__links">
-						<li class="nav__item"><a href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Enterprise');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Overview');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('pricing') ?>"><?php echo $l->t('Pricing');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('buy') ?>"><?php echo $l->t('Get an offer');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration');?></a></li>
@@ -77,7 +78,7 @@ require get_template_directory().'/strings.php';
 						<li class="nav__item"><a href="<?php echo home_url('jobs') ?>"><?php echo $l->t('Jobs');?></a></li>
 					</ul>
 				</li>
-				
+
 			</ul>
 				<ul class="right-buttons">
 					<li class="ghost-btn"><a href="https://demo.nextcloud.com/" class="nav__label"><?php echo $l->t('Demo');?></a></li>
@@ -87,5 +88,3 @@ require get_template_directory().'/strings.php';
 		</div>
 	</div>
 </nav>
-
- 

@@ -7,7 +7,7 @@
 	<div class="col-md-5">
 		<div class="yt-img-overlay">
 			<a class="youtube" id="egLqRqb4sHA"href="https://www.youtube.com/watch?v=egLqRqb4sHA" title="">
-				<img class="img-responsive" src="https://img.youtube.com/vi/egLqRqb4sHA/hqdefault.jpg" title="" />
+				<img class="img-responsive" src="https://img.youtube.com/vi/egLqRqb4sHA/maxresdefault.jpg" title="" />
 				<div class="yt-play-btn">
 					<i></i> 
 				</div>
@@ -29,7 +29,7 @@
 	<div class="col-md-5">
 		<div class="yt-img-overlay">
 			<a class="youtube" id="Yc6avTVowc0" href="https://www.youtube.com/watch?v=Yc6avTVowc0" title="">
-				<img class="img-responsive" src="https://img.youtube.com/vi/Yc6avTVowc0/hqdefault.jpg" title="" />
+				<img class="img-responsive" src="https://img.youtube.com/vi/Yc6avTVowc0/maxresdefault.jpg" title="" />
 				<div class="yt-play-btn">
 					<i></i> 
 				</div>
@@ -60,7 +60,7 @@
 		<div class="col-md-12">
 			<div class="yt-img-overlay">
 				<a class="youtube" id="8M2GbUJv5N0" href="https://www.youtube.com/watch?v=8M2GbUJv5N0" title="Design">
-					<img class="img-responsive" src="https://img.youtube.com/vi/8M2GbUJv5N0/hqdefault.jpg" title="Design" />
+					<img class="img-responsive" src="https://img.youtube.com/vi/8M2GbUJv5N0/maxresdefault.jpg" title="Design" />
 					<div class="yt-play-btn">
 						<i></i> 
 					</div>

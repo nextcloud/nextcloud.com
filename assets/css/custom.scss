@@ -9,12 +9,10 @@
 @import "box.scss";
 @import "contribute.scss";
 @import "migration.scss";
-@import "enterprise.scss";
 @import "secure.scss";
 @import "buy.scss";
 @import "support.scss";
 @import 'vendor/modular-scale/modular-scale.scss';
-@import "pricing.scss";
 
 html{
     margin-top: 0 !important;
@@ -332,7 +330,7 @@ li {
 		height: 70px;
 		border-bottom: solid 1px #e4e4e4;
 		border-top: solid 1px #e4e4e4;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		vertical-align: middle;
 		z-index: 2;
 
@@ -341,7 +339,7 @@ li {
 		}
 
 		.buttons {
-			font-weight: 600;
+			font-weight: 500;
 			margin-top: 23px;
 
 			a {
@@ -591,25 +589,25 @@ li {
 	display: block;
 	max-width: 90%;
 	height: auto;
-	margin: 1%;
+/* 	margin: 1%; */
 /* 	margin-top: 3%; */
 	text-decoration: none;
 	color: white;
 	img {
-			width: 110%;
-			height: 110%;
-			margin: -11% 0 -11% -5%;
+			width: 100%;
+			height: auto;
+/* 			margin: -5% 0 -5% 0; */
 	}
 	.col-md-4 {  /* compensate for the 1% margin yt images need */
-		width: 31%;
+/* 		width: 31%; */
 	}
 
 	.col-md-3 {  /* compensate for the 1% margin yt images need */
-		width: 22.8%;
+/* 		width: 22.8%; */
 	}
 	.yt-play-btn {
-		padding-left: 42%;
-		padding-top: 22%;
+		padding-left: 40%;
+		padding-top: 20%;
 	/* 	padding-top: 20%; */
 		position: absolute;
 		top: 0;

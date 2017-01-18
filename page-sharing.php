@@ -19,7 +19,7 @@ $(document).ready(function() {
 		<div class="col-md-6">
 			<div class="yt-img-overlay">
 				<a class="youtube" href="https://www.youtube.com/watch?v=Fe1I7wYW6hA" title="Creating anonymous upload links">
-					<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/hqdefault.jpg" title="Creating anonymous upload links" />
+					<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/maxresdefault.jpg" title="Creating anonymous upload links" />
 					<div class="yt-play-btn">
 						<i></i> 
 					</div>

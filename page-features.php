@@ -7,7 +7,7 @@
 	<div class="row ">
 		<div class="col-md-4 yt-img-overlay">
 			<a class="youtube" href="https://www.youtube.com/watch?v=9CGQ3dJkDdI" title="Nextcloud 11 in action">
-			<img  src="https://img.youtube.com/vi/9CGQ3dJkDdI/hqdefault.jpg" title="Nextcloud 11 in action" />
+			<img  src="https://img.youtube.com/vi/9CGQ3dJkDdI/maxresdefault.jpg" title="Nextcloud 11 in action" />
 			<div class="yt-play-btn">
 				<i></i> 
 			</div>
@@ -39,7 +39,7 @@
 		<div class="col-md-6">
 			<div class="yt-img-overlay">
 				<a class="youtube" href="https://www.youtube.com/watch?v=Fe1I7wYW6hA" title="Creating anonymous upload links">
-					<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/hqdefault.jpg" title="Creating anonymous upload links" />
+					<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/maxresdefault.jpg" title="Creating anonymous upload links" />
 					<div class="yt-play-btn">
 						<i></i> 
 					</div>
@@ -83,7 +83,7 @@
 		<div class="col-md-6">
 			<!--<div class="yt-img-overlay">
 				<a class="youtube" href="https://www.youtube.com/watch?v=Fe1I7wYW6hA" title="Creating anonymous upload links">
-					<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/hqdefault.jpg" title="Creating anonymous upload links" />
+					<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/maxresdefault.jpg" title="Creating anonymous upload links" />
 					<div class="yt-play-btn">
 						<i></i> 
 					</div>
@@ -206,7 +206,7 @@
 		<div class="col-md-5">
 			<div class="yt-img-overlay">
 				<a class="youtube" href="https://www.youtube.com/watch?v=egLqRqb4sHA" title="Spreedbox explained">
-					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/egLqRqb4sHA/hqdefault.jpg" title="Spreedbox explained" />
+					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/egLqRqb4sHA/maxresdefault.jpg" title="Spreedbox explained" />
 					<div class="yt-play-btn">
 						<i></i> 
 					</div>
@@ -356,7 +356,7 @@
 	<!-- 	Theming in 30 seconds -->
 		<div class="col-md-4 yt-img-overlay">
 			<a class="youtube" href="https://www.youtube.com/watch?v=wqRgeFXYUys" title="Theming Nextcloud in 30 seconds">
-			<img  src="https://img.youtube.com/vi/wqRgeFXYUys/hqdefault.jpg" title="Theming Nextcloud in 30 seconds" />
+			<img  src="https://img.youtube.com/vi/wqRgeFXYUys/maxresdefault.jpg" title="Theming Nextcloud in 30 seconds" />
 			<div class="yt-play-btn">
 				<i></i>
 			</div>
@@ -365,7 +365,7 @@
 		</div>
 		<div class="col-md-4 yt-img-overlay">
 			<a class="youtube" href="https://www.youtube.com/watch?v=Fe1I7wYW6hA" title="Creating anonymous upload links">
-			<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/hqdefault.jpg" title="Creating anonymous upload links" />
+			<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/maxresdefault.jpg" title="Creating anonymous upload links" />
 			<div class="yt-play-btn">
 				<i></i> 
 			</div>
@@ -374,7 +374,7 @@
 		</div>
 	<div class="col-md-4 yt-img-overlay">
 			<a class="youtube" href="https://www.youtube.com/watch?v=yqr22XG8P4w" title="Shorten share URL: removing index.php">
-			<img  src="https://img.youtube.com/vi/yqr22XG8P4w/hqdefault.jpg" title="Shorten share URL: removing index.php" />
+			<img  src="https://img.youtube.com/vi/yqr22XG8P4w/maxresdefault.jpg" title="Shorten share URL: removing index.php" />
 			<div class="yt-play-btn">
 				<i></i> 
 			</div>
@@ -385,7 +385,7 @@
 	<div class="row">
 		<div class="col-md-4 yt-img-overlay">
 			<a class="youtube" href="https://www.youtube.com/watch?v=sZpYXUD1ZVM" title="Collabora Online Office in Nextcloud">
-			<img  src="https://img.youtube.com/vi/sZpYXUD1ZVM/hqdefault.jpg" title="Collabora Online Office in Nextcloud" />
+			<img  src="https://img.youtube.com/vi/sZpYXUD1ZVM/maxresdefault.jpg" title="Collabora Online Office in Nextcloud" />
 			<div class="yt-play-btn">
 				<i></i> 
 			</div>
