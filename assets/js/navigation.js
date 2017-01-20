@@ -10,7 +10,7 @@ $(document).ready(function() {
         //Fade In animation
         $(this.variables.navigationId).velocity("transition.fadeIn", 1000 );
 
-        //this.checkScroll();
+        this.checkScroll();
 
         this.animatedLogoSprite();
 
