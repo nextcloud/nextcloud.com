@@ -10,4 +10,28 @@
   background: url("../img/headers/team.jpg") no-repeat;
   background-position: center; }
 
+.section--contribute {
+  padding-top: 50px;
+  display: inline-block; }
+  .section--contribute .section--heading-1 {
+    padding: 50px 0; }
+  .section--contribute .section--intro {
+    font-weight: 500;
+    padding-top: 30px; }
+    @media (max-width: 768px) {
+      .section--contribute .section--intro {
+        text-align: left !important; } }
+
+.calltoaction {
+  margin-top: 50px;
+  background-color: #0082c9;
+  padding: 50px 0;
+  color: white; }
+  .calltoaction .section--heading-2 {
+    color: white; }
+  .calltoaction .section--paragraph {
+    color: white; }
+  .calltoaction .hyperlink {
+    color: white; }
+
 /*# sourceMappingURL=contribute.css.map */

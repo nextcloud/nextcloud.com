@@ -1,12 +1,32 @@
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
+.jumbotron--heading-1 {
+  padding-top: 0;
+  color: white !important;
+  font-size: 3.79688em !important;
+  line-height: 120%;
+  font-weight: 500; }
+  @media (max-width: 768px) {
+    .jumbotron--heading-1 {
+      font-size: 34px !important;
+      line-height: 1 !important;
+      margin-top: 0; } }
+.jumbotron--lead {
+  font-size: 1.125em;
+  color: white;
+  line-height: 1.6; }
+  @media (max-width 768px) {
+    .jumbotron--lead {
+      font-size: 16px; } }
+
 .section--text--center {
   margin: 0 auto;
   text-align: center; }
 .section--heading-1 {
   font-size: 3.79688em;
   font-weight: 300;
+  line-height: 1.2;
   margin: 0; }
   @media (max-width: 768px) {
     .section--heading-1 {
@@ -19,9 +39,11 @@
 .section--intro {
   font-size: 22px;
   font-weight: 300; }
-.section--intro {
+.section--paragraph {
   font-size: 1.125em;
-  font-weight: 300; }
+  font-weight: 300;
+  line-height: 1.5;
+  color: #434343; }
 
 .hyperlink {
   color: #a2a2a2;

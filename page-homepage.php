@@ -10,8 +10,8 @@
 				<span class="type">Fresh</span>
 				<span class="message"><strong>Nextcloud 11 has arrived.</strong> Take a look at the new features</span>
 				</a>
-				<h1><?php echo $l->t('A safe home for <br> all your data');?></h1>
-				<h2><?php echo $l->t('Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.');?></h2>
+				<h1 class="jumbotron--heading-1"><?php echo $l->t('A safe home for all your data');?></h1>
+				<h2 class="jumbotron--lead"><?php echo $l->t('Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.');?></h2>
 				<a class="button button--large button--arrow" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Get Nextcloud</a>');?>
 			</div>
 			<div class="col-md-6 topbanner">
@@ -23,12 +23,12 @@
 
 <section id="why-nextcloud">
 	<div class="container">
-		<h2 class="text-center revealOnScroll"><?php echo $l->t('Why Nextcloud?');?></h2>
+		<h2 class=" section--heading-1 text-center revealOnScroll"><?php echo $l->t('Why Nextcloud?');?></h2>
 		<div class="highlights">
 			<div class="highlights_align ">
 				<div class="privacy-icon" data-animation-path="img/home/privacy/" data-anim-loop="false" data-name="privacy"></div>
 				<h4 class="revealOnScroll"><?php echo $l->t('Privacy');?></h4>
-				<p class="highlights_text revealOnScroll"><?php echo $l->t('Keep all of your life / business
+				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Keep all of your life / business
 					private and secure. Share
 					with only who you choose,
 					and no-one else.');?></p>
@@ -36,7 +36,7 @@
 			<div class="highlights_align">
 				<div class="community-icon" data-animation-path="img/home/community/" data-anim-loop="false" data-name="community"></div>
 				<h4 class="revealOnScroll"><?php echo $l->t('Community');?></h4>
-				<p class="highlights_text revealOnScroll"><?php echo $l->t('Enjoy constant improvements
+				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Enjoy constant improvements
 					from a thriving and transparent,
 					all open-source community
 					development model, free of
@@ -45,7 +45,7 @@
 			<div class="highlights_align">
 				<div class="flexibility-icon" data-animation-path="img/home/flexibility/" data-anim-loop="false" data-name="flexibility"></div>
 				<h4 class="revealOnScroll"><?php echo $l->t('Enterprise');?></h4>
-				<p class="highlights_text revealOnScroll"><?php echo $l->t('Protect, control and scale the data and communication in your company and organization.');?></p>
+				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Protect, control and scale the data and communication in your company and organization.');?></p>
 			</div>
 		</div>
 	</div>
@@ -53,8 +53,8 @@
 
 <div class="container-fluid" id="perfect-for-home-and-business">
 		<div class="container">
-		<h2 class="revealOnScroll"><?php echo $l->t('Perfect for home and office');?></h2>
-		<p class="revealOnScroll"><?php echo $l->t('Access everything with the tools you are already using,
+		<h2 class="section--heading-1 revealOnScroll"><?php echo $l->t('Perfect for home and office');?></h2>
+		<p class="section--paragraph revealOnScroll"><?php echo $l->t('Access everything with the tools you are already using,
 			regardless of the device or platform you are on. Pictures,
 			videos, documents, contacts, communications - they are all
 			available right where you need them whether they are
@@ -65,7 +65,7 @@
 
 <section class="Section-Introducing-Nextcloud" id="pinContainer">
 <div >
-    <h2 class="text-center section-title revealOnScroll"><?php echo $l->t('Introducing Nextcloud 11');?></h2>
+    <h2 class="text-center section--heading-1 section-title revealOnScroll"><?php echo $l->t('Introducing Nextcloud 11');?></h2>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
 		<li class="btn_carousel"></li>
@@ -160,10 +160,10 @@
 <section class="news-section">
 	<div class="container-fluid news" id="social-media">
 		<div class="container">
-			<h1 class="revealOnScroll"><?php echo $l->t('Latest news');?></h1>
+			<h1 class="section--heading-1 revealOnScroll"><?php echo $l->t('Latest news');?></h1>
 			<div class="row">
 				<div class="col-md-4">
-					<h3 class="revealOnScroll"><?php echo $l->t('Nextcloud News</a>');?></h3>
+					<h3 class="section--heading-1 revealOnScroll"><?php echo $l->t('Nextcloud News</a>');?></h3>
 					<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,4); } ?></span></p>
 					<a class="revealOnScroll" href="<?php echo home_url('news') ?>">more</a>
 				</div>
@@ -185,7 +185,7 @@
 <div class="container-fluid" id="stay-up-to-date">
 	<div class="row stay-up-to-date">
 		<div class="container text-center" style="padding-top: 70px; padding-bottom: 70px;">
-			<h5 class="revealOnScroll"><?php echo $l->t('Stay up to date with Nextcloud\'s latest enhancements by subscribing to our newsletter!');?></h5>
+			<h5 class="section--heading-2 revealOnScroll"><?php echo $l->t('Stay up to date with Nextcloud\'s latest enhancements by subscribing to our newsletter!');?></h5>
 			<p class="revealOnScroll"><a class="button button--blue button--arrow button--large" href="https://newsletter.nextcloud.com/?p=subscribe&id=1" role="button"><?php echo $l->t('Subscribe</a>');?></p>
 		</div>
 	</div>
