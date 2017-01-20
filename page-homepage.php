@@ -63,99 +63,147 @@
 		</div>
 </div>
 
-<section class="Section-Introducing-Nextcloud" id="pinContainer">
-<div >
-    <h2 class="text-center section--heading-1 section-title revealOnScroll"><?php echo $l->t('Introducing Nextcloud 11');?></h2>
+<section class="slideshow">
+    <h2 class="text-center section-title revealOnScroll"><?php echo $l->t('Introducing Nextcloud 10');?></h2>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
-		<li class="btn_carousel"></li>
-		<li class="btn_carousel"></li>
-		<li class="btn_carousel"></li>
-		<li class="btn_carousel"></li>
+		<li class="btn_carousel"><a href="#feature-1"></a></li>
+		<li class="btn_carousel"><a href="#feature-2"></a></li>
+		<li class="btn_carousel"><a href="#feature-3"></a></li>
+		<li class="btn_carousel"><a href="#feature-4"></a></li>
 	</div>
-    <section class="panel-workflow">
-        <div class="container">
-            <div class="row introducing-nc-release">
-                <div class="container">
-                    <div class="container col-md-6 ">
-                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-10.png">
-                    </div>
-                    <div class="container col-md-6 right-text-grey" style="opacity: 1; padding-top: 50px;">
-                        <h5><?php echo $l->t('A new standard for security and scalability');?></h5>
-                        <p><?php echo $l->t('This release delivers better scalability as well as a new app store, enhanced security, a new level of federation and many improvements into user interface and experience.');?></p>
-                        <br/>
-                        <p>
-                            <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-11-sets-new-standard-for-security-and-scalability/" role="button"><?php echo $l->t('Learn more');?></a>
-                        </p>
-                    </div>
-                </div>
+    <div class="container">
+        <div class="col-md-6 ">
+        	<div class="container-image-center" id="imageTrigger">
+	            <img class="image-back" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-10.png">
+	            <div class="image-top-container">
+	            	<img class="img-responsive image-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen.jpg">
+	            </div>
             </div>
         </div>
-    </section>
-    <section class="panel-monitoring hidden">
-        <div class="container">
-            <div class="row introducing-nc-release">
-                <div class="container">
-                    <div class="container col-md-6">
-                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/monitoring-nc-10.png">
-                    </div>
-                    <div class="container col-md-6 right-text-grey">
-                        <h5><?php echo $l->t('Faster and more reliable operation at scale');?></h5>
-                        <p><?php echo $l->t('Nextcloud 11 introduces the Server Information app which provides a way for admins to monitor the health and performance of a Nextcloud system through a graphical UI or in their enterprise monitoring tool.');?></p>
-                        <br/>
-                        <p>
-                            <a class="button button--blue button--arrow button--large" href="/workflow/#monitoring" role="button"><?php echo $l->t('Learn more');?></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="panel-authentication hidden">
-        <div class="container">
-            <div class="row introducing-nc-release">
-                <div class="container">
-                    <div class="container col-md-6">
-                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/auth-nc-10.png">
-                    </div>
-                    <div class="container col-md-6 right-text-grey">
-                        <h5><?php echo $l->t('Authentication and security');?></h5>
-                        <p><?php echo $l->t('Nextcloud 11 delivers security improvements in several areas. Plugin based Two Factor
-                            Authentication enables an optional extra layer of protection for logins, brute force
-                            protection makes it harder for attackers to guess passwords and session management is
-                            introduced to enable administrators and users to monitor and invalidate active sessions.
-                        ');?></p>
-                        <br/>
-                        <p>
-                            <a class="button button--blue button--arrow button--large" href="/workflow/" role="button"><?php echo $l->t('Learn more');?></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <div class="texts-wrapper col-md-6">
+	        <div class="right-text-grey" data-slide="1">
+	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('Secure, Fine Grained Control over Data Access and Workflows');?></h5>
+	            <p><?php echo $l->t('This release delivers better scalability as well as monitoring, security and workflow management tools, enabling better control over Nextcloud servers and operation at scale.');?></p>
+	            <br/>
+	            <p>
+	                <a class="btn-primary" href="https://nextcloud.com/blog/secure-monitor-and-control-your-data-with-nextcloud-10-get-it-now/" role="button"><?php echo $l->t('Learn more');?></a>
+	            </p>
+	        </div>
 
-	<section class="panel-authentication hidden">
-        <div class="container">
-            <div class="row introducing-nc-release">
-                <div class="container">
-                    <div class="container col-md-6">
-                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/federation-nc-10.png">
-                    </div>
-                    <div class="container col-md-6 right-text-grey">
-                        <h5><?php echo $l->t('Improved Federation');?></h5>
-                        <p><?php echo $l->t('Nextcloud 11 normalizes federated shares, handling mounted link shares as federated shares, offering the same permissions for federated shares as for normal shares and directly connecting re-shared federated shares to other servers for improved performance.');?></p>
-                        <br/>
-                        <p>
-                            <a class="button button--blue button--arrow button--large" href="/federation" role="button"><?php echo $l->t('Learn more');?></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+	         <div class="right-text-grey" data-slide="2">
+	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('Faster and more reliable operation at scale');?></h5>
+	            <p><?php echo $l->t('Nextcloud 10 introduces the Server Information app which provides a way for admins to monitor the health and performance of a Nextcloud system through a graphical UI or in their enterprise monitoring tool.');?></p>
+	            <br/>
+	            <p>
+	                <a class="btn-primary" href="/workflow/#monitoring" role="button"><?php echo $l->t('Learn more');?></a>
+	            </p>
+	        </div>
+
+	        <div class="right-text-grey" data-slide="3">
+	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('Authentication and security');?></h5>
+	            <p><?php echo $l->t('Nextcloud 10 delivers security improvements in several areas. Plugin based Two Factor
+	                Authentication enables an optional extra layer of protection for logins, brute force
+	                protection makes it harder for attackers to guess passwords and session management is
+	                introduced to enable administrators and users to monitor and invalidate active sessions.
+	            ');?></p>
+	            <br/>
+	            <p>
+	                <a class="btn-primary" href="/workflow/" role="button"><?php echo $l->t('Learn more');?></a>
+	            </p>
+	        </div>
+
+	        <div class="right-text-grey" data-slide="4">
+	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Improved Federation');?></h5>
+	            <p><?php echo $l->t('Nextcloud 10 normalizes federated shares, handling mounted link shares as federated shares, offering the same permissions for federated shares as for normal shares and directly connecting re-shared federated shares to other servers for improved performance.');?></p>
+	            <br/>
+	            <p>
+	                <a class="btn-primary" href="/federation" role="button"><?php echo $l->t('Learn more');?></a>
+	            </p>
+	        </div>
         </div>
-    </section>
-</div>
+    </div>
 </section>
+
+<section class="slideshow-mobile">
+	<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+	<ol class="carousel-indicators">
+		<li data-target="#carousel" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel" data-slide-to="1"></li>
+		<li data-target="#carousel" data-slide-to="2"></li>
+		<li data-target="#carousel" data-slide-to="3"></li>
+	</ol>
+	<!-- Carousel items -->
+	<div class="carousel-inner" role="listbox">
+		<div class="active item">
+			<div class="row">
+				<div class="col-sm-6">
+					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-integration.png" alt="in action" />
+				</div>
+				<div class="col-sm-6 text-container">
+					<h5><?php echo $l->t('Deep integration in your infrastructure');?></h5>
+					<p><?php echo $l->t('Nextcloud offers LDAP/Active Directory, SAML and Kerboros authentication. It accesses data on NFS, (s)FTP, WebDAV, Windows Network Drive, Object Stores like SWIFT and many more.');?></p>
+					<a class="button button--blue button--arrow button--large" href="<?php echo get_template_directory_uri(); ?>/assets/files/architecture-whitepaper.pdf" role="button"><?php echo $l->t('Architecture Whitepaper');?></a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<div class="row">
+				<div class="col-sm-6">
+					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-security.png" alt="in action" />
+				</div>
+				<div class="col-sm-6 text-container">
+					<h5><?php echo $l->t('Security features keep your data safe');?></h5>
+					<p><?php echo $l->t('Nextcloud supports two-factor authentication and Server Side Encryption, has brute force protection and features industry-standard security measures like CSP, SSC and password and session management.');?></p>
+					<a class="button button--blue button--arrow button--large" href="/secure" role="button"><?php echo $l->t('Learn more about security');?></a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<div class="row">
+				<div class="col-sm-6">
+					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-control.png" alt="in action" />
+				</div>
+				<div class="col-sm-6 text-container">
+					<h5><?php echo $l->t('IT stays in control');?></h5>
+					<p><?php echo $l->t('Our File Access Control app enables administrators to defining data access rules or triggering actions based on location, group membership, file type, tags and other properties.');?></p>
+					<a class="button button--blue button--arrow button--large" href="/workflow/" role="button"><?php echo $l->t('Learn more about Workflow');?></a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<div class="row">
+				<div class="col-sm-6">
+					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-access.png" alt="in action" />
+				</div>
+				<div class="col-sm-6 text-container">
+					<h5><?php echo $l->t('Easy access for users');?></h5>
+					<p><?php echo $l->t('Users can access and share their data on Nextcloud through sync clients for Windows, Linux and Mac as well as Android and IOS, providing a smooth experience no matter where data is located.');?></p>
+					<a class="button button--blue button--arrow button--large" href="/features" role="button"><?php echo $l->t('Learn more about features');?></a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Carousel nav -->
+	
+	  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  
+<!--	<a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+	<a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>-->
+	</div>
+</section>
+
 
 <section class="news-section">
 	<div class="container-fluid news" id="social-media">
@@ -190,45 +238,3 @@
 		</div>
 	</div>
 </div>
-
-
-<script>
-// this is needed for the features/capabilities carousel!
-	// Only make the scrolling effect for devices bigger than the 768px in width and 900px in height
-	if ($(window).width() > 768 && $(window).height() >= 900) {
-		var controller = new ScrollMagic.Controller();
-		new ScrollMagic.Scene({triggerElement: '#pinContainer', triggerHook: 'onLeave', duration: 750, offset: -100})
-			.addTo(controller)
-			.setPin('#pinContainer')
-			.on('enter leave', function (e) {
-				$('.indicators').addClass('hidden');
-			})
-			.on('start end', function (e) {
-				$('.indicators').removeClass('hidden');
-			})
-			.on('progress', function (e) {
-				var progressNumber = e.progress.toFixed(4);
-				var currentProgress = Math.round(10 * ((progressNumber / 10) * 3));
-				$('#pinContainer section:lt(' + currentProgress + ')').addClass('hidden');
-				$('#pinContainer section:gt(' + currentProgress + ')').addClass('hidden');
-				$('#pinContainer section:nth(' + currentProgress + ')').removeClass('hidden');
-				$('.indicators .btn_carousel').html('');
-				$('.indicators .btn_carousel').removeClass('active');
-				$('.indicators .btn_carousel:nth(' + currentProgress + ')').addClass('active');
-
-				if (currentProgress > 0) {
-					$('#pinContainer section:nth(' + currentProgress + ') .right-text-grey')
-						.animate({
-							'opacity': 1,
-							'margin-top': '-25px'
-						}, 750);
-				}
-			});
-	} else {
-		$('.indicators').addClass('hidden');
-		$('section:nth(0)').removeClass('hidden')
-		$('#pinContainer section .right-text-grey:nth(0)').css('opacity', '1.0');
-		$('#pinContainer').css('width', 'inherit');
-		$('#pinContainer').css('height', 'inherit');
-	}
-</script>
