@@ -80,6 +80,11 @@
             margin-top: 0;
             padding-bottom: 0;
             text-align: left;
+            display: none;
+
+            &.active {
+              display: block;
+            }
           }
 
           p {

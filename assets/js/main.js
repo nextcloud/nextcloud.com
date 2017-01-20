@@ -32,7 +32,7 @@ $(document).ready(function() {
         },
 
         modulesBindMobile: function() {
-            this.slideshowmobile();
+            this.slideshowMobile();
         },
 
 
@@ -138,16 +138,17 @@ $(document).ready(function() {
         .addTo(controller);
        },
 
-       slideshowmobile: function() {
+       slideshowMobile: function() {
             $(this.variables.slideshowIndicatorsSelector).addClass(this.variables.activeClass);
             this.updateSlideshowImageSizes();
+            this.toggleTextSlideshowMobile();
             $(window).resize(_.bind(this.updateSlideshowImageSizes, this));
        },
 
        updateSlideshowImageSizes: function() {
-            var imageDeviceWidth = $(".image-back").width() * "0.9376733";
-            var imageDeviceHeight = $(".image-back").height() * "0.722727273";
-            var imageOnTopMargins = $(".image-back").width() * "0.0314"
+            var imageDeviceWidth = $(".image-back").width() * "0.9376733"; // Using proportions to do the math
+            var imageDeviceHeight = $(".image-back").height() * "0.722727273"; // Using proportions to do the math
+            var imageOnTopMargins = $(".image-back").width() * "0.0314"; // Using proportions to do the math
 
             $(".image-top-container").css({
                 "width": imageDeviceWidth + "px",
@@ -155,6 +156,23 @@ $(document).ready(function() {
                 "top": imageOnTopMargins + "px",
                 "left": imageOnTopMargins + "px"
             });
+       },
+
+       toggleTextSlideshowMobile: function() {
+            var firstText = $(".right-text-grey").first();
+            firstText.addClass(this.variables.activeClass);
+
+            $(".right-text-grey").on("swiperight", _.bind(this.showNextTextSlideshow, this));
+
+       },
+
+       showNextTextSlideshow: function() {
+            var currentText = $(".right-text-grey.active");
+            var nextText = $(".right-text-grey.active").next();
+
+            nextText.addClass(this.variables.activeClass);
+            currentText.removeClass(this.variables.activeClass);
+
        }
 
 		}

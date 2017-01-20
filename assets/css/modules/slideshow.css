@@ -57,7 +57,10 @@
         .slideshow .container .texts-wrapper .right-text-grey {
           margin-top: 0;
           padding-bottom: 0;
-          text-align: left; } }
+          text-align: left;
+          display: none; }
+          .slideshow .container .texts-wrapper .right-text-grey.active {
+            display: block; } }
       .slideshow .container .texts-wrapper .right-text-grey p {
         font-size: 18px;
         font-weight: 100;
