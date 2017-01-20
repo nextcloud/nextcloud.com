@@ -11,7 +11,7 @@ $(document).ready(function() {
 				match: _.bind(this.modulesBindMobile, this) 
 			});
 
-			enquire.register('screen and (min-width: 481px)', {
+			enquire.register('screen and (min-width: 900px)', {
 				match: _.bind(this.modulesBindDesktop, this) 
 			});
 		},
@@ -27,12 +27,13 @@ $(document).ready(function() {
 		},
 
         modulesBindDesktop: function() {
-            $(this.variables.slideshowContent).show();
+            //$(this.variables.slideshowContent).show();
             this.slideshow();
         },
 
         modulesBindMobile: function() {
-            $(this.variables.slideshowContentSelector).hide();
+            this.slideshowmobile();
+            //$(this.variables.slideshowContentSelector).hide();
         },
 
 
@@ -136,7 +137,25 @@ $(document).ready(function() {
         .setPin("#imageTrigger")
         .setClassToggle(".indicators", "active") // add indicators to scene
         .addTo(controller);
-       } 
+       },
+
+       slideshowmobile: function() {
+            $(window).resize(_.bind(this.updateSlideshowImageSizes, this))
+       },
+
+       updateSlideshowImageSizes: function() {
+            var imageDeviceWidth = $(".image-back").width() * "0.9376733";
+            var imageDeviceHeight = $(".image-back").height() * "0.722727273";
+            var imageOnTopMargins = $(".image-back").width() * "0.0314"
+
+            $(".image-top-container").css({
+                "width": imageDeviceWidth + "px",
+                "height": imageDeviceHeight + "px",
+                "top": imageOnTopMargins + "px",
+                "left": imageOnTopMargins + "px"
+            });
+       }
+
 		}
     defaultComponents.init();
 });

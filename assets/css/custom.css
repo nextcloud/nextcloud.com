@@ -99,10 +99,6 @@ h5 {
   overflow: hidden;
   height: 100%;
   position: relative; }
-  @media (max-width: 1200px) {
-    .slideshow {
-      height: 100%;
-      display: none; } }
   .slideshow .section-title {
     padding-top: 10vh;
     position: absolute;
@@ -119,6 +115,10 @@ h5 {
     .slideshow .container .container-image-center .image-back {
       position: absolute;
       height: 440px; }
+      @media (max-width: 1200px) {
+        .slideshow .container .container-image-center .image-back {
+          width: 100%;
+          height: auto; } }
     .slideshow .container .container-image-center .image-top-container {
       position: relative;
       overflow: hidden;
@@ -130,7 +130,7 @@ h5 {
       .slideshow .container .container-image-center .image-top-container .image-top {
         position: absolute;
         width: 100%;
-        bottom: -954px;
+        top: 0;
         transition: all ease-in 0.3s; }
   .slideshow .container .texts-wrapper {
     height: 100vh; }

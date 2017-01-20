@@ -6,9 +6,9 @@
   overflow: hidden;
   height: 100%;
   position: relative;
+    
     @media (max-width: $navbar-breaksize) {
-      height: 100%;
-      display: none;
+      //height: 100%;
     }
 
     .section-title {
@@ -32,7 +32,12 @@
 
         .image-back {
           position: absolute;
-          height: 440px
+          height: 440px;
+
+          @media (max-width: $navbar-breaksize) {
+            width: 100%;
+            height: auto;
+          }
         }
 
         .image-top-container {
@@ -47,7 +52,7 @@
           .image-top {
             position: absolute;
             width: 100%;
-            bottom: -954px;
+            top: 0;
             transition: all ease-in 0.3s;
           }
         }
