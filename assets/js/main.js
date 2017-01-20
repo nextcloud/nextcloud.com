@@ -7,11 +7,11 @@ $(document).ready(function() {
 			this.variables.buttonDropdownSelector.on("click", _.bind(this.buttonDropdown, this))
             this.smoothScroll();
             
-            enquire.register('screen and (max-width: 480px)', {
+            enquire.register('screen and (max-width: 991px)', {
 				match: _.bind(this.modulesBindMobile, this) 
 			});
 
-			enquire.register('screen and (min-width: 900px)', {
+			enquire.register('screen and (min-width: 992px)', {
 				match: _.bind(this.modulesBindDesktop, this) 
 			});
 		},
@@ -22,18 +22,17 @@ $(document).ready(function() {
             $SlideshowTextTrigger: $(".textTrigger"),
             spriteSlideshowSelector: $(".image-top-container"),
             slideshowContentSelector: ".slideshow",
+            slideshowIndicatorsSelector: ".indicators",
 			visibleClass : "visible",
 			activeClass: "active"
 		},
 
         modulesBindDesktop: function() {
-            //$(this.variables.slideshowContent).show();
             this.slideshow();
         },
 
         modulesBindMobile: function() {
             this.slideshowmobile();
-            //$(this.variables.slideshowContentSelector).hide();
         },
 
 
@@ -140,7 +139,9 @@ $(document).ready(function() {
        },
 
        slideshowmobile: function() {
-            $(window).resize(_.bind(this.updateSlideshowImageSizes, this))
+            $(this.variables.slideshowIndicatorsSelector).addClass(this.variables.activeClass);
+            this.updateSlideshowImageSizes();
+            $(window).resize(_.bind(this.updateSlideshowImageSizes, this));
        },
 
        updateSlideshowImageSizes: function() {
