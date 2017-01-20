@@ -140,6 +140,7 @@ $(document).ready(function() {
 
        slideshowMobile: function() {
             $(this.variables.slideshowIndicatorsSelector).addClass(this.variables.activeClass);
+            this.destroyMagicScrollOnMobile();
             this.slideshowImagePositionMobile();
             this.slideshowChangeImage();
             this.indicatorSlideshow();
@@ -178,7 +179,7 @@ $(document).ready(function() {
             var firstText = $(".right-text-grey").first();
             firstText.addClass(this.variables.activeClass);
 
-            $(".right-text-grey").on("click", _.bind(this.showNextTextSlideshow, this));
+            $(".slideshow").on("swipe", _.bind(this.showNextTextSlideshow, this));
 
        },
 
@@ -226,6 +227,12 @@ $(document).ready(function() {
                 }
              });
         },
+
+        destroyMagicScrollOnMobile: function(event) {
+            controller.removeScene(scene);
+            // Destroy with scene reset
+            controller = controller.destroy(true);
+        }
 
 		}
     defaultComponents.init();
