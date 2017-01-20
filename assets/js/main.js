@@ -183,9 +183,7 @@ $(document).ready(function() {
     
                 Hammer(element).on("swiperight", _.bind(this.showNextTextSlideshow, this));
 
-                Hammer(element).on("tap",function(event) {
-                    alert("tap");
-                });
+                Hammer(element).on("tap",_.bind(this.showNextTextSlideshow, this)); 
         
             //$(".slideshow").hammer(options).bind("swiperight", _.bind(this.showNextTextSlideshow, this))
             //Hammer(slideshow).on("swiperight", event, _.bind(this.showNextTextSlideshow, this));
