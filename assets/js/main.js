@@ -181,7 +181,7 @@ $(document).ready(function() {
 
                 var element = document.getElementById("slideshow");
     
-                Hammer(element).on("swiperight", "swipeleft", _.bind(this.showNextTextSlideshow, this));
+                Hammer(element).on("swipe", _.bind(this.showNextTextSlideshow, this));
 
                 Hammer(element).on("tap",_.bind(this.showNextTextSlideshow, this)); 
         
