@@ -140,6 +140,9 @@ $(document).ready(function() {
 
        slideshowMobile: function() {
             $(this.variables.slideshowIndicatorsSelector).addClass(this.variables.activeClass);
+            this.slideshowImagePositionMobile();
+            this.slideshowChangeImage();
+            this.indicatorSlideshow();
             this.updateSlideshowImageSizes();
             this.toggleTextSlideshowMobile();
             $(window).resize(_.bind(this.updateSlideshowImageSizes, this));
@@ -158,11 +161,24 @@ $(document).ready(function() {
             });
        },
 
+       slideshowChangeImage: function() {
+            var pathImageDesktop = $('.image-top').attr('src');
+            var pathImageDesktopValueString = pathImageDesktop.length;
+            var lastValueString = pathImageDesktopValueString - "4";
+
+            var pathImageDesktopWithoutformat = pathImageDesktop.substring(0, lastValueString);
+
+            console.log(pathImageDesktopWithoutformat);
+
+            $('.image-top').attr('src', pathImageDesktopWithoutformat + "_mobile" + ".jpg");
+            
+       },
+
        toggleTextSlideshowMobile: function() {
             var firstText = $(".right-text-grey").first();
             firstText.addClass(this.variables.activeClass);
 
-            $(".right-text-grey").on("swiperight", _.bind(this.showNextTextSlideshow, this));
+            $(".right-text-grey").on("click", _.bind(this.showNextTextSlideshow, this));
 
        },
 
@@ -173,7 +189,43 @@ $(document).ready(function() {
             nextText.addClass(this.variables.activeClass);
             currentText.removeClass(this.variables.activeClass);
 
-       }
+       },
+
+
+        slideshowImagePositionMobile: function() {
+            var visibleElement = $(".textTrigger").parent();
+
+             $(visibleElement).on("inview", function(event, isInView) {
+                 if (isInView) { 
+                     var currentSlide = $(event.currentTarget).data("slide");
+                     var imageFeatures = $(".image-top"); 
+
+                      if (currentSlide === 1) {
+                         imageFeatures.css({
+                             "left": "0" + "px"
+                            });
+                     }
+
+                     if (currentSlide === 2) {
+                         imageFeatures.css({
+                             "left": "-477" + "px"
+                            });
+                     }
+
+                     if (currentSlide === 3) {
+                         imageFeatures.css({
+                             "left": "-953" + "px"
+                            });
+                     }
+
+                     if (currentSlide === 4) {
+                         imageFeatures.css({
+                             "left": "-1430" + "px"
+                            });
+                     }
+                }
+             });
+        },
 
 		}
     defaultComponents.init();

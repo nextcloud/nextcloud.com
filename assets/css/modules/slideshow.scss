@@ -32,6 +32,7 @@
 
         @media (max-width: $break-big) {
           padding-top: 260px;
+          padding-bottom: 203px;
           margin-left: -13px;
         }
 
@@ -59,6 +60,12 @@
             width: 100%;
             top: 0;
             transition: all ease-in 0.3s;
+
+            @media (max-width: $break-big) {
+                width: auto;
+                height: 100%;
+                max-width: none;
+            }
           }
         }
       }
@@ -68,6 +75,7 @@
 
         @media (max-width: $break-big) {
           height: auto;
+          padding-bottom: 80px;
         }
 
         .right-text-grey {
