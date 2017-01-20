@@ -140,7 +140,7 @@ $(document).ready(function() {
 
        slideshowMobile: function() {
             $(this.variables.slideshowIndicatorsSelector).addClass(this.variables.activeClass);
-            this.destroyMagicScrollOnMobile();
+            //this.destroyMagicScrollOnMobile();
             this.slideshowImagePositionMobile();
             this.slideshowChangeImage();
             this.indicatorSlideshow();
