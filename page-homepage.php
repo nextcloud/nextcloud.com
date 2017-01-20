@@ -63,7 +63,7 @@
 		</div>
 </div>
 
-<section class="slideshow">
+<section class="slideshow" id="slideshow">
     <h2 class="text-center section-title revealOnScroll"><?php echo $l->t('Introducing Nextcloud 10');?></h2>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>

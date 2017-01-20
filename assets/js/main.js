@@ -179,11 +179,20 @@ $(document).ready(function() {
             var firstText = $(".right-text-grey").first();
             firstText.addClass(this.variables.activeClass);
 
-            $(".slideshow").on("swipe", _.bind(this.showNextTextSlideshow, this));
+                var element = document.getElementById("slideshow");
+    
+                Hammer(element).on("swiperight", _.bind(this.showNextTextSlideshow, this));
+
+                Hammer(element).on("tap",function(event) {
+                    alert("tap");
+                });
+        
+            //$(".slideshow").hammer(options).bind("swiperight", _.bind(this.showNextTextSlideshow, this))
+            //Hammer(slideshow).on("swiperight", event, _.bind(this.showNextTextSlideshow, this));
 
        },
 
-       showNextTextSlideshow: function() {
+       showNextTextSlideshow: function(event) {
             var currentText = $(".right-text-grey.active");
             var nextText = $(".right-text-grey.active").next();
 
