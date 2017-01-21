@@ -158,3 +158,7 @@
 		</div>
 	</div>
 </div>
+
+<!-- <script type="text/javascript">
+	javascript:!function(a){var b=a.createElement("script");b.onload=function(){TouchEmulator()},b.src="//cdn.rawgit.com/hammerjs/touchemulator/0.0.2/touch-emulator.js",a.body.appendChild(b)}(document);
+</script> -->

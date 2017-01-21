@@ -179,20 +179,24 @@ $(document).ready(function() {
             var firstText = $(".right-text-grey").first();
             firstText.addClass(this.variables.activeClass);
 
-                var element = document.getElementById("slideshow");
-    
-                Hammer(element).on("swipe", _.bind(this.showNextTextSlideshow, this));
+            var element = document.getElementById("slideshow");
 
-                Hammer(element).on("tap",_.bind(this.showNextTextSlideshow, this)); 
-        
-            //$(".slideshow").hammer(options).bind("swiperight", _.bind(this.showNextTextSlideshow, this))
-            //Hammer(slideshow).on("swiperight", event, _.bind(this.showNextTextSlideshow, this));
-
+            Hammer(element).on("swipeleft", _.bind(this.showNextTextSlideshow, this));
+            Hammer(element).on("swiperight",_.bind(this.showPreviousTextSlideshow, this)); 
        },
 
        showNextTextSlideshow: function(event) {
             var currentText = $(".right-text-grey.active");
             var nextText = $(".right-text-grey.active").next();
+
+            nextText.addClass(this.variables.activeClass);
+            currentText.removeClass(this.variables.activeClass);
+
+       },
+
+       showPreviousTextSlideshow: function(event) {
+            var currentText = $(".right-text-grey.active");
+            var nextText = $(".right-text-grey.active").prev();
 
             nextText.addClass(this.variables.activeClass);
             currentText.removeClass(this.variables.activeClass);
@@ -207,6 +211,9 @@ $(document).ready(function() {
                  if (isInView) { 
                      var currentSlide = $(event.currentTarget).data("slide");
                      var imageFeatures = $(".image-top"); 
+                     var currentContainerheight = $(".image-top-container").height();
+
+                     console.log(currentContainerheight);
 
                       if (currentSlide === 1) {
                          imageFeatures.css({
@@ -216,19 +223,19 @@ $(document).ready(function() {
 
                      if (currentSlide === 2) {
                          imageFeatures.css({
-                             "left": "-477" + "px"
+                             "left": - currentContainerheight + "px"
                             });
                      }
 
                      if (currentSlide === 3) {
                          imageFeatures.css({
-                             "left": "-953" + "px"
+                             "left": - currentContainerheight * 2 + "px"
                             });
                      }
 
                      if (currentSlide === 4) {
                          imageFeatures.css({
-                             "left": "-1430" + "px"
+                             "left": - currentContainerheight * 3 + "px"
                             });
                      }
                 }
