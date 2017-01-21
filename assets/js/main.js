@@ -18,39 +18,42 @@ $(document).ready(function() {
 
 		variables : {
 			buttonDropdownSelector: $(".button--dropdown"),
-			buttonDropdownContent: $(".dropdown-content"),
-            $SlideshowTextTrigger: $(".textTrigger"),
+			buttonDropdownContentSelector: $(".dropdown-content"),
+            SlideshowTextTriggerSelector: $(".textTrigger"),
             spriteSlideshowSelector: $(".image-top-container"),
             slideshowContentSelector: ".slideshow",
             slideshowIndicatorsSelector: ".indicators",
+            slideshowImageOnTopSelector: ".image-top",
+            textTriggerSelector: ".textTrigger",
 			visibleClass : "visible",
 			activeClass: "active"
 		},
 
         modulesBindDesktop: function() {
-            this.slideshow();
+            this.slideshowDesktop();
         },
 
         modulesBindMobile: function() {
             this.slideshowMobile();
         },
 
-
 		buttonDropdown: function (event) {
 			this.variables.buttonDropdownSelector.toggleClass(this.variables.activeClass);
 			this.variables.buttonDropdownContent.toggleClass(this.variables.visibleClass);
-// 			event.preventDefault();
 		},
 
 		smoothScroll: function() {
 			$('a[href*="#"]:not([href="#"]):not([data-toggle="collapse"])').click(function() {
-				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 				var target = $(this.hash);
 				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-				if (target.length) {
+				
+                if (target.length) {
 					$('html, body').animate({
 					scrollTop: target.offset().top
 					}, 1000);
+
 					return false;
 				}
 				}
@@ -58,7 +61,7 @@ $(document).ready(function() {
 		},
 
         indicatorSlideshow: function() {
-            var visibleElement = $(".textTrigger").parent();
+            var visibleElement = $(this.variables.textTriggerSelector).parent();
             
              $(visibleElement).on("inview", function(event, isInView) {
                  if (isInView) {
@@ -74,7 +77,7 @@ $(document).ready(function() {
         },
 
         slideshowImagePosition: function(currentSlide) {
-            var visibleElement = $(".textTrigger").parent();
+            var visibleElement = $(this.variables.textTriggerSelector).parent();
 
              $(visibleElement).on("inview", function(event, isInView) {
                  if (isInView) { 
@@ -108,12 +111,13 @@ $(document).ready(function() {
              });
         },
 
-       slideshow : function () {
+       slideshowDesktop : function () {
         this.indicatorSlideshow();
         this.slideshowImagePosition();
+        this.slideshowChangeImageDesktop();
         
         var controller = new ScrollMagic.Controller();
-        this.variables.$SlideshowTextTrigger.each(function() {
+        this.variables.SlideshowTextTriggerSelector.each(function() {
         
             var self = $(this);
             var imageFeatures = $(".image-top"); 
@@ -127,12 +131,12 @@ $(document).ready(function() {
             .addTo(controller);
         });
 
-        //set device image to fix a position
         var imagePin = new ScrollMagic.Scene ({
             triggerElement: "#imageTrigger", 
             duration: "300%",
             triggerHook: 0
         })
+
         .setPin("#imageTrigger")
         .setClassToggle(".indicators", "active") // add indicators to scene
         .addTo(controller);
@@ -142,7 +146,7 @@ $(document).ready(function() {
             $(this.variables.slideshowIndicatorsSelector).addClass(this.variables.activeClass);
             //this.destroyMagicScrollOnMobile();
             this.slideshowImagePositionMobile();
-            this.slideshowChangeImage();
+            this.slideshowChangeImageMobile();
             this.indicatorSlideshow();
             this.updateSlideshowImageSizes();
             this.toggleTextSlideshowMobile();
@@ -162,17 +166,14 @@ $(document).ready(function() {
             });
        },
 
-       slideshowChangeImage: function() {
-            var pathImageDesktop = $('.image-top').attr('src');
-            var pathImageDesktopValueString = pathImageDesktop.length;
-            var lastValueString = pathImageDesktopValueString - "4";
+       slideshowChangeImageMobile: function() {
+            $(".image-top-container").find(".image__desktop").hide();
+            $(".image-top-container").find(".image__mobile").show();
+       },
 
-            var pathImageDesktopWithoutformat = pathImageDesktop.substring(0, lastValueString);
-
-            console.log(pathImageDesktopWithoutformat);
-
-            $('.image-top').attr('src', pathImageDesktopWithoutformat + "_mobile" + ".jpg");
-            
+       slideshowChangeImageDesktop: function() {
+            $(".image-top-container").find(".image__desktop").show();
+            $(".image-top-container").find(".image__mobile").hide();
        },
 
        toggleTextSlideshowMobile: function() {
@@ -186,11 +187,18 @@ $(document).ready(function() {
        },
 
        showNextTextSlideshow: function(event) {
+            var slidesCount = $(".right-text-grey").last().data("slide");
+            var currentSlide = $(event.currentTarget).data("slide");
+            var NoMoreSlides = $(event.currentTarget).data("slide") + 1;
             var currentText = $(".right-text-grey.active");
             var nextText = $(".right-text-grey.active").next();
 
             nextText.addClass(this.variables.activeClass);
             currentText.removeClass(this.variables.activeClass);
+
+            if (slidesCount <= NoMoreSlides) {
+                console.log("here");
+            }
 
        },
 
@@ -209,11 +217,11 @@ $(document).ready(function() {
 
              $(visibleElement).on("inview", function(event, isInView) {
                  if (isInView) { 
-                     var currentSlide = $(event.currentTarget).data("slide");
-                     var imageFeatures = $(".image-top"); 
-                     var currentContainerheight = $(".image-top-container").height();
+                    var currentSlide = $(event.currentTarget).data("slide");
+                    var imageFeatures = $(".image-top"); 
+                    var slidesCount = $(".right-text-grey").last().data("slide");
+                    var imageTopHeight = $(".image__mobile").width() / slidesCount ;
 
-                     console.log(currentContainerheight);
 
                       if (currentSlide === 1) {
                          imageFeatures.css({
@@ -223,19 +231,19 @@ $(document).ready(function() {
 
                      if (currentSlide === 2) {
                          imageFeatures.css({
-                             "left": - currentContainerheight + "px"
+                             "left": - imageTopHeight + "px"
                             });
                      }
 
                      if (currentSlide === 3) {
                          imageFeatures.css({
-                             "left": - currentContainerheight * 2 + "px"
+                             "left": - imageTopHeight * 2 + "px"
                             });
                      }
 
                      if (currentSlide === 4) {
                          imageFeatures.css({
-                             "left": - currentContainerheight * 3 + "px"
+                             "left": - imageTopHeight *  3 + "px"
                             });
                      }
                 }

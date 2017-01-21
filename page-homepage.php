@@ -77,7 +77,8 @@
         	<div class="container-image-center" id="imageTrigger">
 	            <img class="image-back" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-10.png">
 	            <div class="image-top-container">
-	            	<img class="img-responsive image-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen.jpg">
+	            	<img class="img-responsive image-top image__desktop" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen.jpg">
+	            	<img class="img-responsive image-top image__mobile" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_mobile.jpg">
 	            </div>
             </div>
         </div>
