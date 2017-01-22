@@ -12,7 +12,9 @@ $(document).ready(function() {
 			});
 
 			enquire.register('screen and (min-width: 992px)', {
-				match: _.bind(this.modulesBindDesktop, this) 
+
+				match: _.bind(this.modulesBindDesktop, this), 
+                unmatch: _.bind(this.cleanModulesDesktop, this) 
 			});
 		},
 
@@ -25,6 +27,7 @@ $(document).ready(function() {
             slideshowIndicatorsSelector: ".indicators",
             slideshowImageOnTopSelector: ".image-top",
             textTriggerSelector: ".textTrigger",
+            indicatorSlideshow: "btn_carousel",
 			visibleClass : "visible",
 			activeClass: "active"
 		},
@@ -35,6 +38,10 @@ $(document).ready(function() {
 
         modulesBindMobile: function() {
             this.slideshowMobile();
+        },
+
+        cleanModulesDesktop: function() {
+            this.destroyMagicScrollOnMobile();
         },
 
 		buttonDropdown: function (event) {
@@ -116,19 +123,17 @@ $(document).ready(function() {
         this.slideshowImagePosition();
         this.slideshowChangeImageDesktop();
         
-        var controller = new ScrollMagic.Controller();
+        this.controller = new ScrollMagic.Controller();
         this.variables.SlideshowTextTriggerSelector.each(function() {
         
-            var self = $(this);
             var imageFeatures = $(".image-top"); 
-
             var animateImage = new ScrollMagic.Scene ({
                 triggerElement: this,
                 offset: "100%",
                 reverse: true,
                 triggerHook: 1
             })
-            .addTo(controller);
+            .addTo(this.controller);
         });
 
         var imagePin = new ScrollMagic.Scene ({
@@ -139,18 +144,23 @@ $(document).ready(function() {
 
         .setPin("#imageTrigger")
         .setClassToggle(".indicators", "active") // add indicators to scene
-        .addTo(controller);
+        .addTo(this.controller);
        },
 
        slideshowMobile: function() {
             $(this.variables.slideshowIndicatorsSelector).addClass(this.variables.activeClass);
-            //this.destroyMagicScrollOnMobile();
             this.slideshowImagePositionMobile();
             this.slideshowChangeImageMobile();
             this.indicatorSlideshow();
             this.updateSlideshowImageSizes();
             this.toggleTextSlideshowMobile();
             $(window).resize(_.bind(this.updateSlideshowImageSizes, this));
+            $(this.variables.indicatorSlideshow).on("click", _.bind(this.indicatorsAnchorMobile, this))
+       },
+
+       indicatorsAnchorMobile: function(event) {
+        event.prevent
+        console.log("here");
        },
 
        updateSlideshowImageSizes: function() {
@@ -182,7 +192,7 @@ $(document).ready(function() {
 
             var element = document.getElementById("slideshow");
             Hammer(element).on("swipeleft", _.bind(this.showNextTextSlideshow, this));
-            Hammer(element).on("swiperight",_.bind(this.showPreviousTextSlideshow, this)); 
+            Hammer(element).on("swiperight", _.bind(this.showPreviousTextSlideshow, this)); 
        },
 
        showNextTextSlideshow: function(event) {
@@ -268,10 +278,10 @@ $(document).ready(function() {
              });
         },
 
-        destroyMagicScrollOnMobile: function(event) {
-            controller.removeScene(scene);
-            // Destroy with scene reset
-            controller = controller.destroy(true);
+        destroyMagicScrollOnMobile: function(event, slideshowDesktop) {
+            this.controller.destroy();
+            this.controller = null;
+            $('.scrollmagic-pin-spacer').removeAttr('style')
         }
 
 		}
