@@ -21,7 +21,7 @@
   background: #0082c9;
   position: relative; }
   .nav.headroom {
-    transition: top 200ms ease; }
+    transition: transform 200ms ease; }
   .nav.headroom--pinned {
     top: 0px; }
   .nav.headroom--unpinned {
@@ -342,7 +342,8 @@
                 line-height: 39px;
                 color: white;
                 margin-left: 0;
-                font-weight: 100; }
+                font-weight: 100;
+                letter-spacing: -2px; }
     .nav .container .nav__sections-wrapper .right-buttons {
       position: relative;
       padding: 0;

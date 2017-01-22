@@ -181,34 +181,53 @@ $(document).ready(function() {
             firstText.addClass(this.variables.activeClass);
 
             var element = document.getElementById("slideshow");
-
             Hammer(element).on("swipeleft", _.bind(this.showNextTextSlideshow, this));
             Hammer(element).on("swiperight",_.bind(this.showPreviousTextSlideshow, this)); 
        },
 
        showNextTextSlideshow: function(event) {
-            var slidesCount = $(".right-text-grey").last().data("slide");
-            var currentSlide = $(event.currentTarget).data("slide");
-            var NoMoreSlides = $(event.currentTarget).data("slide") + 1;
-            var currentText = $(".right-text-grey.active");
-            var nextText = $(".right-text-grey.active").next();
+            var lastElement = $(".right-text-grey").last(),
+                visibleElement = $(".textTrigger").parent(),
+                slidesCount = $(".right-text-grey").last().data("slide"),
+                currentSlide = $(".right-text-grey.active").data("slide");
 
-            nextText.addClass(this.variables.activeClass);
-            currentText.removeClass(this.variables.activeClass);
+            if (slidesCount > currentSlide) {
+                var currentText = $(".right-text-grey.active");
+                var nextText = $(".right-text-grey.active").next();
 
-            if (slidesCount <= NoMoreSlides) {
-                console.log("here");
+                nextText.addClass("active");
+                currentText.removeClass("active");
+            } else {
+                nextText = $(".right-text-grey").first();
+                var currentText = $(".right-text-grey.active");
+
+                nextText.addClass("active");
+                currentText.removeClass("active");
             }
-
-       },
+        },
 
        showPreviousTextSlideshow: function(event) {
-            var currentText = $(".right-text-grey.active");
-            var nextText = $(".right-text-grey.active").prev();
+            var currentText = $(".right-text-grey.active"),
+                previousText = $(".right-text-grey.active").prev(),
+                lastElement = $(".right-text-grey").last(),
+                visibleElement = $(".textTrigger").parent(),
+                slidesCount = $(".right-text-grey").first().data("slide"),
+                NoMoreSlides = $(".right-text-grey.active").data("slide");
 
-            nextText.addClass(this.variables.activeClass);
-            currentText.removeClass(this.variables.activeClass);
+            if (slidesCount < NoMoreSlides) {
+                var currentText = $(".right-text-grey.active"),
+                    previousText = $(".right-text-grey.active").prev();
 
+                previousText.addClass("active");
+                currentText.removeClass("active");
+
+            } else {
+                previousText = $(".right-text-grey").last();
+                currentText = $(".right-text-grey.active");
+
+                previousText.addClass("active");
+                currentText.removeClass("active");
+            }
        },
 
 
@@ -217,11 +236,10 @@ $(document).ready(function() {
 
              $(visibleElement).on("inview", function(event, isInView) {
                  if (isInView) { 
-                    var currentSlide = $(event.currentTarget).data("slide");
-                    var imageFeatures = $(".image-top"); 
-                    var slidesCount = $(".right-text-grey").last().data("slide");
-                    var imageTopHeight = $(".image__mobile").width() / slidesCount ;
-
+                    var currentSlide = $(event.currentTarget).data("slide"),
+                        imageFeatures = $(".image-top"),
+                        slidesCount = $(".right-text-grey").last().data("slide"),
+                        imageTopHeight = $(".image__mobile").width() / slidesCount;
 
                       if (currentSlide === 1) {
                          imageFeatures.css({
