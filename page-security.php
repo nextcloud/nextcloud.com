@@ -13,7 +13,7 @@
 			<li><?php echo $l->t('A vulnerability description');?></li>
 			<li><?php echo $l->t('Reproduction steps');?></li>
 		</ul>
-		
+
 		<p><?php echo $l->t('A member of the security team will confirm the vulnerability, determine its impact, and develop a fix. The fix will be applied to the master branch, tested, and packaged in the next security release. The vulnerability will be publicly announced after the release. Finally, your name will be added to the <a href="https://hackerone.com/nextcloud/thanks">hall of fame</a> as a thank you from the entire Nextcloud community. Note our <a href="/security/threat-model">threat model</a> to know what is expected behavior.');?></p>
 
 		<h3><?php echo $l->t('PGP Key for Submissions');?></h3>
@@ -40,12 +40,13 @@
 		<h3><?php echo $l->t('Supported Product Versions');?></h3>
 		<p><?php echo $l->t('Nextcloud Server:');?></p>
 		<ul>
+			<li><?php echo $l->t('Latest 11.x release');?></li>
 			<li><?php echo $l->t('Latest 10.x release');?></li>
-			<li><?php echo $l->t('Latest 9.0.x release');?></li>
+			<li><?php echo $l->t('Latest 9.x release');?></li>
 		</ul>
 		<p><?php echo $l->t('Nextcloud Android Client:');?></p>
 		<ul></p>
-			<li><?php echo $l->t('Latest release on Google PlayStore');?></li>
+			<li><?php echo $l->t('Latest release on <a href="https://play.google.com/store/apps/details?id=com.nextcloud.client">Google Play Store</a>');?></li>
 		</ul>
 	</div>
 </div>
