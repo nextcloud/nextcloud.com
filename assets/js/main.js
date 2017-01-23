@@ -8,7 +8,8 @@ $(document).ready(function() {
             this.smoothScroll();
             
             enquire.register('screen and (max-width: 991px)', {
-				match: _.bind(this.modulesBindMobile, this) 
+				match: _.bind(this.modulesBindMobile, this),
+                unmatch: _.bind(this.cleanModulesMobile, this)
 			});
 
 			enquire.register('screen and (min-width: 992px)', {
@@ -42,6 +43,10 @@ $(document).ready(function() {
 
         cleanModulesDesktop: function() {
             this.destroyMagicScrollOnMobile();
+        },
+
+        cleanModulesMobile: function() {
+            this.removeInlineCssOnDesktop();
         },
 
 		buttonDropdown: function (event) {
@@ -93,7 +98,7 @@ $(document).ready(function() {
 
                       if (currentSlide === 1) {
                          imageFeatures.css({
-                             "top": "0" + "px"
+                             "top": "0" + "px",
                             });
                      }
 
@@ -279,9 +284,16 @@ $(document).ready(function() {
         },
 
         destroyMagicScrollOnMobile: function(event, slideshowDesktop) {
-            this.controller.destroy();
+            this.controller.destroy(true);
             this.controller = null;
-            $('.scrollmagic-pin-spacer').removeAttr('style')
+            this.slideshowDesktopCss = $('.scrollmagic-pin-spacer').attr('style');
+            $('.scrollmagic-pin-spacer').removeAttr('style');
+        },
+
+        removeInlineCssOnDesktop: function(destroyMagicScrollOnMobile) {
+            $(".image__desktop").removeAttr('style');
+            $('.scrollmagic-pin-spacer').css('style');
+            console.log("here");
         }
 
 		}

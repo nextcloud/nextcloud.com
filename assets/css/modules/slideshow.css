@@ -44,6 +44,8 @@
         width: 100%;
         top: 0;
         transition: all ease-in 0.3s; }
+        .slideshow .container .container-image-center .image-top-container .image-top.image__desktop {
+          left: 0 !important; }
         @media (max-width: 991px) {
           .slideshow .container .container-image-center .image-top-container .image-top {
             width: auto;

@@ -61,6 +61,10 @@
             top: 0;
             transition: all ease-in 0.3s;
 
+            &.image__desktop {
+              left: 0 !important;
+            }
+
             @media (max-width: $break-big) {
                 width: auto;
                 height: 100%;
