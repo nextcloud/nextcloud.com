@@ -64,7 +64,7 @@
 </div>
 
 <section class="slideshow" id="slideshow">
-    <h2 class="text-center section-title revealOnScroll"><?php echo $l->t('Introducing Nextcloud 10');?></h2>
+    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 10');?></h2>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
 		<li class="btn_carousel"><a href="#feature-1"></a></li>
@@ -151,14 +151,13 @@
 	</div>
 </section>
 
-<div class="container-fluid" id="stay-up-to-date">
-	<div class="row stay-up-to-date">
-		<div class="container text-center" style="padding-top: 70px; padding-bottom: 70px;">
-			<h5 class="section--heading-2 revealOnScroll"><?php echo $l->t('Stay up to date with Nextcloud\'s latest enhancements by subscribing to our newsletter!');?></h5>
-			<p class="revealOnScroll"><a class="button button--blue button--arrow button--large" href="https://newsletter.nextcloud.com/?p=subscribe&id=1" role="button"><?php echo $l->t('Subscribe</a>');?></p>
-		</div>
+<section class="stay-up-to-date">
+	<div class="container text-center">
+		<h5 class="section--heading-2 revealOnScroll"><?php echo $l->t('Stay up to date with latest enhancements');?></h5>
+		<p class="section--paragraph"><?php echo $l->t('Subscribe to our newsletter and never miss anything');?></p>
+		<a class="button button--blue button--arrow button--large" href="https://newsletter.nextcloud.com/?p=subscribe&id=1" role="button"><?php echo $l->t('Subscribe');?></a>
 	</div>
-</div>
+</section>
 
 <!-- <script type="text/javascript">
 	javascript:!function(a){var b=a.createElement("script");b.onload=function(){TouchEmulator()},b.src="//cdn.rawgit.com/hammerjs/touchemulator/0.0.2/touch-emulator.js",a.body.appendChild(b)}(document);

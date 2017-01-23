@@ -119,7 +119,6 @@ $(document).ready(function() {
             }
         });
         headroom.init(); 
-
     },
 
     mobileEvent: function() {

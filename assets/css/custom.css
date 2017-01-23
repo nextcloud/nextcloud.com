@@ -39,6 +39,11 @@
 .section--heading-2 {
   font-size: 2.53125em;
   font-weight: 300; }
+  @media (max-width: 768px) {
+    .section--heading-2 {
+      font-size: 2.53125em;
+      line-height: 1.2;
+      margin-top: 0; } }
 .section--intro {
   font-size: 22px;
   font-weight: 300; }
@@ -98,13 +103,20 @@ h5 {
   background-color: transparent;
   overflow: hidden;
   height: 100%;
-  position: relative; }
-  .slideshow .section-title {
-    padding-top: 10vh;
+  position: relative;
+  padding: 130px 0; }
+  @media (max-width: 991px) {
+    .slideshow {
+      padding: 0; } }
+  .slideshow .section--heading-1 {
     position: absolute;
     margin: auto 0;
     text-align: center;
     width: 100%; }
+    @media (max-width: 991px) {
+      .slideshow .section--heading-1 {
+        position: relative;
+        padding-top: 130px; } }
   .slideshow .container .container-image-center {
     padding-top: calc((100vh - 435px) /2);
     padding-bottom: calc((100vh - 435px) /2); }
@@ -114,7 +126,7 @@ h5 {
         padding-bottom: calc((100vh - 315px) /2); } }
     @media (max-width: 991px) {
       .slideshow .container .container-image-center {
-        padding-top: 260px;
+        padding-top: 50px;
         padding-bottom: 203px;
         margin-left: -13px; } }
     .slideshow .container .container-image-center .image-back {
@@ -139,6 +151,8 @@ h5 {
         transition: all ease-in 0.3s; }
         .slideshow .container .container-image-center .image-top-container .image-top.image__desktop {
           left: 0 !important; }
+        .slideshow .container .container-image-center .image-top-container .image-top.image__mobile {
+          top: 0 !important; }
         @media (max-width: 991px) {
           .slideshow .container .container-image-center .image-top-container .image-top {
             width: auto;
@@ -502,17 +516,6 @@ h5 {
 /**
  * Home page: Stay up to date
  */
-.stay-up-to-date {
-  background-color: #eaeaea; }
-  .stay-up-to-date h5 {
-    font-weight: 300;
-    text-align: center;
-    color: #2a2a36;
-    padding-bottom: 40px; }
-  @media (max-width: 768px) {
-    .stay-up-to-date .container {
-      width: 100%; } }
-
 /**
  * Home page: perfect-for-home-and-business
  */
@@ -559,12 +562,6 @@ h5 {
       #perfect-for-home-and-business .section--paragraph {
         width: 90%;
         padding-top: 10px; } }
-
-/**
- * Home page: Stay up to date
- */
-#stay-up-to-date a {
-  width: 300px; }
 
 .community-icon {
   height: 207px;
@@ -697,6 +694,9 @@ h5 {
       padding: 20px;
       margin: 30px;
       min-height: 500px; }
+      @media (max-width: 768px) {
+        .news-section .news .row .col-md-4 {
+          margin: 30px auto; } }
     .news-section .news h1 {
       /* 	font-family: OpenSans; */
       text-align: center;
@@ -737,6 +737,23 @@ h5 {
       line-height: 1.61;
       text-align: left;
       color: #555555; }
+
+.stay-up-to-date {
+  padding: 50px 0; }
+  .stay-up-to-date .section--heading-2 {
+    margin: 0; }
+    @media (max-width: 768px) {
+      .stay-up-to-date .section--heading-2 {
+        text-align: left; } }
+  .stay-up-to-date .section--paragraph {
+    margin: 0; }
+    @media (max-width: 768px) {
+      .stay-up-to-date .section--paragraph {
+        padding-top: 15px;
+        text-align: left; } }
+  @media (max-width: 768px) {
+    .stay-up-to-date .button {
+      float: left; } }
 
 /* hide the image and table for the tweets */
 .news .contribook_microbloguserpicture img {

@@ -36,6 +36,11 @@
 .section--heading-2 {
   font-size: 2.53125em;
   font-weight: 300; }
+  @media (max-width: 768px) {
+    .section--heading-2 {
+      font-size: 2.53125em;
+      line-height: 1.2;
+      margin-top: 0; } }
 .section--intro {
   font-size: 22px;
   font-weight: 300; }

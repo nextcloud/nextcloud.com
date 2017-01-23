@@ -6,17 +6,22 @@
   overflow: hidden;
   height: 100%;
   position: relative;
+  padding: 130px 0;
     
-    @media (max-width: $navbar-breaksize) {
-      //height: 100%;
+    @media (max-width: $break-big) {
+      padding: 0;
     }
 
-    .section-title {
-      padding-top:10vh;
+    .section--heading-1 {
       position: absolute;
       margin: auto 0;
       text-align: center;
       width: 100%;
+
+      @media (max-width:$break-big) {
+        position: relative;
+        padding-top: 130px;
+      }
     }
 
     .container {
@@ -31,7 +36,7 @@
         }
 
         @media (max-width: $break-big) {
-          padding-top: 260px;
+          padding-top: 50px;
           padding-bottom: 203px;
           margin-left: -13px;
         }
@@ -63,6 +68,10 @@
 
             &.image__desktop {
               left: 0 !important;
+            }
+
+            &.image__mobile {
+              top: 0 !important;
             }
 
             @media (max-width: $break-big) {
