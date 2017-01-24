@@ -5,6 +5,22 @@
   .brand {
     -webkit-transform: scale(0.5);
     top: -26px !important; } }
+.mobile-bg-container {
+  width: 100%;
+  min-height: 100%;
+  position: relative; }
+  .mobile-bg-container .mobile-bg {
+    position: absolute;
+    background: #0082c9;
+    z-index: 2;
+    border-radius: 50%;
+    transition: all 0.3s ease; }
+    .mobile-bg-container .mobile-bg:not(.active) {
+      top: 0 !important;
+      right: 0 !important;
+      width: 50px !important;
+      height: 50px !important; }
+
 .menu {
   will-change: transform;
   transition: transform 200ms ease; }
@@ -21,11 +37,11 @@
   background: #0082c9;
   position: relative; }
   .nav.headroom {
-    transition: transform 200ms ease; }
+    transition: transform 500ms ease; }
   .nav.headroom--pinned {
-    top: 0px; }
+    transform: translate3d(0px, 0px, 0px); }
   .nav.headroom--unpinned {
-    top: -100px; }
+    transform: translate3d(0px, -100px, 0px); }
   .nav .container {
     position: relative;
     /* Fix ul and li settings in common */ }

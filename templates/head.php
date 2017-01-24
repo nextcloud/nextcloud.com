@@ -18,7 +18,7 @@
 		var templateUrl = '<?= get_bloginfo('template_url'); ?>';
 	</script>
 
-	<script data-main="wp-content/themes/next/assets/js/require.config.js" src="wp-content/themes/next/assets/js/vendor/require.js"></script>
+	<script data-main="<?php echo get_template_directory_uri(); ?>/assets/js/require.config.js" src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/require.js"></script>
 
 	<script>
 	require(["require.config"], function() {

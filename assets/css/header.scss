@@ -4,6 +4,26 @@
 }
 
 
+.mobile-bg-container{
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    .mobile-bg {
+        position: absolute;
+        background: $nextcloud-blue;
+        z-index: 2;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+
+        &:not(.active){
+            top: 0 !important;
+            right: 0 !important;
+            width: 50px !important;
+            height: 50px !important;
+        }
+    }
+}
+
 .menu {
     will-change: transform;
     transition: transform 200ms ease;
@@ -24,15 +44,15 @@
     position: relative;
 
     &.headroom {
-        transition: transform 200ms ease;
+        transition: transform 500ms ease;
     }
 
     &.headroom--pinned {
-        top:0px;
+       transform: translate3d(0px, 0px, 0px);
     }
 
     &.headroom--unpinned {
-        top:-100px;
+        transform: translate3d(0px, -100px, 0px);
     }
 
     .container {

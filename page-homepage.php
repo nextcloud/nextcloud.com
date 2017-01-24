@@ -7,7 +7,6 @@
 	});
 </script>
 </head>
-
 <div class="jumbotron">
 	<div class="container">
 		<div class="row">

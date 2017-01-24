@@ -13,6 +13,7 @@ requirejs.config({
 		scrollMagic:"vendor/ScrollMagic.min",
 		hammer:"vendor/hammer.min",
 		inview:"vendor/jquery.inview",
+		bootstrap:"vendor/bootstrap"
 	},
 	shim: {
 		enquire: {
@@ -32,6 +33,9 @@ requirejs.config({
 		},
 		velocityUI: {
 			deps: ["velocity"],
+		},
+		bootstrap: {
+			deps: ["jquery"],
 		}
 	}
 });

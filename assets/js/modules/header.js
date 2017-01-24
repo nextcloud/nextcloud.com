@@ -89,6 +89,18 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "velocity", 
             $(event.currentTarget).find(this.variables.linksSelector).slideToggle().addClass(this.variables.activeClass);
         },
 
+        mobileBgAnimation: function() {
+            var viewportHeight = $(window).height() ,
+            viewportWidth = $(window).width() * 2.047584187408492;
+
+            $(this.variables.mobileBackgroundSelector).css({
+                "top": - viewportWidth / 2 + "px",
+                "right": - viewportWidth / 2 + "px",
+                "width": viewportWidth + "px",
+                "height": viewportWidth + "px"
+            });
+        },
+
         showAndHideHeader: function() {
             var myElement = document.querySelector(".nav");
             
@@ -129,7 +141,7 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "velocity", 
                 this.enquireInitializedMobile = true;
                 this.createMenuButton();
             }
-
+            this.mobileBgAnimation();
             //this.blockScroll();
             $(this.variables.navigationId).addClass(this.variables.mobileClass);
             $(this.variables.toggleSelector).click(_.bind(this.toggleMobileMenu, this));

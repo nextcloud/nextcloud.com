@@ -138,6 +138,5 @@
 
 <script type="text/javascript">
 // $(function () {
-	$("a.youtube").YouTubePopup({ hideTitleBar: true });
 // });
 </script>
