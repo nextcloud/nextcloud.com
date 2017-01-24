@@ -1,6 +1,6 @@
 // Top Container Animations
-define(["jquery", "bodymovin", "velocity", "waypoints", "velocityUI"], 
-function (jquery, bodymovin, velocity, Waypoint, velocityUI) {
+define(["jquery", "waypoints", "velocity", "bodymovin", "velocityUI"], 
+function (jquery, waypoints, velocity, bodymovin, velocityUI) {
     $(document).ready(function() {
         $(".topbanner").velocity('transition.slideUpBigIn');
         $(".toptext").velocity('transition.fadeIn', 2000);

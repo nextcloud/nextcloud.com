@@ -41,6 +41,18 @@
           margin-left: -13px;
         }
 
+        @media (max-width: $break-small) {
+          padding-bottom: 260px;
+        }
+
+        @media (max-width: 600px) {
+          padding-bottom: 180px;
+        }
+
+        @media (max-width: 340px) {
+          padding-bottom: 130px;
+        }
+
         .image-back {
           position: absolute;
           height: 440px;
@@ -96,15 +108,30 @@
           padding-bottom: calc((100vh - 236px) /2);
           opacity: 1;
           padding-top: 0;
+          transition: all 0.3s ease;
+
 
           @media (max-width: $break-big) {
             margin-top: 0;
             padding-bottom: 0;
             text-align: left;
             display: none;
+            opacity: 0;
 
             &.active {
               display: block;
+              opacity: 1;
+              transform: translate3d(0px, 0px, 0px);
+            }
+
+            &.swipeleft {
+              transform: translate3d(-150px, 0px, 0px);
+              opacity: 0;
+            }
+
+            &.swiperight {
+              transform: translate3d(150px, 0px, 0px);
+              opacity: 0;
             }
           }
 

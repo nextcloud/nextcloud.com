@@ -161,15 +161,20 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
            },
 
            updateSlideshowImageSizes: function() {
-                var imageDeviceWidth = $(".image-back").width() * "0.9376733"; // Using proportions to do the math
-                var imageDeviceHeight = $(".image-back").height() * "0.722727273"; // Using proportions to do the math
-                var imageOnTopMargins = $(".image-back").width() * "0.0314"; // Using proportions to do the math
+                var imageDeviceWidth = $(".image-back").width() * "0.9376733", // Using proportions to do the math
+                    imageDeviceHeight = $(".image-back").height() * "0.722727273", // Using proportions to do the math
+                    imageOnTopMargins = $(".image-back").width() * "0.0314"; // Using proportions to do the math
 
                 $(".image-top-container").css({
                     "width": imageDeviceWidth + "px",
                     "height": imageDeviceHeight + "px",
                     "top": imageOnTopMargins + "px",
                     "left": imageOnTopMargins + "px"
+                });
+                var sectionHeadingheight = $("#slideshow").find(".section--heading-1").height();
+                var currentImageDevice = $(".image-back").height() + sectionHeadingheight + 200;
+                $(this.variables.slideshowIndicatorsSelector).css({
+                    "top": currentImageDevice + "px"
                 });
            },
 
@@ -202,14 +207,23 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
                     var currentText = $(".right-text-grey.active");
                     var nextText = $(".right-text-grey.active").next();
 
-                    nextText.addClass("active");
+                    nextText.addClass("swipeleft active");
                     currentText.removeClass("active");
+                    
+                    setTimeout(function() {
+                        nextText.removeClass("swipeleft");
+                    }, 200 );
+
                 } else {
                     nextText = $(".right-text-grey").first();
                     var currentText = $(".right-text-grey.active");
 
-                    nextText.addClass("active");
+                    nextText.addClass("swipeleft active");
                     currentText.removeClass("active");
+
+                    setTimeout(function() {
+                        nextText.removeClass("swipeleft");
+                    }, 200 );
                 }
             },
 
@@ -225,8 +239,12 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
                     var currentText = $(".right-text-grey.active"),
                         previousText = $(".right-text-grey.active").prev();
 
-                    previousText.addClass("active");
+                    previousText.addClass("swiperight active");
                     currentText.removeClass("active");
+
+                    setTimeout(function() {
+                        previousText.removeClass("swiperight");
+                    }, 200 );
 
                 } else {
                     previousText = $(".right-text-grey").last();
@@ -234,6 +252,10 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
 
                     previousText.addClass("active");
                     currentText.removeClass("active");
+
+                    setTimeout(function() {
+                        previousText.removeClass("swiperight");
+                    }, 200 );
                 }
            },
 

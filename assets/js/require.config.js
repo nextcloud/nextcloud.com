@@ -29,7 +29,7 @@ requirejs.config({
 			deps: ["jquery"]
 		},
 		waypoints: {
-			deps: ["jquery"]
+			deps: ["jquery", "bodymovin"]
 		},
 		velocityUI: {
 			deps: ["velocity"],
