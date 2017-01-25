@@ -74,6 +74,7 @@
 <a name="capabilities"></a>
 <section class="slideshow" id="slideshow">
     <h2 class="text-center section-title revealOnScroll"><?php echo $l->t('Nextcloud Enterprise Capabilities');?></h2>
+<section class="slideshow ">
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
 		<li class="btn_carousel"><a href="#feature-1"></a></li>

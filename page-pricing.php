@@ -47,15 +47,15 @@
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source');?></li>
 					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Support for the Calendar and Contacts apps.</div>Calendar and Contacts');?></li>
-					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Support for our secure and private peer to peer audio and video conferencing.</div><a href="/webrtc" target="_blank">Secure WebRTC Conferencing</a>');?></li>
-					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Allows web conferencing calls to connect with phone lines.</div>SIP gateway');?></li>
-					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div><a href="/collaboraonline" target="_blank">Collabora Online Office</a>');?></li>
+					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Support for our secure and private peer to peer audio and video conferencing.</div><a href="/webrtc" target="_blank">Audio/video Chat</a> <small>(optional)</small>');?></li>
+					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Allows web conferencing calls to connect with phone lines.</div>SIP gateway <small>(optional)</small>');?></li>
+					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div><a href="/collaboraonline" target="_blank">Collabora Online Office</a> <small>(optional)</small>');?></li>
 				</div>
 				<h1 class="header"><?php echo $l->t('Support');?></h1>
 				<div class="line"></div>
 				<div class="list">
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.</div>Maintenance life cycle: 1 year');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Questions and issues are generally dealt with in this time, depending on the severity of the issue.</div>Production SLA: 3 business days');?></li>
+					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Questions and issues are generally dealt with in this time, depending on the severity of the issue.</div>Reaction time: 3 business days');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.</div>Portal support.');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">We help you migrate from ownCloud to Nextcloud.</div><a href="/migration">ownCloud migration support</a>');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">You can contact our capable and responsive support team by email and expect a quick response time.</div>Email support');?></li>
@@ -90,15 +90,15 @@
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Support for the Calendar and Contacts apps.</div>Calendar and Contacts');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Support for our secure and private peer to peer audio and video conferencing.</div><a href="/webrtc" target="_blank">Secure WebRTC Conferencing</a><a href="#extracosts"> *</a>');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: allows web conferencing calls to connect with phone lines.</div>SIP gateway<a href="#extracosts"> *</a>');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div><a href="/collaboraonline" target="_blank">Collabora Online Office</a><a href="#extracosts"> *</a>');?></li>
+					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: Support for our secure and private peer to peer audio and video conferencing.</div><a href="/webrtc" target="_blank">Audio/video Chat</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
+					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: allows web conferencing calls to connect with phone lines.</div>SIP gateway<a href="#extracosts"> <small>(optional)</small></a>');?></li>
+					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div><a href="/collaboraonline" target="_blank">Collabora Online Office</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
 				</div>
 				<h1 class=""><?php echo $l->t('Support');?></h1>
 				<div class="line"></div>
 				<div class="list">
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.</div>Maintenance life cycle: 3 years');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Questions and issues are generally dealt with in this time, depending on the severity of the issue.</div>Production SLA: 2 business days');?></li>
+					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Questions and issues are generally dealt with in this time, depending on the severity of the issue.</div>Reaction time: 2 business days');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.</div>Portal support');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">We help you migrate from ownCloud to Nextcloud.</div><a href="/migration">ownCloud migration support</a>');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">You can contact our capable and responsive support team by email and expect a quick response time.</div>Email support: business hours');?></li>
@@ -133,15 +133,15 @@
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Support for the Calendar and Contacts apps.</div>Calendar and Contacts');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: Support for our secure and private peer to peer audio and video conferencing.</div><a href="/webrtc" target="_blank">Secure WebRTC Conferencing</a><a href="#extracosts"> *</a>');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: Allows web conferencing calls to connect with phone lines.</div>SIP gateway<a href="#extracosts"> *</a>');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div><a href="/collaboraonline" target="_blank">Collabora Online Office</a><a href="#extracosts"> *</a>');?></li>
+					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: Support for our secure and private peer to peer audio and video conferencing.</div><a href="/webrtc" target="_blank">Audio/video Chat</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
+					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: Allows web conferencing calls to connect with phone lines.</div>SIP gateway<a href="#extracosts"> <small>(optional)</small></a>');?></li>
+					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div><a href="/collaboraonline" target="_blank">Collabora Online Office</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
 				</div>
 				<h1 class=""><?php echo $l->t('Support');?></h1>
 				<div class="line"></div>
 				<div class="list">
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.</div>Maintenance life cycle: 5+5 years');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Questions and issues are generally dealt with in this time, depending on the severity of the issue.</div>Production SLA: 24h or as agreed');?></li>
+					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Questions and issues are generally dealt with in this time, depending on the severity of the issue.</div>Reaction time: 24h or as agreed');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.</div>Portal support');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">We help you migrate from ownCloud to Nextcloud.</div><a href="/migration">ownCloud migration support</a>');?></li>
 					<li class="check overinfo"><?php echo $l->t('<div class="infotext">You can contact our capable and responsive support team by email and expect a quick response time.</div>Email support: up to 24/7');?></li>
