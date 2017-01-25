@@ -1,6 +1,6 @@
-define(["oldJquery", "youtubeplugin"  ], 
-    function (oldJquery, youtubeplugin ) {
-    $(document).ready(function() {
-        
-    });
+define(["jquery", "bootstrap"  ], 
+       function ($, bootstrap ) {
+           $(document).ready(function() {
+               
+       });
 });
