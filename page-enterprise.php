@@ -74,7 +74,6 @@
 <a name="capabilities"></a>
 <section class="slideshow" id="slideshow">
     <h2 class="text-center section-title revealOnScroll"><?php echo $l->t('Nextcloud Enterprise Capabilities');?></h2>
-<section class="slideshow ">
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
 		<li class="btn_carousel"><a href="#feature-1"></a></li>
@@ -87,7 +86,8 @@
         	<div class="container-image-center" id="imageTrigger">
 	            <img class="image-back" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-back.png">
 	            <div class="image-top-container">
-	            	<img class="img-responsive image-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/sprite_screen.jpg">
+	            	<img class="img-responsive image-top image__desktop" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/sprite_screen.jpg">
+	            	<img class="img-responsive image-top image__mobile" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/sprite_screen_mobile.jpg">
 	            </div>
             </div>
         </div>

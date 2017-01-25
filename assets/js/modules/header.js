@@ -141,7 +141,7 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "velocity", 
                 this.enquireInitializedMobile = true;
                 this.createMenuButton();
             }
-            this.mobileBgAnimation();
+            //this.mobileBgAnimation();
             //this.blockScroll();
             $(this.variables.navigationId).addClass(this.variables.mobileClass);
             $(this.variables.toggleSelector).click(_.bind(this.toggleMobileMenu, this));
@@ -182,6 +182,7 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "velocity", 
             this.resetMobile();
             $(this.variables.sectionSelector).on("mouseover", _.bind(this.backgroundDropdown, this));
             $(this.variables.sectionSelector).on("mouseleave", _.bind(this.destroyDropdown, this));
+            this.showAndHideHeader();
         },
 
         // Clear dropdowns in mouse leave
