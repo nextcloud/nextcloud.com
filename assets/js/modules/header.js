@@ -107,7 +107,7 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "velocity", 
             //I should pass the variable object inside the headroom
 
             var headroom  = new Headroom(myElement,{
-                offset: 100,
+                offset: 510,
                 tolerance : {
                     up : 5,
                     down : 0

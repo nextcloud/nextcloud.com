@@ -1,5 +1,11 @@
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/enterprise.js"></script>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pricing.css" rel="stylesheet">
+<head>
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pricing.css" rel="stylesheet">
+	<script>
+	require(["require.config"], function() {
+		require(["pages/enterprise", "modules/submenu"])
+	});
+	</script>	
+</head>
 
 <section class="pricing-hero-section second-menu">
 	<div class="background pricing-background">

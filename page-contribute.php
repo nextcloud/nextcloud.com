@@ -14,7 +14,7 @@
 		<p class="section--paragraph"><?php echo $l->t('We invite you to join our <a class="hyperlink" href="https://github.com/nextcloud" target="_blank">development efforts on GitHub</a>, the conversations on <a class="hyperlink" href="https://help.nextcloud.com" target="_blank">our forums</a> and our <a class="hyperlink" href="irc://#nextcloud-dev@freenode.net" target="_blank">IRC channel on freenode</a>, also accessible via <a class="hyperlink" href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. Interact with us on our <a class="hyperlink" href="/news">blogs and social media channels</a>, too!');?></p>
 		<p class="section--paragraph"><?php echo $l->t('Do you want to get a certain improvement in Nextcloud? Did you find a problem?
 		Do you want to help translate, promote or document Nextcloud?');?></p>
-		<h1 class="section--heading-1 section--text--center"><?php echo $l->t('Become part of the Community.');?></h1>
+		<h1 class="section--heading-1"><?php echo $l->t('Become part of the Community.');?></h1>
 		<div class="row">
 			<div class="col-md-6">
 				<h3 class="section--intro"><?php echo $l->t('Improve Nextcloud');?></h3>

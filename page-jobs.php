@@ -1,3 +1,10 @@
+<head>
+	<script>
+	require(["require.config"], function() {
+		require(["pages/jobs"])
+	});
+	</script>
+</head>
 <div class="background jobs-background"> 
 	<div class="container">
 		<div class="row">

@@ -3,6 +3,7 @@ requirejs.config({
 	baseURL: "wp-content/themes/next/assets/js/",
 	paths: {
 		jquery:"vendor/jquery.min",
+		oldJquery:"old/vendor/jquery-1.10.2.min",
 		waypoints:"vendor/jquery.waypoints.min",
 		enquire:"vendor/enquire",
 		bodymovin:"vendor/bodymovin",
@@ -13,7 +14,8 @@ requirejs.config({
 		scrollMagic:"vendor/ScrollMagic.min",
 		hammer:"vendor/hammer.min",
 		inview:"vendor/jquery.inview",
-		bootstrap:"vendor/bootstrap"
+		bootstrap:"vendor/bootstrap",
+		youtubeplugin:"old/vendor/jquery.youtubepopup.min",
 	},
 	shim: {
 		enquire: {
@@ -36,6 +38,9 @@ requirejs.config({
 		},
 		bootstrap: {
 			deps: ["jquery"],
+		},
+		youtubeplugin: {
+			deps:["oldJquery"],
 		}
 	}
 });

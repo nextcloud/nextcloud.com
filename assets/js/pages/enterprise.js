@@ -12,7 +12,7 @@ function ($, _, enquire, velocity, velocityUI, ScrollMagic) {
 				});
 
 				enquire.register('screen and (min-width: 481px)', {
-					match: _.bind(this.enterpriseBindDesktop, this) 
+					//match: _.bind(this.enterpriseBindDesktop, this) 
 				});
 			},
 
@@ -26,22 +26,6 @@ function ($, _, enquire, velocity, velocityUI, ScrollMagic) {
 				$(this.variables.topHeaderSelector).velocity('transition.slideUpBigIn');
 				$(this.variables.heroSectionBackgroundSelector).velocity('transition.fadeIn', 1000);
 			},
-
-			enterpriseBindDesktop: function() {
-				this.pinFiltersBar();
-			},
-
-			pinFiltersBar: function() {
-				var controller = new ScrollMagic.Controller();
-				var scene = new ScrollMagic.Scene({
-					triggerElement: this.variables.menuAnchorSelector,
-					triggerHook:0,
-					offset:-90
-				})
-					.setPin(this.variables.menuAnchorSelector)
-					.setClassToggle(".nav", "no-shadow")
-					.addTo(controller);
-			}
 	    }
 	    enterprisePage.init();
 	});

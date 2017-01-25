@@ -1,7 +1,13 @@
+<head>
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/outlook.css">
-<link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/old/vendor/jquery.youtubepopup.min.js"></script>
+<link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet"/>
+
+<script>
+	require(["require.config"], function() {
+		require(["pages/outlook"])
+	});
+</script>	
+</head>
 
 <div class="background outlook-background"> 
 	<div class="container">

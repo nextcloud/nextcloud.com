@@ -58,7 +58,8 @@
   text-decoration: none;
   font-weight: 500;
   border-bottom: solid 1px;
-  transition: all 0.5s ease; }
+  transition: all 0.5s ease;
+  text-decoration: none; }
   .hyperlink:hover {
     text-decoration: none;
     color: #2a2a36; }
@@ -190,10 +191,10 @@ h5 {
             display: block;
             opacity: 1;
             transform: translate3d(0px, 0px, 0px); }
-          .slideshow .container .texts-wrapper .right-text-grey.swipeleft {
+          .slideshow .container .texts-wrapper .right-text-grey.swiperight {
             transform: translate3d(-150px, 0px, 0px);
             opacity: 0; }
-          .slideshow .container .texts-wrapper .right-text-grey.swiperight {
+          .slideshow .container .texts-wrapper .right-text-grey.swipeleft {
             transform: translate3d(150px, 0px, 0px);
             opacity: 0; } }
       .slideshow .container .texts-wrapper .right-text-grey p {

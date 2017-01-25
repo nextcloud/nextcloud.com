@@ -77,7 +77,8 @@
     font-weight: 500;
     border-bottom: solid 1px;
     transition: all 0.5s ease;
-
+    text-decoration: none;
+    
     &:hover {
         text-decoration: none;
         color: $dark-blue;

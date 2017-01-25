@@ -11,10 +11,10 @@
   background-position: center; }
 
 .section--contribute {
-  padding-top: 50px;
+  padding-top: 80px;
   display: inline-block; }
   .section--contribute .section--heading-1 {
-    padding: 50px 0; }
+    padding: 80px 0 30px 0; }
   .section--contribute .section--intro {
     font-weight: 500;
     padding-top: 30px; }
