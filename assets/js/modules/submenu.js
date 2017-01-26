@@ -49,7 +49,6 @@ function ($, _, enquire, ScrollMagic) {
 
 				function getTargetTop(elem){
 				 	var id = elem.attr("href");
-				 	console.log($(id));
 				 	var offset = 60;
 				 	return $(id).offset().top - offset;
 				 }
