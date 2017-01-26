@@ -24,10 +24,10 @@
 			<a href="#workflow"><?php echo $l->t('Workflow');?></a>
 			<a href="#clients"><?php echo $l->t('Clients');?></a>
 			<a href="#storage"><?php echo $l->t('External storage');?></a>
-			<a href="#capabilities"><?php echo $l->t('Calendar & Contacts');?></a>
-			<a href="#capabilities"><?php echo $l->t('Video calls');?></a>
-			<a href="#capabilities"><?php echo $l->t('Collabora');?></a>
-			<a href="#capabilities"><?php echo $l->t('In action');?></a>
+			<a href="#Calendar"><?php echo $l->t('Calendar & Contacts');?></a>
+			<a href="#calls"><?php echo $l->t('Video calls');?></a>
+			<a href="#Collabora"><?php echo $l->t('Collabora');?></a>
+			<a href="#more"><?php echo $l->t('More');?></a>
 		</div>
 	</div>
 </div>
@@ -106,12 +106,149 @@
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('External storage');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The external storage feature of Nextcloud gives you access to your data wherever it is. Nextcloud can access files stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but you can also access them using standard protocols such as NFS, (S)FTP, WebDAV and more. <br> <br>
+			<p class="section--paragraph"><?php echo $l->t('The external storage feature of Nextcloud gives you access to your data wherever it is. Nextcloud can access files stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but you can also access them using standard protocols such as NFS, (S)FTP, WebDAV and more. <br>
 				The Encryption App can encrypt data at rest for both local and remote storage, protecting data stored on networks outside of your infrastructure. Keys can be handled by an external key management server or stored locally, on the server. Nextcloud will keep your data where it is and retrieve it over a secure communication channel whenever you need to access it.');?></p>
 		</div>
 	</div>
 </section>
 
+<section class="section--Calendar">
+	<a name="Calendar" id="Calendar"></a>
+	<div class="container">
+		<div class="col-md-6">
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png"/></a>
+		</div>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Calendar and Contacts');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The Nextcloud Calendar and Contacts apps allow you to store, sync and share your plans and contacts. You can share with users or groups on your server or sync the calendar or contacts with your devices and access them wherever you are. The Calendar and Contacts app feature:');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Easy to use interface');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Private and shared calendars and addressbooks with permissions management');?></p>
+			<p class="section--paragraph"><?php echo $l->t('CalDAV and CardDAV sync with third party clients both on mobile and desktop (i.e with Thunderbird)');?></p>
+		</div>
+	</div>
+</section>
+
+<section class="section--calls">
+	<a name="calls" id="calls"></a>
+	<div class="container">
+		<div class="col-md-6 image--floated">
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png"/></a>
+		</div>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Secure audio and video calls');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Operate your own secure and private audio/video and text chat. Your own video meeting service is accessible through browsers and dedicated apps on computers, mobile phones and tablets through the Internet or limited to an Intranet. Make a call, invite your friends and clients, and collaborate in closed groups through secure, end to end encrypted video/audio, text messaging, and document and file sharing. The Spreed.ME technology used offers peer to peer, WebRTC based communication channels which can not be intercepted even by the admin of the server. It provides an easy to use interface and can optionally interface with telephone lines, handling up to 10 participants in one session and dozens of sessions on a single server.You can integrate this secure communication in your Nextcloud server or purchase our Spreedbox appliance in one cool, aluminum cube!');?></p>
+			<a href="/sharing" class="button button--blue button--arrow button--large"><?php echo $l->t('Communication');?></a>
+		</div>
+	</div>
+</section>
+
+<section class="section--Collabora">
+	<a name="Collabora" id="Collabora"></a>
+	<div class="container">
+		<div class="col-md-6">
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png"/></a>
+		</div>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Collabora Online Office');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The Nextcloud Calendar and Contacts apps allow you to store, sync and share your plans and contacts. You can share with users or groups on your server or sync the calendar or contacts with your devices and access them wherever you are. The Calendar and Contacts app feature:Collabora Online is a powerful LibreOffice-based online office suite which supports all major document, spreadsheet and presentation file formats. Features:');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Easy to use interface');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Private and shared calendars and addressbooks with permissions management');?></p>
+			<p class="section--paragraph"><?php echo $l->t('CalDAV and CardDAV sync with third party clients both on mobile and desktop (i.e with Thunderbird)');?></p>
+		</div>
+	</div>
+</section>
+
+<section class="section--more">
+	<a name="more" id="more"></a>
+	<div class="featurerow">
+	<div class="wrap container featuregroup">
+	<h1 class="section--heading-1 section--text--center"><?php echo $l->t('And much more.');?></h1>
+		<div class="row">
+			<div class="col-md-1 featureblock">
+			<i class="icon-code-fork icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class=""><?php echo $l->t(' Nextcloud is open source - there are no limitations and you can inspect, integrate, extend and modify Nextcloud however you want');?></p>
+			</div>
+			<div class="col-md-1 featureblock">
+			<i class="icon-tags icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class=""><?php echo $l->t('Nextcloud offers an easy to use user interface which comes with search functionality, favorites, tags and even more ways to quickly reach the files you need. Full Text search is available using Apache Solr.');?></p>
+			</div>
+			<div class="col-md-1 featureblock">
+			<i class="icon-file-text icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class=""><?php echo $l->t('Document editing and thumbnail previews of PDF, images, text files, office files and more');?></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1 featureblock">
+			<i class="icon-bug icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class=""><?php echo $l->t('Integration of anti-virus scanning functionality with the anti-virus app');?></p>
+			</div>
+			<div class="col-md-1 featureblock">
+			<i class="icon-puzzle-piece icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class=""><?php echo $l->t('LDAP / Active Directory integration, Kerberos and Shibboleth / SAML 2.0 support');?></p>
+			</div>
+			<div class="col-md-1 featureblock">
+			<i class="icon-life-ring icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class=""><?php echo $l->t('Pre-loaded files and folders for new users. Populate a new user\'s Files area with, for example, a tutorial file, which appears when they first log in.');?></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1 featureblock">
+			<i class="icon-key icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class=""><?php echo $l->t('Powerful, integrated logging and password policy control functionalities');?></p>
+			</div>
+			<div class="col-md-1 featureblock">
+			<i class="icon-share-alt icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class=""><?php echo $l->t('Fine-grained control from mobile, desktop or the Web over data access and sharing capabilities. Pick from the list of users and groups, stored either locally or on another, authorized, server. ');?></p>
+			</div>
+			<div class="col-md-1 featureblock">
+			<i class="icon-archive icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class=""><?php echo $l->t('Advanced quota management with configurable accounting of external storage');?></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1 featureblock">
+			<i class="icon-code icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class=""><?php echo $l->t('Sharing and Provisioning REST APIs. Facilitates the integration of remote 3rd party apps');?></p>
+			</div>
+			<div class="col-md-1 featureblock">
+			<i class="icon-certificate icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class=""><?php echo $l->t('Quick access to core functions for app development with the powerful Nextcloud App API and webhooks following the publication / subscription model');?></p>
+			</div>
+			<div class="col-md-1 featureblock">
+			<i class="icon-paint-brush icon"></i>
+			</div>
+			<div class="col-md-3 featureblock">
+			<p class=""><?php echo $l->t('Built in, easy to use theming');?></p>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+
+<div class="calltoaction">
+	<h1 class="section--heading-2 section--text--center"><?php echo $l->t('Get started now');?></h1>
+	<p class="section--paragraph section--text--center"><?php echo $l->t('Install Nextcloud server');?></p>
+	<a href="/sharing" class="button button--blue button--arrow button--large"><?php echo $l->t('Install');?></a>
+</div>
 
 
 
