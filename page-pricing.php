@@ -29,7 +29,7 @@
 	</div>
 </section>
 
-<a name="plans"></a>
+<a name="plans" id="plans"></a>
 <div class="container plans">
 	<div class="row">
 		<h1 class="header"><?php echo $l->t('Plans and Pricing');?></h1>
@@ -159,7 +159,7 @@
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market vertical.</div>Additional pricing tiers are available up to 10 million users');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Framework agreements available');?></li>
 				</div>
-				<a name="extracosts"></a> <!--has to be here due to header-->
+				<a name="extracosts" id="extracosts"></a> <!--has to be here due to header-->
 				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
 		</div>
@@ -171,7 +171,7 @@
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Android and desktop apps are free; iOS app can be purchased in the Apple App Store.');?></p>
 	<p class="revealOnScroll"><?php echo $l->t('<small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small>');?></p>
 </div>
-<a name="discounts"></a>
+<a name="discounts" id="discounts"></a>
 <div class="container discounts">
 	<div class="row">
 		<h1 class="header revealOnScroll"><?php echo $l->t('Discounts');?></h1>
@@ -189,7 +189,7 @@
 	</div>
 </div>
 
-<a name="faq"></a>
+<a name="faq" id="faq"></a>
 <div class="faq container-fluid">
 			<div class="text-center">
 				<h1 class="revealOnScroll"><?php echo $l->t('Frequently asked questions');?></h1>

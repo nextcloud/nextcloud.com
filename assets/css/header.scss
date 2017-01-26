@@ -227,7 +227,7 @@
 
                         a {
                             font-size: 16px;
-                            color: $medium-grey;
+                            color: $medium-dark;
 
                             &:hover {
                                 opacity: 0.6;
@@ -593,10 +593,10 @@
         .nav__sections-wrapper {
             .nav__sections, .right-buttons:not(.active) {
                 .nav__section .nav__label, .ghost-btn .nav__label, .ghost-btn .nav__label {
-                    color: $medium-grey;
+                    color: $medium-dark;
 
                     &:before {
-                        background-color: $medium-grey;
+                        background-color: $medium-dark;
                     }
                 }
             }
