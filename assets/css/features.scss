@@ -1,0 +1,22 @@
+@import "variables.scss";
+@import "modules/secondmenu";
+
+.background {
+	background-color: $nextcloud-blue;
+}
+
+.image--floated{
+	float: right;
+}
+
+.section--files {
+	padding-top: 80px;
+}
+
+section {
+	padding: 50px 0;
+
+	.section--paragraph__tittle {
+		padding: 0;
+	}
+}
