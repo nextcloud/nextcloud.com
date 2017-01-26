@@ -31,10 +31,10 @@
 				<h3 class="section--intro"><?php echo $l->t('Answer questions about Nextcloud use and development');?></h3>
 				<p class="section--paragraph"><?php echo $l->t('Help answer questions users and developers have about Nextcloud!');?></p>
 				<p class="section--paragraph"><?php echo $l->t('Join the <a class="hyperlink"  href="https://help.nextcloud.com">Nextcloud forums</a>!');?></p>
-				<p><?php echo $l->t('Answer Nextcloud development questions on <a class="hyperlink"  href="https://stackoverflow.com/questions/tagged/nextcloud" target="_blank">Stack Overflow</a> and other places online.');?></p>
-       <?php echo $l->t('Answer Nextcloud user questions on <a class="hyperlink"  href="https://mailman.nextcloud.org/mailman/listinfo/user">the Nextcloud user mailing list</a>');?>
+				<p class="section--paragraph"><?php echo $l->t('Answer Nextcloud development questions on <a class="hyperlink"  href="https://stackoverflow.com/questions/tagged/nextcloud" target="_blank">Stack Overflow</a> and other places online.');?></p>
+       <p class="section--paragraph"><?php echo $l->t('Answer Nextcloud user questions on <a class="hyperlink"  href="https://mailman.nextcloud.org/mailman/listinfo/user">the Nextcloud user mailing list</a>');?></p>
 		
-		<p><?php echo $l->t('Please be considerate of our <a class="hyperlink"  href="/community/code-of-conduct/">code of conduct</a>. We want to provide a positive and enjoyable environment for everybody.');?></p>
+		<p class="section--paragraph"><?php echo $l->t('Please be considerate of our <a class="hyperlink"  href="/community/code-of-conduct/">code of conduct</a>. We want to provide a positive and enjoyable environment for everybody.');?></p>
 			</div>
 			<div class="col-md-6">
 				<h3 class="section--intro"><?php echo $l->t('Test Nextcloud');?></h3>

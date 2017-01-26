@@ -15,8 +15,9 @@
 	}
 
 	.section--intro {
-		font-weight: 500;
+		font-weight: 600;
 		padding-top: 30px;
+        color: $dark-blue;
 
 		@media (max-width: $break-small) {
 			text-align: left !important;

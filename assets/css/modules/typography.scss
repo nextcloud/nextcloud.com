@@ -64,6 +64,12 @@
         font-weight: 300;
     }
 
+    @include modifier(paragraph__tittle) {
+        font-size: ms(0, 22px);
+        font-weight: 600;
+        color: $dark-blue;
+    }
+
     @include modifier(paragraph) {
         font-size: ms(0);
         font-weight: 400;

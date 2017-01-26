@@ -45,6 +45,10 @@
 .section--intro {
   font-size: 22px;
   font-weight: 300; }
+.section--paragraph__tittle {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2a2a36; }
 .section--paragraph {
   font-size: 1.125em;
   font-weight: 400;

@@ -16,8 +16,9 @@
   .section--contribute .section--heading-1 {
     padding: 80px 0 30px 0; }
   .section--contribute .section--intro {
-    font-weight: 500;
-    padding-top: 30px; }
+    font-weight: 600;
+    padding-top: 30px;
+    color: #2a2a36; }
     @media (max-width: 768px) {
       .section--contribute .section--intro {
         text-align: left !important; } }
