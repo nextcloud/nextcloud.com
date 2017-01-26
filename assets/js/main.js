@@ -6,7 +6,7 @@ function ($, _, enquire) {
             init: function() {
 
     			this.variables.buttonDropdownSelector.on("click", _.bind(this.buttonDropdown, this))
-                this.smoothScroll();
+                //this.smoothScroll();
                 
                 enquire.register('screen and (max-width: 991px)', {
     				match: _.bind(this.modulesBindMobile, this),

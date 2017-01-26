@@ -3,9 +3,10 @@
 @import 'vendor/modular-scale/modular-scale.scss';
 @import "transparent-gradient.scss";
 
-/**
- * Enterprise Page
- */
+.separator{
+  height: 40px;
+  background: #f6f6f6;
+}
 
 .enterprise-hero-section {
    .background {
@@ -41,9 +42,6 @@
 }
 
 .what-you-get-section {
-    background: -webkit-linear-gradient(top, #fff 0, #f6f6f6 150px);
-    background: linear-gradient(to bottom, #fff 0, #f6f6f6 150px);
-    background: -webkit-linear-gradient(to bottom, #fff 0, #f6f6f6 150px);
   
   .container {
     padding-top: ms(5);
@@ -74,10 +72,7 @@
 }
 
 .section--expertise {
-  background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
-  background: -o-linear-gradient(#fff 0%, #f6f6f6 150px);
-  background: linear-gradient(#fff 0%, #f6f6f6 150px);
-  
+
   .container {
     padding-top: ms(5);
     padding-bottom: ms(5);
@@ -102,10 +97,6 @@
 }
 
 .section--security {
-  background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
-  background: -o-linear-gradient(#fff 0%, #f6f6f6 150px);
-  background: linear-gradient(#fff 0%, #f6f6f6 150px);
-  
   .container{
     padding-top: ms(5);
     padding-bottom: ms(5);
@@ -130,9 +121,6 @@
 }
 
 .section--lifecycle {
-  background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
-  background: -o-linear-gradient(#fff 0%, #f6f6f6 150px);
-  background: linear-gradient(#fff 0%, #f6f6f6 150px);
   
   .container{
     padding-top: ms(5);

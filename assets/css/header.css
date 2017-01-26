@@ -21,12 +21,6 @@
       width: 50px !important;
       height: 50px !important; }
 
-.menu {
-  will-change: transform;
-  transition: transform 200ms ease; }
-  .menu.hidedPrincipalNavigation {
-    transform: translateY(-130%); }
-
 .nav {
   z-index: 10;
   padding-top: 20px;
@@ -185,7 +179,7 @@
             margin-left: 10px; }
             .nav .container .nav__sections .nav__section .nav__links .nav__item a {
               font-size: 16px;
-              color: #555555; }
+              color: #9c9c9c; }
               .nav .container .nav__sections .nav__section .nav__links .nav__item a:hover {
                 opacity: 0.6;
                 text-decoration: none; }
@@ -426,9 +420,9 @@
       .nav.scrolled .logo:not(.menu-open).stopedAnimation {
         background-position-x: -4620px; }
     .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .nav__section .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .ghost-btn .nav__label, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .ghost-btn .nav__label {
-      color: #555555; }
+      color: #9c9c9c; }
       .nav.scrolled .nav__sections-wrapper .nav__sections .nav__section .nav__label:before, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label:before, .nav.scrolled .nav__sections-wrapper .nav__sections .ghost-btn .nav__label:before, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .nav__section .nav__label:before, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .ghost-btn .nav__label:before, .nav.scrolled .nav__sections-wrapper .right-buttons:not(.active) .ghost-btn .nav__label:before {
-        background-color: #555555; }
+        background-color: #9c9c9c; }
   .nav.mobile .nav__sections-wrapper .nav__sections .nav__section .nav__label, .nav.mobile .nav__sections-wrapper .ghost-btn .nav__section .nav__label {
     color: white; }
 

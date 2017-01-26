@@ -21,6 +21,7 @@
       font-size: ms(0);
       color: white;
       line-height: 1.6;
+      font-weight: 500;
 
       @media (max-width $break-small) {
         font-size: ms(0, 16px)
@@ -65,9 +66,9 @@
 
     @include modifier(paragraph) {
         font-size: ms(0);
-        font-weight: 300;
+        font-weight: 400;
         line-height: 1.5;
-        color: #434343;
+        color: $medium-grey;
     }
 }
 
@@ -109,7 +110,7 @@ h3 {
 }
 
 h4 {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: bold;
   line-height: 1.36;
   color: #555;

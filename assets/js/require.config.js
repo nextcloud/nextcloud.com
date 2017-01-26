@@ -16,6 +16,7 @@ requirejs.config({
 		inview:"vendor/jquery.inview",
 		bootstrap:"vendor/bootstrap",
 		youtubeplugin:"old/vendor/jquery.youtubepopup.min",
+		onePageNav:"vendor/onepagenav.min"
 	},
 	shim: {
 		enquire: {
@@ -34,13 +35,13 @@ requirejs.config({
 			deps: ["jquery", "bodymovin"]
 		},
 		velocityUI: {
-			deps: ["velocity"],
+			deps: ["velocity"]
 		},
 		bootstrap: {
-			deps: ["jquery"],
+			deps: ["jquery"]
 		},
 		youtubeplugin: {
-			deps:["oldJquery"],
+			deps:["oldJquery"]
 		}
 	}
 });

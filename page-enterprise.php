@@ -35,7 +35,8 @@
 	</div>
 </section>
 
-<a name="expertise"></a>
+<div class="separator"></div>
+<a name="expertise" id="expertise"></a>
 <section class="section--expertise">
 	<div class="container">	
 		<p class="section--intro text-center revealOnScroll">Matter experts</p>
@@ -47,7 +48,9 @@
 	</div>
 </section>
 
-<a name="security"></a>
+<div class="separator"></div>
+
+<a name="security" id="security"></a>
 <section class="section--security">
 	<div class="container">
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Top notch security');?></p>
@@ -59,7 +62,9 @@
 	</div>
 </section>
 
-<a name="lifecycle"></a>
+<div class="separator"></div>
+
+<a name="lifecycle" id="lifecycle"></a>
 <section class="section--lifecycle">
 	<div class="container">
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Multi-year lifecycle');?></p>
@@ -71,7 +76,9 @@
 	</div>
 </section>
 
-<a name="capabilities"></a>
+<div class="separator"></div>
+
+<a name="capabilities" id="capabilities"></a>
 <section class="slideshow" id="slideshow">
     <h2 class="text-center section-title revealOnScroll"><?php echo $l->t('Nextcloud Enterprise Capabilities');?></h2>
 	<div class="indicators">

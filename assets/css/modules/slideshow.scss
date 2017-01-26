@@ -110,6 +110,16 @@
           padding-top: 0;
           transition: all 0.3s ease;
 
+          .textTrigger {
+            font-size: 18px;
+          }
+
+          .section--paragraph {
+            font-size: 16px !important;
+            font-weight: 400 !important;
+            color: $medium-grey;
+          }
+
 
           @media (max-width: $break-big) {
             margin-top: 0;
@@ -133,12 +143,6 @@
               transform: translate3d(150px, 0px, 0px);
               opacity: 0;
             }
-          }
-
-          p {
-            font-size: 18px;
-            font-weight: 100;
-            color: #555555;
           }
         }
       }

@@ -24,15 +24,6 @@
     }
 }
 
-.menu {
-    will-change: transform;
-    transition: transform 200ms ease;
-
-    &.hidedPrincipalNavigation {
-        transform: translateY(-130%);
-    }
-}
-
 .nav {
     z-index: 10;
     padding-top: 20px;
