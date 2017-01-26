@@ -156,10 +156,6 @@
   @media (max-width: 768px) {
     .right-text-grey {
       text-align: center; } }
-  .right-text-grey p {
-    font-size: 18px;
-    font-weight: 100;
-    color: #555555; }
 
 .introducing-nc-release {
   padding-top: 100px;
@@ -182,17 +178,6 @@
 /**
  * Home page: Stay up to date
  */
-.stay-up-to-date {
-  background-color: #eaeaea; }
-  .stay-up-to-date h5 {
-    font-weight: 300;
-    text-align: center;
-    color: #2a2a36;
-    padding-bottom: 40px; }
-  @media (max-width: 768px) {
-    .stay-up-to-date .container {
-      width: 100%; } }
-
 /**
  * Home page: perfect-for-home-and-business
  */
@@ -239,12 +224,6 @@
       #perfect-for-home-and-business .section--paragraph {
         width: 90%;
         padding-top: 10px; } }
-
-/**
- * Home page: Stay up to date
- */
-#stay-up-to-date a {
-  width: 300px; }
 
 .community-icon {
   height: 207px;
@@ -377,6 +356,9 @@
       padding: 20px;
       margin: 30px;
       min-height: 500px; }
+      @media (max-width: 768px) {
+        .news-section .news .row .col-md-4 {
+          margin: 30px auto; } }
     .news-section .news h1 {
       /* 	font-family: OpenSans; */
       text-align: center;
@@ -417,6 +399,23 @@
       line-height: 1.61;
       text-align: left;
       color: #555555; }
+
+.stay-up-to-date {
+  padding: 50px 0; }
+  .stay-up-to-date .section--heading-2 {
+    margin: 0; }
+    @media (max-width: 768px) {
+      .stay-up-to-date .section--heading-2 {
+        text-align: left; } }
+  .stay-up-to-date .section--paragraph {
+    margin: 0; }
+    @media (max-width: 768px) {
+      .stay-up-to-date .section--paragraph {
+        padding-top: 15px;
+        text-align: left; } }
+  @media (max-width: 768px) {
+    .stay-up-to-date .button {
+      float: left; } }
 
 /* hide the image and table for the tweets */
 .news .contribook_microbloguserpicture img {

@@ -3,6 +3,11 @@ $l = new L10N('header-navbar');
 require get_template_directory().'/strings.php';
 ?>
 <nav class="nav" id="nav">
+<!-- To finish -->
+<!-- 	<div class="mobile-bg-container">
+		<div class="mobile-bg"></div>
+	</div> -->
+
 	<div class="container">
 		<div class="nav__bg-wrapper">
 			<div class="nav__bg"></div>
@@ -14,8 +19,8 @@ require get_template_directory().'/strings.php';
 		<button type="button" class="navbar-toggle collapsed" id="toggle">
 			<div class="menu-animation" data-animation-path="img/menu/black/" data-anim-loop="false" data-name="menu-black" id="menu-black"></div>
 		</button>
-
 		<div class="mobile-bg"></div>
+
 			<div class="nav__sections-wrapper">
 			<ul class="nav__sections">
 

@@ -4,6 +4,10 @@
  * This file contains fixes for legacy pages
  */
 
+html {
+	margin-top: 0 !important;
+}
+
 footer p {
   padding: 0 !important;
   padding-top: 20px !important;

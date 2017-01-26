@@ -3,6 +3,7 @@
 @import "helpers.scss";
 @import "modules/typography";
 @import "modules/slideshow.scss";
+@import "modules/secondmenu.scss";
 @import "home.scss";
 @import "header.scss";
 @import "footer.scss";
@@ -322,70 +323,6 @@ li {
 	max-width: 1800px;
 }
 
-
-/* second header like on enterprise pages */
-.second-menu {
-	.menu {
-		background: #fbfbfb;
-		height: 70px;
-		border-bottom: solid 1px #e4e4e4;
-		border-top: solid 1px #e4e4e4;
-		text-transform: capitalize;
-		vertical-align: middle;
-		z-index: 2;
-
-        @media (max-width: $break-big) {
-			display: none;
-		}
-
-		.buttons {
-			font-weight: 500;
-			margin-top: 23px;
-
-			a {
-				padding-right: 10px;
-				color: gray;
-                transition: all 0.3s ease;
-                letter-spacing: 1px;
-
-				&:focus {
-					text-decoration: none;
-					color: black;
-				}
-
-				&:hov &:active {
-					text-decoration: none;
-					color: black;
-				}
-
-				&:hover {
-					text-decoration: none;
-					color: black;
-				}
-			}
-
-			.btn-primary {
-				float: right;
-				font-size: 14px;
-				padding: 8px 20px;
-				margin-left: 20px;
-				margin-top: -5px;
-				color: white;
-
-				&:hover {
-					text-decoration: none;
-					color: white;
-				}
-
-				&:before {
-					background: none;
-				}
-			}
-		}
-	}
-}
-
-
 /* typical background images (hero section) like enterprise, security */
 .background {
   padding-bottom: 0;
@@ -562,10 +499,15 @@ li {
         }
     }
 
+    .section--paragraph {
+        font-size: 16px;
+    }
+
     h4 {
         text-align: center;
         margin-top: 20px;
         margin-left: -20px;
+        margin-bottom: 0;
         @media (max-width: 1200px) {
             margin-left: 0;
         }

@@ -42,6 +42,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/bootstrap.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/velocity.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/velocity.ui.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/headroom.js"></script>
 
 <!-- 	Old JS -->
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/old/scripts.min.js"></script>

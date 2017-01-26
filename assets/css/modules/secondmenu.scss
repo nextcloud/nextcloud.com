@@ -1,0 +1,72 @@
+@import "../variables.scss";
+
+.second-menu {
+	.menu {
+		background: #fbfbfb;
+		border-top: solid 1px #e4e4e4;
+		text-transform: capitalize;
+		vertical-align: middle;
+		z-index: 2;
+		transform: translateZ(0);
+	    will-change: transform;
+    	transition: transform 500ms ease;
+    	transform: translate3d(0px, 0px, 0px);
+
+
+	    &.hidedPrincipalNavigation {
+	    	transform: translate3d(0px, -100px, 0px);
+	    }
+
+        @media (max-width: $break-big) {
+			display: none;
+		}
+
+		.buttons {
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 600;
+			padding: 40px 0 30px 0;
+			border-bottom: solid 1px #e4e4e4;
+
+			a {
+				padding-right: 10px;
+				color: $dark-grey;
+                transition: all 0.3s ease;
+                letter-spacing: 1px;
+
+				&:focus {
+					text-decoration: none;
+					color: black;
+				}
+
+				&.active {
+					text-decoration: none;
+					color: $nextcloud-blue;
+				}
+
+				&:hover {
+					text-decoration: none;
+					color: $nextcloud-blue;
+				}
+			}
+
+			.btn-primary {
+				float: right;
+				font-size: 14px;
+				padding: 8px 20px;
+				margin-left: 20px;
+				margin-top: -5px;
+				color: white;
+
+				&:hover {
+					text-decoration: none;
+					color: white;
+				}
+
+				&:before {
+					background: none;
+				}
+			}
+		}
+	}
+}

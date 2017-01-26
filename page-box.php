@@ -1,5 +1,10 @@
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/box.js"></script>
-
+<head>
+	<script>
+		require(["require.config"], function() {
+			require(["pages/box"])
+		});
+	</script>	
+</head>
 <section class="section-top-jumbotron">
 	<div class="container">
 		<h2 class="section--heading-1 section--text--center text-center introText"><?php echo $l->t('Introducing the Nextcloud Box');?></h2>

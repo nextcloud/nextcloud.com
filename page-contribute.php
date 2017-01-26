@@ -14,7 +14,7 @@
 		<p class="section--paragraph"><?php echo $l->t('We invite you to join our <a class="hyperlink" href="https://github.com/nextcloud" target="_blank">development efforts on GitHub</a>, the conversations on <a class="hyperlink" href="https://help.nextcloud.com" target="_blank">our forums</a> and our <a class="hyperlink" href="irc://#nextcloud-dev@freenode.net" target="_blank">IRC channel on freenode</a>, also accessible via <a class="hyperlink" href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. Interact with us on our <a class="hyperlink" href="/news">blogs and social media channels</a>, too!');?></p>
 		<p class="section--paragraph"><?php echo $l->t('Do you want to get a certain improvement in Nextcloud? Did you find a problem?
 		Do you want to help translate, promote or document Nextcloud?');?></p>
-		<h1 class="section--heading-1 section--text--center"><?php echo $l->t('Become part of the Community.');?></h1>
+		<h1 class="section--heading-1"><?php echo $l->t('Become part of the Community.');?></h1>
 		<div class="row">
 			<div class="col-md-6">
 				<h3 class="section--intro"><?php echo $l->t('Improve Nextcloud');?></h3>
@@ -31,10 +31,10 @@
 				<h3 class="section--intro"><?php echo $l->t('Answer questions about Nextcloud use and development');?></h3>
 				<p class="section--paragraph"><?php echo $l->t('Help answer questions users and developers have about Nextcloud!');?></p>
 				<p class="section--paragraph"><?php echo $l->t('Join the <a class="hyperlink"  href="https://help.nextcloud.com">Nextcloud forums</a>!');?></p>
-				<p><?php echo $l->t('Answer Nextcloud development questions on <a class="hyperlink"  href="https://stackoverflow.com/questions/tagged/nextcloud" target="_blank">Stack Overflow</a> and other places online.');?></p>
-       <?php echo $l->t('Answer Nextcloud user questions on <a class="hyperlink"  href="https://mailman.nextcloud.org/mailman/listinfo/user">the Nextcloud user mailing list</a>');?>
+				<p class="section--paragraph"><?php echo $l->t('Answer Nextcloud development questions on <a class="hyperlink"  href="https://stackoverflow.com/questions/tagged/nextcloud" target="_blank">Stack Overflow</a> and other places online.');?></p>
+       <p class="section--paragraph"><?php echo $l->t('Answer Nextcloud user questions on <a class="hyperlink"  href="https://mailman.nextcloud.org/mailman/listinfo/user">the Nextcloud user mailing list</a>');?></p>
 		
-		<p><?php echo $l->t('Please be considerate of our <a class="hyperlink"  href="/community/code-of-conduct/">code of conduct</a>. We want to provide a positive and enjoyable environment for everybody.');?></p>
+		<p class="section--paragraph"><?php echo $l->t('Please be considerate of our <a class="hyperlink"  href="/community/code-of-conduct/">code of conduct</a>. We want to provide a positive and enjoyable environment for everybody.');?></p>
 			</div>
 			<div class="col-md-6">
 				<h3 class="section--intro"><?php echo $l->t('Test Nextcloud');?></h3>

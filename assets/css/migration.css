@@ -55,4 +55,17 @@
         font-size: 28px;
         font-weight: 100; }
 
+.section--paragraph__tittle {
+  padding-top: 50px; }
+
+.section--heading-1 {
+  padding: 80px 0 50px 0; }
+
+.page-footer {
+  margin-top: 80px; }
+
+small {
+  padding: 50px 0 0 0;
+  display: block; }
+
 /*# sourceMappingURL=migration.css.map */

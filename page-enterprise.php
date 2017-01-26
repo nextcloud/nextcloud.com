@@ -1,5 +1,11 @@
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/enterprise.js"></script>
+<head>
+<script>
+	require(["require.config"], function() {
+		require(["pages/enterprise", "modules/slideshow", "modules/submenu"])
+	});
+</script>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/enterprise.css" rel="stylesheet">
+</head>
 
 <section class="enterprise-hero-section second-menu">
 	<div class="container-fluid background"> 
@@ -29,7 +35,8 @@
 	</div>
 </section>
 
-<a name="expertise"></a>
+<div class="separator"></div>
+<a name="expertise" id="expertise"></a>
 <section class="section--expertise">
 	<div class="container">	
 		<p class="section--intro text-center revealOnScroll">Matter experts</p>
@@ -41,7 +48,9 @@
 	</div>
 </section>
 
-<a name="security"></a>
+<div class="separator"></div>
+
+<a name="security" id="security"></a>
 <section class="section--security">
 	<div class="container">
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Top notch security');?></p>
@@ -53,7 +62,9 @@
 	</div>
 </section>
 
-<a name="lifecycle"></a>
+<div class="separator"></div>
+
+<a name="lifecycle" id="lifecycle"></a>
 <section class="section--lifecycle">
 	<div class="container">
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Multi-year lifecycle');?></p>
@@ -65,9 +76,11 @@
 	</div>
 </section>
 
-<a name="capabilities"></a>
+<div class="separator"></div>
+
+<a name="capabilities" id="capabilities"></a>
+<section class="slideshow" id="slideshow">
     <h2 class="text-center section-title revealOnScroll"><?php echo $l->t('Nextcloud Enterprise Capabilities');?></h2>
-<section class="slideshow ">
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
 		<li class="btn_carousel"><a href="#feature-1"></a></li>
@@ -80,7 +93,8 @@
         	<div class="container-image-center" id="imageTrigger">
 	            <img class="image-back" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-back.png">
 	            <div class="image-top-container">
-	            	<img class="img-responsive image-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/sprite_screen.jpg">
+	            	<img class="img-responsive image-top image__desktop" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/sprite_screen.jpg">
+	            	<img class="img-responsive image-top image__mobile" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/sprite_screen_mobile.jpg">
 	            </div>
             </div>
         </div>
@@ -115,87 +129,3 @@
         </div>
     </div>
 </section>
-
-<section class="slideshow-mobile">
-	<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-	<ol class="carousel-indicators">
-		<li data-target="#carousel" data-slide-to="0" class="active"></li>
-		<li data-target="#carousel" data-slide-to="1"></li>
-		<li data-target="#carousel" data-slide-to="2"></li>
-		<li data-target="#carousel" data-slide-to="3"></li>
-	</ol>
-	<!-- Carousel items -->
-	<div class="carousel-inner" role="listbox">
-		<div class="active item">
-			<div class="row">
-				<div class="col-sm-6">
-					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-integration.png" alt="in action" />
-				</div>
-				<div class="col-sm-6 text-container">
-					<h5><?php echo $l->t('Deep integration in your infrastructure');?></h5>
-					<p><?php echo $l->t('Nextcloud offers LDAP/Active Directory, SAML and Kerboros authentication. It accesses data on NFS, (s)FTP, WebDAV, Windows Network Drive, Object Stores like SWIFT and many more.');?></p>
-					<a class="button button--blue button--arrow button--large" href="<?php echo get_template_directory_uri(); ?>/assets/files/architecture-whitepaper.pdf" role="button"><?php echo $l->t('Architecture Whitepaper');?></a>
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="item">
-			<div class="row">
-				<div class="col-sm-6">
-					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-security.png" alt="in action" />
-				</div>
-				<div class="col-sm-6 text-container">
-					<h5><?php echo $l->t('Security features keep your data safe');?></h5>
-					<p><?php echo $l->t('Nextcloud supports two-factor authentication and Server Side Encryption, has brute force protection and features industry-standard security measures like CSP, SSC and password and session management.');?></p>
-					<a class="button button--blue button--arrow button--large" href="/secure" role="button"><?php echo $l->t('Learn more about security');?></a>
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="item">
-			<div class="row">
-				<div class="col-sm-6">
-					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-control.png" alt="in action" />
-				</div>
-				<div class="col-sm-6 text-container">
-					<h5><?php echo $l->t('IT stays in control');?></h5>
-					<p><?php echo $l->t('Our File Access Control app enables administrators to defining data access rules or triggering actions based on location, group membership, file type, tags and other properties.');?></p>
-					<a class="button button--blue button--arrow button--large" href="/workflow/" role="button"><?php echo $l->t('Learn more about Workflow');?></a>
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="item">
-			<div class="row">
-				<div class="col-sm-6">
-					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/capabilities-access.png" alt="in action" />
-				</div>
-				<div class="col-sm-6 text-container">
-					<h5><?php echo $l->t('Easy access for users');?></h5>
-					<p><?php echo $l->t('Users can access and share their data on Nextcloud through sync clients for Windows, Linux and Mac as well as Android and IOS, providing a smooth experience no matter where data is located.');?></p>
-					<a class="button button--blue button--arrow button--large" href="/features" role="button"><?php echo $l->t('Learn more about features');?></a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Carousel nav -->
-	
-	  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-  
-<!--	<a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
-	<a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>-->
-	</div>
-</section>
-
-
-<script>
-$('.carousel').carousel();
-</script>

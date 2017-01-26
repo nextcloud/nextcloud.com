@@ -190,11 +190,6 @@
   @media (max-width: 768px){
     text-align: center;
   }
-  p {
-    font-size: 18px;
-    font-weight: 100;
-    color: #555555;
-  }
 }
 
 
@@ -230,20 +225,7 @@
 /**
  * Home page: Stay up to date
  */
-.stay-up-to-date {
-  background-color: #eaeaea;
-  h5 {
-    font-weight: 300;
-    text-align: center;
-    color: $dark-blue;
-    padding-bottom: 40px;
-  }
-  @media (max-width: $break-small) {
-    .container {
-      width: 100%;
-    }
-  }
-}
+
 
 /**
  * Home page: perfect-for-home-and-business
@@ -308,14 +290,6 @@
   }
 }
 
-/**
- * Home page: Stay up to date
- */
-#stay-up-to-date {
-  a {
-    width: 300px;
-  }
-}
 
 .community-icon {
   height:207px;
@@ -484,6 +458,10 @@
         padding: 20px;
         margin: 30px;
         min-height: 500px;
+
+        @media (max-width: $break-small) {
+          margin: 30px auto;
+        }
       }
     }
 
@@ -538,6 +516,33 @@
       line-height: 1.61;
       text-align: left;
       color: #555555;
+    }
+  }
+}
+
+.stay-up-to-date {
+  padding: 50px 0;
+
+  .section--heading-2 {
+    margin: 0;
+
+    @media (max-width: $break-small) {
+      text-align: left;
+    }
+  }
+
+  .section--paragraph {
+    margin: 0;
+
+    @media (max-width: $break-small) {
+      padding-top: 15px;
+      text-align: left;
+    }
+  }
+
+  .button {
+    @media (max-width: $break-small) {
+      float: left;
     }
   }
 }

@@ -7,17 +7,17 @@
 }
 
 .section--contribute {
-	padding-top: 50px;
+	padding-top: 80px;
 	display: inline-block;
 
 	.section--heading-1 {
-		padding: 50px 0;
-
+		padding: 80px 0 30px 0;
 	}
 
 	.section--intro {
-		font-weight: 500;
+		font-weight: 600;
 		padding-top: 30px;
+        color: $dark-blue;
 
 		@media (max-width: $break-small) {
 			text-align: left !important;
