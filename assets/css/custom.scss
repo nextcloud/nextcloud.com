@@ -9,7 +9,7 @@
 @import "footer.scss";
 @import "jobs.scss";
 @import "box.scss";
-@import "migration.scss";
+/* @import "migration.scss"; */
 @import "secure.scss";
 @import "buy.scss";
 @import "support.scss";
@@ -76,6 +76,10 @@ li {
   color: #2a2a36;
 }
 
+/* footer */
+.page-footer {
+    margin-top: 80px;
+}
 /*All default buttons*/
 
 .button {

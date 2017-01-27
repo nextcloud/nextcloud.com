@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/migration.css">
+
 <div class="background migration-background"> 
 	<div class="container">
 		<div class="row">

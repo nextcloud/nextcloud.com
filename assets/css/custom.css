@@ -1739,76 +1739,7 @@ footer.page-footer {
         .section-partners .container .wrapper-images .logo-ubuntu {
           width: 121px;
           height: 30px; } }
-/*Colors*/
-/*Shadows*/
-/*Breakpoints*/
-/* Make Navbar transparent */
-.nav:not(.scrolled) {
-  background-color: transparent;
-  position: absolute; }
-
-/**
- * Migration Page
- */
-.migration-background {
-  background-image: url("../img/enterprise/enterprise.jpg");
-  background-position: bottom 0 right 0; }
-  @media (max-width: 1200px) {
-    .migration-background {
-      min-height: 850px !important;
-      max-height: 1000px !important; } }
-  @media (max-width: 768px) {
-    .migration-background .topheader {
-      top: 20% !important; } }
-  .migration-background .topquote {
-    position: absolute;
-    top: 50%;
-    left: 60%;
-    margin: 0;
-    padding: 0;
-    max-width: 500px; }
-    @media (max-width: 1600px) {
-      .migration-background .topquote {
-        max-width: 390px; } }
-    @media (max-width: 1200px) {
-      .migration-background .topquote {
-        max-width: 95%;
-        max-width: 500px;
-        top: 65%;
-        left: 28%;
-        margin-right: 5px; } }
-    @media (max-width: 768px) {
-      .migration-background .topquote {
-        top: 55%;
-        left: 8%; } }
-    .migration-background .topquote h2 {
-      text-align: right; }
-      .migration-background .topquote h2 a {
-        color: white; }
-        .migration-background .topquote h2 a:hover {
-          text-decoration: underline;
-          color: white; }
-    .migration-background .topquote h3 {
-      color: white;
-      font-size: 18px;
-      text-align: left; }
-      .migration-background .topquote h3 .big {
-        font-size: 28px;
-        font-weight: 100; }
-
-.section--paragraph__tittle {
-  padding-top: 50px; }
-
-.section--heading-1 {
-  padding: 80px 0 50px 0; }
-
-.page-footer {
-  margin-top: 80px; }
-
-small {
-  padding: 50px 0 0 0;
-  display: block; }
-
+/* @import "migration.scss"; */
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
@@ -2208,6 +2139,10 @@ li {
   line-height: 0.88;
   text-align: center;
   color: #2a2a36; }
+
+/* footer */
+.page-footer {
+  margin-top: 80px; }
 
 /*All default buttons*/
 .button {
