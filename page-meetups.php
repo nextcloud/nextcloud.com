@@ -59,7 +59,7 @@
 		    <li>Find a <a href="http://blog.jospoortvliet.com/2014/11/5-steps-to-organizing-meetup.html">how to organize a meetup in 5 steps</a> article here.</li>
 		</ul>
 <!-- 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/materials.jpg" style="width: 400px" -->
-			title="You can order these materials!" alt="You can order these materials!" class="img-thumbnail alignright">
+<!-- 			title="You can order these materials!" alt="You can order these materials!" class="img-thumbnail alignright"> -->
 	<h2>Contact/questions/support</h2>
 		For setting up the meetup page, sharing the news on the upcoming event or a report from the previous one or any other questions, <a href="/events/contactform">just ask via the contact form</a>.
 		<p>Use the <a href="https://help.nextcloud.com/c/conference">events category</a> to discuss events with other Nextclouders.</p>
