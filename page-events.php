@@ -7,7 +7,7 @@
 <div class="row">
     <div class="col-md-12">
         <p>Are you interested in meeting fellow Nextcloud users and contributors (<a href=”https://twitter.com/nextclouders”>Nextclouders</a>, as we lovingly call ourselves)? You&#39;ve come to the right place! The Nextcloud community organizes and participates in many events around the globe and here you can find details on where you can meet us and how to organise your own event and become a member of the most active file sync and share open source community!</p>
-<!--         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/meetup_small.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright"> -->
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/grouppic.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
         <h2>Meetups</h2>
         <p>Nextcloud community members get together in meetups to learn, share ideas and work on Nextcloud. Meetups are informal meetings which are typically held in the evening and can be focused on development, user or business topics. You can take part as a speaker, participant or promoter. Meetups are typically held once a month and are open to anyone. Below is a list of local meetup groups.</p>
         <script type="text/javascript" src="https://www.meetup.com/embed/largest/nextcloud/"></script>
@@ -19,10 +19,10 @@
             <i class="icon-lightbulb-o"></i> Organize a Meetup!</a></p>
         </div>
 
-<!--         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/product_demo.jpg" style="width: 400px" title="Picture by Dragotin from CLT14" alt="Picture by Dragotin from CLT14" class="img-thumbnail alignright"> -->
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/hackathon.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
         <h2>Conferences</h2>
         <p>Nextcloud is participating in trade shows and conferences to present our community and technology to visitors.
-            Below is a list of upcoming tradeshows and conferences where Nextcloud is being represented! If you have business questions and would like to meet Nextcloud GmBH at an event, check out this list and <a href="https://nextcloud.com/contact/">let us know</a> you will be there.
+            Below is a list of upcoming tradeshows and conferences where Nextcloud is being represented! If you have business questions and would like to meet Nextcloud GmBH at an event, check out this list and <a href="https://help.nextcloud.com/c/conference">let us know on the forums</a> you will be there.
         <table class="table table-striped">
             <tr>
                 <th>Event</th>
@@ -60,8 +60,8 @@
                 <td>August 22-29</td>
             </tr>
         </table>
-        <p>Is there a conference, trade show or other event close by and you want Nextcloud to be there? Please <a href="http://nextcloud.com/contact">get in touch</a> and let us know, we will do our best to help making it happen!</p>
-        <p>Are you presenting about Nextcloud or running a booth at an upcoming event that should be listed here? <a href="http://nextcloud.com/contact">Let us know via the contact form</a></p>
+        <p>Is there a conference, trade show or other event close by and you want Nextcloud to be there? Please <a href="https://help.nextcloud.com/c/conference">get in touch</a> and let us know, we will do our best to help making it happen!</p>
+        <p>Are you presenting about Nextcloud or running a booth at an upcoming event that should be listed here? <a href="http://nextcloud.com/contact">Let us know via the contact form</a> or <a href="https://help.nextcloud.com/c/conference">on the forums</a>!</p>
  </div>
 
 
