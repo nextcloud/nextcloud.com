@@ -1,11 +1,11 @@
 <div class="page-header">
 	<h1><a href="/events">Events</a> > Meetups</h1>
 </div>
-<!--<div class="sub-nav">
+<div class="sub-nav">
 	Meetups&nbsp;&nbsp;
 	|&nbsp;&nbsp;<a href="/events/conference-program">Conference Program</a>&nbsp;&nbsp;
-	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a>
-</div>-->
+<!-- 	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a> -->
+</div>
 <div class="row">
 	<div class="col-md-12">
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/meetup.jpg" style="width: 400px" title="pic by Raghu Nayar" alt="pic by Raghu Nayar" class="img-thumbnail alignright">
