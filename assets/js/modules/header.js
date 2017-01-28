@@ -1,5 +1,5 @@
-define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "velocity", "velocityUI" ], 
-    function ($, _, enquire, bodymovin, Headroom, velocity, velocityUI, headroom) {
+define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "headroomJquery", "velocity", "velocityUI" ], 
+    function ($, _, enquire, bodymovin, Headroom, headroomJquery, velocity, velocityUI, headroom) {
     $(document).ready(function() {
         "use strict";
         var HeaderApp = {
@@ -11,9 +11,6 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "velocity", 
             
             //Fade In animation
             $(this.variables.navigationId).velocity("transition.fadeIn", 1000 );
-
-            //this.checkScroll();
-
             this.animatedLogoSprite();
 
             enquire.register("screen and (max-width: 992px)", {
@@ -72,7 +69,6 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "velocity", 
         },    
 
         resetDesktop: function() {
-            //headroom.destroy();
             $(this.variables.sectionSelector).off("mouseover");
             $(this.variables.sectionSelector).off("mouseleave");
             $(this.variables.linksSelector).hide();
@@ -90,30 +86,30 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "velocity", 
         },
 
         mobileBgAnimation: function() {
-            var viewportHeight = $(window).height() ,
-            viewportWidth = $(window).width() * 2.047584187408492;
+            var windowDiameter = ($(window).width() * 2) * $(window).height() * 2,
+            returnBiggest = (Math.sqrt(windowDiameter)) * 1.5;
 
             $(this.variables.mobileBackgroundSelector).css({
-                "top": - viewportWidth / 2 + "px",
-                "right": - viewportWidth / 2 + "px",
-                "width": viewportWidth + "px",
-                "height": viewportWidth + "px"
+                "top": - returnBiggest / 2+ "px",
+                "right": - returnBiggest / 2 + "px",
+                "width": returnBiggest + "px",
+                "height": returnBiggest + "px"
             });
         },
 
-        showAndHideHeader: function() {
+        showAndHideHeader: function(variables) {
+
             var myElement = document.querySelector(".nav");
             
             //I should pass the variable object inside the headroom
-
-            var headroom  = new Headroom(myElement,{
+            this.headroom  = new Headroom(myElement, {
                 offset: 510,
                 tolerance : {
-                    up : 5,
-                    down : 0
+                    up : 20,
+                    down : 20
                 },
 
-                onTop: function() {
+                onTop: function(variables) {
                     $("#nav").removeClass("scrolled");
                     $(".logo").removeClass("scrolled");
                 },
@@ -132,7 +128,7 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "velocity", 
                     $(".logo").removeClass("scrolled");
                 }
             });
-            headroom.init(); 
+            this.headroom.init(); 
         },
 
         mobileEvent: function() {
@@ -141,8 +137,8 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "velocity", 
                 this.enquireInitializedMobile = true;
                 this.createMenuButton();
             }
-            //this.mobileBgAnimation();
-            //this.blockScroll();
+            $(window).on("resize", _.bind(this.mobileBgAnimation, this));
+            this.mobileBgAnimation();
             $(this.variables.navigationId).addClass(this.variables.mobileClass);
             $(this.variables.toggleSelector).click(_.bind(this.toggleMobileMenu, this));
             $(this.variables.sectionSelector).click(_.bind(this.showSubMenu, this));
@@ -246,16 +242,6 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "velocity", 
                 $(window).on("scroll load resize", _.bind(this.toggleScrolledClass, this)); 
             }
         },
-
-       /* // Prevent scrolling if menu is opened
-        blockScroll: function(event) {
-            if(this.menuOpened) {
-                event.preventDefault();
-                event.stopPropagation();
-                
-                return false;
-            }
-        },*/
 
         animatedLogoSprite: function() {
             this.hoverLogo();

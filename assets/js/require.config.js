@@ -8,6 +8,7 @@ requirejs.config({
 		enquire:"vendor/enquire",
 		bodymovin:"vendor/bodymovin",
 		headroom:"vendor/headroom",
+		headroomJquery:"vendor/jquery.headroom.min",
 		underscore:"vendor/underscore",
 		velocity:"vendor/velocity.min",
 		velocityUI:"vendor/velocity.ui.min",
@@ -16,9 +17,11 @@ requirejs.config({
 		inview:"vendor/jquery.inview",
 		bootstrap:"vendor/bootstrap",
 		youtubeplugin:"old/vendor/jquery.youtubepopup.min",
-		onePageNav:"vendor/onepagenav.min"
 	},
 	shim: {
+		headroomJquery: {
+			deps: ["jquery", "headroom"]
+		},
 		enquire: {
 			deps: ["jquery"]
 		},

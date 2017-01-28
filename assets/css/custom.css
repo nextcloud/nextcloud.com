@@ -849,18 +849,23 @@ h5 {
 .mobile-bg-container {
   width: 100%;
   min-height: 100%;
-  position: relative; }
+  position: fixed;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0); }
+  @media (min-width: 991px) {
+    .mobile-bg-container {
+      display: none; } }
   .mobile-bg-container .mobile-bg {
     position: absolute;
     background: #0082c9;
     z-index: 2;
     border-radius: 50%;
-    transition: all 0.3s ease; }
+    transition: all 0.3s ease-out; }
     .mobile-bg-container .mobile-bg:not(.active) {
       top: 0 !important;
-      right: 0 !important;
-      width: 50px !important;
-      height: 50px !important; }
+      right: calc(15px + 5%) !important;
+      width: 49px !important;
+      height: 49px !important; }
 
 .nav {
   z-index: 10;
@@ -868,15 +873,18 @@ h5 {
   position: absolute;
   left: 0;
   right: 0;
-  opacity: 0;
   background: #0082c9;
   position: relative; }
   .nav.headroom {
     transition: transform 500ms ease; }
+  .nav.headroom--not-top {
+    position: fixed !important; }
   .nav.headroom--pinned {
-    transform: translate3d(0px, 0px, 0px); }
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 1; }
   .nav.headroom--unpinned {
-    transform: translate3d(0px, -100px, 0px); }
+    transform: translate3d(0px, -100px, 0px);
+    opacity: 0; }
   .nav .container {
     position: relative;
     /* Fix ul and li settings in common */ }
@@ -1126,9 +1134,8 @@ h5 {
   .nav .container .nav__sections-wrapper {
     margin: 0 auto;
     display: inline-block;
-    position: fixed;
+    position: absolute;
     top: 90px;
-    margin-left: 60px;
     z-index: 2;
     padding: 0; }
     .nav .container .nav__sections-wrapper .nav__sections {
@@ -1139,8 +1146,6 @@ h5 {
       visibility: hidden; }
       .nav .container .nav__sections-wrapper .nav__sections .nav__section {
         display: block;
-        height: calc(100% / 7);
-        min-height: 50px;
         opacity: 1;
         margin: 0;
         opacity: 0;
@@ -1162,10 +1167,10 @@ h5 {
           animation-delay: .35s;
           visibility: visible; }
           .nav .container .nav__sections-wrapper .nav__sections.active .nav__section .nav__label {
-            font-size: 35px;
-            line-height: 45px;
+            font-size: 20px;
+            line-height: 20px;
             padding-left: 0;
-            font-weight: 600; }
+            font-weight: 400; }
           .nav .container .nav__sections-wrapper .nav__sections.active .nav__section:nth-of-type(2) {
             animation-delay: .4s; }
           .nav .container .nav__sections-wrapper .nav__sections.active .nav__section:nth-of-type(3) {
@@ -1189,12 +1194,11 @@ h5 {
             .nav .container .nav__sections-wrapper .nav__sections.active .nav__section .nav__links .nav__item {
               margin-left: 0; }
               .nav .container .nav__sections-wrapper .nav__sections.active .nav__section .nav__links .nav__item a {
-                font-size: 26px;
-                line-height: 39px;
+                font-size: 18px;
+                line-height: 18px;
                 color: white;
                 margin-left: 0;
-                font-weight: 100;
-                letter-spacing: -2px; }
+                font-weight: 300; }
     .nav .container .nav__sections-wrapper .right-buttons {
       position: relative;
       padding: 0;
@@ -1209,14 +1213,13 @@ h5 {
         .nav .container .nav__sections-wrapper .right-buttons.active .ghost-btn a {
           pointer-events: all; }
       .nav .container .nav__sections-wrapper .right-buttons .ghost-btn {
-        font-size: 35px;
-        line-height: 45px;
+        font-size: 20px;
+        line-height: 20px;
         padding-left: 0;
-        font-weight: 600;
+        font-weight: 400;
         display: block;
         text-align: left;
         padding-left: 0;
-        height: calc(100% / 7);
         animation: fadeInRight .5s ease forwards;
         pointer-events: none; } }
 @keyframes fadeInRight {
@@ -1739,76 +1742,6 @@ footer.page-footer {
         .section-partners .container .wrapper-images .logo-ubuntu {
           width: 121px;
           height: 30px; } }
-/*Colors*/
-/*Shadows*/
-/*Breakpoints*/
-/* Make Navbar transparent */
-.nav:not(.scrolled) {
-  background-color: transparent;
-  position: absolute; }
-
-/**
- * Migration Page
- */
-.migration-background {
-  background-image: url("../img/enterprise/enterprise.jpg");
-  background-position: bottom 0 right 0; }
-  @media (max-width: 1200px) {
-    .migration-background {
-      min-height: 850px !important;
-      max-height: 1000px !important; } }
-  @media (max-width: 768px) {
-    .migration-background .topheader {
-      top: 20% !important; } }
-  .migration-background .topquote {
-    position: absolute;
-    top: 50%;
-    left: 60%;
-    margin: 0;
-    padding: 0;
-    max-width: 500px; }
-    @media (max-width: 1600px) {
-      .migration-background .topquote {
-        max-width: 390px; } }
-    @media (max-width: 1200px) {
-      .migration-background .topquote {
-        max-width: 95%;
-        max-width: 500px;
-        top: 65%;
-        left: 28%;
-        margin-right: 5px; } }
-    @media (max-width: 768px) {
-      .migration-background .topquote {
-        top: 55%;
-        left: 8%; } }
-    .migration-background .topquote h2 {
-      text-align: right; }
-      .migration-background .topquote h2 a {
-        color: white; }
-        .migration-background .topquote h2 a:hover {
-          text-decoration: underline;
-          color: white; }
-    .migration-background .topquote h3 {
-      color: white;
-      font-size: 18px;
-      text-align: left; }
-      .migration-background .topquote h3 .big {
-        font-size: 28px;
-        font-weight: 100; }
-
-.section--paragraph__tittle {
-  padding-top: 50px; }
-
-.section--heading-1 {
-  padding: 80px 0 50px 0; }
-
-.page-footer {
-  margin-top: 80px; }
-
-small {
-  padding: 50px 0 0 0;
-  display: block; }
-
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
