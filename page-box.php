@@ -17,7 +17,7 @@
 	<div class="container">
 		<div class="col-xs-8 col-centered">		
 		<h2 class="section--heading-1 section--text--center  revealOnScroll"><?php echo $l->t('Bring your data home');?></h2>
-		<p class="section--paragraph section--text--center  revealOnScroll"><?php echo $l->t('The Nextcloud Box is your private cloud. It stores your data and enables 
+		<p class="section--intro section--text--center  revealOnScroll"><?php echo $l->t('The Nextcloud Box is your private cloud. It stores your data and enables 
 		you to sync between your devices and share with others.');?></p>
 		<a class="button button--blue button--arrow button--large revealOnScroll" href="<?php echo home_url('features') ?>" role="button"><?php echo $l->t('Know Nextcloud</a>');?>
 		</div>
@@ -47,6 +47,7 @@
 <section class="section-getbox">
 	<div class="container">
 		<div class="row">
+			<div class="box-perspective col-md-8 revealOnScroll"></div>
 			<div class="wrapper-text col-md-4">
 				<h2 class="section--title revealOnScroll"><?php echo $l->t('Get the box');?></h2>
 				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Currently you can only purchase the Nextcloud Box in Europe and the USA. We are working on bringing the box to other regions!');?></p>
@@ -65,7 +66,6 @@
 					</ul>
 				</div>
 		</div>
-		<div class="box-perspective col-md-8 revealOnScroll"></div>
 		</div>
 	</div>
 </section>
@@ -74,7 +74,7 @@
 	<div class="container">
 		<div class="col-xs-8 col-centered">
 			<h2 class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('How to Box');?></h2>
-			<p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('The Nextcloud Box is very easy to assemble. It comes with all necessary screws and a screwdriver. The lid uses magnets (magic!) so you can quickly open and close it.');?></p>
+			<p class="section--intro section--text--center revealOnScroll"><?php echo $l->t('The Nextcloud Box is very easy to assemble. It comes with all necessary screws and a screwdriver. The lid uses magnets (magic!) so you can quickly open and close it.');?></p>
 			<div class="assembly revealOnScroll"></div>
 			<a class="button button--blue button--arrow button--large revealOnScroll" href="<?php echo get_template_directory_uri(); ?>/assets/files/Box-Assembly-Guide.pdf" role="button"><?php echo $l->t('Download PDF</a>');?>
 		</div>
