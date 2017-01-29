@@ -1,4 +1,5 @@
 <head>
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/jobs.css" rel="stylesheet">
 	<script>
 	require(["require.config"], function() {
 		require(["pages/jobs"])

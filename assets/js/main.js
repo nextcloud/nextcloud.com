@@ -47,7 +47,7 @@ function ($, _, enquire) {
 
     		buttonDropdown: function (event) {
     			this.variables.buttonDropdownSelector.toggleClass(this.variables.activeClass);
-    			this.variables.buttonDropdownContent.toggleClass(this.variables.visibleClass);
+    			this.variables.buttonDropdownContentSelector.toggleClass(this.variables.visibleClass);
     		},
 
     		smoothScroll: function() {
