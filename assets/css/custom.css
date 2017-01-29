@@ -1866,7 +1866,8 @@ li {
     color: #0082c9;
     background-color: white; }
   .button--dropdown {
-    padding: 0; }
+    padding: 0;
+    position: absolute; }
     .button--dropdown:before {
       content: "";
       background: url(../img/common/arrow_down_white.svg) center/contain no-repeat;
@@ -1915,7 +1916,6 @@ li {
       padding: 15px 25px;
       margin: 0;
       opacity: 0;
-      visibility: hidden;
       border-radius: 3px;
       line-height: 32px;
       background-color: white;
@@ -1949,9 +1949,10 @@ li {
         border: 6px solid transparent;
         border-bottom-color: white; }
       .button--dropdown .dropdown-content.visible {
-        visibility: visible;
         opacity: 1;
-        top: 20px; }
+        top: 20px;
+        display: block;
+        z-index: 10; }
       .button--dropdown .dropdown-content a {
         display: block;
         text-transform: none;
@@ -1961,7 +1962,7 @@ li {
         line-height: 2.14; }
         .button--dropdown .dropdown-content a:hover {
           text-decoration: none;
-          color: #9c9c9c; }
+          color: #333333; }
       .button--dropdown .dropdown-content:hover {
         opacity: 1;
         visibility: visible; }

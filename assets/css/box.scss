@@ -124,10 +124,11 @@
 		    margin: 0 auto;
 		}
 		
-		.btn-primary {
+		.button {
 			text-align: center;
 			margin: 0 auto;
 			margin-top:20px;
+			display: table !important;
 				
 			&:before {
 				display: none;
@@ -401,6 +402,25 @@
 	}
 } 
 
+@media (max-width: $break-big) { 
+	.col-md-7, .col-md-6, .col-md-5, .col-md-4, .col-xs-8 {
+		width: 100%;
+	}
+
+	.section-getbox {
+		height: auto;
+		padding-bottom: 140px;
+
+		.container .row {
+			.box-perspective {
+				float: left;
+				margin-top: 0;
+				width: 100%;
+				margin-left: -41px;
+			}
+		}
+	}
+}
 
 
 
