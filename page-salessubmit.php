@@ -20,8 +20,15 @@ if(isset($_POST['email'])) {
     $organization= $_POST['organization']; // required
     $phone = $_POST['phone']; // required
     $email_from = $_POST['email']; // required
-    $comments = $_POST['users']; // required
+    $users = $_POST['users']; // required
     $comments = $_POST['comments']; // required
+    $SLA = $_POST['SLA'];
+    $LTS = $_POST['LTS'];
+    $needphonesupport = $_POST['need-phone-support'];
+    $needsupportmanager = $_POST['need-support-manager'];
+    $needsetuphelp = $_POST['need-setup-help'];
+    $clustering = $_POST['clustering'];
+    $collabora = $_POST['collabora'];
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
   if(!preg_match($email_exp,$email_from)) {
@@ -35,9 +42,6 @@ if(isset($_POST['email'])) {
 //   if(!preg_match($string_exp,$phone)) {
 //     $error_message .= 'The phone number you entered does not appear to be valid, did you add a country code like +49?<br />';
 //     }
-  if(strlen($comments) < 8) {
-    $error_message .= 'Your input is pretty short! <br />';
-  }
   if(RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
     $url = 'https://www.google.com/recaptcha/api/siteverify';
     $ch = curl_init();
@@ -63,20 +67,28 @@ if(isset($_POST['email'])) {
   if(strlen($error_message) > 0) {
     died($error_message);
   }
-    $email_message = "Form details below.\n\n";
+    $email_message = "Quote request form details below.\n\n";
         function clean_string($string) {
       $bad = array("content-type","bcc:","to:","cc:","href");
       return str_replace($bad,"",$string);
     }
 // the app review mailing list address
     $email_to = "sales@nextcloud.com";
-	$email_subject = "Enterprise_form";
+	$email_subject = "Enterprise_form quote request";
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
-    $email_message .= "Organization: ".clean_string($organization)."\n";
-    $email_message .= "Number of users: ".clean_string($users)."\n";
     $email_message .= "Phone number: ".clean_string($phone)."\n";
+    $email_message .= "Organization: ".clean_string($organization)."\n";
+    $email_message .= "How many users do you expect in 12 months? ".clean_string($users)."\n";
+    $email_message .= "What SLA do you expect? ".clean_string($SLA)."\n";
+    $email_message .= "What maintenance lifecycle do you need? ".clean_string($LTS)."\n";
+    $email_message .= "Do you require phone support? ".clean_string($needphonesupport)."\n";
+    $email_message .= "Would you need a dedicated Support Account Manager? ".clean_string($needsupportmanager)."\n";
+    $email_message .= "Would you require assistance to set up the service or to design/review the architecture? ".clean_string($needsetuphelp)."\n";
+    $email_message .= "Are you using any sort of clustering for the application, database or storage? ".clean_string($clustering)."\n";
+    $email_message .= "Would you need to be able to edit office documents online? ".clean_string($collabora)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
+    
 // create email headers
     $headers = 'From: '.$email_from."\r\n".
     'Reply-To: '.$email_from."\r\n" .
