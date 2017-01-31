@@ -50,6 +50,11 @@
                 <td>March 17-19</td>
             </tr>
             <tr>
+                <td><a target="_blank" href="http://foss-north.se/">foss-north</a></td>
+                <td>Gothenburg</td>
+                <td>April 26</td>
+            </tr>
+            <tr>
                 <td><a target="_blank" href="https://conferences.oreilly.com/oscon/oscon-tx">OSCON</a></td>
                 <td>Austin, TX, USA</td>
                 <td>May 8-11</td>
