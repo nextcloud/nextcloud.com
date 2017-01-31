@@ -42,39 +42,37 @@ your project.');?></p>
 				<input  type="text" name="organization" maxlength="100" size="60" placeholder="Name of your organization">');?></label></p>
 				<p><label for="phone"><?php echo $l->t('Phone number<br>
 				<input  type="text" name="phone" maxlength="40" size="60" placeholder="Please include country code">');?></label></p>
-				<p><label for="users"><?php echo $l->t('Number of users that need Nextcloud<br>
+				<p><label for="users"><?php echo $l->t('Number of users over next 12 months (estimation)<br>
 				<input  type="text" name="users" maxlength="80" size="60" placeholder="Our pricing starts at 50 users.">');?></label></p>
-				<p><label for="users-12months"><?php echo $l->t('Number of users over next 12 months (estimation)<br>
-				<input  type="text" name="users-12months" maxlength="80" size="60" placeholder="Will the number of users grow?">');?></label></p>
 				<p><label for="SLA"><?php echo $l->t('What kind of response time do you require?<br>
 				<textarea name="SLA" maxlength="120" cols="70" rows="2" placeholder="24/7, business hours, within 3 days, etc">');?></textarea></label></p>
 				<p><label for="need-phone-support"><?php echo $l->t('Do you require phone support?');?><br>
 				<select name="need-phone-support">
-					<option value="unclear"><?php echo $l->t('Not sure');?></option>
+					<option value="unsure"><?php echo $l->t('Not sure');?></option>
 					<option value="yes"><?php echo $l->t('Yes');?></option>
 					<option value="no"><?php echo $l->t('No');?></option>
 				</select></label></p>
 				<p><label for="need-support-manager"><?php echo $l->t('Would you need a dedicated Support Account Manager?');?><br>
 				<select name="need-support-manager">
-					<option value="unclear"><?php echo $l->t('Not sure');?></option>
+					<option value="unsure"><?php echo $l->t('Not sure');?></option>
 					<option value="yes"><?php echo $l->t('Yes');?></option>
 					<option value="no"><?php echo $l->t('No');?></option>
 				</select></label></p>
 				<p><label for="need-setup-help"><?php echo $l->t('Would you require assistance to set up the service or to design/review the architecture?');?><br>
 				<select name="need-setup-help">
-					<option value="unclear"><?php echo $l->t('Not sure');?></option>
+					<option value="unsure"><?php echo $l->t('Not sure');?></option>
 					<option value="yes"><?php echo $l->t('Yes');?></option>
 					<option value="no"><?php echo $l->t('No');?></option>
 				</select></label></p>
 				<p><label for="clustering"><?php echo $l->t('Are you using any sort of clustering for the application, database or storage?');?><br>
 				<select name="clustering">
-					<option value="unclear"><?php echo $l->t('Not sure');?></option>
+					<option value="unsure"><?php echo $l->t('Not sure');?></option>
 					<option value="yes"><?php echo $l->t('Yes');?></option>
 					<option value="no"><?php echo $l->t('No');?></option>
 				</select></label></p>
 				<p><label for="collabora"><?php echo $l->t('Would you need to be able to edit office documents online?');?><br>
 				<select name="collabora">
-					<option value="unclear"><?php echo $l->t('Not sure');?></option>
+					<option value="unsure"><?php echo $l->t('Not sure');?></option>
 					<option value="yes"><?php echo $l->t('Yes');?></option>
 					<option value="no"><?php echo $l->t('No');?></option>
 				</select></label></p>

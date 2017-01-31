@@ -22,7 +22,6 @@ if(isset($_POST['email'])) {
     $email_from = $_POST['email']; // required
     $users = $_POST['users']; // required
     $comments = $_POST['comments']; // required
-    $users12months = $_POST['users-12months'];
     $SLA = $_POST['SLA'];
     $LTS = $_POST['LTS'];
     $needphonesupport = $_POST['need-phone-support'];
@@ -80,8 +79,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Phone number: ".clean_string($phone)."\n";
     $email_message .= "Organization: ".clean_string($organization)."\n";
-    $email_message .= "Number of users: ".clean_string($users)."\n";
-    $email_message .= "How many users do you expect in 12 months? ".clean_string($users12months)."\n";
+    $email_message .= "How many users do you expect in 12 months? ".clean_string($users)."\n";
     $email_message .= "What SLA do you expect? ".clean_string($SLA)."\n";
     $email_message .= "What maintenance lifecycle do you need? ".clean_string($LTS)."\n";
     $email_message .= "Do you require phone support? ".clean_string($needphonesupport)."\n";
