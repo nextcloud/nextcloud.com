@@ -603,5 +603,23 @@
             "Speichern Sie Ihre Dokumente und Dateien geräte- und ortsunabhängig im unternehmenseigenen Cloud Speicher. Wir übernehmen die Einrichtung und Wartung."
          ],
          "imagename":"awesomeit.png"
+      },
+    {
+         "title":"Whiskers Systems",
+         "url":"https:\/\/whiskers.systems",
+         "flags":[
+            "de",
+            "fr",
+            "nl",
+            "uk",
+            "ch",
+            "eu"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Libre hosting with privacy from EU, offering encrypted Nextcloud instances or including Collabora Online. Providing many apps like Contacts, News, etc"
+         ],
+         "imagename":"whiskers.png"
       }
 ]
