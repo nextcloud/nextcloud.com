@@ -20,7 +20,7 @@ if(isset($_POST['email'])) {
     $organization= $_POST['organization']; // required
     $phone = $_POST['phone']; // required
     $email_from = $_POST['email']; // required
-    $comments = $_POST['users']; // required
+    $users = $_POST['users']; // required
     $comments = $_POST['comments']; // required
     $users12months = $_POST['users-12months'];
     $SLA = $_POST['SLA'];
