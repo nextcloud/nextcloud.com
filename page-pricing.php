@@ -36,7 +36,7 @@
 		<div class="col-md-4 table-column">
 			<div class="table-header basic">
 				<h1 class="header"><?php echo $l->t('Basic');?></h1>
-				<h2 class="header"><?php echo $l->t('From 1900€/year');?></h2>
+				<h2 class="header"><?php echo $l->t('Starting at 50 users for 1900€/year');?></h2>
 			</div>
 			<div class="table-content">
 				<h1 class="header"><?php echo $l->t('Features');?></h1>
@@ -69,7 +69,7 @@
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>50 users: €1900');?></li>
+					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Pricing starts at 50 users. Contact us for a quote relevant for your specific market vertical.</div>50 users: €1900');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>100 users: €3400');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Additional pricing tiers are available up to 10 million users');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Framework agreements available');?></li>
@@ -80,7 +80,7 @@
 		<div class="col-md-4 table-column">
 			<div class="table-header standard">
 				<h1 class=""><?php echo $l->t('Standard');?></h1>
-				<h2 class=""><?php echo $l->t('From 3400€/year');?></h2>
+				<h2 class=""><?php echo $l->t('Starting at 50 users for 3400€/year');?></h2>
 			</div>
 			<div class="table-content">
 				<h1 class=""><?php echo $l->t('Features');?></h1>
@@ -113,7 +113,7 @@
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>50 users: €3400');?></li>
+					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Pricing starts at 50 users. Contact us for a quote relevant for your specific market vertical.</div>50 users: €3400');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>100 users: €6100');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Additional pricing tiers are available up to 10 million users');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Framework agreements available');?></li>
@@ -124,7 +124,7 @@
 		<div class="col-md-4 table-column highlight">
 			<div class="table-header premium">
 				<h1 class=""><?php echo $l->t('Premium');?></h1>
-				<h2 class=""><?php echo $l->t('From 4900€/year');?></h2>
+				<h2 class=""><?php echo $l->t('Starting at 50 users for 4900€/year');?></h2>
 			</div>
 			<div class="table-content">
 				<h1 class=""><?php echo $l->t('Features');?></h1>
@@ -157,7 +157,7 @@
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market vertical.</div>50 users: €4900');?></li>
+					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Pricing starts at 50 users. Contact us for a quote relevant for your specific market vertical.</div>50 users: €4900');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market vertical.</div>100 users: €8900');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market vertical.</div>Additional pricing tiers are available up to 10 million users');?></li>
 					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Framework agreements available');?></li>
@@ -171,6 +171,7 @@
 <div class="container text-center">
 	<p class="revealOnScroll epricevat"><?php echo $l->t('* At additional cost');?></p>
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Prices are in Euro per year and net/excl. VAT.');?></p>
+	<p class="revealOnScroll epricevat"><?php echo $l->t('Nextcloud subscriptions are available from 50 users and up.');?></p>
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Android and desktop apps are free; iOS app can be purchased in the Apple App Store.');?></p>
 	<p class="revealOnScroll"><?php echo $l->t('<small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small>');?></p>
 </div>
