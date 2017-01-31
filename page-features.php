@@ -57,7 +57,7 @@
 	<a name="security" id="security"></a>
 	<div class="container">
 		<div class="col-md-6">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP-wee.png" alt="in action" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/screenShoots_default.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/screenShoots_default.png" alt="in action" /></a>
 		</div>
 
 		<div class="col-md-6 feature--block">
@@ -75,7 +75,7 @@
 	<a name="workflow" id="workflow"></a>
 	<div class="container">
 		<div class="col-md-6 image--floated">
-			<a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-wee.png" alt="in action"/></a>
+			<a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/screenShoots.png" alt="in action"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Workflow management');?></p>
 			<p class="section--paragraph"><?php echo $l->t('With Nextcloud, system administrators can control and direct the flow of data between users on or between servers. Rule based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements.
@@ -89,7 +89,7 @@
 	<a name="clients" id="clients"></a>
 	<div class="container">
 		<div class="col-md-6">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP-wee.png" alt="in action" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/screenShoots_default.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/screenShoots_default.png" alt="in action" /></a>
 		</div>
 
 		<div class="col-md-6 feature--block">
@@ -103,7 +103,7 @@
 	<a name="storage" id="storage"></a>
 	<div class="container">
 		<div class="col-md-6 image--floated">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png"/></a>
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/screenShoots_default.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('External storage');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The external storage feature of Nextcloud gives you access to your data wherever it is. Nextcloud can access files stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but you can also access them using standard protocols such as NFS, (S)FTP, WebDAV and more. <br>
@@ -116,7 +116,7 @@
 	<a name="Calendar" id="Calendar"></a>
 	<div class="container">
 		<div class="col-md-6">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png"/></a>
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/screenShoots_default.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Calendar and Contacts');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The Nextcloud Calendar and Contacts apps allow you to store, sync and share your plans and contacts. You can share with users or groups on your server or sync the calendar or contacts with your devices and access them wherever you are. The Calendar and Contacts app feature:');?></p>
@@ -131,7 +131,7 @@
 	<a name="calls" id="calls"></a>
 	<div class="container">
 		<div class="col-md-6 image--floated">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png"/></a>
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/screenShoots_default.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Secure audio and video calls');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Operate your own secure and private audio/video and text chat. Your own video meeting service is accessible through browsers and dedicated apps on computers, mobile phones and tablets through the Internet or limited to an Intranet. Make a call, invite your friends and clients, and collaborate in closed groups through secure, end to end encrypted video/audio, text messaging, and document and file sharing. The Spreed.ME technology used offers peer to peer, WebRTC based communication channels which can not be intercepted even by the admin of the server. It provides an easy to use interface and can optionally interface with telephone lines, handling up to 10 participants in one session and dozens of sessions on a single server.You can integrate this secure communication in your Nextcloud server or purchase our Spreedbox appliance in one cool, aluminum cube!');?></p>
@@ -144,7 +144,7 @@
 	<a name="Collabora" id="Collabora"></a>
 	<div class="container">
 		<div class="col-md-6">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png"/></a>
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/screenShoots_default.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Collabora Online Office');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The Nextcloud Calendar and Contacts apps allow you to store, sync and share your plans and contacts. You can share with users or groups on your server or sync the calendar or contacts with your devices and access them wherever you are. The Calendar and Contacts app feature:Collabora Online is a powerful LibreOffice-based online office suite which supports all major document, spreadsheet and presentation file formats. Features:');?></p>
