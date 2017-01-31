@@ -38,7 +38,7 @@ function ($, _, enquire, ScrollMagic) {
 			},
 
 			smothscrollToggleActive: function() {
-				$('a[href^="#"]').click(function(event) {
+				$('a[href^="#"]:not([data-toggle="collapse"])').click(function(event) {
 						var id = $(this).attr("href");
 
 						var target = $(id).offset().top;
