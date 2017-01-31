@@ -38,7 +38,7 @@
 			<p class="section--paragraph"><?php echo $l->t('The Box is hardware-compatible with the Raspberry Pi 2 and 3, and the oDroid C2.');?></p>
 		</div>
 		<div class="col-md-6">
-			<p class="section--paragraph"><?php echo $l->t('Right now, the OS only works with the Raspberry Pi 2. Software support for Raspberry Pi 3 is planned for November 2016. There is no plan for oDroid C2 yet but Linux Kernel 4.10 has support planned for the hardware so first half 2017 is a reasonable guess.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Right now, the OS only works with the Raspberry Pi 2. Software support for Raspberry Pi 3 is planned for April 2017. There is no plan for oDroid C2 yet but Linux Kernel 4.10 has support planned for the hardware so second half 2017 is a reasonable guess.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Note that by default, the Nextcloud Box only works on the network it is connected to (like your home LAN). It requires configuration of encryption (https) and router ports to reach it from outside your home network.');?></p>
 		</div>
 	</div>
