@@ -33,7 +33,7 @@
 		<h3><?php echo $l->t('Contact us for more information and a quote fitting your use case.');?></h3>
 		<p><?php echo $l->t('Your answers to the following questions will help us better understand
 your project.');?></p>
-		<form name="sales" method="post" action="../salessubmit/?staging=true">
+		<form name="sales" method="post" action="../salessubmit/">
 				<p><label for="yourname"><?php echo $l->t('Your name');?><br>
 				<input  type="text" name="yourname" maxlength="60" size="60"></label></p>
 				<p><label for="email">Email<br>

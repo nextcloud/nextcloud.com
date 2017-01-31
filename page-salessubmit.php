@@ -74,7 +74,7 @@ if(isset($_POST['email'])) {
       return str_replace($bad,"",$string);
     }
 // the app review mailing list address
-    $email_to = "jos@nextcloud.com";
+    $email_to = "sales@nextcloud.com";
 	$email_subject = "Enterprise_form quote request";
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
