@@ -112,23 +112,25 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "headroomJqu
                 onTop: function(variables) {
                     $("#nav").removeClass("scrolled");
                     $(".logo").removeClass("scrolled");
+                    $(".mobile-bg-container").addClass("visible");
                 },
                 
                 onPin: function() {
                     $(".menu").removeClass("hidedPrincipalNavigation");
                     $("#nav").addClass("scrolled");
                     $(".logo").addClass("scrolled");
-                    //$(this.variables.navigationId).addClass(this.variables.scrolledClass);
-                    //$(this.variables.logoSelector).addClass(this.variables.scrolledClass);
+                },
+
+                onNotTop : function() {
+                    $(".mobile-bg-container").addClass("visible");
                 },
 
                 onUnpin: function() {
                     $(".menu").addClass("hidedPrincipalNavigation");
-                    $("#nav").removeClass("scrolled");
-                    $(".logo").removeClass("scrolled");
+                    $(".mobile-bg-container").addClass("visible");
                 }
             });
-            this.headroom.init(); 
+            this.headroom.init();
         },
 
         mobileEvent: function() {

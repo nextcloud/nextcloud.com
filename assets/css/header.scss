@@ -7,14 +7,22 @@
 .mobile-bg-container{
     width: 100%;
     min-height: 100%;
-    position: fixed;
+    position: absolute;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
+    display: none;
     
     @media (min-width: $break-big) {
         display: none;
     }
     
+    &.visible {
+        display: block;
+
+        @media (min-width: $break-big) {
+            display: none;
+        }
+    }
     .mobile-bg {
         position: absolute;
         background: $nextcloud-blue;

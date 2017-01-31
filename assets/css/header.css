@@ -8,12 +8,18 @@
 .mobile-bg-container {
   width: 100%;
   min-height: 100%;
-  position: fixed;
+  position: absolute;
   -webkit-transform: translateZ(0);
-  transform: translateZ(0); }
+  transform: translateZ(0);
+  display: none; }
   @media (min-width: 991px) {
     .mobile-bg-container {
       display: none; } }
+  .mobile-bg-container.visible {
+    display: block; }
+    @media (min-width: 991px) {
+      .mobile-bg-container.visible {
+        display: none; } }
   .mobile-bg-container .mobile-bg {
     position: absolute;
     background: #0082c9;
