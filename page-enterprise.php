@@ -1,7 +1,7 @@
 <head>
 <script>
 	require(["require.config"], function() {
-		require(["pages/enterprise", "modules/slideshow", "modules/submenu"])
+		require(["pages/enterprise", "modules/slideshow", "modules/submenu", "bootstrap"])
 	});
 </script>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/enterprise.css" rel="stylesheet">

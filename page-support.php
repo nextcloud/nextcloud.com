@@ -1,3 +1,6 @@
+<head>
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/support.css" rel="stylesheet">
+</head>
 <div class="background support-background">
 	<div class="container">
 		<div class="col-md-6 topheader">

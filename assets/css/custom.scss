@@ -5,10 +5,7 @@
 @import "modules/typography";
 @import "modules/slideshow.scss";
 @import "modules/secondmenu.scss";
-@import "home.scss";
-@import "header.scss";
 @import "footer.scss";
-@import "support.scss";
 
 html{
     margin-top: 0 !important;
@@ -74,7 +71,7 @@ li {
 
 /* footer */
 .page-footer {
-    margin-top: 80px;
+    //margin-top: 80px;
 }
 /*All default buttons*/
 

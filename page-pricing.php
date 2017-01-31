@@ -2,7 +2,7 @@
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pricing.css" rel="stylesheet">
 	<script>
 	require(["require.config"], function() {
-		require(["pages/enterprise", "modules/submenu"])
+		require(["pages/enterprise", "modules/submenu", "bootstrap"])
 	});
 	</script>	
 </head>
