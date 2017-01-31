@@ -12,7 +12,7 @@
 		<div class="container">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Get support from the source');?></h1>
-				<h2><?php echo $l->t('Going beyond the traditional licensing model, Nextcloud frees you from vendor lock-in and provides value through supporting your business\' needs.');?></h2>
+				<h2><?php echo $l->t('Going beyond the traditional licensing model, Nextcloud frees you from vendor lock-in and provides value through supporting your business\' needs.<br/> You run your own server and stay in control of your data - we make sure you have the best support whenever you need it!');?></h2>
 			</div>
 		</div>
 	</div>

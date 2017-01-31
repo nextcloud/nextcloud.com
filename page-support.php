@@ -32,8 +32,8 @@
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 text-center">
 					<h2><?php echo $l->t('Subscribe to our newsletter');?></h2>
-					Stay up to date with Nextcloud news - future plans for releases, events and development are covered monthly in our news letter.
-				<a href="https://newsletter.nextcloud.com/?p=subscribe&id=1" class="btn btn-block btn-primary btn-lg join-button">Subscribe to our<br />monthly newsletter!</a><br />
+					<p><?php echo $l->t('Stay up to date with Nextcloud news - future plans for releases, events and development are covered monthly in our news letter.');?></p>
+				<a href="https://newsletter.nextcloud.com/?p=subscribe&id=1" class="btn btn-block btn-primary btn-lg join-button"><?php echo $l->t('Subscribe now!');?></a><br />
 			</div>
 		</div>
 	</div>

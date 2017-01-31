@@ -33,24 +33,17 @@
 			<div class="highlights_align ">
 				<div class="privacy-icon" data-animation-path="img/home/privacy/" data-anim-loop="false" data-name="privacy"></div>
 				<h4 class="revealOnScroll"><?php echo $l->t('Privacy');?></h4>
-				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Keep all of your life / business
-					private and secure. Share
-					with only who you choose,
-					and no-one else.');?></p>
+				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Keep all of your life / business private and secure on a server you control. Share with only who you choose, and no-one else.');?></p>
 			</div>
 			<div class="highlights_align">
 				<div class="community-icon" data-animation-path="img/home/community/" data-anim-loop="false" data-name="community"></div>
 				<h4 class="revealOnScroll"><?php echo $l->t('Community');?></h4>
-				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Enjoy constant improvements
-					from a thriving and transparent,
-					all open-source community
-					development model, free of
-					lockins or paywalls.');?></p>
+				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Enjoy constant improvements from a thriving and transparent, all open-source community development model, free of lockins or paywalls.');?></p>
 			</div>
 			<div class="highlights_align">
 				<div class="flexibility-icon" data-animation-path="img/home/flexibility/" data-anim-loop="false" data-name="flexibility"></div>
 				<h4 class="revealOnScroll"><?php echo $l->t('Enterprise');?></h4>
-				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Protect, control and scale the data and communication in your company and organization.');?></p>
+				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Protect, control and scale the data and communication in your company and organization. Keep data where it is, making it available to your teams.');?></p>
 			</div>
 		</div>
 	</div>
