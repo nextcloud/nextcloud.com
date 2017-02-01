@@ -21,6 +21,7 @@ if(isset($_POST['email'])) {
     $phone = $_POST['phone']; // required
     $email_from = $_POST['email']; // required
     $comments = $_POST['comments']; // required
+	$address = $_POST['address']; // required
     $billing = $_POST['billing']; // required
     $vat = $_POST['vat']; // required
     $users = $_POST['users']; // required
@@ -94,7 +95,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Number of users: ".clean_string($users)."\n";
 	$email_message .= "Edition: ".clean_string($edition)."\n";
     $email_message .= "How many years: ".clean_string($duration)."\n";
-    $email_message .= "20% Education/gov/charity discount: ".clean_string($edugov)."\n"."Options: \n";
+    $email_message .= "20% Education/gov/charity discount: ".clean_string($edugov)."\n\n"."Options: (no if empty) \n";
 	$email_message .= "Would like Collabora option (16/user): ".clean_string($collabora)."\n";
 	$email_message .= "Would like Outlook option (5/user): ".clean_string($outlook)."\n";
 	$email_message .= "Would like remote installation help (eur 1100): ".clean_string($remoteinstall)."\n";

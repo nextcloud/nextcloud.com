@@ -246,6 +246,7 @@ function getTotal()
 	var finalPrice = finalPrice * 1.1;
 	document.getElementById('totalprice').innerHTML = " $ "+Math.round(finalPrice);
 	}
+	return finalPrice;
 }
 
 function checkSubscription()
@@ -286,5 +287,12 @@ function doCalculation()
 checkSubscription();
 getTotal();
 }
+
+$('#form').submit(function(eventObj) {
+	var price = getTotal();
+    $(this).append('<input type="hidden" name="EuroPrice" value="'.price.'">');
+    return true;
+});
+
 </script>
 
