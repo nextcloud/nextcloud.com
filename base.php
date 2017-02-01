@@ -96,6 +96,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'team',
 		'thanks',
 		'thankyou',
+		'ordersubmit',
 		'theming',
 		'threat-model',
 		'trademarks',
