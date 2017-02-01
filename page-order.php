@@ -35,7 +35,7 @@
 	<p><?php echo $l->t('Using this form, you can order a Basic or Standard Support Subscription for up to 250 users. If you need more users, other options or an Enterprise Support Subscription, <a href="/enterprise/buy">please contact sales for a quote.</a>');?></p>
 	<div class="contact">
 		<h3><?php echo $l->t('Fill in the form below to receive a contract and invoice from us and get started!');?></h3>
-		<form id="orderform" name="sales" method="post" action="../ordersubmit/?staging=true">
+		<form id="orderform" name="orderform" method="post" action="../ordersubmit/?staging=true">
 				<p><?php echo $l->t('<label for="yourname">Contact person<br>
 				<input  type="text" name="yourname" maxlength="60" size="60"></label>');?></p>
 				<p><?php echo $l->t('<label for="email">Email<br>
@@ -288,11 +288,11 @@ checkSubscription();
 getTotal();
 }
 
-$('#form').submit(function(eventObj) {
-	var price = getTotal();
-    $(this).append('<input type="hidden" name="EuroPrice" value="'.price.'">');
+</script>
+<script>
+$('#orderform').submit(function(eventObj) { //listen to submit event
+	var includePrice = getTotal();
+    $(this).append('<input type="hidden" name="EuroPrice" value="'.includePrice.'">');
     return true;
 });
-
 </script>
-
