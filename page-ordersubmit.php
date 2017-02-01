@@ -83,7 +83,7 @@ if(isset($_POST['email'])) {
       return str_replace($bad,"",$string);
     }
 // the app review mailing list address
-    $email_to = "jos@nextcloud.com";
+    $email_to = "patrick@nextcloud.com";
 	$email_subject = "Order_form from ".clean_string($organization);
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
