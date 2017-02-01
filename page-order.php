@@ -292,7 +292,7 @@ getTotal();
 <script>
 $('#orderform').submit(function(eventObj) { //listen to submit event
 	var includePrice = getTotal();
-    $(this).append('<input type="hidden" name="EuroPrice" value="'.includePrice.'">');
+    $(this).append('<input type="hidden" name="EuroPrice" value="' + includePrice + '">');
     return true;
 });
 </script>
