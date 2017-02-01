@@ -99,12 +99,12 @@ if(isset($_POST['email'])) {
     $email_message .= "20% Education/gov/charity discount: ".clean_string($edugov)."\n\n"."Options (no if empty):\n";
 	$email_message .= "Would like Collabora option (16/user): ".clean_string($collabora)."\n";
 	$email_message .= "Would like Outlook option (5/user): ".clean_string($outlook)."\n";
-	$email_message .= "Would like remote installation help (eur 1100): ".clean_string($remoteinstall)."\n";
+	$email_message .= "Would like remote installation help (eur 1100): ".clean_string($remoteinstall)."\n\n";
 // 	$email_message .= "Would like Branding option: ".clean_string($branding)."\n";
 // 	$email_message .= "Would like Spreed option: ".clean_string($spreed)."\n";
-	$email_message .= "Price we presented: ".clean_string($givenprice)."\n\n";
+	$email_message .= "Price we presented: ".clean_string($givenprice)."\n";
 	$email_message .= "Would like to pay in dollars: ".clean_string($dollars)."\n";
-	$email_message .= "Signed terms (should not be empty):".clean_string($terms)."\n\n";
+	$email_message .= "Signed terms (should not be empty): ".clean_string($terms)."\n\n";
     
 // create email headers
     $headers = 'From: '.$email_from."\r\n".
