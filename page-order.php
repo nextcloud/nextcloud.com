@@ -104,39 +104,31 @@ function getUsersPrice()
     var usersNumber = theForm.elements["users"];
 	var chosenEdition = theForm.elements["edition"];
     //set users price based on the value user chose and the edition
-    console.log(chosenEdition.value);
-    console.log(usersNumber.value);
     if(chosenEdition.value=="basic") 
     {
 		if(usersNumber.value==50)
 		{
 		usersPrice = 1500;
-		console.log(usersPrice);
 		}
 		if(usersNumber.value=="75")
 		{
 		usersPrice = 2250;
-		console.log(usersPrice);
 		}
 		if(usersNumber.value=="100")
 		{
 		usersPrice = 3000;
-		console.log(usersPrice);
 		}
 		if(usersNumber.value=="150")
 		{
 		usersPrice = 4000;
-		console.log(usersPrice);
 		}
 		if(usersNumber.value=="200")
 		{
 		usersPrice = 5000;
-		console.log(usersPrice);
 		}
 		if(usersNumber.value=="250")
 		{
 		usersPrice = 6000;
-		console.log(usersPrice);
 		}
 	}
     if(chosenEdition.value=="standard") 
@@ -144,32 +136,26 @@ function getUsersPrice()
 		if(usersNumber.value=="50")
 		{
 		usersPrice = 2500;
-		console.log(usersPrice);
 		}
 		if(usersNumber.value=="75")
 		{
 		usersPrice = 3750;
-		console.log(usersPrice);
 		}
 		if(usersNumber.value=="100")
 		{
 		usersPrice = 5000;
-		console.log(usersPrice);
 		}
 		if(usersNumber.value=="150")
 		{
 		usersPrice = 6500;
-		console.log(usersPrice);
 		}
 		if(usersNumber.value=="200")
 		{
 		usersPrice = 8000;
-		console.log(usersPrice);
 		}
 		if(usersNumber.value=="250")
 		{
 		usersPrice = 9500;
-		console.log(usersPrice);
 		}
 	}
     //finally we return usersPrice
@@ -246,7 +232,7 @@ function getTotal()
 	var finalPrice = finalPrice * 1.1;
 	document.getElementById('totalprice').innerHTML = " $ "+Math.round(finalPrice);
 	}
-	return finalPrice;
+	return +Math.round(finalPrice);
 }
 
 function checkSubscription()
@@ -291,8 +277,10 @@ getTotal();
 </script>
 <script>
 $('#orderform').submit(function(eventObj) { //listen to submit event
+	var theForm = document.forms["orderform"];
+	var inDollars = theForm.elements["dollars"];
 	var includePrice = getTotal();
-    $(this).append('<input type="hidden" name="EuroPrice" value="' + includePrice + '">');
+    $(this).append('<input type="hidden" name="givenPrice" value="' + includePrice + '">');
     return true;
 });
 </script>

@@ -31,7 +31,7 @@ if(isset($_POST['email'])) {
     $collabora = $_POST['collabora']; // required
     $outlook = $_POST['outlook'];
     $remoteinstall = $_POST['remoteinstall'];
-    $europrice = $_POST['EuroPrice'];
+    $givenprice = $_POST['givenPrice'];
 //     $spreed = $_POST['spreed'];
 //     $branding = $_POST['branding'];
     $dollars = $_POST['dollars'];
@@ -102,7 +102,7 @@ if(isset($_POST['email'])) {
 	$email_message .= "Would like remote installation help (eur 1100): ".clean_string($remoteinstall)."\n";
 // 	$email_message .= "Would like Branding option: ".clean_string($branding)."\n";
 // 	$email_message .= "Would like Spreed option: ".clean_string($spreed)."\n";
-	$email_message .= "Price (in EURO!) we presented: ".clean_string($europrice)."\n\n";
+	$email_message .= "Price we presented: ".clean_string($givenprice)."\n\n";
 	$email_message .= "Would like to pay in dollars: ".clean_string($dollars)."\n";
 	$email_message .= "Signed terms (should not be empty):".clean_string($terms)."\n\n";
     
