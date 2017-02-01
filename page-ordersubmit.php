@@ -31,6 +31,7 @@ if(isset($_POST['email'])) {
     $collabora = $_POST['collabora']; // required
     $outlook = $_POST['outlook'];
     $remoteinstall = $_POST['remoteinstall'];
+    $europrice = $_POST['EuroPrice'];
 //     $spreed = $_POST['spreed'];
 //     $branding = $_POST['branding'];
     $dollars = $_POST['dollars'];
@@ -95,14 +96,15 @@ if(isset($_POST['email'])) {
     $email_message .= "Number of users: ".clean_string($users)."\n";
 	$email_message .= "Edition: ".clean_string($edition)."\n";
     $email_message .= "How many years: ".clean_string($duration)."\n";
-    $email_message .= "20% Education/gov/charity discount: ".clean_string($edugov)."\n\n"."Options: (no if empty) \n";
+    $email_message .= "20% Education/gov/charity discount: ".clean_string($edugov)."\n\n"."Options (no if empty):\n";
 	$email_message .= "Would like Collabora option (16/user): ".clean_string($collabora)."\n";
 	$email_message .= "Would like Outlook option (5/user): ".clean_string($outlook)."\n";
 	$email_message .= "Would like remote installation help (eur 1100): ".clean_string($remoteinstall)."\n";
 // 	$email_message .= "Would like Branding option: ".clean_string($branding)."\n";
 // 	$email_message .= "Would like Spreed option: ".clean_string($spreed)."\n";
+	$email_message .= "Price (in EURO!) we presented: ".clean_string($europrice)."\n\n";
 	$email_message .= "Would like to pay in dollars: ".clean_string($dollars)."\n";
-	$email_message .= "Signed terms: ".clean_string($terms)."\n";
+	$email_message .= "Signed terms (should not be empty):".clean_string($terms)."\n\n";
     
 // create email headers
     $headers = 'From: '.$email_from."\r\n".
