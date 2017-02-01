@@ -1,0 +1,22 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.buy-background {
+  background-image: url("../img/enterprise/enterprise.jpg");
+  background-position: bottom 0 right 0; }
+
+.contact {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.contact > h3 {
+  margin-top: 90px;
+  margin-bottom: 20px;
+  text-align: left; }
+
+/*# sourceMappingURL=order.css.map */
