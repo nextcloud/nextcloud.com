@@ -63,28 +63,28 @@
 				<select id="edition" name="edition" onChange="doCalculation()">
 					<option value="basic">Basic</option>
 					<option value="standard">Standard</option>
-					<option value="enterprise">Enterprise</option>
+					<option value="enterprise">Premium</option>
 				</select></label>
 				<div class="getenterprisequote" id="getenterprisequote" style="display:none;"><p><a class="hyperlink" href="/buy">Ask a quote from our sales team for the enterprise subscription.</a></p></div>
 				</p>
 				<p><label for="duration"><?php echo $l->t('Length of contract');?><br>
 				<select name="duration" onChange="doCalculation()">
 					<option value="1">One year</option>
-					<option value="2">Two years (10% discount)</option>
-					<option value="3">Three years (15% discount)</option>
+					<option value="2">2nd year (10% discount)</option>
+					<option value="3">3rd year (15% discount)</option>
 				</select></label><br>
-				<input type="checkbox" name="edugov" value="edugov" onChange="doCalculation()"> <?php echo $l->t(' We are education/government/charity (20% discount applies)');?></p>
-				<p><h3>Optional features (only with a Standard or <a class="hyperlink" href="/pricing">Enterprise Subscription</a>)</h3>
+				<input type="checkbox" name="edugov" value="edugov" onChange="doCalculation()"> <?php echo $l->t(' We are education/government/charity (discount applies)');?></p>
+				<p><h3><?php echo $l->t('Optional features (only with a Standard or <a class="hyperlink" href="/pricing">Enterprise Subscription</a>)');?></h3>
 				<input disabled id="collabora" type="checkbox" name="collabora" value="collabora" onChange="doCalculation()"> <?php echo $l->t(' Include <a class="hyperlink" href="/collabora" target="_blank">Collabora Online</a> (€ 16/user)');?><br/>
 				<!--<input disabled type="checkbox" name="spreed" value="spreed" onChange="doCalculation()"> <?php echo $l->t(' Include <a class="hyperlink" href="/webrtc" target="_blank">Spreed audio/video chat</a> (Eur 5/user)');?><br/>-->
 				<input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <?php echo $l->t(' Include <a class="hyperlink" href="/outlook" target="_blank">our Outlook add-in</a> (€ 5/user)');?><br/>
-				<input disabled type="checkbox" name="remoteinstall" value="remoteinstall" onChange="doCalculation()"> <?php echo $l->t(' Include a one-day remote installation/integration support video call (€ 1100)');?><br/>
+				<input disabled type="checkbox" name="remoteinstall" value="remoteinstall" onChange="doCalculation()"> <?php echo $l->t(' Include a one-day remote installation/integration support video call (€ 990)');?><br/>
 				<!--<input disabled type="checkbox" name="branding" value="branding" onChange="doCalculation()"> <?php echo $l->t(' Include branded clients (Eur 6000)');?><br/>-->
 				</p>
 				<h2 class="price"><?php echo $l->t('Price: ');?><span id="totalprice"></span><br></h2>
 				<p><input type="checkbox" name="dollars" value="dollars" onChange="doCalculation()"> <?php echo $l->t(' in dollars');?></p>
 				<p><?php echo $l->t('<label for="comments">Notes<br />
-				<textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Any other comments or notes?"></textarea></label>');?></p>
+				<textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Questions, comments? Interested in Spreed, Branding etcetera..."></textarea></label>');?></p>
 				<p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a class="hyperlink" href=""<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?></a></p>
 				<td colspan="2" style="text-align:center">
 <!-- 				<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div> -->
@@ -106,27 +106,27 @@
 		    {
 				if(usersNumber.value==50)
 				{
-					usersPrice = 1500;
+					usersPrice = 1900;
 				}
 				if(usersNumber.value=="75")
 				{
-					usersPrice = 2250;
+					usersPrice = 2650;
 				}
 				if(usersNumber.value=="100")
 				{
-					usersPrice = 3000;
+					usersPrice = 3400;
 				}
 				if(usersNumber.value=="150")
 				{
-					usersPrice = 4000;
+					usersPrice = 4400;
 				}
 				if(usersNumber.value=="200")
 				{
-					usersPrice = 5000;
+					usersPrice = 5400;
 				}
 				if(usersNumber.value=="250")
 				{
-					usersPrice = 6000;
+					usersPrice = 6400;
 				}
 			}
 		    if(chosenEdition.value=="standard") 
@@ -186,7 +186,7 @@
 				}
 				if(includeRemoteinstall.checked==true)
 				{
-					var optionsPrice = optionsPrice + 1100;
+					var optionsPrice = optionsPrice + 990;
 				}
 			}
 			return optionsPrice;
@@ -267,6 +267,7 @@
 			{
 				document.getElementById("getenterprisequote").style.display = "block";
 				chosenEdition.value="standard";
+				// figure out how to zero the price
 			}
 			// only when the terms are agreed to can you submit the form
 			if(agreedToTerms.checked==true)
