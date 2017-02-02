@@ -11,17 +11,17 @@
   position: fixed;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  display: none;
   opacity: 0; }
   @media (min-width: 991px) {
     .mobile-bg-container {
       display: none; } }
   .mobile-bg-container.visible {
-    display: block;
-    opacity: 1; }
+    display: block; }
     @media (min-width: 991px) {
       .mobile-bg-container.visible {
         display: none; } }
+  .mobile-bg-container.is-animatable {
+    opacity: 1; }
   .mobile-bg-container .mobile-bg {
     position: absolute;
     background: #0082c9;

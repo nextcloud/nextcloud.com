@@ -9,7 +9,6 @@
     position: fixed;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-    display: none;
     opacity: 0;
     
     @media (min-width: $break-big) {
@@ -18,11 +17,14 @@
     
     &.visible {
         display: block;
-        opacity: 1;
 
         @media (min-width: $break-big) {
             display: none;
         }
+    }
+
+    &.is-animatable {
+        opacity: 1;
     }
     .mobile-bg {
         position: absolute;

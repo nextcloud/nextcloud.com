@@ -50,7 +50,7 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "headroomJqu
             hideNavigationClass: "nav-up",
             playOnHoverClass: "hoverPlay",
             stopAnimationClass: "stopedAnimation",
-            mobileBackgroundContainerSelector: "mobile-bg-container",
+            mobileBackgroundContainerSelector: ".mobile-bg-container",
         },
 
         toggleMobileMenu: function(event) {

@@ -50,7 +50,8 @@ $(document).ready(function() {
         showNavigationClass:"nav-down",
         hideNavigationClass: "nav-up",
         playOnHoverClass: "hoverPlay",
-        stopAnimationClass: "stopedAnimation"
+        stopAnimationClass: "stopedAnimation",
+        mobileBackgroundContainerSelector: ".mobile-bg-container",
     },
 
     toggleMobileMenu: function(event) {
@@ -60,6 +61,7 @@ $(document).ready(function() {
         $(this.variables.sectionsSelector).toggleClass(this.variables.activeClass);
         $(this.variables.rightNavigationSelector).toggleClass(this.variables.activeClass);
         $(this.variables.logoSelector).toggleClass(this.variables.mobileMenuClass);
+        $(this.variables.mobileBackgroundContainerSelector).toggleClass(this.variables.backgroundAnimationClass);
     },
 
     resetMobile: function() {
