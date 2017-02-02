@@ -57,7 +57,7 @@
 	<a name="security" id="security"></a>
 	<div class="container">
 		<div class="col-md-6">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/screenShoots_default.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/screenShoots_default.png" alt="in action" /></a>
+		<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP.png" alt="in action" >
 		</div>
 
 		<div class="col-md-6 feature--block">
@@ -89,7 +89,7 @@
 	<a name="clients" id="clients"></a>
 	<div class="container">
 		<div class="col-md-6">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/screenShoots_default.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/screenShoots_default.png" alt="in action" /></a>
+			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mobileDesktop.png">
 		</div>
 
 		<div class="col-md-6 feature--block">
