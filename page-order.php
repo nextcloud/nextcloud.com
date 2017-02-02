@@ -30,8 +30,8 @@
 <div class="container">
 	<h2><?php echo $l->t('Nextcloud helps you be successful');?></h2>
 	<p><?php echo $l->t('You run your own Nextcloud server, keeping your data in-house and under control. A support subscription from Nextcloud makes sure it works.');?></p>
-	<?php echo $l->t('You will be able to contact our support team for a speedy answer to questions and fixes for problems you encounter; you can use our <a href="https://nextcloud.com/migration">migration support</a> or add additional capabilities with our <a href="/outlook">Outlook add-in</a> or <a href="/collabora">Online Office</a>. Learn about <a href="/enterprise">what our Enterprise Subscription offers here</a> and see answers in our <a href="pricing/#FAQ">Frequently Asked Questions</a>');?></p>
-	<p><?php echo $l->t('Using this form, you can order a Basic or Standard Support Subscription for up to 250 users. If you need more users, other options or an Enterprise Support Subscription, <a href="/enterprise/buy">please contact sales for a quote.</a>');?></p>
+	<?php echo $l->t('You will be able to contact our support team for a speedy answer to questions and fixes for problems you encounter; you can use our <a class="hyperlink" href="https://nextcloud.com/migration">migration support</a> or add additional capabilities with our <a class="hyperlink" href="/outlook">Outlook add-in</a> or <a class="hyperlink" href="/collabora">Online Office</a>. Learn about <a class="hyperlink" href="/enterprise">what our Enterprise Subscription offers here</a> and see answers in our <a class="hyperlink" href="pricing/#FAQ">Frequently Asked Questions</a>');?></p>
+	<p><?php echo $l->t('Using this form, you can order a Basic or Standard Support Subscription for up to 250 users. If you need more users, other options or an Enterprise Support Subscription, <a class="hyperlink" href="/enterprise/buy">please contact sales for a quote.</a>');?></p>
 	<div class="contact">
 		<h3><?php echo $l->t('Fill in the form below to receive a contract and invoice from us and get started!');?></h3>
 		<form id="orderform" name="orderform" method="post" action="../ordersubmit/?staging=true">
@@ -64,7 +64,7 @@
 					<option value="standard">Standard</option>
 					<option value="enterprise">Enterprise</option>
 				</select></label>
-				<div class="getenterprisequote" id="getenterprisequote" style="display:none;"><p><a href="/buy">Ask a quote from our sales team for the enterprise subscription.</a></p></div>
+				<div class="getenterprisequote" id="getenterprisequote" style="display:none;"><p><a class="hyperlink" href="/buy">Ask a quote from our sales team for the enterprise subscription.</a></p></div>
 				</p>
 				<p><label for="duration"><?php echo $l->t('Length of contract');?><br>
 				<select name="duration" onChange="doCalculation()">
@@ -73,10 +73,10 @@
 					<option value="3">Three years (15% discount)</option>
 				</select></label><br>
 				<input type="checkbox" name="edugov" value="edugov" onChange="doCalculation()"> <?php echo $l->t(' We are education/government/charity (20% discount applies)');?></p>
-				<p><h3>Optional features (only with a Standard or <a href="/pricing">Enterprise Subscription</a>)</h3>
-				<input id="collabora" type="checkbox" name="collabora" value="collabora" onChange="doCalculation()"> <?php echo $l->t(' Include <a href="/collabora" target="_blank">Collabora Online</a> (€ 16/user)');?><br/>
-				<!--<input type="checkbox" name="spreed" value="spreed" onChange="doCalculation()"> <?php echo $l->t(' Include <a href="/webrtc" target="_blank">Spreed audio/video chat</a> (Eur 5/user)');?><br/>-->
-				<input type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <?php echo $l->t(' Include <a href="/outlook" target="_blank">our Outlook add-in</a> (€ 5/user)');?><br/>
+				<p><h3>Optional features (only with a Standard or <a class="hyperlink" href="/pricing">Enterprise Subscription</a>)</h3>
+				<input id="collabora" type="checkbox" name="collabora" value="collabora" onChange="doCalculation()"> <?php echo $l->t(' Include <a class="hyperlink" href="/collabora" target="_blank">Collabora Online</a> (€ 16/user)');?><br/>
+				<!--<input type="checkbox" name="spreed" value="spreed" onChange="doCalculation()"> <?php echo $l->t(' Include <a class="hyperlink" href="/webrtc" target="_blank">Spreed audio/video chat</a> (Eur 5/user)');?><br/>-->
+				<input type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <?php echo $l->t(' Include <a class="hyperlink" href="/outlook" target="_blank">our Outlook add-in</a> (€ 5/user)');?><br/>
 				<input type="checkbox" name="remoteinstall" value="remoteinstall" onChange="doCalculation()"> <?php echo $l->t(' Include a one-day remote installation/integration support video call (€ 1100)');?><br/>
 				<!--<input type="checkbox" name="branding" value="branding" onChange="doCalculation()"> <?php echo $l->t(' Include branded clients (Eur 6000)');?><br/>-->
 				</p>
@@ -84,7 +84,7 @@
 				<p><input type="checkbox" name="dollars" value="dollars" onChange="doCalculation()"> <?php echo $l->t(' in dollars');?></p>
 				<p><?php echo $l->t('<label for="comments">Notes<br />
 				<textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Any other comments or notes?"></textarea></label>');?></p>
-				<p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a href=""<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?></a></p>
+				<p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a class="hyperlink" href=""<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?></a></p>
 				<td colspan="2" style="text-align:center">
 <!-- 				<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div> -->
 				<input type="submit" name="submit" value=" Order Now " disabled="disabled">
