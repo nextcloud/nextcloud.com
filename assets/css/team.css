@@ -1,78 +1,105 @@
-.teamgroup {
-  width: 95%;
-  max-width: 2000px; }
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
 
-.teamgroup .featuretitle {
-  text-align: center; }
+.team-background {
+  background: url("../img/headers/enterprise-team.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
 
-.teamp {
-  -webkit-box-shadow: 0 3px 3px #ccc;
-  -moz-box-shadow: 0 3px 3px #ccc;
-  box-shadow: 0 3px 3px #ccc;
-  margin-left: 1%;
-  margin-right: 1%;
-  margin-bottom: 7%;
-  padding-top: 60px;
-  padding-bottom: 5px; }
+footer.page-footer {
+  margin-top: 0; }
 
-.teamimg {
-  width: 50%;
-  display: block;
-  margin: 0 auto !important; }
+.section--team {
+  padding-top: 80px;
+  /* 	display: inline-block; */ }
+  .section--team .section--heading-1 {
+    padding: 80px 0 30px 0;
+    text-align: center; }
+  .section--team .section--intro {
+    font-weight: 600;
+    padding-top: 30px;
+    color: #2a2a36; }
+    @media (max-width: 768px) {
+      .section--team .section--intro {
+        text-align: left !important; } }
+  .section--team .teamgroup {
+    width: 95%;
+    max-width: 2000px; }
+  .section--team .teamgroup .featuretitle {
+    text-align: center; }
+  .section--team .teamp {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 7%;
+    padding-top: 30px;
+    padding-bottom: 5px; }
+  .section--team .teamimg {
+    width: 50%;
+    display: block;
+    margin: 0 auto !important; }
+  .section--team .teamname {
+    text-align: center;
+    font-size: 28px; }
+  .section--team .teammeta {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+    color: #777;
+    line-height: 1; }
+  .section--team .teamtitle {
+    margin: 6px;
+    font-size: 22px; }
+  .section--team .teamexpertise {
+    margin: 2px;
+    font-size: 14px; }
+  .section--team .teamlocation {
+    margin: 2px;
+    font-size: 14px; }
+  .section--team .teamsocial {
+    margin: 15px;
+    font-size: 30px;
+    color: #777 !important;
+    height: 40px; }
+  .section--team .teamsocial a {
+    color: #AAA;
+    transition: all .2s; }
+  .section--team .teamsocial a:hover {
+    color: #0082C9; }
+  .section--team .teamdescription {
+    margin: 20px; }
+  .section--team .teamp {
+    min-height: 800px; }
+  @media (max-width: 2000px) {
+    .section--team .teamp {
+      min-height: 780px; } }
+  @media (max-width: 1910px) {
+    .section--team .teamp {
+      min-height: 770px; } }
+  @media (max-width: 1450px) {
+    .section--team .teamp {
+      min-height: 790px; } }
+  @media (max-width: 1200px) {
+    .section--team .teamp {
+      min-height: 830px; } }
+  @media (max-width: 991px) {
+    .section--team .teamp {
+      min-height: auto; } }
 
-.teamname {
-  text-align: center; }
+.calltoaction {
+  margin-top: 50px;
+  background-color: #0082c9;
+  padding: 50px 0;
+  color: white; }
+  .calltoaction .section--heading-2 {
+    color: white; }
+  .calltoaction .section--paragraph {
+    color: white; }
+  .calltoaction .hyperlink {
+    color: white; }
 
-.teammeta {
-  text-align: center;
-  font-size: 14px;
-  font-weight: 200;
-  color: #777;
-  line-height: 1; }
-
-.teamtitle {
-  margin: 6px;
-  font-size: 22px; }
-
-.teamexpertise {
-  margin: 2px;
-  font-size: 14px; }
-
-.teamlocation {
-  margin: 2px;
-  font-size: 14px; }
-
-.teamsocial {
-  margin: 15px;
-  font-size: 30px;
-  color: #777 !important;
-  height: 40px; }
-
-.teamsocial a {
-  color: #AAA;
-  transition: all .2s; }
-
-.teamsocial a:hover {
-  color: #0082C9; }
-
-.teamdescription {
-  margin: 20px; }
-
-.teamp {
-  min-height: 800px; }
-
-@media (max-width: 2000px) {
-  .teamp {
-    min-height: 780px; } }
-@media (max-width: 1910px) {
-  .teamp {
-    min-height: 770px; } }
-@media (max-width: 1450px) {
-  .teamp {
-    min-height: 790px; } }
-@media (max-width: 1200px) {
-  .teamp {
-    min-height: 830px; } }
-@media (max-width: 991px) {
-  .teamp {
-    min-height: auto; } }
+/*# sourceMappingURL=team.css.map */

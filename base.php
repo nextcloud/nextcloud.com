@@ -93,7 +93,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'speaking',
 		'spreedbox',
 // 		'support',
-		'team',
+// 		'team',
 		'thanks',
 		'thankyou',
 		'theming',
