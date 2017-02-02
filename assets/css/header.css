@@ -8,15 +8,17 @@
 .mobile-bg-container {
   width: 100%;
   min-height: 100%;
-  position: absolute;
+  position: fixed;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  display: none; }
+  display: none;
+  opacity: 0; }
   @media (min-width: 991px) {
     .mobile-bg-container {
       display: none; } }
   .mobile-bg-container.visible {
-    display: block; }
+    display: block;
+    opacity: 1; }
     @media (min-width: 991px) {
       .mobile-bg-container.visible {
         display: none; } }
