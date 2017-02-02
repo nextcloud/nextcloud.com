@@ -2,8 +2,8 @@
 @import "transparent-navbar.scss";
 
 .jobs-background {
-  background: url("../img/headers/team.jpg") no-repeat;
-  background-position: center;
+  background: url("../img/headers/team.jpg") no-repeat center;
+/*   background-position: center; */
   background-size: cover;
   
   .container .row .col-md6 {

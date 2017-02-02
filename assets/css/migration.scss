@@ -8,6 +8,7 @@
 .migration-background {
   background-image: url("../img/enterprise/enterprise.jpg");
   background-position: bottom 0 right 0;
+  background-size: cover;
 
   @media (max-width: $navbar-breaksize) {
 	min-height: 850px !important; 
