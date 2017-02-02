@@ -1,7 +1,11 @@
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
-/*@import "transparent-navbar.scss";*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
 /* gradient behind nav */
 /* background */
 .outlook-background {
