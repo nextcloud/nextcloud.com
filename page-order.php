@@ -1,6 +1,7 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/order.css" rel="stylesheet">
 	<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- 	<script src='<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.min.js'></script> -->
 	<script>
 	require(["require.config"], function() {
 		require(["modules/submenu", "pages/order"])
@@ -74,11 +75,11 @@
 				</select></label><br>
 				<input type="checkbox" name="edugov" value="edugov" onChange="doCalculation()"> <?php echo $l->t(' We are education/government/charity (20% discount applies)');?></p>
 				<p><h3>Optional features (only with a Standard or <a class="hyperlink" href="/pricing">Enterprise Subscription</a>)</h3>
-				<input id="collabora" type="checkbox" name="collabora" value="collabora" onChange="doCalculation()"> <?php echo $l->t(' Include <a class="hyperlink" href="/collabora" target="_blank">Collabora Online</a> (€ 16/user)');?><br/>
-				<!--<input type="checkbox" name="spreed" value="spreed" onChange="doCalculation()"> <?php echo $l->t(' Include <a class="hyperlink" href="/webrtc" target="_blank">Spreed audio/video chat</a> (Eur 5/user)');?><br/>-->
-				<input type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <?php echo $l->t(' Include <a class="hyperlink" href="/outlook" target="_blank">our Outlook add-in</a> (€ 5/user)');?><br/>
-				<input type="checkbox" name="remoteinstall" value="remoteinstall" onChange="doCalculation()"> <?php echo $l->t(' Include a one-day remote installation/integration support video call (€ 1100)');?><br/>
-				<!--<input type="checkbox" name="branding" value="branding" onChange="doCalculation()"> <?php echo $l->t(' Include branded clients (Eur 6000)');?><br/>-->
+				<input disabled id="collabora" type="checkbox" name="collabora" value="collabora" onChange="doCalculation()"> <?php echo $l->t(' Include <a class="hyperlink" href="/collabora" target="_blank">Collabora Online</a> (€ 16/user)');?><br/>
+				<!--<input disabled type="checkbox" name="spreed" value="spreed" onChange="doCalculation()"> <?php echo $l->t(' Include <a class="hyperlink" href="/webrtc" target="_blank">Spreed audio/video chat</a> (Eur 5/user)');?><br/>-->
+				<input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <?php echo $l->t(' Include <a class="hyperlink" href="/outlook" target="_blank">our Outlook add-in</a> (€ 5/user)');?><br/>
+				<input disabled type="checkbox" name="remoteinstall" value="remoteinstall" onChange="doCalculation()"> <?php echo $l->t(' Include a one-day remote installation/integration support video call (€ 1100)');?><br/>
+				<!--<input disabled type="checkbox" name="branding" value="branding" onChange="doCalculation()"> <?php echo $l->t(' Include branded clients (Eur 6000)');?><br/>-->
 				</p>
 				<h2 class="price"><?php echo $l->t('Price: ');?><span id="totalprice"></span><br></h2>
 				<p><input type="checkbox" name="dollars" value="dollars" onChange="doCalculation()"> <?php echo $l->t(' in dollars');?></p>
@@ -91,3 +92,201 @@
 		</form>
 	</div>
 </div>
+
+<script>
+		function getUsersPrice() {
+		    var usersPrice=0;
+		    //Get a reference to the form id="orderform"
+		    var theForm = document.forms["orderform"];
+		    //Get a reference to the select id="users"
+		    var usersNumber = theForm.elements["users"];
+			var chosenEdition = theForm.elements["edition"];
+		    //set users price based on the number of users chosen and the edition. Yes, we could calculate this but that is complicated and it is easier updated as well this way.
+		    if(chosenEdition.value=="basic") 
+		    {
+				if(usersNumber.value==50)
+				{
+					usersPrice = 1500;
+				}
+				if(usersNumber.value=="75")
+				{
+					usersPrice = 2250;
+				}
+				if(usersNumber.value=="100")
+				{
+					usersPrice = 3000;
+				}
+				if(usersNumber.value=="150")
+				{
+					usersPrice = 4000;
+				}
+				if(usersNumber.value=="200")
+				{
+					usersPrice = 5000;
+				}
+				if(usersNumber.value=="250")
+				{
+					usersPrice = 6000;
+				}
+			}
+		    if(chosenEdition.value=="standard") 
+		    {
+				if(usersNumber.value=="50")
+				{
+					usersPrice = 2500;
+				}
+				if(usersNumber.value=="75")
+				{
+					usersPrice = 3750;
+				}
+				if(usersNumber.value=="100")
+				{
+					usersPrice = 5000;
+				}
+				if(usersNumber.value=="150")
+				{
+					usersPrice = 6500;
+				}
+				if(usersNumber.value=="200")
+				{
+					usersPrice = 8000;
+				}
+				if(usersNumber.value=="250")
+				{
+					usersPrice = 9500;
+				}
+			}
+		    //finally we return usersPrice
+		    return usersPrice;
+		}
+
+		function getOptionsPrice() {
+		    var optionsPrice=0;
+		    //Get a reference to the form id="orderform"
+		    var theForm = document.forms["orderform"];
+		    //Get a reference to the select id="users" and the other elements needed
+		    var includeCollabora = theForm.elements["collabora"];
+			var includeOutlook = theForm.elements["outlook"];
+			var includeRemoteinstall = theForm.elements["remoteinstall"];
+			// var includeBranding = theForm.elements["branding"];
+			// var includeSpreed = theForm.elements["spreed"];
+			var selectedUsersNumber = theForm.elements["users"];
+			var chosenEdition = theForm.elements["edition"];
+
+			//check if they are checked and if so, add the monies
+			if(chosenEdition.value!=="basic") 
+			{
+				if(includeCollabora.checked==true)
+				{
+					var optionsPrice = optionsPrice + (selectedUsersNumber.value * 16);
+				}
+				if(includeOutlook.checked==true)
+				{
+					var optionsPrice = optionsPrice + (selectedUsersNumber.value * 5);
+				}
+				if(includeRemoteinstall.checked==true)
+				{
+					var optionsPrice = optionsPrice + 1100;
+				}
+			}
+			return optionsPrice;
+		}
+
+		function getTotal() {
+		    //Here we calculate, return and show the total price by calling our function
+
+			// set variables
+		    var theForm = document.forms["orderform"];
+			var edugovDiscount = theForm.elements["edugov"];
+			var contractLength = theForm.elements["duration"];
+			var inDollars = theForm.elements["dollars"];
+			
+		    //Each function returns a number so by calling them we add the values they return together
+		    var finalPrice = getUsersPrice() + getOptionsPrice();
+			
+			//If the edu/gov/charity is checked, reduce price by 20%
+			if(edugovDiscount.checked==true)
+			{
+				var finalPrice = finalPrice * 0.80;
+			}
+
+			//If contract length is 2 or 3 years, multiply with discount
+			if(contractLength.value==2)
+			{
+				var finalPrice = finalPrice * 1.80;
+			}
+			if(contractLength.value==3)
+			{
+				var finalPrice = finalPrice * 2.55;
+			}
+
+			//display the result (dollars or euro's)
+			if(inDollars.checked==false)
+			{
+				document.getElementById('totalprice').innerHTML = " € "+Math.round(finalPrice);
+		    }
+		    if(inDollars.checked==true)
+			{
+			var finalPrice = finalPrice * 1.1;
+				document.getElementById('totalprice').innerHTML = " $ "+Math.round(finalPrice);
+			}
+			return +Math.round(finalPrice);
+		}
+
+		function checkSubscription() {
+			//disable optional features when basic subscription is chosen; enable submit button when terms are accepted
+			var theForm = document.forms["orderform"];
+			var includeCollabora = theForm.elements["collabora"];
+			var includeOutlook = theForm.elements["outlook"];
+			// var includeBranding = theForm.elements["branding"];
+			// var includeSpreed = theForm.elements["spreed"];
+			var includeRemoteinstall = theForm.elements["remoteinstall"];
+			var chosenEdition = theForm.elements["edition"];
+			var agreedToTerms = theForm.elements["terms"];    
+			var submitButton = theForm.elements["submit"];
+			document.getElementById("getenterprisequote").style.display = "none";
+			
+			// disable them by default as they are blocked by the default basic subscription
+			includeRemoteinstall.disabled = false;
+			includeCollabora.disabled = false;
+			includeOutlook.disabled = false;
+			// includeSpreed.disabled = false;
+			// includeBranding.disabled = false;
+			submitButton.disabled = true;
+			
+			if(chosenEdition.value=="basic")
+			{
+				includeRemoteinstall.disabled = true;
+				includeCollabora.disabled = true;
+				includeOutlook.disabled = true;
+				// includeSpreed.disabled = true;
+				// includeBranding.disabled = true;
+			}
+			// you can't pick enterprise so we set it back to standard and show the info about asking sales for a quote.
+			if(chosenEdition.value=="enterprise")
+			{
+				document.getElementById("getenterprisequote").style.display = "block";
+				chosenEdition.value="standard";
+			}
+			// only when the terms are agreed to can you submit the form
+			if(agreedToTerms.checked==true)
+			{
+				submitButton.disabled = "";
+			}
+		}
+		// this function is called whenever the user changes any of the form values to re-calculate the price and disable or enable options.
+		function doCalculation() {
+			checkSubscription();
+			getTotal();
+		}
+</script>
+<script>
+		// this function listens to the submit event and adds the price to it before sending it out
+		$('#orderform').submit(function(eventObj) { //listen to submit event
+			var theForm = document.forms["orderform"];
+			var inDollars = theForm.elements["dollars"];
+			var includePrice = getTotal();
+		    $(this).append('<input type="hidden" name="givenPrice" value="' + includePrice + '">');
+		    return true;
+		});
+</script>
