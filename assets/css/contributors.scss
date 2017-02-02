@@ -1,0 +1,105 @@
+@import "variables.scss";
+@import "transparent-navbar.scss";
+
+.contributors-background {
+  background: url("../img/headers/team.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer.page-footer {
+	margin-top: 0;
+}
+
+.section--contributors {
+	padding-top: 80px;
+/* 	display: inline-block; */
+
+	.section--heading-1 {
+		padding: 80px 0 30px 0;
+		text-align: center;
+	}
+
+	.section--intro {
+		font-weight: 600;
+		padding-top: 30px;
+        color: $dark-blue;
+
+		@media (max-width: $break-small) {
+			text-align: left !important;
+		}
+	}
+	
+	blockquote {
+		float: right;
+	}
+	.contributorgroup {
+		width: 95%;
+		max-width: 2000px;
+	}
+
+	.contribshowhide {
+		position: relative;
+	}
+
+	.contribtext { 
+		transition: all .5s;
+		background-color: #0082C9;
+		border-radius: 50%;
+		opacity: 0;
+		z-index: 10;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		max-width: 200px;
+		max-height: 200px;
+	}
+
+	.contribshowhide:hover .contribtext{
+		opacity: 0.9;
+	}
+
+	.contribtext a {
+		display: block;
+		width: 100%;
+		height: 100%;
+		opacity: 0.9;
+		vertical-align: middle;
+		color: white;
+		text-decoration: none;
+		font-size: 24px;
+		text-align:center;
+		position: absolute;
+		top: 30%;
+	/* 	margin-top: -20%; */
+	}
+
+	.contribimg img {
+		width: 100%;
+		height: 100%;
+		max-width: 200px;
+		max-height: 200px;
+	}
+
+}
+
+.calltoaction {
+	margin-top: 50px;
+	background-color: $nextcloud-blue;
+	padding: 50px 0;
+	color: white;
+
+	.section--heading-2 {
+		color: white;
+	}
+
+	.section--paragraph {
+		color: white;
+	}
+
+	.hyperlink {
+		color: white;
+	}
+}
+
