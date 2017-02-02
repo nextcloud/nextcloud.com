@@ -101,6 +101,7 @@
 		    //Get a reference to the select id="users"
 		    var usersNumber = theForm.elements["users"];
 			var chosenEdition = theForm.elements["edition"];
+			var edugovDiscount = theForm.elements["edugov"];
 		    //set users price based on the number of users chosen and the edition. Yes, we could calculate this but that is complicated and it is easier updated as well this way.
 		    if(chosenEdition.value=="basic") 
 		    {
@@ -156,12 +157,36 @@
 					usersPrice = 9500;
 				}
 			}
+			
+			if(edugovDiscount.checked==true)
+			{
+				var usersPrice = usersPrice * 0.80;
+			}
 		    //finally we return usersPrice
 		    return usersPrice;
 		}
 
+		function multiYearDiscount(priceDiscount){
+		    //Get a reference to the form id="orderform", to education discount and duration
+		    var theForm = document.forms["orderform"];
+		    var edugovDiscount = theForm.elements["edugov"];
+			var contractLength = theForm.elements["duration"];
+			
+			if(contractLength.value==2)
+			{
+				priceDiscount *= 1.80;
+			}
+			if(contractLength.value==3)
+			{
+				priceDiscount *= 2.55;
+			}
+			
+			return priceDiscount;
+		}
+		
 		function getOptionsPrice() {
 		    var optionsPrice=0;
+			var collaboraPrice = 0;
 		    //Get a reference to the form id="orderform"
 		    var theForm = document.forms["orderform"];
 		    //Get a reference to the select id="users" and the other elements needed
@@ -172,21 +197,29 @@
 			// var includeSpreed = theForm.elements["spreed"];
 			var selectedUsersNumber = theForm.elements["users"];
 			var chosenEdition = theForm.elements["edition"];
-
+		    var edugovDiscount = theForm.elements["edugov"];
 			//check if they are checked and if so, add the monies
 			if(chosenEdition.value!=="basic") 
 			{
 				if(includeCollabora.checked==true)
 				{
-					var optionsPrice = optionsPrice + (selectedUsersNumber.value * 16);
+					collaboraPrice = selectedUsersNumber.value * 16;
+					
+					if(edugovDiscount.checked==true)
+					{
+						collaboraPrice = collaboraPrice * 0.80;
+					}
+					//If contract length is 2 or 3 years, multiply with discount
+
+					optionsPrice = optionsPrice + multiYearDiscount(collaboraPrice);
 				}
 				if(includeOutlook.checked==true)
 				{
-					var optionsPrice = optionsPrice + (selectedUsersNumber.value * 5);
+					optionsPrice = optionsPrice + multiYearDiscount(selectedUsersNumber.value * 5);
 				}
 				if(includeRemoteinstall.checked==true)
 				{
-					var optionsPrice = optionsPrice + 990;
+					optionsPrice = optionsPrice + 990;
 				}
 			}
 			return optionsPrice;
@@ -198,27 +231,27 @@
 			// set variables
 		    var theForm = document.forms["orderform"];
 			var edugovDiscount = theForm.elements["edugov"];
-			var contractLength = theForm.elements["duration"];
+// 			var contractLength = theForm.elements["duration"];
 			var inDollars = theForm.elements["dollars"];
-			
+// 			var edugovDiscount = theForm.elements["edugov"];
 		    //Each function returns a number so by calling them we add the values they return together
-		    var finalPrice = getUsersPrice() + getOptionsPrice();
+		    var finalPrice = multiYearDiscount(getUsersPrice()) + getOptionsPrice();
 			
 			//If the edu/gov/charity is checked, reduce price by 20%
-			if(edugovDiscount.checked==true)
-			{
-				var finalPrice = finalPrice * 0.80;
-			}
+// 			if(edugovDiscount.checked==true)
+// 			{
+// 				var finalPrice = finalPrice * 0.80;
+// 			}
 
 			//If contract length is 2 or 3 years, multiply with discount
-			if(contractLength.value==2)
-			{
-				var finalPrice = finalPrice * 1.80;
-			}
-			if(contractLength.value==3)
-			{
-				var finalPrice = finalPrice * 2.55;
-			}
+// 			if(contractLength.value==2)
+// 			{
+// 				var finalPrice = finalPrice * 1.80;
+// 			}
+// 			if(contractLength.value==3)
+// 			{
+// 				var finalPrice = finalPrice * 2.55;
+// 			}
 
 			//display the result (dollars or euro's)
 			if(inDollars.checked==false)
@@ -244,8 +277,8 @@
 			var chosenEdition = theForm.elements["edition"];
 			var agreedToTerms = theForm.elements["terms"];    
 			var submitButton = theForm.elements["submit"];
+			var edugovDiscount = theForm.elements["edugov"];
 			document.getElementById("getenterprisequote").style.display = "none";
-			
 			// disable them by default as they are blocked by the default basic subscription
 			includeRemoteinstall.disabled = false;
 			includeCollabora.disabled = false;
