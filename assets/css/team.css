@@ -28,8 +28,9 @@ footer.page-footer {
       .section--team .section--intro {
         text-align: left !important; } }
   .section--team .teamgroup {
+    padding-top: 100px;
     width: 95%;
-    max-width: 2000px; }
+    max-width: 1600px; }
   .section--team .teamgroup .featuretitle {
     text-align: center; }
   .section--team .teamp {
@@ -54,6 +55,8 @@ footer.page-footer {
   .section--team .teamtitle {
     margin: 6px;
     font-size: 22px; }
+  .section--team h4 {
+    color: #9c9c9c; }
   .section--team .teamexpertise {
     margin: 2px;
     font-size: 14px; }

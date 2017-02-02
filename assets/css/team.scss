@@ -32,8 +32,9 @@ footer.page-footer {
 	
 	
 	.teamgroup {
+		padding-top:100px;
 		width: 95%;
-		max-width: 2000px;
+		max-width: 1600px;
 	}
 
 	.teamgroup .featuretitle {
@@ -70,9 +71,14 @@ footer.page-footer {
 		font-size: 22px;
 	}
 
+	h4 {
+		color: #9c9c9c;
+	}
+	
 	.teamexpertise {
 		margin: 2px;
 		font-size: 14px;
+	
 	}
 
 	.teamlocation {
