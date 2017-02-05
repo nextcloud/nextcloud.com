@@ -1,107 +1,95 @@
-<!-- <?php get_template_part('templates/parts/title'); ?> -->
-<div class="row">
-	<div class="col-md-8 col-md-offset-2">
-		<div class="page-header">
-			<h1><?php echo $l->t('Collabora Online in Nextcloud');?></h1>
-			<h3><?php echo $l->t('Bringing Self Hosted Online Office to everybody');?></h3>
-		</div>
-		<p><?php echo $l->t('We\'re very excited to provide a solution for Online Office for the entire Nextcloud community through our <a target="_blank" href="https://nextcloud.com/?p=589">partnership with Collabora</a>. Together we are making available the latest and greatest of Online Office in an <strong>easy to use <a href="https://hub.docker.com/r/collabora/code">docker image</a> for home users</strong>.');?></p>
-		<p><?php echo $l->t('Enterprise users who need a more reliable and scalable solution can take advantage of our optional support contract for Collabora Online. You can <a href="/enterprise/buy">request a quote.</a>/');?></p>
-		<p><?php echo $l->t('If you\'re looking for instructions to update to a new version, <a href="#update">see here.</a>');?></p>
-	</div>
-</div>
-<div class="row featurerow topfeature">
-	<div class="col-md-6">
-		<div class="yt-img-overlay">
-			<a class="youtube" id="sZpYXUD1ZVM" href="https://www.youtube.com/watch?v=sZpYXUD1ZVM" title="Collabora Online in Nextcloud">
-				<img class="img-responsive featureimg" src="https://img.youtube.com/vi/sZpYXUD1ZVM/maxresdefault.jpg" title="Collabora Online in Nextcloud" />
-				<div class="yt-play-btn">
-					<i></i>
-				</div>
-			</a>
-		</div>
-	</div>
-	<div class="col-md-6">
-		<div class="yt-img-overlay">
-			<a class="youtube" id="8iuSFKVl-xQ" href="https://www.youtube.com/watch?v=8iuSFKVl-xQ" title="Editing public link sharesd">
-				<img class="img-responsive featureimg" src="https://img.youtube.com/vi/8iuSFKVl-xQ/maxresdefault.jpg" title="Editing public link shares" />
-				<div class="yt-play-btn">
-					<i></i>
-				</div>
-			</a>
-		</div>
-	</div>
-</div>
-<div class="row featurerow topfeature">
-	<div class="col-md-8 col-md-offset-2">
-		<h2><?php echo $l->t('Collabora Online');?></h2>
-		<p><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite that supports all major document, spreadsheet and presentation file formats.');?></p>
-		<p><?php echo $l->t('Features:');?></p>
-			<ul>
-				<li><?php echo $l->t('Basic editing');?></li>
-				<li><?php echo $l->t('Document Support:');?>
-					<ul>
-						<li><?php echo $l->t('DOC, DOCX, PPT, PPTX, XLS, XLSX + ODF');?></li>
-						<li><?php echo $l->t('Import/View Visio, Publisher, + 100 more');?></li>
-					</ul>
-				</li>
-				<li><?php echo $l->t('High fidelity, WYSIWYG rendering');?></li>
-				<li><?php echo $l->t('Fully collaborative editing');?>
-				<li><?php echo $l->t('Anonymous editing  of files in public link shared folder');?></li>
-			</ul>
-		<p><?php echo $l->t('More features and capabilities are in development.');?></p>
-	</div>
-</div>
-<div class="row featurerow topfeature">
-	<div class="col-md-4">
-		<div class="">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-app.png"  target="_blank"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-app.png" /></a>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-presentation.png"  target="_blank"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-presentation.png" /></a>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png"  target="_blank"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png" /></a>
-		</div>
-	</div>
-</div>
+<head>
+<script>
+	require(["require.config"], function() {
+		require(["pages/collaboraonline"])
+	});
+</script>
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/collabraonline.css">
+<!-- <link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet"/> -->
 
-<div class="row featurerow topfeature">
-	<div class="col-md-7">
-		<h2><?php echo $l->t('Under your control');?></h2>
-		<p><?php echo $l->t('Most people use online services for storing their data, communication and editing documents, often giving up control over their files in exchange for the convenience of online collaboration. With Nextcloud and Collabora Online, this is no longer a trade-off.');?></p>
-		<p><?php echo $l->t('Collabora Online is:');?></p>
-			<ul>
-				<li><?php echo $l->t('Open Source');?></li>
-				<li><?php echo $l->t('Self hosted');?></li>
-				<li><?php echo $l->t('Secure');?></li>
-			</ul>
-	</div>
-	<div class="col-md-5">
-		<div class="">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-document.png" target="_blank"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-document.png" /> </a>
-		</div>
-	</div>
-</div>
-<div class="featurerow">
-	<h2 class="featuretitle text-center"><?php echo $l->t('Collabora Online integration tutorial video');?></h2>
-	<div class="row">
-		<div class="col-md-10 col-md-offset-2">
-			<div class="yt-img-overlay">
-				<a class="youtube" id="MDc1bNxn3js" href="https://www.youtube.com/watch?v=MDc1bNxn3js" title="Collabora Online in Nextcloud">
-					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/MDc1bNxn3js/maxresdefault.jpg" title="Collabora Online in Nextcloud tutorial" />
-					<div class="yt-play-btn">
-						<i></i>
-					</div>
-				</a>
+</head>
+
+<div class="background collaboraonline-background">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 topheader">
+				<h1><?php echo $l->t('Collabora Online in Nextcloud');?></h1>
+				<h2><?php echo $l->t('Bringing Self Hosted Online Office to everybody');?></h2>
 			</div>
 		</div>
 	</div>
 </div>
+
+<section class="collabora-online">
+				<div class="col-md-10">
+				<br />
+				<iframe width="100%" height="500" src="hhttps://www.youtube.com/embed/sZpYXUD1ZVM" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="col-md-6 col-md-offset-3 text-center">
+					<p class="section--paragraph"><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite that supports all major document, spreadsheet and presentation file formats.');?></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="featurerow">
+			<div class="row">
+				<div class="col-md-6 floated revealOnScroll">
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-document.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/collabora-document.png" alt="in action" /></a>
+				</div>
+				<div class="col-md-6 featureblock revealOnScroll">
+					<h2 class="section--heading-2"><?php echo $l->t('View and edit documents directly in your Nextcloud');?></h2>
+					<p class="section--paragraph"><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite that supports all major document, spreadsheet and presentation file formats.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('It does support basic editing with high fidelity, WYSIWYG rendering, fully collaborative editing and anonymous editing of files in public link shared folder.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Collabora Online is supporting dozens of documents like <strong>DOC</strong>, <strong>DOCX</strong>, <strong>PPT</strong>, <strong>PPTX</strong>, <strong>XLS</strong>, <strong>XLSX + ODF</strong>, <strong>Import/View Visio</strong>, <strong>Publisher</strong> and many more...');?></p>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="featurerow">
+			<div class="row">
+				<div class="col-md-6 revealOnScroll">
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/options.png" alt="in action" /></a>
+				</div>
+				<div class="col-md-6 revealOnScroll featureblock">
+					<h2 class="section--heading-2"><?php echo $l->t('Under your control');?></h2>
+					<p class="section--paragraph"><?php echo $l->t('Most people use online services for storing their data, communication and editing documents, often giving up control over their files in exchange for the convenience of online collaboration. With Nextcloud and Collabora Online, this is no longer a trade-off.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Collabora Online is <strong>Open Source</strong>, <strong>self-hosted</strong> and <strong>secure</strong>!');?></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="container-fluid quote">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 featureblock text-center revealOnScroll">
+				<p class=""><?php echo $l->t('Enterprise users who need a more reliable and scalable solution can take advantage of our <a href="/enterprise" style="color:white">optional support contract</a> for Collabora Online. You can request a quote.</a>');?></p>
+				<div class="text-center morebuttondiv">
+					<a href="/buy" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<section class="collabora-integration">
+	<div class="container">
+		<div class="featurerow">
+			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Collabora Online integration tutorial video');?></h2>
+			<div class="row">
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-10">
+				<br />
+				<iframe width="100%" height="500" src="https://www.youtube.com/embed/MDc1bNxn3js" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="col-md-6 col-md-offset-3 text-center">
+				</div>
+			</div>
+		</div>
+
 <h2><?php echo $l->t('Getting started in 3 steps');?></h2>
 <p><?php echo $l->t('We\'ll describe how to get Collabora Online running on your server and how to integrate it into your Nextcloud using the docker image Nextcloud and Collabora built.');?></p>
 
@@ -111,7 +99,7 @@
  	<li><?php echo $l->t('A host that can run a Docker container');?></li>
  	<li><?php echo $l->t('A subdomain or a second domain that the Collabora Online server can run on');?></li>
  	<li><?php echo $l->t('An Apache server with some enabled modules (<a href="https://icewind.nl/entry/collabora-online">NGNIX instructions in a blog here</a>)');?></li>
- 	<li><?php echo $l->t('A valid SSL certificate for the domain that CollaboraOnline should run on');?></li>
+ 	<li><?php echo $l->t('A valid SSL certificate for the domain that Collabora Online should run on');?></li>
  	<li><?php echo $l->t('A valid SSL certificate for your Nextcloud');?></li>
 </ol>
 <p><?php echo $l->t('<strong>Note:</strong> This guide does <em>NOT</em> cover self-signed certificates. If you use a self-signed certificate then you\'re mostly on your own ;-)');?></p>
@@ -183,7 +171,7 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --re
  	<li><?php echo $l->t('Install the "Collabora Online app"');?></li>
  	<li><?php echo $l->t('Admin -&gt; Collabora Online -&gt; Specify the server you have setup before (e.g. "<a href="https://office.nextcloud.com/">https://office.nextcloud.com</a>")');?></li>
 </ol>
-<h1><?php echo $l->t('Congratulations, your Nextcloud has Collabora Online Office integrated!');?></h1>
+<h2><?php echo $l->t('Congratulations, your Nextcloud has Collabora Online Office integrated!');?></h2>
 
 
 <h2><?php echo $l->t('Updating');?></h2>
@@ -232,6 +220,5 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --re
 
 <script type="text/javascript">
 // $(function () {
-	$("a.youtube").YouTubePopup({ hideTitleBar: true });
 // });
 </script>

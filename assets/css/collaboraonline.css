@@ -1,0 +1,58 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+/* gradient behind nav */
+/* background */
+.collaboraonline-background {
+  background-image: url("../img/outlook/collaboraonline-header.jpg");
+  /*   background-position: bottom 50% right 50%; */
+  background-size: cover;
+  /*   text-shadow: 0px 0px 8px black; */ }
+
+.yt-img-overlay {
+  padding-top: 50px; }
+
+/* feature blocks */
+.featurerow {
+  margin-top: 100px;
+  padding-bottom: 50px; }
+  .featurerow .floated {
+    float: right;
+    padding-bottom: 50px; }
+  .featurerow p {
+    margin-top: 15px; }
+  .featurerow img {
+    box-shadow: 0px 0px 4px black; }
+  .featurerow h1 {
+    margin-bottom: 50px;
+    text-align: center; }
+  @media (min-width: 991px) {
+    .featurerow .yt-img-overlay .yt-play-btn {
+      padding-left: 42%;
+      padding-top: 25%;
+      width: 100%;
+      height: 100%; }
+      .featurerow .yt-img-overlay .yt-play-btn i {
+        width: 102px;
+        height: 75px; } }
+
+.featureblock .section--heading-1 {
+  margin-top: 5px;
+  color: #2a2a36;
+  margin-bottom: 5px; }
+.featureblock .wrapper--buttons .button {
+  margin: 20px 10px 20px 20px; }
+
+.quote {
+  margin: 80px 0 50px 0;
+  padding: 50px 0px;
+  background: #0082c9; }
+  .quote p {
+    color: white; }
+
+/*# sourceMappingURL=collbaraonline.css.map */
