@@ -5,6 +5,42 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Server: Content-Spoofing in &quot;files&quot; app (nC-SA-2017-006)</title>
+  <description>&lt;p&gt;The top navigation bar displayed in the files list contained partially user-controllable input leading to a potential misrepresentation of information.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-006&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-006</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-006</guid>
+  <pubDate>Sun, 05 Feb 2017 11:36:08 +0100</pubDate>
+ </item><item>
+  <title>Server: Bypassing quota limitation (nC-SA-2017-005)</title>
+  <description>&lt;p&gt;Due to not properly sanitzing values provided by the `OC-Total-Length` HTTP header an authenticated adversary may be able to exceed their configured user quota. Thus using more space than allowed by the administrator.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-005&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-005</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-005</guid>
+  <pubDate>Sun, 05 Feb 2017 11:36:08 +0100</pubDate>
+ </item><item>
+  <title>Server: Denial of Service attack (nC-SA-2017-004)</title>
+  <description>&lt;p&gt;Due to an error in the application logic an authenticated adversary may trigger an endless recursion in the application leading to a potential Denial of Service.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-004&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-004</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-004</guid>
+  <pubDate>Sun, 05 Feb 2017 11:36:08 +0100</pubDate>
+ </item><item>
+  <title>Server: Error message discloses existence of file in write-only share (nC-SA-2017-003)</title>
+  <description>&lt;p&gt;Due to an error in the application logic an adversary with access to a write-only share may enumerate the names of existing files and subfolders by comparing the exception messages.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-003</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-003</guid>
+  <pubDate>Sun, 05 Feb 2017 11:36:08 +0100</pubDate>
+ </item><item>
+  <title>Server: Creation of folders in read-only folders despite lacking permissions (nC-SA-2017-002)</title>
+  <description>&lt;p&gt;Due to a logical error in the file caching layer an authenticated adversary is able to create empty folders inside a shared folder.&lt;/p&gt;&lt;p&gt;Note that this only affects folders and files that the adversary has at least read-only permissions for.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-002&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-002</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-002</guid>
+  <pubDate>Sun, 05 Feb 2017 11:36:08 +0100</pubDate>
+ </item><item>
+  <title>Server: Permission increase on re-sharing via OCS API (nC-SA-2017-001)</title>
+  <description>&lt;p&gt;A permission related issue within the OCS sharing API allowed an authenticated adversary to reshare shared files with an increasing permission set. This may allow an attacker to edit files in a share despite having only a 'read' permission set.&lt;/p&gt;&lt;p&gt;Note that this only affects folders and files that the adversary has at least read-only permissions for.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-001&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-001</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-001</guid>
+  <pubDate>Sun, 05 Feb 2017 11:36:08 +0100</pubDate>
+ </item><item>
   <title>Server: Content-Spoofing in &quot;dav&quot; app (nC-SA-2016-011)</title>
   <description>&lt;p&gt;The exception message displayed on the DAV endpoints contained partially user-controllable input leading to a potential misrepresentation of information.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-011&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-011</link>
