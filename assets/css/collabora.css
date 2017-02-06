@@ -6,10 +6,9 @@
   background-color: transparent;
   position: absolute; }
 
-/* gradient behind nav */
 /* background */
-.collaboraonline-background {
-  background-image: url("../img/outlook/collaboraonline-header.jpg");
+.collabora-background {
+  background-image: url("../img/headers/collabora.jpg");
   /*   background-position: bottom 50% right 50%; */
   background-size: cover;
   /*   text-shadow: 0px 0px 8px black; */ }
@@ -55,4 +54,7 @@
   .quote p {
     color: white; }
 
-/*# sourceMappingURL=collbaraonline.css.map */
+footer {
+  margin-top: 70px; }
+
+/*# sourceMappingURL=collabora.css.map */

@@ -34,7 +34,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'apply2',
 		'changelog',
 		'code-of-conduct',
-		'collaboraonline',
+// 		'collaboraonline',
 		'community',
 		'conf',
 		'conference-program',
