@@ -19,7 +19,7 @@
 	<h2 class="section--heading-1"><?php echo $l->t('Why migrate: ownCloud vs Nextcloud');?></h2>
 	<p class="section--paragraph"><?php echo $l->t('Nextcloud offers significant <a class="hyperlink" href="https://nextcloud.com/?p=1373">scalability</a>, <a class="hyperlink" href="https://nextcloud.com/?p=1334">security</a> and <a class="hyperlink" href="https://nextcloud.com/?p=1332">feature improvements</a> over ownCloud and our experienced support team has already helped over a dozen customers migrate. Our customers appreciate expert help from a German, employee-owned company set up to provide a long term relationship between customers and business.');?></p>
 	<p class="section--paragraph"><?php echo $l->t('Nextcloud is fully licensed under the AGPL, giving you <a class="hyperlink" href="https://nextcloud.com/blog/why-the-agpl-is-great-for-business-users/">all the benefits of open source</a> and avoiding any risk of mixing a proprietary enterprise edition with open source components.');?></p>
-	<p class="section--paragraph"><?php echo $l->t('First rate support as well as <a  class="hyperlink"href="https://nextcloud.com/?p=1222">healthy development</a> happening in public are key to our offering. Employing over a dozen former ownCloud engineers as well as many other experienced software developers, we are in the best position to support you in keeping your data secure and easily accessible to your employees.');?></p>
+	<p class="section--paragraph"><?php echo $l->t('First rate support as well as <a  class="hyperlink" href="https://nextcloud.com/?p=1222">healthy development</a> happening in public are key to our offering. Employing over a dozen former ownCloud engineers as well as many other experienced software developers, we are in the best position to support you in keeping your data secure and easily accessible to your employees.');?></p>
 	
 	<h2 class="section--paragraph__tittle"><?php echo $l->t('Technical migration');?></h2>
 	<p class="section--paragraph"><?php echo $l->t('Moving from ownCloud to Nextcloud follows the same process as a upgrade within either product. You can essentially follow our');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/manual_upgrade.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">usual upgrade documentation.</a>');?></p>
@@ -45,7 +45,7 @@
 		<li class="section--paragraph"><?php echo $l->t('ownCloud 9.1.x is compatible with Nextcloud 10.0.x');?></li>
 	</ul>
 	<p class="section--paragraph"><?php echo $l->t('This essentially means you can treat Nextcloud 9.0.x as an upgrade to ownCloud 9.0.x and Nextcloud 10.0.x as an upgrade to ownCloud 9.1.x');?></p>
-	<p class="section--paragraph"><?php echo $l->t('These are some examples of an upgrade path. The minor release (.x below) should always be the latest bugfix release. You can find these on the changelog pages, <a href="/changelog">here for Nextcloud.</a>');?></p>
+	<p class="section--paragraph"><?php echo $l->t('These are some examples of an upgrade path. The minor release (.x below) should always be the latest bugfix release. You can find these on the changelog pages, <a  class="hyperlink" href="/changelog">here for Nextcloud.</a>');?></p>
 	<ul>
 		<li class="section--paragraph"><?php echo $l->t('ownCloud 8.0.x -> ownCloud 8.1.x -> ownCloud 8.2.x -> Nextcloud 9.0.x -> Nextcloud 10.0.x');?></li>
 		<li class="section--paragraph"><?php echo $l->t('ownCloud 8.2.x -> Nextcloud 9.0.x -> Nextcloud 10.0.x');?></li>
@@ -53,7 +53,7 @@
 		<li class="section--paragraph"><?php echo $l->t('ownCloud 9.1.x -> Nextcloud 10.0.x -> Nextcloud 11.0.x');?></li>
 	</ul>
 	<p class="section--paragraph"><?php echo $l->t('When upgrading, make sure to enable apps after every upgrade step so they can run their own upgrade scripts. We have fixed this issue in Nextcloud 12: apps will no longer be disabled when upgrading on systems running PHP 7.');?></p>
-	<p class="section--paragraph"><?php echo $l->t('If you are on a very old ownCloud release or want more details, read our extensive detail of upgrade steps in our blog on how to <a href="https://nextcloud.com/blog/protect-your-privacy-time-to-upgrade-to-nextcloud-11./">protect your privacy by upgrading to Nextcloud 11.</a>');?></p>
+	<p class="section--paragraph"><?php echo $l->t('If you are on a very old ownCloud release or want more details, read our extensive detail of upgrade steps in our blog on how to <a  class="hyperlink" href="https://nextcloud.com/blog/protect-your-privacy-time-to-upgrade-to-nextcloud-11./">protect your privacy by upgrading to Nextcloud 11.</a>');?></p>
 	<h2 class="section--paragraph__tittle"><?php echo $l->t('Settings');?></h2>
 	<p class="section--paragraph"><?php echo $l->t('Nearly all ownCloud settings will be migrated to Nextcloud during the upgrade procedure. That means that internal and public (link) shares keep working, users keep their settings and you will retain app configuration, LDAP and external storage settings and more.');?></p>
 	<p class="section--paragraph"><?php echo $l->t('Settings from proprietary extensions from ownCloud which have open source replacements in Nextcloud, however, will sometimes need to be reconfigured. The following apps have a Nextcloud equivalent but need re-configuration:');?></p>
