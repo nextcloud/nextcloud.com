@@ -20,9 +20,9 @@
         </div>
 
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/hackathon.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
-        <h2>Conferences</h2>
-        <p>Nextcloud is participating in trade shows and conferences to present our community and technology to visitors.
-            Below is a list of upcoming tradeshows and conferences where Nextcloud is being represented! If you have business questions and would like to meet Nextcloud GmBH at an event, check out this list and <a href="https://help.nextcloud.com/c/conference">let us know on the forums</a> you will be there.
+        <h2>Conferences 2017</h2>
+        <p>Nextcloud is participating in trade shows and conferences to present our community and technology to visitors.<br/>
+            Below is a list of tradeshows and conferences where Nextcloud is represented! If you have questions and would like to meet us at an event, check out this list and <a href="https://help.nextcloud.com/c/conference">let us know on the forums</a> you will be there.
         <table class="table table-striped">
             <tr>
                 <th>Event</th>
@@ -60,13 +60,18 @@
                 <td>May 8-11</td>
             </tr>
             <tr>
+                <td><a target="_blank" href="https://oscal.openlabs.cc/">OSCAL'17</a></td>
+                <td>Tirana, Albania</td>
+                <td>May 13-14</td>
+            </tr>
+            <tr>
                 <td><a target="_blank" href="https://conf.nextcloud.com/">Nextcloud Conference 2017</a></td>
                 <td>Berlin, Germany</td>
                 <td>August 22-29</td>
             </tr>
         </table>
         <p>Is there a conference, trade show or other event close by and you want Nextcloud to be there? Please <a href="https://help.nextcloud.com/c/conference">get in touch</a> and let us know, we will do our best to help making it happen!</p>
-        <p>Are you presenting about Nextcloud or running a booth at an upcoming event that should be listed here? <a href="http://nextcloud.com/contact">Let us know via the contact form</a> or <a href="https://help.nextcloud.com/c/conference">on the forums</a>!</p>
+        <p>Are you presenting about Nextcloud or running a booth at an upcoming event that should be listed here? Let us know  <a href="https://help.nextcloud.com/c/conference">on the forums</a>!</p>
  </div>
 
 
