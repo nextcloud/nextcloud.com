@@ -21,7 +21,7 @@
                 <a href="#security"><?php echo $l->t('security');?></a>
                 <a href="#lifecycle"><?php echo $l->t('lifecycle');?></a>
                 <a href="#capabilities"><?php echo $l->t('capabilities');?></a>-->
-                <a class="btn btn-primary" href="/community"><?php echo $l->t('community');?></a>
+                <a class="btn btn-primary" href="/contributors"><?php echo $l->t('community');?></a>
                 <a class="btn btn-primary" href="/about"><?php echo $l->t('About us');?></a>
                 <a class="btn btn-primary" href="/team"><?php echo $l->t('Team');?></a>
             </div>
