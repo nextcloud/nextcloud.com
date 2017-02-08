@@ -23,7 +23,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 	$oldPages = [
 		'404',
 		'5years',
-		'about',
+// 		'about',
 		'advisories',
 		'advisory',
 		'agreement',
