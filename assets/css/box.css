@@ -34,21 +34,34 @@
   .section-data-home .btn-primary {
     margin-top: 40px; }
 
-.section-tecnology {
+.section-technology {
   padding-top: 100px;
   padding-bottom: 200px;
   height: 100%;
   width: 100%;
   background-color: white; }
-  .section-tecnology .container {
+  .section-technology .container {
     border-top: 1px solid #E8E8E8; }
-    .section-tecnology .container .box-open {
+    .section-technology .container .box-open {
       background: url("../img/box/box-open.png") no-repeat;
       width: 651px;
       height: 476px;
       margin-top: 120px; }
-    .section-tecnology .container .wrapper-text {
+    .section-technology .container .wrapper-text {
       margin-top: 120px; }
+
+.section-video {
+  padding-top: 100px;
+  /* 	padding-bottom: 100px; */
+  height: 100%;
+  width: 100%;
+  background-color: white; }
+  .section-video .container {
+    border-top: 1px solid #E8E8E8; }
+    .section-video .container .wrapper-text {
+      margin-top: 120px;
+      margin-bottom: 50px;
+      text-align: center; }
 
 .section-getbox {
   height: 440px;
