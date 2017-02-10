@@ -1,10 +1,12 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/order.css" rel="stylesheet">
 	<script src='https://www.google.com/recaptcha/api.js'></script>
-<!-- 	<script src='<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.min.js'></script> -->
+<!-- 	I need this for the last script on the page to work, require.js seems to not make jquery available in the page js :( -->
+	<script src='<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.min.js'></script>
+
 	<script>
 	require(["require.config"], function() {
-		require(["modules/submenu"/*, "pages/order"*/])
+		require(["modules/submenu", "pages/order" ])
 	});
 	</script>
 </head>
@@ -185,8 +187,8 @@
 					usersPrice = 9500;
 				}
 			}
-			// apply edu/gov discount
-			usersPrice = eduDiscount(usersPrice,0.80);
+			// apply multi-year discount and edu/gov discount
+			usersPrice = multiYearDiscount(eduDiscount(usersPrice,0.80));
 			
 		    //finally we return usersPrice
 		    return usersPrice;
@@ -282,23 +284,7 @@
 			var inDollars = theForm.elements["dollars"];
 // 			var edugovDiscount = theForm.elements["edugov"];
 		    //Each function returns a number so by calling them we add the values they return together
-		    var finalPrice = multiYearDiscount(getUsersPrice()) + getOptionsPrice();
-			
-			//If the edu/gov/charity is checked, reduce price by 20%
-// 			if(edugovDiscount.checked==true)
-// 			{
-// 				var finalPrice = finalPrice * 0.80;
-// 			}
-
-			//If contract length is 2 or 3 years, multiply with discount
-// 			if(contractLength.value==2)
-// 			{
-// 				var finalPrice = finalPrice * 1.80;
-// 			}
-// 			if(contractLength.value==3)
-// 			{
-// 				var finalPrice = finalPrice * 2.55;
-// 			}
+		    var finalPrice = getUsersPrice() + getOptionsPrice();
 
 			//display the result (dollars or euro's)
 			if(inDollars.checked==false)
@@ -406,21 +392,21 @@
 			{
 				submitButton.disabled = "";
 			}
-			
 		}
 		// this function is called whenever the user changes any of the form values to re-calculate the price and disable or enable options.
 		function doCalculation() {
 			checkSubscription();
 			getTotal();
 		}
+		// 		this function listens to the submit event and adds the price to it before sending it out
 </script>
 <script>
-		// this function listens to the submit event and adds the price to it before sending it out
-// 		$('#orderform').submit(function(eventObj) { //listen to submit event
-// 			var theForm = document.forms["orderform"];
-// 			var inDollars = theForm.elements["dollars"];
-// 			var includePrice = getTotal();
-// 		    $(this).append('<input type="hidden" name="givenPrice" value="' + includePrice + '">');
-// 		    return true;
-// 		});
+		$('#orderform').submit(function(eventObj) { //listen to submit event
+			var theForm = document.forms["orderform"];
+			var inDollars = theForm.elements["dollars"];
+			var includePrice = getTotal();
+		    $(this).append('<input type="hidden" name="givenPrice" value="' + includePrice + '">');
+		    return true;
+		});
 </script>
+

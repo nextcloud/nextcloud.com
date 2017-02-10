@@ -1,6 +1,6 @@
-define(["jquery", "underscore", "enquire", "velocity", "velocityUI" ], 
-    function ($, _, enquire, velocity, velocityUI) {
+define(["jquery", "bootstrap"], 
+    function ($, bootstrap ) {
 	$(document).ready(function() {
-	function doCalculation();
+		doCalculation();
 	});
 });
