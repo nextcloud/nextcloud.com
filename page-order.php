@@ -4,7 +4,7 @@
 <!-- 	<script src='<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.min.js'></script> -->
 	<script>
 	require(["require.config"], function() {
-		require(["modules/submenu", "pages/order"])
+		require(["modules/submenu"/*, "pages/order"*/])
 	});
 	</script>
 </head>
@@ -32,68 +32,96 @@
 	<h2><?php echo $l->t('Nextcloud helps you be successful');?></h2>
 	<p><?php echo $l->t('You run your own Nextcloud server, keeping your data in-house and under control. A support subscription from Nextcloud makes sure it works.');?></p>
 	<?php echo $l->t('You will be able to contact our support team for a speedy answer to questions and fixes for problems you encounter; you can use our <a class="hyperlink" href="https://nextcloud.com/migration">migration support</a> or add additional capabilities with our <a class="hyperlink" href="/outlook">Outlook add-in</a> or <a class="hyperlink" href="/collabora">Online Office</a>. Learn about <a class="hyperlink" href="/enterprise">what our Enterprise Subscription offers here</a> and see answers in our <a class="hyperlink" href="pricing/#FAQ">Frequently Asked Questions</a>');?></p>
-	<p><?php echo $l->t('Using this form, you can order a Basic or Standard Support Subscription for up to 250 users. If you need more users, other options or an Enterprise Support Subscription, <a class="hyperlink" href="/enterprise/buy">please contact sales for a quote.</a>');?></p>
+	<p><?php echo $l->t('Using this form, you can order a Basic or Standard Support Subscription for up to 250 users. If you need more users, other options or an Premium Support Subscription, <a class="hyperlink" href="/enterprise/buy">please contact sales for a quote.</a>');?></p>
 	<div class="contact">
 		<h3><?php echo $l->t('Fill in the form below to receive a contract and invoice from us and get started!');?></h3>
 		<form id="orderform" name="orderform" method="post" action="../ordersubmit/?staging=true">
-				<p><?php echo $l->t('<label for="yourname">Contact person<br>
-				<input  type="text" name="yourname" maxlength="60" size="60"></label>');?></p>
-				<p><?php echo $l->t('<label for="email">Email<br>
-				<input  type="text" name="email" maxlength="80" size="60"></label>');?></p>
-				<p><?php echo $l->t('<label for="organization">Organization<br>
-				<input  type="text" name="organization" maxlength="100" size="60" placeholder="Name of your organization"></label>');?></p>
-				<p><?php echo $l->t('<label for="address">Address<br />
-				<textarea  name="address" maxlength="1000" cols="80" rows="8" placeholder="Full address."></textarea></label>');?></p>
-				<p><?php echo $l->t('<label for="address">Billing address<br />
-				<textarea  name="billing" maxlength="1000" cols="80" rows="8" placeholder="If different from above, the billing address."></textarea></label>');?></p>
-				<p><?php echo $l->t('<label for="phone">Phone number<br>
-				<input  type="text" name="phone" maxlength="40" size="60" placeholder="Please include country code"></label>');?></p>
-				<p><?php echo $l->t('<label for="vat">VAT ID (Europe only)<br>
-				<input  type="text" name="vat" maxlength="60" size="60" placeholder="Your VAT ID"></label>');?></p>
-				<p><label for="users"><?php echo $l->t('Number of seats');?><br>
-				<select name="users" onChange="doCalculation()">
+			<p><?php echo $l->t('<label for="yourname">Contact person<br>
+			<input  type="text" name="yourname" maxlength="60" size="60"></label>');?></p>
+			<p><?php echo $l->t('<label for="email">Email<br>
+			<input  type="text" name="email" maxlength="80" size="60"></label>');?></p>
+			<p><?php echo $l->t('<label for="organization">Organization<br>
+			<input  type="text" name="organization" maxlength="100" size="60" placeholder="Name of your organization"></label>');?></p>
+			<p><?php echo $l->t('<label for="address">Address<br />
+			<textarea  name="address" maxlength="1000" cols="80" rows="8" placeholder="Full address."></textarea></label>');?></p>
+			<p><?php echo $l->t('<label for="address">Billing address<br />
+			<textarea  name="billing" maxlength="1000" cols="80" rows="8" placeholder="If different from above, the billing address."></textarea></label>');?></p>
+			<p><?php echo $l->t('<label for="phone">Phone number<br>
+			<input  type="text" name="phone" maxlength="40" size="60" placeholder="Please include country code"></label>');?></p>
+			<p><?php echo $l->t('<label for="vat">VAT ID (Europe only)<br>
+			<input  type="text" name="vat" maxlength="60" size="60" placeholder="Your VAT ID"></label>');?></p>
+			<p><label for="users"><?php echo $l->t('Number of seats');?><br>
+			<select name="users" onChange="setUsers()">
+				<option value="50">50</option>
+				<option value="75">75</option>
+				<option value="100">100</option>
+				<option value="150">150</option>
+				<option value="200">200</option>
+				<option value="250">250</option>
+			</select></label></p>
+			<p><label for="edition"><?php echo $l->t('Which support level would you like? (<a href="/pricing" target="_blank">details on pricing</a>)');?><br>
+			<select id="edition" name="edition" onChange="doCalculation()">
+				<option value="basic">Basic</option>
+				<option value="standard">Standard</option>
+				<option value="premium">Premium</option>
+			</select></label>
+			<div class="getenterprisequote" id="getenterprisequote" style="display:none;"><p><a class="hyperlink" href="/buy">Ask a quote from our sales team for the premium subscription.</a></p></div>
+			</p>
+			<p><label for="duration"><?php echo $l->t('Length of contract');?><br>
+			<select name="duration" onChange="doCalculation()">
+				<option value="1">One year</option>
+				<option value="2">2nd year (10% discount)</option>
+				<option value="3">3rd year (15% discount)</option>
+			</select></label><br>
+			<input type="checkbox" name="edugov" value="edugov" onChange="doCalculation()"> <?php echo $l->t(' We are education/government/charity (discount applies)');?></p>
+			<p><h3><?php echo $l->t('Optional features (only with a Standard or <a class="hyperlink" href="/pricing">Premium Subscription</a>)');?></h3></p>
+			
+			<input disabled id="collaboraCheck" type="checkbox" name="collaboraCheck" value="collaboraCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include <a class="hyperlink" href="/collabora" target="_blank">Collabora Online</a> (€ 16/user)');?></span><br/>
+			<!-- Only show below when input above is enabled -->
+			<div class="collaboraUserNumberChoiceDiv" id="collaboraUserNumberChoiceDiv" style="display:none;">
+				<p><?php echo $l->t('Select how many users need access to Collabora: ');?><br>
+				<select disabled name="collabora" onChange="doCalculation()">
+					<option value="0">0</option>
+					<option value="25">25</option>
 					<option value="50">50</option>
 					<option value="75">75</option>
 					<option value="100">100</option>
 					<option value="150">150</option>
 					<option value="200">200</option>
 					<option value="250">250</option>
-				</select></label></p>
-				<p><label for="edition"><?php echo $l->t('Which support level would you like? (<a href="/pricing" target="_blank">details on pricing</a>)');?><br>
-				<select id="edition" name="edition" onChange="doCalculation()">
-					<option value="basic">Basic</option>
-					<option value="standard">Standard</option>
-					<option value="enterprise">Premium</option>
-				</select></label>
-				<div class="getenterprisequote" id="getenterprisequote" style="display:none;"><p><a class="hyperlink" href="/buy">Ask a quote from our sales team for the enterprise subscription.</a></p></div>
-				</p>
-				<p><label for="duration"><?php echo $l->t('Length of contract');?><br>
-				<select name="duration" onChange="doCalculation()">
-					<option value="1">One year</option>
-					<option value="2">2nd year (10% discount)</option>
-					<option value="3">3rd year (15% discount)</option>
-				</select></label><br>
-				<input type="checkbox" name="edugov" value="edugov" onChange="doCalculation()"> <?php echo $l->t(' We are education/government/charity (discount applies)');?></p>
-				<p><h3><?php echo $l->t('Optional features (only with a Standard or <a class="hyperlink" href="/pricing">Enterprise Subscription</a>)');?></h3>
-				<input disabled id="collabora" type="checkbox" name="collabora" value="collabora" onChange="doCalculation()"> <?php echo $l->t(' Include <a class="hyperlink" href="/collabora" target="_blank">Collabora Online</a> (€ 16/user)');?><br/>
-				<!--<input disabled type="checkbox" name="spreed" value="spreed" onChange="doCalculation()"> <?php echo $l->t(' Include <a class="hyperlink" href="/webrtc" target="_blank">Spreed audio/video chat</a> (Eur 5/user)');?><br/>-->
-				<input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <?php echo $l->t(' Include <a class="hyperlink" href="/outlook" target="_blank">our Outlook add-in</a> (€ 5/user)');?><br/>
-				<input disabled type="checkbox" name="remoteinstall" value="remoteinstall" onChange="doCalculation()"> <?php echo $l->t(' Include a one-day remote installation/integration support video call (€ 990)');?><br/>
-				<!--<input disabled type="checkbox" name="branding" value="branding" onChange="doCalculation()"> <?php echo $l->t(' Include branded clients (Eur 6000)');?><br/>-->
-				</p>
-				<h2 class="price"><?php echo $l->t('Price: ');?><span id="totalprice"></span><br></h2>
-				<p><input type="checkbox" name="dollars" value="dollars" onChange="doCalculation()"> <?php echo $l->t(' in dollars');?></p>
-				<p><?php echo $l->t('<label for="comments">Notes<br />
-				<textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Questions, comments? Interested in Spreed, Branding etcetera..."></textarea></label>');?></p>
-				<p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a class="hyperlink" href=""<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?></a></p>
-				<td colspan="2" style="text-align:center">
+				</select>
+				</p><p class="collaboraNote"><small><strong><?php echo $l->t('Please note:');?></strong></br>
+				<span id="minUsers"><?php echo $l->t('You need at least 25% Collabora seats');?></span><br>
+				<span id="maxUsers"><?php echo $l->t('You can not have more Collabora seats than Nextcloud seats');?></span>
+				</small></p>
+			</div>
+			<!--<input disabled type="checkbox" name="spreed" value="spreed" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include <a class="hyperlink" href="/webrtc" target="_blank">Spreed audio/video chat</a> (Eur 5/user)');?></span><br/>-->
+			<input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include <a class="hyperlink" href="/outlook" target="_blank">our Outlook add-in</a> (€ 5/user)');?></span><br/>
+			<input disabled type="checkbox" name="remoteinstall" value="remoteinstall" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include a one-day remote installation/integration support video call (€ 990)');?></span><br/>
+			<!--<input disabled type="checkbox" name="branding" value="branding" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include branded clients (Eur 6000)');?></span><br/>-->
+			</p>
+			<h2 class="price"><?php echo $l->t('Price: ');?><span id="totalprice"></span><br></h2>
+			<p><input type="checkbox" name="dollars" value="dollars" onChange="doCalculation()"> <?php echo $l->t(' in dollars');?></p>
+			<p><?php echo $l->t('<label for="comments">Notes<br />
+			<textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Questions, comments? Interested in Spreed, Branding etcetera..."></textarea></label>');?></p>
+			<p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a class="hyperlink" href=""<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?></a></p>
+			<td colspan="2" style="text-align:center">
 <!-- 				<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div> -->
-				<input type="submit" name="submit" value=" Order Now " disabled="disabled">
+			<input type="submit" name="submit" value=" Order Now " disabled="disabled">
 		</form>
 	</div>
 </div>
 
 <script>
+		// if we need to do something when the user number is changed...
+		function setUsers() {
+			var theForm = document.forms["orderform"];
+// 			var includeCollaboraUsers = theForm.elements["collabora"];
+// 			var usersNumber = theForm.elements["users"];
+// 			var chosenEdition = theForm.elements["edition"];
+			doCalculation();
+		}
+		
 		function getUsersPrice() {
 		    var usersPrice=0;
 		    //Get a reference to the form id="orderform"
@@ -157,40 +185,58 @@
 					usersPrice = 9500;
 				}
 			}
+			// apply edu/gov discount
+			usersPrice = eduDiscount(usersPrice,0.80);
 			
-			if(edugovDiscount.checked==true)
-			{
-				var usersPrice = usersPrice * 0.80;
-			}
 		    //finally we return usersPrice
 		    return usersPrice;
 		}
 
-		function multiYearDiscount(priceDiscount){
-		    //Get a reference to the form id="orderform", to education discount and duration
-		    var theForm = document.forms["orderform"];
+
+		// function to optionally apply educational discount. As the percentage varies, it has to be given to the formula.
+		function eduDiscount(amount,percentage)
+		{
+			//Get a reference to the form id="orderform", to education discount and duration
+			var theForm = document.forms["orderform"];
 		    var edugovDiscount = theForm.elements["edugov"];
+		    if(edugovDiscount.checked==true)
+			{
+				amount = amount * percentage;
+			}
+			return amount;
+		}
+		
+		// function to apply multi-year discount. if nodiscount=1 or true, don't discount.
+		function multiYearDiscount(price,noDiscount=0)
+		{
+			//Get a reference to the form id="orderform", to education discount and duration
+			var theForm = document.forms["orderform"];
 			var contractLength = theForm.elements["duration"];
 			
+			if(noDiscount==1) 
+			{
+				return price = price * contractLength.value;
+			}
 			if(contractLength.value==2)
 			{
-				priceDiscount *= 1.80;
+				return price *= 1.90;
 			}
-			if(contractLength.value==3)
+			else if(contractLength.value==3)
 			{
-				priceDiscount *= 2.55;
+				return price *= 2.75;
 			}
-			
-			return priceDiscount;
+			else return price;
 		}
 		
 		function getOptionsPrice() {
 		    var optionsPrice=0;
 			var collaboraPrice = 0;
+			var outlookPrice = 0;
 		    //Get a reference to the form id="orderform"
 		    var theForm = document.forms["orderform"];
 		    //Get a reference to the select id="users" and the other elements needed
-		    var includeCollabora = theForm.elements["collabora"];
+		    var includeCollaboraUsers = theForm.elements["collabora"];
+		    var includeCollaboraCheck = theForm.elements["collaboraCheck"];
 			var includeOutlook = theForm.elements["outlook"];
 			var includeRemoteinstall = theForm.elements["remoteinstall"];
 			// var includeBranding = theForm.elements["branding"];
@@ -198,24 +244,25 @@
 			var selectedUsersNumber = theForm.elements["users"];
 			var chosenEdition = theForm.elements["edition"];
 		    var edugovDiscount = theForm.elements["edugov"];
-			//check if they are checked and if so, add the monies
+
+		    //check if they are checked and if so, add the monies
+		    
+			// collabora, Outlook and remote install only with Standard
 			if(chosenEdition.value!=="basic") 
 			{
-				if(includeCollabora.checked==true)
-				{
-					collaboraPrice = selectedUsersNumber.value * 16;
-					
-					if(edugovDiscount.checked==true)
-					{
-						collaboraPrice = collaboraPrice * 0.80;
-					}
-					//If contract length is 2 or 3 years, multiply with discount
-
-					optionsPrice = optionsPrice + multiYearDiscount(collaboraPrice);
-				}
 				if(includeOutlook.checked==true)
 				{
-					optionsPrice = optionsPrice + multiYearDiscount(selectedUsersNumber.value * 5);
+					outlookPrice = multiYearDiscount(selectedUsersNumber.value * 5);
+					// apply edu/gov discount
+					outlookPrice = eduDiscount(outlookPrice,.80);
+					optionsPrice = optionsPrice + outlookPrice;
+				}
+				if(includeCollaboraCheck.checked==true)
+				{
+					collaboraPrice = multiYearDiscount(includeCollaboraUsers.value * 16);
+					// apply edu/gov discount
+					collaboraPrice = eduDiscount(collaboraPrice,0.25);
+					optionsPrice = optionsPrice + collaboraPrice;
 				}
 				if(includeRemoteinstall.checked==true)
 				{
@@ -269,7 +316,8 @@
 		function checkSubscription() {
 			//disable optional features when basic subscription is chosen; enable submit button when terms are accepted
 			var theForm = document.forms["orderform"];
-			var includeCollabora = theForm.elements["collabora"];
+			var includeCollaboraUsers = theForm.elements["collabora"];
+			var includeCollaboraCheck = theForm.elements["collaboraCheck"];
 			var includeOutlook = theForm.elements["outlook"];
 			// var includeBranding = theForm.elements["branding"];
 			// var includeSpreed = theForm.elements["spreed"];
@@ -278,35 +326,87 @@
 			var agreedToTerms = theForm.elements["terms"];    
 			var submitButton = theForm.elements["submit"];
 			var edugovDiscount = theForm.elements["edugov"];
+			var selectedUsersNumber = theForm.elements["users"];
+			document.getElementById("collaboraUserNumberChoiceDiv").style.display = "none";
 			document.getElementById("getenterprisequote").style.display = "none";
 			// disable them by default as they are blocked by the default basic subscription
 			includeRemoteinstall.disabled = false;
-			includeCollabora.disabled = false;
+			includeCollaboraUsers.disabled = false;
+			includeCollaboraCheck.disabled = false;
 			includeOutlook.disabled = false;
 			// includeSpreed.disabled = false;
 			// includeBranding.disabled = false;
 			submitButton.disabled = true;
+			var numberOfCollaboraUsers = includeCollaboraUsers.value;
+			var numberOfSelectedUsers = selectedUsersNumber.value;
+			document.getElementById("minUsers").style.fontWeight = "normal";
+			document.getElementById("maxUsers").style.fontWeight = "normal";
+			
+			if(includeCollaboraCheck.checked==false)
+			{
+				includeCollaboraUsers.value = 0;
+			}
+			
+			if(includeCollaboraCheck.checked==true)
+			{
+				document.getElementById("collaboraUserNumberChoiceDiv").style.display = "block";
+				
+				if(parseInt(numberOfCollaboraUsers) < 20) {
+// 					includeCollaboraUsers.value = numberOfSelectedUsers;
+					numberOfCollaboraUsers = numberOfSelectedUsers;
+				}
+				
+				if(((parseInt(numberOfCollaboraUsers) * 4) + 1) < parseInt(numberOfSelectedUsers))
+				{
+					numberOfCollaboraUsers  = numberOfSelectedUsers / 4;
+					document.getElementById("minUsers").style.fontWeight = "bold";
+					// handle the weird numbers
+					if (parseInt(numberOfCollaboraUsers) < 50)
+					{
+						numberOfCollaboraUsers = 50;
+					}
+					if (numberOfCollaboraUsers == "62.5")
+					{
+						numberOfCollaboraUsers = 75;
+					}
+				}
+				
+				if(parseInt(numberOfCollaboraUsers) > parseInt(numberOfSelectedUsers))
+				{
+					document.getElementById("maxUsers").style.fontWeight = "bold";
+					numberOfCollaboraUsers = numberOfSelectedUsers;
+
+				}
+				
+				includeCollaboraUsers.value = numberOfCollaboraUsers;
+			}
+			
 			
 			if(chosenEdition.value=="basic")
 			{
 				includeRemoteinstall.disabled = true;
-				includeCollabora.disabled = true;
+				includeCollaboraUsers.disabled = true;
+				includeCollaboraCheck.disabled = true;
 				includeOutlook.disabled = true;
 				// includeSpreed.disabled = true;
 				// includeBranding.disabled = true;
 			}
-			// you can't pick enterprise so we set it back to standard and show the info about asking sales for a quote.
-			if(chosenEdition.value=="enterprise")
+			
+			// you can't pick premium so we set it back to standard and show the info about asking sales for a quote.
+			if(chosenEdition.value=="premium")
 			{
 				document.getElementById("getenterprisequote").style.display = "block";
 				chosenEdition.value="standard";
+				alert("Sorry, you can't order the Premium Subscription through this form. Please ask our sales team for a quote.");
 				// figure out how to zero the price
 			}
+			
 			// only when the terms are agreed to can you submit the form
 			if(agreedToTerms.checked==true)
 			{
 				submitButton.disabled = "";
 			}
+			
 		}
 		// this function is called whenever the user changes any of the form values to re-calculate the price and disable or enable options.
 		function doCalculation() {
@@ -316,11 +416,11 @@
 </script>
 <script>
 		// this function listens to the submit event and adds the price to it before sending it out
-		$('#orderform').submit(function(eventObj) { //listen to submit event
-			var theForm = document.forms["orderform"];
-			var inDollars = theForm.elements["dollars"];
-			var includePrice = getTotal();
-		    $(this).append('<input type="hidden" name="givenPrice" value="' + includePrice + '">');
-		    return true;
-		});
+// 		$('#orderform').submit(function(eventObj) { //listen to submit event
+// 			var theForm = document.forms["orderform"];
+// 			var inDollars = theForm.elements["dollars"];
+// 			var includePrice = getTotal();
+// 		    $(this).append('<input type="hidden" name="givenPrice" value="' + includePrice + '">');
+// 		    return true;
+// 		});
 </script>
