@@ -273,6 +273,19 @@
 	</div>
 	<div class="col-md-4">
 		<div class="teamp">
+			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mario.jpg" />
+			<h2 class="teamname">Mario</h2>
+			<div class="teammeta">
+				<h3 class="teamtitle">Ad Engineer</h3>
+				<h4 class="teamexpertise">Android app</h4>
+				<h4 class="teamlocation">lives in far-far-away, Croatia</h4>
+				<p class="teamsocial"><a href="https://mario.nl"><i class="icon-rss icon"></i></a> <a href="https://github.com/mario"><i class="icon-github icon"></i></a> <a href="https://twitter.com/mario"><i class="icon-twitter icon"></i></a></p>
+			</div>
+			<p class="teamdescription">Mario is awesome..</p>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="teamp">
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/morris.jpg" />
 			<h2 class="teamname">Morris Jobke</h2>
 			<div class="teammeta">
