@@ -68,7 +68,7 @@
 	<p class="section--paragraph"><?php echo $l->t('Nextcloud is licensed exclusively under the AGPL or less restrictive open source licenses, removing any risk of mixing incompatible licenses or other legal issues. If you have not made any changes to the code of ownCloud Server and did not develop custom ownCloud applications, you will not need to do anything to be in compliance with the open source licenses of Nextcloud. Note that theme changes or branding are unaffected by AGPL licensing. Find more information in our FAQ. Our sales team will be happy to <a class="hyperlink" href="');?><?php echo home_url('contact') ?>"><?php echo $l->t('answer any questions you have.</a>');?></p>
 
 	<h2 class="section--paragraph__tittle"><?php echo $l->t('Take over of support contract');?></h2>
-	<p class="section--paragraph"><?php echo $l->t('Nextcloud will honor any valid contract with ownCloud which has started before the 2nd of June for free if a new agreement is signed for a period of at least 12 months.');?></p>
+	<p class="section--paragraph"><?php echo $l->t('Nextcloud will honor any valid contract with ownCloud which has started before the 2nd of June 2016 for free if a new agreement is signed for a period of at least 12 months.');?></p>
 
 	<p class="section--paragraph"><?php echo $l->t('<small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small>');?></p>
 </div>
