@@ -68,6 +68,11 @@
 						<td>March 2-5</td>
 					</tr>
 					<tr>
+						<td><a  class="hyperlink" target="_blank" href="https://chemnitzer.linux-tage.de/2017/en">Chemnitzer Linux Tage</a></td>
+						<td>Chemnitz, Germany</td>
+						<td>March 11-12</td>
+					</tr>
+					<tr>
 						<td><a  class="hyperlink" target="_blank" href="https://fossasia.org/">FOSSASIA Summit</a></td>
 						<td>Singapore</td>
 						<td>March 17-19</td>
