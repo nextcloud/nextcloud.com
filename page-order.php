@@ -64,13 +64,13 @@
 				<option value="200">200</option>
 				<option value="250">250</option>
 			</select></label></p>
-			<p><label for="edition"><?php echo $l->t('Which support level would you like? <a class="hyperlink" href="/pricing" target="_blank">details on pricing <i class="fa fa-external-link" aria-hidden="true"></i></a>');?><br>
+			<p><label for="edition"><?php echo $l->t('Which Nextcloud Support Subscription are you interested in? <a class="hyperlink" href="/pricing" target="_blank">details on pricing <i class="fa fa-external-link" aria-hidden="true"></i></a>');?><br>
 			<select id="edition" name="edition" onChange="doCalculation()">
 				<option default value="basic">Basic</option>
 				<option value="standard">Standard</option>
 <!-- 				<option value="premium">Premium</option> -->
 			</select></label>
-			<div class="getenterprisequote" id="getenterprisequote" style="display:none;"><p><a class="hyperlink" href="/buy">Ask a quote from our sales team for the premium subscription.</a></p></div>
+			<div class="getenterprisequote" id="getenterprisequote" style="display:none;"><p><a class="hyperlink" href="/buy"><?php echo $l->t('Ask a quote from our sales team for the premium subscription.');?></a></p></div>
 			</p>
 			<p><label for="duration"><?php echo $l->t('Length of contract');?><br>
 			<select name="duration" onChange="doCalculation()">
