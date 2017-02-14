@@ -19,6 +19,7 @@ process easy and effective for everyone involved.
   * Select Import
 5. Copy over `config.php.sample` to `config.php` and adjust settings as necessary (defaults will work just fine for local environments)
 6. In `Settings > Reading` assign a static front page of 'homepage'
+7. In `Settings > Permalink` assign the `Post name` setting
 
 ## Development Process
 
