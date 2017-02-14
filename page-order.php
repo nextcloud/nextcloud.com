@@ -72,7 +72,7 @@
 				<option value="standard">Standard</option>
 <!-- 				<option value="premium">Premium</option> -->
 			</select></label>
-			<div class="getenterprisequote" id="getenterprisequote" style="display:none;"><p><a class="hyperlink" href="/buy"><?php echo $l->t('Ask a quote from our sales team for the premium subscription.');?></a></p></div>
+			<!--<div class="getenterprisequote" id="getenterprisequote" style="display:none;">--><p><a class="hyperlink" href="/buy"><?php echo $l->t('Ask a quote from our sales team for the premium subscription.');?></a></p><!--</div>-->
 			</p>
 			<p><label for="duration"><?php echo $l->t('Length of contract (paid in advance)');?><br>
 			<select name="duration" onChange="doCalculation()">
