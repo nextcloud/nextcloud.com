@@ -45,6 +45,8 @@
 			<input  type="text" name="email" maxlength="80" size="60"></label>');?></p>
 			<p><?php echo $l->t('<label for="organization">Organization<br>
 			<input  type="text" name="organization" maxlength="100" size="60" placeholder="Name of your organization"></label>');?></p>
+			<p><?php echo $l->t('<label for="website">Website<br>
+			<input  type="text" name="website" maxlength="100" size="60" placeholder="Website of your organization"></label>');?></p>
 			<p><?php echo $l->t('<label for="phone">Phone number<br>
 			<input  type="text" name="phone" maxlength="40" size="60" placeholder="Please include country code"></label>');?></p>
 			<p><?php echo $l->t('<label for="address">Address<br />
