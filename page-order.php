@@ -369,7 +369,7 @@
 			var submitButton = theForm.elements["submit"];
 			var selectedUsersNumber = theForm.elements["users"];
 			document.getElementById("collaboraUserNumberChoiceDiv").style.display = "none";
-			document.getElementById("getenterprisequote").style.display = "none";
+// 			document.getElementById("getenterprisequote").style.display = "none";
 			// disable them by default as they are blocked by the default basic subscription
 			includeRemoteinstall.disabled = false;
 			includeCollaboraUsers.disabled = false;
@@ -434,13 +434,13 @@
 			}
 			
 			// you can't pick premium so we set it back to standard and show the info about asking sales for a quote.
-			if(chosenEdition.value=="premium")
-			{
-				document.getElementById("getenterprisequote").style.display = "block";
-				chosenEdition.value="standard";
-				alert("Sorry, you can't order the Premium Subscription through this form. Please ask our sales team for a quote.");
+// 			if(chosenEdition.value=="premium")
+// 			{
+// 				document.getElementById("getenterprisequote").style.display = "block";
+// 				chosenEdition.value="standard";
+// 				alert("Sorry, you can't order the Premium Subscription through this form. Please ask our sales team for a quote.");
 				// figure out how to zero the price
-			}
+// 			}
 			
 			// only when the terms are agreed to can you submit the form
 			if(agreedToTerms.checked==true)
