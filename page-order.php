@@ -72,18 +72,18 @@
 			</select></label>
 			<div class="getenterprisequote" id="getenterprisequote" style="display:none;"><p><a class="hyperlink" href="/buy"><?php echo $l->t('Ask a quote from our sales team for the premium subscription.');?></a></p></div>
 			</p>
-			<p><label for="duration"><?php echo $l->t('Length of contract');?><br>
+			<p><label for="duration"><?php echo $l->t('Length of contract (paid in advance)');?><br>
 			<select name="duration" onChange="doCalculation()">
 				<option default value="1">One year</option>
-				<option value="2">2nd year (10% discount)</option>
-				<option value="3">3rd year (15% discount)</option>
+				<option value="2"><?php echo $l->t('2 years (2nd year 10% discount)');?></option>
+				<option value="3"><?php echo $l->t('3 years (3rd year 15% discount)');?></option>
 			</select></label><br>
 			<p><label for="edugov"><?php echo $l->t('Are you an education/government/charitable organization (discounts may apply)?');?><br>
 			<select name="edugov" onChange="doCalculation()">
-				<option default value="no">none</option>
-				<option value="edu">Education</option>
-				<option value="gov">Government</option>
-				<option value="charity">Charitable</option>
+				<option default value="no"><?php echo $l->t('none');?></option>
+				<option value="edu"><?php echo $l->t('Education');?></option>
+				<option value="gov"><?php echo $l->t('Government');?></option>
+				<option value="charity"><?php echo $l->t('Charitable');?></option>
 			</select></label>
 			<p><h3><?php echo $l->t('Optional features:');?></h3></p>
 			<input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include <a class="hyperlink" href="/outlook" target="_blank">our Outlook add-in <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 5/user)');?></span><br/>
