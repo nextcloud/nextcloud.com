@@ -20,8 +20,9 @@
 	</div>
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
-			<a class="btn btn-primary" href="/pricing">pricing plans</a>
-			<a class="btn btn-primary" href="/enterprise">enterprise offering</a>
+			<a class="btn btn-primary" href="/enterprise/order"><?php echo $l->t('Order online');?></a>
+			<a class="btn btn-primary" href="/pricing"><?php echo $l->t('pricing plans');?></a>
+			<a class="btn btn-primary" href="/enterprise"><?php echo $l->t('enterprise offering');?></a>
 		</div>
 	</div>
 </section>

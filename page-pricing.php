@@ -23,6 +23,7 @@
 			<a href="#plans"><?php echo $l->t('plans');?></a>
 			<a href="#discounts"><?php echo $l->t('discounts');?></a>
 			<a href="#faq"><?php echo $l->t('FAQ');?></a>
+			<a class="btn btn-primary" href="/enterprise/order"><?php echo $l->t('Order online');?></a>
 			<a class="btn btn-primary" href="/buy"><?php echo $l->t('get a quote');?></a>
 			<a class="btn btn-primary" href="/enterprise"><?php echo $l->t('enterprise offering');?></a>
 		</div>
