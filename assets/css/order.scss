@@ -25,3 +25,21 @@
 .collaboraNote{
 	line-height: 1;
 }
+
+
+#orderform input,
+#orderform textarea,
+#orderform label span {
+	font-weight: normal;
+}
+#orderform input.error,
+#orderform textarea.error {
+	border: 1px solid rgb(210, 4, 6);
+}
+#orderform #form-error {
+  color: rgb(210, 4, 6);
+}
+
+#orderform input[type="submit"] {
+  padding: 8px 20px;
+}
