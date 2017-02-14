@@ -274,14 +274,14 @@
 	<div class="col-md-4">
 		<div class="teamp">
 			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mario.jpg" />
-			<h2 class="teamname">Mario</h2>
+			<h2 class="teamname">Mario Danic</h2>
 			<div class="teammeta">
 				<h3 class="teamtitle">Software Engineer</h3>
 				<h4 class="teamexpertise">Android app</h4>
 				<h4 class="teamlocation">lives in Croatia</h4>
 				<p class="teamsocial"> <a href="https://github.com/mario"><i class="icon-github icon"></i></a> <a href="https://twitter.com/mdjanic"><i class="icon-twitter icon"></i></a></p>
 			</div>
-			<p class="teamdescription">Mario is reponsible for the Nextcloud Android application development. He studied Informatics and Organization and has been leading Libburnia and Gnomebaker, popular open source projects, for over a decade.</p>
+			<p class="teamdescription">Mario is responsible for the Nextcloud Android application development. He studied Informatics and Organization and has been leading Libburnia and Gnomebaker, popular open source projects, for over a decade.</p>
 		</div>
 	</div>
 	<div class="col-md-4">
