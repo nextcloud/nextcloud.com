@@ -38,7 +38,7 @@
 	<div class="contact">
 		<h3><?php echo $l->t('Fill in the form below to receive a contract and invoice from us and get started!');?></h3>
 		<hr>
-		<form id="orderform" name="orderform" method="post" action="../ordersubmit/?staging=true">
+		<form id="orderform" name="orderform" method="post" action="../ordersubmit/">
 			<p><?php echo $l->t('<label for="yourname">Contact person<br>
 			<input  type="text" name="yourname" maxlength="60" size="60"></label>');?></p>
 			<p><?php echo $l->t('<label for="email">Email<br>
