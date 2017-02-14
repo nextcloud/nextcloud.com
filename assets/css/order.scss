@@ -1,0 +1,27 @@
+@import "variables.scss";
+@import "transparent-navbar.scss";
+
+.buy-background {
+  background-image: url("../img/enterprise/enterprise.jpg");
+  background-position: bottom 0 right 0;
+}
+
+.contact {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.contact > h3 {
+	margin-top: 90px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.contact h4 {
+	font-weight: lighter;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+.collaboraNote{
+	line-height: 1;
+}

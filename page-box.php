@@ -24,7 +24,7 @@
 	</div>
 </section>
 
-<section class="section-tecnology">
+<section class="section-technology">
 	<div class="container">
 		<div class="box-open col-md-7 revealOnScroll"></div>
 		<div class="wrapper-text col-md-5 revealOnScroll">
@@ -96,11 +96,27 @@
 	</div>
 </section>
 
+<section class="section-video">
+	<div class="container">
+		<div class="row">
+			<div class="wrapper-text col-md-5 revealOnScroll">
+				<h2 class="section--heading-1"><?php echo $l->t('Watch the announcement');?></h2>
+				<p class="section--paragraph"><?php echo $l->t('The Nextcloud Box was announced at the Nextcloud Conference 2016, September 16 in Berlin, Germany.');?><p>
+				<p class="section--paragraph"><?php echo $l->t('On stage, in order of appearance: Nextcloud founder and managing director Frank Karlitschek, Canonical CEO Jane Silber and Joseph Lee, Head of Global Operations at WDLabs, the business growth incubator of Western Digital Corporation. Find more details in <a class="hyperlink" href="https://nextcloud.com/pr20160916/">the press release of the announcement here.</a>');?><p>
+			</div>
+			<div class="wrapper-text col-md-7 revealOnScroll">
+				<iframe width="100%" height="400" src="https://www.youtube.com/embed/5-oCt3iPhNs?list=PL4eBKdNy6FCElMXt0FxUsfLHaCas2Md9u" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+</section>
+
 <section class="section-partners">
 	<div class="container">
 		<div class="col-xs-8 col-centered">
 			<h3 class="section--heading-2 text-center revealOnScroll"><?php echo $l->t('Partners');?></h3>
 			<p class="section--intro text-center revealOnScroll"><?php echo $l->t('The Nextcloud Box was developed in a partnership with WDLabs and Canonical and is one of');?> <a class="hyperlink" href="<?php echo home_url('devices') ?>"><?php echo $l->t('multiple devices</a> from Nextcloud partners. It is a reference device, meant to inspire and invite anyone to build their own. <a class="hyperlink" href="/contact">Get in contact</a> if you\'re interested in building a Nextcloud Box like device!');?></p>
+			<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Find a case study on the <a class="hyperlink" href="https://pages.ubuntu.com/Nextcloud-CS.html">development of the Nextcloud Box on the Ubuntu website</a>. Learn more about delivering Snaps on consumer devices <a class="hyperlink" href="https://insights.ubuntu.com/webinar/using-snaps-to-deliver-enterprise-and-consumer-software-with-nextcloud/">in this webinar.</a>');?></p>
 			<div class="wrapper-images">
 				<a target="_blank" href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/"><div class="logo-wd"></div></a>
 				<a target="_blank" href="https://developer.ubuntu.com/en/snappy/"><div class="logo-ubuntu"></div></a>
