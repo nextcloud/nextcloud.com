@@ -70,13 +70,14 @@
 				<option value="200">200</option>
 				<option value="250">250</option>
 			</select></label></p>
-			<p><label for="edition"><?php echo $l->t('Which Nextcloud Support Subscription are you interested in? <a class="hyperlink" href="/pricing" target="_blank">details on pricing <i class="fa fa-external-link" aria-hidden="true"></i></a>');?><br>
+			<p class="question"><label for="edition"><?php echo $l->t('Which Nextcloud Support Subscription are you interested in?');?></p>
+			<p class="details"><?php echo $l->t('Our Basic subscription offers email support with a 3 day response time,<br/> Standard offers business hours phone support with a 2 day response time.');?></p>
 			<select id="edition" name="edition" onChange="doCalculation()">
 				<option default value="basic">Basic</option>
 				<option value="standard">Standard</option>
 <!-- 				<option value="premium">Premium</option> -->
 			</select></label>
-			<!--<div class="getenterprisequote" id="getenterprisequote" style="display:none;">--><p><a class="hyperlink" href="/buy"><?php echo $l->t('Ask a quote from our sales team for the premium subscription.');?></a></p><!--</div>-->
+			<!--<div class="getenterprisequote" id="getenterprisequote" style="display:none;">--><p><a class="hyperlink" href="/pricing" target="_blank"><?php echo $l->t('See details on pricing ');?><i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('or ask');?> <a class="hyperlink" href="/buy"><?php echo $l->t('a quote from our sales team ');?><i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('for the premium subscription.');?></p><!--</div>-->
 			</p>
 			<p><label for="duration"><?php echo $l->t('Length of contract (paid in advance)');?><br>
 			<select name="duration" onChange="doCalculation()">

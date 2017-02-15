@@ -30,19 +30,25 @@
 #orderform input,
 #orderform textarea,
 #orderform label span {
-	font-weight: normal;
-}
+  font-weight: normal; }
+
 #orderform input.error,
 #orderform textarea.error {
-	border: 1px solid rgb(210, 4, 6);
-}
+  border: 1px solid #d20406; }
+
 #orderform #form-error {
-  color: rgb(210, 4, 6);
-}
+  color: #d20406; }
 
 #orderform input[type="submit"] {
-  padding: 8px 20px;
-}
+  padding: 8px 20px; }
 
+label {
+  margin-bottom: 0px; }
+
+.question {
+  margin-bottom: 0px; }
+
+.details {
+  margin-top: 0px; }
 
 /*# sourceMappingURL=order.css.map */
