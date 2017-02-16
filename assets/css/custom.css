@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -1107,6 +1108,33 @@ li {
       left: 20px;
       transition: all 0.3s ease 0s; }
 
+/* A nice looking block quote */
+blockquote {
+  background: none;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "“" "”" "‘" "’";
+  border-left: none;
+  color: #9c9c9c; }
+  blockquote:before {
+    border-left: none;
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+    font-family: serif; }
+  blockquote:after {
+    content: close-quote;
+    left: 10px;
+    color: #ccc;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-left: 0.25em;
+    vertical-align: -0.8em;
+    font-family: serif; }
+
 /* New widest container for headers */
 .container-widest {
   margin-left: auto;
@@ -1316,6 +1344,10 @@ li {
       width: 68px;
       height: 50px;
       display: inline-block; }
+
+/* Make sure you don't get scrollbars! */
+.ui-dialog .ui-dialog-content {
+  overflow: hidden !important; }
 
 .YouTubeDialog {
   width: 50% !important;
