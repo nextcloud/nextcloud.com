@@ -89,8 +89,10 @@ footer.page-footer {
 	.teamsocial {
 		margin: 15px;
 		font-size: 30px;
-		color: #777 !important;
 		height: 40px;
+		i[class*='fa-'] {
+		color: #9c9c9c !important;
+		}
 	}
 
 	.teamsocial a {

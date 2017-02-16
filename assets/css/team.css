@@ -66,8 +66,9 @@ footer.page-footer {
   .section--team .teamsocial {
     margin: 15px;
     font-size: 30px;
-    color: #777 !important;
     height: 40px; }
+    .section--team .teamsocial i[class*='fa-'] {
+      color: #9c9c9c !important; }
   .section--team .teamsocial a {
     color: #AAA;
     transition: all .2s; }

@@ -269,29 +269,17 @@
 				<p class="teamdescription">Joachim graduated computer science in Stuttgart and has been committing to various open source projects for a long time, including Google's WebRTC project and was core developer for the Red5 streaming server between 2005 and 2008.</p>
 			</div>
 		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="teamp">
-			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mario.jpg" />
-			<h2 class="teamname">Mario Danic</h2>
-			<div class="teammeta">
-				<h3 class="teamtitle">Software Engineer</h3>
-				<h4 class="teamexpertise">Android app</h4>
-				<h4 class="teamlocation">lives in Croatia</h4>
-				<p class="teamsocial"> <a href="https://github.com/mario"><i class="icon-github icon"></i></a> <a href="https://twitter.com/mdjanic"><i class="icon-twitter icon"></i></a></p>
-			</div>
-			<p class="teamdescription">Mario is responsible for the Nextcloud Android application development. He studied Informatics and Organization and has been leading Libburnia and Gnomebaker, popular open source projects, for over a decade.</p>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="teamp">
-			<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/morris.jpg" />
-			<h2 class="teamname">Morris Jobke</h2>
-			<div class="teammeta">
-				<h3 class="teamtitle">Software and Support Engineer</h3>
-				<h4 class="teamexpertise">Server and Support</h4>
-				<h4 class="teamlocation">lives in Chemnitz, Germany</h4>
-				<p class="teamsocial"><a href="http://morrisjobke.de/"><i class="icon-rss icon"></i></a> <a href="https://github.com/MorrisJobke"><i class="icon-github icon"></i></a> <a href="https://twitter.com/MorrisJbk"><i class="icon-twitter icon"></i></a> </p>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/joas.jpg" />
+				<h2 class="teamname">Joas Schilling</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Activity, Workflow and Notifications</h4>
+					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+					<p class="teamsocial"><a href="https://www.schilljs.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/nickvergessen"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Joas has been involved in open source for over a decade, being a core member of the phpBB™ developer team and has been working on Nextcloud code since late 2013. He graduated from the University of Stuttgart and developed the Notifications and Activities technology in Nextcloud.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -305,6 +293,19 @@
 					<p class="teamsocial"><a href="https://github.com/leonklingele"><i class="fa-github fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Leon is currently doing his Bachelor of Science at Media University, Stuttgart. His primary tasks lie in the development of the Spreedbox and Spreed.ME software components.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mario.jpg" />
+				<h2 class="teamname">Mario Danic</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Android app</h4>
+					<h4 class="teamlocation">lives in Croatia</h4>
+					<p class="teamsocial"> <a href="https://github.com/mario"><i class="fa-github fa"></i></a> <a href="https://twitter.com/mdjanic"><i class="fa-twitter fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Mario is responsible for the Nextcloud Android application development. He studied Informatics and Organization and has been leading Libburnia and Gnomebaker, popular open source projects, for over a decade.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
