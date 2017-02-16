@@ -20,8 +20,9 @@
 	</div>
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
-			<a class="btn btn-primary" href="/pricing">pricing plans</a>
-			<a class="btn btn-primary" href="/enterprise">enterprise offering</a>
+			<a class="btn btn-primary" href="/enterprise/order"><?php echo $l->t('Order online');?></a>
+			<a class="btn btn-primary" href="/pricing"><?php echo $l->t('pricing plans');?></a>
+			<a class="btn btn-primary" href="/enterprise"><?php echo $l->t('enterprise offering');?></a>
 		</div>
 	</div>
 </section>
@@ -76,8 +77,8 @@ your project.');?></p>
 					<option value="yes"><?php echo $l->t('Yes');?></option>
 					<option value="no"><?php echo $l->t('No');?></option>
 				</select></label></p>
-				<p><label for="LTS"><?php echo $l->t('What maintenance lifecycle is your Nextcloud server on?<br>
-				<textarea name="LTS" maxlength="120" cols="70" rows="2" placeholder="Upgrade every 4 months; once a year; or do you need 5 or 10 year support for your platform?');?>"></textarea></label></p>
+				<p><label for="LTS"><?php echo $l->t('Would you like to have the ability to stay on the exact same version of Nextcloud for several years?');?><br>
+				<input  type="text" name="LTS" maxlength="80" size="60" placeholder="<?php echo $l->t('If yes, how many years?');?>"></label></p>
 				<p><label for="comments"><?php echo $l->t('Your message<br />
 				<textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Let us know how we can help you!">');?></textarea></label></p>
 				<td colspan="2" style="text-align:center">

@@ -909,6 +909,24 @@ ul {
 li {
   margin-top: 15px; }
 
+/* Images */
+.alignright {
+  float: right;
+  margin: 1em 1em 1em 1em !important; }
+
+.img-thumbnail {
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto; }
+
 /* All headers */
 .header {
   margin-bottom: 54px;

@@ -1,0 +1,28 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+/* gradient behind nav */
+/* background */
+.events-background {
+  background-image: url("../img/headers/events.jpg");
+  /*   background-position: bottom 50% right 50%; */
+  background-size: cover;
+  /*   text-shadow: 0px 0px 8px black; */
+  margin-bottom: 50px; }
+
+.quote {
+  margin: 80px 0 50px 0;
+  padding: 50px 0px;
+  background: #0082c9; }
+  .quote p {
+    color: white; }
+
+footer {
+  margin-top: 70px; }
+
+/*# sourceMappingURL=events.css.map */
