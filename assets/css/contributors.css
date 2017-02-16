@@ -66,6 +66,8 @@ footer.page-footer {
     height: 100%;
     max-width: 200px;
     max-height: 200px; }
+  .section--contributors .col-lg-2 {
+    margin-bottom: 60px; }
 
 .calltoaction {
   margin-top: 50px;
