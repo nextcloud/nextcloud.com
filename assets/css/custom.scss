@@ -637,6 +637,10 @@ li {
 	}
 	}
 }
+/* Make sure you don't get scrollbars! */
+.ui-dialog .ui-dialog-content {
+	overflow: hidden !important;
+}
 
 .YouTubeDialog {
 	width: 50% !important;

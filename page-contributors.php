@@ -2,7 +2,7 @@
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/contributors.css" rel="stylesheet">
 <script>
 	require(["require.config"], function() {
-		require(["modules/submenu", "bootstrap"])
+		require(["bootstrap"])
 	});
 </script>
 </head>
@@ -13,17 +13,6 @@
 				<h1><?php echo $l->t('Get to know us');?></h1>
 				<h2><?php echo $l->t('The international community of Nextcloud Contributors.');?></h2>
 			</div>
-		</div>
-	</div>
-	<div class="container-fluid menu" id="menuAnchor">
-		<div class="container buttons">
-<!--			<a href="#expertise"><?php echo $l->t('expertise');?></a>
-			<a href="#security"><?php echo $l->t('security');?></a>
-			<a href="#lifecycle"><?php echo $l->t('lifecycle');?></a>
-			<a href="#capabilities"><?php echo $l->t('capabilities');?></a>-->
-			<a class="btn btn-primary" href="/about"><?php echo $l->t('About us');?></a>
-			<a class="btn btn-primary" href="/team"><?php echo $l->t('Team');?></a>
-			<a class="btn btn-primary" href="/jobs"><?php echo $l->t('Jobs');?></a>
 		</div>
 	</div>
 </section>

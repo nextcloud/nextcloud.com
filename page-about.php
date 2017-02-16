@@ -1,11 +1,26 @@
 <head>
 <link class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/css/about.css" rel="stylesheet">
+<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+<link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
+
+
 <script>
 	require(["require.config"], function() {
-		require(["modules/submenu", "bootstrap"])
+		require(["vendor/jquery.min", "vendor/jquery.ui", "bootstrap"],
+			function ($, jqueryui) {
+				require(["vendor/jquery.youtubepopup"],
+					function (jqyoutube) {
+						jQuery("a.youtube").YouTubePopup({ hideTitleBar: true });
+					}
+				);
+			}
+		);
 	});
 </script>
+
 </head>
+
+
 <section class="hero-section second-menu">
 	<div class="background about-background">
 		<div class="container">
@@ -13,17 +28,6 @@
 				<h1><?php echo $l->t('You should control your data');?></h1>
 				<h2><?php echo $l->t('We help you achieve that: a safe home for all your data. Secure, under your control and developed in an open, transparent and trustworthy way. <strong>We are Nextcloud</strong>.');?></h2>
 			</div>
-		</div>
-	</div>
-	<div class="container-fluid menu" id="menuAnchor">
-		<div class="container buttons">
-<!--			<a href="#expertise"><?php echo $l->t('expertise');?></a>
-			<a href="#security"><?php echo $l->t('security');?></a>
-			<a href="#lifecycle"><?php echo $l->t('lifecycle');?></a>
-			<a href="#capabilities"><?php echo $l->t('capabilities');?></a>-->
-			<a class="btn btn-primary" href="/contributors"><?php echo $l->t('Contributors');?></a>
-			<a class="btn btn-primary" href="/team"><?php echo $l->t('Team');?></a>
-			<a class="btn btn-primary" href="/jobs"><?php echo $l->t('Jobs');?></a>
 		</div>
 	</div>
 </section>
@@ -144,12 +148,4 @@
 Nextcloud is not responsible for the content of the linked articles.</small>');?></p>
 </section>
 
-<link type="text/css" class="hyperlink" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory');?>/assets/js/old/vendor/jquery.youtubepopup.min.js"></script>
 
-<script type="text/javascript">
-// $(function () {
-$("a.youtube").YouTubePopup({ hideTitleBar: true });
-// });
-</script>

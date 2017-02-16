@@ -15,17 +15,6 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid menu" id="menuAnchor">
-		<div class="container buttons">
-<!--			<a href="#expertise"><?php echo $l->t('expertise');?></a>
-			<a href="#security"><?php echo $l->t('security');?></a>
-			<a href="#lifecycle"><?php echo $l->t('lifecycle');?></a>
-			<a href="#capabilities"><?php echo $l->t('capabilities');?></a>-->
-			<a class="btn btn-primary" href="/about"><?php echo $l->t('About us');?></a>
-			<a class="btn btn-primary" href="/contributors"><?php echo $l->t('Community');?></a>
-			<a class="btn btn-primary" href="/jobs"><?php echo $l->t('Jobs');?></a>
-		</div>
-	</div>
 </section>
 <section class="section--team">
 	<div class="container">
