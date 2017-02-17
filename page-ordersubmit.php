@@ -37,7 +37,7 @@ if(isset($_POST['email'])) {
     $edugov = $_POST['edugov']; // required
 //     $collabora = $_POST['collabora']; // required
 //     $collabora = $_POST['collabora']; // required
-    $collaboraCheck = $_POST['collaboraCheck'];
+    $collaboraCheck = $_POST['collaboraCheck']  === 'collaboraCheck' ? 'yes' : 'no';
     $outlook = $_POST['outlook'] === 'outlook' ? 'yes' : 'no';
     $remoteinstall = $_POST['remoteinstall'] === 'remoteinstall' ? 'yes' : 'no';
     $givenprice = $_POST['givenPrice'];
