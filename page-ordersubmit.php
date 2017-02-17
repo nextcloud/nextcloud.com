@@ -35,8 +35,9 @@ if(isset($_POST['email'])) {
     $edition = $_POST['edition']; // required
     $duration = $_POST['duration']; // required
     $edugov = $_POST['edugov']; // required
-    $collabora = $_POST['collabora']; // required
-    $collabora = $_POST['collabora']; // required
+//     $collabora = $_POST['collabora']; // required
+//     $collabora = $_POST['collabora']; // required
+    $collaboraCheck = $_POST['collaboraCheck'];
     $outlook = $_POST['outlook'] === 'outlook' ? 'yes' : 'no';
     $remoteinstall = $_POST['remoteinstall'] === 'remoteinstall' ? 'yes' : 'no';
     $givenprice = $_POST['givenPrice'];
@@ -134,17 +135,26 @@ if(isset($_POST['email'])) {
 
             if ($edition === 'standard') {
                 // COLLABORA
-                if ($collabora > 0) {
-                    if ($collabora > $users) {
-                        $error_message .= '<li>More collabora users than Nextcloud users.</li>';
-                    } else {
-                        if($collabora <= 50) {
-                            $collaboraPrice = $collabora * 17;
+                // we don't allow different numbers of collabora users atm so this is simplified.
+//                 if ($collabora > 0) {
+//                     if ($collabora > $users) {
+//                         $error_message .= '<li>More collabora users than Nextcloud users.</li>';
+//                     } else {
+//                         if($collabora <= 50) {
+//                             $collaboraPrice = $collabora * 17;
+//                         } else {
+//                             $collabora = 17 * 50 + ($collabora - 50) * 16;
+//                         }
+//                     }
+//                 }
+                if ($collaboraCheck === 'yes') {
+                   if($users < 100) {
+                            $collaboraPrice = $users * 17;
                         } else {
-                            $collabora = 17 * 50 + ($collabora - 50) * 16;
+                            $collaboraPrice = 17 * 99 + ($users - 99) * 16;
                         }
                     }
-                }
+//                 }
                 // REMOTE INSTALL
                 if ($remoteinstall === 'yes') {
                     $remoteinstallPrice = 990;
@@ -231,7 +241,7 @@ if(isset($_POST['email'])) {
     $email_message .= "How many years: ".clean_string($duration)."\n";
     $email_message .= "Education/government/charity discount: ".clean_string($edugov)."\n\n"."Options:\n";
 	$email_message .= "Would like Outlook option (5€/user): ".clean_string($outlook)."\n";
-	$email_message .= "Number of Collabora users (17€ for first 50, then 16€/user): ".clean_string($collabora)."\n";
+	$email_message .= "Number of Collabora users (17€ for first 99, then 16€/user): ".clean_string($collaboraCheck)."\n";
 	$email_message .= "Would like remote installation help (990 €): ".clean_string($remoteinstall)."\n\n";
     // 	$email_message .= "Would like Branding option: ".clean_string($branding)."\n";
     // 	$email_message .= "Would like Spreed option: ".clean_string($spreed)."\n";
