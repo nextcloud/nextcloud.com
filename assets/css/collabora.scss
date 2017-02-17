@@ -59,6 +59,16 @@
 	}
 }
 
+code {
+    color: #558;
+    background-color: #efefff;
+}
+
+pre {
+    color: #558;
+    background-color: #efefff;
+}
+
 .featureblock {
 	.section--heading-1 {
 		margin-top: 5px;
@@ -73,8 +83,8 @@
 	}
 }
 
-.quote {
-	margin: 80px 0 50px 0;
+.call-to-action {
+	margin: 80px 0 0px 0;
 	padding: 50px 0px;
 	background: $nextcloud-blue;
 	p {
@@ -85,6 +95,3 @@
     }
 }
 
-footer {
-	margin-top: 70px;
-}

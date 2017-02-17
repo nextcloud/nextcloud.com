@@ -75,7 +75,7 @@
 	</div>
 </section>
 
-<div class="container-fluid quote">
+<div class="container-fluid call-to-action">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 featureblock text-center revealOnScroll">
@@ -113,7 +113,7 @@
 			<ol>
 				<li class="section--paragraph"><?php echo $l->t('A host that can run a Docker container');?></li>
 				<li class="section--paragraph"><?php echo $l->t('A subdomain or a second domain that the Collabora Online server can run on');?></li>
-				<li class="section--paragraph"><?php echo $l->t('An Apache server with some enabled modules (<a href="https://icewind.nl/entry/collabora-online">NGNIX instructions in a blog here</a>)');?></li>
+				<li class="section--paragraph"><?php echo $l->t('An Apache server with some enabled modules (<a class="hyperlink" href="https://icewind.nl/entry/collabora-online">NGNIX instructions in a blog here</a>)');?></li>
 				<li class="section--paragraph"><?php echo $l->t('A valid SSL certificate for the domain that Collabora Online should run on');?></li>
 				<li class="section--paragraph"><?php echo $l->t('A valid SSL certificate for your Nextcloud');?></li>
 			</ol>
@@ -124,7 +124,7 @@
 			docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --restart always --cap-add MKNOD collabora/code
 			</code></pre></p>
 			<p class="section--paragraph"><?php echo $l->t('That will be enough. Once you have done that the server will listen on "localhost:9980". Now we just need to configure the locally installed Apache reverse proxy.');?></p>
-			<h3 class="section--paragraph__tittle"><?php echo $l->t('</a>2. Install the Apache reverse proxy');?></h3>
+			<h3 class="section--paragraph__tittle"><?php echo $l->t('2. Install the Apache reverse proxy');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('On a recent Ubuntu or Debian this should be possible using:');?></p>
 			<ol>
 				<li><code>apt-get install apache2</code></li>
@@ -224,11 +224,21 @@
 				<li class="section--paragraph"><?php echo $l->t('<strong>Issue:</strong> Collabora Online doesn\'t work with Encryption.<br/>
 				Yes, this is currently unsupported.');?></li>
 			</ul>
-			<p class="section--paragraph"><?php echo $l->t('Find more questions and answers in the <a href="https://help.nextcloud.com/t/issue-installing-collabora-following-official-guide/1746/58">discussion thread on the forums</a>.');?></p>
-
-			<h2><?php echo $l->t('Let us know what you think <a href="https://help.nextcloud.com">in the forums</a>!');?></h2>
+			<p class="section--paragraph"><?php echo $l->t('Find more questions and answers in the <a class="hyperlink" href="https://help.nextcloud.com/t/issue-installing-collabora-following-official-guide/1746/58">discussion thread on the forums</a> and <a class="hyperlink" href="https://help.nextcloud.com/c/support/collabora">post a new topic in the Collabora category</a> if you have unanswered questions!');?></p>
 		</div>
 		</div>
 
 </section>
 
+<div class="container-fluid call-to-action">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 featureblock text-center revealOnScroll">
+				<p class=""><?php echo $l->t('Let us know what you think <a class="hyperlink" href="https://help.nextcloud.com/c/support/collabora">in the forums</a>!');?></p>
+				<div class="text-center morebuttondiv">
+					<a href="https://help.nextcloud.com/c/support/collabora" class="button button--large button--arrow"><?php echo $l->t('Give us feedback!');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

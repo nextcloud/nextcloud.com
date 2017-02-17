@@ -45,6 +45,14 @@
         width: 102px;
         height: 75px; } }
 
+code {
+  color: #558;
+  background-color: #efefff; }
+
+pre {
+  color: #558;
+  background-color: #efefff; }
+
 .featureblock .section--heading-1 {
   margin-top: 5px;
   color: #2a2a36;
@@ -52,16 +60,13 @@
 .featureblock .wrapper--buttons .button {
   margin: 20px 10px 20px 20px; }
 
-.quote {
-  margin: 80px 0 50px 0;
+.call-to-action {
+  margin: 80px 0 0px 0;
   padding: 50px 0px;
   background: #0082c9; }
-  .quote p {
+  .call-to-action p {
     color: white; }
-  .quote a {
+  .call-to-action a {
     color: white; }
-
-footer {
-  margin-top: 70px; }
 
 /*# sourceMappingURL=collabora.css.map */
