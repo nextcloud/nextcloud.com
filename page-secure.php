@@ -47,47 +47,54 @@
 	<p class="text-center revealOnScroll"><a href="#process"><?php echo $l->t('Learn more about our security process and features');?></a></p>
 </div>
 
-<div class="container featureblock revealOnScroll">
+<div class="container featureblock">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Integration');?></h2>
-			<p class="section--paragraph"><?php echo $l->t('New technology should fit into existing processes and infrastructure. Nextcloud enables you to leverage existing security investments:');?>
-				<p class="section--paragraph__tittle"><?php echo $l->t('LDAP / Active Directory');?> </p>
-				<p class="section--paragraph"><?php echo $l->t('Nextcloud has extensive LDAP/Active Directory support with an easy installation wizard.');?> </p>
-					
-				<p class="section--paragraph__tittle">Kerberos</p>
-				<p class="section--paragraph"><?php echo $l->t('Nextcloud can work with Kerberos and other authentication mechanisms mediated by Apache modules.');?></p>
-				<p class="section--paragraph__tittle">SSO/SAML 2.0</p>
-				<p class="section--paragraph"><?php echo $l->t('Nextcloud supports Single Sign On (SSO) and can work with Shibboleth, a SAML-based authentication in its web front end and clients.');?></p>
-				<p class="section--paragraph__tittle"><?php echo $l->t('Two-factor authentication');?></p>
-				<p class="section--paragraph"><?php echo $l->t('Nextcloud includes Universal 2nd Factor (U2F) and Time-based One-Time Password (TOTP) second factor apps to increase the security of user login handling.');?></p>
-				<p class="section--paragraph__tittle"><?php echo $l->t('Existing storage and database technology');?></p>
-				<p class="section--paragraph"><?php echo $l->t('Nextcloud supports any existing storage solution, including object store technologies, keeping data under control of trusted IT administrators and managed with established policies. Nextcloud works with industry standard SQL databases like PostgreSQL, MySQL and MariaDB for user and metadata storage.');?></p>
-				<p class="section--paragraph__tittle"><?php echo $l->t('Existing security tools');?><p/>
-				<p class="section--paragraph"><?php echo $l->t('Nextcloud offers built in monitoring tools and integrates with existing MDM, DLP, event logging and backup tools, enabling existing tool chains to be used to monitor, back up and restore systems.');?></p>
-				<p class="section--paragraph__tittle"><?php echo $l->t('Current security policies and processes');?><p/>
-				<p class="section--paragraph"><?php echo $l->t('Thanks to the on-premise nature of Nextcloud and its ability to leverage existing data storage and database technologies, current security policies and governance processes can continue to be used to manage, control and secure operations with Nextcloud. Nextcloud GmbH does at no point have access to your data and can not interfere with regulated processes, keeping your IT department in control.');?></p>
-			</ul></p>
+			<p class="section--paragraph section--text--center"><?php echo $l->t('New technology should fit into existing processes and infrastructure. Nextcloud enables you to leverage existing security investments:');?>
+		</div>
+		
+		<div class="col-md-6">
+			<p class="section--paragraph__tittle"><?php echo $l->t('LDAP / Active Directory');?> </p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud has extensive LDAP/Active Directory support with an easy installation wizard.');?> </p>
+			<p class="section--paragraph__tittle">Kerberos</p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud can work with Kerberos and other authentication mechanisms mediated by Apache modules.');?></p>
+			<p class="section--paragraph__tittle">SSO/SAML 2.0</p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud supports Single Sign On (SSO) and can work with Shibboleth, a SAML-based authentication in its web front end and clients.');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Two-factor authentication');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud includes Universal 2nd Factor (U2F) and Time-based One-Time Password (TOTP) second factor apps to increase the security of user login handling.');?></p>
+		</div>
+		
+		<div class="col-md-6">
+			<p class="section--paragraph__tittle"><?php echo $l->t('Existing storage and database technology');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud supports any existing storage solution, including object store technologies, keeping data under control of trusted IT administrators and managed with established policies. Nextcloud works with industry standard SQL databases like PostgreSQL, MySQL and MariaDB for user and metadata storage.');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Existing security tools');?><p/>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud offers built in monitoring tools and integrates with existing MDM, DLP, event logging and backup tools, enabling existing tool chains to be used to monitor, back up and restore systems.');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Current security policies and processes');?><p/>
+			<p class="section--paragraph"><?php echo $l->t('Thanks to the on-premise nature of Nextcloud and its ability to leverage existing data storage and database technologies, current security policies and governance processes can continue to be used to manage, control and secure operations with Nextcloud. Nextcloud GmbH does at no point have access to your data and can not interfere with regulated processes, keeping your IT department in control.');?></p>
 		</div>
 	</div>
 </div>
 
 <div class="container featureblock revealOnScroll">
 	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
-			<h2 class="header"><?php echo $l->t('Under your control');?></h2>
-			<p><?php echo $l->t('Control is key to security. With Nextcloud, your IT department takes back control over its data, managed under its policies and procedures. Nextcloud integrates in the tooling you use in your data center like logging and intrusion detection and works with existing authentication mechanisms like SAML, Kerberos and LDAP.');?></p>
-			<p><?php echo $l->t('Nextcloud features:');?>
-			<ul>
-				<li><strong><?php echo $l->t('Logging and monitoring');?></strong><br/>
-				<?php echo $l->t('Nextcloud has built in <a href="/workflow/#monitoring">monitoring and logging tools</a>, compatible with industry standard tools like Splunk, Nagios and OpenNMS. It also offers a full, compliance-ready activity log for reporting and auditing purposes.');?></li>
-				<li><strong><?php echo $l->t('Permission and File Access Control');?></strong><br/>
-				<?php echo $l->t('Administrators can set permissions on sharing and access to files using groups. The powerful');?> <a href="/workflow/"><?php echo $l->t('workflow tools</a> in Nextcloud enable administrators to limit access to files following strict rules and perform automatic actions like file conversion.');?></li>
-				<li><strong><?php echo $l->t('Encryption');?></strong><br/>
-				<?php echo $l->t('Nextcloud uses industry-standard SSL/TLS encryption for data in transfer. Additionally, data at rest in storage can be encrypted using a default military grade AES-256 encryption. Keys can be handled with the build in key management or you can opt for a custom key management for integration in existing infrastructure. As keys never leave the Nextcloud server, external storage systems never have access to unencrypted data.');?></li>
-				<li><strong><?php echo $l->t('Virus scanning');?></strong><br/>
-				<?php echo $l->t('Nextcloud supports integration with ClamAV for automated scanning of all uploaded files.');?></li>
-			</ul></p>
+		<div class="col-md-8 col-md-offset-2">
+			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Under your control');?></h2>
+			<p class="section--paragraph section--text--center"><?php echo $l->t('Control is key to security. With Nextcloud, your IT department takes back control over its data, managed under its policies and procedures. Nextcloud integrates in the tooling you use in your data center like logging and intrusion detection and works with existing authentication mechanisms like SAML, Kerberos and LDAP. Nextcloud features:');?></p>
+		</div>
+
+		<div class="col-md-6">
+			<p class="section--paragraph__tittle"><?php echo $l->t('Logging and monitoring');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud has built in <a class="hyperlink" href="/workflow/#monitoring">monitoring and logging tools</a>, compatible with industry standard tools like Splunk, Nagios and OpenNMS. It also offers a full, compliance-ready activity log for reporting and auditing purposes.');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Permission and File Access Control');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Administrators can set permissions on sharing and access to files using groups. The powerful');?> <a class="hyperlink" href="/workflow/"><?php echo $l->t('workflow tools</a> in Nextcloud enable administrators to limit access to files following strict rules and perform automatic actions like file conversion.');?></p>
+		</div>
+
+		<div class="col-md-6">
+			<p class="section--paragraph__tittle"><?php echo $l->t('Encryption');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud uses industry-standard SSL/TLS encryption for data in transfer. Additionally, data at rest in storage can be encrypted using a default military grade AES-256 encryption. Keys can be handled with the build in key management or you can opt for a custom key management for integration in existing infrastructure. As keys never leave the Nextcloud server, external storage systems never have access to unencrypted data.');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Virus scanning');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud supports integration with ClamAV for automated scanning of all uploaded files.');?></p>
 		</div>
 	</div>
 </div>
