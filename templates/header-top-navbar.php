@@ -49,6 +49,7 @@ require get_template_directory().'/strings.php';
 						<li class="nav__item"><a href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Overview');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('pricing') ?>"><?php echo $l->t('Pricing');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('buy') ?>"><?php echo $l->t('Get an offer');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('order') ?>"><?php echo $l->t('Order online');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration');?></a></li>
 					</ul>
 				</li>
@@ -78,6 +79,7 @@ require get_template_directory().'/strings.php';
 						<li class="nav__item"><a href="<?php echo home_url('about') ?>"><?php echo $l->t('About us');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('team') ?>"><?php echo $l->t('Team');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('contributors') ?>"><?php echo $l->t('Community');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('events') ?>"><?php echo $l->t('Events');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('jobs') ?>"><?php echo $l->t('Jobs');?></a></li>
 					</ul>
 				</li>

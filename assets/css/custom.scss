@@ -55,6 +55,27 @@ li {
 
 }
 
+/* Images */
+
+.alignright {
+    float: right;
+    margin: 1em 1em 1em 1em !important;
+}
+
+.img-thumbnail {
+	padding: 4px;
+    line-height: 1.428571429;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
 /* All headers */
 
 .header {
@@ -316,6 +337,36 @@ li {
         }
     }
 }
+
+/* A nice looking block quote */
+	blockquote {
+		background: none;
+		margin: 1.5em 10px;
+		padding: 0.5em 10px;
+		quotes: "\201C""\201D""\2018""\2019";
+		border-left: none;
+		color:#9c9c9c;
+		&:before {
+			border-left: none;
+			color: #ccc;
+			content: open-quote;
+			font-size: 4em;
+			line-height: 0.1em;
+			margin-right: 0.25em;
+			vertical-align: -0.4em;
+			font-family: serif;
+		}
+		&:after {
+			content: close-quote;
+			left: 10px;
+			color: #ccc;
+			font-size: 4em;
+			line-height: 0.1em;
+			margin-left: 0.25em;
+			vertical-align: -0.8em;
+			font-family: serif;
+		}
+	}
 
 /* New widest container for headers */
 
@@ -585,6 +636,10 @@ li {
 		display: inline-block;
 	}
 	}
+}
+/* Make sure you don't get scrollbars! */
+.ui-dialog .ui-dialog-content {
+	overflow: hidden !important;
 }
 
 .YouTubeDialog {

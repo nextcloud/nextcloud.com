@@ -2,20 +2,21 @@
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/jobs.css" rel="stylesheet">
 	<script>
 	require(["require.config"], function() {
-		require(["pages/jobs"])
+		require(["bootstrap", "pages/jobs"])
 	});
 	</script>
 </head>
-<div class="background jobs-background"> 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 topheader">
-				<h1>We are hiring</h1>
-				<h2>Nextcloud is looking for people who want to join our team</h2>
-			</div>
-		</div>
-	</div>
-</div>
+<section class="hero-section second-menu">
+    <div class="background jobs-background"> 
+        <div class="container">
+                <div class="col-md-6 topheader">
+                    <h1>We are hiring</h1>
+                    <h2>Nextcloud is looking for people who want to join our team</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="section-company-description">
 	<div class="container">
 		<h2 class="text-center">Company description</h2>
@@ -242,7 +243,7 @@
 			</ul>
 			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 		</div>
-		<a href="#androiddev" data-toggle="collapse"><h3 class="jobs">Android App developer<span class="icon-arrow"></span></h3></a>
+		<!--<a href="#androiddev" data-toggle="collapse"><h3 class="jobs">Android App developer<span class="icon-arrow"></span></h3></a>
 		<div id="androiddev" class="collapse">
 			<p>We're looking for developers with experience in Android app development to join our client team!</p>
 			<p>You would work with the engineering team to bring new features and improvements to the Android app like new authentication mechanisms, audio/video chat integration and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
@@ -269,8 +270,8 @@
 				<li>Time for personal growth and education</li>
 			</ul>
 			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-		</div>
-		<a href="#iosdev" data-toggle="collapse"><h3 class="jobs">iOS App developer<span class="icon-arrow"></span></h3></a>
+		</div>-->
+		<!--<a href="#iosdev" data-toggle="collapse"><h3 class="jobs">iOS App developer<span class="icon-arrow"></span></h3></a>
 		<div id="iosdev" class="collapse">
 			<p>We're looking for developers with experience in iOS app development to join our client team!</p>
 			<p>You would work with the engineering team to bring new features and improvements to the iOS app like new authentication mechanisms, audio/video chat integration and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
@@ -297,7 +298,7 @@
 				<li>Time for personal growth and education</li>
 			</ul>
 			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-		</div>
+		</div>-->
 			<a href="#techwrite" data-toggle="collapse"><h3 class="jobs">Technical documentation writer<span class="icon-arrow"></span></h3></a>
 		<div id="techwrite" class="collapse">
 			<p>We're looking for a technical writer to join our server team!</p>
