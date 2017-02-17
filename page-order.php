@@ -95,9 +95,9 @@
 			<p><h3><?php echo $l->t('Optional features:');?></h3></p>
 			<input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include <a class="hyperlink" href="/outlook" target="_blank">our Outlook add-in <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 5/user)');?></span><br/>
 			<p><h4><?php echo $l->t('Only with a Standard Subscription:');?></h4></p>
-			<input disabled id="collaboraCheck" type="checkbox" name="collaboraCheck" value="collaboraCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include <a class="hyperlink" href="/collabora" target="_blank">Collabora Online <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 16/user)');?></span><br/>
+			<input disabled id="collaboraCheck" type="checkbox" name="collaboraCheck" value="collaboraCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include <a class="hyperlink" href="/collabora" target="_blank">Collabora Online <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 17/user for the first 100, € 16/user after that)');?></span><br/>
 			<!-- Only show below when input above is enabled -->
-			<div class="collaboraUserNumberChoiceDiv" id="collaboraUserNumberChoiceDiv" style="display:none;">
+			<!--<div class="collaboraUserNumberChoiceDiv" id="collaboraUserNumberChoiceDiv" style="display:none;">
 				<p><?php echo $l->t('Select how many users need access to Collabora: ');?><br>
 				<select disabled name="collabora" onChange="doCalculation()">
 					<option value="0">0</option>
@@ -113,7 +113,7 @@
 				<span id="minUsers"><?php echo $l->t('You need at least 25% Collabora seats');?></span><br>
 				<span id="maxUsers"><?php echo $l->t('You can not have more Collabora seats than Nextcloud seats');?></span>
 				</small></p>
-			</div>
+			</div>-->
 			<!--<input disabled type="checkbox" name="spreed" value="spreed" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include <a class="hyperlink" href="/webrtc" target="_blank">Spreed audio/video chat</a> (Eur 5/user)');?></span><br/>-->
 			<input disabled type="checkbox" name="remoteinstall" value="remoteinstall" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include one day remote installation/integration support (mail, telephone, video call) (€ 990)');?></span><br/>
 			<!--<input disabled type="checkbox" name="branding" value="branding" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include branded clients (Eur 6000)');?></span><br/>-->
@@ -263,7 +263,7 @@
 		    //Get a reference to the form id="orderform"
 		    var theForm = document.forms["orderform"];
 		    //Get a reference to the select id="users" and the other elements needed
-		    var includeCollaboraUsers = theForm.elements["collabora"];
+// 		    var includeCollaboraUsers = theForm.elements["collabora"];
 		    var includeCollaboraCheck = theForm.elements["collaboraCheck"];
 			var includeOutlook = theForm.elements["outlook"];
 			var includeRemoteinstall = theForm.elements["remoteinstall"];
@@ -287,16 +287,15 @@
 			{
 				if(includeCollaboraCheck.checked==true)
 				{
-					if( includeCollaboraUsers.value == 25||includeCollaboraUsers.value == 50)
+// 					if( includeCollaboraUsers.value <= 100)
+					if( selectedUsersNumber.value <= 100)
 					{
-					collaboraPrice = multiYearDiscount(includeCollaboraUsers.value * 17);
+					collaboraPrice = multiYearDiscount(selectedUsersNumber.value * 17);
 					} 
-					else if (includeCollaboraUsers.value > 50)
+					else if (selectedUsersNumber.value > 99)
 					{
-					collaboraPrice = multiYearDiscount(850 + (includeCollaboraUsers.value - 50) * 16);
+					collaboraPrice = multiYearDiscount(1683 + (selectedUsersNumber.value - 99) * 16);
 					}
-// 					collaboraPrice = multiYearDiscount(includeCollaboraUsers.value * 16);
-// 					collaboraPrice = multiYearDiscount(includeCollaboraUsers.value * 16);
 					// apply edu discount (no gov, charity)
 					collaboraPrice = eduDiscount(collaboraPrice,0.25);
 					optionsPrice = optionsPrice + collaboraPrice;
@@ -336,7 +335,7 @@
 		function checkSubscription() {
 			//disable optional features when basic subscription is chosen; enable submit button when terms are accepted
 			var theForm = document.forms["orderform"];
-			var includeCollaboraUsers = theForm.elements["collabora"];
+// 			var includeCollaboraUsers = theForm.elements["collabora"];
 			var includeCollaboraCheck = theForm.elements["collaboraCheck"];
 			var includeOutlook = theForm.elements["outlook"];
 			// var includeBranding = theForm.elements["branding"];
@@ -346,65 +345,64 @@
 			var agreedToTerms = theForm.elements["terms"];    
 			var submitButton = theForm.elements["submit"];
 			var selectedUsersNumber = theForm.elements["users"];
-			document.getElementById("collaboraUserNumberChoiceDiv").style.display = "none";
+// 			document.getElementById("collaboraUserNumberChoiceDiv").style.display = "none";
 // 			document.getElementById("getenterprisequote").style.display = "none";
 			// disable them by default as they are blocked by the default basic subscription
 			includeRemoteinstall.disabled = false;
-			includeCollaboraUsers.disabled = false;
+// 			includeCollaboraUsers.disabled = false;
 			includeCollaboraCheck.disabled = false;
 			includeOutlook.disabled = false;
 			// includeSpreed.disabled = false;
 			// includeBranding.disabled = false;
 			submitButton.disabled = true;
-			var numberOfCollaboraUsers = includeCollaboraUsers.value;
+// 			var numberOfCollaboraUsers = includeCollaboraUsers.value;
 			var numberOfSelectedUsers = selectedUsersNumber.value;
-			document.getElementById("minUsers").style.fontWeight = "normal";
-			document.getElementById("maxUsers").style.fontWeight = "normal";
+// 			document.getElementById("minUsers").style.fontWeight = "normal";
+// 			document.getElementById("maxUsers").style.fontWeight = "normal";
 			
-			if(includeCollaboraCheck.checked==false)
-			{
-				includeCollaboraUsers.value = 0;
-			}
-			
-			if(includeCollaboraCheck.checked==true)
-			{
-				document.getElementById("collaboraUserNumberChoiceDiv").style.display = "block";
-				
-				if(parseInt(numberOfCollaboraUsers) < 20) {
-// 					includeCollaboraUsers.value = numberOfSelectedUsers;
-					numberOfCollaboraUsers = numberOfSelectedUsers;
-				}
-				
-				if(((parseInt(numberOfCollaboraUsers) * 4) + 1) < parseInt(numberOfSelectedUsers))
-				{
-					numberOfCollaboraUsers  = numberOfSelectedUsers / 4;
-					document.getElementById("minUsers").style.fontWeight = "bold";
-					// handle the weird numbers
-					if (parseInt(numberOfCollaboraUsers) < 50)
-					{
-						numberOfCollaboraUsers = 50;
-					}
-					if (numberOfCollaboraUsers == "62.5")
-					{
-						numberOfCollaboraUsers = 75;
-					}
-				}
-				
-				if(parseInt(numberOfCollaboraUsers) > parseInt(numberOfSelectedUsers))
-				{
-					document.getElementById("maxUsers").style.fontWeight = "bold";
-					numberOfCollaboraUsers = numberOfSelectedUsers;
-
-				}
-				
-				includeCollaboraUsers.value = numberOfCollaboraUsers;
-			}
+                // you can't have less collabora users than Nextcloud users
+// 			if(includeCollaboraCheck.checked==false)
+// 			{
+// 				includeCollaboraUsers.value = 0;
+// 			}
+// 			if(includeCollaboraCheck.checked==true)
+// 			{
+// 				document.getElementById("collaboraUserNumberChoiceDiv").style.display = "block";
+// 				
+// 				if(parseInt(numberOfCollaboraUsers) < 20) {
+// 					numberOfCollaboraUsers = numberOfSelectedUsers;
+// 				}
+// 				
+// 				if(((parseInt(numberOfCollaboraUsers) * 4) + 1) < parseInt(numberOfSelectedUsers))
+// 				{
+// 					numberOfCollaboraUsers  = numberOfSelectedUsers / 4;
+// 					document.getElementById("minUsers").style.fontWeight = "bold";
+// 					// handle the weird numbers
+// 					if (parseInt(numberOfCollaboraUsers) < 50)
+// 					{
+// 						numberOfCollaboraUsers = 50;
+// 					}
+// 					if (numberOfCollaboraUsers == "62.5")
+// 					{
+// 						numberOfCollaboraUsers = 75;
+// 					}
+// 				}
+// 				
+// 				if(parseInt(numberOfCollaboraUsers) > parseInt(numberOfSelectedUsers))
+// 				{
+// 					document.getElementById("maxUsers").style.fontWeight = "bold";
+// 					numberOfCollaboraUsers = numberOfSelectedUsers;
+// 
+// 				}
+// 				
+// 				includeCollaboraUsers.value = numberOfCollaboraUsers;
+// 			}
 			
 			
 			if(chosenEdition.value=="basic")
 			{
 				includeRemoteinstall.disabled = true;
-				includeCollaboraUsers.disabled = true;
+// 				includeCollaboraUsers.disabled = true;
 				includeCollaboraCheck.disabled = true;
 // 				includeOutlook.disabled = true;
 				// includeSpreed.disabled = true;
