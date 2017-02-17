@@ -78,6 +78,26 @@
 			
 			<div class="col-md-6">
 				<div class="feature">
+				<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				  <title>
+				    STORAGE AND DATABASE
+				  </title>
+				  <defs>
+				    <path d="M0 51h29v52H0V51zM35 0h55v51H35V0z" id="a"/>
+				  </defs>
+				  <g fill="none" fill-rule="evenodd">
+				    <path d="M6 28c-1.105 0-2-.895-2-2V4c0-1.105.895-2 2-2h22c1.105 0 2 .895 2 2v22c0 1.105-.895 2-2 2H6zM62 38c0 1.657-5.82 3-13 3s-13-1.343-13-3 5.82-3 13-3 13 1.343 13 3z" stroke="#1485E0" stroke-width="2" fill="#C4E1F7"/>
+				    <path d="M49 41c-7.18 0-13-1.343-13-3v6c0 1.657 5.82 3 13 3s13-1.343 13-3v-6c0 1.657-5.82 3-13 3z" stroke="#1485E0" stroke-width="2"/>
+				    <path d="M49 47c-7.18 0-13-1.343-13-3v6c0 1.657 5.82 3 13 3s13-1.343 13-3v-6c0 1.657-5.82 3-13 3z" stroke="#1485E0" stroke-width="2"/>
+				    <path d="M49 53c-7.18 0-13-1.343-13-3v6c0 1.657 5.82 3 13 3s13-1.343 13-3v-6c0 1.657-5.82 3-13 3zM8 7h10M11 11h11M8 15h10M8 19h4M10 23h8" stroke="#1485E0" stroke-width="2"/>
+				    <g transform="translate(1 -19)">
+				      <mask id="b" fill="#fff">
+				        <use xlink:href="#a"/>
+				      </mask>
+				      <path d="M30 74C15.64 74 4 62.36 4 48s11.64-26 26-26c9.438 0 17.702 5.03 22.257 12.553C54.633 38.477 56 43.08 56 48c0 14.36-11.64 26-26 26z" stroke="#1385E0" stroke-linecap="round" stroke-linejoin="bevel" stroke-dasharray="5,5" mask="url(#b)"/>
+				    </g>
+				  </g>
+				</svg>
 					<p class="section--paragraph__tittle"><?php echo $l->t('Existing storage and database technology');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud supports any existing storage solution, including object store technologies, keeping data under control of trusted IT administrators and managed with established policies. Nextcloud works with industry standard SQL databases like PostgreSQL, MySQL and MariaDB for user and metadata storage.');?></p>
 				</div>
@@ -88,6 +108,21 @@
 				</div>
 
 				<div class="feature">
+					<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+					  <title>
+					    SECURITY POLICIES
+					  </title>
+					  <g fill="none" fill-rule="evenodd">
+					    <path fill="#C4E1F7" d="M8 14h56v42H8z"/>
+					    <path fill="#1485E0" d="M4 56h30v-2H4"/>
+					    <path d="M63 56h-5v-2h4V14H8v38c0 2.206-1.794 4-4 4s-4-1.794-4-4V3c0-.553.447-1 1-1h18c.266 0 .52.105.707.293L23.414 6H59c.553 0 1 .447 1 1v3h-2V8H23c-.266 0-.52-.105-.707-.293L18.586 4H2v48c0 1.103.897 2 2 2s2-.897 2-2V13c0-.553.447-1 1-1h56c.553 0 1 .447 1 1v42c0 .553-.447 1-1 1" fill="#1485E0"/>
+					    <path d="M54 45h-2v-4c0-2.757-2.243-5-5-5h-2c-2.757 0-5 2.243-5 5v4h-2v-4c0-3.86 3.14-7 7-7h2c3.86 0 7 3.14 7 7v4M14 26h42v-6H14v6zm43 2H13c-.553 0-1-.447-1-1v-8c0-.553.447-1 1-1h44c.553 0 1 .447 1 1v8c0 .553-.447 1-1 1z" fill="#1485E0"/>
+					    <path fill="#1485E0" d="M16 24h2v-2h-2M20 24h2v-2h-2M24 24h2v-2h-2M28 24h2v-2h-2M32 24h2v-2h-2M36 24h2v-2h-2M40 24h2v-2h-2M12 33h18v-1H12M12 37h18v-1H12"/>
+					    <rect fill="#C4E1F7" x="37" y="45" width="18" height="16" rx="4"/>
+					    <path d="M39 46c-.552 0-1 .448-1 1v12c0 .552.448 1 1 1h14c.552 0 1-.448 1-1V47c0-.552-.448-1-1-1H39zm14 16H39c-1.654 0-3-1.346-3-3V47c0-1.654 1.346-3 3-3h14c1.654 0 3 1.346 3 3v12c0 1.654-1.346 3-3 3z" fill="#1485E0"/>
+					    <path d="M45 52.732V57h2v-4.268c.597-.347 1-.993 1-1.732 0-1.103-.897-2-2-2s-2 .897-2 2c0 .74.403 1.385 1 1.732z" stroke="#1485E0" fill="#FFF"/>
+					  </g>
+					</svg>
 					<p class="section--paragraph__tittle"><?php echo $l->t('Current security policies and processes');?><p/>
 					<p class="section--paragraph"><?php echo $l->t('Thanks to the on-premise nature of Nextcloud and its ability to leverage existing data storage and database technologies, current security policies and governance processes can continue to be used to manage, control and secure operations with Nextcloud. Nextcloud GmbH does at no point have access to your data and can not interfere with regulated processes, keeping your IT department in control.');?></p>
 			</div>
@@ -121,6 +156,21 @@
 				</div>
 				
 				<div class="feature">
+					<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+					  <title>
+					    VIRUS SCANNING
+					  </title>
+					  <g fill="none" fill-rule="evenodd">
+					    <path d="M5.414 58h53.172L62 54.586V54H39.414l-1.707 1.707c-.187.188-.44.293-.707.293H27c-.266 0-.52-.105-.707-.293L24.586 54H2v.586L5.414 58zM59 60H5c-.266 0-.52-.105-.707-.293l-4-4C.105 55.52 0 55.265 0 55v-2c0-.552.447-1 1-1h24c.266 0 .52.105.707.293L27.414 54h9.172l1.707-1.707c.187-.188.44-.293.707-.293h24c.553 0 1 .448 1 1v2c0 .265-.105.52-.293.707l-4 4c-.187.188-.44.293-.707.293zM6 50H4V20c0-2.206 1.794-4 4-4h7v2H8c-1.103 0-2 .897-2 2v30M60 50h-2V20c0-1.103-.897-2-2-2h-7v-2h7c2.206 0 4 1.794 4 4v30M27 48h2v-2h-2M23 48h2v-2h-2M31 48h2v-2h-2M35 48h2v-2h-2M39 48h2v-2h-2" fill="#1485E0"/>
+					    <path d="M55 48H43v-2h11V22h-5v-2h6c.553 0 1 .448 1 1v26c0 .552-.447 1-1 1M21 48H9c-.553 0-1-.448-1-1V21c0-.552.447-1 1-1h6v2h-5v24h11v2" fill="#1485E0"/>
+					    <path fill="#1485E0" d="M51 44h-2V11.414L41.586 4H15v40h-2V2h29.414L51 10.586V38"/>
+					    <path fill="#C4E1F7" d="M15 4h28v6h6v34H15"/>
+					    <circle stroke="#979797" fill="#FFF" cx="32" cy="19" r="3"/>
+					    <path d="M32 23c-1.573 0-4 2.577-4 6s2.427 6 4 6 4-2.577 4-6-2.427-6-4-6zm0 14c-2.718 0-6-3.568-6-8s3.282-8 6-8 6 3.568 6 8-3.282 8-6 8z" fill="#1485E0"/>
+					    <path fill="#1485E0" d="M22 30h5v-2h-5M28 26h-3.414l-3.293-3.293 1.414-1.414L25.414 24H28v2M22.707 36.707l-1.414-1.414L24.586 32H28v2h-2.586l-2.707 2.707M19 7h1V6h-1M23 7h1V6h-1M27 7h1V6h-1M19 10h1V9h-1M22 10h1V9h-1M25 10h1V9h-1M19 13h18v-1H19M50 12h-9V3h2v7h7v2M32 17c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2zm0 6c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zM37 30h5v-2h-5M39.414 26H36v-2h2.586l2.707-2.707 1.414 1.414L39.414 26M41.293 36.707L38.586 34H36v-2h3.414l3.293 3.293-1.414 1.414"/>
+					    <path fill="#1485E0" d="M31 36h2V22h-2"/>
+					  </g>
+					</svg>
 					<p class="section--paragraph__tittle"><?php echo $l->t('Virus scanning');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud supports integration with ClamAV for automated scanning of all uploaded files.');?></p>
 				</div>

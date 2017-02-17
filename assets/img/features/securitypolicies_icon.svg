@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>SECURITY POLICIES</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="STYLEGUIDE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SECURITY-POLICIES">
+            <rect id="Rectangle" fill="#C4E1F7" x="8" y="14" width="56" height="42"></rect>
+            <polygon id="Fill-656" fill="#1485E0" points="4 56 34 56 34 54 4 54"></polygon>
+            <path d="M63,56 L58,56 L58,54 L62,54 L62,14 L8,14 L8,52 C8,54.206 6.206,56 4,56 C1.794,56 0,54.206 0,52 L0,3 C0,2.447 0.447,2 1,2 L19,2 C19.266,2 19.52,2.105 19.707,2.293 L23.414,6 L59,6 C59.553,6 60,6.447 60,7 L60,10 L58,10 L58,8 L23,8 C22.734,8 22.48,7.895 22.293,7.707 L18.586,4 L2,4 L2,52 C2,53.103 2.897,54 4,54 C5.103,54 6,53.103 6,52 L6,13 C6,12.447 6.447,12 7,12 L63,12 C63.553,12 64,12.447 64,13 L64,55 C64,55.553 63.553,56 63,56" id="Fill-657" fill="#1485E0"></path>
+            <path d="M54,45 L52,45 L52,41 C52,38.243 49.757,36 47,36 L45,36 C42.243,36 40,38.243 40,41 L40,45 L38,45 L38,41 C38,37.141 41.141,34 45,34 L47,34 C50.859,34 54,37.141 54,41 L54,45" id="Fill-659" fill="#1485E0"></path>
+            <path d="M14,26 L56,26 L56,20 L14,20 L14,26 Z M57,28 L13,28 C12.447,28 12,27.553 12,27 L12,19 C12,18.447 12.447,18 13,18 L57,18 C57.553,18 58,18.447 58,19 L58,27 C58,27.553 57.553,28 57,28 L57,28 Z" id="Fill-662" fill="#1485E0"></path>
+            <polygon id="Fill-663" fill="#1485E0" points="16 24 18 24 18 22 16 22"></polygon>
+            <polygon id="Fill-664" fill="#1485E0" points="20 24 22 24 22 22 20 22"></polygon>
+            <polygon id="Fill-665" fill="#1485E0" points="24 24 26 24 26 22 24 22"></polygon>
+            <polygon id="Fill-666" fill="#1485E0" points="28 24 30 24 30 22 28 22"></polygon>
+            <polygon id="Fill-667" fill="#1485E0" points="32 24 34 24 34 22 32 22"></polygon>
+            <polygon id="Fill-668" fill="#1485E0" points="36 24 38 24 38 22 36 22"></polygon>
+            <polygon id="Fill-669" fill="#1485E0" points="40 24 42 24 42 22 40 22"></polygon>
+            <polygon id="Fill-670" fill="#1485E0" points="12 33 30 33 30 32 12 32"></polygon>
+            <polygon id="Fill-671" fill="#1485E0" points="12 37 30 37 30 36 12 36"></polygon>
+            <rect id="Rectangle-5" fill="#C4E1F7" x="37" y="45" width="18" height="16" rx="4"></rect>
+            <path d="M39,46 C38.448,46 38,46.448 38,47 L38,59 C38,59.552 38.448,60 39,60 L53,60 C53.552,60 54,59.552 54,59 L54,47 C54,46.448 53.552,46 53,46 L39,46 Z M53,62 L39,62 C37.346,62 36,60.654 36,59 L36,47 C36,45.346 37.346,44 39,44 L53,44 C54.654,44 56,45.346 56,47 L56,59 C56,60.654 54.654,62 53,62 L53,62 Z" id="Fill-658" fill="#1485E0"></path>
+            <path d="M45,52.7316883 L45,57 L47,57 L47,52.7316883 C47.5974098,52.3854293 48,51.7389429 48,51 C48,49.897 47.103,49 46,49 C44.897,49 44,49.897 44,51 C44,51.7389429 44.4025902,52.3854293 45,52.7316883 Z" id="Combined-Shape" stroke="#1485E0" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
