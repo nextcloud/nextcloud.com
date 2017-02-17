@@ -79,6 +79,7 @@ require get_template_directory().'/strings.php';
 						<li class="nav__item"><a href="<?php echo home_url('about') ?>"><?php echo $l->t('About us');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('team') ?>"><?php echo $l->t('Team');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('contributors') ?>"><?php echo $l->t('Community');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('events') ?>"><?php echo $l->t('Events');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('jobs') ?>"><?php echo $l->t('Jobs');?></a></li>
 					</ul>
 				</li>
