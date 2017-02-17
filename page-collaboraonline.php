@@ -3,7 +3,20 @@
 	require(["require.config"], function() {
 		require(["pages/collabora"])
 	});
+
+// 	require(["require.config"], function() {
+// 		require(["vendor/jquery.min", "vendor/jquery.ui", "bootstrap"],
+// 			function ($, jqueryui) {
+// 				require(["vendor/jquery.youtubepopup"],
+// 					function (jqyoutube) {
+// 						jQuery("a.youtube").YouTubePopup({ hideTitleBar: true });
+// 					}
+// 				);
+// 			}
+// 		);
+// 	});
 </script>
+
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/collabora.css">
 </head>
 
@@ -22,7 +35,7 @@
 	<div class="container">
 		<div class="featurerow">
 			<div class="row">
-				<div class="col-md-10">
+				<div class="col-md-10 collaboravideo">
 					<br />
 					<iframe width="100%" height="500" src="https://www.youtube.com/embed/sZpYXUD1ZVM" frameborder="0" allowfullscreen></iframe>
 				</div>
@@ -66,7 +79,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 featureblock text-center revealOnScroll">
-				<p class=""><?php echo $l->t('Enterprise users who need a more reliable and scalable solution can take advantage of our <a href="/enterprise" style="color:white">optional support contract</a> for Collabora Online.');?></p>
+				<p class=""><?php echo $l->t('Enterprise users who need a more reliable and scalable solution can take advantage of our <a href="/enterprise" class="hyperlink"">optional support contract</a> for Collabora Online.');?></p>
 				<div class="text-center morebuttondiv">
 					<a href="/buy" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
@@ -77,7 +90,7 @@
 
 <section class="collabora-integration">
 	<div class="container">
-		<div class="col-md-8 col-md-offset-2">
+		<div class="col-md-10 col-md-offset-1">
 			<div class="featurerow">
 				<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Collabora Online integration tutorial video');?></h2>
 				<div class="row">

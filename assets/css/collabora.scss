@@ -14,6 +14,12 @@
 }
 /* feature blocks */
 
+.collaboravideo {
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .featurerow {
 	margin-top: 100px;
 	padding-bottom: 50px;
@@ -74,6 +80,9 @@
 	p {
 		color: white;
 	}
+    a {
+            color: white;
+    }
 }
 
 footer {

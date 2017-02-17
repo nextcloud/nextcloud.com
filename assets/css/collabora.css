@@ -17,6 +17,11 @@
   padding-top: 50px; }
 
 /* feature blocks */
+.collaboravideo {
+  float: none;
+  margin-left: auto;
+  margin-right: auto; }
+
 .featurerow {
   margin-top: 100px;
   padding-bottom: 50px; }
@@ -52,6 +57,8 @@
   padding: 50px 0px;
   background: #0082c9; }
   .quote p {
+    color: white; }
+  .quote a {
     color: white; }
 
 footer {
