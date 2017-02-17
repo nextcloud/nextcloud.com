@@ -16,6 +16,11 @@
 /* All headers */
 .featureblock {
   padding-top: 50px; }
+  .featureblock .features--container {
+    display: inline-block;
+    padding-top: 60px; }
+    .featureblock .features--container .feature {
+      padding: 15px 0; }
   .featureblock .screenshot {
     /* 	padding: 20px; */
     margin-top: 20px;

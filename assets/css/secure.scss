@@ -13,8 +13,16 @@
 /* All headers */
 
 .featureblock {
-	padding-top: 50px;
+	padding-top: 50px; 
 
+	.features--container {
+		display: inline-block;
+		padding-top: 60px;
+
+		.feature {
+			padding: 15px 0;
+		}		
+	}
 	
 	.screenshot {
 	/* 	padding: 20px; */
