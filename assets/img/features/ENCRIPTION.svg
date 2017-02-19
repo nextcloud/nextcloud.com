@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ENCRIPTION</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="STYLEGUIDE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ENCRIPTION">
+            <rect id="Rectangle-6" fill="#C4E1F7" x="0" y="4" width="64" height="45" rx="4"></rect>
+            <path d="M4,5 C2.897,5 2,5.897 2,7 L2,47 C2,48.103 2.897,49 4,49 L60,49 C61.103,49 62,48.103 62,47 L62,7 C62,5.897 61.103,5 60,5 L4,5 Z M60,51 L4,51 C1.794,51 0,49.206 0,47 L0,7 C0,4.794 1.794,3 4,3 L60,3 C62.206,3 64,4.794 64,7 L64,47 C64,49.206 62.206,51 60,51 L60,51 Z" id="Fill-568" fill="#1485E0"></path>
+            <rect id="Rectangle-7" fill="#FFFFFF" x="6" y="9" width="52" height="32"></rect>
+            <polyline id="Fill-569" fill="#1485E0" points="40.042 60.287 37.042 50.287 38.958 49.713 41.958 59.713 40.042 60.287"></polyline>
+            <polyline id="Fill-570" fill="#1485E0" points="23.958 60.287 22.042 59.713 25.042 49.713 26.958 50.287 23.958 60.287"></polyline>
+            <polygon id="Fill-571" fill="#1485E0" points="19 61 45 61 45 59 19 59"></polygon>
+            <polygon id="Fill-572" fill="#1485E0" points="31 47 33 47 33 45 31 45"></polygon>
+            <path d="M6,41 L58,41 L58,9 L6,9 L6,41 Z M59,43 L5,43 C4.447,43 4,42.552 4,42 L4,8 C4,7.448 4.447,7 5,7 L59,7 C59.553,7 60,7.448 60,8 L60,42 C60,42.552 59.553,43 59,43 L59,43 Z" id="Fill-573" fill="#1485E0"></path>
+            <polygon id="Fill-574" fill="#1485E0" points="17 23 19 23 19 21 17 21"></polygon>
+            <polygon id="Fill-575" fill="#1485E0" points="39 23 43 23 43 21 39 21"></polygon>
+            <polygon id="Fill-576" fill="#1485E0" points="43 25 47 25 47 23 43 23"></polygon>
+            <polygon id="Fill-577" fill="#1485E0" points="45 27 47 27 47 25 45 25"></polygon>
+            <polygon id="Fill-578" fill="#1485E0" points="43 29 45 29 45 27 43 27"></polygon>
+            <polygon id="Fill-579" fill="#1485E0" points="43 31 47 31 47 29 43 29"></polygon>
+            <polygon id="Fill-580" fill="#1485E0" points="47 29 51 29 51 27 47 27"></polygon>
+            <polygon id="Fill-581" fill="#1485E0" points="39 27 41 27 41 25 39 25"></polygon>
+            <polygon id="Fill-582" fill="#1485E0" points="37 25 41 25 41 23 37 23"></polygon>
+            <polygon id="Fill-583" fill="#1485E0" points="35 29 37 29 37 27 35 27"></polygon>
+            <polygon id="Fill-584" fill="#1485E0" points="33 27 35 27 35 25 33 25"></polygon>
+            <polygon id="Fill-585" fill="#1485E0" points="35 31 39 31 39 29 35 29"></polygon>
+            <polygon id="Fill-586" fill="#1485E0" points="35 33 37 33 37 31 35 31"></polygon>
+            <polygon id="Fill-587" fill="#1485E0" points="39 35 41 35 41 31 39 31"></polygon>
+            <polygon id="Fill-588" fill="#1485E0" points="37 37 39 37 39 35 37 35"></polygon>
+            <polygon id="Fill-589" fill="#1485E0" points="45 35 47 35 47 33 45 33"></polygon>
+            <polygon id="Fill-590" fill="#1485E0" points="51 35 53 35 53 33 51 33"></polygon>
+            <polygon id="Fill-591" fill="#1485E0" points="43 37 45 37 45 35 43 35"></polygon>
+            <polygon id="Fill-592" fill="#1485E0" points="47 37 51 37 51 35 47 35"></polygon>
+            <polygon id="Fill-593" fill="#1485E0" points="31 37 35 37 35 35 31 35"></polygon>
+            <polygon id="Fill-594" fill="#1485E0" points="29 35 31 35 31 33 29 33"></polygon>
+            <polygon id="Fill-595" fill="#1485E0" points="23 35 27 35 27 33 23 33"></polygon>
+            <polygon id="Fill-596" fill="#1485E0" points="27 29 29 29 29 27 27 27"></polygon>
+            <polygon id="Fill-597" fill="#1485E0" points="25 27 29 27 29 25 25 25"></polygon>
+            <polygon id="Fill-598" fill="#1485E0" points="23 25 25 25 25 23 23 23"></polygon>
+            <polygon id="Fill-599" fill="#1485E0" points="19 27 23 27 23 25 19 25"></polygon>
+            <polygon id="Fill-600" fill="#1485E0" points="13 21 17 21 17 19 13 19"></polygon>
+            <polygon id="Fill-601" fill="#1485E0" points="17 29 21 29 21 27 17 27"></polygon>
+            <polygon id="Fill-602" fill="#1485E0" points="19 33 21 33 21 31 19 31"></polygon>
+            <polygon id="Fill-603" fill="#1485E0" points="23 31 27 31 27 29 23 29"></polygon>
+            <polygon id="Fill-604" fill="#1485E0" points="23 33 25 33 25 31 23 31"></polygon>
+            <polygon id="Fill-605" fill="#1485E0" points="21 37 23 37 23 35 21 35"></polygon>
+            <polygon id="Fill-606" fill="#1485E0" points="25 37 27 37 27 35 25 35"></polygon>
+            <polygon id="Fill-607" fill="#1485E0" points="29 33 33 33 33 31 29 31"></polygon>
+            <polygon id="Fill-608" fill="#1485E0" points="31 29 33 29 33 27 31 27"></polygon>
+            <polygon id="Fill-609" fill="#1485E0" points="29 25 33 25 33 23 29 23"></polygon>
+            <polygon id="Fill-610" fill="#1485E0" points="17 25 19 25 19 23 17 23"></polygon>
+            <polygon id="Fill-611" fill="#1485E0" points="15 35 19 35 19 33 15 33"></polygon>
+            <polygon id="Fill-612" fill="#1485E0" points="29 17 33 17 33 15 29 15"></polygon>
+            <polygon id="Fill-613" fill="#1485E0" points="31 21 37 21 37 19 31 19"></polygon>
+            <polygon id="Fill-614" fill="#1485E0" points="25 19 31 19 31 17 25 17"></polygon>
+            <polygon id="Fill-615" fill="#1485E0" points="33 23 35 23 35 21 33 21"></polygon>
+            <polygon id="Fill-616" fill="#1485E0" points="13 23 15 23 15 21 13 21"></polygon>
+            <polygon id="Fill-617" fill="#1485E0" points="21 23 29 23 29 21 21 21"></polygon>
+            <polygon id="Fill-618" fill="#1485E0" points="39 19 47 19 47 17 39 17"></polygon>
+            <polygon id="Fill-619" fill="#1485E0" points="49 33 53 33 53 31 49 31"></polygon>
+            <polygon id="Fill-620" fill="#1485E0" points="51 31 53 31 53 29 51 29"></polygon>
+            <polygon id="Fill-621" fill="#1485E0" points="49 27 53 27 53 25 49 25"></polygon>
+            <polygon id="Fill-622" fill="#1485E0" points="45 23 51 23 51 21 45 21"></polygon>
+            <polygon id="Fill-623" fill="#1485E0" points="51 21 53 21 53 19 51 19"></polygon>
+            <polygon id="Fill-624" fill="#1485E0" points="49 19 53 19 53 17 49 17"></polygon>
+            <polygon id="Fill-625" fill="#1485E0" points="45 17 49 17 49 15 45 15"></polygon>
+            <polygon id="Fill-626" fill="#1485E0" points="51 15 53 15 53 13 51 13"></polygon>
+            <polygon id="Fill-627" fill="#1485E0" points="43 15 47 15 47 13 43 13"></polygon>
+            <polygon id="Fill-628" fill="#1485E0" points="41 17 43 17 43 15 41 15"></polygon>
+            <polygon id="Fill-629" fill="#1485E0" points="37 15 41 15 41 13 37 13"></polygon>
+            <polygon id="Fill-630" fill="#1485E0" points="35 19 37 19 37 15 35 15"></polygon>
+            <polygon id="Fill-631" fill="#1485E0" points="21 19 23 19 23 17 21 17"></polygon>
+            <polygon id="Fill-632" fill="#1485E0" points="15 19 19 19 19 17 15 17"></polygon>
+            <polygon id="Fill-633" fill="#1485E0" points="11 19 13 19 13 17 11 17"></polygon>
+            <polygon id="Fill-634" fill="#1485E0" points="11 23 13 23 13 21 11 21"></polygon>
+            <polygon id="Fill-635" fill="#1485E0" points="11 27 13 27 13 25 11 25"></polygon>
+            <polygon id="Fill-636" fill="#1485E0" points="13 31 17 31 17 29 13 29"></polygon>
+            <polygon id="Fill-637" fill="#1485E0" points="15 27 17 27 17 25 15 25"></polygon>
+            <polygon id="Fill-638" fill="#1485E0" points="11 33 13 33 13 31 11 31"></polygon>
+            <polygon id="Fill-639" fill="#1485E0" points="13 37 17 37 17 35 13 35"></polygon>
+            <polygon id="Fill-640" fill="#1485E0" points="11 35 13 35 13 33 11 33"></polygon>
+            <polygon id="Fill-641" fill="#1485E0" points="19 17 23 17 23 15 19 15"></polygon>
+            <polygon id="Fill-642" fill="#1485E0" points="23 15 27 15 27 13 23 13"></polygon>
+            <polygon id="Fill-643" fill="#1485E0" points="11 15 19 15 19 13 11 13"></polygon>
+            <polygon id="Fill-644" fill="#1485E0" points="31 15 35 15 35 13 31 13"></polygon>
+        </g>
+    </g>
+</svg>
