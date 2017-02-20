@@ -60,7 +60,9 @@ code {
 
 pre {
   color: #558;
-  background-color: #efefff; }
+  background-color: #efefff;
+  max-height: 500px;
+  overflow-style: scroll; }
 
 .featureblock .section--heading-1 {
   margin-top: 5px;
@@ -68,6 +70,10 @@ pre {
   margin-bottom: 5px; }
 .featureblock .wrapper--buttons .button {
   margin: 20px 10px 20px 20px; }
+
+.collabora-integration h1, .collabora-integration h2, .collabora-integration h3, .collabora-integration h4 {
+  margin-top: 70px;
+  margin-bottom: 20px; }
 
 .call-to-action {
   margin: 80px 0 0px 0;

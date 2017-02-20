@@ -68,6 +68,8 @@ code {
 pre {
     color: #558;
     background-color: #efefff;
+	max-height: 500px;
+	overflow-style: scroll;
 }
 
 .featureblock {
@@ -83,6 +85,15 @@ pre {
 		}
 	}
 }
+
+.collabora-integration {
+	h1, h2, h3, h4 {
+		margin-top: 70px;
+		margin-bottom: 20px;
+	}
+	
+}
+
 
 .call-to-action {
 	margin: 80px 0 0px 0;

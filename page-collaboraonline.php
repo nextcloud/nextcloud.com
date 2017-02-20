@@ -108,7 +108,7 @@
 		<div class="col-md-10 col-md-offset-1">
 			<div class="featurerow">
 				<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Collabora Online integration tutorial video');?></h2>
-				<p class="section--paragraph"><?php echo $l->t('We are able to provide a solution for Online Office for the entire Nextcloud community through our <a target="_blank" class="hyperlink" href="https://nextcloud.com/?p=589">partnership with Collabora</a> in an <strong>easy to use <a class="hyperlink" href="https://hub.docker.com/r/collabora/code">docker image</a> for home users</strong>.');?></p>
+				<p class="section--paragraph text-center"><?php echo $l->t('We are able to provide a solution for Online Office for the entire Nextcloud community through our <a target="_blank" class="hyperlink" href="https://nextcloud.com/?p=589">partnership with Collabora</a> in an <strong>easy to use <a class="hyperlink" href="https://hub.docker.com/r/collabora/code">docker image</a> for home users</strong>.');?></p>
 				<div class="row">
 					<div class="col-md-1">
 					</div>
