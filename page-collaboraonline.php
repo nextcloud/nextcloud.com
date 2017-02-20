@@ -1,20 +1,23 @@
 <head>
+<link class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/css/about.css" rel="stylesheet">
+<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+<link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
 <script>
-	require(["require.config"], function() {
-		require(["pages/collabora"])
-	});
-
 // 	require(["require.config"], function() {
-// 		require(["vendor/jquery.min", "vendor/jquery.ui", "bootstrap"],
-// 			function ($, jqueryui) {
-// 				require(["vendor/jquery.youtubepopup"],
-// 					function (jqyoutube) {
-// 						jQuery("a.youtube").YouTubePopup({ hideTitleBar: true });
-// 					}
-// 				);
-// 			}
-// 		);
+// 		require(["pages/collabora"])
 // 	});
+
+	require(["require.config"], function() {
+		require(["pages/collabora", "vendor/jquery.min", "vendor/jquery.ui", "bootstrap"],
+			function ($, jqueryui) {
+				require(["vendor/jquery.youtubepopup"],
+					function (jqyoutube) {
+						jQuery("a.youtube").YouTubePopup({ hideTitleBar: true });
+					}
+				);
+			}
+		);
+	});
 </script>
 
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/collabora.css">
@@ -36,26 +39,38 @@
 		<div class="featurerow">
 			<div class="row">
 				<div class="col-md-10 collaboravideo">
-					<br />
-					<iframe width="100%" height="500" src="https://www.youtube.com/embed/sZpYXUD1ZVM" frameborder="0" allowfullscreen></iframe>
+					<div class="yt-img-overlay">
+						<a class="youtube" id="sZpYXUD1ZVM" href="https://www.youtube.com/watch?v=sZpYXUD1ZVM" title="Editing public link sharesd">
+							<img class="img-responsive featureimg" src="https://img.youtube.com/vi/sZpYXUD1ZVM/maxresdefault.jpg" title="Collabora in Nextcloud" />
+							<div class="yt-play-btn">
+								<i></i>
+							</div>
+						</a>
+					</div>
 				</div>
 				<div class="col-md-6 col-md-offset-3 text-center">
-					<p class="section--paragraph"><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite that supports all major document, spreadsheet and presentation file formats.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major document, spreadsheet and presentation file formats and works in all modern browsers.');?></p>
 				</div>
 			</div>
 		</div>
-
 		<div class="featurerow">
 			<div class="row">
-				<div class="col-md-6 floated revealOnScroll">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-document.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/collabora-document.png" alt="in action" /></a>
+				<div class="col-md-6 revealOnScroll">
+					<div class="yt-img-overlay">
+						<a class="youtube" id="8iuSFKVl-xQ" href="https://www.youtube.com/watch?v=8iuSFKVl-xQ" title="Editing public link sharesd">
+							<img class="img-responsive featureimg" src="https://img.youtube.com/vi/8iuSFKVl-xQ/maxresdefault.jpg" title="Editing public link shares" />
+							<div class="yt-play-btn">
+								<i></i>
+							</div>
+						</a>
+					</div>
 				</div>
+<!-- 				</div> -->
 				<div class="col-md-6 featureblock revealOnScroll">
 					<h2 class="section--paragraph__tittle"><?php echo $l->t('View and edit documents directly in your Nextcloud');?></h2>
-					<p class="section--paragraph"><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite that supports all major document, spreadsheet and presentation file formats.');?></p>
-					<p class="section--paragraph"><?php echo $l->t('It does support basic editing with high fidelity, WYSIWYG rendering, fully collaborative editing and anonymous editing of files in public link shared folder.');?></p>
-					<p class="section--paragraph"><?php echo $l->t('Collabora Online is supporting dozens of documents like <strong>DOC</strong>, <strong>DOCX</strong>, <strong>PPT</strong>, <strong>PPTX</strong>, <strong>XLS</strong>, <strong>XLSX + ODF</strong>, <strong>Import/View Visio</strong>, <strong>Publisher</strong> and many more...');?></p>
-
+					<p class="section--paragraph"><?php echo $l->t('Collabora Online supports editing your documents in real time with multiple other editors, showing high fidelity, WYSIWYG rendering and preserving the layout and formatting of your documents.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Users can insert and reply to comments and invite others without a Nextcloud account for anonymous editing of files with a public link shared folder.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Collabora Online supports dozens of document formats including <strong>DOC</strong>, <strong>DOCX</strong>, <strong>PPT</strong>, <strong>PPTX</strong>, <strong>XLS</strong>, <strong>XLSX + ODF</strong>, <strong>Import/View Visio</strong>, <strong>Publisher</strong> and many more...');?></p>
 				</div>
 			</div>
 		</div>
@@ -63,7 +78,7 @@
 		<div class="featurerow">
 			<div class="row">
 				<div class="col-md-6 revealOnScroll">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/options.png" alt="in action" /></a>
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/collabora-spreadsheet.png" alt="in action" /></a>
 				</div>
 				<div class="col-md-6 revealOnScroll featureblock">
 					<h2 class="section--paragraph__tittle"><?php echo $l->t('Under your control');?></h2>
@@ -79,7 +94,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 featureblock text-center revealOnScroll">
-				<p class=""><?php echo $l->t('Enterprise users who need a more reliable and scalable solution can take advantage of our <a href="/enterprise" class="hyperlink"">optional support contract</a> for Collabora Online.');?></p>
+				<p class=""><?php echo $l->t('Enterprise users who need a more reliable and scalable solution with long term support, guaranteed response times and security updates can take advantage of our <a href="/enterprise" class="hyperlink">optional support contract</a> for Collabora Online.');?></p>
 				<div class="text-center morebuttondiv">
 					<a href="/buy" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
@@ -93,12 +108,20 @@
 		<div class="col-md-10 col-md-offset-1">
 			<div class="featurerow">
 				<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Collabora Online integration tutorial video');?></h2>
+				<p class="section--paragraph"><?php echo $l->t('We are able to provide a solution for Online Office for the entire Nextcloud community through our <a target="_blank" class="hyperlink" href="https://nextcloud.com/?p=589">partnership with Collabora</a> in an <strong>easy to use <a class="hyperlink" href="https://hub.docker.com/r/collabora/code">docker image</a> for home users</strong>.');?></p>
 				<div class="row">
 					<div class="col-md-1">
 					</div>
 					<div class="col-md-10">
 					<br />
-					<iframe width="100%" height="500" src="https://www.youtube.com/embed/MDc1bNxn3js" frameborder="0" allowfullscreen></iframe>
+						<div class="yt-img-overlay">
+							<a class="youtube" id="MDc1bNxn3js" href="https://www.youtube.com/watch?v=MDc1bNxn3js" title="Editing public link sharesd">
+								<img class="img-responsive featureimg" src="https://img.youtube.com/vi/MDc1bNxn3js/maxresdefault.jpg" title="Editing public link shares" />
+								<div class="yt-play-btn">
+									<i></i>
+								</div>
+							</a>
+						</div>
 					</div>
 					<div class="col-md-6 col-md-offset-3 text-center">
 					</div>
