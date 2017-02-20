@@ -78,9 +78,12 @@ pre {
 .call-to-action {
   margin: 80px 0 0px 0;
   padding: 50px 0px;
-  background: #0082c9; }
-  .call-to-action p {
-    color: white; }
+  background: #0082c9;
+  color: white; }
+  .call-to-action h1 {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 30px; }
   .call-to-action a {
     color: white; }
 
