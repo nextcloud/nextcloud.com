@@ -102,7 +102,7 @@
         <div class="texts-wrapper col-md-6">
 	        <div class="right-text-grey" data-slide="1">
 				<h5 class="textTrigger" id="feature-1"><?php echo $l->t('Deep integration in your infrastructure');?></h5>
-				<p><?php echo $l->t('Nextcloud offers LDAP/Active Directory, SAML and Kerboros authentication. It accesses data on NFS, (s)FTP, WebDAV, Windows Network Drive, Object Stores like SWIFT and many more.');?></p>
+				<p><?php echo $l->t('Nextcloud offers LDAP/Active Directory, SAML and Kerberos authentication. It accesses data on NFS, (s)FTP, WebDAV, Windows Network Drive, Object Stores like SWIFT and many more.');?></p>
 					<a class="button button--blue button--arrow button--large" href="<?php echo get_template_directory_uri(); ?>/assets/files/architecture-whitepaper.pdf" role="button"><?php echo $l->t('Architecture Whitepaper');?></a>
 				</p>
 	        </div>
