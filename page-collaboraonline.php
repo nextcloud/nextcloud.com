@@ -55,6 +55,13 @@
 		</div>
 		<div class="featurerow">
 			<div class="row">
+<!-- 				</div> -->
+				<div class="col-md-6 featureblock revealOnScroll">
+					<h2 class="section--paragraph__tittle"><?php echo $l->t('View and edit documents directly in your Nextcloud');?></h2>
+					<p class="section--paragraph"><?php echo $l->t('Collabora Online supports editing your documents in real time with multiple other editors, showing high fidelity, WYSIWYG rendering and preserving the layout and formatting of your documents.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Users can insert and reply to comments and invite others without a Nextcloud account for anonymous editing of files with a public link shared folder.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Collabora Online supports dozens of document formats including <strong>DOC</strong>, <strong>DOCX</strong>, <strong>PPT</strong>, <strong>PPTX</strong>, <strong>XLS</strong>, <strong>XLSX + ODF</strong>, <strong>Import/View Visio</strong>, <strong>Publisher</strong> and many more...');?></p>
+				</div>
 				<div class="col-md-6 revealOnScroll">
 					<div class="yt-img-overlay">
 						<a class="youtube" id="8iuSFKVl-xQ" href="https://www.youtube.com/watch?v=8iuSFKVl-xQ" title="Editing public link sharesd">
@@ -65,20 +72,13 @@
 						</a>
 					</div>
 				</div>
-<!-- 				</div> -->
-				<div class="col-md-6 featureblock revealOnScroll">
-					<h2 class="section--paragraph__tittle"><?php echo $l->t('View and edit documents directly in your Nextcloud');?></h2>
-					<p class="section--paragraph"><?php echo $l->t('Collabora Online supports editing your documents in real time with multiple other editors, showing high fidelity, WYSIWYG rendering and preserving the layout and formatting of your documents.');?></p>
-					<p class="section--paragraph"><?php echo $l->t('Users can insert and reply to comments and invite others without a Nextcloud account for anonymous editing of files with a public link shared folder.');?></p>
-					<p class="section--paragraph"><?php echo $l->t('Collabora Online supports dozens of document formats including <strong>DOC</strong>, <strong>DOCX</strong>, <strong>PPT</strong>, <strong>PPTX</strong>, <strong>XLS</strong>, <strong>XLSX + ODF</strong>, <strong>Import/View Visio</strong>, <strong>Publisher</strong> and many more...');?></p>
-				</div>
 			</div>
 		</div>
 
 		<div class="featurerow">
 			<div class="row">
 				<div class="col-md-6 revealOnScroll">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/collabora-spreadsheet.png" alt="in action" /></a>
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/collabora.png" alt="in action" /></a>
 				</div>
 				<div class="col-md-6 revealOnScroll featureblock">
 					<h2 class="section--paragraph__tittle"><?php echo $l->t('Under your control');?></h2>
