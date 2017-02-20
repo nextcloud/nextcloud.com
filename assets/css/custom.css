@@ -1295,7 +1295,7 @@ blockquote {
   top: 0px;
   overflow: hidden;
   display: block;
-  max-width: 90%;
+  /* 	max-width: 90%; */
   height: auto;
   /* 	margin: 1%; */
   /* 	margin-top: 3%; */
@@ -1313,7 +1313,7 @@ blockquote {
     /* 		width: 22.8%; */ }
   .yt-img-overlay .yt-play-btn {
     padding-left: 40%;
-    padding-top: 20%;
+    padding-top: 23%;
     /* 	padding-top: 20%; */
     position: absolute;
     top: 0;
@@ -1345,6 +1345,16 @@ blockquote {
       height: 50px;
       display: inline-block; }
 
+/* In case of a big video, make the button bigger, too */
+@media (min-width: 991px) {
+  .col-md-10 .yt-img-overlay .yt-play-btn, .col-md-11 .yt-img-overlay .yt-play-btn, .col-md-12 .yt-img-overlay .yt-play-btn {
+    padding-left: 45%;
+    padding-top: 25%;
+    width: 100%;
+    height: 100%; }
+    .col-md-10 .yt-img-overlay .yt-play-btn i, .col-md-11 .yt-img-overlay .yt-play-btn i, .col-md-12 .yt-img-overlay .yt-play-btn i {
+      width: 102px;
+      height: 75px; } }
 /* Make sure you don't get scrollbars! */
 .ui-dialog .ui-dialog-content {
   overflow: hidden !important; }
@@ -1412,6 +1422,6 @@ blockquote {
 @media (max-width: 768px) {
   .yt-img-overlay .yt-play-btn {
     padding-left: 33%;
-    padding-top: 22%; } }
+    padding-top: 26%; } }
 
 /*# sourceMappingURL=custom.css.map */
