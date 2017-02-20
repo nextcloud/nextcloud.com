@@ -43,6 +43,7 @@ $l = new L10N('footer');
             <ul  class="revealOnScroll">
                 <li><a href="https://plus.google.com/b/104036748063781940910/104036748063781940910/about"><?php echo $l->t('Google+') ?></a></li>
                 <li><a href="https://www.facebook.com/Nextcloud-1032807203462807/"><?php echo $l->t('Facebook') ?></a></li>
+                <li><a href="https://instagram.com/nextclouders"><?php echo $l->t('Instagram') ?></a></li>
                 <li><a href="https://twitter.com/nextclouders"><?php echo $l->t('Twitter') ?></a></li>
                 <li><a href="https://youtube.com/nextcloud"><?php echo $l->t('YouTube') ?></a></li>
                 <li><a href="<?php echo home_url('blogfeed') ?>">RSS <?php echo $l->t('Feed') ?></a></li>
