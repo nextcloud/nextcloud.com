@@ -211,8 +211,7 @@
 				<li class="section--paragraph"><?php echo $l->t('Admin -&gt; Collabora Online -&gt; Specify the server you have setup before (e.g. "<a href="https://office.nextcloud.com/">https://office.nextcloud.com</a>")');?></li>
 			</ol>
 			<h3><?php echo $l->t('Congratulations, your Nextcloud has Collabora Online Office integrated!');?></h3>
-
-
+			<hr>
 			<h2 class="section--heading-2 section--text--center"><?php echo $l->t('Updating');?></h2>
 			<p class="section--paragraph"><?php echo $l->t('Occasionally, new versions of this docker image are released with security and feature updates. We will of course let you know when that happens! This is how you upgrade to a new version:');?></p>
 			<ul>
@@ -228,7 +227,7 @@
 			<code>docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --restart always --cap-add MKNOD collabora/code</code></li>
 			</ul>
 			<p class="section--paragraph"><?php echo $l->t('Enjoy!');?></p>
-
+			<hr>
 			<h2 class="section--heading-2 section--text--center"><?php echo $l->t('Troubleshooting');?></h2>
 			<p class="section--paragraph"><?php echo $l->t('Some common issues:');?></p>
 			<ul>
@@ -258,9 +257,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 featureblock text-center revealOnScroll">
-				<p class=""><?php echo $l->t('Let us know what you think <a class="hyperlink" href="https://help.nextcloud.com/c/support/collabora">in the forums</a>!');?></p>
+				<p class=""><?php echo $l->t('Let us know what you think in the forums!');?></p>
 				<div class="text-center morebuttondiv">
-					<a href="https://help.nextcloud.com/c/support/collabora" class="button button--large button--arrow"><?php echo $l->t('Give us feedback!');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="https://help.nextcloud.com/c/support/collabora" class="button button--large button--arrow"><?php echo $l->t('Talk to us!');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>
