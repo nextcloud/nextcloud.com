@@ -53,7 +53,7 @@
 		background-image: none;
 		background: transparent;
 		
-		@media (max-width: $navbar-breaksize) {
+		@media (max-width: $break-small) {
 			display: none;
 		}
 	}
@@ -61,7 +61,7 @@
 		background-image: none;
 		background: transparent;
 		
-		@media (max-width: $navbar-breaksize) {
+		@media (max-width: $break-small) {
 			display: none;
 		}
 	}

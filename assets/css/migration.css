@@ -48,13 +48,13 @@
     .migration-background .topquote .carousel-control.left {
       background-image: none;
       background: transparent; }
-      @media (max-width: 1200px) {
+      @media (max-width: 768px) {
         .migration-background .topquote .carousel-control.left {
           display: none; } }
     .migration-background .topquote .carousel-control.right {
       background-image: none;
       background: transparent; }
-      @media (max-width: 1200px) {
+      @media (max-width: 768px) {
         .migration-background .topquote .carousel-control.right {
           display: none; } }
     .migration-background .topquote .carousel-control .glyphicon-chevron-left, .migration-background .topquote .carousel-control .icon-prev {
