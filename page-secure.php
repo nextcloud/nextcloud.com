@@ -103,6 +103,21 @@
 				</div>
 
 				<div class="feature">
+				<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+				  <title>
+				    SECURITY TOOLS
+				  </title>
+				  <g fill="none" fill-rule="evenodd">
+				    <path fill="#C4E1F7" d="M18 2l7 3 4-3h6l4 3 7-3v28l-14 9-14-9"/>
+				    <path d="M5.414 58h53.172L62 54.586V54H39.414l-1.707 1.707c-.187.188-.44.293-.707.293H27c-.266 0-.52-.105-.707-.293L24.586 54H2v.586L5.414 58zM59 60H5c-.266 0-.52-.105-.707-.293l-4-4C.105 55.52 0 55.265 0 55v-2c0-.552.447-1 1-1h24c.266 0 .52.105.707.293L27.414 54h9.172l1.707-1.707c.187-.188.44-.293.707-.293h24c.553 0 1 .448 1 1v2c0 .265-.105.52-.293.707l-4 4c-.187.188-.44.293-.707.293zM6 50H4V20c0-2.206 1.794-4 4-4h7v2H8c-1.103 0-2 .897-2 2v30M60 50h-2V20c0-1.103-.897-2-2-2h-7v-2h7c2.206 0 4 1.794 4 4v30M27 48h2v-2h-2M23 48h2v-2h-2M31 48h2v-2h-2M35 48h2v-2h-2M39 48h2v-2h-2" fill="#1485E0"/>
+				    <path d="M55 48H43v-2h11V22h-5v-2h6c.553 0 1 .448 1 1v26c0 .552-.447 1-1 1M21 48H9c-.553 0-1-.448-1-1V21c0-.552.447-1 1-1h6v2h-5v24h11v2" fill="#1485E0"/>
+				    <path d="M19 29.485l13 9.286 13-9.285V3.443l-6.648 2.494c-.367.135-.783.048-1.06-.23L34.587 3h-5.172l-2.707 2.707c-.277.278-.688.365-1.06.23L19 3.443v26.042zM32 41c-.204 0-.407-.062-.58-.186l-14-10c-.264-.188-.42-.49-.42-.814V2c0-.328.16-.635.43-.822.268-.186.613-.23.922-.115l7.396 2.774 2.545-2.544C28.48 1.105 28.733 1 29 1h6c.266 0 .52.105.707.293l2.545 2.544 7.396-2.774c.31-.114.654-.07.92.115.27.187.432.494.432.822v28c0 .323-.156.626-.42.814l-14 10c-.173.124-.376.186-.58.186z" fill="#1485E0"/>
+				    <path fill="#1485E0" d="M25 9h2V5h-2M37 9h2V5h-2"/>
+				    <circle fill="#FFF" cx="32" cy="19" r="8"/>
+				    <path d="M31 24c-.256 0-.512-.098-.707-.293l-3-3 1.414-1.414L31 21.586l4.293-4.293 1.414 1.414-5 5c-.195.195-.45.293-.707.293" fill="#1485E0"/>
+				    <path d="M32 13c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm0 16c-4.963 0-9-4.038-9-9s4.037-9 9-9 9 4.038 9 9-4.037 9-9 9z" fill="#1485E0"/>
+				  </g>
+				</svg>
 					<p class="section--paragraph__tittle"><?php echo $l->t('Existing security tools');?><p/>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud offers built in monitoring tools and integrates with existing MDM, DLP, event logging and backup tools, enabling existing tool chains to be used to monitor, back up and restore systems.');?></p>
 				</div>
@@ -139,6 +154,23 @@
 		<div class="features--container">
 			<div class="col-md-6">
 				<div class="feature">
+				<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+				  <title>
+				    MONITORING
+				  </title>
+				  <g fill="none" fill-rule="evenodd">
+				    <rect fill="#C4E1F7" y="4" width="64" height="45" rx="4"/>
+				    <path d="M4 5c-1.103 0-2 .897-2 2v40c0 1.103.897 2 2 2h56c1.103 0 2-.897 2-2V7c0-1.103-.897-2-2-2H4zm56 46H4c-2.206 0-4-1.794-4-4V7c0-2.206 1.794-4 4-4h56c2.206 0 4 1.794 4 4v40c0 2.206-1.794 4-4 4z" fill="#1485E0"/>
+				    <path fill="#1485E0" d="M40.042 60.287l-3-10 1.916-.574 3 10-1.916.574M23.958 60.287l-1.916-.574 3-10 1.916.574-3 10"/>
+				    <path fill="#1485E0" d="M19 61h26v-2H19M31 47h2v-2h-2M6 41h52V9H6v32zm53 2H5c-.553 0-1-.447-1-1V8c0-.553.447-1 1-1h54c.553 0 1 .447 1 1v34c0 .553-.447 1-1 1z"/>
+				    <path fill="#FFF" d="M6 9h52v32H6z"/>
+				    <path d="M12.394 25C14.75 27.344 23.13 35 32 35c8.87 0 17.25-7.656 19.606-10C49.25 22.656 40.87 15 32 15c-8.87 0-17.25 7.656-19.606 10zM32 37c-11.312 0-21.32-10.865-21.74-11.327-.347-.382-.347-.964 0-1.346C10.68 23.865 20.688 13 32 13c11.313 0 21.32 10.865 21.74 11.327.347.382.347.964 0 1.346C53.32 26.135 43.313 37 32 37z" fill="#1485E0"/>
+				    <path d="M20 25h2c0 5.514 4.486 10 10 10s10-4.486 10-10-4.486-10-10-10v-2c6.617 0 12 5.383 12 12s-5.383 12-12 12-12-5.383-12-12z" fill="#1485E0"/>
+				    <path d="M26 25h-2c0-4.41 3.59-8 8-8v2c-3.31 0-6 2.69-6 6M32 33v-2c3.31 0 6-2.69 6-6h2c0 4.41-3.59 8-8 8" fill="#1485E0"/>
+				    <circle fill="#C4E1F7" cx="32" cy="25" r="3"/>
+				    <path d="M32 23c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2zm0 6c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4z" fill="#1485E0"/>
+				  </g>
+				</svg>
 					<p class="section--paragraph__tittle"><?php echo $l->t('Logging and monitoring');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud has built in <a class="hyperlink" href="/workflow/#monitoring">monitoring and logging tools</a>, compatible with industry standard tools like Splunk, Nagios and OpenNMS. It also offers a full, compliance-ready activity log for reporting and auditing purposes.');?></p>
 				</div>
