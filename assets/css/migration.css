@@ -22,7 +22,7 @@
       top: 20% !important; } }
   .migration-background .topquote {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 60%;
     margin: 0;
     padding: 0;
@@ -35,19 +35,36 @@
         max-width: 95%;
         max-width: 500px;
         top: 65%;
-        left: 28%;
+        left: 25%;
         margin-right: 5px; } }
     @media (max-width: 768px) {
       .migration-background .topquote {
         top: 55%;
         left: 8%; } }
+    .migration-background .topquote .carousel-inner {
+      height: 100%;
+      min-height: 300px; }
+    .migration-background .topquote .carousel-control.left {
+      background-image: none;
+      background: transparent; }
+    .migration-background .topquote .carousel-control.right {
+      background-image: none;
+      background: transparent; }
+    .migration-background .topquote .carousel-control .glyphicon-chevron-left, .migration-background .topquote .carousel-control .icon-prev {
+      left: -50%; }
+    .migration-background .topquote .carousel-control .glyphicon-chevron-right, .migration-background .topquote .carousel-control .icon-next {
+      right: -40%; }
     .migration-background .topquote h2 {
       text-align: right; }
       .migration-background .topquote h2 a {
-        color: white; }
+        transition: all 0.5s ease;
+        color: white;
+        border-bottom: solid 1px white;
+        text-decoration: none; }
         .migration-background .topquote h2 a:hover {
-          text-decoration: underline;
-          color: white; }
+          text-decoration: none;
+          color: #a2a2a2;
+          border-bottom: solid 1px #a2a2a2; }
     .migration-background .topquote h3 {
       color: white;
       font-size: 18px;

@@ -22,7 +22,7 @@
 	
   .topquote {
     position: absolute;
-    top: 50%;
+    top: 45%;
 	left: 60%;
     margin: 0;
     padding: 0;
@@ -35,27 +35,52 @@
 		max-width: 95%;
 		max-width: 500px;
 		top: 65%;
-		left: 28%;
+		left: 25%;
 		margin-right: 5px;
     }
-    
-    
+
 	@media (max-width: $break-small) {
 		top: 55%;
 		left: 8%;
 	}
+
+	.carousel-inner {
+		height: 100%;
+		min-height: 300px;
+	}
 	
-    h2 {
+	.carousel-control.left {
+		background-image: none;
+		background: transparent;
+	}
+	.carousel-control.right {
+		background-image: none;
+		background: transparent;
+	}
+
+	.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+		left: -50%;
+	}
+
+	.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+		right: -40%;
+	}
+
+	h2 {
 		text-align: right;
 		a {
+			transition: all 0.5s ease;
 			color: white;
+			border-bottom: solid 1px white;
+			text-decoration: none;
 			&:hover {
-				text-decoration: underline;
-				color: white;
+				text-decoration: none;
+				color: #a2a2a2;
+				border-bottom: solid 1px #a2a2a2;
 			}
 		}
 	}
-	
+
 	h3 {
 		color: white;
 		font-size: 18px;
