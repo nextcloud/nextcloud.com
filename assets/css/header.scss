@@ -10,7 +10,7 @@
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     opacity: 0;
-    
+	display: none;
     @media (min-width: $break-big) {
         display: none;
     }
@@ -25,6 +25,7 @@
 
     &.is-animatable {
         opacity: 1;
+		display: block;
     }
     .mobile-bg {
         position: absolute;
@@ -143,6 +144,7 @@
                     -webkit-transition: 0.3s;
                     transition: 0.3s;
             		visibility: visible;
+					display: block;
                 }
             }
          }

@@ -11,7 +11,8 @@
   position: fixed;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  opacity: 0; }
+  opacity: 0;
+  display: none; }
   @media (min-width: 991px) {
     .mobile-bg-container {
       display: none; } }
@@ -21,7 +22,8 @@
       .mobile-bg-container.visible {
         display: none; } }
   .mobile-bg-container.is-animatable {
-    opacity: 1; }
+    opacity: 1;
+    display: block; }
   .mobile-bg-container .mobile-bg {
     position: absolute;
     background: #0082c9;
@@ -115,7 +117,8 @@
         .nav .container .nav__bg-wrapper .nav__bg.is-animatable {
           -webkit-transition: 0.3s;
           transition: 0.3s;
-          visibility: visible; }
+          visibility: visible;
+          display: block; }
     .nav .container .navbar-toggle {
       display: none; }
     .nav .container .brand {
