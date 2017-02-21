@@ -11,8 +11,8 @@
   background-size: cover;
 
   @media (max-width: $navbar-breaksize) {
-	min-height: 850px !important; 
-	max-height: 1000px !important;
+	min-height: 1050px !important; 
+	max-height: 1200px !important;
   }
 	.topheader {
 		@media (max-width: $break-small) {
@@ -22,7 +22,7 @@
 	
   .topquote {
     position: absolute;
-    top: 45%;
+    top: 55%;
 	left: 60%;
     margin: 0;
     padding: 0;
@@ -34,13 +34,13 @@
     @media (max-width: $navbar-breaksize) {
 		max-width: 95%;
 		max-width: 500px;
-		top: 65%;
+		top: 70%;
 		left: 25%;
 		margin-right: 5px;
     }
 
 	@media (max-width: $break-small) {
-		top: 55%;
+		top: 65%;
 		left: 8%;
 	}
 
@@ -52,10 +52,18 @@
 	.carousel-control.left {
 		background-image: none;
 		background: transparent;
+		
+		@media (max-width: $navbar-breaksize) {
+			display: none;
+		}
 	}
 	.carousel-control.right {
 		background-image: none;
 		background: transparent;
+		
+		@media (max-width: $navbar-breaksize) {
+			display: none;
+		}
 	}
 
 	.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
@@ -90,6 +98,15 @@
 			font-weight: 100;
 		}
 	}
+
+/* 	Fix width issues */
+	.row {
+		width: 100%;
+	}
+	.carousel {
+		width: 100%;
+	}
+
 	}
 }
 
@@ -108,4 +125,7 @@ small {
 
 footer {
 	margin-top: 70px;
+	small {
+		padding: 0 0 0 0;
+	}
 }
