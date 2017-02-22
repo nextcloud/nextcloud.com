@@ -27,18 +27,18 @@
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<h3><?php echo $l->t('<span class="big">"</span>We require a <span class="big">truly scalable</span> and 100% open source enterprise solution from a <span class="big">reliable partner</span> so we decided to <span class="big">migrate from ownCloud to Nextcloud"</span>');?></h3>
-							<h2><a href="/pr20160929"><?php echo $l->t('-- Martin Bech, Head of NREN at DeIC');?></a></h2>
+							<h3><?php echo $l->t('We require a <span class="big">truly scalable</span> and 100% open source enterprise solution from a <span class="big">reliable partner</span> so we decided to <span class="big">migrate from ownCloud to Nextcloud</span>');?></h3>
+							<h2><a href="/pr20160929"><?php echo $l->t('– Martin Bech, Head of NREN at DeIC');?></a></h2>
 						</div>
 
 						<div class="item">
-							<h3><?php echo $l->t('we are glad to have found a partner in Nextcloud with a <span class="big">healthy community</span> and <span class="big">strong development and support capabilities</span?>.');?></h3>
-							<h2><a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/"><?php echo $l->t('-- Stefan Döhler, project manager at regio iT');?></a></h2>
+							<h3><?php echo $l->t('We are glad to have found a partner in Nextcloud with a <span class="big">healthy community</span> and <span class="big">strong development and support capabilities</span?>.');?></h3>
+							<h2><a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/"><?php echo $l->t('– Stefan Döhler, project manager at regio iT');?></a></h2>
 						</div>
 
 						<div class="item">
 							<h3><?php echo $l->t('Die aktuellen Entwicklungen von Nextcloud, <span class="big">das Lizenzmodell</span> und die <span class="big">breite Unterstützung</span> der Community haben uns bei dieser Entscheidung bestärkt.');?></h3>
-							<h2><a href="https://blog.hrz.tu-chemnitz.de/urzcommunity/2017/01/25/neuigkeiten-von-sync-n-share/"><?php echo $l->t('-- Andreas Heik, TU Chemnitz');?></a></h2>
+							<h2><a href="https://blog.hrz.tu-chemnitz.de/urzcommunity/2017/01/25/neuigkeiten-von-sync-n-share/"><?php echo $l->t('– Andreas Heik, TU Chemnitz');?></a></h2>
 						</div>
 					</div>
 
