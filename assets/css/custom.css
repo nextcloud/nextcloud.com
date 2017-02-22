@@ -398,7 +398,8 @@ template, [hidden] {
   font-size: 3.79688em;
   font-weight: 300;
   line-height: 1.2;
-  margin: 0; }
+  margin: 0;
+  color: #333333; }
   @media (max-width: 768px) {
     .section--heading-1 {
       font-size: 2.53125em;
@@ -406,7 +407,8 @@ template, [hidden] {
       margin-top: 0; } }
 .section--heading-2 {
   font-size: 2.53125em;
-  font-weight: 300; }
+  font-weight: 300;
+  color: #333333; }
   @media (max-width: 768px) {
     .section--heading-2 {
       font-size: 2.53125em;
@@ -424,7 +426,7 @@ template, [hidden] {
   font-size: 1.125em;
   font-weight: 400;
   line-height: 1.5;
-  color: #9c9c9c; }
+  color: #6c6c6c; }
 
 .hyperlink {
   color: #a2a2a2;
@@ -558,7 +560,7 @@ h5 {
       .slideshow .container .texts-wrapper .right-text-grey .section--paragraph {
         font-size: 16px !important;
         font-weight: 400 !important;
-        color: #9c9c9c; }
+        color: #6c6c6c; }
       @media (max-width: 991px) {
         .slideshow .container .texts-wrapper .right-text-grey {
           margin-top: 0;
