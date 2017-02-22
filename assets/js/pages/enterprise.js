@@ -5,8 +5,6 @@ function ($, _, enquire, velocity, velocityUI, ScrollMagic) {
 	    var enterprisePage = {
 	        init: function() {
 
-				this.animationOnLoadPage();
-
 				enquire.register('screen and (max-width: 480px)', {
 					//match: _.bind(this.resultsBindMobile, this) 
 				});
@@ -17,14 +15,6 @@ function ($, _, enquire, velocity, velocityUI, ScrollMagic) {
 			},
 
 			variables : {
-				topHeaderSelector: ".topheader",
-				heroSectionBackgroundSelector: ".background",
-				menuAnchorSelector: "#menuAnchor"
-			},
-
-			animationOnLoadPage: function() {
-				$(this.variables.topHeaderSelector).velocity('transition.slideUpBigIn');
-				$(this.variables.heroSectionBackgroundSelector).velocity('transition.fadeIn', 1000);
 			},
 	    }
 	    enterprisePage.init();

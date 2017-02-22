@@ -1,12 +1,12 @@
-define(["jquery", "underscore", "enquire"],
-function ($, _, enquire) {
+define(["jquery", "underscore", "enquire", "velocity", "velocityUI"],
+function ($, _, enquire, velocity, velocityUI) {
     $(document).ready(function() {
         "use strict";
         var defaultComponents = {
             init: function() {
 
     			this.variables.buttonDropdownSelector.on("click", _.bind(this.buttonDropdown, this))
-                //this.smoothScroll();
+                this.animationOnLoadPage();
                 
                 enquire.register('screen and (max-width: 991px)', {
     				match: _.bind(this.modulesBindMobile, this),
@@ -20,6 +20,8 @@ function ($, _, enquire) {
     		},
 
     		variables : {
+                topHeaderSelector: ".topheader",
+                heroSectionBackgroundSelector: ".background",
     			buttonDropdownSelector: $(".button--dropdown"),
     			buttonDropdownContentSelector: $(".dropdown-content"),
                 SlideshowTextTriggerSelector: $(".textTrigger"),
@@ -49,6 +51,11 @@ function ($, _, enquire) {
     			this.variables.buttonDropdownSelector.toggleClass(this.variables.activeClass);
     			this.variables.buttonDropdownContentSelector.toggleClass(this.variables.visibleClass);
     		},
+
+            animationOnLoadPage: function() {
+                $(this.variables.topHeaderSelector).velocity('transition.slideUpBigIn');
+                $(this.variables.heroSectionBackgroundSelector).velocity('transition.fadeIn', 1000);
+            },
 
     		smoothScroll: function() {
     			$('a[href*="#"]:not([href="#"]):not([data-toggle="collapse"])').click(function() {

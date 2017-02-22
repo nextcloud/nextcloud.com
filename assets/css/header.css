@@ -41,7 +41,8 @@
   left: 0;
   right: 0;
   background: #0082c9;
-  position: relative; }
+  position: relative;
+  opacity: 0; }
   .nav.headroom {
     transition: transform 500ms ease; }
   .nav.headroom--not-top {
