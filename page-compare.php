@@ -39,11 +39,11 @@
 					<li>Limit file size</li>
 					<li class="cd-group">Interfaces</li>
 					<li>Cross-platform</li>
-					<li>Paid/free?</li>
+					<li>Apps paid/free?</li>
 					<li>Sync per file/folder</li>
 					<li>Auto upload images (mobile)</li>
 					<li>Auto upload video (mobile)</li>
-					<li>File manager integration</li>
+					<li>File manager integration (desktop)</li>
 					<li>Bandwidth limiter</li>
 					<li>LAN Sync</li>
 					<li>WebDAV</li>
@@ -80,9 +80,9 @@
 					<li>Restore older versions</li>
 					<li>Undelete</li>
 					<li>Comment on files</li>
-					<li class="cd-group">Admin features</li>
+                        <li class="cd-group">Admin features</li>
 					<li>Audit log</li>
-					<li>Monitoring app</li>
+					<li>Monitoring built in</li>
 					<li>Monitoring API</li>
 					<li class="long">Authentication: LDAP/Active Directory/SAML (OneLogin, Shibboleth, ADFS)/Kerberos</li>
 					<li class="long">External storage: Object Storage (Swift/S3)/SMB/CIFS, Sharepoint, Dropbox, Google Drive, (s)FTP, Windows Network Drive, WebDAV</li>
@@ -109,69 +109,69 @@
 						</div> <!-- .top-info -->
 
 						<ul class="cd-features-list">
-							<li>On-premise</li>
-							<li>License</li>
-							<li>Max storage</li>
-							<li>Limit file size</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li>AGPL</li>
+							<li>Unlimited</li>
+							<li>Unlimited</li>
 							<li class="cd-group">Interfaces</li>
-							<li>Cross-platform</li>
-							<li>Paid/free?</li>
-							<li>Sync per file/folder</li>
-							<li>Auto upload images (mobile)</li>
-							<li>Auto upload video (mobile)</li>
-							<li>File manager integration</li>
-							<li>Bandwidth limiter</li>
-							<li>LAN Sync</li>
-							<li>WebDAV</li>
+							<li><i class="fa fa-apple" aria-hidden="true"></i><i class="fa fa-windows" aria-hidden="true"></i><i class="fa fa-linux" aria-hidden="true"></i><i class="fa fa-android" aria-hidden="true"></i></li>
+							<li>Free</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-times" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
 							<li class="cd-group">Security</li>
-							<li>Rule based access control</li>
-							<li>Anti-virus</li>
-							<li>Encryption</li>
-							<li>Two-factor authentication</li>
-							<li>Brute force protection</li>
-							<li>NIST compliant pw policy</li>
-							<li>Web security features</li>
-							<li>Control retention</li>
-							<li>App access control</li>
-							<li>Verified security policy</li>
-							<li>Bug Bounty Program</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li>Server-side, in-flight</li>
+							<li>Included TOTP, U2F</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li>CSP 3.0, Same-site cookies w/host prefix</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li>By NCC Group</li>
+							<li>Up to USD 5000</li>
 							<li class="cd-group">Sharing</li>
-							<li>Public link (RO/RW)</li>
-							<li>Hide file listing (file drop)</li>
-							<li>Password/expiration</li>
-							<li>Federated (cross-cloud)</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
 							<li class="cd-group">Web UI</li>
-							<li>Editors for...</li>
-							<li>Collaborative document editing</li>
-							<li>... via public link</li>
-							<li>PDF viewer</li>
-							<li>Picture Gallery</li>
-							<li>Music/video player</li>
+							<li>text</li>
+							<li>optional</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li>
+							<li>both</li>
 							<li class="cd-group">File handling</li>
-							<li>Restore older versions</li>
-							<li>Undelete</li>
-							<li>Comment on files</li>
-							<li>Search by name</li>
-							<li>Full-text search</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
 							<li>Restore older versions</li>
 							<li>Undelete</li>
 							<li>Comment on files</li>
 							<li class="cd-group">Admin features</li>
-							<li>Audit log</li>
-							<li>Monitoring app</li>
-							<li>Monitoring API</li>
-							<li class="long">Authentication: LDAP/Active Directory/SAML (OneLogin, Shibboleth, ADFS)/Kerberos</li>
-							<li class="long">External storage: Object Storage (Swift/S3)/SMB/CIFS, Dropbox, Google Drive, (s)FTP, Sharepoint, Windows Network Drive, WebDAV</li>
-							<li>multi-bucket object storage</li>
-							<li>Built in theming</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li class="long">LDAP/Active Directory/SAML (OneLogin, Shibboleth, ADFS)/Kerberos</li>
+							<li class="long">Object Storage (Swift/S3)/SMB/CIFS, Dropbox, Google Drive, (s)FTP, Windows Network Drive, WebDAV</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
 							<li class="cd-group">Integration and extension</li>
-							<li>Audio/video chat</li>
-							<li>Calendar/Contacts</li>
-							<li>Calendar/Contacts in Outlook</li>
-							<li>Attachments in Outlook</li>
-							<li>Calendar/Contacts in Android</li>
-							<li>Calendar/Contacts in iOS</li>
-							<li>Supports 3rd party apps</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-usd" aria-hidden="true"></i></li>
+							<li><i class="fa fa-usd" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
 						</ul>
 					</li> <!-- .product -->
 
@@ -183,69 +183,69 @@
 						</div> <!-- .top-info -->
 
 						<ul class="cd-features-list">
-							<li>On-premise</li>
-							<li>License</li>
-							<li>Max storage</li>
-							<li>Limit file size</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li>Proprietary</li>
+							<li>Unlimited</li>
+							<li>Unlimited</li>
 							<li class="cd-group">Interfaces</li>
-							<li>Cross-platform</li>
-							<li>Paid/free?</li>
-							<li>Sync per file/folder</li>
-							<li>Auto upload images (mobile)</li>
-							<li>Auto upload video (mobile)</li>
-							<li>File manager integration</li>
-							<li>Bandwidth limiter</li>
-							<li>LAN Sync</li>
-							<li>WebDAV</li>
+							<li><i class="fa fa-apple" aria-hidden="true"></i><i class="fa fa-windows" aria-hidden="true"></i><i class="fa fa-linux" aria-hidden="true"></i><i class="fa fa-android" aria-hidden="true"></i></li>
+							<li><i class="fa fa-usd" aria-hidden="true"></i> on Mac/Android</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-times" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
 							<li class="cd-group">Security</li>
-							<li>Rule based access control</li>
-							<li>Anti-virus</li>
-							<li>Encryption</li>
-							<li>Two-factor authentication</li>
-							<li>Brute force protection</li>
-							<li>NIST compliant pw policy</li>
-							<li>Web security features</li>
-							<li>Control retention</li>
-							<li>App access control</li>
-							<li>Verified security policy</li>
-							<li>Bug Bounty Program</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li>Server-side, in-flight</li>
+							<li>Optional</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li>CSP 3.0, Same-site cookies</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li>Max USD 500</li>
 							<li class="cd-group">Sharing</li>
-							<li>Public link (RO/RW)</li>
-							<li>Hide file listing (file drop)</li>
-							<li>Password/expiration</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li>
 							<li>Federated (cross-cloud)</li>
 							<li class="cd-group">Web UI</li>
-							<li>Editors for...</li>
-							<li>Collaborative document editing</li>
-							<li>... via public link</li>
-							<li>PDF viewer</li>
-							<li>Picture Gallery</li>
-							<li>Music/video player</li>
+							<li>text</li>
+							<li>Optional</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li>
 							<li class="cd-group">File handling</li>
-							<li>Restore older versions</li>
-							<li>Undelete</li>
-							<li>Comment on files</li>
-							<li>Search by name</li>
-							<li>Full-text search</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
 							<li>Restore older versions</li>
 							<li>Undelete</li>
 							<li>Comment on files</li>
 							<li class="cd-group">Admin features</li>
-							<li>Audit log</li>
-							<li>Monitoring app</li>
-							<li>Monitoring API</li>
-							<li class="long">Authentication: LDAP/Active Directory/SAML (OneLogin, Shibboleth, ADFS)/Kerberos</li>
-							<li class="long">External storage: Object Storage (Swift/S3)/SMB/CIFS, Dropbox, Google Drive, (s)FTP, Sharepoint, Windows Network Drive, WebDAV</li>
-							<li>multi-bucket object storage</li>
-							<li>Built in theming</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li class="long">LDAP/Active Directory/SAML (OneLogin, Shibboleth)</li>
+							<li class="long">Object Storage (Swift/S3)/SMB/CIFS, Dropbox, Google Drive, (s)FTP, Sharepoint, Windows Network Drive, WebDAV</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i> (can be done manually)</li>
 							<li class="cd-group">Integration and extension</li>
-							<li>Audio/video chat</li>
-							<li>Calendar/Contacts</li>
-							<li>Calendar/Contacts in Outlook</li>
-							<li>Attachments in Outlook</li>
-							<li>Calendar/Contacts in Android</li>
-							<li>Calendar/Contacts in iOS</li>
-							<li>Supports 3rd party apps</li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-usd" aria-hidden="true"></i></li>
+							<li><i class="fa fa-usd" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i> (if compatible with license)</li>
 						</ul>
 					</li> <!-- .product -->
 
