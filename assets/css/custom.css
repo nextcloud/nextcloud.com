@@ -741,7 +741,8 @@ h5 {
   transform: translateZ(0);
   will-change: transform;
   transition: transform 500ms ease;
-  transform: translate3d(0px, 0px, 0px); }
+  transform: translate3d(0px, 0px, 0px);
+  opacity: 0; }
   .second-menu .menu.hidedPrincipalNavigation {
     transform: translate3d(0px, -100px, 0px); }
   .second-menu .menu .buttons {
@@ -891,6 +892,9 @@ i[class*='fa-'] {
   color: #555;
   font-family: "fontawesome", fontawesome, "Font Awesome", Fontawesome !important;
   /* to override the Open Sans font set above */ }
+
+.revealOnScroll {
+  opacity: 0; }
 
 /* Bootstrap centered columns styles */
 .row-centered {
@@ -1153,7 +1157,8 @@ blockquote {
   height: 70vh;
   min-height: 600px;
   max-height: 800px;
-  position: relative; }
+  position: relative;
+  opacity: 0; }
   .background h1 {
     padding-top: 0;
     color: white; }
@@ -1166,7 +1171,8 @@ blockquote {
     top: 30%;
     margin: 0;
     padding: 0;
-    max-width: 600px; }
+    max-width: 600px;
+    opacity: 0; }
     @media (max-width: 991px) {
       .background .topheader {
         padding-left: 5%; } }

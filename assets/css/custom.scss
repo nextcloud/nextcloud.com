@@ -31,6 +31,10 @@ i[class*='fa-'] {
 	font-family: "fontawesome", fontawesome, "Font Awesome", Fontawesome !important; /* to override the Open Sans font set above */
 }
 
+.revealOnScroll {
+  opacity: 0;
+}
+
 /* Bootstrap centered columns styles */
 .row-centered {
     text-align:center;
@@ -387,6 +391,7 @@ li {
   min-height: 600px;
   max-height: 800px;
   position: relative;
+  opacity: 0;
 
   h1 {
     padding-top: 0;
@@ -405,6 +410,7 @@ li {
     margin: 0;
     padding: 0;
     max-width: 600px;
+    opacity: 0;
 
     @media (max-width: $break-big) {
       padding-left: 5%;
