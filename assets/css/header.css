@@ -6,8 +6,6 @@
     -webkit-transform: scale(0.5);
     top: -26px !important; } }
 .mobile-bg-container {
-  width: 100%;
-  min-height: 100%;
   position: fixed;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -21,7 +19,9 @@
       .mobile-bg-container.visible {
         display: none; } }
   .mobile-bg-container.is-animatable {
-    opacity: 1; }
+    opacity: 1;
+    width: 100%;
+    min-height: 100%; }
   .mobile-bg-container .mobile-bg {
     position: absolute;
     background: #0082c9;
@@ -116,7 +116,8 @@
         .nav .container .nav__bg-wrapper .nav__bg.is-animatable {
           -webkit-transition: 0.3s;
           transition: 0.3s;
-          visibility: visible; }
+          visibility: visible;
+          display: block; }
     .nav .container .navbar-toggle {
       display: none; }
     .nav .container .brand {
