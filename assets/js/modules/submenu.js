@@ -1,9 +1,11 @@
-define(["jquery", "underscore", "enquire", "scrollMagic"],
-function ($, _, enquire, ScrollMagic) {
+define(["jquery", "underscore", "enquire", "velocity", "velocityUI", "scrollMagic"],
+function ($, _, enquire, velocity, velocityUI, ScrollMagic) {
 	$(document).ready(function() {
 	    'use strict';
 	    var subMenuModule = {
 	        init: function() {
+
+            	$(this.variables.menuAnchorSelector).velocity("transition.fadeIn", 1000 );
 
 				enquire.register('screen and (max-width: 480px)', {
 					//match: _.bind(this.resultsBindMobile, this) 

@@ -739,7 +739,8 @@ h5 {
   transform: translateZ(0);
   will-change: transform;
   transition: transform 500ms ease;
-  transform: translate3d(0px, 0px, 0px); }
+  transform: translate3d(0px, 0px, 0px);
+  opacity: 0; }
   .second-menu .menu.hidedPrincipalNavigation {
     transform: translate3d(0px, -100px, 0px); }
   .second-menu .menu .buttons {
@@ -889,6 +890,9 @@ i[class*='fa-'] {
   color: #555;
   font-family: "fontawesome", fontawesome, "Font Awesome", Fontawesome !important;
   /* to override the Open Sans font set above */ }
+
+.revealOnScroll {
+  opacity: 0; }
 
 /* Bootstrap centered columns styles */
 .row-centered {

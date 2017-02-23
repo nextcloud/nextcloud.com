@@ -10,7 +10,8 @@
   transform: translateZ(0);
   will-change: transform;
   transition: transform 500ms ease;
-  transform: translate3d(0px, 0px, 0px); }
+  transform: translate3d(0px, 0px, 0px);
+  opacity: 0; }
   .second-menu .menu.hidedPrincipalNavigation {
     transform: translate3d(0px, -100px, 0px); }
   .second-menu .menu .buttons {
