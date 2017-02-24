@@ -51,7 +51,7 @@ $l = new L10N('footer');
         </div>
     <div class="row">
 		<div class="col-sm-12 text-center">
-		<p  class="revealOnScroll"><a href="https://github.com/nextcloud/nextcloud.com">MIT</a> &copy; </font> <?php echo date('Y'); ?> Nextcloud, <small><a href="/impressum"><?php echo $l->t('Legal Notice') ?></a></small></p>
+		<p  class="revealOnScroll"><a href="https://github.com/nextcloud/nextcloud.com">AGPLv3</a> &copy; </font> <?php echo date('Y'); ?> Nextcloud, <small><a href="/impressum"><?php echo $l->t('Legal Notice') ?></a></small></p>
 		</div>
 	</div>
   </div>
