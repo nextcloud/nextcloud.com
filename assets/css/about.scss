@@ -8,7 +8,7 @@
 }
 
 footer.page-footer {
-	margin-top: 0;
+	margin-top: 20px;
 }
 
 .section--about {
@@ -29,37 +29,17 @@ footer.page-footer {
 			text-align: left !important;
 		}
 	}
-	
-	blockquote {
-		float: right;
-	}
     
     .newsrow {
         margin-top: 70px;
+		margin-bottom: 30px;
     }
     
     .yt-img-overlay {
         margin-bottom: 25px;
     }
-
 }
 
-.calltoaction {
-	margin-top: 50px;
-	background-color: $nextcloud-blue;
-	padding: 50px 0;
-	color: white;
-
-	.section--heading-2 {
-		color: white;
-	}
-
-	.section--paragraph {
-		color: white;
-	}
-
-	.hyperlink {
-		color: white;
-	}
+.disclaimer {
+	margin-top: 150px;
 }
-

@@ -12,7 +12,7 @@
   background-size: cover; }
 
 footer.page-footer {
-  margin-top: 0; }
+  margin-top: 20px; }
 
 .section--about {
   padding-top: 80px;
@@ -27,23 +27,13 @@ footer.page-footer {
     @media (max-width: 768px) {
       .section--about .section--intro {
         text-align: left !important; } }
-  .section--about blockquote {
-    float: right; }
   .section--about .newsrow {
-    margin-top: 70px; }
+    margin-top: 70px;
+    margin-bottom: 30px; }
   .section--about .yt-img-overlay {
     margin-bottom: 25px; }
 
-.calltoaction {
-  margin-top: 50px;
-  background-color: #0082c9;
-  padding: 50px 0;
-  color: white; }
-  .calltoaction .section--heading-2 {
-    color: white; }
-  .calltoaction .section--paragraph {
-    color: white; }
-  .calltoaction .hyperlink {
-    color: white; }
+.disclaimer {
+  margin-top: 150px; }
 
 /*# sourceMappingURL=about.css.map */
