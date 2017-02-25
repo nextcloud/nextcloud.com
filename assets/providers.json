@@ -71,21 +71,6 @@
          "imagename":"kinamo.png"
       },
 	{
-         "title":"LineONE",
-         "url":"https:\/\/lineone.io\/nextcloud",
-         "flags":[
-            "de",
-            "at",
-            "eu"
-         ],
-         "freeplans":false,
-		 "supports":"both",
-         "specializes":[
-            "Discover an enterprise-ready and innovative way to access and share your files, calendars, contacts and mail. Hosted in Germany."
-         ],
-         "imagename":"lineone.png"
-      },
-	{
          "title":"Tech and Me",
          "url":"https:\/\/shop.techandme.se\/index.php\/product\/host-your-nextcloud-vm-at-tech-and-me",
          "flags":[
