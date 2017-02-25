@@ -56,6 +56,11 @@
       .second-menu .menu .buttons .btn-primary:before {
         background: none; }
 
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
 .features-background {
   background: url("../img/headers/yourcloud.jpg") no-repeat;
   background-position: center;
