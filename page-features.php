@@ -1,11 +1,26 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/features.css" rel="stylesheet">
-<script>
+<link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
+<!--<script>
 	require(["require.config"], function() {
 		require(["pages/features", "modules/submenu"])
 	});
-</script>
+</script>-->
 
+<script>
+    require(["require.config"], function() {
+        require(["vendor/jquery.min", "vendor/jquery.ui", "bootstrap", "pages/features", "modules/submenu"],
+            function ($, jqueryui) {
+                require(["vendor/jquery.youtubepopup"],
+                    function (jqyoutube) {
+                        jQuery("a.youtube").YouTubePopup({ hideTitleBar: true });
+                    }
+                );
+            }
+        );
+    });
+</script>
+</head>
 <div class="background features-background second-menu"> 
 	<div class="container">
 		<div class="row">

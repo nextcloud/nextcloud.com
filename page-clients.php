@@ -1,10 +1,10 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/clients.css" rel="stylesheet">
-<script>
+<!--<script>
 	require(["require.config"], function() {
 		require(["pages/clients"])
 	});
-</script>
+</script>-->
 </head>
 <div class="background clients-background"> 
 	<div class="container">

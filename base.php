@@ -87,7 +87,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'securesharesubmit',
 		'securesharing',
 		'security',
-		'sharing',
+// 		'sharing',
 		'speaking',
 		'spreedbox',
 // 		'support',

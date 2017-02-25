@@ -1305,8 +1305,8 @@ blockquote {
 /* Youtube dialog */
 .yt-img-overlay {
     position: relative;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     overflow: hidden;
     display: block;
     height: auto;
@@ -1314,15 +1314,18 @@ blockquote {
     color: white; 
     z-index: 1;
     img {
-    width: 100%;
-    height: auto; }
+    width: 110%;
+    height: auto;
+    margin: -10% 0 -10% 0;
+    overflow: hidden;        
+    }
     .yt-play-btn {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%; 
     padding-left: 40%;
-    padding-top: 26%;
+    padding-top: 23%;
     i {
     background-image: url("../img/common/YTplay.svg");
     background-position: center;
@@ -1356,15 +1359,15 @@ blockquote {
    
     .col-md-4 .yt-img-overlay .yt-play-btn, .col-md-5 .yt-img-overlay .yt-play-btn {
         padding-left: 38%;
-        padding-top: 28%; 
+        padding-top: 25%; 
     }
     .col-md-6 .yt-img-overlay .yt-play-btn, .col-md-7 .yt-img-overlay .yt-play-btn {
         padding-left: 45%;
-        padding-top: 32%;
+        padding-top: 29%;
     }
   .col-md-10 .yt-img-overlay .yt-play-btn, .col-md-11 .yt-img-overlay .yt-play-btn, .col-md-12 .yt-img-overlay .yt-play-btn {
     padding-left: 45%;
-    padding-top: 25%;
+    padding-top: 22%;
     width: 100%;
     height: 100%; 
     /* In case of a big video, make the button bigger, too */
