@@ -1,4 +1,5 @@
 <head>
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/secure.css" rel="stylesheet">
 	<script>
 	require(["require.config"], function() {
 		require(["pages/secure"])
@@ -17,7 +18,7 @@
 <div class="container featureblock">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<p><blockquote><?php echo $l->t('"Nextcloud understands the necessity to provide core principle baseline security requirements, as such Nextcloud 11 is built on these security principles to ultimately deliver a secure solution to their customers"');?></blockquote><?php echo $l->t('Download the');?> <a href="<?php echo get_template_directory_uri(); ?>/assets/files/NCC_report_assurance.pdf"><?php echo $l->t('Assurance Statement</a> from the <a href="https://www.nccgroup.trust">NCC group</a>, a global expert in cyber security and risk mitigation.');?></p>
+			<p><blockquote><?php echo $l->t('Nextcloud understands the necessity to provide core principle baseline security requirements, as such Nextcloud 11 is built on these security principles to ultimately deliver a secure solution to their customers');?></blockquote><?php echo $l->t('Download the');?> <a href="<?php echo get_template_directory_uri(); ?>/assets/files/NCC_report_assurance.pdf"><?php echo $l->t('Assurance Statement</a> from the <a href="https://www.nccgroup.trust">NCC group</a>, a global expert in cyber security and risk mitigation.');?></p>
 		</div>
 	</div>
 </div>

@@ -1,0 +1,54 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.buy-background {
+  background-image: url("../img/enterprise/enterprise.jpg");
+  background-position: bottom 0 right 0; }
+
+.contact {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.contact > h3 {
+  margin-top: 90px;
+  margin-bottom: 20px;
+  text-align: left; }
+
+.contact h4 {
+  font-weight: lighter;
+  margin-bottom: 0px;
+  margin-top: 20px; }
+
+.collaboraNote {
+  line-height: 1; }
+
+#orderform input,
+#orderform textarea,
+#orderform label span {
+  font-weight: normal; }
+
+#orderform input.error,
+#orderform textarea.error {
+  border: 1px solid #d20406; }
+
+#orderform #form-error {
+  color: #d20406; }
+
+#orderform input[type="submit"] {
+  padding: 8px 20px; }
+
+label {
+  margin-bottom: 0px; }
+
+.question {
+  margin-bottom: 0px; }
+
+.details {
+  margin-top: 0px; }
+
+/*# sourceMappingURL=order.css.map */

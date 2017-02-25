@@ -51,7 +51,8 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    overflow: hidden; }
+    overflow: hidden;
+    opacity: 0; }
     @media (max-width: 768px) {
       .jumbotron .topbanner {
         background-image: url("../img/home/top-banner@2x_mobile.png");
@@ -68,7 +69,8 @@
     position: absolute;
     top: 30vh;
     padding-left: 0;
-    margin-left: 0; }
+    margin-left: 0;
+    opacity: 0; }
     @media (max-width: 991px) {
       .jumbotron .toptext {
         top: 120px;

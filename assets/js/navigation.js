@@ -9,9 +9,6 @@ $(document).ready(function() {
         
         //Fade In animation
         $(this.variables.navigationId).velocity("transition.fadeIn", 1000 );
-
-        this.checkScroll();
-
         this.animatedLogoSprite();
 
         enquire.register("screen and (max-width: 992px)", {
@@ -50,7 +47,8 @@ $(document).ready(function() {
         showNavigationClass:"nav-down",
         hideNavigationClass: "nav-up",
         playOnHoverClass: "hoverPlay",
-        stopAnimationClass: "stopedAnimation"
+        stopAnimationClass: "stopedAnimation",
+        mobileBackgroundContainerSelector: ".mobile-bg-container",
     },
 
     toggleMobileMenu: function(event) {
@@ -60,6 +58,7 @@ $(document).ready(function() {
         $(this.variables.sectionsSelector).toggleClass(this.variables.activeClass);
         $(this.variables.rightNavigationSelector).toggleClass(this.variables.activeClass);
         $(this.variables.logoSelector).toggleClass(this.variables.mobileMenuClass);
+        $(this.variables.mobileBackgroundContainerSelector).toggleClass(this.variables.backgroundAnimationClass);
     },
 
     resetMobile: function() {
@@ -70,7 +69,6 @@ $(document).ready(function() {
     },    
 
     resetDesktop: function() {
-        //headroom.destroy();
         $(this.variables.sectionSelector).off("mouseover");
         $(this.variables.sectionSelector).off("mouseleave");
         $(this.variables.linksSelector).hide();
@@ -87,38 +85,52 @@ $(document).ready(function() {
         $(event.currentTarget).find(this.variables.linksSelector).slideToggle().addClass(this.variables.activeClass);
     },
 
-    showAndHideHeader: function() {
+    mobileBgAnimation: function() {
+        var windowDiameter = ($(window).width() * 2) * $(window).height() * 2,
+        returnBiggest = (Math.sqrt(windowDiameter)) * 1.5;
+
+        $(this.variables.mobileBackgroundSelector).css({
+            "top": - returnBiggest / 2+ "px",
+            "right": - returnBiggest / 2 + "px",
+            "width": returnBiggest + "px",
+            "height": returnBiggest + "px"
+        });
+    },
+
+    showAndHideHeader: function(variables) {
+
         var myElement = document.querySelector(".nav");
         
         //I should pass the variable object inside the headroom
-
-        var headroom  = new Headroom(myElement,{
-            offset: 100,
+        this.headroom  = new Headroom(myElement, {
+            offset: 510,
             tolerance : {
-                up : 5,
-                down : 0
+                up : 20,
+                down : 20
             },
 
-            onTop: function() {
+            onTop: function(variables) {
                 $("#nav").removeClass("scrolled");
                 $(".logo").removeClass("scrolled");
+                $(".mobile-bg-container").addClass("visible");
             },
             
             onPin: function() {
                 $(".menu").removeClass("hidedPrincipalNavigation");
                 $("#nav").addClass("scrolled");
                 $(".logo").addClass("scrolled");
-                //$(this.variables.navigationId).addClass(this.variables.scrolledClass);
-                //$(this.variables.logoSelector).addClass(this.variables.scrolledClass);
+            },
+
+            onNotTop : function() {
+                $(".mobile-bg-container").addClass("visible");
             },
 
             onUnpin: function() {
                 $(".menu").addClass("hidedPrincipalNavigation");
-                $("#nav").removeClass("scrolled");
-                $(".logo").removeClass("scrolled");
+                $(".mobile-bg-container").addClass("visible");
             }
         });
-        headroom.init(); 
+        this.headroom.init();
     },
 
     mobileEvent: function() {
@@ -127,8 +139,8 @@ $(document).ready(function() {
             this.enquireInitializedMobile = true;
             this.createMenuButton();
         }
-
-        //this.blockScroll();
+        $(window).on("resize", _.bind(this.mobileBgAnimation, this));
+        this.mobileBgAnimation();
         $(this.variables.navigationId).addClass(this.variables.mobileClass);
         $(this.variables.toggleSelector).click(_.bind(this.toggleMobileMenu, this));
         $(this.variables.sectionSelector).click(_.bind(this.showSubMenu, this));
@@ -168,6 +180,7 @@ $(document).ready(function() {
         this.resetMobile();
         $(this.variables.sectionSelector).on("mouseover", _.bind(this.backgroundDropdown, this));
         $(this.variables.sectionSelector).on("mouseleave", _.bind(this.destroyDropdown, this));
+        this.showAndHideHeader();
     },
 
     // Clear dropdowns in mouse leave
@@ -231,16 +244,6 @@ $(document).ready(function() {
             $(window).on("scroll load resize", _.bind(this.toggleScrolledClass, this)); 
         }
     },
-
-   /* // Prevent scrolling if menu is opened
-    blockScroll: function(event) {
-        if(this.menuOpened) {
-            event.preventDefault();
-            event.stopPropagation();
-            
-            return false;
-        }
-    },*/
 
     animatedLogoSprite: function() {
         this.hoverLogo();

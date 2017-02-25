@@ -1,7 +1,7 @@
 <head>
 <script>
 	require(["require.config"], function() {
-		require(["pages/enterprise", "modules/slideshow", "modules/submenu"])
+		require(["pages/enterprise", "modules/slideshow", "modules/submenu", "bootstrap"])
 	});
 </script>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/enterprise.css" rel="stylesheet">
@@ -12,7 +12,7 @@
 		<div class="container">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Get support from the source');?></h1>
-				<h2><?php echo $l->t('Going beyond the traditional licensing model, Nextcloud frees you from vendor lock-in and provides value through supporting your business\' needs.');?></h2>
+				<h2><?php echo $l->t('Going beyond the traditional licensing model, Nextcloud frees you from vendor lock-in and provides value through supporting your business\' needs.<br/> You run your own server and stay in control of your data - we make sure you have the best support whenever you need it!');?></h2>
 			</div>
 		</div>
 	</div>
@@ -22,6 +22,7 @@
 			<a href="#security"><?php echo $l->t('security');?></a>
 			<a href="#lifecycle"><?php echo $l->t('lifecycle');?></a>
 			<a href="#capabilities"><?php echo $l->t('capabilities');?></a>
+			<a class="btn btn-primary" href="/enterprise/order"><?php echo $l->t('Order online');?></a>
 			<a class="btn btn-primary" href="/buy"><?php echo $l->t('get a quote');?></a>
 			<a class="btn btn-primary" href="/pricing"><?php echo $l->t('pricing plans');?></a>
 		</div>
@@ -101,7 +102,7 @@
         <div class="texts-wrapper col-md-6">
 	        <div class="right-text-grey" data-slide="1">
 				<h5 class="textTrigger" id="feature-1"><?php echo $l->t('Deep integration in your infrastructure');?></h5>
-				<p><?php echo $l->t('Nextcloud offers LDAP/Active Directory, SAML and Kerboros authentication. It accesses data on NFS, (s)FTP, WebDAV, Windows Network Drive, Object Stores like SWIFT and many more.');?></p>
+				<p><?php echo $l->t('Nextcloud offers LDAP/Active Directory, SAML and Kerberos authentication. It accesses data on NFS, (s)FTP, WebDAV, Windows Network Drive, Object Stores like SWIFT and many more.');?></p>
 					<a class="button button--blue button--arrow button--large" href="<?php echo get_template_directory_uri(); ?>/assets/files/architecture-whitepaper.pdf" role="button"><?php echo $l->t('Architecture Whitepaper');?></a>
 				</p>
 	        </div>

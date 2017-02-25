@@ -4,7 +4,7 @@
 <div class="sub-nav">
 	<a href="/events/Meetups">Meetups</a>&nbsp;&nbsp;
 	|&nbsp;&nbsp;<a href="/events/meetups">Conference Program</a>&nbsp;&nbsp;
-	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a>
+<!-- 	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a> -->
 </div>
 <div class="row">
 	<div class="col-md-12">

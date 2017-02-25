@@ -349,20 +349,6 @@
          "imagename":"portknox.png"
       },
     {
-         "title":"Manuel Proksch",
-         "url":"https:\/\/m-pr.at\/?page_id=19",
-         "flags":[
-            "de",
-            "at"
-         ],
-         "freeplans":true,
-         "supports":"both",
-         "specializes":[
-            "Nextcloud Paket 1: 15 GB Speicherplatz, unlimited Traffic, Netzwerkanbindung bis zu Gbit EUR 5/Monat (1. Monat gratis testen)"
-         ],
-         "imagename":"EDV-Service.png"
-      },
-    {
          "title":"rackSPEED GmbH",
          "url":"https:\/\/rackspeed.de\/nextcloud-hosting\/",
          "flags":[
@@ -371,7 +357,7 @@
             "all"
          ],
          "freeplans":false,
-         "supports":"organizations",
+         "supports":"organization",
          "specializes":[
             "We offer German-hosted Nextcloud hosting and dedicated servers with daily off-site backup. All services are protected by strict german privacy law."
          ],
@@ -486,5 +472,153 @@
             "Eine Cloud in Ihrem firmeneigenen Design! Die Daten liegen bei GWC-Systems auf deutschen, gesicherten Clustern und sind jederzeit durch Sie abrufbar."
          ],
          "imagename":"gwc.png"
+      },
+    {
+         "title":"Your Own Net",
+         "url":"https:\/\/yourownnet.net\/index.php\/produit\/nextcloud",
+         "flags":[
+            "nl",
+            "fr",
+            "de",
+            "be",
+            "es",
+            "lu",
+            "it",
+            "pl"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Nous proposons des instances Nextcloud au meilleur coût. Toutes fonctionnalités activées (Collabora Online inclus), gardez le contrôle de vos données."
+         ],
+         "imagename":"YON.png"
+      },
+    {
+         "title":"Piets Host",
+         "url":"https:\/\/piets-host.de\/cloud-hosting",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Beim Piet's Host Cloud-Hosting liegen Ihre Daten ausschließlich auf deutschen Servern und nicht, wie bei Dropbox & Co, überall auf der Welt verteilt!"
+         ],
+         "imagename":"piets.png"
+      },
+    {
+         "title":"Örestad Linux AB",
+         "url":"https:\/\/orestad-linux.se\/vara-paket",
+         "flags":[
+            "se"
+         ],
+         "freeplans":false,
+         "supports":"organization",
+         "specializes":[
+            "Din Data, på Dina villkor. Hos oss på Örestad Linux är din data säker. Våra servrar finns belägna i ett toppmodernt datacenter i Malmö."
+         ],
+         "imagename":"orestad.png"
+      },
+    {
+         "title":"IndieHosters",
+         "url":"https:\/\/indiehosters.net",
+         "flags":[
+            "fr",
+            "de",
+            "pt",
+            "eu",
+            "all"
+         ],
+         "freeplans":true,
+         "supports":"both",
+         "specializes":[
+            "A complete software suite for you and your organization. Servers based in Germany with backups and human support for the world!"
+         ],
+         "imagename":"indiehosters.png"
+      },
+    {
+         "title":"GreenAnt Networks",
+         "url":"https:\/\/www.greenant.net\/cloud-storage",
+         "flags":[
+            "au"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "GreenAnt offers an Australia-based Nextcloud option. Our servers are peered on AARNET so syncing is super fast and reliable."
+         ],
+         "imagename":"greenant.png"
+      },
+    {
+         "title":"punkt.de Hosting",
+         "url":"https:\/\/hosting.punkt.de\/de\/server-and-beiwerk\/nextcloud.html",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":"organization",
+         "specializes":[
+            "Professionelle Business Nextcloud-Lösungen mit großem Speicher (ab 500 GB), inklusive 7 Tage Backup. Gehostet in Deutschland."
+         ],
+         "imagename":"punktde.png"
+      },
+    {
+         "title":"Cubico LLC",
+         "url":"https:\/\/cubico.cloud\/nextcloud-hosting",
+         "flags":[
+            "us",
+            "sg",
+            "eu"
+         ],
+         "freeplans":true,
+         "supports":"both",
+         "specializes":[
+            "Optimized NextCloud hosting solutions for ultimate security and privacy of your data. Free install, setup, upgrade and more."
+         ],
+         "imagename":"cubico.jpg"
+      },
+    {
+         "title":"awesome IT",
+         "url":"https:\/\/awesome-it.de\/cloud\/storage",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":"organization",
+         "specializes":[
+            "Speichern Sie Ihre Dokumente und Dateien geräte- und ortsunabhängig im unternehmenseigenen Cloud Speicher. Wir übernehmen die Einrichtung und Wartung."
+         ],
+         "imagename":"awesomeit.png"
+      },
+    {
+         "title":"Whiskers Systems",
+         "url":"https:\/\/whiskers.systems",
+         "flags":[
+            "de",
+            "fr",
+            "nl",
+            "uk",
+            "ch",
+            "eu"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Libre hosting with privacy from EU, offering encrypted Nextcloud instances or including Collabora Online. Providing many apps like Contacts, News, etc"
+         ],
+         "imagename":"whiskers.png"
+      },
+    {
+         "title":"RoundIT",
+         "url":"https:\/\/www.roundit.de\/produkte\/21-nextcloud-server",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Serverhosting in Europa (Köln und Straßburg) inkl. Traffic-Flatrate SSL-Zertifikat und unbegrenzter Anzahl Benutzer!"
+         ],
+         "imagename":"roundit.png"
       }
 ]

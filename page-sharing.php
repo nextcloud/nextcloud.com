@@ -3,7 +3,7 @@ $(document).ready(function() {
         if(window.location.hash) {
         $('#IDtext').text('My Federated Cloud ID is');
         $('#userName').text(window.location.hash.substring(1));
-    }  
+    }
  });
 </script>
 
@@ -21,7 +21,7 @@ $(document).ready(function() {
 				<a class="youtube" href="https://www.youtube.com/watch?v=Fe1I7wYW6hA" title="Creating anonymous upload links">
 					<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/maxresdefault.jpg" title="Creating anonymous upload links" />
 					<div class="yt-play-btn">
-						<i></i> 
+						<i></i>
 					</div>
 				</a>
 			</div>
@@ -66,7 +66,7 @@ $(document).ready(function() {
 	</div>
 	<div class="col-md-8">
 		<p><?php echo $l->t('Sharing files across Nextcloud servers is as easy as sending an email from a Gmail address to a Yahoo account! Instead of an email address, you use a <em>Federated Cloud ID</em>.');?></p>
-		<p class="federation-id"><span id="IDtext"><?php echo $l->t('An example Federated Cloud ID is');?></span><strong> <span id="userName">username@example.com/nextcloud</span></strong></p>
+		<p class="federation-id"><span id="IDtext"><?php echo $l->t('An example Federated Cloud ID is');?></span><strong> <span id="userName">username@sub.example.com/nextcloud</span></strong></p>
 		<p><?php echo $l->t('To share a file, enter the Federated Cloud ID in the \'share\' dialog. A notification will pop up on the Nextcloud server of the recipient.');?></p>
 		<p><?php echo $l->t('You can find your own Federated Cloud ID in your user settings. Give it to your friends so they can share files with you!');?></p>
 	</div>
@@ -80,7 +80,3 @@ $(document).ready(function() {
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/federation-config.png" class="img-responsive featureimg" />
 		</div>
 </div>
-
-
-
-

@@ -11,15 +11,12 @@
 	    will-change: transform;
     	transition: transform 500ms ease;
     	transform: translate3d(0px, 0px, 0px);
+    	opacity: 0;
 
 
 	    &.hidedPrincipalNavigation {
 	    	transform: translate3d(0px, -100px, 0px);
 	    }
-
-        @media (max-width: $break-big) {
-			display: none;
-		}
 
 		.buttons {
 			text-transform: uppercase;
@@ -27,6 +24,16 @@
 			font-weight: 600;
 			padding: 40px 0 30px 0;
 			border-bottom: solid 1px #e4e4e4;
+
+        	@media (max-width: $break-big) {
+				padding: 30px 0 25px 0;
+			}
+
+			a:not(.btn) {
+        	@media (max-width: $break-big) {
+        		display: none;
+				}
+			}
 
 			a {
 				padding-right: 10px;

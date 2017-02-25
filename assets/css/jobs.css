@@ -7,8 +7,9 @@
   position: absolute; }
 
 .jobs-background {
-  background: url("../img/headers/team.jpg") no-repeat;
-  background-position: center; }
+  background: url("../img/headers/team.jpg") no-repeat center;
+  /*   background-position: center; */
+  background-size: cover; }
   .jobs-background .container .row .col-md6 {
     padding-right: 5%; }
     @media (max-width: 768px) {

@@ -33,24 +33,17 @@
 			<div class="highlights_align ">
 				<div class="privacy-icon" data-animation-path="img/home/privacy/" data-anim-loop="false" data-name="privacy"></div>
 				<h4 class="revealOnScroll"><?php echo $l->t('Privacy');?></h4>
-				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Keep all of your life / business
-					private and secure. Share
-					with only who you choose,
-					and no-one else.');?></p>
+				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Keep all of your life / business private and secure on a server you control. Share with only who you choose, and no-one else.');?></p>
 			</div>
 			<div class="highlights_align">
 				<div class="community-icon" data-animation-path="img/home/community/" data-anim-loop="false" data-name="community"></div>
 				<h4 class="revealOnScroll"><?php echo $l->t('Community');?></h4>
-				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Enjoy constant improvements
-					from a thriving and transparent,
-					all open-source community
-					development model, free of
-					lockins or paywalls.');?></p>
+				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Enjoy constant improvements from a thriving and transparent, all open-source community development model, free of lockins or paywalls.');?></p>
 			</div>
 			<div class="highlights_align">
 				<div class="flexibility-icon" data-animation-path="img/home/flexibility/" data-anim-loop="false" data-name="flexibility"></div>
 				<h4 class="revealOnScroll"><?php echo $l->t('Enterprise');?></h4>
-				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Protect, control and scale the data and communication in your company and organization.');?></p>
+				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Protect, control and scale the data and communication in your company and organization. Keep data where it is, making it available to your teams.');?></p>
 			</div>
 		</div>
 	</div>
@@ -69,7 +62,7 @@
 </div>
 
 <section class="slideshow" id="slideshow">
-    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 10');?></h2>
+    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 11');?></h2>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
 		<li class="btn_carousel"><a href="#feature-1"></a></li>
@@ -89,42 +82,38 @@
         </div>
         <div class="texts-wrapper col-md-6">
 	        <div class="right-text-grey" data-slide="1">
-	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('Secure, Fine Grained Control over Data Access and Workflows');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('This release delivers better scalability as well as monitoring, security and workflow management tools, enabling better control over Nextcloud servers and operation at scale.');?></p>
+	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('A new standard for security and scalability');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 11 delivers a wide range of security and scalability improvements with a number of important features on top. This release provides you the most secure solution for keeping your data under control we’ve delivered yet.');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="https://nextcloud.com/blog/secure-monitor-and-control-your-data-with-nextcloud-10-get-it-now/" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="btn-primary" href="https://nextcloud.com/blog/nextcloud-11-sets-new-standard-for-security-and-scalability/" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
 	         <div class="right-text-grey" data-slide="2">
-	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('Faster and more reliable operation at scale');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 10 introduces the Server Information app which provides a way for admins to monitor the health and performance of a Nextcloud system through a graphical UI or in their enterprise monitoring tool.');?></p>
+	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('Verified security improvements');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('This release introduces significant security improvements, attested <a href="https://nextcloud.com/secure" target="_blank">by NCC Group,</a> a global expert in cyber security and risk mitigation, to <em>"complement the existing security architecture within the design"</em> and <em>"enhance the general standing of the security working environment."</em>');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="/workflow/#monitoring" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="btn-primary" href="/secure" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
 	        <div class="right-text-grey" data-slide="3">
-	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('Authentication and security');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 10 delivers security improvements in several areas. Plugin based Two Factor
-	                Authentication enables an optional extra layer of protection for logins, brute force
-	                protection makes it harder for attackers to guess passwords and session management is
-	                introduced to enable administrators and users to monitor and invalidate active sessions.
-	            ');?></p>
+	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('Up to 60% lower resource usage');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('With scalability a prime concern among Nextcloud\'s large enterprise customers, this release decreases the database load and lowers resource usage up to 60% for common server operations. Multi-bucket Object Store support, improved handling of previews and Collabora Online speed improvements enable scaling to greater numbers of users and files, decreases TCO and improves user experience.');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="/workflow/" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="btn-primary" href="https://nextcloud.com/?p=1373" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
 	        <div class="right-text-grey" data-slide="4">
-	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Improved Federation');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 10 normalizes federated shares, handling mounted link shares as federated shares, offering the same permissions for federated shares as for normal shares and directly connecting re-shared federated shares to other servers for improved performance.');?></p>
+	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Full text search, Next-gen Federation, Spreed and more');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 11 introduces Apache Solr powered Full Text Search, enabling users to find words or phrases in text, pdf and common office documents on internal, external, shared and encrypted storage. The Next Generation Federation technology introduces a central lookup server, enabling Nextcloud users to find each other irrespective of the server their account resides on. The experimental Spreed app integrates secure, peer to peer audio and video chat in Nextcloud.');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="/federation" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="btn-primary" href="https://nextcloud.com/blog/nextcloud-11-sets-new-standard-for-security-and-scalability/" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
         </div>

@@ -34,25 +34,34 @@
   .section-data-home .btn-primary {
     margin-top: 40px; }
 
-.section-tecnology {
+.section-technology {
   padding-top: 100px;
   padding-bottom: 200px;
   height: 100%;
   width: 100%;
   background-color: white; }
-  .section-tecnology .container {
+  .section-technology .container {
     border-top: 1px solid #E8E8E8; }
-    .section-tecnology .container .box-open {
+    .section-technology .container .box-open {
       background: url("../img/box/box-open.png") no-repeat;
       width: 651px;
       height: 476px;
       margin-top: 120px; }
-    .section-tecnology .container .wrapper-text {
+    .section-technology .container .wrapper-text {
       margin-top: 120px; }
-      .section-tecnology .container .wrapper-text h6 {
-        font-size: 18px;
-        font-weight: 500;
-        padding-top: 30px; }
+
+.section-video {
+  padding-top: 100px;
+  /* 	padding-bottom: 100px; */
+  height: 100%;
+  width: 100%;
+  background-color: white; }
+  .section-video .container {
+    border-top: 1px solid #E8E8E8; }
+    .section-video .container .wrapper-text {
+      margin-top: 120px;
+      margin-bottom: 50px;
+      text-align: center; }
 
 .section-getbox {
   height: 440px;
@@ -84,22 +93,17 @@
   height: 100%;
   width: 100%;
   background-color: white; }
-  .section-how-to-box .container p {
-    font-size: 18px;
-    font-weight: 300;
-    margin: 0 auto;
-    margin-top: 10px;
-    text-align: center; }
   .section-how-to-box .container .assembly {
     background: url("../img/box/assembly.png") no-repeat;
     width: 639px;
     height: 541px;
     margin: 0 auto; }
-  .section-how-to-box .container .btn-primary {
+  .section-how-to-box .container .button {
     text-align: center;
     margin: 0 auto;
-    margin-top: 20px; }
-    .section-how-to-box .container .btn-primary:before {
+    margin-top: 20px;
+    display: table !important; }
+    .section-how-to-box .container .button:before {
       display: none; }
 
 .section-wiki-forums {
@@ -262,5 +266,17 @@
         .section-partners .container .wrapper-images .logo-ubuntu {
           width: 121px;
           height: 30px; } }
+@media (max-width: 991px) {
+  .col-md-7, .col-md-6, .col-md-5, .col-md-4, .col-xs-8 {
+    width: 100%; }
+
+  .section-getbox {
+    height: auto;
+    padding-bottom: 140px; }
+    .section-getbox .container .row .box-perspective {
+      float: left;
+      margin-top: 0;
+      width: 100%;
+      margin-left: -41px; } }
 
 /*# sourceMappingURL=box.css.map */

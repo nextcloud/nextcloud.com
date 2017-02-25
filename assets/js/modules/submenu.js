@@ -1,9 +1,11 @@
-define(["jquery", "underscore", "enquire", "scrollMagic"],
-function ($, _, enquire, ScrollMagic) {
+define(["jquery", "underscore", "enquire", "velocity", "velocityUI", "scrollMagic"],
+function ($, _, enquire, velocity, velocityUI, ScrollMagic) {
 	$(document).ready(function() {
 	    'use strict';
 	    var subMenuModule = {
 	        init: function() {
+
+            	$(this.variables.menuAnchorSelector).velocity("transition.fadeIn", 1000 );
 
 				enquire.register('screen and (max-width: 480px)', {
 					//match: _.bind(this.resultsBindMobile, this) 
@@ -38,7 +40,7 @@ function ($, _, enquire, ScrollMagic) {
 			},
 
 			smothscrollToggleActive: function() {
-				$('a[href^="#"]').click(function(event) {
+				$('a[href^="#"]:not([data-toggle="collapse"])').click(function(event) {
 						var id = $(this).attr("href");
 
 						var target = $(id).offset().top;

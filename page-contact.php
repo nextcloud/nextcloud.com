@@ -2,8 +2,21 @@
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
+
+		<!--If you want to talk to Nextcloud users, contributors and fans, join the <a href="/promote" target="_blank">community conversation</a> over social media, the forums and other places.--> 
+		<h1><?php echo $l->t('Need help?');?></h1>
+		<p><?php echo $l->t('If you have technical questions or need support, <a href="/support">check out the options on our support page.</a>');?>
+		<h2><?php echo $l->t('Talk to us online!');?></h2>
+		<p><?php echo $l->t('Most of our contributors are active in <a href="irc://#nextcloud-dev@freenode.net" target="_blank">the Nextcloud development IRC channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. We are also very active <a href="https://help.nextcloud.com" target="_blank">on our forums</a>.');?> <?php echo $l->t('<a href="/contribute">Get involved!!</a>');?></p>
+		<!--If you are looking for answers to questions, see <a href="/faq" target="_blank">the Nextcloud FAQ</a> and our <a href="/support" target="_blank">support page</a>.-->
+
+		<!-- For the latest news, subscribe to our <a href="https://nextcloud.org/feed/">RSS feed</a>.');?></p> -->
+
+		<!-- <p><?php echo $l->t('For reporting vulnerabilities, read <a href="https://nextcloud.org/security">Security</a>.');?></p> -->
+	</div>
+	<div class="col-md-6 col-md-offset-3">
 		<h1><?php echo $l->t('Contact us');?></h1>
-		<p><?php echo $l->t('If you have any questions or comments, complete the form below and we\'ll get back to you!');?></p>
+		<p><?php echo $l->t('If you have any questions or comments on the website or have a business question, complete the form below and we\'ll get back to you!<br/> If you need technical help, <a href="/support">see here.</a>');?></p>
 	</div>
 	<div class="col-md-6 col-md-offset-3">
 		<form name="contact" method="post" action="contactsubmit/">
@@ -25,17 +38,6 @@
 			</div>
 		</div>
 		</form>
-	</div>
-	<div class="col-md-6 col-md-offset-3">
-
-		<!--If you want to talk to Nextcloud users, contributors and fans, join the <a href="/promote" target="_blank">community conversation</a> over social media, the forums and other places.--> 
-		<h1><?php echo $l->t('Talk to us online!');?></h1>
-		<p><?php echo $l->t('Most of our contributors are active in <a href="irc://#nextcloud-dev@freenode.net" target="_blank">the Nextcloud development IRC channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. We are also very active <a href="https://help.nextcloud.com" target="_blank">on our forums</a>.');?> <?php echo $l->t('<a href="/contribute">Get involved!!</a>');?></p>
-		<!--If you are looking for answers to questions, see <a href="/faq" target="_blank">the Nextcloud FAQ</a> and our <a href="/support" target="_blank">support page</a>.-->
-
-		<!-- For the latest news, subscribe to our <a href="https://nextcloud.org/feed/">RSS feed</a>.');?></p> -->
-
-		<!-- <p><?php echo $l->t('For reporting vulnerabilities, read <a href="https://nextcloud.org/security">Security</a>.');?></p> -->
 	</div>
 </div>
 

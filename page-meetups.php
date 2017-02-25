@@ -4,7 +4,7 @@
 <div class="sub-nav">
 	Meetups&nbsp;&nbsp;
 	|&nbsp;&nbsp;<a href="/events/conference-program">Conference Program</a>&nbsp;&nbsp;
-	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a>
+<!-- 	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a> -->
 </div>
 <div class="row">
 	<div class="col-md-12">
@@ -13,7 +13,7 @@
 		Meetups come in all shapes and sizes, but have one thing in common: they are organized and attended by Nextcloud enthusiasts just like you.</p>
 		<script type="text/javascript" src="http://www.meetup.com/embed/largest/nextcloud/"></script>
 		<p>Find the next Meetup dates and more on <a target="_blank" href="http://nextcloud.meetup.com/">nextcloud.meetup.com</a></p>
-		<p>Consider joining the <a href="https://mailman.nextcloud.org/mailman/listinfo/events">events mailing list</a> to discuss events with other Nextclouders.</p>
+		<p>Consider joining the <a href="https://help.nextcloud.com/c/conference">events category on the forums</a> to discuss events with other Nextclouders.</p>
 
 	<p>Want to organize a meetup? Below you will find some practical tips on how to organize a great meetup
 	as well as information on how to tell us about your meetup and how to get some Nextcloud goodies!</p>
@@ -44,8 +44,8 @@
 		<p>Of course, every now and then you could get an interesting speaker to discuss some Cloudy subject.</p>
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/meetup2.jpg" style="width: 400px" title="pic by Raghu Nayar" alt="pic by Raghu Nayar" class="img-thumbnail alignright">
 
-		<p><strong>User Meetups</strong> require a little more work. It is usually best to, after introductions, have a presentation or demonstration - use a
-			<a href="https://github.com/nextcloud/promo/tree/master/Presentation%20materials">ready-made workshop or  presentation to get started</a>.
+		<p><strong>User Meetups</strong> require a little more work. It is usually best to, after introductions, have a presentation or demonstration. Discuss <a href="https://help.nextcloud.com/c/conference">at the forums</a> where to get some materials, we have talks and other things and would love to help you!<!-- - use a
+			<a href="https://github.com/nextcloud/promo/">ready-made workshop or presentation to get started</a>.-->
 			After that, have room for questions and discussions. Be sure to announce the subject beforehand so people know what to expect,
 			and solicit input: ideas, requests or offers for help. We are working to offer content for a number of meetings
 			but it is also nice to encourage members of the meetup group to contribute their own knowledge and experience!</p>
@@ -58,14 +58,14 @@
 		    <li>Remind people of the Nextcloud code of conduct if they aren't nice to each other: you have every right to tell them to stay away if they can't behave... It is your meetup!</li>
 		    <li>Find a <a href="http://blog.jospoortvliet.com/2014/11/5-steps-to-organizing-meetup.html">how to organize a meetup in 5 steps</a> article here.</li>
 		</ul>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/materials.jpg" style="width: 400px"
-			title="You can order these materials!" alt="You can order these materials!" class="img-thumbnail alignright">
+<!-- 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/materials.jpg" style="width: 400px" -->
+<!-- 			title="You can order these materials!" alt="You can order these materials!" class="img-thumbnail alignright"> -->
 	<h2>Contact/questions/support</h2>
 		For setting up the meetup page, sharing the news on the upcoming event or a report from the previous one or any other questions, <a href="/events/contactform">just ask via the contact form</a>.
-		<p>Consider joining the <a href="https://mailman.nextcloud.org/mailman/listinfo/events">events mailing list</a> to discuss events with other Nextclouders.</p>
+		<p>Use the <a href="https://help.nextcloud.com/c/conference">events category</a> to discuss events with other Nextclouders.</p>
 		<h3>Nextcloud swag?</h3>
 		<p>If you organize a meetup, we'd be happy to send you an envelope with some informative Nextcloud flyers, Nextcloud stickers, posters and other things.</p>
-		<p><strong>Note</strong> that we have limited supply and shipping and handling takes time, so don't be late! In general, count on two weeks at least and please understand that currently we only ship in (most countries in) Europe and the USA. <a href="<?php echo get_template_directory_uri(); ?>/assets/files/request_form.pdf">Click here</a> for a request form to fill.</p>
+		<p><strong>Note</strong> that we have limited supply and shipping and handling takes time, so don't be late! In general, count on two weeks at least and please understand that currently we only ship in (most countries in) Europe and the USA. Ask <a href="https://help.nextcloud.com/c/conference">on the forums</a> and we get you going!<!--<a href="<?php echo get_template_directory_uri(); ?>/assets/files/request_form.pdf">Click here</a> for a request form to fill.--></p>
 
 	</div>
 </div>
