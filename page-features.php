@@ -10,8 +10,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Nextcloud puts you in control');?></h1>
-				<h2><?php echo $l->t('Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your data center, at home or at one of our providers');?></h2>
+				<h1><?php echo $l->t('A safe home for all your data');?></h1>
+				<h2><?php echo $l->t('Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your data center, at home or at one of our providers.');?></h2>
 			</div>
 		</div>
 	</div>
@@ -19,6 +19,7 @@
 <div class="second-menu">
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
+			<a href="#hosting"><?php echo $l->t('Hosting');?></a>
 			<a href="#files"><?php echo $l->t('File access');?></a>
 			<a href="#security"><?php echo $l->t('Security');?></a>
 			<a href="#workflow"><?php echo $l->t('Workflow');?></a>
@@ -31,6 +32,20 @@
 		</div>
 	</div>
 </div>
+
+<section class="section--hosting">
+	<a name="hosting" id="hosting"></a>
+	<div class="container">
+		<div class="col-md-6">
+			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/overview.png" alt="in action" >
+		</div>
+		<div class="col-md-6 feature--block">
+			<p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud gives you access to all your files wherever you are.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Where are your photos and documents? With Nextcloud <strong>you</strong> pick a server of your choice, at home, in a data center or at a <a class="hyperlink" href="/providers">provider</a>. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices. Through Nextcloud you also access, sync and share your existing data on that FTP drive at the office, Dropbox or a NAS you have at home.');?></p>
+			<a href="/install" class="button button--blue button--arrow button--large"><?php echo $l->t('Get started');?></a>
+		</div>
+	</div>	
+</section>
 
 <section class="section--files">
 	<a name="files" id="files"></a>
@@ -46,9 +61,9 @@
 			</div>
 		</div>		
 		<div class="col-md-6 feature--block">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud gives you access to all your files wherever you are and whatever device you use.');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Share with others on your terms.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The easy web interface allows you to share files with other users on your server, to create and send password protected public links, to let others upload files to your cloud and to get notifications on your phone and desktop when a user on another cloud server shares files directly with you. And you can do all these things from the desktop or mobile clients, too.');?></p>
-			<a href="/sharing" class="button button--blue button--arrow button--large"><?php echo $l->t('Collaboration in Nextcloud');?></a>
+			<a href="/sharing" class="button button--blue button--arrow button--large"><?php echo $l->t('Share with Nextcloud');?></a>
 		</div>
 	</div>	
 </section>
@@ -63,10 +78,11 @@
 		<div class="col-md-6 feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Security first');?></p>
 			<p class="section--paragraph"><?php echo $l->t('We are deeply committed to protect the safety of the data of our customers. Because:');?></p>
-			<p class="section--paragraph"><?php echo $l->t('we follow industry best practices around security (aligned to ISO27001c14).');?></p>
-			<p class="section--paragraph"><?php echo $l->t('we offer some of the <a class="hyperlink" href="https://nextcloud.com/introducing-the-nextcloud-bug-bounty-program/" target="_blank">highest security bug bounties in the open source industry.</a>');?></p>
+			<p class="section--paragraph"><?php echo $l->t('we implement a wide variety of security features and hardening');?></p>
+			<p class="section--paragraph"><?php echo $l->t('we follow industry best practices around security aligned to ISO27001');?></p>
+			<p class="section--paragraph"><?php echo $l->t('we offer some of the <a class="hyperlink" href="https://nextcloud.com/introducing-the-nextcloud-bug-bounty-program/" target="_blank">highest security bug bounties in the open source industry</a>');?></p>
 			<p class="section--paragraph"><?php echo $l->t('we are confident that Nextcloud offers the best security in the open source file sync and share industry.');?></p>
-			<a href="/sharing" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+			<a href="/secure" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
 		</div>
 	</div>
 </section>
@@ -75,7 +91,7 @@
 	<a name="workflow" id="workflow"></a>
 	<div class="container">
 		<div class="col-md-6 image--floated">
-			<a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/screenShoots.png" alt="in action"/></a>
+			<a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/firewall.png" alt="in action"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Workflow management');?></p>
 			<p class="section--paragraph"><?php echo $l->t('With Nextcloud, system administrators can control and direct the flow of data between users on or between servers. Rule based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements.
@@ -103,7 +119,7 @@
 	<a name="storage" id="storage"></a>
 	<div class="container">
 		<div class="col-md-6 image--floated">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/screenShoots_default.png"/></a>
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/common/external-storage.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('External storage');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The external storage feature of Nextcloud gives you access to your data wherever it is. Nextcloud can access files stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but you can also access them using standard protocols such as NFS, (S)FTP, WebDAV and more. <br>
