@@ -96,7 +96,7 @@
 			<p class="section--paragraph"><?php echo $l->t('we follow industry best practices around security (aligned to ISO27001)');?></p>
 			<p class="section--paragraph"><?php echo $l->t('we offer some of the <a class="hyperlink" href="https://nextcloud.com/introducing-the-nextcloud-bug-bounty-program/" target="_blank">highest open source security bug bounties</a>');?></p>
 			<p class="section--paragraph"><?php echo $l->t('');?></p>
-			<a href="/secure" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+			<a href="/secure" class="button button--blue button--arrow button--large"><?php echo $l->t('Security in Nextcloud');?></a>
 		</div>
 	</div>
 </section>
@@ -181,6 +181,7 @@
 			<p class="section--paragraph"><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite with collaborative editing that works in all modern browsers.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Collabora Online supports editing your documents in real time with multiple other editors, showing high fidelity, WYSIWYG rendering and preserving the layout and formatting of your documents.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Collabora Online supports dozens of document formats including <strong>DOC, DOCX, PPT, PPTX, XLS, XLSX + ODF, Import/View Visio, Publisher</strong> and many more...');?></p>
+			<a href="/collaboraonline" class="button button--blue button--arrow button--large"><?php echo $l->t('Collabora Online Office');?></a>
 		</div>
 	</div>
 </section>
