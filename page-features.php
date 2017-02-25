@@ -10,7 +10,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('A safe home for all your data');?></h1>
+				<h1><?php echo $l->t('<span class="avoidwrap">Your cloud,</span> <span class="avoidwrap">your rules</span>');?></h1>
 				<h2><?php echo $l->t('Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your data center, at home or at one of our providers.');?></h2>
 			</div>
 		</div>
@@ -36,12 +36,12 @@
 <section class="section--hosting">
 	<a name="hosting" id="hosting"></a>
 	<div class="container">
-		<div class="col-md-6">
-			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/overview.png" alt="in action" >
+		<div class="col-md-4">
+			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/access-anywhere.png" alt="in action" >
 		</div>
-		<div class="col-md-6 feature--block">
+		<div class="col-md-8 feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud gives you access to all your files wherever you are.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Where are your photos and documents? With Nextcloud <strong>you</strong> pick a server of your choice, at home, in a data center or at a <a class="hyperlink" href="/providers">provider</a>. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices. Through Nextcloud you also access, sync and share your existing data on that FTP drive at the office, Dropbox or a NAS you have at home.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Where are your photos and documents? With Nextcloud <strong>you</strong> pick a server of your choice, at home, in a data center or at a <a class="hyperlink" href="/providers">provider</a>. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices. Through Nextcloud you also access, sync and share your existing data on that FTP drive at the office, a Dropbox or a NAS you have at home.');?></p>
 			<a href="/install" class="button button--blue button--arrow button--large"><?php echo $l->t('Get started');?></a>
 		</div>
 	</div>	
@@ -111,6 +111,7 @@
 		<div class="col-md-6 feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Mobile and desktop clients');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud clients for Android, iOS and desktop systems allow you to sync and share files, in a fully secure way through an encrypted connection. The mobile clients feature automatic upload of pictures and videos you take and can synchronize select files and folders. The clients can handle multiple accounts, show all activity happening on your server and notify you of new events such as the availability of new shares.');?></p>
+			<a href="/clients" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
 		</div>
 	</div>
 </section>

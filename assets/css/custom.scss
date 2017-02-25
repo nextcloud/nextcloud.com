@@ -872,6 +872,7 @@ footer.page-footer {
       color: #ffffff;
       width: 140px;
       margin-top: 0; } }
+      
 html {
   margin-top: 0 !important; }
 
@@ -882,6 +883,11 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #555; }
+
+/* Avoid wrapping */
+span.avoidwrap {
+	display:inline-block;
+}
 
 i[class*='fa-'] {
   font-style: normal;

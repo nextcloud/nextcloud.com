@@ -948,6 +948,10 @@ body {
   line-height: 1.7;
   color: #555; }
 
+/* Avoid wrapping */
+span.avoidwrap {
+  display: inline-block; }
+
 i[class*='fa-'] {
   font-style: normal;
   color: #555; }
