@@ -1,7 +1,7 @@
 <head>
 <link class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/css/about.css" rel="stylesheet">
 <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
-<link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/redmond/jquery-ui.css" rel="stylesheet" />
+<link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
 
 
 <script>
