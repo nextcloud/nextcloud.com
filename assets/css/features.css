@@ -56,8 +56,10 @@
       .second-menu .menu .buttons .btn-primary:before {
         background: none; }
 
-.background {
-  background-color: #0082c9; }
+.features-background {
+  background: url("../img/headers/yourcloud.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 .image--floated {
   float: right; }

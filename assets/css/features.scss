@@ -1,8 +1,10 @@
 @import "variables.scss";
 @import "modules/secondmenu";
 
-.background {
-	background-color: $nextcloud-blue;
+.features-background {
+  background: url("../img/headers/yourcloud.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .image--floated{
