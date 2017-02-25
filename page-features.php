@@ -27,7 +27,7 @@
 			<a href="#storage"><?php echo $l->t('External storage');?></a>
 			<a href="#Calendar"><?php echo $l->t('Calendar & Contacts');?></a>
 			<a href="#calls"><?php echo $l->t('Video calls');?></a>
-			<a href="#Collabora"><?php echo $l->t('Collabora');?></a>
+			<a href="#Collabora"><?php echo $l->t('Online Office');?></a>
 			<a href="#more"><?php echo $l->t('More');?></a>
 		</div>
 	</div>
@@ -77,11 +77,10 @@
 
 		<div class="col-md-6 feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Security first');?></p>
-			<p class="section--paragraph"><?php echo $l->t('We are deeply committed to protect the safety of the data of our customers. Because:');?></p>
-			<p class="section--paragraph"><?php echo $l->t('we implement a wide variety of security features and hardening');?></p>
-			<p class="section--paragraph"><?php echo $l->t('we follow industry best practices around security aligned to ISO27001');?></p>
-			<p class="section--paragraph"><?php echo $l->t('we offer some of the <a class="hyperlink" href="https://nextcloud.com/introducing-the-nextcloud-bug-bounty-program/" target="_blank">highest security bug bounties in the open source industry</a>');?></p>
-			<p class="section--paragraph"><?php echo $l->t('we are confident that Nextcloud offers the best security in the open source file sync and share industry.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('We are deeply committed to protect the safety of the data of our customers and users. We are confident that Nextcloud offers the best security in the open source file sync and share industry, because:');?></p>
+			<p class="section--paragraph"><?php echo $l->t('we follow industry best practices around security (aligned to ISO27001)');?></p>
+			<p class="section--paragraph"><?php echo $l->t('we offer some of the <a class="hyperlink" href="https://nextcloud.com/introducing-the-nextcloud-bug-bounty-program/" target="_blank">highest open source security bug bounties</a>');?></p>
+			<p class="section--paragraph"><?php echo $l->t('');?></p>
 			<a href="/secure" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
 		</div>
 	</div>
