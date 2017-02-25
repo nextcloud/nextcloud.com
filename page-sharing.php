@@ -63,13 +63,14 @@
             </div>
             <div class="col-md-7">
             <p class="section--paragraph__tittle"><?php echo $l->t('Work with others');?></p>
-                <p class="section--paragraph"><?php echo $l->t('You can comment on files and discuss options. Through <a href="/collaboraonline">our Collabora Online integration</a> you can work together in real time on presentations or word documents and our <a href="/webrtc">video Conferencing features</a> allow you to call and discuss in real time!');?></p>
-                <p class="section--paragraph"><?php echo $l->t('You can find files using our full text search app or by giving them tags and searching for them. Admins can even use <a href="/workflow">our Workflow tools</a> to automatically tag files uploaded by specific users, groups or by filetype and execute actions like converting files based on these tags.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('You can comment on files and discuss options. Through <a class="hyperlink" href="/collaboraonline">our Collabora Online integration</a> you can work together in real time on presentations or word documents and our <a class="hyperlink" href="/webrtc">video Conferencing features</a> allow you to call and discuss in real time!');?></p>
+                <p class="section--paragraph"><?php echo $l->t('You can find files using our full text search app or by giving them tags and searching for them. Admins can even use <a class="hyperlink" href="/workflow">our Workflow tools</a> to automatically tag files uploaded by specific users, groups or by filetype and execute actions like converting files based on these tags.');?></p>
             </div>
         </div>
         <div class="row feature--block">
             <div class="col-md-6">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Feature overview');?></p>
+                <p class="section--paragraph">
                 <ul>
                     <li><?php echo $l->t('Tag and comment on files, and see tags and comments by others');?></li>
                     <li><?php echo $l->t('See what is happening on your Nextcloud in the Activity feed');?></li>
@@ -78,9 +79,10 @@
                     <li><?php echo $l->t('Share public links read-only or with editing capabilities');?></li>
                     <li><?php echo $l->t('Anonymous upload hides existing files, providing just an upload target');?></li>
                     <li><?php echo $l->t('Optionally put a password or expiration date on public link shares');?></li>
-                    <li><?php echo $l->t('Share directly to users on other Nextcloud, ownCloud or Pydio servers (<a href="#federation">"federation"</a>)');?></li>
+                    <li><?php echo $l->t('Share directly to users on other Nextcloud, ownCloud or Pydio servers (see below: <a class="hyperlink" href="#federation">federation</a>)');?></li>
                     <li><?php echo $l->t('Admins can control all these abilities, add trusted Federation servers and more');?></li>
                 </ul>
+                </p>
             </div>
             <div class="col-md-6">
                 <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing_admin_full.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing_admin.png" class="img-responsive featureimg" /></a>
@@ -107,7 +109,7 @@
 	<h2><?php echo $l->t('More details');?></h2>
 	<div class="row">
 			<div class="col-md-6 ">
-					<p><?php echo $l->t('Learn more in the Nextcloud');?> <a href="<?php echo $DOCUMENTATION_USER; ?>files/federated_cloud_sharing.html" target="_blank"><?php echo $l->t('user documentation</a> and');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_files/federated_cloud_sharing_configuration.html"><?php echo $l->t('administrator documentation</a>.');?></p>
+					<p><?php echo $l->t('Learn more in the Nextcloud');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_USER; ?>files/federated_cloud_sharing.html" target="_blank"><?php echo $l->t('user documentation</a> and');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_files/federated_cloud_sharing_configuration.html"><?php echo $l->t('administrator documentation</a>.');?></p>
 		</div>
 			<div class="col-md-6">
 				<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/federation-config.png" class="img-responsive featureimg" />
