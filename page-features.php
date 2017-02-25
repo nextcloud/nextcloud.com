@@ -122,9 +122,9 @@
 		<div class="col-md-6 image--floated">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/common/external-storage.png"/></a>
 		</div>
-			<p class="section--paragraph__tittle"><?php echo $l->t('External storage');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The external storage feature of Nextcloud gives you access to your data wherever it is. Nextcloud can access files stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but you can also access them using standard protocols such as NFS, (S)FTP, WebDAV and more. <br>
-				The Encryption App can encrypt data at rest for both local and remote storage, protecting data stored on networks outside of your infrastructure. Keys can be handled by an external key management server or stored locally, on the server. Nextcloud will keep your data where it is and retrieve it over a secure communication channel whenever you need to access it.');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('External storage, secure encrypted');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The external storage feature of Nextcloud gives you access to your data wherever it is. Nextcloud can access files stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but you can also access them using standard protocols such as NFS, (S)FTP, WebDAV and more.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The Encryption App can encrypt data at rest for both local and remote storage, protecting data stored on networks outside of your infrastructure. Keys can be handled by an external key management server or stored locally, on the server. Nextcloud will keep your data where it is and retrieve it over a secure communication channel whenever you need to access it.');?></p>
 		</div>
 	</div>
 </section>
@@ -133,13 +133,13 @@
 	<a name="Calendar" id="Calendar"></a>
 	<div class="container">
 		<div class="col-md-6">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/screenShoots_default.png"/></a>
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Calendar and Contacts');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The Nextcloud Calendar and Contacts apps allow you to store, sync and share your plans and contacts. You can share with users or groups on your server or sync the calendar or contacts with your devices and access them wherever you are. The Calendar and Contacts app feature:');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Easy to use interface');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Easy to use interface with views for days, weeks, months and years');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Private and shared calendars and addressbooks with permissions management');?></p>
-			<p class="section--paragraph"><?php echo $l->t('CalDAV and CardDAV sync with third party clients both on mobile and desktop (i.e with Thunderbird)');?></p>
+			<p class="section--paragraph"><?php echo $l->t('CalDAV and CardDAV sync with third party clients both on mobile and desktop (i.e with Thunderbird, iOS and more)');?></p>
 		</div>
 	</div>
 </section>
@@ -148,11 +148,11 @@
 	<a name="calls" id="calls"></a>
 	<div class="container">
 		<div class="col-md-6 image--floated">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/screenShoots_default.png"/></a>
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Secure audio and video calls');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Operate your own secure and private audio/video and text chat. Your own video meeting service is accessible through browsers and dedicated apps on computers, mobile phones and tablets through the Internet or limited to an Intranet. Make a call, invite your friends and clients, and collaborate in closed groups through secure, end to end encrypted video/audio, text messaging, and document and file sharing. The Spreed.ME technology used offers peer to peer, WebRTC based communication channels which can not be intercepted even by the admin of the server. It provides an easy to use interface and can optionally interface with telephone lines, handling up to 10 participants in one session and dozens of sessions on a single server.You can integrate this secure communication in your Nextcloud server or purchase our Spreedbox appliance in one cool, aluminum cube!');?></p>
-			<a href="/sharing" class="button button--blue button--arrow button--large"><?php echo $l->t('Communication');?></a>
+			<p class="section--paragraph"><?php echo $l->t('Operate your own secure and private audio/video communication. You can access it through a browser, invite customers or friends and collaborate in a group through secure, end to end encrypted audio and video communication. The WebRTC, peer to peer communication channel can not be intercepted even by the admin of the server. It provides an easy to use interface.');?></p>
+			<a href="/webrtc" class="button button--blue button--arrow button--large"><?php echo $l->t('Communication');?></a>
 		</div>
 	</div>
 </section>
@@ -161,13 +161,12 @@
 	<a name="Collabora" id="Collabora"></a>
 	<div class="container">
 		<div class="col-md-6">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/screenShoots_default.png"/></a>
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-nw.png"/></a>
 		</div>
-			<p class="section--paragraph__tittle"><?php echo $l->t('Collabora Online Office');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The Nextcloud Calendar and Contacts apps allow you to store, sync and share your plans and contacts. You can share with users or groups on your server or sync the calendar or contacts with your devices and access them wherever you are. The Calendar and Contacts app feature:Collabora Online is a powerful LibreOffice-based online office suite which supports all major document, spreadsheet and presentation file formats. Features:');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Easy to use interface');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Private and shared calendars and addressbooks with permissions management');?></p>
-			<p class="section--paragraph"><?php echo $l->t('CalDAV and CardDAV sync with third party clients both on mobile and desktop (i.e with Thunderbird)');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('View and edit documents with Collabora');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite with collaborative editing that works in all modern browsers.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Collabora Online supports editing your documents in real time with multiple other editors, showing high fidelity, WYSIWYG rendering and preserving the layout and formatting of your documents.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Collabora Online supports dozens of document formats including <strong>DOC, DOCX, PPT, PPTX, XLS, XLSX + ODF, Import/View Visio, Publisher</strong> and many more...');?></p>
 		</div>
 	</div>
 </section>
