@@ -19,7 +19,7 @@
 
 <div class="background sharing-background"> 
     <div class="container">
-        <div class="row">
+        <div class="row revealOnScroll">
             <div class="col-md-6 topheader">
                 <h1><?php echo $l->t('Share on your terms');?></h1>
                 <h2><?php echo $l->t('Nextcloud features an easy to use and powerful web interface. You can access all your files wherever you are and however you like.');?></h2>
@@ -30,7 +30,7 @@
 
 <section class="section--intro">
     <div class="container">
-        <div class="row">
+        <div class="row revealOnScroll">
             <div class="col-md-8 col-md-offset-2 text-center">
                 <p class="section--paragraph"><?php echo $l->t('Sharing is who we are. At work, we share and collaborate with colleagues to get work done. At home, we share our good and our bad moments with family and friends. <span class="avoidwrap">With Nextcloud, sharing is a core part of your experience.</span>');?></p>
             </div>
@@ -40,7 +40,7 @@
 
 <section class="section--sharing">
     <div class="container">
-        <div class="row feature--block">
+        <div class="row revealOnScroll feature--block">
             <div class="col-md-6">
                 <h2 class="section--paragraph__tittle"><?php echo $l->t('Work, share, collaborate, enjoy');?></h2>
                 <p class="section--paragraph"><?php echo $l->t('Share images, documents or music with colleagues on your server, send password protected public links to friends, let customers upload files to you and get notifications on your phone when a user on another Nextcloud server shares files directly with you.');?></p>
@@ -57,7 +57,7 @@
                 </div>
             </div>
         </div>
-        <div class="row feature--block">
+        <div class="row revealOnScroll feature--block">
             <div class="col-md-5">
                 <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/comments.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/comments-wee.png" class="img-responsive featureimg" /></a>
             </div>
@@ -67,7 +67,7 @@
                 <p class="section--paragraph"><?php echo $l->t('You can find files using our full text search app or by giving them tags and searching for them. Admins can even use <a class="hyperlink" href="/workflow">our Workflow tools</a> to automatically tag files uploaded by specific users, groups or by filetype and execute actions like converting files based on these tags.');?></p>
             </div>
         </div>
-        <div class="row feature--block">
+        <div class="row revealOnScroll feature--block">
             <div class="col-md-6">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Feature overview');?></p>
                 <p class="section--paragraph">
@@ -94,22 +94,22 @@
 <div class="container">
 	<a name="federation"></a>
 		<h2 class=""><?php echo $l->t('Share across Nextclouds!');?></h2>
-	<div class="row">
+	<div class="row revealOnScroll">
 		<div class="col-md-4">
 	<!-- 		<a href="https://www.youtube.com/watch?v=9-JEmlH2DEg" target="_blank" style="border: none;"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/federation/federation.gif" alt="in action" /></a> -->
 			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/federation.png" alt="in action" />
 		</div>
 		<div class="col-md-8 feature--block">
-			<p><?php echo $l->t('Sharing files across Nextcloud servers is as easy as sending an email from a Gmail address to a Yahoo account! Instead of an email address, you use a <em>Federated Cloud ID</em>.');?></p>
-			<p class="federation-id"><span id="IDtext"><?php echo $l->t('An example Federated Cloud ID is');?></span><strong> <span id="userName">username@sub.example.com/nextcloud</span></strong></p>
-			<p><?php echo $l->t('To share a file, enter the Federated Cloud ID in the \'share\' dialog. A notification will pop up on the Nextcloud server of the recipient.');?></p>
-			<p><?php echo $l->t('You can find your own Federated Cloud ID in your user settings. Give it to your friends so they can share files with you!');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Sharing files across Nextcloud servers is as easy as sending an email from a Gmail address to a Yahoo account! Instead of an email address, you use a <em>Federated Cloud ID</em>.');?></p>
+			<p class="section--paragraph federation-id"><span id="IDtext"><?php echo $l->t('An example Federated Cloud ID is');?></span><strong> <span id="userName">username@sub.example.com/nextcloud</span></strong></p>
+			<p class="section--paragraph"><?php echo $l->t('To share a file, enter the Federated Cloud ID in the \'share\' dialog. A notification will pop up on the Nextcloud server of the recipient.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('You can find your own Federated Cloud ID in your user settings. Give it to your friends so they can share files with you!');?></p>
 		</div>
 	</div>
-	<h2><?php echo $l->t('More details');?></h2>
-	<div class="row">
+	<div class="row revealOnScroll">
 			<div class="col-md-6 ">
-					<p><?php echo $l->t('Learn more in the Nextcloud');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_USER; ?>files/federated_cloud_sharing.html" target="_blank"><?php echo $l->t('user documentation</a> and');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_files/federated_cloud_sharing_configuration.html"><?php echo $l->t('administrator documentation</a>.');?></p>
+					<p class="section--paragraph__tittle"><?php echo $l->t('More details');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Learn more in the Nextcloud');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_USER; ?>files/federated_cloud_sharing.html" target="_blank"><?php echo $l->t('user documentation</a> and');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_files/federated_cloud_sharing_configuration.html"><?php echo $l->t('administrator documentation</a>.');?></p>
 		</div>
 			<div class="col-md-6">
 				<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/federation-config.png" class="img-responsive featureimg" />

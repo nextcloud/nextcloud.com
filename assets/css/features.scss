@@ -28,3 +28,19 @@ section {
 		padding: 0;
 	}
 }
+
+.section--more {
+    .section--heading-1 {
+        padding-bottom: 60px;
+    }
+    i[class*='fa-'] {
+    font-size: 60px;
+    display: block;
+    color: #0082c9;
+    text-align: center;
+    padding-top: 20%;
+    }
+}
+.calltoaction {
+    padding-bottom: 100px;
+}
