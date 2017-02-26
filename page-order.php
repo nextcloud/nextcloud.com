@@ -125,7 +125,7 @@
 			<p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?> <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
 			<p>Note: all prices excl. VAT</p>
 			<td colspan="2" style="text-align:center">
-<!-- 				<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div> -->
+			<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
 			<input type="submit" name="submit" value=" Order Now " disabled="disabled" class="btn btn-primary"><br />
 			<span id="form-error"><?php echo $l->t('Some required fields are not filled.'); ?></span>
 		</form>
