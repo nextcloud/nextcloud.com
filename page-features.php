@@ -51,10 +51,10 @@
 <section class="section--hosting">
 	<a name="hosting" id="hosting"></a>
 	<div class="container">
-		<div class="col-md-4">
-			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/access-anywhere.png" alt="in action" >
+		<div class="col-md-6">
+			<img class="img-responsive acess__anywhere" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/access-anywhere.png" alt="in action" >
 		</div>
-		<div class="col-md-8 feature--block">
+		<div class="col-md-6 feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud gives you access to all your files wherever you are.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Where are your photos and documents? With Nextcloud <strong>you</strong> pick a server of your choice, at home, in a data center or at a <a class="hyperlink" href="/providers">provider</a>. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices. Through Nextcloud you also access, sync and share your existing data on that FTP drive at the office, a Dropbox or a NAS you have at home.');?></p>
 			<a href="/install" class="button button--blue button--arrow button--large"><?php echo $l->t('Get started');?></a>
