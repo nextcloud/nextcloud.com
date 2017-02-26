@@ -8,7 +8,7 @@
 </head>
 <div class="background clients-background"> 
 	<div class="container">
-		<div class="row revealOnScroll">
+		<div class="row">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Mobile and <span class="avoidwrap">desktop clients</span>');?></h1>
 				<h2><?php echo $l->t('Have your data handy wherever you are and share it with our clients.');?></h2>
