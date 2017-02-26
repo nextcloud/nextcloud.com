@@ -190,7 +190,7 @@
 	<a name="more" id="more"></a>
 <div class="wrap container-widest">
 	<h1 class="section--heading-1 section--text--center"><?php echo $l->t('And much more.');?></h1>
-    <div class="row">
+    <div class="row revealOnScroll">
         <div class="col-md-1 featureblock">
         <i class="fa-code-fork fa"></i>
         </div>
@@ -210,7 +210,7 @@
         <p class=""><?php echo $l->t('Text file editing and thumbnail previews of PDF, images, text files, office files and more');?></p>
         </div>
     </div>
-    <div class="row">
+    <div class="row revealOnScroll">
         <div class="col-md-1 featureblock">
         <i class="fa-bug fa"></i>
         </div>
@@ -230,7 +230,7 @@
         <p class=""><?php echo $l->t('Pre-loaded files and folders for new users. Populate a new user\'s Files area with, for example, a tutorial file, which appears when they first log in.');?></p>
         </div>
     </div>
-    <div class="row">
+    <div class="row revealOnScroll">
         <div class="col-md-1 featureblock">
         <i class="fa-key fa"></i>
         </div>
@@ -250,7 +250,7 @@
         <p class=""><?php echo $l->t('Advanced quota management with configurable accounting of external storage');?></p>
         </div>
     </div>
-    <div class="row">
+    <div class="row revealOnScroll">
         <div class="col-md-1 featureblock">
         <i class="fa-code fa"></i>
         </div>
@@ -273,7 +273,7 @@
 </div>
 </section>
 
-<div class="calltoaction">
+<div class="calltoaction revealOnScroll">
 	<h1 class="section--heading-2 section--text--center"><?php echo $l->t('Get started now');?></h1>
 	<p class="section--paragraph section--text--center"><?php echo $l->t('Install Nextcloud server');?><br>
 	<a href="/sharing" class="button button--blue button--arrow button--large"><?php echo $l->t('Install');?></a></p>
