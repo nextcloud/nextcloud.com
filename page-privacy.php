@@ -84,7 +84,7 @@ However, non-personally identifiable visitor information may be provided to othe
 <p>If at any time you would like to unsubscribe from receiving future emails follow the instructions at the bottom of each email and we will promptly remove you from <strong>ALL</strong> correspondence.</p>
 
 <h3>Website source</h3>
-<p>The source code of the website is a fork of <a href="https://github.com/owncloud/owncloud.org">this code</a> and our current code can be found in <a href="https://github.com/nextcloud/nextcloud.com">our github</a>. It is licensed under the <a href="https://en.wikipedia.org/wiki/MIT_License">MIT license</a>.</p>
+<p>The source code of the website is a fork of <a href="https://github.com/owncloud/owncloud.org">this code</a> and our current code can be found in <a href="https://github.com/nextcloud/nextcloud.com">our GitHub</a>. It is licensed under the <a href="https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License">AGPLv3 license</a>.</p>
 
 <h2>Contact</h2>
 <p>If there are any questions regarding this privacy policy you may contact us using the information below.</p>
