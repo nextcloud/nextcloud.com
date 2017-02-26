@@ -44,7 +44,7 @@
 			<a href="#Calendar"><?php echo $l->t('Calendar & Contacts');?></a>
 			<a href="#calls"><?php echo $l->t('Video calls');?></a>
 			<a href="#Collabora"><?php echo $l->t('Online Office');?></a>
-			<a href="#more"><?php echo $l->t('More');?></a>
+			<a href="#apps"><?php echo $l->t('Apps & more');?></a>
 		</div>
 	</div>
 </div>
@@ -200,6 +200,20 @@
 			<a href="/collaboraonline" class="button button--blue button--arrow button--large"><?php echo $l->t('Collabora Online Office');?></a>
 		</div>
 	</div>
+</section>
+
+<section class="section--appstore">
+    <a name="appstore" id="appstore"></a>
+    <div class="container">
+        <div class="col-md-6 revealOnScroll">
+            <a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/appstore.png"/></a>
+        </div>
+            <p class="section--paragraph__tittle"><?php echo $l->t('Add dozens more features through Nextcloud Apps');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud was designed as a platform, with functionality provided by apps which can be individually enabled and disabled.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('The Nextcloud app store contains dozens of apps providing features Nextcloud users and admins might find useful. For users, features like an audio player, password manager, Task manager, Mail app, Ebook reader or the GPX file editor can be of interest. Server administrators looking for certain capabilities would find OpenID Connect SSO integration, an SQL user backend or a registration app useful.');?></p>
+            <a href="https://apps.nextcloud.com" class="button button--blue button--arrow button--large"><?php echo $l->t('Browse Nextcloud Apps');?></a>
+        </div>
+    </div>
 </section>
 
 <section class="section--more">
