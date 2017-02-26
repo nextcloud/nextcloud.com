@@ -101,7 +101,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'translation',
 		'user',
 		'webrtc',
-		'workflow'
+// 		'workflow'
 
 	];
 	function is_blog()

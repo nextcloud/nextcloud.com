@@ -38,6 +38,7 @@
 			<a href="#files"><?php echo $l->t('File access');?></a>
 			<a href="#security"><?php echo $l->t('Security');?></a>
 			<a href="#workflow"><?php echo $l->t('Workflow');?></a>
+			<a href="#monitoring"><?php echo $l->t('Monitoring');?></a>
 			<a href="#clients"><?php echo $l->t('Clients');?></a>
 			<a href="#storage"><?php echo $l->t('External storage');?></a>
 			<a href="#Calendar"><?php echo $l->t('Calendar & Contacts');?></a>
@@ -115,10 +116,25 @@
 	</div>
 </section>
 
+<section class="section--workflow">
+    <a name="workflow" id="workflow"></a>
+    <div class="container">
+        <div class="col-md-6 revealOnScroll">
+            <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-nw.png" alt="in action"/></a>
+        </div>
+            <p class="section--paragraph__tittle"><?php echo $l->t('Tracking changes to your files');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Being in control means knowing what is going on. The nextcloud Activity app gives users a clear view on what is happening with their files. It tracks file modifications, downloads of shares and changes to comments or tags, providing an overview in the browser, clients or via email notifications and an RSS feed.');?></p>
+            <p class="section--paragraph__tittle"><?php echo $l->t('Monitoring your Nextcloud server');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud scales to millions of users and at that scale it is important to keep an eye on the health of a system. The Server Information app provides a way for admins to monitor the health and performance of a Nextcloud system. Besides the graphical UI, an API endpoint provided makes it possible for system administrators to import this data in their monitoring app so they can keep an eye on Nextcloud operations from the same place they monitor the rest of their infrastructure.');?></p>
+            <a href="/monitoring" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring activity');?></a>
+        </div>
+    </div>
+</section>
+
 <section class="section--clients">
 	<a name="clients" id="clients"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll">
+		<div class="col-md-6 image--floated revealOnScroll">
 			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mobileDesktop.png">
 		</div>
 
@@ -133,7 +149,7 @@
 <section class="section--storage">
 	<a name="storage" id="storage"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll image--floated">
+		<div class="col-md-6 revealOnScroll">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/common/external-storage.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('External storage, secure encrypted');?></p>
@@ -146,7 +162,7 @@
 <section class="section--Calendar">
 	<a name="Calendar" id="Calendar"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll">
+		<div class="col-md-6 image--floated revealOnScroll">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Calendar and Contacts');?></p>
@@ -161,7 +177,7 @@
 <section class="section--calls">
 	<a name="calls" id="calls"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll image--floated">
+		<div class="col-md-6 revealOnScroll">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Secure audio and video calls');?></p>
@@ -174,7 +190,7 @@
 <section class="section--Collabora">
 	<a name="Collabora" id="Collabora"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll">
+		<div class="col-md-6 image--floated revealOnScroll">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-nw.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('View and edit documents with Collabora');?></p>
