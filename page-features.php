@@ -106,7 +106,7 @@
 	<a name="workflow" id="workflow"></a>
 	<div class="container">
 		<div class="col-md-6 revealOnScroll image--floated">
-			<a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/firewall.png" alt="in action"/></a>
+			<a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/file-access-control-nw.png" alt="in action"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Workflow management');?></p>
 			<p class="section--paragraph"><?php echo $l->t('With Nextcloud, system administrators can control and direct the flow of data between users on or between servers. Rule based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements.
@@ -150,7 +150,7 @@
 	<a name="storage" id="storage"></a>
 	<div class="container">
 		<div class="col-md-6 revealOnScroll">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/common/external-storage.png"/></a>
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('External storage, secure encrypted');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The external storage feature of Nextcloud gives you access to your data wherever it is. Nextcloud can access files stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but you can also access them using standard protocols such as NFS, (S)FTP, WebDAV and more.');?></p>
