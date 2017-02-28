@@ -34,17 +34,17 @@
 <div class="second-menu">
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
-			<a href="#hosting"><?php echo $l->t('Hosting');?></a>
-			<a href="#files"><?php echo $l->t('File access');?></a>
-			<a href="#security"><?php echo $l->t('Security');?></a>
-			<a href="#workflow"><?php echo $l->t('Workflow');?></a>
-			<a href="#monitoring"><?php echo $l->t('Monitoring');?></a>
-			<a href="#clients"><?php echo $l->t('Clients');?></a>
-			<a href="#storage"><?php echo $l->t('External storage');?></a>
-			<a href="#Calendar"><?php echo $l->t('Calendar & Contacts');?></a>
-			<a href="#calls"><?php echo $l->t('Video calls');?></a>
-			<a href="#Collabora"><?php echo $l->t('Online Office');?></a>
-			<a href="#apps"><?php echo $l->t('Apps & more');?></a>
+			<a href="#hosting"><span class="avoidwrap"><?php echo $l->t('Hosting');?></span></a>
+			<a href="#files"><span class="avoidwrap"><?php echo $l->t('File access');?></span></a>
+			<a href="#security"><span class="avoidwrap"><?php echo $l->t('Security');?></span></a>
+			<a href="#workflow"><span class="avoidwrap"><?php echo $l->t('Workflow');?></span></a>
+			<a href="#monitoring"><span class="avoidwrap"><?php echo $l->t('Monitoring');?></span></a>
+			<a href="#clients"><span class="avoidwrap"><?php echo $l->t('Clients');?></span></a>
+			<a href="#storage"><span class="avoidwrap"><?php echo $l->t('External storage');?></span></a>
+			<a href="#calendar"><span class="avoidwrap"><?php echo $l->t('Calendar & Contacts');?></span></a>
+			<a href="#calls"><span class="avoidwrap"><?php echo $l->t('Video calls');?></a>
+			<a href="#collabora"><span class="avoidwrap"><?php echo $l->t('Online Office');?></span></a>
+			<a href="#appstore"><span class="avoidwrap"><?php echo $l->t('Appstore & more');?></span></a>
 		</div>
 	</div>
 </div>
@@ -116,8 +116,8 @@
 	</div>
 </section>
 
-<section class="section--workflow">
-    <a name="workflow" id="workflow"></a>
+<section class="section--monitoring">
+    <a name="monitoring" id="monitoring"></a>
     <div class="container">
         <div class="col-md-6 revealOnScroll">
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-nw.png" alt="in action"/></a>
@@ -160,7 +160,7 @@
 </section>
 
 <section class="section--Calendar">
-	<a name="Calendar" id="Calendar"></a>
+	<a name="calendar" id="calendar"></a>
 	<div class="container">
 		<div class="col-md-6 image--floated revealOnScroll">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png"/></a>
@@ -188,7 +188,7 @@
 </section>
 
 <section class="section--Collabora">
-	<a name="Collabora" id="Collabora"></a>
+	<a name="collabora" id="collabora"></a>
 	<div class="container">
 		<div class="col-md-6 image--floated revealOnScroll">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-nw.png"/></a>
