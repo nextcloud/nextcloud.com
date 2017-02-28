@@ -57,7 +57,7 @@
 		</div>
 		<div class="col-md-6 revealOnScroll feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud gives you access to all your files wherever you are.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Where are your photos and documents? With Nextcloud <strong>you</strong> pick a server of your choice, at home, in a data center or at a <a class="hyperlink" href="/providers">provider</a>. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices. Through Nextcloud you also access, sync and share your existing data on that FTP drive at the office, a Dropbox or a NAS you have at home.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Where are your photos and documents? With Nextcloud <strong>you</strong> pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices. Through Nextcloud you also access, sync and share your existing data on that FTP drive at the office, a Dropbox or a NAS you have at home.');?></p>
 			<a href="/install" class="button button--blue button--arrow button--large"><?php echo $l->t('Get started');?></a>
 		</div>
 	</div>	
@@ -210,7 +210,7 @@
         </div>
             <p class="section--paragraph__tittle"><?php echo $l->t('Add dozens more features through Nextcloud Apps');?></p>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud was designed as a platform, with functionality provided by apps which can be individually enabled and disabled.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('The Nextcloud app store contains dozens of apps providing features Nextcloud users and admins might find useful. For users, features like an audio player, password manager, Task manager, Mail app, Ebook reader or the GPX file editor can be of interest. Server administrators looking for certain capabilities would find OpenID Connect SSO integration, an SQL user backend or a registration app useful.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('The Nextcloud app store contains dozens of apps providing features Nextcloud users and admins might find useful. For users, features like an audio player, password manager, Task manager, Mail app, Ebook reader or the GPX file editor can be of interest. Server administrators looking for certain capabilities would find OpenID Connect SSO integration, more two-factor authentication mechanisms or a registration app useful.');?></p>
             <a href="https://apps.nextcloud.com" class="button button--blue button--arrow button--large"><?php echo $l->t('Browse Nextcloud Apps');?></a>
         </div>
     </div>
