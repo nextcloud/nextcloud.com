@@ -19,8 +19,8 @@
 
 <div class="background sharing-background"> 
     <div class="container">
-        <div class="row revealOnScroll">
-            <div class="col-md-6 topheader">
+        <div class="row">
+            <div class="col-md-6 revealOnScroll topheader">
                 <h1><?php echo $l->t('Share on your terms');?></h1>
                 <h2><?php echo $l->t('Nextcloud features an easy to use and powerful web interface. You can access all your files wherever you are and however you like.');?></h2>
             </div>
