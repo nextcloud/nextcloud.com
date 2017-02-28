@@ -7,7 +7,14 @@
   background-position: center;
   background-size: cover;
 }
-
+.img-responsive {
+	@media (min-width: $break-big) {
+	margin-bottom: 200px;
+	}
+	@media (min-width: $very-wide) {
+	margin-bottom: 100px;
+	}
+}
 .image--floated{
 	float: right;
 }

@@ -66,6 +66,13 @@
   background-position: center;
   background-size: cover; }
 
+@media (min-width: 991px) {
+  .img-responsive {
+    margin-bottom: 200px; } }
+@media (min-width: 1600px) {
+  .img-responsive {
+    margin-bottom: 100px; } }
+
 .image--floated {
   float: right; }
 
