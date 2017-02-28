@@ -13,7 +13,7 @@
 }
 
 .acess__anywhere {
-	max-width: 400px;
+	width: 400px;
     margin: 0 auto;
 }
 
@@ -30,6 +30,10 @@ section {
 }
 
 .section--more {
+	.container-widest .row {
+		margin-left: 5px;
+		margin-right: 5px;
+}
     .section--heading-1 {
         padding-bottom: 60px;
     }

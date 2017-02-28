@@ -218,7 +218,7 @@
 
 <section class="section--more">
 	<a name="more" id="more"></a>
-<div class="wrap container-widest">
+<div class="container-widest">
 	<h1 class="section--heading-1 section--text--center"><?php echo $l->t('And much more.');?></h1>
     <div class="row revealOnScroll">
         <div class="col-md-1 featureblock">

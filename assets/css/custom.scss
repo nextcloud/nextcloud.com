@@ -743,46 +743,49 @@ h5 {
   transition: transform 500ms ease;
   transform: translate3d(0px, 0px, 0px);
   opacity: 0; }
-  .second-menu .menu.hidedPrincipalNavigation {
-    transform: translate3d(0px, -100px, 0px); }
-  .second-menu .menu .buttons {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 40px 0 30px 0;
-    border-bottom: solid 1px #e4e4e4; }
-    @media (max-width: 991px) {
-      .second-menu .menu .buttons {
-        padding: 30px 0 25px 0; } }
-    @media (max-width: 991px) {
-      .second-menu .menu .buttons a:not(.btn) {
-        display: none; } }
-    .second-menu .menu .buttons a {
-      padding-right: 10px;
-      color: #333333;
-      transition: all 0.3s ease;
-      letter-spacing: 1px; }
-      .second-menu .menu .buttons a:focus {
-        text-decoration: none;
-        color: black; }
-      .second-menu .menu .buttons a.active {
-        text-decoration: none;
-        color: #0082c9; }
-      .second-menu .menu .buttons a:hover {
-        text-decoration: none;
-        color: #0082c9; }
-    .second-menu .menu .buttons .btn-primary {
-      float: right;
-      font-size: 14px;
-      padding: 8px 20px;
-      margin-left: 20px;
-      margin-top: -5px;
-      color: white; }
-      .second-menu .menu .buttons .btn-primary:hover {
-        text-decoration: none;
-        color: white; }
-      .second-menu .menu .buttons .btn-primary:before {
-        background: none; }
+.second-menu .menu.hidedPrincipalNavigation {
+transform: translate3d(0px, -100px, 0px); }
+.second-menu .menu .buttons {
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 600;
+padding: 40px 0 30px 0;
+border-bottom: solid 1px #e4e4e4; }
+@media (max-width: 991px) {
+	.second-menu {
+		display: none;
+	}
+	.second-menu .menu .buttons {
+	padding: 30px 0 25px 0; } }
+@media (max-width: 991px) {
+	.second-menu .menu .buttons a:not(.btn) {
+	display: none; } }
+.second-menu .menu .buttons a {
+	padding-right: 10px;
+	color: #333333;
+	transition: all 0.3s ease;
+	letter-spacing: 1px; }
+	.second-menu .menu .buttons a:focus {
+	text-decoration: none;
+	color: black; }
+	.second-menu .menu .buttons a.active {
+	text-decoration: none;
+	color: #0082c9; }
+	.second-menu .menu .buttons a:hover {
+	text-decoration: none;
+	color: #0082c9; }
+.second-menu .menu .buttons .btn-primary {
+	float: right;
+	font-size: 14px;
+	padding: 8px 20px;
+	margin-left: 20px;
+	margin-top: -5px;
+	color: white; }
+	.second-menu .menu .buttons .btn-primary:hover {
+	text-decoration: none;
+	color: white; }
+	.second-menu .menu .buttons .btn-primary:before {
+	background: none; }
 
 /*Colors*/
 /*Shadows*/

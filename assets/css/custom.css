@@ -798,6 +798,9 @@ h5 {
   border-bottom: solid 1px #e4e4e4; }
 
 @media (max-width: 991px) {
+  .second-menu {
+    display: none; }
+
   .second-menu .menu .buttons {
     padding: 30px 0 25px 0; } }
 @media (max-width: 991px) {
