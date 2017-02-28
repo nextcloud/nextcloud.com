@@ -34,17 +34,16 @@
 <div class="second-menu">
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
-			<a href="#hosting"><span class="avoidwrap"><?php echo $l->t('Hosting');?></span></a>
-			<a href="#files"><span class="avoidwrap"><?php echo $l->t('File access');?></span></a>
+			<a href="#hosting"><span class="avoidwrap"><?php echo $l->t('Your files');?></span></a>
+<!--			<a href="#files"><span class="avoidwrap"><?php echo $l->t('File access');?></span></a>-->
 			<a href="#security"><span class="avoidwrap"><?php echo $l->t('Security');?></span></a>
-			<a href="#workflow"><span class="avoidwrap"><?php echo $l->t('Workflow');?></span></a>
-			<a href="#monitoring"><span class="avoidwrap"><?php echo $l->t('Monitoring');?></span></a>
+<!-- 			<a href="#workflow"><span class="avoidwrap"><?php echo $l->t('Control');?></span></a> -->
 			<a href="#clients"><span class="avoidwrap"><?php echo $l->t('Clients');?></span></a>
 			<a href="#storage"><span class="avoidwrap"><?php echo $l->t('External storage');?></span></a>
-			<a href="#calendar"><span class="avoidwrap"><?php echo $l->t('Calendar & Contacts');?></span></a>
-			<a href="#calls"><span class="avoidwrap"><?php echo $l->t('Video calls');?></a>
-			<a href="#collabora"><span class="avoidwrap"><?php echo $l->t('Online Office');?></span></a>
-			<a href="#appstore"><span class="avoidwrap"><?php echo $l->t('Appstore & more');?></span></a>
+			<a href="#calendar"><span class="avoidwrap"><?php echo $l->t('Collaborate');?></span></a>
+<!-- 			<a href="#calls"><span class="avoidwrap"><?php echo $l->t('Video calls');?></a> -->
+<!-- 			<a href="#collabora"><span class="avoidwrap"><?php echo $l->t('Online Office');?></span></a> -->
+			<a href="#appstore"><span class="avoidwrap"><?php echo $l->t('More apps');?></span></a>
 		</div>
 	</div>
 </div>
