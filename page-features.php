@@ -297,7 +297,7 @@
         <i class="fa-paint-brush fa"></i>
         </div>
         <div class="col-md-3 featureblock">
-        <p class=""><?php echo $l->t('Built in, easy to use theming');?></p>
+        <p class=""><?php echo $l->t('Built in, easy to use theming to set color, login background and logo from Administrator screen.');?></p>
         </div>
     </div>
 </div>
