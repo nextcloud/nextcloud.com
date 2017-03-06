@@ -743,46 +743,49 @@ h5 {
   transition: transform 500ms ease;
   transform: translate3d(0px, 0px, 0px);
   opacity: 0; }
-  .second-menu .menu.hidedPrincipalNavigation {
-    transform: translate3d(0px, -100px, 0px); }
-  .second-menu .menu .buttons {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 40px 0 30px 0;
-    border-bottom: solid 1px #e4e4e4; }
-    @media (max-width: 991px) {
-      .second-menu .menu .buttons {
-        padding: 30px 0 25px 0; } }
-    @media (max-width: 991px) {
-      .second-menu .menu .buttons a:not(.btn) {
-        display: none; } }
-    .second-menu .menu .buttons a {
-      padding-right: 10px;
-      color: #333333;
-      transition: all 0.3s ease;
-      letter-spacing: 1px; }
-      .second-menu .menu .buttons a:focus {
-        text-decoration: none;
-        color: black; }
-      .second-menu .menu .buttons a.active {
-        text-decoration: none;
-        color: #0082c9; }
-      .second-menu .menu .buttons a:hover {
-        text-decoration: none;
-        color: #0082c9; }
-    .second-menu .menu .buttons .btn-primary {
-      float: right;
-      font-size: 14px;
-      padding: 8px 20px;
-      margin-left: 20px;
-      margin-top: -5px;
-      color: white; }
-      .second-menu .menu .buttons .btn-primary:hover {
-        text-decoration: none;
-        color: white; }
-      .second-menu .menu .buttons .btn-primary:before {
-        background: none; }
+.second-menu .menu.hidedPrincipalNavigation {
+transform: translate3d(0px, -100px, 0px); }
+.second-menu .menu .buttons {
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 600;
+padding: 40px 0 30px 0;
+border-bottom: solid 1px #e4e4e4; }
+@media (max-width: 991px) {
+	.second-menu {
+		display: none;
+	}
+	.second-menu .menu .buttons {
+	padding: 30px 0 25px 0; } }
+@media (max-width: 991px) {
+	.second-menu .menu .buttons a:not(.btn) {
+	display: none; } }
+.second-menu .menu .buttons a {
+	padding-right: 10px;
+	color: #333333;
+	transition: all 0.3s ease;
+	letter-spacing: 1px; }
+	.second-menu .menu .buttons a:focus {
+	text-decoration: none;
+	color: black; }
+	.second-menu .menu .buttons a.active {
+	text-decoration: none;
+	color: #0082c9; }
+	.second-menu .menu .buttons a:hover {
+	text-decoration: none;
+	color: #0082c9; }
+.second-menu .menu .buttons .btn-primary {
+	float: right;
+	font-size: 14px;
+	padding: 8px 20px;
+	margin-left: 20px;
+	margin-top: -5px;
+	color: white; }
+	.second-menu .menu .buttons .btn-primary:hover {
+	text-decoration: none;
+	color: white; }
+	.second-menu .menu .buttons .btn-primary:before {
+	background: none; }
 
 /*Colors*/
 /*Shadows*/
@@ -872,6 +875,7 @@ footer.page-footer {
       color: #ffffff;
       width: 140px;
       margin-top: 0; } }
+      
 html {
   margin-top: 0 !important; }
 
@@ -882,6 +886,11 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #555; }
+
+/* Avoid wrapping */
+span.avoidwrap {
+	display:inline-block;
+}
 
 i[class*='fa-'] {
   font-style: normal;
@@ -1261,108 +1270,115 @@ blockquote {
   margin: -16px 0 0 -16px;
   padding: 0;
   list-style: none; }
-  @media (max-width: 1024px) {
+@media (max-width: 1024px) {
     .highlights {
-      display: block;
-      text-align: center;
-      margin: 0 10px 0 10px; } }
+        display: block;
+        text-align: center;
+        margin: 0 10px 0 10px; } }
 
 .highlights_align {
   padding-top: 100px;
   flex-basis: 33.33333%;
   max-width: 33.33333%;
   padding-left: 64px; }
-  .highlights_align:first-child {
+.highlights_align:first-child {
     padding-left: 0px; }
-  @media (max-width: 1024px) {
+@media (max-width: 1024px) {
     .highlights_align {
-      flex-basis: auto;
-      max-width: none;
-      padding-left: 0;
-      padding-top: 50px; } }
-  .highlights_align svg {
+        flex-basis: auto;
+        max-width: none;
+        padding-left: 0;
+        padding-top: 50px; } }
+.highlights_align svg {
     margin-left: -10px; }
-    @media (max-width: 1200px) {
-      .highlights_align svg {
+@media (max-width: 1200px) {
+    .highlights_align svg {
         margin-left: 0; } }
-  .highlights_align .section--paragraph {
+.highlights_align .section--paragraph {
     font-size: 16px; }
-  .highlights_align h4 {
+.highlights_align h4 {
     text-align: center;
     margin-top: 20px;
     margin-left: -20px;
     margin-bottom: 0; }
-    @media (max-width: 1200px) {
-      .highlights_align h4 {
-        margin-left: 0; } }
+@media (max-width: 1200px) {
+.highlights_align h4 {
+    margin-left: 0; } }
 
 /* Youtube dialog */
 .yt-img-overlay {
-  position: relative;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-  display: block;
-  /* 	max-width: 90%; */
-  height: auto;
-  /* 	margin: 1%; */
-  /* 	margin-top: 3%; */
-  text-decoration: none;
-  color: white; }
-  .yt-img-overlay img {
-    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    display: block;
     height: auto;
-    /* 			margin: -5% 0 -5% 0; */ }
-  .yt-img-overlay .col-md-4 {
-    /* compensate for the 1% margin yt images need */
-    /* 		width: 31%; */ }
-  .yt-img-overlay .col-md-3 {
-    /* compensate for the 1% margin yt images need */
-    /* 		width: 22.8%; */ }
-  .yt-img-overlay .yt-play-btn {
-    padding-left: 40%;
-    padding-top: 23%;
-    /* 	padding-top: 20%; */
+    text-decoration: none;
+    color: white; 
+    z-index: 1;
+    img {
+    width: 110%;
+    height: auto;
+    margin: -10% 0 -10% 0;
+    overflow: hidden;        
+    }
+    .yt-play-btn {
     position: absolute;
     top: 0;
-    /* 	top: -5%; */
-    /* 	left: -5% */
-    /* 	padding-left: 45%; */
     width: 100%;
-    height: 100%; }
-    .yt-img-overlay .yt-play-btn:hover i {
-      background-image: url("../img/common/YTplayHover.svg");
-      transition: background-image 0.1s;
-      -webkit-transition: background-image 0.1s;
-      /*	width: 100%;
-      	height: 100%;*/ }
-    .yt-img-overlay .yt-play-btn i {
-      /* 	left: 5% */
-      background-image: url("../img/common/YTplay.svg");
-      background-position: center;
-      background-repeat: none;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover;
-      -o-background-size: cover;
-      background-clip: border-box;
-      border: 0px;
-      /*		min-height: 10px !important; */
-      z-index: 0 !important;
-      width: 68px;
-      height: 50px;
-      display: inline-block; }
+    height: 100%; 
+    padding-left: 40%;
+    padding-top: 23%;
+    i {
+    background-image: url("../img/common/YTplay.svg");
+    background-position: center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-clip: border-box;
+    border: 0px;
+    width: 102px;
+    height: 75px;
+/*     width: 68px; */
+/*     height: 50px; */
+    display: inline-block; } }
+    .yt-play-btn:hover i {
+        background-image: url("../img/common/YTplayHover.svg");
+        transition: background-image 0.1s;
+        -webkit-transition: background-image 0.1s; }
+}
 
-/* In case of a big video, make the button bigger, too */
+
 @media (min-width: 991px) {
+    .yt-img-overlay .yt-play-btn {
+    padding-left: 40%;
+    padding-top: 26%; 
+    i {
+        width: 68px;
+        height: 50px; }
+    }
+   
+    .col-md-4 .yt-img-overlay .yt-play-btn, .col-md-5 .yt-img-overlay .yt-play-btn {
+        padding-left: 38%;
+        padding-top: 25%; 
+    }
+    .col-md-6 .yt-img-overlay .yt-play-btn, .col-md-7 .yt-img-overlay .yt-play-btn {
+        padding-left: 45%;
+        padding-top: 29%;
+    }
   .col-md-10 .yt-img-overlay .yt-play-btn, .col-md-11 .yt-img-overlay .yt-play-btn, .col-md-12 .yt-img-overlay .yt-play-btn {
     padding-left: 45%;
-    padding-top: 25%;
+    padding-top: 22%;
     width: 100%;
-    height: 100%; }
-    .col-md-10 .yt-img-overlay .yt-play-btn i, .col-md-11 .yt-img-overlay .yt-play-btn i, .col-md-12 .yt-img-overlay .yt-play-btn i {
+    height: 100%; 
+    /* In case of a big video, make the button bigger, too */
+    i {  
       width: 102px;
       height: 75px; } }
+}
+
 /* Make sure you don't get scrollbars! */
 .ui-dialog .ui-dialog-content {
   overflow: hidden !important; }

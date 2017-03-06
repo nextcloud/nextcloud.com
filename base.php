@@ -52,7 +52,6 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'devices',
 // 		'events',
 		'faq',
-		'features',
 		'federation',
 		'hackathon',
 		'history',
@@ -60,7 +59,6 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'install',
 		'install-backup',
 		'meetups',
-// 		'migration',
 		'news',
 		'newsletter',
 		'nine',
@@ -89,7 +87,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'securesharesubmit',
 		'securesharing',
 		'security',
-		'sharing',
+// 		'sharing',
 		'speaking',
 		'spreedbox',
 // 		'support',
@@ -103,7 +101,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'translation',
 		'user',
 		'webrtc',
-		'workflow'
+// 		'workflow'
 
 	];
 	function is_blog()

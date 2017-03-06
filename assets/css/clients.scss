@@ -1,0 +1,24 @@
+@import "variables.scss";
+@import "transparent-navbar.scss";
+
+.clients-background {
+  background: url("../img/headers/clients.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image--floated{
+	float: right;
+}
+
+.section--desktop {
+	padding-top: 80px;
+}
+
+section {
+	padding: 100px 0;
+
+	.section--paragraph__tittle {
+		padding: 0;
+	}
+}
