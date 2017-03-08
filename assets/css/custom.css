@@ -1423,7 +1423,7 @@ blockquote:after {
   .yt-img-overlay img {
     width: 110%;
     height: auto;
-    margin: -10% 0 -10% 0;
+    padding: -10% 0 -10% 0;
     overflow: hidden; }
   .yt-img-overlay .yt-play-btn {
     position: absolute;
