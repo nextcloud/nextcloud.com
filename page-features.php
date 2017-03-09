@@ -78,7 +78,10 @@
 		<div class="col-md-6 revealOnScroll feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Share with others on your terms.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The easy web interface allows you to share files with other users on your server, to create and send password protected public links, to let others upload files to your cloud and to get notifications on your phone and desktop when a user on another cloud server shares files directly with you. And you can do all these things from the desktop or mobile clients, too.');?></p>
-			<a href="/sharing" class="button button--blue button--arrow button--large"><?php echo $l->t('Share with Nextcloud');?></a>
+			<a href="/
+				 
+				 
+				 " class="button button--blue button--arrow button--large"><?php echo $l->t('Share with Nextcloud');?></a>
 		</div>
 	</div>	
 </section>
@@ -110,7 +113,7 @@
 			<p class="section--paragraph__tittle"><?php echo $l->t('Workflow management');?></p>
 			<p class="section--paragraph"><?php echo $l->t('With Nextcloud, system administrators can control and direct the flow of data between users on or between servers. Rule based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements.
 				Nextcloud puts you in control of your data and keeps it safe.');?></p>
-			<a href="/sharing" class="button button--blue button--arrow button--large"><?php echo $l->t('Workflow handling');?></a>
+			<a href="/workflow" class="button button--blue button--arrow button--large"><?php echo $l->t('Workflow handling');?></a>
 		</div>
 	</div>
 </section>
@@ -305,7 +308,7 @@
 <div class="calltoaction revealOnScroll">
 	<h1 class="section--heading-2 section--text--center"><?php echo $l->t('Get started now');?></h1>
 	<p class="section--paragraph section--text--center"><?php echo $l->t('Install Nextcloud server');?><br>
-	<a href="/sharing" class="button button--blue button--arrow button--large"><?php echo $l->t('Install');?></a></p>
+	<a href="/install" class="button button--blue button--arrow button--large"><?php echo $l->t('Install');?></a></p>
 </div>
 
 
