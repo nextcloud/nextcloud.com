@@ -181,7 +181,7 @@
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
-								<img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/android.gif" alt="Nextcloud Mobile Client" />
+								<img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/android.gif" alt="Nextcloud Mobile Client" />
 							</div>
 						</div>
 					</div>
