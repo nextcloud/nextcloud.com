@@ -78,6 +78,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/matthias.jpg" />
+				<h2 class="teamname">Matthias Wobben</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Sales Engineer</h3>
+					<h4 class="teamexpertise">Sales and Customer Relationships</h4>
+					<h4 class="teamlocation">lives in Berlin, Germany</h4>
+					<p class="teamsocial"><a href="https://wobben.net/"> <a href="https://www.linkedin.com/in/wobben-matthias/"><i class="fa-linkedin fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Matthias worked for nine years as a 3rd level IT Engineer and IT Administrator with a strong focus on customer relationship management. He is passionate about innovative technology, enabling clients to collaborate securely while retaining ease-of-use.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/patrick.jpg" />
 				<h2 class="teamname">Patrick Walther</h2>
 				<div class="teammeta">
@@ -89,6 +102,7 @@
 				<p class="teamdescription">Patrick was co-founder of struktur AG in 2000, responsible for sales and finance. He held several sales and marketing positions at IBM and Oracle, adding up to more than two decades of experience in the IT industry.</p>
 			</div>
 		</div>
+
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jos.jpg" />
@@ -100,6 +114,19 @@
 					<p class="teamsocial"><a href="http://blog.jospoortvliet.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jospoortvliet"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jospoortvliet"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Jos graduated in Psychology from the University of Utrecht and did project and service level management at Royal Bank of Scottland, KPN and the Dutch Department of Education. He has over a decade open source marketing and PR experience, previously working as Community Manager for SUSE Linux and ownCloud GmbH.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/michael.jpg" />
+				<h2 class="teamname">Nina Cercy</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Marketing Intern</h3>
+					<h4 class="teamexpertise">Marketing and PR</h4>
+					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+					<p class="teamsocial"><a href="https://TBD"><i class="fa-rss fa"></i></a> <a href="https://github.com/NinaNC"><i class="fa-github fa"></i></a> <a href="https://twitter.com/TBD"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">TBD.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -299,6 +326,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Maxence Lange</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Consulting services</h4>
+					<h4 class="teamlocation">lives in Santa Maria, Cape Verde</h4>
+					<p class="teamsocial"> <a href="https://github.com/daita"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Maxence is awesome. TBD.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/morris.jpg" />
 				<h2 class="teamname">Morris Jobke</h2>
 				<div class="teammeta">
@@ -360,6 +400,19 @@
 				</div>
 				<p class="teamdescription">Nina studied Business and Management at HEC Paris. She  She's an open source lover, and she's especially fond of personal data protection regulation. She co-directed <i>Numérique, reprendre le contrôle</i> in 2016.</p>
 			</div>	
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Tobias Kaminsky</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Android Client</h4>
+					<h4 class="teamlocation">lives in TBD, Germany</h4>
+					<p class="teamsocial"><a href="http://TBD.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/tobiasKaminsky"><i class="fa-github fa"></i></a> <a href="https://twitter.com/TBD"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Tobias is awesome. TBD</p>
+			</div>
 		</div>
 	</div>
 </section>
