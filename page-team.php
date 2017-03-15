@@ -348,6 +348,18 @@
 				</div>
 				<p class="teamdescription">Simon handles technical project management and coding. He spearheads the backend and frontend services development and defines the system architecture and infrastructure for the Spreedbox. He has extensive WebRTC, AngularJS, Go and Python experience.</p>
 			</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/nina.jpg" />
+				<h2 class="teamname">Nina Cercy</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Marketing Intern</h3>
+					<h4 class="teamexpertise">Marketing and content</h4>
+					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+					<p class="teamsocial"><!--<a href="https://spreed.me/"><i class="fa-rss fa"></i></a>--> <!--<a href="https://github.com/"><i class="fa-github fa"></i></a>--> <a href="https://twitter.com/nlapalice"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Nina studied Business and Management at HEC Paris. She  She's an open source lover, and she's especially fond of personal data protection regulation. She co-directed <i>Numérique, reprendre le contrôle</i> in 2016.</p>
+			</div>	
 		</div>
 	</div>
 </section>
