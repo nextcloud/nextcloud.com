@@ -108,7 +108,7 @@
 				<h2 class="teamname">Jos Poortvliet</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Head of Marketing</h3>
-					<h4 class="teamexpertise">Marketing and communication</h4>
+					<h4 class="teamexpertise">Co-founder, Marketing and communication</h4>
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="http://blog.jospoortvliet.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jospoortvliet"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jospoortvliet"><i class="fa-twitter fa"></i></a> </p>
 				</div>
@@ -134,7 +134,7 @@
 				<h2 class="teamname">Lukas Reschke</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Security Lead</h3>
-					<h4 class="teamexpertise">Security</h4>
+					<h4 class="teamexpertise">Co-founder, Security</h4>
 					<h4 class="teamlocation">lives in St. Gallen, Switzerland</h4>
 					<p class="teamsocial"><a href="https://statuscode.ch/"><i class="fa-rss fa"></i></a> <a href="https://github.com/LukasReschke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/LukasReschke"><i class="fa-twitter fa"></i></a> </p>
 				</div>
@@ -160,7 +160,7 @@
 				<h2 class="teamname">Jan-Christoph Borchardt</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Design Lead</h3>
-					<h4 class="teamexpertise">simplicity & ease of use</h4>
+					<h4 class="teamexpertise">Co-founder, simplicity & ease of use</h4>
 					<h4 class="teamlocation">lives in Munich, Germany</h4>
 					<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jancborchardt"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jancborchardt"><i class="fa-twitter fa"></i></a> </p>
 				</div>
@@ -199,7 +199,7 @@
 				<h2 class="teamname">Arthur Schiwon</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">LDAP and Comments maintainer</h4>
+					<h4 class="teamexpertise">Co-founder, LDAP and Comments maintainer</h4>
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="https://arthur-schiwon.de"><i class="fa-rss fa"></i></a> <a href="https://github.com/blizzz"><i class="fa-github fa"></i></a> <!--<a href="https://twitter.com/blizzz"><i class="fa-twitter fa"></i></a>--> </p>
 				</div>
@@ -212,7 +212,7 @@
 				<h2 class="teamname">Björn Schießle</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Federation and Encryption</h4>
+					<h4 class="teamexpertise">Co-founder, Federation and Encryption</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><a href="https://schiessle.org/"><i class="fa-rss fa"></i></a> <a href="https://github.com/schiessle"><i class="fa-github fa"></i></a> <a href="https://twitter.com/schiessle"><i class="fa-twitter fa"></i></a> </p>
 				</div>
@@ -290,7 +290,7 @@
 				<h2 class="teamname">Joas Schilling</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Activity, Workflow and Notifications</h4>
+					<h4 class="teamexpertise">Co-founder, Activity, Workflow and Notifications</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><a href="https://www.schilljs.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/nickvergessen"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a> </p>
 				</div>
@@ -342,7 +342,7 @@
 				<h2 class="teamname">Morris Jobke</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software and Support Engineer</h3>
-					<h4 class="teamexpertise">Server and Support</h4>
+					<h4 class="teamexpertise">Co-founder, Server and Support</h4>
 					<h4 class="teamlocation">lives in Chemnitz, Germany</h4>
 					<p class="teamsocial"><a href="http://morrisjobke.de/"><i class="fa-rss fa"></i></a> <a href="https://github.com/MorrisJobke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/MorrisJbk"><i class="fa-twitter fa"></i></a> </p>
 				</div>
@@ -355,7 +355,7 @@
 				<h2 class="teamname">Robin Appelman</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Filesystem and scalability</h4>
+					<h4 class="teamexpertise">Co-founder, Filesystem and scalability</h4>
 					<h4 class="teamlocation">lives in Eindhoven, Netherlands</h4>
 					<p class="teamsocial"><a href="https://icewind.nl"><i class="fa-rss fa"></i></a> <a href="https://github.com/icewind1991"><i class="fa-github fa"></i></a> <a href="https://twitter.com/icewind1991"><i class="fa-twitter fa"></i></a></p>
 				</div>
@@ -368,7 +368,7 @@
 				<h2 class="teamname">Roeland Douma</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Desktop Client, Sharing</h4>
+					<h4 class="teamexpertise">Co-founder, Desktop Client, Sharing</h4>
 					<h4 class="teamlocation">lives in Zuidoostbeemster, Netherlands</h4>
 					<p class="teamsocial"><a href="http://rullzer.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/rullzer"><i class="fa-github fa"></i></a> <a href="https://twitter.com/rullzer"><i class="fa-twitter fa"></i></a> </p>
 				</div>
