@@ -36,10 +36,10 @@
 							<h2><a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/"><?php echo $l->t('– Stefan Döhler, project manager at regio iT');?></a></h2>
 						</div>
 
-<!--						<div class="item">
+						<div class="item">
 							<h3><?php echo $l->t('Die aktuellen Entwicklungen von Nextcloud, <span class="big">das Lizenzmodell</span> und die <span class="big">breite Unterstützung</span> der Community haben uns bei dieser Entscheidung bestärkt.');?></h3>
-							<h2><a href="https://blog.hrz.tu-chemnitz.de/urzcommunity/2017/01/25/neuigkeiten-von-sync-n-share/"><?php echo $l->t('– Andreas Heik, TU Chemnitz');?></a></h2>
-						</div>-->
+							<h2><a href="https://blog.hrz.tu-chemnitz.de/urzcommunity/2017/01/25/neuigkeiten-von-sync-n-share/"><?php echo $l->t('–  Andreas Heik, Universitätsrechenzentrum, TU Chemnitz');?></a></h2>
+						</div>
 					</div>
 
 					<!-- Left and right controls -->
