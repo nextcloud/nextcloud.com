@@ -387,6 +387,7 @@
 				</div>
 				<p class="teamdescription">Simon handles technical project management and coding. He spearheads the backend and frontend services development and defines the system architecture and infrastructure for the Spreedbox. He has extensive WebRTC, AngularJS, Go and Python experience.</p>
 			</div>
+        </div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
