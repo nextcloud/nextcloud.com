@@ -7,3 +7,4 @@ l10n/
 *.css.map
 .idea/
 .DS_Store
+*.kate-swp
