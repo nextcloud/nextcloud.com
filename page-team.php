@@ -102,7 +102,6 @@
 				<p class="teamdescription">Patrick was co-founder of struktur AG in 2000, responsible for sales and finance. He held several sales and marketing positions at IBM and Oracle, adding up to more than two decades of experience in the IT industry.</p>
 			</div>
 		</div>
-
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jos.jpg" />
@@ -118,16 +117,16 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/michael.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/nina.jpg" />
 				<h2 class="teamname">Nina Cercy</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Marketing Intern</h3>
-					<h4 class="teamexpertise">Marketing and PR</h4>
+					<h4 class="teamexpertise">Marketing and content</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><a href="https://TBD"><i class="fa-rss fa"></i></a> <a href="https://github.com/NinaNC"><i class="fa-github fa"></i></a> <a href="https://twitter.com/TBD"><i class="fa-twitter fa"></i></a> </p>
+					<p class="teamsocial"><!--<a href="https://spreed.me/"><i class="fa-rss fa"></i></a>--> <a href="https://github.com/NinaNC"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nlapalice"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">TBD.</p>
-			</div>
+				<p class="teamdescription">Nina studied Business and Management at HEC Paris. She  She's an open source lover, and she's especially fond of personal data protection regulation. She co-directed <i>Numérique, reprendre le contrôle</i> in 2016.</p>
+			</div>	
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
@@ -334,7 +333,7 @@
 					<h4 class="teamlocation">lives in Santa Maria, Cape Verde</h4>
 					<p class="teamsocial"> <a href="https://github.com/daita"><i class="fa-github fa"></i></a></p>
 				</div>
-				<p class="teamdescription">Maxence is awesome. TBD.</p>
+				<p class="teamdescription">Maxence has extensive experience in PHP and Java/android development as well as database and network management. He is the principal author and maintainer of the Nextant full-text search app.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -390,28 +389,15 @@
 			</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/nina.jpg" />
-				<h2 class="teamname">Nina Cercy</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Marketing Intern</h3>
-					<h4 class="teamexpertise">Marketing and content</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><!--<a href="https://spreed.me/"><i class="fa-rss fa"></i></a>--> <!--<a href="https://github.com/"><i class="fa-github fa"></i></a>--> <a href="https://twitter.com/nlapalice"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Nina studied Business and Management at HEC Paris. She  She's an open source lover, and she's especially fond of personal data protection regulation. She co-directed <i>Numérique, reprendre le contrôle</i> in 2016.</p>
-			</div>	
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 				<h2 class="teamname">Tobias Kaminsky</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Android Client</h4>
-					<h4 class="teamlocation">lives in TBD, Germany</h4>
+					<h4 class="teamlocation">lives in Germany</h4>
 					<p class="teamsocial"><a href="http://TBD.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/tobiasKaminsky"><i class="fa-github fa"></i></a> <a href="https://twitter.com/TBD"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Tobias is awesome. TBD</p>
+				<p class="teamdescription">Tobias has been contributing to the Nextcloud Android app for years.</p>
 			</div>
 		</div>
 	</div>
