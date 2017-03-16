@@ -69,7 +69,7 @@
 				<h2 class="teamname">Olivier Paroz</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Senior Solutions Consultant</h3>
-					<h4 class="teamexpertise">Business solutions, multimedia and Snap</h4>
+					<h4 class="teamexpertise">Business solutions, Multimedia and Embedded</h4>
 					<h4 class="teamlocation">lives in Lausanne, Switzerland</h4>
 					<p class="teamsocial"><a href="https://www.linkedin.com/in/olivierparoz"><i class="fa-rss fa"></i></a> <a href="https://github.com/oparoz"><i class="fa-github fa"></i></a> <a href="https://twitter.com/oparoz"><i class="fa-twitter fa"></i></a></p>
 				</div>
@@ -108,7 +108,7 @@
 				<h2 class="teamname">Jos Poortvliet</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Head of Marketing</h3>
-					<h4 class="teamexpertise">Co-founder, Marketing and communication</h4>
+					<h4 class="teamexpertise">Co-founder, Marketing and Communication</h4>
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="http://blog.jospoortvliet.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jospoortvliet"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jospoortvliet"><i class="fa-twitter fa"></i></a> </p>
 				</div>
@@ -121,7 +121,7 @@
 				<h2 class="teamname">Nina Cercy</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Marketing Intern</h3>
-					<h4 class="teamexpertise">Marketing and content</h4>
+					<h4 class="teamexpertise">Marketing and Content</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><!--<a href="https://spreed.me/"><i class="fa-rss fa"></i></a>--> <a href="https://github.com/NinaNC"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nlapalice"><i class="fa-twitter fa"></i></a> </p>
 				</div>
@@ -147,7 +147,7 @@
 				<h2 class="teamname">Vanessa Steeg</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Project Manager</h3>
-					<h4 class="teamexpertise">Marketing, Media design and project management</h4>
+					<h4 class="teamexpertise">Marketing, Media design and Project Management</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><!--<a href="http://blog.jospoortvliet.com/"><i class="fa-rss fa"></i></a>--> <!--<a href="https://github.com/jospoortvliet"><i class="fa-github fa"></i></a>--> <!--<a href="https://twitter.com/vanesteeg"><i class="fa-twitter fa"></i></a>--> &nbsp;</p>
 				</div>
@@ -160,7 +160,7 @@
 				<h2 class="teamname">Jan-Christoph Borchardt</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Design Lead</h3>
-					<h4 class="teamexpertise">Co-founder, simplicity & ease of use</h4>
+					<h4 class="teamexpertise">Co-founder, Simplicity & Ease of Use</h4>
 					<h4 class="teamlocation">lives in Munich, Germany</h4>
 					<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jancborchardt"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jancborchardt"><i class="fa-twitter fa"></i></a> </p>
 				</div>
@@ -173,7 +173,7 @@
 				<h2 class="teamname">Brian Krause</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Support Engineer</h3>
-					<h4 class="teamexpertise">Spreed.ME</h4>
+					<h4 class="teamexpertise">Spreed.ME, Customer Service</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><a href="https://www.xing.com/profile/Brian_Krause"><i class="fa-xing fa"></i></a> <!--<a href="https://github.com/longsleep"><i class="fa-github fa"></i></a> <a href="https://twitter.com/rullzer"><i class="fa-twitter fa"></i></a>--></p>
 				</div>
@@ -186,7 +186,7 @@
 				<h2 class="teamname">Artur Bergen</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Spreedbox, Spreed.ME</h4>
+					<h4 class="teamexpertise">Spreedbox, Spreed.ME, WebRTC</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><a href="https://de.linkedin.com/in/artur-bergen-3b113090"><i class="fa-rss fa"></i></a> <a href="https://github.com/artberg"><i class="fa-github fa"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="fa-twitter fa"></i></a>--> </p>
 				</div>
@@ -199,7 +199,7 @@
 				<h2 class="teamname">Arthur Schiwon</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Co-founder, LDAP and Comments maintainer</h4>
+					<h4 class="teamexpertise">Co-founder, LDAP and Comments</h4>
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="https://arthur-schiwon.de"><i class="fa-rss fa"></i></a> <a href="https://github.com/blizzz"><i class="fa-github fa"></i></a> <!--<a href="https://twitter.com/blizzz"><i class="fa-twitter fa"></i></a>--> </p>
 				</div>
@@ -225,7 +225,7 @@
 				<h2 class="teamname">Christoph Wurst</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">JavaScript, two-factor auth and Mail app</h4>
+					<h4 class="teamexpertise">JavaScript, Two-factor Auth and Mail</h4>
 					<h4 class="teamlocation">lives in Schrattenthal, Austria</h4>
 					<p class="teamsocial"><a href="http://blog.wuc.me/"><i class="fa-rss fa"></i></a> <a href="https://github.com/ChristophWurst"><i class="fa-github fa"></i></a> <a href="https://twitter.com/ChristophWurst"><i class="fa-twitter fa"></i></a> </p>
 				</div>
@@ -251,7 +251,7 @@
 				<h2 class="teamname">Georg Ehrke</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Calendar</h4>
+					<h4 class="teamexpertise">Calendar, Front-end</h4>
 					<h4 class="teamlocation">lives in Rostock, Germany</h4>
 					<p class="teamsocial"><a href="https://georg.coffee/"><i class="fa-rss fa"></i></a> <a href="https://github.com/georgehrke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/georgehrke"><i class="fa-twitter fa"></i></a> </p>
 				</div>
@@ -264,7 +264,7 @@
 				<h2 class="teamname">Ivan Sein</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">monitoring app and Spreed.ME integration</h4>
+					<h4 class="teamexpertise">Monitoring and WebRTC</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><!--<a href="https://www.stdin.xyz/"><i class="fa-rss fa"></i></a>--> <a href="https://github.com/Ivansss"><i class="fa-github fa"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="fa-twitter fa"></i></a>--> </p>
 				</div>
@@ -277,7 +277,7 @@
 				<h2 class="teamname">Joachim Bauch</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">WebRTC, realtime streaming, telephony interfacing</h4>
+					<h4 class="teamexpertise">WebRTC, Realtime Streaming, Telephony Interfacing</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><a href="https://www.joachim-bauch.de"><i class="fa-rss fa"></i></a> <a href="https://github.com/fancycode"><i class="fa-github fa"></i></a> <a href="https://twitter.com/fancycode"><i class="fa-twitter fa"></i></a> </p>
 				</div>
@@ -303,7 +303,7 @@
 				<h2 class="teamname">Leon Klingele</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Spreed.ME, Spreedbox</h4>
+					<h4 class="teamexpertise">Spreed.ME, Spreedbox, Embedded</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><a href="https://github.com/leonklingele"><i class="fa-github fa"></i></a> </p>
 				</div>
@@ -316,7 +316,7 @@
 				<h2 class="teamname">Mario Danic</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Android app</h4>
+					<h4 class="teamexpertise">Android Development</h4>
 					<h4 class="teamlocation">lives in Croatia</h4>
 					<p class="teamsocial"> <a href="https://github.com/mario"><i class="fa-github fa"></i></a> <a href="https://twitter.com/mdjanic"><i class="fa-twitter fa"></i></a></p>
 				</div>
@@ -329,7 +329,7 @@
 				<h2 class="teamname">Maxence Lange</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Consulting services</h4>
+					<h4 class="teamexpertise">Consulting Services, App development, Full Text Search</h4>
 					<h4 class="teamlocation">lives in Santa Maria, Cape Verde</h4>
 					<p class="teamsocial"> <a href="https://github.com/daita"><i class="fa-github fa"></i></a></p>
 				</div>
@@ -355,7 +355,7 @@
 				<h2 class="teamname">Robin Appelman</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Co-founder, Filesystem and scalability</h4>
+					<h4 class="teamexpertise">Co-founder, Filesystem and Scalability</h4>
 					<h4 class="teamlocation">lives in Eindhoven, Netherlands</h4>
 					<p class="teamsocial"><a href="https://icewind.nl"><i class="fa-rss fa"></i></a> <a href="https://github.com/icewind1991"><i class="fa-github fa"></i></a> <a href="https://twitter.com/icewind1991"><i class="fa-twitter fa"></i></a></p>
 				</div>
@@ -381,7 +381,7 @@
 				<h2 class="teamname">Simon Eisenmann</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Spreedbox, packaging, embedded</h4>
+					<h4 class="teamexpertise">Spreedbox, Packaging, Embedded</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><a href="https://www.stdin.xyz/"><i class="fa-rss fa"></i></a> <a href="https://github.com/longsleep"><i class="fa-github fa"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="fa-twitter fa"></i></a>--> </p>
 				</div>
