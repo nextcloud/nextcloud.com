@@ -605,5 +605,19 @@
             "Serverhosting in Europa (Köln und Straßburg) inkl. Traffic-Flatrate SSL-Zertifikat und unbegrenzter Anzahl Benutzer!"
          ],
          "imagename":"roundit.png"
+      },
+    {
+         "title":"Netways",
+         "url":"https:\/\/nws.netways.de\/contracts\/new?product_id=20-nextcloud",
+         "flags":[
+            "de",
+            "eu"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "The perfect place for all your data in the cloud. Hosted in Germany."
+         ],
+         "imagename":"netways.png"
       }
 ]
