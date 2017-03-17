@@ -11,9 +11,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-11-sets-new-standard-for-security-and-scalability/">
+				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-releases-security-scanner-to-help-protect-private-clouds/">
 				<span class="type">Fresh</span>
-				<span class="message"><strong>Nextcloud 11 has arrived.</strong> Take a look at the new features</span>
+				<span class="message"><strong>Nextcloud releases Security Scanner.</strong> Check if your data is secure!</span>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('A safe home for all your data');?></h1>
 				<h2 class="jumbotron--lead"><?php echo $l->t('Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.');?></h2>
