@@ -395,10 +395,10 @@
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Android Client</h4>
-					<h4 class="teamlocation">lives in Germany</h4>
-					<p class="teamsocial"><a href="http://TBD.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/tobiasKaminsky"><i class="fa-github fa"></i></a> <a href="https://twitter.com/TBD"><i class="fa-twitter fa"></i></a> </p>
+					<h4 class="teamlocation">lives in Langen, Germany</h4>
+					<p class="teamsocial"><a href="https://github.com/tobiasKaminsky"><i class="fa-github fa"></i></a></p>
 				</div>
-				<p class="teamdescription">Tobias has been contributing to the Nextcloud Android app for years.</p>
+				<p class="teamdescription">Tobias studied Sports and Computer Science in Darmstadt, is an experienced Java/Scala engineer and has a background in database development at a research institute for applied training science. He has been contributing to the Android app since 2013.</p>
 			</div>
 		</div>
 	</div>
