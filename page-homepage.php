@@ -11,10 +11,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-11-sets-new-standard-for-security-and-scalability/">
+				<!--<a class="announcement" href="#">
 				<span class="type">Fresh</span>
 				<span class="message"><strong>Nextcloud 11 has arrived.</strong> Take a look at the new features</span>
-				</a>
+			</a>-->
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('A safe home for all your data');?></h1>
 				<h2 class="jumbotron--lead"><?php echo $l->t('Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.');?></h2>
 				<a class="button button--large button--arrow" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Get Nextcloud</a>');?>
@@ -23,7 +23,7 @@
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/empty.png"> <!--empty image to ensure the viewport is big enough-->
 			</div>
 		</div>
-	</div> 
+	</div>
 </div>
 
 <section id="why-nextcloud">
