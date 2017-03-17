@@ -78,6 +78,10 @@
 						<td>March 17-19</td>
 					</tr>
 					<tr>
+						<td><a  class="hyperlink" target="_blank" href="https://cebit.de/en/">CeBIT</a></td>
+						<td>Hanover</td>
+						<td>March 23-24</td>
+					<tr>
 						<td><a  class="hyperlink" target="_blank" href="http://foss-north.se/">foss-north</a></td>
 						<td>Gothenburg</td>
 						<td>April 26</td>
