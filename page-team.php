@@ -331,7 +331,7 @@
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Consulting Services, App development, Full Text Search</h4>
 					<h4 class="teamlocation">lives in Santa Maria, Cape Verde</h4>
-					<p class="teamsocial"> <a href="https://github.com/daita"><i class="fa-github fa"></i></a></p>
+					<p class="teamsocial"> <a href="https://github.com/daita"><i class="fa-github fa"></i></a> <a href="https://twitter.com/AnArtificialOwl"><i class="fa-twitter fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Maxence has extensive experience in PHP and Java/android development as well as database and network management. He is the principal author and maintainer of the Nextant full-text search app.</p>
 			</div>
