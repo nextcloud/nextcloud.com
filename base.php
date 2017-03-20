@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // Include translation file
 require_once __DIR__ . '/l10n.php';
@@ -49,7 +49,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 // 		'contributors',
 		'design',
 		'desktop',
-		'devices',
+//		'devices',
 // 		'events',
 		'faq',
 		'federation',
