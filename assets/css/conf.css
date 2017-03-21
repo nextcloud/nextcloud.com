@@ -7,7 +7,7 @@
   position: absolute; }
 
 .conf-background {
-  background: url("../img/headers/conf.jpg") no-repeat;
+  background: url("../img/headers/team.jpg") no-repeat;
   background-position: center;
   background-size: cover; }
 
@@ -19,6 +19,36 @@
   .section--intro .section--paragraph {
     padding: 5px 0 15px 0; }
 
+.section--info {
+  padding: 50px 0;
+  background: #0082c9; }
+  .section--info p {
+    color: white; }
+  .section--info h1 {
+    color: white; }
+  .section--info .hyperlink {
+    color: white; }
+  .section--info .icon {
+    text-align: center; }
+  .section--info i {
+    color: white;
+    font-size: 80px; }
+  .section--info li {
+    color: white; }
+  .section--info .row {
+    padding: 50px 0 20px 0; }
+
+/*.section--call-for-papers {
+	margin: 50px 0 50px 0;
+	padding: 50px 0px;
+	background: $nextcloud-blue;
+	p {
+		color: white;
+	}
+	.hyperlink {
+		color: white;
+	}
+}*/
 .section--fridayfocus {
   margin-top: 50px;
   padding-top: 80px;
@@ -64,24 +94,6 @@
       .section--fridayfocus .section--paragraph {
         width: 90%;
         padding-top: 10px; } }
-
-.section--info {
-  padding: 50px 0; }
-  .section--info .icon {
-    text-align: center; }
-    .section--info .icon i {
-      font-size: 80px; }
-  .section--info .row {
-    padding: 50px 0 20px 0; }
-
-.section--call-for-papers {
-  margin: 50px 0 50px 0;
-  padding: 50px 0px;
-  background: #0082c9; }
-  .section--call-for-papers p {
-    color: white; }
-  .section--call-for-papers .hyperlink {
-    color: white; }
 
 .section--details .row {
   padding: 50px 0 20px 0; }

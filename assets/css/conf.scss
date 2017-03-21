@@ -2,7 +2,7 @@
 @import "transparent-navbar.scss";
 
 .conf-background {
-  background: url("../img/headers/conf.jpg") no-repeat;
+  background: url("../img/headers/team.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -21,6 +21,44 @@
 	}
 }
 
+.section--info {
+	padding: 50px 0;
+	background: $nextcloud-blue;
+	p {
+		color: white;
+	}
+	h1 {
+		color: white;
+	}
+	.hyperlink {
+		color: white;
+	}
+	.icon {
+	text-align: center;
+	}
+	i {
+		color: white;
+		font-size: 80px;
+	}
+	li {
+		color: white;
+	}
+	.row {
+		padding: 50px 0 20px 0;
+	}
+}
+
+/*.section--call-for-papers {
+	margin: 50px 0 50px 0;
+	padding: 50px 0px;
+	background: $nextcloud-blue;
+	p {
+		color: white;
+	}
+	.hyperlink {
+		color: white;
+	}
+}*/
 
 .section--fridayfocus {
   margin-top: 50px;
@@ -82,30 +120,6 @@
   }
 }
 
-.section--info {
-	padding: 50px 0;
-	.icon {
-	text-align: center;
-	i {
-		font-size: 80px;
-	}
-	}
-	.row {
-		padding: 50px 0 20px 0;
-	}
-}
-
-.section--call-for-papers {
-	margin: 50px 0 50px 0;
-	padding: 50px 0px;
-	background: $nextcloud-blue;
-	p {
-		color: white;
-	}
-	.hyperlink {
-		color: white;
-	}
-}
 
 .section--details {
 		.row {
