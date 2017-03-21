@@ -21,10 +21,10 @@
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
 <!-- 			<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" /> -->
-			<h2>The Nextcloud Conference</h2>
-			<p class="section--paragraph__tittle">August 22-29, Berlin</p>
-			<p class="section--paragraph">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
-			<a href="https://conf.nextcloud.com/conference/NextcloudConference2017/register/new" style="font-weight: 300" class="btn btn-lg btn-primary">Register now</a>
+			<h2 class="revealOnScroll">The Nextcloud Conference</h2>
+			<p class="section--paragraph__tittle revealOnScroll">August 22-29, Berlin</p>
+			<p class="section--paragraph revealOnScroll">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
+			<a href="https://conf.nextcloud.com/conference/NextcloudConference2017/register/new" style="font-weight: 300" class="btn btn-lg btn-primary revealOnScroll">Register now</a>
 	<!--		<p><a href="https://conf.nextcloud.org/conference/?/schedule#2015-08-29" style="font-weight: 300" class="btn btn-lg btn-primary">See the full program</a></p>-->
 <!-- 			<p class="section--paragraph">Find <a href="/confinfo">practical information for visitors here</a>.</p> -->
 		</div>
@@ -46,11 +46,11 @@
 <div class="container">
 	<div class="row conf-info">
 		<div class="col-sm-6">
-			<div class="icon">
+			<div class="icon revealOnScroll">
 				<i class="fa fa-code"></i>
-			<h1>Development</br><!--<small>Sept 9 - 15</small>--></h1>
+			<h1 class="revealOnScroll">Development</br><!--<small>Sept 9 - 15</small>--></h1>
 			</div>
-			<p class="section--paragraph">During the week we collaborate on making Nextcloud better in design, functionality, stability, performance and features. We share code, thoughts, inspiration, beer and knowledge, working in areas like:<br />
+			<p class="section--paragraph revealOnScroll">During the week we collaborate on making Nextcloud better in design, functionality, stability, performance and features. We share code, thoughts, inspiration, beer and knowledge, working in areas like:<br />
 			<ul>
 				<li>Coding (PHP, JS, C++)</li>
 				<li>Design &amp; Front-end</li>
@@ -58,35 +58,35 @@
 				<li>Translation &amp; Documentation</li>
 			</ul>
 			</p>
-			<p class="section--paragraph">Read our <a href="https://nextcloud.com/blog/first-nextcloud-conference-was-a-great-success-videos-are-now-live/" target="_blank">blog on the Nextcloud Conference 2016</a> to get a feeling of the event.</p>
+			<p class="section--paragraph revealOnScroll">Read our <a href="https://nextcloud.com/blog/first-nextcloud-conference-was-a-great-success-videos-are-now-live/" target="_blank">blog on the Nextcloud Conference 2016</a> to get a feeling of the event.</p>
 		</div>
 		<div class="col-sm-6">
-			<div class="icon">
+			<div class="icon revealOnScroll">
 			<i class="fa fa-comments-o"></i>
-			<h1>Talks &amp; Workshops</h1>
+			<h1 class="revealOnScroll">Talks &amp; Workshops</h1>
 			</div>
-			<p class="section--paragraph">During the weekend of August 25 and 26 we have a program with talks and workshops to provide a chance to learn and improve coding skills on and around Nextcloud.<br/>
+			<p class="section--paragraph revealOnScroll">During the weekend of August 25 and 26 we have a program with talks and workshops to provide a chance to learn and improve coding skills on and around Nextcloud.<br/>
 			Examples from last year include:
 			<ul>
 				<li><a href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/59" target="_blank">Nextcloud coding for starters</a></li>
 				<li>Intro to the <a href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/11" target="_blank">Android app dev process</a>, why you should <a href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/18" target="_blank">join the design team</a> and how we <a href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/36" target="_blank">do performance testing</a></li>
 				<li>Status updates on the <a href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/20" target="_blank">Calendar</a>,  <a href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/33" target="_blank">Theming</a> and <a href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/13" target="_blank">iOS</a> apps</li>
 			</ul></p>
-			<p class="section--paragraph">Friday we focus on enterprise and large scale Nextcloud usage. A program for this is coming!</p>
+			<p class="section--paragraph revealOnScroll">Friday we focus on enterprise and large scale Nextcloud usage. A program for this is coming!</p>
 <!-- 			<p>Check out <a href="https://nextcloud.org/blog/nextcloud-contributor-conference-program/">the full program</a>!</p> -->
 <!-- 			<p class="section--paragraph">Stay tuned for the program for this year!</p> -->
 			
 		</div>
 	</div>
-			<p class="section--paragraph text-center">This is a hands-on event. <strong>Bring your laptop!</strong></p>
+			<p class="section--paragraph text-center revealOnScroll">This is a hands-on event. <strong>Bring your laptop!</strong></p>
 </div>
 </section>
 <section class="section--call-for-papers">
 <div class="container">
 	<div class="row text-center">
-		<p class="section--paragraph__tittle">We have opened our call for papers!</p>
-		<p class="section--paragraph">You're invited to contribute your thoughts to our event.</p>
-		<div class="text-center morebuttondiv">
+		<p class="section--paragraph__tittle revealOnScroll">We have opened our call for papers!</p>
+		<p class="section--paragraph revealOnScroll">You're invited to contribute your thoughts to our event.</p>
+		<div class="text-center morebuttondiv revealOnScroll">
 			<a href="https://conf.nextcloud.com/conference/NextcloudConference2017/program/proposal/new" class="button button--large button--arrow">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a>
 		</div>
 	</div>
@@ -95,7 +95,7 @@
 
 <section class="section--details">
 <div class="container">
-	<div class="row">
+	<div class="row revealOnScroll">
 		<div class="col-sm-6">
 			<!--<p>You can also RSVP on <a href="https://www.facebook.com/events/1610744752475847/" target="_blank">Facebook</a>, <a href="http://www.meetup.com/nextcloud-berlin/events/224095898/" target="_blank">Meetup.com</a> or <a href="https://plus.google.com/b/107072838776436530705/events/c2dlfpjfd4600hlt9oh747prlb8" target="_blank">Google+</a>!</p>-->
 			<h2>Location</h2>
@@ -108,7 +108,7 @@
 			<p>The Nextcloud Contributor Conference will be entirely open and free. We do ask you to <a href="https://conf.nextcloud.com/conference/NextcloudConference2017/register/new" target="_blank">register</a> to help us plan better for the event</p>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row revealOnScroll">
 		<div class="col-sm-6">
 			<p><a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/drinks.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/drinks_wee.jpg" style="width: 95%" alt="group photo" class="aligncenter" /></a></p>
 			<h2>Code of conduct</h2>
@@ -131,7 +131,7 @@
 
 <section class="section--about">
 <div class="container">
-	<div class="row conf-about">
+	<div class="row conf-about revealOnScroll">
 		<div class="col-sm-6">
 			<h2>Last year</h2>
 			<p>The Nextcloud Conference 2016 brought 100 Nextclouders to Berlin. Read our <a href="https://nextcloud.com/blog/first-nextcloud-conference-was-a-great-success-videos-are-now-live/" target="_blank">blog</a> to learn more and watch <a href="https://www.youtube.com/watch?v=5-oCt3iPhNs&list=PL4eBKdNy6FCElMXt0FxUsfLHaCas2Md9u" target="_blank">the 2016 talks</a> on our youtube channel.</p>
