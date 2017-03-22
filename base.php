@@ -36,7 +36,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'code-of-conduct',
 // 		'collaboraonline',
 		'community',
-		'conf',
+// 		'conf',
 		'conference-program',
 		'confinfo',
 		'confsubscribe',
