@@ -370,7 +370,7 @@
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Co-founder, Desktop Client, Sharing</h4>
 					<h4 class="teamlocation">lives in Zuidoostbeemster, Netherlands</h4>
-					<p class="teamsocial"><a href="http://rullzer.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/rullzer"><i class="fa-github fa"></i></a> <a href="https://twitter.com/rullzer"><i class="fa-twitter fa"></i></a> </p>
+					<p class="teamsocial"><a href="http://rullzer.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/rullzer"><i class="fa-github fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Roeland has been working on improving Sharing since 2015. Has a MSc degree in Computer Science from the University of Amsterdam, having done research for his PhD in cache partitioning for real time systems. With feet in both the client and server team he works on having a tighter platform integration.</p>
 			</div>
