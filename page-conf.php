@@ -34,34 +34,33 @@
 <section class="section--info">
 <div class="container">
 	<div class="row conf-info">
-		<div class="col-sm-6">
+		<div class="col-sm-5">
 			<div class="icon revealOnScroll">
 				<i class="fa fa-code"></i>
-			<h1 class="revealOnScroll">Development</br><!--<small>Sept 9 - 15</small>--></h1>
+			<h1>Development</h1>
 			</div>
-			<p class="section--paragraph revealOnScroll">During the week we collaborate on making Nextcloud better in design, functionality, stability, performance and features. We share code, thoughts, inspiration, beer and knowledge, working in areas like:<br />
+			<p class="section--paragraph revealOnScroll">During the week we collaborate on making Nextcloud better in design, functionality, stability, performance and features. We share code, thoughts, inspiration, beer and knowledge, working in areas like:</p>
 			<ul class="revealOnScroll">
 				<li>Coding (PHP, JS, C++)</li>
 				<li>Design &amp; Front-end</li>
 				<li>Testing</li>
 				<li>Translation &amp; Documentation</li>
 			</ul>
-			</p>
+			<p class="section--paragraph revealOnScroll">People start coming in around 9am and the last usually leave around 9pm.</p>
 			<p class="section--paragraph revealOnScroll">Read our <a class="hyperlink" href="https://nextcloud.com/blog/first-nextcloud-conference-was-a-great-success-videos-are-now-live/" target="_blank">blog on the Nextcloud Conference 2016</a> to get a feeling of the event.</p>
 		</div>
-		<div class="col-sm-6">
+		<div class="col-sm-5 col-sm-offset-2">
 			<div class="icon revealOnScroll">
 			<i class="fa fa-comments-o"></i>
-			<h1 class="revealOnScroll">Talks &amp; Workshops</h1>
+			<h1>Talks &amp; Workshops</h1>
 			</div>
-			<p class="section--paragraph revealOnScroll">During the weekend of August 25 and 26 we have a program with talks and workshops to provide a chance to learn and improve coding skills on and around Nextcloud.<br/>
-			Examples from last year include:
+			<p class="section--paragraph revealOnScroll">In the weekend of August 25 and 26 we have a program with talks and workshops to provide a chance to learn and improve coding skills on and around Nextcloud. For example:
 			<ul class="revealOnScroll">
-				<li><a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/59" target="_blank">Nextcloud coding for starters</a></li>
+				<li><a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/59" target="_blank">Write your first nextcloud app</a></li>
 				<li>Intro to the <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/11" target="_blank">Android app dev process</a>, why you should <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/18" target="_blank">join the design team</a> and how we <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/36" target="_blank">do performance testing</a></li>
 				<li>Status updates on the <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/20" target="_blank">Calendar</a>,  <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/33" target="_blank">Theming</a> and <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/13" target="_blank">iOS</a> apps</li>
 			</ul></p>
-			<p class="section--paragraph revealOnScroll">Friday we focus on enterprise and large scale Nextcloud usage. A program for this is coming!</p>
+			<p class="section--paragraph revealOnScroll">On Friday the 24th we have a special program with a focus on enterprise and large scale Nextcloud usage. Details are coming!</p>
 <!-- 			<p class="section--paragraph revealOnScroll">Check out <a href="https://nextcloud.org/blog/nextcloud-contributor-conference-program/">the full program</a>!</p> -->
 <!-- 			<p class="section--paragraph">Stay tuned for the program for this year!</p> -->
 			
@@ -89,26 +88,26 @@
 <section class="section--details">
 <div class="container">
 	<div class="row">
-		<div class="col-sm-6">
+		<div class="col-sm-5">
 			<!--<p class="section--paragraph revealOnScroll">You can also RSVP on <a href="https://www.facebook.com/events/1610744752475847/" target="_blank">Facebook</a>, <a href="http://www.meetup.com/nextcloud-berlin/events/224095898/" target="_blank">Meetup.com</a> or <a href="https://plus.google.com/b/107072838776436530705/events/c2dlfpjfd4600hlt9oh747prlb8" target="_blank">Google+</a>!</p>-->
 			<h2  class="revealOnScroll">Location</h2>
 			<p class="section--paragraph revealOnScroll">Our conference will take place in Berlin at the <em>Technische Universität Berlin</em>, in the "<a class="hyperlink" href="https://www.math.tu-berlin.de/" target="_blank">Institut für Mathematik</a>" building, main entree at Strasse des 17. Juni 136, 10623 Berlin.</p>
 			<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=13.32431048154831%2C52.51259881205445%2C13.328194320201874%2C52.51417400875078&amp;layer=mapnik&amp;marker=52.513385601296605%2C13.326252400875092" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=52.51339&amp;mlon=13.32625#map=19/52.51339/13.32625">View Larger Map</a></small>
 		</div>
-		<div class="col-sm-6">
+		<div class="col-sm-5 col-sm-offset-2">
 			<p class="section--paragraph revealOnScroll"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/talks.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/talks_wee.jpg" style="width: 95%" alt="talk" class="aligncenter" /></a></p>
-			<h2  class="revealOnScroll">Participation</h2>
+			<h2  class="revealOnScroll">Entree</h2>
 			<p class="section--paragraph revealOnScroll">The Nextcloud Contributor Conference will be entirely open and free. We only ask you to <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2017/register/new" target="_blank">register</a> to help us plan better for the event</p>
 		</div>
 	</div>
 	<div class="row revealOnScroll">
-		<div class="col-sm-6">
+		<div class="col-sm-5  ">
 			<p class="section--paragraph revealOnScroll"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/drinks.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/drinks_wee.jpg" style="width: 95%" alt="group photo" class="aligncenter" /></a></p>
 			<h2  class="revealOnScroll">Code of conduct</h2>
 			<p class="section--paragraph revealOnScroll">We want everybody to feel welcome at the event. Please be mindful of our <a class="hyperlink" href="https://nextcloud.com/community/code-of-conduct/">code of conduct</a></p>
 			<p class="section--paragraph revealOnScroll">The conference is an open space which means potential issues. Please be sure that you are comfortable with that. Of course, you can always ask people not to take pictures or video of you but note that there will be video recordings of the talks.</p>
 		</div>
-		<div class="col-sm-6">
+		<div class="col-sm-5 col-sm-offset-2">
 			<h2 class="conf-acc">Berlin and accommodation</h2>
 			<p class="section--paragraph revealOnScroll">We gathered some hotel options for you! Be quick, last year many hotels already had no space left in May...</p>
 			<ul>
@@ -148,7 +147,18 @@
 			<p class="section--paragraph revealOnScroll">The event is made possible thanks to the generous donation of the location by the <a class="hyperlink" href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a class="hyperlink" href="https://nextcloud.com">Nextcloud GmbH</a>.</p>
 			<h2  class="revealOnScroll">Questions, suggestions?</h2>
 			<p class="section--paragraph revealOnScroll">Ask! And tell others you will join the conference! Our official hashtag is <em>#nextcloudconf</em> - find us on <a class="hyperlink" title="Nextcloud on Twitter" href="https://twitter.com/nextclouders" target="_blank">Twitter</a>, <a class="hyperlink" title="Nextcloud on Facebook" href="https://www.facebook.com/nextclouders" target="_blank">Facebook</a> and <a class="hyperlink" title="Nextcloud on Google+" href="https://plus.google.com/b/104036748063781940910/104036748063781940910/about" target="_blank">Google+</a>. Find some <a class="hyperlink" href="https://github.com/nextcloud/promo/tree/master/Conference" target="_blank">promo materials here</a>.</p>
-		</div>
+            <div class="blog-social-icons row">
+                <a target="_blank" href="https://twitter.com/intent/tweet/?url=<?php echo urlencode(get_permalink()); ?>&via=nextclouders&hashtags=nextcloud">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitterround.png"></img>
+                </a>
+                <a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode(get_permalink()); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.png"></img>
+                </a>
+                <a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode(get_permalink()); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/social/googleplus.png"></img>
+                </a>
+            </div>
+        </div>
 	</div>
 </div>
 </section>

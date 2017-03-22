@@ -9,7 +9,7 @@
 
 
 .section--intro {
-	padding: 100px 0;
+	margin: 120px 0;
 	text-align: center;
 
 	.section--paragraph__tittle {
@@ -22,13 +22,15 @@
 }
 
 .section--info {
-	padding: 50px 0;
+	padding: 70px 0 90px 0;
 	background: $nextcloud-blue;
 	p {
 		color: white;
 	}
 	h1 {
 		color: white;
+        margin: 0px 0 30px 0;
+        font-size: 50px;
 	}
 	.hyperlink {
 		color: white;
@@ -42,9 +44,10 @@
 	}
 	li {
 		color: white;
+        margin: 2px 0 2px 0;
 	}
 	.row {
-		padding: 50px 0 20px 0;
+		padding: 60px 0 30px 0;
 	}
 }
 
@@ -60,75 +63,80 @@
 	}
 }*/
 
-.section--fridayfocus {
-  margin-top: 50px;
-  padding-top: 80px;
-  padding-bottom: 50px;
-  margin-bottom: 100px;
-  padding-left: 0;
-  padding-right: 0;
-  background-image: url('../img/conference/workshop.jpg');
-  background-size: cover;
-  background-position: center;
-/*   @media (max-width: $break-small) { */
-/*     background-image: url('../img/home/perfect-for-home-and-business-mobile.jpg'); */
-/*   } */
-
-  .btn-primary {
-    width: 430px;
-  }
-
-  @media (min-width: $very-wide) {
-    padding-top: 120px;
-    padding-bottom: 180px;
-  }
-
-  @media (max-width: $break-small) {
-    .btn-primary {
-      width: 300px;
-
-      .icon-arrow {
-        background: url(../img/arrow_right.svg) center/contain no-repeat;
-        position: absolute;
-        width: 20px;
-        height: 100%;
-        right: 20px;
-        top: 2px;
-      }
-    }
-  }
-
-  .section--heading-1 {
-    width: 469px;
-    color: white;
-
-    @media (max-width: $break-small) {
-      color: white;
-      width: 100%;
-    }
-  }
-
-  .section--paragraph {
-    color: #ffffff;
-    width: 469px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    @media (max-width: $break-small) {
-      width: 90%;
-      padding-top: 10px;
-    }
-  }
+.section--details {
+    margin: 120px 0 60px 0;
+	.row {
+        margin: 80px 0 40px 0;
+	}
 }
 
 
-.section--details {
-		.row {
-		padding: 50px 0 20px 0;
-	}
+.section--fridayfocus {
+    margin: 100px 0 100px 0;
+    padding: 80px 0 50px 0;
+    background-image: url('../img/conference/workshop.jpg');
+    background-size: cover;
+    background-position: center;
+    /*   @media (max-width: $break-small) { */
+    /*     background-image: url('../img/home/perfect-for-home-and-business-mobile.jpg'); */
+    /*   } */
+    
+    .btn-primary {
+        width: 430px;
+    }
+    
+    @media (min-width: $very-wide) {
+        padding-top: 120px;
+        padding-bottom: 180px;
+    }
+    
+    @media (max-width: $break-small) {
+        .btn-primary {
+            width: 300px;
+            
+            .icon-arrow {
+                background: url(../img/arrow_right.svg) center/contain no-repeat;
+                position: absolute;
+                width: 20px;
+                height: 100%;
+                right: 20px;
+                top: 2px;
+            }
+        }
+    }
+    
+    .section--heading-1 {
+        width: 469px;
+        color: white;
+        
+        @media (max-width: $break-small) {
+            color: white;
+            width: 100%;
+        }
+    }
+    
+    .section--paragraph {
+        color: #ffffff;
+        width: 469px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        @media (max-width: $break-small) {
+            width: 90%;
+            padding-top: 10px;
+        }
+    }
 }
 
 .section--about {
-		.row {
+	.row {
 		padding: 50px 0 100px 0;
 	}
+	.blog-social-icons img {
+        margin: 0 5% 0 5%;
+        width: 20%;
+    }
+    .blog-social-icons a:hover {
+        text-decoration: none;
+    }
+    
 }
