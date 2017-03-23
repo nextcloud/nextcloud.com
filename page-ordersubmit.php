@@ -254,7 +254,7 @@ if(isset($_POST['email'])) {
     'Reply-To: '.$email_from."\r\n" .
     'Cc: '.$email_from;
     // Send the email
-    $recipients = ['patrick', 'jos', 'morris'];
+    $recipients = ['patrick', 'jos', 'morris', 'andreas'];
     $successfullySend = true;
     foreach ($recipients as $recipient) {
         $successfullySend &= mail($recipient . '@nextcloud.com', $email_subject, $email_message, $headers);
