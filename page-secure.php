@@ -140,6 +140,7 @@
 					</svg>
 					<p class="section--paragraph__tittle"><?php echo $l->t('Current security policies and processes');?><p/>
 					<p class="section--paragraph"><?php echo $l->t('Thanks to the on-premise nature of Nextcloud and its ability to leverage existing data storage and database technologies, current security policies and governance processes can continue to be used to manage, control and secure operations with Nextcloud. Nextcloud GmbH does at no point have access to your data and can not interfere with regulated processes, keeping your IT department in control.');?></p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -381,7 +382,7 @@
 		<div class="col-md-6 revealOnScroll">
 			<h3><?php echo $l->t('Brute force protection');?></h3>
 			<p><?php echo $l->t('Brute Force Protection logs invalid login attempts and slows down multiple attempts from a single IP address (or IPv6 range). This feature is enabled by default and protects against an attacker who tries to guess a password from one or more users.');?></p>
-			<p><?php echo $l->t('You can find more information on hardening your Nextcloud installation in our extensive');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_server/harden_server.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Information for Admins">hardening guide</a>');?></p>
+			<p><?php echo $l->t('You can find more information on hardening your Nextcloud installation in our extensive');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_server/harden_server.html" target="_blank" rel="tooltip" title="Information for Admins"><?php echo $l->t('hardening guide</a>');?></p>
 			<h3><?php echo $l->t('Password handling');?></h3>
 			<p><?php echo $l->t('Administrators can set password quality policies enforced by Nextcloud.');?></p>
 			<p><?php echo $l->t('Password reset tokens are invalidated when critical information like user email has been changed to protect against phishing attacks.');?></p>
@@ -423,14 +424,13 @@
 			<p><?php echo $l->t('Nextcloud supports pluggable encryption key handling. If you have an external key server, this can be made to work with Nextcloud.');?></p>
 			<p><?php echo $l->t('Our default encryption key handling enables administrators to set a system wide recovery key for encrypted files. This ensures that, even when users lose their password, files can always be decrypted. Encrypted files can be shared but after changing encryption settings, shares will have to be re-shared. Using our command line tools, data can be encrypted, decrypted or re-encrypted when needed.');?></p>
 			<p><?php echo $l->t('If you face a regulatory or compliance need to encrypt data at rest but do not need to actually secure this data, locally encrypting data using our built in key management may satisfy compliance requirements.');?></p>
-			<p><?php echo $l->t('Learn how to use server side encryption in our');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_files/encryption_configuration.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Server Side Encryption Configuration">documentation</a>');?></p>
+			<p><?php echo $l->t('Learn how to use server side encryption in our');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_files/encryption_configuration.html" target="_blank" rel="tooltip" title="Server Side Encryption Configuration"><?php echo $l->t('documentation</a>');?></p>
 		</div>
 		<div class="col-md-5">
 			<img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/encryption-recovery.png" alt="in action" />
 		</div>
 	</div>
 </div>
-
 
 <div class="wrap container featureblock revealOnScroll">
 	<div class="featurerow">
