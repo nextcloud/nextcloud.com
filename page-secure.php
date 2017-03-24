@@ -55,24 +55,48 @@
 		</div>
 		<div class="features--container">
 			<div class="col-md-6">
+
 				<div class="feature">
+					<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+					<title>
+						PERMISSION AND FILE ACESS
+					</title>
+					<g fill="none" fill-rule="evenodd">
+						<path fill="#C4E1F7" d="M10 2l2 1v41l20 15v3L10 46M54 2l-2 1v41L32 59v3l22-16"/>
+						<path d="M10 45.496l22 16.26 22-16.26V2.618l-8.553 4.277c-.47.233-1.036.067-1.304-.38L41.433 2H22.567l-2.71 4.515c-.266.448-.833.614-1.303.38L10 2.618v42.878zM32 64c-.21 0-.418-.065-.595-.196l-23-17C8.15 46.614 8 46.317 8 46V1c0-.347.18-.668.475-.85.295-.183.662-.2.972-.045L18.62 4.69 21.142.486c.18-.3.505-.485.857-.485h20c.352 0 .677.185.857.485L45.38 4.69 54.554.106c.31-.154.677-.138.972.044C55.82.33 56 .652 56 1v45c0 .317-.15.615-.405.804l-23 17c-.177.13-.386.196-.595.196z" fill="#1485E0"/>
+						<path d="M32 59c-.208 0-.417-.065-.593-.195l-19-14C12.15 44.615 12 44.317 12 44V3h2v40.495l18 13.263 18-13.263V3h2v41c0 .317-.15.616-.407.805l-19 14c-.176.13-.385.195-.593.195" fill="#1485E0"/>
+						<path fill="#1485E0" d="M18 11h2V6h-2M44 11h2V6h-2M32 13c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 14c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+						<path fill="#1485E0" d="M37 36h-4V26h2v8h2v2"/>
+						<path fill="#1485E0" d="M35 47h-6V26h2v19h2v-3h2v-2h-2v-2h4v6h-2v3M30 17h4v-2h-4M18 15h2v-2h-2M18 19h2v-2h-2M18 23h2v-2h-2M44 15h2v-2h-2M44 19h2v-2h-2M44 23h2v-2h-2"/>
+					</g>
+					</svg>
+					<p class="section--paragraph__tittle"><?php echo $l->t('Extensive authentication support');?> </p>
+					<p class="section--paragraph"><?php echo $l->t('Nearly any authentication and provisioning mechanism works with Nextcloud.');?> </p>
+				</div>
+
+				<div class="subfeature">
 					<p class="section--paragraph__tittle"><?php echo $l->t('LDAP / Active Directory');?> </p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud has extensive LDAP/Active Directory support with an easy installation wizard.');?> </p>
 				</div>
 
-				<div class="feature">
+				<div class="subfeature">
 					<p class="section--paragraph__tittle">Kerberos</p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud can work with Kerberos and other authentication mechanisms mediated by Apache modules.');?></p>
 				</div>
 
-				<div class="feature">
+				<div class="subfeature">
 					<p class="section--paragraph__tittle">SSO/SAML 2.0</p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud supports Single Sign On (SSO) and can work with Shibboleth, a SAML-based authentication in its web front end and clients.');?></p>
 				</div>
 				
-				<div class="feature">
+				<div class="subfeature">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Two-factor authentication');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud includes Universal 2nd Factor (U2F) and Time-based One-Time Password (TOTP) second factor apps to increase the security of user login handling.');?></p>
+				</div>
+				
+				<div class="subfeature">
+					<p class="section--paragraph__tittle"><?php echo $l->t('Automated or manual provisioning');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Nextcloud offers an easy to use, REST based provisioning API to create and configure user accounts.');?></p>
 				</div>
 			</div>
 			

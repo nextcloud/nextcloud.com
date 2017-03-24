@@ -21,6 +21,11 @@
     padding-top: 60px; }
     .featureblock .features--container .feature {
       padding: 15px 0; }
+    .featureblock .features--container .subfeature {
+      padding: 15px 15px 0 15px; }
+      .featureblock .features--container .subfeature .section--paragraph__tittle {
+        font-size: 18px;
+        margin: 0 0 5px 0; }
   .featureblock .screenshot {
     /* 	padding: 20px; */
     margin-top: 20px;

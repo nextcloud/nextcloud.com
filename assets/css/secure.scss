@@ -21,7 +21,15 @@
 
 		.feature {
 			padding: 15px 0;
-		}		
+		}
+		.subfeature {
+			padding: 15px 15px 0 15px;
+			
+			.section--paragraph__tittle {
+				font-size: 18px;
+				margin: 0 0 5px 0;
+			}
+		}
 	}
 	
 	.screenshot {
