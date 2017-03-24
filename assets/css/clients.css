@@ -1,0 +1,23 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.clients-background {
+  background: url("../img/headers/clients.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.section--paragraph__tittle {
+  padding: 0; }
+
+.section--desktop {
+  padding: 100px 0; }
+
+.section--mobile {
+  padding: 100px 0; }
+
+/*# sourceMappingURL=clients.css.map */

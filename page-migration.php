@@ -1,4 +1,11 @@
+<head>
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/migration.css">
+<script>
+	require(["require.config"], function() {
+		require(["pages/migration"])
+	});
+</script>
+</head>
 
 <div class="background migration-background"> 
 	<div class="container">
@@ -8,12 +15,51 @@
 				<h2><?php echo $l->t('Nextcloud strives to make migration of customers from ownCloud as seamless as possible. Due to the large technical overlap, the migration of the application is easy. Business processes are equally easily updated.');?></h2>
 			</div>
 			<div class="col-md-6 topquote">
-				<h3><?php echo $l->t('<span class="big">"</span>We require a <span class="big">truly scalable</span> and 100% open source enterprise solution from a <span class="big">reliable partner</span> so we decided to <span class="big">migrate from ownCloud to Nextcloud"</span>');?></h3>
-				<h2><a href="/pr20160929"><?php echo $l->t('-- Martin Bech, Head of NREN at DeIC');?></a></h2>
+				<div class="row">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+				<!--	<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>-->
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<h3><?php echo $l->t('We require a <span class="big">truly scalable</span> and 100% open source enterprise solution from a <span class="big">reliable partner</span> so we decided to <span class="big">migrate from ownCloud to Nextcloud</span>');?></h3>
+							<h2><a href="/pr20160929"><?php echo $l->t('– Martin Bech, Head of NREN at DeIC');?></a></h2>
+						</div>
+
+						<div class="item">
+							<h3><?php echo $l->t('We are glad to have found a partner in Nextcloud with a <span class="big">healthy community</span> and <span class="big">strong development and support capabilities</span?>.');?></h3>
+							<h2><a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/"><?php echo $l->t('– Stefan Döhler, project manager at regio iT');?></a></h2>
+						</div>
+
+						<div class="item">
+							<h3><?php echo $l->t('Die aktuellen Entwicklungen von Nextcloud, <span class="big">das Lizenzmodell</span> und die <span class="big">breite Unterstützung</span> der Community haben uns bei dieser Entscheidung bestärkt.');?></h3>
+							<h2><a href="https://blog.hrz.tu-chemnitz.de/urzcommunity/2017/01/25/neuigkeiten-von-sync-n-share/"><?php echo $l->t('–  Andreas Heik, Universitätsrechenzentrum, TU Chemnitz');?></a></h2>
+						</div>
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+
+
 <div class="container">
 	<div class="col-md-8 col-md-offset-2">
 	<h2 class="section--heading-1"><?php echo $l->t('Why migrate: ownCloud vs Nextcloud');?></h2>
@@ -26,12 +72,12 @@
 
 	<p class="section--paragraph"><?php echo $l->t('The steps are as follows:');?></p>
 	<ul>
-	<li class="section--paragraph"><?php echo $l->t('1. Enable Maintenance Mode with the command line tool');?></li>
+	<li class="section--paragraph"><?php echo $l->t('1. Enable Maintenance Mode with the command line tool<br> or set <code>\'maintenance\' => true,</code> in config/config.php');?></li>
 	<li class="section--paragraph"><?php echo $l->t('2. Backup existing configuration and database');?></li>
 	<li class="section--paragraph"><?php echo $l->t('3. Delete the ownCloud code and extract the Nextcloud code');?></li>
 	<li class="section--paragraph"><?php echo $l->t('4. Copy back the configuration file');?></li>
-	<li class="section--paragraph"><?php echo $l->t('5. Start the upgrade process with the command line tool');?></li>
-	<li class="section--paragraph"><?php echo $l->t('6. Disable Maintenance Mode');?></li>
+	<li class="section--paragraph"><?php echo $l->t('5. Start the upgrade process with the command line tool<br> or set <code>\'maintenance\' => false,</code> in config/config.php and visit the login page');?></li>
+	<li class="section--paragraph"><?php echo $l->t('6. Disable Maintenance Mode via command line<br> or setting set <code>\'maintenance\' => false,</code> in config/config.php');?></li>
 	</ul>
 	<p class="section--paragraph"><?php echo $l->t('An even easier way using our new updater is <a  class="hyperlink"href="https://nextcloud.com/blog/get-up-to-date-with-the-new-nextcloud-updater/">detailed in this blog post.</a>');?></p>
 	<p class="section--paragraph"><?php echo $l->t('Find more details in');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/manual_upgrade.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">our documentation.</a>');?></p>

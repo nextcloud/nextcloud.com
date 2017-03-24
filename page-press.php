@@ -4,6 +4,7 @@
 <!-- <a href="/nine" class="btn btn-lg btn-default">Overview of new features</a> -->
 <h2>Press releases</h2>
 <ul>
+    <li><a href="/press/pr20170307/">March 7, 2017: DASEQ and Nextcloud announce partnership</a></li>
 	<li><a href="/press/pr20161213/">December 13, 2016: Nextloud 11 sets new standard for security and scalability</a></li>
 	<li><a href="/press/pr20161027/">October 27, 2016: Nextcloud GmbH continues growth path with addition of Head of Sales</a></li>
 	<li><a href="/press/pr20160929/">Semptember 29, 2016: Danish research and education network moves from ownCloud to Nextcloud</a></li>

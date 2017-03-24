@@ -30,7 +30,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<p class="section--paragraph">Are you interested in meeting fellow Nextcloud users and contributors (<a  class="hyperlink" href=”https://twitter.com/nextclouders”>Nextclouders</a>, as we lovingly call ourselves)? You&#39;ve come to the right place! The Nextcloud community organizes and participates in many events around the globe and here you can find details on where you can meet us and how to organise your own event and become a member of the most active file sync and share open source community!</p>
+				<p class="section--paragraph">Are you interested in meeting fellow Nextcloud users and contributors (<a  class="hyperlink" href=”/contributors”>Nextclouders</a>, as we lovingly call ourselves)? You&#39;ve come to the right place! The Nextcloud community organizes and participates in many events around the globe and here you can find details on where you can meet us and how to organise your own event and become a member of the most active file sync and share open source community!</p>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/hackathon.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
 				<h2>Meetups</h2>
 				<p class="section--paragraph">Nextcloud community members get together in meetups to learn, share ideas and work on Nextcloud. Meetups are informal meetings which are typically held in the evening and can be focused on development, user or business topics. You can take part as a speaker, participant or promoter. Meetups are typically held once a month and are open to anyone. Below is a list of local meetup groups.</p>
@@ -78,6 +78,10 @@
 						<td>March 17-19</td>
 					</tr>
 					<tr>
+						<td><a  class="hyperlink" target="_blank" href="https://cebit.de/en/">CeBIT</a></td>
+						<td>Hanover</td>
+						<td>March 23-24</td>
+					<tr>
 						<td><a  class="hyperlink" target="_blank" href="http://foss-north.se/">foss-north</a></td>
 						<td>Gothenburg</td>
 						<td>April 26</td>
@@ -103,5 +107,3 @@
 		</div>
 	</div>
 </section>
-
-

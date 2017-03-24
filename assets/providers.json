@@ -71,21 +71,6 @@
          "imagename":"kinamo.png"
       },
 	{
-         "title":"LineONE",
-         "url":"https:\/\/lineone.io\/nextcloud",
-         "flags":[
-            "de",
-            "at",
-            "eu"
-         ],
-         "freeplans":false,
-		 "supports":"both",
-         "specializes":[
-            "Discover an enterprise-ready and innovative way to access and share your files, calendars, contacts and mail. Hosted in Germany."
-         ],
-         "imagename":"lineone.png"
-      },
-	{
          "title":"Tech and Me",
          "url":"https:\/\/shop.techandme.se\/index.php\/product\/host-your-nextcloud-vm-at-tech-and-me",
          "flags":[
@@ -349,20 +334,6 @@
          "imagename":"portknox.png"
       },
     {
-         "title":"Manuel Proksch",
-         "url":"https:\/\/m-pr.at\/?page_id=19",
-         "flags":[
-            "de",
-            "at"
-         ],
-         "freeplans":true,
-         "supports":"both",
-         "specializes":[
-            "Nextcloud Paket 1: 15 GB Speicherplatz, unlimited Traffic, Netzwerkanbindung bis zu Gbit EUR 5/Monat (1. Monat gratis testen)"
-         ],
-         "imagename":"EDV-Service.png"
-      },
-    {
          "title":"rackSPEED GmbH",
          "url":"https:\/\/rackspeed.de\/nextcloud-hosting\/",
          "flags":[
@@ -621,5 +592,32 @@
             "Libre hosting with privacy from EU, offering encrypted Nextcloud instances or including Collabora Online. Providing many apps like Contacts, News, etc"
          ],
          "imagename":"whiskers.png"
+      },
+    {
+         "title":"RoundIT",
+         "url":"https:\/\/www.roundit.de\/produkte\/21-nextcloud-server",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Serverhosting in Europa (Köln und Straßburg) inkl. Traffic-Flatrate SSL-Zertifikat und unbegrenzter Anzahl Benutzer!"
+         ],
+         "imagename":"roundit.png"
+      },
+    {
+         "title":"Netways",
+         "url":"https:\/\/nws.netways.de\/contracts\/new?product_id=20-nextcloud",
+         "flags":[
+            "de",
+            "eu"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "The perfect place for all your data in the cloud. Hosted in Germany."
+         ],
+         "imagename":"netways.png"
       }
 ]

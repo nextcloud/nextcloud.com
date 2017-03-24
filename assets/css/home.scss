@@ -57,6 +57,7 @@
     bottom:0;
     right: 0;
     overflow: hidden;
+    opacity:0;
     @media (max-width: $break-small) {
       background-image: url("../img/home/top-banner@2x_mobile.png");
       padding-top: 100%;
@@ -79,6 +80,7 @@
     top: 30vh;
    padding-left: 0;
     margin-left: 0;
+    opacity:0;
 
     @media (max-width: $break-big) {
       top: 120px;

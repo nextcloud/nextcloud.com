@@ -40,6 +40,7 @@
         font-weight: 300;
         line-height: 1.2;
         margin: 0;
+        color: $dark-grey;
 
         @media (max-width: $break-small) {
             font-size: ms(2);
@@ -51,6 +52,7 @@
     @include modifier(heading-2) {
         font-size: ms(2);
         font-weight: 300;
+        color: $dark-grey;
 
         @media (max-width: $break-small) {
             font-size: ms(2);

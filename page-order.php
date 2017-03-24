@@ -39,22 +39,26 @@
 		<h3><?php echo $l->t('Fill in the form below to receive a contract and invoice from us and get started!');?></h3>
 		<hr>
 		<form id="orderform" name="orderform" method="post" action="../ordersubmit/">
-			<p><?php echo $l->t('<label for="yourname">Contact person<br>
-			<input  type="text" name="yourname" maxlength="60" size="60"></label>');?></p>
-			<p><?php echo $l->t('<label for="email">Email<br>
-			<input  type="text" name="email" maxlength="80" size="60"></label>');?></p>
-			<p><?php echo $l->t('<label for="organization">Organization<br>
-			<input  type="text" name="organization" maxlength="100" size="60" placeholder="Name of your organization"></label>');?></p>
-			<p><?php echo $l->t('<label for="website">Website<br>
-			<input  type="text" name="website" maxlength="100" size="60" placeholder="Website of your organization"></label>');?></p>
-			<p><?php echo $l->t('<label for="phone">Phone number<br>
-			<input  type="text" name="phone" maxlength="40" size="60" placeholder="Please include country code"></label>');?></p>
-			<p><?php echo $l->t('<label for="address">Address<br />
-			<textarea  name="address" maxlength="1000" cols="50" rows="8" placeholder="Full address."></textarea></label>');?></p>
-			<p><?php echo $l->t('<label for="address">Billing address<br />
-			<textarea  name="billing" maxlength="1000" cols="50" rows="8" placeholder="If different from above, the billing address."></textarea></label>');?></p>
-			<p><?php echo $l->t('<label for="vat">VAT ID (Europe only)<br>
-			<input  type="text" name="vat" maxlength="60" size="47" placeholder="Your VAT ID"></label>');?></p>
+			<p><label for="yourname"><?php echo $l->t('Contact person');?> *<br>
+			<input  type="text" name="yourname" maxlength="60" size="60" placeholder="John Doe" onChange="doCalculation()"></label>
+			<span id="yourname-error" class="error"></span>
+			</p>
+			<p><label for="email"><?php echo $l->t('Email');?> *<br>
+			<input  type="text" name="email" maxlength="80" size="60" placeholder="john@example.org" onChange="doCalculation()"></label>
+			<span id="email-error" class="error"></span>
+			</p>
+			<p><label for="organization"><?php echo $l->t('Organization');?> *<br>
+			<input  type="text" name="organization" maxlength="100" size="60" placeholder="Example AG" onChange="doCalculation()"></label></p>
+			<p><label for="website"><?php echo $l->t('Website');?><br>
+			<input  type="text" name="website" maxlength="100" size="60" placeholder="https://example.org"></label></p>
+			<p><label for="phone"><?php echo $l->t('Phone number');?> * <span>(<?php echo $l->t('Please include your country code');?>)</span><br>
+			<input  type="text" name="phone" maxlength="40" size="60" placeholder="(+49 1234) 567 890" onChange="doCalculation()"></label></p>
+			<p><label for="address"><?php echo $l->t('Address');?> *<br />
+			<textarea  name="address" maxlength="1000" cols="62" rows="5" placeholder="Langer Weg 6, 61169 Friedberg, GERMANY" onChange="doCalculation()"></textarea></label></p>
+			<p><label for="address"><?php echo $l->t('Billing address');?> <span>(<?php echo $l->t('Only needed if different from above address');?>)</span><br />
+			<textarea  name="billing" maxlength="1000" cols="62" rows="5" placeholder="Langer Weg 8, 61169 Friedberg, GERMANY"></textarea></label></p>
+			<p><label for="vat"><?php echo $l->t('VAT ID');?> <span><?php echo $l->t('(Europe only)');?></span><br>
+			<input  type="text" name="vat" maxlength="60" size="60" placeholder="DE123456789"></label></p>
 			<h3><?php echo $l->t('Your order');?></h3>
 			<hr>
 			<p><label for="users"><?php echo $l->t('Number of seats');?><br>
@@ -66,13 +70,14 @@
 				<option value="200">200</option>
 				<option value="250">250</option>
 			</select></label></p>
-			<p><label for="edition"><?php echo $l->t('Which Nextcloud Support Subscription are you interested in? <a class="hyperlink" href="/pricing" target="_blank">details on pricing <i class="fa fa-external-link" aria-hidden="true"></i></a>');?><br>
+			<p class="question"><label for="edition"><?php echo $l->t('Which Nextcloud Support Subscription are you interested in?');?></p>
+			<p class="details"><?php echo $l->t('Our Basic subscription offers email support with a 3 day response time,<br/> Standard offers business hours phone support with a 2 day response time.');?></p>
 			<select id="edition" name="edition" onChange="doCalculation()">
 				<option default value="basic">Basic</option>
 				<option value="standard">Standard</option>
 <!-- 				<option value="premium">Premium</option> -->
 			</select></label>
-			<!--<div class="getenterprisequote" id="getenterprisequote" style="display:none;">--><p><a class="hyperlink" href="/buy"><?php echo $l->t('Ask a quote from our sales team for the premium subscription.');?></a></p><!--</div>-->
+			<!--<div class="getenterprisequote" id="getenterprisequote" style="display:none;">--><p><a class="hyperlink" href="/pricing" target="_blank"><?php echo $l->t('See details on pricing ');?><i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('or ask');?> <a class="hyperlink" href="/buy"><?php echo $l->t('a quote from our sales team ');?><i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('for the premium subscription.');?></p><!--</div>-->
 			</p>
 			<p><label for="duration"><?php echo $l->t('Length of contract (paid in advance)');?><br>
 			<select name="duration" onChange="doCalculation()">
@@ -90,9 +95,9 @@
 			<p><h3><?php echo $l->t('Optional features:');?></h3></p>
 			<input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include <a class="hyperlink" href="/outlook" target="_blank">our Outlook add-in <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 5/user)');?></span><br/>
 			<p><h4><?php echo $l->t('Only with a Standard Subscription:');?></h4></p>
-			<input disabled id="collaboraCheck" type="checkbox" name="collaboraCheck" value="collaboraCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include <a class="hyperlink" href="/collabora" target="_blank">Collabora Online <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 16/user)');?></span><br/>
+			<input disabled id="collaboraCheck" type="checkbox" name="collaboraCheck" value="collaboraCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include <a class="hyperlink" href="/collabora" target="_blank">Collabora Online <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 17/user for the first 100, € 16/user after that)');?></span><br/>
 			<!-- Only show below when input above is enabled -->
-			<div class="collaboraUserNumberChoiceDiv" id="collaboraUserNumberChoiceDiv" style="display:none;">
+			<!--<div class="collaboraUserNumberChoiceDiv" id="collaboraUserNumberChoiceDiv" style="display:none;">
 				<p><?php echo $l->t('Select how many users need access to Collabora: ');?><br>
 				<select disabled name="collabora" onChange="doCalculation()">
 					<option value="0">0</option>
@@ -108,20 +113,21 @@
 				<span id="minUsers"><?php echo $l->t('You need at least 25% Collabora seats');?></span><br>
 				<span id="maxUsers"><?php echo $l->t('You can not have more Collabora seats than Nextcloud seats');?></span>
 				</small></p>
-			</div>
+			</div>-->
 			<!--<input disabled type="checkbox" name="spreed" value="spreed" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include <a class="hyperlink" href="/webrtc" target="_blank">Spreed audio/video chat</a> (Eur 5/user)');?></span><br/>-->
 			<input disabled type="checkbox" name="remoteinstall" value="remoteinstall" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include one day remote installation/integration support (mail, telephone, video call) (€ 990)');?></span><br/>
 			<!--<input disabled type="checkbox" name="branding" value="branding" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include branded clients (Eur 6000)');?></span><br/>-->
 			</p>
 			<h2 class="price"><?php echo $l->t('Price: ');?><span id="totalprice"></span><br></h2>
-			<p><input type="checkbox" name="dollars" value="dollars" onChange="doCalculation()"> <?php echo $l->t(' in dollars');?></p>
+			<p class="hidden"><input type="checkbox" name="dollars" value="dollars" onChange="doCalculation()"> <?php echo $l->t(' in dollars');?></p>
 			<p><?php echo $l->t('<label for="comments">Notes<br />
 			<textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Questions, comments? Interested in Spreed, Branding etcetera..."></textarea></label>');?></p>
-			<p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a class="hyperlink" href=""<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?> <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+			<p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?> <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
 			<p>Note: all prices excl. VAT</p>
 			<td colspan="2" style="text-align:center">
-<!-- 				<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div> -->
-			<input type="submit" name="submit" value=" Order Now " disabled="disabled">
+			<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+			<input type="submit" name="submit" value=" Order Now " disabled="disabled" class="btn btn-primary"><br />
+			<span id="form-error"><?php echo $l->t('Some required fields are not filled.'); ?></span>
 		</form>
 	</div>
 </div>
@@ -219,30 +225,6 @@
 			}
 			return amount;
 		}
-		// function to optionally apply government discount. As the percentage varies, it has to be given to the formula.
-		function govDiscount(amount,percentage)
-		{
-			//Get a reference to the form id="orderform", to education discount and duration
-			var theForm = document.forms["orderform"];
-		    var discount = theForm.elements["edugov"];
-		    if(discount.value=="gov")
-			{
-				amount = amount * percentage;
-			}
-			return amount;
-		}
-		// function to optionally apply charity discount. As the percentage varies, it has to be given to the formula.
-		function charityDiscount(amount,percentage)
-		{
-			//Get a reference to the form id="orderform", to education discount and duration
-			var theForm = document.forms["orderform"];
-		    var discount = theForm.elements["edugov"];
-		    if(discount.value=="charity")
-			{
-				amount = amount * percentage;
-			}
-			return amount;
-		}
 		// function to optionally apply an equal discount percentage over any of the three categories.
 		function anyDiscount(amount,percentage)
 		{
@@ -256,17 +238,13 @@
 			return amount;
 		}
 
-		// function to apply multi-year discount. if nodiscount=1 or true, don't discount.
-		function multiYearDiscount(price,noDiscount=0)
+		// function to apply multi-year discount
+		function multiYearDiscount(price)
 		{
 			//Get a reference to the form id="orderform", to education discount and duration
 			var theForm = document.forms["orderform"];
 			var contractLength = theForm.elements["duration"];
 			
-			if(noDiscount==1) 
-			{
-				return price = price * contractLength.value;
-			}
 			if(contractLength.value==2)
 			{
 				return price *= 1.90;
@@ -285,7 +263,7 @@
 		    //Get a reference to the form id="orderform"
 		    var theForm = document.forms["orderform"];
 		    //Get a reference to the select id="users" and the other elements needed
-		    var includeCollaboraUsers = theForm.elements["collabora"];
+// 		    var includeCollaboraUsers = theForm.elements["collabora"];
 		    var includeCollaboraCheck = theForm.elements["collaboraCheck"];
 			var includeOutlook = theForm.elements["outlook"];
 			var includeRemoteinstall = theForm.elements["remoteinstall"];
@@ -309,16 +287,15 @@
 			{
 				if(includeCollaboraCheck.checked==true)
 				{
-					if( includeCollaboraUsers.value == 25||includeCollaboraUsers.value == 50)
+// 					if( includeCollaboraUsers.value <= 100)
+					if( selectedUsersNumber.value <= 100)
 					{
-					collaboraPrice = multiYearDiscount(includeCollaboraUsers.value * 17);
+					collaboraPrice = multiYearDiscount(selectedUsersNumber.value * 17);
 					} 
-					else if (includeCollaboraUsers.value > 50)
+					else if (selectedUsersNumber.value > 99)
 					{
-					collaboraPrice = multiYearDiscount(850 + (includeCollaboraUsers.value - 50) * 16);
+					collaboraPrice = multiYearDiscount(1683 + (selectedUsersNumber.value - 99) * 16);
 					}
-// 					collaboraPrice = multiYearDiscount(includeCollaboraUsers.value * 16);
-// 					collaboraPrice = multiYearDiscount(includeCollaboraUsers.value * 16);
 					// apply edu discount (no gov, charity)
 					collaboraPrice = eduDiscount(collaboraPrice,0.25);
 					optionsPrice = optionsPrice + collaboraPrice;
@@ -354,11 +331,11 @@
 			}
 			return +Math.round(finalPrice);
 		}
-
+		var firstCall = true;
 		function checkSubscription() {
 			//disable optional features when basic subscription is chosen; enable submit button when terms are accepted
 			var theForm = document.forms["orderform"];
-			var includeCollaboraUsers = theForm.elements["collabora"];
+// 			var includeCollaboraUsers = theForm.elements["collabora"];
 			var includeCollaboraCheck = theForm.elements["collaboraCheck"];
 			var includeOutlook = theForm.elements["outlook"];
 			// var includeBranding = theForm.elements["branding"];
@@ -368,65 +345,64 @@
 			var agreedToTerms = theForm.elements["terms"];    
 			var submitButton = theForm.elements["submit"];
 			var selectedUsersNumber = theForm.elements["users"];
-			document.getElementById("collaboraUserNumberChoiceDiv").style.display = "none";
+// 			document.getElementById("collaboraUserNumberChoiceDiv").style.display = "none";
 // 			document.getElementById("getenterprisequote").style.display = "none";
 			// disable them by default as they are blocked by the default basic subscription
 			includeRemoteinstall.disabled = false;
-			includeCollaboraUsers.disabled = false;
+// 			includeCollaboraUsers.disabled = false;
 			includeCollaboraCheck.disabled = false;
 			includeOutlook.disabled = false;
 			// includeSpreed.disabled = false;
 			// includeBranding.disabled = false;
 			submitButton.disabled = true;
-			var numberOfCollaboraUsers = includeCollaboraUsers.value;
+// 			var numberOfCollaboraUsers = includeCollaboraUsers.value;
 			var numberOfSelectedUsers = selectedUsersNumber.value;
-			document.getElementById("minUsers").style.fontWeight = "normal";
-			document.getElementById("maxUsers").style.fontWeight = "normal";
+// 			document.getElementById("minUsers").style.fontWeight = "normal";
+// 			document.getElementById("maxUsers").style.fontWeight = "normal";
 			
-			if(includeCollaboraCheck.checked==false)
-			{
-				includeCollaboraUsers.value = 0;
-			}
-			
-			if(includeCollaboraCheck.checked==true)
-			{
-				document.getElementById("collaboraUserNumberChoiceDiv").style.display = "block";
-				
-				if(parseInt(numberOfCollaboraUsers) < 20) {
-// 					includeCollaboraUsers.value = numberOfSelectedUsers;
-					numberOfCollaboraUsers = numberOfSelectedUsers;
-				}
-				
-				if(((parseInt(numberOfCollaboraUsers) * 4) + 1) < parseInt(numberOfSelectedUsers))
-				{
-					numberOfCollaboraUsers  = numberOfSelectedUsers / 4;
-					document.getElementById("minUsers").style.fontWeight = "bold";
-					// handle the weird numbers
-					if (parseInt(numberOfCollaboraUsers) < 50)
-					{
-						numberOfCollaboraUsers = 50;
-					}
-					if (numberOfCollaboraUsers == "62.5")
-					{
-						numberOfCollaboraUsers = 75;
-					}
-				}
-				
-				if(parseInt(numberOfCollaboraUsers) > parseInt(numberOfSelectedUsers))
-				{
-					document.getElementById("maxUsers").style.fontWeight = "bold";
-					numberOfCollaboraUsers = numberOfSelectedUsers;
-
-				}
-				
-				includeCollaboraUsers.value = numberOfCollaboraUsers;
-			}
+                // you can't have less collabora users than Nextcloud users
+// 			if(includeCollaboraCheck.checked==false)
+// 			{
+// 				includeCollaboraUsers.value = 0;
+// 			}
+// 			if(includeCollaboraCheck.checked==true)
+// 			{
+// 				document.getElementById("collaboraUserNumberChoiceDiv").style.display = "block";
+// 				
+// 				if(parseInt(numberOfCollaboraUsers) < 20) {
+// 					numberOfCollaboraUsers = numberOfSelectedUsers;
+// 				}
+// 				
+// 				if(((parseInt(numberOfCollaboraUsers) * 4) + 1) < parseInt(numberOfSelectedUsers))
+// 				{
+// 					numberOfCollaboraUsers  = numberOfSelectedUsers / 4;
+// 					document.getElementById("minUsers").style.fontWeight = "bold";
+// 					// handle the weird numbers
+// 					if (parseInt(numberOfCollaboraUsers) < 50)
+// 					{
+// 						numberOfCollaboraUsers = 50;
+// 					}
+// 					if (numberOfCollaboraUsers == "62.5")
+// 					{
+// 						numberOfCollaboraUsers = 75;
+// 					}
+// 				}
+// 				
+// 				if(parseInt(numberOfCollaboraUsers) > parseInt(numberOfSelectedUsers))
+// 				{
+// 					document.getElementById("maxUsers").style.fontWeight = "bold";
+// 					numberOfCollaboraUsers = numberOfSelectedUsers;
+// 
+// 				}
+// 				
+// 				includeCollaboraUsers.value = numberOfCollaboraUsers;
+// 			}
 			
 			
 			if(chosenEdition.value=="basic")
 			{
 				includeRemoteinstall.disabled = true;
-				includeCollaboraUsers.disabled = true;
+// 				includeCollaboraUsers.disabled = true;
 				includeCollaboraCheck.disabled = true;
 // 				includeOutlook.disabled = true;
 				// includeSpreed.disabled = true;
@@ -441,11 +417,91 @@
 // 				alert("Sorry, you can't order the Premium Subscription through this form. Please ask our sales team for a quote.");
 				// figure out how to zero the price
 // 			}
-			
+
+			if (firstCall) {
+				firstCall = false;
+				// don't show errors on very first call
+				return;
+			}
+
+
+			var enableSubmitButton = true;
+
+			// required form elements
+			var yourName = theForm.elements["yourname"];
+			var email = theForm.elements["email"];
+			var organization = theForm.elements["organization"];
+			var phone = theForm.elements["phone"];
+			var address = theForm.elements["address"];
+
+			if (yourName.value == '') {
+				yourName.classList.add('error');
+				enableSubmitButton = false;
+			} else {
+				var expression = /^[A-Za-z .'-]+$/,
+					yourNameError = $('#yourname-error');
+
+				if(expression.test(yourName.value)) {
+					yourName.classList.remove('error');
+					yourNameError.html('');
+				} else {
+					var message = '<?php echo $l->t("The name you entered does not appear to be valid.");?>';
+					yourNameError.html('<br />'  + message);
+					yourName.classList.add('error');
+					enableSubmitButton = false;
+				}
+			}
+
+			if (email.value == '') {
+				email.classList.add('error');
+				enableSubmitButton = false;
+			} else {
+				var expression = /^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/,
+					emailError = $('#email-error');
+
+				if(expression.test(email.value)) {
+					email.classList.remove('error');
+					emailError.html('');
+				} else {
+					var message = '<?php echo $l->t("The email address you entered does not appear to be valid.");?>';
+					emailError.html('<br />'  + message);
+					email.classList.add('error');
+					enableSubmitButton = false;
+				}
+			}
+
+			if (organization.value == '') {
+				organization.classList.add('error');
+				enableSubmitButton = false;
+			} else {
+				organization.classList.remove('error');
+			}
+
+			if (phone.value == '') {
+				phone.classList.add('error');
+				enableSubmitButton = false;
+			} else {
+				phone.classList.remove('error');
+			}
+
+			if (address.value == '') {
+				address.classList.add('error');
+				enableSubmitButton = false;
+			} else {
+				address.classList.remove('error');
+			}
+
 			// only when the terms are agreed to can you submit the form
-			if(agreedToTerms.checked==true)
-			{
+			if (agreedToTerms.checked != true) {
+				enableSubmitButton = false;
+			}
+
+			if (enableSubmitButton == true) {
 				submitButton.disabled = "";
+				$('#form-error').addClass('hidden');
+			} else {
+				submitButton.disabled = "disabled";
+				$('#form-error').removeClass('hidden');
 			}
 		}
 		// this function is called whenever the user changes any of the form values to re-calculate the price and disable or enable options.
