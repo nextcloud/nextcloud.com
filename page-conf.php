@@ -10,7 +10,7 @@
 	<div class="background conf-background">
 		<div class="container">
 			<div class="col-md-6 topheader">
-				<h1>Nextcloud Conference</h1>
+				<h1>Nextcloud Conference 2017</h1>
 				<h2  class="revealOnScroll">August 22-29, Technical University Berlin</h2>
 			</div>
 		</div>
