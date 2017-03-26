@@ -54,13 +54,13 @@
 			<i class="fa fa-comments-o"></i>
 			<h1>Talks &amp; Workshops</h1>
 			</div>
-			<p class="section--paragraph revealOnScroll">In the weekend of August 25 and 26 we have a program with talks and workshops to provide a chance to learn and improve coding skills on and around Nextcloud. For example:
+			<p class="section--paragraph revealOnScroll">In the weekend of August 26 and 27 we have a program with talks and workshops to provide a chance to learn and improve coding skills on and around Nextcloud. For example:
 			<ul class="revealOnScroll">
 				<li><a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/59" target="_blank">Write your first nextcloud app</a></li>
 				<li>Intro to the <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/11" target="_blank">Android app dev process</a>, why you should <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/18" target="_blank">join the design team</a> and how we <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/36" target="_blank">do performance testing</a></li>
 				<li>Status updates on the <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/20" target="_blank">Calendar</a>,  <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/33" target="_blank">Theming</a> and <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/13" target="_blank">iOS</a> apps</li>
 			</ul></p>
-			<p class="section--paragraph revealOnScroll">On Friday the 24th we have a special program with a focus on enterprise and large scale Nextcloud usage. Details are coming!</p>
+			<p class="section--paragraph revealOnScroll">On Friday the 25th we have a special program with a focus on enterprise and large scale Nextcloud usage. Details are coming!</p>
 <!-- 			<p class="section--paragraph revealOnScroll">Check out <a href="https://nextcloud.org/blog/nextcloud-contributor-conference-program/">the full program</a>!</p> -->
 <!-- 			<p class="section--paragraph">Stay tuned for the program for this year!</p> -->
 			
