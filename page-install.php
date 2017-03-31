@@ -1,33 +1,73 @@
-<div class="page-header">
-  <h1><?php echo $l->t('Get Started!');?></h1>
+<div class="page-header text-center">
+  <h1><?php echo $l->t('This is the first step to secure your data.');?></h1>
 </div>
-<hr class="wide"></hr>
+
+<style>
+small {
+opacity: .5;
+}
+
+.btn-large   { width: 100%; font-size: 20px;}
+</style>
+<!-- <hr class="wide"></hr> -->
 <div class="row">
-	<div class="col-md-4">
+	<div class="col-md-4 text-center">
 		<hr class="narrow"></hr>
-		<div class="numbadge centre">
-			<i class="icon-download"></i>
+		<div class="centre">
+			<i class="icon-cloud" style="font-size: 100px;"></i>
 		</div>
 		<h2><?php echo $l->t('Get Nextcloud Server');?></h2>
 		<p><?php echo $l->t('There are several ways to get your own Nextcloud for you and your data:');?></p>
-		<div class="btn-group">
-			<a class="btn btn-primary btn-large" href="#instructions-server">Download</a>
-			<a class="btn btn-default btn-large" href="/devices">Devices</a>
-			<a class="btn btn-default btn-large" href="/providers">Providers</a>
-		</div>
+		<p><a class="btn btn-primary btn-large" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">Download ZIP file<br/><small>for your server</small></a></p>
+		or
+        <p><a class="btn btn-default btn-large" href="/providers">Sign up<br/><small>at a hosting provider</small></a></p>
+		<p><small>Also available <a ="https://www.techandme.se/nextcloud-vm/">as a VM</a> or a <a href="https://download.nextcloud.com/server/installer/setup-nextcloud.php">web installer.</a><br/> Find <a href="#instructions-server"><?php echo $l->t('other options</a> like Docker or packages here');?></small></p>
+        <p><small><a href="/devices">Buy a device to run your private cloud</small></a></p>
+		
 	</div>
-	<div class="col-md-4">
+	<div class="col-md-4 text-center">
 		<hr class="narrow"></hr>
-		<div class="numbadge centre">
-			<i class="icon-refresh"></i>
+		<div class="centre">
+			<i class="icon-laptop" style="font-size: 100px;"></i>
 		</div>
-		<h2><?php echo $l->t('Sync your data');?></h2>
-		<p><?php echo $l->t('Connect to your Nextcloud with our clients for all your devices:');?></p>
-		<div class="btn-group">
-			<a class="btn btn-default btn-large" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients">Desktop Clients</a>
-			<a class="btn btn-default btn-large" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">Mobile Clients</a>
-		</div>
+		<h2><?php echo $l->t('Desktop clients');?></h2>
+		<p><?php echo $l->t('Grab your desktop/laptop client:');?></p>
+<!-- 		<div class="btn-group"> -->
+            <p><a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX; ?>" id="client-download-linux" class="btn btn-large btn-default"><i class="icon-linux"></i> Download Linux Client<br /><small>Source</small></a></p>
+            <p><small>Also available for:</small></p>
+			<p><a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN; ?>" id="client-download-win" class="btn btn-lg btn-default"><i class="icon-windows"></i>  Windows<br /><small>7, 8.x and 10</small></a>
+            <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC; ?>" id="client-download-mac" class="btn btn-lg btn-default"><i class="icon-apple"></i> Mac<br /><small>OSX 10.9+, 64 bit</small></a></p>
+			<p><small><?php echo $l->t('Looking for');?> <a href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients"><?php echo $l->t('other options?</a>?');?></small></p>
+<!-- 		</div> -->
 	</div>
+    <div class="col-md-4 text-center">
+		<hr class="narrow"></hr>
+		<div class="centre">
+			<i class="icon-mobile" style="font-size: 100px;"></i>
+		</div>
+		<h2><?php echo $l->t('Mobile clients');?></h2>
+		<p><?php echo $l->t('Connect to your Nextcloud with our clients for all your devices:');?></p>
+		<div class="row">
+            <div class="col-xs-6">
+                <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"></a><br />
+            </div>
+            <div class="col-xs-6 mobileclientbuttons">
+                <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
+                </a>
+            </div>
+        </div>
+        <p><small>Also available for Windows Mobile and on F-Droid.
+		<a href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">More options</a></small></p>
+		
+	</div>
+</div>
+<br />
+<br />
+
+
+<div class="row">
 	<div class="col-md-4">
 		<hr class="narrow"></hr>
 		<div class="numbadge centre">
@@ -39,26 +79,6 @@
 			<a class="btn btn-default btn-large" role="button" href="https://apps.nextcloud.com" target="_blank" rel="tooltip" title="App Store">App Store</a>
 		</div>
 	</div>
-</div>
-<br />
-<br />
-
-
-<hr class="wide"></hr>
-<div class="row">
-	<div class="col-md-4">
-		<div class="numbadge centre">
-			<i class="icon-book"></i>
-		</div>
-		<h2><?php echo $l->t('Read the documentation');?></h2>
-		<p><?php echo $l->t('Here you can find our manuals:');?></p>
-		<ul>
-			<li><a href="<?php echo $DOCUMENTATION_USER; ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('End User Documentation">Users</a>');?></li>
-			<li><a href="<?php echo $DOCUMENTATION_ADMIN; ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">Admins</a>');?></li>
-			<li><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud Developer Documentation">Developers</a>');?></li>
-			<li><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/" target="_blank" rel="tooltip" title="<?php echo $l->t('Information for Testers">Testers</a>');?></li>
-		</ul>
-	</div>
 	<div class="col-md-4">
 		<hr class="narrow"></hr>
 		<div class="numbadge centre">
@@ -69,6 +89,12 @@
 		<ul>
 			<li><?php echo $l->t('<a href="http://help.nextcloud.com" target="_blank" rel="tooltip" title=" Nextcloud User Forums">The Forum</a>');?></li>
 			<li><?php echo $l->t('<a href="irc://#nextcloud@freenode.net" target="_blank" rel="tooltip" title="The Nextcloud IRC Channel">IRC Channel</a> (<a href="http://webchat.freenode.net/?channels=nextcloud" target="_blank"  rel="tooltip" title="Web interface to the Nextcloud IRC Channel">Webchat</a>)');?></li>
+		</ul>
+		<ul>
+			<li><a href="<?php echo $DOCUMENTATION_USER; ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('End User Documentation">Users</a>');?></li>
+			<li><a href="<?php echo $DOCUMENTATION_ADMIN; ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">Admins</a>');?></li>
+			<li><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud Developer Documentation">Developers</a>');?></li>
+			<li><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/" target="_blank" rel="tooltip" title="<?php echo $l->t('Information for Testers">Testers</a>');?></li>
 		</ul>
 		<p><?php echo $l->t('These consist of users helping each other. Consider helping out others, too!');?><br />
 		<?php echo $l->t('<a href="/enterprise">Need enterprise support?</a>');?></p>
@@ -122,4 +148,16 @@
         $("#li-tab-mobile").removeClass("active");
         $("#li-tab-desktop").addClass("active");
     });
+    $(function() {
+	if (navigator.appVersion.indexOf("Win")!=-1) {
+		var e = document.getElementById("client-download-win");
+		e.className += ' btn-primary';
+	} else if(navigator.appVersion.indexOf("Mac")!=-1) {
+		var e = document.getElementById("client-download-mac");
+		e.className += " btn-primary";
+	} else if (navigator.appVersion.indexOf("X11")!=-1 || navigator.appVersion.indexOf("Linux")!=-1) {
+		var e = document.getElementById("client-download-linux");
+		e.className += ' btn-primary';
+	}
+});
 </script>
