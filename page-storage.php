@@ -25,8 +25,8 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Unlocking corporate data silos');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Avoid costly and disruptive migrations and retain your existing, compliant workflows and processes while enabling your employees to collaborate and work efficiently.');?></p> 
-			 <p class="section--paragraph"><?php echo $l->t('Nextcloud ensures your IT stays in control of the data by providing powerful <a class="hyperlink" href="/workflow">File Access Control</a> and <a class="hyperlink" href="/monitoring">logging</a> capabilities.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Avoid costly and disruptive migrations and retain your existing, compliant workflows and processes while enabling your employees to collaborate and work efficiently. Nextcloud brings together data from your existing storage systems in one seamless user interface.');?></p> 
+			 <p class="section--paragraph"><?php echo $l->t('Your IT stays in control of the data thanks to powerful <a class="hyperlink" href="/workflow">File Access Control</a> and <a class="hyperlink" href="/monitoring">logging</a> capabilities.');?></p>
 		</div>
 	</div>
 	<div class="row">
