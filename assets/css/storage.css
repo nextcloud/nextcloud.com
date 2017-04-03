@@ -1,0 +1,34 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.storage-background {
+  background: url("../img/headers/storage.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.image--floated {
+  float: right; }
+
+section {
+  padding: 100px 0; }
+  section .section--paragraph__tittle {
+    padding: 0; }
+
+.feature--block {
+  padding-top: 60px; }
+
+.row {
+  padding-top: 60px; }
+
+.featuretitle {
+  text-align: center; }
+
+footer {
+  margin-top: 50px; }
+
+/*# sourceMappingURL=storage.css.map */
