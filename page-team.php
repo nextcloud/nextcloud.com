@@ -320,7 +320,7 @@
 					<h4 class="teamlocation">lives in Croatia</h4>
 					<p class="teamsocial"> <a href="https://github.com/mario"><i class="fa-github fa"></i></a> <a href="https://twitter.com/mdjanic"><i class="fa-twitter fa"></i></a></p>
 				</div>
-				<p class="teamdescription">Mario is responsible for the Nextcloud Android application development. He studied Informatics and Organization and has been leading Libburnia and Gnomebaker, popular open source projects, for over a decade.</p>
+				<p class="teamdescription">Mario is part of the Nextcloud Android application development team. He studied Informatics and Organization and has been leading Libburnia and Gnomebaker, popular open source projects, for over a decade.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
