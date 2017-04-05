@@ -20,7 +20,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2 text-center revealOnScroll">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Users need to exchange data to work.');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Users need to exchange data');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The traditional shared data directory in companies has been informally augmented with attachments sent around by email as well as illicit usage of public cloud solutions like Dropbox. This brings significant legal, practical and financial risks.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('A private cloud with File Access Control brings data back under IT policy.');?></p>
 		</div>
