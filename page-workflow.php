@@ -80,7 +80,7 @@
 	</div>
 </div>
 </section>
-<div class="wrap container-widest">
+<!--<div class="wrap container-widest">
 	<div class="featurerow">
 		<h1 class="featuretitle"><?php echo $l->t('Screenshots');?></h1>
 		<div class="row">
@@ -92,4 +92,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div>-->

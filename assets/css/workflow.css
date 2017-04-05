@@ -35,8 +35,8 @@ footer {
   margin-top: 50px; }
 
 .quote {
-  margin: 80px 0 50px 0;
-  padding: 50px 0px;
+  margin: 0 0 -30px 0;
+  padding: 0 0 30px 0;
   background: #0082c9; }
   .quote p {
     color: white; }
