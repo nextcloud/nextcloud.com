@@ -97,6 +97,11 @@
 						<td>May 13-14</td>
 					</tr>
 					<tr>
+						<td><a  class="hyperlink" target="_blank" href="https://tnc17.geant.org">TNC17</a></td>
+						<td>Linz, Austria</td>
+						<td>May 29-June 2</td>
+					</tr>
+					<tr>
 						<td><a  class="hyperlink" target="_blank" href="https://conf.nextcloud.com/">Nextcloud Conference 2017</a></td>
 						<td>Berlin, Germany</td>
 						<td>August 22-29</td>
