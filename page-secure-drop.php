@@ -19,7 +19,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Nextcloud Secure Drop');?></h1>
+				<h1><?php echo $l->t('Secure Drop');?></h1>
 				<h2><?php echo $l->t('Convenient and secure file exchange for enterprises');?></p>
 			</div>
 		</div>
