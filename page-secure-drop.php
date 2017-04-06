@@ -29,7 +29,7 @@
 <section class="section--video">
 <div class="container">
 	<div class="row">
-		<div class="col-md-10 col-md-offset-1 video">
+		<div class="col-md-10 col-md-offset-1 video revealOnScroll">
 			<div class="yt-img-overlay">
 				<a class="youtube" id="AhFnbB-a7ik" href="https://www.youtube.com/watch?v=AhFnbB-a7ik" title="Editing public link sharesd">
 					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/AhFnbB-a7ik/maxresdefault.jpg" title="Secure Drop in action" style='margin: 0 0 0 0; padding: -10% 0 -10% 0;' /> <!-- style different per image! --> 
@@ -39,7 +39,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="col-md-6 col-md-offset-3 text-center">
+		<div class="col-md-6 col-md-offset-3 text-center revealOnScroll">
 			<p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Drop feature enables hospitals, banks, notaries and government agencies to securely receive data from customers, patients, clients or partners.');?></p>
 		</div>
 	</div>
@@ -92,9 +92,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 text-center revealOnScroll">
-				<p class="section--paragraph"><?php echo $l->t('Secure your file exchange with clients right now. Find out the benefits of a Nextcloud Support Subscription!');?></p>
+				<p class="section--paragraph"><?php echo $l->t('Secure your file exchange with clients right now. Learn about the benefits of a Nextcloud Support Subscription!');?></p>
 				<div class="text-center morebuttondiv">
-					<a href="/buy" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="/enterprise" class="button button--large button--arrow"><?php echo $l->t('Subscription information');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>
