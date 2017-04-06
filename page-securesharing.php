@@ -11,12 +11,12 @@
 </div>
 <section>
 <div class="container">
-	<div class="row">
+	<div class="row revealOnScroll">
 		<div class="col-md-8 col-md-offset-2">
 			<p>A recent Forrester report notes that unsecured and uncontrolled sharing of data opens the door to loss of version control, auditability, and control over innovative IP.</p>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row revealOnScroll">
 		<div class="col-md-8 col-md-offset-2">
 			<blockquote>Seventy-five percent of companies in these industries rely on email for file sharing and collaboration, while more than half use FTP sites.</blockquote>
 		</div>
@@ -24,8 +24,7 @@
 </section>
 <section>
 <div class="container">
-	<div class="row">
-		<div class="col-md-12">
+	<div class="row revealOnScroll">
 			<p>Forrester urges senior corporate management and IT professionals to shift away from ad-hoc solutions like email, outdated technologies like FTP or customer-grade file sync and share. Key requirements for a solution include:
 			<ul>
 				<li>Enterprise-grade security, with governance and policies to protect valuable content and code</li>
@@ -33,9 +32,8 @@
 				<li>APIs for integration with engineering, support desk, and other essential work processes</li>
 			</ul>
 			The goal should be to streamline productivity without sacrificing visibility into the distribution of digital knowledge assets.</p>
-		</div>
 	</div>
-	<div class="row">
+	<div class="row revealOnScroll">
 		<h3>Concerns</h3>
 		<p>With 72% of the respondents agreeing with the statement, a key concern cited is the creation of new content silos. Having to migrate data and manage it in a new location, the goals of simplifying work flows while strengthening governance will not be achieved.</p>
 		<h3>Current 'solution': email</h3>
