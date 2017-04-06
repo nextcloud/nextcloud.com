@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="col-md-6 topheader">
 			<h1><?php echo $l->t('Secure sharing');?></h1>
-			<h2><?php echo $l->t('protect your Intellectual Property with Nextcloud');?></h2>
+			<h2><?php echo $l->t('Protect your Intellectual Property with Nextcloud');?></h2>
 		</div>
 	</div>
 </div>
