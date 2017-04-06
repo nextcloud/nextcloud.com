@@ -490,6 +490,15 @@ h5 {
 @media (max-width 768px) {
   .image--floated {
     float: none; } }
+/* Blue call to action bar */
+.quote {
+  padding: 0 0 30px 0;
+  background: #0082c9; }
+  .quote p {
+    color: white; }
+  .quote .hyperlink {
+    color: white; }
+
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/

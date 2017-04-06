@@ -484,6 +484,20 @@ float: none;
 	}
 }
 
+/* Blue call to action bar */
+
+.quote {
+	padding: 0 0 30px 0;
+	background: $nextcloud-blue;
+	p {
+		color: white;
+	}
+	.hyperlink {
+		color: white;
+	}
+}
+
+
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
