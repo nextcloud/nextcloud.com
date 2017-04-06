@@ -25,7 +25,7 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Private, group and public calls');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Video calls provides possibilities to call your friends, customers and partners in one-to-one or group-scenarios. You can also invite external chat participants by inviting them via an URL into public rooms on your Nextcloud.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Video calls provides possibilities to call your friends, customers and partners in one-to-one or group-scenarios. You can also invite external chat participants with an URL into public rooms on your Nextcloud.');?></p>
 		</div>
 	</div>
 	<div class="row">
@@ -34,7 +34,7 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Screen Sharing');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Share your desktop screen content or presentations with your chat-partners. All you need is your browser and our one-click install addon for Mozilla Firefox or Google Chrome. You can share single windows or your whole screen. Its up to you :)');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Share your a single window or your full desktop screen content for  presentations with your chat-partners. All you need is your browser and our one-click install addon for Mozilla Firefox or Google Chrome.');?></p>
 		</div>
 	</div>
 	<div class="row">
@@ -43,7 +43,7 @@
 		</div>
 	<div class="col-md-6 revealOnScroll">
 		<p class="section--paragraph__tittle"><?php echo $l->t('Security. Brought by WebRTC.');?></p>
-		<p class="section--paragraph"><?php echo $l->t('We use a technology called "WebRTC" which allows browsers to make dirct, peer to peer connections between each other. Those are fully end to end encrypted, both for audio and video chat. This means it is entirely impossibile for anyone to eaves-drop on the conversation, including even the server administrator!');?></p>
+		<p class="section--paragraph"><?php echo $l->t('We use a technology called "WebRTC" which allows browsers to make direct, peer to peer connections between each other. We encrypt these streamsfully end to end, both for audio and video chat. Not even the server administrator has access to the content of the call taking place.');?></p>
 		</div>
 	</div>
 </div>
