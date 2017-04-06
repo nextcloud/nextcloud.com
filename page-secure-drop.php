@@ -73,7 +73,7 @@
 		</div>
 	<div class="col-md-6 revealOnScroll">
 		<p class="section--paragraph__tittle"><?php echo $l->t('Unique links for each customer');?></p>
-		<p class="section--paragraph"><?php echo $l->t('Rather than creating a single upload link, you can also have customized links by entering a customer email address and then enabling Secure Drop (upload only). Your client receives an email with instructions on where to securely upload their files and if you chose to add one, the password in a separate email. Of course you can have both a shared link and multiple, unique email links.');?></p>
+		<p class="section--paragraph"><?php echo $l->t('Rather than creating a single upload link, you can also have customized links by entering a customer email address and then enabling Secure Drop (upload only). Your client receives an email with instructions on where to securely upload their files and if you chose to add one, the password in a separate email. Of course you can have both a shared link and multiple, unique email links. The password email can be disabled in the admin sharing settings for even more security-sensitive data where a second channel has to be used for the password.');?></p>
 		</div>
 	</div>
 	<div class="row">
