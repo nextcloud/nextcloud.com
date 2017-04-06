@@ -12,12 +12,12 @@
 <section>
 <div class="container">
 	<div class="row revealOnScroll">
-		<div class="col-md-8 col-md-offset-2">
+		<div class="col-md-8 col-md-offset-2 text-center">
 			<p>A recent Forrester report notes that unsecured and uncontrolled sharing of data opens the door to loss of version control, auditability, and control over innovative IP.</p>
 		</div>
 	</div>
 	<div class="row revealOnScroll">
-		<div class="col-md-8 col-md-offset-2">
+		<div class="col-md-8 col-md-offset-2 text-center">
 			<blockquote>Seventy-five percent of companies in these industries rely on email for file sharing and collaboration, while more than half use FTP sites.</blockquote>
 		</div>
 	</div>
