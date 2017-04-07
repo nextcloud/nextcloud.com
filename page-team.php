@@ -260,6 +260,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/harald.jpg" />
+				<h2 class="teamname">Harald Pfeifer</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Desktop Client</h4>
+					<h4 class="teamlocation">lives in Hollabrunn, Austria</h4>
+					<p class="teamsocial"><a href="https://github.com/pfiff45"><i class="fa-github fa"></i></a> <a href="https://twitter.com/HaPfeifer"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Georg does an internship for Software Engineering bachelor at the University of Applied Sciences Upper Austria.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/ivan.jpg" />
 				<h2 class="teamname">Ivan Sein</h2>
 				<div class="teammeta">
