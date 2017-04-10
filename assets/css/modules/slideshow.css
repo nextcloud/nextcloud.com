@@ -255,4 +255,8 @@
   .slideshow-mobile html, .slideshow-mobile body, .slideshow-mobile .carousel, .slideshow-mobile .carousel-inner, .slideshow-mobile .carousel-inner .item {
     height: 100%; }
 
+@media (max-width: 1200px) {
+  .texts-wrapper .col-md-6 {
+    padding-left: 60px !important; } }
+
 /*# sourceMappingURL=slideshow.css.map */

@@ -365,3 +365,9 @@
   .item:nth-child(4) {
   }
 }
+
+@media (max-width: 1200px) {
+  .texts-wrapper .col-md-6{
+    padding-left: 60px !important;
+  }
+}
