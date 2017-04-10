@@ -74,12 +74,12 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-4">
+			<!--<div class="col-md-4">
 				<a href="https://www.it25.de/" target="_blank" title="IT25">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/it25.png" title="it25" />
 				</a>
 				<p  class="partnertext">Since 2016 IT25 GmbH has specialized in email and groupware solutions, with a focus on the relevant products and tools in the market and a strong know-how in these core products.</p>
-			</div>
+			</div>-->
 			<div class="col-md-4">
 				<a href="http://www.netcloud.ch/" target="_blank" title="Netcloud AG">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/netcloud.png" title="netcloud logo" />
@@ -92,14 +92,14 @@
 				</a>
 				<p  class="partnertext">regio iT is a service provider with over 300 employees delivering solutions for communities, schools, non-profits as well as customers in the energy production and distribution space.</p>
 			</div>
-		</div>
-		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.sendin.nl/nextcloud/" target="_blank" title="Sendin">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/sendin.png" title="sendin logo" />
 				</a>
 				<p  class="partnertext">Sendin is a Dutch company specializing in the storage and shipping of files, building simple solutions so users need no manual. Our clients use our solutions to make their files and documents accessible in the cloud but also for paperless meetings and more.</p>
 			</div>
+		</div>
+		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.stylez.co.jp/" target="_blank" title="Stylez">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/stylez.png" title="stylez logo" />
@@ -112,15 +112,15 @@
 				</a>
 				<p  class="partnertext">TeeBase UK Ltd offers an arsenal of devices and services for digital security to protect your data and intellectual property even when using the Internet. Be free from hackers, malware and ransomware that destroy shareholder value and ruin careers</p>
 			</div>
-		</div>
-		
-		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.univention.de/" target="_blank" title="Univention">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/univention.png" title="Univention" />
 				</a>
 				<p  class="partnertext">Univention is a leading provider of Open Source products for running and managing whole IT infrastructures and applications. Our core product is Univention Corporate Server (UCS), a flexible, effective alternative to Microsoft solutions with AD functions, a strong identity management and a wide range of applications in our App Center.</p>
 			</div>
+		</div>
+		
+		<div class="row">
 <!--			<div class="col-md-4">
 				<a href="https://www.omnis-systems.com/en/" target="_blank" title="Omnis Systems Ltd">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/omnis.png" title="Omnis Systems logo" />
