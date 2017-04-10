@@ -10,9 +10,14 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
                     unmatch: _.bind(this.cleanModulesMobile, this)
     			});
 
-    			enquire.register('screen and (min-width: 992px)', {
-    				match: _.bind(this.modulesBindDesktop, this), 
-                    unmatch: _.bind(this.cleanModulesDesktop, this) 
+                enquire.register('screen and (min-width:992px) and (max-width:1200px)', {
+                    match: _.bind(this.modulesBindTablet, this)
+                    // unmatch: _.bind(this.cleanModulesMobile, this)
+                });
+
+    			enquire.register('screen and (min-width: 1200px)', {
+    				match: _.bind(this.modulesBindDesktop, this),
+                    unmatch: _.bind(this.cleanModulesDesktop, this)
     			});
     		},
 
@@ -38,6 +43,11 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
                 this.slideshowMobile();
             },
 
+            modulesBindTablet: function() {
+                this.slideshowTablet();
+                console.log("here");
+            },
+
             cleanModulesDesktop: function() {
                 this.destroyMagicScrollOnMobile();
             },
@@ -46,13 +56,41 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
                 this.removeInlineCssOnDesktop();
             },
 
+            slideshowTablet: function() {
+                $(".image__mobile").hide();
+                // this.modulesBindDesktop();
+                $(window).resize(_.bind(this.updateSlideshowImageSizesTablet, this));
+            },
+
+            updateSlideshowImageSizesTablet: function() {
+                var imageDeviceWidth = $(".image-back").width() * "0.9376733", // Using proportions to do the math
+                    imageDeviceHeight = $(".image-back").height() * "0.722727273", // Using proportions to do the math
+                    imageOnTopMargins = $(".image-back").width() * "0.0314"; // Using proportions to do the math
+
+                $(".image__desktop").css({
+                    "width": imageDeviceWidth + "px",
+                    // "height": imageDeviceHeight + "px",
+                    "top": imageOnTopMargins + "px",
+                    "left": imageOnTopMargins + "px"
+                });
+
+                $(".image-top-container").css({
+                    "top": 0 + "px"
+                })
+                var sectionHeadingheight = $("#slideshow").find(".section--heading-1").height();
+                var currentImageDevice = $(".image-back").height() + sectionHeadingheight + 200;
+                $(this.variables.slideshowIndicatorsSelector).css({
+                    "top": currentImageDevice + "px"
+                });
+            },
+
     		smoothScroll: function() {
     			$('a[href*="#"]:not([href="#"]):not([data-toggle="collapse"])').click(function() {
-    				
+
                     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
     				var target = $(this.hash);
     				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-    				
+
                     if (target.length) {
     					$('html, body').animate({
     					scrollTop: target.offset().top
@@ -66,13 +104,13 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
 
             indicatorSlideshow: function() {
                 var visibleElement = $(this.variables.textTriggerSelector).parent();
-                
+
                  $(visibleElement).on("inview", function(event, isInView) {
                      if (isInView) {
                         var currentSlide = $(event.currentTarget).data("slide");
                         var $indicator = $(".btn_carousel:nth-child(" + (parseInt(currentSlide) + 1)+")")
                         var $active = $('.btn_carousel.active');
-                        var imageFeatures = $(".image-top"); 
+                        var imageFeatures = $(".image-top");
 
                         $active.removeClass('active');
                         $indicator.addClass('active');
@@ -84,9 +122,9 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
                 var visibleElement = $(this.variables.textTriggerSelector).parent();
 
                  $(visibleElement).on("inview", function(event, isInView) {
-                     if (isInView) { 
+                     if (isInView) {
                          var currentSlide = $(event.currentTarget).data("slide");
-                         var imageFeatures = $(".image-top"); 
+                         var imageFeatures = $(".image-top");
 
                           if (currentSlide === 1) {
                              imageFeatures.css({
@@ -119,11 +157,11 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
             this.indicatorSlideshow();
             this.slideshowImagePosition();
             this.slideshowChangeImageDesktop();
-            
+
             this.controller = new ScrollMagic.Controller();
             this.variables.SlideshowTextTriggerSelector.each(function() {
-            
-                var imageFeatures = $(".image-top"); 
+
+                var imageFeatures = $(".image-top");
                 var animateImage = new ScrollMagic.Scene ({
                     triggerElement: this,
                     offset: "100%",
@@ -134,7 +172,7 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
             });
 
             var imagePin = new ScrollMagic.Scene ({
-                triggerElement: "#imageTrigger", 
+                triggerElement: "#imageTrigger",
                 duration: "300%",
                 triggerHook: 0
             })
@@ -157,7 +195,6 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
 
            indicatorsAnchorMobile: function(event) {
             event.prevent
-            console.log("here");
            },
 
            updateSlideshowImageSizes: function() {
@@ -194,7 +231,7 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
 
                 var element = document.getElementById("slideshow");
                 Hammer(element).on("swipeleft", _.bind(this.showNextTextSlideshow, this));
-                Hammer(element).on("swiperight", _.bind(this.showPreviousTextSlideshow, this)); 
+                Hammer(element).on("swiperight", _.bind(this.showPreviousTextSlideshow, this));
            },
 
            showNextTextSlideshow: function(event) {
@@ -209,7 +246,7 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
 
                     nextText.addClass("swipeleft active");
                     currentText.removeClass("active");
-                    
+
                     setTimeout(function() {
                         nextText.removeClass("swipeleft");
                     }, 200 );
@@ -263,7 +300,7 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
                 var visibleElement = $(".textTrigger").parent();
 
                  $(visibleElement).on("inview", function(event, isInView) {
-                     if (isInView) { 
+                     if (isInView) {
                         var currentSlide = $(event.currentTarget).data("slide"),
                             imageFeatures = $(".image-top"),
                             slidesCount = $(".right-text-grey").last().data("slide"),

@@ -7,7 +7,7 @@
   height: 100%;
   position: relative;
   padding: 130px 0;
-    
+
     @media (max-width: $break-big) {
       padding: 0;
     }
@@ -26,7 +26,7 @@
 
     .container {
 
-      .container-image-center { 
+      .container-image-center {
         padding-top: calc((100vh - 435px) /2);
         padding-bottom: calc((100vh - 435px) /2);
 
@@ -219,7 +219,7 @@
           }
         }
       }
-    
+
   .active {
     opacity: 1;
   }
@@ -229,7 +229,7 @@
 
 @media (max-width: $break-small) {
   .slideshow-mobile {
-    
+
     .text-container {
       padding-top:80px;
     }
@@ -240,7 +240,7 @@
 
     .carousel-indicators {
       top: 320px;
-      z-index: 1; 
+      z-index: 1;
 
       li {
         width: 28px;
@@ -290,7 +290,7 @@
       margin-right: auto;
     }
   }
-  
+
   .carousel-fade {
     .carousel-inner {
       .item {
@@ -348,7 +348,7 @@
       }
     }
   }
-  
+
   html, body, .carousel, .carousel-inner, .carousel-inner .item {
   height: 100%;
   }
