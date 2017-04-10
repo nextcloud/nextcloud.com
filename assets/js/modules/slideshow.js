@@ -94,6 +94,8 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
           if (isInView) {
             var currentSlide = $(event.currentTarget).data("slide");
             var imageFeatures = $(".image-top");
+            var currentHeight = $(".image-top").height() / 4;
+            console.log(currentHeight / 4);
 
             if (currentSlide === 1) {
               imageFeatures.css({
@@ -103,19 +105,19 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
 
             if (currentSlide === 2) {
               imageFeatures.css({
-                "top": "-318" + "px"
+                "top": "-" + currentHeight + "px"
               });
             }
 
             if (currentSlide === 3) {
               imageFeatures.css({
-                "top": "-636" + "px"
+                "top": "-" + currentHeight * 2 + "px"
               });
             }
 
             if (currentSlide === 4) {
               imageFeatures.css({
-                "top": "-954" + "px"
+                "top": "-" + currentHeight * 3 + "px"
               });
             }
           }
