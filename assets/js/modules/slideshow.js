@@ -46,6 +46,7 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
 
       cleanModulesMobile: function() {
         this.removeInlineCssOnDesktop();
+        this.removeInlineCssOnMobile();
       },
 
       slideshowTablet: function() {
@@ -95,7 +96,6 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
             var currentSlide = $(event.currentTarget).data("slide");
             var imageFeatures = $(".image-top");
             var currentHeight = $(".image-top").height() / 4;
-            console.log(currentHeight / 4);
 
             if (currentSlide === 1) {
               imageFeatures.css({
@@ -161,6 +161,14 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
         this.updateSlideshowImageSizes();
         this.toggleTextSlideshowMobile();
         $(window).resize(_.bind(this.updateSlideshowImageSizes, this));
+
+        $(this.variables.slideshowIndicatorsSelector).addClass(this.variables.activeClass);
+
+        var sectionHeadingheight = $("#slideshow").find(".section--heading-1").height();
+        var currentImageDevice = $(".image-back").height() + sectionHeadingheight + 200;
+        $(this.variables.slideshowIndicatorsSelector).css({
+          "top": currentImageDevice + "px"
+        });
         $(this.variables.indicatorSlideshow).on("click", _.bind(this.indicatorsAnchorMobile, this))
       },
 
@@ -180,11 +188,6 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
           "top": imageOnTopMargins + "px",
           "left": imageOnTopMargins + "px"
         });
-        var sectionHeadingheight = $("#slideshow").find(".section--heading-1").height();
-        var currentImageDevice = $(".image-back").height() + sectionHeadingheight + 200;
-        // $(this.variables.slideshowIndicatorsSelector).css({
-        //   "top": currentImageDevice + "px"
-        // });
       },
 
       slideshowChangeImageMobile: function() {
@@ -315,8 +318,12 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
       removeInlineCssOnDesktop: function(destroyMagicScrollOnMobile) {
         $(".image__desktop").removeAttr('style');
         $('.scrollmagic-pin-spacer').css('style');
-      }
+      },
 
+      removeInlineCssOnMobile: function() {
+        $(this.variables.slideshowIndicatorsSelector).removeAttr('style');
+        $(this.variables.slideshowIndicatorsSelector).css('style');
+      }
     }
     slideshow.init();
   });
