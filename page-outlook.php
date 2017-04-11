@@ -40,7 +40,7 @@
 				<iframe width="100%" height="500" src="https://www.youtube.com/embed/luWFBBcvkyc" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="col-md-6 col-md-offset-3 text-center">
-					<p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud customers to easily and securely sent files, folders or upload links to others from within Microsoft Outlook. The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud customers to easily and securely send files, folders or upload links to others from within Microsoft Outlook. The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>
 				</div>
 			</div>
 		</div>
