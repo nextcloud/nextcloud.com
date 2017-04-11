@@ -182,9 +182,9 @@ function ($, _, enquire, ScrollMagic, Hammer, isInView) {
         });
         var sectionHeadingheight = $("#slideshow").find(".section--heading-1").height();
         var currentImageDevice = $(".image-back").height() + sectionHeadingheight + 200;
-        $(this.variables.slideshowIndicatorsSelector).css({
-          "top": currentImageDevice + "px"
-        });
+        // $(this.variables.slideshowIndicatorsSelector).css({
+        //   "top": currentImageDevice + "px"
+        // });
       },
 
       slideshowChangeImageMobile: function() {
