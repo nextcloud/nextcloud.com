@@ -6,6 +6,7 @@
 	});
 </script>
 </head>
+
 <section class="hero-section">
 	<div class="background partners-background">
 		<div class="container">
@@ -16,6 +17,7 @@
 		</div>
 	</div>
 </section>
+
 <section class="section--intro">
 	<div class="container">
 		<div class="row">
@@ -25,6 +27,7 @@
 		</div>
 	</div>
 </section>
+
 <section class="section--providers">
 	<div class="wrap container partnergroup">
 		<div class="row">
@@ -53,6 +56,7 @@
 				<p  class="partnertext">DASEQ is delivering Nextcloud as integral part of their OpenSource solution framework which consists of open source technology, services and training as well as security solutions.</p>
 			</div>
 		</div>
+		
 		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.etes.de/" target="_blank" title="etes">
@@ -73,13 +77,14 @@
 				<p  class="partnertext">In a world where business depends on ICT, 360 ICT delivers garantees in the form of hard SLA's while remaining as approachable as a local ICT company for small and medium businesses. Our strength: solid, solution-focused and personal.</p>
 			</div>
 		</div>
+		
 		<div class="row">
-			<!--<div class="col-md-4">
+			<div class="col-md-4">
 				<a href="https://www.it25.de/" target="_blank" title="IT25">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/it25.png" title="it25" />
 				</a>
-				<p  class="partnertext">Since 2016 IT25 GmbH has specialized in email and groupware solutions, with a focus on the relevant products and tools in the market and a strong know-how in these core products.</p>
-			</div>-->
+				<p  class="partnertext">Founded in 2006 IT25 GmbH provides solutions for collaboration and exchange of information with a strong focus on supporting customers to install, integrate and safely operate on-premise and cloud based systems.</p>
+			</div>
 			<div class="col-md-4">
 				<a href="http://www.netcloud.ch/" target="_blank" title="Netcloud AG">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/netcloud.png" title="netcloud logo" />
@@ -92,14 +97,15 @@
 				</a>
 				<p  class="partnertext">regio iT is a service provider with over 300 employees delivering solutions for communities, schools, non-profits as well as customers in the energy production and distribution space.</p>
 			</div>
+		</div>
+		
+		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.sendin.nl/nextcloud/" target="_blank" title="Sendin">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/sendin.png" title="sendin logo" />
 				</a>
 				<p  class="partnertext">Sendin is a Dutch company specializing in the storage and shipping of files, building simple solutions so users need no manual. Our clients use our solutions to make their files and documents accessible in the cloud but also for paperless meetings and more.</p>
 			</div>
-		</div>
-		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.stylez.co.jp/" target="_blank" title="Stylez">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/stylez.png" title="stylez logo" />
@@ -112,15 +118,15 @@
 				</a>
 				<p  class="partnertext">TeeBase UK Ltd offers an arsenal of devices and services for digital security to protect your data and intellectual property even when using the Internet. Be free from hackers, malware and ransomware that destroy shareholder value and ruin careers</p>
 			</div>
+		</div>
+		
+		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.univention.de/" target="_blank" title="Univention">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/univention.png" title="Univention" />
 				</a>
 				<p  class="partnertext">Univention is a leading provider of Open Source products for running and managing whole IT infrastructures and applications. Our core product is Univention Corporate Server (UCS), a flexible, effective alternative to Microsoft solutions with AD functions, a strong identity management and a wide range of applications in our App Center.</p>
 			</div>
-		</div>
-		
-		<div class="row">
 <!--			<div class="col-md-4">
 				<a href="https://www.omnis-systems.com/en/" target="_blank" title="Omnis Systems Ltd">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/omnis.png" title="Omnis Systems logo" />
@@ -138,6 +144,7 @@
 		</div>
 	</div>
 </section>
+
 <section class="section--partners">
 	<div class="wrap container partnergroup">
 		<div class="row">
@@ -164,6 +171,7 @@
 				<p  class="partnertext">Collabora Productivity is the world’s leading LibreOffice services company and one of the biggest contributors to the LibreOffice for desktop codebase. It is the driving force behind putting LibreOffice in the Cloud with Collabora Online.</p>
 			</div>
 		</div>
+		
 		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.openinventionnetwork.com" target="_blank" title="OIN">
@@ -184,6 +192,7 @@
 				<p  class="partnertext">TWS is the official provider of Nexcloud iOS Client. The company has its headquarters in Italy and it mainly deals with design and development of web-based application software.</p>
 			</div>
 		</div>
+		
 		<div class="row">
 			<div class="col-md-4">
 				<a href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/" target="_blank" title="Western Digital Labs">
