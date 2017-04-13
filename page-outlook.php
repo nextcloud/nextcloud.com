@@ -89,10 +89,29 @@
 	</div>
 </div>
 
+<section class="file-sharing">
+	<div class="container">
+		<div class="featurerow">
+<!-- 			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
+			<div class="row">
+				<div class="col-md-6 floated revealOnScroll">
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/moztb.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb.png" alt="in action" /></a>
+				</div>
+				<div class="col-md-6 featureblock revealOnScroll">
+					<h2 class="section--heading-2"><?php echo $l->t('Mozilla Thunderbird');?></h2>
+					<p class="section--paragraph"><?php echo $l->t('Users of Mozilla Thunderbird will be delighted to hear that <a href="https://github.com/nextcloud/nextcloud-filelink">Nextcloud also develops a Thunderbird Filelink Addon!</a>');?></p>
+					<p class="section--paragraph"><?php echo $l->t('"Nextcloud for Filelink" is a Thunderbird extension which makes it easy to send large attachments with Thunderbird by automatically uploading them first to a Nextcloud server and by then inserting the link into the body of your email.');?></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <section class="calendas-contacts">
 	<div class="container">
 		<div class="featurerow">
-			<h1 class="section--heading-1 section--text--center"><?php echo $l->t('Sync Calendars and Contacts');?></h1>
+			<h1 class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('Sync Calendars and Contacts');?></h1>
 			<div class="row ">
 				<div class="col-md-1">
 				</div>
