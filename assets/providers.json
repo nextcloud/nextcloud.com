@@ -625,17 +625,7 @@
          "url":"https:\/\/www.manitu.de\/webhosting\/nextcloud-hosting",
          "flags":[
             "de",
-            "at",
-            "ch",
-            "fr",
-            "eu",
-            "nl",
-            "be",
-            "lu",
-            "li",
-            "gb",
-            "us",
-            "ru"
+            "all"
          ],
          "freeplans":false,
          "supports":"both",
