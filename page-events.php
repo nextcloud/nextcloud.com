@@ -79,12 +79,22 @@
 					</tr>
 					<tr>
 						<td><a  class="hyperlink" target="_blank" href="https://cebit.de/en/">CeBIT</a></td>
-						<td>Hanover</td>
+						<td>Hanover, Germany</td>
 						<td>March 23-24</td>
 					<tr>
+					<tr>
+						<td><a  class="hyperlink" target="_blank" href="https://www.wikimedia.de/wiki/Ladies_that_FOSS">Ladies that FOSS</a></td>
+						<td>Berlin, Germany</td>
+						<td>April 19</td>
+					<tr>
 						<td><a  class="hyperlink" target="_blank" href="http://foss-north.se/">foss-north</a></td>
-						<td>Gothenburg</td>
+						<td>Gothenburgm Sweden</td>
 						<td>April 26</td>
+					</tr>
+					<tr>
+						<td><a  class="hyperlink" target="_blank" href="https://www.belug.de/">BeLUG</a></td>
+						<td>Berlin, Germany</td>
+						<td>May 3</td>
 					</tr>
 					<tr>
 						<td><a  class="hyperlink" target="_blank" href="https://conferences.oreilly.com/oscon/oscon-tx">OSCON</a></td>
@@ -100,6 +110,11 @@
 						<td><a  class="hyperlink" target="_blank" href="https://tnc17.geant.org">TNC17</a></td>
 						<td>Linz, Austria</td>
 						<td>May 29-June 2</td>
+					</tr>
+					<tr>
+						<td><a  class="hyperlink" target="_blank" href="http://sched.co/AOmp">Open Source Summit Japan</a></td>
+						<td>Tokyo, Japan</td>
+						<td>May 31-June 2</td>
 					</tr>
 					<tr>
 						<td><a  class="hyperlink" target="_blank" href="https://conf.nextcloud.com/">Nextcloud Conference 2017</a></td>
