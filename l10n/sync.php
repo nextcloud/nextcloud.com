@@ -59,7 +59,7 @@ foreach($languages as $language) {
 			curl_close($ch);
 
 			$jsonResponse = json_decode($result, true);
-			if(isset($jsonResponse['completed']) && $jsonResponse['completed'] === '100%') {
+			if(isset($jsonResponse['completed']) && $jsonResponse['completed'] === '100%' && $jsonResponse['reviewed_percentage'] === '100%') {
 				$ch = curl_init();
 				curl_setopt(
 					$ch,
