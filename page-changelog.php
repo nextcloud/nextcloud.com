@@ -57,6 +57,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
  	<li>Dont use the permissions mask while scanning (<a href="https://github.com/nextcloud/server/pull/4278">server/4278</a>)</li>
  	<li>Add missing maintenance plugin to new DAV endpoint (<a href="https://github.com/nextcloud/server/pull/4290">server/4290</a>)</li>
  	<li>Fix bug with shared_by for own calendars if shared (<a href="https://github.com/nextcloud/server/pull/4301">server/4301</a>)</li>
+ 	<li>Translation string corrected > 1 user (<a href="https://github.com/nextcloud/server/pull/4377">server/4377</a>)</li>
 </ul>
 <h5>Activity</h5>
 <ul>
@@ -89,6 +90,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <h5>Gallery</h5>
 <ul>
  	<li>Fix upload after core changes (<a href="https://github.com/nextcloud/gallery/commit/b4ac4429841cfe2b7ea260dfb37fcde25580143c">gallery/b4ac4429841cfe2b7ea260dfb37fcde25580143c<span class="badge badge-notification clicks" title="2 clicks">2</span></a>)</li>
+ 	 <li>Update JavaScript libraries (<a href="https://github.com/nextcloud/gallery/pull/247">gallery/247</a>)</li>
 </ul>
 
 <h3 id="11-0-2">Version 11.0.2 <small>February 27 2017</small></h3>
@@ -271,6 +273,11 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <h5>User_SAML</h5>
 <ul>
  	<li>Bump to php-saml 2.10.5 (<a href="https://github.com/nextcloud/user_saml/pull/101">user_saml/101</a>)</li>
+</ul>
+
+<h5>Gallery</h5>
+<ul>
+ 	 <li>Bump to newest DOMPurify release (<a href="https://github.com/nextcloud/gallery/pull/249">gallery/249</a>)</li>
 </ul>
 
 <h3 id="10-0-4">Version 10.0.4 <small>February 27 2017</small></h3>
@@ -508,6 +515,10 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
  	<li>Bump to php-saml 2.10.5 (<a href="https://github.com/nextcloud/user_saml/pull/102">user_saml/102</a>)</li>
 </ul>
 </div>
+<h5>Gallery</h5>
+<ul>
+ 	 <li>Bump to newest DOMPurify release (<a href="https://github.com/nextcloud/gallery/pull/250">gallery/250</a>)</li>
+</ul>
 
 <h3 id="9-0-57">Version 9.0.57 <small>February 27 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-9.0.57.tar.bz2">nextcloud-9.0.57.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-9.0.57.zip">nextcloud-9.0.57.zip</a></br>
