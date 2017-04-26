@@ -29,7 +29,7 @@
 <div class="row">
 	<div class="col-md-8 featureblock">
 		<p><?php echo $l->t('Spreed.ME uses a technology called "WebRTC" which allows browsers to make direct, peer to peer connections between each other. These are fully end to end encrypted, both for audio/video and text chat. This means it is entirely impossible for anyone to eaves-drop on the conversation, including even the server administrator!');?></p>
-		<p><?php echo $l->t('User handling is integrated in Nextcloud so you will show up with avatar and user names all set up. You can also invite people without a user account to a call by creating a temporary password for a user (with the key icon). You will get a link you can give to them to join you in a call. You do not have to enbable this ability, though and you can also restrict the usage of Spreed.ME to a specific user group if you need to!');?></p>
+		<p><?php echo $l->t('User handling is integrated in Nextcloud so you will show up with avatar and user names all set up. You can also invite people without a user account to a call by creating a temporary password for a user (with the key icon). You will get a link you can give to them to join you in a call. You do not have to enable this ability, though and you can also restrict the usage of Spreed.ME to a specific user group if you need to!');?></p>
 	</div>
 	<div class="col-md-4">
 		<img alt="Try for yourself!" class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-temp-password.png" />
@@ -88,13 +88,13 @@
 <h3><?php echo $l->t('Requirements');?></h3>
 <p><?php echo $l->t('To install, the following dependencies are required:');?></p>
 <ol>
- 	<li><?php echo $l->t('A host that can run a Docker container OR a development environment to built Spreed WebRTC (which is based on the Go programming language)');?></li>
+ 	<li><?php echo $l->t('A host that can run a Docker container OR a development environment to build Spreed WebRTC (which is based on the Go programming language)');?></li>
  	<li><?php echo $l->t('An Apache server with some enabled modules');?></li>
  	<li><?php echo $l->t('A valid SSL certificate for your Nextcloud');?></li>
 </ol>
 
 <h3><?php echo $l->t('1. Install Spreed WebRTC');?></h1>
-<p><?php echo $l->t('You can either install the Spreed WebRTC Docker container, install packages for your distribution or built the binary yourself.');?></p>
+<p><?php echo $l->t('You can either install the Spreed WebRTC Docker container, install packages for your distribution or build the binary yourself.');?></p>
 
 <h4><?php echo $l->t('Docker');?></h4>
 <p><?php echo $l->t('There is a Docker image. It requires that you first create the server.conf, taking the template as can be found on <a href="https://hub.docker.com/r/spreed/webrtc/" target="_blank">the Docker hub page</a> and modify it following the directions in the third section below. You then have to put it in a place where the Docker image can reach it, in the example below we picked <code>/srv/extra/server.conf</code> for that.');?></p>
@@ -110,7 +110,7 @@
 <p><?php echo $l->t('Building Spreed WebRTC is relatively simple as it is written in <a href="https://golang.org/">Go</a>. Follow these steps, adjusting for your system:');?></p>
 <ol>
  	<li><?php echo $l->t('<code>zypper install go</code><br/>
- 	Install Go so you can built a Go app like Spreed WebRTC');?></li>
+ 	Install Go so you can build a Go app like Spreed WebRTC');?></li>
  	<li><?php echo $l->t('<code>cd /srv/www/htdocs</code><br/>
  	Go to the root of where your webserver is installed');?></li>
  	 <li><?php echo $l->t('<code>wget https://github.com/strukturag/spreed-webrtc/archive/master.zip</code><br/>
@@ -122,7 +122,8 @@
 	<li><?php echo $l->t('<code>./autogen.sh</code><br/>
  	Generate configure and Makefile');?></li>
 	<li><?php echo $l->t('<code>./configure</code><br/>
- 	Detect all dependencies and get ready to built');?></li>
+ 	Detect all dependencies and get ready to 
+	');?></li>
  	<li><?php echo $l->t('<code>make</code><br/>
  	Build Spreed WebRTC');?></li>
 </ol>
