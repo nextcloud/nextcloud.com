@@ -122,7 +122,7 @@
 	<li><?php echo $l->t('<code>./autogen.sh</code><br/>
  	Generate configure and Makefile');?></li>
 	<li><?php echo $l->t('<code>./configure</code><br/>
- 	Detect all dependencies and get ready to 
+ 	Detect all dependencies and get ready to Build 
 	');?></li>
  	<li><?php echo $l->t('<code>make</code><br/>
  	Build Spreed WebRTC');?></li>
