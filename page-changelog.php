@@ -4,8 +4,8 @@
 <p>Go directly to the latest maintenance release of:</p>
 <ul>
 <li><a href="#latest11">Nextcloud 11</a></li>
-<li><a href="#latest10">Nextcloud 10</a></li>
-<li><a href="#latest9">Nextcloud 9</a></li>
+<li><a href="#latest10">Nextcloud 10 (End of Life in 2017-05)</a></li>
+<li><a href="#latest9">Nextcloud 9 (End of Life since 2017-04)</a></li>
 </ul>
 
 <a name="latest11"></a>

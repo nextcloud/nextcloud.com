@@ -41,9 +41,12 @@
 		<p><?php echo $l->t('Nextcloud Server:');?></p>
 		<ul>
 			<li><?php echo $l->t('Latest 11.x release');?></li>
-			<li><?php echo $l->t('Latest 10.x release');?></li>
-			<li><?php echo $l->t('Latest 9.x release');?></li>
+			<li><?php echo $l->t('Latest 10.x release (End of Life in 2017-05)');?></li>
+			<li><?php echo $l->t('Latest 9.x release (End of Life since 2017-04)');?></li>
 		</ul>
+
+		<p><?php echo $l->t('If you want to continue to use End of Life-version, please <a href="https://nextcloud.com/enterprise/buy/">contact Nextcloud sales</a>to get access to our Long Term Support offering.');?></p>
+
 		<p><?php echo $l->t('Nextcloud Android Client:');?></p>
 		<ul></p>
 			<li><?php echo $l->t('Latest release on <a href="https://play.google.com/store/apps/details?id=com.nextcloud.client">Google Play Store</a>');?></li>
