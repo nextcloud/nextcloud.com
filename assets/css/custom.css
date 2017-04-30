@@ -816,7 +816,7 @@ h5 {
   border-bottom: solid 1px #e4e4e4; }
 
 @media (max-width: 991px) {
-  .second-menu {
+  .second-menu .menu {
     display: none; }
 
   .second-menu .menu .buttons {
