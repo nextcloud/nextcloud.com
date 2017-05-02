@@ -34,7 +34,7 @@
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><a href="https://karlitschek.de/"><i class="fa-rss fa"></i></a> <a href="https://github.com/karlitschek"><i class="fa-github fa"></i></a> <a href="https://twitter.com/fkarlitschek"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Frank founded the ownCloud project in 2010 to put home users and enterprises back in control of their data. To improve the company-community balance and accelerate the project he founded Nextcloud in 2016 and has been tirelessly working to realize his vision ever since.</p>
+				<p class="teamdescription">Frank founded the ownCloud project in 2010 to put home users and enterprises back in control of their data. To bring file sync and share technology to the next level and better align to the needs of users and customers he founded Nextcloud in 2016 and has been tirelessly working to realize his vision ever since.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -73,7 +73,7 @@
 					<h4 class="teamlocation">lives in Lausanne, Switzerland</h4>
 					<p class="teamsocial"><a href="https://www.linkedin.com/in/olivierparoz"><i class="fa-rss fa"></i></a> <a href="https://github.com/oparoz"><i class="fa-github fa"></i></a> <a href="https://twitter.com/oparoz"><i class="fa-twitter fa"></i></a></p>
 				</div>
-				<p class="teamdescription">Olivier studied Economics and Information and Communications Systems Management at the University of Geneva. He has 15 years experience in delivering strategic solutions with a focus on open source, security and privacy for customers in industries as diverse as telecom, media, insurance, retail, broadcasting, sports and science.</p>
+				<p class="teamdescription">Olivier studied Economics and Information and Communications Systems Management at the University of Geneva. He contributed to ownCloud for several years and has 15 years experience in delivering strategic solutions with a focus on open source, security and privacy for customers in industries as diverse as telecom, media, insurance, retail, broadcasting, sports and science.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -112,7 +112,7 @@
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="http://blog.jospoortvliet.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jospoortvliet"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jospoortvliet"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Jos graduated in Psychology from the University of Utrecht and did project and service level management at Royal Bank of Scottland, KPN and the Dutch Department of Education. He has over a decade open source marketing and PR experience, previously working as Community Manager for SUSE Linux and ownCloud GmbH.</p>
+				<p class="teamdescription">Jos graduated in Psychology from the University of Utrecht and did project and service level management at Royal Bank of Scottland, KPN and the Dutch Department of Education. He has over a decade open source marketing and PR experience, previously working as Community Manager for SUSE Linux and ownCloud Inc.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -138,7 +138,7 @@
 					<h4 class="teamlocation">lives in St. Gallen, Switzerland</h4>
 					<p class="teamsocial"><a href="https://statuscode.ch/"><i class="fa-rss fa"></i></a> <a href="https://github.com/LukasReschke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/LukasReschke"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Lukas has been contributing to Nextcloud code since 2012, and is responsible for many of the security hardenings in the code. He has worked as security assessment and forensic investigator, reviewing security, giving trainings and dealing with breaches at Fortune 500 companies and several of the largest Swiss financial institutes.</p>
+				<p class="teamdescription">Lukas has been contributing to ownCloud since 2012 and is responsible for many of the security hardenings in the code. He has worked as security assessment and forensic investigator, reviewing security, giving trainings and dealing with breaches at Fortune 500 companies and several of the largest Swiss financial institutes.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -164,7 +164,7 @@
 					<h4 class="teamlocation">lives in Munich, Germany</h4>
 					<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jancborchardt"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jancborchardt"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Jan-Christoph is responsible for design on the project since early 2011. He pushes forward better design in open source through founding and contributing to several projects, giving talks, working with universities, and fostering the Open Source Design collective.</p>
+				<p class="teamdescription">Jan-Christoph is responsible for design on ownCloud since early 2011, continuing at Nextcloud. He pushes forward better design in open source through founding and contributing to several projects, giving talks, working with universities, and fostering the Open Source Design collective.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -203,7 +203,7 @@
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="https://arthur-schiwon.de"><i class="fa-rss fa"></i></a> <a href="https://github.com/blizzz"><i class="fa-github fa"></i></a> <!--<a href="https://twitter.com/blizzz"><i class="fa-twitter fa"></i></a>--> </p>
 				</div>
-				<p class="teamdescription">Arthur Schiwon has been working on Nextcloud code since 2010, developing state of the art user management and directory support. He has been SEO project manager at construktiv and was active in the Kubuntu community, still being a Free and Open Source Software enthusiast and privacy activist.</p>
+				<p class="teamdescription">Arthur Schiwon has been working on ownCloud since 2010, developing state of the art user management and directory support. Before he has been SEO project manager at construktiv and was active in the Kubuntu community, still being a Free and Open Source Software enthusiast and privacy activist.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -216,7 +216,7 @@
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><a href="https://schiessle.org/"><i class="fa-rss fa"></i></a> <a href="https://github.com/schiessle"><i class="fa-github fa"></i></a> <a href="https://twitter.com/schiessle"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Björn has been developing federated technology for Nextcloud since 2012. Computer Scientist, graduated at University of Stuttgart and Open Source and Open Standards Evangelist for privacy respecting, distributed and federated networks, FSFE's Deputy Coordinator Germany has a deep understanding of the technical and social aspects of technology.</p>
+				<p class="teamdescription">Björn has been developing federated technology for ownCloud since 2012. Computer Scientist, graduated at University of Stuttgart and Open Source and Open Standards Evangelist for privacy respecting, distributed and federated networks, FSFE's Deputy Coordinator Germany has a deep understanding of the technical and social aspects of technology.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -229,7 +229,7 @@
 					<h4 class="teamlocation">lives in Schrattenthal, Austria</h4>
 					<p class="teamsocial"><a href="http://blog.wuc.me/"><i class="fa-rss fa"></i></a> <a href="https://github.com/ChristophWurst"><i class="fa-github fa"></i></a> <a href="https://twitter.com/ChristophWurst"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Christoph has been contributing to the project since 2014. He is currently doing his Software Engineering master at the University of Applied Sciences Upper Austria.</p>
+				<p class="teamdescription">Christoph has been contributing to ownCloud since 2014. He is currently doing his Software Engineering master at the University of Applied Sciences Upper Austria.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -255,7 +255,20 @@
 					<h4 class="teamlocation">lives in Rostock, Germany</h4>
 					<p class="teamsocial"><a href="https://georg.coffee/"><i class="fa-rss fa"></i></a> <a href="https://github.com/georgehrke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/georgehrke"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Georg Ehrke is studying computer science at University of Rostock and maintainer of the Calendar app. He's been doing Nextcloud for many years and knows both the front and backend code well.</p>
+				<p class="teamdescription">Georg Ehrke is studying computer science at University of Rostock and maintainer of the Calendar app. He's been doing ownCloud, now Nextcloud, for many years and knows both the front and backend code well.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/harald.jpg" />
+				<h2 class="teamname">Harald Pfeifer</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Desktop Client</h4>
+					<h4 class="teamlocation">lives in Hollabrunn, Austria</h4>
+					<p class="teamsocial"><a href="https://github.com/pfiff45"><i class="fa-github fa"></i></a> <a href="https://twitter.com/HaPfeifer"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Harald does an internship for Software Engineering bachelor at the University of Applied Sciences Upper Austria.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -294,7 +307,7 @@
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><a href="https://www.schilljs.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/nickvergessen"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Joas has been involved in open source for over a decade, being a core member of the phpBB™ developer team and has been working on Nextcloud code since late 2013. He graduated from the University of Stuttgart and developed the Notifications and Activities technology in Nextcloud.</p>
+				<p class="teamdescription">Joas has been involved in open source for over a decade, being a core member of the phpBB™ developer team and has been working on ownCloud code since late 2013. He graduated from the University of Stuttgart and developed the Notifications and Activities technology in Nextcloud.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -346,7 +359,7 @@
 					<h4 class="teamlocation">lives in Chemnitz, Germany</h4>
 					<p class="teamsocial"><a href="http://morrisjobke.de/"><i class="fa-rss fa"></i></a> <a href="https://github.com/MorrisJobke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/MorrisJbk"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Morris has worked on the project since early 2013. He has worked with most components of the server and uses his experience to troubleshoot and create fixes for issues in large scale installations.</p>
+				<p class="teamdescription">Morris has worked on ownCloud since early 2013. He has worked with most components of the server and uses his experience now at Nextcloud to troubleshoot and create fixes for issues in large scale installations.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -359,7 +372,7 @@
 					<h4 class="teamlocation">lives in Eindhoven, Netherlands</h4>
 					<p class="teamsocial"><a href="https://icewind.nl"><i class="fa-rss fa"></i></a> <a href="https://github.com/icewind1991"><i class="fa-github fa"></i></a> <a href="https://twitter.com/icewind1991"><i class="fa-twitter fa"></i></a></p>
 				</div>
-				<p class="teamdescription">Robin studied computer science and is highly experienced in scaling file storage and handling systems. He has been working on Nextcloud code for over half a decade and has, at one point or another, touched code in every corner.</p>
+				<p class="teamdescription">Robin studied computer science and is highly experienced in scaling file storage and handling systems. He has been working on ownCloud code since 2010 and has, at one point or another, touched code in every corner.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -372,7 +385,7 @@
 					<h4 class="teamlocation">lives in Zuidoostbeemster, Netherlands</h4>
 					<p class="teamsocial"><a href="http://rullzer.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/rullzer"><i class="fa-github fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Roeland has been working on improving Sharing since 2015. Has a MSc degree in Computer Science from the University of Amsterdam, having done research for his PhD in cache partitioning for real time systems. With feet in both the client and server team he works on having a tighter platform integration.</p>
+				<p class="teamdescription">Roeland has been working on improving sharing since 2015. Has a MSc degree in Computer Science from the University of Amsterdam, having done research for his PhD in cache partitioning for real time systems. With feet in both the client and server team he works on having a tighter platform integration.</p>
 			</div>
 		</div>
 		<div class="col-md-4">

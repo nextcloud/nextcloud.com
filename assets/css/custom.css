@@ -490,6 +490,15 @@ h5 {
 @media (max-width 768px) {
   .image--floated {
     float: none; } }
+/* Blue call to action bar */
+.quote {
+  padding: 0 0 30px 0;
+  background: #0082c9; }
+  .quote p {
+    color: white; }
+  .quote .hyperlink {
+    color: white; }
+
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
@@ -807,7 +816,7 @@ h5 {
   border-bottom: solid 1px #e4e4e4; }
 
 @media (max-width: 991px) {
-  .second-menu {
+  .second-menu .menu {
     display: none; }
 
   .second-menu .menu .buttons {
@@ -1276,8 +1285,9 @@ blockquote:after {
 
 .background h2 {
   color: white;
-  font-size: 18px;
-  line-height: 1.6; }
+  font-size: 20px;
+  line-height: 1.6;
+  text-shadow: 0px 0px 10px #333; }
 
 .background .topheader {
   position: absolute;
@@ -1340,12 +1350,14 @@ blockquote:after {
     font-size: 35px;
     line-height: 120%;
     color: #2a2a36;
+    text-align: center;
     font-weight: 500; }
 
   h2 {
     font-size: 35px;
     font-weight: 300;
     line-height: 1.5;
+    text-align: center;
     color: #2a2a36; }
 
   h3 {
@@ -1360,12 +1372,14 @@ blockquote:after {
     font-weight: bold;
     line-height: 1.36;
     color: #2a2a36;
+    text-align: center;
     margin-bottom: 20px; }
 
   h5 {
     font-size: 24px;
     font-weight: bold;
     line-height: 1.5;
+    text-align: center;
     color: #2a2a36; } }
 .highlights {
   display: -ms-flexbox;

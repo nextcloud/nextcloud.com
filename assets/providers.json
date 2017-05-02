@@ -42,7 +42,7 @@
       },
 	{
          "title":"OwnCube e.U.",
-         "url":"https:\/\/owncube.com\/index-en.php",
+         "url":"https:\/\/owncube.com",
          "flags":[
             "de",
             "all"
@@ -619,5 +619,19 @@
             "The perfect place for all your data in the cloud. Hosted in Germany."
          ],
          "imagename":"netways.png"
+      },
+    {
+         "title":"manitu GmbH",
+         "url":"https:\/\/www.manitu.de\/webhosting\/nextcloud-hosting",
+         "flags":[
+            "de",
+            "all"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "German web hosting with strict data privacy. Powered by 100% green energy. First class customer service."
+         ],
+         "imagename":"manitu.png"
       }
 ]

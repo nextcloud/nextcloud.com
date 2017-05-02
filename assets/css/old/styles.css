@@ -66,18 +66,28 @@ body {
 h1, h2, h3 {
 	font-weight: 300;
 }
+h4 {
+	font-weight: 600;
+}
 h1 {
 	font-size: 45px;
 }
 h2 {
-	font-size: 27px;
+	font-size: 35px;
 	margin-bottom: 12px;
 }
 h3 {
+	font-size: 27px;
+	margin: 12px 0;
+}
+h4 {
 	font-size: 22px;
 	margin: 12px 0;
 }
-
+h5 {
+	font-size: 22px;
+	margin: 12px 0;
+}
 /* A nice looking block quote */
 blockquote {
   background: none;

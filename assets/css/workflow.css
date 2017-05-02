@@ -34,4 +34,13 @@ section {
 footer {
   margin-top: 50px; }
 
+.quote {
+  margin: 0 0 -30px 0;
+  padding: 0 0 30px 0;
+  background: #0082c9; }
+  .quote p {
+    color: white; }
+  .quote .hyperlink {
+    color: white; }
+
 /*# sourceMappingURL=workflow.css.map */
