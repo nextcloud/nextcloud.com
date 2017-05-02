@@ -1,5 +1,13 @@
 <head>
 <!-- <script src="<?php echo get_template_directory_uri(); ?>/assets/js/comparison.js"></script> -->
+
+<script>
+	require(["require.config"], function() {
+		require(["pages/enterprise", "bootstrap"])
+	});
+</script>
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/enterprise.css" rel="stylesheet">
+
 <style>
 #tooltip
 {
@@ -50,9 +58,9 @@
 </head>
 <body>
 
-<div class="background enterprise-background"> 
-	<div class="container">
-		<div class="row">
+<section class="enterprise-hero-section">
+	<div class="container-fluid background"> 
+		<div class="container">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Compare cloud technologies');?></h1>
 				<h2><?php echo $l->t('There is a wide variety of public and private cloud vendors out there. To save you the time of digging through documentation, we provide you an overview of how they compare to Nextcloud');?></h2>
