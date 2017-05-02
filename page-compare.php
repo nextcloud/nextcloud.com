@@ -157,7 +157,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Large file support-->
 							<li title="can be hosted wherever you decide, including hybrid." rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Self hosted/on premise-->
 								<li class="cd-group"></li> <!--Client-->
-							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
+							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Auto upload images/video-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i> <i class="fa fa-linux" aria-hidden="true"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Sync any local folder-->
@@ -179,7 +179,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Event notifications-->
-							<li title="Coming in 12" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
+							<li title="Coming in Nextcloud 12" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Data retention policy support-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Long term support (5-10 years)-->
@@ -201,7 +201,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File storage (local/NFS)-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Object storage (S3/Swift)-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--CIFS/Windows Shares-->
-							<li title="Coming in 12" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Sharepoint-->
+							<li title="Coming in Nextcloud 12" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible storage-->
 						</ul>
 					</li> <!-- .product -->
@@ -772,10 +772,11 @@
 	</section> <!-- .cd-products-comparison-table -->
 </div> <!-- container-fluid -->
 </section>
-<div class="disclaimer">
+<section class="disclaimer">
+<div class="container">
 <p>Information to our best knowledge, gathered April 28 2017. We understand the world is constantly changing, if you see we missed a feature or made a mistake, let us know. You can use <a href="/contact">our contact form.</a></p>
-
 </div>
+</section>
 <!--<script>
 function productsTable( element ) {
 	this.element = element;
