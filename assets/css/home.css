@@ -18,6 +18,13 @@
   min-height: 700px;
   border-radius: 0 !important;
   position: relative; }
+  .jumbotron__pattern {
+    opacity: 0.1; }
+    @media (max-width: 991px) {
+      .jumbotron__pattern {
+        width: calc(100vw - 15px);
+        height: 100vh;
+        object-fit: cover; } }
   @media (max-width: 991px) {
     .jumbotron {
       min-height: 600px; } }
@@ -25,12 +32,14 @@
     padding-top: 10px; }
     @media (max-width: 768px) {
       .jumbotron .jumbotron--heading-1 {
-        max-width: 300px; } }
+        max-width: 300px;
+        text-align: left; } }
     @media (min-width: 768px) {
       .jumbotron .jumbotron--heading-1 {
         max-width: 500px; } }
   .jumbotron .jumbotron--lead {
-    width: 377px; }
+    width: 377px;
+    text-align: left; }
     @media (max-width: 991px) {
       .jumbotron .jumbotron--lead {
         width: 250px; } }
@@ -216,7 +225,8 @@
     @media (max-width: 768px) {
       #perfect-for-home-and-business .section--heading-1 {
         color: white;
-        width: 100%; } }
+        width: 100%;
+        text-align: left; } }
   #perfect-for-home-and-business .section--paragraph {
     color: #ffffff;
     width: 469px;
