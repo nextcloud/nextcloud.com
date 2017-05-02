@@ -533,6 +533,25 @@ Main Components
     -ms-transform: translateY(45px) translateX(15px) rotate(180deg);
     -o-transform: translateY(45px) translateX(15px) rotate(180deg);
     transform: translateY(45px) translateX(15px) rotate(180deg); } }
+/* Checkboxes */
+.fa {
+  /* 	color: #00c7b0 !important; */ }
+
+.fa-check {
+  color: #16e300 !important; }
+
+.fa-times {
+  color: red !important; }
+
+.fa-usd {
+  color: #0066d4 !important; }
+
+.fa-clock-o {
+  color: #d48d00 !important; }
+
+.fa-googl e {
+  color: #ea9c00 !important; }
+
 /* -------------------------------- 
 
 No JS
