@@ -14,3 +14,21 @@
 
 <p><strong>About Nextcloud</strong></br />
 Nextcloud offers a unique-in-the-industry fully open source solution for on-premise data handling and communication with an uncompromising focus on security and privacy. Nextcloud brings together universal access to data with next-generation secure communication and collaboration capabilities under direct control of IT and integrated with existing compliant infrastructure. Nextcloud's open, modular architecture, emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing assets within and across the borders of their organization. For more information, visit <a href="https://nextcloud.com">https://nextcloud.com</a> or follow <a href="https://twitter.com/nextclouders">@Nextclouders on Twitter.</a></p>
+
+<p><strong>Links:</strong><br />
+Release blog with full feature overview, screenshots and videos: <a href="https://nextcloud.com/blog/nextcloud-12-beta-introduces-the-next-generation-of-secure-collaboration/">Nextcloud 12 Beta Introduces the Next Generation of Secure Collaboration</a><br />
+Blog by Nextcloud founder Frank Karlitschek on opensource.com on the vision behind Nextcloud 12: <a href="https://opensource.com/article/17/5/next-big-challenge-open-source-rich-collaboration-software">The next big challenge for open source: rich collaboration software</a><br />
+Blog covering the new collaboration and communication features: <a href="https://nextcloud.com/blog/nextcloud-12-redefining-file-sync-and-share-with-collaboration-and-communication/">Nextcloud 12: Redefining File Sync and Share with Collaboration and Communication</a><br />
+Blog covering the Bruteforce Protection and Rate Limiting: <a href="https://nextcloud.com/blog/security-in-nextcloud-12-bruteforce-protection-and-rate-limiting-for-developers/">Security in Nextcloud 12: Bruteforce Protection and Rate Limiting for developers</a><br />
+Blog covering the new authentication mechanisms: <a href="https://nextcloud.com/blog/security-in-nextcloud-12-new-authentication-mechanisms/">Security in Nextcloud 12: new authentication mechanisms</a><br />
+Videos introducing the new features in Nextcloud 12: <a href="https://www.youtube.com/playlist?list=PL4eBKdNy6FCEzwAnIvWoimKsA9ltdD0f0">Nextcloud 12 on YouTube</a><br />
+About Nextcloud: <a href="https://nextcloud.com/about">nextcloud.com/about</a><br />
+<br />
+</p>
+<p><strong>Press contacts</strong><br />
+Nextcloud GmbH<br />
+Jos Poortvliet<br />
+Kronenstraße 22A<br />
+D-70173 Stuttgart, Germany<br />
+e-mail: <a href="mailto:pr@nextcloud.com">pr@nextcloud.com</a></p>
+</div>
