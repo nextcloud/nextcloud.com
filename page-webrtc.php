@@ -21,7 +21,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 image--floated revealOnScroll">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png" class="img-responsive featureimg" />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png" class="img-responsive featureimg" /></a>
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Private, group and public calls');?></p>
@@ -30,20 +30,36 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 revealOnScroll">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed.png" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-screenshare-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-screenshare-nw.png" /></a>
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Screen Sharing');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Share your a single window or your full desktop screen content for  presentations with your chat-partners. All you need is your browser and our one-click install addon for Mozilla Firefox or Google Chrome.');?></p>
 		</div>
 	</div>
+</div>
+</section>
+<div class="container-fluid quote">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 featureblock text-center revealOnScroll">
+				<p class="section--paragraph"><?php echo $l->t('Check out the Video Calls app in our app store!');?></p>
+				<div class="text-center morebuttondiv">
+					<a href="https://apps.nextcloud.com/apps/spreed" class="button button--large button--arrow"><?php echo $l->t('App store');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<section class="section--webrtc">
+<div class="container">
 	<div class="row">
 		<div class="col-md-6 image--floated revealOnScroll">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed.png" class="img-responsive featureimg" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-two-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-two-nw.png" class="img-responsive featureimg" /></a>
 		</div>
 	<div class="col-md-6 revealOnScroll">
 		<p class="section--paragraph__tittle"><?php echo $l->t('Security. Brought by WebRTC.');?></p>
-		<p class="section--paragraph"><?php echo $l->t('We use a technology called "WebRTC" which allows browsers to make direct, peer to peer connections between each other. We encrypt these streamsfully end to end, both for audio and video chat. Not even the server administrator has access to the content of the call taking place.');?></p>
+		<p class="section--paragraph"><?php echo $l->t('We use a technology called "WebRTC" which allows browsers to make direct, peer to peer connections between each other. We encrypt these streams fully end to end, both for audio and video chat. Not even the server administrator has access to the content of the call taking place.');?></p>
 		</div>
 	</div>
 </div>
