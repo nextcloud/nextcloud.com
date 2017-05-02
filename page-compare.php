@@ -3,11 +3,12 @@
 
 <script>
 	require(["require.config"], function() {
-		require(["pages/enterprise", "bootstrap"])
+		require(["pages/enterprise", "bootstrap", "jquery"])
 	});
 </script>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/enterprise.css" rel="stylesheet">
-
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/compare.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <style>
 #tooltip
 {
@@ -78,6 +79,7 @@
 		<header>
 			<h2>Compare Products <br /> <small>Click on or hover items to learn more</small></h2>
 			<div class="actions">
+			<br />
 				<a href="#0" class="reset">Reset</a>
 				<a href="#0" class="filter">Filter</a>
 			</div>
