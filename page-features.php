@@ -300,8 +300,25 @@
         <p class=""><?php echo $l->t('Built in, easy to use theming to set color, login background and logo from Administrator screen.');?></p>
         </div>
     </div>
+    <div class="row revealOnScroll">
+        <div class="col-md-1 featureblock">
+        </div>
+        <div class="col-md-3 featureblock">
+        </div>
+        <div class="col-md-1 featureblock">
+<!--        <i class="fa-copy fa"></i>-->
+        </div>
+        <div class="col-md-3 featureblock">
+        <p class=""><?php echo $l->t('<br />... see how we <a class="hyperlink" href="/compare">compare to other solutions!</a>');?></p>
+        </div>
+        <div class="col-md-1 featureblock">
+        </div>
+        <div class="col-md-3 featureblock">
+        </div>
+    </div>
 </div>
 </section>
+
 
 <div class="calltoaction revealOnScroll">
 	<h1 class="section--heading-2 section--text--center"><?php echo $l->t('Get started now');?></h1>
