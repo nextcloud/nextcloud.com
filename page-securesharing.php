@@ -43,7 +43,8 @@
 		<h3>Wherever it is</h3>
 		<p>Modern organizations have data in a wide variety of silos like Sharepoint, Windows Network Drives, FTP sites and (often without knowledge of management) Dropbox or Google Drive. Nextcloud acts as a <a class="hyperlink" href="/storage">single file access, sync and share layer</a> across all these storage systems, integrating with enterprise native account handling like LDAP or SAML.</p>
 		<h3>Under IT's control</h3>
-		<p>No matter the storage solution used, Nextcloud can <a class="hyperlink" href="/workflow">ensure corporate policies are followed.</a> Sharing can be restricted through the file firewall, filtering on user properties like location or group, or file properties like (automatically or manually) assigned tags, file type and more. With storage transparent to users, generic data can remain where it is while IT can make sure that business critical or compliance-relevant information is stored on internal infrastructure and does not leave the company.</p>
+		<p>No matter the storage solution used, Nextcloud can <a class="hyperlink" href="/workflow">ensure corporate policies are followed.</a> Sharing can be restricted through the file firewall, filtering on user properties like location or group, or file properties like (automatically or manually) assigned tags, file type and more. With storage transparent to users, generic data can remain where it is while IT can make sure that business critical or compliance-relevant information is stored on internal infrastructure and does not leave the company. Use Secure Drop to let customers upload files to you in a easy and secure way!</p>
+		<a href="/secure-drop" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn about Secure Drop');?></a>
 	</div>
 </div>
 </section>

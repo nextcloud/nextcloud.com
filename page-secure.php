@@ -244,6 +244,9 @@
 			<p><?php echo $l->t('Administrators can set password quality policies enforced by Nextcloud.');?></p>
 			<p><?php echo $l->t('Password reset tokens are invalidated when critical information like user email has been changed to protect against phishing attacks.');?></p>
 			<p><?php echo $l->t('Nextcloud will ask system administrators for password confirmation on security critical actions. ');?></p>
+			<h3><?php echo $l->t('Secure file exchange');?></h3>
+			<p><?php echo $l->t('Use Secure Drop to let customers upload files to you in a easy and secure way!');?></p>
+			<a href="/secure-drop" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn about Secure Drop');?></a>
 		</div>
 		<div class="col-md-6 revealOnScroll">
 		<h3><?php echo $l->t('Security hardening');?></h3>
