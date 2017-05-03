@@ -56,7 +56,7 @@
 				<li><strong><?php echo $l->t('Authentication Support');?></strong><br/>
 				<ul>
 					<li>LDAP / Active Directory</br>
-					<?php echo $l->t('Nextcloud has extensive LDAP/Active Directory support with an easy installation wizard.');?></li>
+					<?php echo $l->t('Nextcloud has extensive LDAP/Active Directory support with an easy installation wizard, supporting password policies, user cleanup and more.');?></li>
 					<li>Kerberos</br>
 					<?php echo $l->t('Nextcloud can work with Kerberos and other authentication mechanisms mediated by Apache modules.');?></li>
 					<li>SSO/SAML 2.0</br>
