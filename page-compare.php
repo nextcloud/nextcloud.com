@@ -192,7 +192,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Data retention policy support-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Long term support (5-10 years)-->
-							<li title="Only by manually changing CSS" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Branding-->
+							<li title="Using ownBrander or manually changing CSS" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Branding-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Full audit trail-->
 							<li class="cd-group"></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Server side encryption-->
