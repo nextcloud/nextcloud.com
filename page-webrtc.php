@@ -34,7 +34,7 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Screen Sharing');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Share your a single window or your full desktop screen content for  presentations with your chat-partners. All you need is your browser and our one-click install addon for Mozilla Firefox or Google Chrome.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Share a single window or your full desktop screen content for presentations with your chat-partners. All you need is your browser and our one-click install addon for <a class="hyperlink" href="https://addons.mozilla.org/firefox/addon/nextcloud-video-calls/">Mozilla Firefox</a> or <a class="hyperlink" href="https://chrome.google.com/webstore/detail/screensharing-for-nextclo/kepnpjhambipllfmgmbapncekcmabkol">Google Chrome</a>.');?></p>
 		</div>
 	</div>
 </div>
