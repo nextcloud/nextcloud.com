@@ -75,7 +75,7 @@
 					<li title="" rel="tooltip">Brute force hacking protection</li> <!--Brute force hacking protection-->
 					<li title="" rel="tooltip">NIST compliant password policy</li> <!--NIST compliant password policy-->
 					<li title="" rel="tooltip">Web UI secured with CSP 3.0</li> <!--Web UI secured with CSP 3.0-->
-					<li title="" rel="tooltip">With same-site cookies</li> <!--With same-site cookies-->
+					<li title="" rel="tooltip">With same-site cookie attribute</li> <!--With same-site cookies-->
 					<li title="" rel="tooltip">File Access Control</li> <!--File Access Control-->
 						<li class="cd-group">Authentication</li> <!--Authentication-->
 					<li title="" rel="tooltip">LDAP/AD</li> <!--LDAP/AD-->
