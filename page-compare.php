@@ -64,8 +64,7 @@
 						<li class="cd-group">Admin features</li> <!--Admin features-->
 					<li title="" rel="tooltip">Content workflow automation</li> <!--Content workflow automation-->
 					<li title="" rel="tooltip">Automatic script execution</li> <!--Automatic script execution-->
-					<li title="files created, updated, shared, unshared and deleted by user or others" rel="tooltip">Event notifications</li> <!--Event notifications-->
-					<li title="" rel="tooltip">Real-time (push) notifications</li> <!--Real-time (push) notifications-->
+					<li title="files created, updated, shared, unshared and deleted by user or others, chat or call received etc" rel="tooltip">Real time notifications</li> <!--Real-time (push) notifications-->
 					<li title="" rel="tooltip">Monitoring web/API interface</li> <!--Monitoring web/API interface-->
 					<li title="" rel="tooltip">Data retention policy support</li> <!--Data retention policy support-->
 					<li title="Life cycle matching your operating system" rel="tooltip">Long term support (5-10 years)</li> <!--Long term support (5-10 years)-->
@@ -128,7 +127,6 @@
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Automatic script execution-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Event notifications-->
 							<li title="Coming in Nextcloud 12" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Data retention policy support-->
@@ -190,7 +188,6 @@
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Automatic script execution-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Event notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Data retention policy support-->
@@ -252,7 +249,6 @@
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Automatic script execution-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Event notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Data retention policy support-->
@@ -314,7 +310,6 @@
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Automatic script execution-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Event notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Data retention policy support-->
@@ -375,7 +370,6 @@
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Automatic script execution-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Event notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Data retention policy support-->
@@ -436,7 +430,6 @@
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Automatic script execution-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Event notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Data retention policy support-->
@@ -498,7 +491,6 @@
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="Only via third party app" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Automatic script execution-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Event notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Monitoring web/API interface-->
 							<li title="max 6 months" rel="tooltip">limited	</li> <!--Data retention policy support-->
@@ -560,7 +552,6 @@
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Automatic script execution-->
-							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Event notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Data retention policy support-->
@@ -622,7 +613,6 @@
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Automatic script execution-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Event notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Data retention policy support-->
@@ -684,7 +674,6 @@
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Automatic script execution-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Event notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Data retention policy support-->
