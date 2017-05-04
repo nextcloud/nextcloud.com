@@ -649,7 +649,7 @@
 
 						<ul class="cd-features-list">
 							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
-							<li title="" rel="tooltip">max 20K files</li> <!-- Unlimited storage -->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip">10GB</li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Self hosted/on premise-->
 								<li class="cd-group"></li> <!--Client-->
