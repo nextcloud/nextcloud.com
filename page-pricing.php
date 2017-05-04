@@ -2,9 +2,18 @@
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pricing.css" rel="stylesheet">
 	<script>
 	require(["require.config"], function() {
-		require(["pages/enterprise", "modules/submenu", "bootstrap"])
+		require(["pages/enterprise", "pages/pricing", "modules/submenu", "bootstrap"])
 	});
-	</script>	
+	</script>
+	
+<style>
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+
+</script>
 </head>
 
 <section class="pricing-hero-section second-menu">
@@ -43,37 +52,37 @@
 				<h1 class="header"><?php echo $l->t('Features');?></h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>File sync and share');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Nextcloud-branded iOS app available for purchase, Android and desktop apps are free.</div>Mobile and desktop clients');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source');?></li>
-					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Support for the Calendar and Contacts apps.</div>Calendar and Contacts');?></li>
-					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Support for our secure and private peer to peer audio and video conferencing.</div><a href="/webrtc" target="_blank">Audio/video Chat</a> <small>(optional)</small>');?></li>
-					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Allows web conferencing calls to connect with phone lines.</div>SIP gateway <small>(optional)</small>');?></li>
-					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div><a href="/collaboraonline" target="_blank">Collabora Online Office</a> <small>(optional)</small>');?></li>
-					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Optional: the Add-in enables users to automatically replace attachments with Nextcloud links.</div><a href="/outlook" target="_blank">Outlook Secure Sharing Add-in</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
+					<li class="check" title="Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers." rel="tooltip"><?php echo $l->t('File sync and share');?></li>
+					<li class="check" title="<?php echo $l->t('Nextcloud-branded iOS app available for purchase, Android and desktop apps are free.');?>" rel="tooltip"><?php echo $l->t('Mobile and desktop clients');?></li>
+					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
+					<li class="check" title="<?php echo $l->t('the AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Support for the Calendar and Contacts apps.');?>" rel="tooltip"><?php echo $l->t('Calendar and Contacts');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Support for our secure and private peer to peer audio and video conferencing.');?>" rel="tooltip"><?php echo $l->t('<a href="/webrtc" target="_blank">Audio/video Chat</a> <small>(optional)</small>');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Allows web conferencing calls to connect with phone lines.');?>" rel="tooltip"><?php echo $l->t('SIP gateway <small>(optional)</small>');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.');?>" rel="tooltip"><?php echo $l->t('<a href="/collaboraonline" target="_blank">Collabora Online Office</a> <small>(optional)</small>');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Optional: the Add-in enables users to automatically replace attachments with Nextcloud links.');?>" rel="tooltip"><?php echo $l->t('<a href="/outlook" target="_blank">Outlook Secure Sharing Add-in</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
 				</div>
 				<h1 class="header"><?php echo $l->t('Support');?></h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.</div>Maintenance life cycle: 1 year');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Questions and issues are generally dealt with in this time, depending on the severity of the issue.</div>Reaction time: 3 business days');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.</div>Portal support.');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Some migrations are included, others will require an extra fee.</div><a href="/migration">Migration support</a>');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">You can contact our capable and responsive support team by email and expect a quick response time.</div>Email support');?></li>
-					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">You can contact our support engineers by phone in these times.</div>Phone support');?></li>
-					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">If you need access to experienced engineers to built custom solutions for your unique needs.</div>Custom consulting');?></li>
-					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Our engineers walk you through the installation process where needed.</div>Remote installation support');?></li>
-					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.</div>Clustering support');?></li>
-					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Fully branded clients and web UI.</div>Branding support');?></li>
+					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 1 year');?></li>
+					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 3 business days');?></li>
+					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('Portal support.');?></li>
+					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee.');?>" rel="tooltip"><?php echo $l->t('<a href="/migration">Migration support</a>');?></li>
+					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support team by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support');?></li>
+					<li class="nocheck" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support');?></li>
+					<li class="nocheck" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Our engineers walk you through the installation process where needed.');?>" rel="tooltip"><?php echo $l->t('Remote installation support');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Fully branded clients and web UI.');?>" rel="tooltip"><?php echo $l->t('Branding support');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Pricing starts at 50 users. Contact us for a quote relevant for your specific market vertical.</div>50 users: €1900');?></li>
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>100 users: €3400');?></li>
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Additional pricing tiers are available up to 10 million users');?></li>
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Framework agreements available');?></li>
+					<li class="price" title="<?php echo $l->t('Pricing starts at 50 users. Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('50 users: €1900');?></li>
+					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('100 users: €3400');?></li>
+					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Additional pricing tiers are available up to 10 million users');?></li>
+					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
 				</div>
 				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
@@ -87,37 +96,37 @@
 				<h1 class=""><?php echo $l->t('Features');?></h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>File sync and share');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Nextcloud-branded iOS app available for purchase, Android and desktop apps are free. Branding optional.</div>Mobile and desktop clients');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Support for the Calendar and Contacts apps.</div>Calendar and Contacts');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: Support for our secure and private peer to peer audio and video conferencing.</div><a href="/webrtc" target="_blank">Audio/video Chat</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: allows web conferencing calls to connect with phone lines.</div>SIP gateway<a href="#extracosts"> <small>(optional)</small></a>');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div><a href="/collaboraonline" target="_blank">Collabora Online Office</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: the Add-in enables users to automatically replace attachments with Nextcloud links.</div><a href="/outlook" target="_blank">Outlook Secure Sharing Add-in</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
+					<li class="check" title="<?php echo $l->t('Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.');?>" rel="tooltip"><?php echo $l->t('File sync and share');?></li>
+					<li class="check" title="<?php echo $l->t('Nextcloud-branded iOS app available for purchase, Android and desktop apps are free. Branding optional.');?>" rel="tooltip"><?php echo $l->t('Mobile and desktop clients');?></li>
+					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
+					<li class="check" title="<?php echo $l->t('the AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
+					<li class="check" title="<?php echo $l->t('Support for the Calendar and Contacts apps.');?>" rel="tooltip"><?php echo $l->t('Calendar and Contacts');?></li>
+					<li class="optional" title="<?php echo $l->t('Optional: Support for our secure and private peer to peer audio and video conferencing.');?>" rel="tooltip"><?php echo $l->t('<a href="/webrtc" target="_blank">Audio/video Chat</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
+					<li class="optional" title="<?php echo $l->t('Optional: allows web conferencing calls to connect with phone lines.');?>" rel="tooltip"><?php echo $l->t('SIP gateway<a href="#extracosts"> <small>(optional)</small></a>');?></li>
+					<li class="optional" title="<?php echo $l->t('Optional: real time collaborative editing of often used office fileformats like DOCX, PPTX and more.');?>" rel="tooltip"><?php echo $l->t('<a href="/collaboraonline" target="_blank">Collabora Online Office</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
+					<li class="optional" title="<?php echo $l->t('Optional: the Add-in enables users to automatically replace attachments with Nextcloud links.');?>" rel="tooltip"><?php echo $l->t('<a href="/outlook" target="_blank">Outlook Secure Sharing Add-in</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
 				</div>
 				<h1 class=""><?php echo $l->t('Support');?></h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.</div>Maintenance life cycle: 3 years');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Questions and issues are generally dealt with in this time, depending on the severity of the issue.</div>Reaction time: 2 business days');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.</div>Portal support');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Some migrations are included, others will require an extra fee. Ask sales for details! </div><a href="/migration">Migration support</a>');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">You can contact our capable and responsive support team by email and expect a quick response time.</div>Email support: business hours');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">You can contact our support engineers by phone in these times.</div>Phone support: business hours');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">If you need access to experienced engineers to built custom solutions for your unique needs.</div>Custom consulting');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Our engineers walk you through the installation process where needed.</div>Remote installation support');?></li>
-					<li class="nocheck overinfo"><?php echo $l->t('<div class="infotext">Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.</div>Clustering support');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Fully branded clients and web UI.</div>Branding support<a href="#extracosts"> <small>(optional)</small></a>');?></li>
+					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 3 years');?></li>
+					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 2 business days');?></li>
+					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('Portal support');?></li>
+					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee. Ask sales for details! ');?>" rel="tooltip"><?php echo $l->t('<a href="/migration">Migration support</a>');?></li>
+					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support team by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: business hours');?></li>
+					<li class="check" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support: business hours');?></li>
+					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
+					<li class="check" title="<?php echo $l->t('Our engineers walk you through the installation process where needed.');?>" rel="tooltip"><?php echo $l->t('Remote installation support');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
+					<li class="optional" title="<?php echo $l->t('Fully branded clients and web UI.');?>" rel="tooltip"><?php echo $l->t('Branding support<a href="#extracosts"> <small>(optional)</small></a>');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Pricing starts at 50 users. Contact us for a quote relevant for your specific market vertical.</div>50 users: €3400');?></li>
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>100 users: €6100');?></li>
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Additional pricing tiers are available up to 10 million users');?></li>
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Framework agreements available');?></li>
+					<li class="price" title="<?php echo $l->t('Pricing starts at 50 users. Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('50 users: €3400');?></li>
+					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('100 users: €6100');?></li>
+					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Additional pricing tiers are available up to 10 million users');?></li>
+					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
 				</div>
 				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
@@ -131,37 +140,37 @@
 				<h1 class=""><?php echo $l->t('Features');?></h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.</div>File sync and share');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Nextcloud-branded iOS app available for purchase, Android and desktop apps are free. Branding optional.</div>Mobile and desktop clients');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.</div>Enterprise capabilities');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">the AGPL license provides legal certainty for all customers and users.</div>Fully Open Source');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Support for the Calendar and Contacts apps.</div>Calendar and Contacts');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: Support for our secure and private peer to peer audio and video conferencing.</div><a href="/webrtc" target="_blank">Audio/video Chat</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: Allows web conferencing calls to connect with phone lines.</div>SIP gateway<a href="#extracosts"> <small>(optional)</small></a>');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.</div><a href="/collaboraonline" target="_blank">Collabora Online Office</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Optional: the Add-in enables users to automatically replace attachments with Nextcloud links.</div><a href="/outlook" target="_blank">Outlook Secure Sharing Add-in</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
+					<li class="check" title="<?php echo $l->t('Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.');?>" rel="tooltip"><?php echo $l->t('File sync and share');?></li>
+					<li class="check" title="<?php echo $l->t('Nextcloud-branded iOS app available for purchase, Android and desktop apps are free. Branding optional.');?>" rel="tooltip"><?php echo $l->t('Mobile and desktop clients');?></li>
+					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
+					<li class="check" title="<?php echo $l->t('the AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
+					<li class="check" title="<?php echo $l->t('Support for the Calendar and Contacts apps.');?>" rel="tooltip"><?php echo $l->t('Calendar and Contacts');?></li>
+					<li class="optional" title="<?php echo $l->t('Optional: Support for our secure and private peer to peer audio and video conferencing.');?>" rel="tooltip"><?php echo $l->t('<a href="/webrtc" target="_blank">Audio/video Chat</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
+					<li class="optional" title="<?php echo $l->t('Optional: Allows web conferencing calls to connect with phone lines.');?>" rel="tooltip"><?php echo $l->t('SIP gateway<a href="#extracosts"> <small>(optional)</small></a>');?></li>
+					<li class="optional" title="<?php echo $l->t('Optional: Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.');?>" rel="tooltip"><?php echo $l->t('<a href="/collaboraonline" target="_blank">Collabora Online Office</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
+					<li class="optional" title="<?php echo $l->t('Optional: the Add-in enables users to automatically replace attachments with Nextcloud links.');?>" rel="tooltip"><?php echo $l->t('<a href="/outlook" target="_blank">Outlook Secure Sharing Add-in</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
 				</div>
 				<h1 class=""><?php echo $l->t('Support');?></h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.</div>Maintenance life cycle: 5+5 years');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Questions and issues are generally dealt with in this time, depending on the severity of the issue.</div>Reaction time: 24h or as agreed');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.</div>Portal support');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Some migrations are included, others will require an extra fee. Ask sales for details! </div><a href="/migration">Migration support</a>');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">You can contact our capable and responsive support team by email and expect a quick response time.</div>Email support: up to 24/7');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">You can contact our support engineers by phone in these times.</div>Phone support: up to 24/7');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">If you need access to experienced engineers to built custom solutions for your unique needs.</div>Custom consulting');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Our engineers walk you through the installation process where needed.</div>Remote installation support');?></li>
-					<li class="check overinfo"><?php echo $l->t('<div class="infotext">Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.</div>Clustering support');?></li>
-					<li class="optional overinfo"><?php echo $l->t('<div class="infotext">Fully branded clients and web UI.</div>Branding support<a href="#extracosts"> <small>(optional)</small></a>');?></li>
+					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 5+5 years');?></li>
+					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 24h or as agreed');?></li>
+					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('Portal support');?></li>
+					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee. Ask sales for details! ');?>" rel="tooltip"><?php echo $l->t('<a href="/migration">Migration support</a>');?></li>
+					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support team by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: up to 24/7');?></li>
+					<li class="check" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support: up to 24/7');?></li>
+					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
+					<li class="check" title="<?php echo $l->t('Our engineers walk you through the installation process where needed.');?>" rel="tooltip"><?php echo $l->t('Remote installation support');?></li>
+					<li class="check" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
+					<li class="optional" title="<?php echo $l->t('Fully branded clients and web UI.');?>" rel="tooltip"><?php echo $l->t('Branding support<a href="#extracosts"> <small>(optional)</small></a>');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Pricing starts at 50 users. Contact us for a quote relevant for your specific market vertical.</div>50 users: €4900');?></li>
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market vertical.</div>100 users: €8900');?></li>
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market vertical.</div>Additional pricing tiers are available up to 10 million users');?></li>
-					<li class="price overinfo"><?php echo $l->t('<div class="infotext">Contact us for a quote relevant for your specific market.</div>Framework agreements available');?></li>
+					<li class="price" title="<?php echo $l->t('Pricing starts at 50 users. Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('50 users: €4900');?></li>
+					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('100 users: €8900');?></li>
+					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('Additional pricing tiers are available up to 10 million users');?></li>
+					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
 				</div>
 				<a name="extracosts" id="extracosts"></a> <!--has to be here due to header-->
 				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
