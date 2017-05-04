@@ -1,6 +1,45 @@
 @import "variables.scss";
 @import "transparent-navbar.scss";
 
+.separator{
+  height: 40px;
+  background: #f6f6f6;
+}
+
+.compare-hero-section {
+   .background {
+    background-color: $nextcloud-blue;
+    background-image: none;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-position: bottom 0 right 0;
+    background-size: cover;
+    border-radius: 0 !important;
+    height: 70vh;
+    min-height: 600px;
+    max-height: 800px;
+    background-image: url("../img/headers/compare.jpg");
+  }
+
+  .topbanner {
+    width: auto;
+    height: auto;
+    max-width: 90vw;
+    max-height: 90vh;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    float: right;
+    overflow: hidden;
+    zoom: 0.55;
+  }
+}
+
+
 /* Reset */
 div, li, {
 	border: 0;
@@ -639,3 +678,51 @@ No JS
 .no-js .cd-products-columns .check {
   display: none;
 }
+
+
+/* The tooltips */
+
+#tooltip
+{
+    text-align: center;
+    color: #fff;
+    background: #111;
+    position: absolute;
+    z-index: 100;
+    padding: 15px;
+}
+ 
+    #tooltip:after /* triangle decoration */
+    {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #111;
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -10px;
+        margin-left: -10px;
+    }
+ 
+        #tooltip.top:after
+        {
+            border-top-color: transparent;
+            border-bottom: 10px solid #111;
+            top: -20px;
+            bottom: auto;
+        }
+ 
+        #tooltip.left:after
+        {
+            left: 10px;
+            margin: 0;
+        }
+ 
+        #tooltip.right:after
+        {
+            right: 10px;
+            left: auto;
+            margin: 0;
+        }
