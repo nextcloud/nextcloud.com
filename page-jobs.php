@@ -24,6 +24,7 @@
 		<p class="">We are a modern, distributed, open source company. It is our mission to provide our users and customers with the means for data storage, access and communication under their control; protecting their privacy and security.</p>
 
 		<p class="revealOnScroll">We pursue a fully-open strategy, keeping internal communication to a minimum while aiming to work, discuss and develop in public. We are a thriving, quickly growing company with a solid customer base. An open source background or experience contributing to Nextcloud is a big plus for job applicants! Expecially for developers we pursue a strong "hire from the community" strategy.</p>
+		<p class="revealOnScroll">Nextcloud actively strives for diversity and we'd like to especially encourage applications by members of underrepresented groups in tech.</p>
 	</div>
 </section> 
 
