@@ -1,4 +1,17 @@
-<p>Version 10.0.2</p>
+<p>Version 11.0.3</p>
+<a href="/security/advisory/?id=nc-sa-2017-007">DOM XSS vulnerability in search dialogue</a><br>
+<a href="/security/advisory/?id=nc-sa-2017-008">Reflected XSS in error pages</a><br>
+<a href="/security/advisory/?id=nc-sa-2017-009">Limitation of app specific password scope can be bypassed</a><br>
+<a href="/security/advisory/?id=nc-sa-2017-010">Stored XSS in Gallery application</a><br>
+<a href="/security/advisory/?id=nc-sa-2017-011">Share tokens for public calendars disclosed</a><br>
+<br/><p>Version 11.0.2</p>
+<a href="/security/advisory/?id=nc-sa-2017-012">Share tokens for public calendars disclosed</a><br>
+<br/><p>Version 10.0.5</p>
+<a href="/security/advisory/?id=nc-sa-2017-008">Reflected XSS in error pages</a><br>
+<a href="/security/advisory/?id=nc-sa-2017-010">Stored XSS in Gallery application</a><br>
+<br/><p>Version 10.0.4</p>
+<a href="/security/advisory/?id=nc-sa-2017-012">Share tokens for public calendars disclosed</a><br>
+<br/><p>Version 10.0.2</p>
 <a href="/security/advisory/?id=nc-sa-2017-001">Permission increase on re-sharing via OCS API</a><br>
 <a href="/security/advisory/?id=nc-sa-2017-002">Creation of folders in read-only folders despite lacking permissions</a><br>
 <a href="/security/advisory/?id=nc-sa-2017-003">Error message discloses existence of file in write-only share</a><br>
@@ -13,6 +26,9 @@
 <a href="/security/advisory/?id=nc-sa-2016-011">Content-Spoofing in "dav" app</a><br>
 <br/><p>Version 10.0.0</p>
 <a href="/security/advisory/?id=nc-sa-2016-007">Improper authorization check on removing shares</a><br>
+<br/><p>Version 9.0.58</p>
+<a href="/security/advisory/?id=nc-sa-2017-008">Reflected XSS in error pages</a><br>
+<a href="/security/advisory/?id=nc-sa-2017-010">Stored XSS in Gallery application</a><br>
 <br/><p>Version 9.0.55</p>
 <a href="/security/advisory/?id=nc-sa-2017-001">Permission increase on re-sharing via OCS API</a><br>
 <a href="/security/advisory/?id=nc-sa-2017-002">Creation of folders in read-only folders despite lacking permissions</a><br>
