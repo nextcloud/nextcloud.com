@@ -9,7 +9,7 @@
         <?php get_template_part('advisories/advisory-side'); ?>
     </div>
     <div class="col-md-8">
-        <h2>Share tokens for public calendars disclosed (NC-SA-2017-012)</h2>
+        <h2>Calendar and addressbook names disclosed (NC-SA-2017-012)</h2>
         <p>8th May 2017</p>
         <p>Risk level: <strong>Low</strong></p>
         <p>CVSS v3 Base Score: 3.5 (<a href="https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N">AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N</a>)</p>

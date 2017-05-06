@@ -5,12 +5,12 @@
 <a href="/security/advisory/?id=nc-sa-2017-010">Stored XSS in Gallery application</a><br>
 <a href="/security/advisory/?id=nc-sa-2017-011">Share tokens for public calendars disclosed</a><br>
 <br/><p>Version 11.0.2</p>
-<a href="/security/advisory/?id=nc-sa-2017-012">Share tokens for public calendars disclosed</a><br>
+<a href="/security/advisory/?id=nc-sa-2017-012">Calendar and addressbook names disclosed</a><br>
 <br/><p>Version 10.0.5</p>
 <a href="/security/advisory/?id=nc-sa-2017-008">Reflected XSS in error pages</a><br>
 <a href="/security/advisory/?id=nc-sa-2017-010">Stored XSS in Gallery application</a><br>
 <br/><p>Version 10.0.4</p>
-<a href="/security/advisory/?id=nc-sa-2017-012">Share tokens for public calendars disclosed</a><br>
+<a href="/security/advisory/?id=nc-sa-2017-012">Calendar and addressbook names disclosed</a><br>
 <br/><p>Version 10.0.2</p>
 <a href="/security/advisory/?id=nc-sa-2017-001">Permission increase on re-sharing via OCS API</a><br>
 <a href="/security/advisory/?id=nc-sa-2017-002">Creation of folders in read-only folders despite lacking permissions</a><br>

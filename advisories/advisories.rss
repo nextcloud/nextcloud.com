@@ -5,7 +5,7 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
-  <title>Server: Share tokens for public calendars disclosed (nC-SA-2017-012)</title>
+  <title>Server: Calendar and addressbook names disclosed (nC-SA-2017-012)</title>
   <description>&lt;p&gt;A logical error caused disclosure of calendar and addressbook names to other logged-in users. Note that no actual content of the calendar and adressbook has been disclosed.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-012&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-012</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-012</guid>
