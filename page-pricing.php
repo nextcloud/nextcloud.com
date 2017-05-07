@@ -30,6 +30,7 @@
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
 			<a href="#plans"><?php echo $l->t('plans');?></a>
+			<a href="#options"><?php echo $l->t('options');?></a>
 			<a href="#discounts"><?php echo $l->t('discounts');?></a>
 			<a href="#faq"><?php echo $l->t('FAQ');?></a>
 			<a class="btn btn-primary" href="/enterprise/order"><?php echo $l->t('Order online');?></a>
@@ -57,10 +58,6 @@
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
 					<li class="check" title="<?php echo $l->t('the AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Support for the Calendar and Contacts apps.');?>" rel="tooltip"><?php echo $l->t('Calendar and Contacts');?></li>
-					<li class="nocheck" title="<?php echo $l->t('Support for our secure and private peer to peer audio and video conferencing.');?>" rel="tooltip"><?php echo $l->t('<a href="/webrtc" target="_blank">Audio/video Chat</a> <small>(optional)</small>');?></li>
-					<li class="nocheck" title="<?php echo $l->t('Allows web conferencing calls to connect with phone lines.');?>" rel="tooltip"><?php echo $l->t('SIP gateway <small>(optional)</small>');?></li>
-					<li class="nocheck" title="<?php echo $l->t('Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.');?>" rel="tooltip"><?php echo $l->t('<a href="/collaboraonline" target="_blank">Collabora Online Office</a> <small>(optional)</small>');?></li>
-					<li class="nocheck" title="<?php echo $l->t('Optional: the Add-in enables users to automatically replace attachments with Nextcloud links.');?>" rel="tooltip"><?php echo $l->t('<a href="/outlook" target="_blank">Outlook Secure Sharing Add-in</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
 				</div>
 				<h1 class="header"><?php echo $l->t('Support');?></h1>
 				<div class="line"></div>
@@ -74,7 +71,6 @@
 					<li class="nocheck" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Our engineers walk you through the installation process where needed.');?>" rel="tooltip"><?php echo $l->t('Remote installation support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
-					<li class="nocheck" title="<?php echo $l->t('Fully branded clients and web UI.');?>" rel="tooltip"><?php echo $l->t('Branding support');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
@@ -101,10 +97,6 @@
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
 					<li class="check" title="<?php echo $l->t('the AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
 					<li class="check" title="<?php echo $l->t('Support for the Calendar and Contacts apps.');?>" rel="tooltip"><?php echo $l->t('Calendar and Contacts');?></li>
-					<li class="optional" title="<?php echo $l->t('Optional: Support for our secure and private peer to peer audio and video conferencing.');?>" rel="tooltip"><?php echo $l->t('<a href="/webrtc" target="_blank">Audio/video Chat</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
-					<li class="optional" title="<?php echo $l->t('Optional: allows web conferencing calls to connect with phone lines.');?>" rel="tooltip"><?php echo $l->t('SIP gateway<a href="#extracosts"> <small>(optional)</small></a>');?></li>
-					<li class="optional" title="<?php echo $l->t('Optional: real time collaborative editing of often used office fileformats like DOCX, PPTX and more.');?>" rel="tooltip"><?php echo $l->t('<a href="/collaboraonline" target="_blank">Collabora Online Office</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
-					<li class="optional" title="<?php echo $l->t('Optional: the Add-in enables users to automatically replace attachments with Nextcloud links.');?>" rel="tooltip"><?php echo $l->t('<a href="/outlook" target="_blank">Outlook Secure Sharing Add-in</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
 				</div>
 				<h1 class=""><?php echo $l->t('Support');?></h1>
 				<div class="line"></div>
@@ -118,7 +110,6 @@
 					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
 					<li class="check" title="<?php echo $l->t('Our engineers walk you through the installation process where needed.');?>" rel="tooltip"><?php echo $l->t('Remote installation support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
-					<li class="optional" title="<?php echo $l->t('Fully branded clients and web UI.');?>" rel="tooltip"><?php echo $l->t('Branding support<a href="#extracosts"> <small>(optional)</small></a>');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
@@ -145,10 +136,6 @@
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
 					<li class="check" title="<?php echo $l->t('the AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
 					<li class="check" title="<?php echo $l->t('Support for the Calendar and Contacts apps.');?>" rel="tooltip"><?php echo $l->t('Calendar and Contacts');?></li>
-					<li class="optional" title="<?php echo $l->t('Optional: Support for our secure and private peer to peer audio and video conferencing.');?>" rel="tooltip"><?php echo $l->t('<a href="/webrtc" target="_blank">Audio/video Chat</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
-					<li class="optional" title="<?php echo $l->t('Optional: Allows web conferencing calls to connect with phone lines.');?>" rel="tooltip"><?php echo $l->t('SIP gateway<a href="#extracosts"> <small>(optional)</small></a>');?></li>
-					<li class="optional" title="<?php echo $l->t('Optional: Real time collaborative editing of often used office fileformats like DOCX, PPTX and more.');?>" rel="tooltip"><?php echo $l->t('<a href="/collaboraonline" target="_blank">Collabora Online Office</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
-					<li class="optional" title="<?php echo $l->t('Optional: the Add-in enables users to automatically replace attachments with Nextcloud links.');?>" rel="tooltip"><?php echo $l->t('<a href="/outlook" target="_blank">Outlook Secure Sharing Add-in</a><a href="#extracosts"> <small>(optional)</small></a>');?></li>
 				</div>
 				<h1 class=""><?php echo $l->t('Support');?></h1>
 				<div class="line"></div>
@@ -162,7 +149,6 @@
 					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
 					<li class="check" title="<?php echo $l->t('Our engineers walk you through the installation process where needed.');?>" rel="tooltip"><?php echo $l->t('Remote installation support');?></li>
 					<li class="check" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
-					<li class="optional" title="<?php echo $l->t('Fully branded clients and web UI.');?>" rel="tooltip"><?php echo $l->t('Branding support<a href="#extracosts"> <small>(optional)</small></a>');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
@@ -179,13 +165,74 @@
 	</div>
 </div>
 <div class="container text-center">
-	<p class="revealOnScroll epricevat"><?php echo $l->t('* At additional cost');?></p>
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Prices are in Euro per year and net/excl. VAT.');?></p>
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Nextcloud subscriptions are available from 50 users and up.');?></p>
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Android and desktop apps are free; iOS app can be purchased in the Apple App Store.');?></p>
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Our support subscriptions help you with your self-hosted instance. Nextcloud does not host and will never get access to your data.');?></p>
-	<p class="revealOnScroll"><?php echo $l->t('<small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small>');?></p>
 </div>
+
+<section class="section--options">
+	<a name="options" id="options"></a>
+<div class="container-widest">
+	<div class="introduction">
+		<h1 class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('Fitting your needs');?></h1>
+		<p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('On top of the benefits of a Nextcloud Support Subscription you can add several optional support and feature packages.');?></p>
+	</div>
+    <div class="row revealOnScroll">
+        <div class="col-md-4">
+			<div class="featureblock">
+				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/spreed-two-nw.png">
+				<p class="section--paragraph__tittle"><?php echo $l->t('Audio/video calls');?></p>
+				<p class="section--paragraph"><?php echo $l->t('Nextcloud integrates <a class="hyperlink" href="/webrtc">private audio and video chat</a>, enabling users to easily discuss documents or conduct secure business calls with colleagues, clients and partners. Audio/video calls can be supported on your Nextcloud server with the Standard or Enterprise subscription as an optional package. A SIP gateway is optionally also  available, enabling dialing out and in through the global telephone network.');?></p>
+				<p class="section--paragraph price-big"><?php echo $l->t('starting at € 12/user/year');?></p>
+				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
+			</div>
+        </div>
+        <div class="col-md-4">
+			<div class="featureblock">
+<!--         <i class="fa-file-text fa"></i> -->
+				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/collabora-nw.png">
+				<p class="section--paragraph__tittle"><?php echo $l->t('Collabora Online Office');?></p>
+				<p class="section--paragraph"><?php echo $l->t('With <a class="hyperlink" href="/collaboraonline">Collabora Online Office</a> Nextcloud features an enterprise ready integrated online office enabling users to collaboratively edit docx, pptx and other office documents with colleagues, clients or partners. Collabora Online is available with the Standard or Enterprise subscription.');?></p>
+				<p class="section--paragraph price-big"><?php echo $l->t('starting at € 17/user/year');?></p>
+				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="featureblock">
+	<!--         <i class="fa-envelope fa"></i> -->
+				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-nw.png">
+				<p class="section--paragraph__tittle"><?php echo $l->t('Outlook Secure Sharing Add-in');?></p>
+				<p class="section--paragraph"><?php echo $l->t('Nextcloud optionally provides an <a class="hyperlink" href="/outlook">Outlook Secure Sharing Add-in</a> enabling users to share and receive files in a secure way directly from Microsoft Outlook. The Outlook Secure Sharing Add-in can be added to a Basic, Standard or Enterprise subscription.');?></p>
+				<p class="section--paragraph price-big"><?php echo $l->t('starting at € 5/user/year');?></p>
+				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
+			</div>
+        </div>
+	</div>
+	<div class="row revealOnScroll">
+		<div class="col-md-offset-2 col-md-4">
+			<div class="featureblock">
+				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/theming-nw.png">
+				<p class="section--paragraph__tittle"><?php echo $l->t('Branding');?></p>
+				<p class="section--paragraph"><?php echo $l->t('Nextcloud provides branding services, delivering sync clients (mobile and desktop) which use your corporate identity and are pre-configured to help your users get up and running in no time. Branding is optionally available with the Standard or Enterprise subscription.');?></p>
+				<p class="section--paragraph price-big"><?php echo $l->t('starting at € 6000 one-time');?></p>
+				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="featureblock">
+				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/spreed-screenshare2-nw.png">
+				<p class="section--paragraph__tittle"><?php echo $l->t('Installation and configuration support');?></p>
+				<p class="section--paragraph"><?php echo $l->t('Besides our <a class="hyperlink" href="https://docs.nextcloud.com">documentation</a>, <a class="hyperlink" href="https://portal.nextcloud.com">support portal</a> and basic support we optionally offer a one day remote installation support package.');?></p>
+				<p class="section--paragraph"><?php echo $l->t('Custom, multi-day or on-site installation or scalability consulting options are available as well.');?></p>
+				<p class="section--paragraph price-big"><?php echo $l->t('starting at € 990 one-time');?></p>
+				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
+			</div>
+        </div>
+	</div>
+</div>
+</section>
+
 <a name="discounts" id="discounts"></a>
 <div class="container discounts">
 	<div class="row">

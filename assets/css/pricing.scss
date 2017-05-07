@@ -236,10 +236,78 @@
 	}
 }
 
+/* options section */
+
+.section--options {
+	margin-top: 133px;
+	margin-bottom: 30px;
+	
+	.container-widest {
+		.introduction {
+			padding-top: 50px;
+			padding-bottom: 50px;
+			h1 {
+				margin-bottom: 30px;
+			}
+		}
+		.row {
+		margin-left: 5px;
+		margin-right: 5px;
+		}
+		
+		.col-md-4 {
+			padding: 20px;
+		}
+		
+		.featureblock {
+			margin-top: 50px;
+/* 			margin-bottom: 50px; */
+			padding: 20px;
+			border: solid 1px transparent;
+			&:hover{
+				box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
+				border: solid 1px #fbfbfb;
+				border-radius: 8px;
+				transition: all 0.5s ease;
+			}
+			
+			.section--paragraph__tittle {
+				text-align: center;
+			}
+			
+			i[class*='fa-'] {
+				font-size: 140px;
+				display: block;
+				color: #0082c9;
+				text-align: center;
+				padding-bottom: 50px;
+			}
+			
+			.img-responsive {
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 0px;
+				margin-bottom: 50px;
+			}
+
+			.price-big {
+				font-size: 22px;
+				margin-bottom: 2px;
+				text-align: center;
+			}
+			.price-small {
+				font-size: 16px;
+				margin-top: 0px;
+				text-align: center;
+			}
+		} /* end featureblock */
+	} /* end container-widest */
+} /* end section */
+
 /* Discount section */
 
 .discounts {
-  margin-top: 64px;
+  margin-top: 84px;
   margin-bottom: 30px;
   a {
     font-size: 20px;

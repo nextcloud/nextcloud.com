@@ -178,9 +178,59 @@
   .plans .overinfo:hover .infotext {
     opacity: 1; }
 
+/* options section */
+.section--options {
+  margin-top: 133px;
+  margin-bottom: 30px;
+  /* end container-widest */ }
+  .section--options .container-widest {
+    /* end featureblock */ }
+    .section--options .container-widest .introduction {
+      padding-top: 50px;
+      padding-bottom: 50px; }
+      .section--options .container-widest .introduction h1 {
+        margin-bottom: 30px; }
+    .section--options .container-widest .row {
+      margin-left: 5px;
+      margin-right: 5px; }
+    .section--options .container-widest .col-md-4 {
+      padding: 20px; }
+    .section--options .container-widest .featureblock {
+      margin-top: 50px;
+      /* 			margin-bottom: 50px; */
+      padding: 20px;
+      border: solid 1px transparent; }
+      .section--options .container-widest .featureblock:hover {
+        box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
+        border: solid 1px #fbfbfb;
+        border-radius: 8px;
+        transition: all 0.5s ease; }
+      .section--options .container-widest .featureblock .section--paragraph__tittle {
+        text-align: center; }
+      .section--options .container-widest .featureblock i[class*='fa-'] {
+        font-size: 140px;
+        display: block;
+        color: #0082c9;
+        text-align: center;
+        padding-bottom: 50px; }
+      .section--options .container-widest .featureblock .img-responsive {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 50px; }
+      .section--options .container-widest .featureblock .price-big {
+        font-size: 22px;
+        margin-bottom: 2px;
+        text-align: center; }
+      .section--options .container-widest .featureblock .price-small {
+        font-size: 16px;
+        margin-top: 0px;
+        text-align: center; }
+
+/* end section */
 /* Discount section */
 .discounts {
-  margin-top: 64px;
+  margin-top: 84px;
   margin-bottom: 30px; }
   .discounts a {
     font-size: 20px;
