@@ -633,5 +633,111 @@
             "German web hosting with strict data privacy. Powered by 100% green energy. First class customer service."
          ],
          "imagename":"manitu.png"
+      },
+    {
+         "title":"Cloudron",
+         "url":"https:\/\/cloudron.io\/store\/com.nextcloud.cloudronapp.html",
+         "flags":[
+            "all"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Cloudron is a platform to run apps on your server, hosted on DigitalOcean. Cloudron makes self hosting easy!"
+         ],
+         "imagename":"cloudron.png"
+      },
+    {
+         "title":"CiviHosting",
+         "url":"https:\/\/civihosting.com\/nextcloud-hosting",
+         "flags":[
+            "eu",
+            "us",
+            "all"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "For over 10 years, CiviHosting has provided hosting expertise, great support, and a perfect security record. Take no chances with your Nextcloud data."
+         ],
+         "imagename":"civihosting.png"
+      },
+    {
+         "title":"Quality Location UG",
+         "url":"https:\/\/www.qloc.de\/nextcloud",
+         "flags":[
+            "de",
+            "ch",
+            "at",
+            "eu",
+            "all"
+         ],
+         "freeplans":true,
+         "supports":"both",
+         "specializes":[
+            "We offer German-hosted Nextcloud hosting as well as dedicated servers and webspaces. All services are protected by strict german privacy law."
+         ],
+         "imagename":"qloc.png"
+      },
+    {
+         "title":"GreenNet Ltd",
+         "url":"https:\/\/www.greennet.org.uk\/internet-services\/cloud-storage",
+         "flags":[
+            "uk",
+            "eu",
+            "all"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "A not-for-profit collective since 1985, we provide UK-based NextCloud and Collabora hosting to supporters of peace, the environment and human rights."
+         ],
+         "imagename":"greennet.png"
+      },
+    {
+         "title":"Demindo",
+         "url":"https:\/\/demindo.com\/nextcloud",
+         "flags":[
+            "nl",
+            "de",
+            "be",
+            "uk",
+            "fr",
+            "eu",
+            "all"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Demindo offers Nexcloud hosting on Dutch and European servers for private customers as well as organizations."
+         ],
+         "imagename":"demindo.png"
+      },
+    {
+         "title":"BTACTIC",
+         "url":"https:\/\/www.btactic.com\/bsolutions\/bcloud",
+         "flags":[
+            "es",
+            "fr"
+         ],
+         "freeplans":false,
+         "supports":"organization",
+         "specializes":[
+            "En bTactic somos expertos en soluciones de software libre, codigo abierto y cloud computing. Entre estos servicios ofrecemos la plataforma NEXTCLOUD."
+         ],
+         "imagename":"btactic.png"
+      },
+    {
+         "title":"PROHosting",
+         "url":"https:\/\/cloud.prohosting.by",
+         "flags":[
+            "by"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Dedicated servers, affordable prices, individual approach and a good quality assurance."
+         ],
+         "imagename":"prohosting.png"
       }
 ]
