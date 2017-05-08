@@ -21,9 +21,9 @@
 </p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>11.0.3</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>10.0.5</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>9.0.58</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>11.0.3</strong> (CVE-2017-0893)</li>
+<li>Nextcloud Server &lt; <strong>10.0.5</strong> (CVE-2017-0893)</li>
+<li>Nextcloud Server &lt; <strong>9.0.58</strong> (CVE-2017-0893)</li>
 
         </ul>
         <h3>Action Taken</h3>
