@@ -643,7 +643,7 @@
          "freeplans":false,
          "supports":"both",
          "specializes":[
-            "Cloudron is a platform to run apps on your server, hosted on DigitalOcean. Cloudron makes self hosting easy!"
+            "Cloudron is a platform to run apps on your server, hosted on DigitalOcean. Cloudron makes self hosting Nextcloud easy!"
          ],
          "imagename":"cloudron.png"
       },
@@ -690,7 +690,7 @@
          "freeplans":false,
          "supports":"both",
          "specializes":[
-            "A not-for-profit collective since 1985, we provide UK-based NextCloud and Collabora hosting to supporters of peace, the environment and human rights."
+            "A not-for-profit collective since 1985, we provide UK-based Nextcloud and Collabora hosting to supporters of peace, the environment and human rights."
          ],
          "imagename":"greennet.png"
       },
@@ -723,7 +723,7 @@
          "freeplans":false,
          "supports":"organization",
          "specializes":[
-            "En bTactic somos expertos en soluciones de software libre, codigo abierto y cloud computing. Entre estos servicios ofrecemos la plataforma NEXTCLOUD."
+            "En bTactic somos expertos en soluciones de software libre, codigo abierto y cloud computing. Entre estos servicios ofrecemos la plataforma Nextcloud."
          ],
          "imagename":"btactic.png"
       },
@@ -736,7 +736,7 @@
          "freeplans":false,
          "supports":"both",
          "specializes":[
-            "Dedicated servers, affordable prices, individual approach and a good quality assurance."
+            "PROHosting is a first Belarussian organization, respectful of privacy. We offer free and alternative Cloud solutions for all. Ready to use or dedicated server."
          ],
          "imagename":"prohosting.png"
       }
