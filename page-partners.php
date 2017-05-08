@@ -41,7 +41,7 @@
 				<a href="https://adfinis-sygroup.ch/en" target="_blank" title="Adfinis SyGroup">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/adfinis.png" title="Adfinis SyGroup" />
 				</a>
-				<p class="partnertext">Adfinis SyGroup supports clients from the private and public sectors in the planning, implementation and implementation of tailor-made software projects. The core competences of Adfinis SyGroup AG are open source engineering & devops, 24/7 services & support, managed services and open source development.</p>
+				<p class="partnertext">Adfinis SyGroup supports clients from the private and public sectors in the planning, testing and implementation of tailor-made software projects. The core competences of Adfinis SyGroup AG are open source engineering & devops, 24/7 services & support, managed services and open source development.</p>
 			</div>
 			<div class="col-md-4">
 				<a href="https://www.arcadis.com" target="_blank" title="Arcadis consulting">
