@@ -38,6 +38,12 @@
 		</div>
 		<div class="row">
 			<div class="col-md-4">
+				<a href="https://adfinis-sygroup.ch/en" target="_blank" title="Adfinis SyGroup">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/adfinis.png" title="Adfinis SyGroup" />
+				</a>
+				<p class="partnertext">Adfinis SyGroup supports clients from the private and public sectors in the planning, implementation and implementation of tailor-made software projects. The core competences of Adfinis SyGroup AG are open source engineering & devops, 24/7 services & support, managed services and open source development.</p>
+			</div>
+			<div class="col-md-4">
 				<a href="https://www.arcadis.com" target="_blank" title="Arcadis consulting">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/arcadis.png" title="Arcadis consulting" />
 				</a>
@@ -49,15 +55,15 @@
 				</a>
 				<p  class="partnertext">dass IT GmbH in Cologne , founded in 2004 by former senior consultants of Suse Linux, is primarily a system integrator, offering support and consulting around Linux and Open Source Software. As a long-standing owncloud partner dass IT can help you migrate from ownCloud to Nextcloud or to build a private cloud from scratch.</p>
 			</div>
+		</div>
+		
+		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.daseq.de/produkte/nextcloud/" target="_blank" title="DASEQ">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/daseq.png" title="DASEQ" />
 				</a>
 				<p  class="partnertext">DASEQ is delivering Nextcloud as integral part of their OpenSource solution framework which consists of open source technology, services and training as well as security solutions.</p>
 			</div>
-		</div>
-		
-		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.etes.de/" target="_blank" title="etes">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/etes.png" title="etes" />
@@ -70,15 +76,15 @@
 				</a>
 				<p  class="partnertext">HKN has been making the internet easier for its customers since 1996. We are a specialist for fully managed Servers hosted in Germany with German privacy protection.</p>
 			</div>
+		</div>
+		
+		<div class="row">
 			<div class="col-md-4">
 				<a href="https://360ict.nl/" target="_blank" title="360ICT">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/360ict.png" title="360ICT logo" />
 				</a>
 				<p  class="partnertext">In a world where business depends on ICT, 360 ICT delivers garantees in the form of hard SLA's while remaining as approachable as a local ICT company for small and medium businesses. Our strength: solid, solution-focused and personal.</p>
 			</div>
-		</div>
-		
-		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.it25.de/" target="_blank" title="IT25">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/it25.png" title="it25" />
@@ -91,15 +97,15 @@
 				</a>
 				<p  class="partnertext">Netcloud AG is a Winterthur (Zurich)-based company with 130 employees. Core competencies include consulting, designing, implementing and operating IT infrastructure solutions around Cisco technology, borderless networks, data-center and unified communications solutions.</p>
 			</div>
+		</div>
+		
+		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.regioit.de/" target="_blank" title="Regioit">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/regioit.png" title="regioit logo" />
 				</a>
 				<p  class="partnertext">regio iT is a service provider with over 300 employees delivering solutions for communities, schools, non-profits as well as customers in the energy production and distribution space.</p>
 			</div>
-		</div>
-		
-		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.sendin.nl/nextcloud/" target="_blank" title="Sendin">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/sendin.png" title="sendin logo" />
@@ -112,27 +118,21 @@
 				</a>
 				<p  class="partnertext">Since 2013, Stylez has grown by focusing on integration and Business Process Outsourcing. Today Stylez expands its scope into cloud and open source services, keeping up their focus on customers and quality.</p>
 			</div>
+		</div>
+		
+		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.teebase.eu" target="_blank" title="Teebase Ltd">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/teebase.png" title="Teebase logo" />
 				</a>
 				<p  class="partnertext">TeeBase UK Ltd offers an arsenal of devices and services for digital security to protect your data and intellectual property even when using the Internet. Be free from hackers, malware and ransomware that destroy shareholder value and ruin careers</p>
 			</div>
-		</div>
-		
-		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.univention.de/" target="_blank" title="Univention">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/univention.png" title="Univention" />
 				</a>
 				<p  class="partnertext">Univention is a leading provider of Open Source products for running and managing whole IT infrastructures and applications. Our core product is Univention Corporate Server (UCS), a flexible, effective alternative to Microsoft solutions with AD functions, a strong identity management and a wide range of applications in our App Center.</p>
 			</div>
-<!--			<div class="col-md-4">
-				<a href="https://www.omnis-systems.com/en/" target="_blank" title="Omnis Systems Ltd">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/omnis.png" title="Omnis Systems logo" />
-				</a>
-				<p  class="partnertext">Omnis Systems Ltd is probably the only a Value Added Distributor in Europe specialised in commercially backed Open Source and Linux based solutions.</p>
-			</div>-->
 <!--			<div class="col-md-4">
 				<a href="https://www.cyber-guardians.net" target="_blank" title="Cyber Guardians">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/cyberguardians.png" title="Cyber Guardians logo" />
