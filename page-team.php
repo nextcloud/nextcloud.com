@@ -65,6 +65,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Fabian Lietke</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Account manager</h3>
+					<h4 class="teamexpertise">Customer relations</h4>
+					<h4 class="teamlocation">lives in Celle, Germany</h4>
+					<p class="teamsocial"><a href="https://www.xing.com/profile/Fabian_Liedtke2"><i class="fa-xing fa"></i></a><a href="https://www.linkedin.com/in/fabian-liedtke-4b4ba9135"><i class="fa-linkedin fa"></i></a><!--<a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a>--> &nbsp; </p>
+				</div>
+				<p class="teamdescription">Fabian worked for various industries always close to the customer and has been in the IT industry now for several years with a focus on customer relationship management. He is passionate about innovative and new technologies and his primary goal is to help our customers to fulfill their vision.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/olivier.jpg" />
 				<h2 class="teamname">Olivier Paroz</h2>
 				<div class="teammeta">
