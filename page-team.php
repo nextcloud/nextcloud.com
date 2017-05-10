@@ -58,7 +58,7 @@
 					<h3 class="teamtitle">Head of Sales</h3>
 					<h4 class="teamexpertise">Sales and Partnerships</h4>
 					<h4 class="teamlocation">lives in Hannover, Germany</h4>
-					<p class="teamsocial"><a href="https://www.xing.com/profile/Andreas_Rode2"><i class="fa-xing fa"></i></a><!--<a href="https://github.com/nickvergessen"><i class="fa-github fa"></i></a>--> <!--<a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a>--> &nbsp; </p>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/andreas-rode-8296434/"><i class="fa-linkedin fa"></i></a><!--<a href="https://github.com/nickvergessen"><i class="fa-github fa"></i></a>--> <!--<a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a>--> &nbsp; </p>
 				</div>
 				<p class="teamdescription">Andreas studied Economics and has 20 years experience in Business Development, Partner- and Sales Management. Andreas worked for companies like Oracle, EMC, Yahoo and Google and also for start ups in the Cloud Computing and Online Marketing space.</p>
 			</div>
