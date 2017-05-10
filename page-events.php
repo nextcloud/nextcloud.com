@@ -117,6 +117,11 @@
 						<td>May 31-June 2</td>
 					</tr>
 					<tr>
+						<td><a  class="hyperlink" target="_blank" href="https://www.bitkom.org/bfoss17/">Forum Open Source 2017</a></td>
+						<td>Berlin, Germany</td>
+						<td>June 20</td>
+					</tr>
+					<tr>
 						<td><a  class="hyperlink" target="_blank" href="https://conf.nextcloud.com/">Nextcloud Conference 2017</a></td>
 						<td>Berlin, Germany</td>
 						<td>August 22-29</td>
