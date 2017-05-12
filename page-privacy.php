@@ -20,7 +20,7 @@
 <p>When registering or submitting a form on our site, as appropriate, you may be asked to enter your name, email address, phone number or other details to help you with your experience.</p>
 <h3>When do we collect information?</h3>
 <p>We collect information from you when you subscribe to a newsletter, fill out a form or enter information on our site.</p>
-<p>Our apps only communicate with your own Nextcloud server and do not sent any data to us. The Play Store version >1.5.0 for Nextcloud supports push notifications which use the Google servers. However Google does not have access to the actual notification data. Only a header with a subject is sent via Google, but in encrypted form, and the rest of the content is retrieved directly from your Nextcloud server and <strong>not</strong> sent through Google.</p>
+<p>Our apps only communicate with your own Nextcloud server and do not sent any data to us. The Play Store version equal to or newer than 1.5.0 for Nextcloud supports push notifications which use the Google servers. However Google does not have access to the actual notification data. Only a header with a subject is sent via Google, but in encrypted form, and the rest of the content is retrieved directly from your Nextcloud server and <strong>not</strong> sent through Google. The iOS client works in a similar way.</p>
 <h3>How do we use your information?</h3>
 <p>We may use the information we collect from you when you register, sign up for our newsletter, respond to a survey or marketing communication, surf the website, or use certain other site features in the following ways:</p>
 <ul>
