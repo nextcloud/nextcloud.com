@@ -1,14 +1,14 @@
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
         <div class="page-header">
-            <h1>Privacy and Legal Policy - Introduction</h1>
+            <h1>Privacy and Legal Policy - Introduction and summary</h1>
         </div>
-        <p>We recognize that privacy is extremely important to all visitors to this website. We do not share any individual information with anybody without your permission.</p>
+        <p>We recognize that privacy is extremely important to all visitors to our website. We do not share any individual information with anybody without your permission.</p>
         <p>We use <a href="http://piwik.org/">Piwik</a> to get information on how our website is used and use <a href="https://www.phplist.com/">phplist</a> to handle our newsletters. From neither will we hand over individual data to anybody else. Any privacy breaches we will disclose as soon as possible.</p>
         <p>Please note that <a href="/news">nextcloud.com/news</a> aggregates community blogs and we can not be held responsible for their opinions or content.</p>
+        <p>Our software, be it the Nextcloud server or the Android or iOS apps, do not sent any user data to us unless you explicitly enable such reporting through the server-side Usage Survey app.</p>
         <p>If you see any problems, please report it to <a href="mailto:abuse@nextcloud.com">abuse@nextcloud.com</a>.</p>
-
-        <p>You can find our full privacy policy below.</p>
+        <p>You can find details in our full privacy policy below.</p>
         </div>
 </div>
 
@@ -20,6 +20,7 @@
 <p>When registering or submitting a form on our site, as appropriate, you may be asked to enter your name, email address, phone number or other details to help you with your experience.</p>
 <h3>When do we collect information?</h3>
 <p>We collect information from you when you subscribe to a newsletter, fill out a form or enter information on our site.</p>
+<p>Our apps only communicate with your own Nextcloud server and do not sent any data to us. The Play Store version >1.5.0 for Nextcloud supports push notifications which use the Google servers. However Google does not have access to the actual notification data. Only a header with a subject is sent via Google, but in encrypted form, and the rest of the content is retrieved directly from your Nextcloud server and <strong>not</strong> sent through Google.</p>
 <h3>How do we use your information?</h3>
 <p>We may use the information we collect from you when you register, sign up for our newsletter, respond to a survey or marketing communication, surf the website, or use certain other site features in the following ways:</p>
 <ul>
@@ -43,7 +44,6 @@
 <p>If you disable cookies, some minor features might be disabled.</p>
 <h3>Third-party disclosure</h3>
 <p>We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information unless we provide users with advance notice. This does not include website hosting partners and other parties who assist us in operating our website, conducting our business, or serving our users, so long as those parties agree to keep this information confidential. We may also release information when its release is appropriate to comply with the law, enforce our site policies, or protect ours or others' rights, property or safety.<br />
-
 However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses.</p>
 <h3>Third-party links</h3>
 <p>We do not include or offer third-party products or services on our website.</p>
@@ -61,7 +61,7 @@ However, non-personally identifiable visitor information may be provided to othe
 <p>We honor do not track signals and do not track, plant cookies, or use advertising when a Do Not Track (DNT) browser mechanism is in place.</p>
 
 <h3>Does our site allow third-party behavioral tracking?</h3>
-<p>It is also important to note that we do not allow third-party behavioral tracking</p>
+<p>We do not allow or employ third-party behavioral tracking. Our website features no third party ads.</p>
 <h3>Fair Information Practices</h3>
 <p>The Fair Information Practices Principles form the backbone of privacy law in the United States and the concepts they include have played a significant role in the development of data protection laws around the globe. Understanding the Fair Information Practice Principles and how they should be implemented is critical to comply with the various privacy laws that protect personal information.</p>
 <p>In order to be in line with Fair Information Practices, should a data breach occur we will notify the users via email within 7 business days</p>
@@ -104,7 +104,7 @@ Frank Karlitschek<br/>
 </p>
 <p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
 
-<p>Last Edited on 2016-07-11</p>
+<p>Last Edited on 2017-05-13</p>
 
     </div>
 </div>
