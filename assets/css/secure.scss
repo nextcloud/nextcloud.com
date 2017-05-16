@@ -21,13 +21,28 @@
 
 		.feature {
 			padding: 15px 0;
+			img {
+				float: left;
+				margin-right: 10px;
+			}
+			.section--paragraph {
+				margin-left: 74px;
+			}
 		}
 		.subfeature {
-			padding: 15px 15px 0 15px;
+			padding: 15px 15px 0 35px;
 			
 			.section--paragraph__tittle {
 				font-size: 18px;
-				margin: 0 0 5px 0;
+				margin: 0 0 5px 48px;
+			}
+			.section--paragraph {
+				margin-left: 58px;
+			}
+			img {
+				float: left;
+				margin-right: 10px;
+				width: 48px;
 			}
 		}
 	}

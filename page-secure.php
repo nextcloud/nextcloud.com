@@ -87,7 +87,7 @@
 				</div>
 				
 				<div class="subfeature">
-				<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/manual.svg">
+					<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/manual.svg">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Automated or manual provisioning');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud offers an easy to use, REST based provisioning API to create and configure user accounts.');?></p>
 				</div>
@@ -125,41 +125,13 @@
 		<div class="features--container">
 			<div class="col-md-6">
 				<div class="feature">
-				<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-				  <title>
-				    MONITORING
-				  </title>
-				  <g fill="none" fill-rule="evenodd">
-				    <rect fill="#C4E1F7" y="4" width="64" height="45" rx="4"/>
-				    <path d="M4 5c-1.103 0-2 .897-2 2v40c0 1.103.897 2 2 2h56c1.103 0 2-.897 2-2V7c0-1.103-.897-2-2-2H4zm56 46H4c-2.206 0-4-1.794-4-4V7c0-2.206 1.794-4 4-4h56c2.206 0 4 1.794 4 4v40c0 2.206-1.794 4-4 4z" fill="#1485E0"/>
-				    <path fill="#1485E0" d="M40.042 60.287l-3-10 1.916-.574 3 10-1.916.574M23.958 60.287l-1.916-.574 3-10 1.916.574-3 10"/>
-				    <path fill="#1485E0" d="M19 61h26v-2H19M31 47h2v-2h-2M6 41h52V9H6v32zm53 2H5c-.553 0-1-.447-1-1V8c0-.553.447-1 1-1h54c.553 0 1 .447 1 1v34c0 .553-.447 1-1 1z"/>
-				    <path fill="#FFF" d="M6 9h52v32H6z"/>
-				    <path d="M12.394 25C14.75 27.344 23.13 35 32 35c8.87 0 17.25-7.656 19.606-10C49.25 22.656 40.87 15 32 15c-8.87 0-17.25 7.656-19.606 10zM32 37c-11.312 0-21.32-10.865-21.74-11.327-.347-.382-.347-.964 0-1.346C10.68 23.865 20.688 13 32 13c11.313 0 21.32 10.865 21.74 11.327.347.382.347.964 0 1.346C53.32 26.135 43.313 37 32 37z" fill="#1485E0"/>
-				    <path d="M20 25h2c0 5.514 4.486 10 10 10s10-4.486 10-10-4.486-10-10-10v-2c6.617 0 12 5.383 12 12s-5.383 12-12 12-12-5.383-12-12z" fill="#1485E0"/>
-				    <path d="M26 25h-2c0-4.41 3.59-8 8-8v2c-3.31 0-6 2.69-6 6M32 33v-2c3.31 0 6-2.69 6-6h2c0 4.41-3.59 8-8 8" fill="#1485E0"/>
-				    <circle fill="#C4E1F7" cx="32" cy="25" r="3"/>
-				    <path d="M32 23c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2zm0 6c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4z" fill="#1485E0"/>
-				  </g>
-				</svg>
+				<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/monitoring.svg">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Logging and monitoring');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud has built in <a class="hyperlink" href="/workflow/#monitoring">monitoring and logging tools</a>, compatible with industry standard tools like Splunk, Nagios and OpenNMS. It also offers a full, compliance-ready activity log for reporting and auditing purposes.');?></p>
 				</div>
 				
 				<div class="feature">
-					<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-					  <title>
-					    PERMISSION AND FILE ACESS
-					  </title>
-					  <g fill="none" fill-rule="evenodd">
-					    <path fill="#C4E1F7" d="M10 2l2 1v41l20 15v3L10 46M54 2l-2 1v41L32 59v3l22-16"/>
-					    <path d="M10 45.496l22 16.26 22-16.26V2.618l-8.553 4.277c-.47.233-1.036.067-1.304-.38L41.433 2H22.567l-2.71 4.515c-.266.448-.833.614-1.303.38L10 2.618v42.878zM32 64c-.21 0-.418-.065-.595-.196l-23-17C8.15 46.614 8 46.317 8 46V1c0-.347.18-.668.475-.85.295-.183.662-.2.972-.045L18.62 4.69 21.142.486c.18-.3.505-.485.857-.485h20c.352 0 .677.185.857.485L45.38 4.69 54.554.106c.31-.154.677-.138.972.044C55.82.33 56 .652 56 1v45c0 .317-.15.615-.405.804l-23 17c-.177.13-.386.196-.595.196z" fill="#1485E0"/>
-					    <path d="M32 59c-.208 0-.417-.065-.593-.195l-19-14C12.15 44.615 12 44.317 12 44V3h2v40.495l18 13.263 18-13.263V3h2v41c0 .317-.15.616-.407.805l-19 14c-.176.13-.385.195-.593.195" fill="#1485E0"/>
-					    <path fill="#1485E0" d="M18 11h2V6h-2M44 11h2V6h-2M32 13c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 14c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
-					    <path fill="#1485E0" d="M37 36h-4V26h2v8h2v2"/>
-					    <path fill="#1485E0" d="M35 47h-6V26h2v19h2v-3h2v-2h-2v-2h4v6h-2v3M30 17h4v-2h-4M18 15h2v-2h-2M18 19h2v-2h-2M18 23h2v-2h-2M44 15h2v-2h-2M44 19h2v-2h-2M44 23h2v-2h-2"/>
-					  </g>
-					</svg>
+					<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/permissions.svg">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Permission and File Access Control');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Administrators can set permissions on sharing and access to files using groups. The powerful');?> <a class="hyperlink" href="/workflow/"><?php echo $l->t('workflow tools</a> in Nextcloud enable administrators to limit access to files following strict rules and perform automatic actions like file conversion.');?></p>
 				</div>
@@ -167,39 +139,13 @@
 
 			<div class="col-md-6">
 				<div class="feature">
-					<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-					  <title>
-					    ENCRIPTION
-					  </title>
-					  <g fill="none" fill-rule="evenodd">
-					    <rect fill="#C4E1F7" y="4" width="64" height="45" rx="4"/>
-					    <path d="M4 5c-1.103 0-2 .897-2 2v40c0 1.103.897 2 2 2h56c1.103 0 2-.897 2-2V7c0-1.103-.897-2-2-2H4zm56 46H4c-2.206 0-4-1.794-4-4V7c0-2.206 1.794-4 4-4h56c2.206 0 4 1.794 4 4v40c0 2.206-1.794 4-4 4z" fill="#1485E0"/>
-					    <path fill="#FFF" d="M6 9h52v32H6z"/>
-					    <path fill="#1485E0" d="M40.042 60.287l-3-10 1.916-.574 3 10-1.916.574M23.958 60.287l-1.916-.574 3-10 1.916.574-3 10"/>
-					    <path fill="#1485E0" d="M19 61h26v-2H19M31 47h2v-2h-2M6 41h52V9H6v32zm53 2H5c-.553 0-1-.448-1-1V8c0-.552.447-1 1-1h54c.553 0 1 .448 1 1v34c0 .552-.447 1-1 1z"/>
-					    <path fill="#1485E0" d="M17 23h2v-2h-2M39 23h4v-2h-4M43 25h4v-2h-4M45 27h2v-2h-2M43 29h2v-2h-2M43 31h4v-2h-4M47 29h4v-2h-4M39 27h2v-2h-2M37 25h4v-2h-4M35 29h2v-2h-2M33 27h2v-2h-2M35 31h4v-2h-4M35 33h2v-2h-2M39 35h2v-4h-2M37 37h2v-2h-2M45 35h2v-2h-2M51 35h2v-2h-2M43 37h2v-2h-2M47 37h4v-2h-4M31 37h4v-2h-4M29 35h2v-2h-2M23 35h4v-2h-4M27 29h2v-2h-2M25 27h4v-2h-4M23 25h2v-2h-2M19 27h4v-2h-4M13 21h4v-2h-4M17 29h4v-2h-4M19 33h2v-2h-2M23 31h4v-2h-4M23 33h2v-2h-2M21 37h2v-2h-2M25 37h2v-2h-2M29 33h4v-2h-4M31 29h2v-2h-2M29 25h4v-2h-4M17 25h2v-2h-2M15 35h4v-2h-4M29 17h4v-2h-4M31 21h6v-2h-6M25 19h6v-2h-6M33 23h2v-2h-2M13 23h2v-2h-2M21 23h8v-2h-8M39 19h8v-2h-8M49 33h4v-2h-4M51 31h2v-2h-2M49 27h4v-2h-4M45 23h6v-2h-6M51 21h2v-2h-2M49 19h4v-2h-4M45 17h4v-2h-4M51 15h2v-2h-2M43 15h4v-2h-4M41 17h2v-2h-2M37 15h4v-2h-4M35 19h2v-4h-2M21 19h2v-2h-2M15 19h4v-2h-4M11 19h2v-2h-2M11 23h2v-2h-2M11 27h2v-2h-2M13 31h4v-2h-4M15 27h2v-2h-2M11 33h2v-2h-2M13 37h4v-2h-4M11 35h2v-2h-2M19 17h4v-2h-4M23 15h4v-2h-4M11 15h8v-2h-8M31 15h4v-2h-4"/>
-					  </g>
-					</svg>
+					<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/encryption.svg">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Encryption');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud uses industry-standard SSL/TLS encryption for data in transfer. Additionally, data at rest in storage can be encrypted using a default military grade AES-256 encryption. Keys can be handled with the build in key management or you can opt for a custom key management for integration in existing infrastructure. As keys never leave the Nextcloud server, external storage systems never have access to unencrypted data.');?></p>
 				</div>
 				
 				<div class="feature">
-					<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-					  <title>
-					    VIRUS SCANNING
-					  </title>
-					  <g fill="none" fill-rule="evenodd">
-					    <path d="M5.414 58h53.172L62 54.586V54H39.414l-1.707 1.707c-.187.188-.44.293-.707.293H27c-.266 0-.52-.105-.707-.293L24.586 54H2v.586L5.414 58zM59 60H5c-.266 0-.52-.105-.707-.293l-4-4C.105 55.52 0 55.265 0 55v-2c0-.552.447-1 1-1h24c.266 0 .52.105.707.293L27.414 54h9.172l1.707-1.707c.187-.188.44-.293.707-.293h24c.553 0 1 .448 1 1v2c0 .265-.105.52-.293.707l-4 4c-.187.188-.44.293-.707.293zM6 50H4V20c0-2.206 1.794-4 4-4h7v2H8c-1.103 0-2 .897-2 2v30M60 50h-2V20c0-1.103-.897-2-2-2h-7v-2h7c2.206 0 4 1.794 4 4v30M27 48h2v-2h-2M23 48h2v-2h-2M31 48h2v-2h-2M35 48h2v-2h-2M39 48h2v-2h-2" fill="#1485E0"/>
-					    <path d="M55 48H43v-2h11V22h-5v-2h6c.553 0 1 .448 1 1v26c0 .552-.447 1-1 1M21 48H9c-.553 0-1-.448-1-1V21c0-.552.447-1 1-1h6v2h-5v24h11v2" fill="#1485E0"/>
-					    <path fill="#1485E0" d="M51 44h-2V11.414L41.586 4H15v40h-2V2h29.414L51 10.586V38"/>
-					    <path fill="#C4E1F7" d="M15 4h28v6h6v34H15"/>
-					    <circle stroke="#979797" fill="#FFF" cx="32" cy="19" r="3"/>
-					    <path d="M32 23c-1.573 0-4 2.577-4 6s2.427 6 4 6 4-2.577 4-6-2.427-6-4-6zm0 14c-2.718 0-6-3.568-6-8s3.282-8 6-8 6 3.568 6 8-3.282 8-6 8z" fill="#1485E0"/>
-					    <path fill="#1485E0" d="M22 30h5v-2h-5M28 26h-3.414l-3.293-3.293 1.414-1.414L25.414 24H28v2M22.707 36.707l-1.414-1.414L24.586 32H28v2h-2.586l-2.707 2.707M19 7h1V6h-1M23 7h1V6h-1M27 7h1V6h-1M19 10h1V9h-1M22 10h1V9h-1M25 10h1V9h-1M19 13h18v-1H19M50 12h-9V3h2v7h7v2M32 17c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2zm0 6c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zM37 30h5v-2h-5M39.414 26H36v-2h2.586l2.707-2.707 1.414 1.414L39.414 26M41.293 36.707L38.586 34H36v-2h3.414l3.293 3.293-1.414 1.414"/>
-					    <path fill="#1485E0" d="M31 36h2V22h-2"/>
-					  </g>
-					</svg>
+					<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/virusscaning.svg">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Virus scanning');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud supports integration with ClamAV for automated scanning of all uploaded files.');?></p>
 				</div>
