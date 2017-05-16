@@ -57,44 +57,37 @@
 			<div class="col-md-6">
 
 				<div class="feature">
-					<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-					<title>
-						PERMISSION AND FILE ACESS
-					</title>
-					<g fill="none" fill-rule="evenodd">
-						<path fill="#C4E1F7" d="M10 2l2 1v41l20 15v3L10 46M54 2l-2 1v41L32 59v3l22-16"/>
-						<path d="M10 45.496l22 16.26 22-16.26V2.618l-8.553 4.277c-.47.233-1.036.067-1.304-.38L41.433 2H22.567l-2.71 4.515c-.266.448-.833.614-1.303.38L10 2.618v42.878zM32 64c-.21 0-.418-.065-.595-.196l-23-17C8.15 46.614 8 46.317 8 46V1c0-.347.18-.668.475-.85.295-.183.662-.2.972-.045L18.62 4.69 21.142.486c.18-.3.505-.485.857-.485h20c.352 0 .677.185.857.485L45.38 4.69 54.554.106c.31-.154.677-.138.972.044C55.82.33 56 .652 56 1v45c0 .317-.15.615-.405.804l-23 17c-.177.13-.386.196-.595.196z" fill="#1485E0"/>
-						<path d="M32 59c-.208 0-.417-.065-.593-.195l-19-14C12.15 44.615 12 44.317 12 44V3h2v40.495l18 13.263 18-13.263V3h2v41c0 .317-.15.616-.407.805l-19 14c-.176.13-.385.195-.593.195" fill="#1485E0"/>
-						<path fill="#1485E0" d="M18 11h2V6h-2M44 11h2V6h-2M32 13c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 14c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
-						<path fill="#1485E0" d="M37 36h-4V26h2v8h2v2"/>
-						<path fill="#1485E0" d="M35 47h-6V26h2v19h2v-3h2v-2h-2v-2h4v6h-2v3M30 17h4v-2h-4M18 15h2v-2h-2M18 19h2v-2h-2M18 23h2v-2h-2M44 15h2v-2h-2M44 19h2v-2h-2M44 23h2v-2h-2"/>
-					</g>
-					</svg>
+				<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/permissions.svg">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Extensive authentication support');?> </p>
 					<p class="section--paragraph"><?php echo $l->t('Nearly any authentication and provisioning mechanism works with Nextcloud.');?> </p>
 				</div>
 
 				<div class="subfeature">
+					<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/ldap.svg">
 					<p class="section--paragraph__tittle"><?php echo $l->t('LDAP / Active Directory');?> </p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud has extensive LDAP/Active Directory support with an easy installation wizard.');?> </p>
 				</div>
 
 				<div class="subfeature">
+					<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/kerberos.svg">
 					<p class="section--paragraph__tittle">Kerberos</p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud can work with Kerberos and other authentication mechanisms mediated by Apache modules.');?></p>
 				</div>
 
 				<div class="subfeature">
+					<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/saml.svg">
 					<p class="section--paragraph__tittle">SSO/SAML 2.0</p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud supports Single Sign On (SSO) and can work with Shibboleth, a SAML-based authentication in its web front end and clients.');?></p>
 				</div>
 				
 				<div class="subfeature">
+					<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/2fa.svg">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Two-factor authentication');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud includes Universal 2nd Factor (U2F) and Time-based One-Time Password (TOTP) second factor apps to increase the security of user login handling.');?></p>
 				</div>
 				
 				<div class="subfeature">
+				<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/manual.svg">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Automated or manual provisioning');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud offers an easy to use, REST based provisioning API to create and configure user accounts.');?></p>
 				</div>
@@ -102,66 +95,19 @@
 			
 			<div class="col-md-6">
 				<div class="feature">
-				<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-				  <title>
-				    STORAGE AND DATABASE
-				  </title>
-				  <defs>
-				    <path d="M0 51h29v52H0V51zM35 0h55v51H35V0z" id="a"/>
-				  </defs>
-				  <g fill="none" fill-rule="evenodd">
-				    <path d="M6 28c-1.105 0-2-.895-2-2V4c0-1.105.895-2 2-2h22c1.105 0 2 .895 2 2v22c0 1.105-.895 2-2 2H6zM62 38c0 1.657-5.82 3-13 3s-13-1.343-13-3 5.82-3 13-3 13 1.343 13 3z" stroke="#1485E0" stroke-width="2" fill="#C4E1F7"/>
-				    <path d="M49 41c-7.18 0-13-1.343-13-3v6c0 1.657 5.82 3 13 3s13-1.343 13-3v-6c0 1.657-5.82 3-13 3z" stroke="#1485E0" stroke-width="2"/>
-				    <path d="M49 47c-7.18 0-13-1.343-13-3v6c0 1.657 5.82 3 13 3s13-1.343 13-3v-6c0 1.657-5.82 3-13 3z" stroke="#1485E0" stroke-width="2"/>
-				    <path d="M49 53c-7.18 0-13-1.343-13-3v6c0 1.657 5.82 3 13 3s13-1.343 13-3v-6c0 1.657-5.82 3-13 3zM8 7h10M11 11h11M8 15h10M8 19h4M10 23h8" stroke="#1485E0" stroke-width="2"/>
-				    <g transform="translate(1 -19)">
-				      <mask id="b" fill="#fff">
-				        <use xlink:href="#a"/>
-				      </mask>
-				      <path d="M30 74C15.64 74 4 62.36 4 48s11.64-26 26-26c9.438 0 17.702 5.03 22.257 12.553C54.633 38.477 56 43.08 56 48c0 14.36-11.64 26-26 26z" stroke="#1385E0" stroke-linecap="round" stroke-linejoin="bevel" stroke-dasharray="5,5" mask="url(#b)"/>
-				    </g>
-				  </g>
-				</svg>
+					<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/storage.svg">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Existing storage and database technology');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud supports any existing storage solution, including object store technologies, keeping data under control of trusted IT administrators and managed with established policies. Nextcloud works with industry standard SQL databases like PostgreSQL, MySQL and MariaDB for user and metadata storage.');?></p>
 				</div>
 
 				<div class="feature">
-				<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-				  <title>
-				    SECURITY TOOLS
-				  </title>
-				  <g fill="none" fill-rule="evenodd">
-				    <path fill="#C4E1F7" d="M18 2l7 3 4-3h6l4 3 7-3v28l-14 9-14-9"/>
-				    <path d="M5.414 58h53.172L62 54.586V54H39.414l-1.707 1.707c-.187.188-.44.293-.707.293H27c-.266 0-.52-.105-.707-.293L24.586 54H2v.586L5.414 58zM59 60H5c-.266 0-.52-.105-.707-.293l-4-4C.105 55.52 0 55.265 0 55v-2c0-.552.447-1 1-1h24c.266 0 .52.105.707.293L27.414 54h9.172l1.707-1.707c.187-.188.44-.293.707-.293h24c.553 0 1 .448 1 1v2c0 .265-.105.52-.293.707l-4 4c-.187.188-.44.293-.707.293zM6 50H4V20c0-2.206 1.794-4 4-4h7v2H8c-1.103 0-2 .897-2 2v30M60 50h-2V20c0-1.103-.897-2-2-2h-7v-2h7c2.206 0 4 1.794 4 4v30M27 48h2v-2h-2M23 48h2v-2h-2M31 48h2v-2h-2M35 48h2v-2h-2M39 48h2v-2h-2" fill="#1485E0"/>
-				    <path d="M55 48H43v-2h11V22h-5v-2h6c.553 0 1 .448 1 1v26c0 .552-.447 1-1 1M21 48H9c-.553 0-1-.448-1-1V21c0-.552.447-1 1-1h6v2h-5v24h11v2" fill="#1485E0"/>
-				    <path d="M19 29.485l13 9.286 13-9.285V3.443l-6.648 2.494c-.367.135-.783.048-1.06-.23L34.587 3h-5.172l-2.707 2.707c-.277.278-.688.365-1.06.23L19 3.443v26.042zM32 41c-.204 0-.407-.062-.58-.186l-14-10c-.264-.188-.42-.49-.42-.814V2c0-.328.16-.635.43-.822.268-.186.613-.23.922-.115l7.396 2.774 2.545-2.544C28.48 1.105 28.733 1 29 1h6c.266 0 .52.105.707.293l2.545 2.544 7.396-2.774c.31-.114.654-.07.92.115.27.187.432.494.432.822v28c0 .323-.156.626-.42.814l-14 10c-.173.124-.376.186-.58.186z" fill="#1485E0"/>
-				    <path fill="#1485E0" d="M25 9h2V5h-2M37 9h2V5h-2"/>
-				    <circle fill="#FFF" cx="32" cy="19" r="8"/>
-				    <path d="M31 24c-.256 0-.512-.098-.707-.293l-3-3 1.414-1.414L31 21.586l4.293-4.293 1.414 1.414-5 5c-.195.195-.45.293-.707.293" fill="#1485E0"/>
-				    <path d="M32 13c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm0 16c-4.963 0-9-4.038-9-9s4.037-9 9-9 9 4.038 9 9-4.037 9-9 9z" fill="#1485E0"/>
-				  </g>
-				</svg>
+					<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/tools.svg">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Existing security tools');?><p/>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud offers built in monitoring tools and integrates with existing MDM, DLP, event logging and backup tools, enabling existing tool chains to be used to monitor, back up and restore systems.');?></p>
 				</div>
 
 				<div class="feature">
-					<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-					  <title>
-					    SECURITY POLICIES
-					  </title>
-					  <g fill="none" fill-rule="evenodd">
-					    <path fill="#C4E1F7" d="M8 14h56v42H8z"/>
-					    <path fill="#1485E0" d="M4 56h30v-2H4"/>
-					    <path d="M63 56h-5v-2h4V14H8v38c0 2.206-1.794 4-4 4s-4-1.794-4-4V3c0-.553.447-1 1-1h18c.266 0 .52.105.707.293L23.414 6H59c.553 0 1 .447 1 1v3h-2V8H23c-.266 0-.52-.105-.707-.293L18.586 4H2v48c0 1.103.897 2 2 2s2-.897 2-2V13c0-.553.447-1 1-1h56c.553 0 1 .447 1 1v42c0 .553-.447 1-1 1" fill="#1485E0"/>
-					    <path d="M54 45h-2v-4c0-2.757-2.243-5-5-5h-2c-2.757 0-5 2.243-5 5v4h-2v-4c0-3.86 3.14-7 7-7h2c3.86 0 7 3.14 7 7v4M14 26h42v-6H14v6zm43 2H13c-.553 0-1-.447-1-1v-8c0-.553.447-1 1-1h44c.553 0 1 .447 1 1v8c0 .553-.447 1-1 1z" fill="#1485E0"/>
-					    <path fill="#1485E0" d="M16 24h2v-2h-2M20 24h2v-2h-2M24 24h2v-2h-2M28 24h2v-2h-2M32 24h2v-2h-2M36 24h2v-2h-2M40 24h2v-2h-2M12 33h18v-1H12M12 37h18v-1H12"/>
-					    <rect fill="#C4E1F7" x="37" y="45" width="18" height="16" rx="4"/>
-					    <path d="M39 46c-.552 0-1 .448-1 1v12c0 .552.448 1 1 1h14c.552 0 1-.448 1-1V47c0-.552-.448-1-1-1H39zm14 16H39c-1.654 0-3-1.346-3-3V47c0-1.654 1.346-3 3-3h14c1.654 0 3 1.346 3 3v12c0 1.654-1.346 3-3 3z" fill="#1485E0"/>
-					    <path d="M45 52.732V57h2v-4.268c.597-.347 1-.993 1-1.732 0-1.103-.897-2-2-2s-2 .897-2 2c0 .74.403 1.385 1 1.732z" stroke="#1485E0" fill="#FFF"/>
-					  </g>
-					</svg>
+					<img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/securitypolicies.svg">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Current security policies and processes');?><p/>
 					<p class="section--paragraph"><?php echo $l->t('Thanks to the on-premise nature of Nextcloud and its ability to leverage existing data storage and database technologies, current security policies and governance processes can continue to be used to manage, control and secure operations with Nextcloud. Nextcloud GmbH does at no point have access to your data and can not interfere with regulated processes, keeping your IT department in control.');?></p>
 				</div>
