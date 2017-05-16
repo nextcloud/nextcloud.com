@@ -53,7 +53,7 @@
      inkscape:snap-text-baseline="true"
      showguides="false"
      inkscape:zoom="4"
-     inkscape:cx="88.793564"
+     inkscape:cx="45.668564"
      inkscape:cy="6.6763014"
      inkscape:window-x="0"
      inkscape:window-y="240"
@@ -575,6 +575,7 @@
 
 
 
+
  clip-path=&quot;url(#clip-0)&quot;
  clip-path=&quot;url(#clip-1)&quot;
  clip-path=&quot;url(#clip-2)&quot;
@@ -617,6 +618,14 @@
      id="layer1"
      inkscape:label="icons"
      transform="translate(-121.36856,-14.326513)" />
+  <rect
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd"
+     id="rect4634"
+     width="46.25"
+     height="45"
+     x="9.1261044"
+     y="14.436826"
+     ry="22.5" />
   <g
      id="g14838"
      transform="matrix(1.1646753,0,0,1.1646753,-1280.5891,-422.22337)">

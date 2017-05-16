@@ -13,7 +13,7 @@
    viewBox="0 0 64 64"
    version="1.1"
    id="svg928"
-   sodipodi:docname="SAML.svg"
+   sodipodi:docname="ldap.svg"
    inkscape:version="0.92.1 r">
   <metadata
      id="metadata932">
@@ -40,7 +40,7 @@
      inkscape:window-height="1353"
      id="namedview930"
      showgrid="false"
-     inkscape:snap-global="true"
+     inkscape:snap-global="false"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
@@ -52,13 +52,13 @@
      inkscape:snap-center="true"
      inkscape:snap-text-baseline="true"
      showguides="false"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="217.80975"
-     inkscape:cy="12.203081"
+     inkscape:zoom="11.313708"
+     inkscape:cx="49.831288"
+     inkscape:cy="16.719584"
      inkscape:window-x="0"
      inkscape:window-y="240"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg928" />
+     inkscape:current-layer="g14507" />
   <title
      id="title2">Canvas</title>
   <desc
@@ -570,6 +570,7 @@
    style="fill-rule:evenodd" />
 
 
+
  clip-path=&quot;url(#clip-0)&quot;
  clip-path=&quot;url(#clip-1)&quot;
  clip-path=&quot;url(#clip-2)&quot;
@@ -615,6 +616,12 @@
   <g
      id="g14507"
      transform="translate(-199.93102,-267.89454)">
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:2.95149279"
+       d="m 201.11853,271.20703 h 18.30212 l 3.43721,3.49134 35.88567,0.22988 v 6.27557 l -51.79557,0.36602 -0.4762,41.01219 h -5.35323 z"
+       id="rect4619-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc" />
     <use
        xlink:href="#path11_fill"
        transform="translate(206.93102,282.31778)"
@@ -642,6 +649,14 @@
        id="use282-6"
        transform="translate(199.93102,270.34903)"
        xlink:href="#path13_fill" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1.20009577"
+       id="rect4619"
+       width="22.375"
+       height="21.875"
+       x="226.44128"
+       y="306.83588"
+       ry="10.9375" />
     <use
        xlink:href="#path15_fill"
        transform="translate(211.93102,286.34903)"
@@ -725,7 +740,7 @@
        height="100%" />
     <use
        xlink:href="#path47_fill"
-       transform="matrix(0,-0.73773483,1,0,212.43102,325.13028)"
+       transform="matrix(0,-0.71133396,1,0,212.43102,324.36466)"
        id="use328-5"
        style="fill:#ffffff"
        x="0"

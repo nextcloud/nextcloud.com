@@ -40,7 +40,7 @@
      inkscape:window-height="1353"
      id="namedview930"
      showgrid="false"
-     inkscape:snap-global="true"
+     inkscape:snap-global="false"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
@@ -53,8 +53,8 @@
      inkscape:snap-text-baseline="true"
      showguides="false"
      inkscape:zoom="2.8284271"
-     inkscape:cx="274.86048"
-     inkscape:cy="32.366629"
+     inkscape:cx="18.849289"
+     inkscape:cy="84.69605"
      inkscape:window-x="0"
      inkscape:window-y="240"
      inkscape:window-maximized="1"
@@ -569,6 +569,7 @@
    inkscape:connector-curvature="0"
    style="fill-rule:evenodd" />
 
+
  clip-path=&quot;url(#clip-0)&quot;
  clip-path=&quot;url(#clip-1)&quot;
  clip-path=&quot;url(#clip-2)&quot;
@@ -611,6 +612,19 @@
      id="layer1"
      inkscape:label="icons"
      transform="translate(0,-84)" />
+  <rect
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1.0492053"
+     id="rect4617"
+     width="45.5625"
+     height="25.9375"
+     x="9.3124905"
+     y="16.63846" />
+  <path
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.52831852"
+     d="M 0.45986571,49.369638 25.632621,49.28125 27.312,50.430299 l 9.457553,-0.08839 1.59099,-1.06066 25.08492,0.08839 -3.783328,4.849112 H 4.3310291 Z"
+     id="rect4617-0"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccccc" />
   <g
      id="g11360"
      transform="translate(-114.47215,-273.06069)">

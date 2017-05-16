@@ -13,7 +13,7 @@
    viewBox="0 0 64 64"
    version="1.1"
    id="svg928"
-   sodipodi:docname="2FA.svg"
+   sodipodi:docname="2fa.svg"
    inkscape:version="0.92.1 r">
   <metadata
      id="metadata932">
@@ -40,7 +40,7 @@
      inkscape:window-height="1353"
      id="namedview930"
      showgrid="false"
-     inkscape:snap-global="true"
+     inkscape:snap-global="false"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
@@ -53,8 +53,8 @@
      inkscape:snap-text-baseline="true"
      showguides="false"
      inkscape:zoom="7.5823604"
-     inkscape:cx="111.29104"
-     inkscape:cy="10.908029"
+     inkscape:cx="54.668742"
+     inkscape:cy="22.264421"
      inkscape:window-x="0"
      inkscape:window-y="240"
      inkscape:window-maximized="1"
@@ -570,6 +570,7 @@
    style="fill-rule:evenodd" />
 
 
+
  clip-path=&quot;url(#clip-0)&quot;
  clip-path=&quot;url(#clip-1)&quot;
  clip-path=&quot;url(#clip-2)&quot;
@@ -670,6 +671,12 @@
        y="0"
        width="100%"
        height="100%" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.52287233"
+       d="m 277.45384,375.53358 10.90622,0.13988 1.95839,9.36773 h -16.22186 z"
+       id="rect4645"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
     <use
        xlink:href="#path90_fill"
        transform="translate(250.48916,328.65716)"
