@@ -22,21 +22,33 @@
 		margin-bottom: 17px;
 		}
 	
+	.feature {
+	}
+	
+	
 	.section--paragraph {
 	}
 	.features--container {
 		padding-top: 20px;
 		.section--paragraph {
-			padding-bottom: 30px;
+			padding-bottom: 10px;
+			text-align: justify;
 		}
 		display: inline-block;
 		.feature {
 			padding: 15px 0;
-			img {
-/* 				float: left; */
-				margin-right: 10px;
+			.section--paragraph__tittle {
+				text-align: center;
+				min-height: 60px;
 			}
-			
+			.section--paragraph {
+				text-align: justify;
+				padding-bottom: 10px;
+			}
+			img.icon {
+				display: block;
+				margin: 0 auto;
+			}
 		}
 	}
 	
