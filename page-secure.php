@@ -143,8 +143,13 @@
 				</div>
 				<div class="feature">
 					<img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/permissions.svg">
-					<p class="section--paragraph__tittle"><?php echo $l->t('Permission and File Access Control');?></p>
-					<p class="section--paragraph"><?php echo $l->t('Administrators can set permissions on sharing and access to files using groups. The powerful');?> <a class="hyperlink" href="/workflow/"><?php echo $l->t('workflow tools</a> in Nextcloud enable administrators to limit access to data in accordance to business and legal requirements and perform automatic actions like file conversion.');?></p>
+					<p class="section--paragraph__tittle"><?php echo $l->t('Permission');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Administrators can set permissions on sharing and access to files using groups. Permissions of underlying storage, like Windows Network Drive access rights, are respected by Nextcloud');?></p>
+				</div>
+				<div class="feature">
+					<img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/firewall.svg">
+					<p class="section--paragraph__tittle"><?php echo $l->t('Finegrained File Access Control');?></p>
+					<p class="section--paragraph"><?php echo $l->t('The powerful');?> <a class="hyperlink" href="/workflow/"><?php echo $l->t('workflow tools</a> in Nextcloud enable administrators to limit access to data in accordance to business and legal requirements and perform automatic actions like file conversion. Describe restrictions like "XLSX files from the HR department are not to be accessible outside company IP ranges" or "employees in the US shouldn\'t access customer data from European data centers" for Nextcloud to enforce.');?></p>
 				</div>
 			</div>
 			<div class="col-md-6">
@@ -157,6 +162,11 @@
 					<img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/virusscaning.svg">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Virus scanning');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud supports integration with ClamAV for automated scanning of all uploaded files.');?></p>
+				</div>
+				<div class="feature">
+					<img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/retention.svg">
+					<p class="section--paragraph__tittle"><?php echo $l->t('Data Retention');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Define rules for data retention, allowing regular cleanup of files or ensurances that data stays put for a set amount of time.');?></p>
 				</div>
 			</div>
 		</div>

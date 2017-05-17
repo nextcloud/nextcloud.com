@@ -53,12 +53,12 @@
      inkscape:snap-text-baseline="true"
      showguides="false"
      inkscape:zoom="7.5823604"
-     inkscape:cx="54.668742"
+     inkscape:cx="31.91857"
      inkscape:cy="22.264421"
      inkscape:window-x="0"
      inkscape:window-y="240"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg928" />
+     inkscape:current-layer="g11393" />
   <title
      id="title2">Canvas</title>
   <desc
@@ -571,6 +571,7 @@
 
 
 
+
  clip-path=&quot;url(#clip-0)&quot;
  clip-path=&quot;url(#clip-1)&quot;
  clip-path=&quot;url(#clip-2)&quot;
@@ -741,7 +742,7 @@
        width="100%"
        height="100%" />
     <g
-       transform="translate(-74.253071,33.677349)"
+       transform="rotate(49.394002,279.47682,233.40668)"
        id="g11268">
       <use
          height="100%"
@@ -781,7 +782,7 @@
          xlink:href="#path88_fill" />
     </g>
     <g
-       transform="translate(36.531748,49.375385)"
+       transform="translate(64.887031,50.430465)"
        id="g11336">
       <path
          style="opacity:1;fill:#c4e1f7;fill-opacity:1;fill-rule:evenodd;stroke-width:0.25213599"
