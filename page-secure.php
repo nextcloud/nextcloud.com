@@ -82,42 +82,40 @@
 	<div class="container featureblock">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 revealOnScroll">
-<!-- 				<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Authentication');?> </h2> -->
+				<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Authentication');?> </h2>
 				<p class="section--paragraph section--text--center"><?php echo $l->t('Nearly any authentication and provisioning mechanism works with Nextcloud, making it easy to fit with your user directory.');?> </p>
 			</div>
 		</div>
 		<div class="features--container row revealOnScroll">
-			<div class="col-md-4">
+			<div class="col-md-6">
 				<div class="feature">
 					<img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/ldap.svg">
 					<p class="section--paragraph__tittle"><?php echo $l->t('LDAP / Active Directory');?> </p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud has extensive LDAP/Active Directory support with an easy installation wizard.');?> </p>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-6">
 				<div class="feature">
 					<img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/saml.svg">
 					<p class="section--paragraph__tittle">SSO/SAML 2.0</p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud supports Single Sign On (SSO) and provides native SAML 2.0 (and Shibboleth) authentication in its web front end and apps.');?></p>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-6">
 				<div class="feature">
 					<img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/kerberos.svg">
 					<p class="section--paragraph__tittle">Kerberos and more</p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud can work with Kerberos and other authentication mechanisms like');?> <a class="hyperlink" href="https://github.com/pingidentity/mod_auth_openidc" target="_blank">OAuth2</a>, <a class="hyperlink" href="https://github.com/pingidentity/mod_auth_openidc" target="_blank">OpenID Connect</a>, <a class="hyperlink" href="https://github.com/AnthonyDeroche/mod_authnz_jwt" target="_blank">JWT</a>, <a class="hyperlink" href="https://github.com/Jasig/mod_auth_cas" target="_blank">CAS</a> <?php echo $l->t('or <a class="hyperlink" href="https://httpd.apache.org/docs/2.2/mod/mod_authn_dbd.html" target="_blank">Any SQL database</a> mediated by Apache modules.');?></p>
 				</div>
 			</div>
-		</div>
-		<div class="features--container revealOnScroll row">
-			<div class="col-md-4 col-md-offset-2">
+			<div class="col-md-6">
 				<div class="feature">
 					<img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/2fa.svg">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Two-factor authentication');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud includes Universal 2nd Factor (U2F) hardware tokens and Time-based One-Time Password (TOTP) second factor apps to increase the security of user login handling.');?></p>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-6">
 				<div class="feature">
 					<img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/manual.svg">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Automated or manual provisioning');?></p>

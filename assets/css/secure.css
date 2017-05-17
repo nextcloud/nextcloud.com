@@ -27,18 +27,18 @@
     display: inline-block; }
     .featureblock .features--container .section--paragraph {
       padding-bottom: 10px;
-      text-align: justify; }
+      /* 			text-align: justify; */ }
     .featureblock .features--container .feature {
       padding: 15px 0; }
       .featureblock .features--container .feature .section--paragraph__tittle {
-        text-align: center;
+        /* 				text-align: center; */
         min-height: 60px; }
       .featureblock .features--container .feature .section--paragraph {
-        text-align: justify;
+        /* 				text-align: justify; */
         padding-bottom: 10px; }
       .featureblock .features--container .feature img.icon {
-        display: block;
-        margin: 0 auto; }
+        /* 				display: block; */
+        /* 				margin: 0 auto; */ }
   .featureblock .image--floated {
     float: right; }
   .featureblock .screenshot {
