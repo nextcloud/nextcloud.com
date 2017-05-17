@@ -436,7 +436,7 @@
 		</div>
 		<div class="col-md-6">
 			<div class="feature">
-				<img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/check-lock.svg">
+				<img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/secure-server.svg">
 				<p class="section--paragraph__tittle"><?php echo $l->t('Security hardening');?></hp>
 				<p class="section--paragraph"><?php echo $l->t('Nextcloud employs a wide variety of extra security hardening capabilities, including:');?></p>
 				<ul>
