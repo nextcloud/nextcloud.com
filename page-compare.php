@@ -77,6 +77,7 @@
 					<li title="" rel="tooltip">Web UI secured with CSP 3.0</li> <!--Web UI secured with CSP 3.0-->
 					<li title="" rel="tooltip">With same-site cookie attribute</li> <!--With same-site cookies-->
 					<li title="" rel="tooltip">File Access Control</li> <!--File Access Control-->
+					<li title="Allow restricting mobile/desktop/third party applications access to filesystem or other data" rel="tooltip">App access rights</li> <!--App access rights-->
 						<li class="cd-group">Authentication</li> <!--Authentication-->
 					<li title="" rel="tooltip">LDAP/AD</li> <!--LDAP/AD-->
 					<li title="" rel="tooltip">SAML Shibboleth</li> <!--SAML Shibboleth-->
@@ -140,6 +141,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Web UI secured with CSP 3.0-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--With same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Access Control-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--SAML Shibboleth-->
@@ -201,6 +203,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Web UI secured with CSP 3.0-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--With same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Access Control-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--SAML Shibboleth-->
@@ -258,10 +261,11 @@
 							<li class="cd-group"></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Server side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Brute force hacking protection-->
-							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--NIST compliant password policy-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--NIST compliant password policy-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Web UI secured with CSP 3.0-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--With same-site cookies-->
-							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Access Control-->
+							<li title="Can be done in limited way with third party applications" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Access Control-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--SAML Shibboleth-->
@@ -323,6 +327,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Web UI secured with CSP 3.0-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--With same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Access Control-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--SAML Shibboleth-->
@@ -383,6 +388,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Web UI secured with CSP 3.0-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--With same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Access Control-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--SAML Shibboleth-->
@@ -443,6 +449,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Web UI secured with CSP 3.0-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--With same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Access Control-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--SAML Shibboleth-->
@@ -504,6 +511,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Web UI secured with CSP 3.0-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--With same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Access Control-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--SAML Shibboleth-->
@@ -565,6 +573,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Web UI secured with CSP 3.0-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--With same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Access Control-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--SAML Shibboleth-->
@@ -626,6 +635,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Web UI secured with CSP 3.0-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--With same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Access Control-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--SAML Shibboleth-->
@@ -687,6 +697,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Web UI secured with CSP 3.0-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--With same-site cookies-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Access Control-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--SAML Shibboleth-->
