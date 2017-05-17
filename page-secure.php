@@ -90,21 +90,21 @@
 			<div class="col-md-6">
 				<div class="feature">
 					<img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/ldap.svg">
-					<p class="section--paragraph__tittle"><?php echo $l->t('LDAP / Active Directory');?> </p>
-					<p class="section--paragraph"><?php echo $l->t('Nextcloud has extensive LDAP/Active Directory support with an easy installation wizard.');?> </p>
+					<p class="section--paragraph__tittle">LDAP / Active Directory</p>
+					<p class="section--paragraph"><?php echo $l->t('Nextcloud has extensive LDAP/Active Directory support with an easy installation wizard.');?></p>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="feature">
 					<img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/saml.svg">
 					<p class="section--paragraph__tittle">SSO/SAML 2.0</p>
-					<p class="section--paragraph"><?php echo $l->t('Nextcloud supports Single Sign On (SSO) and provides native SAML 2.0 (and Shibboleth) authentication in its web front end and apps.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Nextcloud supports Single Sign On (SSO) and provides native SAML 2.0 (and Shibboleth) authentication in its web front end and apps. The native support avoids time-outs requiring a new login and enables users to manage sessions, have app specific passwords, retrieve user data and group membership and more.');?></p>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="feature">
 					<img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/kerberos.svg">
-					<p class="section--paragraph__tittle">Kerberos and more</p>
+					<p class="section--paragraph__tittle"><?php echo $l->t('Authentication via environment variable');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud can work with Kerberos and other authentication mechanisms like');?> <a class="hyperlink" href="https://github.com/pingidentity/mod_auth_openidc" target="_blank">OAuth2</a>, <a class="hyperlink" href="https://github.com/pingidentity/mod_auth_openidc" target="_blank">OpenID Connect</a>, <a class="hyperlink" href="https://github.com/AnthonyDeroche/mod_authnz_jwt" target="_blank">JWT</a>, <a class="hyperlink" href="https://github.com/Jasig/mod_auth_cas" target="_blank">CAS</a> <?php echo $l->t('or <a class="hyperlink" href="https://httpd.apache.org/docs/2.2/mod/mod_authn_dbd.html" target="_blank">Any SQL database</a> mediated by Apache modules.');?></p>
 				</div>
 			</div>
