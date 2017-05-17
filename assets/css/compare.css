@@ -572,6 +572,9 @@ Main Components
 .fa-check {
   color: #16e300 !important; }
 
+.optional {
+  color: #ffba00 !important; }
+
 .fa-times {
   color: red !important; }
 
@@ -581,7 +584,7 @@ Main Components
 .fa-clock-o {
   color: #d48d00 !important; }
 
-.fa-googl e {
+.fa-google {
   color: #ea9c00 !important; }
 
 /* -------------------------------- 

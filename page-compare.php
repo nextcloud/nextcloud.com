@@ -119,7 +119,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
-							<li title="Mail app is still a work in progress" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="both Android/iOS (Android with integrated 3rd party tool)" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="With Collabora Online" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Secure Drop (customer file upload)-->
@@ -127,7 +127,7 @@
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Automatic script execution-->
-							<li title="Coming in Nextcloud 12" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Monitoring web/API interface-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Data retention policy support-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Long term support (5-10 years)-->
@@ -149,7 +149,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File storage (local/NFS)-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Object storage (S3/Swift)-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--CIFS/Windows Shares-->
-							<li title="Coming in Nextcloud 12" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Sharepoint-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Sharepoint-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible storage-->
 						</ul>
 					</li> <!-- .product -->
@@ -175,15 +175,15 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
 							<li title="" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Outlook integration-->
 								<li class="cd-group"></li> <!--Server features-->
-							<li title="ownCloud touts full text search as a project done for a specific client" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Full text search-->
+							<li title="optional" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i></li> <!--Full text search-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video-->
 							<li title="unsupported" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
-							<li title="unsupported" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
-							<li title="Unsupported. Available for iOS, Android possible with not related third party tool" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
+							<li title="optional" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i>/<i class="fa fa-check optional" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
+							<li title="Optional. Available for iOS, Android possible with not related third party tool" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i>/<i class="fa fa-check optional" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="With Collabora Online" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Online Office-->
-							<li title="only one per user" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Secure Drop (customer file upload)-->
+							<li title="only one per user" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i></li> <!--Secure Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Inter-server sharing-->
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
@@ -713,7 +713,7 @@
 </section>
 <section class="disclaimer">
 <div class="container">
-<p>Information to our best knowledge, gathered April 28 2017. We understand the world is constantly changing, if you see we missed a feature or made a mistake, let us know. You can use <a href="/contact">our contact form.</a></p>
+<p>Based on public information to our best knowledge, gathered May 19 2017. We understand the world is constantly changing, if you see we missed a feature or made a mistake, let us know. You can use <a href="/contact">our contact form.</a></p>
 </div>
 </section>
 <!--<script>
