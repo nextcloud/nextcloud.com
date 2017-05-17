@@ -321,6 +321,9 @@
 	</div>
 	<div class="row">
 	<div class="features--container revealOnScroll">
+			<div class="col-md-6 image--floated">
+				<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP.png" alt="in action" /></a>
+			</div>
 			<div class="col-md-6">
 				<div class="feature">
 					<img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/kerberos.svg">
@@ -329,9 +332,6 @@
 					<p class="section--paragraph"><?php echo $l->t('Included are Universal 2nd Factor (U2F) and Time-based One-Time Password (TOTP) second factor apps, enabling users to use tools like Yubikeys or Google Authenticator to secure their accounts. Admins can enable or disable Two-factor authentication for users on the command line.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Active user sessions can be invalidated through a list, by removing the user in the admin settings or by changing passwords. Users can manage their own sessions and devices.');?></p>
 				</div>
-			</div>
-			<div class="col-md-6">
-				<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP.png" alt="in action" /></a>
 			</div>
 		</div>
 	</div>
@@ -346,6 +346,9 @@
 	</div>
 	<div class="row">
 		<div class="features--container revealOnScroll">
+			<div class="col-md-6 image--floated">
+				<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/security-warnings-nw.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/security-warnings-nw.png" alt="in action" /></a>
+			</div>
 			<div class="col-md-6">
 				<div class="feature">
 					<img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/verified-security.svg">
@@ -355,9 +358,6 @@
 					<p class="section--paragraph"><?php echo $l->t('You can find more information on hardening your Nextcloud installation in our extensive');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_server/harden_server.html" target="_blank" rel="tooltip" title="Information for Admins"><?php echo $l->t('hardening guide</a>');?></p>
 					<p class="section--paragraph"><?php echo $l->t('We provide the <a class="hyperlink" href="https://scan.nextcloud.com">Nextcloud Security Scanner</a> to check the security of your private cloud server.');?></p>
 				</div>
-			</div>
-			<div class="col-md-6">
-				<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/security-warnings-nw.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/security-warnings-nw.png" alt="in action" /></a>
 			</div>
 		</div>
 	</div>
@@ -373,6 +373,9 @@
 	</div>
 	<div class="row">
 		<div class="features--container revealOnScroll">
+			<div class="col-md-6 image--floated">
+				<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-nw.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/encryption-nw.png" alt="in action" /></a>
+			</div>
 			<div class="col-md-6">
 				<div class="feature">
 					<img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/saml.svg">
@@ -382,9 +385,6 @@
 					<p class="section--paragraph__tittle"><?php echo $l->t('Encrypt data at rest');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Server Side Encryption can also be used on local storage. However, inherent to the concept of server side encryption, encryption keys will be present in memory of the Nextcloud server during the time a user is logged in and could be retrieved by a determined attacker. We take care to ensure keys are not stored unencrypted on permanent storage and at rest keys are encrypted using a strong cipher.');?></p>
 				</div>
-			</div>
-			<div class="col-md-6">
-				<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-nw.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/encryption-nw.png" alt="in action" /></a>
 			</div>
 		</div>
 	</div>

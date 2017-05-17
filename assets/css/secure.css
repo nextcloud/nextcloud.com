@@ -39,9 +39,11 @@
       .featureblock .features--container .feature img.icon {
         display: block;
         margin: 0 auto; }
+  .featureblock .image--floated {
+    float: right; }
   .featureblock .screenshot {
     /* 	padding: 20px; */
-    margin-top: 80px;
+    margin-top: 160px;
     margin-bottom: 20px;
     border: solid 1px transparent;
     border-radius: 0px;
@@ -52,6 +54,10 @@
       border: solid 1px #fbfbfb;
       border-radius: 0px;
       transition: all 0.5s ease; }
+  @media (max-width: 768px) {
+    .featureblock .screenshot {
+      margin-top: 0;
+      margin-bottom: 15px; } }
   .featureblock h2 {
     color: #2a2a36;
     margin-top: 25px;

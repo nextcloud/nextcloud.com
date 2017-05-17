@@ -51,10 +51,12 @@
 			}
 		}
 	}
-	
+	.image--floated{
+		float: right;
+	}	
 	.screenshot {
 	/* 	padding: 20px; */
-		margin-top: 80px;
+		margin-top: 160px;
 		margin-bottom: 20px;
 		border: solid 1px transparent;
 		border-radius: 0px;
@@ -66,6 +68,12 @@
 		border: solid 1px #fbfbfb;
 		border-radius: 0px;
 		transition: all 0.5s ease;
+		}
+	}
+	@media  (max-width: $break-small) {
+		.screenshot {
+		margin-top: 0;
+		margin-bottom: 15px;
 		}
 	}
 	
