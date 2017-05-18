@@ -107,6 +107,16 @@
 						<td>May 13-14</td>
 					</tr>
 					<tr>
+						<td><a  class="hyperlink" target="_blank" href="https://no-spy.org/">No-Spy conf</a></td>
+						<td>Stuttgart, Nuremberg</td>
+						<td>May 19-21</td>
+					</tr>
+					<tr>
+						<td><a  class="hyperlink" target="_blank" href="https://events.opensuse.org/conference/oSC17/">openSUSE Conference</a></td>
+						<td>Nuremberg, Germany</td>
+						<td>May 26-28</td>
+					</tr>
+					<tr>
 						<td><a  class="hyperlink" target="_blank" href="https://tnc17.geant.org">TNC17</a></td>
 						<td>Linz, Austria</td>
 						<td>May 29-June 2</td>
