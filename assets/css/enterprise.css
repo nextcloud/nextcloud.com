@@ -55,19 +55,6 @@
   .what-you-get-section .container p {
     max-width: 43.24878em;
     margin: 0 auto; }
-  .what-you-get-section .container ul {
-    max-width: 43.24878em;
-    margin: 0 auto;
-    margin-top: 40px; }
-    .what-you-get-section .container ul .check {
-      font-size: 22px;
-      font-weight: 300;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 2.0;
-      color: #555555;
-      list-style-image: url("../img/enterprise/check.svg");
-      list-style-position: inside; }
 
 .section--expertise .container {
   padding-top: 8.54297em;
