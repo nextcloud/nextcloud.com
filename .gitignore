@@ -6,5 +6,9 @@ node_modules/
 l10n/
 *.css.map
 .idea/
+<<<<<<< Updated upstream
 .DS_Store
 *.kate-swp
+=======
+*.DS_Store
+>>>>>>> Stashed changes
