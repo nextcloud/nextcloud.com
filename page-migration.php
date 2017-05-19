@@ -90,6 +90,7 @@
 	<ul>
 		<li class="section--paragraph"><?php echo $l->t('ownCloud 9.0.x is compatible with Nextcloud 9.0.x');?></li>
 		<li class="section--paragraph"><?php echo $l->t('ownCloud 9.1.x is compatible with Nextcloud 10.0.x');?></li>
+		<li class="section--paragraph"><?php echo $l->t('ownCloud 10.0.x is compatible with Nextcloud 12.0.x');?></li>
 	</ul>
 	<p class="section--paragraph"><?php echo $l->t('This essentially means you can treat Nextcloud 9.0.x as an upgrade to ownCloud 9.0.x and Nextcloud 10.0.x as an upgrade to ownCloud 9.1.x');?></p>
 	<p class="section--paragraph"><?php echo $l->t('These are some examples of an upgrade path. The minor release (.x below) should always be the latest bugfix release. You can find these on the changelog pages, <a  class="hyperlink" href="/changelog">here for Nextcloud.</a>');?></p>
@@ -109,6 +110,7 @@
 		<li class="section--paragraph"><?php echo $l->t('File Firewall');?></li>
 		<li class="section--paragraph"><?php echo $l->t('File Automated Tagging');?></li>
 		<li class="section--paragraph"><?php echo $l->t('Files Drop');?></li>
+		<li class="section--paragraph"><?php echo $l->t('SharePoint');?></li>
 	</ul>
 	<p class="section--paragraph"><?php echo $l->t('The open source replacements of these apps in Nextcloud offer at least the same and typically more capabilities. Configuration settings not mentioned in this list will be carried over from ownCloud to Nextcloud during upgrade.');?>
 	<h2 class="section--paragraph__tittle"><?php echo $l->t('License Compliance');?></h2>
