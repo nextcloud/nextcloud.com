@@ -108,9 +108,15 @@
 					</tr>
 					<tr>
 						<td><a  class="hyperlink" target="_blank" href="https://no-spy.org/">No-Spy conf</a></td>
-						<td>Stuttgart, Nuremberg</td>
+						<td>Stuttgart, Germany</td>
 						<td>May 19-21</td>
 					</tr>
+					<tr>
+						<td><a  class="hyperlink" target="_blank" href="https://eventyay.com/e/5642d9a1/">OpenTechSummit</a></td>
+						<td>Berlin, Germany</td>
+						<td>May 26</td>
+					</tr>
+
 					<tr>
 						<td><a  class="hyperlink" target="_blank" href="https://events.opensuse.org/conference/oSC17/">openSUSE Conference</a></td>
 						<td>Nuremberg, Germany</td>
