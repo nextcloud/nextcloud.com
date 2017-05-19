@@ -49,7 +49,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 // 		'contributors',
 		'design',
 		'desktop',
-		'devices',
+//		'devices',
 // 		'events',
 		'faq',
 		'federation',

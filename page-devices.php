@@ -1,55 +1,75 @@
-<div class="row">
-	<div class="col-sm-8 col-sm-offset-2">
-		<h1 class="text-center"><?php echo $l->t('Nextcloud Devices');?></h2>
-		<p><?php echo $l->t('Companies in and around the Nextcloud ecosystem offer hardware appliances with Nextcloud out of the box. Find some here and <a href="/contact">contact us</a> if you offer devices with Nextcloud and want to be featured.');?></p>
-	</div>
+<head>
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/devices.css" rel="stylesheet">
+<link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
+
+<script>
+	require(["require.config"], function() {
+		require(["vendor/jquery.min", "vendor/jquery.ui", "bootstrap", "pages/devices"],
+			function ($, jqueryui) {
+				require(["vendor/jquery.youtubepopup"],
+					function (jqyoutube) {
+						jQuery("a.youtube").YouTubePopup({ hideTitleBar: true });
+					}
+				);
+			}
+		);
+	});
+</script>
+</head>
+
+<div class="background sharing-background">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 revealOnScroll topheader">
+                <h1><?php echo $l->t('Keep your server at home.');?></h1>
+                <h2><?php echo $l->t('Companies all around us build hardware Nextcloud runs on out of the box.');?></h2>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="row">
-	<div class="col-md-6">
-		<img class="device-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/pidrive/box.jpg" alt="" />
-		<h1 class="text-center"><?php echo $l->t('The Nextcloud Box');?></h1>
-		<p><?php echo $l->t('The Nextcloud box comes preinstalled with Nextcloud, running on <a href="https://developer.ubuntu.com/en/snappy/" target="_blank">Snappy Ubuntu Core</a> as the OS. The hardware:');?></p>
-		<ul>
-			<li><?php echo $l->t('1 TB USB3 hard drive from WDLabs');?></li>
-			<li><?php echo $l->t('Nextcloud case with room for the drive and a compute board');?></li>
-			<li><?php echo $l->t('microUSB charger, cables and adapters, a screw driver and screws');?></li>
-		</ul>
-		<p><?php echo $l->t('The Box is compatible with the Raspberry Pi 2 <strong>(not included)</strong>. Support for other boards is coming.');?></p>
-		<p><?php echo $l->t('The Nextcloud Box starts at EUR 70 / USD 79.99');?></p>
-		<div class="text-center morebuttondiv">
-				<a href="/box" class="btn btn-primary morebutton" target="_blank"><?php echo $l->t('Learn more!');?> <i class="icon-arrow-circle-o-right icon"></i></a>
-		</div>
-	</div>
-	<div class="col-md-6">
-		<img class="device-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/spreedbox/spreedbox.jpg" alt="" />
-		<h1 class="text-center"><?php echo $l->t('The Spreedbox');?></h1>
-		<p><?php echo $l->t('The Spreedbox is a video chat and file exchange solution for home and small enterprise usage.');?></p>
-		<p><?php echo $l->t('It offers:');?></p>
-		<ul>
-			<li><?php echo $l->t('Strong, end-to-end encrypted audio and video chat');?></li>
-			<li><?php echo $l->t('Nextcloud based file sync and share');?></li>
-			<li><?php echo $l->t('Advanced security features with a silicon hardware key generator');?></li>
-		</ul>
-		<p><?php echo $l->t('The Spreedbox offers an optional SIP gateway, enabling web conferencing participants to dial in through a traditional telephone connection.');?></p>
-		<p><?php echo $l->t('The Spreedbox starts at EUR 1349 Excl. VAT with 1 year support');?></p>
-		<div class="text-center morebuttondiv">
-				<a href="/spreedbox" class="btn btn-primary morebutton" target="_blank"><?php echo $l->t('Learn more!');?> <i class="icon-arrow-circle-o-right icon"></i></a>
-		</div>
-	</div>
-	<div class="col-md-6">
-		<img class="device-img img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/syncloud/syncloud.jpg" alt="">
-  	<h1 class="text-center"><?php echo $l->t('Syncloud');?></h1>
-		<p><?php echo $l->t('Syncloud is a home server device which fully supports Nextcloud.');?></p>
-		<p><?php echo $l->t('It features:');?></p>
-		<ul>
-			<li><?php echo $l->t('Easy installation and activation');?></li>
-			<li><?php echo $l->t('Selection of hardware among 10+ boards');?></li>
-			<li><?php echo $l->t('Easy use of external hard drives for storage');?></li>
-			<li><?php echo $l->t('Domain name for device and access to device through Internet');?></li>
-			<li><?php echo $l->t('Automatic HTTPS setup');?></li>
-			<li><?php echo $l->t('More applications');?></li>
-		</ul>
-		<p><?php echo $l->t('Syncloud devices start around USD 50.');?></p>
-		<div class="text-center morebuttondiv"> <a href="http://syncloud.org" class="btn btn-primary morebutton" target="_blank"><?php echo $l->t('Learn more!');?> <i class="icon-arrow-circle-o-right icon"></i></a></div>
-	</div>
-</div>
+
+<section class="section--devices">
+    <div class="container">
+        <div class="row revealOnScroll feature--block">
+            <div class="col-md-5">
+                <a href="/box"><img src="<?php bloginfo('template_directory'); ?>/assets/img/box/box-perspective.png" class="img-responsive featureimg" /></a>
+            </div>
+            <div class="col-md-7">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Box');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The Nextcloud Box comes preinstalled with Nextcloud, running on Ubuntu Core (based on the new super-secure, remotely upgradeable Linux app packages known as snaps) as the OS.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The box consists of a 1 TB USB3 hard drive from WDLabs, a Nextcloud case with room for the drive and a compute board, a microUSB charger, cables and adapters, a screw driver and screws');?></p>
+								<p class="section--paragraph"><?php echo $l->t('The Box is compatible with the Raspberry Pi 2 (not included!). Support for other boards (e.g. Raspberry Pi 3) is coming soon.');?></p>
+								<a href="/box" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+            </div>
+        </div>
+				<div class="container">
+						<div class="row revealOnScroll feature--block">
+								<div class="col-md-5">
+										<a href="/spreedbox"><img src="<?php bloginfo('template_directory'); ?>/assets/img/spreedbox/spreedbox.png" class="img-responsive featureimg" /></a>
+								</div>
+								<div class="col-md-7">
+								<p class="section--paragraph__tittle"><?php echo $l->t('Spreedbox');?></p>
+										<p class="section--paragraph"><?php echo $l->t('Behind the award-winning designed device by struktur AG operates a secure video chat and file exchange solution for small enterprise usage.');?></p>
+										<p class="section--paragraph"><?php echo $l->t('It offers Strong end-to-end encrypted audio and video chat, a Nextcloud based file sync and share solution and advanced security features with a silicon hardware key generator.');?></p>
+										<p class="section--paragraph"><?php echo $l->t('The Spreedbox offers an optional SIP gateway, enabling web conferencing participants to dial in through a traditional telephone connection.');?></p>
+										<a href="/spreedbox" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+								</div>
+						</div>
+						<div class="container">
+								<div class="row revealOnScroll feature--block">
+										<div class="col-md-5">
+												<a href="<?php bloginfo('template_directory'); ?>/assets/img/syncloud/syncloud.jpg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/syncloud/syncloud.jpg" class="img-responsive featureimg" /></a>
+										</div>
+										<div class="col-md-7">
+										<p class="section--paragraph__tittle"><?php echo $l->t('Syncloud');?></p>
+												<p class="section--paragraph"><?php echo $l->t('Syncloud is a home server device which fully supports Nextcloud.');?></p>
+												<p class="section--paragraph"><?php echo $l->t('It features easy installation and activation, selection of hardware among 10+ boards, easy use of external hard drives for storage, domain name for device and access to device through Internet, automatic HTTPS setup and more applications.');?></p>
+												<a href="http://syncloud.org" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+											</div>
+										</div>
+												</div>
+													</section>
+												<div class="calltoaction">
+														<h1 class="section--heading-2 section--text--center"><?php echo $l->t('Interested in building Nextcloud Devices?');?></h1>
+														<p class="section--paragraph section--text--center"><?php echo $l->t('You can <a class="hyperlink" href="/contact/">get in touch</a> with us, and we will help you with individual offerings and get your devices listed on this page.');?></p>
+												</div>
