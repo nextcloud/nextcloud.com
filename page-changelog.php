@@ -4,11 +4,95 @@
 <p>Go directly to the latest maintenance release of:</p>
 <ul>
 <li><a href="#latest11">Nextcloud 11</a></li>
-<li><a href="#latest10">Nextcloud 10</a></li>
-<li><a href="#latest9">Nextcloud 9</a></li>
+<li><a href="#latest10">Nextcloud 10 (End of Life in 2017-05)</a></li>
+<li><a href="#latest9">Nextcloud 9 (End of Life since 2017-04)</a></li>
 </ul>
 
 <a name="latest11"></a>
+<h3 id="11-0-3">Version 11.0.3 <small>April 24 2017</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.3.tar.bz2">nextcloud-11.0.3.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.3.zip">nextcloud-11.0.3.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.3.tar.bz2.md5">nextcloud-11.0.3.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.3.zip.md5">nextcloud-11.0.3.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.3.tar.bz2.sha256">nextcloud-11.0.3.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.3.zip.sha256">nextcloud-11.0.3.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.3.tar.bz2.sha512">nextcloud-11.0.3.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.3.zip.sha512">nextcloud-11.0.3.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.3.tar.bz2.asc">nextcloud-11.0.3.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.3.zip.asc">nextcloud-11.0.3.zip.asc</a></p>
+
+<h4>Changes</h4>
+<h5>Server</h5>
+<ul>
+ 	<li>Use the correct principal for shared addressbooks (<a href="https://github.com/nextcloud/server/pull/3608">server/3608</a>)</li>
+ 	<li>Fix saving backup codes by using a correct data uri (<a href="https://github.com/nextcloud/server/pull/3652">server/3652</a>)</li>
+ 	<li>Update icewind/streams to 0.5.2 (<a href="https://github.com/nextcloud/server/pull/3293">server/3293</a>)</li>
+ 	<li>Fix string comparison and return docs (<a href="https://github.com/nextcloud/server/pull/3665">server/3665</a>)</li>
+ 	<li>Typecast shared mount's storage_id to int as documented + some refactor to avoid similar bugs (<a href="https://github.com/nextcloud/server/pull/3658">server/3658</a>)</li>
+ 	<li>Use a proper date format for transfer ownership (<a href="https://github.com/nextcloud/server/pull/3700">server/3700</a>)</li>
+ 	<li>DAV sharing permissions should not depend on the order (<a href="https://github.com/nextcloud/server/pull/3722">server/3722</a>)</li>
+ 	<li>Add new user agent of windows 10 dav backend (<a href="https://github.com/nextcloud/server/pull/3764">server/3764</a>)</li>
+ 	<li>Add back appstoreenabled config switch (<a href="https://github.com/nextcloud/server/pull/3767">server/3767</a>)</li>
+ 	<li>Call right function after sudo mode (<a href="https://github.com/nextcloud/server/pull/3820">server/3820</a>)</li>
+ 	<li>Dont allow empty wildcard search (<a href="https://github.com/nextcloud/server/pull/3842">server/3842</a>)</li>
+ 	<li>Remove single quotes around search query like in user search (<a href="https://github.com/nextcloud/server/pull/3849">server/3849</a>)</li>
+ 	<li>Fix mimetype detection on public uploads for the workflow engine (<a href="https://github.com/nextcloud/server/pull/3765">server/3765</a>)</li>
+ 	<li>Fix branding and show Nextcloud (<a href="https://github.com/nextcloud/server/pull/3969">server/3969</a>)</li>
+ 	<li>Fix reshare with user activity message (<a href="https://github.com/nextcloud/server/pull/3981">server/3981</a>)</li>
+ 	<li>Create correct VCard and return correct error codes (<a href="https://github.com/nextcloud/server/pull/4029">server/4029</a>)</li>
+ 	<li>Prevent migration from ownCloud 10 to Nextcloud 11 (<a href="https://github.com/nextcloud/server/pull/3415">server/3415</a>)</li>
+ 	<li>Make sure transparency is an integer when saving a calendar (<a href="https://github.com/nextcloud/server/pull/4167">server/4167</a>)</li>
+ 	<li>Make public links work with master key (<a href="https://github.com/nextcloud/server/pull/4207">server/4207</a>)</li>
+ 	<li>Don't try to render the avatars if avatars are disabled (<a href="https://github.com/nextcloud/server/pull/4214">server/4214</a>)</li>
+ 	<li>Reduce error message text (<a href="https://github.com/nextcloud/server/pull/4228">server/4228</a>)</li>
+ 	<li>Don't list on public calendar endpoints (<a href="https://github.com/nextcloud/server/pull/4229">server/4229</a>)</li>
+ 	<li>Fix upload of folders in Chrome (<a href="https://github.com/nextcloud/server/pull/4154">server/4154</a>)</li>
+ 	<li>Make sure blob columns are correctly converted as parameters (<a href="https://github.com/nextcloud/server/pull/4233">server/4233</a>)</li>
+ 	<li>Save the scope of an auth token in the session (<a href="https://github.com/nextcloud/server/pull/4225">server/4225</a>)</li>
+ 	<li>Take share by mail into consideration if we calculate the access list (<a href="https://github.com/nextcloud/server/pull/4242">server/4242</a>)</li>
+ 	<li>Also add the root of external storages to the file id list (<a href="https://github.com/nextcloud/server/pull/4237">server/4237</a>)</li>
+ 	<li>Fix LDAP description (<a href="https://github.com/nextcloud/server/pull/4238">server/4238</a>)</li>
+ 	<li>Remove the double password confirmation on changing cron (<a href="https://github.com/nextcloud/server/pull/4236">server/4236</a>)</li>
+ 	<li>Fix scheduling plugin on legacy caldav endpoint (<a href="https://github.com/nextcloud/server/pull/4235">server/4235</a>)</li>
+ 	<li>Directly fix invalid values of DTEND and DTSTART (<a href="https://github.com/nextcloud/server/pull/4234">server/4234</a>)</li>
+ 	<li>Make JobList::next() lock free (<a href="https://github.com/nextcloud/server/pull/4254">server/4254</a>)</li>
+ 	<li>Don't remove owner property for public calendars (<a href="https://github.com/nextcloud/server/pull/4272">server/4272</a>)</li>
+ 	<li>Add capabilities for share by mail (<a href="https://github.com/nextcloud/server/pull/4251">server/4251</a>)</li>
+ 	<li>Dont use the permissions mask while scanning (<a href="https://github.com/nextcloud/server/pull/4278">server/4278</a>)</li>
+ 	<li>Add missing maintenance plugin to new DAV endpoint (<a href="https://github.com/nextcloud/server/pull/4290">server/4290</a>)</li>
+ 	<li>Fix bug with shared_by for own calendars if shared (<a href="https://github.com/nextcloud/server/pull/4301">server/4301</a>)</li>
+ 	<li>Translation string corrected > 1 user (<a href="https://github.com/nextcloud/server/pull/4377">server/4377</a>)</li>
+</ul>
+<h5>Activity</h5>
+<ul>
+ 	<li>Fix activities for "Files drop" on external storages (<a href="https://github.com/nextcloud/activity/pull/118">activity/118</a>)</li>
+</ul>
+<h5>User_SAML</h5>
+<ul>
+ 	<li>Bump to php-saml 2.10.5 (<a href="https://github.com/nextcloud/user_saml/pull/100">user_saml/100</a>)</li>
+</ul>
+<h5>Logreader</h5>
+<ul>
+ 	<li>Small screen layout improvements (<a href="https://github.com/nextcloud/logreader/commit/2bcd915969386ceb77c7f91dfd5fc19fd3212346%5D">logreader/2bcd915969386ceb77c7f91dfd5fc19fd3212346</a></li>
+ 	<li>Fix log filtering (<a href="https://github.com/nextcloud/logreader/commit/4095dfc62dcceb3c59a3f581baa5589737d0e6f3">logreader/4095dfc62dcceb3c59a3f581baa5589737d0e6f3</a>)</li>
+ 	<li>Greatly speedup log iteration (<a href="https://github.com/nextcloud/logreader/commit/71a4c6849641f821e80d96674c57a69fe7a8aa9e">logreader/71a4c6849641f821e80d96674c57a69fe7a8aa9e</a>)</li>
+ 	<li>Search more rows (<a href="https://github.com/nextcloud/logreader/commit/b9d00b5599ac8a76862895266f1c23096391aad8">logreader/b9d00b5599ac8a76862895266f1c23096391aad8</a>)</li>
+ 	<li>Stop iterating if we dont have a valid file handle (<a href="https://github.com/nextcloud/logreader/commit/a87a8e653ecae5efef6342e645b98f2878219c87">logreader/a87a8e653ecae5efef6342e645b98f2878219c87</a>)</li>
+ 	<li>Don't return a LogIterator on a broken handle (<a href="https://github.com/nextcloud/logreader/commit/39069108f99d463b1cb8bc944f3ef24324b9f43d">logreader/39069108f99d463b1cb8bc944f3ef24324b9f43d</a>)</li>
+ 	<li>More robust log iteration (<a href="https://github.com/nextcloud/logreader/commit/c0eb04d55bf1dee94ef523dae0e3b0e6afc272a6">logreader/c0eb04d55bf1dee94ef523dae0e3b0e6afc272a6</a>)</li>
+ 	<li>Use proper iso date format (<a href="https://github.com/nextcloud/logreader/commit/13a31181a6d72d084797a71f49f2c5edee8c8dae">logreader/13a31181a6d72d084797a71f49f2c5edee8c8dae</a>)</li>
+ 	<li>Automatically try to fix some common escape errors from copy-pasted log entries (<a href="https://github.com/nextcloud/logreader/commit/031db2a7f9b9f8cee42acf6eae7d993d31d4660a">logreader/031db2a7f9b9f8cee42acf6eae7d993d31d4660a</a>)</li>
+ 	<li>Fix stack trace parsing of incorrectly escaped logentries (<a href="https://github.com/nextcloud/logreader/commit/538667770edfdd48374ef33e9c15498ed98ece60">logreader/538667770edfdd48374ef33e9c15498ed98ece60</a>)</li>
+ 	<li>Highlight entries from the same request when clicking on an entry (<a href="https://github.com/nextcloud/logreader/commit/2d1ccd0e4cca32220fcbe0b4d79d1cd23f0e73a5">logreader/2d1ccd0e4cca32220fcbe0b4d79d1cd23f0e73a5</a>)</li>
+ 	<li>Fix copy paste info searchfield (<a href="https://github.com/nextcloud/logreader/commit/0e91b2f46649a720feb7c3b6b8266b8657db5574">logreader/0e91b2f46649a720feb7c3b6b8266b8657db5574</a>)</li>
+ 	<li>Fix reset search after 0 results (<a href="https://github.com/nextcloud/logreader/commit/50bec8ecf7edd81cfb96a35089283c0d879b41f3">logreader/50bec8ecf7edd81cfb96a35089283c0d879b41f3</a>)</li>
+ 	<li>Allow searching for requestId and user (<a href="https://github.com/nextcloud/logreader/commit/7f84e55bb4a1e4086ab0918a6bf58ad3885bbd91">logreader/7f84e55bb4a1e4086ab0918a6bf58ad3885bbd91</a>)</li>
+ 	<li>Allow searching in url (<a href="https://github.com/nextcloud/logreader/commit/7833d97cf85fd351d2f7550d67d21bd0c2a815f4">logreader/7833d97cf85fd351d2f7550d67d21bd0c2a815f4</a>)</li>
+ 	<li>Fix infinite scroll (<a href="https://github.com/nextcloud/logreader/commit/cbe874c6c068b9156ad8456edf31d112da40cbc9">logreader/cbe874c6c068b9156ad8456edf31d112da40cbc9</a>)</li>
+ 	<li>Dont show loading indicator if we already have entries (<a href="https://github.com/nextcloud/logreader/commit/d26a08dc0540126177e8d20c3e243b44c5a399c4">logreader/d26a08dc0540126177e8d20c3e243b44c5a399c4</a>)</li>
+</ul>
+<h5>Gallery</h5>
+<ul>
+ 	<li>Fix upload after core changes (<a href="https://github.com/nextcloud/gallery/commit/b4ac4429841cfe2b7ea260dfb37fcde25580143c">gallery/b4ac4429841cfe2b7ea260dfb37fcde25580143c</a>)</li>
+ 	 <li>Update JavaScript libraries (<a href="https://github.com/nextcloud/gallery/pull/247">gallery/247</a>)</li>
+</ul>
+
 <h3 id="11-0-2">Version 11.0.2 <small>February 27 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.2.tar.bz2">nextcloud-11.0.2.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.2.zip">nextcloud-11.0.2.zip</a></br>
 Check the file integrity with:</br>
@@ -169,6 +253,32 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p><a href="https://github.com/nextcloud/server/milestone/6?closed=1">See a full list of integrated pull requests here.</a></p>
 
 <a name="latest10"></a>
+<h3 id="10-0-5">Version 10.0.5 <small>April 24 2017</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.5.tar.bz2">nextcloud-10.0.5.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.5.zip">nextcloud-10.0.5.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.5.tar.bz2.md5">nextcloud-10.0.5.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.5.zip.md5">nextcloud-10.0.5.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.5.tar.bz2.sha256">nextcloud-10.0.5.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.5.zip.sha256">nextcloud-10.0.5.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.5.tar.bz2.sha512">nextcloud-10.0.5.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.5.zip.sha512">nextcloud-10.0.5.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.5.tar.bz2.asc">nextcloud-10.0.5.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.5.zip.asc">nextcloud-10.0.5.zip.asc</a></p>
+
+<h4>Changes</h4>
+<h5>Server</h5>
+<ul>
+ 	<li>Fix typo in advertisment footer (<a href="https://github.com/nextcloud/server/pull/3664">server/3664</a>)</li>
+ 	<li>Fix branding and show Nextcloud (<a href="https://github.com/nextcloud/server/pull/3970">server/3970</a>)</li>
+ 	<li>Make sure transparency is an integer when saving a calendar (<a href="https://github.com/nextcloud/server/pull/4168">server/4168</a>)</li>
+ 	<li>Reduce error message text (<a href="https://github.com/nextcloud/server/pull/4227">server/4227</a>)</li>
+ 	<li>Fix LDAP description (<a href="https://github.com/nextcloud/server/pull/4239">server/4239</a>)</li>
+</ul>
+<h5>User_SAML</h5>
+<ul>
+ 	<li>Bump to php-saml 2.10.5 (<a href="https://github.com/nextcloud/user_saml/pull/101">user_saml/101</a>)</li>
+</ul>
+
+<h5>Gallery</h5>
+<ul>
+ 	 <li>Bump to newest DOMPurify release (<a href="https://github.com/nextcloud/gallery/pull/249">gallery/249</a>)</li>
+</ul>
 
 <h3 id="10-0-4">Version 10.0.4 <small>February 27 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.4.tar.bz2">nextcloud-10.0.4.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.4.zip">nextcloud-10.0.4.zip</a></br>
@@ -386,6 +496,29 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 </ul>
 
 <a name="latest9"></a>
+<h3 id="9-0-58">Version 9.0.58 <small>April 24 2017</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-9.0.58.tar.bz2">nextcloud-9.0.58.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-9.0.58.zip">nextcloud-9.0.58.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-9.0.58.tar.bz2.md5">nextcloud-9.0.58.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-9.0.58.zip.md5">nextcloud-9.0.58.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-9.0.58.tar.bz2.sha256">nextcloud-9.0.58.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-9.0.58.zip.sha256">nextcloud-9.0.58.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-9.0.58.tar.bz2.sha512">nextcloud-9.0.58.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-9.0.58.zip.sha512">nextcloud-9.0.58.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-9.0.58.tar.bz2.asc">nextcloud-9.0.58.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-9.0.58.zip.asc">nextcloud-9.0.58.zip.asc</a></p>
+
+<h4>Changes</h4>
+
+<h5>Server</h5>
+<ul>
+ 	<li>Replace unecessary unescaped prints with print (<a href="https://github.com/nextcloud/server/pull/4226">server/4226</a>)</li>
+</ul>
+<h5>User_SAML</h5>
+<ul>
+ 	<li>Bump to php-saml 2.10.5 (<a href="https://github.com/nextcloud/user_saml/pull/102">user_saml/102</a>)</li>
+</ul>
+</div>
+<h5>Gallery</h5>
+<ul>
+ 	 <li>Bump to newest DOMPurify release (<a href="https://github.com/nextcloud/gallery/pull/250">gallery/250</a>)</li>
+</ul>
 
 <h3 id="9-0-57">Version 9.0.57 <small>February 27 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-9.0.57.tar.bz2">nextcloud-9.0.57.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-9.0.57.zip">nextcloud-9.0.57.zip</a></br>

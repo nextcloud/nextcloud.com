@@ -66,18 +66,28 @@ body {
 h1, h2, h3 {
 	font-weight: 300;
 }
+h4 {
+	font-weight: 600;
+}
 h1 {
 	font-size: 45px;
 }
 h2 {
-	font-size: 27px;
+	font-size: 35px;
 	margin-bottom: 12px;
 }
 h3 {
+	font-size: 27px;
+	margin: 12px 0;
+}
+h4 {
 	font-size: 22px;
 	margin: 12px 0;
 }
-
+h5 {
+	font-size: 22px;
+	margin: 12px 0;
+}
 /* A nice looking block quote */
 blockquote {
   background: none;
@@ -220,7 +230,7 @@ button a:hover {text-decoration: none; }
 }
 .brand > img {
 	height: 50px;
-	margin-top: 2px; 
+	margin-top: 2px;
 }
 
 #navbar {
@@ -363,7 +373,7 @@ button a:hover {text-decoration: none; }
     padding: 10px 15px;
 	text-decoration: none;
 }
-	
+
 .menu-install:hover	{
 /* 	background: #428bca !important; */
 }
@@ -1233,7 +1243,7 @@ body.install .installers ul.tabs li {
 	float: left;
 	list-style: none;
 	margin-left: 5px;
-	padding-left: 0; 
+	padding-left: 0;
 }
 
 body.install .overlay-header, .overlay-footer {
@@ -1398,7 +1408,7 @@ img.desaturate {
 	padding: 10px;
 	padding-left: 30px;
 	padding-right: 30px;
-	
+
 }
 
 /* ownCloud.org/features features page*/
@@ -1416,7 +1426,7 @@ img.desaturate {
 	min-height: 700px;
 	opacity: 1;
 	visibility: inherit;
-	background-image: url("../../img/spreedbox/spreedbox.png");
+	background-image: url("../../img/spreedbox/spreedbox_banner.png");
 	background-color: rgba(0, 0, 0, 0);
 	background-size: cover;
 	background-position: center top;
@@ -1501,8 +1511,8 @@ text-align: center;
 	.featuregroup {
 		text-align: center;
 	}
-	
-	
+
+
 }
 
 .morebuttondiv {

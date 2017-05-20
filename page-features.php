@@ -92,7 +92,7 @@
 
 		<div class="col-md-6 revealOnScroll feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Security first');?></p>
-			<p class="section--paragraph"><?php echo $l->t('We are deeply committed to protect the safety of the data of our customers and users. We are confident that Nextcloud offers the best security in the open source file sync and share industry, because:');?></p>
+			<p class="section--paragraph"><?php echo $l->t('We are deeply committed to protect the safety of the data of our customers and users. We are confident that Nextcloud offers the best security in the self hosted file sync and share industry, because:');?></p>
 			<p class="section--paragraph"><?php echo $l->t('we follow industry best practices around security (aligned to <a class="hyperlink" href="https://en.wikipedia.org/wiki/ISO/IEC_27001:2013">ISO27001</a>)');?></p>
 			<p class="section--paragraph"><?php echo $l->t('we offer some of the <a class="hyperlink" href="https://nextcloud.com/introducing-the-nextcloud-bug-bounty-program/" target="_blank">highest open source security bug bounties</a>');?></p>
 			<p class="section--paragraph"><?php echo $l->t('');?></p>
@@ -151,9 +151,10 @@
 		<div class="col-md-6 revealOnScroll">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"/></a>
 		</div>
-			<p class="section--paragraph__tittle"><?php echo $l->t('External storage, secure encrypted');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('External storage, securely encrypted');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The external storage feature of Nextcloud gives you access to your data wherever it is. Nextcloud can access files stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but you can also access them using standard protocols such as NFS, (S)FTP, WebDAV and more.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The Encryption App can encrypt data at rest for both local and remote storage, protecting data stored on networks outside of your infrastructure. Keys can be handled by an external key management server or stored locally, on the server. Nextcloud will keep your data where it is and retrieve it over a secure communication channel whenever you need to access it.');?></p>
+			<a href="/storage" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
 		</div>
 	</div>
 </section>
@@ -299,8 +300,25 @@
         <p class=""><?php echo $l->t('Built in, easy to use theming to set color, login background and logo from Administrator screen.');?></p>
         </div>
     </div>
+    <div class="row revealOnScroll">
+        <div class="col-md-1 featureblock">
+        </div>
+        <div class="col-md-3 featureblock">
+        </div>
+        <div class="col-md-1 featureblock">
+<!--        <i class="fa-copy fa"></i>-->
+        </div>
+        <div class="col-md-3 featureblock">
+        <p class=""><?php echo $l->t('<br />... see how we <a class="hyperlink" href="/compare">compare to other solutions!</a>');?></p>
+        </div>
+        <div class="col-md-1 featureblock">
+        </div>
+        <div class="col-md-3 featureblock">
+        </div>
+    </div>
 </div>
 </section>
+
 
 <div class="calltoaction revealOnScroll">
 	<h1 class="section--heading-2 section--text--center"><?php echo $l->t('Get started now');?></h1>

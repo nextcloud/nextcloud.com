@@ -8,12 +8,13 @@
 </script>
 </head>
 <div class="jumbotron">
+	<img class="jumbotron__pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/pattern.svg" alt="">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-releases-security-scanner-to-help-protect-private-clouds/">
+				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-12-beta-introduces-the-next-generation-of-secure-collaboration/">
 				<span class="type">Fresh</span>
-				<span class="message"><strong>Nextcloud released a Security Scanner.</strong> Check if your data is secure!</span>
+				<span class="message"><strong>Nextcloud 12 Beta is out.</strong> Find out what is new!</span>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('A safe home for all your data');?></h1>
 				<h2 class="jumbotron--lead"><?php echo $l->t('Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.');?></h2>
@@ -23,7 +24,7 @@
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/empty.png"> <!--empty image to ensure the viewport is big enough-->
 			</div>
 		</div>
-	</div> 
+	</div>
 </div>
 
 <section id="why-nextcloud">
@@ -118,6 +119,14 @@
 	        </div>
         </div>
     </div>
+</section>
+
+<section class="section--compare">
+<div class="calltoaction revealOnScroll">
+	<h1 class="section--heading-2 section--text--center"><?php echo $l->t('See how we stack up');?></h1>
+	<p class="section--paragraph section--text--center">
+	<a href="/compare" class="button button--blue button--arrow button--large"><?php echo $l->t('Compare Nextcloud to other solutions');?></a></p>
+</div>
 </section>
 
 <section class="news-section">

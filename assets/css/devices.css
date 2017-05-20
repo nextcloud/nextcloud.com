@@ -1,0 +1,44 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.sharing-background {
+  background: url("../img/headers/devices.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.image--floated {
+  float: right; }
+
+.section--federation {
+  padding-top: 80px; }
+
+section {
+  padding: 100px 0; }
+  section .section--paragraph__tittle {
+    padding: 0; }
+
+.feature--block {
+  padding-top: 60px; }
+
+.row {
+  padding-top: 60px; }
+
+.calltoaction {
+  margin-top: 50px;
+  background-color: #0082c9;
+  padding: 50px 0;
+  color: white; }
+  .calltoaction .section--heading-2 {
+    color: white; }
+  .calltoaction .section--paragraph {
+    color: white; }
+  .calltoaction .hyperlink {
+    color: white; }
+
+
+/*# sourceMappingURL=devices.css.map */

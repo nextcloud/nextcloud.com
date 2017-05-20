@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // Include translation file
 require_once __DIR__ . '/l10n.php';
@@ -49,7 +49,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 // 		'contributors',
 		'design',
 		'desktop',
-		'devices',
+//		'devices',
 // 		'events',
 		'faq',
 		'federation',
@@ -78,6 +78,8 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'pr20161027',
 		'pr20161213',
 		'pr20170307',
+		'pr20170502',
+		'pr20170508',
 		'press',
 		'privacy',
 		'promote',
@@ -86,7 +88,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'release-channels',
 		'salessubmit',
 		'securesharesubmit',
-		'securesharing',
+// 		'securesharing',
 		'security',
 // 		'sharing',
 		'speaking',
@@ -101,7 +103,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'trademarks',
 		'translation',
 		'user',
-		'webrtc',
+//		'webrtc',
 // 		'workflow'
 
 	];

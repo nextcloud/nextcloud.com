@@ -14,6 +14,16 @@
   border-radius: 0 !important;
   position: relative;
 
+  &__pattern {
+    opacity: 0.1;
+
+    @media (max-width: $break-big) {
+      width: calc(100vw - 15px);
+      height: 100vh;
+      object-fit: cover;
+      }
+  }
+
     @media (max-width: $break-big) {
       min-height: 600px
     }
@@ -23,6 +33,7 @@
 
       @media (max-width: $break-small) {
         max-width: 300px;
+        text-align: left;
       }
 
       @media (min-width: $break-small) {
@@ -32,6 +43,7 @@
 
     .jumbotron--lead {
       width: 377px;
+      text-align: left;
       @media (max-width: $break-big) {
         width: 250px;
       }
@@ -277,6 +289,7 @@
     @media (max-width: $break-small) {
       color: white;
       width: 100%;
+      text-align: left;
     }
   }
 
@@ -562,4 +575,8 @@
 
 .revealOnScroll {
 	opacity: 0;
+}
+
+.section--compare {
+    padding-bottom: 100px;
 }

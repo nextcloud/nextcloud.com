@@ -23,7 +23,8 @@
 
 		<p class="">We are a modern, distributed, open source company. It is our mission to provide our users and customers with the means for data storage, access and communication under their control; protecting their privacy and security.</p>
 
-		<p class="revealOnScroll">We pursue a fully-open strategy, keeping internal communication to a minimum while aiming to work, discuss and develop in public. We are a thriving, quickly growing company with a solid customer base. An open source background or experience contributing to Nextcloud is a big plus for job applicants!</p>
+		<p class="revealOnScroll">We pursue a fully-open strategy, keeping internal communication to a minimum while aiming to work, discuss and develop in public. We are a thriving, quickly growing company with a solid customer base. An open source background or experience contributing to Nextcloud is a big plus for job applicants! Expecially for developers we pursue a strong "hire from the community" strategy.</p>
+		<p class="revealOnScroll">Nextcloud actively strives for diversity and we'd like to especially encourage applications by members of underrepresented groups in tech.</p>
 	</div>
 </section> 
 
@@ -86,6 +87,34 @@
 				<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
+		<a href="#jsdev" data-toggle="collapse"><h3 class="jobs">Javascript Developer<span class="icon-arrow"></span></h3></a>
+		<div id="jsdev" class="collapse">
+			<p>We're looking for developers with experience in Javascript/front-end development to join our server team!</p>
+			<p>You would work with the engineering team to bring new features and improvements to the server user interface like our File management app or one of the many other applications like Calendar and Contacts, Announcements and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
+			<p>Responsibilities:</p>
+			<ul>
+				<li>Front end development (JS, PHP)</li>
+				<li>Cross platform testing</li>
+				<li>Quality assurance</li>
+			</ul>
+			<p>Required skills:</p>
+			<ul>
+				<li>Deep technical experience with Javascript and perhaps a bit of PHP</li>
+				<li>WebRTC experience a plus</li>
+				<li>Teamworking capabilities</li>
+				<li>Independence and self-reliance.</li>
+				<li>Knowledge around open source technology</li>
+			</ul>
+			<p>What we offer:</p>
+			<ul>
+				<li>A distributed, open team with a passion for working on and within the open source community</li>
+				<li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
+				<li>A competitive salary</li>
+				<li>Flexibility for a healthy work-life balance</li>
+				<li>Time for personal growth and education</li>
+			</ul>
+			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+		</div>
 			<a href="#saleseng" data-toggle="collapse"><h3 class="jobs">Sales Engineer/ Consultant<span class="icon-arrow"></span></h3></a>
 			<div id="saleseng" class="collapse">
 				<p>Technical sales engineers use their technical knowledge along with sales skills to provide advice and support on a range of products, for which a certain level of expertise is needed.</p>
@@ -187,34 +216,6 @@
 			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 		</div>
 
-		<a href="#jsdev" data-toggle="collapse"><h3 class="jobs">Frontend Developer<span class="icon-arrow"></span></h3></a>
-		<div id="jsdev" class="collapse">
-			<p>We're looking for developers with experience in Javascript front-end development to join our server team!</p>
-			<p>You would work with the engineering team to bring new features and improvements to the server user interface like our File management app or one of the many other applications like Calendar and Contacts, Announcements and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-			<p>Responsibilities:</p>
-			<ul>
-				<li>Front end development (JS, PHP)</li>
-				<li>UX/UI design</li>
-				<li>Cross platform testing</li>
-				<li>Quality assurance</li>
-			</ul>
-			<p>Required skills:</p>
-			<ul>
-				<li>Technical experience with Javascript, HTML, CSS, bit of PHP</li>
-				<li>Teamworking capabilities</li>
-				<li>Independence and self-reliance.</li>
-				<li>Knowledge around open source technology</li>
-			</ul>
-			<p>What we offer:</p>
-			<ul>
-				<li>A distributed, open team with a passion for working on and within the open source community</li>
-				<li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
-				<li>A competitive salary</li>
-				<li>Flexibility for a healthy work-life balance</li>
-				<li>Time for personal growth and education</li>
-			</ul>
-			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-		</div>
 		<a href="#phpdev" data-toggle="collapse"><h3 class="jobs">PHP back-end developer<span class="icon-arrow"></span></h3></a>
 		<div id="phpdev" class="collapse">
 			<p>We're looking for developers with experience in PHP back-end development to join our server team!</p>

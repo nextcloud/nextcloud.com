@@ -1,0 +1,32 @@
+@import "variables.scss";
+@import "transparent-navbar.scss";
+
+.sharing-background {
+  background: url("../img/headers/devices.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image--floated{
+	float: right;
+}
+
+.section--federation {
+	padding-top: 80px;
+}
+
+section {
+	padding: 100px 0;
+
+	.section--paragraph__tittle {
+		padding: 0;
+	}
+}
+
+.feature--block {
+    padding-top: 60px;
+}
+
+.row {
+	padding-top: 60px;
+}

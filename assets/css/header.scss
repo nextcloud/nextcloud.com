@@ -105,7 +105,7 @@
                 will-change: transform;
         		visibility: hidden;
         		position: absolute;
-        		z-index: 1;
+        		z-index: 5;
         		top: 100%;
 
                 &:before {
@@ -152,7 +152,7 @@
         }
 
         .brand {
-            z-index: 3;
+            z-index: 8;
             position: absolute;
             top: 0;
             left: 0;
@@ -367,7 +367,7 @@
                 position: fixed;
                 background: #0082c9;
                 padding-top: 25px;
-                z-index: 2;
+                z-index: 7;
                 top: 0;
                 right: 0;
                 width: 0;
@@ -392,7 +392,7 @@
                 width: 50px;
                 height: 50px;
                 margin-top: 0;
-                z-index: 3;
+                z-index: 8;
                 display: block;
                 margin-right: 0;
 

@@ -130,3 +130,10 @@
         </div>
     </div>
 </section>
+<section class="section--compare">
+<div class="calltoaction revealOnScroll">
+	<h1 class="section--heading-2 section--text--center"><?php echo $l->t('See how we stack up');?></h1>
+	<p class="section--paragraph section--text--center">
+	<a href="/compare" class="button button--blue button--arrow button--large"><?php echo $l->t('Compare Nextcloud to other solutions');?></a></p>
+</div>
+</section>

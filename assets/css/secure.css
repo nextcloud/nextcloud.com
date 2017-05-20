@@ -74,6 +74,10 @@
     height: 140px;
     padding: 5px; }
 
+section {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
 /* Process image */
 .process {
   /* 	min-height: 1150px; */

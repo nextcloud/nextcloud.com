@@ -63,6 +63,7 @@
 						<li><?php echo $l->t('<a href="http://shop.wdc.com/promo/4828824000" target="_blank">Buy in Italy </a>');?></li>
 						<li><?php echo $l->t('<a href="http://shop.wdc.com/promo/4828824100" target="_blank">Buy in the Netherlands </a>');?></li>
 						<li><?php echo $l->t('<a href="http://shop.wdc.com/promo/4832872800" target="_blank">Buy in rest of Europe </a>');?></li>
+						<li><?php echo $l->t('<a href="https://www.openhardwareshop.eu/en/networking/21-545-nextcloud-box-complete-package#/79-platform-raspberry_pi_2b" target="_blank">Pre-assembled, available in Austria, Switzerland and Liechtenstein</a>');?></li>
 					</ul>
 				</div>
 		</div>

@@ -3,11 +3,11 @@
 
 /* VERSIONS */
 $VERSIONS_SERVER_MAJOR_STABLE = '11';
-$VERSIONS_SERVER_FULL_STABLE = '11.0.2';
+$VERSIONS_SERVER_FULL_STABLE = '11.0.3';
 $VERSIONS_SERVER_MAJOR_DEVELOPMENT = '12';
 $VERSIONS_SERVER_MAJOR_DEV_DOCS = '11'; // Used in dev docs links
-$VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.2.4';
-$VERSIONS_CLIENT_DESKTOP_STABLE_SHORT = '2.2'; // For use in documentation link
+$VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.3.1';
+$VERSIONS_CLIENT_DESKTOP_STABLE_SHORT = '2.3'; // For use in documentation link
 
 /* DOCUMENTATION */
 $DOCUMENTATION_BASE = 'https://docs.nextcloud.com';
@@ -23,7 +23,7 @@ $NEXTCLOUD_GPG = 'https://nextcloud.com/nextcloud.asc';
 
 // Desktop client stable
 $DOWNLOAD_CLIENT_DESKTOP_BASE = 'https://download.nextcloud.com/desktop/releases/';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Windows/Nextcloud-2.2.4.2-setup.exe';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Windows/Nextcloud-2.3.1.8-setup.exe';
 $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Mac/Installer/Nextcloud-2.2.4.1.pkg';
 $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX = 'https://github.com/nextcloud/client_theming';
 $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES = 'https://github.com/nextcloud/client_theming';
@@ -63,10 +63,9 @@ $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.nextcloud.com/download/repos
 
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.nextcloud.com/server/prereleases/';
-$SERVER_TESTING_VERSION ='';
-$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-11.0.1RC1.tar.bz2';
-$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-11.0.1RC1.zip
-';
+$SERVER_TESTING_VERSION ='RC 3';
+$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-12.0.0RC3.tar.bz2';
+$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-12.0.0RC3.zip';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.nextcloud.com/download/community/setup-nextcloud.php';

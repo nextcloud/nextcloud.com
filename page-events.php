@@ -30,7 +30,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<p class="section--paragraph">Are you interested in meeting fellow Nextcloud users and contributors (<a  class="hyperlink" href=”/contributors”>Nextclouders</a>, as we lovingly call ourselves)? You&#39;ve come to the right place! The Nextcloud community organizes and participates in many events around the globe and here you can find details on where you can meet us and how to organise your own event and become a member of the most active file sync and share open source community!</p>
+				<p class="section--paragraph">Are you interested in meeting fellow Nextcloud users and contributors (<a  class="hyperlink" href="/contributors">Nextclouders</a>, as we lovingly call ourselves)? You&#39;ve come to the right place! The Nextcloud community organizes and participates in many events around the globe and here you can find details on where you can meet us and how to organise your own event and become a member of the most active file sync and share open source community!</p>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/hackathon.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
 				<h2>Meetups</h2>
 				<p class="section--paragraph">Nextcloud community members get together in meetups to learn, share ideas and work on Nextcloud. Meetups are informal meetings which are typically held in the evening and can be focused on development, user or business topics. You can take part as a speaker, participant or promoter. Meetups are typically held once a month and are open to anyone. Below is a list of local meetup groups.</p>
@@ -79,12 +79,22 @@
 					</tr>
 					<tr>
 						<td><a  class="hyperlink" target="_blank" href="https://cebit.de/en/">CeBIT</a></td>
-						<td>Hanover</td>
+						<td>Hanover, Germany</td>
 						<td>March 23-24</td>
 					<tr>
+					<tr>
+						<td><a  class="hyperlink" target="_blank" href="https://www.wikimedia.de/wiki/Ladies_that_FOSS">Ladies that FOSS</a></td>
+						<td>Berlin, Germany</td>
+						<td>April 19</td>
+					<tr>
 						<td><a  class="hyperlink" target="_blank" href="http://foss-north.se/">foss-north</a></td>
-						<td>Gothenburg</td>
+						<td>Gothenburgm Sweden</td>
 						<td>April 26</td>
+					</tr>
+					<tr>
+						<td><a  class="hyperlink" target="_blank" href="https://www.belug.de/">BeLUG</a></td>
+						<td>Berlin, Germany</td>
+						<td>May 3</td>
 					</tr>
 					<tr>
 						<td><a  class="hyperlink" target="_blank" href="https://conferences.oreilly.com/oscon/oscon-tx">OSCON</a></td>
@@ -95,6 +105,37 @@
 						<td><a  class="hyperlink" target="_blank" href="https://oscal.openlabs.cc/">OSCAL'17</a></td>
 						<td>Tirana, Albania</td>
 						<td>May 13-14</td>
+					</tr>
+					<tr>
+						<td><a  class="hyperlink" target="_blank" href="https://no-spy.org/">No-Spy conf</a></td>
+						<td>Stuttgart, Germany</td>
+						<td>May 19-21</td>
+					</tr>
+					<tr>
+						<td><a  class="hyperlink" target="_blank" href="https://eventyay.com/e/5642d9a1/">OpenTechSummit</a></td>
+						<td>Berlin, Germany</td>
+						<td>May 26</td>
+					</tr>
+
+					<tr>
+						<td><a  class="hyperlink" target="_blank" href="https://events.opensuse.org/conference/oSC17/">openSUSE Conference</a></td>
+						<td>Nuremberg, Germany</td>
+						<td>May 26-28</td>
+					</tr>
+					<tr>
+						<td><a  class="hyperlink" target="_blank" href="https://tnc17.geant.org">TNC17</a></td>
+						<td>Linz, Austria</td>
+						<td>May 29-June 2</td>
+					</tr>
+					<tr>
+						<td><a  class="hyperlink" target="_blank" href="http://sched.co/AOmp">Open Source Summit Japan</a></td>
+						<td>Tokyo, Japan</td>
+						<td>May 31-June 2</td>
+					</tr>
+					<tr>
+						<td><a  class="hyperlink" target="_blank" href="https://www.bitkom.org/bfoss17/">Forum Open Source 2017</a></td>
+						<td>Berlin, Germany</td>
+						<td>June 20</td>
 					</tr>
 					<tr>
 						<td><a  class="hyperlink" target="_blank" href="https://conf.nextcloud.com/">Nextcloud Conference 2017</a></td>

@@ -5,6 +5,42 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Server: Calendar and addressbook names disclosed (nC-SA-2017-012)</title>
+  <description>&lt;p&gt;A logical error caused disclosure of calendar and addressbook names to other logged-in users. Note that no actual content of the calendar and adressbook has been disclosed.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-012&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-012</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-012</guid>
+  <pubDate>Mon, 08 May 2017 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Share tokens for public calendars disclosed (nC-SA-2017-011)</title>
+  <description>&lt;p&gt;A logical error caused disclosure of valid share tokens for public calendars. Thus granting an attacker potentially access to publicly shared calendars without knowing the share token.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-011&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-011</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-011</guid>
+  <pubDate>Mon, 08 May 2017 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Stored XSS in Gallery application (nC-SA-2017-010)</title>
+  <description>&lt;p&gt;A JavaScript library used by Nextcloud for sanitizing untrusted user-input suffered from a XSS vulnerability caused by a behaviour change in Safari 10.1 and 10.2.&lt;/p&gt;&lt;p&gt;Note that Nextcloud employs a strict Content-Security-Policy preventing exploitation of this XSS issue on modern web browsers.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-010&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-010</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-010</guid>
+  <pubDate>Mon, 08 May 2017 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Limitation of app specific password scope can be bypassed (nC-SA-2017-009)</title>
+  <description>&lt;p&gt;Improper session handling allowed an application specific password without permission to the files access to the users file.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-009&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-009</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-009</guid>
+  <pubDate>Mon, 08 May 2017 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Reflected XSS in error pages (nC-SA-2017-008)</title>
+  <description>&lt;p&gt;Inadequate escaping of error messages leads to XSS vulnerabilities in multiple components.&lt;/p&gt;&lt;p&gt;Note that Nextcloud employs a strict Content-Security-Policy preventing exploitation of this XSS issue on modern web browsers.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-008&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-008</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-008</guid>
+  <pubDate>Mon, 08 May 2017 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: DOM XSS vulnerability in search dialogue (nC-SA-2017-007)</title>
+  <description>&lt;p&gt;Inadequate escaping lead to XSS vulnerability in the search module. To be exploitable an user has to write or paste malicious content into the search dialogue.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-007</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-007</guid>
+  <pubDate>Mon, 08 May 2017 14:00:00 +0200</pubDate>
+ </item><item>
   <title>Server: Content-Spoofing in &quot;files&quot; app (nC-SA-2017-006)</title>
   <description>&lt;p&gt;The top navigation bar displayed in the files list contained partially user-controllable input leading to a potential misrepresentation of information.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-006&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-006</link>
