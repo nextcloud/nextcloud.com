@@ -19,8 +19,12 @@
 /* All headers */
 
 .featureblock {
-    padding-top: 140px;
-    // padding-bottom: 50px;
+    padding: 140px 0;
+    //padding-top: 140px;
+
+    &--has-separator {
+        border-top: 1px solid #E8E8E8;
+    }
 
     .img-responsive {
         margin-left: auto;
@@ -29,16 +33,8 @@
         margin-bottom: 17px;
     }
 
-    .feature {
-    }
-
-
-    .section--paragraph {
-        text-align: center;
-    }
-
     .features--container {
-        padding-top: 20px;
+        padding-top: 100px;
         display: inline-block;
 
         .section--paragraph {
@@ -48,25 +44,21 @@
         .feature {
             padding: 15px 0;
 
-            .section--paragraph__tittle {
-                min-height: 60px;
+            .icon {
+                margin-bottom: 30px;
             }
 
             .section--paragraph {
                 padding-bottom: 10px;
-            }
-
-            img.icon {
-                /* 				display: block; */
-                /* 				margin: 0 auto; */
+                padding-top: 20px;
             }
         }
     }
     .image--floated{
         float: right;
     }
+
     .screenshot {
-        /* 	padding: 20px; */
         margin-top: 160px;
         margin-bottom: 20px;
         border: solid 1px transparent;
@@ -84,6 +76,7 @@
             transition: all 0.5s ease;
         }
     }
+
     @media  (max-width: $break-small) {
         .screenshot {
             margin-top: 0;
@@ -101,19 +94,8 @@
         text-align: left;
         font-size: 30px;
     }
-
-    p {
-
-    }
-
-    .row {
-        margin-bottom: 50px;
-    }
 }
 
-.background-gray {
-    background-color: #eeeeee;
-}
 
 /* security badges */
 
