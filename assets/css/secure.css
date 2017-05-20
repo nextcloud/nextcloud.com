@@ -333,4 +333,22 @@
       font-size: 15px;
       color: #6c6c6c; }
 
+.banner {
+  background-color: #0082c9;
+  position: relative;
+  overflow: hidden; }
+  .banner h2 {
+    text-align: left;
+    color: white; }
+  .banner p {
+    padding-top: 30px;
+    text-align: left;
+    color: white; }
+  .banner .col-md-6 {
+    padding: 80px 60px; }
+  .banner img {
+    position: absolute;
+    width: 60%;
+    top: 60px; }
+
 /*# sourceMappingURL=secure.css.map */

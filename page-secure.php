@@ -191,20 +191,20 @@
                                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/retention.svg">
                                 <p class="section--paragraph__tittle"><?php echo $l->t('Data Retention');?></p>
                                 <p class="section--paragraph"><?php echo $l->t('Define rules for data retention, allowing regular cleanup of files or ensurances that data stays put for a set amount of time.');?></p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="container featureblock">
-                <div class="features--container revealOnScroll row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h2 class="section--heading-1 section--text--center"><?php echo $l->t('Nextcloud Private Cloud Security Scan');?></h2>
-                        <p class="section--paragraph section--text--center"><?php echo $l->t('To help our system administrators asses the security of their private cloud server, we have developed the <a class="hyperlink" href="https://scan.nextcloud.com">Private Cloud Security Scan.</a>');?></p>
-                        <a href="https://scan.nextcloud.com"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/securityscan-nw.png"></a>
-                        <p class="section--paragraph section--text--center "><?php echo $l->t('<a class="hyperlink" href="https://scan.nextcloud.com">Scan your server now</a> or learn more about the <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-releases-security-scanner-to-help-protect-private-clouds/">Private Cloud Security Scan.</a>');?></p>
-                    </div>
+            <div class="container-fluid banner">
+                <div class="col-md-6">
+                    <h2 class="section--heading-1 section--text--center"><?php echo $l->t('Private Cloud Security Scan');?></h2>
+                    <p class="section--paragraph section--text--center"><?php echo $l->t('To help our system administrators asses the security of their private cloud server, we have developed the Private Cloud Security Scan.');?></p>
+                    <a class="button button--large button--arrow" href="https://scan.nextcloud.com"><?php echo $l->t(Check now);?></a>
                 </div>
+
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/securityscan-nw.png">
             </div>
 
             <a name="process"></a>
