@@ -25,7 +25,7 @@ Nextcloud offers an industry-leading fully open source solution for on-premise d
 About Nextcloud: <a href="https://nextcloud.com/about">nextcloud.com/about</a><br />
 Global Scale announcement: <a href="https://nextcloud.com/blog/nextcloud-announces-global-scale-architecture-as-part-of-nextcloud-12">Nextcloud announces Global Scale architecture as part of Nextcloud 12</a><br />
 Global Scale web page with white paper: <a href="https://nextcloud.com/globalscale">nextcloud.com/globalscale</a><br />
-Global Scale explainer video: <a href="https://youtube.com">YouTube</a><br />
+Global Scale explainer video: <a href="https://youtu.be/I5wcLS9xxMw">YouTube</a><br />
 Nextcloud 12 availability announcement: <a href="https://nextcloud.com/blog/welcome-to-nextcloud-12/">Welcome to Nextcloud 12!</a><br />
 Earlier blog for the beta with full feature overview, screenshots and videos: <a href="https://nextcloud.com/blog/nextcloud-12-beta-introduces-the-next-generation-of-secure-collaboration/">Nextcloud 12 Beta Introduces the Next Generation of Secure Collaboration</a><br />
 Blog by Nextcloud founder Frank Karlitschek on opensource.com on the vision behind Nextcloud 12: <a href="https://opensource.com/article/17/5/next-big-challenge-open-source-rich-collaboration-software">The next big challenge for open source: rich collaboration software</a><br />

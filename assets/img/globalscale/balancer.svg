@@ -32,8 +32,8 @@
      id="namedview345"
      showgrid="false"
      inkscape:zoom="1.2361274"
-     inkscape:cx="1435.3967"
-     inkscape:cy="592.42445"
+     inkscape:cx="972.25674"
+     inkscape:cy="462.98795"
      inkscape:window-x="0"
      inkscape:window-y="240"
      inkscape:window-maximized="1"
@@ -1061,7 +1061,13 @@
          style="overflow:visible"
          id="use95-0"
          overflow="visible"
-         xlink:href="#SVGID_19_" /></clipPath></defs><path
+         xlink:href="#SVGID_19_" /></clipPath></defs><ellipse
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:9.24449348;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"
+     id="path4876"
+     cx="1352.0378"
+     cy="702.64038"
+     rx="274.57626"
+     ry="275.72034" /><path
      transform="matrix(5.4603033,0,0,5.4603033,-2691.4722,-3586.1885)"
      style="fill:#ffffff"
      id="path98-7"

@@ -14,6 +14,7 @@
 		);
 	});
 </script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <div class="background globalscale-background">
 	<div class="container">
@@ -31,8 +32,8 @@
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1 video revealOnScroll">
 			<div class="yt-img-overlay">
-				<a class="youtube" id="AhFnbB-a7ik" href="https://www.youtube.com/watch?v=AhFnbB-a7ik" title="Explaining Global Scale">
-					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/AhFnbB-a7ik/maxresdefault.jpg" title="Explaining Global Scale" style='margin: 0 0 0 0; padding: -10% 0 -10% 0;' /> <!-- style different per image! -->
+				<a class="youtube" id="I5wcLS9xxMw" href="https://www.youtube.com/watch?v=I5wcLS9xxMw" title="Explaining Global Scale">
+					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/I5wcLS9xxMw/maxresdefault.jpg" title="Explaining Global Scale" style='margin: 0 0 0 0; padding: -10% 0 -10% 0;' /> <!-- style different per image! -->
 					<div class="yt-play-btn">
 						<i></i>
 					</div>
@@ -44,6 +45,21 @@
 		</div>
 	</div>
 </div>
+</section>
+
+<section class="section--whitepaper">
+	<div class="container text-center revealOnScroll">
+        <p>
+<!-- 		<a href="<?php echo get_template_directory_uri(); ?>/assets/files/global-scale-whitepaper.pdf" class="button button--blue button--large button--arrow"><?php echo $l->t('Download our whitepaper');?> <i class="icon-arrow-circle-o-right icon"></i></a> -->
+            <form name="whitepaper" method="post" action="../globalscale/whitepapersubmit">
+                <p><label for="email"><?php echo $l->t('Download our whitepaper!');?><br>
+                <input type="text" name="email" maxlength="80" size="40" placeholder="Enter your email"></label></p>
+                <td colspan="2" style="text-align:center">
+                <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                <input type="submit" value=" Get the whitepaper ">
+            </form>
+        </p>
+	</div>
 </section>
 
 <section class="section--offer quote">
@@ -121,20 +137,31 @@
 			<p><?php echo $l->t('The Balancer is responsible for monitoring the various nodes and their storage, cpu, ram and network utilization. It can mark nodes as online or offline and initiate the migration of user accounts to different nodes based on data in the Lookup Server like business or legal requirements, QoS settings or user location.');?></p>
 		</div>
 	</div>
-	<p class="text-center revealOnScroll">
-		<a href="<?php echo get_template_directory_uri(); ?>/assets/files/global-scale-whitepaper.pdf" class="button button--blue button--large button--arrow"><?php echo $l->t('Download our whitepaper');?> <i class="icon-arrow-circle-o-right icon"></i></a>
-	</p>
 </div>
-</section>
+<!--</section>
 
+<section class="section--whitepaper">-->
+	<div class="container text-center revealOnScroll">
+        <p>
+<!-- 		<a href="<?php echo get_template_directory_uri(); ?>/assets/files/global-scale-whitepaper.pdf" class="button button--blue button--large button--arrow"><?php echo $l->t('Download our whitepaper');?> <i class="icon-arrow-circle-o-right icon"></i></a> -->
+            <form name="whitepaper" method="post" action="../globalscale/whitepapersubmit">
+                <p><label for="email"><?php echo $l->t('Learn more, download our whitepaper!');?><br>
+                <input type="text" name="email" maxlength="80" size="40" placeholder="Enter your email"></label></p>
+                <td colspan="2" style="text-align:center">
+                <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                <input type="submit" value=" Get the whitepaper ">
+            </form>
+        </p>
+	</div>
+</section>
 
 <div class="container-fluid quote">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 text-center revealOnScroll">
-				<p class="section--paragraph"><?php echo $l->t('Achieve a new level in scalability, flexibility and cost efficiency. Contact us to learn more!');?></p>
+				<p class="section--paragraph"><?php echo $l->t('Achieve a new level in scalability, flexibility and cost efficiency. Contact sales today!');?></p>
 				<div class="text-center morebuttondiv">
-					<a href="/contact" class="button button--large button--arrow"><?php echo $l->t('Contact Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="/enterprise/buy/" class="button button--large button--arrow"><?php echo $l->t('Contact Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>

@@ -35,6 +35,9 @@ section {
     padding-top: ms(5);
     padding-bottom: ms(5); }
 
+.section--whitepaper {
+  margin: 100px 0 100px 0; }
+
 .section--scalability .container {
   padding-top: ms(5);
   padding-bottom: ms(5); }

@@ -31,9 +31,9 @@
      inkscape:window-height="1353"
      id="namedview326"
      showgrid="false"
-     inkscape:zoom="0.61806371"
-     inkscape:cx="737.31557"
-     inkscape:cy="352.96716"
+     inkscape:zoom="1.7481482"
+     inkscape:cx="824.97444"
+     inkscape:cy="421.20993"
      inkscape:window-x="0"
      inkscape:window-y="240"
      inkscape:window-maximized="1"
@@ -1001,7 +1001,13 @@
          style="overflow:visible"
          id="use523"
          overflow="visible"
-         xlink:href="#SVGID_103_" /></clipPath></defs><path
+         xlink:href="#SVGID_103_" /></clipPath></defs><ellipse
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:9.24449348;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"
+     id="path4876"
+     cx="1466.5995"
+     cy="715.75409"
+     rx="274.57626"
+     ry="275.72034" /><path
      style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.47232366;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"
      id="path4809-2"
      sodipodi:type="arc"

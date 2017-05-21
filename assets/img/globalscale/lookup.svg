@@ -32,7 +32,7 @@
      id="namedview384"
      showgrid="false"
      inkscape:zoom="0.87407408"
-     inkscape:cx="1216.798"
+     inkscape:cx="1019.4463"
      inkscape:cy="621.11785"
      inkscape:window-x="0"
      inkscape:window-y="240"
@@ -1193,7 +1193,13 @@
          style="overflow:visible"
          id="use45-8"
          overflow="visible"
-         xlink:href="#SVGID_9_" /></clipPath></defs><path
+         xlink:href="#SVGID_9_" /></clipPath></defs><ellipse
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:9.24449348;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"
+     id="path4876"
+     cx="1463.5"
+     cy="704.74573"
+     rx="274.57626"
+     ry="275.72034" /><path
      style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.47232366;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke"
      id="path4809-2"
      sodipodi:type="arc"
