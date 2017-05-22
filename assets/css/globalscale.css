@@ -38,9 +38,9 @@ section {
 .section--whitepaper {
   margin: 100px 0 100px 0; }
   .section--whitepaper .g-recaptcha {
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block; }
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: inline-block !important; }
 
 .section--scalability .container {
   padding-top: ms(5);
