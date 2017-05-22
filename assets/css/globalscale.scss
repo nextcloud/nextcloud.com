@@ -40,7 +40,11 @@ section {
 
 .section--whitepaper {
 	margin: 100px 0 100px 0;
-
+	.g-recaptcha {
+		margin-left: auto;
+		margin-right: auto;
+		display: inline-block;
+	}
 }
 
 .section--scalability {
