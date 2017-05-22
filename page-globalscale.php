@@ -55,10 +55,10 @@
 <!-- 		<a href="<?php echo get_template_directory_uri(); ?>/assets/files/global-scale-whitepaper.pdf" class="button button--blue button--large button--arrow"><?php echo $l->t('Download our whitepaper');?> <i class="icon-arrow-circle-o-right icon"></i></a> -->
             <form name="whitepaper" method="post" action="../globalscale/whitepapersubmit">
                 <p><label for="email"><?php echo $l->t('Download our whitepaper!');?><br>
-                <input type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
+                <input class="mail" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
                 <td colspan="2" style="text-align:center">
                 <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                <input type="submit" value=" Get the whitepaper ">
+                <input class="button button--blue button--large" type="submit" value=" Get the whitepaper ">
             </form>
         </p>
 	</div>

@@ -37,6 +37,22 @@ section {
 
 .section--whitepaper {
   margin: 100px 0 100px 0; }
+  .section--whitepaper .button:hover {
+    background-color: #0073B2;
+    text-decoration: none;
+    border-color: #204d74; }
+  .section--whitepaper .mail {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: thin;
+    padding: 8px;
+    margin-top: 15px; }
+  .section--whitepaper .button--arrow:hover:before {
+    background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
+    right: 15px; }
+  .section--whitepaper .button--arrow.button--blue:before {
+    background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
   .section--whitepaper .g-recaptcha {
     margin-left: auto !important;
     margin-right: auto !important;
