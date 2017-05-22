@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64px"
+   height="64px"
+   viewBox="0 0 64 64"
+   version="1.1"
+   id="svg43"
+   sodipodi:docname="virusscaning.svg"
+   inkscape:version="0.92.1 r">
+  <metadata
+     id="metadata47">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1353"
+     id="namedview45"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="5.2149125"
+     inkscape:cx="42.412087"
+     inkscape:cy="22.242199"
+     inkscape:window-x="0"
+     inkscape:window-y="240"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg43" />
+  <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">VIRUS SCANNING</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6" />
+  <rect
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1.03718925"
+     id="rect4526"
+     width="44.926712"
+     height="25.491526"
+     x="9.6164846"
+     y="21.328848" />
+  <path
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.56666762"
+     d="M 0.73933407,53.555328 H 25.79142 l 1.629941,1.246426 9.108494,-0.09588 1.534063,-1.150547 H 63.40364 l -4.150489,5.548718 H 5.3692176 Z"
+     id="rect4526-5"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccccc" />
+  <path
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.21459833"
+     d="M 42.063133,4.2735839 49.59708,10.78109 h -7.533947 z"
+     id="rect4526-7"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccc" />
+  <g
+     id="STYLEGUIDE"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="VIRUS-SCANNING">
+      <path
+         d="M5.414,58 L58.586,58 L62,54.586 L62,54 L39.414,54 L37.707,55.707 C37.52,55.895 37.266,56 37,56 L27,56 C26.734,56 26.48,55.895 26.293,55.707 L24.586,54 L2,54 L2,54.586 L5.414,58 Z M59,60 L5,60 C4.734,60 4.48,59.895 4.293,59.707 L0.293,55.707 C0.105,55.52 0,55.265 0,55 L0,53 C0,52.448 0.447,52 1,52 L25,52 C25.266,52 25.52,52.105 25.707,52.293 L27.414,54 L36.586,54 L38.293,52.293 C38.48,52.105 38.734,52 39,52 L63,52 C63.553,52 64,52.448 64,53 L64,55 C64,55.265 63.895,55.52 63.707,55.707 L59.707,59.707 C59.52,59.895 59.266,60 59,60 L59,60 Z"
+         id="Fill-493"
+         fill="#1485E0" />
+      <path
+         d="M6,50 L4,50 L4,20 C4,17.794 5.794,16 8,16 L15,16 L15,18 L8,18 C6.897,18 6,18.897 6,20 L6,50"
+         id="Fill-494"
+         fill="#1485E0" />
+      <path
+         d="M60,50 L58,50 L58,20 C58,18.897 57.103,18 56,18 L49,18 L49,16 L56,16 C58.206,16 60,17.794 60,20 L60,50"
+         id="Fill-495"
+         fill="#1485E0" />
+      <polygon
+         id="Fill-496"
+         fill="#1485E0"
+         points="27 48 29 48 29 46 27 46" />
+      <polygon
+         id="Fill-497"
+         fill="#1485E0"
+         points="23 48 25 48 25 46 23 46" />
+      <polygon
+         id="Fill-498"
+         fill="#1485E0"
+         points="31 48 33 48 33 46 31 46" />
+      <polygon
+         id="Fill-499"
+         fill="#1485E0"
+         points="35 48 37 48 37 46 35 46" />
+      <polygon
+         id="Fill-500"
+         fill="#1485E0"
+         points="39 48 41 48 41 46 39 46" />
+      <path
+         d="M55,48 L43,48 L43,46 L54,46 L54,22 L49,22 L49,20 L55,20 C55.553,20 56,20.448 56,21 L56,47 C56,47.552 55.553,48 55,48"
+         id="Fill-501"
+         fill="#1485E0" />
+      <path
+         d="M21,48 L9,48 C8.447,48 8,47.552 8,47 L8,21 C8,20.448 8.447,20 9,20 L15,20 L15,22 L10,22 L10,46 L21,46 L21,48"
+         id="Fill-502"
+         fill="#1485E0" />
+      <polyline
+         id="Fill-512"
+         fill="#1485E0"
+         points="51 44 49 44 49 11.414 41.586 4 15 4 15 44 13 44 13 2 42.414 2 51 10.586 51 38" />
+      <polygon
+         id="Rectangle"
+         fill="#C4E1F7"
+         points="15 4 43 4 43 10 49 10 49 44 15 44" />
+      <circle
+         id="Oval"
+         stroke="#979797"
+         fill="#FFFFFF"
+         cx="32"
+         cy="19"
+         r="3" />
+      <path
+         d="M32,23 C30.427,23 28,25.577 28,29 C28,32.423 30.427,35 32,35 C33.573,35 36,32.423 36,29 C36,25.577 33.573,23 32,23 Z M32,37 C29.282,37 26,33.432 26,29 C26,24.568 29.282,21 32,21 C34.718,21 38,24.568 38,29 C38,33.432 34.718,37 32,37 L32,37 Z"
+         id="Fill-514"
+         fill="#1485E0" />
+      <polygon
+         id="Fill-517"
+         fill="#1485E0"
+         points="22 30 27 30 27 28 22 28" />
+      <polyline
+         id="Fill-519"
+         fill="#1485E0"
+         points="28 26 24.586 26 21.293 22.707 22.707 21.293 25.414 24 28 24 28 26" />
+      <polyline
+         id="Fill-521"
+         fill="#1485E0"
+         points="22.707 36.707 21.293 35.293 24.586 32 28 32 28 34 25.414 34 22.707 36.707" />
+      <polygon
+         id="Fill-525"
+         fill="#1485E0"
+         points="19 7 20 7 20 6 19 6" />
+      <polygon
+         id="Fill-526"
+         fill="#1485E0"
+         points="23 7 24 7 24 6 23 6" />
+      <polygon
+         id="Fill-527"
+         fill="#1485E0"
+         points="27 7 28 7 28 6 27 6" />
+      <polygon
+         id="polygon28"
+         fill="#1485E0"
+         points="19 10 20 10 20 9 19 9" />
+      <polygon
+         id="polygon30"
+         fill="#1485E0"
+         points="22 10 23 10 23 9 22 9" />
+      <polygon
+         id="polygon32"
+         fill="#1485E0"
+         points="25 10 26 10 26 9 25 9" />
+      <polygon
+         id="Fill-528"
+         fill="#1485E0"
+         points="19 13 37 13 37 12 19 12" />
+      <polyline
+         id="Fill-513"
+         fill="#1485E0"
+         points="50 12 41 12 41 3 43 3 43 10 50 10 50 12" />
+      <path
+         d="M32,17 C30.897,17 30,17.897 30,19 C30,20.103 30.897,21 32,21 C33.103,21 34,20.103 34,19 C34,17.897 33.103,17 32,17 Z M32,23 C29.794,23 28,21.206 28,19 C28,16.794 29.794,15 32,15 C34.206,15 36,16.794 36,19 C36,21.206 34.206,23 32,23 L32,23 Z"
+         id="Fill-515"
+         fill="#1485E0" />
+      <polygon
+         id="Fill-516"
+         fill="#1485E0"
+         points="37 30 42 30 42 28 37 28" />
+      <polyline
+         id="Fill-518"
+         fill="#1485E0"
+         points="39.414 26 36 26 36 24 38.586 24 41.293 21.293 42.707 22.707 39.414 26" />
+      <polyline
+         id="Fill-520"
+         fill="#1485E0"
+         points="41.293 36.707 38.586 34 36 34 36 32 39.414 32 42.707 35.293 41.293 36.707" />
+      <polygon
+         id="Fill-522"
+         fill="#1485E0"
+         points="31 36 33 36 33 22 31 22" />
+    </g>
+  </g>
+</svg>

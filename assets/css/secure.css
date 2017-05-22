@@ -7,42 +7,64 @@
   position: absolute; }
 
 /**
- * Secure Page
- */
+* Secure Page
+*/
 .security-background {
   background-image: url("../img/security/security.jpg");
   background-position: bottom 0 right 0; }
+  .security-background .topheader h1 {
+    margin-top: 0; }
 
 /* All headers */
 .featureblock {
-  padding-top: 50px; }
+  padding: 140px 0; }
+  .featureblock--has-separator {
+    border-top: 1px solid #E8E8E8; }
+  .featureblock .img-responsive {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 36px;
+    margin-bottom: 17px; }
+  .featureblock .features--container {
+    padding-top: 100px;
+    display: inline-block; }
+    .featureblock .features--container .section--paragraph {
+      padding-bottom: 10px; }
+    .featureblock .features--container .feature {
+      padding: 15px 0; }
+      .featureblock .features--container .feature .icon {
+        margin-bottom: 30px; }
+      .featureblock .features--container .feature .section--paragraph {
+        padding-bottom: 10px;
+        padding-top: 20px; }
+  .featureblock .image--floated {
+    float: right; }
   .featureblock .screenshot {
-    /* 	padding: 20px; */
-    margin-top: 20px;
+    margin-top: 160px;
     margin-bottom: 20px;
     border: solid 1px transparent;
     border-radius: 0px;
     border: solid 1px #fbfbfb;
+    -webkit-box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.04);
     box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.04); }
     .featureblock .screenshot:hover {
+      -webkit-box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
       box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
       border: solid 1px #fbfbfb;
       border-radius: 0px;
+      -webkit-transition: all 0.5s ease;
       transition: all 0.5s ease; }
-  .featureblock .header {
-    margin-bottom: 54px;
-    text-align: center; }
+  @media (max-width: 768px) {
+    .featureblock .screenshot {
+      margin-top: 0;
+      margin-bottom: 15px; } }
   .featureblock h2 {
-    text-align: left;
     color: #2a2a36;
     margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 40px; }
+    margin-bottom: 25px; }
   .featureblock h3 {
     text-align: left;
     font-size: 30px; }
-  .featureblock .row {
-    margin-bottom: 50px; }
 
 /* security badges */
 .security-badge {
@@ -58,7 +80,8 @@ section {
 
 /* Process image */
 .process {
-  height: 1100px; }
+  /* 	min-height: 1150px; */
+  padding-bottom: 100px; }
   .process h1 {
     font-size: 25px;
     font-weight: bold;
@@ -81,30 +104,12 @@ section {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none; }
+  .process .securitybadge img {
+    max-width: 30px;
+    display: inline; }
   @media (min-width: 768px) {
     .process {
-      height: 850px;
-      /*		.number1 {
-      			left: -12%;
-      		}
-      		.number2 {
-      			left: 1%;
-      		}
-      		.number3 {
-      			left: 15%;
-      		}
-      		.number4 {
-      			left: 30%;
-      		}
-      		.number5 {
-      			left: 44%;
-      		}
-      		.number6 {
-      			left: 58%;
-      		}
-      		.number7 {
-      			left: 72%;
-      		}*/ }
+      /* 		height: 1450px; */ }
       .process .nav-pills li {
         width: 19%;
         margin: 0px; }
@@ -156,7 +161,7 @@ section {
         /* 			height: auto; */ }
       .process .processimg {
         position: relative;
-        /* 			height: 60px; */
+        height: 900px;
         /* 			width: 1046px; */ }
       .process .info {
         position: absolute;
@@ -177,28 +182,7 @@ section {
             margin-bottom: 30px; } }
   @media (max-width: 768px) {
     .process {
-      height: 1250px;
-      /*		.number1 {
-      			left: -12%;
-      		}
-      		.number2 {
-      			left: 1%;
-      		}
-      		.number3 {
-      			left: 15%;
-      		}
-      		.number4 {
-      			left: 30%;
-      		}
-      		.number5 {
-      			left: 44%;
-      		}
-      		.number6 {
-      			left: 58%;
-      		}
-      		.number7 {
-      			left: 72%;
-      		}*/ }
+      /* 		height: 1850px; */ }
       .process .nav-pills li {
         width: 30%;
         margin: 10px 0px 0px 0px; }
@@ -250,7 +234,7 @@ section {
         height: auto; }
       .process .processimg {
         position: relative;
-        /* 			height: 60px; */
+        min-height: 900px;
         width: 100%; }
       .process .info {
         position: absolute;
@@ -269,6 +253,9 @@ section {
           color: #434343; }
           .process .info p:last-of-type {
             margin-bottom: 30px; } }
+  @media (min-width: 991px) {
+    .process .processimg {
+      height: 500px; } }
 
 /* Development section */
 .development {
@@ -289,9 +276,11 @@ section {
     border: solid 1px transparent;
     margin-bottom: 50px; }
     .development .box:hover {
+      -webkit-box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
       box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
       border: solid 1px #fbfbfb;
       border-radius: 0px;
+      -webkit-transition: all 0.5s ease;
       transition: all 0.5s ease; }
     .development .box h1 {
       font-size: 25px;
@@ -316,5 +305,54 @@ section {
       margin-right: auto;
       margin-top: 36px;
       margin-bottom: 17px; }
+
+.claim {
+  margin-top: -103px; }
+  .claim__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 40px 30px 40px;
+    background: #FFFFFF;
+    border: 1px solid #FCFCFC;
+    -webkit-box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
+    box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14); }
+  .claim__paragraph {
+    font-style: italic; }
+  .claim__brand {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .claim__brand__logo {
+      background: url("../img/security/ncc_logo.png") no-repeat center/contain;
+      width: 46px;
+      height: 46px; }
+    .claim__brand__text {
+      margin: 0;
+      padding: 0 0 0 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 15px;
+      color: #6c6c6c; }
+
+.banner {
+  background-color: #0082c9;
+  position: relative;
+  overflow: hidden; }
+  .banner h2 {
+    text-align: left;
+    color: white; }
+  .banner p {
+    padding-top: 30px;
+    text-align: left;
+    color: white; }
+  .banner .col-md-6 {
+    padding: 80px 60px; }
+  .banner img {
+    position: absolute;
+    width: 60%;
+    top: 60px; }
 
 /*# sourceMappingURL=secure.css.map */

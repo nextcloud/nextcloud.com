@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg89"
+   version="1.1"
+   viewBox="0 0 64 64"
+   height="64px"
+   width="64px">
+  <metadata
+     id="metadata93">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>ENCRIPTION</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">ENCRIPTION</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6" />
+  <g
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="1"
+     stroke="none"
+     id="STYLEGUIDE">
+    <g
+       id="ENCRIPTION">
+      <rect
+         rx="4"
+         height="45"
+         width="64"
+         y="4"
+         x="0"
+         fill="#C4E1F7"
+         id="Rectangle-6" />
+      <path
+         fill="#1485E0"
+         id="Fill-568"
+         d="M4,5 C2.897,5 2,5.897 2,7 L2,47 C2,48.103 2.897,49 4,49 L60,49 C61.103,49 62,48.103 62,47 L62,7 C62,5.897 61.103,5 60,5 L4,5 Z M60,51 L4,51 C1.794,51 0,49.206 0,47 L0,7 C0,4.794 1.794,3 4,3 L60,3 C62.206,3 64,4.794 64,7 L64,47 C64,49.206 62.206,51 60,51 L60,51 Z" />
+      <rect
+         height="32"
+         width="52"
+         y="9"
+         x="6"
+         fill="#FFFFFF"
+         id="Rectangle-7" />
+      <polyline
+         points="40.042 60.287 37.042 50.287 38.958 49.713 41.958 59.713 40.042 60.287"
+         fill="#1485E0"
+         id="Fill-569" />
+      <polyline
+         points="23.958 60.287 22.042 59.713 25.042 49.713 26.958 50.287 23.958 60.287"
+         fill="#1485E0"
+         id="Fill-570" />
+      <polygon
+         points="19 61 45 61 45 59 19 59"
+         fill="#1485E0"
+         id="Fill-571" />
+      <polygon
+         points="31 47 33 47 33 45 31 45"
+         fill="#1485E0"
+         id="Fill-572" />
+      <path
+         fill="#1485E0"
+         id="Fill-573"
+         d="M6,41 L58,41 L58,9 L6,9 L6,41 Z M59,43 L5,43 C4.447,43 4,42.552 4,42 L4,8 C4,7.448 4.447,7 5,7 L59,7 C59.553,7 60,7.448 60,8 L60,42 C60,42.552 59.553,43 59,43 L59,43 Z" />
+      <polygon
+         points="17 23 19 23 19 21 17 21"
+         fill="#1485E0"
+         id="Fill-574" />
+      <polygon
+         points="39 23 43 23 43 21 39 21"
+         fill="#1485E0"
+         id="Fill-575" />
+      <polygon
+         points="43 25 47 25 47 23 43 23"
+         fill="#1485E0"
+         id="Fill-576" />
+      <polygon
+         points="45 27 47 27 47 25 45 25"
+         fill="#1485E0"
+         id="Fill-577" />
+      <polygon
+         points="43 29 45 29 45 27 43 27"
+         fill="#1485E0"
+         id="Fill-578" />
+      <polygon
+         points="43 31 47 31 47 29 43 29"
+         fill="#1485E0"
+         id="Fill-579" />
+      <polygon
+         points="47 29 51 29 51 27 47 27"
+         fill="#1485E0"
+         id="Fill-580" />
+      <polygon
+         points="39 27 41 27 41 25 39 25"
+         fill="#1485E0"
+         id="Fill-581" />
+      <polygon
+         points="37 25 41 25 41 23 37 23"
+         fill="#1485E0"
+         id="Fill-582" />
+      <polygon
+         points="35 29 37 29 37 27 35 27"
+         fill="#1485E0"
+         id="Fill-583" />
+      <polygon
+         points="33 27 35 27 35 25 33 25"
+         fill="#1485E0"
+         id="Fill-584" />
+      <polygon
+         points="35 31 39 31 39 29 35 29"
+         fill="#1485E0"
+         id="Fill-585" />
+      <polygon
+         points="35 33 37 33 37 31 35 31"
+         fill="#1485E0"
+         id="Fill-586" />
+      <polygon
+         points="39 35 41 35 41 31 39 31"
+         fill="#1485E0"
+         id="Fill-587" />
+      <polygon
+         points="37 37 39 37 39 35 37 35"
+         fill="#1485E0"
+         id="Fill-588" />
+      <polygon
+         points="45 35 47 35 47 33 45 33"
+         fill="#1485E0"
+         id="Fill-589" />
+      <polygon
+         points="51 35 53 35 53 33 51 33"
+         fill="#1485E0"
+         id="Fill-590" />
+      <polygon
+         points="43 37 45 37 45 35 43 35"
+         fill="#1485E0"
+         id="Fill-591" />
+      <polygon
+         points="47 37 51 37 51 35 47 35"
+         fill="#1485E0"
+         id="Fill-592" />
+      <polygon
+         points="31 37 35 37 35 35 31 35"
+         fill="#1485E0"
+         id="Fill-593" />
+      <polygon
+         points="29 35 31 35 31 33 29 33"
+         fill="#1485E0"
+         id="Fill-594" />
+      <polygon
+         points="23 35 27 35 27 33 23 33"
+         fill="#1485E0"
+         id="Fill-595" />
+      <polygon
+         points="27 29 29 29 29 27 27 27"
+         fill="#1485E0"
+         id="Fill-596" />
+      <polygon
+         points="25 27 29 27 29 25 25 25"
+         fill="#1485E0"
+         id="Fill-597" />
+      <polygon
+         points="23 25 25 25 25 23 23 23"
+         fill="#1485E0"
+         id="Fill-598" />
+      <polygon
+         points="19 27 23 27 23 25 19 25"
+         fill="#1485E0"
+         id="Fill-599" />
+      <polygon
+         points="13 21 17 21 17 19 13 19"
+         fill="#1485E0"
+         id="Fill-600" />
+      <polygon
+         points="17 29 21 29 21 27 17 27"
+         fill="#1485E0"
+         id="Fill-601" />
+      <polygon
+         points="19 33 21 33 21 31 19 31"
+         fill="#1485E0"
+         id="Fill-602" />
+      <polygon
+         points="23 31 27 31 27 29 23 29"
+         fill="#1485E0"
+         id="Fill-603" />
+      <polygon
+         points="23 33 25 33 25 31 23 31"
+         fill="#1485E0"
+         id="Fill-604" />
+      <polygon
+         points="21 37 23 37 23 35 21 35"
+         fill="#1485E0"
+         id="Fill-605" />
+      <polygon
+         points="25 37 27 37 27 35 25 35"
+         fill="#1485E0"
+         id="Fill-606" />
+      <polygon
+         points="29 33 33 33 33 31 29 31"
+         fill="#1485E0"
+         id="Fill-607" />
+      <polygon
+         points="31 29 33 29 33 27 31 27"
+         fill="#1485E0"
+         id="Fill-608" />
+      <polygon
+         points="29 25 33 25 33 23 29 23"
+         fill="#1485E0"
+         id="Fill-609" />
+      <polygon
+         points="17 25 19 25 19 23 17 23"
+         fill="#1485E0"
+         id="Fill-610" />
+      <polygon
+         points="15 35 19 35 19 33 15 33"
+         fill="#1485E0"
+         id="Fill-611" />
+      <polygon
+         points="29 17 33 17 33 15 29 15"
+         fill="#1485E0"
+         id="Fill-612" />
+      <polygon
+         points="31 21 37 21 37 19 31 19"
+         fill="#1485E0"
+         id="Fill-613" />
+      <polygon
+         points="25 19 31 19 31 17 25 17"
+         fill="#1485E0"
+         id="Fill-614" />
+      <polygon
+         points="33 23 35 23 35 21 33 21"
+         fill="#1485E0"
+         id="Fill-615" />
+      <polygon
+         points="13 23 15 23 15 21 13 21"
+         fill="#1485E0"
+         id="Fill-616" />
+      <polygon
+         points="21 23 29 23 29 21 21 21"
+         fill="#1485E0"
+         id="Fill-617" />
+      <polygon
+         points="39 19 47 19 47 17 39 17"
+         fill="#1485E0"
+         id="Fill-618" />
+      <polygon
+         points="49 33 53 33 53 31 49 31"
+         fill="#1485E0"
+         id="Fill-619" />
+      <polygon
+         points="51 31 53 31 53 29 51 29"
+         fill="#1485E0"
+         id="Fill-620" />
+      <polygon
+         points="49 27 53 27 53 25 49 25"
+         fill="#1485E0"
+         id="Fill-621" />
+      <polygon
+         points="45 23 51 23 51 21 45 21"
+         fill="#1485E0"
+         id="Fill-622" />
+      <polygon
+         points="51 21 53 21 53 19 51 19"
+         fill="#1485E0"
+         id="Fill-623" />
+      <polygon
+         points="49 19 53 19 53 17 49 17"
+         fill="#1485E0"
+         id="Fill-624" />
+      <polygon
+         points="45 17 49 17 49 15 45 15"
+         fill="#1485E0"
+         id="Fill-625" />
+      <polygon
+         points="51 15 53 15 53 13 51 13"
+         fill="#1485E0"
+         id="Fill-626" />
+      <polygon
+         points="43 15 47 15 47 13 43 13"
+         fill="#1485E0"
+         id="Fill-627" />
+      <polygon
+         points="41 17 43 17 43 15 41 15"
+         fill="#1485E0"
+         id="Fill-628" />
+      <polygon
+         points="37 15 41 15 41 13 37 13"
+         fill="#1485E0"
+         id="Fill-629" />
+      <polygon
+         points="35 19 37 19 37 15 35 15"
+         fill="#1485E0"
+         id="Fill-630" />
+      <polygon
+         points="21 19 23 19 23 17 21 17"
+         fill="#1485E0"
+         id="Fill-631" />
+      <polygon
+         points="15 19 19 19 19 17 15 17"
+         fill="#1485E0"
+         id="Fill-632" />
+      <polygon
+         points="11 19 13 19 13 17 11 17"
+         fill="#1485E0"
+         id="Fill-633" />
+      <polygon
+         points="11 23 13 23 13 21 11 21"
+         fill="#1485E0"
+         id="Fill-634" />
+      <polygon
+         points="11 27 13 27 13 25 11 25"
+         fill="#1485E0"
+         id="Fill-635" />
+      <polygon
+         points="13 31 17 31 17 29 13 29"
+         fill="#1485E0"
+         id="Fill-636" />
+      <polygon
+         points="15 27 17 27 17 25 15 25"
+         fill="#1485E0"
+         id="Fill-637" />
+      <polygon
+         points="11 33 13 33 13 31 11 31"
+         fill="#1485E0"
+         id="Fill-638" />
+      <polygon
+         points="13 37 17 37 17 35 13 35"
+         fill="#1485E0"
+         id="Fill-639" />
+      <polygon
+         points="11 35 13 35 13 33 11 33"
+         fill="#1485E0"
+         id="Fill-640" />
+      <polygon
+         points="19 17 23 17 23 15 19 15"
+         fill="#1485E0"
+         id="Fill-641" />
+      <polygon
+         points="23 15 27 15 27 13 23 13"
+         fill="#1485E0"
+         id="Fill-642" />
+      <polygon
+         points="11 15 19 15 19 13 11 13"
+         fill="#1485E0"
+         id="Fill-643" />
+      <polygon
+         points="31 15 35 15 35 13 31 13"
+         fill="#1485E0"
+         id="Fill-644" />
+    </g>
+  </g>
+</svg>
