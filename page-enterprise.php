@@ -8,7 +8,7 @@
 </head>
 
 <section class="enterprise-hero-section second-menu">
-	<div class="container-fluid background"> 
+	<div class="container-fluid background">
 		<div class="container">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Get support from the source');?></h1>
@@ -39,7 +39,7 @@
 <div class="separator"></div>
 <a name="expertise" id="expertise"></a>
 <section class="section--expertise">
-	<div class="container">	
+	<div class="container">
 		<p class="section--intro text-center revealOnScroll">Matter experts</p>
 		<h3 class="section--heading-1 text-center revealOnScroll">Dedicated to your success</h3>
 		<div class="expertise__ilustration"></div>
@@ -74,6 +74,20 @@
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('A Nextcloud support subscription gives you access to enterprise-ready software, updates, and information and support services that span your entire OS and application infrastructure life cycle and architecture. You can count on receiving the latest product versions with the stability and security you need.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Working with data is essential for your business and being forced on the upgrade threadmill is disruptive to your organization. With access to up to 15 years security and stability updates to Nextcloud, we match the lifecycle of your operating system so you can schedule upgrades when it works for you and secure the investments you did in your existing platform.');?></p>
 		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/pricing">See pricing</a></p>
+	</div>
+</section>
+
+<div class="separator"></div>
+
+<a name="globalscale" id="globalscale"></a>
+<section class="section--globalscale">
+	<div class="container">
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Ultimate scalability');?></p>
+		<h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('For costs and compliance');?></h3>
+		<div class="globalscale__ilustration"></div>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Our unique Nextcloud Global Scale architecture delivers a true globally scalable solution for deployments with hundreds of millions of users, giving unprecedented control over the locality of data and delivering dramatic cost reduction.');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud Global Scale was designed to lift enterprise collaboration to a new level, overcoming limitations in building large scale file storage, sync & share solutions. Nextcloud Global Scale works by decentralizing data to independent nodes, using several new components to manage the interactions between servers.');?></p>
+		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/globalscale">Learn more</a></p>
 	</div>
 </section>
 

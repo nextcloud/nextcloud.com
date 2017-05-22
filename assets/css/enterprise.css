@@ -55,19 +55,6 @@
   .what-you-get-section .container p {
     max-width: 43.24878em;
     margin: 0 auto; }
-  .what-you-get-section .container ul {
-    max-width: 43.24878em;
-    margin: 0 auto;
-    margin-top: 40px; }
-    .what-you-get-section .container ul .check {
-      font-size: 22px;
-      font-weight: 300;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 2.0;
-      color: #555555;
-      list-style-image: url("../img/enterprise/check.svg");
-      list-style-position: inside; }
 
 .section--expertise .container {
   padding-top: 8.54297em;
@@ -111,6 +98,23 @@
     margin: 0 auto; }
   .section--lifecycle .container .lifecycle__ilustration {
     background: url(../img/enterprise/data_safe-new.svg) no-repeat center/contain;
+    width: 950px;
+    height: 500px;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 50vw;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 60px; }
+
+.section--globalscale .container {
+  padding-top: 8.54297em;
+  padding-bottom: 8.54297em; }
+  .section--globalscale .container .section--intro {
+    max-width: 43.24878em;
+    margin: 0 auto; }
+  .section--globalscale .container .globalscale__ilustration {
+    background: url(../img/globalscale/final.svg) no-repeat center/contain;
     width: 950px;
     height: 500px;
     margin: 0 auto;

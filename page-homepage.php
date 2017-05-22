@@ -12,9 +12,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-12-beta-introduces-the-next-generation-of-secure-collaboration/">
+				<a class="announcement" href="https://nextcloud.com/blog/welcome-to-nextcloud-12/">
 				<span class="type">Fresh</span>
-				<span class="message"><strong>Nextcloud 12 Beta is out.</strong> Find out what is new!</span>
+				<span class="message"><strong>Nextcloud 12 is here.</strong> Find out what is new!</span>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('A safe home for all your data');?></h1>
 				<h2 class="jumbotron--lead"><?php echo $l->t('Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.');?></h2>
@@ -63,7 +63,7 @@
 </div>
 
 <section class="slideshow" id="slideshow">
-    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 11');?></h2>
+    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 12');?></h2>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
 		<li class="btn_carousel"><a href="#feature-1"></a></li>
@@ -76,45 +76,45 @@
         	<div class="container-image-center" id="imageTrigger">
 	            <img class="image-back" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-10.png">
 	            <div class="image-top-container">
-	            	<img class="img-responsive image-top image__desktop" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen.jpg">
-	            	<img class="img-responsive image-top image__mobile" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_mobile.jpg">
+	            	<img class="img-responsive image-top image__desktop" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_12.jpg">
+	            	<img class="img-responsive image-top image__mobile" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_mobile_12.jpg">
 	            </div>
             </div>
         </div>
         <div class="texts-wrapper col-md-6">
 	        <div class="right-text-grey" data-slide="1">
-	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('A new standard for security and scalability');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 11 delivers a wide range of security and scalability improvements with a number of important features on top. This release provides you the most secure solution for keeping your data under control we’ve delivered yet.');?></p>
+	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('the Next Generation of Secure Collaboration');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 12 redefines Enterprise File Sync and Share, bringing it to the next level with built in collaboration and communication capabilities. Working together was never easier!');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="https://nextcloud.com/blog/nextcloud-11-sets-new-standard-for-security-and-scalability/" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="btn-primary" href="https://nextcloud.com/blog/welcome-to-nextcloud-12/" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
 	         <div class="right-text-grey" data-slide="2">
-	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('Verified security improvements');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('This release introduces significant security improvements, attested <a href="https://nextcloud.com/secure" target="_blank">by NCC Group,</a> a global expert in cyber security and risk mitigation, to <em>"complement the existing security architecture within the design"</em> and <em>"enhance the general standing of the security working environment."</em>');?></p>
+	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('Collaboration and sharing');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('This release has its focus around working together with others. We improved navigation and file handling, especially sharing. You can sent multiple public links and contact others quickly. With the Guest app you can create guest accounts and the Circles app lets you make custom groups of your contacts. We also published an updated version of our Chat app');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="/secure" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="btn-primary" href="https://nextcloud.com/blog/nextcloud-12-redefining-file-sync-and-share-with-collaboration-and-communication" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
 	        <div class="right-text-grey" data-slide="3">
-	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('Up to 60% lower resource usage');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('With scalability a prime concern among Nextcloud\'s large enterprise customers, this release decreases the database load and lowers resource usage up to 60% for common server operations. Multi-bucket Object Store support, improved handling of previews and Collabora Online speed improvements enable scaling to greater numbers of users and files, decreases TCO and improves user experience.');?></p>
+	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('Secure Audio/video calls');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('Our Video calls app is the most secure way to to discuss with others, share your screen to show or demonstrate something and get work done. We also introduced push notifications, security improvements like Rate Limiting and enhanced Brute Force protection, admin apps like Impersonate, Quota Warning, Download Activity, App bundles, JSLoader and much more.');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="https://nextcloud.com/?p=1373" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="btn-primary" href="/webrtc" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
 	        <div class="right-text-grey" data-slide="4">
 	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Full text search, Next-gen Federation, Spreed and more');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 11 introduces Apache Solr powered Full Text Search, enabling users to find words or phrases in text, pdf and common office documents on internal, external, shared and encrypted storage. The Next Generation Federation technology introduces a central lookup server, enabling Nextcloud users to find each other irrespective of the server their account resides on. The experimental Spreed app integrates secure, peer to peer audio and video chat in Nextcloud.');?></p>
+	            <p class="section--paragraph"><?php echo $l->t('Nextcloud announced the innovative Global Scale architecture as part of Nextcloud 12. Global Scale brings a truly scalable architecture, delivering cost benefits and adding flexibility and control over locality of data in large Nextcloud instances.');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="https://nextcloud.com/blog/nextcloud-11-sets-new-standard-for-security-and-scalability/" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="btn-primary" href="https://nextcloud.com/blog/nextcloud-announces-global-scale-architecture-as-part-of-nextcloud-12" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
         </div>
