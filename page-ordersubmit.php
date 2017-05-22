@@ -250,7 +250,7 @@ if(isset($_POST['email'])) {
 	$email_message .= "Signed terms: ".clean_string($terms)."\n\n";
     
     // create email headers
-    $headers = 'From: '.$email_from."\r\n".
+    $headers = 'From: no-reply@nextcloud.com'."\r\n".
     'Reply-To: '.$email_from."\r\n" .
     'Cc: '.$email_from;
     // Send the email

@@ -69,7 +69,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Phone: ".clean_string($phone)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
 // create email headers
-    $headers = 'From: '.$email_from."\r\n".
+    $headers = 'From: no-reply@nextcloud.com'."\r\n".
     'Reply-To: '.$email_from."\r\n" .
     'Cc: '.$email_from;
 // Send the email to the list

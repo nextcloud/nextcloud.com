@@ -73,7 +73,7 @@ if(isset($_POST['email'])) {
     $email_subject .= "Seeking approval for ".clean_string($app_name)."\n";
     
 // create email headers
-    $headers = 'From: '.$email_from."\r\n".
+    $headers = 'From: no-reply@nextcloud.com'."\r\n".
     'Reply-To: '.$email_from."\r\n" .
     'Cc: '.$email_from."\r\n" .
     'X-Mailer: PHP/' . phpversion();

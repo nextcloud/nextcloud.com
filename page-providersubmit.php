@@ -102,7 +102,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Description: ".clean_string($description)."\n";
     $email_message .= "Image: ".clean_string($image)."\n";
 // create email headers
-    $headers = 'From: '.$email_from."\r\n".
+    $headers = 'From: no-reply@nextcloud.com'."\r\n".
     'Reply-To: '.$email_from."\r\n" .
     'Cc: '.$email_from;
 // Send the email to the list
