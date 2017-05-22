@@ -55,6 +55,7 @@ require get_template_directory().'/strings.php';
 						<li class="nav__item"><a href="<?php echo home_url('order') ?>"><?php echo $l->t('Order online');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('compare') ?>"><?php echo $l->t('Compare with others');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('globalscale') ?>"><?php echo $l->t('Global Scale');?></a></li>
 					</ul>
 				</li>
 
