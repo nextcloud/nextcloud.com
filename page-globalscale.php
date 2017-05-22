@@ -30,7 +30,7 @@
 <section class="section--video">
 <div class="container">
 	<div class="row">
-		<div class="col-md-10 col-md-offset-1 video revealOnScroll">
+		<div class="col-md-10 col-md-offset-1 video">
 			<div class="yt-img-overlay">
 				<a class="youtube" id="I5wcLS9xxMw" href="https://www.youtube.com/watch?v=I5wcLS9xxMw" title="Explaining Global Scale">
 					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/I5wcLS9xxMw/maxresdefault.jpg" title="Explaining Global Scale" style='margin: 0 0 0 0; padding: -10% 0 -10% 0;' /> <!-- style different per image! -->
