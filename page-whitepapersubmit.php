@@ -56,8 +56,7 @@ if(isset($_POST['email'])) {
 
 // create email headers
     $headers = 'From: '.$email_from."\r\n".
-    'Reply-To: '.$email_from."\r\n" .
-    'Cc: '.$email_from;
+    'Reply-To: '.$email_from;
 // Send the email to the list
     @mail($email_to, $email_subject, $email_message, $headers);
 // Second email to subscribe to the mailing list
