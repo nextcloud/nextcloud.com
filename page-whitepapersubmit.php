@@ -49,7 +49,7 @@ if(isset($_POST['email'])) {
     $email_message .= "\n";
     $email_message .= "Thank you for your interest in our Global Scale whitepaper!"."\n\n";
     $email_message .= "You can download the whitepaper here:"."\n";
-    $email_message .= "https://nextcloud.com/wp-content/themes/next/assets/files/08ss5vJs/global-scale-whitepaper.pdf"."\n\n";
+    $email_message .= "https://nextcloud.com/wp-content/themes/next/assets/files/3NLkR6bd/global-scale-whitepaper.pdf"."\n\n";
     $email_message .= "Your feedback is welcome. If you have any questions or if you are interested in a demo, let us know!"."\n\n";
     $email_message .= "Greetings,"."\n";
     $email_message .= "The Nextcloud team";
