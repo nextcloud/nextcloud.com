@@ -52,7 +52,7 @@
 		<h2><?php echo $l->t('History');?></h2>
 		<p class="section--paragraph"><?php echo $l->t('Our launch has been covered extensively in the media and we\'ve been interviewed, explaining the why, how and what behind our endeavor. In short, 12 developers, most of the engineering team, left ownCloud because we believed a better solution was possible for users, customers and fellow contributors. We see a business as an important part of the open source ecosystem around a project. Its role is to act as a catalyst, enabling individuals and businesses to grow and participate. It is in the nature of open source that a company failing to play this role can be replaced, protecting customers from vendor lock-in.');?></p>
 
-		<p class="section--paragraph"><?php echo $l->t('Subsequent events, including Nextcloud becoming the <a class="hyperlink" href="https://nextcloud.com/?p=1222">most active open source file sync and share project</a> backed by our <a class="hyperlink" href="https://nextcloud.com/?p=1343">healthy, profitable business</a> and the <a class="hyperlink" href="https://nextcloud.com/blog/join-our-hackathon-january-23-27/">hugely positive response to our Nextcloud 11 release</a>, have proven us right.');?></p>
+		<p class="section--paragraph"><?php echo $l->t('Subsequent events, including Nextcloud becoming the <a class="hyperlink" href="https://nextcloud.com/?p=1222">most active open source file sync and share project</a> backed by our <a class="hyperlink" href="https://nextcloud.com/?p=1343">healthy, profitable business</a> and the <a class="hyperlink" href="https://nextcloud.com/blog/join-our-hackathon-january-23-27/">hugely positive response to our Nextcloud 11 release</a>, have proven us right. With Nextcloud 12, we\'ve extended our technological lead and are charting new territory with <a class="hyperlink" href="https://nextcloud.com/globalscale">Global Scale</a>, a new architecture for near unlimited scalability.');?></p>
 
 		<p class="section--paragraph"><?php echo $l->t('Watch the videos and interviews below to learn more about what happened.');?></p>
 		<div class="row newsrow">
@@ -110,7 +110,7 @@
 				<a class="youtube" id="Yjqd7MX434I?start=2678" class="hyperlink" href="https://www.youtube.com/watch?v=Yjqd7MX434I?t=44m38s" target="_blank" title="The Linux Action Show">
 				<img  src="https://img.youtube.com/vi/Yjqd7MX434I/hqdefault.jpg" title="The Linux Action Show" />
 				<div class="yt-play-btn">
-								<i></i> 
+								<i></i>
 							</div>
 				</a>
 			</div>
@@ -118,7 +118,7 @@
 				<a class="youtube" id="rAXf8SGAXFE?start=2173" class="hyperlink" href="https://www.youtube.com/watch?v=rAXf8SGAXFE?t=36m21s" target="_blank" title="Bad Voltage">
 				<img  src="https://img.youtube.com/vi/rAXf8SGAXFE/hqdefault.jpg" title="Bad Voltage" />
 				<div class="yt-play-btn">
-								<i></i> 
+								<i></i>
 							</div>
 				</a>
 			</div>
@@ -126,7 +126,7 @@
 				<a class="youtube" id="iMfokaX2r8g" class="hyperlink" href="https://www.youtube.com/watch?v=iMfokaX2r8g" target="_blank" title="Interview by Bryan Lunduke">
 				<img  src="https://img.youtube.com/vi/iMfokaX2r8g/hqdefault.jpg" title="Interview by Bryan Lunduke" />
 				<div class="yt-play-btn">
-								<i></i> 
+								<i></i>
 							</div>
 				</a>
 			</div>
