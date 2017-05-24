@@ -100,12 +100,10 @@
 			<div class="btn-group">
 				<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_WIN; ?>" class="btn btn-default btn-large"><i class="icon-windows"></i>  Windows</a>
 				<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_MAC; ?>" class="btn btn-default btn-large"><i class="icon-apple"></i> Mac</a>
-			</div>
-		    <div class="btn-group">
-				<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX; ?>" class="btn btn-default btn-large"><i class="icon-linux"></i> Linux</a>
-				<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES; ?>" class="btn btn-default btn-large"><i class="icon-archive"></i> Sources</a>
+                <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX; ?>" class="btn btn-default btn-large"><i class="icon-linux"></i> Linux</a>
+                <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES; ?>" class="btn btn-default btn-large"><i class="icon-archive"></i> Sources</a>
 		<?php } ?></p>
-		<p><?php echo $l->t('See more <a href="/contribute" target="_blank" rel="tooltip" title="The Nextcloud Contribute Page">ways to get involved</a>!');?></p>
+		<p><?php echo $l->t('<a href="/contribute" target="_blank" rel="tooltip" title="The Nextcloud Contribute Page">See more ways to get involved</a>!');?></p>
 
 	</div>
 </div>
