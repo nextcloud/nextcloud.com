@@ -10,7 +10,7 @@
 <body>
 
 <section class="compare-hero-section">
-	<div class="container-fluid background"> 
+	<div class="container-fluid background">
 		<div class="container">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Compare cloud technologies');?></h1>
@@ -91,7 +91,7 @@
 					<li title="" rel="tooltip">Extensible storage</li> <!--Extensible storage-->
 				</ul>
 			</div> <!-- .features -->
-			
+
 			<div class="cd-products-wrapper">
 				<ul class="cd-products-columns">
 					<li class="product">
@@ -185,7 +185,7 @@
 							<li title="optional" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i>/<i class="fa fa-check optional" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="Optional. Available for iOS, Android possible with not related third party tool" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i>/<i class="fa fa-check optional" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="With Collabora Online" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Online Office-->
-							<li title="only one per user" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i></li> <!--Secure Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i></li> <!--Secure Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Inter-server sharing-->
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
@@ -713,7 +713,7 @@
 					</li> <!-- .product -->
 				</ul> <!-- .cd-products-columns -->
 			</div> <!-- .cd-products-wrapper -->
-			
+
 			<ul class="cd-table-navigation">
 				<li><a href="#0" class="prev inactive">Prev</a></li>
 				<li><a href="#0" class="next">Next</a></li>
@@ -724,7 +724,7 @@
 </section>
 <section class="disclaimer">
 <div class="container">
-<p>Based on public information to our best knowledge, gathered May 19 2017. We understand the world is constantly changing, if you see we missed a feature or made a mistake, let us know. You can use <a href="/contact">our contact form.</a></p>
+<p>Based on public information to our best knowledge, gathered May 24 2017. We understand the world is constantly changing, if you see we missed a feature or made a mistake, let us know. You can use <a href="/contact">our contact form.</a></p>
 </div>
 </section>
 <!--<script>
@@ -738,18 +738,18 @@ function productsTable( element ) {
 	// bind table events
 	this.bindEvents();
 }
- 
+
 productsTable.prototype.bindEvents = function() {
 	var self = this;
-	
+
 	self.productsWrapper.on('scroll', function(){
 		//detect scroll left inside products table
 	});
-	
+
 	self.products.on('click', '.top-info', function(){
-		//add/remove .selected class to products 
+		//add/remove .selected class to products
 	});
-	
+
 	self.filterBtn.on('click', function(event){
 		//filter products
 	});
@@ -757,12 +757,12 @@ productsTable.prototype.bindEvents = function() {
 	self.resetBtn.on('click', function(event){
 		//reset products visibility
 	});
-	
+
 	this.navigation.on('click', 'a', function(event){
 		//scroll inside products table - left/right arrows
 	});
 }
- 
+
 var comparisonTables = [];
 $('.cd-products-comparison-table').each(function(){
 	//create a productsTable object for each .cd-products-comparison-table
@@ -771,7 +771,7 @@ $('.cd-products-comparison-table').each(function(){
 
 productsTable.prototype.updateLeftScrolling = function() {
 	var scrollLeft = this.productsWrapper.scrollLeft();
- 
+
 	if( this.table.hasClass('top-fixed') && checkMQ() == 'desktop') setTranformX(this.productsTopInfo, '-'+scrollLeft);
 }
 </script>-->
