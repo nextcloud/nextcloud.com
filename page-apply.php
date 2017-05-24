@@ -6,7 +6,7 @@
 
 <p>The Nextcloud community <a href="/providers">offers a list of providers for Nextcloud users</a>. No endorsement is implied by these listings. If you would like to have your organization added to this page, please follow these instructions carefully:
 <ul>
-	<li>Entries <strong>must</strong> be factual and relevant to Nextcloud. Generic services are not a good fit. Make sure that the link you submit contains references, a logo and a link to Nextcloud.</li>
+	<li>Entries <strong>must</strong> be factual and relevant to Nextcloud. Generic services are not a good fit. Make sure that <strong>the link you submit contains a logo and a link to Nextcloud.</strong></li>
 	<li>Your organization and the website you submit have to <strong>respect the <a href="/trademarks">Nextcloud trademark policy</a></strong>.</li>
         <li>Being listed does not apply approval, endorsement or affiliation with the Nextcloud GmbH, the community or project and your website and/or description should not, incorrectly, claim so.</li>
 	<li>The <strong>description</strong> can be up to 150 characters. It should give an idea of the offered services so readers can quickly judge if an entry is of interest. It should not contain any detailed information about your pricing-policy or your offerings.<!-- Review the current list for the expected contents and format.--></li>
