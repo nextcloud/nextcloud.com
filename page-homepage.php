@@ -110,7 +110,7 @@
 	        </div>
 
 	        <div class="right-text-grey" data-slide="4">
-	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Full text search, Next-gen Federation, Spreed and more');?></h5>
+	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Next generation innovation');?></h5>
 	            <p class="section--paragraph"><?php echo $l->t('Nextcloud announced the innovative Global Scale architecture as part of Nextcloud 12. Global Scale brings a truly scalable architecture, delivering cost benefits and adding flexibility and control over locality of data in large Nextcloud instances.');?></p>
 	            <br/>
 	            <p>
