@@ -83,7 +83,7 @@
         </div>
         <div class="texts-wrapper col-md-6">
 	        <div class="right-text-grey" data-slide="1">
-	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('the Next Generation of Secure Collaboration');?></h5>
+	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('The Next Generation of Secure Collaboration');?></h5>
 	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 12 redefines Enterprise File Sync and Share, bringing it to the next level with built in collaboration and communication capabilities. Working together was never easier!');?></p>
 	            <br/>
 	            <p>
