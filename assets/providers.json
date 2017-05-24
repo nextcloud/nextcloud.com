@@ -739,5 +739,33 @@
             "PROHosting is a first Belarussian organization, respectful of privacy. We offer free and alternative Cloud solutions for all. Ready to use or dedicated server."
          ],
          "imagename":"prohosting.png"
+      },
+    {
+         "title":"SpeiBox",
+         "url":"https:\/\/speibox.de",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "SpeiBox is your managed Nextcloud hosting provider: your files, safe, in Germany. You can expand your SpeiBox to a collaboration tool!"
+         ],
+         "imagename":"spreibox.png"
+      },
+    {
+         "title":"sitorix GmbH",
+         "url":"https:\/\/www.cloudlay.com",
+         "flags":[
+            "de",
+            "en",
+            "es"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "We offer our customers dedicated Nextcloud instances with daily backup and on servers located in Germany."
+         ],
+         "imagename":"cloudlay.png"
       }
 ]
