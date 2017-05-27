@@ -109,7 +109,7 @@
 		<li class="section--paragraph"><?php echo $l->t('File Retention');?></li>
 		<li class="section--paragraph"><?php echo $l->t('File Firewall');?></li>
 		<li class="section--paragraph"><?php echo $l->t('File Automated Tagging');?></li>
-		<li class="section--paragraph"><?php echo $l->t('Files Drop');?></li>
+		<li class="section--paragraph"><?php echo $l->t('File Drop');?></li>
 		<li class="section--paragraph"><?php echo $l->t('SharePoint');?></li>
 	</ul>
 	<p class="section--paragraph"><?php echo $l->t('The open source replacements of these apps in Nextcloud offer at least the same and typically more capabilities. Configuration settings not mentioned in this list will be carried over from ownCloud to Nextcloud during upgrade.');?>
