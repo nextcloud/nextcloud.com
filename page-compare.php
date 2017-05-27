@@ -59,7 +59,7 @@
 					<li title="" rel="tooltip">Calendar/Contact/Mail integration</li> <!--Calendar/Contact/Mail integration-->
 					<li title="" rel="tooltip">Mobile calendar/contact integration</li> <!--Mobile calendar/contact integration-->
 					<li title="" rel="tooltip">Online Office</li> <!--Online Office-->
-					<li title="Public link to folder recipient can upload to, which hides existing content of the shared folder" rel="tooltip">Secure Drop (customer file upload)</li> <!--Secure Drop (customer file upload)-->
+					<li title="Public link to folder recipient can upload to, which hides existing content of the shared folder" rel="tooltip">File Drop (customer file upload)</li> <!--File Drop (customer file upload)-->
 					<li title="Sharing between separate cloud instances of <strong>different vendors</strong>. Example, Nextcloud users can share files with users on Pydio and ownCloud servers." rel="tooltip">Inter-server sharing</li> <!--Inter-server sharing-->
 						<li class="cd-group">Admin features</li> <!--Admin features-->
 					<li title="" rel="tooltip">Content workflow automation</li> <!--Content workflow automation-->
@@ -123,7 +123,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="both Android/iOS (Android with integrated 3rd party tool)" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="With Collabora Online" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Online Office-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Secure Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Inter-server sharing-->
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
@@ -185,7 +185,7 @@
 							<li title="optional" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i>/<i class="fa fa-check optional" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="Optional. Available for iOS, Android possible with not related third party tool" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i>/<i class="fa fa-check optional" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="With Collabora Online" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Online Office-->
-							<li title="" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i></li> <!--Secure Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Inter-server sharing-->
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
@@ -247,7 +247,7 @@
 							<li title="not natively, third party app" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
-							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Secure Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
@@ -309,7 +309,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Secure Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
@@ -370,7 +370,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i title="through Google Apps" rel="tooltip" class="fa fa-google" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Secure Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
@@ -431,7 +431,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Secure Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
@@ -493,7 +493,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Secure Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="Only via third party app" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Content workflow automation-->
@@ -555,7 +555,7 @@
 							<li title="Only via third party app" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
-							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Secure Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Content workflow automation-->
@@ -617,7 +617,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Secure Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Content workflow automation-->
@@ -679,7 +679,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
-							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Secure Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->

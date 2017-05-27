@@ -43,15 +43,15 @@
         <div class="row revealOnScroll feature--block">
             <div class="col-md-6">
                 <h2 class="section--paragraph__tittle"><?php echo $l->t('Work, share, collaborate, enjoy');?></h2>
-                <p class="section--paragraph"><?php echo $l->t('Share images, documents or music with colleagues on your server, send password protected public links to friends and get notifications on your phone when a user on another Nextcloud server shares files directly with you. Use Secure Drop to let customers upload files to you in a easy and secure way!');?></p>
-                <a href="/secure-drop" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn about Secure Drop');?></a>
+                <p class="section--paragraph"><?php echo $l->t('Share images, documents or music with colleagues on your server, send password protected public links to friends and get notifications on your phone when a user on another Nextcloud server shares files directly with you. Use File Drop to let customers upload files to you in a easy and secure way!');?></p>
+                <a href="/secure-drop" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn about File Drop');?></a>
                 <p class="section--paragraph"><?php echo $l->t('You can trust that when you share, Nextcloud makes sure you stay in control over your data. You can easily see a list of shares, remove or change permissions and restore older versions of files.');?></p>
                 
             </div>
             <div class="col-md-6">
                 <div class="yt-img-overlay">
-                    <a class="youtube" href="https://www.youtube.com/watch?v=AhFnbB-a7ik" title="Secure Drop in Nextcloud 12">
-                        <img  src="https://img.youtube.com/vi/AhFnbB-a7ik/hqdefault.jpg" title="Secure Drop in Nextcloud 12" />
+                    <a class="youtube" href="https://www.youtube.com/watch?v=AhFnbB-a7ik" title="File Drop in Nextcloud 12">
+                        <img  src="https://img.youtube.com/vi/AhFnbB-a7ik/hqdefault.jpg" title="File Drop in Nextcloud 12" />
                         <div class="yt-play-btn">
                             <i></i>
                         </div>
