@@ -40,12 +40,14 @@
 		<h3><?php echo $l->t('Supported Product Versions');?></h3>
 		<p><?php echo $l->t('Nextcloud Server:');?></p>
 		<ul>
+			<li><?php echo $l->t('Latest 12.x release');?></li>
 			<li><?php echo $l->t('Latest 11.x release');?></li>
-			<li><?php echo $l->t('Latest 10.x release (End of Life in 2017-05)');?></li>
-			<li><?php echo $l->t('Latest 9.x release (End of Life since 2017-04)');?></li>
+			<li><?php echo $l->t('Latest 10.x release');?></li>
 		</ul>
 
-		<p><?php echo $l->t('If you want to continue to use End of Life-version, please <a href="https://nextcloud.com/enterprise/buy/">contact Nextcloud sales</a>to get access to our Long Term Support offering.');?></p>
+		<p><?php echo $l->t('You will find our Maintenance and Release Schedule <a href="https://nextcloud.com/enterprise/buy/">on GitHub</a>. Please have a close look into the End of Life-section.');?></p>
+
+		<p><?php echo $l->t('If you want to continue to use versions, which reached their End of Life, please <a href="https://nextcloud.com/enterprise/buy/">contact Nextcloud sales</a> to get access to our Long Term Support offering.');?></p>
 
 		<p><?php echo $l->t('Nextcloud Android Client:');?></p>
 		<ul></p>
