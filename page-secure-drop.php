@@ -19,7 +19,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Secure Drop');?></h1>
+				<h1><?php echo $l->t('File Drop');?></h1>
 				<h2><?php echo $l->t('Convenient and secure file exchange for enterprises');?></p>
 			</div>
 		</div>
@@ -32,7 +32,7 @@
 		<div class="col-md-10 col-md-offset-1 video revealOnScroll">
 			<div class="yt-img-overlay">
 				<a class="youtube" id="AhFnbB-a7ik" href="https://www.youtube.com/watch?v=AhFnbB-a7ik" title="Editing public link sharesd">
-					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/AhFnbB-a7ik/maxresdefault.jpg" title="Secure Drop in action" style='margin: 0 0 0 0; padding: -10% 0 -10% 0;' /> <!-- style different per image! --> 
+					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/AhFnbB-a7ik/maxresdefault.jpg" title="File Drop in action" style='margin: 0 0 0 0; padding: -10% 0 -10% 0;' /> <!-- style different per image! --> 
 					<div class="yt-play-btn">
 						<i></i>
 					</div>
@@ -40,7 +40,7 @@
 			</div>
 		</div>
 		<div class="col-md-6 col-md-offset-3 text-center revealOnScroll">
-			<p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Drop feature enables hospitals, banks, notaries and government agencies to securely receive data from customers, patients, clients or partners.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The Nextcloud File Drop feature enables hospitals, banks, notaries and government agencies to securely receive data from customers, patients, clients or partners.');?></p>
 		</div>
 	</div>
 </div>
@@ -54,7 +54,7 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Easy creation of secure upload point');?></p>
-			<p class="section--paragraph"><?php echo $l->t('To create an upload link, select any folder as target for Secure Drop by enabling file upload in a folder share and choosing »<em>Secure Drop (upload only)</em>«. This hides the existing content of the folder from the share recipient, providing a secure upload target.');?></p> 
+			<p class="section--paragraph"><?php echo $l->t('To create an upload link, select any folder as target for File Drop by enabling file upload in a folder share and choosing »<em>File Drop (upload only)</em>«. This hides the existing content of the folder from the share recipient, providing a secure upload target.');?></p> 
 			 <p class="section--paragraph"><?php echo $l->t('You can now share this link to your customer, partner or user!');?></p>
 		</div>
 	</div>
@@ -73,7 +73,7 @@
 		</div>
 	<div class="col-md-6 revealOnScroll">
 		<p class="section--paragraph__tittle"><?php echo $l->t('Unique links for each customer');?></p>
-		<p class="section--paragraph"><?php echo $l->t('Rather than creating a single upload link, you can also have customized links by entering a customer email address and then enabling Secure Drop (upload only). Your client receives an email with instructions on where to securely upload their files and if you chose to add one, the password in a separate email. You can have both a shared link and multiple, unique email links with each their own password, expiration date and access rights. The password email can be disabled in the admin sharing settings for even more security-sensitive data where a secure second channel (like a <a class="hyperlink" href="/webrtc">secure video call</a>) has to be used for the password.');?></p>
+		<p class="section--paragraph"><?php echo $l->t('Rather than creating a single upload link, you can also have customized links by entering a customer email address and then enabling File Drop (upload only). Your client receives an email with instructions on where to securely upload their files and if you chose to add one, the password in a separate email. You can have both a shared link and multiple, unique email links with each their own password, expiration date and access rights. The password email can be disabled in the admin sharing settings for even more security-sensitive data where a secure second channel (like a <a class="hyperlink" href="/webrtc">secure video call</a>) has to be used for the password.');?></p>
 		</div>
 	</div>
 	<div class="row">
