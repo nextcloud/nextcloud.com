@@ -182,12 +182,6 @@
                             </div>
 
                             <div class="col-md-4">
-                                <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/permissions.svg">
-                                <p class="section--paragraph__tittle"><?php echo $l->t('Permission');?></p>
-                                <p class="section--paragraph"><?php echo $l->t('Administrators can set permissions on sharing and access to files using groups. Permissions of underlying storage, like Windows Network Drive access rights, are respected by Nextcloud');?></p>
-                            </div>
-
-                            <div class="col-md-4">
                                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/retention.svg">
                                 <p class="section--paragraph__tittle"><?php echo $l->t('Data Retention');?></p>
                                 <p class="section--paragraph"><?php echo $l->t('Define rules for data retention, allowing regular cleanup of files or ensurances that data stays put for a set amount of time.');?></p>
