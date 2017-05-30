@@ -78,7 +78,7 @@
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Scalability');?></p>
 		<h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Go orders of magnitude further');?></h3>
 		<div class="scalability__ilustration"></div>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('It is hard to scale typical on-premise file sync & share architectures to tens of millions of users. The shared components like storage, database and load balancers become bottlenecks.');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('It is hard to scale typical on-premise file sync & share architectures over a hundred thousand users. The shared components like storage, database and load balancers become expensive bottlenecks.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud Global Scale is designed to scale to hundreds of millions of users.');?></p>
 	</div>
 </section>
