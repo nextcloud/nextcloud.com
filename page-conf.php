@@ -24,7 +24,7 @@
 <!-- 			<h2 class="revealOnScroll"></h2> -->
 <!-- 			<p class="section--paragraph__tittle revealOnScroll"></p> -->
 			<p class="section--paragraph revealOnScroll">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
-			<a href="https://conf.nextcloud.com/conference/NextcloudConference2017/register/new" class="btn btn-lg btn-primary revealOnScroll">Register for free</a> <a href="https://conf.nextcloud.com/conference/NextcloudConference2017/program/proposal/new" class="btn btn-lg btn-primary revealOnScroll">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a>
+			<a href="https://eventyay.com/e/de88e486/" class="btn btn-lg btn-primary revealOnScroll">Register for free</a> <a href="https://eventyay.com/e/de88e486/cfs/" class="btn btn-lg btn-primary revealOnScroll">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a>
 	<!--		<p class="section--paragraph revealOnScroll"><a href="https://conf.nextcloud.org/conference/?/schedule#2015-08-29" style="font-weight: 300" class="btn btn-lg btn-primary">See the full program</a></p>-->
 <!-- 			<p class="section--paragraph">Find <a href="/confinfo">practical information for visitors here</a>.</p> -->
 		</div>
