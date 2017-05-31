@@ -113,7 +113,7 @@
                             <div class="feature">
                                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/saml.svg">
                                 <p class="section--paragraph__tittle">SSO/SAML 2.0</p>
-                                <p class="section--paragraph"><?php echo $l->t('Nextcloud supports Single Sign On (SSO) and provides native SAML 2.0 (and Shibboleth) authentication in its web front end and apps. The native support avoids time-outs requiring a new login and enables users to manage sessions, have app specific passwords, retrieve user data and group membership and more.');?></p>
+                                <p class="section--paragraph"><?php echo $l->t('Nextcloud supports Single Sign On (SSO) and provides native SAML 2.0 (and Shibboleth) authentication in its web front end. The native SAML integration negates the need for external software like Apache modules. Native SAML is compatible with all webservers and supports group memberships, flexible session management and app specific passwords.');?></p>
                             </div>
                         </div>
                         <div class="col-md-4">

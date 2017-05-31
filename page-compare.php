@@ -80,7 +80,7 @@
 					<li title="Allow restricting mobile/desktop/third party applications access to filesystem or other data" rel="tooltip">App access rights</li> <!--App access rights-->
 						<li class="cd-group">Authentication</li> <!--Authentication-->
 					<li title="" rel="tooltip">LDAP/AD</li> <!--LDAP/AD-->
-					<li title="Native SAML avoids time-outs requiring a new login, can retrieve user data like group membership and enables users to manage sessions, have app specific passwords and more." rel="tooltip">Native SAML</li> <!-- Native SAML -->
+					<li title="Native SAML is implemented directly in the application without a requirements on external software like Apache modules. Native SAML is compatible with all webservers and supports group memberships, flexible session management and app specific passwords." rel="tooltip">Native SAML</li> <!-- Native SAML -->
 					<li title="Authentication through Apache modules allows eg SAML/ShibbolethADFS, OAuth, OpenID, CAS and more." rel="tooltip">Auth via env variable</li> <!--Auth via env variable-->
 					<li title="" rel="tooltip">Kerberos</li> <!--Kerberos-->
 						<li class="cd-group">Storage</li> <!--Storage-->
