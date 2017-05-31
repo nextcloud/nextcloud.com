@@ -68,7 +68,24 @@
 	<p class="section--paragraph"><?php echo $l->t('First rate support as well as <a  class="hyperlink" href="https://nextcloud.com/?p=1222">healthy development</a> happening in public are key to our offering. Employing over a dozen former ownCloud engineers as well as many other experienced software developers, we are in the best position to support you in keeping your data secure and easily accessible to your employees.');?></p>
 	<p class="section--paragraph"><?php echo $l->t('We can help you <a class="hyperlink" href="/enterprise">with a support subscription</a> but you can also look for <a class="hyperlink" href="/partners">support from one of our partners</a> and of course get <a class="hyperlink" href="https://help.nextcloud.com">community support on our forums.</a>');?></p>
 
-	<h2 class="section--paragraph__tittle"><?php echo $l->t('Technical migration');?></h2>
+	<h2 class="section--paragraph__tittle"><?php echo $l->t('The Nextcloud migration tool');?></h2>
+	<p class="section--paragraph"><?php echo $l->t('The easiest way to migrate is using our migration tool. This tool supports ownCloud 8.2 to ownCloud 10, migrating to the appropriate Nextcloud release automatically.');?></p>
+
+	<p class="section--paragraph"><?php echo $l->t('Here\'s how to use the migrator.');?></p>
+
+	<p class="section--paragraph"><?php echo $l->t('Log into the ownCloud server, navigate to the folder where ownCloud is installed and:
+        <ul><li>1. grab the update script and put it in the updater folder:<br/>
+        <code>wget https://download.nextcloud.com/server/installer/migrator/index.php</code><br/>
+        and then<br/>
+        <code>mv index.php.1 updater/index.php</code><br/>
+        (there is already an index.php in the ownCloud folder so the newly downloaded one will be called index.php.1)</li>
+        <li>2. Now go to the URL of your ownCloud server and append updater/index.php: <code>your.owncloudserver.com/updater/index.php</code></li>
+        <li>3. Just follow the steps! Watch our video below to see how easy it is.</li></ul>');?></p>
+
+    <iframe width="100%" height="720" src="https://www.youtube.com/embed/QKI85Yq01wo" frameborder="0" allowfullscreen></iframe>
+
+	<p class="section--paragraph"><?php echo $l->t('You can do the last step manually from the command line, which is adviced on large installations where the time-out on PHP via the web interface can be a problem. Note that <strong>ownCloud 10.0.1 can not yet be migrated to Nextcloud 12</strong>, we are still testing this upgrade path to make sure it is 100% reliable!');?></p>
+    <h2 class="section--paragraph__tittle"><?php echo $l->t('The manual process');?></h2>
 	<p class="section--paragraph"><?php echo $l->t('Moving from ownCloud to Nextcloud follows the same process as a upgrade within either product. You can essentially follow our');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/manual_upgrade.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">usual upgrade documentation.</a>');?></p>
 
 	<p class="section--paragraph"><?php echo $l->t('The steps are as follows:');?></p>
@@ -80,7 +97,7 @@
 	<li class="section--paragraph"><?php echo $l->t('5. Start the upgrade process with the command line tool<br> or set <code>\'maintenance\' => false,</code> in config/config.php and visit the login page');?></li>
 	<li class="section--paragraph"><?php echo $l->t('6. Disable Maintenance Mode via command line<br> or set <code>\'maintenance\' => false,</code> in config/config.php');?></li>
 	</ul>
-	<p class="section--paragraph"><?php echo $l->t('An even easier way using our new updater is <a  class="hyperlink"href="https://nextcloud.com/blog/get-up-to-date-with-the-new-nextcloud-updater/">detailed in this blog post.</a>');?></p>
+
 	<p class="section--paragraph"><?php echo $l->t('Find more details in');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/manual_upgrade.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">our documentation.</a>');?></p>
 
 	<p class="section--paragraph"><?php echo $l->t('Note that, as ownCloud does not support skipping releases, upgrades have to go through all releases between the existing ownCloud release and the desired Nextcloud release. We will support upgrades from ownCloud 8.2 and onwards. If you are on an older release and need help, please visit our <a class="hyperlink" href="https://help.nextcloud.com">community support forums</a> or');?> <a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('contact our Sales team for a custom quote.</a>');?></p>
@@ -99,6 +116,7 @@
 		<li class="section--paragraph"><?php echo $l->t('ownCloud 8.2.x -> Nextcloud 9.0.x -> Nextcloud 10.0.x');?></li>
 		<li class="section--paragraph"><?php echo $l->t('ownCloud 9.0.x -> Nextcloud 9.0.x -> Nextcloud 10.0.x');?></li>
 		<li class="section--paragraph"><?php echo $l->t('ownCloud 9.1.x -> Nextcloud 10.0.x -> Nextcloud 11.0.x');?></li>
+		<li class="section--paragraph"><?php echo $l->t('ownCloud 10.0.- -> Nextcloud 12.0.0');?></li>
 	</ul>
 	<p class="section--paragraph"><?php echo $l->t('When upgrading, make sure to enable apps after every upgrade step so they can run their own upgrade scripts. We have fixed this issue in Nextcloud 12: apps will no longer be disabled when upgrading on systems running PHP 7.');?></p>
 	<p class="section--paragraph"><?php echo $l->t('If you are on a very old ownCloud release or want more details, read our extensive detail of upgrade steps in our blog on how to <a  class="hyperlink" href="https://nextcloud.com/blog/protect-your-privacy-time-to-upgrade-to-nextcloud-11./">protect your privacy by upgrading to Nextcloud 11.</a> Note that upgrading from a Windows Server is not supported beyond  moving over the data.');?></p>
