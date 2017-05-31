@@ -66,7 +66,7 @@
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-				<h2 class="teamname">Fabian Lietke</h2>
+				<h2 class="teamname">Fabian Liedtke</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Account manager</h3>
 					<h4 class="teamexpertise">Customer relations</h4>
@@ -139,7 +139,7 @@
 					<p class="teamsocial"><!--<a href="https://spreed.me/"><i class="fa-rss fa"></i></a>--> <a href="https://github.com/NinaNC"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nlapalice"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Nina studied Business and Management at HEC Paris. She got involved in Open Source two years ago, and she's especially working on personal data protection regulation. She co-directed <i>Numérique, reprendre le contrôle</i> in 2016.</p>
-			</div>	
+			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
