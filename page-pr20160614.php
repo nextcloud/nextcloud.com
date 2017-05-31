@@ -14,4 +14,6 @@
 
 <p>About Nextcloud<br />
 Enterprises managing confidential data and communication internally and externally rely on Nextcloud's secure, on-premise enterprise file access and communication platform. Nextcloud combines unprecedented universal access to data with next-generation secure communication and collaboration capabilities under direct control of IT and integrated with existing compliant infrastructure. Nextcloud's open, modular architecture, emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing assets within and across the borders of their organization. For more information, visit https://nextcloud.com</p>
+<p><a href="https://nextcloud.com/blog/nextcloud-9-available-enterprise-functionality-to-be-open-source/">announcement blog with details</a></p>
 </div>
+
