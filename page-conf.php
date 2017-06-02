@@ -97,7 +97,7 @@
 		<div class="col-sm-5 col-sm-offset-2">
 			<p class="section--paragraph revealOnScroll"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/talks.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/talks_wee.jpg" style="width: 95%" alt="talk" class="aligncenter" /></a></p>
 			<h2  class="revealOnScroll">Entree</h2>
-			<p class="section--paragraph revealOnScroll">The Nextcloud Contributor Conference will be entirely open and free. We only ask you to <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2017/register/new" target="_blank">register</a> to help us plan better for the event</p>
+			<p class="section--paragraph revealOnScroll">The Nextcloud Contributor Conference will be entirely open and free. We only ask you to <a class="hyperlink" href="https://eventyay.com/e/de88e486/" target="_blank">register</a> to help us plan better for the event</p>
 		</div>
 	</div>
 	<div class="row revealOnScroll">
