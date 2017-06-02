@@ -58,13 +58,6 @@
 	</div>
 </div>
 
-Use a comand line terminal to log in to your ownCloud server and navigate to the folder where ownCloud is installed and execute these commands:
-<ul><li>grab the update script: <br /><code>wget https://download.nextcloud.com/server/installer/migrator/index.php</code><br/>put it in the updater folder: <br/><code>mv index.php.1 updater/index.php</code><br /> (there is already an index.php in the ownCloud folder so the newly downloaded one will be called index.php.1)</li>
-<li>Now go in your browser to the URL of your ownCloud server, say your.owncloudserver.cop and append updater/index.php: <code>your.owncloudserver.com/updater/index.php</code></li>
-<li>You should now see our migrator. Just follow the steps! Watch our video below to see how easy it is.</li></ul>
-
-You can do the final step manually from the command line, which is advised on large installations where the time-out on PHP via the web interface can be a problem. Note that <strong>ownCloud 10.0.1 can not yet be migrated to Nextcloud 12</strong>, we are still testing this upgrade path to make sure it is 100% reliable!
-
 <div class="container">
 	<div class="col-md-8 col-md-offset-2">
 	<h2 class="section--heading-1"><?php echo $l->t('Why migrate: ownCloud vs Nextcloud');?></h2>
