@@ -8,6 +8,49 @@
 <li><a href="#latest9">Nextcloud 9 (End of Life since 2017-04)</a></li>
 </ul>
 
+<h3 id="11-0-0">Version 12.0.0 <small>May 22 2017</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.tar.bz2">nextcloud-12.0.0.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.zip">nextcloud-12.0.0.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.tar.bz2.md5">nextcloud-12.0.0.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.zip.md5">nextcloud-12.0.0.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.tar.bz2.sha256">nextcloud-12.0.0.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.zip.sha256">nextcloud-12.0.0.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.tar.bz2.sha512">nextcloud-12.0.0.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.zip.sha512">nextcloud-12.0.0.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.tar.bz2.asc">nextcloud-12.0.0.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.zip.asc">nextcloud-12.0.0.zip.asc</a></p>
+
+<h4>Changes</h4>
+<p>Over 1100 changes were merged in the server, with many hundreds more in existing or new apps. The main improvements include:
+<ul>
+	<li>Collaboration features
+	<ul>
+		<li>push notifications on mobile</li>
+        <li>unique public link shares to multiple users, each with their own settings like read/write rights, password protection and expiration date.</li>
+		<li>videocall app integration with screensharing</li>
+		<li>federated activities</li>
+		<li>writable public share link allowing you to share and collaborate immediately</li>
+		<li>user-centric group management with the Circles app</li>
+        <li>social sharing (Twitter, G+, Facebook, Diaspora)</li>
+		<li>XMPP chat improvements (file transfers, chat status notifications, message archive management) </li>
+	</ul></li>
+	<li>Security improvements
+	<ul>
+		<li>brute force protection for developers</li>
+		<li>rate limiting of certain IP range for developers</li>
+		<li>support of a wide variety of authentication mecanisms</li>
+	</ul></li>
+	<li>Administration
+	<ul>
+		<li>push notifications via command line</li>
+		<li>new apps (Guest App, Impersonate App, Excludedirs app, Quota Warning App, JSLoader App, Backup App)</li>
+		<li>support of a wide variety of authentication mecanisms</li>
+	</ul></li>
+
+	<li>Contacts menu for reaching users in your Nextcloud</li>
+	<li>Secure space for recipients to drop their files</li>
+	<li>Many more smaller changes like the ability to move files through the menu instead of drag and drop in the Files App, and </li>
+</ul>
+
+<p><a href="https://nextcloud.com/blog/welcome-to-nextcloud-12/">Release announcement with overview about features and changes</a></p>
+<p><a href="https://github.com/nextcloud/server/milestone/10?closed=1">See a full list of integrated pull requests here.</a></p>
+
 <a name="latest11"></a>
 <h3 id="11-0-3">Version 11.0.3 <small>April 24 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.3.tar.bz2">nextcloud-11.0.3.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.3.zip">nextcloud-11.0.3.zip</a></br>
