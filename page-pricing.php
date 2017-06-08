@@ -5,7 +5,7 @@
 		require(["pages/enterprise", "pages/pricing", "modules/submenu", "bootstrap"])
 	});
 	</script>
-	
+
 <style>
 
 </style>
@@ -64,7 +64,7 @@
 				<div class="list">
 					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 1 year');?></li>
 					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 3 business days');?></li>
-					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('Portal support.');?></li>
+					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a href="https://portal.nextcloud.com">Portal support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee.');?>" rel="tooltip"><?php echo $l->t('<a href="/migration">Migration support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support team by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support');?></li>
@@ -103,7 +103,7 @@
 				<div class="list">
 					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 3 years');?></li>
 					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 2 business days');?></li>
-					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('Portal support');?></li>
+					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a href="https://portal.nextcloud.com">Portal support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee. Ask sales for details! ');?>" rel="tooltip"><?php echo $l->t('<a href="/migration">Migration support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support team by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: business hours');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support: business hours');?></li>
@@ -142,7 +142,7 @@
 				<div class="list">
 					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 5+5 years');?></li>
 					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 24h or as agreed');?></li>
-					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('Portal support');?></li>
+					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a href="https://portal.nextcloud.com">Portal support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee. Ask sales for details! ');?>" rel="tooltip"><?php echo $l->t('<a href="/migration">Migration support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support team by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: up to 24/7');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support: up to 24/7');?></li>
