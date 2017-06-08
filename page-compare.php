@@ -14,7 +14,7 @@
 		<div class="container">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Compare cloud technologies');?></h1>
-				<h2><?php echo $l->t('There is a wide variety of public and private cloud vendors out there. To save you the time of digging through documentation, we provide you an overview of how they compare to Nextcloud');?></h2>
+				<h2><?php echo $l->t('See how Nextcloud compares to these popular closed-source services, and switch to a more open and transparent solution to protect your data!');?></h2>
 			</div>
 		</div>
 	</div>
