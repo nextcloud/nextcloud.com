@@ -40,10 +40,9 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 	<ul>
 		<li>push notifications via command line</li>
 		<li>new apps (Guest App, Impersonate App, Excludedirs app, Quota Warning App, JSLoader App, Backup App)</li>
-		<li>support of a wide variety of authentication mecanisms</li>
 	</ul></li>
 
-	<li>Contacts menu for reaching users in your Nextcloud</li>
+	<li>Contacts menu for reaching users easily in your Nextcloud</li>
 	<li>Secure space for recipients to drop their files</li>
 	<li>Many more smaller changes like the ability to move files through the menu instead of drag and drop in the Files App, and </li>
 </ul>
