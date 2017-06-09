@@ -26,7 +26,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 		<li>videocall app integration with screensharing</li>
 		<li>federated activities</li>
 		<li>writable public share link allowing you to share and collaborate immediately</li>
-		<li>user-centric group management with the Circles app</li>
+		<li>compatibility for user-centric group management with the Circles app</li>
         <li>social sharing (Twitter, G+, Facebook, Diaspora)</li>
 		<li>XMPP chat improvements (file transfers, chat status notifications, message archive management) </li>
 	</ul></li>
@@ -43,8 +43,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 	</ul></li>
 
 	<li>Contacts menu for reaching users easily in your Nextcloud</li>
-	<li>Secure space for recipients to drop their files</li>
-	<li>Many more smaller changes like the ability to move files through the menu instead of drag and drop in the Files App, and </li>
+	<li>Many more smaller changes like the ability to move files through the menu instead of drag and drop in the Files App, and ability to find documents deleted by a recipient in your trashbin</li>
 </ul>
 
 <p><a href="https://nextcloud.com/blog/welcome-to-nextcloud-12/">Release announcement with overview about features and changes</a></p>
