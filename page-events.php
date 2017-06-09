@@ -132,6 +132,11 @@
 						<td>Tokyo, Japan</td>
 						<td>May 31-June 2</td>
 					</tr>
+                    <tr>
+						<td><a  class="hyperlink" target="_blank" href="http://www.ch-open.ch/events/open-cloud-day/detailed-program/">Open Cloud Day</a></td>
+						<td>Bern, Switzerland</td>
+						<td>June 14</td>
+					</tr>
 					<tr>
 						<td><a  class="hyperlink" target="_blank" href="https://www.bitkom.org/bfoss17/">Forum Open Source 2017</a></td>
 						<td>Berlin, Germany</td>
