@@ -64,8 +64,8 @@
 				<div class="list">
 					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 1 year');?></li>
 					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 3 business days');?></li>
-					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a href="https://portal.nextcloud.com">Portal support</a>');?></li>
-					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee.');?>" rel="tooltip"><?php echo $l->t('<a href="/migration">Migration support</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://portal.nextcloud.com">Portal support</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="/migration">Migration support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support team by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
@@ -103,8 +103,8 @@
 				<div class="list">
 					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 3 years');?></li>
 					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 2 business days');?></li>
-					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a href="https://portal.nextcloud.com">Portal support</a>');?></li>
-					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee. Ask sales for details! ');?>" rel="tooltip"><?php echo $l->t('<a href="/migration">Migration support</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://portal.nextcloud.com">Portal support</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee. Ask sales for details! ');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="/migration">Migration support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support team by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: business hours');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support: business hours');?></li>
 					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
@@ -142,8 +142,8 @@
 				<div class="list">
 					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 5+5 years');?></li>
 					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 24h or as agreed');?></li>
-					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a href="https://portal.nextcloud.com">Portal support</a>');?></li>
-					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee. Ask sales for details! ');?>" rel="tooltip"><?php echo $l->t('<a href="/migration">Migration support</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://portal.nextcloud.com">Portal support</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee. Ask sales for details! ');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="/migration">Migration support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support team by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: up to 24/7');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support: up to 24/7');?></li>
 					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
@@ -241,13 +241,13 @@
 		<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/publicsector.svg">
 		<h1><?php echo $l->t('Public Sector');?></h1>
 		<p><?php echo $l->t('We provide interesting discount options to organizations in the public sector.');?></p>
-		<p><a href="/enterprise/buy"><?php echo $l->t('Contact us');?></a></p>
+		<p><a class="hyperlink"  href="/enterprise/buy"><?php echo $l->t('Contact us');?></a></p>
 		</div>
 		<div class="col-md-5 col-md-offset-1 box revealOnScroll">
 		<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/education.svg">
 		<h1><?php echo $l->t('Education');?></h1>
 		<p><?php echo $l->t('Organizations in the educational sector receive a significant discount on all subscriptions');?></p>
-		<p><a href="/enterprise/buy"><?php echo $l->t('Contact us');?></a></p>	</div>
+		<p><a class="hyperlink"  href="/enterprise/buy"><?php echo $l->t('Contact us');?></a></p>	</div>
 	</div>
 </div>
 
@@ -278,7 +278,7 @@
 						<li class="check"><?php echo $l->t('Access to the core Nextcloud engineers');?></li>
 						<li class="check"><?php echo $l->t('Help and advice if you decide to (pay somebody to) develop a custom app or changes');?></li>
 						<li class="check"><?php echo $l->t('Support for branding Nextcloud');?></li>
-						<li class="check"><?php echo $l->t('Optional support for integrated video conferencing and communication features based on spreed.me and WebRTC');?></li>
+						<li class="check"><?php echo $l->t('Optional support for integrated video conferencing and communication features based on WebRTC');?></li>
 						<li class="check"><?php echo $l->t('Optional Online Office capabilities which can handle a wide range of industry-standard file formats');?></li>
 						<li class="check"><?php echo $l->t('Access to consulting for custom capabilities');?></li>
 					</ul></p>
@@ -287,7 +287,7 @@
 				<div class="line revealOnScroll"></div>
 				<div class="downarrow revealOnScroll"><a href="#languages" data-toggle="collapse"><h3><?php echo $l->t('In what languages do I get support?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="languages" class="collapse">
-					<p><?php echo $l->t('We provide support in German and English and other languages through our partners, <a href="#contact">contact us</a> for details.');?></p>
+					<p><?php echo $l->t('We provide support in German and English and other languages through our partners, <a class="hyperlink"  href="#contact">contact us</a> for details.');?></p>
 				</div>
 				<div class="line revealOnScroll"></div>
 				<div class="downarrow revealOnScroll"><a href="#branding" data-toggle="collapse"><h3><?php echo $l->t('What branding support do I get?<span class="icon-arrow-down">');?></h3></a></div>
@@ -304,17 +304,17 @@
 				<div class="line revealOnScroll"></div>
 				<div class="downarrow revealOnScroll"><a href="#migration" data-toggle="collapse"><h3><?php echo $l->t('How difficult is migration from ownCloud?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="migration" class="collapse">
-					<p><?php echo $l->t('Migration from ownCloud to Nextcloud is easy. Our support team will help you move to Nextcloud and optimally benefit from the added scalability, features, stability, performance and security. See <a href="/migration">our migration page</a> for more details on migration.');?></p>
+					<p><?php echo $l->t('Migration from ownCloud to Nextcloud is easy. Our support team will help you move to Nextcloud and optimally benefit from the added scalability, features, stability, performance and security. See <a class="hyperlink" href="/migration">our migration page</a> for more details on migration.');?></p>
 				</div>
 				<div class="line revealOnScroll"></div>
 				<div class="downarrow revealOnScroll"><a href="#howbuy" data-toggle="collapse"><h3><?php echo $l->t('How do I buy Nextcloud subscriptions?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="howbuy" class="collapse">
-					<p><?php echo $l->t('Just <a href="/buy">contact us</a> or one of our partners. Our partners will help you set up Nextcloud and they act as your first point of contact.');?></p>
+					<p><?php echo $l->t('Just <a class="hyperlink" href="/buy">contact us</a> or one of our partners. Our partners will help you set up Nextcloud and they act as your first point of contact.');?></p>
 				</div>
 				<div class="line revealOnScroll"></div>
 				<div class="downarrow revealOnScroll"><a href="#partner" data-toggle="collapse"><h3><?php echo $l->t('How do I become a Nextcloud partner?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="partner" class="collapse">
-					<p><?php echo $l->t('We are always looking for competent partners who share our passion for making customers happy! You can join our ecosystem, <a href="/contact">contact us for more information</a>.');?></p>
+					<p><?php echo $l->t('We are always looking for competent partners who share our passion for making customers happy! You can join our ecosystem, <a class="hyperlink" href="/contact">contact us for more information</a>.');?></p>
 				</div>
 				<div class="line revealOnScroll"></div>
 				<div class="downarrow revealOnScroll"><a href="#gpl" data-toggle="collapse"><h3><?php echo $l->t('What does the Open Source License mean?<span class="icon-arrow-down">');?></h3></a></div>
