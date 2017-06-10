@@ -33,3 +33,5 @@ process easy and effective for everyone involved.
 ### Notes
 
 * Please don't commit straight into the master or live branches, these branches should remain as stable as possible, and changes should be discussed amongst the community.
+* For every SCSS file, there should be one CSS file compiled with sass (or also node-sass on Win) without any special settings (not nested or compact) and both of these files should be up-to-date when merging them anywhere
+* *.css.map files are ignored by git and are there just for debugging purposes. Should you ever need them, you can use them/create new ones
