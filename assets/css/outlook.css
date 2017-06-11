@@ -20,14 +20,15 @@
 /* feature blocks */
 .featurerow {
   margin-top: 100px;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  /*	img {
+  		box-shadow: 0px 0px 4px black;
+  	}*/ }
   .featurerow .floated {
     float: right;
     padding-bottom: 50px; }
   .featurerow p {
     margin-top: 15px; }
-  .featurerow img {
-    box-shadow: 0px 0px 4px black; }
   .featurerow h1 {
     margin-bottom: 50px;
     text-align: center; }

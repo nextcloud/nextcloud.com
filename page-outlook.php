@@ -48,7 +48,7 @@
 		<div class="featurerow">
 			<div class="row">
 				<div class="col-md-6 floated revealOnScroll">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/outlook-nw.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/outlook-nw.png" alt="in action" /></a>
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-nw.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-nw.png" alt="in action" /></a>
 				</div>
 				<div class="col-md-6 featureblock revealOnScroll">
 					<h2 class="section--heading-2"><?php echo $l->t('Secure data and lower costs');?></h2>
