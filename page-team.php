@@ -201,7 +201,7 @@
 					<h3 class="teamtitle">Customer Service</h3>
 					<h4 class="teamexpertise">Support and Documentation</h4>
 					<h4 class="teamlocation">lives in Heilbronn, Germany</h4>
-					<p class="teamsocial"><a href="https://github.com/MariusBluem"><i class="fa-github fa"></i></a> <a href="https://twitter.com/MariusBluem"><i class="fa-twitter fa"></i></p>
+					<p class="teamsocial"><a href="https://github.com/MariusBluem"><i class="fa-github fa"></i></a> <a href="https://twitter.com/MariusBluem"><i class="fa-twitter fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Marius was active in Nextcloud since day one, contributing in various forms to documentation, website, support and more. He is studying and works part time.</p>
 			</div>
