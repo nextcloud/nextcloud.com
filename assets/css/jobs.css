@@ -8,7 +8,6 @@
 
 .jobs-background {
   background: url("../img/headers/team.jpg") no-repeat center;
-  /*   background-position: center; */
   background-size: cover; }
   .jobs-background .container .row .col-md6 {
     padding-right: 5%; }
@@ -62,6 +61,8 @@
       max-width: 700px;
       padding-top: 20px;
       font-size: 18px; }
+    .section-jobs-opening .wrapper-text ul {
+      padding-left: 0; }
     @media (max-width: 768px) {
       .section-jobs-opening .wrapper-text {
         margin: 0;
