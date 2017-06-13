@@ -195,7 +195,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marius.jpg" />
 				<h2 class="teamname">Marius Blüm</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Customer Service</h3>
