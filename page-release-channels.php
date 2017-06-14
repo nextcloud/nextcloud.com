@@ -65,9 +65,9 @@
 <div class="container">
 <table class="table table-striped">
     <tr>
-      <td class="" style="min-width:250px; max-widt:250px"><i class="icon-sitemap"></i>&nbsp;&nbsp;Release channel</td>
-      <td class="" style="min-width:300px"><i class="icon-briefcase"></i>&nbsp;&nbsp;Use case</td>
-      <td class="" style="min-width:300px"><i class="icon-archive"></i>&nbsp;&nbsp;Get it here</td>
+      <td class="" style="min-width:250px; max-widt:250px"><i class="fa-sitemap"></i>&nbsp;&nbsp;Release channel</td>
+      <td class="" style="min-width:300px"><i class="fa-briefcase"></i>&nbsp;&nbsp;Use case</td>
+      <td class="" style="min-width:300px"><i class="fa-archive"></i>&nbsp;&nbsp;Get it here</td>
     </tr>
     <tr>
       <td class=""><h3>Production</h3></td>
