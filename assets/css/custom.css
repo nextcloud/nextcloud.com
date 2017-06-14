@@ -1237,7 +1237,7 @@ li {
 /* A nice looking block quote */
 blockquote {
   background: none;
-  margin: 1.5em 10px;
+  /*   margin: 1.5em 10px; */
   padding: 0.5em 10px;
   quotes: "“" "”" "‘" "’";
   border-left: none;
@@ -1265,9 +1265,26 @@ blockquote:after {
 
 /* New widest container for headers */
 .container-widest {
-  margin-left: auto;
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
-  max-width: 1800px; }
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
 
 /* typical background images (hero section) like enterprise, security */
 .background {
@@ -1586,7 +1603,7 @@ blockquote:after {
     color: white; }
 
 /* Whitepaper sections */
-.section--whitepaper {
+.section--whitepaper, .whitepaper {
   /*    .button:hover {
           background-color: #0073B2;
           text-decoration: none;
@@ -1597,7 +1614,7 @@ blockquote:after {
           right: 15px; }
       .button--arrow.button--blue:before {
           background: url(../img/common/arrow_right.svg) center/contain no-repeat; }*/ }
-  .section--whitepaper .mail {
+  .section--whitepaper .mail, .whitepaper .mail {
     border-radius: 20px;
     border-style: solid;
     border-color: lightgray;
@@ -1605,7 +1622,7 @@ blockquote:after {
     padding: 8px;
     margin-top: 15px;
     color: #757575; }
-  .section--whitepaper .g-recaptcha {
+  .section--whitepaper .g-recaptcha, .whitepaper .g-recaptcha {
     margin-left: auto !important;
     margin-right: auto !important;
     display: inline-block !important; }
