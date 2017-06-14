@@ -3,6 +3,7 @@ requirejs.config({
 	baseURL: "wp-content/themes/next/assets/js/",
 	paths: {
 		jquery: ['https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min','vendor/jquery.min'],
+		jqueryUi: ['https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min', 'vendor/jquery.ui'],
 		oldJquery: ['https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min', "old/vendor/jquery-1.10.2.min"],
 		waypoints: ['https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min', 'vendor/jquery.waypoints.min'],
 		enquire: ['https://cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.6/enquire.min', "vendor/enquire"],
@@ -10,8 +11,8 @@ requirejs.config({
 		headroom: ['https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/headroom', "vendor/headroom"],
 		headroomJquery: ['https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/jQuery.headroom.min', "vendor/jquery.headroom.min"],
 		underscore: ['https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min', "vendor/underscore"],
-		velocity: ['https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min', "vendor/velocity.min"],
-		velocityUI: ['https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.ui.min', "vendor/velocity.ui.min"],
+		velocity: ["https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity", "vendor/velocity.min"],
+		velocityUI: ["https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.ui.min", "vendor/velocity.ui.min"],
 		scrollMagic: ['https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min', "vendor/ScrollMagic.min"],
 		hammer: ['https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min', "vendor/hammer.min"],
 		inview: ['https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min', "vendor/jquery.inview"],
@@ -44,7 +45,10 @@ requirejs.config({
 			deps: ["jquery"]
 		},
 		youtubeplugin: {
-			deps:["oldJquery"]
+			deps: ["jqueryUi", "bootstrap"]
+		},
+		jqueryUi: {
+			deps: ["jquery"]
 		}
 	}
 });
