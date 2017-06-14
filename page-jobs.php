@@ -7,7 +7,7 @@
 	</script>
 </head>
 <section class="hero-section second-menu">
-    <div class="background jobs-background"> 
+    <div class="background jobs-background">
         <div class="container">
                 <div class="col-md-6 topheader">
                     <h1>We are hiring</h1>
@@ -26,18 +26,18 @@
 		<p class="revealOnScroll">We pursue a fully-open strategy, keeping internal communication to a minimum while aiming to work, discuss and develop in public. We are a thriving, quickly growing company with a solid customer base. An open source background or experience contributing to Nextcloud is a big plus for job applicants! Expecially for developers we pursue a strong "hire from the community" strategy.</p>
 		<p class="revealOnScroll">Nextcloud actively strives for diversity and we'd like to especially encourage applications by members of underrepresented groups in tech.</p>
 	</div>
-</section> 
+</section>
 
 <section class="section-jobs-opening">
 	<div class="container">
 		<h2 class="text-center revealOnScroll">Job openings</h2>
 		<div class="wrapper-text">
-			
+
 			<a href="#accountmgr" data-toggle="collapse"><h3 class="jobs">Account Manager<span class="icon-arrow"></span></h3></a>
 			<div id="accountmgr" class="collapse">
 				<p>We are looking for a passionate Account Manager who will partner with and ensure the long-term success of our customers.</p>
 				<p>Your account management responsibilities include developing long-term relationships with your portfolio of assigned customers, connecting with key business executives and stakeholders. You will liaise between customers and cross-functional internal teams to ensure the timely and successful delivery of our solutions according to customer needs.</p>
-				<p>Responsibilities:</p>
+				<p class="section--paragraph__tittle">Responsibilities:</p>
 
 				<ul>
 					<li>Operate as the lead point of contact for any and all matters
@@ -57,7 +57,7 @@
 					<li>Assist with high severity requests or issue escalations as needed</li>
 				</ul>
 
-				<p>Required skills:</p>
+				<p class="section--paragraph__tittle">Required skills:</p>
 
 				<ul>
 					<li>Proven account management or other relevant experience</li>
@@ -74,8 +74,8 @@
 					<li>Writing and speaking German language</li>
 				</ul>
 
-				<p>What we offer:</p>
-				
+				<p class="section--paragraph__tittle">What we offer:</p>
+
 				<ul>
 					<li>A distributed, open team with a passion for working on and within the open source community</li>
 					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
@@ -91,13 +91,13 @@
 		<div id="jsdev" class="collapse">
 			<p>We're looking for developers with experience in Javascript/front-end development to join our server team!</p>
 			<p>You would work with the engineering team to bring new features and improvements to the server user interface like our File management app or one of the many other applications like Calendar and Contacts, Announcements and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-			<p>Responsibilities:</p>
+			<p class="section--paragraph__tittle">Responsibilities:</p>
 			<ul>
 				<li>Front end development (JS, PHP)</li>
 				<li>Cross platform testing</li>
 				<li>Quality assurance</li>
 			</ul>
-			<p>Required skills:</p>
+			<p class="section--paragraph__tittle">Required skills:</p>
 			<ul>
 				<li>Deep technical experience with Javascript and perhaps a bit of PHP</li>
 				<li>WebRTC experience a plus</li>
@@ -105,7 +105,7 @@
 				<li>Independence and self-reliance.</li>
 				<li>Knowledge around open source technology</li>
 			</ul>
-			<p>What we offer:</p>
+			<p class="section--paragraph__tittle">What we offer:</p>
 			<ul>
 				<li>A distributed, open team with a passion for working on and within the open source community</li>
 				<li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
@@ -120,7 +120,7 @@
 				<p>Technical sales engineers use their technical knowledge along with sales skills to provide advice and support on a range of products, for which a certain level of expertise is needed.</p>
 				<p>You work close together with sales and engineering and assist colleagues with bids and tenders for new clients from a technical perspective, working on proof of concept deployments and answering questions.</p>
 				<p>You like to work independently and self responsible on dedicated projects but like to also to exchange your knowledge with your colleagues.</p>
-				<p>Responsibilities:</p>
+				<p class="section--paragraph__tittle">Responsibilities:</p>
 				<ul>
 					<li>persuading clients that a product or service best satisfies their needs in terms of quality, price and delivery</li>
 					<li>working closely together with sales on customer projects</li>
@@ -135,7 +135,7 @@
 					<li>helping in the design of custom-made products</li>
 					<li>providing training and producing support material for other members of the sales team</li>
 				</ul>
-				<p>Required skills:</p>
+				<p class="section--paragraph__tittle">Required skills:</p>
 				<ul>
 					<li>Solid technical background for infrastructure set-ups in medium and large organizations</li>
 					<li>Sales skills</li>
@@ -149,7 +149,7 @@
 					<li>General programming skills in PHP, HTML, CSS</li>
 					<li>Writing and speaking German language</li>
 				</ul>
-				<p>What we offer:</p>
+				<p class="section--paragraph__tittle">What we offer:</p>
 				<ul>
 					<li>A distributed, open team with a passion for working on and within the open source community</li>
 					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
@@ -163,7 +163,7 @@
 		<a href="#linuxeng" data-toggle="collapse"><h3 class="jobs">Linux Kernel and Embedded Engineer<span class="icon-arrow"></span></h3></a>
 		<div id="linuxeng" class="collapse">
 			<p>To satisfy the demand for our Spreedbox, we are seeking a Linux kernel and embedded development expert to join our team in Stuttgart (but we are open to remote work!). In this role you are responsible for the technical foundation of this product.</p>
-			<p>Responsibilities:</p>
+			<p class="section--paragraph__tittle">Responsibilities:</p>
 			<ul>
 				<li>Software development for Linux and C/C++</li>
 				<li>Linux kernel driver development</li>
@@ -171,14 +171,14 @@
 				<li>Build system maintenance</li>
 				<li>Image building</li>
 			</ul>
-			<p>Required skills:</p>
+			<p class="section--paragraph__tittle">Required skills:</p>
 			<ul>
 				<li>Experience with Linux and kernel driver development</li>
 				<li>C/C++ and low level userland development experience</li>
 				<li>German and English language skills</li>
 
 			</ul>
-			<p>What we offer:</p>
+			<p class="section--paragraph__tittle">What we offer:</p>
 			<ul>
 				<li>An open team with a passion for working on and within the open source community</li>
 				<li>Working on a product pushing the boundaries of technology and with a global user and contributor community</li>
@@ -192,20 +192,20 @@
 		<div id="qtdev" class="collapse">
 			<p>We're looking for developers with experience in C++/Qt development to join our client team!</p>
 			<p>You would work with the engineering team to bring new features and improvements to our client for Windows, Linux and Mac. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-			<p>Responsibilities:</p>
+			<p class="section--paragraph__tittle">Responsibilities:</p>
 			<ul>
 				<li>Cross-platform development, branding</li>
 				<li>Writing documentation</li>
 				<li>Build system maintenance, testing, packaging, releasing</li>
 			</ul>
-			<p>Required skills:</p>
+			<p class="section--paragraph__tittle">Required skills:</p>
 			<ul>
 				<li>Technical experience with C++, Qt</li>
 				<li>Teamworking capabilities</li>
 				<li>Independence and self-reliance.</li>
 				<li>Knowledge around open source technology</li>
 			</ul>
-			<p>What we offer:</p>
+			<p class="section--paragraph__tittle">What we offer:</p>
 			<ul>
 				<li>A distributed, open team with a passion for working on and within the open source community</li>
 				<li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
@@ -220,21 +220,21 @@
 		<div id="phpdev" class="collapse">
 			<p>We're looking for developers with experience in PHP back-end development to join our server team!</p>
 			<p>You would work with the engineering team to bring new features and improvements to the server back-end like new authentication or storage mechanisms, audio/video chat and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-			<p>Responsibilities:</p>
+			<p class="section--paragraph__tittle">Responsibilities:</p>
 			<ul>
 				<li>Back end development (PHP)</li>
 				<li>Database design</li>
 				<li>Systems design</li>
 				<li>Quality assurance</li>
 			</ul>
-			<p>Required skills:</p>
+			<p class="section--paragraph__tittle">Required skills:</p>
 			<ul>
 				<li>Technical experience with PHP and bit of HTML, CSS, Javascript</li>
 				<li>Teamworking capabilities</li>
 				<li>Independence and self-reliance.</li>
 				<li>Knowledge around open source technology</li>
 			</ul>
-			<p>What we offer:</p>
+			<p class="section--paragraph__tittle">What we offer:</p>
 			<ul>
 				<li>A distributed, open team with a passion for working on and within the open source community</li>
 				<li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
@@ -304,14 +304,14 @@
 		<div id="techwrite" class="collapse">
 			<p>We're looking for a technical writer to join our server team!</p>
 			<p>You would work with the engineering team to make sure Nextcloud features are well documented, ensure installation and handling of Nextcloud is described well and that people can find their way around in the product. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-			<p>Responsibilities:</p>
+			<p class="section--paragraph__tittle">Responsibilities:</p>
 			<ul>
 				<li>Taking ownership of the Nextcloud documentation</li>
 				<li>Working with the Engineering team on the technical, developer and end user facing documentation</li>
 				<li>Proactively identifying areas that need further documentation</li>
 				<li>Editing, clarifying and proofreading documents written by others</li>
 			</ul>
-			<p>Required skills:</p>
+			<p class="section--paragraph__tittle">Required skills:</p>
 			<ul>
 				<li>Confidence in writing and copy-editing English documentation</li>
 				<li>Knowledge about Linux and basic PHP knowledge</li>
@@ -321,7 +321,7 @@
 				<li>Independence and self-reliance.</li>
 				<li>Knowledge around open source technology</li>
 			</ul>
-			<p>What we offer:</p>
+			<p class="section--paragraph__tittle">What we offer:</p>
 			<ul>
 				<li>A distributed, open team with a passion for working on and within the open source community</li>
 				<li>Working on a product which pushes the boundaries of technology and with a global user and contributor community</li>
@@ -335,14 +335,14 @@
 		<div id="qa" class="collapse">
 			<p>We're looking for an engineer who can help us test and make Nextcloud rock stable!</p>
 			<p>You would work with the engineering team to make sure Nextcloud is stable and well tested, developing and maintaining test plans, executing them and working with others to improve the automated and manual testing processes. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-			<p>Responsibilities:</p>
+			<p class="section--paragraph__tittle">Responsibilities:</p>
 			<ul>
 				<li>Taking ownership of the Nextcloud testing/QA process</li>
 				<li>Working with the Engineering team on testing and guiding community testing</li>
 				<li>Proactively identifying areas that need more/better testing</li>
 				<li>Testing, improving automated and manual testing infrastructure</li>
 			</ul>
-			<p>Required skills:</p>
+			<p class="section--paragraph__tittle">Required skills:</p>
 			<ul>
 				<li>Experience managing and executing QA plans</li>
 				<li>Knowledge about Linux and basic PHP knowledge</li>
@@ -351,7 +351,7 @@
 				<li>Independence and self-reliance.</li>
 				<li>Knowledge around open source technology</li>
 			</ul>
-			<p>What we offer:</p>
+			<p class="section--paragraph__tittle">What we offer:</p>
 			<ul>
 				<li>A distributed, open team with a passion for working on and within the open source community</li>
 				<li>Working on a product which pushes the boundaries of technology and with a global user and contributor community</li>
