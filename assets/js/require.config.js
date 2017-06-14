@@ -15,7 +15,7 @@ requirejs.config({
 		scrollMagic: ['https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min', "vendor/ScrollMagic.min"],
 		hammer: ['https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min', "vendor/hammer.min"],
 		inview: ['https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min', "vendor/jquery.inview"],
-		bootstrap: ['https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js', "vendor/bootstrap"],
+		bootstrap: ['https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min', "vendor/bootstrap"],
 		youtubeplugin: "old/vendor/jquery.youtubepopup.min",
 	},
 	shim: {
