@@ -86,7 +86,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'promote',
 		'providers',
 		'providersubmit',
-		'release-channels',
+//		'release-channels',
 		'salessubmit',
 		'securesharesubmit',
 // 		'securesharing',
