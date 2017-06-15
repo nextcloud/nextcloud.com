@@ -33,6 +33,5 @@ process easy and effective for everyone involved.
 ### Notes
 
 * Please don't commit straight into the master or live branches, these branches should remain as stable as possible, and changes should be discussed amongst the community.
-* After changing any SCSS file, it should be recompiled to CSS before merging. Following options are recommended:
-  * Unix: `sass file.scss:file.css --sourcemap`
-  * Windows: `node-sass file.scss file.css --source-map true`
+* If you are chaning SCSS files during development, following command for automatic compilation is recommended:
+  * `sass --watch [location to scss files]`
