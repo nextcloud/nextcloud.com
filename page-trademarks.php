@@ -45,12 +45,12 @@
 <h3><?php echo $l->t('Distributing Nextcloud Server without modification');?></h3>
 <p><?php echo $l->t('You can use the Nextcloud Marks to identify Nextcloud for Nextcloud Server downloads separately or as part of a Virtual Machine, docker image, installer, PHP server package or in another form as long as you have not made any modifications to Nextcloud Server itself. Modifications to the Nextcloud Server here are defined as those which would would require you to provide them in source form to any user who asks under the <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank">license of the AGPLv3</a>.');?></p>
 
-<p><?php echo $l->t('Note that pre-configuration and enabling or pre-installing certain Nextcloud apps are not considered changes or modifications to Nextcloud.');?></p>
+<p><?php echo $l->t('Note that pre-configuration and enabling or pre-installing certain Nextcloud apps are not considered changes or modifications to Nextcloud. A hosting provider can provide a configured Nextcloud installation to its users as long as those can see a copyright and download notice, ideally a link to nextcloud.com.');?></p>
 
 <p><?php echo $l->t('Rather than offering Nextcloud Server unmodified, we suggest to link to our installation page to ensure users can always find the latest Nextcloud release. If you offer Nextcloud as part of a package, image or installer, please keep security issues in mind. Offering easy and convenient update capabilities will greatly benefit your users. Where possible, we suggest to make use of official Nextcloud packages or zip files and tarballs.');?></p>
 
 <h3><?php echo $l->t('Distributing Nextcloud Server With Modifications');?></h3>
-<p><?php echo $l->t('You may distribute or make available Nextcloud Server with modifications under the terms of the <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank">AGPLv3 license</a>.');?></p>
+<p><?php echo $l->t('You may distribute or make available (for example as hosting provider) Nextcloud Server with modifications under the terms of the <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank">AGPLv3 license</a>. That means, generally speaking, that recipients of the code (including those who get remote access to a server running Nextcloud) should have an easy option to receive a full copy of the code, including those modifications, under the AGPLv3 licence. A download link usually suffices.');?></p>
 
 <p><?php echo $l->t('In making such a distribution you must remove all trademark uses of the Nextcloud Marks from the version of Nextcloud you are modifying. You may, if you wish, combine your own trademark with one of the following Nextcloud Mark tag-lines: "Based on Nextcloud," "Powered by Nextcloud," "Derived from Nextcloud," "Uses Nextcloud," "Built on Nextcloud," or "Built from Nextcloud."');?></p>
 
