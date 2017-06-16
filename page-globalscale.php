@@ -2,17 +2,9 @@
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/globalscale.css" rel="stylesheet">
 <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
 <script>
-	require(["require.config"], function() {
-		require(["vendor/jquery.min", "vendor/jquery.ui", "bootstrap"],
-			function ($, jqueryui) {
-				require(["vendor/jquery.youtubepopup"],
-					function (jqyoutube) {
-						jQuery("a.youtube").YouTubePopup({ hideTitleBar: true });
-					}
-				);
-			}
-		);
-	});
+require(["require.config"], function() {
+	require(["pages/globalscale"])
+});
 </script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>

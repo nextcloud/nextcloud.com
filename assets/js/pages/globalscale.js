@@ -2,7 +2,7 @@ define(["jquery", "underscore", "enquire", "jqueryUi", "youtubeplugin", "bootstr
 function ($, _, enquire, jqueryui, jqyoutube) {
 	$(document).ready(function() {
 		'use strict';
-		const collabora = {
+		const globalscale = {
 			init: function() {
 				jQuery("a.youtube").YouTubePopup({ hideTitleBar: true });
 
@@ -15,6 +15,6 @@ function ($, _, enquire, jqueryui, jqyoutube) {
 				});
 			}
 		}
-		collabora.init();
+		globalscale.init();
 	});
 });
