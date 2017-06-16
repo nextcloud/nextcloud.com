@@ -1,26 +1,39 @@
+<div class="container">
 <div class="row">
-	<div class="col-md-4">
+    <div class="col-md-6 col-md-offset-3 text-center">
+        <h1><?php echo $l->t('Nextcloud providers');?></h1>
+        <p><?php echo $l->t('Nextcloud is a private cloud solution you can host wherever you want. On your own hardware, a <a class="hyperlink" href="/devices">device you bought</a> or at a provider!');?><p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-10 col-md-offset-1">
+        <p><?php echo $l->t('We have over 50 different providers who offer anything from a Virtual Machine with Nextcloud you have to manage yourself to a fully handled Nextcloud account where you just have to log in, maintained by your provider. Some providers offer (limited) free tiers, some focus on home users and others on business; some aim for low prices while others offer extensive backups, downtime prevention and great support. Pick what you need!');?><p>
+        <p><?php echo $l->t('You can leave comments on your experiences with the providers or ask questions <a class="hyperlink" href="https://help.nextcloud.com/c/hosting">in our hosting category on the forums.</a> Feedback is VERY much welcomed as it helps others to choose their ideal provider!');?><p>
+    </div>
+</div>
+<div class="row">
+    <div class="text-center">
+    <h1>Choose your provider</h1>
+    </div>
+</div>
+ <div class="row">
+	<div class="col-md-4 col-md-offset-2">
 		Country: <select id="countryPicker" class="form-control">
 			<option value="all">World</option>
 		</select>
+		<p><input type="checkbox" id="FreePlans"> <?php echo $l->t('Show only free plans');?></p>
 	</div>
-	<div class="col-md-7 col-md-offset-1">
-		<input type="checkbox" id="FreePlans"> <?php
- echo $l->t('Show only free plans');?><br>
-<!-- 		<input type="checkbox" id="certified"> Show only Certified Partners<br> -->
-		<input type="radio" id="hostingboth" name="hosting" value="both" checked> <?php
- echo $l->t('Both');?><br>
-		<input type="radio" id="hostingconsumer" name="hosting" value="consumer"> <?php
- echo $l->t('Consumers');?><br>
-		<input type="radio" id="hostingorganization" name="hosting" value="organization"> <?php
- echo $l->t('Organization');?><br>
+	<div class="col-md-4 col-md-offset-1">
+        <p><?php echo $l->t('Consumers or Enterprise focus:');?><br/>
+		<input type="radio" id="hostingconsumer" name="hosting" value="consumer"> <?php echo $l->t('Consumers');?><br/>
+		<input type="radio" id="hostingorganization" name="hosting" value="organization"> <?php echo $l->t('Enterprises');?><br/>
+		<input type="radio" id="hostingboth" name="hosting" value="both" checked> <?php echo $l->t('Both');?></p>
 	</div>
 </div>
 
 <div id="providers" class="row">
 </div>
-<div class="alert alert-info"><?php
- echo $l->t('If you offer Nextcloud Server account hosting, you can be <a href="/providers/apply">listed on this page</a>. If you want to report an abuse by one of the providers listed above, you can send us an email to abuse@nextcloud.com.');?></div>
+<div class="alert alert-info"><p><?php echo $l->t('If you offer Nextcloud Server account hosting, you can be <a href="/providers/apply">listed on this page</a>. If you want to report an abuse by one of the providers listed above, you can send us an email to abuse@nextcloud.com.');?></p></div>
 
 <script type="text/javascript">
 // 	$( "#hostingboth" ).prop( "checked", true );
@@ -29,20 +42,20 @@
 		var countries = [];
 		var selectedCountryCode = 'all';
 		var filterFreePlans = false;
-	
+
 		var filterHosting = 'both';
 		/**
 		 * Based on the Apache licensed https://github.com/coolaj86/knuth-shuffle
 		 */
 		 function shuffle(array) {
 		 	var currentIndex = array.length, temporaryValue, randomIndex;
-		 	
+
 		 	// While there remain elements to shuffle...
 		 	while (0 !== currentIndex) {
 		 		// Pick a remaining element...
 		 		randomIndex = Math.floor(Math.random() * currentIndex);
 		 		currentIndex -= 1;
-		 		
+
 		 		// And swap it with the current element.
 		 		temporaryValue = array[currentIndex];
 		 		array[currentIndex] = array[randomIndex];
