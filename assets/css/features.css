@@ -50,6 +50,9 @@
       margin-left: 20px;
       margin-top: -5px;
       color: white; }
+      @media (max-width: 768px) {
+        .second-menu .menu .buttons .btn-primary {
+          margin-top: 10px; } }
       .second-menu .menu .buttons .btn-primary:hover {
         text-decoration: none;
         color: white; }

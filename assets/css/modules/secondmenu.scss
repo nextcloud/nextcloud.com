@@ -65,6 +65,10 @@
 				margin-top: -5px;
 				color: white;
 
+				@media (max-width: $break-small) {
+				margin-top: 10px;
+				}
+
 				&:hover {
 					text-decoration: none;
 					color: white;
