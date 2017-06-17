@@ -1,14 +1,17 @@
 <div class="page-header">
 	<h1>Nextcloud Server Changelog</h1>
 </div>
-<p>Go directly to the latest maintenance release of:</p>
+<p>We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest and most secure Nextcloud Server version which fits your needs.</p>
+Go directly to the latest maintenance release of:
 <ul>
+<li><a href="#latest12">Nextcloud 12</a></li>
 <li><a href="#latest11">Nextcloud 11</a></li>
-<li><a href="#latest10">Nextcloud 10 (End of Life in 2017-05)</a></li>
-<li><a href="#latest9">Nextcloud 9 (End of Life since 2017-04)</a></li>
+<li><a href="#latest10">Nextcloud 10 (unsupported!)</a></li>
+<li><a href="#latest9">Nextcloud 9 (unsupported!)</a></li>
 </ul>
 
-<h3 id="11-0-0">Version 12.0.0 <small>May 22 2017</small></h3>
+<a name="latest12"></a>
+<h3 id="12-0-0">Version 12.0.0 <small>May 22 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.tar.bz2">nextcloud-12.0.0.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.zip">nextcloud-12.0.0.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.tar.bz2.md5">nextcloud-12.0.0.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.zip.md5">nextcloud-12.0.0.zip.md5</a></br>
