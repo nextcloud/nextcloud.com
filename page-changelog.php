@@ -34,7 +34,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 	<ul>
 		<li>brute force protection for developers</li>
 		<li>rate limiting of certain IP range for developers</li>
-		<li>support of a wide variety of authentication mecanisms</li>
+		<li>support of a wide variety of authentication mechanisms</li>
 	</ul></li>
 	<li>Administration
 	<ul>
