@@ -28,17 +28,4 @@ section {
 .row {
   padding-top: 60px; }
 
-.calltoaction {
-  margin-top: 50px;
-  background-color: #0082c9;
-  padding: 50px 0;
-  color: white; }
-  .calltoaction .section--heading-2 {
-    color: white; }
-  .calltoaction .section--paragraph {
-    color: white; }
-  .calltoaction .hyperlink {
-    color: white; }
-
-
 /*# sourceMappingURL=devices.css.map */

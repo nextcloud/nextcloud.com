@@ -17,9 +17,11 @@
   height: 100vh;
   min-height: 700px;
   border-radius: 0 !important;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .jumbotron__pattern {
-    opacity: 0.1; }
+    opacity: 0.1;
+    height: 100vh; }
     @media (max-width: 991px) {
       .jumbotron__pattern {
         width: calc(100vw - 15px);
