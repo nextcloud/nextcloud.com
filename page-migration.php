@@ -32,6 +32,11 @@
 						</div>
 
 						<div class="item">
+							<h3><?php echo $l->t('The migration was like a <span class="big">typical ownCloud upgrade</span>');?></h3>
+							<h2><!--<a href="">--><?php echo $l->t('– Dr.-Ing. Thomas Hildmann, head of Infrastructure at the TU Berlin');?><!--</a>--></h2>
+						</div>
+
+						<div class="item">
 							<h3><?php echo $l->t('We are glad to have found a partner in Nextcloud with a <span class="big">healthy community</span> and <span class="big">strong development and support capabilities</span?>.');?></h3>
 							<h2><a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/"><?php echo $l->t('– Stefan Döhler, project manager at regio iT');?></a></h2>
 						</div>

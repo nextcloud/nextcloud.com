@@ -13,9 +13,11 @@
   min-height: 700px;
   border-radius: 0 !important;
   position: relative;
+  overflow: hidden;
 
   &__pattern {
     opacity: 0.1;
+    height: 100vh;
 
     @media (max-width: $break-big) {
       width: calc(100vw - 15px);
