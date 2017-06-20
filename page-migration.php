@@ -116,6 +116,7 @@
 		<li class="section--paragraph"><?php echo $l->t('ownCloud 10.0.x is compatible with Nextcloud 12.0.x');?></li>
 	</ul>
 	<p class="section--paragraph"><?php echo $l->t('This essentially means you can treat Nextcloud 9.0.x as an upgrade to ownCloud 9.0.x and Nextcloud 10.0.x as an upgrade to ownCloud 9.1.x');?></p>
+	<p class="section--paragraph"><?php echo $l->t('Note that ownCloud 9.1.6 breaks easy upgrading to Nextcloud 10.0.5. We will fix this in 10.0.6! Similar, ownCloud 10.0.2 and 10.0.3 can\'t yet be upgraded to Nextcloud 12, which will be fixed with Nextcloud 12.0.1. We want to make sure we properly test the upgrade paths!');?></p>
 	<p class="section--paragraph"><?php echo $l->t('These are some examples of an upgrade path. The minor release (.x below) should always be the latest bugfix release. You can find these on the changelog pages, <a  class="hyperlink" href="/changelog">here for Nextcloud.</a>');?></p>
 	<ul>
 		<li class="section--paragraph"><?php echo $l->t('ownCloud 8.0.x -> ownCloud 8.1.x -> ownCloud 8.2.x -> Nextcloud 9.0.x -> Nextcloud 10.0.x');?></li>
