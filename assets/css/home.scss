@@ -17,7 +17,9 @@
 
   &__pattern {
     opacity: 0.1;
-    height: 100vh;
+    width: calc(100vw - 15px);
+	height: 100vh;
+	object-fit: cover;
 
     @media (max-width: $break-big) {
       width: calc(100vw - 15px);
