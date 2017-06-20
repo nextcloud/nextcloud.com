@@ -22,7 +22,6 @@
 								<li><?php echo $l->t('Verify the authenticity via PGP');?> (<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_PGP; ?>">.tar.bz2 </a>/<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_PGP ?>">.zip</a>). <?php echo $l->t('The Nextcloud GPG key');?> <a target="_blank" href="<?php echo $NEXTCLOUD_GPG ; ?>"><?php echo $l->t('is here');?></a>.</li>
 							</ol>
 							<p><?php echo $l->t('You can already find server packages included with many distributions or provided by active community members. Find an <a class="hyperlink" href="https://help.nextcloud.com/t/linux-packages-status/10216">overview of packages for various distributions as well as Docker and snap images here.</a> Can\'t find packages you need? Ask your distribution for packages or contribute to creating them!');?></p>
-							<p><?php echo $l->t('<strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a class="hyperlink" href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a>.');?></p>
 							</div>
 						</div>
 						<div class="col-md-6">
@@ -31,6 +30,8 @@
 							</div>
 							<p><?php echo $l->t('Looking for <a class="hyperlink" href="/changelog">older versions or major releases</a>?');?></p>
 							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a class="hyperlink" href="https://help.nextcloud.com/t/linux-packages-status/10216">a virtual machine or docker image</a> on Windows Server.</small>');?></p>
+							<p><?php echo $l->t('<small><strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a class="hyperlink" href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a>.</small>');?></p>
+							<p><?php echo $l->t('<small><strong>Release channels:</strong></br>We offer <a class="hyperlink" href="/release-channels">Release Channels</a> with production, stable, beta and daily-branches. This gives you the opportunity to choose your balance between stability and features.</small>');?></p>
 						</div>
 					</div>
 				</div>
@@ -52,8 +53,9 @@
 							<div class="thumbnail">
 								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
 							</div>
-							<p><?php echo $l->t('<strong>Security note:</strong></br> Once the setup is done, the Nextcloud installer will remove itself automatically. We recommend a subscription to our low-traffic <a class="hyperlink" href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a> for notifications on updates and security issues. Find here the public Nextcloud');?> <a class="hyperlink" href="<?php echo $NEXTCLOUD_GPG; ?>">GPG key</a>.</p>
-							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the Nextcloud Appliance</a> on Windows Server.</small>');?></p>
+							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a class="hyperlink" href="https://help.nextcloud.com/t/linux-packages-status/10216">a virtual machine or docker image</a> on Windows Server.</small>');?></p>
+							<p><?php echo $l->t('<small><strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a class="hyperlink" href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a>.</small>');?></p>
+							<p><?php echo $l->t('<small><strong>Release channels:</strong></br>We offer <a class="hyperlink" href="/release-channels">Release Channels</a> with production, stable, beta and daily-branches. This gives you the opportunity to choose your balance between stability and features.</small>');?></p>
 						</div>
 					</div>
 				</div>
@@ -86,7 +88,8 @@
 							<div class="thumbnail">
 								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/VMwelcome.png" alt="Nextcloud VM" />
 							</div>
-							<p><?php echo $l->t('<strong>Security note:</strong></br> We recommend a subscription to our low-traffic <a class="hyperlink" href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a> for notifications on updates and security issues. Find here the public Nextcloud');?> <a class="hyperlink" href="<?php echo $NEXTCLOUD_GPG; ?>"><?php echo $l->t('GPG key');?></a>.</p>
+							<p><?php echo $l->t('<small><strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a class="hyperlink" href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a>.</small>');?></p>
+							<p><?php echo $l->t('<small><strong>Release channels:</strong></br>We offer <a class="hyperlink" href="/release-channels">Release Channels</a> with production, stable, beta and daily-branches. This gives you the opportunity to choose your balance between stability and features.</small>');?></p>
 						</div>
 					</div>
 				</div>
