@@ -45,7 +45,7 @@ div, li, {
 	border: 0;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -64,9 +64,9 @@ img {
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main Components 
+Main Components
 
 -------------------------------- */
 
@@ -244,7 +244,7 @@ Main Components
 }
 @media only screen and (min-width: 1170px) {
   .cd-products-columns .product {
-    width: 310px;
+    width: 150px;
   }
 }
 
@@ -341,7 +341,7 @@ Main Components
   height: 177px;
   width: 150px;
   text-align: center;
-  padding: 1.25em 2.5em;
+  padding: 18px;
   border-color: #e6e6e6;
   border-style: solid;
   border-right-width: 1px;
@@ -365,7 +365,7 @@ Main Components
   opacity: 0;
 }
 .cd-products-table .top-info h3 {
-  padding: 1.25em 0 0.625em;
+  padding: 10px 0 10px;
   font-weight: bold;
   font-size: 1.4rem;
   margin-left: auto;
@@ -378,8 +378,8 @@ Main Components
   backface-visibility: hidden;
   width: 100%;
   height: auto;
-  max-width: 180px;
-  max-height: 180px;
+  max-width: 130px;
+  max-height: 130px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -424,15 +424,15 @@ Main Components
 }
 @media only screen and (min-width: 1170px) {
   .cd-products-table .top-info {
-    height: 280px;
-    width: 310px;
+    height: 190px;
+    width: 150px;
   }
   .cd-products-table .top-info h3 {
     padding-top: 0;
     font-size: 1.6rem;
   }
   .cd-products-table .top-info .check {
-    margin-bottom: 1.5em;
+    margin-bottom: 15px;
   }
 }
 
@@ -661,7 +661,7 @@ Main Components
 	color: #ea9c00 !important;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 No JS
 
@@ -695,7 +695,7 @@ No JS
     z-index: 100;
     padding: 15px;
 }
- 
+
     #tooltip:after /* triangle decoration */
     {
         width: 0;
@@ -709,7 +709,7 @@ No JS
         bottom: -10px;
         margin-left: -10px;
     }
- 
+
         #tooltip.top:after
         {
             border-top-color: transparent;
@@ -717,13 +717,13 @@ No JS
             top: -20px;
             bottom: auto;
         }
- 
+
         #tooltip.left:after
         {
             left: 10px;
             margin: 0;
         }
- 
+
         #tooltip.right:after
         {
             right: 10px;
