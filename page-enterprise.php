@@ -5,6 +5,7 @@
 	});
 </script>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/enterprise.css" rel="stylesheet">
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <section class="enterprise-hero-section second-menu">
@@ -91,11 +92,33 @@
 	</div>
 </section>
 
-<div class="separator"></div>
-
 <a name="capabilities" id="capabilities"></a>
+<div class="separator"></div>
+<section class="section--whitepaper">
+<div class="container">
+    <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Ultimate scalability');?></p>
+    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Nextcloud Enterprise Capabilities');?></h2>
+    <div class="row">
+        <div class="col-md-6 revealOnScroll">
+            <h3 class=""><?php echo $l->t('Deep integration in your infrastructure');?></h3>
+            <p><?php echo $l->t('Nextcloud offers LDAP/Active Directory, SAML and Kerberos authentication. It accesses data on NFS, (s)FTP, WebDAV, Windows Network Drive, Object Stores like SWIFT and many others.');?></p>
+            <p><?php echo $l->t('Download our Architecture whitepaper on the right or scroll down for a summary of key Nextcloud features.');?></p>
+        </div>
+        <div class="col-md-6 revealOnScroll text-center">
+            <p>
+                <form name="whitepaper" method="post" action="../architecture-whitepapersubmit">
+                    <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper!');?><br>
+                    <input class="mail" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
+                    <td colspan="2" style="text-align:center">
+                    <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                    <input class="button button--blue button--large" type="submit" value=" Get the whitepaper ">
+                </form>
+            </p>
+        </div>
+    </div>
+</div>
+</section>
 <section class="slideshow" id="slideshow">
-    <h2 class="text-center section-title revealOnScroll"><?php echo $l->t('Nextcloud Enterprise Capabilities');?></h2>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
 		<li class="btn_carousel"><a href="#feature-1"></a></li>
@@ -114,29 +137,22 @@
             </div>
         </div>
         <div class="texts-wrapper col-md-6">
-	        <div class="right-text-grey" data-slide="1">
-				<h5 class="textTrigger" id="feature-1"><?php echo $l->t('Deep integration in your infrastructure');?></h5>
-				<p><?php echo $l->t('Nextcloud offers LDAP/Active Directory, SAML and Kerberos authentication. It accesses data on NFS, (s)FTP, WebDAV, Windows Network Drive, Object Stores like SWIFT and many more.');?></p>
-					<a class="button button--blue button--arrow button--large" href="<?php echo get_template_directory_uri(); ?>/assets/files/architecture-whitepaper.pdf" role="button"><?php echo $l->t('Architecture Whitepaper');?></a>
-				</p>
-	        </div>
-
-	         <div class="right-text-grey" data-slide="2">
-	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('Security features keep your data safe');?></h5>
+	         <div class="right-text-grey" data-slide="1">
+	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('Security features keep your data safe');?></h5>
 	           <p><?php echo $l->t('Nextcloud supports two-factor authentication and Server Side Encryption, has brute force protection and features industry-standard security measures like CSP, SSC and password and session management.');?></p>
                   <a class="button button--blue button--arrow button--large" href="/secure" role="button"><?php echo $l->t('Learn more about security');?></a>
                </p>
 	        </div>
 
-	        <div class="right-text-grey" data-slide="3">
-	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('IT stays in control');?></h5>
+	        <div class="right-text-grey" data-slide="2">
+	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('IT stays in control');?></h5>
 	            <p><?php echo $l->t('Our File Access Control app enables administrators to defining data access rules or triggering actions based on location, group membership, file type, tags and other properties.');?></p>
                    <a class="button button--blue button--arrow button--large" href="/workflow/" role="button"><?php echo $l->t('Learn more about Workflow');?></a>
                 </p>
 	        </div>
 
-	        <div class="right-text-grey" data-slide="4">
-	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Easy access for users');?></h5>
+	        <div class="right-text-grey" data-slide="3">
+	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('Easy access for users');?></h5>
 	            <p><?php echo $l->t('Users can access and share their data on Nextcloud through sync clients for Windows, Linux and Mac as well as Android and IOS, providing a smooth experience no matter where data is located.');?></p>
                    <a class="button button--blue button--arrow button--large" href="/features" role="button"><?php echo $l->t('Learn more about features');?></a>
                 </p>

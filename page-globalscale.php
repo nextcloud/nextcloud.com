@@ -53,7 +53,7 @@
     <div class="col-md-offset-4 col-md-4">
         <p>
 <!-- 		<a href="<?php echo get_template_directory_uri(); ?>/assets/files/global-scale-whitepaper.pdf" class="button button--blue button--large button--arrow"><?php echo $l->t('Download our whitepaper');?> <i class="icon-arrow-circle-o-right icon"></i></a> -->
-            <form name="whitepaper" method="post" action="../globalscale/whitepapersubmit">
+            <form name="whitepaper" method="post" action="../gs-whitepapersubmit">
                 <p><label for="email"><?php echo $l->t('Download our whitepaper!');?><br>
                 <input class="mail" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
                 <td colspan="2" style="text-align:center">
