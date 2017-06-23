@@ -23,7 +23,7 @@
 			<a href="#security"><?php echo $l->t('security');?></a>
 			<a href="#lifecycle"><?php echo $l->t('lifecycle');?></a>
 			<a href="#capabilities"><?php echo $l->t('capabilities');?></a>
-			<a class="btn btn-primary" href="/enterprise/order"><?php echo $l->t('Order online');?></a>
+			<a class="btn btn-primary" href="/enterprise/order"><?php echo $l->t('order online');?></a>
 			<a class="btn btn-primary" href="/buy"><?php echo $l->t('get a quote');?></a>
 			<a class="btn btn-primary" href="/pricing"><?php echo $l->t('pricing plans');?></a>
 		</div>
@@ -96,7 +96,7 @@
 <div class="separator"></div>
 <section class="section--whitepaper">
 <div class="container">
-    <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Ultimate scalability');?></p>
+    <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Well fitting');?></p>
     <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Nextcloud Enterprise Capabilities');?></h2>
     <div class="row">
         <div class="col-md-6 revealOnScroll">
@@ -137,26 +137,35 @@
             </div>
         </div>
         <div class="texts-wrapper col-md-6">
-	         <div class="right-text-grey" data-slide="1">
-	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('Security features keep your data safe');?></h5>
+	        <div class="right-text-grey" data-slide="1">
+	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('Monitoring and compliance');?></h5>
+	            <p><?php echo $l->t('Nextcloud offers extensive monitoring and compliance capabilities ready for enterprises in sensitive businesses. Data locality, retention and access can be controled and logged for audit.');?></p>
+                   <a class="button button--blue button--arrow button--large" href="/features" role="button"><?php echo $l->t('Learn more about features');?></a>
+                </p>
+	        </div>
+
+	         <div class="right-text-grey" data-slide="2">
+	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('Security features keep your data safe');?></h5>
 	           <p><?php echo $l->t('Nextcloud supports two-factor authentication and Server Side Encryption, has brute force protection and features industry-standard security measures like CSP, SSC and password and session management.');?></p>
                   <a class="button button--blue button--arrow button--large" href="/secure" role="button"><?php echo $l->t('Learn more about security');?></a>
                </p>
 	        </div>
 
-	        <div class="right-text-grey" data-slide="2">
-	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('IT stays in control');?></h5>
+	        <div class="right-text-grey" data-slide="3">
+	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('IT stays in control');?></h5>
 	            <p><?php echo $l->t('Our File Access Control app enables administrators to defining data access rules or triggering actions based on location, group membership, file type, tags and other properties.');?></p>
                    <a class="button button--blue button--arrow button--large" href="/workflow/" role="button"><?php echo $l->t('Learn more about Workflow');?></a>
                 </p>
 	        </div>
 
-	        <div class="right-text-grey" data-slide="3">
-	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('Easy access for users');?></h5>
+	        <div class="right-text-grey" data-slide="4">
+	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Easy access for users');?></h5>
 	            <p><?php echo $l->t('Users can access and share their data on Nextcloud through sync clients for Windows, Linux and Mac as well as Android and IOS, providing a smooth experience no matter where data is located.');?></p>
                    <a class="button button--blue button--arrow button--large" href="/features" role="button"><?php echo $l->t('Learn more about features');?></a>
                 </p>
 	        </div>
+
+
         </div>
     </div>
 </section>
