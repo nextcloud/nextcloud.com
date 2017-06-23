@@ -743,5 +743,118 @@
             "We offer our customers dedicated Nextcloud instances with daily backup and on servers located in Germany."
          ],
          "imagename":"cloudlay.png"
+      },
+    {
+         "title":"snowflake Ops AG",
+         "url":"https:\/\/snowflakeops.ch\/nextcloud",
+         "flags":[
+            "ch",
+            "de"
+         ],
+         "freeplans":false,
+         "supports":"organization",
+         "specializes":[
+            "We offer managed servers optimized for Nextcloud, running on our fully redundant private cloud infrastructure in Zurich, Switzerland."
+         ],
+         "imagename":"snowflake.png"
+      },
+    {
+         "title":"Next IT Level GmbH",
+         "url":"https:\/\/nextitlevel.de\/index.php\/component\/content\/article?id=81",
+         "flags":[
+            "de",
+            "at",
+            "sk"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "We offer a service for self-hosted servers with daily off-site backup. You can use your own hosting provider or we can provide one."
+         ],
+         "imagename":"nextitlevel.png"
+      },
+    {
+         "title":"ETES GmbH",
+         "url":"https:\/\/www.etes.de\/produkte\/nextcloud\/",
+         "flags":[
+            "de",
+            "ch",
+            "at",
+            "fr",
+            "be",
+            "lx",
+            "pl",
+            "nl"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "ETES offers Nextcloud and other services in their own datacenter in Germany (ISO 27001)"
+         ],
+         "imagename":"etes.png"
+      },
+    {
+         "title":"The Open Host",
+         "url":"https:\/\/theopenhost.com\/nextcloud-hosting",
+         "flags":[
+            "eu",
+            "us",
+            "all"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "The Open Host - Nextcloud experts featuring 24/7 support and optimized, secure servers in the USA and Europe. We have both shared and VPS hosting."
+         ],
+         "imagename":"openhost.png"
+      },
+    {
+         "title":"Open IT Store",
+         "url":"https:\/\/openitstore.com\/nextcloud-single",
+         "flags":[
+            "eu",
+            "us",
+            "ca"
+         ],
+         "freeplans":true,
+         "supports":"both",
+         "specializes":[
+            "We offer servers with daily off-site backup. every Nextcloud apps you want, Collabora, Spreed.me included. Global opensource IT store."
+         ],
+         "imagename":"openitstore.png"
+      },
+    {
+         "title":"Full Tech Solutions SH",
+         "url":"https:\/\/www.fulltech.com.ar",
+         "flags":[
+            "ar",
+            "us",
+            "nl",
+            "fr",
+            "de"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Web Hosting Argentina, planes de alojamiento para sitios desde solo u$s 2,76. Registro de Dominios, Hosting Revendedor, Servidores Dedicados & VPS"
+         ],
+         "imagename":"fulltechsolutions.png"
+      },
+    {
+         "title":"Kaster Development",
+         "url":"https:\/\/kaster-development.de\/hosting\/cloud-hosting\/",
+         "flags":[
+            "de",
+            "ch",
+            "at",
+            "eu",
+            "all"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            " Ihre eigene Cloud für privat und Business Kunden. Ihre Daten sollen Ihre Daten bleiben, deshalb deutsche Server in qualifizierten Rechenzentren."
+         ],
+         "imagename":"kaster.jpg"
       }
 ]
