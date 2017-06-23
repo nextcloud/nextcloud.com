@@ -499,7 +499,6 @@ float: none;
 
 /* Whitepaper sections */
 .section--whitepaper {
-    margin: 100px 0 100px 0;
     .button:hover {
         background-color: #0073B2;
         text-decoration: none;
@@ -517,13 +516,13 @@ float: none;
     .button--arrow:hover:before {
         background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
         right: 15px; }
-        .button--arrow.button--blue:before {
-            background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
-            .g-recaptcha {
-                margin-left: auto !important;
-                margin-right: auto !important;
-                display: inline-block !important;
-            }
+    .button--arrow.button--blue:before {
+        background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
+    .g-recaptcha {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: inline-block !important;
+    }
 }
 
 

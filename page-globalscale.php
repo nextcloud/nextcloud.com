@@ -58,7 +58,8 @@
                 <input class="mail" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
                 <td colspan="2" style="text-align:center">
                 <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                <input class="button button--blue button--large" type="submit" value=" Get the whitepaper ">
+                </td>
+                <p><input class="button button--blue button--large" type="submit" value=" Get the whitepaper "></p>
             </form>
         </p>
 	</div>
