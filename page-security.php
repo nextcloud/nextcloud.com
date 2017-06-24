@@ -45,7 +45,7 @@
 			<li><?php echo $l->t('Latest 10.x release');?></li>
 		</ul>
 
-		<p><?php echo $l->t('You will find our Maintenance and Release Schedule <a href="https://nextcloud.com/enterprise/buy/">on GitHub</a>. Please have a close look into the End of Life-section.');?></p>
+		<p><?php echo $l->t('You will find our Maintenance and Release Schedule <a href="https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule">on GitHub</a>. Please have a close look into the End of Life-section.');?></p>
 
 		<p><?php echo $l->t('If you want to continue to use versions, which reached their End of Life, please <a href="https://nextcloud.com/enterprise/buy/">contact Nextcloud sales</a> to get access to our Long Term Support offering.');?></p>
 
