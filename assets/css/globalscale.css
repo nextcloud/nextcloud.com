@@ -157,16 +157,6 @@ footer {
 .quote {
   margin: 0 0 0 0;
   padding: 70px;
-  padding-top: 90px;
-  background: #0082c9;
-  color: white; }
-  .quote h2 {
-    color: white; }
-  .quote .row {
-    margin-bottom: 0px; }
-  .quote p {
-    color: white; }
-  .quote .hyperlink {
-    color: white; }
+  padding-top: 90px; }
 
 /*# sourceMappingURL=globalscale.css.map */

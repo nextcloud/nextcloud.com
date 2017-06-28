@@ -484,47 +484,6 @@ float: none;
 	}
 }
 
-/* Blue call to action bar */
-
-.quote {
-	padding: 0 0 30px 0;
-	background: $nextcloud-blue;
-	p {
-		color: white;
-	}
-	.hyperlink {
-		color: white;
-	}
-}
-
-/* Whitepaper sections */
-.section--whitepaper {
-    .button:hover {
-        background-color: #0073B2;
-        text-decoration: none;
-        border-color: #204d74;
-    }
-    .mail {
-        border-radius: 20px;
-        border-style: solid;
-        border-color: lightgray;
-        border-width: thin;
-        padding: 8px;
-        margin-top: 15px;
-    }
-
-    .button--arrow:hover:before {
-        background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
-        right: 15px; }
-    .button--arrow.button--blue:before {
-        background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
-    .g-recaptcha {
-        margin-left: auto !important;
-        margin-right: auto !important;
-        display: inline-block !important;
-    }
-}
-
 
 
 /*Colors*/
@@ -656,8 +615,8 @@ float: none;
       width: 14px;
       height: 14px;
       color: transparent;
-      border: 1px solid #0082c9;
-      background-color: #0082c9;
+      border: 1px solid $nextcloud-blue;
+      background-color: $nextcloud-blue;
       border-radius: 50%;
       padding: 0;
       -webkit-transform: scale(0.5);
@@ -705,8 +664,8 @@ float: none;
       width: 28px;
       height: 28px;
       color: transparent;
-      border: 2px solid #0082c9;
-      background-color: #0082c9;
+      border: 2px solid $nextcloud-blue;
+      background-color: $nextcloud-blue;
       border-radius: 50%;
       padding: 0;
       -webkit-transform: scale(0.5);
@@ -825,10 +784,10 @@ border-bottom: solid 1px #e4e4e4; }
 	color: black; }
 	.second-menu .menu .buttons a.active {
 	text-decoration: none;
-	color: #0082c9; }
+	color: $nextcloud-blue; }
 	.second-menu .menu .buttons a:hover {
 	text-decoration: none;
-	color: #0082c9; }
+	color: $nextcloud-blue; }
 .second-menu .menu .buttons .btn-primary {
 	float: right;
 	font-size: 14px;
@@ -1016,6 +975,7 @@ li {
 /* footer */
 /*All default buttons*/
 .button {
+  background: transparent;
   position: relative;
   text-align: center;
   display: inline-block;
@@ -1032,8 +992,10 @@ li {
   margin: 20px 0 20px 0; }
   .button:hover {
     text-decoration: none;
-    color: #0082c9;
-    background-color: white; }
+    color: $nextcloud-blue;
+    background-color: white;
+	border: solid 1px $nextcloud-blue;
+}
   .button--dropdown {
     padding: 0;
     position: absolute; }
@@ -1143,13 +1105,13 @@ li {
     height: 40px;
     line-height: 40px; }
   .button--blue {
-    background-color: #0082c9;
-    border: none; }
+    background-color: $nextcloud-blue;
+    border: 1px solid transparent; }
     .button--blue:hover {
-      background-color: #0082c9;
-      color: white; }
-      .button--blue:hover:before {
-        background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
+      /*background-color: $nextcloud-blue;
+      color: white;*/ }
+      /*.button--blue:hover:before {
+        background: url(../img/common/arrow_right.svg) center/contain no-repeat; }*/
     .button--blue.button--dropdown:hover:before {
       background: url(../img/common/arrow_down_white.svg) center/contain no-repeat; }
   .button--arrow {
@@ -1167,7 +1129,13 @@ li {
     .button--arrow:hover:before {
       background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
       right: 15px; }
+	.button--arrow.button--blue:hover {
+      background-color: $medium-blue;
+	  border: 1px solid $medium-blue;
+      color: white;}
     .button--arrow.button--blue:before {
+      background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
+    .button--arrow.button--blue:hover:before {
       background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
   .button--icon {
     padding: 0 30px 0 50px; }
@@ -1247,7 +1215,7 @@ blockquote {
         padding-left: 5%; } }
 
 .btn-primary {
-  background-color: #0082c9;
+  background-color: $nextcloud-blue;
   font-size: 18px;
   padding: 25px 100px;
   text-align: center;
@@ -1511,5 +1479,56 @@ blockquote {
   .yt-img-overlay .yt-play-btn {
     padding-left: 33%;
     padding-top: 26%; } }
+
+
+/* Blue call to action bar */
+
+.quote {
+	padding: 0 0 30px 0;
+	background: $nextcloud-blue;
+	p {
+		color: white !important;
+	}
+	h1,h2,h3,h4,h5,h6 {
+		color: white !important;
+	}
+	.hyperlink {
+		color: white;
+	}
+/*	.button {
+	}*/
+}
+
+/* Whitepaper sections */
+.section--whitepaper {
+
+
+
+/*    .button:hover {
+        background-color: #0073B2;
+        text-decoration: none;
+        border-color: #204d74;
+    }*/
+    .mail {
+        border-radius: 20px;
+        border-style: solid;
+        border-color: lightgray;
+        border-width: thin;
+        padding: 8px;
+        margin-top: 15px;
+    }
+
+/*    .button--arrow:hover:before {
+        background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
+        right: 15px; }
+    .button--arrow.button--blue:before {
+        background: url(../img/common/arrow_right.svg) center/contain no-repeat; }*/
+    .g-recaptcha {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: inline-block !important;
+		background: white !important;
+    }
+}
 
 /*# sourceMappingURL=custom.scss.map */

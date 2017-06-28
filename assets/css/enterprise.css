@@ -127,6 +127,8 @@
 .section--whitepaper {
   padding-bottom: 0px;
   margin-bottom: 0px; }
+  .section--whitepaper .container {
+    padding-top: 8.54297em; }
   .section--whitepaper .section--heading-1 {
     margin-bottom: 70px; }
   .section--whitepaper form {

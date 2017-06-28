@@ -490,37 +490,6 @@ h5 {
 @media (max-width 768px) {
   .image--floated {
     float: none; } }
-/* Blue call to action bar */
-.quote {
-  padding: 0 0 30px 0;
-  background: #0082c9; }
-  .quote p {
-    color: white; }
-  .quote .hyperlink {
-    color: white; }
-
-/* Whitepaper sections */
-.section--whitepaper .button:hover {
-  background-color: #0073B2;
-  text-decoration: none;
-  border-color: #204d74; }
-.section--whitepaper .mail {
-  border-radius: 20px;
-  border-style: solid;
-  border-color: lightgray;
-  border-width: thin;
-  padding: 8px;
-  margin-top: 15px; }
-.section--whitepaper .button--arrow:hover:before {
-  background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
-  right: 15px; }
-.section--whitepaper .button--arrow.button--blue:before {
-  background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
-.section--whitepaper .g-recaptcha {
-  margin-left: auto !important;
-  margin-right: auto !important;
-  display: inline-block !important; }
-
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
@@ -1063,6 +1032,7 @@ li {
 /* footer */
 /*All default buttons*/
 .button {
+  background: transparent;
   position: relative;
   text-align: center;
   display: inline-block;
@@ -1081,7 +1051,8 @@ li {
 .button:hover {
   text-decoration: none;
   color: #0082c9;
-  background-color: white; }
+  background-color: white;
+  border: solid 1px #0082c9; }
 
 .button--dropdown {
   padding: 0;
@@ -1209,15 +1180,14 @@ li {
 
 .button--blue {
   background-color: #0082c9;
-  border: none; }
+  border: 1px solid transparent; }
 
 .button--blue:hover {
-  background-color: #0082c9;
-  color: white; }
+  /*background-color: $nextcloud-blue;
+  color: white;*/ }
 
-.button--blue:hover:before {
-  background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
-
+/*.button--blue:hover:before {
+  background: url(../img/common/arrow_right.svg) center/contain no-repeat; }*/
 .button--blue.button--dropdown:hover:before {
   background: url(../img/common/arrow_down_white.svg) center/contain no-repeat; }
 
@@ -1239,7 +1209,15 @@ li {
   background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
   right: 15px; }
 
+.button--arrow.button--blue:hover {
+  background-color: #0073B2;
+  border: 1px solid #0073B2;
+  color: white; }
+
 .button--arrow.button--blue:before {
+  background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
+
+.button--arrow.button--blue:hover:before {
   background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
 
 .button--icon {
@@ -1594,6 +1572,44 @@ blockquote:after {
   .yt-img-overlay .yt-play-btn {
     padding-left: 33%;
     padding-top: 26%; } }
+/* Blue call to action bar */
+.quote {
+  padding: 0 0 30px 0;
+  background: #0082c9;
+  /*	.button {
+  	}*/ }
+  .quote p {
+    color: white !important; }
+  .quote h1, .quote h2, .quote h3, .quote h4, .quote h5, .quote h6 {
+    color: white !important; }
+  .quote .hyperlink {
+    color: white; }
+
+/* Whitepaper sections */
+.section--whitepaper {
+  /*    .button:hover {
+          background-color: #0073B2;
+          text-decoration: none;
+          border-color: #204d74;
+      }*/
+  /*    .button--arrow:hover:before {
+          background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
+          right: 15px; }
+      .button--arrow.button--blue:before {
+          background: url(../img/common/arrow_right.svg) center/contain no-repeat; }*/ }
+  .section--whitepaper .mail {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: thin;
+    padding: 8px;
+    margin-top: 15px; }
+  .section--whitepaper .g-recaptcha {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: inline-block !important;
+    background: white !important; }
+
 /*# sourceMappingURL=custom.scss.map */
 
 /*# sourceMappingURL=custom.css.map */
