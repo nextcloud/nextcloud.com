@@ -112,7 +112,7 @@
                 <p><label for="email"><?php echo $l->t('Download our free <br /> auditing and monitoring datasheet!');?><br>
                 <input class="mail" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
                 <td colspan="2" style="text-align:center">
-                <div class="row">
+                <div class="text-center">
                     <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
                 </div>
                 </td>
