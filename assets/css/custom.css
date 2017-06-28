@@ -1603,12 +1603,12 @@ blockquote:after {
     border-color: lightgray;
     border-width: thin;
     padding: 8px;
-    margin-top: 15px; }
+    margin-top: 15px;
+    color: #757575; }
   .section--whitepaper .g-recaptcha {
     margin-left: auto !important;
     margin-right: auto !important;
-    display: inline-block !important;
-    background: white !important; }
+    display: inline-block !important; }
 
 /*# sourceMappingURL=custom.scss.map */
 
