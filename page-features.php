@@ -1,27 +1,14 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/features.css" rel="stylesheet">
 <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
-<!--<script>
+<script>
 	require(["require.config"], function() {
 		require(["pages/features", "modules/submenu"])
 	});
-</script>-->
-
-<script>
-    require(["require.config"], function() {
-        require(["vendor/jquery.min", "vendor/jquery.ui", "bootstrap", "pages/features", "modules/submenu"],
-            function ($, jqueryui) {
-                require(["vendor/jquery.youtubepopup"],
-                    function (jqyoutube) {
-                        jQuery("a.youtube").YouTubePopup({ hideTitleBar: true });
-                    }
-                );
-            }
-        );
-    });
 </script>
+
 </head>
-<div class="background features-background second-menu"> 
+<div class="background features-background second-menu">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 revealOnScroll topheader">
@@ -59,7 +46,7 @@
 			<p class="section--paragraph"><?php echo $l->t('Where are your photos and documents? With Nextcloud <strong>you</strong> pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices. Through Nextcloud you also access, sync and share your existing data on that FTP drive at the office, a Dropbox or a NAS you have at home.');?></p>
 			<a href="/install" class="button button--blue button--arrow button--large"><?php echo $l->t('Get started');?></a>
 		</div>
-	</div>	
+	</div>
 </section>
 
 <section class="section--files">
@@ -70,17 +57,17 @@
 				<a class="youtube" href="https://www.youtube.com/watch?v=Fe1I7wYW6hA" title="Creating anonymous upload links">
 					<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/hqdefault.jpg" title="Creating anonymous upload links" />
 					<div class="yt-play-btn">
-						<i></i> 
+						<i></i>
 					</div>
 				</a>
 			</div>
-		</div>		
+		</div>
 		<div class="col-md-6 revealOnScroll feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Share with others on your terms.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The easy web interface allows you to share files with other users on your server, to create and send password protected public links, to let others upload files to your cloud and to get notifications on your phone and desktop when a user on another cloud server shares files directly with you. And you can do all these things from the desktop or mobile clients, too.');?></p>
 			<a href="/sharing" class="button button--blue button--arrow button--large"><?php echo $l->t('Share with Nextcloud');?></a>
 		</div>
-	</div>	
+	</div>
 </section>
 
 <section class="section--security">
@@ -325,7 +312,3 @@
 	<p class="section--paragraph section--text--center"><?php echo $l->t('Install Nextcloud server');?><br>
 	<a href="/install" class="button button--blue button--arrow button--large"><?php echo $l->t('Install');?></a></p>
 </div>
-
-
-
-

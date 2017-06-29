@@ -1,5 +1,5 @@
 define(["jquery", "underscore", "enquire", "velocity", "velocityUI", "scrollMagic"],
-function ($, _, enquire, velocity, velocityUI, ScrollMagic) {
+function ($, _, enquire, Velocity, velocityUI, ScrollMagic) {
 	$(document).ready(function() {
 	    'use strict';
 	    var subMenuModule = {
@@ -8,11 +8,11 @@ function ($, _, enquire, velocity, velocityUI, ScrollMagic) {
             	$(this.variables.menuAnchorSelector).velocity("transition.fadeIn", 1000 );
 
 				enquire.register('screen and (max-width: 480px)', {
-					//match: _.bind(this.resultsBindMobile, this) 
+					//match: _.bind(this.resultsBindMobile, this)
 				});
 
 				enquire.register('screen and (min-width: 481px)', {
-					match: _.bind(this.subMenuEvent, this) 
+					match: _.bind(this.subMenuEvent, this)
 				});
 			},
 
@@ -63,14 +63,14 @@ function ($, _, enquire, velocity, velocityUI, ScrollMagic) {
 				var sections = $('a[href^="#"]');
 
 				function isSelected(scrolledTo){
-				   
+
 					var threshold = 100;
 					var i;
 
 					for (i = 0; i < sections.length; i++) {
 						var section = $(sections[i]);
 						var target = getTargetTop(section);
-					   
+
 						if (scrolledTo > target - threshold && scrolledTo < target + threshold) {
 							sections.removeClass("active");
 							section.addClass("active");

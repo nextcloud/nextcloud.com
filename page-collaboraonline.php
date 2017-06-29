@@ -3,20 +3,8 @@
 <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
 <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
 <script>
-// 	require(["require.config"], function() {
-// 		require(["pages/collabora"])
-// 	});
-
 	require(["require.config"], function() {
-		require(["pages/collabora", "vendor/jquery.min", "vendor/jquery.ui", "bootstrap"],
-			function ($, jqueryui) {
-				require(["vendor/jquery.youtubepopup"],
-					function (jqyoutube) {
-						jQuery("a.youtube").YouTubePopup({ hideTitleBar: true });
-					}
-				);
-			}
-		);
+		require(["pages/collabora"])
 	});
 </script>
 
@@ -41,7 +29,7 @@
 				<div class="col-md-10 collaboravideo">
 					<div class="yt-img-overlay">
 						<a class="youtube" id="sZpYXUD1ZVM" href="https://www.youtube.com/watch?v=sZpYXUD1ZVM" title="Editing public link sharesd">
-							<img class="img-responsive featureimg" src="https://img.youtube.com/vi/sZpYXUD1ZVM/maxresdefault.jpg" title="Collabora in Nextcloud" style='margin: 0 0 0 0; padding: -10% 0 -10% 0;' /> <!-- style different per image! --> 
+							<img class="img-responsive featureimg" src="https://img.youtube.com/vi/sZpYXUD1ZVM/maxresdefault.jpg" title="Collabora in Nextcloud" style='margin: 0 0 0 0; padding: -10% 0 -10% 0;' /> <!-- style different per image! -->
 							<div class="yt-play-btn">
 								<i></i>
 							</div>
