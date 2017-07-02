@@ -36,7 +36,7 @@ function ($, _, enquire, velocity, velocityUI) {
       },
 
       removeRevealOnScroll: function(index, element) {
-        $(element).addClass("fade-in");
+          $(element).addClass("fade-in");
       },
 
       buttonDropdown: function (event) {
