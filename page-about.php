@@ -5,17 +5,9 @@
 
 
 <script>
-	require(["require.config"], function() {
-		require(["vendor/jquery.min", "vendor/jquery.ui", "bootstrap"],
-			function ($, jqueryui) {
-				require(["vendor/jquery.youtubepopup"],
-					function (jqyoutube) {
-						jQuery("a.youtube").YouTubePopup({ hideTitleBar: true });
-					}
-				);
-			}
-		);
-	});
+require(["require.config"], function() {
+	require(["pages/about"])
+});
 </script>
 
 </head>
@@ -149,6 +141,3 @@
 		</div>
 	</div>
 </div>
-
-
-
