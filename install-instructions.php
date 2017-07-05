@@ -211,7 +211,6 @@
 		    <h4><?php echo $l->t('Nextcloud Server <small>Daily build</small>');?></h4>
 		    <div class="btn-group">
 		      <a href="<?php echo $DOWNLOAD_SERVER_DAILY_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i>  <?php echo $l->t('Archive File');?></a>
-		      <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_DAILY; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> <?php echo $l->t('Linux Packages');?></a>
 		    </div>
 		    <h5><?php echo $l->t('Beta and RC builds');?></h5>
 		    <?php if(!empty($SERVER_TESTING_VERSION)) { ?>
