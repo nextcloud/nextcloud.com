@@ -194,7 +194,7 @@
             <div class="container-fluid banner">
                 <div class="col-md-6">
                     <h2 class="section--heading-1 section--text--center"><?php echo $l->t('Private Cloud Security Scan');?></h2>
-                    <p class="section--paragraph section--text--center"><?php echo $l->t('To help our system administrators asses the security of their private cloud server, we have developed the Private Cloud Security Scan.');?></p>
+                    <p class="section--paragraph section--text--center"><?php echo $l->t('To help our system administrators assess the security of their private cloud server, we have developed the Private Cloud Security Scan.');?></p>
                     <a class="button button--large button--arrow" href="https://scan.nextcloud.com" target="_blank"><?php echo $l->t('Check now');?></a>
                 </div>
 
