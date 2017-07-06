@@ -87,7 +87,7 @@
 				</div>
 				<div class="col-md-6 featureblock revealOnScroll">
 					<h2 class="section--heading-2"><?php echo $l->t('Free-as-in-beer version');?></h2>
-					<p class="section--paragraph"><?php echo $l->t('Nextcloud strives to provide private cloud solution for everyone so we worked with our partner to provide a free version of the Secure Outlook Add-in for home. Note that the free version is only meant for home users and small organizations.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Nextcloud strives to provide private cloud solution for everyone so we worked with our partner to provide a <a href="https://download.nextcloud.com/outlook/20170706/">free version of the Secure Outlook Add-in for home</a>. Note that the free version is only meant for home users and small organizations.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('The free Secure Outlook Add-in features the core capabilities: sharing from your Nextcloud instance instead of sending insecure large attachments, with an optional expiration date. Branding is limited, and it only works for less than 50 users detected on the system.');?></p>
 				</div>
 			</div>
