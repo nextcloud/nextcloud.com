@@ -77,6 +77,24 @@
 	</div>
 </section>
 
+<section class="file-sharing">
+	<div class="container">
+		<div class="featurerow">
+<!-- 			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Free-as-in-beer version');?></h1> -->
+			<div class="row">
+				<div class="col-md-6 floated revealOnScroll">
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/fileupload_3.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/fileupload_3.png" alt="in action" /></a>
+				</div>
+				<div class="col-md-6 featureblock revealOnScroll">
+					<h2 class="section--heading-2"><?php echo $l->t('Free-as-in-beer version');?></h2>
+					<p class="section--paragraph"><?php echo $l->t('Nextcloud strives to provide private cloud solution for everyone so we worked with our partner to provide a free version of the Secure Outlook Add-in for home. Note that the free version is only meant for home users and small organizations.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('The free Secure Outlook Add-in features the core capabilities: sharing from your Nextcloud instance instead of sending insecure large attachments, with an optional expiration date. Branding is limited, and it only works for less than 50 users detected on the system.');?></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 <div class="container-fluid quote">
 	<div class="container">
 		<div class="row">
