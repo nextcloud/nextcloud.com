@@ -60,7 +60,8 @@
 					<li title="" rel="tooltip">Mobile calendar/contact integration</li> <!--Mobile calendar/contact integration-->
 					<li title="" rel="tooltip">Online Office</li> <!--Online Office-->
 					<li title="Public link to folder recipient can upload to, which hides existing content of the shared folder" rel="tooltip">File Drop (customer file upload)</li> <!--File Drop (customer file upload)-->
-					<li title="Sharing between separate cloud instances of <strong>different vendors</strong>. Example, Nextcloud users can share files with users on Pydio and ownCloud servers." rel="tooltip">Inter-server sharing</li> <!--Inter-server sharing-->
+					<li title="Sharing between separate cloud instances of <strong>different vendors</strong>. Example, Nextcloud users can share files with users on Pydio and 
+                               servers." rel="tooltip">Inter-server sharing</li> <!--Inter-server sharing-->
 						<li class="cd-group">Admin features</li> <!--Admin features-->
 					<li title="" rel="tooltip">Content workflow automation</li> <!--Content workflow automation-->
 					<li title="" rel="tooltip">Automatic script execution</li> <!--Automatic script execution-->
@@ -160,7 +161,7 @@
 						<div class="top-info">
 							<div class="check"></div>
 							<h3>ownCloud</h3>
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/compare/owncloud.svg" alt="product logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/compare/oc-4c.svg" alt="product logo">
 						</div> <!-- .top-info -->
 
 						<ul class="cd-features-list">
