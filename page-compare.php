@@ -160,7 +160,7 @@
 						<div class="top-info">
 							<div class="check"></div>
 							<h3>ownCloud</h3>
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/compare/owncloud.svg" alt="product logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/compare/oc-4c.svg" alt="product logo">
 						</div> <!-- .top-info -->
 
 						<ul class="cd-features-list">
