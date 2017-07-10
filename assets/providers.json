@@ -856,5 +856,21 @@
             " Ihre eigene Cloud für privat und Business Kunden. Ihre Daten sollen Ihre Daten bleiben, deshalb deutsche Server in qualifizierten Rechenzentren."
          ],
          "imagename":"kaster.jpg"
+      },
+    {
+         "title":"XT3",
+         "url":"https:\/\/xt3.it\/services\/cloud\/",
+         "flags":[
+            "it",
+            "fr",
+            "uk",
+            "eu"
+         ],
+         "freeplans":true,
+         "supports":"both",
+         "specializes":[
+            "Accounts: single/group, donation-based; apps: groupware, multimedia, notes, bookmarks, documents...; provider: no profit, flexible, German servers."
+         ],
+         "imagename":"xt3cloud.png"
       }
 ]
