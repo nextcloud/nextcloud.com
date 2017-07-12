@@ -1,0 +1,22 @@
+.no-js body {
+  nav {
+    opacity: 1;
+
+    .container .brand .logo:not(.scrolled):not(.menu-open) {
+      background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
+      background-position-x: -4620px;
+    }
+  }
+
+  .revealOnScroll {
+    opacity: 1;
+  }
+
+  .toptext {
+    opacity: 1;
+  }
+
+  .topbanner {
+    opacity: 1;
+  }
+}

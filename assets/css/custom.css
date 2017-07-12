@@ -2,6 +2,18 @@
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
+.no-js body nav {
+  opacity: 1; }
+  .no-js body nav .container .brand .logo:not(.scrolled):not(.menu-open) {
+    background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
+    background-position-x: -4620px; }
+.no-js body .revealOnScroll {
+  opacity: 1; }
+.no-js body .toptext {
+  opacity: 1; }
+.no-js body .topbanner {
+  opacity: 1; }
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
