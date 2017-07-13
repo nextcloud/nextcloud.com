@@ -41,24 +41,27 @@ function ($, _, enquire, Velocity, velocityUI) {
         event.preventDefault();
         this.changeUrl(event);
 
-        const WEBROOT = window.location.origin + "/wp-content/themes/next/";
         var targetPage = $(event.currentTarget).attr("href").substring(1);
         this.transitionPages();
-        reveal('top');
 
         $.ajax({
           beforeSend: function() {
-            $("body").addClass("sended");
+            $(".transitioner").addClass("transitioner--animation");
           },
 
-          type: "POST",
-          url: WEBROOT + "ajax-request.php",
+          type: "GET",
+          url: targetPage,
           data: {page: targetPage},
           success: function(data){
+             var parsedData = $(data),
+                parsedTitle = parsedData.filter('title').text(),
+                requiredScripts = parsedData.find(".scripts-require").text();
+
+             $(document).find("title").text(parsedTitle);
+             $(document).find(".scripts-require").text(requiredScripts);
+
             $('.app').html(data);
           }});
-
-        // $(".jumbotron").load(WEBROOT + "ajax-request.php");
 
         return ;
       },
