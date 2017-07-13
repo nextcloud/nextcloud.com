@@ -141,11 +141,17 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 	$html .= ob_get_contents() . '>';
 	ob_end_clean();
 
+	$html .= '<div class="transitioner">
+		<div class="transitioner--first"></div>
+		<div class="transitioner--second"></div>
+	</div>';
+
 	ob_clean();
 	ob_start();
 	get_template_part('templates/header-top-navbar');
 	$html .= ob_get_contents();
 	ob_end_clean();
+
 
 	// The basic translation for the files
 	$l = new L10N(get_post()->post_name);
@@ -163,7 +169,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		ob_clean();
 		ob_start();
 		include roots_template_path();
-		$html .= ob_get_contents();
+		$html .= '<div class="app">' . ob_get_contents() . '</div>';
 		ob_end_clean();
 	}
 
