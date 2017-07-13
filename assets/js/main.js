@@ -9,7 +9,7 @@ function ($, _, enquire, Velocity, velocityUI) {
         this.variables.buttonDropdownSelector.on("click", _.bind(this.buttonDropdown, this));
         $(window).on('scroll.fadeOnce', _.bind(this.revealOnScroll, this, event));
         this.animationOnLoadPage();
-        $(this.variables.navigationLinkSelector).click(_.bind(this.getPageAjax, this))
+        $(this.variables.navigationLinkSelector).click(_.bind(this.changePageHandler, this))
 
         enquire.register('screen and (max-width: 991px)', {
           // match: _.bind(this.modulesBindMobile, this)
@@ -37,31 +37,48 @@ function ($, _, enquire, Velocity, velocityUI) {
         activeClass: "active"
       },
 
+      changePageHandler: function (event) {
+        var pageUrl = $(event.currentTarget).attr("href"),
+            currentUrl = window.location.pathname.slice(0, -1);
+
+            console.log(pageUrl);
+            console.log(currentUrl);
+        if (pageUrl === currentUrl) {
+          event.preventDefault();
+          return ;
+        } else {
+          this.getPageAjax(event);
+        }
+      },
+
       getPageAjax: function(event) {
         event.preventDefault();
+
+        const ENV = window.location.protocol ;
+        const ASSETSLOCATION = ENV + "/wp-content/themes/next/assets/";
+        var targetPage = $(event.currentTarget).attr("href").substring(1);
+        var parsedHtml;
+
+        $(".transitioner").addClass("transitioner--animation");
+        this.transitionPages();
         this.changeUrl(event);
 
-        var targetPage = $(event.currentTarget).attr("href").substring(1);
-        this.transitionPages();
+        $.when(
+          $.get(targetPage, function(html) {
+            parsedHtml = html;
+          }),
 
-        $.ajax({
-          beforeSend: function() {
-            $(".transitioner").addClass("transitioner--animation");
-          },
+          $.get(ASSETSLOCATION + "css/" + targetPage +".css")
+          // $.getScript(ASSETSLOCATION + "js/pages/" + targetPage + ".js")
+        )
 
-          type: "GET",
-          url: targetPage,
-          data: {page: targetPage},
-          success: function(data){
-             var parsedData = $(data),
-                parsedTitle = parsedData.filter('title').text(),
-                requiredScripts = parsedData.find(".scripts-require").text();
+        .then(function() {
+          var parsedTitle = $(parsedHtml).filter('title').text();
 
-             $(document).find("title").text(parsedTitle);
-             $(document).find(".scripts-require").text(requiredScripts);
-
-            $('.app').html(data);
-          }});
+          $(".app").html(parsedHtml);
+          $(document).find("title").text(parsedTitle);
+          $(".transitioner").removeClass("transitioner--animation");
+        });
 
         return ;
       },
@@ -70,7 +87,7 @@ function ($, _, enquire, Velocity, velocityUI) {
         var pageUrl = $(event.currentTarget).attr("href");
 
         if(pageUrl!=window.location){
-    			window.history.pushState({path:pageUrl},'',pageUrl);
+    			window.history.pushState({path:pageUrl},'',pageUrl + "/");
     		}
     		return ;
       },
