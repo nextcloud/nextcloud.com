@@ -1,0 +1,26 @@
+pipeline:
+  clone:
+    image: plugins/git
+    depth: 1
+
+  syntax-php7.0:
+    image: nextcloudci/php7.0:php7.0-7
+    commands:
+      - composer install
+      - ./vendor/bin/parallel-lint --exclude vendor/ .
+    when:
+      matrix:
+        TESTS: syntax-php7.0
+  syntax-php7.1:
+    image: nextcloudci/php7.1:php7.1-11
+    commands:
+      - composer install
+      - ./vendor/bin/parallel-lint --exclude vendor/ .
+    when:
+      matrix:
+        TESTS: syntax-php7.1
+
+matrix:
+  include:
+    - TESTS: syntax-php7.0
+    - TESTS: syntax-php7.1
