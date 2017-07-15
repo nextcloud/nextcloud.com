@@ -1,7 +1,7 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/features.css" rel="stylesheet">
 <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
-<script class="scripts-require">
+<script id="scripts-require">
 	require(["require.config"], function() {
 		require(["pages/features", "modules/submenu"])
 	});

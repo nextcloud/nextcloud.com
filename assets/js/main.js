@@ -1,121 +1,126 @@
-define(["jquery", "underscore", "enquire", "velocity", "velocityUI"],
-function ($, _, enquire, Velocity, velocityUI) {
-  $(document).ready(function() {
-    "use strict";
-    var main = {
-      init: function() {
-        const WEBROOT = window.location.origin + "/wp-content/themes/next/";
+define(['jquery', 'underscore', 'velocity', 'velocityUI', 'globals'],
+function ($, _) {
+	$(document).ready(function() {
+		'use strict';
+		var main = {
+			init: function() {
+				this.variables.buttonDropdownSelector.on('click', _.bind(this.buttonDropdown, this));
+				$(window).on('scroll.fadeOnce', _.bind(this.revealOnScroll, this, event));
+				this.animationOnLoadPage();
+				$(this.variables.navigationLinkSelector).click(_.bind(this.changePageHandler, this));
+			},
 
-        this.variables.buttonDropdownSelector.on("click", _.bind(this.buttonDropdown, this));
-        $(window).on('scroll.fadeOnce', _.bind(this.revealOnScroll, this, event));
-        this.animationOnLoadPage();
-        $(this.variables.navigationLinkSelector).click(_.bind(this.changePageHandler, this))
+			variables : {
+				topHeaderSelector: '.topheader',
+				heroSectionBackgroundSelector: '.background',
+				slideshowContentSelector: '.slideshow',
+				slideshowIndicatorsSelector: '.indicators',
+				slideshowImageOnTopSelector: '.image-top',
+				buttonDropdownContentSelector: $('.dropdown-content'),
+				buttonDropdownSelector: $('.button--dropdown'),
+				textTriggerSelector: '.textTrigger',
+				indicatorSlideshow: 'btn_carousel',
+				navigationLinkSelector: '.nav__item a',
+				visibleClass : 'visible',
+				activeClass: 'active'
+			},
 
-        enquire.register('screen and (max-width: 991px)', {
-          // match: _.bind(this.modulesBindMobile, this)
-        });
+			changePageHandler: function (event) {
+				var pageUrl = $(event.currentTarget).attr('href'),
+					currentUrl = window.location.pathname.slice(0, -1);
 
-        enquire.register('screen and (min-width: 992px)', {
-          // match: _.bind(this.modulesBindDesktop, this)
-        });
-      },
+				if (pageUrl === currentUrl) {
+					event.preventDefault();
+					return ;
+				} else {
+					this.getPageAjax(event);
+				}
+			},
 
-      variables : {
-        topHeaderSelector: ".topheader",
-        heroSectionBackgroundSelector: ".background",
-        buttonDropdownSelector: $(".button--dropdown"),
-        buttonDropdownContentSelector: $(".dropdown-content"),
-        SlideshowTextTriggerSelector: $(".textTrigger"),
-        spriteSlideshowSelector: $(".image-top-container"),
-        slideshowContentSelector: ".slideshow",
-        slideshowIndicatorsSelector: ".indicators",
-        slideshowImageOnTopSelector: ".image-top",
-        textTriggerSelector: ".textTrigger",
-        indicatorSlideshow: "btn_carousel",
-        navigationLinkSelector: ".nav__item a",
-        visibleClass : "visible",
-        activeClass: "active"
-      },
+			getPageAjax: function(event) {
+				event.preventDefault();
 
-      changePageHandler: function (event) {
-        var pageUrl = $(event.currentTarget).attr("href"),
-            currentUrl = window.location.pathname.slice(0, -1);
+				var targetPage = $(event.currentTarget).attr('href').substring(1),
+					self = this,
+					parsedHtml,
+					parsedScripts,
+					styles;
 
-            console.log(pageUrl);
-            console.log(currentUrl);
-        if (pageUrl === currentUrl) {
-          event.preventDefault();
-          return ;
-        } else {
-          this.getPageAjax(event);
-        }
-      },
+				this.transitionPages('loading');
+				this.changeUrl(event);
 
-      getPageAjax: function(event) {
-        event.preventDefault();
+				$.when(
+					$.get(targetPage, function(html) {
+						parsedHtml = html;
+					}),
 
-        const ENV = window.location.protocol ;
-        const ASSETSLOCATION = ENV + "/wp-content/themes/next/assets/";
-        var targetPage = $(event.currentTarget).attr("href").substring(1);
-        var parsedHtml;
+					$.get(ASSETSLOCATION + 'css/' + targetPage +'.css', function(css) {
+						styles = css;
+					}),
 
-        $(".transitioner").addClass("transitioner--animation");
-        this.transitionPages();
-        this.changeUrl(event);
+					$.get(ASSETSLOCATION + 'js/pages/' + targetPage + '.js', function(scripts) {
+						parsedScripts = scripts;
+					})
+				)
 
-        $.when(
-          $.get(targetPage, function(html) {
-            parsedHtml = html;
-          }),
+				.then(function() {
+					var parsedTitle = $(parsedHtml).filter('title').text(),
+						htmlContent = $(parsedHtml).filter('.app').find('.content');
 
-          $.get(ASSETSLOCATION + "css/" + targetPage +".css")
-          // $.getScript(ASSETSLOCATION + "js/pages/" + targetPage + ".js")
-        )
+					$('.app').html(htmlContent);
+					$(document).find('title').text(parsedTitle);
 
-        .then(function() {
-          var parsedTitle = $(parsedHtml).filter('title').text();
+					// INLINING STYLES HERE
+					$(document).find('head').append('<style>' + styles + '</style>');
+					self.transitionPages('loaded');
 
-          $(".app").html(parsedHtml);
-          $(document).find("title").text(parsedTitle);
-          $(".transitioner").removeClass("transitioner--animation");
-        });
+					// INLINING SCRIPTS HERE
+					parsedScripts;
+					self.animationOnLoadPage();
+				});
+			},
 
-        return ;
-      },
+			changeUrl: function(event) {
+				var pageUrl = $(event.currentTarget).attr('href');
 
-      changeUrl: function(event) {
-        var pageUrl = $(event.currentTarget).attr("href");
+				if(pageUrl!=window.location){
+					window.history.pushState({path:pageUrl},'',pageUrl + '/');
+				}
+				return ;
+			},
 
-        if(pageUrl!=window.location){
-    			window.history.pushState({path:pageUrl},'',pageUrl + "/");
-    		}
-    		return ;
-      },
+			transitionPages: function(state) {
+				if (state === 'loading') {
+					$('.transitioner').addClass('transitioner--animation');
 
-      transitionPages: function() {
+					return;
+				} if (state === 'loaded') {
+					$('.transitioner').removeClass('transitioner--animation');
 
-      },
+					return;
+				}
+			},
 
-      buttonDropdown: function(event) {
-        this.variables.buttonDropdownSelector.toggleClass(this.variables.activeClass);
-        this.variables.buttonDropdownContentSelector.toggleClass(this.variables.visibleClass);
-      },
+			buttonDropdown: function(event) {
+				this.variables.buttonDropdownSelector.toggleClass(this.variables.activeClass);
+				this.variables.buttonDropdownContentSelector.toggleClass(this.variables.visibleClass);
+			},
 
-      animationOnLoadPage: function() {
-        $(this.variables.topHeaderSelector).velocity('transition.slideUpBigIn');
-        $(this.variables.heroSectionBackgroundSelector).velocity('transition.fadeIn', 1000);
-      },
+			animationOnLoadPage: function() {
+				$(this.variables.topHeaderSelector).velocity('transition.slideUpBigIn');
+				$(this.variables.heroSectionBackgroundSelector).velocity('transition.fadeIn', 1000);
+			},
 
-      revealOnScroll: function(event) {
-        var scrollTop = $(window).scrollTop();
-        $('.revealOnScroll:not(.fade-in)').each(function(index, element) {
-          var selectorOffset = $(element).offset();
-          if (scrollTop + window.innerHeight - 100 > selectorOffset.top) {
-            $(element).addClass("fade-in").velocity('transition.slideUpIn');
-          }
-        })
-      },
-    }
-    main.init();
-  });
+			revealOnScroll: function(event) {
+				var scrollTop = $(window).scrollTop();
+				$('.revealOnScroll:not(.fade-in)').each(function(index, element) {
+					var selectorOffset = $(element).offset();
+					if (scrollTop + window.innerHeight - 100 > selectorOffset.top) {
+						$(element).addClass('fade-in').velocity('transition.slideUpIn');
+					}
+				});
+			},
+		};
+		main.init();
+	});
 });
