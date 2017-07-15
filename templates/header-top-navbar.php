@@ -2,11 +2,6 @@
 $l = new L10N('header-navbar');
 require get_template_directory().'/strings.php';
 ?>
-<div class="nojs-warning">
-  <div class="container text-center">
-    <p>You have javascript disabled. We tried to make sure the basics of our website work but some functionality will be missing.</p>
-  </div>
-</div>
 <nav class="nav" id="nav">
 <!-- To finish -->
 	<div class="mobile-bg-container">

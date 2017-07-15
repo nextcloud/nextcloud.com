@@ -56,4 +56,9 @@ $l = new L10N('footer');
 		</div>
 	</div>
   </div>
+<div class="nojs-warning">
+  <div class="container text-center">
+    <p>You have javascript disabled. We tried to make sure the basics of our website work but some functionality will be missing.</p>
+  </div>
+</div>
 </footer>
