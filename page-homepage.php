@@ -13,7 +13,7 @@
 		<div class="row">
 			<div class="col-md-6 toptext ">
 				<a class="announcement" href="https://nextcloud.com/conf/">
-				<span class="type">Fresh</span>
+				<span class="type">Event</span>
 				<span class="message"><strong>Join the Nextcloud Conference.</strong> August 22-29 in Berlin!</span>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('A safe home for all your data');?></h1>
