@@ -60,10 +60,9 @@
 				<li>Intro to the <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/11" target="_blank">Android app dev process</a>, why you should <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/18" target="_blank">join the design team</a> and how we <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/36" target="_blank">do performance testing</a></li>
 				<li>Status updates on the <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/20" target="_blank">Calendar</a>,  <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/33" target="_blank">Theming</a> and <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/13" target="_blank">iOS</a> apps</li>
 			</ul></p>
-			<p class="section--paragraph revealOnScroll">On Friday the 25th we have a special program with a focus on enterprise and large scale Nextcloud usage. Details are coming!</p>
+			<p class="section--paragraph revealOnScroll">On Friday the 25th we have a <a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">special program with a focus on enterprise and large scale Nextcloud usage.</a></p>
 <!-- 			<p class="section--paragraph revealOnScroll">Check out <a href="https://nextcloud.org/blog/nextcloud-contributor-conference-program/">the full program</a>!</p> -->
 <!-- 			<p class="section--paragraph">Stay tuned for the program for this year!</p> -->
-			
 		</div>
 	</div>
 			<p class="section--paragraph text-center revealOnScroll">This is a hands-on event. <strong>Bring your laptop!</strong></p>
@@ -127,7 +126,7 @@
 			<div class="container">
 			<h2 class="section--heading-1 revealOnScroll">Friday Focus</h2>
 			<p class="section--paragraph revealOnScroll">Friday August 25 we focus on large enterprise and educational installations of Nextcloud. Participate in workshops to get in-depth knowledge of Nextcloud, find out how to scale your installation efficiently and contribute your ideas.</p>
-			<p class="section--paragraph revealOnScroll">Stay tuned for our Friday Focus program!</p>
+			<p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">See the Friday Focus program in our blog!</a></p>
 	<!-- 		<p class="section--paragraph revealOnScroll"><a class="button button--blue button--arrow button--large revealOnScroll" href="coming" role="button">Know all the features</a></p> -->
 			</div>
 	</div>
