@@ -1,22 +1,12 @@
 define(["jquery", "underscore", "enquire", "velocity", "velocityUI"],
-function ($, _, enquire, Velocity, velocityUI) {
+function ($, _, enquire, velocity, velocityUI) {
   $(document).ready(function() {
     "use strict";
     var defaultComponents = {
       init: function() {
-
         this.variables.buttonDropdownSelector.on("click", _.bind(this.buttonDropdown, this))
         this.animationOnLoadPage();
-
-        enquire.register('screen and (max-width: 991px)', {
-          match: _.bind(this.modulesBindMobile, this),
-          unmatch: _.bind(this.cleanModulesMobile, this)
-        });
-
-        enquire.register('screen and (min-width: 992px)', {
-          match: _.bind(this.modulesBindDesktop, this),
-          unmatch: _.bind(this.cleanModulesDesktop, this)
-        });
+        this.removeRevealOnScroll();
       },
 
       variables : {
@@ -35,16 +25,18 @@ function ($, _, enquire, Velocity, velocityUI) {
         activeClass: "active"
       },
 
-      modulesBindDesktop: function() {
+      checkScrollPosition: function() {
+        var currentScrollPosition = $(document).scrollTop().valueOf();
+
+        if (currentScrollPosition > 500) {
+          $('.revealOnScroll:not(.fade-in)').each(_.bind(this.removeRevealOnScroll, this));
+        } else {
+          return
+        }
       },
 
-      modulesBindMobile: function() {
-      },
-
-      cleanModulesDesktop: function() {
-      },
-
-      cleanModulesMobile: function() {
+      removeRevealOnScroll: function(index, element) {
+          $(element).addClass("fade-in");
       },
 
       buttonDropdown: function (event) {
