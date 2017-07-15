@@ -6,12 +6,12 @@
 		require(["pages/features", "modules/submenu"])
 	});
 </script>
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <div class="background features-background second-menu">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 revealOnScroll topheader">
+			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('<span class="avoidwrap">Your cloud,</span> <span class="avoidwrap">your rules</span>');?></h1>
 				<h2><?php echo $l->t('Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your data center, at home or at one of our providers.');?></h2>
 			</div>
@@ -85,6 +85,28 @@
 			<p class="section--paragraph"><?php echo $l->t('');?></p>
 			<a href="/secure" class="button button--blue button--arrow button--large"><?php echo $l->t('Security in Nextcloud');?></a>
 		</div>
+	</div>
+</section>
+
+<section class="section--whitepaper quote">
+	<div class="container text-center revealOnScroll">
+        <h2 class="revealOnScroll"><?php echo $l->t('Find out what is new in Nextcloud 12');?></h2>
+        <div class="row">
+            <div class="col-md-offset-4 col-md-4">
+                <p>
+                    <form name="whitepaper" method="post" action="../nextcloud12-whitepapersubmit">
+                        <p><label for="email"><?php echo $l->t('Read <a class="hyperlink" href="https://nextcloud.com/blog/welcome-to-nextcloud-12/">our announcement blog</a><br /> or download our free Nextcloud 12 datasheet.');?><br>
+                        <input class="mail" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
+                        <td colspan="2" style="text-align:center">
+                        <div class="text-center">
+                            <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                        </div>
+                        </td>
+                        <p><input class="button button--large" type="submit" value=" Get the datasheet "></p>
+                    </form>
+                </p>
+            </div>
+        </div>
 	</div>
 </section>
 
