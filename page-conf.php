@@ -41,7 +41,7 @@
 			</div>
 			<p class="section--paragraph revealOnScroll">During the week we collaborate on making Nextcloud better in design, functionality, stability, performance and features. We share code, thoughts, inspiration, beer and knowledge, working in areas like:</p>
 			<ul class="revealOnScroll">
-				<li>Coding (PHP, JS, C++)</li>
+				<li>Coding (PHP, JS, C++, Objective-C, Java)</li>
 				<li>Design &amp; Front-end</li>
 				<li>Testing</li>
 				<li>Translation &amp; Documentation</li>
