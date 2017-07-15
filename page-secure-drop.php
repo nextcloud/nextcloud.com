@@ -3,19 +3,11 @@
 <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
 <script>
 	require(["require.config"], function() {
-		require(["vendor/jquery.min", "vendor/jquery.ui", "bootstrap"],
-			function ($, jqueryui) {
-				require(["vendor/jquery.youtubepopup"],
-					function (jqyoutube) {
-						jQuery("a.youtube").YouTubePopup({ hideTitleBar: true });
-					}
-				);
-			}
-		);
+		require(["pages/file-drop"])
 	});
 </script>
 </head>
-<div class="background securedrop-background"> 
+<div class="background securedrop-background">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
@@ -31,8 +23,8 @@
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1 video revealOnScroll">
 			<div class="yt-img-overlay">
-				<a class="youtube" id="AhFnbB-a7ik" href="https://www.youtube.com/watch?v=AhFnbB-a7ik" title="Editing public link sharesd">
-					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/AhFnbB-a7ik/maxresdefault.jpg" title="File Drop in action" style='margin: 0 0 0 0; padding: -10% 0 -10% 0;' /> <!-- style different per image! --> 
+				<a class="youtube" id="AhFnbB-a7ik" href="https://www.youtube.com/watch?v=AhFnbB-a7ik" title="Editing public link shares">
+					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/AhFnbB-a7ik/maxresdefault.jpg" title="File Drop in action" style='margin: 0 0 0 0; padding: -10% 0 -10% 0;' /> <!-- style different per image! -->
 					<div class="yt-play-btn">
 						<i></i>
 					</div>
@@ -54,7 +46,7 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Easy creation of secure upload point');?></p>
-			<p class="section--paragraph"><?php echo $l->t('To create an upload link, select any folder as target for File Drop by enabling file upload in a folder share and choosing »<em>File Drop (upload only)</em>«. This hides the existing content of the folder from the share recipient, providing a secure upload target.');?></p> 
+			<p class="section--paragraph"><?php echo $l->t('To create an upload link, select any folder as target for File Drop by enabling file upload in a folder share and choosing »<em>File Drop (upload only)</em>«. This hides the existing content of the folder from the share recipient, providing a secure upload target.');?></p>
 			 <p class="section--paragraph"><?php echo $l->t('You can now share this link to your customer, partner or user!');?></p>
 		</div>
 	</div>
