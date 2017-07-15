@@ -7,11 +7,13 @@ function ($, _, enquire, jqueryui, jqyoutube) {
         jQuery("a.youtube").YouTubePopup({ hideTitleBar: true });
 
         if(window.location.hash) {
-          $('#IDtext').text('Your Federated Cloud ID is');
-          $('#userName').text(window.location.hash.substring(1));
           $('html, body').animate({
               scrollTop: $("#federationScroll").offset().top
           }, 2000);
+          if(window.location.hash.substring(1)!=='federation') {
+            $('#IDtext').text('Your Federated Cloud ID is');
+            $('#userName').text(window.location.hash.substring(1));
+          }
         }
 
         enquire.register('screen and (max-width: 480px)', {
