@@ -112,8 +112,8 @@
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i> <i class="fa fa-linux" aria-hidden="true"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Sync any local folder-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--LAN Synchronization-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
-							<li title="" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Outlook integration-->
+							<li title="Over 80 available for Nextcloud 12" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
+							<li title="Free version for home/small business users, paid with more features for larger enterprises" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Outlook integration-->
 								<li class="cd-group"></li> <!--Server features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Full text search-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Versioning-->
@@ -174,7 +174,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i> <i class="fa fa-linux" aria-hidden="true"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Sync any local folder-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--LAN Synchronization-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
+							<li title="Almost 40 available for ownCloud 10 in beta app store" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Extensible with apps-->
 							<li title="" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Outlook integration-->
 								<li class="cd-group"></li> <!--Server features-->
 							<li title="optional" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i></li> <!--Full text search-->
@@ -185,7 +185,7 @@
 							<li title="optional" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i>/<i class="fa fa-check optional" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="Optional. Available for iOS, Android possible with not related third party tool" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i>/<i class="fa fa-check optional" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
 							<li title="With Collabora Online" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Online Office-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
+							<li title="Only in ownCloud 10" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Inter-server sharing-->
 								<li class="cd-group"></li> <!--Admin features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
