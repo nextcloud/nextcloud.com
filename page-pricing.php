@@ -304,7 +304,7 @@
 				<div class="line revealOnScroll"></div>
 				<div class="downarrow revealOnScroll"><a href="#migration" data-toggle="collapse"><h3><?php echo $l->t('How difficult is migration from ownCloud?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="migration" class="collapse">
-					<p><?php echo $l->t('Migration from ownCloud to Nextcloud is easy. Our support team will help you move to Nextcloud and optimally benefit from the added scalability, features, stability, performance and security. See <a class="hyperlink" href="/migration">our migration page</a> for more details on migration.');?></p>
+					<p><?php echo $l->t('Migration from ownCloud to Nextcloud is easy. Our support team has already migrated dozens of customers, including some with tens of thousands of users. We will help you move to Nextcloud and optimally benefit from the added scalability, features, stability, performance and security. See <a class="hyperlink" href="/migration">our migration page</a> for more details on migration.');?></p>
 				</div>
 				<div class="line revealOnScroll"></div>
 				<div class="downarrow revealOnScroll"><a href="#howbuy" data-toggle="collapse"><h3><?php echo $l->t('How do I buy Nextcloud subscriptions?<span class="icon-arrow-down">');?></h3></a></div>

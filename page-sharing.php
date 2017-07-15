@@ -84,9 +84,11 @@ require(["require.config"], function() {
         </div>
     </div>
 </section>
+
+<div id="federationScroll"></div>
+
 <section class="section--federation">
 <div class="container">
-	<a id="federationScroll" name="federation"></a>
 		<h2 class=""><?php echo $l->t('Share across Nextclouds!');?></h2>
 	<div class="row revealOnScroll">
 		<div class="col-md-4">
