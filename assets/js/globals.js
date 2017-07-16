@@ -1,2 +1,3 @@
-const ENV = window.location.protocol ;
-const ASSETSLOCATION = ENV + "/wp-content/themes/next/assets/";
+var PROTOCOL = window.location.protocol;
+var ENV = window.location.hostname;
+var ASSETSLOCATION = '/wp-content/themes/next/assets/';
