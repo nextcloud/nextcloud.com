@@ -11,8 +11,8 @@ Error: Undefined variable: "$warning".
 18: 
 19:     svg {
 20:       display: inline-block;
-21: 
-22:       .shape {
+21:       -ms-flex-negative: 0;
+22:       flex-shrink: 0;
 
 Backtrace:
 assets/css/modules/alerts.scss:17
@@ -79,4 +79,4 @@ assets/css/modules/alerts.scss:17
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$warning\".\A         on line 17 of assets/css/modules/alerts.scss\A \A 12:     -ms-flex-align: center;\A 13:             align-items: center;\A 14:   }\A 15: \A 16:   &--no-js {\A 17:     background-color: $warning;\A 18: \A 19:     svg {\A 20:       display: inline-block;\A 21: \A 22:       .shape {"; }
+  content: "Error: Undefined variable: \"$warning\".\A         on line 17 of assets/css/modules/alerts.scss\A \A 12:     -ms-flex-align: center;\A 13:             align-items: center;\A 14:   }\A 15: \A 16:   &--no-js {\A 17:     background-color: $warning;\A 18: \A 19:     svg {\A 20:       display: inline-block;\A 21:       -ms-flex-negative: 0;\A 22:       flex-shrink: 0;"; }
