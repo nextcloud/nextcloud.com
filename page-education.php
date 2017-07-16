@@ -42,16 +42,16 @@ require(["require.config"], function() {
     <h2 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Some of our customers');?></h2>
     <div class="row">
 		<div class="col-md-3 customer">
-            <a href=""><?php echo file_get_contents(get_template_directory_uri()."/assets/img/customers/tuberlin.svg") ?></a>
+            <a href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/"><?php echo file_get_contents(get_template_directory_uri()."/assets/img/customers/tuberlin.svg") ?></a>
         </div>
 		<div class="col-md-3 customer">
-            <a href=""><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/regioit.png" /></a>
+            <a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/regioit.png" /></a>
         </div>
         <div class="col-md-3 customer">
-            <a href=""><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/deic.jpg" /></a>
+            <a href="https://nextcloud.com/blog/the-danish-research-and-education-network-moves-from-owncloud-to-nextcloud/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/deic.jpg" /></a>
         </div>
         <div class="col-md-3 customer">
-            <a href=""><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/queens.png" /></a>
+            <a href="http://my.engineering.queensu.ca/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/queens.png" /></a>
         </div>
     </div>
 </div>
