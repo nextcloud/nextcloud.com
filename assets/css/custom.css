@@ -2,8 +2,6 @@
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
-/* Please don't remove, useful for testing. */
-/* * {border:1px solid red} */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -422,6 +420,8 @@ template, [hidden] {
         font-weight: 600;
         color: black; }
 
+/* Please don't remove, useful for testing. */
+/* * {border:1px solid red} */
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/

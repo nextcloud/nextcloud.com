@@ -48,24 +48,55 @@ section .row {
 
 .section--customers {
   /* 	max-width: 100%; */
-  /* 	position: relative; */ }
-  .section--customers .container-widest {
+  position: relative; }
+  .section--customers .container {
     padding-top: 8.54297em;
     padding-bottom: 8.54297em; }
   .section--customers .customer {
-    float: center;
-    height: 400px;
-    position: relative;
-    line-height: 400px;
-    text-align: center; }
-    .section--customers .customer img {
+    position: relative; }
+    .section--customers .customer .customer-logo {
+      float: center;
+      height: 400px;
+      position: relative;
+      line-height: 400px;
+      text-align: center;
+      width: 100%;
+      max-width: 60vw;
+      margin-left: auto;
+      margin-right: auto;
       vertical-align: middle;
-      max-width: 90%;
-      max-height: 90%; }
-    .section--customers .customer svg:not(:root) {
-      vertical-align: middle;
-      max-width: 90%;
-      max-height: 90%; }
+      /*			svg {
+      				vertical-align: middle;
+      				float:none;
+      				width: auto;
+      				height: 400px;
+      				padding-bottom: 100px;
+      			}*/ }
+      .section--customers .customer .customer-logo img {
+        max-width: 90%;
+        vertical-align: middle; }
+      .section--customers .customer .customer-logo .scaling-svg-container {
+        /* 				position: relative; */
+        height: 0;
+        width: 100%;
+        padding: 0;
+        padding-bottom: 100%;
+        /* override this inline for aspect ratio other than square */ }
+      .section--customers .customer .customer-logo svg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        /* 		max-width: 50vw; */
+        left: 0;
+        top: 0; }
+      @media (max-width: 991px) {
+        .section--customers .customer .customer-logo {
+          height: 300px;
+          line-height: 300px; } }
+      @media (max-width: 768px) {
+        .section--customers .customer .customer-logo {
+          height: 200px;
+          line-height: 200px; } }
 
 .section--whitepaper {
   margin: 100px 0 100px 0; }

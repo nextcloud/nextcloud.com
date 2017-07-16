@@ -43,26 +43,60 @@ section {
 
 .section--customers {
 /* 	max-width: 100%; */
-/* 	position: relative; */
-    .container-widest {
+	position: relative;
+    .container {
 	padding-top: ms(5);
     padding-bottom: ms(5);
 	}
 	.customer {
-	float: center;
-	height: 400px;
-    position: relative;
-    line-height:400px;
-    text-align:center;
-		img {
+		position: relative;
+		.customer-logo {
+			float: center;
+			height: 400px;
+			position: relative;
+			line-height: 400px;
+			text-align:center;
+			width: 100%;
+			max-width: 60vw;
+			margin-left: auto;
+			margin-right: auto;
 			vertical-align: middle;
-			max-width: 90%;
-			max-height: 90%;
-		}
-		svg:not(:root) {
-			vertical-align: middle;
-			max-width: 90%;
-			max-height: 90%;
+			img {
+				max-width: 90%;
+				vertical-align: middle;
+			}
+			.scaling-svg-container {
+/* 				position: relative; */
+				height: 0;
+				width: 100%;
+				padding: 0;
+				padding-bottom: 100%;
+				/* override this inline for aspect ratio other than square */
+				}
+			svg {
+				position: absolute;
+				height: 100%;
+				width: 100%;
+		/* 		max-width: 50vw; */
+				left: 0;
+				top: 0;
+				}
+			@media (max-width: $break-big) {
+				height: 300px;
+				line-height: 300px;
+			}
+			@media (max-width: $break-small) {
+				height: 200px;
+				line-height: 200px;
+			}
+
+/*			svg {
+				vertical-align: middle;
+				float:none;
+				width: auto;
+				height: 400px;
+				padding-bottom: 100px;
+			}*/
 		}
 	}
 }
