@@ -2,17 +2,9 @@
 <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/education.css" rel="stylesheet">
 <script>
-	require(["require.config"], function() {
-		require(["vendor/jquery.min", "modules/submenu", "vendor/jquery.ui", "bootstrap"],
-			function ($, jqueryui) {
-				require(["vendor/jquery.youtubepopup"],
-					function (jqyoutube) {
-						jQuery("a.youtube").YouTubePopup({ hideTitleBar: true });
-					}
-				);
-			}
-		);
-	});
+require(["require.config"], function() {
+	require(["pages/education"])
+});
 </script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
@@ -111,11 +103,11 @@
 <!--                 <a href="/workflow" class="button button--blue button--arrow button--large"><?php echo $l->t('Workflow handling');?></a> -->
             </div>
         </div>
-        <div class="row text-center whitepaper revealOnScroll">
+        <!--<div class="row text-center whitepaper revealOnScroll">
             <div class="col-md-offset-4 col-md-4">
                 <p>
                     <form name="whitepaper" method="post" action="../tub-whitepapersubmit">
-                        <p><label for="email"><?php echo $l->t('Download case study:<br/> TU Berlin Nextcloud migration');?><br>
+                        <p><label for="email"><?php echo $l->t('Download case study:<br/> TU Berlin Nextcloud migration yields 38% lower peak database load');?><br>
                         <input class="mail" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
                         <td colspan="2" style="text-align:center">
                         <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
@@ -123,7 +115,7 @@
                     </form>
                 </p>
             </div>
-        </div>
+        </div>-->
     </div>
 </section>
 
