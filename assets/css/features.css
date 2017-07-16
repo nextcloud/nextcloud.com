@@ -87,8 +87,9 @@
   padding-top: 80px; }
 
 .section--whitepaper {
-  margin-top: 100px;
-  padding-top: 70px; }
+  padding: 0; }
+  .section--whitepaper h2 {
+    line-height: normal; }
 
 section {
   padding: 100px 0; }
