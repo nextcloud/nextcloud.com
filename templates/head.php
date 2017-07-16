@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +13,11 @@
 	<meta name="description" content="Nextcloud is an open source, self-hosted file sync and share and communication app platform. Access  &amp; sync your files, contacts, calendars  &amp; communicate and collaborate across your devices. You decide what happens with your data, where it is and who can access it!">
 	<meta name="theme-color" content="#0082c9">
 
+	<script>
+		// Use pure javascript to remove the class no-js if javascript is enabled
+		document.documentElement.classList.remove("no-js");
+	</script>
+
 	<?php wp_head(); ?>
 	<script type="text/javascript">
 		var templateUrl = '<?= get_bloginfo('template_url'); ?>';
@@ -22,7 +27,7 @@
 
 	<script>
 	require(["require.config"], function() {
-		require(["modules/header", "main"])
+		require(["modules/header", "main", "modernizr"])
 	});
 	</script>
 

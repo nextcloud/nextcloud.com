@@ -372,6 +372,56 @@ template, [hidden] {
 /**
  * Add the correct display in IE 10-.
  */
+.no-js body nav {
+  opacity: 1 !important; }
+  .no-js body nav .container .brand .logo:not(.scrolled):not(.menu-open) {
+    background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
+    background-position-x: -4620px; }
+  .no-js body nav .container .nav__sections .nav__section .nav__links {
+    background-color: white; }
+    .no-js body nav .container .nav__sections .nav__section .nav__links .nav__item a {
+      display: block;
+      padding: 5px 10px 0 10px;
+      font-size: 16px; }
+.no-js body .revealOnScroll {
+  opacity: 1; }
+.no-js body .toptext {
+  opacity: 1; }
+.no-js body .topbanner {
+  opacity: 1; }
+.no-js body .background {
+  opacity: 1 !important; }
+.no-js body .background .topheader {
+  opacity: 1; }
+
+.alert {
+  padding: 15px 0;
+  position: relative;
+  width: 100%;
+  margin: 0; }
+  .alert .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .alert--no-js {
+    background-color: #FFF054; }
+    .alert--no-js svg {
+      display: inline-block; }
+      .alert--no-js svg .shape {
+        stroke: #2A2A36; }
+      .alert--no-js svg .symbol {
+        fill: #2A2A36; }
+    .alert--no-js p {
+      display: inline-block;
+      padding-left: 5px;
+      margin: 0; }
+      .alert--no-js p strong {
+        font-weight: 600;
+        color: black; }
+
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
