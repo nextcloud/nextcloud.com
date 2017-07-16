@@ -47,7 +47,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'contactsubmit',
 // 		'contribute',
 // 		'contributors',
-		'design',
+		// 'design',
 		'desktop',
 //		'devices',
 // 		'events',

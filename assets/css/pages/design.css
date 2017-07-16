@@ -1,0 +1,11 @@
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.background--design {
+  background: url("../../img/headers/design.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+/*# sourceMappingURL=design.css.map */

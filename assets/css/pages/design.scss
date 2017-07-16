@@ -1,0 +1,9 @@
+@import "transparent-navbar";
+
+.background {
+  &--design {
+    background: url("../../img/headers/design.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
