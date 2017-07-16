@@ -1597,6 +1597,18 @@ blockquote:after {
           right: 15px; }
       .button--arrow.button--blue:before {
           background: url(../img/common/arrow_right.svg) center/contain no-repeat; }*/ }
+  .section--whitepaper .row {
+    margin-top: 15px;
+    padding-top: 0px; }
+  .section--whitepaper .wp-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px; }
+  .section--whitepaper img {
+    margin: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline; }
   .section--whitepaper .mail {
     border-radius: 20px;
     border-style: solid;

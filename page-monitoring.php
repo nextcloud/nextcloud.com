@@ -105,6 +105,7 @@
 <section class="section--whitepaper quote">
 	<div class="container text-center revealOnScroll">
         <h2 class="revealOnScroll"><?php echo $l->t('Get our datasheet');?></h2>
+        <div class="row wp-image"><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/monitoring-ds.png"/></div>
         <div class="row">
             <div class="col-md-offset-4 col-md-4">
                 <p>

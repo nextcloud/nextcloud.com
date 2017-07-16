@@ -91,6 +91,9 @@
 <section class="section--whitepaper quote">
 	<div class="container text-center revealOnScroll">
         <h2 class="revealOnScroll"><?php echo $l->t('Find out what is new in Nextcloud 12');?></h2>
+        <div class="row wp-image">
+            <img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/nc12-ds.png"/>
+        </div>
         <div class="row">
             <div class="col-md-offset-4 col-md-4">
                 <p>

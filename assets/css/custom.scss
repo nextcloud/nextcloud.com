@@ -1502,13 +1502,29 @@ blockquote {
 /* Whitepaper sections */
 .section--whitepaper {
 
-
-
 /*    .button:hover {
         background-color: #0073B2;
         text-decoration: none;
         border-color: #204d74;
     }*/
+	.row {
+		margin-top: 15px;
+		padding-top: 0px;
+	}
+
+	.wp-image {
+		margin-left: auto;
+		margin-right: auto;
+		width: 290px;
+	}
+
+	img {
+		margin: 20px;
+		width: 250px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		display: inline;
+	}
+
     .mail {
         border-radius: 20px;
         border-style: solid;
@@ -1524,7 +1540,8 @@ blockquote {
         right: 15px; }
     .button--arrow.button--blue:before {
         background: url(../img/common/arrow_right.svg) center/contain no-repeat; }*/
-    .g-recaptcha {
+
+	.g-recaptcha {
         margin-left: auto !important;
         margin-right: auto !important;
         display: inline-block !important;

@@ -99,6 +99,9 @@
 <div class="container">
     <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Well fitting');?></p>
     <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Nextcloud Enterprise Capabilities');?></h2>
+    <div class="row wp-image revealOnScroll">
+        <img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/monitoring-ds.png"/>
+    </div>
     <div class="row">
         <div class="col-md-6 revealOnScroll">
             <h3 class=""><?php echo $l->t('Deep integration in your infrastructure');?></h3>

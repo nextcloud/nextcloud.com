@@ -45,23 +45,26 @@
 
 <section class="section--whitepaper quote">
 	<div class="container text-center revealOnScroll">
-	<h2 class="revealOnScroll"><?php echo $l->t('Get our datasheets');?></h2>
-	<div class="row">
-    <div class="col-md-offset-4 col-md-4">
-        <p>
-            <form name="whitepaper" method="post" action="../storage-whitepapersubmit">
-                <p><label for="email"><?php echo $l->t('Download our free datasheets about<br /> Windows Network Drive and Sharepoint');?><br>
-                <input class="mail" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
-                <td colspan="2" style="text-align:center">
-                <div class="text-center">
-                    <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                </div>
-                </td>
-                <p><input class="button button--large" type="submit" value=" Get the datasheet "></p>
-            </form>
-        </p>
-	</div>
-    </div>
+        <h2 class="revealOnScroll"><?php echo $l->t('Get our datasheets');?></h2>
+        <div class="row wp-image">
+            <img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/wnd-ds.png"/>
+            <img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/sharepoint-ds.png"/></div>
+        <div class="row">
+            <div class="col-md-offset-4 col-md-4">
+                <p>
+                    <form name="whitepaper" method="post" action="../storage-whitepapersubmit">
+                        <p><label for="email"><?php echo $l->t('Download our free datasheets about<br /> Windows Network Drive and Sharepoint');?><br>
+                        <input class="mail" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
+                        <td colspan="2" style="text-align:center">
+                        <div class="text-center">
+                            <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                        </div>
+                        </td>
+                        <p><input class="button button--large" type="submit" value=" Get the datasheet "></p>
+                    </form>
+                </p>
+            </div>
+        </div>
 	</div>
 </section>
 
