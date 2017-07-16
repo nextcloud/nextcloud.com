@@ -37,20 +37,18 @@ require(["require.config"], function() {
 </div>
 </section>
 
-
-
 <section class="section--customers">
 <div class="container-widest">
     <h2 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Some of our customers');?></h2>
     <div class="row">
 		<div class="col-md-3 customer">
-            <a href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/"><?php echo file_get_contents("./wp-content/themes/next/assets/img/customers/tuberlin.svg"); ?></a>
+            <a href=""><?php echo file_get_contents(get_template_directory_uri()."/assets/img/customers/tuberlin.svg") ?></a>
         </div>
 		<div class="col-md-3 customer">
-            <a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/regioit.png" /></a>
+            <a href=""><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/regioit.png" /></a>
         </div>
         <div class="col-md-3 customer">
-            <a href="https://nextcloud.com/blog/the-danish-research-and-education-network-moves-from-owncloud-to-nextcloud/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/deic.jpg" /></a>
+            <a href=""><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/deic.jpg" /></a>
         </div>
         <div class="col-md-3 customer">
             <a href=""><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/queens.png" /></a>
@@ -177,11 +175,11 @@ require(["require.config"], function() {
     </div>
     <div class="row revealOnScroll ">
         <div class="col-md-6">
-            <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/kerberos.svg">
+            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/kerberos.svg");?>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud integrates in the university infrastructure with support for SAML and Shibboleth, LDAP, Kerberos, Oauth and other often used authentication mechanisms and runs on all enterprise Linux systems offering support options to match their life cycle.');?></p>
         </div>
         <div class="col-md-6">
-            <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/storage.svg">
+            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/storage.svg");?>
             <p class="section--paragraph"><?php echo $l->t('Data storage can be one or multiple NFS, Object Storage, Samba or a variety of other powerful storage mechanisms. This way Nextcloud provides seamless access to data on existing storage mechanisms, respecting access control limitations and transparently handling changes on the underlying storage layer.');?></p>
         </div>
     </div>
@@ -356,4 +354,3 @@ require(["require.config"], function() {
     </div>
 </div>
 </section>
-
