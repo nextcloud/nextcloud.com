@@ -156,7 +156,7 @@ require(["require.config"], function() {
 	</div>
 </div>
 <div class="container-fluid quote">
-<!--	<div class="container">-->
+	<div class="container-widest">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 text-center revealOnScroll">
 				<p class="section--paragraph"><?php echo $l->t('Your users are not confined to your Nextcloud server.<br/> Federation allows them to collaborate with users on other Nextcloud, Pydio or ownCloud servers!');?></p>
@@ -165,7 +165,7 @@ require(["require.config"], function() {
 				</div>
 			</div>
 		</div>
-<!-- 	</div> -->
+	</div>
 </div>
 <div class="container">
     <div class="row revealOnScroll ">
