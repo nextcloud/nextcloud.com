@@ -59,6 +59,11 @@ section {
 			max-width: 90%;
 			max-height: 90%;
 		}
+		svg:not(:root) {
+			vertical-align: middle;
+			max-width: 90%;
+			max-height: 90%;
+		}
 	}
 }
 

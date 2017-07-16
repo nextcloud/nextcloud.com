@@ -62,6 +62,10 @@ section .row {
       vertical-align: middle;
       max-width: 90%;
       max-height: 90%; }
+    .section--customers .customer svg:not(:root) {
+      vertical-align: middle;
+      max-width: 90%;
+      max-height: 90%; }
 
 .section--whitepaper {
   margin: 100px 0 100px 0; }
