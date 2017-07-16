@@ -167,7 +167,7 @@
 									</a>
 								</div>
 							</div>
-							<p><a class="hyperlink" href="https://github.com/nextcloud/android"><?php echo $l->t('Find Android Sources here</a>, <a class="hyperlink" href="https://download.nextcloud.com/android">direct APK download here</a> and <a class="hyperlink" href="https://github.com/nextcloud/windows-uwp">Windows Mobile sources here</a>.');?></p>
+							<p> <a class="hyperlink" href="https://github.com/nextcloud/ios"><?php echo $l->t('Find iOS Sources here</a>, <a class="hyperlink" href="https://github.com/nextcloud/android">Android Sources here</a>, <a class="hyperlink" href="https://download.nextcloud.com/android">direct APK download here</a> and <a class="hyperlink" href="https://github.com/nextcloud/windows-uwp">Windows Mobile sources here</a>.');?></p>
 							<div class="row">
 								<div class="col-xs-6 mobileclientbuttons">
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_WIN; ?>">
@@ -211,7 +211,6 @@
 		    <h4><?php echo $l->t('Nextcloud Server <small>Daily build</small>');?></h4>
 		    <div class="btn-group">
 		      <a href="<?php echo $DOWNLOAD_SERVER_DAILY_TAR; ?>" class="btn btn-lg btn-default"><i class="icon-archive"></i>  <?php echo $l->t('Archive File');?></a>
-		      <a href="<?php echo $DOWNLOAD_SERVER_PACKAGES_DAILY; ?>" class="btn btn-lg btn-default"><i class="icon-linux"></i> <?php echo $l->t('Linux Packages');?></a>
 		    </div>
 		    <h5><?php echo $l->t('Beta and RC builds');?></h5>
 		    <?php if(!empty($SERVER_TESTING_VERSION)) { ?>

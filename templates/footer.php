@@ -20,7 +20,7 @@ $l = new L10N('footer');
         <div class="col-sm-3">
             <h1  class="revealOnScroll"><?php echo($l->t('Resources')) ?></h1>
             <ul class="revealOnScroll">
-                <li><a href="<?php echo home_url('support') ?>"><?php echo($l->t('Support')) ?></a></li>
+                <li><a href="https://apps.nextcloud.com"><?php echo $l->t('App store') ?></a></li>
                 <li><a href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Admin manual') ?></a></li>
                 <li><a href="<?php echo $DOCUMENTATION_USER; ?>"><?php echo $l->t('User manual') ?></a></li>
                 <li><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>"><?php echo $l->t('Developer manual') ?></a></li>
@@ -31,6 +31,7 @@ $l = new L10N('footer');
         <div class="col-sm-3">
             <h1 class="revealOnScroll"><?php echo $l->t('Interact') ?></h1>
             <ul  class="revealOnScroll">
+                <li><a href="<?php echo home_url('support') ?>"><?php echo($l->t('Support')) ?></a></li>
                 <li><a href="https://webchat.freenode.net/?channels=nextcloud"><?php echo $l->t('IRC Channel') ?></a></li>
                 <li><a href="https://help.nextcloud.com/categories"><?php echo $l->t('Forums') ?></a></li>
                 <li><a href="<?php echo home_url('contact') ?>"><?php echo $l->t('Contact us') ?></a></li>

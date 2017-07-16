@@ -1,24 +1,24 @@
-define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "headroomJquery", "velocity", "velocityUI" ], 
-    function ($, _, enquire, bodymovin, Headroom, headroomJquery, velocity, velocityUI, headroom) {
+define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "headroomJquery", "velocity", "velocityUI" ],
+    function ($, _, enquire, bodymovin, Headroom, headroomJquery, Velocity, velocityUI) {
     $(document).ready(function() {
         "use strict";
         var HeaderApp = {
             init: function() {
-            
-            this.didScroll = false; 
+
+            this.didScroll = false;
             this.menuOpened = false;
             this.enquireInitializedMobile = false;
-            
+
             //Fade In animation
             $(this.variables.navigationId).velocity("transition.fadeIn", 1000 );
             this.animatedLogoSprite();
 
             enquire.register("screen and (max-width: 992px)", {
-                match: _.bind(this.mobileEvent, this) 
+                match: _.bind(this.mobileEvent, this)
             });
 
             enquire.register("screen and (max-height: 700px)", {
-                match: _.bind(this.showAndHideHeader, this) 
+                match: _.bind(this.showAndHideHeader, this)
             });
 
             enquire.register("screen and (min-width: 993px)", {
@@ -68,13 +68,13 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "headroomJqu
             $(this.variables.toggleSelector).off("click");
             $(this.variables.sectionSelector).off("click");
             $(this.variables.linksSelector).css("display", "inherit").removeClass(this.variables.activeClass);
-        },    
+        },
 
         resetDesktop: function() {
             $(this.variables.sectionSelector).off("mouseover");
             $(this.variables.sectionSelector).off("mouseleave");
             $(this.variables.linksSelector).hide();
-        },    
+        },
 
         showSubMenu: function(event) {
             if ($(event.currentTarget).find(this.variables.linksSelector).hasClass(this.variables.activeClass)) {
@@ -102,7 +102,7 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "headroomJqu
         showAndHideHeader: function(variables) {
 
             var myElement = document.querySelector(".nav");
-            
+
             //I should pass the variable object inside the headroom
             this.headroom  = new Headroom(myElement, {
                 offset: 510,
@@ -116,7 +116,7 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "headroomJqu
                     $(".logo").removeClass("scrolled");
                     $(".mobile-bg-container").addClass("visible");
                 },
-                
+
                 onPin: function() {
                     $(".menu").removeClass("hidedPrincipalNavigation");
                     $("#nav").addClass("scrolled");
@@ -228,7 +228,7 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "headroomJqu
         //Listen to scroll to change header opacity class
         toggleScrolledClass: function() {
             var bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-            
+
 
             if (bodyScrollTop !== 0) {
                 $(this.variables.navigationId).addClass(this.variables.scrolledClass);
@@ -238,12 +238,12 @@ define(["jquery", "underscore", "enquire", "bodymovin", "headroom", "headroomJqu
             else {
                 $(this.variables.navigationId).removeClass(this.variables.scrolledClass);
                 $(this.variables.logoSelector).removeClass(this.variables.scrolledClass);
-            }      
+            }
         },
 
         checkScroll: function() {
         if ($(this.variables.navigationId).length > 0) {
-                $(window).on("scroll load resize", _.bind(this.toggleScrolledClass, this)); 
+                $(window).on("scroll load resize", _.bind(this.toggleScrolledClass, this));
             }
         },
 
