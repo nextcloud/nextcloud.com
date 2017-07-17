@@ -111,7 +111,7 @@
                 <form name="whitepaper" method="post" action="../architecture-whitepapersubmit">
                     <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper!');?><br>
                     <td colspan="2">
-                    <div class="text-center">
+                    <div class="">
                         <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
                     </div>
                     </td>

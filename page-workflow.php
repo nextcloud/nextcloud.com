@@ -81,7 +81,7 @@
                 <form name="whitepaper" method="post" action="../file-access-whitepapersubmit">
                     <p><label for="email"><?php echo $l->t('Download our free datasheet: <br /> File Access Control and Retention');?><br>
                     <td colspan="2" style="text-align:center">
-                    <div class="text-center">
+                    <div class="">
                         <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
                     </div>
                     </td>

@@ -96,7 +96,7 @@
 				<form name="whitepaper" method="post" action="../nextcloud12-whitepapersubmit">
                     <p><label for="email"><?php echo $l->t('Read <a class="hyperlink" href="https://nextcloud.com/blog/welcome-to-nextcloud-12/">our announcement blog</a> or download our free Nextcloud 12 datasheet.');?><br>
                     <td colspan="2">
-                    <div class="text-center">
+                    <div class="">
                         <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
                     </div>
                     </td>
