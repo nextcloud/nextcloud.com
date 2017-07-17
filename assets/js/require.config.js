@@ -5,6 +5,7 @@ requirejs.config({
 		jquery: ['https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min','vendor/jquery.min'],
 		jqueryUi: ['https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min', 'vendor/jquery.ui'],
 		oldJquery: ['https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min', "old/vendor/jquery-1.10.2.min"],
+		modernizr: ['https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min', 'vendor/modernizr.min'],
 		waypoints: ['https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min', 'vendor/jquery.waypoints.min'],
 		enquire: ['https://cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.6/enquire.min', "vendor/enquire"],
 		bodymovin: ['https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.7.0/bodymovin.min', "vendor/bodymovin"],

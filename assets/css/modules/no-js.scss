@@ -1,0 +1,37 @@
+.no-js body {
+  nav {
+    opacity: 1 !important;
+    .container .brand .logo:not(.scrolled):not(.menu-open) {
+      background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
+      background-position-x: -4620px;
+    }
+
+    .container .nav__sections .nav__section .nav__links {
+      background-color: white;
+
+      .nav__item a {
+         display: block;
+         padding: 5px 10px 0 10px;
+         font-size: 16px;
+       }
+    }
+  }
+
+  .revealOnScroll {
+    opacity: 1;
+  }
+
+  .toptext {
+    opacity: 1;
+  }
+
+  .topbanner {
+    opacity: 1;
+  }
+  .background {
+    opacity: 1 !important;
+  }
+  .background .topheader {
+    opacity: 1;
+  }
+}
