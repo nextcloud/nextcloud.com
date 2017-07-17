@@ -4,6 +4,9 @@
 @import "modules/no-js";
 @import "modules/alerts";
 
+/* Please don't remove, useful for testing. */
+/* * {border:1px solid red} */
+
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
@@ -790,7 +793,7 @@ li {
 /* A nice looking block quote */
 blockquote {
   background: none;
-  margin: 1.5em 10px;
+/*   margin: 1.5em 10px; */
   padding: 0.5em 10px;
   quotes: "“" "”" "‘" "’";
   border-left: none;
@@ -816,9 +819,38 @@ blockquote {
 
 /* New widest container for headers */
 .container-widest {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1800px; }
+	max-width: 1800px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	@media (min-width: 768px) {
+		.container-widest {
+		width: 738px;
+	}
+	}
+	@media (min-width: 992px) {
+	.container-widest {
+		width: 962px;
+		}
+	}
+	@media (min-width: 1200px) {
+	.container-widest {
+		width: 1170px;
+		}
+	}
+	@media (min-width: 1500px) {
+	.container-widest {
+		width: 1470px;
+		}
+	}
+	@media (min-width: 1800px) {
+	.container-widest {
+		width: 1770px;
+		}
+	}
+
+}
 
 /* typical background images (hero section) like enterprise, security */
 .background {
@@ -1137,13 +1169,14 @@ blockquote {
 }
 
 /* Whitepaper sections */
-.section--whitepaper {
+.section--whitepaper, .whitepaper {
 	padding: 0px;
 	.container {
 		padding-top: 80px;
 		padding-bottom: 80px;
 		position: relative;
 	}
+
 /*    .button:hover {
         background-color: #0073B2;
         text-decoration: none;
