@@ -1672,23 +1672,23 @@ blockquote:after {
           right: 15px; }
       .button--arrow.button--blue:before {
           background: url(../img/common/arrow_right.svg) center/contain no-repeat; }*/ }
-  .section--whitepaper .container {
+  .section--whitepaper .container, .whitepaper .container {
     padding-top: 80px;
     padding-bottom: 80px;
     position: relative; }
-  .section--whitepaper h2 {
+  .section--whitepaper h2, .whitepaper h2 {
     line-height: 1 !important; }
-  .section--whitepaper label {
+  .section--whitepaper label, .whitepaper label {
     margin-top: 20px; }
-  .section--whitepaper .row {
+  .section--whitepaper .row, .whitepaper .row {
     margin-top: 15px;
     padding-top: 0px; }
-  .section--whitepaper img {
+  .section--whitepaper img, .whitepaper img {
     position: absolute;
     bottom: 0;
     right: 0;
     height: 350px; }
-  .section--whitepaper .button {
+  .section--whitepaper .button, .whitepaper .button {
     height: 40px;
     line-height: 40px;
     margin-left: 20px;
@@ -1709,28 +1709,28 @@ blockquote:after {
     /*         margin-right: auto !important; */
     display: inline-block !important; }
   @media (max-width: 1200px) {
-    .section--whitepaper img {
+    .section--whitepaper img, .whitepaper img {
       position: relative;
       width: 30vw;
       height: auto;
       margin-left: 30vw; }
-    .section--whitepaper .col-lg-8 {
+    .section--whitepaper .col-lg-8, .whitepaper .col-lg-8 {
       text-align: center; } }
   @media (max-width: 991px) {
-    .section--whitepaper img {
+    .section--whitepaper img, .whitepaper img {
       position: relative;
       width: 50vw;
       height: auto;
       margin-left: 20vw; }
-    .section--whitepaper .mail {
+    .section--whitepaper .mail, .whitepaper .mail {
       width: 100%;
       max-width: 400px; } }
-  .section--whitepaper .wp-center img {
+  .section--whitepaper .wp-center img, .whitepaper .wp-center img {
     position: relative;
     width: auto;
     height: 250px;
     margin-left: auto; }
-  .section--whitepaper .wp-center .mail {
+  .section--whitepaper .wp-center .mail, .whitepaper .wp-center .mail {
     width: 100%;
     max-width: 500px; }
 
