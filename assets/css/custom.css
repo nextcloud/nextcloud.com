@@ -1648,7 +1648,7 @@ blockquote:after {
     padding-top: 26%; } }
 /* Blue call to action bar */
 .quote {
-  padding: 0 0 30px 0;
+  padding: 80px 0 80px 0;
   background: #0082c9;
   /*	.button {
   	}*/ }
@@ -1661,6 +1661,7 @@ blockquote:after {
 
 /* Whitepaper sections */
 .section--whitepaper, .whitepaper {
+  padding: 0px;
   /*    .button:hover {
           background-color: #0073B2;
           text-decoration: none;
@@ -1671,18 +1672,67 @@ blockquote:after {
           right: 15px; }
       .button--arrow.button--blue:before {
           background: url(../img/common/arrow_right.svg) center/contain no-repeat; }*/ }
+  .section--whitepaper .container, .whitepaper .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative; }
+  .section--whitepaper h2, .whitepaper h2 {
+    line-height: 1 !important; }
+  .section--whitepaper label, .whitepaper label {
+    margin-top: 20px; }
+  .section--whitepaper .row, .whitepaper .row {
+    margin-top: 15px;
+    padding-top: 0px; }
+  .section--whitepaper img, .whitepaper img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 350px; }
+  .section--whitepaper .button, .whitepaper .button {
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px; }
   .section--whitepaper .mail, .whitepaper .mail {
-    border-radius: 20px;
+    height: 40px;
+    border-radius: 40px;
     border-style: solid;
     border-color: lightgray;
     border-width: thin;
     padding: 8px;
     margin-top: 15px;
-    color: #757575; }
+    color: #757575;
+    width: 50%; }
   .section--whitepaper .g-recaptcha, .whitepaper .g-recaptcha {
-    margin-left: auto !important;
-    margin-right: auto !important;
+    /*         margin-left: auto !important; */
+    /*         margin-right: auto !important; */
     display: inline-block !important; }
+  @media (max-width: 1200px) {
+    .section--whitepaper img, .whitepaper img {
+      position: relative;
+      width: 30vw;
+      height: auto;
+      margin-left: 30vw; }
+    .section--whitepaper .col-lg-8, .whitepaper .col-lg-8 {
+      text-align: center; } }
+  @media (max-width: 991px) {
+    .section--whitepaper img, .whitepaper img {
+      position: relative;
+      width: 50vw;
+      height: auto;
+      margin-left: 20vw; }
+    .section--whitepaper .mail, .whitepaper .mail {
+      width: 100%;
+      max-width: 400px; } }
+  .section--whitepaper .wp-center img, .whitepaper .wp-center img {
+    position: relative;
+    width: auto;
+    height: 250px;
+    margin-left: auto; }
+  .section--whitepaper .wp-center .mail, .whitepaper .wp-center .mail {
+    width: 100%;
+    max-width: 500px; }
 
 /*# sourceMappingURL=custom.scss.map */
 

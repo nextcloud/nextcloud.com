@@ -15,7 +15,7 @@
 <div class="row">
     <div class="col-md-10 col-md-offset-1">
 <h2>Nextcloud Privacy Policy</h2>
-<p>This privacy policy has been compiled to better serve those who are concerned with how their 'Personally identifiable information' (PII) is being used online. PII, as used in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.</p>
+<p>This privacy policy has been compiled to better serve those who are concerned with how their 'Personally identifiable information' (PII) is being used online. PII, as used in privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.</p>
 <h3>What personal information do we collect from the people that visit our blog, website or app?</h3>
 <p>When registering or submitting a form on our site, as appropriate, you may be asked to enter your name, email address, phone number or other details to help you with your experience.</p>
 <h3>When do we collect information?</h3>
@@ -29,18 +29,18 @@
 	<li>To follow up with them after correspondence (live chat, email or phone inquiries)</li>
 </ul>
 <h3>How do we protect visitor information?</h3>
-<p>We only provide articles and information. We never ask for credit card numbers.</p>
+<p>We only provide articles, white papers and other information. We never ask for credit card numbers.</p>
 <p>We use regular Malware Scanning.</p>
 <p>Your personal information is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems, and are required to keep the information confidential. In addition, all sensitive information you supply is encrypted via Secure Socket Layer (SSL) technology.</p>
-<p>We implement a variety of security measures when a user places an order enters, submits, or accesses their information to maintain the safety of your personal information.</p>
+<p>We implement a variety of security measures when a user places an order and enters, submits, or accesses their information to maintain the safety of your personal information.</p>
 <h3>Do we use 'cookies'?</h3>
-<p>Yes. Cookies are small files that a site or its service provider transfers to your computer's hard drive through your Web browser (if you allow) that enables the site's or service provider's systems to recognize your browser and capture and remember certain information. For instance, we use cookies to help us remember and process the items in your shopping cart. They are also used to help us understand your preferences based on previous or current site activity, which enables us to provide you with improved services. We also use cookies to help us compile aggregate data about site traffic and site interaction so that we can offer better site experiences and tools in the future.</p>
+<p>Yes. Cookies are small files that a site or its service provider transfers to your computer's hard drive through your Web browser (if you allow) that enables the site's or service provider's systems to recognize your browser and capture and remember certain information. Cookies are used to help us understand your preferences based on previous or current site activity, which enables us to provide you with improved services. We also use cookies to help us compile aggregate data about site traffic and site interaction so that we can offer better site experiences and tools in the future.</p>
 <p>We use cookies to:</p>
 <ul>
 <li>Understand and save user's preferences for future visits.</li>
-<li>Compile aggregate data about site traffic and site interactions in order to offer better site experiences and tools in the future. We may also use trusted third-party services that track this information on our behalf.</li>
+<li>Compile aggregate data about site traffic and site interactions in order to offer better site experiences and tools in the future. We do not use third-party services (like Google Analytics) that track this information on our behalf.</li>
 </ul>
-<p>You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser (like Internet Explorer) settings. Each browser is a little different, so look at your browser's Help menu to learn the correct way to modify your cookies settings.</p>
+<p>You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser (like Internet Explorer or firefox) settings. Each browser is a little different, so look at your browser's Help menu to learn the correct way to modify your cookies settings.</p>
 <p>If you disable cookies, some minor features might be disabled.</p>
 <h3>Third-party disclosure</h3>
 <p>We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information unless we provide users with advance notice. This does not include website hosting partners and other parties who assist us in operating our website, conducting our business, or serving our users, so long as those parties agree to keep this information confidential. We may also release information when its release is appropriate to comply with the law, enforce our site policies, or protect ours or others' rights, property or safety.<br />
@@ -61,7 +61,7 @@ However, non-personally identifiable visitor information may be provided to othe
 <p>We honor do not track signals and do not track, plant cookies, or use advertising when a Do Not Track (DNT) browser mechanism is in place.</p>
 
 <h3>Does our site allow third-party behavioral tracking?</h3>
-<p>We do not allow or employ third-party behavioral tracking. Our website features no third party ads.</p>
+<p>We do not allow or employ third-party behavioral tracking. Our website features no third party ads or tracking tools.</p>
 <h3>Fair Information Practices</h3>
 <p>The Fair Information Practices Principles form the backbone of privacy law in the United States and the concepts they include have played a significant role in the development of data protection laws around the globe. Understanding the Fair Information Practice Principles and how they should be implemented is critical to comply with the various privacy laws that protect personal information.</p>
 <p>In order to be in line with Fair Information Practices, should a data breach occur we will notify the users via email within 7 business days</p>
@@ -84,7 +84,7 @@ However, non-personally identifiable visitor information may be provided to othe
 <p>If at any time you would like to unsubscribe from receiving future emails follow the instructions at the bottom of each email and we will promptly remove you from <strong>ALL</strong> correspondence.</p>
 
 <h3>Website source</h3>
-<p>The source code of the website is a fork of <a href="https://github.com/owncloud/owncloud.org">this code</a> and our current code can be found in <a href="https://github.com/nextcloud/nextcloud.com">our GitHub</a>. It is licensed under the <a href="https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License">AGPLv3 license</a>.</p>
+<p>The source code of the website can be found in <a href="https://github.com/nextcloud/nextcloud.com">our GitHub repo</a>. It is licensed under the <a href="https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License">AGPLv3 license</a>.</p>
 
 <h2>Contact</h2>
 <p>If there are any questions regarding this privacy policy you may contact us using the information below.</p>
@@ -104,7 +104,7 @@ Frank Karlitschek<br/>
 </p>
 <p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
 
-<p>Last Edited on 2017-05-13</p>
+<p>Last Edited on 2017-07-17</p>
 
     </div>
 </div>

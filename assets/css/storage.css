@@ -10,36 +10,25 @@
   background: url("../img/headers/storage.jpg") no-repeat;
   background-position: center;
   background-size: cover;
-  margin-bottom: 50px; }
+  margin-bottom: 200px; }
 
 .image--floated {
   float: right; }
 
 section {
   margin-top: 150px;
+  /*	margin-bottom: 50px;*/
   /* 	padding: 50px 0; */ }
   section .section--paragraph__tittle {
     padding: 0; }
 
-.row {
-  margin-bottom: 150px; }
+.section--storage .row {
+  margin-bottom: 100px; }
 
 .featuretitle {
   text-align: center; }
 
 footer {
   margin-top: 50px; }
-
-.quote {
-  margin: 100px 0 0 0;
-  padding: 70px;
-  padding-top: 90px;
-  background: #0082c9; }
-  .quote .row {
-    margin-bottom: 0px; }
-  .quote p {
-    color: white; }
-  .quote .hyperlink {
-    color: white; }
 
 /*# sourceMappingURL=storage.css.map */

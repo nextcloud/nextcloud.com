@@ -30,13 +30,17 @@ section {
   /*     margin-bottom: 150px; */ }
 
 .section--video {
-  margin: 100px 0 100px 0; }
+  margin: 100px 0 0 0; }
   .section--video .container {
     padding-top: ms(5);
     padding-bottom: ms(5); }
 
 .section--whitepaper {
-  margin: 100px 0 100px 0; }
+  margin: 0 0 50px 0; }
+  .section--whitepaper .button {
+    margin: 0; }
+  .section--whitepaper .button--large {
+    min-width: 240px; }
 
 .section--scalability .container {
   padding-top: ms(5);

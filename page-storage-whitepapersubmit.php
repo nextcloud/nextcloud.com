@@ -45,11 +45,12 @@ if(isset($_POST['email'])) {
 // the app review mailing list address
     $email_from = "sales@nextcloud.com";
     $email_jos = "jos@nextcloud.com";
-	$email_subject = "Nextcloud Global Scale Whitepaper download";
+	$email_subject = "Nextcloud Windows Network Drive and Sharepoint datasheet download";
     $email_message .= "\n";
-    $email_message .= "Thank you for your interest in our Global Scale whitepaper!"."\n\n";
-    $email_message .= "You can download the whitepaper here:"."\n";
-    $email_message .= "https://nextcloud.com/wp-content/themes/next/assets/files/3NLkR6bd/global-scale-whitepaper.pdf"."\n\n";
+    $email_message .= "Thank you for your interest in our external storage datasheets!"."\n\n";
+    $email_message .= "You can download the datasheets here:"."\n";
+    $email_message .= "https://nextcloud.com/wp-content/themes/next/assets/files/3NLkR6bd/wnd-datasheet.pdf"."\n";
+    $email_message .= "https://nextcloud.com/wp-content/themes/next/assets/files/3NLkR6bd/sharepoint-datasheet.pdf"."\n\n";
     $email_message .= "Your feedback is welcome. If you have any questions or if you are interested in a demo, let us know!"."\n\n";
     $email_message .= "Greetings,"."\n";
     $email_message .= "The Nextcloud team";
@@ -65,22 +66,22 @@ if(isset($_POST['email'])) {
 
     <!-- success html here -->
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/globalscale.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/storage.css" rel="stylesheet">
 </head>
-<div class="background globalscale-background">
+<div class="background storage-background">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Global Scale');?></h1>
-				<h2><?php echo $l->t('Extreme scalability at commodity cost');?></p>
+				<h1><?php echo $l->t('Secure access to your data anywhere');?></h1>
+				<h2><?php echo $l->t('Avoid migration and access your files wherever they are stored');?></p>
 			</div>
 		</div>
 	</div>
 </div>
 <section class="section--whitepaper">
     <div class="container text-center">
-        <h3>Thank you for your interest in our whitepaper</h3>
-        <p>The whitepaper has been sent to <?php echo $email_to ?>,</p>
+        <h3>Thank you for your interest in our datasheets</h3>
+        <p>The datasheets have been sent to <?php echo $email_to ?>,</p>
         <p>check your spam folder if you can not find it!</p>
     </div>
 </section>

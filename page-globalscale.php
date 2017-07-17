@@ -42,14 +42,15 @@ require(["require.config"], function() {
 <section class="section--whitepaper">
 	<div class="container text-center revealOnScroll">
 	<div class="row">
-    <div class="col-md-offset-4 col-md-4">
+    <div class="col-md-offset-4 col-md-4 wp-center">
         <p>
 <!-- 		<a href="<?php echo get_template_directory_uri(); ?>/assets/files/global-scale-whitepaper.pdf" class="button button--blue button--large button--arrow"><?php echo $l->t('Download our whitepaper');?> <i class="icon-arrow-circle-o-right icon"></i></a> -->
+            <div class="row "><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/gs-thumbnail-banner.png"/></div>
             <form name="whitepaper" method="post" action="../gs-whitepapersubmit">
                 <p><label for="email"><?php echo $l->t('Download our whitepaper!');?><br>
-                <input class="mail" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
-                <td colspan="2" style="text-align:center">
-                <div class="row">
+                <input class="mail text-center" type="text" name="email" maxlength="80" placeholder="Enter your email"></label></p>
+                <td colspan="2">
+                <div class="row text-center">
                     <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
                 </div>
                 </td>
