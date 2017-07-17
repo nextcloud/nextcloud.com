@@ -194,15 +194,16 @@ require(["require.config"], function() {
         </div>
     </div>
     <div class="row whitepaper text-center revealOnScroll">
-        <div class="col-md-offset-4 col-md-4">
+        <div class="col-md-offset-4 col-md-4 wp-center">
             <p>
-                <form name="whitepaper" method="post" action="../architecture-whitepapersubmit">
-                    <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper');?><br>
-                    <input class="mail" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
-                    <td colspan="2" style="text-align:center">
-                    <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                    <input class="button button--blue button--large" type="submit" value=" Get the whitepaper ">
-                </form>
+            <div class="row "><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/architecture-thumbnail-banner.png"/></div>
+            <form name="whitepaper" method="post" action="../architecture-whitepapersubmit">
+                <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper');?><br>
+                <input class="mail text-center" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
+                <td colspan="2">
+                <div class="g-recaptcha text-center" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                <input class="button button--blue button--large" type="submit" value=" Get the whitepaper ">
+            </form>
             </p>
         </div>
     </div>
