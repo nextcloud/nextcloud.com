@@ -1631,8 +1631,8 @@ blockquote:after {
     color: #757575;
     width: 50%; }
   .section--whitepaper .g-recaptcha {
-    margin-left: auto !important;
-    margin-right: auto !important;
+    /*         margin-left: auto !important; */
+    /*         margin-right: auto !important; */
     display: inline-block !important; }
   @media (max-width: 1200px) {
     .section--whitepaper img {

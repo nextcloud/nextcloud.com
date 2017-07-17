@@ -47,7 +47,7 @@ require(["require.config"], function() {
 <!-- 		<a href="<?php echo get_template_directory_uri(); ?>/assets/files/global-scale-whitepaper.pdf" class="button button--blue button--large button--arrow"><?php echo $l->t('Download our whitepaper');?> <i class="icon-arrow-circle-o-right icon"></i></a> -->
             <div class="row "><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/gs-thumbnail-banner.png"/></div>
             <form name="whitepaper" method="post" action="../gs-whitepapersubmit">
-                <p><label for="email"><?php echo $l->t('Download our whitepaper!');?><br>
+                <p><label for="email text-center"><?php echo $l->t('Download our whitepaper!');?><br>
                 <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label></p>
                 <td colspan="2">
                 <div class="row text-center">
