@@ -1701,7 +1701,7 @@ blockquote:after {
     border-color: lightgray;
     border-width: thin;
     padding: 8px;
-    margin-top: 15px;
+    /*         margin-top: 15px; */
     color: #757575;
     width: 50%; }
   .section--whitepaper .g-recaptcha, .whitepaper .g-recaptcha {
