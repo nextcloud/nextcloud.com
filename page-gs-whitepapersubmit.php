@@ -80,7 +80,7 @@ if(isset($_POST['email'])) {
 <section class="section--whitepaper">
     <div class="container text-center">
         <h3>Thank you for your interest in our whitepaper</h3>
-        <p>The whitepaper has been sent to <?php echo $email_to ?>,</p>
+        <p>The whitepaper has been sent to <?php echo htmlentities($email_to) ?>,</p>
         <p>check your spam folder if you can not find it!</p>
     </div>
 </section>
