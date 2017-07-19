@@ -66,7 +66,28 @@ require(["require.config"], function() {
     </div>
 </div>
 </section>
-<div class="separator"></div>
+
+
+
+<section class="section--whitepaper quote">
+	<div class="container revealOnScroll">
+        <div class="row">
+			<div class="col-lg-8">
+                <h2 class="revealOnScroll"><?php echo $l->t('How the TU Berlin delivers file sync and share to 22.000 users');?></h2>
+                <form name="whitepaper" method="post" action="../tuberlin-whitepapersubmit">
+                    <p><label for="email"><?php echo $l->t('Download our free case study: <br /> TU Berlin and 9 other institutions migrate from ownCloud to Nextcloud');?><br>
+                    <td colspan="2" style="text-align:center">
+                    <div class="">
+                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                    </div>
+                    </td>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large" type="submit" value=" Get the datasheet "></p>
+                </form>
+            </div>
+        </div>
+        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/tub-thumbnail-banner.png"/>
+	</div>
+</section>
 
 <a name="easy"></a>
 <section class="section--easy">
