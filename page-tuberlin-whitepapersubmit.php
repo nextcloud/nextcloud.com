@@ -45,7 +45,7 @@ if(isset($_POST['email'])) {
 // the app review mailing list address
     $email_from = "sales@nextcloud.com";
     $email_jos = "jos@nextcloud.com";
-	$email_subject = "TU Berlin Casestudy download";
+	$email_subject = "TU Berlin Case study download";
     $email_message .= "\n";
     $email_message .= "Thank you for your interest in this case study!"."\n\n";
     $email_message .= "You can download the case study here:"."\n";
