@@ -1485,10 +1485,13 @@ pluralize@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-4.0.0.tgz#59b708c1c0190a2f692f1c7618c446b052fd1762"
 
+<<<<<<< HEAD
 plyr@^2.0.13:
   version "2.0.13"
   resolved "https://registry.yarnpkg.com/plyr/-/plyr-2.0.13.tgz#9b726d2444fd743338c23d3c48ca3416c97712be"
 
+=======
+>>>>>>> remove vendor files from repo and starting using yarn for handling, use slim versions instead of the whole libraries
 prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"

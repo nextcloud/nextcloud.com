@@ -45,6 +45,15 @@ requirejs.config({
 		},
 		bootstrap: {
 			deps: ['jquery']
+<<<<<<< HEAD
+=======
+		},
+		youtubeplugin: {
+			deps: ['jqueryUi', 'bootstrap']
+		},
+		jqueryUi: {
+			deps: ['jquery']
+>>>>>>> remove vendor files from repo and starting using yarn for handling, use slim versions instead of the whole libraries
 		}
 	}
 });
