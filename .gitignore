@@ -9,3 +9,4 @@ l10n/
 .DS_Store
 *.kate-swp
 vendor/
+*.log
