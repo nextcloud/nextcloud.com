@@ -2,9 +2,8 @@
 requirejs.config({
 	baseURL: 'wp-content/themes/next/assets/js/',
 	paths: {
-		jquery: ['https://code.jquery.com/jquery-3.2.1.slim.min', '../../node_modules/jquery/dist/jquery.min'],
+		jquery: ['https://code.jquery.com/jquery-3.2.1.slim.min', '../../node_modules/jquery/dist/jquery.slim.min'],
 		jqueryUi: ['https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min', 'vendor/jquery.ui'],
-		oldJquery: ['https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min', 'old/vendor/jquery-1.10.2.min'],
 		modernizr: ['https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min', 'vendor/modernizr.min'],
 		waypoints: ['https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min', 'vendor/jquery.waypoints.min'],
 		enquire: ['https://cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.6/enquire.min', 'vendor/enquire'],
@@ -12,6 +11,9 @@ requirejs.config({
 		headroom: ['https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/headroom.min', 'vendor/headroom'],
 		headroomJquery: ['https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/jQuery.headroom.min', 'vendor/jquery.headroom.min'],
 		lodash: ['https://cdn.jsdelivr.net/lodash/4.17.4/lodash.core.min', '../../node_modules/lodash/core.min'],
+		TweenLite: ['../../node_modules/gsap/src/minified/TweenLite.min'],
+		TimelineLite: ['../../node_modules/gsap/src/minified/TimelineLite.min'],
+		TimelineMax: ['../../node_modules/gsap/src/minified/TimelineMax.min'],
 		velocity: ['https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min', 'vendor/velocity.min'],
 		velocityUI: ['https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.ui.min', 'vendor/velocity.ui.min'],
 		scrollMagic: ['https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min', 'vendor/ScrollMagic.min'],
@@ -38,6 +40,9 @@ requirejs.config({
 		},
 		velocityUI: {
 			deps: ['velocity']
+		},
+		TimelineMax: {
+			deps: ['TimelineLite', 'TweenLite']
 		},
 		bootstrap: {
 			deps: ['jquery']
