@@ -19,9 +19,6 @@
      },
          "globals": {
          "define": true,
-         "ENV": true,
-        "ASSETSLOCATION": true,
-        "PROTOCOL": true
      },
      "env": {
          "es6": false,
