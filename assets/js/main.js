@@ -1,12 +1,14 @@
-define(['jquery', 'lodash', 'enquire', 'velocity', 'velocityUI'],
-	function ($, _, enquire, velocity, velocityUI) {
+define(['jquery', 'lodash', 'enquire', 'TimelineMax', 'velocity', 'velocityUI'],
+	function ($, _, enquire, TimelineMax, velocity) {
 		$(document).ready(function() {
 			'use strict';
-			var defaultComponents = {
+			var main = {
 				init: function() {
 					this.variables.buttonDropdownSelector.on('click', _.bind(this.buttonDropdown, this));
+					$(window).on('scroll.fadeOnce', _.bind(this.revealOnScroll, this, event));
 					this.animationOnLoadPage();
 					this.removeRevealOnScroll();
+					this.animationOnLoadPageTimeline.play();
 				},
 
 				variables : {
@@ -39,14 +41,19 @@ define(['jquery', 'lodash', 'enquire', 'velocity', 'velocityUI'],
 					$(element).addClass('fade-in');
 				},
 
-				buttonDropdown: function (event) {
+				buttonDropdown: function() {
 					this.variables.buttonDropdownSelector.toggleClass(this.variables.activeClass);
 					this.variables.buttonDropdownContentSelector.toggleClass(this.variables.visibleClass);
 				},
 
 				animationOnLoadPage: function() {
-					$(this.variables.topHeaderSelector).velocity('transition.slideUpBigIn');
-					$(this.variables.heroSectionBackgroundSelector).velocity('transition.fadeIn', 1000);
+					this.animationOnLoadPageTimeline = TimelineMax({paused: true});
+					var stuff = $(this.variables.topHeaderSelector);
+
+
+					this.animationOnLoadPageTimeline.to(stuff, 1, {x: 50, autoAlpha: 1});
+					// $(this.variables.topHeaderSelector).velocity('transition.slideUpBigIn');
+					// $(this.variables.heroSectionBackgroundSelector).velocity('transition.fadeIn', 1000);
 				},
 
 				smoothScroll: function() {
@@ -66,17 +73,17 @@ define(['jquery', 'lodash', 'enquire', 'velocity', 'velocityUI'],
 						}
 					});
 				},
-			};
-			defaultComponents.init();
-		});
 
-		$(window).on('scroll.fadeOnce', function(event) {
-			var scrollTop = $(this).scrollTop();
-			$('.revealOnScroll:not(.fade-in)').each(function(index, element) {
-				var selectorOffset = $(element).offset();
-				if (scrollTop + window.innerHeight - 100 > selectorOffset.top) {
-					$(element).addClass('fade-in').velocity('transition.slideUpIn');
-				}
-			});
+				revealOnScroll: function() {
+					var scrollTop = $(window).scrollTop();
+					$('.revealOnScroll:not(.fade-in)').each(function(index, element) {
+						var selectorOffset = $(element).offset();
+						if (scrollTop + window.innerHeight - 100 > selectorOffset.top) {
+							$(element).addClass('fade-in').velocity('transition.slideUpIn');
+						}
+					});
+				},
+			};
+			main.init();
 		});
 	});
