@@ -18,12 +18,13 @@
 // Importing modules
 @import 'variables';
 @import 'modules/normalize';
+@import 'modules/typography';
 @import 'modules/no-js';
 @import 'modules/alerts';
 @import 'modules/header';
 @import 'modules/slideshow';
 @import 'modules/secondmenu';
-@import 'modules/typography';
+@import 'modules/hero';
 
 
 // To remove everything above and split in other files
@@ -879,37 +880,6 @@ blockquote {
 	}
 
 }
-
-/* typical background images (hero section) like enterprise, security */
-.background {
-  padding-bottom: 0;
-  padding-top: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 0 !important;
-  height: 70vh;
-  min-height: 600px;
-  max-height: 800px;
-  position: relative;
-  opacity: 0; }
-  .background h1 {
-    padding-top: 0;
-    color: white; }
-  .background h2 {
-    color: white;
-    font-size: 20px;
-    line-height: 1.6;
-	text-shadow: 0px 0px 10px #333; }
-  .background .topheader {
-    position: absolute;
-    top: 30%;
-    margin: 0;
-    padding: 0;
-    max-width: 600px;
-    opacity: 0; }
-    @media (max-width: 991px) {
-      .background .topheader {
-        padding-left: 5%; } }
 
 .btn-primary {
   background-color: $nextcloud-blue;

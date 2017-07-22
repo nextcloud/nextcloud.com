@@ -13,6 +13,7 @@
     "jquery": "^3.2.1",
     "lodash": "^4.17.4",
     "modernizr": "^3.5.0",
+    "plyr": "^2.0.13",
     "requirejs": "^2.3.3",
     "scrollmagic": "^2.0.5"
   }
