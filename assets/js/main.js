@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
-=======
-define(['jquery', 'lodash', 'enquire', 'TweenMax'],
->>>>>>> update home, remove trash and organize scss files by pages
 	function ($, _, enquire, TweenMax) {
 		$(document).ready(function() {
 			'use strict';
@@ -61,22 +57,12 @@ define(['jquery', 'lodash', 'enquire', 'TweenMax'],
 				},
 
 				animationOnLoadPage: function() {
-<<<<<<< HEAD
 					var animationOnLoadPageTimeline = new TimelineMax ();
 
 					animationOnLoadPageTimeline.to($(this.variables.topHeaderSelector), 1, {autoAlpha: 1});
 					animationOnLoadPageTimeline.to($(this.variables.heroSectionBackgroundSelector), 1, {autoAlpha: 1});
 					animationOnLoadPageTimeline.to($(this.variables.heroHeading), 1, {y:0 , autoAlpha: 1});
 					animationOnLoadPageTimeline.to($(this.variables.heroSubtitle), 1, {y:0 , autoAlpha: 1}, '-= 0.6');
-=======
-					this.animationOnLoadPageTimeline = new TimelineMax ({paused: true});
-					var stuff = $(this.variables.topHeaderSelector);
-
-
-					this.animationOnLoadPageTimeline.to(stuff, 1, {y: 50, autoAlpha: 1});
-					// $(this.variables.topHeaderSelector).velocity('transition.slideUpBigIn');
-					// $(this.variables.heroSectionBackgroundSelector).velocity('transition.fadeIn', 1000);
->>>>>>> update home, remove trash and organize scss files by pages
 				},
 
 				smoothScroll: function() {

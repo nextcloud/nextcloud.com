@@ -1,5 +1,5 @@
-@import "variables.scss";
-@import "transparent-navbar.scss";
+@import "../variables.scss";
+@import "../transparent-navbar.scss";
 
 /* background */
 .collabora-background {
@@ -105,10 +105,9 @@ pre {
     h1 {
             color: white;
 			margin-top: 40px;
-			margin-bottom: 30px; 
+			margin-bottom: 30px;
     }
     a {
             color: white;
     }
 }
-
