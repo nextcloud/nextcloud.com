@@ -1,5 +1,5 @@
-@import "variables.scss";
-@import "transparent-navbar.scss";
+@import "../variables.scss";
+@import "../transparent-navbar.scss";
 
 .contributors-background {
   background: url("../img/headers/contributors.jpg") no-repeat;
@@ -29,7 +29,7 @@ footer.page-footer {
 			text-align: left !important;
 		}
 	}
-	
+
 	blockquote {
 		float: right;
 	}
@@ -42,7 +42,7 @@ footer.page-footer {
 		position: relative;
 	}
 
-	.contribtext { 
+	.contribtext {
 		transition: all .5s;
 		background-color: #0082C9;
 		border-radius: 50%;

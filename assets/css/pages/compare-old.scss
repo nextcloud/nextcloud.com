@@ -1,5 +1,5 @@
-@import "variables.scss";
-@import "transparent-navbar.scss";
+@import "../variables.scss";
+@import "../transparent-navbar.scss";
 
 .cd-products-comparison-table {
 	/*   overflow-x: auto; */
@@ -193,23 +193,19 @@
   .cd-products-table.top-fixed .cd-products-columns > li {
     padding-top: 160px;
   }
- 
+
   .cd-products-table.top-fixed .cd-top-info {
     height: 160px;
     position: fixed;
     top: 0;
   }
- 
+
   .cd-products-table.top-fixed .cd-top-info h3 {
     transform: translateY(-116px);
   }
-  
+
   .cd-products-table.top-fixed .cd-top-info img {
     transform: translateY(-62px) scale(0.4);
   }
- 
+
 }
-
-
-
-
