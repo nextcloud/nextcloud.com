@@ -8,11 +8,12 @@ define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
 					$(window).on('scroll.fadeOnce', _.bind(this.revealOnScroll, this, event));
 					this.animationOnLoadPage();
 					this.removeRevealOnScroll();
-					this.animationOnLoadPageTimeline.play();
 				},
 
 				variables: {
 					topHeaderSelector: '.topheader',
+					heroHeading: '.topheader h1',
+					heroSubtitle: '.topheader h2',
 					heroSectionBackgroundSelector: '.background',
 					buttonDropdownSelector: $('.button--dropdown'),
 					buttonDropdownContentSelector: $('.dropdown-content'),
@@ -47,13 +48,12 @@ define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
 				},
 
 				animationOnLoadPage: function() {
-					this.animationOnLoadPageTimeline = new TimelineMax ({paused: true});
-					var stuff = $(this.variables.topHeaderSelector);
+					var animationOnLoadPageTimeline = new TimelineMax ();
 
-
-					this.animationOnLoadPageTimeline.to(stuff, 1, {y: 50, autoAlpha: 1});
-					// $(this.variables.topHeaderSelector).velocity('transition.slideUpBigIn');
-					// $(this.variables.heroSectionBackgroundSelector).velocity('transition.fadeIn', 1000);
+					animationOnLoadPageTimeline.to($(this.variables.topHeaderSelector), 1, {autoAlpha: 1});
+					animationOnLoadPageTimeline.to($(this.variables.heroSectionBackgroundSelector), 1, {autoAlpha: 1});
+					animationOnLoadPageTimeline.to($(this.variables.heroHeading), 1, {y:0 , autoAlpha: 1});
+					animationOnLoadPageTimeline.to($(this.variables.heroSubtitle), 1, {y:0 , autoAlpha: 1}, '-= 0.6');
 				},
 
 				smoothScroll: function() {
