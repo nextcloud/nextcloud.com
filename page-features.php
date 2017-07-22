@@ -49,11 +49,7 @@
 	<a name="files" id="files"></a>
 	<div class="container">
 		<div class="col-md-6 revealOnScroll image--floated">
-<<<<<<< HEAD
 			<div data-type="youtube" data-video-id="Fe1I7wYW6hA"></div>
-=======
-			<div class="youtube" data-type="youtube" data-video-id="Fe1I7wYW6hA"></div>
->>>>>>> created a youtubeplayer and finish features page
 		</div>
 		<div class="col-md-6 revealOnScroll feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Share with others on your terms.');?></p>
