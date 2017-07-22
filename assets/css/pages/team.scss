@@ -1,5 +1,5 @@
-@import "variables.scss";
-@import "transparent-navbar.scss";
+@import "../variables.scss";
+@import "../transparent-navbar.scss";
 
 .team-background {
   background: url("../img/headers/enterprise-team.jpg") no-repeat;
@@ -29,8 +29,8 @@ footer.page-footer {
 			text-align: left !important;
 		}
 	}
-	
-	
+
+
 	.teamgroup {
 		padding-top:100px;
 		width: 95%;
@@ -74,11 +74,11 @@ footer.page-footer {
 	h4 {
 		color: #9c9c9c;
 	}
-	
+
 	.teamexpertise {
 		margin: 2px;
 		font-size: 14px;
-	
+
 	}
 
 	.teamlocation {
@@ -161,4 +161,3 @@ footer.page-footer {
 		color: white;
 	}
 }
-
