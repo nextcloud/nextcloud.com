@@ -43,9 +43,10 @@ requirejs.config({
 		velocityUI: {
 			deps: ['velocity']
 		},
-		TimelineMax: {
-			deps: ['TimelineLite', 'TweenLite']
-		},
+		// TimelineMax: {
+		// 	deps: ['TimelineLite', 'TweenLite', 'easingEase'],
+		// 	exports: 'TimelineMax'
+		// },
 		bootstrap: {
 			deps: ['jquery']
 		}

@@ -1,8 +1,11 @@
-@import '../variables';
-@import '../modules/transparent-navbar';
+@import "variables.scss";
+@import "transparent-navbar.scss";
 
 .support-background {
-  background: url("../../img/headers/support.jpg") no-repeat;
+  background: url("../img/headers/support.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
+
+
+

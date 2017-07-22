@@ -1,11 +1,11 @@
-@import '../variables';
-@import '../modules/transparent-navbar';
+@import "variables.scss";
+@import "transparent-navbar.scss";
 
 .storage-background {
-	background: url('../../img/headers/storage.jpg') no-repeat;
-	background-position: center;
-	background-size: cover;
-	margin-bottom: 200px;
+  background: url("../img/headers/storage.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 200px;
 }
 
 .image--floated{
@@ -14,6 +14,8 @@
 
 section {
 	margin-top: 150px;
+/*	margin-bottom: 50px;*/
+/* 	padding: 50px 0; */
 
 	.section--paragraph__tittle {
 		padding: 0;
@@ -27,13 +29,14 @@ section {
 }
 
 .featuretitle {
-	text-align: center;
+    text-align: center;
 }
 
 footer {
-	margin-top: 50px;
+    margin-top: 50px;
 }
 
 .section--whitepaper {
 
 }
+
