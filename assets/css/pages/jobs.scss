@@ -1,5 +1,5 @@
-@import "../variables.scss";
-@import "../transparent-navbar.scss";
+@import '../variables';
+@import '../modules/transparent-navbar';
 
 .jobs-background {
   background: url("../img/headers/team.jpg") no-repeat center;
