@@ -1,6 +1,5 @@
-@import "../variables.scss";
-@import "../transparent-navbar.scss";
-
+@import '../variables';
+@import '../modules/transparent-navbar';
 .conf-background {
   background: url("../img/headers/team.jpg") no-repeat;
   background-position: center;

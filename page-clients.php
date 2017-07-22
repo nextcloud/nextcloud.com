@@ -1,12 +1,12 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/clients.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/clients.css" rel="stylesheet">
 <!--<script>
 	require(["require.config"], function() {
 		require(["pages/clients"])
 	});
 </script>-->
 </head>
-<div class="background clients-background"> 
+<div class="background clients-background">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
@@ -30,7 +30,7 @@
 			<p class="section--paragraph"><?php echo $l->t('The desktop client will also notify you when something happens on your private cloud, for example if you receive a new share or get an audio/video call. You can see a history of what happened with your files in the Activity overview.');?></p>
 <!-- 			<a href="install/#install-clients" class="button button--blue button--arrow button--large"><?php echo $l->t('Get the desktop client');?></a> -->
 		</div>
-	</div>	
+	</div>
 </section>
 
 <section class="section--mobile">
@@ -45,5 +45,5 @@
 			<p class="section--paragraph"><?php echo $l->t('You can rename, delete and move files, view images and documents. The clients handle multiple accounts and show activity happening on your server, notifying you of new events such as the availability of new shares or a audio/video call.');?></p>
 			<a href="install/#install-clients" class="button button--blue button--arrow button--large"><?php echo $l->t('Get the clients');?></a>
 		</div>
-	</div>	
+	</div>
 </section>

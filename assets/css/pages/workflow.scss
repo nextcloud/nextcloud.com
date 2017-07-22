@@ -1,13 +1,17 @@
-@import "../variables.scss";
-@import "../transparent-navbar.scss";
+@import '../variables';
+@import '../modules/transparent-navbar';
 
 .workflow-background {
-  background: url("../img/headers/workflow.jpg") no-repeat;
+  background: url('../../img/headers/workflow.jpg') no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.image--floated{
+.col-md-8 p {
+  text-align: center;
+}
+
+.image--floated {
 	float: right;
 }
 

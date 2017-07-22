@@ -1,10 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/storage.css" rel="stylesheet">
-<!--<script>
-	require(["require.config"], function() {
-		require(["pages/clients"])
-	});
-</script>-->
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/storage.css" rel="stylesheet">
 <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <div class="background storage-background">
@@ -80,8 +75,8 @@
 <div class="container-fluid quote">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 featureblock text-center revealOnScroll">
-				<p class="section--paragraph"><?php echo $l->t('Contact our sales team if you want to know about support for your enterprise storage technology and integration in Nextcloud.');?></p>
+			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
+				<p class="section--paragraph text-center"><?php echo $l->t('Contact our sales team if you want to know about support for your enterprise storage technology and integration in Nextcloud.');?></p>
 				<div class="text-center morebuttondiv">
 					<a href="/buy" class="button button--large button--arrow"><?php echo $l->t('Contact sales');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
