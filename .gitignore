@@ -10,3 +10,5 @@ l10n/
 *.kate-swp
 vendor/
 *.log
+*.css
+!.scss
