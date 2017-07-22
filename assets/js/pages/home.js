@@ -1,14 +1,32 @@
-define(['jquery', 'lodash', 'waypoints', 'velocity', 'bodymovin', 'velocityUI'],
-	function ($, _, waypoints, Velocity, bodymovin) {
+define(['jquery', 'lodash', 'waypoints', 'TweenMax', 'bodymovin'],
+	function ($, _, waypoints, TweenMax, bodymovin) {
 		$(document).ready(function() {
 			'use strict';
 			var homePage = {
 				init: function() {
 					this.svgAnimationsHandler();
+					this.heroAnimation();
+				},
+
+				variables: {
+					heroHeading: '.jumbotron--heading-1',
+					heroSubtitle: '.jumbotron--lead',
+					heroImage: '.topbanner',
+					heroAnnounce: '.announcement',
+					heroButton: '.toptext .button',
+				},
+
+				heroAnimation: function () {
+					var heroTimeline = new TimelineMax ();
+
+					heroTimeline.to($(this.variables.heroHeading), 1, {y:0 , autoAlpha: 1});
+					heroTimeline.to($(this.variables.heroSubtitle), 1, {y:0 , autoAlpha: 1}, '-= 0.6');
+					heroTimeline.to($(this.variables.heroButton), 1, {y:0 , autoAlpha: 1}, '-= 0.6');
+					heroTimeline.to($(this.variables.heroImage), 1, {y:0 , autoAlpha: 1}, '-= 1');
+					heroTimeline.to($(this.variables.heroAnnounce), 1, {x:0 , autoAlpha: 1}, '-= 1');
 				},
 
 				svgAnimationsHandler: function() {
-
 					var elements = [
 						'community',
 						'privacy',
