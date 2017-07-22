@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script>
 	require(["require.config"], function() {
-		require()
+		require(["modules/youtubePlayer"])
 	});
 </script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
@@ -49,7 +49,11 @@
 	<a name="files" id="files"></a>
 	<div class="container">
 		<div class="col-md-6 revealOnScroll image--floated">
+<<<<<<< HEAD
 			<div data-type="youtube" data-video-id="Fe1I7wYW6hA"></div>
+=======
+			<div class="youtube" data-type="youtube" data-video-id="Fe1I7wYW6hA"></div>
+>>>>>>> created a youtubeplayer and finish features page
 		</div>
 		<div class="col-md-6 revealOnScroll feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Share with others on your terms.');?></p>

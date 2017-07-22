@@ -8,7 +8,6 @@ define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
 					$(window).on('scroll.fadeOnce', _.bind(this.revealOnScroll, this, event));
 					this.animationOnLoadPage();
 					this.removeRevealOnScroll();
-					this.consoleMessage();
 				},
 
 				variables: {
