@@ -11,9 +11,11 @@ requirejs.config({
 		headroom: ['https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/headroom.min', 'vendor/headroom'],
 		headroomJquery: ['https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/jQuery.headroom.min', 'vendor/jquery.headroom.min'],
 		lodash: ['https://cdn.jsdelivr.net/lodash/4.17.4/lodash.core.min', '../../node_modules/lodash/core.min'],
-		TweenLite: ['../../node_modules/gsap/src/minified/TweenLite.min'],
-		TimelineLite: ['../../node_modules/gsap/src/minified/TimelineLite.min'],
-		TimelineMax: ['../../node_modules/gsap/src/minified/TimelineMax.min'],
+		TweenLite: ['https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenLite.min', '../../node_modules/gsap/src/minified/TweenLite.min'],
+		TimelineLite: ['https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TimelineLite.min', '../../node_modules/gsap/src/minified/TimelineLite.min'],
+		TimelineMax: ['https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TimelineMax.min', '../../node_modules/gsap/src/minified/TimelineMax.min'],
+		TweenMax: ['../../node_modules/gsap/src/minified/TweenMax.min'],
+		easingEase: ['https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/easing/EasePack.min'],
 		velocity: ['https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min', 'vendor/velocity.min'],
 		velocityUI: ['https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.ui.min', 'vendor/velocity.ui.min'],
 		scrollMagic: ['https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min', 'vendor/ScrollMagic.min'],
@@ -41,9 +43,10 @@ requirejs.config({
 		velocityUI: {
 			deps: ['velocity']
 		},
-		TimelineMax: {
-			deps: ['TimelineLite', 'TweenLite']
-		},
+		// TimelineMax: {
+		// 	deps: ['TimelineLite', 'TweenLite', 'easingEase'],
+		// 	exports: 'TimelineMax'
+		// },
 		bootstrap: {
 			deps: ['jquery']
 		},
