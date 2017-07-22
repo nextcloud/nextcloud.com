@@ -1,10 +1,8 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/sharing.css" rel="stylesheet">
-<link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
-
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/sharing.css" rel="stylesheet">
 <script>
 require(["require.config"], function() {
-	require(["pages/sharing"])
+	require(["pages/sharing", "modules/youtubePlayer"])
 });
 </script>
 </head>
@@ -23,8 +21,8 @@ require(["require.config"], function() {
 <section class="section--intro">
     <div class="container">
         <div class="row revealOnScroll">
-            <div class="col-md-8 col-md-offset-2 text-center">
-                <p class="section--paragraph"><?php echo $l->t('Sharing is who we are. At work, we share and collaborate with colleagues to get work done. At home, we share our good and our bad moments with family and friends. <span class="avoidwrap">With Nextcloud, sharing is a core part of your experience.</span>');?></p>
+            <div class="col-md-8 col-md-offset-2">
+                <p class="section--paragrapht text-center"><?php echo $l->t('Sharing is who we are. At work, we share and collaborate with colleagues to get work done. At home, we share our good and our bad moments with family and friends. <span class="avoidwrap">With Nextcloud, sharing is a core part of your experience.</span>');?></p>
             </div>
         </div>
     </div>
@@ -41,14 +39,7 @@ require(["require.config"], function() {
 
             </div>
             <div class="col-md-6">
-                <div class="yt-img-overlay">
-                    <a class="youtube" href="https://www.youtube.com/watch?v=AhFnbB-a7ik" title="File Drop in Nextcloud 12">
-                        <img  src="https://img.youtube.com/vi/AhFnbB-a7ik/hqdefault.jpg" title="File Drop in Nextcloud 12" />
-                        <div class="yt-play-btn">
-                            <i></i>
-                        </div>
-                    </a>
-                </div>
+                <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
             </div>
         </div>
         <div class="row revealOnScroll feature--block">

@@ -1,5 +1,5 @@
-@import "../variables.scss";
-@import "../modules/transparent-navbar.scss";
+@import '../variables';
+@import '../modules/transparent-navbar';
 
 
 .security-background {
@@ -353,8 +353,6 @@ section {
     }
 
 }
-
-/* Development section */
 
 .development {
     margin-top: 64px;

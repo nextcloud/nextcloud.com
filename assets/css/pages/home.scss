@@ -1,5 +1,5 @@
-@import "../variables.scss";
-@import "../modules/transparent-navbar.scss";
+@import '../variables';
+@import '../modules/transparent-navbar';
 
 .jumbotron {
   background: -webkit-gradient(linear, left top, left bottom, from($nextcloud-blue), color-stop(100%, #3e9ed8), to(#d8d8d8));
