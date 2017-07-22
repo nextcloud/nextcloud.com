@@ -1,5 +1,5 @@
-@import "variables.scss";
-@import "transparent-navbar.scss";
+@import "../variables.scss";
+@import "../transparent-navbar.scss";
 
 .partners-background {
   background: url("../img/headers/partners.jpg") no-repeat;
@@ -45,7 +45,7 @@ footer.page-footer {
 	.partnertext {
 		text-align: justify;
 	}
-		
+
 }
 /*
 .calltoaction {
@@ -66,4 +66,3 @@ footer.page-footer {
 		color: white;
 	}
 }*/
-

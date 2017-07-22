@@ -1,5 +1,5 @@
-@import "variables.scss";
-@import "transparent-navbar.scss";
+@import "../variables.scss";
+@import "../transparent-navbar.scss";
 
 .section-top-jumbotron {
 	height: 531px;
@@ -51,7 +51,7 @@
 	height: 100%;
 	width: 100%;
 	background-color: white;
-	
+
 	.container {
 		border-top: 1px solid #E8E8E8;
 
@@ -74,7 +74,7 @@
 	height: 100%;
 	width: 100%;
 	background-color: white;
-	
+
 	.container {
 		border-top: 1px solid #E8E8E8;
 
@@ -103,14 +103,14 @@
 			h2 {
 				color: white;
 			}
-			
+
 			p {
 				padding-top: 10px;
 			}
 
 			.btn-primary {
 				margin-top:20px;
-				
+
 				&:before {
 					display: none;
 				}
@@ -135,20 +135,20 @@
 	background-color: white;
 
 	.container {
-		
+
 		.assembly {
 			background: url("../img/box/assembly.png") no-repeat;
 			width: 639px;
 			height: 541px;
 		    margin: 0 auto;
 		}
-		
+
 		.button {
 			text-align: center;
 			margin: 0 auto;
 			margin-top:20px;
 			display: table !important;
-				
+
 			&:before {
 				display: none;
 			}
@@ -185,7 +185,7 @@
 				margin-left: 20px;
 				margin-right: 20px;
 			}
-		
+
 		}
 	}
 }
@@ -210,7 +210,7 @@
 		.wrapper-images {
 			text-align: center;
 			margin-top: 25px;
-		
+
 			.logo-wd {
 			background: url("../img/box/wd-logo.svg") no-repeat;
 			width: 245.8px;
@@ -252,14 +252,14 @@
 				h2 {
 					color: white;
 				}
-				
+
 				p {
 					padding-top: 10px;
 				}
 				.btn-primary {
 					margin-top:20px;
 					padding: 20px 50px 20px 50px;
-					
+
 					&:before {
 						display: none;
 					}
@@ -301,7 +301,7 @@
 	.section-tecnology {
 		padding-top: 60px;
 		padding-bottom:150px;
-	
+
 		.container {
 
 			.box-open {
@@ -337,7 +337,7 @@
 				h2 {
 					color: white;
 				}
-				
+
 				p {
 					padding-top: 10px;
 				}
@@ -345,7 +345,7 @@
 				.btn-primary {
 					margin-top:20px;
 					padding: 20px 50px 20px 50px;
-					
+
 					&:before {
 						display: none;
 					}
@@ -366,13 +366,13 @@
 		padding-top: 50px;
 
 		.container {
-			
+
 			.assembly {
 				width: 319px;
 				height: 270px;
 				background-size: contain;
 			}
-			
+
 			.btn-primary {
 				padding: 20px 50px 20px 50px;
 			}
@@ -406,7 +406,7 @@
 			.wrapper-images {
 				text-align: center;
 				margin-top: 25px;
-			
+
 				.logo-wd {
 					width: 122px;
 					height: 29px;
@@ -419,9 +419,9 @@
 			}
 		}
 	}
-} 
+}
 
-@media (max-width: $break-big) { 
+@media (max-width: $break-big) {
 	.col-md-7, .col-md-6, .col-md-5, .col-md-4, .col-xs-8 {
 		width: 100%;
 	}
@@ -440,11 +440,3 @@
 		}
 	}
 }
-
-
-
-
-
-
-
-

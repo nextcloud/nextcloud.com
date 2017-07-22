@@ -1,4 +1,4 @@
-define(['jquery', 'lodash', 'enquire', 'TweenMax'],
+define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
 	function ($, _, enquire, TweenMax) {
 		$(document).ready(function() {
 			'use strict';

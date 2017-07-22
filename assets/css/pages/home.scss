@@ -1,9 +1,6 @@
-@import "variables.scss";
-@import "transparent-navbar.scss";
+@import "../variables.scss";
+@import "../modules/transparent-navbar.scss";
 
-/**
-* Home page jumbotron
-*/
 .jumbotron {
   background: -webkit-gradient(linear, left top, left bottom, from($nextcloud-blue), color-stop(100%, #3e9ed8), to(#d8d8d8));
   background: linear-gradient(to bottom, $nextcloud-blue, #3e9ed8 100%, #d8d8d8);
@@ -62,7 +59,7 @@
   }
 
   .topbanner {
-    background: url(../img/home/top-banner@2x.png) bottom 0 right 0/contain no-repeat;
+    background: url(../../img/home/top-banner@2x.png) bottom 0 right 0/contain no-repeat;
     width: auto;
     height: auto;
     max-width: 55vw;
@@ -78,12 +75,12 @@
             transform: translateY(50px);
 
     @media (max-width: $break-small) {
-      background-image: url("../img/home/top-banner@2x_mobile.png");
+      background-image: url("../../img/home/top-banner@2x_mobile.png");
       padding-top: 100%;
     }
 
     @media (min-width: $break-small) and (max-width: $break-big) {
-      background-image: url("../img/home/top-banner@2x_mobile.png");
+      background-image: url("../../img/home/top-banner@2x_mobile.png");
       padding-top: 55%;
     }
   }
@@ -164,32 +161,95 @@
           line-height: 22px;
           margin: 10px 10px;
         }
+      }
 
-        &:after {
-          position: absolute;
-          display: inline-block;
-          content: ' ';
-          background-image: url('../img/next.svg');
-          background-size: 12px 12px;
-          height: 12px;
-          width: 12px;
-          top: 10px;
-          margin-left: 5px;
-          -webkit-transition: all 0.3s ease;
-          transition: all 0.3s ease;
+      svg {
+        display: inline-block;
+        height: 12px;
+        width: 12px;
+        top: 10px;
+        transform: translateX(-10px);
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
 
-          @media (max-width: $break-small) {
-            position: relative;
-            top: 2px;
-          }
+        g {
+          fill: #fff;
         }
 
-        &:hover {
-          &:after {
-            margin-left: 10px;
-          }
+        @media (max-width: $break-small) {
+          position: relative;
+          top: 2px;
         }
       }
+
+      &:hover {
+        svg {
+          transform: translateX(0px);
+        }
+      }
+    }
+  }
+}
+
+#why-nextcloud {
+  .highlights {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    margin: -16px 0 0 -16px;
+    padding: 0;
+    list-style: none;
+  }
+
+  @media (max-width: 1024px) {
+    .highlights {
+      display: block;
+      text-align: center;
+      margin: 0 10px 0 10px;
+    }
+  }
+
+  .highlights_align {
+    padding-top: 100px;
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+    padding-left: 64px;
+    &:first-child {
+      padding-left: 0px;
+    }
+    svg {
+      margin-left: -10px;
+    }
+    .section--paragraph {
+      font-size: 16px;
+    }
+    h4 {
+      text-align: center;
+      margin-top: 20px;
+      margin-left: -20px;
+      margin-bottom: 0;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .highlights_align {
+      flex-basis: auto;
+      max-width: none;
+      padding-left: 0;
+      padding-top: 50px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .highlights_align svg {
+      margin-left: 0;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .highlights_align h4 {
+      margin-left: 0;
     }
   }
 }
@@ -276,10 +336,10 @@
   padding-bottom: 50px;
   padding-left: 0;
   padding-right: 0;
-  background-image: url('../img/home/perfect-for-home-and-business.jpg');
+  background-image: url('../../img/home/perfect-for-home-and-business.jpg');
   background-size: cover;
   @media (max-width: $break-small) {
-    background-image: url('../img/home/perfect-for-home-and-business-mobile.jpg');
+    background-image: url('../../img/home/perfect-for-home-and-business-mobile.jpg');
   }
 
 
@@ -297,7 +357,7 @@
       width: 300px;
 
       .icon-arrow {
-        background: url(../img/arrow_right.svg) center/contain no-repeat;
+        background: url(../../img/arrow_right.svg) center/contain no-repeat;
         position: absolute;
         width: 20px;
         height: 100%;
@@ -448,7 +508,7 @@
     padding-bottom: 120px;
 
     &:before {
-      background: url(../img/home/pattern.svg) bottom 0 right 0/contain no-repeat;
+      background: url(../../img/home/pattern.svg) bottom 0 right 0/contain no-repeat;
       height: 90vh;
       width: 2000px;
       position: absolute;

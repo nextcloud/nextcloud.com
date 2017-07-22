@@ -1,5 +1,5 @@
-@import "variables.scss";
-@import "transparent-navbar.scss";
+@import "../variables.scss";
+@import "../transparent-navbar.scss";
 
 
 /**
@@ -11,7 +11,7 @@
   background-size: cover;
 
   @media (max-width: $navbar-breaksize) {
-	min-height: 1050px !important; 
+	min-height: 1050px !important;
 	max-height: 1200px !important;
   }
 	.topheader {
@@ -19,7 +19,7 @@
 		top: 20% !important;
 		}
 	}
-	
+
   .topquote {
     position: absolute;
     top: 55%;
@@ -48,11 +48,11 @@
 		height: 100%;
 		min-height: 300px;
 	}
-	
+
 	.carousel-control.left {
 		background-image: none;
 		background: transparent;
-		
+
 		@media (max-width: $break-small) {
 			display: none;
 		}
@@ -60,7 +60,7 @@
 	.carousel-control.right {
 		background-image: none;
 		background: transparent;
-		
+
 		@media (max-width: $break-small) {
 			display: none;
 		}
