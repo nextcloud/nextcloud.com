@@ -1,12 +1,11 @@
-@import "../variables.scss";
-@import "../transparent-navbar.scss";
+@import '../variables';
+@import '../modules/transparent-navbar';
 
 .section-top-jumbotron {
 	height: 531px;
 	background-color: #252323;
 
 	.container {
-
 		h2{
 			color: white;
 			padding-top: 150px;
