@@ -1,5 +1,5 @@
-@import "variables.scss";
-@import "transparent-navbar.scss";
+@import "../variables.scss";
+@import "../transparent-navbar.scss";
 
 .workflow-background {
   background: url("../img/headers/workflow.jpg") no-repeat;
@@ -39,4 +39,3 @@ section {
 footer {
     margin-top: 50px;
 }
-

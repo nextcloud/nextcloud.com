@@ -1,5 +1,5 @@
-@import "variables.scss";
-@import "transparent-navbar.scss";
+@import "../variables.scss";
+@import "../transparent-navbar.scss";
 
 .contribute-background {
   background: url("../img/headers/team.jpg") no-repeat;
@@ -48,4 +48,3 @@ footer.page-footer {
 		color: white;
 	}
 }
-

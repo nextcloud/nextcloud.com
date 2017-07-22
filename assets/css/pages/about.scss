@@ -1,5 +1,5 @@
-@import "variables.scss";
-@import "transparent-navbar.scss";
+@import "../variables.scss";
+@import "../transparent-navbar.scss";
 
 .about-background {
   background: url("../img/headers/team.jpg") no-repeat;
@@ -29,12 +29,12 @@ footer.page-footer {
 			text-align: left !important;
 		}
 	}
-    
+
     .newsrow {
         margin-top: 70px;
 		margin-bottom: 30px;
     }
-    
+
     .yt-img-overlay {
         margin-bottom: 25px;
     }

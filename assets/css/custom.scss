@@ -1,18 +1,32 @@
-@charset "UTF-8";
-@import "variables";
-@import "modules/normalize";
-@import "modules/no-js";
-@import "modules/alerts";
+// Import file
+//
+// This file should be used only for importing common code
 
-/* Please don't remove, useful for testing. */
-/* * {border:1px solid red} */
+@charset 'UTF-8';
 
-/*Colors*/
-/*Shadows*/
-/*Breakpoints*/
-/*Colors*/
-/*Shadows*/
-/*Breakpoints*/
+// Importing bootstrap modules
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/buttons';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities';
+
+// Importing modules
+@import 'variables';
+@import 'modules/normalize';
+@import 'modules/no-js';
+@import 'modules/alerts';
+@import 'modules/header';
+@import 'modules/slideshow';
+@import 'modules/secondmenu';
+@import 'modules/typography';
+
+
+// To remove everything above and split in other files
 .jumbotron--heading-1 {
   padding-top: 0;
   color: white !important;
@@ -973,52 +987,7 @@ blockquote {
     line-height: 1.5;
 /*     text-align: center; */
     color: #2a2a36; } }
-.highlights {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin: -16px 0 0 -16px;
-  padding: 0;
-  list-style: none; }
-@media (max-width: 1024px) {
-    .highlights {
-        display: block;
-        text-align: center;
-        margin: 0 10px 0 10px; } }
 
-.highlights_align {
-  padding-top: 100px;
-  flex-basis: 33.33333%;
-  max-width: 33.33333%;
-  padding-left: 64px; }
-.highlights_align:first-child {
-    padding-left: 0px; }
-@media (max-width: 1024px) {
-    .highlights_align {
-        flex-basis: auto;
-        max-width: none;
-        padding-left: 0;
-        padding-top: 50px; } }
-.highlights_align svg {
-    margin-left: -10px; }
-@media (max-width: 1200px) {
-    .highlights_align svg {
-        margin-left: 0; } }
-.highlights_align .section--paragraph {
-    font-size: 16px; }
-.highlights_align h4 {
-    text-align: center;
-    margin-top: 20px;
-    margin-left: -20px;
-    margin-bottom: 0; }
-@media (max-width: 1200px) {
-.highlights_align h4 {
-    margin-left: 0; } }
 
 /* Youtube dialog */
 .yt-img-overlay {
