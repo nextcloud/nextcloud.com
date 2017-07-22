@@ -400,6 +400,8 @@ nav a {
                 z-index: 8;
                 display: block;
                 margin-right: 0;
+                border: none;
+                float: right;
 
                 &:hover {
                     transform: scale(1.1);
