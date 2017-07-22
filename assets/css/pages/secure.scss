@@ -1,12 +1,9 @@
 @import "../variables.scss";
-@import "../transparent-navbar.scss";
+@import "../modules/transparent-navbar.scss";
 
 
-/**
-* Secure Page
-*/
 .security-background {
-    background-image: url("../img/security/security.jpg");
+    background-image: url("../../img/security/security.jpg");
     background-position: bottom 0 right 0;
 
     .topheader {
@@ -448,7 +445,7 @@ section {
         align-items: center;
 
         &__logo {
-            background: url("../img/security/ncc_logo.png") no-repeat center/contain;
+            background: url("../../img/security/ncc_logo.png") no-repeat center/contain;
             width: 46px;
             height: 46px;
         }

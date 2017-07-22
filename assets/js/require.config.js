@@ -14,7 +14,7 @@ requirejs.config({
 		TweenLite: ['https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenLite.min', '../../node_modules/gsap/src/minified/TweenLite.min'],
 		TimelineLite: ['https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TimelineLite.min', '../../node_modules/gsap/src/minified/TimelineLite.min'],
 		TimelineMax: ['https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TimelineMax.min', '../../node_modules/gsap/src/minified/TimelineMax.min'],
-		TweenMax: ['../../node_modules/gsap/src/minified/TweenMax.min'],
+		TweenMax: ['https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenMax.min', '../../node_modules/gsap/src/minified/TweenMax.min'],
 		easingEase: ['https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/easing/EasePack.min'],
 		velocity: ['https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min', 'vendor/velocity.min'],
 		velocityUI: ['https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.ui.min', 'vendor/velocity.ui.min'],
@@ -22,6 +22,7 @@ requirejs.config({
 		hammer: ['https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min', 'vendor/hammer.min'],
 		inview: ['https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min', 'vendor/jquery.inview'],
 		bootstrap: ['https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min', 'vendor/bootstrap'],
+		plyr: ['https://cdn.plyr.io/2.0.13/plyr', '../../node_modules/plyr/dist/plyr'],
 		youtubeplugin: 'old/vendor/jquery.youtubepopup.min',
 	},
 	shim: {
