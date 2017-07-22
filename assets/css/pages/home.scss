@@ -2,9 +2,10 @@
 @import "transparent-navbar.scss";
 
 /**
- * Home page jumbotron
- */
+* Home page jumbotron
+*/
 .jumbotron {
+  background: -webkit-gradient(linear, left top, left bottom, from($nextcloud-blue), color-stop(100%, #3e9ed8), to(#d8d8d8));
   background: linear-gradient(to bottom, $nextcloud-blue, #3e9ed8 100%, #d8d8d8);
   padding: 0;
   margin-bottom: 0;
@@ -18,39 +19,42 @@
   &__pattern {
     opacity: 0.1;
     width: calc(100vw - 15px);
-	height: 100vh;
-	object-fit: cover;
+    height: 100vh;
+    -o-object-fit: cover;
+       object-fit: cover;
 
     @media (max-width: $break-big) {
       width: calc(100vw - 15px);
       height: 100vh;
-      object-fit: cover;
-      }
+      -o-object-fit: cover;
+         object-fit: cover;
+    }
   }
 
-    @media (max-width: $break-big) {
-      min-height: 600px
-    }
+  @media (max-width: $break-big) {
+    min-height: 600px
+  }
 
-    .jumbotron--heading-1 {
-      padding-top: 10px;
+  .jumbotron--heading-1 {
+    padding-top: 10px;
 
-      @media (max-width: $break-small) {
-        max-width: 300px;
-        text-align: left;
-      }
-
-      @media (min-width: $break-small) {
-        max-width: 500px;
-      }
-    }
-
-    .jumbotron--lead {
-      width: 377px;
+    @media (max-width: $break-small) {
+      max-width: 300px;
       text-align: left;
-      @media (max-width: $break-big) {
-        width: 250px;
-      }
+    }
+
+    @media (min-width: $break-small) {
+      max-width: 500px;
+    }
+  }
+
+  .jumbotron--lead {
+    width: 377px;
+    text-align: left;
+
+    @media (max-width: $break-big) {
+      width: 250px;
+    }
   }
 
   p {
@@ -58,10 +62,6 @@
   }
 
   .topbanner {
-    /* 		background-image: url("../img/home/top-banner@2x.png"); */
-    /* 		background-position: bottom 0 right 0;  */
-    /* 		background-size: contain; */
-    /* 		background-repeat: no-repeat; */
     background: url(../img/home/top-banner@2x.png) bottom 0 right 0/contain no-repeat;
     width: auto;
     height: auto;
@@ -74,15 +74,18 @@
     right: 0;
     overflow: hidden;
     opacity:0;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+
     @media (max-width: $break-small) {
       background-image: url("../img/home/top-banner@2x_mobile.png");
       padding-top: 100%;
     }
+
     @media (min-width: $break-small) and (max-width: $break-big) {
       background-image: url("../img/home/top-banner@2x_mobile.png");
       padding-top: 55%;
     }
-
   }
 
   .topbanner img {
@@ -94,14 +97,27 @@
   .toptext {
     position: absolute;
     top: 30vh;
-   padding-left: 0;
+    padding-left: 0;
     margin-left: 0;
-    opacity:0;
+
+    .button {
+      opacity: 0;
+      -webkit-transform: translateY(50px);
+              transform: translateY(50px);
+    }
+
+    .jumbotron--heading-1,
+    .jumbotron--lead {
+      opacity: 0;
+      -webkit-transform: translateY(50px);
+              transform: translateY(50px);
+    }
 
     @media (max-width: $break-big) {
       top: 120px;
-	  margin-left: 5%;
+      margin-left: 5%;
     }
+
     .announcement {
       background-color:  rgba(0, 115, 178, 0.51);
       border-radius: 20px;
@@ -109,11 +125,15 @@
       text-decoration: none;
       color: white;
       line-height: 26px;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
       display: inline-flex;
       -webkit-box-align: center;
-      -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center;
+      opacity: 0;
+      -webkit-transform: translateX(-20px);
+              transform: translateX(-20px);
 
       @media (max-width: $break-small) {
         margin-left: -20px;
@@ -155,6 +175,7 @@
           width: 12px;
           top: 10px;
           margin-left: 5px;
+          -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease;
 
           @media (max-width: $break-small) {
@@ -163,11 +184,11 @@
           }
         }
 
-          &:hover {
-            &:after {
-              margin-left: 10px;
-            }
+        &:hover {
+          &:after {
+            margin-left: 10px;
           }
+        }
       }
     }
   }
@@ -183,8 +204,8 @@
 
 
 /**
- * Home page: Why Nextcloud?
- */
+* Home page: Why Nextcloud?
+*/
 .icon-row {
   padding-bottom: 100px;
 }
@@ -197,8 +218,8 @@
 
 
 /**
- * Home page: Introducing Nextcloud X
- */
+* Home page: Introducing Nextcloud X
+*/
 .right-text-grey {
   opacity: 0;
   padding-top: 75px;
@@ -241,13 +262,13 @@
 
 
 /**
- * Home page: Stay up to date
- */
+* Home page: Stay up to date
+*/
 
 
 /**
- * Home page: perfect-for-home-and-business
- */
+* Home page: perfect-for-home-and-business
+*/
 
 #perfect-for-home-and-business {
   margin-top: 100px;
@@ -392,7 +413,6 @@
       border-radius: 50%;
       padding: 0;
       -webkit-transform: scale(.5);
-      -ms-transform: scale(.5);
       transform: scale(.5);
       -webkit-transition: all 250ms ease-in-out;
       transition: all 250ms ease-in-out;
@@ -401,7 +421,6 @@
     .btn_carousel.active{
       background-color: transparent;
       -webkit-transform: scale(1);
-      -ms-transform: scale(1);
       transform: scale(1);
     }
   }
@@ -435,7 +454,8 @@
       position: absolute;
       left: 50%;
       background-position: bottom;
-      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
     }
 
     @media (max-width: $break-small) {
@@ -578,9 +598,9 @@
 }
 
 .revealOnScroll {
-	opacity: 0;
+  opacity: 0;
 }
 
 .section--compare {
-    padding-bottom: 100px;
+  padding-bottom: 100px;
 }

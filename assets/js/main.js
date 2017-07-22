@@ -1,5 +1,5 @@
-define(['jquery', 'lodash', 'enquire', 'TimelineMax', 'velocity', 'velocityUI'],
-	function ($, _, enquire, TimelineMax, velocity) {
+define(['jquery', 'lodash', 'enquire', 'TweenMax'],
+	function ($, _, enquire, TweenMax) {
 		$(document).ready(function() {
 			'use strict';
 			var main = {
@@ -11,7 +11,7 @@ define(['jquery', 'lodash', 'enquire', 'TimelineMax', 'velocity', 'velocityUI'],
 					this.animationOnLoadPageTimeline.play();
 				},
 
-				variables : {
+				variables: {
 					topHeaderSelector: '.topheader',
 					heroSectionBackgroundSelector: '.background',
 					buttonDropdownSelector: $('.button--dropdown'),
@@ -47,11 +47,11 @@ define(['jquery', 'lodash', 'enquire', 'TimelineMax', 'velocity', 'velocityUI'],
 				},
 
 				animationOnLoadPage: function() {
-					this.animationOnLoadPageTimeline = TimelineMax({paused: true});
+					this.animationOnLoadPageTimeline = new TimelineMax ({paused: true});
 					var stuff = $(this.variables.topHeaderSelector);
 
 
-					this.animationOnLoadPageTimeline.to(stuff, 1, {x: 50, autoAlpha: 1});
+					this.animationOnLoadPageTimeline.to(stuff, 1, {y: 50, autoAlpha: 1});
 					// $(this.variables.topHeaderSelector).velocity('transition.slideUpBigIn');
 					// $(this.variables.heroSectionBackgroundSelector).velocity('transition.fadeIn', 1000);
 				},
