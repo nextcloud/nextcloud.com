@@ -1,9 +1,9 @@
 //config require.js
 requirejs.config({
+	waitSeconds : 0,
 	baseURL: 'wp-content/themes/next/assets/js/',
 	paths: {
 		jquery: ['https://code.jquery.com/jquery-3.2.1.slim.min', '../../node_modules/jquery/dist/jquery.slim.min'],
-		jqueryUi: ['https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min', 'vendor/jquery.ui'],
 		modernizr: ['https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min', 'vendor/modernizr.min'],
 		waypoints: ['https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min', 'vendor/jquery.waypoints.min'],
 		enquire: ['https://cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.6/enquire.min', 'vendor/enquire'],
@@ -15,14 +15,13 @@ requirejs.config({
 		TimelineLite: ['https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TimelineLite.min', '../../node_modules/gsap/src/minified/TimelineLite.min'],
 		TimelineMax: ['https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TimelineMax.min', '../../node_modules/gsap/src/minified/TimelineMax.min'],
 		TweenMax: ['https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenMax.min', '../../node_modules/gsap/src/minified/TweenMax.min'],
-		easingEase: ['https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/easing/EasePack.min'],
 		velocity: ['https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min', 'vendor/velocity.min'],
 		velocityUI: ['https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.ui.min', 'vendor/velocity.ui.min'],
 		scrollMagic: ['https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min', 'vendor/ScrollMagic.min'],
 		hammer: ['https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min', 'vendor/hammer.min'],
 		inview: ['https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min', 'vendor/jquery.inview'],
-		bootstrap: ['https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min', 'vendor/bootstrap'],
 		plyr: ['https://cdn.plyr.io/2.0.13/plyr', '../../node_modules/plyr/dist/plyr'],
+		highlight: ['https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min', '../../node_modules/highliht.js/lib/highlight'],
 		youtubeplugin: 'old/vendor/jquery.youtubepopup.min',
 	},
 	shim: {
@@ -44,18 +43,8 @@ requirejs.config({
 		velocityUI: {
 			deps: ['velocity']
 		},
-		// TimelineMax: {
-		// 	deps: ['TimelineLite', 'TweenLite', 'easingEase'],
-		// 	exports: 'TimelineMax'
-		// },
-		bootstrap: {
-			deps: ['jquery']
-		},
 		youtubeplugin: {
 			deps: ['jqueryUi', 'bootstrap']
 		},
-		jqueryUi: {
-			deps: ['jquery']
-		}
 	}
 });
