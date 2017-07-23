@@ -43,6 +43,7 @@ requirejs.config({
 		velocityUI: {
 			deps: ['velocity']
 		},
+<<<<<<< HEAD
 		// TimelineMax: {
 		// 	deps: ['TimelineLite', 'TweenLite', 'easingEase'],
 		// 	exports: 'TimelineMax'
@@ -50,5 +51,10 @@ requirejs.config({
 		bootstrap: {
 			deps: ['jquery']
 		}
+=======
+		youtubeplugin: {
+			deps: ['jqueryUi', 'bootstrap']
+		},
+>>>>>>> done all pages on menu features
 	}
 });

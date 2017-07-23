@@ -183,8 +183,3 @@
 		</div>
 	</div>
 </section>
-
-<script type="text/javascript">
-// $(function () {
-// });
-</script>
