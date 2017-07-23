@@ -10,6 +10,7 @@
     "gulp": "^3.9.1",
     "hammerjs": "^2.0.8",
     "headroom.js": "^0.9.4",
+    "highlight.js": "^9.12.0",
     "jquery": "^3.2.1",
     "lodash": "^4.17.4",
     "modernizr": "^3.5.0",

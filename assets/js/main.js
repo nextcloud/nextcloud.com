@@ -8,6 +8,7 @@ define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
 					$(window).on('scroll.fadeOnce', _.bind(this.revealOnScroll, this, event));
 					this.animationOnLoadPage();
 					this.removeRevealOnScroll();
+					this.consoleMessage();
 				},
 
 				variables: {
@@ -26,6 +27,14 @@ define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
 					indicatorSlideshow: 'btn_carousel',
 					visibleClass : 'visible',
 					activeClass: 'active'
+				},
+
+				consoleMessage: function() {
+					console.log('%c\nNextcloud, A safe home for all your data', 'font-size:20px');
+					console.log(
+						'%c',
+						'font-size: 100px; background: white url(' + window.location + 'wp-content/themes/next/assets/img/logo/logo_nextcloud_blue.png) no-repeat left bottom; background-repeat: no-repeat; background-size: 100px 64px;'
+					);
 				},
 
 				checkScrollPosition: function() {
