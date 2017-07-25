@@ -416,19 +416,6 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/simon.jpg" />
-				<h2 class="teamname">Simon Eisenmann</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Spreedbox, Packaging, Embedded</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><a href="https://www.stdin.xyz/"><i class="fa-rss fa"></i></a> <a href="https://github.com/longsleep"><i class="fa-github fa"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="fa-twitter fa"></i></a>--> </p>
-				</div>
-				<p class="teamdescription">Simon handles technical project management and coding. He spearheads the backend and frontend services development and defines the system architecture and infrastructure for the Spreedbox. He has extensive WebRTC, AngularJS, Go and Python experience.</p>
-			</div>
-        </div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 				<h2 class="teamname">Tobias Kaminsky</h2>
 				<div class="teammeta">
