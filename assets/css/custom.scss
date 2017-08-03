@@ -115,7 +115,7 @@ h5 {
   color: #555; }
 
 .image--feature {
-	margin-top: 65px;
+	margin-top: 52px;
 }
 
 .image--floated {
@@ -131,7 +131,14 @@ h5 {
 	}
 }
 
-
+.featureimg {
+	@media (min-width: $break-big) {
+	margin-bottom: 200px;
+	}
+	@media (min-width: $very-wide) {
+	margin-bottom: 100px;
+	}
+}
 
 /*Colors*/
 /*Shadows*/

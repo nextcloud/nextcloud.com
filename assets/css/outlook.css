@@ -24,11 +24,6 @@
   /*	img {
   		box-shadow: 0px 0px 4px black;
   	}*/ }
-  .featurerow .floated {
-    float: right;
-    padding-bottom: 50px; }
-  .featurerow p {
-    margin-top: 15px; }
   .featurerow h1 {
     margin-bottom: 50px;
     text-align: center; }
@@ -42,10 +37,6 @@
         width: 102px;
         height: 75px; } }
 
-.featureblock .section--heading-1 {
-  margin-top: 5px;
-  color: #2a2a36;
-  margin-bottom: 5px; }
 .featureblock .wrapper--buttons .button {
   margin: 20px 10px 20px 20px; }
 
