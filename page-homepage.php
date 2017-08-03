@@ -12,9 +12,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/welcome-to-nextcloud-12/">
-				<span class="type">Fresh</span>
-				<span class="message"><strong>Nextcloud 12 is here.</strong> Find out what is new!</span>
+				<a class="announcement" href="https://nextcloud.com/conf/">
+				<span class="type">Event</span>
+				<span class="message"><strong>Join the Nextcloud Conference.</strong> August 22-29 in Berlin!</span>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('A safe home for all your data');?></h1>
 				<h2 class="jumbotron--lead"><?php echo $l->t('Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.');?></h2>

@@ -5,7 +5,7 @@
   background: url("../img/headers/storage.jpg") no-repeat;
   background-position: center;
   background-size: cover;
-  margin-bottom: 50px
+  margin-bottom: 200px;
 }
 
 .image--floated{
@@ -14,6 +14,7 @@
 
 section {
 	margin-top: 150px;
+/*	margin-bottom: 50px;*/
 /* 	padding: 50px 0; */
 
 	.section--paragraph__tittle {
@@ -21,8 +22,10 @@ section {
 	}
 }
 
-.row {
-    margin-bottom: 150px;
+.section--storage {
+	.row {
+		margin-bottom: 100px;
+	}
 }
 
 .featuretitle {
@@ -33,18 +36,7 @@ footer {
     margin-top: 50px;
 }
 
-.quote {
-	margin: 100px 0 0 0;
-	padding: 70px;
-	padding-top: 90px;
-	background: $nextcloud-blue;
-	.row {
-		margin-bottom: 0px;
-	}
-	p {
-		color: white;
-	}
-	.hyperlink {
-		color: white;
-	}
+.section--whitepaper {
+
 }
+

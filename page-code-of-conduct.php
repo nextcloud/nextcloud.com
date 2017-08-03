@@ -45,7 +45,7 @@
 
 <p>As a contributor, you should aim to collaborate with other community members, as well as with other communities that are interested in or depend on the work you do. Your work should be transparent and be fed back into the community when available, not just when Nextcloud releases. If you wish to work on something new in existing projects, keep those projects informed of your ideas and progress.</p>
 
-<p>It may not always be possible to reach consensus on the implementation of an idea, so don\'t feel obliged to achieve this before you begin. However, always ensure that you keep the outside world informed of your work, and publish it in a way that allows outsiders to test, discuss and contribute to your efforts.</p>
+<p>It may not always be possible to reach consensus on the implementation of an idea, so don't feel obliged to achieve this before you begin. However, always ensure that you keep the outside world informed of your work, and publish it in a way that allows outsiders to test, discuss and contribute to your efforts.</p>
 
 <p>Contributors on every project come and go. When you leave or disengage from the project, in whole or in part, you should do so with pride about what you have achieved and by acting responsibly towards others who come after you to continue the project.</p>
 
@@ -53,7 +53,7 @@
 
 
 <h3>Be pragmatic</h3>
-<p>Nextcloud is a pragmatic community. We value tangible results over having the last word in a discussion. We defend our core values like freedom and respectful collaboration, but we don\'t let arguments about minor issues get in the way of achieving more important results. We are open to suggestions and welcome solutions regardless of their origin. When in doubt support a solution which helps getting things done over one which has theoretical merits, but isn\'t being worked on. Use the tools and methods which help getting the job done. Let decisions be taken by those who do the work.</p>
+<p>Nextcloud is a pragmatic community. We value tangible results over having the last word in a discussion. We defend our core values like freedom and respectful collaboration, but we don't let arguments about minor issues get in the way of achieving more important results. We are open to suggestions and welcome solutions regardless of their origin. When in doubt support a solution which helps getting things done over one which has theoretical merits, but isn't being worked on. Use the tools and methods which help getting the job done. Let decisions be taken by those who do the work.</p>
 
 
 <h3>Support others in the community</h3>

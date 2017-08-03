@@ -370,6 +370,63 @@ template, [hidden] {
 /**
  * Add the correct display in IE 10-.
  */
+.no-js body nav {
+  opacity: 1 !important; }
+  .no-js body nav .container .brand .logo:not(.scrolled):not(.menu-open) {
+    background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
+    background-position-x: -4620px; }
+  .no-js body nav .container .nav__sections .nav__section .nav__links {
+    background-color: white; }
+    .no-js body nav .container .nav__sections .nav__section .nav__links .nav__item a {
+      display: block;
+      padding: 5px 10px 0 10px;
+      font-size: 16px; }
+.no-js body .revealOnScroll {
+  opacity: 1; }
+.no-js body .toptext {
+  opacity: 1; }
+.no-js body .topbanner {
+  opacity: 1; }
+.no-js body .background {
+  opacity: 1 !important; }
+.no-js body .background .topheader {
+  opacity: 1; }
+
+.alert {
+  padding: 15px 0;
+  position: relative;
+  width: 100%;
+  margin: 0; }
+  .alert .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .alert--no-js {
+    background-color: #FFF054; }
+    .alert--no-js svg {
+      display: inline-block;
+      -ms-flex-negative: 0;
+      flex-shrink: 0; }
+      .alert--no-js svg .shape {
+        stroke: #2A2A36; }
+      .alert--no-js svg .symbol {
+        fill: #2A2A36; }
+    .alert--no-js p {
+      display: inline-block;
+      padding-left: 5px;
+      margin: 0; }
+      @media (max-width: 768px) {
+        .alert--no-js p {
+          padding-left: 20px; } }
+      .alert--no-js p strong {
+        font-weight: 600;
+        color: black; }
+
+/* Please don't remove, useful for testing. */
+/* * {border:1px solid red} */
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
@@ -1250,7 +1307,7 @@ li {
 /* A nice looking block quote */
 blockquote {
   background: none;
-  margin: 1.5em 10px;
+  /*   margin: 1.5em 10px; */
   padding: 0.5em 10px;
   quotes: "“" "”" "‘" "’";
   border-left: none;
@@ -1278,9 +1335,26 @@ blockquote:after {
 
 /* New widest container for headers */
 .container-widest {
-  margin-left: auto;
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
-  max-width: 1800px; }
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
 
 /* typical background images (hero section) like enterprise, security */
 .background {
@@ -1587,7 +1661,7 @@ blockquote:after {
     padding-top: 26%; } }
 /* Blue call to action bar */
 .quote {
-  padding: 0 0 30px 0;
+  padding: 80px 0 80px 0;
   background: #0082c9;
   /*	.button {
   	}*/ }
@@ -1599,7 +1673,8 @@ blockquote:after {
     color: white; }
 
 /* Whitepaper sections */
-.section--whitepaper {
+.section--whitepaper, .whitepaper {
+  padding: 0px;
   /*    .button:hover {
           background-color: #0073B2;
           text-decoration: none;
@@ -1610,18 +1685,67 @@ blockquote:after {
           right: 15px; }
       .button--arrow.button--blue:before {
           background: url(../img/common/arrow_right.svg) center/contain no-repeat; }*/ }
-  .section--whitepaper .mail {
-    border-radius: 20px;
+  .section--whitepaper .container, .whitepaper .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative; }
+  .section--whitepaper h2, .whitepaper h2 {
+    line-height: 1 !important; }
+  .section--whitepaper label, .whitepaper label {
+    margin-top: 20px; }
+  .section--whitepaper .row, .whitepaper .row {
+    margin-top: 15px;
+    padding-top: 0px; }
+  .section--whitepaper img, .whitepaper img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 350px; }
+  .section--whitepaper .button, .whitepaper .button {
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px; }
+  .section--whitepaper .mail, .whitepaper .mail {
+    height: 40px;
+    border-radius: 40px;
     border-style: solid;
     border-color: lightgray;
     border-width: thin;
     padding: 8px;
-    margin-top: 15px;
-    color: #757575; }
-  .section--whitepaper .g-recaptcha {
-    margin-left: auto !important;
-    margin-right: auto !important;
+    /*         margin-top: 15px; */
+    color: #757575;
+    width: 50%; }
+  .section--whitepaper .g-recaptcha, .whitepaper .g-recaptcha {
+    /*         margin-left: auto !important; */
+    /*         margin-right: auto !important; */
     display: inline-block !important; }
+  @media (max-width: 1200px) {
+    .section--whitepaper img, .whitepaper img {
+      position: relative;
+      width: 30vw;
+      height: auto;
+      margin-left: 30vw; }
+    .section--whitepaper .col-lg-8, .whitepaper .col-lg-8 {
+      text-align: center; } }
+  @media (max-width: 991px) {
+    .section--whitepaper img, .whitepaper img {
+      position: relative;
+      width: 50vw;
+      height: auto;
+      margin-left: 20vw; }
+    .section--whitepaper .mail, .whitepaper .mail {
+      width: 100%;
+      max-width: 400px; } }
+  .section--whitepaper .wp-center img, .whitepaper .wp-center img {
+    position: relative;
+    width: auto;
+    height: 250px;
+    margin-left: auto; }
+  .section--whitepaper .wp-center .mail, .whitepaper .wp-center .mail {
+    width: 100%;
+    max-width: 500px; }
 
 /*# sourceMappingURL=custom.scss.map */
 

@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,6BAA6B;AAC7B,mBAAoB;EAClB,gBAAgB,EAAE,WAAW;EAC7B,QAAQ,EAAE,QAAQ",
-"sources": ["transparent-navbar.scss"],
-"names": [],
-"file": "transparent-navbar.css"
-}

@@ -96,32 +96,31 @@
 <div class="separator"></div>
 
 <section class="section--whitepaper">
-<div class="container">
-    <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Well fitting');?></p>
-    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Nextcloud Enterprise Capabilities');?></h2>
-    <div class="row">
-        <div class="col-md-6 revealOnScroll">
-            <h3 class=""><?php echo $l->t('Deep integration in your infrastructure');?></h3>
-            <p><?php echo $l->t('Nextcloud offers LDAP/Active Directory, SAML and Kerberos authentication. It accesses data on NFS, (s)FTP, WebDAV, Windows Network Drive, Object Stores like SWIFT and many others.');?></p>
-            <p><?php echo $l->t('Download our Architecture whitepaper on the right or scroll down for a summary of key Nextcloud features.');?></p>
+    <div class="container">
+        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Well fitting');?></p>
+        <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Nextcloud Enterprise Capabilities');?></h2>
+        <div class="row">
+            <div class="col-md-6 revealOnScroll">
+                <h3 class=""><?php echo $l->t('Deep integration in your infrastructure');?></h3>
+                <p><?php echo $l->t('Nextcloud offers LDAP/Active Directory, SAML and Kerberos authentication. It accesses data on NFS, (s)FTP, WebDAV, Windows Network Drive, Object Stores like SWIFT and many others.');?></p>
+                <p><?php echo $l->t('Download our Architecture whitepaper or scroll down for a summary of key Nextcloud features.');?></p>
+            </div>
         </div>
-        <div class="col-md-4 col-md-offset-1 revealOnScroll text-center">
-            <p>
+        <div class="row">
+            <div class="col-lg-8">
                 <form name="whitepaper" method="post" action="../architecture-whitepapersubmit">
                     <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper!');?><br>
-                    <input class="mail" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
-                    <td colspan="2" style="text-align:center">
-                    <div class="text-center">
+                    <td colspan="2">
+                    <div class="">
                         <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
                     </div>
                     </td>
-
-                    <p><input class="button button--blue button--large" type="submit" value=" Get the whitepaper "></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--large" type="submit" value=" Get the whitepaper "></p>
                 </form>
-            </p>
+            </div>
         </div>
+        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/architecture-thumbnail-banner.png"/>
     </div>
-</div>
 </section>
 <section class="slideshow" id="slideshow">
 	<div class="indicators">

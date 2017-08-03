@@ -5,6 +5,7 @@
 		require(["pages/clients"])
 	});
 </script>-->
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <div class="background storage-background">
 	<div class="container">
@@ -39,6 +40,31 @@
 			<p class="section--paragraph"><?php echo $l->t('Use Nextcloud to fine tune the balance between cost, availability, performance and security. Deploy multiple data storage systems in the public cloud or hosted with a trusted provider or on-premise.');?></p>
 		</div>
 	</div>
+</div>
+</section>
+
+<section class="section--whitepaper quote">
+	<div class="container revealOnScroll">
+        <div class="row">
+            <div class="col-lg-8">
+                <h2 class="revealOnScroll"><?php echo $l->t('Get our datasheets');?></h2>
+                <form name="whitepaper" method="post" action="../storage-whitepapersubmit">
+                    <p><label for="email"><?php echo $l->t('Download our free datasheets about<br /> Windows Network Drive and Sharepoint');?><br>
+                    <td colspan="2">
+                    <div class="">
+                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                    </div>
+                    </td>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large" type="submit" value=" Get the datasheet "></p>
+                </form>
+            </div>
+        </div>
+        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/sharepoint-thumbnail-banner.png"/>
+	</div>
+</section>
+
+<section class="section--storage">
+<div class="container">
 	<div class="row">
 		<div class="col-md-6 image--floated revealOnScroll">
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw2.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw2-wee.png" class="img-responsive featureimg" /></a>
@@ -50,6 +76,7 @@
 	</div>
 </div>
 </section>
+<section>
 <div class="container-fluid quote">
 	<div class="container">
 		<div class="row">
@@ -62,7 +89,7 @@
 		</div>
 	</div>
 </div>
-
+</section>
 <section class="section--storage">
 <div class="container">
 	<div class="row">

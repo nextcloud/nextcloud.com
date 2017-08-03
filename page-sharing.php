@@ -3,21 +3,13 @@
 <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
 
 <script>
-	require(["require.config"], function() {
-		require(["vendor/jquery.min", "vendor/jquery.ui", "bootstrap", "pages/sharing"],
-			function ($, jqueryui) {
-				require(["vendor/jquery.youtubepopup"],
-					function (jqyoutube) {
-						jQuery("a.youtube").YouTubePopup({ hideTitleBar: true });
-					}
-				);
-			}
-		);
-	});
+require(["require.config"], function() {
+	require(["pages/sharing"])
+});
 </script>
 </head>
 
-<div class="background sharing-background"> 
+<div class="background sharing-background">
     <div class="container">
         <div class="row">
             <div class="col-md-6 revealOnScroll topheader">
@@ -36,7 +28,7 @@
             </div>
         </div>
     </div>
-</section>            
+</section>
 
 <section class="section--sharing">
     <div class="container">
@@ -46,7 +38,7 @@
                 <p class="section--paragraph"><?php echo $l->t('Share images, documents or music with colleagues on your server, send password protected public links to friends and get notifications on your phone when a user on another Nextcloud server shares files directly with you. Use File Drop to let customers upload files to you in a easy and secure way!');?></p>
                 <a href="/secure-drop" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn about File Drop');?></a>
                 <p class="section--paragraph"><?php echo $l->t('You can trust that when you share, Nextcloud makes sure you stay in control over your data. You can easily see a list of shares, remove or change permissions and restore older versions of files.');?></p>
-                
+
             </div>
             <div class="col-md-6">
                 <div class="yt-img-overlay">
@@ -92,9 +84,11 @@
         </div>
     </div>
 </section>
+
+<div id="federationScroll"></div>
+
 <section class="section--federation">
 <div class="container">
-	<a name="federation"></a>
 		<h2 class=""><?php echo $l->t('Share across Nextclouds!');?></h2>
 	<div class="row revealOnScroll">
 		<div class="col-md-4">
