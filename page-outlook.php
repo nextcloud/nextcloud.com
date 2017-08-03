@@ -37,12 +37,12 @@
 		<div class="featurerow">
 			<div class="row">
 				<div class="col-md-6 image--floated image--feature revealOnScroll">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-nw.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-nw.png" alt="in action" /></a>
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-nw.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-nw.png" alt="in action" /></a>
 				</div>
 				<div class="col-md-6 featureblock revealOnScroll">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Secure data and lower costs');?></p>
 					<p class="section--paragraph"><?php echo $l->t('The Secure Sharing Outlook Add-in takes away the IT headache caused by risky attachments.');?></p>
-					<p class="section--paragraph"><?php echo $l->t('Storing and sharing files securely through Nextcloud ensures company policies on data availability, retention and safety can be enforced. This enables system administrators for example to make sure attachments are run through the virus scanner, certain file types are protected from being shared outside the company or retention policies are followed.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Storing and sharing files securely through Nextcloud ensures company policies on data availability, retention and safety can be enforced. This enables system administrators for example to make sure attachments are run through the virus scanner, certain file types are protected from being shared outside the company or that retention policies are followed.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Another significant advantage for IT departments is the savings in storage space for email servers. The add-in negates the need for storing large amounts of attachments in multiple email boxes and decreases network traffic.');?></p>
 
 				</div>
@@ -52,7 +52,7 @@
 		<div class="featurerow">
 			<div class="row">
 				<div class="col-md-6 revealOnScroll image--feature">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-options-nw.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-options-nw.png" alt="in action" /></a>
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-options-nw.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-options-nw.png" alt="in action" /></a>
 				</div>
 				<div class="col-md-6 revealOnScroll featureblock">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Features');?></p>
@@ -72,7 +72,7 @@
 		<div class="featurerow">
 			<div class="row">
 				<div class="col-md-6 image--feature image--floated revealOnScroll">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-publiclink-nw.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-publiclink-nw.png" alt="in action" /></a>
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-publiclink-nw.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-publiclink-nw.png" alt="in action" /></a>
 				</div>
 				<div class="col-md-6 featureblock revealOnScroll">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Free for home users');?></p>
@@ -113,7 +113,7 @@
 <!-- 			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
 			<div class="row">
 				<div class="col-md-6 image--feature image--floated revealOnScroll">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/moztb.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb.png" alt="in action" /></a>
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/moztb.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb.png" alt="in action" /></a>
 				</div>
 				<div class="col-md-6 featureblock revealOnScroll">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Mozilla Thunderbird');?></p>
@@ -134,7 +134,7 @@
 				<div class="col-md-1">
 				</div>
 				<div class="col-md-10 image--feature revealOnScroll">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-header.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-header.png" alt="in action" /></a>
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-header.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-header.png" alt="in action" /></a>
 				</div>
 			</div>
 			<div class="row">
@@ -147,7 +147,7 @@
 		<div class="featurerow">
 			<div class="row ">
 				<div class="col-md-6 image--floated image--feature revealOnScroll">
-						<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-settings.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-settings.png" alt="in action" /></a>
+						<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-settings.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-settings.png" alt="in action" /></a>
 				</div>
 
 				<div class="col-md-6 featureblock revealOnScroll">
@@ -161,7 +161,7 @@
 		<div class="featurerow">
 			<div class="row ">
 				<div class="col-md-6 image--feature revealOnScroll">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-about.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-about.png" alt="in action" /></a>
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-about.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-about.png" alt="in action" /></a>
 				</div>
 				<div class="col-md-6 featureblock revealOnScroll">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Features');?></p>

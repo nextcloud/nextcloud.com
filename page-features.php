@@ -62,8 +62,8 @@
 <section class="section--security">
 	<a name="security" id="security"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll">
-		<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP.png" alt="in action" >
+		<div class="col-md-6 revealOnScroll image--feature">
+		<img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP.png" alt="in action" >
 		</div>
 
 		<div class="col-md-6 revealOnScroll feature--block">
@@ -100,8 +100,8 @@
 <section class="section--workflow">
 	<a name="workflow" id="workflow"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll image--floated">
-			<a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/file-access-control-nw.png" alt="in action"/></a>
+		<div class="col-md-6 revealOnScroll image--floated image--feature">
+			<a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/file-access-control-nw.png" alt="in action"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Workflow management');?></p>
 			<p class="section--paragraph"><?php echo $l->t('With Nextcloud, system administrators can control and direct the flow of data between users on or between servers. Rule based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements.
@@ -114,8 +114,8 @@
 <section class="section--monitoring">
     <a name="monitoring" id="monitoring"></a>
     <div class="container">
-        <div class="col-md-6 revealOnScroll">
-            <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-nw.png" alt="in action"/></a>
+        <div class="col-md-6 revealOnScroll image--feature">
+            <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-nw.png" alt="in action"/></a>
         </div>
             <p class="section--paragraph__tittle"><?php echo $l->t('Tracking changes to your files');?></p>
             <p class="section--paragraph"><?php echo $l->t('The nextcloud Activity app shows file modifications, downloads of shares and changes to comments or tags, providing an overview in the browser, clients or via email notifications and an RSS feed.');?></p>
@@ -129,8 +129,8 @@
 <section class="section--clients">
 	<a name="clients" id="clients"></a>
 	<div class="container">
-		<div class="col-md-6 image--floated revealOnScroll">
-			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mobileDesktop.png">
+		<div class="col-md-6 image--floated image--feature revealOnScroll">
+			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mobileDesktop.png">
 		</div>
 
 		<div class="col-md-6 revealOnScroll feature--block">
@@ -144,7 +144,7 @@
 <section class="section--storage">
 	<a name="storage" id="storage"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll">
+		<div class="col-md-6 revealOnScroll image--feature">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('External storage, securely encrypted');?></p>
@@ -158,7 +158,7 @@
 <section class="section--Calendar">
 	<a name="calendar" id="calendar"></a>
 	<div class="container">
-		<div class="col-md-6 image--floated revealOnScroll">
+		<div class="col-md-6 image--floated image--feature revealOnScroll">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Calendar and Contacts');?></p>
@@ -173,7 +173,7 @@
 <section class="section--calls">
 	<a name="calls" id="calls"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll">
+		<div class="col-md-6 revealOnScroll image--feature">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Secure audio and video calls');?></p>
@@ -186,7 +186,7 @@
 <section class="section--Collabora">
 	<a name="collabora" id="collabora"></a>
 	<div class="container">
-		<div class="col-md-6 image--floated revealOnScroll">
+		<div class="col-md-6 image--floated image--feature revealOnScroll">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-nw.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('View and edit documents with Collabora');?></p>
@@ -201,7 +201,7 @@
 <section class="section--appstore">
     <a name="appstore" id="appstore"></a>
     <div class="container">
-        <div class="col-md-6 revealOnScroll">
+        <div class="col-md-6 revealOnScroll image--feature">
             <a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/appstore.png"/></a>
         </div>
             <p class="section--paragraph__tittle"><?php echo $l->t('Add dozens more features through Nextcloud Apps');?></p>

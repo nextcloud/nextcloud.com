@@ -1,0 +1,60 @@
+@import "variables.scss";
+@import "modules/secondmenu";
+@import "transparent-navbar.scss";
+
+.features-background {
+  background: url("../img/headers/yourcloud.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width $break-small) {
+	.image--feature {
+		margin-top: 10px;
+	}
+}
+
+.acess__anywhere {
+	width: 400px;
+    margin: 0 auto;
+}
+
+.section--files {
+	padding-top: 80px;
+}
+
+.section--whitepaper {
+	padding: 0;
+
+	h2 {
+		line-height: normal;
+	}
+}
+
+section {
+	padding: 100px 0;
+
+	.section--paragraph__tittle {
+/* 		padding: 0; */
+	}
+}
+
+.section--more {
+	.container-widest .row {
+		margin-left: 5px;
+		margin-right: 5px;
+}
+    .section--heading-1 {
+        padding-bottom: 60px;
+    }
+    i[class*='fa-'] {
+    font-size: 60px;
+    display: block;
+    color: #0082c9;
+    text-align: center;
+    padding-top: 20%;
+    }
+}
+.calltoaction {
+    padding-bottom: 100px;
+}
