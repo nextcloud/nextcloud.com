@@ -89,4 +89,8 @@ $DOWNLOAD_CLIENT_MOBILE_FDROID = 'https://f-droid.org/repository/browse/?fdfilte
 $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA = 'https://f-droid.org/repository/browse/?fdid=com.nextcloud.android.beta';
 // $DOWNLOAD_CLIENT_MOBILE_AMAZON = 'https://www.amazon.com/Nextcloud-Inc/dp/B00944PQMK';
 $DOWNLOAD_CLIENT_MOBILE_WIN = 'https://www.microsoft.com/store/apps/9nblggh532xq';
+
+// Outlook Add-in
+$DOWNLOAD_OUTLOOK_ADDON_FREE = 'https://download.nextcloud.com/outlook/20170706/';
+
 ?>
