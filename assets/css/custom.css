@@ -484,12 +484,18 @@ h5 {
   line-height: 1.5;
   color: #555; }
 
+.image--feature {
+  margin-top: 65px; }
+
 .image--floated {
   float: right; }
 
 @media (max-width 768px) {
   .image--floated {
-    float: none; } }
+    float: none; }
+
+  .image--feature {
+    margin-top: 10px; } }
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
