@@ -4,7 +4,7 @@
 		require(["require.config"], function() {
 			require(["pages/box"])
 		});
-	</script>	
+	</script>
 </head>
 <section class="section-top-jumbotron">
 	<div class="container">
@@ -15,9 +15,9 @@
 
 <section class="section-data-home">
 	<div class="container">
-		<div class="col-xs-8 col-centered">		
+		<div class="col-xs-8 col-centered">
 		<h2 class="section--heading-1 section--text--center  revealOnScroll"><?php echo $l->t('Bring your data home');?></h2>
-		<p class="section--intro section--text--center  revealOnScroll"><?php echo $l->t('The Nextcloud Box is your private cloud. It stores your data and enables 
+		<p class="section--intro section--text--center  revealOnScroll"><?php echo $l->t('The Nextcloud Box is your private cloud. It stores your data and enables
 		you to sync between your devices and share with others.');?></p>
 		<a class="button button--blue button--arrow button--large revealOnScroll" href="<?php echo home_url('features') ?>" role="button"><?php echo $l->t('Know Nextcloud</a>');?>
 		</div>
@@ -38,8 +38,8 @@
 			<p class="section--paragraph"><?php echo $l->t('The Box is hardware-compatible with the Raspberry Pi 2 and 3, and the oDroid C2.');?></p>
 		</div>
 		<div class="col-md-6">
-			<p class="section--paragraph"><?php echo $l->t('Right now, the OS only works with the Raspberry Pi 2. Software support for Raspberry Pi 3 is planned for April 2017. There is no plan for oDroid C2 yet but Linux Kernel 4.10 has support planned for the hardware so second half 2017 is a reasonable guess.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Note that by default, the Nextcloud Box only works on the network it is connected to (like your home LAN). It requires configuration of encryption (https) and router ports to reach it from outside your home network.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The box is delivered with an OS image which only works with the Raspberry Pi 2. You can download a software image that works for the <a class="hyperlink" href="https://download.nextcloud.com/server/images/ubuntu-core-16-armhf-rpi3-installer-20170329.img">PI3 from our download server here</a> (<a class="hyperlink" href="https://download.nextcloud.com/server/images/ubuntu-core-16-armhf-rpi3-installer-20170329.img.md5sum">md5sum</a>). There is no support image for oDroid C2 however you can find excellent tutorials on <a class="hyperlink" href="https://www.c-rieger.de/">installing and running Nextcloud on a oDroid C2 by community member Carsten Rieger.</a>');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Note that by default, the Nextcloud Box only works on the network it is connected to (like your home LAN). It requires configuration of encryption (https) and router ports to reach it from outside your home network. We provide scripts for enabling SSL using Letsencrypt, see <a class="hyperlink" href="https://github.com/nextcloud/nextcloud-snap/wiki">our documentation</a>.');?></p>
 		</div>
 	</div>
 </section>
@@ -50,7 +50,7 @@
 			<div class="box-perspective col-md-8 revealOnScroll"></div>
 			<div class="wrapper-text col-md-4">
 				<h2 class="section--title revealOnScroll"><?php echo $l->t('Get the box');?></h2>
-				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Currently you can only purchase the Nextcloud Box in Europe and the USA. We are working on bringing the box to other regions!');?></p>
+				<p class="section--paragraph revealOnScroll"><?php echo $l->t('You can only purchase the Nextcloud Box in most of Europe and the USA.');?></p>
 				<div class="button button--blue button--dropdown">
 					<input class="dropdown-toggle" type="text">
 					<div class="dropdown-text">Select your country</div>
