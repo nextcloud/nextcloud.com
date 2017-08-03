@@ -69,16 +69,9 @@
   background-position: center;
   background-size: cover; }
 
-@media (min-width: 991px) {
-  .img-responsive {
-    margin-bottom: 200px; } }
-@media (min-width: 1600px) {
-  .img-responsive {
-    margin-bottom: 100px; } }
-
-.image--floated {
-  float: right; }
-
+@media (max-width 768px) {
+  .image--feature {
+    margin-top: 10px; } }
 .acess__anywhere {
   width: 400px;
   margin: 0 auto; }
@@ -89,7 +82,7 @@
 section {
   padding: 100px 0; }
   section .section--paragraph__tittle {
-    padding: 0; }
+    /* 		padding: 0; */ }
 
 .section--more .container-widest .row {
   margin-left: 5px;
