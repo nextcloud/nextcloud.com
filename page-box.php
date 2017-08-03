@@ -34,7 +34,7 @@
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud case with room for the drive and a compute board');?></p>
 			<p class="section--paragraph"><?php echo $l->t('microUSB charger, cables and adapters, a screw driver and screws');?></p>
 			<p class="section--paragraph"><?php echo $l->t('microSD card with Snappy Ubuntu Core as OS, including Apache, MySQL and the latest Nextcloud 10 pre-installed and ready to go');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The Box does not come with a Raspberry Pi.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('<strong>The Box does not come with a Raspberry Pi.</strong>');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The Box is hardware-compatible with the Raspberry Pi 2 and 3, and the oDroid C2.');?></p>
 		</div>
 		<div class="col-md-6">
