@@ -115,6 +115,14 @@ blockquote {
     vertical-align: -0.8em;
     font-family: serif; }
 
+.pr blockquote {
+	margin: 0 0 -15px 0;
+	padding: 10px 10px 0px 10px;
+}
+
+.pr p {
+	margin: 0 0 30px;
+}
 .btn {
 	border-radius: 50px;
 	line-height: 1.7;

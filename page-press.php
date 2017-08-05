@@ -4,6 +4,7 @@
 <!-- <a href="/nine" class="btn btn-lg btn-default">Overview of new features</a> -->
 <h2>Press releases</h2>
 <ul>
+	<li><a href="/press/pr20170807/">Nextcloud and Partners Announce Education Edition With Moodle, Zenodo and other integration features</a></li>
 	<li><a href="/press/pr20170522/">Nextcloud announces Global Scale architecture as part of Nextcloud 12</a></li>
 	<li><a href="/press/pr20170508/">Nextcloud and Adfinis SyGroup sign strategic partnership</a></li>
 	<li><a href="/press/pr20170502/">Nextcloud 12 Beta Introduces the Next Generation of Secure Collaboration</a></li>
