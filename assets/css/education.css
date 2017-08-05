@@ -1,0 +1,230 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+/* gradient behind transparent nav */
+.nav:not(.scrolled) {
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+  /* IE6-9 */ }
+
+.separator {
+  margin: 100px 0 50px 0;
+  height: 40px;
+  background: #f6f6f6; }
+
+.education-background {
+  background: url("../img/headers/education1.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px; }
+
+@media (min-width: 991px) {
+  .img-responsive {
+    margin-bottom: 50px; } }
+@media (min-width: 1600px) {
+  .img-responsive {
+    /* 	margin-bottom: 0px; */ } }
+
+.image--floated {
+  float: right; }
+
+section .section--paragraph--tittle {
+  padding: 0; }
+section .row {
+  padding: 20px 0 20px 0; }
+
+.video {
+  margin-bottom: 30px; }
+
+.section--customers {
+  /* 	max-width: 100%; */
+  position: relative; }
+  .section--customers .container {
+    padding-top: 8.54297em;
+    padding-bottom: 8.54297em; }
+  .section--customers .customer {
+    position: relative; }
+    .section--customers .customer .customer-logo {
+      float: center;
+      height: 400px;
+      position: relative;
+      line-height: 400px;
+      text-align: center;
+      width: 100%;
+      max-width: 60vw;
+      margin-left: auto;
+      margin-right: auto;
+      vertical-align: middle;
+      /*			svg {
+      				vertical-align: middle;
+      				float:none;
+      				width: auto;
+      				height: 400px;
+      				padding-bottom: 100px;
+      			}*/ }
+      .section--customers .customer .customer-logo img {
+        max-width: 90%;
+        vertical-align: middle; }
+      .section--customers .customer .customer-logo .scaling-svg-container {
+        /* 				position: relative; */
+        height: 0;
+        width: 100%;
+        padding: 0;
+        padding-bottom: 100%;
+        /* override this inline for aspect ratio other than square */ }
+      .section--customers .customer .customer-logo svg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        /* 		max-width: 50vw; */
+        left: 0;
+        top: 0; }
+      @media (max-width: 991px) {
+        .section--customers .customer .customer-logo {
+          height: 300px;
+          line-height: 300px; } }
+      @media (max-width: 768px) {
+        .section--customers .customer .customer-logo {
+          height: 200px;
+          line-height: 200px; } }
+
+.section--eduedition {
+  padding: 100px 0 150px; }
+  .section--eduedition .img-responsive {
+    margin-bottom: 5px; }
+
+.section--whitepaper {
+  margin: 100px 0 100px 0; }
+
+.section--easy .container {
+  padding-top: 8.54297em;
+  padding-bottom: 8.54297em; }
+  .section--easy .container .section--intro {
+    max-width: 43.24878em;
+    margin: 0 auto; }
+  .section--easy .container .feature--block {
+    padding-bottom: 60px; }
+  .section--easy .container .easy--ilustration {
+    background: url(../img/globalscale/distribution.svg) no-repeat center/contain;
+    /*       width: 950px; */
+    height: 600px;
+    max-width: 100%;
+    max-height: 60vw;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 60px; }
+
+.section--scalability .container {
+  padding-top: 8.54297em;
+  padding-bottom: 8.54297em; }
+  .section--scalability .container .section--intro {
+    max-width: 43.24878em;
+    margin: 0 auto; }
+  .section--scalability .container .efficiency--ilustration {
+    background: url(../img/globalscale/splitup.svg) no-repeat center/contain;
+    height: 600px;
+    max-width: 100%;
+    max-height: 60vw;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 60px; }
+
+.section--control .container {
+  padding-top: 8.54297em;
+  padding-bottom: 8.54297em; }
+  .section--control .container .section--intro {
+    max-width: 43.24878em;
+    margin: 0 auto; }
+  .section--control .container .distribution--ilustration {
+    background: url(../img/globalscale/balancer.svg) no-repeat center/contain;
+    height: 600px;
+    max-width: 100%;
+    max-height: 60vw;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 60px; }
+.section--control .claim--container {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 40px 30px 40px;
+  background: #FFFFFF;
+  border: 1px solid #FCFCFC;
+  -webkit-box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
+  box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14); }
+.section--control .claim--brand {
+  padding-top: 0px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .section--control .claim--brand--logo {
+    background: url("../img/security/ncc_logo.png") no-repeat center/contain;
+    width: 46px;
+    height: 46px; }
+  .section--control .claim--brand--text {
+    margin: 0;
+    padding: 0 0 0 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #6c6c6c; }
+
+.section--features {
+  /*	background-color: #eee;*/
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0 0 0 0; }
+  .section--features .container-widest .row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px; }
+    .section--features .container-widest .row .section--intro {
+      max-width: 43.24878em;
+      margin: 0 auto; }
+  .section--features .section--heading-1 {
+    padding-bottom: 60px; }
+  .section--features i[class*='fa-'] {
+    font-size: 60px;
+    display: block;
+    color: #0082c9;
+    text-align: center;
+    padding-top: 20%; }
+  .section--features row {
+    padding: 0px; }
+
+footer {
+  margin-top: 0px; }
+
+.quote {
+  margin: 0 0 0 0;
+  /* 	padding: 70px 0 70px 0; */
+  padding-top: 90px;
+  background: #0082c9;
+  color: white; }
+  .quote h2 {
+    color: white; }
+  .quote .row {
+    margin-bottom: 0px; }
+  .quote p {
+    color: white; }
+  .quote .hyperlink {
+    color: white; }
+
+/*# sourceMappingURL=education.css.map */

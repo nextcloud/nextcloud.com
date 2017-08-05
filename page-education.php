@@ -30,8 +30,8 @@ require(["require.config"], function() {
 <div class="container">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-            <p class="section--paragraph"><?php echo $l->t('Students and staff at research and educational organizations handle large amounts of data. Papers are written, reviewed and read; data is gathered, shared and analyzed; and models are built.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Working seamlessly on these large amounts of data across multiple platforms, departments and institutions in a easy and efficient way is paramount. Universities need a scalable, reliable and easy to use solution under full control of the IT department. Nextcloud provides exactly that!');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Students and staff at research and educational organizations handle large amounts of data. Papers are written, reviewed and read; data is gathered, shared and analyzed; and models are built.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Working seamlessly on these large amounts of data across multiple platforms, departments and institutions in a easy and efficient way is paramount. Universities need a scalable, reliable and easy to use solution under full control of the IT department. The <em>Nextcloud Education Edition</em> provides exactly that!');?></p>
 		</div>
 	</div>
 </div>
@@ -66,7 +66,57 @@ require(["require.config"], function() {
     </div>
 </div>
 </section>
-
+<div class="separator"></div>
+<section class="section--eduedition">
+<div class="container">
+    <h2 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Education Edition');?></h2>
+    <div class="row">
+		<div class="col-md-8 col-md-offset-2">
+            <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('The Nextcloud Education Edition is a bundle of about a dozen Nextcloud apps available for easy installation within the Nextcloud interface. The apps have been developed for the educational market in collaboration with research institutions and software vendors active in the educational sector. See below for a selection of the included apps.');?></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 app-feature">
+            <img class="img-responsive revealOnScroll" src="<?php bloginfo('template_directory'); ?>/assets/img/features/moodle-nw.png" />
+            <h2 class="section--heading-2 text-center revealOnScroll">Moodle</h2>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('The Moodle integration offers users the ability to access files from Nextcloud, adding, removing or sharing them from within Moodle. More features are in development through a collaboration between Moodle Pty Ltd and Nextcloud GmbH.');?></p>
+        </div>
+        <div class="col-sm-4 app-feature">
+            <img class="img-responsive revealOnScroll" src="<?php bloginfo('template_directory'); ?>/assets/img/features/zenodo-nw.png" />
+            <h2 class="section--heading-2 text-center revealOnScroll">Zenodo</h2>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('The Zenodo Publishing app enables researchers to publish papers on the popular Zenodo.org platform, developed and supported by European Science Accellerators CERN.');?></p>
+        </div>
+        <div class="col-sm-4 app-feature">
+            <img class="img-responsive revealOnScroll" src="<?php bloginfo('template_directory'); ?>/assets/img/features/orcid-nw.png" />
+            <h2 class="section--heading-2 text-center revealOnScroll">ORCID & SAML</h2>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Educational organizations often use SAML, Shibboleth, Kerberos and ORCID authentication. These and more authentication mechanisms are available in the Education Edition.');?></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 app-feature">
+            <img class="img-responsive revealOnScroll" src="<?php bloginfo('template_directory'); ?>/assets/img/features/circles-nw.png" />
+            <h2 class="section--heading-2 text-center revealOnScroll">Circles</h2>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Developed for DeiC, the collective of Danish universities, Circles facilitates the collaboration in always-changing groups that students and teachers participate in.');?></p>
+        </div>
+        <div class="col-sm-4 app-feature">
+            <img class="img-responsive revealOnScroll" src="<?php bloginfo('template_directory'); ?>/assets/img/features/dashboard-nw.png" />
+            <h2 class="section--heading-2 text-center revealOnScroll">Dashboard</h2>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('The Dashboard app came from a collaboration with regio iT and is used at hundreds of schools in Europe. It provides a quick overview of file changes, calendar events and more.');?></p>
+        </div>
+        <div class="col-sm-4 app-feature">
+            <img class="img-responsive revealOnScroll" src="<?php bloginfo('template_directory'); ?>/assets/img/features/groupfolders-nw.png" />
+            <h2 class="section--heading-2 text-center revealOnScroll">Group Folders</h2>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('The Group Folders app enables administrators to create special folders available to users of designated groups. These can not be unshared or removed, making sure access is always possible.');?></p>
+        </div>
+    </div>
+    <div class="row">
+		<div class="col-md-4 col-md-offset-4 text-center">
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('<a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-moodle-and-4-other-partners-announce-education-edition">Learn more about the Education Edition in the announcement.</a> <br />Special GEÁNT pricing is available for research and educational organizations.');?></p>
+            <a href="/enterprise/buy" class="button button--blue button--arrow button--large"><?php echo $l->t('Contact Sales');?></a>
+        </div>
+    </div>
+</div>
+</section>
 
 
 <section class="section--whitepaper quote">
@@ -110,8 +160,7 @@ require(["require.config"], function() {
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Group management');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Students and teachers have a variety of classes and work in always-changing teams and groups. Nextcloud supports their workflow with the Circles app, enabling users to create, share, join and leave groups of their own in which they can collaborate and share.');?></p>
-<!--                 <a href="/workflow" class="button button--blue button--arrow button--large"><?php echo $l->t('Workflow handling');?></a> -->
+                <p class="section--paragraph"><?php echo $l->t('Students and teachers have a variety of classes and work in always-changing teams and groups. Nextcloud supports their workflow with the <a href="https://apps.nextcloud.com/apps/circles">Circles app,</a> enabling users to create, share, join and leave groups of their own in which they can collaborate and share.');?></p>
             </div>
         </div>
         <div class="row">
@@ -121,7 +170,6 @@ require(["require.config"], function() {
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Multi-platform');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Universities can not dictate what devices are used by the students and need to support a wide range of tablets, phones, laptop and desktop operating systems. Nextcloud has excellent Android and iOS clients as well as Windows, Mac and Linux desktop apps that make data accessible on any device.');?></p>
-<!--                 <a href="/workflow" class="button button--blue button--arrow button--large"><?php echo $l->t('Workflow handling');?></a> -->
             </div>
         </div>
         <div class="row">
@@ -131,7 +179,6 @@ require(["require.config"], function() {
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Productivity');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Students can tag and comment on files for easy collaboration, roll back files to earlier versions or find deleted files in the trash. Real time collaborative editing and secure audio/video calls and chat complement the array of features aimed at enhancing productivity.');?></p>
-<!--                 <a href="/workflow" class="button button--blue button--arrow button--large"><?php echo $l->t('Workflow handling');?></a> -->
             </div>
         </div>
         <!--<div class="row text-center whitepaper revealOnScroll">
@@ -149,9 +196,6 @@ require(["require.config"], function() {
         </div>-->
     </div>
 </section>
-
-
-
 
 <div class="separator"></div>
 <a name="scalability"></a>

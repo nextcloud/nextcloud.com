@@ -195,6 +195,12 @@
 				</a>
 				<p  class="partnertext"><a href="http://wdlabs.wd.com/">WDLabs™</a> is a business growth incubator of storage solutions leader <a href="http://www.wdc.com/en/">Western Digital Corporation</a> (NASDAQ:WDC). We work with Western Digital Labs on the <a href="/box">Nextcloud Box project</a> to create a device that makes it easier for people to self-host their data.</p>
 			</div>
+			<div class="col-md-4">
+				<a href="http://www.moodle.com/" target="_blank" title="Moodle">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/moodle.png" title="Moodle" />
+				</a>
+				<p  class="partnertext">Moodle is the popular learning platform used at countless universities around the globe (more than 80 million users!) and developed by a large community supported by Moodle Pty Ltd and it's CEO and founder Martin Dougiamas.</p>
+			</div>
 		</div>
 		<br /><br />
 		<p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
