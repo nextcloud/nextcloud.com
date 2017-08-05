@@ -1,18 +1,36 @@
-@charset "UTF-8";
-@import "variables";
-@import "modules/normalize";
-@import "modules/no-js";
-@import "modules/alerts";
+// Import file
+//
+// This file should be used only for importing common code
 
-/* Please don't remove, useful for testing. */
-/* * {border:1px solid red} */
+@charset 'UTF-8';
 
-/*Colors*/
-/*Shadows*/
-/*Breakpoints*/
-/*Colors*/
-/*Shadows*/
-/*Breakpoints*/
+// Importing bootstrap modules
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/buttons';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navs';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities';
+
+// Importing modules
+@import 'variables';
+@import 'modules/normalize';
+@import 'modules/typography';
+@import 'modules/no-js';
+@import 'modules/code';
+@import 'modules/alerts';
+@import 'modules/header';
+@import 'modules/footer';
+@import 'modules/slideshow';
+@import 'modules/secondmenu';
+@import 'modules/hero';
+
+
+// To remove everything above and split in other files
 .jumbotron--heading-1 {
   padding-top: 0;
   color: white !important;
@@ -124,268 +142,6 @@ float: none;
 	}
 }
 
-
-
-/*Colors*/
-/*Shadows*/
-/*Breakpoints*/
-.slideshow {
-  background-color: transparent;
-  overflow: hidden;
-  height: 100%;
-  position: relative;
-  padding: 130px 0; }
-  @media (max-width: 991px) {
-    .slideshow {
-      padding: 0; } }
-  .slideshow .section--heading-1 {
-    position: absolute;
-    margin: auto 0;
-    text-align: center;
-    width: 100%; }
-    @media (max-width: 991px) {
-      .slideshow .section--heading-1 {
-        position: relative;
-        padding-top: 130px; } }
-  .slideshow .container .container-image-center {
-    padding-top: calc((100vh - 435px) /2);
-    padding-bottom: calc((100vh - 435px) /2); }
-    @media (max-width: 1400px) {
-      .slideshow .container .container-image-center {
-        padding-top: calc((100vh - 315px) /2);
-        padding-bottom: calc((100vh - 315px) /2); } }
-    @media (max-width: 991px) {
-      .slideshow .container .container-image-center {
-        padding-top: 50px;
-        padding-bottom: 203px;
-        margin-left: -13px; } }
-    @media (max-width: 768px) {
-      .slideshow .container .container-image-center {
-        padding-bottom: 260px; } }
-    @media (max-width: 600px) {
-      .slideshow .container .container-image-center {
-        padding-bottom: 180px; } }
-    @media (max-width: 340px) {
-      .slideshow .container .container-image-center {
-        padding-bottom: 130px; } }
-    .slideshow .container .container-image-center .image-back {
-      position: absolute;
-      height: 440px; }
-      @media (max-width: 1200px) {
-        .slideshow .container .container-image-center .image-back {
-          width: 100%;
-          height: auto; } }
-    .slideshow .container .container-image-center .image-top-container {
-      position: relative;
-      overflow: hidden;
-      z-index: 1;
-      width: 507px;
-      height: 318px;
-      top: 17px;
-      left: 17px; }
-      .slideshow .container .container-image-center .image-top-container .image-top {
-        position: absolute;
-        width: 100%;
-        top: 0;
-        transition: all ease-in 0.3s; }
-        .slideshow .container .container-image-center .image-top-container .image-top.image__desktop {
-          left: 0 !important; }
-        .slideshow .container .container-image-center .image-top-container .image-top.image__mobile {
-          top: 0 !important; }
-        @media (max-width: 991px) {
-          .slideshow .container .container-image-center .image-top-container .image-top {
-            width: auto;
-            height: 100%;
-            max-width: none; } }
-  .slideshow .container .texts-wrapper {
-    height: 100vh; }
-    @media (max-width: 991px) {
-      .slideshow .container .texts-wrapper {
-        height: auto;
-        padding-bottom: 80px; } }
-    .slideshow .container .texts-wrapper .right-text-grey {
-      margin-top: calc((100vh - 266px) /2);
-      padding-bottom: calc((100vh - 236px) /2);
-      opacity: 1;
-      padding-top: 0;
-      transition: all 0.3s ease; }
-      .slideshow .container .texts-wrapper .right-text-grey .textTrigger {
-        font-size: 18px; }
-      .slideshow .container .texts-wrapper .right-text-grey .section--paragraph {
-        font-size: 16px !important;
-        font-weight: 400 !important;
-        color: #6c6c6c; }
-      @media (max-width: 991px) {
-        .slideshow .container .texts-wrapper .right-text-grey {
-          margin-top: 0;
-          padding-bottom: 0;
-          text-align: left;
-          display: none;
-          opacity: 0; }
-          .slideshow .container .texts-wrapper .right-text-grey.active {
-            display: block;
-            opacity: 1;
-            transform: translate3d(0px, 0px, 0px); }
-          .slideshow .container .texts-wrapper .right-text-grey.swiperight {
-            transform: translate3d(-150px, 0px, 0px);
-            opacity: 0; }
-          .slideshow .container .texts-wrapper .right-text-grey.swipeleft {
-            transform: translate3d(150px, 0px, 0px);
-            opacity: 0; } }
-  .slideshow .indicators {
-    -webkit-transition: all .5s;
-    transition: all .5s;
-    opacity: 0;
-    position: fixed;
-    z-index: 2;
-    bottom: 50vh;
-    right: 0; }
-    @media (max-width: 991px) {
-      .slideshow .indicators {
-        position: absolute;
-        bottom: 0;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        top: 600px;
-        width: 70px; } }
-    .slideshow .indicators .btn_carousel {
-      margin-top: 10px;
-      width: 14px;
-      height: 14px;
-      color: transparent;
-      border: 1px solid $nextcloud-blue;
-      background-color: $nextcloud-blue;
-      border-radius: 50%;
-      padding: 0;
-      -webkit-transform: scale(0.5);
-      -ms-transform: scale(0.5);
-      transform: scale(0.5);
-      -webkit-transition: all 250ms ease-in-out;
-      transition: all 250ms ease-in-out; }
-      @media (max-width: 991px) {
-        .slideshow .indicators .btn_carousel {
-          display: inline-block; } }
-      .slideshow .indicators .btn_carousel:hover {
-        background-color: transparent;
-        -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-        transform: scale(1); }
-      .slideshow .indicators .btn_carousel a {
-        text-decoration: none;
-        display: block;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0; }
-    .slideshow .indicators .btn_carousel.active {
-      background-color: transparent;
-      -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-      transform: scale(1); }
-      .slideshow .indicators .btn_carousel.active a {
-        background-color: transparent;
-        -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-        transform: scale(1); }
-  .slideshow .active {
-    opacity: 1; }
-
-@media (max-width: 768px) {
-  .slideshow-mobile .text-container {
-    padding-top: 80px; }
-  .slideshow-mobile .carousel-control {
-    display: none; }
-  .slideshow-mobile .carousel-indicators {
-    top: 320px;
-    z-index: 1; }
-    .slideshow-mobile .carousel-indicators li {
-      width: 28px;
-      height: 28px;
-      color: transparent;
-      border: 2px solid $nextcloud-blue;
-      background-color: $nextcloud-blue;
-      border-radius: 50%;
-      padding: 0;
-      -webkit-transform: scale(0.5);
-      -ms-transform: scale(0.5);
-      transform: scale(0.5);
-      -webkit-transition: all 250ms ease-in-out;
-      transition: all 250ms ease-in-out; }
-      .slideshow-mobile .carousel-indicators li.active {
-        box-shadow: none;
-        background-color: transparent;
-        -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-        transform: scale(1); } }
-.slideshow-mobile {
-  /*  hide on non-mobile */
-  background: -webkit-linear-gradient(#fff 0%, #f6f6f6 150px);
-  background: -o-linear-gradient(#fff 0%, #f6f6f6 150px);
-  background: linear-gradient(#fff 0%, #f6f6f6 150px);
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 10px;
-  padding-right: 10px;
-  height: 600px; }
-  @media (min-width: 1200px) {
-    .slideshow-mobile {
-      display: none; } }
-  @media (max-width: 768px) {
-    .slideshow-mobile {
-      height: 800px; }
-      .slideshow-mobile img {
-        max-height: 400px;
-        width: auto;
-        margin-left: auto;
-        margin-right: auto; } }
-  .slideshow-mobile .carousel-fade .carousel-inner .item {
-    opacity: 0;
-    -webkit-transition-property: opacity;
-    -moz-transition-property: opacity;
-    -o-transition-property: opacity;
-    transition-property: opacity; }
-  .slideshow-mobile .carousel-fade .carousel-inner .active {
-    opacity: 1; }
-  .slideshow-mobile .carousel-fade .carousel-inner .active.left,
-  .slideshow-mobile .carousel-fade .carousel-inner .active.right {
-    left: 0;
-    opacity: 0;
-    z-index: 1; }
-  .slideshow-mobile .carousel-fade .carousel-inner .next.left,
-  .slideshow-mobile .carousel-fade .carousel-inner .prev.right {
-    opacity: 1; }
-  .slideshow-mobile .carousel-fade .carousel-control {
-    z-index: 2;
-    position: absolute;
-    top: 45%;
-    width: 40px;
-    height: 40px;
-    color: #fff;
-    background: #222;
-    border: 3px solid #fff;
-    -webkit-border-radius: 23px;
-    -moz-border-radius: 23px;
-    border-radius: 23px;
-    opacity: .5;
-    filter: alpha(opacity=50); }
-    @media (max-width: 768px) {
-      .slideshow-mobile .carousel-fade .carousel-control {
-        top: 20%; } }
-    .slideshow-mobile .carousel-fade .carousel-control .glyphicon {
-      /*        margin-top: -15px; */
-      margin: -15px;
-      font-size: 30px; }
-  .slideshow-mobile .carousel-fade .carousel-indicators li {
-    box-shadow: 0px 0px 3px grey;
-    margin: 7px; }
-  .slideshow-mobile html, .slideshow-mobile body, .slideshow-mobile .carousel, .slideshow-mobile .carousel-inner, .slideshow-mobile .carousel-inner .item {
-    height: 100%; }
-
-/*Colors*/
-/*Shadows*/
-/*Breakpoints*/
 .second-menu .menu {
   background: #fbfbfb;
   border-top: solid 1px #e4e4e4;
@@ -852,37 +608,6 @@ blockquote {
 
 }
 
-/* typical background images (hero section) like enterprise, security */
-.background {
-  padding-bottom: 0;
-  padding-top: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 0 !important;
-  height: 70vh;
-  min-height: 600px;
-  max-height: 800px;
-  position: relative;
-  opacity: 0; }
-  .background h1 {
-    padding-top: 0;
-    color: white; }
-  .background h2 {
-    color: white;
-    font-size: 20px;
-    line-height: 1.6;
-	text-shadow: 0px 0px 10px #333; }
-  .background .topheader {
-    position: absolute;
-    top: 30%;
-    margin: 0;
-    padding: 0;
-    max-width: 600px;
-    opacity: 0; }
-    @media (max-width: 991px) {
-      .background .topheader {
-        padding-left: 5%; } }
-
 .btn-primary {
   background-color: $nextcloud-blue;
   font-size: 18px;
@@ -959,196 +684,6 @@ blockquote {
     line-height: 1.5;
 /*     text-align: center; */
     color: #2a2a36; } }
-.highlights {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin: -16px 0 0 -16px;
-  padding: 0;
-  list-style: none; }
-@media (max-width: 1024px) {
-    .highlights {
-        display: block;
-        text-align: center;
-        margin: 0 10px 0 10px; } }
-
-.highlights_align {
-  padding-top: 100px;
-  flex-basis: 33.33333%;
-  max-width: 33.33333%;
-  padding-left: 64px; }
-.highlights_align:first-child {
-    padding-left: 0px; }
-@media (max-width: 1024px) {
-    .highlights_align {
-        flex-basis: auto;
-        max-width: none;
-        padding-left: 0;
-        padding-top: 50px; } }
-.highlights_align svg {
-    margin-left: -10px; }
-@media (max-width: 1200px) {
-    .highlights_align svg {
-        margin-left: 0; } }
-.highlights_align .section--paragraph {
-    font-size: 16px; }
-.highlights_align h4 {
-    text-align: center;
-    margin-top: 20px;
-    margin-left: -20px;
-    margin-bottom: 0; }
-@media (max-width: 1200px) {
-.highlights_align h4 {
-    margin-left: 0; } }
-
-/* Youtube dialog */
-.yt-img-overlay {
-    position: relative;
-    left: 0;
-    top: 0;
-    overflow: hidden;
-    display: block;
-    height: auto;
-    text-decoration: none;
-    color: white;
-    z-index: 1;
-    img {
-    width: 110%;
-    height: auto;
-    margin: -10% 0 -10% 0;
-    overflow: hidden;
-    }
-    .yt-play-btn {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    padding-left: 40%;
-    padding-top: 23%;
-    i {
-    background-image: url("../img/common/YTplay.svg");
-    background-position: center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-clip: border-box;
-    border: 0px;
-    width: 102px;
-    height: 75px;
-/*     width: 68px; */
-/*     height: 50px; */
-    display: inline-block; } }
-    .yt-play-btn:hover i {
-        background-image: url("../img/common/YTplayHover.svg");
-        transition: background-image 0.1s;
-        -webkit-transition: background-image 0.1s; }
-}
-
-
-@media (min-width: 991px) {
-    .yt-img-overlay .yt-play-btn {
-    padding-left: 40%;
-    padding-top: 26%;
-    i {
-        width: 68px;
-        height: 50px; }
-    }
-
-    .col-md-4 .yt-img-overlay .yt-play-btn, .col-md-5 .yt-img-overlay .yt-play-btn {
-        padding-left: 38%;
-        padding-top: 25%;
-    }
-    .col-md-6 .yt-img-overlay .yt-play-btn, .col-md-7 .yt-img-overlay .yt-play-btn {
-        padding-left: 45%;
-        padding-top: 29%;
-    }
-  .col-md-10 .yt-img-overlay .yt-play-btn, .col-md-11 .yt-img-overlay .yt-play-btn, .col-md-12 .yt-img-overlay .yt-play-btn {
-    padding-left: 45%;
-    padding-top: 22%;
-    width: 100%;
-    height: 100%;
-    /* In case of a big video, make the button bigger, too */
-    i {
-      width: 102px;
-      height: 75px; } }
-}
-
-/* Make sure you don't get scrollbars! */
-.ui-dialog .ui-dialog-content {
-  overflow: hidden !important; }
-
-.YouTubeDialog {
-  width: 50% !important;
-  height: 50% !important;
-  padding: 5px; }
-  .YouTubeDialog .ui-dialog-content {
-    height: 100% !important; }
-
-.yt-row {
-  /* correction for row with yt images */
-  /* 	margin-left: 15% !important; */ }
-
-@media (max-width: 991px) {
-  .YouTubeDialog {
-    width: 100% !important;
-    height: 40% !important;
-    /* 		padding: 5px; */ }
-
-  .yt-row {
-    margin-left: 0% !important; }
-
-  .col-md-4.yt-img-overlay {
-    /* compensate for the 1% margin yt images need */
-    width: 97%; }
-
-  .col-md-3.yt-img-overlay {
-    /* compensate for the 1% margin yt images need */
-    width: 97%; } }
-/*	Make YouTube videos responsive */
-@media (min-width: 995px) {
-  .videoWrapper {
-    position: relative;
-    padding-bottom: 28.12%;
-    /* 16:9 - lets them be quarter screen size.	56.25% for full */
-    padding-top: 25px;
-    width: 50%;
-    /* 100%	for full screen size */
-    height: 0; }
-
-  .videoWrapper iframe {
-    position: absolute;
-    margin-left: 50%;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; } }
-@media (max-width: 996px) {
-  .videoWrapper {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    width: 100%;
-    padding-left: -50%; }
-
-  .videoWrapper iframe, .videoWrapper object, .videoWrapper embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; } }
-@media (max-width: 768px) {
-  .yt-img-overlay .yt-play-btn {
-    padding-left: 33%;
-    padding-top: 26%; } }
-
 
 /* Blue call to action bar */
 
@@ -1272,5 +807,3 @@ blockquote {
 		}
 	}
 }
-
-/*# sourceMappingURL=custom.scss.map */

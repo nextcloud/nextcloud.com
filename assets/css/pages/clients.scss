@@ -1,0 +1,20 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+.clients-background {
+  background: url("../../img/headers/clients.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section--paragraph__tittle {
+	padding: 0;
+}
+
+.section--desktop {
+	padding: 100px 0;
+}
+
+.section--mobile {
+	padding: 100px 0;
+}

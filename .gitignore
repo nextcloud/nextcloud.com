@@ -8,4 +8,6 @@ l10n/
 .idea/
 .DS_Store
 *.kate-swp
-vendor/
+*.log
+*.css
+!.scss
