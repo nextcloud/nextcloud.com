@@ -3,7 +3,7 @@
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/education.css" rel="stylesheet">
 <script>
 require(["require.config"], function() {
-	require(["pages/education"])
+	require(["pages/education", "modules/submenu", "bootstrap"])
 });
 </script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
@@ -19,6 +19,7 @@ require(["require.config"], function() {
 	</div>
     <div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
+            <a href="#eduedition"><?php echo $l->t('education edition');?></a>
 			<a href="#easy"><?php echo $l->t('ease of use');?></a>
 			<a href="#scalability"><?php echo $l->t('scalability');?></a>
 			<a href="#control"><?php echo $l->t('control');?></a>
@@ -66,6 +67,8 @@ require(["require.config"], function() {
     </div>
 </div>
 </section>
+
+<a name="eduedition"></a>
 <div class="separator"></div>
 <section class="section--eduedition">
 <div class="container">
