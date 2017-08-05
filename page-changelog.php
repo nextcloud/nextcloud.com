@@ -11,6 +11,172 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest12"></a>
+<h3 id="12-0-1">Version 12.0.1 <small>August 7 2017</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.1.tar.bz2">nextcloud-12.0.1.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.1.zip">nextcloud-12.0.1.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.1.tar.bz2.md5">nextcloud-12.0.1.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.1.zip.md5">nextcloud-12.0.1.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.1.tar.bz2.sha256">nextcloud-12.0.1.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.1.zip.sha256">nextcloud-12.0.1.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.1.tar.bz2.sha512">nextcloud-12.0.1.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.1.zip.sha512">nextcloud-12.0.1.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.1.tar.bz2.asc">nextcloud-12.0.1.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.1.zip.asc">nextcloud-12.0.1.zip.asc</a></p>
+
+<h4>Changes</h4>
+<h5>Server</h5>
+Over 100 fixes were merged in the server.
+<ul>
+<li><a href="https://github.com/nextcloud/server/issues/5909">Update broken on PGSQL</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5919">Add brackets around concat statements so comparing the result works a…</a></li>
+<li><a href="https://github.com/nextcloud/server/issues/4968">Can't close PDF preview</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5902">Add a repair step to drop the account_terms table on oc migration</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5896">[stable12] Fix show password button for password change</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5883">[stable12] Enable postgres on drone again</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5889">fix overlay on show password</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5875">[stable12] Add new bundle</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5858">[stable12] proper logo height in emails for Outlook</a></li>
+<li><a href="https://github.com/nextcloud/server/issues/4987">scan.nextcloud.com causing exception in theming?</a></li>
+<li><a href="https://github.com/nextcloud/server/issues/4831">Long running php processes: LDAP timeout</a></li>
+<li><a href="https://github.com/nextcloud/server/issues/5102">X-XSS-Protection header invalid (NextCloud 12.0.0.29)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5830">[stable12] Fix for mb strlen</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5826">[stable12] Fix error message on untrusted domain error page</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5757">[12] Fix renaming of non-renamble mounts</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5786">[12] Also repair storage id's when repairing invalid entries</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5754">[12] still remove the federated share even if we cant notify the remote</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5792">[stable12] Show warning if PHP 7.2 is used</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5805">[stable12] fix preview for public links</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5807">[stable12] Fix config.sample.php documentation</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5630">[stable12] Add recovery key on public upload</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5759">[stable12] Backport translation fixes</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5804">[stable12] Enable acceptance tests again on Drone 0.7</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5796">[stable12] Backport allow to theme emails</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5777">[stable 12] Add ellipsis for app titles in the app menu popover</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5784">[stable12] Fix emitting of legacy hook post_unshare</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5782">[stable12] Allow overwriting of IOS theming values</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5765">Update 3rdparty for "Fix infinite propfinds reporting files as direct…</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5771">[12] Fix invalid path repair step not getting all invalid entries</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5762">[stable12] Add test to check if new files are added to the root of the repository</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5711">[12] null users dont exist </a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5710">[12] Fix scan permissions with nested permissions masks </a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5655">[12] fix moving folders out of a cache jail </a></li>
+<li><a href="https://github.com/nextcloud/server/issues/4965">Moving shared folders doesn't work as expected</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5697">Write cert bundle to tmp file first</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5692">[12] properly block file upload to non-active filelist</a></li>
+<li><a href="https://github.com/nextcloud/server/issues/4941">nc beta 4 internal server error due to totp backup codes</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5687">[12] Fix propagating changes within jail wrapper</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5463">[12] dont die if we try to access the shared cache while setting up the shared storage</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5686">hint should not be clickable</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5484">Check if Circles is still here</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5435">[stable12] Allow dir-listing also when one child is blocked by access control</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5679">[stable12] Fix unselecting items on multi select dropdowns</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5670">[stable12] Fix remote share activity emails</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5667">[stable12] fix alignment of radio button and its label in encryption settings</a></li>
+<li><a href="https://github.com/nextcloud/server/issues/5639">Remote share emails doesn't show what's shared.</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5665">[stable12] Ldap password renewal fixes for NC12</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5648">[stable12] Use PNG icons for activity emails and ios client</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5458">[stable12] Use the share_folder config for remote shares</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5617">[stable12] Don't load navigation entries of restricted apps</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5433">[stable12] Don't try to generate logs for chunking paths</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5619">[stable12] Don't log passwords on dav exceptions</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5434">Use translated Hint instead of english error on password policy</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5613">[stable12] Add info text about updates</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5584">[stable12] Use base url for cache prefix and SCSS caching</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5525">[stable12] Enhance the logging if the part file can not be renamed</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5601">[stable12] Improved logging for object storage and trashbin</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5583">[stable12] Fix more icon in apps menu on bright backgrounds</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5507">[stable12] Use realpath to obtain the webroot</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5521">[stable12] Don't create activities for email and password change before login</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5509">[stable12] Allow to force a language and set it via the ocs api</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5511">[stable12] Create users in non default backends first</a></li>
+<li><a href="https://github.com/nextcloud/server/issues/4895">Progress bar message completely wrong with multi-GB file upload</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5489">[stable12] Fix example theme</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5480">[stable12] Don't try to save the setting when its not an admin</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5200">Update layout.user.php</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5442">Fix upload remaining time and uploadrate value</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5420">[stable12] App menu fixes</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5428">[stable12] Allow to find local users by their email address</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5422">[stable12] Treat PHP Errors on User session regenerate</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5210">[stable12] Ldap attempt reconnect stable12</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5301">[stable12] allow users to send PropPatch request when calendar is group-shared with them</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5299">[stable12] urldecode group principals in Cal- and CardDAV backend</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5416">[stable12] Use the guest.css for the maintenance page as well</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5397">[stable12] Fixed a crash caused by Local::copyFromStorage() not conforming to Co…</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5026">[stable12] Make file name input tooltip error text change</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5401">Translate OAuth2 in stable12</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5402">[stable12] Localize contacts menu search input placeholder</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5386">[stable12] Prevent sending second WWW-Authenticate header</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5362">[stable12] don't try to encrypt/decrypt the certificate bundle</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5296">[stable12] allow PropPatch requests to contact_birthdays</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5063">[stable12] Fix username and avatar for external users</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5379">[stable12] Fix tag label removed when share view is opened</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5387">[stable12] Fix unknown share token error message</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5388">[stable12] no themed icon when dragging folder</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5389">[stable12] Add quota to the files view</a></li>
+<li><a href="https://github.com/nextcloud/server/issues/5346">"Unspecified share exception" instead of proper 404 page on unknown public share tokens</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5382">[stable12] fix "add to your nextcloud" input field</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5385">[stable12] Revert "allow admin to disable groups on personal page"</a></li>
+<li><a href="https://github.com/nextcloud/server/issues/5088">Bearer auth backend causes problems with several dav clients</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5365">[stable12] filter missing groups in share provider</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5303">[stable12] use the email address configured in Nextcloud as sender instead of the users email address</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5354">[stable12] execute eval in global scope, addresses #5314</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5355">[stable12] l10n improvements from transifex</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5422">[stable12] Treat PHP Errors on User session regenerate</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5210">[stable12] Ldap attempt reconnect stable12</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5301">[stable12] allow users to send PropPatch request when calendar is group-shared with them</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5299">[stable12] urldecode group principals in Cal- and CardDAV backend</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5416">[stable12] Use the guest.css for the maintenance page as well</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5397">[stable12] Fixed a crash caused by Local::copyFromStorage() not conforming to Co…</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5026">[stable12] Make file name input tooltip error text change</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5401">Translate OAuth2 in stable12</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5402">[stable12] Localize contacts menu search input placeholder</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5386">[stable12] Prevent sending second WWW-Authenticate header</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5362">[stable12] don't try to encrypt/decrypt the certificate bundle</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5296">[stable12] allow PropPatch requests to contact_birthdays</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5063">[stable12] Fix username and avatar for external users</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5379">[stable12] Fix tag label removed when share view is opened</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5387">[stable12] Fix unknown share token error message</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5388">[stable12] no themed icon when dragging folder</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5389">[stable12] Add quota to the files view</a></li>
+<li><a href="https://github.com/nextcloud/server/issues/5346">"Unspecified share exception" instead of proper 404 page on unknown public share tokens</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5382">[stable12] fix "add to your nextcloud" input field</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5385">[stable12] Revert "allow admin to disable groups on personal page"</a></li>
+<li><a href="https://github.com/nextcloud/server/issues/5088">Bearer auth backend causes problems with several dav clients</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5365">[stable12] filter missing groups in share provider</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5303">[stable12] use the email address configured in Nextcloud as sender instead of the users email address</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5354">[stable12] execute eval in global scope, addresses #5314</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/5355">[stable12] l10n improvements from transifex</a></li>
+</ul>
+
+<h5>Activity</h5>
+<ul>
+<li><a href="https://github.com/nextcloud/activity/pull/177">[stable12] Fix mimetype icon of deleted folders</a></li>
+<li><a href="https://github.com/nextcloud/activity/pull/176">[stable12] Use PNG icons for emails and ios client</a></li>
+<li><a href="https://github.com/nextcloud/activity/pull/175">[stable12] Ignore paths from chunking</a></li>
+</ul>
+
+<h5>Notifications</h5>
+<ul>
+<li><a href="https://github.com/nextcloud/notifications/pull/86">Allow to expand the message on click... </a></li>
+</ul>
+
+<h5>text editor</h5>
+<ul>
+<li><a href="https://github.com/nextcloud/files_texteditor/pull/56">[stable12] Use text editor endpoint for previews</a></li>
+<li><a href="https://github.com/nextcloud/files_texteditor/pull/46">[stable12] Use CRLF line ending by default for better compatibility</a></li>
+</ul>
+
+<h5>Gallery</h5>
+<ul>
+<li><a href="https://github.com/nextcloud/gallery/pull/303">Fix link when opening from files</a></li>
+<li><a href="https://github.com/nextcloud/gallery/pull/302">[stable12] Do not use propably outdated core translations</a></li>
+<li><a href="https://github.com/nextcloud/gallery/pull/298">Fix the translation source</a></li>
+<li><a href="https://github.com/nextcloud/gallery/pull/289">[stable12] Fix logged error if file ID is not available</a></li>
+<li><a href="https://github.com/nextcloud/gallery/pull/284">[stable12] Merge JS for public pages</a></li>
+</ul>
+
+<h5>PDF viewer</h5>
+<ul>
+<li><a href="https://github.com/nextcloud/files_pdfviewer/pull/40">missing context dir</a></li>
+<li><a href="https://github.com/nextcloud/files_pdfviewer/pull/38">Fix z index for small screen sizes</a></li>
+</ul>
+
 <h3 id="12-0-0">Version 12.0.0 <small>May 22 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.tar.bz2">nextcloud-12.0.0.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.zip">nextcloud-12.0.0.zip</a></br>
 Check the file integrity with:</br>
