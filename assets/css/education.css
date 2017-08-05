@@ -98,6 +98,11 @@ section .row {
           height: 200px;
           line-height: 200px; } }
 
+.section--eduedition {
+  padding: 100px 0 150px; }
+  .section--eduedition .img-responsive {
+    margin-bottom: 5px; }
+
 .section--whitepaper {
   margin: 100px 0 100px 0; }
 
