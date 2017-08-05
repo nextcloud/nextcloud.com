@@ -4,7 +4,7 @@
             <h1>Privacy and Legal Policy - Introduction and summary</h1>
         </div>
         <p>We recognize that privacy is extremely important to all visitors to our website. We do not share any individual information with anybody without your permission.</p>
-        <p>We use <a href="http://piwik.org/">Piwik</a> to get information on how our website is used and use <a href="https://www.phplist.com/">phplist</a> to handle our newsletters. From neither will we hand over individual data to anybody else. Any privacy breaches we will disclose as soon as possible.</p>
+        <p>We use <a href="http://piwik.org/">Piwik</a> to get information on how our website is used and use <a href="https://www.phplist.com/">phplist</a> to handle our newsletters. From neither will we hand over individual data to anybody else. Any privacy breaches we will disclose as soon as possible. Our <a href="https://scan.nextcloud.com">security scanner</a> is strictly based on publicly available information, that is the list of known vulnerabilities relevant for ownCloud/Nextcloud releases as well as any applied hardenings/settings we can scan without having access to the server.</p>
         <p>Please note that <a href="/news">nextcloud.com/news</a> aggregates community blogs and we can not be held responsible for their opinions or content.</p>
         <p>Our software, be it the Nextcloud server or the Android or iOS apps, do not sent any user data to us unless you explicitly enable such reporting through the server-side Usage Survey app.</p>
         <p>If you see any problems, please report it to <a href="mailto:abuse@nextcloud.com">abuse@nextcloud.com</a>.</p>
