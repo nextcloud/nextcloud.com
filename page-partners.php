@@ -56,7 +56,7 @@
 				<p  class="partnertext">dass IT GmbH in Cologne , founded in 2004 by former senior consultants of Suse Linux, is primarily a system integrator, offering support and consulting around Linux and Open Source Software. As a long-standing owncloud partner dass IT can help you migrate from ownCloud to Nextcloud or to build a private cloud from scratch.</p>
 			</div>
 		</div>
-		
+
 		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.daseq.de/produkte/nextcloud/" target="_blank" title="DASEQ">
@@ -77,7 +77,7 @@
 				<p  class="partnertext">HKN has been making the internet easier for its customers since 1996. We are a specialist for fully managed Servers hosted in Germany with German privacy protection.</p>
 			</div>
 		</div>
-		
+
 		<div class="row">
 			<div class="col-md-4">
 				<a href="https://360ict.nl/" target="_blank" title="360ICT">
@@ -98,7 +98,7 @@
 				<p  class="partnertext">Netcloud AG is a Winterthur (Zurich)-based company with 130 employees. Core competencies include consulting, designing, implementing and operating IT infrastructure solutions around Cisco technology, borderless networks, data-center and unified communications solutions.</p>
 			</div>
 		</div>
-		
+
 		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.regioit.de/" target="_blank" title="Regioit">
@@ -119,7 +119,7 @@
 				<p  class="partnertext">Since 2013, Stylez has grown by focusing on integration and Business Process Outsourcing. Today Stylez expands its scope into cloud and open source services, keeping up their focus on customers and quality.</p>
 			</div>
 		</div>
-		
+
 		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.teebase.eu" target="_blank" title="Teebase Ltd">
@@ -139,8 +139,8 @@
 				</a>
 				<p  class="partnertext"></p>
 			</div>-->
-			
-			
+
+
 		</div>
 	</div>
 </section>
@@ -171,7 +171,7 @@
 				<p  class="partnertext">Collabora Productivity is the world’s leading LibreOffice services company and one of the biggest contributors to the LibreOffice for desktop codebase. It is the driving force behind putting LibreOffice in the Cloud with Collabora Online.</p>
 			</div>
 		</div>
-		
+
 		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.openinventionnetwork.com" target="_blank" title="OIN">
@@ -192,7 +192,7 @@
 				<p  class="partnertext">TWS is the official provider of Nexcloud iOS Client. The company has its headquarters in Italy and it mainly deals with design and development of web-based application software.</p>
 			</div>
 		</div>
-		
+
 		<div class="row">
 			<div class="col-md-4">
 				<a href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/" target="_blank" title="Western Digital Labs">
@@ -200,8 +200,14 @@
 				</a>
 				<p  class="partnertext"><a href="http://wdlabs.wd.com/">WDLabs™</a> is a business growth incubator of storage solutions leader <a href="http://www.wdc.com/en/">Western Digital Corporation</a> (NASDAQ:WDC). We work with Western Digital Labs on the <a href="/box">Nextcloud Box project</a> to create a device that makes it easier for people to self-host their data.</p>
 			</div>
+			<div class="col-md-4">
+				<a href="http://www.moodle.com/" target="_blank" title="Moodle">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/moodle.png" title="Moodle" />
+				</a>
+				<p  class="partnertext">Moodle is the popular learning platform used at countless universities around the globe (more than 80 million users!) and developed by a large community supported by Moodle Pty Ltd and it's CEO and founder Martin Dougiamas.</p>
+			</div>
 		</div>
 		<br /><br />
 		<p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
 	</div>
-	
+
