@@ -51,7 +51,7 @@ section .row {
   position: relative; }
   .section--customers .container {
     padding-top: 8.54297em;
-    padding-bottom: 8.54297em; }
+    /*     padding-bottom: ms(1); */ }
   .section--customers .customer {
     position: relative; }
     .section--customers .customer .customer-logo {
@@ -99,7 +99,7 @@ section .row {
           line-height: 200px; } }
 
 .section--eduedition {
-  padding: 50px 0 150px; }
+  padding: 100px 0 150px; }
   .section--eduedition .img-responsive {
     margin-bottom: 5px; }
 
