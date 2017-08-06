@@ -219,6 +219,49 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p><a href="https://github.com/nextcloud/server/milestone/10?closed=1">See a full list of integrated pull requests here.</a></p>
 
 <a name="latest11"></a>
+<h3 id="11-0-4">Version 11.0.4 <small>August 7 2017</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.4.tar.bz2">nextcloud-11.0.4.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.4.zip">nextcloud-11.0.4.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.4.tar.bz2.md5">nextcloud-11.0.4.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.4.zip.md5">nextcloud-11.0.4.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.4.tar.bz2.sha256">nextcloud-11.0.4.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.4.zip.sha256">nextcloud-11.0.4.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.4.tar.bz2.sha512">nextcloud-11.0.4.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.4.zip.sha512">nextcloud-11.0.4.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.4.tar.bz2.asc">nextcloud-11.0.4.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.4.zip.asc">nextcloud-11.0.4.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+<li><a href="https://github.com/nextcloud/server/pull/5884">[stable11] Enable postgres on drone again</li>
+<li><a href="https://github.com/nextcloud/server/issues/5636">Argument 1 passed to OC\Group\MetaData::generateGroupMetaData() must implement interface OCP\IGroup, null given</li>
+<li><a href="https://github.com/nextcloud/server/pull/5813">[stable11] Skip null groups in group manager</li>
+<li><a href="https://github.com/nextcloud/server/pull/5793">[stable11] Show warning if PHP 7.2 is used</li>
+<li><a href="https://github.com/nextcloud/server/pull/5806">[stable11] fix preview for public links</li>
+<li><a href="https://github.com/nextcloud/server/pull/5809">[stable11] Fix config.sample.php documentation</li>
+<li><a href="https://github.com/nextcloud/server/pull/5760">[stable11] Backport translation fixes</li>
+<li><a href="https://github.com/nextcloud/server/pull/5631">[stable11] Add recovery key on public upload</li>
+<li><a href="https://github.com/nextcloud/server/pull/5763">[stable11] Add test to check if new files are added to the root of the repository</li>
+<li><a href="https://github.com/nextcloud/server/pull/5464">[11] dont die if we try to access the shared cache while setting up the shared storage</li>
+<li><a href="https://github.com/nextcloud/server/pull/5680">[stable11] Fix unselecting items on multi select dropdowns</li>
+<li><a href="https://github.com/nextcloud/server/pull/5215">[stable11] some sharing settings</li>
+<li><a href="https://github.com/nextcloud/server/pull/5575">allow to disable upload to lookup server, by default it is enabled</li>
+<li><a href="https://github.com/nextcloud/server/pull/5499">[stable11] Don't try to save the setting when its not an admin</li>
+<li><a href="https://github.com/nextcloud/server/pull/5493">[stable11] Fix upload remaining time</li>
+<li><a href="https://github.com/nextcloud/server/pull/5190">[stable11] Treat PHP Errors on User session regenerate</li>
+<li><a href="https://github.com/nextcloud/server/issues/3699">Backport fix for colon in folder name on dav</li>
+<li><a href="https://github.com/nextcloud/server/pull/5363">[stable11] don't try to encrypt/decrypt the certificate bundle</li>
+<li><a href="https://github.com/nextcloud/server/pull/4913">[stable11] Fix mimetype update query</li>
+<li><a href="https://github.com/nextcloud/server/pull/5366">[stable11] filter missing groups in share provider</li>
+<li><a href="https://github.com/nextcloud/server/issues/4794">Doctrine\DBAL\Exception\DriverException updating oc_filecache table with PostgreSQL</a>
+</li>
+<li><a href="https://github.com/nextcloud/server/pull/5214">[stable11] Trigger changeUser hook only on real changes</li>
+<li><a href="https://github.com/nextcloud/server/pull/5128">[stable11] Add layer on top of LDAP methods to catch server disconnects and attempt re-connection</li>
+<li><a href="https://github.com/nextcloud/server/pull/4999">fix for sharing stable 11</li>
+<li><a href="https://github.com/nextcloud/server/pull/4919">[11] round the mtime in touch
+<li><a href="https://github.com/nextcloud/server/pull/4801">[stable11] SSL menu is now shown for files_external</li>
+<li><a href="https://github.com/nextcloud/server/pull/4622">[11] dont spam log when request can't access filesystem</li>
+<li><a href="https://github.com/nextcloud/server/pull/4491">[11] Prevent PHP request to get killed when using fclose callback (#26775)</li>
+<li><a href="https://github.com/nextcloud/server/pull/4459">[stable11] Fix the storage info and other checks when the user has wrong casing</li>
+<li><a href="https://github.com/nextcloud/server/pull/4474">[stable11] Add unit tests for mounts of delete users</li>
+</ul>
+
 <h3 id="11-0-3">Version 11.0.3 <small>April 24 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.3.tar.bz2">nextcloud-11.0.3.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.3.zip">nextcloud-11.0.3.zip</a></br>
 Check the file integrity with:</br>
@@ -463,6 +506,23 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p><a href="https://github.com/nextcloud/server/milestone/6?closed=1">See a full list of integrated pull requests here.</a></p>
 
 <a name="latest10"></a>
+<h3 id="10-0-6">Version 10.0.6 <small>August 7 2017</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.6.tar.bz2">nextcloud-10.0.6.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.6.zip">nextcloud-10.0.6.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.6.tar.bz2.md5">nextcloud-10.0.6.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.6.zip.md5">nextcloud-10.0.6.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.6.tar.bz2.sha256">nextcloud-10.0.6.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.6.zip.sha256">nextcloud-10.0.6.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.6.tar.bz2.sha512">nextcloud-10.0.6.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.6.zip.sha512">nextcloud-10.0.6.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.6.tar.bz2.asc">nextcloud-10.0.6.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.6.zip.asc">nextcloud-10.0.6.zip.asc</a></p>
+
+<h4>Changes</h4>
+<h5>Server</h5>
+<ul>
+ 	<li><a href="https://github.com/nextcloud/server/issues/1569">Upgrade to 10.0.1 fails on Remove shares of a users root folder</a></li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/4802">[stable10] SSL menu is now shown for files_external</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/4460">[stable10] Fix the storage info and other checks when the user has wrong casing</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/4475">[stable10] Add unit tests for mounts of delete users</a></li>
+</ul>
+
 <h3 id="10-0-5">Version 10.0.5 <small>April 24 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.5.tar.bz2">nextcloud-10.0.5.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-10.0.5.zip">nextcloud-10.0.5.zip</a></br>
 Check the file integrity with:</br>
