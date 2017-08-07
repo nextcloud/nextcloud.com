@@ -85,8 +85,8 @@ $DOWNLOAD_CLIENT_MOBILE_IOS = 'https://itunes.apple.com/us/app/nextcloud/id11254
 $DOWNLOAD_CLIENT_MOBILE_ANDROID = 'https://play.google.com/store/apps/details?id=com.nextcloud.client';
 $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA = 'https://play.google.com/apps/testing/com.nextcloud.client';
 // $DOWNLOAD_CLIENT_MOBILE_BLACKBERRY = 'https://appworld.blackberry.com/webstore/content/59955931/';
-$DOWNLOAD_CLIENT_MOBILE_FDROID = 'https://f-droid.org/repository/browse/?fdfilter=com.nextcloud';
-$DOWNLOAD_CLIENT_MOBILE_FDROID_BETA = 'https://f-droid.org/repository/browse/?fdid=com.nextcloud.android.beta';
+$DOWNLOAD_CLIENT_MOBILE_FDROID = 'https://f-droid.org/packages/com.nextcloud.client/';
+$DOWNLOAD_CLIENT_MOBILE_FDROID_BETA = 'https://f-droid.org/packages/com.nextcloud.android.beta/';
 // $DOWNLOAD_CLIENT_MOBILE_AMAZON = 'https://www.amazon.com/Nextcloud-Inc/dp/B00944PQMK';
 $DOWNLOAD_CLIENT_MOBILE_WIN = 'https://www.microsoft.com/store/apps/9nblggh532xq';
 
