@@ -91,8 +91,8 @@ require(["require.config"], function() {
         </div>
         <div class="col-sm-4 app-feature">
             <img class="img-responsive revealOnScroll" src="<?php bloginfo('template_directory'); ?>/assets/img/features/orcid-nw.png" />
-            <h2 class="section--heading-2 text-center revealOnScroll">ORCID & SAML</h2>
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Educational organizations often use SAML, Shibboleth, Kerberos and ORCID authentication. These and more authentication mechanisms are available in the Education Edition.');?></p>
+            <h2 class="section--heading-2 text-center revealOnScroll">SAML</h2>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Educational organizations often use SAML, Shibboleth and Kerberos. These and more authentication mechanisms are available in the Education Edition.');?></p>
         </div>
     </div>
     <div class="row">
