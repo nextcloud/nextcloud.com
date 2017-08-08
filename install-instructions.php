@@ -40,7 +40,7 @@
 						<div class="col-md-6">
 							<p><?php echo $l->t('The <strong>Web Installer</strong> is the easiest way to install Nextcloud on a web space. It checks the dependencies, downloads Nextcloud from the official server, unpacks it with the right permissions and the right user account. Finally, you will be redirected to the Nextcloud installer.');?></p>
 							<ol>
-								<li><?php echo $l->t('Right-click <a class="hyperlink" href="https://download.nextcloud.com/server/installer/setup-nextcloud.php">here</a> and save the file to your computer');?></li>
+								<li><?php echo $l->t('Right-click');?> <a class="hyperlink" href="<?php echo $DOWNLOAD_SERVER_WEB_INSTALLER; ?>"><?php echo $l->t('here');?></a> <?php echo $l->t('and save the file to your computer');?></li>
 								<li><?php echo $l->t('Upload <tt>setup-nextcloud.php</tt> to your web space');?></li>
 								<li><?php echo $l->t('Point your web browser to <tt>setup-nextcloud.php</tt> on your webspace');?></li>
 								<li><?php echo $l->t('Follow the instructions and configure Nextcloud');?></li>
