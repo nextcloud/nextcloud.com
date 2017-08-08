@@ -68,7 +68,7 @@ $DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases
 $DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-12.0.1RC5.zip';
 
 // web installer
-$DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.nextcloud.com/download/community/setup-nextcloud.php';
+$DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.nextcloud.com/server/installer/setup-nextcloud.php';
 
 // VM
 $DOWNLOAD_VM_BASE = 'http://download.nextcloud.com/production/vm/';
