@@ -42,7 +42,6 @@
 		<ul>
 			<li><?php echo $l->t('Latest 12.x release');?></li>
 			<li><?php echo $l->t('Latest 11.x release');?></li>
-			<li><?php echo $l->t('Latest 10.x release');?></li>
 		</ul>
 
 		<p><?php echo $l->t('You will find our Maintenance and Release Schedule <a href="https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule">on GitHub</a>. Please have a close look into the End of Life-section.');?></p>
