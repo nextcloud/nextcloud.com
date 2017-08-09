@@ -141,7 +141,7 @@
 // 			var chosenEdition = theForm.elements["edition"];
 			doCalculation();
 		}
-		
+
 		function getUsersPrice() {
 		    var usersPrice=0;
 		    //Get a reference to the form id="orderform"
@@ -151,7 +151,7 @@
 			var chosenEdition = theForm.elements["edition"];
 			var edugovDiscount = theForm.elements["edugov"];
 		    //set users price based on the number of users chosen and the edition. Yes, we could calculate this but that is complicated and it is easier updated as well this way.
-		    if(chosenEdition.value=="basic") 
+		    if(chosenEdition.value=="basic")
 		    {
 				if(usersNumber.value==50)
 				{
@@ -178,7 +178,7 @@
 					usersPrice = 6400;
 				}
 			}
-		    if(chosenEdition.value=="standard") 
+		    if(chosenEdition.value=="standard")
 		    {
 				if(usersNumber.value=="50")
 				{
@@ -206,8 +206,8 @@
 				}
 			}
 			// apply multi-year discount and edu/gov/charity discount
-			usersPrice = multiYearDiscount(anyDiscount(usersPrice,0.80));
-			
+			usersPrice = multiYearDiscount(edugovcharDiscount(usersPrice));
+
 		    //finally we return usersPrice
 		    return usersPrice;
 		}
@@ -225,6 +225,31 @@
 			}
 			return amount;
 		}
+
+		// function to apply the standard discounts over the three categories.
+		function edugovcharDiscount(amount)
+		{
+			//Get a reference to the form id="orderform", to education discount and duration
+			var theForm = document.forms["orderform"];
+		    var discount = theForm.elements["edugov"];
+		    if(discount.value!="no")
+			{
+				if(discount.value=="edu")
+                {
+                    return amount *= 0.9;
+                }
+                if(discount.value=="gov")
+                {
+                    return amount *= 0.8;
+                }
+                if(discount.value=="charity")
+                {
+                    return amount *= 0.8;
+                }
+			}
+			return amount;
+		}
+
 		// function to optionally apply an equal discount percentage over any of the three categories.
 		function anyDiscount(amount,percentage)
 		{
@@ -244,7 +269,7 @@
 			//Get a reference to the form id="orderform", to education discount and duration
 			var theForm = document.forms["orderform"];
 			var contractLength = theForm.elements["duration"];
-			
+
 			if(contractLength.value==2)
 			{
 				return price *= 1.90;
@@ -255,7 +280,7 @@
 			}
 			else return price;
 		}
-		
+
 		function getOptionsPrice() {
 		    var optionsPrice=0;
 			var collaboraPrice = 0;
@@ -274,16 +299,16 @@
 		    var edugovDiscount = theForm.elements["edugov"];
 
 		    //check if they are checked and if so, add the monies
-		    
+
 			// collabora, Outlook and remote install only with Standard
 			if(includeOutlook.checked==true)
 			{
 				outlookPrice = multiYearDiscount(selectedUsersNumber.value * 5);
-				// apply 20% edu/gov/charity discount
-				outlookPrice = anyDiscount(outlookPrice,.80);
+				// apply edu/gov/charity discount
+				outlookPrice = edugovcharDiscount(outlookPrice);
 				optionsPrice = optionsPrice + outlookPrice;
 			}
-			if(chosenEdition.value!=="basic") 
+			if(chosenEdition.value!=="basic")
 			{
 				if(includeCollaboraCheck.checked==true)
 				{
@@ -291,7 +316,7 @@
 					if( selectedUsersNumber.value <= 100)
 					{
 					collaboraPrice = multiYearDiscount(selectedUsersNumber.value * 17);
-					} 
+					}
 					else if (selectedUsersNumber.value > 99)
 					{
 					collaboraPrice = multiYearDiscount(1683 + (selectedUsersNumber.value - 99) * 16);
@@ -342,7 +367,7 @@
 			// var includeSpreed = theForm.elements["spreed"];
 			var includeRemoteinstall = theForm.elements["remoteinstall"];
 			var chosenEdition = theForm.elements["edition"];
-			var agreedToTerms = theForm.elements["terms"];    
+			var agreedToTerms = theForm.elements["terms"];
 			var submitButton = theForm.elements["submit"];
 			var selectedUsersNumber = theForm.elements["users"];
 // 			document.getElementById("collaboraUserNumberChoiceDiv").style.display = "none";
@@ -359,7 +384,7 @@
 			var numberOfSelectedUsers = selectedUsersNumber.value;
 // 			document.getElementById("minUsers").style.fontWeight = "normal";
 // 			document.getElementById("maxUsers").style.fontWeight = "normal";
-			
+
                 // you can't have less collabora users than Nextcloud users
 // 			if(includeCollaboraCheck.checked==false)
 // 			{
@@ -368,11 +393,11 @@
 // 			if(includeCollaboraCheck.checked==true)
 // 			{
 // 				document.getElementById("collaboraUserNumberChoiceDiv").style.display = "block";
-// 				
+//
 // 				if(parseInt(numberOfCollaboraUsers) < 20) {
 // 					numberOfCollaboraUsers = numberOfSelectedUsers;
 // 				}
-// 				
+//
 // 				if(((parseInt(numberOfCollaboraUsers) * 4) + 1) < parseInt(numberOfSelectedUsers))
 // 				{
 // 					numberOfCollaboraUsers  = numberOfSelectedUsers / 4;
@@ -387,18 +412,18 @@
 // 						numberOfCollaboraUsers = 75;
 // 					}
 // 				}
-// 				
+//
 // 				if(parseInt(numberOfCollaboraUsers) > parseInt(numberOfSelectedUsers))
 // 				{
 // 					document.getElementById("maxUsers").style.fontWeight = "bold";
 // 					numberOfCollaboraUsers = numberOfSelectedUsers;
-// 
+//
 // 				}
-// 				
+//
 // 				includeCollaboraUsers.value = numberOfCollaboraUsers;
 // 			}
-			
-			
+
+
 			if(chosenEdition.value=="basic")
 			{
 				includeRemoteinstall.disabled = true;
@@ -408,7 +433,7 @@
 				// includeSpreed.disabled = true;
 				// includeBranding.disabled = true;
 			}
-			
+
 			// you can't pick premium so we set it back to standard and show the info about asking sales for a quote.
 // 			if(chosenEdition.value=="premium")
 // 			{
