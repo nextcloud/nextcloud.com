@@ -63,12 +63,13 @@ require get_template_directory().'/strings.php';
 				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Enterprise');?></a>
 					<ul class="nav__links">
 						<li class="nav__item"><a href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Overview');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('pricing') ?>"><?php echo $l->t('Pricing');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('buy') ?>"><?php echo $l->t('Get an offer');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('order') ?>"><?php echo $l->t('Order online');?></a></li>
+            <li class="nav__item"><a href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Education');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('compare') ?>"><?php echo $l->t('Compare with others');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('globalscale') ?>"><?php echo $l->t('Global Scale');?></a></li>
+            <li class="nav__item"><a href="<?php echo home_url('globalscale') ?>"><?php echo $l->t('Global Scale');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('compare') ?>"><?php echo $l->t('Compare');?></a></li>
+            <li class="nav__item"><a href="<?php echo home_url('pricing') ?>"><?php echo $l->t('Pricing');?></a></li>
+            <li class="nav__item"><a href="<?php echo home_url('buy') ?>"><?php echo $l->t('Get an offer');?></a></li>
+            <li class="nav__item"><a href="<?php echo home_url('order') ?>"><?php echo $l->t('Order online');?></a></li>
 					</ul>
 				</li>
 
