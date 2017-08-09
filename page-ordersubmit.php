@@ -64,18 +64,18 @@ if(isset($_POST['email'])) {
       if(RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
         $url = 'https://www.google.com/recaptcha/api/siteverify';
         $ch = curl_init();
-    
+
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_POST, 1);
         curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    
+
         $server_output = curl_exec($ch);
-    
+
         $server_output = json_decode($server_output, true);
-    
+
         curl_close($ch);
-    
+
         if (!isset($server_output['success']) || $server_output['success'] !== true) {
           $error_message .= 'The captcha result was invalid.<br />';
         }
@@ -169,8 +169,8 @@ if(isset($_POST['email'])) {
 
             switch ($edugov) {
                 case 'edu':
-                    $usersPrice *= 0.8;
-                    $outlookPrice *= 0.8;
+                    $usersPrice *= 0.9;
+                    $outlookPrice *= 0.9;
                     $collaboraPrice *= 0.25;
                     break;
                 case 'gov':
@@ -217,7 +217,7 @@ if(isset($_POST['email'])) {
         // JS calculated more than PHP ;)
         error_log("JS ($givenprice)calculated something different than PHP ($price) " . json_encode($_POST));
     }
-    
+
     function clean_string($string) {
         $bad = array("content-type","bcc:","to:","cc:","href");
         $string = str_replace($bad,"",$string);
@@ -248,7 +248,7 @@ if(isset($_POST['email'])) {
 	$email_message .= "Price: ".clean_string($givenprice)."\n";
 	//$email_message .= "Would like to pay in dollars: ".clean_string($dollars)."\n";
 	$email_message .= "Signed terms: ".clean_string($terms)."\n\n";
-    
+
     // create email headers
     $headers = 'From: no-reply@nextcloud.com'."\r\n".
     'Reply-To: '.$email_from."\r\n" .
