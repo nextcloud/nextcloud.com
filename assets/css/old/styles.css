@@ -127,6 +127,11 @@ blockquote {
 	border-radius: 50px;
 	line-height: 1.7;
 }
+/* Put images in blog really in center */
+.aligncenter {
+	margin: auto auto !important;
+}
+
 
 .btn-default {
 /* 	background: rgba(240,240,240,.9); */
