@@ -23,14 +23,14 @@ $NEXTCLOUD_GPG = 'https://nextcloud.com/nextcloud.asc';
 
 // Desktop client stable
 $DOWNLOAD_CLIENT_DESKTOP_BASE = 'https://download.nextcloud.com/desktop/releases/';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Windows/Nextcloud-2.3.1.8-setup.exe';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Mac/Installer/Nextcloud-2.2.4.1.pkg';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX = 'https://github.com/nextcloud/client_theming';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Windows/Nextcloud-2.3.2.1-setup.exe';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Mac/Installer/Nextcloud-2.3.2.1.pkg';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Linux/Nextcloud-2.3.2-x86_64.AppImage';
 $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES = 'https://github.com/nextcloud/client_theming';
 // $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES.'.asc';
 
 // Desktop client testing
-$VERSIONS_CLIENT_DESKTOP_TESTING = '2.3.2beta';
+$VERSIONS_CLIENT_DESKTOP_TESTING = '';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE= 'https://download.nextcloud.com/desktop/prereleases/';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'Windows/Nextcloud-2.3.2.1beta-setup.exe';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'Mac/Nextcloud-2.3.2.1beta.pkg';
