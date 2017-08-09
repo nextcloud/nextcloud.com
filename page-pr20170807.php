@@ -18,7 +18,7 @@ noted Frederik Orellana, lead cloud integration architect at DeiC.</p>
 
 <p>Together with German IT consulting organization regio iT, Nextcloud integrated the Dashboard app which provides users with a easy to use overview of new/changed files, mail, news or calendar events in one place. This Dashboard is already available to the 3000 users at 122 regional schools serviced by ucloud4schools, a regio iT product.</p>
 
-<p><blockquote>Nextcloud provides a powerful base to built additional functionality on. We will continue to extend our product, going beyond what an ordinary cloud can offer.</blockquote>
+<p><blockquote>Nextcloud provides a powerful base to build additional functionality on. We will continue to extend our product, going beyond what an ordinary cloud can offer.</blockquote>
 said Stefan Döhler, project manager at regio iT.</p>
 
 <p>The Education Edition also comes with our native Single Sign On & SAML authentication integration, which is compatible with all web servers and can handle group memberships, flexible session management and app specific passwords. Nextcloud also includes built in support for Oauth2 and through Apache modules, Nextcloud works with Kerberos, OpenID Connect and more. LDAP integration is also standard enabled.</p>
@@ -53,7 +53,7 @@ DeIC – Danish e-Infrastructure Cooperation has the stated aim of supporting th
 As an IT service provider, regio iT GmbH is a fair and reliable partner for municipalities and schools, energy utilities and waste disposal companies as well as non-profit organizations.<br />
 Based in Aachen and its subsidiary in Gütersloh, regio iT offers strategic and project-related IT consulting, integration, IT infrastructure and full service in four areas: IT service and operation, administration and finance, energy and waste disposal, education and development.<br />
 With over 380 employees, it currently supports more than 27,000 clients and more than 190 schools. The company generated revenues of EUR 58.2 million in 2016.<br />
-Learn more on <a href="https://www.regioit.de">www.regioit.de</a></p>
+Learn more on <a href="http://www.regioit.de">www.regioit.de</a></p>
 
 <p><strong>About the TU Berlin</strong><br />
 TU Berlin looks back at a long and distinguished tradition of teaching and research. In 1799 its most important predecessor, the Building Academy, was founded. In 1946 the university was re-established under the name of Technische Universität Berlin. The seven Faculties of the university offer 100 courses of study from the fields of engineering and natural sciences, economics and business, planning sciences, humanities and the social sciences. Enrollment at TU Berlin is about 32,000 and about 315 professors and an academic staff of 2,600 instruct the students, making it one of the largest technical universities in Germany.

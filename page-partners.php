@@ -204,8 +204,8 @@
 				<a href="http://www.moodle.com/" target="_blank" title="Moodle">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/moodle.png" title="Moodle" />
 				</a>
-				<p  class="partnertext">Moodle is the popular learning platform used at countless universities around the globe (more than 80 million users!) and developed by a large community supported by Moodle Pty Ltd and it's CEO and founder Martin Dougiamas.</p>
-			</div>
+				<p  class="partnertext">Moodle is the world's open source learning platform with a mission to empower educators to improve our world. Moodle provides educators with a private online space, filled with powerful, flexible tools for collaborative learning. Moodle is used in every country in the world by over 100 million registered users.</p>
+            </div>
 		</div>
 		<br /><br />
 		<p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
