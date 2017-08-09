@@ -206,7 +206,7 @@
 				}
 			}
 			// apply multi-year discount and edu/gov/charity discount
-			usersPrice = multiYearDiscount(anyDiscount(usersPrice,0.80));
+			usersPrice = multiYearDiscount(edugovcharDiscount(usersPrice));
 
 		    //finally we return usersPrice
 		    return usersPrice;
@@ -225,6 +225,31 @@
 			}
 			return amount;
 		}
+
+		// function to apply the standard discounts over the three categories.
+		function edugovcharDiscount(amount)
+		{
+			//Get a reference to the form id="orderform", to education discount and duration
+			var theForm = document.forms["orderform"];
+		    var discount = theForm.elements["edugov"];
+		    if(discount.value!="no")
+			{
+				if(discount.value=="edu")
+                {
+                    return amount *= 0.9;
+                }
+                if(discount.value=="gov")
+                {
+                    return amount *= 0.8;
+                }
+                if(discount.value=="charity")
+                {
+                    return amount *= 0.8;
+                }
+			}
+			return amount;
+		}
+
 		// function to optionally apply an equal discount percentage over any of the three categories.
 		function anyDiscount(amount,percentage)
 		{
@@ -279,8 +304,8 @@
 			if(includeOutlook.checked==true)
 			{
 				outlookPrice = multiYearDiscount(selectedUsersNumber.value * 5);
-				// apply 20% edu/gov/charity discount
-				outlookPrice = anyDiscount(outlookPrice,.80);
+				// apply edu/gov/charity discount
+				outlookPrice = edugovcharDiscount(outlookPrice);
 				optionsPrice = optionsPrice + outlookPrice;
 			}
 			if(chosenEdition.value!=="basic")
