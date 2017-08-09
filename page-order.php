@@ -232,21 +232,26 @@
 			//Get a reference to the form id="orderform", to education discount and duration
 			var theForm = document.forms["orderform"];
 		    var discount = theForm.elements["edugov"];
-		    if(discount.value!="no")
-			{
-				if(discount.value=="edu")
+		    var chosenEdition = theForm.elements["edition"];
+
+		    if(chosenEdition.value=="standard")
+		    {
+                if(discount.value!="no")
                 {
-                    return amount *= 0.9;
+                    if(discount.value=="edu")
+                    {
+                        return amount *= 0.9;
+                    }
+                    if(discount.value=="gov")
+                    {
+                        return amount *= 0.9;
+                    }
+                    if(discount.value=="charity")
+                    {
+                        return amount *= 0.9;
+                    }
                 }
-                if(discount.value=="gov")
-                {
-                    return amount *= 0.8;
-                }
-                if(discount.value=="charity")
-                {
-                    return amount *= 0.8;
-                }
-			}
+            }
 			return amount;
 		}
 

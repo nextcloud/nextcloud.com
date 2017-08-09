@@ -167,20 +167,23 @@ if(isset($_POST['email'])) {
                 $edugov = 'no';
             }
 
-            switch ($edugov) {
-                case 'edu':
-                    $usersPrice *= 0.9;
-                    $outlookPrice *= 0.9;
-                    $collaboraPrice *= 0.25;
-                    break;
-                case 'gov':
-                    $usersPrice *= 0.8;
-                    $outlookPrice *= 0.8;
-                    break;
-                case 'charity':
-                    $usersPrice *= 0.8;
-                    $outlookPrice *= 0.8;
-                    break;
+            // give discounts of 10% on standard, no discounts on basic
+            if ($edition === 'standard') {
+                switch ($edugov) {
+                    case 'edu':
+                        $usersPrice *= 0.9;
+                        $outlookPrice *= 0.9;
+                        $collaboraPrice *= 0.25;
+                        break;
+                    case 'gov':
+                        $usersPrice *= 0.9;
+                        $outlookPrice *= 0.9;
+                        break;
+                    case 'charity':
+                        $usersPrice *= 0.9;
+                        $outlookPrice *= 0.9;
+                        break;
+                }
             }
 
             if (!in_array($duration, [1, 2, 3])) {
