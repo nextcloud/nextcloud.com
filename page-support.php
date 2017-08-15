@@ -11,7 +11,7 @@
 </div>
 
 <div class="container">
-	<h2>Documentation</h2>
+	<h2><?php echo $l->t('Documentation');?></h2>
 	<p><?php echo $l->t('The Nextcloud documentation:');?></p>
 	<ul>
 		<li><a href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Admin manual');?></a></li>
@@ -19,7 +19,7 @@
 		<li><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>"><?php echo $l->t('Developer manual');?></a></li>
 	</ul>
 	<p><?php echo $l->t('Use and enjoy the many apps from our built in app store, or find even more on <a href="https://apps.nextcloud.com" target="_blank">the web app store</a>. Find');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/apps_management_installation.html"><?php echo $l->t('documentation on handling Apps here</a>.');?></p>
-	<h2>Help from others</h2>
+	<h2><?php echo $l->t('Help from others');?></h2>
 	<p><?php echo $l->t('You can ask for help in our community support channels:');?></p>
 		<ul>
 			<li><?php echo $l->t('<a href="https://help.nextcloud.com/categories" target="_blank">the Nextcloud Forums</a>');?></li>
