@@ -11,6 +11,18 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest12"></a>
+<h3 id="12-0-2">Version 12.0.2 <small>August 14 2017</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.2.tar.bz2">nextcloud-12.0.2.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.2.zip">nextcloud-12.0.2.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.2.tar.bz2.md5">nextcloud-12.0.2.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.2.zip.md5">nextcloud-12.0.2.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.2.tar.bz2.sha256">nextcloud-12.0.2.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.2.zip.sha256">nextcloud-12.0.2.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.2.tar.bz2.sha512">nextcloud-12.0.2.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.2.zip.sha512">nextcloud-12.0.2.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.2.tar.bz2.asc">nextcloud-12.0.2.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.2.zip.asc">nextcloud-12.0.2.zip.asc</a></p>
+
+<h4>Changes</h4>
+<h5>Server</h5>
+Minor bugfix release.
+
 <h3 id="12-0-1">Version 12.0.1 <small>August 7 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.1.tar.bz2">nextcloud-12.0.1.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.1.zip">nextcloud-12.0.1.zip</a></br>
 Check the file integrity with:</br>
