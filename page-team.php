@@ -268,10 +268,7 @@
 					<h4 class="teamlocation">lives in Oviedo, Spain</h4>
 					<p class="teamsocial"> <a href="https://github.com/danxuliu"><i class="fa-github fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Daniel has a master's degree in Computer Engineering. He has been
-				developing all kind of free software projects for several years, including KDE applications,
-				web applications, low-level Android components and even Linux kernel drivers, and now he is applying his
-				experience and passion for free software in the front-end and testing areas of Nextcloud.</p>
+				<p class="teamdescription">Daniel has a master's degree in Computer Engineering. He has been developing all kind of free software projects for several years, including KDE applications, web applications, low-level Android components and even Linux kernel drivers, and now he is applying his experience and passion for free software in the front-end and testing areas of Nextcloud.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
