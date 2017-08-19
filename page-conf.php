@@ -24,9 +24,9 @@
 <!-- 			<h2 class="revealOnScroll"></h2> -->
 <!-- 			<p class="section--paragraph__tittle revealOnScroll"></p> -->
 			<p class="section--paragraph revealOnScroll">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
-			<a href="https://eventyay.com/e/de88e486/" class="btn btn-lg btn-primary revealOnScroll">Register for free</a> <a href="https://eventyay.com/e/de88e486/cfs/" class="btn btn-lg btn-primary revealOnScroll">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a>
-	<!--		<p class="section--paragraph revealOnScroll"><a href="https://conf.nextcloud.org/conference/?/schedule#2015-08-29" style="font-weight: 300" class="btn btn-lg btn-primary">See the full program</a></p>-->
-<!-- 			<p class="section--paragraph">Find <a href="/confinfo">practical information for visitors here</a>.</p> -->
+			<p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/de88e486/" class="btn btn-lg btn-primary">Register for free</a> <a href="https://eventyay.com/e/de88e486/cfs/" class="btn btn-lg btn-primary">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p>
+			<p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/de88e486/schedule/" class="hyperlink" >See the program</a></p>
+			<p class="section--paragraph">Find <a class="hyperlink" href="/confinfo">practical information for visitors here</a>.</p>
 		</div>
 	</div>
 </section>
@@ -56,12 +56,12 @@
 			</div>
 			<p class="section--paragraph revealOnScroll">In the weekend of August 26 and 27 we have a program with talks and workshops to provide a chance to learn and improve coding skills on and around Nextcloud. For example:
 			<ul class="revealOnScroll">
-				<li><a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/59" target="_blank">Write your first nextcloud app</a></li>
-				<li>Intro to the <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/11" target="_blank">Android app dev process</a>, why you should <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/18" target="_blank">join the design team</a> and how we <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/36" target="_blank">do performance testing</a></li>
-				<li>Status updates on the <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/20" target="_blank">Calendar</a>,  <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/33" target="_blank">Theming</a> and <a class="hyperlink" href="https://conf.nextcloud.com/conference/NextcloudConference2016/program/proposal/13" target="_blank">iOS</a> apps</li>
+				<li>Write your first nextcloud app</li>
+				<li>Intro to the Android app dev process, why you should join the design team and how we do performance testing</li>
+				<li>Status updates on the Calendar,  Theming and iOS apps</li>
 			</ul></p>
 			<p class="section--paragraph revealOnScroll">On Friday the 25th we have a <a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">special program with a focus on enterprise and large scale Nextcloud usage.</a></p>
-<!-- 			<p class="section--paragraph revealOnScroll">Check out <a href="https://nextcloud.org/blog/nextcloud-contributor-conference-program/">the full program</a>!</p> -->
+			<p class="section--paragraph revealOnScroll">Check out <a class="hyperlink" href="https://eventyay.com/e/de88e486/schedule/">the full program</a>!</p>
 <!-- 			<p class="section--paragraph">Stay tuned for the program for this year!</p> -->
 		</div>
 	</div>
@@ -143,21 +143,24 @@
 		</div>
 		<div class="col-sm-6">
 			<h2  class="revealOnScroll">Thanks!</h2>
-			<p class="section--paragraph revealOnScroll">The event is made possible thanks to the generous donation of the location by the <a class="hyperlink" href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a class="hyperlink" href="https://nextcloud.com">Nextcloud GmbH</a>.</p>
+			<p class="section--paragraph revealOnScroll">The event is made possible thanks to the generous donation of the location by the <a class="hyperlink" href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a class="hyperlink" href="https://nextcloud.com">Nextcloud GmbH</a>. Last but not least, SUSE Linux GmbH supports our Saturday Evening social event!</p>
+			<p class="section--paragraph revealOnScroll"><a href="https://opensuse.org" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/opensuse.png" style="width: 45%" alt="openSUSE logo" class="aligncenter" /></a><a href="http://www.tu-berlin.de/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/tuberlin.png" style="width: 45%; margin: 2%;" alt="TUBerlin logo" class="aligncenter" /></a></p>
 			<h2  class="revealOnScroll">Questions, suggestions?</h2>
 			<p class="section--paragraph revealOnScroll">Ask! And tell others you will join the conference! Our official hashtag is <em>#nextcloudconf</em> - find us on <a class="hyperlink" title="Nextcloud on Twitter" href="https://twitter.com/nextclouders" target="_blank">Twitter</a>, <a class="hyperlink" title="Nextcloud on Facebook" href="https://www.facebook.com/nextclouders" target="_blank">Facebook</a> and <a class="hyperlink" title="Nextcloud on Google+" href="https://plus.google.com/b/104036748063781940910/104036748063781940910/about" target="_blank">Google+</a>. Find some <a class="hyperlink" href="https://github.com/nextcloud/promo/tree/master/Conference" target="_blank">promo materials here</a>.</p>
-            <div class="blog-social-icons row">
-                <a target="_blank" href="https://twitter.com/intent/tweet/?url=<?php echo urlencode(get_permalink()); ?>&via=nextclouders&hashtags=nextcloud">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitterround.png"></img>
-                </a>
-                <a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode(get_permalink()); ?>">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.png"></img>
-                </a>
-                <a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode(get_permalink()); ?>">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/social/googleplus.png"></img>
-                </a>
-            </div>
         </div>
-	</div>
+    </div>
+    <div class="row">
+        <div class="blog-social-icons col-md-6 col-md-offset-2">
+            <a target="_blank" href="https://twitter.com/intent/tweet/?url=<?php echo urlencode(get_permalink()); ?>&via=nextclouders&hashtags=nextcloud">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitterround.png"></img>
+            </a>
+            <a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode(get_permalink()); ?>">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.png"></img>
+            </a>
+            <a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode(get_permalink()); ?>">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/social/googleplus.png"></img>
+            </a>
+        </div>
+    </div>
 </div>
 </section>
