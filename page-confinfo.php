@@ -25,8 +25,8 @@
 	<li>5th floor:
 		<ul>
 		<li>Meeting room <code>MA541</code></li>
-		<li>Food-and-drink room <code>MA544</code></li>
-		<li>Hacking rooms: <code>MA548</code> (<em>starters room</em>), <code>MA549</code>, <code>MA545</code></li>
+		<li>Food-and-drink room <code>MA545</code></li>
+		<li>Hacking rooms: <code>MA548</code> (<em>starters room</em>), <code>MA549</code>, <code>MA544</code></li>
 	</ul></li>
 	<li>Of course, coding has to be supported with some calories. In the same building, all the way to the top and up the stairs one more floor you will find your daily lunch (with your food ticket!) and a great view over the city in the University Math Mensa. During weekdays you can also find a cafe at the front of the Mathematics building, the Mathe cafe.</li>
     </ul>
@@ -66,7 +66,7 @@
     </ul>
     We always have vegetarian and meat options.</p></div>
     <div class="col-md-6">
-    <p>We have a wide variety of free drinks and some fruit and snacks in room <code>MA544</code>.</p>
+    <p>We have a wide variety of free drinks and some fruit and snacks in room <code>MA545</code>.</p>
     <p>During the hackathon we have free bread with a variety of things to put on it in the drink room - make your own dinner. Restaurants can be found at <a href="http://www.openstreetmap.org/?mlat=52.50602&mlon=13.32248#map=18/52.50602/13.32248">Savignyplatz</a>, a 10 minute walk from the venue.</p>
     <p>During weekdays, there is a cafe at the entree of the "<em>Mathematik</em>" building.</p>
     </div>
