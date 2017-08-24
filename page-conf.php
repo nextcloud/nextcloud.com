@@ -26,8 +26,8 @@
 			<p class="section--paragraph revealOnScroll">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
 			<p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/de88e486/" class="btn btn-lg btn-primary">Register for free</a> <a href="https://eventyay.com/e/de88e486/cfs/" class="btn btn-lg btn-primary">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p>
 			<p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/de88e486/schedule/" class="hyperlink" >See the program</a></p>
-			<p class="section--paragraph">Find <a class="hyperlink" href="/confinfo">practical information for visitors here</a>.</p>
-            <p class="section--paragraph"><a class="hyperlink" href="`https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p>
+			<p class="section--paragraph">Find <a class="hyperlink" href="/confinfo">practical information for visitors here</a></p>
+            <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p>
 		</div>
 	</div>
 </section>
@@ -63,7 +63,7 @@
 			</ul></p>
 			<p class="section--paragraph revealOnScroll">On Friday the 25th we have a <a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">special program with a focus on enterprise and large scale Nextcloud usage.</a></p>
 			<p class="section--paragraph revealOnScroll">Check out <a class="hyperlink" href="https://eventyay.com/e/de88e486/schedule/">the full program</a>!</p>
-        <p class="section--paragraph"><a class="hyperlink" href="`https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p>
+            <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p>
 		</div>
 	</div>
 			<p class="section--paragraph text-center revealOnScroll">This is a hands-on event. <strong>Bring your laptop!</strong></p>
