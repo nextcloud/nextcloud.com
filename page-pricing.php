@@ -1,14 +1,11 @@
 <head>
-	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pricing.css" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pricing.css" rel="stylesheet">
 	<script>
 	require(["require.config"], function() {
-		require(["pages/enterprise", "pages/pricing", "modules/submenu", "bootstrap"])
+		require(["pages/pricing", "modules/submenu", "bootstrap"])
 	});
 	</script>
 
-<style>
-
-</style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <script>
@@ -238,13 +235,13 @@
 	<div class="row">
 		<h1 class="header revealOnScroll"><?php echo $l->t('Discounts');?></h1>
 		<div class="col-md-5 col-md-offset-1 box revealOnScroll">
-		<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/publicsector.svg">
+		<?php echo file_get_contents(get_template_directory_uri().'/assets/img/enterprise/publicsector.svg'); ?>
 		<h1><?php echo $l->t('Public Sector');?></h1>
 		<p><?php echo $l->t('We provide interesting discount options to organizations in the public sector.');?></p>
 		<p><a class="hyperlink"  href="/enterprise/buy"><?php echo $l->t('Contact us');?></a></p>
 		</div>
 		<div class="col-md-5 col-md-offset-1 box revealOnScroll">
-		<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/education.svg">
+		<?php echo file_get_contents(get_template_directory_uri().'/assets/img/enterprise/education.svg'); ?>
 		<h1><?php echo $l->t('Education');?></h1>
 		<p><?php echo $l->t('Organizations in the educational sector receive a significant discount on all subscriptions');?></p>
 		<p><a class="hyperlink"  href="/enterprise/buy"><?php echo $l->t('Contact us');?></a></p>	</div>

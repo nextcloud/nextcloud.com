@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/order.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/order.css" rel="stylesheet">
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 <!-- 	I need this for the last script on the page to work, require.js seems to not make jquery available in the page js :( -->
 	<script src='<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.min.js'></script>
@@ -206,7 +206,7 @@
 				}
 			}
 			// apply multi-year discount and edu/gov/charity discount
-			usersPrice = multiYearDiscount(edugovcharDiscount(usersPrice));
+			usersPrice = multiYearDiscount(anyDiscount(usersPrice,0.80));
 
 		    //finally we return usersPrice
 		    return usersPrice;
@@ -550,4 +550,3 @@
 		    return true;
 		});
 </script>
-

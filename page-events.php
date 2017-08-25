@@ -1,11 +1,5 @@
 <head>
-<script>
-	require(["require.config"], function() {
-		require(["pages/events"])
-	});
-</script>
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/events.css">
-
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/events.css">
 </head>
 
 <div class="background events-background">

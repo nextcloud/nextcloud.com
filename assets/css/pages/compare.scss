@@ -20,7 +20,7 @@
     height: 70vh;
     min-height: 600px;
     max-height: 800px;
-    background-image: url("../img/headers/compare.jpg");
+    background-image: url("../../img/headers/compare.jpg");
   }
 
   .topbanner {
@@ -415,7 +415,7 @@ Main Components
 }
 .cd-products-table .top-info .check::after {
   /* check icon */
-  background: url(../img/compare/cd-check.svg) no-repeat center center;
+  background: url(../../img/compare/cd-check.svg) no-repeat center center;
   background-size: 24px 24px;
   opacity: 0;
   -webkit-transition: opacity 0.3s;
@@ -573,7 +573,7 @@ Main Components
   color: transparent;
   height: 60px;
   width: 40px;
-  background: rgba(64, 64, 66, 0.8) url(../img/compare/cd-arrow.svg) no-repeat center center;
+  background: rgba(64, 64, 66, 0.8) url(../../img/compare/cd-arrow.svg) no-repeat center center;
   border-radius: 3px;
   -webkit-transition: background-color 0.3s, opacity 0.3s, visibility 0.3s, -webkit-transform 0.3s;
   -moz-transition: background-color 0.3s, opacity 0.3s, visibility 0.3s, -moz-transform 0.3s;

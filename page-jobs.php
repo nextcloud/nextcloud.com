@@ -1,11 +1,12 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/jobs.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/jobs.css" rel="stylesheet">
 	<script>
 	require(["require.config"], function() {
-		require(["bootstrap", "pages/jobs"])
+		require(["bootstrap"])
 	});
 	</script>
 </head>
+
 <section class="hero-section second-menu">
     <div class="background jobs-background">
         <div class="container">
@@ -368,4 +369,3 @@
 	</div>
 
 </section>
-
