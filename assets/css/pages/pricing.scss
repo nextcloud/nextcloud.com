@@ -1,17 +1,10 @@
 @import '../variables';
 @import '../modules/transparent-navbar';
 
-/**
- * Background
- */
 .pricing-background {
-  background-image: url("../img/enterprise/enterprise.jpg");
-  background-position: bottom 0 right 0;
-/*   background-size: cover; */
+  background-image: url('../../img/enterprise/enterprise.jpg');
+	background-position: bottom 0 right 0;
 }
-
-
-/* Pricing area */
 
 .plans {
   margin-top: 133px;
@@ -124,7 +117,7 @@
 	}
 
 	.list .check {
-	list-style-image: url("../img/enterprise/check.svg");
+	list-style-image: url("../../img/enterprise/check.svg");
 	list-style-position:inside;
 	}
 
@@ -144,7 +137,7 @@
 	}
 
 	.list .nocheck {
-	list-style-image: url("../img/enterprise/nocheck.svg");
+	list-style-image: url("../../img/enterprise/nocheck.svg");
 	list-style-position:inside;
 	}
 
@@ -160,7 +153,7 @@
 	}
 
 	.list .optional {
-	list-style-image: url("../img/enterprise/optional.svg");
+	list-style-image: url("../../img/enterprise/optional.svg");
 	list-style-position:inside;
 	}
 
@@ -175,7 +168,7 @@
 	}
 
 	.list .price {
-	list-style-image: url("../img/enterprise/blank.svg");
+	list-style-image: url("../../img/enterprise/blank.svg");
 	list-style-position:inside;
 	}
 
@@ -432,7 +425,7 @@
 	}
 
 	.downarrow span.icon-arrow-down {
-		background: url(../img/arrow_down.svg) center/contain no-repeat;
+		background: url('../../img/arrow_down.svg') center/contain no-repeat;
 		position: absolute;
 		width: 25px;
 		height: 100%;

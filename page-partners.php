@@ -1,10 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/partners.css" rel="stylesheet">
-<script>
-	require(["require.config"], function() {
-		require(["bootstrap"])
-	});
-</script>
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/partners.css" rel="stylesheet">
 </head>
 
 <section class="hero-section">
@@ -210,4 +205,3 @@
 		<br /><br />
 		<p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
 	</div>
-
