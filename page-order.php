@@ -206,7 +206,7 @@
 				}
 			}
 			// apply multi-year discount and edu/gov/charity discount
-			usersPrice = multiYearDiscount(edugovcharDiscount(usersPrice));
+			usersPrice = multiYearDiscount(anyDiscount(usersPrice,0.80));
 
 		    //finally we return usersPrice
 		    return usersPrice;
