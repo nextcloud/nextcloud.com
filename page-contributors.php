@@ -1,10 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/contributors.css" rel="stylesheet">
-<script>
-	require(["require.config"], function() {
-		require(["bootstrap"])
-	});
-</script>
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/contributors.css" rel="stylesheet">
 </head>
 <section class="hero-section second-menu">
 	<div class="background contributors-background">

@@ -21,8 +21,8 @@ requirejs.config({
 		hammer: ['https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min', 'vendor/hammer.min'],
 		inview: ['https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min', 'vendor/jquery.inview'],
 		plyr: ['https://cdn.plyr.io/2.0.13/plyr', '../../node_modules/plyr/dist/plyr'],
+		bootstrap: ['https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min', '../../node_modules/bootstrap-sass/assets/javascripts/bootstrap.min'],
 		highlight: ['https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min', '../../node_modules/highliht.js/lib/highlight'],
-		youtubeplugin: 'old/vendor/jquery.youtubepopup.min',
 	},
 	shim: {
 		headroomJquery: {
@@ -43,8 +43,8 @@ requirejs.config({
 		velocityUI: {
 			deps: ['velocity']
 		},
-		youtubeplugin: {
-			deps: ['jqueryUi', 'bootstrap']
-		},
+		bootstrap: {
+			deps: ['jquery']
+		}
 	}
 });
