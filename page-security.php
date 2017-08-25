@@ -1,4 +1,4 @@
-<?php get_template_part( 'templates/parts/title'); ?>
+<?php get_template_part('templates/parts/title'); ?>
 <div class="sub-nav"><a href="/security/advisories"><?php echo $l->t('Security Advisories');?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/security/threat-model"><?php echo $l->t('Threat Model');?></a>
 </div>
 <h2><?php echo $l->t('Security information');?></h2>
