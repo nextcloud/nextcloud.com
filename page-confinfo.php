@@ -31,6 +31,7 @@
 	<li>Of course, coding has to be supported with some calories. In the same building, all the way to the top and up the stairs one more floor you will find your daily lunch (with your food ticket!) and a great view over the city in the University Math Mensa. During weekdays you can also find a cafe at the front of the Mathematics building, the Mathe cafe.</li>
     </ul>
     <p>Note that carrying your wristband is mandatory, especially after 18:00 and on the weekend!</p>
+    <p>Last but not least on Saturday evening we have beers & food <a href="http://www.schleusenkrug.de/">at this biergarten.</a></p>
     </div>
     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/rooms-5.jpg" style="width: 100%" alt="5th floor" class="aligncenter" />
 </div>
