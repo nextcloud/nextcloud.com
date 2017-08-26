@@ -25,7 +25,7 @@
 <!-- 			<p class="section--paragraph__tittle revealOnScroll"></p> -->
 			<p class="section--paragraph revealOnScroll">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
 			<p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/de88e486/" class="btn btn-lg btn-primary">Register for free</a> <a href="https://eventyay.com/e/de88e486/cfs/" class="btn btn-lg btn-primary">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p>
-			<p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/de88e486/schedule/" class="hyperlink" >See the program</a></p>
+			<p class="section--paragraph revealOnScroll"><a href="https://nextcloud.com/blog/lightning-talks-and-workshops-at-the-nextcloud-conference/" class="hyperlink" >See the program</a></p>
 			<p class="section--paragraph">Find <a class="hyperlink" href="/confinfo">practical information for visitors here</a></p>
             <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p>
 		</div>
