@@ -98,10 +98,9 @@
 	<ul>
 	<li class="section--paragraph"><?php echo $l->t('1. Enable Maintenance Mode with the command line tool<br> or set <code>\'maintenance\' => true,</code> in config/config.php');?></li>
 	<li class="section--paragraph"><?php echo $l->t('2. Backup existing configuration and database');?></li>
-	<li class="section--paragraph"><?php echo $l->t('3. Delete the ownCloud code and extract the Nextcloud code');?></li>
-	<li class="section--paragraph"><?php echo $l->t('4. Copy back the configuration file');?></li>
-	<li class="section--paragraph"><?php echo $l->t('5. Start the upgrade process with the command line tool<br> or set <code>\'maintenance\' => false,</code> in config/config.php and visit the login page');?></li>
-	<li class="section--paragraph"><?php echo $l->t('6. Disable Maintenance Mode via command line<br> or set <code>\'maintenance\' => false,</code> in config/config.php');?></li>
+	<li class="section--paragraph"><?php echo $l->t('3. Delete the ownCloud code (except the data- and config-directories) and extract the Nextcloud code');?></li>
+	<li class="section--paragraph"><?php echo $l->t('4. Start the upgrade process with the command line tool<br> or set <code>\'maintenance\' => false,</code> in config/config.php and visit the login page');?></li>
+	<li class="section--paragraph"><?php echo $l->t('5. Disable Maintenance Mode via command line<br> or set <code>\'maintenance\' => false,</code> in config/config.php');?></li>
 	</ul>
 
 	<p class="section--paragraph"><?php echo $l->t('Find more details in');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/manual_upgrade.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">our documentation.</a>');?></p>
@@ -126,7 +125,7 @@
 		<li class="section--paragraph"><?php echo $l->t('ownCloud 10.0.- -> Nextcloud 12.0.0');?></li>
 	</ul>
 	<p class="section--paragraph"><?php echo $l->t('When upgrading, make sure to enable apps after every upgrade step so they can run their own upgrade scripts. We have fixed this issue in Nextcloud 12: apps will no longer be disabled when upgrading on systems running PHP 7.');?></p>
-	<p class="section--paragraph"><?php echo $l->t('If you are on a very old ownCloud release or want more details, read our extensive detail of upgrade steps in our blog on how to <a  class="hyperlink" href="https://nextcloud.com/blog/protect-your-privacy-time-to-upgrade-to-nextcloud-11./">protect your privacy by upgrading to Nextcloud 11.</a> Note that upgrading from a Windows Server is not supported beyond  moving over the data.');?></p>
+	<p class="section--paragraph"><?php echo $l->t('If you are on a very old ownCloud release or want more details, read our advanced and detailed upgrade documentation in our blog on how to <a  class="hyperlink" href="https://nextcloud.com/blog/protect-your-privacy-time-to-upgrade-to-nextcloud-11./">protect your privacy by upgrading to Nextcloud 11 or higher.</a> Note that upgrading from a Windows Server is not supported beyond moving over the data.');?></p>
 	<h2 class="section--paragraph__tittle"><?php echo $l->t('Settings');?></h2>
 	<p class="section--paragraph"><?php echo $l->t('Nearly all ownCloud settings will be migrated to Nextcloud during the upgrade procedure. That means that internal and public (link) shares keep working, users keep their settings and you will retain app configuration, LDAP and external storage settings and more.');?></p>
 	<p class="section--paragraph"><?php echo $l->t('Settings from proprietary extensions from ownCloud which have open source replacements in Nextcloud, however, will sometimes need to be reconfigured. The following apps have a Nextcloud equivalent but need re-configuration:');?></p>
