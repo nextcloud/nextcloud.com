@@ -1,11 +1,10 @@
-//config require.js
 requirejs.config({
 	waitSeconds : 0,
 	baseURL: 'wp-content/themes/next/assets/js/',
 	paths: {
 		jquery: ['https://code.jquery.com/jquery-3.2.1.slim.min', '../../node_modules/jquery/dist/jquery.slim.min'],
 		modernizr: ['https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min', 'vendor/modernizr.min'],
-		waypoints: ['https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min', 'vendor/jquery.waypoints.min'],
+		waypoints: ['https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min', '../../node_modules/waypoints/lib/jquery.waypoints.min'],
 		enquire: ['https://cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.6/enquire.min', 'vendor/enquire'],
 		bodymovin: ['https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.7.0/bodymovin.min', 'vendor/bodymovin'],
 		headroom: ['https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/headroom.min', 'vendor/headroom'],
