@@ -11,3 +11,4 @@ l10n/
 *.log
 *.css
 !.scss
+!/assets/css/old/*.css
