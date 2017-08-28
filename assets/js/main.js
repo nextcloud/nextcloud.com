@@ -5,7 +5,7 @@ define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
 			var main = {
 				init: function() {
 					this.variables.buttonDropdownSelector.on('click', _.bind(this.buttonDropdown, this));
-					$(window).on('scroll.fadeOnce', _.bind(this.revealOnScroll, this, event));
+					$(window).on('scroll.fadeOnce', _.bind(this.revealOnScroll, this));
 					this.animationOnLoadPage();
 					this.removeRevealOnScroll();
 					this.consoleMessage();
@@ -37,7 +37,7 @@ define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
 					);
 				},
 
-				checkScrollPosition: function() {
+				checkScrollPosition: function(event) {
 					var currentScrollPosition = $(document).scrollTop().valueOf();
 
 					if (currentScrollPosition > 500) {
