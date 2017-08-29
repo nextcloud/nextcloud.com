@@ -2,13 +2,11 @@ config.php
 .sass-cache
 .directory
 *.kdev4
-node_modules/
 l10n/
 *.css.map
 .idea/
 .DS_Store
 *.kate-swp
 *.log
-*.css
 !.scss
 !/assets/css/old/*.css
