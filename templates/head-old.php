@@ -14,7 +14,7 @@
 	<link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/assets/img/common/favicon.png" />
 
 	<!-- New styles -->
-	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/modules/header.css" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/old/header.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/modules/footer.css" rel="stylesheet">
 
 	<!-- Fixes for the new style on legacy pages -->
