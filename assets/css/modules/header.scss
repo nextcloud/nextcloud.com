@@ -163,7 +163,7 @@ nav a {
             left: 0;
 
             .logo:not(.scrolled):not(.menu-open) {
-                background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
+                background: url(../../img/logo/logo_white_sprite.png) 0 0 no-repeat;
                 height: 100px;
                 width: 140px;
                 display: inline-block;
@@ -348,7 +348,7 @@ nav a {
                     width: 71px;
 
                     &.menu-open {
-                        background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
+                        background: url(../../img/logo/logo_white_sprite.png) 0 0 no-repeat;
                         height: 100px;
                         width: 140px;
                         display: inline-block;
@@ -595,7 +595,7 @@ nav a {
         }
 
         .logo:not(.menu-open) {
-            background: url(../img/logo/logo_blue_sprite.png) 0 0 no-repeat;
+            background: url(../../img/logo/logo_blue_sprite.png) 0 0 no-repeat;
             height: 100px;
             width: 140px;
             display: inline-block;
