@@ -8,7 +8,7 @@ requirejs.config({
 		enquire: ['https://cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.6/enquire.min', 'vendor/enquire'],
 		bodymovin: ['https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.7.0/bodymovin.min', 'vendor/bodymovin'],
 		headroom: ['https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/headroom.min', 'vendor/headroom'],
-		headroomJquery: ['https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/jQuery.headroom.min', 'vendor/jquery.headroom.min'],
+		headroomJquery: ['https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/j	Query.headroom.min', 'vendor/jquery.headroom.min'],
 		lodash: ['https://cdn.jsdelivr.net/lodash/4.17.4/lodash.core.min', '../../node_modules/lodash/core.min'],
 		TweenLite: ['https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenLite.min', '../../node_modules/gsap/src/minified/TweenLite.min'],
 		TimelineLite: ['https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TimelineLite.min', '../../node_modules/gsap/src/minified/TimelineLite.min'],

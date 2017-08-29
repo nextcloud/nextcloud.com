@@ -43,7 +43,7 @@
 	<div class="container">
 		<p class="section--intro text-center revealOnScroll">Matter experts</p>
 		<h3 class="section--heading-1 text-center revealOnScroll">Dedicated to your success</h3>
-		<div class="expertise__ilustration">
+		<div class="ilustration ilustration__expertise">
 			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/ilustration_matterexperts-new.svg"); ?>
 		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We are dedicated to your success as Nextcloud customer. An analysis of your needs, a pilot customized for your architecture and remote installation support ensures a smooth introduction of Nextcloud in your organization and we will help you scale up to meet growing demand in your organization.');?></p>
@@ -59,7 +59,7 @@
 	<div class="container">
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Top notch security');?></p>
 		<h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('To keep your data safe');?></h3>
-		<div class="security__ilustration">
+		<div class="ilustration">
 			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/security-new.svg"); ?>
 		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud develops its software with a rigorous focus on security through the entire life cycle of the product. Our active and passive security measures are backed by the some of the highest security bug bounties in the open source industry.');?></p>
@@ -75,7 +75,7 @@
 	<div class="container">
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Multi-year lifecycle');?></p>
 		<h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('For uninterupted service');?></h3>
-		<div class="lifecycle__ilustration">
+		<div class="ilustration lifecycle__ilustration">
 			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/data_safe-new.svg"); ?>
 		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('A Nextcloud support subscription gives you access to enterprise-ready software, updates, and information and support services that span your entire OS and application infrastructure life cycle and architecture. You can count on receiving the latest product versions with the stability and security you need.');?></p>
@@ -91,7 +91,7 @@
 	<div class="container">
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Ultimate scalability');?></p>
 		<h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('For costs and compliance');?></h3>
-		<div class="globalscale__ilustration">
+		<div class="ilustration">
 			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/globalscale/final.svg"); ?>
 		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Our unique Nextcloud Global Scale architecture delivers a true globally scalable solution for deployments with hundreds of millions of users, giving unprecedented control over the locality of data and delivering dramatic cost reduction.');?></p>
