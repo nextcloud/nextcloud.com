@@ -121,7 +121,7 @@
 				</div>
 				<div class="col-md-6 featureblock revealOnScroll">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Mozilla Thunderbird');?></p>
-					<p class="section--paragraph"><?php echo $l->t('Users of Mozilla Thunderbird will be delighted to hear that <a href="https://github.com/nextcloud/nextcloud-filelink">Nextcloud also develops a Thunderbird Filelink Addon!</a>');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Users of Mozilla Thunderbird will be delighted to hear that Nextcloud also provides a <a href="https://addons.mozilla.org/en-US/thunderbird/addon/nextcloud-filelink/">Thunderbird Filelink Addon!</a>');?></p>
 					<p class="section--paragraph"><?php echo $l->t('"Nextcloud for Filelink" is a Thunderbird extension which makes it easy to send large attachments with Thunderbird by automatically uploading them first to a Nextcloud server and by then inserting the link into the body of your email.');?></p>
 				</div>
 			</div>
