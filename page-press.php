@@ -10,7 +10,7 @@
 	<li><a href="/press/pr20170508/">Nextcloud and Adfinis SyGroup sign strategic partnership</a></li>
 	<li><a href="/press/pr20170502/">Nextcloud 12 Beta Introduces the Next Generation of Secure Collaboration</a></li>
     <li><a href="/press/pr20170307/">March 7, 2017: DASEQ and Nextcloud announce partnership</a></li>
-	<li><a href="/press/pr20161213/">December 13, 2016: Nextloud 11 sets new standard for security and scalability</a></li>
+	<li><a href="/press/pr20161213/">December 13, 2016: Nextcloud 11 sets new standard for security and scalability</a></li>
 	<li><a href="/press/pr20161027/">October 27, 2016: Nextcloud GmbH continues growth path with addition of Head of Sales</a></li>
 	<li><a href="/press/pr20160929/">Semptember 29, 2016: Danish research and education network moves from ownCloud to Nextcloud</a></li>
 	<li><a href="/press/pr20160916/">Semptember 16, 2016: Nextcloud Box – a private cloud and IoT solution for home users – from Nextcloud, Canonical and WDLabs</a></li>
