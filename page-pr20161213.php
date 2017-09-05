@@ -1,5 +1,5 @@
 <div class="pr">
-	<h1>Nextloud 11 sets new standard for security and scalability</h1>
+	<h1>Nextcloud 11 sets new standard for security and scalability</h1>
 	<p>Stuttgart, December 13, 2016 - Nextcloud GmbH, the company behind the most popular privacy-aware open source file sync and share technology announces the immediate availability of Nextcloud 11.</p>
 
 	<p>This release introduces significant security improvements, attested by NCC Group, a global expert in cyber security and risk mitigation, to "complement the existing security architecture within the design" and "enhance the general standing of the security working environment."</p>

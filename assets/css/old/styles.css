@@ -130,6 +130,8 @@ blockquote {
 /* Put images in blog really in center */
 .aligncenter {
 	margin: auto auto !important;
+	max-width:100%;
+	height: auto;
 }
 
 
