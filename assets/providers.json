@@ -872,5 +872,141 @@
             "Accounts: single/group, donation-based; apps: groupware, multimedia, notes, bookmarks, documents...; provider: no profit, flexible, German servers."
          ],
          "imagename":"xt3cloud.png"
+      },
+    {
+         "title":"Merakitic SAS",
+         "url":"http:\/\/www.merakitic.com/",
+         "flags":[
+            "co"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Nextcloud storage and VPS renting"
+         ],
+         "imagename":"merakitic.png"
+      },
+    {
+         "title":"eXtro.media GbR",
+         "url":"https:\/\/www.extro.hosting\/nextcloud-managed-ssd-vserver-plesk.html",
+         "flags":[
+            "de",
+            "ch",
+            "at",
+            "li"
+         ],
+         "freeplans":false,
+         "supports":"organization",
+         "specializes":[
+            "We offer SSD Nextcloud Server in German data centers, starting with SSD vServer up to managed services for enterprise critical environment."
+         ],
+         "imagename":"extro.png"
+      },
+    {
+         "title":"Silent Infotech",
+         "url":"https:\/\/silentinfotech.com\/services\/cloud\/nextcloud",
+         "flags":[
+            "us",
+            "uk",
+            "in",
+            "ke",
+            "ae",
+            "ug"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Mail Accounts & secure, private Nextcloud hosted solution. Scaleable setup for growing organizations, scheduled backups, rebranding and custom features"
+         ],
+         "imagename":"silentinfotech.png"
+      },
+    {
+         "title":"Nou en Off",
+         "url":"https:\/\/www.mijncloudoffice.nl",
+         "flags":[
+            "nl",
+            "be"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Mijncloudoffice.nl combines Collabora Online & Nextcloud; enabeling people to work in the cloud with ease, without compromising on security & privacy."
+         ],
+         "imagename":"mijncloudoffice.png"
+      },
+    {
+         "title":"bg-edv.systeme GmbH und Co KG",
+         "url":"https:\/\/bg-edv.com\/nextcloud-hosting",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Ihre eigene professionelle Nextcloud-Lösung mit großem Speicher, inkl. 7 Tage Backup. Optional mit Collabora Online Paket. Gehostet in Deutschland."
+         ],
+         "imagename":"bg-edv.png"
+      },
+    {
+         "title":"fnordserver",
+         "url":"https:\/\/fnordserver.eu\/de\/nextcloud/",
+         "flags":[
+            "de",
+            "at",
+            "ch",
+            "eu",
+            "uk",
+            "se",
+            "is",
+            "lu",
+            "be"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "fnordserver is your partner for managed web solutions and managed Nextcloud hosting with automated backups, updates, and rock-solid security."
+         ],
+         "imagename":"fnord.png"
+      },
+    {
+         "title":"GETCON",
+         "url":"https:\/\/www.getcon.com.br\/hospedagem-nextcloud",
+         "flags":[
+            "br"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "GETCON offers Nextcloud hosting in Brazil on our very fast SSD drives for you to backup and share your files (pictures, documents, videos, files)."
+         ],
+         "imagename":"getcon.png"
+      },
+    {
+         "title":"Windcloud",
+         "url":"https:\/\/windcloud.org\/datenspeicher",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":"organization",
+         "specializes":[
+            "Windcloud - Your Green Data Center. Based on our renewable energy infrastructure we are your partner for cloud storage, -infrastructure, VMs..."
+         ],
+         "imagename":"windcloud.png"
+      },
+    {
+         "title":"Rocho DataCenter",
+         "url":"https:\/\/www.rochodc.com\/categorie-produit\/cloud",
+         "flags":[
+            "fr",
+            "eu",
+            "all"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Nous proposons des instances Nextcloud au meilleur coût. Toutes fonctionnalités activées (Collabora Online inclus), gardez le contrôle de vos données."
+         ],
+         "imagename":"rocho.png"
       }
 ]
