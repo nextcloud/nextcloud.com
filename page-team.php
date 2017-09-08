@@ -133,9 +133,9 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/nina.jpg" />
 				<h2 class="teamname">Nina Cercy</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Marketing Intern</h3>
+					<h3 class="teamtitle">Online Marketer</h3>
 					<h4 class="teamexpertise">Marketing and Content</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+					<h4 class="teamlocation">lives in Paris, France</h4>
 					<p class="teamsocial"><!--<a href="https://spreed.me/"><i class="fa-rss fa"></i></a>--> <a href="https://github.com/NinaNC"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nlapalice"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Nina studied Business and Management at HEC Paris. She got involved in Open Source two years ago, and she's especially working on personal data protection regulation. She co-directed <i>Numérique, reprendre le contrôle</i> in 2016.</p>
