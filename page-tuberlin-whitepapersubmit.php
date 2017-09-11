@@ -1,47 +1,75 @@
+<head>
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/education.css" rel="stylesheet">
+</head>
+<div class="background education-background">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 topheader">
+				<h1><?php echo $l->t('Nextcloud in Education');?></h1>
+				<h2><?php echo $l->t('Easy, scaleable and well integrated');?></p>
+			</div>
+		</div>
+	</div>
+</div>
+
 <?php
 if(isset($_POST['email'])) {
-   function died($error) {
-    // error code goes here
-        echo "We are very sorry, but there were error(s) found with the form you submitted: ";
-        echo "<br />";
-        echo $error."<br />";
-        echo "Please go back and fix these errors.<br />";
-        die();
-    }
-    // validation expected data exists
-    if(!isset($_POST['email'])) {
-        died('We can not find an email address. Did you fill in your email?'); }
-    $email_to = $_POST['email']; // required
-    $error_message = "";
-  if(RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
-    $url = 'https://www.google.com/recaptcha/api/siteverify';
-    $ch = curl_init();
+	function died($error) {
+		// error code goes here
+		?>
+		<section class="section--whitepaper">
+			<div class="container text-center">
+				<h3>Sorry, there was an error with the form you submitted</h3>
+				<p>The error(s) detected:<br/>
+					<?php
+					echo $error . "<br />";
+					?>
+				</p>
+				<p>Use the back key to go to the previous page and fix the
+					problem!</p>
+			</div>
+		</section>
+		<?php
+	}
 
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_POST, 1);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	// validation expected data exists
+	$error_message = "";
 
-    $server_output = curl_exec($ch);
+	$email_to =  filter_var($_POST['email'], FILTER_SANITIZE_EMAIL); // requires
+	if(!filter_var($email_to, FILTER_VALIDATE_EMAIL)) {
+		$error_message .= 'The email address supplied is invalid.<br />';
+	}
 
-    $server_output = json_decode($server_output, true);
+	if (defined('RECAPTCHA_SECRET') && RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
+		$url = 'https://www.google.com/recaptcha/api/siteverify';
+		$ch = curl_init();
 
-    curl_close($ch);
+		curl_setopt($ch, CURLOPT_URL, $url);
+		curl_setopt($ch, CURLOPT_POST, 1);
+		curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-    if (!isset($server_output['success']) || $server_output['success'] !== true) {
-      $error_message .= 'The captcha result was invalid.<br />';
-    }
-  } else {
-    $error_message .= 'Captcha code is missing.<br />';
-  }
+		$server_output = curl_exec($ch);
 
-  if(strlen($error_message) > 0) {
-    died($error_message);
-  }
-        function clean_string($string) {
-      $bad = array("content-type","bcc:","to:","cc:","href");
-      return str_replace($bad,"",$string);
-    }
+		$server_output = json_decode($server_output, true);
+
+		curl_close($ch);
+
+		if (!isset($server_output['success']) || $server_output['success'] !== true) {
+			$error_message .= 'The captcha result was invalid.<br />';
+		}
+	} else {
+		$error_message .= 'Captcha code is missing.<br />';
+	}
+
+	if (strlen($error_message) > 0) {
+		died($error_message);
+	} else {
+		function clean_string($string) {
+			$bad = array("content-type", "bcc:", "to:", "cc:", "href");
+			return str_replace($bad, "", $string);
+		}
+
 // the app review mailing list address
     $email_from = "sales@nextcloud.com";
     $email_jos = "jos@nextcloud.com";
@@ -64,44 +92,15 @@ if(isset($_POST['email'])) {
  ?>
 
     <!-- success html here -->
-<head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/education.css" rel="stylesheet">
-</head>
-<div class="background education-background">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Nextcloud in Education');?></h1>
-				<h2><?php echo $l->t('Easy, scaleable and well integrated');?></p>
-			</div>
-		</div>
-	</div>
-</div>
-
-<?php
-$email_to =  filter_var($email_to, FILTER_SANITIZE_EMAIL);
-if (filter_var($email_to, FILTER_VALIDATE_EMAIL)) {
-?>
-<section class="section--whitepaper">
-    <div class="container text-center">
-        <h3>Thank you for your interest in our case study</h3>
-        <p>The case study has been sent to <?php echo($email_to); ?>,</p>
-        <p>check your spam folder if you can not find it!</p>
-    </div>
-</section>
-<?php
-} else {
-?>
-<section class="section--whitepaper">
-    <div class="container text-center">
-        <h3>You did not enter a valid email address</h3>
-        <p>Use the back key to go to the previous page and enter your email address to receive your case study!</p>
-    </div>
-</section>
-<?php
+    <section class="section--whitepaper">
+        <div class="container text-center">
+            <h3>Thank you for your interest in our case study</h3>
+            <p>The case study has been sent to <?php echo($email_to); ?>,</p>
+            <p>check your spam folder if you can not find it!</p>
+        </div>
+    </section>
+	<?php
+	}
 }
 ?>
 
-<?php
-}
-?>
