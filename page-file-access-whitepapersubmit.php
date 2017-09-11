@@ -77,13 +77,29 @@ if(isset($_POST['email'])) {
 		</div>
 	</div>
 </div>
+<?php
+$email_to =  filter_var($email_to, FILTER_SANITIZE_EMAIL);
+if (filter_var($email_to, FILTER_VALIDATE_EMAIL)) {
+?>
 <section class="section--whitepaper">
     <div class="container text-center">
-        <h3>Thank you for your interest in our datasheet!</h3>
-        <p>The datasheet has been sent to <?php echo htmlentities($email_to) ?>,</p>
+        <h3>Thank you for your interest in our datasheet</h3>
+        <p>The datasheet has been sent to <?php echo($email_to); ?>,</p>
         <p>check your spam folder if you can not find it!</p>
     </div>
 </section>
+<?php
+} else {
+?>
+<section class="section--whitepaper">
+    <div class="container text-center">
+        <h3>You did not enter a valid email address</h3>
+        <p>Use the back key to go to the previous page and enter your email address to receive your datasheet!</p>
+    </div>
+</section>
+<?php
+}
+?>
 <?php
 }
 ?>
