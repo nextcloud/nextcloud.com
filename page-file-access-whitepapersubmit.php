@@ -25,7 +25,7 @@ if(isset($_POST['email'])) {
 					?>
 				</p>
 				<p>Use the back key to go to the previous page and fix the
-					problem!</p>
+					issue!</p>
 			</div>
 		</section>
 		<?php
@@ -95,7 +95,7 @@ if(isset($_POST['email'])) {
         <div class="container text-center">
             <h3>Thank you for your interest in our datasheet</h3>
             <p>The datasheet has been sent to <?php echo($email_to); ?>,</p>
-            <p>check your spam folder if you can not find it!</p>
+            <p>Check your spam folder if you cannot find it!</p>
         </div>
     </section>
 	<?php
