@@ -12,9 +12,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/european-datacenter-is-no-solution/">
+				<a class="announcement" href="https://nextcloud.com/blog/significant-growth-at-nextcloud-conference-brought-150-customers-colleagues-and-friends-together/">
 				<span class="type">Event</span>
-				<span class="message"><strong>GDPR and Privacy Shield</strong> read our analysis!</span>
+				<span class="message"><strong>Nextcloud Conference 2017</strong> brought 150 people together. See our report!</span>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('A safe home for all your data');?></h1>
 				<h2 class="jumbotron--lead"><?php echo $l->t('Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.');?></h2>
