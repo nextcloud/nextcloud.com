@@ -94,7 +94,7 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/matthias.jpg" />
 				<h2 class="teamname">Matthias Wobben</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Sales Engineer</h3>
+					<h3 class="teamtitle">Senior Sales Engineer</h3>
 					<h4 class="teamexpertise">Sales and Customer Relationships</h4>
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="https://wobben.net/"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/wobben-matthias/"><i class="fa-linkedin fa"></i></a> <a href="https://twitter.com/wobben"><i class="fa-twitter fa"></i></a> </p>
