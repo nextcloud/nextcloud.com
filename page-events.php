@@ -158,6 +158,11 @@
 						<td>Los Angeles, USA</td>
 						<td>September 11-14</td>
 					</tr>
+                    <tr>
+						<td><a  class="hyperlink" target="_blank" href="https://allthingsopen.org/speakers/frank-karlitschek/">All Things Open</a></td>
+						<td>RALEIGH, NC, USA</td>
+						<td>October 23-24</td>
+					</tr>
 				</table>
 				<p class="section--paragraph">Is there a conference, trade show or other event close by and you want Nextcloud to be there? Please <a  class="hyperlink" href="https://help.nextcloud.com/c/conference">get in touch</a> and let us know, we will do our best to help making it happen!</p>
 				<p class="section--paragraph">Are you presenting about Nextcloud or running a booth at an upcoming event that should be listed here? Let us know  <a  class="hyperlink" href="https://help.nextcloud.com/c/conference">on the forums</a>!</p>
