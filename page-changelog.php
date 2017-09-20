@@ -11,7 +11,7 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest12"></a>
-<h3 id="12-0-2">Version 12.0.3 <small>August 14 2017</small></h3>
+<h3 id="12-0-3">Version 12.0.3 <small>September 20 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.3.tar.bz2">nextcloud-12.0.3.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.3.zip">nextcloud-12.0.3.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.3.tar.bz2.md5">nextcloud-12.0.3.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.3.zip.md5">nextcloud-12.0.3.zip.md5</a></br>
@@ -250,7 +250,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p><a href="https://github.com/nextcloud/server/milestone/10?closed=1">See a full list of integrated pull requests here.</a></p>
 
 <a name="latest11"></a>
-<h3 id="11-0-4">Version 11.0.5 <small>August 7 2017</small></h3>
+<h3 id="11-0-5">Version 11.0.5 <small>September 20 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.tar.bz2">nextcloud-11.0.5.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.zip">nextcloud-11.0.5.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.tar.bz2.md5">nextcloud-11.0.5.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.zip.md5">nextcloud-11.0.5.zip.md5</a></br>
