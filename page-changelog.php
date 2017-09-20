@@ -11,6 +11,25 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest12"></a>
+<h3 id="12-0-2">Version 12.0.3 <small>August 14 2017</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.3.tar.bz2">nextcloud-12.0.3.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.3.zip">nextcloud-12.0.3.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.3.tar.bz2.md5">nextcloud-12.0.3.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.3.zip.md5">nextcloud-12.0.3.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.3.tar.bz2.sha256">nextcloud-12.0.3.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.3.zip.sha256">nextcloud-12.0.3.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.3.tar.bz2.sha512">nextcloud-12.0.3.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.3.zip.sha512">nextcloud-12.0.3.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.3.tar.bz2.asc">nextcloud-12.0.3.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.3.zip.asc">nextcloud-12.0.3.zip.asc</a></p>
+
+<h4>Changes</h4>
+<p>Nextcloud 12.0.3 delivers a lot of enhancements in various areas including:</p>
+<ul>
+<li>A number of improvements to email notification templates</li>
+<li>2FA enhancements</li>
+<li>Smarter LDAP password handling</li>
+<li>File Drop and upload-in-general updates</li>
+<li>A performance improvement handling large files</li>
+</ul>
+<p><a href="https://github.com/nextcloud/server/pulls?q=is%3Apr+milestone%3A%22Nextcloud+12.0.3%22+is%3Aclosed">See the full list of changes in github.</a></p>
+
 <h3 id="12-0-2">Version 12.0.2 <small>August 14 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.2.tar.bz2">nextcloud-12.0.2.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.2.zip">nextcloud-12.0.2.zip</a></br>
 Check the file integrity with:</br>
@@ -231,6 +250,17 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p><a href="https://github.com/nextcloud/server/milestone/10?closed=1">See a full list of integrated pull requests here.</a></p>
 
 <a name="latest11"></a>
+<h3 id="11-0-4">Version 11.0.5 <small>August 7 2017</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.tar.bz2">nextcloud-11.0.5.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.zip">nextcloud-11.0.5.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.tar.bz2.md5">nextcloud-11.0.5.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.zip.md5">nextcloud-11.0.5.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.tar.bz2.sha256">nextcloud-11.0.5.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.zip.sha256">nextcloud-11.0.5.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.tar.bz2.sha512">nextcloud-11.0.5.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.zip.sha512">nextcloud-11.0.5.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.tar.bz2.asc">nextcloud-11.0.5.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.zip.asc">nextcloud-11.0.5.zip.asc</a></p>
+
+<h4>Changes</h4>
+<p><a href="https://github.com/nextcloud/server/pulls?q=is%3Apr+milestone%3A%22Nextcloud+11.0.5%22+is%3Aclosed">See the full list of changes in github.</a></p>
+
 <h3 id="11-0-4">Version 11.0.4 <small>August 7 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.4.tar.bz2">nextcloud-11.0.4.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.4.zip">nextcloud-11.0.4.zip</a></br>
 Check the file integrity with:</br>
