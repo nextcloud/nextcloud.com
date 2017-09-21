@@ -1,0 +1,77 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+/**
+* Secure Page
+*/
+.endtoend-background {
+  background-image: url("../img/headers/endtoend.jpg");
+  background-position: top 0 right 0; }
+  .endtoend-background .topheader h1 {
+    margin-top: 0; }
+
+/* All headers */
+section {
+  padding: 50px 0 50px; }
+  section .section--heading-1 {
+    padding-bottom: 50px; }
+  section .section--paragraph--tittle {
+    padding: 0; }
+  section .row {
+    padding: 20px 0 20px 0; }
+
+.img-responsive {
+  padding-top: 10px; }
+  @media (min-width: 991px) {
+    .img-responsive {
+      margin-bottom: 50px; } }
+  @media (min-width: 1600px) {
+    .img-responsive {
+      /* 	margin-bottom: 0px; */ } }
+
+.image--floated {
+  float: right; }
+
+.section--differences .banner {
+  background-color: #0082c9;
+  position: relative;
+  overflow: hidden; }
+  .section--differences .banner h2 {
+    text-align: left;
+    color: white; }
+  .section--differences .banner p {
+    padding-top: 30px;
+    text-align: left;
+    color: white; }
+  .section--differences .banner li {
+    text-align: left;
+    color: white; }
+  .section--differences .banner .fa {
+    color: white;
+    padding-right: 10px; }
+  .section--differences .banner .col-md-6 {
+    padding: 80px 0px;
+    /* 			margin-left: 10% */ }
+  .section--differences .banner .big-img {
+    position: absolute;
+    max-width: 70%;
+    height: 100%;
+    /*         top: 60px; */
+    margin-left: 30px; }
+  .section--differences .banner .small-img {
+    position: absolute;
+    height: 100%;
+    margin-left: 30px; }
+  @media (max-width: 1600px) {
+    .section--differences .banner .big-img {
+      display: none; } }
+  @media (min-width: 1600px) {
+    .section--differences .banner .small-img {
+      display: none; } }
+
+/*# sourceMappingURL=endtoend.css.map */
