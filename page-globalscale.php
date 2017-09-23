@@ -24,8 +24,8 @@ require(["require.config"], function() {
 		<div class="col-md-10 col-md-offset-1 video">
 			<div data-type="youtube" data-video-id="I5wcLS9xxMw"></div>
 		</div>
-		<div class="col-md-8 col-md-offset-2 text-center revealOnScroll">
-			<p class="section--paragraph"><?php echo $l->t('<span class="avoidwrap">Nextcloud Global Scale delivers a true globally scalable solution</span> <span class="avoidwrap">for deployments with hundreds of millions of users<span>, <span class="avoidwrap">giving unprecedented control over the locality of data</span> <span class="avoidwrap">and delivering dramatic cost reduction</span>');?></p>
+		<div class="col-md-8 col-md-offset-2 revealOnScroll">
+			<p class="section--paragraph text-center"><?php echo $l->t('<span class="avoidwrap">Nextcloud Global Scale delivers a true globally scalable solution</span> <span class="avoidwrap">for deployments with hundreds of millions of users<span>, <span class="avoidwrap">giving unprecedented control over the locality of data</span> <span class="avoidwrap">and delivering dramatic cost reduction</span>');?></p>
 		</div>
 	</div>
 </div>

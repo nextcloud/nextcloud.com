@@ -1,6 +1,6 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/securedrop.css" rel="stylesheet">
-<link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/securedrop.css" rel="stylesheet">
+<link type="text/css" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" rel="stylesheet" />
 <script>
 	require(["require.config"], function() {
 		require(["pages/file-drop"])
@@ -22,17 +22,10 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1 video revealOnScroll">
-			<div class="yt-img-overlay">
-				<a class="youtube" id="AhFnbB-a7ik" href="https://www.youtube.com/watch?v=AhFnbB-a7ik" title="Editing public link shares">
-					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/AhFnbB-a7ik/maxresdefault.jpg" title="File Drop in action" style='margin: 0 0 0 0; padding: -10% 0 -10% 0;' /> <!-- style different per image! -->
-					<div class="yt-play-btn">
-						<i></i>
-					</div>
-				</a>
-			</div>
+			<div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
 		</div>
-		<div class="col-md-6 col-md-offset-3 text-center revealOnScroll">
-			<p class="section--paragraph"><?php echo $l->t('The Nextcloud File Drop feature enables hospitals, banks, notaries and government agencies to securely receive data from customers, patients, clients or partners.');?></p>
+		<div class="col-md-6 col-md-offset-3 revealOnScroll">
+			<p class="section--paragraph text-center"><?php echo $l->t('The Nextcloud File Drop feature enables hospitals, banks, notaries and government agencies to securely receive data from customers, patients, clients or partners.');?></p>
 		</div>
 	</div>
 </div>
@@ -83,8 +76,8 @@
 <div class="container-fluid quote">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 text-center revealOnScroll">
-				<p class="section--paragraph"><?php echo $l->t('Secure your file exchange with clients right now. Learn about the benefits of a Nextcloud Support Subscription!');?></p>
+			<div class="col-md-8 col-md-offset-2 revealOnScroll">
+				<p class="section--paragraph text-center"><?php echo $l->t('Secure your file exchange with clients right now. Learn about the benefits of a Nextcloud Support Subscription!');?></p>
 				<div class="text-center morebuttondiv">
 					<a href="/enterprise" class="button button--large button--arrow"><?php echo $l->t('Subscription information');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>

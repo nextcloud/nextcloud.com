@@ -64,7 +64,7 @@
 <div class="container-fluid call-to-action">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 text-center revealOnScroll">
+			<div class="col-md-8 col-md-offset-2 revealOnScroll">
 				<h1 class="section--heading-1 text-center"><?php echo $l->t('For Enterprises');?></h1>
 				<p class="text-center"><?php echo $l->t('Enterprise users who need a more reliable and scalable solution with long term support, guaranteed response times and security updates can take advantage of our <a href="/enterprise" class="hyperlink">optional support contract</a> for Collabora Online.');?></p>
 				<div class="text-center morebuttondiv">
