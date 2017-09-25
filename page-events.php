@@ -159,6 +159,11 @@
 						<td>September 11-14</td>
 					</tr>
                     <tr>
+						<td><a  class="hyperlink" target="_blank" href="https://ubucon.de/2017/programm/#nextcloud">Ubucon Deutschland</a></td>
+						<td>Wolfsburg, Germany</td>
+						<td>October 13-15</td>
+					</tr>
+                    <tr>
 						<td><a  class="hyperlink" target="_blank" href="https://allthingsopen.org/speakers/frank-karlitschek/">All Things Open</a></td>
 						<td>RALEIGH, NC, USA</td>
 						<td>October 23-24</td>
