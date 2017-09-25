@@ -139,31 +139,32 @@
 						<td>May 31-June 2</td>
 					</tr>
                     <tr>
-						<td><a  class="hyperlink" target="_blank" href="http://www.ch-open.ch/events/open-cloud-day/detailed-program/">Open Cloud Day</a></td>
+						<td><a class="hyperlink" target="_blank" href="http://www.ch-open.ch/events/open-cloud-day/detailed-program/">Open Cloud Day</a></td>
 						<td>Bern, Switzerland</td>
 						<td>June 14</td>
 					</tr>
 					<tr>
-						<td><a  class="hyperlink" target="_blank" href="https://www.bitkom.org/bfoss17/">Forum Open Source 2017</a></td>
+						<td><a class="hyperlink" target="_blank" href="https://www.bitkom.org/bfoss17/">Forum Open Source 2017</a></td>
 						<td>Berlin, Germany</td>
 						<td>June 20</td>
 					</tr>
 					<tr>
-						<td><a  class="hyperlink" target="_blank" href="https://conf.nextcloud.com/">Nextcloud Conference 2017</a></td>
+						<td><a class="hyperlink" target="_blank" href="https://conf.nextcloud.com/">Nextcloud Conference 2017</a></td>
 						<td>Berlin, Germany</td>
 						<td>August 22-29</td>
 					</tr>
                     <tr>
-						<td><a  class="hyperlink" target="_blank" href="http://events.linuxfoundation.org/events/open-source-summit-north-america">Open Source Summit 2017 North America</a></td>
+						<td><a class="hyperlink" target="_blank" href="http://events.linuxfoundation.org/events/open-source-summit-north-america">Open Source Summit 2017 North America</a></td>
 						<td>Los Angeles, USA</td>
 						<td>September 11-14</td>
-					</tr
+                    </tr>
                     <tr>
-                        <td><a  class="hyperlink" target="_blank" href="https://ubucon.de/2017/programm/#nextcloud">Ubucon Deutschland</a></td>						<td>Wolfsburg, Germany</td>
+                        <td><a class="hyperlink" target="_blank" href="https://ubucon.de/2017/programm/#nextcloud">Ubucon Deutschland</a></td>
+                        <td>Wolfsburg, Germany</td>
 						<td>October 13-15</td>
-					</tr>>
+					</tr>
                     <tr>
-						<td><a  class="hyperlink" target="_blank" href="https://allthingsopen.org/speakers/frank-karlitschek/">All Things Open</a></td>
+						<td><a class="hyperlink" target="_blank" href="https://allthingsopen.org/speakers/frank-karlitschek/">All Things Open</a></td>
 						<td>RALEIGH, NC, USA</td>
 						<td>October 23-24</td>
 					</tr>
