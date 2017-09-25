@@ -159,6 +159,11 @@
 						<td>September 11-14</td>
 					</tr>
                     <tr>
+						<td><a  class="hyperlink" target="_blank" href="http://www.stuttgarter-sharepointforum.de/seminartag-2017/">SharePoint Forum Stuttgart</a></td>
+						<td>Stuttgart, Germany</td>
+						<td>October 4</td>
+					</tr>
+                    <tr>
 						<td><a  class="hyperlink" target="_blank" href="https://ubucon.de/2017/programm/#nextcloud">Ubucon Deutschland</a></td>
 						<td>Wolfsburg, Germany</td>
 						<td>October 13-15</td>
