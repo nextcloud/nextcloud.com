@@ -542,21 +542,6 @@
          "imagename":"punktde.png"
       },
     {
-         "title":"Cubico LLC",
-         "url":"https:\/\/cubico.cloud\/nextcloud-hosting",
-         "flags":[
-            "us",
-            "sg",
-            "eu"
-         ],
-         "freeplans":true,
-         "supports":"both",
-         "specializes":[
-            "Optimized NextCloud hosting solutions for ultimate security and privacy of your data. Free install, setup, upgrade and more."
-         ],
-         "imagename":"cubico.jpg"
-      },
-    {
          "title":"awesome IT",
          "url":"https:\/\/awesome-it.de\/cloud\/storage",
          "flags":[
