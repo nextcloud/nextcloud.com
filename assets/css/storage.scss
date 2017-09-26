@@ -13,7 +13,7 @@
 }
 
 section {
-	margin-top: 150px;
+/* 	margin-top: 150px; */
 /*	margin-bottom: 50px;*/
 /* 	padding: 50px 0; */
 
@@ -23,8 +23,10 @@ section {
 }
 
 .section--storage {
+	margin-top: 150px;
 	.row {
-		margin-bottom: 100px;
+		margin-top: 50px;
+		margin-bottom: 50px;
 	}
 }
 
@@ -32,9 +34,6 @@ section {
     text-align: center;
 }
 
-footer {
-    margin-top: 50px;
-}
 
 .section--whitepaper {
 
