@@ -174,7 +174,7 @@
 				<div class="teammeta">
 					<h3 class="teamtitle">Design Lead</h3>
 					<h4 class="teamexpertise">Co-founder, Simplicity & Ease of Use</h4>
-					<h4 class="teamlocation">lives in Munich, Germany</h4>
+					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jancborchardt"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jancborchardt"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Jan-Christoph is responsible for design on ownCloud since early 2011, continuing at Nextcloud. He pushes forward better design in open source through founding and contributing to several projects, giving talks, working with universities, and fostering the Open Source Design collective.</p>
@@ -284,6 +284,19 @@
 				<p class="teamdescription">Dirk graduated from the University of Stuttgart, Germany and received his PhD from the University of Technology in Eindhoven. He worked on MPEG-4 video coding, panoramic video visualiation and compression for 3-D television at universities and research institutions in Europe and the United States and currently works on an open source H.265 decoding/encoding library.</p>
 			</div>
 		</div>
+        <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Doğan Can Uçar</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Server apps</h4>
+					<h4 class="teamlocation">lives in Frankfurt, Germany</h4>
+					<p class="teamsocial"><a href="http://www.dogan-ucar.de/"><i class="fa-rss fa"></i></a> <a href="https://github.com/doganoo"><i class="fa-github fa"></i></a> <a href="https://twitter.com/DoganUcar9"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Doğan is a software engineer working on finishing his masters degree in computer science and working on the Nextcloud server.</p>
+			</div>
+		</div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/georg.jpg" />
@@ -343,7 +356,7 @@
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Co-founder, Activity, Workflow and Notifications</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+					<h4 class="teamlocation">lives in Heilbronn, Germany</h4>
 					<p class="teamsocial"><a href="https://www.schilljs.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/nickvergessen"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Joas has been involved in open source for over a decade, being a core member of the phpBB™ developer team and has been working on ownCloud code since late 2013. He graduated from the University of Stuttgart and developed the Notifications and Activities technology in Nextcloud.</p>
@@ -438,6 +451,19 @@
 					<p class="teamsocial"><a href="https://github.com/tobiasKaminsky"><i class="fa-github fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Tobias studied Sports and Computer Science in Darmstadt, is an experienced Java/Scala engineer and has a background in database development at a research institute for applied training science. He has been contributing to the Android app since 2013.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Tomaz Canabrava</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Desktop Client</h4>
+					<h4 class="teamlocation">lives in Munich, Germany</h4>
+					<p class="teamsocial"><a href="https://github.com/tcanabrava"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Tomaz is a software engineer with decades experience developing Qt and C++ applications at a wide variety of organizations.</p>
 			</div>
 		</div>
 	</div>
