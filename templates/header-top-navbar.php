@@ -72,9 +72,10 @@ require get_template_directory().'/strings.php';
 					</ul>
 				</li>
 
-				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Support');?></a>
+				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Resources');?></a>
 					<ul class="nav__links">
 						<li class="nav__item"><a href="<?php echo home_url('support') ?>"><?php echo $l->t('Support options');?></a></li>
+						<li class="nav__item"><a href="https://apps.nextcloud.com"><?php echo $l->t('Appstore');?></a></li>
 						<li class="nav__item"><a href="<?php echo $DOCUMENTATION_USER; ?>"><?php echo $l->t('User Documentation');?></a></li>
 						<li class="nav__item"><a href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Admin Documentation');?></a></li>
 						<li class="nav__item"><a href="https://help.nextcloud.com"><?php echo $l->t('Help on the forums');?></a></li>
