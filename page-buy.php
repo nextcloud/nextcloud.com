@@ -77,6 +77,24 @@ your project.');?></p>
 					<option value="yes"><?php echo $l->t('Yes');?></option>
 					<option value="no"><?php echo $l->t('No');?></option>
 				</select></label></p>
+				<p><label for="webconferencing"><?php echo $l->t('Would you need webconferencing/audio and video calls features?');?><br>
+				<select name="webconferencing">
+					<option value="unsure"><?php echo $l->t('Not sure');?></option>
+					<option value="yes"><?php echo $l->t('Yes');?></option>
+					<option value="no"><?php echo $l->t('No');?></option>
+				</select></label></p>
+				<p><label for="outlook"><?php echo $l->t('Would you be interested in our Secure Sharing add-in for Outlook?');?><br>
+				<select name="outlook">
+					<option value="unsure"><?php echo $l->t('Not sure');?></option>
+					<option value="yes"><?php echo $l->t('Yes');?></option>
+					<option value="no"><?php echo $l->t('No');?></option>
+				</select></label></p>
+				<p><label for="branding"><?php echo $l->t('Would you be need branded clients?');?><br>
+				<select name="branding">
+					<option value="unsure"><?php echo $l->t('Not sure');?></option>
+					<option value="yes"><?php echo $l->t('Yes');?></option>
+					<option value="no"><?php echo $l->t('No');?></option>
+				</select></label></p>
 				<p><label for="LTS"><?php echo $l->t('Would you like to have the ability to stay on the exact same version of Nextcloud for several years?');?><br>
 				<input  type="text" name="LTS" maxlength="80" size="60" placeholder="<?php echo $l->t('If yes, how many years?');?>"></label></p>
 				<p><label for="comments"><?php echo $l->t('Your message<br />
