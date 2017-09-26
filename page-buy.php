@@ -47,61 +47,68 @@ your project.');?></p>
 				<input  type="text" name="users" maxlength="80" size="60" placeholder="Our pricing starts at 50 users.">');?></label></p>
 				<p><label for="SLA"><?php echo $l->t('What kind of response time do you require?<br>
 				<textarea name="SLA" maxlength="120" cols="70" rows="2" placeholder="24/7, business hours, within 3 days, etc">');?></textarea></label></p>
-				<p><label for="need-phone-support"><?php echo $l->t('Do you require phone support?');?><br>
-				<select name="need-phone-support">
-					<option value="unsure"><?php echo $l->t('Not sure');?></option>
-					<option value="yes"><?php echo $l->t('Yes');?></option>
-					<option value="no"><?php echo $l->t('No');?></option>
-				</select></label></p>
-				<p><label for="need-support-manager"><?php echo $l->t('Would you need a dedicated Support Account Manager?');?><br>
-				<select name="need-support-manager">
-					<option value="unsure"><?php echo $l->t('Not sure');?></option>
-					<option value="yes"><?php echo $l->t('Yes');?></option>
-					<option value="no"><?php echo $l->t('No');?></option>
-				</select></label></p>
-				<p><label for="need-setup-help"><?php echo $l->t('Would you require assistance to set up the service or to design/review the architecture?');?><br>
-				<select name="need-setup-help">
-					<option value="unsure"><?php echo $l->t('Not sure');?></option>
-					<option value="yes"><?php echo $l->t('Yes');?></option>
-					<option value="no"><?php echo $l->t('No');?></option>
-				</select></label></p>
-				<p><label for="clustering"><?php echo $l->t('Are you using any sort of clustering for the application, database or storage?');?><br>
-				<select name="clustering">
-					<option value="unsure"><?php echo $l->t('Not sure');?></option>
-					<option value="yes"><?php echo $l->t('Yes');?></option>
-					<option value="no"><?php echo $l->t('No');?></option>
-				</select></label></p>
-				<p><label for="collabora"><?php echo $l->t('Would you need to be able to edit office documents online?');?><br>
-				<select name="collabora">
-					<option value="unsure"><?php echo $l->t('Not sure');?></option>
-					<option value="yes"><?php echo $l->t('Yes');?></option>
-					<option value="no"><?php echo $l->t('No');?></option>
-				</select></label></p>
-				<p><label for="webconferencing"><?php echo $l->t('Would you need webconferencing/audio and video calls features?');?><br>
-				<select name="webconferencing">
-					<option value="unsure"><?php echo $l->t('Not sure');?></option>
-					<option value="yes"><?php echo $l->t('Yes');?></option>
-					<option value="no"><?php echo $l->t('No');?></option>
-				</select></label></p>
-				<p><label for="outlook"><?php echo $l->t('Would you be interested in our Secure Sharing add-in for Outlook?');?><br>
-				<select name="outlook">
-					<option value="unsure"><?php echo $l->t('Not sure');?></option>
-					<option value="yes"><?php echo $l->t('Yes');?></option>
-					<option value="no"><?php echo $l->t('No');?></option>
-				</select></label></p>
-				<p><label for="branding"><?php echo $l->t('Would you be need branded clients?');?><br>
-				<select name="branding">
-					<option value="unsure"><?php echo $l->t('Not sure');?></option>
-					<option value="yes"><?php echo $l->t('Yes');?></option>
-					<option value="no"><?php echo $l->t('No');?></option>
-				</select></label></p>
-				<p><label for="LTS"><?php echo $l->t('Would you like to have the ability to stay on the exact same version of Nextcloud for several years?');?><br>
-				<input  type="text" name="LTS" maxlength="80" size="60" placeholder="<?php echo $l->t('If yes, how many years?');?>"></label></p>
-				<p><label for="comments"><?php echo $l->t('Your message<br />
-				<textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Let us know how we can help you!">');?></textarea></label></p>
+				<div class="row">
+                    <h3><?php echo $l->t('Your needs');?></h3>
+                    <div class="col-md-6">
+                        <p><label for="need-phone-support"><?php echo $l->t('Do you require phone support?');?><br>
+                        <select name="need-phone-support">
+                            <option value="unsure"><?php echo $l->t('Not sure');?></option>
+                            <option value="yes"><?php echo $l->t('Yes');?></option>
+                            <option value="no"><?php echo $l->t('No');?></option>
+                        </select></label></p>
+                        <p><label for="need-support-manager"><?php echo $l->t('Would you need a dedicated Support Account Manager?');?><br>
+                        <select name="need-support-manager">
+                            <option value="unsure"><?php echo $l->t('Not sure');?></option>
+                            <option value="yes"><?php echo $l->t('Yes');?></option>
+                            <option value="no"><?php echo $l->t('No');?></option>
+                        </select></label></p>
+                        <p><label for="need-setup-help"><?php echo $l->t('Would you require assistance to set up the service or to design/review the architecture?');?><br>
+                        <select name="need-setup-help">
+                            <option value="unsure"><?php echo $l->t('Not sure');?></option>
+                            <option value="yes"><?php echo $l->t('Yes');?></option>
+                            <option value="no"><?php echo $l->t('No');?></option>
+                        </select></label></p>
+                        <p><label for="clustering"><?php echo $l->t('Are you using any sort of clustering for the application, database or storage?');?><br>
+                        <select name="clustering">
+                            <option value="unsure"><?php echo $l->t('Not sure');?></option>
+                            <option value="yes"><?php echo $l->t('Yes');?></option>
+                            <option value="no"><?php echo $l->t('No');?></option>
+                        </select></label></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><label for="collabora"><?php echo $l->t('Would you need to be able to edit office documents online?');?><br>
+                        <select name="collabora">
+                            <option value="unsure"><?php echo $l->t('Not sure');?></option>
+                            <option value="yes"><?php echo $l->t('Yes');?></option>
+                            <option value="no"><?php echo $l->t('No');?></option>
+                        </select></label></p>
+                        <p><label for="webconferencing"><?php echo $l->t('Would you need webconferencing/audio and video calls features?');?><br>
+                        <select name="webconferencing">
+                            <option value="unsure"><?php echo $l->t('Not sure');?></option>
+                            <option value="yes"><?php echo $l->t('Yes');?></option>
+                            <option value="no"><?php echo $l->t('No');?></option>
+                        </select></label></p>
+                        <p><label for="outlook"><?php echo $l->t('Would you be interested in our Secure Sharing add-in for Outlook?');?><br>
+                        <select name="outlook">
+                            <option value="unsure"><?php echo $l->t('Not sure');?></option>
+                            <option value="yes"><?php echo $l->t('Yes');?></option>
+                            <option value="no"><?php echo $l->t('No');?></option>
+                        </select></label></p>
+                        <p><label for="branding"><?php echo $l->t('Would you be need branded clients?');?><br>
+                        <select name="branding">
+                            <option value="unsure"><?php echo $l->t('Not sure');?></option>
+                            <option value="yes"><?php echo $l->t('Yes');?></option>
+                            <option value="no"><?php echo $l->t('No');?></option>
+                        </select></label></p>
+                        <p><label for="LTS"><?php echo $l->t('Would you like to have the ability to stay on the exact same version of Nextcloud for several years?');?><br>
+                        <input  type="text" name="LTS" maxlength="80" size="60" placeholder="<?php echo $l->t('If yes, how many years?');?>"></label></p>
+                    </div>
+                </div>
+				<p><label for="comments"><?php echo $l->t('Your message');?><br />
+				<textarea name="comments" maxlength="2000" cols="80" rows="8" placeholder="<?php echo $l->t('Let us know how we can help you!');?>"></textarea></label></p>
 				<td colspan="2" style="text-align:center">
 				<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-				<input type="submit" value=" Submit inquiry ">
+				<input type="submit" value=" Submit inquiry " class="button button--blue">
 		</form>
 	</div>
 </div>
