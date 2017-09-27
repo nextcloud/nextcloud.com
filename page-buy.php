@@ -94,7 +94,7 @@ your project.');?></p>
                             <option value="yes"><?php echo $l->t('Yes');?></option>
                             <option value="no"><?php echo $l->t('No');?></option>
                         </select></label></p>
-                        <p><label for="branding"><?php echo $l->t('Would you be need branded clients?');?><br>
+                        <p><label for="branding"><?php echo $l->t('Would you need branded clients?');?><br>
                         <select name="branding">
                             <option value="unsure"><?php echo $l->t('Not sure');?></option>
                             <option value="yes"><?php echo $l->t('Yes');?></option>
