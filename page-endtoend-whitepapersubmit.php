@@ -77,7 +77,7 @@ if(isset($_POST['email'])) {
     $email_message .= "\n";
     $email_message .= "Thank you for your interest in our End-to-end Encryption whitepaper!"."\n\n";
     $email_message .= "You can download the whitepaper here:"."\n";
-    $email_message .= "https://nextcloud.com/wp-content/themes/next/assets/files/3NLkR6bd/endtoend-whitepaper.pdf"."\n\n";
+    $email_message .= "https://nextcloud.com/wp-content/themes/next/assets/files/Db2s23nL/endtoend-whitepaper.pdf"."\n\n";
     $email_message .= "Your feedback is welcome. If you have any questions or if you are interested in a demo, let us know!"."\n\n";
     $email_message .= "Greetings,"."\n";
     $email_message .= "The Nextcloud team";
