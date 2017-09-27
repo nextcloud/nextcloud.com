@@ -48,6 +48,9 @@
 <div class="container">
     <p class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('Ultimate protection');?></h2>
     <div class="row">
+        <div class="col-md-6 image--floated revealOnScroll">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/endtoend-server-nw.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/endtoend-server-nw.png" alt="in action" /></a>
+        </div>
         <div class="col-md-6">
             <p class="section--paragraph revealOnScroll">
                 <?php echo $l->t('Nextcloud end-to-end encryption offers the ultimate protection for your data, making it suitable for your most private information. Use it to protect a copy of your passport, passwords, driver\'s license or bank account information.');?>
@@ -58,9 +61,6 @@
             <p class="section--paragraph revealOnScroll">
                 <?php echo $l->t('Seamless integration and ease of use with key features like offline recovery keys, auditing and HSM support make Nextcloud End-to-end Encryption the perfect complement to other Nextcloud security features including Server-side Encryption and File Access Control.');?>
             </p>
-        </div>
-        <div class="col-md-6 image--floated revealOnScroll">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/endtoend-server-nw.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/endtoend-server-nw.png" alt="in action" /></a>
         </div>
     </div>
 </div>
@@ -101,6 +101,9 @@
     </div>
     <div class="row">
         <div class="col-md-6 image--floated revealOnScroll">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/endtoend-encryption_passphrase.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/endtoend-android-nw.png" alt="in action" /></a>
+        </div>
+        <div class="col-md-6 revealOnScroll">
             <p class="section--paragraph revealOnScroll">
                 <ul>
                     <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Each device of the user can aid in recovering their private key. Only if a key is lost on all devices AND the 12 secure key words are lost, the user loses access to his/her data. The optional offline administrator recovery key can still be used to re-gain access.');?></li>
@@ -111,45 +114,29 @@
             </p>
 
         </div>
-        <div class="col-md-6 image--floated revealOnScroll">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/endtoend-encryption_passphrase.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/endtoend-android-nw.png" alt="in action" /></a>
-        </div>
     </div>
 </section>
 
-<!--<section class="section--whitepaper quote">
-	<div class="container revealOnScroll">
+<section class="section--whitepaper quote">
+	<div class="container">
         <div class="row">
 			<div class="col-lg-8">
                 <h2 class="revealOnScroll"><?php echo $l->t('Get our whitepaper');?></h2>
                 <form name="whitepaper" method="post" action="../endtoend-whitepapersubmit">
-                    <p><label for="email"><?php echo $l->t('Download our <br /> End-to-end Encryption white paper!');?><br>
+                    <p class="revealOnScroll"><label for="email"><?php echo $l->t('Download our <br /> End-to-end Encryption white paper!');?><br>
                     <td colspan="2">
                     <div class="">
                         <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
                     </div>
                     </td>
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large" type="submit" value=" Get the datasheet "></p>
+                    <input class="mail revealOnScroll" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large revealOnScroll" type="submit" value=" Get the white paper "></p>
                 </form>
             </div>
         </div>
-        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/monitoring-thumbnail-banner.png"/>
-	</div>
-</section>-->
-
-<section class="section--whitepaper quote">
-	<div class="container revealOnScroll">
-        <div class="row">
-			<div class="col-lg-8">
-                <h2 class="revealOnScroll"><?php echo $l->t('See technical details and provide feedback!');?></h2>
-                    <p><?php echo $l->t('Find a full design description on github.');?></p>
-                    <p><a class="button button--large" href="https://github.com/nextcloud/end_to_end_encryption_rfc">Go to GitHub</a></p>
-                </form>
-            </div>
-        </div>
-<!--         <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/monitoring-thumbnail-banner.png"/> -->
+        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/endtoend-thumbnail-banner.png"/>
 	</div>
 </section>
+
 
 <section class="section--usecases">
 <div class="container">
@@ -165,6 +152,9 @@
         </div>
     </div>
     <div class="row">
+        <div class="col-md-6 image--floated revealOnScroll">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-nw.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/encryption-nw.png" alt="in action" /></a>
+        </div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle revealOnScroll"><?php echo $l->t('Use cases');?></p>
             <p class="section--paragraph revealOnScroll">
@@ -174,8 +164,96 @@
                 <?php echo $l->t('Meanwhile, using the <a class="hyperlink" href="/workflow">Nextcloud File Access Control capability,</a> files from the HR department can always be enforced to be end-to-end encrypted on their clients, protecting their data from even the worst case of a full server breach. Similarly, sensitive research, customer information or strategic documents can be guaranteed to be kept even from server administrators.');?>
             </p>
         </div>
-        <div class="col-md-6 image--floated revealOnScroll">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-nw.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/encryption-nw.png" alt="in action" /></a>
+    </div>
+</div>
+</section>
+
+<section class="section--technology">
+<div class="container">
+    <p class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('Technical background');?></h2>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <p class="section--paragraph revealOnScroll">
+                <?php echo $l->t('Below we cover some of the basics of our design. Download our white paper for more details.');?>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <p class="section--paragraph__tittle revealOnScroll"><?php echo $l->t('Requirements');?></p>
+            <p class="section--paragraph revealOnScroll">
+                <?php echo $l->t('We aimed to fulfill the following business and technical criteria.');?>
+            </p>
+            <p class="section--paragraph revealOnScroll">
+                <ul>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Security properties: Never leak directory structure, filenames or file content to the server. Encrypt folders so only legitimate recipients have access, data integrity is guaranteed and authenticity can be proven. Optional central data recovery key should be possible. Users should be warned if in use.');?></li>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Use widely available and tested libraries for crypto primitives, available for iOS 9+, Android 6.0+, Mac OS X 10.9+, Windows 7+, Linux and PHP 7.0+.');?></li>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Sharing on folder-level granularity must be possible to individual users. No passwords should need to be exchanged for sharing. Key exchange should be auditable. Adding devices should be easy and new devices should have access to all previously encrypted data.');?></li>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('The protocol needs to support versioning in case of future changes to metadata or crypto handling. Design should support a hardware security module, giving strong authentication, tamper-resistance and a complete audit trail.');?></li>
+                </ul>
+            </p>
+        </div>
+        <div class="col-md-6 revealOnScroll">
+            <p class="section--paragraph__tittle revealOnScroll"><?php echo $l->t('Accepted feature loss');?></p>
+            <p class="section--paragraph revealOnScroll">
+                <?php echo $l->t('We accept losing the following features:');?>
+            </p>
+            <p class="section--paragraph revealOnScroll">
+                <ul>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Server-side trash bin');?></li>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Server-side versioning');?></li>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Server-side search');?></li>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Server-side previews');?></li>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('File access through web interface');?></li>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Sharing to groups');?></li>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Sharing at the level of individual files');?></li>
+                </ul>
+            </p>
         </div>
     </div>
 </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-7 revealOnScroll">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/security/E2E-CreateAndSyncIdentity.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/E2E-CreateAndSyncIdentity.png" alt="in action" /></a>
+        </div>
+        <div class="col-md-5">
+            <p class="section--paragraph__tittle revealOnScroll"><?php echo $l->t('Enabling encryption');?></p>
+            <p class="section--paragraph revealOnScroll">
+                <?php echo $l->t('The encryption is based upon an asymmetric cryptographic system. Every user has exactly one private and public key pair.');?>
+            </p>
+            <p class="section--paragraph revealOnScroll">
+                <?php echo $l->t('The key generation process is designed to keep the contents of the private key from the server while storing it security so it can be synced to other devices the user owns. Some other properties of the process:');?>
+            </p>
+            <p class="section--paragraph revealOnScroll">
+                <ul>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('The user creates an identity which is signed by the server (using a certificate) and associated with their public key. Users can only have one identity, other clients will refuse to accept a new certificate following the Trust on First Use (TOFU) model. This protects data from a malicious server which tries to generate a new identity for a target user and get clients to re-encrypt the data against it.');?></li>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('In case a user loses their device they can easily recover by using the mnemonic passphrase. The mnemonic passphrase can also be shown in the client settings in case the user forgets their mnemonic. Displaying the mnemonic requires the user to enter their PIN/fingerprint again on mobile devices.');?></li>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Sharing on folder-level granularity must be possible to individual users. No passwords should need to be exchanged for sharing. Key exchange should be auditable. Adding devices should be easy and new devices should have access to all previously encrypted data.');?></li>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('The protocol needs to support versioning in case of future changes to metadata or crypto handling. Design should support a hardware security module, giving strong authentication, tamper-resistance and a complete audit trail.');?></li>
+                </ul>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 revealOnScroll">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/security/E2E-EncryptFoldersAndAddFiles.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/E2E-EncryptFoldersAndAddFiles.png" alt="in action" /></a>
+        </div>
+        <div class="col-md-10 col-md-offset-1">
+            <p class="section--paragraph__tittle revealOnScroll"><?php echo $l->t('Encrypting files');?></p>
+            <p class="section--paragraph revealOnScroll">
+                <?php echo $l->t('Creating an end-to-end encrypted folder is done by flagging an empty folder as end-to-end encrypted, creating metadata, encrypting and uploading it. The process is protected by locking, with the client requesting a lock from the server and releasing it again after all changes are finished and uploaded.');?>
+            </p>
+            <p class="section--paragraph revealOnScroll">
+                <?php echo $l->t('Files are each encrypted with their own, unique key, which is stored in the metadata file. All data in the metadata file is, in turn, securely encrypted and files names and directory structures are also hidden from the server using a unique UUID as name for each file.');?>
+            </p>
+            <p class="section--paragraph__tittle revealOnScroll"><?php echo $l->t('Download our white paper for more details!');?></p>
+        </div>
+    </div>
+</div>
+
+</section>
