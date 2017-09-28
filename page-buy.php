@@ -56,7 +56,7 @@ your project.');?></p>
                             <option value="yes"><?php echo $l->t('Yes');?></option>
                             <option value="no"><?php echo $l->t('No');?></option>
                         </select></label></p>
-                        <p><label for="need-support-manager"><?php echo $l->t('Would you need a dedicated Support Account Manager?');?><br>
+                        <p><label for="need-support-manager"><?php echo $l->t('Would you be interested in a dedicated Support Account Manager?');?><br>
                         <select name="need-support-manager">
                             <option value="unsure"><?php echo $l->t('Not sure');?></option>
                             <option value="yes"><?php echo $l->t('Yes');?></option>
@@ -76,13 +76,13 @@ your project.');?></p>
                         </select></label></p>
                     </div>
                     <div class="col-md-6">
-                        <p><label for="collabora"><?php echo $l->t('Would you need to be able to edit office documents online?');?><br>
+                        <p><label for="collabora"><?php echo $l->t('Would you be interested in editing office documents online?');?><br>
                         <select name="collabora">
                             <option value="unsure"><?php echo $l->t('Not sure');?></option>
                             <option value="yes"><?php echo $l->t('Yes');?></option>
                             <option value="no"><?php echo $l->t('No');?></option>
                         </select></label></p>
-                        <p><label for="webconferencing"><?php echo $l->t('Would you need webconferencing/audio and video calls features?');?><br>
+                        <p><label for="webconferencing"><?php echo $l->t('Would you be interested in secure webconferencing and audio and video calls?');?><br>
                         <select name="webconferencing">
                             <option value="unsure"><?php echo $l->t('Not sure');?></option>
                             <option value="yes"><?php echo $l->t('Yes');?></option>
@@ -94,7 +94,7 @@ your project.');?></p>
                             <option value="yes"><?php echo $l->t('Yes');?></option>
                             <option value="no"><?php echo $l->t('No');?></option>
                         </select></label></p>
-                        <p><label for="branding"><?php echo $l->t('Would you need branded clients?');?><br>
+                        <p><label for="branding"><?php echo $l->t('Would you be interested in branded clients?');?><br>
                         <select name="branding">
                             <option value="unsure"><?php echo $l->t('Not sure');?></option>
                             <option value="yes"><?php echo $l->t('Yes');?></option>
