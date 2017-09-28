@@ -15,12 +15,8 @@
 .image--floated {
   float: right; }
 
-section {
-  /* 	margin-top: 150px; */
-  /*	margin-bottom: 50px;*/
-  /* 	padding: 50px 0; */ }
-  section .section--paragraph__tittle {
-    padding: 0; }
+section .section--paragraph__tittle {
+  padding: 0; }
 
 .section--storage {
   margin-top: 150px; }
