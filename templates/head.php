@@ -36,7 +36,6 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/animation.gsap.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/debug.addIndicators.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.hammer.min.js"></script> -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/font-awesome.min.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/header.css" rel="stylesheet">
