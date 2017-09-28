@@ -49,6 +49,7 @@ require get_template_directory().'/strings.php';
 					<ul class="nav__links ">
 						<li class="nav__item"><a href="<?php echo home_url('features') ?>"><?php echo $l->t('Overview');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('secure') ?>"><?php echo $l->t('Security');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('End-to-end encryption');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('sharing') ?>"><?php echo $l->t('Sharing');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('clients') ?>"><?php echo $l->t('Clients');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('workflow') ?>"><?php echo $l->t('Workflow');?></a></li>
