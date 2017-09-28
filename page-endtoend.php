@@ -5,6 +5,7 @@
         require(["pages/endtoend"])
     });
     </script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <div class=" background endtoend-background">
