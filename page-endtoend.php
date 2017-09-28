@@ -251,7 +251,6 @@
             <p class="section--paragraph revealOnScroll">
                 <?php echo $l->t('Files are each encrypted with their own, unique key, which is stored in the metadata file. All data in the metadata file is, in turn, securely encrypted and files names and directory structures are also hidden from the server using a unique UUID as name for each file.');?>
             </p>
-            <p class="section--paragraph__tittle revealOnScroll"><?php echo $l->t('Download our white paper for more details!');?></p>
         </div>
     </div>
 </div>
