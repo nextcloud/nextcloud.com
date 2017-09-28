@@ -1061,6 +1061,20 @@ footer.page-footer p a:hover {
 html {
   margin-top: 0 !important; }
 
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url('../fonts/OpenSans-Semibold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('../fonts/OpenSans-Semibold.ttf') format('ttf');
+}
+
 body {
   font-family: "Open Sans", Frutiger, Calibri, "Myriad Pro", Myriad, sans-serif;
   -webkit-font-smoothing: antialiased;
