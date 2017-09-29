@@ -100,6 +100,8 @@
     font-stretch: normal;
     line-height: 2.5;
     color: #555555; }
+    .plans .list .check .hyperlink {
+      color: #555555; }
   .plans .list .check {
     list-style-image: url("../img/enterprise/check.svg");
     list-style-position: inside; }
