@@ -41,7 +41,7 @@ require get_template_directory().'/strings.php';
 						<li class="nav__item"><a href="https://newsletter.nextcloud.com"><?php echo $l->t('Newsletter');?></a></li>
 						<li class="nav__item"><a href="https://twitter.com/nextclouders"><?php echo $l->t('Twitter');?></a></li>
 						<li class="nav__item"><a href="https://www.facebook.com/Nextcloud-1032807203462807/"><?php echo $l->t('Facebook');?></a></li>
-						<li class="nav__item"><a href="https://www.linkedin.com/company/10827569/"><?php echo $l->t('Linked-in');?></a></li>
+						<li class="nav__item"><a href="https://www.linkedin.com/company/10827569/"><?php echo $l->t('LinkedIn');?></a></li>
 						<li class="nav__item"><a href="https://plus.google.com/b/104036748063781940910/104036748063781940910/about"><?php echo $l->t('Google+');?></a></li>
 					</ul>
 				</li>
