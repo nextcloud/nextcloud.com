@@ -1,17 +1,8 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/channels.css" rel="stylesheet">
-<link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
 <script>
 	require(["require.config"], function() {
-		require(["vendor/jquery.min", "vendor/jquery.ui", "bootstrap"],
-			function ($, jqueryui) {
-				require(["vendor/jquery.youtubepopup"],
-					function (jqyoutube) {
-						jQuery("a.youtube").YouTubePopup({ hideTitleBar: true });
-					}
-				);
-			}
-		);
+		require(["pages/release-channels"])
 	});
 </script>
 </head>
@@ -41,20 +32,13 @@
     <div class="row">
         <div class="col-md-6 revealOnScroll">
             <p>You can choose a channel of your preference in the Administrator settings in your Nextcloud instance if you have installed Nextcloud from an archive. Learn more about the release channels below.</p>
-            <p>NOTE that you can <strong>only upgrade to a newer version</strong>. <em>Skipping major versions</em> when upgrading and <em>downgrading</em> to older versions is not supported by Nextcloud.</p>
-            <p>Nextcloud makes new versions incrementally available to user installations. When a major new version comes out, about 15% of the user base will receive an update notification in the first few hours. After some time and if no problems are found, the percentage is increased.</p>
+            <p>NOTE that you can <strong>only upgrade to a newer version</strong>. <em>Skipping major versions</em> when upgrading and <em>downgrading</em> to older versions is not supported by Nextcloud. If you went via 'beta' to 14.0.0rc4 and stable is on 13.0.5, you have to wait until 14.0.0 or later is in stable until a new update will become available.</p>
+            <p>Nextcloud makes new versions incrementally available to user installations in the stable and production channels. When a major new version comes out, we wait about one week and only when no problems are found we start the roll out in steps of about 20% of our user base per week. In practice this means a new release is typically only available in the stable channel after the first minor release. Users can always upgrade sooner by choosing the beta channel, which typically tracks stable releases immediately after publishing.</p>
         </div>
 <!--         <div class="col-md-6"> -->
     <!--       	     <iframe width="100%" height="360" src="https://www.youtube.com/embed/RtNAx-PcZd8?rel=0" frameborder="0" allowfullscreen></iframe> -->
             <div class="col-md-6">
-                <div class="yt-img-overlay">
-                    <a class="youtube" href="https://www.youtube.com/watch?v=3hsQNPlQOSE" title="Release Channels explained">
-                        <img  src="https://img.youtube.com/vi/3hsQNPlQOSE/hqdefault.jpg" title="Release Channels explained" />
-                        <div class="yt-play-btn">
-                            <i></i>
-                        </div>
-                    </a>
-                </div>
+                <iframe width="100%" height="300" src="https://www.youtube.com/embed/3hsQNPlQOSE" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
