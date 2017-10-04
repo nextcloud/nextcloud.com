@@ -11,7 +11,7 @@ footer.page-footer {
 	margin-top: 20px;
 }
 
-.section--about {
+section {
 	padding-top: 80px;
 /* 	display: inline-block; */
 
@@ -33,13 +33,9 @@ footer.page-footer {
     .newsrow {
         margin-top: 70px;
 		margin-bottom: 30px;
-    }
 
-    .yt-img-overlay {
-        margin-bottom: 25px;
+		.col-md-4 {
+			padding: 15px;
+		}
     }
-}
-
-.disclaimer {
-	margin-top: 150px;
 }

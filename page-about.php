@@ -44,92 +44,86 @@ require(["require.config"], function() {
 
 		<p class="section--paragraph"><?php echo $l->t('Watch the videos and interviews below to learn more about what happened.');?></p>
 		<div class="row newsrow">
-			<div class="col-md-4 yt-img-overlay">
+			<div class="col-md-4">
 				<a class="hyperlink" href="http://www.techrepublic.com/article/nextcloud-11-cloud-server-an-impressive-security-focused-update/" target="_blank" title="Techrepublic on Nextcloud 11">
-				<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/techrepublic.png" title="Techrepublic on Nextcloud 11"/>
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/techrepublic.png" title="Techrepublic on Nextcloud 11"/>
 				</a>
 			</div>
-			<div class="col-md-4 yt-img-overlay">
+			<div class="col-md-4">
 				<a class="hyperlink" href="http://www.cio.com/article/3150864/open-source-tools/nextcloud-is-the-open-source-answer-to-mass-surveillance.html" target="_blank" title="CIO on Nextcloud 11">
-				<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/cio-on-11.png" title="CIO on Nextcloud 11"/>
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/cio-on-11.png" title="CIO on Nextcloud 11"/>
 				</a>
 			</div>
-			<div class="col-md-4 yt-img-overlay">
+			<div class="col-md-4">
 				<a class="hyperlink" href="http://www.zdnet.com/article/nextcloud-adds-security-and-scalability-to-its-private-cloud-offering/" target="_blank" title="ZDNet on Nextcloud 11">
-				<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/zdnet-on-11.png" title="ZDNet on Nextcloud 11"/>
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/zdnet-on-11.png" title="ZDNet on Nextcloud 11"/>
 				</a>
 			</div>
-			<div class="col-md-4 yt-img-overlay">
+			<div class="col-md-4">
 				<a class="hyperlink" href="http://www.eweek.com/cloud/nextcloud-improves-security-adds-enterprise-support.html" target="_blank" title="eWeek on the fork">
-				<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/eweek.png" title="eWeek on the fork"/>
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/eweek.png" title="eWeek on the fork"/>
 				</a>
 			</div>
-			<div class="col-md-4 yt-img-overlay">
+			<div class="col-md-4">
 				<a class="hyperlink" href="http://www.zdnet.com/article/nextcloud-releases-owncloud-fork-ahead-of-schedule/" target="_blank" title="ZDNet on the fork">
-				<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/ZDNet.png" title="ZDNet on the fork"/>
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/ZDNet.png" title="ZDNet on the fork"/>
 				</a>
 			</div>
-			<div class="col-md-4 yt-img-overlay">
+			<div class="col-md-4">
 				<a class="hyperlink" href="http://thenewstack.io/story-behind-nextcloud/" target="_blank" title="TheNewStack on the fork">
-				<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/thenewstack.png" title="TheNewStack on the fork"/>
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/thenewstack.png" title="TheNewStack on the fork"/>
 				</a>
 			</div>
-			<div class="col-md-4 yt-img-overlay">
+			<div class="col-md-4">
 				<a class="hyperlink" href="http://fortune.com/2016/06/03/what-happened-to-owncloud/" title="Fortune on the fork">
-				<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/fortune.png" target="_blank" title="Fortune on the fork"/>
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/fortune.png" target="_blank" title="Fortune on the fork"/>
 				</a>
 			</div>
-			<div class="col-md-4 yt-img-overlay">
+			<div class="col-md-4">
 				<a class="hyperlink" href="http://www.cio.com/article/3079866/open-source-tools/what-we-can-learn-from-ownclouds-collapse.html" target="_blank" title="CIO on the fork">
-				<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/cio_logo.png" title="CIO on the fork"/>
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/cio_logo.png" title="CIO on the fork"/>
 				</a>
 			</div>
-			<div class="col-md-4 yt-img-overlay">
+			<div class="col-md-4">
 				<a class="hyperlink" href="http://www.theregister.co.uk/2016/07/28/open_source_insider_open_source_forkery/" target="_blank" title="Fork You - the Register analysis">
-				<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/TheRegister.png" title="Fork You - the Register analysis"/>
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/TheRegister.png" title="Fork You - the Register analysis"/>
 				</a>
 			</div>
-			<div class="col-md-4 yt-img-overlay">
+			<div class="col-md-4">
 				<a class="hyperlink" href="https://www.radiotux.de/index.php?/archives/8015-RadioTux-Sendung-Juni-2016.html" target="_blank" title="RadioTux interview (German)">
-				<img class="" src="<?php bloginfo('template_directory');?>/assets/img/history/radiotux.png" title="Radio Tux interview"/>
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/radiotux.png" title="Radio Tux interview"/>
 				</a>
 			</div>
-			<div class="col-md-4 yt-img-overlay">
-				<a class="youtube" id="Yjqd7MX434I?start=2678" class="hyperlink" href="https://www.youtube.com/watch?v=Yjqd7MX434I?t=44m38s" target="_blank" title="The Linux Action Show">
-				<img  src="https://img.youtube.com/vi/Yjqd7MX434I/hqdefault.jpg" title="The Linux Action Show" />
-				<div class="yt-play-btn">
-								<i></i>
-							</div>
-				</a>
+			<div class="col-md-4">
+                <div data-type="youtube" data-video-id="Yjqd7MX434I?start=2678"></div>
 			</div>
-			<div class="col-md-4 yt-img-overlay">
-				<a class="youtube" id="rAXf8SGAXFE?start=2173" class="hyperlink" href="https://www.youtube.com/watch?v=rAXf8SGAXFE?t=36m21s" target="_blank" title="Bad Voltage">
-				<img  src="https://img.youtube.com/vi/rAXf8SGAXFE/hqdefault.jpg" title="Bad Voltage" />
-				<div class="yt-play-btn">
-								<i></i>
-							</div>
-				</a>
+			<div class="col-md-4">
+                <div data-type="youtube" data-video-id="rAXf8SGAXFE?start=2173"></div>
 			</div>
-			<div class="col-md-4 yt-img-overlay">
-				<a class="youtube" id="iMfokaX2r8g" class="hyperlink" href="https://www.youtube.com/watch?v=iMfokaX2r8g" target="_blank" title="Interview by Bryan Lunduke">
-				<img  src="https://img.youtube.com/vi/iMfokaX2r8g/hqdefault.jpg" title="Interview by Bryan Lunduke" />
-				<div class="yt-play-btn">
-								<i></i>
-							</div>
-				</a>
+			<div class="col-md-4">
+                <div data-type="youtube" data-video-id="iMfokaX2r8g"></div>
 			</div>
 		</div>
 	</div>
 </section>
+<section>
 <div class="container">
 	<div class="row">
-		<div class="col-md-6 col-md-offset-3 text-center">
+		<div class="text-center">
 			<h2><?php echo $l->t('Our newsletter');?></h2>
+			<div class="col-md-6 col-md-offset-3">
 			<p class="section--paragraph"><?php echo $l->t('Stay up to date with Nextcloud news – future plans for releases, events and development are covered monthly in our news letter.');?></p>
+			</div>
+			<div class="col-md-6 col-md-offset-3">
 			<?php echo $l->t('<a href="https://newsletter.nextcloud.com/?p=subscribe&id=1" class="btn btn-primary btn-lg join-button">Subscribe</a>');?>
+			</div>
 		</div>
 	</div>
-	<div class="row disclaimer">
+</div>
+</section>
+<section>
+<div class="container">
+	<div class="row">
 		<div class="col-md-12">
 			<p class="section--paragraph"><?php echo $l->t('Disclaimer: </br>
 			<small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.<br />
@@ -137,3 +131,4 @@ require(["require.config"], function() {
 		</div>
 	</div>
 </div>
+</section>
