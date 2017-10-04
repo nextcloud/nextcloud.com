@@ -7,7 +7,7 @@
   position: absolute; }
 
 .conf-background {
-  background: url("../img/headers/team.jpg") no-repeat;
+  background: url("../../img/headers/team.jpg") no-repeat;
   background-position: center;
   background-size: cover; }
 
@@ -60,11 +60,11 @@
 .section--fridayfocus {
   margin: 100px 0 100px 0;
   padding: 80px 0 50px 0;
-  background-image: url("../img/conference/workshop.jpg");
+  background-image: url("../../img/conference/workshop.jpg");
   background-size: cover;
   background-position: center;
   /*   @media (max-width: $break-small) { */
-  /*     background-image: url('../img/home/perfect-for-home-and-business-mobile.jpg'); */
+  /*     background-image: url('../../img/home/perfect-for-home-and-business-mobile.jpg'); */
   /*   } */ }
   .section--fridayfocus .btn-primary {
     width: 430px; }
@@ -76,7 +76,7 @@
     .section--fridayfocus .btn-primary {
       width: 300px; }
       .section--fridayfocus .btn-primary .icon-arrow {
-        background: url(../img/arrow_right.svg) center/contain no-repeat;
+        background: url(../../img/arrow_right.svg) center/contain no-repeat;
         position: absolute;
         width: 20px;
         height: 100%;

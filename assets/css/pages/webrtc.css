@@ -6,7 +6,7 @@
   background-color: transparent;
   position: absolute; }
 
-.storage-background {
+.webrtc-background {
   background: url("../../img/headers/webrtc.jpg") no-repeat;
   background-position: center;
   background-size: cover;

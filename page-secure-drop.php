@@ -24,7 +24,7 @@
 		<div class="col-md-10 col-md-offset-1 video revealOnScroll">
 			<div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
 		</div>
-		<div class="col-md-6 col-md-offset-3 revealOnScroll">
+		<div class="col-md-6 col-md-offset-3">
 			<p class="section--paragraph text-center"><?php echo $l->t('The Nextcloud File Drop feature enables hospitals, banks, notaries and government agencies to securely receive data from customers, patients, clients or partners.');?></p>
 		</div>
 	</div>

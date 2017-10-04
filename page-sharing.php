@@ -20,9 +20,9 @@ require(["require.config"], function() {
 
 <section class="section--intro">
     <div class="container">
-        <div class="row revealOnScroll">
+        <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <p class="section--paragrapht text-center"><?php echo $l->t('Sharing is who we are. At work, we share and collaborate with colleagues to get work done. At home, we share our good and our bad moments with family and friends. <span class="avoidwrap">With Nextcloud, sharing is a core part of your experience.</span>');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Sharing is who we are. At work, we share and collaborate with colleagues to get work done. At home, we share our good and our bad moments with family and friends. <span class="avoidwrap">With Nextcloud, sharing is a core part of your experience.</span>');?></p>
             </div>
         </div>
     </div>
