@@ -23,7 +23,7 @@
   background: #f6f6f6; }
 
 .education-background {
-  background: url("../img/headers/education1.jpeg") no-repeat;
+  background: url("../../img/headers/education1.jpeg") no-repeat;
   background-position: center;
   background-size: cover;
   margin-bottom: 50px; }
@@ -115,7 +115,7 @@ section .row {
   .section--easy .container .feature--block {
     padding-bottom: 60px; }
   .section--easy .container .easy--ilustration {
-    background: url(../img/globalscale/distribution.svg) no-repeat center/contain;
+    background: url(../../img/globalscale/distribution.svg) no-repeat center/contain;
     /*       width: 950px; */
     height: 600px;
     max-width: 100%;
@@ -132,7 +132,7 @@ section .row {
     max-width: 43.24878em;
     margin: 0 auto; }
   .section--scalability .container .efficiency--ilustration {
-    background: url(../img/globalscale/splitup.svg) no-repeat center/contain;
+    background: url(../../img/globalscale/splitup.svg) no-repeat center/contain;
     height: 600px;
     max-width: 100%;
     max-height: 60vw;
@@ -148,7 +148,7 @@ section .row {
     max-width: 43.24878em;
     margin: 0 auto; }
   .section--control .container .distribution--ilustration {
-    background: url(../img/globalscale/balancer.svg) no-repeat center/contain;
+    background: url(../../img/globalscale/balancer.svg) no-repeat center/contain;
     height: 600px;
     max-width: 100%;
     max-height: 60vw;
@@ -174,7 +174,7 @@ section .row {
   justify-content: center;
   align-items: center; }
   .section--control .claim--brand--logo {
-    background: url("../img/security/ncc_logo.png") no-repeat center/contain;
+    background: url("../../img/security/ncc_logo.png") no-repeat center/contain;
     width: 46px;
     height: 46px; }
   .section--control .claim--brand--text {
