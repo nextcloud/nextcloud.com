@@ -4,7 +4,7 @@
 		require(["pages/enterprise", "modules/slideshow", "modules/submenu", "bootstrap"])
 	});
 </script>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/enterprise.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/enterprise.css" rel="stylesheet">
 </head>
 <section class="enterprise-hero-section second-menu">
 	<div class="container-fluid background">

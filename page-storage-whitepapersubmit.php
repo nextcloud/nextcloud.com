@@ -1,5 +1,5 @@
  <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/storage.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/storage.css" rel="stylesheet">
 </head>
 <div class="background storage-background">
 	<div class="container">

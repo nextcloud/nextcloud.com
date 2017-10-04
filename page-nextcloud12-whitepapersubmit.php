@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/features.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/features.css" rel="stylesheet">
 </head>
 <div class="background features-background">
 	<div class="container">
