@@ -12,7 +12,7 @@ require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.p
   </div>
 </div>
 
-<div class="row">
+<div class="row news">
 	<div class="col-sm-7">
 		<div class="page-content">
       <?php
@@ -24,7 +24,7 @@ require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.p
         echo('<div id="container" class="transitions-enabled infinite-scroll clearfix">');
         CONTRIBOOK_BLOG::show(($page-1)*5,5);
         echo('</div>');
-        
+
         // If not on ssl, show the page link
         $ssl = is_ssl() ? '' : 'style="display: block !important; margin-bottom: 60px;"';
         echo('

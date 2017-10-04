@@ -109,14 +109,10 @@ require(["require.config"], function() {
 <section>
 <div class="container">
 	<div class="row">
-		<div class="text-center">
-			<h2><?php echo $l->t('Our newsletter');?></h2>
-			<div class="col-md-6 col-md-offset-3">
-			<p class="section--paragraph"><?php echo $l->t('Stay up to date with Nextcloud news – future plans for releases, events and development are covered monthly in our news letter.');?></p>
-			</div>
-			<div class="col-md-6 col-md-offset-3">
-			<?php echo $l->t('<a href="https://newsletter.nextcloud.com/?p=subscribe&id=1" class="btn btn-primary btn-lg join-button">Subscribe</a>');?>
-			</div>
+		<div class="col-md-6 col-md-offset-3">
+			<h2 class="text-center"><?php echo $l->t('Our newsletter');?></h2>
+			<p class="section--paragraph text-center"><?php echo $l->t('Stay up to date with Nextcloud news – future plans for releases, events and development are covered monthly in our news letter.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('<a href="https://newsletter.nextcloud.com/?p=subscribe&id=1" class="button button--large button--blue button--arrow">Subscribe</a>');?></p>
 		</div>
 	</div>
 </div>
