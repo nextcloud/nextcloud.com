@@ -8,22 +8,21 @@
   margin-bottom: 50px
 }
 
-.image--floated{
-	float: right;
-}
-
 section {
-	margin-top: 150px;
-
+	margin-top: 50px;
+	margin-bottom: 50px;
 	.section--paragraph__tittle {
 		padding: 0;
 	}
 }
 
-.row {
-    margin-bottom: 150px;
+.section--introduction {
+	margin-top: 150px;
 }
 
+.section--security {
+	margin-top: 150px;
+}
 .featuretitle {
     text-align: center;
 }
@@ -32,18 +31,3 @@ footer {
     margin-top: 0px;
 }
 
-.quote {
-	margin: 100px 0 0 0;
-	padding: 70px;
-	padding-top: 90px;
-	background: $nextcloud-blue;
-	.row {
-		margin-bottom: 0px;
-	}
-	p {
-		color: white;
-	}
-	.hyperlink {
-		color: white;
-	}
-}
