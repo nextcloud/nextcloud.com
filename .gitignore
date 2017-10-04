@@ -10,3 +10,5 @@ l10n/
 *.log
 !.scss
 !/assets/css/old/*.css
+node_modules/*
+yarn.lock
