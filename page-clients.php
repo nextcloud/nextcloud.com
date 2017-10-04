@@ -37,7 +37,7 @@
 	<a name="hosting" id="hosting"></a>
 	<div class="container">
 		<div class="col-md-6 revealOnScroll image--floated">
-			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/android.gif" alt="in action" >
+			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/android.png" alt="in action" >
 		</div>
 		<div class="col-md-6 revealOnScroll feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Your files with you wherever you are');?></p>

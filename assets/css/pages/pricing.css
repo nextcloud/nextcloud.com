@@ -229,45 +229,22 @@
 .discounts {
   margin-top: 84px;
   margin-bottom: 30px; }
-  .discounts a {
-    font-size: 20px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.36;
-    text-align: center;
-    color: #178ecd; }
   .discounts .box {
+    padding: 30px;
     border: solid 1px transparent;
     margin-bottom: 50px; }
+    .discounts .box svg {
+      max-height: 300px;
+      margin: 30px auto 30px auto;
+      height: auto !important;
+      width: auto !important;
+      max-width: 300px;
+      display: block; }
     .discounts .box:hover {
       box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
       border: solid 1px #fbfbfb;
       border-radius: 8px;
       transition: all 0.5s ease; }
-    .discounts .box h1 {
-      font-size: 25px;
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.36;
-      text-align: center;
-      color: #2a2a36; }
-    .discounts .box p {
-      font-size: 20px;
-      font-weight: 300;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.36;
-      text-align: center;
-      color: #434343; }
-      .discounts .box p:last-of-type {
-        margin-bottom: 30px; }
-    .discounts .box .img-responsive {
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 36px;
-      margin-bottom: 17px; }
 
 /* FAQ section  */
 .faq {
