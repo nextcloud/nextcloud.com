@@ -23,9 +23,9 @@
 <h3><?php echo $l->t('Logo Usage Requirements');?></h3>
 <p><?php echo $l->t('Do not alter the logo in any way or overlap it with additional logos or images.');?></p>
 
-<p><?php echo $l->t('The logo is light blue with white text/image. It should not be used differently, especially not inverted. The name "Nextcloud" can be optionally left out though, we provide logos without the text.');?></p>
+<p><?php echo $l->t('The logo is light blue (#0082c9) with white text/image. It should not be used differently, especially not inverted. The name "Nextcloud" can be optionally left out though, we provide logos without the text.');?></p>
 
-<p><?php echo $l->t('The typeface of the logo (or similar ones) should not be used anywhere else. Instead use <a href="https://en.wikipedia.org/wiki/Open_Sans" target="_blank">Open Sans</a>, in regular weight. Use bold sparingly and only for selected emphasis.');?></p>
+<p><?php echo $l->t('The typeface of the logo (or similar ones) should not be used anywhere else. Instead use <a href="https://en.wikipedia.org/wiki/Open_Sans" target="_blank">Open Sans</a>, in light weight. Use semibold sparingly and only for selected emphasis.');?></p>
 
 <h3><?php echo $l->t('Branding Guidelines');?></h3>
 <p><?php echo $l->t('When referring to Nextcloud make sure that it is spelled correctly. Nextcloud is one word and should not be separated into two words.');?></p>

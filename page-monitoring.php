@@ -59,6 +59,31 @@
 	</div>
 </div>
 </section>
+
+<section class="section--appstore benefits">
+<div class="container-fluid banner">
+    <div class="container">
+    <div class="col-md-6">
+        <p class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('Extend your cloud');?></p>
+        <p class="section--paragraph revealOnScroll"><?php echo $l->t('You can extend the functionality of your Nextcloud with extra features from the Nextcloud app store. Among the more than 100 apps you can find features that help you monitor and keep tabs on your data like:');?></p>
+        <p class="section--paragraph">
+        <ul>
+        <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('<em>Activities for shared file downloads</em> which lets you track who downloads your shared files');?></li>
+        <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Admin Notifications allows admins to generate notifications for users via the console or an HTTP endpoint');?></li>
+        <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Quota Warning sends notifications to users when they reached 85, 90 and 95% of their quota.');?></li>
+        </ul>
+        </p>
+        <div class="text-center morebuttondiv">
+			<a href="https://apps.nextcloud.com" class="button button--large button--arrow revealOnScroll"><?php echo $l->t('Appstore');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+        </div>
+    </div>
+    <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/appstore-big.png">
+    <img class="small-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/appstore-big.png">
+    </div>
+</div>
+</section>
+
+
 <section class="section--monitoring">
 <div class="container">
 	<h1 class="featuretitle revealOnScroll"><?php echo $l->t('How is the server doing?');?></h1>

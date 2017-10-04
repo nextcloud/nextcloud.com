@@ -29,6 +29,9 @@ if(isset($_POST['email'])) {
     $needsetuphelp = $_POST['need-setup-help'];
     $clustering = $_POST['clustering'];
     $collabora = $_POST['collabora'];
+    $webconferencing = $_POST['webconferencing'];
+    $outlook = $_POST['outlook'];
+    $branding = $_POST['branding'];
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
   if(!preg_match($email_exp,$email_from)) {
@@ -83,12 +86,15 @@ if(isset($_POST['email'])) {
     $email_message .= "What SLA do you expect? ".clean_string($SLA)."\n";
     $email_message .= "What maintenance lifecycle do you need? ".clean_string($LTS)."\n";
     $email_message .= "Do you require phone support? ".clean_string($needphonesupport)."\n";
-    $email_message .= "Would you need a dedicated Support Account Manager? ".clean_string($needsupportmanager)."\n";
+    $email_message .= "Would you be interested in a dedicated Support Account Manager? ".clean_string($needsupportmanager)."\n";
     $email_message .= "Would you require assistance to set up the service or to design/review the architecture? ".clean_string($needsetuphelp)."\n";
     $email_message .= "Are you using any sort of clustering for the application, database or storage? ".clean_string($clustering)."\n";
-    $email_message .= "Would you need to be able to edit office documents online? ".clean_string($collabora)."\n";
+    $email_message .= "Would you be interested in editing office documents online? ".clean_string($collabora)."\n";
+    $email_message .= "Would you be interested in secure webconferencing and audio and video calls? ".clean_string($webconferencing)."\n";
+    $email_message .= "Would you be interested in our Secure Sharing add-in for Outlook? ".clean_string($outlook)."\n";
+    $email_message .= "Would you be interested in branded clients? ".clean_string($branding)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
-    
+
 // create email headers
     $headers = 'From: no-reply@nextcloud.com'."\r\n".
     'Reply-To: '.$email_from."\r\n" .

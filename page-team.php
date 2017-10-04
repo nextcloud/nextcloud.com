@@ -95,7 +95,7 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/matthias.jpg" />
 				<h2 class="teamname">Matthias Wobben</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Sales Engineer</h3>
+					<h3 class="teamtitle">Senior Sales Engineer</h3>
 					<h4 class="teamexpertise">Sales and Customer Relationships</h4>
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="https://wobben.net/"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/wobben-matthias/"><i class="fa-linkedin fa"></i></a> <a href="https://twitter.com/wobben"><i class="fa-twitter fa"></i></a> </p>
@@ -134,9 +134,9 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/nina.jpg" />
 				<h2 class="teamname">Nina Cercy</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Marketing Intern</h3>
+					<h3 class="teamtitle">Online Marketer</h3>
 					<h4 class="teamexpertise">Marketing and Content</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+					<h4 class="teamlocation">lives in Paris, France</h4>
 					<p class="teamsocial"><!--<a href="https://spreed.me/"><i class="fa-rss fa"></i></a>--> <a href="https://github.com/NinaNC"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nlapalice"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Nina studied Business and Management at HEC Paris. She got involved in Open Source two years ago, and she's especially working on personal data protection regulation. She co-directed <i>Numérique, reprendre le contrôle</i> in 2016.</p>
@@ -243,7 +243,7 @@
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><a href="https://schiessle.org/"><i class="fa-rss fa"></i></a> <a href="https://github.com/schiessle"><i class="fa-github fa"></i></a> <a href="https://twitter.com/schiessle"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Björn has been developing federated technology for ownCloud since 2012. Computer Scientist, graduated at University of Stuttgart and Open Source and Open Standards Evangelist for privacy respecting, distributed and federated networks, FSFE's Deputy Coordinator Germany has a deep understanding of the technical and social aspects of technology.</p>
+				<p class="teamdescription">Björn is a computer scientist, graduated at the University of Stuttgart. He conducted research in the area of cloud robotics before he joined ownCloud in 2012 where he started to develop the federated cloud technology, now continued at Nextcloud. He is active in the Free Software movement for many years and has a deep understanding of the technical, legal and social aspects of technology.</p>
 			</div>
 		</div>
 		<div class="col-md-4">

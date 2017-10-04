@@ -15,7 +15,7 @@
 <div class="container">
 	<div class="sub-nav">
 		<a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
-		|&nbsp;&nbsp;<a href="/events/conference-program">Conference Program</a>
+		|&nbsp;&nbsp;<a href="/events/conference-program">Events Program</a>
 	<!--     |&nbsp;&nbsp;<a href="/events/contactform">Contact</a> -->
 	</div>
 </div>
@@ -36,8 +36,14 @@
 					<a target="_blank"  href="/events/meetups" class="btn btn-lg btn-default">
 					<i class="icon-lightbulb-o"></i> Organize a Meetup!</a></p>
 				</div>
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
+				<h2>Nextcloud Conference</h2>
+				<p class="section--paragraph">The most exciting event on the yearly calendar for Nextcloud is of course our very own Nextcloud Conference! Over 150 Nextcloud community members get together for a full week. During week days, we write and discuss code while on the weekend we have an exciting, educational and inspirational program with keynotes, lightning talks and workshops around private, self-hosted cloud technologies.</p>
+				<p class="section--paragraph">You can read a report of our last conference <a  class="hyperlink" href="https://nextcloud.com/blog/significant-growth-at-nextcloud-conference-brought-150-customers-colleagues-and-friends-together/">in this blog</a> and if you'd like to join in 2018 - mark these dates in your calendar:</p>
+				<h3>Augustus 23-30 2017 at the TU Berlin, Germany</h3>
+				<a href="/conf" class="button button--blue button--large button--arrow">Learn more about the Nextcloud Conference</a>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/booth.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
-				<h2>Conferences 2017</h2>
+				<h2>Events 2017</h2>
 				<p class="section--paragraph">Nextcloud is participating in trade shows and conferences to present our community and technology to visitors.<br/>
 					Below is a list of tradeshows and conferences where Nextcloud is represented! If you have questions and would like to meet us at an event, check out this list and <a  class="hyperlink" href="https://help.nextcloud.com/c/conference">let us know on the forums</a> you will be there.
 				<table class="table table-striped">
@@ -140,6 +146,26 @@
 						<td><a  class="hyperlink" target="_blank" href="https://conf.nextcloud.com/">Nextcloud Conference 2017</a></td>
 						<td>Berlin, Germany</td>
 						<td>August 22-29</td>
+					</tr>
+                    <tr>
+						<td><a  class="hyperlink" target="_blank" href="http://events.linuxfoundation.org/events/open-source-summit-north-america">Open Source Summit 2017 North America</a></td>
+						<td>Los Angeles, USA</td>
+						<td>September 11-14</td>
+					</tr>
+                    <tr>
+						<td><a  class="hyperlink" target="_blank" href="http://www.stuttgarter-sharepointforum.de/seminartag-2017/">SharePoint Forum Stuttgart</a></td>
+						<td>Stuttgart, Germany</td>
+						<td>October 4</td>
+					</tr>
+                    <tr>
+						<td><a  class="hyperlink" target="_blank" href="https://ubucon.de/2017/programm/#nextcloud">Ubucon Deutschland</a></td>
+						<td>Wolfsburg, Germany</td>
+						<td>October 13-15</td>
+					</tr>
+                    <tr>
+						<td><a  class="hyperlink" target="_blank" href="https://allthingsopen.org/speakers/frank-karlitschek/">All Things Open</a></td>
+						<td>RALEIGH, NC, USA</td>
+						<td>October 23-24</td>
 					</tr>
 				</table>
 				<p class="section--paragraph">Is there a conference, trade show or other event close by and you want Nextcloud to be there? Please <a  class="hyperlink" href="https://help.nextcloud.com/c/conference">get in touch</a> and let us know, we will do our best to help making it happen!</p>

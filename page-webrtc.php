@@ -1,7 +1,7 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/webrtc.css" rel="stylesheet">
 </head>
-<div class="background storage-background">
+<div class="background webrtc-background">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
@@ -12,7 +12,7 @@
 	</div>
 </div>
 
-<section class="section--webrtc">
+<section class="section--introduction">
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 image--floated revealOnScroll">
@@ -20,7 +20,7 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Private, group and public calls');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Video calls provides possibilities to call your friends, customers and partners in one-to-one or group-scenarios. You can also invite external chat participants with an URL into public rooms on your Nextcloud.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Video calls enables you to call your friends, customers and partners in one-to-one or group-scenarios. You can also invite external chat participants with an URL into public rooms on your Nextcloud.');?></p>
 		</div>
 	</div>
 	<div class="row">
@@ -29,7 +29,7 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Screen Sharing');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Share a single window or your full desktop screen content for presentations with your chat-partners. All you need is our one-click install addon for <a class="hyperlink" href="https://chrome.google.com/webstore/detail/screensharing-for-nextclo/kepnpjhambipllfmgmbapncekcmabkol">Google Chrome</a> or Firefox version 52 (or newer).');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Share a single window or your full desktop screen content for presentations with your chat-partners.');?></p>
 		</div>
 	</div>
 </div>
@@ -46,7 +46,7 @@
 		</div>
 	</div>
 </div>
-<section class="section--webrtc">
+<section class="section--security">
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 image--floated revealOnScroll">

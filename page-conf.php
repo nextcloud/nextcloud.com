@@ -10,8 +10,8 @@
 	<div class="background conf-background">
 		<div class="container">
 			<div class="col-md-6 topheader">
-				<h1>Nextcloud Conference 2017</h1>
-				<h2  class="revealOnScroll">August 22-29, Technical University Berlin</h2>
+				<h1>Nextcloud Conference 2018</h1>
+				<h2  class="revealOnScroll">August 23-30, Technical University Berlin</h2>
 			</div>
 		</div>
 	</div>
@@ -24,10 +24,12 @@
 <!-- 			<h2 class="revealOnScroll"></h2> -->
 <!-- 			<p class="section--paragraph__tittle revealOnScroll"></p> -->
 			<p class="section--paragraph revealOnScroll">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
-			<p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/de88e486/" class="btn btn-lg btn-primary">Register for free</a> <a href="https://eventyay.com/e/de88e486/cfs/" class="btn btn-lg btn-primary">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p>
-			<p class="section--paragraph revealOnScroll"><a href="https://nextcloud.com/blog/lightning-talks-and-workshops-at-the-nextcloud-conference/" class="hyperlink" >See the program</a></p>
-			<p class="section--paragraph">Find <a class="hyperlink" href="/confinfo">practical information for visitors here</a></p>
-            <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p>
+<!-- 			<p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/de88e486/" class="btn btn-lg btn-primary">Register for free</a> <a href="https://eventyay.com/e/de88e486/cfs/" class="btn btn-lg btn-primary">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p> -->
+<!-- 			<p class="section--paragraph revealOnScroll"><a href="https://nextcloud.com/blog/lightning-talks-and-workshops-at-the-nextcloud-conference/" class="hyperlink" >See the program</a></p> -->
+<!-- 			<p class="section--paragraph">Find <a class="hyperlink" href="/confinfo">practical information for visitors here</a></p> -->
+<!--             <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p> -->
+                <p class="section--paragraph"><a href="https://nextcloud.com/blog/significant-growth-at-nextcloud-conference-brought-150-customers-colleagues-and-friends-together/" class="button button--blue button--large button--arrow">See the conf report on 2017</a></p>
+                <p class="section--paragraph">Save the date: August 23-30 2018<br/> Stay tuned for more information!</p>
 		</div>
 	</div>
 </section>
@@ -47,23 +49,24 @@
 				<li>Testing</li>
 				<li>Translation &amp; Documentation</li>
 			</ul>
-			<p class="section--paragraph revealOnScroll">People start coming in around 9am and the last usually leave around 9pm.</p>
-			<p class="section--paragraph revealOnScroll">Read our <a class="hyperlink" href="https://nextcloud.com/blog/first-nextcloud-conference-was-a-great-success-videos-are-now-live/" target="_blank">blog on the Nextcloud Conference 2016</a> to get a feeling of the event.</p>
+<!-- 			<p class="section--paragraph revealOnScroll">People start coming in around 9am and the last usually leave around 9pm.</p> -->
+			<p class="section--paragraph revealOnScroll">Read our <a class="hyperlink" href="https://nextcloud.com/blog/significant-growth-at-nextcloud-conference-brought-150-customers-colleagues-and-friends-together/" target="_blank">blog on the Nextcloud Conference 2017</a> to get a feeling of the event.</p>
 		</div>
 		<div class="col-sm-5 col-sm-offset-2">
 			<div class="icon revealOnScroll">
 			<i class="fa fa-comments-o"></i>
 			<h1>Talks &amp; Workshops</h1>
 			</div>
-			<p class="section--paragraph revealOnScroll">In the weekend of August 26 and 27 we have a program with talks and workshops to provide a chance to learn and improve coding skills on and around Nextcloud. For example:
+			<p class="section--paragraph revealOnScroll">In the weekend of August 25 and 26 we have a program with talks and workshops to provide a chance to learn and improve coding skills on and around Nextcloud. For example:
 			<ul class="revealOnScroll">
 				<li>Write your first nextcloud app</li>
 				<li>Intro to the Android app dev process, why you should join the design team and how we do performance testing</li>
 				<li>Status updates on the Calendar,  Theming and iOS apps</li>
 			</ul></p>
-			<p class="section--paragraph revealOnScroll">On Friday the 25th we have a <a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">special program with a focus on enterprise and large scale Nextcloud usage.</a></p>
-			<p class="section--paragraph revealOnScroll">Check out <a class="hyperlink" href="https://eventyay.com/e/de88e486/schedule/">the full program</a>!</p>
-            <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p>
+			<p class="section--paragraph revealOnScroll">Stay tuned for more information! We'll open registration later this year and expect our call for papers early 2018.</p>
+<!-- 			<p class="section--paragraph revealOnScroll">On Friday the 24th we have a <a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">special program with a focus on enterprise and large scale Nextcloud usage.</a></p> -->
+<!-- 			<p class="section--paragraph revealOnScroll">Check out <a class="hyperlink" href="https://eventyay.com/e/de88e486/schedule/">the full program</a>!</p> -->
+<!--             <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p> -->
 		</div>
 	</div>
 			<p class="section--paragraph text-center revealOnScroll">This is a hands-on event. <strong>Bring your laptop!</strong></p>
@@ -97,7 +100,7 @@
 		<div class="col-sm-5 col-sm-offset-2">
 			<p class="section--paragraph revealOnScroll"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/talks.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/talks_wee.jpg" style="width: 95%" alt="talk" class="aligncenter" /></a></p>
 			<h2  class="revealOnScroll">Entree</h2>
-			<p class="section--paragraph revealOnScroll">The Nextcloud Contributor Conference will be entirely open and free. We only ask you to <a class="hyperlink" href="https://eventyay.com/e/de88e486/" target="_blank">register</a> to help us plan better for the event</p>
+			<p class="section--paragraph revealOnScroll">The Nextcloud Contributor Conference will be entirely open and free. Registration will open later this year! <!--We only ask you to <a class="hyperlink" href="https://eventyay.com/e/de88e486/" target="_blank">register</a> to help us plan better for the event--></p>
 		</div>
 	</div>
 	<div class="row revealOnScroll">
@@ -122,30 +125,30 @@
 </div>
 </section>
 
-<section class="section--fridayfocus">
-	<div class="container-fluid">
-			<div class="container">
-			<h2 class="section--heading-1 revealOnScroll">Friday Focus</h2>
-			<p class="section--paragraph revealOnScroll">Friday August 25 we focus on large enterprise and educational installations of Nextcloud. Participate in workshops to get in-depth knowledge of Nextcloud, find out how to scale your installation efficiently and contribute your ideas.</p>
-			<p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">See the Friday Focus program in our blog!</a></p>
+<!-- <section class="section--fridayfocus"> -->
+<!-- 	<div class="container-fluid"> -->
+<!-- 			<div class="container"> -->
+<!-- 			<h2 class="section--heading-1 revealOnScroll">Friday Focus</h2> -->
+<!-- 			<p class="section--paragraph revealOnScroll">Friday August 25 we focus on large enterprise and educational installations of Nextcloud. Participate in workshops to get in-depth knowledge of Nextcloud, find out how to scale your installation efficiently and contribute your ideas.</p> -->
+<!-- 			<p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">See the Friday Focus program in our blog!</a></p> -->
 	<!-- 		<p class="section--paragraph revealOnScroll"><a class="button button--blue button--arrow button--large revealOnScroll" href="coming" role="button">Know all the features</a></p> -->
-			</div>
-	</div>
-</section>
+<!-- 			</div> -->
+<!-- 	</div> -->
+<!-- </section> -->
 
 <section class="section--about">
 <div class="container">
 	<div class="row conf-about revealOnScroll">
 		<div class="col-sm-6">
 			<h2  class="revealOnScroll">Last year</h2>
-			<p class="section--paragraph revealOnScroll">The Nextcloud Conference 2016 brought 100 Nextclouders to Berlin. Read our <a class="hyperlink" href="https://nextcloud.com/blog/first-nextcloud-conference-was-a-great-success-videos-are-now-live/" target="_blank">blog</a> to learn more and watch <a class="hyperlink" href="https://www.youtube.com/watch?v=5-oCt3iPhNs&list=PL4eBKdNy6FCElMXt0FxUsfLHaCas2Md9u" target="_blank">the 2016 talks</a> on our youtube channel.</p>
-			<p class="section--paragraph revealOnScroll"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2016.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2016_wee.jpg" style="width: 95%" alt="group photo" class="aligncenter" /></a></p>
+			<p class="section--paragraph revealOnScroll">The Nextcloud Conference 2017 brought 150 Nextclouders to Berlin. Read our <a class="hyperlink" href="https://nextcloud.com/blog/significant-growth-at-nextcloud-conference-brought-150-customers-colleagues-and-friends-together/" target="_blank">blog</a> to learn more and watch the talks <a class="hyperlink" href="https://www.youtube.com/channel/UCQjN5Fs5QSz1loJqLb5bkew" target="_blank">on our youtube channel.</a></p>
+			<p class="section--paragraph revealOnScroll"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017.jpg" style="width: 95%" alt="group photo" class="aligncenter" /></a></p>
 	<!--		<iframe src="//www.youtube-nocookie.com/embed/srGYbsugEPc?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" height="360" width="640" allowfullscreen="" frameborder="0"></iframe>-->
 		</div>
 		<div class="col-sm-6">
 			<h2  class="revealOnScroll">Thanks!</h2>
-			<p class="section--paragraph revealOnScroll">The event is made possible thanks to the generous donation of the location by the <a class="hyperlink" href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a class="hyperlink" href="https://nextcloud.com">Nextcloud GmbH</a>. Last but not least, SUSE Linux GmbH supports our Saturday Evening social event!</p>
-			<p class="section--paragraph revealOnScroll"><a href="https://opensuse.org" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/opensuse.png" style="width: 45%" alt="openSUSE logo" class="aligncenter" /></a><a href="http://www.tu-berlin.de/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/tuberlin.png" style="width: 45%; margin: 2%;" alt="TUBerlin logo" class="aligncenter" /></a></p>
+			<p class="section--paragraph revealOnScroll">The event is made possible thanks to the generous donation of the location by the <a class="hyperlink" href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a class="hyperlink" href="https://nextcloud.com">Nextcloud GmbH</a>.</p>
+<!-- 			<p class="section--paragraph revealOnScroll"><a href="https://opensuse.org" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/opensuse.png" style="width: 45%" alt="openSUSE logo" class="aligncenter" /></a><a href="http://www.tu-berlin.de/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/tuberlin.png" style="width: 45%; margin: 2%;" alt="TUBerlin logo" class="aligncenter" /></a></p> -->
 			<h2  class="revealOnScroll">Questions, suggestions?</h2>
 			<p class="section--paragraph revealOnScroll">Ask! And tell others you will join the conference! Our official hashtag is <em>#nextcloudconf</em> - find us on <a class="hyperlink" title="Nextcloud on Twitter" href="https://twitter.com/nextclouders" target="_blank">Twitter</a>, <a class="hyperlink" title="Nextcloud on Facebook" href="https://www.facebook.com/nextclouders" target="_blank">Facebook</a> and <a class="hyperlink" title="Nextcloud on Google+" href="https://plus.google.com/b/104036748063781940910/104036748063781940910/about" target="_blank">Google+</a>. Find some <a class="hyperlink" href="https://github.com/nextcloud/promo/tree/master/Conference" target="_blank">promo materials here</a>.</p>
         </div>

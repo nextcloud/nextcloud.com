@@ -3618,6 +3618,42 @@ footer.page-footer {
 @media (max-width 768px) {
   .jumbotron--lead {
     font-size: 16px; } }
+.benefits {
+  /* benefits section with big image on the right & check list left */ }
+  .benefits .banner {
+    background-color: #0082c9;
+    position: relative;
+    overflow: hidden; }
+    .benefits .banner h2 {
+      text-align: left;
+      color: white; }
+    .benefits .banner p {
+      padding-top: 30px;
+      text-align: left;
+      color: white; }
+    .benefits .banner li {
+      text-align: left;
+      color: white; }
+    .benefits .banner .fa {
+      color: white;
+      padding-right: 10px; }
+    .benefits .banner .col-md-6 {
+      padding: 80px 0px; }
+    .benefits .banner .big-img {
+      position: absolute;
+      width: 70%;
+      margin-left: 30px; }
+    .benefits .banner .small-img {
+      position: absolute;
+      width: 110%;
+      margin-left: 30px; }
+    @media (max-width: 1600px) {
+      .benefits .banner .big-img {
+        display: none; } }
+    @media (min-width: 1600px) {
+      .benefits .banner .small-img {
+        display: none; } }
+
 .section--text--center {
   margin: 0 auto;
   text-align: center; }

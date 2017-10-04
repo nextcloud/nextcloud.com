@@ -41,6 +41,7 @@ require get_template_directory().'/strings.php';
 						<li class="nav__item"><a href="https://newsletter.nextcloud.com"><?php echo $l->t('Newsletter');?></a></li>
 						<li class="nav__item"><a href="https://twitter.com/nextclouders"><?php echo $l->t('Twitter');?></a></li>
 						<li class="nav__item"><a href="https://www.facebook.com/Nextcloud-1032807203462807/"><?php echo $l->t('Facebook');?></a></li>
+						<li class="nav__item"><a href="https://www.linkedin.com/company/10827569/"><?php echo $l->t('LinkedIn');?></a></li>
 						<li class="nav__item"><a href="https://plus.google.com/b/104036748063781940910/104036748063781940910/about"><?php echo $l->t('Google+');?></a></li>
 					</ul>
 				</li>
@@ -49,6 +50,7 @@ require get_template_directory().'/strings.php';
 					<ul class="nav__links ">
 						<li class="nav__item"><a href="<?php echo home_url('features') ?>"><?php echo $l->t('Overview');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('secure') ?>"><?php echo $l->t('Security');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('End-to-end encryption');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('sharing') ?>"><?php echo $l->t('Sharing');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('clients') ?>"><?php echo $l->t('Clients');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('workflow') ?>"><?php echo $l->t('Workflow');?></a></li>
@@ -72,9 +74,10 @@ require get_template_directory().'/strings.php';
 					</ul>
 				</li>
 
-				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Support');?></a>
+				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Resources');?></a>
 					<ul class="nav__links">
 						<li class="nav__item"><a href="<?php echo home_url('support') ?>"><?php echo $l->t('Support options');?></a></li>
+						<li class="nav__item"><a href="https://apps.nextcloud.com"><?php echo $l->t('Appstore');?></a></li>
 						<li class="nav__item"><a href="<?php echo $DOCUMENTATION_USER; ?>"><?php echo $l->t('User Documentation');?></a></li>
 						<li class="nav__item"><a href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Admin Documentation');?></a></li>
 						<li class="nav__item"><a href="https://help.nextcloud.com"><?php echo $l->t('Help on the forums');?></a></li>
