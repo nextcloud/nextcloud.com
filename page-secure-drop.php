@@ -3,7 +3,7 @@
 <link type="text/css" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" rel="stylesheet" />
 <script>
 	require(["require.config"], function() {
-		require(["pages/file-drop"])
+		require(["pages/file-drop", "modules/youtubePlayer"])
 	});
 </script>
 </head>

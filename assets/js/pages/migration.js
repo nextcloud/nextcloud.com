@@ -1,4 +1,4 @@
-define(["jquery", "bootstrap"  ], 
+define(["jquery", "bootstrap"],
     function ($, bootstrap ) {
     $(document).ready(function() {
 		$('#myCarousel').carousel({
