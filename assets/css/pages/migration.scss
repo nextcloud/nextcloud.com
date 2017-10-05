@@ -3,7 +3,7 @@
 
 
 .migration-background {
-  background-image: url("../../img/enterprise/enterprise.jpg");
+  background-image: url("../../img/headers/migration.jpg");
   background-position: bottom 0 right 0;
   background-size: cover;
 
@@ -64,15 +64,24 @@
 	}
 
 	.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+
+		background: url(../../img/previous-white.svg) center/contain no-repeat;
 		left: -50%;
+		font-size: 0px;
+		color: transparent;
 	}
 
 	.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+		background: url(../../img/next-white.svg) center/contain no-repeat;
 		right: -40%;
+		font-size: 0px;
+		color: transparent;
 	}
 
 	h2 {
 		text-align: right;
+		color: white;
+		opacity: 1;
 		a {
 			transition: all 0.5s ease;
 			color: white;

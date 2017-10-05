@@ -7,7 +7,7 @@
   position: absolute; }
 
 .migration-background {
-  background-image: url("../../img/enterprise/enterprise.jpg");
+  background-image: url("../../img/headers/migration.jpg");
   background-position: bottom 0 right 0;
   background-size: cover; }
   @media (max-width: 1200px) {
@@ -55,11 +55,19 @@
         .migration-background .topquote .carousel-control.right {
           display: none; } }
     .migration-background .topquote .carousel-control .glyphicon-chevron-left, .migration-background .topquote .carousel-control .icon-prev {
-      left: -50%; }
+      background: url(../../img/previous-white.svg) center/contain no-repeat;
+      left: -50%;
+      font-size: 0px;
+      color: transparent; }
     .migration-background .topquote .carousel-control .glyphicon-chevron-right, .migration-background .topquote .carousel-control .icon-next {
-      right: -40%; }
+      background: url(../../img/next-white.svg) center/contain no-repeat;
+      right: -40%;
+      font-size: 0px;
+      color: transparent; }
     .migration-background .topquote h2 {
-      text-align: right; }
+      text-align: right;
+      color: white;
+      opacity: 1; }
       .migration-background .topquote h2 a {
         transition: all 0.5s ease;
         color: white;
