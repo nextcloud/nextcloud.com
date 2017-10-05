@@ -2,13 +2,9 @@
 @import '../modules/transparent-navbar';
 
 .sharing-background {
-  background: url("../img/headers/devices.jpg") no-repeat;
+  background: url("../../img/headers/devices.jpg") no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.image--floated{
-	float: right;
 }
 
 .section--federation {
@@ -29,4 +25,8 @@ section {
 
 .row {
 	padding-top: 60px;
+}
+
+footer {
+	margin-top: 150px;
 }
