@@ -1,0 +1,105 @@
+@import "../variables.scss";
+@import "../modules/transparent-navbar.scss";
+
+
+/**
+* Secure Page
+*/
+.endtoend-background {
+    background-image: url("../../img/headers/endtoend.jpg");
+    background-position: top 0 right 0;
+
+    .topheader {
+        h1 {
+            margin-top: 0;
+        }
+    }
+}
+
+/* All headers */
+
+section {
+	padding: 50px 0 50px;
+	.section--heading-1 {
+		padding-bottom: 50px;
+	}
+	.section--paragraph--tittle {
+		padding: 0;
+	}
+	.row {
+		padding: 20px 0 20px 0;
+	}
+}
+
+.img-responsive {
+	padding-top: 10px;
+	@media (min-width: $break-big) {
+	margin-bottom: 50px;
+	}
+	@media (min-width: $very-wide) {
+/* 	margin-bottom: 0px; */
+	}
+}
+
+.image--floated {
+	float: right;
+}
+
+.section--differences {
+	.banner {
+		background-color: $nextcloud-blue;
+		position: relative;
+		overflow: hidden;
+
+		h2 {
+			text-align: left;
+			color: white;
+		}
+
+		p {
+			padding-top: 30px;
+			text-align: left;
+			color: white;
+		}
+
+		li {
+			text-align: left;
+			color: white;
+		}
+
+		.fa {
+			color: white;
+			padding-right: 10px;
+		}
+
+		.col-md-6 {
+			padding: 80px 0px;
+/* 			margin-left: 10% */
+		}
+
+		.big-img {
+			position: absolute;
+			max-width: 70%;
+			height: 100%;
+	/*         top: 60px; */
+			margin-left: 30px;
+		}
+		.small-img {
+			position:absolute;
+			height: 100%;
+			margin-left: 30px;
+		}
+		@media (max-width: $very-wide) {
+		.big-img {
+			display: none;
+			}
+		}
+		@media (min-width: $very-wide) {
+		.small-img {
+			display: none;
+			}
+		}
+	}
+}
+
+

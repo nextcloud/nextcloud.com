@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/globalscale.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/globalscale.css" rel="stylesheet">
 </head>
 <div class="background globalscale-background">
 	<div class="container">

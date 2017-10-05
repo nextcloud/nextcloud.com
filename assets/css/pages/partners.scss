@@ -1,0 +1,68 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+.partners-background {
+  background: url("../../img/headers/partners.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer.page-footer {
+	margin-top: 0;
+}
+
+.section--intro {
+	padding-top: 80px;
+}
+
+.section--partners {
+	padding-top: 80px;
+	@media (min-width: $break-small) {
+	img {
+		max-width: 80%;
+		margin-left: 10%;
+		}
+		.col-md-4 {
+			padding-left: 25px;
+			padding-right: 25px;
+		}
+	}
+}
+
+
+.section--providers {
+	padding-top: 80px;
+	@media (min-width: $break-small) {
+	img {
+		max-width: 80%;
+		margin-left: 10%;
+		}
+		.col-md-4 {
+			padding-left: 25px;
+			padding-right: 25px;
+		}
+	}
+	.partnertext {
+		text-align: justify;
+	}
+
+}
+/*
+.calltoaction {
+	margin-top: 50px;
+	background-color: $nextcloud-blue;
+	padding: 50px 0;
+	color: white;
+
+	.section--heading-2 {
+		color: white;
+	}
+
+	.section--paragraph {
+		color: white;
+	}
+
+	.hyperlink {
+		color: white;
+	}
+}*/

@@ -566,10 +566,14 @@ i[class*='icon-'] {
 	}
 }
 
-/* the blog roll owncloud.org/news */
+/* the blog roll nextcloud.com/news */
 
 .news .contribook_bloguser {
 	margin-right: -50px;
+}
+
+.post h1,h2,h3 {
+	font-weight: 500;color: black;
 }
 
 div.blog-social-icons > div img {

@@ -2,8 +2,8 @@
 div.conference {
 	background-color: #35537A;
 	background: -webkit-linear-gradient(top , #35537A, #1D2D44);
-	background: -moz-linear-gradient(top , #35537A, #1D2D44); 
-	background: -o-linear-gradient(top , #35537A, #1D2D44); 
+	background: -moz-linear-gradient(top , #35537A, #1D2D44);
+	background: -o-linear-gradient(top , #35537A, #1D2D44);
 	background: linear-gradient( #35537A, #1D2D44);
 	margin-top: -20px;
 }
@@ -75,7 +75,7 @@ div.conf-about {
 div.quotes {
   	padding-top: 50px;
   	margin-bottom: 400x;
-}	
+}
 
 div.conf-info {
 	margin-left: -40px;
@@ -147,7 +147,7 @@ div.conference div.hbspt-form {
 
 div.conference .hs-input {
 	height: 30px;
-	font-size: 21px;	
+	font-size: 21px;
 }
 
 div.conference .hs-form.stacked label {

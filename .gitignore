@@ -2,10 +2,13 @@ config.php
 .sass-cache
 .directory
 *.kdev4
-node_modules/
 l10n/
 *.css.map
 .idea/
 .DS_Store
 *.kate-swp
-vendor/
+*.log
+!.scss
+!/assets/css/old/*.css
+node_modules/*
+yarn.lock

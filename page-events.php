@@ -1,11 +1,5 @@
 <head>
-<script>
-	require(["require.config"], function() {
-		require(["pages/events"])
-	});
-</script>
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/events.css">
-
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/events.css">
 </head>
 
 <div class="background events-background">
@@ -46,7 +40,7 @@
 				<h2>Nextcloud Conference</h2>
 				<p class="section--paragraph">The most exciting event on the yearly calendar for Nextcloud is of course our very own Nextcloud Conference! Over 150 Nextcloud community members get together for a full week. During week days, we write and discuss code while on the weekend we have an exciting, educational and inspirational program with keynotes, lightning talks and workshops around private, self-hosted cloud technologies.</p>
 				<p class="section--paragraph">You can read a report of our last conference <a  class="hyperlink" href="https://nextcloud.com/blog/significant-growth-at-nextcloud-conference-brought-150-customers-colleagues-and-friends-together/">in this blog</a> and if you'd like to join in 2018 - mark these dates in your calendar:</p>
-				<h3>Augustus 23-30 2017 at the TU Berlin, Germany</h3>
+				<h3>Augustus 23-30 2018 at the TU Berlin, Germany</h3>
 				<a href="/conf" class="button button--blue button--large button--arrow">Learn more about the Nextcloud Conference</a>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/booth.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
 				<h2>Events 2017</h2>

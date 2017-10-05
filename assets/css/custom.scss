@@ -1,18 +1,38 @@
-@charset "UTF-8";
-@import "variables";
-@import "modules/normalize";
-@import "modules/no-js";
-@import "modules/alerts";
+// Import file
+//
+// This file should be used only for importing common code
 
-/* Please don't remove, useful for testing. */
-/* * {border:1px solid red} */
+@charset 'UTF-8';
 
-/*Colors*/
-/*Shadows*/
-/*Breakpoints*/
-/*Colors*/
-/*Shadows*/
-/*Breakpoints*/
+// Importing bootstrap modules
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/tables';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/buttons';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navs';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/component-animations';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities';
+
+// Importing modules
+@import 'variables';
+@import 'modules/normalize';
+@import 'modules/typography';
+@import 'modules/no-js';
+@import 'modules/code';
+@import 'modules/alerts';
+@import 'modules/header';
+@import 'modules/footer';
+@import 'modules/slideshow';
+@import 'modules/secondmenu';
+@import 'modules/hero';
+
+
+// To remove everything above and split in other files
 .jumbotron--heading-1 {
   padding-top: 0;
   color: white !important;
@@ -861,7 +881,6 @@ blockquote {
   background: none;
 /*   margin: 1.5em 10px; */
   padding: 0.5em 10px;
-  quotes: "“" "”" "‘" "’";
   border-left: none;
   color: #9c9c9c; }
   blockquote:before {
@@ -917,37 +936,6 @@ blockquote {
 	}
 
 }
-
-/* typical background images (hero section) like enterprise, security */
-.background {
-  padding-bottom: 0;
-  padding-top: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 0 !important;
-  height: 70vh;
-  min-height: 600px;
-  max-height: 800px;
-  position: relative;
-  opacity: 0; }
-  .background h1 {
-    padding-top: 0;
-    color: white; }
-  .background h2 {
-    color: white;
-    font-size: 20px;
-    line-height: 1.6;
-	text-shadow: 0px 0px 10px #333; }
-  .background .topheader {
-    position: absolute;
-    top: 30%;
-    margin: 0;
-    padding: 0;
-    max-width: 600px;
-    opacity: 0; }
-    @media (max-width: 991px) {
-      .background .topheader {
-        padding-left: 5%; } }
 
 .btn-primary {
   background-color: $nextcloud-blue;
@@ -1025,196 +1013,6 @@ blockquote {
     line-height: 1.5;
 /*     text-align: center; */
     color: #2a2a36; } }
-.highlights {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin: -16px 0 0 -16px;
-  padding: 0;
-  list-style: none; }
-@media (max-width: 1024px) {
-    .highlights {
-        display: block;
-        text-align: center;
-        margin: 0 10px 0 10px; } }
-
-.highlights_align {
-  padding-top: 100px;
-  flex-basis: 33.33333%;
-  max-width: 33.33333%;
-  padding-left: 64px; }
-.highlights_align:first-child {
-    padding-left: 0px; }
-@media (max-width: 1024px) {
-    .highlights_align {
-        flex-basis: auto;
-        max-width: none;
-        padding-left: 0;
-        padding-top: 50px; } }
-.highlights_align svg {
-    margin-left: -10px; }
-@media (max-width: 1200px) {
-    .highlights_align svg {
-        margin-left: 0; } }
-.highlights_align .section--paragraph {
-    font-size: 16px; }
-.highlights_align h4 {
-    text-align: center;
-    margin-top: 20px;
-    margin-left: -20px;
-    margin-bottom: 0; }
-@media (max-width: 1200px) {
-.highlights_align h4 {
-    margin-left: 0; } }
-
-/* Youtube dialog */
-.yt-img-overlay {
-    position: relative;
-    left: 0;
-    top: 0;
-    overflow: hidden;
-    display: block;
-    height: auto;
-    text-decoration: none;
-    color: white;
-    z-index: 1;
-    img {
-    width: 110%;
-    height: auto;
-    margin: -10% 0 -10% 0;
-    overflow: hidden;
-    }
-    .yt-play-btn {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    padding-left: 40%;
-    padding-top: 23%;
-    i {
-    background-image: url("../img/common/YTplay.svg");
-    background-position: center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-clip: border-box;
-    border: 0px;
-    width: 102px;
-    height: 75px;
-/*     width: 68px; */
-/*     height: 50px; */
-    display: inline-block; } }
-    .yt-play-btn:hover i {
-        background-image: url("../img/common/YTplayHover.svg");
-        transition: background-image 0.1s;
-        -webkit-transition: background-image 0.1s; }
-}
-
-
-@media (min-width: 991px) {
-    .yt-img-overlay .yt-play-btn {
-    padding-left: 40%;
-    padding-top: 26%;
-    i {
-        width: 68px;
-        height: 50px; }
-    }
-
-    .col-md-4 .yt-img-overlay .yt-play-btn, .col-md-5 .yt-img-overlay .yt-play-btn {
-        padding-left: 38%;
-        padding-top: 25%;
-    }
-    .col-md-6 .yt-img-overlay .yt-play-btn, .col-md-7 .yt-img-overlay .yt-play-btn {
-        padding-left: 45%;
-        padding-top: 29%;
-    }
-  .col-md-10 .yt-img-overlay .yt-play-btn, .col-md-11 .yt-img-overlay .yt-play-btn, .col-md-12 .yt-img-overlay .yt-play-btn {
-    padding-left: 45%;
-    padding-top: 22%;
-    width: 100%;
-    height: 100%;
-    /* In case of a big video, make the button bigger, too */
-    i {
-      width: 102px;
-      height: 75px; } }
-}
-
-/* Make sure you don't get scrollbars! */
-.ui-dialog .ui-dialog-content {
-  overflow: hidden !important; }
-
-.YouTubeDialog {
-  width: 50% !important;
-  height: 50% !important;
-  padding: 5px; }
-  .YouTubeDialog .ui-dialog-content {
-    height: 100% !important; }
-
-.yt-row {
-  /* correction for row with yt images */
-  /* 	margin-left: 15% !important; */ }
-
-@media (max-width: 991px) {
-  .YouTubeDialog {
-    width: 100% !important;
-    height: 40% !important;
-    /* 		padding: 5px; */ }
-
-  .yt-row {
-    margin-left: 0% !important; }
-
-  .col-md-4.yt-img-overlay {
-    /* compensate for the 1% margin yt images need */
-    width: 97%; }
-
-  .col-md-3.yt-img-overlay {
-    /* compensate for the 1% margin yt images need */
-    width: 97%; } }
-/*	Make YouTube videos responsive */
-@media (min-width: 995px) {
-  .videoWrapper {
-    position: relative;
-    padding-bottom: 28.12%;
-    /* 16:9 - lets them be quarter screen size.	56.25% for full */
-    padding-top: 25px;
-    width: 50%;
-    /* 100%	for full screen size */
-    height: 0; }
-
-  .videoWrapper iframe {
-    position: absolute;
-    margin-left: 50%;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; } }
-@media (max-width: 996px) {
-  .videoWrapper {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    width: 100%;
-    padding-left: -50%; }
-
-  .videoWrapper iframe, .videoWrapper object, .videoWrapper embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; } }
-@media (max-width: 768px) {
-  .yt-img-overlay .yt-play-btn {
-    padding-left: 33%;
-    padding-top: 26%; } }
-
 
 /* Blue call to action bar */
 
@@ -1338,5 +1136,3 @@ blockquote {
 		}
 	}
 }
-
-/*# sourceMappingURL=custom.scss.map */

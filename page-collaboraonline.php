@@ -1,14 +1,10 @@
 <head>
-<link class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/css/about.css" rel="stylesheet">
-<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
-<link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/collabora.css">
 <script>
 	require(["require.config"], function() {
-		require(["pages/collabora"])
+		require(["pages/collabora", "modules/youtubePlayer", "modules/codeHighlights"])
 	});
 </script>
-
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/collabora.css">
 </head>
 
 <div class="background collabora-background">
@@ -27,17 +23,10 @@
 		<div class="featurerow">
 			<div class="row">
 				<div class="col-md-10 collaboravideo">
-					<div class="yt-img-overlay">
-						<a class="youtube" id="sZpYXUD1ZVM" href="https://www.youtube.com/watch?v=sZpYXUD1ZVM" title="Editing public link sharesd">
-							<img class="img-responsive featureimg" src="https://img.youtube.com/vi/sZpYXUD1ZVM/maxresdefault.jpg" title="Collabora in Nextcloud" style='margin: 0 0 0 0; padding: -10% 0 -10% 0;' /> <!-- style different per image! -->
-							<div class="yt-play-btn">
-								<i></i>
-							</div>
-						</a>
-					</div>
+					<div data-type="youtube" data-video-id="sZpYXUD1ZVM"></div>
 				</div>
-				<div class="col-md-6 col-md-offset-3 text-center">
-					<p class="section--paragraph"><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major document, spreadsheet and presentation file formats and works in all modern browsers.');?></p>
+				<div class="col-md-6 col-md-offset-3">
+					<p class="section--paragraph text-center"><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major document, spreadsheet and presentation file formats and works in all modern browsers.');?></p>
 				</div>
 			</div>
 		</div>
@@ -52,14 +41,7 @@
 					<p class="section--paragraph"><?php echo $l->t('Collabora Online is under heavy development and continues to add features and improvements all the time!');?></p>
 				</div>
 				<div class="col-md-6 revealOnScroll">
-					<div class="yt-img-overlay">
-						<a class="youtube" id="8iuSFKVl-xQ" href="https://www.youtube.com/watch?v=8iuSFKVl-xQ" title="Editing public link sharesd">
-							<img class="img-responsive featureimg" src="https://img.youtube.com/vi/8iuSFKVl-xQ/hqdefault.jpg" title="Editing public link shares" />
-							<div class="yt-play-btn">
-								<i></i>
-							</div>
-						</a>
-					</div>
+					<div data-type="youtube" data-video-id="8iuSFKVl-xQ"></div>
 				</div>
 			</div>
 		</div>
@@ -82,9 +64,9 @@
 <div class="container-fluid call-to-action">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 text-center revealOnScroll">
-				<h1 class="section--heading-1 section--text--center"><?php echo $l->t('For Enterprises');?></h1>
-				<p class=""><?php echo $l->t('Enterprise users who need a more reliable and scalable solution with long term support, guaranteed response times and security updates can take advantage of our <a href="/enterprise" class="hyperlink">optional support contract</a> for Collabora Online.');?></p>
+			<div class="col-md-8 col-md-offset-2 revealOnScroll">
+				<h1 class="section--heading-1 text-center"><?php echo $l->t('For Enterprises');?></h1>
+				<p class="text-center"><?php echo $l->t('Enterprise users who need a more reliable and scalable solution with long term support, guaranteed response times and security updates can take advantage of our <a href="/enterprise" class="hyperlink">optional support contract</a> for Collabora Online.');?></p>
 				<div class="text-center morebuttondiv">
 					<a href="/buy" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
@@ -104,14 +86,7 @@
 					</div>
 					<div class="col-md-10">
 					<br />
-						<div class="yt-img-overlay">
-							<a class="youtube" id="MDc1bNxn3js" href="https://www.youtube.com/watch?v=MDc1bNxn3js" title="Editing public link sharesd">
-								<img class="img-responsive featureimg" src="https://img.youtube.com/vi/MDc1bNxn3js/hqdefault.jpg" title="Editing public link shares" />
-								<div class="yt-play-btn">
-									<i></i>
-								</div>
-							</a>
-						</div>
+					<div data-type="youtube" data-video-id="MDc1bNxn3js"></div>
 					</div>
 					<div class="col-md-6 col-md-offset-3 text-center">
 					</div>
@@ -133,63 +108,66 @@
 			<p class="section--paragraph"><?php echo $l->t('<strong>Note:</strong> This guide does <em>NOT</em> cover self-signed certificates. If you use a self-signed certificate then you\'re mostly on your own ;-)');?></p>
 			<h3 class="section--paragraph__tittle"><?php echo $l->t('1. Install the Collabora Online server');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('The following steps will download the Collabora Online docker, make sure to replace "cloud.nextcloud.com" with the host that your own Nextcloud runs on. Also make sure to escape all dots with double backslashes (<code>\\</code>), since this string will be evaluated as a regular expression (and your bash \'eats\' the first backslash.) If you want to use the docker container with more than one Nextcloud, you\'ll need to use');?> <code>'domain=cloud\\.nextcloud\\.com\|second\\.nexcloud\\.com'</code> <?php echo $l->t('instead. (All hosts are separated by <code>\|</code>.)');?></p>
-			<p><pre><code>docker pull collabora/code
-			docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --restart always --cap-add MKNOD collabora/code
+			<p><pre><code class="docker">
+docker pull collabora/code
+docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --restart always --cap-add MKNOD collabora/code
 			</code></pre></p>
 			<p class="section--paragraph"><?php echo $l->t('That will be enough. Once you have done that the server will listen on "localhost:9980". Now we just need to configure the locally installed Apache reverse proxy.');?></p>
 			<h3 class="section--paragraph__tittle"><?php echo $l->t('2. Install the Apache reverse proxy');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('On a recent Ubuntu or Debian this should be possible using:');?></p>
 			<ol>
-				<li><code>apt-get install apache2</code></li>
-				<li><code>a2enmod proxy</code></li>
-				<li><code>a2enmod proxy_wstunnel</code></li>
-				<li><code>a2enmod proxy_http</code></li>
-				<li><code>a2enmod ssl</code></li>
+				<li><code class="apache">apt-get install apache2</code></li>
+				<li><code class="apache">a2enmod proxy</code></li>
+				<li><code class="apache">a2enmod proxy_wstunnel</code></li>
+				<li><code class="apache">a2enmod proxy_http</code></li>
+				<li><code class="apache">a2enmod ssl</code></li>
 			</ol>
 			<p class="section--paragraph"><?php echo $l->t('Afterward, configure one VirtualHost properly to proxy the traffic. For security reason we recommend to use a subdomain such as office.nextcloud.com instead of running on the same domain. An example config can be found below:');?></p>
-			<p><pre><code>&lt;VirtualHost *:443&gt;
-			ServerName office.nextcloud.com:443
+			<p><pre>
+				<code class="apache">
+&lt;VirtualHost *:443&gt;
+ServerName office.nextcloud.com:443
 
-			# SSL configuration, you may want to take the easy route instead and use Lets Encrypt!
-			SSLEngine on
-			SSLCertificateFile /path/to/signed_certificate
-			SSLCertificateChainFile /path/to/intermediate_certificate
-			SSLCertificateKeyFile /path/to/private/key
-			SSLProtocol             all -SSLv2 -SSLv3
-			SSLCipherSuite ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-RSA-AES256-SHA:ECDHE-ECDSA-DES-CBC3-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA256:AES256-SHA256:AES128-SHA:AES256-SHA:DES-CBC3-SHA:!DSS
-			SSLHonorCipherOrder     on
+# SSL configuration, you may want to take the easy route instead and use Lets Encrypt!
+SSLEngine on
+SSLCertificateFile /path/to/signed_certificate
+SSLCertificateChainFile /path/to/intermediate_certificate
+SSLCertificateKeyFile /path/to/private/key
+SSLProtocol             all -SSLv2 -SSLv3
+SSLCipherSuite ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-RSA-AES256-SHA:ECDHE-ECDSA-DES-CBC3-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA256:AES256-SHA256:AES128-SHA:AES256-SHA:DES-CBC3-SHA:!DSS
+SSLHonorCipherOrder     on
 
-			# Encoded slashes need to be allowed
-			AllowEncodedSlashes NoDecode
+# Encoded slashes need to be allowed
+AllowEncodedSlashes NoDecode
 
-			# Container uses a unique non-signed certificate
-			SSLProxyEngine On
-			SSLProxyVerify None
-			SSLProxyCheckPeerCN Off
-			SSLProxyCheckPeerName Off
+# Container uses a unique non-signed certificate
+SSLProxyEngine On
+SSLProxyVerify None
+SSLProxyCheckPeerCN Off
+SSLProxyCheckPeerName Off
 
-			# keep the host
-			ProxyPreserveHost On
+# keep the host
+ProxyPreserveHost On
 
-			# static html, js, images, etc. served from loolwsd
-			# loleaflet is the client part of LibreOffice Online
-			ProxyPass           /loleaflet https://127.0.0.1:9980/loleaflet retry=0
-			ProxyPassReverse    /loleaflet https://127.0.0.1:9980/loleaflet
+# static html, js, images, etc. served from loolwsd
+# loleaflet is the client part of LibreOffice Online
+ProxyPass           /loleaflet https://127.0.0.1:9980/loleaflet retry=0
+ProxyPassReverse    /loleaflet https://127.0.0.1:9980/loleaflet
 
-			# WOPI discovery URL
-			ProxyPass           /hosting/discovery https://127.0.0.1:9980/hosting/discovery retry=0
-			ProxyPassReverse    /hosting/discovery https://127.0.0.1:9980/hosting/discovery
+# WOPI discovery URL
+ProxyPass           /hosting/discovery https://127.0.0.1:9980/hosting/discovery retry=0
+ProxyPassReverse    /hosting/discovery https://127.0.0.1:9980/hosting/discovery
 
-			# Main websocket
-			ProxyPassMatch "/lool/(.*)/ws$" wss://127.0.0.1:9980/lool/$1/ws nocanon
+# Main websocket
+ProxyPassMatch "/lool/(.*)/ws$" wss://127.0.0.1:9980/lool/$1/ws nocanon
 
-			# Admin Console websocket
-			ProxyPass   /lool/adminws wss://127.0.0.1:9980/lool/adminws
+# Admin Console websocket
+ProxyPass   /lool/adminws wss://127.0.0.1:9980/lool/adminws
 
-			# Download as, Fullscreen presentation and Image upload operations
-			ProxyPass           /lool https://127.0.0.1:9980/lool
-			ProxyPassReverse    /lool https://127.0.0.1:9980/lool
-			&lt;/VirtualHost&gt;
+# Download as, Fullscreen presentation and Image upload operations
+ProxyPass           /lool https://127.0.0.1:9980/lool
+ProxyPassReverse    /lool https://127.0.0.1:9980/lool
+&lt;/VirtualHost&gt;
 			</code></pre></p>
 			<a name="update"></a>
 			<p class="section--paragraph"><?php echo $l->t('After configuring these do restart your apache using <code>/etc/init.d/apache2 restart</code>.');?></p>
@@ -205,15 +183,25 @@
 			<p class="section--paragraph"><?php echo $l->t('Occasionally, new versions of this docker image are released with security and feature updates. We will of course let you know when that happens! This is how you upgrade to a new version:');?></p>
 			<ul>
 			<li class="section--paragraph"><?php echo $l->t('grab new docker image:<br/>');?>
-			<code>docker pull collabora/code</code></li>
+			<code class="docker">
+docker pull collabora/code
+			</code></li>
 			<li class="section--paragraph"><?php echo $l->t('List docker images:<br/>');?>
-			<code>docker ps</code><br/>
+			<code class="docker">
+docker ps
+			</code><br/>
 			<?php echo $l->t('from the output you can glean the Container ID of your Collabora Online docker image.');?></li>
 			<li class="section--paragraph"><?php echo $l->t('stop and remove the Collabora Online docker image:<br/>');?>
-			<code>docker stop CONTAINER_ID</code><br/>
-			<code>docker rm CONTAINER_ID</code></li>
+			<code class="docker">
+docker stop CONTAINER_ID
+				</code><br/>
+			<code class="docker">
+docker rm CONTAINER_ID
+				</code></li>
 			<li class="section--paragraph"><?php echo $l->t('start the new image:<br/>');?>
-			<code>docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --restart always --cap-add MKNOD collabora/code</code></li>
+			<code class="docker">
+docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --restart always --cap-add MKNOD collabora/code
+			</code></li>
 			</ul>
 			<p class="section--paragraph"><?php echo $l->t('Enjoy!');?></p>
 			<hr>
@@ -245,8 +233,8 @@
 <div class="container-fluid call-to-action">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 featureblock text-center revealOnScroll">
-				<p class=""><?php echo $l->t('Let us know what you think in the forums!');?></p>
+			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
+				<p class="text-center"><?php echo $l->t('Let us know what you think in the forums!');?></p>
 				<div class="text-center morebuttondiv">
 					<a href="https://help.nextcloud.com/c/support/collabora" class="button button--large button--arrow"><?php echo $l->t('Talk to us!');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>

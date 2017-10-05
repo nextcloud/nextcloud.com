@@ -1,12 +1,8 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/workflow.css" rel="stylesheet">
-<!--<script>
-	require(["require.config"], function() {
-		require(["pages/clients"])
-	});
-</script>-->
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/workflow.css" rel="stylesheet">
 <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
+
 <div class="background workflow-background">
 	<div class="container">
 		<div class="row">
@@ -20,7 +16,7 @@
 <section class="section--header">
 <div class="container">
 	<div class="row">
-		<div class="col-md-8 col-md-offset-2 text-center revealOnScroll">
+		<div class="col-md-8 col-md-offset-2 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Users need to exchange data');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The traditional shared data directory in companies has been informally augmented with attachments sent around by email as well as illicit usage of public cloud solutions like Dropbox. This brings significant legal, practical and financial risks.');?></p>
 			<p class="section--paragraph__tittle"><?php echo $l->t('IT needs to stay in control');?></p>
@@ -47,7 +43,7 @@
 <div class="container-fluid quote">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 featureblock text-center revealOnScroll">
+			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
 				<p class=""><?php echo $l->t('Learn more about how Nextcloud helps you keep your data secure.');?></p>
 				<div class="text-center morebuttondiv">
 					<a href="/secure" class="button button--large button--arrow"><?php echo $l->t('Security in Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>

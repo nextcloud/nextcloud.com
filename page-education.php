@@ -1,9 +1,9 @@
 <head>
-<link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/education.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/education.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script>
 require(["require.config"], function() {
-	require(["pages/education", "modules/submenu", "bootstrap"])
+	require(["pages/education", "modules/submenu", "bootstrap", "modules/youtubePlayer"])
 });
 </script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
@@ -113,9 +113,9 @@ require(["require.config"], function() {
         </div>
     </div>
     <div class="row">
-		<div class="col-md-4 col-md-offset-4 text-center">
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('<a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-moodle-and-4-other-partners-announce-education-edition">Learn more about the Education Edition in the announcement.</a> <br />Special GEÁNT pricing is available for research and educational organizations.');?></p>
-            <a href="/enterprise/buy" class="button button--blue button--arrow button--large"><?php echo $l->t('Contact Sales');?></a>
+		<div class="col-md-4 col-md-offset-4">
+            <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('<a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-moodle-and-4-other-partners-announce-education-edition">Learn more about the Education Edition in the announcement.</a> <br />Special GEÁNT pricing is available for research and educational organizations.');?></p>
+            <p class="section--paragraph text-center revealOnScroll"><a href="/enterprise/buy" class="button button--blue button--arrow button--large"><?php echo $l->t('Contact Sales');?></a></p>
         </div>
     </div>
 </div>
@@ -184,19 +184,6 @@ require(["require.config"], function() {
                 <p class="section--paragraph"><?php echo $l->t('Students can tag and comment on files for easy collaboration, roll back files to earlier versions or find deleted files in the trash. Real time collaborative editing and secure audio/video calls and chat complement the array of features aimed at enhancing productivity.');?></p>
             </div>
         </div>
-        <!--<div class="row text-center whitepaper revealOnScroll">
-            <div class="col-md-offset-4 col-md-4">
-                <p>
-                    <form name="whitepaper" method="post" action="../tub-whitepapersubmit">
-                        <p><label for="email"><?php echo $l->t('Download case study:<br/> TU Berlin Nextcloud migration yields 38% lower peak database load');?><br>
-                        <input class="mail" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
-                        <td colspan="2" style="text-align:center">
-                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                        <input class="button button--blue button--large" type="submit" value=" Get the case study ">
-                    </form>
-                </p>
-            </div>
-        </div>-->
     </div>
 </section>
 
@@ -217,27 +204,24 @@ require(["require.config"], function() {
         </div>
     </div>
 	<div class="row">
-		<div class="col-md-10 col-md-offset-1 video">
-			<div class="yt-img-overlay">
-				<a class="youtube" id="I5wcLS9xxMw" href="https://www.youtube.com/watch?v=I5wcLS9xxMw" title="Explaining Global Scale">
-					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/I5wcLS9xxMw/maxresdefault.jpg" title="" style='margin: 0 0 0 0; padding: -10% 0 -10% 0;' />
-					<div class="yt-play-btn">
-						<i></i>
-					</div>
-				</a>
+		<div class="col-md-10 col-md-offset-1">
+			<div class="">
+                <div data-type="youtube" data-video-id="I5wcLS9xxMw"></div>
 			</div>
 		</div>
-		<div class="col-md-8 col-md-offset-2 text-center revealOnScroll">
-			<p class="section--paragraph"><?php echo $l->t('<span class="avoidwrap">Nextcloud Global Scale delivers a true globally scalable solution</span> <span class="avoidwrap">for deployments with hundreds of millions of users<span>, <span class="avoidwrap">giving unprecedented control over the locality of data</span> <span class="avoidwrap">and delivering dramatic cost reduction</span>');?></p>
-			<a href="/globalscale" class="button button--blue button--arrow button--large"><?php echo $l->t('Global Scale');?></a>
+    </div>
+    <div class="row">
+		<div class="col-md-8 col-md-offset-2 revealOnScroll">
+			<p class="section--paragraph text-center"><?php echo $l->t('<span class="avoidwrap">Nextcloud Global Scale delivers a true globally scalable solution</span> <span class="avoidwrap">for deployments with hundreds of millions of users<span>, <span class="avoidwrap">giving unprecedented control over the locality of data</span> <span class="avoidwrap">and delivering dramatic cost reduction</span>');?></p>
+			<p class="section--paragraph text-center"><a href="/globalscale" class="button button--blue button--arrow button--large"><?php echo $l->t('Global Scale');?></a></p>
 		</div>
 	</div>
 </div>
 <div class="container-fluid quote">
 	<div class="container-widest">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 text-center revealOnScroll">
-				<p class="section--paragraph"><?php echo $l->t('Your users are not confined to your Nextcloud server.<br/> Federation allows them to collaborate with users on other Nextcloud, Pydio or ownCloud servers!');?></p>
+			<div class="col-md-8 col-md-offset-2 revealOnScroll">
+				<p class="section--paragraph text-center"><?php echo $l->t('Your users are not confined to your Nextcloud server.<br/> Federation allows them to collaborate with users on other Nextcloud, Pydio or ownCloud servers!');?></p>
 				<div class="text-center morebuttondiv">
 					<a href="/sharing/#federation" class="button button--large button--arrow"><?php echo $l->t('Federation');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
@@ -341,8 +325,8 @@ require(["require.config"], function() {
 <div class="container-fluid quote">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 text-center revealOnScroll">
-				<p class="section--paragraph"><?php echo $l->t('Choose the best platform for efficient, secure and easy collaboration.<br/> Contact sales today!');?></p>
+			<div class="col-md-8 col-md-offset-2 revealOnScroll">
+				<p class="section--paragraph text-center"><?php echo $l->t('Choose the best platform for efficient, secure and easy collaboration.<br/> Contact sales today!');?></p>
 				<div class="text-center morebuttondiv">
 					<a href="/enterprise/buy/" class="button button--large button--arrow"><?php echo $l->t('Contact Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>

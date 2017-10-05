@@ -1,4 +1,4 @@
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/contribute.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/contribute.css" rel="stylesheet">
 
 <div class="background contribute-background">
 	<div class="container">

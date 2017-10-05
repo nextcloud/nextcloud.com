@@ -1,0 +1,87 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+.jobs-background {
+  background: url("../../img/headers/team.jpg") no-repeat center;
+  background-size: cover;
+
+  .container .row .col-md6 {
+	  padding-right: 5%;
+
+	  @media (max-width: $break-small) {
+			text-align: left;
+			font-size: 25px;
+		}
+  }
+}
+
+.section-company-description {
+	margin-top: 130px;
+
+	h3{
+		font-size: 22px;
+	}
+
+	p {
+		max-width: 700px;
+		margin: 0 auto;
+		padding-top: 20px;
+		font-size: 18px;
+		text-align: center;
+
+		@media (max-width: $break-small) {
+			text-align: left;
+		}
+	}
+}
+
+.section-jobs-opening {
+	margin-top: 70px;
+	margin-bottom: 100px;
+
+	a:hover, a:focus {
+		text-decoration: none;
+		font-decoration: none;
+		color: #2a2a36;
+		border-bottom: none;
+		cursor: pointer;
+		cursor: hand;
+	}
+
+	.jobs {
+		position: relative;
+
+		@media (max-width: $break-small) {
+			text-align: left;
+			font-size: 25px;
+		}
+	}
+
+	.icon-arrow {
+    background: url(../../img/arrow_down.svg) center/contain no-repeat;
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    right: 20px;
+    top: 2px;
+  }
+
+	.wrapper-text {
+		padding-top: 20px;
+		width: 60%;
+    margin: 0 auto;
+
+		p {
+			max-width: 700px;
+			padding-top: 20px;
+			font-size: 18px;
+		}
+    ul {
+      padding-left: 0;
+    }
+		@media (max-width: $break-small) {
+			margin: 0;
+			width: 100%;
+		}
+	}
+}

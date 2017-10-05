@@ -1,5 +1,5 @@
 <head>
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/migration.css">
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/migration.css">
 <script>
 	require(["require.config"], function() {
 		require(["pages/migration"])

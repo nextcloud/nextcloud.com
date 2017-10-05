@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/endtoend.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/endtoend.css" rel="stylesheet">
 </head>
 <div class="background endtoend-background">
 	<div class="container">

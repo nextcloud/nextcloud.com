@@ -1,10 +1,10 @@
 <head>
 <script>
 	require(["require.config"], function() {
-		require(["pages/enterprise", "modules/slideshow", "modules/submenu", "bootstrap"])
+		require(["modules/slideshow", "modules/submenu"])
 	});
 </script>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/enterprise.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/enterprise.css" rel="stylesheet">
 <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
@@ -43,7 +43,9 @@
 	<div class="container">
 		<p class="section--intro text-center revealOnScroll">Matter experts</p>
 		<h3 class="section--heading-1 text-center revealOnScroll">Dedicated to your success</h3>
-		<div class="expertise__ilustration"></div>
+		<div class="ilustration ilustration__expertise">
+			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/ilustration_matterexperts-new.svg"); ?>
+		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We are dedicated to your success as Nextcloud customer. An analysis of your needs, a pilot customized for your architecture and remote installation support ensures a smooth introduction of Nextcloud in your organization and we will help you scale up to meet growing demand in your organization.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud GmbH employs <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-the-most-active-open-source-file-sync-and-share-project/">9 of the top-ten developers in the Nextcloud Server codebase</a>, making our engineering team by far the most qualified to help you get the most out of your Enterprise File Sync and Share solution.');?></p>
 		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/team">Our team</a></p>
@@ -57,7 +59,9 @@
 	<div class="container">
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Top notch security');?></p>
 		<h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('To keep your data safe');?></h3>
-		<div class="security__ilustration"></div>
+		<div class="ilustration">
+			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/security-new.svg"); ?>
+		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud develops its software with a rigorous focus on security through the entire life cycle of the product. Our active and passive security measures are backed by the some of the highest security bug bounties in the open source industry.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('As customer you get direct access to our security expertise, with hardening advice and ahead-of-release security issue mitigation and fixes.');?></p>
 		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/secure">Learn about security</a></p>
@@ -71,7 +75,9 @@
 	<div class="container">
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Multi-year lifecycle');?></p>
 		<h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('For uninterupted service');?></h3>
-		<div class="lifecycle__ilustration"></div>
+		<div class="ilustration lifecycle__ilustration">
+			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/data_safe-new.svg"); ?>
+		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('A Nextcloud support subscription gives you access to enterprise-ready software, updates, and information and support services that span your entire OS and application infrastructure life cycle and architecture. You can count on receiving the latest product versions with the stability and security you need.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Working with data is essential for your business and being forced on the upgrade threadmill is disruptive to your organization. With access to up to 15 years security and stability updates to Nextcloud, we match the lifecycle of your operating system so you can schedule upgrades when it works for you and secure the investments you did in your existing platform.');?></p>
 		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/pricing">See pricing</a></p>
@@ -85,7 +91,9 @@
 	<div class="container">
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Ultimate scalability');?></p>
 		<h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('For costs and compliance');?></h3>
-		<div class="globalscale__ilustration"></div>
+		<div class="ilustration">
+			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/globalscale/final.svg"); ?>
+		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Our unique Nextcloud Global Scale architecture delivers a true globally scalable solution for deployments with hundreds of millions of users, giving unprecedented control over the locality of data and delivering dramatic cost reduction.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud Global Scale was designed to lift enterprise collaboration to a new level, overcoming limitations in building large scale file storage, sync & share solutions. Nextcloud Global Scale works by decentralizing data to independent nodes, using several new components to manage the interactions between servers.');?></p>
 		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/globalscale">Learn more</a></p>

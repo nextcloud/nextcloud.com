@@ -1,0 +1,33 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.webrtc-background {
+  background: url("../../img/headers/webrtc.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px; }
+
+section {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  section .section--paragraph__tittle {
+    padding: 0; }
+
+.section--introduction {
+  margin-top: 150px; }
+
+.section--security {
+  margin-top: 150px; }
+
+.featuretitle {
+  text-align: center; }
+
+footer {
+  margin-top: 0px; }
+
+/*# sourceMappingURL=webrtc.css.map */

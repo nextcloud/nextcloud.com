@@ -14,8 +14,8 @@
 	<link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/assets/img/common/favicon.png" />
 
 	<!-- New styles -->
-	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/header.css" rel="stylesheet">
-	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/footer.css" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/old/header.css" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/modules/footer.css" rel="stylesheet">
 
 	<!-- Fixes for the new style on legacy pages -->
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/legacy-fixes.css" rel="stylesheet">
@@ -30,25 +30,23 @@
 
 	<?php wp_head(); ?>
 	<!-- New JS -->
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.min.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.waypoints.min.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/enquire.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/underscore.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/bodymovin.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/TweenMax.min.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/ScrollMagic.min.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/animation.gsap.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/debug.addIndicators.min.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/bootstrap.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/velocity.min.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/velocity.ui.min.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/headroom.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.core.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.7.0/bodymovin.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.6/enquire.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/headroom.min.js"></script>
 
 <!-- 	Old JS -->
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/old/scripts.min.js"></script>
 	<?php if(is_page('news')) { ?>
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/old/vendor/jquery.infinitescroll.min.js"></script>
-  	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/old/vendor/jquery.masonry.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-infinitescroll/2.1.0/jquery.infinitescroll.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/2.1.04/jquery.masonry.min.js"></script>
 	<?php } ?>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/navigation.js"></script>
 
@@ -57,6 +55,3 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 	<link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
 </head>
-
-
-

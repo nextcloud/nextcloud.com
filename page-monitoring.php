@@ -1,10 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/monitoring.css" rel="stylesheet">
-<!--<script>
-	require(["require.config"], function() {
-		require(["pages/clients"])
-	});
-</script>-->
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/monitoring.css" rel="stylesheet">
 <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <div class="background monitoring-background">
@@ -21,9 +16,9 @@
 <section class="section--intro">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center">
-                <p class="section--paragraph"><?php echo $l->t('With your file sync and share solution central to the productivity of hundreds, thousands or even millions of users it is crucial to have an overview of its performance and service. Your users want to know what is happening to their files. And last but not least, so does your legal department!');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Nextcloud has your back with our Server Information, Activities and Auditing apps.');?></p>
+            <div class="col-md-8 col-md-offset-2">
+                <p class="section--paragraph text-center"><?php echo $l->t('With your file sync and share solution central to the productivity of hundreds, thousands or even millions of users it is crucial to have an overview of its performance and service. Your users want to know what is happening to their files. And last but not least, so does your legal department!');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud has your back with our Server Information, Activities and Auditing apps.');?></p>
             </div>
         </div>
     </div>

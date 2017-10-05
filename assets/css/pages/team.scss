@@ -1,0 +1,163 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+.team-background {
+  background: url("../../img/headers/enterprise-team.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer.page-footer {
+	margin-top: 0;
+}
+
+.section--team {
+	padding-top: 80px;
+/* 	display: inline-block; */
+
+	.section--heading-1 {
+		padding: 80px 0 30px 0;
+		text-align: center;
+	}
+
+	.section--intro {
+		font-weight: 600;
+		padding-top: 30px;
+        color: $dark-blue;
+
+		@media (max-width: $break-small) {
+			text-align: left !important;
+		}
+	}
+
+
+	.teamgroup {
+		padding-top:100px;
+		width: 95%;
+		max-width: 1600px;
+	}
+
+	.teamgroup .featuretitle {
+	text-align: center;
+	}
+	.teamp {
+		margin-left: 1%;
+		margin-right: 1%;
+		margin-bottom: 7%;
+		padding-top: 30px;
+		padding-bottom: 5px;
+	}
+
+	.teamimg {
+		width: 50%;
+		display:block;
+		margin: 0 auto !important;
+	}
+
+	.teamname {
+		text-align: center;
+		font-size:28px;
+	}
+	.teammeta {
+		text-align: center;
+		font-size: 14px;
+		font-weight: 200;
+		color: #777;
+		line-height: 1;
+	}
+
+	.teamtitle {
+		margin: 6px;
+		font-size: 22px;
+	}
+
+	h4 {
+		color: #9c9c9c;
+	}
+
+	.teamexpertise {
+		margin: 2px;
+		font-size: 14px;
+
+	}
+
+	.teamlocation {
+		margin: 2px;
+		font-size: 14px;
+	}
+
+	.teamsocial {
+		margin: 15px;
+		font-size: 30px;
+		height: 40px;
+		i[class*='fa-'] {
+		color: #9c9c9c !important;
+		}
+	}
+
+	.teamsocial a {
+		color: #AAA;
+		transition: all .2s;
+	}
+
+	.teamsocial a:hover {
+		color:  #0082C9;
+	}
+
+	.teamdescription {
+		margin: 20px;
+	}
+
+	.teamp {
+		min-height: 800px;
+	}
+
+	@media (max-width: 2000px) {
+		.teamp {
+			min-height: 780px;
+		}
+	}
+
+	@media (max-width: 1910px) {
+		.teamp {
+			min-height: 770px;
+		}
+	}
+
+	@media (max-width: 1450px) {
+		.teamp {
+			min-height: 790px;
+		}
+	}
+
+	@media (max-width: 1200px) {
+		.teamp {
+			min-height: 830px;
+		}
+	}
+
+	@media (max-width: 991px) {
+		.teamp {
+			min-height: auto;
+		}
+	}
+}
+
+.calltoaction {
+	margin-top: 50px;
+	background-color: $nextcloud-blue;
+	padding: 50px 0;
+	color: white;
+
+	.section--heading-2 {
+		color: white;
+	}
+
+	.section--paragraph {
+		color: white;
+	}
+
+	.hyperlink {
+		color: white;
+	}
+}

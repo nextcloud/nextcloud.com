@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/workflow.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/workflow.css" rel="stylesheet">
 </head>
 <div class="background workflow-background">
 	<div class="container">

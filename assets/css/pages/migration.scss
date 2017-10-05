@@ -1,0 +1,127 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+
+.migration-background {
+  background-image: url("../../img/enterprise/enterprise.jpg");
+  background-position: bottom 0 right 0;
+  background-size: cover;
+
+  @media (max-width: $navbar-breaksize) {
+	min-height: 1050px !important;
+	max-height: 1200px !important;
+  }
+	.topheader {
+		@media (max-width: $break-small) {
+		top: 20% !important;
+		}
+	}
+
+  .topquote {
+    position: absolute;
+    top: 55%;
+	left: 60%;
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+
+	@media (max-width: $very-wide) {
+	  max-width: 390px;
+    }
+    @media (max-width: $navbar-breaksize) {
+		max-width: 95%;
+		max-width: 500px;
+		top: 70%;
+		left: 25%;
+		margin-right: 5px;
+    }
+
+	@media (max-width: $break-small) {
+		top: 65%;
+		left: 8%;
+	}
+
+	.carousel-inner {
+		height: 100%;
+		min-height: 300px;
+	}
+
+	.carousel-control.left {
+		background-image: none;
+		background: transparent;
+
+		@media (max-width: $break-small) {
+			display: none;
+		}
+	}
+	.carousel-control.right {
+		background-image: none;
+		background: transparent;
+
+		@media (max-width: $break-small) {
+			display: none;
+		}
+	}
+
+	.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+		left: -50%;
+	}
+
+	.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+		right: -40%;
+	}
+
+	h2 {
+		text-align: right;
+		a {
+			transition: all 0.5s ease;
+			color: white;
+			border-bottom: solid 1px white;
+			text-decoration: none;
+			&:hover {
+				text-decoration: none;
+				color: #a2a2a2;
+				border-bottom: solid 1px #a2a2a2;
+			}
+		}
+	}
+
+	h3 {
+		color: white;
+		font-size: 18px;
+		text-align: left;
+		.big {
+			font-weight: 600;
+		}
+	}
+
+/* 	Fix width issues */
+	.row {
+		width: 100%;
+	}
+	.carousel {
+		width: 100%;
+	}
+
+	}
+}
+
+.section--paragraph__tittle {
+	padding-top: 50px;
+}
+
+.section--heading-1 {
+	padding: 80px 0 50px 0;
+}
+
+small {
+	padding: 50px 0 0 0;
+	display: block;
+}
+
+footer {
+	margin-top: 70px;
+	small {
+		padding: 0 0 0 0;
+	}
+}

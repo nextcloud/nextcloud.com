@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/home.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/home.css" rel="stylesheet">
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
 <script>
 	require(["require.config"], function() {
@@ -15,6 +15,7 @@
 				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-introducing-native-integrated-end-to-end-encryption/">
 				<span class="type">News</span>
 				<span class="message"><strong>Nextcloud introducing end-to-end encryption</strong> coming in Nextcloud 13. Try our preview!</span>
+				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('A safe home for all your data');?></h1>
 				<h2 class="jumbotron--lead"><?php echo $l->t('Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.');?></h2>
@@ -161,7 +162,3 @@
 		<a class="button button--blue button--arrow button--large" href="https://newsletter.nextcloud.com/?p=subscribe&id=1" role="button"><?php echo $l->t('Subscribe');?></a>
 	</div>
 </section>
-
-<!-- <script type="text/javascript">
-	javascript:!function(a){var b=a.createElement("script");b.onload=function(){TouchEmulator()},b.src="//cdn.rawgit.com/hammerjs/touchemulator/0.0.2/touch-emulator.js",a.body.appendChild(b)}(document);
-</script> -->

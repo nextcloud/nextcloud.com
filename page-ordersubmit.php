@@ -1,3 +1,22 @@
+<head>
+<script>
+	require(["require.config"], function() {
+		require(["pages/enterprise"])
+	});
+</script>
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/enterprise.css" rel="stylesheet">
+</head>
+<section class="enterprise-hero-section second-menu">
+	<div class="container-fluid background">
+		<div class="container">
+			<div class="col-md-6 topheader">
+				<h1><?php echo $l->t('Get support from the source');?></h1>
+				<h2><?php echo $l->t('The best expertise whenever you need it!');?></h2>
+			</div>
+		</div>
+	</div>
+</section>
+
 <?php
 
 class ValidationException extends Exception {};

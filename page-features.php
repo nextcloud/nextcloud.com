@@ -1,9 +1,9 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/features.css" rel="stylesheet">
-<link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/features.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script>
 	require(["require.config"], function() {
-		require(["pages/features", "modules/submenu"])
+		require(["modules/youtubePlayer"])
 	});
 </script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
@@ -22,14 +22,10 @@
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
 			<a href="#hosting"><span class="avoidwrap"><?php echo $l->t('Your files');?></span></a>
-<!--			<a href="#files"><span class="avoidwrap"><?php echo $l->t('File access');?></span></a>-->
 			<a href="#security"><span class="avoidwrap"><?php echo $l->t('Security');?></span></a>
-<!-- 			<a href="#workflow"><span class="avoidwrap"><?php echo $l->t('Control');?></span></a> -->
 			<a href="#clients"><span class="avoidwrap"><?php echo $l->t('Clients');?></span></a>
 			<a href="#storage"><span class="avoidwrap"><?php echo $l->t('External storage');?></span></a>
 			<a href="#calendar"><span class="avoidwrap"><?php echo $l->t('Collaborate');?></span></a>
-<!-- 			<a href="#calls"><span class="avoidwrap"><?php echo $l->t('Video calls');?></a> -->
-<!-- 			<a href="#collabora"><span class="avoidwrap"><?php echo $l->t('Online Office');?></span></a> -->
 			<a href="#appstore"><span class="avoidwrap"><?php echo $l->t('More apps');?></span></a>
 		</div>
 	</div>
@@ -52,15 +48,8 @@
 <section class="section--files">
 	<a name="files" id="files"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll image--floated image--feature">
-			<div class="yt-img-overlay">
-				<a class="youtube" href="https://www.youtube.com/watch?v=Fe1I7wYW6hA" title="Creating anonymous upload links">
-					<img  src="https://img.youtube.com/vi/Fe1I7wYW6hA/hqdefault.jpg" title="Creating anonymous upload links" />
-					<div class="yt-play-btn">
-						<i></i>
-					</div>
-				</a>
-			</div>
+		<div class="col-md-6 revealOnScroll image--floated">
+			<div data-type="youtube" data-video-id="Fe1I7wYW6hA"></div>
 		</div>
 		<div class="col-md-6 revealOnScroll feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Share with others on your terms.');?></p>

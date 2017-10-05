@@ -1,0 +1,47 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+.outlook-background {
+  background-image: url('../../img/headers/outlook-header.jpg');
+  background-size: cover;
+}
+
+.featurerow {
+	margin-top: 100px;
+	padding-bottom: 50px;
+
+	.floated {
+		float: right;
+		padding-bottom: 50px;
+	}
+
+	p {
+		margin-top: 15px;
+	}
+
+
+	h1 {
+		margin-bottom: 50px;
+		text-align: center;
+	}
+}
+
+.featureblock {
+	.wrapper--buttons {
+		.button {
+			margin: 20px 10px 20px 20px;
+		}
+	}
+}
+
+.quote {
+	margin: 80px 0 50px 0;
+	padding: 50px 0px;
+	background: $nextcloud-blue;
+	p {
+		color: white;
+	}
+	.hyperlink {
+		color: white;
+	}
+}

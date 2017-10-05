@@ -1,9 +1,8 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/globalscale.css" rel="stylesheet">
-<link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/globalscale.css" rel="stylesheet">
 <script>
 require(["require.config"], function() {
-	require(["pages/globalscale"])
+	require(["modules/youtubePlayer"])
 });
 </script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
@@ -23,17 +22,10 @@ require(["require.config"], function() {
 <div class="container">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1 video">
-			<div class="yt-img-overlay">
-				<a class="youtube" id="I5wcLS9xxMw" href="https://www.youtube.com/watch?v=I5wcLS9xxMw" title="Explaining Global Scale">
-					<img class="img-responsive featureimg" src="https://img.youtube.com/vi/I5wcLS9xxMw/maxresdefault.jpg" title="Explaining Global Scale" style='margin: 0 0 0 0; padding: -10% 0 -10% 0;' /> <!-- style different per image! -->
-					<div class="yt-play-btn">
-						<i></i>
-					</div>
-				</a>
-			</div>
+			<div data-type="youtube" data-video-id="I5wcLS9xxMw"></div>
 		</div>
-		<div class="col-md-8 col-md-offset-2 text-center revealOnScroll">
-			<p class="section--paragraph"><?php echo $l->t('<span class="avoidwrap">Nextcloud Global Scale delivers a true globally scalable solution</span> <span class="avoidwrap">for deployments with hundreds of millions of users<span>, <span class="avoidwrap">giving unprecedented control over the locality of data</span> <span class="avoidwrap">and delivering dramatic cost reduction</span>');?></p>
+		<div class="col-md-8 col-md-offset-2 revealOnScroll">
+			<p class="section--paragraph text-center"><?php echo $l->t('<span class="avoidwrap">Nextcloud Global Scale delivers a true globally scalable solution</span> <span class="avoidwrap">for deployments with hundreds of millions of users<span>, <span class="avoidwrap">giving unprecedented control over the locality of data</span> <span class="avoidwrap">and delivering dramatic cost reduction</span>');?></p>
 		</div>
 	</div>
 </div>
@@ -143,7 +135,7 @@ require(["require.config"], function() {
 <div class="container-fluid quote">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 text-center revealOnScroll">
+			<div class="text-center revealOnScroll">
 				<p class="section--paragraph"><?php echo $l->t('Achieve a new level in scalability, flexibility and cost efficiency. Contact sales today!');?></p>
 				<div class="text-center morebuttondiv">
 					<a href="/enterprise/buy/" class="button button--large button--arrow"><?php echo $l->t('Contact Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>

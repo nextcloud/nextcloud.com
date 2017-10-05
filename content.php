@@ -11,15 +11,15 @@ if( !is_null( $icon ) && file_exists( $icon ) ){
 	// Specified email?
 	$gravmail = get_feed_meta('email');
 	// Try specified email, else default to blog email, else show default image
-	$imgurl = get_gravatar( $useremail, '60' );//get_gravatar( $gravmail, '60', get_gravatar( $useremail, '60' ) );	
+	$imgurl = get_gravatar( $useremail, '60' );//get_gravatar( $gravmail, '60', get_gravatar( $useremail, '60' ) );
 //echo $imgurl;
 }
 // Compute link
 $target = is_syndicated() ? ' target="_blank"': '';
 $link = is_syndicated() ? get_syndication_permalink() : get_permalink();
 $title = is_syndicated() ? get_syndication_source() : get_the_title();
-?> 
-<div class="row">	
+?>
+<div class="row news">
 	<div class="span1">
 		<a href="#"><img class="thumbnail" src="<?php echo $imgurl; ?>" alt="<?php echo $title; ?>"></a>
 	</div>
@@ -29,7 +29,7 @@ $title = is_syndicated() ? get_syndication_source() : get_the_title();
 		<small>Posted on
 		<?php the_date(); ?> by <?php the_author(); ?>
 		<?php if( is_syndicated() ){
-			echo 'from "'.get_syndication_source().'"';	
+			echo 'from "'.get_syndication_source().'"';
 		}
 		?>
 		</small>
