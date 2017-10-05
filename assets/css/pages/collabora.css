@@ -1,2 +1,55 @@
-.nav:not(.scrolled){background-color:transparent;position:absolute}.collabora-background{background-image:url("../../img/headers/collabora.jpg");background-size:cover}.collaboravideo{float:none;margin-left:auto;margin-right:auto}.featurerow{margin-top:100px;padding-bottom:50px}.featurerow .floated{float:right;padding-bottom:50px}.featurerow p{margin-top:15px}.featurerow h1{margin-bottom:50px;text-align:center}.featureblock .section--heading-1{margin-top:5px;color:#2a2a36;margin-bottom:5px}.featureblock .wrapper--buttons .button{margin:20px 10px 20px 20px}.collabora-integration h1,.collabora-integration h2,.collabora-integration h3,.collabora-integration h4{margin-top:70px;margin-bottom:20px}.collabora-integration hr{margin-top:70px}.call-to-action{margin:80px 0 0px 0;padding:50px 0px;background:#0082c9;color:white}.call-to-action h1{color:white;margin-top:40px;margin-bottom:30px}.call-to-action a{color:white}
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.collabora-background {
+  background-image: url("../../img/headers/collabora.jpg");
+  background-size: cover; }
+
+.collaboravideo {
+  float: none;
+  margin-left: auto;
+  margin-right: auto; }
+
+.featurerow {
+  margin-top: 100px;
+  padding-bottom: 50px; }
+  .featurerow .floated {
+    float: right;
+    padding-bottom: 50px; }
+  .featurerow p {
+    margin-top: 15px; }
+  .featurerow h1 {
+    margin-bottom: 50px;
+    text-align: center; }
+
+.featureblock .section--heading-1 {
+  margin-top: 5px;
+  color: #2a2a36;
+  margin-bottom: 5px; }
+.featureblock .wrapper--buttons .button {
+  margin: 20px 10px 20px 20px; }
+
+.collabora-integration h1, .collabora-integration h2, .collabora-integration h3, .collabora-integration h4 {
+  margin-top: 70px;
+  margin-bottom: 20px; }
+.collabora-integration hr {
+  margin-top: 70px; }
+
+.call-to-action {
+  margin: 80px 0 0px 0;
+  padding: 50px 0px;
+  background: #0082c9;
+  color: white; }
+  .call-to-action h1 {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 30px; }
+  .call-to-action a {
+    color: white; }
+
 /*# sourceMappingURL=collabora.css.map */
