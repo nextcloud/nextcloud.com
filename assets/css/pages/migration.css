@@ -8,6 +8,7 @@
 
 .migration-background {
   background-image: url("../../img/headers/migration.jpg");
+  background-position: center;
   background-size: cover; }
   @media (max-width: 1200px) {
     .migration-background {
