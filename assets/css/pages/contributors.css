@@ -1,2 +1,84 @@
-.nav:not(.scrolled){background-color:transparent;position:absolute}.contributors-background{background:url("../../img/headers/contributors.jpg") no-repeat;background-position:center;background-size:cover}footer.page-footer{margin-top:0}.section--contributors{padding-top:80px}.section--contributors .section--heading-1{padding:80px 0 30px 0;text-align:center}.section--contributors .section--intro{font-weight:600;padding-top:30px;color:#2a2a36}@media (max-width: 768px){.section--contributors .section--intro{text-align:left !important}}.section--contributors blockquote{float:right}.section--contributors .contributorgroup{width:95%;max-width:2000px}.section--contributors .contribshowhide{position:relative}.section--contributors .contribtext{transition:all .5s;background-color:#0082C9;border-radius:50%;opacity:0;z-index:10;position:absolute;top:0;width:100%;height:100%;max-width:200px;max-height:200px}.section--contributors .contribshowhide:hover .contribtext{opacity:0.9}.section--contributors .contribtext a{display:block;width:100%;height:100%;opacity:0.9;vertical-align:middle;color:white;text-decoration:none;font-size:24px;text-align:center;position:absolute;top:30%}.section--contributors .contribimg img{width:100%;height:100%;max-width:200px;max-height:200px}.section--contributors .contributor-area{margin-bottom:60px}.calltoaction{margin-top:50px;background-color:#0082c9;padding:50px 0;color:white}.calltoaction .section--heading-2{color:white}.calltoaction .section--paragraph{color:white}.calltoaction .hyperlink{color:white}
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.contributors-background {
+  background: url("../../img/headers/contributors.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+footer.page-footer {
+  margin-top: 0; }
+
+.section--contributors {
+  padding-top: 80px;
+  /* 	display: inline-block; */ }
+  .section--contributors .section--heading-1 {
+    padding: 80px 0 30px 0;
+    text-align: center; }
+  .section--contributors .section--intro {
+    font-weight: 600;
+    padding-top: 30px;
+    color: #2a2a36; }
+    @media (max-width: 768px) {
+      .section--contributors .section--intro {
+        text-align: left !important; } }
+  .section--contributors blockquote {
+    float: right; }
+  .section--contributors .contributorgroup {
+    width: 95%;
+    max-width: 2000px; }
+  .section--contributors .contribshowhide {
+    position: relative; }
+  .section--contributors .contribtext {
+    transition: all .5s;
+    background-color: #0082C9;
+    border-radius: 50%;
+    opacity: 0;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px; }
+  .section--contributors .contribshowhide:hover .contribtext {
+    opacity: 0.9; }
+  .section--contributors .contribtext a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    vertical-align: middle;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    /* 	margin-top: -20%; */ }
+  .section--contributors .contribimg img {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px; }
+  .section--contributors .contributor-area {
+    margin-bottom: 60px; }
+
+.calltoaction {
+  margin-top: 50px;
+  background-color: #0082c9;
+  padding: 50px 0;
+  color: white; }
+  .calltoaction .section--heading-2 {
+    color: white; }
+  .calltoaction .section--paragraph {
+    color: white; }
+  .calltoaction .hyperlink {
+    color: white; }
+
 /*# sourceMappingURL=contributors.css.map */
