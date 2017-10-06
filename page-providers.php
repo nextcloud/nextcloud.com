@@ -1,4 +1,3 @@
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <div class="container">
 <div class="row">
     <div class="col-md-6 col-md-offset-3 text-center">
