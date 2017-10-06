@@ -128,17 +128,34 @@
 				html: filteredItems.join("")
 			}).appendTo('#providers');
 		}
-		$.getJSON('<?php echo get_template_directory_uri() ?>/assets/providers.json', function (data) {
-			items = data;
-			shuffle(items);
-			filterItems(selectedCountryCode, filterFreePlans, filterHosting);
-			$.each(countries, function (key, countryCode) {
-				$('#countryPicker').append($('<option/>', {
-					value: countryCode,
-					html: countryCode
-				}));
-			});
-		});
+
+		var request = new XMLHttpRequest();
+		request.open('GET', '<?php echo get_template_directory_uri() ?>/assets/providers.json', true);
+
+		request.onload = function() {
+		  if (request.status >= 200 && request.status < 400) {
+		    items = JSON.parse(request.responseText);
+
+		    shuffle(items);
+		    filterItems(selectedCountryCode, filterFreePlans, filterHosting);
+
+		    $.each(countries, function (key, countryCode) {
+		        $('#countryPicker').append($('<option/>', {
+		          value: countryCode,
+		          html: countryCode
+		        }));
+		      });
+		  } else {
+		    // We reached our target server, but it returned an error
+
+		  }
+		};
+
+		request.onerror = function() {
+		  // There was a connection error of some sort
+		};
+		request.send();
+
 		$('#countryPicker').change(function () {
 			selectedCountryCode = $(this).find("option:selected").attr('value');
 			filterItems(selectedCountryCode, filterFreePlans, filterHosting);
