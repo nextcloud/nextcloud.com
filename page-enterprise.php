@@ -130,6 +130,64 @@
         <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/architecture-thumbnail-banner.png"/>
     </div>
 </section>
+
+<section class="section--whitepaper quote">
+	<div class="container revealOnScroll">
+        <div class="row">
+			<div class="col-lg-8">
+                <h2 class="revealOnScroll"><?php echo $l->t('How the TU Berlin delivers file sync and share to 22.000 users');?></h2>
+                <form name="whitepaper" method="post" action="../tuberlin-whitepapersubmit">
+                    <p><label for="email"><?php echo $l->t('Download our free case study: <br /> TU Berlin and 9 other institutions migrate to Nextcloud');?><br>
+                    <td colspan="2" style="text-align:center">
+                    <div class="">
+                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                    </div>
+                    </td>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large" type="submit" value=" Get the case study "></p>
+                </form>
+            </div>
+        </div>
+        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/tub-thumbnail-banner.png"/>
+	</div>
+</section>
+
+
+<section class="section--customers">
+<div class="container">
+    <h2 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Nextcloud in Education');?></h2>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+            <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('With the Nextcloud Education Edition a unique offering is available providing Moodle integration, Zenodo publishing, SAML authentication, collaboration features and more.');?></p>
+		</div>
+	</div>
+    <div class="row">
+		<div class="col-sm-3 customer">
+            <div class="customer-logo">
+                <div class="scaling-svg-container">
+            <a href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/"><?php echo file_get_contents(get_template_directory_uri()."/assets/img/customers/tuberlin.svg") ?></a>
+                </div>
+            </div>
+        </div>
+		<div class="col-sm-3 customer">
+            <div class="customer-logo">
+            <a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/regioit.png" /></a>
+            </div>
+        </div>
+        <div class="col-sm-3 customer">
+            <div class="customer-logo">
+            <a href="https://nextcloud.com/blog/the-danish-research-and-education-network-moves-from-owncloud-to-nextcloud/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/deic.jpg" /></a>
+            </div>
+        </div>
+        <div class="col-sm-3 customer">
+            <div class="customer-logo">
+            <a href="http://my.engineering.queensu.ca/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/queens.png" /></a>
+            </div>
+        </div>
+        <div class="text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/education">Learn more</a></div>
+    </div>
+</div>
+</section>
+
 <section class="slideshow" id="slideshow">
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>

@@ -133,6 +133,13 @@
     margin-bottom: 0px;
 }
 
+.quote {
+	.container {
+	padding-top: 50px !important;
+	margin-top: 180px !important;
+	}
+}
+
 .section--compare {
     padding-bottom: 100px;
 }
@@ -141,4 +148,66 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 60px 0;
+}
+
+.section--customers {
+	position: relative;
+    .container {
+	padding-top: ms(5);
+	p {
+		margin-top: 30px;
+	}
+
+	}
+	.customer {
+		position: relative;
+		.customer-logo {
+			float: center;
+			height: 400px;
+			position: relative;
+			line-height: 400px;
+			text-align:center;
+			width: 100%;
+			max-width: 60vw;
+			margin-left: auto;
+			margin-right: auto;
+			vertical-align: middle;
+			img {
+				max-width: 90%;
+				vertical-align: middle;
+			}
+			.scaling-svg-container {
+/* 				position: relative; */
+				height: 0;
+				width: 100%;
+				padding: 0;
+				padding-bottom: 100%;
+				/* override this inline for aspect ratio other than square */
+				}
+			svg {
+				position: absolute;
+				height: 100%;
+				width: 100%;
+		/* 		max-width: 50vw; */
+				left: 0;
+				top: 0;
+				}
+			@media (max-width: $break-big) {
+				height: 300px;
+				line-height: 300px;
+			}
+			@media (max-width: $break-small) {
+				height: 200px;
+				line-height: 200px;
+			}
+
+/*			svg {
+				vertical-align: middle;
+				float:none;
+				width: auto;
+				height: 400px;
+				padding-bottom: 100px;
+			}*/
+		}
+	}
 }
