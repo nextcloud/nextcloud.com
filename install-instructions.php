@@ -83,6 +83,9 @@
 							<h4><?php echo $l->t('Grab the Nextcloud virtual machine image from the Tech and Me website:');?></h4>
 							<p><?php echo $l->t('<a class="btn btn-primary" href="https://www.techandme.se/nextcloud-vm/">Instructions and download</a>');?></p>
 							<p><?php echo $l->t('Find <a class="hyperlink" href="https://github.com/nextcloud/vm">source here</a>.');?></p>
+							<p><?php echo $l->t('Together with Nextcloud, Univention offers an appliance with Nextcloud built on the Univention Corporate Server.');?></p>
+							<h4><?php echo $l->t('Find the UCS appliance in the App Catalog:');?></h4>
+							<p><?php echo $l->t('<a class="btn btn-primary" href="https://www.univention.com/products/univention-app-center/app-catalog/nextcloud/">Instructions and download</a>');?></p>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
