@@ -67,7 +67,7 @@ function roots_theme_activation_options_render_page() { ?>
                 <option value="false"><?php echo _e('No', 'roots'); ?></option>
               </select>
               <br>
-              <small class="description"><?php printf(__('Create a page called Home and set it to be the static front page', 'roots')); ?></small>
+              <small class="description"><?php printf(__('Create a page called Homepage and set it to be the static front page', 'roots')); ?></small>
             </fieldset>
           </td>
         </tr>
@@ -144,7 +144,7 @@ function roots_theme_activation_action() {
   if ($roots_theme_activation_options['create_front_page'] === 'true') {
     $roots_theme_activation_options['create_front_page'] = false;
 
-    $default_pages = array('Home');
+    $default_pages = array('Homepage');
     $existing_pages = get_pages();
     $temp = array();
 
@@ -165,7 +165,7 @@ function roots_theme_activation_action() {
       $result = wp_insert_post($add_default_pages);
     }
 
-    $home = get_page_by_title('Home');
+    $home = get_page_by_title('Homepage');
     update_option('show_on_front', 'page');
     update_option('page_on_front', $home->ID);
 
