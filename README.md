@@ -18,8 +18,6 @@ process easy and effective for everyone involved.
   * Select the `content.xml` file from the repository and click upload
   * Select Import
 5. Copy over `config.php.sample` to `config.php` and adjust settings as necessary (defaults will work just fine for local environments)
-6. In `Settings > Reading` assign a static front page of 'homepage'
-7. In `Settings > Permalink` assign the `Post name` setting
 
 ## Development Process
 
@@ -27,8 +25,8 @@ process easy and effective for everyone involved.
 * Setup your local development environment using the instructions above, changing the remote origin url
 * Submit a pull request to master, on github once the feature/bugfix is complete (this is so we can test it on the staging server)
 * After review (usually following one or two thumbs up), a developer will permit the merge into master
-* Code will be pulled onto staging.nextcloud.com for testing (this has to be set up still but the goal is to have this work automatically) 
-* Once the test looks good, staging will be cloned over to nextcloud.com - this is handled by @jospoortvliet or the Nextcloud sysadmins including @LukasReschke 
+* Code will be pulled onto staging.nextcloud.com for testing (this has to be set up still but the goal is to have this work automatically)
+* Once the test looks good, staging will be cloned over to nextcloud.com - this is handled by @jospoortvliet or the Nextcloud sysadmins including @LukasReschke
 
 ### Notes
 
