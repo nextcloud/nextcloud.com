@@ -14,12 +14,14 @@ $l = new L10N('footer');
                 <li><a href="<?php echo home_url('events') ?>"><?php echo($l->t('Events')) ?></a></li>
                 <li><a href="<?php echo home_url('jobs') ?>"><?php echo($l->t('Jobs')) ?></a></li>
                 <li><a href="<?php echo home_url('/community/code-of-conduct/') ?>"><?php echo($l->t('Code of conduct')) ?></a></li>
-                <li><a href="<?php echo home_url('privacy') ?>"><?php echo($l->t('Privacy and legal')) ?></a></li>
+                <li><a href="<?php echo home_url('privacy') ?>"><?php echo($l->t('Privacy')) ?></a></li>
+                <li><a href="<?php echo home_url('privacy') ?>"><?php echo($l->t('Imprint')) ?></a></li>
             </ul>
         </div>
         <div class="col-sm-3">
             <h1  class="revealOnScroll"><?php echo($l->t('Resources')) ?></h1>
             <ul class="revealOnScroll">
+                <li><a href="<?php echo home_url('install') ?>"><?php echo $l->t('Download') ?></a></li>
                 <li><a href="https://apps.nextcloud.com"><?php echo $l->t('App Store') ?></a></li>
                 <li><a href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Admin manual') ?></a></li>
                 <li><a href="<?php echo $DOCUMENTATION_USER; ?>"><?php echo $l->t('User manual') ?></a></li>
@@ -34,6 +36,7 @@ $l = new L10N('footer');
                 <li><a href="<?php echo home_url('support') ?>"><?php echo($l->t('Support')) ?></a></li>
                 <li><a href="https://webchat.freenode.net/?channels=nextcloud"><?php echo $l->t('IRC Channel') ?></a></li>
                 <li><a href="https://help.nextcloud.com/categories"><?php echo $l->t('Forums') ?></a></li>
+                <li><a href="https://demo.nextcloud.com"><?php echo $l->t('Demo') ?></a></li>
                 <li><a href="<?php echo home_url('contact') ?>"><?php echo $l->t('Contact us') ?></a></li>
                 <li><a href="<?php echo home_url('press') ?>"><?php echo $l->t('Press center') ?></a></li>
                 <li><a href="https://docs.nextcloud.com/server/10/developer_manual/bugtracker/index.html"><?php echo $l->t('Bug Tracker') ?></a></li>
@@ -53,7 +56,7 @@ $l = new L10N('footer');
         </div>
     <div class="row">
 		<div class="col-sm-12 text-center">
-		<p  class="revealOnScroll"><a href="https://github.com/nextcloud/nextcloud.com">AGPLv3</a> &copy; </font> <?php echo date('Y'); ?> Nextcloud, <small><a href="/impressum"><?php echo $l->t('Legal Notice') ?></a></small></p>
+		<p  class="revealOnScroll">&copy; </font> <?php echo date('Y'); ?> Nextcloud GmbH</p>
 		</div>
 	</div>
   </div>
