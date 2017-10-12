@@ -41,14 +41,14 @@
 <a name="expertise" id="expertise"></a>
 <section class="section--expertise">
 	<div class="container">
-		<p class="section--intro text-center revealOnScroll">Matter experts</p>
-		<h3 class="section--heading-1 text-center revealOnScroll">Dedicated to your success</h3>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Matter experts');?></p>
+		<h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Dedicated to your success');?></h3>
 		<div class="ilustration ilustration__expertise">
 			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/ilustration_matterexperts-new.svg"); ?>
 		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We are dedicated to your success as Nextcloud customer. An analysis of your needs, a pilot customized for your architecture and remote installation support ensures a smooth introduction of Nextcloud in your organization and we will help you scale up to meet growing demand in your organization.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud GmbH employs <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-the-most-active-open-source-file-sync-and-share-project/">9 of the top-ten developers in the Nextcloud Server codebase</a>, making our engineering team by far the most qualified to help you get the most out of your Enterprise File Sync and Share solution.');?></p>
-		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/team">Our team</a></p>
+		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/team"><?php echo $l->t('Our team');?></a></p>
 	</div>
 </section>
 
@@ -64,7 +64,7 @@
 		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud develops its software with a rigorous focus on security through the entire life cycle of the product. Our active and passive security measures are backed by the some of the highest security bug bounties in the open source industry.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('As customer you get direct access to our security expertise, with hardening advice and ahead-of-release security issue mitigation and fixes.');?></p>
-		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/secure">Learn about security</a></p>
+		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/secure"><?php echo $l->t('Learn about security');?></a></p>
 	</div>
 </section>
 
@@ -80,7 +80,7 @@
 		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('A Nextcloud support subscription gives you access to enterprise-ready software, updates, and information and support services that span your entire OS and application infrastructure life cycle and architecture. You can count on receiving the latest product versions with the stability and security you need.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Working with data is essential for your business and being forced on the upgrade threadmill is disruptive to your organization. With access to up to 15 years security and stability updates to Nextcloud, we match the lifecycle of your operating system so you can schedule upgrades when it works for you and secure the investments you did in your existing platform.');?></p>
-		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/pricing">See pricing</a></p>
+		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/pricing"><?php echo $l->t('See pricing');?></a></p>
 	</div>
 </section>
 
@@ -96,7 +96,7 @@
 		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Our unique Nextcloud Global Scale architecture delivers a true globally scalable solution for deployments with hundreds of millions of users, giving unprecedented control over the locality of data and delivering dramatic cost reduction.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud Global Scale was designed to lift enterprise collaboration to a new level, overcoming limitations in building large scale file storage, sync & share solutions. Nextcloud Global Scale works by decentralizing data to independent nodes, using several new components to manage the interactions between servers.');?></p>
-		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/globalscale">Learn more</a></p>
+		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/globalscale"><?php echo $l->t('Learn more');?></a></p>
 	</div>
 </section>
 
@@ -122,7 +122,7 @@
                         <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
                     </div>
                     </td>
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--large" type="submit" value=" Get the whitepaper "></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="<?php echo $l->t('Enter your email');?>"></label> <input class="button button--blue button--large" type="submit" value=" <?php echo $l->t('Get the whitepaper');?> "></p>
                 </form>
             </div>
         </div>
@@ -142,7 +142,7 @@
                         <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
                     </div>
                     </td>
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large" type="submit" value=" Get the case study "></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="<?php echo $l->t('Enter your email');?>"></label> <input class="button button--large" type="submit" value=" <?php echo $l->t('Get the case study');?> "></p>
                 </form>
             </div>
         </div>
