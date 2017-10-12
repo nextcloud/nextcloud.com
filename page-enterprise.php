@@ -105,13 +105,12 @@
 
 <section class="section--whitepaper">
     <div class="container">
-        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Well fitting');?></p>
+        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('What you need');?></p>
         <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Nextcloud Enterprise Capabilities');?></h2>
         <div class="row">
             <div class="col-md-6 revealOnScroll">
                 <h3 class=""><?php echo $l->t('Deep integration in your infrastructure');?></h3>
                 <p><?php echo $l->t('Nextcloud offers LDAP/Active Directory, SAML and Kerberos authentication. It accesses data on NFS, (s)FTP, WebDAV, Windows Network Drive, Object Stores like SWIFT and many others.');?></p>
-                <p><?php echo $l->t('Download our Architecture whitepaper or scroll down for a summary of key Nextcloud features.');?></p>
             </div>
         </div>
         <div class="row">
@@ -135,7 +134,7 @@
 	<div class="container revealOnScroll">
         <div class="row">
 			<div class="col-lg-8">
-                <h2 class="revealOnScroll"><?php echo $l->t('How the TU Berlin delivers file sync and share to 22.000 users');?></h2>
+                <h2 class="revealOnScroll"><?php echo $l->t('<span class="avoidwrap">How the TU Berlin delivers</span> <span class="avoidwrap">file sync and share</span> <span class="avoidwrap">to 22.000 users</span>');?></h2>
                 <form name="whitepaper" method="post" action="../tuberlin-whitepapersubmit">
                     <p><label for="email"><?php echo $l->t('Download our free case study: <br /> TU Berlin and 9 other institutions migrate to Nextcloud');?><br>
                     <td colspan="2" style="text-align:center">
