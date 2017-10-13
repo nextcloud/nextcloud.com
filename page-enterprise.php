@@ -5,7 +5,14 @@
 	});
 </script>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/enterprise.css" rel="stylesheet">
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
+<script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
+<script type="text/javascript">
+    var CaptchaCallback = function() {
+        grecaptcha.render('RecaptchaField1', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField2', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+    };
+</script>
 </head>
 
 <section class="enterprise-hero-section second-menu">
@@ -119,7 +126,7 @@
                     <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper!');?><br>
                     <td colspan="2">
                     <div class="">
-                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                        <div id="RecaptchaField1"></div>
                     </div>
                     </td>
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="<?php echo $l->t('Enter your email');?>"></label> <input class="button button--blue button--large" type="submit" value=" <?php echo $l->t('Get the whitepaper');?> "></p>
@@ -139,7 +146,7 @@
                     <p><label for="email"><?php echo $l->t('Download our free case study: <br /> TU Berlin and 9 other institutions migrate to Nextcloud');?><br>
                     <td colspan="2" style="text-align:center">
                     <div class="">
-                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                        <div id="RecaptchaField2"></div>
                     </div>
                     </td>
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="<?php echo $l->t('Enter your email');?>"></label> <input class="button button--large" type="submit" value=" <?php echo $l->t('Get the case study');?> "></p>
