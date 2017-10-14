@@ -1,7 +1,7 @@
 <h2><?php echo $l->t('Contribute to Nextcloud design!');?></h2>
 <ul>
 	<li><?php echo $l->t('We have a <a href="https://github.com/nextcloud/server/issues?labels=Design">Design label on GitHub</a> – check out these issues if you want to help and fix interface problems. This label is also in the other repositories for clients and apps.');?></li>
-	<li><?php echo $l->t('For easier issues and to get started, check out the <a href="https://github.com/nextcloud/core/issues?labels=Design%2CJunior+Job">Design issues also marked »Junior Job«</a>');?></li>
+	<li><?php echo $l->t('For easier issues and to get started, check out the <a href="https://github.com/nextcloud/core/issues?labels=Design%2Cstarter+issue">Design issues also marked »starter issue«</a>');?></li>
 	<li><?php echo $l->t('<a href="https://github.com/nextcloud/server/issues?labels=Design,High">High priority design issues</a> are additionally marked with the »High« label – these we need to prioritize, and fixing any of those will make you everyone’s hero!');?></li>
 </ul>
 
