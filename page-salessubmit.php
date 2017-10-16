@@ -20,13 +20,22 @@
 <?php
 if(isset($_POST['email'])) {
    function died($error) {
-    // error code goes here
-        echo "We are very sorry, but there were error(s) found with the form you submitted: ";
-        echo "<br />";
-        echo $error."<br />";
-        echo "Please go back and fix these errors.<br />";
-        die();
-    }
+   	// error code goes here
+    ?>
+            <section class="section--whitepaper">
+                <div class="container text-center">
+                    <h3>Sorry, there was an error with the form you submitted</h3>
+                    <p>The error(s) detected:<br/>
+                        <?php
+                        echo $error . "<br />";
+                        ?>
+                    </p>
+                    <p>Use the back key to go to the previous page and fix the
+                        issue!</p>
+                </div>
+            </section>
+            <?php
+        }
     // validation expected data exists
     if(!isset($_POST['yourname']) ||
         !isset($_POST['email']) ||
@@ -88,13 +97,14 @@ if(isset($_POST['email'])) {
 
   if(strlen($error_message) > 0) {
     died($error_message);
-  }
-    $email_message = "Quote request form details below.\n\n";
-        function clean_string($string) {
-      $bad = array("content-type","bcc:","to:","cc:","href");
-      return str_replace($bad,"",$string);
-    }
+  } else {
+		function clean_string($string) {
+			$bad = array("content-type", "bcc:", "to:", "cc:", "href");
+			return str_replace($bad, "", $string);
+		}
 // the app review mailing list address
+//     $email_to = "sales@nextcloud.com";
+    $email_message = "Quote request form details below.\n\n";
     $email_to = "sales@nextcloud.com";
 	$email_subject = "Enterprise_form quote request";
     $email_message .= "Name: ".clean_string($yourname)."\n";
@@ -124,11 +134,16 @@ if(isset($_POST['email'])) {
 //     @mail("frank@nextcloud.org", "website form", "website form", $headers);
  ?>
 
-    <!-- success html here -->
-<div class="page-header">
-	<h1>Thanks for contacting us!</h1>
-</div>
-<p>Check your inbox for a reply in the next 2 working days.</p>
-<?php
+
+  <!-- success html here -->
+    <section class="section--whitepaper">
+        <div class="container text-center">
+            <h3>Thank you for contacting us</h3>
+            <p>We received your message and will contact you on <?php echo($email_from); ?>,</p>
+            <p>check your inbox for a reply in the next 2-3 working days.</p>
+        </div>
+    </section>
+	<?php
+	}
 }
 ?>
