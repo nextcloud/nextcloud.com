@@ -73,6 +73,7 @@ if(isset($_POST['email'])) {
 // the app review mailing list address
     $email_from = "sales@nextcloud.com";
     $email_jos = "jos@nextcloud.com";
+    $email_nina = "nina@nextcloud.com";
 	$email_subject = "Nextcloud End-to-end Encryption Whitepaper download";
     $email_message .= "\n";
     $email_message .= "Thank you for your interest in our End-to-end Encryption whitepaper!"."\n\n";
@@ -89,6 +90,8 @@ if(isset($_POST['email'])) {
     @mail($email_to, $email_subject, $email_message, $headers);
 // Second email to subscribe to the mailing list
     @mail($email_jos, $email_subject, $email_to, $headers);
+// Third email to subscribe to the mailing list
+    @mail($email_nina, $email_subject, $email_to, $headers);
  ?>
 
     <!-- success html here -->
