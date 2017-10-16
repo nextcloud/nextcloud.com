@@ -16,7 +16,7 @@
 		</div>
 	</div>
 </section>
-
+<div class="container">
 <?php
 
 class ValidationException extends Exception {};
@@ -25,12 +25,22 @@ try {
 
 if(isset($_POST['email'])) {
    function died($error) {
-        // error code goes here
-        $message = "We are very sorry, but there were unable to process your submitted form: <br /><ul>";
-        $message .= $error . "</ul><br />";
-        $message .= "Please go back and check for those problems.<br />";
-        throw new ValidationException($message);
-    }
+        	// error code goes here
+    ?>
+            <section class="section--whitepaper">
+                <div class="container text-center">
+                    <h3>Sorry, there was an error with the form you submitted</h3>
+                    <p>The error(s) detected:<br/>
+                        <?php
+                        echo $error . "<br />";
+                        ?>
+                    </p>
+                    <p>Use the back key to go to the previous page and fix the
+                        issue!</p>
+                </div>
+            </section>
+            <?php
+        }
 
     // validation expected data exists
     if(!isset($_POST['yourname']) ||
@@ -284,9 +294,7 @@ if(isset($_POST['email'])) {
 
     if ($successfullySend) {
         ?>
-        <div class="page-header">
-            <h1>Thanks for ordering a Nextcloud Support Subscription!</h1>
-        </div>
+        <h1>Thanks for ordering a Nextcloud Support Subscription!</h1>
         <p>We are preparing a contract and invoice. Check your inbox for a reply in the next 5 working days.</p>
         <p>We received following details:</p><pre><?php
         echo $email_message;
@@ -296,9 +304,7 @@ if(isset($_POST['email'])) {
         // TODO: log something here
         error_log('could not send all emails - ' . $email_message . json_encode($_POST));
         ?>
-        <div class="page-header">
             <h1>Something went wrong!</h1>
-        </div>
         <p>We had some troubles processing your Nextcloud Support Subscription request. Please try again later.</p>
         <?php
     }
@@ -307,9 +313,7 @@ if(isset($_POST['email'])) {
 } catch (ValidationException $e) {
 
     ?>
-    <div class="page-header">
         <h1>Something went wrong!</h1>
-    </div>
     <p>We had some troubles processing your Nextcloud Support Subscription request.</p>
     <p>
     <?php
@@ -319,3 +323,4 @@ if(isset($_POST['email'])) {
     <?php
 }
 ?>
+</div>

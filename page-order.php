@@ -2,7 +2,7 @@
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/order.css" rel="stylesheet">
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 <!-- 	I need this for the last script on the page to work, require.js seems to not make jquery available in the page js :( -->
-	<script src='<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery.min.js'></script>
+	<script src='<?php echo get_template_directory_uri(); ?>/assets/js/old/vendor/jquery-1.10.2.min.js'></script>
 
 	<script>
 	require(["require.config"], function() {
@@ -143,7 +143,7 @@
 		}
 
 		function getUsersPrice() {
-		    var usersPrice=0;
+		    var usersPrice=1900;
 		    //Get a reference to the form id="orderform"
 		    var theForm = document.forms["orderform"];
 		    //Get a reference to the select id="users"
@@ -539,9 +539,9 @@
 			checkSubscription();
 			getTotal();
 		}
-		// 		this function listens to the submit event and adds the price to it before sending it out
 </script>
 <script>
+		// this function listens to the submit event and adds the price to it before sending it out
 		$('#orderform').submit(function(eventObj) { //listen to submit event
 			var theForm = document.forms["orderform"];
 			var inDollars = theForm.elements["dollars"];
