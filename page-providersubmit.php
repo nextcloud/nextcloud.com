@@ -19,14 +19,22 @@
 <?php
 if(isset($_POST['email'])) {
    function died($error) {
-    // error code goes here
-        echo "We are very sorry, but there were error(s) found with the form you submitted: ";
-        echo "<br />";
-        echo $error."<br />";
-        echo  $hostingurl."<br />";
-        echo "Please go back and fix these errors.<br />";
-        die();
-    }
+    	// error code goes here
+    ?>
+            <section class="section--whitepaper">
+                <div class="container text-center">
+                    <h3>Sorry, there was an error with the form you submitted</h3>
+                    <p>The error(s) detected:<br/>
+                        <?php
+                        echo $error . "<br />";
+                        ?>
+                    </p>
+                    <p>Use the back key to go to the previous page and fix the
+                        issue!</p>
+                </div>
+            </section>
+            <?php
+        }
     // validation expected data exists
     if(!isset($_POST['organization']) ||
         !isset($_POST['yourname']) ||
@@ -100,13 +108,14 @@ if(isset($_POST['email'])) {
   }
   if(strlen($error_message) > 0) {
     died($error_message);
-  }
+  } else {
+		function clean_string($string) {
+			$bad = array("content-type", "bcc:", "to:", "cc:", "href");
+			return str_replace($bad, "", $string);
+		}
+
+		// the app review mailing list address
     $email_message = "Form details below.\n\n";
-        function clean_string($string) {
-      $bad = array("content-type","bcc:","to:","cc:","href");
-      return str_replace($bad,"",$string);
-    }
-// the app review mailing list address
     $email_to = "jos@nextcloud.com";
     $email_subject = "Provider_form";
     $email_message .= "Organization: ".clean_string($organization)."\n";
@@ -129,11 +138,15 @@ if(isset($_POST['email'])) {
 //     @mail("frank@nextcloud.org", "website form", "website form", $headers);
  ?>
 
-    <!-- success html here -->
-<div class="page-header">
-	<h1>Thanks for letting us know you're providing Nextcloud to users!</h1>
-</div>
-<p>We will add you to the provider page in the next few weeks. Note that this can take a while, we're getting a lot of requests! If you have not been added within 4 weeks, <a href="/contact">contact us</a>.</p>
-<?php
+
+  <!-- success html here -->
+    <section class="section--whitepaper">
+        <div class="container text-center">
+            <h3>Thanks for letting us know you're providing Nextcloud to users!</h3>
+            <p>We will add you to the provider page in the next few weeks. Note that this can take a while, we're getting a lot of requests! If you have not been added within 4 weeks, <a href="/contact">contact us</a>.</p>
+        </div>
+    </section>
+	<?php
+	}
 }
 ?>
