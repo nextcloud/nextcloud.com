@@ -82,12 +82,12 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/olivier.jpg" />
 				<h2 class="teamname">Olivier Paroz</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Senior Solutions Consultant</h3>
-					<h4 class="teamexpertise">Business solutions, Multimedia and Embedded</h4>
-					<h4 class="teamlocation">lives in Lausanne, Switzerland</h4>
+					<h3 class="teamtitle">Head of Professional Services</h3>
+					<h4 class="teamexpertise">Consulting and Sales</h4>
+					<h4 class="teamlocation">lives in Basel, Switzerland</h4>
 					<p class="teamsocial"><a href="https://www.linkedin.com/in/olivierparoz"><i class="fa-rss fa"></i></a> <a href="https://github.com/oparoz"><i class="fa-github fa"></i></a> <a href="https://twitter.com/oparoz"><i class="fa-twitter fa"></i></a></p>
 				</div>
-				<p class="teamdescription">Olivier studied Economics and Information and Communications Systems Management at the University of Geneva. He contributed to ownCloud for several years and has 15 years experience in delivering strategic solutions with a focus on open source, security and privacy for customers in industries as diverse as telecom, media, insurance, retail, broadcasting, sports and science.</p>
+				<p class="teamdescription">Olivier studied Economics and Information and Communications Systems Management at the University of Geneva. He contributed to ownCloud for several years and has close to 20 years experience in Consulting, Business Development and large scale deployments. He has helped customers in a broad range of industies both in the private and public sector, with a focus on open source, usability, security and privacy.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
