@@ -4,6 +4,17 @@
 $l = new L10N('footer');
 
 ?>
+<div class="alert alert--no-js">
+  <div class="container">
+		<?php echo file_get_contents(get_template_directory_uri()."/assets/img/warning.svg"); ?>
+    <p><strong>You have javascript disabled.</strong> We tried to make sure the basics of our website work but some functionality will be missing.</p>
+  </div>
+</div>
+
+<script>
+	document.querySelector(".alert--no-js").remove();
+</script>
+
 <footer class="page-footer">
     <div class="container">
         <div class="col-sm-3">

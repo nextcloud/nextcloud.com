@@ -1,8 +1,12 @@
+@import '../variables';
+
 .alert {
   padding: 15px 0;
-  position: relative;
   width: 100%;
   margin: 0;
+  position: fixed;
+  bottom: 0px;
+  z-index: 100;
 
   .container {
     display: -webkit-box;
