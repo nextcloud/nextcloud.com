@@ -32,7 +32,7 @@
 
 	<script>
 	require(["require.config"], function() {
-		require(["modules/header", "main", "modernizr"])
+		require(["modules/header", "main", "modernizr", "modules/cookieconsent"])
 	});
 	</script>
 
