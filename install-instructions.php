@@ -85,7 +85,7 @@
 							<p><?php echo $l->t('Find <a class="hyperlink" href="https://github.com/nextcloud/vm">source here</a>.');?></p>
 							<br>
 							<h5><?php echo $l->t('Small and medium enterprise appliance');?></h5>
-							<p><?php echo $l->t('Univention offers an appliance with Nextcloud (maintained by Nextcloud) built on the Univention Corporate Server.');?></p>
+							<p><?php echo $l->t('Univention offers an appliance with Nextcloud (maintained by Nextcloud) built on the Univention Corporate Server (UCS).');?></p>
 							<p><?php echo $l->t('<a class="btn btn-lg btn-primary" href="https://www.univention.com/products/univention-app-center/app-catalog/nextcloud/">UCS Appliance download</a>');?></p>
 						</div>
 						<div class="col-md-6">
