@@ -4,6 +4,16 @@
 $l = new L10N('footer');
 
 ?>
+
+<div class="cookiewarning" id="cookieConsent">
+    <div id="closeCookieConsent">x</div>
+    <div class="container">
+        <div class="col-md-6 col-md-offset-3">
+            This website is using cookies. <a href="/privacy" target="_blank">More info</a>. <a class="cookieConsentOK">That's Fine</a>
+        </div>
+    </div>
+</div>
+
 <footer class="page-footer">
     <div class="container">
         <div class="col-sm-3">
