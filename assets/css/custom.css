@@ -3629,11 +3629,16 @@ h5 {
 .hljs-attribute {
   color: #e6550d; }
 
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 .alert {
   padding: 15px 0;
-  position: relative;
   width: 100%;
-  margin: 0; }
+  margin: 0;
+  position: fixed;
+  bottom: 0px;
+  z-index: 100; }
   .alert .container {
     display: -webkit-box;
     display: -ms-flexbox;
