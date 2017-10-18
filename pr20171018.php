@@ -3,16 +3,16 @@
 
 <p>SAN FRANCISCO, Calif., October 18, 2017 - Purism, maker of security-focused computing devices, is partnering with Nextcloud for a series of products and services. Nextcloud, author of a popular open-source self hosted, privacy-focused file sync and share solution, is looking to expand and become a default on Purism’s mobile and desktop computing products.</p>
 
-<p>Purism, fresh off of successfully meeting their crowdfunding goal of $1.5 million to build and deliver the Librem 5, adds another partner in Nextcloud, fresh off the announcement of new end-to-end encryption upgrades in Nextcloud 13. This partnership adds to Purism's roster of open-source partners will aim to make the Librem 5 the most comprehensive free open-source smartphone to ever hit the market.
+<p>Purism, fresh off of successfully meeting their crowdfunding goal of $1.5 million to build and deliver the Librem 5, adds another partner in Nextcloud, fresh off the announcement of new end-to-end encryption upgrades in Nextcloud 13. This partnership adds to Purism's roster of open-source partners will aim to make the Librem 5 the most comprehensive free open-source smartphone to ever hit the market.</p>
+    
+<p><blockquote>"Having Nextcloud applications built into the Librem 5, as well as default within PureOS, will help people have a convenient, ethical encrypted file storage service alongside other easy-to-use defaults"</blockquote> says Todd Weaver, Founder and CEO of Purism.</p>
 
-<em>"Having Nextcloud applications built into the Librem 5, as well as default within PureOS, will help people have a convenient, ethical encrypted file storage service alongside other easy-to-use defaults"</em> says Todd Weaver, Founder and CEO of Purism.</p>
-
-<p><em>"Partnering with Purism gets our software directly into the hands of customers, making their lives easier with security and privacy protection built-in"</em> says Jos Poortvliet, Co-founder and Head of Marketing at Nextcloud.
+<p><blockquote>"Partnering with Purism gets our software directly into the hands of customers, making their lives easier with security and privacy protection built-in"</blockquote> says Jos Poortvliet, Co-founder and Head of Marketing at Nextcloud.
 </p>
 
-<p>Purism plans to include Nextcloud in the Librem 5 phone, as well as within PureOS for its Librem 13 and Librem 15 laptops. Additionally, Purism will be discussing with Nextcloud about a future Purism NAS that runs completely free software including Nextcloud and services.
+<p>Purism plans to include Nextcloud in the Librem 5 phone, as well as within PureOS for its Librem 13 and Librem 15 laptops. Additionally, Purism will be discussing with Nextcloud about a future Purism NAS that runs completely free software including Nextcloud and services.</p>
 
-<em>"Nextcloud follows our strict beliefs in digital rights for people, and this partnership is a clear win for users by merging convenience and ethics together into simple products"</em> adds Weaver.
+<p><blockquote>"Nextcloud follows our strict beliefs in digital rights for people, and this partnership is a clear win for users by merging convenience and ethics together into simple products"</blockquote> adds Weaver.
 </p>
 
 <p><strong>About Purism</strong><br />
