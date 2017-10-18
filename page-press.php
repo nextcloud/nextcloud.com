@@ -4,6 +4,7 @@
 <!-- <a href="/nine" class="btn btn-lg btn-default">Overview of new features</a> -->
 <h2>Press releases</h2>
 <ul>
+    <li><a href="/press/pr20171018/">Nextcloud and Purism Partner to Build and Include End-to-End Encrypted Storage Products and Services</a></li>
     <li><a href="/press/pr20170927/">Nextcloud Launches First Native Integrated End-to-end Encryption in Enterprise File Sync and Share Solution</a></li>
     <li><a href="/press/pr20170824/">Nextcloud iOS app Free for Download on App Store</a></li>
 	<li><a href="/press/pr20170807/">Nextcloud and Partners Announce Education Edition With Moodle, Zenodo and other integration features</a></li>

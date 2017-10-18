@@ -15,6 +15,15 @@ $l = new L10N('footer');
 	document.querySelector(".alert--no-js").remove();
 </script>
 
+<div class="cookiewarning" id="cookieConsent">
+    <div id="closeCookieConsent">x</div>
+    <div class="container">
+        <div class="text-center">
+            This website is <a href="/privacy" target="_blank">using cookies</a>. <a class="cookieConsentOK">That's Fine</a>
+        </div>
+    </div>
+</div>
+
 <footer class="page-footer">
     <div class="container">
         <div class="col-sm-3">

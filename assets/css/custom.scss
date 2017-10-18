@@ -32,6 +32,7 @@
 @import 'modules/slideshow';
 @import 'modules/secondmenu';
 @import 'modules/hero';
+@import 'modules/cookieconsent';
 
 
 // To remove everything above and split in other files
@@ -41,7 +42,7 @@
   font-size: 3.79688em !important;
   line-height: 120%;
   font-weight: 500; }
-  @media (max-width: 768px) {
+  @media (max-width: $break-small) {
     .jumbotron--heading-1 {
       font-size: 34px !important;
       line-height: 1 !important;
@@ -51,7 +52,7 @@
   color: white;
   line-height: 1.6;
   font-weight: 500; }
-  @media (max-width 768px) {
+  @media (max-width $break-small) {
     .jumbotron--lead {
       font-size: 16px; } }
 .benefits { /* benefits section with big image on the right & check list left */
@@ -116,7 +117,7 @@
   line-height: 1.2;
   margin: 0;
   color: #333333; }
-  @media (max-width: 768px) {
+  @media (max-width: $break-small) {
     .section--heading-1 {
       font-size: 2.53125em;
       line-height: 1;
@@ -125,7 +126,7 @@
   font-size: 2.53125em;
   font-weight: 300;
   color: #333333; }
-  @media (max-width: 768px) {
+  @media (max-width: $break-small) {
     .section--heading-2 {
       font-size: 2.53125em;
       line-height: 1.2;
@@ -247,7 +248,7 @@ h5 {
         padding-top: 50px;
         padding-bottom: 203px;
         margin-left: -13px; } }
-    @media (max-width: 768px) {
+    @media (max-width: $break-small) {
       .slideshow .container .container-image-center {
         padding-bottom: 260px; } }
     @media (max-width: 600px) {
@@ -380,7 +381,7 @@ h5 {
   .slideshow .active {
     opacity: 1; }
 
-@media (max-width: 768px) {
+@media (max-width: $break-small) {
   .slideshow-mobile .text-container {
     padding-top: 80px; }
   .slideshow-mobile .carousel-control {
@@ -420,7 +421,7 @@ h5 {
   @media (min-width: 1200px) {
     .slideshow-mobile {
       display: none; } }
-  @media (max-width: 768px) {
+  @media (max-width: $break-small) {
     .slideshow-mobile {
       height: 800px; }
       .slideshow-mobile img {
@@ -458,7 +459,7 @@ h5 {
     border-radius: 23px;
     opacity: .5;
     filter: alpha(opacity=50); }
-    @media (max-width: 768px) {
+    @media (max-width: $break-small) {
       .slideshow-mobile .carousel-fade .carousel-control {
         top: 20%; } }
     .slideshow-mobile .carousel-fade .carousel-control .glyphicon {
@@ -587,7 +588,7 @@ footer.page-footer {
     font-size: 15px;
     line-height: 1.8;
     color: #ffffff; }
-    @media (max-width: 768px) {
+    @media (max-width: $break-small) {
       footer.page-footer p {
         float: left;
         padding-left: 15px; } }
@@ -595,12 +596,12 @@ footer.page-footer {
       color: #ffffff; }
       footer.page-footer p a:hover {
         color: #ffffff; }
-  @media (min-width: 768px) and (max-width: 1600px) {
+  @media (min-width: $break-small) and (max-width: 1600px) {
     footer.page-footer .container {
       width: 90%;
       max-width: 900px; } }
 
-@media (max-width: 768px) {
+@media (max-width: $break-small) {
   footer.page-footer {
     height: 100%;
     padding-top: 40px;
@@ -911,7 +912,7 @@ blockquote {
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
-	@media (min-width: 768px) {
+	@media (min-width: $break-small) {
 		.container-widest {
 		width: 738px;
 	}
@@ -970,7 +971,7 @@ blockquote {
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
     background-color: #0073B2; }
 
-@media (max-width: 768px) {
+@media (max-width: $break-small) {
   .btn-primary {
     padding: 20px 70px 20px 50px;
     font-size: 15px; }
@@ -979,7 +980,7 @@ blockquote {
 /**
  * Mobile
  */
-@media (max-width: 768px) {
+@media (max-width: $break-small) {
   h1 {
     font-size: 35px;
     line-height: 120%;
