@@ -825,7 +825,8 @@ li {
           color: #333333; }
       .button--dropdown .dropdown-content:hover {
         opacity: 1;
-        visibility: visible; }
+        visibility: visible;
+		z-index: 2;}
   .button--large {
     height: 60px;
     line-height: 60px;
