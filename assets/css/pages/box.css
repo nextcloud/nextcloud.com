@@ -7,19 +7,19 @@
   position: absolute; }
 
 .section-top-jumbotron {
-  height: 531px;
-  background-color: #252323; }
+  background-color: #252323;
+  position: relative; }
   .section-top-jumbotron .container h2 {
     color: white;
-    padding-top: 150px;
+    padding: 150px 0 75px 0;
     line-height: 1.4; }
   .section-top-jumbotron .container .box {
+    position: relative;
+    z-index: 2;
     background: url("../../img/box/box_front.png") no-repeat;
     width: 689px;
     height: 569.8px;
-    margin: 0 auto;
-    margin-top: 80px;
-    position: relative; }
+    margin: 0 auto -300px auto; }
 
 .section-data-home {
   background-color: white;
@@ -48,11 +48,10 @@
       height: 476px;
       margin-top: 120px; }
     .section-technology .container .wrapper-text {
-      margin-top: 120px; }
+      margin-top: 50px; }
 
 .section-video {
   padding-top: 100px;
-  /* 	padding-bottom: 100px; */
   height: 100%;
   width: 100%;
   background-color: white; }
@@ -160,11 +159,16 @@
 
 @media (max-width: 991px) {
   .section-data-home h2 {
-    padding-top: 350px; }
+    padding-top: 120px; }
 
   .section-getbox {
     padding-top: 100px;
     height: 450px; }
+    .section-getbox .container .box-open {
+      width: 325px;
+      height: 238px;
+      margin-top: 60px;
+      background-size: contain; }
     .section-getbox .container .wrapper-text {
       margin-top: 60px; }
       .section-getbox .container .wrapper-text h2 {
@@ -181,19 +185,21 @@
       height: 242px;
       background-repeat: no-repeat;
       background-size: contain;
-      margin-top: -200px; } }
+      margin-top: -200px; }
+
+  .section-technology .container .box-open {
+    width: 293px;
+    height: 214px;
+    margin-top: 60px;
+    background-size: contain; } }
 @media (max-width: 768px) {
   .section-top-jumbotron .container {
     height: 100%; }
     .section-top-jumbotron .container .box {
-      width: 100%;
-      height: 100%;
-      margin: 0 auto;
-      background-size: contain;
-      margin-top: 120px; }
-
-  .section-data-home h2 {
-    padding-top: 180px; }
+      width: 271px;
+      height: 228px;
+      margin-bottom: -114px;
+      background-size: contain; }
 
   .section-tecnology {
     padding-top: 60px;
@@ -236,8 +242,8 @@
   .section-how-to-box {
     padding-top: 50px; }
     .section-how-to-box .container .assembly {
-      width: 319px;
-      height: 270px;
+      width: 287px;
+      height: 243px;
       background-size: contain; }
     .section-how-to-box .container .btn-primary {
       padding: 20px 50px 20px 50px; }
