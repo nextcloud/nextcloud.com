@@ -1,12 +1,18 @@
-<?php get_template_part('templates/page', 'header'); ?>
+<head>
+	<link class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/fourohfour.css" rel="stylesheet">
+</head>
 
-<div class="alert alert-warning">
-  <p>Sorry, but the page you were trying to view does not exist.</p>
-</div>
-<div class="row">
-	<div class="span12">
-		<p>We're setting up a new site, perhaps you can use the search to find what you're looking for:</p>
+<section class="fourohfour">
+
+	<div class="container">
+
+		<h1>404</h1>
+		<h2>Page Not Found</h2>
+
+		<p>Sorry, but the page you were trying to view does not exist. Try searching instead:</p>
+
+		<?php get_search_form(); ?>
+
 	</div>
-</div>
 
-<?php get_search_form(); ?>
+</section>
