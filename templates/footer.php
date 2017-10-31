@@ -15,7 +15,7 @@ $l = new L10N('footer');
                 <li><a href="<?php echo home_url('jobs') ?>"><?php echo($l->t('Jobs')) ?></a></li>
                 <li><a href="<?php echo home_url('/community/code-of-conduct/') ?>"><?php echo($l->t('Code of conduct')) ?></a></li>
                 <li><a href="<?php echo home_url('privacy') ?>"><?php echo($l->t('Privacy')) ?></a></li>
-                <li><a href="<?php echo home_url('privacy') ?>"><?php echo($l->t('Legal notice')) ?></a></li>
+                <li><a href="<?php echo home_url('impressum') ?>"><?php echo($l->t('Legal notice')) ?></a></li>
             </ul>
         </div>
         <div class="col-sm-3">
