@@ -105,6 +105,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mathias.jpg" />
+				<h2 class="teamname">Mathias Conradt</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Senior Sales Engineer</h3>
+					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+					<p class="teamsocial"><a href="https://conradt.de/"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/mathiasconradt/"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Mathias_Conradt"><i class="fa-xing fa"></i></a>
+						<a href="https://twitter.com/mathiasconradt"><i class="fa-twitter fa"></i></a> <a href="https://github.com/mathiasconradt"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Mathias has 19 years entrepreneurial experience in software engineering and IT project management (Scrum, PRINCE2, ITIL), thereof 7 years in Hong Kong and China. Always focused on open source and free software, he previously worked with many other open source document and content management solutions for large customers such as Bayer, Vodafone, China Telecom, OTTO and many others.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/patrick.jpg" />
 				<h2 class="teamname">Patrick Walther</h2>
 				<div class="teammeta">
