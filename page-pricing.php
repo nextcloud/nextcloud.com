@@ -5,12 +5,7 @@
 		require(["pages/pricing", "modules/submenu", "bootstrap"])
 	});
 	</script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<script>
-
-</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <section class="pricing-hero-section second-menu">
@@ -50,10 +45,10 @@
 				<h1 class="header"><?php echo $l->t('Features');?></h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check" title="Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers." rel="tooltip"><?php echo $l->t('File sync and share');?></li>
-					<li class="check" title="<?php echo $l->t('Nextcloud-branded iOS app available for purchase, Android and desktop apps are free.');?>" rel="tooltip"><?php echo $l->t('Mobile and desktop clients');?></li>
+					<li class="check" title="<?php echo $l->t('Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.');?>" rel="tooltip"><?php echo $l->t('File sync and share');?></li>
+					<li class="check" title="<?php echo $l->t('Nextcloud-branded iOS, Android and desktop apps are free.');?>" rel="tooltip"><?php echo $l->t('Mobile and desktop clients');?></li>
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
-					<li class="check" title="<?php echo $l->t('the AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
+					<li class="check" title="<?php echo $l->t('The AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Support for the Calendar and Contacts apps.');?>" rel="tooltip"><?php echo $l->t('Calendar and Contacts');?></li>
 				</div>
 				<h1 class="header"><?php echo $l->t('Support');?></h1>
@@ -90,9 +85,9 @@
 				<div class="line"></div>
 				<div class="list">
 					<li class="check" title="<?php echo $l->t('Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.');?>" rel="tooltip"><?php echo $l->t('File sync and share');?></li>
-					<li class="check" title="<?php echo $l->t('Nextcloud-branded iOS app available for purchase, Android and desktop apps are free. Branding optional.');?>" rel="tooltip"><?php echo $l->t('Mobile and desktop clients');?></li>
+					<li class="check" title="<?php echo $l->t('Nextcloud-branded iOS, Android and desktop apps are free. Branding optional.');?>" rel="tooltip"><?php echo $l->t('Mobile and desktop clients');?></li>
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
-					<li class="check" title="<?php echo $l->t('the AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
+					<li class="check" title="<?php echo $l->t('The AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
 					<li class="check" title="<?php echo $l->t('Support for the Calendar and Contacts apps.');?>" rel="tooltip"><?php echo $l->t('Calendar and Contacts');?></li>
 				</div>
 				<h1 class=""><?php echo $l->t('Support');?></h1>
@@ -129,9 +124,9 @@
 				<div class="line"></div>
 				<div class="list">
 					<li class="check" title="<?php echo $l->t('Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.');?>" rel="tooltip"><?php echo $l->t('File sync and share');?></li>
-					<li class="check" title="<?php echo $l->t('Nextcloud-branded iOS app available for purchase, Android and desktop apps are free. Branding optional.');?>" rel="tooltip"><?php echo $l->t('Mobile and desktop clients');?></li>
+					<li class="check" title="<?php echo $l->t('Nextcloud-branded iOS, Android and desktop apps are free. Branding optional.');?>" rel="tooltip"><?php echo $l->t('Mobile and desktop clients');?></li>
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
-					<li class="check" title="<?php echo $l->t('the AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
+					<li class="check" title="<?php echo $l->t('The AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
 					<li class="check" title="<?php echo $l->t('Support for the Calendar and Contacts apps.');?>" rel="tooltip"><?php echo $l->t('Calendar and Contacts');?></li>
 				</div>
 				<h1 class=""><?php echo $l->t('Support');?></h1>
