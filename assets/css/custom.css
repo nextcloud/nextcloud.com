@@ -4595,6 +4595,10 @@ footer.page-footer {
     max-width: 600px;
     opacity: 0; }
 
+/* make sure a hero section doesn't have a padding on top either */
+.hero-section {
+  padding-top: 0px; }
+
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
