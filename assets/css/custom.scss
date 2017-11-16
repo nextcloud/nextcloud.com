@@ -156,6 +156,22 @@
     text-decoration: none;
     color: #2a2a36; }
 
+/* To easily color text */
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+
+.blue {
+    color: $nextcloud-blue;
+}
+
+.gray {
+    color: #555;
+}
+
 h1 {
   margin-bottom: 10px;
   font-size: 60px;
