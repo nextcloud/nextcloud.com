@@ -4763,6 +4763,19 @@ footer.page-footer {
   text-decoration: none;
   color: #2a2a36; }
 
+/* To easily color text */
+.red {
+  color: red; }
+
+.green {
+  color: green; }
+
+.blue {
+  color: #0082c9; }
+
+.gray {
+  color: #555; }
+
 h1 {
   margin-bottom: 10px;
   font-size: 60px;

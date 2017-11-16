@@ -76,10 +76,62 @@
 				</div>
 				<div class="col-md-6 featureblock revealOnScroll">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Free for home users');?></p>
-					<p class="section--paragraph"><?php echo $l->t('Nextcloud strives to provide private cloud solution for everyone so we worked with our partner to provide a <a class="hyperlink" href="https://nextcloud.com/blog/secure-outlook-add-in-is-now-available-for-testing-in-free-as-in-beer-version/">free version of the Secure Outlook Add-in</a>. Note that the free version is only meant for home users and small organizations.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Nextcloud strives to provide private cloud solution for everyone so we worked with our partner to provide a <a class="hyperlink" href="https://nextcloud.com/blog/secure-outlook-add-in-is-now-available-for-testing-in-free-as-in-beer-version/">free version of the Secure Outlook Add-in</a>. Note that the free version is only meant for home users and small organizations and lacks many of the features of the enterprise version.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('The free Secure Outlook Add-in features the core capabilities: sharing from your Nextcloud instance instead of sending insecure large attachments, with an optional expiration date. Branding is limited and some other features for enterprise usage are not included.');?></p>
 				</div>
 			</div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Free version</th>
+                            <th>Enterprise version</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Upload large files to your Nextcloud server</th>
+                            <td class="text-center green">✔</td>
+                            <td class="text-center green">✔</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Pausing uploads</th>
+                            <td class="text-center green">✔</td>
+                            <td class="text-center green">✔</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Automatically upload attachments</th>
+                            <td class="text-center red">❌</td>
+                            <td class="text-center green">✔</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Shared link custom password</th>
+                            <td class="text-center red">❌</td>
+                            <td class="text-center green">✔</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Expiration date</th>
+                            <td class="text-center green">✔</td>
+                            <td class="text-center green">✔</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Custom look for shared links via HTML</th>
+                            <td class="text-center red">❌</td>
+                            <td class="text-center green">✔</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Branding</th>
+                            <td class="text-center red">❌</td>
+                            <td class="text-center green">✔</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
             <div class="text-center">
                 <a href="<?php echo $DOWNLOAD_OUTLOOK_ADDON_FREE; ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Get the free Outlook Add-in');?> </a>
             </div>
