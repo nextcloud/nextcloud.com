@@ -35,3 +35,8 @@
     opacity: 0;
   }
 }
+
+/* make sure a hero section doesn't have a padding on top either */
+.hero-section {
+    padding-top: 0px;
+}

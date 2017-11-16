@@ -45,7 +45,7 @@
 				<p class="partnertext">Arcadis is part of the Spreedbox network in Australia, delivering the Nextcloud based Spreedboxes with services and support. Learn more on <a href="https://spreedbox.me">spreedbox.me</a></p>
 			</div>
 			<div class="col-md-4">
-				<a href="https://dass-it.de" target="_blank" title="Dass IT">
+				<a href="https://www.dass-it.de/" target="_blank" title="Dass IT">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/dassit.png" title="Dass IT" />
 				</a>
 				<p  class="partnertext">dass IT GmbH in Cologne , founded in 2004 by former senior consultants of Suse Linux, is primarily a system integrator, offering support and consulting around Linux and Open Source Software. As a long-standing owncloud partner dass IT can help you migrate from ownCloud to Nextcloud or to build a private cloud from scratch.</p>
