@@ -155,10 +155,23 @@
 	</div>
 </section>
 
+<section class="section--storage">
+	<a name="storage" id="storage"></a>
+	<div class="container">
+		<div class="col-md-6 image--floated revealOnScroll image--feature">
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"/></a>
+		</div>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Integrated account management');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud features built in account management with optional two-factor authentication as well as Single-sign-on support and integration with external user directories like LDAP or IMAP, SMB, FTP and more.');?></p>
+			<a href="/usermanagement" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+		</div>
+	</div>
+</section>
+
 <section class="section--Calendar">
 	<a name="calendar" id="calendar"></a>
 	<div class="container">
-		<div class="col-md-6 image--floated image--feature revealOnScroll">
+		<div class="col-md-6 image--feature revealOnScroll">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Calendar and Contacts');?></p>
@@ -173,7 +186,7 @@
 <section class="section--calls">
 	<a name="calls" id="calls"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll image--feature">
+		<div class="col-md-6 revealOnScroll image--floated image--feature">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Secure audio and video calls');?></p>
@@ -186,7 +199,7 @@
 <section class="section--Collabora">
 	<a name="collabora" id="collabora"></a>
 	<div class="container">
-		<div class="col-md-6 image--floated image--feature revealOnScroll">
+		<div class="col-md-6 image--feature revealOnScroll">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-nw.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('View and edit documents with Collabora');?></p>
@@ -201,7 +214,7 @@
 <section class="section--appstore">
     <a name="appstore" id="appstore"></a>
     <div class="container">
-        <div class="col-md-6 revealOnScroll image--feature">
+        <div class="col-md-6 revealOnScroll image--floated image--feature">
             <a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/appstore.png"/></a>
         </div>
             <p class="section--paragraph__tittle"><?php echo $l->t('Add dozens more features through Nextcloud Apps');?></p>
