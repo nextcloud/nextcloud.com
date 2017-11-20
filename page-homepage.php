@@ -12,9 +12,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-introducing-native-integrated-end-to-end-encryption/">
+				<a class="announcement" href="https://nextcloud.com/blog/85-faster-ldap-10x-readwrite-speed-of-windows-network-drive-welcome-to-nextcloud-13-beta/">
 				<span class="type">News</span>
-				<span class="message"><strong>Nextcloud introducing end-to-end encryption</strong> coming in Nextcloud 13. Try our preview!</span>
+				<span class="message"><strong>85% faster LDAP</strong> and more speed coming in Nextcloud 13! Help test the beta.</span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('A safe home for all your data');?></h1>
