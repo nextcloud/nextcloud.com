@@ -255,59 +255,63 @@ if(isset($_POST['email'])) {
         $string = str_replace($bad,"",$string);
         return htmlspecialchars($string);
     }
-    // the app review mailing list address
-	$email_subject = "Order_form from ".clean_string($organization);
 
-    $email_message = "";
-    $email_message .= "Name: ".clean_string($yourname)."\n";
-    $email_message .= "Email: ".clean_string($email_from)."\n";
-    $email_message .= "Organization: ".clean_string($organization)."\n";
-    $email_message .= "Website: ".clean_string($website)."\n";
-    $email_message .= "Phone number: ".clean_string($phone)."\n";
-	$email_message .= "Address: ".clean_string($address)."\n";
-	$email_message .= "Billing address: ".clean_string($billing)."\n";
-	$email_message .= "VAT ID: ".clean_string($vat)."\n";
-    $email_message .= "Comments: ".clean_string($comments)."\n\n"."*Order details* \n";
-    $email_message .= "Number of users: ".clean_string($users)."\n";
-	$email_message .= "Edition: ".clean_string($edition)."\n";
-    $email_message .= "How many years: ".clean_string($duration)."\n";
-    $email_message .= "Education/government/charity discount: ".clean_string($edugov)."\n\n"."Options:\n";
-	$email_message .= "Would like Outlook option (5€/user): ".clean_string($outlook)."\n";
-	$email_message .= "Number of Collabora users (17€ for first 99, then 16€/user): ".clean_string($collaboraCheck)."\n";
-	$email_message .= "Would like remote installation help (990 €): ".clean_string($remoteinstall)."\n\n";
-    // 	$email_message .= "Would like Branding option: ".clean_string($branding)."\n";
-    // 	$email_message .= "Would like Spreed option: ".clean_string($spreed)."\n";
-	$email_message .= "Price: ".clean_string($givenprice)."\n";
-	//$email_message .= "Would like to pay in dollars: ".clean_string($dollars)."\n";
-	$email_message .= "Signed terms: ".clean_string($terms)."\n\n";
+    if($error_message === '') {
+		// the app review mailing list address
+		$email_subject = "Order_form from " . clean_string($organization);
 
-    // create email headers
-    $headers = 'From: no-reply@nextcloud.com'."\r\n".
-    'Reply-To: '.$email_from."\r\n" .
-    'Cc: '.$email_from;
-    // Send the email
-    $recipients = ['patrick', 'jos', 'morris', 'andreas'];
-    $successfullySend = true;
-    foreach ($recipients as $recipient) {
-        $successfullySend &= mail($recipient . '@nextcloud.com', $email_subject, $email_message, $headers);
-    }
+		$email_message = "";
+		$email_message .= "Name: " . clean_string($yourname) . "\n";
+		$email_message .= "Email: " . clean_string($email_from) . "\n";
+		$email_message .= "Organization: " . clean_string($organization) . "\n";
+		$email_message .= "Website: " . clean_string($website) . "\n";
+		$email_message .= "Phone number: " . clean_string($phone) . "\n";
+		$email_message .= "Address: " . clean_string($address) . "\n";
+		$email_message .= "Billing address: " . clean_string($billing) . "\n";
+		$email_message .= "VAT ID: " . clean_string($vat) . "\n";
+		$email_message .= "Comments: " . clean_string($comments) . "\n\n" . "*Order details* \n";
+		$email_message .= "Number of users: " . clean_string($users) . "\n";
+		$email_message .= "Edition: " . clean_string($edition) . "\n";
+		$email_message .= "How many years: " . clean_string($duration) . "\n";
+		$email_message .= "Education/government/charity discount: " . clean_string($edugov) . "\n\n" . "Options:\n";
+		$email_message .= "Would like Outlook option (5€/user): " . clean_string($outlook) . "\n";
+		$email_message .= "Number of Collabora users (17€ for first 99, then 16€/user): " . clean_string($collaboraCheck) . "\n";
+		$email_message .= "Would like remote installation help (990 €): " . clean_string($remoteinstall) . "\n\n";
+		// 	$email_message .= "Would like Branding option: ".clean_string($branding)."\n";
+		// 	$email_message .= "Would like Spreed option: ".clean_string($spreed)."\n";
+		$email_message .= "Price: " . clean_string($givenprice) . "\n";
+		//$email_message .= "Would like to pay in dollars: ".clean_string($dollars)."\n";
+		$email_message .= "Signed terms: " . clean_string($terms) . "\n\n";
 
-    if ($successfullySend) {
-        ?>
-        <h1>Thanks for ordering a Nextcloud Support Subscription!</h1>
-        <p>We are preparing a contract and invoice. Check your inbox for a reply in the next 5 working days.</p>
-        <p>We received following details:</p><pre><?php
-        echo $email_message;
-        ?></pre>
-        <?php
-    } else {
-        // TODO: log something here
-        error_log('could not send all emails - ' . $email_message . json_encode($_POST));
-        ?>
+		// create email headers
+		$headers = 'From: no-reply@nextcloud.com' . "\r\n" .
+			'Reply-To: ' . $email_from . "\r\n" .
+			'Cc: ' . $email_from;
+		// Send the email
+		$recipients = ['patrick', 'jos', 'morris', 'andreas'];
+		$successfullySend = true;
+		foreach ($recipients as $recipient) {
+			$successfullySend &= mail($recipient . '@nextcloud.com', $email_subject, $email_message, $headers);
+		}
+
+		if ($successfullySend) {
+			?>
+            <h1>Thanks for ordering a Nextcloud Support Subscription!</h1>
+            <p>We are preparing a contract and invoice. Check your inbox for a reply in the next 5 working days.</p>
+            <p>We received following details:</p>
+            <pre><?php
+				echo $email_message;
+				?></pre>
+			<?php
+		} else {
+			// TODO: log something here
+			error_log('could not send all emails - ' . $email_message . json_encode($_POST));
+			?>
             <h1>Something went wrong!</h1>
-        <p>We had some troubles processing your Nextcloud Support Subscription request. Please try again later.</p>
-        <?php
-    }
+            <p>We had some troubles processing your Nextcloud Support Subscription request. Please try again later.</p>
+			<?php
+		}
+	}
 }
 
 } catch (ValidationException $e) {
