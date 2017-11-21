@@ -18,7 +18,7 @@
 	<li><a href="https://github.com/MorrisJobke" target="_blank">Morris Jobke</a> (frontend)</li>
 	<li><a href="https://github.com/juliushaertl" target="_blank">Julius Härtl</a> (frontend &amp; Deck app)</li>
 	<li><a href="https://github.com/pixelipo" target="_blank">Marin Treselj</a> (frontend &amp; Deck app)</li>
-	<li><a href="https://github.com/https://github.com/danxuliu" target="_blank">Daniel Calviño Sánchez</a> (frontend &amp; Talk app)</li>
+	<li><a href="https://github.com/danxuliu" target="_blank">Daniel Calviño Sánchez</a> (frontend &amp; Talk app)</li>
 	<li><a href="https://github.com/Espina2" target="_blank">Paulo Moura</a> (website)</li>
 	<li><?php echo $l->t('and many others, see <a href="https://github.com/orgs/nextcloud/teams/designers/members" target="_blank">here</a>.');?></li>
 </ul>
