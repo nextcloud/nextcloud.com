@@ -14,7 +14,7 @@
 		<div class="row">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('User Management');?></h1>
-				<h2><?php echo $l->t('5 or 50 million users, handling accounts is easy.');?></p>
+				<h2><?php echo $l->t('<span class="avoidwrap">Easy account management</span>, <span class="avoidwrap">from 5 to 50 million users</span>');?></p>
 			</div>
 		</div>
 	</div>
@@ -24,7 +24,7 @@
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Integrated account management');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud features built in account management with optional two-factor authentication as well as Single-sign-on support and integration with external user directories like LDAP or IMAP, SMB, FTP and more.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud features integration with external user directories like LDAP or others as well as built in account management with optional two-factor authentication and Single-sign-on support.');?></p>
 		</div>
 	</div>
 </div>
@@ -37,8 +37,8 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Easy user management');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Through the built in user management, admins can create, modify, search and view user accounts. Name, disk quota, mail addresses and group membership can be handled and users can be given administrator privileges if needed.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('If local users are not enough, take advantage of support for one or more LDAP directories instead of or in addition to local users. Nextcloud can secure logins with two-factor authentication and supports single sign-on through SAML, OAuth2, Kerberos and others.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Admins can create, modify, search and view user accounts using Nextcloud built-in user management. Name, disk quota, mail addresses and group membership can be handled and users can be given administrator privileges if needed.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('If you need to integrate Nextcloud with an existing system, take advantage of support for one or more LDAP directories instead of or in addition to local users. Nextcloud can secure logins with two-factor authentication and supports single sign-on through SAML, OAuth2, Kerberos and others.');?></p>
 		</div>
 	</div>
 </div>
@@ -67,7 +67,7 @@
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('LDAP/Active Directory user management');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud features a high performance, full featured LDAP application which lets users authenticate through their LDAP credentials. Group management, quotas and sharing permissions can be managed as usual. Nextcloud features LDAP group support, sharing, primary groups and easy configuration with auto-detection of LDAP attributes.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('For security reasons, the default LDAP configuration is fully read-only. A plugin infrastructure exists which can support writing to LDAP. Some apps have been developed which enable administrators to manage a LDAP server through Nextcloud. Creating, updating and removing LDAP configurations can optionally be done through an external, REST-based API.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('For security reasons, the default LDAP configuration is fully read-only. A plugin infrastructure exists  with applications available that enable administrators to manage a LDAP server through Nextcloud. Creating, updating and removing LDAP configurations can optionally be done through an external, REST-based API.');?></p>
 			<p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_user/user_auth_ldap.html"><?php echo $l->t('Find documentation here.');?></a></p>
 		</div>
 	</div>
@@ -142,7 +142,7 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Automated or manual provisioning');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud offers an easy to use, REST based provisioning API to create and configure user accounts. It is possible to create, edit, delete and query user attributes, query, set and remove groups, set quota and query total storage used in Nextcloud.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud offers an easy-to-use, REST-based provisioning API to create and configure user accounts. It is possible to create, edit, delete and query user attributes, query, set and remove groups, set quota and query total storage used in Nextcloud.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The API enables an admin to query for active Nextcloud applications, application info, and to enable or disable an app remotely. HTTP requests can be used via a Basic Auth header to easily integrate workflows in existing tools and infrastructure.');?></p>
 			<p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_user/user_provisioning_api.html"><?php echo $l->t('Find documentation here.');?></a></p>
 		</div>
