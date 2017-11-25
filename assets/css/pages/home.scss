@@ -276,6 +276,70 @@
   padding-top: 39px;
 }
 
+.section--customers {
+    padding-top: 130px;
+    position: relative;
+    .container {
+    }
+    .customer {
+        position: relative;
+        margin-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        .customer-logo {
+
+            /*-webkit-filter: grayscale(100%);*/
+            filter: saturate(0%) contrast(.35) brightness(130%);
+
+            float: center;
+            height: 200px;
+            position: relative;
+            line-height: 200px;
+            text-align:center;
+            width: 100%;
+            max-width: 60vw;
+            margin-left: auto;
+            margin-right: auto;
+            vertical-align: middle;
+            img {
+                max-width: 90%;
+                vertical-align: middle;
+            }
+            .scaling-svg-container {
+                /* 				position: relative; */
+                height: 0;
+                width: 100%;
+                padding: 0;
+                padding-bottom: 100%;
+                /* override this inline for aspect ratio other than square */
+            }
+            svg {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                /* 		max-width: 50vw; */
+                left: 0;
+                top: 0;
+            }
+            @media (max-width: $break-big) {
+                height: 150px;
+                line-height: 150px;
+            }
+            @media (max-width: $break-small) {
+                height: 100px;
+                line-height: 100px;
+            }
+
+            /*			svg {
+             *			vertical-align: middle;
+             *			float:none;
+             *			width: auto;
+             *			height: 400px;
+             *			padding-bottom: 100px;
+        }*/
+        }
+    }
+}
 
 /**
 * Home page: Introducing Nextcloud X
