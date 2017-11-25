@@ -211,6 +211,60 @@
 .icon-row h4 {
   padding-top: 39px; }
 
+.section--customers {
+  padding-top: 130px;
+  position: relative; }
+  .section--customers .customer {
+    position: relative;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px; }
+    .section--customers .customer .customer-logo {
+      /*-webkit-filter: grayscale(100%);*/
+      filter: saturate(0%) contrast(0.35) brightness(130%);
+      float: center;
+      height: 200px;
+      position: relative;
+      line-height: 200px;
+      text-align: center;
+      width: 100%;
+      max-width: 60vw;
+      margin-left: auto;
+      margin-right: auto;
+      vertical-align: middle;
+    /*			svg {
+     *			vertical-align: middle;
+     *			float:none;
+     *			width: auto;
+     *			height: 400px;
+     *			padding-bottom: 100px;
+}*/ }
+      .section--customers .customer .customer-logo img {
+        max-width: 90%;
+        vertical-align: middle; }
+      .section--customers .customer .customer-logo .scaling-svg-container {
+        /* 				position: relative; */
+        height: 0;
+        width: 100%;
+        padding: 0;
+        padding-bottom: 100%;
+        /* override this inline for aspect ratio other than square */ }
+      .section--customers .customer .customer-logo svg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        /* 		max-width: 50vw; */
+        left: 0;
+        top: 0; }
+      @media (max-width: 991px) {
+        .section--customers .customer .customer-logo {
+          height: 150px;
+          line-height: 150px; } }
+      @media (max-width: 768px) {
+        .section--customers .customer .customer-logo {
+          height: 100px;
+          line-height: 100px; } }
+
 /**
 * Home page: Introducing Nextcloud X
 */
