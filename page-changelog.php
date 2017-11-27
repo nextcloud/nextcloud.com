@@ -20,17 +20,74 @@ SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.4
 PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.4.tar.bz2.asc">nextcloud-12.0.4.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.4.zip.asc">nextcloud-12.0.4.zip.asc</a></p>
 
 <h4>Changes</h4>
-<p>Nextcloud 12.0.4 delivers a lot of enhancements in various areas including:</p>
+<h5>Server</h5>
+Over 50 fixes were merged in the server.
 <ul>
- 	<li>Several Object Storage fixes</li>
- 	<li>Better IPv6 handling</li>
- 	<li>Allowing a quota of 0, don't reset quota</li>
- 	<li>Improved browser support</li>
- 	<li>Improve LDAP user cleanup</li>
- 	<li>Style and translation improvements (contrast/readability, adding missing icons)</li>
+	<li><a href="https://github.com/nextcloud/server/issues/6464">Improve text: 'you have now' -> 'you now have (server#6464)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6502">Fix initializing paged search under some circumstances (server#6502)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6509">LDAP: simplify returning the homePath (server#6509)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6524">Fix sharer name overlap with filename (server#6524)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6525">Allow to close sidebar for text files (server#6525)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6527">Fix quota new endpoint 12 (server#6527)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6528">Pass new value to triggerChange (server#6528)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6547">Throw 101 when an empty group string is provided (server#6547)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6554">Contacts menu privacy (server#6554)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6649">Add color-border variable (server#6649)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6661">Do not stop on scss compilation failure (server#6661)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6674">Don't pass User object when uid string is expected (server#6674)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6689">Navigate to the root directory when showing the main filelist (server#6689)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6699">Fix LDAP User deletion (cleanup) (server#6699)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6737">Update aws sdk + s3 improvements (server#6737)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6743">Dont run invalid path repair step when upgrading from 11.0.5.2 and later (server#6743)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6751">Fix language when trying to change password (server#6751)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6792">Fix postgresql tests (server#6792)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6814">Also use configured 'cache_path' for new chunking (server#6814)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6815">Set s3 part size to 500mb (server#6815)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6823">Fix contacts menu for IE11 (server#6823)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6847">Still trigger conflict resolution for existing entries when the curre (server#6847)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6855">Propagate multipart upload exception when aborting upload (server#6855)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6878">Allow to migrate from 10.0.3.3 (server#6878)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6896">Timespan check (server#6896)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6908">Do not log WebDAV maintenance mode exception (server#6908)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6910">Don't reset quota (server#6910)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6935">Backport of translation string fixes (server#6935)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6942">Fix class name in exception logger plugin (server#6942)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6943">Allow quota of 0 again (server#6943)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6944">Fix uninitialized variable $this->params (server#6944)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6945">Don't add a LIKE condition when it's not needed (server#6945)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6946">Fix undefined offset warning when using '/' as external storage root (server#6946)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6987">Fix page title not changed (server#6987)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7028">Better readability for text on log in page which is directly on backgrounds (server#7028)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7040">Translate Grant Access (server#7040)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7079">Use fopen directly when reading objects from s3 (server#7079)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7081">Improve mimetype detection for object storages (server#7081)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7082">Fix seeking on object storage (server#7082)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7095">Hide spinner for initial install (server#7095)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7096">Ensure uid for calendar objects is unique (server#7096)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7102">Revert "Only allow colons in db host for IPv6 addresses (server#7102)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7114">Theme flow redirection page (server#7114)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7116">Fix icon for security settings (server#7116)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7118">If for some reason the json can't be decoded it is not cached (server#7118)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7120">Improve performance of UserMountCache with external storage folders (server#7120)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7170">{J,CS}SResourceLocator: account for symlinks in app path server#7170)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7186">Fix s3 download and touch (server#7186)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7207">Touch opertation on object storage, don't create the file cache entry to early (server#7207)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7245">Allow migration from upcoming 10.0.4 ownCloud release (server#7245)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7257">CSSResourceLocator: handle SCSS in apps outside root (server#7257)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7259">only replace permission popupmenu (server#7259)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7262">Fix accesslist when a user has an ID only containting 0-9 (server#7262)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7277">Update CRL due to files_frommail (server#7277)</a></li>
 </ul>
-<p><a href="https://github.com/nextcloud/server/pulls?q=is%3Apr+milestone%3A%22Nextcloud+12.0.4%22+is%3Aclosed">See the full list of changes in github.</a></p>
 
+<h5>Other</h5>
+<ul>
+	<li><a href="https://github.com/nextcloud/3rdparty/issues/69">Add aws sdk (3rdparty#69)</a></li>
+	<li><a href="https://github.com/nextcloud/activity/issues/202">Don't send emails to disabled users (activity#202)</a></li>
+	<li><a href="https://github.com/nextcloud/activity/issues/206">Add an option to disable emails completly (activity#206)</a></li>
+	<li><a href="https://github.com/nextcloud/files_accesscontrol/issues/79">Make sure the mountPoint property is public before using it (files_accesscontrol#79)</a></li>
+	<li><a href="https://github.com/nextcloud/files_videoplayer/issues/43">Allow to playback m4v files (files_videoplayer#43)</a></li>
+	<li><a href="https://github.com/nextcloud/notifications/issues/93">Fix notifications order (notifications#93)</a></li>
+</ul>
 
 <h3 id="12-0-3">Version 12.0.3 <small>September 20 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.3.tar.bz2">nextcloud-12.0.3.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.3.zip">nextcloud-12.0.3.zip</a></br>
@@ -280,15 +337,18 @@ SHA612: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6
 PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.tar.bz2.asc">nextcloud-11.0.6.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.zip.asc">nextcloud-11.0.6.zip.asc</a></p>
 
 <h4>Changes</h4>
+<h5>Server</h5>
 <ul>
- 	<li>Compatibility with PHP 7.1</li>
- 	<li>Cache related fix for external storage</li>
- 	<li>Make search more reliable</li>
- 	<li>2FA improvements</li>
+	<li><a href="https://github.com/nextcloud/server/issues/6504">Fix initializing paged search under some circumstances (server#6504)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6548">Throw 101 when an empty group string is provided (server#6548)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6588">Fix moving folders out of a cache jail (server#6588)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6675">Don't pass User object when uid string is expected (server#6675)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6695">MP3 without cover don't get a preview (server#6695)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6793">Fix postgresql tests (server#6793)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6897">Timespan check (server#6897)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7023">Fix mismatch method signature in Nextcloud 11 (server#7023)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7148">Unlock files even if an exception occurs (server#7148)</a></li>
 </ul>
-
-<p><a href="https://github.com/nextcloud/server/pulls?q=is%3Apr+milestone%3A%22Nextcloud+11.0.6%22+is%3Aclosed">See the full list of changes in github.</a></p>
-
 
 <h3 id="11-0-5">Version 11.0.5 <small>September 20 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.tar.bz2">nextcloud-11.0.5.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.zip">nextcloud-11.0.5.zip</a></br>
