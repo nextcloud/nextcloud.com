@@ -11,7 +11,7 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest12"></a>
-<h4 id="12-0-4">Version 12.0.4 <small>November 29 2017</small></h4>
+<h4 id="12-0-4">Version 12.0.4 <small>November 30 2017</small></h4>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.4.tar.bz2">nextcloud-12.0.4.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.4.zip">nextcloud-12.0.4.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.4.tar.bz2.md5">nextcloud-12.0.4.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.4.zip.md5">nextcloud-12.0.4.zip.md5</a></br>
@@ -238,7 +238,7 @@ SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0
 PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.tar.bz2.asc">nextcloud-12.0.0.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.0.zip.asc">nextcloud-12.0.0.zip.asc</a></p>
 
 <h4>Changes</h4>
-<p>Over 1100 changes were merged in the server, with many hundreds more in existing or new apps. The main improvements include:
+<p>Over 1100 changes were merged in the server, with many hundreds more in existing or new apps. The main improvements include:</p>
 <ul>
 	<li>Collaboration features
 	<ul>
@@ -271,6 +271,25 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p><a href="https://github.com/nextcloud/server/milestone/10?closed=1">See a full list of integrated pull requests here.</a></p>
 
 <a name="latest11"></a>
+<h3 id="11-0-6">Version 11.0.6 <small>November 30 2017</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.tar.bz2">nextcloud-11.0.6.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.zip">nextcloud-11.0.6.zip</a></br>
+Check the file integrity with:</br>
+MD6: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.tar.bz2.md5">nextcloud-11.0.6.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.zip.md5">nextcloud-11.0.6.zip.md5</a></br>
+SHA266: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.tar.bz2.sha256">nextcloud-11.0.6.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.zip.sha256">nextcloud-11.0.6.zip.sha256</a></br>
+SHA612: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.tar.bz2.sha512">nextcloud-11.0.6.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.zip.sha512">nextcloud-11.0.6.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.tar.bz2.asc">nextcloud-11.0.6.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.zip.asc">nextcloud-11.0.6.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+ 	<li>Compatibility with PHP 7.1</li>
+ 	<li>Cache related fix for external storage</li>
+ 	<li>Make search more reliable</li>
+ 	<li>2FA improvements</li>
+</ul>
+
+<p><a href="https://github.com/nextcloud/server/pulls?q=is%3Apr+milestone%3A%22Nextcloud+11.0.6%22+is%3Aclosed">See the full list of changes in github.</a></p>
+
+
 <h3 id="11-0-5">Version 11.0.5 <small>September 20 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.tar.bz2">nextcloud-11.0.5.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.5.zip">nextcloud-11.0.5.zip</a></br>
 Check the file integrity with:</br>
