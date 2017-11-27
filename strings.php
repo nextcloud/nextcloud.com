@@ -1,5 +1,5 @@
 <?php
-// Strings used throughout Nextcloud.org.
+// Strings used through nextcloud.com
 
 /* VERSIONS */
 $VERSIONS_SERVER_MAJOR_STABLE = '12';
@@ -63,9 +63,9 @@ $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.nextcloud.com/download/repos
 
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.nextcloud.com/server/prereleases/';
-$SERVER_TESTING_VERSION =''; // nothing to test -> leave it empty
-$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-12.0.1RC5.tar.bz2';
-$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-12.0.1RC5.zip';
+$SERVER_TESTING_VERSION ='13.0 Beta'; // nothing to test -> leave it empty
+$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-13.0.0beta1.tar.bz2';
+$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-13.0.0beta1.zip';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.nextcloud.com/server/installer/setup-nextcloud.php';
@@ -84,13 +84,11 @@ $DOWNLOAD_VM_VMX   = $DOWNLOAD_VM_BASE.'Ubuntu_'.$VM_UBUNTU_RELEASE.'-nextcloud-
 $DOWNLOAD_CLIENT_MOBILE_IOS = 'https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8';
 $DOWNLOAD_CLIENT_MOBILE_ANDROID = 'https://play.google.com/store/apps/details?id=com.nextcloud.client';
 $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA = 'https://play.google.com/apps/testing/com.nextcloud.client';
-// $DOWNLOAD_CLIENT_MOBILE_BLACKBERRY = 'https://appworld.blackberry.com/webstore/content/59955931/';
 $DOWNLOAD_CLIENT_MOBILE_FDROID = 'https://f-droid.org/packages/com.nextcloud.client/';
 $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA = 'https://f-droid.org/packages/com.nextcloud.android.beta/';
-// $DOWNLOAD_CLIENT_MOBILE_AMAZON = 'https://www.amazon.com/Nextcloud-Inc/dp/B00944PQMK';
 $DOWNLOAD_CLIENT_MOBILE_WIN = 'https://www.microsoft.com/store/apps/9nblggh532xq';
 
 // Outlook Add-in
-$DOWNLOAD_OUTLOOK_ADDON_FREE = 'https://download.nextcloud.com/outlook/20170818/';
+$DOWNLOAD_OUTLOOK_ADDON_FREE = 'https://download.nextcloud.com/outlook/20171024/';
 
 ?>
