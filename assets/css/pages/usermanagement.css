@@ -17,16 +17,19 @@
 .image--floated {
   float: right; }
 
-.section--desktop {
-  padding-top: 80px; }
-
 section {
   padding: 100px 0; }
   section .section--paragraph__tittle {
     padding: 0; }
 
-.feature--block {
-  padding-top: 60px; }
+.section--header {
+  padding: 40px 0; }
+
+.section--builtin {
+  padding-bottom: 0; }
+
+.section--more {
+  padding-bottom: 0; }
 
 .row {
   padding-top: 60px; }
@@ -35,6 +38,6 @@ section {
   text-align: center; }
 
 footer {
-  margin-top: 50px; }
+  margin-top: 0px; }
 
 /*# sourceMappingURL=usermanagement.css.map */
