@@ -58,7 +58,7 @@ $l = new L10N('footer');
                 <li><a href="https://demo.nextcloud.com"><?php echo $l->t('Demo') ?></a></li>
                 <li><a href="<?php echo home_url('contact') ?>"><?php echo $l->t('Contact us') ?></a></li>
                 <li><a href="<?php echo home_url('press') ?>"><?php echo $l->t('Press center') ?></a></li>
-                <li><a href="https://docs.nextcloud.com/server/10/developer_manual/bugtracker/index.html"><?php echo $l->t('Bug Tracker') ?></a></li>
+                <li><a href="<?php echo $DOCUMENTATION_BUGTRACKER; ?>"><?php echo $l->t('Bug Tracker') ?></a></li>
             </ul>
         </div>
         <div class="col-sm-3">
