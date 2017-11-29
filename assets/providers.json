@@ -415,14 +415,17 @@
       },
     {
          "title":"NbIServ",
-         "url":"https:\/\/www.nbiserv.de\/cloud.html",
+         "url":"https:\/\/www.nbiserv.de\/de\/shop\/cloud",
          "flags":[
-            "de"
+            "de",
+            "uk",
+            "ch",
+            "at"
          ],
          "freeplans":false,
          "supports":"both",
          "specializes":[
-            "We are Hosting Nextcloud and owncloud."
+            "Nextcloud Hosting im eigenen Rechenzentrum in Deutschland (Thüringen nähe Gera). Gern erstellen wir auch individuelle Angebote bis hin zum Cluster."
          ],
          "imagename":"nbi.png"
       },
@@ -993,5 +996,102 @@
             "Nous proposons des instances Nextcloud au meilleur coût. Toutes fonctionnalités activées (Collabora Online inclus), gardez le contrôle de vos données."
          ],
          "imagename":"rocho.png"
+      },
+    {
+         "title":"Digitalcarnage",
+         "url":"https:\/\/digitalcarnage.webhop.me",
+         "flags":[
+            "all"
+         ],
+         "freeplans":true,
+         "supports":"both",
+         "specializes":[
+            "UK based secure data service offering a Nextcloud services which include full file sync, calendars and contacts. Full daily backup. Simple."
+         ],
+         "imagename":"carnage.png"
+      },
+    {
+         "title":"Serverdiscounter",
+         "url":"https:\/\/serverdiscounter.com\/drive\/",
+         "flags":[
+            "de"
+         ],
+         "freeplans":true,
+         "supports":"both",
+         "specializes":[
+            "Serverdiscounter bietet Netxcloud Hosting in Deutschen Rechenzentrum Frankfurt am Main. inkl. AES 256 Verschlüsselung direkt auf unserem Server."
+         ],
+         "imagename":"discounter.png"
+      },
+    {
+         "title":"yourcloud.asia",
+         "url":"https:\/\/yourcloud.asia\/",
+         "flags":[
+            "hk"
+         ],
+         "freeplans":false,
+         "supports":"consumer",
+         "specializes":[
+            "Fast, safe and private cloud hosting in Asia. Take back control of your data!"
+         ],
+         "imagename":"yourcloudasia.png"
+      },
+    {
+         "title":"Webicom d.o.o.",
+         "url":"https:\/\/www.next-cloud.si\/",
+         "flags":[
+            "si",
+            "ru",
+            "eu",
+            "srb",
+            "cro"
+            ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "To protect your files you need to back them up, and keeping your backups offsite is the best way to ensure their safety.  100GB/year only 18 EUR."
+         ],
+         "imagename":"webicom.png"
+      },
+    {
+         "title":"Kloecker GmbH - Medienagentur",
+         "url":"https:\/\/www.kloecker.ac\/dienstleistungsverzeichnis\/n\/nextcloud.php",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":"organization",
+         "specializes":[
+            "In the area of webhosting we use virtual servers (vServer, VPS) and offer an individual package at a monthly flat rate for individual requirements."
+         ],
+         "imagename":"klocker.jpg"
+      },
+    {
+         "title":"Linuxfabrik GmbH",
+         "url":"https:\/\/www.linuxfabrik.ch\/services\/",
+         "flags":[
+            "de",
+            "ch",
+            "at"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "As specialists we support companies from consulting to the safe operations of selected Open Source Software on demand with technical support 365 days a year"
+         ],
+         "imagename":"fabrik.png"
+      },
+    {
+         "title":"OperWEB",
+         "url":"https:\/\/www.operweb.com\/nextcloud\/",
+         "flags":[
+            "it"
+         ],
+         "freeplans":false,
+         "supports":"organization",
+         "specializes":[
+            "We offer Italy-hosted servers with Nextcloud. You can select the amount of cloud space you need and you can upgrade at any time."
+         ],
+         "imagename":"operweb.png"
       }
 ]
