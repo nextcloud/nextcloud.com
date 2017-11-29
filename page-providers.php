@@ -1,3 +1,5 @@
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<!-- <script src="<?php echo get_template_directory_uri(); ?>/node_modules/jquery/dist/jquery.min.js"></script> -->
 <div class="container">
 <div class="row">
     <div class="col-md-6 col-md-offset-3 text-center">
@@ -13,7 +15,7 @@
 </div>
 <div class="row">
     <div class="text-center">
-    <h1>Choose your provider</h1>
+    <h1><?php echo $l->t('Choose your provider');?></h1>
     </div>
 </div>
  <div class="row">
