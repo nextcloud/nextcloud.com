@@ -11,7 +11,7 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest12"></a>
-<h4 id="12-0-4">Version 12.0.4 <small>November 30 2017</small></h4>
+<h4 id="12-0-4">Version 12.0.4 <small>December 4 2017</small></h4>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.4.tar.bz2">nextcloud-12.0.4.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.4.zip">nextcloud-12.0.4.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.4.tar.bz2.md5">nextcloud-12.0.4.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.4.zip.md5">nextcloud-12.0.4.zip.md5</a></br>
@@ -77,6 +77,7 @@ Over 50 fixes were merged in the server.
 	<li><a href="https://github.com/nextcloud/server/issues/7259">only replace permission popupmenu (server#7259)</a></li>
 	<li><a href="https://github.com/nextcloud/server/issues/7262">Fix accesslist when a user has an ID only containting 0-9 (server#7262)</a></li>
 	<li><a href="https://github.com/nextcloud/server/issues/7277">Update CRL due to files_frommail (server#7277)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7328">Only in case of $currentAccess the array uses the id as index (server#7328)</a></li>
 </ul>
 
 <h5>Other</h5>
@@ -328,7 +329,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p><a href="https://github.com/nextcloud/server/milestone/10?closed=1">See a full list of integrated pull requests here.</a></p>
 
 <a name="latest11"></a>
-<h3 id="11-0-6">Version 11.0.6 <small>November 30 2017</small></h3>
+<h3 id="11-0-6">Version 11.0.6 <small>December 4 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.tar.bz2">nextcloud-11.0.6.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.zip">nextcloud-11.0.6.zip</a></br>
 Check the file integrity with:</br>
 MD6: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.tar.bz2.md5">nextcloud-11.0.6.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.zip.md5">nextcloud-11.0.6.zip.md5</a></br>
