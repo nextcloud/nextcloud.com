@@ -62,70 +62,65 @@
         <div class="row revealOnScroll">
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                    <div class="scaling-svg-container">
-                <a href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/"><?php echo file_get_contents(get_template_directory_uri()."/assets/img/customers/tuberlin.svg") ?></a>
-                    </div>
+                    <a href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/tuberlin.png" /></a>
                 </div>
             </div>
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/germania.svg" />
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/mmecmannesmann.png" />
                 </div>
             </div>
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/siemens.png" /></a>
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/siemens.png" /></a>
                 </div>
             </div>
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/raiffeisen.png" /></a>
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/randv.png" /></a>
                 </div>
             </div>
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/randv.png" /></a>
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/raiffeisen.png" /></a>
                 </div>
             </div>
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                    <div class="scaling-svg-container">
-                <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/actu.png" /></a>
-                    </div>
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/actu.png" /></a>
                 </div>
             </div>
         </div>
 <!--        <div class="row">
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                    <div class="scaling-svg-container">
-                <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/hivos.svg" /></a>
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/hivos.png" /></a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                <a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/regioit.png" /></a>
+                    <a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/regioit.png" /></a>
                 </div>
             </div>
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                <a href="https://nextcloud.com/blog/the-danish-research-and-education-network-moves-from-owncloud-to-nextcloud/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/deic.png" /></a>
+                    <a href="https://nextcloud.com/blog/the-danish-research-and-education-network-moves-from-owncloud-to-nextcloud/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/deic.png" /></a>
                 </div>
             </div>
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                <a href="http://my.engineering.queensu.ca/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/queens.png" /></a>
+                    <a href="http://my.engineering.queensu.ca/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/queens.png" /></a>
                 </div>
             </div>
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/elkb.png" /></a>
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/elkb.png" /></a>
                 </div>
             </div>
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/vrbzo.png" /></a>
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/vrbzo.png" /></a>
                 </div>
             </div>
         </div>-->
