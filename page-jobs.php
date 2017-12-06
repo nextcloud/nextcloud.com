@@ -88,34 +88,68 @@
 				<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
-		<a href="#jsdev" data-toggle="collapse"><h3 class="jobs">Javascript Developer<span class="icon-arrow"></span></h3></a>
-		<div id="jsdev" class="collapse">
-			<p>We're looking for developers with experience in Javascript/front-end development to join our server team!</p>
-			<p>You would work with the engineering team to bring new features and improvements to the server user interface like our File management app or one of the many other applications like Calendar and Contacts, Announcements and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-			<p class="section--paragraph__tittle">Responsibilities:</p>
-			<ul>
-				<li>Front end development (JS, PHP)</li>
-				<li>Cross platform testing</li>
-				<li>Quality assurance</li>
-			</ul>
-			<p class="section--paragraph__tittle">Required skills:</p>
-			<ul>
-				<li>Deep technical experience with Javascript and perhaps a bit of PHP</li>
-				<li>WebRTC experience a plus</li>
-				<li>Teamworking capabilities</li>
-				<li>Independence and self-reliance.</li>
-				<li>Knowledge around open source technology</li>
-			</ul>
-			<p class="section--paragraph__tittle">What we offer:</p>
-			<ul>
-				<li>A distributed, open team with a passion for working on and within the open source community</li>
-				<li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
-				<li>A competitive salary</li>
-				<li>Flexibility for a healthy work-life balance</li>
-				<li>Time for personal growth and education</li>
-			</ul>
-			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-		</div>
+            <a href="#marketing" data-toggle="collapse"><h3 class="jobs">Marketing Manager<span class="icon-arrow"></span></h3></a>
+			<div id="marketing" class="collapse">
+				<p>Our marketing team is looking for an enthusiastic new member to help explain the benefits of Nextcloud to our potential customers and users.</p>
+				<p>You would support and strengthen our marketing, helping us create blogs, website pages, flyers and other promotional materials as well as go to conferences, develop marketing automation and organize events. We're looking for somebody with a design background (or interest!) who's eager to learn and try new things!</p>
+				<p class="section--paragraph__tittle">Responsibilities:</p>
+				<ul>
+					<li>Manage and improve our marketing materials (both German and English)</li>
+					<li>Create new white papers, case studies and interviews with customers and users</li>
+					<li>Design posters, flyers and backdrops for events</li>
+					<li>Organize events and our presence at conferences</li>
+					<li>Write blogs and other content for our or other websites</li>
+				</ul>
+
+				<p class="section--paragraph__tittle">Required skills:</p>
+				<ul>
+					<li>Writing and speaking German language</li>
+					<li>Interest in messaging, public relations, </li>
+					<li>Being able to work independently, track progress and ask for help when needed</li>
+					<li>Print and/or web design background</li>
+				</ul>
+
+				<p class="section--paragraph__tittle">What we offer:</p>
+				<ul>
+					<li>A distributed, open team with a passion for working on and within the open source community</li>
+					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
+					<li>A competitive salary</li>
+					<li>Flexibility for a healthy work-life balance</li>
+					<li>Time for personal growth and education</li>
+				</ul>
+				<p>We are looking for somebody with ambition and drive, who would like to grow and learn. German speaking and some design experience are really needed, but besides that, if you're willing to try new things, you will be fine! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your motivation and resume if you are interested in this role.</p>
+			</div>
+
+
+            <a href="#jsdev" data-toggle="collapse"><h3 class="jobs">Javascript Developer<span class="icon-arrow"></span></h3></a>
+            <div id="jsdev" class="collapse">
+                <p>We're looking for developers with experience in Javascript/front-end development to join our server team!</p>
+                <p>You would work with the engineering team to bring new features and improvements to the server user interface like our File management app or one of the many other applications like Calendar and Contacts, Announcements and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
+                <p class="section--paragraph__tittle">Responsibilities:</p>
+                <ul>
+                    <li>Front end development (JS, PHP)</li>
+                    <li>Cross platform testing</li>
+                    <li>Quality assurance</li>
+                </ul>
+                <p class="section--paragraph__tittle">Required skills:</p>
+                <ul>
+                    <li>Deep technical experience with Javascript and perhaps a bit of PHP</li>
+                    <li>WebRTC experience a plus</li>
+                    <li>Teamworking capabilities</li>
+                    <li>Independence and self-reliance.</li>
+                    <li>Knowledge around open source technology</li>
+                </ul>
+                <p class="section--paragraph__tittle">What we offer:</p>
+                <ul>
+                    <li>A distributed, open team with a passion for working on and within the open source community</li>
+                    <li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
+                    <li>A competitive salary</li>
+                    <li>Flexibility for a healthy work-life balance</li>
+                    <li>Time for personal growth and education</li>
+                </ul>
+                <p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+            </div>
+
 			<a href="#saleseng" data-toggle="collapse"><h3 class="jobs">Sales Engineer/ Consultant<span class="icon-arrow"></span></h3></a>
 			<div id="saleseng" class="collapse">
 				<p>Technical sales engineers use their technical knowledge along with sales skills to provide advice and support on a range of products, for which a certain level of expertise is needed.</p>
@@ -161,207 +195,208 @@
 				<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
-		<a href="#linuxeng" data-toggle="collapse"><h3 class="jobs">Linux Kernel and Embedded Engineer<span class="icon-arrow"></span></h3></a>
-		<div id="linuxeng" class="collapse">
-			<p>To satisfy the demand for our Spreedbox, we are seeking a Linux kernel and embedded development expert to join our team in Stuttgart (but we are open to remote work!). In this role you are responsible for the technical foundation of this product.</p>
-			<p class="section--paragraph__tittle">Responsibilities:</p>
-			<ul>
-				<li>Software development for Linux and C/C++</li>
-				<li>Linux kernel driver development</li>
-				<li>Documentation</li>
-				<li>Build system maintenance</li>
-				<li>Image building</li>
-			</ul>
-			<p class="section--paragraph__tittle">Required skills:</p>
-			<ul>
-				<li>Experience with Linux and kernel driver development</li>
-				<li>C/C++ and low level userland development experience</li>
-				<li>German and English language skills</li>
+            <a href="#linuxeng" data-toggle="collapse"><h3 class="jobs">Linux Kernel and Embedded Engineer<span class="icon-arrow"></span></h3></a>
+            <div id="linuxeng" class="collapse">
+                <p>To satisfy the demand for our Spreedbox, we are seeking a Linux kernel and embedded development expert to join our team in Stuttgart (but we are open to remote work!). In this role you are responsible for the technical foundation of this product.</p>
+                <p class="section--paragraph__tittle">Responsibilities:</p>
+                <ul>
+                    <li>Software development for Linux and C/C++</li>
+                    <li>Linux kernel driver development</li>
+                    <li>Documentation</li>
+                    <li>Build system maintenance</li>
+                    <li>Image building</li>
+                </ul>
+                <p class="section--paragraph__tittle">Required skills:</p>
+                <ul>
+                    <li>Experience with Linux and kernel driver development</li>
+                    <li>C/C++ and low level userland development experience</li>
+                    <li>German and English language skills</li>
 
-			</ul>
-			<p class="section--paragraph__tittle">What we offer:</p>
-			<ul>
-				<li>An open team with a passion for working on and within the open source community</li>
-				<li>Working on a product pushing the boundaries of technology and with a global user and contributor community</li>
-				<li>A competitive salary</li>
-				<li>Flexibility for a healthy work-life balance</li>
-				<li>Time for personal growth and education</li>
-			</ul>
-			<p>We are looking for all people open to learning and growing into this role! If you are interested, shoot us an email at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a>.</p>
-		</div>
-		<a href="#qtdev" data-toggle="collapse"><h3 class="jobs">Qt Developer<span class="icon-arrow"></span></h3></a>
-		<div id="qtdev" class="collapse">
-			<p>We're looking for developers with experience in C++/Qt development to join our client team!</p>
-			<p>You would work with the engineering team to bring new features and improvements to our client for Windows, Linux and Mac. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-			<p class="section--paragraph__tittle">Responsibilities:</p>
-			<ul>
-				<li>Cross-platform development, branding</li>
-				<li>Writing documentation</li>
-				<li>Build system maintenance, testing, packaging, releasing</li>
-			</ul>
-			<p class="section--paragraph__tittle">Required skills:</p>
-			<ul>
-				<li>Technical experience with C++, Qt</li>
-				<li>Teamworking capabilities</li>
-				<li>Independence and self-reliance.</li>
-				<li>Knowledge around open source technology</li>
-			</ul>
-			<p class="section--paragraph__tittle">What we offer:</p>
-			<ul>
-				<li>A distributed, open team with a passion for working on and within the open source community</li>
-				<li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
-				<li>A competitive salary</li>
-				<li>Flexibility for a healthy work-life balance</li>
-				<li>Time for personal growth and education</li>
-			</ul>
-			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-		</div>
+                </ul>
+                <p class="section--paragraph__tittle">What we offer:</p>
+                <ul>
+                    <li>An open team with a passion for working on and within the open source community</li>
+                    <li>Working on a product pushing the boundaries of technology and with a global user and contributor community</li>
+                    <li>A competitive salary</li>
+                    <li>Flexibility for a healthy work-life balance</li>
+                    <li>Time for personal growth and education</li>
+                </ul>
+                <p>We are looking for all people open to learning and growing into this role! If you are interested, shoot us an email at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a>.</p>
+            </div>
+            <a href="#qtdev" data-toggle="collapse"><h3 class="jobs">Qt Developer<span class="icon-arrow"></span></h3></a>
+            <div id="qtdev" class="collapse">
+                <p>We're looking for developers with experience in C++/Qt development to join our client team!</p>
+                <p>You would work with the engineering team to bring new features and improvements to our client for Windows, Linux and Mac. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
+                <p class="section--paragraph__tittle">Responsibilities:</p>
+                <ul>
+                    <li>Cross-platform development, branding</li>
+                    <li>Writing documentation</li>
+                    <li>Build system maintenance, testing, packaging, releasing</li>
+                </ul>
+                <p class="section--paragraph__tittle">Required skills:</p>
+                <ul>
+                    <li>Technical experience with C++, Qt</li>
+                    <li>Teamworking capabilities</li>
+                    <li>Independence and self-reliance.</li>
+                    <li>Knowledge around open source technology</li>
+                </ul>
+                <p class="section--paragraph__tittle">What we offer:</p>
+                <ul>
+                    <li>A distributed, open team with a passion for working on and within the open source community</li>
+                    <li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
+                    <li>A competitive salary</li>
+                    <li>Flexibility for a healthy work-life balance</li>
+                    <li>Time for personal growth and education</li>
+                </ul>
+                <p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+            </div>
 
-		<a href="#phpdev" data-toggle="collapse"><h3 class="jobs">PHP back-end developer<span class="icon-arrow"></span></h3></a>
-		<div id="phpdev" class="collapse">
-			<p>We're looking for developers with experience in PHP back-end development to join our server team!</p>
-			<p>You would work with the engineering team to bring new features and improvements to the server back-end like new authentication or storage mechanisms, audio/video chat and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-			<p class="section--paragraph__tittle">Responsibilities:</p>
-			<ul>
-				<li>Back end development (PHP)</li>
-				<li>Database design</li>
-				<li>Systems design</li>
-				<li>Quality assurance</li>
-			</ul>
-			<p class="section--paragraph__tittle">Required skills:</p>
-			<ul>
-				<li>Technical experience with PHP and bit of HTML, CSS, Javascript</li>
-				<li>Teamworking capabilities</li>
-				<li>Independence and self-reliance.</li>
-				<li>Knowledge around open source technology</li>
-			</ul>
-			<p class="section--paragraph__tittle">What we offer:</p>
-			<ul>
-				<li>A distributed, open team with a passion for working on and within the open source community</li>
-				<li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
-				<li>A competitive salary</li>
-				<li>Flexibility for a healthy work-life balance</li>
-				<li>Time for personal growth and education</li>
-			</ul>
-			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-		</div>
-		<!--<a href="#androiddev" data-toggle="collapse"><h3 class="jobs">Android App developer<span class="icon-arrow"></span></h3></a>
-		<div id="androiddev" class="collapse">
-			<p>We're looking for developers with experience in Android app development to join our client team!</p>
-			<p>You would work with the engineering team to bring new features and improvements to the Android app like new authentication mechanisms, audio/video chat integration and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-			<p>Responsibilities:</p>
-			<ul>
-				<li>Android development (JAVA)</li>
-				<li>Software design</li>
-				<li>UX/UI design</li>
-				<li>Quality assurance</li>
-			</ul>
-			<p>Required skills:</p>
-			<ul>
-				<li>Technical experience with Java</li>
-				<li>Teamworking capabilities</li>
-				<li>Independence and self-reliance.</li>
-				<li>Knowledge around open source technology</li>
-			</ul>
-			<p>What we offer:</p>
-			<ul>
-				<li>A distributed, open team with a passion for working on and within the open source community</li>
-				<li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
-				<li>A competitive salary</li>
-				<li>Flexibility for a healthy work-life balance</li>
-				<li>Time for personal growth and education</li>
-			</ul>
-			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-		</div>-->
-		<!--<a href="#iosdev" data-toggle="collapse"><h3 class="jobs">iOS App developer<span class="icon-arrow"></span></h3></a>
-		<div id="iosdev" class="collapse">
-			<p>We're looking for developers with experience in iOS app development to join our client team!</p>
-			<p>You would work with the engineering team to bring new features and improvements to the iOS app like new authentication mechanisms, audio/video chat integration and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-			<p>Responsibilities:</p>
-			<ul>
-				<li>iOS development (Objective-C/Swift)</li>
-				<li>Software design</li>
-				<li>UX/UI design</li>
-				<li>Quality assurance</li>
-			</ul>
-			<p>Required skills:</p>
-			<ul>
-				<li>Technical experience with iOS development</li>
-				<li>Teamworking capabilities</li>
-				<li>Independence and self-reliance.</li>
-				<li>Knowledge around open source technology</li>
-			</ul>
-			<p>What we offer:</p>
-			<ul>
-				<li>A distributed, open team with a passion for working on and within the open source community</li>
-				<li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
-				<li>A competitive salary</li>
-				<li>Flexibility for a healthy work-life balance</li>
-				<li>Time for personal growth and education</li>
-			</ul>
-			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-		</div>-->
-			<a href="#techwrite" data-toggle="collapse"><h3 class="jobs">Technical documentation writer<span class="icon-arrow"></span></h3></a>
-		<div id="techwrite" class="collapse">
-			<p>We're looking for a technical writer to join our server team!</p>
-			<p>You would work with the engineering team to make sure Nextcloud features are well documented, ensure installation and handling of Nextcloud is described well and that people can find their way around in the product. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-			<p class="section--paragraph__tittle">Responsibilities:</p>
-			<ul>
-				<li>Taking ownership of the Nextcloud documentation</li>
-				<li>Working with the Engineering team on the technical, developer and end user facing documentation</li>
-				<li>Proactively identifying areas that need further documentation</li>
-				<li>Editing, clarifying and proofreading documents written by others</li>
-			</ul>
-			<p class="section--paragraph__tittle">Required skills:</p>
-			<ul>
-				<li>Confidence in writing and copy-editing English documentation</li>
-				<li>Knowledge about Linux and basic PHP knowledge</li>
-				<li>Proficient or native german knowledge</li>
-				<li>Experience with the LAMP stack</li>
-				<li>Teamworking capabilities</li>
-				<li>Independence and self-reliance.</li>
-				<li>Knowledge around open source technology</li>
-			</ul>
-			<p class="section--paragraph__tittle">What we offer:</p>
-			<ul>
-				<li>A distributed, open team with a passion for working on and within the open source community</li>
-				<li>Working on a product which pushes the boundaries of technology and with a global user and contributor community</li>
-				<li>A competitive salary</li>
-				<li>Flexibility for a healthy work-life balance</li>
-				<li>Time for personal growth and education</li>
-			</ul>
-			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-		</div>
-			<a href="#qa" data-toggle="collapse"><h3 class="jobs">QA engineer<span class="icon-arrow"></span></h3></a>
-		<div id="qa" class="collapse">
-			<p>We're looking for an engineer who can help us test and make Nextcloud rock stable!</p>
-			<p>You would work with the engineering team to make sure Nextcloud is stable and well tested, developing and maintaining test plans, executing them and working with others to improve the automated and manual testing processes. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-			<p class="section--paragraph__tittle">Responsibilities:</p>
-			<ul>
-				<li>Taking ownership of the Nextcloud testing/QA process</li>
-				<li>Working with the Engineering team on testing and guiding community testing</li>
-				<li>Proactively identifying areas that need more/better testing</li>
-				<li>Testing, improving automated and manual testing infrastructure</li>
-			</ul>
-			<p class="section--paragraph__tittle">Required skills:</p>
-			<ul>
-				<li>Experience managing and executing QA plans</li>
-				<li>Knowledge about Linux and basic PHP knowledge</li>
-				<li>Experience with the LAMP stack</li>
-				<li>Teamworking capabilities</li>
-				<li>Independence and self-reliance.</li>
-				<li>Knowledge around open source technology</li>
-			</ul>
-			<p class="section--paragraph__tittle">What we offer:</p>
-			<ul>
-				<li>A distributed, open team with a passion for working on and within the open source community</li>
-				<li>Working on a product which pushes the boundaries of technology and with a global user and contributor community</li>
-				<li>A competitive salary</li>
-				<li>Flexibility for a healthy work-life balance</li>
-				<li>Time for personal growth and education</li>
-			</ul>
-			<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-		</div>
+            <a href="#phpdev" data-toggle="collapse"><h3 class="jobs">PHP back-end developer<span class="icon-arrow"></span></h3></a>
+            <div id="phpdev" class="collapse">
+                <p>We're looking for developers with experience in PHP back-end development to join our server team!</p>
+                <p>You would work with the engineering team to bring new features and improvements to the server back-end like new authentication or storage mechanisms, audio/video chat and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
+                <p class="section--paragraph__tittle">Responsibilities:</p>
+                <ul>
+                    <li>Back end development (PHP)</li>
+                    <li>Database design</li>
+                    <li>Systems design</li>
+                    <li>Quality assurance</li>
+                </ul>
+                <p class="section--paragraph__tittle">Required skills:</p>
+                <ul>
+                    <li>Technical experience with PHP and bit of HTML, CSS, Javascript</li>
+                    <li>Teamworking capabilities</li>
+                    <li>Independence and self-reliance.</li>
+                    <li>Knowledge around open source technology</li>
+                </ul>
+                <p class="section--paragraph__tittle">What we offer:</p>
+                <ul>
+                    <li>A distributed, open team with a passion for working on and within the open source community</li>
+                    <li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
+                    <li>A competitive salary</li>
+                    <li>Flexibility for a healthy work-life balance</li>
+                    <li>Time for personal growth and education</li>
+                </ul>
+                <p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+            </div>
+            <!--<a href="#androiddev" data-toggle="collapse"><h3 class="jobs">Android App developer<span class="icon-arrow"></span></h3></a>
+            <div id="androiddev" class="collapse">
+                <p>We're looking for developers with experience in Android app development to join our client team!</p>
+                <p>You would work with the engineering team to bring new features and improvements to the Android app like new authentication mechanisms, audio/video chat integration and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
+                <p>Responsibilities:</p>
+                <ul>
+                    <li>Android development (JAVA)</li>
+                    <li>Software design</li>
+                    <li>UX/UI design</li>
+                    <li>Quality assurance</li>
+                </ul>
+                <p>Required skills:</p>
+                <ul>
+                    <li>Technical experience with Java</li>
+                    <li>Teamworking capabilities</li>
+                    <li>Independence and self-reliance.</li>
+                    <li>Knowledge around open source technology</li>
+                </ul>
+                <p>What we offer:</p>
+                <ul>
+                    <li>A distributed, open team with a passion for working on and within the open source community</li>
+                    <li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
+                    <li>A competitive salary</li>
+                    <li>Flexibility for a healthy work-life balance</li>
+                    <li>Time for personal growth and education</li>
+                </ul>
+                <p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+            </div>-->
+            <!--<a href="#iosdev" data-toggle="collapse"><h3 class="jobs">iOS App developer<span class="icon-arrow"></span></h3></a>
+            <div id="iosdev" class="collapse">
+                <p>We're looking for developers with experience in iOS app development to join our client team!</p>
+                <p>You would work with the engineering team to bring new features and improvements to the iOS app like new authentication mechanisms, audio/video chat integration and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
+                <p>Responsibilities:</p>
+                <ul>
+                    <li>iOS development (Objective-C/Swift)</li>
+                    <li>Software design</li>
+                    <li>UX/UI design</li>
+                    <li>Quality assurance</li>
+                </ul>
+                <p>Required skills:</p>
+                <ul>
+                    <li>Technical experience with iOS development</li>
+                    <li>Teamworking capabilities</li>
+                    <li>Independence and self-reliance.</li>
+                    <li>Knowledge around open source technology</li>
+                </ul>
+                <p>What we offer:</p>
+                <ul>
+                    <li>A distributed, open team with a passion for working on and within the open source community</li>
+                    <li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
+                    <li>A competitive salary</li>
+                    <li>Flexibility for a healthy work-life balance</li>
+                    <li>Time for personal growth and education</li>
+                </ul>
+                <p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+            </div>-->
+                <a href="#techwrite" data-toggle="collapse"><h3 class="jobs">Technical documentation writer<span class="icon-arrow"></span></h3></a>
+            <div id="techwrite" class="collapse">
+                <p>We're looking for a technical writer to join our server team!</p>
+                <p>You would work with the engineering team to make sure Nextcloud features are well documented, ensure installation and handling of Nextcloud is described well and that people can find their way around in the product. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
+                <p class="section--paragraph__tittle">Responsibilities:</p>
+                <ul>
+                    <li>Taking ownership of the Nextcloud documentation</li>
+                    <li>Working with the Engineering team on the technical, developer and end user facing documentation</li>
+                    <li>Proactively identifying areas that need further documentation</li>
+                    <li>Editing, clarifying and proofreading documents written by others</li>
+                </ul>
+                <p class="section--paragraph__tittle">Required skills:</p>
+                <ul>
+                    <li>Confidence in writing and copy-editing English documentation</li>
+                    <li>Knowledge about Linux and basic PHP knowledge</li>
+                    <li>Proficient or native german knowledge</li>
+                    <li>Experience with the LAMP stack</li>
+                    <li>Teamworking capabilities</li>
+                    <li>Independence and self-reliance.</li>
+                    <li>Knowledge around open source technology</li>
+                </ul>
+                <p class="section--paragraph__tittle">What we offer:</p>
+                <ul>
+                    <li>A distributed, open team with a passion for working on and within the open source community</li>
+                    <li>Working on a product which pushes the boundaries of technology and with a global user and contributor community</li>
+                    <li>A competitive salary</li>
+                    <li>Flexibility for a healthy work-life balance</li>
+                    <li>Time for personal growth and education</li>
+                </ul>
+                <p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+            </div>
+
+            <a href="#qa" data-toggle="collapse"><h3 class="jobs">QA engineer<span class="icon-arrow"></span></h3></a>
+            <div id="qa" class="collapse">
+                <p>We're looking for an engineer who can help us test and make Nextcloud rock stable!</p>
+                <p>You would work with the engineering team to make sure Nextcloud is stable and well tested, developing and maintaining test plans, executing them and working with others to improve the automated and manual testing processes. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
+                <p class="section--paragraph__tittle">Responsibilities:</p>
+                <ul>
+                    <li>Taking ownership of the Nextcloud testing/QA process</li>
+                    <li>Working with the Engineering team on testing and guiding community testing</li>
+                    <li>Proactively identifying areas that need more/better testing</li>
+                    <li>Testing, improving automated and manual testing infrastructure</li>
+                </ul>
+                <p class="section--paragraph__tittle">Required skills:</p>
+                <ul>
+                    <li>Experience managing and executing QA plans</li>
+                    <li>Knowledge about Linux and basic PHP knowledge</li>
+                    <li>Experience with the LAMP stack</li>
+                    <li>Teamworking capabilities</li>
+                    <li>Independence and self-reliance.</li>
+                    <li>Knowledge around open source technology</li>
+                </ul>
+                <p class="section--paragraph__tittle">What we offer:</p>
+                <ul>
+                    <li>A distributed, open team with a passion for working on and within the open source community</li>
+                    <li>Working on a product which pushes the boundaries of technology and with a global user and contributor community</li>
+                    <li>A competitive salary</li>
+                    <li>Flexibility for a healthy work-life balance</li>
+                    <li>Time for personal growth and education</li>
+                </ul>
+                <p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+            </div>
 		<h3 class="jobs">And more</h3>
 		<div>
 			<p>We are always looking for talented new people in all areas of our business--from engineering and support to sales and marketing. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> and tell us how you can help!</p>
