@@ -66,7 +66,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/fabian.jpg" />
 				<h2 class="teamname">Fabian Liedtke</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Account manager</h3>
@@ -443,7 +443,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/tobias.jpg" />
 				<h2 class="teamname">Tobias Kaminsky</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
