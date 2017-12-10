@@ -45,7 +45,7 @@ require(["require.config"], function() {
 		<div class="col-sm-3 customer">
             <div class="customer-logo">
                 <div class="scaling-svg-container">
-            <a href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/"><?php echo file_get_contents(get_template_directory_uri()."/assets/img/customers/tuberlin.svg") ?></a>
+            <a href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/"><?php echo file_get_contents(get_template_directory_uri()."/assets/img/customers/tuberlin.png") ?></a>
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@ require(["require.config"], function() {
         </div>
         <div class="col-sm-3 customer">
             <div class="customer-logo">
-            <a href="https://nextcloud.com/blog/the-danish-research-and-education-network-moves-from-owncloud-to-nextcloud/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/deic.jpg" /></a>
+            <a href="https://nextcloud.com/blog/the-danish-research-and-education-network-moves-from-owncloud-to-nextcloud/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/deic.png" /></a>
             </div>
         </div>
         <div class="col-sm-3 customer">
