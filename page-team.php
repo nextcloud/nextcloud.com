@@ -286,7 +286,7 @@
 		</div>
         <div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/dogan.jpg" />
 				<h2 class="teamname">Doğan Can Uçar</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
@@ -455,7 +455,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/tomaz.jpg" />
 				<h2 class="teamname">Tomaz Canabrava</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
