@@ -11,7 +11,7 @@
   background-position: center;
   background-size: cover; }
 
-.col-md-8 p {
+.section--header .col-md-8 p {
   text-align: center; }
 
 .image--floated {
@@ -30,6 +30,9 @@ section {
 
 .section--more {
   padding-bottom: 0; }
+
+.quote {
+  text-align: center; }
 
 .row {
   padding-top: 60px; }
