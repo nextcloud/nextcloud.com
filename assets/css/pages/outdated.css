@@ -1,0 +1,24 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.outdated-background {
+  background: url("../../img/headers/outdated.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.section-letter .section--paragraph {
+  padding-top: 10px; }
+
+section {
+  padding: 100px 0; }
+  section .section--paragraph__tittle {
+    padding: 10px 0 20px 0; }
+  section .row {
+    padding-top: 60px; }
+
+/*# sourceMappingURL=outdated.css.map */
