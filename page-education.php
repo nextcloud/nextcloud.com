@@ -44,7 +44,7 @@ require(["require.config"], function() {
     <div class="row">
 		<div class="col-sm-3 customer">
             <div class="customer-logo">
-                <a href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/"><?php echo file_get_contents(get_template_directory_uri()."/assets/img/customers/tuberlin.png") ?></a>
+                <a href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/tuberlin.png" /></a>
             </div>
         </div>
 		<div class="col-sm-3 customer">
