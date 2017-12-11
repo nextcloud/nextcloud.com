@@ -169,14 +169,12 @@
     <div class="row">
 		<div class="col-sm-3 customer">
             <div class="customer-logo">
-                <div class="scaling-svg-container">
-            <a href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/"><?php echo file_get_contents(get_template_directory_uri()."/assets/img/customers/tuberlin.png") ?></a>
-                </div>
+                <a href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets//img/customers/tuberlin.png" /></a>
             </div>
         </div>
 		<div class="col-sm-3 customer">
             <div class="customer-logo">
-            <a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/regioit.png" /></a>
+                <a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/regioit.png" /></a>
             </div>
         </div>
         <div class="col-sm-3 customer">
