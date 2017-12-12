@@ -399,7 +399,7 @@
 					<h4 class="teamlocation">lives in Vicenza, Italy</h4>
 					<p class="teamsocial"> <a href="https://github.com/marinofaggiana"><i class="fa-github fa"></i></a> <a href="https://twitter.com/marinofaggiana"><i class="fa-twitter fa"></i></a> <a href="https://www.linkedin.com/in/marino-faggiana-596569106/"><i class="fa-linkedin fa"></i></a></p>
 				</div>
-				<p class="teamdescription">Marino studied telecommunications in Vicenza and engineering at Padua University where he founded software company T.W.S. He is the principal author of Crypto Cloud, a popular iOS application which became the base for the Nextcloud iOS app. He is fond of microelectronics, telecommunications and information technology.</p>
+				<p class="teamdescription">Marino studied telecommunications in Vicenza. While studing engineering at Padua University he founded software company T.W.S. He is the principal author of Crypto Cloud, a popular iOS application which became the base for the Nextcloud iOS app. He is fond of microelectronics, telecommunications and information technology.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
