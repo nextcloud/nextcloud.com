@@ -214,7 +214,7 @@
       },
 	{
          "title":"nimmerland",
-         "url":"https:\/\/nextcloud.space",
+         "url":"https:\/\/nimmerland.berlin",
          "flags":[
             "de",
             "eu"
@@ -222,7 +222,7 @@
          "freeplans":false,
 		 "supports":"both",
          "specializes":[
-            "Nimmerland plant, hostet und betreut seit 2013 ownCloud für Business. Naturstrom. Daily Backup. Serverstandort Berlin. Low Budget für Privatkunden."
+            "Nimmerland plans, hosts and supervises cloud ins tallations for small businesses since 2013. Natural Power. Server location Berlin. Low prices for private customers."
          ],
          "imagename":"nimmerland.png"
       },
