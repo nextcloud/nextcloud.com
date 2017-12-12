@@ -7,22 +7,11 @@
 		<div class="row">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Contribute to Nextcloud design');?></h1>
-				<h2><?php echo $l->t('Let\'s make a private cloud for everybody');?></p>
+				<h2><?php echo $l->t('Help make privacy easy to use');?></p>
 			</div>
 		</div>
 	</div>
 </div>
-
-<section class="section--header">
-<div class="container">
-	<div class="row">
-		<div class="col-md-8 col-md-offset-2 revealOnScroll">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Designing together');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Something about our design philosophy');?></p>
-		</div>
-	</div>
-</div>
-</section>
 
 
 <section class="section--getinvolved">
@@ -32,7 +21,7 @@
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/conference/grouppic2016_wee.jpg" />
 		</div>
 		<div class="col-md-6 revealOnScroll">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Get involved');?></p>
+			<h3 class="section--paragraph__tittle"><?php echo $l->t('Get involved');?></h3>
 			<ul>
                 <li><?php echo $l->t('We have a <a href="https://github.com/nextcloud/server/labels/design" target="_blank">Design label on GitHub</a> – check out these issues if you want to help and fix interface problems. This label is also in the other repositories for clients and apps.');?></li>
                 <li><?php echo $l->t('For easier issues and to get started, check out the <a href="https://github.com/nextcloud/server/issues?q=label%3Adesign+label%3A%22starter+issue%22+is%3Aopen" target="_blank">Design issues also marked »starter issue«</a>');?></li>
@@ -47,7 +36,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12 revealOnScroll">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Design team');?></p>
+			<h3 class="section--paragraph__tittle"><?php echo $l->t('Design team');?></h3>
 			<p><?php echo $l->t('There is an <strong>@nextcloud/designers group on GitHub</strong>. This enables people to just mention @nextcloud/designers in issues and pull requests to notify all designers. Otherwise you have to mention each one individually.');?></p>
 
             <p><?php echo $l->t('The main people working on Nextcloud design are:');?></p>
@@ -67,7 +56,7 @@
 
 
 
-            <h2><?php echo $l->t('Design guidelines');?></h2>
+            <h3 class="section--paragraph__tittle"><?php echo $l->t('Design guidelines');?></h3>
             <ul>
                 <li><?php echo $l->t('Software should work. Only put features into master when they are complete. It is better to not have a feature instead of having one that works poorly.');?></li>
                 <li><?php echo $l->t('Software should get out of the way. Do things automatically instead of offering configuration options. When people ask for a setting, find out what the root of the problem is and fix that instead. Also read <a href="http://ometer.com/preferences.html" target="_blank">»Choosing our Preferences«</a>.');?></li>
@@ -84,7 +73,7 @@
 
 
 
-            <h2><?php echo $l->t('More concrete HTML+CSS guidelines');?></h2>
+            <h3 class="section--paragraph__tittle"><?php echo $l->t('More concrete HTML+CSS guidelines');?></h3>
             <ul>
                 <li><?php echo $l->t('HTML and CSS building blocks are in <a href="https://docs.nextcloud.com/server/12/developer_manual/design/index.html" target="_blank">our Design documentation</a>.');?></li>
                 <li><?php echo $l->t('We basically follow <a href="https://google.github.io/styleguide/htmlcssguide.html" target="_blank">Google’s HTML+CSS style guide</a>, with small exceptions:');?></p>
@@ -101,7 +90,7 @@
 
 
 
-            <h2><?php echo $l->t('Further reading');?></h2>
+            <h3 class="section--paragraph__tittle"><?php echo $l->t('Further reading');?></h3>
 
             <ul>
                 <li><?php echo $l->t('Watch a short video on <a href="https://www.youtube.com/watch?v=5SAB0CY-iZ0" target="_blank">our design principles and how to get involved</a>.');?></li>
