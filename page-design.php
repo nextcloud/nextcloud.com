@@ -1,5 +1,10 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/design.css" rel="stylesheet">
+<script>
+	require(["require.config"], function() {
+		require(["modules/youtubePlayer"])
+	});
+</script>
 </head>
 
 <div class="background design-background">
@@ -18,7 +23,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 revealOnScroll image--floated">
-			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/conference/grouppic2016_wee.jpg" />
+			<div data-type="youtube" data-video-id="5SAB0CY-iZ0"></div>
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<h3 class="section--paragraph__tittle"><?php echo $l->t('Get involved');?></h3>
