@@ -58,9 +58,11 @@
             <p><?php echo $l->t('Please let us know if you want to contribute to the design and would like to be in this group. You will be notified every time someone mentions this team in an issue, which would be every design issue or pull request.');?></p>
 
             <p><?php echo $l->t('You should also join the <strong><a href="https://riot.im/app/#/room/#freenode_#nextcloud-design:matrix.org" target="_blank">#nextcloud-design channel on IRC</a></strong>. We use this to communicate on smaller issues, talk about what to work on next, and just general chatter. It’s good to get to know the other people and for organization in general.');?></p>
+        </div>
+    </div>
 
-
-
+	<div class="row">
+		<div class="col-md-12 revealOnScroll">
             <h3 class="section--paragraph__tittle"><?php echo $l->t('Design guidelines');?></h3>
             <ul>
                 <li><?php echo $l->t('Software should work. Only put features into master when they are complete. It is better to not have a feature instead of having one that works poorly.');?></li>
@@ -75,9 +77,11 @@
                 <li><?php echo $l->t('Test on different devices. The web interface should work on a smartphone or tablet as well as it does on desktop.');?></li>
                 <li><?php echo $l->t('For further UX principles, read <a href="http://uxmag.com/articles/quantifying-usability" target="_blank">Alex Faaborg from Mozilla</a>.');?></li>
             </ul>
+        </div>
+    </div>
 
-
-
+	<div class="row">
+		<div class="col-md-12 revealOnScroll">
             <h3 class="section--paragraph__tittle"><?php echo $l->t('More concrete HTML+CSS guidelines');?></h3>
             <ul>
                 <li><?php echo $l->t('HTML and CSS building blocks are in <a href="https://docs.nextcloud.com/server/12/developer_manual/design/index.html" target="_blank">our Design documentation</a>.');?></li>
@@ -92,9 +96,11 @@
                 <li><?php echo $l->t('Accessibility is very important, so we use the <a href="http://wave.webaim.org/extension/" target="_blank">WAVE browser extension</a> to check the HTML for proper accessibility.');?></li>
                 <li><?php echo $l->t('We don’t use Bootstrap because there’s lots of parts we don’t need and we would need to customize a lot anyway. We do use pieces of Bootstrap though, like Tipsy for tooltips.');?></li>
             </ul>
+        </div>
+    </div>
 
-
-
+	<div class="row">
+		<div class="col-md-12 revealOnScroll">
             <h3 class="section--paragraph__tittle"><?php echo $l->t('Further reading');?></h3>
 
             <ul>
