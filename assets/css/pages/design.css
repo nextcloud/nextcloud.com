@@ -14,9 +14,6 @@
 .col-md-8 p {
   text-align: center; }
 
-.image--floated {
-  float: right; }
-
 .section--desktop {
   padding-top: 80px; }
 
@@ -24,6 +21,9 @@ section {
   padding: 100px 0; }
   section .section--paragraph__tittle {
     padding: 0; }
+
+ul {
+  list-style-type: initial; }
 
 .feature--block {
   padding-top: 60px; }
