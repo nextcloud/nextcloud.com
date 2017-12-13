@@ -22,9 +22,6 @@
 <section class="section--getinvolved">
 <div class="container">
 	<div class="row">
-		<div class="col-md-6 revealOnScroll image--floated">
-			<div data-type="youtube" data-video-id="5SAB0CY-iZ0"></div>
-		</div>
 		<div class="col-md-6 revealOnScroll">
 			<h3 class="section--paragraph__tittle"><?php echo $l->t('Get involved');?></h3>
 			<ul>
@@ -32,6 +29,9 @@
                 <li><?php echo $l->t('For easier issues and to get started, check out the <a href="https://github.com/nextcloud/server/issues?q=label%3Adesign+label%3A%22starter+issue%22+is%3Aopen" target="_blank">Design issues also marked »starter issue«</a>');?></li>
                 <li><?php echo $l->t('<a href="https://github.com/nextcloud/server/issues?q=label%3Adesign+label%3Ahigh+is%3Aopen" target="_blank">High priority design issues</a> are additionally marked with the »High« label – these we need to prioritize, and fixing any of those will make you everyone’s hero!');?></li>
             </ul>
+		</div>
+        <div class="col-md-6 revealOnScroll">
+			<div data-type="youtube" data-video-id="5SAB0CY-iZ0"></div>
 		</div>
 	</div>
 </div>
