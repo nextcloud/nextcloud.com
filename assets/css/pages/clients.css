@@ -11,13 +11,13 @@
   background-position: center;
   background-size: cover; }
 
-.section--paragraph__tittle {
-  padding: 0; }
-
-.section--desktop {
-  padding: 100px 0; }
-
-.section--mobile {
-  padding: 100px 0; }
+section {
+  padding: 50px 0; }
+  section .section--paragraph__tittle {
+    padding: 0; }
+  section .row {
+    padding-top: 80px; }
+  section h2 {
+    padding-bottom: 40px; }
 
 /*# sourceMappingURL=clients.css.map */
