@@ -1,7 +1,7 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/webrtc.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/talk.css" rel="stylesheet">
 </head>
-<div class="background webrtc-background">
+<div class="background talk-background">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">

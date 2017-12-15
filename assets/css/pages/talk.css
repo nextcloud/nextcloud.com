@@ -6,8 +6,8 @@
   background-color: transparent;
   position: absolute; }
 
-.webrtc-background {
-  background: url("../../img/headers/webrtc.jpg") no-repeat;
+.talk-background {
+  background: url("../../img/headers/talk.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   margin-bottom: 50px; }
@@ -30,4 +30,4 @@ section {
 footer {
   margin-top: 0px; }
 
-/*# sourceMappingURL=webrtc.css.map */
+/*# sourceMappingURL=talk.css.map */
