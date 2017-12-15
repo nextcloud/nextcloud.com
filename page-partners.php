@@ -127,7 +127,7 @@
 				<a href="https://www.teebase.eu" target="_blank" title="Teebase Ltd">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/teebase.png" title="Teebase logo" />
 				</a>
-				<p  class="partnertext">TeeBase UK Ltd offers an arsenal of devices and services for digital security to protect your data and intellectual property even when using the Internet. Be free from hackers, malware and ransomware that destroy shareholder value and ruin careers</p>
+				<p  class="partnertext">TeeBase UK Ltd offers an arsenal of devices and services for digital security to protect your data and intellectual property even when using the Internet. Be free from hackers, malware and ransomware that destroy shareholder value and ruin careers.</p>
 			</div>
 			<div class="col-md-4">
 				<a href="https://www.univention.de/" target="_blank" title="Univention">
@@ -141,9 +141,17 @@
 				</a>
 				<p  class="partnertext"></p>
 			</div>-->
-
-
 		</div>
+
+        <div class="row">
+            <div class="col-md-4">
+            <a href="https://www.zerotrust.fr" target="_blank" title="Zero Trust">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/zerotrust.png" title="ZeroTrust logo" />
+				</a>
+				<p  class="partnertext">Zero Trust is a french company offering IT consulting, security audits and security solutions integration. We provide Nextcloud  for our customers in order to improve their data protection and compliance with RGDP and other regulations.</p>
+            </div>
+        </div>
+
 	</div>
 </section>
 
