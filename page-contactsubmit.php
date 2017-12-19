@@ -89,7 +89,7 @@ if(isset($_POST['email'])) {
 // the app review mailing list address
     $email_message = "Form details below.\n\n";
     $email_to = "sales@nextcloud.com";
-    $email_subject = "Contacts_form";
+    $email_subject = "Nextcloud Contact Form: ".clean_string($organization);
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Organization: ".clean_string($organization)."\n";
