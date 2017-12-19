@@ -106,7 +106,7 @@ if(isset($_POST['email'])) {
 //     $email_to = "sales@nextcloud.com";
     $email_message = "Quote request form details below.\n\n";
     $email_to = "sales@nextcloud.com";
-	$email_subject = "Enterprise_form quote request";
+	$email_subject = "Nextcloud Enterprise Support: ".clean_string($organization);
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Phone number: ".clean_string($phone)."\n";
