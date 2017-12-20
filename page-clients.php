@@ -88,7 +88,7 @@
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('top-rated iOS app');?></p>
-                <p class="section--paragraph"><?php echo $l->t('The Nextcloud iOS app provides a way for users to access and sync files on the go in a easy and intuitive interface. The client us kept always up to date with the latest iOS versions and designed for both smaller and newer iPhones, iPhone X and iPad.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The Nextcloud iOS app provides a way for users to access and sync files on the go in a easy and intuitive interface. The client is kept always up to date with the latest iOS versions and designed for both smaller and newer iPhones, iPhone X and iPad.');?></p>
                 <div class="row">
                 <div class="col-xs-6 mobileclientbuttons">
                     <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
@@ -110,18 +110,18 @@
                 <li>Add, rename, copy, move and delete files and folders</li>
                 <li>Keep your favorite files synchronized offline</li>
                 <li>Share files with others</li>
-                <li>Client-side, <a class="hyperlink" href="/endtoend">End-to-end encryption</a> (version >3.0)</li>
+                <li>Client-side, <a class="hyperlink" href="/endtoend">End-to-end encryption</a> (version >2.20)</li>
                 <li>Local and server-side search</li>
                 <li>Support for server notifications and file activity feed</li>
                 <li>3D Touch peek&pop and homescreen quick actions</li>
                 <li>Multi-account support</li>
-                <li>Adjusts theming to your Nextcloud server</li>
+                <li>Adjusts to Nextcloud server theming preferences</li>
                 <li>Auto-upload of photos and videos with:
                 <ul>
                 <li>optional automatic folder categorization based on date taken</li>
                 <li>Optional wifi-only upload</li>
                 <li>Custom file naming</li>
-                <li>Choose JPG/HEIC</li>
+                <li>Choose between JPG and HEIC for photo uploads</li>
                 </ul></li>
                 </ul>');?></p>
             </div>
@@ -165,7 +165,7 @@
                 <li>Support for server push notifications and file activity feed</li>
                 <li>Multi-account support</li>
                 <li>Fingerprint locking</li>
-                <li>Adjusts theming to your Nextcloud server</li>
+                <li>Adjusts to Nextcloud server theming preferences</li>
                 <li>Auto-upload of photos and videos with:
                 <ul>
                 <li>optional automatic folder categorization based on date taken</li>
