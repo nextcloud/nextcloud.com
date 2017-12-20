@@ -287,7 +287,7 @@ require(["require.config"], function() {
         <div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('File Access Control');?></p>
             <p class="section--paragraph"><?php echo $l->t('The File Access Control feature of Nextcloud enables IT to codify legal and policy requirements, blocking students and others from  uploading or downloading data following defined rules. Criteria include IP address ranges, group membership, file type, time and more. Data retention can be controlled as well, enabling universities to limit the lifetime of certain files.');?></p>
-            <a href="/globalscale" class="button button--blue button--arrow button--large"><?php echo $l->t('File Access Control');?></a>
+            <a href="/workflow" class="button button--blue button--arrow button--large"><?php echo $l->t('File Access Control');?></a>
         </div>
     </div>
     <div class="row">
@@ -297,7 +297,7 @@ require(["require.config"], function() {
         <div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('Monitoring');?></p>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud offers powerful monitoring capabilities built in, enabling institutions to ensure smooth performance. Systems can be monitored using the web interface or through monitoring and systems intelligence tools like OpenNMS, Splunk, Nagios or others.');?></p>
-            <a href="/globalscale" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring');?></a>
+            <a href="/monitoring" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring');?></a>
         </div>
     </div>
     <div class="row claim--container">
