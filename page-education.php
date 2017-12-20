@@ -105,9 +105,9 @@ require(["require.config"], function() {
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('The Dashboard app came from a collaboration with regio iT and is used at hundreds of schools in Europe. It provides a quick overview of file changes, calendar events and more.');?></p>
         </div>
         <div class="col-sm-4 app-feature">
-            <img class="img-responsive revealOnScroll" src="<?php bloginfo('template_directory'); ?>/assets/img/features/groupfolders-nw.png" />
-            <h2 class="section--heading-2 text-center revealOnScroll">Group Folders</h2>
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('The Group Folders app enables administrators to create special folders available to users of designated groups. These can not be unshared or removed, making sure access is always possible.');?></p>
+            <img class="img-responsive revealOnScroll" src="<?php bloginfo('template_directory'); ?>/assets/img/features/picocms-nw.png" />
+            <h2 class="section--heading-2 text-center revealOnScroll">PicoCMS</h2>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud <a href="https://nextcloud.com/blog/nextcloud-introduces-easy-website-builder-for-education-edition-with-picocms/" class="hyperlink">PicoCMS</a> offers a very small, simple way of managing and presenting content. Developed in collaboration with the Danish DeiC, it lets users built websites collaboratively and define access rights, themes and URL.');?></p>
         </div>
     </div>
     <div class="row">
