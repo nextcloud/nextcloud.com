@@ -38,7 +38,7 @@
 					<p class="section--paragraph"><?php echo $l->t('Collabora Online supports editing your documents in real time with multiple other editors, showing high fidelity, WYSIWYG rendering and preserving the layout and formatting of your documents.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Users can insert and reply to comments and invite others without a Nextcloud account for anonymous editing of files with a public link shared folder.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Collabora Online supports dozens of document formats including <strong>DOC</strong>, <strong>DOCX</strong>, <strong>PPT</strong>, <strong>PPTX</strong>, <strong>XLS</strong>, <strong>XLSX + ODF</strong>, <strong>Import/View Visio</strong>, <strong>Publisher</strong> and many more...');?></p>
-					<p class="section--paragraph"><?php echo $l->t('Collabora Online is under heavy development and continues to add features and improvements all the time!');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Collabora Online Development Edition (CODE) is free and under heavy development, adding features and improvements all the time! Enterprise users have access to the more stable, scalable Collabora Online Enterprise version through a Nextcloud support subscription.');?></p>
 				</div>
 				<div class="col-md-6 revealOnScroll">
 					<div data-type="youtube" data-video-id="8iuSFKVl-xQ"></div>
@@ -80,7 +80,7 @@
 		<div class="col-md-10 col-md-offset-1">
 			<div class="featurerow">
 				<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Collabora Online integration tutorial video');?></h2>
-				<p class="section--paragraph text-center"><?php echo $l->t('We are able to provide a solution for Online Office for the entire Nextcloud community through our <a target="_blank" class="hyperlink" href="https://nextcloud.com/?p=589">partnership with Collabora</a> in an <strong>easy to use <a class="hyperlink" href="https://hub.docker.com/r/collabora/code">docker image</a> for home users</strong>.');?></p>
+				<p class="section--paragraph text-center"><?php echo $l->t('We are able to provide a solution for Online Office for the entire Nextcloud community through our <a target="_blank" class="hyperlink" href="https://nextcloud.com/?p=589">partnership with Collabora</a> in an <strong>easy to use <a class="hyperlink" href="https://hub.docker.com/r/collabora/code">docker image</a> for developers and home users</strong>. Enterprise users looking for a more reliable solution should <a class="hyperlink" href="/buy">contact Nextcloud Sales</a>.');?></p>
 				<div class="row">
 					<div class="col-md-1">
 					</div>
