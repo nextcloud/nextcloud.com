@@ -366,7 +366,7 @@ require(["require.config"], function() {
             Attention: HIPAA Privacy Officer<br>
             Kronenstr. 22A<br>
             70173 Stuttgart Germany<br>
-            info@enextcloud.com');?></p>
+            info@nextcloud.com');?></p>
         </div>
     </div>
 </div>
