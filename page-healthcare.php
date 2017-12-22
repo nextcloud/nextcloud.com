@@ -31,7 +31,7 @@ require(["require.config"], function() {
 <div class="container">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-            <p class="section--paragraph text-center"><?php echo $l->t('Patient safety is the highest priority at health care and life science institutions. Nextcloud makes patient information available to health care professionals when they need it with the highest degree of reliability, security and privacy.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Patient safety is the highest priority at health care and life science institutions. Nextcloud makes patient information available to health care professionals when they need it through an easy to use interface with the highest degree of reliability, security and privacy.');?></p>
 		</div>
 	</div>
 </div>
@@ -93,7 +93,7 @@ require(["require.config"], function() {
         </div>
         <div class="row">
             <div class="col-md-10 col-md-offset-1 revealOnScroll feature--block">
-                <p class="section--paragraph revealOnScroll"><?php echo $l->t('With the growing complexity of the medical profession comes increasing amounts of patient data. Having patient information available in a moments notice can save lives. Nextcloud is designed for ease of use, lowering the barrier to sharing and data access.');?></p>
+                <p class="section--paragraph revealOnScroll"><?php echo $l->t('With the growing complexity of the medical profession comes increasing amounts of patient data. Having patient information available in a moments notice can save lives. Nextcloud is designed for ease of use, fitting familiar interfaces and lowering the barrier to sharing and data access.');?></p>
             </div>
         </div>
         <div class="row">
@@ -134,7 +134,8 @@ require(["require.config"], function() {
             <li><a class="hyperlink" href="https://www.hhs.gov/hipaa/for-professionals/privacy/index.html">HIPAA privacy rules</a></li>
             <li><a class="hyperlink" href="https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html">HIPAA security regulations</a></li>
             <li><a class="hyperlink" href="https://www.hhs.gov/sites/default/files/ocr/privacy/hipaa/administrative/securityrule/techsafeguards.pdf">HIPAA security technical safeguards requirements</a></li>
-            </ul></p>
+            </ul>
+            <?php echo $l->t('Nextcloud fits seamlessly in a HIPAA compliant infrastructure. <a href="#HIPAA">More details below</a>.');?></p>
         </div>
         <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/medicaldevices.jpeg">
         <img class="small-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/medicaldevices-small.jpeg">
@@ -153,7 +154,7 @@ require(["require.config"], function() {
     </div>
     <div class="row">
         <div class="col-md-10 col-md-offset-1 revealOnScroll feature--block">
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Healthcare data is both extremely sensitive and needs to be immediately accessible. Regulators are aware and privacy and security requirements are extremely strict with HIPAA and HITECH rules in the US matched in many other countries accross the globe.');?></p>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Healthcare data is both extremely sensitive and needs to be immediately accessible. Regulators are aware and privacy and security requirements are extremely strict with HIPAA and HITECH rules in the US matched in many other countries across the globe.');?></p>
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud is a popular self-hosted solution in healthcare for its ability to strictly control access to data and industry leading security capabilities.');?></p>
         </div>
     </div>
