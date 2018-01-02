@@ -1039,16 +1039,16 @@ blockquote {
 .quote {
 	padding: 80px 0 80px 0;
 	background: $nextcloud-blue;
-	p {
+	color: white !important;
+	p,ul,li {
 		color: white !important;
 	}
 	h1,h2,h3,h4,h5,h6 {
 		color: white !important;
 	}
 	.hyperlink {
-		color: white;
+		color: white !important;
 	}
-	color: white !important;
 }
 
 /* Whitepaper sections */
