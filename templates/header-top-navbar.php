@@ -37,7 +37,7 @@ require get_template_directory().'/strings.php';
                             </a>
                         </li>
 						<li class="nav__item">
-                            <a href="<?php echo home_url('webrtc') ?>">
+                            <a href="<?php echo home_url('talk') ?>">
                                 <div class="nav__logo">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Talk.svg" >
                                 </div>
