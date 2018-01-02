@@ -17,9 +17,9 @@
 				<span class="message"><strong>85% faster LDAP</strong> and more speed coming in Nextcloud 13! Help test the beta.</span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
-				<h1 class="jumbotron--heading-1"><?php echo $l->t('A safe home for all your data');?></h1>
-				<h2 class="jumbotron--lead"><?php echo $l->t('Access, share and protect your files, calendars, contacts, communication & more at home and in your enterprise.');?></h2>
-				<a class="button button--large button--arrow" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Get Nextcloud</a>');?>
+				<h1 class="jumbotron--heading-1"><?php echo $l->t('Nextcloud - Protecting your data');?></h1>
+				<h2 class="jumbotron--lead"><?php echo $l->t('Building products that allow you to be productive without losing control');?></h2>
+				<a class="button button--large button--arrow" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Learn more</a>');?>
 			</div>
 			<div class="col-md-6 topbanner">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/empty.png"> <!--empty image to ensure the viewport is big enough-->

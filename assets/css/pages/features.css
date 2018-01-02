@@ -41,6 +41,16 @@ section {
   section .section--paragraph__tittle {
     /* 		padding: 0; */ }
 
+.section--outlook {
+  margin: 80px 0 50px 0;
+  padding: 50px 0px;
+  background: #0082c9; }
+  .section--outlook p, .section--outlook h1, .section--outlook h2 {
+    color: white;
+    margin: 20px 0 20px 0; }
+  .section--outlook .hyperlink {
+    color: white; }
+
 .section--more .container-widest .row {
   margin-left: 5px;
   margin-right: 5px; }
