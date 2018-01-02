@@ -36,12 +36,14 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Designed to not to be in your way');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk lowers the barrier for communication and lets you connect any time, any where, on any device. Nextcloud Talk is on-premise hosted and fully end-to-end encrypted, making sure you stay in control!');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk lowers the barrier for communication and lets your team connect any time, any where, on any device.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is fully open source, on-premise hosted and fully end-to-end encrypted, making sure communication stays completely private!');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Customers have optional access to the Spreed High Performance Back-end offering enterprise class scalability, reliability and features.');?></p>
 		</div>
 	</div>
 	<div class="row list">
         <div class="col-md-6 revealOnScroll">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/clients/mobile/android.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/clients/mobile/android.png" class="img-responsive" /></a>
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/clients/mobile/android.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/clients/mobile/android-talk.png" class="img-responsive" /></a>
         </div>
         <div class="col-md-6 revealOnScroll">
             <p class="section--paragraph__tittle"><?php echo $l->t('Benefits');?></p>
@@ -130,27 +132,30 @@
     <div class="container">
         <h2 class="text-center revealOnScroll"><?php echo $l->t('Key Features');?></h2>
         <div class="row">
-            <div class="col-md-4 revealOnScroll">
+            <div class="col-sm-3 col-sm-offset-1 revealOnScroll">
                 <p class="section--paragraph"><?php echo $l->t('<ul>
                 <li>Web audio/video</li>
                 <li>Screen Sharing</li>
                 <li>Side chat</li>
                 </ul>');?></p>
             </div>
-            <div class="col-md-4 revealOnScroll">
+            <div class="col-sm-3 col-sm-offset-1 revealOnScroll">
                 <p class="section--paragraph"><?php echo $l->t('<ul>
                 <li>HD video conferencing</li>
                 <li>Moderation</li>
                 <li>Mobile apps for Android and iOS</li>
                 </ul>');?></p>
             </div>
-            <div class="col-md-4 revealOnScroll">
+            <div class="col-sm-3 col-sm-offset-1 revealOnScroll">
                 <p class="section--paragraph"><?php echo $l->t('<ul>
                 <li>Calendar and reminders</li>
                 <li>Unlimited meetings</li>
                 <li>Public and private meetings</li>
                 </ul>');?></p>
             </div>
+        </div>
+        <div class="row">
+        <p class="section--paragraph text-center"><?php echo $l->t('optional Spreed High Performance Back-end offering enterprise class scalability, reliability and features.');?></p>
         </div>
     </div>
 </div>
@@ -164,7 +169,9 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Private, group and public calls');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Video calls enables you to call your friends, customers and partners in one-to-one or group-scenarios. You can also invite external chat participants with an URL into public rooms on your Nextcloud.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Video calls makes it easy to call customers and partners in one-to-one or group-scenarios.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Users can invite external chat participants with an URL into public rooms on the Nextcloud server.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The chat on the right hand side enables participants to easily exchange messages, links and notes.');?></p>
 		</div>
 	</div>
 	<div class="row">
@@ -173,7 +180,8 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Webinars and presentations');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Share a single window or your full desktop screen content for presentations with your chat-partners.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Share the content of a single window or a full desktop screen for presentations with chat-partners.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Manage participants by inviting, muting or removing them.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Schedule meetings and be notified when they start.');?></p>
 		</div>
 	</div>
@@ -183,7 +191,9 @@
 		</div>
 	<div class="col-md-6 revealOnScroll">
 		<p class="section--paragraph__tittle"><?php echo $l->t('Secure and private');?></p>
-		<p class="section--paragraph"><?php echo $l->t('Calls are end-to-end encrypted so no communication can be intercepted. By running Nextcloud Talk on your own server, you can ensure the privacy of your calls.');?></p>
+		<p class="section--paragraph"><?php echo $l->t('Calls are end-to-end encrypted so no communication can be intercepted.');?></p>
+		<p class="section--paragraph"><?php echo $l->t('Chat logs are stored securely on your own server.');?></p>
+		<p class="section--paragraph"><?php echo $l->t('The privacy of communication and its metadata is guaranteed by self-hosting Nextcloud Talk!');?></p>
 		</div>
 	</div>
 </div>
@@ -196,17 +206,17 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
                     <div class="row text-center">
-                        <div class="col-xs-4 mobileclientbuttons">
+                        <div class="col-sm-4 mobileclientbuttons">
                             <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png"></a>
+                            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png"></a>
                         </div>
-                        <div class="col-xs-4">
+                        <div class="col-sm-4">
                             <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"></a>
+                            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"></a>
                         </div>
-                        <div class="col-xs-4">
+                        <div class="col-sm-4">
                             <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID; ?>">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a>
+                            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a>
                         </div>
                     </div>
                 </div>
@@ -218,45 +228,61 @@
 <section class="section--options">
 	<a name="options" id="options"></a>
 <div class="container-widest">
-	<div class="introduction">
-		<h1 class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('Enterprise options');?></h1>
-		<p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Extend Nextcloud Talk to service your needs');?></p>
+	<div class="row introduction">
+        <div class="col-lg-6 col-lg-offset-3">
+            <h1 class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('Enterprise capabilities');?></h1>
+            <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('The Spreed High Performance back-end for large organizations by Struktur AG offers the capacity, reliability and features enterprises need to conduct their business privately, securely and efficiently.');?></p>
+		</div>
 	</div>
     <div class="row revealOnScroll">
         <div class="col-md-4">
 			<div class="featureblock">
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/spreed-two-nw.png">
-				<p class="section--paragraph__tittle"><?php echo $l->t('Improved Connectivity');?></p>
-				<p class="section--paragraph"><?php echo $l->t('Connect participants even behind complicated firewalls or restrictive networks');?></p>
+				<p class="section--paragraph__tittle"><?php echo $l->t('Remove obstacles');?></p>
+				<p class="section--paragraph"><?php echo $l->t('Improved connectivity behind firewalls and restrictive networks and unlimited participants on a call');?></p>
 			</div>
         </div>
         <div class="col-md-4">
 			<div class="featureblock">
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/spreed-two-nw.png">
-				<p class="section--paragraph__tittle"><?php echo $l->t('Dial-in Conference line');?></p>
+				<p class="section--paragraph__tittle"><?php echo $l->t('Dial-in anywhere');?></p>
 				<p class="section--paragraph"><?php echo $l->t('Let participants join through a dial-in conference line, wherever they are');?></p>
 			</div>
         </div>
         <div class="col-md-4">
 			<div class="featureblock">
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/spreed-two-nw.png">
-				<p class="section--paragraph__tittle"><?php echo $l->t('Unlimited participants');?></p>
-				<p class="section--paragraph"><?php echo $l->t('Increase the limit of participants in your webinar or meeting from dozens to thousands!');?></p>
+				<p class="section--paragraph__tittle"><?php echo $l->t('Get started quickly');?></p>
+				<p class="section--paragraph"><?php echo $l->t('Remote installation support from a certified Nextcloud engineer');?></p>
 			</div>
         </div>
 	</div>
 </div>
 </section>
 
-<div class="container-fluid quote">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
-				<p class="section--paragraph text-center "><?php echo $l->t('Contact our sales team to learn more.');?></p>
-				<div class="text-center morebuttondiv">
-					<a href="/buy" class="button button--large button--arrow"><?php echo $l->t('Contact sales');?> <i class="icon-arrow-circle-o-right icon"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
+<section class="section--contact quote">
+<div class="container">
+    <div class="row revealOnScroll">
+        <h2 class="text-center"><?php echo $l->t('Pricing');?></h2>
+        <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('Spreed High Performance back-end');?></p>
+        <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('providing MCU, STUN, TURN and SIP gate');?></p>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 revealOnScroll">
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('
+            Starting at Eur 5000 per year plus
+            <ul>
+                <li>Eur 50 per user per year at 50 users</li>
+                <li>Eur 25 per user per year at 500 users</li>
+            </ul>
+            further volume discounts at larger user numbers
+            ');?></p>
+        </div>
+        <div class="col-sm-6 revealOnScroll">
+            <div class="text-center morebuttondiv">
+                <a href="/buy" class="button button-button--large button--arrow"><?php echo $l->t('Contact sales for a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+            </div>
+        </div>
+    </div>
 </div>
+</section>
