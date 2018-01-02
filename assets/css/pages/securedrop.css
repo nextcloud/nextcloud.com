@@ -6,6 +6,7 @@
   background-color: transparent;
   position: absolute; }
 
+/* @import '../modules/vertical'; */
 .securedrop-background {
   background: url("../../img/headers/securedrop.jpg") no-repeat;
   background-position: center;
@@ -24,26 +25,43 @@ section {
 .video {
   margin-bottom: 30px; }
 
-.row {
-  margin-bottom: 150px; }
+.section--overview {
+  margin-top: 100px; }
+  .section--overview .img-responsive {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+  .section--overview .section--paragraph__tittle {
+    /*         padding-bottom: 10px; */ }
+  .section--overview .row {
+    margin-bottom: 15px; }
 
-/*
-.featuretitle {
-    text-align: center;
-}*/
+.section--keyfeatures .container-fluid .row {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px; }
+.section--keyfeatures .container-fluid li {
+  list-style: none;
+  color: white; }
+
+.section--details .row {
+  margin-bottom: 50px; }
+.section--details h2 {
+  padding-bottom: 50px; }
+
+.section--contact {
+  margin: 100px 0 0 0;
+  padding: 90px 70px 70px 70px;
+  background: #0082c9; }
+  .section--contact p {
+    color: white; }
+  .section--contact li {
+    color: white; }
+  .section--contact .hyperlink {
+    color: white; }
+
 footer {
   margin-top: 0px; }
-
-.quote {
-  margin: 100px 0 0 0;
-  padding: 70px;
-  padding-top: 90px;
-  background: #0082c9; }
-  .quote .row {
-    margin-bottom: 0px; }
-  .quote p {
-    color: white; }
-  .quote .hyperlink {
-    color: white; }
 
 /*# sourceMappingURL=securedrop.css.map */
