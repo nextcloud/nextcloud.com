@@ -15,6 +15,11 @@
   /* Tooltips */
   /* Tooltip text */
   /* Show the tooltip text when you mouse over the tooltip container */ }
+  .plans h1 {
+    margin-bottom: 10px; }
+  .plans h3 {
+    margin-bottom: 45px;
+    font-size: 2em; }
   .plans .table-column {
     cursor: default;
     border-radius: 8px;
@@ -225,6 +230,16 @@
         text-align: center; }
 
 /* end section */
+/* Other Products section */
+.section--others {
+  margin: 0 0 0 0;
+  padding: 90px 70px 70px 70px;
+  background-color: #eee; }
+  .section--others .row {
+    margin-bottom: 10px; }
+  .section--others img {
+    padding: 20px; }
+
 /* Discount section */
 .discounts {
   margin-top: 84px;
