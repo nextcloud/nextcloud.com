@@ -2,6 +2,7 @@
 $l = new L10N('header-navbar');
 require get_template_directory().'/strings.php';
 ?>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <nav class="nav" id="nav">
 <!-- To finish -->
@@ -23,82 +24,91 @@ require get_template_directory().'/strings.php';
 			<div class="nav__sections-wrapper">
 			<ul class="nav__sections">
 
-				<li class="nav__section"><a class="nav__label"><?php echo $l->t('News');?></a>
-					<ul class="nav__links">
-						<li class="nav__item"><a href="<?php echo home_url('news') ?>"><?php echo $l->t('Blog');?></a></li>
-						<li class="nav__item"><a href="https://newsletter.nextcloud.com"><?php echo $l->t('Newsletter');?></a></li>
-						<li class="nav__item"><a href="https://twitter.com/nextclouders"><?php echo $l->t('Twitter');?></a></li>
-						<li class="nav__item"><a href="https://www.facebook.com/Nextcloud-1032807203462807/"><?php echo $l->t('Facebook');?></a></li>
-						<li class="nav__item"><a href="https://www.linkedin.com/company/10827569/"><?php echo $l->t('LinkedIn');?></a></li>
-						<li class="nav__item"><a href="https://plus.google.com/b/104036748063781940910/104036748063781940910/about"><?php echo $l->t('Google+');?></a></li>
-					</ul>
-				</li>
-
-				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Features');?></a>
+				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Products');?></a>
 					<ul class="nav__links ">
-						<li class="nav__item"><a href="<?php echo home_url('features') ?>"><?php echo $l->t('Overview');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('secure') ?>"><?php echo $l->t('Security');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('End-to-end encryption');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('sharing') ?>"><?php echo $l->t('Sharing');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('clients') ?>"><?php echo $l->t('Clients');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('workflow') ?>"><?php echo $l->t('Workflow');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('storage') ?>"><?php echo $l->t('Storage');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('monitoring') ?>"><?php echo $l->t('Monitoring');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('usermanagement') ?>"><?php echo $l->t('User management');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('collabora') ?>"><?php echo $l->t('Online office');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('webrtc') ?>"><?php echo $l->t('Video chat');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('outlook') ?>"><?php echo $l->t('Outlook integration');?></a></li>
-					</ul>
+						<li class="nav__item">
+                            <a href="<?php echo home_url('features') ?>">
+                                <div class="nav__logo">
+                                    <img style="" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Files.svg" >
+                                </div>
+                                <div class="nav__text">
+                                    <?php echo $l->t('<strong>Nextcloud Files</strong><br><small>File Sync and Share</small>');?>
+                                </div>
+                            </a>
+                        </li>
+						<li class="nav__item">
+                            <a href="<?php echo home_url('webrtc') ?>">
+                                <div class="nav__logo">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Talk.svg" >
+                                </div>
+                                <div class="nav__text">
+                                    <?php echo $l->t('<strong>Nextcloud Talk</strong><br><small>Chat and web meetings</small>');?>
+                                </div>
+                            </a>
+                        </li>
+						<li class="nav__item">
+                            <a href="<?php echo home_url('groupware') ?>">
+                                <div class="nav__logo">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Groupware.svg" >
+                                </div>
+                                <div class="nav__text">
+                                    <?php echo $l->t('<strong>Nextcloud Groupware</strong><br><small>Calendar, Contacts & Mail</small>');?>
+                                </div>
+                            </a>
+                        </li>
+<!--						<li class="nav__item">
+                            <a href="<?php echo home_url('secure-drop') ?>">
+                                <div class="nav__logo">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Send.svg" >
+                                </div>
+                                <div class="nav__text">
+                                    <?php echo $l->t('<strong>Nextcloud Send</strong><br><small>Secure File Exchange</small>');?>
+                                </div>
+                            </a>
+                        </li>-->
+                    </ul>
 				</li>
 
-				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Enterprise');?></a>
+				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Support');?></a>
 					<ul class="nav__links">
-						<li class="nav__item"><a href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Overview');?></a></li>
+                        <li class="nav__item"><a href="https://portal.nextcloud.com"><?php echo $l->t('Nextcloud Support');?></a></li>
+                        <li class="nav__item"><a href="https://help.nextcloud.com"><?php echo $l->t('Community support');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('pricing') ?>"><?php echo $l->t('Pricing');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('buy') ?>"><?php echo $l->t('Get an offer');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('order') ?>"><?php echo $l->t('Order online');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('support') ?>"><?php echo $l->t('Documentation');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('compare') ?>"><?php echo $l->t('Compare with others');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('globalscale') ?>"><?php echo $l->t('Global Scale');?></a></li>
-					</ul>
-				</li>
-
-				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Resources');?></a>
-					<ul class="nav__links">
-						<li class="nav__item"><a href="<?php echo home_url('support') ?>"><?php echo $l->t('Support options');?></a></li>
 						<li class="nav__item"><a href="https://apps.nextcloud.com"><?php echo $l->t('App Store');?></a></li>
-						<li class="nav__item"><a href="<?php echo $DOCUMENTATION_USER; ?>"><?php echo $l->t('User Documentation');?></a></li>
-						<li class="nav__item"><a href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Admin Documentation');?></a></li>
-						<li class="nav__item"><a href="https://help.nextcloud.com"><?php echo $l->t('Help on the forums');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('security') ?>"><?php echo $l->t('Security information');?></a></li>
 					</ul>
 				</li>
 
-				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Get involved');?></a>
+				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Community');?></a>
 					<ul class="nav__links">
 						<li class="nav__item"><a href="<?php echo home_url('contribute') ?>"><?php echo $l->t('How to contribute');?></a></li>
 						<li class="nav__item"><a href="https://github.com/nextcloud"><?php echo $l->t('Code on GitHub');?></a></li>
 						<li class="nav__item"><a href="https://github.com/nextcloud/server/issues/new"><?php echo $l->t('Report a bug');?></a></li>
-						<li class="nav__item"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>"><?php echo $l->t('Developer Documentation');?></a></li>
+						<li class="nav__item"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>"><?php echo $l->t('Developer Docs');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('code-of-conduct') ?>"><?php echo $l->t('Code of Conduct');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('contributors') ?>"><?php echo $l->t('Community members');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('security') ?>"><?php echo $l->t('Security information');?></a></li>
 					</ul>
 				</li>
 
 				<li class="nav__section"><a class="nav__label"><?php echo $l->t('About');?></a>
 					<ul class="nav__links">
 						<li class="nav__item"><a href="<?php echo home_url('about') ?>"><?php echo $l->t('About us');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('news') ?>"><?php echo $l->t('Blog');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('secure') ?>"><?php echo $l->t('Security');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('team') ?>"><?php echo $l->t('Team');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('contributors') ?>"><?php echo $l->t('Community');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('partners') ?>"><?php echo $l->t('Partners');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('events') ?>"><?php echo $l->t('Events');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('jobs') ?>"><?php echo $l->t('Jobs');?></a></li>
 					</ul>
 				</li>
 
-			</ul>
+            </ul>
 				<ul class="right-buttons">
 					<li class="ghost-btn"><a href="https://demo.nextcloud.com/" class="nav__label"><?php echo $l->t('Demo');?></a></li>
 					<li class="ghost-btn"><a href="<?php echo home_url('install') ?>" class="nav__label"><?php echo $l->t('Download');?></a></li>
+					<li class="ghost-btn"><a href="<?php echo home_url('quote') ?>" class="nav__label"><?php echo $l->t('Buy');?></a></li>
 				</ul>
 			</div>
 		</div>
