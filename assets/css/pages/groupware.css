@@ -1,0 +1,81 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+/* @import '../modules/vertical'; */
+.groupware-background {
+  background: url("../../img/headers/groupware.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px; }
+
+.image--floated {
+  float: right; }
+
+section {
+  margin-top: 150px;
+  /* 	padding: 50px 0; */ }
+  section .section--paragraph__tittle {
+    padding: 0; }
+
+.video {
+  margin-bottom: 30px; }
+
+.section--overview {
+  margin-top: 100px; }
+  .section--overview .icon {
+    width: 100px;
+    height: auto;
+    margin: 50px auto 30px auto; }
+    .section--overview .icon img {
+      width: 100%;
+      height: auto; }
+  .section--overview .section--paragraph__tittle {
+    /*         padding-bottom: 10px; */ }
+  .section--overview .row {
+    margin-bottom: 15px; }
+
+.section--keyfeatures .container .row {
+  margin-bottom: 100px; }
+
+.section--advantages .container-fluid .row {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px; }
+.section--advantages .container-fluid li {
+  list-style: none;
+  color: white; }
+.section--advantages .row {
+  margin-bottom: 50px; }
+.section--advantages h2 {
+  padding-bottom: 50px; }
+.section--advantages li {
+  list-style-type: none;
+  color: white; }
+
+.section--contact {
+  margin: 100px 0 0 0;
+  padding: 90px 70px 70px 70px;
+  background: #0082c9; }
+  .section--contact p {
+    color: white; }
+  .section--contact li {
+    color: white; }
+  .section--contact .hyperlink {
+    color: white; }
+
+.section--outlook .featurerow {
+  margin-top: 100px;
+  padding-bottom: 50px; }
+  .section--outlook .featurerow h2 {
+    margin-bottom: 50px; }
+
+footer {
+  margin-top: 0px; }
+
+/*# sourceMappingURL=groupware.css.map */
