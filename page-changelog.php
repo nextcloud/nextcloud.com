@@ -332,9 +332,9 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <h3 id="11-0-6">Version 11.0.6 <small>December 4 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.tar.bz2">nextcloud-11.0.6.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.zip">nextcloud-11.0.6.zip</a></br>
 Check the file integrity with:</br>
-MD6: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.tar.bz2.md5">nextcloud-11.0.6.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.zip.md5">nextcloud-11.0.6.zip.md5</a></br>
-SHA266: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.tar.bz2.sha256">nextcloud-11.0.6.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.zip.sha256">nextcloud-11.0.6.zip.sha256</a></br>
-SHA612: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.tar.bz2.sha512">nextcloud-11.0.6.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.zip.sha512">nextcloud-11.0.6.zip.sha512</a></br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.tar.bz2.md5">nextcloud-11.0.6.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.zip.md5">nextcloud-11.0.6.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.tar.bz2.sha256">nextcloud-11.0.6.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.zip.sha256">nextcloud-11.0.6.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.tar.bz2.sha512">nextcloud-11.0.6.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.zip.sha512">nextcloud-11.0.6.zip.sha512</a></br>
 PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.tar.bz2.asc">nextcloud-11.0.6.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.zip.asc">nextcloud-11.0.6.zip.asc</a></p>
 
 <h4>Changes</h4>
