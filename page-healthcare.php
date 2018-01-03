@@ -150,7 +150,7 @@ require(["require.config"], function() {
         <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Data protection');?></p>
         <h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Secures your data');?></h3>
         <div class="distribution--ilustration"></div>
-        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('While data needs to be at medical professionals\' finger tips at all times, the IT department must to be able to ensure policies around Protected Health Information are respected.');?></p>
+        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('While data needs to be at medical professionals\' finger tips at all times, the IT department must be able to ensure policies around Protected Health Information are respected.');?></p>
     </div>
     <div class="row">
         <div class="col-md-10 col-md-offset-1 revealOnScroll feature--block">
