@@ -44,7 +44,7 @@ require(["require.config"], function() {
 		<div class="row">
 			<div class="col-md-8 revealOnScroll">
 				<blockquote class="text-center">In the next 5 to 10 years, we can expect far more security issues, which will require bigger budgets, more staff and teaching best practices.</blockquote>
-				<p>- Cédric Cartau, Chief Information Security Officer at <a class="hyperlink" ="https://www.digitalforallnow.com/en/what-are-the-implications-of-healthcare-data-security-interview-with-cedric-cartau/">Nantes University Hospital</a></p>
+				<p>- Cédric Cartau, Chief Information Security Officer at <a class="hyperlink" href="https://www.digitalforallnow.com/en/what-are-the-implications-of-healthcare-data-security-interview-with-cedric-cartau/">Nantes University Hospital</a></p>
 			</div>
             <div class="col-md-4">
                 <p class="text-center readblog revealOnScroll"><?php echo $l->t('We recommend to keep sensitive data on your own infrastructure instead of in a public cloud. For our full analysis of challenges in healthcare');?> <br><a href="https://nextcloud.com/blog/where-should-healthcare-data-be-stored/" class="button button--large button--arrow"><?php echo $l->t('read our blog');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
@@ -129,8 +129,8 @@ require(["require.config"], function() {
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('the HITECH Act widens the scope of privacy and security protections available under HIPAA; it increases the potential legal liability for non-compliance; and it provides for more enforcement.');?></p>
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('Learn more:');?>
             <ul>
-            <li><a class="hyperlink" href="http://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/combined-regulation-text/index.html">HIPAA combined regulation text</a></li>
-            <li><a class="hyperlink" href="http://www.hhs.gov/hipaa/for-professionals/faq">HIPAA FAQ</a></li>
+            <li><a class="hyperlink" href="https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/combined-regulation-text/index.html">HIPAA combined regulation text</a></li>
+            <li><a class="hyperlink" href="https://www.hhs.gov/hipaa/for-professionals/faq">HIPAA FAQ</a></li>
             <li><a class="hyperlink" href="https://www.hhs.gov/hipaa/for-professionals/privacy/index.html">HIPAA privacy rules</a></li>
             <li><a class="hyperlink" href="https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html">HIPAA security regulations</a></li>
             <li><a class="hyperlink" href="https://www.hhs.gov/sites/default/files/ocr/privacy/hipaa/administrative/securityrule/techsafeguards.pdf">HIPAA security technical safeguards requirements</a></li>
