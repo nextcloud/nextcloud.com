@@ -191,6 +191,20 @@
   }
 }
 
+
+/**
+* Home page: Why Nextcloud?
+*/
+.icon-row {
+  padding-bottom: 100px;
+}
+.icon-row img {
+  height: 200px;
+}
+.icon-row h4 {
+  padding-top: 39px;
+}
+
 #why-nextcloud {
   .highlights {
     display: -ms-flexbox;
@@ -261,20 +275,134 @@
   text-indent: -30px;
 }
 
+.section--explanation {
+    .banner {
+		.icon {
+			width: 100px;
+			height: auto;
+			margin: 50px auto 30px auto;
 
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
 
-/**
-* Home page: Why Nextcloud?
-*/
-.icon-row {
-  padding-bottom: 100px;
+        background-color: $nextcloud-blue;
+        position: relative;
+        overflow: hidden;
+
+        h2 {
+            text-align: left;
+            color: white;
+        }
+
+        p {
+/*             padding-top: 10px; */
+            text-align: left;
+            color: white;
+        }
+
+        li {
+            /*             text-align: left; */
+            color: white;
+        }
+
+        .hyperlink {
+            color: white;
+        }
+
+        .fa {
+            color: white;
+            padding-right: 10px;
+        }
+
+        .col-md-6 {
+            padding: 80px 0px;
+            /* 			margin-left: 10% */
+        }
+
+        .big-img {
+            position: absolute;
+            max-width: 70%;
+            height: 100%;
+            /*         top: 60px; */
+            margin-left: 30px;
+        }
+        .small-img {
+            position:absolute;
+            height: 100%;
+            margin-left: 30px;
+        }
+        @media (max-width: $very-wide) {
+            .big-img {
+                display: none;
+            }
+        }
+        @media (min-width: $very-wide) {
+            .small-img {
+                display: none;
+            }
+        }
+    }
 }
-.icon-row img {
-  height: 200px;
+
+.section--compliance {
+    margin-top: 120px;
+	.banner {
+        background-color: $nextcloud-blue;
+        position: relative;
+        overflow: hidden;
+
+		li,p,h2,h3 {
+        color: white;
+		}
+
+        .hyperlink {
+            color: white;
+        }
+
+        .row {
+			padding: 0px 0px;
+		}
+
+        .fa {
+            color: white;
+            padding-right: 10px;
+        }
+
+        .learnmore {
+            padding: 20px 0px;
+			.col-sm-6 {
+				padding: 20px 0px;
+			}
+        }
+
+        .big-img {
+            position: absolute;
+            max-width: 70%;
+            height: 100%;
+            /*         top: 60px; */
+            margin-left: 30px;
+        }
+        .small-img {
+            position:absolute;
+            height: 100%;
+            margin-left: 30px;
+        }
+        @media (max-width: $very-wide) {
+            .big-img {
+                display: none;
+            }
+        }
+        @media (min-width: $very-wide) {
+            .small-img {
+                display: none;
+            }
+        }
+    }
 }
-.icon-row h4 {
-  padding-top: 39px;
-}
+
 
 .section--customers {
     padding-top: 130px;
