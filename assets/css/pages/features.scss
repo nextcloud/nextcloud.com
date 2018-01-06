@@ -32,6 +32,19 @@
 	margin: 0 auto;
 }
 
+.section--both {
+	.icon {
+        width: 100px;
+        height: auto;
+        margin: 50px auto 30px auto;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
 .section--files {
 	padding-top: 80px;
 }

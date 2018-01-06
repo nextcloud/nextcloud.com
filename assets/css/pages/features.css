@@ -28,6 +28,14 @@
   width: 400px;
   margin: 0 auto; }
 
+.section--both .icon {
+  width: 100px;
+  height: auto;
+  margin: 50px auto 30px auto; }
+  .section--both .icon img {
+    width: 100%;
+    height: auto; }
+
 .section--files {
   padding-top: 80px; }
 

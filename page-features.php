@@ -25,7 +25,6 @@
 			<a href="#security"><span class="avoidwrap"><?php echo $l->t('Security');?></span></a>
 			<a href="#clients"><span class="avoidwrap"><?php echo $l->t('Clients');?></span></a>
 			<a href="#storage"><span class="avoidwrap"><?php echo $l->t('External storage');?></span></a>
-			<a href="#calendar"><span class="avoidwrap"><?php echo $l->t('Collaborate');?></span></a>
 			<a href="#appstore"><span class="avoidwrap"><?php echo $l->t('More apps');?></span></a>
 		</div>
 	</div>
@@ -38,11 +37,32 @@
 			<img class="img-responsive acess__anywhere" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/access-anywhere.png" alt="in action" >
 		</div>
 		<div class="col-md-6 revealOnScroll feature--block">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Files gives you access to all your files wherever you are.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Where are your photos and documents? With Nextcloud Files <strong>you</strong> pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud Files runs on that server, protecting your data and giving you access from your desktop or mobile devices. Through Nextcloud Files you also access, sync and share your existing data on that FTP drive at the office, a Dropbox or a NAS you have at home.');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('An Enterprise File Sync and Share solution that keeps data under your control.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('You need to have easy access to your files, photos and documents to work and share with team members, customers, friends and family. And you need to know nobody besides those you shared with has access to your files.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud Files runs on a server of your choice, at home, in a data center or at a provider, securing your privacy and giving you access from mobile and desktop devices.');?></p>
 			<a href="/install" class="button button--blue button--arrow button--large"><?php echo $l->t('Get started');?></a>
 		</div>
 	</div>
+</section>
+
+<section class="section--both">
+<div class="container">
+	<h2 class="text-center revealOnScroll"><?php echo $l->t('Under your control');?></h2>
+	<div class="row">
+		<div class="col-md-6 revealOnScroll feature--block">
+            <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/ldap.svg" /></div>
+			<p class="section--paragraph__tittle text-center"><?php echo $l->t('In an enterprise environment');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Thousands of modern organizations facilitate collaboration and improve productivity with Nextcloud Files, enabling employees to collaborate seamlessly across divisions and even company borders.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Most consumer-grade solutions like Dropbox or Office 365 were never designed with privacy regulations and security concerns in mind. Rather than trying to work around their limitations, Nextcloud Files provides a security-first solution which puts IT in complete control over the location and access policies of data.');?></p>
+        </div>
+		<div class="col-md-6 revealOnScroll feature--block">
+            <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/encrypted-communication.svg" /></div>
+			<p class="section--paragraph__tittle text-center"><?php echo $l->t('A private cloud at home');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Where are your photos and documents? In a server in the United States? Philippines? Russia? Brazil? China? Germany? With Nextcloud Files <strong>you</strong> pick a server for your data.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Maybe you run your own server already. Or you buy a Raspberry Pi and connect it to your router at home. Maybe you look for a local provider that you trust in your city. It is your choice: Nextcloud Files gives you all the easy sharing and syncing with the certainty that only YOU control where your files are!');?></p>
+		</div>
+	</div>
+</div>
 </section>
 
 <section class="section--files">
