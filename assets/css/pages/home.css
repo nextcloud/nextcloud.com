@@ -151,6 +151,18 @@
       .jumbotron .toptext .announcement:hover svg {
         transform: translateX(0px); }
 
+/**
+* Home page: Why Nextcloud?
+*/
+.icon-row {
+  padding-bottom: 100px; }
+
+.icon-row img {
+  height: 200px; }
+
+.icon-row h4 {
+  padding-top: 39px; }
+
 #why-nextcloud .highlights {
   display: -ms-flexbox;
   display: flex;
@@ -199,17 +211,87 @@
   padding-top: 16px;
   text-indent: -30px; }
 
-/**
-* Home page: Why Nextcloud?
-*/
-.icon-row {
-  padding-bottom: 100px; }
+.section--explanation .banner {
+  background-color: #0082c9;
+  position: relative;
+  overflow: hidden; }
+  .section--explanation .banner .icon {
+    width: 100px;
+    height: auto;
+    margin: 50px auto 30px auto; }
+    .section--explanation .banner .icon img {
+      width: 100%;
+      height: auto; }
+  .section--explanation .banner h2 {
+    text-align: left;
+    color: white; }
+  .section--explanation .banner p {
+    /*             padding-top: 10px; */
+    text-align: left;
+    color: white; }
+  .section--explanation .banner li {
+    /*             text-align: left; */
+    color: white; }
+  .section--explanation .banner .hyperlink {
+    color: white; }
+  .section--explanation .banner .fa {
+    color: white;
+    padding-right: 10px; }
+  .section--explanation .banner .col-md-6 {
+    padding: 80px 0px;
+    /* 			margin-left: 10% */ }
+  .section--explanation .banner .big-img {
+    position: absolute;
+    max-width: 70%;
+    height: 100%;
+    /*         top: 60px; */
+    margin-left: 30px; }
+  .section--explanation .banner .small-img {
+    position: absolute;
+    height: 100%;
+    margin-left: 30px; }
+  @media (max-width: 1600px) {
+    .section--explanation .banner .big-img {
+      display: none; } }
+  @media (min-width: 1600px) {
+    .section--explanation .banner .small-img {
+      display: none; } }
 
-.icon-row img {
-  height: 200px; }
-
-.icon-row h4 {
-  padding-top: 39px; }
+.section--compliance {
+  margin-top: 120px; }
+  .section--compliance .banner {
+    background-color: #0082c9;
+    position: relative;
+    overflow: hidden; }
+    .section--compliance .banner li, .section--compliance .banner p, .section--compliance .banner h2, .section--compliance .banner h3 {
+      color: white; }
+    .section--compliance .banner .hyperlink {
+      color: white; }
+    .section--compliance .banner .row {
+      padding: 0px 0px; }
+    .section--compliance .banner .fa {
+      color: white;
+      padding-right: 10px; }
+    .section--compliance .banner .learnmore {
+      padding: 20px 0px; }
+      .section--compliance .banner .learnmore .col-sm-6 {
+        padding: 20px 0px; }
+    .section--compliance .banner .big-img {
+      position: absolute;
+      max-width: 70%;
+      height: 100%;
+      /*         top: 60px; */
+      margin-left: 30px; }
+    .section--compliance .banner .small-img {
+      position: absolute;
+      height: 100%;
+      margin-left: 30px; }
+    @media (max-width: 1600px) {
+      .section--compliance .banner .big-img {
+        display: none; } }
+    @media (min-width: 1600px) {
+      .section--compliance .banner .small-img {
+        display: none; } }
 
 .section--customers {
   padding-top: 130px;
