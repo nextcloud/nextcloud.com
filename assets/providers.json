@@ -1093,5 +1093,19 @@
             "We offer Italy-hosted servers with Nextcloud. You can select the amount of cloud space you need and you can upgrade at any time."
          ],
          "imagename":"operweb.png"
+      },
+    {
+         "title":"Netquatro",
+         "url":"https:\/\/net4cloud.com\/net4cloud\/caracteristicas-de-la-nube/",
+         "flags":[
+            "co",
+            "ve"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "We offer public and private cloud storage to protect your most valuable assets. We shield your information."
+         ],
+         "imagename":"net4cloud.png"
       }
 ]
