@@ -258,11 +258,6 @@
 		</div>
     </div>
 </div>
-</section>-->
-
-        </div>
-    </div>
-</div>
 </section>
 
 <a name="discounts" id="discounts"></a>
