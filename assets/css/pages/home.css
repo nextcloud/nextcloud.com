@@ -211,52 +211,6 @@
   padding-top: 16px;
   text-indent: -30px; }
 
-.section--explanation .banner {
-  background-color: #0082c9;
-  position: relative;
-  overflow: hidden; }
-  .section--explanation .banner .icon {
-    width: 100px;
-    height: auto;
-    margin: 50px auto 30px auto; }
-    .section--explanation .banner .icon img {
-      width: 100%;
-      height: auto; }
-  .section--explanation .banner h2 {
-    text-align: left;
-    color: white; }
-  .section--explanation .banner p {
-    /*             padding-top: 10px; */
-    text-align: left;
-    color: white; }
-  .section--explanation .banner li {
-    /*             text-align: left; */
-    color: white; }
-  .section--explanation .banner .hyperlink {
-    color: white; }
-  .section--explanation .banner .fa {
-    color: white;
-    padding-right: 10px; }
-  .section--explanation .banner .col-md-6 {
-    padding: 80px 0px;
-    /* 			margin-left: 10% */ }
-  .section--explanation .banner .big-img {
-    position: absolute;
-    max-width: 70%;
-    height: 100%;
-    /*         top: 60px; */
-    margin-left: 30px; }
-  .section--explanation .banner .small-img {
-    position: absolute;
-    height: 100%;
-    margin-left: 30px; }
-  @media (max-width: 1600px) {
-    .section--explanation .banner .big-img {
-      display: none; } }
-  @media (min-width: 1600px) {
-    .section--explanation .banner .small-img {
-      display: none; } }
-
 .section--compliance {
   margin-top: 120px; }
   .section--compliance .banner {
