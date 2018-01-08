@@ -93,19 +93,13 @@ section {
         transition: all 0.5s ease; }
       .section--options .container-widest .featureblock .section--paragraph__tittle {
         text-align: center; }
+      .section--options .container-widest .featureblock .section--paragraph {
+        text-align: center; }
       .section--options .container-widest .featureblock .img-responsive {
         margin-left: auto;
         margin-right: auto;
         margin-top: 0px;
         margin-bottom: 50px; }
-      .section--options .container-widest .featureblock .price-big {
-        font-size: 22px;
-        margin-bottom: 2px;
-        text-align: center; }
-      .section--options .container-widest .featureblock .price-small {
-        font-size: 16px;
-        margin-top: 0px;
-        text-align: center; }
 
 /* end section */
 footer {

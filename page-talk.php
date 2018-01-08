@@ -59,14 +59,14 @@
                 <p class="section--paragraph"><ul>
                 <li><?php echo $l->t('Easy screen sharing');?></li>
                 <li><?php echo $l->t('Mobile apps for Android and iOS');?></li>
-                <li><?php echo $l->t('mobile call & chat push notifications');?></li>
+                <li><?php echo $l->t('Mobile call & chat push notifications');?></li>
                 <li><?php echo $l->t('Integration in <a class="hyperlink" href="/files">Nextcloud Files</a> and <a class="hyperlink" href="/groupware">Groupware</a>');?></li>
                 </ul></p>
             </div>
             <div class="col-sm-4 revealOnScroll">
                 <p class="section--paragraph"><ul>
                 <li><?php echo $l->t('Fully on-premise, 100% open source');?></li>
-                <li>E<?php echo $l->t('nd-to-end Encrypted calls');?></li>
+                <li><?php echo $l->t('End-to-end Encrypted calls');?></li>
                 <li><?php echo $l->t('Scaling to millions of users');?></li>
                 <li><?php echo $l->t('SIP gate: dial in by phone');?></li>
                 </ul></p>
@@ -168,7 +168,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 image--floated revealOnScroll">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png" class="img-responsive featureimg" /></a>
+			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-two-nw.png" class="img-responsive featureimg" />
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Private, group and public calls');?></p>
@@ -179,7 +179,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 revealOnScroll">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-screenshare-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-screenshare-nw.png" /></a>
+			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-screenshare2-nw.png" />
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Webinars and presentations');?></p>
@@ -190,7 +190,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 image--floated revealOnScroll">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-two-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-two-nw.png" class="img-responsive featureimg" /></a>
+			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-android-nw.png" class="img-responsive featureimg" />
 		</div>
 	<div class="col-md-6 revealOnScroll">
 		<p class="section--paragraph__tittle"><?php echo $l->t('Secure and private');?></p>
@@ -238,23 +238,23 @@
 		</div>
 	</div>
     <div class="row revealOnScroll">
-        <div class="col-md-4">
+        <div class="col-md-2 col-md-offset-3 col-sm-4">
 			<div class="featureblock">
-				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/spreed-two-nw.png">
-				<p class="section--paragraph__tittle"><?php echo $l->t('Remove obstacles');?></p>
-				<p class="section--paragraph"><?php echo $l->t('Improved connectivity behind firewalls and restrictive networks and unlimited participants on a call');?></p>
-			</div>
-        </div>
-        <div class="col-md-4">
-			<div class="featureblock">
-				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/spreed-two-nw.png">
+				<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
 				<p class="section--paragraph__tittle"><?php echo $l->t('Dial-in anywhere');?></p>
 				<p class="section--paragraph"><?php echo $l->t('Let participants join through a dial-in conference line, wherever they are');?></p>
 			</div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-2 col-sm-4">
 			<div class="featureblock">
-				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/spreed-two-nw.png">
+				<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/manual.svg" /></div>
+				<p class="section--paragraph__tittle"><?php echo $l->t('No limitations');?></p>
+				<p class="section--paragraph"><?php echo $l->t('Improved connectivity behind firewalls and restrictive networks and unlimited participants on a call');?></p>
+			</div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+			<div class="featureblock">
+				<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/2fa.svg" /></div>
 				<p class="section--paragraph__tittle"><?php echo $l->t('Get started quickly');?></p>
 				<p class="section--paragraph"><?php echo $l->t('Remote installation support from a certified Nextcloud engineer');?></p>
 			</div>
