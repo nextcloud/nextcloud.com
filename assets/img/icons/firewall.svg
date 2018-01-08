@@ -12,7 +12,7 @@
    height="64"
    viewBox="-17 19 64 64"
    version="1.1"
-   sodipodi:docname="firewall2.svg"
+   sodipodi:docname="firewall.svg"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06">
   <metadata
      id="metadata19">
@@ -41,19 +41,31 @@
      inkscape:window-height="1353"
      id="namedview15"
      showgrid="false"
-     inkscape:zoom="5.2149125"
-     inkscape:cx="61.946331"
-     inkscape:cy="22.16461"
-     inkscape:window-x="1280"
+     inkscape:zoom="10.429825"
+     inkscape:cx="30.50983"
+     inkscape:cy="19.453078"
+     inkscape:window-x="1274"
      inkscape:window-y="240"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g13817" />
+     inkscape:current-layer="svg7851"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-paths="true" />
   <style
      id="style2">.st0{fill:#c4e1f7}.st1{fill:#1485e0}</style>
   <title
      id="title6190">Canvas</title>
   <desc
      id="desc6192">Created using Figma</desc>
+  <rect
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.73923463;paint-order:fill markers stroke"
+     id="rect822"
+     width="60"
+     height="32"
+     x="-15"
+     y="49" />
   <g
      id="g13817">
     <path
