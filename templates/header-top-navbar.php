@@ -42,7 +42,7 @@ require get_template_directory().'/strings.php';
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Talk.svg" >
                                 </div>
                                 <div class="nav__text">
-                                    <?php echo $l->t('<strong>Nextcloud Talk</strong><br><small>Chat and web meetings</small>');?>
+                                    <?php echo $l->t('<strong>Nextcloud Talk</strong><br><small>Calls, chat and web meetings</small>');?>
                                 </div>
                             </a>
                         </li>
@@ -56,16 +56,16 @@ require get_template_directory().'/strings.php';
                                 </div>
                             </a>
                         </li>
-<!--						<li class="nav__item">
-                            <a href="<?php echo home_url('secure-drop') ?>">
+						<li class="nav__item">
+                            <a href="<?php echo home_url('athome') ?>">
                                 <div class="nav__logo">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Send.svg" >
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Home.svg" >
                                 </div>
                                 <div class="nav__text">
-                                    <?php echo $l->t('<strong>Nextcloud Send</strong><br><small>Secure File Exchange</small>');?>
+                                    <?php echo $l->t('<strong>Nextcloud at home</strong><br><small>For home users</small>');?>
                                 </div>
                             </a>
-                        </li>-->
+                        </li>
                     </ul>
 				</li>
 
