@@ -10,7 +10,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Nextcloud Send');?></h1>
+				<h1><?php echo $l->t('File Drop');?></h1>
 				<h2><?php echo $l->t('Convenient and secure file exchange for enterprises');?></p>
 			</div>
 		</div>
@@ -24,7 +24,7 @@
 			<div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
 		</div>
 		<div class="col-md-6 col-md-offset-3">
-			<p class="section--paragraph text-center"><?php echo $l->t('Nextcloud Send enables hospitals, banks, notaries and government agencies to securely send files to and receive files from customers, patients, clients or partners.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Nextcloud Files enables hospitals, banks, notaries and government agencies to securely send files to and receive files from customers, patients, clients or partners.');?></p>
 		</div>
 	</div>
 </div>
@@ -97,7 +97,7 @@
         Your own server = under your control
         ');?></p>
         <p class="section--paragraph text-center revealOnScroll"><em><?php echo $l->t('
-        HIPAA, GLBA, NERC CIP, SOX, PCI compliant
+        HIPAA, GLBA, NERC CIP, SOX, PCI compliance
         ');?></em></p>
         </div>
 <!--     </div> -->
@@ -112,17 +112,17 @@
         </div>
 	<div class="row">
 		<div class="col-md-6 revealOnScroll">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/securedrop-link-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/securedrop-link-nw.png" class="img-responsive featureimg" /></a>
+			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/securedrop-link-nw.png" class="img-responsive featureimg" />
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Easy creation of secure upload point');?></p>
-			<p class="section--paragraph"><?php echo $l->t('To create an upload link, select any folder as target for upload by customers by enabling file upload in a folder share and choosing »<em>File Drop (upload only)</em>«. This hides the existing content of the folder from the share recipient, providing a secure upload target.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('To create an upload link, select any folder as target for upload by customers by enabling file upload in a folder share and choosing <em>File Drop (upload only)</em>. This hides the existing content of the folder from the share recipient, providing a secure upload target.');?></p>
 			 <p class="section--paragraph"><?php echo $l->t('You can now share this link to your customer, partner or user!');?></p>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-6 revealOnScroll image--floated">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/securedrop-drop-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/securedrop-drop-nw.png" /></a>
+			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/securedrop-drop-nw.png" />
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Convenient and personal');?></p>
@@ -131,7 +131,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 revealOnScroll">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/securedrop-email-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/securedrop-email-nw.png" class="img-responsive featureimg" /></a>
+			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/securedrop-email-nw.png" class="img-responsive featureimg" />
 		</div>
 	<div class="col-md-6 revealOnScroll">
 		<p class="section--paragraph__tittle"><?php echo $l->t('Unique links for each customer');?></p>
@@ -140,12 +140,12 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 revealOnScroll image--floated">
-			<a href="/workflow"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control-nw.png" class="img-responsive featureimg" /></a>
+			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control-nw.png" class="img-responsive featureimg" />
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('IT stays in control');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The system administrator can rest assured that all interactions follow the rules and requirements set by the company with regards to passwords, expiration dates and of course the limitations enforced by the <a class="hyperlink" href="/workflow">Nextcloud File Access Control feature</a>.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Data remains, at all times, on-premise, under full authority of IT. Nextcloud Send supports a wide range of storage technologies including NFS, SMB and Windows Network Drive, Sharepoint, Object Storage and many more. <a class="hyperlink" href="/storage">Learn more about External Storage here</a>.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Data remains, at all times, on-premise, under full authority of IT. File Drop supports a wide range of storage technologies including NFS, SMB and Windows Network Drive, Sharepoint, Object Storage and many more. <a class="hyperlink" href="/storage">Learn more about External Storage here</a>.');?></p>
 		</div>
 	</div>
 </div>
@@ -155,9 +155,9 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2 revealOnScroll">
-            <p class="section--paragraph text-center"><?php echo $l->t('Secure your file exchange with clients right now.<br>Learn about the benefits of Nextcloud Send for your organization!');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Secure your file exchange with clients right now.');?></p>
             <div class="text-center morebuttondiv">
-                <a href="/buy" class="button button--large button--arrow"><?php echo $l->t('Get in contact');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                <a href="/pricing" class="button button--large button--arrow"><?php echo $l->t('Pricing');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
         </div>
     </div>

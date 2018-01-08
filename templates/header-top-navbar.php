@@ -27,7 +27,7 @@ require get_template_directory().'/strings.php';
 				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Products');?></a>
 					<ul class="nav__links ">
 						<li class="nav__item">
-                            <a href="<?php echo home_url('features') ?>">
+                            <a href="<?php echo home_url('files') ?>">
                                 <div class="nav__logo">
                                     <img style="" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Files.svg" >
                                 </div>

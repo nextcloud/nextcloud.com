@@ -34,7 +34,7 @@ require(["require.config"], function() {
             <div class="col-md-6">
                 <h2 class="section--paragraph__tittle"><?php echo $l->t('Work, share, collaborate, enjoy');?></h2>
                 <p class="section--paragraph"><?php echo $l->t('Share images, documents or music with colleagues on your server, send password protected public links to friends and get notifications on your phone when a user on another Nextcloud server shares files directly with you. Use File Drop to let customers upload files to you in a easy and secure way!');?></p>
-                <a href="/secure-drop" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn about File Drop');?></a>
+                <a href="/file-drop" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn about File Drop');?></a>
                 <p class="section--paragraph"><?php echo $l->t('You can trust that when you share, Nextcloud makes sure you stay in control over your data. You can easily see a list of shares, remove or change permissions and restore older versions of files.');?></p>
 
             </div>
