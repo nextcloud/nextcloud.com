@@ -57,7 +57,7 @@
     <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <h2 class="revealOnScroll"><?php echo $l->t('Compliance without interruption');?></h2>
+            <h2 class="revealOnScroll"><?php echo $l->t('Compliant by design');?></h2>
             <h3 class="revealOnScroll"><?php echo $l->t('HIPAA, GDPR and more');?></h3>
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud products are designed with compliance in mind, providing extensive data policy enforcement, encryption, user management and auditing capabilities.');?></p>
             <div class="row learnmore">
