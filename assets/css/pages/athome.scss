@@ -1,0 +1,203 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+.features-background {
+	background: url('../../img/headers/yourcloud.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+@media (max-width $break-small) {
+	.image--feature {
+		margin-top: 10px;
+	}
+}
+
+.featureimg {
+	@media (min-width: $break-big) {
+		margin-bottom: 200px;
+	}
+
+	@media (min-width: $very-wide) {
+		margin-bottom: 100px;
+	}
+}
+
+
+section {
+	margin: 180px 0;
+}
+
+.section--hosting {
+}
+
+.section--overview {
+}
+
+.section--customers {
+    position: relative;
+	.section--paragraph {
+		margin: 40px 0;
+	}
+
+    .container {
+    }
+    .row {
+    margin-top: 50px;
+    }
+    .customer {
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+        .customer-logo {
+            /*-webkit-filter: grayscale(100%);*/
+            filter: saturate(0%) contrast(.35) brightness(130%);
+
+            max-width: 250px;
+            float: center;
+            position: relative;
+            text-align:center;
+            margin-left: auto;
+            margin-right: auto;
+            vertical-align: middle;
+
+        }
+    }
+}
+
+.section--on-premise {
+	.section--heading-1 {
+		padding-bottom: 40px;
+	}
+	.row {
+		padding-bottom: 40px;
+	}
+	.statistics {
+		padding: 40px 0 40px 25px;
+	}
+}
+
+.section--compliance {
+	.banner {
+        background-color: $nextcloud-blue;
+        position: relative;
+        overflow: hidden;
+		.col-md-6 {
+			padding: 40px 0;
+		}
+		li,p,h2,h3 {
+        color: white;
+		}
+
+        .hyperlink {
+            color: white;
+        }
+
+        .row {
+			padding: 0px 0px;
+		}
+
+        .fa {
+            color: white;
+            padding-right: 10px;
+        }
+
+        .learnmore {
+            padding: 20px 0px;
+			.col-sm-6 {
+				padding: 20px 0px;
+			}
+        }
+
+        .big-img {
+            position: absolute;
+            max-width: 70%;
+            height: 100%;
+            /*         top: 60px; */
+            margin-left: 30px;
+        }
+        .small-img {
+            position:absolute;
+            height: 100%;
+            margin-left: 30px;
+        }
+        @media (max-width: $very-wide) {
+            .big-img {
+                display: none;
+            }
+        }
+        @media (min-width: $very-wide) {
+            .small-img {
+                display: none;
+            }
+        }
+    }
+}
+
+.acess__anywhere {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.section--files {
+	padding-top: 80px;
+}
+
+.section--whitepaper {
+	padding: 0;
+
+	h2 {
+		line-height: normal;
+	}
+}
+
+.section--outlook {
+	h1 {
+        /*margin-bottom: 10px;*/
+    }
+    p {
+        padding: 10px 0 30px 0;
+    }
+    .row {
+        padding-bottom: 10px;
+    }
+}
+
+
+.section--others {
+    margin: 0 0 0 0;
+    padding: 90px 70px 70px 70px;
+    background-color: #eee;
+    .row {
+        margin-bottom: 10px;
+    }
+    img {
+        padding: 20px;
+    }
+}
+
+.section--more {
+	.container-widest .row {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.section--heading-1 {
+		padding-bottom: 60px;
+	}
+
+	i[class*='fa-'] {
+		font-size: 60px;
+		display: block;
+		color: #0082c9;
+		text-align: center;
+		padding-top: 20%;
+	}
+}
+
+.calltoaction {
+	padding-bottom: 100px;
+	a {
+		margin: 50px;
+	}
+}
