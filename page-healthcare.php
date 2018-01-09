@@ -31,7 +31,7 @@ require(["require.config"], function() {
 <div class="container">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-            <p class="section--paragraph text-center"><?php echo $l->t('Patient safety is the highest priority at health care and life science institutions. Nextcloud makes patient information available to health care professionals when they need it through an easy to use interface with the highest degree of reliability, security and privacy.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Patient safety is the highest priority at health care and life science institutions. Nextcloud makes patient information available to healthcare professionals when they need it through an easy-to-use interface with the highest degree of reliability, security and privacy.');?></p>
 		</div>
 	</div>
 </div>
@@ -86,7 +86,7 @@ require(["require.config"], function() {
 <section class="section--convenient">
 	<div class="container">
         <div class="row">
-            <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Easy access to data when needed');?></p>
+            <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Easy access to data');?></p>
             <h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Putting the user first');?></h3>
             <div class="easy--ilustration"></div>
             <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Protocols, status updates and test results can be stored safely and shared easily among the professionals who need access.');?></p>
@@ -148,14 +148,14 @@ require(["require.config"], function() {
 <div class="container">
     <div class="row">
         <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Data protection');?></p>
-        <h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Secures your data');?></h3>
+        <h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Secure your data');?></h3>
         <div class="distribution--ilustration"></div>
         <p class="section--intro text-center revealOnScroll"><?php echo $l->t('While data needs to be at medical professionals\' finger tips at all times, the IT department must be able to ensure policies around Protected Health Information are respected.');?></p>
     </div>
     <div class="row">
         <div class="col-md-10 col-md-offset-1 revealOnScroll feature--block">
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Healthcare data is both extremely sensitive and needs to be immediately accessible. Regulators are aware and privacy and security requirements are extremely strict with HIPAA and HITECH rules in the US matched in many other countries across the globe.');?></p>
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud is a popular self-hosted solution in healthcare for its ability to strictly control access to data and industry leading security capabilities.');?></p>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Healthcare data is at the same time extremely sensitive and needs to be immediately accessible. Regulators are aware and privacy and security requirements are extremely strict with HIPAA and HITECH rules in the US matched in many other countries across the globe.');?></p>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud is a popular self-hosted solution in healthcare for its ability to strictly control access to data and industry-leading security capabilities.');?></p>
         </div>
     </div>
     <div class="row">
@@ -174,7 +174,7 @@ require(["require.config"], function() {
         </div>
         <div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('Monitoring and auditing logs');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Nextcloud offers powerful monitoring capabilities built in, enabling institutions to ensure smooth performance. Systems can be monitored using the web interface or through monitoring and systems intelligence tools like OpenNMS, Splunk, Nagios or others. A full auditing system logs all user actions, enabling fully compliant usage of file sync and share.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud offers built-in powerful monitoring capabilities, enabling institutions to ensure smooth performance. Systems can be monitored using the web interface or through monitoring and systems intelligence tools like OpenNMS, Splunk, Nagios or others. A full auditing system logs all user actions, enabling fully compliant usage of file sync and share.');?></p>
             <a href="/monitoring" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring and auditing');?></a>
         </div>
     </div>
@@ -241,7 +241,7 @@ require(["require.config"], function() {
         <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Easy integration');?></p>
         <h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Efficient deployment and management');?></h3>
         <div class="efficiency--ilustration"></div>
-        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Complexity is the enemy of security and Nextcloud is designed to offer quick and easy integration in existing infrastructure, leaving policies and procedures in place. Its powerfull LDAP and storage integration seamlessly fit with existing user directories, Windows Network Drive, NFS and Sharepoint storage solutions. ');?></p>
+        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Complexity is the enemy of security and Nextcloud is designed to offer quick and easy integration in existing infrastructure, leaving policies and procedures in place. Its powerful LDAP and storage integration seamlessly fits with existing user directories, Windows Network Drive, NFS and Sharepoint storage solutions. ');?></p>
     </div>
 </div>
 <div class="container">
@@ -253,7 +253,7 @@ require(["require.config"], function() {
     <div class="row revealOnScroll ">
         <div class="col-md-6">
             <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/kerberos.svg");?>
-            <p class="section--paragraph"><?php echo $l->t('Nextcloud integrates in hospital infrastructure with support for SAML and Shibboleth, LDAP, Kerberos, Oauth and other often used authentication mechanisms and runs on all enterprise Linux systems offering support options to match their life cycle.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud integrates in hospital infrastructure with support for SAML and Shibboleth, LDAP, Kerberos, Oauth, and other often used authentication mechanisms and runs on all enterprise Linux systems offering support options to match their life cycle.');?></p>
         </div>
         <div class="col-md-6">
             <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/storage.svg");?>
@@ -286,7 +286,7 @@ require(["require.config"], function() {
             <i class="fa-server fa"></i>
         </div>
         <div class="col-md-3 featureblock">
-            <p class=""><?php echo $l->t('Fully self hosted, meaning all data is under your control. Nextcloud can leverage your existing storage, security and privacy policies. There is no vendor lock-in or tracking by us of any kind!');?></p>
+            <p class=""><?php echo $l->t('Fully self-hosted, meaning all data is under your control. Nextcloud can leverage your existing storage, security and privacy policies. There is no vendor lock-in or tracking by us of any kind!');?></p>
         </div>
         <div class="col-md-1 featureblock">
             <i class="fa-tags fa"></i>
@@ -312,7 +312,7 @@ require(["require.config"], function() {
         <i class="fa-shield fa"></i>
         </div>
         <div class="col-md-3 featureblock">
-        <p class=""><?php echo $l->t('First class security policies, extensive security hardening features and File Access Control to ensure legal and privacy regulations are enforced at all times. Nextcloud comes with integrated logging, two-factor authentication and NIST compliant password policy control functionalities.');?></p>
+        <p class=""><?php echo $l->t('First-class security policies, extensive security hardening features and File Access Control to ensure legal and privacy regulations are enforced at all times. Nextcloud comes with integrated logging, two-factor authentication and NIST compliant password policy control functionalities.');?></p>
         </div>
         <div class="col-md-1 featureblock">
         <i class="fa-list fa"></i>
@@ -341,12 +341,12 @@ require(["require.config"], function() {
     <div class="row">
         <div class="col-md-10 col-md-offset-1 revealOnScroll">
             <p class="section--paragraph__tittle"><?php echo $l->t('Introduction');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Nextcloud meets all Technical Safeguards requirements, supporting full compliance with the Health Insurance Portability and Accountability Act (HIPAA) of 1996. Nextcloud GmbH is committed to ensure its software keeps PHI (Protected Health Information) private and secure. We are have implemented features, policies and procedures designed to ensure compliance with Federal and State information security laws, regulations, and rules, and monitor ongoing compliance efforts.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud meets all Technical Safeguards requirements, supporting full compliance with the Health Insurance Portability and Accountability Act (HIPAA) of 1996. Nextcloud GmbH is committed to ensure its software keeps PHI (Protected Health Information) private and secure. We have implemented features, policies and procedures designed to ensure compliance with Federal and State information security laws, regulations, and rules, and monitor ongoing compliance efforts.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud supports:
             <ul>
             <li>Advanced Access Control capabilities</li>
             <li>Automatic expiration of passwords</li>
-            <li>Account lockouts upon multiple failed log-in attempts</li>
+            <li>Account lockout upon multiple failed log-in attempts</li>
             <li>Automatic virus scans</li>
             <li>Secure data backups</li>
             <li>Audit-ready logging of all user actions</li>
@@ -354,7 +354,7 @@ require(["require.config"], function() {
             <li>Email verification and two-factor authentication</li>
             </ul>');?></p>
             <p class="section--paragraph"><?php echo $l->t('The self-hosted nature of Nextcloud ensures Nextcloud usage does not change existing compliance of infrastructure, provided features and capabilities are employed as required by HIPAA and other legislation. Nextcloud can advice in implementing a HIPAA compliant setup.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Nextcloud services are designed to not require that our employees gain access to any customer data. In case this is required for specific support cases, confidentiality agreements are signed with all employees and extensive security processes are in place to log, investigate and report any breaches.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud services are designed not to require that our employees gain access to any customer data. In case this is required for specific support cases, confidentiality agreements are signed with all employees and extensive security processes are in place to log, investigate and report any breaches.');?></p>
             <p class="section--paragraph"><?php echo $l->t('We understand that keeping your client’s information safe is of the utmost importance and Nextcloud GmbH will continue to provide its software and services in accordance with the relevant requirements of all state and federal laws and regulations, including, as applicable, HIPAA.');?></p>
             <p class="section--paragraph"><?php echo $l->t('For additional information regarding Nextcloud’s privacy practices as they relate to this website, please see our <a class="hyperlink" href="/privacy">Privacy Statement</a>.');?></p>
         </div>
