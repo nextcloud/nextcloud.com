@@ -207,7 +207,7 @@
 <section class="section--usermanagement">
 	<a name="storage" id="storage"></a>
 	<div class="container">
-		<div class="col-md-6 image--floated revealOnScroll image--feature">
+		<div class="col-md-6 revealOnScroll image--feature">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Integrated account management');?></p>
@@ -248,7 +248,7 @@
 <section class="section--storage">
 	<a name="storage" id="storage"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll image--feature">
+		<div class="col-md-6 image--floated revealOnScroll image--feature">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('External storage, securely encrypted');?></p>
