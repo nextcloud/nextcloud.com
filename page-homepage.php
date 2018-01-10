@@ -34,18 +34,18 @@
 		<div class="highlights">
 			<div class="highlights_align ">
 				<div class="privacy-icon" data-animation-path="img/home/privacy/" data-anim-loop="false" data-name="privacy"></div>
-				<h4 class="revealOnScroll"><?php echo $l->t('Privacy');?></h4>
-				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Keep all of your life / business private and secure on a server you control. Share with only who you choose, and no-one else.');?></p>
+				<h4 class="revealOnScroll"><?php echo $l->t('Control');?></h4>
+				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Protect, control and monitor data and communication in your company. Guarantee compliance with business and legal requirements.');?></p>
+			</div>
+			<div class="highlights_align">
+				<div class="flexibility-icon" data-animation-path="img/home/flexibility/" data-anim-loop="false" data-name="flexibility"></div>
+				<h4 class="revealOnScroll"><?php echo $l->t('Productivity');?></h4>
+				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Make data available on any platform to your teams. Let them share, collaborate and communicate within and across organizational boundaries.');?></p>
 			</div>
 			<div class="highlights_align">
 				<div class="community-icon" data-animation-path="img/home/community/" data-anim-loop="false" data-name="community"></div>
 				<h4 class="revealOnScroll"><?php echo $l->t('Community');?></h4>
 				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Enjoy constant improvements from a thriving and transparent, all open-source community development model, free of lockins or paywalls.');?></p>
-			</div>
-			<div class="highlights_align">
-				<div class="flexibility-icon" data-animation-path="img/home/flexibility/" data-anim-loop="false" data-name="flexibility"></div>
-				<h4 class="revealOnScroll"><?php echo $l->t('Enterprise');?></h4>
-				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Protect, control and scale the data and communication in your company and organization. Keep data where it is, making it available to your teams.');?></p>
 			</div>
 		</div>
 	</div>
@@ -170,18 +170,20 @@
         </div>-->
 	</div>
 </section>
-
+<section class="underyourcontrol">
 <div class="container-fluid" id="perfect-for-home-and-business">
 		<div class="container">
-		<h2 class="section--heading-1 revealOnScroll"><?php echo $l->t('Perfect for home and office');?></h2>
-		<p class="section--paragraph revealOnScroll"><?php echo $l->t('Access everything with the tools you are already using,
-			regardless of the device or platform you are on. Pictures,
-			videos, documents, contacts, communications - they are all
-			available right where you need them whether they are
-			coming from your local storage or remote cloud services.');?></p>
-		<p><a class="button button--blue button--arrow button--large revealOnScroll" href="<?php echo home_url('features') ?>" role="button"><?php echo $l->t('Know all the features</a>');?></p>
+		<h2 class="section--heading-1 revealOnScroll"><?php echo $l->t('Under your control');?></h2>
+		<p class="section--paragraph revealOnScroll"><?php echo $l->t('Your teams are using email attachments, public chat apps, consumer file sharing tools and telephone to communicate and collaborate. Nextcloud puts enterprises back in control over their IT.');?></p>
+		<p class="section--paragraph revealOnScroll"><?php echo $l->t('We offer modern organizations the tools they need to host their own productivity enhancing replacements for cloud solutions.');?></p>
+		<li class="revealOnScroll"><?php echo $l->t('Protect your IT investment by re-using existing infrastructure');?></li>
+		<li class="revealOnScroll"><?php echo $l->t('Ensure compliance, security and flexibility');?></li>
+		<li class="revealOnScroll"><?php echo $l->t('Know where your data is, who has access and how it is used');?></li>
+		<li class="revealOnScroll"><?php echo $l->t('Facilitate secure collaboration and communication');?></li>
+ 		<p><a class="button button--blue button--arrow button--large revealOnScroll" href="<?php echo home_url('files') ?>" role="button"><?php echo $l->t('Nextcloud Files</a>');?></p>
 		</div>
 </div>
+</section>
 
 <section class="slideshow" id="slideshow">
     <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 12');?></h2>

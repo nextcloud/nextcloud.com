@@ -373,11 +373,15 @@
         color: white;
         width: 100%;
         text-align: left; } }
+  #perfect-for-home-and-business li {
+    color: white !important;
+    list-style-image: url("../../img/common/white-check.svg");
+    list-style-position: inside; }
   #perfect-for-home-and-business .section--paragraph {
-    color: #ffffff;
+    color: white;
     width: 469px;
-    padding-top: 30px;
-    padding-bottom: 30px; }
+    padding-top: 5px;
+    padding-bottom: 5px; }
     @media (max-width: 768px) {
       #perfect-for-home-and-business .section--paragraph {
         width: 90%;
