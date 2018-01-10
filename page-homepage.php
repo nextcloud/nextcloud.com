@@ -12,11 +12,11 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/85-faster-ldap-10x-readwrite-speed-of-windows-network-drive-welcome-to-nextcloud-13-beta/">
+				<!--<a class="announcement" href="https://nextcloud.com/blog/introducing-a-full-self-hosted-audiovideo-and-chat-communication-platform-nextcloud-talk">
 				<span class="type">News</span>
-				<span class="message"><strong>85% faster LDAP</strong> and more speed coming in Nextcloud 13! Help test the beta.</span>
+				<span class="message"><strong>Introducing Nextcloud Talk</strong> A full self-hosted mobile/web conferencing and chat platform.</span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
-				</a>
+				</a>-->
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Nextcloud - Protecting your data');?></h1>
 				<h2 class="jumbotron--lead"><?php echo $l->t('Building products that allow you to be productive without losing control');?></h2>
 				<a class="button button--large button--arrow" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Learn more</a>');?>
