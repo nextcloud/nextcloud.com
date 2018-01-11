@@ -14,7 +14,7 @@
 	<meta name="theme-color" content="#0082c9">
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
-	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/custom.css" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/custom.css?v=2" rel="stylesheet">
 
 	<script>
 		// Use pure javascript to remove the class no-js if javascript is enabled
