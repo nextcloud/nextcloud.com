@@ -1,4 +1,4 @@
-<head>
+oh, that<head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/athome.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script>
@@ -65,14 +65,24 @@
         <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/camera.svg" /></div>
             <p class="section--paragraph__tittle"><?php echo $l->t('Maybe you just care about privacy');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Even if your data isn\'t abused --they promise not to, right?-- isn\'t it nobody\'s business what you do?');?></p>
-			<p class="section--paragraph"><?php echo $l->t('<strong>We believe privacy is a right</strong> and we like to help you get it back.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('<strong>We believe privacy is a right</strong>, a foundation for democracy. And we like to help you get it back.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('And running your own, private Nextcloud server is the best way to get started!');?></p>
         </div>
 	</div>
+	<div class="row">
 	<p class="section--paragraph text-center"><?php echo $l->t('<a class="hyperlink" href="/contributors">See the people behind Nextcloud!</a>');?></p>
-	<div class="statistics col-md-6 col-md-offset-3">
+	</div>
+	<div class="row">
+	<div class="col-md-6">
+	<p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud is people');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud is an open source community of developers and contributors, some helping out in their free time, others paid by their company to make Nextcloud better. <a class="hyperlink" href="/contributors">You can see some of the people involved in Nextcloud here.</a>');?></p>
+			<p class="section--paragraph"><?php echo $l->t('We organize events, attend conferences, hang out together at meetups and hackweeks. If you would like to meet Nextclouders, <a class="hyperlink" href="/contributors">check out our events page!</a>');?></p>
+			<a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017.jpg"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017-small.jpg" alt="in action" ></a>
+	</div>
+	<div class="col-md-6">
         <div class="text-center">
-            <script type='text/javascript' src='https://www.openhub.net/p/nextcloud/widgets/project_basic_stats?format=js'></script>
+            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/github-activity.png" alt="in action" >
+            <p><a class="hyperlink" href="https://www.openhub.net/p/nextcloud"><?php echo $l->t('See some development statistics.');?></a></p>
         </div>
 	</div>
 </div>

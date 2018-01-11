@@ -19,5 +19,9 @@ section {
     padding-top: 80px; }
   section h2 {
     padding-bottom: 40px; }
+  section li {
+    list-style-type: disc;
+    /* 		list-style-image: url("../../img/enterprise/check.svg"); */
+    list-style-position: inside; }
 
 /*# sourceMappingURL=clients.css.map */

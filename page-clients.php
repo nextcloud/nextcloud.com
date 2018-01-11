@@ -104,7 +104,6 @@
             </div>
             <div class="col-md-8 revealOnScroll feature--block">
                 <p class="section--paragraph"><?php echo $l->t('The iOS client has the following key features:
-                <ul>
                 <li>Display documents, photos, videos, audio files, as a list or thumbnails, sorted as you like.</li>
                 <li>Edit files on the phone built in or using other apps installed on your iPhone or iPad.</li>
                 <li>Add, rename, copy, move and delete files and folders</li>
@@ -122,8 +121,7 @@
                 <li>Optional wifi-only upload</li>
                 <li>Custom file naming</li>
                 <li>Choose between JPG and HEIC for photo uploads</li>
-                </ul></li>
-                </ul>');?></p>
+                </ul></li>');?></p>
             </div>
         </div>
         <div class="row">
@@ -151,7 +149,6 @@
             </div>
             <div class="col-md-8 revealOnScroll feature--block">
                 <p class="section--paragraph"><?php echo $l->t('The Android client has the following features:
-                <ul>
                 <li>Display documents, photos, videos, audio files, as a list or thumbnails, sorted as you like.</li>
                 <li>Edit files on the phone built in or using other apps installed on your Android device.</li>
                 <li>Add, rename, copy, move and delete files and folders</li>
@@ -172,8 +169,7 @@
                 <li>Handle videos and photos differently</li>
                 <li>Optional wifi-only and/or charging-only upload</li>
                 <li>Choice between the folders on your device so you can also upload images from other apps like Whatsapp</li>
-                </ul></li>
-                </ul>');?></p>
+                </ul></li>');?></p>
             </div>
         </div>
     </div>

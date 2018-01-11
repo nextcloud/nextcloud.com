@@ -78,7 +78,8 @@ section {
 	.container {
 	}
 	li {
-		list-style-type: disc;
+		list-style-image: url("../../img/enterprise/check.svg");
+		list-style-position:inside;
 	}
 }
 

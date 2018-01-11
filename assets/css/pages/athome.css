@@ -24,6 +24,9 @@
 section {
   margin: 180px 0; }
 
+.section--on-premise .row {
+  padding-bottom: 20px; }
+
 .section--customers {
   position: relative; }
   .section--customers .section--paragraph {
