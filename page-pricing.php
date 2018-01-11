@@ -245,7 +245,7 @@
 			<div class="row text-center"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Talk');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('secure online meetings, chat and web conferencing');?></p></div>
 			<div class="text-center morebuttondiv">
-                <a href="/talk" class="button button--blue button--large button--arrow"><?php echo $l->t('learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                <a href="/talk" class="button button--blue button--large button--arrow"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
 		</div>
 		<div class="col-md-5 revealOnScroll">
@@ -253,7 +253,7 @@
 			<div class="row text-center"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Groupware');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Team planning and email made easy');?></p></div>
 			<div class="text-center morebuttondiv">
-                <a href="/education" class="button button--blue button--large button--arrow"><?php echo $l->t('learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                <a href="/groupware" class="button button--blue button--large button--arrow"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
 		</div>
     </div>
