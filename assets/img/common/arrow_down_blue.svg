@@ -13,7 +13,7 @@
    version="1.1"
    id="svg2"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   sodipodi:docname="arrow_down.svg">
+   sodipodi:docname="arrow_down_blue.svg">
   <metadata
      id="metadata19">
     <rdf:RDF>
@@ -60,27 +60,32 @@
   <g
      id="NEXTCLOUD"
      transform="rotate(90,15.691723,6.1981379)"
-     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
+     style="fill:none;fill-rule:evenodd;stroke:#0082c9;stroke-width:1">
     <g
        id="HOMEPAGE-DESKTOP"
        transform="translate(-333,-553)"
-       style="stroke:#ffffff">
+       style="stroke:#0082c9">
       <g
-         id="TOP-Banner">
+         id="TOP-Banner"
+         style="stroke:#0082c9">
         <g
            id="BTN"
-           transform="translate(130,534)">
+           transform="translate(130,534)"
+           style="stroke:#0082c9">
           <g
              id="Page-1"
-             transform="translate(203,20)">
+             transform="translate(203,20)"
+             style="stroke:#0082c9">
             <path
                d="M 10.493585,9.8529756 H 29.161093"
                id="Stroke-1"
                inkscape:connector-curvature="0"
-               sodipodi:nodetypes="cc" />
+               sodipodi:nodetypes="cc"
+               style="stroke:#0082c9" />
             <polyline
                id="Stroke-3"
-               points="19.3497785 0.172487805 29.1610926 9.85297561 19.3497785 19.5339512" />
+               points="19.3497785 0.172487805 29.1610926 9.85297561 19.3497785 19.5339512"
+               style="stroke:#0082c9" />
           </g>
         </g>
       </g>

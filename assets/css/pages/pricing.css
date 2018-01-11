@@ -320,7 +320,7 @@
   .faq .downarrow {
     position: relative; }
   .faq .downarrow span.icon-arrow-down {
-    background: url("../../img/arrow_down.svg") center/contain no-repeat;
+    background: url("../../img/common/simple_arrow_down_grey.svg") center/contain no-repeat;
     position: absolute;
     width: 25px;
     height: 100%;

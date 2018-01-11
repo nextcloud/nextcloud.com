@@ -281,7 +281,9 @@
         background-color: $nextcloud-blue;
         position: relative;
         overflow: hidden;
-
+		.col-md-6 {
+			padding: 40px 0;
+		}
 		li,p,h2,h3 {
         color: white;
 		}
@@ -475,7 +477,7 @@
       width: 300px;
 
       .icon-arrow {
-        background: url(../../img/arrow_right.svg) center/contain no-repeat;
+        background: url(../../img/common/arrow_right.svg) center/contain no-repeat;
         position: absolute;
         width: 20px;
         height: 100%;

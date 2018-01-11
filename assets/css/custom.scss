@@ -746,7 +746,7 @@ li {
     position: absolute; }
     .button--dropdown:before {
       content: "";
-      background: url(../img/common/arrow_down_white.svg) center/contain no-repeat;
+      background: url(../img/common/simple_arrow_down_white.svg) center/contain no-repeat;
       position: absolute;
       display: block;
       width: 20px;
@@ -755,7 +755,7 @@ li {
       right: 20px;
       transition: all 0.2s ease-in; }
     .button--dropdown:hover:before {
-      background: url(../img/common/arrow_down_white.svg) center/contain no-repeat !important; }
+      background: url(../img/common/simple_arrow_down_white.svg) center/contain no-repeat !important; }
     .button--dropdown.active:before {
       transform: rotate(180deg); }
     .button--dropdown .dropdown-toggle {
@@ -859,7 +859,7 @@ li {
       /*.button--blue:hover:before {
         background: url(../img/common/arrow_right.svg) center/contain no-repeat; }*/
     .button--blue.button--dropdown:hover:before {
-      background: url(../img/common/arrow_down_white.svg) center/contain no-repeat; }
+      background: url(../img/common/simple_arrow_down_white.svg) center/contain no-repeat; }
   .button--arrow {
     padding-right: 50px; }
     .button--arrow:before {
@@ -883,6 +883,29 @@ li {
       background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
     .button--arrow.button--blue:hover:before {
       background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
+  .button--arrow--down {
+    padding-right: 50px; }
+    .button--arrow--down:before {
+      content: "";
+      background: url(../img/common/arrow_down_white.svg) center/contain no-repeat;
+      position: absolute;
+      display: block;
+      width: 20px;
+      height: 100%;
+      top: 0;
+      right: 25px;
+      transition: all 0.3s ease 0s; }
+    .button--arrow--down:hover:before {
+      background: url(../img/common/arrow_down_blue.svg) center/contain no-repeat;
+      right: 15px; }
+	.button--arrow--down.button--blue:hover {
+      background-color: $medium-blue;
+	  border: 1px solid $medium-blue;
+      color: white;}
+    .button--arrow--down.button--blue:before {
+      background: url(../img/common/arrow_down_white.svg) center/contain no-repeat; }
+    .button--arrow--down.button--blue:hover:before {
+      background: url(../img/common/arrow_down_white.svg) center/contain no-repeat; }
   .button--icon {
     padding: 0 30px 0 50px; }
     .button--icon:after {

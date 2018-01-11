@@ -217,6 +217,8 @@
     background-color: #0082c9;
     position: relative;
     overflow: hidden; }
+    .section--compliance .banner .col-md-6 {
+      padding: 40px 0; }
     .section--compliance .banner li, .section--compliance .banner p, .section--compliance .banner h2, .section--compliance .banner h3 {
       color: white; }
     .section--compliance .banner .hyperlink {
@@ -359,7 +361,7 @@
     #perfect-for-home-and-business .btn-primary {
       width: 300px; }
       #perfect-for-home-and-business .btn-primary .icon-arrow {
-        background: url(../../img/arrow_right.svg) center/contain no-repeat;
+        background: url(../../img/common/arrow_right.svg) center/contain no-repeat;
         position: absolute;
         width: 20px;
         height: 100%;
