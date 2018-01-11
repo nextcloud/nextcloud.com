@@ -64,7 +64,8 @@ section {
 .section--features {
   margin: 50px 0; }
   .section--features li {
-    list-style-type: disc; }
+    list-style-image: url("../../img/enterprise/check.svg");
+    list-style-position: inside; }
 
 .section--options {
   margin-bottom: 30px;
