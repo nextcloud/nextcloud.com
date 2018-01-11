@@ -128,7 +128,7 @@
         </div>
         <div class="row">
             <div class="col-md-6 revealOnScroll image--floated">
-                <div data-type="youtube" data-video-id="https://youtu.be/PHoQ4xSU9QA"></div>
+                <div data-type="youtube" data-video-id="https://youtu.be/4oY7R14Ydno"></div>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Well integrated Android app');?></p>
