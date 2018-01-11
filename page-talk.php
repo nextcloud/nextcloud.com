@@ -210,15 +210,15 @@
                 <div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
                     <div class="row text-center">
                         <div class="col-sm-4 mobileclientbuttons">
-                            <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
+                            <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS_TALK; ?>">
                             <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png"></a>
                         </div>
                         <div class="col-sm-4">
-                            <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
+                            <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_TALK; ?>">
                             <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"></a>
                         </div>
                         <div class="col-sm-4">
-                            <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID; ?>">
+                            <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_TALK; ?>">
                             <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a>
                         </div>
                     </div>
