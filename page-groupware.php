@@ -22,7 +22,7 @@
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 <!-- 			<p class="section--paragraph text-center"><?php echo $l->t('Modern organizations rely on always-available access to communication and planning through browser and mobile applications to improve productivity in their teams.');?></p> -->
-			<p class="section--paragraph text-center"><?php echo $l->t('Nextcloud Groupware offers easy to use web mail, calendaring and contacts that helps your team get things done quicker and easier.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Nextcloud Groupware offers easy-to-use web mail, calendaring and contacts that helps your team get things done quicker and easier.');?></p>
 		</div>
 	</div>
 </div>
@@ -33,8 +33,8 @@
 	<div class="row">
 		<div class="col-md-4 revealOnScroll">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/mobile.svg" /></div>
-			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Easy access anywhere');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('An efficient, modern and easy to use web interface for small or large teams.');?></p>
+			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Easy access, anywhere');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('An efficient, modern and easy-to-use web interface for small or large teams.');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Less distractions and deep integration in other Nextcloud products means more productivity, wherever you are!');?></p>
 		</div>
 		<div class="col-md-4 revealOnScroll">
@@ -47,7 +47,7 @@
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/storage.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Deep integration');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Integration into iOS, Android, Mac, Windows, Linux, Outlook, Thunderbird.');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('Simple deployment, configuration and integration lowers costs and decreases risk while protecting your existing IT investment.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Simple deployment, configuration and integration lower costs and decrease risk while leveraging your existing IT investment.');?></p>
 		</div>
 	</div>
 </div>
@@ -94,7 +94,7 @@
 			<p class="section--paragraph"><?php echo $l->t('Keep your relations organized');?></p>
 			<p class="section--paragraph"><?php echo $l->t('<ul>
 			<li>Track birthdays</li>
-			<li>Shared address books</li>
+			<li>Share address books</li>
 			<li>Sync with your phone</li>
 			</ul>
 			');?></p>
@@ -102,7 +102,7 @@
 	</div>
 	<div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-            <p class="section--paragraph revealOnScroll text-center"><?php echo $l->t('Nextcloud Groupware relies on native IMAP and SMTP capabilities. It integrates existing CalDAV and CardDAV storage while also providing its own.');?></p>
+            <p class="section--paragraph revealOnScroll text-center"><?php echo $l->t('Nextcloud Groupware relies on native IMAP and SMTP capabilities. It integrates into existing CalDAV and CardDAV storage while also providing its own.');?></p>
         </div>
 	</div>
 </div>
@@ -138,7 +138,7 @@
         </div>
     </div>
     <div class="row">
-         <p class="section--paragraph text-center"><a class="button button-medium" href="#pricing"><?php echo $l->t('see pricing');?></a></p>
+         <p class="section--paragraph text-center"><a class="button button-medium" href="#pricing"><?php echo $l->t('See pricing');?></a></p>
     </div>
 </div>
 </section>
@@ -146,7 +146,7 @@
 <section class="section--outlook">
 	<div class="container">
 		<div class="featurerow">
-			<h2 class="text-center revealOnScroll"><?php echo $l->t('Sync Calendars and Contacts<br>to Microsoft Outlook');?></h1>
+			<h2 class="text-center revealOnScroll"><?php echo $l->t('Sync Calendars and Contacts<br>with Microsoft Outlook');?></h1>
 			<div class="row ">
 				<div class="col-md-1">
 				</div>
@@ -168,7 +168,7 @@
 				</div>
 
 				<div class="col-md-6 featureblock revealOnScroll">
-					<p class="section--paragraph__tittle"><?php echo $l->t('Full outlook synchronization');?></p>
+					<p class="section--paragraph__tittle"><?php echo $l->t('Full Outlook synchronization');?></p>
 					<p class="section--paragraph"><?php echo $l->t('The CalDAV and CardDAV plugin offers two-way sync for CalDAV calendars and tasks, CardDAV contacts and can also handle the Google native Contacts and Tasks API.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('The plugin handles Outlook categories, mapping CalDAV server colors to Outlook category colors and syncing calendars and tasks to the categories. The plugin also handles timezones and recurring events with exceptions and can deal with Outlook custom properties.');?></p>
 				</div>

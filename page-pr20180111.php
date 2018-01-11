@@ -26,6 +26,7 @@ Nextcloud offers the industry-leading fully open source solution for on-premise 
 <p><strong>Links:</strong><br />
 About Nextcloud: <a href="https://nextcloud.com/about">nextcloud.com/about</a><br />
 Information about Nextcloud Talk: <a href="https://nextcloud.com/talk">nextcloud.com/talk</a><br />
+Blog by Frank with background on Talk: <a href="http://karlitschek.de/2018/01/nextcloud-talk-is-here/">karlitschek.de</a><br />
 <br />
 </p>
 <p><strong>Press contacts</strong>

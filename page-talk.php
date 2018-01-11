@@ -7,7 +7,7 @@
 		<div class="row">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Nextcloud Talk');?></h1>
-				<h2><?php echo $l->t('Screensharing, online meetings & conferencing made easy.');?></p>
+				<h2><?php echo $l->t('Screensharing, online meetings & web conferencing made easy.');?></p>
 			</div>
 		</div>
 	</div>
@@ -33,7 +33,7 @@
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png" class="img-responsive" /></a>
 		</div>
 		<div class="col-md-6 revealOnScroll">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Designed to not to be in your way');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Designed for you');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is a fully on-premise audio/video and chat communication service. It features web and mobile apps and is designed to offer the highest degree of security while being easy to use.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk lowers the barrier for communication and lets your team connect any time, any where, on any device, with each other, customers or partners.');?></p>
 			<!--<p class="section--paragraph"><?php echo $l->t('While Nextcloud Talk is free, the optional Spreed High Performance Back-end offers enterprise class scalability, reliability and features.');?></p>-->
@@ -50,17 +50,17 @@
             <div class="col-sm-4 revealOnScroll">
                 <p class="section--paragraph"><ul>
                 <li><?php echo $l->t('HD (H.265) audio/video calls');?></li>
-                <li><?php echo $l->t('Group and one on one calls');?></li>
+                <li><?php echo $l->t('Group and one-to-one calls');?></li>
                 <li><?php echo $l->t('Webinars & public web meetings');?></li>
                 <li><?php echo $l->t('Individual and group chat');?></li>
                 </ul></p>
             </div>
             <div class="col-sm-4 revealOnScroll">
                 <p class="section--paragraph"><ul>
-                <li><?php echo $l->t('Easy screen sharing');?></li>
+                <li><?php echo $l->t('Easy screensharing');?></li>
                 <li><?php echo $l->t('Mobile apps for Android and iOS');?></li>
-                <li><?php echo $l->t('Mobile call & chat push notifications');?></li>
-                <li><?php echo $l->t('Integration in <a class="hyperlink" href="/files">Nextcloud Files</a> and <a class="hyperlink" href="/groupware">Groupware</a>');?></li>
+                <li><?php echo $l->t('Mobile calls & chat push notifications');?></li>
+                <li><?php echo $l->t('Integration with <a class="hyperlink" href="/files">Nextcloud Files</a> and <a class="hyperlink" href="/groupware">Groupware</a>');?></li>
                 </ul></p>
             </div>
             <div class="col-sm-4 revealOnScroll">
@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <div class="col-sm-9 col-lg-10 featureblock">
-                    <p class="section--paragraph"><?php echo $l->t('<strong>get more done</strong><br>clean interface, clean communication');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('<strong>Get more done</strong><br>Clean interface, clean communication');?></p>
                 </div>
             </div>
             <div class="row">
@@ -109,7 +109,7 @@
                     </div>
                 </div>
                 <div class="col-sm-9 col-lg-10 featureblock">
-                    <p class="section--paragraph"><?php echo $l->t('<strong>Decrease travel costs</strong><br>meet as often as you like');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('<strong>Decrease travel costs</strong><br>Meet as often as you need');?></p>
                 </div>
             </div>
             <div class="row">
@@ -121,7 +121,7 @@
                     </div>
                 </div>
                 <div class="col-sm-9 col-lg-10 featureblock">
-                    <p class="section--paragraph"><?php echo $l->t('<strong>build better relationships</strong><br>Working together in real time');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('<strong>Build better relationships</strong><br>Working together in real time');?></p>
                 </div>
             </div>
             <div class="row">
@@ -145,7 +145,7 @@
                     </div>
                 </div>
                 <div class="col-sm-9 col-lg-10 featureblock">
-                    <p class="section--paragraph"><?php echo $l->t('<strong>Easy to get started</strong><br>Install, invite & call with one click');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('<strong>Easy to get started</strong><br>Install, invite & call in with one click');?></p>
                 </div>
             </div>
             <div class="row">
@@ -172,7 +172,7 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Private, group and public calls');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Video calls makes it easy to call customers and partners in one-to-one or group-scenarios.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Talk makes it easy to call customers and partners in one-to-one or group-scenarios.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Users can invite external chat participants with an URL into public rooms on the Nextcloud server.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The chat on the right hand side enables participants to easily exchange messages, links and notes.');?></p>
 		</div>
@@ -273,17 +273,17 @@
     <div class="row">
         <div class="col-sm-6 revealOnScroll">
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('
-            Starting at Eur 5000/USD 6000 per year plus
+            Starting at EUR 5000/USD 6000 per year plus
             <ul>
-                <li>Eur 50/USD 60 per user per year at 50 users</li>
-                <li>Eur 25/USD 30 per user per year at 500 users</li>
+                <li>EUR 50/USD 60 per user per year at 50 users</li>
+                <li>EUR 25/USD 30 per user per year at 500 users</li>
             </ul>
             further volume discounts at larger user numbers
             ');?></p>
         </div>
         <div class="col-sm-6 revealOnScroll">
             <div class="text-center morebuttondiv">
-                <a href="/buy" class="button button-button--large button--arrow"><?php echo $l->t('Contact sales for a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                <a href="/buy" class="button button-button--large button--arrow"><?php echo $l->t('Contact Sales for a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
         </div>
     </div>
