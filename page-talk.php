@@ -30,7 +30,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 image--floated revealOnScroll">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png" class="img-responsive" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-nw.png" class="img-responsive" /></a>
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Designed for you');?></p>
@@ -84,7 +84,7 @@
 <div class="container">
 	<div class="row list">
         <div class="col-md-6 revealOnScroll">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/clients/mobile/android.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/clients/mobile/android-talk.png" class="img-responsive" /></a>
+            <img src="<?php bloginfo('template_directory'); ?>/assets/img/clients/mobile/android-talk.png" class="img-responsive" />
         </div>
         <div class="col-md-6 revealOnScroll">
             <p class="section--paragraph__tittle"><?php echo $l->t('Benefits');?></p>
@@ -168,18 +168,18 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 image--floated revealOnScroll">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-two-nw.png" class="img-responsive featureimg" />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png" class="img-responsive featureimg" /></a>
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Private, group and public calls');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Talk makes it easy to call customers and partners in one-to-one or group-scenarios.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Users can invite external chat participants with an URL into public rooms on the Nextcloud server.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The chat on the right hand side enables participants to easily exchange messages, links and notes.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The chat, which remains open even when the user leaves a call, enables participants to easily exchange messages, links and notes.');?></p>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-6 revealOnScroll">
-			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-screenshare2-nw.png" />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Webinars and presentations');?></p>
@@ -190,7 +190,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 image--floated revealOnScroll">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-android-nw.png" class="img-responsive featureimg" />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-android.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-android-nw.png" class="img-responsive featureimg" /></a>
 		</div>
 	<div class="col-md-6 revealOnScroll">
 		<p class="section--paragraph__tittle"><?php echo $l->t('Secure and private');?></p>
