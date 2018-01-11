@@ -208,7 +208,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2 revealOnScroll">
             <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('
-            Nextcloud Groupware starts at Eur 750/year for 50 users with volume discounts.
+            Nextcloud Groupware starts at EUR 750/year for 50 users with volume discounts.
             ');?></p>
         </div>
         <div class="text-center morebuttondiv">
