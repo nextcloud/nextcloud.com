@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="100"
+   width="100"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg20"
+   sodipodi:docname="nextcloud_logo_only.svg"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+  <metadata
+     id="metadata24">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1353"
+     id="namedview22"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="3.6521739"
+     inkscape:cx="-89.815502"
+     inkscape:cy="34.467699"
+     inkscape:window-x="0"
+     inkscape:window-y="240"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg20"
+     inkscape:snap-page="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-midpoints="true" />
+  <defs
+     id="defs3">
+    <path
+       id="a"
+       d="M 0.302,9 H 7.74 V 0.307 H 0.3 Z"
+       inkscape:connector-curvature="0" />
+  </defs>
+  <g
+     id="g18"
+     style="fill:#0082c9;fill-rule:evenodd"
+     transform="matrix(1.0975382,0,0,1.0975382,9.917e-7,27.237607)">
+    <path
+       d="m 77.625,15.169 c 3.124,0 5.572,2.446 5.572,5.569 0,3.124 -2.448,5.572 -5.572,5.572 -3.123,0 -5.569,-2.448 -5.569,-5.572 0,-3.123 2.446,-5.569 5.569,-5.569 m -64.14,0 c 3.124,0 5.573,2.446 5.573,5.569 0,3.124 -2.449,5.572 -5.573,5.572 -3.123,0 -5.569,-2.448 -5.569,-5.572 0,-3.123 2.446,-5.569 5.569,-5.569 M 45.626,7.916 c 7.095908,-0.033986 12.857326,5.726084 12.825,12.822 0,7.13 -5.696,12.825 -12.825,12.825 -7.129,0 -12.822,-5.695 -12.822,-12.825 C 32.770563,13.642801 38.530801,7.8825631 45.626,7.916 M 45.626,0 C 36.182,0 28.177,6.403 25.696,15.077 23.54,10.476 18.867,7.253 13.485,7.253 6.085,7.253 0,13.337 0,20.738 c 0,7.402 6.084,13.489 13.485,13.489 5.382,0 10.055,-3.226 12.211,-7.828 2.481,8.676 10.486,15.08 19.93,15.08 9.374,0 17.338,-6.308 19.883,-14.885 2.196,4.497 6.81,7.633 12.116,7.633 7.401,0 13.488,-6.087 13.488,-13.49 0,-7.4 -6.087,-13.484 -13.488,-13.484 -5.306,0 -9.92,3.133 -12.116,7.63 C 62.964,6.306 55,0 45.626,0"
+       id="path5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssccssscccsccccssscscssscc"
+       style="fill:#0082c9" />
+    <g
+       transform="translate(42,50.702)"
+       id="g12"
+       style="fill:#0082c9">
+      <mask
+         id="b">
+        <use
+           xlink:href="#a"
+           id="use7"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </mask>
+    </g>
+    <g
+       id="g16"
+       style="fill:#0082c9" />
+  </g>
+</svg>

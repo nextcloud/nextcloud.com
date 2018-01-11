@@ -14,7 +14,7 @@
 			<div class="row">
 				<div class="col-md-6 topheader">
 					<h1><?php echo $l->t('Enterprise Support Subscriptions');?></h1>
-					<h2><?php echo $l->t('An enterprise subscription provides you the confidence of knowing that your Nextcloud deployment is backed by the best available technical expertise and with the features you need for your organization');?></h2>
+					<h2><?php echo $l->t('An enterprise subscription provides you the confidence of knowing that your Nextcloud Files deployment is backed by the best available technical expertise and with the features you need for your organization');?></h2>
 				</div>
 			</div>
 		</div>
@@ -35,7 +35,13 @@
 <a name="plans" id="plans"></a>
 <div class="container plans">
 	<div class="row">
-		<h1 class="header"><?php echo $l->t('Plans and Pricing');?></h1>
+        <div class="col-md-8 col-md-offset-2">
+            <h1 class="header"><?php echo $l->t('Plans and Pricing<br>
+            for Nextcloud Files');?></h1>
+            <h3 class="text-center"><?php echo $l->t('Host your private cloud with one of our Nextcloud Subscriptions.');?></h3>
+		</div>
+    </div>
+    <div class="row">
 		<div class="col-md-4 table-column">
 			<div class="table-header basic">
 				<h1 class="header"><?php echo $l->t('Basic');?></h1>
@@ -49,7 +55,6 @@
 					<li class="check" title="<?php echo $l->t('Nextcloud-branded iOS, Android and desktop apps are free.');?>" rel="tooltip"><?php echo $l->t('Mobile and desktop clients');?></li>
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
 					<li class="check" title="<?php echo $l->t('The AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
-					<li class="nocheck" title="<?php echo $l->t('Support for the Calendar and Contacts apps.');?>" rel="tooltip"><?php echo $l->t('Calendar and Contacts');?></li>
 				</div>
 				<h1 class="header"><?php echo $l->t('Support');?></h1>
 				<div class="line"></div>
@@ -88,7 +93,6 @@
 					<li class="check" title="<?php echo $l->t('Nextcloud-branded iOS, Android and desktop apps are free. Branding optional.');?>" rel="tooltip"><?php echo $l->t('Mobile and desktop clients');?></li>
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
 					<li class="check" title="<?php echo $l->t('The AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
-					<li class="check" title="<?php echo $l->t('Support for the Calendar and Contacts apps.');?>" rel="tooltip"><?php echo $l->t('Calendar and Contacts');?></li>
 				</div>
 				<h1 class=""><?php echo $l->t('Support');?></h1>
 				<div class="line"></div>
@@ -127,7 +131,6 @@
 					<li class="check" title="<?php echo $l->t('Nextcloud-branded iOS, Android and desktop apps are free. Branding optional.');?>" rel="tooltip"><?php echo $l->t('Mobile and desktop clients');?></li>
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
 					<li class="check" title="<?php echo $l->t('The AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
-					<li class="check" title="<?php echo $l->t('Support for the Calendar and Contacts apps.');?>" rel="tooltip"><?php echo $l->t('Calendar and Contacts');?></li>
 				</div>
 				<h1 class=""><?php echo $l->t('Support');?></h1>
 				<div class="line"></div>
@@ -159,8 +162,7 @@
 <div class="container text-center">
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Prices are in Euro per year and net/excl. VAT.');?></p>
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Nextcloud subscriptions are available from 50 users and up.');?></p>
-	<p class="revealOnScroll epricevat"><?php echo $l->t('Android and desktop apps are free; iOS app can be purchased in the Apple App Store.');?></p>
-	<p class="revealOnScroll epricevat"><?php echo $l->t('Our support subscriptions help you with your self-hosted instance. Nextcloud does not host and will never get access to your data.');?></p>
+	<p class="revealOnScroll epricevat"><?php echo $l->t('Nextcloud employees do not gain  access to your data as we just provide software and services.');?></p>
 </div>
 
 <section class="section--options">
@@ -171,7 +173,7 @@
 		<p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('On top of the benefits of a Nextcloud Support Subscription you can add several optional support and feature packages.');?></p>
 	</div>
     <div class="row revealOnScroll">
-        <div class="col-md-4">
+<!--        <div class="col-md-4">
 			<div class="featureblock">
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/spreed-two-nw.png">
 				<p class="section--paragraph__tittle"><?php echo $l->t('Audio/video calls');?></p>
@@ -179,8 +181,8 @@
 				<p class="section--paragraph price-big"><?php echo $l->t('starting at € 12/user/year');?></p>
 				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
 			</div>
-        </div>
-        <div class="col-md-4">
+        </div>-->
+        <div class="col-md-offset-2 col-md-4">
 			<div class="featureblock">
 <!--         <i class="fa-file-text fa"></i> -->
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/collabora-nw.png">
@@ -222,6 +224,39 @@
 			</div>
         </div>
 	</div>
+</div>
+</section>
+
+<section class="section--others">
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 revealOnScroll">
+            <h2 class="text-center revealOnScroll"><?php echo $l->t('Synergy');?></h2>
+            <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('');?></p>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 revealOnScroll">
+                <p class="section--paragraph text-center"><?php echo $l->t('Also check out our other self-hosted products offering seamless integration in Nextcloud Files.');?></p>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-md-5 col-md-offset-1 revealOnScroll">
+			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png" /></a>
+			<div class="row text-center"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Talk');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('secure online meetings, chat and web conferencing');?></p></div>
+			<div class="text-center morebuttondiv">
+                <a href="/talk" class="button button--blue button--large button--arrow"><?php echo $l->t('learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+            </div>
+		</div>
+		<div class="col-md-5 revealOnScroll">
+			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png" class="img-responsive" />
+			<div class="row text-center"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Groupware');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Team planning and email made easy');?></p></div>
+			<div class="text-center morebuttondiv">
+                <a href="/education" class="button button--blue button--large button--arrow"><?php echo $l->t('learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+            </div>
+		</div>
+    </div>
 </div>
 </section>
 

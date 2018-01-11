@@ -4,7 +4,9 @@
 <!-- <a href="/nine" class="btn btn-lg btn-default">Overview of new features</a> -->
 <h2>Press releases</h2>
 <ul>
-    <li><a href="/press/pr20180111">100K app downloads in 2017 shows strong growth of self-hosted online office market</a></li>
+    <li><a href="/press/pr20180111-2">Nextcloud achieves stellar growth in 2017 amid increasing awareness of compliance, control and data security among businesses</a></li>
+    <li><a href="/press/pr20180111">Nextcloud Talk provides fully self-hosted, complete audio/video and text communication platform</a></li>
+    <li><a href="/press/pr20180108">100K app downloads in 2017 shows strong growth of self-hosted online office market</a></li>
     <li><a href="/press/pr20171018/">Nextcloud and Purism Partner to Build and Include End-to-End Encrypted Storage Products and Services</a></li>
     <li><a href="/press/pr20170927/">Nextcloud Launches First Native Integrated End-to-end Encryption in Enterprise File Sync and Share Solution</a></li>
     <li><a href="/press/pr20170824/">Nextcloud iOS app Free for Download on App Store</a></li>

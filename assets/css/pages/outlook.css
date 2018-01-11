@@ -18,7 +18,7 @@
     padding-bottom: 50px; }
   .featurerow p {
     margin-top: 15px; }
-  .featurerow h1 {
+  .featurerow h1, .featurerow h2 {
     margin-bottom: 50px;
     text-align: center; }
 

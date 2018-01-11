@@ -254,10 +254,33 @@ nav a {
 
                         a {
                             display: block;
-                            padding: 5px 10px 0 10px;
+                            padding: 5px 10px 0 0px;
                             font-size: 16px;
                             color: $medium-dark;
-
+                            .nav__logo {
+                                width: 45px;
+                                min-height: 15px;
+                                float:left;
+                                vertical-align: middle;
+                                img {
+                                    margin-top: 5px;
+                                    padding: 10px 8px 0 0;
+                                    height: 40px;
+                                    width: 40px;
+                                }
+                            }
+                            .nav__text {
+                                line-height: 1;
+                                padding: 10px 30px 10px 0;
+                                strong {
+                                    line-height: 1.2;
+                                    font-weight: normal;
+                                    font-size: 18px;
+                                }
+                                small {
+                                    opacity: 0.8;
+                                }
+                            }
                             &:hover {
                                 opacity: 0.6;
                                 text-decoration: none;

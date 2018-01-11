@@ -1,0 +1,108 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.talk-background {
+  background: url("../../img/headers/talk.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px; }
+
+section {
+  padding: 50px 0; }
+  section .section--paragraph__tittle {
+    padding: 0; }
+  section h2 {
+    padding-bottom: 0px; }
+  section .row {
+    padding-top: 40px; }
+
+.featuretitle {
+  text-align: center; }
+
+.section--benefits i[class*='fa-'] {
+  font-size: 40px;
+  display: block;
+  color: #0082c9;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 20%;
+  margin-left: auto;
+  margin-right: auto; }
+.section--benefits .icon {
+  max-width: 120px; }
+.section--benefits .scaling-svg-container {
+  height: 0;
+  width: 100%;
+  padding: 0;
+  padding-bottom: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* override this inline for aspect ratio other than square */ }
+  @media (max-width: 768px) {
+    .section--benefits .scaling-svg-container {
+      position: relative;
+      margin-left: 0; } }
+.section--benefits svg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0; }
+.section--benefits .list {
+  padding-top: 180px; }
+@media (max-width: 991px) {
+  .section--benefits img {
+    max-height: 500px;
+    margin-left: auto;
+    margin-right: auto; } }
+
+.section--features {
+  margin: 50px 0; }
+  .section--features li {
+    list-style-type: disc; }
+
+.section--options {
+  margin-bottom: 30px;
+  /* end container-widest */ }
+  .section--options .container-widest {
+    /* end featureblock */ }
+    .section--options .container-widest .introduction {
+      padding-top: 50px;
+      padding-bottom: 0px; }
+      .section--options .container-widest .introduction h1 {
+        margin-bottom: 30px; }
+    .section--options .container-widest .row {
+      margin-left: 5px;
+      margin-right: 5px; }
+    .section--options .container-widest .col-md-4 {
+      padding: 20px; }
+    .section--options .container-widest .featureblock {
+      margin-top: 50px;
+      /* 			margin-bottom: 50px; */
+      padding: 20px;
+      border: solid 1px transparent; }
+      .section--options .container-widest .featureblock:hover {
+        box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
+        border: solid 1px #fbfbfb;
+        border-radius: 8px;
+        transition: all 0.5s ease; }
+      .section--options .container-widest .featureblock .section--paragraph__tittle {
+        text-align: center; }
+      .section--options .container-widest .featureblock .section--paragraph {
+        text-align: center; }
+      .section--options .container-widest .featureblock .img-responsive {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 50px; }
+
+/* end section */
+footer {
+  margin-top: 0px; }
+
+/*# sourceMappingURL=talk.css.map */

@@ -46,7 +46,11 @@ section {
       vertical-align: middle; }
 
 .section--on-premise .section--heading-1 {
-  padding-bottom: 30px; }
+  padding-bottom: 40px; }
+.section--on-premise .row {
+  padding-bottom: 40px; }
+.section--on-premise .statistics {
+  padding: 40px 0 40px 25px; }
 
 .section--compliance .banner {
   background-color: #0082c9;
@@ -129,4 +133,4 @@ section {
   .calltoaction a {
     margin: 50px; }
 
-/*# sourceMappingURL=features.css.map */
+/*# sourceMappingURL=athome.css.map */
