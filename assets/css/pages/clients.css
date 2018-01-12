@@ -19,9 +19,11 @@ section {
     padding-top: 80px; }
   section h2 {
     padding-bottom: 40px; }
+  section ul {
+    padding-left: 30px; }
   section li {
-    list-style-type: disc;
+    list-style-type: circle;
     /* 		list-style-image: url("../../img/enterprise/check.svg"); */
-    list-style-position: inside; }
+    /* 		list-style-position:inside; */ }
 
 /*# sourceMappingURL=clients.css.map */
