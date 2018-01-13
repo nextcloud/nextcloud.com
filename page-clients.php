@@ -107,7 +107,7 @@
                 <li>Display documents, photos, videos, audio files, as a list or thumbnails, sorted as you like.</li>
                 <li>Edit files on the phone built in or using other apps installed on your iPhone or iPad.</li>
                 <li>Add, rename, copy, move and delete files and folders</li>
-                <li>Keep your favorite files synchronized offline</li>
+                <li>Keep your favorite files available offline</li>
                 <li>Share files with others</li>
                 <li>Client-side, <a class="hyperlink" href="/endtoend">End-to-end encryption</a> (version >2.20)</li>
                 <li>Local and server-side search</li>
@@ -130,7 +130,7 @@
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Well integrated Android app');?></p>
-                <p class="section--paragraph"><?php echo $l->t('The Nextcloud Android app makes accessing, syncing and sharing your files easy and fun with its modern and intuitive interface. Our client supports Android 4.0 and later and works with a wide variety of screen sizes and Android features.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The Nextcloud Android app makes accessing, syncing and sharing your files easy with its modern and intuitive interface. Our client supports Android 4.0 and later and works with a wide variety of screen sizes and Android features.');?></p>
                 <div class="row">
                     <div class="col-xs-6">
                         <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
@@ -152,7 +152,7 @@
                 <li>Display documents, photos, videos, audio files, as a list or thumbnails, sorted as you like.</li>
                 <li>Edit files on the phone built in or using other apps installed on your Android device.</li>
                 <li>Add, rename, copy, move and delete files and folders</li>
-                <li>Keep your favorite files synchronized offline</li>
+                <li>Keep your favorite files available offline</li>
                 <li>Share files with others</li>
                 <li>Shared files view</li>
                 <li>Simple contacts backup & restore</li>
