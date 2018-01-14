@@ -40,7 +40,7 @@
 		<div class="col-md-4 revealOnScroll">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/permissions.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Ultimate security');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('An open source, on-premise product.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('An open source, on-premises product.');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Emails, calendars and contacts are stored on your own infrastructure, without any third party ever gaining access.');?></p>
 		</div>
 		<div class="col-md-4 revealOnScroll">

@@ -87,7 +87,7 @@
                     <div class="feature">
                         <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/securitypolicies.svg"); ?>
                         <p class="section--paragraph__tittle"><?php echo $l->t('Current security policies and processes');?><p/>
-                            <p class="section--paragraph"><?php echo $l->t('Thanks to the on-premise nature of Nextcloud and its ability to leverage existing data storage and database technologies, current security policies and governance processes can continue to be used to manage, control and secure operations with Nextcloud. Nextcloud GmbH does at no point have access to your data and can not interfere with regulated processes, keeping your IT department in control.');?></p>
+                            <p class="section--paragraph"><?php echo $l->t('Thanks to the on-premises nature of Nextcloud and its ability to leverage existing data storage and database technologies, current security policies and governance processes can continue to be used to manage, control and secure operations with Nextcloud. Nextcloud GmbH does at no point have access to your data and can not interfere with regulated processes, keeping your IT department in control.');?></p>
                         </div>
                     </div>
                 </div>

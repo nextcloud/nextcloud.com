@@ -1,6 +1,6 @@
 <div class="pr">
 <h1>Nextcloud and Adfinis SyGroup sign strategic partnership</h1>
-<p><strong>Stuttgart, May 9 2017.</strong> as new Nextcloud's sales and integration partner, Adfinis SyGroup is delivering its on-premise solution for the secure storage and management of data to the Swiss market. Together, Nextcloud and Adfinis SyGroup offer their customers full control over sensitive business data and a complete range of services for a carefree use of the storage, communication and collaboration solution in the daily working routine.</p>
+<p><strong>Stuttgart, May 9 2017.</strong> as new Nextcloud's sales and integration partner, Adfinis SyGroup is delivering its on-premises solution for the secure storage and management of data to the Swiss market. Together, Nextcloud and Adfinis SyGroup offer their customers full control over sensitive business data and a complete range of services for a carefree use of the storage, communication and collaboration solution in the daily working routine.</p>
 
 <p>As part of the partnership, Adfinis SyGroup provides comprehensive integration and support services for the Open Source enterprise file sync and share, communication and collaboration solution Nextcloud. In so doing, Adfinis SyGroup expands its diverse portfolio of services for open source technologies and solutions.</p>
 
@@ -28,7 +28,7 @@ As a proven service provider and partner, Adfinis SyGroup supports clients from 
 Further information: <a href="https://adfinis-sygroup.ch/en">adfinis-sygroup.ch/en</a></p>
 
 <p><strong>About Nextcloud</strong></br />
-Nextcloud offers a unique-in-the-industry fully open source solution for on-premise data handling and communication with an uncompromising focus on security and privacy. Nextcloud brings together universal access to data with next-generation secure communication and collaboration capabilities under direct control of IT and integrated with existing compliant infrastructure. Nextcloud's open, modular architecture, emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing assets within and across the borders of their organization. For more information, visit <a href="https://nextcloud.com">https://nextcloud.com</a> or follow <a href="https://twitter.com/nextclouders">@Nextclouders on Twitter.</a></p>
+Nextcloud offers a unique-in-the-industry fully open source solution for on-premises data handling and communication with an uncompromising focus on security and privacy. Nextcloud brings together universal access to data with next-generation secure communication and collaboration capabilities under direct control of IT and integrated with existing compliant infrastructure. Nextcloud's open, modular architecture, emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing assets within and across the borders of their organization. For more information, visit <a href="https://nextcloud.com">https://nextcloud.com</a> or follow <a href="https://twitter.com/nextclouders">@Nextclouders on Twitter.</a></p>
 
 <p><strong>Links:</strong><br />
 About Adfinis SyGroup: <a href="https://www.adfinis-sygroup.ch/en/about.html">adfinis-sygroup.ch/en/about.html</a>
