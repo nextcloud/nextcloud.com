@@ -41,7 +41,7 @@ or Bus 139 to Knobelsdorffstraße.</p>
 August, or contact Jos Poortvliet at +49 (0) 1711217528 or email <a href="mailto:pr@nextcloud.com">pr@nextcloud.com</a></p>
 
 <p><strong>About Nextcloud</strong></br />
-Nextcloud offers a unique-in-the-industry fully open source solution for on-premise data handling and communication with a uncompromising focus on security and privacy. Nextcloud brings together universal access to data with next-generation secure communication and collaboration capabilities under direct control of IT and integrated with existing compliant infrastructure. Nextcloud's open, modular architecture, emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing assets within and across the borders of their organization. For more information, visit https://nextcloud.com or follow @Nextclouders on Twitter.</p>
+Nextcloud offers a unique-in-the-industry fully open source solution for on-premises data handling and communication with a uncompromising focus on security and privacy. Nextcloud brings together universal access to data with next-generation secure communication and collaboration capabilities under direct control of IT and integrated with existing compliant infrastructure. Nextcloud's open, modular architecture, emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing assets within and across the borders of their organization. For more information, visit https://nextcloud.com or follow @Nextclouders on Twitter.</p>
 
 <p>Nextcloud GmbH http://nextcloud.com<br />
 </p>
