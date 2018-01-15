@@ -28,7 +28,7 @@
 </section>
 
 <div class="container">
-	<h2><?php echo $l->t('Nextcloud helps you be successful.');?></h2>
+	<h2><?php echo $l->t('Nextcloud helps you beeing successful.');?></h2>
 	<p><?php echo $l->t('You run your own Nextcloud server, keeping your data in-house and under control. We make sure it works.');?></p>
 	<div class="contact">
 		<h3><?php echo $l->t('Contact us for more information and a quote fitting your use case.');?></h3>
