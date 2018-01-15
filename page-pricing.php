@@ -163,6 +163,7 @@
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Prices are in Euro per year and net/excl. VAT.');?></p>
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Nextcloud subscriptions are available from 50 users and up.');?></p>
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Nextcloud employees do not gain  access to your data as we just provide software and services.');?></p>
+	<p class="revealOnScroll epricevat"><?php echo $l->t('Unless explicitly stated, Nextcloud 5x8 support is in UTC +01:00. Other times possible on request.');?></p>
 </div>
 
 <section class="section--options">
