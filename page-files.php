@@ -12,7 +12,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('<span class="avoidwrap">Your cloud,</span> <span class="avoidwrap">your rules</span>');?></h1>
+				<h1><?php echo $l->t('<span class="avoidwrap">Store your files under your conditions</span>');?></h1>
 				<h2><?php echo $l->t('Nextcloud Files enables enterprises to take back control over their data, ensuring compliance, security and instant availability wherever their employees are.');?></h2>
 			</div>
 		</div>
