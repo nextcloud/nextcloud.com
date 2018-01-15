@@ -65,9 +65,9 @@
         <div class="col-md-6 revealOnScroll"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Mail');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Send and receive emails in a breeze');?></p>
 			<p class="section--paragraph"><?php echo $l->t('<ul>
-			<li>Multiple accounts</li>
-			<li>Unified inbox</li>
-			<li>Encrypted mail support</li>
+			<li>Multiple accounts with unified inbox</li>
+			<li>Easy to use folder management</li>
+			<li>Supports end-to-end encryption using OpenPGP</li>
 			</ul>
 			');?></p>
         </div>
@@ -77,11 +77,11 @@
 			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png" />
         </div>
         <div class="col-md-6 revealOnScroll"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Calendar');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Schedule work and meetings online');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Schedule work and your meetings online');?></p>
 			<p class="section--paragraph"><?php echo $l->t('<ul>
-			<li>Add any WebCal calendar</li>
-			<li>Private and public sharing</li>
 			<li>Create multiple calendars</li>
+            <li>Integrate external calendar resources (WebCal)</li>
+			<li>Share your calendars with your team or with the public</li>
 			</ul>
 			');?></p>
         </div>
@@ -93,16 +93,16 @@
         <div class="col-md-6 revealOnScroll"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Contacts');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Keep your relations organized');?></p>
 			<p class="section--paragraph"><?php echo $l->t('<ul>
-			<li>Track birthdays</li>
-			<li>Share address books</li>
-			<li>Sync with your phone</li>
+			<li>Track birthdays of your contacts</li>
+			<li>Share your addressbooks with your team</li>
+			<li>Sync your contacts with phones and other devices</li>
 			</ul>
 			');?></p>
         </div>
 	</div>
 	<div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-            <p class="section--paragraph revealOnScroll text-center"><?php echo $l->t('Nextcloud Groupware relies on native IMAP and SMTP capabilities. It integrates into existing CalDAV and CardDAV storage while also providing its own.');?></p>
+            <p class="section--paragraph revealOnScroll text-center"><?php echo $l->t('Nextcloud Groupware relies on native IMAP and SMTP capabilities. It fluently integrates your existing infrastructure while also providing its own.');?></p>
         </div>
 	</div>
 </div>
