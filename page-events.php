@@ -53,6 +53,11 @@
 						<th>Date</th>
 					</tr>
 					<tr>
+						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/conf/">Nextcloud Conference 2018</a></td>
+						<td>Berlin, Germany</td>
+						<td>August 23-30</td>
+					</tr>
+					<tr>
 						<td><a class="hyperlink" target="_blank" href="https://2018.fossasia.org/">FOSS Asia 2018</a></td>
 						<td>Singapore, Singapore</td>
 						<td>March 22-25</td>
