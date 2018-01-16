@@ -19,11 +19,7 @@ require(["require.config"], function() {
 		</div>
 	</div>
 </section>
-<!--<div class="sub-nav">
-	<a class="hyperlink" href="/contributors"><?php echo $l->t('Nextcloud Community');?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class="hyperlink" href="/team"><?php echo $l->t('Nextcloud GmbH team</a>');?>
-</div>-->
 
-<!-- <p class="section--paragraph"><?php echo $l->t('');?></p> -->
 <section class="section--about">
 	<div class="container">
 		<p class="section--paragraph"><?php echo $l->t('Nextcloud, the next generation open source Enterprise File Sync and Share was started by ownCloud inventor <a class="hyperlink" href="https://karlitschek.de">Frank Karlitschek</a> and a dozen experienced open source entrepreneurs and engineers to empower users to take back control over their data and communication. The company was launched in 2016 as a spin-off from <a class="hyperlink" href="https://struktur.de" target="_blank">Struktur AG</a>, a leading web conferencing and financial planning software company since 1995, servicing customers like Deutsche Bank, Vodafone, BNP Paribas and many others, and turned profitable by the end of 2016. Nextcloud gives organizations fine-grained control over data access, facilitates file synchronization and sharing across devices, enables collaboration within and across organizational boundaries and lets users communicate through secure audio and video conferencing.');?></p>
