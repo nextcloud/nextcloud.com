@@ -81,7 +81,7 @@
 			<p class="section--paragraph"><?php echo $l->t('<ul>
 			<li>Create multiple calendars</li>
             <li>Integrate external calendar resources (WebCal)</li>
-			<li>Share your calendars with your team or with the public</li>
+			<li>Share your calendars with your team or make it public</li>
 			</ul>
 			');?></p>
         </div>
@@ -102,7 +102,7 @@
 	</div>
 	<div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-            <p class="section--paragraph revealOnScroll text-center"><?php echo $l->t('Nextcloud Groupware relies on native IMAP and SMTP capabilities. It fluently integrates your existing infrastructure while also providing its own.');?></p>
+            <p class="section--paragraph revealOnScroll text-center"><?php echo $l->t('Nextcloud Groupware relies on native IMAP and SMTP capabilities. It fluently integrates into your existing infrastructure while also providing its own.');?></p>
         </div>
 	</div>
 </div>
