@@ -77,7 +77,7 @@
 			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png" />
         </div>
         <div class="col-md-6 revealOnScroll"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Calendar');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Schedule work and your meetings online');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Schedule work and meetings online');?></p>
 			<p class="section--paragraph"><?php echo $l->t('<ul>
 			<li>Create multiple calendars</li>
             <li>Integrate external calendar resources (WebCal)</li>
