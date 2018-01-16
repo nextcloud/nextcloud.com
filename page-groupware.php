@@ -66,7 +66,7 @@
 			<p class="section--paragraph"><?php echo $l->t('Send and receive emails in a breeze');?></p>
 			<p class="section--paragraph"><?php echo $l->t('<ul>
 			<li>Multiple accounts with unified inbox</li>
-			<li>Easy to use folder management</li>
+			<li>Easy-to-use folder management</li>
 			<li>Supports end-to-end encryption using OpenPGP</li>
 			</ul>
 			');?></p>
@@ -118,22 +118,22 @@
             <p class="section--paragraph__tittle"><?php echo $l->t('Integration');?></p>
             <p class="section--paragraph"><?php echo $l->t('
             Nextcloud Groupware is designed to deeply integrate in your infrastructure, using existing user directories and file storage systems.<br>
-            <a class="hyperlink" href="">Learn more about user management.</a><br>
-            <a class="hyperlink" href="">Learn more about storage technologies.</a>
+            <a class="hyperlink" href="">Learn more about user management</a><br>
+            <a class="hyperlink" href="">Learn more about storage technologies</a>
             ');?></p>
         </div>
         <div class="col-sm-4">
             <p class="section--paragraph__tittle"><?php echo $l->t('Security');?></p>
             <p class="section--paragraph"><?php echo $l->t('
             Nextcloud Groupware is engineered from the ground up to be secure with the latest web protections and secure login technologies like Brute Force Protection and 2-factor authentication.<br>
-            <a class="hyperlink" href="/secure">Learn more about security.</a>
+            <a class="hyperlink" href="/secure">Learn more about security</a>
             ');?></p>
         </div>
         <div class="col-sm-4">
             <p class="section--paragraph__tittle"><?php echo $l->t('Control');?></p>
             <p class="section--paragraph"><?php echo $l->t('
             Nextcloud Groupware is built to host yourself and work with existing SMTP and IMAP/POP3 servers. This simplifies compliance by putting you in control. Nextcloud supports you with excellent monitoring and audit-ready logging functionality.<br>
-            <a class="hyperlink" href="/monitoring">Learn more about monitoring and logging.</a>
+            <a class="hyperlink" href="/monitoring">Learn more about monitoring and logging</a>
             ');?></p>
         </div>
     </div>
