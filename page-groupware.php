@@ -81,7 +81,7 @@
 			<p class="section--paragraph"><?php echo $l->t('<ul>
 			<li>Create multiple calendars</li>
             <li>Integrate external calendar resources (WebCal)</li>
-			<li>Share your calendars with your team or make it public</li>
+			<li>Share your calendars with your team or make them public</li>
 			</ul>
 			');?></p>
         </div>
