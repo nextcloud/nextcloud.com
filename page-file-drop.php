@@ -126,7 +126,7 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Convenient and personal');?></p>
-		<p class="section--paragraph"><?php echo $l->t('Your client will be able to upload files to your server in a secure and easy manner. You receive a notification of new files in your upload folder and proceed to process the data. At the end you provide the result in a separate folder for your client to download securely. At all time your and your clients data are protected by industry-leading security measures!');?></p>
+		<p class="section--paragraph"><?php echo $l->t('Your client will be able to upload files to your server in a secure and easy manner. You receive a notification of new files in your upload folder and proceed to process the data. At the end you provide the result in a separate folder for your client to download securely. At all time your data and that of your clients is protected by industry-leading security measures!');?></p>
 		</div>
 	</div>
 	<div class="row">
