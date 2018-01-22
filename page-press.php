@@ -4,6 +4,7 @@
 <!-- <a href="/nine" class="btn btn-lg btn-default">Overview of new features</a> -->
 <h2>Press releases</h2>
 <ul>
+    <li><a href="/press/pr20180123">Nextcloud secure file sync and share now available via GEANT and NRENs to educational market</a></li>
     <li><a href="/press/pr20180111-2">Nextcloud achieves stellar growth in 2017 amid increasing awareness of compliance, control and data security among businesses</a></li>
     <li><a href="/press/pr20180111">Nextcloud Talk provides fully self-hosted, complete audio/video and text communication platform</a></li>
     <li><a href="/press/pr20180108">100K app downloads in 2017 shows strong growth of self-hosted online office market</a></li>
