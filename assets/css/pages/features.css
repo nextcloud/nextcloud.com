@@ -124,9 +124,13 @@ section {
   text-align: center;
   padding-top: 20%; }
 
-.calltoaction {
-  padding-bottom: 100px; }
-  .calltoaction a {
-    margin: 50px; }
+.section--getstarted {
+  margin-bottom: 0px; }
+  .section--getstarted a {
+    margin-left: 50px;
+    margin-right: 50px; }
+
+footer {
+  margin-top: 0px; }
 
 /*# sourceMappingURL=features.css.map */

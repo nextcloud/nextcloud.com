@@ -1,7 +1,7 @@
 @import '../variables';
 @import '../modules/transparent-navbar';
 
-.features-background {
+.files-background {
 	background: url('../../img/headers/yourcloud.jpg') no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -32,12 +32,6 @@ section {
 }
 
 .section--overview {
-}
-
-.section--on-premise {
-	.row {
-		padding-bottom: 20px;
-	}
 }
 
 .section--customers {
@@ -73,13 +67,7 @@ section {
 
 .section--on-premise {
 	.section--heading-1 {
-		padding-bottom: 40px;
-	}
-	.row {
-		padding-bottom: 40px;
-	}
-	.statistics {
-		padding: 40px 0 40px 25px;
+		padding-bottom: 30px;
 	}
 }
 

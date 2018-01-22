@@ -229,7 +229,23 @@
 		</div>
 	</div>
 </section>
-
+<section class="file-sharing">
+	<div class="container">
+		<div class="featurerow">
+<!-- 			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
+			<div class="row">
+				<div class="col-md-6 image--feature image--floated revealOnScroll">
+					<img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb-2.png" alt="in action" />
+				</div>
+				<div class="col-md-6 featureblock revealOnScroll">
+					<p class="section--paragraph__tittle"><?php echo $l->t('Mozilla Thunderbird');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Thanks to the Mozilla Thunderbird Lightning Calendar add-in and the Cardbook Thunderbird Contacts add-in, Nextcloud Groupware integrates great into Thunderbird.');?></p>
+					<p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_USER; ?>pim/sync_thunderbird.html"><?php echo $l->t('Learn more in our documentation.');?></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <script type="text/javascript">
 // $(function () {
 // });

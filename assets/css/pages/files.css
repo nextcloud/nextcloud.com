@@ -6,7 +6,7 @@
   background-color: transparent;
   position: absolute; }
 
-.features-background {
+.files-background {
   background: url("../../img/headers/yourcloud.jpg") no-repeat;
   background-position: center;
   background-size: cover; }
@@ -23,9 +23,6 @@
 
 section {
   margin: 180px 0; }
-
-.section--on-premise .row {
-  padding-bottom: 20px; }
 
 .section--customers {
   position: relative; }
@@ -49,11 +46,7 @@ section {
       vertical-align: middle; }
 
 .section--on-premise .section--heading-1 {
-  padding-bottom: 40px; }
-.section--on-premise .row {
-  padding-bottom: 40px; }
-.section--on-premise .statistics {
-  padding: 40px 0 40px 25px; }
+  padding-bottom: 30px; }
 
 .section--compliance .banner {
   background-color: #0082c9;
@@ -139,4 +132,4 @@ section {
 footer {
   margin-top: 0px; }
 
-/*# sourceMappingURL=athome.css.map */
+/*# sourceMappingURL=files.css.map */
