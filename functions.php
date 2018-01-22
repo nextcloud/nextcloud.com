@@ -35,3 +35,4 @@ function translationUrlFilter($url) {
 }
 
 add_filter('home_url', 'translationUrlFilter');
+add_theme_support( 'post-thumbnails' );
