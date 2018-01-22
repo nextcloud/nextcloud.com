@@ -22,8 +22,10 @@ section {
   section ul {
     padding-left: 30px; }
   section li {
-    list-style-type: circle;
-    /* 		list-style-image: url("../../img/enterprise/check.svg"); */
+    /* 			list-style-type: circle; */
+    list-style-image: url("../../img/enterprise/check.svg");
     /* 		list-style-position:inside; */ }
+  section .quote .row {
+    padding-top: 0px; }
 
 /*# sourceMappingURL=clients.css.map */

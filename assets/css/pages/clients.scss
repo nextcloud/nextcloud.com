@@ -9,7 +9,6 @@
 
 section {
 	padding: 50px 0;
-
 	.section--paragraph__tittle {
 		padding: 0;
 	}
@@ -23,10 +22,16 @@ section {
 		padding-left: 30px;
 	}
 	li {
-		list-style-type: circle;
-	/* 		list-style-image: url("../../img/enterprise/check.svg"); */
+/* 			list-style-type: circle; */
+			list-style-image: url("../../img/enterprise/check.svg");
 /* 		list-style-position:inside; */
 	}
+	.quote {
+		.row {
+			padding-top: 0px;
+		}
+	}
 }
+
 
 
