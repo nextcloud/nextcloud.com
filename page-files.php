@@ -529,7 +529,7 @@
                 <div class="col-md-12 featureblock revealOnScroll">
                     <div class="row text-center">
                         <a href="/install" class="button button--arrow button--large"><?php echo $l->t('Try Nextcloud Files');?></a>
-                        <a href="/quote" class="button button--arrow button--large"><?php echo $l->t('Contact sales');?></a>
+                        <a href="/buy" class="button button--arrow button--large"><?php echo $l->t('Contact sales');?></a>
                     </div>
                 </div>
             </div>
