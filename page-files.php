@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/features.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/files.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script>
 	require(["require.config"], function() {
@@ -8,7 +8,7 @@
 </script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
-<div class="background features-background second-menu">
+<div class="background files-background second-menu">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
@@ -355,13 +355,25 @@
             </div>
         </div>
     </div>
+    <div class="featurerow">
+<!-- 			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
+			<div class="row">
+				<div class="col-md-6 image--feature image--floated revealOnScroll">
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/moztb.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb.png" alt="in action" /></a>
+				</div>
+				<div class="col-md-6 featureblock revealOnScroll">
+					<p class="section--paragraph__tittle"><?php echo $l->t('Mozilla Thunderbird');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Nextcloud also provides a <a href="https://addons.mozilla.org/en-US/thunderbird/addon/nextcloud-filelink/">Thunderbird Filelink Addon!</a> This Thunderbird extension makes it easy to send large attachments with Thunderbird by automatically uploading them first to a Nextcloud server and by then inserting the link into the body of your email.');?></p>
+				</div>
+			</div>
+		</div>
 </div>
 </section>
 
 <section class="section--Collabora">
 	<a name="collabora" id="collabora"></a>
 	<div class="container">
-		<div class="col-md-6 image--floated image--feature revealOnScroll">
+		<div class="col-md-6 image--feature revealOnScroll">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-nw.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('View and edit documents with Collabora');?></p>
@@ -508,14 +520,19 @@
 </div>
 </section>
 
-
-<div class="calltoaction revealOnScroll">
-	<h1 class="section--heading-2 section--text--center"><?php echo $l->t('Get started now');?></h1>
-	<p class="section--paragraph section--text--center"><?php echo $l->t('Try out Nextcloud server for FREE or get a quote');?></p>
-	<div class="row">
-        <div class="text-center">
-	<a href="/install" class="button button--blue button--arrow button--large"><?php echo $l->t('Try Nextcloud Files');?></a>
-	<a href="/quote" class="button button--blue button--arrow button--large"><?php echo $l->t('Contact sales');?></a>
+<section class="section--getstarted">
+    <div class="container-fluid quote">
+        <h2 class="text-center revealOnScroll"><?php echo $l->t('Get started now');?></h2>
+        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Try out Nextcloud server for FREE or get a quote');?></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 featureblock revealOnScroll">
+                    <div class="row text-center">
+                        <a href="/install" class="button button--arrow button--large"><?php echo $l->t('Try Nextcloud Files');?></a>
+                        <a href="/buy" class="button button--arrow button--large"><?php echo $l->t('Contact sales');?></a>
+                    </div>
+                </div>
+            </div>
         </div>
-	</div>
-</div>
+    </div>
+</section>

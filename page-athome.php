@@ -25,7 +25,7 @@
 			<a href="#security"><span class="avoidwrap"><?php echo $l->t('Security');?></span></a>
 			<a href="#clients"><span class="avoidwrap"><?php echo $l->t('Clients');?></span></a>
 			<a href="#storage"><span class="avoidwrap"><?php echo $l->t('External storage');?></span></a>
-			<a href="#calendar"><span class="avoidwrap"><?php echo $l->t('Collaborate');?></span></a>
+			<a href="#calendar"><span class="avoidwrap"><?php echo $l->t('Integration');?></span></a>
 			<a href="#appstore"><span class="avoidwrap"><?php echo $l->t('More apps');?></span></a>
 		</div>
 	</div>
@@ -214,6 +214,40 @@
 	</div>
 </section>
 
+<section class="section--outlook">
+<a name="calendar" id="calendar"></a>
+<div class="container">
+    <div class="featurerow">
+    <h2 class="text-center"><?php echo $l->t('Nextcloud Outlook and Thunderbird Integration');?></h2>
+    <p class="section--paragraph text-center"><?php echo $l->t('Automatically upload files to replace large attachments or integrate Calendars and Contacts in your mail client');?></p>
+        <div class="row">
+            <div class="col-md-6">
+                <div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
+            </div>
+            <div class="col-md-6">
+                <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud users to easily and securely send files, folders or upload links to others from within Microsoft Outlook. The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>
+                <p class="text-center section--paragraph"><?php echo $l->t('With the Outlook CalDav Synchronizer integration with Nextcloud, Outlook users can easily sync their events, tasks and contacts between Microsoft Outlook and their Nextcloud server.');?></p>
+                <p><a href="/outlook" class="button button--arrow button--blue button--large"><?php echo $l->t('Outlook Add-ins');?></a></p>
+            </div>
+        </div>
+    </div>
+    <div class="featurerow">
+<!-- 			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
+			<div class="row">
+				<div class="col-md-6 image--feature image--floated revealOnScroll">
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/moztb.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb.png" alt="in action" /></a>
+				</div>
+				<div class="col-md-6 featureblock revealOnScroll">
+					<p class="section--paragraph__tittle"><?php echo $l->t('Mozilla Thunderbird');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Nextcloud also provides a <a href="https://addons.mozilla.org/en-US/thunderbird/addon/nextcloud-filelink/">Thunderbird Filelink Addon!</a> This Thunderbird extension makes it easy to send large attachments with Thunderbird by automatically uploading them first to a Nextcloud server and by then inserting the link into the body of your email.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Thanks to the Mozilla Thunderbird Lightning Calendar add-in and the Cardbook Thunderbird Contacts add-in, Calendar and Contacts integrate great into Thunderbird.');?></p>
+					<p><a href="/outlook" class="button button--arrow button--blue button--large"><?php echo $l->t('Thunderbird Add-ins');?></a></p>
+				</div>
+			</div>
+		</div>
+</div>
+</section>
+
 <section class="section--usermanagement">
 	<a name="storage" id="storage"></a>
 	<div class="container">
@@ -221,7 +255,7 @@
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Integrated account management');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud features built in account management with optional two-factor authentication, making it easy to handle creating and modifying accounts. If you have set up a LDAP, you can connect it to Nextcloud as well!.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud features built in account management with optional two-factor authentication, making it easy to handle creating and modifying accounts. If you have set up a LDAP, you can connect it to Nextcloud as well!');?></p>
 			<a href="/usermanagement" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
 		</div>
 	</div>
@@ -398,9 +432,18 @@
 </div>
 </section>
 
-
-<div class="calltoaction revealOnScroll">
-	<h1 class="section--heading-2 section--text--center"><?php echo $l->t('Get started now');?></h1>
-	<p class="section--paragraph section--text--center"><?php echo $l->t('Install Nextcloud server');?><br>
-	<a href="/install" class="button button--blue button--arrow button--large"><?php echo $l->t('Install');?></a></p>
-</div>
+<section class="section--getstarted">
+    <div class="container-fluid quote">
+        <h2 class="text-center revealOnScroll"><?php echo $l->t('Get started now');?></h2>
+        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Install Nextcloud server');?></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 featureblock revealOnScroll">
+                    <div class="row text-center">
+                        <a href="/install" class="button button--arrow button--large"><?php echo $l->t('install');?></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
