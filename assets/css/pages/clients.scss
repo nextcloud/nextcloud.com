@@ -33,5 +33,18 @@ section {
 	}
 }
 
+.section--mobile {
+	.container {
+		.row {
+			overflow: hidden;
+			img {
+				margin: 30px auto;
+/* 				max-width: 70vw; */
+				max-width: 90%;
+				max-height: 400px;
+			}
+		}
+	}
+}
 
 

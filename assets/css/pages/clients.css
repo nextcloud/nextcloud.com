@@ -28,4 +28,12 @@ section {
   section .quote .row {
     padding-top: 0px; }
 
+.section--mobile .container .row {
+  overflow: hidden; }
+  .section--mobile .container .row img {
+    margin: 30px auto;
+    /* 				max-width: 70vw; */
+    max-width: 90%;
+    max-height: 400px; }
+
 /*# sourceMappingURL=clients.css.map */
