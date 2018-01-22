@@ -303,6 +303,17 @@
 	</div>
 </section>
 
+<section class="section--fulltextsearch">
+	<div class="container">
+		<div class="col-md-6 revealOnScroll image--feature">
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/fulltextsearch.png"/></a>
+		</div>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Powerful search');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud includes a powerful full-text search engine capable of using Apache Solr or ElasticSearch as back-end. Its flexible plugin-based interface enables search capabilities beyond files.');?></p>
+		</div>
+	</div>
+</section>
+
 <section class="section--appstore benefits">
 <div class="container-fluid banner">
     <div class="container">
