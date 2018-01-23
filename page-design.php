@@ -26,7 +26,7 @@
 			<h3 class="section--paragraph__tittle"><?php echo $l->t('Get involved');?></h3>
 			<ul>
                 <li><?php echo $l->t('We have a <a href="https://github.com/nextcloud/server/labels/design" target="_blank">Design label on GitHub</a> – check out these issues if you want to help and fix interface problems. This label is also in the other repositories for clients and apps.');?></li>
-                <li><?php echo $l->t('For easier issues and to get started, check out the <a href="https://github.com/nextcloud/server/issues?q=label%3Adesign+label%3A%22starter+issue%22+is%3Aopen" target="_blank">Design issues also marked »starter issue«</a>');?></li>
+                <li><?php echo $l->t('For easier issues and to get started, check out the <a href="https://github.com/nextcloud/server/issues?q=is%3Aopen+label%3A%22good+first+issue%22+label%3Adesign" target="_blank">Design issues also marked »good first issue«</a>');?></li>
                 <li><?php echo $l->t('<a href="https://github.com/nextcloud/server/issues?q=label%3Adesign+label%3Ahigh+is%3Aopen" target="_blank">High priority design issues</a> are additionally marked with the »High« label – these we need to prioritize, and fixing any of those will make you everyone’s hero!');?></li>
             </ul>
 		</div>
