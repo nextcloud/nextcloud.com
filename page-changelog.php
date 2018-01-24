@@ -55,6 +55,17 @@ Many fixes were merged, the most important ones include:
  	<li><a href="https://github.com/nextcloud/server/pull/7757">#7757</a> Wait for the shared link to be set in the acceptance tests</li>
  	<li><a href="https://github.com/nextcloud/gallery/pull/349">gallery/#349</a> Fix date picker not visible in slideshow sharing dialog</li>
  	<li><a href="https://github.com/nextcloud/activity/pull/229">activity/#229</a> Properly construct path of root on file rename</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7770">#7770</a> Fix SCSS processing when undoing theming values</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7774">#7774</a> Update icewind/smb to 2.0.3</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7777">#7777</a> Set height for sidebar icons</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7779">#7779</a> Improve zip support</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7786">#7786</a> Return correct mount type for federated shares</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7792">#7792</a> Fix empty details view after renaming a file</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7817">#7817</a> Fix preview when theming changes invertion of icons</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7821">#7821</a> Log full exception in cron instead of only the message</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7888">#7888</a> Keep all shipped apps enabled because they should be okay</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7962">#7962</a> update icewind/smb to 2.0.4</li>
+
 </ul>
 
 <h4 id="12-0-4">Version 12.0.4 <small>December 4 2017</small></h4>
@@ -390,6 +401,8 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
  	<li><a href="https://github.com/nextcloud/server/pull/7718">#7718</a> Throw ServerNotAvailableException when LDAP is caught shutting down</li>
  	<li><a href="https://github.com/nextcloud/server/pull/7695" >#7695</a> Don't attempt to translate login names to uids when uids are provided</li>
  	<li><a href="https://github.com/nextcloud/server/pull/7746" >#7746</a> Update composer</li>
+    <li><a href="https://github.com/nextcloud/server/pull/7780">#7780</a> Improve zip support</li>
+ 	<li><a  href="https://github.com/nextcloud/server/pull/7936">#7936</a> update icewind/smb to 2.0.4</li>
 </ul>
 
 
