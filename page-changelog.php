@@ -11,6 +11,52 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest12"></a>
+<h4 id="12-0-5">Version 12.0.5 <small>January 24 2018</small></h4>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.tar.bz2">nextcloud-12.0.5.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.zip">nextcloud-12.0.5.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.tar.bz2.md5">nextcloud-12.0.5.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.zip.md5">nextcloud-12.0.5.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.tar.bz2.sha256">nextcloud-12.0.5.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.zip.sha256">nextcloud-12.0.5.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.tar.bz2.sha512">nextcloud-12.0.5.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.zip.sha512">nextcloud-12.0.5.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.tar.bz2.asc">nextcloud-12.0.5.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.zip.asc">nextcloud-12.0.5.zip.asc</a></p>
+
+<h4>Changes</h4>
+Many fixes were merged, the most important ones include:
+<ul>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7144">#7144</a> Unlock files even if an exception occurs</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7322">#7322</a> Set primary action button color to same as theming color</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7323">#7323</a> Use the correct root for shared jail when the source storage is also a jail</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7353">#7353</a> Fix translation of federation scope menu</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7362">#7362</a> Allow to skip data dir permission checks</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7407">#7407</a> Check if owner of share exists</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7409">#7409</a> Add retry wrapper when reading files from swift</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7451">#7451</a> Fix constructor spy in unit test with Sinon 4.1.3</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7455">#7455</a> Remove wrong entry in admin_settings that causes 500</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7456">#7456</a> CardDAV convertor check should not be to wide</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7457">#7457</a> Fix loading icon position in the app menu</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7464">#7464</a> Allow getting the filepath when getting cached mounts</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7468">#7468</a> Allow 'Nextcloud' in the user agent string of Android</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7558">#7558</a> Fix email buttons for white theme</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7567">#7567</a> Respect sharing options when searching for Sharees</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7568">#7568</a> Fix duplicate session token after remembered login</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7577">#7577</a> Check userExists later, saves lookups for appData_INSTANCEID userids</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7672">#7672</a> Added additional methods for removal of sensitive info</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7688">#7688</a> Fix scss webroot and url rewrite</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7717">#7717</a> Throw ServerNotAvailableException when LDAP is caught shutting down</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7666">#7666</a> Fix drag shadow not visible when dragging a file on a narrow screen</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7674">#7674</a> Do no run SyncJob in cron</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7684">#7684</a> Fix inverted app icons on IE11</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7694">#7694</a> Don't attempt to translate login names to uids when uids are provided</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7708">#7708</a> Don't show recurring msg when pages result was turned off</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7742">#7742</a> Hide favourite icon in details view if favourite action is not available</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7745">#7745</a> Don't lie about preview types</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7747">#7747</a> Update of composer</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7758">#7758</a> add option to use legacy v2 auth with s3</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7759">#7759</a> Use correct L10N files for jsconfig</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7757">#7757</a> Wait for the shared link to be set in the acceptance tests</li>
+ 	<li><a href="https://github.com/nextcloud/gallery/pull/349">gallery/#349</a> Fix date picker not visible in slideshow sharing dialog</li>
+ 	<li><a href="https://github.com/nextcloud/activity/pull/229">activity/#229</a> Properly construct path of root on file rename</li>
+</ul>
+
 <h4 id="12-0-4">Version 12.0.4 <small>December 4 2017</small></h4>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.4.tar.bz2">nextcloud-12.0.4.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.4.zip">nextcloud-12.0.4.zip</a></br>
 Check the file integrity with:</br>
@@ -329,6 +375,24 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p><a href="https://github.com/nextcloud/server/milestone/10?closed=1">See a full list of integrated pull requests here.</a></p>
 
 <a name="latest11"></a>
+<h3 id="11-0-7">Version 11.0.7 <small>January 24 2018</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.7.tar.bz2">nextcloud-11.0.7.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.7.zip">nextcloud-11.0.7.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.7.tar.bz2.md5">nextcloud-11.0.7.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.7.zip.md5">nextcloud-11.0.7.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.7.tar.bz2.sha256">nextcloud-11.0.7.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.7.zip.sha256">nextcloud-11.0.7.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.7.tar.bz2.sha512">nextcloud-11.0.7.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.7.zip.sha512">nextcloud-11.0.7.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.7.tar.bz2.asc">nextcloud-11.0.7.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.7.zip.asc">nextcloud-11.0.7.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7467">#7467</a> Allow 'Nextcloud' in the user agent string of Android</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7673">#7673</a> Added additional methods for removal of sensitive info</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7718">#7718</a> Throw ServerNotAvailableException when LDAP is caught shutting down</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7695" >#7695</a> Don't attempt to translate login names to uids when uids are provided</li>
+ 	<li><a href="https://github.com/nextcloud/server/pull/7746" >#7746</a> Update composer</li>
+</ul>
+
+
 <h3 id="11-0-6">Version 11.0.6 <small>December 4 2017</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.tar.bz2">nextcloud-11.0.6.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.6.zip">nextcloud-11.0.6.zip</a></br>
 Check the file integrity with:</br>
