@@ -417,15 +417,15 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <h4>Changes</h4>
 <h5>Server</h5>
 <ul>
-	<li><a href="https://github.com/nextcloud/server/issues/6504">Fix initializing paged search under some circumstances (server#6504)</a></li>
-	<li><a href="https://github.com/nextcloud/server/issues/6548">Throw 101 when an empty group string is provided (server#6548)</a></li>
-	<li><a href="https://github.com/nextcloud/server/issues/6588">Fix moving folders out of a cache jail (server#6588)</a></li>
-	<li><a href="https://github.com/nextcloud/server/issues/6675">Don't pass User object when uid string is expected (server#6675)</a></li>
-	<li><a href="https://github.com/nextcloud/server/issues/6695">MP3 without cover don't get a preview (server#6695)</a></li>
-	<li><a href="https://github.com/nextcloud/server/issues/6793">Fix postgresql tests (server#6793)</a></li>
-	<li><a href="https://github.com/nextcloud/server/issues/6897">Timespan check (server#6897)</a></li>
-	<li><a href="https://github.com/nextcloud/server/issues/7023">Fix mismatch method signature in Nextcloud 11 (server#7023)</a></li>
-	<li><a href="https://github.com/nextcloud/server/issues/7148">Unlock files even if an exception occurs (server#7148)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6504">Fix initializing paged search under some circumstances (#6504)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6548">Throw 101 when an empty group string is provided (#6548)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6588">Fix moving folders out of a cache jail (#6588)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6675">Don't pass User object when uid string is expected (#6675)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6695">MP3 without cover don't get a preview (#6695)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6793">Fix postgresql tests (#6793)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/6897">Timespan check (#6897)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7023">Fix mismatch method signature in Nextcloud 11 (#7023)</a></li>
+	<li><a href="https://github.com/nextcloud/server/issues/7148">Unlock files even if an exception occurs (#7148)</a></li>
 </ul>
 
 <h3 id="11-0-5">Version 11.0.5 <small>September 20 2017</small></h3>
