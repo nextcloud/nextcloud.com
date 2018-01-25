@@ -4,17 +4,17 @@
 <!-- <a href="/nine" class="btn btn-lg btn-default">Overview of new features</a> -->
 <h2>Press releases</h2>
 <ul>
-    <li><a href="/press/pr20180123">Nextcloud secure file sync and share now available via GEANT and NRENs to educational market</a></li>
-    <li><a href="/press/pr20180111-2">Nextcloud achieves stellar growth in 2017 amid increasing awareness of compliance, control and data security among businesses</a></li>
-    <li><a href="/press/pr20180111">Nextcloud Talk provides fully self-hosted, complete audio/video and text communication platform</a></li>
-    <li><a href="/press/pr20180108">100K app downloads in 2017 shows strong growth of self-hosted online office market</a></li>
-    <li><a href="/press/pr20171018/">Nextcloud and Purism Partner to Build and Include End-to-End Encrypted Storage Products and Services</a></li>
-    <li><a href="/press/pr20170927/">Nextcloud Launches First Native Integrated End-to-end Encryption in Enterprise File Sync and Share Solution</a></li>
-    <li><a href="/press/pr20170824/">Nextcloud iOS app Free for Download on App Store</a></li>
-	<li><a href="/press/pr20170807/">Nextcloud and Partners Announce Education Edition With Moodle, Zenodo and other integration features</a></li>
-	<li><a href="/press/pr20170522/">Nextcloud announces Global Scale architecture as part of Nextcloud 12</a></li>
-	<li><a href="/press/pr20170508/">Nextcloud and Adfinis SyGroup sign strategic partnership</a></li>
-	<li><a href="/press/pr20170502/">Nextcloud 12 Beta Introduces the Next Generation of Secure Collaboration</a></li>
+    <li><a href="/press/pr20180123">January 23, 2018: Nextcloud secure file sync and share now available via GEANT and NRENs to educational market</a></li>
+    <li><a href="/press/pr20180111-2">January 11, 2018: Nextcloud achieves stellar growth in 2017 amid increasing awareness of compliance, control and data security among businesses</a></li>
+    <li><a href="/press/pr20180111">January 11, 2018: Nextcloud Talk provides fully self-hosted, complete audio/video and text communication platform</a></li>
+    <li><a href="/press/pr20180108">January 8, 2018: 100K app downloads in 2017 shows strong growth of self-hosted online office market</a></li>
+    <li><a href="/press/pr20171018/">October 18, 2017: Nextcloud and Purism Partner to Build and Include End-to-End Encrypted Storage Products and Services</a></li>
+    <li><a href="/press/pr20170927/">September 27, 2017: Nextcloud Launches First Native Integrated End-to-end Encryption in Enterprise File Sync and Share Solution</a></li>
+    <li><a href="/press/pr20170824/">August 24, 2017: Nextcloud iOS app Free for Download on App Store</a></li>
+	<li><a href="/press/pr20170807/">August 7, 2017: Nextcloud and Partners Announce Education Edition With Moodle, Zenodo and other integration features</a></li>
+	<li><a href="/press/pr20170522/">May 22, 2017: Nextcloud announces Global Scale architecture as part of Nextcloud 12</a></li>
+	<li><a href="/press/pr20170508/">May 8, 2017: Nextcloud and Adfinis SyGroup sign strategic partnership</a></li>
+	<li><a href="/press/pr20170502/">May 2, 2017: Nextcloud 12 Beta Introduces the Next Generation of Secure Collaboration</a></li>
     <li><a href="/press/pr20170307/">March 7, 2017: DASEQ and Nextcloud announce partnership</a></li>
 	<li><a href="/press/pr20161213/">December 13, 2016: Nextcloud 11 sets new standard for security and scalability</a></li>
 	<li><a href="/press/pr20161027/">October 27, 2016: Nextcloud GmbH continues growth path with addition of Head of Sales</a></li>
