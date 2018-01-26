@@ -35,8 +35,10 @@ section {
     padding-left: 10px;
     padding-right: 10px; }
     .section--customers .customer .customer-logo {
-      /*-webkit-filter: grayscale(100%);*/
+      -webkit-filter: saturate(0%) contrast(0.35) brightness(130%);
       filter: saturate(0%) contrast(0.35) brightness(130%);
+      padding-left: 10px;
+      padding-right: 10px;
       max-width: 250px;
       float: center;
       position: relative;
