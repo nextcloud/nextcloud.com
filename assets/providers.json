@@ -91,7 +91,7 @@
          "flags":[
             "us"
          ],
-         "freeplans":true,
+         "freeplans":false,
 		 "supports":"both",
          "specializes":[
             "Service Metric offers per user cloud storage to enterprise solutions powered by Nextcloud on fully managed high availability infrastructure in the US."
