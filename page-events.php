@@ -14,9 +14,9 @@
 </div>
 <div class="container">
 	<div class="sub-nav">
-		<a href="/events/meetups">Meetups</a>&nbsp;&nbsp;
-		|&nbsp;&nbsp;<a href="/events/conference-program">Events Program</a>
-	<!--     |&nbsp;&nbsp;<a href="/events/contactform">Contact</a> -->
+		<a href="<?php echo home_url('events/meetups') ?>">Meetups</a>&nbsp;&nbsp;
+		|&nbsp;&nbsp;<a href="<?php echo home_url('events/conference-program') ?>">Events Program</a>
+	<!--     |&nbsp;&nbsp;<a href="<?php echo home_url('events/contactform') ?>">Contact</a> -->
 	</div>
 </div>
 
@@ -24,7 +24,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<p class="section--paragraph">Are you interested in meeting fellow Nextcloud users and contributors (<a class="hyperlink" href="/contributors">Nextclouders</a>, as we lovingly call ourselves)? You&#39;ve come to the right place! The Nextcloud community organizes and participates in many events around the globe and here you can find details on where you can meet us and how to organise your own event and become a member of the most active file sync and share open source community!</p>
+				<p class="section--paragraph">Are you interested in meeting fellow Nextcloud users and contributors (<a class="hyperlink" href="<?php echo home_url('contributors') ?>">Nextclouders</a>, as we lovingly call ourselves)? You&#39;ve come to the right place! The Nextcloud community organizes and participates in many events around the globe and here you can find details on where you can meet us and how to organise your own event and become a member of the most active file sync and share open source community!</p>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/hackathon.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
 				<h2>Meetups</h2>
 				<p class="section--paragraph">Nextcloud community members get together in meetups to learn, share ideas and work on Nextcloud. Meetups are informal meetings which are typically held in the evening and can be focused on development, user or business topics. You can take part as a speaker, participant or promoter. Meetups are typically held once a month and are open to anyone. Below is a list of local meetup groups.</p>
@@ -33,7 +33,7 @@
 				<div class="row" style="text-align: center">
 					<p class="section--paragraph"><a target="_blank" href="https://nextcloud.meetup.com/" class="btn btn-lg btn-default">
 					<i class="icon-group"></i> Join a Meetup!</a>
-					<a target="_blank"  href="/events/meetups" class="btn btn-lg btn-default">
+					<a target="_blank"  href="<?php echo home_url('events/meetups') ?>" class="btn btn-lg btn-default">
 					<i class="icon-lightbulb-o"></i> Organize a Meetup!</a></p>
 				</div>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
@@ -41,7 +41,7 @@
 				<p class="section--paragraph">The most exciting event on the yearly calendar for Nextcloud is of course our very own Nextcloud Conference! Over 150 Nextcloud community members get together for a full week. During week days, we write and discuss code while on the weekend we have an exciting, educational and inspirational program with keynotes, lightning talks and workshops around private, self-hosted cloud technologies.</p>
 				<p class="section--paragraph">You can read a report of our last conference <a class="hyperlink" href="https://nextcloud.com/blog/significant-growth-at-nextcloud-conference-brought-150-customers-colleagues-and-friends-together/">in this blog</a> and if you'd like to join in 2018 - mark these dates in your calendar:</p>
 				<h3>Augustus 23-30 2018 at the TU Berlin, Germany</h3>
-				<a href="/conf" class="button button--blue button--large button--arrow">Learn more about the Nextcloud Conference</a>
+				<a href="<?php echo home_url('conf') ?>" class="button button--blue button--large button--arrow">Learn more about the Nextcloud Conference</a>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/booth.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
 				<h2>Events 2018</h2>
 				<p class="section--paragraph">Nextcloud is participating in trade shows and conferences to present our community and technology to visitors.<br/>

@@ -44,7 +44,7 @@
             <p class="section--paragraph"><?php echo $l->t('Help out with Nextcloud user interaction design or graphic design! Get involved on <a class="hyperlink"  href="design/">the design page</a>!');?></p>
             <h3 class="section--intro"><?php echo $l->t('Support Nextcloud development with bounties');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Support Nextcloud development by offering some money on features you would like to have! <a class="hyperlink"  href="https://www.bountysource.com/teams/nextcloud" target="_blank">Check our Bountysource page</a>!');?>
-            <p class="section--paragraph"><?php echo $l->t('Note that <a class="hyperlink" href="/jobs">we are hiring</a>. We look especially for people who want to turn their passion into their job! When possible, we hire people from our active community base or from the wider open source community.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Note that');?> <a class="hyperlink" href="<?php echo home_url('jobs') ?>"><?php echo $l->t('we are hiring</a>. We look especially for people who want to turn their passion into their job! When possible, we hire people from our active community base or from the wider open source community.');?></p>
         </div>
     </div>
 </div>
@@ -52,5 +52,5 @@
 
 <div class="calltoaction">
 		<h1 class="section--heading-2 section--text--center"><?php echo $l->t('Let\'s make Nextcloud Rock!');?></h1>
-		<p class="section--paragraph section--text--center"><?php echo $l->t('If you have any questions, <a class="hyperlink" href="https://help.nextcloud.com">we are happy to help you</a>.');?></p>
+		<p class="section--paragraph section--text--center"><?php echo $l->t('If you have any questions, <a class="hyperlink" href="https://help.nextcloud.com">our community is happy to help you</a>.');?></p>
 </div>

@@ -39,7 +39,7 @@
 	<div class="row">
 		<div class="col-md-6">
                     <!-- Constant Contact Email List Form Button -->
-		    <a href="http://visitor.r20.constantcontact.com/d.jsp?llr=ixens9uab&amp;p=oi&amp;m=1121878184680&amp;sit=mf4qye7jb&amp;f=cc4cd13f-acdf-45d3-b132-75252542c37d" class="btn btn-block btn-primary btn-lg join-button">Subscribe to our<br />monthly newsletter!</a><br />
+		    <a href="https://newsletter.nextcloud.com" class="btn btn-block btn-primary btn-lg join-button">Subscribe to our<br />monthly newsletter!</a><br />
 		</div>
 	</div>
 </div>

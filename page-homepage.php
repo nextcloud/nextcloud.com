@@ -65,7 +65,7 @@
             <h3 class="text-center revealOnScroll"><?php echo $l->t('Learn more');?></h3>
                 <div class="col-sm-6 revealOnScroll">
                     <div class="featureblock">
-                        <a class="hyperlink" href="/healthcare"><div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/tools.svg" /></div>
+                        <a class="hyperlink" href="<?php echo home_url('healthcare') ?>"><div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/tools.svg" /></div>
                         <p class="section--paragraph text-center"><?php echo $l->t('Healthcare and HIPAA');?></p></a>
                     </div>
                 </div>
@@ -77,13 +77,13 @@
                 </div>
                 <div class="col-sm-6 revealOnScroll">
                     <div class="featureblock">
-                        <a class="hyperlink" href="/monitoring"><div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/ldap.svg" /></div>
+                        <a class="hyperlink" href="<?php echo home_url('monitoring') ?>"><div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/ldap.svg" /></div>
                         <p class="section--paragraph text-center"><?php echo $l->t('Auditing capabilities');?></p></a>
                     </div>
                 </div>
                 <div class="col-sm-6 revealOnScroll">
                     <div class="featureblock">
-                        <a class="hyperlink" href="/workflow"><div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
+                        <a class="hyperlink" href="<?php echo home_url('workflow') ?>"><div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
                         <p class="section--paragraph text-center"><?php echo $l->t('File Access Control');?></p></a>
                     </div>
                 </div>
@@ -229,7 +229,7 @@
 	            <p class="section--paragraph"><?php echo $l->t('Our Video calls app is the most secure way to to discuss with others, share your screen to show or demonstrate something and get work done. We also introduced push notifications, security improvements like Rate Limiting and enhanced Brute Force protection, admin apps like Impersonate, Quota Warning, Download Activity, App bundles, JSLoader and much more.');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="/webrtc" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="btn-primary" href="<?php echo home_url('webrtc') ?>" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
@@ -249,7 +249,7 @@
 <div class="calltoaction revealOnScroll">
 	<h1 class="section--heading-2 section--text--center"><?php echo $l->t('See how we stack up');?></h1>
 	<p class="section--paragraph section--text--center">
-	<a href="/compare" class="button button--blue button--arrow button--large"><?php echo $l->t('Compare Nextcloud to other solutions');?></a></p>
+	<a href="<?php echo home_url('compare') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Compare Nextcloud to other solutions');?></a></p>
 </div>
 </section>
 

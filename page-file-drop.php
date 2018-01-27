@@ -135,7 +135,7 @@
 		</div>
 	<div class="col-md-6 revealOnScroll">
 		<p class="section--paragraph__tittle"><?php echo $l->t('Unique links for each customer');?></p>
-		<p class="section--paragraph"><?php echo $l->t('Rather than creating a single upload link, you can also have customized links by entering a customer email address and then enabling File Drop (upload only). Your client receives an email with instructions on where to securely upload their files and if you chose to add one, the password in a separate email. You can have both a shared link and multiple, unique email links with each their own password, expiration date and access rights. The password email can be disabled in the admin sharing settings for even more security-sensitive data where a secure second channel (like a <a class="hyperlink" href="/webrtc">secure video call</a>) has to be used for the password.');?></p>
+		<p class="section--paragraph"><?php echo $l->t('Rather than creating a single upload link, you can also have customized links by entering a customer email address and then enabling File Drop (upload only). Your client receives an email with instructions on where to securely upload their files and if you chose to add one, the password in a separate email. You can have both a shared link and multiple, unique email links with each their own password, expiration date and access rights. The password email can be disabled in the admin sharing settings for even more security-sensitive data where a secure second channel (like a');?> <a class="hyperlink" href="<?php echo home_url('webrtc') ?>"><?php echo $l->t('secure video call</a>) has to be used for the password.');?></p>
 		</div>
 	</div>
 	<div class="row">
@@ -144,8 +144,8 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('IT stays in control');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The system administrator can rest assured that all interactions follow the rules and requirements set by the company with regards to passwords, expiration dates and of course the limitations enforced by the <a class="hyperlink" href="/workflow">Nextcloud File Access Control feature</a>.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Data remains, at all times, on-premise, under full authority of IT. File Drop supports a wide range of storage technologies including NFS, SMB and Windows Network Drive, Sharepoint, Object Storage and many more. <a class="hyperlink" href="/storage">Learn more about External Storage here</a>.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The system administrator can rest assured that all interactions follow the rules and requirements set by the company with regards to passwords, expiration dates and of course the limitations enforced by the');?> <a class="hyperlink" href="<?php echo home_url('workflow') ?>"><?php echo $l->t('Nextcloud File Access Control feature</a>.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Data remains, at all times, on-premise, under full authority of IT. File Drop supports a wide range of storage technologies including NFS, SMB and Windows Network Drive, Sharepoint, Object Storage and many more.');?> <a class="hyperlink" href="<?php echo home_url('storage') ?>"><?php echo $l->t('Learn more about External Storage here</a>.');?></p>
 		</div>
 	</div>
 </div>
@@ -157,7 +157,7 @@
         <div class="col-md-8 col-md-offset-2 revealOnScroll">
             <p class="section--paragraph text-center"><?php echo $l->t('Secure your file exchange with clients right now.');?></p>
             <div class="text-center morebuttondiv">
-                <a href="/pricing" class="button button--large button--arrow"><?php echo $l->t('Pricing');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                <a href="<?php echo home_url('pricing') ?>" class="button button--large button--arrow"><?php echo $l->t('Pricing');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
         </div>
     </div>

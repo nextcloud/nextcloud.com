@@ -12,8 +12,8 @@
 		<p><?php echo $l->t('There are several ways to get your own Nextcloud for you and your data:');?></p>
 		<div class="btn-group">
 			<a class="btn btn-primary btn-large" href="#instructions-server">Download</a>
-			<a class="btn btn-default btn-large" href="/devices">Devices</a>
-			<a class="btn btn-default btn-large" href="/providers">Providers</a>
+			<a class="btn btn-default btn-large" href="<?php echo home_url('devices') ?>">Devices</a>
+			<a class="btn btn-default btn-large" href="<?php echo home_url('providers') ?>">Providers</a>
 		</div>
 	</div>
 	<div class="col-md-4">
@@ -71,7 +71,7 @@
 			<li><?php echo $l->t('<a href="irc://#nextcloud@freenode.net" target="_blank" rel="tooltip" title="The Nextcloud IRC Channel">IRC Channel</a> (<a href="http://webchat.freenode.net/?channels=nextcloud" target="_blank"  rel="tooltip" title="Web interface to the Nextcloud IRC Channel">Webchat</a>)');?></li>
 		</ul>
 		<p><?php echo $l->t('These consist of users helping each other. Consider helping out others, too!');?><br />
-		<?php echo $l->t('<a href="/enterprise">Need enterprise support?</a>');?></p>
+		<a href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Need enterprise support?</a>');?></p>
 	</div>
 	<a name="testing"></a>
 	<div class="col-md-4">
@@ -103,7 +103,7 @@
                 <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX; ?>" class="btn btn-default btn-large"><i class="icon-linux"></i> Linux</a>
                 <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES; ?>" class="btn btn-default btn-large"><i class="icon-archive"></i> Sources</a>
 		<?php } ?></p>
-		<p><?php echo $l->t('<a href="/contribute" target="_blank" rel="tooltip" title="The Nextcloud Contribute Page">See more ways to get involved</a>!');?></p>
+		<p><a href="<?php echo home_url('contribute') ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('The Nextcloud Contribute Page">See more ways to get involved</a>!');?></p>
 
 	</div>
 </div>

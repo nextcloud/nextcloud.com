@@ -138,7 +138,7 @@ require(["require.config"], function() {
 			<div class="text-center revealOnScroll">
 				<p class="section--paragraph"><?php echo $l->t('Achieve a new level in scalability, flexibility and cost efficiency. Contact sales today!');?></p>
 				<div class="text-center morebuttondiv">
-					<a href="/enterprise/buy/" class="button button--large button--arrow"><?php echo $l->t('Contact Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="<?php echo home_url('enterprise/buy/') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>

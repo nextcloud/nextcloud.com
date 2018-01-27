@@ -26,7 +26,7 @@
 			<p class="section--paragraph revealOnScroll">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
 <!-- 			<p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/de88e486/" class="btn btn-lg btn-primary">Register for free</a> <a href="https://eventyay.com/e/de88e486/cfs/" class="btn btn-lg btn-primary">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p> -->
 <!-- 			<p class="section--paragraph revealOnScroll"><a href="https://nextcloud.com/blog/lightning-talks-and-workshops-at-the-nextcloud-conference/" class="hyperlink" >See the program</a></p> -->
-<!-- 			<p class="section--paragraph">Find <a class="hyperlink" href="/confinfo">practical information for visitors here</a></p> -->
+<!-- 			<p class="section--paragraph">Find <a class="hyperlink" href="<?php echo home_url('confinfo') ?>">practical information for visitors here</a></p> -->
 <!--             <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p> -->
                 <p class="section--paragraph"><a href="https://nextcloud.com/blog/significant-growth-at-nextcloud-conference-brought-150-customers-colleagues-and-friends-together/" class="button button--blue button--large button--arrow">See the conf report on 2017</a></p>
                 <p class="section--paragraph">Save the date: August 23-30 2018<br/> Stay tuned for more information!</p>
@@ -42,7 +42,7 @@
 				<i class="fa fa-code"></i>
 			<h1>Development</h1>
 			</div>
-			<p class="section--paragraph revealOnScroll">During the week we collaborate on making Nextcloud better in design, functionality, stability, performance and features. We share code, thoughts, inspiration, beer and knowledge, working in areas like:</p>
+			<p class="section--paragraph revealOnScroll">During the week we collaborate on Nextcloud improvements in design, functionality, stability, performance and features. We share code, thoughts, inspiration, beer and knowledge, working in areas like:</p>
 			<ul class="revealOnScroll">
 				<li>Coding (PHP, JS, C++, Objective-C, Java)</li>
 				<li>Design &amp; Front-end</li>

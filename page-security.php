@@ -1,23 +1,23 @@
 <?php get_template_part('templates/parts/title'); ?>
-<div class="sub-nav"><a href="/security/advisories"><?php echo $l->t('Security Advisories');?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/security/threat-model"><?php echo $l->t('Threat Model');?></a>
+<div class="sub-nav"><a href="<?php echo home_url('security/advisories') ?>"><?php echo $l->t('Security Advisories');?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="<?php echo home_url('security/threat-model') ?>"><?php echo $l->t('Threat Model');?></a>
 </div>
 <h2><?php echo $l->t('Security information');?></h2>
-<p><?php echo $l->t('This page hosts our security policies and information with regards to reporting security flaws. Learn more about how Nextcloud offers the <a href="/secure">best security in the open source file sync and share industry here</a>. You can');?> <a href="<?php echo get_template_directory_uri(); ?>/advisories/advisories.rss"><?php echo $l->t('follow our advisories via RSS</a>.');?></p>
-<p><?php echo $l->t('For server owners, our documentation has a section with');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?><?php echo $l->t('configuration_server/harden_server.html" target="_blank">best practices and tips on securing a Nextcloud server</a>.');?></p>
+<p><?php echo $l->t('This page hosts our security policies and information with regards to reporting security flaws. Learn more about how Nextcloud offers the');?> <a href="<?php echo home_url('secure') ?>"><?php echo $l->t('best security in the open source file sync and share industry here</a>. You can');?> <a href="<?php echo get_template_directory_uri(); ?>/advisories/advisories.rss"><?php echo $l->t('follow our advisories via RSS</a>.');?></p>
+<p><?php echo $l->t('For server owners, our documentation has a section with');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?><?php echo $l->t('configuration_server/harden_server.html" target="_blank">best practices and tips on securing a Nextcloud server</a>.');?></p>
 
 <div class="row">
 	<div class="span12">
-		<p><?php echo $l->t('If you have discovered a security issue with Nextcloud, please read our responsible disclosure guidelines and contact us at <a href="https://hackerone.com/nextcloud"><strong>hackerone.com/nextcloud</strong></a>. Your report should include:');?></p>
+		<p><?php echo $l->t('If you have discovered a security issue with Nextcloud, please read our responsible disclosure guidelines and contact us at <a class="hyperlink" href="https://hackerone.com/nextcloud"><strong>hackerone.com/nextcloud</strong></a>. Your report should include:');?></p>
 		<ul>
 			<li><?php echo $l->t('Product version');?></li>
 			<li><?php echo $l->t('A vulnerability description');?></li>
 			<li><?php echo $l->t('Reproduction steps');?></li>
 		</ul>
 
-		<p><?php echo $l->t('A member of the security team will confirm the vulnerability, determine its impact, and develop a fix. The fix will be applied to the master branch, tested, and packaged in the next security release. The vulnerability will be publicly announced after the release. Finally, your name will be added to the <a href="https://hackerone.com/nextcloud/thanks">hall of fame</a> as a thank you from the entire Nextcloud community. Note our <a href="/security/threat-model">threat model</a> to know what is expected behavior.');?></p>
+		<p><?php echo $l->t('A member of the security team will confirm the vulnerability, determine its impact, and develop a fix. The fix will be applied to the master branch, tested, and packaged in the next security release. The vulnerability will be publicly announced after the release. Finally, your name will be added to the <a href="https://hackerone.com/nextcloud/thanks">hall of fame</a> as a thank you from the entire Nextcloud community. Note our');?> <a class="hyperlink" href="<?php echo home_url('security/threat-model') ?>"><?php echo $l->t('threat model</a> to know what is expected behavior.');?></p>
 
 		<h3><?php echo $l->t('PGP Key for Submissions');?></h3>
-		<p><?php echo $l->t('In order to facilitate secure submission of security issues, we provide the <a href="https://pgp.mit.edu/pks/lookup?op=get&search=0xD75899B9A724937A">following PGP key</a> for confidential submission:');?></p>
+		<p><?php echo $l->t('In order to facilitate secure submission of security issues, we provide the <a class="hyperlink" href="https://pgp.mit.edu/pks/lookup?op=get&search=0xD75899B9A724937A">following PGP key</a> for confidential submission:');?></p>
 		<ul>
 			<li><?php echo $l->t('Key ID: <code>A724937A</code>
 			');?></li>
@@ -44,9 +44,9 @@
 			<li><?php echo $l->t('Latest 11.x release');?></li>
 		</ul>
 
-		<p><?php echo $l->t('You will find our Maintenance and Release Schedule <a href="https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule">on GitHub</a>. Please have a close look into the End of Life-section.');?></p>
+		<p><?php echo $l->t('You will find our Maintenance and Release Schedule <a class="hyperlink" href="https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule">on GitHub</a>. Please have a close look into the End of Life-section.');?></p>
 
-		<p><?php echo $l->t('If you want to continue to use versions, which reached their End of Life, please <a href="https://nextcloud.com/enterprise/buy/">contact Nextcloud sales</a> to get access to our Long Term Support offering.');?></p>
+		<p><?php echo $l->t('If you want to continue to use versions, which reached their End of Life, please');?> <a class="hyperlink" href="<?php echo home_url('enterprise/buy/') ?>"><?php echo $l->t('contact Nextcloud sales</a> to get access to our Long Term Support offering.');?></p>
 
 		<p><?php echo $l->t('Nextcloud Android Client:');?></p>
 		<ul></p>

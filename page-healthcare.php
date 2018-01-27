@@ -165,7 +165,7 @@ require(["require.config"], function() {
         <div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('File Access Control');?></p>
             <p class="section--paragraph"><?php echo $l->t('The File Access Control feature of Nextcloud enables IT to codify legal and policy requirements, blocking unauthorized users uploading or downloading data following defined rules. Criteria include IP address ranges, group membership, file type and size, time and more. Data retention can be controlled as well, enabling administrators to limit the lifetime of certain files.');?></p>
-            <a href="/workflow" class="button button--blue button--arrow button--large"><?php echo $l->t('File Access Control');?></a>
+            <a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('File Access Control');?></a>
         </div>
     </div>
     <div class="row">
@@ -175,7 +175,7 @@ require(["require.config"], function() {
         <div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('Monitoring and auditing logs');?></p>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud offers built-in powerful monitoring capabilities, enabling institutions to ensure smooth performance. Systems can be monitored using the web interface or through monitoring and systems intelligence tools like OpenNMS, Splunk, Nagios or others. A full auditing system logs all user actions, enabling fully compliant usage of file sync and share.');?></p>
-            <a href="/monitoring" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring and auditing');?></a>
+            <a href="<?php echo home_url('monitoring') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring and auditing');?></a>
         </div>
     </div>
 
@@ -186,7 +186,7 @@ require(["require.config"], function() {
         <div class="col-md-6">
             <p class="section--paragraph__tittle revealOnScroll"><?php echo $l->t('Encryption');?></p>
             <p class="section--paragraph revealOnScroll">
-                <?php echo $l->t('Nextcloud uses industry-standard SSL/TLS encryption for data in transfer. Data at rest in storage can be encrypted using a default military grade AES-256 encryption with server-based or custom key management. Optionally and on a per-folder base data can be <a class="hyperlink" href="/endtoend">end-to-end encrypted</a> on the client with the server assisting in sharing and key management using a Zero-Knowledge model.');?>
+                <?php echo $l->t('Nextcloud uses industry-standard SSL/TLS encryption for data in transfer. Data at rest in storage can be encrypted using a default military grade AES-256 encryption with server-based or custom key management. Optionally and on a per-folder base data can be');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('end-to-end encrypted</a> on the client with the server assisting in sharing and key management using a Zero-Knowledge model.');?>
             </p>
             <p class="section--paragraph revealOnScroll">
                 <?php echo $l->t('Seamless integration and ease of use with key features like offline recovery keys, auditing and HSM support make Nextcloud Encryption capabilities leading in the industry.');?>
@@ -207,7 +207,7 @@ require(["require.config"], function() {
     <div class="row">
         <div class="col-md-10 col-md-offset-1 revealOnScroll feature--block">
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud offers first-in-class, third-party verified security backed by a USD 5000 Security Bug Bounty program protecting against unauthorized access.');?></p>
-            <a href="/secure" class="button button--blue button--arrow button--large"><?php echo $l->t('security in Nextcloud');?></a>
+            <a href="<?php echo home_url('secure') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('security in Nextcloud');?></a>
         </div>
     </div>
 </div>
@@ -323,7 +323,7 @@ require(["require.config"], function() {
     </div>
     <div class="row revealOnScroll">
         <div class="col-md-8 col-md-offset-2 featureblock">
-        <p class="text-center"><?php echo $l->t('<a class="hyperlink" href="/buy">First class enterprise support with custom integration and security consulting available</a>.');?></p>
+        <p class="text-center"><a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('First class enterprise support with custom integration and security consulting available.');?></a></p>
         </div>
     </div>
 </div>
@@ -356,7 +356,7 @@ require(["require.config"], function() {
             <p class="section--paragraph"><?php echo $l->t('The self-hosted nature of Nextcloud ensures Nextcloud usage does not change existing compliance of infrastructure, provided features and capabilities are employed as required by HIPAA and other legislation. Nextcloud can advice in implementing a HIPAA compliant setup.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud services are designed not to require that our employees gain access to any customer data. In case this is required for specific support cases, confidentiality agreements are signed with all employees and extensive security processes are in place to log, investigate and report any breaches.');?></p>
             <p class="section--paragraph"><?php echo $l->t('We understand that keeping your client’s information safe is of the utmost importance and Nextcloud GmbH will continue to provide its software and services in accordance with the relevant requirements of all state and federal laws and regulations, including, as applicable, HIPAA.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('For additional information regarding Nextcloud’s privacy practices as they relate to this website, please see our <a class="hyperlink" href="/privacy">Privacy Statement</a>.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('For additional information regarding Nextcloud’s privacy practices as they relate to this website, please see our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('Privacy Statement</a>.');?></p>
         </div>
     </div>
         <div class="row">

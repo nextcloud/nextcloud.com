@@ -1,5 +1,5 @@
 <?php get_template_part( 'templates/parts/title'); ?>
-<div class="sub-nav"><a href="/security">Security overview</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/security/advisories">Security Advisories</a>
+<div class="sub-nav"><a href="<?php echo home_url('/security') ?>">Security overview</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="<?php echo home_url('/security/advisories') ?>">Security Advisories</a>
 </div>
 <h2>Threat model & accepted risks</h2>
 <p>This page is constantly evolving. So check back over time to see new additions.</p>

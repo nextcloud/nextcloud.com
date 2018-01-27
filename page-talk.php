@@ -60,7 +60,7 @@
                 <li><?php echo $l->t('Easy screensharing');?></li>
                 <li><?php echo $l->t('Mobile apps for Android and iOS');?></li>
                 <li><?php echo $l->t('Mobile calls & chat push notifications');?></li>
-                <li><?php echo $l->t('Integration with <a class="hyperlink" href="/files">Nextcloud Files</a> and <a class="hyperlink" href="/groupware">Groupware</a>');?></li>
+                <li><?php echo $l->t('Integration with');?> <a class="hyperlink" href="<?php echo home_url('files') ?>">Nextcloud Files</a> <?php echo $l->t('and');?> <a class="hyperlink" href="<?php echo home_url('groupware') ?>">Groupware</li>
                 </ul></p>
             </div>
             <div class="col-sm-4 revealOnScroll">
@@ -279,7 +279,7 @@
         </div>
         <div class="col-sm-6 revealOnScroll">
             <div class="text-center morebuttondiv">
-                <a href="/buy" class="button button-button--large button--arrow"><?php echo $l->t('Contact Sales for a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                <a href="<?php echo home_url('buy') ?>" class="button button-button--large button--arrow"><?php echo $l->t('Contact Sales for a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
         </div>
     </div>

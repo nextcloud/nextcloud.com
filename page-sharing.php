@@ -34,7 +34,7 @@ require(["require.config"], function() {
             <div class="col-md-6">
                 <h2 class="section--paragraph__tittle"><?php echo $l->t('Work, share, collaborate, enjoy');?></h2>
                 <p class="section--paragraph"><?php echo $l->t('Share images, documents or music with colleagues on your server, send password protected public links to friends and get notifications on your phone when a user on another Nextcloud server shares files directly with you. Use File Drop to let customers upload files to you in a easy and secure way!');?></p>
-                <a href="/file-drop" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn about File Drop');?></a>
+                <a href="<?php echo home_url('file-drop') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn about File Drop');?></a>
                 <p class="section--paragraph"><?php echo $l->t('You can trust that when you share, Nextcloud makes sure you stay in control over your data. You can easily see a list of shares, remove or change permissions and restore older versions of files.');?></p>
 
             </div>
@@ -48,8 +48,8 @@ require(["require.config"], function() {
             </div>
             <div class="col-md-7">
             <p class="section--paragraph__tittle"><?php echo $l->t('Work with others');?></p>
-                <p class="section--paragraph"><?php echo $l->t('You can comment on files and discuss options. Through <a class="hyperlink" href="/collaboraonline">our Collabora Online integration</a> you can work together in real time on presentations or word documents and our <a class="hyperlink" href="/webrtc">video Conferencing features</a> allow you to call and discuss in real time!');?></p>
-                <p class="section--paragraph"><?php echo $l->t('You can find files using our full text search app or by giving them tags and searching for them. Admins can even use <a class="hyperlink" href="/workflow">our Workflow tools</a> to automatically tag files uploaded by specific users, groups or by filetype and execute actions like converting files based on these tags.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('You can comment on files and discuss options. Through');?> <a class="hyperlink" href="<?php echo home_url('collaboraonline') ?>"><?php echo $l->t('our Collabora Online integration</a> you can work together in real time on presentations or word documents and');?> <a class="hyperlink" href="<?php echo home_url('Talk') ?>">Nextcloud Talk</a> <?php echo $l->t('allow you to call and discuss in real time!');?></p>
+                <p class="section--paragraph"><?php echo $l->t('You can find files using our full text search app or by giving them tags and searching for them. Admins can even use');?> <a class="hyperlink" href="<?php echo home_url('workflow') ?>"><?php echo $l->t('our Workflow tools</a> to automatically tag files uploaded by specific users, groups or by filetype and execute actions like converting files based on these tags.');?></p>
             </div>
         </div>
         <div class="row revealOnScroll feature--block">

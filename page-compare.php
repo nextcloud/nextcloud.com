@@ -725,7 +725,7 @@
 </section>
 <section class="disclaimer">
 <div class="container">
-<p>Based on public information to our best knowledge, gathered May 24 2017. We understand the world is constantly changing, if you see we missed a feature or made a mistake, let us know. You can use <a href="/contact">our contact form.</a></p>
+<p>Based on public information to our best knowledge, gathered May 24 2017. We understand the world is constantly changing, if you see we missed a feature or made a mistake, let us know. You can use <a href="<?php echo home_url('contact') ?>">our contact form.</a></p>
 </div>
 </section>
 <!--<script>

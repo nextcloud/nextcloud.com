@@ -30,9 +30,9 @@
 			<a href="#security"><?php echo $l->t('security');?></a>
 			<a href="#lifecycle"><?php echo $l->t('lifecycle');?></a>
 			<a href="#capabilities"><?php echo $l->t('capabilities');?></a>
-			<a class="btn btn-primary" href="/enterprise/order"><?php echo $l->t('order online');?></a>
-			<a class="btn btn-primary" href="/buy"><?php echo $l->t('get a quote');?></a>
-			<a class="btn btn-primary" href="/pricing"><?php echo $l->t('pricing plans');?></a>
+			<a class="btn btn-primary" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('order online');?></a>
+			<a class="btn btn-primary" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a>
+			<a class="btn btn-primary" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('pricing plans');?></a>
 		</div>
 	</div>
 </section>
@@ -55,7 +55,7 @@
 		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We are dedicated to your success as Nextcloud customer. An analysis of your needs, a pilot customized for your architecture and remote installation support ensures a smooth introduction of Nextcloud in your organization and we will help you scale up to meet growing demand in your organization.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud GmbH employs <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-the-most-active-open-source-file-sync-and-share-project/">9 of the top-ten developers in the Nextcloud Server codebase</a>, making our engineering team by far the most qualified to help you get the most out of your Enterprise File Sync and Share solution.');?></p>
-		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/team"><?php echo $l->t('Our team');?></a></p>
+		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="<?php echo home_url('team') ?>"><?php echo $l->t('Our team');?></a></p>
 	</div>
 </section>
 
@@ -71,7 +71,7 @@
 		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud develops its software with a rigorous focus on security through the entire life cycle of the product. Our active and passive security measures are backed by the some of the highest security bug bounties in the open source industry.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('As customer you get direct access to our security expertise, with hardening advice and ahead-of-release security issue mitigation and fixes.');?></p>
-		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/secure"><?php echo $l->t('Learn about security');?></a></p>
+		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="<?php echo home_url('secure') ?>"><?php echo $l->t('Learn about security');?></a></p>
 	</div>
 </section>
 
@@ -87,7 +87,7 @@
 		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('A Nextcloud support subscription gives you access to enterprise-ready software, updates, and information and support services that span your entire OS and application infrastructure life cycle and architecture. You can count on receiving the latest product versions with the stability and security you need.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Working with data is essential for your business and being forced on the upgrade threadmill is disruptive to your organization. With access to up to 15 years security and stability updates to Nextcloud, we match the lifecycle of your operating system so you can schedule upgrades when it works for you and secure the investments you did in your existing platform.');?></p>
-		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/pricing"><?php echo $l->t('See pricing');?></a></p>
+		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('See pricing');?></a></p>
 	</div>
 </section>
 
@@ -103,7 +103,7 @@
 		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Our unique Nextcloud Global Scale architecture delivers a true globally scalable solution for deployments with hundreds of millions of users, giving unprecedented control over the locality of data and delivering dramatic cost reduction.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud Global Scale was designed to lift enterprise collaboration to a new level, overcoming limitations in building large scale file storage, sync & share solutions. Nextcloud Global Scale works by decentralizing data to independent nodes, using several new components to manage the interactions between servers.');?></p>
-		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/globalscale"><?php echo $l->t('Learn more');?></a></p>
+		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="<?php echo home_url('globalscale') ?>"><?php echo $l->t('Learn more');?></a></p>
 	</div>
 </section>
 
@@ -187,7 +187,7 @@
             <a href="http://my.engineering.queensu.ca/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/queens.png" /></a>
             </div>
         </div>
-        <div class="text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="/education">Learn more</a></div>
+        <div class="text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="<?php echo home_url('education') ?>">Learn more</a></div>
     </div>
 </div>
 </section>
@@ -214,32 +214,30 @@
 	        <div class="right-text-grey" data-slide="1">
 	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('Monitoring and compliance');?></h5>
 	            <p><?php echo $l->t('Nextcloud offers extensive monitoring and compliance capabilities ready for enterprises in sensitive businesses. Data locality, retention and access can be controled and logged for audit.');?></p>
-                   <a class="button button--blue button--arrow button--large" href="/features" role="button"><?php echo $l->t('Learn more about features');?></a>
+                   <a class="button button--blue button--arrow button--large" href="<?php echo home_url('monitoring') ?>" role="button"><?php echo $l->t('Learn more about monitoring');?></a>
                 </p>
 	        </div>
 
 	         <div class="right-text-grey" data-slide="2">
 	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('Security features keep your data safe');?></h5>
 	           <p><?php echo $l->t('Nextcloud supports two-factor authentication and Server Side Encryption, has brute force protection and features industry-standard security measures like CSP, SSC and password and session management.');?></p>
-                  <a class="button button--blue button--arrow button--large" href="/secure" role="button"><?php echo $l->t('Learn more about security');?></a>
+                  <a class="button button--blue button--arrow button--large" href="<?php echo home_url('secure') ?>" role="button"><?php echo $l->t('Learn more about security');?></a>
                </p>
 	        </div>
 
 	        <div class="right-text-grey" data-slide="3">
 	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('IT stays in control');?></h5>
 	            <p><?php echo $l->t('Our File Access Control app enables administrators to defining data access rules or triggering actions based on location, group membership, file type, tags and other properties.');?></p>
-                   <a class="button button--blue button--arrow button--large" href="/workflow/" role="button"><?php echo $l->t('Learn more about Workflow');?></a>
+                   <a class="button button--blue button--arrow button--large" href="<?php echo home_url('workflow') ?>" role="button"><?php echo $l->t('Learn more about Workflow');?></a>
                 </p>
 	        </div>
 
 	        <div class="right-text-grey" data-slide="4">
 	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Easy access for users');?></h5>
 	            <p><?php echo $l->t('Users can access and share their data on Nextcloud through sync clients for Windows, Linux and Mac as well as Android and IOS, providing a smooth experience no matter where data is located.');?></p>
-                   <a class="button button--blue button--arrow button--large" href="/features" role="button"><?php echo $l->t('Learn more about features');?></a>
+                   <a class="button button--blue button--arrow button--large" href="<?php echo home_url('clients') ?>" role="button"><?php echo $l->t('Learn more about clients');?></a>
                 </p>
 	        </div>
-
-
         </div>
     </div>
 </section>
@@ -247,6 +245,6 @@
 <div class="calltoaction revealOnScroll">
 	<h1 class="section--heading-2 section--text--center"><?php echo $l->t('See how we stack up');?></h1>
 	<p class="section--paragraph section--text--center">
-	<a href="/compare" class="button button--blue button--arrow button--large"><?php echo $l->t('Compare Nextcloud to other solutions');?></a></p>
+	<a href="<?php echo home_url('compare') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Compare Nextcloud to other solutions');?></a></p>
 </div>
 </section>

@@ -156,7 +156,7 @@
                             <div class="col-md-4">
                                 <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/monitoring.svg"); ?>
                                 <p class="section--paragraph__tittle"><?php echo $l->t('Logging and monitoring');?></p>
-                                <p class="section--paragraph"><?php echo $l->t('Nextcloud has built in <a class="hyperlink" href="/monitoring">monitoring and logging tools</a>, compatible with industry standard tools like Splunk, Nagios and OpenNMS. It also offers a full, compliance-ready activity log for reporting and auditing purposes.');?></p>
+                                <p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('monitoring') ?>"><?php echo $l->t('Nextcloud has built in monitoring and logging tools</a>, compatible with industry standard tools like Splunk, Nagios and OpenNMS. It also offers a full, compliance-ready activity log for reporting and auditing purposes.');?></p>
                             </div>
 
                             <div class="col-md-4">
@@ -168,7 +168,7 @@
                             <div class="col-md-4">
                                 <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/firewall.svg"); ?>
                                 <p class="section--paragraph__tittle"><?php echo $l->t('Finegrained File Access Control');?></p>
-                                <p class="section--paragraph"><?php echo $l->t('The powerful');?> <a class="hyperlink" href="/workflow/"><?php echo $l->t('workflow tools</a> in Nextcloud enable administrators to limit access to data in accordance to business and legal requirements and perform automatic actions like file conversion. Describe restrictions like "XLSX files from the HR department are not to be accessible outside company IP ranges" or "employees in the US shouldn\'t access customer data from European data centers" for Nextcloud to enforce.');?></p>
+                                <p class="section--paragraph"> <a class="hyperlink" href="<?php echo home_url('workflow/') ?>"><?php echo $l->t('The powerful workflow tools</a> in Nextcloud enable administrators to limit access to data in accordance to business and legal requirements and perform automatic actions like file conversion. Describe restrictions like "XLSX files from the HR department are not to be accessible outside company IP ranges" or "employees in the US shouldn\'t access customer data from European data centers" for Nextcloud to enforce.');?></p>
                             </div>
                         </div>
 
@@ -176,7 +176,7 @@
                             <div class="col-md-4">
                                 <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/encryption.svg"); ?>
                                 <p class="section--paragraph__tittle"><?php echo $l->t('Encryption');?></p>
-                                <p class="section--paragraph"><?php echo $l->t('Nextcloud uses industry-standard SSL/TLS encryption for data in transfer. Additionally, data at rest in storage can be encrypted using a default military grade AES-256 encryption with server-based or custom key management. Also optionally and on a per-folder base data can be <a class="hyperlink" href="/endtoend">end-to-end encrypted</a> on the client with the server assisting in sharing and key management using a Zero-Knowledge model.');?>
+                                <p class="section--paragraph"><?php echo $l->t('Nextcloud uses industry-standard SSL/TLS encryption for data in transfer. Additionally, data at rest in storage can be encrypted using a default military grade AES-256 encryption with server-based or custom key management. Also optionally and on a per-folder base data can be');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('end-to-end encrypted</a> on the client with the server assisting in sharing and key management using a Zero-Knowledge model.');?>
                                 </p>
                             </div>
 
@@ -236,7 +236,7 @@
                                         <h3><?php echo $l->t('Requirements');?></h3>
                                         <ul>
                                             <li><?php echo $l->t('Privacy and security risks are analyzed and requirements are established');?></li>
-                                            <li><?php echo $l->t('We employ advanced <a class="hyperlink" href="/security/threat-model/">threat modelling / attack surface analysis</a>');?></li>
+                                            <li><a class="hyperlink" href="<?php echo home_url('security/threat-model/') ?>"><?php echo $l->t('We employ advanced threat modelling / attack surface analysis</a>');?></li>
                                             <li><?php echo $l->t('Designs are reviewed for security implications');?></li>
                                         </ul>
                                     </div>
@@ -294,7 +294,7 @@
                                     <div class="col-md-6">
                                         <h3><?php echo $l->t('Response');?></h3>
                                         <ul>
-                                            <li><?php echo $l->t('We follow industry best practices in disclosing security issues fixed in a release: 2 weeks after the release ');?><a class="hyperlink" href="/security/advisories"><?php echo $l->t('advisories with CVE identifiers are published');?></a></li>
+                                            <li><?php echo $l->t('We follow industry best practices in disclosing security issues fixed in a release: 2 weeks after the release ');?><a class="hyperlink" href="<?php echo home_url('security/advisories') ?>"><?php echo $l->t('advisories with CVE identifiers are published');?></a></li>
                                             <li><?php echo $l->t('We run a <a class="hyperlink" href="https://hackerone.com/nextcloud">successful bug bounty program with high payouts</a>, up to $5000');?></li>
                                             <li><?php echo $l->t('Statistics show a massive decrease of valid external security reports');?></li>
                                         </ul>
@@ -410,7 +410,7 @@
                                 <p class="section--paragraph"><?php echo $l->t('Server Side Encryption can also be used on local storage. However, inherent to the concept of server side encryption, encryption keys will be present in memory of the Nextcloud server during the time a user is logged in and could be retrieved by a determined attacker. We take care to ensure keys are not stored unencrypted on permanent storage and at rest keys are encrypted using a strong cipher.');?></p>
                                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/securitypolicies.svg">
                                 <p class="section--paragraph__tittle"><?php echo $l->t('Encrypt from client to client');?></p>
-                                <p class="section--paragraph"><?php echo $l->t('End-to-end Encryption client-side is available from Nextcloud 13 and newer as a folder-level option to keep extremely sensitive data fully secure even in case of a full server breach. The server facilitates key exchange for syncing between devices and sharing but has Zero Knowledge, that is, never has access to any of the data or keys in unencrypted form. <a class="hyperlink" href="/endtoend">Learn more here.</a>');?></p>
+                                <p class="section--paragraph"><?php echo $l->t('End-to-end Encryption client-side is available from Nextcloud 13 and newer as a folder-level option to keep extremely sensitive data fully secure even in case of a full server breach. The server facilitates key exchange for syncing between devices and sharing but has Zero Knowledge, that is, never has access to any of the data or keys in unencrypted form.');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('Learn more here.</a>');?></p>
                             </div>
                         </div>
                     </div>
@@ -441,7 +441,7 @@
                             <p class="section--paragraph"><?php echo $l->t('Nextcloud features an enterprise-grade, seamlessly integrated solution for end-to-end encryption. It enables users to pick one or more folders on their desktop or mobile client for end-to-end encryption. Folders can be shared with other users and synced between devices but are never readable by the server.');?></p>
                             <p class="section--paragraph"><?php echo $l->t('This solution is easy to use yet extremely secure thanks to its Zero-Knowledge server design and Cryptographic Identity Protection. It does not compromise security by using a browser to encrypt or decrypt files with code coming from the server and is not an all-or-nothing affair: any number of folders can be end-to-end encrypted. Sharing is secure without a need to exchange passwords and files don\'t need to be re-encrypted and re-uploaded when access rights for other users are changed.');?></p>
                             <p class="section--paragraph"><?php echo $l->t('Our solution is enterprise ready with support for a Hardware Security Module for issuing certificates, giving access to a full audit log and optionally allowing administrators to create an offline master recovery key.');?></p>
-                            <p class="section--paragraph"><?php echo $l->t('Learn about End-to-end Encryption in our clients ');?> <a class="hyperlink" href="/endtoend" target="_blank" rel="tooltip" title="Client Side End-to-end Encryption"><?php echo $l->t('on this page.</a>');?></p>
+                            <p class="section--paragraph"><?php echo $l->t('Learn about End-to-end Encryption in our clients ');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>" target="_blank" rel="tooltip" title="Client Side End-to-end Encryption"><?php echo $l->t('on this page.</a>');?></p>
                         </div>
                     </div>
                 </div>

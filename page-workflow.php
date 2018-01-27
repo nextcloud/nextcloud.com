@@ -34,7 +34,7 @@
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Access on your terms');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Through File Access Control and automatic file tagging, Nextcloud gives administrators control over data access by enabling them to define strict rules requests need to adhere to. If users in certain groups or geographic regions should not be given access to certain file types or if data with a specific tag should not be shared outside the company, administrators can make sure their Nextcloud instance enforces these rules.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Combined with <a class="hyperlink" href="/outlook">our Secure Sharing Outlook addin</a> (and by disabling direct email attachments), File Access Control can play a crucial role in enforcing company policy on data sharing.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Combined with');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>"><?php echo $l->t('our Secure Sharing Outlook addin</a> (and by disabling direct email attachments), File Access Control can play a crucial role in enforcing company policy on data sharing.');?></p>
 		</div>
 	</div>
 </div>
@@ -46,7 +46,7 @@
 			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
 				<p class=""><?php echo $l->t('Learn more about how Nextcloud helps you keep your data secure.');?></p>
 				<div class="text-center morebuttondiv">
-					<a href="/secure" class="button button--large button--arrow"><?php echo $l->t('Security in Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="<?php echo home_url('secure') ?>" class="button button--large button--arrow"><?php echo $l->t('Security in Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>

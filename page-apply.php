@@ -4,10 +4,10 @@
 </div>
 
 
-<p>The Nextcloud community <a href="/providers">offers a list of providers for Nextcloud users</a>. No endorsement is implied by these listings. If you would like to have your organization added to this page, please follow these instructions carefully:
+<p>The Nextcloud community <a href="<?php echo home_url('providers') ?>">offers a list of providers for Nextcloud users</a>. No endorsement is implied by these listings. If you would like to have your organization added to this page, please follow these instructions carefully:
 <ul>
 	<li>Entries <strong>must</strong> be factual and relevant to Nextcloud. Generic services are not a good fit. Make sure that <strong>the link you submit contains a logo and a link to Nextcloud.</strong></li>
-	<li>Your organization and the website you submit have to <strong>respect the <a href="/trademarks">Nextcloud trademark policy</a></strong>.</li>
+	<li>Your organization and the website you submit have to <strong>respect the <a href="<?php echo home_url('trademarks') ?>">Nextcloud trademark policy</a></strong>.</li>
         <li>Being listed does not apply approval, endorsement or affiliation with the Nextcloud GmbH, the community or project and your website and/or description should not, incorrectly, claim so.</li>
 	<li>The <strong>description</strong> can be up to 150 characters. It should give an idea of the offered services so readers can quickly judge if an entry is of interest. It should not contain any detailed information about your pricing-policy or your offerings.<!-- Review the current list for the expected contents and format.--></li>
 	<ul>
@@ -15,7 +15,7 @@
 		<li><strong>Bad</strong>: “Awesome, Inc. is a successful hosting firm founded on solid engineering principles and is a leading provider of open source solutions.”</li>
 	(this does not explain what you offer and gives no reason for a visitor to click to your website)
 
-    <li>We understand, that your target group might not be english users. However: <strong>Please use english for your description!</strong></li>
+    <li>We understand, that your target group might not be English users. However: <strong>Please use English for your description!</strong></li>
 	</ul>
 	<li>A <strong>logo</strong> has to be of the size of 600x150 pixels in png or jpg format.</li>
   <ul>
@@ -31,7 +31,7 @@
 </ul></p>
 <div class="row providers">
     <div class="span12">
-		<p>To apply to be listed on the <a href="/providers">nextcloud.com/providers</a> page as an provider, please complete the following form.</p>
+		<p>To apply to be listed on the <a href="<?php echo home_url('providers') ?>">nextcloud.com/providers</a> page as an provider, please complete the following form.</p>
 		<form name="provider" method="post" action="providersubmit/">
 			<p><label for="organization">Company/Organization<br>
 			<input  type="text" name="organization" maxlength="80" size="60" placeholder=""></label></p>

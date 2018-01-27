@@ -66,9 +66,9 @@
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 revealOnScroll">
 				<h1 class="section--heading-1 text-center"><?php echo $l->t('For Enterprises');?></h1>
-				<p class="text-center"><?php echo $l->t('Enterprise users who need a more reliable and scalable solution with long term support, guaranteed response times and security updates can take advantage of our <a href="/enterprise" class="hyperlink">optional support contract</a> for Collabora Online.');?></p>
+				<p class="text-center"><?php echo $l->t('Enterprise users who need a more reliable and scalable solution with long term support, guaranteed response times and security updates can take advantage of our');?> <a href="<?php echo home_url('enterprise') ?>" class="hyperlink"><?php echo $l->t('optional support contract</a> for Collabora Online.');?></p>
 				<div class="text-center morebuttondiv">
-					<a href="/buy" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>
@@ -80,7 +80,7 @@
 		<div class="col-md-10 col-md-offset-1">
 			<div class="featurerow">
 				<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Collabora Online integration tutorial video');?></h2>
-				<p class="section--paragraph text-center"><?php echo $l->t('We are able to provide a solution for Online Office for the entire Nextcloud community through our <a target="_blank" class="hyperlink" href="https://nextcloud.com/?p=589">partnership with Collabora</a> in an <strong>easy to use <a class="hyperlink" href="https://hub.docker.com/r/collabora/code">docker image</a> for developers and home users</strong>. Enterprise users looking for a more reliable solution should <a class="hyperlink" href="/buy">contact Nextcloud Sales</a>.');?></p>
+				<p class="section--paragraph text-center"><?php echo $l->t('We are able to provide a solution for Online Office for the entire Nextcloud community through our <a target="_blank" class="hyperlink" href="https://nextcloud.com/?p=589">partnership with Collabora</a> in an <strong>easy to use <a class="hyperlink" href="https://hub.docker.com/r/collabora/code">docker image</a> for developers and home users</strong>. Enterprise users looking for a more reliable solution should');?> <a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('contact Nextcloud Sales</a>.');?></p>
 				<div class="row">
 					<div class="col-md-1">
 					</div>
@@ -220,7 +220,7 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --re
 				<li class="section--paragraph"><?php echo $l->t('<strong>Issue:</strong> <code>We are sorry, this is an unexpected connection error. Please try again.</code> error.<br />
 				The Collabora Online app doesn\'t work at the moment, if you enable it only for certain groups. Remove the group filter in the App section.');?></li>
 				<li class="section--paragraph"><?php echo $l->t('<strong>Issue:</strong> Collabora Online doesn\'t handle my 100 users.<br/>
-				This docker image is designed for home usage with a limited numbers of users and open documents. If you need a more scalable solution, consider <a href="/enterprise/">a support subscription</a> for a reliable, business-ready online office experience.');?></li>
+				This docker image is designed for home usage with a limited numbers of users and open documents. If you need a more scalable solution, consider');?> <a href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('a support subscription</a> for a reliable, business-ready online office experience.');?></li>
 				<li class="section--paragraph"><?php echo $l->t('<strong>Issue:</strong> Collabora Online doesn\'t work with Encryption.<br/>
 				Yes, this is currently unsupported.');?></li>
 			</ul>

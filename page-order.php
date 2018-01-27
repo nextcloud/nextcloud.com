@@ -23,9 +23,9 @@
 	</div>
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
-			<a class="btn btn-primary" href="/buy"><?php echo $l->t('get a quote');?></a>
-			<a class="btn btn-primary" href="/pricing"><?php echo $l->t('pricing plans');?></a>
-			<a class="btn btn-primary" href="/enterprise"><?php echo $l->t('enterprise offering');?></a>
+			<a class="btn btn-primary" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a>
+			<a class="btn btn-primary" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('pricing plans');?></a>
+			<a class="btn btn-primary" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise offering');?></a>
 		</div>
 	</div>
 </section>
@@ -33,8 +33,8 @@
 <div class="container">
 	<h2><?php echo $l->t('Nextcloud helps you be successful');?></h2>
 	<p><?php echo $l->t('You run your own Nextcloud server, keeping your data in-house and under control. A support subscription from Nextcloud makes sure it works.');?></p>
-	<?php echo $l->t('You will be able to contact our support team for a speedy answer to questions and fixes for problems you encounter; you can use our <a class="hyperlink" href="https://nextcloud.com/migration">migration support</a> or add additional capabilities with our <a class="hyperlink" href="/outlook">Outlook add-in</a> or <a class="hyperlink" href="/collabora">Online Office</a>. Learn about <a class="hyperlink" href="/enterprise">what our Enterprise Subscription offers here</a> and see answers in our <a class="hyperlink" href="pricing/#FAQ">Frequently Asked Questions</a>');?></p>
-	<p><?php echo $l->t('Using this form, you can order a Basic or Standard Support Subscription for up to 250 users. If you need more users, other options like branding or a Premium Support Subscription, <a class="hyperlink" href="/enterprise/buy">please contact sales for a quote.</a>');?></p>
+	<?php echo $l->t('You will be able to contact our support team for a speedy answer to questions and fixes for problems you encounter; you can use our');?> <a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('migration support</a> or add additional capabilities with our');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>">Outlook add-in</a> <?php echo $l->t('or');?> <a class="hyperlink" href="<?php echo home_url('collabora') ?>">Online Office</a>. <?php echo $l->t('Learn about');?> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('what our Enterprise Subscription offers here</a> and see answers in our');?> <a class="hyperlink" href="<?php echo home_url('pricing/#FAQ') ?>"><?php echo $l->t('Frequently Asked Questions</a>');?></p>
+	<p><?php echo $l->t('Using this form, you can order a Basic or Standard Support Subscription for up to 250 users. If you need more users, other options like branding or a Premium Support Subscription,');?> <a class="hyperlink" href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('please contact sales for a quote.</a>');?></p>
 	<div class="contact">
 		<h3><?php echo $l->t('Fill in the form below to receive a contract and invoice from us and get started!');?></h3>
 		<hr>
@@ -77,7 +77,7 @@
 				<option value="standard">Standard</option>
 <!-- 				<option value="premium">Premium</option> -->
 			</select></label>
-			<!--<div class="getenterprisequote" id="getenterprisequote" style="display:none;">--><p><a class="hyperlink" href="/pricing" target="_blank"><?php echo $l->t('See details on pricing ');?><i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('or ask');?> <a class="hyperlink" href="/buy"><?php echo $l->t('a quote from our sales team ');?><i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('for the premium subscription.');?></p><!--</div>-->
+			<!--<div class="getenterprisequote" id="getenterprisequote" style="display:none;">--><p><a class="hyperlink" href="<?php echo home_url('pricing') ?>" target="_blank"><?php echo $l->t('See details on pricing ');?><i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('or ask');?> <a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('a quote from our sales team ');?><i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('for the premium subscription.');?></p><!--</div>-->
 			</p>
 			<p><label for="duration"><?php echo $l->t('Length of contract (paid in advance)');?><br>
 			<select name="duration" onChange="doCalculation()">
@@ -93,9 +93,9 @@
 				<option value="charity"><?php echo $l->t('Charitable');?></option>
 			</select></label>
 			<p><h3><?php echo $l->t('Optional features:');?></h3></p>
-			<input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include <a class="hyperlink" href="/outlook" target="_blank">our Outlook add-in <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 5/user)');?></span><br/>
+			<input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>" target="_blank"><?php echo $l->t('our Outlook add-in <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 5/user)');?></span><br/>
 			<p><h4><?php echo $l->t('Only with a Standard Subscription:');?></h4></p>
-			<input disabled id="collaboraCheck" type="checkbox" name="collaboraCheck" value="collaboraCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include <a class="hyperlink" href="/collabora" target="_blank">Collabora Online <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 17/user for the first 100, € 16/user after that)');?></span><br/>
+			<input disabled id="collaboraCheck" type="checkbox" name="collaboraCheck" value="collaboraCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('collabora') ?>" target="_blank">Collabora Online <i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('(€ 17/user for the first 100, € 16/user after that)');?></span><br/>
 			<!-- Only show below when input above is enabled -->
 			<!--<div class="collaboraUserNumberChoiceDiv" id="collaboraUserNumberChoiceDiv" style="display:none;">
 				<p><?php echo $l->t('Select how many users need access to Collabora: ');?><br>
@@ -114,7 +114,7 @@
 				<span id="maxUsers"><?php echo $l->t('You can not have more Collabora seats than Nextcloud seats');?></span>
 				</small></p>
 			</div>-->
-			<!--<input disabled type="checkbox" name="spreed" value="spreed" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include <a class="hyperlink" href="/webrtc" target="_blank">Spreed audio/video chat</a> (Eur 5/user)');?></span><br/>-->
+			<!--<input disabled type="checkbox" name="spreed" value="spreed" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('webrtc') ?>" target="_blank">Spreed audio/video chat</a> (Eur 5/user)');?></span><br/>-->
 			<input disabled type="checkbox" name="remoteinstall" value="remoteinstall" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include one day remote installation/integration support (mail, telephone, video call) (€ 990)');?></span><br/>
 			<!--<input disabled type="checkbox" name="branding" value="branding" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include branded clients (Eur 6000)');?></span><br/>-->
 			</p>

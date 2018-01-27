@@ -1,7 +1,7 @@
 <div class="page-header">
 	<h1>Nextcloud Server Changelog</h1>
 </div>
-<p>We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest and most secure Nextcloud Server version which fits your needs.</p>
+<p>We recommend you follow our <a href="<?php echo home_url('release-channels') ?>">Release Channels</a> to always have the latest and most secure Nextcloud Server version which fits your needs.</p>
 Go directly to the latest maintenance release of:
 <ul>
 <li><a href="#latest12">Nextcloud 12</a></li>

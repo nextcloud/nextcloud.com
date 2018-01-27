@@ -40,8 +40,8 @@
 		<div class="col-md-6 revealOnScroll feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud gives you access to all your files wherever you are.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Where are your photos and documents? With Nextcloud <strong>you</strong> pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices. Through Nextcloud you also access, sync and share your existing data on that FTP drive at school, a Dropbox or a NAS you have at home.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud is free, open source and <a class="hyperlink" href="/contribute">you can get involved in making it better!</a>');?></p>
-			<a href="/install" class="button button--blue button--arrow button--large"><?php echo $l->t('Get started');?></a>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud is free, open source and');?> <a class="hyperlink" href="<?php echo home_url('contribute') ?>"><?php echo $l->t('you can get involved in making it better!</a>');?></p>
+			<a href="<?php echo home_url('install') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Get started');?></a>
 		</div>
 	</div>
 </section>
@@ -70,13 +70,13 @@
         </div>
 	</div>
 	<div class="row">
-	<p class="section--paragraph text-center"><?php echo $l->t('<a class="hyperlink" href="/contributors">See the people behind Nextcloud!</a>');?></p>
+	<p class="section--paragraph text-center"><a class="hyperlink" href="<?php echo home_url('contributors') ?>"><?php echo $l->t('See the people behind Nextcloud!</a>');?></p>
 	</div>
 	<div class="row">
 	<div class="col-md-6">
 	<p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud is people');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud is an open source community of developers and contributors, some helping out in their free time, others paid by their company to make Nextcloud better. <a class="hyperlink" href="/contributors">You can see some of the people involved in Nextcloud here.</a>');?></p>
-			<p class="section--paragraph"><?php echo $l->t('We organize events, attend conferences, hang out together at meetups and hackweeks. If you would like to meet Nextclouders, <a class="hyperlink" href="/contributors">check out our events page!</a>');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud is an open source community of developers and contributors, some helping out in their free time, others paid by their company to make Nextcloud better.');?> <a class="hyperlink" href="<?php echo home_url('contributors') ?>"><?php echo $l->t('You can see some of the people involved in Nextcloud here.</a>');?></p>
+			<p class="section--paragraph"><?php echo $l->t('We organize events, attend conferences, hang out together at meetups and hackweeks. If you would like to meet Nextclouders,');?> <a class="hyperlink" href="<?php echo home_url('events') ?>"><?php echo $l->t('check out our events page!</a>');?></p>
 			<a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017.jpg"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017-small.jpg" alt="in action" ></a>
 	</div>
 	<div class="col-md-6">
@@ -97,7 +97,7 @@
 		<div class="col-md-6 revealOnScroll feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Share with others on your terms.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The easy web interface allows you to share files with other users on your server, to create and send password protected public links, to let others upload files to your cloud and to get notifications on your phone and desktop when a user on another cloud server shares files directly with you. And you can do all these things from the desktop or mobile clients, too.');?></p>
-			<a href="/sharing" class="button button--blue button--arrow button--large"><?php echo $l->t('Share with Nextcloud');?></a>
+			<a href="<?php echo home_url('sharing') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Share with Nextcloud');?></a>
 		</div>
 	</div>
 </section>
@@ -117,7 +117,7 @@
 			<p class="section--paragraph"><?php echo $l->t('');?></p>
 			<p class="section--paragraph"><?php echo $l->t('<i class="fa-key fa"></i> we integrate unique in-transit, server-side and client-side end-to-end encryption technologies.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('');?></p>
-			<a href="/secure" class="button button--blue button--arrow button--large"><?php echo $l->t('Security in Nextcloud');?></a>
+			<a href="<?php echo home_url('secure') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Security in Nextcloud');?></a>
 		</div>
 	</div>
 </section>
@@ -152,7 +152,7 @@
 		<div class="col-md-6 revealOnScroll feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Mobile and desktop clients');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The free Nextcloud clients for Android, iOS and desktop systems allow you to sync and share files, in a fully secure way through an encrypted connection. The mobile clients feature automatic upload of pictures and videos you take and can synchronize select files and folders. The clients can handle multiple accounts, show all activity happening on your server and notify you of new events such as the availability of new shares.');?></p>
-			<a href="/clients" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+			<a href="<?php echo home_url('clients') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
 		</div>
 	</div>
 </section>
@@ -180,7 +180,7 @@
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Secure audio and video calls');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Operate your own secure and private audio/video communication service! You can access it through a browser, invite family or friends and collaborate in a group through secure, end to end encrypted audio and video communication. The WebRTC, peer to peer communication channel can not be intercepted even by the admin of the server. The talk app also supports chat and comes with mobile applications for Android and iOS so you can call others from your mobile phone!');?></p>
-			<a href="/talk" class="button button--blue button--arrow button--large"><?php echo $l->t('Nextcloud Talk');?></a>
+			<a href="<?php echo home_url('talk') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Nextcloud Talk');?></a>
 		</div>
 	</div>
 </section>
@@ -209,7 +209,7 @@
 			<p class="section--paragraph"><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite with collaborative editing that works in all modern browsers.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Collabora Online supports editing your documents in real time with multiple other editors, showing high fidelity, WYSIWYG rendering and preserving the layout and formatting of your documents.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Collabora Online supports dozens of document formats including <strong>DOC, DOCX, PPT, PPTX, XLS, XLSX + ODF, Import/View Visio, Publisher</strong> and many more...');?></p>
-			<a href="/collaboraonline" class="button button--blue button--arrow button--large"><?php echo $l->t('Collabora Online Office');?></a>
+			<a href="<?php echo home_url('collaboraonline') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Collabora Online Office');?></a>
 		</div>
 	</div>
 </section>
@@ -227,7 +227,7 @@
             <div class="col-md-6">
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud users to easily and securely send files, folders or upload links to others from within Microsoft Outlook. The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>
                 <p class="text-center section--paragraph"><?php echo $l->t('With the Outlook CalDav Synchronizer integration with Nextcloud, Outlook users can easily sync their events, tasks and contacts between Microsoft Outlook and their Nextcloud server.');?></p>
-                <p><a href="/outlook" class="button button--arrow button--blue button--large"><?php echo $l->t('Outlook Add-ins');?></a></p>
+                <p><a href="<?php echo home_url('outlook') ?>" class="button button--arrow button--blue button--large"><?php echo $l->t('Outlook Add-ins');?></a></p>
             </div>
         </div>
     </div>
@@ -241,7 +241,7 @@
 					<p class="section--paragraph__tittle"><?php echo $l->t('Mozilla Thunderbird');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Nextcloud also provides a <a href="https://addons.mozilla.org/en-US/thunderbird/addon/nextcloud-filelink/">Thunderbird Filelink Addon!</a> This Thunderbird extension makes it easy to send large attachments with Thunderbird by automatically uploading them first to a Nextcloud server and by then inserting the link into the body of your email.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Thanks to the Mozilla Thunderbird Lightning Calendar add-in and the Cardbook Thunderbird Contacts add-in, Calendar and Contacts integrate great into Thunderbird.');?></p>
-					<p><a href="/outlook" class="button button--arrow button--blue button--large"><?php echo $l->t('Thunderbird Add-ins');?></a></p>
+					<p><a href="<?php echo home_url('outlook') ?>" class="button button--arrow button--blue button--large"><?php echo $l->t('Thunderbird Add-ins');?></a></p>
 				</div>
 			</div>
 		</div>
@@ -256,7 +256,7 @@
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Integrated account management');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud features built in account management with optional two-factor authentication, making it easy to handle creating and modifying accounts. If you have set up a LDAP, you can connect it to Nextcloud as well!');?></p>
-			<a href="/usermanagement" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+			<a href="<?php echo home_url('usermanagement') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
 		</div>
 	</div>
 </section>
@@ -269,7 +269,7 @@
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Workflow management');?></p>
 			<p class="section--paragraph"><?php echo $l->t('With Nextcloud, system administrators can control and direct the flow of data between users on or between servers. The File Access Control app and other workflow tools can be used to prevent accidental sharing of sensitive data, adding an additional layer of protection to Nextcloud.');?></p>
-			<a href="/workflow" class="button button--blue button--arrow button--large"><?php echo $l->t('Workflow handling');?></a>
+			<a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Workflow handling');?></a>
 		</div>
 	</div>
 </section>
@@ -284,7 +284,7 @@
             <p class="section--paragraph"><?php echo $l->t('The nextcloud Activity app shows file modifications, downloads of shares and changes to comments or tags, providing an overview in the browser, clients or via email notifications and an RSS feed.');?></p>
             <p class="section--paragraph__tittle"><?php echo $l->t('Monitoring your Nextcloud server');?></p>
             <p class="section--paragraph"><?php echo $l->t('The Monitoring app enables admins to monitor the health and performance of a Nextcloud system with a graphical UI and an API endpoint for monitoring apps.');?></p>
-            <a href="/monitoring" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring activity');?></a>
+            <a href="<?php echo home_url('monitoring') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring activity');?></a>
         </div>
     </div>
 </section>
@@ -298,7 +298,7 @@
 			<p class="section--paragraph__tittle"><?php echo $l->t('External storage, securely encrypted');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The external storage feature of Nextcloud gives you access to your data wherever it is. Nextcloud can access files stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but you can also access them using standard protocols such as NFS, (S)FTP, WebDAV and more.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The Encryption App can encrypt data at rest for both local and remote storage, protecting data stored on networks outside of your server. Nextcloud will keep your data where it is and retrieve it over a secure communication channel whenever you need to access it.');?></p>
-			<a href="/storage" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+			<a href="<?php echo home_url('storage') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
 		</div>
 	</div>
 </section>
@@ -433,7 +433,7 @@
 <!--        <i class="fa-copy fa"></i>-->
         </div>
         <div class="col-md-3 featureblock">
-        <p class=""><?php echo $l->t('<br />... see how we <a class="hyperlink" href="/compare">compare to other solutions!</a>');?></p>
+        <p class=""><br /><a class="hyperlink" href="<?php echo home_url('compare') ?>"><?php echo $l->t('... see how we compare to other solutions!</a>');?></p>
         </div>
         <div class="col-md-1 featureblock">
         </div>
@@ -451,7 +451,7 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 featureblock revealOnScroll">
                     <div class="row text-center">
-                        <a href="/install" class="button button--arrow button--large"><?php echo $l->t('install');?></a>
+                        <a href="<?php echo home_url('install') ?>" class="button button--arrow button--large"><?php echo $l->t('install');?></a>
                     </div>
                 </div>
             </div>

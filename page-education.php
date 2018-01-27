@@ -113,7 +113,7 @@ require(["require.config"], function() {
     <div class="row">
 		<div class="col-md-4 col-md-offset-4">
             <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('<a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-moodle-and-4-other-partners-announce-education-edition">Learn more about the Education Edition in the announcement.</a> <br />Special GEÁNT pricing is available for research and educational organizations.');?></p>
-            <p class="section--paragraph text-center revealOnScroll"><a href="/enterprise/buy" class="button button--blue button--arrow button--large"><?php echo $l->t('Contact Sales');?></a></p>
+            <p class="section--paragraph text-center revealOnScroll"><a href="<?php echo home_url('enterprise/buy') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Contact Sales');?></a></p>
         </div>
     </div>
 </div>
@@ -211,7 +211,7 @@ require(["require.config"], function() {
     <div class="row">
 		<div class="col-md-8 col-md-offset-2 revealOnScroll">
 			<p class="section--paragraph text-center"><?php echo $l->t('<span class="avoidwrap">Nextcloud Global Scale delivers a true globally scalable solution</span> <span class="avoidwrap">for deployments with hundreds of millions of users<span>, <span class="avoidwrap">giving unprecedented control over the locality of data</span> <span class="avoidwrap">and delivering dramatic cost reduction</span>');?></p>
-			<p class="section--paragraph text-center"><a href="/globalscale" class="button button--blue button--arrow button--large"><?php echo $l->t('Global Scale');?></a></p>
+			<p class="section--paragraph text-center"><a href="<?php echo home_url('globalscale') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Global Scale');?></a></p>
 		</div>
 	</div>
 </div>
@@ -221,7 +221,7 @@ require(["require.config"], function() {
 			<div class="col-md-8 col-md-offset-2 revealOnScroll">
 				<p class="section--paragraph text-center"><?php echo $l->t('Your users are not confined to your Nextcloud server.<br/> Federation allows them to collaborate with users on other Nextcloud, Pydio or ownCloud servers!');?></p>
 				<div class="text-center morebuttondiv">
-					<a href="/sharing/#federation" class="button button--large button--arrow"><?php echo $l->t('Federation');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="<?php echo home_url('sharing/#federation') ?>" class="button button--large button--arrow"><?php echo $l->t('Federation');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>
@@ -287,7 +287,7 @@ require(["require.config"], function() {
         <div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('File Access Control');?></p>
             <p class="section--paragraph"><?php echo $l->t('The File Access Control feature of Nextcloud enables IT to codify legal and policy requirements, blocking students and others from  uploading or downloading data following defined rules. Criteria include IP address ranges, group membership, file type, time and more. Data retention can be controlled as well, enabling universities to limit the lifetime of certain files.');?></p>
-            <a href="/workflow" class="button button--blue button--arrow button--large"><?php echo $l->t('File Access Control');?></a>
+            <a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('File Access Control');?></a>
         </div>
     </div>
     <div class="row">
@@ -297,7 +297,7 @@ require(["require.config"], function() {
         <div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('Monitoring');?></p>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud offers powerful monitoring capabilities built in, enabling institutions to ensure smooth performance. Systems can be monitored using the web interface or through monitoring and systems intelligence tools like OpenNMS, Splunk, Nagios or others.');?></p>
-            <a href="/monitoring" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring');?></a>
+            <a href="<?php echo home_url('monitoring') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring');?></a>
         </div>
     </div>
     <div class="row claim--container">
@@ -314,7 +314,7 @@ require(["require.config"], function() {
     <div class="row">
         <div class="col-md-10 col-md-offset-1 revealOnScroll feature--block">
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud offers first-in-class, third-party verified security backed by a USD 5000 Security Bug Bounty program protecting against unauthorized access. Data is protected through industry standard TLS when transported and as an extra layer of security, whole-disk encryption or built in, server-side encryption with support for external key management can be employed.');?></p>
-            <a href="/secure" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn about security');?></a>
+            <a href="<?php echo home_url('secure') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn about security');?></a>
         </div>
     </div>
 </div>
@@ -326,7 +326,7 @@ require(["require.config"], function() {
 			<div class="col-md-8 col-md-offset-2 revealOnScroll">
 				<p class="section--paragraph text-center"><?php echo $l->t('Choose the best platform for efficient, secure and easy collaboration.<br/> Contact sales today!');?></p>
 				<div class="text-center morebuttondiv">
-					<a href="/enterprise/buy/" class="button button--large button--arrow"><?php echo $l->t('Contact Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="<?php echo home_url('enterprise/buy/') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>
@@ -406,7 +406,7 @@ require(["require.config"], function() {
 <!--        <i class="fa-copy fa"></i>-->
         </div>
         <div class="col-md-3 featureblock">
-        <p class=""><?php echo $l->t('<br />... see how we <a class="hyperlink" href="/compare">compare to other solutions!</a>');?></p>
+        <p class=""><a class="hyperlink" href="<?php echo home_url('compare') ?>"><?php echo $l->t('<br />... see how we compare to other solutions!</a>');?></p>
         </div>
         <div class="col-md-1 featureblock">
         </div>

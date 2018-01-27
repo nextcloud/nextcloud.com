@@ -22,7 +22,7 @@
 			<div class="col-md-8 col-md-offset-2">
                 <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost!');?></p>
                 <div class="text-center">
-                    <a href="install/#install-clients" class="button button--blue button--arrow button--large"><?php echo $l->t('Download now');?></a>
+                    <a href="<?php echo home_url('install/#install-clients') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Download now');?></a>
                 </div>
 			</div>
 		</div>
@@ -45,7 +45,7 @@
 		</div>
 		<div class="col-md-6 revealOnScroll feature--block">
 			<p class="section--paragraph"><?php echo $l->t('Any file you add, modify or delete in the synced folders on your desktop or laptop will show up, change or disappear on the server and all other connected devices.');?></p>
-			<a href="install/#install-clients" class="button button--blue button--arrow button--large"><?php echo $l->t('Get the desktop client');?></a>
+			<a href="<?php echo home_url('install/#install-clients') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Get the desktop client');?></a>
 		</div>
 	</div>
 	<div class="row">
@@ -181,7 +181,7 @@
 			<div class="col-md-8 col-md-offset-2">
                 <p class="section--paragraph text-center"><?php echo $l->t('We\'re grateful to our hundreds of thousands of users for the great ratings in the Play store and Apple App store and look forward to hear your feedback!');?></p>
                 <div class="text-center">
-                    <a href="install/#install-clients" class="button button--blue button--arrow button--large"><?php echo $l->t('Download now');?></a>
+                    <a href="<?php echo home_url('install/#install-clients') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Download now');?></a>
                 </div>
 			</div>
 		</div>

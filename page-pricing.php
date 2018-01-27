@@ -25,9 +25,9 @@
 			<a href="#options"><?php echo $l->t('options');?></a>
 			<a href="#discounts"><?php echo $l->t('discounts');?></a>
 			<a href="#faq"><?php echo $l->t('FAQ');?></a>
-			<a class="btn btn-primary" href="/enterprise/order"><?php echo $l->t('Order online');?></a>
-			<a class="btn btn-primary" href="/buy"><?php echo $l->t('get a quote');?></a>
-			<a class="btn btn-primary" href="/enterprise"><?php echo $l->t('enterprise offering');?></a>
+			<a class="btn btn-primary" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('Order online');?></a>
+			<a class="btn btn-primary" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a>
+			<a class="btn btn-primary" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise offering');?></a>
 		</div>
 	</div>
 </section>
@@ -62,7 +62,7 @@
 					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 1 year');?></li>
 					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 3 business days');?></li>
 					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://portal.nextcloud.com">Portal support</a>');?></li>
-					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="/migration">Migration support</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee.');?>" rel="tooltip"><a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support team by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
@@ -77,7 +77,7 @@
 					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Additional pricing tiers are available up to 10 million users');?></li>
 					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
 				</div>
-				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
+				<a class="btn btn-primary btn-lg btn-absolute-icon" href="<?php echo home_url('enterprise/buy') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
 		</div>
 		<div class="col-md-4 table-column">
@@ -100,7 +100,7 @@
 					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 3 years');?></li>
 					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 2 business days');?></li>
 					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://portal.nextcloud.com">Portal support</a>');?></li>
-					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee. Ask sales for details! ');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="/migration">Migration support</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee. Ask sales for details! ');?>" rel="tooltip"><a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support team by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: business hours');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support: business hours');?></li>
 					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
@@ -115,7 +115,7 @@
 					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Additional pricing tiers are available up to 10 million users');?></li>
 					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
 				</div>
-				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
+				<a class="btn btn-primary btn-lg btn-absolute-icon" href="<?php echo home_url('enterprise/buy') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
 		</div>
 		<div class="col-md-4 table-column highlight">
@@ -138,7 +138,7 @@
 					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 5+5 years');?></li>
 					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 24h or as agreed');?></li>
 					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://portal.nextcloud.com">Portal support</a>');?></li>
-					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee. Ask sales for details! ');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="/migration">Migration support</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee. Ask sales for details! ');?>" rel="tooltip"><a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support team by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: up to 24/7');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support: up to 24/7');?></li>
 					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
@@ -154,7 +154,7 @@
 					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
 				</div>
 				<a name="extracosts" id="extracosts"></a> <!--has to be here due to header-->
-				<a class="btn btn-primary btn-lg btn-absolute-icon" href="/enterprise/buy" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
+				<a class="btn btn-primary btn-lg btn-absolute-icon" href="<?php echo home_url('enterprise/buy') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
 		</div>
 	</div>
@@ -174,21 +174,11 @@
 		<p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('On top of the benefits of a Nextcloud Support Subscription you can add several optional support and feature packages.');?></p>
 	</div>
     <div class="row revealOnScroll">
-<!--        <div class="col-md-4">
-			<div class="featureblock">
-				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/spreed-two-nw.png">
-				<p class="section--paragraph__tittle"><?php echo $l->t('Audio/video calls');?></p>
-				<p class="section--paragraph"><?php echo $l->t('Nextcloud integrates <a class="hyperlink" href="/webrtc">private audio and video chat</a>, enabling users to easily discuss documents or conduct secure business calls with colleagues, clients and partners. Audio/video calls can be supported on your Nextcloud server with the Standard or Enterprise subscription as an optional package. A SIP gateway is optionally also  available, enabling dialing out and in through the global telephone network.');?></p>
-				<p class="section--paragraph price-big"><?php echo $l->t('starting at € 12/user/year');?></p>
-				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
-			</div>
-        </div>-->
         <div class="col-md-offset-2 col-md-4">
 			<div class="featureblock">
-<!--         <i class="fa-file-text fa"></i> -->
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/collabora-nw.png">
 				<p class="section--paragraph__tittle"><?php echo $l->t('Collabora Online Office');?></p>
-				<p class="section--paragraph"><?php echo $l->t('With <a class="hyperlink" href="/collaboraonline">Collabora Online Office</a> Nextcloud features an enterprise ready integrated online office enabling users to collaboratively edit docx, pptx and other office documents with colleagues, clients or partners. Collabora Online is available with the Standard or Enterprise subscription.');?></p>
+				<p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('collaboraonline') ?>"><?php echo $l->t('With Collabora Online Office</a> Nextcloud features an enterprise ready integrated online office enabling users to collaboratively edit docx, pptx and other office documents with colleagues, clients or partners. Collabora Online is available with the Standard or Enterprise subscription.');?></p>
 				<p class="section--paragraph price-big"><?php echo $l->t('starting at € 17/user/year');?></p>
 				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
 			</div>
@@ -198,7 +188,7 @@
 	<!--         <i class="fa-envelope fa"></i> -->
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-nw.png">
 				<p class="section--paragraph__tittle"><?php echo $l->t('Outlook Secure Sharing Add-in');?></p>
-				<p class="section--paragraph"><?php echo $l->t('Nextcloud optionally provides an <a class="hyperlink" href="/outlook">Outlook Secure Sharing Add-in</a> enabling users to share and receive files in a secure way directly from Microsoft Outlook. The Outlook Secure Sharing Add-in can be added to a Basic, Standard or Enterprise subscription.');?></p>
+				<p class="section--paragraph"><?php echo $l->t('Nextcloud optionally provides an');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>"><?php echo $l->t('Outlook Secure Sharing Add-in</a> enabling users to share and receive files in a secure way directly from Microsoft Outlook. The Outlook Secure Sharing Add-in can be added to a Basic, Standard or Enterprise subscription.');?></p>
 				<p class="section--paragraph price-big"><?php echo $l->t('starting at € 5/user/year');?></p>
 				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
 			</div>
@@ -246,7 +236,7 @@
 			<div class="row text-center"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Talk');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('secure online meetings, chat and web conferencing');?></p></div>
 			<div class="text-center morebuttondiv">
-                <a href="/talk" class="button button--blue button--large button--arrow"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                <a href="<?php echo home_url('talk') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
 		</div>
 		<div class="col-md-5 revealOnScroll">
@@ -254,7 +244,7 @@
 			<div class="row text-center"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Groupware');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Team planning and email made easy');?></p></div>
 			<div class="text-center morebuttondiv">
-                <a href="/groupware" class="button button--blue button--large button--arrow"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                <a href="<?php echo home_url('groupware') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
 		</div>
     </div>
@@ -269,13 +259,13 @@
             <?php echo file_get_contents(get_template_directory_uri().'/assets/img/enterprise/publicsector.svg'); ?>
             <p class="section--paragraph__tittle text-center"><?php echo $l->t('Public Sector');?></p>
             <p class="section--paragraph text-center"><?php echo $l->t('We provide interesting discount options to organizations in the public sector.');?></p>
-            <p class="section--paragraph text-center"><a class="hyperlink"  href="/enterprise/buy"><?php echo $l->t('Contact us');?></a></p>
+            <p class="section--paragraph text-center"><a class="hyperlink"  href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('Contact us');?></a></p>
         </div>
         <div class="col-md-5 col-md-offset-2 box revealOnScroll">
             <?php echo file_get_contents(get_template_directory_uri().'/assets/img/enterprise/education.svg'); ?>
             <p class="section--paragraph__tittle text-center"><?php echo $l->t('Education');?></p>
             <p class="section--paragraph text-center"><?php echo $l->t('Organizations in the educational sector receive a significant discount on all subscriptions');?></p>
-            <p class="section--paragraph text-center"><a class="hyperlink" href="/enterprise/buy"><?php echo $l->t('Contact us');?></a></p>
+            <p class="section--paragraph text-center"><a class="hyperlink" href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('Contact us');?></a></p>
 		</div>
 	</div>
 </div>
@@ -333,17 +323,17 @@
 				<div class="line revealOnScroll"></div>
 				<div class="downarrow revealOnScroll"><a href="#migration" data-toggle="collapse"><h3><?php echo $l->t('How difficult is migration from ownCloud?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="migration" class="collapse">
-					<p><?php echo $l->t('Migration from ownCloud to Nextcloud is easy. Our support team has already migrated dozens of customers, including some with tens of thousands of users. We will help you move to Nextcloud and optimally benefit from the added scalability, features, stability, performance and security. See <a class="hyperlink" href="/migration">our migration page</a> for more details on migration.');?></p>
+					<p><?php echo $l->t('Migration from ownCloud to Nextcloud is easy. Our support team has already migrated dozens of customers, including some with tens of thousands of users. We will help you move to Nextcloud and optimally benefit from the added scalability, features, stability, performance and security.');?> <a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('See our migration page</a> for more details on migration.');?></p>
 				</div>
 				<div class="line revealOnScroll"></div>
 				<div class="downarrow revealOnScroll"><a href="#howbuy" data-toggle="collapse"><h3><?php echo $l->t('How do I buy Nextcloud subscriptions?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="howbuy" class="collapse">
-					<p><?php echo $l->t('Just <a class="hyperlink" href="/buy">contact us</a> or one of our partners. Our partners will help you set up Nextcloud and they act as your first point of contact.');?></p>
+					<p><a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('Just contact us</a> or one of our partners. Our partners will help you set up Nextcloud and they act as your first point of contact.');?></p>
 				</div>
 				<div class="line revealOnScroll"></div>
 				<div class="downarrow revealOnScroll"><a href="#partner" data-toggle="collapse"><h3><?php echo $l->t('How do I become a Nextcloud partner?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="partner" class="collapse">
-					<p><?php echo $l->t('We are always looking for competent partners who share our passion for making customers happy! You can join our ecosystem, <a class="hyperlink" href="/contact">contact us for more information</a>.');?></p>
+					<p><?php echo $l->t('We are always looking for competent partners who share our passion for making customers happy! You can join our ecosystem,');?> <a class="hyperlink" href="<?php echo home_url('contact') ?>"><?php echo $l->t('contact us for more information</a>.');?></p>
 				</div>
 				<div class="line revealOnScroll"></div>
 				<div class="downarrow revealOnScroll"><a href="#gpl" data-toggle="collapse"><h3><?php echo $l->t('What does the Open Source License mean?<span class="icon-arrow-down">');?></h3></a></div>

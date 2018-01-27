@@ -24,26 +24,26 @@ require(["require.config"], function() {
     <div class="container">
         <div class="row revealOnScroll feature--block">
             <div class="col-md-5">
-                <a href="/box"><img src="<?php bloginfo('template_directory'); ?>/assets/img/box/box-perspective.png" class="img-responsive featureimg" /></a>
+                <a href="<?php echo home_url('box') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/box/box-perspective.png" class="img-responsive featureimg" /></a>
             </div>
             <div class="col-md-7">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Box');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Box comes preinstalled with Nextcloud, running on Ubuntu Core (based on the new super-secure, remotely upgradeable Linux app packages known as snaps) as the OS.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The box consists of a 1 TB USB3 hard drive from WDLabs, a Nextcloud case with room for the drive and a compute board, a microUSB charger, cables and adapters, a screw driver and screws');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Box is compatible with the Raspberry Pi 2 (not included!). Support for other boards (e.g. Raspberry Pi 3) is coming soon.');?></p>
-                <a href="/box" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+                <a href="<?php echo home_url('box') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
             </div>
         </div>
         <div class="row revealOnScroll feature--block">
             <div class="col-md-5">
-                <a href="/spreedbox"><img src="<?php bloginfo('template_directory'); ?>/assets/img/spreedbox/spreedbox.png" class="img-responsive featureimg" /></a>
+                <a href="<?php echo home_url('spreedbox') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/spreedbox/spreedbox.png" class="img-responsive featureimg" /></a>
             </div>
             <div class="col-md-7">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Spreedbox');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Behind the award-winning designed device by struktur AG operates a secure video chat and file exchange solution for small enterprise usage.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('It offers Strong end-to-end encrypted audio and video chat, a Nextcloud based file sync and share solution and advanced security features with a silicon hardware key generator.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Spreedbox offers an optional SIP gateway, enabling web conferencing participants to dial in through a traditional telephone connection.');?></p>
-                <a href="/spreedbox" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+                <a href="<?php echo home_url('spreedbox') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
             </div>
         </div>
         <div class="row revealOnScroll feature--block">
@@ -61,5 +61,5 @@ require(["require.config"], function() {
 </section>
 <div class="calltoaction">
     <h1 class="section--heading-2 section--text--center"><?php echo $l->t('Interested in building Nextcloud Devices?');?></h1>
-    <p class="section--paragraph section--text--center"><?php echo $l->t('You can <a class="hyperlink" href="/contact/">get in touch</a> with us, and we will help you with individual offerings and get your devices listed on this page.');?></p>
+    <p class="section--paragraph section--text--center"><?php echo $l->t('You can');?> <a class="hyperlink" href="<?php echo home_url('contact') ?>"><?php echo $l->t('get in touch</a> with us, and we will help you with individual offerings and get your devices listed on this page.');?></p>
 </div>

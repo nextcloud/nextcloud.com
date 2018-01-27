@@ -162,7 +162,7 @@
                 <?php echo $l->t('Users can access data on a FTP drive shared with another company; while data stored on an external S3 compatible object storage could be encrypted using server-side encryption so the storage provider has no way to compromise their security.');?>
             </p>
             <p class="section--paragraph revealOnScroll">
-                <?php echo $l->t('Meanwhile, using the <a class="hyperlink" href="/workflow">Nextcloud File Access Control capability,</a> files from the HR department can always be enforced to be end-to-end encrypted on their clients, protecting their data from even the worst case of a full server breach. Similarly, sensitive research, customer information or strategic documents can be guaranteed to be kept even from server administrators.');?>
+                <?php echo $l->t('And with the');?> <a class="hyperlink" href="<?php echo home_url('workflow') ?>"><?php echo $l->t('Nextcloud File Access Control feature,</a> files from the HR department can always be enforced to be end-to-end encrypted on their clients, protecting their data from even the worst case of a full server breach. Similarly, sensitive research, customer information or strategic documents can be guaranteed to be kept even from server administrators.');?>
             </p>
         </div>
     </div>

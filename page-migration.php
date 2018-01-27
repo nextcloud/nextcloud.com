@@ -6,7 +6,7 @@
 	});
 </script>
 </head>
- 
+
 <div class="background migration-background">
 	<div class="container">
 		<div class="row">
@@ -28,7 +28,7 @@
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
 							<h3><?php echo $l->t('We require a <span class="big">truly scalable</span> and 100% open source enterprise solution from a <span class="big">reliable partner</span> so we decided to <span class="big">migrate from ownCloud to Nextcloud</span>');?></h3>
-							<h2><a href="/pr20160929"><?php echo $l->t('– Martin Bech, Head of NREN at DeIC');?></a></h2>
+							<h2><a href="<?php echo home_url('pr20160929') ?>"><?php echo $l->t('– Martin Bech, Head of NREN at DeIC');?></a></h2>
 						</div>
 
 						<div class="item">
@@ -66,10 +66,10 @@
 <div class="container">
 	<div class="col-md-8 col-md-offset-2">
 	<h2 class="section--heading-1"><?php echo $l->t('Why migrate: ownCloud vs Nextcloud');?></h2>
-	<p class="section--paragraph"><?php echo $l->t('Nextcloud offers significant <a class="hyperlink" href="https://nextcloud.com/?p=1373">scalability</a>, <a class="hyperlink" href="https://nextcloud.com/?p=1334">security</a> and <a class="hyperlink" href="https://nextcloud.com/?p=1332">feature improvements</a> over ownCloud (<a class="hyperlink" href="/compare">see a full comparison here</a>) and our experienced support team has already helped several dozen customers with <a class="hyperlink" href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/">sometimes tens of thousands of users</a> migrate successfully. Our customers appreciate expert help from a German, employee-owned company set up to provide a long term relationship between customers and business. Last but not least, Nextcloud has by far the strongest expertise in large scale deployments, as is evident in our work on <a class="hyperlink" href="https://nextcloud.com/globalscale">Global Scale.</a>');?></p>
+	<p class="section--paragraph"><?php echo $l->t('Nextcloud offers significant <a class="hyperlink" href="https://nextcloud.com/?p=1373">scalability</a>, <a class="hyperlink" href="https://nextcloud.com/?p=1334">security</a> and <a class="hyperlink" href="https://nextcloud.com/?p=1332">feature improvements</a> over ownCloud');?> (<a class="hyperlink" href="<?php echo home_url('compare') ?>"><?php echo $l->t('see a full comparison here</a>) and our experienced support team has already helped several dozen customers with <a class="hyperlink" href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/">sometimes tens of thousands of users</a> migrate successfully. Our customers appreciate expert help from a German, employee-owned company set up to provide a long term relationship between customers and business. Last but not least, Nextcloud has by far the strongest expertise in large scale deployments, as is evident in our work on <a class="hyperlink" href="https://nextcloud.com/globalscale">Global Scale.</a>');?></p>
 	<p class="section--paragraph"><?php echo $l->t('Nextcloud is fully licensed under the AGPL, giving you <a class="hyperlink" href="https://nextcloud.com/blog/why-the-agpl-is-great-for-business-users/">all the benefits of open source</a> and avoiding any risk of mixing a proprietary enterprise edition with open source components.');?></p>
 	<p class="section--paragraph"><?php echo $l->t('First rate support as well as <a  class="hyperlink" href="https://nextcloud.com/?p=1222">healthy development</a> happening in public are key to our offering. Employing over a dozen former ownCloud engineers as well as many other experienced software developers, we are in the best position to support you in keeping your data secure and easily accessible to your employees.');?></p>
-	<p class="section--paragraph"><?php echo $l->t('We can help you <a class="hyperlink" href="/enterprise">with a support subscription</a> but you can also look for <a class="hyperlink" href="/partners">support from one of our partners</a> and of course get <a class="hyperlink" href="https://help.nextcloud.com">community support on our forums.</a>');?></p>
+	<p class="section--paragraph"><?php echo $l->t('We can help you');?> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('with a support subscription</a> but you can also look for');?> <a class="hyperlink" href="<?php echo home_url('partners') ?>"><?php echo $l->t('support from one of our partners</a> and of course get <a class="hyperlink" href="https://help.nextcloud.com">community support on our forums.</a>');?></p>
 
 	<h2 class="section--paragraph__tittle"><?php echo $l->t('The Nextcloud migration tool');?></h2>
 	<p class="section--paragraph"><?php echo $l->t('The easiest way to migrate is using our migration tool. This tool supports ownCloud 8.2 to ownCloud 10, migrating to the appropriate Nextcloud release automatically.');?></p>
@@ -116,7 +116,7 @@
 	</ul>
 	<p class="section--paragraph"><?php echo $l->t('This essentially means you can treat Nextcloud 9.0.x as an upgrade to ownCloud 9.0.x and Nextcloud 10.0.x as an upgrade to ownCloud 9.1.x');?></p>
 	<p class="section--paragraph"><?php echo $l->t('Note that ownCloud 9.1.6 breaks easy upgrading to Nextcloud 10.0.5. We fixed this in 10.0.6! Similar, ownCloud 10.0.2 and 10.0.3 can only be upgraded from Nextcloud 12.0.4. We make sure we properly test the upgrade paths!');?></p>
-	<p class="section--paragraph"><?php echo $l->t('These are some examples of an upgrade path. The minor release (.x below) should always be the latest bugfix release. You can find these on the changelog pages, <a  class="hyperlink" href="/changelog">here for Nextcloud.</a>');?></p>
+	<p class="section--paragraph"><?php echo $l->t('These are some examples of an upgrade path. The minor release (.x below) should always be the latest bugfix release. You can find these on the changelog pages,');?> <a  class="hyperlink" href="<?php echo home_url('changelog') ?>"><?php echo $l->t('here for Nextcloud.</a>');?></p>
 	<ul>
 		<li class="section--paragraph"><?php echo $l->t('ownCloud 8.0.x -> ownCloud 8.1.x -> ownCloud 8.2.x -> Nextcloud 9.0.x -> Nextcloud 10.0.x');?></li>
 		<li class="section--paragraph"><?php echo $l->t('ownCloud 8.2.x -> Nextcloud 9.0.x -> Nextcloud 10.0.x');?></li>

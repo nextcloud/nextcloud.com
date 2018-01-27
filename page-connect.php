@@ -10,7 +10,7 @@
 	</div>
 	<div class="col-lg-8 col-md-7">
 		<h2><?php echo $l->t('What is it?');?></h2>
-                <p><?php echo $l->t('<strong>Nextcloud</strong>: Nextcloud is open source software that you install on your computer to provide anytime, anywhere access to your files via mobile devices, desktop sync clients and web browsers. Nextcloud is managed by you, entirely within your control, allowing you access to files on your storage, no strings attached. Provided in an easy to install virtual appliance (or as bits to be installed and configured), Nextcloud can be up and running on your computer in 3 easy steps: <a href="/install">download the virtual appliance</a>, import it into your preferred hypervisor, and boot.');?></p>
+                <p><?php echo $l->t('<strong>Nextcloud</strong>: Nextcloud is open source software that you install on your computer to provide anytime, anywhere access to your files via mobile devices, desktop sync clients and web browsers. Nextcloud is managed by you, entirely within your control, allowing you access to files on your storage, no strings attached. Provided in an easy to install virtual appliance (or as bits to be installed and configured), Nextcloud can be up and running on your computer in 3 easy steps: ');?><a href="<?php echo home_url('install') ?>"><?php echo $l->t('download the virtual appliance</a>, import it into your preferred hypervisor, and boot.');?></p>
                 <p><?php echo $l->t('<strong>Nextcloud Proxy</strong>: Simply put, Nextcloud Proxy enables you to take a laptop and an Internet connection, connect to your privately hosted Nextcloud from anywhere, without requiring you to make any changes to your local network settings – no router configuration, no DNS entries, no domain name registration. The Nextcloud Proxy service relies on a partner who provides the service for a fee. Right now, there is one partner, <a href="https://pagekite.net/" target="_blank">pageKite</a>. More are coming!');?></p>
         </div>
 </div>
@@ -61,5 +61,5 @@
         <h3><?php echo $l->t('');?></h3>
         <p><?php echo $l->t('');?></p>
         </div>
-        
+
 </div>

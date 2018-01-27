@@ -4,13 +4,14 @@
 <div class="row">
     <div class="col-md-6 col-md-offset-3 text-center">
         <h1><?php echo $l->t('Nextcloud providers');?></h1>
-        <p><?php echo $l->t('Nextcloud is a private cloud solution you can host wherever you want. On your own hardware, a <a class="hyperlink" href="/devices">device you bought</a> or at a provider!');?><p>
+        <p><?php echo $l->t('Nextcloud is a private cloud solution you can host wherever you want. On your own hardware,');?> <a class="hyperlink" href="<?php echo home_url('devices') ?>"><?php echo $l->t('a device you bought</a> or at a provider!');?><p>
     </div>
 </div>
 <div class="row">
     <div class="col-md-10 col-md-offset-1">
-        <p><?php echo $l->t('We have over 50 different providers who offer anything from a Virtual Machine with Nextcloud you have to manage yourself to a fully handled Nextcloud account where you just have to log in, maintained by your provider. Some providers offer (limited) free tiers, some focus on home users and others on business; some aim for low prices while others offer extensive backups, downtime prevention and great support. Pick what you need!');?><p>
-        <p><?php echo $l->t('You can leave comments on your experiences with the providers or ask questions <a class="hyperlink" href="https://help.nextcloud.com/c/hosting">in our hosting category on the forums.</a> Feedback is VERY much welcomed as it helps others to choose their ideal provider!');?><p>
+        <p><?php echo $l->t('We have over 50 different providers who offer anything from a Virtual Machine with Nextcloud you have to manage yourself to a fully handled Nextcloud account where you just have to log in, maintained by your provider. Some providers offer (limited) free tiers, some focus on home users and others on business; some aim for low prices while others offer extensive backups, downtime prevention and great support. Pick what you need!');?></p>
+        <p><?php echo $l->t('Please note that we have no formal relationship with any of these providers and take no responsibility for their services or quality. If you want to be sure to get quality service with the backing of Nextcloud engineers,');?> <a class="hyperlink" href="<?php echo home_url('contact') ?>"><?php echo $l->t('get in contact with us</a>');?> <a class="hyperlink" href="<?php echo home_url('partners') ?>"><?php echo $l->t('or one of our partners.</a>');?></p>
+        <p><?php echo $l->t('You can leave comments on your experiences with the providers or ask questions <a class="hyperlink" href="https://help.nextcloud.com/c/hosting">in our hosting category on the forums.</a> Feedback is VERY much welcomed as it helps others to choose their ideal provider!');?></p>
     </div>
 </div>
 <div class="row">
@@ -35,7 +36,7 @@
 
 <div id="providers" class="row">
 </div>
-<div class="alert alert-info"><p><?php echo $l->t('If you offer Nextcloud Server account hosting, you can be <a href="/providers/apply">listed on this page</a>. If you want to report an abuse by one of the providers listed above, you can send us an email to abuse@nextcloud.com.');?></p></div>
+<div class="alert alert-info"><p><?php echo $l->t('If you offer Nextcloud Server account hosting, you can be <a class="hyperlink" href="/providers/apply">listed on this page</a>. If you want to report an abuse by one of the providers listed above, you can send us an email to abuse@nextcloud.com.');?></p></div>
 
 <script type="text/javascript">
 // 	$( "#hostingboth" ).prop( "checked", true );

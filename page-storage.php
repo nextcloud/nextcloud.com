@@ -22,7 +22,7 @@
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Unlock your data');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Avoid costly and disruptive migrations and retain your existing, compliant workflows and processes while enabling your employees to collaborate and work efficiently. Nextcloud unlocks corporate data silos, bringing together data from your existing storage systems in one seamless user interface.');?></p>
-			 <p class="section--paragraph"><?php echo $l->t('Your IT stays in control of the data thanks to powerful <a class="hyperlink" href="/workflow">File Access Control</a> and <a class="hyperlink" href="/monitoring">logging</a> capabilities.');?></p>
+			 <p class="section--paragraph"><?php echo $l->t('Your IT stays in control of the data thanks to powerful');?> <a class="hyperlink" href="<?php echo home_url('workflow') ?>"><?php echo $l->t('File Access Control</a> and');?> <a class="hyperlink" href="<?php echo home_url('monitoring') ?>"><?php echo $l->t('logging</a> capabilities.');?></p>
 		</div>
 	</div>
 	<div class="row">
@@ -78,7 +78,7 @@
 			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
 				<p class="section--paragraph text-center"><?php echo $l->t('Contact our sales team if you want to know about support for your enterprise storage technology and integration in Nextcloud.');?></p>
 				<div class="text-center morebuttondiv">
-					<a href="/buy" class="button button--large button--arrow"><?php echo $l->t('Contact sales');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact sales');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>
@@ -94,7 +94,7 @@
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Data securely encrypted');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Server side encryption can optionally be enabled on select external or primary storage to securely encrypt the data residing on them. Nextcloud supports external key management, a master recovery password and changing passwords by users. ');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Learn more about Nextcloud server side encryption ');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_files/encryption_configuration.html" target="_blank"><?php echo $l->t('in the documentation</a> and learn more about <a class="hyperlink" href="/secure">security in Nextcloud</a>');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Learn more about Nextcloud server side encryption ');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_files/encryption_configuration.html" target="_blank"><?php echo $l->t('in the documentation</a> and learn more about');?> <a class="hyperlink" href="<?php echo home_url('secure') ?>"><?php echo $l->t('security in Nextcloud</a>');?></p>
 		</div>
 	</div>
 </div>

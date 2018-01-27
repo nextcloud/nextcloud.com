@@ -125,15 +125,15 @@
         <div class="col-sm-4">
             <p class="section--paragraph__tittle"><?php echo $l->t('Security');?></p>
             <p class="section--paragraph"><?php echo $l->t('
-            Nextcloud Groupware is engineered from the ground up to be secure with the latest web protections and secure login technologies like Brute Force Protection and 2-factor authentication.<br>
-            <a class="hyperlink" href="/secure">Learn more about security</a>
+            Nextcloud Groupware is engineered from the ground up to be secure with the latest web protections and secure login technologies like Brute Force Protection and 2-factor authentication.') ?><br>
+            <a class="hyperlink" href="<?php echo home_url('secure') ?>"><?php echo $l->t('Learn more about security</a>
             ');?></p>
         </div>
         <div class="col-sm-4">
             <p class="section--paragraph__tittle"><?php echo $l->t('Control');?></p>
             <p class="section--paragraph"><?php echo $l->t('
-            Nextcloud Groupware is built to host yourself and work with existing SMTP and IMAP/POP3 servers. This simplifies compliance by putting you in control. Nextcloud supports you with excellent monitoring and audit-ready logging functionality.<br>
-            <a class="hyperlink" href="/monitoring">Learn more about monitoring and logging</a>
+            Nextcloud Groupware is built to host yourself and work with existing SMTP and IMAP/POP3 servers. This simplifies compliance by putting you in control. Nextcloud supports you with excellent monitoring and audit-ready logging functionality.') ?><br>
+            <a class="hyperlink" href="<?php echo home_url('monitoring') ?>"><?php echo $l->t('Learn more about monitoring and logging</a>
             ');?></p>
         </div>
     </div>
@@ -231,7 +231,7 @@
             ');?></p>
         </div>
         <div class="text-center morebuttondiv">
-            <a href="/buy" class="button button-button--large button--arrow"><?php echo $l->t('Contact sales for a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+            <a href="<?php echo home_url('buy') ?>" class="button button-button--large button--arrow"><?php echo $l->t('Contact sales for a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
         </div>
     </div>
 </div>

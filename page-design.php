@@ -107,7 +107,7 @@
                 <li><?php echo $l->t('Watch a short video on <a href="https://www.youtube.com/watch?v=5SAB0CY-iZ0" target="_blank">our design principles and how to get involved</a>.');?></li>
                 <li><?php echo $l->t('Learn more about design &amp; usability, read <a href="http://jancborchardt.net/usability-in-free-software" target="_blank">Usability in Free Software</a>.');?></li>
                 <li><?php echo $l->t('Many of our designers are active in the broader <a href="http://opensourcedesign.net" target="_blank">Open Source Design</a> community.');?></li>
-                <li><?php echo $l->t('If you just want to read about what’s new in Nextcloud design, check out the <a href="https://nextcloud.com/news">Nextcloud blog roll</a> as we talk frequently about design.');?></li>
+                <li><?php echo $l->t('If you just want to read about what’s new in Nextcloud design, check out the');?> <a href="<?php echo home_url('news') ?>"><?php echo $l->t('Nextcloud blog roll</a> as we talk frequently about design.');?></li>
             </ul>
 		</div>
 	</div>

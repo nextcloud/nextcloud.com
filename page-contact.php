@@ -3,20 +3,14 @@
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
 
-		<!--If you want to talk to Nextcloud users, contributors and fans, join the <a href="/promote" target="_blank">community conversation</a> over social media, the forums and other places.-->
 		<h1><?php echo $l->t('Need help?');?></h1>
-		<p><?php echo $l->t('If you have technical questions or need support, <a href="/support">check out the options on our support page.</a>');?>
+		<p><?php echo $l->t('If you have technical questions or need support,');?> <a href="<?php echo home_url('support') ?>"><?php echo $l->t('check out the options on our support page.</a>');?>
 		<h2><?php echo $l->t('Talk to us online!');?></h2>
-		<p><?php echo $l->t('Most of our contributors are active in <a href="irc://#nextcloud-dev@freenode.net" target="_blank">the Nextcloud development IRC channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. We are also very active <a href="https://help.nextcloud.com" target="_blank">on our forums</a>.');?> <?php echo $l->t('<a href="/contribute">Get involved!!</a>');?></p>
-		<!--If you are looking for answers to questions, see <a href="/faq" target="_blank">the Nextcloud FAQ</a> and our <a href="/support" target="_blank">support page</a>.-->
-
-		<!-- For the latest news, subscribe to our <a href="https://nextcloud.org/feed/">RSS feed</a>.');?></p> -->
-
-		<!-- <p><?php echo $l->t('For reporting vulnerabilities, read <a href="https://nextcloud.org/security">Security</a>.');?></p> -->
-	</div>
+		<p><?php echo $l->t('Most of our contributors are active in <a href="irc://#nextcloud-dev@freenode.net" target="_blank">the Nextcloud development IRC channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. We are also very active <a href="https://help.nextcloud.com" target="_blank">on our forums</a>.');?> <a href="<?php echo home_url('contribute') ?>"><?php echo $l->t('Get involved!!</a>');?></p>
+		</div>
 	<div class="col-md-6 col-md-offset-3">
 		<h1><?php echo $l->t('Contact us');?></h1>
-		<p><?php echo $l->t('If you have any questions or comments on the website or have a business question, complete the form below and we\'ll get back to you!<br/><strong>If you need technical help, please do not use this form.</strong> If you are a customer, <a href="https://portal.nextcloud.com">use our support portal</a> and if not <a href="/support">see here for support options.</a>');?></p>
+		<p><?php echo $l->t('If you have any questions or comments on the website or have a business question, complete the form below and we\'ll get back to you!<br/><strong>If you need technical help, please do not use this form.</strong> If you are a customer, <a href="https://portal.nextcloud.com">use our support portal</a> and if not');?> <a href="<?php echo home_url('support') ?>"><?php echo $l->t('see here for support options.</a>');?></p>
 		<p><?php echo $l->t('Support requests using this form <strong>will be ignored!</strong>');?></p>
 	</div>
 	<div class="col-md-6 col-md-offset-3">
@@ -56,11 +50,11 @@
 // 		echo('<tr><td style="padding:5px;">');
 // 		if(empty($data['picture_50'])) { $data['picture_50'] = 'blogger_50.png'; }
 //
-// 		echo('<span class="contribook_microbloguserpicture"><a href="/user/?user='.$user.'"><img src="'.CONTRIBOOK_PHOTO_URL.$data['picture_50'].'" border="0" /></a></span>');
+// 		echo('<span class="contribook_microbloguserpicture"><a href="<?php echo home_url('user/?user='.$user.'"><img src="'.CONTRIBOOK_PHOTO_URL.$data['picture_50'].'" border="0" /></a></span>');
 //
 // 		echo('');?></td><td style="padding:5px;">');
 //
-// 		echo('<a href="/user/?user='.$user.'">'.$data['name'].'</a><br />');
+// 		echo('<a href="<?php echo home_url('user/?user='.$user.'">'.$data['name'].'</a><br />');
 // 		echo($data['role']);
 //
 // 		echo('');?></td></tr>');

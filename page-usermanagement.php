@@ -50,7 +50,7 @@
 			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
 				<p class=""><?php echo $l->t('Learn more about how Nextcloud helps you keep your data secure.');?></p>
 				<div class="text-center morebuttondiv">
-					<a href="/secure" class="button button--large button--arrow"><?php echo $l->t('Security in Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="<?php echo home_url('secure') ?>" class="button button--large button--arrow"><?php echo $l->t('Security in Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>
@@ -130,7 +130,7 @@
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Other user backends');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud can work with a number of other backends for authentication and user handling: IMAP, SMB and FTP. These can be used to integrate Nextcloud more easily in company infrastructure. On the app store, more authentication and user backends can be found, like integration with Gluu.');?></p>
-			<p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_user/user_auth_ftp_smb_imap.html"><?php echo $l->t('Find documentation here');?></a> and <a class="hyperlink" href="https://apps.nextcloud.com"><?php echo $l->t('our app store here.');?></p>
+			<p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_user/user_auth_ftp_smb_imap.html"><?php echo $l->t('Find documentation here');?></a> <?php echo $l->t('and');?> <a class="hyperlink" href="https://apps.nextcloud.com"><?php echo $l->t('our app store here.');?></p>
 		</div>
 	</div>
 </div>
