@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/old/font-awesome.css"/>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/old/styles.css"/>
 	<script type="text/javascript">
-		var templateUrl = '<?php get_bloginfo('template_url'); ?>';
+		var templateUrl = '<?= get_bloginfo('template_url'); ?>';
 	</script>
 
 	<?php wp_head(); ?>

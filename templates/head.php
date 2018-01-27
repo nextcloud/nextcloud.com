@@ -13,7 +13,7 @@
 
 	<?php wp_head(); ?>
 	<script type="text/javascript">
-		var templateUrl = '<?php get_bloginfo('template_url'); ?>';
+		var templateUrl = '<?= get_bloginfo('template_url'); ?>';
 	</script>
 
 	<script data-main="<?php echo get_template_directory_uri(); ?>/assets/js/require.config.js"
