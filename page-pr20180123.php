@@ -21,7 +21,7 @@ GÉANT is Europe’s leading collaboration on network and related infrastructure
 Nextcloud offers the industry-leading fully open source solution for on-premises data handling and communication with an uncompromising focus on security and privacy and unprecedented scalability. Nextcloud brings together universal access to data with next-generation secure communication and collaboration capabilities under direct control of IT and integrated with existing compliant infrastructure. Nextcloud's open, modular architecture, emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing assets within and across the borders of their organization. For more information, visit <a href="https://nextcloud.com">https://nextcloud.com</a> or follow <a href="https://twitter.com/nextclouders">@Nextclouders on Twitter.</a></p>
 
 <p><strong>Links:</strong><br />
-About the Nextcloud Education Edition: <a href="https://nextcloud.com/about">nextcloud.com/education</a><br />
+About the Nextcloud Education Edition: <a href="https://nextcloud.com/education">nextcloud.com/education</a><br />
 Information about GÉANT: <a href="https://geant.org">geant.org</a></p>
 <p><strong>Press contact</strong>
 Nextcloud GmbH<br />
