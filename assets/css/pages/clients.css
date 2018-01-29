@@ -19,9 +19,21 @@ section {
     padding-top: 80px; }
   section h2 {
     padding-bottom: 40px; }
+  section ul {
+    padding-left: 30px; }
   section li {
-    list-style-type: disc;
-    /* 		list-style-image: url("../../img/enterprise/check.svg"); */
-    list-style-position: inside; }
+    /* 			list-style-type: circle; */
+    list-style-image: url("../../img/enterprise/check.svg");
+    /* 		list-style-position:inside; */ }
+  section .quote .row {
+    padding-top: 0px; }
+
+.section--mobile .container .row {
+  overflow: hidden; }
+  .section--mobile .container .row img {
+    margin: 30px auto;
+    /* 				max-width: 70vw; */
+    max-width: 90%;
+    max-height: 400px; }
 
 /*# sourceMappingURL=clients.css.map */
