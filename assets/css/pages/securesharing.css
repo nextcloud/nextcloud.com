@@ -1,0 +1,120 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.security-background {
+  background-image: url("../../img/security/security.jpg");
+  background-position: bottom 0 right 0; }
+  .security-background .topheader h1 {
+    margin-top: 0; }
+
+/* All headers */
+.featureblock {
+  padding: 140px 0; }
+  .featureblock--has-separator {
+    border-top: 1px solid #E8E8E8; }
+  .featureblock .img-responsive {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 36px;
+    margin-bottom: 17px; }
+  .featureblock .features--container {
+    padding-top: 100px;
+    display: inline-block; }
+    .featureblock .features--container .section--paragraph {
+      padding-bottom: 10px; }
+    .featureblock .features--container .feature {
+      padding: 15px 0; }
+      .featureblock .features--container .feature .icon {
+        margin-bottom: 30px; }
+      .featureblock .features--container .feature .section--paragraph {
+        padding-bottom: 10px;
+        padding-top: 20px; }
+  .featureblock .image--floated {
+    float: right; }
+  .featureblock .screenshot {
+    margin-top: 160px;
+    margin-bottom: 20px;
+    border: solid 1px transparent;
+    border-radius: 0px;
+    border: solid 1px #fbfbfb;
+    -webkit-box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.04);
+    box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.04); }
+    .featureblock .screenshot:hover {
+      -webkit-box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
+      box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
+      border: solid 1px #fbfbfb;
+      border-radius: 0px;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+  @media (max-width: 768px) {
+    .featureblock .screenshot {
+      margin-top: 0;
+      margin-bottom: 15px; } }
+  .featureblock h2 {
+    color: #2a2a36;
+    margin-top: 25px;
+    margin-bottom: 25px; }
+  .featureblock h3 {
+    text-align: left;
+    font-size: 30px; }
+
+/* security badges */
+.security-badge {
+  text-align: center;
+  /* 	display: inline-block; */ }
+  .security-badge img {
+    height: 140px;
+    padding: 5px; }
+
+section {
+  margin-top: 70px;
+  margin-bottom: 70px; }
+  section ul {
+    padding-left: 30px; }
+  section li {
+    /* 			list-style-type: circle; */
+    list-style-image: url("../../img/enterprise/check.svg");
+    /* 		list-style-position:inside; */ }
+
+.section--compliance .banner {
+  background-color: #0082c9;
+  position: relative;
+  overflow: hidden; }
+  .section--compliance .banner .col-md-6 {
+    padding: 40px 0; }
+  .section--compliance .banner li, .section--compliance .banner p, .section--compliance .banner h2, .section--compliance .banner h3 {
+    color: white; }
+  .section--compliance .banner .hyperlink {
+    color: white; }
+  .section--compliance .banner .row {
+    padding: 0px 0px; }
+  .section--compliance .banner .fa {
+    color: white;
+    padding-right: 10px; }
+  .section--compliance .banner .learnmore {
+    padding: 20px 0px; }
+    .section--compliance .banner .learnmore .col-sm-6 {
+      padding: 20px 0px; }
+  .section--compliance .banner .big-img {
+    position: absolute;
+    max-width: 70%;
+    height: 100%;
+    /*         top: 60px; */
+    margin-left: 30px; }
+  .section--compliance .banner .small-img {
+    position: absolute;
+    height: 100%;
+    margin-left: 30px; }
+  @media (max-width: 1600px) {
+    .section--compliance .banner .big-img {
+      display: none; } }
+  @media (min-width: 1600px) {
+    .section--compliance .banner .small-img {
+      display: none; } }
+
+/*# sourceMappingURL=securesharing.css.map */
