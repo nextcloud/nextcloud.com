@@ -9,7 +9,6 @@
 
 section {
 	padding: 50px 0;
-
 	.section--paragraph__tittle {
 		padding: 0;
 	}
@@ -19,10 +18,32 @@ section {
 	h2 {
 		padding-bottom: 40px;
 	}
+	ul {
+		padding-left: 30px;
+	}
 	li {
-		list-style-type: disc;
-	/* 		list-style-image: url("../../img/enterprise/check.svg"); */
-		list-style-position:inside;
+/* 			list-style-type: circle; */
+			list-style-image: url("../../img/enterprise/check.svg");
+/* 		list-style-position:inside; */
+	}
+	.quote {
+		.row {
+			padding-top: 0px;
+		}
+	}
+}
+
+.section--mobile {
+	.container {
+		.row {
+			overflow: hidden;
+			img {
+				margin: 30px auto;
+/* 				max-width: 70vw; */
+				max-width: 90%;
+				max-height: 400px;
+			}
+		}
 	}
 }
 
