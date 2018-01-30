@@ -4,8 +4,8 @@
 <div class="background security-background">
 	<div class="container">
 		<div class="col-md-6 topheader">
-			<h1><?php echo $l->t('Secure sharing');?></h1>
-			<h2><?php echo $l->t('Protect your Intellectual Property with Nextcloud');?></h2>
+			<h1>Secure file exchange</h1>
+			<h2>Keep your IT compliant with Nextcloud</h2>
 		</div>
 	</div>
 </div>
@@ -13,7 +13,7 @@
 <div class="container">
 	<div class="row revealOnScroll">
 		<div class="col-md-8 col-md-offset-2">
-			<p class="section--paragraph text-center">A recent Forrester report notes that unsecured and uncontrolled sharing of data opens the door to loss of version control, auditability, and control over innovative IP.</p>
+			<p class="section--paragraph text-center">A recent Forrester report notes that unsecured and uncontrolled sharing of data opens the door to loss of version control, auditability, and control over innovative IP, creating business and legal risks.</p>
 		</div>
 	</div>
 	<div class="row revealOnScroll">
@@ -25,7 +25,7 @@
 <section>
 <div class="container">
 	<div class="row revealOnScroll">
-        <p class="section--paragraph">Forrester urges senior corporate management and IT professionals to shift away from ad-hoc solutions like email, outdated technologies like FTP or customer-grade file sync and share like Dropbox. Key requirements they identify for a solution include:
+        <p class="section--paragraph">Forrester urges senior corporate management and IT professionals to shift away from ad-hoc solutions like email, outdated technologies like FTP or customer-grade file sync and share like Dropbox or Google Drive. Key requirements they identify for a solution include:
         <ul>
             <li>Enterprise-grade security, with governance and policies to protect valuable content and code</li>
             <li>Ease of use, working in familiar apps such as email to avoid disruption and adoption challenges</li>
@@ -40,10 +40,10 @@
     <div class="container">
     <div class="row revealOnScroll">
         <div class="col-md-6">
-            <h3>Concerns about new technologies</h3>
-            <p class="section--paragraph">A key concern cited by 72% of the respondents is the creation of new content silos. Having to migrate data and manage it in a new location, the goals of simplifying work flows while strengthening governance will not be achieved.</p>
             <h3>Current 'solution': email</h3>
-            <p class="section--paragraph">Over half of the teams managed by respondents is reported to use public, consumer grade file sharing services and email to share code, patches and other intellectual property within the organization as well as with customers. Forrester notes that these solutions neither protect intellectual property and competitive advantage but also offer little control or rights management, nor audit and tracking controls.
+            <p class="section--paragraph">Over half of the teams managed by respondents is reported to use public, consumer grade file sharing services and email to share code, patches and other intellectual property within the organization as well as with customers. Forrester notes that these solutions neither protect intellectual property and competitive advantage but also offer little control or rights management, nor audit and tracking controls.</p>
+            <h3>Concerns about new technologies</h3>
+            <p class="section--paragraph">But introducing a new technology can be disruptive. A key concern cited by 72% of the respondents is the creation of new content silos. Having to migrate data and manage it in a new location, the goals of simplifying work flows while strengthening governance will not be achieved.</p>
         </div>
         <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/email.jpeg">
         <img class="small-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/email-small.jpeg">
@@ -51,25 +51,60 @@
     </div>
 </div>
 </section>
-<section>
+<section class="section--solution">
 <div class="container">
 	<div class="row revealOnScroll">
-        <div class="col-md-3 revealOnScroll image--feature">
+        <div class="col-md-4 revealOnScroll image--feature">
             <img class="img-responsive acess__anywhere" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/access-anywhere.png" alt="access on any device" >
         </div>
-        <div class="col-md-9">
+        <div class="col-md-8">
             <h2>Real solutions</h2>
             <p class="section--paragraph">By providing businesses a <a class="hyperlink" href="https://nextcloud.com/?p=1886">self hosted</a> file access, sync and share solution with powerful integration in existing infrastructure and storage solutions, Nextcloud makes data available to users wherever it is. No need for new storage solutions or moving all data over. Easy integration and quick deployment brings organizations immediately in a compliant, secure state.</p>
-            <p class="section--paragraph">Its familiar, easy to use interface on web, mobile and desktop allows users to work efficiently and be confident everybody has access to the same, latest version of data. Its enterprise capabilities ensure IT maintains <a class="hyperlink" href="/workflow">full control</a> over sharing, retention and availability of data within and across the boundaries of the organization. Learn more about <a class="hyperlink" href="/features">Nextcloud's features here.</a></p>
+            <p class="section--paragraph">Its familiar, easy to use interface on web, mobile and desktop allows users to work efficiently and be confident everybody has access to the same, latest version of data. Its enterprise capabilities ensure IT maintains <a class="hyperlink" href="/workflow">full control</a> over sharing, retention and availability of data within and across the boundaries of the organization. Learn more technical details about <a class="hyperlink" href="/files">Nextcloud Files here.</a></p>
 		</div>
     </div>
 </div>
 </section>
+
+<section class="section--benefits">
+<div class="container-fluid quote">
+    <div class="container">
+        <h2 class="text-center revealOnScroll">Key benefits</h2>
+        <div class="row">
+            <div class="col-md-4 revealOnScroll">
+                <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
+                <p class="section--paragraph__tittle text-center">Why self-hosting?</p>
+                <p class="section--paragraph text-center">Simply keeping your data behind your company firewall rather than the cloud makes compliance and security so much easier.</p>
+                <p class="section--paragraph text-center">With Nextcloud, you don't lose the benefits of modern cloud technology!</p>
+            </div>
+            <div class="col-md-4 revealOnScroll">
+                <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
+                <p class="section--paragraph__tittle text-center">Why file sync and share?</p>
+                <p class="section--paragraph text-center">Your FTP or Windows Network Drive simply don't suffice - employees work around, rather than with them, using Dropbox and other unsafe solutions.</p>
+                <p class="section--paragraph text-center">Nextcloud puts your IT back in control over your data.</p>
+            </div>
+            <div class="col-md-4 revealOnScroll">
+                <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/tools.svg" /></div>
+                <p class="section--paragraph__tittle text-center">Why Nextcloud?</p>
+                <p class="section--paragraph text-center">Nextcloud provides an unique combination of security and control over data without compromising usability.</p>
+                <p class="section--paragraph text-center">Being open source means no vendor lock in and an unprecedented degree of integration in enterprise infrastructure.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 revealOnScroll">
+                <p class="section--paragraph__tittle text-center">Fast deployment: secure your data <strong>now</strong></p>
+                <p class="section--paragraph text-center">Nextcloud is famously easy to deploy and easy to use, a key reason behind its market leadership.</p>
+            </div>
+        </div>
+	</div>
+</div>
+</section>
+
 <section>
 <div class="container">
     <div class="row revealOnScroll">
         <div class="col-md-12">
-            <h3>Wherever it is</h3>
+            <h3>No new data silos</h3>
             <p class="section--paragraph">Modern organizations have data in a wide variety of silos like Sharepoint, Windows Network Drives, FTP sites and (often without knowledge of management) Dropbox or Google Drive. Nextcloud acts as a <a class="hyperlink" href="/storage">single file access, sync and share layer</a> across all these storage systems, integrating with enterprise native account handling like LDAP or SAML.</p>
 		</div>
     </div>
@@ -119,9 +154,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
-				<p class="text-center"><?php echo $l->t('Contact us to learn how we can help you secure corporate data.');?></p>
+				<p class="text-center">Contact us to learn how we can help you secure corporate data.</p>
 				<div class="text-center morebuttondiv">
-					<a href="/buy" class="button button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="/buy" class="button button--large button--arrow">Contact us <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>

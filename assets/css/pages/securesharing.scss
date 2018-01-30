@@ -15,97 +15,6 @@
 
 /* All headers */
 
-.featureblock {
-    padding: 140px 0;
-    //padding-top: 140px;
-
-    &--has-separator {
-        border-top: 1px solid #E8E8E8;
-    }
-
-    .img-responsive {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 36px;
-        margin-bottom: 17px;
-    }
-
-    .features--container {
-        padding-top: 100px;
-        display: inline-block;
-
-        .section--paragraph {
-            padding-bottom: 10px;
-        }
-
-        .feature {
-            padding: 15px 0;
-
-            .icon {
-                margin-bottom: 30px;
-            }
-
-            .section--paragraph {
-                padding-bottom: 10px;
-                padding-top: 20px;
-            }
-        }
-    }
-    .image--floated{
-        float: right;
-    }
-
-    .screenshot {
-        margin-top: 160px;
-        margin-bottom: 20px;
-        border: solid 1px transparent;
-        border-radius: 0px;
-        border: solid 1px #fbfbfb;
-        -webkit-box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.04);
-        box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.04);
-
-        &:hover{
-            -webkit-box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
-            box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
-            border: solid 1px #fbfbfb;
-            border-radius: 0px;
-            -webkit-transition: all 0.5s ease;
-            transition: all 0.5s ease;
-        }
-    }
-
-    @media  (max-width: $break-small) {
-        .screenshot {
-            margin-top: 0;
-            margin-bottom: 15px;
-        }
-    }
-
-    h2 {
-        color: #2a2a36;
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
-
-    h3 {
-        text-align: left;
-        font-size: 30px;
-    }
-}
-
-
-/* security badges */
-
-
-.security-badge {
-    text-align: center;
-    /* 	display: inline-block; */
-    img {
-        height: 140px;
-        padding: 5px;
-    }
-
-}
 
 section {
 	margin-top: 70px;
@@ -154,7 +63,7 @@ section {
 
         .big-img {
             position: absolute;
-            max-width: 70%;
+/*             max-width: 170%; */
             height: 100%;
             /*         top: 60px; */
             margin-left: 30px;
@@ -164,12 +73,12 @@ section {
             height: 100%;
             margin-left: 30px;
         }
-        @media (max-width: $very-wide) {
+        @media (max-width: $break-big) {
             .big-img {
                 display: none;
             }
         }
-        @media (min-width: $very-wide) {
+        @media (min-width: $break-big) {
             .small-img {
                 display: none;
             }
@@ -177,4 +86,22 @@ section {
     }
 }
 
+.section--solution {
+    .acess__anywhere {
+        margin: 100px 50px 50px 50px;
+        max-width: 80%;
+        height: auto;
+        max-height: 300px;
+    }
+}
+
+.section--benefits {
+    p {
+        padding-top: 10px;
+    }
+    .row {
+        padding-top: 30px;
+    }
+
+}
 
