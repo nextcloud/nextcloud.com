@@ -45,36 +45,47 @@
 		</div>
 		<div class="col-md-6 revealOnScroll feature--block">
 			<p class="section--paragraph"><?php echo $l->t('Any file you add, modify or delete in the synced folders on your desktop or laptop will show up, change or disappear on the server and all other connected devices.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Sync one or more folders locally with folders on the server and pick what folders you don\t need.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Right-click a file in your file manager and easily share it with other users, a public link or by email.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Get notified of activities and events, like an incoming call, a comment on a file or a new folder that is shared with you.');?></p>
 			<a href="<?php echo home_url('install/#install-clients') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Get the desktop client');?></a>
 		</div>
 	</div>
-	<div class="row">
-        <p class="section--paragraph__tittle text-center"><?php echo $l->t('Key features:');?></p>
-        <div class="col-md-6">
-			<p class="section--paragraph"><?php echo $l->t('<ul>
-            <li>Select any number of local folders to keep in sync with specified remote folders</li>
-            <li>Exempt any number of subfolders in a synced folder from being synced</li>
-            <li>Optional warning in case a very big new subfolder was added</li>
-            <li>Easily pause and resume syncing</li>
-			<li>Receive notifications of server events like a new share or audio/video call</li>
-			</ul>');?></p>
+</section>
+<section class="section--desktop-features">
+<div class="container-fluid quote">
+    <div class="container">
+        <h2 class="text-center revealOnScroll"><?php echo $l->t('desktop client features');?></h2>
+        <div class="row">
+            <div class="col-sm-4 revealOnScroll">
+                <p class="section--paragraph"><ul>
+                <li><?php echo $l->t('Select any number of local folders to keep in sync with specified remote folders');?></li>
+                <li><?php echo $l->t('Exempt any number of subfolders in a synced folder from being synced');?></li>
+                <li><?php echo $l->t('Optional warning in case a very big new subfolder was added');?></li>
+                <li><?php echo $l->t('Easily pause and resume syncing');?></li>
+                </ul></p>
+            </div>
+            <div class="col-sm-4 revealOnScroll">
+                <p class="section--paragraph"><ul>
+                <li><?php echo $l->t('Receive notifications of server events like a new share or audio/video call');?></li>
+                <li><?php echo $l->t('Use the activity feed to track what happens on the server');?></li>
+                <li><?php echo $l->t('Protect your files with client side,');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('End-to-end encryption</a> (version >2.4)');?></li>
+                </ul></p>
+            </div>
+            <div class="col-sm-4 revealOnScroll">
+                <p class="section--paragraph"><ul>
+                <li><?php echo $l->t('Easily configure a proxy or set bandwidth throttling');?></li>
+                <li><?php echo $l->t('Enjoy convenient file manager integration for easy sharing');?></li>
+                <li><?php echo $l->t('Branding support for ');?><a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise customers');?></a></li>
+                <li><?php echo $l->t('Set up multiple accounts');?></li>
+                </ul></p>
+            </div>
         </div>
-        <div class="col-md-6">
-			<p class="section--paragraph"><?php echo $l->t('<ul>
-			<li>Use the activity feed to track what happens on the server</li>
-            <li>Protect your files with client side, <a class="hyperlink" href="/endtoend">End-to-end encryption</a> (version >2.4)</li>
-			<li>Set up multiple accounts</li>
-            <li>Easily configure a proxy or set bandwidth throttling</li>
-			<li>Enjoy convenient file manager integration for easy sharing</li>
-			<li>Branding support for <a class="hyperlink" href="/enterprise">enterprise customers</a></li>
-			</ul>');?></p>
-        </div>
-	</div>
+    </div>
 </div>
 </section>
 
 <section class="section--mobile">
-	<a name="hosting" id="hosting"></a>
 	<div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 revealOnScroll feature--block">
@@ -82,6 +93,24 @@
                 <p class="section--paragraph text-center"><?php echo $l->t('With the Nextcloud clients for Android and iOS you can sync, edit and share your files in a fully secure way through an encrypted connection.');?></p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm-3 col-xs-6 revealOnScroll">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/iPhoneX.png" alt="in action" >
+            </div>
+            <div class="col-sm-3 col-xs-6 revealOnScroll">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/iPhone2.png" alt="in action" >
+            </div>
+            <div class="col-sm-3 col-xs-6 revealOnScroll">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/android.png" alt="in action" >
+            </div>
+            <div class="col-sm-3 col-xs-6 revealOnScroll">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/android2.png" alt="in action" >
+            </div>
+        </div>
+</section>
+
+<section class="section--ios">
+	<div class="container">
         <div class="row">
             <div class="col-md-6 revealOnScroll image--floated">
                 <div data-type="youtube" data-video-id="5yFKZze6TqM"></div>
@@ -98,32 +127,45 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+<section class="section--ios-features">
+<div class="container-fluid quote">
+    <div class="container">
+        <h2 class="text-center revealOnScroll"><?php echo $l->t('iOS client features');?></h2>
         <div class="row">
-            <div class="col-md-4 revealOnScroll image--floated">
-                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/iPhoneX.png" alt="in action" >
+            <div class="col-sm-4 revealOnScroll">
+                <p class="section--paragraph"><ul>
+                <li><?php echo $l->t('Display documents, photos, videos, audio files, as a list or thumbnails, sorted as you like.');?></li>
+                <li><?php echo $l->t('Edit files on the phone built in or using other apps installed on your iPhone or iPad.');?></li>
+                <li><?php echo $l->t('Add, rename, copy, move and delete files and folders');?></li>
+                <li><?php echo $l->t('Keep your favorite files available offline');?></li>
+                </ul></p>
             </div>
-            <div class="col-md-8 revealOnScroll feature--block">
-                <p class="section--paragraph"><?php echo $l->t('The iOS client has the following key features:
-                <li>Display documents, photos, videos, audio files, as a list or thumbnails, sorted as you like.</li>
-                <li>Edit files on the phone built in or using other apps installed on your iPhone or iPad.</li>
-                <li>Add, rename, copy, move and delete files and folders</li>
-                <li>Keep your favorite files available offline</li>
-                <li>Share files with others</li>
-                <li>Client-side, <a class="hyperlink" href="/endtoend">End-to-end encryption</a> (version >2.20)</li>
-                <li>Local and server-side search</li>
-                <li>Support for server notifications and file activity feed</li>
-                <li>3D Touch peek&pop and homescreen quick actions</li>
-                <li>Multi-account support</li>
-                <li>Adjusts to Nextcloud server theming preferences</li>
-                <li>Auto-upload of photos and videos with:
-                <ul>
-                <li>optional automatic folder categorization based on date taken</li>
-                <li>Optional wifi-only upload</li>
-                <li>Custom file naming</li>
-                <li>Choose between JPG and HEIC for photo uploads</li>
-                </ul></li>');?></p>
+            <div class="col-sm-4 revealOnScroll">
+                <p class="section--paragraph"><ul>
+                <li><?php echo $l->t('Share files with others');?></li>
+                <li><?php echo $l->t('Client-side,');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('End-to-end encryption');?></a></li>
+                <li><?php echo $l->t('Local and server-side search');?></li>
+                <li><?php echo $l->t('Support for server notifications and file activity feed');?></li>
+                <li><?php echo $l->t('3D Touch peek&pop and homescreen quick actions');?></li>
+                </ul></p>
+            </div>
+            <div class="col-sm-4 revealOnScroll">
+                <p class="section--paragraph"><ul>
+                <li><?php echo $l->t('Multi-account support');?></li>
+                <li><?php echo $l->t('Adjusts to Nextcloud server theming preferences');?></li>
+                <li><?php echo $l->t('Auto-upload of photos and videos with custom file naming and folder sorting, wifi-only upload and HEIC support');?></li>
+                </ul></p>
             </div>
         </div>
+    </div>
+</div>
+</section>
+
+<section class="section--android">
+	<div class="container">
         <div class="row">
             <div class="col-md-6 revealOnScroll image--floated">
                 <div data-type="youtube" data-video-id="https://youtu.be/4oY7R14Ydno"></div>
@@ -143,37 +185,47 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+<section class="section--android-features">
+<div class="container-fluid quote">
+    <div class="container">
+        <h2 class="text-center revealOnScroll"><?php echo $l->t('Android app features');?></h2>
         <div class="row">
-            <div class="col-md-4 revealOnScroll image--floated">
-                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/android.png" alt="in action" >
+            <div class="col-sm-4 revealOnScroll">
+                <p class="section--paragraph"><ul>
+                <li><?php echo $l->t('Display documents, photos, videos, audio files, as a list or thumbnails, sorted as you like.');?></li>
+                <li><?php echo $l->t('Edit files on the phone built in or using other apps installed on your Android device.');?></li>
+                <li><?php echo $l->t('Add, rename, copy, move and delete files and folders');?></li>
+                <li><?php echo $l->t('Keep your favorite files available offline');?></li>
+                </ul></p>
             </div>
-            <div class="col-md-8 revealOnScroll feature--block">
-                <p class="section--paragraph"><?php echo $l->t('The Android client has the following features:
-                <li>Display documents, photos, videos, audio files, as a list or thumbnails, sorted as you like.</li>
-                <li>Edit files on the phone built in or using other apps installed on your Android device.</li>
-                <li>Add, rename, copy, move and delete files and folders</li>
-                <li>Keep your favorite files available offline</li>
-                <li>Share files with others</li>
-                <li>Shared files view</li>
-                <li>Simple contacts backup & restore</li>
-                <li>Auto-configuration of Contacts and Calendar integration through DAVDroid</li>
-                <li>Client-side, <a class="hyperlink" href="/endtoend">End-to-end encryption</a> (version >2.1)</li>
-                <li>Local and server-side search</li>
-                <li>Support for server push notifications and file activity feed</li>
-                <li>Multi-account support</li>
-                <li>Fingerprint locking</li>
-                <li>Adjusts to Nextcloud server theming preferences</li>
-                <li>Auto-upload of photos and videos with:
-                <ul>
-                <li>optional automatic folder categorization based on date taken</li>
-                <li>Handle videos and photos differently</li>
-                <li>Optional wifi-only and/or charging-only upload</li>
-                <li>Choice between the folders on your device so you can also upload images from other apps like Whatsapp</li>
-                </ul></li>');?></p>
+            <div class="col-sm-4 revealOnScroll">
+                <p class="section--paragraph"><ul>
+                <li><?php echo $l->t('Share files with others');?></li>
+                <li><?php echo $l->t('Shared files view');?></li>
+                <li><?php echo $l->t('Simple contacts backup & restore');?></li>
+                <li><?php echo $l->t('Auto-configuration of Contacts and Calendar integration through DAVDroid');?></li>
+                <li><?php echo $l->t('Client-side,');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('End-to-end encryption');?></a></li>
+                <li><?php echo $l->t('Support for server push notifications and file activity feed');?></li>
+                </ul></p>
+            </div>
+            <div class="col-sm-4 revealOnScroll">
+                <p class="section--paragraph"><ul>
+                <li><?php echo $l->t('Local and server-side search');?></li>
+                <li><?php echo $l->t('Multi-account support');?></li>
+                <li><?php echo $l->t('Fingerprint locking');?></li>
+                <li><?php echo $l->t('Adjusts to Nextcloud server theming preferences');?></li>
+                <li><?php echo $l->t('Auto-upload of photos and videos with custom file naming and folder sorting, wifi-only upload, differential handling of photos and videos');?></li>
+                <li><?php echo $l->t('monitor any number of folders so you can upload Whatsapp etc images');?></li>
+                </ul></p>
             </div>
         </div>
     </div>
+</div>
 </section>
+
 
 <section class="section--intro">
 	<div class="container">

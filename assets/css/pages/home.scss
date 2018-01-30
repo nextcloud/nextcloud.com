@@ -348,7 +348,7 @@
         padding-right: 10px;
         .customer-logo {
 
-            /*-webkit-filter: grayscale(100%);*/
+            -webkit-filter: saturate(0%) contrast(.35) brightness(130%);
             filter: saturate(0%) contrast(.35) brightness(130%);
 
             max-width: 250px;
@@ -360,6 +360,8 @@
 /*             width: 100%; */
             margin-left: auto;
             margin-right: auto;
+            padding-left: 10px;
+            padding-right: 10px;
             vertical-align: middle;
 /*            img {
                 max-width: 90%;
