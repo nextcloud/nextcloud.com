@@ -33,6 +33,12 @@
 		</div>
 		<div class="row">
 			<div class="col-md-4">
+				<a href="https://a4com.nl" target="_blank" title="A4Com">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/a4com.png" title="A4Com" />
+				</a>
+				<p class="partnertext">A4Com is a Dutch consulting firm. We are a solution provider for a wide array of strategic challenges and problems, in which new technology plays a significant role. We offer Nextcloud because we strongly believe a company should ensure the protection of data, IP and privacy of their clients.</p>
+			</div>
+			<div class="col-md-4">
 				<a href="https://adfinis-sygroup.ch/en" target="_blank" title="Adfinis SyGroup">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/adfinis.png" title="Adfinis SyGroup" />
 				</a>
@@ -43,23 +49,32 @@
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/arawa.png" title="Arawa.fr" />
 				</a>
 				<p class="partnertext">Arawa is a French IT company specialized in open source office and collaborative software. Arawa helps organizations to develop document collaboration while keeping control of their data. Arawa's large range of services, including setup, development, support and change management, is used to tailor projects to the specific needs of each organization.<br>
-				Visit www.arawa.fr or follow @Arawa_fr on Twitter. <a href="https://www.arawa.fr">arawa.fr</a> or follow <a href="https://twitter.com/arawa_fr">@Arawa_fr</a> on Twitter.</p>
+				Visit <a href="https://www.arawa.fr">arawa.fr</a> or follow <a href="https://twitter.com/arawa_fr">@Arawa_fr</a> on Twitter.</p>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.arcadis.com" target="_blank" title="Arcadis consulting">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/arcadis.png" title="Arcadis consulting" />
 				</a>
 				<p class="partnertext">Arcadis is part of the Spreedbox network in Australia, delivering the Nextcloud based Spreedboxes with services and support. Learn more on <a href="https://spreedbox.me">spreedbox.me</a></p>
 			</div>
-		</div>
-
-		<div class="row">
+			<div class="col-md-4">
+				<a href="https://certilience.fr" target="_blank" title="Certilience">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/certilience.png" title="Certilience" />
+				</a>
+				<p class="partnertext">Founded in 2008, Certilience is an independent Computer Security Agency that supports clients by providing both aggressive and defensive cybersecurity solutions, and works along the following three main areas: Security Audits: mock hacking, internal / external system penetration tests; Consulting, System Engineering and Integration; Info-management: subcontract security equipment management. </p>
+			</div>
 			<div class="col-md-4">
 				<a href="https://www.dass-it.de/" target="_blank" title="Dass IT">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/dassit.png" title="Dass IT" />
 				</a>
 				<p  class="partnertext">dass IT GmbH in Cologne , founded in 2004 by former senior consultants of Suse Linux, is primarily a system integrator, offering support and consulting around Linux and Open Source Software. As a long-standing owncloud partner dass IT can help you migrate from ownCloud to Nextcloud or to build a private cloud from scratch.</p>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.daseq.de/produkte/nextcloud/" target="_blank" title="DASEQ">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/daseq.png" title="DASEQ" />
@@ -72,15 +87,15 @@
 				</a>
 				<p  class="partnertext">ETES GmbH is an IT company from Stuttgart with a focus on Linux and Open Source, offering numerous IT services from advice to implementation, maintenance and support. The servers are hosted in Germany which guarantees industry standards concerning security (aligned to ISO 27001).</p>
 			</div>
-		</div>
-
-		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.hkn.de/nextcloud-server.php" target="_blank" title="HKN">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/hkn.png" title="HKN logo" />
 				</a>
 				<p  class="partnertext">HKN has been making the internet easier for its customers since 1996. We are a specialist for fully managed Servers hosted in Germany with German privacy protection.</p>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="https://360ict.nl/" target="_blank" title="360ICT">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/360ict.png" title="360ICT logo" />
@@ -93,14 +108,20 @@
 				</a>
 				<p  class="partnertext">Founded in 2006 IT25 GmbH provides solutions for collaboration and exchange of information with a strong focus on supporting customers to install, integrate and safely operate on-premises and cloud based systems.</p>
 			</div>
-		</div>
-
-		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.netcloud.ch/" target="_blank" title="Netcloud AG">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/netcloud.png" title="netcloud logo" />
 				</a>
 				<p  class="partnertext">Netcloud AG is a Winterthur (Zurich)-based company with 130 employees. Core competencies include consulting, designing, implementing and operating IT infrastructure solutions around Cisco technology, borderless networks, data-center and unified communications solutions.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4">
+				<a href="https://www.omnis-systems.com/en/nextcloud/general-information" target="_blank" title="Omnis Systems">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/omnis.png" title="Omnis Systems" />
+				</a>
+				<p class="partnertext">Omnis Systems Ltd is a Value Added Distributor specialised in promoting a range of complementary enterprise grade and commercially backed Open Source and Linux based solutions.<br> We support partners that want to differentiate themselves by delivering platforms made to increase productivity, security and control on data while providing ease of use and integration.</p>
 			</div>
 			<div class="col-md-4">
 				<a href="http://open-dsi.fr/" target="_blank" title="Open-DSI">
