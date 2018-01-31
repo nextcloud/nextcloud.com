@@ -1107,5 +1107,18 @@
             "We offer public and private cloud storage to protect your most valuable assets. We shield your information."
          ],
          "imagename":"net4cloud.png"
+      },
+    {
+         "title":"Cloudhosting.Space",
+         "url":"https:\/\//cloudhosting.space",
+         "flags":[
+            "au"
+         ],
+         "freeplans":false,
+         "supports":"organization",
+         "specializes":[
+            "CLOUDHOSTING.SPACE dedicated cloud storage servers are located in Australia and come with automatic server backups and unlimited user accounts."
+         ],
+         "imagename":"cloudhostingspace.png"
       }
 ]
