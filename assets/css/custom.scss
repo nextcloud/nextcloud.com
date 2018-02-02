@@ -1076,10 +1076,10 @@ blockquote {
 
 /* Whitepaper sections */
 .section--whitepaper, .whitepaper {
-	padding: 0px;
+    padding: 0;
 	.container {
-		padding-top: 80px;
-		padding-bottom: 80px;
+        padding-top: 80px;
+        padding-bottom: 80px;
 		position: relative;
 	}
 
@@ -1103,12 +1103,6 @@ blockquote {
 	}
 
 
-	img {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 350px;
-	}
 
 	.button {
 		height: 40px;
@@ -1142,12 +1136,21 @@ blockquote {
         display: inline-block !important;
     }
 
+	img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 350px;
+	}
+
 	@media (max-width: $navbar-breaksize) {
 		img {
 			position: relative;
 			width: 30vw;
 			height: auto;
 			margin-left: 30vw;
+            margin-top: 35px;
+            margin-bottom: -80px;
 		}
 		.col-lg-8 {
 			text-align: center;
@@ -1159,7 +1162,9 @@ blockquote {
 			width: 50vw;
 			height: auto;
 			margin-left: 20vw;
-		}
+            margin-top: 35px;
+            margin-bottom: -80px;
+        }
 		.mail {
 			width: 100%;
 			max-width: 400px;
