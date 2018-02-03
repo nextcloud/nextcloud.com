@@ -13,3 +13,44 @@
     transform: translate(-50%, -50%);
   }
 }
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+
+  .tab {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(1140px / 3);
+    padding: 40px;
+    cursor: pointer;
+
+    &--active {
+      border-top: 1px solid #f1f1f1;
+      border-left: 1px solid #f1f1f1;
+      border-right: 1px solid #f1f1f1;
+      z-index: 2;
+      background: white;
+    }
+
+    &--title {
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #000000;
+    }
+
+    &--description {
+      font-size: 14px;
+    }
+  }
+}
+
+.tab-section {
+  outline: 1px solid #f1f1f1;
+
+  &__copy {
+    text-align: center;
+  }
+}

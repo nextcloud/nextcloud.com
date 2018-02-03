@@ -11,4 +11,33 @@
     left: 50%;
     transform: translate(-50%, -50%); }
 
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px; }
+  .tabs .tab {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(1140px / 3);
+    padding: 40px;
+    cursor: pointer; }
+    .tabs .tab--active {
+      border-top: 1px solid #f1f1f1;
+      border-left: 1px solid #f1f1f1;
+      border-right: 1px solid #f1f1f1;
+      z-index: 2;
+      background: white; }
+    .tabs .tab--title {
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #000000; }
+    .tabs .tab--description {
+      font-size: 14px; }
+
+.tab-section {
+  outline: 1px solid #f1f1f1; }
+  .tab-section__copy {
+    text-align: center; }
+
 /*# sourceMappingURL=install.css.map */
