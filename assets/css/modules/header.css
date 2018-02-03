@@ -198,9 +198,28 @@ nav a {
             white-space: nowrap; }
             .nav .container .nav__sections .nav__section .nav__links .nav__item a {
               display: block;
-              padding: 5px 10px 0 10px;
+              padding: 5px 10px 0 0px;
               font-size: 16px;
               color: #555; }
+              .nav .container .nav__sections .nav__section .nav__links .nav__item a .nav__logo {
+                width: 45px;
+                min-height: 15px;
+                float: left;
+                vertical-align: middle; }
+                .nav .container .nav__sections .nav__section .nav__links .nav__item a .nav__logo img {
+                  margin-top: 5px;
+                  padding: 10px 8px 0 0;
+                  height: 40px;
+                  width: 40px; }
+              .nav .container .nav__sections .nav__section .nav__links .nav__item a .nav__text {
+                line-height: 1;
+                padding: 10px 30px 10px 0; }
+                .nav .container .nav__sections .nav__section .nav__links .nav__item a .nav__text strong {
+                  line-height: 1.2;
+                  font-weight: normal;
+                  font-size: 18px; }
+                .nav .container .nav__sections .nav__section .nav__links .nav__item a .nav__text small {
+                  opacity: 0.8; }
               .nav .container .nav__sections .nav__section .nav__links .nav__item a:hover {
                 opacity: 0.6;
                 text-decoration: none; }

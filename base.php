@@ -56,7 +56,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'hackathon',
 		'history',
 		'impressum',
-		'install',
+/*		'install',*/
 		'install-backup',
 		'meetups',
 		'news',

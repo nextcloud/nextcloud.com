@@ -1,0 +1,14 @@
+.hero {
+  height: 100vw;
+  max-height: 600px;
+  width: 100%;
+  position: relative;
+  display: block; }
+  .hero__copy {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+/*# sourceMappingURL=install.css.map */
