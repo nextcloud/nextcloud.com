@@ -12,9 +12,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/introducing-a-full-self-hosted-audiovideo-and-chat-communication-platform-nextcloud-talk">
+				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-13-brings-secure-file-sync-and-collaboration-to-the-next-level">
 				<span class="type">News</span>
-				<span class="message"><strong>Introducing Nextcloud Talk</strong> A full self-hosted mobile/web conferencing and chat platform.</span>
+				<span class="message"><strong>Nextcloud 13 out</strong>:the best gets even better!</span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Nextcloud - Protecting your data');?></h1>
@@ -187,7 +187,8 @@
 </section>
 
 <section class="slideshow" id="slideshow">
-    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 12');?></h2>
+    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('
+    Nextcloud 12');?></h2>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
 		<li class="btn_carousel"><a href="#feature-1"></a></li>
