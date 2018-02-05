@@ -19,6 +19,84 @@ SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5
 SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.tar.bz2.sha512">nextcloud-12.0.5.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.zip.sha512">nextcloud-12.0.5.zip.sha512</a></br>
 PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.tar.bz2.asc">nextcloud-12.0.5.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.zip.asc">nextcloud-12.0.5.zip.asc</a></p>
 
+
+
+
+
+
+
+
+
+
+<h3 id="13-0-0">Version 13.0.0 <small>February 5 2018</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.0.tar.bz2">nextcloud-13.0.0.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.0.zip">nextcloud-13.0.0.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.0.tar.bz2.md5">nextcloud-13.0.0.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.0.zip.md5">nextcloud-13.0.0.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.0.tar.bz2.sha256">nextcloud-13.0.0.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.0.zip.sha256">nextcloud-13.0.0.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.0.tar.bz2.sha512">nextcloud-13.0.0.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.0.zip.sha512">nextcloud-13.0.0.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.0.tar.bz2.asc">nextcloud-13.0.0.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.0.zip.asc">nextcloud-13.0.0.zip.asc</a></p>
+
+<h4>Changes</h4>
+<p>Over X changes were merged in the server, with many hundreds more in existing or new apps. The main improvements include:</p>
+<ul>
+	<li>Collaboration features
+	<ul>
+		<li></li>
+        <li>auto-completion of user names in comments and notification to the mentioned user</li>
+		<li>videocall app integration with screensharing</li>
+		<li>federated activities</li>
+		<li>writable public share link allowing you to share and collaborate immediately</li>
+		<li>compatibility for user-centric group management with the Circles app</li>
+        <li>social sharing (Twitter, G+, Facebook, Diaspora)</li>
+		<li>XMPP chat improvements (file transfers, chat status notifications, message archive management) </li>
+	</ul></li>
+    
+	<li>End-to-End Encryption
+	<ul>
+		<li>can encrypt data on a per-folder level rather than all-or-nothing approach</li>
+		<li>does not require users to remember or exchange passwords</li>
+		<li>does not require re-uploading data upon sharing</li>
+        <li>features an optional off-line administrator recovery key</li>
+        <li>allows full audit logging</li>
+        <li>can be combined with our File Access Control feature so administrator can enforce aspects of End-to-end Encryption</li>
+        <li>protects from identity theft with our Cryptographic Identity Protection feature</li>
+	</ul></li>
+    
+    	<li>User Interface
+	<ul>
+		<li>new way of selecting files</li>
+        <li>easy way to quickly copy or move to a location</li>
+		<li>High DPI support</li>
+		<li>admin menu integrated in one list</li>
+		<li>no limitation to file uploads via the web interface</li>
+		<li>user quota in the side bar</li>
+        <li>social sharing (Twitter, G+, Facebook, Diaspora) now features a preview</li>
+		<li>improved theming</li>
+	</ul></li>
+	
+    <li>Performance
+	<ul>
+		<li>decreased page load times with up to 50% and faster search</li>
+		<li>80% faster LDAP and up to 10x faster external storage</li>
+        <li>Server-side Encryption performance largely improved</li>
+	</ul></li>
+
+
+</ul>
+
+<p><a href="https://nextcloud.com/blog/nextcloud-13-brings-secure-file-sync-and-collaboration-to-the-next-level/">Release announcement with overview about features and changes</a></p>
+<p><a href="https://github.com/nextcloud/server/milestone/10?closed=1">See a full list of integrated pull requests here.</a></p>
+
+
+
+
+
+
+
+
+
+
+
 <h4>Changes</h4>
 Many fixes were merged, the most important ones include:
 <ul>
