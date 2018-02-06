@@ -4,6 +4,7 @@
 <!-- <a href="/nine" class="btn btn-lg btn-default">Overview of new features</a> -->
 <h2>Press releases</h2>
 <ul>
+    <li><a href="/press/pr20180206">February 6, 2018: Self-Hosted Nextcloud 13 Brings End-to-end Encryption, Video/Text Chat and Enhanced Collaboration host of performance and collaboration improvements transform working online</a></li>
     <li><a href="/press/pr20180123">January 23, 2018: Nextcloud secure file sync and share now available via GEANT and NRENs to educational market</a></li>
     <li><a href="/press/pr20180111-2">January 11, 2018: Nextcloud achieves stellar growth in 2017 amid increasing awareness of compliance, control and data security among businesses</a></li>
     <li><a href="/press/pr20180111">January 11, 2018: Nextcloud Talk provides fully self-hosted, complete audio/video and text communication platform</a></li>
