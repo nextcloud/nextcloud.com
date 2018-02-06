@@ -187,7 +187,7 @@
 </section>
 
 <section class="slideshow" id="slideshow">
-    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 12');?></h2>
+    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 13');?></h2>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
 		<li class="btn_carousel"><a href="#feature-1"></a></li>
@@ -200,45 +200,45 @@
         	<div class="container-image-center" id="imageTrigger">
 	            <img class="image-back" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-10.png">
 	            <div class="image-top-container">
-	            	<img class="img-responsive image-top image__desktop" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_12.jpg">
-	            	<img class="img-responsive image-top image__mobile" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_mobile_12.jpg">
+	            	<img class="img-responsive image-top image__desktop" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_13.jpg">
+	            	<img class="img-responsive image-top image__mobile" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_mobile_13.jpg">
 	            </div>
             </div>
         </div>
         <div class="texts-wrapper col-md-6">
 	        <div class="right-text-grey" data-slide="1">
 	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('The Next Generation of Secure Collaboration');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 12 redefines Enterprise File Sync and Share, bringing it to the next level with built in collaboration and communication capabilities. Working together was never easier!');?></p>
+	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 13 delivers next-gen security with a tech preview of our ground breaking End-to-end Encryption in the clients for the ultimate protection of your data.');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="https://nextcloud.com/blog/welcome-to-nextcloud-12/" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="btn-primary" href="https://nextcloud.com/blog/encryption-in-nextcloud/" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
 	         <div class="right-text-grey" data-slide="2">
-	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('Collaboration and sharing');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('This release has its focus around working together with others. We improved navigation and file handling, especially sharing. You can sent multiple public links and contact others quickly. With the Guest app you can create guest accounts and the Circles app lets you make custom groups of your contacts. We also published an updated version of our Chat app');?></p>
+	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('Collaboration and communication');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 13 optimizes your workflow, making collaboration with colleagues seamless. Mention others in comments, start a chat or video call with one click or find your files with our improved full-text search.');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="https://nextcloud.com/blog/nextcloud-12-redefining-file-sync-and-share-with-collaboration-and-communication" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="btn-primary" href="https://www.youtube.com/watch?v=Yoks3XS4jcg" role="button"><?php echo $l->t('Watch video');?></a>
 	            </p>
 	        </div>
 
 	        <div class="right-text-grey" data-slide="3">
-	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('Secure Audio/video calls');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('Our Video calls app is the most secure way to to discuss with others, share your screen to show or demonstrate something and get work done. We also introduced push notifications, security improvements like Rate Limiting and enhanced Brute Force protection, admin apps like Impersonate, Quota Warning, Download Activity, App bundles, JSLoader and much more.');?></p>
+	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('Faster than ever');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('Waiting is a waste. Nextcloud 13 brings faster performance everywhere, with 85% quicker LDAP queries, up to 5x storage throughput and more');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="/webrtc" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="btn-primary" href="https://nextcloud.com/blog/85-faster-ldap-10x-readwrite-speed-of-windows-network-drive-welcome-to-nextcloud-13-beta/" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
 	        <div class="right-text-grey" data-slide="4">
-	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Next generation innovation');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('Nextcloud announced the innovative Global Scale architecture as part of Nextcloud 12. Global Scale brings a truly scalable architecture, delivering cost benefits and adding flexibility and control over locality of data in large Nextcloud instances.');?></p>
+	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Plan and schedule');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('Nextcloud Groupware in 13 brings better Calendar invitation handling, automatic user provisioning in Mail and support for setting up a mail address which stores attachments directly in Nextcloud.');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="https://nextcloud.com/blog/nextcloud-announces-global-scale-architecture-as-part-of-nextcloud-12" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="btn-primary" href="https://nextcloud.com/groupware" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
         </div>
