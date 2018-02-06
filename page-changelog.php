@@ -4,14 +4,15 @@
 <p>We recommend you follow our <a href="/release-channels">Release Channels</a> to always have the latest and most secure Nextcloud Server version which fits your needs.</p>
 Go directly to the latest maintenance release of:
 <ul>
+<li><a href="#latest12">Nextcloud 13</a></li>
 <li><a href="#latest12">Nextcloud 12</a></li>
 <li><a href="#latest11">Nextcloud 11</a></li>
 <li><a href="#latest10">Nextcloud 10 (unsupported!)</a></li>
 <li><a href="#latest9">Nextcloud 9 (unsupported!)</a></li>
 </ul>
 
-
-<h3 id="13-0-0">Version 13.0.0 <small>February 5 2018</small></h3>
+<a name="latest13"></a>
+<h3 id="13-0-0">Version 13.0.0 <small>February 6 2018</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.0.tar.bz2">nextcloud-13.0.0.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.0.zip">nextcloud-13.0.0.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.0.tar.bz2.md5">nextcloud-13.0.0.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.0.zip.md5">nextcloud-13.0.0.zip.md5</a></br>
@@ -20,7 +21,7 @@ SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.0
 PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.0.tar.bz2.asc">nextcloud-13.0.0.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.0.zip.asc">nextcloud-13.0.0.zip.asc</a></p>
 
 <h4>Changes</h4>
-<p>Over X changes were merged in the server, with many hundreds more in existing or new apps. The main improvements include:</p>
+<p>Over 1100 changes were merged in the server, with many hundreds more in existing or new apps. The main improvements include:</p>
 <ul>
 	<li>Collaboration features
 	<ul>
@@ -36,7 +37,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 		<li> support free/busy scheduling in native calendar applications like Thunderbird Lightning</li>
 		<li>show meeting invites in the calendar</li>
 	</ul></li>
-    
+
 	<li>End-to-End Encryption
 	<ul>
 		<li>can encrypt data on a per-folder level rather than all-or-nothing approach</li>
@@ -46,8 +47,10 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
         <li>allows full audit logging</li>
         <li>can be combined with our File Access Control feature so administrator can enforce aspects of End-to-end Encryption</li>
         <li>protects from identity theft with our Cryptographic Identity Protection feature</li>
-	</ul></li>
-    
+	</ul>
+	This feature is in Tech Preview for Nextcloud 13 and does not yet implement sharing.
+	</li>
+
     	<li>User Interface
 	<ul>
 		<li>new way of selecting files</li>
@@ -59,7 +62,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
         <li>social sharing (Twitter, G+, Facebook, Diaspora) now features a preview</li>
 		<li>improved theming</li>
 	</ul></li>
-	
+
     <li>Performance
 	<ul>
 		<li>decreased page load times with up to 50% and faster search</li>
