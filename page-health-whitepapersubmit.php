@@ -6,7 +6,7 @@
 		<div class="row">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Nextcloud in Healthcare');?></h1>
-				<h2><?php echo $l->t('Secure, reliable and well integrated');?></p>?></p>
+				<h2><?php echo $l->t('Secure, reliable and well integrated');?></p></p>
 			</div>
 		</div>
 	</div>
