@@ -70,6 +70,12 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
         <li>Server-side Encryption performance largely improved</li>
 	</ul></li>
 
+	<li>Other
+	<ul>
+		<li>Support for PHP 7.2</li>
+		<li>Support for PostgreSQL 10</li>
+	</ul></li>
+
 
 </ul>
 
