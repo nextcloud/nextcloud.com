@@ -5,6 +5,12 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Server: App password scope can be changed for other users (nC-SA-2018-001)</title>
+  <description>&lt;p&gt;A missing ownership check allowed logged-in users to change the scope of app passwords of other users. Note that the app passwords themselves where neither disclosed nor could the error be misused to identify as another user.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-001&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-001</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-001</guid>
+  <pubDate>Wed, 07 Feb 2018 01:00:00 +0100</pubDate>
+ </item><item>
   <title>Server: Calendar and addressbook names disclosed (nC-SA-2017-012)</title>
   <description>&lt;p&gt;A logical error caused disclosure of calendar and addressbook names to other logged-in users. Note that no actual content of the calendar and adressbook has been disclosed.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-012&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-012</link>
