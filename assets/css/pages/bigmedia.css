@@ -157,6 +157,25 @@ section {
     margin-top: 10px;
     margin-bottom: 10px; }
 
+.section--limitations .container {
+  padding-top: 8.54297em;
+  padding-bottom: 8.54297em; }
+  .section--limitations .container .section--intro {
+    max-width: 43.24878em;
+    margin: 0 auto; }
+  .section--limitations .container .feature--block {
+    padding-bottom: 60px; }
+  .section--limitations .container .balancer--ilustration {
+    background: url(../../img/globalscale/balancer.svg) no-repeat center/contain;
+    /*       width: 950px; */
+    height: 600px;
+    max-width: 100%;
+    max-height: 60vw;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
 .section--features {
   /*	background-color: #eee;*/
   padding-top: 100px;

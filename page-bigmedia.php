@@ -1,11 +1,11 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/bigmedia.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<!--<script>
+<script>
 require(["require.config"], function() {
-	require(["pages/media", "modules/submenu", "bootstrap", "modules/youtubePlayer"])
+	require(["modules/youtubePlayer"])
 });
-</script>-->
+</script>
 <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script> -->
 <!--<script type="text/javascript">
     var CaptchaCallback = function() {
@@ -46,8 +46,8 @@ require(["require.config"], function() {
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
 		<h2 class="section--heading-1 text-center"><?php echo $l->t('Sharing big files');?></h2>
-            <p class="section--paragraph text-center"><?php echo $l->t('Media and advertisement companies work with large media files such as images, layouts and raw video footage. They need to be able to easily share them with colleagues, partners and clients.<br>
-            Nextcloud makes large files available via the browser, mobile devices or synced to desktops, working very well with your preferred creative tools such as Adobe InDesign, Lightroom, Illustrator, Photoshop and Premiere.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Media and advertisement companies work with large media files such as images, layouts and raw video footage. They need to be able to easily and quickly share them with colleagues, partners and clients.<br>
+            Nextcloud makes uploading and downloading large files via the browser, mobile devices or synced to desktops easy as pie and fast as lightning and works very well with your preferred creative tools such as Adobe InDesign, Lightroom, Illustrator, Photoshop and Premiere.');?></p>
 		</div>
 	</div>
 </div>
@@ -105,7 +105,6 @@ require(["require.config"], function() {
 </div>
 </section>-->
 
-<a name="collaboration"></a>
 <section class="section--collaboration">
 	<div class="container">
         <div class="row">
@@ -115,22 +114,16 @@ require(["require.config"], function() {
             <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Collaboration features in Nextcloud notify users of comments on a file and let them seamlessly switch to real-time chat or video call communication to discuss a campaign or design.');?></p>
         </div>
         <div class="row">
-            <div class="col-md-10 col-md-offset-1 revealOnScroll feature--block">
-                <p class="section--paragraph revealOnScroll"><?php echo $l->t('A creative manager can easily share files to a remote freelancer or a photographer and vice-versa via the Nextcloud Secure Outlook Plugin, avoiding large email attachments, reducing traffic and increasing speed.');?></p>
-            </div>
-        </div>
-        <div class="row">
             <div class="col-md-6 revealOnScroll">
-                <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/securedrop-email-nw.png" alt="in action"/></a>
+                <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Unlimited sharing');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Nextcloud has no limits other than the size of your file storage system. However big the file, however many you have or people you share with, Nextcloud will serve the users the data they need.');?></p>
-                <a href="<?php echo home_url('sharing') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Sharing');?></a>
+                <p class="section--paragraph__tittle"><?php echo $l->t('Internal and external sharing');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Creative minds from around the world can connect through Nextcloud, sharing their work in one location. Nextcloud lets you share any number large and small files with colleagues, customers and partners, seamlessly and easily.');?></p>
+                <a href="<?php echo home_url('sharing') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('More about sharing');?></a>
             </div>
         </div>
                 <p class="section--paragraph"><blockquote><?php echo $l->t('The source of inspiration is in what you see and who you touch. Sharing with others and working together are central to creativity and results!');?></blockquote></p>
-<!--                 <p class="section--paragraph"><?php echo $l->t('Nextcloud offer an integrated, easy to use solution for sharing privately and publicly, with others in your organization or customers and partners.');?></p> -->
         <div class="row">
             <div class="col-md-6 revealOnScroll image--floated">
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/comments-nw.png" alt="in action"/></a>
@@ -156,9 +149,20 @@ require(["require.config"], function() {
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/file-access-control-nw.png" alt="in action"/></a>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Digital Asset Management');?></p>
+                <p class="section--paragraph__tittle"><?php echo $l->t('Secure, efficient Digital Asset Management');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Tags, automatic categorization and full text search make finding your files a breeze. Tune your work flow to optimize accessibility and efficiency.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The Nextcloud File Access Control feature ensures your data stays completely under your control, blocking unauthorized access according to definitions your IT team can set.');?></p> <p class="section--paragraph"><?php echo $l->t('Guarantee your customers 100% legal compliance and secure handling of even their most sensitive data!');?></p>
                 <a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Workflow features');?></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 revealOnScroll">
+                <div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
+            </div>
+            <div class="col-md-6 revealOnScroll feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Secure sharing by mail');?></p>
+                <p class="section--paragraph revealOnScroll"><?php echo $l->t('A creative manager can easily share files to a remote freelancer or a photographer and vice-versa via the Nextcloud Secure Sharing Outlook Plugin, avoiding large email attachments, reducing traffic and increasing speed.');?></p>
+                <a href="<?php echo home_url('outlook') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Email integration');?></a>
             </div>
         </div>
     </div>
@@ -168,7 +172,7 @@ require(["require.config"], function() {
     <div class="container-fluid quote">
         <h2 class="text-center revealOnScroll"><?php echo $l->t('Advertising is all about collaboration.');?></h2>
         <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('You need to work efficiently with colleagues, partners and clients, without having to forego privacy and security.');?></p>
-        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Nextcloud enables your creativity!');?></p>
+        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Nextcloud enables you to focus on creativity, taking care that your data stays accessible and under your control!');?></p>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 featureblock revealOnScroll">
@@ -177,6 +181,39 @@ require(["require.config"], function() {
                         <a href="<?php echo home_url('buy') ?>" class="button button--arrow button--large"><?php echo $l->t('Contact sales');?></a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section--limitations">
+	<div class="container">
+        <div class="row">
+            <p class="section--intro text-center revealOnScroll"><?php echo $l->t('No limitations');?></p>
+            <h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Wherever you are');?></h3>
+            <div class="balancer--ilustration"></div>
+            <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud runs on your infrastructure, making data accessible to your team anywhere, anytime');?></p>
+        </div>
+        <div class="row">
+            <div class="col-md-6 revealOnScroll">
+                <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/securedrop-drop-nw.png" alt="in action"/></a>
+            </div>
+            <div class="col-md-6 revealOnScroll feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Unlimited everything');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Nextcloud has no limits other than the size of your file storage system. However big the file, however many you have or people you share with, Nextcloud will serve the users the data they need at lighting speed.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Whether you keep data on a NAS, FTP, NFS, Windows Network Drive, Amazon S3 or other object storage, Nextcloud provides seamless access, sharing and collaboration.');?></p>
+                <a href="<?php echo home_url('storage') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('External storage');?></a>
+            </div>
+        </div>
+       <div class="row">
+            <div class="col-md-6 revealOnScroll image--floated">
+                <div data-type="youtube" data-video-id="I5wcLS9xxMw"></div>
+            </div>
+            <div class="col-md-6 revealOnScroll feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('At any scale');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Offices all over the world? Need to keep data from Singapore and Brisbane separate from data in London and New York? Need some data in both places and others only in one?');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Nextcloud Global Scale offers a unique solution to global availability of data at incredible cost efficiency. Store, edit and share files across any number of offices without limitations or losing control!');?></p>
+                <a href="<?php echo home_url('globalscale') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Global Scale');?></a>
             </div>
         </div>
     </div>
