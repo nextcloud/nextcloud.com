@@ -17,8 +17,8 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
   /* IE6-9 */ }
 
-.bigmedia-background {
-  background: url("../../img/headers/bigmedia.jpg") no-repeat;
+.agencies-background {
+  background: url("../../img/headers/agencies.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   margin-bottom: 50px; }
@@ -210,4 +210,4 @@ section {
 footer {
   margin-top: 0px; }
 
-/*# sourceMappingURL=bigmedia.css.map */
+/*# sourceMappingURL=agencies.css.map */
