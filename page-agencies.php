@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/bigmedia.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/agencies.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script>
 require(["require.config"], function() {
@@ -14,7 +14,7 @@ require(["require.config"], function() {
     };
 </script>-->
 </head>
-<div class="bigmedia-background">
+<div class="agencies-background">
     <div class="container-fluid background">
         <div class="container">
 			<div class="col-md-6 topheader">
