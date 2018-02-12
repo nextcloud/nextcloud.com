@@ -572,6 +572,12 @@ i[class*='icon-'] {
 	margin-right: -50px;
 }
 
+.news .contribook_blogheadline {
+	font-weight: 500;color: black;
+	font-size: 2em;
+	padding-top: 30px;
+}
+
 .post h1,h2,h3 {
 	font-weight: 500;color: black;
 }
@@ -592,6 +598,9 @@ div.blog-social-icons > div a:hover {
 
 .masonry-brick {
 	max-width: 100%;
+	padding-bottom: 20px;
+	border-bottom: 6px grey;
+	border-bottom: 20px solid #8080803b;
 }
 
 article.post figcaption {
