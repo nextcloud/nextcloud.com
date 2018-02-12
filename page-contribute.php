@@ -32,8 +32,8 @@
 
             <h3 class="section--intro"><?php echo $l->t('Answer questions about Nextcloud use and development');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Help answer questions users and developers have about Nextcloud!');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Join the <a class="hyperlink"  href="https://help.nextcloud.com">Nextcloud forums</a>!');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Please be considerate of our <a class="hyperlink"  href="/community/code-of-conduct/">code of conduct</a>. We want to provide a positive and enjoyable environment for everybody.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Join the <a class="hyperlink" href="https://help.nextcloud.com">Nextcloud forums</a>!');?></p>
+            <p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('code-of-conduct') ?>"><?php echo $l->t('Please be considerate of our code of conduct</a>. We want to provide a positive and enjoyable environment for everybody.');?></p>
         </div>
         <div class="col-md-6">
             <h3 class="section--intro"><?php echo $l->t('Test Nextcloud');?></h3>

@@ -178,7 +178,7 @@
 				<a href="https://www.canonical.com/" target="_blank" title="Canonical">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/canonical.png" title="Canonical" />
 				</a>
-				<p  class="partnertext">Canonical is the company behind Ubuntu, the leading Operating System for cloud and the Internet of Things. Most public cloud workloads are running on Ubuntu, and most new smart gateways, self-driving cars and advanced humanoid robots also run Ubuntu. Nextcloud and Canonical collaborate to build the <a href="/box">Nextcloud Box</a>, a device that makes it easy for anyone to self host their data.</p>
+				<p  class="partnertext">Canonical is the company behind Ubuntu, the leading Operating System for cloud and the Internet of Things. Most public cloud workloads are running on Ubuntu, and most new smart gateways, self-driving cars and advanced humanoid robots also run Ubuntu. Nextcloud and Canonical collaborate to build the <a href="<?php echo home_url('box') ?>">Nextcloud Box</a>, a device that makes it easy for anyone to self host their data.</p>
 			</div>
 			<div class="col-md-4">
 				<a href="https://www.collaboraoffice.com/" target="_blank" title="Collabora Office website">

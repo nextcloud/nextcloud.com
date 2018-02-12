@@ -9,7 +9,7 @@
 			<a class="youtube" id="egLqRqb4sHA"href="https://www.youtube.com/watch?v=egLqRqb4sHA" title="">
 				<img class="img-responsive" src="https://img.youtube.com/vi/egLqRqb4sHA/maxresdefault.jpg" title="" />
 				<div class="yt-play-btn">
-					<i></i> 
+					<i></i>
 				</div>
 			</a>
 		</div>
@@ -31,7 +31,7 @@
 			<a class="youtube" id="Yc6avTVowc0" href="https://www.youtube.com/watch?v=Yc6avTVowc0" title="">
 				<img class="img-responsive" src="https://img.youtube.com/vi/Yc6avTVowc0/maxresdefault.jpg" title="" />
 				<div class="yt-play-btn">
-					<i></i> 
+					<i></i>
 				</div>
 			</a>
 		</div>
@@ -47,9 +47,9 @@
 		<img alt="The Spreedbox" class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/spreedbox/spreedboxfeatures.png" />
 	</div>
 </div>
-	
+
 <h2><?php echo $l->t('Open Source');?></h2>
-<p><?php echo $l->t('The Spreedbox runs Nextcloud, software which is free and published under open source AGPL license that gives you the right to examine, share and modify it. An international community of software engineers and volunteer contributors develops Nextcloud and <a href="/contribute">you are invited to get involved, too</a>.');?></p>
+<p><?php echo $l->t('The Spreedbox runs Nextcloud, software which is free and published under open source AGPL license that gives you the right to examine, share and modify it. An international community of software engineers and volunteer contributors develops Nextcloud and');?> <a href="<?php echo home_url('contribute') ?>"><?php echo $l->t('you are invited to get involved, too');?></a>.</p>
 
 <h2><?php echo $l->t('Better-and-better-and-better Security');?></h2>
 <p><?php echo $l->t('The Spreedbox is built on Linux as an operating system, providing world-leading security as transactional components with rigorous application isolation. With our secure algorithms, the high-speed ARM 4-core CPU and an off-the-silicon secure hardware key-generator (TRNG), the Spreedbox features an outstanding cryptographic budget well above any industry standard.');?></p>
@@ -62,7 +62,7 @@
 				<a class="youtube" id="8M2GbUJv5N0" href="https://www.youtube.com/watch?v=8M2GbUJv5N0" title="Design">
 					<img class="img-responsive" src="https://img.youtube.com/vi/8M2GbUJv5N0/maxresdefault.jpg" title="Design" />
 					<div class="yt-play-btn">
-						<i></i> 
+						<i></i>
 					</div>
 				</a>
 			</div>
