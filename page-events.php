@@ -86,6 +86,11 @@ require(["require.config"], function() {
 						<td>Chemnitz, Germany</td>
 						<td>March 10-11</td>
 					</tr>
+                    <tr>
+                        <td><a class="hyperlink" target="_blank" href="https://ffg.guug.de/programm-freitag/#D5">GUUG-Frühjahrsfachgespräch 2018</a></td>
+                        <td>Leipzig, Germany</td>
+                        <td>February 28-March 2</td>
+                    </tr>
 					<tr>
 						<td><a class="hyperlink" target="_blank" href="http://fosdem.org/">FOSDEM 2018</a></td>
 						<td>Brussels, Belgium</td>
