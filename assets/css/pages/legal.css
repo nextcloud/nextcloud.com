@@ -32,6 +32,8 @@ section {
     padding: 0; }
   section .row {
     padding: 20px 0 20px 0; }
+  section .feature-row {
+    padding: 60px 0 60px 0; }
 
 .img-responsive {
   padding-top: 10px; }
@@ -41,9 +43,6 @@ section {
   @media (min-width: 1600px) {
     .img-responsive {
       /* 	margin-bottom: 0px; */ } }
-
-.image--floated {
-  float: right; }
 
 .separator {
   margin: 100px 0 50px 0;
@@ -71,7 +70,7 @@ section {
     justify-content: center;
     align-items: center; }
     .claim__brand__logo {
-      background: url("../../img/customers/nantes.png") no-repeat center/contain;
+      /*             background: url("../../img/customers/nantes.png") no-repeat center/contain; */
       width: 46px;
       height: 46px; }
     .claim__brand__text {
@@ -86,79 +85,29 @@ section {
   margin-bottom: 30px; }
 
 /* Sections */
-.section--customers {
-  /* 	max-width: 100%; */
-  position: relative; }
-  .section--customers .container {
-    padding-top: 8.54297em;
-    /*     padding-bottom: ms(1); */ }
-  .section--customers .customer {
-    position: relative; }
-    .section--customers .customer .customer-logo {
-      float: center;
-      height: 400px;
-      position: relative;
-      line-height: 400px;
-      text-align: center;
-      width: 100%;
-      max-width: 60vw;
-      margin-left: auto;
-      margin-right: auto;
-      vertical-align: middle;
-      /*			svg {
-      				vertical-align: middle;
-      				float:none;
-      				width: auto;
-      				height: 400px;
-      				padding-bottom: 100px;
-      			}*/ }
-      .section--customers .customer .customer-logo img {
-        max-width: 90%;
-        vertical-align: middle; }
-      .section--customers .customer .customer-logo .scaling-svg-container {
-        /* 				position: relative; */
-        height: 0;
-        width: 100%;
-        padding: 0;
-        padding-bottom: 100%;
-        /* override this inline for aspect ratio other than square */ }
-      .section--customers .customer .customer-logo svg {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        /* 		max-width: 50vw; */
-        left: 0;
-        top: 0; }
-      @media (max-width: 991px) {
-        .section--customers .customer .customer-logo {
-          height: 300px;
-          line-height: 300px; } }
-      @media (max-width: 768px) {
-        .section--customers .customer .customer-logo {
-          height: 200px;
-          line-height: 200px; } }
+.section--explanation i[class*='fa-'] {
+  font-size: 60px;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20%; }
+.section--explanation .row {
+  padding: 5px 0 5px 0; }
+.section--explanation p.section--paragraph {
+  padding: 0; }
+.section--explanation p {
+  padding: 0; }
 
-.section--convenient .container {
-  padding-top: 8.54297em;
-  padding-bottom: 8.54297em; }
-  .section--convenient .container .section--intro {
-    max-width: 43.24878em;
-    margin: 0 auto; }
-  .section--convenient .container .feature--block {
-    padding-bottom: 60px; }
-  .section--convenient .container .easy--ilustration {
-    background: url(../../img/globalscale/distribution.svg) no-repeat center/contain;
-    /*       width: 950px; */
-    height: 600px;
-    max-width: 100%;
-    max-height: 60vw;
-    margin: 0 auto;
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px; }
-
-.section--analysis .readblog {
-  padding-top: 10px; }
+.section--modern .modern--ilustration {
+  background: url(../../img/globalscale/people.svg) no-repeat center/contain;
+  /*       width: 950px; */
+  height: 600px;
+  max-width: 100%;
+  max-height: 60vw;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 .section--secure .container {
   padding-top: 8.54297em;
@@ -175,6 +124,10 @@ section {
     position: relative;
     margin-top: 10px;
     margin-bottom: 10px; }
+  .section--secure .container ul {
+    padding-left: 30px; }
+  .section--secure .container li {
+    list-style-image: url("../../img/enterprise/check.svg"); }
 .section--secure .ncc--container {
   display: flex;
   justify-content: center;
