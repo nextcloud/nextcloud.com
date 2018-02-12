@@ -45,11 +45,49 @@ section {
 	background: #f6f6f6;
 }
 
-.quote {
-    blockquote {
-        color: white !important;
+.claim {
+    margin-top: -103px;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 40px 30px 40px ;
+        background: #FFFFFF;
+        border: 1px solid #FCFCFC;
+        -webkit-box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
+        box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
+    }
+
+    &__paragraph {
+        font-style: italic;
+        /*font-size: 1.3em;*/
+    }
+
+    &__brand {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__logo {
+            background: url("../../img/customers/nantes.png") no-repeat center/contain;
+            width: 46px;
+            height: 46px;
+        }
+
+        &__text {
+            margin: 0;
+            padding: 0 0 0 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 15px;
+            color: $medium-grey;
+        }
     }
 }
+
 
 .video {
 	margin-bottom: 30px;
@@ -116,10 +154,6 @@ section {
 	}
 }
 
-.section--whitepaper {
-	margin: 100px 0 100px 0;
-}
-
 .section--convenient {
 
   .container {
@@ -175,43 +209,48 @@ section {
       margin-bottom: 10px;
     }
   }
-  .claim {
-    &--container {
-        margin: 50px;
-		display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        padding: 40px 40px 30px 40px ;
-        background: #FFFFFF;
-        border: 1px solid #FCFCFC;
-        -webkit-box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
-        box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
-    }
 
-    &--brand {
-        padding-top: 0px;
-		margin-top: -40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+  .ncc--container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 40px 30px 40px ;
+      background: #FFFFFF;
+      border: 1px solid #FCFCFC;
+      -webkit-box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
+      box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
 
-        &--logo {
-            background: url("../../img/security/ncc_logo.png") no-repeat center/contain;
-            width: 46px;
-            height: 46px;
-        }
+      blockquote {
+          font-style: italic;
+          font-size: 1.1em;
+          margin: 0;
+      }
 
-        &--text {
-            margin: 0;
-            padding: 0 0 0 10px;
-            font-weight: 600;
-            text-transform: uppercase;
-            font-size: 15px;
-            color: $medium-grey;
-        }
-    }
+      .ncc--brand {
+          padding-top: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .ncc--brand--logo {
+              background: url("../../img/security/ncc_logo.png") no-repeat center/contain;
+              width: 46px;
+              height: 46px;
+          }
+
+          .ncc--brand--text {
+              margin: 0;
+              padding: 0 0 0 10px;
+              font-weight: 600;
+              text-transform: uppercase;
+              font-size: 15px;
+              color: $medium-grey;
+          }
+      }
   }
+
+
 
 }
 

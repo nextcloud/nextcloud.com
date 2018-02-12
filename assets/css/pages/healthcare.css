@@ -50,8 +50,37 @@ section {
   height: 40px;
   background: #f6f6f6; }
 
-.quote blockquote {
-  color: white !important; }
+.claim {
+  margin-top: -103px; }
+  .claim__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 40px 30px 40px;
+    background: #FFFFFF;
+    border: 1px solid #FCFCFC;
+    -webkit-box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
+    box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14); }
+  .claim__paragraph {
+    font-style: italic;
+    /*font-size: 1.3em;*/ }
+  .claim__brand {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .claim__brand__logo {
+      background: url("../../img/customers/nantes.png") no-repeat center/contain;
+      width: 46px;
+      height: 46px; }
+    .claim__brand__text {
+      margin: 0;
+      padding: 0 0 0 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 15px;
+      color: #6c6c6c; }
 
 .video {
   margin-bottom: 30px; }
@@ -109,9 +138,6 @@ section {
           height: 200px;
           line-height: 200px; } }
 
-.section--whitepaper {
-  margin: 100px 0 100px 0; }
-
 .section--convenient .container {
   padding-top: 8.54296875em;
   padding-bottom: 8.54296875em; }
@@ -149,8 +175,7 @@ section {
     position: relative;
     margin-top: 10px;
     margin-bottom: 10px; }
-.section--secure .claim--container {
-  margin: 50px;
+.section--secure .ncc--container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -160,23 +185,26 @@ section {
   border: 1px solid #FCFCFC;
   -webkit-box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
   box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14); }
-.section--secure .claim--brand {
-  padding-top: 0px;
-  margin-top: -40px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .section--secure .claim--brand--logo {
-    background: url("../../img/security/ncc_logo.png") no-repeat center/contain;
-    width: 46px;
-    height: 46px; }
-  .section--secure .claim--brand--text {
-    margin: 0;
-    padding: 0 0 0 10px;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 15px;
-    color: #6c6c6c; }
+  .section--secure .ncc--container blockquote {
+    font-style: italic;
+    font-size: 1.1em;
+    margin: 0; }
+  .section--secure .ncc--container .ncc--brand {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .section--secure .ncc--container .ncc--brand .ncc--brand--logo {
+      background: url("../../img/security/ncc_logo.png") no-repeat center/contain;
+      width: 46px;
+      height: 46px; }
+    .section--secure .ncc--container .ncc--brand .ncc--brand--text {
+      margin: 0;
+      padding: 0 0 0 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 15px;
+      color: #6c6c6c; }
 
 .section--explanation .banner {
   background-color: #0082c9;

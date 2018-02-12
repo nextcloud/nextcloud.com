@@ -6,7 +6,13 @@ require(["require.config"], function() {
 	require(["pages/education", "modules/submenu", "bootstrap", "modules/youtubePlayer"])
 });
 </script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
+<script type="text/javascript">
+    var CaptchaCallback = function() {
+        grecaptcha.render('RecaptchaField1', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField2', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+    };
+</script>
 </head>
 <div class="healthcare-background second-menu">
     <div class="container-fluid background">
@@ -31,28 +37,51 @@ require(["require.config"], function() {
 <div class="container">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-            <p class="section--paragraph text-center"><?php echo $l->t('Patient safety is the highest priority at health care and life science institutions. Nextcloud makes patient information available to healthcare professionals when they need it through an easy-to-use interface with the highest degree of reliability, security and privacy.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Patient safety is the highest priority at health care and life science institutions. Nextcloud makes patient information available to healthcare professionals when they need it through an easy-to-use interface with the highest degree of reliability, security and privacy at reasonable cost.');?></p>
 		</div>
 	</div>
 </div>
 </section>
 
 
-<section class="section--analysis">
-<div class="container-fluid quote">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 revealOnScroll">
-				<blockquote class="text-center">In the next 5 to 10 years, we can expect far more security issues, which will require bigger budgets, more staff and teaching best practices.</blockquote>
-				<p>- Cédric Cartau, Chief Information Security Officer at <a class="hyperlink" href="https://www.digitalforallnow.com/en/what-are-the-implications-of-healthcare-data-security-interview-with-cedric-cartau/">Nantes University Hospital</a></p>
-			</div>
-            <div class="col-md-4">
-                <p class="text-center readblog revealOnScroll"><?php echo $l->t('We recommend to keep sensitive data on your own infrastructure instead of in a public cloud. For our full analysis of challenges in healthcare');?> <br><a href="https://nextcloud.com/blog/where-should-healthcare-data-be-stored/" class="button button--large button--arrow"><?php echo $l->t('read our blog');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
+<section class="section--whitepaper quote">
+	<div class="container revealOnScroll">
+        <div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+                <h2 class="revealOnScroll"><?php echo $l->t('Analysis: data in healthcare');?></h2>
+                <p class="revealOnScroll"><?php echo $l->t('We recommend to keep sensitive data on your own infrastructure instead of in a public cloud as the easiest and most cost-effective way of ensuring compliance.<br>Download our free healthcare security analysis.');?></p>
+                <form name="whitepaper" method="post" action="../health-whitepapersubmit">
+                    <p><label for="email">
+                    <td colspan="2" style="text-align:center">
+                    <div class="">
+                        <div id="RecaptchaField1"></div>
+                    </div>
+                    </td>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large" type="submit" value=" Get the Analysis "></p>
+                </form>
             </div>
-		</div>
+        </div>
+<!--         <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/ldap-thumbnail-banner.png"/> -->
 	</div>
-</div>
 </section>
+
+<section class="claim">
+    <div class="container">
+        <div class="col-md-10 col-md-offset-1 claim__container">
+            <p class="claim__paragraph">
+                <?php echo $l->t('In the next 5 to 10 years, we can expect far more security issues, which will require bigger budgets, more staff and teaching best practices.');?>
+            </p>
+            <div class="claim__brand">
+                <div class="claim__brand__logo"></div>
+                <p class="claim__brand__text">
+                    - Cédric Cartau, Chief Information Security Officer at <a class="hyperlink" href="https://www.digitalforallnow.com/en/what-are-the-implications-of-healthcare-data-security-interview-with-cedric-cartau/">Nantes University Hospital</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 <!--<section class="section--customers">
 <div class="container">
@@ -193,13 +222,11 @@ require(["require.config"], function() {
             </p>
         </div>
     </div>
-    <div class="row claim--container">
-        <p class="claim--paragraph">
-            <blockquote>Nextcloud understands the necessity to provide core principle baseline security requirements, as such Nextcloud 11 is built on these security principles to ultimately deliver a secure solution to their customers</blockquote>
-        </p>
-        <div class="claim--brand">
-            <div class="claim--brand--logo"></div>
-            <p class="claim--brand--text">
+    <div class="row ncc--container">
+            <blockquote class="ncc--paragraph">Nextcloud understands the necessity to provide core principle baseline security requirements, as such Nextcloud 11 is built on these security principles to ultimately deliver a secure solution to their customers</blockquote>
+        <div class="ncc--brand">
+            <div class="ncc--brand--logo"></div>
+            <p class="ncc--brand--text">
                 <?php echo $l->t('NCC Group');?>
             </p>
         </div>
@@ -213,26 +240,6 @@ require(["require.config"], function() {
 </div>
 </section>
 
-<!--<section class="section--whitepaper quote">
-	<div class="container revealOnScroll">
-        <div class="row">
-			<div class="col-lg-8">
-                <h2 class="revealOnScroll"><?php echo $l->t('How the TU Berlin delivers file sync and share to 22.000 users');?></h2>
-                <form name="whitepaper" method="post" action="../tuberlin-whitepapersubmit">
-                    <p><label for="email"><?php echo $l->t('Download our free case study: <br /> TU Berlin and 9 other institutions migrate from ownCloud to Nextcloud');?><br>
-                    <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                    </div>
-                    </td>
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large" type="submit" value=" Get the case study "></p>
-                </form>
-            </div>
-        </div>
-        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/tub-thumbnail-banner.png"/>
-	</div>
-</section>-->
-
 <div class="separator"></div>
 <a name="integrated"></a>
 <section class="section--integrated">
@@ -241,7 +248,8 @@ require(["require.config"], function() {
         <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Easy integration');?></p>
         <h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Efficient deployment and management');?></h3>
         <div class="efficiency--ilustration"></div>
-        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Complexity is the enemy of security and Nextcloud is designed to offer quick and easy integration in existing infrastructure, leaving policies and procedures in place. Its powerful LDAP and storage integration seamlessly fits with existing user directories, Windows Network Drive, NFS and Sharepoint storage solutions. ');?></p>
+        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Complexity is the enemy of security and Nextcloud is designed to offer quick and easy integration in existing infrastructure, leaving policies and procedures in place. Its powerful LDAP and storage integration seamlessly fits with existing user directories, Windows Network Drive, NFS and Sharepoint storage solutions.');?></p>
+        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('The result: a quick implementation at low cost, and easy maintenance making a self-hosted Nextcloud the cloud compliance solution with the lowest TCO.');?></p>
     </div>
 </div>
 <div class="container">
@@ -268,7 +276,11 @@ require(["require.config"], function() {
                 <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper');?><br>
                 <input class="mail text-center" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
                 <td colspan="2">
-                <div class="g-recaptcha text-center" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                <td colspan="2" style="text-align:center">
+                    <div class="">
+                        <div id="RecaptchaField2"></div>
+                    </div>
+                </td>
                 <input class="button button--blue button--large" type="submit" value=" Get the whitepaper ">
             </form>
             </p>

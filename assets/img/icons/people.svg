@@ -40,19 +40,25 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2560"
-     inkscape:window-height="1353"
+     inkscape:window-width="1920"
+     inkscape:window-height="1007"
      id="namedview28"
      showgrid="false"
-     inkscape:zoom="1.84375"
-     inkscape:cx="-253.24259"
-     inkscape:cy="111.88867"
+     inkscape:zoom="7.375"
+     inkscape:cx="64.54559"
+     inkscape:cy="9.8704139"
      inkscape:window-x="0"
-     inkscape:window-y="240"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg26" />
   <title
      id="title2">MONITORING</title>
+  <path
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:42.30915451;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 25.042,49.713001 h 13.916 l 2,10.576273 H 23.042 Z"
+     id="rect4519"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccc" />
   <g
      fill="none"
      fill-rule="evenodd"

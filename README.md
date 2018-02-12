@@ -33,3 +33,64 @@ process easy and effective for everyone involved.
 * Please don't commit straight into the master or live branches, these branches should remain as stable as possible, and changes should be discussed amongst the community.
 * If you are changing SCSS files during development, following command for automatic compilation is recommended:
   * `sass --watch [location to scss files]`
+  
+## Testing
+The list below covers most pages on our site, copy it in a PR that needs site-wide testing, so one can just quickly click the links and check all pages:
+
+- [ ] https://nextcloud.com/?staging=true
+- [ ] https://nextcloud.com/files/?staging=true
+- [ ] https://nextcloud.com/groupware/?staging=true
+- [ ] https://nextcloud.com/talk/?staging=true
+- [ ] https://nextcloud.com/athome/?staging=true
+- [ ] https://nextcloud.com/install/?staging=true
+- [ ] https://nextcloud.com/changelog/?staging=true
+- [ ] https://nextcloud.com/secure/?staging=true
+- [ ] https://nextcloud.com/globalscale/?staging=true
+- [ ] https://nextcloud.com/file-drop/?staging=true
+- [ ] https://nextcloud.com/sharing/?staging=true
+- [ ] https://nextcloud.com/collaboraonline/?staging=true
+- [ ] https://nextcloud.com/outlook/?staging=true
+- [ ] https://nextcloud.com/workflow/?staging=true all
+- [ ] https://nextcloud.com/clients/?staging=true all
+- [ ] https://nextcloud.com/storage/?staging=true all
+- [ ] https://nextcloud.com/monitoring/?staging=true all
+- [ ] https://nextcloud.com/enterprise/?staging=true
+- [ ] https://nextcloud.com/pricing/?staging=true
+- [ ] https://nextcloud.com/enterprise/buy/?staging=true
+- [ ] https://nextcloud.com/enterprise/order/?staging=true
+- [ ] https://nextcloud.com/partners/?staging=true
+- [ ] https://nextcloud.com/providers/?staging=true
+- [ ] https://nextcloud.com/providers/apply/?staging=true
+- [ ] https://nextcloud.com/compare/?staging=true
+- [ ] https://nextcloud.com/about/?staging=true
+- [ ] https://nextcloud.com/press/?staging=true
+- [ ] https://nextcloud.com/contact/?staging=true
+- [ ] https://nextcloud.com/support/?staging=true
+- [ ] https://nextcloud.com/team/?staging=true
+- [ ] https://nextcloud.com/healthcare/?staging=true
+- [ ] https://nextcloud.com/education/?staging=true
+- [ ] https://nextcloud.com/devices/?staging=true
+- [ ] https://nextcloud.com/box/?staging=true
+- [ ] https://nextcloud.com/events/?staging=true
+- [ ] https://nextcloud.com/events/meetups/?staging=true
+- [ ] https://nextcloud.com/events/conference-program/?staging=true
+- [ ] https://nextcloud.com/events/conference-program/speaking/?staging=true
+- [ ] https://nextcloud.com/contribute/?staging=true
+- [ ] https://nextcloud.com/design/?staging=true
+- [ ] https://nextcloud.com/contributors/?staging=true
+- [ ] https://nextcloud.com/partners/?staging=true
+- [ ] https://nextcloud.com/release-channels/?staging=true
+- [ ] https://nextcloud.com/conf/?staging=true
+- [ ] https://nextcloud.com/confinfo/?staging=true
+- [ ] https://nextcloud.com/security/?staging=true
+- [ ] https://nextcloud.com/security/advisories/?staging=true
+- [ ] https://nextcloud.com/security/threat-model/?staging=true
+- [ ] https://nextcloud.com/connect/?staging=true
+- [ ] https://nextcloud.com/federation/?staging=true
+- [ ] https://nextcloud.com/securesharing/?staging=true
+- [ ] https://nextcloud.com/spreedbox/?staging=true
+- [ ] https://nextcloud.com/code-of-conduct/?staging=true
+- [ ] https://nextcloud.com/trademarks/?staging=true
+- [ ] https://nextcloud.com/privacy/?staging=true
+- [ ] https://nextcloud.com/impressum/?staging=true
+

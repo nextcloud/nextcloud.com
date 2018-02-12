@@ -17,6 +17,19 @@
 	}
 }
 
+.table-button {
+	margin: 30px 0 10px 0;
+	border-radius: 40px;
+	border-style: solid;
+	border-color: white;
+	border-width: thin;
+	padding: 20px 40px 20px 40px;
+/*         margin-top: 15px; */
+	color: white;
+/* 	width: 50%; */
+	background: $nextcloud-blue;
+}
+
 footer {
 	margin-top: 70px;
 }
