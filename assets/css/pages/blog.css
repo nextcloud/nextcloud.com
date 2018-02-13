@@ -1,0 +1,54 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.blog-background {
+  background: url("../../img/headers/background-transparent.png") no-repeat;
+  background-color: #0082c9;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  min-height: 300px;
+  max-height: 600px; }
+
+body {
+  background-color: #f4f8fb; }
+
+#post-grid-635 {
+  background-color: #f4f8fb !important; }
+
+.post-grid .grid-nav-top .nav-search .search {
+  min-width: 300px;
+  height: 40px;
+  border-radius: 40px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: thin;
+  padding: 8px 8px 8px 30px;
+  /*         margin-top: 15px; */
+  color: #757575;
+  width: 50%; }
+
+.item {
+  border-radius: 5px;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+  transition: all .5s ease; }
+
+.item:hover {
+  box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+  transition: all .3s ease;
+  transform: translate3D(0, -1px, 0); }
+
+.section--newsletter {
+  margin-bottom: 0px; }
+  .section--newsletter a {
+    margin: 50px; }
+
+footer {
+  margin-top: 0px; }
+
+/*# sourceMappingURL=blog.css.map */

@@ -34,5 +34,10 @@ function translationUrlFilter($url) {
 	return $url;
 }
 
+function custom_excerpt_length( $length ) {
+	return 50;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
 add_filter('home_url', 'translationUrlFilter');
 add_theme_support( 'post-thumbnails' );
