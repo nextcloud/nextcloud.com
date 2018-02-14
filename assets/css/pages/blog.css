@@ -1,58 +1,66 @@
-/*
-Error: Invalid CSS after "		box-shadow": expected ";", was ": none;"
-        on line 54 of blog.scss
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
 
-49: 
-50: 	.post-grid .item .layer-media img {
-51: 		border-radius: 0;
-52: 		border-top-left-radius: 5px;
-53: 		border-top-right-radius: 5px
-54: 		box-shadow: none;
-55: 		object-fit: cover;
-56: 		position: relative;
-57: 		left: 50%;
-58: 		transform: translateX(-50%);
-59: 		width: 300px;
+.blog-background {
+  background: url("../../img/headers/background-transparent.png") no-repeat;
+  background-color: #0082c9;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  min-height: 300px;
+  max-height: 600px; }
 
-Backtrace:
-blog.scss:54
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:777:in `block in try_declaration'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:1165:in `call'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:1165:in `rethrow'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:782:in `try_declaration'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `call'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/home/jospoortvliet/.rvm/gems/ruby-2.1.1/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"		box-shadow\": expected \";\", was \": none;\"\A         on line 54 of blog.scss\A \A 49: \A 50: 	.post-grid .item .layer-media img {\A 51: 		border-radius: 0;\A 52: 		border-top-left-radius: 5px;\A 53: 		border-top-right-radius: 5px\A 54: 		box-shadow: none;\A 55: 		object-fit: cover;\A 56: 		position: relative;\A 57: 		left: 50%;\A 58: 		transform: translateX(-50%);\A 59: 		width: 300px;"; }
+body {
+  background-color: #f4f8fb; }
+
+.section--grid #post-grid-635 {
+  background-color: #f4f8fb !important; }
+.section--grid .post-grid .grid-nav-top .nav-search .search {
+  min-width: 300px;
+  height: 40px;
+  border-radius: 40px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: thin;
+  padding: 8px 8px 8px 30px;
+  /*         margin-top: 15px; */
+  color: #757575;
+  width: 50%; }
+.section--grid .item {
+  border-radius: 5px;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+  transition: all .5s ease; }
+.section--grid .item:hover {
+  box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+  transition: all .3s ease;
+  transform: translate3D(0, -1px, 0); }
+.section--grid .post-grid .item .layer-media img {
+  border-radius: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: none;
+  object-fit: cover;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 200px; }
+.section--grid .skin.flat .layer-content {
+  text-align: left padding 5px 10px; }
+.section--grid .post-grid .pagination.lite .page-numbers {
+  color: #666; }
+
+.section--newsletter {
+  margin-bottom: 0px; }
+  .section--newsletter a {
+    margin: 50px; }
+
+footer {
+  margin-top: 0px; }
+
+/*# sourceMappingURL=blog.css.map */
