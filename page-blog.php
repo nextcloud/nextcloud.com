@@ -21,7 +21,7 @@
 
 <section class="section--grid">
 <div class="container">
-<?php echo do_shortcode("[post_grid id='695']"); ?>
+<?php echo do_shortcode("[post_grid id='3635']"); ?>
 </div>
 </section>
 
