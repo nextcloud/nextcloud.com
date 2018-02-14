@@ -253,7 +253,7 @@
 </div>
 </section>
 
-<section class="news-section">
+<!--<section class="news-section">
 	<div class="container-fluid news" id="social-media">
 		<div class="container">
 			<h1 class="section--heading-1 revealOnScroll"><?php echo $l->t('Latest news');?></h1>
@@ -276,7 +276,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section>-->
 
 <section class="stay-up-to-date">
 	<div class="container text-center">
