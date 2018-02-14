@@ -18,42 +18,44 @@
 body {
   background-color: #f4f8fb; }
 
-.section--grid #post-grid-635 {
-  background-color: #f4f8fb !important; }
-.section--grid .post-grid .grid-nav-top .nav-search .search {
-  min-width: 300px;
-  height: 40px;
-  border-radius: 40px;
-  border-style: solid;
-  border-color: lightgray;
-  border-width: thin;
-  padding: 8px 8px 8px 30px;
-  /*         margin-top: 15px; */
-  color: #757575;
-  width: 50%; }
-.section--grid .item {
-  border-radius: 5px;
-  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
-  transition: all .5s ease; }
-.section--grid .item:hover {
-  box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
-  transition: all .3s ease;
-  transform: translate3D(0, -1px, 0); }
-.section--grid .post-grid .item .layer-media img {
-  border-radius: 0;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  box-shadow: none;
-  object-fit: cover;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 300px;
-  height: 200px; }
-.section--grid .skin.flat .layer-content {
-  text-align: left padding 5px 10px; }
-.section--grid .post-grid .pagination.lite .page-numbers {
-  color: #666; }
+.section--grid {
+  margin-top: 30px; }
+  .section--grid #post-grid-635 {
+    background-color: #f4f8fb !important; }
+  .section--grid .post-grid .grid-nav-top .nav-search .search {
+    min-width: 300px;
+    height: 40px;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: thin;
+    padding: 8px 8px 8px 30px;
+    /*         margin-top: 15px; */
+    color: #757575;
+    width: 50%; }
+  .section--grid .item {
+    border-radius: 5px;
+    box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+    transition: all .5s ease; }
+  .section--grid .item:hover {
+    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+    transition: all .3s ease;
+    transform: translate3D(0, -1px, 0); }
+  .section--grid .post-grid .item .layer-media img {
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: none;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 200px; }
+  .section--grid .skin.flat .layer-content {
+    text-align: left padding 5px 10px; }
+  .section--grid .post-grid .pagination.lite .page-numbers {
+    color: #666; }
 
 .section--newsletter {
   margin-bottom: 0px; }
