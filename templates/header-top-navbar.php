@@ -84,6 +84,7 @@ require get_template_directory().'/strings.php';
 					<ul class="nav__links">
 						<li class="nav__item"><a href="<?php echo home_url('contribute') ?>"><?php echo $l->t('How to contribute');?></a></li>
 						<li class="nav__item"><a href="https://github.com/nextcloud"><?php echo $l->t('Code on GitHub');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('news') ?>"><?php echo $l->t('Contributor blogs');?></a></li>
 						<li class="nav__item"><a href="https://github.com/nextcloud/server/issues/new"><?php echo $l->t('Report a bug');?></a></li>
 						<li class="nav__item"><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>"><?php echo $l->t('Developer Docs');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('code-of-conduct') ?>"><?php echo $l->t('Code of Conduct');?></a></li>
@@ -95,7 +96,7 @@ require get_template_directory().'/strings.php';
 				<li class="nav__section"><a class="nav__label"><?php echo $l->t('About');?></a>
 					<ul class="nav__links">
 						<li class="nav__item"><a href="<?php echo home_url('about') ?>"><?php echo $l->t('About us');?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('news') ?>"><?php echo $l->t('Blog');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('blog') ?>"><?php echo $l->t('Blog');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('secure') ?>"><?php echo $l->t('Security');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('team') ?>"><?php echo $l->t('Team');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('partners') ?>"><?php echo $l->t('Partners');?></a></li>
