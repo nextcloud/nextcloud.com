@@ -56,7 +56,7 @@ body {
       height: 200px; }
     @media (max-width: 768px) {
       .section--grid .post-grid .grid-items .layer-media img {
-        left: 25%; } }
+        width: 600px; } }
   .section--grid .skin.flat .layer-content {
     text-align: left padding 5px 10px; }
   .section--grid .post-grid .pagination.lite .page-numbers {
