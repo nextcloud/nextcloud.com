@@ -62,8 +62,13 @@ body {
 			width: 300px;
 			height: 200px;
 		}
-	}
 
+		@media (max-width: $break-small) {
+			.layer-media img {
+			    left: 25%;
+			}
+		}
+	}
 
 	.skin.flat .layer-content {
 		text-align: left
