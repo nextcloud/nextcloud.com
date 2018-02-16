@@ -1,0 +1,12 @@
+.section--vertical {
+  margin: 0 0 0 0;
+  padding: 90px 70px 70px 70px;
+  background-color: #eee; }
+  .section--vertical .row {
+    margin-bottom: 10px; }
+  .section--vertical img {
+    padding: 20px; }
+  .section--vertical .description {
+    min-height: 100px; }
+
+/*# sourceMappingURL=vertical.css.map */

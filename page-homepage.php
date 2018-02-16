@@ -186,6 +186,8 @@
 </div>
 </section>
 
+<?php require get_template_directory().'/verticals.php';?>
+
 <section class="slideshow" id="slideshow">
     <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 13');?></h2>
 	<div class="indicators">
@@ -238,7 +240,7 @@
 	            <p class="section--paragraph"><?php echo $l->t('Nextcloud Groupware in 13 brings better Calendar invitation handling, automatic user provisioning in Mail and support for setting up a mail address which stores attachments directly in Nextcloud.');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="https://nextcloud.com/groupware" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="btn-primary" href="<?php echo home_url('groupware') ?>" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
         </div>
