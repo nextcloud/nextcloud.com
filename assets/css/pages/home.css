@@ -97,7 +97,7 @@
     .jumbotron .toptext .announcement {
       background-color: rgba(0, 115, 178, 0.51);
       border-radius: 20px;
-      padding: 0 12px 0 5px;
+      padding: 0 12px 0 8px;
       text-decoration: none;
       color: white;
       line-height: 26px;
@@ -127,8 +127,9 @@
           .jumbotron .toptext .announcement .type {
             margin-left: 10px; } }
       .jumbotron .toptext .announcement .message {
-        margin: 0 16px 0 6px;
-        font-size: 13px; }
+        margin: 10px 16px 10px 10px;
+        font-size: 13px;
+        line-height: 1em; }
         @media (max-width: 768px) {
           .jumbotron .toptext .announcement .message {
             font-size: 15px;
