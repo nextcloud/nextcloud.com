@@ -213,7 +213,7 @@ require(["require.config"], function() {
             <?php echo $l->t('Federal data protection and GDPR-compliant, protecting data sovereignty, keep the server location in your country.');?></li>
             <li><strong><?php echo $l->t('data security');?></strong><br />
             <?php echo $l->t('Multiple levels of encryption (HTTPS/SSL/TLS, AES-256 or stronger, server-side and end-to-end encryption) ensure the highest level of data protection from hacking.');?></li>
-            <li><strong><?php echo $l->t('client- and case related authorization');?></strong><br/>
+            <li><strong><?php echo $l->t('Client- and case related authorization');?></strong><br/>
             <?php echo $l->t('A dedicated user and group management as well as a rights system allows the assignment of access rights according to your requirements.');?></li>
             </ul>
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud is a popular self-hosted solution in businesses dealing with legal documents for its ability to strictly control access to data and industry-leading security capabilities.');?></p>
@@ -265,7 +265,7 @@ require(["require.config"], function() {
     <div class="row feature-row">
         <div class="col-md-10 col-md-offset-1 revealOnScroll feature--block">
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud offers first-in-class, third-party verified security backed by a USD 5000 Security Bug Bounty program protecting against unauthorized access.');?></p>
-            <a href="/secure" class="button button--blue button--arrow button--large"><?php echo $l->t('security in Nextcloud');?></a>
+            <a href="/secure" class="button button--blue button--arrow button--large"><?php echo $l->t('Security in Nextcloud');?></a>
         </div>
     </div>
 </div>
@@ -293,7 +293,7 @@ require(["require.config"], function() {
         <i class="fa-mobile fa"></i>
         </div>
         <div class="col-md-3 featureblock">
-        <p class=""><?php echo $l->t('Desktop and mobile clients for Windows/MacOS/Linux, Android and iOS complement the web interface, integrating in the file system. Nextcloud can also be reached through WebDAV.');?></p>
+        <p class=""><?php echo $l->t('Desktop and mobile clients for Windows / MacOS / Linux, Android and iOS complement the web interface, integrating in the file system. Nextcloud can also be reached through WebDAV.');?></p>
         </div>
     </div>
     <div class="row revealOnScroll">
