@@ -1120,5 +1120,25 @@
             "CLOUDHOSTING.SPACE dedicated cloud storage servers are located in Australia and come with automatic server backups and unlimited user accounts."
          ],
          "imagename":"cloudhostingspace.png"
+      },
+    {
+         "title":"DediSERVE Limited",
+         "url":"https:\/\//www.dediserve.com\/dediserve-vault",
+         "flags":[
+            "ie",
+            "uk",
+            "us",
+            "au",
+            "in",
+            "hk",
+            "si"
+
+         ],
+         "freeplans":true,
+         "supports":"organization",
+         "specializes":[
+            "DediSERVE are the world largest OnApp provider, specializing in blazing fast All-SSD public and private cloud environments with 17 locations worldwide"
+         ],
+         "imagename":"dediserve.png"
       }
 ]
