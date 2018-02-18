@@ -293,7 +293,7 @@ require(["require.config"], function() {
         <i class="fa-mobile fa"></i>
         </div>
         <div class="col-md-3 featureblock">
-        <p class=""><?php echo $l->t('Desktop and mobile clients for Windows / MacOS / Linux, Android and iOS complement the web interface, integrating in the file system. Nextcloud can also be reached through WebDAV.');?></p>
+        <p class=""><?php echo $l->t('Desktop and mobile clients for Windows / macOS / Linux, Android and iOS complement the web interface, integrating in the file system. Nextcloud can also be reached through WebDAV.');?></p>
         </div>
     </div>
     <div class="row revealOnScroll">
