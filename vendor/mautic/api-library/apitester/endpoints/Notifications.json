@@ -1,0 +1,10 @@
+[
+    "smses",
+    "smses/{id}",
+    "smses/new",
+    "smses/batch/new",
+    "smses/batch/edit",
+    "smses/batch/delete",
+    "smses/{id}/edit",
+    "smses/{id}/delete"
+]
