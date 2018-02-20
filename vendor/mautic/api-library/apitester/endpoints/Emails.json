@@ -1,0 +1,12 @@
+[
+    "emails",
+    "emails/{id}",
+    "emails/new",
+    "emails/batch/new",
+    "emails/batch/edit",
+    "emails/batch/delete",
+    "emails/{id}/edit",
+    "emails/{id}/delete",
+    "emails/{id}/send",
+    "emails/{id}/contact/{contactId}/send"
+]

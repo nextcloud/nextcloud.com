@@ -6,6 +6,28 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit8fa0ec799546a9f5452392a519c87a0d
 {
+    public static $prefixLengthsPsr4 = array (
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
+        ),
+        'M' => 
+        array (
+            'Mautic\\' => 7,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Mautic\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mautic/api-library/lib',
+        ),
+    );
+
     public static $classMap = array (
         'ExampleClass' => __DIR__ . '/..' . '/jakub-onderka/php-parallel-lint/tests/skip-on-5.3/class.php',
         'ExampleTrait' => __DIR__ . '/..' . '/jakub-onderka/php-parallel-lint/tests/skip-on-5.3/trait.php',
@@ -44,6 +66,8 @@ class ComposerStaticInit8fa0ec799546a9f5452392a519c87a0d
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8fa0ec799546a9f5452392a519c87a0d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8fa0ec799546a9f5452392a519c87a0d::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit8fa0ec799546a9f5452392a519c87a0d::$classMap;
 
         }, null, ClassLoader::class);
