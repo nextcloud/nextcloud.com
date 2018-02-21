@@ -50,9 +50,8 @@ require(["require.config"], function() {
 			<div class="col-lg-8 col-lg-offset-2">
                 <h2 class="revealOnScroll"><?php echo $l->t('Analysis: data in healthcare');?></h2>
                 <p class="revealOnScroll"><?php echo $l->t('We recommend to keep sensitive data on your own infrastructure instead of in a public cloud as the easiest and most cost-effective way of ensuring compliance.<br>Download our free healthcare security analysis.');?></p>
-<!--                 <form name="whitepaper" method="post" action="../health-whitepapersubmit"> -->
-                <form name="whitepaper" method="post" action="<?php bloginfo('template_directory'); ?>/mautic-submit.php">
-<!--                 <form name="whitepaper" method="post" action="../mautic-submit"> -->
+
+                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
 
                     <p><label for="email">
                     <td colspan="2" style="text-align:center">

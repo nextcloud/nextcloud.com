@@ -1,0 +1,22 @@
+version: "3.2"
+services:
+  web:
+    build: .
+    links:
+      - mysql
+    environment:
+      - WORDPRESS_DB_PASSWORD=password
+      - WP_DEBUG=false
+      - PHP_XDEBUG_ENABLED=1
+      - XDEBUG_CONFIG=remote_host=10.254.254.254
+    ports:
+      - "80:80"
+    working_dir: /var/www/html
+    volumes:
+      - ${PWD}:/var/www/html/wp-content/themes/nextcloud.com
+
+  mysql:
+    image: mysql:5.7
+    environment:
+    - MYSQL_ROOT_PASSWORD=password
+    - MYSQL_DATABASE=nextcloud
