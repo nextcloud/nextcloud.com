@@ -234,6 +234,10 @@ if(isset($language[1]) && $language[1] === 'de') {
 			echo file_get_contents($cacheFile);
 			$echoed = true;
 		}
+		# do not store submit forms to the cache
+		if(strpos(get_post()->post_name, 'submit') !== false) {
+			$storeToCache = false;
+		}
 		if($storeToCache === true) {
 			file_put_contents($cacheFile, $html);
 			if(file_exists($cacheFile)) {
