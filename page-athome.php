@@ -70,12 +70,12 @@
         </div>
 	</div>
 	<div class="row">
-	<p class="section--paragraph text-center"><a class="hyperlink" href="<?php echo home_url('contributors') ?>"><?php echo $l->t('See the people behind Nextcloud!</a>');?></p>
+	<p class="section--paragraph text-center"><!--<a class="hyperlink" href="<?php echo home_url('contributors') ?>"><?php echo $l->t('See the people behind Nextcloud!</a>');?>--><a href="https://nextcloud.com/blog/the-issue-with-public-cloud/" class="button button--blue button--arrow button--large"><?php echo $l->t('Our blog about public clouds');?></a></p>
 	</div>
 	<div class="row">
 	<div class="col-md-6">
 	<p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud is people');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud is an open source community of developers and contributors, some helping out in their free time, others paid by their company to make Nextcloud better.');?> <a class="hyperlink" href="<?php echo home_url('contributors') ?>"><?php echo $l->t('You can see some of the people involved in Nextcloud here.</a>');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud is an open source community of developers and contributors, some helping out in their free time, others paid by their company to make Nextcloud better.');?> <!--<a class="hyperlink" href="<?php echo home_url('contributors') ?>"><?php echo $l->t('You can see some of the people involved in Nextcloud here.</a>');?>--></p>
 			<p class="section--paragraph"><?php echo $l->t('We organize events, attend conferences, hang out together at meetups and hackweeks. If you would like to meet Nextclouders,');?> <a class="hyperlink" href="<?php echo home_url('events') ?>"><?php echo $l->t('check out our events page!</a>');?></p>
 			<a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017.jpg"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017-small.jpg" alt="in action" ></a>
 	</div>
