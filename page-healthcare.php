@@ -59,7 +59,12 @@ require(["require.config"], function() {
                         <div id="RecaptchaField1"></div>
                     </div>
                     </td>
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large" type="submit" value=" Get the Analysis "></p>
+                    <input type="hidden" name="segmentId" value="2">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <input class="button button--large" type="submit" value=" Get the Analysis ">
+
+
+                    </p>
                 </form>
             </div>
         </div>
