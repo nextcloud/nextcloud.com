@@ -114,6 +114,7 @@ require(["require.config"], function() {
             <p class="section--paragraph__tittle"><?php echo $l->t('You need 100% certainty');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Email or public cloud solutions do not provide much security for sensitive data. Encryption is complicated and cumbersome to use.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Keeping data on your own infrastructure means you stay in control. Only then can you show your clients exactly where their sensitive documents are.');?></p>
+			<a href="https://nextcloud.com/blog/the-issue-with-public-cloud/" class="button button--blue button--arrow button--large"><?php echo $l->t('Read our blog for more');?></a>
         </div>
         <div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('Public clouds are not a safe solution');?></p>
