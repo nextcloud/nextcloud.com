@@ -12,3 +12,4 @@ l10n/
 !/assets/css/old/*.css
 node_modules/*
 yarn.lock
+mautiktoken.json
