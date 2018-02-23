@@ -125,13 +125,14 @@ require(["require.config"], function() {
         <div class="row">
 			<div class="col-lg-8">
                 <h2 class="revealOnScroll"><?php echo $l->t('How the TU Berlin delivers file sync and share to 22.000 users');?></h2>
-                <form name="whitepaper" method="post" action="../tuberlin-whitepapersubmit">
+                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <p><label for="email"><?php echo $l->t('Download our free case study: <br /> TU Berlin and 9 other institutions migrate from ownCloud to Nextcloud');?><br>
                     <td colspan="2" style="text-align:center">
                     <div class="">
                         <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
                     </div>
                     </td>
+                    <input type="hidden" name="segmentId" value="5">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large" type="submit" value=" Get the case study "></p>
                 </form>
             </div>
@@ -247,10 +248,11 @@ require(["require.config"], function() {
         <div class="col-md-offset-4 col-md-4 wp-center">
             <p>
             <div class="row "><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/architecture-thumbnail-banner.png"/></div>
-            <form name="whitepaper" method="post" action="../../architecture-whitepapersubmit">
+            <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                 <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper');?><br>
                 <input class="mail text-center" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
                 <td colspan="2">
+                <input type="hidden" name="segmentId" value="1">
                 <div class="g-recaptcha text-center" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
                 <input class="button button--blue button--large" type="submit" value=" Get the whitepaper ">
             </form>
