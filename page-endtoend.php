@@ -123,13 +123,14 @@
         <div class="row">
 			<div class="col-lg-8">
                 <h2 class="revealOnScroll"><?php echo $l->t('Get our whitepaper');?></h2>
-                <form name="whitepaper" method="post" action="../endtoend-whitepapersubmit">
-                    <p class="revealOnScroll"><label for="email"><?php echo $l->t('Download our <br /> End-to-end Encryption white paper!');?><br>
+                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                    <p class="revealOnScroll"><label for="email"><?php echo $l->t('Download our End-to-end Encryption white paper!');?><br>
                     <td colspan="2">
                     <div class="">
                         <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
                     </div>
                     </td>
+                    <input type="hidden" name="segmentId" value="12">
                     <input class="mail revealOnScroll" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large revealOnScroll" type="submit" value=" Get the white paper "></p>
                 </form>
             </div>
