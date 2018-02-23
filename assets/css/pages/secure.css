@@ -30,10 +30,11 @@
     .featureblock .features--container .feature {
       padding: 15px 0; }
       .featureblock .features--container .feature .icon {
-        margin-bottom: 30px; }
+        margin-top: 15px;
+        margin-bottom: 3px; }
       .featureblock .features--container .feature .section--paragraph {
-        padding-bottom: 10px;
-        padding-top: 20px; }
+        padding-bottom: 5px;
+        padding-top: 10px; }
   .featureblock .image--floated {
     float: right; }
   .featureblock .screenshot {
