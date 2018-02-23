@@ -49,89 +49,95 @@ if(isset($_POST['email'])) {
 		$error_message .= 'The email address supplied is invalid.<br />';
 	}
 
-	if (defined('RECAPTCHA_SECRET') && RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
-		$url = 'https://www.google.com/recaptcha/api/siteverify';
-		$ch = curl_init();
+    // check captcha. Comment it out for local testing of the form!
+// 	if (defined('RECAPTCHA_SECRET') && RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
+// 		$url = 'https://www.google.com/recaptcha/api/siteverify';
+// 		$ch = curl_init();
+//
+// 		curl_setopt($ch, CURLOPT_URL, $url);
+// 		curl_setopt($ch, CURLOPT_POST, 1);
+// 		curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
+// 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+//
+// 		$server_output = curl_exec($ch);
+//
+// 		$server_output = json_decode($server_output, true);
+//
+// 		curl_close($ch);
+//
+// 		if (!isset($server_output['success']) || $server_output['success'] !== true) {
+// 			$error_message .= 'The captcha result was invalid.<br />';
+// 		}
+// 	} else {
+// 		$error_message .= 'Captcha code is missing.<br />';
+// 	}
+    // end captcha test
 
-		curl_setopt($ch, CURLOPT_URL, $url);
-		curl_setopt($ch, CURLOPT_POST, 1);
-		curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-		$server_output = curl_exec($ch);
-
-		$server_output = json_decode($server_output, true);
-
-		curl_close($ch);
-
-		if (!isset($server_output['success']) || $server_output['success'] !== true) {
-			$error_message .= 'The captcha result was invalid.<br />';
-		}
-	} else {
-		$error_message .= 'Captcha code is missing.<br />';
-	}
-
-        // Authentication
-        // load the accessTokenData array which consists of a accessToken, accessTokenSecret and accessTokenExpires
-        $file = './mautictoken.json';
-        $accessTokenData = json_decode(file_get_contents($file), TRUE);
+    // Authentication
+    // load the accessTokenData array which consists of a accessToken, accessTokenSecret and accessTokenExpires
+    $file = './mautictoken.json';
+    $accessTokenData = json_decode(file_get_contents($file), TRUE);
 
 
-        if (!empty($accessTokenData['access_token']) && !empty($accessTokenData['refresh_token'])) {
-            $settings['accessToken']        = $accessTokenData['access_token'] ;
-            $settings['refreshToken']  = $accessTokenData['refresh_token'];
-            $settings['accessTokenExpires'] = $accessTokenData['expires'];
+    if (!empty($accessTokenData['access_token']) && !empty($accessTokenData['refresh_token'])) {
+        $settings['accessToken']        = $accessTokenData['access_token'] ;
+        $settings['refreshToken']  = $accessTokenData['refresh_token'];
+        $settings['accessTokenExpires'] = $accessTokenData['expires'];
+    }
+
+    // start auth stuff, create request headers
+    $initAuth   = new \Mautic\Auth\ApiAuth();
+    $auth       = $initAuth->newAuth($settings);
+    $apiUrl     = "https://nextcloud.mautic.net";
+    $api        = new \Mautic\MauticApi();
+    $contactApi = $api->newApi("contacts", $auth, $apiUrl);
+
+    // create a list if fields from the contact API
+    $fields = $contactApi->getFieldList();
+
+    // fill up the data array with what we know
+    $data = array();
+
+    foreach ($fields as $field) {
+        $data[$field['alias']] = $data[$field['alias']];
+    }
+//     some random test data
+//     $data['firstname'] = 'first_test';
+//     $data['lastname'] = 'last_test';
+//     $data['email'] = 'test@test.com';
+    $data['email'] =  $email_to;
+
+    $contact = $contactApi->create($data);
+
+    // error handling
+    if(!isset($contact['contact']['id'])) {
+            $error_message .= 'Contact to Mautic failed, contact details:<br />';
+            $error_message .= $contact . '.<br />';
+    }
+
+    // save contact ID in a variable
+
+    $contactId = $contact['contact']['id'];
+
+    // determine if we need to add contact to a segment
+    if(isset($_POST['segmentId'])) {
+        // step one: create segmentApi
+        $segmentApi = $api->newApi("segments", $auth, $apiUrl);
+
+        // step two: determine segmentId
+        $segmentId = $_POST['segmentId'];
+
+        // remove the contact from the segment if they're in it. This allows them to get the email again. -> this doesn't work in tests, asked Mautic support if they have any other suggestions...
+        $response = $segmentApi->removeContact($segmentId, $contactId);
+        // ignore errors in the above... don't care if the person wasn't in there
+        $response = '';
+        // add the contact to the segment (this will typically result in an action being taken, like a mail sent)
+        $response = $segmentApi->addContact($segmentId, $contactId);
+        if (!isset($response['success'])) {
+            $error_message .= 'Adding user to segment failed, error:<br />';
+            $error_message .= $response . '.<br />';
         }
-
-        // start auth stuff, create request headers
-        $initAuth   = new \Mautic\Auth\ApiAuth();
-        $auth       = $initAuth->newAuth($settings);
-        $apiUrl     = "https://nextcloud.mautic.net";
-        $api        = new \Mautic\MauticApi();
-        $contactApi = $api->newApi("contacts", $auth, $apiUrl);
-
-        // create a list if fields from the contact API
-        $fields = $contactApi->getFieldList();
-
-        // fill up the data array with what we know
-        $data = array();
-
-        foreach ($fields as $field) {
-            $data[$field['alias']] = $data[$field['alias']];
-        }
-    //     some random test data
-    //     $data['firstname'] = 'first_test';
-    //     $data['lastname'] = 'last_test';
-    //     $data['email'] = 'test@test.com';
-        $data['email'] =  $email_to;
-
-        $contact = $contactApi->create($data);
-
-        // error handling
-        if(!isset($contact['contact']['id'])) {
-                $error_message .= 'Contact to Mautic failed, contact details:<br />';
-                $error_message .= $contact . '.<br />';
-        }
-
-        // save contact ID in a variable
-
-        $contactId = $contact['contact']['id'];
-
-        // determine if we need to add contact to a segment
-        if(isset($_POST['segmentId'])) {
-            // step one: create segmentApi
-            $segmentApi = $api->newApi("segments", $auth, $apiUrl);
-
-            // step two: determine segmentId
-            $segmentId = $_POST['segmentId'];
-
-            // add the contact to the segment (this will typically result in an action being taken, like a mail sent)
-            $response = $segmentApi->addContact($segmentId, $contactId);
-            if (!isset($response['success'])) {
-                $error_message .= 'Adding user to segment failed, error:<br />';
-                $error_message .= $response . '.<br />';
-            }
-        }
+    }
     // check if anything went wrong
     if (strlen($error_message) > 0) {
 		died($error_message);
