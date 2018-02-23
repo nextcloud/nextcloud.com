@@ -6,3 +6,37 @@
   background-position: center;
   background-size: cover;
 }
+
+section {
+    padding: 50px 0 50px;
+    .section--heading-1 {
+        padding-bottom: 50px;
+    }
+    .section--paragraph--tittle {
+        padding: 0;
+    }
+    .row {
+        padding: 20px 0 20px 0;
+		.feature--block {
+		}
+    }
+	.feature-row {
+		padding: 60px 0 60px 0;
+	}
+}
+
+.img-responsive {
+    padding-top: 10px;
+    @media (min-width: $break-big) {
+        margin-bottom: 50px;
+    }
+    @media (min-width: $very-wide) {
+        /* 	margin-bottom: 0px; */
+    }
+}
+
+.separator{
+	margin: 100px 0 50px 0;
+	height: 40px;
+	background: #f6f6f6;
+}
