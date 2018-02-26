@@ -279,7 +279,7 @@
 	</div>
 </section>
 
-<section class="section--whitepaper quote">
+<!--<section class="section--whitepaper quote">
 	<div class="container revealOnScroll">
         <div class="row">
 			<div class="col-lg-8">
@@ -297,7 +297,7 @@
         </div>
         <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/nc12-thumbnail-banner.png"/>
 	</div>
-</section>
+</section>-->
 
 <section class="section--workflow">
 	<a name="workflow" id="workflow"></a>
