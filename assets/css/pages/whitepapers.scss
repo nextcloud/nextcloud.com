@@ -1,0 +1,107 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+.whitepapers-background {
+  background: url('../../img/headers/usermanagement.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section--header {
+	.col-md-8 p {
+	text-align: center;
+	}
+}
+
+.image--floated {
+	float: right;
+}
+
+section {
+	padding: 100px 0;
+	min-width: 320px;
+
+	.row {
+		padding-top: 30px;
+	}
+
+	.list {
+		.row {
+			padding-top: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+		.wpthumbnail {
+			height: 255px;
+			margin-left: auto;
+			margin-right: auto;
+			img {
+				max-height: 250px;
+			}
+		}
+		.description {
+/* 			height: 180px; */
+		}
+		.section--paragraph__tittle {
+			padding: 0;
+			font-size: 18px;
+		}
+		.section--paragraph {
+			font-size: 14px;
+			max-width: 400px;
+		}
+
+
+/*		@media (max-width: $break-huge) {
+			.description {
+				height: 180px;
+			}
+		}*/
+		@media (max-width: $navbar-breaksize) {
+			.description {
+/* 				height: 220px; */
+			}
+		}
+		@media (max-width: $break-big) {
+			.description {
+/* 				height: 130px; */
+			}
+		}
+
+		form {
+			max-width: 400px;
+		}
+
+		.button--blue {
+			text-decoration: none;
+			color: $nextcloud-blue;
+			background-color: white;
+			border: solid 1px $nextcloud-blue;
+		}
+		.button--blue:hover {
+			text-decoration: none;
+			color: white;
+			background-color: $nextcloud-blue;
+		}
+		.button--small {
+			width: 100%;
+			max-width: 300px;
+		}
+		.mail {
+			height: 40px;
+			border-radius: 40px;
+			border-style: solid;
+			border-color: lightgray;
+			border-width: thin;
+			padding: 8px;
+	/*         margin-top: 15px; */
+			color: #757575;
+			width: 100%;
+			max-width: 300px;
+		}
+	}
+}
+
+footer {
+/*     margin-top: 0px; */
+}
