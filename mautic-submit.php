@@ -109,8 +109,8 @@ try {
     // step two: determine segmentId
     $segmentId = $_POST['segmentId'];
 
-    // remove the contact from the segment if they're in it. This allows them to get the email again. -> this doesn't work in tests, asked Mautic support if they have any other suggestions...
-    $segmentApi->removeContact($segmentId, $contactId);
+    // TODO way to resend the email if contact is already subscripted - asked Mautic support if they have any suggestions how to do it
+
     // ignore errors in the above... don't care if the person wasn't in there
     // add the contact to the segment (this will typically result in an action being taken, like a mail sent)
     $response = $segmentApi->addContact($segmentId, $contactId);
