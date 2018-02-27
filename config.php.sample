@@ -11,4 +11,6 @@ define(PIWIKTRACKING, 0);
 // Recaptcha
 DEFINE(RECAPTCHA_SITEKEY, '');
 DEFINE(RECAPTCHA_SECRET, '');
-?>
+define('MAUTIC_URL', 'https://mautic.nextcloud.com');
+define('MAUTIC_USERNAME', 'username');
+define('MAUTIC_PASSWORD', 'password');
