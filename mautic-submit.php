@@ -85,7 +85,6 @@ try {
     // fill up the data array with what we know
     $data = [
         'email' => $email_to,
-        'country' => 'zipcode',
 
     ];
 
