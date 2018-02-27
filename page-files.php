@@ -279,26 +279,6 @@
 	</div>
 </section>
 
-<!--<section class="section--whitepaper quote">
-	<div class="container revealOnScroll">
-        <div class="row">
-			<div class="col-lg-8">
-				<h2 class="revealOnScroll"><?php echo $l->t('Find out what is new in Nextcloud 12');?></h2>
-				<form name="whitepaper" method="post" action="../nextcloud12-whitepapersubmit">
-                    <p><label for="email"><?php echo $l->t('Read <a class="hyperlink" href="https://nextcloud.com/blog/welcome-to-nextcloud-12/">our announcement blog</a> or download our free Nextcloud 12 datasheet.');?><br>
-                    <td colspan="2">
-                    <div class="">
-                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                    </div>
-                    </td>
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large" type="submit" value=" Get the datasheet "></p>
-				</form>
-			</div>
-        </div>
-        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/nc12-thumbnail-banner.png"/>
-	</div>
-</section>-->
-
 <section class="section--workflow">
 	<a name="workflow" id="workflow"></a>
 	<div class="container">
