@@ -5,6 +5,26 @@
     var CaptchaCallback = function() {
         grecaptcha.render('RecaptchaField1', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
         grecaptcha.render('RecaptchaField2', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField3', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField4', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField5', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField6', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField7', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField8', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField9', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField10', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField11', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField12', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField13', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField14', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField15', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField16', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField17', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField18', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField19', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField20', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField21', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField22', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
     };
 </script>
 </head>
@@ -36,7 +56,7 @@
                 </div>
                 <form class="" name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
-                    <div class="">
+                    <div class="recaptcha">
                         <div id="RecaptchaField1"></div>
                     </div>
                     </td>
@@ -57,7 +77,7 @@
                 <form class="" name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="">
-                        <div id="RecaptchaField1"></div>
+                        <div id="RecaptchaField2"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="14">
@@ -77,7 +97,7 @@
                 <form class="" name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="">
-                        <div id="RecaptchaField2"></div>
+                        <div id="RecaptchaField3"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="11">
@@ -97,7 +117,7 @@
                 <form class="" name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="">
-                        <div id="RecaptchaField3"></div>
+                        <div id="RecaptchaField4"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="5">
@@ -119,7 +139,7 @@
                 <form class="" name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="">
-                        <div id="RecaptchaField3"></div>
+                        <div id="RecaptchaField5"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="12">
@@ -139,7 +159,7 @@
                 <form class="" name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="">
-                        <div id="RecaptchaField4"></div>
+                        <div id="RecaptchaField6"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="10">
@@ -159,7 +179,7 @@
                 <form class="" name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="">
-                        <div id="RecaptchaField2"></div>
+                        <div id="RecaptchaField7"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="4">
@@ -179,7 +199,7 @@
                 <form class="" name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="">
-                        <div id="RecaptchaField4"></div>
+                        <div id="RecaptchaField8"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="10">
@@ -208,7 +228,7 @@
                 <form class="" name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="">
-                        <div id="RecaptchaField2"></div>
+                        <div id="RecaptchaField9"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="2">
@@ -228,7 +248,7 @@
                 <form class="" name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="">
-                        <div id="RecaptchaField3"></div>
+                        <div id="RecaptchaField10"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="15">
@@ -248,7 +268,7 @@
                 <form class="" name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="">
-                        <div id="RecaptchaField1"></div>
+                        <div id="RecaptchaField11"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="13">
@@ -268,7 +288,7 @@
                 <form class="" name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="">
-                        <div id="RecaptchaField1"></div>
+                        <div id="RecaptchaField12"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="6">
@@ -290,7 +310,7 @@
                 <form class="" name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="">
-                        <div id="RecaptchaField3"></div>
+                        <div id="RecaptchaField13"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="7">
@@ -310,7 +330,7 @@
                 <form class="" name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="">
-                        <div id="RecaptchaField4"></div>
+                        <div id="RecaptchaField14"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="8">
@@ -330,7 +350,7 @@
                 <form class="" name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="">
-                        <div id="RecaptchaField2"></div>
+                        <div id="RecaptchaField15"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="9">
@@ -350,7 +370,7 @@
                 <form class="" name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="">
-                        <div id="RecaptchaField4"></div>
+                        <div id="RecaptchaField16"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="10">

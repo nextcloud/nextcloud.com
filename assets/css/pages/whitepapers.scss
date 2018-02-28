@@ -52,26 +52,45 @@ section {
 		}
 
 
-/*		@media (max-width: $break-huge) {
-			.description {
-				height: 180px;
+		.recaptcha {
+			.recaptcha {
+				transform: scale(0.77);
+				transform-origin: 0 0;
 			}
-		}*/
+		}
+
 		@media (max-width: $navbar-breaksize) {
 			.description {
 /* 				height: 220px; */
+			}
+			.recaptcha {
+				transform: scale(0.70);
+				transform-origin: 0 0;
 			}
 		}
 		@media (max-width: $break-big) {
 			.description {
 /* 				height: 130px; */
 			}
+			.recaptcha {
+				transform: scale(1.0);
+				transform-origin: 0 0;
+			}
+		}
+
+		@media (max-width: $break-big) {
+			.description {
+/* 				height: 130px; */
+			}
+			.recaptcha {
+				transform: scale(0.70);
+				transform-origin: 0 0;
+			}
 		}
 
 		form {
 			max-width: 400px;
 		}
-
 		.button--blue {
 			text-decoration: none;
 			color: $nextcloud-blue;
