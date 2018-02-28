@@ -293,6 +293,13 @@ if(isset($_POST['email'])) {
 		foreach ($recipients as $recipient) {
 			$successfullySend &= mail($recipient . '@nextcloud.com', $email_subject, $email_message, $headers);
 		}
+        // store in log
+        $data = [
+                'subject' => $email_subject,
+                'message' => $email_message,
+                'headers' => $headers,
+        ];
+        file_put_contents('/var/log/sales-leads.txt', json_encode($data) . PHP_EOL, FILE_APPEND | LOCK_EX);
 
 		if ($successfullySend) {
 			?>
