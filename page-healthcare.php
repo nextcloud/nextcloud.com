@@ -50,14 +50,21 @@ require(["require.config"], function() {
 			<div class="col-lg-8 col-lg-offset-2">
                 <h2 class="revealOnScroll"><?php echo $l->t('Analysis: data in healthcare');?></h2>
                 <p class="revealOnScroll"><?php echo $l->t('We recommend to keep sensitive data on your own infrastructure instead of in a public cloud as the easiest and most cost-effective way of ensuring compliance.<br>Download our free healthcare security analysis.');?></p>
-                <form name="whitepaper" method="post" action="../health-whitepapersubmit">
+
+                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+
                     <p><label for="email">
                     <td colspan="2" style="text-align:center">
                     <div class="">
                         <div id="RecaptchaField1"></div>
                     </div>
                     </td>
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large" type="submit" value=" Get the Analysis "></p>
+                    <input type="hidden" name="segmentId" value="2">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <input class="button button--large" type="submit" value=" Get the Analysis ">
+
+
+                    </p>
                 </form>
             </div>
         </div>
@@ -272,7 +279,7 @@ require(["require.config"], function() {
         <div class="col-md-offset-4 col-md-4 wp-center">
             <p>
             <div class="row "><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/architecture-thumbnail-banner.png"/></div>
-            <form name="whitepaper" method="post" action="../architecture-whitepapersubmit">
+            <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                 <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper');?><br>
                 <input class="mail text-center" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
                 <td colspan="2">
@@ -281,6 +288,7 @@ require(["require.config"], function() {
                         <div id="RecaptchaField2"></div>
                     </div>
                 </td>
+                <input type="hidden" name="segmentId" value="1">
                 <input class="button button--blue button--large" type="submit" value=" Get the whitepaper ">
             </form>
             </p>

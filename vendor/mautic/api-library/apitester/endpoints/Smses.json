@@ -1,0 +1,10 @@
+[
+    "notifications",
+    "notifications/{id}",
+    "notifications/new",
+    "notifications/batch/new",
+    "notifications/batch/edit",
+    "notifications/batch/delete",
+    "notifications/{id}/edit",
+    "notifications/{id}/delete"
+]

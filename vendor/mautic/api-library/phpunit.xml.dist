@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="tests/bootstrap.php" colors="false" backupGlobals="false">
+	<testsuites>
+		<testsuite name="API-Test-Suite">
+			<directory>tests</directory>
+		</testsuite>
+	</testsuites>
+
+	<filter>
+		<whitelist addUncoveredFilesFromWhitelist="true">
+			<directory suffix=".php">lib</directory>
+		</whitelist>
+	</filter>
+</phpunit>

@@ -1,6 +1,12 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/storage.css" rel="stylesheet">
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
+<script type="text/javascript">
+    var CaptchaCallback = function() {
+        grecaptcha.render('RecaptchaField1', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+        grecaptcha.render('RecaptchaField2', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
+    };
+</script>
 </head>
 <div class="background storage-background">
 	<div class="container">
@@ -25,6 +31,31 @@
 			 <p class="section--paragraph"><?php echo $l->t('Your IT stays in control of the data thanks to powerful');?> <a class="hyperlink" href="<?php echo home_url('workflow') ?>"><?php echo $l->t('File Access Control</a> and');?> <a class="hyperlink" href="<?php echo home_url('monitoring') ?>"><?php echo $l->t('logging</a> capabilities.');?></p>
 		</div>
 	</div>
+</div>
+
+<section class="section--whitepaper quote">
+	<div class="container revealOnScroll">
+        <div class="row">
+            <div class="col-lg-8">
+                <h2 class="revealOnScroll"><?php echo $l->t('Windows Network Drive');?></h2>
+                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                    <p><label for="email"><?php echo $l->t('Download our free Windows Network Drive datasheet');?><br>
+                     <td colspan="2" style="text-align:center">
+                    <div class="">
+                        <div id="RecaptchaField1"></div>
+                    </div>
+                    </td>
+                    <input type="hidden" name="segmentId" value="8">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large" type="submit" value=" Get the datasheet "></p>
+                </form>
+            </div>
+        </div>
+        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/wnd-thumbnail-banner.png"/>
+	</div>
+</section>
+
+<section class="section--storage">
+<div class="container">
 	<div class="row">
 		<div class="col-md-6 revealOnScroll">
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png" /></a>
@@ -42,14 +73,15 @@
 	<div class="container revealOnScroll">
         <div class="row">
             <div class="col-lg-8">
-                <h2 class="revealOnScroll"><?php echo $l->t('Get our datasheets');?></h2>
-                <form name="whitepaper" method="post" action="../storage-whitepapersubmit">
-                    <p><label for="email"><?php echo $l->t('Download our free datasheets about<br /> Windows Network Drive and Sharepoint');?><br>
-                    <td colspan="2">
+                <h2 class="revealOnScroll"><?php echo $l->t('SharePoint Integration');?></h2>
+                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                    <p><label for="email"><?php echo $l->t('Download our free datasheet on SharePoint as External Storage');?><br>
+                     <td colspan="2" style="text-align:center">
                     <div class="">
-                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                        <div id="RecaptchaField2"></div>
                     </div>
                     </td>
+                    <input type="hidden" name="segmentId" value="9">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large" type="submit" value=" Get the datasheet "></p>
                 </form>
             </div>

@@ -1,0 +1,114 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.whitepapers-background {
+  background: url("../../img/headers/usermanagement.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.section--header .col-md-8 p {
+  text-align: center; }
+
+.image--floated {
+  float: right; }
+
+section {
+  padding: 100px 0;
+  min-width: 320px; }
+  section .row {
+    padding-top: 30px; }
+  section .list .row {
+    padding-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px; }
+  section .list .wpthumbnail {
+    height: 255px;
+    margin-left: auto;
+    margin-right: auto; }
+    section .list .wpthumbnail img {
+      max-height: 250px; }
+  section .list .description {
+    /* 			height: 180px; */ }
+  section .list .section--paragraph__tittle {
+    padding: 0;
+    font-size: 18px; }
+  section .list .section--paragraph {
+    font-size: 14px;
+    max-width: 400px; }
+  section .list .recaptcha {
+    -webkit-transform: scale(0.87);
+    -moz-transform: scale(0.87);
+    -ms-transform: scale(0.87);
+    -o-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+    margin: 10px auto 10px auto; }
+  @media (max-width: 1200px) {
+    section .list .description {
+      /* 				height: 220px; */ }
+    section .list .recaptcha {
+      -webkit-transform: scale(0.7);
+      -moz-transform: scale(0.7);
+      -ms-transform: scale(0.7);
+      -o-transform: scale(0.7);
+      transform: scale(0.7);
+      -webkit-transform-origin: 0 0;
+      -moz-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+      -o-transform-origin: 0 0;
+      transform-origin: 0 0;
+      margin: 10px auto 0px auto; } }
+  @media (max-width: 991px) {
+    section .list .description {
+      /* 				height: 130px; */ }
+    section .list .recaptcha {
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transform-origin: 0 0;
+      -moz-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+      -o-transform-origin: 0 0;
+      transform-origin: 0 0;
+      margin: 5px auto 10px auto; } }
+  section .list form {
+    max-width: 400px; }
+  section .list .button--blue {
+    text-decoration: none;
+    color: #0082c9;
+    background-color: white;
+    border: solid 1px #0082c9; }
+  section .list .button--blue:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #0082c9; }
+  section .list .button--small {
+    width: 100%;
+    max-width: 300px; }
+  section .list .mail {
+    height: 40px;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: thin;
+    padding: 8px;
+    /*         margin-top: 15px; */
+    color: #757575;
+    width: 100%;
+    max-width: 300px; }
+
+footer {
+  /*     margin-top: 0px; */ }
+
+/*# sourceMappingURL=whitepapers.css.map */

@@ -1,0 +1,10 @@
+[
+    "pages",
+    "pages/{id}",
+    "pages/new",
+    "pages/batch/new",
+    "pages/batch/edit",
+    "pages/batch/delete",
+    "pages/{id}/edit",
+    "pages/{id}/delete"
+]

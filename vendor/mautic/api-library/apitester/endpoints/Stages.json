@@ -1,0 +1,10 @@
+[
+    "stages",
+    "stages/{id}",
+    "stages/new",
+    "stages/batch/new",
+    "stages/batch/edit",
+    "stages/batch/delete",
+    "stages/{id}/edit",
+    "stages/{id}/delete",
+]

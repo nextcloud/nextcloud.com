@@ -11,4 +11,29 @@
   background-position: center;
   background-size: cover; }
 
+section {
+  padding: 50px 0 50px; }
+  section .section--heading-1 {
+    padding-bottom: 50px; }
+  section .section--paragraph--tittle {
+    padding: 0; }
+  section .row {
+    padding: 20px 0 20px 0; }
+  section .feature-row {
+    padding: 60px 0 60px 0; }
+
+.img-responsive {
+  padding-top: 10px; }
+  @media (min-width: 991px) {
+    .img-responsive {
+      margin-bottom: 50px; } }
+  @media (min-width: 1600px) {
+    .img-responsive {
+      /* 	margin-bottom: 0px; */ } }
+
+.separator {
+  margin: 100px 0 50px 0;
+  height: 40px;
+  background: #f6f6f6; }
+
 /*# sourceMappingURL=support.css.map */

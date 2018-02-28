@@ -1,0 +1,11 @@
+[
+    "segments",
+    "segments/new",
+    "segments/batch/new",
+    "segments/batch/edit",
+    "segments/batch/delete",
+    "segments/{id}/edit",
+    "segments/{id}/delete",
+    "segments/{id}/contact/{contactId}/add",
+    "segments/{id}/contact/{contactId}/remove"
+]

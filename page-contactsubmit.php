@@ -99,6 +99,14 @@ if(isset($_POST['email'])) {
     $headers = 'From: no-reply@nextcloud.com'."\r\n".
     'Reply-To: '.$email_from."\r\n" .
     'Cc: '.$email_from;
+// store in log
+    $data = [
+            'to' => $email_to,
+            'subject' => $email_subject,
+            'message' => $email_message,
+            'headers' => $headers,
+    ];
+    file_put_contents('/var/log/sales-leads.txt', json_encode($data) . PHP_EOL, FILE_APPEND | LOCK_EX);
 // Send the email to the list
     @mail($email_to, $email_subject, $email_message, $headers);
 // Second email to subscribe to the mailing list

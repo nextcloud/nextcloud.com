@@ -1,0 +1,21 @@
+[
+    "roles",
+    "roles/{id}",
+    "roles/new",
+    "roles/batch/new",
+    "roles/batch/edit",
+    "roles/batch/delete",
+    "roles/{id}/edit",
+    "roles/{id}/delete",
+    "users",
+    "users/{id}",
+    "users/new",
+    "users/batch/new",
+    "users/batch/edit",
+    "users/batch/delete",
+    "users/{id}/edit",
+    "users/{id}/delete",
+    "users/list/roles",
+    "users/self",
+    "users/{id}/permissioncheck"
+]
