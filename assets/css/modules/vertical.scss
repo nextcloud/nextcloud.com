@@ -1,3 +1,5 @@
+@import '../variables';
+
 .section--vertical {
     margin: 0 0 0 0;
     padding: 90px 70px 70px 70px;
@@ -11,5 +13,20 @@
     .description {
 		min-height: 100px;
 
+	}
+	.button--blue {
+		text-decoration: none;
+		color: $nextcloud-blue;
+		background-color: transparent;
+		border: solid 1px $nextcloud-blue;
+	}
+	.button--blue:hover {
+		text-decoration: none;
+		color: white;
+		background-color: $nextcloud-blue;
+	}
+	.button--small {
+		width: 100%;
+		max-width: 300px;
 	}
 }

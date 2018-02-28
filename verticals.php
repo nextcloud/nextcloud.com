@@ -17,7 +17,7 @@
 			<div class="row text-center description">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Healthcare');?></p>
                 <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud provides the highest security for protected health information.');?></p>
-                <p class="section--paragraph text-center"><a href="<?php echo home_url('healthcare') ?>"><?php echo $l->t('learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
+                <p class="section--paragraph text-center"><a class="button button--blue button-small" href="<?php echo home_url('healthcare') ?>"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
             </div>
 		</div>
 		<div class="col-md-3 revealOnScroll">
@@ -25,23 +25,23 @@
 			<div class="row text-center description">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Education');?></p>
                 <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud has unique features for research and academic institutions.');?></p>
-                <p class="section--paragraph text-center"><a href="<?php echo home_url('education') ?>" ><?php echo $l->t('learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
+                <p class="section--paragraph text-center"><a class="button button--blue button-small"href="<?php echo home_url('education') ?>" ><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
             </div>
 		</div>
 		<div class="col-md-3 revealOnScroll">
 			<a href="<?php echo home_url('agencies') ?>" ><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/media-small.jpg" /></a>
 			<div class="row text-center description">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Media and Advertising');?></p>
-                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud provides easy and quick collaboration on large files.');?></p>
-                <p class="section--paragraph text-center"><a href="<?php echo home_url('agencies') ?>" ><?php echo $l->t('learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud provides easy and efficient collaboration on large files.');?></p>
+                <p class="section--paragraph text-center"><a class="button button--blue button-small"href="<?php echo home_url('agencies') ?>" ><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
             </div>
 		</div>
         <div class="col-md-3 revealOnScroll">
-			<a href="<?php echo home_url('agencies') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/legal-small.jpg" /></a>
+			<a href="<?php echo home_url('legal') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/legal-small.jpg" /></a>
 			<div class="row text-center description">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Lawyers and Notaries');?></p>
-                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud gives your clients the assurance that their documents stay 100% confidential.');?></p>
-                <p class="section--paragraph text-center"><a href="<?php echo home_url('agencies') ?>"><?php echo $l->t('learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud assures your clients that their documents stay 100% confidential.');?></p>
+                <p class="section--paragraph text-center"><a class="button button--blue button-small"href="<?php echo home_url('legal') ?>"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
             </div>
 		</div>
     </div>
