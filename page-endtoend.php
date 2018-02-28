@@ -133,6 +133,7 @@
                     <input type="hidden" name="segmentId" value="12">
                     <input class="mail revealOnScroll" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large revealOnScroll" type="submit" value=" Get the white paper "></p>
                 </form>
+                <small><?php echo $l->t('Find the technical design (RFC) of our solution on');?> <a class="hyperlink" href="https://github.com/nextcloud/end_to_end_encryption_rfc">github.</a></small>
             </div>
         </div>
         <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/endtoend-thumbnail-banner.png"/>
