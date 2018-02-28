@@ -282,9 +282,8 @@ require(["require.config"], function() {
             <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                 <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper');?><br>
                 <input class="mail text-center" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
-                <td colspan="2">
-                <td colspan="2" style="text-align:center">
-                    <div class="">
+                <td colspan="2" style="">
+                    <div style="margin-left: auto; width: 304px; height: 78px; margin-right: auto; text-align: center;">
                         <div id="RecaptchaField2"></div>
                     </div>
                 </td>
