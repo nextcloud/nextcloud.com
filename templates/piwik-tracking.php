@@ -25,4 +25,4 @@
 
     mt('send', 'pageview');
 </script>
-<!-- End Piwik Code -->
+<!-- End Mautic code -->
