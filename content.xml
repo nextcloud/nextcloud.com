@@ -425,7 +425,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://webchat.freenode.net/?channels=owncloud]]></wp:meta_value>
+			<wp:meta_value><![CDATA[https://webchat.freenode.net/?channels=owncloud]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
