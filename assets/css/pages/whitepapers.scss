@@ -54,7 +54,15 @@ section {
 
 		.recaptcha {
 			.recaptcha {
+				-webkit-transform: scale(0.77);
+				-moz-transform: scale(0.77);
+				-ms-transform: scale(0.77);
+				-o-transform: scale(0.77);
 				transform: scale(0.77);
+				-webkit-transform-origin: 0 0;
+				-moz-transform-origin: 0 0;
+				-ms-transform-origin: 0 0;
+				-o-transform-origin: 0 0;
 				transform-origin: 0 0;
 			}
 		}
@@ -64,7 +72,15 @@ section {
 /* 				height: 220px; */
 			}
 			.recaptcha {
+				-webkit-transform: scale(0.70);
+				-moz-transform: scale(0.70);
+				-ms-transform: scale(0.70);
+				-o-transform: scale(0.70);
 				transform: scale(0.70);
+				-webkit-transform-origin: 0 0;
+				-moz-transform-origin: 0 0;
+				-ms-transform-origin: 0 0;
+				-o-transform-origin: 0 0;
 				transform-origin: 0 0;
 			}
 		}
@@ -73,7 +89,15 @@ section {
 /* 				height: 130px; */
 			}
 			.recaptcha {
+				-webkit-transform: scale(1.0);
+				-moz-transform: scale(1.0);
+				-ms-transform: scale(1.0);
+				-o-transform: scale(1.0);
 				transform: scale(1.0);
+				-webkit-transform-origin: 0 0;
+				-moz-transform-origin: 0 0;
+				-ms-transform-origin: 0 0;
+				-o-transform-origin: 0 0;
 				transform-origin: 0 0;
 			}
 		}
