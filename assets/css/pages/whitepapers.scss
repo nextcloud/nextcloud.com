@@ -53,18 +53,16 @@ section {
 
 
 		.recaptcha {
-			.recaptcha {
-				-webkit-transform: scale(0.77);
-				-moz-transform: scale(0.77);
-				-ms-transform: scale(0.77);
-				-o-transform: scale(0.77);
-				transform: scale(0.77);
-				-webkit-transform-origin: 0 0;
-				-moz-transform-origin: 0 0;
-				-ms-transform-origin: 0 0;
-				-o-transform-origin: 0 0;
-				transform-origin: 0 0;
-			}
+			-webkit-transform: scale(0.77);
+			-moz-transform: scale(0.77);
+			-ms-transform: scale(0.77);
+			-o-transform: scale(0.77);
+			transform: scale(0.77);
+			-webkit-transform-origin: 0 0;
+			-moz-transform-origin: 0 0;
+			-ms-transform-origin: 0 0;
+			-o-transform-origin: 0 0;
+			transform-origin: 0 0;
 		}
 
 		@media (max-width: $navbar-breaksize) {
