@@ -1,3 +1,6 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
 .section--vertical {
   margin: 0 0 0 0;
   padding: 90px 70px 70px 70px;
@@ -8,5 +11,17 @@
     padding: 20px; }
   .section--vertical .description {
     min-height: 100px; }
+  .section--vertical .button--blue {
+    text-decoration: none;
+    color: #0082c9;
+    background-color: transparent;
+    border: solid 1px #0082c9; }
+  .section--vertical .button--blue:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #0082c9; }
+  .section--vertical .button--small {
+    width: 100%;
+    max-width: 300px; }
 
 /*# sourceMappingURL=vertical.css.map */
