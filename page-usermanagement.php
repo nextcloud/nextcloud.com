@@ -81,7 +81,7 @@
                 <h2 class="revealOnScroll"><?php echo $l->t('Get our LDAP datasheet');?></h2>
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <p><label for="email"><?php echo $l->t('Download our free datasheet: <br /> LDAP user management');?><br>
-                    <td colspan="2" style="text-align:center">
+                    <td colspan="2">
                     <div class="">
                         <div id="RecaptchaField1"></div>
                     </div>
