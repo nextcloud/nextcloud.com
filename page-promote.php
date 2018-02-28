@@ -16,7 +16,7 @@
 </div>
 <p>Nextcloud users and enthusiasts can discuss and share Nextcloud experiences on our Forums, IRC and mailing lists.</p>
       <ul>
-        <li>Join the <a href="https://forum.nextcloud.org">Nextcloud forums</a> and our <a href="irc://#nextcloud@freenode.net" target="_blank">IRC channel</a> (<a href="http://webchat.freenode.net/?channels=nextcloud" target="_blank">Webchat</a>)</li>
+        <li>Join the <a href="https://forum.nextcloud.org">Nextcloud forums</a> and our <a href="irc://#nextcloud@freenode.net" target="_blank">IRC channel</a> (<a href="https://webchat.freenode.net/?channels=nextcloud" target="_blank">Webchat</a>)</li>
         <li>See Nextcloud development questions on <a href="https://stackoverflow.com/questions/tagged/nextcloud">Stack Overflow</a> and <a href="https://community.spiceworks.com/">Spiceworks</a></li>
         <li>Discuss Nextcloud on <a href="https://mailman.nextcloud.org/mailman/listinfo/user">the Nextcloud user mailing list</a></li>
         <li>We meet each other in real life, too, at conferences and meetups. See <a href="/events">our event pages</a> for more information</li>
