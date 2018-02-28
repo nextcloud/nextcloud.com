@@ -41,16 +41,17 @@ section {
     font-size: 14px;
     max-width: 400px; }
   section .list .recaptcha {
-    -webkit-transform: scale(0.77);
-    -moz-transform: scale(0.77);
-    -ms-transform: scale(0.77);
-    -o-transform: scale(0.77);
-    transform: scale(0.77);
+    -webkit-transform: scale(0.87);
+    -moz-transform: scale(0.87);
+    -ms-transform: scale(0.87);
+    -o-transform: scale(0.87);
+    transform: scale(0.87);
     -webkit-transform-origin: 0 0;
     -moz-transform-origin: 0 0;
     -ms-transform-origin: 0 0;
     -o-transform-origin: 0 0;
-    transform-origin: 0 0; }
+    transform-origin: 0 0;
+    margin: 10px auto 10px auto; }
   @media (max-width: 1200px) {
     section .list .description {
       /* 				height: 220px; */ }
@@ -64,7 +65,8 @@ section {
       -moz-transform-origin: 0 0;
       -ms-transform-origin: 0 0;
       -o-transform-origin: 0 0;
-      transform-origin: 0 0; } }
+      transform-origin: 0 0;
+      margin: 10px auto 0px auto; } }
   @media (max-width: 991px) {
     section .list .description {
       /* 				height: 130px; */ }
@@ -78,13 +80,8 @@ section {
       -moz-transform-origin: 0 0;
       -ms-transform-origin: 0 0;
       -o-transform-origin: 0 0;
-      transform-origin: 0 0; } }
-  @media (max-width: 991px) {
-    section .list .description {
-      /* 				height: 130px; */ }
-    section .list .recaptcha {
-      transform: scale(0.7);
-      transform-origin: 0 0; } }
+      transform-origin: 0 0;
+      margin: 5px auto 10px auto; } }
   section .list form {
     max-width: 400px; }
   section .list .button--blue {

@@ -53,16 +53,17 @@ section {
 
 
 		.recaptcha {
-			-webkit-transform: scale(0.77);
-			-moz-transform: scale(0.77);
-			-ms-transform: scale(0.77);
-			-o-transform: scale(0.77);
-			transform: scale(0.77);
+			-webkit-transform: scale(0.87);
+			-moz-transform: scale(0.87);
+			-ms-transform: scale(0.87);
+			-o-transform: scale(0.87);
+			transform: scale(0.87);
 			-webkit-transform-origin: 0 0;
 			-moz-transform-origin: 0 0;
 			-ms-transform-origin: 0 0;
 			-o-transform-origin: 0 0;
 			transform-origin: 0 0;
+			margin: 10px auto 10px auto;
 		}
 
 		@media (max-width: $navbar-breaksize) {
@@ -80,6 +81,7 @@ section {
 				-ms-transform-origin: 0 0;
 				-o-transform-origin: 0 0;
 				transform-origin: 0 0;
+				margin: 10px auto 0px auto;
 			}
 		}
 		@media (max-width: $break-big) {
@@ -97,16 +99,7 @@ section {
 				-ms-transform-origin: 0 0;
 				-o-transform-origin: 0 0;
 				transform-origin: 0 0;
-			}
-		}
-
-		@media (max-width: $break-big) {
-			.description {
-/* 				height: 130px; */
-			}
-			.recaptcha {
-				transform: scale(0.70);
-				transform-origin: 0 0;
+				margin: 5px auto 10px auto;
 			}
 		}
 
