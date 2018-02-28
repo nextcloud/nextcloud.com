@@ -85,7 +85,7 @@ try {
     // fill up the data array with what we know
     $data = [
         'email' => $email_to,
-
+        'ipAddress' => $_SERVER['REMOTE_ADDR']
     ];
 
     $contact = $contactApi->create($data);
