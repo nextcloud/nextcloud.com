@@ -38,7 +38,7 @@ require(["require.config"], function() {
         <p>
 <!-- 		<a href="<?php echo get_template_directory_uri(); ?>/assets/files/global-scale-whitepaper.pdf" class="button button--blue button--large button--arrow"><?php echo $l->t('Download our whitepaper');?> <i class="icon-arrow-circle-o-right icon"></i></a> -->
             <div class="row "><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/gs-thumbnail-banner.png"/></div>
-            <form name="whitepaper" method="post" action="../gs-whitepapersubmit">
+            <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                 <p><label for="email"><?php echo $l->t('Download our whitepaper!');?><br>
                 <input class="mail text-center" type="text" name="email" maxlength="80" placeholder="Enter your email"></label></p>
                 <td colspan="2">
@@ -46,6 +46,7 @@ require(["require.config"], function() {
                     <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
                 </div>
                 </td>
+                <input type="hidden" name="segmentId" value="4">
                 <p><input class="button button--blue button--large" type="submit" value=" Get the whitepaper "></p>
             </form>
         </p>
