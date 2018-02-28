@@ -68,7 +68,7 @@
 		<p><?php echo $l->t('Discuss using, installing or maintaining Nextcloud in our support channels.');?></p>
 		<ul>
 			<li><?php echo $l->t('<a href="http://help.nextcloud.com" target="_blank" rel="tooltip" title=" Nextcloud User Forums">The Forum</a>');?></li>
-			<li><?php echo $l->t('<a href="irc://#nextcloud@freenode.net" target="_blank" rel="tooltip" title="The Nextcloud IRC Channel">IRC Channel</a> (<a href="http://webchat.freenode.net/?channels=nextcloud" target="_blank"  rel="tooltip" title="Web interface to the Nextcloud IRC Channel">Webchat</a>)');?></li>
+			<li><?php echo $l->t('<a href="irc://#nextcloud@freenode.net" target="_blank" rel="tooltip" title="The Nextcloud IRC Channel">IRC Channel</a> (<a href="https://webchat.freenode.net/?channels=nextcloud" target="_blank"  rel="tooltip" title="Web interface to the Nextcloud IRC Channel">Webchat</a>)');?></li>
 		</ul>
 		<p><?php echo $l->t('These consist of users helping each other. Consider helping out others, too!');?><br />
 		<a href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Need enterprise support?</a>');?></p>
