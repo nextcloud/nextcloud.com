@@ -187,26 +187,6 @@
                 </form>
 			</div>
 		</div>
-		<!--<div class="col-md-3">
-            <div class="row wpthumbnail">
-                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/ncc-thumbnail-banner.png"/>
-            </div>
-            <div class="row">
-				<div class="description">
-					<p class="section--paragraph__tittle"><?php echo $l->t('NCC Group review');?></p>
-                    <p class="section--paragraph"><?php echo $l->t('We had the security experts from the independent NCC Group review our security processes and capabilities. Read their full report!');?></p>
-                </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
-                    <td colspan="2">
-                    <div class="recaptcha">
-                        <div id="RecaptchaField8"></div>
-                    </div>
-                    </td>
-                    <input type="hidden" name="segmentId" value="10">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="download"></p>
-                </form>
-			</div>
-		</div>-->
 	</div>
 </div>
 </section>
@@ -228,7 +208,7 @@
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="recaptcha">
-                        <div id="RecaptchaField9"></div>
+                        <div id="RecaptchaField8"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="2">
@@ -248,7 +228,7 @@
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="recaptcha">
-                        <div id="RecaptchaField10"></div>
+                        <div id="RecaptchaField9"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="15">
@@ -268,7 +248,7 @@
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="recaptcha">
-                        <div id="RecaptchaField11"></div>
+                        <div id="RecaptchaField10"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="13">
@@ -288,7 +268,7 @@
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="recaptcha">
-                        <div id="RecaptchaField12"></div>
+                        <div id="RecaptchaField11"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="6">
@@ -310,7 +290,7 @@
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="recaptcha">
-                        <div id="RecaptchaField13"></div>
+                        <div id="RecaptchaField12"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="7">
@@ -330,7 +310,7 @@
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="recaptcha">
-                        <div id="RecaptchaField14"></div>
+                        <div id="RecaptchaField13"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="8">
@@ -350,7 +330,7 @@
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">
                     <div class="recaptcha">
-                        <div id="RecaptchaField15"></div>
+                        <div id="RecaptchaField14"></div>
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="9">
@@ -358,26 +338,6 @@
                 </form>
 			</div>
 		</div>
-		<!--<div class="col-md-3">
-            <div class="row wpthumbnail">
-                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/ncc-thumbnail-banner.png"/>
-            </div>
-            <div class="row">
-				<div class="description">
-					<p class="section--paragraph__tittle"><?php echo $l->t('NCC Group review');?></p>
-                    <p class="section--paragraph"><?php echo $l->t('We had the security experts from the independent NCC Group review our security processes and capabilities. Read their full report!');?></p>
-                </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
-                    <td colspan="2">
-                    <div class="recaptcha">
-                        <div id="RecaptchaField16"></div>
-                    </div>
-                    </td>
-                    <input type="hidden" name="segmentId" value="10">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="download"></p>
-                </form>
-			</div>
-		</div>-->
 	</div>
 </div>
 </section>
