@@ -278,10 +278,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 ">
+				<div class="downarrow noRevealOnScroll"><a href="#why_opensource" data-toggle="collapse"><h3><?php echo $l->t('Why is Nextcloud Open Source?<span class="icon-arrow-down">');?></h3></a></div>
+				<div id="why_pay" class="collapse ">
+				<p><?php echo $l->t('Nextcloud\'s usage of widely used and understood Open Source licenses provides customers legal certainly, protection against vendor lock-in and a guarantee that we offer top notch services. They facilitate an open, collaborative development model, resulting in more reliable and secure software. Open Source protects <strong>your business</strong>, guaranteeing the value of your investment for the long term. <a href="https://nextcloud.com/blog/why-the-agpl-is-great-for-business-users/">Read more about licensing benefits here.</a>');?></p>
+				</div>
+				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#why_pay" data-toggle="collapse"><h3><?php echo $l->t('Why would I pay for open source software?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="why_pay" class="collapse ">
-					<p><?php echo $l->t('Nextcloud is great out of the box. But installing and running a server in a secure and reliable manner and for hundreds or thousands of users, important for a mission critical environment, is not always easy. You probably want access to an expert if something does not function as expected. We provide not only that but also pro-active support with installation and security issues, we reach out when we do feature planning to ensure your needs are served and we support Nextcloud long after you would otherwise be forced to upgrade for security, performance and stability reasons.');?></p>
-					<p><?php echo $l->t('By offering more in-depth knowledge than anybody else, we give you the confidence you need to be able to rely on Nextcloud.');?></p>
+                    <p><?php echo $l->t('Nextcloud is well optimized for getting up and running quickly for home or small business users. But as an enterprise, you need more than software - you need guarantees it works as you need, secure and reliable. A Nextcloud Subscription offers you that guarantee, with our expert help, long term updates, early access to security updates and additional services.');?></p>
+					<p><?php echo $l->t('By offering more in-depth knowledge and expert services than anybody else could, you gain the confidence you need to be able to rely on Nextcloud.');?></p>
 				</div>
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#what_I_get" data-toggle="collapse"><h3><?php echo $l->t('What does the subscription give me?<span class="icon-arrow-down">');?></h3></a></div>
@@ -289,16 +294,18 @@
 					<p><?php echo $l->t('Your Nextcloud subscription enables you to successfully deploy and manage your servers. Our open approach gives you direct access to Nextcloud engineers, the latest knowledge and best practices. We provide technical expertise, guidance and collaboration with phone and chat contact. Pro-active security support helps you identify and address vulnerabilities and harden your servers to protect the safety and integrity of your data.');?></p>
 					<p><?php echo $l->t('With the Nextcloud Enterprise subscription you get:');?></p>
 					<ul class="list">
+						<li class="check"><?php echo $l->t('Access to our Enterprise portal with associated services and benefits');?></li>
 						<li class="check"><?php echo $l->t('Full lifecycle support with up to 15 years security and stability fixes');?></li>
 						<li class="check"><?php echo $l->t('Technical expertise and help covering project inception to production and user growth');?></li>
 						<li class="check"><?php echo $l->t('Help to scale your Nextcloud installation to large amounts of storage and large numbers of users');?></li>
-						<li class="check"><?php echo $l->t('Security and hardening consulting');?></li>
+						<li class="check"><?php echo $l->t('Security and hardening consulting and early access to security patches');?></li>
 						<li class="check"><?php echo $l->t('Influence on the roadmap of the open source project');?></li>
 						<li class="check"><?php echo $l->t('Access to the core Nextcloud engineers');?></li>
 						<li class="check"><?php echo $l->t('Help and advice if you decide to (pay somebody to) develop a custom app or changes');?></li>
-						<li class="check"><?php echo $l->t('Support for branding Nextcloud');?></li>
+						<li class="check"><?php echo $l->t('Optional support for branding Nextcloud and its clients');?></li>
 						<li class="check"><?php echo $l->t('Optional support for integrated video conferencing and communication features based on WebRTC');?></li>
 						<li class="check"><?php echo $l->t('Optional Online Office capabilities which can handle a wide range of industry-standard file formats');?></li>
+						<li class="check"><?php echo $l->t('Optional Outlook integration');?></li>
 						<li class="check"><?php echo $l->t('Access to consulting for custom capabilities');?></li>
 					</ul></p>
 					<p><?php echo $l->t('Nextcloud consulting goes beyond technical expertise, offering strategic advice for organizations. We analyze your challenges and help you implement a comprehensive, cost-effective and compliance-aware solution which reduces complexity and risks while delivering the highest security and privacy protection.');?></p>
@@ -339,26 +346,31 @@
 				<div class="downarrow noRevealOnScroll"><a href="#gpl" data-toggle="collapse"><h3><?php echo $l->t('What does the Open Source License mean?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="gpl" class="collapse">
 					<p><?php echo $l->t('Nextcloud is licensed under the GNU AGPLv3, one of the most widely used Open Source license. Written with input from lawyers and industry leaders from all over the world, it is a clear, balanced and well understood license, providing users a level of certainty no license from any single company can give. Today it is a widely used and broadly accepted license across various stakeholders, including developers, users, organizations and large enterprises. The AGPLv3 guarantees that all users of the software can use, study, share and improve the software without any legal risks. Further its patent clause ensures all users have a non-exclusive, non-transferable, worldwide, royalty-free license on any patents owned by code contributors now or in the future. On top of this, Nextcloud GmbH guarantees that every customer can use Nextcloud and exercise all rights given by the GNU AGPLv3 without violating any patents or copyright.');?></p>
+					<p><?php echo $l->t('Nextcloud has its license compliance <a href="https://nextcloud.com/blog/nextcloud-validates-license-compliance-through-openchain/">validated through OpenChain</a>, a Linux Foundation project.');?></p>
 				</div>
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#opencore" data-toggle="collapse"><h3><?php echo $l->t('Would a proprietary license not be better?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="opencore" class="collapse">
 					<p><?php echo $l->t('No. Components of Nextcloud as well as many Nextcloud apps are under a variety of open source licenses. While they are all compatible with the AGPL, many are not compatible with proprietary licenses and thus would nearly guarantee customers would be in violation of those licenses, creating legal risk.');?></p>
+					<p><?php echo $l->t('Nextcloud has its license compliance <a href="https://nextcloud.com/blog/nextcloud-validates-license-compliance-through-openchain/">validated through OpenChain</a>, a Linux Foundation project.');?></p>
 				</div>
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#sourcerelease" data-toggle="collapse"><h3><?php echo $l->t('Do I have to release the source code of systems Nextcloud connects to?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="sourcerelease" class="collapse">
 					<p><?php echo $l->t('No. Nextcloud will communicate with your back-end systems over external APIs. Those systems will not become a derivative work of Nextcloud just because they communicate with it. Therefore you can keep the source code of your back-end systems private and do not have to share it with anyone.');?></p>
+					<p><?php echo $l->t('Nextcloud has its license compliance <a href="https://nextcloud.com/blog/nextcloud-validates-license-compliance-through-openchain/">validated through OpenChain</a>, a Linux Foundation project.');?></p>
 				</div>
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#logos" data-toggle="collapse"><h3><?php echo $l->t('Are my logos or the company name affected by the AGPL?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="logos" class="collapse">
 					<p><?php echo $l->t('No. Logos, company names, etc. are protected by trademarks. The GNU AGPLv3 is a copyright license and does not affect any trademarks. If you put your logo on your Nextcloud it is considered merely as data used by Nextcloud and has no effect on licenses or trademarks.');?></p></div>
+					<p><?php echo $l->t('Nextcloud has its license compliance <a href="https://nextcloud.com/blog/nextcloud-validates-license-compliance-through-openchain/">validated through OpenChain</a>, a Linux Foundation project.');?></p>
 				<div class="line noRevealOnScroll">
 				</div>
 				<div class="downarrow noRevealOnScroll"><a href="#pubsource" data-toggle="collapse"><h3><?php echo $l->t('Do I need to publish the source code if I use Nextcloud?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="pubsource" class="collapse">
 					<p><?php echo $l->t('No. As long as you did not make any modifications to the Nextcloud code, existing apps or write your own apps, you do not have to do anything. Note that configuration does not count as modification! If you did make code modifications, then you have to make that code available under the GNU AGPLv3 or a compatible license to the users of the system. The easiest way to do so is to provide a download link. Nextcloud GmbH assists customers with license compliance.');?></p>
+					<p><?php echo $l->t('Nextcloud has its license compliance <a href="https://nextcloud.com/blog/nextcloud-validates-license-compliance-through-openchain/">validated through OpenChain</a>, a Linux Foundation project.');?></p>
 				</div>
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#sellapp" data-toggle="collapse"><h3><?php echo $l->t('Can I sell my Nextcloud App?<span class="icon-arrow-down">');?></h3></a></div>
