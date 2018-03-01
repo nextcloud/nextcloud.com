@@ -279,7 +279,7 @@
 		<div class="row">
 			<div class="col-md-12 col-sm-12 ">
 				<div class="downarrow noRevealOnScroll"><a href="#why_opensource" data-toggle="collapse"><h3><?php echo $l->t('Why is Nextcloud Open Source?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="why_pay" class="collapse ">
+				<div id="why_opensource" class="collapse ">
 				<p><?php echo $l->t('Nextcloud\'s usage of widely used and understood Open Source licenses provides customers legal certainly, protection against vendor lock-in and a guarantee that we offer top notch services. They facilitate an open, collaborative development model, resulting in more reliable and secure software. Open Source protects <strong>your business</strong>, guaranteeing the value of your investment for the long term. <a href="https://nextcloud.com/blog/why-the-agpl-is-great-for-business-users/">Read more about licensing benefits here.</a>');?></p>
 				</div>
 				<div class="line noRevealOnScroll"></div>
