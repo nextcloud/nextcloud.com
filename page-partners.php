@@ -97,12 +97,6 @@
 
 		<div class="row">
 			<div class="col-md-4">
-				<a href="https://hostbillapp.com/products-services/nextcloud/" target="_blank" title="HostBill">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/hostbill.png" title="HostBill logo" />
-				</a>
-				<p  class="partnertext">HostBill is a powerful and flexible, all-in-one automation, billing, client management and support platform for online businesses. It handles all aspects of running a successful hosting business, integrating with countless control panels, domain registrars and other tools, including Nextcloud.</p>
-			</div>
-			<div class="col-md-4">
 				<a href="https://360ict.nl/" target="_blank" title="360ICT">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/360ict.png" title="360ICT logo" />
 				</a>
@@ -114,15 +108,15 @@
 				</a>
 				<p  class="partnertext">Founded in 2006 IT25 GmbH provides solutions for collaboration and exchange of information with a strong focus on supporting customers to install, integrate and safely operate on-premises and cloud based systems.</p>
 			</div>
-		</div>
-
-		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.netcloud.ch/" target="_blank" title="Netcloud AG">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/netcloud.png" title="netcloud logo" />
 				</a>
 				<p  class="partnertext">Netcloud AG is a Winterthur (Zurich)-based company with 130 employees. Core competencies include consulting, designing, implementing and operating IT infrastructure solutions around Cisco technology, borderless networks, data-center and unified communications solutions.</p>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.omnis-systems.com/en/nextcloud/general-information" target="_blank" title="Omnis Systems">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/omnis.png" title="Omnis Systems" />
@@ -135,15 +129,15 @@
 				</a>
 				<p  class="partnertext">Open-DSI is a French company which supports organizations and companies with their computing projects. Our specialty is the implementation of open source cloud computing solutions and outsourcing. Our solutions are based on three main building blocks: Nextcloud, ERP+CRM Dolibarr and WooCommerce.</p>
 			</div>
-		</div>
-
-		<div class="row">
             <div class="col-md-4">
 				<a href="http://www.regioit.de/" target="_blank" title="Regioit">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/regioit.png" title="regioit logo" />
 				</a>
 				<p  class="partnertext">regio iT is a service provider with over 300 employees delivering solutions for communities, schools, non-profits as well as customers in the energy production and distribution space.</p>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.sendin.nl/nextcloud/" target="_blank" title="Sendin">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/sendin.png" title="sendin logo" />
@@ -156,15 +150,15 @@
 				</a>
 				<p  class="partnertext">Since 2013, Stylez has grown by focusing on integration and Business Process Outsourcing. Today Stylez expands its scope into cloud and open source services, keeping up their focus on customers and quality.</p>
 			</div>
-		</div>
-
-        <div class="row">
 			<div class="col-md-4">
 				<a href="https://www.teebase.eu" target="_blank" title="Teebase Ltd">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/teebase.png" title="Teebase logo" />
 				</a>
 				<p  class="partnertext">TeeBase UK Ltd offers an arsenal of devices and services for digital security to protect your data and intellectual property even when using the Internet. Be free from hackers, malware and ransomware that destroy shareholder value and ruin careers.</p>
 			</div>
+		</div>
+
+        <div class="row">
 			<div class="col-md-4">
 				<a href="https://www.univention.de/" target="_blank" title="Univention">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/univention.png" title="Univention" />
@@ -216,6 +210,12 @@
 		</div>
 
 		<div class="row">
+            <div class="col-md-4">
+				<a href="https://hostbillapp.com/products-services/nextcloud/" target="_blank" title="HostBill">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/hostbill.png" title="HostBill logo" />
+				</a>
+				<p  class="partnertext">HostBill is a powerful and flexible, all-in-one automation, billing, client management and support platform for online businesses. It handles all aspects of running a successful hosting business, integrating with countless control panels, domain registrars and other tools, including Nextcloud.</p>
+			</div>
 			<div class="col-md-4">
 				<a href="http://www.openinventionnetwork.com" target="_blank" title="OIN">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/oin.png" title="OIN" />
@@ -228,15 +228,15 @@
 				</a>
 				<p  class="partnertext">The German language focused OSB Alliance is a collaboration of IT providers who want to push Open Source Software forward. As member Nextcloud GmbH helps push interoperability and open standards forward in the open cloud.</p>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.twsweb.it/" target="_blank" title="TWS">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/tws.png" title="TWS" />
 				</a>
 				<p  class="partnertext">TWS is the official provider of Nexcloud iOS Client. The company has its headquarters in Italy and it mainly deals with design and development of web-based application software.</p>
 			</div>
-		</div>
-
-		<div class="row">
 			<div class="col-md-4">
 				<a href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/" target="_blank" title="Western Digital Labs">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/wdlabs.png" title="Western Digital Labs" />
