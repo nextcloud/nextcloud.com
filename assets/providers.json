@@ -798,7 +798,7 @@
       },
     {
          "title":"Open IT Store",
-         "url":"https:\/\/openitstore.com\/nextcloud-single",
+         "url":"https:\/\/openitstore.com\/nextcloud",
          "flags":[
             "eu",
             "us",
@@ -998,19 +998,6 @@
          "imagename":"rocho.png"
       },
     {
-         "title":"Digitalcarnage",
-         "url":"https:\/\/digitalcarnage.webhop.me",
-         "flags":[
-            "all"
-         ],
-         "freeplans":true,
-         "supports":"both",
-         "specializes":[
-            "UK based secure data service offering a Nextcloud services which include full file sync, calendars and contacts. Full daily backup. Simple."
-         ],
-         "imagename":"carnage.png"
-      },
-    {
          "title":"Serverdiscounter",
          "url":"https:\/\/serverdiscounter.com\/drive\/",
          "flags":[
@@ -1140,5 +1127,34 @@
             "DediSERVE are the world largest OnApp provider, specializing in blazing fast All-SSD public and private cloud environments with 17 locations worldwide"
          ],
          "imagename":"dediserve.png"
+      },
+    {
+         "title":"Semantica",
+         "url":"https:\/\//s7a.it\/web\/products_cloudsystem",
+         "flags":[
+            "it"
+
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "We offer hosted, Vps, On Premise Nextcloud and Collabora solutions. We develop apps and core customization."
+         ],
+         "imagename":"semantica.png"
+      },
+    {
+         "title":"Infmaster",
+         "url":"https:\/\//nextcloud.infmaster.com.br/",
+         "flags":[
+            "br",
+            "pt"
+
+         ],
+         "freeplans":false,
+         "supports":"organization",
+         "specializes":[
+            "We offer a dedicated and isolated virtual server with the latest Nextcloud version, all installations have SSL certificates and daily backups."
+         ],
+         "imagename":"infmaster.png"
       }
 ]
