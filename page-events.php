@@ -71,6 +71,11 @@ require(["require.config"], function() {
 						<td>Tirana, Albania</td>
 						<td>May 19-20</td>
 					</tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" href="https://www.his.se/en/Research/informatics/Software-Systems-Research-Group/Article20180514/">Seminar at University of Skövde</a></td>
+						<td>SKÖVDE, Sweden</td>
+						<td>May 14</td>
+					</tr>
 					<tr>
 						<td><a class="hyperlink" target="_blank" href="https://linuxfestnorthwest.org/conferences/lfnw18">LinuxFest Northwest</a></td>
 						<td>Bellingham, WA, USA</td>
