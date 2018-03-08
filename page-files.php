@@ -311,7 +311,7 @@
         <div class="col-md-5 col-md-offset-1 revealOnScroll">
 			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png" /></a>
 			<div class="row text-center"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Talk');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('secure online meetings, chat and web conferencing');?></p></div>
+			<p class="section--paragraph text-center"><?php echo $l->t('Secure online meetings, chat and web conferencing');?></p></div>
 			<div class="text-center morebuttondiv">
                 <a href="<?php echo home_url('talk') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
@@ -393,6 +393,7 @@
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Powerful search');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud includes a powerful full-text search engine capable of using ElasticSearch as back-end. Its flexible plugin-based interface enables search capabilities beyond files and accomodates other back-end solutions like Apache Solr.');?></p>
+			<a href="https://apps.nextcloud.com/apps/fulltextsearch" class="button button--blue button--arrow button--large"><?php echo $l->t('App store');?></a>
 		</div>
 	</div>
 </section>
