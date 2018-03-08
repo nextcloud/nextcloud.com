@@ -107,9 +107,12 @@
 	</div>
 </section>
 
-<a name="capabilities" id="capabilities"></a>
-<div class="separator"></div>
+<!-- <div class="separator"></div> -->
 
+<?php require get_template_directory().'/verticals.php';?>
+
+
+<a name="capabilities" id="capabilities"></a>
 <section class="section--whitepaper">
     <div class="container">
         <p class="section--intro text-center revealOnScroll"><?php echo $l->t('What you need');?></p>
@@ -158,7 +161,7 @@
         <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/tub-thumbnail-banner.png"/>
 	</div>
 </section>
-
+<!--
 
 <section class="section--customers">
 <div class="container">
@@ -192,7 +195,7 @@
         <div class="text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="<?php echo home_url('education') ?>">Learn more</a></div>
     </div>
 </div>
-</section>
+</section>-->
 
 <section class="slideshow" id="slideshow">
 	<div class="indicators">

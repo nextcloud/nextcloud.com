@@ -191,6 +191,8 @@
 </div>
 </section>
 
+<?php require get_template_directory().'/verticals.php';?>
+
 <section class="section--whitepapers">
 <div class="container">
     <h1 class="section--heading-2 revealOnScroll"><?php echo $l->t('Data sheets and Industry Analysis');?></h1>

@@ -13,8 +13,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 topheader">
-					<h1><?php echo $l->t('Enterprise Support Subscriptions');?></h1>
-					<h2><?php echo $l->t('An enterprise subscription provides you the confidence of knowing that your Nextcloud Files deployment is backed by the best available technical expertise and with the features you need for your organization');?></h2>
+					<h1><?php echo $l->t('Enterprise Subscriptions');?></h1>
+					<h2><?php echo $l->t('An enterprise subscription provides you direct benefits, additional features and the confidence of knowing that your Nextcloud Files deployment is backed by the best available technical expertise and capabilities you need for your organization');?></h2>
 				</div>
 			</div>
 		</div>
@@ -38,7 +38,7 @@
         <div class="col-md-8 col-md-offset-2">
             <h1 class="header"><?php echo $l->t('Plans and Pricing<br>
             for Nextcloud Files');?></h1>
-            <h3 class="text-center"><?php echo $l->t('Host your private cloud with one of our Nextcloud Subscriptions.');?></h3>
+            <h3 class="text-center"><?php echo $l->t('Successfully host your private cloud thanks to a');?> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Nextcloud Subscription.');?></a></h3>
 		</div>
     </div>
     <div class="row">
@@ -56,10 +56,11 @@
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
 					<li class="check" title="<?php echo $l->t('The AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
 				</div>
-				<h1 class="header"><?php echo $l->t('Support');?></h1>
+				<h1 class="header"><?php echo $l->t('Benefits');?></h1>
 				<div class="line"></div>
 				<div class="list">
 					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 1 year');?></li>
+					<li class="check" title="<?php echo $l->t('Ahead of time access to security and stability patches.');?>" rel="tooltip"><?php echo $l->t('Early security and stability patches');?></li>
 					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 3 business days');?></li>
 					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://portal.nextcloud.com">Portal support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee.');?>" rel="tooltip"><a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration support</a>');?></li>
@@ -67,7 +68,9 @@
 					<li class="nocheck" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Our engineers walk you through the installation process where needed.');?>" rel="tooltip"><?php echo $l->t('Remote installation support');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Upgrades are disruptive. Our engineers will ensure yours will go smooth!');?>" rel="tooltip"><?php echo $l->t('Upgrade stand-by support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
+					<li class="nocheck" title="<?php echo $l->t('We can guarantee turn-around times on mitigations and fixes for bugs.');?>" rel="tooltip"><?php echo $l->t('Optional SLA on fixes');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
@@ -94,10 +97,11 @@
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
 					<li class="check" title="<?php echo $l->t('The AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
 				</div>
-				<h1 class=""><?php echo $l->t('Support');?></h1>
+				<h1 class="header"><?php echo $l->t('Benefits');?></h1>
 				<div class="line"></div>
 				<div class="list">
 					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 3 years');?></li>
+					<li class="check" title="<?php echo $l->t('Ahead of time access to security and stability patches.');?>" rel="tooltip"><?php echo $l->t('Early security and stability patches');?></li>
 					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 2 business days');?></li>
 					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://portal.nextcloud.com">Portal support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee. Ask sales for details! ');?>" rel="tooltip"><a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration support</a>');?></li>
@@ -105,7 +109,9 @@
 					<li class="check" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support: business hours');?></li>
 					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
 					<li class="check" title="<?php echo $l->t('Our engineers walk you through the installation process where needed.');?>" rel="tooltip"><?php echo $l->t('Remote installation support');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Upgrades are disruptive. Our engineers will ensure yours will go smooth!');?>" rel="tooltip"><?php echo $l->t('Upgrade stand-by support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
+					<li class="nocheck" title="<?php echo $l->t('We can guarantee turn-around times on mitigations and fixes for bugs.');?>" rel="tooltip"><?php echo $l->t('Optional SLA on fixes');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
@@ -132,10 +138,11 @@
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
 					<li class="check" title="<?php echo $l->t('The AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
 				</div>
-				<h1 class=""><?php echo $l->t('Support');?></h1>
+				<h1 class="header"><?php echo $l->t('Benefits');?></h1>
 				<div class="line"></div>
 				<div class="list">
 					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 5+5 years');?></li>
+					<li class="check" title="<?php echo $l->t('Ahead of time access to security and stability patches.');?>" rel="tooltip"><?php echo $l->t('Early security and stability patches');?></li>
 					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 24h or as agreed');?></li>
 					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://portal.nextcloud.com">Portal support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee. Ask sales for details! ');?>" rel="tooltip"><a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration support</a>');?></li>
@@ -143,7 +150,9 @@
 					<li class="check" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support: up to 24/7');?></li>
 					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
 					<li class="check" title="<?php echo $l->t('Our engineers walk you through the installation process where needed.');?>" rel="tooltip"><?php echo $l->t('Remote installation support');?></li>
+					<li class="check" title="<?php echo $l->t('Upgrades are disruptive. Our engineers will ensure yours will go smooth!');?>" rel="tooltip"><?php echo $l->t('Upgrade stand-by support');?></li>
 					<li class="check" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
+					<li class="check" title="<?php echo $l->t('We can guarantee turn-around times on mitigations and fixes for bugs.');?>" rel="tooltip"><?php echo $l->t('Optional SLA on fixes');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
