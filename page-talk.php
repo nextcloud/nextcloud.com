@@ -49,15 +49,15 @@
         <div class="row">
             <div class="col-sm-4 revealOnScroll">
                 <p class="section--paragraph"><ul>
-                <li><?php echo $l->t('HD (H.265) audio/video calls');?></li>
+                <li><?php echo $l->t('HD audio/video calls');?></li>
                 <li><?php echo $l->t('Group and one-to-one calls');?></li>
-                <li><?php echo $l->t('Webinars & public web meetings');?></li>
+                <li><?php echo $l->t('Webinars & public web meetings*');?></li>
                 <li><?php echo $l->t('Individual and group chat');?></li>
                 </ul></p>
             </div>
             <div class="col-sm-4 revealOnScroll">
                 <p class="section--paragraph"><ul>
-                <li><?php echo $l->t('Easy screensharing');?></li>
+                <li><?php echo $l->t('Easy screen sharing');?></li>
                 <li><?php echo $l->t('Mobile apps for Android and iOS');?></li>
                 <li><?php echo $l->t('Mobile calls & chat push notifications');?></li>
                 <li><?php echo $l->t('Integration with');?> <a class="hyperlink" href="<?php echo home_url('files') ?>">Nextcloud Files</a> <?php echo $l->t('and');?> <a class="hyperlink" href="<?php echo home_url('groupware') ?>">Groupware</li>
@@ -67,14 +67,15 @@
                 <p class="section--paragraph"><ul>
                 <li><?php echo $l->t('Fully on-premise, 100% open source');?></li>
                 <li><?php echo $l->t('End-to-end Encrypted calls');?></li>
-                <li><?php echo $l->t('Scaling to millions of users');?></li>
-                <li><?php echo $l->t('SIP gate: dial in by phone');?></li>
+                <li><?php echo $l->t('Scaling to millions of users*');?></li>
+                <li><?php echo $l->t('SIP gate: dial in by phone*');?></li>
                 </ul></p>
             </div>
         </div>
         <div class="row">
-            <p class="section--paragraph text-center"><?php echo $l->t('Starting at Eur 5000/USD 6000');?></p>
-            <p class="section--paragraph text-center revealOnScroll"><a class="button button--medium" href="#pricing"><?php echo $l->t('see pricing');?></a></p>
+            <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('* with optional Spreed back-end');?></p>
+            <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('starting at Eur 5000/USD 6000');?></p>
+            <p class="section--paragraph text-center revealOnScroll"><a class="button button--medium" href="#pricing"><?php echo $l->t('Learn more');?></a></p>
         </div>
     </div>
 </div>
@@ -230,7 +231,7 @@
 	<div class="row introduction">
         <div class="col-lg-6 col-lg-offset-3">
             <h1 class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('Enterprise Ready');?></h1>
-            <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('The Spreed High Performance back-end for large organizations by Struktur AG offers the capacity, reliability and features enterprises need to conduct their business privately, securely and efficiently.');?></p>
+            <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('The optional Spreed High Performance back-end for large organizations by Struktur AG offers the capacity, reliability and features enterprises need to conduct their business privately, securely and efficiently.');?></p>
 		</div>
 	</div>
     <div class="row revealOnScroll">
@@ -238,14 +239,14 @@
 			<div class="featureblock">
 				<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
 				<p class="section--paragraph__tittle"><?php echo $l->t('Dial-in anywhere');?></p>
-				<p class="section--paragraph"><?php echo $l->t('Let participants join through a dial-in conference line, wherever they are');?></p>
+				<p class="section--paragraph"><?php echo $l->t('Let participants join through a phone line, wherever they are');?></p>
 			</div>
         </div>
         <div class="col-md-2 col-sm-4">
 			<div class="featureblock">
 				<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/manual.svg" /></div>
 				<p class="section--paragraph__tittle"><?php echo $l->t('No limitations');?></p>
-				<p class="section--paragraph"><?php echo $l->t('Improved connectivity behind firewalls and restrictive networks and unlimited participants on a call');?></p>
+				<p class="section--paragraph"><?php echo $l->t('Improved connectivity behind firewalls and restrictive networks and more participants in a call');?></p>
 			</div>
         </div>
         <div class="col-md-2 col-sm-4">
@@ -256,6 +257,11 @@
 			</div>
         </div>
 	</div>
+	<div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('The Spreed back-end improves connection speed and reliability, decreases server load and allows more people in a call by improving network efficiency.');?></p>
+        </div>
+    </div>
 </div>
 </section>
 
@@ -285,3 +291,4 @@
     </div>
 </div>
 </section>
+<?php require get_template_directory().'/verticals.php';?>

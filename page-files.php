@@ -263,10 +263,12 @@
     </div>
 </section>
 
+<?php require get_template_directory().'/verticals.php';?>
+
 <section class="section--clients">
 	<a name="clients" id="clients"></a>
 	<div class="container">
-		<div class="col-md-6 image--floated image--feature revealOnScroll">
+		<div class="col-md-6 image--feature revealOnScroll">
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mobileDesktop.png">
 		</div>
 
@@ -293,88 +295,6 @@
 	</div>
 </section>
 
-<section class="section--storage">
-	<a name="storage" id="storage"></a>
-	<div class="container">
-		<div class="col-md-6 revealOnScroll image--feature">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"/></a>
-		</div>
-			<p class="section--paragraph__tittle"><?php echo $l->t('External storage, securely encrypted');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The external storage feature of Nextcloud gives users access to their data wherever it is. Nextcloud Files can access data stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but can also access file storage solutions using standard protocols such as NFS, (S)FTP, WebDAV and more.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The Encryption App can encrypt data at rest for both local and remote storage, protecting data stored on networks outside of user infrastructure. Keys can be handled by an external key management server or stored locally, on the server.');?></p>
-			<a href="<?php echo home_url('storage') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('External storage');?></a>
-		</div>
-	</div>
-</section>
-
-<section class="section--usermanagement">
-	<div class="container">
-		<div class="col-md-6 image--floated revealOnScroll image--feature">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"/></a>
-		</div>
-			<p class="section--paragraph__tittle"><?php echo $l->t('Integrated account management');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud features built-in account management with optional two-factor authentication as well as Single-sign-on support and integration with external user directories like LDAP or IMAP, SMB, FTP and more.');?></p>
-			<a href="<?php echo home_url('usermanagement') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('User management');?></a>
-		</div>
-	</div>
-</section>
-
-<section class="section--fulltextsearch">
-	<div class="container">
-		<div class="col-md-6 revealOnScroll image--feature">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/fulltextsearch.png"/></a>
-		</div>
-			<p class="section--paragraph__tittle"><?php echo $l->t('Powerful search');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud includes a powerful full-text search engine capable of using ElasticSearch as back-end. Its flexible plugin-based interface enables search capabilities beyond files and accomodates other back-end solutions like Apache Solr.');?></p>
-		</div>
-	</div>
-</section>
-
-<a name="integrations" id="integrations"></a>
-<section class="section--outlook">
-<div class="container">
-    <div class="featurerow">
-    <h2 class="text-center"><?php echo $l->t('Nextcloud Outlook Integration');?></h2>
-    <p class="section--paragraph text-center"><?php echo $l->t('Automatically upload files to replace large attachments or integrate Calendars and Contacts in Microsoft Outlook');?></p>
-        <div class="row">
-            <div class="col-md-6">
-                <div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
-            </div>
-            <div class="col-md-6">
-                <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud users to easily and securely send files, folders or upload links to others from within Microsoft Outlook. The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>
-                <p><a href="<?php echo home_url('outlook') ?>" class="button button--arrow button--blue button--large"><?php echo $l->t('Secure Sharing Outlook Add-in');?></a></p>
-            </div>
-        </div>
-    </div>
-    <div class="featurerow">
-<!-- 			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
-			<div class="row">
-				<div class="col-md-6 image--feature image--floated revealOnScroll">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/moztb.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb.png" alt="in action" /></a>
-				</div>
-				<div class="col-md-6 featureblock revealOnScroll">
-					<p class="section--paragraph__tittle"><?php echo $l->t('Mozilla Thunderbird');?></p>
-					<p class="section--paragraph"><?php echo $l->t('Nextcloud also provides a <a href="https://addons.mozilla.org/en-US/thunderbird/addon/nextcloud-filelink/">Thunderbird Filelink Addon!</a> This Thunderbird extension makes it easy to send large attachments with Thunderbird by automatically uploading them first to a Nextcloud server and by then inserting the link into the body of your email.');?></p>
-				</div>
-			</div>
-		</div>
-</div>
-</section>
-
-<section class="section--Collabora">
-	<a name="collabora" id="collabora"></a>
-	<div class="container">
-		<div class="col-md-6 image--feature revealOnScroll">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-nw.png"/></a>
-		</div>
-			<p class="section--paragraph__tittle"><?php echo $l->t('View and edit documents with Collabora');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite with collaborative editing that works in all modern browsers.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Collabora Online supports editing documents in real-time with multiple other editors, showing high fidelity, WYSIWYG rendering and preserving the layout and formatting of documents.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Collabora Online supports dozens of document formats including <strong>DOC, DOCX, PPT, PPTX, XLS, XLSX + ODF, Import/View Visio, Publisher</strong> and many more...');?></p>
-			<a href="<?php echo home_url('collaboraonline') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Collabora Online Office');?></a>
-		</div>
-	</div>
-</section>
 <section class="section--others">
 <div class="container">
     <div class="row">
@@ -406,6 +326,90 @@
 		</div>
     </div>
 </div>
+</section>
+
+<section class="section--storage">
+	<a name="storage" id="storage"></a>
+	<div class="container">
+		<div class="col-md-6 revealOnScroll image--feature">
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"/></a>
+		</div>
+			<p class="section--paragraph__tittle"><?php echo $l->t('External storage, securely encrypted');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The external storage feature of Nextcloud gives users access to their data wherever it is. Nextcloud Files can access data stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but can also access file storage solutions using standard protocols such as NFS, (S)FTP, WebDAV and more.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The Encryption App can encrypt data at rest for both local and remote storage, protecting data stored on networks outside of user infrastructure. Keys can be handled by an external key management server or stored locally, on the server.');?></p>
+			<a href="<?php echo home_url('storage') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('External storage');?></a>
+		</div>
+	</div>
+</section>
+
+<section class="section--usermanagement">
+	<div class="container">
+		<div class="col-md-6 image--floated revealOnScroll image--feature">
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"/></a>
+		</div>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Integrated account management');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud features built-in account management with optional two-factor authentication as well as Single-sign-on support and integration with external user directories like LDAP or IMAP, SMB, FTP and more.');?></p>
+			<a href="<?php echo home_url('usermanagement') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('User management');?></a>
+		</div>
+	</div>
+</section>
+
+
+<a name="integrations" id="integrations"></a>
+<section class="section--outlook quote">
+<div class="container">
+    <div class="featurerow">
+    <h2 class="text-center"><?php echo $l->t('Nextcloud Outlook Integration');?></h2>
+    <p class="section--paragraph text-center"><?php echo $l->t('Automatically upload files to replace large attachments or integrate Calendars and Contacts in Microsoft Outlook');?></p>
+        <div class="row">
+            <div class="col-md-6">
+                <div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
+            </div>
+            <div class="col-md-6">
+                <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud users to easily and securely send files, folders or upload links to others from within Microsoft Outlook. The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>
+                <p><a href="<?php echo home_url('outlook') ?>" class="button button--arrow button--large"><?php echo $l->t('Secure Sharing Outlook Add-in');?></a></p>
+            </div>
+        </div>
+    </div>
+    <div class="featurerow">
+<!-- 			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
+			<div class="row">
+				<div class="col-md-6 image--feature image--floated revealOnScroll">
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/moztb.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb.png" alt="in action" /></a>
+				</div>
+				<div class="col-md-6 featureblock revealOnScroll">
+					<p class="section--paragraph__tittle"><?php echo $l->t('Mozilla Thunderbird');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Nextcloud also provides a <a class="hyperlink" href="https://addons.mozilla.org/en-US/thunderbird/addon/nextcloud-filelink/">Thunderbird Filelink Addon!</a> This Thunderbird extension makes it easy to send large attachments with Thunderbird by automatically uploading them first to a Nextcloud server and by then inserting the link into the body of your email.');?></p>
+				</div>
+			</div>
+		</div>
+</div>
+</section>
+
+<section class="section--fulltextsearch">
+	<div class="container">
+		<div class="col-md-6 revealOnScroll image--feature">
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/fulltextsearch.png"/></a>
+		</div>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Powerful search');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud includes a powerful full-text search engine capable of using ElasticSearch as back-end. Its flexible plugin-based interface enables search capabilities beyond files and accomodates other back-end solutions like Apache Solr.');?></p>
+		</div>
+	</div>
+</section>
+
+<section class="section--Collabora">
+	<a name="collabora" id="collabora"></a>
+	<div class="container">
+		<div class="col-md-6 image--floated image--feature revealOnScroll">
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-nw.png"/></a>
+		</div>
+			<p class="section--paragraph__tittle"><?php echo $l->t('View and edit documents with Collabora');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite with collaborative editing that works in all modern browsers.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Collabora Online supports editing documents in real-time with multiple other editors, showing high fidelity, WYSIWYG rendering and preserving the layout and formatting of documents.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Collabora Online supports dozens of document formats including <strong>DOC, DOCX, PPT, PPTX, XLS, XLSX + ODF, Import/View Visio, Publisher</strong> and many more...');?></p>
+			<a href="<?php echo home_url('collaboraonline') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Collabora Online Office');?></a>
+		</div>
+	</div>
 </section>
 
 <section class="section--more">
