@@ -116,11 +116,11 @@
     <div class="row revealOnScroll">
         <div class="col-sm-4">
             <p class="section--paragraph__tittle"><?php echo $l->t('Integration');?></p>
-            <p class="section--paragraph"><?php echo $l->t('
+            <p class="section--paragraph"><?php echo sprintf($l->t('
             Nextcloud Groupware is designed to deeply integrate in your infrastructure, using existing user directories and file storage systems.<br>
-            <a class="hyperlink" href="">Learn more about user management</a><br>
-            <a class="hyperlink" href="">Learn more about storage technologies</a>
-            ');?></p>
+            <a class="hyperlink" href="%s">Learn more about user management</a><br>
+            <a class="hyperlink" href="%s">Learn more about storage technologies</a>
+            '), $DOCUMENTATION_ADMIN . 'configuration_user/', home_url('storage'));?></p>
         </div>
         <div class="col-sm-4">
             <p class="section--paragraph__tittle"><?php echo $l->t('Security');?></p>
