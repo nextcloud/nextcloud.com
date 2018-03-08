@@ -84,7 +84,7 @@
 		<div class="col-md-12 revealOnScroll">
             <h3 class="section--paragraph__tittle"><?php echo $l->t('More concrete HTML+CSS guidelines');?></h3>
             <ul>
-                <li><?php echo $l->t('HTML and CSS building blocks are in <a href="https://docs.nextcloud.com/server/12/developer_manual/design/index.html" target="_blank">our Design documentation</a>.');?></li>
+                <li><?php echo sprintf($l->t('HTML and CSS building blocks are in <a href="%s" target="_blank">our Design documentation</a>.'), $DOCUMENTATION_DEVELOPER . 'design/');?></li>
                 <li><?php echo $l->t('We basically follow <a href="https://google.github.io/styleguide/htmlcssguide.html" target="_blank">Google’s HTML+CSS style guide</a>, with small exceptions:');?></p>
                     <ul>
                         <li><?php echo $l->t('Use tabs for indentation, not spaces');?></li>
