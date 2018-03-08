@@ -85,7 +85,7 @@
 		<div class="ilustration lifecycle__ilustration">
 			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/data_safe-new.svg"); ?>
 		</div>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('A Nextcloud support subscription gives you access to enterprise-ready software, updates, and information and support services that span your entire OS and application infrastructure life cycle and architecture. You can count on receiving the latest product versions with the stability and security you need.');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('A Nextcloud Subscription gives you access to enterprise-ready software, updates, and information and support services that span your entire OS and application infrastructure life cycle and architecture. You can count on receiving the latest product versions with the stability and security you need.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Working with data is essential for your business and being forced on the upgrade threadmill is disruptive to your organization. With access to up to 15 years security and stability updates to Nextcloud, we match the lifecycle of your operating system so you can schedule upgrades when it works for you and secure the investments you did in your existing platform.');?></p>
 		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('See pricing');?></a></p>
 	</div>

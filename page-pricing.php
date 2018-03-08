@@ -180,7 +180,7 @@
 <div class="container-widest">
 	<div class="introduction">
 		<h1 class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('Fitting your needs');?></h1>
-		<p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('On top of the benefits of a Nextcloud Support Subscription you can add several optional support and feature packages.');?></p>
+		<p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('On top of the benefits of a Nextcloud Subscription you can add several optional support and feature packages.');?></p>
 	</div>
     <div class="row revealOnScroll">
         <div class="col-md-offset-2 col-md-4">
