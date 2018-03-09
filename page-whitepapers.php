@@ -61,7 +61,7 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="1">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -81,7 +81,7 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="14">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -101,7 +101,7 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="11">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -121,7 +121,7 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="5">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -143,7 +143,7 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="12">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -163,7 +163,7 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="10">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -183,7 +183,7 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="4">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -214,7 +214,7 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="2">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -234,7 +234,7 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="15">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -254,7 +254,7 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="13">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -274,7 +274,7 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="6">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -296,7 +296,7 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="7">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -316,7 +316,7 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="8">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -336,7 +336,7 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="9">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
