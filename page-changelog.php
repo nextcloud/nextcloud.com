@@ -84,6 +84,19 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
     <li><a href="https://github.com/nextcloud/server/pulls/8752">Fix integer overflow in ChunkingPlugin (server#8752)</a></li>
     <li><a href="https://github.com/nextcloud/server/pulls/8755">Revert wording back to updates (server#8755)</a></li>
     <li><a href="https://github.com/nextcloud/server/pulls/8758">Add acceptance tests for permissions on public shared folders (server#8758)</a></li>
+    <li><a href="https://github.com/nextcloud/activity/pulls/249">Also send file emails in ASAP mode (activity#249)</a></li>
+    <li><a href="https://github.com/nextcloud/activity/pulls/252">Ensure userids are strings (activity#252)</a></li>
+    <li><a href="https://github.com/nextcloud/activity/pulls/254">Null coalescing operator is PHP7+ (activity#254)</a></li>
+    <li><a href="https://github.com/nextcloud/files_pdfviewer/pulls/55">Update PDF.js to 1.9.426 (files_pdfviewer#55)</a></li>
+    <li><a href="https://github.com/nextcloud/files_pdfviewer/pulls/59">Enable full screen mode for PDF files (files_pdfviewer#59)</a></li>
+    <li><a href="https://github.com/nextcloud/files_texteditor/pulls/83">Fix ACE module files failing to load (files_texteditor#83)</a></li>
+    <li><a href="https://github.com/nextcloud/files_texteditor/pulls/89">Do not keep FileInfoModels returned by "getModelForFile" (files_texteditor#89)</a></li>
+    <li><a href="https://github.com/nextcloud/gallery/pulls/394">Fix share drop down in gallery not properly shown (gallery#394)</a></li>
+    <li><a href="https://github.com/nextcloud/gallery/pulls/402">Fix gallery button hidden in folders without create permission (gallery#402)</a></li>
+    <li><a href="https://github.com/nextcloud/gallery/pulls/405">Fix controls position in gallery layout (gallery#405)</a></li>
+    <li><a href="https://github.com/nextcloud/gallery/pulls/406">Removed old code already present thanks to the files app (gallery#406)</a></li>
+    <li><a href="https://github.com/nextcloud/gallery/pulls/407">Create "file app" public share links if the slideshow is opened from ... (gallery#407)</a></li>
+    <li><a href="https://github.com/nextcloud/password_policy/pulls/61">Allow to check against haveibeenpwned.com password list (password_policy#61)</a></li>
 </li>
 
 <h3 id="13-0-0">Version 13.0.0 <small>February 6 2018</small></h3>
