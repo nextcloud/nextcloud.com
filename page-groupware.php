@@ -120,7 +120,7 @@
             Nextcloud Groupware is designed to deeply integrate in your infrastructure, using existing user directories and file storage systems.<br>
             <a class="hyperlink" href="%s">Learn more about user management</a><br>
             <a class="hyperlink" href="%s">Learn more about storage technologies</a>
-            '), $DOCUMENTATION_ADMIN . 'configuration_user/', home_url('storage'));?></p>
+            '), home_url('usermanagement'), home_url('storage'));?></p>
         </div>
         <div class="col-sm-4">
             <p class="section--paragraph__tittle"><?php echo $l->t('Security');?></p>
