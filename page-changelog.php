@@ -595,10 +595,10 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
 <h4>Changes</h4>
 <ul>
-    <li><a href='https://github.com/nextcloud/server/pulls/8075'>Do not catch and ignore ServerNotAvailable in the wrong spot (server#8075)</a></li>
-    <li><a href='https://github.com/nextcloud/server/pulls/8153'>Update CRL because user_sql cert was lost (server#8153)</a></li>
-    <li><a href='https://github.com/nextcloud/server/pulls/8273'>Update CRL to revoke files_rightclick (server#8273)</a></li>
-    <li><a href='https://github.com/nextcloud/server/pulls/8538'>Fix retrieval of group members with numerical uids from LDAP (server#8538)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pulls/8075">Do not catch and ignore ServerNotAvailable in the wrong spot (server#8075)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pulls/8153">Update CRL because user_sql cert was lost (server#8153)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pulls/8273">Update CRL to revoke files_rightclick (server#8273)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pulls/8538">Fix retrieval of group members with numerical uids from LDAP (server#8538)</a></li>
 </ul>
 <p>Note that this is the last public 11.0.x release. To maintain the security and integrity of your Nextcloud installation you should upgrade to 12.0.x as soon as possible or acquire a <a href="https://nextcloud.com/enterprise">Nextcloud Subscription</a> to get access to further LTS releases for Nextcloud 11.</p>
 
