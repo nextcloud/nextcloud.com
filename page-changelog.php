@@ -80,7 +80,6 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
     <li><a href="https://github.com/nextcloud/server/pulls/8738">Better handling of invisible elements in acceptance tests (server#8738)</a></li>
     <li><a href="https://github.com/nextcloud/server/pulls/8745">Remove base url from global cache prefix (server#8745)</a></li>
     <li><a href="https://github.com/nextcloud/server/pulls/8746">Check if the cached js file exists (server#8746)</a></li>
-    <li><a href="https://github.com/nextcloud/server/pulls/8748">13.0.1 RC1 (server#8748)</a></li>
     <li><a href="https://github.com/nextcloud/server/pulls/8749">Sharee email matches not limited (server#8749)</a></li>
     <li><a href="https://github.com/nextcloud/server/pulls/8752">Fix integer overflow in ChunkingPlugin (server#8752)</a></li>
     <li><a href="https://github.com/nextcloud/server/pulls/8755">Revert wording back to updates (server#8755)</a></li>
@@ -208,7 +207,6 @@ Many fixes were merged, the most important ones include:
     <li><a href='https://github.com/nextcloud/server/pulls/8692'>Add missing import (server#8692)</a></li>
     <li><a href='https://github.com/nextcloud/server/pulls/8726'>Disable part files for object stores (server#8726)</a></li>
     <li><a href='https://github.com/nextcloud/server/pulls/8739'>Better handling of invisible elements in acceptance tests (server#8739)</a></li>
-    <li><a href='https://github.com/nextcloud/server/pulls/8750'>12.0.6 RC 1 (server#8750)</a></li>
     <li><a href='https://github.com/nextcloud/server/pulls/8772'>Add acceptance tests for permissions on public shared folders (server#8772)</a></li>
 </ul>
 
