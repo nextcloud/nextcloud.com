@@ -12,7 +12,7 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest13"></a>
-<h3 id="13-0-1">Version 13.0.1 <small>March 14 2018</small></h3>
+<h3 id="13-0-1">Version 13.0.1 <small>March 15 2018</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.1.tar.bz2">nextcloud-13.0.1.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.1.zip">nextcloud-13.0.1.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.1.tar.bz2.md5">nextcloud-13.0.1.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.1.zip.md5">nextcloud-13.0.1.zip.md5</a></br>
@@ -171,7 +171,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
 
 <a name="latest12"></a>
-<h4 id="12-0-6">Version 12.0.6 <small>March 14 2018</small></h4>
+<h4 id="12-0-6">Version 12.0.6 <small>March 15 2018</small></h4>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.6.tar.bz2">nextcloud-12.0.6.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.6.zip">nextcloud-12.0.6.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.6.tar.bz2.md5">nextcloud-12.0.6.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.6.zip.md5">nextcloud-12.0.6.zip.md5</a></br>
@@ -603,7 +603,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p><a href="https://github.com/nextcloud/server/milestone/10?closed=1">See a full list of integrated pull requests here.</a></p>
 
 <a name="latest11"></a>
-<h3 id="11-0-8">Version 11.0.8 <small>March 14 2018</small></h3>
+<h3 id="11-0-8">Version 11.0.8 <small>March 15 2018</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.8.tar.bz2">nextcloud-11.0.8.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.8.zip">nextcloud-11.0.8.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.8.tar.bz2.md5">nextcloud-11.0.8.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-11.0.8.zip.md5">nextcloud-11.0.8.zip.md5</a></br>
