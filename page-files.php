@@ -76,7 +76,7 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h2 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Powering collaboration');?></h2>
-                <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('Thousands of modern organizations secure data and improve productivity with Nextcloud Files, enabling employees to collaborate seamlessly across divisions and over company borders.');?></p>
+                <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('Thousands of modern organizations secure data and improve productivity with Nextcloud Files, enabling tens of millions of customers and employees to collaborate seamlessly across divisions and over company borders.');?></p>
             </div>
         </div>
         <div class="row revealOnScroll">
@@ -154,8 +154,8 @@
 	<div class="row">
 		<div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('Users need collaboration');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Whatever your company does to enforce compliance, some of our enterprise data is already floating in one or more Public Clouds.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('People have to get work done, so they share documents as mail attachments to Gmail addresses or via Dropbox. So the question is not "to Cloud or not to Cloud" but "which Cloud?"');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Whatever your company does to enforce compliance, some of your enterprise data is already floating in one or more Public Clouds.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('People have to get work done and new generations of employees know what tools they want. So they share documents as mail attachments to Gmail addresses, use Trello or share with Dropbox. The question is not "to Cloud or not to Cloud" but "which Cloud?" and <strong>"how to re-gain control?"</strong>');?></p>
         </div>
         <div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('Public clouds are not a safe solution');?></p>
@@ -231,19 +231,30 @@
 	</div>
 </section>
 
+<section class="section--collaboration quote">
+	<div class="container">
+		<div class="col-md-6  image--floated">
+			<div data-type="youtube" data-video-id="NRhVP9rXHVY"></div>
+		</div>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Seamless collaboration');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The core strength of Nextcloud is its ability to enhance team productivity on the go with an easy user interface on mobile, web and desktop and powerful integrated collaboration and communication capabilities.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Real-time notifications of shares or comments on mobile devices, built-in collaborative editing, seamless transition to chat and audio/video calls and a wide variety of productivity tools to handle mail, appointments, tasks and more can be enabled in Nextcloud.');?></p>
+		</div>
+	</div>
+</section>
+
+
 <a name="send" id="send"></a>
 <section class="section--sharing">
     <div class="container">
-        <div class="row revealOnScroll feature--block">
-            <div class="col-md-6">
-                <h2 class="section--paragraph__tittle"><?php echo $l->t('Secure file exchange');?></h2>
-                <p class="section--paragraph"><?php echo $l->t('Nextcloud Files enables hospitals, banks, notaries and government agencies to securely send files to and receive files from customers, patients, clients or partners.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('The easy web and mobile interfaces of Nextcloud Files allow users to share files with other users on the server, to create and send password-protected public links, to let others upload files to the private cloud and to get notifications on phone and desktop when a user on another cloud server shares files.');?></p>
-                <a href="<?php echo home_url('file-drop') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Secure file exchange');?></a><br>
-            </div>
-            <div class="col-md-6">
-                <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
-            </div>
+        <div class="col-md-6">
+            <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
+        </div>
+        <div class="col-md-6">
+            <h2 class="section--paragraph__tittle"><?php echo $l->t('Secure file exchange');?></h2>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud Files enables hospitals, banks, notaries and government agencies to securely send files to and receive files from customers, patients, clients or partners.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('The easy web and mobile interfaces of Nextcloud Files allow users to share files with other users on the server, to create and send password-protected public links, to let others upload files to the private cloud and to get notifications on phone and desktop when a user on another cloud server shares files.');?></p>
+            <a href="<?php echo home_url('file-drop') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Secure file exchange');?></a><br>
         </div>
     </div>
 </section>
@@ -251,7 +262,7 @@
 <section class="section--monitoring">
     <a name="monitoring" id="monitoring"></a>
     <div class="container">
-        <div class="col-md-6 revealOnScroll image--feature">
+        <div class="col-md-6 revealOnScroll image--feature image--floated">
             <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-nw.png" alt="in action"/></a>
         </div>
             <p class="section--paragraph__tittle"><?php echo $l->t('Compliance-ready monitoring');?></p>
