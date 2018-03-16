@@ -69,6 +69,8 @@
 			<li>Easy-to-use folder management</li>
 			<li>Supports end-to-end encryption using OpenPGP</li>
 			</ul>
+			<br>
+			<small><strong>Note:</strong> Nextcloud Mail is a client for POP or IMAP servers;<br>Nextcloud does not include a mail server.</small>
 			');?></p>
         </div>
 	</div>
@@ -94,7 +96,7 @@
 			<p class="section--paragraph"><?php echo $l->t('Keep your relations organized');?></p>
 			<p class="section--paragraph"><?php echo $l->t('<ul>
 			<li>Track birthdays of your contacts</li>
-			<li>Share your addressbooks with your team</li>
+			<li>Share your address books with your team</li>
 			<li>Sync your contacts with phones and other devices</li>
 			</ul>
 			');?></p>
@@ -102,7 +104,7 @@
 	</div>
 	<div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-            <p class="section--paragraph revealOnScroll text-center"><?php echo $l->t('Nextcloud Groupware relies on native IMAP and SMTP capabilities. It fluently integrates into your existing infrastructure while also providing its own.');?></p>
+            <p class="section--paragraph revealOnScroll text-center"><?php echo $l->t('Nextcloud fluently integrates into your existing infrastructure while also providing its own. Note that Nextcloud Mail is a client for POP or IMAP servers; Nextcloud does not include a mail server. ');?></p>
         </div>
 	</div>
 </div>
