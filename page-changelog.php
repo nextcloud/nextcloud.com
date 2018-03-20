@@ -63,7 +63,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
     <li><a href="https://github.com/nextcloud/server/pull/8654">Use hash algo that's robust against collisions (server#8654)</a></li>
     <li><a href="https://github.com/nextcloud/server/pull/8663">Fixed date/time picker on IE11 (server#8663)</a></li>
     <li><a href="https://github.com/nextcloud/server/pull/8667">Use a more widely available method to test s3 settings (server#8667)</a></li>
-    <li><a href="https://github.com/nextcloud/server/pull/8668">Use proper lanugage in langauge code (server#8668)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/8668">Use proper language in language code (server#8668)</a></li>
     <li><a href="https://github.com/nextcloud/server/pull/8669">Display the proper language strings in setttings (server#8669)</a></li>
     <li><a href="https://github.com/nextcloud/server/pull/8673">Do not create empty userid when attribute does not have allowed chars (server#8673)</a></li>
     <li><a href="https://github.com/nextcloud/server/pull/8675">Remove too restrict check for background image/color (server#8675)</a></li>
