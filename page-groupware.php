@@ -104,7 +104,7 @@
 	</div>
 	<div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-            <p class="section--paragraph revealOnScroll text-center"><?php echo $l->t('Nextcloud fluently integrates into your existing infrastructure while also providing its own. Note that Nextcloud Mail is a client for POP or IMAP servers; Nextcloud does not include a mail server. ');?></p>
+            <p class="section--paragraph revealOnScroll text-center"><?php echo $l->t('Nextcloud fluently integrates into your existing infrastructure while also providing its own. Note that Nextcloud Mail is a client for POP and/or IMAP-infrastructure; Nextcloud does not include a mail server.');?></p>
         </div>
 	</div>
 </div>
