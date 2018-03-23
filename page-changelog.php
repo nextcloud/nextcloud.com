@@ -22,7 +22,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
 <h4>Changes</h4>
 <ul>
-    <li><a href="https://github.com/nextcloud/server/pull/8045">Dont polute the log on DAV emaillogin (server#8045)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/8045">Don't pollute the log on DAV emaillogin (server#8045)</a></li>
     <li><a href="https://github.com/nextcloud/server/pull/8099">Don't perform CSRF check on OCS routes with Bearer auth (server#8099)</a></li>
     <li><a href="https://github.com/nextcloud/server/pull/8102">Use S3Client::upload instead of splitting single/multipart upload ourselves (server#8102)</a></li>
     <li><a href="https://github.com/nextcloud/server/pull/8145">Remove old perl script to update l10n files (server#8145)</a></li>
