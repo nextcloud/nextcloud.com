@@ -18,7 +18,7 @@ $l = new L10N('footer');
 <div class="cookiewarning" id="cookieConsent">
     <div class="container">
         <div class="text-center">
-            This website is <a href="/privacy" target="_blank">using cookies</a>. <a class="cookieConsentOK">That's Fine</a>
+            This website is using cookies. By visiting you agree with our <a href="/privacy" target="_blank">privacy policy.</a> <a class="cookieConsentOK">That's Fine</a>
         </div>
     </div>
 </div>
