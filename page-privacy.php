@@ -4,7 +4,7 @@
             <h1>Privacy and Legal Policy - Introduction and summary</h1>
         </div>
         <p>We recognize that privacy is extremely important to all visitors to our website. We do not share any individual information with anybody without your permission.</p>
-        <p>We use <a href="http://piwik.org/">Piwik</a> to get information on how our website is used and use <a href="https://www.phplist.com/">phplist</a> to handle our newsletters. From neither will we hand over individual data to anybody else. Any privacy breaches we will disclose as soon as possible. Our <a href="https://scan.nextcloud.com">security scanner</a> is strictly based on publicly available information, that is the list of known vulnerabilities relevant for ownCloud/Nextcloud releases as well as any applied hardenings/settings we can scan without having access to the server.</p>
+        <p>We use <a href="http://piwik.org/">Piwik</a> to get information on how our website is used and use <a href="https://www.phplist.com/">phplist</a> to handle our newsletters. From neither will we hand over individual data to anybody else. Any privacy breaches we will disclose as soon as possible. Our <a href="https://scan.nextcloud.com">security scanner</a> is strictly based on publicly available information, that is the list of known vulnerabilities relevant for ownCloud/Nextcloud releases as well as any applied hardenings/settings we can scan without having access to the server. We use the open source marketing automation tool Mautic to track business users that did download assets or participate in webinars.</p>
         <p>Please note that <a href="<?php echo home_url('news') ?>">nextcloud.com/news</a> aggregates community blogs and we can not be held responsible for their opinions or content.</p>
         <p>Our software, be it the Nextcloud server or the Android or iOS apps, do not sent any user data to us. The optional Usage Survey app can sent usage statistics like installed apps to us to help us improve our service. The Updater app, if enabled, sents Nextcloud version, PHP version and the channel it wants to the Nextcloud updater server to receive update information.</p>
         <p>If you see any problems, please report it to <a href="mailto:abuse@nextcloud.com">abuse@nextcloud.com</a>.</p>
@@ -28,6 +28,9 @@
 	<li>To send periodic emails regarding your order or other products and services.</li>
 	<li>To follow up with them after correspondence (live chat, email or phone inquiries)</li>
 </ul>
+<h3>A concrete example</h3>
+<p>As an example, we use the open source <a href="https://mautic.org">Mautic marketing automation tool.</a> This is used for actions like emailing a whitepaper to people who entered their email address to receive it. In line with our business strategy of not monetizing home and small business users but aim for large enterprises, our goal is to ONLY track employees of companies using their work email. We try to drop all home/private users from the database as soon as we find out they are private users. For example, we remove users with an @gmail address and would keep SIEMENS mail addresses. We then might follow up on a End-to-end Encryption whitepaper with an offer to download our Server-side Encryption whitepaper; or read a new blog about encryption we wrote. Our goal is to keep users informed and help them in their journey to become a Nextcloud user and customer.</p>
+<p>Of course, you can opt-out of any emails using the unsubscribe link on the bottom of these emails.</p>
 <h3>How do we protect visitor information?</h3>
 <p>We only provide articles, white papers and other information. We never ask for credit card numbers.</p>
 <p>We use regular Malware Scanning.</p>
