@@ -29,7 +29,7 @@
 								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
 							</div>
 							<p><?php echo $l->t('Looking for');?> <a class="hyperlink" href="<?php echo home_url('changelog') ?>"><?php echo $l->t('older versions or major releases</a>?');?></p>
-							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a class="hyperlink" href="https://help.nextcloud.com/t/linux-packages-status/10216">a virtual machine or docker image</a> on Windows Server.</small>');?></p>
+							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab">a virtual machine or docker image</a> on Windows Server.</small>');?></p>
 							<p><?php echo $l->t('<small><strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a class="hyperlink" href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a>.</small>');?></p>
 							<p><?php echo $l->t('<small><strong>Release channels:</strong></br>We offer');?> <a class="hyperlink" href="<?php echo home_url('release-channels') ?>"><?php echo $l->t('Release Channels</a> with production, stable, beta and daily-branches. This gives you the opportunity to choose your balance between stability and features.</small>');?></p>
 						</div>
@@ -53,7 +53,7 @@
 							<div class="thumbnail">
 								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
 							</div>
-							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a class="hyperlink" href="https://help.nextcloud.com/t/linux-packages-status/10216">a virtual machine or docker image</a> on Windows Server.</small>');?></p>
+							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab">a virtual machine or docker image</a> on Windows Server.</small>');?></p>
 							<p><?php echo $l->t('<small><strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a class="hyperlink" href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a>.</small>');?></p>
 							<p><?php echo $l->t('<small><strong>Release channels:</strong></br>We offer');?> <a class="hyperlink" href="<?php echo home_url('release-channels') ?>"><?php echo $l->t('Release Channels</a> with production, stable, beta and daily-branches. This gives you the opportunity to choose your balance between stability and features.</small>');?></p>
 						</div>
@@ -78,22 +78,42 @@
 				</div>
 				<div id="tab-cloud" role="tabpanel" class="tab-pane">
 					<div class="overlay-body row">
-						<div class="col-md-6">
-                            <h5><?php echo $l->t('Home and small business appliance');?></h5>
-							<p><?php echo $l->t('The official Nextcloud appliance, provided by <a target="_blank" href="https://www.techandme.se/">Tech and Me</a>, is the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure connection. ');?></p>
-							<p><?php echo $l->t('<a class="btn btn-lg btn-primary" href="https://www.techandme.se/nextcloud-vm/">Tech and Me VM images</a>');?></p>
-							<p><?php echo $l->t('Find <a class="hyperlink" href="https://github.com/nextcloud/vm">source here</a>.');?></p>
-							<br>
-							<h5><?php echo $l->t('Small and medium enterprise appliance');?></h5>
-							<p><?php echo $l->t('Univention offers an appliance with Nextcloud (maintained by Nextcloud) built on the Univention Corporate Server (UCS).');?></p>
-							<p><?php echo $l->t('<a class="btn btn-lg btn-primary" href="https://www.univention.com/products/univention-app-center/app-catalog/nextcloud/">UCS Appliance download</a>');?></p>
+						<div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h5><?php echo $l->t('Home user appliance');?></h5>
+                                    <p><?php echo $l->t('<a target="_blank" href="https://www.techandme.se/">Tech and Me</a> maintains a VM designed to be the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure SSL/TLS connection.');?></p>
+                                    <p><?php echo $l->t('<a class="btn btn-lg btn-primary" href="https://www.techandme.se/nextcloud-vm/">home user VM</a>');?></p>
+                                    <p><?php echo $l->t('Find <a class="hyperlink" href="https://github.com/nextcloud/vm">source here</a>.');?></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5><?php echo $l->t('Small and medium enterprise appliance');?></h5>
+                                    <p><?php echo $l->t('Nextcloud GmbH maintains a free appliance built on the Univention Corporate Server (UCS). It includes LDAP and user management as well as optional Collabora Online integration.');?></p>
+                                    <p><?php echo $l->t('<a class="btn btn-lg btn-primary" href="https://www.univention.com/products/univention-app-center/app-catalog/nextcloud/">enterprise appliance</a>');?></p>
+                                    <p><?php echo $l->t('Find <a class="hyperlink" href="https://github.com/nextcloud/univention-app">source here</a>.');?></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h5><?php echo $l->t('Docker');?></h5>
+                                    <p><?php echo $l->t('Several Nextcloud community members maintain a Docker image. It supports a wide range of architectures and releases, features Apache/FPM, NGINX, various databases and more.');?></p>
+                                    <p><?php echo $l->t('<a class="btn btn-lg btn-primary" href="https://hub.docker.com/_/nextcloud/">Docker image</a>');?></p>
+                                    <p><?php echo $l->t('Find <a class="hyperlink" href="https://github.com/nextcloud/docker">source here</a>.');?></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5><?php echo $l->t('Snap');?></h5>
+                                    <p><?php echo $l->t('Canonical and the Nextcloud community maintain a Nextcloud Snap, including release channels and quick and easy deployment for easy home use.');?></p>
+                                    <p><?php echo $l->t('<a class="btn btn-lg btn-primary" href="https://uappexplorer.com/snap/ubuntu/nextcloud">Snap image</a>');?></p>
+                                    <p><?php echo $l->t('Find <a class="hyperlink" href="https://github.com/nextcloud/nextcloud-snap">source here</a>.');?></p>
+                                </div>
+                            </div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-4">
 							<div class="thumbnail">
 								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/VMwelcome.png" alt="Nextcloud VM" />
 							</div>
 							<p><?php echo $l->t('<small><strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a class="hyperlink" href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a>.</small>');?></p>
-							<p><?php echo $l->t('<small><strong>Release channels:</strong></br>We offer');?> <a class="hyperlink" href="<?php echo home_url('release-channels') ?>"><?php echo $l->t('Release Channels</a> with production, stable, beta and daily-branches. This gives you the opportunity to choose your balance between stability and features.</small>');?></p>
+							<p><?php echo $l->t('<small><strong>Release channels:</strong></br>We offer');?> <a class="hyperlink" href="<?php echo home_url('release-channels') ?>"><?php echo $l->t('Release Channels</a> with production, stable, beta and daily-branches. This gives you the opportunity to choose your balance between stability and features.</small> Most of our Appliances support these release channels or let you fix on specific major versions.');?></p>
 						</div>
 					</div>
 				</div>
