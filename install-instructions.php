@@ -83,11 +83,11 @@
                                 <div class="col-md-6">
                                     <h5><?php echo $l->t('Home user appliance');?></h5>
                                     <p><?php echo $l->t('<a target="_blank" href="https://www.techandme.se/">Tech and Me</a> maintains a VM designed to be the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure SSL/TLS connection.');?></p>
-                                    <p><?php echo $l->t('<a class="btn btn-lg btn-primary" href="https://www.techandme.se/nextcloud-vm/">home user VM</a>');?></p>
+                                    <p><?php echo $l->t('<a class="btn btn-lg btn-primary" href="https://www.techandme.se/nextcloud-vm/">home user appliance</a>');?></p>
                                     <p><?php echo $l->t('Find <a class="hyperlink" href="https://github.com/nextcloud/vm">source here</a>.');?></p>
                                 </div>
                                 <div class="col-md-6">
-                                    <h5><?php echo $l->t('Small and medium enterprise appliance');?></h5>
+                                    <h5><?php echo $l->t('Enterprise appliance');?></h5>
                                     <p><?php echo $l->t('Nextcloud GmbH maintains a free appliance built on the Univention Corporate Server (UCS). It includes LDAP and user management as well as optional Collabora Online integration.');?></p>
                                     <p><?php echo $l->t('<a class="btn btn-lg btn-primary" href="https://www.univention.com/products/univention-app-center/app-catalog/nextcloud/">enterprise appliance</a>');?></p>
                                     <p><?php echo $l->t('Find <a class="hyperlink" href="https://github.com/nextcloud/univention-app">source here</a>.');?></p>
