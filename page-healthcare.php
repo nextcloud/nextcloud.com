@@ -384,8 +384,8 @@ require(["require.config"], function() {
             <p class="section--paragraph"><?php echo $l->t('Questions regarding Nextcloud’s HIPAA policies or compliance may be directed to:');?></p>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud GmbH<br>
             Attention: HIPAA Privacy Officer<br>
-            Kronenstr. 22A<br>
-            70173 Stuttgart Germany<br>
+            Hauptmannsreute 44A<br>
+            70192 Stuttgart Germany<br>
             info@nextcloud.com');?></p>
         </div>
     </div>
