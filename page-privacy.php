@@ -94,10 +94,10 @@ However, non-personally identifiable visitor information may be provided to othe
 
 <h2>Legal Notice</h2>
 <p>Nextcloud GmbH<br/>
-Kronenstraße 22A<br/>
-70173 Stuttgart Germany<br/>
+Hauptmannsreute 44A<br/>
+70192 Stuttgart Germany<br/>
 HRB 227086 (AG München)<br/>
-T +49 711 89 66 56 0<br/>
+T +49 711 25 24 280<br/>
 <a href="<?php echo home_url('contact') ?>">contact form</a><br/>
 </p>
 <p>
@@ -107,7 +107,7 @@ Frank Karlitschek<br/>
 </p>
 <p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
 
-<p>Last Edited on 2017-07-17</p>
+<p>Last Edited on 2018-04-03</p>
 
     </div>
 </div>
