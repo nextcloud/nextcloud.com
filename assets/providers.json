@@ -397,13 +397,8 @@
       },
     {
          "title":"Unixcorn Project",
-         "url":"https:\/\/cloud.unixcorn.org",
+         "url":"https:\/\/unixcorn.org\/services.html",
          "flags":[
-            "fr",
-            "uk",
-            "de",
-            "nl",
-            "ch",
             "eu"
          ],
          "freeplans":true,
