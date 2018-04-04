@@ -97,7 +97,7 @@ However, non-personally identifiable visitor information may be provided to othe
 Hauptmannsreute 44A<br/>
 70192 Stuttgart Germany<br/>
 HRB 227086 (AG München)<br/>
-T +49 711 89 66 56 0<br/>
+T +49 711 25 24 28 0<br/>
 <a href="<?php echo home_url('contact') ?>">contact form</a><br/>
 </p>
 <p>
