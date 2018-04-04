@@ -245,6 +245,39 @@ section {
     .section--explanation .banner .small-img {
       display: none; } }
 
+.section--dicom .banner {
+  background-color: #0082c9;
+  position: relative;
+  overflow: hidden; }
+  .section--dicom .banner h2 {
+    text-align: left;
+    color: white; }
+  .section--dicom .banner p {
+    /*             padding-top: 10px; */
+    text-align: left;
+    color: white; }
+  .section--dicom .banner li {
+    /*             text-align: left; */
+    color: white; }
+  .section--dicom .banner .hyperlink {
+    color: white; }
+  .section--dicom .banner .fa {
+    color: white;
+    padding-right: 10px; }
+  .section--dicom .banner .col-md-6 {
+    padding: 80px 0px;
+    /* 			margin-left: 10% */ }
+  .section--dicom .banner .dicom-img {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 50%;
+    /*         top: 60px; */
+    margin-left: 30px;
+    background: url("../../img/headers/dicom.jpg") no-repeat;
+    background-position: 65% 50%;
+    background-size: cover; }
+
 .section--integrated .container .section--intro {
   max-width: 43.24878em;
   margin: 0 auto; }
