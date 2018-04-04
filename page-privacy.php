@@ -107,7 +107,7 @@ Frank Karlitschek<br/>
 </p>
 <p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
 
-<p>Last Edited on 2017-07-17</p>
+<p>Last Edited on 2018-04-03</p>
 
     </div>
 </div>
