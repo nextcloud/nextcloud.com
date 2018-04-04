@@ -307,12 +307,62 @@ section {
                 display: none;
             }
         }
-        @media (min-width: $very-wide) {
-            .small-img {
-                display: none;
-            }
+		@media (min-width: $very-wide) {
+			.small-img {
+				display: none;
+			}
+		}
+	}
+}
+
+.section--dicom {
+    .banner {
+        background-color: $nextcloud-blue;
+        position: relative;
+        overflow: hidden;
+
+        h2 {
+            text-align: left;
+            color: white;
         }
-    }
+
+        p {
+/*             padding-top: 10px; */
+            text-align: left;
+            color: white;
+        }
+
+        li {
+            /*             text-align: left; */
+            color: white;
+        }
+
+        .hyperlink {
+            color: white;
+        }
+
+        .fa {
+            color: white;
+            padding-right: 10px;
+        }
+
+        .col-md-6 {
+            padding: 80px 0px;
+            /* 			margin-left: 10% */
+        }
+
+        .dicom-img {
+            position: absolute;
+            height: 100%;
+			width: 50%;
+			left: 50%;
+            /*         top: 60px; */
+            margin-left: 30px;
+			background: url("../../img/headers/dicom.jpg") no-repeat;
+			background-position: 65% 50%;
+			background-size: cover;
+        }
+	}
 }
 
 

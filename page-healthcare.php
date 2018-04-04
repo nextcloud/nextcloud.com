@@ -247,7 +247,29 @@ require(["require.config"], function() {
 </div>
 </section>
 
-<div class="separator"></div>
+
+<section class="section--dicom">
+<div class="container-fluid banner">
+    <div class="container">
+        <div class="col-md-6">
+            <h2 class="revealOnScroll"><?php echo $l->t('A DICOM viewer in Nextcloud');?></h1>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Digital Imaging and Communications in Medicine (DICOM)
+            is the international standard to handle medical images, ubiquitous worldwide in radiological imaging devices and systems.');?></p>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('A DICOM viewer has been developed for Nextcloud, enabling medical professionals to view and modify DICOM files. It parses and displays patient information, enabling viewing of images with informational overlays including Computed Radiography (CR), Computed Tomography (CT), Digital Radiography (DX), Mammography (MG), and Magnetic Resonance (MR).');?></p>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('The DICOM viewer is a powerful example of the capabilities of Nextcloud and how it can be extended and integrated to support the workflow of professionals.');?></p>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Learn more:');?>
+            <ul>
+            <li><a class="hyperlink" href="https://nextcloud.com/blog/digital-imaging-for-medicine-in-nextcloud/">Introducing the Nextcloud DICOM viewer</a></li>
+            <li><a class="hyperlink" href="https://apps.nextcloud.com/apps/dicomviewer">The DICOM viewer in our app store</a></li>
+            </ul></p>
+        </div>
+        <div class="dicom-img"></div>
+    </div>
+</div>
+</section>
+
+
+
 <a name="integrated"></a>
 <section class="section--integrated">
 <div class="container">
