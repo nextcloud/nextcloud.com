@@ -255,7 +255,7 @@ require(["require.config"], function() {
             <h2 class="revealOnScroll"><?php echo $l->t('A DICOM viewer in Nextcloud');?></h1>
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('Digital Imaging and Communications in Medicine (DICOM)
             is the international standard to handle medical images, ubiquitous worldwide in radiological imaging devices and systems.');?></p>
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('A DICOM viewer has been developed for Nextcloud, enabling medical professionals to view and modify DICOM files. It parses and displays patient information, enabling viewing of images with informational overlays including Computed Radiography (CR), Computed Tomography (CT), Digital Radiography (DX), Mammography (MG), and Magnetic Resonance (MR).');?></p>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('A third party developed a DICOM viewer for Nextcloud, enabling medical professionals to view and modify DICOM files. It parses and displays patient information, enabling viewing of images with informational overlays including Computed Radiography (CR), Computed Tomography (CT), Digital Radiography (DX), Mammography (MG), and Magnetic Resonance (MR).');?></p>
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('The DICOM viewer is a powerful example of the capabilities of Nextcloud and how it can be extended and integrated to support the workflow of professionals.');?></p>
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('Learn more:');?>
             <ul>
