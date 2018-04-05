@@ -26,7 +26,7 @@ require(["require.config"], function() {
     <div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
             <a href="#convenient"><?php echo $l->t('convenient');?></a>
-			<a href="#secure"><?php echo $l->t('secure');?></a>
+<!-- 			<a href="#secure"><?php echo $l->t('secure');?></a> -->
 			<a href="#integrated"><?php echo $l->t('integrated');?></a>
 			<a href="#HIPAA"><?php echo $l->t('HIPAA');?></a>
 		</div>
@@ -259,8 +259,8 @@ require(["require.config"], function() {
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('The DICOM viewer is a powerful example of the capabilities of Nextcloud and how it can be extended and integrated to support the workflow of professionals.');?></p>
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('Learn more:');?>
             <ul>
-            <li><a class="hyperlink" href="https://nextcloud.com/blog/digital-imaging-for-medicine-in-nextcloud/">Introducing the Nextcloud DICOM viewer</a></li>
-            <li><a class="hyperlink" href="https://apps.nextcloud.com/apps/dicomviewer">The DICOM viewer in our app store</a></li>
+            <li><a class="hyperlink" href="https://nextcloud.com/blog/digital-imaging-for-medicine-in-nextcloud/"><?php echo $l->t('Introducing the Nextcloud DICOM viewer');?></a></li>
+            <li><a class="hyperlink" href="https://apps.nextcloud.com/apps/dicomviewer"><?php echo $l->t('The DICOM viewer in our App Store');?></a></li>
             </ul></p>
         </div>
         <div class="dicom-img"></div>
