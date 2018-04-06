@@ -88,7 +88,59 @@
 				<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
-            <a href="#marketing" data-toggle="collapse"><h3 class="jobs">Marketing Manager<span class="icon-arrow"></span></h3></a>
+			<a href="#salesrep" data-toggle="collapse"><h3 class="jobs">Sales Representative<span class="icon-arrow"></span></h3></a>
+			<div id="salesrep" class="collapse">
+				<p>We are looking for a passionate Sales Representative to work with prospective customers to determine if Nextcloud is a good fit for them.</p>
+				<p>Your responsibilities include building relationships with prospective customers and connecting with key business executives and stakeholders. You will research and develop market segments, work with Marketing to generate and classify leads, develop them to opportunities and work as part of our internal cross-functional internal teams to ensure the customers get timely information and fitting solutions to their problems.</p>
+				<p class="section--paragraph__tittle">Responsibilities:</p>
+
+				<ul>
+                    <li>Work with marketing on outreach, lead generation and classification of opportunities</li>
+                    <li>Research, develop and maintain communication within and for specific market segments</li>
+					<li>Collaborate with your team and our Partners in determining the best
+					solution for our customers</li>
+					<li>Build and maintain strong, long-lasting customer relationships</li>
+					<li>Communicate clearly the progress of monthly/quarterly initiatives
+					internally</li>
+					<li>Forecast and track key account metrics</li>
+					<li>negotiating tender and contract terms and conditions to meet both
+					client and company needs</li>
+					<li>Identify and grow opportunities within territory and collaborate
+					with sales teams to ensure growth attainment</li>
+					<li>Assist with high severity requests or issue escalations as needed</li>
+				</ul>
+
+				<p class="section--paragraph__tittle">Required skills:</p>
+
+				<ul>
+					<li>Proven sales/account management or other relevant experience</li>
+					<li>Demonstrated ability to communicate, present and influence credibly
+					and effectively at all levels of the organization, including
+					executive and C-level</li>
+					<li>Experience in delivering client-focused solutions based on customer
+					needs</li>
+					<li>Proven ability to manage multiple projects at a time while paying
+					strict attention to prioritize</li>
+					<li>Excellent listening, negotiation and presentation skills</li>
+					<li>Excellent verbal and written communications skills</li>
+					<li>Problem solving skills</li>
+					<li>Writing and speaking German language</li>
+				</ul>
+
+				<p class="section--paragraph__tittle">What we offer:</p>
+
+				<ul>
+					<li>A distributed, open team with a passion for working on and within the open source community</li>
+					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
+					<li>A competitive salary</li>
+					<li>Flexibility for a healthy work-life balance</li>
+					<li>Time for personal growth and education</li>
+				</ul>
+
+				<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+			</div>
+
+<!--            <a href="#marketing" data-toggle="collapse"><h3 class="jobs">Marketing Manager<span class="icon-arrow"></span></h3></a>
 			<div id="marketing" class="collapse">
 				<p>Our marketing team is looking for an enthusiastic new member to help explain the benefits of Nextcloud to our potential customers and users.</p>
 				<p>You would support and strengthen our marketing, helping us create blogs, website pages, flyers and other promotional materials as well as go to conferences, develop marketing automation and organize events. We're looking for somebody with a design background (or interest!) who's eager to learn and try new things!</p>
@@ -118,7 +170,7 @@
 					<li>Time for personal growth and education</li>
 				</ul>
 				<p>We are looking for somebody with ambition and drive, who would like to grow and learn. German speaking and some design experience are really needed, but besides that, if you're willing to try new things, you will be fine! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your motivation and resume if you are interested in this role.</p>
-			</div>
+			</div>-->
 
 
             <a href="#jsdev" data-toggle="collapse"><h3 class="jobs">Javascript Developer<span class="icon-arrow"></span></h3></a>
