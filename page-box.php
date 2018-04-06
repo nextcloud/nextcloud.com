@@ -8,7 +8,7 @@
 </head>
 <section class="section-top-jumbotron">
 	<div class="container">
-		<h2 class="section--heading-1 section--text--center text-center introText"><?php echo $l->t('Introducing the Nextcloud Box');?></h2>
+		<h2 class="section--heading-1 section--text--center text-center introText"><?php echo $l->t('The Nextcloud Box');?></h2>
 		<div class="box introImage"></div>
 	</div>
 </section>
@@ -19,7 +19,10 @@
 		<h2 class="section--heading-1 section--text--center  revealOnScroll"><?php echo $l->t('Bring your data home');?></h2>
 		<p class="section--intro section--text--center  revealOnScroll"><?php echo $l->t('The Nextcloud Box is your private cloud. It stores your data and enables
 		you to sync between your devices and share with others.');?></p>
-		<a class="button button--blue button--arrow button--large revealOnScroll" href="<?php echo home_url('features') ?>" role="button"><?php echo $l->t('Know Nextcloud</a>');?>
+		<a class="button button--blue button--arrow button--large revealOnScroll" href="<?php echo home_url('athome') ?>" role="button"><?php echo $l->t('Know Nextcloud</a>');?>
+		<h6 class="section--paragraph__tittle"><?php echo $l->t('Unfortunately, the box is sold out in most locations');?></h6>
+		<p class="section--paragraph revealOnScroll"><?php echo $l->t('Western Digital has shut down their <a class="hyperlink" href="https://www.digitaltrends.com/computing/wdlabs-may-close-raspberry-pi/">research team WDLabs</a> which produced the box. Read our <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-box-updates-raspberry-pi-3-nextcloud-12-and-looking-for-a-new-provider/">last status update blog on the Nextcloud Box</a> for more details. You can look in the stores below, there still might be some in your area.');?></p>
+		<p class="section--paragraph revealOnScroll"><?php echo $l->t('The software for the box as well as similar solutions are still being developed by Nextcloud contributors. You can use the <a class="hyperlink" href="https://uappexplorer.com/snap/ubuntu/nextcloud">Ubuntu Snap image</a> for easy installation on small and large devices that already have an operating system. Alternatively you could use <a class="hyperlink" href="https://ownyourbits.com/category/nextcloud/nextcloudpi/">the NextcloudPi image,</a> a full operating system aimed at the Raspberry Pi.');?></p>
 		</div>
 	</div>
 </section>
@@ -37,20 +40,24 @@
 			<p class="section--paragraph"><?php echo $l->t('<strong>The Box does not come with a Raspberry Pi.</strong>');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The Box is hardware-compatible with the Raspberry Pi 2 and 3, and the oDroid C2.');?></p>
 		</div>
-		<div class="col-md-6">
-			<p class="section--paragraph"><?php echo $l->t('The box is delivered with an OS image which only works with the Raspberry Pi 2. You can download a software image that works for the <a class="hyperlink" href="https://download.nextcloud.com/server/images/ubuntu-core-16-armhf-rpi3-installer-20170329.img">Pi 3 from our download server here</a> (<a class="hyperlink" href="https://download.nextcloud.com/server/images/ubuntu-core-16-armhf-rpi3-installer-20170329.img.md5sum">md5sum</a>). There is no support image for oDroid C2 however you can find excellent tutorials on <a class="hyperlink" href="https://www.c-rieger.de/">installing and running Nextcloud on a oDroid C2 by community member Carsten Rieger.</a>');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Note that by default, the Nextcloud Box only works on the network it is connected to (like your home LAN). It requires configuration of encryption (https) and router ports to reach it from outside your home network. We provide scripts for enabling SSL using Let‘s Encrypt, see <a class="hyperlink" href="https://github.com/nextcloud/nextcloud-snap/wiki">our documentation</a>.');?></p>
-		</div>
+        <div class="row">
+            <div class="col-md-6">
+                <p class="section--paragraph"><?php echo $l->t('The box is delivered with an OS image which only works with the Raspberry Pi 2. You can download a software image that works for the <a class="hyperlink" href="https://download.nextcloud.com/server/images/ubuntu-core-16-armhf-rpi3-installer-20170329.img">Pi 3 from our download server here</a> (<a class="hyperlink" href="https://download.nextcloud.com/server/images/ubuntu-core-16-armhf-rpi3-installer-20170329.img.md5sum">md5sum</a>). There is no support image for oDroid C2 however you can find excellent tutorials on <a class="hyperlink" href="https://www.c-rieger.de/">installing and running Nextcloud on a oDroid C2 by community member Carsten Rieger.</a>');?></p>
+            </div>
+            <div class="col-md-6">
+                <p class="section--paragraph"><?php echo $l->t('Note that by default, the Nextcloud Box only works on the network it is connected to (like your home LAN). It requires configuration of encryption (https) and router ports to reach it from outside your home network. We provide scripts for enabling SSL using Let‘s Encrypt, see <a class="hyperlink" href="https://github.com/nextcloud/nextcloud-snap/wiki">our documentation</a>.');?></p>
+            </div>
+        </div>
 	</div>
 </section>
 
 <section class="section-getbox">
 	<div class="container">
 		<div class="row">
-			<div class="box-perspective col-md-8 revealOnScroll"></div>
-			<div class="wrapper-text col-md-4">
+			<div class="box-perspective col-lg-8 revealOnScroll"></div>
+			<div class="wrapper-text col-lg-4">
 				<h2 class="section--title revealOnScroll"><?php echo $l->t('Get the box');?></h2>
-				<p class="section--paragraph revealOnScroll"><?php echo $l->t('You can only purchase the Nextcloud Box in most of Europe and the USA.');?></p>
+				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Sadly, <strong>the box is sold out in most locations.</strong> Western Digital has shut down their <a class="hyperlink" href="https://www.digitaltrends.com/computing/wdlabs-may-close-raspberry-pi/">research team WDLabs</a> which produced the box. Read our <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-box-updates-raspberry-pi-3-nextcloud-12-and-looking-for-a-new-provider/">last status update blog on the Nextcloud Box</a> for more details. You can look in the stores below, there still might be some in your area.');?></p>
 				<div class="button button--blue button--dropdown">
 					<input class="dropdown-toggle" type="text">
 					<div class="dropdown-text">Select your country</div>
@@ -63,7 +70,6 @@
 						<li><?php echo $l->t('<a href="http://shop.wdc.com/promo/4828824000" target="_blank">Buy in Italy </a>');?></li>
 						<li><?php echo $l->t('<a href="http://shop.wdc.com/promo/4828824100" target="_blank">Buy in the Netherlands </a>');?></li>
 						<li><?php echo $l->t('<a href="http://shop.wdc.com/promo/4832872800" target="_blank">Buy in rest of Europe </a>');?></li>
-						<li><?php echo $l->t('<a href="https://www.openhardwareshop.eu/en/networking/21-545-nextcloud-box-complete-package#/79-platform-raspberry_pi_2b" target="_blank">Pre-assembled, available in Austria, Switzerland and Liechtenstein</a>');?></li>
 					</ul>
 				</div>
 		</div>
