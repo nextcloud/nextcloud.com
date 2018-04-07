@@ -451,7 +451,7 @@
             </div>
 		<h3 class="jobs">And more</h3>
 		<div>
-			<p>We are always looking for talented new people in all areas of our business--from engineering and support to sales and marketing. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> and tell us how you can help!</p>
+			<p>We are always looking for talented new people in all areas of our business - from engineering and support to sales and marketing. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> and tell us how you can help!</p>
 		</div>
 	</div>
 
