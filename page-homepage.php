@@ -132,7 +132,7 @@
             </div>
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/actu.png" /></a>
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/max-planck.png" /></a>
                 </div>
             </div>
         </div>
