@@ -62,6 +62,26 @@ require(["require.config"], function() {
                 <a href="http://my.engineering.queensu.ca/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/queens.png" /></a>
             </div>
         </div>
+		<div class="col-sm-3 customer">
+            <div class="customer-logo">
+                <a href="http://www.univ-nantes.fr/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/uni-nantes.png" /></a>
+            </div>
+        </div>
+		<div class="col-sm-3 customer">
+            <div class="customer-logo">
+                <a href="http://www.nwu.ac.za/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/NWU.png" /></a>
+            </div>
+        </div>
+        <div class="col-sm-3 customer">
+            <div class="customer-logo">
+                <a href="https://www.sdu.dk/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/syddansk-universitet.png" /></a>
+            </div>
+        </div>
+        <div class="col-sm-3 customer">
+            <div class="customer-logo">
+                <a href="https://www.mpg.de/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/max-planck.png" /></a>
+            </div>
+        </div>
     </div>
 </div>
 </section>

@@ -51,12 +51,12 @@ section .row {
   position: relative; }
   .section--customers .container {
     padding-top: 8.54297em;
-    /*     padding-bottom: ms(1); */ }
+    padding-bottom: 8.54297em; }
   .section--customers .customer {
     position: relative; }
     .section--customers .customer .customer-logo {
       float: center;
-      height: 400px;
+      height: 200px;
       position: relative;
       line-height: 400px;
       text-align: center;
