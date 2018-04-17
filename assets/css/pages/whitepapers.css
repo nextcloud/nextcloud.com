@@ -108,6 +108,9 @@ section {
     width: 100%;
     max-width: 300px; }
 
+.section--blogs {
+  padding: 0 0 100px 0; }
+
 footer {
   /*     margin-top: 0px; */ }
 

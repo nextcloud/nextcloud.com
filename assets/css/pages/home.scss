@@ -337,6 +337,7 @@
 
 .section--customers {
     padding-top: 130px;
+	padding-bottom: 110px;
     position: relative;
     .container {
     }
@@ -349,8 +350,8 @@
         padding-right: 10px;
         .customer-logo {
 
-            -webkit-filter: saturate(0%) contrast(.35) brightness(130%);
-            filter: saturate(0%) contrast(.35) brightness(130%);
+/*             -webkit-filter: saturate(0%) contrast(.35) brightness(130%); */
+/*             filter: saturate(0%) contrast(.35) brightness(130%); */
 
             max-width: 250px;
             float: center;

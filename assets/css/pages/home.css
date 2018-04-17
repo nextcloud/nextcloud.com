@@ -252,6 +252,7 @@
 
 .section--customers {
   padding-top: 130px;
+  padding-bottom: 110px;
   position: relative; }
   .section--customers .row {
     margin-top: 50px; }
@@ -260,8 +261,8 @@
     padding-left: 10px;
     padding-right: 10px; }
     .section--customers .customer .customer-logo {
-      -webkit-filter: saturate(0%) contrast(0.35) brightness(130%);
-      filter: saturate(0%) contrast(0.35) brightness(130%);
+      /*             -webkit-filter: saturate(0%) contrast(.35) brightness(130%); */
+      /*             filter: saturate(0%) contrast(.35) brightness(130%); */
       max-width: 250px;
       float: center;
       /*             height: 200px; */

@@ -112,27 +112,27 @@
             </div>
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/mmecmannesmann.png" />
+                    <a href="https://nextcloud.com/blog/german-federal-administration-relies-on-nextcloud-as-a-secure-file-exchange-solution"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/itzbund.png" /></a>
                 </div>
             </div>
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/siemens.png" /></a>
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/siemens.png" />
                 </div>
             </div>
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/randv.png" /></a>
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/randv.png" />
                 </div>
             </div>
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/raiffeisen.png" /></a>
+                    <a href="https://nextcloud.com/blog/nextcloud-is-the-one-and-only-solution-we-are-providing-to-our-end-customers-florian-hausleitner/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/raiffeisen.png" /></a>
                 </div>
             </div>
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/max-planck.png" /></a>
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/max-planck.png" />
                 </div>
             </div>
         </div>
@@ -170,6 +170,11 @@
             </div>
         </div>-->
 	</div>
+	<div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <p class="text-center revealOnScroll"><a class="button button--blue button--arrow button--large  revealOnScroll" href="<?php echo home_url('whitepapers') ?>"><?php echo $l->t('case studies & white papers');?></a></p>
+        </div>
+    </div>
 </section>
 <section class="underyourcontrol">
 <div class="container-fluid" id="perfect-for-home-and-business">
