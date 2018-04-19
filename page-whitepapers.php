@@ -359,6 +359,7 @@
         <li><a class="hyperlink" href="https://nextcloud.com/blog/one-of-the-organizations-behind-panama-papers-uses-nextcloud/">February 28, 2018 - One of the organizations behind reporting on the Panama Papers uses Nextcloud</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/partner-casestudy-intel-onapp-is-the-cloud-your-organization-needs/">March 28, 2018 - Partner Case Study: Intel OnApp is the cloud your organization needs</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/german-federal-administration-relies-on-nextcloud-as-a-secure-file-exchange-solution">April 18, 2018 - German Federal Administration relies on Nextcloud as a secure file exchange solution</a></li>
+        <li><a class="hyperlink" href="https://nextcloud.com/blog/a-wave-of-cities-all-over-europe-moving-to-nextcloud/">April 19, 2018 - A wave of cities all over Europe moving to Nextcloud </a></li>
     </ul></p>
 </section>
 
