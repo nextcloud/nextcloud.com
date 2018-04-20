@@ -257,6 +257,20 @@ nav a {
             visibility: visible;
             -webkit-transform: scaleX(1);
             transform: scaleX(1); }
+      .nav .container .right-buttons .flag {
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        padding-left: 100px; }
+        .nav .container .right-buttons .flag a {
+          -webkit-transition: 0.3s;
+          position: relative;
+          /* 					transition: all .3s ease-in-out; */
+          transition: 0.3s; }
+          .nav .container .right-buttons .flag a:hover {
+            text-decoration: none; }
+            .nav .container .right-buttons .flag a:hover img {
+              transform: scale(1.2); }
       .nav .container .right-buttons li {
         display: inline-block;
         padding-left: 30px;

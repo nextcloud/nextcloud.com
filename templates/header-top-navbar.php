@@ -2,7 +2,7 @@
 $l = new L10N('header-navbar');
 require get_template_directory().'/strings.php';
 ?>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
 <nav class="nav" id="nav">
 <!-- To finish -->
@@ -17,7 +17,6 @@ require get_template_directory().'/strings.php';
 		<div class="brand">
 			<a href="<?php echo home_url('homepage') ?>"><div class="logo"></div></a>
 		</div>
-
 		<button type="button" class="navbar-toggle collapsed" id="toggle">
 			<div class="menu-animation" data-animation-path="img/menu/black/" data-anim-loop="false" data-name="menu-black" id="menu-black"></div>
 		</button>
@@ -112,6 +111,9 @@ require get_template_directory().'/strings.php';
 					<li class="ghost-btn"><a href="<?php echo home_url('install') ?>" class="nav__label"><?php echo $l->t('Download');?></a></li>
 					<li class="ghost-btn"><a href="<?php echo home_url('enterprise/buy') ?>" class="nav__label"><?php echo $l->t('Buy');?></a></li>
                     <li class="ghost-btn"><a href="<?php echo home_url('pricing') ?>#faq" class="nav__label"><?php echo $l->t('FAQ');?></a></li>
+                    <li class="flag"><a href="<?php echo site_url(); ?>/de/<?php echo $pagename ?>" class="nav__label"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/flags/de.gif"></a> | <a href="<?php echo site_url(); ?>/<?php echo $pagename ?>" class="nav__label"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/flags/us.gif"></a>
+                    </li>
+				</li>
 				</ul>
 			</div>
 		</div>
