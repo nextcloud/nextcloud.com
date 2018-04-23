@@ -1139,7 +1139,7 @@
       },
     {
          "title":"Infmaster",
-         "url":"https:\/\/nextcloud.infmaster.com.br/",
+         "url":"https:\/\/nextcloud.infmaster.com.br",
          "flags":[
             "br",
             "pt"
@@ -1151,5 +1151,128 @@
             "We offer a dedicated and isolated virtual server with the latest Nextcloud version, all installations have SSL certificates and daily backups."
          ],
          "imagename":"infmaster.png"
+      },
+    {
+         "title":"Own-Box",
+         "url":"https:\/\/own-box.de",
+         "flags":[
+            "de",
+            "ch",
+            "at"
+         ],
+         "freeplans":true,
+         "supports":"consumer",
+         "specializes":[
+            "Wir bieten eine unkommerzielle, unabhängige, verschlüsselte und in Deutschland gehostete Cloud."
+         ],
+         "imagename":"own-box.png"
+      },
+    {
+         "title":"deskonline.cloud",
+         "url":"https:\/\/deskonline.cloud",
+         "flags":[
+            "au",
+            "nz"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "The Cloud SOE - \"Collaboration Environment\" with Files/Emails/Contacts/Calendar/Tasks/Boards/Video/Audio/Chat/Share."
+         ],
+         "imagename":"deskonline.png"
+      },
+    {
+         "title":"Spry Servers",
+         "url":"https:\/\/www.spryservers.net\/sprycloud",
+         "flags":[
+            "us",
+            "all"
+         ],
+         "freeplans":true,
+         "supports":"both",
+         "specializes":[
+            "Rock solid Nextcloud powered backup and sync. We utilize the latest security and encryption technologies/practices to keep your data safe."
+         ],
+         "imagename":"spryservers.png"
+      },
+    {
+         "title":"CyanSpace",
+         "url":"https:\/\/cyanspace.net",
+         "flags":[
+            "uk"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "UK-based servers - including Collabora office integration, TURN server for Talk app, Calendar, Mail, Deck and more."
+         ],
+         "imagename":"cyanspace.png"
+      },
+    {
+         "title":"Televideocom Srl",
+         "url":"https:\/\/nextcloud.capitanhostino.it",
+         "flags":[
+            "it"
+         ],
+         "freeplans":false,
+         "supports":"organization",
+         "specializes":[
+            "MyPocket is a private cloud solution for manage data among your multiple devices. Unlimited bandwidth, DDos protection, IPS/IDS and all mobile apps."
+         ],
+         "imagename":"capitan.png"
+      },
+    {
+         "title":"Webarchitects Co-operative",
+         "url":"https:\/\/www.webarchitects.coop\/nextcloud",
+         "flags":[
+            "uk"
+         ],
+         "freeplans":false,
+         "supports":"organization",
+         "specializes":[
+            "Private, secure, managed, co-operative, Nextcloud servers powered by green electricity in the UK with Collabora Online and Nextcloud Talk."
+         ],
+         "imagename":"webarch_coop.png"
+      },
+    {
+         "title":"hinterhofbu.de",
+         "url":"https:\/\/hinterhofbu.de\/nextcloud",
+         "flags":[
+            "de",
+            "at",
+            "ch"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Managed Nextcloud Server hosted in Germany, daily backups, A+ grades in SSL Labs and Nextcloud Security Scan guaranteed."
+         ],
+         "imagename":"hinterhofbu.png"
+      },
+    {
+         "title":"Tim Klein",
+         "url":"https:\/\/www.prox42.de\/private-cloud.html",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":"organization",
+         "specializes":[
+            "Your own data in your own secured cloud: hosted and managed services with Nextcloud for your business. Servers only in Germany, DS-GVO/GDPR ready."
+         ],
+         "imagename":"prox42.png"
+      },
+    {
+         "title":"Twist Development Limited",
+         "url":"https:\/\/www.twistdevelopment.co.uk\/file-sharing",
+         "flags":[
+            "uk"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "We are a UK based company offering off-site high spec servers with NextCloud ready to go. We offer full training and technical support."
+         ],
+         "imagename":"twist.png"
       }
 ]
