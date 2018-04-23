@@ -7,7 +7,7 @@ $l = new L10N('footer');
 <div class="alert alert--no-js">
   <div class="container">
 		<?php echo file_get_contents(get_template_directory_uri()."/assets/img/warning.svg"); ?>
-    <p><strong><?php echo($l->t('You have javascript disabled.') ?></strong> <?php echo($l->t('We tried to make sure the basics of our website work but some functionality will be missing.') ?></p>
+    <p><strong><?php echo($l->t('You have javascript disabled.')) ?></strong> <?php echo($l->t('We tried to make sure the basics of our website work but some functionality will be missing.')) ?></p>
   </div>
 </div>
 
@@ -18,7 +18,7 @@ $l = new L10N('footer');
 <div class="cookiewarning" id="cookieConsent">
     <div class="container">
         <div class="text-center">
-            <?php echo($l->t('This website is using cookies. By visiting you agree with our') ?> <a href="<?php echo($l->t('privacy')) ?>" target="_blank"><?php echo($l->t('privacy policy.') ?></a> <a class="cookieConsentOK"><?php echo($l->t('That\'s Fine') ?></a>
+            <?php echo($l->t('This website is using cookies. By visiting you agree with our')) ?> <a href="<?php echo home_url('privacy') ?>" target="_blank"><?php echo($l->t('privacy policy.')) ?></a> <a class="cookieConsentOK"><?php echo($l->t('That\'s Fine')) ?></a>
         </div>
     </div>
 </div>
