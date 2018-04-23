@@ -343,6 +343,28 @@ nav a {
                  }
             }
 
+            .flag {
+				color: white;
+				transition: all .3s ease-in-out;
+				-webkit-transition: all .3s ease-in-out;
+                a {
+					img {
+						margin:0;
+					}
+                    -webkit-transition: all .3s ease-in-out;
+                    position: relative;
+					transition: all .3s ease-in-out;
+					opacity: .9;
+					&:hover {
+						opacity: 1;
+                        text-decoration: none;
+						img {
+							transform: scale(1.2);
+						}
+					}
+                 }
+            }
+
             li {
                 display: inline-block;
                 padding-left: 30px;
@@ -569,6 +591,21 @@ nav a {
 						pointer-events: none;
 
                     }
+
+                    .flag {
+						padding-left: 0;
+						padding-top: 20px;
+						color: white;
+						a {
+							img {
+								opacity: .9;
+								transform: scale(1.5);
+								padding: 5px;
+							}
+							position: relative;
+						}
+					}
+
                 }
             }
         }
