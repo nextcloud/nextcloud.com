@@ -61,7 +61,7 @@ require get_template_directory().'/strings.php';
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Home.svg" >
                                 </div>
                                 <div class="nav__text">
-                                    <?php echo $l->t('<strong>Nextcloud at home</strong><br><small>For families, students and individuals</small>');?>
+                                    <?php echo $l->t('<strong>Nextcloud at home</strong><br><small>For families, students & individuals</small>');?>
                                 </div>
                             </a>
                         </li>
