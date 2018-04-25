@@ -42,7 +42,6 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <li><a href="https://github.com/nextcloud/server/pull/9095">Do not convert email addresses with idn_to_ascii if… (server#9095)</a></li>
 <li><a href="https://github.com/nextcloud/server/pull/9124">Fix progress bar hidden before the upload ends (server#9124)</a></li>
 <li><a href="https://github.com/nextcloud/server/pull/9213">Update CRL to include old quicknotes cert (server#9213)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/9228">13.0.2 RC 1 (server#9228)</a></li>
 <li><a href="https://github.com/nextcloud/server/pull/9230">Fix user selectable text for public links for text files (server#9230)</a></li>
 <li><a href="https://github.com/nextcloud/server/pull/9231">Provide an option to disable HTML emails (server#9231)</a></li>
 <li><a href="https://github.com/nextcloud/server/pull/9233">Fix appinfo parsing when a single localized option is provided (server#9233)</a></li>
@@ -239,7 +238,6 @@ Many fixes were merged, the most important ones include:
 <li><a href="https://github.com/nextcloud/server/pull/9078">Set new-password as autocomplete on the link password (server#9078)</a></li>
 <li><a href="https://github.com/nextcloud/server/pull/9088">Allow usage of Windows 10 WebDav Netdrive (server#9088)</a></li>
 <li><a href="https://github.com/nextcloud/server/pull/9214"> Update CRL to include old quicknotes cert (server#9214)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/9229">12.0.7 RC 1 (server#9229)</a></li>
 <li><a href="https://github.com/nextcloud/server/pull/9232"> Provide an option to disable HTML emails (server#9232)</a></li>
 <li><a href="https://github.com/nextcloud/server/pull/9235">Use multibyte substring (server#9235)</a></li>
 <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/65">Bump version 12 (files_pdfviewer#65)</a></li>
@@ -311,7 +309,6 @@ MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.ta
 SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.tar.bz2.sha256">nextcloud-12.0.5.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.zip.sha256">nextcloud-12.0.5.zip.sha256</a></br>
 SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.tar.bz2.sha512">nextcloud-12.0.5.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.zip.sha512">nextcloud-12.0.5.zip.sha512</a></br>
 PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.tar.bz2.asc">nextcloud-12.0.5.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.zip.asc">nextcloud-12.0.5.zip.asc</a></p>
-
 
 <h4>Changes</h4>
 Many fixes were merged, the most important ones include:
