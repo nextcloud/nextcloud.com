@@ -7,5 +7,10 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
+    'MaxMind\\WebService\\' => array($vendorDir . '/maxmind/web-service-common/src/WebService'),
+    'MaxMind\\Exception\\' => array($vendorDir . '/maxmind/web-service-common/src/Exception'),
+    'MaxMind\\Db\\' => array($vendorDir . '/maxmind-db/reader/src/MaxMind/Db'),
     'Mautic\\' => array($vendorDir . '/mautic/api-library/lib'),
+    'GeoIp2\\' => array($vendorDir . '/geoip2/geoip2/src'),
+    'Composer\\CaBundle\\' => array($vendorDir . '/composer/ca-bundle/src'),
 );
