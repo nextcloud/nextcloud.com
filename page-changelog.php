@@ -237,8 +237,8 @@ Many fixes were merged, the most important ones include:
 <li><a href="https://github.com/nextcloud/server/pull/9016">Update icewind/smb to 2.0.5 (server#9016)</a></li>
 <li><a href="https://github.com/nextcloud/server/pull/9078">Set new-password as autocomplete on the link password (server#9078)</a></li>
 <li><a href="https://github.com/nextcloud/server/pull/9088">Allow usage of Windows 10 WebDav Netdrive (server#9088)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/9214"> Update CRL to include old quicknotes cert (server#9214)</a></li>
-<li><a href="https://github.com/nextcloud/server/pull/9232"> Provide an option to disable HTML emails (server#9232)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9214">Update CRL to include old quicknotes cert (server#9214)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9232">Provide an option to disable HTML emails (server#9232)</a></li>
 <li><a href="https://github.com/nextcloud/server/pull/9235">Use multibyte substring (server#9235)</a></li>
 <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/65">Bump version 12 (files_pdfviewer#65)</a></li>
 <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/68">Fix info.xml (files_pdfviewer#68)</a></li>
