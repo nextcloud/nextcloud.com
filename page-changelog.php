@@ -12,6 +12,54 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest13"></a>
+
+<h3 id="13-0-2">Version 13.0.2 <small>April 26 2018</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.2.tar.bz2">nextcloud-13.0.2.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.2.zip">nextcloud-13.0.2.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.2.tar.bz2.md5">nextcloud-13.0.2.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.2.zip.md5">nextcloud-13.0.2.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.2.tar.bz2.sha256">nextcloud-13.0.2.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.2.zip.sha256">nextcloud-13.0.2.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.2.tar.bz2.sha512">nextcloud-13.0.2.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.2.zip.sha512">nextcloud-13.0.2.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.2.tar.bz2.asc">nextcloud-13.0.2.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.2.zip.asc">nextcloud-13.0.2.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+<li><a href="https://github.com/nextcloud/server/pull/8779">Show group display names (server#8779)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/8849">Group existence check works without attribute (like with users) (server#8849)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/8900">The FN is optional, carrying the displayname if present (server#8900)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/8905">Set "share with" field to the ID of the circle (server#8905)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/8986">Show EOL warning in the update section (server#8986)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9015">Use app version to generate scss filename (server#9015)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9017">Update icewind/smb to 2.0.5 (server#9017)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9019">Fix search text overlapping close button (server#9019)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9020">Clear any theming prefixed cache on cache buster increase (server#9020)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9064">Reset encryptionVersion to '1' if a file was stream copied (server#9064)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9071">Do not treat is-encrypted as custom property (server#9071)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9072">Fix proper permissions for multiple file access (server#9072)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9073">When formatting a share node an Empty target is invalid (server#9073)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9077">Move on with the next user if we found the user on one user back-end (server#9077)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9089">Allow usage of Windows 10 WebDav Netdrive (server#9089)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9094">Add more logging for the object storage during creation of the buckets (server#9094)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9095">Do not convert email addresses with idn_to_ascii if… (server#9095)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9124">Fix progress bar hidden before the upload ends (server#9124)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9213">Update CRL to include old quicknotes cert (server#9213)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9230">Fix user selectable text for public links for text files (server#9230)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9231">Provide an option to disable HTML emails (server#9231)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9233">Fix appinfo parsing when a single localized option is provided (server#9233)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9234">Use multibyte substring (server#9234)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9236">Fix webdav support for OneNote clients (server#9236)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9238">Fixed files copy/move when in favorites or recent section (server#9238)</a></li>
+<li><a href="https://github.com/nextcloud/activity/pull/262">Don't update personal settings for admins (activity#262)</a></li>
+<li><a href="https://github.com/nextcloud/activity/pull/265">Skip parameters which are not there instead of failing out (activity#265)</a></li>
+<li><a href="https://github.com/nextcloud/files_pdfviewer/pull/64">Bump version 13 (files_pdfviewer#64)</a></li>
+<li><a href="https://github.com/nextcloud/files_pdfviewer/pull/66">Fix info.xml (files_pdfviewer#66)</a></li>
+<li><a href="https://github.com/nextcloud/files_pdfviewer/pull/67">No default enable (files_pdfviewer#67)</a></li>
+<li><a href="https://github.com/nextcloud/gallery/pull/418">Fix position of icons in "Share with" input field (gallery#418)</a></li>
+<li><a href="https://github.com/nextcloud/gallery/pull/419">Fix "No results found" tooltip (gallery#419)</a></li>
+<li><a href="https://github.com/nextcloud/gallery/pull/420">Fix UI while a share is being added (gallery#420)</a></li>
+<li><a href="https://github.com/nextcloud/gallery/pull/424">Hide "No results found" tooltip on autocompletion (gallery#424)</a></li>
+<li><a href="https://github.com/nextcloud/gallery/pull/430">Fix error while clicking on the share link checkbox (gallery#430)</a></li>
+</ul>
+
 <h3 id="13-0-1">Version 13.0.1 <small>March 15 2018</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.1.tar.bz2">nextcloud-13.0.1.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.1.zip">nextcloud-13.0.1.zip</a></br>
 Check the file integrity with:</br>
@@ -171,6 +219,32 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
 
 <a name="latest12"></a>
+
+<h4 id="12-0-7">Version 12.0.7 <small>April 26 2018</small></h4>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.7.tar.bz2">nextcloud-12.0.7.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.7.zip">nextcloud-12.0.7.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.7.tar.bz2.md5">nextcloud-12.0.7.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.7.zip.md5">nextcloud-12.0.7.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.7.tar.bz2.sha256">nextcloud-12.0.7.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.7.zip.sha256">nextcloud-12.0.7.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.7.tar.bz2.sha512">nextcloud-12.0.7.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.7.zip.sha512">nextcloud-12.0.7.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.7.tar.bz2.asc">nextcloud-12.0.7.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.7zip.asc">nextcloud-12.0.7.zip.asc</a></p>
+
+<h4>Changes</h4>
+Many fixes were merged, the most important ones include:
+<ul>
+<li><a href="https://github.com/nextcloud/server/pull/8850">Group existence check works without attribute (like with users) (server#8850)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/8893">Fix undefined index problem (server#8893)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/8987">Show EOL warning in the update section (server#8987)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9016">Update icewind/smb to 2.0.5 (server#9016)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9078">Set new-password as autocomplete on the link password (server#9078)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9088">Allow usage of Windows 10 WebDav Netdrive (server#9088)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9214">Update CRL to include old quicknotes cert (server#9214)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9232">Provide an option to disable HTML emails (server#9232)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9235">Use multibyte substring (server#9235)</a></li>
+<li><a href="https://github.com/nextcloud/files_pdfviewer/pull/65">Bump version 12 (files_pdfviewer#65)</a></li>
+<li><a href="https://github.com/nextcloud/files_pdfviewer/pull/68">Fix info.xml (files_pdfviewer#68)</a></li>
+<li><a href="https://github.com/nextcloud/files_pdfviewer/pull/69">Remove default enable (files_pdfviewer#69)</a></li>
+</ul>
+
 <h4 id="12-0-6">Version 12.0.6 <small>March 15 2018</small></h4>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.6.tar.bz2">nextcloud-12.0.6.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.6.zip">nextcloud-12.0.6.zip</a></br>
 Check the file integrity with:</br>
@@ -235,7 +309,6 @@ MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.ta
 SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.tar.bz2.sha256">nextcloud-12.0.5.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.zip.sha256">nextcloud-12.0.5.zip.sha256</a></br>
 SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.tar.bz2.sha512">nextcloud-12.0.5.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.zip.sha512">nextcloud-12.0.5.zip.sha512</a></br>
 PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.tar.bz2.asc">nextcloud-12.0.5.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.5.zip.asc">nextcloud-12.0.5.zip.asc</a></p>
-
 
 <h4>Changes</h4>
 Many fixes were merged, the most important ones include:
