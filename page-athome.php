@@ -61,7 +61,7 @@
 			<p class="section--paragraph"><?php echo $l->t('Your data represents who you are and can <em>easily</em> be abused.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('And power gets abused. Always. Maybe by a local politician who doesn\'t like that you discovered his fraud. A local police woman who likes your boyfriend. A well connected businessman who likes to buy your store for cheap. A crime syndicate annoyed you try to help drug addicts kick off.');?></p>
         </div>
-        <div class="col-md-46 revealOnScroll feature--block">
+        <div class="col-md-4 revealOnScroll feature--block">
         <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/camera.svg" /></div>
             <p class="section--paragraph__tittle"><?php echo $l->t('Maybe you just care about privacy');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Even if your data isn\'t abused --they promise not to, right?-- isn\'t it nobody\'s business what you do?');?></p>
