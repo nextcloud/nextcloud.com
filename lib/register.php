@@ -1,5 +1,11 @@
 <?php
+
+require_once realpath(dirname(__FILE__)) . '/../vendor/autoload.php';
+
 add_action('rest_api_init', 'registration_register_routes');
+
+$redis = new Predis\Client('tcp://redis:6379');
+$throttler = new Perimeter\RateLimiter\Throttler\RedisThrottler($redis);
 
 function registration_register_routes()
 {
@@ -27,11 +33,14 @@ function registration_register_routes()
 
 function request_account($request)
 {
+
+    // redis rate limit
+    global $throttler;
+
     $request = json_decode($request->get_body(), true);
 
     // verify data
     if (!array_key_exists('email', $request) || !array_key_exists('id', $request)) {
-        return $request->get_body();
         return new WP_Error('rest_invalid_param', 'Invalid parameter(s)', array('status' => 400));
     }
 
@@ -40,9 +49,15 @@ function request_account($request)
     $providerId = intval($request['id']);
     $newsletter = array_key_exists('newsletter', $request) ? true : false;
 
-    // get providers list
-    $json = json_decode(file_get_contents(realpath(dirname(__FILE__)) . '/../assets/preferred.json'));
+    // checking rate
+    $strCheck = sprintf('ip_address:%s:email:%s', $_SERVER['REMOTE_ADDR'], $email);
+    $throttler->consume($strCheck, 5, 5);
+    if ($throttler->isLimitExceeded()) {
+        return new WP_Error('rate_limit_exceeded', 'Too many requests, try again later', array('status' => 429));
+    }
 
+    // get providers list && check provider id
+    $json = json_decode(file_get_contents(realpath(dirname(__FILE__)) . '/../assets/preferred.json'));
     if (!array_key_exists($providerId, $json)) {
         return new WP_Error('rest_invalid_param', 'Invalid parameter(s)', array('status' => 400));
     }
@@ -55,8 +70,9 @@ function request_account($request)
             'Content-Type' => 'application/x-www-form-urlencoded;charset=UTF-8',
         ),
         'body' => 'email=' . $email,
-        'timeout' => 5,
+        'timeout' => 15,
     );
+
     // request account
     $post = wp_remote_post($url, $data);
 

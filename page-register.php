@@ -13,7 +13,11 @@ $reader = new Reader(realpath(dirname(__FILE__)).'/assets/GeoLite2-City/GeoLite2
 
 // Replace "city" with the appropriate method for your database, e.g.,
 // "country".
-$location = $location = $reader->city($_SERVER['REMOTE_ADDR'])->location;
+try {
+	$location = $location = $reader->city($_SERVER['REMOTE_ADDR'])->location;
+} catch(Exception $e) {
+	$location = false;
+}
 ?>
 <section class="register-hero-section second-menu">
 	<div class="container-fluid background">
