@@ -33,12 +33,4 @@ class HyperLogLogAdd extends Command
     {
         return self::normalizeVariadic($arguments);
     }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function parseResponse($data)
-    {
-        return (bool) $data;
-    }
 }

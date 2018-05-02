@@ -11,7 +11,6 @@ class ComposerStaticInit8fa0ec799546a9f5452392a519c87a0d
         array (
             'Psr\\Log\\' => 8,
             'Predis\\' => 7,
-            'Perimeter\\RateLimiter\\' => 22,
         ),
         'M' => 
         array (
@@ -38,10 +37,6 @@ class ComposerStaticInit8fa0ec799546a9f5452392a519c87a0d
         'Predis\\' => 
         array (
             0 => __DIR__ . '/..' . '/predis/predis/src',
-        ),
-        'Perimeter\\RateLimiter\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/perimeter/rate-limiter-php',
         ),
         'MaxMind\\WebService\\' => 
         array (

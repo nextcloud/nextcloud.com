@@ -47,7 +47,6 @@ use Predis\Response\ErrorInterface as ErrorResponseInterface;
 class RedisCluster implements ClusterInterface, \IteratorAggregate, \Countable
 {
     private $useClusterSlots = true;
-    private $defaultParameters = array();
     private $pool = array();
     private $slots = array();
     private $slotsMap;
@@ -172,6 +171,8 @@ class RedisCluster implements ClusterInterface, \IteratorAggregate, \Countable
      * cluster, so it is most effective when all of the connections supplied on
      * initialization have the "slots" parameter properly set accordingly to the
      * current cluster configuration.
+     *
+     * @return array
      */
     public function buildSlotsMap()
     {
@@ -194,6 +195,8 @@ class RedisCluster implements ClusterInterface, \IteratorAggregate, \Countable
                 $this->setSlots($slots[0], $slots[1], $connectionID);
             }
         }
+
+        return $this->slotsMap;
     }
 
     /**
@@ -360,14 +363,10 @@ class RedisCluster implements ClusterInterface, \IteratorAggregate, \Countable
     {
         $separator = strrpos($connectionID, ':');
 
-        $parameters = array_merge($this->defaultParameters, array(
+        return $this->connections->create(array(
             'host' => substr($connectionID, 0, $separator),
             'port' => substr($connectionID, $separator + 1),
         ));
-
-        $connection = $this->connections->create($parameters);
-
-        return $connection;
     }
 
     /**
@@ -613,7 +612,23 @@ class RedisCluster implements ClusterInterface, \IteratorAggregate, \Countable
      */
     public function getIterator()
     {
-        return new \ArrayIterator(array_values($this->pool));
+        if ($this->useClusterSlots) {
+            $slotsmap = $this->getSlotsMap() ?: $this->askSlotsMap();
+        } else {
+            $slotsmap = $this->getSlotsMap() ?: $this->buildSlotsMap();
+        }
+
+        $connections = array();
+
+        foreach (array_unique($slotsmap) as $node) {
+            if (!$connection = $this->getConnectionById($node)) {
+                $this->add($connection = $this->createConnection($node));
+            }
+
+            $connections[] = $connection;
+        }
+
+        return new \ArrayIterator($connections);
     }
 
     /**
@@ -654,23 +669,5 @@ class RedisCluster implements ClusterInterface, \IteratorAggregate, \Countable
     public function useClusterSlots($value)
     {
         $this->useClusterSlots = (bool) $value;
-    }
-
-    /**
-     * Sets a default array of connection parameters to be applied when creating
-     * new connection instances on the fly when they are not part of the initial
-     * pool supplied upon cluster initialization.
-     *
-     * These parameters are not applied to connections added to the pool using
-     * the add() method.
-     *
-     * @param array $parameters Array of connection parameters.
-     */
-    public function setDefaultParameters(array $parameters)
-    {
-        $this->defaultParameters = array_merge(
-            $this->defaultParameters,
-            $parameters ?: array()
-        );
     }
 }

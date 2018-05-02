@@ -25,12 +25,4 @@ class SetMove extends Command
     {
         return 'SMOVE';
     }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function parseResponse($data)
-    {
-        return (bool) $data;
-    }
 }

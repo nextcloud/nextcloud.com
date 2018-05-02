@@ -9,20 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace Predis\Command;
+namespace Predis\Replication;
+
+use Predis\ClientException;
 
 /**
- * @link http://redis.io/commands/expireat
+ * Exception class that identifies when master is missing in a replication setup.
  *
  * @author Daniele Alessandri <suppakilla@gmail.com>
  */
-class KeyExpireAt extends Command
+class MissingMasterException extends ClientException
 {
-    /**
-     * {@inheritdoc}
-     */
-    public function getId()
-    {
-        return 'EXPIREAT';
-    }
 }

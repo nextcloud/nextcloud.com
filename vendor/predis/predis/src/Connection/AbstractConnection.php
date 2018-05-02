@@ -55,20 +55,7 @@ abstract class AbstractConnection implements NodeConnectionInterface
      *
      * @return ParametersInterface
      */
-    protected function assertParameters(ParametersInterface $parameters)
-    {
-        switch ($parameters->scheme) {
-            case 'tcp':
-            case 'redis':
-            case 'unix':
-                break;
-
-            default:
-                throw new \InvalidArgumentException("Invalid scheme: '$parameters->scheme'.");
-        }
-
-        return $parameters;
-    }
+    abstract protected function assertParameters(ParametersInterface $parameters);
 
     /**
      * Creates the underlying resource used to communicate with Redis.

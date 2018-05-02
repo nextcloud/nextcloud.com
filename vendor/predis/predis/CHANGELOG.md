@@ -1,3 +1,96 @@
+v1.1.1 (2016-06-16)
+================================================================================
+
+- __FIX__: `password` and `database` from the global `parameters` client option
+  were still being applied to sentinels connections making them fail (sentinels
+  do not understand the `AUTH` and `SELECT` commands) (PR #346).
+
+- __FIX__: when a sentinel instance reports no sentinel for a service, invoking
+  `connect()` on the redis-sentinel connection backend should fall back to the
+  master connection instead of failing (ISSUE #342).
+
+- __FIX__: the two connection backends based on ext-phpiredis has some kind of
+  issues with the GC and the internal use of closures as reader callbacks that
+  prevented connections going out of scope from being properly collected and the
+  underlying stream or socket resources from being closed and freed. This should
+  not have had any actual effect in real-world scenarios due to the lifecycle of
+  PHP scripts, but we fixed it anyway (ISSUE #345).
+
+
+v1.1.0 (2016-06-02)
+================================================================================
+
+- The default server profile for the client now targets Redis 3.2.
+
+- Responses to the following commands are not casted into booleans anymore, the
+  original integer value is returned: `SETNX`, `MSETNX`, `SMOVE`, `SISMEMBER`,
+  `HSET`, `HSETNX`, `HEXISTS`, `PFADD`, `EXISTS`, `MOVE`, `PERSIST`, `EXPIRE`,
+  `EXPIREAT`, `RENAMENX`. This change does not have a significant impact unless
+  when using strict comparisons (=== and !==) the returned value.
+
+- Non-boolean string values passed to the `persistent` connection parameter can
+  be used to create different persistent connections. Note that this feature was
+  already present in Predis but required both `persistent` and `path` to be set
+  as illustrated by [#139](https://github.com/nrk/predis/pull/139). This change
+  is needed to prevent confusion with how `path` is used to select a database
+  when using the `redis` scheme.
+
+- The client throws exceptions when Redis returns any kind of error response to
+  initialization commands (the ones being automatically sent when a connection
+  is established, such as `SELECT` and `AUTH` when database and password are set
+  in connection parameters) regardless of the value of the exception option.
+
+- Using `unix:///path/to/socket` in URI strings to specify a UNIX domain socket
+  file is now deprecated in favor of the format `unix:/path/to/socket` (note the
+  lack of the double slash after the scheme) and will not be supported starting
+  with the next major release.
+
+- Implemented full support for redis-sentinel.
+
+- Implemented the ability to specify default connection parameters for aggregate
+  connections with the new `parameters` client option. These parameters augment
+  the usual user-supplied connection parameters (but do not take the precedence
+  over them) when creating new connections and they are mostly useful when the
+  client is using aggregate connections such as redis-cluster and redis-sentinel
+  as these backends can create new connections on the fly based on responses and
+  redirections from Redis.
+
+- Redis servers protected by SSL-encrypted connections can be accessed by using
+  the `tls` or `rediss` scheme in connection parameters along with SSL-specific
+  options in the `ssl` parameter (see http://php.net/manual/context.ssl.php).
+
+- `Predis\Client` implements `IteratorAggregate` making it possible to iterate
+  over traversable aggregate connections and get a new client instance for each
+  Redis node.
+
+- Iterating over an instance of `Predis\Connection\Aggregate\RedisCluster` will
+  return all the connections mapped in the slots map instead of just the ones in
+  the pool. This change makes it possible, when the slots map is retrieved from
+  Redis, to iterate over all of the master nodes in the cluster. When the use of
+  `CLUSTER SLOTS` is disabled via the `useClusterSlots()` method, the iteration
+  returns only the connections with slots ranges associated in their parameters
+  or the ones initialized by `-MOVED` responses in order to make the behaviour
+  of the iteration consistent between the two modes of operation.
+
+- Various improvements to `Predis\Connection\Aggregate\MasterSlaveReplication`
+  (the "basic" replication backend, not the new one based on redis-sentinel):
+
+  - When the client is not able to send a read-only command to a slave because
+    the current connection fails or the slave is resyncing (`-LOADING` response
+    returned by Redis), the backend discards the failed connection and performs
+    a new attempt on the next slave. When no other slave is available the master
+    server is used for read-only commands as last resort.
+
+  - It is possible to discover the current replication configuration on the fly
+    by invoking the `discover()` method which internally relies on the output of
+    the command `INFO REPLICATION` executed against the master server or one of
+    the slaves. The backend can also be configured to do this automatically when
+    it fails to reach one of the servers.
+
+  - Implemented the `switchToMaster()` and `switchToSlave()` methods to make it
+    easier to force a switch to the master server or a random slave when needed.
+
+
 v1.0.4 (2016-05-30)
 ================================================================================
 

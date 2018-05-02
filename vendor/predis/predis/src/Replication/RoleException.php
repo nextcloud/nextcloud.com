@@ -9,20 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace Predis\Command;
+namespace Predis\Replication;
+
+use Predis\CommunicationException;
 
 /**
- * @link http://redis.io/commands/expireat
+ * Exception class that identifies a role mismatch when connecting to node
+ * managed by redis-sentinel.
  *
  * @author Daniele Alessandri <suppakilla@gmail.com>
  */
-class KeyExpireAt extends Command
+class RoleException extends CommunicationException
 {
-    /**
-     * {@inheritdoc}
-     */
-    public function getId()
-    {
-        return 'EXPIREAT';
-    }
 }

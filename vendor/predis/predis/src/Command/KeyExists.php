@@ -25,12 +25,4 @@ class KeyExists extends Command
     {
         return 'EXISTS';
     }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function parseResponse($data)
-    {
-        return (bool) $data;
-    }
 }

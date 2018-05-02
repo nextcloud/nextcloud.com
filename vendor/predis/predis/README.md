@@ -1,11 +1,12 @@
 # Predis #
 
+[![Software license][ico-license]](LICENSE)
 [![Latest stable][ico-version-stable]][link-packagist]
 [![Latest development][ico-version-dev]][link-packagist]
-[![Software license][ico-license]](LICENSE)
 [![Monthly installs][ico-downloads-monthly]][link-downloads]
 [![Build status][ico-travis]][link-travis]
 [![HHVM support][ico-hhvm]][link-hhvm]
+[![Gitter room][ico-gitter]][link-gitter]
 
 Flexible and feature-complete [Redis](http://redis.io) client for PHP >= 5.3 and HHVM >= 2.3.0.
 
@@ -22,17 +23,17 @@ More details about this project can be found on the [frequently asked questions]
 - Support for different versions of Redis (from __2.0__ to __3.2__) using profiles.
 - Support for clustering using client-side sharding and pluggable keyspace distributors.
 - Support for [redis-cluster](http://redis.io/topics/cluster-tutorial) (Redis >= 3.0).
-- Support for standalone master-slave replication setups.
+- Support for master-slave replication setups and [redis-sentinel](http://redis.io/topics/sentinel).
 - Transparent key prefixing of keys using a customizable prefix strategy.
 - Command pipelining on both single nodes and clusters (client-side sharding only).
 - Abstraction for Redis transactions (Redis >= 2.0) and CAS operations (Redis >= 2.2).
 - Abstraction for Lua scripting (Redis >= 2.6) and automatic switching between `EVALSHA` or `EVAL`.
 - Abstraction for `SCAN`, `SSCAN`, `ZSCAN` and `HSCAN` (Redis >= 2.8) based on PHP iterators.
 - Connections are established lazily by the client upon the first command and can be persisted.
-- Connections can be established via TCP/IP or UNIX domain sockets.
+- Connections can be established via TCP/IP (also TLS/SSL-encrypted) or UNIX domain sockets.
 - Support for [Webdis](http://webd.is) (requires both `ext-curl` and `ext-phpiredis`).
 - Support for custom connection classes for providing different network or protocol backends.
-- Flexible system for defining custom commands and server profiles.
+- Flexible system for defining custom commands and profiles and override the default ones.
 
 
 ## How to _install_ and use Predis ##
@@ -94,12 +95,29 @@ the parameters must use the `unix` scheme and specify a path for the socket file
 
 ```php
 $client = new Predis\Client(['scheme' => 'unix', 'path' => '/path/to/redis.sock']);
-$client = new Predis\Client('unix:///path/to/redis.sock');
+$client = new Predis\Client('unix:/path/to/redis.sock');
+```
+
+The client can leverage TLS/SSL encryption to connect to secured remote Redis instances without the
+need to configure an SSL proxy like stunnel. This can be useful when connecting to nodes running on
+various cloud hosting providers. Encryption can be enabled with using the `tls` scheme and an array
+of suitable [options](http://php.net/manual/context.ssl.php) passed via the `ssl` parameter:
+
+```php
+// Named array of connection parameters:
+$client = new Predis\Client([
+  'scheme' => 'tls',
+  'ssl'    => ['cafile' => 'private.pem', 'verify_peer' => true],
+]
+
+// Same set of parameters, but using an URI string:
+$client = new Predis\Client('tls://127.0.0.1?ssl[cafile]=private.pem&ssl[verify_peer]=1');
 ```
 
 The connection schemes [`redis`](http://www.iana.org/assignments/uri-schemes/prov/redis) (alias of
-`tcp`) is also supported, with the difference that URI strings containing these schemes are parsed
-following the rules described on the IANA provisional registration.
+`tcp`) and [`rediss`](http://www.iana.org/assignments/uri-schemes/prov/rediss) (alias of `tls`) are
+also supported, with the difference that URI strings containing these schemes are parsed following
+the rules described on their respective IANA provisional registration documents.
 
 The actual list of supported connection parameters can vary depending on each connection backend so
 it is recommended to refer to their specific documentation or implementation for details.
@@ -116,6 +134,12 @@ $client = new Predis\Client([
 ```
 
 See the [aggregate connections](#aggregate-connections) section of this document for more details.
+
+Connections to Redis are lazy meaning that the client connects to a server only if and when needed.
+While it is recommended to let the client do its own stuff under the hood, there may be times when
+it is still desired to have control of when the connection is opened or closed: this can easily be
+achieved by invoking `$client->connect()` and `$client->disconnect()`. Please note that the effect
+of these methods on aggregate connections may differ depending on each specific implementation.
 
 
 ### Client configuration ###
@@ -135,8 +159,9 @@ when needed. The client options supported by default in Predis are:
   - `exceptions`: whether the client should throw or return responses upon Redis errors.
   - `connections`: list of connection backends or a connection factory instance.
   - `cluster`: specifies a cluster backend (`predis`, `redis` or callable object).
-  - `replication`: specifies a replication backend (`TRUE` or callable object).
+  - `replication`: specifies a replication backend (`TRUE`, `sentinel` or callable object).
   - `aggregate`: overrides `cluster` and `replication` to provide a custom connections aggregator.
+  - `parameters`: list of default connection parameters for aggregate connections.
 
 Users can also provide custom options with values or callable objects (for lazy initialization) that
 are stored in the options container for later use through the library.
@@ -196,6 +221,35 @@ $parameters = ['tcp://10.0.0.1?alias=master', 'tcp://10.0.0.2', 'tcp://10.0.0.3'
 $options    = ['replication' => true];
 
 $client = new Predis\Client($parameters, $options);
+```
+
+The above configuration has a static list of servers and relies entirely on the client's logic, but
+it is possible to rely on [`redis-sentinel`](http://redis.io/topics/sentinel) for a more robust HA
+environment with sentinel servers acting as a source of authority for clients for service discovery.
+The minimum configuration required by the client to work with redis-sentinel is a list of connection
+parameters pointing to a bunch of sentinel instances, the `replication` option set to `sentinel` and
+the `service` option set to the name of the service:
+
+```php
+$sentinels = ['tcp://10.0.0.1', 'tcp://10.0.0.2', 'tcp://10.0.0.3'];
+$options   = ['replication' => 'sentinel', 'service' => 'mymaster'];
+
+$client = new Predis\Client($sentinels, $options);
+```
+
+If the master and slave nodes are configured to require an authentication from clients, a password
+must be provided via the global `parameters` client option. This option can also be used to specify
+a different database index. The client options array would then look like this:
+
+```php
+$options = [
+    'replication' => 'sentinel',
+    'service' => 'mymaster',
+    'parameters' => [
+        'password' => $secretpassword,
+        'database' => 10,
+    ],
+];
 ```
 
 While Predis is able to distinguish commands performing write and read-only operations, `EVAL` and
@@ -393,7 +447,7 @@ Predis has a comprehensive test suite covering every aspect of the library. This
 integration tests against a running instance of Redis (>= 2.4.0 is required) to verify the correct
 behavior of the implementation of each command and automatically skips commands not defined in the
 specified Redis profile. If you do not have Redis up and running, integration tests can be disabled.
-By default the test suite is configured to execute integration tests using the profile for Redis 2.8
+By default the test suite is configured to execute integration tests using the profile for Redis 3.2
 (which is the current stable version of Redis) but can optionally target a Redis instance built from
 the `unstable` branch by modifying `phpunit.xml` and setting `REDIS_SERVER_VERSION` to `dev` so that
 the development server profile will be used. You can refer to [the tests README](tests/README.md)
@@ -429,8 +483,10 @@ The code for Predis is distributed under the terms of the MIT license (see [LICE
 [ico-downloads-monthly]: https://img.shields.io/packagist/dm/predis/predis.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/nrk/predis.svg?style=flat-square
 [ico-hhvm]: https://img.shields.io/hhvm/predis/predis.svg?style=flat-square
+[ico-gitter]: https://img.shields.io/gitter/room/nrk/predis.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/predis/predis
 [link-travis]: https://travis-ci.org/nrk/predis
 [link-downloads]: https://packagist.org/packages/predis/predis/stats
 [link-hhvm]: http://hhvm.h4cc.de/package/predis/predis
+[link-gitter]: https://gitter.im/nrk/predis

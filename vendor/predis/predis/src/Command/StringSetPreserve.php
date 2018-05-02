@@ -25,12 +25,4 @@ class StringSetPreserve extends Command
     {
         return 'SETNX';
     }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function parseResponse($data)
-    {
-        return (bool) $data;
-    }
 }
