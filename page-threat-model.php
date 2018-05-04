@@ -15,8 +15,11 @@
 <p>We do consider local mounted storage systems as trusted, so if a symlink or something else is configured on the external storage the Nextcloud server will follow it with the web server privileges.</p>
 <p>For this reason we do recommend administrators to only use the external storage mount for ultimately trusted content.</p>
 
-<h3>Encryption</h3>
+<h3>Server-side encryption</h3>
 <p>Nextcloud can be configured to encrypt data at rest. In this scenario we do prevent against storage administrators mainly, we are aware that a Nextcloud administrator could still intercept the user password to manually decrypt the encryption key. We do thus only consider attack scenarios bounty-worthy if they include external parties.</p>
+
+<h3>Client-side encryption</h3>
+<p>Nextcloud client-side (or end-to-end) encryption is designed to protect user data from the server in nearly all scenario's, <a href="https://github.com/nextcloud/end_to_end_encryption_rfc">as described in the RFC.</a> Any way to circumvent the protection as covered by the <a href="https://github.com/nextcloud/end_to_end_encryption_rfc/blob/master/RFC.md#security-properties">security properties</a> would be treated by us as a security issue. Note that, as of May 2018, the client-side or end-to-end encryption feature is not considered 'finished' and no bug bounties are paid out until it is released as a final, stable version, expected mid/late 2018.</p>
 
 <h3>Features intentionally marked as insecure</h3>
 <p>Some features in Nextcloud are intentionally marked as insecure and disabled by default (plus have a big warning above them). One example includes the preview providers such as the LibreOffice preview provider. At the moment we consider vulnerabilities
@@ -29,7 +32,7 @@ in those disabled features as not bounty-worthy.</p>
 <p>At the moment we consider version disclosure an accepted risk as an attacker can enumerate service versions using other means as well. (e.g. comparing behaviour)</p>
 
 <h3>Attacks involving other Android apps on the device</h3>
-<p>We do consider attacks involving other Android apps on the device as minimal risk, also especially considering that the Nextcloud Android apps stores synced files locally accessible on the device. (since no Content Provider is yet implemented).</p>
+<p>We do consider attacks involving other Android apps on the device as low or medium risk. Downloaded files are saved on your sd card (or other storage) and are accessible by all apps.</p>
 
 <h3>Content spoofing</h3>
 <p>Generally speaking we consider content spoofing not a bounty-worthy vulnerability.</p>
@@ -38,7 +41,9 @@ in those disabled features as not bounty-worthy.</p>
 <p>We do not consider user enumeration a security risk as for convenience and for features such as Server-to-Server sharing this is an expected behaviour.</p>
 
 <h3>Brute force of credentials</h3>
-<p>At the moment we do not consider bruteforcing of credentials or a missing password treshold eligible vulnerabilities. In the case of Nextcloud we currently expect people to protect their instance using measures such as fail2ban. We do have a native anti-bruteforce protection.</p>
+<p>Nextcloud 12 introduced brute force protection. If you find a way around it, it would qualify as a security issue.</p>
 
 <h3>Server-side request forgery</h3>
 <p>Nextcloud ships with multiple features that perform sending requests to other hosts, we do consider this accepted behaviour and advocate people to deploy Nextcloud into its own seggregated network segment.</p>
+
+<p><em>Page last modified on May 5, 2018</em></p>
