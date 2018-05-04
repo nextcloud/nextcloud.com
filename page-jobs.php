@@ -72,7 +72,7 @@
 					<li>Excellent listening, negotiation and presentation skills</li>
 					<li>Excellent verbal and written communications skills</li>
 					<li>Problem solving skills</li>
-					<li>Writing and speaking German language</li>
+					<li>Writing and speaking German and/or French language</li>
 				</ul>
 
 				<p class="section--paragraph__tittle">What we offer:</p>
@@ -124,7 +124,7 @@
 					<li>Excellent listening, negotiation and presentation skills</li>
 					<li>Excellent verbal and written communications skills</li>
 					<li>Problem solving skills</li>
-					<li>Writing and speaking German language</li>
+					<li>Writing and speaking German and/or French language</li>
 				</ul>
 
 				<p class="section--paragraph__tittle">What we offer:</p>
@@ -234,7 +234,7 @@
 					<li>Problem solving</li>
 					<li>Product knowledge around open source technology</li>
 					<li>General programming skills in PHP, HTML, CSS</li>
-					<li>Writing and speaking German language</li>
+					<li>Writing and speaking German and/or French language</li>
 				</ul>
 				<p class="section--paragraph__tittle">What we offer:</p>
 				<ul>
