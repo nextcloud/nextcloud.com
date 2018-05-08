@@ -36,7 +36,7 @@
          "freeplans":true,
 		 "supports":"both",
          "specializes":[
-            "Hostiso is all in one solution for your Nextcloud, from free to Enterprise offering, with included free support for NextCloud, setup, install!"
+            "Hostiso is all in one solution for your Nextcloud, from free to Enterprise offering, with included free support for Nextcloud, setup, install!"
          ],
          "imagename":"hostiso.png"
       },
@@ -1319,7 +1319,7 @@
          "freeplans":false,
          "supports":"both",
          "specializes":[
-            "Offering Hosted NextCloud located in datacenters in the Netherlands. Hostingplans include backup and maintained by Danteck"
+            "Offering Hosted Nextcloud located in datacenters in the Netherlands. Hostingplans include backup and maintained by Danteck"
          ],
          "imagename":"danteck.png"
       },
