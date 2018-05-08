@@ -16,7 +16,7 @@
 <p>For this reason we do recommend administrators to only use the external storage mount for ultimately trusted content.</p>
 
 <h3>Server-side encryption</h3>
-<p>Nextcloud can be configured to encrypt data at rest. In this scenario we do prevent against storage administrators mainly, we are aware that a Nextcloud administrator could still intercept the user password to manually decrypt the encryption key. We do thus only consider attack scenarios bounty-worthy if they include external parties.</p>
+<p>Nextcloud can be configured to encrypt data at rest. This has two options: server-wide key (default since Nextcloud 13) or per-user key. With the former, the keys are on the server and thus the only protection offered is against external storage. With per-user keys, the keys are encrypted by the user password and handled as securely as possible, thus securing data when the user is not logged in. We are aware that a Nextcloud administrator could still intercept the user password to manually decrypt the encryption key. We do thus only consider attack scenarios bounty-worthy if they include an external storage vector or, with per-user-keys, data-at-rest.</p>
 
 <h3>Client-side encryption</h3>
 <p>Nextcloud client-side (or end-to-end) encryption is designed to protect user data from the server in nearly all scenario's, <a href="https://github.com/nextcloud/end_to_end_encryption_rfc">as described in the RFC.</a> Any way to circumvent the protection as covered by the <a href="https://github.com/nextcloud/end_to_end_encryption_rfc/blob/master/RFC.md#security-properties">security properties</a> would be treated by us as a security issue. Note that, as of May 2018, the client-side or end-to-end encryption feature is not considered 'finished' and no bug bounties are paid out until it is released as a final, stable version, expected mid/late 2018.</p>
@@ -32,7 +32,7 @@ in those disabled features as not bounty-worthy.</p>
 <p>At the moment we consider version disclosure an accepted risk as an attacker can enumerate service versions using other means as well. (e.g. comparing behaviour)</p>
 
 <h3>Attacks involving other Android apps on the device</h3>
-<p>We do consider attacks involving other Android apps on the device as low or medium risk. Downloaded files are saved on your sd card (or other storage) and are accessible by all apps.</p>
+<p>We do consider attacks involving other Android apps on the device as low or medium risk. Stored files can be hidden from other apps if appropriate storage option is selected inside the app. This should be secure, however, if the phone is compromised we don't guarantee data safety.</p>
 
 <h3>Content spoofing</h3>
 <p>Generally speaking we consider content spoofing not a bounty-worthy vulnerability.</p>
