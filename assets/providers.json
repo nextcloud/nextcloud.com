@@ -703,7 +703,8 @@
          "title":"SpeiBox",
          "url":"https:\/\/speibox.de",
          "flags":[
-            "de"
+            "de",
+            "at"
          ],
          "freeplans":false,
          "supports":"both",
@@ -1274,5 +1275,65 @@
             "We are a UK based company offering off-site high spec servers with NextCloud ready to go. We offer full training and technical support."
          ],
          "imagename":"twist.png"
+      },
+    {
+         "title":"Thexyz Inc",
+         "url":"https:\/\/www.thexyz.com\/nextcloud.php",
+         "flags":[
+            "uk",
+            "ca",
+            "us"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Build your Nextcloud on a fully redundant North American server with daily off-site backups."
+         ],
+         "imagename":"thexyz.png"
+      },
+    {
+         "title":"CABOSYS - LDA",
+         "url":"https:\/\/www.cabosys.cv\/cloudsys",
+         "flags":[
+            "cv",
+            "ao",
+            "st",
+            "gw",
+            "gq",
+            "mz",
+            "tp"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Our organizations is based in Cape Verde Islands and we are offering backup solutions for the CPLP group"
+         ],
+         "imagename":"cloudsys.png"
+      },
+    {
+         "title":"Danteck",
+         "url":"https:\/\/www.danteck.nl\/hosted-nextcloud",
+         "flags":[
+            "nl"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Offering Hosted NextCloud located in datacenters in the Netherlands. Hostingplans include backup and maintained by Danteck"
+         ],
+         "imagename":"danteck.png"
+      },
+    {
+         "title":"pro-ite GmbH",
+         "url":"https:\/\/www.pro-ite.de\/hosting-housing\/nextcloud\/",
+         "flags":[
+            "de"
+         ],
+         "freeplans":false,
+         "supports":"organisation",
+         "specializes":[
+            "Support, Installation und sichere Hostinglösungen von pro-ite. Ihre Daten werden auf Servern im ISO 27001 zertifizierten Rechenzentrum vorgehalten."
+         ],
+         "imagename":"pro-ite.png"
       }
 ]
