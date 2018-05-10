@@ -19,10 +19,11 @@
 		<h2 class="section--heading-1 section--text--center  revealOnScroll"><?php echo $l->t('Bring your data home');?></h2>
 		<p class="section--intro section--text--center  revealOnScroll"><?php echo $l->t('The Nextcloud Box is your private cloud. It stores your data and enables
 		you to sync between your devices and share with others.');?></p>
-		<a class="button button--blue button--arrow button--large revealOnScroll" href="<?php echo home_url('athome') ?>" role="button"><?php echo $l->t('Know Nextcloud</a>');?>
+		<a class="button button--blue button--arrow button--large revealOnScroll" href="<?php echo home_url('athome') ?>" role="button"><?php echo $l->t('know Nextcloud</a>');?>
 		<h6 class="section--paragraph__tittle"><?php echo $l->t('Unfortunately, the box is sold out in most locations');?></h6>
 		<p class="section--paragraph revealOnScroll"><?php echo $l->t('Western Digital has shut down their <a class="hyperlink" href="https://www.digitaltrends.com/computing/wdlabs-may-close-raspberry-pi/">research team WDLabs</a> which produced the box. Read our <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-box-updates-raspberry-pi-3-nextcloud-12-and-looking-for-a-new-provider/">last status update blog on the Nextcloud Box</a> for more details. You can look in the stores below, there still might be some in your area.');?></p>
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('As an alternative, you can <a class="hyperlink" href="https://nextcloud.com/blog/turris-mox-adds-nextcloud-to-put-users-back-in-control-over-their-data/">look at the Turris MOX: Cloud</a> developed by CZ.NIC, makers of the popular Turris Omnia open source router.');?></p>
+            <p class="section--paragraph revealOnScroll"><a class="hyperlink" href="<?php echo home_url('devices') ?>"><?php echo $l->t('Check out our devices page for alternatives.');?></a></p>
+            <a class="button button--blue button--arrow button--large revealOnScroll" href="<?php echo home_url('devices') ?>" role="button"><?php echo $l->t('other devices</a>');?>
 		<p class="section--paragraph revealOnScroll"><?php echo $l->t('The software for the box as well as similar solutions are still being developed by Nextcloud contributors. You can use the <a class="hyperlink" href="https://uappexplorer.com/snap/ubuntu/nextcloud">Ubuntu Snap image</a> for easy installation on small and large devices that already have an operating system. Alternatively you could use <a class="hyperlink" href="https://ownyourbits.com/category/nextcloud/nextcloudpi/">the NextcloudPi image,</a> a full operating system aimed at the Raspberry Pi and other boards.');?></p>
 		</div>
 	</div>
@@ -59,7 +60,7 @@
 			<div class="wrapper-text col-lg-4">
 				<h2 class="section--title revealOnScroll"><?php echo $l->t('Get the box');?></h2>
 				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Sadly, <strong>the box is sold out in most locations.</strong> Western Digital has shut down their <a class="hyperlink" href="https://www.digitaltrends.com/computing/wdlabs-may-close-raspberry-pi/">research team WDLabs</a> which produced the box. Read our <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-box-updates-raspberry-pi-3-nextcloud-12-and-looking-for-a-new-provider/">last status update blog on the Nextcloud Box</a> for more details. You can look in the stores below, there still might be some in your area.');?></p>
-                <p class="section--paragraph revealOnScroll"><?php echo $l->t('As an alternative, you can <a class="hyperlink" href="https://nextcloud.com/blog/turris-mox-adds-nextcloud-to-put-users-back-in-control-over-their-data/">look at the Turris MOX: Cloud</a> developed by CZ.NIC, makers of the popular Turris Omnia open source router.');?></p>
+                <p class="section--paragraph revealOnScroll"><a class="hyperlink" href="<?php echo home_url('devices') ?>"><?php echo $l->t('Check out our devices page for alternatives.');?></a></p>
 				<div class="button button--blue button--dropdown">
 					<input class="dropdown-toggle" type="text">
 					<div class="dropdown-text">Select your country</div>
