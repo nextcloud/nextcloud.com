@@ -8,11 +8,11 @@
 
 /* gradient behind transparent nav */
 .nav:not(.scrolled) {
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
   /* IE6-9 */ }
@@ -90,7 +90,7 @@ section {
   /* 	max-width: 100%; */
   position: relative; }
   .section--customers .container {
-    padding-top: 8.54297em;
+    padding-top: 8.54296875em;
     /*     padding-bottom: ms(1); */ }
   .section--customers .customer {
     position: relative; }
@@ -139,10 +139,10 @@ section {
           line-height: 200px; } }
 
 .section--convenient .container {
-  padding-top: 8.54297em;
-  padding-bottom: 8.54297em; }
+  padding-top: 8.54296875em;
+  padding-bottom: 8.54296875em; }
   .section--convenient .container .section--intro {
-    max-width: 43.24878em;
+    max-width: 43.2487792969em;
     margin: 0 auto; }
   .section--convenient .container .feature--block {
     padding-bottom: 60px; }
@@ -161,10 +161,10 @@ section {
   padding-top: 10px; }
 
 .section--secure .container {
-  padding-top: 8.54297em;
-  padding-bottom: 8.54297em; }
+  padding-top: 8.54296875em;
+  padding-bottom: 8.54296875em; }
   .section--secure .container .section--intro {
-    max-width: 43.24878em;
+    max-width: 43.2487792969em;
     margin: 0 auto; }
   .section--secure .container .distribution--ilustration {
     background: url(../../img/globalscale/balancer.svg) no-repeat center/contain;
@@ -279,7 +279,7 @@ section {
     background-size: cover; }
 
 .section--integrated .container .section--intro {
-  max-width: 43.24878em;
+  max-width: 43.2487792969em;
   margin: 0 auto; }
 .section--integrated .container .section--heading-1 {
   padding-bottom: 0px; }
@@ -304,7 +304,7 @@ section {
     margin-left: 15px;
     margin-right: 15px; }
     .section--features .container-widest .row .section--intro {
-      max-width: 43.24878em;
+      max-width: 43.2487792969em;
       margin: 0 auto; }
   .section--features .section--heading-1 {
     padding-bottom: 60px; }
