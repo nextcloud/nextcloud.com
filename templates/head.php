@@ -2,7 +2,8 @@
 <html lang="en" class="no-js">
 <head>
 <?php require get_template_directory().'/templates/metadata.php';?>
-
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/custom.css?v=2" rel="stylesheet">
 
