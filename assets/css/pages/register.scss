@@ -1,19 +1,26 @@
 @import '../variables';
 @import '../modules/transparent-navbar';
-.register-hero-section {
-	.background {
-		background-color: $nextcloud-blue;
-		background-image: none;
-		padding-bottom: 0;
-		padding-top: 0;
-		margin-bottom: 0;
-		background-repeat: no-repeat;
-		background-position: bottom 0 right 0;
-		background-size: cover;
-		border-radius: 0 !important;
-		height: 70vh;
-		min-height: 600px;
-		max-height: 800px;
-		background-image: url('../../img/register/hero__register.jpg');
-	}
+.register-background {
+    background: url('../../img/headers/register.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    min-height: 600px;
+    max-height: 800px;
+    /*    border-radius: 0 !important;
+     *   height: 70vh;
+     *   min-height: 600px;
+     *   max-height: 800px;*/
+}
+
+.section--providers {
+    padding: 30px 0;
+    background-color: $nextcloud-blue;
+    .provider {
+        .summary {
+            max-width: 440px;
+            margin: 10px 10px 10px 10px;
+        }
+
+    }
 }
