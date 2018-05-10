@@ -41,7 +41,7 @@ in those disabled features as not bounty-worthy.</p>
 <p>We do not consider user enumeration a security risk as for convenience and for features such as Server-to-Server sharing this is an expected behaviour.</p>
 
 <h3>Brute force of credentials</h3>
-<p>Nextcloud 12 introduced brute force protection. If you find a way around it, it would qualify as a security issue.</p>
+<p>Nextcloud 12 introduced brute force protection. If you find a way in which it is broken, it could qualify as a security issue. Of course we're aware that using TOR or similar solutions can be used to circumvent IP address based brute force protection. It is also not implemented in all endpoints, but should not allow guessing passwords at great speed from a single IP address.</p>
 
 <h3>Server-side request forgery</h3>
 <p>Nextcloud ships with multiple features that perform sending requests to other hosts, we do consider this accepted behaviour and advocate people to deploy Nextcloud into its own seggregated network segment.</p>
