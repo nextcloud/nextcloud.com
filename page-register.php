@@ -9,12 +9,12 @@
 <?php
 require_once 'vendor/autoload.php';
 use GeoIp2\Database\Reader;
-$reader = new Reader(realpath(dirname(__FILE__)).'/assets/GeoLite2-City/GeoLite2-City.mmdb');
+$reader = new Reader(realpath(dirname(__FILE__)) . '/assets/GeoLite2-City/GeoLite2-City.mmdb');
 
 // Replace "city" with the appropriate method for your database, e.g.,
 // "country".
 try {
-	$location = $location = $reader->city($_SERVER['REMOTE_ADDR'])->location;
+	$location = $location = $reader->city(whatismyip())->location;
 } catch(Exception $e) {
 	$location = false;
 }
@@ -32,7 +32,9 @@ try {
 <section class="section--intro">
 </section>
 <section class="section--providers">
-  <div id="register" class="container" data-ll="<?php echo htmlspecialchars(json_encode($location)) ?>">
+  <div id="register" class="container"
+  	   data-ll="<?php echo htmlspecialchars(json_encode($location)) ?>"
+  	   data-ocsapi="<?php echo array_key_exists('HTTP_OCS_APIREQUEST', $_SERVER) ?>">
   </div>
   <div id="register-details" class="container"><p></p></div>
 </section>

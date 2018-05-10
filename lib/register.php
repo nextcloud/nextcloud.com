@@ -6,6 +6,7 @@ add_action('rest_api_init', 'registration_register_routes');
 
 $redis = new Predis\Client('tcp://redis:6379');
 
+// Get proper ip in case of reverse proxy
 function whatismyip()
 {
     if (isset($_SERVER['HTTP_CLIENT_IP'])) {
@@ -64,9 +65,8 @@ function request_account($request)
 
     $rateId = "requests_count_{$limit['user_ip']}";
     $rateLimit = (int) $redis->get($rateId);
-    
     if ($rateLimit + 1 > $limit['num_requests']) {
-        return new WP_Error('rate_limit_exceeded', 'Too many requests, try again later', array('status' => 429));
+        return new WP_Error('rate_limit_exceeded', 'Too many requests', array('status' => 429));
     }
 
     $request = json_decode($request->get_body(), true);
@@ -116,6 +116,9 @@ function request_account($request)
         return new WP_Error('rest_invalid_param', 'An unknown error occured', array('status' => 400));
     }
 
+    if (array_key_exists('ocsapi', $request)) {
+        return $response->setPassword . '/ocs';
+    }
     return $response->setPassword;
 }
 
