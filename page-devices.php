@@ -24,13 +24,36 @@ require(["require.config"], function() {
     <div class="container">
         <div class="row revealOnScroll feature--block">
             <div class="col-md-5">
+                <img src="<?php bloginfo('template_directory'); ?>/assets/img/box/MOX.png" class="img-responsive featureimg" />
+            </div>
+            <div class="col-md-7">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Turris MOX: Cloud');?></p>
+                <p class="section--paragraph"><em><?php echo $l->t('Modular router comes with private cloud module.');?></em></p>
+                <p class="section--paragraph"><?php echo $l->t('The Turris MOX: Cloud bundle  is a ready-to-go kit with a 64bit dualcore CPU, 1GB RAM, wifi connectivity and four USB 3.0 ports for attaching storage. The MOX makes it easy for users to set up RAID storage and Nextcloud for hosting and can be extended with other router modules like network ports.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The Turris MOX: Cloud bundle is available for pre-order with a 34% discount for 115 dollar until the end of the fundraising. Final pricing to be determined.');?></p>
+                <a href="https://nextcloud.com/blog/turris-mox-adds-nextcloud-to-put-users-back-in-control-over-their-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+            </div>
+        </div>
+        <div class="row revealOnScroll feature--block">
+            <div class="col-md-5">
+                <a href="<?php bloginfo('template_directory'); ?>/assets/img/syncloud/syncloud.jpg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/syncloud/syncloud.jpg" class="img-responsive featureimg" /></a>
+            </div>
+            <div class="col-md-7">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Syncloud');?></p>
+                <p class="section--paragraph"><em><?php echo $l->t('Syncloud is a home server device which fully supports Nextcloud.');?></em></p>
+                <p class="section--paragraph"><?php echo $l->t('It features easy installation and activation, selection of hardware among 10+ boards, easy use of external hard drives for storage, domain name for device and access to device through Internet, automatic HTTPS setup and more applications.');?></p>
+                <a href="http://syncloud.org" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+            </div>
+        </div>
+        <div class="row revealOnScroll feature--block">
+            <div class="col-md-5">
                 <a href="<?php echo home_url('box') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/box/box-perspective.png" class="img-responsive featureimg" /></a>
             </div>
             <div class="col-md-7">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Box');?></p>
+                <p class="section--paragraph__tittle"><em><?php echo $l->t('Nextcloud Box');?></em></p>
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Box comes preinstalled with Nextcloud, running on Ubuntu Core (based on the new super-secure, remotely upgradeable Linux app packages known as snaps) as the OS.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The box consists of a 1 TB USB3 hard drive from WDLabs, a Nextcloud case with room for the drive and a compute board, a microUSB charger, cables and adapters, a screw driver and screws');?></p>
-                <p class="section--paragraph"><?php echo $l->t('The Box is compatible with the Raspberry Pi 2 (not included!). Support for other boards (e.g. Raspberry Pi 3) is coming soon.');?></p>
+                <p class="section--paragraph"><strong><?php echo $l->t('Sadly, the box is sold out and no longer produced by WD Labs!');?></strong></p>
                 <a href="<?php echo home_url('box') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
             </div>
         </div>
@@ -43,18 +66,9 @@ require(["require.config"], function() {
                 <p class="section--paragraph"><?php echo $l->t('Behind the award-winning designed device by struktur AG operates a secure video chat and file exchange solution for small enterprise usage.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('It offers Strong end-to-end encrypted audio and video chat, a Nextcloud based file sync and share solution and advanced security features with a silicon hardware key generator.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Spreedbox offers an optional SIP gateway, enabling web conferencing participants to dial in through a traditional telephone connection.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Pricing is in the Eur 1500/USD 1500 ranage.');?></p>
                 <a href="<?php echo home_url('spreedbox') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
             </div>
-        </div>
-        <div class="row revealOnScroll feature--block">
-        <div class="col-md-5">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/syncloud/syncloud.jpg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/syncloud/syncloud.jpg" class="img-responsive featureimg" /></a>
-        </div>
-        <div class="col-md-7">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Syncloud');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Syncloud is a home server device which fully supports Nextcloud.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('It features easy installation and activation, selection of hardware among 10+ boards, easy use of external hard drives for storage, domain name for device and access to device through Internet, automatic HTTPS setup and more applications.');?></p>
-            <a href="http://syncloud.org" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
         </div>
     </div>
 </div>
