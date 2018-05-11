@@ -1,20 +1,12 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/legal.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script>
 require(["require.config"], function() {
-	require(["pages/education", "modules/submenu", "bootstrap", "modules/youtubePlayer"])
+	require(["bootstrap", "modules/youtubePlayer"])
 });
 </script>
-<script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
-<script type="text/javascript">
-    var CaptchaCallback = function() {
-        grecaptcha.render('RecaptchaField1', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
-        grecaptcha.render('RecaptchaField2', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
-    };
-</script>
 </head>
-<div class="legal-background second-menu">
+<div class="legal-background">
     <div class="container-fluid background">
         <div class="container">
 			<div class="col-md-6 topheader">
