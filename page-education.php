@@ -139,7 +139,6 @@ require(["require.config"], function() {
 </div>
 </section>
 
-
 <section class="section--whitepaper quote">
 	<div class="container revealOnScroll">
         <div class="row">
@@ -201,6 +200,23 @@ require(["require.config"], function() {
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Productivity');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Students can tag and comment on files for easy collaboration, roll back files to earlier versions or find deleted files in the trash. Real time collaborative editing and secure audio/video calls and chat complement the array of features aimed at enhancing productivity.');?></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="separator"></div>
+<section class="section--customerdetail">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-6 revealOnScroll">
+                <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/regioit.png" alt="in action"/></a>
+            </div>
+            <div class="col-md-6 revealOnScroll feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('regio IT offers ucloud4schools');?></p>
+                <p class="section--paragraph"><?php echo $l->t('In February 2017 regio IT migrated 3000 users to Nextcloud, delivering secure online file exchange and collaboration.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Today, regio iT is managing about 50.000 users, of which over 1000 using Collabora Online for online office, at hundreds of schools in Germany.');?></p>
+                <a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/" class="button button--blue button--arrow button--large"><?php echo $l->t('blog about initial migration');?></a>
             </div>
         </div>
     </div>
