@@ -34,11 +34,6 @@ section {
 .section--providers {
   padding: 30px 0;
   background-color: #0082c9; }
-  .section--providers .provider {
-    /* 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */ }
-    .section--providers .provider .summary {
-      max-width: 440px;
-      margin: 10px 10px 10px 10px; }
 
 #register {
   width: 500px;

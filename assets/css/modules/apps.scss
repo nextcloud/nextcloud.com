@@ -1,0 +1,26 @@
+[class^='app-'], [class*=' app-'] {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+
+.app-calendar {
+    background-image: url('../img/apps/calendar.svg');
+}
+.app-contacts {
+    background-image: url('../img/apps/contacts.svg');
+}
+.app-core {
+    background-image: url('../img/apps/core.svg');
+}
+.app-mail {
+    background-image: url('../img/apps/mail.svg');
+}
+.app-spreed {
+    background-image: url('../img/apps/spreed.svg');
+}
+.app-tasks {
+    background-image: url('../img/apps/tasks.svg');
+}
