@@ -4,7 +4,7 @@ require_once realpath(dirname(__FILE__)) . '/../vendor/autoload.php';
 
 add_action('rest_api_init', 'registration_register_routes');
 
-$redis = new Predis\Client('tcp://redis:6379');
+$redis = new Predis\Client();
 
 // Get proper ip in case of reverse proxy
 function whatismyip()
