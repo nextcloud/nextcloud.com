@@ -21,7 +21,7 @@
 <div class="second-menu">
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
-			<a href="#on-prem"><span class="avoidwrap"><?php echo $l->t('On-premise');?></span></a>
+			<a href="#on-prem"><span class="avoidwrap"><?php echo $l->t('On-premises');?></span></a>
 			<a href="#security"><span class="avoidwrap"><?php echo $l->t('Security');?></span></a>
 			<a href="#send"><span class="avoidwrap"><?php echo $l->t('File exchange');?></span></a>
 			<a href="#clients"><span class="avoidwrap"><?php echo $l->t('Clients');?></span></a>
@@ -40,7 +40,7 @@
 		<div class="col-md-6 revealOnScroll feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('An Enterprise File Sync and Share solution that keeps data under control.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Your employees need to have easy access to their files, photos and documents to work and share with team members, customers and partners. And IT needs to know nobody besides those they shared with has access to those files.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud Files is an on-premise, open source file sync and share solution designed to be easy-to-use and highly secure.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud Files is an on-premises, open source file sync and share solution designed to be easy-to-use and highly secure.');?></p>
 			<a href="<?php echo home_url('pricing') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Pricing');?></a>
 		</div>
 	</div>
@@ -150,7 +150,7 @@
 
 <section class="section--on-premise">
 <div class="container">
-	<h2 class="section--heading-1 revealOnScroll text-center"><?php echo $l->t('Why on-premise?');?></h2>
+	<h2 class="section--heading-1 revealOnScroll text-center"><?php echo $l->t('Why on-premises?');?></h2>
 	<div class="row">
 		<div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('Users need collaboration');?></p>
