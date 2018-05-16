@@ -35,7 +35,7 @@ require(["require.config"], function() {
 		<div class="col-md-4 revealOnScroll">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/manual.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Improved productivity');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('Modern collaboration technology is needed to stay ahead of the curve. Customers and employees demand data to be available anywhere and efficient sharing workflows.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Modern collaboration technology is needed to stay ahead of the curve. Customers and employees demand data to be available anywhere through efficient sharing workflows.');?></p>
         </div>
 		<div class="col-md-4 revealOnScroll">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/permissions.svg" /></div>
@@ -60,12 +60,13 @@ require(["require.config"], function() {
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Raiffeisen and Hypo Banks in Austria');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Raiffeisen Informatik Center Steiermark provides the whole IT-Infrastructure as well as all financial applications for both Raiffeisen and Hypo Banks in Styria/Austria. As one of the largest IT companies in the Southern Region of Austria, they chose to provide Nextcloud to their users because it has the most user-friendly (web) interface, meets their security requirements and is scalable and extensible.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Raiffeisen Informatik Center Steiermark provides the whole IT-Infrastructure as well as all financial applications for both Raiffeisen and Hypo Banks in Styria/Austria. As one of the largest IT companies in the Southern Region of Austria, they chose to provide Nextcloud to their users because it has the most user-friendly (web) interface, meets their strict security requirements and is scalable and extensible.');?></p>
                 <a href="https://nextcloud.com/blog/nextcloud-is-the-one-and-only-solution-we-are-providing-to-our-end-customers-florian-hausleitner/" class="button button--blue button--arrow button--large"><?php echo $l->t('Read the blog');?></a>
             </div>
         </div>
     </div>
 </section>
+
 
 <!--<section class="section--customers">
 <div class="container">
@@ -132,6 +133,20 @@ require(["require.config"], function() {
 </div>
 </section>
 
+<section class="section--customerdetail">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-6 revealOnScroll">
+                <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/assicuro.png" alt="in action"/></a>
+            </div>
+            <div class="col-md-6 revealOnScroll feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Assicuro Private Insurance');?></p>
+                <p class="section--paragraph"><blockquote><?php echo $l->t('Assicuro chose Nextcloud to ensure confidential data exchange with its over 3000 customers and partners, enabling customers to securily share confidential information e.g. insurance policies. Compared to other evaluated solutions, Nextcloud offered an easier user interface, and a professional and more secure, extensible platform.');?></blockquote></p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section--on-premise">
 <div class="container">
 	<h2 class="section--heading-1 revealOnScroll text-center"><?php echo $l->t('Why on-premise?');?></h2>
@@ -167,7 +182,7 @@ require(["require.config"], function() {
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Universal document access');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Be confident that wherever you are, you have access to the documents you need in a moments notice, 100% secure. Tablets, mobile devices, laptops and desktops all have access to the same files at a moments notice thanks to the first-class Nextcloud clients.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Be confident that wherever your employees are, they have access to the documents they need in a moments notice, 100% secure. Tablets, mobile devices, laptops and desktops all have access to the same files thanks to first-class Nextcloud clients.');?></p>
                 <a href="<?php echo home_url('clients') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Sync clients');?></a>
             </div>
         </div>
@@ -177,12 +192,24 @@ require(["require.config"], function() {
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Secure document sharing');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Provide your employees, clients and partners with documents for review or joint editing. Thanks to dedicated user and group management, everyone only sees what they really need to see.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Your employees can easily share documents for review or joint editing. Thanks to enforced sharing settings and dedicated user and group management, everyone only sees what they really need to see.');?></p>
                 <a href="<?php echo home_url('sharing') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('More about sharing');?></a>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-6 revealOnScroll image">
+                <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/securedrop-email-nw.png" alt="in action"/></a>
+            </div>
+            <div class="col-md-6 revealOnScroll feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Secure file exchange');?></p>
+                <p class="section--paragraph revealOnScroll"><?php echo $l->t('Sharing files across the borders of your organization can be done easily and securely with our file-drop feature.');?></p>
+                <a href="<?php echo home_url('file-drop') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('File Drop');?></a>
+                <p class="section--paragraph revealOnScroll"><?php echo $l->t('IT stays in control at all times, enforcing security policy with the File Access Control capabilities.');?></p>
+                <a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('File Access Control');?></a>
+            </div>
+        </div>
         <div class="row feature-row">
-            <div class="col-md-6 revealOnScroll">
+            <div class="col-md-6 revealOnScroll image--floated">
                 <div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
@@ -191,24 +218,13 @@ require(["require.config"], function() {
                 <a href="<?php echo home_url('outlook') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Email integration');?></a>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 revealOnScroll image--floated">
-                <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ocr-nw.png" alt="in action"/></a>
-            </div>
-            <div class="col-md-6 revealOnScroll feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('OCR and full-text search');?></p>
-                <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud can easily be extended with powerful document management features like OCR and full-text search, enabling quick search in your documents.');?></p>
-                <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud can be connected to any document scanner (Xerox, Canon, HP, etc.) that supports WebDAV as well as mobile scanning and OCR apps, such as ScanBot.');?></p>
-                <p class="section--paragraph revealOnScroll"><?php echo $l->t('Extensive, open-standards based API\'s result in a low barrier to extension and integration in existing tools and workflows like RA Micro and ReNoStar.');?></p>
-            </div>
-        </div>
     </div>
 </section>
 
 <section class="section--getstarted">
     <div class="container-fluid quote">
-        <h2 class="text-center revealOnScroll"><?php echo $l->t('Legal firms provide trust');?></h2>
-        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Notaries, law firms and tax advisers are entrusted with the most confidential knowledge of their clients. Breaking that trust, for example due to a data-leak, is a career-ending mistake.');?></p>
+        <h2 class="text-center revealOnScroll"><?php echo $l->t('Financial firms provide trust');?></h2>
+        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Banks, investment firms, insurance agencies and other financial service firms are entrusted with the most confidential knowledge of their clients. Breaking that trust, for example due to a data-leak, is a career-ending mistake.');?></p>
         <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Nextcloud enables you to focus on your work, taking care that your data stays private and completely under your control!');?></p>
         <div class="container">
             <div class="row">
@@ -230,11 +246,11 @@ require(["require.config"], function() {
         <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Data protection');?></p>
         <h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Secure your data');?></h3>
         <div class="distribution--ilustration"></div>
-        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('While data needs to be at legal professionals\' finger tips at all times, the IT department must be able to ensure policies around securing and sharing sensitive documents are respected.');?></p>
+        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('While data needs to be at financial professionals\' finger tips at all times, the IT department must be able to ensure policies around securing and sharing sensitive documents are respected.');?></p>
     </div>
     <div class="row">
         <div class="col-md-10 col-md-offset-1 revealOnScroll feature--block">
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Legal documents are extremely sensitive. Clients care deeply about their privacy and keeping their data secure while regulators give heavy penalties for data leaks. Nextcloud offers you the tools to keep data compliant and safe.');?></p>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Financial documents are extremely sensitive. Clients care deeply about their privacy and keeping their data secure while regulators give heavy penalties for data leaks. Nextcloud offers you the tools to keep data compliant and safe.');?></p>
             <p class="section--paragraph revealOnScroll"><ul>
             <li><strong><?php echo $l->t('Legal compliance');?></strong><br/>
             <?php echo $l->t('Federal data protection and GDPR-compliant, protecting data sovereignty, keep the server location in your country.');?></li>
@@ -243,7 +259,7 @@ require(["require.config"], function() {
             <li><strong><?php echo $l->t('Client- and case related authorization');?></strong><br/>
             <?php echo $l->t('A dedicated user and group management as well as a rights system allows the assignment of access rights according to your requirements.');?></li>
             </ul>
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud is a popular self-hosted solution in businesses dealing with legal documents for its ability to strictly control access to data and industry-leading security capabilities.');?></p>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud is a popular self-hosted solution in businesses dealing with financial documents for its ability to strictly control access to data and industry-leading security capabilities.');?></p>
         </div>
     </div>
     <div class="row feature-row">
