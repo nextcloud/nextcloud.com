@@ -159,12 +159,6 @@
 		</div>
 
         <div class="row">
-			<div class="col-md-4">
-				<a href="https://www.univention.de/" target="_blank" title="Univention">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/univention.png" title="Univention" />
-				</a>
-				<p  class="partnertext">Univention is a leading provider of Open Source products for running and managing whole IT infrastructures and applications. Our core product is Univention Corporate Server (UCS), a flexible, effective alternative to Microsoft solutions with AD functions, a strong identity management and a wide range of applications in our App Center.</p>
-			</div>
 <!--			<div class="col-md-4">
 				<a href="https://www.cyber-guardians.net" target="_blank" title="Cyber Guardians">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/cyberguardians.png" title="Cyber Guardians logo" />
@@ -250,6 +244,16 @@
 				<p  class="partnertext">Moodle is the world's open source learning platform with a mission to empower educators to improve our world. Moodle provides educators with a private online space, filled with powerful, flexible tools for collaborative learning. Moodle is used in every country in the world by over 100 million registered users.</p>
             </div>
 		</div>
+
+		<div class="row">
+			<div class="col-md-4">
+				<a href="https://www.univention.de/" target="_blank" title="Univention">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/univention.png" title="Univention" />
+				</a>
+				<p  class="partnertext">Univention is a leading provider of Open Source products for running and managing whole IT infrastructures and applications. Our core product is Univention Corporate Server (UCS), a flexible, effective alternative to Microsoft solutions with AD functions, a strong identity management and a wide range of applications in our App Center.</p>
+			</div>
+		</div>
+
 		<br /><br />
 		<p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
 	</div>
