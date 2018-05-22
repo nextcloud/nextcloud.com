@@ -192,7 +192,7 @@ require(["require.config"], function() {
                 <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Secure document sharing');?></p>
+                <p class="section--paragraph__tittle"><?php echo $l->t('Secure collaboration');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Your employees can easily share documents for review or joint editing. Thanks to enforced sharing settings and dedicated user and group management, everyone only sees what they really need to see.');?></p>
                 <a href="<?php echo home_url('sharing') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('More about sharing');?></a>
             </div>
