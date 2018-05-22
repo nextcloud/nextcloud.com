@@ -224,15 +224,19 @@ require(["require.config"], function() {
 
 <section class="section--getstarted">
     <div class="container-fluid quote">
-        <h2 class="text-center revealOnScroll"><?php echo $l->t('Financial firms provide trust');?></h2>
-        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Banks, investment firms, insurance agencies and other financial service firms are entrusted with the most confidential knowledge of their clients. Breaking that trust, for example due to a data-leak, is a career-ending mistake.');?></p>
-        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Nextcloud enables you to focus on your work, taking care that your data stays private and completely under your control!');?></p>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 featureblock revealOnScroll">
-                    <div class="row text-center">
-                        <a href="<?php echo home_url('install') ?>" class="button button--arrow button--large"><?php echo $l->t('Try Nextcloud Files');?></a>
-                        <a href="<?php echo home_url('buy') ?>" class="button button--arrow button--large"><?php echo $l->t('Contact sales');?></a>
+        <div class="row">
+            <div class ="col-md-6 col-md-offset-3">
+                <h2 class="text-center revealOnScroll"><?php echo $l->t('Financial firms provide trust');?></h2>
+                <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Banks, investment firms, insurance agencies and other financial service firms are entrusted with the most confidential knowledge of their clients. Breaking that trust, for example due to a data-leak, is a career-ending mistake.');?></p>
+                <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Nextcloud enables you to focus on your work, taking care that your data stays private and completely under your control!');?></p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 featureblock revealOnScroll">
+                            <div class="row text-center">
+                                <a href="<?php echo home_url('install') ?>" class="button button--arrow button--large"><?php echo $l->t('Try Nextcloud Files');?></a>
+                                <a href="<?php echo home_url('buy') ?>" class="button button--arrow button--large"><?php echo $l->t('Contact sales');?></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
