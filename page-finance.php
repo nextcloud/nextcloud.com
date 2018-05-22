@@ -204,9 +204,9 @@ require(["require.config"], function() {
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Secure file exchange');?></p>
                 <p class="section--paragraph revealOnScroll"><?php echo $l->t('Sharing files across the borders of your organization can be done easily and securely with our file-drop feature.');?></p>
-                <a href="<?php echo home_url('file-drop') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('File Drop');?></a>
                 <p class="section--paragraph revealOnScroll"><?php echo $l->t('IT stays in control at all times, enforcing security policy with the File Access Control capabilities.');?></p>
-                <a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('File Access Control');?></a>
+                <a href="<?php echo home_url('file-drop') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('File Drop');?></a>
+
             </div>
         </div>
         <div class="row feature-row">
