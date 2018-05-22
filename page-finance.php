@@ -11,8 +11,8 @@ require(["require.config"], function() {
     <div class="container-fluid background">
         <div class="container">
 			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Confidential data exchange');?></h1>
-				<h2><?php echo $l->t('Nextcloud in the financial services industry');?></p>
+				<h1><?php echo $l->t('Financial services');?></h1>
+				<h2><?php echo $l->t('Nextcloud for confidential data exchange');?></p>
 			</div>
 		</div>
 	</div>
@@ -22,8 +22,9 @@ require(["require.config"], function() {
 <div class="container">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-            <p class="section--paragraph text-center"><?php echo $l->t('Growing regulatory pressure and fast moving technology forces the financial service industry to improve operational efficiency while avoiding the risks that come with a move to public cloud technology.');?></p>
-            <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud offers a unique on-premises solution that does not compromise security.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud offers a unique on-premises solution for financial services companies.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Growing regulatory pressure and fast moving technology forces the financial services industry to improve operational efficiency while avoiding the risks that come with a move to public cloud technology.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud solves this without compromising security.');?></p>
 		</div>
 	</div>
 </div>
@@ -60,7 +61,7 @@ require(["require.config"], function() {
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Raiffeisen and Hypo Banks in Austria');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Raiffeisen Informatik Center Steiermark provides the whole IT-Infrastructure as well as all financial applications for both Raiffeisen and Hypo Banks in Styria/Austria. As one of the largest IT companies in the Southern Region of Austria, they chose to provide Nextcloud to their users because it has the most user-friendly (web) interface, meets their strict security requirements and is scalable and extensible.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Raiffeisen Informatik Center Steiermark provides the whole IT-Infrastructure as well as all financial applications for both Raiffeisen and Hypo Banks in Styria/Austria. As one of the largest IT companies in the Southern Region of Austria, they chose to provide Nextcloud to their employees because it has the most user-friendly (web) interface, meets their strict security requirements and is scalable and extensible.');?></p>
                 <a href="https://nextcloud.com/blog/nextcloud-is-the-one-and-only-solution-we-are-providing-to-our-end-customers-florian-hausleitner/" class="button button--blue button--arrow button--large"><?php echo $l->t('Read the blog');?></a>
             </div>
         </div>
@@ -246,7 +247,8 @@ require(["require.config"], function() {
         <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Data protection');?></p>
         <h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Secure your data');?></h3>
         <div class="distribution--ilustration"></div>
-        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('While data needs to be at financial professionals\' finger tips at all times, the IT department must be able to ensure policies around securing and sharing sensitive documents are respected.');?></p>
+        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('
+        While data needs to be at financial professionals\' finger tips at all times, the IT department must ensure that policies around securing and sharing sensitive documents are respected.');?></p>
     </div>
     <div class="row">
         <div class="col-md-10 col-md-offset-1 revealOnScroll feature--block">
