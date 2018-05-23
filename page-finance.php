@@ -12,7 +12,7 @@ require(["require.config"], function() {
         <div class="container">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Financial services');?></h1>
-				<h2><?php echo $l->t('Nextcloud for confidential data exchange');?></p>
+				<h2><?php echo $l->t('Nextcloud for compliant data control');?></p>
 			</div>
 		</div>
 	</div>
