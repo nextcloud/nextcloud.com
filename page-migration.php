@@ -42,7 +42,7 @@
 						</div>
 
 						<div class="item">
-							<h3><?php echo $l->t('Die aktuellen Entwicklungen von Nextcloud, <span class="big">das Lizenzmodell</span> und die <span class="big">breite Unterstützung</span> der Community haben uns bei dieser Entscheidung bestärkt.');?></h3>
+							<h3><?php echo $l->t('The recent development of Nextcloud, <span class="big">licensing model</span> and <span class="big">wide support</span> of the community encouraged us in the decision to migrate.');?></h3>
 							<h2><a href="https://blog.hrz.tu-chemnitz.de/urzcommunity/2017/01/25/neuigkeiten-von-sync-n-share/"><?php echo $l->t('–  Andreas Heik, Universitätsrechenzentrum, TU Chemnitz');?></a></h2>
 						</div>
 					</div>
