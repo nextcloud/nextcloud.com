@@ -226,7 +226,7 @@
 
 		<div class="row">
             <div class="col-md-4">
-				<a href="https://osb-alliance.com" target="_blank" title="Red Hat Partnership">
+				<a href="https://redhat.com" target="_blank" title="Red Hat Partnership">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/redhat.png" title="Red Hat Partnership" />
 				</a>
 				<p  class="partnertext">Red Hat is the world's leading provider of reliable and high-performing open source cloud, Linux, middleware, storage and virtualization technologies. As Red Hat Advanced Business Partner, Nextcloud offers integrated solutions to its customers.</p>
