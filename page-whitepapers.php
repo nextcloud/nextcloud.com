@@ -240,6 +240,26 @@
 		</div>
 		<div class="col-md-3">
             <div class="row wpthumbnail">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/gdpr-overview-thubmnail-banner.png"/>
+            </div>
+            <div class="row">
+				<div class="description">
+					<p class="section--paragraph__tittle"><?php echo $l->t('GDPR Overview');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('Our GDPR Overview document offers a basic 12 step process to GDPR compliance, as part of our GDPR Compliance Kit. Customers can download the complementing GDPR Admin Manual on our customer portal.');?></p>
+                </div>
+                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                    <td colspan="2">
+                    <div class="recaptcha">
+                        <div id="RecaptchaField15"></div>
+                    </div>
+                    </td>
+                    <input type="hidden" name="segmentId" value="46">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                </form>
+			</div>
+		</div>
+		<div class="col-md-3">
+            <div class="row wpthumbnail">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/monitoring-thumbnail-banner.png"/>
             </div>
             <div class="row">
@@ -258,6 +278,8 @@
                 </form>
 			</div>
 		</div>
+	</div>
+	<div class="row list">
 		<div class="col-md-3">
             <div class="row wpthumbnail">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/file-access-thumbnail-banner.png"/>
@@ -278,8 +300,6 @@
                 </form>
 			</div>
 		</div>
-	</div>
-	<div class="row list">
 		<div class="col-md-3">
             <div class="row wpthumbnail">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/ldap-thumbnail-banner.png"/>
