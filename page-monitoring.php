@@ -33,7 +33,7 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Track file activity');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The nextcloud Activity app gives users a clear view on what is happening with their files.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The Nextcloud Activity app gives users a clear view on what is happening with their files.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('It provides users with an overview of recent changes like:
 			<ul>
                 <li>New or deleted files in shared folders</li>
