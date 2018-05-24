@@ -1,5 +1,7 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/education.css" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 require(["require.config"], function() {
 	require(["pages/education", "modules/submenu", "bootstrap", "modules/youtubePlayer"])
@@ -241,6 +243,7 @@ require(["require.config"], function() {
 		<div class="col-md-10 col-md-offset-1">
 			<div class="">
                 <div data-type="youtube" data-video-id="I5wcLS9xxMw"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/I5wcLS9xxMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>
 		</div>
     </div>

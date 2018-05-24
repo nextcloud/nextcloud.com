@@ -1,5 +1,7 @@
 <head>
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/collabora.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 	require(["require.config"], function() {
 		require(["pages/collabora", "modules/youtubePlayer", "modules/codeHighlights"])
@@ -24,6 +26,7 @@
 			<div class="row">
 				<div class="col-md-10 collaboravideo">
 					<div data-type="youtube" data-video-id="sZpYXUD1ZVM"></div>
+					<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/sZpYXUD1ZVM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 				<div class="col-md-6 col-md-offset-3">
 					<p class="section--paragraph text-center"><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major document, spreadsheet and presentation file formats and works in all modern browsers.');?></p>
@@ -42,6 +45,7 @@
 				</div>
 				<div class="col-md-6 revealOnScroll">
 					<div data-type="youtube" data-video-id="8iuSFKVl-xQ"></div>
+					<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/8iuSFKVl-xQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -87,6 +91,7 @@
 					<div class="col-md-10">
 					<br />
 					<div data-type="youtube" data-video-id="MDc1bNxn3js"></div>
+					<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/MDc1bNxn3js" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 					</div>
 					<div class="col-md-6 col-md-offset-3 text-center">
 					</div>
