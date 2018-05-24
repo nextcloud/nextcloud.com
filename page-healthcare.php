@@ -2,7 +2,7 @@
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/healthcare.css" rel="stylesheet">
 <script>
 require(["require.config"], function() {
-	require(["pages/education", "modules/submenu", "bootstrap", "modules/youtubePlayer"])
+	require(["pages/education", "modules/submenu", "bootstrap"])
 });
 </script>
 <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>

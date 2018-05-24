@@ -1,10 +1,5 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/groupware.css" rel="stylesheet">
-<script>
-	require(["require.config"], function() {
-		require(["pages/file-drop", "modules/youtubePlayer"])
-	});
-</script>
 </head>
 <div class="background groupware-background">
 	<div class="container">

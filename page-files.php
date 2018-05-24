@@ -1,5 +1,7 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/files.css" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 	require(["require.config"], function() {
 		require(["modules/youtubePlayer", "modules/submenu"])
@@ -234,6 +236,7 @@
 	<div class="container">
 		<div class="col-md-6  image--floated">
 			<div data-type="youtube" data-video-id="NRhVP9rXHVY"></div>
+			<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/NRhVP9rXHVY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Seamless collaboration');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The core strength of Nextcloud is its ability to enhance team productivity on the go with an easy user interface on mobile, web and desktop and powerful integrated collaboration and communication capabilities.');?></p>
@@ -248,6 +251,7 @@
     <div class="container">
         <div class="col-md-6">
             <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
+            <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
         <div class="col-md-6">
             <h2 class="section--paragraph__tittle"><?php echo $l->t('Secure file exchange');?></h2>
@@ -374,6 +378,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/jwhfeJlYBbM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud users to easily and securely send files, folders or upload links to others from within Microsoft Outlook. The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>

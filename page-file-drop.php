@@ -1,5 +1,7 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/securedrop.css" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 	require(["require.config"], function() {
 		require(["pages/file-drop", "modules/youtubePlayer"])
@@ -22,6 +24,7 @@
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1 video revealOnScroll">
 			<div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
+			<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
 		<div class="col-md-6 col-md-offset-3">
 			<p class="section--paragraph text-center"><?php echo $l->t('Nextcloud Files enables hospitals, banks, notaries and government agencies to securely send files to and receive files from customers, patients, clients or partners.');?></p>

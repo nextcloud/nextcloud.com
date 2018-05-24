@@ -1,5 +1,7 @@
 <head>
 <link class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/about.css" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 require(["require.config"], function() {
 	require(["modules/youtubePlayer"])
@@ -167,12 +169,15 @@ require(["require.config"], function() {
 			</div>
 			<div class="col-md-4">
                 <div data-type="youtube" data-video-id="Yjqd7MX434I?start=2678"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/Yjqd7MX434I?start=2678" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>
 			<div class="col-md-4">
                 <div data-type="youtube" data-video-id="rAXf8SGAXFE?start=2173"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/rAXf8SGAXFE?start=2173" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>
 			<div class="col-md-4">
                 <div data-type="youtube" data-video-id="iMfokaX2r8g"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/iMfokaX2r8g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>

@@ -1,5 +1,7 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/clients.css" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 	require(["require.config"], function() {
 		require(["modules/youtubePlayer"])
@@ -114,6 +116,7 @@
         <div class="row">
             <div class="col-md-6 revealOnScroll image--floated">
                 <div data-type="youtube" data-video-id="5yFKZze6TqM"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/5yFKZze6TqM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('top-rated iOS app');?></p>
@@ -169,6 +172,7 @@
         <div class="row">
             <div class="col-md-6 revealOnScroll image--floated">
                 <div data-type="youtube" data-video-id="https://youtu.be/4oY7R14Ydno"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/4oY7R14Ydno" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Well integrated Android app');?></p>
