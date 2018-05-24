@@ -5,13 +5,13 @@ require(["require.config"], function() {
 	require(["pages/education", "modules/submenu", "bootstrap"])
 });
 </script>
-<script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
+<!--<script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
 <script type="text/javascript">
     var CaptchaCallback = function() {
         grecaptcha.render('RecaptchaField1', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
         grecaptcha.render('RecaptchaField2', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
     };
-</script>
+</script>-->
 </head>
 <div class="healthcare-background second-menu">
     <div class="container-fluid background">

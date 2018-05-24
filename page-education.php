@@ -7,7 +7,7 @@ require(["require.config"], function() {
 	require(["pages/education", "modules/submenu", "bootstrap", "modules/youtubePlayer"])
 });
 </script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 </head>
 <div class="education-background second-menu">
     <div class="container-fluid background">
