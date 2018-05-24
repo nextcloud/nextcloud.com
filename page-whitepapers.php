@@ -1,6 +1,6 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/whitepapers.css" rel="stylesheet">
-<script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
+<!--<script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
 <script type="text/javascript">
     var CaptchaCallback = function() {
         grecaptcha.render('RecaptchaField1', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
@@ -26,7 +26,7 @@
         grecaptcha.render('RecaptchaField21', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
         grecaptcha.render('RecaptchaField22', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
     };
-</script>
+</script>-->
 </head>
 
 <div class="background whitepapers-background">

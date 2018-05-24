@@ -1,5 +1,5 @@
 <!--<?php get_template_part('templates/parts/title'); ?>-->
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
 

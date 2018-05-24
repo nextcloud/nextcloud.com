@@ -1,6 +1,6 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/workflow.css" rel="stylesheet">
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 </head>
 
 <div class="background workflow-background">

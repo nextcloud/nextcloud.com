@@ -7,7 +7,7 @@ require(["require.config"], function() {
 	require(["modules/youtubePlayer"])
 });
 </script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 </head>
 <div class="background globalscale-background">
 	<div class="container">
