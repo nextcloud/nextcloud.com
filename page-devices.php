@@ -1,6 +1,6 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/devices.css" rel="stylesheet">
-<link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" />
+<!-- <link type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/jquery-ui.css" rel="stylesheet" /> -->
 
 <script>
 require(["require.config"], function() {

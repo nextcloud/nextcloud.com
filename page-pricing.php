@@ -5,7 +5,7 @@
 		require(["pages/pricing", "modules/submenu", "bootstrap"])
 	});
 	</script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/old/jquery-321.min.js"></script>
 </head>
 
 <section class="pricing-hero-section second-menu">
