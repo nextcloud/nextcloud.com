@@ -169,12 +169,12 @@
                 </div>
             </div>
         </div>-->
-	</div>
 	<div class="row">
         <div class="col-md-6 col-md-offset-3">
             <p class="text-center revealOnScroll"><a class="button button--blue button--arrow button--large  revealOnScroll" href="<?php echo home_url('whitepapers') ?>"><?php echo $l->t('case studies & white papers');?></a></p>
         </div>
     </div>
+</div>
 </section>
 <section class="underyourcontrol">
 <div class="container-fluid" id="perfect-for-home-and-business">
