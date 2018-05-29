@@ -143,7 +143,7 @@
 		</div>
         <div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+                    <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 				<h2 class="teamname">Marie Gutbub</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Online Marketer</h3>
@@ -312,7 +312,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/daniel.jpg" />
 				<h2 class="teamname">Daniel Calviño Sánchez</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
@@ -442,7 +442,7 @@
 		</div>
         <div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marino.jpg" />
 				<h2 class="teamname">Marino Faggiana</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
