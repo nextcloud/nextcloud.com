@@ -40,17 +40,18 @@
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
 	<h2><?php echo $l->t('Visit us!');?></h2>
-	<p><strong>Nextcloud GmbH</strong><br/>
-    Hauptmannsreute 44A<br/>
-    70192 Stuttgart Germany<br/>
-    HRB 227086 (AG München)<br/>
-    T +49 711 25 24 28 90<br/>
-    </p>
     <p>
     <strong><?php echo $l->t('Visitor address:');?></strong><br/>
-    Nextcloud GmbH<br/>
+    <address><strong>Nextcloud GmbH</strong><br/>
     Rotebuehlplatz 20A<br/>
-    70173 Stuttgart Germany<br/>
+    70173 Stuttgart Germany<br/></address>
+    </p>
+    <p><strong>Headquarter address:</strong><br/>
+	<address>Nextcloud GmbH<br/>
+    Hauptmannsreute 44A<br/>
+    70192 Stuttgart Germany<br/></address>
+    HRB 227086 (AG München)<br/>
+    T +49 711 25 24 28 90<br/>
     </p>
 </div>
 

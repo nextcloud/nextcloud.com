@@ -3,18 +3,18 @@
 <!--         <div class="page-header"> -->
 <!--             </div> -->
 <h1><?php echo $l->t('Legal Notice:');?></h1>
-<p>Nextcloud GmbH<br/>
+<p><address>Nextcloud GmbH<br/>
 Hauptmannsreute 44A<br/>
-70192 Stuttgart Germany<br/>
+70192 Stuttgart Germany<br/></address>
 HRB 227086 (AG München)<br/>
 T +49 711 25 24 28 90<br/>
 <a href="<?php echo home_url('contact') ?>"><?php echo $l->t('contact form');?></a><br/>
 </p>
 <p>
 <?php echo $l->t('Visitor address:');?><br/>
-Nextcloud GmbH<br/>
+<address>Nextcloud GmbH<br/>
 Rotebuehlplatz 20A<br/>
-70173 Stuttgart Germany<br/>
+70173 Stuttgart Germany<br/></address>
 </p>
 <p>
 Managing Directors:<br/>
