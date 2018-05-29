@@ -101,6 +101,12 @@ T +49 711 25 24 28 90<br/>
 <a href="<?php echo home_url('contact') ?>">contact form</a><br/>
 </p>
 <p>
+Visitor address:<br/>
+Nextcloud GmbH<br/>
+Rotebuehlplatz 20A<br/>
+70173 Stuttgart Germany<br/>
+</p>
+<p>
 Managing Directors:<br/>
 Niels Mache<br/>
 Frank Karlitschek<br/>
