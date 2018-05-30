@@ -126,7 +126,7 @@
 			<p class="section--paragraph revealOnScroll">We gathered some hotel options for you! Be quick, last year many hotels already had no space left in May...</p>
 			<ul>
 				<li><strong><a class="hyperlink" href="http://www.accorhotels.com/gb/hotel-7968-ibis-budget-berlin-kurfuerstendamm/index.shtml" target="_blank">Ibis Budget Berlin Kurfürstendamm</a></strong> This affordable hotel (starting below Eur 50/night) is two U-bahn stops or a 25 minute walk away from the University. Most of the core developers will be staying here.</li>
-				<li><strong><a class="hyperlink" href="http://www.aletto.de/en/kudamm" target="_blank">Youth hotel Aletto Kudamm</a></strong> (starting at Eur 50) is walking distance.</li>
+				<li><strong><a class="hyperlink" href="http://www.aletto.de/en/kudamm" target="_blank">Youth hotel Aletto Kudamm</a></strong> (starting at Eur 50) is in walking distance.</li>
 				<li><a class="hyperlink" href="http://www.allhotels-inn.com/show.php?hotel=876&ref=0" target="_blank">Hotel Amelie</a> is just a quick U-bahn trip away and is affordable.</li>
 				<li><strong><a class="hyperlink" href="http://www.accorhotels.com/gb/hotel-3649-novotel-berlin-am-tiergarten/index.shtml" target="_blank">Novotel Berlin Am Tiergarten</a></strong> This hotel costs about Eur 75/night but is very conveniently located at the closest S-bahn station. You may hear the train early in the morning or late at night though.</li>
 			</ul>
