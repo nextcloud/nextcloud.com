@@ -13,7 +13,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <p class="section--paragraph"><?php echo $l->t('We invite you to join our <a class="hyperlink" href="https://github.com/nextcloud" target="_blank">development efforts on GitHub</a>, the conversations on <a class="hyperlink" href="https://help.nextcloud.com" target="_blank">our forums</a> and our <a class="hyperlink" href="irc://#nextcloud-dev@freenode.net" target="_blank">IRC channel on freenode</a>, also accessible via <a class="hyperlink" href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. Interact with us on our <a class="hyperlink" href="/news">blogs and social media channels</a>, too!');?></p>
+            <p class="section--paragraph"><?php echo $l->t('We invite you to join our <a class="hyperlink" href="https://github.com/nextcloud" target="_blank">development efforts on GitHub</a>, the conversations on <a class="hyperlink" href="https://help.nextcloud.com" target="_blank">our forums</a> and our <a class="hyperlink" href="https://riot.im/app/#/room/#freenode_#nextcloud-dev:matrix.org" target="_blank">chat channel #nextcloud-dev (IRC)</a>, also accessible via <a class="hyperlink" href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. Interact with us on our <a class="hyperlink" href="/news">blogs and social media channels</a>, too!');?></p>
             <p class="section--paragraph"><?php echo $l->t('Do you want to get a certain improvement in Nextcloud? Did you find a problem? Do you want to help translate, promote or document Nextcloud?');?></p>
         </div>
 	</div>
@@ -27,7 +27,7 @@
             <p class="section--paragraph"><?php echo $l->t('Improve the Nextcloud Server');?> (<a class="hyperlink"  href="<?php echo $DOCUMENTATION_DEVELOPER; ?>core"><?php echo $l->t('server development documentation</a>)');?></p>
             <p class="section--paragraph"><?php echo $l->t('Learn to write Nextcloud code. (Try your hands on a <a class="hyperlink"  href="https://github.com/nextcloud/server/labels/good%20first%20issue" target="_blank">good first issue</a> or get started with <a class="hyperlink" href="https://nextcloud.com/blog/get-involved-in-nextcloud-by-reviewing-pulls/">reviewing pull requests</a>)');?></li>
 
-            <p class="section--paragraph"><?php echo $l->t('Talk to us <a class="hyperlink"  href="irc://#nextcloud-dev@freenode.net">on IRC</a>, also accessible via <a class="hyperlink"  href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>, and on our
+            <p class="section--paragraph"><?php echo $l->t('Talk to us in <a class="hyperlink" href="https://riot.im/app/#/room/#freenode_#nextcloud-dev:matrix.org" target="_blank">our chat channel #nextcloud-dev (IRC)</a>, and on our
             <a class="hyperlink" href="https://help.nextcloud.com" target="_blank">forum</a>! We look forward to your code and thoughts.');?></p>
 
             <h3 class="section--intro"><?php echo $l->t('Answer questions about Nextcloud use and development');?></h3>
