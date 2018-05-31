@@ -7,6 +7,10 @@
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/old/header.css" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/modules/footer.css" rel="stylesheet">
 
+	<!-- GDPR - block YouTube by default -->
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+
 	<!-- Fixes for the new style on legacy pages -->
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/legacy-fixes.css" rel="stylesheet">
 
