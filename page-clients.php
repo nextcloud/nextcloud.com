@@ -160,6 +160,7 @@
                 <li><?php echo $l->t('Multi-account support');?></li>
                 <li><?php echo $l->t('Adjusts to Nextcloud server theming preferences');?></li>
                 <li><?php echo $l->t('Auto-upload of photos and videos with custom file naming and folder sorting, wifi-only upload and HEIC support');?></li>
+                <li><?php echo $l->t('iOS 11 Files app integration');?></li>
                 </ul></p>
             </div>
         </div>
