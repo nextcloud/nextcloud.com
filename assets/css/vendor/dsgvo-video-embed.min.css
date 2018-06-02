@@ -1,3 +1,100 @@
-iframe{display:inline-block}.video-wall{position:relative;font:400 1em/1.46 'Open Sans',sans-serif;text-shadow: 0px 0px 7px #000;color:white;display:inline-block;min-height:18em;min-width:28em;margin:0;background-color:#eee;background-position: center center;background-size: cover;box-sizing:border-box;border:1.5em solid transparent;padding:1em}.video-wall strong{display:block;text-align:center;font-size:1.1em;margin:0;background-color: rgba(0, 0, 0, 0.3);}.video-wall .dsgvo-text{display:block;width:calc(100% - 2em);max-width:800px;margin: 1em auto auto auto;overflow-y:auto;color:black !important;text-shadow: none;background-color:#eee;opacity:0.9;height:100px;}.video-wall p{font-size:.8em;padding:1em}.video-wall a{color:inherit;border:0}.video-wall a:hover{color:inherit;text-decoration: underline;border:0}.video-wall .video-link{display:block;white-space:nowrap;font-size:.8em;text-align:center;margin:1em auto;background-color: rgba(0, 0, 0, 0.3);}.video-wall button{-webkit-appearance:none;cursor:pointer;color:#444;font:700 .8em/1.2 'Open Sans',sans-serif;display:block;width:11.5em;height:4.25em;border:0 none;border-radius:.75em;padding:0 0 0 5.5em;text-align:left;text-align:center;margin:1em auto;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'%3E%3Cpath fill='%23FF0000' d='M11.109 17.625l7.562-3.906-7.562-3.953v7.859zM14 4.156c5.891 0 9.797 0.281 9.797 0.281 0.547 0.063 1.75 0.063 2.812 1.188 0 0 0.859 0.844 1.109 2.781 0.297 2.266 0.281 4.531 0.281 4.531v2.125s0.016 2.266-0.281 4.531c-0.25 1.922-1.109 2.781-1.109 2.781-1.062 1.109-2.266 1.109-2.812 1.172 0 0-3.906 0.297-9.797 0.297v0c-7.281-0.063-9.516-0.281-9.516-0.281-0.625-0.109-2.031-0.078-3.094-1.188 0 0-0.859-0.859-1.109-2.781-0.297-2.266-0.281-4.531-0.281-4.531v-2.125s-0.016-2.266 0.281-4.531c0.25-1.937 1.109-2.781 1.109-2.781 1.062-1.125 2.266-1.125 2.812-1.188 0 0 3.906-0.281 9.797-0.281v0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 1em center #fff;opacity: 0.8;background-size:3.5em;transition:background-color .3s}.video-wall button:hover{color:black;background-color:white;opacity: 1;}
+iframe {
+    display: inline-block;
 
+}
+.video-wall {
+    position:relative;
+    text-shadow: 0px 0px 7px #000;
+    color:white;
+    display:inline-block;
+    min-height:18em;
+    min-width:28em;
+    margin:0;
+    background-color:#eee;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:0 1em ;
+}
 
+.video-wall strong {
+    display:block;
+    text-align:center;
+    font-size:1.1em;
+    width: 14em;
+    margin:0.2em auto;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.video-wall .dsgvo-text {
+    display:block;
+    width:calc(100% - 2em);
+    max-width:800px;
+    margin: 1em auto auto auto;
+    overflow-y:auto;
+    color:black !important;
+    text-shadow: none;
+    background-color:#eee;
+    opacity:0.8;
+    height:10em;
+}
+
+.video-wall p {
+    font-size: 0.8em;
+    padding: 1em;
+}
+
+.video-wall a {
+    color: inherit;
+    border: 0;
+}
+
+.video-wall a {
+    color: inherit;
+    border: 0;
+}
+
+.video-wall .dsgvo-text a {
+    color: black !important;
+    border: 0;
+}
+
+.video-wall a:hover {
+    color:inherit;
+    text-decoration: underline;
+    border:0;
+}
+
+.video-wall .video-link {
+    display:block;
+    white-space:nowrap;
+    font-size:.8em;
+    text-align:center;
+    width: 25em;
+    margin:0.2em auto 2em auto;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.video-wall button {
+    -webkit-appearance: none;
+    cursor: pointer;
+    color: #444;
+    display: block;
+    width: 11.5em;
+    height: 4.25em;
+    border: 0 none;
+    border-radius: 0.75em;
+    padding: 0 0 0 5.5em;
+    text-align: left;
+    margin: 1em auto 3em auto;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'%3E%3Cpath fill='%23ff0000' d='M11.109 17.625l7.562-3.906-7.562-3.953v7.859zM14 4.156c5.891 0 9.797 0.281 9.797 0.281 0.547 0.063 1.75 0.063 2.812 1.188 0 0 0.859 0.844 1.109 2.781 0.297 2.266 0.281 4.531 0.281 4.531v2.125s0.016 2.266-0.281 4.531c-0.25 1.922-1.109 2.781-1.109 2.781-1.062 1.109-2.266 1.109-2.812 1.172 0 0-3.906 0.297-9.797 0.297v0c-7.281-0.063-9.516-0.281-9.516-0.281-0.625-0.109-2.031-0.078-3.094-1.188 0 0-0.859-0.859-1.109-2.781-0.297-2.266-0.281-4.531-0.281-4.531v-2.125s-0.016-2.266 0.281-4.531c0.25-1.937 1.109-2.781 1.109-2.781 1.062-1.125 2.266-1.125 2.812-1.188 0 0 3.906-0.281 9.797-0.281v0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 1em center #eee;
+    opacity: 0.8;;
+    background-size: 3.5em;;
+    transition: background-color 0.3s;
+}
+
+.video-wall button:hover {
+    color: black;;
+    background-color: white;;
+    opacity: 1;
+}
