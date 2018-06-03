@@ -212,44 +212,6 @@
   padding-top: 16px;
   text-indent: -30px; }
 
-.section--compliance {
-  margin-top: 120px; }
-  .section--compliance .banner {
-    background-color: #0082c9;
-    position: relative;
-    overflow: hidden; }
-    .section--compliance .banner .col-md-6 {
-      padding: 40px 0; }
-    .section--compliance .banner li, .section--compliance .banner p, .section--compliance .banner h2, .section--compliance .banner h3 {
-      color: white; }
-    .section--compliance .banner .hyperlink {
-      color: white; }
-    .section--compliance .banner .row {
-      padding: 0px 0px; }
-    .section--compliance .banner .fa {
-      color: white;
-      padding-right: 10px; }
-    .section--compliance .banner .learnmore {
-      padding: 20px 0px; }
-      .section--compliance .banner .learnmore .col-sm-6 {
-        padding: 20px 0px; }
-    .section--compliance .banner .big-img {
-      position: absolute;
-      max-width: 70%;
-      height: 100%;
-      /*         top: 60px; */
-      margin-left: 30px; }
-    .section--compliance .banner .small-img {
-      position: absolute;
-      height: 100%;
-      margin-left: 30px; }
-    @media (max-width: 1600px) {
-      .section--compliance .banner .big-img {
-        display: none; } }
-    @media (min-width: 1600px) {
-      .section--compliance .banner .small-img {
-        display: none; } }
-
 .section--customers {
   padding-top: 130px;
   padding-bottom: 110px;

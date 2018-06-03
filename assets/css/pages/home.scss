@@ -276,65 +276,6 @@
   text-indent: -30px;
 }
 
-.section--compliance {
-    margin-top: 120px;
-	.banner {
-        background-color: $nextcloud-blue;
-        position: relative;
-        overflow: hidden;
-		.col-md-6 {
-			padding: 40px 0;
-		}
-		li,p,h2,h3 {
-        color: white;
-		}
-
-        .hyperlink {
-            color: white;
-        }
-
-        .row {
-			padding: 0px 0px;
-		}
-
-        .fa {
-            color: white;
-            padding-right: 10px;
-        }
-
-        .learnmore {
-            padding: 20px 0px;
-			.col-sm-6 {
-				padding: 20px 0px;
-			}
-        }
-
-        .big-img {
-            position: absolute;
-            max-width: 70%;
-            height: 100%;
-            /*         top: 60px; */
-            margin-left: 30px;
-        }
-        .small-img {
-            position:absolute;
-            height: 100%;
-            margin-left: 30px;
-        }
-        @media (max-width: $very-wide) {
-            .big-img {
-                display: none;
-            }
-        }
-        @media (min-width: $very-wide) {
-            .small-img {
-                display: none;
-            }
-        }
-    }
-}
-
-
 .section--customers {
     padding-top: 130px;
 	padding-bottom: 110px;
