@@ -19,7 +19,7 @@
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
             <p class="section--paragraph text-center"><?php echo $l->t('The GDPR makes organizations liable for any violations of user privacy and deviations from a high data security standard. Any business-to-consumer company, but also many B2B enterprises will have to ensure they have their data under control.');?></p>
-            <p class="section--paragraph text-center"><?php echo $l->t('The self hosted Nextcloud solution simplifies compliance, decreasing business risk and costs.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('The self-hosted Nextcloud solution simplifies compliance, decreasing business risk and costs.');?></p>
 		</div>
 	</div>
 </div>
