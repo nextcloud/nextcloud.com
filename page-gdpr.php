@@ -224,7 +224,7 @@
             <p class="section--paragraph revealOnScroll"><ul>
             <li><strong><?php echo $l->t('Legal compliance');?></strong><br/>
             <?php echo $l->t('Federal data protection and GDPR-compliant, protecting data sovereignty, keep the server location in your country.');?></li>
-            <li><strong><?php echo $l->t('data security');?></strong><br />
+            <li><strong><?php echo $l->t('Data security');?></strong><br />
             <?php echo $l->t('Multiple levels of encryption (HTTPS/SSL/TLS, AES-256 or stronger, server-side and end-to-end encryption) ensure the highest level of data protection from hacking.');?></li>
             <li><strong><?php echo $l->t('Fine-grained authorization');?></strong><br/>
             <?php echo $l->t('A dedicated user and group management as well as a rights system allows the assignment of access rights according to your requirements.');?></li>
