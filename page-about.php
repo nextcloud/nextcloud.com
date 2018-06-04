@@ -85,13 +85,22 @@ require(["require.config"], function() {
         </div>
     </div>
 </section>
-<section>
+<section class="section--differentiators">
 <div class="container">
+         <div class="row quote--container">
+            <blockquote class="quote--paragraph">Nextcloud is a counter model to the typical cloud offerings of large US providers such as Microsoft.</blockquote>
+        <div class="quote--brand">
+            <a href="http://www.spiegel.de/netzwelt/web/open-source-software-nextcloud-baut-die-bundescloud-a-1203261.html"><div class="quote--brand--logo"></div></a>
+                <p class="quote--brand--text">
+                    <a href="http://www.spiegel.de/netzwelt/web/open-source-software-nextcloud-baut-die-bundescloud-a-1203261.html">Der Spiegel</a>
+                </p>
+            </div>
+        </div>
     <div class="row">
         <h2><?php echo $l->t('Our key differentiators');?></h2>
         <p class="section--paragraph__tittle"><?php echo $l->t('Putting IT back in control');?></p>
         <p class="section--paragraph"><?php echo $l->t('As a vendor of on-premises solutions, Nextcloud puts the customer in control over their data in the most literal and direct sense. Building on that, our products integrate powerful capabilities to control and monitor data exchange and communication, including our unique File Access Control and workflow features, extensive audit logs, fine-grained sharing controls and more.');?></p>
-        <p class="section--paragraph__tittle"><?php echo $l->t('Security first');?></p>
+         <p class="section--paragraph__tittle"><?php echo $l->t('Security first');?></p>
         <p class="section--paragraph"><?php echo $l->t('Security is Nextcloud customers\' greatest concerns and our prime advantage over competitors. Nextcloud features a host of unique, innovative security technologies from brute force protection to advanced server side and integrated end-to-end, client side encryption with enterprise-grade key handling and a wide range of security hardenings. Our security has been reviewed by trusted third parties and is backed by a USD 5000 Security Bug Bounty Program, providing the confidence that data meant to stay private will stay private.');?></p>
 
         <p class="section--paragraph__tittle"><?php echo $l->t('User Focus');?></p>
@@ -114,7 +123,12 @@ require(["require.config"], function() {
 		<p class="section--paragraph"><?php echo $l->t('Our launch has been covered extensively in the media and we\'ve been interviewed, explaining the why, how and what behind our endeavor. In short, 12 developers, the majority of the engineering team, left ownCloud because we believed a better solution was possible for users, customers and fellow contributors. We see a business as an important part of the open source ecosystem around a project. Its role is to act as a catalyst, enabling individuals and businesses to grow and participate. It is in the nature of open source that a company failing to play this role can be replaced, protecting customers from vendor lock-in.');?></p>
 
 		<p class="section--paragraph"><?php echo $l->t('Subsequent events, including Nextcloud becoming the <a class="hyperlink" href="https://nextcloud.com/?p=1222">most active open source file sync and share project</a> backed by our <a class="hyperlink" href="https://nextcloud.com/?p=1343">healthy, profitable business</a> and the <a class="hyperlink" href="https://nextcloud.com/blog/join-our-hackathon-january-23-27/">hugely positive response to our Nextcloud 11 release</a>, have proven us right. With Nextcloud 12, we\'ve extended our technological lead and are charting new territory with');?> <a class="hyperlink" href="<?php echo home_url('globalscale') ?>">Global Scale</a>, <?php echo $l->t('a new architecture for near unlimited scalability. <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-13-brings-secure-file-sync-and-collaboration-to-the-next-level/">Nextcloud 13</a> continued our advantage over our competition with deeply integrated audio/video and chat communication and unique real time collaboration capabilities.');?></p>
+	</div>
+</section>
 
+<section class="section--videos">
+<div class="container">
+    <div class="row">
 		<p class="section--paragraph"><?php echo $l->t('Watch the videos and interviews below to learn more about what happened.');?></p>
 		<div class="row newsrow">
 			<div class="col-md-4">
