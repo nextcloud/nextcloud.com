@@ -12,6 +12,70 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest13"></a>
+<h3 id="13-0-3">Version 13.0.3 <small>June 7 2018</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.3.tar.bz2">nextcloud-13.0.3.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.3.zip">nextcloud-13.0.3.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.3.tar.bz2.md5">nextcloud-13.0.3.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.3.zip.md5">nextcloud-13.0.3.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.3.tar.bz2.sha256">nextcloud-13.0.3.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.3.zip.sha256">nextcloud-13.0.3.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.3.tar.bz2.sha512">nextcloud-13.0.3.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.3.zip.sha512">nextcloud-13.0.3.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.3.tar.bz2.asc">nextcloud-13.0.3.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.3.zip.asc">nextcloud-13.0.3.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+<li><a href="https://github.com/nextcloud/server/pull/9259">Backport various scss fixes #8777 (server#9259)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9344">Fix ellipsis in filename column (server#9344)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9358">Replace deprecated sinon reset() call with resetHistory() (server#9358)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9377">Issue #9318: catch exceptions in SCSSCacher::resetCache() (server#9377)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9389">Log lock state on conflict (server#9389)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9391">Remove unneeded locks in getCacheEntry (server#9391)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9392">Only allow a single concurrent dav write to a file (server#9392)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9409">Workflow rules error when changing operation (server#9409)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9430">Fix jsunit tests (server#9430)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9432">Allow IPv6 database host (server#9432)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9433">Add labels for Contacts menu and Settings (server#9433)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9436">Get correct version of an app (server#9436)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9453">Fix ids of permission checkboxes for shares (server#9453)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9454">Fix race condition when preparing upload folder (server#9454)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9516">Allow to specify a link to a legal notice (server#9516)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9522">Fix for unbound cloned LDAP connections (server#9522)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9525">Dont use $info as array when its not an array (server#9525)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9540">Improve OAuth (server#9540)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9547">Bump theming version for extraordinary release (server#9547)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9548">Fix translation bug on lost password page (server#9548)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9566">Cleanup locks in scanner on error (server#9566)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9573">Bump version for theming again 🙇 (server#9573)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9579">Make sure force language is reflected in html lang attribute (server#9579)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9586">Add privacy link to theming and fix scrollbars (server#9586)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9590">Fix settings menu (server#9590)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9608">Handle exception while itterating trough smb file listing (server#9608)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9610">Send invitations for shared calendars (server#9610)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9619">Regenerate session id after public share auth (server#9619)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9620">Emit event when running ./occ db:add-missing-indices (server#9620)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9621">Add PHP missing message to index.php (server#9621)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9622">Delete the previews when a version is restored (server#9622)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9629">Limit Sinon version to 5.0.7 at most (server#9629)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9647">Prepare another theming release including translations for recently added imprint and privacy policy strings (server#9647)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9649">Dont open the file on dav HEAD request (server#9649)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9650">Fix(AmazonS3):  fix loop $result['Contents'] error (server#9650)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9651">Fix undefined variables (server#9651)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9652">Add search category icon (server#9652)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9654">Fix "Invalid argument supplied for foreach()" (server#9654)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9655">Do not load calendar/addressbook plugins if not needed (server#9655)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9656"> Make LargeFileHelper.php faster by avoiding execs as much as possible (server#9656)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9657">Improve error reporting and move format parameter to the options (server#9657)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9659">The OAuth endpoint needs to support Basic Auth (server#9659)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9661">LDAP password renewal fixes (server#9661)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9662">Check user state when fetching to avoid dealing with offline objects (server#9662)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9668">Make sure the file is readable before attempting to create a preview (server#9668)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9672">Fix drone mysqlmb4 tests (server#9672)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9694">Make sure the log doesn't try to read from PUT if it can't (server#9694)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9707">Allow admins to override FreeBusy capabilities without modifying ShareAPI capabilities (server#9707)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9712">Fix the unit tests (server#9712)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9727">Fix header nav (server#9727)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9732">Fix local users check in contacts menu (server#9732)</a></li>
+<li><a href="https://github.com/nextcloud/3rdparty/pull/99">Don't open the file when handling HEAD requests (3rdparty#99)</a></li>
+<li><a href="https://github.com/nextcloud/files_texteditor/pull/101">Do not sanitize markdown output twice (files_texteditor#101)</a></li>
+</ul>
 
 <h3 id="13-0-2">Version 13.0.2 <small>April 26 2018</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.2.tar.bz2">nextcloud-13.0.2.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.2.zip">nextcloud-13.0.2.zip</a></br>
@@ -219,6 +283,34 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
 
 <a name="latest12"></a>
+
+<h4 id="12-0-8">Version 12.0.8 <small>June 7 2018</small></h4>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.8.tar.bz2">nextcloud-12.0.8.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.8.zip">nextcloud-12.0.8.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.8.tar.bz2.md5">nextcloud-12.0.8.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.8.zip.md5">nextcloud-12.0.8.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.8.tar.bz2.sha256">nextcloud-12.0.8.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.8.zip.sha256">nextcloud-12.0.8.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.8.tar.bz2.sha512">nextcloud-12.0.8.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.8.zip.sha512">nextcloud-12.0.8.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.8.tar.bz2.asc">nextcloud-12.0.8.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.8zip.asc">nextcloud-12.0.8.zip.asc</a></p>
+
+<h4>Changes</h4>
+Many fixes were merged, the most important ones include:
+<ul>
+<li><a href="https://github.com/nextcloud/server/pull/9359">Replace deprecated sinon reset() call with resetHistory() (server#9359)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9431">Fix jsunit tests (server#9431)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9493">Allow upgrades from ownCloud 10.0.8 (server#9493)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9546">Improve OAuth (server#9546)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9549">Fix translation bug on lost password page (server#9549)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9567">Cleanup locks in scanner on error (server#9567)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9580">Make sure force language is reflected in html lang attribute (server#9580)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9611">Send invitations for shared calendars (server#9611)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9618">Regenerate session id after public share auth (server#9618)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9630">Limit Sinon version to 5.0.7 at most (server#9630)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9660">The OAuth endpoint needs to support Basic Auth (server#9660)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9669">Make sure the file is readable before attempting to create a preview (server#9669)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9671">Fix drone mysqlmb4 tests (server#9671)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9695">Make sure the log doesn't try to read from PUT if it can't (server#9695)</a></li>
+</ul>
+
 
 <h4 id="12-0-7">Version 12.0.7 <small>April 26 2018</small></h4>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.7.tar.bz2">nextcloud-12.0.7.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.7.zip">nextcloud-12.0.7.zip</a></br>
