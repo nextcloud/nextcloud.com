@@ -35,6 +35,14 @@
 	</div>
 </section>
 
+<section class="section--speakers" style="background: url('/wp-content/themes/next/assets/img/conference/keynotespeakers.jpg');height:500px;background-size:cover;background-position: center;">
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center" style="text-shadow: 0px 0px 7px #000; color: white; margin-top:300px;">inspiring keynotes</h1>
+        </div>
+    </div>
+</section>
+
 <section class="section--info">
 <div class="container">
 	<div class="row conf-info">
@@ -75,6 +83,14 @@
 </div>
 </section>
 
+<section class="section--speakers" style="background: url('/wp-content/themes/next/assets/img/conference/communityspeakers.jpg');height:500px;background-size:cover;background-position: center;">
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center" style="text-shadow: 0px 0px 7px #000; color: white; margin-top:300px;">share your own ideas</h1>
+        </div>
+    </div>
+</section>
+
 <section class="section--call-for-papers">
 <div class="container">
 	<div class="row text-center">
@@ -97,6 +113,56 @@
 <!-- 			<p class="section--paragraph revealOnScroll"><a class="button button--blue button--arrow button--large revealOnScroll" href="coming" role="button">Know all the features</a></p> -->
 			</div>
 	</div>
+</section>
+
+<section class="section--diversity" id="diversity">
+<div class="container">
+    <div class="row revealOnScroll">
+        <div class="col-md-8 col-md-offset-2">
+            <p class="section--paragraph revealOnScroll text-center"><a href="http://www.tu-berlin.de/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/diversity-tickets.png" alt="Diversity tickets logo" class="aligncenter img-responsive" /></a></p>
+        </div>
+    </div>
+    <div class="row revealOnScroll">
+        <div class="col-md-8 col-md-offset-2">
+            <p class="section--paragraph revealOnScroll text-center">Nextcloud is committed to support diversity and will provide support to people of underrepresented groups in tech. This includes people who belong to one or more of the following groups: women, people of color, nonbinary & gender non-conforming people, people with disabilities, and LGBTQIA+ people.</p>
+        </div>
+    </div>
+    <div class="row revealOnScroll text-center">
+        <a href="https://github.com/nextcloud/server/wiki/Diversity-Tickets" class="btn btn-lg btn-primary text-center">Learn more</a>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="section--partners">
+<div class="container">
+    <div class="row revealOnScroll">
+        <div class="col-md-8 col-md-offset-2">
+            <h2  class="revealOnScroll">Partners!</h2>
+            <p class="section--paragraph revealOnScroll">The event is made possible thanks to the generous donation of the location by the <a class="hyperlink" href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a class="hyperlink" href="https://nextcloud.com">Nextcloud GmbH</a>.</p>
+            <p class="section--paragraph revealOnScroll">TUXEDO Computers contributes a number of loan laptops for workshop or hackweek attendees who need a device to work with but forgot their own. Media partners like Linux Magazine and Admin Magazine will cover the Nextcloud Conference!</p>
+        </div>
+    </div>
+    <div class="row revealOnScroll">
+        <div class="col-md-4">
+            <p class="section--paragraph revealOnScroll text-center"><a href="http://www.tu-berlin.de/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/tub-logo.png" alt="TUBerlin logo" class="aligncenter img-responsive" /></a></p>
+        </div>
+        <div class="col-md-4">
+            <p class="section--paragraph revealOnScroll text-center"><a href="https://https://tuxedocomputers.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/tuxedo.png"  alt="Tuxedo Computers logo" class="aligncenter img-responsive" /></a></p>
+        </div>
+        <div class="col-md-4">
+            <p class="section--paragraph revealOnScroll text-center"><a href="http://www.admin-magazine.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/AdminMagazine.png" alt="Admin mag logo" class="aligncenter img-responsive" /></a></p>
+        </div>
+        <div class="col-md-4">
+            <p class="section--paragraph revealOnScroll text-center"><a href="http://www.linuxpromagazine.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxMagazin.png" alt="LinuxMagazin logo" class="aligncenter img-responsive" /></a></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+        <p class="section--paragraph revealOnScroll">Contact us if you'd also like to contribute as partner!</p>
+        </div>
+    </div>
+</div>
 </section>
 
 <section class="section--details">
@@ -146,9 +212,6 @@
 	<!--		<iframe src="//www.youtube-nocookie.com/embed/srGYbsugEPc?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" height="360" width="640" allowfullscreen="" frameborder="0"></iframe>-->
 		</div>
 		<div class="col-sm-6">
-			<h2  class="revealOnScroll">Thanks!</h2>
-			<p class="section--paragraph revealOnScroll">The event is made possible thanks to the generous donation of the location by the <a class="hyperlink" href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a class="hyperlink" href="https://nextcloud.com">Nextcloud GmbH</a>.</p>
-<!-- 			<p class="section--paragraph revealOnScroll"><a href="https://opensuse.org" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/opensuse.png" style="width: 45%" alt="openSUSE logo" class="aligncenter" /></a><a href="http://www.tu-berlin.de/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/tuberlin.png" style="width: 45%; margin: 2%;" alt="TUBerlin logo" class="aligncenter" /></a></p> -->
 			<h2  class="revealOnScroll">Questions, suggestions?</h2>
 			<p class="section--paragraph revealOnScroll">Ask! And tell others you will join the conference! Our official hashtag is <em>#nextcloudconf</em> - find us on <a class="hyperlink" title="Nextcloud on Twitter" href="https://twitter.com/nextclouders" target="_blank">Twitter</a>, <a class="hyperlink" title="Nextcloud on Facebook" href="https://www.facebook.com/nextclouders" target="_blank">Facebook</a> and <a class="hyperlink" title="Nextcloud on Google+" href="https://plus.google.com/b/104036748063781940910/104036748063781940910/about" target="_blank">Google+</a>. Find some <a class="hyperlink" href="https://github.com/nextcloud/promo/tree/master/Conference" target="_blank">promo materials here</a>.</p>
         </div>
