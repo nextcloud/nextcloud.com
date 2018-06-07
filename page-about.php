@@ -118,19 +118,70 @@ require(["require.config"], function() {
         <p class="section--paragraph"><?php echo $l->t('By January 2018, <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">after record growth in 2017</a>, Nextcloud had become the most sought-after Enterprise File Sync and Share solution <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">according to Google Trends</a> and was widely recognized as leading the on-premises Enterprise File Sync and Share industry.');?></p>
 
 		<p class="section--paragraph"><?php echo $l->t('You can follow what we are up to');?> <a class="hyperlink" href="<?php echo home_url('news') ?>"><?php echo $l->t('in our blogs</a> and subscribe to <a class="hyperlink" href="https://newsletter.nextcloud.com">our newsletter.</a>');?></p>
-
-		<h2><?php echo $l->t('From launch to today');?></h2>
-		<p class="section--paragraph"><?php echo $l->t('Our launch has been covered extensively in the media and we\'ve been interviewed, explaining the why, how and what behind our endeavor. In short, 12 developers, the majority of the engineering team, left ownCloud because we believed a better solution was possible for users, customers and fellow contributors. We see a business as an important part of the open source ecosystem around a project. Its role is to act as a catalyst, enabling individuals and businesses to grow and participate. It is in the nature of open source that a company failing to play this role can be replaced, protecting customers from vendor lock-in.');?></p>
-
-		<p class="section--paragraph"><?php echo $l->t('Subsequent events, including Nextcloud becoming the <a class="hyperlink" href="https://nextcloud.com/?p=1222">most active open source file sync and share project</a> backed by our <a class="hyperlink" href="https://nextcloud.com/?p=1343">healthy, profitable business</a> and the <a class="hyperlink" href="https://nextcloud.com/blog/join-our-hackathon-january-23-27/">hugely positive response to our Nextcloud 11 release</a>, have proven us right. With Nextcloud 12, we\'ve extended our technological lead and are charting new territory with');?> <a class="hyperlink" href="<?php echo home_url('globalscale') ?>">Global Scale</a>, <?php echo $l->t('a new architecture for near unlimited scalability. <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-13-brings-secure-file-sync-and-collaboration-to-the-next-level/">Nextcloud 13</a> continued our advantage over our competition with deeply integrated audio/video and chat communication and unique real time collaboration capabilities.');?></p>
 	</div>
 </section>
 
 <section class="section--videos">
 <div class="container">
     <div class="row">
-		<p class="section--paragraph"><?php echo $l->t('Watch the videos and interviews below to learn more about what happened.');?></p>
-		<div class="row newsrow">
+		<h2><?php echo $l->t('Media coverage');?></h2>
+		<p class="section--paragraph"><?php echo $l->t('We keep track of some of the mentions of Nextcloud in the press.');?></p>
+        <div class="row newsrow">
+            <div class="col-md-4">
+				<a class="hyperlink" href="https://www.itwire.com/technology-regulation/82947-cloud-vendor-nextcloud-offers-gdpr-compliance-kit.html" target="_blank" title="ITWire on the Nextcloud GDPR Compliance kit">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/itwire-gdpr.png" title="ITWire on the Nextcloud GDPR Compliance kit"/>
+				</a>
+			</div>
+            <div class="col-md-4">
+				<a class="hyperlink" href="https://www.cloudcomputing-insider.de/nextcloud-bietet-loesungen-fuer-dsgvo-a-718129/" target="_blank" title="Cloudcomputing-Insider on the Nextcloud GDPR Compliance kit">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/cci-gdpr.png" title="Cloudcomputing-Insider on the Nextcloud GDPR Compliance kit"/>
+				</a>
+			</div>
+            <div class="col-md-4">
+                <a class="hyperlink" href="https://www.techradar.com/news/german-government-goes-open-source-with-open-source-cloud-firm-nextcloud" target="_blank" title="Techradar Pro on German government going for Nextcloud">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/techradarpro.png" title="Techradar Pro on German government going for Nextcloud"/>
+				</a>
+			</div>
+            <div class="col-md-4">
+            <a class="hyperlink" href="http://www.spiegel.de/netzwelt/web/open-source-software-nextcloud-baut-die-bundescloud-a-1203261.html" target="_blank" title="Der Spiegel on German government going for Nextcloud">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/spiegel-gergov.png" title="Der Spiegel on German government going for Nextcloud"/>
+				</a>
+			</div>
+            <div class="col-md-4">
+            <a class="hyperlink" href="http://news.softpedia.com/news/meet-nextcloud-talk-world-s-first-self-hosted-encrypted-communication-platform-519344.shtml" target="_blank" title="Softpedia on Nextcloud Talk">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/softpedia-talk.png" title="Softpedia on Nextcloud Talk"/>
+				</a>
+			</div>
+            <div class="col-md-4">
+				<a class="hyperlink" href="http://windowsitpro.com/open-source/open-source-file-share-nextcloud-add-end-end-encryption" target="_blank" title="Windows IT Pro on End-to-end Encryption">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/itpro-endtoend.png" title="Windows IT Pro on End-to-end Encryption"/>
+				</a>
+			</div>
+            <div class="col-md-4">
+				<a class="hyperlink" href="https://tweakers.net/nieuws/130137/nextcloud-kondigt-end-to-endencryptie-aan.html" target="_blank" title="Tweakers on End-to-end Encryption">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/tweakers-e2e.png" title="Tweakers on End-to-end Encryption"/>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a class="hyperlink" href="Techreport on Global Scale" target="_blank" title="Techreport on Global Scale">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/tr-gs.png" title="Techreport on Global Scale"/>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a class="hyperlink" href="http://www.networkworld.com/article/3198415/open-source-tools/nextcloud-12-expands-data-storage-to-support-large-organizations.htmlorld.com/nextcloud-partners-with-moodle-and-4-other-partners-releases-nextcloud-education-edition-moodle-nextcloud/" target="_blank" title="Networkworld on Global Scale">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/nw-gs.png" title="Networkworld on Global Scale"/>
+				</a>
+			</div>
+            <div class="col-md-4">
+				<a class="hyperlink" href="http://www.moodleworld.com/nextcloud-partners-with-moodle-and-4-other-partners-releases-nextcloud-education-edition-moodle-nextcloud/" target="_blank" title="MoodleWorld on Education Edition">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/moodle-news-edu.png" title="MoodleWorld on Education Edition"/>
+				</a>
+			</div>
+            <div class="col-md-4">
+				<a class="hyperlink" href="https://www.zdnet.com/article/nextcloud-box-a-cloud-for-your-office-or-living-room/" target="_blank" title="ZDNet on the Nextcloud Box">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/zdnet-box.png" title="ZDNet on the Nextcloud Box"/>
+				</a>
+			</div>
 			<div class="col-md-4">
 				<a class="hyperlink" href="http://www.techrepublic.com/article/nextcloud-11-cloud-server-an-impressive-security-focused-update/" target="_blank" title="Techrepublic on Nextcloud 11">
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/techrepublic.png" title="Techrepublic on Nextcloud 11"/>
@@ -151,11 +202,11 @@ require(["require.config"], function() {
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/eweek.png" title="eWeek on the fork"/>
 				</a>
 			</div>
-			<div class="col-md-4">
+<!--			<div class="col-md-4">
 				<a class="hyperlink" href="http://www.zdnet.com/article/nextcloud-releases-owncloud-fork-ahead-of-schedule/" target="_blank" title="ZDNet on the fork">
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/ZDNet.png" title="ZDNet on the fork"/>
 				</a>
-			</div>
+			</div>-->
 			<div class="col-md-4">
 				<a class="hyperlink" href="http://thenewstack.io/story-behind-nextcloud/" target="_blank" title="TheNewStack on the fork">
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/thenewstack.png" title="TheNewStack on the fork"/>
@@ -166,11 +217,11 @@ require(["require.config"], function() {
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/fortune.png" target="_blank" title="Fortune on the fork"/>
 				</a>
 			</div>
-			<div class="col-md-4">
+<!--			<div class="col-md-4">
 				<a class="hyperlink" href="http://www.cio.com/article/3079866/open-source-tools/what-we-can-learn-from-ownclouds-collapse.html" target="_blank" title="CIO on the fork">
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/cio_logo.png" title="CIO on the fork"/>
 				</a>
-			</div>
+			</div>-->
 			<div class="col-md-4">
 				<a class="hyperlink" href="http://www.theregister.co.uk/2016/07/28/open_source_insider_open_source_forkery/" target="_blank" title="Fork You - the Register analysis">
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/TheRegister.png" title="Fork You - the Register analysis"/>
