@@ -446,7 +446,7 @@
 				<h2 class="teamname">Marino Faggiana</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">iOS client developer</h4>
+					<h4 class="teamexpertise">Apple iOS developer</h4>
 					<h4 class="teamlocation">lives in Vicenza, Italy</h4>
 					<p class="teamsocial"> <a href="https://github.com/marinofaggiana"><i class="fa-github fa"></i></a> <a href="https://twitter.com/marinofaggiana"><i class="fa-twitter fa"></i></a> <a href="https://www.linkedin.com/in/marino-faggiana-596569106/"><i class="fa-linkedin fa"></i></a></p>
 				</div>
