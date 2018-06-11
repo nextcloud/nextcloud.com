@@ -12,6 +12,22 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest13"></a>
+
+<h3 id="13-0-3">Version 13.0.4 <small>June 11 2018</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.4.tar.bz2">nextcloud-13.0.4.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.4.zip">nextcloud-13.0.4.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.4.tar.bz2.md5">nextcloud-13.0.4.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.4.zip.md5">nextcloud-13.0.4.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.4.tar.bz2.sha256">nextcloud-13.0.4.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.4.zip.sha256">nextcloud-13.0.4.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.4.tar.bz2.sha512">nextcloud-13.0.4.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.4.zip.sha512">nextcloud-13.0.4.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.4.tar.bz2.asc">nextcloud-13.0.4.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.4.zip.asc">nextcloud-13.0.4.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+<li><a href="https://github.com/nextcloud/server/pull/9788">Allow setting notify credentials in environment (server#9788)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9803">Make the token expiration also work for autocasting 0 (server#9803)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9820">Enable caldav for webdav subtree public-calendars (server#9820)</a></li>
+</ul>
+
 <h3 id="13-0-3">Version 13.0.3 <small>June 7 2018</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.3.tar.bz2">nextcloud-13.0.3.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.3.zip">nextcloud-13.0.3.zip</a></br>
 Check the file integrity with:</br>
@@ -283,6 +299,19 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
 
 <a name="latest12"></a>
+
+<h4 id="12-0-9">Version 12.0.9 <small>June 11 2018</small></h4>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.9.tar.bz2">nextcloud-12.0.9.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.9.zip">nextcloud-12.0.9.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.9.tar.bz2.md5">nextcloud-12.0.9.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.9.zip.md5">nextcloud-12.0.9.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.9.tar.bz2.sha256">nextcloud-12.0.9.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.9.zip.sha256">nextcloud-12.0.9.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.9.tar.bz2.sha512">nextcloud-12.0.9.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.9.zip.sha512">nextcloud-12.0.9.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.9.tar.bz2.asc">nextcloud-12.0.9.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.9zip.asc">nextcloud-12.0.9.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+<li><a href="https://github.com/nextcloud/server/pull/9804">Make the token expiration also work for autocasting 0 (server#9804)</a></li>
+</ul>
 
 <h4 id="12-0-8">Version 12.0.8 <small>June 7 2018</small></h4>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.8.tar.bz2">nextcloud-12.0.8.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.8.zip">nextcloud-12.0.8.zip</a></br>
