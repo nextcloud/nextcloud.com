@@ -1,27 +1,42 @@
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
-.section--vertical {
-  margin: 0 0 0 0;
-  padding: 90px 70px 70px 70px;
-  background-color: #eee; }
-  .section--vertical .row {
-    margin-bottom: 10px; }
-  .section--vertical img {
-    padding: 20px; }
-  .section--vertical .description {
-    min-height: 100px; }
-  .section--vertical .button--blue {
-    text-decoration: none;
-    color: #0082c9;
-    background-color: transparent;
-    border: solid 1px #0082c9; }
-  .section--vertical .button--blue:hover {
-    text-decoration: none;
-    color: white;
-    background-color: #0082c9; }
-  .section--vertical .button--small {
-    width: 100%;
-    max-width: 300px; }
+.section--compliance {
+  margin-top: 120px; }
+  .section--compliance .banner {
+    background-color: #0082c9;
+    position: relative;
+    overflow: hidden; }
+    .section--compliance .banner .col-md-6 {
+      padding: 40px 0; }
+    .section--compliance .banner li, .section--compliance .banner p, .section--compliance .banner h2, .section--compliance .banner h3 {
+      color: white; }
+    .section--compliance .banner .hyperlink {
+      color: white; }
+    .section--compliance .banner .row {
+      padding: 0px 0px; }
+    .section--compliance .banner .fa {
+      color: white;
+      padding-right: 10px; }
+    .section--compliance .banner .learnmore {
+      padding: 20px 0px; }
+      .section--compliance .banner .learnmore .col-sm-6 {
+        padding: 20px 0px; }
+    .section--compliance .banner .big-img {
+      position: absolute;
+      max-width: 70%;
+      height: 100%;
+      /*         top: 60px; */
+      margin-left: 30px; }
+    .section--compliance .banner .small-img {
+      position: absolute;
+      height: 100%;
+      margin-left: 30px; }
+    @media (max-width: 1600px) {
+      .section--compliance .banner .big-img {
+        display: none; } }
+    @media (min-width: 1600px) {
+      .section--compliance .banner .small-img {
+        display: none; } }
 
-/*# sourceMappingURL=vertical.css.map */
+/*# sourceMappingURL=compliance.css.map */
