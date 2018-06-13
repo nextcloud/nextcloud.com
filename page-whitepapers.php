@@ -129,6 +129,26 @@
 	<div class="row list">
 		<div class="col-md-3">
             <div class="row wpthumbnail">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/nwu-thumbnail-banner.png"/>
+            </div>
+            <div class="row">
+				<div class="description">
+					<p class="section--paragraph__tittle"><?php echo $l->t('North-West University Study');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('North-West University improves user storage mobility, collaboration and productivity with Nextcloud and Collabora Online.');?></p>
+                </div>
+                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                    <td colspan="2">
+                    <div class="recaptcha">
+                        <div id="RecaptchaField7"></div>
+                    </div>
+                    </td>
+                    <input type="hidden" name="segmentId" value="48">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                </form>
+			</div>
+		</div>
+		<div class="col-md-3">
+            <div class="row wpthumbnail">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/endtoend-thumbnail-banner.png"/>
             </div>
             <div class="row">
@@ -183,26 +203,6 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="4">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
-                </form>
-			</div>
-		</div>
-		<div class="col-md-3">
-            <div class="row wpthumbnail">
-                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/nwu-thumbnail-banner.png"/>
-            </div>
-            <div class="row">
-				<div class="description">
-					<p class="section--paragraph__tittle"><?php echo $l->t('North-West University Study');?></p>
-                    <p class="section--paragraph"><?php echo $l->t('North-West University improves user storage mobility, collaboration and productivity with Nextcloud and Collabora Online.');?></p>
-                </div>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
-                    <td colspan="2">
-                    <div class="recaptcha">
-                        <div id="RecaptchaField7"></div>
-                    </div>
-                    </td>
-                    <input type="hidden" name="segmentId" value="48">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
