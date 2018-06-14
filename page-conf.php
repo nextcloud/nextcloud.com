@@ -21,12 +21,12 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
-			<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017-2.jpg" alt="logo"/>
+			<img class="conf-img revealOnScroll" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017-2.jpg" alt="logo"/>
 <!-- 			<h2 class="revealOnScroll"></h2> -->
 			<p class="section--paragraph__tittle">August 23-30, Technical University Berlin</p>
 			<p class="section--paragraph">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
-			<p class="section--paragraph"><a href="https://eventyay.com/e/77d26f89/" class="btn btn-lg btn-primary">Register for free</a> <a href="https://eventyay.com/e/77d26f89/cfs/" class="btn btn-lg btn-primary">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p>
-<!-- 			<p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/77d26f89/" class="btn btn-lg btn-primary">Register for free</a> <a href="https://eventyay.com/e/77d26f89/cfs/" class="btn btn-lg btn-primary">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p> -->
+			<p class="section--paragraph"><a href="https://eventyay.com/e/77d26f89/" class="button button--arrow button--large button--blue">Register for free</a> <a href="https://eventyay.com/e/77d26f89/cfs/" class="button button--arrow button--large button--blue">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p>
+<!-- 			<p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/77d26f89/" class="button button--arrow button--large button--blue">Register for free</a> <a href="https://eventyay.com/e/77d26f89/cfs/" class="button button--arrow button--large button--blue">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p> -->
 <!-- 			<p class="section--paragraph revealOnScroll"><a href="https://nextcloud.com/blog/lightning-talks-and-workshops-at-the-nextcloud-conference/" class="hyperlink" >See the program</a></p> -->
 <!-- 			<p class="section--paragraph">Find <a class="hyperlink" href="<?php echo home_url('confinfo') ?>">practical information for visitors here</a></p> -->
 <!--             <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p> -->
@@ -38,7 +38,7 @@
 <section class="section--speakers" style="background: url('/wp-content/themes/next/assets/img/conference/keynotespeakers.jpg');height:500px;background-size:cover;background-position: center;">
     <div class="container">
         <div class="row">
-            <h1 class="text-center" style="text-shadow: 0px 0px 7px #000; color: white; margin-top:300px;">inspiring keynotes</h1>
+            <h1 class="text-center" style="text-shadow: 0px 0px 7px #000; color: white; margin-top:300px;">Inspiring keynotes</h1>
         </div>
     </div>
 </section>
@@ -86,7 +86,7 @@
 <section class="section--speakers" style="background: url('/wp-content/themes/next/assets/img/conference/communityspeakers.jpg');height:500px;background-size:cover;background-position: center;">
     <div class="container">
         <div class="row">
-            <h1 class="text-center" style="text-shadow: 0px 0px 7px #000; color: white; margin-top:300px;">share your own ideas</h1>
+            <h1 class="text-center" style="text-shadow: 0px 0px 7px #000; color: white; margin-top:300px;">Share your own ideas</h1>
         </div>
     </div>
 </section>
@@ -119,7 +119,7 @@
 <div class="container">
     <div class="row revealOnScroll">
         <div class="col-md-8 col-md-offset-2">
-            <p class="section--paragraph revealOnScroll text-center"><a href="http://www.tu-berlin.de/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/diversity-tickets.png" alt="Diversity tickets logo" class="aligncenter img-responsive" /></a></p>
+            <p class="section--paragraph revealOnScroll text-center"><a href="https://diversitytickets.org/events/182" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/diversity-tickets.png" alt="Diversity tickets logo" class="aligncenter img-responsive" /></a></p>
         </div>
     </div>
     <div class="row revealOnScroll">
@@ -127,8 +127,11 @@
             <p class="section--paragraph revealOnScroll text-center">Nextcloud is committed to support diversity and will provide support to people of underrepresented groups in tech. This includes people who belong to one or more of the following groups: women, people of color, nonbinary & gender non-conforming people, people with disabilities, and LGBTQIA+ people.</p>
         </div>
     </div>
-    <div class="row revealOnScroll text-center">
-        <a href="https://github.com/nextcloud/server/wiki/Diversity-Tickets" class="btn btn-lg btn-primary text-center">Learn more</a>
+    <div class="row revealOnScroll">
+        <div class="col-md-8 col-md-offset-2">
+            <p class="section--paragraph revealOnScroll text-center">See our event on Diversity Tickets, specifically section "Directions for Applicants", for how to apply via mail.</p>
+            <p class="text-center"><a href="https://diversitytickets.org/events/182" class="button button--arrow button--large button--blue text-center">Apply for support</a></p>
+            </div>
         </div>
     </div>
 </div>
@@ -154,7 +157,7 @@
             <p class="section--paragraph revealOnScroll text-center"><a href="http://www.admin-magazine.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/AdminMagazine.png" alt="Admin mag logo" class="aligncenter img-responsive" /></a></p>
         </div>
         <div class="col-md-4">
-            <p class="section--paragraph revealOnScroll text-center"><a href="http://www.linuxpromagazine.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxMagazin.png" alt="LinuxMagazin logo" class="aligncenter img-responsive" /></a></p>
+            <p class="section--paragraph revealOnScroll text-center"><a href="http://www.linux-magazine.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxMagazine.png" alt="LinuxMagazin logo" class="aligncenter img-responsive" /></a></p>
         </div>
     </div>
     <div class="row">
