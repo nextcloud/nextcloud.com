@@ -27,6 +27,7 @@ require(["require.config"], function() {
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud offers industry-leading on-premises file sync and online collaboration technology. Our expertise is in combining the convenience and ease of use of consumer-grade solutions like Dropbox and Google Drive with the security, privacy and control business needs.');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Our self-hosted solutions ensure you know where data is, who has access, and that even meta-data does not leak.');?></p>
             </div>
         </div>
     </div>
