@@ -33,6 +33,33 @@
 				</div>
 			</div>
 		</div>
+    </div>
+</section>
+<section class="section--whitepaper quote">
+	<div class="container revealOnScroll">
+        <div class="row">
+			<div class="col-lg-8">
+                <h2 class="revealOnScroll"><?php echo $l->t('North-West University<br/> Case Study');?></h2>
+                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                    <p><label for="email"><?php echo $l->t('Get the free case study:');?><br>
+                    <?php echo $l->t('North-West University improves user storage mobility, collaboration and productivity with Nextcloud and Collabora Online.');?><br>
+                    <td colspan="2" style="text-align:center">
+                    <div class="">
+                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                    </div>
+                    </td>
+                    <input type="hidden" name="segmentId" value="48">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large" type="submit" value=" Get the case study "></p>
+                </form>
+            </div>
+        </div>
+        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/nwu-thumbnail-banner.png"/>
+	</div>
+</section>
+
+
+<section class="collabora-online">
+	<div class="container">
 		<div class="featurerow">
 			<div class="row">
 <!-- 				</div> -->
@@ -41,13 +68,13 @@
 					<p class="section--paragraph"><?php echo $l->t('Collabora Online supports editing your documents in real time with multiple other editors, showing high fidelity, WYSIWYG rendering and preserving the layout and formatting of your documents.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Users can insert and reply to comments and invite others without a Nextcloud account for anonymous editing of files with a public link shared folder.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Collabora Online supports dozens of document formats including <strong>DOC</strong>, <strong>DOCX</strong>, <strong>PPT</strong>, <strong>PPTX</strong>, <strong>XLS</strong>, <strong>XLSX + ODF</strong>, <strong>Import/View Visio</strong>, <strong>Publisher</strong> and many more...');?></p>
-					<p class="section--paragraph"><?php echo $l->t('Collabora Online Development Edition (CODE) is free and under heavy development, adding features and improvements all the time! Enterprise users have access to the more stable, scalable Collabora Online Enterprise version through a Nextcloud support subscription.');?></p>
 				</div>
 				<div class="col-md-6 revealOnScroll">
 					<div data-type="youtube" data-video-id="8iuSFKVl-xQ"></div>
 					<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/8iuSFKVl-xQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 			</div>
+			<p class="section--paragraph"><?php echo $l->t('Collabora Online Development Edition (CODE) is free and under heavy development, adding features and improvements all the time! Enterprise users have access to the more stable, scalable Collabora Online Enterprise version through a Nextcloud support subscription.');?></p>
 		</div>
 
 		<div class="featurerow">
