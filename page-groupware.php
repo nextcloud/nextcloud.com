@@ -17,7 +17,7 @@
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 <!-- 			<p class="section--paragraph text-center"><?php echo $l->t('Modern organizations rely on always-available access to communication and planning through browser and mobile applications to improve productivity in their teams.');?></p> -->
-			<p class="section--paragraph text-center"><?php echo $l->t('Nextcloud Groupware offers easy-to-use web mail, calendaring and contacts that helps your team get things done quicker and easier.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Nextcloud Groupware offers easy-to-use web mail, calendaring and contacts that helps your team get things done quicker and easier, integrated with Nextcloud Files.');?></p>
 		</div>
 	</div>
 </div>
