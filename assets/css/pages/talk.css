@@ -2361,6 +2361,9 @@ section {
 .featuretitle {
   text-align: center; }
 
+@media (max-width: 768px) {
+  .section--benefits {
+    text-align: center; } }
 .section--benefits i[class*='fa-'] {
   font-size: 40px;
   display: block;
@@ -2372,6 +2375,10 @@ section {
   margin-right: auto; }
 .section--benefits .icon {
   max-width: 120px; }
+  @media (max-width: 768px) {
+    .section--benefits .icon {
+      margin-left: auto;
+      margin-right: auto; } }
 .section--benefits .scaling-svg-container {
   height: 0;
   width: 100%;
@@ -2440,6 +2447,57 @@ section {
         margin-bottom: 50px; }
 
 /* end section */
+.section--getmobile {
+  margin-top: 80px; }
+  .section--getmobile .banner {
+    height: 600px;
+    background-color: #0082c9;
+    position: relative;
+    overflow: hidden; }
+    .section--getmobile .banner .img-responsive {
+      margin: auto; }
+    .section--getmobile .banner .col-md-8 {
+      padding: 80px 0; }
+    .section--getmobile .banner li, .section--getmobile .banner p, .section--getmobile .banner h2, .section--getmobile .banner h3 {
+      color: white; }
+    .section--getmobile .banner .hyperlink {
+      color: white; }
+    .section--getmobile .banner .row {
+      padding-top: 30px; }
+    .section--getmobile .banner .big-img {
+      position: absolute;
+      max-width: 70%;
+      height: 100%;
+      top: 0px;
+      left: 50px; }
+    .section--getmobile .banner .small-img {
+      position: absolute;
+      top: 0px;
+      height: 100%; }
+    @media (max-width: 1600px) {
+      .section--getmobile .banner {
+        height: 400px; }
+        .section--getmobile .banner .big-img {
+          display: none; }
+        .section--getmobile .banner .col-md-8 {
+          padding: 30px 0; } }
+    @media (max-width: 991px) {
+      .section--getmobile .banner {
+        height: 650px; }
+        .section--getmobile .banner .big-img {
+          display: none; }
+        .section--getmobile .banner .small-img {
+          height: 75%;
+          top: 150px;
+          left: 20px; }
+        .section--getmobile .banner .col-md-8 {
+          padding: 20px 0; }
+        .section--getmobile .banner .mobileclientbuttons {
+          margin-left: 50%; } }
+    @media (min-width: 1600px) {
+      .section--getmobile .banner .small-img {
+        display: none; } }
+
 footer {
   margin-top: 0px; }
 
