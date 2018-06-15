@@ -223,7 +223,27 @@ require(["require.config"], function() {
     </div>
 </section>
 
-<div class="separator"></div>
+<section class="section--whitepaper quote">
+	<div class="container revealOnScroll">
+        <div class="row">
+			<div class="col-lg-8">
+                <h2 class="revealOnScroll"><?php echo $l->t('North-West University<br/> Case Study');?></h2>
+                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                    <p><label for="email"><?php echo $l->t('North-West University improves user storage mobility, collaboration and productivity with Nextcloud and Collabora Online.');?><br>
+                    <td colspan="2" style="text-align:center">
+                    <div class="">
+                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                    </div>
+                    </td>
+                    <input type="hidden" name="segmentId" value="48">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large" type="submit" value=" Get the case study "></p>
+                </form>
+            </div>
+        </div>
+        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/nwu-thumbnail-banner.png"/>
+	</div>
+</section>
+
 <a name="scalability"></a>
 <section class="section--scalability">
 <div class="container">
