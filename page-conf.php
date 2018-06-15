@@ -119,7 +119,7 @@
 <div class="container">
     <div class="row revealOnScroll">
         <div class="col-md-8 col-md-offset-2">
-            <p class="section--paragraph revealOnScroll text-center"><a href="https://diversitytickets.org/events/182" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/diversity-tickets.png" alt="Diversity tickets logo" class="aligncenter img-responsive" /></a></p>
+            <h2 class="section--paragraph--header revealOnScroll text-center"><a href="https://diversitytickets.org/events/182" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/diversitytickets.svg" alt="Diversity tickets logo" class="aligncenter" /></a> Diversity Tickets</h2>
         </div>
     </div>
     <div class="row revealOnScroll">
@@ -129,8 +129,8 @@
     </div>
     <div class="row revealOnScroll">
         <div class="col-md-8 col-md-offset-2">
-            <p class="section--paragraph revealOnScroll text-center">See our event on Diversity Tickets, specifically section "Directions for Applicants", for how to apply via mail.</p>
-            <p class="text-center"><a href="https://diversitytickets.org/events/182" class="button button--arrow button--large button--blue text-center">Apply for support</a></p>
+            <p class="section--paragraph revealOnScroll text-center">The event is free and provides catered lunch. We will provide up to 80% support of travel & accomodation costs during the event to people who have contributed to Nextcloud in one way or another. For instance, you can <a class="hyperlink" href="https://github.com/nextcloud/server/labels/good%20first%20issue">solve a good first issue</a>, <a class="hyperlink" href="https://nextcloud.com/design/">work on the design</a>, <a class="hyperlink" href="https://www.meetup.com/topics/nextcloud/">organize a local Nextcloud meetup</a>, <a class="hyperlink" href="https://nextcloud.com/contribute/">or contribute in other ways</a>.</p>
+            <p class="text-center"><a href="mailto:events@nextcloud.com?subject=%5BDiversity%20ticket%5D%20YOUR%20NAME&body=Link%20to%20your%20contribution" class="button button--arrow button--large button--blue text-center">Apply for support</a></p>
             </div>
         </div>
     </div>
