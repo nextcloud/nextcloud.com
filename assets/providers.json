@@ -808,23 +808,6 @@
          "imagename":"openitstore.png"
       },
     {
-         "title":"Full Tech Solutions SH",
-         "url":"https:\/\/www.fulltech.com.ar",
-         "flags":[
-            "ar",
-            "us",
-            "nl",
-            "fr",
-            "de"
-         ],
-         "freeplans":false,
-         "supports":"both",
-         "specializes":[
-            "Web Hosting Argentina, planes de alojamiento para sitios desde solo u$s 2,76. Registro de Dominios, Hosting Revendedor, Servidores Dedicados & VPS"
-         ],
-         "imagename":"fulltechsolutions.png"
-      },
-    {
          "title":"Kaster Development",
          "url":"https:\/\/kaster-development.de\/hosting\/cloud-hosting\/",
          "flags":[
