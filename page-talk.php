@@ -176,7 +176,7 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Designed for you');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is a fully self hosted, on-premises audio/video and chat communication service. It features web and mobile apps and is designed to offer the highest degree of security while being easy to use.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is a fully self hosted, self-hosted audio/video and chat communication service. It features web and mobile apps and is designed to offer the highest degree of security while being easy to use.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk lowers the barrier for communication and lets your team connect any time, any where, on any device, with each other, customers or partners.');?></p>
 			<!--<p class="section--paragraph"><?php echo $l->t('While Nextcloud Talk is free, the optional Spreed High Performance Back-end offers enterprise class scalability, reliability and features.');?></p>-->
 		</div>

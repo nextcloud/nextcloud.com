@@ -142,7 +142,7 @@
 		<div class="col-md-6 revealOnScroll">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/permissions.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Ultimate security');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('Choosing an on-premises product means you can guarantee your customers that data never leaves your company and remains 100% confidential.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Choosing a self-hosted product means you can guarantee your customers that data never leaves your company and remains 100% confidential.');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Powerful server and client side encryption options provide ultimate protection for sensitive documents.');?></p>
 		</div>
 		<div class="col-md-6 revealOnScroll">
@@ -157,7 +157,7 @@
 
 <section class="section--on-premise">
 <div class="container">
-	<h2 class="section--heading-1 revealOnScroll text-center"><?php echo $l->t('Why on-premises?');?></h2>
+	<h2 class="section--heading-1 revealOnScroll text-center"><?php echo $l->t('Why self hosting?');?></h2>
 	<div class="row">
 		<div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('You need 100% certainty');?></p>
