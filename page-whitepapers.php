@@ -134,7 +134,7 @@
             <div class="row">
 				<div class="description">
 					<p class="section--paragraph__tittle"><?php echo $l->t('North-West University Study');?></p>
-                    <p class="section--paragraph"><?php echo $l->t('North-West University improves user storage mobility, collaboration and productivity with Nextcloud and Collabora Online.');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('The North-West University of South Africa improves user storage mobility, collaboration and productivity with Nextcloud and Collabora Online.');?></p>
                 </div>
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">

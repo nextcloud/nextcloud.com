@@ -227,9 +227,9 @@ require(["require.config"], function() {
 	<div class="container revealOnScroll">
         <div class="row">
 			<div class="col-lg-8">
-                <h2 class="revealOnScroll"><?php echo $l->t('North-West University<br/> Case Study');?></h2>
+                <h2 class="revealOnScroll"><?php echo $l->t('Case Study: North-West University');?></h2>
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
-                    <p><label for="email"><?php echo $l->t('North-West University improves user storage mobility, collaboration and productivity with Nextcloud and Collabora Online.');?><br>
+                    <p><label for="email"><?php echo $l->t('The North-West University from South Africa improves user storage mobility,<br /> collaboration and productivity with Nextcloud and Collabora Online.');?><br>
                     <td colspan="2" style="text-align:center">
                     <div class="">
                         <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>

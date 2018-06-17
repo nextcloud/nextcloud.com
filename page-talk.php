@@ -35,8 +35,8 @@
         <div class="col-md-6 revealOnScroll">
             <p class="section--paragraph__tittle"><?php echo $l->t('Unique protection');?></p>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud Talk goes further than other encrypted communication technologies by keeping metadata private.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('While public solutions like Whatsapp or Telegram might encrypt content, they and whomever monitors them still can see who you communicated with and when. With Nextcloud Talk meta data never leaves your server.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('This ensures you stay in complete control over the communication.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('While public solutions like Whatsapp or Telegram might encrypt content, they and whomever monitors them still can see who you communicate with and when. With Nextcloud Talk meta data never leaves your server.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('This ensures you stay in complete control of communications.');?></p>
 		</div>
 	</div>
 </div>
@@ -51,7 +51,7 @@
                 <p class="section--paragraph">
                 <ul>
                     <li><?php echo $l->t('Fully on-premise, 100% open source');?></li>
-                    <li><?php echo $l->t('Self-hosted so no leaking of meta-data');?></li>
+                    <li><?php echo $l->t('Self-hosted so no leaking of metadata');?></li>
                     <li><?php echo $l->t('Encrypted, peer-to-peer audio/video calls');?></li>
                     <li><?php echo $l->t('WebRTC for cross-platform support');?></li>
                 </ul></p>
