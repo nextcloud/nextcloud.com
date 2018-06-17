@@ -22,7 +22,7 @@
 <div class="second-menu">
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
-			<a href="#on-prem"><span class="avoidwrap"><?php echo $l->t('On-premises');?></span></a>
+			<a href="#on-prem"><span class="avoidwrap"><?php echo $l->t('Self hosting');?></span></a>
 			<a href="#security"><span class="avoidwrap"><?php echo $l->t('Security');?></span></a>
 			<a href="#send"><span class="avoidwrap"><?php echo $l->t('File exchange');?></span></a>
 			<a href="#clients"><span class="avoidwrap"><?php echo $l->t('Clients');?></span></a>
@@ -41,7 +41,7 @@
 		<div class="col-md-6 revealOnScroll feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('An Enterprise File Sync and Share solution that keeps data under control.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Your employees need to have easy access to their files, photos and documents to work and share with team members, customers and partners. And IT needs to know nobody besides those they shared with has access to those files.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud Files is an on-premises, open source file sync and share solution designed to be easy-to-use and highly secure.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud Files is a self-hosted, open source file sync and share solution designed to be easy-to-use and highly secure.');?></p>
 			<a href="<?php echo home_url('pricing') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Pricing');?></a>
 		</div>
 	</div>
@@ -59,7 +59,7 @@
 		<div class="col-md-4 revealOnScroll">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/permissions.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Ultimate security');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('An open source, on-premises product. Powerful on-server and End-to-end Encryption.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('An open source, self-hosted product. Powerful on-server and End-to-end Encryption.');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Files are stored inside your company infrastructure, without any third party ever gaining access.');?></p>
 		</div>
 		<div class="col-md-4 revealOnScroll">
@@ -151,7 +151,7 @@
 
 <section class="section--on-premise">
 <div class="container">
-	<h2 class="section--heading-1 revealOnScroll text-center"><?php echo $l->t('Why on-premises?');?></h2>
+	<h2 class="section--heading-1 revealOnScroll text-center"><?php echo $l->t('Why self hosting?');?></h2>
 	<div class="row">
 		<div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('Users need collaboration');?></p>
