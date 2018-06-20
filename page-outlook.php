@@ -86,6 +86,7 @@
         </div>
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Two versions of the Outlook Add-in: Free and Enterprise.');?></p>
                 <table class="table">
                     <thead>
                         <tr>
