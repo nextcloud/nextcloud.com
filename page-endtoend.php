@@ -38,7 +38,7 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             <p class="section--paragraph">
-                <?php echo $l->t('Nextcloud features an enterprise-grade, seamlessly integrated solution for end-to-end encryption. Currently in proof-of-concept phase and scheduled to be part of Nextcloud 13, it enables users to pick one or more folders on their desktop or mobile client for end-to-end encryption. Folders can be shared with other users and synced between devices but are not readable by the server.');?>
+                <?php echo $l->t('Nextcloud features an enterprise-grade, seamlessly integrated solution for end-to-end encryption. Currently in testing phase with Nextcloud 13 and planned to be stable in Nextcloud 14, it enables users to pick one or more folders on their desktop or mobile client for end-to-end encryption. Folders can be shared with other users and synced between devices but are not readable by the server.');?>
             </p>
         </div>
     </div>
