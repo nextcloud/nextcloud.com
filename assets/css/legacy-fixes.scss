@@ -17,6 +17,11 @@ footer p {
   border-color: white;
 }
 
+.collapse.in p:first-child,
+.collapsing p:first-child {
+  margin: 0;
+}
+
 .Header-Navigation .navbar .overlay-menu ul .btn-primary a {
 /*   width: 169px; */
 /*   height: 52px; */
