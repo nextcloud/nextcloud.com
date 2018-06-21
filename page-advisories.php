@@ -14,19 +14,7 @@
 <div class="row" style="
     margin-top: 20px;
 ">
-	<div class="col-md-4">
-		<h2><?php
- echo $l->t('Nextcloud Server');?></h2><br>
-		<?php get_template_part('advisories/server-list-part');?>
-	</div>
-	<div class="col-md-4">
-		<h2><?php
- echo $l->t('Desktop Clients');?></h2><br>
-                <?php get_template_part('advisories/desktop-list-part');?>
-	</div>
-	<div class="col-md-4">
-		<h2><?php
- echo $l->t('Mobile Clients');?></h2><br>
-                <?php get_template_part('advisories/mobile-list-part');?>
+	<div class="col-md-12">
+		<?php get_template_part('advisories/full-list');?>
 	</div>
 </div>
