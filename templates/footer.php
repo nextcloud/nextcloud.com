@@ -12,7 +12,8 @@ $l = new L10N('footer');
 </div>
 
 <script>
-	document.querySelector(".alert--no-js").remove();
+    // IE does not support the remove method
+	document.body.removeChild(document.querySelector(".alert--no-js"));
 </script>
 
 <div class="cookiewarning" id="cookieConsent">

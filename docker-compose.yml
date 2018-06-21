@@ -4,6 +4,7 @@ services:
     build: .
     links:
       - mysql
+      - redis
     environment:
       - WORDPRESS_DB_PASSWORD=password
       - WP_DEBUG=false
@@ -20,3 +21,8 @@ services:
     environment:
     - MYSQL_ROOT_PASSWORD=password
     - MYSQL_DATABASE=nextcloud
+
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
