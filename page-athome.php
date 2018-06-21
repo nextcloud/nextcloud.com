@@ -47,6 +47,7 @@
 </section>
 
 <section class="section--on-premise">
+    <a name="selfhosting" id="selfhosting"></a>
 <div class="container">
 	<h2 class="section--heading-1 revealOnScroll text-center"><?php echo $l->t('Why self-hosting?');?></h2>
 	<div class="row">
