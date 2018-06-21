@@ -6,19 +6,19 @@
 </div>
 <div class="row">
     <div class="col-md-12">
-        <h2>Calendar and addressbook names disclosed (NC-SA-2017-012)</h2>
-        <p>8th May 2017</p>
+        <h2>File access control rules not applied to image previews (NC-SA-2018-002)</h2>
+        <p>21st June 2018</p>
         <p>Risk level: <strong>Low</strong></p>
         <p>CVSS v3 Base Score: 3.5 (<a href="https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N">AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N</a>)</p>
-        <p>CWE: <a href="https://cwe.mitre.org/data/definitions/548.html">Information Exposure Through Directory Listing (CWE-548)</a></p>
-        <p>HackerOne report: <a href="https://hackerone.com/reports/203594">203594</a></p>
+        <p>CWE: <a href="https://cwe.mitre.org/data/definitions/273.html">Improper Check for Dropped Privileges (CWE-273)</a></p>
+        <p>HackerOne report: <a href="https://hackerone.com/reports/358339">358339</a></p>
         <h3>Description</h3>
-        <p><p>A logical error caused disclosure of calendar and addressbook names to other logged-in users. Note that no actual content of the calendar and adressbook has been disclosed.</p>
+        <p><p>A missing check for read permissions allowed users that received an incomming share containing files tagged so they should be denied access to still request a preview for those files.</p>
 </p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>11.0.2</strong> (CVE-2017-0895)</li>
-<li>Nextcloud Server &lt; <strong>10.0.4</strong> (CVE-2017-0895)</li>
+            <li>Nextcloud Server &lt; <strong>13.0.3</strong> (CVE-2018-3762)</li>
+<li>Nextcloud Server &lt; <strong>12.0.8</strong> (CVE-2018-3762)</li>
 
         </ul>
         <h3>Action Taken</h3>
@@ -27,7 +27,7 @@
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
-            <li><a href="https://juliushaertl.de" target="_blank" rel="noreferrer">Julius Härtl - Vulnerability discovery and disclosure.</a></li>
+            <li>Reinis Martinsons (reinis.martinsons@gmail.com) - Vulnerability discovery and disclosure.</li>
         </ul>
         <br/>
         <small style="color:grey">This advisory is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</small>

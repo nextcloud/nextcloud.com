@@ -5,10 +5,7 @@
 </div>
 </div>
 <div class="row">
-    <div class="col-md-4">
-        <?php get_template_part('advisories/advisory-side'); ?>
-    </div>
-    <div class="col-md-8">
+    <div class="col-md-12">
         <h2>Permission increase on re-sharing via OCS API (NC-SA-2017-001)</h2>
         <p>5th February 2017</p>
         <p>Risk level: <strong>Medium</strong></p>

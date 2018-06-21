@@ -5,10 +5,7 @@
 </div>
 </div>
 <div class="row">
-    <div class="col-md-4">
-        <?php get_template_part('advisories/advisory-side'); ?>
-    </div>
-    <div class="col-md-8">
+    <div class="col-md-12">
         <h2>Share tokens for public calendars disclosed (NC-SA-2017-011)</h2>
         <p>8th May 2017</p>
         <p>Risk level: <strong>Medium</strong></p>

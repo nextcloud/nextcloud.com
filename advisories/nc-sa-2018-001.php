@@ -5,10 +5,7 @@
 </div>
 </div>
 <div class="row">
-    <div class="col-md-4">
-        <?php get_template_part('advisories/advisory-side'); ?>
-    </div>
-    <div class="col-md-8">
+    <div class="col-md-12">
         <h2>App password scope can be changed for other users (NC-SA-2018-001)</h2>
         <p>7th February 2018</p>
         <p>Risk level: <strong>Low</strong></p>
