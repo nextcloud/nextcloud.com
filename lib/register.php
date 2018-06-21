@@ -1,10 +1,11 @@
 <?php
 
 require_once realpath(dirname(__FILE__)) . '/../vendor/autoload.php';
+require_once realpath(dirname(__FILE__)) . '/../config.php';
 
 add_action('rest_api_init', 'registration_register_routes');
 
-$redis = new Predis\Client();
+$redis = new Predis\Client(REDIS);
 
 // Get proper ip in case of reverse proxy
 function whatismyip()
@@ -82,7 +83,7 @@ function request_account($request)
     $newsletter = array_key_exists('newsletter', $request) ? true : false;
 
     // get providers list && check provider id
-    $json = json_decode(file_get_contents(realpath(dirname(__FILE__)) . '/../assets/preferred.json'));
+    $json = json_decode(file_get_contents(PROVIDERS_FILE));
     if (!array_key_exists($providerId, $json)) {
         return new WP_Error('rest_invalid_param', 'Invalid parameter(s)', array('status' => 400));
     }
@@ -116,7 +117,7 @@ function request_account($request)
         return new WP_Error('rest_invalid_param', 'An unknown error occured', array('status' => 400));
     }
 
-    if (array_key_exists('ocsapi', $request)) {
+    if (array_key_exists('ocsapi', $request) && $request['ocsapi'] === true) {
         return $response->setPassword . '/ocs';
     }
     return $response->setPassword;
@@ -125,7 +126,7 @@ function request_account($request)
 function get_providers_list()
 {
     // get providers list
-    $json = json_decode(file_get_contents(realpath(dirname(__FILE__)) . '/../assets/preferred.json'));
+    $json = json_decode(file_get_contents(PROVIDERS_FILE));
 
     // obfuscate keys
     foreach ($json as $provider) {

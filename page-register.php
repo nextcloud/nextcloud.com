@@ -7,15 +7,17 @@
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/register.css" rel="stylesheet">
 </head>
 <?php
-require_once 'vendor/autoload.php';
+include __DIR__ . '/vendor/autoload.php';
+include __DIR__ . '/config.php';
 use GeoIp2\Database\Reader;
+
 $reader = new Reader(realpath(dirname(__FILE__)) . '/assets/GeoLite2-City/GeoLite2-City.mmdb');
 
 // Replace "city" with the appropriate method for your database, e.g.,
 // "country".
 try {
 	$location = $location = $reader->city(whatismyip())->location;
-} catch(Exception $e) {
+} catch (Exception $e) {
 	$location = false;
 }
 ?>
@@ -53,10 +55,10 @@ try {
 <div class="container">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <p class="section--paragraph text-center"><?php echo $l->t('NOTE: While we have done our best in choosing quality providers, we can not take any responsibility for their services.<br><a class="hyperlink" href="https://help.nextcloud.com/c/hosting">Your feedback is welcome.</a>');?></p>
-            <p class="section--paragraph text-center"><?php echo $l->t('By proceeding, you agree with our privacy policy. In short, we only handle the minimum amount of user data for the purpose of enabling the provider to create a minimal account and do not store any personally identifiable data.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('NOTE: While we have done our best in choosing quality providers, we can not take any responsibility for their services.<br><a class="hyperlink" href="https://help.nextcloud.com/c/hosting">Your feedback is welcome.</a>'); ?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('By proceeding, you agree with our privacy policy. In short, we only handle the minimum amount of user data for the purpose of enabling the provider to create a minimal account and do not store any personally identifiable data.'); ?></p>
             <div class="text-center">
-            <a href="<?php echo home_url('privacy') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Our privacy policy');?></a>
+            <a href="<?php echo home_url('privacy') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Our privacy policy'); ?></a>
             </div>
         </div>
     </div>
