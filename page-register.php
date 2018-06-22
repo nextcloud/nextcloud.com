@@ -25,23 +25,24 @@ try {
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Your choice'); ?></h1>
-				<h2><?php echo $l->t('pick a trusted provider and sign up!'); ?></h2>
-                <h3>This page is in testing. If you got here by accident, move along, nothing to see!</h3>
+				<h1><?php echo $l->t('Your choice');?></h1>
+				<h2><?php echo $l->t('To help you decide where to store your data, Nextcloud maintains a list of preferred providers.');?></h2>
+                <h2><?php echo $l->t('Sign up now and get a 1-year free, 5GB storage account!');?></h2>
+<!--                 <h3>This page is in testing. If you got here by accident, move along, nothing to see!</h3> -->
 			</div>
 		</div>
 	</div>
 </div>
-<section class="section--intro">
+<!--<section class="section--intro">
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <p class="section--paragraph text-center"><?php echo $l->t('To help you decide where to store your data, Nextcloud maintains a list of preferred providers.'); ?></p>
-            <p class="section--paragraph text-center"><?php echo $l->t('Sign up now and get a 1-year free, 5GB storage account!'); ?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('');?></p>
+            <p class="section--paragraph text-center"></p>
         </div>
     </div>
 </div>
-</section>
+</section>-->
 <section class="section--providers">
   <div id="register" class="container"
   	   data-ll="<?php echo htmlspecialchars(json_encode($location)) ?>"
