@@ -87,3 +87,61 @@ section {
 
     }
 }
+.section--differentiators {
+	.quote--container {
+		display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 40px 30px 40px ;
+      background: #FFFFFF;
+      border: 1px solid #FCFCFC;
+      -webkit-box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
+      box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
+	  margin: 30px 20px;
+		@media (min-width: $break-big) {
+			float: right;
+			width: 40%;
+			min-width: 300px;
+		}
+
+      blockquote {
+          font-style: italic;
+          font-size: 1.6em;
+          margin: 0;
+      }
+
+      .quote--brand {
+          padding-top: 5px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .quote--brand--logo {
+              background: url("../../img/conference/der-spiegel-logo.png") no-repeat center/contain;
+              width: 46px;
+              height: 46px;
+          }
+
+          .quote--brand--text a {
+              margin: 0;
+              padding: 0 0 0 10px;
+              font-weight: 600;
+              text-transform: uppercase;
+              font-size: 15px;
+              color: $medium-grey;
+          }
+      }
+  }
+}
+
+
+.img-responsive {
+    padding-top: 10px;
+    @media (min-width: $break-big) {
+        margin-bottom: 50px;
+    }
+    @media (min-width: $very-wide) {
+        /* 	margin-bottom: 0px; */
+    }
+}

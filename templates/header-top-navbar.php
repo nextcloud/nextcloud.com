@@ -111,7 +111,8 @@ require get_template_directory().'/strings.php';
 					<li class="ghost-btn"><a href="<?php echo home_url('install') ?>" class="nav__label"><?php echo $l->t('Download');?></a></li>
 					<li class="ghost-btn"><a href="<?php echo home_url('enterprise/buy') ?>" class="nav__label"><?php echo $l->t('Buy');?></a></li>
                     <li class="ghost-btn"><a href="<?php echo home_url('pricing') ?>#faq" class="nav__label"><?php echo $l->t('FAQ');?></a></li>
-                    <li class="flag"><a href="<?php echo site_url(); ?>/de/<?php echo $pagename ?>" class="nav__label"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/flags/de.gif"></a> | <a href="<?php echo site_url(); ?>/<?php echo $pagename ?>" class="nav__label"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/flags/us.gif"></a>
+                    <li class="ghost-btn"><a href="<?php echo home_url('gdpr') ?>" class="nav__label"><?php echo $l->t('GDPR');?></a></li>
+                    <li class="flag"><a href="<?php echo site_url(); ?>/de/<?php echo $pagename ?>" class="nav__label"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/flags/de.gif"></a> | <a href="<?php echo site_url(); ?>/<?php echo $pagename ?>" class="nav__label"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/flags/gb.gif"></a></li>
                     </li>
 				</li>
 				</ul>

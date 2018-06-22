@@ -159,12 +159,6 @@
 		</div>
 
         <div class="row">
-			<div class="col-md-4">
-				<a href="https://www.univention.de/" target="_blank" title="Univention">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/univention.png" title="Univention" />
-				</a>
-				<p  class="partnertext">Univention is a leading provider of Open Source products for running and managing whole IT infrastructures and applications. Our core product is Univention Corporate Server (UCS), a flexible, effective alternative to Microsoft solutions with AD functions, a strong identity management and a wide range of applications in our App Center.</p>
-			</div>
 <!--			<div class="col-md-4">
 				<a href="https://www.cyber-guardians.net" target="_blank" title="Cyber Guardians">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/cyberguardians.png" title="Cyber Guardians logo" />
@@ -231,6 +225,12 @@
 		</div>
 
 		<div class="row">
+            <div class="col-md-4">
+				<a href="https://redhat.com" target="_blank" title="Red Hat Partnership">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/redhat.png" title="Red Hat Partnership" />
+				</a>
+				<p  class="partnertext">Red Hat is the world's leading provider of reliable and high-performing open source cloud, Linux, middleware, storage and virtualization technologies. As Red Hat Advanced Business Partner, Nextcloud offers integrated solutions to its customers.</p>
+			</div>
 			<div class="col-md-4">
 				<a href="http://www.twsweb.it/" target="_blank" title="TWS">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/tws.png" title="TWS" />
@@ -243,13 +243,23 @@
 				</a>
 				<p  class="partnertext"><a href="http://wdlabs.wd.com/">WDLabs™</a> is a business growth incubator of storage solutions leader <a href="http://www.wdc.com/en/">Western Digital Corporation</a> (NASDAQ:WDC). We work with Western Digital Labs on the <a href="/box">Nextcloud Box project</a> to create a device that makes it easier for people to self-host their data.</p>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.moodle.com/" target="_blank" title="Moodle">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/moodle.png" title="Moodle" />
 				</a>
 				<p  class="partnertext">Moodle is the world's open source learning platform with a mission to empower educators to improve our world. Moodle provides educators with a private online space, filled with powerful, flexible tools for collaborative learning. Moodle is used in every country in the world by over 100 million registered users.</p>
             </div>
+			<div class="col-md-4">
+				<a href="https://www.univention.de/" target="_blank" title="Univention">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/univention.png" title="Univention" />
+				</a>
+				<p  class="partnertext">Univention is a leading provider of Open Source products for running and managing whole IT infrastructures and applications. Our core product is Univention Corporate Server (UCS), a flexible, effective alternative to Microsoft solutions with AD functions, a strong identity management and a wide range of applications in our App Center.</p>
+			</div>
 		</div>
+
 		<br /><br />
 		<p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
 	</div>

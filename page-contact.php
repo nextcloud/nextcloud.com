@@ -1,5 +1,5 @@
 <!--<?php get_template_part('templates/parts/title'); ?>-->
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
 
@@ -13,6 +13,8 @@
 		<p><?php echo $l->t('If you have any questions or comments on the website or have a business question, complete the form below and we\'ll get back to you!<br/><strong>If you need technical help, please do not use this form.</strong> If you are a customer, <a href="https://portal.nextcloud.com">use our support portal</a> and if not');?> <a href="<?php echo home_url('support') ?>"><?php echo $l->t('see here for support options.</a>');?></p>
 		<p><?php echo $l->t('Support requests using this form <strong>will be ignored!</strong>');?></p>
 	</div>
+</div>
+<div class="row">
 	<div class="col-md-6 col-md-offset-3">
 		<form name="contact" method="post" action="contactsubmit/">
 		<div class="row">
@@ -34,6 +36,23 @@
 		</div>
 		</form>
 	</div>
+</div>
+<div class="row">
+	<div class="col-md-6 col-md-offset-3">
+	<h2><?php echo $l->t('Visit us!');?></h2>
+    <p>
+    <strong><?php echo $l->t('Visitor address:');?></strong><br/>
+    <address><strong>Nextcloud GmbH</strong><br/>
+    Rotebuehlplatz 20A<br/>
+    70173 Stuttgart Germany<br/></address>
+    </p>
+    <p><strong>Headquarter address:</strong><br/>
+	<address>Nextcloud GmbH<br/>
+    Hauptmannsreute 44A<br/>
+    70192 Stuttgart Germany<br/></address>
+    HRB 227086 (AG München)<br/>
+    T +49 711 25 24 28 90<br/>
+    </p>
 </div>
 
 <!--<h2><?php echo $l->t('Active contributors on the <a href="../news">Nextcloud blog roll</a>:');?></h2>-->

@@ -93,12 +93,18 @@ However, non-personally identifiable visitor information may be provided to othe
 <p>If there are any questions regarding this privacy policy you may contact us using the information below.</p>
 
 <h2>Legal Notice</h2>
-<p>Nextcloud GmbH<br/>
+<address><p>Nextcloud GmbH<br/>
 Hauptmannsreute 44A<br/>
-70192 Stuttgart Germany<br/>
+70192 Stuttgart Germany<br/></address>
 HRB 227086 (AG München)<br/>
 T +49 711 25 24 28 90<br/>
 <a href="<?php echo home_url('contact') ?>">contact form</a><br/>
+</p>
+<p>
+Visitor address:<br/>
+<address>Nextcloud GmbH<br/>
+Rotebuehlplatz 20A<br/>
+70173 Stuttgart Germany<br/></address>
 </p>
 <p>
 Managing Directors:<br/>
@@ -107,7 +113,7 @@ Frank Karlitschek<br/>
 </p>
 <p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
 
-<p>Last Edited on 2018-04-03</p>
+<p>Last Edited on 2018-05-29</p>
 
     </div>
 </div>

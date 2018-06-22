@@ -1,6 +1,6 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/athome.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 <script>
 	require(["require.config"], function() {
 		require(["modules/youtubePlayer", "modules/submenu"])
@@ -47,6 +47,7 @@
 </section>
 
 <section class="section--on-premise">
+    <a name="selfhosting" id="selfhosting"></a>
 <div class="container">
 	<h2 class="section--heading-1 revealOnScroll text-center"><?php echo $l->t('Why self-hosting?');?></h2>
 	<div class="row">

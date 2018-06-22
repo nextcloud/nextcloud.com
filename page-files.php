@@ -1,12 +1,13 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/files.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 	require(["require.config"], function() {
 		require(["modules/youtubePlayer", "modules/submenu"])
 	});
 </script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 </head>
 <div class="background files-background second-menu">
 	<div class="container">
@@ -21,7 +22,7 @@
 <div class="second-menu">
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
-			<a href="#on-prem"><span class="avoidwrap"><?php echo $l->t('On-premise');?></span></a>
+			<a href="#on-prem"><span class="avoidwrap"><?php echo $l->t('Self hosting');?></span></a>
 			<a href="#security"><span class="avoidwrap"><?php echo $l->t('Security');?></span></a>
 			<a href="#send"><span class="avoidwrap"><?php echo $l->t('File exchange');?></span></a>
 			<a href="#clients"><span class="avoidwrap"><?php echo $l->t('Clients');?></span></a>
@@ -40,7 +41,7 @@
 		<div class="col-md-6 revealOnScroll feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('An Enterprise File Sync and Share solution that keeps data under control.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Your employees need to have easy access to their files, photos and documents to work and share with team members, customers and partners. And IT needs to know nobody besides those they shared with has access to those files.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud Files is an on-premise, open source file sync and share solution designed to be easy-to-use and highly secure.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud Files is a self-hosted, open source file sync and share solution designed to be easy-to-use and highly secure.');?></p>
 			<a href="<?php echo home_url('pricing') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Pricing');?></a>
 		</div>
 	</div>
@@ -58,7 +59,7 @@
 		<div class="col-md-4 revealOnScroll">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/permissions.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Ultimate security');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('An open source, on-premises product. Powerful on-server and End-to-end Encryption.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('An open source, self-hosted product. Powerful on-server and End-to-end Encryption.');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Files are stored inside your company infrastructure, without any third party ever gaining access.');?></p>
 		</div>
 		<div class="col-md-4 revealOnScroll">
@@ -150,7 +151,7 @@
 
 <section class="section--on-premise">
 <div class="container">
-	<h2 class="section--heading-1 revealOnScroll text-center"><?php echo $l->t('Why on-premise?');?></h2>
+	<h2 class="section--heading-1 revealOnScroll text-center"><?php echo $l->t('Why self hosting?');?></h2>
 	<div class="row">
 		<div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('Users need collaboration');?></p>
@@ -163,53 +164,13 @@
 			<p class="section--paragraph"><?php echo $l->t('Rather than trying to work around their limitations, Nextcloud Files provides a security-first solution which puts IT in complete control over the location and access policies of data with a hybrid or private cloud solution.');?></p>
         </div>
 	</div>
-</div>
-</section>
-
-<section class="section--compliance">
-<div class="container-fluid banner">
-    <div class="container">
     <div class="row">
-        <div class="col-md-6">
-            <h2 class="revealOnScroll"><?php echo $l->t('Compliance by design');?></h2>
-            <h3 class="revealOnScroll"><?php echo $l->t('HIPAA, GDPR and more');?></h3>
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud products are designed with compliance in mind, providing extensive data policy enforcement, encryption, user management and auditing capabilities.');?></p>
-            <div class="row learnmore">
-            <h3 class="text-center revealOnScroll"><?php echo $l->t('Learn more');?></h3>
-                <div class="col-sm-6 revealOnScroll">
-                    <div class="featureblock">
-                        <a class="hyperlink" href="<?php echo home_url('healthcare') ?>"><div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/tools.svg" /></div>
-                        <p class="section--paragraph text-center"><?php echo $l->t('Healthcare and HIPAA');?></p></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 revealOnScroll">
-                    <div class="featureblock">
-                        <a class="hyperlink" href="https://nextcloud.com/blog/bring-enterprise-data-back-under-control-with-nextcloud/"><div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/securitypolicies.svg" /></div>
-                        <p class="section--paragraph text-center"><?php echo $l->t('GDPR compliance');?></p></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 revealOnScroll">
-                    <div class="featureblock">
-                        <a class="hyperlink" href="<?php echo home_url('monitoring') ?>"><div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/ldap.svg" /></div>
-                        <p class="section--paragraph text-center"><?php echo $l->t('Auditing capabilities');?></p></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 revealOnScroll">
-                    <div class="featureblock">
-                        <a class="hyperlink" href="<?php echo home_url('workflow') ?>"><div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
-                        <p class="section--paragraph text-center"><?php echo $l->t('File Access Control');?></p></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/medicaldevices.jpeg">
-        <img class="small-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/medicaldevices-small.jpeg">
-    </div>
-    </div>
+        <p class="section--paragraph text-center"><a href="https://nextcloud.com/blog/the-issue-with-public-cloud/" class="button button--blue button--arrow button--large"><?php echo $l->t('The risk of public clouds');?></a></p>
+	</div>
 </div>
 </section>
 
-
+<?php require get_template_directory().'/compliance.php';?>
 
 <section class="section--security">
 	<a name="security" id="security"></a>
@@ -235,6 +196,7 @@
 	<div class="container">
 		<div class="col-md-6  image--floated">
 			<div data-type="youtube" data-video-id="NRhVP9rXHVY"></div>
+			<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/NRhVP9rXHVY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Seamless collaboration');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The core strength of Nextcloud is its ability to enhance team productivity on the go with an easy user interface on mobile, web and desktop and powerful integrated collaboration and communication capabilities.');?></p>
@@ -249,6 +211,7 @@
     <div class="container">
         <div class="col-md-6">
             <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
+            <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
         <div class="col-md-6">
             <h2 class="section--paragraph__tittle"><?php echo $l->t('Secure file exchange');?></h2>
@@ -375,6 +338,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/jwhfeJlYBbM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud users to easily and securely send files, folders or upload links to others from within Microsoft Outlook. The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>

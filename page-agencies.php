@@ -1,6 +1,7 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/agencies.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 require(["require.config"], function() {
 	require(["modules/youtubePlayer"])
@@ -65,6 +66,7 @@ require(["require.config"], function() {
         <div class="row">
             <div class="col-md-6 revealOnScroll">
                 <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Internal and external sharing');?></p>
@@ -107,6 +109,7 @@ require(["require.config"], function() {
         <div class="row">
             <div class="col-md-6 revealOnScroll">
                 <div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/jwhfeJlYBbM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Secure sharing by mail');?></p>
@@ -157,6 +160,7 @@ require(["require.config"], function() {
        <div class="row">
             <div class="col-md-6 revealOnScroll image--floated">
                 <div data-type="youtube" data-video-id="I5wcLS9xxMw"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/I5wcLS9xxMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('At any scale');?></p>

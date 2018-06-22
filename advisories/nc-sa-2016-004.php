@@ -5,10 +5,7 @@
 </div>
 </div>
 <div class="row">
-    <div class="col-md-4">
-        <?php get_template_part('advisories/advisory-side'); ?>
-    </div>
-    <div class="col-md-8">
+    <div class="col-md-12">
         <h2>Edit permission check not enforced on WebDAV COPY action (NC-SA-2016-004)</h2>
         <p>19th July 2016</p>
         <p>Risk level: <strong>Medium</strong></p>

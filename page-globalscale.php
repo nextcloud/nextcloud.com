@@ -1,11 +1,13 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/globalscale.css" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 require(["require.config"], function() {
 	require(["modules/youtubePlayer"])
 });
 </script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 </head>
 <div class="background globalscale-background">
 	<div class="container">
@@ -23,6 +25,7 @@ require(["require.config"], function() {
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1 video">
 			<div data-type="youtube" data-video-id="I5wcLS9xxMw"></div>
+			<iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/I5wcLS9xxMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
 		<div class="col-md-8 col-md-offset-2 revealOnScroll">
 			<p class="section--paragraph text-center"><?php echo $l->t('<span class="avoidwrap">Nextcloud Global Scale delivers a true globally scalable solution</span> <span class="avoidwrap">for deployments with hundreds of millions of users<span>, <span class="avoidwrap">giving unprecedented control over the locality of data</span> <span class="avoidwrap">and delivering dramatic cost reduction</span>');?></p>

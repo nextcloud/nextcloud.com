@@ -1,5 +1,7 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/sharing.css" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 require(["require.config"], function() {
 	require(["pages/sharing", "modules/youtubePlayer"])
@@ -40,6 +42,7 @@ require(["require.config"], function() {
             </div>
             <div class="col-md-6">
                 <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
         <div class="row revealOnScroll feature--block">

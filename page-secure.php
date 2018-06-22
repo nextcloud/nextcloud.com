@@ -5,13 +5,13 @@
         require(["pages/secure"])
     });
     </script>
-    <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
+<!--    <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
     <script type="text/javascript">
         var CaptchaCallback = function() {
             grecaptcha.render('RecaptchaField1', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
             grecaptcha.render('RecaptchaField2', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
         };
-    </script>
+    </script>-->
 </head>
 
 <div class=" background security-background">
@@ -203,6 +203,11 @@
                     <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/retention.svg"); ?>
                     <p class="section--paragraph__tittle"><?php echo $l->t('Data Retention');?></p>
                     <p class="section--paragraph"><?php echo $l->t('Define rules for data retention, allowing regular cleanup of files or ensurances that data stays put for a set amount of time.');?></p>
+                </div>
+                <div class="col-md-4">
+                    <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/secure-server2.svg"); ?>
+                    <p class="section--paragraph__tittle"><?php echo $l->t('Compliance');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('Nextcloud puts all the pieces for compliance with regulations like HIPAA and GDRP at your fingertips. This goes from extensive documentation on our customer portal to specific apps for data requests as well as encryption and security capabilities in Nextcloud itself.<br> See for information our announcement of our ');?><a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-releases-gdpr-compliance-kit-for-on-premises-collaboration-solution/"><?php echo $l->t('GDPR Compliance Kit.');?></p>
                 </div>
             </div>
         </div>

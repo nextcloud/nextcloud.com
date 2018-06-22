@@ -21,6 +21,7 @@
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities';
 
 // Importing modules
+@import 'modules/fonts';
 @import 'variables';
 @import 'modules/normalize';
 @import 'modules/typography';
@@ -33,6 +34,9 @@
 @import 'modules/secondmenu';
 @import 'modules/hero';
 @import 'modules/cookieconsent';
+@import 'modules/loading';
+@import 'modules/flags';
+@import 'modules/apps';
 
 
 // To remove everything above and split in other files

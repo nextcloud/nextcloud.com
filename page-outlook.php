@@ -1,4 +1,6 @@
 <head>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 	require(["require.config"], function() {
 		require(["modules/youtubePlayer"])
@@ -27,6 +29,7 @@
 				</div>
 				<div class="col-md-10">
 				<div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
+				<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/jwhfeJlYBbM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 				<div class="col-md-6 col-md-offset-3">
 					<p class="section--paragraph text-center"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud customers to easily and securely send files, folders or upload links to others from within Microsoft Outlook. The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>
@@ -83,6 +86,7 @@
         </div>
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Two versions of the Outlook Add-in: Free and Enterprise.');?></p>
                 <table class="table">
                     <thead>
                         <tr>

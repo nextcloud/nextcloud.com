@@ -1,5 +1,7 @@
 <head>
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/migration.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 	require(["require.config"], function() {
 		require(["pages/migration", "modules/youtubePlayer"])
@@ -42,7 +44,7 @@
 						</div>
 
 						<div class="item">
-							<h3><?php echo $l->t('Die aktuellen Entwicklungen von Nextcloud, <span class="big">das Lizenzmodell</span> und die <span class="big">breite Unterstützung</span> der Community haben uns bei dieser Entscheidung bestärkt.');?></h3>
+							<h3><?php echo $l->t('The recent development of Nextcloud, <span class="big">licensing model</span> and <span class="big">wide support</span> of the community encouraged us in the decision to migrate.');?></h3>
 							<h2><a href="https://blog.hrz.tu-chemnitz.de/urzcommunity/2017/01/25/neuigkeiten-von-sync-n-share/"><?php echo $l->t('–  Andreas Heik, Universitätsrechenzentrum, TU Chemnitz');?></a></h2>
 						</div>
 					</div>
@@ -88,6 +90,7 @@
         <li>4. Now you should see the migrator and you can just follow the steps! Watch our video below to see how easy it is.</li></ul>');?></p>
 
     <div data-type="youtube" data-video-id="QKI85Yq01wo"></div>
+    <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/QKI85Yq01wo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     <p class="section--paragraph"><?php echo $l->t('In this video we show ownCloud, switch to the terminal, execute the commands to download the migrator and switch back to the browser to run it.');?></p>
 
 	<p class="section--paragraph"><?php echo $l->t('You can do the last step manually from the command line, which is adviced on large installations where the time-out on PHP via the web interface can be a problem. You can update from ownCloud 10.0.4 and older to Nextcloud 12.0.5 or newer. We continuesly monitor new releases, test them and enable upgrading but note that ownCloud is backporting a lot of big features to \'stable\' releases, which threatens stability and might break upgrading.');?></p>

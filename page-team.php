@@ -1,6 +1,5 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/team.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script>
 	require(["require.config"], function() {
 		require(["modules/submenu"])
@@ -144,7 +143,7 @@
 		</div>
         <div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+                    <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
 				<h2 class="teamname">Marie Gutbub</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Online Marketer</h3>
@@ -313,7 +312,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/daniel.jpg" />
 				<h2 class="teamname">Daniel Calviño Sánchez</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
@@ -443,11 +442,11 @@
 		</div>
         <div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marino.jpg" />
 				<h2 class="teamname">Marino Faggiana</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">iOS client developer</h4>
+					<h4 class="teamexpertise">Apple iOS developer</h4>
 					<h4 class="teamlocation">lives in Vicenza, Italy</h4>
 					<p class="teamsocial"> <a href="https://github.com/marinofaggiana"><i class="fa-github fa"></i></a> <a href="https://twitter.com/marinofaggiana"><i class="fa-twitter fa"></i></a> <a href="https://www.linkedin.com/in/marino-faggiana-596569106/"><i class="fa-linkedin fa"></i></a></p>
 				</div>

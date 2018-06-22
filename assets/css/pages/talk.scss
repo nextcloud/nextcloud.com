@@ -1,5 +1,6 @@
 @import '../variables';
 @import '../modules/transparent-navbar';
+@import '../../fonts/fork-awesome/css/fork-awesome.min';
 
 .talk-background {
   background: url('../../img/headers/talk.jpg') no-repeat;
@@ -26,6 +27,9 @@ section {
 }
 
 .section--benefits {
+    @media (max-width: $break-small) {
+        text-align: center;
+    }
 	i[class*='fa-'] {
 		font-size: 40px;
 		display: block;
@@ -36,30 +40,34 @@ section {
 		margin-left: auto;
 		margin-right: auto;
 	}
-				.icon {
-					max-width: 120px;
-			}
-			.scaling-svg-container {
-				height: 0;
-				width: 100%;
-				padding: 0;
-				padding-bottom: 100%;
-				margin-left: auto;
-				margin-right: auto;
-				/* override this inline for aspect ratio other than square */
+    .icon {
+            max-width: 120px;
+            @media (max-width: $break-small) {
+                margin-left:auto;
+                margin-right:auto;
+            }
+    }
+    .scaling-svg-container {
+        height: 0;
+        width: 100%;
+        padding: 0;
+        padding-bottom: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        /* override this inline for aspect ratio other than square */
 
-				@media (max-width: $break-small) {
-					position: relative;
-					margin-left: 0;
-					}
-				}
-			svg {
-				position: absolute;
-				height: 100%;
-				width: 100%;
-				left: 0;
-				top: 0;
-				}
+        @media (max-width: $break-small) {
+            position: relative;
+            margin-left: 0;
+            }
+        }
+    svg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        }
 
 	.list {
 		padding-top: 180px;
@@ -132,6 +140,80 @@ section {
 		} /* end featureblock */
 	} /* end container-widest */
 } /* end section */
+
+.section--getmobile {
+    margin-top: 80px;
+    .banner {
+        height: 600px;
+        background-color: $nextcloud-blue;
+        position: relative;
+        overflow: hidden;
+
+        .img-responsive {
+            margin: auto;
+        }
+
+        .col-md-8 {
+            padding: 80px 0;
+        }
+        li,p,h2,h3 {
+            color: white;
+        }
+        .hyperlink {
+            color: white;
+        }
+
+        .row {
+            padding-top: 30px;
+        }
+
+        .big-img {
+            position: absolute;
+            max-width: 70%;
+            height: 100%;
+            top: 0px;
+            left: 50px;
+        }
+        .small-img {
+            position:absolute;
+            top: 0px;
+            height: 100%;
+        }
+        @media (max-width: $very-wide) {
+            height: 400px;
+            .big-img {
+                display: none;
+            }
+            .col-md-8 {
+                padding: 30px 0;
+            }
+        }
+        @media (max-width: $break-big) {
+            height: 650px;
+            .big-img {
+                display: none;
+            }
+            .small-img {
+                height: 75%;
+                top: 150px;
+                left:20px;
+            }
+            .col-md-8 {
+                padding: 20px 0;
+            }
+            .mobileclientbuttons {
+                margin-left:50%;
+            }
+        }
+        @media (min-width: $very-wide) {
+            .small-img {
+                display: none;
+            }
+        }
+    }
+}
+
+
 
 footer {
     margin-top: 0px;

@@ -1,18 +1,17 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/healthcare.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script>
 require(["require.config"], function() {
-	require(["pages/education", "modules/submenu", "bootstrap", "modules/youtubePlayer"])
+	require(["pages/education", "modules/submenu", "bootstrap"])
 });
 </script>
-<script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
+<!--<script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
 <script type="text/javascript">
     var CaptchaCallback = function() {
         grecaptcha.render('RecaptchaField1', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
         grecaptcha.render('RecaptchaField2', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
     };
-</script>
+</script>-->
 </head>
 <div class="healthcare-background second-menu">
     <div class="container-fluid background">
@@ -394,7 +393,7 @@ require(["require.config"], function() {
             <li>Data-at-rest, in-transit and full end-to-end encryption</li>
             <li>Email verification and two-factor authentication</li>
             </ul>');?></p>
-            <p class="section--paragraph"><?php echo $l->t('The self-hosted nature of Nextcloud ensures Nextcloud usage does not change existing compliance of infrastructure, provided features and capabilities are employed as required by HIPAA and other legislation. Nextcloud can advice in implementing a HIPAA compliant setup.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('The self-hosted nature of Nextcloud ensures Nextcloud usage does not change existing compliance of infrastructure, provided features and capabilities are employed as required by HIPAA and other legislation. Nextcloud can advise in implementing a HIPAA compliant setup.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud services are designed not to require that our employees gain access to any customer data. In case this is required for specific support cases, confidentiality agreements are signed with all employees and extensive security processes are in place to log, investigate and report any breaches.');?></p>
             <p class="section--paragraph"><?php echo $l->t('We understand that keeping your client’s information safe is of the utmost importance and Nextcloud GmbH will continue to provide its software and services in accordance with the relevant requirements of all state and federal laws and regulations, including, as applicable, HIPAA.');?></p>
             <p class="section--paragraph"><?php echo $l->t('For additional information regarding Nextcloud’s privacy practices as they relate to this website, please see our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('Privacy Statement</a>.');?></p>

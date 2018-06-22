@@ -5,10 +5,7 @@
 </div>
 </div>
 <div class="row">
-    <div class="col-md-4">
-        <?php get_template_part('advisories/advisory-side'); ?>
-    </div>
-    <div class="col-md-8">
+    <div class="col-md-12">
         <h2>Limitation of app specific password scope can be bypassed (NC-SA-2017-009)</h2>
         <p>8th May 2017</p>
         <p>Risk level: <strong>Low</strong></p>

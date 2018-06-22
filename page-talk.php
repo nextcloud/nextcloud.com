@@ -1,13 +1,12 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/talk.css?v=2" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <div class="background talk-background">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Nextcloud Talk');?></h1>
-				<h2><?php echo $l->t('Screensharing, online meetings & web conferencing made easy.');?></p>
+				<h2><?php echo $l->t('Screensharing, online meetings & web conferencing without data leaks.');?></p>
 			</div>
 		</div>
 	</div>
@@ -18,6 +17,7 @@
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
                 <p class="section--paragraph text-center"><?php echo $l->t('<span class="avoidwrap">Meetings with colleagues, customers and partners</span> - <span class="avoidwrap">have a personal conversation with one click.</span>');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('<span class="avoidwrap">Keep conversations private with Nextcloud Talk.</span>');?></p>
                 <div class="text-center">
                     <!--<a href="install/#install-clients" class="button button--blue button--arrow button--large"><?php echo $l->t('Download now');?></a>-->
                 </div>
@@ -28,15 +28,15 @@
 
 <section class="">
 <div class="container">
-	<div class="row">
-		<div class="col-md-6 image--floated revealOnScroll">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw.png" class="img-responsive" /></a>
-		</div>
+   	<div class="row">
 		<div class="col-md-6 revealOnScroll">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Designed for you');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is a fully on-premises audio/video and chat communication service. It features web and mobile apps and is designed to offer the highest degree of security while being easy to use.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk lowers the barrier for communication and lets your team connect any time, any where, on any device, with each other, customers or partners.');?></p>
-			<!--<p class="section--paragraph"><?php echo $l->t('While Nextcloud Talk is free, the optional Spreed High Performance Back-end offers enterprise class scalability, reliability and features.');?></p>-->
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png" class="img-responsive featureimg" /></a>
+		</div>
+        <div class="col-md-6 revealOnScroll">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Unique protection');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud Talk goes further than other encrypted communication technologies by keeping metadata private.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('While public solutions like Whatsapp or Telegram might encrypt content, they and whomever monitors them still can see who you communicate with and when. With Nextcloud Talk meta data never leaves your server.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('This ensures you stay in complete control of communications.');?></p>
 		</div>
 	</div>
 </div>
@@ -48,27 +48,30 @@
         <h2 class="text-center revealOnScroll"><?php echo $l->t('Key capabilities');?></h2>
         <div class="row">
             <div class="col-sm-4 revealOnScroll">
-                <p class="section--paragraph"><ul>
-                <li><?php echo $l->t('HD audio/video calls');?></li>
-                <li><?php echo $l->t('Group and one-to-one calls');?></li>
-                <li><?php echo $l->t('Webinars & public web meetings*');?></li>
-                <li><?php echo $l->t('Individual and group chat');?></li>
+                <p class="section--paragraph">
+                <ul>
+                    <li><?php echo $l->t('Fully on-premise, 100% open source');?></li>
+                    <li><?php echo $l->t('Self-hosted so no leaking of metadata');?></li>
+                    <li><?php echo $l->t('Encrypted, peer-to-peer audio/video calls');?></li>
+                    <li><?php echo $l->t('WebRTC for cross-platform support');?></li>
                 </ul></p>
             </div>
             <div class="col-sm-4 revealOnScroll">
-                <p class="section--paragraph"><ul>
-                <li><?php echo $l->t('Easy screen sharing');?></li>
-                <li><?php echo $l->t('Mobile apps for Android and iOS');?></li>
-                <li><?php echo $l->t('Mobile calls & chat push notifications');?></li>
-                <li><?php echo $l->t('Integration with');?> <a class="hyperlink" href="<?php echo home_url('files') ?>">Nextcloud Files</a> <?php echo $l->t('and');?> <a class="hyperlink" href="<?php echo home_url('groupware') ?>">Groupware</li>
+                <p class="section--paragraph">
+                <ul>
+                    <li><?php echo $l->t('Individual and group calls & chat');?></li>
+                    <li><?php echo $l->t('Mobile apps for Android and iOS');?></li>
+                    <li><?php echo $l->t('Easy screen sharing');?></li>
+                    <li><?php echo $l->t('Integration with');?> <a class="hyperlink" href="<?php echo home_url('files') ?>">Nextcloud Files</a> <?php echo $l->t('and');?> <a class="hyperlink" href="<?php echo home_url('groupware') ?>">Groupware</a></li>
                 </ul></p>
             </div>
             <div class="col-sm-4 revealOnScroll">
-                <p class="section--paragraph"><ul>
-                <li><?php echo $l->t('Fully on-premise, 100% open source');?></li>
-                <li><?php echo $l->t('End-to-end Encrypted calls');?></li>
-                <li><?php echo $l->t('Scaling to millions of users*');?></li>
-                <li><?php echo $l->t('SIP gate: dial in by phone*');?></li>
+                <p class="section--paragraph">
+                <ul>
+                    <li><?php echo $l->t('Mobile calls & chat with push notifications');?></li>
+                    <li><?php echo $l->t('Webinars & public web meetings*');?></li>
+                    <li><?php echo $l->t('Scaling to millions of users*');?></li>
+                    <li><?php echo $l->t('SIP gate: dial in by phone*');?></li>
                 </ul></p>
             </div>
         </div>
@@ -87,9 +90,9 @@
         <div class="col-md-6 revealOnScroll">
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/clients/mobile/android-talk.png" class="img-responsive" />
         </div>
-        <div class="col-md-6 revealOnScroll">
+        <div class="col-md-6 revealOnScroll  benefits-images">
             <p class="section--paragraph__tittle"><?php echo $l->t('Benefits');?></p>
-            <div class="row">
+            <div class="row benefits-images">
                 <div class="col-sm-3 col-lg-2 featureblock">
                     <div class="icon">
                         <div class="scaling-svg-container">
@@ -169,6 +172,17 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 image--floated revealOnScroll">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw.png" class="img-responsive featureimg" /></a>
+		</div>
+		<div class="col-md-6 revealOnScroll">
+			<p class="section--paragraph__tittle"><?php echo $l->t('Designed for you');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is a fully self hosted, on-premises audio/video and chat communication service. It features web and mobile apps and is designed to offer the highest degree of security while being easy to use.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk lowers the barrier for communication and lets your team connect any time, any where, on any device, with each other, customers or partners.');?></p>
+			<!--<p class="section--paragraph"><?php echo $l->t('While Nextcloud Talk is free, the optional Spreed High Performance Back-end offers enterprise class scalability, reliability and features.');?></p>-->
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 revealOnScroll">
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-nw.png" class="img-responsive featureimg" /></a>
 		</div>
 		<div class="col-md-6 revealOnScroll">
@@ -179,7 +193,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6 revealOnScroll">
+		<div class="col-md-6 image--floated revealOnScroll">
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
 		</div>
 		<div class="col-md-6 revealOnScroll">
@@ -190,7 +204,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6 image--floated revealOnScroll">
+		<div class="col-md-6 revealOnScroll">
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png" class="img-responsive featureimg" /></a>
 		</div>
 	<div class="col-md-6 revealOnScroll">
@@ -204,17 +218,17 @@
 </section>
 
 <section class="section--getmobile">
-    <div class="container-fluid quote">
-        <h2 class="text-center"><?php echo $l->t('Get the mobile apps now!');?></h2>
+    <div class="container-fluid banner">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-md-offset-3 featureblock revealOnScroll">
-                    <div class="row text-center">
-                        <div class="col-sm-6 mobileclientbuttons">
+                <div class="col-md-8 col-md-offset-4 revealOnScroll">
+                <h2 class="text-center"><?php echo $l->t('Get the mobile apps now!');?></h2>
+                    <div class="row">
+                        <div class="col-md-6 mobileclientbuttons">
                             <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS_TALK; ?>">
                             <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png"></a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6 mobileclientbuttons">
                             <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_TALK; ?>">
                             <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"></a>
                         </div>
@@ -222,6 +236,8 @@
                 </div>
             </div>
         </div>
+        <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/iPhone6s-talk-chat.png">
+        <img class="small-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/iPhone6s-talk-chat.png">
     </div>
 </section>
 
@@ -277,8 +293,8 @@
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('
             Starting at EUR 5000/USD 6000 per year plus
             <ul>
-                <li>EUR 50/USD 60 per user per year at 50 users</li>
-                <li>EUR 25/USD 30 per user per year at 500 users</li>
+                <li>EUR 25/USD 30 per user per year at 50 users</li>
+                <li>EUR 12.5/USD 15 per user per year at 500 users</li>
             </ul>
             further volume discounts at larger user numbers
             ');?></p>

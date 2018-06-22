@@ -18,7 +18,7 @@
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Nextcloud - Protecting your data');?></h1>
-				<h2 class="jumbotron--lead"><?php echo $l->t('Building products that allow you to be productive without losing control');?></h2>
+				<h2 class="jumbotron--lead"><?php echo $l->t('Building self-hosted products that allow you to be productive without losing control');?></h2>
 				<a class="button button--large button--arrow--down" href="#why-nextcloud" role="button" id="get-nextcloud-button"><?php echo $l->t('Learn more');?></a>
 			</div>
 			<div class="col-md-6 topbanner">
@@ -36,65 +36,24 @@
 			<div class="highlights_align ">
 				<div class="privacy-icon" data-animation-path="img/home/privacy/" data-anim-loop="false" data-name="privacy"></div>
 				<h4 class="revealOnScroll"><?php echo $l->t('Control');?></h4>
-				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Protect, control and monitor data and communication in your company. Guarantee compliance with business and legal requirements.');?></p>
+				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Protect, control and monitor data and communication across your company. Guarantee compliance with business and legal requirements. Keep your data on servers you own, at all times. Nothing leaks, not even metadata.');?></p>
 			</div>
 			<div class="highlights_align">
 				<div class="flexibility-icon" data-animation-path="img/home/flexibility/" data-anim-loop="false" data-name="flexibility"></div>
 				<h4 class="revealOnScroll"><?php echo $l->t('Productivity');?></h4>
-				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Make data available on any platform to your teams. Let them share, collaborate and communicate within and across organizational boundaries.');?></p>
+				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Enable productivity across any platform, whether in the office or on the road, to share, collaborate and communicate across organizational boundaries. Nextcloud provides transparent access to data on any back-end.');?></p>
 			</div>
 			<div class="highlights_align">
 				<div class="community-icon" data-animation-path="img/home/community/" data-anim-loop="false" data-name="community"></div>
 				<h4 class="revealOnScroll"><?php echo $l->t('Community');?></h4>
-				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Enjoy constant improvements from a thriving and transparent, all open-source community development model, free of lockins or paywalls.');?></p>
+				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Enjoy constant improvements from a thriving and transparent, entirely open-source community development model, free of lockins or paywalls. Enjoy the benefits of enterprise support when you need it.');?></p>
 			</div>
 		</div>
 	</div>
 </section>
 
 
-<section class="section--compliance">
-<div class="container-fluid banner">
-    <div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <h2 class="revealOnScroll"><?php echo $l->t('Compliant by design');?></h2>
-            <h3 class="revealOnScroll"><?php echo $l->t('HIPAA, GDPR and more');?></h3>
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud products are designed with compliance in mind, providing extensive data policy enforcement, encryption, user management and auditing capabilities.');?></p>
-            <div class="row learnmore">
-            <h3 class="text-center revealOnScroll"><?php echo $l->t('Learn more');?></h3>
-                <div class="col-sm-6 revealOnScroll">
-                    <div class="featureblock">
-                        <a class="hyperlink" href="<?php echo home_url('healthcare') ?>"><div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/tools.svg" /></div>
-                        <p class="section--paragraph text-center"><?php echo $l->t('Healthcare and HIPAA');?></p></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 revealOnScroll">
-                    <div class="featureblock">
-                        <a class="hyperlink" href="https://nextcloud.com/blog/bring-enterprise-data-back-under-control-with-nextcloud/"><div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/securitypolicies.svg" /></div>
-                        <p class="section--paragraph text-center"><?php echo $l->t('GDPR compliance');?></p></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 revealOnScroll">
-                    <div class="featureblock">
-                        <a class="hyperlink" href="<?php echo home_url('monitoring') ?>"><div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/ldap.svg" /></div>
-                        <p class="section--paragraph text-center"><?php echo $l->t('Auditing capabilities');?></p></a>
-                    </div>
-                </div>
-                <div class="col-sm-6 revealOnScroll">
-                    <div class="featureblock">
-                        <a class="hyperlink" href="<?php echo home_url('workflow') ?>"><div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
-                        <p class="section--paragraph text-center"><?php echo $l->t('File Access Control');?></p></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/medicaldevices.jpeg">
-        <img class="small-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/medicaldevices-small.jpeg">
-    </div>
-    </div>
-</div>
-</section>
+<?php require get_template_directory().'/compliance.php';?>
 
 <section class="section--customers">
 	<div class="container">
@@ -169,12 +128,12 @@
                 </div>
             </div>
         </div>-->
-	</div>
 	<div class="row">
         <div class="col-md-6 col-md-offset-3">
             <p class="text-center revealOnScroll"><a class="button button--blue button--arrow button--large  revealOnScroll" href="<?php echo home_url('whitepapers') ?>"><?php echo $l->t('case studies & white papers');?></a></p>
         </div>
     </div>
+</div>
 </section>
 <section class="underyourcontrol">
 <div class="container-fluid" id="perfect-for-home-and-business">

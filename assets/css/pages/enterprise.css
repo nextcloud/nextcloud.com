@@ -8,11 +8,11 @@
 
 /* gradient behind transparent nav */
 .nav:not(.scrolled) {
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
   /* IE6-9 */ }
@@ -50,51 +50,51 @@
   zoom: 0.55; }
 
 .what-you-get-section .container {
-  padding-top: 8.54296875em;
-  padding-bottom: 8.54296875em; }
+  padding-top: 8.54297em;
+  padding-bottom: 8.54297em; }
   .what-you-get-section .container p {
-    max-width: 43.2487792969em;
+    max-width: 43.24878em;
     margin: 0 auto; }
 
 .section--expertise .container {
-  padding-top: 8.54296875em;
-  padding-bottom: 8.54296875em; }
+  padding-top: 8.54297em;
+  padding-bottom: 8.54297em; }
   .section--expertise .container .section--intro {
-    max-width: 43.2487792969em;
+    max-width: 43.24878em;
     margin: 0 auto; }
   .section--expertise .container .ilustration__expertise {
     margin-left: 15%; }
 
 .section--security .container {
-  padding-top: 8.54296875em;
-  padding-bottom: 8.54296875em; }
+  padding-top: 8.54297em;
+  padding-bottom: 8.54297em; }
   .section--security .container .section--intro {
-    max-width: 43.2487792969em;
+    max-width: 43.24878em;
     margin: 0 auto; }
   .section--security .container .security__ilustration {
     margin-left: 12%; }
 
 .section--lifecycle .container {
-  padding-top: 8.54296875em;
-  padding-bottom: 8.54296875em; }
+  padding-top: 8.54297em;
+  padding-bottom: 8.54297em; }
   .section--lifecycle .container .section--intro {
-    max-width: 43.2487792969em;
+    max-width: 43.24878em;
     margin: 0 auto; }
   .section--lifecycle .container .lifecycle__ilustration {
     margin-left: 8%; }
 
 .section--globalscale .container {
-  padding-top: 8.54296875em;
-  padding-bottom: 8.54296875em; }
+  padding-top: 8.54297em;
+  padding-bottom: 8.54297em; }
   .section--globalscale .container .section--intro {
-    max-width: 43.2487792969em;
+    max-width: 43.24878em;
     margin: 0 auto; }
 
 .section--whitepaper {
   padding-bottom: 0px;
   margin-bottom: 0px; }
   .section--whitepaper .container {
-    padding-top: 8.54296875em; }
+    padding-top: 8.54297em; }
   .section--whitepaper .section--heading-1 {
     margin-bottom: 70px; }
   .section--whitepaper form {
@@ -115,7 +115,7 @@
 .section--customers {
   position: relative; }
   .section--customers .container {
-    padding-top: 8.54296875em; }
+    padding-top: 8.54297em; }
     .section--customers .container p {
       margin-top: 30px; }
   .section--customers .customer {

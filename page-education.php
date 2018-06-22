@@ -1,12 +1,13 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/education.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 require(["require.config"], function() {
 	require(["pages/education", "modules/submenu", "bootstrap", "modules/youtubePlayer"])
 });
 </script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 </head>
 <div class="education-background second-menu">
     <div class="container-fluid background">
@@ -139,7 +140,6 @@ require(["require.config"], function() {
 </div>
 </section>
 
-
 <section class="section--whitepaper quote">
 	<div class="container revealOnScroll">
         <div class="row">
@@ -207,6 +207,43 @@ require(["require.config"], function() {
 </section>
 
 <div class="separator"></div>
+<section class="section--customerdetail">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-6 revealOnScroll">
+                <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/regioit.png" alt="in action"/></a>
+            </div>
+            <div class="col-md-6 revealOnScroll feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('regio IT offers ucloud4schools');?></p>
+                <p class="section--paragraph"><?php echo $l->t('In February 2017 regio IT migrated 3000 users to Nextcloud, delivering secure online file exchange and collaboration.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Today, regio iT is managing about 50.000 users, of which over 1000 using Collabora Online for online office, at hundreds of schools in Germany.');?></p>
+                <a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/" class="button button--blue button--arrow button--large"><?php echo $l->t('blog about initial migration');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section--whitepaper quote">
+	<div class="container revealOnScroll">
+        <div class="row">
+			<div class="col-lg-8">
+                <h2 class="revealOnScroll"><?php echo $l->t('Case Study: North-West University');?></h2>
+                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                    <p><label for="email"><?php echo $l->t('The North-West University from South Africa improves user storage mobility,<br /> collaboration and productivity with Nextcloud and Collabora Online.');?><br>
+                    <td colspan="2" style="text-align:center">
+                    <div class="">
+                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                    </div>
+                    </td>
+                    <input type="hidden" name="segmentId" value="48">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large" type="submit" value=" Get the case study "></p>
+                </form>
+            </div>
+        </div>
+        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/nwu-thumbnail-banner.png"/>
+	</div>
+</section>
+
 <a name="scalability"></a>
 <section class="section--scalability">
 <div class="container">
@@ -226,6 +263,7 @@ require(["require.config"], function() {
 		<div class="col-md-10 col-md-offset-1">
 			<div class="">
                 <div data-type="youtube" data-video-id="I5wcLS9xxMw"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/I5wcLS9xxMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>
 		</div>
     </div>

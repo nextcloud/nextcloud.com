@@ -14,3 +14,6 @@ DEFINE('RECAPTCHA_SECRET', '');
 define('MAUTIC_URL', 'https://mautic.nextcloud.com');
 define('MAUTIC_USERNAME', 'username');
 define('MAUTIC_PASSWORD', 'password');
+
+define('PROVIDERS_FILE', ABSPATH . '/preferred.json');
+define('REDIS', 'tcp://127.0.0.1:6379');

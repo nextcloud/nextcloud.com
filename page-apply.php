@@ -1,4 +1,4 @@
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<!--<script src='https://www.google.com/recaptcha/api.js'></script>-->
 <div class="page-header">
     <h1>Apply to be a listed Provider</h1>
 </div>

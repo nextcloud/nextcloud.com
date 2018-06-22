@@ -12,3 +12,7 @@ l10n/
 !/assets/css/old/*.css
 node_modules/*
 yarn.lock
+preferred.json
+nextcloud-register/
+redis/
+package-lock.json

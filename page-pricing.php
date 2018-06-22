@@ -5,7 +5,7 @@
 		require(["pages/pricing", "modules/submenu", "bootstrap"])
 	});
 	</script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/old/jquery-321.min.js"></script>
 </head>
 
 <section class="pricing-hero-section second-menu">
@@ -287,6 +287,14 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 ">
+				<div class="downarrow noRevealOnScroll"><a href="#gdpr" data-toggle="collapse"><h3><?php echo $l->t('Is Nextcloud GDPR/HIPAA/... compliant?<span class="icon-arrow-down">');?></h3></a></div>
+				<div id="gdpr" class="collapse ">
+                    <p><?php echo $l->t('Self-hosting is the quickest and easiest way to legal compliance with a wide variety of regulations. By keeping data on your company servers, there is no need for contracts with other companies or complicated audit processes.');?></p>
+					<p><?php echo $l->t('You still have comply with security and compliance requirements demanding you take appropriate security measures. A Nextcloud Subscription delivers security patches and consulting based on our expertise and Security Bug Bounty Program, helping Nextcloud customers to make sure this requirement is met.');?></p>
+					<a class="button button--blue button--small" href="https://nextcloud.com/blog/nextcloud-releases-gdpr-compliance-kit-for-on-premises-collaboration-solution" class="nav__label"><?php echo $l->t('GDPR Compliance Kit');?></a>
+					<a class="button button--blue button--small" href="<?php echo home_url('healthcare') ?>" class="nav__label"><?php echo $l->t('HIPAA and Healthcare');?></a>
+				</div>
+				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#why_opensource" data-toggle="collapse"><h3><?php echo $l->t('Why is Nextcloud Open Source?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="why_opensource" class="collapse ">
                     <a target="_blank" href="https://www.openchainproject.org/conformance"><img class="img-responsive" style="float:right; margin:5px; width: 100%; max-width: 300px;" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/openchain.png" alt="activity overview" /></a>

@@ -1,20 +1,14 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/legal.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 require(["require.config"], function() {
-	require(["pages/education", "modules/submenu", "bootstrap", "modules/youtubePlayer"])
+	require(["bootstrap", "modules/youtubePlayer"])
 });
 </script>
-<script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
-<script type="text/javascript">
-    var CaptchaCallback = function() {
-        grecaptcha.render('RecaptchaField1', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
-        grecaptcha.render('RecaptchaField2', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
-    };
-</script>
 </head>
-<div class="legal-background second-menu">
+<div class="legal-background">
     <div class="container-fluid background">
         <div class="container">
 			<div class="col-md-6 topheader">
@@ -108,7 +102,7 @@ require(["require.config"], function() {
 
 <section class="section--on-premise">
 <div class="container">
-	<h2 class="section--heading-1 revealOnScroll text-center"><?php echo $l->t('Why on-premise?');?></h2>
+	<h2 class="section--heading-1 revealOnScroll text-center"><?php echo $l->t('Why on-premises?');?></h2>
 	<div class="row">
 		<div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('You need 100% certainty');?></p>
@@ -148,6 +142,7 @@ require(["require.config"], function() {
         <div class="row feature-row">
             <div class="col-md-6 revealOnScroll image--floated">
                 <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Secure document sharing');?></p>
@@ -158,6 +153,7 @@ require(["require.config"], function() {
         <div class="row feature-row">
             <div class="col-md-6 revealOnScroll">
                 <div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/jwhfeJlYBbM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Integrated in email');?></p>
