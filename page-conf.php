@@ -73,7 +73,7 @@
 				<li>Status updates on the Calendar,  Theming and iOS apps</li>
 			</ul></p>
 <!-- 			<p class="section--paragraph revealOnScroll">Stay tuned for more information! We'll open registration later this year and expect our call for papers early 2018.</p> -->
-<!-- 			<p class="section--paragraph revealOnScroll">On Friday the 24th we have a <a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">special program with a focus on enterprise and large scale Nextcloud usage.</a></p> -->
+			<p class="section--paragraph revealOnScroll">On Monday the 27th we have a <a class="hyperlink" href="<?php echo home_url('training') ?>">special Enterprise day with a focus on enterprise and large scale Nextcloud usage.</a></p>
 <!-- 			<p class="section--paragraph revealOnScroll">Check out <a class="hyperlink" href="https://eventyay.com/e/77d26f89/schedule/">the full program</a>!</p> -->
 			<p class="section--paragraph revealOnScroll">Submit your session ideas in our <a class="hyperlink" href="https://eventyay.com/e/77d26f89/cfs/">call for papers</a> now!</p>
 <!--             <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p> -->
@@ -106,9 +106,9 @@
 <section class="section--enterprise">
 	<div class="container-fluid">
 			<div class="container">
-			<h2 class="section--heading-1 revealOnScroll">For enterprise users</h2>
-			<p class="section--paragraph revealOnScroll">Join our enterprise training day Monday August 27.<br>
-			Save the date and stay tuned for more details!</p>
+			<h2 class="section--heading-1 revealOnScroll">For enterprise</h2>
+			<p class="section--paragraph revealOnScroll">Join our Enterprise training day Monday August 27.<br/>Book now, before July 15 and get 50% off!</p>
+			<p class="section--paragraph revealOnScroll"><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Learn more and book</a></p>
 <!-- 			<p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">See the Friday Focus program in our blog!</a></p> -->
 <!-- 			<p class="section--paragraph revealOnScroll"><a class="button button--blue button--arrow button--large revealOnScroll" href="coming" role="button">Know all the features</a></p> -->
 			</div>

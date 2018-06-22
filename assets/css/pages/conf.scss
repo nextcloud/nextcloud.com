@@ -128,20 +128,16 @@ section {
     }
 
     .section--heading-1 {
-        width: 469px;
         color: white;
-
+        width: 469px;
         @media (max-width: $break-small) {
-            color: white;
             width: 100%;
         }
     }
 
     .section--paragraph {
-        color: #ffffff;
+        color: white;
         width: 469px;
-        padding-top: 30px;
-        padding-bottom: 30px;
         @media (max-width: $break-small) {
             width: 90%;
             padding-top: 10px;
