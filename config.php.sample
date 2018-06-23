@@ -15,5 +15,12 @@ define('MAUTIC_URL', 'https://mautic.nextcloud.com');
 define('MAUTIC_USERNAME', 'username');
 define('MAUTIC_PASSWORD', 'password');
 
+// Providers
 define('PROVIDERS_FILE', ABSPATH . '/preferred.json');
 define('REDIS', 'tcp://127.0.0.1:6379');
+
+// Phplist
+define('NEWSLETTER_API_URL', '');
+define('NEWSLETTER_ID', 0);
+define('NEWSLETTER_API_USER', 'admin');
+define('NEWSLETTER_API_TOKEN', 'password');
