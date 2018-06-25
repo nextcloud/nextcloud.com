@@ -21,6 +21,7 @@
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities';
 
 // Importing modules
+@import 'modules/typography';
 @import 'modules/fonts';
 @import 'variables';
 @import 'modules/normalize';
@@ -1059,7 +1060,14 @@ blockquote {
     font-weight: bold;
     line-height: 1.5;
 /*     text-align: center; */
-    color: #2a2a36; } }
+    color: #2a2a36; }
+
+  .background .topheader {
+/*  mobile heading above picture */
+    padding: 0 10px;
+  }
+
+  }
 
 /* Blue call to action bar */
 

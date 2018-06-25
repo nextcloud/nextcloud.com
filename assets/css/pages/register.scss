@@ -59,3 +59,9 @@ section {
         opacity: 1;
     }
 }
+
+@media (max-width: 768px) {
+    #register {
+        margin-top: -150px;
+    }
+}
