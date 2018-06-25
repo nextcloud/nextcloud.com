@@ -41,8 +41,8 @@
 		<div class="col-md-4 revealOnScroll">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/storage.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Deep integration');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('Integration into iOS, Android, Mac, Windows, Linux, Outlook, Thunderbird.');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('Simple deployment, configuration and integration lower costs and decrease risk while leveraging your existing IT investment.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Native integration into iOS, Android, macOS, Windows, Linux, Outlook and Thunderbird.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Simple deployment, configuration and integration lower costs and decrease risk while leveraging your existing IT investments.');?></p>
 		</div>
 	</div>
 </div>
