@@ -94,7 +94,7 @@
     margin-bottom: 15px; }
   .plans .list .check {
     /* 	font-family: OpenSans; */
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -107,7 +107,7 @@
     list-style-position: inside; }
   .plans .list .nocheck {
     /*   font-family: OpenSans; */
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -121,7 +121,7 @@
     list-style-position: inside; }
   .plans .list .optional {
     /*   font-family: OpenSans; */
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -132,7 +132,7 @@
     list-style-position: inside; }
   .plans .list .price {
     /* 	font-family: OpenSans; */
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
