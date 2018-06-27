@@ -31,7 +31,8 @@ $registerL10n = [
     'register' => $l->t('Register'),
     'change' => $l->t('change provider'),
     'close' => $l->t('close'),
-    'far' => $l->t('Far far away')
+    'far' => $l->t('Far far away'),
+    'geterror' => $l->t('Error while retrieving the providers list.')
 ];
 
 ?>
