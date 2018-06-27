@@ -2565,22 +2565,6 @@ section {
   .section--explanation .banner .col-md-6 {
     padding: 80px 0px;
     /* 			margin-left: 10% */ }
-  .section--explanation .banner .big-img {
-    position: absolute;
-    max-width: 70%;
-    height: 100%;
-    /*         top: 60px; */
-    margin-left: 30px; }
-  .section--explanation .banner .small-img {
-    position: absolute;
-    height: 100%;
-    margin-left: 30px; }
-  @media (max-width: 1600px) {
-    .section--explanation .banner .big-img {
-      display: none; } }
-  @media (min-width: 1600px) {
-    .section--explanation .banner .small-img {
-      display: none; } }
 
 .section--dicom .banner {
   background-color: #0082c9;

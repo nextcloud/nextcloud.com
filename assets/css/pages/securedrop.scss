@@ -51,7 +51,8 @@ section {
             margin-bottom: 50px;
         }
         li {
-            list-style: none;
+            list-style-image: url("../../img/enterprise/check.svg");
+            list-style-position: inside;
             color: white;
         }
     }

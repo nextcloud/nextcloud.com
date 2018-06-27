@@ -154,7 +154,7 @@ require(["require.config"], function() {
     </div>
 </section>
 
-<section class="section--explanation">
+<section class="section--explanation benefits">
 <div class="container-fluid banner">
     <div class="container">
         <div class="col-md-6">

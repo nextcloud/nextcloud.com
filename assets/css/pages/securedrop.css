@@ -42,7 +42,8 @@ section {
   margin-right: auto;
   margin-bottom: 50px; }
 .section--keyfeatures .container-fluid li {
-  list-style: none;
+  list-style-image: url("../../img/enterprise/check.svg");
+  list-style-position: inside;
   color: white; }
 
 .section--details .row {

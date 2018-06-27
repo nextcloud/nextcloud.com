@@ -196,7 +196,7 @@
 	<div class="container">
 		<div class="col-md-6  image--floated">
 			<div data-type="youtube" data-video-id="NRhVP9rXHVY"></div>
-			<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/NRhVP9rXHVY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<iframe width="100%" height="315" src="https://www.youtube.com/embed/NRhVP9rXHVY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Seamless collaboration');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The core strength of Nextcloud is its ability to enhance team productivity on the go with an easy user interface on mobile, web and desktop and powerful integrated collaboration and communication capabilities.');?></p>
