@@ -151,7 +151,7 @@
             <p class="section--paragraph revealOnScroll text-center"><a href="http://www.tu-berlin.de/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/tub-logo.png" alt="TUBerlin logo" class="aligncenter img-responsive" /></a></p>
         </div>
         <div class="col-md-4">
-            <p class="section--paragraph revealOnScroll text-center"><a href="https://https://tuxedocomputers.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/tuxedo.png"  alt="Tuxedo Computers logo" class="aligncenter img-responsive" /></a></p>
+            <p class="section--paragraph revealOnScroll text-center"><a href="https://tuxedocomputers.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/tuxedo.png"  alt="Tuxedo Computers logo" class="aligncenter img-responsive" /></a></p>
         </div>
         <div class="col-md-4">
             <p class="section--paragraph revealOnScroll text-center"><a href="http://www.admin-magazine.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/AdminMagazine.png" alt="Admin mag logo" class="aligncenter img-responsive" /></a></p>
