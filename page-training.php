@@ -16,7 +16,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-            <p class="section--paragraph text-center">The Nextcloud Enterprise Day provides IT professionals the opportunity to define their own strategy to get the most out of Nextcloud. Meet Nextcloud experts, learn best practices and build up skills!</p>
+            <p class="section--paragraph text-center">The Nextcloud Enterprise Day provides IT professionals like project managers and decision makers the opportunity to define their own strategy to get the most out of Nextcloud. Meet Nextcloud experts, learn best practices and build up skills!</p>
             <p class="section--paragraph text-center"><a href="https://eventyay.com/e/571509c9/" class="button button--blue button--arrow button--large">Sign up now!</a></p>
 		</div>
 	</div>
@@ -88,9 +88,9 @@
         <p class="section--heading-1 section--text--center revealOnScroll">Benefits</p>
         <p class="section--paragraph revealOnScroll">At our Enterprise day you get an opportunity to discuss changing demands in business and their impact on IT security. Our experts will help you get ahead of the curve and benefit from the opportunities while avoiding the downsides.</p>
         <ul>
-        <li class="revealOnScroll"><i class="fa-check fa"></i> Get the most out of Nextcloud for users and admins</li>
-        <li class="revealOnScroll"><i class="fa-check fa"></i> Learn best practices and unique skills from experts</li>
+        <li class="revealOnScroll"><i class="fa-check fa"></i> Get the most out of Nextcloud for your business</li>
         <li class="revealOnScroll"><i class="fa-check fa"></i> Speed up decision making, deployment, integration & development</li>
+        <li class="revealOnScroll"><i class="fa-check fa"></i> Learn best practices and unique skills from experts</li>
         <li class="revealOnScroll"><i class="fa-check fa"></i> Meet the developers and decision makers of Nextcloud</li>
         <li class="revealOnScroll"><i class="fa-check fa"></i> Meet other customers and partners</li>
         </ul>
