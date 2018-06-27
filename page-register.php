@@ -6,6 +6,7 @@
 </script>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/register.css" rel="stylesheet">
 </head>
+
 <?php
 include __DIR__ . '/vendor/autoload.php';
 include __DIR__ . '/config.php';
@@ -30,6 +31,7 @@ $registerL10n = [
     'register' => $l->t('Register'),
     'change' => $l->t('change provider'),
     'close' => $l->t('close'),
+    'far' => $l->t('Far far away')
 ];
 
 ?>
@@ -45,16 +47,7 @@ $registerL10n = [
 		</div>
 	</div>
 </div>
-<!--<section class="section--intro">
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <p class="section--paragraph text-center"><?php echo $l->t('');?></p>
-            <p class="section--paragraph text-center"></p>
-        </div>
-    </div>
-</div>
-</section>-->
+
 <section class="section--providers">
   <div id="register" class="container"
   	   data-ll="<?php echo htmlspecialchars(json_encode($location)) ?>"
