@@ -2376,6 +2376,9 @@ section {
   background: #f6f6f6; }
 
 /* Sections */
+.section--intro p {
+  margin-top: 15px; }
+
 .section--gdpr-apps .check {
   list-style-image: url("../../img/enterprise/check.svg"); }
 
