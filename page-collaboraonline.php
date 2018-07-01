@@ -133,7 +133,7 @@
 			<ol>
 				<li class="section--paragraph"><?php echo $l->t('A host that can run a Docker container');?></li>
 				<li class="section--paragraph"><?php echo $l->t('A subdomain or a second domain that the Collabora Online server can run on');?></li>
-				<li class="section--paragraph"><?php echo $l->t('An Apache server with some enabled modules (<a class="hyperlink" href="https://icewind.nl/entry/collabora-online">NGNIX instructions in a blog here</a>)');?></li>
+				<li class="section--paragraph"><?php echo $l->t('An Apache server with some enabled modules (<a class="hyperlink" href="https://icewind.nl/entry/collabora-online">NGINX instructions in a blog here</a>)');?></li>
 				<li class="section--paragraph"><?php echo $l->t('A valid SSL certificate for the domain that Collabora Online should run on');?></li>
 				<li class="section--paragraph"><?php echo $l->t('A valid SSL certificate for your Nextcloud');?></li>
 			</ol>
