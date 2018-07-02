@@ -123,15 +123,15 @@
                 </thead>-->
                 <tbody>
                     <tr>
-                    <th scope="row">9:00-9:30</th>
+                    <th scope="row">9:00</th>
                     <td><span class="break">Introductions, coffee and tea</span></td>
                     </tr>
                     <tr>
-                    <th scope="row">9:30-10:00</th>
+                    <th scope="row">9:30</th>
                     <td>Welcome</td>
                     </tr>
                     <tr>
-                    <th scope="row">10:00-10:30</th>
+                    <th scope="row">10:00</th>
                     <td>The future of File Sync and Share: road map to collaboration</td>
                     </tr>
                     <tr>
@@ -139,11 +139,11 @@
                     <td><span class="break">Break</span></td>
                     </tr>
                     <tr>
-                    <th scope="row">11:00-11:45</th>
+                    <th scope="row">11:00</th>
                     <td>Two case study presentations</td>
                     </tr>
                     <tr>
-                    <th scope="row">11:45-12:30</th>
+                    <th scope="row">11:45</th>
                     <td>Nextcloud productivity partners:<br>
                         <ul>
                             <li>Collabora Online</li>
@@ -151,39 +151,39 @@
                         </ul></td>
                     </tr>
                     <tr>
-                    <th scope="row">12:30-14:00</th>
+                    <th scope="row">12:30</th>
                     <td><span class="break">Lunch</span></td>
                     </tr>
                     <tr>
-                    <th scope="row">14:00-14:30</th>
+                    <th scope="row">14:00</th>
                     <td>Getting the most out of Nextcloud Files</td>
                     </tr>
                     <tr>
-                    <th scope="row">14:30-15:00</th>
+                    <th scope="row">14:30</th>
                     <td>Nextcloud Talk: facilitating communication</td>
                     </tr>
                     <tr>
-                    <th scope="row">15:00-15:30</th>
+                    <th scope="row">15:00</th>
                     <td>Nextcloud Groupware: facilitating collaboration</td>
                     </tr>
                     <tr>
-                    <th scope="row">15:30-16:00</th>
+                    <th scope="row">15:30</th>
                     <td><span class="break">Break</span></td>
                     </tr>
                     <tr>
-                    <th scope="row">16:00-17:00</th>
+                    <th scope="row">16:00</th>
                     <td>Scalability, monitoring and debugging in Nextcloud</td>
                     </tr>
                     <tr>
-                    <th scope="row">17:00-17:30</th>
+                    <th scope="row">17:00</th>
                     <td>Efficient user management</td>
                     </tr>
                     <tr>
-                    <th scope="row">17:30-18:00</th>
+                    <th scope="row">17:30</th>
                     <td>Securing Nextcloud: authentication, encryption and more</td>
                     </tr>
                     <tr>
-                    <th scope="row">18:00-21:00</th>
+                    <th scope="row">18:00</th>
                     <td><span class="break">Drinks and networking with a nice view</span></td>
                     </tr>
                     <tr>
