@@ -95,7 +95,6 @@
 			position: absolute;
             height: 100%;
             margin-left: 55%;
-
             bottom: 0;
             left: 0;
 		}
@@ -122,6 +121,14 @@
             display: inline;
             }
         }
+        @media (max-width: $break-big) {
+		.small-img {
+			display: none;
+			}
+		.big-img {
+			display: none;
+			}
+		}
 	}
 }
 .section--text--center {
