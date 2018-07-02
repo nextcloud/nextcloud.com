@@ -135,7 +135,7 @@
                     <td>The future of File Sync and Share: road map to collaboration</td>
                     </tr>
                     <tr>
-                    <th scope="row">10:30-11:00</th>
+                    <th scope="row">10:30</th>
                     <td><span class="break">Break</span></td>
                     </tr>
                     <tr>
