@@ -143,12 +143,15 @@
                     <td>Two case study presentations</td>
                     </tr>
                     <tr>
-                    <th scope="row">11:45</th>
+                    <th scope="row">11:30</th>
                     <td>Nextcloud productivity partners:<br>
                         <ul>
                             <li>Collabora Online</li>
                             <li>Outlook Add-in</li>
                         </ul></td>
+                    </tr>
+                    <th scope="row">12:00</th>
+                    <td>Nextcloud and GDPR compliance</td>
                     </tr>
                     <tr>
                     <th scope="row">12:30</th>
