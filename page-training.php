@@ -86,7 +86,7 @@
     <div class="container">
     <div class="col-md-6">
         <p class="section--heading-1 section--text--center revealOnScroll">Benefits</p>
-        <p class="section--paragraph revealOnScroll">At our Enterprise day you get an opportunity to discuss changing demands in business and their impact on IT security. Our experts will help you get ahead of the curve and benefit from the opportunities while avoiding the downsides.</p>
+        <p class="section--paragraph revealOnScroll">At our Enterprise day you get an opportunity to discuss changing demands in business and their impact on IT security. Our experts will help you get ahead of the curve and benefit from the opportunities while avoiding the downsides of the cloud.</p>
         <ul>
         <li class="revealOnScroll"><i class="fa-check fa"></i> Get the most out of Nextcloud for your business</li>
         <li class="revealOnScroll"><i class="fa-check fa"></i> Speed up decision making, deployment, integration & development</li>
