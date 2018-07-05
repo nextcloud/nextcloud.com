@@ -1376,5 +1376,33 @@
             "Securely Hosted Nextcloud Platforms, on QNE, offer industry-leading file sync and online collaboration technologies"
          ],
          "imagename":"qloudit.png"
+      },
+    {
+         "title":"JANAS TECHNOLOGIES",
+         "url":"https:\/\/www.janas-tech.com\/index.php\/36-icon-posts\/88-private-cloud",
+         "flags":[
+            "it"
+         ],
+         "freeplans":false,
+         "supports":"organisation",
+         "specializes":[
+            "We offer private cloud solution realized with the complete integration between Nextcloud, OnlyOffice and Zimbra collaboration server"
+         ],
+         "imagename":"janas.png"
+      },
+    {
+         "title":"CloudNow GmbH",
+         "url":"https:\/\/www.cloudnow.at\/cloud-files",
+         "flags":[
+            "at",
+            "de",
+            "ch"
+         ],
+         "freeplans":false,
+         "supports":"organisation",
+         "specializes":[
+            "We offer NextCloud on our HA grade Infrastructure in Austria on NetApp Storage and HP Enterprise Servers. Hourly Backups and 99.95% uptime."
+         ],
+         "imagename":"cloudnow.png"
       }
 ]
