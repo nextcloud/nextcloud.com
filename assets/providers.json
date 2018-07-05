@@ -1318,5 +1318,63 @@
             "Support, Installation und sichere Hostinglösungen von pro-ite. Ihre Daten werden auf Servern im ISO 27001 zertifizierten Rechenzentrum vorgehalten."
          ],
          "imagename":"pro-ite.png"
+      },
+    {
+         "title":"innoXchain GmbH",
+         "url":"https:\/\/www.innoxchain.com\/de\/portfolio-items\/nextcloud-hosting\/",
+         "flags":[
+            "de",
+            "at",
+            "ch",
+            "eu"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Wir bieten gemanagtes Nextcloud-Hosting Datenschutz-konform nach DSGVO mit ISO 27001 zertifizierten Rechenzentren in Deutschland."
+         ],
+         "imagename":"innoxchain.png"
+      },
+    {
+         "title":"TAB.DIGITAL",
+         "url":"https:\/\/tab.digital",
+         "flags":[
+            "nl",
+            "se",
+            "lv"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Just think about your business! No more worries about services located in different places. More opportunity with Nextcloud"
+         ],
+         "imagename":"tab.png"
+      },
+    {
+         "title":"peaknetworks",
+         "url":"https:\/\/www.peaknetworks.at\/nextcloud-hosting\/",
+         "flags":[
+            "ch",
+            "eu"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "Fast and secure Nextcloud Hosting on ZFS based storage, Nginx reverse caching proxy, PHP-FPM with Opcache for EU and Swiss customers."
+         ],
+         "imagename":"peaknetworks.png"
+      },
+    {
+         "title":"QloudIT",
+         "url":"https:\/\/www.qloudit.com\/hosted-nextcloud",
+         "flags":[
+            "us"
+         ],
+         "freeplans":false,
+         "supports":"organisation",
+         "specializes":[
+            "Securely Hosted Nextcloud Platforms, on QNE, offer industry-leading file sync and online collaboration technologies"
+         ],
+         "imagename":"qloudit.png"
       }
 ]
