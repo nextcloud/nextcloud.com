@@ -2489,7 +2489,7 @@ section {
         .section--getmobile .banner .small-img {
           height: 75%;
           top: 200px;
-          left: 20px; }
+          left: -20px; }
         .section--getmobile .banner .col-md-8 {
           padding: 20px 0; }
         .section--getmobile .banner .mobileclientbuttons {
