@@ -233,7 +233,7 @@
 /* Other Products section */
 .section--others {
   margin: 0 0 0 0;
-  padding: 90px 70px 70px 70px;
+  padding: 90px 0 70px 0;
   background-color: #eee; }
   .section--others .row {
     margin-bottom: 10px; }

@@ -2,7 +2,6 @@
 @import '../modules/transparent-navbar';
 @import '../../fonts/fork-awesome/css/fork-awesome.min';
 
-
 .files-background {
 	background: url('../../img/headers/yourcloud.jpg') no-repeat;
 	background-position: center;
@@ -106,7 +105,7 @@ section {
 
 .section--others {
     margin: 0 0 0 0;
-    padding: 90px 70px 70px 70px;
+    padding: 90px 0 70px 0;
     background-color: #eee;
     .row {
         margin-bottom: 10px;

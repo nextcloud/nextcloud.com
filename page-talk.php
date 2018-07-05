@@ -251,28 +251,32 @@
 		</div>
 	</div>
     <div class="row revealOnScroll">
-        <div class="col-md-2 col-md-offset-3 col-sm-4">
-			<div class="featureblock">
-				<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
-				<p class="section--paragraph__tittle"><?php echo $l->t('Dial-in anywhere');?></p>
-				<p class="section--paragraph"><?php echo $l->t('Let participants join through a phone line, wherever they are');?></p>
-			</div>
+        <div class="col-lg-10 col-lg-offset-1 col-md-12">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="featureblock">
+                        <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
+                        <p class="section--paragraph__tittle"><?php echo $l->t('Dial-in anywhere');?></p>
+                        <p class="section--paragraph"><?php echo $l->t('Let participants join through a phone line, wherever they are');?></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="featureblock">
+                        <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/manual.svg" /></div>
+                        <p class="section--paragraph__tittle"><?php echo $l->t('No limitations');?></p>
+                        <p class="section--paragraph"><?php echo $l->t('Improved connectivity behind firewalls and restrictive networks and more participants in a call');?></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="featureblock">
+                        <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/2fa.svg" /></div>
+                        <p class="section--paragraph__tittle"><?php echo $l->t('Get started quickly');?></p>
+                        <p class="section--paragraph"><?php echo $l->t('Remote installation support from a certified Nextcloud engineer');?></p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-2 col-sm-4">
-			<div class="featureblock">
-				<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/manual.svg" /></div>
-				<p class="section--paragraph__tittle"><?php echo $l->t('No limitations');?></p>
-				<p class="section--paragraph"><?php echo $l->t('Improved connectivity behind firewalls and restrictive networks and more participants in a call');?></p>
-			</div>
-        </div>
-        <div class="col-md-2 col-sm-4">
-			<div class="featureblock">
-				<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/2fa.svg" /></div>
-				<p class="section--paragraph__tittle"><?php echo $l->t('Get started quickly');?></p>
-				<p class="section--paragraph"><?php echo $l->t('Remote installation support from a certified Nextcloud engineer');?></p>
-			</div>
-        </div>
-	</div>
+    </div>
 	<div class="row">
         <div class="col-md-4 col-md-offset-4">
             <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('The Spreed back-end improves connection speed and reliability, decreases server load and allows more people in a call by improving network efficiency.');?></p>
@@ -291,13 +295,13 @@
     <div class="row">
         <div class="col-sm-6 revealOnScroll">
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('
-            Starting at EUR 5000/USD 6000 per year plus
+            Starting at EUR 5000/USD 6000 per year plus');?>
             <ul>
-                <li>EUR 25/USD 30 per user per year at 50 users</li>
-                <li>EUR 12.5/USD 15 per user per year at 500 users</li>
+                <li><?php echo $l->t('EUR 25/USD 30 per user per year at 50 users');?></li>
+                <li><?php echo $l->t('EUR 12.5/USD 15 per user per year at 500 users');?></li>
             </ul>
-            further volume discounts at larger user numbers
-            ');?></p>
+            <?php echo $l->t('further volume discounts at larger user numbers');?>
+            </p>
         </div>
         <div class="col-sm-6 revealOnScroll">
             <div class="text-center morebuttondiv">

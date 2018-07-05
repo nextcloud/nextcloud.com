@@ -57,7 +57,7 @@ section {
 
 .section--contact {
   margin: 100px 0 0 0;
-  padding: 90px 70px 70px 70px;
+  padding: 90px 0 70px 0;
   background: #0082c9; }
   .section--contact p {
     color: white; }

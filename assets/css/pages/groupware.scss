@@ -1,7 +1,6 @@
 @import '../variables';
 @import '../modules/transparent-navbar';
 /* @import '../modules/vertical'; */
-
 .groupware-background {
   background: url("../../img/headers/groupware.jpg") no-repeat;
   background-position: center;
@@ -79,7 +78,7 @@ section {
 
 .section--contact {
     margin: 100px 0 0 0;
-    padding: 90px 70px 70px 70px;
+    padding: 90px 0 70px 0;
     background: $nextcloud-blue;
 
     p {
