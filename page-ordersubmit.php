@@ -1,5 +1,6 @@
 <head>
-<script>
+<meta charset="utf-8">
+    <script>
 	require(["require.config"], function() {
 		require(["pages/enterprise"])
 	});
