@@ -93,6 +93,6 @@ $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA = 'https://f-droid.org/packages/com.nextclou
 $DOWNLOAD_CLIENT_MOBILE_WIN = 'https://www.microsoft.com/store/apps/9nblggh532xq';
 
 // Outlook Add-in
-$DOWNLOAD_OUTLOOK_ADDON_FREE = 'https://download.nextcloud.com/outlook/20171024/';
+$DOWNLOAD_OUTLOOK_ADDON_FREE = 'https://download.nextcloud.com/outlook/';
 
 ?>
