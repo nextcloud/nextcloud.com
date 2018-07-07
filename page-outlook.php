@@ -59,8 +59,8 @@
 				</div>
 				<div class="col-md-6 revealOnScroll featureblock">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Features');?></p>
-					<p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in lets you pick local files and upload them to Nextcloud. It can provide a link where the recipient of the email can upload files to and enables customization (via html) of the inserted information. Admins can optionally enforce passwords which can be custom or auto-generated. A default expiration date can also be set.');?></p>
-					<p class="section--paragraph"><?php echo $l->t('New users can enjoy user-friendly setup dialog to get going, and the Upload Files / Share Public Folder option is directly available in the ‘message’ tab.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in turns email attachments into Nextcloud links, manually or automatically. It can insert upload links where the recipient of the email can upload files to. Users can add passwords and expiration dates, the admin can enforce setting these if needed.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('New users can enjoy the user-friendly setup dialog to get going, and the Upload Files / Share Public Folder option is directly available in the ‘message’ tab.');?></p>
 
 				</div>
 			</div>
@@ -80,7 +80,6 @@
                     <li><?php echo $l->t('Domain whitelisting');?></li>
                     <li><?php echo $l->t('Multi Language support');?></li>
                     <li><?php echo $l->t('Branding');?></li>
-                    <li><?php echo $l->t('Support for high DPI resolution');?></li>
                 </div>
             </div>
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('The add-in works with Microsoft Outlook 2010, 2013 and 2016 for Windows.');?></p>
