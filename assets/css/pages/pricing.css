@@ -87,6 +87,10 @@
       letter-spacing: 0;
       margin-top: 25px;
       margin-bottom: 0px; }
+    .plans .table-content .button--large {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      width: 100%; }
   .plans .line {
     width: 100%;
     border: solid 1px #eeeeee;
@@ -120,11 +124,6 @@
     list-style-image: url("../../img/enterprise/blank.svg");
     list-style-position: inside;
     color: #555555; }
-  .plans .table-content .btn-lg {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 100%;
-    text-indent: -20px; }
   .plans .overinfo .infotext {
     visibility: hidden;
     /*     width: 200px; */
