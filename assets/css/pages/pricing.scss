@@ -112,76 +112,52 @@
 	margin-bottom: 15px;
 	}
 
-	.list .check {
-	/* 	font-family: OpenSans; */
-	font-size: 18px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 2.5;
-	color: #555555;
-	}
-
 	.hyperlink {
 		color: #555555;
 	}
 
-	.list .check {
-	list-style-image: url("../../img/enterprise/check.svg");
-	list-style-position:inside;
-	}
 
-	.list .nocheck {
-	/*   font-family: OpenSans; */
-	font-size: 18px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 2.5;
-	color: #b1b1b1;
-
-		a {
-		color: #b1b1b1;
-		text-decoration: none;
+	.list {
+		li {
+			font-size: 18px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.2;
+			height: 50px;
 		}
+
+		.check {
+			list-style-image: url("../../img/enterprise/check.svg");
+			list-style-position:inside;
+			color: #555555;
+		}
+
+		.nocheck {
+			list-style-image: url("../../img/enterprise/nocheck.svg");
+			list-style-position:inside;
+			color: #b1b1b1;
+
+			a {
+				color: #b1b1b1;
+				text-decoration: none;
+			}
+		}
+
+
+		.optional {
+			list-style-image: url("../../img/enterprise/optional.svg");
+			list-style-position:inside;
+			color: #555555;
+		}
+
+		.price {
+			list-style-image: url("../../img/enterprise/blank.svg");
+			list-style-position:inside;
+			color: #555555;
+		}
+
 	}
-
-	.list .nocheck {
-	list-style-image: url("../../img/enterprise/nocheck.svg");
-	list-style-position:inside;
-	}
-
-
-	.list .optional {
-	/*   font-family: OpenSans; */
-	font-size: 18px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 2.5;
-	color: #555555;
-	}
-
-	.list .optional {
-	list-style-image: url("../../img/enterprise/optional.svg");
-	list-style-position:inside;
-	}
-
-	.list .price {
-	/* 	font-family: OpenSans; */
-	font-size: 18px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 2.5;
-	color: #555555;
-	}
-
-	.list .price {
-	list-style-image: url("../../img/enterprise/blank.svg");
-	list-style-position:inside;
-	}
-
 
 	.table-content .btn-lg {
 		margin-top: 30px;

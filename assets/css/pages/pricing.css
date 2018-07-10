@@ -92,55 +92,34 @@
     border: solid 1px #eeeeee;
     margin-top: -5px;
     margin-bottom: 15px; }
-  .plans .list .check {
-    /* 	font-family: OpenSans; */
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2.5;
-    color: #555555; }
   .plans .hyperlink {
     color: #555555; }
-  .plans .list .check {
-    list-style-image: url("../../img/enterprise/check.svg");
-    list-style-position: inside; }
-  .plans .list .nocheck {
-    /*   font-family: OpenSans; */
+  .plans .list li {
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 2.5;
+    line-height: 1.2;
+    height: 50px; }
+  .plans .list .check {
+    list-style-image: url("../../img/enterprise/check.svg");
+    list-style-position: inside;
+    color: #555555; }
+  .plans .list .nocheck {
+    list-style-image: url("../../img/enterprise/nocheck.svg");
+    list-style-position: inside;
     color: #b1b1b1; }
     .plans .list .nocheck a {
       color: #b1b1b1;
       text-decoration: none; }
-  .plans .list .nocheck {
-    list-style-image: url("../../img/enterprise/nocheck.svg");
-    list-style-position: inside; }
-  .plans .list .optional {
-    /*   font-family: OpenSans; */
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2.5;
-    color: #555555; }
   .plans .list .optional {
     list-style-image: url("../../img/enterprise/optional.svg");
-    list-style-position: inside; }
-  .plans .list .price {
-    /* 	font-family: OpenSans; */
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2.5;
+    list-style-position: inside;
     color: #555555; }
   .plans .list .price {
     list-style-image: url("../../img/enterprise/blank.svg");
-    list-style-position: inside; }
+    list-style-position: inside;
+    color: #555555; }
   .plans .table-content .btn-lg {
     margin-top: 30px;
     margin-bottom: 30px;
