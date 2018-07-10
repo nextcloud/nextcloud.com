@@ -86,23 +86,28 @@
 	}
 
 	.table-content {
-	margin: 15px;
-	padding: 0px;
-	margin-left: 30px;
-	margin-right: 30px;
+		margin: 15px;
+		padding: 0px;
+		margin-left: 30px;
+		margin-right: 30px;
 
-	h1 {
-		font-size: 18px;
-		font-weight: 600;
-		font-style: normal;
-		font-stretch: normal;
-		line-height: 2.22;
-		color: #555555;
-		text-align: left;
-		letter-spacing: 0;
-		margin-top: 25px;
-		margin-bottom: 0px;
-	}
+		h1 {
+			font-size: 18px;
+			font-weight: 600;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 2.22;
+			color: #555555;
+			text-align: left;
+			letter-spacing: 0;
+			margin-top: 25px;
+			margin-bottom: 0px;
+		}
+		.button--large {
+			margin-top: 30px;
+			margin-bottom: 30px;
+			width: 100%;
+		}
 	}
 
 	.line {
@@ -159,13 +164,6 @@
 
 	}
 
-	.table-content .btn-lg {
-		margin-top: 30px;
-		margin-bottom: 30px;
-		width: 100%;
-		text-indent: -20px;
-	}
-
 
 	/* Tooltips */
 
@@ -213,6 +211,8 @@
 	.overinfo:hover .infotext {
 		opacity: 1;
 	}
+
+
 }
 
 /* options section */

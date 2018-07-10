@@ -80,7 +80,7 @@
 					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Additional pricing tiers are available up to 10 million users');?></li>
 					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
 				</div>
-				<a class="btn btn-primary btn-lg btn-absolute-icon" href="<?php echo home_url('enterprise/buy') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
+				<a class="button button--blue button--arrow button--large" href="<?php echo home_url('enterprise/buy') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
 		</div>
 		<div class="col-md-4 table-column">
@@ -121,7 +121,7 @@
 					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Additional pricing tiers are available up to 10 million users');?></li>
 					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
 				</div>
-				<a class="btn btn-primary btn-lg btn-absolute-icon" href="<?php echo home_url('enterprise/buy') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
+				<a class="button button--blue button--arrow button--large" href="<?php echo home_url('enterprise/buy') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
 		</div>
 		<div class="col-md-4 table-column highlight">
@@ -163,7 +163,7 @@
 					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
 				</div>
 				<a name="extracosts" id="extracosts"></a> <!--has to be here due to header-->
-				<a class="btn btn-primary btn-lg btn-absolute-icon" href="<?php echo home_url('enterprise/buy') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
+				<a class="button button--blue button--arrow button--large" href="<?php echo home_url('enterprise/buy') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
 		</div>
 	</div>
