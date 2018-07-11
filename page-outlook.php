@@ -20,7 +20,7 @@
 	</div>
 </div>
 
-<section class="file-sharing">
+<section class="section--file-sharing">
 	<div class="container">
 		<div class="featurerow">
 			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Secure File Sharing by email');?></h1>
@@ -72,14 +72,18 @@
             </div>
             <div class="row">
 				<div class="col-md-6 revealOnScroll featureblock">
-                    <li><?php echo $l->t('Activity tracker notifying about file uploads/downloads');?></li>
-                    <li><?php echo $l->t('Policy enforcement options');?></li>
-                    <li><?php echo $l->t('Customizable upload path');?></li>
+                    <ul>
+                        <li><?php echo $l->t('Activity tracker notifying about file uploads/downloads');?></li>
+                        <li><?php echo $l->t('Policy enforcement options');?></li>
+                        <li><?php echo $l->t('Customizable upload path');?></li>
+                    </ul>
 				</div>
                 <div class="col-md-6 revealOnScroll featureblock">
-                    <li><?php echo $l->t('Domain whitelisting');?></li>
-                    <li><?php echo $l->t('Multi Language support');?></li>
-                    <li><?php echo $l->t('Branding');?></li>
+                    <ul>
+                        <li><?php echo $l->t('Domain whitelisting');?></li>
+                        <li><?php echo $l->t('Multi Language support');?></li>
+                        <li><?php echo $l->t('Branding');?></li>
+                    </ul>
                 </div>
             </div>
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('The add-in works with Microsoft Outlook 2010, 2013 and 2016 for Windows.');?></p>
