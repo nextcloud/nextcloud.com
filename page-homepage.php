@@ -41,7 +41,7 @@
 			<div class="highlights_align">
 				<div class="flexibility-icon" data-animation-path="img/home/flexibility/" data-anim-loop="false" data-name="flexibility"></div>
 				<h4 class="revealOnScroll"><?php echo $l->t('Productivity');?></h4>
-				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Enable productivity across any platform, whether in the office or on the road, to share, collaborate and communicate across organizational boundaries. Nextcloud provides transparent access to data on any back-end.');?></p>
+				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Enable productivity across any platform, whether in the office or on the road, to share, collaborate and communicate across organizational boundaries. Nextcloud provides transparent access to data on any storage.');?></p>
 			</div>
 			<div class="highlights_align">
 				<div class="community-icon" data-animation-path="img/home/community/" data-anim-loop="false" data-name="community"></div>
@@ -60,7 +60,7 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h2 class=" section--heading-1 text-center revealOnScroll"><?php echo $l->t('Powering collaboration');?></h2>
-                <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('<span class="avoidwrap">for millions of users</span> <span class="avoidwrap">at thousands of organizations</span> <span class="avoidwrap">across the globe</span>');?></p>
+                <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('<span class="avoidwrap">the most popular self-hosted collaboration solution</span> <span class="avoidwrap">for tens of millions of users</span> <span class="avoidwrap">at thousands of organizations</span> <span class="avoidwrap">across the globe</span>');?></p>
             </div>
         </div>
         <div class="row revealOnScroll">
@@ -135,6 +135,20 @@
     </div>
 </div>
 </section>
+
+<section class="section--conf">
+	<div class="container-fluid">
+			<div class="container">
+			<h2 class="section--heading-1 revealOnScroll">Nextcloud Conference</h2>
+			<p class="section--paragraph revealOnScroll">Join our premier contributor event, August 23-30 in Berlin, Germany!<br>
+			Featuring our Enterprise Day Monday August 27.</p>
+			<p class="section--paragraph revealOnScroll"><a href="<?php echo home_url('conf') ?>" class="button button--arrow button--large button--blue">Contributor event</a><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Enterprise Day</a></p>
+<!-- 			<p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">See the Friday Focus program in our blog!</a></p> -->
+<!-- 			<p class="section--paragraph revealOnScroll"><a class="button button--blue button--arrow button--large revealOnScroll" href="coming" role="button">Know all the features</a></p> -->
+			</div>
+	</div>
+</section>
+
 <section class="underyourcontrol">
 <div class="container-fluid" id="perfect-for-home-and-business">
 		<div class="container">

@@ -343,6 +343,8 @@
     }
 }
 
+
+
 /**
 * Home page: Introducing Nextcloud X
 */
@@ -357,6 +359,43 @@
   }
 }
 
+.section--conf {
+    margin: 100px 0 100px 0;
+    padding: 50px 0 30px 0;
+    background-image: url('../../img/headers/team.jpg');
+    background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
+    /*   @media (max-width: $break-small) { */
+    /*     background-image: url('../../img/home/perfect-for-home-and-business-mobile.jpg'); */
+    /*   } */
+
+    .button {
+        margin-right: 30px;
+    }
+
+    @media (min-width: $very-wide) {
+        padding-top: 120px;
+        padding-bottom: 180px;
+    }
+
+    .section--heading-1 {
+        color: white;
+        width: 669px;
+        @media (max-width: $break-small) {
+            width: 100%;
+        }
+    }
+
+    .section--paragraph {
+        color: white;
+        width: 669px;
+        @media (max-width: $break-small) {
+            width: 90%;
+            padding-top: 10px;
+        }
+    }
+}
 
 .introducing-nc-release {
   padding-top: 100px;
