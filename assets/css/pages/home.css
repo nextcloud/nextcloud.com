@@ -282,6 +282,36 @@
     .right-text-grey {
       text-align: center; } }
 
+.section--conf {
+  margin: 100px 0 100px 0;
+  padding: 50px 0 30px 0;
+  background-image: url("../../img/headers/team.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  /*   @media (max-width: $break-small) { */
+  /*     background-image: url('../../img/home/perfect-for-home-and-business-mobile.jpg'); */
+  /*   } */ }
+  .section--conf .button {
+    margin-right: 30px; }
+  @media (min-width: 1600px) {
+    .section--conf {
+      padding-top: 120px;
+      padding-bottom: 180px; } }
+  .section--conf .section--heading-1 {
+    color: white;
+    width: 669px; }
+    @media (max-width: 768px) {
+      .section--conf .section--heading-1 {
+        width: 100%; } }
+  .section--conf .section--paragraph {
+    color: white;
+    width: 669px; }
+    @media (max-width: 768px) {
+      .section--conf .section--paragraph {
+        width: 90%;
+        padding-top: 10px; } }
+
 .introducing-nc-release {
   padding-top: 100px;
   padding-bottom: 75px; }
