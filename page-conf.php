@@ -35,6 +35,41 @@
 	</div>
 </section>
 
+<section class="section--program">
+    <div class="container">
+        <div class="row text-center">
+            <h1 class="revealOnScroll">Program overview</h1>
+		</div>
+		<div style="overflow-y: auto;">
+        <div  style="width: 1120px">
+            <table class="table">
+            <tbody>
+            <tr>
+            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Thursday<br> August 23</th>
+            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Friday<br> August 24</th>
+            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Saturday<br> August 25</th>
+            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Sunday<br> August 26</th>
+            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Monday<br> August 27</th>
+            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Tuesday<br> August 28</th>
+            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Wednesday<br> August 29</th>
+            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Thursday<br> August 30</th>
+            </tr>
+            <tr>
+            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek</td>
+            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek</td>
+            <td style="border-top: none; padding: 12px; text-align: center;"><strong>Keynotes, talks and workshops!</strong></td>
+            <td style="border-top: none; padding: 12px; text-align: center;"><strong>Keynotes, talks and workshops!</strong></td>
+            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek, <strong><a href="<?php echo home_url('training') ?>">Enterprise Day</a></strong></td>
+            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek</td>
+            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek</td>
+            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek</td>
+            </tr></tbody>
+            </table>
+        </div>
+        </div>
+    </div>
+</section>
+
 <section class="section--speakers" style="background: url('/wp-content/themes/next/assets/img/conference/keynotespeakers.jpg');height:500px;background-size:cover;background-position: center;">
     <div class="container">
         <div class="row">
@@ -49,9 +84,9 @@
 		<div class="col-sm-5">
 			<div class="icon revealOnScroll">
 				<i class="fa fa-code"></i>
-			<h1>Development</h1>
+			<h1>Hackweek</h1>
 			</div>
-			<p class="section--paragraph revealOnScroll">During the week we collaborate on Nextcloud improvements in design, functionality, stability, performance and features. We share code, thoughts, inspiration, beer and knowledge, working in areas like:</p>
+			<p class="section--paragraph revealOnScroll">During the hackweek we collaborate on Nextcloud improvements in design, functionality, stability, performance and features. We share code, thoughts, inspiration, beer and knowledge, working in areas like:</p>
 			<ul class="revealOnScroll">
 				<li>Coding (PHP, JS, C++, Objective-C, Java)</li>
 				<li>Design &amp; Front-end</li>
