@@ -62,6 +62,11 @@ require(["require.config"], function() {
 						<th>Date</th>
 					</tr>
 					<tr>
+						<td><a class="hyperlink" target="_blank" href="https://www.it-sa.de/">IT-Security Messe & Congress</a></td>
+						<td>Nuremberg, Germany</td>
+						<td>October 9-11</td>
+					</tr>
+					<tr>
 						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/conf/">Nextcloud Conference 2018</a></td>
 						<td>Berlin, Germany</td>
 						<td>August 23-30</td>
