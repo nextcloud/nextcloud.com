@@ -17,7 +17,8 @@
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
             <p class="section--paragraph text-center">The Nextcloud Enterprise Day provides IT professionals like project managers and decision makers the opportunity to define their own strategy to get the most out of Nextcloud. Meet Nextcloud experts, learn best practices and build up skills!</p>
-            <p class="section--paragraph text-center"><a href="https://eventyay.com/e/571509c9/" class="button button--blue button--arrow button--large">Sign up now!</a></p>
+            <p class="section--paragraph text-center"><a href="https://eventyay.com/e/571509c9/" class="button button--blue button--arrow button--large">Sign up now!</a> <a href="#program" class="button button--blue button--arrow button--large">program</a></p>
+
 		</div>
 	</div>
 </div>
@@ -102,17 +103,17 @@
 </div>
 </section>
 
-
+<a name="program"></a>
 <section class="section--training">
 <div class="container">
 	<div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <p class="section--heading-1 section--text--center revealOnScroll">Program</p>
-            <p class="section--paragraph section--text--center revealOnScroll">The Enterprise Day features a track of technical sessions covering a wide range of enterprise use cases with a lot of time to discuss with our experts.</p>
+            <p class="section--heading-1 section--text--center">Program</p>
+            <p class="section--paragraph section--text--center  ">The Enterprise Day features a track of technical sessions covering a wide range of enterprise use cases with a lot of time to discuss with our experts.</p>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8 col-md-offset-2 revealOnScroll">
+        <div class="col-md-8 col-md-offset-2">
         <div class="table-responsive-sm">
             <table class="table  table-hover">
 <!--                <thead>
