@@ -14,6 +14,27 @@
 		<p><?php echo $l->t('Support requests using this form <strong>will be ignored!</strong>');?></p>
 	</div>
 </div>
+
+<?php
+
+$int1 = random_int(0, 15);
+$int2 = random_int(0, 50);
+$salt = bin2hex(random_bytes(5));
+$hash = hash('sha256', $salt . ($int1 + $int2));
+$checksum = $salt . ':' . $hash;
+
+$image = imagecreate(100, 20);
+$background_color = imagecolorallocate($image, 255, 255, 255);
+$text_color = imagecolorallocate($image, 0, 0, 0);
+imagestring($image, 5, 3, 2, $int1 . ' + ' . $int2, $text_color);
+
+ob_start();
+imagepng($image);
+$imagestring = ob_get_contents();
+ob_end_clean();
+imagedestroy($image);
+?>
+
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
 		<form name="contact" method="post" action="contactsubmit/">
@@ -29,6 +50,10 @@
 				<input  type="text" name="phone" maxlength="40" size="60" placeholder="Please include country code (00 or +XX)"></label>');?></p>
 				<p><?php echo $l->t('<label for="comments">Your message<br />
 				<textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Let us know how we can help you!"></textarea></label>');?></p>
+				<p><label for="captcha"><?php echo $l->t('Please calculate the following sum');?> <span></span><br>
+				<img src="data:image/png;base64,<?php echo base64_encode($imagestring); ?>"><br>
+				<input  type="text" name="captcha" maxlength="20" size="20" placeholder="13"></label></p>
+				<input  type="hidden" name="checksum" value="<?php echo $checksum;?>">
 				<td colspan="2" style="text-align:center">
 				<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
 				<input type="submit" value=" Submit ">
