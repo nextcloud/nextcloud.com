@@ -78,7 +78,7 @@ if(isset($_POST['email'])) {
     $dollars = $_POST['dollars'];
     $terms = $_POST['terms'] === 'terms' ? 'yes' : 'no';
     $checksum = $_POST['checksum']; // required
-    $captcha = $_POST['captcha']
+    $captcha = $_POST['captcha'];
     $error_message = "";
 
 
@@ -92,7 +92,7 @@ if(isset($_POST['email'])) {
             $error_message .= 'The captcha result you entered does not appear to be correct. Please try again.<br />';
         }
     }
-    
+
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
     if(!preg_match($email_exp,$email_from)) {
         $error_message .= '<li>The email address you entered does not appear to be valid.</li>';
