@@ -1401,7 +1401,7 @@
          "freeplans":false,
          "supports":"organisation",
          "specializes":[
-            "We offer NextCloud on our HA grade Infrastructure in Austria on NetApp Storage and HP Enterprise Servers. Hourly Backups and 99.95% uptime."
+            "Wir bieten NextCloud als eigene Instanz oder Shared in unserer hochverfügbaren NetApp Infrastruktur in Österreich an. DSGVO konform und ISO 27001 zertifiziert."
          ],
          "imagename":"cloudnow.png"
       }
