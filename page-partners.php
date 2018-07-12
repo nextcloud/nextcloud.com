@@ -151,10 +151,11 @@
 				<p  class="partnertext">Since 2013, Stylez has grown by focusing on integration and Business Process Outsourcing. Today Stylez expands its scope into cloud and open source services, keeping up their focus on customers and quality.</p>
 			</div>
 			<div class="col-md-4">
-				<a href="https://www.teebase.eu" target="_blank" title="Teebase Ltd">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/teebase.png" title="Teebase logo" />
+				<a href="http://sndkcorp.com/" target="_blank" title="SNDK-corp">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/sndk-corp.png" title="SNDK Corp logo" />
 				</a>
-				<p  class="partnertext">TeeBase UK Ltd offers an arsenal of devices and services for digital security to protect your data and intellectual property even when using the Internet. Be free from hackers, malware and ransomware that destroy shareholder value and ruin careers.</p>
+				<p  class="partnertext">SNDK Corp founded in 2007 is an IT company Offering 360 degree Integrated Solutions taking Business to next level.<br>
+				Our Services and deep industry experiences includes Cloud, Virtualization, Open Source Linux & Network Solutions, Security, Software-Mobile APP & IoT.</p>
 			</div>
 		</div>
 
@@ -165,6 +166,12 @@
 				</a>
 				<p  class="partnertext"></p>
 			</div>-->
+			<div class="col-md-4">
+				<a href="https://www.teebase.eu" target="_blank" title="Teebase Ltd">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/teebase.png" title="Teebase logo" />
+				</a>
+				<p  class="partnertext">TeeBase UK Ltd offers an arsenal of devices and services for digital security to protect your data and intellectual property even when using the Internet. Be free from hackers, malware and ransomware that destroy shareholder value and ruin careers.</p>
+			</div>
             <div class="col-md-4">
             <a href="https://www.zerotrust.fr" target="_blank" title="Zero Trust">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/zerotrust.png" title="ZeroTrust logo" />
