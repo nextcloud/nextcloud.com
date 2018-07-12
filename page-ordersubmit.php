@@ -89,7 +89,7 @@ if(isset($_POST['email'])) {
         $hash = hash('sha256', $salt . $captcha);
 
         if ($hash !== $expectedHash) {
-            $error_message .= 'The captcha result you entered does not appear to be correct. Please try again.<br />';
+            $error_message .= 'The captcha result you entered does not appear to be correct.<br />';
         }
     }
 
