@@ -13,7 +13,49 @@ Go directly to the latest maintenance release of:
 
 <a name="latest13"></a>
 
-<h3 id="13-0-3">Version 13.0.4 <small>June 11 2018</small></h3>
+
+<h3 id="13-0-5">Version 13.0.5 <small>July 19 2018</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.5.tar.bz2">nextcloud-13.0.5.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.5.zip">nextcloud-13.0.5.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.5.tar.bz2.md5">nextcloud-13.0.5.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.5.zip.md5">nextcloud-13.0.5.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.5.tar.bz2.sha256">nextcloud-13.0.5.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.5.zip.sha256">nextcloud-13.0.5.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.5.tar.bz2.sha512">nextcloud-13.0.5.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.5.zip.sha512">nextcloud-13.0.5.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.5.tar.bz2.asc">nextcloud-13.0.5.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.5.zip.asc">nextcloud-13.0.5.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+<li><a href="https://github.com/nextcloud/server/pull/9837">Fix highlighting of the upload drop zone (server#9837)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9839">Apply ldapUserFilter on members of group (server#9839)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9841">Make the DELETION of groups match greedy on the groupID (server#9841)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9843">Add parent index to share table (server#9843)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9958">Log full exception in cron instead of only the message (server#9958)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/9986">Properly lock the target file on dav upload when not using part files (server#9986)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10032">LDAP backup server should not be queried when auth fails (server#10032)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10044">Fix filenames in sharing integration tests (server#10044)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10076">Lower log level for quota manipulation cases (server#10076)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10089">Let user set avatar in nextcloud if LDAP provides invalid image data (server#10089)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10093">Improved logging of smb connection errors (server#10093)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10115">Allow admin to disable fetching of avatars as well as a specific attribute (server#10115)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10121">Allow to disable encryption (server#10121)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10164">Update message shown when unsharing a file (server#10164)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10165">Fixed English grammatical error on Settings page. (server#10165)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10169">Request a valid property for DAV opendir (server#10169)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10170">Allow updating the token on session regeneration (server#10170)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10180">Prevent lock values from going negative with memcache backend (server#10180)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10185">Correctly handle users with numeric user ids (server#10185)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10188">Correctly parse the subject parameters for link (un)shares of calendars (server#10188)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10189">Fix "parsing" of email-addresses in comments and chat messages (server#10189)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10195">Sanitize parameters in createSessionToken() while logging (server#10195)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10201">Also retry rename operation on InvalidArgumentException (server#10201)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10202">Improve url detection in comments (server#10202)</a></li>
+<li><a href="https://github.com/nextcloud/files_pdfviewer/pull/84">Use download manager from PDF.js to download the file (files_pdfviewer#84)</a></li>
+<li><a href="https://github.com/nextcloud/files_pdfviewer/pull/87">Fix trying to load removed scripts (files_pdfviewer#87)</a></li>
+<li><a href="https://github.com/nextcloud/notifications/pull/138">Only pull for new messages if the session is allowed to be kept alive (notifications#138)</a></li>
+<li><a href="https://github.com/nextcloud/notifications/pull/139">Always push object data (notifications#139)</a></li>
+<li><a href="https://github.com/nextcloud/notifications/pull/140">Add prioritization for Talk (notifications#140)</a></li>
+</ul>
+
+<h3 id="13-0-4">Version 13.0.4 <small>June 11 2018</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.4.tar.bz2">nextcloud-13.0.4.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.4.zip">nextcloud-13.0.4.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.4.tar.bz2.md5">nextcloud-13.0.4.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.4.zip.md5">nextcloud-13.0.4.zip.md5</a></br>
@@ -299,6 +341,21 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
 
 <a name="latest12"></a>
+
+<h4 id="12-0-10">Version 12.0.10 <small>June 11 2018</small></h4>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.tar.bz2">nextcloud-12.0.10.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.zip">nextcloud-12.0.10.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.tar.bz2.md5">nextcloud-12.0.10.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.zip.md5">nextcloud-12.0.10.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.tar.bz2.sha256">nextcloud-12.0.10.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.zip.sha256">nextcloud-12.0.10.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.tar.bz2.sha512">nextcloud-12.0.10.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.zip.sha512">nextcloud-12.0.10.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.tar.bz2.asc">nextcloud-12.0.10.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10zip.asc">nextcloud-12.0.10.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+<li><a href="https://github.com/nextcloud/server/pull/9842">Make the DELETION of groups match greedy on the groupID (server#9842)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10196">Sanitize parameters in createSessionToken() while logging (server#10196)</a></li>
+<li><a href="https://github.com/nextcloud/files_pdfviewer/pull/88">Fix trying to load removed scripts (files_pdfviewer#88)</a></li>
+</ul>
 
 <h4 id="12-0-9">Version 12.0.9 <small>June 11 2018</small></h4>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.9.tar.bz2">nextcloud-12.0.9.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.9.zip">nextcloud-12.0.9.zip</a></br>
