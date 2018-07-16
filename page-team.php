@@ -71,7 +71,7 @@
 					<h3 class="teamtitle">Account manager</h3>
 					<h4 class="teamexpertise">Customer relations</h4>
 					<h4 class="teamlocation">lives in Celle, Germany</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/fabian-liedtke-4b4ba9135"><i class="fa-linkedin fa"></i></a><a href="https://www.xing.com/profile/Fabian_Liedtke2"><i class="fa-xing fa"></i></a><!--<a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a>--> &nbsp; </p>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/fabian-liedtke-4b4ba9135"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Fabian_Liedtke2"><i class="fa-xing fa"></i></a><!--<a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a>--> &nbsp; </p>
 				</div>
 				<p class="teamdescription">Fabian worked for various industries always close to the customer and has been in the IT industry now for several years with a focus on customer relationship management. He is passionate about innovative and new technologies and his primary goal is to help our customers to fulfill their vision.</p>
 			</div>
@@ -266,7 +266,7 @@
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Server, contacts, front-end and accessibility</h4>
 					<h4 class="teamlocation">lives in France</h4>
-					<p class="teamsocial"><a href="https://github.com/skjnldsv"><i class="fa-github fa"></i></a><a href="https://twitter.com/skjnldsv"><i class="fa-twitter fa"></i></a></p>
+					<p class="teamsocial"><a href="https://github.com/skjnldsv"><i class="fa-github fa"></i></a> <a href="https://twitter.com/skjnldsv"><i class="fa-twitter fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Barthélémy is a software engineer specialized in front-end development. He cares about simplicity and ease of use and likes to create a smooth user experience for everyone. He has been part of the contacts and design team since 2016.</p>
 			</div>
