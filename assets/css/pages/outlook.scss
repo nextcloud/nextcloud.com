@@ -40,9 +40,19 @@
     }
 }
 
-.quote {
-	margin: 80px 0 50px 0;
+.section--benefits {
+	margin: 50px 0;
 	padding: 50px 0px;
+	li {
+		list-style-image: url("../../img/enterprise/check.svg");
+		list-style-position:inside;
+	}
+}
+
+
+.section--quote {
+	margin: 80px 0 50px 0;
+	padding: 60px 0px 50px 0;
 	background: $nextcloud-blue;
 	p {
 		color: white;
