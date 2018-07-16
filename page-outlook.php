@@ -51,7 +51,37 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
 
+<section class="section--benefits">
+<div class="container-fluid quote">
+    <div class="container">
+        <h2 class="text-center revealOnScroll"><?php echo $l->t('Key benefits');?></h2>
+        <div class="row">
+            <div class="col-md-offset-1 col-md-6 revealOnScroll">
+                <p class="section--paragraph">
+                <ul>
+                    <li><?php echo $l->t('Protect files with password and expiration date');?></li>
+                    <li><?php echo $l->t('Use File Access Control to limit access by unauthorized users');?></li>
+                    <li><?php echo $l->t('Use Workflow to automatically remove attachments after a set time');?></li>
+                </ul></p>
+            </div>
+            <div class="col-md-5 revealOnScroll">
+                <p class="section--paragraph">
+                <ul>
+                    <li><?php echo $l->t('Keep inbox growth under control');?></li>
+                    <li><?php echo $l->t('Sent files of any size');?></li>
+                    <li><?php echo $l->t('Easily share file upload links');?></li>
+                </ul></p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="section--file-sharing">
+	<div class="container">
 		<div class="featurerow">
 			<div class="row">
 				<div class="col-md-6 revealOnScroll image--feature">
@@ -65,28 +95,31 @@
 				</div>
 			</div>
             <div class="row">
-                <div class="col-md-10 revealOnScroll featureblock">
+                <div class="col-md-6 revealOnScroll image--feature image--floated">
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/activity-view.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/activity-view.png" alt="in action" /></a>
+				</div>
+                <div class="col-md-6 revealOnScroll featureblock">
                     <p class="section--paragraph"><?php echo $l->t('The Add-in can be configured to automatically upload all attachments the user added to an email starting from a configurable size, for example, all files over 200kb.');?></p>
                     <p class="section--paragraph"><?php echo $l->t('Other features:');?></p>
-                </div>
+<!--                </div>
             </div>
             <div class="row">
-				<div class="col-md-6 revealOnScroll featureblock">
+				<div class="col-md-6 revealOnScroll featureblock">-->
                     <ul>
                         <li><?php echo $l->t('Activity tracker notifying about file uploads/downloads');?></li>
                         <li><?php echo $l->t('Policy enforcement options');?></li>
                         <li><?php echo $l->t('Customizable upload path');?></li>
                     </ul>
-				</div>
-                <div class="col-md-6 revealOnScroll featureblock">
+<!--				</div>
+                <div class="col-md-6 revealOnScroll featureblock">-->
                     <ul>
                         <li><?php echo $l->t('Domain whitelisting');?></li>
                         <li><?php echo $l->t('Multi Language support');?></li>
                         <li><?php echo $l->t('Branding');?></li>
                     </ul>
+                    <p class="section--paragraph revealOnScroll"><?php echo $l->t('The add-in works with Microsoft Outlook 2010, 2013 and 2016 for Windows.');?></p>
                 </div>
             </div>
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('The add-in works with Microsoft Outlook 2010, 2013 and 2016 for Windows.');?></p>
 		</div>
 	</div>
 </section>
@@ -128,6 +161,11 @@
                             <td class="text-center green">✔</td>
                         </tr>
                         <tr>
+                            <th scope="row">Set expiration date</th>
+                            <td class="text-center green">✔</td>
+                            <td class="text-center green">✔</td>
+                        </tr>
+                        <tr>
                             <th scope="row">Automatically upload attachments</th>
                             <td class="text-center red">❌</td>
                             <td class="text-center green">✔</td>
@@ -138,17 +176,17 @@
                             <td class="text-center green">✔</td>
                         </tr>
                         <tr>
-                            <th scope="row">Expiration date</th>
-                            <td class="text-center green">✔</td>
-                            <td class="text-center green">✔</td>
-                        </tr>
-                        <tr>
                             <th scope="row">Custom look for shared links via HTML</th>
                             <td class="text-center red">❌</td>
                             <td class="text-center green">✔</td>
                         </tr>
                         <tr>
-                            <th scope="row">Branding</th>
+                            <th scope="row">Enterprise deployment capabilities</th>
+                            <td class="text-center red">❌</td>
+                            <td class="text-center green">✔</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Activity Tracker</th>
                             <td class="text-center red">❌</td>
                             <td class="text-center green">✔</td>
                         </tr>
@@ -164,19 +202,18 @@
 	</div>
 </section>
 
-<div class="container-fluid quote">
-	<div class="container">
-		<div class="row">
-
-			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
-				<p class="text-center"><?php echo $l->t('Pricing for the Nextcloud Secure Sharing Outlook Add-in starts at USD 5 per user per year with discounts for larger user numbers.');?></p>
-				<div class="text-center">
-					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
+<section class="section--quote quote">
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
+            <p class="text-center"><?php echo $l->t('Pricing for the Nextcloud Secure Sharing Outlook Add-in starts at USD 5 per user per year with discounts for larger user numbers.');?></p>
+            <div class="text-center">
+                <a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+            </div>
+        </div>
+    </div>
 </div>
+</section>
 
 <section class="file-sharing">
 	<div class="container">

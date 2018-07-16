@@ -28,13 +28,20 @@
 .section--file-sharing ul {
   list-style-type: none; }
 
-.quote {
+.section--benefits {
+  margin: 50px 0;
+  padding: 50px 0px; }
+  .section--benefits li {
+    list-style-image: url("../../img/enterprise/check.svg");
+    list-style-position: inside; }
+
+.section--quote {
   margin: 80px 0 50px 0;
-  padding: 50px 0px;
+  padding: 60px 0px 50px 0;
   background: #0082c9; }
-  .quote p {
+  .section--quote p {
     color: white; }
-  .quote .hyperlink {
+  .section--quote .hyperlink {
     color: white; }
 
 /*# sourceMappingURL=outlook.css.map */
