@@ -48,6 +48,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <li><a href="https://github.com/nextcloud/server/pull/10195">Sanitize parameters in createSessionToken() while logging (server#10195)</a></li>
 <li><a href="https://github.com/nextcloud/server/pull/10201">Also retry rename operation on InvalidArgumentException (server#10201)</a></li>
 <li><a href="https://github.com/nextcloud/server/pull/10202">Improve url detection in comments (server#10202)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10233">Only bind to ldap if configuration for the first server is set (server#10233)</a></li>
 <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/84">Use download manager from PDF.js to download the file (files_pdfviewer#84)</a></li>
 <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/87">Fix trying to load removed scripts (files_pdfviewer#87)</a></li>
 <li><a href="https://github.com/nextcloud/notifications/pull/138">Only pull for new messages if the session is allowed to be kept alive (notifications#138)</a></li>
