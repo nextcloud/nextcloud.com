@@ -115,6 +115,22 @@
 	}
 }
 
+.section--reasons {
+	.floated-quote {
+		float:right;
+		width: 450px;
+		max-width: 50%;
+		margin: 20px -150px 20px 20px;
+		blockquote {
+			margin: 0 0 -20px 0;
+		}
+		.referee {
+			width: 120px; margin-left: 15px;
+		}
+	}
+
+}
+
 .section--paragraph__title {
 	padding-top: 50px;
 }
