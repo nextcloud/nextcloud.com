@@ -138,6 +138,22 @@
 </div>
 </section>
 
+<div class="section--travelsupport">
+<div class="container-fluid quote">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
+			<h2 class="section--heading-1 revealOnScroll text-center">Travel support</h2>
+				<p class="text-center">We want to help everybody attend and participate in the Nextcloud conference! To support contributors who might not otherwise attend due to financial limitations, we provide up to 80% of flight and hotel cost reimbursement.</p>
+				<div class="text-center">
+					<a href="https://nextcloud.com/blog/nextcloud-conference-2018-contributor-travel-support-program/" class="button button--large button--arrow">Learn more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
 <section class="section--enterprise">
 	<div class="container-fluid">
 			<div class="container">
