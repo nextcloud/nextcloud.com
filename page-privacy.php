@@ -22,8 +22,8 @@
 <p>Like most websites, nextcloud.com collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. nextcloud.com’s purpose in collecting non-personally identifying information is to better understand how nextcloud.com’s visitors use its website. From time to time, nextcloud.com may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website.</p>
 <p>nextcloud.com also collects potentially personally-identifying information like Internet Protocol (IP) addresses. nextcloud.com does not use such information to identify its visitors, however, and does not disclose such information to third parties unless legally obliged to do so.</p>
 <p>We honour the do-not-track directive. nextcloud.com won't track anything if this is enabled.</p>
-<p>Furthermore, our website visit statistics tool Mamoto is configured to anonymize visitors' IP addresses data by not storing the last digits of all IP addresses. You can still opt-out further below:</p>
-<iframe style="border: 0; height: 200px; width: 600px;" src="https://stats.nextcloud.com/index.php?module=CoreAdminHome&action=optOut&language=en"></iframe>
+<p>Furthermore, our website visit statistics tool Mamoto is configured to anonymize visitors' IP addresses data by not storing the last digits of all IP addresses. <!--You can still opt-out further below:--> </p>
+<!-- <iframe style="border: 0; height: 200px; width: 600px;" src="https://stats.nextcloud.com/index.php?module=CoreAdminHome&action=optOut&language=en"></iframe> -->
 
 <p>When registering or submitting a form on our site, as appropriate, you may be asked to enter your name, email address, phone number or other details. See below on what happens with that data.</p>
 <h3>When do we collect information?</h3>
