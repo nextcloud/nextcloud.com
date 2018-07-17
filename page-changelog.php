@@ -343,7 +343,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
 <a name="latest12"></a>
 
-<h4 id="12-0-10">Version 12.0.10 <small>June 11 2018</small></h4>
+<h4 id="12-0-10">Version 12.0.10 <small>July 19 2018</small></h4>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.tar.bz2">nextcloud-12.0.10.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.zip">nextcloud-12.0.10.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.tar.bz2.md5">nextcloud-12.0.10.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.zip.md5">nextcloud-12.0.10.zip.md5</a></br>
