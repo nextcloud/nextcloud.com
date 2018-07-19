@@ -27,6 +27,26 @@
 	</div>
 </section>
 
+<?php
+
+$int1 = random_int(0, 15);
+$int2 = random_int(0, 50);
+$salt = bin2hex(random_bytes(5));
+$hash = hash('sha256', $salt . ($int1 + $int2));
+$checksum = $salt . ':' . $hash;
+
+$image = imagecreate(100, 20);
+$background_color = imagecolorallocate($image, 255, 255, 255);
+$text_color = imagecolorallocate($image, 0, 0, 0);
+imagestring($image, 5, 3, 2, $int1 . ' + ' . $int2, $text_color);
+
+ob_start();
+imagepng($image);
+$imagestring = ob_get_contents();
+ob_end_clean();
+imagedestroy($image);
+?>
+
 <div class="container">
 	<h2><?php echo $l->t('Nextcloud helps you be successful.');?></h2>
 	<p><?php echo $l->t('You run your own Nextcloud server, keeping your data in-house and under control. We make sure it works.');?></p>
@@ -108,6 +128,10 @@ your project.');?></p>
 				<textarea name="comments" maxlength="2000" cols="80" rows="8" placeholder="<?php echo $l->t('Let us know how we can help you!');?>"></textarea></label></p>
 				<td colspan="2" style="text-align:center">
 				<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+				<p><label for="captcha"><?php echo $l->t('Please calculate the following sum');?> <span></span><br>
+				<img src="data:image/png;base64,<?php echo base64_encode($imagestring); ?>"><br>
+				<input  type="text" name="captcha" maxlength="20" size="20" placeholder="13"></label></p>
+				<input  type="hidden" name="checksum" value="<?php echo $checksum;?>">
 				<input type="submit" value=" Submit inquiry " class="button button--blue">
 		</form>
 	</div>

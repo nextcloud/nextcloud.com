@@ -42,7 +42,9 @@ if(isset($_POST['email'])) {
         !isset($_POST['organization']) ||
         !isset($_POST['phone']) ||
         !isset($_POST['users']) ||
-        !isset($_POST['comments'])) {
+        !isset($_POST['comments']) ||
+        !isset($_POST['checksum']) ||
+        !isset($_POST['captcha'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all fields?'); }
     $yourname = $_POST['yourname']; // required
     $organization= $_POST['organization']; // required
@@ -60,6 +62,8 @@ if(isset($_POST['email'])) {
     $webconferencing = $_POST['webconferencing'];
     $outlook = $_POST['outlook'];
     $branding = $_POST['branding'];
+    $checksum = $_POST['checksum']; // required
+    $captcha = $_POST['captcha'];
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
   if(!preg_match($email_exp,$email_from)) {
@@ -69,6 +73,16 @@ if(isset($_POST['email'])) {
   if(!preg_match($string_exp,$yourname)) {
     $error_message .= 'The name you entered does not appear to be valid.<br />';
   }
+  if (strlen($checksum) !== 75 || !strpos($checksum, ':')) {
+        $error_message .= 'The checksum is not valid.<br />';
+    } else {
+        list($salt, $expectedHash) = explode(':', $checksum, 2);
+        $hash = hash('sha256', $salt . $captcha);
+
+        if ($hash !== $expectedHash) {
+            $error_message .= 'The captcha result you entered does not appear to be correct.<br />';
+        }
+    }
     $string_exp = "/^((\+|00)\d{1,3})?(\d+|\s+)+\d$/";
 //   if(!preg_match($string_exp,$phone)) {
 //     $error_message .= 'The phone number you entered does not appear to be valid, did you add a country code like +49?<br />';
