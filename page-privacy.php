@@ -117,7 +117,7 @@ T +49 711 25 24 28 90<br/>
 <p>
 Visitor address:<br/>
 <address>Nextcloud GmbH<br/>
-Rotebuehlplatz 20A<br/>
+Hirschstrasse 26, 3rd Floor<br/>
 70173 Stuttgart Germany<br/></address>
 </p>
 <p>

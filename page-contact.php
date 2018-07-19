@@ -68,7 +68,7 @@ imagedestroy($image);
     <p>
     <strong><?php echo $l->t('Visitor address:');?></strong><br/>
     <address><strong>Nextcloud GmbH</strong><br/>
-    Rotebuehlplatz 20A<br/>
+    Hirschstrasse 26, 3rd Floor<br/>
     70173 Stuttgart Germany<br/></address>
     </p>
     <p><strong>Headquarter address:</strong><br/>
