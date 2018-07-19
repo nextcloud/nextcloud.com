@@ -44,6 +44,8 @@ if(isset($_POST['email'])) {
         !isset($_POST['targetcountries']) ||
         !isset($_POST['hosting']) ||
         !isset($_POST['free']) ||
+        !isset($_POST['checksum']) ||
+        !isset($_POST['captcha']) ||
         !isset($_POST['description']) ||
         !isset($_POST['image']))
         {
@@ -58,7 +60,22 @@ if(isset($_POST['email'])) {
     $description = $_POST['description']; // required
     $image = $_POST['image']; // required
     $hostingurl= $_POST['hostingurl']; // required
+    $checksum = $_POST['checksum']; // required
+    $captcha = $_POST['captcha'];
     $error_message = "";
+
+
+        if (strlen($checksum) !== 75 || !strpos($checksum, ':')) {
+        $error_message .= 'The checksum is not valid.<br />';
+    } else {
+        list($salt, $expectedHash) = explode(':', $checksum, 2);
+        $hash = hash('sha256', $salt . $captcha);
+
+        if ($hash !== $expectedHash) {
+            $error_message .= 'The captcha result you entered does not appear to be correct.<br />';
+        }
+    }
+
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
   if(!preg_match($email_exp,$email_from)) {
     $error_message .= 'The email address you entered does not appear to be valid.<br />';
