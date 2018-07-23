@@ -14,7 +14,7 @@ Go directly to the latest maintenance release of:
 <a name="latest13"></a>
 
 
-<h3 id="13-0-5">Version 13.0.5 <small>July 19 2018</small></h3>
+<h3 id="13-0-5">Version 13.0.5 <small>July 23 2018</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.5.tar.bz2">nextcloud-13.0.5.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.5.zip">nextcloud-13.0.5.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.5.tar.bz2.md5">nextcloud-13.0.5.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.5.zip.md5">nextcloud-13.0.5.zip.md5</a></br>
@@ -343,7 +343,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
 <a name="latest12"></a>
 
-<h4 id="12-0-10">Version 12.0.10 <small>July 19 2018</small></h4>
+<h4 id="12-0-10">Version 12.0.10 <small>July 23 2018</small></h4>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.tar.bz2">nextcloud-12.0.10.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.zip">nextcloud-12.0.10.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.tar.bz2.md5">nextcloud-12.0.10.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.zip.md5">nextcloud-12.0.10.zip.md5</a></br>
