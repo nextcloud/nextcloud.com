@@ -259,6 +259,15 @@
           margin-left: 10px;
           margin-right: 10px;
           margin-right: 30px; } }
+  .faq h2 {
+    font-size: 30px;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    text-align: left;
+    color: #555555;
+    margin-top: 30px; }
   .faq h3 {
     font-size: 20px;
     font-weight: normal;

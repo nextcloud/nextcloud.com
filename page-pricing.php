@@ -62,9 +62,9 @@
 					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 1 year');?></li>
 					<li class="check" title="<?php echo $l->t('Ahead of time access to security and stability patches.');?>" rel="tooltip"><?php echo $l->t('Early security and stability patches');?></li>
 					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 3 business days');?></li>
-					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://portal.nextcloud.com">Portal support</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support engineers.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://portal.nextcloud.com">Portal support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee.');?>" rel="tooltip"><a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration support</a>');?></li>
-					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support team by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support');?></li>
+					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support engineers by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Our engineers walk you through the installation process where needed.');?>" rel="tooltip"><?php echo $l->t('Remote installation support');?></li>
@@ -103,9 +103,9 @@
 					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 3 years');?></li>
 					<li class="check" title="<?php echo $l->t('Ahead of time access to security and stability patches.');?>" rel="tooltip"><?php echo $l->t('Early security and stability patches');?></li>
 					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 2 business days');?></li>
-					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://portal.nextcloud.com">Portal support</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support engineers.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://portal.nextcloud.com">Portal support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee. Ask sales for details! ');?>" rel="tooltip"><a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration support</a>');?></li>
-					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support team by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: business hours');?></li>
+					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support engineers by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: business hours');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support: business hours');?></li>
 					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
 					<li class="check" title="<?php echo $l->t('Our engineers walk you through the installation process where needed.');?>" rel="tooltip"><?php echo $l->t('Remote installation support');?></li>
@@ -143,10 +143,10 @@
 				<div class="list">
 					<li class="check" title="<?php echo $l->t('If you need the certainty that you can remain on your stable, proven Nextcloud release for a long time.');?>" rel="tooltip"><?php echo $l->t('Maintenance life cycle: 5+5 years');?></li>
 					<li class="check" title="<?php echo $l->t('Ahead of time access to security and stability patches.');?>" rel="tooltip"><?php echo $l->t('Early security and stability patches');?></li>
-					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 24h or as agreed');?></li>
-					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support team.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://portal.nextcloud.com">Portal support</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Questions and issues are generally dealt with in this time, depending on the severity of the issue.');?>" rel="tooltip"><?php echo $l->t('Reaction time: 1h, 4h, 12h or 24h');?></li>
+					<li class="check" title="<?php echo $l->t('Our Nextcloud Knowledge Portal helps you find answers to your questions or contact our professional support engineers.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://portal.nextcloud.com">Portal support</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Some migrations are included, others will require an extra fee. Ask sales for details! ');?>" rel="tooltip"><a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration support</a>');?></li>
-					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support team by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: up to 24/7');?></li>
+					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support engineers by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: up to 24/7');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support: up to 24/7');?></li>
 					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
 					<li class="check" title="<?php echo $l->t('Our engineers walk you through the installation process where needed.');?>" rel="tooltip"><?php echo $l->t('Remote installation support');?></li>
@@ -171,8 +171,9 @@
 <div class="container text-center">
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Prices are in Euro per year and net/excl. VAT.');?></p>
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Nextcloud subscriptions are available from 50 users and up.');?></p>
-	<p class="revealOnScroll epricevat"><?php echo $l->t('Nextcloud employees do not gain  access to your data as we just provide software and services.');?></p>
+	<p class="revealOnScroll epricevat"><?php echo $l->t('Nextcloud employees never gain access to your data as we do not offer hosting.');?></p>
 	<p class="revealOnScroll epricevat"><?php echo $l->t('Unless explicitly stated, Nextcloud 5x8 support is in UTC +01:00. Other times possible on request.');?></p>
+	<p class="revealOnScroll epricevat"><?php echo $l->t('Our Subscription offers direct access to Nextcloud engineering expertise without a layer of support people in between.');?></p>
 </div>
 
 <section class="section--options">
@@ -287,6 +288,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 ">
+                <h2 class="noRevealOnScroll"><?php echo $l->t('Compliance');?></h2>
 				<div class="downarrow noRevealOnScroll"><a href="#gdpr" data-toggle="collapse"><h3><?php echo $l->t('Is Nextcloud GDPR/HIPAA/... compliant?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="gdpr" class="collapse ">
                     <p><?php echo $l->t('Self-hosting is the quickest and easiest way to legal compliance with a wide variety of regulations. By keeping data on your company servers, there is no need for contracts with other companies or complicated audit processes.');?></p>
@@ -295,17 +297,11 @@
 					<a class="button button--blue button--small" href="<?php echo home_url('healthcare') ?>" class="nav__label"><?php echo $l->t('HIPAA and Healthcare');?></a>
 				</div>
 				<div class="line noRevealOnScroll"></div>
-				<div class="downarrow noRevealOnScroll"><a href="#why_opensource" data-toggle="collapse"><h3><?php echo $l->t('Why is Nextcloud Open Source?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="why_opensource" class="collapse ">
-                    <a target="_blank" href="https://www.openchainproject.org/conformance"><img class="img-responsive" style="float:right; margin:5px; width: 100%; max-width: 300px;" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/openchain.png" alt="activity overview" /></a>
-                    <p><?php echo $l->t('Nextcloud\'s use of widely used and understood Open Source licenses provides customers legal certainly, protection against vendor lock-in and a guarantee that we offer top notch services. They facilitate an open, collaborative development model, resulting in more reliable and secure software. Open Source protects <strong>your business</strong>, guaranteeing the value of your investment for the long term. <a href="https://nextcloud.com/blog/why-the-agpl-is-great-for-business-users/">Read more about licensing benefits here</a> and about the <a href="https://nextcloud.com/blog/how-nextcloud-protects-your-business-from-license-uncertainty/">protection offered by our AGPL license here.</a>');?></p>
-                    <p><?php echo $l->t('License compliance for Nextcloud has been <a href="https://nextcloud.com/blog/nextcloud-validates-license-compliance-through-openchain/">validated through OpenChain</a>, a Linux Foundation project. Nextcloud GmbH guarantees its customers license compliance and assists customers with any license-related legal inquiries.');?></p>
-				</div>
-				<div class="line noRevealOnScroll"></div>
+				<h2 class="noRevealOnScroll"><?php echo $l->t('Subscription and support');?></h2>
 				<div class="downarrow noRevealOnScroll"><a href="#why_pay" data-toggle="collapse"><h3><?php echo $l->t('Why would I pay for open source software?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="why_pay" class="collapse ">
                     <p><?php echo $l->t('Nextcloud is well optimized for getting up and running quickly for home or small business users. But as an enterprise, you need more than software - you need guarantees it works as you need, secure and reliable. A Nextcloud Subscription offers you that guarantee, with our expert help, long term updates, early access to security updates and additional services.');?></p>
-					<p><?php echo $l->t('By offering more in-depth knowledge and expert services than anybody else could, you gain the confidence you need to be able to rely on Nextcloud.');?></p>
+					<p><?php echo $l->t('By offering more in-depth knowledge and expert services than anybody else could, you gain the confidence you need to be able to rely on Nextcloud. Consider a Subscription an insurance for success!');?></p>
 				</div>
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#what_I_get" data-toggle="collapse"><h3><?php echo $l->t('What does the subscription give me?<span class="icon-arrow-down">');?></h3></a></div>
@@ -319,7 +315,7 @@
 						<li class="check"><?php echo $l->t('Help to scale your Nextcloud installation to large amounts of storage and large numbers of users');?></li>
 						<li class="check"><?php echo $l->t('Security and hardening consulting and early access to security patches');?></li>
 						<li class="check"><?php echo $l->t('Influence on the roadmap of the open source project');?></li>
-						<li class="check"><?php echo $l->t('Access to the core Nextcloud engineers');?></li>
+						<li class="check"><?php echo $l->t('Our entire engineering team is dedicated to supporting you');?></li>
 						<li class="check"><?php echo $l->t('Help and advice if you decide to (pay somebody to) develop a custom app or changes');?></li>
 						<li class="check"><?php echo $l->t('Optional support for branding Nextcloud and its clients');?></li>
 						<li class="check"><?php echo $l->t('Optional support for integrated video conferencing and communication features based on WebRTC');?></li>
@@ -337,7 +333,21 @@
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#branding" data-toggle="collapse"><h3><?php echo $l->t('What branding support do I get?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="branding" class="collapse">
-					<p><?php echo $l->t('Every interface through which you interact with your users or customers should be a representation of the brand behind you - a brand that stands out from the competition. Our support team will make sure Nextcloud represents your brand by helping you configure the web interface and providing you with branded clients if needed.');?></p>
+					<p><?php echo $l->t('Every interface through which you interact with your users or customers should be a representation of the brand behind you - a brand that stands out from the competition. Our support engineers will make sure Nextcloud represents your brand by helping you configure the web interface and providing you with branded clients if needed.');?></p>
+				</div>
+				<div class="line noRevealOnScroll"></div>
+				<div class="downarrow noRevealOnScroll"><a href="#support_team" data-toggle="collapse"><h3><?php echo $l->t('Where is your support team?<span class="icon-arrow-down">');?></h3></a></div>
+				<div id="support_team" class="collapse ">
+                    <p><?php echo $l->t('We offer you DIRECT access to our engineers to ensure you always get the best answer as quickly as possible, rather than walling off support from the expertise at engineering. Like a dedicated, on-site engineer, our <strong>entire team</strong> is dedicated to your success first!');?></p>
+                    <p><?php echo $l->t('This not only makes sure you get faster, better support than anywhere else, it also ensures our engineers are confronted with customer issues and wishes daily, keeping their work closely aligned with the needs of our customers.');?></p>
+                    <p><?php echo $l->t('As customer, you thus do not have to hope a junior support team member manages to explain your request to an engineer: you already talked to the engineer, directly, and they are already working on a solution.');?></p>
+				</div>
+				<div class="line noRevealOnScroll"></div>
+				<div class="downarrow noRevealOnScroll"><a href="#qa_team" data-toggle="collapse"><h3><?php echo $l->t('Where is your qa/testing team?<span class="icon-arrow-down">');?></h3></a></div>
+				<div id="qa_team" class="collapse ">
+                    <p><?php echo $l->t('Just like we believe engineers should work with customers directly to ensure their development stays aligned with customer needs, QA and testing are an integral part of the job of our engineers.');?></p>
+                    <p><?php echo $l->t('This ensures a direct feedback loop, resulting in them writing better quality code, if only to avoid having to spend too much time testing and debugging. To get their work done as efficiently as possible, our engineers are organically motivated to automate exactly what should be automated, no more and no less.');?></p>
+                    <p><?php echo $l->t('As our unique approach to management relies strongly on internal motivation instead of management overhead, and external pressure, our integrated approach to support and QA guarantees alignment between customer needs and engineering effort.');?></p>
 				</div>
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#pricing" data-toggle="collapse"><h3><?php echo $l->t('Nextcloud is open source, what is behind your prices?<span class="icon-arrow-down">');?></h3></a></div>
@@ -345,11 +355,7 @@
 					<p><?php echo $l->t('Working with others on data is core to your business. It determines the productivity of your employees, every day, every hour.<br>
 					A race to the bottom with clunky, cheap solutions offering more frustration than value does not benefit your organization! We offer a product which not only has the features, but also the stability and ease of use that helps your business be successful. And we support that with quick and quality help, providing direct contact with real and qualified engineers, access to expertise on scaling your server, securing your sensitive data, improvements you really need and want and more. All to make sure your Nextcloud server works as smooth as possible so your team can get work done instead of wait for IT to fix their infrastructure or worry about data theft.<br>
 					An investment in a Nextcloud subscription is an investment in efficient, productive, happy work for your employees. So we set pricing at a level that allows us to really offer you value, a great experience to your employees and help your business.');?></p>
-				</div>
-				<div class="line noRevealOnScroll"></div>
-				<div class="downarrow noRevealOnScroll"><a href="#migration" data-toggle="collapse"><h3><?php echo $l->t('How difficult is migration from ownCloud?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="migration" class="collapse">
-					<p><?php echo $l->t('Migration from ownCloud to Nextcloud is easy. Our support team has already migrated dozens of customers, including some with tens of thousands of users. We will help you move to Nextcloud and optimally benefit from the added scalability, features, stability, performance and security.');?> <a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('See our migration page</a> for more details on migration.');?></p>
+					<p><?php echo $l->t('We give you what <strong>no other company can offer you:</strong> the full attention of the engineers developing Nextcloud. Our entire engineering team works part of their time in support, dedicated to provide the best possible expertise in the shortest possible time. Where competitors and service providers might have some dedicated support people, nobody has the expertise we provide you, and before their "customer satisfaction expert" could even start finding out what engineer might know how to resolve your problem, our engineers are providing you a solution.');?></p>
 				</div>
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#howbuy" data-toggle="collapse"><h3><?php echo $l->t('How do I buy Nextcloud subscriptions?<span class="icon-arrow-down">');?></h3></a></div>
@@ -357,9 +363,12 @@
 					<p><a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('Just contact us</a> or one of our partners. Our partners will help you set up Nextcloud and they act as your first point of contact.');?></p>
 				</div>
 				<div class="line noRevealOnScroll"></div>
-				<div class="downarrow noRevealOnScroll"><a href="#partner" data-toggle="collapse"><h3><?php echo $l->t('How do I become a Nextcloud partner?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="partner" class="collapse">
-					<p><?php echo $l->t('We are always looking for competent partners who share our passion for making customers happy! You can join our ecosystem,');?> <a class="hyperlink" href="<?php echo home_url('contact') ?>"><?php echo $l->t('contact us for more information</a>.');?></p>
+                <h2 class="noRevealOnScroll"><?php echo $l->t('Licensing');?></h2>
+				<div class="downarrow noRevealOnScroll"><a href="#why_opensource" data-toggle="collapse"><h3><?php echo $l->t('Why is Nextcloud Open Source?<span class="icon-arrow-down">');?></h3></a></div>
+				<div id="why_opensource" class="collapse ">
+                    <a target="_blank" href="https://www.openchainproject.org/conformance"><img class="img-responsive" style="float:right; margin:5px; width: 100%; max-width: 300px;" src="<?php echo get_template_directory_uri(); ?>/assets/img/enterprise/openchain.png" alt="activity overview" /></a>
+                    <p><?php echo $l->t('Nextcloud\'s use of widely used and understood Open Source licenses provides customers legal certainly, protection against vendor lock-in and a guarantee that we offer top notch services. They facilitate an open, collaborative development model, resulting in more reliable and secure software. Open Source protects <strong>your business</strong>, guaranteeing the value of your investment for the long term. <a href="https://nextcloud.com/blog/why-the-agpl-is-great-for-business-users/">Read more about licensing benefits here</a> and about the <a href="https://nextcloud.com/blog/how-nextcloud-protects-your-business-from-license-uncertainty/">protection offered by our AGPL license here.</a>');?></p>
+                    <p><?php echo $l->t('License compliance for Nextcloud has been <a href="https://nextcloud.com/blog/nextcloud-validates-license-compliance-through-openchain/">validated through OpenChain</a>, a Linux Foundation project. Nextcloud GmbH guarantees its customers license compliance and assists customers with any license-related legal inquiries.');?></p>
 				</div>
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#gpl" data-toggle="collapse"><h3><?php echo $l->t('What does the Open Source License mean?<span class="icon-arrow-down">');?></h3></a></div>
@@ -391,6 +400,17 @@
 				<div id="pubsource" class="collapse">
 					<p><?php echo $l->t('No. As long as you did not make any modifications to the Nextcloud code, existing apps or write your own apps, you do not have to do anything. Note that configuration does not count as modification! If you did make code modifications, then you have to make that code available under the GNU AGPLv3 or a compatible license to the users of the system. The easiest way to do so is to provide a download link. Nextcloud GmbH assists customers with license compliance.');?></p>
 					<p><?php echo $l->t('License compliance for Nextcloud has been <a href="https://nextcloud.com/blog/nextcloud-validates-license-compliance-through-openchain/">validated through OpenChain</a>, a Linux Foundation project. Nextcloud GmbH guarantees its customers license compliance and assists customers with any license-related legal inquiries.');?></p>
+				</div>
+				<div class="line noRevealOnScroll"></div>
+				<h2 class="noRevealOnScroll"><?php echo $l->t('Other questions');?></h2>
+				<div class="downarrow noRevealOnScroll"><a href="#migration" data-toggle="collapse"><h3><?php echo $l->t('How difficult is migration from ownCloud?<span class="icon-arrow-down">');?></h3></a></div>
+				<div id="migration" class="collapse">
+					<p><?php echo $l->t('Migration from ownCloud to Nextcloud is easy. Our support engineers has already migrated dozens of customers, including some with tens of thousands of users. We will help you move to Nextcloud and optimally benefit from the added scalability, features, stability, performance and security.');?> <a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('See our migration page</a> for more details on migration.');?></p>
+				</div>
+				<div class="line noRevealOnScroll"></div>
+				<div class="downarrow noRevealOnScroll"><a href="#partner" data-toggle="collapse"><h3><?php echo $l->t('How do I become a Nextcloud partner?<span class="icon-arrow-down">');?></h3></a></div>
+				<div id="partner" class="collapse">
+					<p><?php echo $l->t('We are always looking for competent partners who share our passion for making customers happy! You can join our ecosystem,');?> <a class="hyperlink" href="<?php echo home_url('contact') ?>"><?php echo $l->t('contact us for more information</a>.');?></p>
 				</div>
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#sellapp" data-toggle="collapse"><h3><?php echo $l->t('Can I sell my Nextcloud App?<span class="icon-arrow-down">');?></h3></a></div>
