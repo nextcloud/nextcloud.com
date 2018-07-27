@@ -55,6 +55,7 @@
 		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We are dedicated to your success as Nextcloud customer. An analysis of your needs, a pilot customized for your architecture and remote installation support ensures a smooth introduction of Nextcloud in your organization and we will help you scale up to meet growing demand in your organization.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud GmbH employs <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-the-most-active-open-source-file-sync-and-share-project/">9 of the top-ten developers in the Nextcloud Server codebase</a>, making our engineering team by far the most qualified to help you get the most out of your Enterprise File Sync and Share solution.');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Our unique approach to support gives you direct access to Nextcloud engineering expertise. There is no layer of support people between you and what you need, giving you the equivalent of a dedicated on-site engineering team.');?></p>
 		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="<?php echo home_url('team') ?>"><?php echo $l->t('Our team');?></a></p>
 	</div>
 </section>

@@ -40,6 +40,7 @@
 <div class="container">
     <h2><?php echo $l->t('Enterprise support');?></h2>
     <p><?php echo $l->t('If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, a');?> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>" target="_blank"><?php echo $l->t('Enterprise Subscription from Nextcloud</a> is available with email and phone support.');?></p>
+    <p><?php echo $l->t('Our unique approach to support gives you what <strong>no other vendor can offer</strong>: direct access to core Nextcloud engineering expertise without a layer of support people between you and what you need!');?> <!--<a class="hyperlink" href="TBD" target="_blank"><?php echo $l->t('Learn why.');?></a>--></p>
 </div>
 </section>
 
