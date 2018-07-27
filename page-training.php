@@ -128,23 +128,23 @@
                     <td><span class="break">Introductions, coffee and tea</span></td>
                     </tr>
                     <tr>
-                    <th scope="row">9:30</th>
+                    <th scope="row">9:15</th>
                     <td>Welcome</td>
                     </tr>
                     <tr>
-                    <th scope="row">10:00</th>
+                    <th scope="row">9:20</th>
                     <td>The future of File Sync and Share: road map to collaboration</td>
                     </tr>
                     <tr>
-                    <th scope="row">10:30</th>
+                    <th scope="row">10:00</th>
+                    <td>Case study presentations</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">10:45</th>
                     <td><span class="break">Break</span></td>
                     </tr>
                     <tr>
-                    <th scope="row">11:00</th>
-                    <td>Two case study presentations</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">11:30</th>
+                    <th scope="row">11:15</th>
                     <td>Nextcloud productivity partners:<br>
                         <ul>
                             <li>Collabora Online</li>
@@ -152,7 +152,7 @@
                         </ul></td>
                     </tr>
                     <th scope="row">12:00</th>
-                    <td>Nextcloud and GDPR compliance</td>
+                    <td>Nextcloud and compliance (GDPR, HIPAA and more)</td>
                     </tr>
                     <tr>
                     <th scope="row">12:30</th>
@@ -171,11 +171,15 @@
                     <td>Nextcloud Groupware: facilitating collaboration</td>
                     </tr>
                     <tr>
+                    <tr>
                     <th scope="row">15:30</th>
+                    <td>Organizing a successful Nextcloud PoC</td>
+                    </tr>
+                    <th scope="row">15:45</th>
                     <td><span class="break">Break</span></td>
                     </tr>
                     <tr>
-                    <th scope="row">16:00</th>
+                    <th scope="row">16:15</th>
                     <td>Scalability, monitoring and debugging in Nextcloud</td>
                     </tr>
                     <tr>
