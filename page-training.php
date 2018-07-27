@@ -116,43 +116,37 @@
         <div class="col-md-8 col-md-offset-2">
         <div class="table-responsive-sm">
             <table class="table  table-hover">
-<!--                <thead>
-                    <tr>
-                    <th scope="col"></th>
-                    <th scope="col"></th>
-                    </tr>
-                </thead>-->
                 <tbody>
                     <tr>
                     <th scope="row">9:00</th>
                     <td><span class="break">Introductions, coffee and tea</span></td>
                     </tr>
                     <tr>
-                    <th scope="row">9:15</th>
+                    <th scope="row">9:45</th>
                     <td>Welcome</td>
                     </tr>
                     <tr>
-                    <th scope="row">9:20</th>
+                    <th scope="row">10:00</th>
                     <td>The future of File Sync and Share: road map to collaboration</td>
                     </tr>
                     <tr>
-                    <th scope="row">10:00</th>
+                    <th scope="row">10:30</th>
                     <td>Case study presentations</td>
                     </tr>
                     <tr>
-                    <th scope="row">10:45</th>
+                    <th scope="row">11:00</th>
                     <td><span class="break">Break</span></td>
                     </tr>
                     <tr>
-                    <th scope="row">11:15</th>
+                    <th scope="row">11:30</th>
                     <td>Nextcloud productivity partners:<br>
                         <ul>
                             <li>Collabora Online</li>
                             <li>Outlook Add-in</li>
-                        </ul></td>
-                    </tr>
-                    <th scope="row">12:00</th>
-                    <td>Nextcloud and compliance (GDPR, HIPAA and more)</td>
+                            <li>ONLYOFFICE</li>
+                            <li>Outlook Calendar/Contact integration</li>
+                        </ul>
+                    </td>
                     </tr>
                     <tr>
                     <th scope="row">12:30</th>
@@ -171,10 +165,14 @@
                     <td>Nextcloud Groupware: facilitating collaboration</td>
                     </tr>
                     <tr>
+                    <th scope="row">15:15</th>
+                    <td>Nextcloud and compliance (GDPR, HIPAA and more)</td>
+                    </tr>
                     <tr>
                     <th scope="row">15:30</th>
-                    <td>Organizing a successful Nextcloud PoC</td>
+                    <td>Running a successful Nextcloud PoC</td>
                     </tr>
+                    <tr>
                     <th scope="row">15:45</th>
                     <td><span class="break">Break</span></td>
                     </tr>
@@ -194,15 +192,10 @@
                     <th scope="row">18:00</th>
                     <td><span class="break">Drinks and networking with a nice view</span></td>
                     </tr>
-                    <tr>
-                    <th scope="row"></th>
-                    <td></td>
-                    </tr>
                 </tbody>
             </table>
         </div>
-
-            <p class="section--paragraph section--text--center revealOnScroll"><small><em>Note that the program is preliminary and might still change. Your input is welcome!</em></small></p>
+            <p class="section--paragraph section--text--center"><small><em>The program can change without notification</em></small></p>
 <!--    <div class="row">
         <div class="col-md-6 revealOnScroll image--feature">
             <ul class="revealOnScroll">
