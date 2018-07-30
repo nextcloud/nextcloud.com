@@ -36,7 +36,7 @@ $userName = $argv[1];
 $password = $argv[2];
 
 $languages = [
-        'de','pt_BR','es','fr_FR','nl','es_MX','cz_CZ','it'
+        'de','pt_BR','es','fr_FR','nl','es_MX','ru','it'
 ];
 
 $pages = scandir(__DIR__ . '/../');
