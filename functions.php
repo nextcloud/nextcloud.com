@@ -33,7 +33,7 @@ function translationUrlFilter($url) {
             array_splice($url, $count, 0, $languageEntry);
             return implode('/', $url);
         }
-        if($language[1] === 'br') {
+        if($language[1] === 'pt_BR') {
             $url = explode('/', $url);
             if($path !== null) {
                 $count = 4;
@@ -55,7 +55,7 @@ function translationUrlFilter($url) {
             array_splice($url, $count, 0, $languageEntry);
             return implode('/', $url);
         }
-        if($language[1] === 'fr') {
+        if($language[1] === 'fr_FR') {
             $url = explode('/', $url);
             if($path !== null) {
                 $count = 4;
@@ -77,7 +77,7 @@ function translationUrlFilter($url) {
             array_splice($url, $count, 0, $languageEntry);
             return implode('/', $url);
         }
-        if($language[1] === 'mx') {
+        if($language[1] === 'es_MX') {
             $url = explode('/', $url);
             if($path !== null) {
                 $count = 4;
@@ -88,7 +88,7 @@ function translationUrlFilter($url) {
             array_splice($url, $count, 0, $languageEntry);
             return implode('/', $url);
         }
-        if($language[1] === 'cz') {
+        if($language[1] === 'cz_CZ') {
             $url = explode('/', $url);
             if($path !== null) {
                 $count = 4;

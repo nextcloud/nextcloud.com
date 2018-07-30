@@ -202,9 +202,14 @@ $echoed = false;
 $hl = '';
 $path = parse_url(site_url())['path'];
 $language = explode('/', substr($_SERVER['REQUEST_URI'], strlen($path)));
-if(isset($language[1]) && $language[1] === 'de') {
-	$hl = strtolower((string)$language[1]);
-	if (ctype_alnum($hl) && strlen($hl) === 2) {
+if(isset($language[1])) {  // check if language is set.
+	if (strlen($hl) == 2) {
+	$hl = strtolower((string)$language[1]); // lowercase two-character country codes
+	} else {
+	$hl = (string)$language[1];
+	}
+	// check if $hl is either a 2-character alphanumeric code or a regexp matched, 5-character xx_YY style code
+	if ( (ctype_alnum($hl) && strlen($hl) === 2) || (preg_match("/^[a-z]{2}_[A-Z]{2}/",$language[1]) && strlen($hl) == 5) ) {
 		$l10nFiles = [
 			get_post()->post_name,
 			'header-navbar',

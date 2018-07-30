@@ -29,14 +29,14 @@
  */
 
 if(count($argv) !== 3) {
-	die('Not executed in the right format.');
+        die('Not executed in the right format.');
 }
 
 $userName = $argv[1];
 $password = $argv[2];
 
 $languages = [
-	'de',
+        'de','pt_BR','es','fr_FR','nl','es_MX','cz_CZ','it'
 ];
 
 $pages = scandir(__DIR__ . '/../');
@@ -44,67 +44,67 @@ $pages[] = 'page-header-navbar.php';
 $pages[] = 'page-footer.php';
 
 foreach($languages as $language) {
-	foreach ($pages as $page) {
-		if (substr($page, 0, 5) === 'page-') {
-			$pageName = substr($page, 5, -4);
+        foreach ($pages as $page) {
+                if (substr($page, 0, 5) === 'page-') {
+                        $pageName = substr($page, 5, -4);
 
-			$ch = curl_init();
-			curl_setopt(
-				$ch,
-				CURLOPT_URL,
-				sprintf(
-					'https://www.transifex.com/api/2/project/nextcloud-website/resource/%sjson/stats/%s',
-					$pageName,
-					$language
-				)
-			);
+                        $ch = curl_init();
+                        curl_setopt(
+                                $ch,
+                                CURLOPT_URL,
+                                sprintf(
+                                        'https://www.transifex.com/api/2/project/nextcloud-website/resource/%sjson/stats/%s',
+                                        $pageName,
+                                        $language
+                                )
+                        );
 //             echo('resource is '.$pageName.' and language is '.$language."\n");
 //             echo('so the curl URL is: https://www.transifex.com/api/2/project/nextcloud-website/resource/'.$pageName.'json/stats/'.$language."\n");
 
-			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-			curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
-			curl_setopt($ch, CURLOPT_USERPWD, $userName . ':' . $password);
-			$result = curl_exec($ch);
-			if (curl_errno($ch)) {
-				throw new \Exception('Syncing languages: ' . curl_error($ch));
-			}
-			curl_close($ch);
-			$jsonResponse = json_decode($result, true);
+                        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
+                        curl_setopt($ch, CURLOPT_USERPWD, $userName . ':' . $password);
+                        $result = curl_exec($ch);
+                        if (curl_errno($ch)) {
+                                throw new \Exception('Syncing languages: ' . curl_error($ch));
+                        }
+                        curl_close($ch);
+                        $jsonResponse = json_decode($result, true);
 
-// 			echo('translation percentage completed and reviewed for page: '.$pageName.' and language: '.$language.' is: '.$jsonResponse['completed'].' completed'.' and '.$jsonResponse['reviewed_percentage'].' reviewed'."\n".'If both are 100%, we proceed to sync the page.'."\n\n");
+//                      echo('translation percentage completed and reviewed for page: '.$pageName.' and language: '.$language.' is: '.$jsonResponse['completed'].' completed'.' and '.$jsonResponse['reviewed_percentage'].' reviewed'."\n".'If both are 100%, we proceed to sync the page.'."\n\n");
 
-			if(isset($jsonResponse['completed']) && $jsonResponse['completed'] === '100%' && $jsonResponse['reviewed_percentage'] === '100%') {
-// 				echo('syncing page: '.$pageName.' for language: '.$language."\n");
-				$ch = curl_init();
-				curl_setopt(
-					$ch,
-					CURLOPT_URL,
-					sprintf(
-						'https://www.transifex.com/api/2/project/nextcloud-website/resource/%sjson/translation/%s',
-						$pageName,
-						$language
-					)
-				);
-				curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-				curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
-				curl_setopt($ch, CURLOPT_USERPWD, $userName . ':' . $password);
-				$result = curl_exec($ch);
-// 				echo('We have configured curl now.'."\n");
+                        if(isset($jsonResponse['completed']) && $jsonResponse['completed'] === '100%' && $jsonResponse['reviewed_percentage'] === '100%') {
+//                              echo('syncing page: '.$pageName.' for language: '.$language."\n");
+                                $ch = curl_init();
+                                curl_setopt(
+                                        $ch,
+                                        CURLOPT_URL,
+                                        sprintf(
+                                                'https://www.transifex.com/api/2/project/nextcloud-website/resource/%sjson/translation/%s',
+                                                $pageName,
+                                                $language
+                                        )
+                                );
+                                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                                curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
+                                curl_setopt($ch, CURLOPT_USERPWD, $userName . ':' . $password);
+                                $result = curl_exec($ch);
+//                              echo('We have configured curl now.'."\n");
 
-				if (curl_errno($ch)) {
-					throw new \Exception('Syncing languages: ' . curl_error($ch));
-				}
-				curl_close($ch);
-// 				echo('Dumping the result below.'."\n");
-// 				echo(var_dump($result));
-				$result = json_decode($result, true);
-// 				echo("\n".'Dumping the result after json_decode below.'."\n");
-// 				echo(var_dump($result));
-// 				echo("\n".'Content for page: '.$pageName.' and language: '.$language.' is: '.$result['content']."\n\n");
-				if(isset($result['content'])) {
-					file_put_contents(__DIR__ . '/../l10n/' . $language . '/' . $pageName . '.json', $result['content']);
-				}
-			}
-		}
-	}
+                                if (curl_errno($ch)) {
+                                        throw new \Exception('Syncing languages: ' . curl_error($ch));
+                                }
+                                curl_close($ch);
+//                              echo('Dumping the result below.'."\n");
+//                              echo(var_dump($result));
+                                $result = json_decode($result, true);
+//                              echo("\n".'Dumping the result after json_decode below.'."\n");
+//                              echo(var_dump($result));
+//                              echo("\n".'Content for page: '.$pageName.' and language: '.$language.' is: '.$result['content']."\n\n");
+                                if(isset($result['content'])) {
+                                        file_put_contents(__DIR__ . '/../l10n/' . $language . '/' . $pageName . '.json', $result['content']);
+                                }
+                        }
+                }
+        }
 }
