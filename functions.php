@@ -32,6 +32,72 @@ function translationUrlFilter($url) {
 		array_splice($url, $count, 0, $languageEntry);
 		return implode('/', $url);
 	}
+	if(isset($language[1]) && $language[1] === 'br') {
+		$url = explode('/', $url);
+		if($path !== null) {
+			$count = 4;
+		} else {
+			$count = 3;
+		}
+		$languageEntry = ['br'];
+		array_splice($url, $count, 0, $languageEntry);
+		return implode('/', $url);
+	}
+	if(isset($language[1]) && $language[1] === 'es') {
+		$url = explode('/', $url);
+		if($path !== null) {
+			$count = 4;
+		} else {
+			$count = 3;
+		}
+		$languageEntry = ['es'];
+		array_splice($url, $count, 0, $languageEntry);
+		return implode('/', $url);
+	}
+	if(isset($language[1]) && $language[1] === 'fr') {
+		$url = explode('/', $url);
+		if($path !== null) {
+			$count = 4;
+		} else {
+			$count = 3;
+		}
+		$languageEntry = ['fr'];
+		array_splice($url, $count, 0, $languageEntry);
+		return implode('/', $url);
+	}
+	if(isset($language[1]) && $language[1] === 'nl') {
+		$url = explode('/', $url);
+		if($path !== null) {
+			$count = 4;
+		} else {
+			$count = 3;
+		}
+		$languageEntry = ['nl'];
+		array_splice($url, $count, 0, $languageEntry);
+		return implode('/', $url);
+	}
+	if(isset($language[1]) && $language[1] === 'mx') {
+		$url = explode('/', $url);
+		if($path !== null) {
+			$count = 4;
+		} else {
+			$count = 3;
+		}
+		$languageEntry = ['mx'];
+		array_splice($url, $count, 0, $languageEntry);
+		return implode('/', $url);
+	}
+	if(isset($language[1]) && $language[1] === 'cz') {
+		$url = explode('/', $url);
+		if($path !== null) {
+			$count = 4;
+		} else {
+			$count = 3;
+		}
+		$languageEntry = ['cz'];
+		array_splice($url, $count, 0, $languageEntry);
+		return implode('/', $url);
+	}
 	return $url;
 }
 
