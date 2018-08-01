@@ -59,7 +59,7 @@
         </div>
         <div class="col-md-8">
             <h2>Real solutions</h2>
-            <p class="section--paragraph">By providing businesses a <a class="hyperlink" href="https://nextcloud.com/?p=1886">self hosted</a> file access, sync and share solution with powerful integration in existing infrastructure and storage solutions, Nextcloud makes data available to users wherever it is. No need for new storage solutions or moving all data over. Easy integration and quick deployment brings organizations immediately in a compliant, secure state.</p>
+            <p class="section--paragraph">By providing businesses a <a class="hyperlink" href="https://nextcloud.com/blog/the-issue-with-public-cloud/">self hosted</a> file access, sync and share solution with powerful integration in existing infrastructure and storage solutions, Nextcloud makes data available to users wherever it is. No need for new storage solutions or moving all data over. Easy integration and quick deployment brings organizations immediately in a compliant, secure state.</p>
             <p class="section--paragraph">Its familiar, easy to use interface on web, mobile and desktop allows users to work efficiently and be confident everybody has access to the same, latest version of data. Its enterprise capabilities ensure IT maintains <a class="hyperlink" href="<?php echo home_url('workflow') ?>">full control</a> over sharing, retention and availability of data within and across the boundaries of the organization. Learn more technical details about <a class="hyperlink" href="<?php echo home_url('files') ?>">Nextcloud Files here.</a></p>
 		</div>
     </div>
@@ -102,7 +102,20 @@
 
 <section>
 <div class="container">
+    <div class="row feature-row">
+        <div class="col-md-6 revealOnScroll image--floated">
+            <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/iPhone6s-talk-chat.png" alt="in action"/></a>
+        </div>
+        <div class="col-md-6 revealOnScroll feature--block">
+        <h2>Future-ready: built in collaboration</h2>
+        <p>Gartner typically calls solutions in this space Enterprise File Sync and Share or EFSS. In the last years, the market has been moving on to providing a next generation EFSS, called Content Collaboration Platform, integrating online document editing, communication and planning capabilities complementing the file exchange technologies.</p>
+        <p>Nextcloud is a leading vendor in this new space, offering these capabilities with <a class="hyperlink" href="<?php echo home_url('groupware') ?>">Nextcloud Groupware</a> and <a class="hyperlink" href="<?php echo home_url('talk') ?>">Nextcloud Talk</a>, delivering seamless communication features integrated in Files. Users can attach a note to shares, comment on files, open a chat or even start a call directly, connecting files to these conversations to keep track of it all. Integrated email and calendaring connect projects and teams to the files they work with, and with Deck, Nextcloud provides a kanban board app which works together with all those.</p>
+        <p>All these functions are available on-the-go and work across organizational boundaries, allowing users to self-manage thanks to built in support for creating guest accounts by users as well as public sharing links that require no login but can be protected by a password.</p>
+        </div>
+    </div>
+
     <div class="row revealOnScroll">
+    <h2>Your advantages</h2>
         <div class="col-md-12">
             <h3>No new data silos</h3>
             <p class="section--paragraph">Modern organizations have data in a wide variety of silos like Sharepoint, Windows Network Drives, FTP sites and (often without knowledge of management) Dropbox or Google Drive. Nextcloud acts as a <a class="hyperlink" href="/storage">single file access, sync and share layer</a> across all these storage systems, integrating with enterprise native account handling like LDAP or SAML.</p>
