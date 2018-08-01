@@ -169,7 +169,7 @@
 			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
 				<p class="text-center">Contact us to learn how we can help you secure corporate data.</p>
 				<div class="text-center morebuttondiv">
-					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow">Contact us <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>
