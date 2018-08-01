@@ -35,6 +35,13 @@ $registerL10n = [
     'geterror' => $l->t('Error while retrieving the providers list.')
 ];
 
+$officialApps = [
+    'core' => $l->t('Files, Sharing, Federation, Calendar, Contacts, Talk, Mail, Tasks, Notes'),
+    'bookmarks'=> $l->t('Bookmarks'),
+    'news'=> $l->t('News'),
+    'twofactor_totp' => $l->t('Two factor authentication'),
+]
+
 ?>
 <div class="background register-background">
 	<div class="container">
@@ -53,7 +60,8 @@ $registerL10n = [
   <div id="register" class="container"
   	   data-ll="<?php echo htmlspecialchars(json_encode($location)) ?>"
        data-ocsapi="<?php echo array_key_exists('HTTP_OCS_APIREQUEST', $_SERVER) ?>"
-       data-l10n="<?php echo htmlspecialchars(json_encode($registerL10n)) ?>">
+       data-l10n="<?php echo htmlspecialchars(json_encode($registerL10n)) ?>"
+       data-officialapps="<?php echo htmlspecialchars(json_encode($officialApps)) ?>">
   </div>
   <div id="register-details" class="container"><p></p></div>
 </section>
