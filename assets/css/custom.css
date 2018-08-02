@@ -5670,11 +5670,15 @@ footer.page-footer {
 .app-contacts {
   background-image: url("../img/apps/contacts.svg"); }
 
+.app-files,
 .app-core {
-  background-image: url("../img/apps/core.svg"); }
+  background-image: url("../img/apps/files.svg"); }
 
 .app-deck {
   background-image: url("../img/apps/deck.svg"); }
+
+.app-drawio {
+  background-image: url("../img/apps/drawio.svg"); }
 
 .app-fulltextsearch {
   background-image: url("../img/apps/fulltextsearch.svg"); }
@@ -5690,6 +5694,9 @@ footer.page-footer {
 
 .app-news {
   background-image: url("../img/apps/news.svg"); }
+
+.app-notes {
+  background-image: url("../img/apps/notes.svg"); }
 
 .app-passman {
   background-image: url("../img/apps/passman.svg"); }
