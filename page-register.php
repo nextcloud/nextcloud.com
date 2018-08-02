@@ -48,7 +48,8 @@ $officialApps = [
     'fulltextsearch' => $l->t('Full text search'),
     'mindmaps' => $l->t('Mindmaps'),
     'passman' => $l->t('Passman'),
-    'spreed' => $l->t('Talk')
+    'spreed' => $l->t('Talk'),
+    'drawio' => $l->t('Draw.io')
 ]
 
 ?>

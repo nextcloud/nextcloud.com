@@ -8,9 +8,11 @@
 
 .app-contacts { background-image: url("../img/apps/contacts.svg"); }
 
-.app-core { background-image: url("../img/apps/core.svg"); }
+.app-files, .app-core { background-image: url("../img/apps/files.svg"); }
 
 .app-deck { background-image: url("../img/apps/deck.svg"); }
+
+.app-drawio { background-image: url("../img/apps/drawio.svg"); }
 
 .app-fulltextsearch { background-image: url("../img/apps/fulltextsearch.svg"); }
 
@@ -21,6 +23,8 @@
 .app-mindmaps { background-image: url("../img/apps/mindmaps.svg"); }
 
 .app-news { background-image: url("../img/apps/news.svg"); }
+
+.app-notes { background-image: url("../img/apps/notes.svg"); }
 
 .app-passman { background-image: url("../img/apps/passman.svg"); }
 
