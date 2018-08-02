@@ -2364,7 +2364,7 @@ footer.page-footer p a:hover { color: #ffffff; }
 
 .flag-um { background-image: url("../img/flags/um.gif"); }
 
-.flag-us { background-image: url("../img/flags/us.gif"); }
+.flag-us { background-image: url("../img/flags/usa.gif"); }
 
 .flag-uy { background-image: url("../img/flags/uy.gif"); }
 
@@ -2402,17 +2402,35 @@ footer.page-footer p a:hover { color: #ffffff; }
 
 [class^='app-'], [class*=' app-'] { background-repeat: no-repeat; background-position: center; background-size: 16px; min-width: 16px; min-height: 16px; }
 
+.app-bookmarks { background-image: url("../img/apps/bookmarks.svg"); }
+
 .app-calendar { background-image: url("../img/apps/calendar.svg"); }
+
+.app-collabora { background-image: url("../img/apps/collabora.svg"); }
 
 .app-contacts { background-image: url("../img/apps/contacts.svg"); }
 
 .app-core { background-image: url("../img/apps/core.svg"); }
 
+.app-deck { background-image: url("../img/apps/deck.svg"); }
+
+.app-fulltextsearch { background-image: url("../img/apps/fulltextsearch.svg"); }
+
+.app-gallery { background-image: url("../img/apps/gallery.svg"); }
+
 .app-mail { background-image: url("../img/apps/mail.svg"); }
+
+.app-mindmaps { background-image: url("../img/apps/mindmaps.svg"); }
+
+.app-news { background-image: url("../img/apps/news.svg"); }
+
+.app-passman { background-image: url("../img/apps/passman.svg"); }
 
 .app-spreed { background-image: url("../img/apps/spreed.svg"); }
 
 .app-tasks { background-image: url("../img/apps/tasks.svg"); }
+
+.app-twofactor_totp { background-image: url("../img/apps/twofactor_totp.svg"); }
 
 .jumbotron--heading-1 { padding-top: 0; color: white !important; font-size: 3.79688em !important; line-height: 120%; font-weight: 500; }
 

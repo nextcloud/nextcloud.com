@@ -32,7 +32,9 @@ $registerL10n = [
     'change' => $l->t('change provider'),
     'close' => $l->t('close'),
     'far' => $l->t('Far far away'),
-    'geterror' => $l->t('Error while retrieving the providers list.')
+    'geterror' => $l->t('Error while retrieving the providers list.'),
+    'tos' => $l->t('Terms of service'),
+    'tosagree' => $l->t('I agree to the %tos%')
 ];
 
 $officialApps = [
@@ -40,6 +42,13 @@ $officialApps = [
     'bookmarks'=> $l->t('Bookmarks'),
     'news'=> $l->t('News'),
     'twofactor_totp' => $l->t('Two factor authentication'),
+    'gallery' => $l->t('Gallery'),
+    'collabora' => $l->t('Collabora Online'),
+    'deck' => $l->t('Deck'),
+    'fulltextsearch' => $l->t('Full text search'),
+    'mindmaps' => $l->t('Mindmaps'),
+    'passman' => $l->t('Passman'),
+    'spreed' => $l->t('Talk')
 ]
 
 ?>

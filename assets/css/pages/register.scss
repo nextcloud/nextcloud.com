@@ -1,5 +1,9 @@
 @import '../variables';
 @import '../modules/transparent-navbar';
+.background .topheader {
+    top: 25%;
+}
+
 .register-background {
     background: url('../../img/headers/register.jpg') no-repeat;
     background-position: center;
@@ -41,7 +45,7 @@ section {
     width: 600px;
     max-width: 100vw;
     position: relative;
-    margin-top: -180px;
+    margin-top: -200px;
     margin-bottom: 100px;
     padding: 0;
     transform: translateY(15px);
@@ -62,6 +66,9 @@ section {
 
 @media (max-width: 768px) {
     #register {
-        margin-top: -150px;
+        margin-top: -220px;
+    }
+    .background .topheader {
+        top: 20%;
     }
 }
