@@ -133,7 +133,7 @@
                     <input type="hidden" name="segmentId" value="12">
                     <input class="mail revealOnScroll" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large revealOnScroll" type="submit" value=" Get the white paper "></p>
                 </form>
-                <small><?php echo $l->t('Find the technical design (RFC) of our solution on');?> <a class="hyperlink" href="https://github.com/nextcloud/end_to_end_encryption_rfc">github.</a></small>
+                <small><?php echo $l->t('Find the technical design (RFC) of our solution on');?> <a class="hyperlink" href="https://github.com/nextcloud/end_to_end_encryption_rfc">GitHub</a>.</small>
             </div>
         </div>
         <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/endtoend-thumbnail-banner.png"/>
@@ -190,7 +190,7 @@
             <p class="section--paragraph revealOnScroll">
                 <ul>
                     <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Security properties: Never leak directory structure, filenames or file content to the server. Encrypt folders so only legitimate recipients have access, data integrity is guaranteed and authenticity can be proven. Optional central data recovery key should be possible. Users should be warned if in use.');?></li>
-                    <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Use widely available and tested libraries for crypto primitives, available for iOS 9+, Android 6.0+, Mac OS X 10.9+, Windows 7+, Linux and PHP 7.0+.');?></li>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Use widely available and tested libraries for crypto primitives, available for iOS 9+, Android 6.0+, macOS 10.9+, Windows 7+, Linux and PHP 7.0+.');?></li>
                     <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Sharing on folder-level granularity must be possible to individual users. No passwords should need to be exchanged for sharing. Key exchange should be auditable. Adding devices should be easy and new devices should have access to all previously encrypted data.');?></li>
                     <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('The protocol needs to support versioning in case of future changes to metadata or crypto handling. Design should support a hardware security module, giving strong authentication, tamper-resistance and a complete audit trail.');?></li>
                 </ul>
