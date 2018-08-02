@@ -77,6 +77,7 @@ function request_account($request) {
 	// init vars
 	$email      = $request['email'];
 	$providerId = intval($request['id']);
+	$locationId = intval($request['location']);
 	$newsletter = array_key_exists('newsletter', $request) ? true : false;
 	$subscribe  = boolval($request['subscribe']);
 
@@ -88,7 +89,7 @@ function request_account($request) {
 
 	// init post request
 	$provider = $json[$providerId];
-	$url      = $provider->url . '/ocs/v2.php/account/request/' . $provider->key;
+	$url      = $provider->locations[$locationId]->url . '/ocs/v2.php/account/request/' . $provider->locations[$locationId]->key;
 	$data     = array(
 		'headers' => array(
 			'Content-Type' => 'application/x-www-form-urlencoded;charset=UTF-8'
@@ -135,7 +136,13 @@ function get_providers_list() {
 
 	// obfuscate keys
 	foreach ($json as $provider) {
+		// safety fallback
 		unset($provider->key);
+		unset($provider->url);
+		foreach ($provider->locations as $location) {
+			unset($location->key);
+			unset($location->url);
+		}
 	}
 
 	return $json;
