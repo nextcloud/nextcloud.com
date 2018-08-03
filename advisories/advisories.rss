@@ -5,6 +5,18 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Server: Bypass of 2 Factor Authentication (NC-SA-2018-007)</title>
+  <description>&lt;p&gt;Improper authentication of the second factor challenge would allow an attacker that had access to user credentials to bypass the second factor validation completely.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-007</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-007</guid>
+  <pubDate>Fri, 03 Aug 2018 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Improper validation of data passed to JSON encoder (NC-SA-2018-006)</title>
+  <description>&lt;p&gt;Improper validation of input allowed an attacker to not have their actions logged to the audit log.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-006&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-006</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-006</guid>
+  <pubDate>Fri, 03 Aug 2018 14:00:00 +0200</pubDate>
+ </item><item>
   <title>Contacts App: Stored XSS in contacts via group shares (NC-SA-2018-005)</title>
   <description>&lt;p&gt;A missing sanitization of search results for an autocomplete field could lead to a stored XSS requiring user-interaction. The missing sanitization only affected group names, hence malicious search results could only be crafted by privileged users like admins or group admins.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-005&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-005</link>
