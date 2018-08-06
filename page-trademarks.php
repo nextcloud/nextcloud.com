@@ -11,8 +11,8 @@
 
 <h2>General Guidelines for Using the Nextcloud Marks</h2>
 
-<h3>Product Quality</h3>
-<p>It is fundamentally important to us that any permitted use you make of the Nextcloud Marks be of the highest quality and integrity and meet the highest standards. To ensure this is the case, we reserve the right to revoke your permission at any time.</p>
+<h3>Product Quality and Brand Perception</h3>
+<p>It is fundamentally important to us that any permitted use you make of the Nextcloud Marks be of the highest quality and integrity and meet the highest standards. To ensure this is the case, we reserve the right to revoke your permission at any time and for any reason.</p>
 
 <h3>Fair Use</h3>
 <p>We acknowledge and support your right to make <em>"fair use"</em> of the Nextcloud Marks, and do not mean to suggest with these guidelines that our permission is required in such cases. We cannot, however, tell you categorically what will and will not qualify as a "fair use."</p>
@@ -37,9 +37,12 @@
 
 <h2>Use Cases for the Nextcloud Marks</h2>
 
-<h3>Running an Nextcloud Server installation</h3>
-<p>You may use the Nextcloud Marks to identify your Nextcloud installation as long as you have not made any modifications to the Nextcloud Server core itself. Modifications to the Nextcloud Server here are defined as those which would would require you to provide them in source form to any user who asks under the <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank">license of the AGPLv3</a>.</p>
-
+<h3>Running a Nextcloud Server installation</h3>
+<p>You may use the Nextcloud Marks to identify your Nextcloud installation under the following conditions:</p>
+<ul>
+<li>You have not made any modifications to the Nextcloud Server core itself. Modifications to the Nextcloud Server here are defined as those which would would require you to provide them in source form to any user who asks under the <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank">license of the AGPLv3</a>.
+<li>If you advertise your server, note that you have to follow all stipulations in the <a href="#advertising">Advertising section</a></li>
+</ul>
 <p>Note that enabling Nextcloud apps and configuration of your server are not considered changes or modifications to Nextcloud.</p>
 
 <h3>Distributing Nextcloud Server without modification</h3>
@@ -50,7 +53,7 @@
 <p>Rather than offering Nextcloud Server unmodified, we suggest to link to our installation page to ensure users can always find the latest Nextcloud release. If you offer Nextcloud as part of a package, image or installer, please keep security issues in mind. Offering easy and convenient update capabilities will greatly benefit your users. Where possible, we suggest to make use of official Nextcloud packages or zip files and tarballs.</p>
 
 <h3>Distributing Nextcloud Server With Modifications</h3>
-<p>You may distribute or make available (for example as hosting provider) Nextcloud Server with modifications under the terms of the <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank">AGPLv3 license</a>. That means, generally speaking, that recipients of the code (including those who get remote access to a server running Nextcloud) should have an easy option to receive a full copy of the code, including those modifications, under the AGPLv3 licence. A download link usually suffices.</p>
+<p>You may distribute Nextcloud Server with modifications under the terms of the <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank">AGPLv3 license</a>. That means, generally speaking, that recipients of the code should have an easy option to receive a full copy of the code, including those modifications, under the AGPLv3 licence. A download link usually suffices.</p>
 
 <p>In making such a distribution you must remove all trademark uses of the Nextcloud Marks from the version of Nextcloud you are modifying. You may, if you wish, combine your own trademark with one of the following Nextcloud Mark tag-lines: "Based on Nextcloud," "Powered by Nextcloud," "Derived from Nextcloud," "Uses Nextcloud," "Built on Nextcloud," or "Built from Nextcloud."</p>
 
@@ -100,6 +103,7 @@
 	<li>You do not misrepresent your relationship with the Nextcloud Community;</li>
 	<li>You do not disparage the Nextcloud Community using the Nextcloud Marks; and</li>
 	<li>Your use of the Nextcloud Marks is not deceptive or false in any regard.</li>
+	<li>There is no commercial nature to your presence.</li>
 </ul>
 <p>Individuals can be Nextcloud contributors, members of the wider Nextcloud community, or Nextcloud users.</p>
 
@@ -123,6 +127,7 @@
 	<li>"Built on Nextcloud"</li>
 </ul>
 
+<a name="advertising"></a>
 <h3>Advertising and Marketing Materials, including Business Cards</h3>
 <p>You may use the Nextcloud Marks in describing and advertising your Nextcloud-related product or service, or on business cards to identify your affiliation with the Nextcloud Community, so long as:</p>
 
@@ -132,10 +137,12 @@
 	<li>Your use of the Nextcloud Marks is not deceptive or false in any regard;</li>
 	<li>Your description, advertising, or other use does not contain content that could be construed as distasteful, offensive, or controversial, and only does contain content that is appropriate for all age groups; and</li>
 	<li>Your use of the Nextcloud Marks does not include or imply any commitment by the Nextcloud Community to provide support, service, indemnification, or updates.</li>
+	<li>Your use of the Nextcloud Marks doesn't create the impression that you provide Nextcloud support, services or product that are related to or can be mistaken with Nextcloud support, services or products of Nextcloud GmbH</li>
 </ul>
+<p>We reserve the right to deny allowing your use of our trademark for any reason, including but not limited to a determination that your usage creates confusion for our users, damages or mis-represents our brand, is a breach of any of the stipulations above or for any other reason, at any time. If we inform you by email or phone, you have 5 business days to comply and remove all trademark usage from your website and marketing materials.</p>
 
 <h3>Business Names</h3>
-<p>You can not include an Nextcloud Mark in the name of your company or business.</p>
+<p>You can not include an Nextcloud Mark in the name of your company, business or product.</p>
 
 <h3>Commentary</h3>
 <p>We welcome comment and constructive criticism, and we try to have a good sense of humor. It is fine to use the Nextcloud Marks in your discussion, commentary, criticism, or parody, in ways that unequivocally do not imply endorsement. Please do not create mock or parody products with names based on the Nextcloud Marks. Also, please be aware that, in our opinion, it is not "fair use" to use the Nextcloud Marks in a manner that disparages Nextcloud technology or the Nextcloud Community.</p>
@@ -148,3 +155,4 @@
 
 <h2>License for these Guidelines</h2>
 <p>These Guidelines are published under Version 3 of the Creative Commons Attribution Share-Alike License, and are derived in part from the openSUSE Trademark Guidelines (April 20, 2015), which in turn is derived in part from the OpenSolaris Trademark Policy 1.0 (May 5, 2008), the Ubuntu and Mozilla Trademark guidelines.</p>
+<p>We reserve the right to make changes to the guidelines at any time without notification. We last updated the guidelines on August 6 2018.</p>
