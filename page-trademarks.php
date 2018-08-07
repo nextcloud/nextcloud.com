@@ -103,7 +103,6 @@
 	<li>You do not misrepresent your relationship with the Nextcloud Community;</li>
 	<li>You do not disparage the Nextcloud Community using the Nextcloud Marks; and</li>
 	<li>Your use of the Nextcloud Marks is not deceptive or false in any regard.</li>
-	<li>There is no commercial nature to your presence.</li>
 </ul>
 <p>Individuals can be Nextcloud contributors, members of the wider Nextcloud community, or Nextcloud users.</p>
 
@@ -128,18 +127,18 @@
 </ul>
 
 <a name="advertising"></a>
-<h3>Advertising and Marketing Materials, including Business Cards</h3>
-<p>You may use the Nextcloud Marks in describing and advertising your Nextcloud-related product or service, or on business cards to identify your affiliation with the Nextcloud Community, so long as:</p>
+<h3>Advertising and Marketing Materials</h3>
+<p>You may use the Nextcloud Marks in describing and advertising your Nextcloud-related product or services like training, development and support, on websites, marketing materials or on business cards to identify your affiliation with the Nextcloud Community, so long as:</p>
 
 <ul>
 	<li>You do not imply or state an endorsement by the Nextcloud Community or otherwise misrepresent your relationship with the Nextcloud Community;</li>
 	<li>You do not disparage the Nextcloud Community using the Nextcloud Marks;</li>
 	<li>Your use of the Nextcloud Marks is not deceptive or false in any regard;</li>
-	<li>Your description, advertising, or other use does not contain content that could be construed as distasteful, offensive, or controversial, and only does contain content that is appropriate for all age groups; and</li>
-	<li>Your use of the Nextcloud Marks does not include or imply any commitment by the Nextcloud Community to provide support, service, indemnification, or updates.</li>
-	<li>Your use of the Nextcloud Marks doesn't create the impression that you provide Nextcloud support, services or product that are related to or can be mistaken with Nextcloud support, services or products of Nextcloud GmbH</li>
+	<li>Your description, advertising, or other use does not contain content that could be construed as distasteful, offensive, or controversial, and only does contain content that is appropriate for all age groups;</li>
+	<li>Your use of the Nextcloud Marks does not include or imply any commitment by the Nextcloud Community to provide support, service, indemnification, or updates; and</li>
+	<li>Your use of the Nextcloud Marks does not create the impression that you provide Nextcloud support, services or products that are related to or can be mistaken for Nextcloud support, services or products as provided by Nextcloud GmbH.</li>
 </ul>
-<p>We reserve the right to deny allowing your use of our trademark for any reason, including but not limited to a determination that your usage creates confusion for our users, damages or mis-represents our brand, is a breach of any of the stipulations above or for any other reason, at any time. If we inform you by email or phone, you have 5 business days to comply and remove all trademark usage from your website and marketing materials.</p>
+<p>We reserve the right to deny allowing your use of our trademark for any reason, including but not limited to a determination that your usage creates confusion for our users, damages or mis-represents our brand, is a breach of any of the stipulations above or for any other reason, at any time.</p>
 
 <h3>Business Names</h3>
 <p>You can not include an Nextcloud Mark in the name of your company, business or product.</p>
