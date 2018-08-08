@@ -699,7 +699,8 @@
 .flag-um {
   background-image: url("../img/flags/um.gif"); }
 
-.flag-us {
+.flag-us,
+.flag-usa {
   background-image: url("../img/flags/usa.gif"); }
 
 .flag-uy {
