@@ -1420,5 +1420,18 @@
             "Wir bieten gemanagtes Nextcloud-Hosting datenschutzkonform nach DSGVO mit ISO 27001 zertifizierten Rechenzentren in Deutschland."
          ],
          "imagename":"wolkesicher.png"
+      },
+    {
+         "title":"Big SAFEBOX Data",
+         "url":"https:\/\/www.bsbdata.com\/servicio\/servidores-dedicados",
+         "flags":[
+            "es"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "We are a Data Center Tier II. Our servers are locate in spain. We offer space and service of the Nexcloud and other services as housing, vps, ..."
+         ],
+         "imagename":"bsbd.png"
       }
 ]
