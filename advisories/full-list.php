@@ -2,6 +2,16 @@
 
 <h2>2018</h2>
 
+<h3>Nextcloud Server 13.0.5</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2018-008">Stored XSS in autocomplete suggestions for file comments (NC-SA-2018-008)</a> 2018-08-10</li>
+</ul>
+
+<h3>Talk App 3.2.5</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2018-009">Stored XSS in autocomplete suggestions for chat @-mentions (NC-SA-2018-009)</a> 2018-08-10</li>
+</ul>
+
 <h3>Nextcloud Server 12.0.3</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2018-006">Improper validation of data passed to JSON encoder (NC-SA-2018-006)</a> 2018-08-03</li>
