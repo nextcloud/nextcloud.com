@@ -1433,5 +1433,18 @@
             "We are a Data Center Tier II. Our servers are locate in spain. We offer space and service of the Nexcloud and other services as housing, vps, ..."
          ],
          "imagename":"bsbd.png"
+      },
+    {
+         "title":"NOBUGS IT GmbH",
+         "url":"https:\/\/www.nobugs.gmbh\/at\/Service_NCS.html ",
+         "flags":[
+            "at"
+         ],
+         "freeplans":false,
+         "supports":"organization",
+         "specializes":[
+            "NCS. Ein Dienst der auf Ihr Unternehmen zugeschnitten ist und Zahlreiche Erweiterungsöglichkeiten bietet. Rechenzentren nach ISO 27001 in Österreich."
+         ],
+         "imagename":"nobugs.png"
       }
 ]
