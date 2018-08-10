@@ -95,15 +95,15 @@
 		<?php } ?>
 		<?php if(!empty($VERSIONS_CLIENT_DESKTOP_TESTING)) { ?>
 			<h4><?php echo $l->t('Desktop Clients <small><?php echo $VERSIONS_CLIENT_DESKTOP_TESTING; ?></small>');?></h4>
-			<p><?php echo $l->t('Please report any issues to the <a href="https://github.com/nextcloud/client_theming" target="_blank">issue tracker</a>.');?></p>
+			<p><?php echo $l->t('Please report any issues to the');?> <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES; ?>" target="_blank"><?php echo $l->t('issue tracker.');?></a></p>
 			<!--<p><?php echo $l->t('You can check the authenticity of the sources using this <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES_PGP; ?>">PGP signature</a>.');?></p>-->
 			<div class="btn-group">
 				<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_WIN; ?>" class="btn btn-default btn-large"><i class="icon-windows"></i>  Windows</a>
 				<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_MAC; ?>" class="btn btn-default btn-large"><i class="icon-apple"></i> Mac</a>
                 <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX; ?>" class="btn btn-default btn-large"><i class="icon-linux"></i> Linux</a>
-                <a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES; ?>" class="btn btn-default btn-large"><i class="icon-archive"></i> Sources</a>
-		<?php } ?></p>
-		<p><a href="<?php echo home_url('contribute') ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('The Nextcloud Contribute Page">See more ways to get involved</a>!');?></p>
+            </div>
+    <?php } ?></p>
+		<p><a href="<?php echo home_url('contribute') ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('The Nextcloud Contribute Page">See more ways to get involved!');?></a></p>
 
 	</div>
 </div>
