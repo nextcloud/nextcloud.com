@@ -5,6 +5,18 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Talk App: Stored XSS in autocomplete suggestions for chat @-mentions (NC-SA-2018-009)</title>
+  <description>&lt;p&gt;A missing sanitization of search results for an autocomplete field could lead to a stored XSS requiring user-interaction. The missing sanitization only affected user names, hence malicious search results could only be crafted by authenticated users.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-009&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-009</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-009</guid>
+  <pubDate>Fri, 10 Aug 2018 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Stored XSS in autocomplete suggestions for file comments (NC-SA-2018-008)</title>
+  <description>&lt;p&gt;A missing sanitization of search results for an autocomplete field could lead to a stored XSS requiring user-interaction. The missing sanitization only affected user names, hence malicious search results could only be crafted by authenticated users.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-008&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-008</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-008</guid>
+  <pubDate>Fri, 10 Aug 2018 14:00:00 +0200</pubDate>
+ </item><item>
   <title>Server: Bypass of 2 Factor Authentication (NC-SA-2018-007)</title>
   <description>&lt;p&gt;Improper authentication of the second factor challenge would allow an attacker that had access to user credentials to bypass the second factor validation completely.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-007</link>
