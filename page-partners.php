@@ -118,7 +118,7 @@
 
 		<div class="row">
 			<div class="col-md-4">
-				<a href="http://www.netcloud.ch/" target="_blank" title="NOBUGS IT GMBH">
+				<a href="http://www.nobugs.gmbh/" target="_blank" title="NOBUGS IT GMBH">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/nobugs.png" title="nobugs logo" />
 				</a>
 				<p  class="partnertext">NOBUGS IT GmbH provides IT cloud msp/bsp solutions for small and big businesses in Austria. We are currently located in Terfens, Austria, serving customers all over Tyrol and bordering states. As service providers we believe that managed services are the future. As such, we try to improve a customer’s workflow through approved hard- and software solutions and to preemptively act on system failures to facilitate scalability.</p>
