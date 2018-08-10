@@ -31,11 +31,11 @@ $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES = 'https://github.com/nextcloud/client_t
 // $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES.'.asc';
 
 // Desktop client testing
-$VERSIONS_CLIENT_DESKTOP_TESTING = '';
+$VERSIONS_CLIENT_DESKTOP_TESTING = '2.5.0-beta1';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE= 'https://download.nextcloud.com/desktop/prereleases/';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'Windows/Nextcloud-2.3.2.1beta-setup.exe';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'Mac/Nextcloud-2.3.2.1beta.pkg';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX = 'https://github.com/nextcloud/client_theming';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'Windows/Nextcloud-2.5.0.61251-Debug-20180803-beta1.exe';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'Mac/Nextcloud-qt5.9.2-2.5.0.20180803beta1.pkg';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX = 'Linux/Nextcloud-2.5.0.20180803-beta1-x86_64.AppImage';
 $DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'';
 $DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'';
 $DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_LINUX = '';
@@ -64,9 +64,9 @@ $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.nextcloud.com/download/repos
 
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.nextcloud.com/server/prereleases/';
-$SERVER_TESTING_VERSION ='14 beta2'; // nothing to test -> leave it empty
-$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-14.0.0beta2.tar.bz2';
-$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-14.0.0beta2.zip';
+$SERVER_TESTING_VERSION ='14 beta3'; // nothing to test -> leave it empty
+$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-14.0.0beta3.tar.bz2';
+$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-14.0.0beta3.zip';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.nextcloud.com/server/installer/setup-nextcloud.php';
