@@ -154,7 +154,7 @@
             </div>
             <div class="row">
 				<div class="description">
-					<p class="section--paragraph__tittle"><?php echo $l->t('Konrad Adenauer Stiftung Case Study');?></p>
+					<p class="section--paragraph__tittle"><?php echo $l->t('Konrad-Adenauer-Stiftung Case Study');?></p>
                     <p class="section--paragraph"><?php echo $l->t('Keeping data secure for a globally distributed organization working with politically sensitive data.');?></p>
                 </div>
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
