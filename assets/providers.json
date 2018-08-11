@@ -1401,7 +1401,7 @@
          "freeplans":false,
          "supports":"organisation",
          "specializes":[
-            "Wir bieten NextCloud als eigene Instanz oder Shared in unserer hochverfügbaren NetApp Infrastruktur in Österreich an. DSGVO konform und ISO 27001 zertifiziert."
+            "Wir bieten Nextcloud als eigene Instanz oder Shared in unserer hochverfügbaren NetApp Infrastruktur in Österreich an. DSGVO konform und ISO 27001 zertifiziert."
          ],
          "imagename":"cloudnow.png"
       },
