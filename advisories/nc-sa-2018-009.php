@@ -17,7 +17,7 @@
 </p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Talk &lt; <strong>3.2.5</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Talk &lt; <strong>3.2.5</strong> (CVE-2018-3781)</li>
 
         </ul>
         <h3>Action Taken</h3>
