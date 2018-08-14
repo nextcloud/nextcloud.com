@@ -17,7 +17,7 @@
 </p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>13.0.5</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>13.0.5</strong> (CVE-2018-3780)</li>
 
         </ul>
         <h3>Action Taken</h3>
