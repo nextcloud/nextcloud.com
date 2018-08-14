@@ -60,7 +60,6 @@ $officialApps = [
 				<h1><?php echo $l->t('Your choice');?></h1>
 				<h2><?php echo $l->t('To help you decide where to store your data, Nextcloud maintains a list of preferred providers.');?></h2>
                 <h2><?php echo $l->t('Sign up now and get a 1-year free, 2GB storage account!');?></h2>
-<!--                 <h3>This page is in testing. If you got here by accident, move along, nothing to see!</h3> -->
 			</div>
 		</div>
 	</div>
@@ -80,10 +79,14 @@ $officialApps = [
 <div class="container">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <p class="section--paragraph text-center"><?php echo $l->t('NOTE: While we have done our best in choosing quality providers, we can not take any responsibility for their services.<br><a class="hyperlink" href="https://help.nextcloud.com/c/hosting">Your feedback is welcome.</a>'); ?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('NOTE: While we have done our best in choosing quality providers, we can not take any responsibility for their services.'); ?><br>
+                <a class="hyperlink" href="https://help.nextcloud.com/c/hosting" target="_blank">
+                    <?php echo $l->t('Your feedback is welcome.'); ?>
+                </a>
+            </p>
             <p class="section--paragraph text-center"><?php echo $l->t('By proceeding, you agree with our privacy policy. In short, we only handle the minimum amount of user data for the purpose of enabling the provider to create a minimal account and do not store any personally identifiable data.'); ?></p>
             <div class="text-center">
-            <a href="<?php echo home_url('privacy') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Our privacy policy'); ?></a>
+            <a href="<?php echo home_url('privacy') ?>" target="_blank" class="button button--blue button--arrow button--large"><?php echo $l->t('Our privacy policy'); ?></a>
             </div>
         </div>
     </div>
