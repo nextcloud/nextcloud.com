@@ -29,7 +29,7 @@ function whatismyip() {
 }
 
 function registration_register_routes() {
-	register_rest_route('register', '/account', array(
+	register_rest_route('signup', '/account', array(
 		'methods'  => WP_REST_Server::CREATABLE,
 		'callback' => 'request_account',
 		'args'     => array(
@@ -45,7 +45,7 @@ function registration_register_routes() {
 			)
 		)
 	));
-	register_rest_route('register', '/providers', array(
+	register_rest_route('signup', '/providers', array(
 		'methods'  => WP_REST_Server::READABLE,
 		'callback' => 'get_providers_list'
 	));

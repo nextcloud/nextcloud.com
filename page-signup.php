@@ -1,10 +1,10 @@
 <head>
 <script>
     require(["require.config"], function() {
-        require(["pages/register"])
+        require(["pages/signup"])
     });
 </script>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/register.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/signup.css" rel="stylesheet">
 </head>
 
 <?php
@@ -21,14 +21,14 @@ try {
 	$location = false;
 }
 
-$l = new L10N('register');
+$l = new L10N('signup');
 $registerL10n = [
     'subscribe' => $l->t('Subscribe to our newsletter'),
     'email' => $l->t('Your email address'),
     'success' => $l->t('Success! Redirecting you to the provider'),
     'error' => $l->t('Error:'),
     'processing' => $l->t('Creating your account'),
-    'register' => $l->t('Register'),
+    'register' => $l->t('Sign up'),
     'change' => $l->t('change provider'),
     'close' => $l->t('close'),
     'far' => $l->t('Far far away'),
