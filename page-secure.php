@@ -330,7 +330,7 @@
 </div>
 </section>
 
-
+<section class="section--bounties">
 <div class="container featureblock">
     <div class="row">
         <div class="col-md-8 col-md-offset-2 revealOnScroll">
@@ -341,22 +341,27 @@
     <div class="features--container revealOnScroll row">
         <div class="col-md-6">
             <div class="feature">
-                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/security/hacker-one-graph.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/hacker-one-graph.png"></a>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="feature">
                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/virusscaning.svg">
                 <p class="section--paragraph__tittle"><?php echo $l->t('HackerOne program');?></p>
                 <p class="section--paragraph"><?php echo $l->t('We have partnered with the HackerOne platform because of its extraordinary popularity among IT security professionals. More than 3,000 hackers have reported over 24,000 bugs via the platform. Running <a class="hyperlink" href="https://hackerone.com/nextcloud">a program on HackerOne</a> allows us to quickly leverage the collective knowledge of a huge amount of these security experts.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Anyone reporting a security vulnerability in Nextcloud can earn up to $5000, making ours some of the highest security bug bounties in the open source industry. For more details, <a class="hyperlink" href="https://nextcloud.com/blog/introducing-the-nextcloud-bug-bounty-program/">see our announcement</a> and our <a class="hyperlink" href="https://nextcloud.com/blog/updates-about-the-nextcloud-bug-bounty-program/">update in 2017.</a>');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Find an example of RhinoSecurityLabs blogging about <a class="hyperlink" href="https://rhinosecuritylabs.com/2016/10/operation-ownedcloud-exploitation-post-exploitation-persistence/">a security issue dealt with here</a> (<a class="hyperlink" href="https://hackerone.com/reports/148151">HackerOne disclosure</a>). Here is <a class="hyperlink" href="https://hackerone.com/reports/216812">another example.</a>');?></p>
+
+                <blockquote>Nextcloud's commitment to responsiveness and putting security first puts them in the best position to attract top hacker talent to continue to supplement the good work their internal security team is doing to protect customers.</blockquote>
+                <p class="quote-by">-- Michiel Prins, co-founder HackerOne.</p>
 <!--                             <a href="https://hackerone.com/nextcloud"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/hacker-one-logo.png" alt="Our HackerOne program" /></a> -->
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="feature notitle">
+                <p class="section--paragraph"><?php echo $l->t('Anyone reporting a security vulnerability in Nextcloud can earn up to $5000, making ours some of the highest security bug bounties in the open source industry. For more details, <a class="hyperlink" href="https://nextcloud.com/blog/introducing-the-nextcloud-bug-bounty-program/">see our announcement</a> and our <a class="hyperlink" href="https://nextcloud.com/blog/updates-about-the-nextcloud-bug-bounty-program/">update in 2017.</a>');?></p>
+                <blockquote>Nextcloud’s lightning fast response times are impressive and make them a model for how to build an efficient bug bounty triage and response process.</blockquote>
+                <p class="quote-by">-- Michiel Prins, co-founder HackerOne.</p>
+
+                <p class="section--paragraph"><?php echo $l->t('Find an example of RhinoSecurityLabs blogging about <a class="hyperlink" href="https://rhinosecuritylabs.com/2016/10/operation-ownedcloud-exploitation-post-exploitation-persistence/">a security issue we dealt with here</a> (<a class="hyperlink" href="https://hackerone.com/reports/148151">HackerOne disclosure</a>). Here is <a class="hyperlink" href="https://hackerone.com/reports/216812">another example.</a>');?></p>
             </div>
         </div>
     </div>
 </div>
-
+</section>
 
 <div class="container featureblock">
     <div class="row">
