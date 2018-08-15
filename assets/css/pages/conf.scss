@@ -40,6 +40,35 @@ section {
 
 }
 
+.section--program {
+    .overflow {
+        overflow-y: auto;
+        .fixbox {
+            width: 1120px
+        }
+        th,td  {
+            border-top: none;
+            padding: 12px;
+            text-align: center;
+        }
+        .left {
+            text-align: left;
+        }
+    }
+}
+
+.section--speakers-keynote {
+    background: url('../../img/conference/keynotespeakers.jpg');
+    height:500px;
+    background-size:cover;
+    background-position: center;
+    h1 {
+        text-shadow: 0px 0px 7px #000;
+        color: white;
+        margin-top:300px;
+    }
+}
+
 .section--info {
 	padding: 70px 0 90px 0;
 	background: $nextcloud-blue;
@@ -68,6 +97,18 @@ section {
 	.row {
 		padding: 60px 0 30px 0;
 	}
+}
+
+.section--speakers-community {
+    background: url('../../img/conference/communityspeakers.jpg');
+    height:500px;
+    background-size:cover;
+    background-position: center;
+    h1 {
+        text-shadow: 0px 0px 7px #000;
+        color: white;
+        margin-top:300px;
+    }
 }
 
 /*.section--call-for-papers {

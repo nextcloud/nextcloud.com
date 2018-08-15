@@ -40,29 +40,37 @@
         <div class="row text-center">
             <h1 class="revealOnScroll">Program overview</h1>
 		</div>
-		<div style="overflow-y: auto;">
-        <div  style="width: 1120px">
+		<div class="overflow">
+        <div class="fixbox">
             <table class="table">
             <tbody>
             <tr>
-            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Thursday<br> August 23</th>
-            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Friday<br> August 24</th>
-            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Saturday<br> August 25</th>
-            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Sunday<br> August 26</th>
-            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Monday<br> August 27</th>
-            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Tuesday<br> August 28</th>
-            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Wednesday<br> August 29</th>
-            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Thursday<br> August 30</th>
+            <th scope="row">Thursday<br> August 23</th>
+            <th scope="row">Friday<br> August 24</th>
+            <th scope="row">Saturday<br> August 25</th>
+            <th scope="row">Sunday<br> August 26</th>
+            <th scope="row">Monday<br> August 27</th>
+            <th scope="row">Tuesday<br> August 28</th>
+            <th scope="row">Wednesday<br> August 29</th>
+            <th scope="row">Thursday<br> August 30</th>
             </tr>
             <tr>
-            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek</td>
-            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek</td>
-            <td style="border-top: none; padding: 12px; text-align: center;"><strong>Keynotes, talks and workshops!</strong></td>
-            <td style="border-top: none; padding: 12px; text-align: center;"><strong>Keynotes, talks and workshops!</strong></td>
-            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek, <strong><a href="<?php echo home_url('training') ?>">Enterprise Day</a></strong></td>
-            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek</td>
-            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek</td>
-            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek</td>
+            <td>Hackweek</td>
+            <td>Hackweek</td>
+            <td class="left">10:00 - <strong>Keynote Frank Karlitschek</strong><br>
+            11:00 - <strong>lightning talks</strong><br>
+            13:00 - <strong>lunch</strong><br>
+            14:00 - <strong>Keynote Linus Neumann</strong><br>
+            15:00 - <strong>workshops</strong></td>
+            <td class="left">10:00 - <strong>Keynote Hans Erasmus</strong><br>
+            11:00 - <strong>lightning talks</strong><br>
+            13:00 - <strong>lunch</strong><br>
+            14:00 - <strong>Keynote TBD</strong><br>
+            15:00 - <strong>workshops</strong></td>
+            <td>Hackweek, <strong><a href="<?php echo home_url('training') ?>">Enterprise Day</a></strong></td>
+            <td>Hackweek</td>
+            <td>Hackweek</td>
+            <td>Hackweek</td>
             </tr></tbody>
             </table>
         </div>
@@ -70,10 +78,10 @@
     </div>
 </section>
 
-<section class="section--speakers" style="background: url('/wp-content/themes/next/assets/img/conference/keynotespeakers.jpg');height:500px;background-size:cover;background-position: center;">
+<section class="section--speakers-keynote">
     <div class="container">
         <div class="row">
-            <h1 class="text-center" style="text-shadow: 0px 0px 7px #000; color: white; margin-top:300px;">Inspiring keynotes</h1>
+            <h1 class="text-center">Inspiring keynotes</h1>
         </div>
     </div>
 </section>
@@ -118,10 +126,10 @@
 </div>
 </section>
 
-<section class="section--speakers" style="background: url('/wp-content/themes/next/assets/img/conference/communityspeakers.jpg');height:500px;background-size:cover;background-position: center;">
+<section class="section--speakers-community">
     <div class="container">
         <div class="row">
-            <h1 class="text-center" style="text-shadow: 0px 0px 7px #000; color: white; margin-top:300px;">Share your own ideas</h1>
+            <h1 class="text-center">Share your own ideas</h1>
         </div>
     </div>
 </section>
