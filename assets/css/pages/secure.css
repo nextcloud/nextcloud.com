@@ -63,6 +63,9 @@
   .featureblock h3 {
     text-align: left;
     font-size: 30px; }
+  .featureblock .row {
+    margin-left: 0px;
+    margin-right: 0px; }
 
 /* security badges */
 .security-badge {
@@ -254,6 +257,13 @@ section {
   @media (min-width: 991px) {
     .process .processimg {
       height: 500px; } }
+
+.section--bounties .quote-by {
+  margin-top: -35px;
+  margin-bottom: 30px; }
+@media (min-width: 991px) {
+  .section--bounties .notitle {
+    margin-top: 100px; } }
 
 .development {
   margin-top: 64px;
