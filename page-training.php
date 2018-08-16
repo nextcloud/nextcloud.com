@@ -80,8 +80,6 @@
 </div>
 </section>
 
-
-
 <section class="section--benefits benefits">
 <div class="container-fluid banner">
     <div class="container">
@@ -94,6 +92,7 @@
         <li class="revealOnScroll"><i class="fa-check fa"></i> Learn best practices and unique skills from experts</li>
         <li class="revealOnScroll"><i class="fa-check fa"></i> Meet the developers and decision makers of Nextcloud</li>
         <li class="revealOnScroll"><i class="fa-check fa"></i> Meet other customers and partners</li>
+        <li class="revealOnScroll"><i class="fa-check fa"></i> Find out what's on the Nextcloud road map and influence it</li>
         </ul>
         <p class="section--paragraph revealOnScroll"><small>The Enterprise Day takes place the day after the <a class="hyperlink" href="<?php echo home_url('conf') ?>">Nextcloud Conference</a>, an event for Nextcloud contributors. The Conference features talks, development workshops and keynotes on Saturday 25th and Sunday 26th of August.</small></p>
     </div>
@@ -119,19 +118,34 @@
                 <tbody>
                     <tr>
                     <th scope="row">9:00</th>
-                    <td><span class="break">Introductions, coffee and tea</span></td>
+                    <td><span class="break">Introductions, coffee and tea<br>
+                    <small>and a chance to network with the Nextcloud team</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">9:45</th>
-                    <td>Welcome</td>
+                    <td>Welcome<br>
+                    <span class="break"><small>and introductions to the Nextcloud team and partners</small></span>
+                    </td>
+                    <td><span class="break">Nextcloud management</span></td>
                     </tr>
                     <tr>
                     <th scope="row">10:00</th>
-                    <td>The future of File Sync and Share: road map to collaboration</td>
+                    <td>The future of File Sync and Share: road map to collaboration<br>
+                    <span class="break"><small>Gartner recently announced: the Enterprise File Sync and Share market is obsolete. Enterprises need more: a Content Collaboration Platform. Nextcloud has been working towards enabling employee productivity with its platform for years. Where are we today and where do we go?</small></span>
+                    </td>
+                    <td><span class="break">Frank Karlitschek</span></td>
                     </tr>
                     <tr>
                     <th scope="row">10:30</th>
-                    <td>Case study presentations</td>
+                    <td>Case study presentations<br>
+                    <span class="break"><small>We present you three case studies:
+                    <ul>
+                    <li>North West University</li>
+                    <li>Konrad-Adenauer-Stiftung</li>
+                    <li>DEGES</li>
+                    </ul>
+                    </small></span></td>
+                    <td><span class="break">Hans Erasmus, Jos Poortvliet</span></td>
                     </tr>
                     <tr>
                     <th scope="row">11:00</th>
@@ -154,23 +168,33 @@
                     </tr>
                     <tr>
                     <th scope="row">14:00</th>
-                    <td>Getting the most out of Nextcloud Files</td>
+                    <td>Getting the most out of Nextcloud Files<br>
+                    <span class="break"><small>Usability, designing a supremely easy to use interface, is a key goal of the Nextcloud team. Despite that, there is always functionality which goes unnoticed. We would like to help you find those little productivity boosters in Nextcloud Files!</small></span></td>
+                    <td><span class="break">Olivier Paroz</span></td>
                     </tr>
                     <tr>
                     <th scope="row">14:30</th>
-                    <td>Nextcloud Talk: facilitating communication</td>
+                    <td>Nextcloud Talk: facilitating communication<br>
+                    <span class="break"><small>Modern organizations offer their teams tools to communicate and colaborate across time, place and organizational borders. A tight integration in Nextcloud improves productivity and security at the same time, keeping communication strictly under control of IT.</small></span></td>
+                    <td><span class="break">Mathias Conradt</span></td>
                     </tr>
                     <tr>
                     <th scope="row">15:00</th>
-                    <td>Nextcloud Groupware: facilitating collaboration</td>
+                    <td>Nextcloud Groupware: facilitating collaboration<br>
+                    <span class="break"><small>Nextcloud Groupware is designed to bring a series of small collaboration and communication tools into Nextcloud, helping teams work together productively and efficiently.</small></span></td>
+                    <td><span class="break">Marius Blüm</span></td>
                     </tr>
                     <tr>
                     <th scope="row">15:15</th>
-                    <td>Nextcloud and compliance (GDPR, HIPAA and more)</td>
+                    <td>Nextcloud and compliance (GDPR, HIPAA and more)<br>
+                    <span class="break"><small>Compliance is becoming an ever more important issue and many of our customers deploy Nextcloud to bring file exchange and communication under control, guaranteeing auditability of and control over data flows.</small></span></td>
+                    <td><span class="break">Jos Poortvliet</span></td>
                     </tr>
                     <tr>
                     <th scope="row">15:30</th>
-                    <td>Running a successful Nextcloud PoC</td>
+                    <td>Running a successful Nextcloud PoC<br>
+                    <span class="break"><small>Determining if Nextcloud is suitable for your organization is best done through a Proof of Concept installation, showing you and a selection of prospective users how Nextcloud fits the needs and requirements of your teams and IT infrastructure.</small></span></td>
+                    <td><span class="break">Fabian Liedtke</span></td>
                     </tr>
                     <tr>
                     <th scope="row">15:45</th>
@@ -178,19 +202,32 @@
                     </tr>
                     <tr>
                     <th scope="row">16:15</th>
-                    <td>Scalability, monitoring and debugging in Nextcloud</td>
+                    <td>Scalability, monitoring and debugging in Nextcloud<br>
+                    <span class="break"><small>Running an optimal Nextcloud instance requires having a well thought out systems design, a reliable monitoring setup and debugging skills in case of trouble. We have some tips and advice!</small></span></td>
+                    <td><span class="break">Morris Jobke</span></td>
                     </tr>
                     <tr>
-                    <th scope="row">17:00</th>
-                    <td>Efficient user management</td>
+                    <th scope="row">16:45</th>
+                    <td>Authentication and efficient user management<br>
+                    <span class="break"><small>Nextcloud typically requires deep integration in existing infrastructure, including user management, authentication mechanisms and more. We walk you through the posibilities and new features in Nextcloud 14.</small></span></td>
+                    <td><span class="break">Arthur Schiwon</span></td>
                     </tr>
                     <tr>
-                    <th scope="row">17:30</th>
-                    <td>Securing Nextcloud: authentication, encryption and more</td>
+                    <th scope="row">17:15</th>
+                    <td>Securing Nextcloud: encryption and more<br>
+                    <span class="break"><small>Nextcloud develops its product according to the highest security standards, employing security training, reviews and a HackerOne program. We have also integrated a series of passive and active security measures that can help you keep your data safe.</small></span></td>
+                    <td><span class="break">Roeland Douma</span></td>
+                    </tr>
+                    <tr>
+                    <th scope="row">17:15</th>
+                    <td>Your input: what do you need from Nextcloud?<br>
+                    <span class="break"><small>We give you a chance to provide your input: what capabilities do you need most? What are your main concerns? What would make your life easier? We are at the start of a new development cycle and will take your input into consideration.</small></span></td>
+                    <td><span class="break">Nextcloud product management</span></td>
                     </tr>
                     <tr>
                     <th scope="row">18:00</th>
-                    <td><span class="break">Drinks and networking with a nice view</span></td>
+                    <td><span class="break">Continuation of the conversation in a relaxed atmosphere<br>
+                    <small>Drinks and food with the Nextcloud team at Bar Babette, one of the last nights that this former communist bar is open!</small></span></td>
                     </tr>
                 </tbody>
             </table>

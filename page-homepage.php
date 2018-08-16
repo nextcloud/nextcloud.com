@@ -12,9 +12,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/german-federal-administration-relies-on-nextcloud-as-a-secure-file-exchange-solution/">
+				<a class="announcement" href="https://nextcloud.com/conf">
 				<span class="type">News</span>
-				<span class="message"><strong><?php echo $l->t('German Federal Government');?></strong> <?php echo $l->t('chooses Nextcloud!');?></span>
+				<span class="message"><strong><?php echo $l->t('The Nextcloud Conference');?></strong> <?php echo $l->t('Kicking off August 23 in Berlin!');?></span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Nextcloud - Protecting your data');?></h1>
