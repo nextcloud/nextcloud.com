@@ -108,8 +108,8 @@ However, non-personally identifiable visitor information may be provided to othe
 
 <h2>Legal Notice</h2>
 <address><p>Nextcloud GmbH<br/>
-Hauptmannsreute 44A<br/>
-70192 Stuttgart Germany<br/></address>
+Hirschstrasse 26<br/>
+70173 Stuttgart Germany<br/></address>
 HRB 227086 (AG München)<br/>
 T +49 711 25 24 28 90<br/>
 <a href="<?php echo home_url('contact') ?>">contact form</a><br/>

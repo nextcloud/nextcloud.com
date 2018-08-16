@@ -65,16 +65,9 @@ imagedestroy($image);
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
 	<h2><?php echo $l->t('Visit us!');?></h2>
-    <p>
-    <strong><?php echo $l->t('Visitor address:');?></strong><br/>
-    <address><strong>Nextcloud GmbH</strong><br/>
+    <p><address>Nextcloud GmbH<br/>
     Hirschstrasse 26, 3rd Floor<br/>
     70173 Stuttgart Germany<br/></address>
-    </p>
-    <p><strong>Headquarter address:</strong><br/>
-	<address>Nextcloud GmbH<br/>
-    Hauptmannsreute 44A<br/>
-    70192 Stuttgart Germany<br/></address>
     HRB 227086 (AG München)<br/>
     T +49 711 25 24 28 90<br/>
     </p>
