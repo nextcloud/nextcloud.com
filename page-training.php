@@ -161,6 +161,7 @@
                             <li>Outlook Calendar/Contact integration</li>
                         </ul>
                     </td>
+                    <td><span class="break">Our partners</span></td>
                     </tr>
                     <tr>
                     <th scope="row">12:30</th>
@@ -170,12 +171,12 @@
                     <th scope="row">14:00</th>
                     <td>Getting the most out of Nextcloud Files<br>
                     <span class="break"><small>Usability, designing a supremely easy to use interface, is a key goal of the Nextcloud team. Despite that, there is always functionality which goes unnoticed. We would like to help you find those little productivity boosters in Nextcloud Files!</small></span></td>
-                    <td><span class="break">Olivier Paroz</span></td>
+                    <td><span class="break">Jan-Christoph Borchardt</span></td>
                     </tr>
                     <tr>
                     <th scope="row">14:30</th>
                     <td>Nextcloud Talk: facilitating communication<br>
-                    <span class="break"><small>Modern organizations offer their teams tools to communicate and colaborate across time, place and organizational borders. A tight integration in Nextcloud improves productivity and security at the same time, keeping communication strictly under control of IT.</small></span></td>
+                    <span class="break"><small>Modern organizations offer their teams tools to communicate and collaborate across time, place and organizational borders. A tight integration into Nextcloud improves productivity and security at the same time, keeping communication strictly under control of IT.</small></span></td>
                     <td><span class="break">Mathias Conradt</span></td>
                     </tr>
                     <tr>
@@ -192,9 +193,9 @@
                     </tr>
                     <tr>
                     <th scope="row">15:30</th>
-                    <td>Running a successful Nextcloud PoC<br>
-                    <span class="break"><small>Determining if Nextcloud is suitable for your organization is best done through a Proof of Concept installation, showing you and a selection of prospective users how Nextcloud fits the needs and requirements of your teams and IT infrastructure.</small></span></td>
-                    <td><span class="break">Fabian Liedtke</span></td>
+                    <td>Professional Services for deep integration<br>
+                    <span class="break"><small>As each organization has its needs in terms of infrastructure and organizational workflows, the Nextcloud Professional Services team provides the adjustments needed for an optimal fit.</small></span></td>
+                    <td><span class="break">Olivier Paroz</span></td>
                     </tr>
                     <tr>
                     <th scope="row">15:45</th>
@@ -215,7 +216,7 @@
                     <tr>
                     <th scope="row">17:15</th>
                     <td>Securing Nextcloud: encryption and more<br>
-                    <span class="break"><small>Nextcloud develops its product according to the highest security standards, employing security training, reviews and a HackerOne program. We have also integrated a series of passive and active security measures that can help you keep your data safe.</small></span></td>
+                    <span class="break"><small>Nextcloud develops its product according to the highest security standards, employing security training, reviews and a HackerOne bug bounty program. This talk will cover the available means of encryption you can use with Nextcloud. The various security measures we have in place to protect your data. As well as give some insights into our HackerOne bug bounty program.</small></span></td>
                     <td><span class="break">Roeland Douma</span></td>
                     </tr>
                     <tr>
