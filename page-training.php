@@ -145,7 +145,7 @@
                     <li>DEGES</li>
                     </ul>
                     </small></span></td>
-                    <td><span class="break">Hans Erasmus, Jos Poortvliet</span></td>
+                    <td><span class="break">Hans Erasmus, Fabian Liedtke</span></td>
                     </tr>
                     <tr>
                     <th scope="row">11:00</th>
