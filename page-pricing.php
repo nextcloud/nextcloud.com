@@ -340,14 +340,15 @@
 				<div id="support_team" class="collapse ">
                     <p><?php echo $l->t('We offer you DIRECT access to our engineers to ensure you always get the best answer as quickly as possible, rather than walling off support from the expertise at engineering. Like a dedicated, on-site engineer, our <strong>entire team</strong> is dedicated to your success first!');?></p>
                     <p><?php echo $l->t('This not only makes sure you get faster, better support than anywhere else, it also ensures our engineers are confronted with customer issues and wishes daily, keeping their work closely aligned with the needs of our customers.');?></p>
-                    <p><?php echo $l->t('As customer, you thus do not have to hope a junior support team member manages to explain your request to an engineer: you already talked to the engineer, directly, and they are already working on a solution.');?></p>
+                    <p><?php echo $l->t('As customer, you thus do not have to hope a junior support team member manages to explain your request to an engineer: you already talked to the engineer, directly, and they are already working on a solution.');?> <a class="hyperlink" href="https://opensource.com/article/18/8/mixing-roles-engineering" target="_blank"><?php echo $l->t('Learn more on opensource.com.');?></a></p>
 				</div>
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#qa_team" data-toggle="collapse"><h3><?php echo $l->t('Where is your qa/testing team?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="qa_team" class="collapse ">
                     <p><?php echo $l->t('Just like we believe engineers should work with customers directly to ensure their development stays aligned with customer needs, QA and testing are an integral part of the job of our engineers.');?></p>
                     <p><?php echo $l->t('This ensures a direct feedback loop, resulting in them writing better quality code, if only to avoid having to spend too much time testing and debugging. To get their work done as efficiently as possible, our engineers are organically motivated to automate exactly what should be automated, no more and no less.');?></p>
-                    <p><?php echo $l->t('As our unique approach to management relies strongly on internal motivation instead of management overhead, and external pressure, our integrated approach to support and QA guarantees alignment between customer needs and engineering effort.');?></p>
+                    <p><?php echo $l->t('As our unique approach to management relies strongly on internal motivation instead of management overhead, and external pressure, our integrated approach to support and QA guarantees alignment between customer needs and engineering effort.');?> <a class="hyperlink" href="https://opensource.com/article/18/8/mixing-roles-engineering" target="_blank"><?php echo $l->t('Learn more on opensource.com.');?></a></p>
+
 				</div>
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#pricing" data-toggle="collapse"><h3><?php echo $l->t('Nextcloud is open source, what is behind your prices?<span class="icon-arrow-down">');?></h3></a></div>
