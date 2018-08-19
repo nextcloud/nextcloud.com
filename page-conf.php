@@ -65,7 +65,7 @@
             <td class="left">10:00 - <strong>Keynote Hans Erasmus</strong><br>
             11:00 - <strong>lightning talks</strong><br>
             13:00 - <strong>lunch</strong><br>
-            14:00 - <strong>Keynote TBD</strong><br>
+            14:00 - <strong>Keynote RGSOC</strong><br>
             15:00 - <strong>workshops</strong></td>
             <td>Hackweek, <strong><a href="<?php echo home_url('training') ?>">Enterprise Day</a></strong></td>
             <td>Hackweek</td>
@@ -73,6 +73,9 @@
             <td>Hackweek</td>
             </tr></tbody>
             </table>
+            <div class="row text-center">
+            <a class="button button--large button--blue button--arrow" href="http://sched.eventyay.com/NextcloudConference2018/tracks.html">View the full schedule here</a>
+            </div>
         </div>
         </div>
     </div>
@@ -117,8 +120,9 @@
 			</ul></p>
 <!-- 			<p class="section--paragraph revealOnScroll">Stay tuned for more information! We'll open registration later this year and expect our call for papers early 2018.</p> -->
 			<p class="section--paragraph revealOnScroll">On Monday the 27th we have a <a class="hyperlink" href="<?php echo home_url('training') ?>">special Enterprise day with a focus on enterprise and large scale Nextcloud usage.</a></p>
-<!-- 			<p class="section--paragraph revealOnScroll">Check out <a class="hyperlink" href="https://eventyay.com/e/77d26f89/schedule/">the full program</a>!</p> -->
-			<p class="section--paragraph revealOnScroll">Submit your session ideas in our <a class="hyperlink" href="https://eventyay.com/e/77d26f89/cfs/">call for papers</a> now!</p>
+			<p class="section--paragraph revealOnScroll">Check out <a class="hyperlink" href="http://sched.eventyay.com/NextcloudConference2018/tracks.html">the full program</a>!</p>
+			<p>The talks will be live-streamed, stay tuned for more information!</p>
+<!-- 			<p class="section--paragraph revealOnScroll">Submit your session ideas in our <a class="hyperlink" href="https://eventyay.com/e/77d26f89/cfs/">call for papers</a> now!</p> -->
 <!--             <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p> -->
 		</div>
 	</div>
