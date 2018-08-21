@@ -163,7 +163,7 @@
                         <div id="RecaptchaField7"></div>
                     </div>
                     </td>
-                    <input type="hidden" name="segmentId" value="49">
+                    <input type="hidden" name="segmentId" value="56">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
