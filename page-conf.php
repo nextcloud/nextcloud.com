@@ -25,7 +25,8 @@
 <!-- 			<h2 class="revealOnScroll"></h2> -->
 			<p class="section--paragraph__tittle">August 23-30, Technical University Berlin</p>
 			<p class="section--paragraph">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
-			<p class="section--paragraph"><a href="https://eventyay.com/e/77d26f89/" class="button button--arrow button--large button--blue">Register for free</a> <a href="https://eventyay.com/e/77d26f89/cfs/" class="button button--arrow button--large button--blue">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p>
+			<p class="section--paragraph"><a href="https://eventyay.com/e/77d26f89/" class="button button--arrow button--large button--blue">Register for free</a> <a href="https://nextcloud.com/livestream" class="button button--arrow button--large button--blue">Live stream <i class="icon-arrow-circle-o-right icon"></i></a> <!--<a href="https://eventyay.com/e/77d26f89/cfs/" class="button button--arrow button--large button--blue">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a>--></p>
+
 <!-- 			<p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/77d26f89/" class="button button--arrow button--large button--blue">Register for free</a> <a href="https://eventyay.com/e/77d26f89/cfs/" class="button button--arrow button--large button--blue">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p> -->
 <!-- 			<p class="section--paragraph revealOnScroll"><a href="https://nextcloud.com/blog/lightning-talks-and-workshops-at-the-nextcloud-conference/" class="hyperlink" >See the program</a></p> -->
 <!-- 			<p class="section--paragraph">Find <a class="hyperlink" href="<?php echo home_url('confinfo') ?>">practical information for visitors here</a></p> -->
@@ -74,7 +75,8 @@
             </tr></tbody>
             </table>
             <div class="row text-center">
-            <a class="button button--large button--blue button--arrow" href="http://sched.eventyay.com/NextcloudConference2018/tracks.html">View the full schedule here</a>
+            <a class="button button--large button--blue button--arrow" href="https://nextcloud.com/schedule/schedule.html">View the full schedule here</a>
+            <a class="button button--large button--blue button--arrow" href="https://nextcloud.com/schedule/speakers.html">See the speakers</a>
             </div>
         </div>
         </div>
