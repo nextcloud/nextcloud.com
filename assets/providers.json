@@ -1252,7 +1252,7 @@
          "flags":[
             "uk"
          ],
-         "freeplans":false,
+         "freeplans":true,
          "supports":"both",
          "specializes":[
             "We are a UK based company offering off-site high spec servers with NextCloud ready to go. We offer full training and technical support."
