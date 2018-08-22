@@ -41,7 +41,7 @@
 
             <p class="section--paragraph__tittle"><?php echo $l->t('2/ Self-hosted Nextcloud');?></p>
 
-            <p class="section--paragraph"><?php echo $l->t('If you want to be even more in control of your data and have some more time and experience, you can run your own Nextcloud instance on the server of your choice. We try to make this as simple as possible, and we have a nice community LINK TO FORUM where some of our contributors will be happy to help you.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('If you want to be even more in control of your data and have some more time and experience, you can run your own Nextcloud instance on the server of your choice. We try to make this as simple as possible, and we have <a href="https://help.nextcloud.com" class="hyperlink">a nice community</a> where some of our contributors will be happy to help you.');?></p>
 
             <p class="section--paragraph"><a href="<?php echo home_url('install') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Host your own server with Nextcloud!');?></a></p>
 
