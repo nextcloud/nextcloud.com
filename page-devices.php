@@ -79,7 +79,7 @@ require(["require.config"], function() {
                 <p class="section--paragraph"><?php echo $l->t('Behind the award-winning designed device by struktur AG operates a secure video chat and file exchange solution for small enterprise usage.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('It offers Strong end-to-end encrypted audio and video chat, a Nextcloud based file sync and share solution and advanced security features with a silicon hardware key generator.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Spreedbox offers an optional SIP gateway, enabling web conferencing participants to dial in through a traditional telephone connection.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Pricing is in the Eur 1500/USD 1500 ranage.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Pricing is in the Eur 1500/USD 1500 range.');?></p>
                 <a href="<?php echo home_url('spreedbox') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
             </div>
         </div>
