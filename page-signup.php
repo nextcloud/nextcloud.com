@@ -10,13 +10,9 @@
 <?php
 include __DIR__ . '/vendor/autoload.php';
 include __DIR__ . '/config.php';
-use GeoIp2\Database\Reader;
 
-$reader = new Reader(realpath(dirname(__FILE__)) . '/assets/GeoLite2-City/GeoLite2-City.mmdb');
-// Replace "city" with the appropriate method for your database, e.g.,
-// "country".
 try {
-	$location = $location = $reader->city(whatismyip())->location;
+	$location = $readerCity->city(whatismyip())->location;
 } catch (Exception $e) {
 	$location = false;
 }
@@ -38,17 +34,21 @@ $registerL10n = [
 ];
 
 $officialApps = [
-    'core' => $l->t('Files, Sharing, Federation, Calendar, Contacts, Talk, Mail, Tasks, Notes'),
-    'bookmarks'=> $l->t('Bookmarks'),
+    'files'=> $l->t('Files'),
+    'calendar'=> $l->t('Calendar'),
+    'contacts'=> $l->t('Contacts'),
+    'spreed' => $l->t('Talk'),
+    'mail'=> $l->t('Mail'),
+    'tasks'=> $l->t('Tasks'),
+    'notes'=> $l->t('Notes'),
     'news'=> $l->t('News'),
-    'twofactor_totp' => $l->t('Two factor authentication'),
+    'twofactor_totp' => $l->t('Two-factor authentication'),
     'gallery' => $l->t('Gallery'),
     'collabora' => $l->t('Collabora Online'),
     'deck' => $l->t('Deck'),
     'fulltextsearch' => $l->t('Full text search'),
     'mindmaps' => $l->t('Mindmaps'),
     'passman' => $l->t('Passman'),
-    'spreed' => $l->t('Talk'),
     'drawio' => $l->t('Draw.io')
 ];
 
