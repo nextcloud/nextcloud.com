@@ -167,10 +167,15 @@ function request_account($request) {
     } catch (Exception $e) {
         $country = 'unknown';
     }
-    $redis->set(time(), json_encode([
-        'device' => get_device(),
-        'country' => $country
-    ]));
+
+    try {
+	    $redis->set(time(), json_encode([
+	        'device' => get_device(),
+	        'country' => $country
+	    ]));
+	} catch (Exception $e) {
+		error_log($e->getMessage());
+	}
 
 	return $response->setPassword;
 }
