@@ -1,9 +1,12 @@
 <?php get_template_part('templates/parts/title'); ?>
 <h2>Current Release Information <small> Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></small></h2>
-<a target="_blank" href="https://nextcloud.com/blog/welcome-to-nextcloud-12/" class="btn btn-lg btn-default">Announcement blog</a>
+<a target="_blank" href="https://nextcloud.com/blog/nextcloud-14-rc1-announced-with-video-verification-and-signaltelegram-2fa-support-improved-collaboration-and-gdpr-compliance" class="btn btn-lg btn-default">Announcement blog</a>
 <!-- <a href="/nine" class="btn btn-lg btn-default">Overview of new features</a> -->
 <h2>Press releases</h2>
 <ul>
+  <li><a href="<?php echo home_url('press/pr20180825-1') ?>">August 25, 2018: Nextcloud 14 Introducing Video Verification and Signal/Telegram 2FA support, Improved Collaboration and GDPR compliance</a></li>
+  <li><a href="<?php echo home_url('press/pr20180825-2') ?>">August 25, 2018: Japan to add millions of new nodes to federated Nextcloud network</a></li>
+  <li><a href="<?php echo home_url('press/pr20180825-3') ?>">August 25, 2018: Nextcloud lowers barrier to privacy-protecting personal cloud, introducing Simple Signup</a></li>
   <li><a href="<?php echo home_url('press/pr20180523-1') ?>">May 23, 2018: Nextcloud releases GDPR Compliance kit for on-premises collaboration solution</a></li>
   <li><a href="<?php echo home_url('press/pr20180523-2') ?>">May 23, 2018: Nextcloud and Red Hat partner to provide GDPR-compliance friendly on-premises collaboration solution</a></li>
   <li><a href="<?php echo home_url('press/pr20180206') ?>">February 6, 2018: Self-Hosted Nextcloud 13 Brings End-to-end Encryption, Video/Text Chat and Enhanced Collaboration</a></li>

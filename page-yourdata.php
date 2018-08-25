@@ -1,5 +1,10 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/yourdata.css" rel="stylesheet">
+<meta itemprop="image" content="https://nextcloud.com/media/animation.gif">
+<meta name="twitter:image" content="https://nextcloud.com/media/animation.gif">
+<meta name="twitter:image:src" content="https://nextcloud.com/media/animation.gif">
+<meta property="og:image" content="https://nextcloud.com/media/animation.gif">
+
 </head>
 <div class="yourdata-background">
     <div class="container-fluid background">
