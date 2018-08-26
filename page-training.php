@@ -169,8 +169,8 @@
                     </tr>
                     <tr>
                     <th scope="row">14:00</th>
-                    <td>Getting the most out of Nextcloud Files<br>
-                    <span class="break"><small>Usability, designing a supremely easy to use interface, is a key goal of the Nextcloud team. Despite that, there is always functionality which goes unnoticed. We would like to help you find those little productivity boosters in Nextcloud Files!</small></span></td>
+                    <td>Nextcloud User Experience<br>
+                    <span class="break"><small>Great User Experience is a key goal of the Nextcloud team since the beginning. Enterprise employees are more and more used to the seamless User Experience of consumer applications, so this is a big factor for internal adoption.</small></span></td>
                     <td><span class="break">Jan-Christoph Borchardt</span></td>
                     </tr>
                     <tr>
