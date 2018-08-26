@@ -72,6 +72,7 @@
                     <li class="check"><?php echo $l->t('Configurable imprint and privacy links for your login page');?></li>
                     <li class="check"><?php echo $l->t('Data Request app to allow users to request data deletion or modification from their user settings');?></li>
                     <li class="check"><?php echo $l->t('Delete Account app to allow users to delete their account');?></li>
+                    <li class="check"><?php echo $l->t('Terms of Service app that only gives access to Nextcloud after users read and agreed to terms (handles updated terms as well)');?></li>
                 </ul></p>
             </div>
         </div>
