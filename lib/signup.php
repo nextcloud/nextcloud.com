@@ -164,7 +164,7 @@ function request_account($request) {
 		error_log('Provider did not returned 201: ' . json_encode($post));
 		return new WP_Error('unknown_error', 'Something happened', array('status' => 400));
 	} else if ($post['response']['code'] !== 201) {
-		if ($post['response']['code'] === 400 && $post['response']['mesage'] === 'invalid mail address') {
+		if ($post['response']['code'] === 400 && $post['response']['message'] === 'invalid mail address') {
 			return new WP_Error('invalid_mail_address', 'invalid mail address', array('status' => 400));
 		}
 		error_log('Provider did not returned 201: ' . json_encode($post));
