@@ -161,9 +161,14 @@ function request_account($request) {
 
 
 	if (!array_key_exists('response', $post)) {
-		return $post;
+		error_log('Provider did not returned 201: ' . json_encode($post));
+		return new WP_Error('unknown_error', 'Something happened', array('status' => 400));
 	} else if ($post['response']['code'] !== 201) {
-		return new WP_Error($post['response']['message'], json_decode($post['body'])->data->message, array('status' => $post['response']['code']));
+		if ($post['response']['code'] === 400 && $post['response']['message'] === 'invalid mail address') {
+			return new WP_Error('invalid_mail_address', 'invalid mail address', array('status' => 400));
+		}
+		error_log('Provider did not returned 201: ' . json_encode($post));
+		return new WP_Error('unknown_error', 'Something happened', array('status' => 400));
 	}
 
 	$response = json_decode($post['body'])->data;
@@ -179,24 +184,25 @@ function request_account($request) {
 		subscribe($email);
 	}
 
-	if (array_key_exists('ocsapi', $request) && $request['ocsapi'] === true) {
-		return $response->setPassword . '/ocs';
-	}
-
     // store stats
     try {
         $country = $readerCountry->country(whatismyip())->country->isoCode;
     } catch (Exception $e) {
         $country = 'unknown';
     }
-
     try {
 	    $redis->set(time(), json_encode([
 	        'device' => get_device(),
-	        'country' => $country
+	        'country' => $country,
+	        'provider' => $provider->name
 	    ]));
 	} catch (Exception $e) {
 		error_log($e->getMessage());
+	}
+
+	// return nc://url
+	if (array_key_exists('ocsapi', $request) && $request['ocsapi'] === true) {
+		return $response->setPassword . '/ocs';
 	}
 
 	return $response->setPassword;
@@ -243,7 +249,10 @@ function subscribe($email) {
 function get_statistics($params) {
 	if ($_GET['key'] && $_GET['key'] === PPP_KEY) {
 		global $redis;
-		$keys = $redis->keys('*');
+		
+		// select every proper timestamp ()
+		// TODO: change the timestamp for May 18, 2033 @ 5:33:20 am 😂
+		$keys = $redis->keys('1*');
 
 		// filter out
 		if ($_GET['time']) {
