@@ -193,7 +193,8 @@ function request_account($request) {
     try {
 	    $redis->set(time(), json_encode([
 	        'device' => get_device(),
-	        'country' => $country
+	        'country' => $country,
+	        'provider' => $provider->name
 	    ]));
 	} catch (Exception $e) {
 		error_log($e->getMessage());
@@ -248,7 +249,10 @@ function subscribe($email) {
 function get_statistics($params) {
 	if ($_GET['key'] && $_GET['key'] === PPP_KEY) {
 		global $redis;
-		$keys = $redis->keys('*');
+		
+		// select every proper timestamp ()
+		// TODO: change the timestamp for May 18, 2033 @ 5:33:20 am 😂
+		$keys = $redis->keys('1*');
 
 		// filter out
 		if ($_GET['time']) {
