@@ -37,7 +37,7 @@
 				<p class="teamdescription">Frank founded the ownCloud project in 2010 to put home users and enterprises back in control of their data. To bring file sync and share technology to the next level and better align to the needs of users and customers he founded Nextcloud in 2016 and has been tirelessly working to realize his vision ever since.</p>
 			</div>
 		</div>
-		<div class="col-md-4">
+<!--		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/niels.jpg" />
 				<h2 class="teamname">Niels Mache</h2>
@@ -45,11 +45,11 @@
 					<h3 class="teamtitle">Managing Director</h3>
 					<h4 class="teamexpertise">Founder</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><!--<a href="https://spreed.me/"><i class="fa-rss fa"></i></a>--> <!--<a href="https://github.com/"><i class="fa-github fa"></i></a>--> <a href="https://twitter.com/nielsmache"><i class="fa-twitter fa"></i></a> </p>
+					<p class="teamsocial"> <a href="https://twitter.com/nielsmache"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Currently managing director at <a href="http://www.struktur.de/">Struktur AG</a> and Nextcloud GmbH, Niels was a co-founder of delix GmbH, one of the first Linux service providers, and of Red Hat Deutschland GmbH. During this time he led Red Hat Deutschland's development department as Director of Development, among other positions.</p>
 			</div>
-		</div>
+		</div>-->
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/andreas.jpg" />
