@@ -11,8 +11,7 @@ T +49 711 25 24 28 90<br/>
 <a href="<?php echo home_url('contact') ?>"><?php echo $l->t('contact form');?></a><br/>
 </p>
 <p>
-Managing Directors:<br/>
-Niels Mache<br/>
+Managing Director:<br/>
 Frank Karlitschek<br/></p>
 
 <p><?php echo $l->t('<small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small>');?></p>
