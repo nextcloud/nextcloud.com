@@ -28,4 +28,12 @@ section {
 footer {
   margin-top: 150px; }
 
+div.devices-tags::before {
+  content: "Tags: ";
+  font-weight: 800;
+}
+div.devices-tags > span {
+  margin: 0 10px;
+}
+
 /*# sourceMappingURL=devices.css.map */
