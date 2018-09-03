@@ -16,8 +16,9 @@ define('MAUTIC_USERNAME', 'username');
 define('MAUTIC_PASSWORD', 'password');
 
 // Providers
-define('PROVIDERS_FILE', ABSPATH . '/preferred.json');
+define('PROVIDERS_FILE', ABSPATH . 'preferred.json');
 define('REDIS', 'tcp://127.0.0.1:6379');
+define('PPP_KEY', 'c59cf7fa39d4ed2cdaf1997cc16f902e');
 
 // Phplist
 define('NEWSLETTER_API_URL', '');

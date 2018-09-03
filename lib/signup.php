@@ -60,6 +60,7 @@ function get_device() {
 }
 
 function registration_register_routes() {
+	// signup post method
 	register_rest_route('signup', '/account', array(
 		'methods'  => WP_REST_Server::CREATABLE,
 		'callback' => 'request_account',
@@ -76,9 +77,30 @@ function registration_register_routes() {
 			)
 		)
 	));
+
+	// providers json
 	register_rest_route('signup', '/providers', array(
 		'methods'  => WP_REST_Server::READABLE,
 		'callback' => 'get_providers_list'
+	));
+
+	// get statistics
+	register_rest_route('signup', '/stats', array(
+		'methods'  => WP_REST_Server::READABLE,
+		'callback' => 'get_statistics',
+		'args'     => array(
+			'key'  => array(
+				'required'          => true,
+				'validate_callback' => function ($key) {
+					return strlen($key) === 32;
+				}
+			),
+			'time' => array(
+				'validate_callback' => function ($time) {
+					return is_numeric($time);
+				}
+			)
+		)
 	));
 }
 
@@ -139,9 +161,14 @@ function request_account($request) {
 
 
 	if (!array_key_exists('response', $post)) {
-		return $post;
+		error_log('Provider did not returned 201: ' . json_encode($post));
+		return new WP_Error('unknown_error', 'Something happened', array('status' => 400));
 	} else if ($post['response']['code'] !== 201) {
-		return new WP_Error($post['response']['message'], json_decode($post['body'])->data->message, array('status' => $post['response']['code']));
+		if ($post['response']['code'] === 400 && $post['response']['message'] === 'invalid mail address') {
+			return new WP_Error('invalid_mail_address', 'invalid mail address', array('status' => 400));
+		}
+		error_log('Provider did not returned 201: ' . json_encode($post));
+		return new WP_Error('unknown_error', 'Something happened', array('status' => 400));
 	}
 
 	$response = json_decode($post['body'])->data;
@@ -157,24 +184,25 @@ function request_account($request) {
 		subscribe($email);
 	}
 
-	if (array_key_exists('ocsapi', $request) && $request['ocsapi'] === true) {
-		return $response->setPassword . '/ocs';
-	}
-
     // store stats
     try {
         $country = $readerCountry->country(whatismyip())->country->isoCode;
     } catch (Exception $e) {
         $country = 'unknown';
     }
-
     try {
 	    $redis->set(time(), json_encode([
 	        'device' => get_device(),
-	        'country' => $country
+	        'country' => $country,
+	        'provider' => $provider->name
 	    ]));
 	} catch (Exception $e) {
 		error_log($e->getMessage());
+	}
+
+	// return nc://url
+	if (array_key_exists('ocsapi', $request) && $request['ocsapi'] === true) {
+		return $response->setPassword . '/ocs';
 	}
 
 	return $response->setPassword;
@@ -216,4 +244,37 @@ function subscribe($email) {
 	$post = wp_remote_post(NEWSLETTER_API_URL . '&cmd=subscribe', $data);
 
 	return $post;
+}
+
+function get_statistics($params) {
+	if ($_GET['key'] && $_GET['key'] === PPP_KEY) {
+		global $redis;
+		
+		// select every proper timestamp ()
+		// TODO: change the timestamp for May 18, 2033 @ 5:33:20 am 😂
+		$keys = $redis->keys('1*');
+
+		// filter out
+		if ($_GET['time']) {
+			$keys = array_filter($keys, function($time) {
+				return $time > $_GET['time'];
+			});
+		}
+
+		// no results
+		if (count($keys) === 0) {
+			return [];
+		}
+
+		$data = array_reduce($keys, function ($array, $key) {
+			global $redis;
+			$array[$key] = json_decode($redis->get($key));
+
+			return $array;
+		});
+
+		return $data;
+	}
+
+	return new WP_Error('forbidden', 'Forbidden', array('status' => 403));
 }

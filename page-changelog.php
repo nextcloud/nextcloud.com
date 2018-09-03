@@ -13,6 +13,38 @@ Go directly to the latest maintenance release of:
 
 <a name="latest13"></a>
 
+<h3 id="13-0-6">Version 13.0.6 <small>August 30 2018</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.6.tar.bz2">nextcloud-13.0.6.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.6.zip">nextcloud-13.0.6.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.6.tar.bz2.md5">nextcloud-13.0.6.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.6.zip.md5">nextcloud-13.0.6.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.6.tar.bz2.sha256">nextcloud-13.0.6.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.6.zip.sha256">nextcloud-13.0.6.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.6.tar.bz2.sha512">nextcloud-13.0.6.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.6.zip.sha512">nextcloud-13.0.6.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.6.tar.bz2.asc">nextcloud-13.0.6.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.6.zip.asc">nextcloud-13.0.6.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+<li><a href="https://github.com/nextcloud/server/pull/10285">Add sabre plugin to allow anonymous options requests to the dav root (server#10285)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10376">Do scan the root storage in background scan (server#10376)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10552">Adding test for table schedulingobjects and fixing postgres LOB (server#10552)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10565">Fix transfering ownership of a share to user with same id as receiver (server#10565)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10581">Make file cache updates more robust (server#10581)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10591">Retry smb stat on timeout (server#10591)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10620">Use insertIfNotExists to store new mimetypes. (server#10620)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10646">Only warn about data lose on password reset if per-user keys are used (server#10646)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10682">Update the scope of the lockdownmanager (server#10682)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10698">Log entries that are hidden during file listing (server#10698)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10735">Forgotten pass fix link (server#10735)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10759">Fix comment style in config sample (server#10759)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10760">Make sure error_log() always receives a string (server#10760)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10761">Fix call to OC.generateUrl for caldav birthday calendar on/off (server#10761)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10762">Use the path_hash instead of the path to query the filecache (server#10762)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10763">Don't blame random people for background email updates (server#10763)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10783">Resolve all group memberships properly (server#10783)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10816">Remove unexecutable code (server#10816)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10821">Improve URL detection (server#10821)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10823">MySQL 8.0+ and MariaDB 10.3+ are large prefix and barracuda by default (server#10823)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10837">Disallow negative mtime in dav search (server#10837)</a></li>
+</ul>
 
 <h3 id="13-0-5">Version 13.0.5 <small>July 23 2018</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.5.tar.bz2">nextcloud-13.0.5.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.5.zip">nextcloud-13.0.5.zip</a></br>
@@ -342,6 +374,20 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
 
 <a name="latest12"></a>
+
+<h4 id="12-0-11">Version 12.0.11 <small>August 30 2018</small></h4>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.11.tar.bz2">nextcloud-12.0.11.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.11.zip">nextcloud-12.0.11.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.11.tar.bz2.md5">nextcloud-12.0.11.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.11.zip.md5">nextcloud-12.0.11.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.11.tar.bz2.sha256">nextcloud-12.0.11.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.11.zip.sha256">nextcloud-12.0.11.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.11.tar.bz2.sha512">nextcloud-12.0.11.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.11.zip.sha512">nextcloud-12.0.11.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.11.tar.bz2.asc">nextcloud-12.0.11.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.11zip.asc">nextcloud-12.0.11.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+<li><a href="https://github.com/nextcloud/server/pull/10566">Fix transfering ownership of a share to user with same id as receiver (server#10566)</a></li>
+<li><a href="https://github.com/nextcloud/server/pull/10683">Update the scope of the lockdownmanager (server#10683)</a></li>
+</ul>
 
 <h4 id="12-0-10">Version 12.0.10 <small>July 23 2018</small></h4>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.tar.bz2">nextcloud-12.0.10.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-12.0.10.zip">nextcloud-12.0.10.zip</a></br>

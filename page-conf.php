@@ -21,17 +21,12 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
-			<img class="conf-img revealOnScroll" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017-2.jpg" alt="logo"/>
+			<img class="conf-img revealOnScroll" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg" alt="logo"/>
 <!-- 			<h2 class="revealOnScroll"></h2> -->
 			<p class="section--paragraph__tittle">August 23-30, Technical University Berlin</p>
 			<p class="section--paragraph">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
-			<p class="section--paragraph"><a href="https://eventyay.com/e/77d26f89/" class="button button--arrow button--large button--blue">Register for free</a> <a href="https://nextcloud.com/livestream" class="button button--arrow button--large button--blue">Live stream <i class="icon-arrow-circle-o-right icon"></i></a> <!--<a href="https://eventyay.com/e/77d26f89/cfs/" class="button button--arrow button--large button--blue">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a>--></p>
-
-<!-- 			<p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/77d26f89/" class="button button--arrow button--large button--blue">Register for free</a> <a href="https://eventyay.com/e/77d26f89/cfs/" class="button button--arrow button--large button--blue">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p> -->
-<!-- 			<p class="section--paragraph revealOnScroll"><a href="https://nextcloud.com/blog/lightning-talks-and-workshops-at-the-nextcloud-conference/" class="hyperlink" >See the program</a></p> -->
-<!-- 			<p class="section--paragraph">Find <a class="hyperlink" href="<?php echo home_url('confinfo') ?>">practical information for visitors here</a></p> -->
-<!--             <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p> -->
-<!--                 <p class="section--paragraph">Save the date: August 23-30 2018<br/> Stay tuned for more information!</p> -->
+			<!--<p class="section--paragraph"><a href="https://eventyay.com/e/77d26f89/" class="button button--arrow button--large button--blue">Register for free</a> <a href="https://nextcloud.com/livestream" class="button button--arrow button--large button--blue">Live stream <i class="icon-arrow-circle-o-right icon"></i></a> <a href="https://eventyay.com/e/77d26f89/cfs/" class="button button--arrow button--large button--blue">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p>-->
+            <p class="section--paragraph">The conference is over, <a href="https://nextcloud.com/blog/nextcloud-conference-2018-millions-of-nec-routers-nextcloud-14-and-simple-signup/">read our report!</a><br/>Stay tuned for the dates for 2019!</p>
 		</div>
 	</div>
 </section>
@@ -132,15 +127,15 @@
 </div>
 </section>
 
-<section class="section--speakers-community">
+<!--<section class="section--speakers-community">
     <div class="container">
         <div class="row">
             <h1 class="text-center">Share your own ideas</h1>
         </div>
     </div>
-</section>
+</section>-->
 
-<section class="section--call-for-papers">
+<!--<section class="section--call-for-papers">
 <div class="container">
 	<div class="row text-center">
 		<p class="section--paragraph__tittle revealOnScroll">We have opened our call for papers!</p>
@@ -150,7 +145,7 @@
 		</div>
 	</div>
 </div>
-</section>
+</section>-->
 
 <div class="section--travelsupport">
 <div class="container-fluid quote">
@@ -208,7 +203,7 @@
         <div class="col-md-8 col-md-offset-2">
             <h2  class="revealOnScroll">Partners!</h2>
             <p class="section--paragraph revealOnScroll">The event is made possible thanks to the generous donation of the location by the <a class="hyperlink" href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a class="hyperlink" href="https://nextcloud.com">Nextcloud GmbH</a>.</p>
-            <p class="section--paragraph revealOnScroll">TUXEDO Computers contributes a number of loan laptops for workshop or hackweek attendees who need a device to work with but forgot their own. Media partners like Linux Magazine and Admin Magazine will cover the Nextcloud Conference!</p>
+            <p class="section--paragraph revealOnScroll">TUXEDO Computers contributes a number of loan laptops for workshop or hackweek attendees who need a device to work with but forgot their own. Media partners like Linux Magazine and Admin Magazine will cover the Nextcloud Conference! Our dear friends at openSUSE sponsored our party and had a booth at the event.</p>
         </div>
     </div>
     <div class="row revealOnScroll">
@@ -217,6 +212,9 @@
         </div>
         <div class="col-md-4">
             <p class="section--paragraph revealOnScroll text-center"><a href="https://tuxedocomputers.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/tuxedo.png"  alt="Tuxedo Computers logo" class="aligncenter img-responsive" /></a></p>
+        </div>
+        <div class="col-md-4">
+            <p class="section--paragraph revealOnScroll text-center"><a href="https://opensuse.org" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/opensuse.png"  alt="Tuxedo Computers logo" class="aligncenter img-responsive" /></a></p>
         </div>
         <div class="col-md-4">
             <p class="section--paragraph revealOnScroll text-center"><a href="http://www.admin-magazine.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/AdminMagazine.png" alt="Admin mag logo" class="aligncenter img-responsive" /></a></p>
@@ -275,8 +273,8 @@
 	<div class="row conf-about revealOnScroll">
 		<div class="col-sm-6">
 			<h2  class="revealOnScroll">Last year</h2>
-			<p class="section--paragraph revealOnScroll">The Nextcloud Conference 2017 brought 150 Nextclouders to Berlin. Read our <a class="hyperlink" href="https://nextcloud.com/blog/significant-growth-at-nextcloud-conference-brought-150-customers-colleagues-and-friends-together/" target="_blank">blog</a> to learn more and watch the talks <a class="hyperlink" href="https://www.youtube.com/channel/UCQjN5Fs5QSz1loJqLb5bkew" target="_blank">on our youtube channel.</a></p>
-			<p class="section--paragraph revealOnScroll"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017.jpg" style="width: 95%" alt="group photo" class="aligncenter" /></a></p>
+			<p class="section--paragraph revealOnScroll">The Nextcloud Conference 2018 brought 200 Nextclouders to Berlin. Read our <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-conference-2018-millions-of-nec-routers-nextcloud-14-and-simple-signup/" target="_blank">blog</a> to learn more and watch the talks <a class="hyperlink" href="https://www.youtube.com/channel/UCQjN5Fs5QSz1loJqLb5bkew" target="_blank">on our youtube channel.</a></p>
+			<p class="section--paragraph revealOnScroll"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg" style="width: 95%" alt="group photo" class="aligncenter" /></a></p>
 	<!--		<iframe src="//www.youtube-nocookie.com/embed/srGYbsugEPc?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" height="360" width="640" allowfullscreen="" frameborder="0"></iframe>-->
 		</div>
 		<div class="col-sm-6">
