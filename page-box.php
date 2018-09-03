@@ -1,3 +1,3 @@
 <?php
-    wp_redirect( "/devices/" );
+    wp_redirect( "/devices/#nextcloud-box" );
 ?>
