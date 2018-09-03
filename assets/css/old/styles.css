@@ -572,6 +572,21 @@ i[class*='icon-'] {
 	margin-right: -50px;
 }
 
+.floatright {
+	float: right;
+	width: 40%;
+	max-width: 500px;
+	min-width: 250px;
+
+}
+
+@media (max-width: 600px) {
+	.floatright {
+		float: none;
+		width: 100%;
+	}
+}
+
 .news .contribook_blogheadline {
 	font-weight: 500;color: black;
 	font-size: 2em;
