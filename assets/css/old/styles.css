@@ -115,6 +115,10 @@ blockquote {
     vertical-align: -0.8em;
     font-family: serif; }
 
+blockquote p {
+	display: inline;
+}
+
 .pr blockquote {
 	margin: 0 0 -15px 0;
 	padding: 10px 10px 0px 10px;
