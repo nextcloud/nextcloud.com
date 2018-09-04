@@ -1,5 +1,9 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/groupware.css" rel="stylesheet">
+<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png">
+<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png">
+<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png">
+<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png">
 </head>
 <div class="background groupware-background">
 	<div class="container">

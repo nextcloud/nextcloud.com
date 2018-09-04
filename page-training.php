@@ -1,5 +1,9 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/training.css" rel="stylesheet">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn.jpg">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn.jpg">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn.jpg">
 </head>
 <div class="training-background">
     <div class="container-fluid background">

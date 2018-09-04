@@ -25,7 +25,7 @@
 
             <p class="section--paragraph"><?php echo $l->t('We at Nextcloud believe that you have a right to decide what happens with your data. We believe that you should be able to have as much control as possible on what belongs to no one else but you.');?></p>
 
-            <p class="section--paragraph"><?php echo $l->t('In the era of Google Drive, Dropbox & co, storing your data online has never been easier. However, the simplicity of those tools comes at great cost: your privacy. Right now, nearly all data there is about the average Internet user is stored at half a dozen companies. While media is constantly reporting on data breaches, corporate and state surveillance and other privacy violations, many people still rely on these services.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('In the era of Google Drive, Dropbox & co, storing your data online has never been easier. However, the simplicity of those tools comes at great cost: your privacy. Right now, nearly all the data there is about the average Internet user is stored at half a dozen companies. While media is constantly reporting on data breaches, corporate and state surveillance and other privacy violations, many people still rely on these services.');?></p>
 
             <p class="section--paragraph"><?php echo $l->t('Not because they are happy with the price they pay for it, but because it has been incredibly hard for people to find easy and free services that respect their users.');?></p>
 

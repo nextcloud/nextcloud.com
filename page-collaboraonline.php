@@ -7,6 +7,10 @@
 		require(["pages/collabora", "modules/youtubePlayer", "modules/codeHighlights"])
 	});
 </script>
+<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png">
+<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png">
+<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png">
+<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png">
 </head>
 
 <div class="background collabora-background">

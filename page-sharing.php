@@ -7,6 +7,10 @@ require(["require.config"], function() {
 	require(["pages/sharing", "modules/youtubePlayer"])
 });
 </script>
+<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/comments.png">
+<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/comments.png">
+<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/comments.png">
+<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/comments.png">
 </head>
 
 <div class="background sharing-background">
