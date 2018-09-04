@@ -2,6 +2,10 @@
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/gdpr.css" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/gdpr-apps-nw.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/gdpr-apps-nw.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/gdpr-apps-nw.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/gdpr-apps-nw.png">
 </head>
 <div class="background gdpr-background">
 	<div class="container">
@@ -63,7 +67,7 @@
         </div>
         <div class="row">
             <div class="col-md-6 revealOnScroll image--floated">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/appstore.png" alt="whitepaper"/>
+                    <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/gdpr-apps-nw.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/gdpr-apps-nw.png" alt=""/></a>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('GDPR Compliance Apps');?></p>

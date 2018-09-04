@@ -7,6 +7,10 @@ require(["require.config"], function() {
 	require(["pages/education", "modules/submenu", "bootstrap", "modules/youtubePlayer"])
 });
 </script>
+<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/moodle-nw.png">
+<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/moodle-nw.png">
+<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/moodle-nw.png">
+<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/moodle-nw.png">
 <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 </head>
 <div class="education-background second-menu">

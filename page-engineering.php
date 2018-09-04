@@ -5,6 +5,10 @@ require(["require.config"], function() {
 	require(["bootstrap", "modules/youtubePlayer"])
 });
 </script>
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/engineering.jpg">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/engineering.jpg">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/engineering.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/engineering.jpg">
 </head>
 <div class="engineering-background second-menu">
     <div class="container-fluid background">
@@ -44,7 +48,7 @@ require(["require.config"], function() {
 		<div class="col-md-4 revealOnScroll">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/monitoring.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Complete control');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('Knowing where data is and who has access is crucial in a heavily regulated industry. Nextcloud combines advanced data access controls with powerful monitoring and logging capabilities to ensure compliance and auditability.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Knowing where data is and who has access is important, especially when working with third parties. Nextcloud combines advanced data access controls with powerful monitoring and logging capabilities to ensure compliance and auditability.');?></p>
 		</div>
     </div>
 </div>

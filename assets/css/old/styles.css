@@ -115,6 +115,10 @@ blockquote {
     vertical-align: -0.8em;
     font-family: serif; }
 
+blockquote p {
+	display: inline;
+}
+
 .pr blockquote {
 	margin: 0 0 -15px 0;
 	padding: 10px 10px 0px 10px;
@@ -570,6 +574,21 @@ i[class*='icon-'] {
 
 .news .contribook_bloguser {
 	margin-right: -50px;
+}
+
+.floatright {
+	float: right;
+	width: 40%;
+	max-width: 500px;
+	min-width: 250px;
+
+}
+
+@media (max-width: 600px) {
+	.floatright {
+		float: none;
+		width: 100%;
+	}
 }
 
 .news .contribook_blogheadline {

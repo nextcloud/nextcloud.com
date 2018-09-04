@@ -1,6 +1,10 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/workflow.css" rel="stylesheet">
 <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
+<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control2-nw.png">
+<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control2-nw.png">
+<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control2-nw.png">
+<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control2-nw.png">
 </head>
 
 <div class="background workflow-background">
