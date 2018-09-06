@@ -26,7 +26,7 @@
             <p class="section--paragraph"><?php echo $l->t('Get a bug fixed');?> (<a class="hyperlink"  href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker"><?php echo $l->t('bugtracker documentation</a> and');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>general"><?php echo $l->t('general guidelines and setup');?></a>)</li>
             <p class="section--paragraph"><?php echo $l->t('Improve the Nextcloud Server');?> (<a class="hyperlink"  href="<?php echo $DOCUMENTATION_DEVELOPER; ?>core"><?php echo $l->t('server development documentation</a>)');?></p>
             <p class="section--paragraph"><?php echo $l->t('Learn to write Nextcloud code. (Try your hands on a <a class="hyperlink"  href="https://github.com/nextcloud/server/labels/good%20first%20issue" target="_blank">good first issue</a> or get started with <a class="hyperlink" href="https://nextcloud.com/blog/get-involved-in-nextcloud-by-reviewing-pulls/">reviewing pull requests</a>)');?></li>
-
+            <p class="section--paragraph"><a class="hyperlink" href="https://transifex.com/nextcloud"><?php echo $l->t('Help translate Nextcloud.');?></a></li>
             <p class="section--paragraph"><?php echo $l->t('Talk to us in <a class="hyperlink" href="https://riot.im/app/#/room/#freenode_#nextcloud-dev:matrix.org" target="_blank">our chat channel #nextcloud-dev (IRC)</a>, and on our
             <a class="hyperlink" href="https://help.nextcloud.com" target="_blank">forum</a>! We look forward to your code and thoughts.');?></p>
 
