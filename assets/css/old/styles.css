@@ -2067,7 +2067,7 @@ text-align: center;
     background: url(../../img/common/arrow_right.svg) center/contain no-repeat; }
 
 .button--arrow.button--blue:hover:before {
-    background: url(../../img/common/arrow_right.svg) center/contain no-repeat; }
+    background: url(../../img/common/arrow_right_blue.svg) center/contain no-repeat; }
 
 .button--arrow--down {
     padding-right: 50px; }
@@ -2096,7 +2096,7 @@ text-align: center;
     background: url(../../img/common/arrow_down_white.svg) center/contain no-repeat; }
 
 .button--arrow--down.button--blue:hover:before {
-    background: url(../../img/common/arrow_down_white.svg) center/contain no-repeat; }
+    background: url(../../img/common/arrow_down_blue.svg) center/contain no-repeat; }
 
 .button--icon {
     padding: 0 30px 0 50px; }
