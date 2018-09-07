@@ -154,20 +154,7 @@
 				<p class="teamdescription">Marie studied cultural journalism at the Berlin University of the Arts. She got involved in privacy and open source in 2014, when she started organizing CryptoParties in Berlin. She has worked on many campaigns, trainings and events about privacy, human rights, journalism and open source with the Center for Investigative Journalism, the Tor Project and the Courage Foundation, among others. </p>
 			</div>
         </div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/nina.jpg" />
-				<h2 class="teamname">Nina Cercy</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Online Marketer</h3>
-					<h4 class="teamexpertise">Marketing and Content</h4>
-					<h4 class="teamlocation">lives in Paris, France</h4>
-					<p class="teamsocial"><!--<a href="https://spreed.me/"><i class="fa-rss fa"></i></a>--> <a href="https://github.com/NinaNC"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nlapalice"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Nina studied Business and Management at HEC Paris. She got involved in Open Source two years ago, and she's especially working on personal data protection regulation. She co-directed <i>Numérique, reprendre le contrôle</i> in 2016.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
+<!--		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/lukas.jpg" />
 				<h2 class="teamname">Lukas Reschke</h2>
@@ -178,6 +165,19 @@
 					<p class="teamsocial"><a href="https://statuscode.ch/"><i class="fa-rss fa"></i></a> <a href="https://github.com/LukasReschke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/LukasReschke"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Lukas has been contributing to ownCloud since 2012 and is responsible for many of the security hardenings in the code. He has worked as security assessment and forensic investigator, reviewing security, giving trainings and dealing with breaches at Fortune 500 companies and several of the largest Swiss financial institutes.</p>
+			</div>
+		</div>-->
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/roeland.jpg" />
+				<h2 class="teamname">Roeland Douma</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Security Lead</h3>
+					<h4 class="teamexpertise">Co-founder, Desktop Client, Sharing</h4>
+					<h4 class="teamlocation">lives in Zuidoostbeemster, Netherlands</h4>
+					<p class="teamsocial"><a href="http://rullzer.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/rullzer"><i class="fa-github fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Roeland has been working on improving private file sharing since 2015. He has a MSc degree in Computer Science from the University of Amsterdam, having done research for his PhD in cache partitioning for real time systems. He is in charge of our HackerOne program and works on various security hardenings.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -507,19 +507,6 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/roeland.jpg" />
-				<h2 class="teamname">Roeland Douma</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Co-founder, Desktop Client, Sharing</h4>
-					<h4 class="teamlocation">lives in Zuidoostbeemster, Netherlands</h4>
-					<p class="teamsocial"><a href="http://rullzer.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/rullzer"><i class="fa-github fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Roeland has been working on improving sharing since 2015. Has a MSc degree in Computer Science from the University of Amsterdam, having done research for his PhD in cache partitioning for real time systems. With feet in both the client and server team he works on having a tighter platform integration.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/tobias.jpg" />
 				<h2 class="teamname">Tobias Kaminsky</h2>
 				<div class="teammeta">
@@ -529,19 +516,6 @@
 					<p class="teamsocial"><a href="https://github.com/tobiasKaminsky"><i class="fa-github fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Tobias studied Sports and Computer Science in Darmstadt, is an experienced Java/Scala engineer and has a background in database development at a research institute for applied training science. He has been contributing to the Android app since 2013.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/tomaz.jpg" />
-				<h2 class="teamname">Tomaz Canabrava</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Desktop Client</h4>
-					<h4 class="teamlocation">lives in Munich, Germany</h4>
-					<p class="teamsocial"><a href="https://github.com/tcanabrava"><i class="fa-github fa"></i></a></p>
-				</div>
-				<p class="teamdescription">Tomaz is a software engineer with decades experience developing Qt and C++ applications at a wide variety of organizations.</p>
 			</div>
 		</div>
 	</div>
