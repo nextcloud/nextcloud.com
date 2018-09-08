@@ -899,13 +899,13 @@ li {
       background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
       right: 15px; }
 	.button--arrow.button--blue:hover {
-      background-color: $medium-blue;
+      /*background-color: $medium-blue;
 	  border: 1px solid $medium-blue;
-      color: white;}
+      color: white;*/}
     .button--arrow.button--blue:before {
       background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
     .button--arrow.button--blue:hover:before {
-      background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
+      background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat; }
   .button--arrow--down {
     padding-right: 50px; }
     .button--arrow--down:before {
@@ -928,7 +928,7 @@ li {
     .button--arrow--down.button--blue:before {
       background: url(../img/common/arrow_down_white.svg) center/contain no-repeat; }
     .button--arrow--down.button--blue:hover:before {
-      background: url(../img/common/arrow_down_white.svg) center/contain no-repeat; }
+      background: url(../img/common/arrow_down_blue.svg) center/contain no-repeat; }
   .button--icon {
     padding: 0 30px 0 50px; }
     .button--icon:after {
