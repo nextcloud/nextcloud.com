@@ -19,8 +19,8 @@
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Nextcloud - Protecting your data');?></h1>
 				<h2 class="jumbotron--lead"><?php echo $l->t('Building self-hosted products that allow you to be productive without losing control');?></h2>
-				<a class="button button--large button--arrow" href="<?php echo home_url('signup') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Sign up');?></a>
-<!-- 				<a class="button button--large button--arrow--down" href="#why-nextcloud" role="button" id="get-nextcloud-button"><?php echo $l->t('Learn more');?></a> -->
+<!-- 				<a class="button button--large button--arrow" href="<?php echo home_url('signup') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Sign up');?></a> -->
+				<a class="button button--large button--arrow--down" href="#why-nextcloud" role="button" id="get-nextcloud-button"><?php echo $l->t('Learn more');?></a>
 			</div>
 			<div class="col-md-6 topbanner">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/empty.png"> <!--empty image to ensure the viewport is big enough-->
@@ -170,7 +170,7 @@
 <?php require get_template_directory().'/verticals.php';?>
 
 <section class="slideshow" id="slideshow">
-    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 13');?></h2>
+    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 14');?></h2>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
 		<li class="btn_carousel"><a href="#feature-1"></a></li>
@@ -183,45 +183,45 @@
         	<div class="container-image-center" id="imageTrigger">
 	            <img class="image-back" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-10.png">
 	            <div class="image-top-container">
-	            	<img class="img-responsive image-top image__desktop" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_13.jpg">
-	            	<img class="img-responsive image-top image__mobile" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_mobile_13.jpg">
+	            	<img class="img-responsive image-top image__desktop" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_14.png">
+	            	<img class="img-responsive image-top image__mobile" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_mobile_14.png">
 	            </div>
             </div>
         </div>
         <div class="texts-wrapper col-md-6">
 	        <div class="right-text-grey" data-slide="1">
-	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('The Next Generation of Secure Collaboration');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 13 delivers next-gen security with a tech preview of our ground breaking End-to-end Encryption in the clients for the ultimate protection of your data.');?></p>
+	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('Ultimate security and control');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('With Nextcloud 14 you can verify the identity of a share recipient in a video call before granting access to a share with Video Verification; and secure authentication with 2-factor authentication through SMS, Signal or Telegram.');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="https://nextcloud.com/blog/encryption-in-nextcloud/" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-14-focus-on-security-and-compliance/" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
 	         <div class="right-text-grey" data-slide="2">
 	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('Collaboration and communication');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 13 optimizes your workflow, making collaboration with colleagues seamless. Mention others in comments, start a chat or video call with one click or find your files with our improved full-text search.');?></p>
+	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 14 introduces the ability to add a note to shares, share files in a chat, search in comments, our next-gen server-to-server sharing technology Federation 2.0 and much more!');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="https://www.youtube.com/watch?v=Yoks3XS4jcg" role="button"><?php echo $l->t('Watch video');?></a>
+	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-14-rc1-announced-with-video-verification-and-signaltelegram-2fa-support-improved-collaboration-and-gdpr-compliance/" role="button"><?php echo $l->t('Lear more');?></a>
 	            </p>
 	        </div>
 
 	        <div class="right-text-grey" data-slide="3">
-	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('Faster than ever');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('Waiting is a waste. Nextcloud 13 brings faster performance everywhere, with 85% quicker LDAP queries, up to 5x storage throughput and more');?></p>
+	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('More accessible than ever');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('Ease of use and accessibility are important to us and Nextcloud 14 introduces many improvements from an improved sidebar to a Dark and High Contrast theme, keyboard and screen reader access and much more.');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="https://nextcloud.com/blog/85-faster-ldap-10x-readwrite-speed-of-windows-network-drive-welcome-to-nextcloud-13-beta/" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-14-rc1-announced-with-video-verification-and-signaltelegram-2fa-support-improved-collaboration-and-gdpr-compliance/" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
 	        <div class="right-text-grey" data-slide="4">
-	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Plan and schedule');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('Nextcloud Groupware in 13 brings better Calendar invitation handling, automatic user provisioning in Mail and support for setting up a mail address which stores attachments directly in Nextcloud.');?></p>
+	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Perfect Compliance');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('This release introduces the Terms of Service app, complementing the existing array of capabilities that enables system administrators to ensure their server is 100% compliant with legal privacy regulations like the GDPR');?></p>
 	            <br/>
 	            <p>
-	                <a class="btn-primary" href="<?php echo home_url('groupware') ?>" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="button button--blue button--arrow button--large" href="<?php echo home_url('gdpr') ?>" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
         </div>
