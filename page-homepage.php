@@ -169,6 +169,14 @@
 
 <?php require get_template_directory().'/verticals.php';?>
 
+
+<section class="section--compare">
+<div class="calltoaction revealOnScroll">
+	<h1 class="section--heading-2 section--text--center"><?php echo $l->t('See how we stack up');?></h1>
+	<p class="section--paragraph section--text--center">
+	<a href="<?php echo home_url('compare') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Compare Nextcloud to other solutions');?></a></p>
+</div>
+</section>
 <section class="slideshow" id="slideshow">
     <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 14');?></h2>
 	<div class="indicators">
@@ -181,7 +189,7 @@
     <div class="container">
         <div class="col-md-6 ">
         	<div class="container-image-center" id="imageTrigger">
-	            <img class="image-back" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-10.png">
+	            <img class="image-back" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-14.png">
 	            <div class="image-top-container">
 	            	<img class="img-responsive image-top image__desktop" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_14.png">
 	            	<img class="img-responsive image-top image__mobile" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_mobile_14.png">
@@ -226,14 +234,6 @@
 	        </div>
         </div>
     </div>
-</section>
-
-<section class="section--compare">
-<div class="calltoaction revealOnScroll">
-	<h1 class="section--heading-2 section--text--center"><?php echo $l->t('See how we stack up');?></h1>
-	<p class="section--paragraph section--text--center">
-	<a href="<?php echo home_url('compare') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Compare Nextcloud to other solutions');?></a></p>
-</div>
 </section>
 
 <!--<section class="news-section">

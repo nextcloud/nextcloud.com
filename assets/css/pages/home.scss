@@ -344,20 +344,9 @@
 }
 
 
-
 /**
-* Home page: Introducing Nextcloud X
-*/
-.right-text-grey {
-  opacity: 0;
-  padding-top: 75px;
-  &:first-child {
-    padding-top: 50px;
-  }
-  @media (max-width: 768px){
-    text-align: center;
-  }
-}
+ * Home page: Nextcloud Event
+ */
 
 .section--conf {
     margin: 100px 0 100px 0;
@@ -397,6 +386,21 @@
     }
 }
 
+/**
+* Home page: Introducing Nextcloud X
+*/
+.right-text-grey {
+  opacity: 0;
+  padding-top: 75px;
+  &:first-child {
+    padding-top: 50px;
+  }
+  @media (max-width: 768px){
+    text-align: center;
+  }
+}
+
+
 .introducing-nc-release {
   padding-top: 100px;
   padding-bottom: 75px;
@@ -424,6 +428,83 @@
     }
   }
 }
+
+.Section-Introducing-Nextcloud {
+    background-color: transparent;
+    overflow: hidden;
+    height: 200vh;
+    position: relative;
+    padding-top: 130px;
+    @media (max-width: $navbar-breaksize) {
+        padding-top: 60px;
+        height: 100vh;
+    }
+
+    .img_carousel {
+        padding-top: 100px;
+        position:relative;
+        @media (max-height: 800px) {
+            padding-top: 60px;
+        }
+
+        img {
+            float: right;
+            width: 582px;
+            height: 474px;
+            @media (max-height: 800px) {
+                width: 490px;
+                height: 402px;
+            }
+        }
+    }
+
+    .indicators {
+        -webkit-transition: all .5s;
+        transition: all .5s;
+        opacity: 1;
+        position: absolute;
+        z-index: 2;
+        bottom: 50vh;
+        right: 0;
+        @media (max-width: $break-small) {
+            display: none;
+        }
+
+        .btn_carousel{
+            margin-top: 10px;
+            width: 14px;
+            height: 14px;
+            color: transparent;
+            border: 1px solid $nextcloud-blue;
+            background-color: $nextcloud-blue;
+            border-radius: 50%;
+            padding: 0;
+            -webkit-transform: scale(.5);
+            transform: scale(.5);
+            -webkit-transition: all 250ms ease-in-out;
+            transition: all 250ms ease-in-out;
+        }
+
+        .btn_carousel.active{
+            background-color: transparent;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+    }
+}
+
+#pinContainer {
+width: 100%;
+height: 100vh;
+overflow: hidden;
+}
+
+.panel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
 
 
 /**
@@ -530,81 +611,6 @@
   padding-top: 130px;
 }
 
-.Section-Introducing-Nextcloud {
-  background-color: transparent;
-  overflow: hidden;
-  height: 200vh;
-  position: relative;
-  padding-top: 130px;
-  @media (max-width: $navbar-breaksize) {
-    padding-top: 60px;
-    height: 100vh;
-  }
-
-  .img_carousel {
-    padding-top: 100px;
-    position:relative;
-    @media (max-height: 800px) {
-      padding-top: 60px;
-    }
-
-    img {
-      float: right;
-      width: 582px;
-      height: 474px;
-      @media (max-height: 800px) {
-        width: 490px;
-        height: 402px;
-      }
-    }
-  }
-
-  .indicators {
-    -webkit-transition: all .5s;
-    transition: all .5s;
-    opacity: 1;
-    position: absolute;
-    z-index: 2;
-    bottom: 50vh;
-    right: 0;
-    @media (max-width: $break-small) {
-      display: none;
-    }
-
-    .btn_carousel{
-      margin-top: 10px;
-      width: 14px;
-      height: 14px;
-      color: transparent;
-      border: 1px solid $nextcloud-blue;
-      background-color: $nextcloud-blue;
-      border-radius: 50%;
-      padding: 0;
-      -webkit-transform: scale(.5);
-      transform: scale(.5);
-      -webkit-transition: all 250ms ease-in-out;
-      transition: all 250ms ease-in-out;
-    }
-
-    .btn_carousel.active{
-      background-color: transparent;
-      -webkit-transform: scale(1);
-      transform: scale(1);
-    }
-  }
-}
-
-#pinContainer {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.panel {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
 
 
 .news-section {
@@ -770,5 +776,5 @@
 }
 
 .section--compare {
-  padding-bottom: 100px;
+  padding-top: 70px;
 }
