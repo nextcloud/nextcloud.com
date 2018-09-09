@@ -228,6 +228,18 @@
                 </form>
 			</div>
 		</div>
+        <div class="col-md-3">
+            <div class="row wpthumbnail">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/hackerone-thumbnail-banner.png"/>
+            </div>
+            <div class="row">
+				<div class="description">
+					<p class="section--paragraph__tittle"><?php echo $l->t('HackerOne Case study');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('Why Nextcloud puts Hacker-powered security front and center. A case study by HackerOne ');?></p>
+                </div>
+                    <a style="margin-top: 70px" class="button button--blue button--small" href="https://www.hackerone.com/resources/nextcloud-puts-hacker-powered-security-front-and-center"><?php echo $l->t('Download');?></a>
+			</div>
+		</div>
 	</div>
 </div>
 </section>

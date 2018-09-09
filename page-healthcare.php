@@ -12,6 +12,10 @@ require(["require.config"], function() {
         grecaptcha.render('RecaptchaField2', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
     };
 </script>-->
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/dicom.jpg">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/dicom.jpg">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/dicom.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/dicom.jpg">
 </head>
 <div class="healthcare-background second-menu">
     <div class="container-fluid background">

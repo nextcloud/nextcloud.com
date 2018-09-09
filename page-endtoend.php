@@ -6,6 +6,10 @@
     });
     </script>-->
 <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
+<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/endtoend-server-nw.png">
+<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/endtoend-server-nw.png">
+<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/endtoend-server-nw.png">
+<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/endtoend-server-nw.png">
 </head>
 
 <div class=" background endtoend-background">
