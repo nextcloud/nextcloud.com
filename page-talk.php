@@ -182,7 +182,7 @@
 			<p class="section--paragraph__tittle"><?php echo $l->t('Designed for you');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is a fully self hosted, on-premises audio/video and chat communication service. It features web and mobile apps and is designed to offer the highest degree of security while being easy to use.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk lowers the barrier for communication and lets your team connect any time, any where, on any device, with each other, customers or partners.');?></p>
-			<!--<p class="section--paragraph"><?php echo $l->t('While Nextcloud Talk is free, the optional Spreed High Performance Back-end offers enterprise class scalability, reliability and features.');?></p>-->
+			<p class="section--paragraph"><?php echo $l->t('While Nextcloud Talk itself is free, the optional Spreed High Performance Back-end enables enterprise class scalability, reliability and features.');?></p>
 		</div>
 	</div>
 	<div class="row">
@@ -194,6 +194,7 @@
 			<p class="section--paragraph"><?php echo $l->t('Talk makes it easy to call customers and partners in one-to-one or group-scenarios.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Users can invite external chat participants with an URL into public rooms on the Nextcloud server.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The chat, which remains open even when the user leaves a call, enables participants to easily exchange messages, links and notes.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Files can be shared into the chat and will be available to all participants.');?></p>
 		</div>
 	</div>
 	<div class="row">
