@@ -205,11 +205,22 @@
 	</div>
 </section>
 
+<section class="section--design">
+	<div class="container">
+		<div class="col-md-6 revealOnScroll">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/LrF4jf1ROOc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Designed for humans');?></p>
+			<p class="section--paragraph"><?php echo $l->t('An efficient, easy to use interface is one of the main things that sets Nextcloud apart from the competition. Design is about more than being pretty. The goal is to allow users to get work done with the least amount of effort, making it obvious how to accomplish tasks and reducing the number of steps needed to do so.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Good design can be seen in the entire user interface and each release makes steps forward.');?></p>
+		</div>
+	</div>
+</section>
 
 <a name="send" id="send"></a>
 <section class="section--sharing">
     <div class="container">
-        <div class="col-md-6">
+        <div class="col-md-6 image--floated">
             <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
             <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
@@ -225,7 +236,7 @@
 <section class="section--monitoring">
     <a name="monitoring" id="monitoring"></a>
     <div class="container">
-        <div class="col-md-6 revealOnScroll image--feature image--floated">
+        <div class="col-md-6 revealOnScroll image--feature">
             <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-nw.png" alt="in action"/></a>
         </div>
             <p class="section--paragraph__tittle"><?php echo $l->t('Compliance-ready monitoring');?></p>
@@ -259,12 +270,25 @@
 	<a name="workflow" id="workflow"></a>
 	<div class="container">
 		<div class="col-md-6 revealOnScroll image--floated image--feature">
-			<a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/file-access-control-nw.png" alt="in action"/></a>
+			<a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/file-access-control-nw.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/file-access-control-nw.png" alt="in action"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Workflow management');?></p>
 			<p class="section--paragraph"><?php echo $l->t('With Nextcloud, system administrators can control and direct the flow of data between users on or between servers. Rule-based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud puts IT in control of user data and keeps it safe.');?></p>
 			<a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Workflow handling');?></a>
+		</div>
+	</div>
+</section>
+
+<section class="section--accessibility">
+	<a name="workflow" id="workflow"></a>
+	<div class="container">
+		<div class="col-md-6 revealOnScroll">
+			<iframe width="100%" height="315" src="https://www.youtube.com/embed/S_842AQx3MQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Accessibility');?></p>
+			<p class="section--paragraph"><?php echo $l->t('To ensure Nextcloud is accessible to users with visual impairments, Nextcloud has extensive keyboard accessibility and screen reader support.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The colors used in Nextcloud meet the WCAG 2.0 AA standard for contrast and we created themes for users who need even higher support. Our High Contrast theme aims for WCAG 2.0 AAA compliance, while a Dyslexia-friendly font option helps people with reading disability. A Dark theme is also available.');?></p>
 		</div>
 	</div>
 </section>
