@@ -4,12 +4,34 @@
 <p>We recommend you follow our <a href="<?php echo home_url('release-channels') ?>">Release Channels</a> to always have the latest and most secure Nextcloud Server version which fits your needs.</p>
 Go directly to the latest maintenance release of:
 <ul>
+<li><a href="#latest14">Nextcloud 14</a></li>
 <li><a href="#latest13">Nextcloud 13</a></li>
 <li><a href="#latest12">Nextcloud 12</a></li>
 <li><a href="#latest11">Nextcloud 11 (unsupported!)</a></li>
 <li><a href="#latest10">Nextcloud 10 (unsupported!)</a></li>
 <li><a href="#latest9">Nextcloud 9 (unsupported!)</a></li>
 </ul>
+
+<a name="latest14"></a>
+<h3 id="14-0-0">Version 14.0.0 <small>September 10 2018</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.0.tar.bz2">nextcloud-14.0.0.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.0.zip">nextcloud-14.0.0.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.0.tar.bz2.md5">nextcloud-14.0.0.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.0.zip.md5">nextcloud-14.0.0.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.0.tar.bz2.sha256">nextcloud-14.0.0.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.0.zip.sha256">nextcloud-14.0.0.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.0.tar.bz2.sha512">nextcloud-14.0.0.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.0.zip.sha512">nextcloud-14.0.0.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.0.tar.bz2.asc">nextcloud-14.0.0.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.0.zip.asc">nextcloud-14.0.0.zip.asc</a></p>
+
+<h4>Changes</h4>
+<p>Nextcloud 14 merged nearly 1000 pull requests with improvements and changes, almost 150 more than Nextcloud 13. This only covers the core server, hundreds more changes were made in the apps that make up our release, making this version officially our biggest release ever.</p>
+<p>While we can never cover everything that has improved, these are the main feature highlights:</p>
+<ul>
+<li>Video Verification - use a video call with Talk to verify the identity of
+somebody before granting them access to a share</li>
+<li>Two-factor authentication now with Signal and Telegram as well as NFC and SMS</li>
+<li>Accessibility improvements & dark theme</li>
+<li>Add a note to shares, share files in a Talk chat, new Deck Kanban app and much more</li>
+</ul>
+<p><a href="https://nextcloud.com/blog/nextcloud-14-now-available-with-video-verification-signaltelegram-2fa-support-improved-collaboration-and-gdpr-compliance/">Our blog with more details is here.</a></p>
 
 <a name="latest13"></a>
 
