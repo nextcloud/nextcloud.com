@@ -115,14 +115,7 @@ T +49 711 25 24 28 90<br/>
 <a href="<?php echo home_url('contact') ?>">contact form</a><br/>
 </p>
 <p>
-Visitor address:<br/>
-<address>Nextcloud GmbH<br/>
-Hirschstrasse 26, 3rd Floor<br/>
-70173 Stuttgart Germany<br/></address>
-</p>
-<p>
-Managing Directors:<br/>
-Niels Mache<br/>
+Managing Director:<br/>
 Frank Karlitschek<br/>
 </p>
 <p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
