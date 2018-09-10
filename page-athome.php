@@ -43,7 +43,7 @@
 			<p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud gives you access to all your files wherever you are.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Where are your photos and documents? With Nextcloud <strong>you</strong> pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices. Through Nextcloud you also access, sync and share your existing data on that FTP drive at school, a Dropbox or a NAS you have at home.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud is free, open source and');?> <a class="hyperlink" href="<?php echo home_url('contribute') ?>"><?php echo $l->t('you can get involved in making it better!</a>');?></p>
-			<a href="<?php echo home_url('install') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Get started');?></a>
+			<a href="<?php echo home_url('yourdata') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('How to get started');?></a>
 		</div>
 	</div>
 </section>
@@ -236,7 +236,7 @@
             <div class="col-md-6">
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud users to easily and securely send files, folders or upload links to others from within Microsoft Outlook. The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('With the Outlook CalDav Synchronizer integration with Nextcloud, Outlook users can easily sync their events, tasks and contacts between Microsoft Outlook and their Nextcloud server.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('A free version is available for home users!.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('A free version is available for home users!');?></p>
                 <p><a href="<?php echo home_url('outlook') ?>" class="button button--arrow button--large"><?php echo $l->t('Outlook Add-ins');?></a></p>
             </div>
         </div>
@@ -338,7 +338,7 @@
         </ul>
         </p>
         <div class="text-center morebuttondiv">
-			<a href="https://apps.nextcloud.com" class="button button--large button--arrow revealOnScroll"><?php echo $l->t('Appstore');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+			<a href="https://apps.nextcloud.com" class="button button--large button--arrow revealOnScroll"><?php echo $l->t('App Store');?> <i class="icon-arrow-circle-o-right icon"></i></a>
         </div>
     </div>
     <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/appstore-big.png">
@@ -455,13 +455,13 @@
 
 <section class="section--getstarted">
     <div class="container-fluid quote">
-        <h2 class="text-center revealOnScroll"><?php echo $l->t('Get started now');?></h2>
-        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Install Nextcloud server');?></p>
+        <h2 class="text-center revealOnScroll"><?php echo $l->t('Get started');?></h2>
+        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Get your own Nextcloud and start owning your data!');?></p>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 featureblock revealOnScroll">
                     <div class="row text-center">
-                        <a href="<?php echo home_url('install') ?>" class="button button--arrow button--large"><?php echo $l->t('install');?></a>
+                        <a href="<?php echo home_url('yourdata') ?>" class="button button--arrow button--large"><?php echo $l->t('How to get started');?></a>
                     </div>
                 </div>
             </div>
