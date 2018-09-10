@@ -72,6 +72,7 @@ require get_template_directory().'/strings.php';
 					<ul class="nav__links">
                         <li class="nav__item"><a href="https://portal.nextcloud.com"><?php echo $l->t('Nextcloud Support');?></a></li>
                         <li class="nav__item"><a href="https://help.nextcloud.com"><?php echo $l->t('Community support');?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('pricing') ?>#faq"><?php echo $l->t('FAQ');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('pricing') ?>"><?php echo $l->t('Pricing');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('support') ?>"><?php echo $l->t('Documentation');?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('whitepapers') ?>"><?php echo $l->t('White papers');?></a></li>
@@ -110,7 +111,6 @@ require get_template_directory().'/strings.php';
 					<li class="ghost-btn"><a href="https://demo.nextcloud.com/" class="nav__label"><?php echo $l->t('Demo');?></a></li>
 					<li class="ghost-btn"><a href="<?php echo home_url('install') ?>" class="nav__label"><?php echo $l->t('Download');?></a></li>
 					<li class="ghost-btn"><a href="<?php echo home_url('enterprise/buy') ?>" class="nav__label"><?php echo $l->t('Buy');?></a></li>
-                    <li class="ghost-btn"><a href="<?php echo home_url('pricing') ?>#faq" class="nav__label"><?php echo $l->t('FAQ');?></a></li>
                     <li class="ghost-btn"><a href="<?php echo home_url('gdpr') ?>" class="nav__label"><?php echo $l->t('GDPR');?></a></li>
                     <li class="flag"><a href="<?php echo site_url(); ?>/de/<?php echo $pagename ?>" class="nav__label"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/flags/de.gif"></a> | <a href="<?php echo site_url(); ?>/<?php echo $pagename ?>" class="nav__label"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/flags/gb.gif"></a></li>
                     </li>
