@@ -105,17 +105,81 @@ require get_template_directory().'/strings.php';
 						<li class="nav__item"><a href="<?php echo home_url('jobs') ?>"><?php echo $l->t('Jobs');?></a></li>
 					</ul>
 				</li>
-
             </ul>
-				<ul class="right-buttons">
-					<li class="ghost-btn"><a href="https://demo.nextcloud.com/" class="nav__label"><?php echo $l->t('Demo');?></a></li>
-					<li class="ghost-btn"><a href="<?php echo home_url('install') ?>" class="nav__label"><?php echo $l->t('Download');?></a></li>
-					<li class="ghost-btn"><a href="<?php echo home_url('enterprise/buy') ?>" class="nav__label"><?php echo $l->t('Buy');?></a></li>
-                    <li class="ghost-btn"><a href="<?php echo home_url('gdpr') ?>" class="nav__label"><?php echo $l->t('GDPR');?></a></li>
-                    <li class="flag"><a href="<?php echo site_url(); ?>/de/<?php echo $pagename ?>" class="nav__label"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/flags/de.gif"></a> | <a href="<?php echo site_url(); ?>/<?php echo $pagename ?>" class="nav__label"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/flags/gb.gif"></a></li>
-                    </li>
-				</li>
-				</ul>
+            <ul class="right-buttons">
+                <li class="nav__section"><a class="nav__label"><?php echo $l->t('Get Nextcloud');?></a>
+                    <ul class="nav__links ">
+                        <li class="nav__item">
+                            <a href="<?php echo home_url('install') ?>">
+                                <div class="nav__logo">
+                                    <img style="" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/download.svg" >
+                                </div>
+                                <div class="nav__text">
+                                    <?php echo $l->t('<strong>Download</strong><br><small>For self-hosting on your server</small>');?>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="<?php echo home_url('enterprise') ?>">
+                                <div class="nav__logo">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Talk.svg" >
+                                </div>
+                                <div class="nav__text">
+                                    <?php echo $l->t('<strong>Enterprise Solution</strong><br><small>For mission-critical use</small>');?>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="<?php echo home_url('signup') ?>">
+                                <div class="nav__logo">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Groupware.svg" >
+                                </div>
+                                <div class="nav__text">
+                                    <?php echo $l->t('<strong>Sign up now</strong><br><small>Get a free account at a provider</small>');?>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="<?php echo home_url('devices') ?>">
+                                <div class="nav__logo">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Home.svg" >
+                                </div>
+                                <div class="nav__text">
+                                    <?php echo $l->t('<strong>Devices</strong><br><small>Buy hardware with Nextcloud</small>');?>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ghost-btn">
+                    <a href="https://demo.nextcloud.com/" class="nav__label">
+                        <?php echo $l->t('Demo');?>
+                    </a>
+                </li>
+                <li class="ghost-btn">
+                    <a href="<?php echo home_url('gdpr') ?>" class="nav__label">
+                        <?php echo $l->t('GDPR');?>
+                    </a>
+                </li>
+                <li class="ghost-btn no-underline">
+                    <a href="<?php echo home_url('contact') ?>" class="nav__label" style="font-size: 1.6em; vertical-align: middle; padding-bottom: 4px;">
+                        ✉
+                    </a>
+                </li>
+                <li class="nav__section"><a class="nav__label"><span class="flag-icon flag-icon-un"></span></a>
+                    <ul class="nav__links">
+                        <li class="nav__item nav__item__language">
+                            <a href="<?php echo site_url(); ?>/de/<?php echo $pagename ?>"><span class="flag-icon flag-icon-de"></span> Deutsch</a>
+                        </li>
+                        <li class="nav__item nav__item__language">
+                            <a href="<?php echo site_url(); ?>/<?php echo $pagename ?>"><span class="flag-icon flag-icon-us"></span> English</a>
+                        </li>
+                        <li class="nav__item nav__item__language">
+                            <a href="<?php echo site_url(); ?>/fr_FR/<?php echo $pagename ?>"><span class="flag-icon flag-icon-fr"></span> Français</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
 			</div>
 		</div>
 	</div>

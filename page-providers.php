@@ -108,7 +108,7 @@
 								filteredItems.push('"></a><br \>');
 								filteredItems.push(provider.title);
 								$.each(provider.flags, function (key, value) {
-									filteredItems.push('<img class="flag" src="<?php echo get_template_directory_uri() ?>/assets/img/flags/' + value + '.gif">');
+									filteredItems.push('<span style="margin: 1px" class="flag-icon flag-icon-' + value + '"></span>');
 									// Add country to country array if it does not exists.
 									if ($.inArray(value, countries) == -1) {
 										countries.push(value);
