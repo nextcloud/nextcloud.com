@@ -4,6 +4,7 @@
 <!-- <a href="/nine" class="btn btn-lg btn-default">Overview of new features</a> -->
 <h2>Press releases</h2>
 <ul>
+  <li><a href="<?php echo home_url('press/pr20180917') ?>">September 17, 2018: Rocket.Chat and Nextcloud announce partnership and integration</a></li>
   <li><a href="<?php echo home_url('press/pr20180825-1') ?>">August 25, 2018: Nextcloud 14 Introducing Video Verification and Signal/Telegram 2FA support, Improved Collaboration and GDPR compliance</a></li>
   <li><a href="<?php echo home_url('press/pr20180825-2') ?>">August 25, 2018: Japan to add millions of new nodes to federated Nextcloud network</a></li>
   <li><a href="<?php echo home_url('press/pr20180825-3') ?>">August 25, 2018: Nextcloud lowers barrier to privacy-protecting personal cloud, introducing Simple Signup</a></li>
