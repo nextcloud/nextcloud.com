@@ -35,6 +35,8 @@ To learn more, visit <a href="https://rocket.chat.com">the website</a>, check ou
 <ul>
 <li>about Nextcloud: <a href="https://nextcloud.com/about">nextcloud.com/about</a></li>
 <li>Rocket.Chat press page: <a href="https://rocket.chat/press">rocket.chat/press</a></li>
+<li>Rocket.Chat announcement blog: <a href="https://rocket.chat/2018/09/17/RC-Nextcloud-partnership-post/">rocket.chat/blog</a></li>
+<li>Nextcloud announcement blog: <a href="https://nextcloud.com/blog/rocket.chat-and-nextcloud-announce-partnership-and-integration/">nextcloud.com/blog</a></li>
 </ul>
 
 <p><strong>Press contacts</strong><br />
