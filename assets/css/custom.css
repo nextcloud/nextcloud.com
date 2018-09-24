@@ -3863,6 +3863,22 @@ nav a {
   .nav.headroom--unpinned {
     transform: translate3d(0px, -100px, 0px);
     opacity: 0; }
+  .nav.headroom--pinned .top-navbar-svg {
+    fill: #0082c9 !important; }
+    .nav.headroom--pinned .top-navbar-svg svg {
+      height: 1.7em;
+      vertical-align: bottom;
+      fill: #0082c9 !important; }
+      .nav.headroom--pinned .top-navbar-svg svg path {
+        fill: #0082c9 !important; }
+  .nav.headroom--top .top-navbar-svg {
+    fill: white !important; }
+    .nav.headroom--top .top-navbar-svg svg {
+      height: 1.7em;
+      vertical-align: bottom;
+      fill: white !important; }
+      .nav.headroom--top .top-navbar-svg svg path {
+        fill: white !important; }
   .nav .container {
     position: relative;
     /* Fix ul and li settings in common */ }
@@ -4013,7 +4029,7 @@ nav a {
                 min-height: 15px;
                 float: left;
                 vertical-align: middle; }
-                .nav .container .nav__sections .nav__section .nav__links .nav__item a .nav__logo img {
+                .nav .container .nav__sections .nav__section .nav__links .nav__item a .nav__logo svg {
                   margin-top: 5px;
                   padding: 10px 8px 0 0;
                   height: 40px;
@@ -4064,10 +4080,12 @@ nav a {
             visibility: visible;
             -webkit-transform: scaleX(1);
             transform: scaleX(1); }
-        .nav .container .right-buttons .ghost-btn.no-underline a:before {
-          background-color: transparent; }
-        .nav .container .right-buttons .ghost-btn.no-underline:hover a {
-          opacity: 0.6; }
+        .nav .container .right-buttons .ghost-btn.no-underline {
+          padding-left: 20px; }
+          .nav .container .right-buttons .ghost-btn.no-underline a:before {
+            background-color: transparent !important; }
+          .nav .container .right-buttons .ghost-btn.no-underline:hover a {
+            opacity: 0.6; }
       .nav .container .right-buttons .nav__section {
         padding: 15px 0 15px 0;
         position: relative; }
@@ -4076,12 +4094,16 @@ nav a {
           cursor: default;
           text-decoration: none; }
         .nav .container .right-buttons .nav__section:hover .nav__links {
-          margin-top: 30px;
           visibility: visible;
           opacity: 1;
           position: absolute;
           left: 50%;
           transform: translateX(-50%) translateZ(1px); }
+@-moz-document url-prefix() {
+  .nav .container .right-buttons .nav__section:hover .nav__links {
+    margin-top: 30px; } }
+          .nav .container .right-buttons .nav__section:hover .nav__links:not(:root:root) {
+            margin-top: 30px; }
         .nav .container .right-buttons .nav__section .nav__label {
           display: inline-block;
           padding-left: 30px;
@@ -4090,6 +4112,8 @@ nav a {
           -webkit-transition: 0.3s;
           transition: 0.3s;
           font-size: 16px; }
+          .nav .container .right-buttons .nav__section .nav__label.top-navbar-svg {
+            padding-left: 20px; }
         .nav .container .right-buttons .nav__section .nav__links {
           position: absolute;
           padding: 20px 20px 20px 35px;
@@ -4115,7 +4139,7 @@ nav a {
                 min-height: 15px;
                 float: left;
                 vertical-align: middle; }
-                .nav .container .right-buttons .nav__section .nav__links .nav__item a .nav__logo img {
+                .nav .container .right-buttons .nav__section .nav__links .nav__item a .nav__logo svg {
                   margin-top: 5px;
                   padding: 10px 8px 0 0;
                   height: 40px;
@@ -4269,6 +4293,14 @@ nav a {
                 color: white;
                 margin-left: 0;
                 font-weight: 300; }
+              .nav .container .nav__sections-wrapper .nav__sections.active .nav__section .nav__links .nav__item .nav__logo {
+                fill: white !important; }
+                .nav .container .nav__sections-wrapper .nav__sections.active .nav__section .nav__links .nav__item .nav__logo svg {
+                  height: 2.5em;
+                  vertical-align: bottom;
+                  fill: white !important; }
+                  .nav .container .nav__sections-wrapper .nav__sections.active .nav__section .nav__links .nav__item .nav__logo svg path {
+                    fill: white !important; }
     .nav .container .nav__sections-wrapper .right-buttons {
       position: relative;
       padding: 0;
@@ -4338,6 +4370,14 @@ nav a {
                 color: white;
                 margin-left: 0;
                 font-weight: 300; }
+              .nav .container .nav__sections-wrapper .right-buttons.active .nav__section .nav__links .nav__item .nav__logo {
+                fill: white !important; }
+                .nav .container .nav__sections-wrapper .right-buttons.active .nav__section .nav__links .nav__item .nav__logo svg {
+                  height: 2.5em;
+                  vertical-align: bottom;
+                  fill: white !important; }
+                  .nav .container .nav__sections-wrapper .right-buttons.active .nav__section .nav__links .nav__item .nav__logo svg path {
+                    fill: white !important; }
       .nav .container .nav__sections-wrapper .right-buttons .ghost-btn {
         font-size: 20px;
         line-height: 20px;
