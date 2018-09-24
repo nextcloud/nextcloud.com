@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20" height="20" fill="#000000" version="1.1" viewBox="0 0 6.6666669 6.6666669" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <g transform="matrix(.083333 0 0 .083333 -.83333 -1)" fill="#fff" data-name="Layer 9">
+        <polygon points="27.08 43 32.93 43 30 33.49"/>
+        <path d="m38 14h-20a8 8 0 0 0 -8 8v68l24-24h18zm-3.84 33h-8.31l-1.85 6h-4l8-26h4l8 26h-4z"/>
+        <path d="m82 14h-40l14 52h26a8 8 0 0 0 8 -8v-36a8 8 0 0 0 -8 -8zm-14 13h4v4h-4zm12 26a26.81 26.81 0 0 1 -10.64 -2.1 21.79 21.79 0 0 1 -9.36 2.1v-4a17.9 17.9 0 0 0 5 -0.7c-3.09-2.46-5-5.69-5-9.3h4c0 2.88 2.08 5.51 5.32 7.36a13.54 13.54 0 0 0 6.68 -11.36h-16v-4h20v4a17.15 17.15 0 0 1 -6.37 13.13 23.34 23.34 0 0 0 6.37 0.87z"/>
+    </g>
+</svg>

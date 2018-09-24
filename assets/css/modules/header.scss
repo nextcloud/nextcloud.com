@@ -74,6 +74,36 @@ nav a {
         opacity: 0;
     }
 
+
+    &.headroom--pinned {
+        .top-navbar-svg {
+            svg {
+                height: 1.7em;
+                vertical-align: bottom;
+                fill: #0082c9 !important;
+                path {
+                    fill: #0082c9 !important;
+                }
+            }
+            fill: #0082c9!important;
+        }
+
+    }
+    &.headroom--top {
+        .top-navbar-svg {
+            svg {
+                height: 1.7em;
+                vertical-align: bottom;
+                fill: white !important;
+                path {
+                    fill: white !important;
+                }
+            }
+            fill: white !important;
+        }
+    }
+
+
     .container {
         position: relative;
 
@@ -262,7 +292,7 @@ nav a {
                                 min-height: 15px;
                                 float:left;
                                 vertical-align: middle;
-                                img {
+                                svg {
                                     margin-top: 5px;
                                     padding: 10px 8px 0 0;
                                     height: 40px;
@@ -339,9 +369,10 @@ nav a {
                     }
                 }
                 &.no-underline {
+                    padding-left:20px;
                     a {
                         &:before {
-                            background-color: transparent;
+                            background-color: transparent !important;
                         }
                     }
                     &:hover {
@@ -365,7 +396,14 @@ nav a {
                     }
 
                     .nav__links {
+                      @-moz-document url-prefix() {
+                          margin-top: 30px;
+                      }
+
+                      &:not(:root:root){
                         margin-top: 30px;
+                      }
+
                         visibility: visible;
                         opacity: 1;
                         position: absolute;
@@ -382,6 +420,10 @@ nav a {
                     -webkit-transition: 0.3s;
                     transition: 0.3s;
                     font-size: 16px;
+
+                    &.top-navbar-svg {
+                        padding-left:20px;
+                    }
                 }
 
                 .nav__links {
@@ -413,7 +455,7 @@ nav a {
                                 min-height: 15px;
                                 float:left;
                                 vertical-align: middle;
-                                img {
+                                svg {
                                     margin-top: 5px;
                                     padding: 10px 8px 0 0;
                                     height: 40px;
@@ -595,6 +637,8 @@ nav a {
                                     line-height: 20px;
                                     padding-left: 0;
                                     font-weight: 400;
+
+
                                 }
 
                                 &:nth-of-type(2) {
@@ -635,6 +679,17 @@ nav a {
                                         color: white;
                                         margin-left: 0;
                                         font-weight: 300;
+                                    }
+                                    .nav__logo {
+                                        svg {
+                                            height: 2.5em;
+                                            vertical-align: bottom;
+                                            fill: white !important;
+                                            path {
+                                                fill: white !important;
+                                            }
+                                        }
+                                        fill: white !important;
                                     }
                                 }
                             }
@@ -737,6 +792,17 @@ nav a {
                                         color: white;
                                         margin-left: 0;
                                         font-weight: 300;
+                                    }
+                                    .nav__logo {
+                                        svg {
+                                            height: 2.5em;
+                                            vertical-align: bottom;
+                                            fill: white !important;
+                                            path {
+                                                fill: white !important;
+                                            }
+                                        }
+                                        fill: white !important;
                                     }
                                 }
                             }
@@ -903,3 +969,5 @@ nav a {
    from { background-position-x:    0px; }
      to { background-position-x: -4620px; }
 }
+
+
