@@ -48,10 +48,22 @@
 		<p><?php echo $l->t('You will find our Maintenance and Release Schedule <a class="hyperlink" href="https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule">on GitHub</a>. Please have a close look into the End of Life-section.');?></p>
 
 		<p><?php echo $l->t('If you want to continue to use versions, which reached their End of Life, please');?> <a class="hyperlink" href="<?php echo home_url('enterprise/buy/') ?>"><?php echo $l->t('contact Nextcloud sales</a> to get access to our Long Term Support offering.');?></p>
-
-		<p><?php echo $l->t('Nextcloud Android Client:');?></p>
+            
+        <p><?php echo $l->t('Nextcloud Desktop Clients:');?></p>
 		<ul></p>
-			<li><?php echo $l->t('Latest release on <a href="https://play.google.com/store/apps/details?id=com.nextcloud.client">Google Play Store</a>');?></li>
+			<li><?php echo $l->t('Latest release on <a href="https://download.nextcloud.com/desktop/releases/">our download servers</a>');?></li>
+		</ul>
+            
+		<p><?php echo $l->t('Nextcloud Android Clients:');?></p>
+		<ul></p>
+			<li><?php echo $l->t('Latest release of <a href="https://play.google.com/store/apps/details?id=com.nextcloud.client">Nextcloud Files</a> in the Google Play Store');?></li>
+            <li><?php echo $l->t('Latest release of <a href="https://play.google.com/store/apps/details?id=com.nextcloud.talk2">Nextcloud Talk</a> in the Google Play Store');?></li>
+		</ul>
+    
+    	<p><?php echo $l->t('Nextcloud iOS Clients:');?></p>
+		<ul></p>
+			<li><?php echo $l->t('Latest release of <a href="https://itunes.apple.com/app/nextcloud/id1125420102?mt=8">Nextcloud Files</a> in the App Store');?></li>
+            <li><?php echo $l->t('Latest release of <a href="https://itunes.apple.com/app/nextcloud-talk/id1296825574?mt=8">Nextcloud Talk</a> in the App Store');?></li>
 		</ul>
 	</div>
 </div>
