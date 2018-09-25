@@ -211,7 +211,7 @@
 	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 14 introduces the ability to add a note to shares, share files in a chat, search in comments, our next-gen server-to-server sharing technology Federation 2.0 and much more!');?></p>
 	            <br/>
 	            <p>
-	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-14-rc1-announced-with-video-verification-and-signaltelegram-2fa-support-improved-collaboration-and-gdpr-compliance/" role="button"><?php echo $l->t('Lear more');?></a>
+	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-14-now-available-with-video-verification-signaltelegram-2fa-support-improved-collaboration-and-gdpr-compliance/" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
@@ -220,7 +220,7 @@
 	            <p class="section--paragraph"><?php echo $l->t('Ease of use and accessibility are important to us and Nextcloud 14 introduces many improvements from an improved sidebar to a Dark and High Contrast theme, keyboard and screen reader access and much more.');?></p>
 	            <br/>
 	            <p>
-	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-14-rc1-announced-with-video-verification-and-signaltelegram-2fa-support-improved-collaboration-and-gdpr-compliance/" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-14-the-most-accessible-nextcloud-ever/" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
