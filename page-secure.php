@@ -103,7 +103,7 @@
         <div class="col-md-4">
             <div class="feature">
                 <?php echo file_get_contents(get_template_directory()."/assets/img/icons/tools.svg"); ?>
-                <p class="section--paragraph__tittle"><?php echo $l->t('Existing security tools');?><p/>
+                <p class="section--paragraph__tittle"><?php echo $l->t('Existing security tools');?></p>
                  <p class="section--paragraph"><?php echo $l->t('Nextcloud offers built in monitoring tools and integrates with existing MDM, DLP, event logging and backup tools, enabling existing tool chains to be used to monitor, back up and restore systems.');?></p>
             </div>
         </div>
