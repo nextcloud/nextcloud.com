@@ -59,25 +59,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
         'pr20180825-3',
         'pr20180917',
 		'providers',
-// 		'providersubmit',
-//		'release-channels',
-// 		'salessubmit',
-// 		'securesharesubmit',
-// 		'securesharing',
-// 		'sharing',
-		'spreedbox',
-// 		'support',
-// 		'team',
-		'thanks',
-		'thankyou',
-// 		'ordersubmit',
-		'theming',
-		'threat-model',
-		'trademarks',
-		'translation',
 		'user',
-//		'webrtc',
-// 		'workflow'
 
 	];
 	function is_blog()
