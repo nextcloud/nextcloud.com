@@ -1,10 +1,26 @@
+<head>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+
+<div class="background generic-background">
+    <img class="pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/empty1x1.png" alt="">
+    <div class="container">
+        <div class="col-md-6 topheader">
+            <h1>Nextcloud News</h1>
+        </div>
+    </div>
+</div>
+
+<section class="content">
+<div class="container">
+
 <?php
 require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php');
 ?>
 
 <div class="row page-content-header">
   <div class="col-sm-7">
-    <h1>Nextcloud Planet</h1>
     <a href="/blogfeed" class="rss-button"><img style="vertical-align: top;" width=35 class="img-circle" src="<?php echo get_template_directory_uri(); ?>/assets/img/social/rss.png"></img></a>
     <p>Welcome to Nextcloud News, our contributor blog roll. Nextcloud contributors should <a href="mailto:jos@nextcloud.com">ask to get added</a>!</p>
     <p>Opinions are the responsibility of those who express them. See our <a href="/privacy">privacy policy</a>.</p>
@@ -86,3 +102,5 @@ require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.p
     </div>
   </div>
 </div>
+</div>
+</section>
