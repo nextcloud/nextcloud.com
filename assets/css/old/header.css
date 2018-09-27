@@ -45,7 +45,10 @@ nav a {
   right: 0;
   background: #0082c9;
   position: relative;
-  opacity: 0; }
+  opacity: 0;
+  /* SVG icons on the right */
+  /* SVG icon when on scrolled, white background Z*/
+  /* SVG icon when on top */ }
   .nav.headroom {
     transition: transform 500ms ease; }
   .nav.headroom--not-top {
@@ -56,28 +59,25 @@ nav a {
   .nav.headroom--unpinned {
     transform: translate3d(0px, -100px, 0px);
     opacity: 0; }
+  .nav .top-navbar-svg {
+    /* shift language icon 3 px down */ }
+    .nav .top-navbar-svg svg {
+      height: 1.7em;
+      vertical-align: bottom; }
+    .nav .top-navbar-svg.lang-icon svg {
+      margin-bottom: -3px; }
   .nav.headroom--pinned .top-navbar-svg {
-    fill: #0082c9 !important;
-    stroke: #0082c9 !important; }
+    fill: #0082c9 !important; }
     .nav.headroom--pinned .top-navbar-svg svg {
-      height: 1.7em;
-      vertical-align: bottom;
-      fill: #0082c9 !important;
-      stroke: #0082c9 !important; }
+      fill: #0082c9 !important; }
       .nav.headroom--pinned .top-navbar-svg svg path {
-        fill: #0082c9 !important;
-        stroke: #0082c9 !important; }
+        fill: #0082c9 !important; }
   .nav.headroom--top .top-navbar-svg {
-    fill: white !important;
-    stroke: white !important; }
+    fill: white !important; }
     .nav.headroom--top .top-navbar-svg svg {
-      height: 1.7em;
-      vertical-align: bottom;
-      fill: white !important;
-      stroke: white !important; }
+      fill: white !important; }
       .nav.headroom--top .top-navbar-svg svg path {
-        fill: white !important;
-        stroke: white !important; }
+        fill: white !important; }
   .nav .container {
     position: relative;
     /* Fix ul and li settings in common */ }
@@ -493,16 +493,13 @@ nav a {
                 margin-left: 0;
                 font-weight: 300; }
               .nav .container .nav__sections-wrapper .nav__sections.active .nav__section .nav__links .nav__item .nav__logo {
-                fill: white !important;
-                stroke: white !important; }
+                fill: white !important; }
                 .nav .container .nav__sections-wrapper .nav__sections.active .nav__section .nav__links .nav__item .nav__logo svg {
                   height: 2.5em;
                   vertical-align: bottom;
-                  fill: white !important;
-                  stroke: white !important; }
+                  fill: white !important; }
                   .nav .container .nav__sections-wrapper .nav__sections.active .nav__section .nav__links .nav__item .nav__logo svg path {
-                    fill: white !important;
-                    stroke: white !important; }
+                    fill: white !important; }
     .nav .container .nav__sections-wrapper .right-buttons {
       position: relative;
       padding: 0;
@@ -573,16 +570,13 @@ nav a {
                 margin-left: 0;
                 font-weight: 300; }
               .nav .container .nav__sections-wrapper .right-buttons.active .nav__section .nav__links .nav__item .nav__logo {
-                fill: white !important;
-                stroke: white !important; }
+                fill: white !important; }
                 .nav .container .nav__sections-wrapper .right-buttons.active .nav__section .nav__links .nav__item .nav__logo svg {
                   height: 2.5em;
                   vertical-align: bottom;
-                  fill: white !important;
-                  stroke: white !important; }
+                  fill: white !important; }
                   .nav .container .nav__sections-wrapper .right-buttons.active .nav__section .nav__links .nav__item .nav__logo svg path {
-                    fill: white !important;
-                    stroke: white !important; }
+                    fill: white !important; }
       .nav .container .nav__sections-wrapper .right-buttons .ghost-btn {
         font-size: 20px;
         line-height: 20px;
