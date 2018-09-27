@@ -9662,6 +9662,13 @@ i[class*='fa-'] {
   font-style: normal;
   color: #555; }
 
+.button--blue i[class*='fa-'] {
+  font-size: 150%;
+  vertical-align: bottom;
+  color: #fff;
+  padding-left: 5px;
+  padding-right: 5px; }
+
 i[class*='fa-'] {
   font-style: normal;
   color: #555;
