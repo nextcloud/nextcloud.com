@@ -22,10 +22,6 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 	 */
 	$oldPages = [
 // 		'about',
-		'advisory',
-		'community',
-		'install',
-		'news',
 		'pr20160602',
 		'pr20160614',
 		'pr20160705',
@@ -58,7 +54,6 @@ if(is_page('oc-news') || is_page('blogfeed')) {
         'pr20180825-2',
         'pr20180825-3',
         'pr20180917',
-		'providers',
 		'user',
 
 	];
