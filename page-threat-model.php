@@ -1,5 +1,21 @@
-<?php get_template_part( 'templates/parts/title'); ?>
-<div class="sub-nav"><a href="<?php echo home_url('/security') ?>">Security overview</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="<?php echo home_url('/security/advisories') ?>">Security Advisories</a>
+<head>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+
+<div class="background generic-background">
+    <img class="pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/empty1x1.png" alt="">
+    <div class="container">
+        <div class="col-md-6 topheader">
+            <h1>Thread model</h1>
+        </div>
+    </div>
+</div>
+
+<section class="content">
+<div class="container">
+
+<div class="sub-nav"><a class="hyperlink" href="<?php echo home_url('/security') ?>">Security overview</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class="hyperlink" href="<?php echo home_url('/security/advisories') ?>">Security Advisories</a>
 </div>
 <h2>Threat model & accepted risks</h2>
 <p>This page is constantly evolving. So check back over time to see new additions.</p>
@@ -47,3 +63,5 @@ in those disabled features as not bounty-worthy.</p>
 <p>Nextcloud ships with multiple features that perform sending requests to other hosts, we do consider this accepted behaviour and advocate people to deploy Nextcloud into its own seggregated network segment.</p>
 
 <p><em>Page last modified on May 5, 2018</em></p>
+</div>
+</section>
