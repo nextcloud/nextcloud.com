@@ -61,7 +61,7 @@ $coreApps = ['files', 'calendar', 'contacts', 'spreed', 'mail', 'tasks', 'notes'
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Your choice');?></h1>
 				<h2><?php echo $l->t('To help you decide where to store your data, Nextcloud maintains a list of preferred providers.');?></h2>
-                <h2><?php echo $l->t('Sign up now and get a 1-year free, 2GB storage account!');?></h2>
+                <h2><?php echo $l->t('Sign up now and get a free storage account!');?></h2>
 			</div>
 		</div>
 	</div>

@@ -13,6 +13,48 @@ Go directly to the latest maintenance release of:
 </ul>
 
 <a name="latest14"></a>
+<h3 id="14-0-1">Version 14.0.1 <small>September 25 2018</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.1.tar.bz2">nextcloud-14.0.1.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.1.zip">nextcloud-14.0.1.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.1.tar.bz2.md5">nextcloud-14.0.1.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.1.zip.md5">nextcloud-14.0.1.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.1.tar.bz2.sha256">nextcloud-14.0.1.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.1.zip.sha256">nextcloud-14.0.1.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.1.tar.bz2.sha512">nextcloud-14.0.1.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.1.zip.sha512">nextcloud-14.0.1.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.1.tar.bz2.asc">nextcloud-14.0.1.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.1.zip.asc">nextcloud-14.0.1.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+    <li><a href="https://github.com/nextcloud/server/pull/11039">Fixes the upload progress bar layout - 14 backport (server#11039)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11077">Fix markup and style of mentions in comments (server#11077)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11090">Do not invalidate main token on OAuth (server#11090)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11103">Expire tokens hardening (server#11103)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11152">fix js files client for user names with spaces (server#11152)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11186">Fix user and group listing with users that have an integer user id (server#11186)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11187">Fix exception class (server#11187)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11191">Remove posix_getpwuid and compare only userid (server#11191)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11201">Fix check for more users in sharing dialogue (server#11201)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11237">Remove filter_var flags due to PHP 7.3 deprecation, fixes #10894 (server#11237)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11259">Fixes empty favorite names for trailing slashes (server#11259)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11276">Fix size of icons in menus inside apps when shown as images (server#11276)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11277">Prevent comment being composed from overlapping the submit button (server#11277)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11280">replace setcookie value with '' instead of null. (server#11280)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11282">Fix the link and anchor for the update notifications (server#11282)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11283">Include empty directories in the default state of acceptance tests (server#11283)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11287">Get permission of storage for shares (server#11287)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11288">Shared by info for room shares without names (server#11288)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11291">Fix icons cacher regex for compressed output (server#11291)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11293">Revert "Use APCu caching of composer" (server#11293)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11294">Use user locale as default in the template (server#11294)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11302">Fix expiration code of tokens (server#11302)</a></li>
+    <li><a href="https://github.com/nextcloud/server/pull/11340">Add unit test for findLanguageFromLocale (server#11340)</a></li>
+    <li><a href="https://github.com/nextcloud/activity/pull/295">14 scroll fix (activity#295)</a></li>
+    <li><a href="https://github.com/nextcloud/files_texteditor/pull/111">Update stable14 target versions (files_texteditor#111)</a></li>
+    <li><a href="https://github.com/nextcloud/firstrunwizard/pull/80">Update stable14 target versions (firstrunwizard#80)</a></li>
+    <li><a href="https://github.com/nextcloud/gallery/pull/467">Update stable14 target versions (gallery#467)</a></li>
+    <li><a href="https://github.com/nextcloud/nextcloud_announcements/pull/32">Update stable14 target versions (nextcloud_announcements#32)</a></li>
+    <li><a href="https://github.com/nextcloud/notifications/pull/158">Update stable14 target versions (notifications#158)</a></li>
+    <li><a href="https://github.com/nextcloud/notifications/pull/161">Update config and babel for ie11 (notifications#161)</a></li>
+</ul>
+
 <h3 id="14-0-0">Version 14.0.0 <small>September 10 2018</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.0.tar.bz2">nextcloud-14.0.0.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.0.zip">nextcloud-14.0.0.zip</a></br>
 Check the file integrity with:</br>
