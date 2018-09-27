@@ -73,11 +73,11 @@ nav a {
       .nav.headroom--pinned .top-navbar-svg svg path {
         fill: #0082c9 !important; }
   .nav.headroom--top .top-navbar-svg {
-    fill: white !important; }
+    fill: white; }
     .nav.headroom--top .top-navbar-svg svg {
-      fill: white !important; }
+      fill: white; }
       .nav.headroom--top .top-navbar-svg svg path {
-        fill: white !important; }
+        fill: white; }
   .nav .container {
     position: relative;
     /* Fix ul and li settings in common */ }
