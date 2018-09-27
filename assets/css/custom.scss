@@ -7,7 +7,7 @@
 // Importing bootstrap modules
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables';
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins';
-@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize'; 
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize';
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding';
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type';
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid';
@@ -681,6 +681,16 @@ span.avoidwrap {
 i[class*='fa-'] {
   font-style: normal;
   color: #555; }
+
+  .button--blue {
+    i[class*='fa-'] {
+        font-size: 150%;
+        vertical-align: bottom;
+        color: #fff;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+  }
 
 i[class*='fa-'] {
   font-style: normal;

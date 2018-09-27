@@ -1,6 +1,21 @@
-<div class="page-header">
-	<h1><a href="/events">Events</a> > Meetups</h1>
+<head>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+
+<div class="background generic-background">
+    <img class="pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/empty1x1.png" alt="">
+    <div class="container">
+        <div class="col-md-6 topheader">
+        <h1>Meetups</h1>
+        </div>
+    </div>
 </div>
+
+<section class="content">
+<div class="container">
+
+<h2><a class="hyperlink" href="/events">Events</a> / Meetups</h2>
 <div class="sub-nav">
 	Meetups&nbsp;&nbsp;
 	|&nbsp;&nbsp;<a href="<?php echo home_url('/events/conference-program') ?>">Conference Program</a>&nbsp;&nbsp;
@@ -69,3 +84,5 @@
 
 	</div>
 </div>
+</div>
+</section>
