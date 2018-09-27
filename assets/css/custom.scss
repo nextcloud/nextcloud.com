@@ -19,6 +19,8 @@
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons';
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/component-animations';
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/button-groups';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/popovers';
 
 // Importing modules
 @import 'modules/typography';
@@ -1013,7 +1015,7 @@ blockquote {
 
 }
 
-.btn-primary {
+/*.btn-primary {
   background-color: $nextcloud-blue;
   font-size: 18px;
   padding: 25px 100px;
@@ -1050,9 +1052,10 @@ blockquote {
     font-size: 15px; }
     .btn-primary:before {
       right: 30px; } }
-/**
- * Mobile
- */
+*/
+
+
+/*  Mobile */
 @media (max-width: $break-small) {
   h1 {
     font-size: 35px;
