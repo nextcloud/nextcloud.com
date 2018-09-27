@@ -74,12 +74,24 @@ nav a {
         opacity: 0;
     }
 
+	/* SVG icons on the right */
+    .top-navbar-svg {
+		svg {
+			height: 1.7em;
+			vertical-align: bottom;
+		}
+		/* shift language icon 3 px down */
+		&.lang-icon {
+			svg {
+				margin-bottom: -3px;
+			}
+		}
+	}
 
+	/* SVG icon when on scrolled, white background Z*/
     &.headroom--pinned {
         .top-navbar-svg {
             svg {
-                height: 1.7em;
-                vertical-align: bottom;
                 fill: #0082c9 !important;
                 path {
                     fill: #0082c9 !important;
@@ -89,11 +101,11 @@ nav a {
         }
 
     }
+
+	/* SVG icon when on top */
     &.headroom--top {
         .top-navbar-svg {
             svg {
-                height: 1.7em;
-                vertical-align: bottom;
                 fill: white !important;
                 path {
                     fill: white !important;
@@ -102,7 +114,6 @@ nav a {
             fill: white !important;
         }
     }
-
 
     .container {
         position: relative;

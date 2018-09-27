@@ -162,7 +162,7 @@ require get_template_directory() . '/strings.php';
                 <li class="ghost-btn no-underline">
                     <a href="<?php echo home_url('contact'); ?>" class="nav__label top-navbar-svg"><?php echo file_get_contents(get_template_directory()."/assets/img/icons/mail.svg");?></a>
                 </li>
-                <li class="nav__section"><a class="nav__label top-navbar-svg"><?php echo file_get_contents(get_template_directory()."/assets/img/icons/language.svg");?></a>
+                <li class="nav__section"><a class="nav__label top-navbar-svg lang-icon"><?php echo file_get_contents(get_template_directory()."/assets/img/icons/language.svg");?></a>
                     <ul class="nav__links">
                         <li class="nav__item nav__item__language">
                             <a href="<?php echo site_url();?>/de/<?php echo $pagename;?>">

@@ -3852,7 +3852,10 @@ nav a {
   right: 0;
   background: #0082c9;
   position: relative;
-  opacity: 0; }
+  opacity: 0;
+  /* SVG icons on the right */
+  /* SVG icon when on scrolled, white background Z*/
+  /* SVG icon when on top */ }
   .nav.headroom {
     transition: transform 500ms ease; }
   .nav.headroom--not-top {
@@ -3863,19 +3866,22 @@ nav a {
   .nav.headroom--unpinned {
     transform: translate3d(0px, -100px, 0px);
     opacity: 0; }
+  .nav .top-navbar-svg {
+    /* shift language icon 3 px down */ }
+    .nav .top-navbar-svg svg {
+      height: 1.7em;
+      vertical-align: bottom; }
+    .nav .top-navbar-svg.lang-icon svg {
+      margin-bottom: -3px; }
   .nav.headroom--pinned .top-navbar-svg {
     fill: #0082c9 !important; }
     .nav.headroom--pinned .top-navbar-svg svg {
-      height: 1.7em;
-      vertical-align: bottom;
       fill: #0082c9 !important; }
       .nav.headroom--pinned .top-navbar-svg svg path {
         fill: #0082c9 !important; }
   .nav.headroom--top .top-navbar-svg {
     fill: white !important; }
     .nav.headroom--top .top-navbar-svg svg {
-      height: 1.7em;
-      vertical-align: bottom;
       fill: white !important; }
       .nav.headroom--top .top-navbar-svg svg path {
         fill: white !important; }
