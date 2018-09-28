@@ -267,6 +267,9 @@ nav a {
                         position: absolute;
                         left:50%;
                         transform:translateX(-50%) translateZ(1px);
+						@media (min-width: $break-big) {
+							top: 50px;
+						}
                     }
                 }
 
@@ -326,6 +329,9 @@ nav a {
                             &:hover {
                                 opacity: 0.6;
                                 text-decoration: none;
+								@media (min-width: $break-big) {
+									top: 50px;
+								}
                             }
                         }
 
@@ -421,6 +427,9 @@ nav a {
                         position: absolute;
                         left:50%;
                         transform:translateX(-50%) translateZ(1px);
+						@media (min-width: $break-big) {
+							top: 50px;
+						}
                     }
                 }
 
@@ -446,6 +455,9 @@ nav a {
                     list-style-type: none;
                     transition: opacity 0.3s ease;
                     transition-delay: 0.1s;
+					@media (min-width: $break-big) {
+							top: 50px;
+						}
 					/* Keep language item a bit closer to the contact button */
                     .nav__item__language {
                         padding: 2px 2px 2px 5px;

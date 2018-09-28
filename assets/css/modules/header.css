@@ -199,6 +199,9 @@ nav a {
           position: absolute;
           left: 50%;
           transform: translateX(-50%) translateZ(1px); }
+          @media (min-width: 991px) {
+            .nav .container .nav__sections .nav__section:hover .nav__links {
+              top: 50px; } }
         .nav .container .nav__sections .nav__section .nav__label {
           display: inline-block;
           padding-left: 30px;
@@ -222,7 +225,8 @@ nav a {
               display: block;
               padding: 5px 10px 0 0px;
               font-size: 16px;
-              color: #555; }
+              color: #555;
+              /* logo in front of text */ }
               .nav .container .nav__sections .nav__section .nav__links .nav__item a .nav__logo {
                 width: 45px;
                 min-height: 15px;
@@ -245,6 +249,9 @@ nav a {
               .nav .container .nav__sections .nav__section .nav__links .nav__item a:hover {
                 opacity: 0.6;
                 text-decoration: none; }
+                @media (min-width: 991px) {
+                  .nav .container .nav__sections .nav__section .nav__links .nav__item a:hover {
+                    top: 50px; } }
             .nav .container .nav__sections .nav__section .nav__links .nav__item:not(:last-of-type) a {
               padding-bottom: 5px; }
     .nav .container .right-buttons {
@@ -303,6 +310,9 @@ nav a {
     margin-top: 30px; } }
           .nav .container .right-buttons .nav__section:hover .nav__links:not(:root:root) {
             margin-top: 30px; }
+          @media (min-width: 991px) {
+            .nav .container .right-buttons .nav__section:hover .nav__links {
+              top: 50px; } }
         .nav .container .right-buttons .nav__section .nav__label {
           display: inline-block;
           padding-left: 30px;
@@ -320,7 +330,11 @@ nav a {
           opacity: 0;
           list-style-type: none;
           transition: opacity 0.3s ease;
-          transition-delay: 0.1s; }
+          transition-delay: 0.1s;
+          /* Keep language item a bit closer to the contact button */ }
+          @media (min-width: 991px) {
+            .nav .container .right-buttons .nav__section .nav__links {
+              top: 50px; } }
           .nav .container .right-buttons .nav__section .nav__links .nav__item__language {
             padding: 2px 2px 2px 5px;
             margin: 0px; }
@@ -332,7 +346,8 @@ nav a {
               display: block;
               padding: 5px 10px 0 0px;
               font-size: 16px;
-              color: #555; }
+              color: #555;
+              /* logo in front of text */ }
               .nav .container .right-buttons .nav__section .nav__links .nav__item a .nav__logo {
                 width: 45px;
                 min-height: 15px;
