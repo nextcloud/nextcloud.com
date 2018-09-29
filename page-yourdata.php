@@ -1,9 +1,9 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/yourdata.css" rel="stylesheet">
-<meta itemprop="image" content="https://nextcloud.com/media/animation.gif">
-<meta name="twitter:image" content="https://nextcloud.com/media/animation.gif">
-<meta name="twitter:image:src" content="https://nextcloud.com/media/animation.gif">
-<meta property="og:image" content="https://nextcloud.com/media/animation.gif">
+<meta itemprop="image" content="https://nextcloud.com/media/animation.png">
+<meta name="twitter:image" content="https://nextcloud.com/media/animation.png">
+<meta name="twitter:image:src" content="https://nextcloud.com/media/animation.png">
+<meta property="og:image" content="https://nextcloud.com/media/animation.png">
 
 </head>
 <div class="yourdata-background">
