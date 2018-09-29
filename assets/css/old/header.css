@@ -300,14 +300,14 @@ nav a {
           cursor: default;
           text-decoration: none; }
         .nav .container .right-buttons .nav__section:hover .nav__links {
+          /*                      @-moz-document url-prefix() {
+                                    margin-top: 30px;
+                                }*/
           visibility: visible;
           opacity: 1;
           position: absolute;
           left: 50%;
           transform: translateX(-50%) translateZ(1px); }
-@-moz-document url-prefix() {
-  .nav .container .right-buttons .nav__section:hover .nav__links {
-    margin-top: 30px; } }
           .nav .container .right-buttons .nav__section:hover .nav__links:not(:root:root) {
             margin-top: 30px; }
           @media (min-width: 991px) {

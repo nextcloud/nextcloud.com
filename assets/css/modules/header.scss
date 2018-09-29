@@ -414,9 +414,9 @@ nav a {
                     }
 
                     .nav__links {
-                      @-moz-document url-prefix() {
+/*                      @-moz-document url-prefix() {
                           margin-top: 30px;
-                      }
+                      }*/
 
                       &:not(:root:root){
                         margin-top: 30px;
