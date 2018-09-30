@@ -102,6 +102,19 @@
         </div>
 	</div>
 	<div class="row">
+		<div class="col-md-6 revealOnScroll image--floated">
+			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-card-details-checklist-nw.png" />
+        </div>
+        <div class="col-md-6 revealOnScroll"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Deck');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Manage your work with others');?></p>
+			<p class="section--paragraph"><?php echo $l->t('<ul>
+			<li>Create any number of private or shared Kanban-style task boards</li>
+			<li>Drag\'n\'drop cards, assign them to team members and set due dates</li>
+			<li>Use checklists, attach files & export boards</li>
+			</ul>
+			');?></p>
+        </div>
+	</div>	<div class="row">
         <div class="col-sm-8 col-sm-offset-2">
             <p class="section--paragraph revealOnScroll text-center"><?php echo $l->t('Nextcloud fluently integrates into your existing infrastructure while also providing its own. Note that Nextcloud Mail is a client for POP and/or IMAP-infrastructure; Nextcloud does not include a mail server.');?></p>
         </div>
