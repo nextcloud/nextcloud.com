@@ -30,7 +30,8 @@ $registerL10n = [
     'far' => $l->t('Far far away'),
     'geterror' => $l->t('Error while retrieving the providers list.'),
     'tos' => $l->t('Terms of service'),
-    'tosagree' => $l->t('I agree to the %tos%')
+    'tosagree' => $l->t('I agree to the %tos%'),
+    'toserror' => $l->t('Please agree to the terms of service')
 ];
 
 $officialApps = [
