@@ -96,6 +96,8 @@
     top: 30vh;
     padding-left: 0;
     margin-left: 0;
+	z-index: 2;
+
 
     .button {
       opacity: 0;
@@ -109,6 +111,18 @@
       -webkit-transform: translateY(50px);
               transform: translateY(50px);
     }
+    .jumbotron--lead {
+		@media (max-width: $break-small) {
+			text-shadow: 0px 0px 5px #000000;
+		}
+	}
+
+	.button {
+		@media (max-width: $break-small) {
+			text-shadow: 0px 0px 5px #000000;
+			background: #0082c9cc;
+		}
+	}
 
     @media (max-width: $break-big) {
       top: 120px;
