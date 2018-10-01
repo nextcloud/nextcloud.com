@@ -270,3 +270,4 @@
 		<br /><br />
 		<p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
 	</div>
+</section>
