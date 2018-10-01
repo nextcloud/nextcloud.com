@@ -99,9 +99,8 @@
         <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('
         Your own server = under your control
         ');?></p>
-        <p class="section--paragraph text-center revealOnScroll"><em><?php echo $l->t('
-        HIPAA, GLBA, NERC CIP, SOX, PCI compliance
-        ');?></em></p>
+        <p class="section--paragraph text-center revealOnScroll"><a class="hyperlink" href="<?php echo home_url('gdpr') ?>"><em><?php echo $l->t('
+        HIPAA, GLBA, NERC CIP, SOX, PCI compliance');?></em></a></p>
         </div>
 <!--     </div> -->
 </div>

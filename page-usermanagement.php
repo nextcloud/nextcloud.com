@@ -7,6 +7,10 @@
         grecaptcha.render('RecaptchaField2', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
     };
 </script>-->
+<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png">
+<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png">
+<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png">
+<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png">
 </head>
 
 <div class="background usermanagement-background">
@@ -39,6 +43,7 @@
 			<p class="section--paragraph__tittle"><?php echo $l->t('Easy user management');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Admins can create, modify, search and view user accounts using Nextcloud built-in user management. Name, disk quota, mail addresses and group membership can be handled and users can be given administrator privileges if needed.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('If you need to integrate Nextcloud with an existing system, take advantage of support for one or more LDAP directories instead of or in addition to local users. Nextcloud can secure logins with two-factor authentication and supports single sign-on through SAML, OAuth2, Kerberos and others.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('For large-scale solutions, performance optimization, additional tools and advice, see the ');?><a class="hyperlink" href="https://portal.nextcloud.com"><?php echo $l->t('Nextcloud customer portal.');?></a></p>
 		</div>
 	</div>
 </div>
@@ -103,7 +108,7 @@
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Secure Authentication');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud supports securing authentication through Nextcloud itself with a plugin-based two-factor authentication method. Supported are, among others, TOTP, SMS 2-factor and U2F. Upon activation by the system administrator, users have to activate 2FA in their personal settings.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud supports securing authentication through Nextcloud itself with a plugin-based two-factor authentication method. Supported are, among others, TOTP, NFC, SMS, Signal/Telegram and U2F. Upon activation by the system administrator, users can activate 2FA in their personal settings.');?></p>
 			<p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_user/two_factor-auth.html"><?php echo $l->t('Find documentation here.');?></a></p>
 		</div>
 	</div>
@@ -117,8 +122,8 @@
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Single-sign-on');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud features an SSO & SAML app for easy Single-sign-on integration. SAML 2.0 is supported against OneLogin, Shibboleth, and ADFS. The app also features authentication via environment variables, including support for Kerberos, OAuth2, OpenID and many other mechanisms provided by Apache modules.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The native SAML integration negates the need for external software like Apache modules. Native SAML is compatible with all webservers and supports group memberships, flexible session management and app-specific passwords.');?></p>
-			<p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_server/sso_configuration.html"><?php echo $l->t('Find documentation here.');?></a></p>
+			<p class="section--paragraph"><?php echo $l->t('The native SAML integration negates the need for external software like Apache modules. Native SAML is compatible with all webservers and supports group memberships, flexible session management and app specific passwords. It can handle multiple Identity Providers and can authenticate to Samba servers with Kerberos.');?></p>
+			<p class="section--paragraph"><a class="hyperlink" href="https://portal.nextcloud.com/article/configuring-single-sign-on-10.html"><?php echo $l->t('Find documentation on our customer portal.');?></a></p>
 		</div>
 	</div>
 </div>

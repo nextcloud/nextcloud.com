@@ -45,7 +45,10 @@ nav a {
   right: 0;
   background: #0082c9;
   position: relative;
-  opacity: 0; }
+  opacity: 0;
+  /* SVG icons on the right */
+  /* SVG icon when on scrolled, white background Z*/
+  /* SVG icon when on top */ }
   .nav.headroom {
     transition: transform 500ms ease; }
   .nav.headroom--not-top {
@@ -56,6 +59,25 @@ nav a {
   .nav.headroom--unpinned {
     transform: translate3d(0px, -100px, 0px);
     opacity: 0; }
+  .nav .top-navbar-svg {
+    /* shift language icon 3 px down */ }
+    .nav .top-navbar-svg svg {
+      height: 1.7em;
+      vertical-align: bottom; }
+    .nav .top-navbar-svg.lang-icon svg {
+      margin-bottom: -3px; }
+  .nav.headroom--pinned .top-navbar-svg {
+    fill: #0082c9 !important; }
+    .nav.headroom--pinned .top-navbar-svg svg {
+      fill: #0082c9 !important; }
+      .nav.headroom--pinned .top-navbar-svg svg path {
+        fill: #0082c9 !important; }
+  .nav.headroom--top .top-navbar-svg {
+    fill: white !important; }
+    .nav.headroom--top .top-navbar-svg svg {
+      fill: white !important; }
+      .nav.headroom--top .top-navbar-svg svg path {
+        fill: white !important; }
   .nav .container {
     position: relative;
     /* Fix ul and li settings in common */ }
@@ -177,6 +199,9 @@ nav a {
           position: absolute;
           left: 50%;
           transform: translateX(-50%) translateZ(1px); }
+          @media (min-width: 991px) {
+            .nav .container .nav__sections .nav__section:hover .nav__links {
+              top: 50px; } }
         .nav .container .nav__sections .nav__section .nav__label {
           display: inline-block;
           padding-left: 30px;
@@ -200,13 +225,14 @@ nav a {
               display: block;
               padding: 5px 10px 0 0px;
               font-size: 16px;
-              color: #555; }
+              color: #555;
+              /* logo in front of text */ }
               .nav .container .nav__sections .nav__section .nav__links .nav__item a .nav__logo {
                 width: 45px;
                 min-height: 15px;
                 float: left;
                 vertical-align: middle; }
-                .nav .container .nav__sections .nav__section .nav__links .nav__item a .nav__logo img {
+                .nav .container .nav__sections .nav__section .nav__links .nav__item a .nav__logo svg {
                   margin-top: 5px;
                   padding: 10px 8px 0 0;
                   height: 40px;
@@ -223,13 +249,16 @@ nav a {
               .nav .container .nav__sections .nav__section .nav__links .nav__item a:hover {
                 opacity: 0.6;
                 text-decoration: none; }
+                @media (min-width: 991px) {
+                  .nav .container .nav__sections .nav__section .nav__links .nav__item a:hover {
+                    top: 50px; } }
             .nav .container .nav__sections .nav__section .nav__links .nav__item:not(:last-of-type) a {
               padding-bottom: 5px; }
     .nav .container .right-buttons {
       position: absolute;
       top: 0;
       right: 0;
-      margin-top: 15px; }
+      /*             margin-top: 15px; */ }
       .nav .container .right-buttons .ghost-btn {
         text-align: center;
         position: relative;
@@ -257,20 +286,92 @@ nav a {
             visibility: visible;
             -webkit-transform: scaleX(1);
             transform: scaleX(1); }
-      .nav .container .right-buttons .flag {
-        color: white;
-        transition: all .3s ease-in-out;
-        -webkit-transition: all .3s ease-in-out; }
-        .nav .container .right-buttons .flag a {
-          -webkit-transition: all .3s ease-in-out;
-          position: relative;
-          transition: all .3s ease-in-out;
-          opacity: .9; }
-          .nav .container .right-buttons .flag a:hover {
-            opacity: 1;
-            text-decoration: none; }
-            .nav .container .right-buttons .flag a:hover img {
-              transform: scale(1.2); }
+        .nav .container .right-buttons .ghost-btn.no-underline {
+          padding-left: 20px; }
+          .nav .container .right-buttons .ghost-btn.no-underline a:before {
+            background-color: transparent !important; }
+          .nav .container .right-buttons .ghost-btn.no-underline:hover a {
+            opacity: 0.6; }
+      .nav .container .right-buttons .nav__section {
+        padding: 15px 0 15px 0;
+        position: relative; }
+        .nav .container .right-buttons .nav__section:hover .nav__label {
+          opacity: 0.6;
+          cursor: default;
+          text-decoration: none; }
+        .nav .container .right-buttons .nav__section:hover .nav__links {
+          /*                      @-moz-document url-prefix() {
+                                    margin-top: 30px;
+                                }*/
+          visibility: visible;
+          opacity: 1;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%) translateZ(1px); }
+          .nav .container .right-buttons .nav__section:hover .nav__links:not(:root:root) {
+            margin-top: 30px; }
+          @media (min-width: 991px) {
+            .nav .container .right-buttons .nav__section:hover .nav__links {
+              top: 50px; } }
+        .nav .container .right-buttons .nav__section .nav__label {
+          display: inline-block;
+          padding-left: 30px;
+          padding-bottom: 5px;
+          color: white;
+          -webkit-transition: 0.3s;
+          transition: 0.3s;
+          font-size: 16px; }
+          .nav .container .right-buttons .nav__section .nav__label.top-navbar-svg {
+            padding-left: 20px; }
+        .nav .container .right-buttons .nav__section .nav__links {
+          position: absolute;
+          padding: 20px 20px 20px 35px;
+          visibility: hidden;
+          opacity: 0;
+          list-style-type: none;
+          transition: opacity 0.3s ease;
+          transition-delay: 0.1s;
+          /* Keep language item a bit closer to the contact button */ }
+          @media (min-width: 991px) {
+            .nav .container .right-buttons .nav__section .nav__links {
+              top: 50px; } }
+          .nav .container .right-buttons .nav__section .nav__links .nav__item__language {
+            padding: 2px 2px 2px 5px;
+            margin: 0px; }
+          .nav .container .right-buttons .nav__section .nav__links .nav__item {
+            color: #666;
+            white-space: nowrap;
+            padding-left: 0px; }
+            .nav .container .right-buttons .nav__section .nav__links .nav__item a {
+              display: block;
+              padding: 5px 10px 0 0px;
+              font-size: 16px;
+              color: #555;
+              /* logo in front of text */ }
+              .nav .container .right-buttons .nav__section .nav__links .nav__item a .nav__logo {
+                width: 45px;
+                min-height: 15px;
+                float: left;
+                vertical-align: middle; }
+                .nav .container .right-buttons .nav__section .nav__links .nav__item a .nav__logo svg {
+                  margin-top: 5px;
+                  padding: 10px 8px 0 0;
+                  height: 40px;
+                  width: 40px; }
+              .nav .container .right-buttons .nav__section .nav__links .nav__item a .nav__text {
+                line-height: 1;
+                padding: 10px 30px 10px 0; }
+                .nav .container .right-buttons .nav__section .nav__links .nav__item a .nav__text strong {
+                  line-height: 1.2;
+                  font-weight: normal;
+                  font-size: 18px; }
+                .nav .container .right-buttons .nav__section .nav__links .nav__item a .nav__text small {
+                  opacity: 0.8; }
+              .nav .container .right-buttons .nav__section .nav__links .nav__item a:hover {
+                opacity: 0.6;
+                text-decoration: none; }
+            .nav .container .right-buttons .nav__section .nav__links .nav__item:not(:last-of-type) a {
+              padding-bottom: 5px; }
       .nav .container .right-buttons li {
         display: inline-block;
         padding-left: 30px;
@@ -279,10 +380,6 @@ nav a {
         margin-top: 0px; }
         .nav .container .right-buttons li a {
           color: white; }
-
-/* hide the flags until after the animation */
-.velocity-animating .flag {
-  opacity: 0 !important; }
 
 @media (max-width: 992px) {
   .nav .container .brand {
@@ -410,19 +507,91 @@ nav a {
                 color: white;
                 margin-left: 0;
                 font-weight: 300; }
+              .nav .container .nav__sections-wrapper .nav__sections.active .nav__section .nav__links .nav__item .nav__logo {
+                fill: white !important; }
+                .nav .container .nav__sections-wrapper .nav__sections.active .nav__section .nav__links .nav__item .nav__logo svg {
+                  height: 2.5em;
+                  vertical-align: bottom;
+                  fill: white !important; }
+                  .nav .container .nav__sections-wrapper .nav__sections.active .nav__section .nav__links .nav__item .nav__logo svg path {
+                    fill: white !important; }
     .nav .container .nav__sections-wrapper .right-buttons {
       position: relative;
       padding: 0;
       margin: 0;
       opacity: 0;
       transition: all 0.3s; }
+      .nav .container .nav__sections-wrapper .right-buttons .nav__section {
+        display: block;
+        opacity: 1;
+        margin: 0;
+        opacity: 0;
+        color: white;
+        padding: 0;
+        visibility: hidden; }
+        .nav .container .nav__sections-wrapper .right-buttons .nav__section:last-child {
+          font-weight: 500; }
+        .nav .container .nav__sections-wrapper .right-buttons .nav__section a {
+          color: white;
+          text-decoration: none; }
       .nav .container .nav__sections-wrapper .right-buttons.active {
+        display: block;
+        color: white;
+        margin: 0;
+        visibility: visible;
         opacity: 1;
         transition-delay: .65s; }
         .nav .container .nav__sections-wrapper .right-buttons.active .nav__label {
           color: white; }
         .nav .container .nav__sections-wrapper .right-buttons.active .ghost-btn a {
           pointer-events: all; }
+        .nav .container .nav__sections-wrapper .right-buttons.active .nav__section {
+          animation: fadeInRight .5s ease forwards;
+          animation-delay: .35s;
+          visibility: visible; }
+          .nav .container .nav__sections-wrapper .right-buttons.active .nav__section .nav__label {
+            font-size: 20px;
+            line-height: 20px;
+            padding-left: 0;
+            font-weight: 400; }
+          .nav .container .nav__sections-wrapper .right-buttons.active .nav__section:nth-of-type(2) {
+            animation-delay: .4s; }
+          .nav .container .nav__sections-wrapper .right-buttons.active .nav__section:nth-of-type(3) {
+            animation-delay: .45s; }
+          .nav .container .nav__sections-wrapper .right-buttons.active .nav__section:nth-of-type(4) {
+            animation-delay: .50s; }
+          .nav .container .nav__sections-wrapper .right-buttons.active .nav__section:nth-of-type(5) {
+            animation-delay: .55s; }
+          .nav .container .nav__sections-wrapper .right-buttons.active .nav__section:nth-of-type(6) {
+            animation-delay: .60s; }
+          .nav .container .nav__sections-wrapper .right-buttons.active .nav__section:nth-of-type(7) {
+            animation-delay: .65s; }
+          .nav .container .nav__sections-wrapper .right-buttons.active .nav__section:nth-of-type(8) {
+            animation-delay: .70s; }
+          .nav .container .nav__sections-wrapper .right-buttons.active .nav__section .nav__links {
+            display: none;
+            position: relative;
+            padding: 0;
+            width: 100%;
+            padding: 0 10px 0 20px;
+            margin: 0; }
+            .nav .container .nav__sections-wrapper .right-buttons.active .nav__section .nav__links .nav__item {
+              display: inline;
+              margin-left: 0; }
+              .nav .container .nav__sections-wrapper .right-buttons.active .nav__section .nav__links .nav__item a {
+                font-size: 18px;
+                line-height: 18px;
+                color: white;
+                margin-left: 0;
+                font-weight: 300; }
+              .nav .container .nav__sections-wrapper .right-buttons.active .nav__section .nav__links .nav__item .nav__logo {
+                fill: white !important; }
+                .nav .container .nav__sections-wrapper .right-buttons.active .nav__section .nav__links .nav__item .nav__logo svg {
+                  height: 2.5em;
+                  vertical-align: bottom;
+                  fill: white !important; }
+                  .nav .container .nav__sections-wrapper .right-buttons.active .nav__section .nav__links .nav__item .nav__logo svg path {
+                    fill: white !important; }
       .nav .container .nav__sections-wrapper .right-buttons .ghost-btn {
         font-size: 20px;
         line-height: 20px;
@@ -432,17 +601,7 @@ nav a {
         text-align: left;
         padding-left: 0;
         animation: fadeInRight .5s ease forwards;
-        pointer-events: none; }
-      .nav .container .nav__sections-wrapper .right-buttons .flag {
-        padding-left: 0;
-        padding-top: 20px;
-        color: white; }
-        .nav .container .nav__sections-wrapper .right-buttons .flag a {
-          position: relative; }
-          .nav .container .nav__sections-wrapper .right-buttons .flag a img {
-            opacity: .9;
-            transform: scale(1.5);
-            padding: 5px; } }
+        pointer-events: none; } }
 @keyframes fadeInRight {
   0% {
     opacity: 0;

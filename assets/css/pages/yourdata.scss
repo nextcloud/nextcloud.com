@@ -1,0 +1,32 @@
+@import '../variables';
+/* @import '../modules/transparent-navbar'; */
+/* @import '../modules/vertical'; */
+.yourdata-background {
+  background: url("../../img/headers/yourdata.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 70px
+}
+
+.image--floated{
+	float: right;
+}
+
+section {
+	margin-top: 70px;
+	.section--paragraph__tittle {
+        margin-top: 70px;
+	}
+}
+
+.section--text {
+    p {
+        text-align: justify;
+        font-size: 1.3em;
+        line-height: 1.7;
+    }
+}
+
+footer {
+    margin-top: 100px;
+}

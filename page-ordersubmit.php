@@ -304,7 +304,8 @@ if(isset($_POST['email'])) {
 		// create email headers
 		$headers = 'From: no-reply@nextcloud.com' . "\r\n" .
 			'Reply-To: ' . $email_from . "\r\n" .
-			'Cc: ' . $email_from;
+			'Cc: ' . $email_from . "\r\n" .
+            'Content-Type: text/plain; charset=UTF-8';
 		// Send the email
 		$recipients = ['patrick', 'jos', 'morris', 'andreas'];
 		$successfullySend = true;

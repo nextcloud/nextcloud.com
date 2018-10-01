@@ -1,6 +1,19 @@
-<div class="page-header">
-	<h1>Nextcloud Trademark Guidelines</h1>
+<head>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+
+<div class="background generic-background">
+    <img class="pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/empty1x1.png" alt="">
+    <div class="container">
+        <div class="col-md-6 topheader">
+            <h1>Nextcloud Trademark Guidelines</h1>
+        </div>
+    </div>
 </div>
+
+<section class="content">
+<div class="container">
 <p>With these Guidelines, we wish to encourage widespread use of the Nextcloud trademarks by the Nextcloud community while managing that use to protect the distinctive value of the trademarks and avoid confusion on the part of Nextcloud users and the general public. The sections that follow describe the Nextcloud Marks covered by these Guidelines, as well as uses of these Marks that are allowed, uses that are not allowed, and uses that are only allowed with specific permission. See Contact Information below to request permission.</p>
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/common/nextcloud-square-logo.png" style="width: 200px" title="Nextcloud logo governed by this document" alt="Nextcloud logo governed by this document" class="img-thumbnail alignright">
 
@@ -155,3 +168,5 @@
 <h2>License for these Guidelines</h2>
 <p>These Guidelines are published under Version 3 of the Creative Commons Attribution Share-Alike License, and are derived in part from the openSUSE Trademark Guidelines (April 20, 2015), which in turn is derived in part from the OpenSolaris Trademark Policy 1.0 (May 5, 2008), the Ubuntu and Mozilla Trademark guidelines.</p>
 <p>We reserve the right to make changes to the guidelines at any time without notification. We last updated the guidelines on August 6 2018.</p>
+</div>
+</section>

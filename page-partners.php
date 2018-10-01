@@ -82,26 +82,20 @@
 				<p  class="partnertext">DASEQ is delivering Nextcloud as integral part of their OpenSource solution framework which consists of open source technology, services and training as well as security solutions.</p>
 			</div>
 			<div class="col-md-4">
-				<a href="https://www.etes.de/" target="_blank" title="etes">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/etes.png" title="etes" />
-				</a>
-				<p  class="partnertext">ETES GmbH is an IT company from Stuttgart with a focus on Linux and Open Source, offering numerous IT services from advice to implementation, maintenance and support. The servers are hosted in Germany which guarantees industry standards concerning security (aligned to ISO 27001).</p>
-			</div>
-			<div class="col-md-4">
 				<a href="https://www.hkn.de/nextcloud-server.php" target="_blank" title="HKN">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/hkn.png" title="HKN logo" />
 				</a>
 				<p  class="partnertext">HKN has been making the internet easier for its customers since 1996. We are a specialist for fully managed Servers hosted in Germany with German privacy protection.</p>
 			</div>
-		</div>
-
-		<div class="row">
 			<div class="col-md-4">
 				<a href="https://360ict.nl/" target="_blank" title="360ICT">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/360ict.png" title="360ICT logo" />
 				</a>
 				<p  class="partnertext">In a world where business depends on ICT, 360 ICT delivers garantees in the form of hard SLA's while remaining as approachable as a local ICT company for small and medium businesses. Our strength: solid, solution-focused and personal.</p>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.it25.de/" target="_blank" title="IT25">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/it25.png" title="it25" />
@@ -113,6 +107,12 @@
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/netcloud.png" title="netcloud logo" />
 				</a>
 				<p  class="partnertext">Netcloud AG is a Winterthur (Zurich)-based company with 130 employees. Core competencies include consulting, designing, implementing and operating IT infrastructure solutions around Cisco technology, borderless networks, data-center and unified communications solutions.</p>
+			</div>
+			<div class="col-md-4">
+				<a href="http://www.nobugs.gmbh/" target="_blank" title="NOBUGS IT GMBH">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/nobugs.png" title="nobugs logo" />
+				</a>
+				<p  class="partnertext">NOBUGS IT GmbH provides IT cloud msp/bsp solutions for small and big businesses in Austria. We are currently located in Terfens, Austria, serving customers all over Tyrol and bordering states. As service providers we believe that managed services are the future. As such, we try to improve a customer’s workflow through approved hard- and software solutions and to preemptively act on system failures to facilitate scalability.</p>
 			</div>
 		</div>
 
@@ -166,6 +166,9 @@
 				<p  class="partnertext">SNDK Corp founded in 2007 is an IT company Offering 360 degree Integrated Solutions taking Business to next level.<br>
 				Our Services and deep industry experiences includes Cloud, Virtualization, Open Source Linux & Network Solutions, Security, Software-Mobile APP & IoT.</p>
 			</div>
+		</div>
+
+        <div class="row">
 			<div class="col-md-4">
 				<a href="https://www.teebase.eu" target="_blank" title="Teebase Ltd">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/teebase.png" title="Teebase logo" />
@@ -276,3 +279,4 @@
 		<br /><br />
 		<p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
 	</div>
+</section>

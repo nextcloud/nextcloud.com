@@ -7,6 +7,10 @@
         grecaptcha.render('RecaptchaField2', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
     };
 </script>-->
+<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png">
+<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png">
+<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png">
+<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png">
 </head>
 <div class="background storage-background">
 	<div class="container">
@@ -64,6 +68,7 @@
 			<p class="section--paragraph__tittle"><?php echo $l->t('Public, Private and Hybrid unified');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Access existing storage silos like FTP, Windows Network Drives, SharePoint and Samba shares seamlessly through Nextcloud. Protect and optimize data usage in line with compliance and company policy by controlling sharing and performance for each external storage system.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Use Nextcloud to fine tune the balance between cost, availability, performance and security. Deploy multiple data storage systems in the public cloud or hosted with a trusted provider or on-premise.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('For large-scale storage solutions, performance optimization, additional tools and advice, see the ');?><a class="hyperlink" href="https://portal.nextcloud.com"><?php echo $l->t('Nextcloud customer portal.');?></a></p>
 		</div>
 	</div>
 </div>
@@ -96,9 +101,10 @@
 		<div class="col-md-6 image--floated revealOnScroll">
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw2.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw2-wee.png" class="img-responsive featureimg" /></a>
 		</div>
-	<div class="col-md-6 revealOnScroll">
-		<p class="section--paragraph__tittle"><?php echo $l->t('Any storage technology you need');?></p>
-		<p class="section--paragraph"><?php echo $l->t('Some of the storage technologies supported in Nextcloud include NFS and local storage as well as scalable, multi-bucket capable object storage like S3 and SWIFT compatible and CIFS/Windows Shares. Nextcloud can also seamlessly access files on (s)FTP, SharePoint systems and more.');?></p>
+        <div class="col-md-6 revealOnScroll">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Any storage technology you need');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Some of the storage technologies supported in Nextcloud include NFS and local storage as well as scalable, multi-bucket capable object storage like S3 and SWIFT compatible and CIFS/Windows Shares. Nextcloud can also seamlessly access files on (s)FTP, SharePoint systems and more.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Advanced capabilities and additional tools to enhance performance on large instances or using SAML and Kerberos tickets to authenticate to a SMB share are available and documented on the ');?><a class="hyperlink" href="https://portal.nextcloud.com"><?php echo $l->t('Nextcloud customer portal.');?></a></p>
 		</div>
 	</div>
 </div>
@@ -137,7 +143,7 @@
     <div class="container">
     <div class="col-md-6">
         <p class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('Extend your cloud');?></p>
-        <p class="section--paragraph revealOnScroll"><?php echo $l->t('You can extend the functionality of your Nextcloud with extra features from the Nextcloud app store. Among the more than 100 apps you can find a variety of storage solutions including Sia storage support, an innovative decentralized, blockchain based file storage technology.');?></p>
+        <p class="section--paragraph revealOnScroll"><?php echo $l->t('You can extend the functionality of your Nextcloud with extra features from the Nextcloud app store. Among the more than 150 apps you can find a variety of storage solutions including Sia storage support, an innovative decentralized, blockchain based file storage technology.');?></p>
         <div class="text-center morebuttondiv">
 			<a href="https://apps.nextcloud.com" class="button button--large button--arrow revealOnScroll"><?php echo $l->t('Appstore');?> <i class="icon-arrow-circle-o-right icon"></i></a>
         </div>

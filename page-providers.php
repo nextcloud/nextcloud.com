@@ -1,6 +1,22 @@
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-<!-- <script src="<?php echo get_template_directory_uri(); ?>/node_modules/jquery/dist/jquery.min.js"></script> -->
+<head>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/providers.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+
+<div class="background generic-background">
+    <img class="pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/empty1x1.png" alt="">
+    <div class="container">
+        <div class="col-md-6 topheader">
+            <h1>Nextcloud Server Changelog</h1>
+        </div>
+    </div>
+</div>
+
+<section class="content">
 <div class="container">
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<script src="<?php echo get_template_directory_uri(); ?>/node_modules/jquery/dist/jquery.min.js"></script>
 <div class="row">
     <div class="col-md-6 col-md-offset-3 text-center">
         <h1><?php echo $l->t('Nextcloud providers');?></h1>
@@ -36,7 +52,7 @@
 
 <div id="providers" class="row">
 </div>
-<div class="alert alert-info"><p><?php echo $l->t('If you offer Nextcloud Server account hosting, you can be <a class="hyperlink" href="/providers/apply">listed on this page</a>. If you want to report an abuse by one of the providers listed above, you can send us an email to abuse@nextcloud.com.');?></p></div>
+<p><strong><?php echo $l->t('If you offer Nextcloud Server account hosting, you can be <a class="hyperlink" href="/providers/apply">listed on this page</a>. If you want to report an abuse by one of the providers listed above, you can send us an email to abuse@nextcloud.com.');?></strong></p>
 
 <script type="text/javascript">
 // 	$( "#hostingboth" ).prop( "checked", true );
@@ -107,8 +123,9 @@
 								filteredItems.push(provider.imagename);
 								filteredItems.push('"></a><br \>');
 								filteredItems.push(provider.title);
+								filteredItems.push('<br \>');
 								$.each(provider.flags, function (key, value) {
-									filteredItems.push('<img class="flag" src="<?php echo get_template_directory_uri() ?>/assets/img/flags/' + value + '.gif">');
+									filteredItems.push('<span style="margin: 1px" class="flag-icon flag-icon-' + value + '"></span>');
 									// Add country to country array if it does not exists.
 									if ($.inArray(value, countries) == -1) {
 										countries.push(value);
@@ -176,3 +193,5 @@
 		});
 	})
 </script>
+</div>
+</section>

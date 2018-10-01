@@ -1,7 +1,6 @@
 @import '../variables';
 @import '../modules/transparent-navbar';
 
-
 .security-background {
     background-image: url("../../img/security/security.jpg");
     background-position: bottom 0 right 0;
@@ -92,6 +91,11 @@
         text-align: left;
         font-size: 30px;
     }
+
+    .row {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
 }
 
 
@@ -353,6 +357,18 @@ section {
         }
     }
 
+}
+
+.section--bounties {
+	.quote-by {
+		margin-top: -35px;
+		margin-bottom: 30px;
+	}
+	@media  (min-width: $break-big) {
+		.notitle {
+			margin-top: 100px;
+		}
+    }
 }
 
 .development {

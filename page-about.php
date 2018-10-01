@@ -108,7 +108,7 @@ require(["require.config"], function() {
 		<p class="section--paragraph"><?php echo $l->t('At Nextcloud, we believe that an open, transparent development process and a clear focus on the needs of users and customers results in a better product.');?></p>
 
 		<p class="section--paragraph"><?php echo $l->t('By working in the open within and with the wider developer- and user community, development is sped up, quality improved and alignment with needs of users improved.');?></p>
-		<p class="section--paragraph"><?php echo $l->t('Our unique approach to support gives customers what <strong>no other vendor can offer</strong>: direct access to core Nextcloud engineering expertise without a layer of support people between the customer and the knowledge they need.');?> <!--<a class="hyperlink" href="TBD" target="_blank"><?php echo $l->t('Learn why.');?></a>--></p>
+		<p class="section--paragraph"><?php echo $l->t('Our unique approach to support gives customers what <strong>no other vendor can offer</strong>: direct access to core Nextcloud engineering expertise without a layer of support people between the customer and the knowledge they need.');?>  <a class="hyperlink" href="https://opensource.com/article/18/8/mixing-roles-engineering" target="_blank"><?php echo $l->t('Learn more on opensource.com.');?></a></p>
 		<p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('See our enterprise page</a> for more information about our Enterprise Support Subscriptions.');?></p>
 
         <h2><?php echo $l->t('Our company');?></h2>

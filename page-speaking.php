@@ -1,5 +1,21 @@
+<head>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+
+<div class="background generic-background">
+    <img class="pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/empty1x1.png" alt="">
+    <div class="container">
+        <div class="col-md-6 topheader">
+            <h1>Speaking about Nextcloud</h1>
+        </div>
+    </div>
+</div>
+
+<section class="content">
+<div class="container">
 <div class="page-header">
-	<h1><a href="<?php echo home_url('/events') ?>">Events</a> > <a href="<?php echo home_url('/events/conference-program') ?>">Conference program</a> > Speaking</h1>
+	<h2><a href="<?php echo home_url('/events') ?>">Events</a> > <a href="<?php echo home_url('/events/conference-program') ?>">Conference program</a> > Speaking</h2>
 </div>
 <div class="sub-nav">
 	<a href="/events/Meetups">Meetups</a>&nbsp;&nbsp;
@@ -103,3 +119,5 @@
 	<p><em>You can find many more tips on the web. These are a few good ones: <a href="http://blog.hubspot.com/blog/tabid/6307/bid/5975/10-Rules-to-Instantly-Improve-Your-Presentations.aspx">10 rules to instantly improve your presentations</a></em></p>
 	</div>
 </div>
+</div>
+</section>

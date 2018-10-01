@@ -19,6 +19,8 @@
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons';
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/component-animations';
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/button-groups';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/popovers';
 
 // Importing modules
 @import 'modules/typography';
@@ -38,7 +40,7 @@
 @import 'modules/loading';
 @import 'modules/flags';
 @import 'modules/apps';
-
+@import '../fonts/fork-awesome/css/fork-awesome.min';
 
 // To remove everything above and split in other files
 .jumbotron--heading-1 {
@@ -682,6 +684,16 @@ i[class*='fa-'] {
   font-style: normal;
   color: #555; }
 
+  .button--blue {
+    i[class*='fa-'] {
+        font-size: 150%;
+        vertical-align: bottom;
+        color: #fff;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+  }
+
 i[class*='fa-'] {
   font-style: normal;
   color: #555;
@@ -899,13 +911,13 @@ li {
       background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
       right: 15px; }
 	.button--arrow.button--blue:hover {
-      background-color: $medium-blue;
+      /*background-color: $medium-blue;
 	  border: 1px solid $medium-blue;
-      color: white;}
+      color: white;*/}
     .button--arrow.button--blue:before {
       background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
     .button--arrow.button--blue:hover:before {
-      background: url(../img/common/arrow_right.svg) center/contain no-repeat; }
+      background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat; }
   .button--arrow--down {
     padding-right: 50px; }
     .button--arrow--down:before {
@@ -928,7 +940,7 @@ li {
     .button--arrow--down.button--blue:before {
       background: url(../img/common/arrow_down_white.svg) center/contain no-repeat; }
     .button--arrow--down.button--blue:hover:before {
-      background: url(../img/common/arrow_down_white.svg) center/contain no-repeat; }
+      background: url(../img/common/arrow_down_blue.svg) center/contain no-repeat; }
   .button--icon {
     padding: 0 30px 0 50px; }
     .button--icon:after {
@@ -1003,7 +1015,7 @@ blockquote {
 
 }
 
-.btn-primary {
+/*.btn-primary {
   background-color: $nextcloud-blue;
   font-size: 18px;
   padding: 25px 100px;
@@ -1040,9 +1052,10 @@ blockquote {
     font-size: 15px; }
     .btn-primary:before {
       right: 30px; } }
-/**
- * Mobile
- */
+*/
+
+
+/*  Mobile */
 @media (max-width: $break-small) {
   h1 {
     font-size: 35px;

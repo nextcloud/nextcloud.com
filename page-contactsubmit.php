@@ -64,7 +64,7 @@ if(isset($_POST['email'])) {
     }
 
 
-    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
+    $email_exp = '/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
   if(!preg_match($email_exp,$email_from)) {
     $error_message .= 'The email address you entered does not appear to be valid.<br />';
   }
@@ -114,6 +114,7 @@ if(isset($_POST['email'])) {
 // create email headers
     $headers = 'From: no-reply@nextcloud.com'."\r\n".
     'Reply-To: '.$email_from."\r\n" .
+    'Content-Type: text/plain; charset=UTF-8'."\r\n" .
     'Cc: '.$email_from;
 // store in log
     $data = [

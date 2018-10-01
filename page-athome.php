@@ -43,7 +43,7 @@
 			<p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud gives you access to all your files wherever you are.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Where are your photos and documents? With Nextcloud <strong>you</strong> pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices. Through Nextcloud you also access, sync and share your existing data on that FTP drive at school, a Dropbox or a NAS you have at home.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud is free, open source and');?> <a class="hyperlink" href="<?php echo home_url('contribute') ?>"><?php echo $l->t('you can get involved in making it better!</a>');?></p>
-			<a href="<?php echo home_url('install') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Get started');?></a>
+			<a href="<?php echo home_url('yourdata') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('How to get started');?></a>
 		</div>
 	</div>
 </section>
@@ -106,10 +106,22 @@
 	</div>
 </section>
 
+<section class="section--design">
+	<div class="container">
+		<div class="col-md-6 revealOnScroll">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/LrF4jf1ROOc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Designed for humans');?></p>
+			<p class="section--paragraph"><?php echo $l->t('An efficient, easy to use interface is one of the main things that sets Nextcloud apart from the competition. Design is about more than being pretty. The goal is to allow users to get work done with the least amount of effort, making it obvious how to accomplish tasks and reducing the number of steps needed to do so.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Good design can be seen in the entire user interface and each release makes steps forward.');?></p>
+		</div>
+	</div>
+</section>
+
 <section class="section--security">
 	<a name="security" id="security"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll image--feature">
+		<div class="col-md-6 revealOnScroll image--floated image--feature">
 		<img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP.png" alt="in action" >
 		</div>
 
@@ -129,7 +141,7 @@
 <section class="section--clients">
 	<a name="clients" id="clients"></a>
 	<div class="container">
-		<div class="col-md-6 image--floated image--feature revealOnScroll">
+		<div class="col-md-6 image--feature revealOnScroll">
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mobileDesktop.png">
 		</div>
 
@@ -144,7 +156,7 @@
 <section class="section--Calendar">
 	<a name="calendar" id="calendar"></a>
 	<div class="container">
-		<div class="col-md-6 image--feature revealOnScroll">
+		<div class="col-md-6 image--floated image--feature revealOnScroll">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Calendar and Contacts');?></p>
@@ -159,12 +171,24 @@
 <section class="section--calls">
 	<a name="calls" id="calls"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll image--floated image--feature">
+		<div class="col-md-6 revealOnScroll image--feature">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Secure audio and video calls');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Operate your own secure and private audio/video communication service! You can access it through a browser, invite family or friends and collaborate in a group through secure, end to end encrypted audio and video communication. The WebRTC, peer to peer communication channel can not be intercepted even by the admin of the server. The talk app also supports chat and comes with mobile applications for Android and iOS so you can call others from your mobile phone!');?></p>
 			<a href="<?php echo home_url('talk') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Nextcloud Talk');?></a>
+		</div>
+	</div>
+</section>
+
+<section class="section--accessibility">
+	<div class="container">
+		<div class="col-md-6 image--floated revealOnScroll">
+			<iframe width="100%" height="315" src="https://www.youtube.com/embed/S_842AQx3MQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Accessibility');?></p>
+			<p class="section--paragraph"><?php echo $l->t('To ensure Nextcloud is accessible to users with visual impairments, Nextcloud has extensive keyboard accessibility and screen reader support.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The colors used in Nextcloud meet the WCAG 2.0 AA standard for contrast and we created themes for users who need even higher support. Our High Contrast theme aims for WCAG 2.0 AAA compliance, while a Dyslexia-friendly font option helps people with reading disability. A Dark theme is also available.');?></p>
 		</div>
 	</div>
 </section>
@@ -198,8 +222,8 @@
 	</div>
 </section>
 
-<section class="section--outlook">
 <a name="calendar" id="calendar"></a>
+<section class="section--outlook quote">
 <div class="container">
     <div class="featurerow">
     <h2 class="text-center"><?php echo $l->t('Nextcloud Outlook and Thunderbird Integration');?></h2>
@@ -211,8 +235,9 @@
             </div>
             <div class="col-md-6">
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud users to easily and securely send files, folders or upload links to others from within Microsoft Outlook. The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>
-                <p class="text-center section--paragraph"><?php echo $l->t('With the Outlook CalDav Synchronizer integration with Nextcloud, Outlook users can easily sync their events, tasks and contacts between Microsoft Outlook and their Nextcloud server.');?></p>
-                <p><a href="<?php echo home_url('outlook') ?>" class="button button--arrow button--blue button--large"><?php echo $l->t('Outlook Add-ins');?></a></p>
+                <p class="section--paragraph"><?php echo $l->t('With the Outlook CalDav Synchronizer integration with Nextcloud, Outlook users can easily sync their events, tasks and contacts between Microsoft Outlook and their Nextcloud server.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('A free version is available for home users!');?></p>
+                <p><a href="<?php echo home_url('outlook') ?>" class="button button--arrow button--large"><?php echo $l->t('Outlook Add-ins');?></a></p>
             </div>
         </div>
     </div>
@@ -224,9 +249,9 @@
 				</div>
 				<div class="col-md-6 featureblock revealOnScroll">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Mozilla Thunderbird');?></p>
-					<p class="section--paragraph"><?php echo $l->t('Nextcloud also provides a <a href="https://addons.mozilla.org/en-US/thunderbird/addon/nextcloud-filelink/">Thunderbird Filelink Addon!</a> This Thunderbird extension makes it easy to send large attachments with Thunderbird by automatically uploading them first to a Nextcloud server and by then inserting the link into the body of your email.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Nextcloud also provides a <a class="hyperlink" href="https://addons.mozilla.org/en-US/thunderbird/addon/nextcloud-filelink/">Thunderbird Filelink Addon!</a> This Thunderbird extension makes it easy to send large attachments with Thunderbird by automatically uploading them first to a Nextcloud server and by then inserting the link into the body of your email.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Thanks to the Mozilla Thunderbird Lightning Calendar add-in and the Cardbook Thunderbird Contacts add-in, Calendar and Contacts integrate great into Thunderbird.');?></p>
-					<p><a href="<?php echo home_url('outlook') ?>" class="button button--arrow button--blue button--large"><?php echo $l->t('Thunderbird Add-ins');?></a></p>
+					<p><a href="<?php echo home_url('outlook') ?>" class="button button--arrow button--large"><?php echo $l->t('Thunderbird Add-ins');?></a></p>
 				</div>
 			</div>
 		</div>
@@ -304,7 +329,7 @@
     <div class="container">
     <div class="col-md-6">
         <p class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('Extend your cloud');?></p>
-        <p class="section--paragraph revealOnScroll"><?php echo $l->t('You can extend the functionality of your Nextcloud with extra features from the Nextcloud app store. Among the more than 100 apps you can find features that enhance sharing, including:');?></p>
+        <p class="section--paragraph revealOnScroll"><?php echo $l->t('You can extend the functionality of your Nextcloud with extra features from the Nextcloud app store. Among the more than 150 apps you can find features that enhance sharing, including:');?></p>
         <p class="section--paragraph">
         <ul>
         <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Groupware apps like Calendar, Contacts, Mail, News, Notes, Bookmarks and Tasks');?></li>
@@ -313,7 +338,7 @@
         </ul>
         </p>
         <div class="text-center morebuttondiv">
-			<a href="https://apps.nextcloud.com" class="button button--large button--arrow revealOnScroll"><?php echo $l->t('Appstore');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+			<a href="https://apps.nextcloud.com" class="button button--large button--arrow revealOnScroll"><?php echo $l->t('App Store');?> <i class="icon-arrow-circle-o-right icon"></i></a>
         </div>
     </div>
     <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/appstore-big.png">
@@ -430,13 +455,13 @@
 
 <section class="section--getstarted">
     <div class="container-fluid quote">
-        <h2 class="text-center revealOnScroll"><?php echo $l->t('Get started now');?></h2>
-        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Install Nextcloud server');?></p>
+        <h2 class="text-center revealOnScroll"><?php echo $l->t('Get started');?></h2>
+        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Get your own Nextcloud and start owning your data!');?></p>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 featureblock revealOnScroll">
                     <div class="row text-center">
-                        <a href="<?php echo home_url('install') ?>" class="button button--arrow button--large"><?php echo $l->t('install');?></a>
+                        <a href="<?php echo home_url('yourdata') ?>" class="button button--arrow button--large"><?php echo $l->t('How to get started');?></a>
                     </div>
                 </div>
             </div>

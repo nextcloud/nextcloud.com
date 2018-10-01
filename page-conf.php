@@ -1,5 +1,9 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/conf.css" rel="stylesheet">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
 
 <script>
 	require(["require.config"], function() {
@@ -21,16 +25,12 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
-			<img class="conf-img revealOnScroll" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017-2.jpg" alt="logo"/>
+			<img class="conf-img revealOnScroll" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg" alt="logo"/>
 <!-- 			<h2 class="revealOnScroll"></h2> -->
 			<p class="section--paragraph__tittle">August 23-30, Technical University Berlin</p>
 			<p class="section--paragraph">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
-			<p class="section--paragraph"><a href="https://eventyay.com/e/77d26f89/" class="button button--arrow button--large button--blue">Register for free</a> <a href="https://eventyay.com/e/77d26f89/cfs/" class="button button--arrow button--large button--blue">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p>
-<!-- 			<p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/77d26f89/" class="button button--arrow button--large button--blue">Register for free</a> <a href="https://eventyay.com/e/77d26f89/cfs/" class="button button--arrow button--large button--blue">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p> -->
-<!-- 			<p class="section--paragraph revealOnScroll"><a href="https://nextcloud.com/blog/lightning-talks-and-workshops-at-the-nextcloud-conference/" class="hyperlink" >See the program</a></p> -->
-<!-- 			<p class="section--paragraph">Find <a class="hyperlink" href="<?php echo home_url('confinfo') ?>">practical information for visitors here</a></p> -->
-<!--             <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p> -->
-<!--                 <p class="section--paragraph">Save the date: August 23-30 2018<br/> Stay tuned for more information!</p> -->
+			<!--<p class="section--paragraph"><a href="https://eventyay.com/e/77d26f89/" class="button button--arrow button--large button--blue">Register for free</a> <a href="https://nextcloud.com/livestream" class="button button--arrow button--large button--blue">Live stream <i class="icon-arrow-circle-o-right icon"></i></a> <a href="https://eventyay.com/e/77d26f89/cfs/" class="button button--arrow button--large button--blue">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p>-->
+            <p class="section--paragraph">The conference is over, <a href="https://nextcloud.com/blog/nextcloud-conference-2018-millions-of-nec-routers-nextcloud-14-and-simple-signup/">read our report!</a><br/>Stay tuned for the dates for 2019!</p>
 		</div>
 	</div>
 </section>
@@ -40,40 +40,52 @@
         <div class="row text-center">
             <h1 class="revealOnScroll">Program overview</h1>
 		</div>
-		<div style="overflow-y: auto;">
-        <div  style="width: 1120px">
+		<div class="overflow">
+        <div class="fixbox">
             <table class="table">
             <tbody>
             <tr>
-            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Thursday<br> August 23</th>
-            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Friday<br> August 24</th>
-            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Saturday<br> August 25</th>
-            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Sunday<br> August 26</th>
-            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Monday<br> August 27</th>
-            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Tuesday<br> August 28</th>
-            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Wednesday<br> August 29</th>
-            <th style="border-top: none; padding: 12px; text-align: center;" scope="row">Thursday<br> August 30</th>
+            <th scope="row">Thursday<br> August 23</th>
+            <th scope="row">Friday<br> August 24</th>
+            <th scope="row">Saturday<br> August 25</th>
+            <th scope="row">Sunday<br> August 26</th>
+            <th scope="row">Monday<br> August 27</th>
+            <th scope="row">Tuesday<br> August 28</th>
+            <th scope="row">Wednesday<br> August 29</th>
+            <th scope="row">Thursday<br> August 30</th>
             </tr>
             <tr>
-            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek</td>
-            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek</td>
-            <td style="border-top: none; padding: 12px; text-align: center;"><strong>Keynotes, talks and workshops!</strong></td>
-            <td style="border-top: none; padding: 12px; text-align: center;"><strong>Keynotes, talks and workshops!</strong></td>
-            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek, <strong><a href="<?php echo home_url('training') ?>">Enterprise Day</a></strong></td>
-            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek</td>
-            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek</td>
-            <td style="border-top: none; padding: 12px; text-align: center;">Hackweek</td>
+            <td>Hackweek</td>
+            <td>Hackweek</td>
+            <td class="left">10:00 - <strong>Keynote Frank Karlitschek</strong><br>
+            11:00 - <strong>lightning talks</strong><br>
+            13:00 - <strong>lunch</strong><br>
+            14:00 - <strong>Keynote Linus Neumann</strong><br>
+            15:00 - <strong>workshops</strong></td>
+            <td class="left">10:00 - <strong>Keynote Hans Erasmus</strong><br>
+            11:00 - <strong>lightning talks</strong><br>
+            13:00 - <strong>lunch</strong><br>
+            14:00 - <strong>Keynote RGSOC</strong><br>
+            15:00 - <strong>workshops</strong></td>
+            <td>Hackweek, <strong><a href="<?php echo home_url('training') ?>">Enterprise Day</a></strong></td>
+            <td>Hackweek</td>
+            <td>Hackweek</td>
+            <td>Hackweek</td>
             </tr></tbody>
             </table>
+            <div class="row text-center">
+            <a class="button button--large button--blue button--arrow" href="https://nextcloud.com/schedule/schedule.html">View the full schedule here</a>
+            <a class="button button--large button--blue button--arrow" href="https://nextcloud.com/schedule/speakers.html">See the speakers</a>
+            </div>
         </div>
         </div>
     </div>
 </section>
 
-<section class="section--speakers" style="background: url('/wp-content/themes/next/assets/img/conference/keynotespeakers.jpg');height:500px;background-size:cover;background-position: center;">
+<section class="section--speakers-keynote">
     <div class="container">
         <div class="row">
-            <h1 class="text-center" style="text-shadow: 0px 0px 7px #000; color: white; margin-top:300px;">Inspiring keynotes</h1>
+            <h1 class="text-center">Inspiring keynotes</h1>
         </div>
     </div>
 </section>
@@ -109,8 +121,9 @@
 			</ul></p>
 <!-- 			<p class="section--paragraph revealOnScroll">Stay tuned for more information! We'll open registration later this year and expect our call for papers early 2018.</p> -->
 			<p class="section--paragraph revealOnScroll">On Monday the 27th we have a <a class="hyperlink" href="<?php echo home_url('training') ?>">special Enterprise day with a focus on enterprise and large scale Nextcloud usage.</a></p>
-<!-- 			<p class="section--paragraph revealOnScroll">Check out <a class="hyperlink" href="https://eventyay.com/e/77d26f89/schedule/">the full program</a>!</p> -->
-			<p class="section--paragraph revealOnScroll">Submit your session ideas in our <a class="hyperlink" href="https://eventyay.com/e/77d26f89/cfs/">call for papers</a> now!</p>
+			<p class="section--paragraph revealOnScroll">Check out <a class="hyperlink" href="http://sched.eventyay.com/NextcloudConference2018/tracks.html">the full program</a>!</p>
+			<p>The talks will be live-streamed, stay tuned for more information!</p>
+<!-- 			<p class="section--paragraph revealOnScroll">Submit your session ideas in our <a class="hyperlink" href="https://eventyay.com/e/77d26f89/cfs/">call for papers</a> now!</p> -->
 <!--             <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p> -->
 		</div>
 	</div>
@@ -118,15 +131,15 @@
 </div>
 </section>
 
-<section class="section--speakers" style="background: url('/wp-content/themes/next/assets/img/conference/communityspeakers.jpg');height:500px;background-size:cover;background-position: center;">
+<!--<section class="section--speakers-community">
     <div class="container">
         <div class="row">
-            <h1 class="text-center" style="text-shadow: 0px 0px 7px #000; color: white; margin-top:300px;">Share your own ideas</h1>
+            <h1 class="text-center">Share your own ideas</h1>
         </div>
     </div>
-</section>
+</section>-->
 
-<section class="section--call-for-papers">
+<!--<section class="section--call-for-papers">
 <div class="container">
 	<div class="row text-center">
 		<p class="section--paragraph__tittle revealOnScroll">We have opened our call for papers!</p>
@@ -136,7 +149,7 @@
 		</div>
 	</div>
 </div>
-</section>
+</section>-->
 
 <div class="section--travelsupport">
 <div class="container-fluid quote">
@@ -194,7 +207,7 @@
         <div class="col-md-8 col-md-offset-2">
             <h2  class="revealOnScroll">Partners!</h2>
             <p class="section--paragraph revealOnScroll">The event is made possible thanks to the generous donation of the location by the <a class="hyperlink" href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a class="hyperlink" href="https://nextcloud.com">Nextcloud GmbH</a>.</p>
-            <p class="section--paragraph revealOnScroll">TUXEDO Computers contributes a number of loan laptops for workshop or hackweek attendees who need a device to work with but forgot their own. Media partners like Linux Magazine and Admin Magazine will cover the Nextcloud Conference!</p>
+            <p class="section--paragraph revealOnScroll">TUXEDO Computers contributes a number of loan laptops for workshop or hackweek attendees who need a device to work with but forgot their own. Media partners like Linux Magazine and Admin Magazine will cover the Nextcloud Conference! Our dear friends at openSUSE sponsored our party and had a booth at the event.</p>
         </div>
     </div>
     <div class="row revealOnScroll">
@@ -203,6 +216,9 @@
         </div>
         <div class="col-md-4">
             <p class="section--paragraph revealOnScroll text-center"><a href="https://tuxedocomputers.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/tuxedo.png"  alt="Tuxedo Computers logo" class="aligncenter img-responsive" /></a></p>
+        </div>
+        <div class="col-md-4">
+            <p class="section--paragraph revealOnScroll text-center"><a href="https://opensuse.org" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/opensuse.png"  alt="Tuxedo Computers logo" class="aligncenter img-responsive" /></a></p>
         </div>
         <div class="col-md-4">
             <p class="section--paragraph revealOnScroll text-center"><a href="http://www.admin-magazine.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/AdminMagazine.png" alt="Admin mag logo" class="aligncenter img-responsive" /></a></p>
@@ -261,8 +277,8 @@
 	<div class="row conf-about revealOnScroll">
 		<div class="col-sm-6">
 			<h2  class="revealOnScroll">Last year</h2>
-			<p class="section--paragraph revealOnScroll">The Nextcloud Conference 2017 brought 150 Nextclouders to Berlin. Read our <a class="hyperlink" href="https://nextcloud.com/blog/significant-growth-at-nextcloud-conference-brought-150-customers-colleagues-and-friends-together/" target="_blank">blog</a> to learn more and watch the talks <a class="hyperlink" href="https://www.youtube.com/channel/UCQjN5Fs5QSz1loJqLb5bkew" target="_blank">on our youtube channel.</a></p>
-			<p class="section--paragraph revealOnScroll"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017.jpg" style="width: 95%" alt="group photo" class="aligncenter" /></a></p>
+			<p class="section--paragraph revealOnScroll">The Nextcloud Conference 2018 brought 200 Nextclouders to Berlin. Read our <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-conference-2018-millions-of-nec-routers-nextcloud-14-and-simple-signup/" target="_blank">blog</a> to learn more and watch the talks <a class="hyperlink" href="https://www.youtube.com/channel/UCQjN5Fs5QSz1loJqLb5bkew" target="_blank">on our youtube channel.</a></p>
+			<p class="section--paragraph revealOnScroll"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg" style="width: 95%" alt="group photo" class="aligncenter" /></a></p>
 	<!--		<iframe src="//www.youtube-nocookie.com/embed/srGYbsugEPc?list=PLtZe22ggl2YCfEzrHbFCylXGLGYtsHm96" height="360" width="640" allowfullscreen="" frameborder="0"></iframe>-->
 		</div>
 		<div class="col-sm-6">

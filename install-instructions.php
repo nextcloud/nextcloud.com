@@ -18,8 +18,8 @@
 							<div class="collapse" id="more">
 							<ol>
 								<li><?php echo $l->t('Download the');?> <a class="label label-blue" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">.tar.bz2</a> <?php echo $l->t('or');?> <a class="label label-blue" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">.zip</a> <?php echo $l->t('archive.');?></li>
-								<li><?php echo $l->t('Check package integrity using MD5');?> (<a class="hyperlink" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_MD5; ?>">.zip</a>) <?php echo $l->t('or');?> SHA256 (<a href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_SHA256; ?>">.tar.bz2</a> / <a href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_SHA256; ?>">.zip</a>)</li>
-								<li><?php echo $l->t('Verify the authenticity via PGP');?> (<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_PGP; ?>">.tar.bz2 </a>/<a target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_PGP ?>">.zip</a>). <?php echo $l->t('The Nextcloud GPG key');?> <a target="_blank" href="<?php echo $NEXTCLOUD_GPG ; ?>"><?php echo $l->t('is here');?></a>.</li>
+								<li><?php echo $l->t('Check package integrity using MD5');?> (<a class="hyperlink" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">.tar.bz2</a> / <a class="hyperlink"  href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_MD5; ?>">.zip</a>) <?php echo $l->t('or');?> SHA256 (<a class="hyperlink"  href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_SHA256; ?>">.tar.bz2</a> / <a class="hyperlink"  href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_SHA256; ?>">.zip</a>)</li>
+								<li><?php echo $l->t('Verify the authenticity via PGP');?> (<a class="hyperlink" target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_PGP; ?>">.tar.bz2 </a>/<a class="hyperlink" target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_PGP ?>">.zip</a>). <?php echo $l->t('The Nextcloud GPG key');?> <a class="hyperlink" target="_blank" href="<?php echo $NEXTCLOUD_GPG ; ?>"><?php echo $l->t('is here');?></a>.</li>
 							</ol>
 							<p><?php echo $l->t('You can already find server packages included with many distributions or provided by active community members. Find an <a class="hyperlink" href="https://help.nextcloud.com/t/linux-packages-status/10216">overview of packages for various distributions as well as Docker and snap images here.</a> Can\'t find packages you need? Ask your distribution for packages or contribute to creating them!');?></p>
 							</div>
@@ -29,7 +29,7 @@
 								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
 							</div>
 							<p><?php echo $l->t('Looking for');?> <a class="hyperlink" href="<?php echo home_url('changelog') ?>"><?php echo $l->t('older versions or major releases</a>?');?></p>
-							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab">a virtual machine or docker image</a> on Windows Server.</small>');?></p>
+							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a class="hyperlink" href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab">a virtual machine or docker image</a> on Windows Server.</small>');?></p>
 							<p><?php echo $l->t('<small><strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a class="hyperlink" href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a>.</small>');?></p>
 							<p><?php echo $l->t('<small><strong>Release channels:</strong></br>We offer');?> <a class="hyperlink" href="<?php echo home_url('release-channels') ?>"><?php echo $l->t('Release Channels</a> with production, stable, beta and daily-branches. This gives you the opportunity to choose your balance between stability and features.</small>');?></p>
 						</div>
@@ -53,7 +53,7 @@
 							<div class="thumbnail">
 								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
 							</div>
-							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab">a virtual machine or docker image</a> on Windows Server.</small>');?></p>
+							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a class="hyperlink" href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab">a virtual machine or docker image</a> on Windows Server.</small>');?></p>
 							<p><?php echo $l->t('<small><strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a class="hyperlink" href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a>.</small>');?></p>
 							<p><?php echo $l->t('<small><strong>Release channels:</strong></br>We offer');?> <a class="hyperlink" href="<?php echo home_url('release-channels') ?>"><?php echo $l->t('Release Channels</a> with production, stable, beta and daily-branches. This gives you the opportunity to choose your balance between stability and features.</small>');?></p>
 						</div>
@@ -72,7 +72,7 @@
 							</div>
 							<p><?php echo $l->t('<strong>Security note:</strong></br> We recommend a subscription to our low-traffic <a class="hyperlink" href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a> for notifications on updates and security issues. Find the <a class="hyperlink" href="<?php echo $NEXTCLOUD_GPG; ?>">public Nextcloud GPG key here</a>.');?></p>
 							<p><?php echo $l->t('Looking for repositories of');?> <a class="hyperlink" href="<?php echo home_url('changelog') ?>"><?php echo $l->t('previous major releases</a>?');?></p>
-							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the Nextcloud Appliance</a> on Windows Server.</small>');?></p>
+							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a class="hyperlink" id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the Nextcloud Appliance</a> on Windows Server.</small>');?></p>
 						</div>
 					</div>
 				</div>
@@ -82,7 +82,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <h5><?php echo $l->t('Home/SME appliance');?></h5>
-                                    <p><?php echo $l->t('<a target="_blank" href="https://www.techandme.se/">Tech and Me</a> maintains a VM designed to be the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure SSL/TLS connection.');?></p>
+                                    <p><?php echo $l->t('<a class="hyperlink" target="_blank" href="https://www.techandme.se/">Tech and Me</a> maintains a VM designed to be the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure SSL/TLS connection.');?></p>
                                     <p><?php echo $l->t('<a class="btn btn-lg btn-primary" href="https://www.techandme.se/nextcloud-vm/">Get Home/SME appliance</a>');?></p>
                                     <p><?php echo $l->t('Find <a class="hyperlink" href="https://github.com/nextcloud/vm">source here</a>.');?></p>
                                 </div>
@@ -119,7 +119,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<ul class="install-nav nav-tabs" role="tablist">
+				<ul class="install-nav nav-tabs nav-tabs-bottom" role="tablist">
 					<li id="li-tab-archive" class="active"><a href="#tab-archive" title="For server owners" role="tab" data-toggle="tab"><i class="icon-archive"></i> <?php echo $l->t('Archive File<br><small>For server owners');?></small></a></li>
 					<li><a href="#tab-web" title="Best for shared hosts" role="tab" data-toggle="tab"><i class="icon-code"></i> <?php echo $l->t('Web Installer<br><small>For shared hosts');?></small></a></li>
 					<li><a href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab"><i class="icon-cloud"></i> <?php echo $l->t('Appliances<br><small>For easy deployment');?></small></a></li>
@@ -137,7 +137,7 @@
 		<div class="instructions">
 			<div class="row">
 				<a href="#" class="close">&times;</a>
-				<ul class="install-nav nav-tabs" role="tablist">
+				<ul class="install-nav nav-tabs nav-tabs-bottom" role="tablist">
 					<li id="li-tab-desktop" class="active"><a href="#tab-desktop" class="btn btn-lg" title="Install Desktop Clients" role="tab" data-toggle="tab"><i class="icon-archive"></i> <?php echo $l->t('Install Desktop Clients');?></a></li>
 					<li id="li-tab-mobile"><a href="#tab-mobile" class="btn btn-lg" title="Install Mobile Apps" role="tab" data-toggle="tab"><i class="icon-code"></i> <?php echo $l->t('Install Mobile Apps');?></a></li>
 				</ul>

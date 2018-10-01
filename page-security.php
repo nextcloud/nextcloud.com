@@ -1,8 +1,25 @@
+<head>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+
+<div class="background generic-background">
+    <img class="pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/empty1x1.png" alt="">
+    <div class="container">
+        <div class="col-md-6 topheader">
+            <h1>Nextcloud Server Changelog</h1>
+        </div>
+    </div>
+</div>
+
+<section class="content">
+<div class="container">
+
 <?php get_template_part('templates/parts/title'); ?>
-<div class="sub-nav"><a href="<?php echo home_url('security/advisories') ?>"><?php echo $l->t('Security Advisories');?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="<?php echo home_url('security/threat-model') ?>"><?php echo $l->t('Threat Model');?></a>
+<div class="sub-nav"><a class="hyperlink" href="<?php echo home_url('security/advisories') ?>"><?php echo $l->t('Security Advisories');?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class="hyperlink" href="<?php echo home_url('security/threat-model') ?>"><?php echo $l->t('Threat Model');?></a>
 </div>
 <h2><?php echo $l->t('Security information');?></h2>
-<p><?php echo $l->t('This page hosts our security policies and information with regards to reporting security flaws. Learn more about how Nextcloud offers the');?> <a href="<?php echo home_url('secure') ?>"><?php echo $l->t('best security in the open source file sync and share industry here</a>. You can');?> <a href="<?php echo get_template_directory_uri(); ?>/advisories/advisories.rss"><?php echo $l->t('follow our advisories via RSS</a>.');?></p>
+<p><?php echo $l->t('This page hosts our security policies and information with regards to reporting security flaws. Learn more about how Nextcloud offers the');?> <a class="hyperlink" href="<?php echo home_url('secure') ?>"><?php echo $l->t('best security in the open source file sync and share industry here</a>. You can');?> <a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/advisories/advisories.rss"><?php echo $l->t('follow our advisories via RSS</a>.');?></p>
 <p><?php echo $l->t('For server owners, our documentation has a section with');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?><?php echo $l->t('configuration_server/harden_server.html" target="_blank">best practices and tips on securing a Nextcloud server</a>.');?></p>
 
 <div class="row">
@@ -38,19 +55,34 @@
 		</ul>
 
 		<h3><?php echo $l->t('Supported Product Versions');?></h3>
-		<p><?php echo $l->t('Nextcloud Server:');?></p>
+		<p><strong><?php echo $l->t('Nextcloud Server:');?></strong></p>
 		<ul>
-			<li><?php echo $l->t('Latest 13.x release');?></li>
-			<li><?php echo $l->t('Latest 12.x release');?></li>
+            <li><?php echo $l->t('14.0.x (latest release)');?></li>
+			<li><?php echo $l->t('13.0.x (latest release)');?></li>
+			<li><?php echo $l->t('12.0.x (latest release)');?></li>
 		</ul>
 
 		<p><?php echo $l->t('You will find our Maintenance and Release Schedule <a class="hyperlink" href="https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule">on GitHub</a>. Please have a close look into the End of Life-section.');?></p>
 
 		<p><?php echo $l->t('If you want to continue to use versions, which reached their End of Life, please');?> <a class="hyperlink" href="<?php echo home_url('enterprise/buy/') ?>"><?php echo $l->t('contact Nextcloud sales</a> to get access to our Long Term Support offering.');?></p>
 
-		<p><?php echo $l->t('Nextcloud Android Client:');?></p>
+        <p><strong><?php echo $l->t('Nextcloud Desktop Clients:');?></strong></p>
 		<ul></p>
-			<li><?php echo $l->t('Latest release on <a href="https://play.google.com/store/apps/details?id=com.nextcloud.client">Google Play Store</a>');?></li>
+			<li><?php echo $l->t('Latest release on');?> <a class="hyperlink" href="https://download.nextcloud.com/desktop/releases/"><?php echo $l->t('our download servers</a>');?></li>
+		</ul>
+
+		<p><strong><?php echo $l->t('Nextcloud Android Clients:');?></strong></p>
+		<ul></p>
+			<li><?php echo $l->t('Latest release of');?> <a class="hyperlink" href="https://play.google.com/store/apps/details?id=com.nextcloud.client">Nextcloud Files</a> <?php echo $l->t('in the Google Play Store');?></li>
+            <li><?php echo $l->t('Latest release of');?> <a class="hyperlink" href="https://play.google.com/store/apps/details?id=com.nextcloud.talk2">Nextcloud Talk</a> <?php echo $l->t('in the Google Play Store');?></li>
+		</ul>
+
+    	<p><strong><?php echo $l->t('Nextcloud iOS Clients:');?></strong></p>
+		<ul></p>
+			<li><?php echo $l->t('Latest release of');?> <a class="hyperlink" href="https://itunes.apple.com/app/nextcloud/id1125420102?mt=8">Nextcloud Files</a> <?php echo $l->t('in the App Store');?></li>
+            <li><?php echo $l->t('Latest release of');?> <a class="hyperlink" href="https://itunes.apple.com/app/nextcloud-talk/id1296825574?mt=8">Nextcloud Talk</a> <?php echo $l->t('in the App Store');?></li>
 		</ul>
 	</div>
 </div>
+</div>
+</section>

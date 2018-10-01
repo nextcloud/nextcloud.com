@@ -7,6 +7,10 @@
 	});
 </script>
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/outlook.css">
+<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-nw.png">
+<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-nw.png">
+<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-nw.png">
+<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-nw.png">
 </head>
 
 <div class="background outlook-background">

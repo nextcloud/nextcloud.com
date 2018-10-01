@@ -1,6 +1,10 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/monitoring.css" rel="stylesheet">
 <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/activity-nw.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/activity-nw.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/activity-nw.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/activity-nw.png">
 </head>
 <div class="background monitoring-background">
 	<div class="container">
@@ -103,6 +107,7 @@
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Integration in tools');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Monitoring and systems intelligence tools <a class="hyperlink" href="http://opennms.org/" target="_blank">openNMS</a> and <a class="hyperlink"  ref="https://splunkbase.splunk.com/apps/#/search/nextcloud/">Splunk</a> already have support for monitoring Nextcloud 10+ systems and <a class="hyperlink"  href="https://github.com/opennms-config-modules/nextcloud" target="_blank">the openNMS configuration module</a> can be easily modified for other tools like Nagios.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Admins can also opt for logging to the systemd log, allowing them to manage all logs of the system in one place. When enabled, the audit log is in a separate file.');?></p>
 		</div>
 	</div>
 	<div class="row">

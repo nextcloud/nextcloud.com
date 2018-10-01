@@ -71,8 +71,8 @@
          "imagename":"kinamo.png"
       },
 	{
-         "title":"Tech and Me",
-         "url":"https:\/\/shop.techandme.se\/index.php\/product\/host-your-nextcloud-vm-at-tech-and-me",
+         "title":"T&M Hansson IT AB",
+         "url":"https:\/\/shop.hanssonit.se\/product\/nextcloud-hosting",
          "flags":[
             "all",
             "eu",
@@ -397,7 +397,7 @@
       },
     {
          "title":"Unixcorn Project",
-         "url":"https:\/\/unixcorn.org\/services.html",
+         "url":"https:\/\/unixcorn.org\/services",
          "flags":[
             "eu"
          ],
@@ -1009,8 +1009,8 @@
             "si",
             "ru",
             "eu",
-            "srb",
-            "cro"
+            "sr",
+            "cr"
             ],
          "freeplans":false,
          "supports":"both",
@@ -1252,7 +1252,7 @@
          "flags":[
             "uk"
          ],
-         "freeplans":false,
+         "freeplans":true,
          "supports":"both",
          "specializes":[
             "We are a UK based company offering off-site high spec servers with NextCloud ready to go. We offer full training and technical support."
@@ -1401,8 +1401,50 @@
          "freeplans":false,
          "supports":"organisation",
          "specializes":[
-            "Wir bieten NextCloud als eigene Instanz oder Shared in unserer hochverfügbaren NetApp Infrastruktur in Österreich an. DSGVO konform und ISO 27001 zertifiziert."
+            "Wir bieten Nextcloud als eigene Instanz oder Shared in unserer hochverfügbaren NetApp Infrastruktur in Österreich an. DSGVO konform und ISO 27001 zertifiziert."
          ],
          "imagename":"cloudnow.png"
+      },
+    {
+         "title":"innoXchain GmbH",
+         "url":"https:\/\/www.wolkesicher.de",
+         "flags":[
+            "at",
+            "de",
+            "ch",
+            "eu"
+         ],
+         "freeplans":true,
+         "supports":"both",
+         "specializes":[
+            "Wir bieten gemanagtes Nextcloud-Hosting datenschutzkonform nach DSGVO mit ISO 27001 zertifizierten Rechenzentren in Deutschland."
+         ],
+         "imagename":"wolkesicher.png"
+      },
+    {
+         "title":"Big SAFEBOX Data",
+         "url":"https:\/\/www.bsbdata.com\/servicio\/servidores-dedicados",
+         "flags":[
+            "es"
+         ],
+         "freeplans":false,
+         "supports":"both",
+         "specializes":[
+            "We are a Data Center Tier II. Our servers are locate in spain. We offer space and service of the Nexcloud and other services as housing, vps, ..."
+         ],
+         "imagename":"bsbd.png"
+      },
+    {
+         "title":"NOBUGS IT GmbH",
+         "url":"https:\/\/www.nobugs.gmbh\/at\/Service_NCS.html ",
+         "flags":[
+            "at"
+         ],
+         "freeplans":false,
+         "supports":"organization",
+         "specializes":[
+            "NCS. Ein Dienst der auf Ihr Unternehmen zugeschnitten ist und Zahlreiche Erweiterungsöglichkeiten bietet. Rechenzentren nach ISO 27001 in Österreich."
+         ],
+         "imagename":"nobugs.png"
       }
 ]

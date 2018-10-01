@@ -120,7 +120,7 @@ if(isset($_POST['email'])) {
 //     $email_to = "sales@nextcloud.com";
     $email_message = "Quote request form details below.\n\n";
     $email_to = "sales@nextcloud.com";
-	$email_subject = "Nextcloud Enterprise Support: ".clean_string($organization);
+	$email_subject = "Nextcloud Enterprise Subscription: ".clean_string($organization);
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Phone number: ".clean_string($phone)."\n";
@@ -141,6 +141,7 @@ if(isset($_POST['email'])) {
 // create email headers
     $headers = 'From: no-reply@nextcloud.com'."\r\n".
     'Reply-To: '.$email_from."\r\n" .
+    'Content-Type: text/plain; charset=UTF-8'."\r\n" .
     'Cc: '.$email_from;
 // store in log
     $data = [

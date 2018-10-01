@@ -1,3 +1,19 @@
+<head>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+
+<div class="background generic-background">
+    <img class="pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/empty1x1.png" alt="">
+    <div class="container">
+        <div class="col-md-6 topheader">
+            <h1>Community Guidelines</h1>
+        </div>
+    </div>
+</div>
+
+<section class="content">
+<div class="container">
 <h3>Preamble:</h3>
 <p>In the Nextcloud community, participants from all over the world come together to create Free Software for a free internet. This is made possible by the support, hard work and enthusiasm of thousands of people, including those who create and use Nextcloud software.</p>
 
@@ -59,7 +75,7 @@
 <h3>Support others in the community</h3>
 <p>Our community is made strong by mutual respect, collaboration and pragmatic, responsible behavior. Sometimes there are situations where this has to be defended and other community members need help.</p>
 
-<p>If you witness others being attacked, think first about how you can offer them personal support. If you feel that the situation is beyond your ability to help individually, go privately to the victim and ask if some form of official intervention is needed. Similarly you should support anyone who appears to be in danger of burning out, either through work-related stress or 
+<p>If you witness others being attacked, think first about how you can offer them personal support. If you feel that the situation is beyond your ability to help individually, go privately to the victim and ask if some form of official intervention is needed. Similarly you should support anyone who appears to be in danger of burning out, either through work-related stress or
 personal problems.</p>
 
 <p>When problems do arise, consider respectfully reminding those involved of our shared Code of Conduct as a first action. Leaders are defined by their actions, and can help set a good example by working to resolve issues in the spirit of this Code of Conduct before they escalate.</p>
@@ -75,7 +91,9 @@ personal problems.</p>
 <p>The authors of this document would like to thank the Nextcloud community and those who have worked to create such a dynamic environment to share in and who offered their thoughts and wisdom in the authoring of this document. We would also like to thank other vibrant communities that have helped shape this document with their own examples, especially KDE.</p>
 
 
- 
 
 
 
+
+</div>
+</section>

@@ -1,0 +1,120 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+@import '../vendor/modular-scale/modular-scale';
+@import '../../fonts/fork-awesome/css/fork-awesome.min';
+
+.generic-background {
+    background: -webkit-gradient(linear, left top, left bottom, from($nextcloud-blue), color-stop(100%, #3e9ed8), to(#d8d8d8));
+    background: linear-gradient(to bottom, $nextcloud-blue, #3e9ed8 100%, #d8d8d8);
+    padding: 0;
+    border-radius: 0 !important;
+    margin-bottom: 0px;
+    height: 30vh;
+    min-height: 400px;
+    max-height: 600px;
+
+    .pattern {
+        width:100%;
+        height:100%;
+        opacity: 0.1;
+        background: url('../../img/headers/generic.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        @media (max-width: $break-big) {
+        }
+    }
+    @media (max-width: $break-big) {
+        min-height: 200px;
+        max-height: 400px;
+    }
+}
+
+/* General */
+
+
+section {
+    padding: 50px 0 50px;
+    .section--heading-1 {
+        padding-bottom: 50px;
+    }
+    .section--paragraph--tittle {
+        padding: 0;
+    }
+	.feature-row {
+		padding: 60px 0 60px 0;
+	}
+}
+
+.img-responsive {
+    padding-top: 10px;
+    @media (min-width: $break-big) {
+        margin-bottom: 50px;
+    }
+    @media (min-width: $very-wide) {
+        /* 	margin-bottom: 0px; */
+    }
+}
+
+.image--floated {
+    float: right;
+}
+
+.separator{
+	margin: 100px 0 50px 0;
+	height: 40px;
+	background: #f6f6f6;
+}
+
+.video {
+	margin-bottom: 30px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.prov-thumbnail {
+    /* 	line-height: 1; */
+    /*		 background-color: #fff; */
+    border: 1px solid #eee;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    max-width: 100%;
+    /*		 height: auto; */
+    /*		 display: block; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.provider .providername {
+    height: 30px;
+}
+
+.provider .provider-logo {
+    padding: 2px;
+    margin: auto;
+    width: 95%;
+}
+
+.provider .bannerhead {
+    height: 140px;
+    text-align: center;
+    background-color: white !important;
+    border-bottom: none !important;
+    margin-bottom: 5px;
+}
+
+.provider .flag {
+    margin: auto;
+    padding: 2px 5px;
+}
+
+.provider .bannerfoot {
+    height: 130px;
+    background-color: white !important;
+    border: none !important;
+}

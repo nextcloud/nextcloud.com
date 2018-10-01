@@ -147,6 +147,27 @@
                 </form>
 			</div>
 		</div>
+	<div class="row list">
+		<div class="col-md-3">
+            <div class="row wpthumbnail">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/kas-thumbnail-banner.png"/>
+            </div>
+            <div class="row">
+				<div class="description">
+					<p class="section--paragraph__tittle"><?php echo $l->t('Konrad-Adenauer-Stiftung Case Study');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('Keeping data secure for a globally distributed organization working with politically sensitive data.');?></p>
+                </div>
+                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                    <td colspan="2">
+                    <div class="recaptcha">
+                        <div id="RecaptchaField7"></div>
+                    </div>
+                    </td>
+                    <input type="hidden" name="segmentId" value="56">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                </form>
+			</div>
+		</div>
 		<div class="col-md-3">
             <div class="row wpthumbnail">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/endtoend-thumbnail-banner.png"/>
@@ -205,6 +226,18 @@
                     <input type="hidden" name="segmentId" value="4">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
+			</div>
+		</div>
+        <div class="col-md-3">
+            <div class="row wpthumbnail">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/hackerone-thumbnail-banner.png"/>
+            </div>
+            <div class="row">
+				<div class="description">
+					<p class="section--paragraph__tittle"><?php echo $l->t('HackerOne Case study');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('Why Nextcloud puts Hacker-powered security front and center. A case study by HackerOne ');?></p>
+                </div>
+                    <a style="margin-top: 70px" class="button button--blue button--small" href="https://www.hackerone.com/resources/nextcloud-puts-hacker-powered-security-front-and-center"><?php echo $l->t('Download');?></a>
 			</div>
 		</div>
 	</div>
@@ -389,7 +422,9 @@
     <h2 class="section--heading-2 revealOnScroll"><?php echo $l->t('Interviews and blogs');?></h2>
     <p class="section--paragraph"><?php echo $l->t('We regularly cover customer interviews and case studies on our blog.');?></p>
     <p class="section--paragraph"><ul>
-    <li><a class="hyperlink" href="https://nextcloud.com/blog/next-big-open-source-win-capital-of-switzerland-moves-schools-to-nextcloud/">May 16, 2018 - Capital of Switzerland moves schools to Nextcloud</a></li>
+        <li><a class="hyperlink" href="https://nextcloud.com/blog/japan-to-add-millions-of-new-nodes-to-federated-nextcloud-network/">August 25, 2018 - Japan to add millions of new nodes to federated Nextcloud network</a></li>
+        <li><a class="hyperlink" href="https://nextcloud.com/blog/keeping-data-secure-at-a-globally-distributed-organization-konrad-adenauer-stiftung/">August 13, 2018 - Keeping data secure at a globally distributed organization: Konrad Adenauer Stiftung</a></li>
+        <li><a class="hyperlink" href="https://nextcloud.com/blog/next-big-open-source-win-capital-of-switzerland-moves-schools-to-nextcloud/">May 16, 2018 - Capital of Switzerland moves schools to Nextcloud</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/a-wave-of-cities-all-over-europe-moving-to-nextcloud/">April 19, 2018 - A wave of cities all over Europe moving to Nextcloud </a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/german-federal-administration-relies-on-nextcloud-as-a-secure-file-exchange-solution">April 18, 2018 - German Federal Administration relies on Nextcloud as a secure file exchange solution</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/partner-casestudy-intel-onapp-is-the-cloud-your-organization-needs/">March 28, 2018 - Partner Case Study: Intel OnApp is the cloud your organization needs</a></li>
@@ -397,7 +432,7 @@
         <li><a class="hyperlink" href="https://nextcloud.com/blog/the-capital-of-albania-moves-to-nextcloud/">July 25, 2017 - The capital of Albania moves to Nextcloud</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/">July 12, 2017 - 9 German Educational and Research institutions move to Nextcloud as part of TU Berlin migration, more coming</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/veiligheidsregio-brabant-zuidoost-moving-to-nextcloud/">March 30, 2017 - Veiligheidsregio Brabant-Zuidoost: moving to Nextcloud</a></li>
-         <li><a class="hyperlink" href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/">February 16, 2017 - 3000 users at ucloud4schools migrated to Nextcloud 11 by regio iT</a></li>
+        <li><a class="hyperlink" href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/">February 16, 2017 - 3000 users at ucloud4schools migrated to Nextcloud 11 by regio iT</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/privacy-is-the-main-reason-to-pick-the-nextcloud-solution-netcloud-ag/">February 8, 2017 - Privacy is the main reason to pick the Nextcloud solution: Netcloud AG</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/sendin-ceo-nextcloud-is-the-best-solution-that-the-market-offers-nowadays/">December 29, 2016 - Nextcloud is the best solution that the market offers nowadays: CEO Sendin</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/the-danish-research-and-education-network-moves-from-owncloud-to-nextcloud/">September 29, 2016 - The Danish research and education network moves from ownCloud to Nextcloud</a></li>
