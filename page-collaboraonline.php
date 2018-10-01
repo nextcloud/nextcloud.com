@@ -145,9 +145,14 @@
 			<h3 class="section--paragraph__tittle"><?php echo $l->t('1. Install the Collabora Online server');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('The following steps will download the Collabora Online docker, make sure to replace "cloud.nextcloud.com" with the host that your own Nextcloud runs on. Also make sure to escape all dots with double backslashes (<code>\\</code>), since this string will be evaluated as a regular expression (and your bash \'eats\' the first backslash.) If you want to use the docker container with more than one Nextcloud, you\'ll need to use');?> <code>'domain=cloud\\.nextcloud\\.com\|second\\.nexcloud\\.com'</code> <?php echo $l->t('instead. (All hosts are separated by <code>\|</code>.)');?></p>
 			<p><pre><code class="docker">
-docker pull collabora/code
-docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --restart always --cap-add MKNOD collabora/code
+                docker pull collabora/code
+                docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --restart always --cap-add MKNOD collabora/code
 			</code></pre></p>
+			<p class="section--paragraph"><?php echo $l->t('Optionally, you can select the dictionaries you want with:');?></p>
+            <p><pre><code class="docker">
+                docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' -e 'dictionaries=de en es ..' --restart always --cap-add MKNOD collabora/code
+            </code></pre></p>
+            <p class="section--paragraph"><?php echo $l->t('This way you are not only limited to German, English, Italian, French and Spanish.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('That will be enough. Once you have done that the server will listen on "localhost:9980". Now we just need to configure the locally installed Apache reverse proxy.');?></p>
 			<h3 class="section--paragraph__tittle"><?php echo $l->t('2. Install the Apache reverse proxy');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('On a recent Ubuntu or Debian this should be possible using:');?></p>
