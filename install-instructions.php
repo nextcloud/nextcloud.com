@@ -82,8 +82,8 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <h5><?php echo $l->t('Home/SME appliance');?></h5>
-                                    <p><?php echo $l->t('<a class="hyperlink" target="_blank" href="https://www.techandme.se/">Tech and Me</a> maintains a VM designed to be the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure SSL/TLS connection.');?></p>
-                                    <p><?php echo $l->t('<a class="btn btn-lg btn-primary" href="https://www.techandme.se/nextcloud-vm/">Get Home/SME appliance</a>');?></p>
+                                    <p><?php echo $l->t('<a class="hyperlink" target="_blank" href="https://www.hanssonit.se/">T&M Hansson IT AB</a> maintains a VM designed to be the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure SSL/TLS connection.');?></p>
+                                    <p><?php echo $l->t('<a class="btn btn-lg btn-primary" href="https://www.hanssonit.se/nextcloud-vm/">Get Home/SME appliance</a>');?></p>
                                     <p><?php echo $l->t('Find <a class="hyperlink" href="https://github.com/nextcloud/vm">source here</a>.');?></p>
                                 </div>
                                 <div class="col-md-6">
