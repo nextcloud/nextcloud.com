@@ -3,6 +3,10 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/whitepapers/gs-thumbnail-banner.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/whitepapers/gs-thumbnail-banner.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/whitepapers/gs-thumbnail-banner.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/whitepapers/gs-thumbnail-banner.png">
 require(["require.config"], function() {
 	require(["modules/youtubePlayer"])
 });
