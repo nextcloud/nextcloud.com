@@ -218,15 +218,19 @@
                 <li><?php echo $l->t('Auto-configuration of Contacts and Calendar integration through DAVDroid');?></li>
                 <li><?php echo $l->t('Client-side,');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('End-to-end encryption');?></a></li>
                 <li><?php echo $l->t('Support for server push notifications and file activity feed');?></li>
+                <li><?php echo $l->t('View and reply to comments on files (needs at least Nextcloud 14)');?></li>
+                <li><?php echo $l->t('Restore deleted files (needs at least Nextcloud 14)');?></li>
                 </ul></p>
             </div>
             <div class="col-sm-4 revealOnScroll">
                 <p class="section--paragraph"><ul>
+                <li><?php echo $l->t('Stream media files (needs at least Nextcloud 14)');?></li>
+                <li><?php echo $l->t('TalkBack screenreader support');?></li>
                 <li><?php echo $l->t('Local and server-side search');?></li>
                 <li><?php echo $l->t('Multi-account support');?></li>
                 <li><?php echo $l->t('Fingerprint locking');?></li>
                 <li><?php echo $l->t('Adjusts to Nextcloud server theming preferences');?></li>
-                <li><?php echo $l->t('Auto-upload of photos and videos with custom file naming and folder sorting, wifi-only upload, differential handling of photos and videos');?></li>
+                <li><?php echo $l->t('Auto-upload of any type of data including photos and videos with custom file naming and folder sorting, wifi-only upload, differential handling of photos and videos');?></li>
                 <li><?php echo $l->t('monitor any number of folders so you can upload Whatsapp etc images');?></li>
                 </ul></p>
             </div>
