@@ -1,10 +1,12 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/engineering.css" rel="stylesheet">
-<script>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+<!--<script>
 require(["require.config"], function() {
 	require(["bootstrap", "modules/youtubePlayer"])
 });
-</script>
+</script>-->
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/engineering.jpg">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/engineering.jpg">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/engineering.jpg">
@@ -170,6 +172,7 @@ require(["require.config"], function() {
         <div class="row">
             <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Features');?></p>
             <h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Everything you need');?></h3>
+            <h3 class="section--paragraph__tittle text-center revealOnScroll"><?php echo $l->t('Under your control');?></h3>
             <div class="modern--ilustration"></div>
             <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud offers everything you need for efficient, secure document management.');?></p>
         </div>
@@ -186,6 +189,7 @@ require(["require.config"], function() {
         <div class="row feature-row">
             <div class="col-md-6 revealOnScroll image--floated">
                 <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Secure document sharing');?></p>
@@ -196,6 +200,7 @@ require(["require.config"], function() {
         <div class="row feature-row">
             <div class="col-md-6 revealOnScroll">
                 <div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/jwhfeJlYBbM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Integrated in email');?></p>
@@ -219,9 +224,9 @@ require(["require.config"], function() {
 
 <section class="section--getstarted">
     <div class="container-fluid quote">
-        <h2 class="text-center revealOnScroll"><?php echo $l->t('Legal firms provide trust');?></h2>
-        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Notaries, law firms and tax advisers are entrusted with the most confidential knowledge of their clients. Breaking that trust, for example due to a data-leak, is a career-ending mistake.');?></p>
-        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Nextcloud enables you to focus on your work, taking care that your data stays private and completely under your control!');?></p>
+        <h2 class="text-center revealOnScroll"><?php echo $l->t('Manufacturing firms have to deliver');?></h2>
+        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Your firm needs to deliver. On time, to specification and cost-efficient. Wasting their time with complicated document management solutions is the last thing your teams need.');?></p>
+        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('The easy user interface of Nextcloud enables your employees to focus on their work, while you have the certainty that enterprise data stays private and completely under your control!');?></p>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 featureblock revealOnScroll">
