@@ -38,7 +38,7 @@
 		</div>
     </div>
     <div class="row">
-        <div class="col-md-4 col-md-offset-2 revealOnScroll">
+        <div class="col-md-4 revealOnScroll">
 			<a href="<?php echo home_url('agencies') ?>" ><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/media-small.jpg" /></a>
 			<div class="row text-center description">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Media and Advertising');?></p>
@@ -54,6 +54,14 @@
                 <p class="section--paragraph text-center"><a class="button button--blue button-small"href="<?php echo home_url('legal') ?>"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
             </div>
 		</div>
+		<div class="col-md-4 revealOnScroll">
+			<a href="<?php echo home_url('engineering') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/engineering-small.jpg" /></a>
+			<div class="row text-center description">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Construction and manufacturing');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud has the easy, efficient UI engineers need to deliver on time');?></p>
+                <p class="section--paragraph text-center"><a class="button button--blue button-small" href="<?php echo home_url('engineering') ?>"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
+            </div>
+        </div>
     </div>
 </div>
 </section>

@@ -225,7 +225,7 @@ require(["require.config"], function() {
 <section class="section--getstarted">
     <div class="container-fluid quote">
         <h2 class="text-center revealOnScroll"><?php echo $l->t('Manufacturing firms have to deliver');?></h2>
-        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Your firm needs to deliver. On time, to specification and cost-efficient. Wasting their time with complicated document management solutions is the last thing your teams need.');?></p>
+        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Your firm needs to deliver. On time, to specification and cost-efficient. The last thing your teams need is to be forced to waste their time with complicated document management solutions.');?></p>
         <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('The easy user interface of Nextcloud enables your employees to focus on their work, while you have the certainty that enterprise data stays private and completely under your control!');?></p>
         <div class="container">
             <div class="row">
