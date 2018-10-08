@@ -27,7 +27,7 @@ require(["require.config"], function() {
 <div class="container">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-            <p class="section--paragraph text-center"><?php echo $l->t('TBD');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('To deliver on tight schedules and to specifications requires easy, instant access to data. Nextcloud offers a much easier interface than traditional document management systems and gives immediate access to documents on the go.');?></p>
 		</div>
 	</div>
 </div>
@@ -91,7 +91,7 @@ require(["require.config"], function() {
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/zenuity.png" alt="in action"/></a>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Zenuity - reshaping the industry of autonomous driving');?></p>
+                <p class="section--paragraph__tittle"><?php echo $l->t('Zenuity - reshaping autonomous driving');?></p>
                 <p class="section--paragraph"><blockquote><?php echo $l->t('Zenuity deployed Nextcloud for the purpose of safe and effective collaboration with our partner companies. We selected the product after comparing against several other alternatives. Particular advantages are the ability to run the service on premises and the good support for a wide range of client operating systems.');?></blockquote></p>
             </div>
         </div>

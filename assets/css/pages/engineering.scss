@@ -106,10 +106,10 @@ section {
 		position: relative;
 		.customer-logo {
 			float: center;
-			height: 400px;
+			height: 200px;
 			position: relative;
-			line-height: 400px;
-			text-align:center;
+			line-height: 200px;
+			text-align: center;
 			width: 100%;
 			max-width: 60vw;
 			margin-left: auto;
@@ -136,12 +136,12 @@ section {
 				top: 0;
 				}
 			@media (max-width: $break-big) {
-				height: 300px;
-				line-height: 300px;
+				height: 150px;
+				line-height: 1500px;
 			}
 			@media (max-width: $break-small) {
-				height: 200px;
-				line-height: 200px;
+				height: 100px;
+				line-height: 100px;
 			}
 
 /*			svg {
