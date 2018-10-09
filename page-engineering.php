@@ -1,4 +1,4 @@
-<head>
+x<head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/engineering.css" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
@@ -108,7 +108,7 @@ require(["require.config"], function() {
                     <i class="fa-commenting-o fa"></i>
                 </div>
                 <div class="col-md-10 featureblock">
-                    <p class="section--paragraph__tittle"><?php echo $l->t('Client communication');?></p>
+                    <p class="section--paragraph__tittle"><?php echo $l->t('Customer communication');?></p>
                     <p class="section--paragraph"><?php echo $l->t('Benefit from modern, fast and secure data exchange while keeping customer intelligence in-house for analysis and monetization.');?></p>
                 </div>
             </div>
@@ -117,7 +117,7 @@ require(["require.config"], function() {
                     <i class="fa-tablet fa"></i>
                 </div>
                 <div class="col-md-10 featureblock">
-                    <p class="section--paragraph__tittle"><?php echo $l->t('Decentralized collaboration');?></p>
+                    <p class="section--paragraph__tittle"><?php echo $l->t('Global collaboration');?></p>
                     <p class="section--paragraph"><?php echo $l->t('Tokio, London, New York - enable employees to access data and work together across devices without IT ever losing sight.');?></p>
                 </div>
             </div>
@@ -136,7 +136,7 @@ require(["require.config"], function() {
                 </div>
                 <div class="col-md-10 featureblock">
                     <p class="section--paragraph__tittle"><?php echo $l->t('Compliant data handling');?></p>
-                    <p class="section--paragraph"><?php echo $l->t('Enable auditing of events and processes at any time, to deliver the standardized and transparent reporting that is required in the financial sector.');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('Enable auditing of events and processes at any time, to deliver standardized and transparent reporting to customers, partners and regulators.');?></p>
                 </div>
             </div>
         </div>
