@@ -8,7 +8,7 @@
 						<div class="col-md-6">
 							<p><?php echo $l->t('The <strong>archive</strong> should be extracted in a folder your web server has access to. Latest stable version');?>:  <span class="label label-blue"><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></span> (<a class="hyperlink" href="<?php echo home_url('changelog') ?>"><small><?php echo $l->t('Changelog');?></small></a>)</br>
 							<div class="downloadbutton">
-								<astyle="background: #0082c9; color: white;" class="btn btn-primary btn-large" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>"><?php echo $l->t('Download Nextcloud');?></a>
+								<a style="background: #0082c9; color: white;" class="btn btn-default btn-large" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>"><?php echo $l->t('Download Nextcloud');?></a>
 							</div>
 							<p><?php echo $l->t('Follow the');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>installation"><?php echo $l->t('Nextcloud Admin Manuals</a> installation chapter.</br>
 							If you already run Nextcloud, refer to the');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html"><?php echo $l->t('upgrade manual.');?></a><br/>
