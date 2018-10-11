@@ -8,7 +8,7 @@
 						<div class="col-md-6">
 							<p><?php echo $l->t('The <strong>archive</strong> should be extracted in a folder your web server has access to. Latest stable version');?>:  <span class="label label-blue"><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></span> (<a class="hyperlink" href="<?php echo home_url('changelog') ?>"><small><?php echo $l->t('Changelog');?></small></a>)</br>
 							<div class="downloadbutton">
-								<a class="btn btn-primary btn-large" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>"><?php echo $l->t('Download Nextcloud');?></a>
+								<astyle="background: #0082c9; color: white;" class="btn btn-primary btn-large" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>"><?php echo $l->t('Download Nextcloud');?></a>
 							</div>
 							<p><?php echo $l->t('Follow the');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>installation"><?php echo $l->t('Nextcloud Admin Manuals</a> installation chapter.</br>
 							If you already run Nextcloud, refer to the');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html"><?php echo $l->t('upgrade manual.');?></a><br/>
@@ -64,7 +64,7 @@
 						<div class="col-md-6">
 							<p><?php echo $l->t('You can find further instructions in the');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Nextcloud Admin Manual');?></a>.</br>
 							<?php echo $l->t('If you already run Nextcloud, refer to the');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html"><?php echo $l->t('upgrade manual</a> for moving to new Nextcloud releases.');?></p>
-							<br/><a class="btn btn-primary" href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>">Continue</a></br></br>
+							<br/><astyle="background: #0082c9; color: white;" class="btn btn-primary" href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>">Continue</a></br></br>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
