@@ -28,7 +28,7 @@
 		<h2><?php echo $l->t('Get Nextcloud Server');?></h2>
 		<p><?php echo $l->t('There are several ways to get your own Nextcloud for you and your data:');?></p>
 		<div class="btn-group">
-			<a class="btn btn-primary btn-large" href="#instructions-server">Download</a>
+			<a style="background: #0082c9; color: white" class="btn btn-default btn-blue btn-large" href="#instructions-server">Download</a>
 			<a class="btn btn-default btn-large" href="<?php echo home_url('devices') ?>">Devices</a>
 			<a class="btn btn-default btn-large" href="<?php echo home_url('providers') ?>">Providers</a>
 		</div>
