@@ -722,6 +722,11 @@ ul {
 li {
   margin-top: 15px; }
 
+body.changelog .content ul li {
+  margin-top: 0;
+  list-style: circle;
+}
+
 /* Images */
 .alignright {
   float: right;
