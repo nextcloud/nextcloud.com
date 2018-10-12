@@ -27,6 +27,21 @@
 
     <a name="latest14"></a>
 
+    <h3 id="14-0-3">Version 14.0.3 <small>October 12 2018</small></h3>
+    <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.3.tar.bz2">nextcloud-14.0.3.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.3.zip">nextcloud-14.0.3.zip</a></br>
+    Check the file integrity with:</br>
+    MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.3.tar.bz2.md5">nextcloud-14.0.3.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.3.zip.md5">nextcloud-14.0.3.zip.md5</a></br>
+    SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.3.tar.bz2.sha256">nextcloud-14.0.3.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.3.zip.sha256">nextcloud-14.0.3.zip.sha256</a></br>
+    SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.3.tar.bz2.sha512">nextcloud-14.0.3.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.3.zip.sha512">nextcloud-14.0.3.zip.sha512</a></br>
+    PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.3.tar.bz2.asc">nextcloud-14.0.3.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.3.zip.asc">nextcloud-14.0.3.zip.asc</a></p>
+
+    <h4>Changes</h4>
+    <ul>
+        <li><a href="https://github.com/nextcloud/server/pull/11662">Fixes the apps menu scrollbar (server#11662)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/11761">Ignore "session_lifetime" if it can not be converted to a number (server#11761)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/11770">Normalize getUnjailedPath (server#11770)</a></li>
+    </ul>
+
     <h3 id="14-0-2">Version 14.0.2 <small>October 11 2018</small></h3>
     <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.2.tar.bz2">nextcloud-14.0.2.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.2.zip">nextcloud-14.0.2.zip</a></br>
     Check the file integrity with:</br>
