@@ -7,10 +7,10 @@ require(["require.config"], function() {
 	require(["bootstrap", "modules/youtubePlayer"])
 });
 </script>-->
-<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/engineering.jpg">
-<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/engineering.jpg">
-<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/engineering.jpg">
-<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/engineering.jpg">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/engineering-small.jpg">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/engineering-small.jpg">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/engineering-small.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/engineering-small.jpg">
 </head>
 <div class="engineering-background second-menu">
     <div class="container-fluid background">
