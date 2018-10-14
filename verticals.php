@@ -8,7 +8,7 @@
     </div>
     <div class="row">
         <div class="col-md-6 col-md-offset-3 revealOnScroll">
-            <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud is committed to provide technology that is a perfect fit for your organization!');?></p>
+            <p class="section--paragraph text-center top-text"><?php echo $l->t('Nextcloud is committed to provide technology that is a perfect fit for your organization!');?></p>
         </div>
     </div>
     <div class="row">
@@ -58,7 +58,7 @@
 			<a href="<?php echo home_url('engineering') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/engineering-small.jpg" /></a>
 			<div class="row text-center description">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Construction and manufacturing');?></p>
-                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud has the easy, efficient UI engineers need to deliver on time');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud has the easy, efficient UI engineers need to deliver on time.');?></p>
                 <p class="section--paragraph text-center"><a class="button button--blue button-small" href="<?php echo home_url('engineering') ?>"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
             </div>
         </div>

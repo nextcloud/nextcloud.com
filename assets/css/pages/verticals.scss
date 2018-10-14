@@ -1,0 +1,44 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+@import '../vendor/modular-scale/modular-scale';
+@import '../modules/transparent-gradient';
+@import '../../fonts/fork-awesome/css/fork-awesome.min';
+
+.verticals-background {
+  background: url("../../img/headers/verticals.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px
+}
+
+/* General */
+
+section {
+    padding: 50px 0 50px;
+    .section--heading-1 {
+        padding-bottom: 50px;
+    }
+    .section--paragraph--tittle {
+        padding: 0;
+    }
+    .row {
+/*         padding: 20px 0 20px 0; */
+    }
+}
+
+
+/* Sections */
+.section--vertical {
+	background-color: #fff !important;
+	h2 {
+		margin-bottom: 15px;
+	}
+	.top-text {
+		margin-bottom: 30px;
+	}
+}
+
+
+footer {
+/*     margin-top: 0px; */
+}
