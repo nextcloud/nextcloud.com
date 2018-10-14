@@ -7,6 +7,10 @@
 		require(["pages/file-drop", "modules/youtubePlayer"])
 	});
 </script>
+<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/securedrop-drop-nw.png">
+<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/securedrop-drop-nw.png">
+<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/securedrop-drop-nw.png">
+<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/securedrop-drop-nw.png">
 </head>
 <div class="background securedrop-background">
 	<div class="container">
