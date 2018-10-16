@@ -5,6 +5,28 @@
     });
 </script>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/signup.css" rel="stylesheet">
+<!-- Social media images. Putting in all images, hoping the sites are clever enough to pick the right. If not - png is last, and probably fine. it IS an animated png, properly shown at least in Chrome and Firefox... -->
+
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/verticals-small.jpg">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/verticals-small.jpg">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/verticals-small.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/verticals-small.jpg">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/common/yourdata.mp4">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/common/yourdata.mp4">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/common/yourdata.mp4">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/common/yourdata.mp4">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/common/yourdata.gif">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/common/yourdata.gif">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/common/yourdata.gif">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/common/yourdata.gif">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/common/yourdata.apng">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/common/yourdata.apng">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/common/yourdata.apng">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/common/yourdata.apng">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/common/yourdata.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/common/yourdata.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/common/yourdata.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/common/yourdata.png">
 </head>
 
 <?php
