@@ -256,7 +256,7 @@ require(["require.config"], function() {
 		<div class="col-md-6 col-md-offset-3">
 			<h2 class="text-center"><?php echo $l->t('Our newsletter');?></h2>
 			<p class="section--paragraph text-center"><?php echo $l->t('Stay up to date with Nextcloud news – future plans for releases, events and development are covered monthly in our news letter.');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('<a href="https://newsletter.nextcloud.com/?p=subscribe&id=1" class="button button--large button--blue button--arrow">Subscribe</a>');?></p>
+			<p class="section--paragraph text-center"><a href="https://newsletter.nextcloud.com/?p=subscribe&id=1" class="button button--large button--blue button--arrow"><?php echo $l->t('Subscribe');?></a></p>
 		</div>
 	</div>
 </div>
