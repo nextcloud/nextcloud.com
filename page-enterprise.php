@@ -34,9 +34,9 @@
 			<a href="#security"><?php echo $l->t('security');?></a>
 			<a href="#lifecycle"><?php echo $l->t('lifecycle');?></a>
 			<a href="#capabilities"><?php echo $l->t('capabilities');?></a>
-			<a class="btn btn-primary" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('order online');?></a>
-			<a class="btn btn-primary" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a>
-			<a class="btn btn-primary" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('pricing plans');?></a>
+			<a class="button button--blue" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('order online');?></a>
+			<a class="button button--blue" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a>
+			<a class="button button--blue" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('pricing plans');?></a>
 		</div>
 	</div>
 </section>

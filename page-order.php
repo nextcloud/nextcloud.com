@@ -23,9 +23,9 @@
 	</div>
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
-			<a class="btn btn-primary" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a>
-			<a class="btn btn-primary" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('pricing plans');?></a>
-			<a class="btn btn-primary" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise offering');?></a>
+			<a class="button button--blue" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a>
+			<a class="button button--blue" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('pricing plans');?></a>
+			<a class="button button--blue" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise offering');?></a>
 		</div>
 	</div>
 </section>
@@ -150,7 +150,7 @@ imagedestroy($image);
 			<input  type="hidden" name="checksum" value="<?php echo $checksum;?>">
 			<td colspan="2" style="text-align:center">
 			<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-			<input type="submit" name="submit" value=" Order Now " disabled="disabled" class="btn btn-primary"><br />
+			<input type="submit" name="submit" value=" Order Now " disabled="disabled" class="button button--blue"><br />
 			<span id="form-error"><?php echo $l->t('Some required fields are not filled.'); ?></span>
 		</form>
 	</div>

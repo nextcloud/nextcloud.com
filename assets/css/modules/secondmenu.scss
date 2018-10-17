@@ -35,6 +35,12 @@
 				}
 			}
 
+			a:not(.button) {
+        	@media (max-width: $break-big) {
+        		display: none;
+				}
+			}
+
 			a {
 				padding-right: 10px;
 				color: $dark-grey;
@@ -43,17 +49,16 @@
 
 				&:focus {
 					text-decoration: none;
-					color: black;
 				}
 
 				&.active {
 					text-decoration: none;
-					color: $nextcloud-blue;
+					color: white;
 				}
 
 				&:hover {
 					text-decoration: none;
-					color: $nextcloud-blue;
+					color: white;
 				}
 			}
 
@@ -72,6 +77,29 @@
 				&:hover {
 					text-decoration: none;
 					color: white;
+				}
+
+				&:before {
+					background: none;
+				}
+			}
+			.button--blue {
+				float: right;
+				font-size: 14px;
+				padding: 0 20px 0 20px;
+				margin: -9px 0px 0px 20px;
+/* 				margin-left: 20px; */
+/* 				margin-top: -5px; */
+				color: white;
+				height: 40px;
+				line-height: 40px;
+
+				@media (max-width: $break-small) {
+				margin-top: 10px;
+				}
+
+				&:hover {
+					text-decoration: none;
 				}
 
 				&:before {

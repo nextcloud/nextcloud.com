@@ -5162,20 +5162,22 @@ footer.page-footer {
     @media (max-width: 991px) {
       .second-menu .menu .buttons a:not(.btn) {
         display: none; } }
+    @media (max-width: 991px) {
+      .second-menu .menu .buttons a:not(.button) {
+        display: none; } }
     .second-menu .menu .buttons a {
       padding-right: 10px;
       color: #333333;
       transition: all 0.3s ease;
       letter-spacing: 1px; }
       .second-menu .menu .buttons a:focus {
-        text-decoration: none;
-        color: black; }
+        text-decoration: none; }
       .second-menu .menu .buttons a.active {
         text-decoration: none;
-        color: #0082c9; }
+        color: white; }
       .second-menu .menu .buttons a:hover {
         text-decoration: none;
-        color: #0082c9; }
+        color: white; }
     .second-menu .menu .buttons .btn-primary {
       float: right;
       font-size: 14px;
@@ -5190,6 +5192,23 @@ footer.page-footer {
         text-decoration: none;
         color: white; }
       .second-menu .menu .buttons .btn-primary:before {
+        background: none; }
+    .second-menu .menu .buttons .button--blue {
+      float: right;
+      font-size: 14px;
+      padding: 0 20px 0 20px;
+      margin: -9px 0px 0px 20px;
+      /* 				margin-left: 20px; */
+      /* 				margin-top: -5px; */
+      color: white;
+      height: 40px;
+      line-height: 40px; }
+      @media (max-width: 768px) {
+        .second-menu .menu .buttons .button--blue {
+          margin-top: 10px; } }
+      .second-menu .menu .buttons .button--blue:hover {
+        text-decoration: none; }
+      .second-menu .menu .buttons .button--blue:before {
         background: none; }
 
 .background {
@@ -9998,8 +10017,8 @@ li {
 
 body.changelog .content ul li {
   margin-top: 0;
-  list-style: circle;
-}
+  list-style: circle; }
+
 /* Images */
 .alignright {
   float: right;

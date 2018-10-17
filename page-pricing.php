@@ -25,9 +25,9 @@
 			<a href="#options"><?php echo $l->t('options');?></a>
 			<a href="#discounts"><?php echo $l->t('discounts');?></a>
 			<a href="#faq"><?php echo $l->t('FAQ');?></a>
-			<a class="btn btn-primary" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('Order online');?></a>
-			<a class="btn btn-primary" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a>
-			<a class="btn btn-primary" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise offering');?></a>
+			<a class="button button--blue" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('Order online');?></a>
+			<a class="button button--blue" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a>
+			<a class="button button--blue" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise offering');?></a>
 		</div>
 	</div>
 </section>
