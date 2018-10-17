@@ -64,7 +64,7 @@
 						<div class="col-md-6">
 							<p><?php echo $l->t('You can find further instructions in the');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Nextcloud Admin Manual');?></a>.</br>
 							<?php echo $l->t('If you already run Nextcloud, refer to the');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html"><?php echo $l->t('upgrade manual</a> for moving to new Nextcloud releases.');?></p>
-							<br/><astyle="background: #0082c9; color: white;" class="btn btn-primary" href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>">Continue</a></br></br>
+							<br/><a style="background: #0082c9; color: white;" class="btn btn-primary" href="<?php echo $DOWNLOAD_SERVER_PACKAGES_STABLE; ?>">Continue</a></br></br>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
