@@ -328,7 +328,7 @@
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#languages" data-toggle="collapse"><h3><?php echo $l->t('In what languages do I get support?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="languages" class="collapse">
-					<p><?php echo $l->t('We provide support in German and English and other languages through our partners, <a class="hyperlink"  href="#contact">contact us</a> for details.');?></p>
+					<p><?php echo $l->t('We provide support in English and other languages through our partners, <a class="hyperlink"  href="#contact">contact us</a> for details.');?></p>
 				</div>
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#branding" data-toggle="collapse"><h3><?php echo $l->t('What branding support do I get?<span class="icon-arrow-down">');?></h3></a></div>
