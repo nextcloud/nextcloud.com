@@ -147,6 +147,16 @@ require get_template_directory() . '/strings.php';
                                 </div>
                             </a>
                         </li>
+                        <li class="nav__item">
+                            <a href="<?php echo home_url('install/#install-clients'); ?>">
+                                <div class="nav__logo">
+                                    <?php echo file_get_contents(get_template_directory()."/assets/img/icons/phone.svg");?>
+                                </div>
+                                <div class="nav__text">
+                                    <?php echo $l->t('<strong>Clients</strong><br><small>For mobile or desktop</small>'); ?>
+                                </div>
+                            </a>
+                        </li>
                     </ul>
                 </li>
                 <li class="ghost-btn">
