@@ -111,8 +111,8 @@ function request_account($request) {
 	global $readerCountry;
 
 	$limit = [
-		'interval'     => 3660, // seconds
-		'num_requests' => 5, // number of requests allowed per interval
+		'interval'     => 300, // seconds
+		'num_requests' => 10, // number of requests allowed per interval
 		'user_ip'      => whatismyip() // getting the user IP.
 	];
 
