@@ -119,7 +119,11 @@ function request_account($request) {
 	$rateId    = "requests_count_{$limit['user_ip']}";
 	$rateLimit = (int) $redis->get($rateId);
 	if ($rateLimit + 1 > $limit['num_requests']) {
-		$minutes = max((int)round($limit['interval'] / 60), 1);
+		$remainingTTL = $redis->ttl($rateId);
+		if ($remainingTTL < 1) {
+			$remainingTTL = $limit['interval'];
+		}
+		$minutes = max((int)round($remainingTTL / 60), 1);
 		$text = "Please retry in $minutes minutes";
 		if ($minutes === 1) {
 			$text = "Please retry in 1 minute";
