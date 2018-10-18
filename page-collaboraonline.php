@@ -96,6 +96,18 @@
 	</div>
 </section>
 
+<section class="collabora-screenshots">
+	<div class="container">
+        <div class="featurerow">
+            <h1 class="text-center"><?php echo $l->t('Well integrated');?></h1>
+            <div class="row">
+                <div class="col-md-4"><div class="text-center" style="width: 100%"><a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-insert-image-nw.png"><img class="img-responsive size-medium" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-insert-image-nw.png" alt="" /></a> <?php echo $l->t('Insert images directly from your Nextcloud.');?></div></div>
+                <div class="col-md-4"><div class="text-center" style="width: 100%"><a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-sharing-sidebar-nw.png"><img class="img-responsive size-medium" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-sharing-sidebar-nw.png" alt="" /></a> <?php echo $l->t('Access the Nextcloud sharing sidebar.');?></div></div>
+                <div class="col-md-4"><div class="text-center" style="width: 100%"><a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-comments-sidebar-nw.png"><img class="img-responsive size-medium" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-comments-sidebar-nw.png" alt="" /></a> <?php echo $l->t('View and reply to comments.');?></div></div>
+            </div>
+        </div>
+    </div>
+</section>
 <div class="container-fluid call-to-action">
 	<div class="container">
 		<div class="row">
