@@ -167,6 +167,15 @@ function request_account($request) {
 		if ($post['response']['code'] === 400 && $post['response']['message'] === 'invalid mail address') {
 			return new WP_Error('invalid_mail_address', 'invalid mail address', array('status' => 400));
 		}
+		if ($post['response']['code'] === 400 && $post['response']['message'] === 'Bad Request') {
+			$decodedBody = json_decode($post['body'], true);
+			if ($decodedBody !== null &&
+				isset($decodedBody['data']['message']) &&
+				$decodedBody['data']['message'] === 'user already exists') {
+
+				return new WP_Error('username_already_used', 'User is already existing', array('status' => 400));
+			}
+		}
 		error_log('Provider did not returned 201: ' . json_encode($post));
 		return new WP_Error('unknown_error', 'Something happened', array('status' => 400));
 	}
