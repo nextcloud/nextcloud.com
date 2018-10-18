@@ -119,7 +119,12 @@ function request_account($request) {
 	$rateId    = "requests_count_{$limit['user_ip']}";
 	$rateLimit = (int) $redis->get($rateId);
 	if ($rateLimit + 1 > $limit['num_requests']) {
-		return new WP_Error('rate_limit_exceeded', 'Too many requests', array('status' => 429));
+		$minutes = max((int)round($limit['interval'] / 60), 1);
+		$text = "Please retry in $minutes minutes";
+		if ($minutes === 1) {
+			$text = "Please retry in 1 minute";
+		}
+		return new WP_Error('rate_limit_exceeded', 'Too many requests - ' . $text, array('status' => 429));
 	}
 
 	$request = json_decode($request->get_body(), true);
