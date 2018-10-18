@@ -515,6 +515,10 @@ nav a {
                   fill: white !important; }
                   .nav .container .nav__sections-wrapper .nav__sections.active .nav__section .nav__links .nav__item .nav__logo svg path {
                     fill: white !important; }
+                  .nav .container .nav__sections-wrapper .nav__sections.active .nav__section .nav__links .nav__item .nav__logo svg g {
+                    fill: white !important; }
+                  .nav .container .nav__sections-wrapper .nav__sections.active .nav__section .nav__links .nav__item .nav__logo svg rect {
+                    fill: white !important; }
     .nav .container .nav__sections-wrapper .right-buttons {
       position: relative;
       padding: 0;
@@ -591,6 +595,10 @@ nav a {
                   vertical-align: bottom;
                   fill: white !important; }
                   .nav .container .nav__sections-wrapper .right-buttons.active .nav__section .nav__links .nav__item .nav__logo svg path {
+                    fill: white !important; }
+                  .nav .container .nav__sections-wrapper .right-buttons.active .nav__section .nav__links .nav__item .nav__logo svg g {
+                    fill: white !important; }
+                  .nav .container .nav__sections-wrapper .right-buttons.active .nav__section .nav__links .nav__item .nav__logo svg rect {
                     fill: white !important; }
       .nav .container .nav__sections-wrapper .right-buttons .ghost-btn {
         font-size: 20px;
