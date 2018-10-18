@@ -111,15 +111,24 @@ function request_account($request) {
 	global $readerCountry;
 
 	$limit = [
-		'interval'     => 3660, // seconds
-		'num_requests' => 5, // number of requests allowed per interval
+		'interval'     => 300, // seconds
+		'num_requests' => 10, // number of requests allowed per interval
 		'user_ip'      => whatismyip() // getting the user IP.
 	];
 
 	$rateId    = "requests_count_{$limit['user_ip']}";
 	$rateLimit = (int) $redis->get($rateId);
 	if ($rateLimit + 1 > $limit['num_requests']) {
-		return new WP_Error('rate_limit_exceeded', 'Too many requests', array('status' => 429));
+		$remainingTTL = $redis->ttl($rateId);
+		if ($remainingTTL < 1) {
+			$remainingTTL = $limit['interval'];
+		}
+		$minutes = max((int)round($remainingTTL / 60), 1);
+		$text = "Please retry in $minutes minutes";
+		if ($minutes === 1) {
+			$text = "Please retry in 1 minute";
+		}
+		return new WP_Error('rate_limit_exceeded', 'Too many requests - ' . $text, array('status' => 429));
 	}
 
 	$request = json_decode($request->get_body(), true);
@@ -166,6 +175,15 @@ function request_account($request) {
 	} else if ($post['response']['code'] !== 201) {
 		if ($post['response']['code'] === 400 && $post['response']['message'] === 'invalid mail address') {
 			return new WP_Error('invalid_mail_address', 'invalid mail address', array('status' => 400));
+		}
+		if ($post['response']['code'] === 400 && $post['response']['message'] === 'Bad Request') {
+			$decodedBody = json_decode($post['body'], true);
+			if ($decodedBody !== null &&
+				isset($decodedBody['data']['message']) &&
+				$decodedBody['data']['message'] === 'user already exists') {
+
+				return new WP_Error('username_already_used', 'User is already existing', array('status' => 400));
+			}
 		}
 		error_log('Provider did not returned 201: ' . json_encode($post));
 		return new WP_Error('unknown_error', 'Something happened', array('status' => 400));
