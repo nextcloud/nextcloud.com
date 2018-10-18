@@ -309,7 +309,8 @@ nav a {
           left: 50%;
           transform: translateX(-50%) translateZ(1px); }
           .nav .container .right-buttons .nav__section:hover .nav__links:not(:root:root) {
-            margin-top: 30px; }
+            /* This breaks safari. */
+            /*                         margin-top: 30px; */ }
           @media (min-width: 991px) {
             .nav .container .right-buttons .nav__section:hover .nav__links {
               top: 50px; } }
