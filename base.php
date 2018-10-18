@@ -54,6 +54,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
         'pr20180825-2',
         'pr20180825-3',
         'pr20180917',
+        'pr20181018',
 		'user',
 
 	];
