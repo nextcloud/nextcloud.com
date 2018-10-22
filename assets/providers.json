@@ -1446,5 +1446,21 @@
             "NCS. Ein Dienst der auf Ihr Unternehmen zugeschnitten ist und Zahlreiche Erweiterungsöglichkeiten bietet. Rechenzentren nach ISO 27001 in Österreich."
          ],
          "imagename":"nobugs.png"
+      },
+    {
+        "title":"thegood.cloud",
+        "url":"https:\/\/thegood.cloud",
+        "flags":[
+            "nl",
+            "be",
+            "eu",
+            "all"
+        ],
+        "freeplans":true,
+        "supports":"both",
+        "specializes":[
+            "Store, sync and share without compromising your privacy! Hosted on our own hardware in Amsterdam."
+        ],
+        "imagename":"thegoodcloud.png"
       }
 ]
