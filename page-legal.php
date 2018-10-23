@@ -7,6 +7,10 @@ require(["require.config"], function() {
 	require(["bootstrap", "modules/youtubePlayer"])
 });
 </script>
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/legal-small.jpg">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/legal-small.jpg">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/legal-small.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/legal-small.jpg">
 </head>
 <div class="legal-background">
     <div class="container-fluid background">

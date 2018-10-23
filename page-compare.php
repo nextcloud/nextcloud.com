@@ -7,6 +7,10 @@
 </script>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/compare.css" rel="stylesheet">
 </head>
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/comparison.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/comparison.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/comparison.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/comparison.png">
 <body>
 
 <section class="compare-hero-section">
