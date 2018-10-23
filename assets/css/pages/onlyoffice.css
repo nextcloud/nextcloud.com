@@ -1,0 +1,61 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.onlyoffice-background {
+  background-image: url("../../img/headers/onlyoffice.jpg");
+  background-size: cover; }
+
+section {
+  padding: 50px 0 50px; }
+  section .section--heading-1 {
+    padding-bottom: 50px; }
+  section .section--paragraph--tittle {
+    padding: 0; }
+  section .row {
+    /*         padding: 20px 0 20px 0; */ }
+    section .row .img-responsive {
+      max-height: 300px; }
+
+.section--video .video-wall {
+  width: 100%; }
+.section--video iframe {
+  width: 100%;
+  height: 500px; }
+
+.section--overview p {
+  margin-top: 20px; }
+
+.section--advantages {
+  padding-bottom: 0px; }
+  .section--advantages h1.section--heading-1 {
+    padding-bottom: 5px; }
+  .section--advantages h3 {
+    padding-bottom: 20px; }
+  .section--advantages .row {
+    margin-top: 30px; }
+
+.section--features {
+  padding-top: 0px; }
+  .section--features .row {
+    margin-top: 50px; }
+  .section--features li {
+    list-style-image: url("../../img/enterprise/check.svg"); }
+
+.call-to-action {
+  margin: 80px 0 0px 0;
+  padding: 50px 0px;
+  background: #0082c9;
+  color: white; }
+  .call-to-action h1 {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 30px; }
+  .call-to-action a {
+    color: white; }
+
+/*# sourceMappingURL=onlyoffice.css.map */
