@@ -985,41 +985,6 @@ blockquote {
     vertical-align: -0.7em;
     font-family: serif; }
 
-/* New widest container for headers */
-.container-widest {
-	max-width: 1800px;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
-	@media (min-width: $break-small) {
-		.container-widest {
-		width: 738px;
-	}
-	}
-	@media (min-width: 992px) {
-	.container-widest {
-		width: 962px;
-		}
-	}
-	@media (min-width: 1200px) {
-	.container-widest {
-		width: 1170px;
-		}
-	}
-	@media (min-width: 1500px) {
-	.container-widest {
-		width: 1470px;
-		}
-	}
-	@media (min-width: 1800px) {
-	.container-widest {
-		width: 1770px;
-		}
-	}
-
-}
-
 /*.btn-primary {
   background-color: $nextcloud-blue;
   font-size: 18px;
