@@ -223,7 +223,7 @@
 			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
 				<h1 class="section--heading-1 text-center"><?php echo $l->t('For home users');?></h1>
 				<div class="text-center morebuttondiv">
-					<a href="https://www.onlyoffice.com/connectors-nextcloud.aspx" class="button button--large button--arrow"><?php echo $l->t('Get ONLYOFFICE for at home');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="https://www.onlyoffice.com/download.aspx" class="button button--large button--arrow"><?php echo $l->t('Get ONLYOFFICE for at home');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>
