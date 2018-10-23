@@ -41,7 +41,7 @@
 </section>
 
 <section class="section--overview">
-<div class="container">
+<div class="container-widest">
 	<div class="row">
 		<div class="col-md-4 revealOnScroll">
 			<div class="text-center"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-spreadsheet.png"  /></div>
