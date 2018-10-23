@@ -131,6 +131,24 @@ require(["require.config"], function() {
 		<p class="section--paragraph"><?php echo $l->t('We keep track of some of the mentions of Nextcloud in the press.');?></p>
         <div class="row newsrow">
             <div class="col-md-4">
+				<a class="hyperlink" href="https://windowsreport.com/free-cloud-software-windows/" target="_blank" title="Windowsreport on Nextcloud and other solutions">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/windowsreport.png" title="Windowsreport on Nextcloud and other solutions"/>
+				</a>
+			</div>
+            <div class="col-md-4">
+				<a class="hyperlink" href="https://www.zdnet.com/article/nextcloud-14-rolls-out-with-two-major-security-features/" target="_blank" title="ZDNet on Nextcloud 14">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/zdnet-14.png" title="ZDNet on Nextcloud 14"/>
+				</a>
+			</div>
+            <div class="col-md-4">
+                <a class="hyperlink" href="https://www.com-magazin.de/news/cloud/nextcloud-14-erhaelt-video-verifizierung-dsgvo-tool-1581432.html" target="_blank" title="Com! professional magazine on Nextcloud 14">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/com-professional-14.png" title="Com! professional magazine on Nextcloud 14"/>
+				</a>
+			</div>
+
+
+
+			<div class="col-md-4">
 				<a class="hyperlink" href="https://www.itwire.com/technology-regulation/82947-cloud-vendor-nextcloud-offers-gdpr-compliance-kit.html" target="_blank" title="ITWire on the Nextcloud GDPR Compliance kit">
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/itwire-gdpr.png" title="ITWire on the Nextcloud GDPR Compliance kit"/>
 				</a>
