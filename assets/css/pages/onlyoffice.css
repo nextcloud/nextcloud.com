@@ -21,13 +21,23 @@ section {
     section .row .img-responsive {
       max-height: 300px; }
 
-.section--video .video {
-  float: none;
-  margin-left: auto;
-  margin-right: auto; }
+.section--video .video-wall {
+  width: 100%; }
+.section--video iframe {
+  width: 100%;
+  height: 500px; }
 
 .section--overview p {
   margin-top: 20px; }
+
+.section--advantages {
+  padding-bottom: 0px; }
+  .section--advantages h1.section--heading-1 {
+    padding-bottom: 5px; }
+  .section--advantages h3 {
+    padding-bottom: 20px; }
+  .section--advantages .row {
+    margin-top: 30px; }
 
 .section--features {
   padding-top: 0px; }

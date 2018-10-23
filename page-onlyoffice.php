@@ -25,20 +25,19 @@
 </div>
 
 <section class="section--video">
-	<div class="container">
-		<div class="featurerow">
-			<div class="row">
-				<div class="col-md-10 video">
-					<div data-type="youtube" data-video-id="piI5LvYfv2o"></div>
-					<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/piI5LvYfv2o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-				</div>
-				<div class="col-md-6 col-md-offset-3">
-					<p class="section--paragraph text-center"><?php echo $l->t('ONLYOFFICE integration in Nextcloud empowers your users to collaborate on office documents with team members in real time, tracking changes and commenting on what is happening.');?></p>
-					<p class="section--paragraph text-center"><?php echo $l->t('100% compatibility with Microsoft Office formats means perfect documents, every time.');?></p>
-				</div>
-			</div>
-		</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <iframe height="500" width="auto" src="https://www.youtube-nocookie.com/embed/piI5LvYfv2o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
     </div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <p class="section--paragraph text-center"><?php echo $l->t('ONLYOFFICE integration in Nextcloud empowers your users to collaborate on office documents with team members in real time.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('100% compatibility with Microsoft Office formats means perfect documents, every time.');?></p>
+        </div>
+    </div>
+</div>
 </section>
 
 <section class="section--overview">
@@ -123,12 +122,35 @@
 	</div>
 </section>
 
-<div class="container-fluid call-to-action">
+<section class="section--advantages">
+<div class="container-fluid quote">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 revealOnScroll">
-				<h1 class="section--heading-1 text-center"><?php echo $l->t('For Enterprises');?></h1>
-				<p class="text-center"><?php echo $l->t('Enterprise users looking to provide employees with a modern and easy to use document collaboration tool can benefit from our');?> <a href="<?php echo home_url('enterprise') ?>" class="hyperlink"><?php echo $l->t('enterprise support options.');?></a></p>
+				<h1 class="section--heading-1 text-center"><?php echo $l->t('Key advantages');?></h1>
+				<h3 class="text-center"><?php echo $l->t('What makes ONLYOFFICE the best online office solution on the market');?></h3>
+            </div>
+        </div>
+		<div class="row">
+            <div class="col-sm-6 revealOnScroll">
+                <p class="section--paragraph__tittle"><?php echo $l->t('A complete solution');?></p>
+                <p class="section--paragraph">
+                <ul>
+                    <li><?php echo $l->t('Full desktop-level set of formatting and file handling capabilities');?></li>
+                    <li><?php echo $l->t('Deeply integrated in Nextcloud and offering powerful collaboration features');?></li>
+                </ul></p>
+            </div>
+            <div class="col-sm-6 revealOnScroll">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Under your control');?></p>
+                <p class="section--paragraph">
+                <ul>
+                    <li><?php echo $l->t('Deployed on your own servers, giving you full control over your data');?></li>
+                    <li><?php echo $l->t('100% open source guarantees transparency and no vendor lock-in');?></li>
+                </ul></p>
+            </div>
+        </div>
+   		<div class="row">
+			<div class="col-md-8 col-md-offset-2 revealOnScroll">
 				<div class="text-center morebuttondiv">
 					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
@@ -136,6 +158,7 @@
 		</div>
 	</div>
 </div>
+</section>
 
 <section class="section--features">
     <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-3.png" alt="in action" /></a>
@@ -179,7 +202,7 @@
 				<div class="col-md-6 revealOnScroll">
 					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/onlyoffice-integration-details.png" alt="in action" />
 				</div>
-				<div class="col-md-6 revealOnScroll featureblock">
+				<div class="col-md-4 col-md-offset-2 revealOnScroll featureblock">
 					<h2 class="section--paragraph__tittle"><?php echo $l->t('Seamless integration');?></h2>
 					<ul>
                         <li><?php echo $l->t('File creation, editing, saving;');?></li>
@@ -198,9 +221,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
-				<p class="text-center"><?php echo $l->t('Let us know what you think in the forums!');?></p>
+				<h1 class="section--heading-1 text-center"><?php echo $l->t('For home users');?></h1>
 				<div class="text-center morebuttondiv">
-					<a href="https://help.nextcloud.com/c/support/collabora" class="button button--large button--arrow"><?php echo $l->t('Talk to us!');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="https://www.onlyoffice.com/connectors-nextcloud.aspx" class="button button--large button--arrow"><?php echo $l->t('Get ONLYOFFICE for at home');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>
