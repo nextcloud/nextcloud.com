@@ -59,9 +59,9 @@ section {
 					max-width: 100% !important;
 					height: auto !important;
 				}
-				@media (max-width: $break-big) {
+				@media (max-width: $break-small) {
 					img {
-/* 						max-width: 90vw !important; */
+						max-width: 90vw !important;
 					}
 				}
 
@@ -82,6 +82,17 @@ section {
 				}
 
 				blockquote:after {
+				}
+				.thumbnail {
+					margin: 0;
+					border: none;
+					width: calc(100% + 30px) !important; /* account for double page margin */
+					padding: 0;
+					padding-bottom: 1em;
+				}
+
+				.thumbnail img {
+					margin: 0 -15px; /* cancel out page margin */
 				}
 			}
 		}
