@@ -10280,6 +10280,10 @@ li {
 body.changelog .content ul li {
   margin-top: 0;
   list-style: circle; }
+body.advisories .content ul li {
+  margin-top: 0;
+  list-style-type: initial;
+  margin-left: 5px; }
 
 /* Images */
 .alignright {
