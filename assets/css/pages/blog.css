@@ -2406,6 +2406,7 @@ section .container .row .col-md-10 {
       margin-top: -50vh;
       padding-top: 0; } }
   .section--content .container .row .col-md-10 h1 {
+    margin-top: 5px;
     font-size: 50px;
     font-weight: 300; }
   .section--content .container .row .col-md-10 h2 {
