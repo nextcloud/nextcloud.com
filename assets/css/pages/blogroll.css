@@ -24,17 +24,6 @@
     .container-widest .container-widest {
       width: 1770px; } }
 
-/* gradient behind transparent nav */
-.nav:not(.scrolled) {
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
-  /* IE6-9 */ }
-
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -2377,54 +2366,68 @@
   clip: auto; }
 
 /*# sourceMappingURL=fork-awesome.min.css.map */
-.blog-background {
+.blogroll-background {
   background: url("../../img/headers/background-transparent.png") no-repeat;
   background-color: #0082c9;
   background-position: center;
   background-size: cover;
-  height: 50vh; }
-  @media (min-width: 991px) {
-    .blog-background {
-      height: 100vh;
-      min-height: 800px; } }
+  height: 40vh;
+  min-height: 300px;
+  max-height: 600px; }
 
 body {
-  background-color: #0082c9; }
+  background-color: #f4f8fb; }
 
-section .container .row .col-md-10 {
-  background-color: rgba(244, 248, 251, 0.95); }
-  @media (min-width: 991px) {
-    section .container .row .col-md-10 {
-      padding-left: 50px;
-      padding-right: 50px; } }
-
-.section--content .container .row .col-md-10 {
-  margin-top: -5px;
-  padding-bottom: 30px; }
-  @media (min-width: 991px) {
-    .section--content .container .row .col-md-10 {
-      margin-top: -50vh;
-      padding-top: 0; } }
-  .section--content .container .row .col-md-10 h1 {
-    font-size: 50px;
-    font-weight: 300; }
-  .section--content .container .row .col-md-10 h2 {
-    font-size: 20px; }
-  .section--content .container .row .col-md-10 img {
-    max-width: 100% !important;
-    height: auto !important; }
-  @media (max-width: 991px) {
-    .section--content .container .row .col-md-10 img {
-      /* 						max-width: 90vw !important; */ } }
-  .section--content .container .row .col-md-10 .blog-metadata {
+.section--grid {
+  margin-top: 30px; }
+  .section--grid #post-grid-635 {
+    background-color: #f4f8fb !important; }
+  .section--grid .post-grid .grid-nav-top .nav-search .search {
+    min-width: 300px;
+    height: 40px;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: thin;
+    padding: 8px 8px 8px 30px;
+    /*         margin-top: 15px; */
+    color: #757575;
+    width: 50%; }
+  .section--grid .item {
+    border-radius: 5px;
+    box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+    transition: all .5s ease; }
+  .section--grid .item:hover {
+    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+    transition: all .3s ease;
+    transform: translate3D(0, -1px, 0); }
+  .section--grid .post-grid .grid-items {
     padding-bottom: 30px; }
-    .section--content .container .row .col-md-10 .blog-metadata img {
-      width: 20px !important; }
-  .section--content .container .row .col-md-10 blockquote p {
-    display: inline; }
+    .section--grid .post-grid .grid-items .layer-media img {
+      border-radius: 0;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      box-shadow: none;
+      object-fit: cover;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 300px;
+      height: 200px; }
+    @media (max-width: 768px) {
+      .section--grid .post-grid .grid-items .layer-media img {
+        width: 600px; } }
+  .section--grid .skin.flat .layer-content {
+    text-align: left padding 5px 10px; }
+  .section--grid .post-grid .pagination.lite .page-numbers {
+    color: #666; }
 
-.section--footer .container .row .col-md-10 {
-  padding-top: 20px;
-  padding-bottom: 100px; }
+.section--newsletter {
+  margin-bottom: 0px; }
+  .section--newsletter a {
+    margin: 50px; }
 
-/*# sourceMappingURL=blog.css.map */
+footer {
+  margin-top: 0px; }
+
+/*# sourceMappingURL=blogroll.css.map */
