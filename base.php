@@ -67,7 +67,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 
 	$currentPage = strtolower(get_post()->post_name);
 	$oldPage = true;
-	if (in_array($currentPage, $oldPages) || is_blog()) {
+	if (in_array($currentPage, $oldPages)) {
 		// It's an old page, use the old template
 		ob_clean();
 		ob_start();

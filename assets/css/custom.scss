@@ -965,13 +965,16 @@ body.advisories .content ul li {
       transition: all 0.3s ease 0s; }
 
 /* A nice looking block quote */
+
 blockquote {
   background: none;
 /*   margin: 1.5em 10px; */
   padding: 0.5em 10px;
   border-left: none;
-  color: #9c9c9c; }
-  blockquote:before {
+  color: #9c9c9c;
+}
+
+blockquote:before {
     border-left: none;
     color: #ccc;
     content: open-quote;
@@ -979,8 +982,10 @@ blockquote {
     line-height: 0.1em;
     margin-right: 0.25em;
     vertical-align: -0.4em;
-    font-family: serif; }
-  blockquote:after {
+    font-family: serif;
+}
+
+blockquote:after {
     content: close-quote;
     left: 10px;
     color: #ccc;
@@ -988,7 +993,8 @@ blockquote {
     line-height: 0.1em;
     margin-left: 0.25em;
     vertical-align: -0.7em;
-    font-family: serif; }
+    font-family: serif;
+}
 
 /*.btn-primary {
   background-color: $nextcloud-blue;

@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blog.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blogroll.css" rel="stylesheet">
 <!--<script>
 	require(["require.config"], function() {
 		require(["modules/youtubePlayer", "modules/submenu"])
@@ -7,7 +7,7 @@
 </script>-->
 </head>
 
-<div class="background blog-background">
+<div class="background blogroll-background">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
