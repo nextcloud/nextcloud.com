@@ -2414,15 +2414,25 @@ section .container .row .col-md-10 {
   .section--content .container .row .col-md-10 img {
     max-width: 100% !important;
     height: auto !important; }
-  @media (max-width: 991px) {
+  @media (max-width: 768px) {
     .section--content .container .row .col-md-10 img {
-      /* 						max-width: 90vw !important; */ } }
+      max-width: 90vw !important; } }
   .section--content .container .row .col-md-10 .blog-metadata {
     padding-bottom: 30px; }
     .section--content .container .row .col-md-10 .blog-metadata img {
       width: 20px !important; }
   .section--content .container .row .col-md-10 blockquote p {
     display: inline; }
+  .section--content .container .row .col-md-10 .thumbnail {
+    margin: 0;
+    border: none;
+    width: calc(100% + 30px) !important;
+    /* account for double page margin */
+    padding: 0;
+    padding-bottom: 1em; }
+  .section--content .container .row .col-md-10 .thumbnail img {
+    margin: 0 -15px;
+    /* cancel out page margin */ }
 
 .section--footer .container .row .col-md-10 {
   padding-top: 20px;
