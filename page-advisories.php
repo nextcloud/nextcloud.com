@@ -15,7 +15,7 @@
 <section class="content">
 <div class="container">
 <div class="row page-content-header">
-	<div class="col-md-5 col-md-offset-2">
+	<div class="col-md-3 col-md-offset-9">
 		<form role="form" action="/security/advisory/" method="get">
 			<input name="id" type="text" class="form-control" placeholder="Advisory identifier">
 			<button type="submit" class="btn btn-default">Go</button>
