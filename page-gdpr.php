@@ -210,7 +210,7 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="46">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large" type="submit" value=" Get the whitepaper "></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="<?php echo $l->t('Enter your email'); ?>"></label> <input class="button button--large" type="submit" value=" Get the whitepaper "></p>
                 </form>
             </div>
         </div>
@@ -391,7 +391,7 @@
             <div class="row "><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/architecture-thumbnail-banner.png"/></div>
             <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                 <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper');?><br>
-                <input class="mail text-center" type="text" name="email" maxlength="80" size="30" placeholder="Enter your email"></label></p>
+                <input class="mail text-center" type="text" name="email" maxlength="80" size="30" placeholder="<?php echo $l->t('Enter your email'); ?>"></label></p>
                 <td colspan="2" style="">
                     <div style="margin-left: auto; width: 304px; height: 78px; margin-right: auto; text-align: center;">
                         <div id="RecaptchaField2"></div>
