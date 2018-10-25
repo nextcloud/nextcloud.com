@@ -5,6 +5,36 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Server: Improper access control checks for single share previews (NC-SA-2018-014)</title>
+  <description>&lt;p&gt;A missing check could give unauthorized access to the previews of single file password protected shares.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-014&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-014</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-014</guid>
+  <pubDate>Thu, 25 Oct 2018 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Session fixation on public share page (NC-SA-2018-013)</title>
+  <description>&lt;p&gt;A bug causing session fixation could potentially allow an attacker to obtain access to password protected shares.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-013&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-013</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-013</guid>
+  <pubDate>Thu, 25 Oct 2018 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Improper authentication on public shares (NC-SA-2018-012)</title>
+  <description>&lt;p&gt;A missing access check could lead to continued access to password protected link shares when the owner had changed the password.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-012&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-012</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-012</guid>
+  <pubDate>Thu, 25 Oct 2018 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Second factor authentication bypassed if provider fails to load (NC-SA-2018-011)</title>
+  <description>&lt;p&gt;Missing state would not enforce the use of a second factor at login if the the provider of the second factor failed to load.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-011&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-011</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-011</guid>
+  <pubDate>Thu, 25 Oct 2018 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Improper validation of permissions (NC-SA-2018-010)</title>
+  <description>&lt;p&gt;Improper revalidation of permissions lead to not accepting access restrictions by acess tokens.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-010&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-010</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-010</guid>
+  <pubDate>Thu, 25 Oct 2018 14:00:00 +0200</pubDate>
+ </item><item>
   <title>Talk App: Stored XSS in autocomplete suggestions for chat @-mentions (NC-SA-2018-009)</title>
   <description>&lt;p&gt;A missing sanitization of search results for an autocomplete field could lead to a stored XSS requiring user-interaction. The missing sanitization only affected user names, hence malicious search results could only be crafted by authenticated users.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-009&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-009</link>
