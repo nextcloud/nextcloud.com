@@ -9,7 +9,7 @@
         <h2>Stored XSS in autocomplete suggestions for chat @-mentions (NC-SA-2018-009)</h2>
         <p>10th August 2018</p>
         <p>Risk level: <strong>Low</strong></p>
-        <p>CVSS v3 Base Score: 2.1 (<a href="https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:N">AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:N</a>)</p>
+        <p>CVSS v3 Base Score: 0 (<a href="https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:N">AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/79.html">Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') (CWE-79)</a></p>
         
         <h3>Description</h3>
