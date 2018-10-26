@@ -2428,6 +2428,7 @@ body {
     margin: 50px; }
 
 .section--old-blogs article header h2 {
+  line-height: 1;
   margin-bottom: 0px; }
   .section--old-blogs article header h2 a {
     font-size: 40px;
