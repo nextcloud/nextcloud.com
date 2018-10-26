@@ -3,8 +3,9 @@
 @import '../../fonts/fork-awesome/css/fork-awesome.min';
 
 .include-background {
-	background-image: url('../../img/headers/onlyoffice.jpg');
+	background-image: url('../../img/headers/include.jpg');
 	background-size: cover;
+	background-position: center;
 }
 
 section {
@@ -15,6 +16,17 @@ section {
     .section--paragraph--tittle {
         padding: 0;
     }
+    .ilustration {
+		margin-left: auto;
+		margin-right: auto;
+		svg {
+			display: block !important;
+			height: 300px !important;
+			width: auto !important;
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+	}
 }
 
 .section--overview {

@@ -65,8 +65,12 @@
       margin: 0 auto;
     }
 
-    .ilustration__expertise {
-      margin-left: 15%;
+    .ilustration {
+      svg {
+		display: block !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	   }
     }
   }
 }
@@ -81,8 +85,12 @@
       margin: 0 auto;
     }
 
-    .security__ilustration {
-      margin-left: 12%;
+    .ilustration {
+		svg {
+			display: block !important;
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
     }
   }
 }
@@ -98,8 +106,12 @@
       margin: 0 auto;
     }
 
-    .lifecycle__ilustration {
-      margin-left: 8%;
+    .ilustration {
+      svg {
+		display: block !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	  }
     }
   }
 }
@@ -115,6 +127,11 @@
     }
 
     .globalscale__ilustration {
+	svg {
+		display: block !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	   }
     }
   }
 }

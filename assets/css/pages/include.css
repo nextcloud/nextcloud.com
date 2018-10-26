@@ -2367,8 +2367,9 @@
 
 /*# sourceMappingURL=fork-awesome.min.css.map */
 .include-background {
-  background-image: url("../../img/headers/onlyoffice.jpg");
-  background-size: cover; }
+  background-image: url("../../img/headers/include.jpg");
+  background-size: cover;
+  background-position: center; }
 
 section {
   padding: 50px 0 50px; }
@@ -2376,6 +2377,15 @@ section {
     padding-bottom: 50px; }
   section .section--paragraph--tittle {
     padding: 0; }
+  section .ilustration {
+    margin-left: auto;
+    margin-right: auto; }
+    section .ilustration svg {
+      display: block !important;
+      height: 300px !important;
+      width: auto !important;
+      margin-left: auto !important;
+      margin-right: auto !important; }
 
 .section--overview p {
   margin-top: 20px; }
