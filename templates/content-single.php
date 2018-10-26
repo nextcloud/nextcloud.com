@@ -33,6 +33,10 @@
         <div class="entry-content">
         <?php the_content(); ?>
         </div>
+        <div class="transparent">
+        </div>
+        <div class="white">
+        </div>
         </div>
     </div>
 </div>
