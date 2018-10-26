@@ -87,6 +87,26 @@ body {
 	}
 }
 
+.section--old-blogs {
+	article {
+		header {
+			h2 {
+				margin-bottom: 0px;
+				a {
+					font-size: 40px;
+					text-decoration: none;
+					&hover {
+					}
+				}
+			}
+			.published {
+				font-style: italic;
+			}
+		}
+	}
+
+}
+
 footer {
 	margin-top: 0px;
 }

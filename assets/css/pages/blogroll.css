@@ -2427,6 +2427,14 @@ body {
   .section--newsletter a {
     margin: 50px; }
 
+.section--old-blogs article header h2 {
+  margin-bottom: 0px; }
+  .section--old-blogs article header h2 a {
+    font-size: 40px;
+    text-decoration: none; }
+.section--old-blogs article header .published {
+  font-style: italic; }
+
 footer {
   margin-top: 0px; }
 
