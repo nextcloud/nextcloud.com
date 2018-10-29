@@ -85,8 +85,10 @@
   .section--expertise .container .section--intro {
     max-width: 43.2487792969em;
     margin: 0 auto; }
-  .section--expertise .container .ilustration__expertise {
-    margin-left: 15%; }
+  .section--expertise .container .ilustration svg {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important; }
 
 .section--security .container {
   padding-top: 8.54296875em;
@@ -94,8 +96,10 @@
   .section--security .container .section--intro {
     max-width: 43.2487792969em;
     margin: 0 auto; }
-  .section--security .container .security__ilustration {
-    margin-left: 12%; }
+  .section--security .container .ilustration svg {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important; }
 
 .section--lifecycle .container {
   padding-top: 8.54296875em;
@@ -103,8 +107,10 @@
   .section--lifecycle .container .section--intro {
     max-width: 43.2487792969em;
     margin: 0 auto; }
-  .section--lifecycle .container .lifecycle__ilustration {
-    margin-left: 8%; }
+  .section--lifecycle .container .ilustration svg {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important; }
 
 .section--globalscale .container {
   padding-top: 8.54296875em;
@@ -112,6 +118,10 @@
   .section--globalscale .container .section--intro {
     max-width: 43.2487792969em;
     margin: 0 auto; }
+  .section--globalscale .container .globalscale__ilustration svg {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important; }
 
 .section--whitepaper {
   padding-bottom: 0px;
