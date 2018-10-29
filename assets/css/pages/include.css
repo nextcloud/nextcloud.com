@@ -2377,9 +2377,12 @@ section {
     padding-bottom: 50px; }
   section .section--paragraph--tittle {
     padding: 0; }
+  section p {
+    padding-bottom: 10px; }
   section .ilustration {
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    margin-bottom: 30px; }
     section .ilustration svg {
       display: block !important;
       height: 300px !important;
@@ -2469,6 +2472,9 @@ section {
   @media (max-width: 991px) {
     .section--team .teamp {
       min-height: auto; } }
+
+.section--background .feature-row {
+  padding-bottom: 60px; }
 
 .call-to-action {
   margin: 80px 0 0px 0;

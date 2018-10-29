@@ -137,8 +137,8 @@
 
 <section class="section--team">
 	<div class="container">
-	<p class="section--paragraph__tittle text-center">Mentors</p>
-		<p class="section--paragraph text-center">Here are some of our mentors. We are in the process of adding more and you can join, too!</p>
+        <h1 class="section--heading-1 text-center">Mentors</h1>
+        <p class="section--paragraph text-center">Here are some of our mentors. We are in the process of adding more and you can join, too!</p>
 	</div>
 	<div class="featurerow">
 	<div class="wrap container teamgroup">
@@ -184,4 +184,43 @@
         </div>
     </div>
     </div>
+</section>
+
+<section class="section--background">
+<div class="container">
+    <h1 class="section--heading-1 text-center"><?php echo $l->t('Background');?></h1>
+</div>
+<div class="container">
+    <div class="row feature-row">
+        <div class="col-md-6 revealOnScroll">
+            <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/history/frank.jpg" alt="in action"/></a>
+        </div>
+        <div class="col-md-6 revealOnScroll feature--block">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Where does this come from?');?></p>
+            <p class="section--paragraph"><?php echo $l->t('We have been putting in effort in diversity since we started our project, participating in ');?> <a class="hyperlink" href="https://railsgirlssummerofcode.org/blog/2018-07-23-welcome-to-team-popcorn"><?php echo $l->t('Rails Girls Summer of Code for example.');?></a> <?php echo $l->t(' When Nextcloud founder Frank Karlitschek');?> <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-founder-wins-innovation-award-donates-prize-money-to-open-source-diversity-fund"><?php echo $l->t('won the Reinhard von König award');?></a> <?php echo $l->t('he decided to donate its 20.000 euro prize money to the Nextcloud community to start a diversity program! That provided a great start for this and we hope it will be just the beginning: you can donate, too, if you want!');?></p>
+            <a href="mailto:include@nextcloud.com" class="button button--blue button--arrow button--large"><?php echo $l->t('Contact us to donate');?></a>
+        </div>
+    </div>
+    <div class="row feature-row">
+        <div class="col-md-4 revealOnScroll image--floated">
+            <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/history/rk-award.png" alt="in action"/></a>
+        </div>
+        <div class="col-md-8 revealOnScroll feature--block">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Reinhard von Koenig Award');?></p>
+            <p class="section--paragraph"><?php echo $l->t('The bi-annual Reinhard von Koenig award is named after inventor Baron Reinhard von Koenig (1899-1992) and awarded at his former family castle Fachsenfeld in Aalen, located in East Württemberg, the region with the largest number of globally leading companies in Germany. In 1982, Baron von Keunig donated his entire estate and assets to the Fachsenfeld Foundation he founded, with the goal of promoting technological and cultural innovations. The criteria for the award requires that the prize is awarded to people who have developed new technological approaches to socially relevant challenges, shown technical courage and made a significant contribution to sustainable progress.');?></p>
+            <a href="http://reinhard-von-koenig-preis.de/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+        </div>
+    </div>
+    <div class="row feature-row">
+        <div class="col-md-6 revealOnScroll">
+            <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/partners/kdeev.png" alt="in action"/></a>
+        </div>
+        <div class="col-md-6 revealOnScroll feature--block">
+            <p class="section--paragraph__tittle"><?php echo $l->t('How is it managed?');?></p>
+            <p class="section--paragraph"><?php echo $l->t('To handle the money, we work together with the amazing KDE community which takes care of the financial part. This also means donations are tax-free in many countries!');?></p>
+            <p class="section--paragraph"><?php echo $l->t('The spending of the money is decided on by a small group of Nextcloud diversity advocates, including Jan-Christoph Borchardt, Marie Gutbub and Camila San Martin Ayres.');?></p>
+            <a href="https://ev.kde.org" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more about KDE e.V.');?></a>
+        </div>
+    </div>
+</div>
 </section>

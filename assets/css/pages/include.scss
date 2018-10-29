@@ -16,9 +16,14 @@ section {
     .section--paragraph--tittle {
         padding: 0;
     }
+    p {
+        padding-bottom: 10px;
+    }
+
     .ilustration {
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: 30px;
 		svg {
 			display: block !important;
 			height: 300px !important;
@@ -165,6 +170,13 @@ section {
             min-height: auto;
         }
     }
+}
+
+.section--background {
+	.feature-row {
+		padding-bottom: 60px;
+	}
+
 }
 
 
