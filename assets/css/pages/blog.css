@@ -2407,8 +2407,6 @@ section {
           section .container .row .col-md-10 {
             padding-left: 50px;
             padding-right: 50px; } }
-    section .container li {
-      list-style-image: url("../../img/enterprise/check.svg"); }
 
 .section--content .container .row {
   position: relative; }
@@ -2455,28 +2453,32 @@ section {
       font-weight: 300; }
     .section--content .container .row .content h2 {
       font-size: 20px; }
+    .section--content .container .row .content blockquote p {
+      display: inline; }
+    .section--content .container .row .content li {
+      list-style-image: url("../../img/enterprise/dot-small.svg"); }
+    .section--content .container .row .content figure {
+      border: 1px solid #eee;
+      padding: 5px;
+      border-radius: 10px; }
+      .section--content .container .row .content figure img {
+        float: none; }
     .section--content .container .row .content img {
       max-width: 100% !important;
       height: auto !important; }
     @media (max-width: 768px) {
       .section--content .container .row .content img {
         max-width: 90vw !important; } }
+    .section--content .container .row .content img.fullwidth {
+      margin: 0 -50px;
+      /* cancel out page margin */
+      width: calc(100% + 100px) !important;
+      /* account for double page margin */
+      max-width: 100vw !important; }
     .section--content .container .row .content .blog-metadata {
       padding-bottom: 30px; }
       .section--content .container .row .content .blog-metadata img {
         width: 20px !important; }
-    .section--content .container .row .content blockquote p {
-      display: inline; }
-    .section--content .container .row .content .thumbnail {
-      margin: 0;
-      border: none;
-      width: calc(100% + 30px) !important;
-      /* account for double page margin */
-      padding: 0;
-      padding-bottom: 1em; }
-    .section--content .container .row .content .thumbnail img {
-      margin: 0 -15px;
-      /* cancel out page margin */ }
 
 .section--footer .container .row .col-md-10 {
   padding-top: 20px;
