@@ -28,7 +28,7 @@
     <div class="container">
         <div class="row revealOnScroll">
             <div class="col-md-8 col-md-offset-2">
-                <p class="section--paragraph text-center"><?php echo $l->t('Diversity strengthens a community. The Nextcloud Include initiative helps underrepresented groups participate in the Nextcloud project, building an inclusive and diverse space where we collaborate and develop world class software.');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Diversity strengthens a community. The Nextcloud Include initiative helps underrepresented groups to join the Nextcloud project, building an inclusive and diverse space where we collaborate and develop world class software.');?></p>
             </div>
         </div>
     </div>
@@ -67,9 +67,9 @@
 		<div class="ilustration ilustration__expertise">
 			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/ilustration_matterexperts-new.svg"); ?>
 		</div>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('There are many areas in Nextcloud you can get involved in. From technical tasks like building an app, design or coding on the front or back-end to translation and helping out on the forums.');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('There are many areas in Nextcloud you can get involved in. From technical tasks like building an app, design, coding on the front or back-end to translation and helping out on the forums.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We want to enable everyone to get involved and we recognize that the privileged nature of the tech community is an extra barrier for underrepresented groups. We hope to help lower that barrier by connecting you directly to somebody who wants to help you.');?></p>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We have a number of people are happy to help you get started!');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We have a number of people who are happy to help you get started!');?></p>
 		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="mailto:TBD"><?php echo $l->t('Find a mentor');?></a></p>
 	</div>
 </section>
@@ -83,8 +83,8 @@
 		<div class="ilustration ilustration__expertise">
 			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/people-cloud.svg"); ?>
 		</div>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('The Nextcloud community meets regularly at big hackweeks or smaller ad-hoc ones all over Europe. And we have our yearly Nextcloud Conference as well as many events we visit like FOSDEM and SCALE.');?></p>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We want to support participants to join these events by sponsoring part or the whole of the transportation and accomodation costs.');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('The Nextcloud community meets regularly at big hackweeks or smaller ad-hoc ones all over Europe. We also host our yearly Nextcloud Conference and attend many events like FOSDEM and SCALE.');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We want to support participants to join these events by sponsoring part or the whole of their transportation and accomodation costs.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('If you would like to join a Nextcloud event, let us know! We typically support 80% of the travel & hotel costs but we can accommodate you if that would not be sufficient. Don\'t hesitate to reach out and ask!');?></p>
 		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="mailto:TBD"><?php echo $l->t('Request travel support');?></a></p>
 	</div>
@@ -114,7 +114,7 @@
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 revealOnScroll">
 				<h3 class="text-center"><?php echo $l->t('Anticipated questions');?></h3>
-				<h1 class="section--heading-1 text-center"><?php echo $l->t('What it is not');?></h1>
+				<h1 class="section--heading-1 text-center"><?php echo $l->t('FAQ');?></h1>
             </div>
         </div>
 		<div class="row">
