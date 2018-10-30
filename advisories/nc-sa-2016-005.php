@@ -1,5 +1,5 @@
 <div class="row page-content-header">
-<div class="col-md-4">
+<div class="col-md-12">
     <h1>Security Advisory</h1>
     <a href="/security/advisories/">Back to advisories</a>
 </div>
