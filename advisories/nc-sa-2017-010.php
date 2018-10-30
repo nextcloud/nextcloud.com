@@ -13,9 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/79.html">Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') (CWE-79)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/222838">222838</a></p>
         <h3>Description</h3>
-        <p><p>A JavaScript library used by Nextcloud for sanitizing untrusted user-input suffered from a XSS vulnerability caused by a behaviour change in Safari 10.1 and 10.2.</p>
-<p>Note that Nextcloud employs a strict Content-Security-Policy preventing exploitation of this XSS issue on modern web browsers.</p>
-</p>
+        <p>A JavaScript library used by Nextcloud for sanitizing untrusted user-input suffered from a XSS vulnerability caused by a behaviour change in Safari 10.1 and 10.2.Note that Nextcloud employs a strict Content-Security-Policy preventing exploitation of this XSS issue on modern web browsers.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>11.0.3</strong> (CVE-2017-0893)</li>
@@ -24,8 +22,9 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The vulnerable library has been updated.</p>
-</p>
+        <p>The vulnerable library has been updated.</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to Nextcloud 9.0.58, 10.0.5 or 11.0.3.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

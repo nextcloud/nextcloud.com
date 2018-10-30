@@ -13,8 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/275.html">Permission Issues (CWE-275)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/145950">145950</a></p>
         <h3>Description</h3>
-        <p><p>The WebDAV endpoint was not properly checking the permission on a WebDAV "COPY" action. This allowed an authenticated attacker with access to a read-only share to put new files in there. It was not possible to modify existing files.</p>
-</p>
+        <p>The WebDAV endpoint was not properly checking the permission on a WebDAV "COPY" action. This allowed an authenticated attacker with access to a read-only share to put new files in there. It was not possible to modify existing files.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>9.0.52</strong> (CVE-2016-9461)</li>
@@ -24,8 +23,9 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The permission check is now also performed on "COPY" actions,</p>
-</p>
+        <p>The permission check is now also performed on "COPY" actions,</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to Nextcloud 9.0.52.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

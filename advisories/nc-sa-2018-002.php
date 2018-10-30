@@ -13,8 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/273.html">Improper Check for Dropped Privileges (CWE-273)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/358339">358339</a></p>
         <h3>Description</h3>
-        <p><p>A missing check for read permissions allowed users that received an incomming share containing files tagged so they should be denied access to still request a preview for those files.</p>
-</p>
+        <p>A missing check for read permissions allowed users that received an incomming share containing files tagged so they should be denied access to still request a preview for those files.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>13.0.3</strong> (CVE-2018-3762)</li>
@@ -22,8 +21,9 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The error has been fixed and regression tests been added.</p>
-</p>
+        <p>The error has been fixed and regression tests been added.</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to Nextcloud 13.0.3.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

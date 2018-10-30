@@ -13,9 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/79.html">Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') (CWE-79)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/163338">163338</a></p>
         <h3>Description</h3>
-        <p><p>The CardDAV image export functionality as implemented in Nextcloud allows the download of images stored within a vCard. Due to not performing any kind of verification on the image content this is prone to a stored Cross-Site Scripting attack.</p>
-<p><strong>Note:</strong> Nextcloud employs a very strict Content Security Policy on the DAV endpoints. This is thus only exploitable on browsers that don't support Content Security Policy.</p>
-</p>
+        <p>The CardDAV image export functionality as implemented in Nextcloud allows the download of images stored within a vCard. Due to not performing any kind of verification on the image content this is prone to a stored Cross-Site Scripting attack.<strong>Note:</strong> Nextcloud employs a very strict Content Security Policy on the DAV endpoints. This is thus only exploitable on browsers that don't support Content Security Policy.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>10.0.1</strong> (CVE-2016-9465)</li>
@@ -25,8 +23,9 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The mimetype of the exported image is now compared with a whitelist as well as download disposition headers have been set on the response.</p>
-</p>
+        <p>The mimetype of the exported image is now compared with a whitelist as well as download disposition headers have been set on the response.</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to Nextcloud 10.0.1.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

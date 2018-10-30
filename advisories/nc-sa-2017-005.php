@@ -13,8 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/807.html">Reliance on Untrusted Inputs in a Security Decision (CWE-807)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/173622">173622</a></p>
         <h3>Description</h3>
-        <p><p>Due to not properly sanitzing values provided by the `OC-Total-Length` HTTP header an authenticated adversary may be able to exceed their configured user quota. Thus using more space than allowed by the administrator.</p>
-</p>
+        <p>Due to not properly sanitzing values provided by the `OC-Total-Length` HTTP header an authenticated adversary may be able to exceed their configured user quota. Thus using more space than allowed by the administrator.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>10.0.2</strong> (CVE-2017-0887)</li>
@@ -22,8 +21,9 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The `OC-Total-Length` HTTP header is now properly sanitized.</p>
-</p>
+        <p>The `OC-Total-Length` HTTP header is now properly sanitized.</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to Nextcloud 9.0.55 or 10.0.2.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
