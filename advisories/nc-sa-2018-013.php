@@ -13,8 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/384.html">Session Fixation (CWE-384)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/237184">237184</a></p>
         <h3>Description</h3>
-        <p><p>A bug causing session fixation could potentially allow an attacker to obtain access to password protected shares.</p>
-</p>
+        <p>A bug causing session fixation could potentially allow an attacker to obtain access to password protected shares.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>14.0.0</strong> (CVE assignment pending)</li>
@@ -23,8 +22,9 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The error has been fixed.</p>
-</p>
+        <p>The error has been fixed.</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to at least Nextcloud 14.0.0, Nextcloud 13.0.3 or Nextcloud 12.0.8.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

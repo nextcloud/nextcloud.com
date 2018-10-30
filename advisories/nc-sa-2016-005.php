@@ -13,8 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/275.html">Permission Issues (CWE-275)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/146067">146067</a></p>
         <h3>Description</h3>
-        <p><p>The restore capability of Nextcloud was not verifying whether an user has only read-only access to a share. Thus an user with read-only access was able to restore old versions.</p>
-</p>
+        <p>The restore capability of Nextcloud was not verifying whether an user has only read-only access to a share. Thus an user with read-only access was able to restore old versions.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>9.0.52</strong> (CVE-2016-9462)</li>
@@ -24,8 +23,9 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The permission check is now also performed on restore actions.</p>
-</p>
+        <p>The permission check is now also performed on restore actions.</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to Nextcloud 9.0.52.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

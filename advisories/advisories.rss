@@ -6,223 +6,223 @@
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
   <title>Server: Improper access control checks for single share previews (NC-SA-2018-014)</title>
-  <description>&lt;p&gt;A missing check could give unauthorized access to the previews of single file password protected shares.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-014&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>A missing check could give unauthorized access to the previews of single file password protected shares.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-014&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-014</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-014</guid>
   <pubDate>Thu, 25 Oct 2018 14:00:00 +0200</pubDate>
  </item><item>
   <title>Server: Session fixation on public share page (NC-SA-2018-013)</title>
-  <description>&lt;p&gt;A bug causing session fixation could potentially allow an attacker to obtain access to password protected shares.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-013&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>A bug causing session fixation could potentially allow an attacker to obtain access to password protected shares.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-013&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-013</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-013</guid>
   <pubDate>Thu, 25 Oct 2018 14:00:00 +0200</pubDate>
  </item><item>
   <title>Server: Improper authentication on public shares (NC-SA-2018-012)</title>
-  <description>&lt;p&gt;A missing access check could lead to continued access to password protected link shares when the owner had changed the password.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-012&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>A missing access check could lead to continued access to password protected link shares when the owner had changed the password.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-012&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-012</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-012</guid>
   <pubDate>Thu, 25 Oct 2018 14:00:00 +0200</pubDate>
  </item><item>
   <title>Server: Second factor authentication bypassed if provider fails to load (NC-SA-2018-011)</title>
-  <description>&lt;p&gt;Missing state would not enforce the use of a second factor at login if the the provider of the second factor failed to load.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-011&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Missing state would not enforce the use of a second factor at login if the the provider of the second factor failed to load.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-011&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-011</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-011</guid>
   <pubDate>Thu, 25 Oct 2018 14:00:00 +0200</pubDate>
  </item><item>
   <title>Server: Improper validation of permissions (NC-SA-2018-010)</title>
-  <description>&lt;p&gt;Improper revalidation of permissions lead to not accepting access restrictions by acess tokens.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-010&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Improper revalidation of permissions lead to not accepting access restrictions by acess tokens.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-010&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-010</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-010</guid>
   <pubDate>Thu, 25 Oct 2018 14:00:00 +0200</pubDate>
  </item><item>
   <title>Talk App: Stored XSS in autocomplete suggestions for chat @-mentions (NC-SA-2018-009)</title>
-  <description>&lt;p&gt;A missing sanitization of search results for an autocomplete field could lead to a stored XSS requiring user-interaction. The missing sanitization only affected user names, hence malicious search results could only be crafted by authenticated users.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-009&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>A missing sanitization of search results for an autocomplete field could lead to a stored XSS requiring user-interaction. The missing sanitization only affected user names, hence malicious search results could only be crafted by authenticated users.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-009&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-009</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-009</guid>
   <pubDate>Fri, 10 Aug 2018 14:00:00 +0200</pubDate>
  </item><item>
   <title>Server: Stored XSS in autocomplete suggestions for file comments (NC-SA-2018-008)</title>
-  <description>&lt;p&gt;A missing sanitization of search results for an autocomplete field could lead to a stored XSS requiring user-interaction. The missing sanitization only affected user names, hence malicious search results could only be crafted by authenticated users.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-008&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>A missing sanitization of search results for an autocomplete field could lead to a stored XSS requiring user-interaction. The missing sanitization only affected user names, hence malicious search results could only be crafted by authenticated users.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-008&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-008</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-008</guid>
   <pubDate>Fri, 10 Aug 2018 14:00:00 +0200</pubDate>
  </item><item>
   <title>Server: Bypass of 2 Factor Authentication (NC-SA-2018-007)</title>
-  <description>&lt;p&gt;Improper authentication of the second factor challenge would allow an attacker that had access to user credentials to bypass the second factor validation completely.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Improper authentication of the second factor challenge would allow an attacker that had access to user credentials to bypass the second factor validation completely.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-007</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-007</guid>
   <pubDate>Fri, 03 Aug 2018 14:00:00 +0200</pubDate>
  </item><item>
   <title>Server: Improper validation of data passed to JSON encoder (NC-SA-2018-006)</title>
-  <description>&lt;p&gt;Improper validation of input allowed an attacker to not have their actions logged to the audit log.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-006&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Improper validation of input allowed an attacker to not have their actions logged to the audit log.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-006&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-006</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-006</guid>
   <pubDate>Fri, 03 Aug 2018 14:00:00 +0200</pubDate>
  </item><item>
   <title>Contacts App: Stored XSS in contacts via group shares (NC-SA-2018-005)</title>
-  <description>&lt;p&gt;A missing sanitization of search results for an autocomplete field could lead to a stored XSS requiring user-interaction. The missing sanitization only affected group names, hence malicious search results could only be crafted by privileged users like admins or group admins.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-005&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>A missing sanitization of search results for an autocomplete field could lead to a stored XSS requiring user-interaction. The missing sanitization only affected group names, hence malicious search results could only be crafted by privileged users like admins or group admins.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-005&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-005</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-005</guid>
   <pubDate>Thu, 21 Jun 2018 14:00:00 +0200</pubDate>
  </item><item>
   <title>Calendar App: Stored XSS in calendar via group shares (NC-SA-2018-004)</title>
-  <description>&lt;p&gt;A missing sanitization of search results for an autocomplete field could lead to a stored XSS requiring user-interaction. The missing sanitization only affected group names, hence malicious search results could only be crafted by privileged users like admins or group admins.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-004&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>A missing sanitization of search results for an autocomplete field could lead to a stored XSS requiring user-interaction. The missing sanitization only affected group names, hence malicious search results could only be crafted by privileged users like admins or group admins.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-004&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-004</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-004</guid>
   <pubDate>Thu, 21 Jun 2018 14:00:00 +0200</pubDate>
  </item><item>
   <title>Server: Improper validation on OAuth2 token endpoint (NC-SA-2018-003)</title>
-  <description>&lt;p&gt;Improper validation of input allowed an attacker with access to the OAuth2 refresh token to obtain new tokens.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Improper validation of input allowed an attacker with access to the OAuth2 refresh token to obtain new tokens.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-003</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-003</guid>
   <pubDate>Thu, 21 Jun 2018 14:00:00 +0200</pubDate>
  </item><item>
   <title>Server: File access control rules not applied to image previews (NC-SA-2018-002)</title>
-  <description>&lt;p&gt;A missing check for read permissions allowed users that received an incomming share containing files tagged so they should be denied access to still request a preview for those files.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-002&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>A missing check for read permissions allowed users that received an incomming share containing files tagged so they should be denied access to still request a preview for those files.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-002&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-002</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-002</guid>
   <pubDate>Thu, 21 Jun 2018 14:00:00 +0200</pubDate>
  </item><item>
   <title>Server: App password scope can be changed for other users (NC-SA-2018-001)</title>
-  <description>&lt;p&gt;A missing ownership check allowed logged-in users to change the scope of app passwords of other users. Note that the app passwords themselves where neither disclosed nor could the error be misused to identify as another user.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-001&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>A missing ownership check allowed logged-in users to change the scope of app passwords of other users. Note that the app passwords themselves where neither disclosed nor could the error be misused to identify as another user.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-001&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-001</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-001</guid>
   <pubDate>Wed, 07 Feb 2018 01:00:00 +0100</pubDate>
  </item><item>
   <title>Server: Calendar and addressbook names disclosed (NC-SA-2017-012)</title>
-  <description>&lt;p&gt;A logical error caused disclosure of calendar and addressbook names to other logged-in users. Note that no actual content of the calendar and adressbook has been disclosed.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-012&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>A logical error caused disclosure of calendar and addressbook names to other logged-in users. Note that no actual content of the calendar and adressbook has been disclosed.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-012&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-012</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-012</guid>
   <pubDate>Mon, 08 May 2017 14:00:00 +0200</pubDate>
  </item><item>
   <title>Server: Share tokens for public calendars disclosed (NC-SA-2017-011)</title>
-  <description>&lt;p&gt;A logical error caused disclosure of valid share tokens for public calendars. Thus granting an attacker potentially access to publicly shared calendars without knowing the share token.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-011&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>A logical error caused disclosure of valid share tokens for public calendars. Thus granting an attacker potentially access to publicly shared calendars without knowing the share token.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-011&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-011</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-011</guid>
   <pubDate>Mon, 08 May 2017 14:00:00 +0200</pubDate>
  </item><item>
   <title>Server: Stored XSS in Gallery application (NC-SA-2017-010)</title>
-  <description>&lt;p&gt;A JavaScript library used by Nextcloud for sanitizing untrusted user-input suffered from a XSS vulnerability caused by a behaviour change in Safari 10.1 and 10.2.&lt;/p&gt;&lt;p&gt;Note that Nextcloud employs a strict Content-Security-Policy preventing exploitation of this XSS issue on modern web browsers.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-010&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>A JavaScript library used by Nextcloud for sanitizing untrusted user-input suffered from a XSS vulnerability caused by a behaviour change in Safari 10.1 and 10.2.Note that Nextcloud employs a strict Content-Security-Policy preventing exploitation of this XSS issue on modern web browsers.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-010&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-010</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-010</guid>
   <pubDate>Mon, 08 May 2017 14:00:00 +0200</pubDate>
  </item><item>
   <title>Server: Limitation of app specific password scope can be bypassed (NC-SA-2017-009)</title>
-  <description>&lt;p&gt;Improper session handling allowed an application specific password without permission to the files access to the users file.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-009&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Improper session handling allowed an application specific password without permission to the files access to the users file.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-009&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-009</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-009</guid>
   <pubDate>Mon, 08 May 2017 14:00:00 +0200</pubDate>
  </item><item>
   <title>Server: Reflected XSS in error pages (NC-SA-2017-008)</title>
-  <description>&lt;p&gt;Inadequate escaping of error messages leads to XSS vulnerabilities in multiple components.&lt;/p&gt;&lt;p&gt;Note that Nextcloud employs a strict Content-Security-Policy preventing exploitation of this XSS issue on modern web browsers.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-008&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Inadequate escaping of error messages leads to XSS vulnerabilities in multiple components.Note that Nextcloud employs a strict Content-Security-Policy preventing exploitation of this XSS issue on modern web browsers.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-008&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-008</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-008</guid>
   <pubDate>Mon, 08 May 2017 14:00:00 +0200</pubDate>
  </item><item>
   <title>Server: DOM XSS vulnerability in search dialogue (NC-SA-2017-007)</title>
-  <description>&lt;p&gt;Inadequate escaping lead to XSS vulnerability in the search module. To be exploitable an user has to write or paste malicious content into the search dialogue.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Inadequate escaping lead to XSS vulnerability in the search module. To be exploitable an user has to write or paste malicious content into the search dialogue.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-007</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-007</guid>
   <pubDate>Mon, 08 May 2017 14:00:00 +0200</pubDate>
  </item><item>
   <title>Server: Content-Spoofing in &quot;files&quot; app (NC-SA-2017-006)</title>
-  <description>&lt;p&gt;The top navigation bar displayed in the files list contained partially user-controllable input leading to a potential misrepresentation of information.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-006&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>The top navigation bar displayed in the files list contained partially user-controllable input leading to a potential misrepresentation of information.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-006&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-006</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-006</guid>
   <pubDate>Sun, 05 Feb 2017 11:36:08 +0100</pubDate>
  </item><item>
   <title>Server: Bypassing quota limitation (NC-SA-2017-005)</title>
-  <description>&lt;p&gt;Due to not properly sanitzing values provided by the `OC-Total-Length` HTTP header an authenticated adversary may be able to exceed their configured user quota. Thus using more space than allowed by the administrator.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-005&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Due to not properly sanitzing values provided by the `OC-Total-Length` HTTP header an authenticated adversary may be able to exceed their configured user quota. Thus using more space than allowed by the administrator.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-005&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-005</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-005</guid>
   <pubDate>Sun, 05 Feb 2017 11:36:08 +0100</pubDate>
  </item><item>
   <title>Server: Denial of Service attack (NC-SA-2017-004)</title>
-  <description>&lt;p&gt;Due to an error in the application logic an authenticated adversary may trigger an endless recursion in the application leading to a potential Denial of Service.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-004&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Due to an error in the application logic an authenticated adversary may trigger an endless recursion in the application leading to a potential Denial of Service.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-004&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-004</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-004</guid>
   <pubDate>Sun, 05 Feb 2017 11:36:08 +0100</pubDate>
  </item><item>
   <title>Server: Error message discloses existence of file in write-only share (NC-SA-2017-003)</title>
-  <description>&lt;p&gt;Due to an error in the application logic an adversary with access to a write-only share may enumerate the names of existing files and subfolders by comparing the exception messages.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Due to an error in the application logic an adversary with access to a write-only share may enumerate the names of existing files and subfolders by comparing the exception messages.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-003</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-003</guid>
   <pubDate>Sun, 05 Feb 2017 11:36:08 +0100</pubDate>
  </item><item>
   <title>Server: Creation of folders in read-only folders despite lacking permissions (NC-SA-2017-002)</title>
-  <description>&lt;p&gt;Due to a logical error in the file caching layer an authenticated adversary is able to create empty folders inside a shared folder.&lt;/p&gt;&lt;p&gt;Note that this only affects folders and files that the adversary has at least read-only permissions for.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-002&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Due to a logical error in the file caching layer an authenticated adversary is able to create empty folders inside a shared folder.Note that this only affects folders and files that the adversary has at least read-only permissions for.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-002&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-002</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-002</guid>
   <pubDate>Sun, 05 Feb 2017 11:36:08 +0100</pubDate>
  </item><item>
   <title>Server: Permission increase on re-sharing via OCS API (NC-SA-2017-001)</title>
-  <description>&lt;p&gt;A permission related issue within the OCS sharing API allowed an authenticated adversary to reshare shared files with an increasing permission set. This may allow an attacker to edit files in a share despite having only a 'read' permission set.&lt;/p&gt;&lt;p&gt;Note that this only affects folders and files that the adversary has at least read-only permissions for.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-001&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>A permission related issue within the OCS sharing API allowed an authenticated adversary to reshare shared files with an increasing permission set. This may allow an attacker to edit files in a share despite having only a 'read' permission set.Note that this only affects folders and files that the adversary has at least read-only permissions for.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2017-001&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2017-001</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2017-001</guid>
   <pubDate>Sun, 05 Feb 2017 11:36:08 +0100</pubDate>
  </item><item>
   <title>Server: Content-Spoofing in &quot;dav&quot; app (NC-SA-2016-011)</title>
-  <description>&lt;p&gt;The exception message displayed on the DAV endpoints contained partially user-controllable input leading to a potential misrepresentation of information.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-011&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>The exception message displayed on the DAV endpoints contained partially user-controllable input leading to a potential misrepresentation of information.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-011&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-011</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2016-011</guid>
   <pubDate>Mon, 10 Oct 2016 13:21:06 +0200</pubDate>
  </item><item>
   <title>Server: Content-Spoofing in &quot;files&quot; app (NC-SA-2016-010)</title>
-  <description>&lt;p&gt;The location bar in the files app was not verifying the passed parameters. An attacker could craft an invalid link to a fake directory structure and use this to display an attacker-controlled error message to the user.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-010&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>The location bar in the files app was not verifying the passed parameters. An attacker could craft an invalid link to a fake directory structure and use this to display an attacker-controlled error message to the user.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-010&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-010</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2016-010</guid>
   <pubDate>Mon, 10 Oct 2016 13:21:06 +0200</pubDate>
  </item><item>
   <title>Server: Reflected XSS in Gallery application (NC-SA-2016-009)</title>
-  <description>&lt;p&gt;The gallery app was not properly sanitizing exception messages from the Nextcloud server. Due to an endpoint where an attacker could influence the error message this lead to a reflected Cross-Site-Scripting vulnerability.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-009&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>The gallery app was not properly sanitizing exception messages from the Nextcloud server. Due to an endpoint where an attacker could influence the error message this lead to a reflected Cross-Site-Scripting vulnerability.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-009&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-009</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2016-009</guid>
   <pubDate>Mon, 10 Oct 2016 13:21:06 +0200</pubDate>
  </item><item>
   <title>Server: Stored XSS in CardDAV image export (NC-SA-2016-008)</title>
-  <description>&lt;p&gt;The CardDAV image export functionality as implemented in Nextcloud allows the download of images stored within a vCard. Due to not performing any kind of verification on the image content this is prone to a stored Cross-Site Scripting attack.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Nextcloud employs a very strict Content Security Policy on the DAV endpoints. This is thus only exploitable on browsers that don't support Content Security Policy.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-008&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>The CardDAV image export functionality as implemented in Nextcloud allows the download of images stored within a vCard. Due to not performing any kind of verification on the image content this is prone to a stored Cross-Site Scripting attack.&lt;strong&gt;Note:&lt;/strong&gt; Nextcloud employs a very strict Content Security Policy on the DAV endpoints. This is thus only exploitable on browsers that don't support Content Security Policy.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-008&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-008</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2016-008</guid>
   <pubDate>Mon, 10 Oct 2016 13:21:06 +0200</pubDate>
  </item><item>
   <title>Server: Improper authorization check on removing shares (NC-SA-2016-007)</title>
-  <description>&lt;p&gt;The Sharing Backend as implemented in Nextcloud does differentiate between shares to users and groups. In case of a received group share, users should be able to unshare the file to themselves but not to the whole group. The previous API implementation did simply unshare the file to all users in the group.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>The Sharing Backend as implemented in Nextcloud does differentiate between shares to users and groups. In case of a received group share, users should be able to unshare the file to themselves but not to the whole group. The previous API implementation did simply unshare the file to all users in the group.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-007</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2016-007</guid>
   <pubDate>Mon, 10 Oct 2016 13:21:06 +0200</pubDate>
  </item><item>
   <title>Server: SMB User Authentication Bypass (NC-SA-2016-006)</title>
-  <description>&lt;p&gt;Nextcloud includes an optional and not by default enabled SMB authentication component that allows to authenticate users against an SMB server.&lt;/p&gt;&lt;p&gt;This backend is implemented in a way that it tries to connect to a SMB server and if that succeeded consider the user logged-in.&lt;/p&gt;&lt;p&gt;The backend did not properly take into account SMB servers that any kind of anonymous auth configured. This is the default on SMB servers nowadays and allows an unauthenticated attacker to gain access to an account without valid credentials.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The SMB backend is disabled by default and requires manual configuration in the Nextcloud config file. If you have not configured the SMB backend then you're not affected by this vulnerability.&lt;/p&gt;&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://rhinosecuritylabs.com/2016/10/operation-ownedcloud-exploitation-post-exploitation-persistence/&quot;&gt;The reporter has published a blog post about this issue on their website as well.&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-006&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Nextcloud includes an optional and not by default enabled SMB authentication component that allows to authenticate users against an SMB server.This backend is implemented in a way that it tries to connect to a SMB server and if that succeeded consider the user logged-in.The backend did not properly take into account SMB servers that any kind of anonymous auth configured. This is the default on SMB servers nowadays and allows an unauthenticated attacker to gain access to an account without valid credentials.&lt;strong&gt;Note:&lt;/strong&gt; The SMB backend is disabled by default and requires manual configuration in the Nextcloud config file. If you have not configured the SMB backend then you're not affected by this vulnerability.&lt;em&gt;&lt;a href=&quot;https://rhinosecuritylabs.com/2016/10/operation-ownedcloud-exploitation-post-exploitation-persistence/&quot;&gt;The reporter has published a blog post about this issue on their website as well.&lt;/a&gt;&lt;/em&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-006&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-006</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2016-006</guid>
   <pubDate>Mon, 10 Oct 2016 13:21:06 +0200</pubDate>
  </item><item>
   <title>Server: Read-only share recipient can restore old versions of file (NC-SA-2016-005)</title>
-  <description>&lt;p&gt;The restore capability of Nextcloud was not verifying whether an user has only read-only access to a share. Thus an user with read-only access was able to restore old versions.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-005&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>The restore capability of Nextcloud was not verifying whether an user has only read-only access to a share. Thus an user with read-only access was able to restore old versions.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-005&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-005</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2016-005</guid>
   <pubDate>Tue, 19 Jul 2016 10:26:09 +0200</pubDate>
  </item><item>
   <title>Server: Edit permission check not enforced on WebDAV COPY action (NC-SA-2016-004)</title>
-  <description>&lt;p&gt;The WebDAV endpoint was not properly checking the permission on a WebDAV &quot;COPY&quot; action. This allowed an authenticated attacker with access to a read-only share to put new files in there. It was not possible to modify existing files.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-004&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>The WebDAV endpoint was not properly checking the permission on a WebDAV &quot;COPY&quot; action. This allowed an authenticated attacker with access to a read-only share to put new files in there. It was not possible to modify existing files.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-004&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-004</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2016-004</guid>
   <pubDate>Tue, 19 Jul 2016 10:26:09 +0200</pubDate>
  </item><item>
   <title>Server: Content-Spoofing in &quot;files&quot; app (NC-SA-2016-003)</title>
-  <description>&lt;p&gt;The location bar in the files app was not verifying the passed parameters. An attacker could craft an invalid link to a fake directory structure and use this to display an attacker-controlled error message to the user.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>The location bar in the files app was not verifying the passed parameters. An attacker could craft an invalid link to a fake directory structure and use this to display an attacker-controlled error message to the user.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-003</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2016-003</guid>
   <pubDate>Tue, 19 Jul 2016 10:26:09 +0200</pubDate>
  </item><item>
   <title>Server: Log pollution can potentially lead to local HTML injection (NC-SA-2016-002)</title>
-  <description>&lt;p&gt;The &quot;download log&quot; functionality in the admin screen is delivering the log in JSON format to the end-user. The file was delivered with an attachment disposition forcing the browser to download the document. However, Firefox running on Microsoft Windows would offer the user to open the data in the browser as HTML document. Thus any injected data in the log would be executed.&lt;/p&gt;&lt;p&gt;While the document would only be executed locally (thus on another scope) we have decided to fix this to protect our users.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-002&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>The &quot;download log&quot; functionality in the admin screen is delivering the log in JSON format to the end-user. The file was delivered with an attachment disposition forcing the browser to download the document. However, Firefox running on Microsoft Windows would offer the user to open the data in the browser as HTML document. Thus any injected data in the log would be executed.While the document would only be executed locally (thus on another scope) we have decided to fix this to protect our users.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-002&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-002</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2016-002</guid>
   <pubDate>Tue, 19 Jul 2016 10:26:09 +0200</pubDate>
  </item><item>
   <title>Server: Stored XSS in &quot;gallery&quot; application (NC-SA-2016-001)</title>
-  <description>&lt;p&gt;Due to a recent migration of the Gallery app to the new sharing endpoint a parameter changed from an integer to a string value. This value wasn't sanitized before and was thus now vulnerable to a Cross-Site-Scripting attack.&lt;/p&gt;&lt;p&gt;To exploit this vulnerability an authenticated attacker has to share a folder with someone else, get them to open the shared folder in the Gallery app and open the sharing window there.&lt;/p&gt;&lt;p&gt;Since Nextcloud employes a strict Content-Security-Policy this vulnerability is only exploitable in browsers not supporting Content-Security-Policy. You can check at &lt;a href=&quot;http://caniuse.com/#feat=contentsecuritypolicy&quot;&gt;caniuse.com&lt;/a&gt; whether your browser supports CSP.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-001&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Due to a recent migration of the Gallery app to the new sharing endpoint a parameter changed from an integer to a string value. This value wasn't sanitized before and was thus now vulnerable to a Cross-Site-Scripting attack.To exploit this vulnerability an authenticated attacker has to share a folder with someone else, get them to open the shared folder in the Gallery app and open the sharing window there.Since Nextcloud employes a strict Content-Security-Policy this vulnerability is only exploitable in browsers not supporting Content-Security-Policy. You can check at &lt;a href=&quot;http://caniuse.com/#feat=contentsecuritypolicy&quot;&gt;caniuse.com&lt;/a&gt; whether your browser supports CSP.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-001&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-001</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2016-001</guid>
   <pubDate>Tue, 19 Jul 2016 10:26:09 +0200</pubDate>

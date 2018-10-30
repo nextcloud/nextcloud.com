@@ -13,8 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/451.html">User Interface (UI) Misrepresentation of Critical Information (CWE-451)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/145463">145463</a></p>
         <h3>Description</h3>
-        <p><p>The location bar in the files app was not verifying the passed parameters. An attacker could craft an invalid link to a fake directory structure and use this to display an attacker-controlled error message to the user.</p>
-</p>
+        <p>The location bar in the files app was not verifying the passed parameters. An attacker could craft an invalid link to a fake directory structure and use this to display an attacker-controlled error message to the user.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>9.0.52</strong> (CVE-2016-9460)</li>
@@ -26,8 +25,9 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The passed parameter is now verified.</p>
-</p>
+        <p>The passed parameter is now verified.</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to Nextcloud 9.0.52.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

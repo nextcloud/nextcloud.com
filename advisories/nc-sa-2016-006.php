@@ -13,12 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/303.html">Incorrect Implementation of Authentication Algorithms (CWE-303)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/148151">148151</a></p>
         <h3>Description</h3>
-        <p><p>Nextcloud includes an optional and not by default enabled SMB authentication component that allows to authenticate users against an SMB server.</p>
-<p>This backend is implemented in a way that it tries to connect to a SMB server and if that succeeded consider the user logged-in.</p>
-<p>The backend did not properly take into account SMB servers that any kind of anonymous auth configured. This is the default on SMB servers nowadays and allows an unauthenticated attacker to gain access to an account without valid credentials.</p>
-<p><strong>Note:</strong> The SMB backend is disabled by default and requires manual configuration in the Nextcloud config file. If you have not configured the SMB backend then you're not affected by this vulnerability.</p>
-<p><em><a href="https://rhinosecuritylabs.com/2016/10/operation-ownedcloud-exploitation-post-exploitation-persistence/">The reporter has published a blog post about this issue on their website as well.</a></em></p>
-</p>
+        <p>Nextcloud includes an optional and not by default enabled SMB authentication component that allows to authenticate users against an SMB server.This backend is implemented in a way that it tries to connect to a SMB server and if that succeeded consider the user logged-in.The backend did not properly take into account SMB servers that any kind of anonymous auth configured. This is the default on SMB servers nowadays and allows an unauthenticated attacker to gain access to an account without valid credentials.<strong>Note:</strong> The SMB backend is disabled by default and requires manual configuration in the Nextcloud config file. If you have not configured the SMB backend then you're not affected by this vulnerability.<em><a href="https://rhinosecuritylabs.com/2016/10/operation-ownedcloud-exploitation-post-exploitation-persistence/">The reporter has published a blog post about this issue on their website as well.</a></em></p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>9.0.54</strong> (CVE-2016-9463)</li>
@@ -32,8 +27,9 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The SMB backend is now performing an additional authentication attempt with invalid credentials. If that succeeds as well it assumes that anonymous authentications are enabled and denies the login attempt.</p>
-</p>
+        <p>The SMB backend is now performing an additional authentication attempt with invalid credentials. If that succeeds as well it assumes that anonymous authentications are enabled and denies the login attempt.</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to Nextcloud 9.0.54 or 10.0.1.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

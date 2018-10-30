@@ -13,8 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/284.html">Improper Access Control - Generic (CWE-284)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/388515">388515</a></p>
         <h3>Description</h3>
-        <p><p>Improper revalidation of permissions lead to not accepting access restrictions by acess tokens.</p>
-</p>
+        <p>Improper revalidation of permissions lead to not accepting access restrictions by acess tokens.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>14.0.0</strong> (CVE assignment pending)</li>
@@ -23,8 +22,9 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The error has been fixed.</p>
-</p>
+        <p>The error has been fixed.</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to Nextcloud 14.0.0, Nextcloud 13.0.6 or Nextcloud 12.0.11.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

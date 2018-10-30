@@ -13,8 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/548.html">Information Exposure Through Directory Listing (CWE-548)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/203594">203594</a></p>
         <h3>Description</h3>
-        <p><p>A logical error caused disclosure of calendar and addressbook names to other logged-in users. Note that no actual content of the calendar and adressbook has been disclosed.</p>
-</p>
+        <p>A logical error caused disclosure of calendar and addressbook names to other logged-in users. Note that no actual content of the calendar and adressbook has been disclosed.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>11.0.2</strong> (CVE-2017-0895)</li>
@@ -22,8 +21,9 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The error has been fixed and regression tests been added.</p>
-</p>
+        <p>The error has been fixed and regression tests been added.</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to Nextcloud 11.0.3.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

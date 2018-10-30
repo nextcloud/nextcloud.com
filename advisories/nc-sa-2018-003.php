@@ -13,8 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/20.html">Improper Input Validation (CWE-20)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/343111">343111</a></p>
         <h3>Description</h3>
-        <p><p>Improper validation of input allowed an attacker with access to the OAuth2 refresh token to obtain new tokens.</p>
-</p>
+        <p>Improper validation of input allowed an attacker with access to the OAuth2 refresh token to obtain new tokens.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>13.0.3</strong> (CVE-2018-3761)</li>
@@ -22,8 +21,9 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The error has been fixed according to RFC6749.</p>
-</p>
+        <p>The error has been fixed according to RFC6749.</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to Nextcloud 13.0.3.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
