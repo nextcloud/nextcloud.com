@@ -134,6 +134,28 @@
                 </div>
             </div>
         </div>
+        <div class="row docscanner">
+            <p class="section--paragraph__tittle text-center"><?php echo $l->t('Document scanner in action');?></p>
+            <br>
+            <div class="col-xs-6 col-sm-4 col-lg-2">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-1.png"><img class="thumbnail img-thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-1.png" class="" ></a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-lg-2">
+                <a  href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-2.jpg"><img class="thumbnail img-thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-2.jpg" class="" ></a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-lg-2">
+                <a  href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-3.png"><img class="thumbnail img-thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-3.png" class="" ></a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-lg-2">
+                <a  href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-4.png"><img class="thumbnail img-thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-4.png" class="" ></a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-lg-2">
+                <a  href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-5.png"><img class="thumbnail img-thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-5.png" class="" ></a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-lg-2">
+                <a  href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-6.png"><img class="thumbnail img-thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-6.png" class="" ></a>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -157,6 +179,7 @@
                 <li><?php echo $l->t('Local and server-side search');?></li>
                 <li><?php echo $l->t('Support for server notifications and file activity feed');?></li>
                 <li><?php echo $l->t('3D Touch peek&pop and homescreen quick actions');?></li>
+                <li><?php echo $l->t('Scan-to-PDF with rotation and quality level control');?></li>
                 </ul></p>
             </div>
             <div class="col-sm-4 revealOnScroll">
@@ -164,7 +187,8 @@
                 <li><?php echo $l->t('Multi-account support');?></li>
                 <li><?php echo $l->t('Adjusts to Nextcloud server theming preferences');?></li>
                 <li><?php echo $l->t('Auto-upload of photos and videos with custom file naming and folder sorting, wifi-only upload and HEIC support');?></li>
-                <li><?php echo $l->t('iOS 11 Files app integration');?></li>
+                <li><?php echo $l->t('iOS 11 Files Integration');?></li>
+                <li><?php echo $l->t('Trash and versions integration');?></li>
                 </ul></p>
             </div>
         </div>
@@ -205,9 +229,12 @@
             <div class="col-sm-4 revealOnScroll">
                 <p class="section--paragraph"><ul>
                 <li><?php echo $l->t('Display documents, photos, videos, audio files, as a list or thumbnails, sorted as you like.');?></li>
+                <li><?php echo $l->t('Stream media files (needs at least Nextcloud 14)');?></li>
                 <li><?php echo $l->t('Edit files on the phone built in or using other apps installed on your Android device.');?></li>
+                <li><?php echo $l->t('Local and server-side search');?></li>
                 <li><?php echo $l->t('Add, rename, copy, move and delete files and folders');?></li>
                 <li><?php echo $l->t('Keep your favorite files available offline');?></li>
+                <li><?php echo $l->t('Restore deleted files (needs at least Nextcloud 14)');?></li>
                 </ul></p>
             </div>
             <div class="col-sm-4 revealOnScroll">
@@ -219,19 +246,16 @@
                 <li><?php echo $l->t('Client-side,');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('End-to-end encryption');?></a></li>
                 <li><?php echo $l->t('Support for server push notifications and file activity feed');?></li>
                 <li><?php echo $l->t('View and reply to comments on files (needs at least Nextcloud 14)');?></li>
-                <li><?php echo $l->t('Restore deleted files (needs at least Nextcloud 14)');?></li>
                 </ul></p>
             </div>
             <div class="col-sm-4 revealOnScroll">
                 <p class="section--paragraph"><ul>
-                <li><?php echo $l->t('Stream media files (needs at least Nextcloud 14)');?></li>
                 <li><?php echo $l->t('TalkBack screenreader support');?></li>
-                <li><?php echo $l->t('Local and server-side search');?></li>
                 <li><?php echo $l->t('Multi-account support');?></li>
                 <li><?php echo $l->t('Fingerprint locking');?></li>
                 <li><?php echo $l->t('Adjusts to Nextcloud server theming preferences');?></li>
                 <li><?php echo $l->t('Auto-upload of any type of data including photos and videos with custom file naming and folder sorting, wifi-only upload, differential handling of photos and videos');?></li>
-                <li><?php echo $l->t('monitor any number of folders so you can upload Whatsapp etc images');?></li>
+                <li><?php echo $l->t('monitor any number of folders for any file type so you can upload Whatsapp images, documents and anything else');?></li>
                 </ul></p>
             </div>
         </div>

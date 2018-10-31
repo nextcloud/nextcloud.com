@@ -51,9 +51,9 @@ section {
   section .quote .row {
     padding-top: 0px; }
 
-.section--mobile .container .row {
+.section--mobile .container .row, .section--ios .container .row {
   overflow: hidden; }
-  .section--mobile .container .row img {
+  .section--mobile .container .row img, .section--ios .container .row img {
     margin: 30px auto;
     /* 				max-width: 70vw; */
     max-width: 90%;
