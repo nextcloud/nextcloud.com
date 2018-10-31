@@ -19,6 +19,7 @@
     <a href="https://cloud.nextcloud.com/s/ZRmqqsd59rRPJoL" class="button button--large button--blue button--arrow">Press release and background</a>
     <h2>Press releases</h2>
     <ul>
+    <li><a href="<?php echo home_url('press/pr20181030') ?>">October 30, 2018: Nextcloud founder wins innovation award, donates prize money to open source diversity fund</a></li>
     <li><a href="<?php echo home_url('press/pr20181018') ?>">October 18, 2018: Nextcloud and Collabora bring deeper integration to document collaboration</a></li>
     <li><a href="<?php echo home_url('press/pr20180917') ?>">September 17, 2018: Rocket.Chat and Nextcloud announce partnership and integration</a></li>
     <li><a href="<?php echo home_url('press/pr20180825-1') ?>">August 25, 2018: Nextcloud 14 Introducing Video Verification and Signal/Telegram 2FA support, Improved Collaboration and GDPR compliance</a></li>
