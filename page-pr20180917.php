@@ -1,3 +1,20 @@
+<head>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pressrelease.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+
+<div class="background generic-background">
+    <img class="pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/empty1x1.png" alt="">
+    <div class="container">
+        <div class="col-md-6 topheader">
+            <h1>Press release</h1>
+        </div>
+    </div>
+</div>
+
+<section class="section--pressrelease">
+<div class="container">
+<div class="row">
 <div class="pr">
 <h1>Rocket.Chat and Nextcloud announce partnership and integration</h1>
 <h3>Delivering integrated file exchange in popular communication platform</h3>
@@ -59,3 +76,7 @@ e-mail: <a href="mailto:press@rocket.chat">press@rocket.chat</a></p>
 <div class="row">
 <div class="col-md-4"><div class="thumbnail wp-caption alignnone" style="width: 100%"><a href="https://nextcloud.com/media/big_integration_gif.gif"><img class="img-responsive" alt="rocket.chat x nextcloud integration demo" src="https://nextcloud.com/media/big_integration_gif.gif" /></a> Adding a server</div></div>
 </div>
+
+</div>
+</div>
+</section>

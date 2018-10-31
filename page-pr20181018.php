@@ -1,3 +1,20 @@
+<head>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pressrelease.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+
+<div class="background generic-background">
+    <img class="pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/empty1x1.png" alt="">
+    <div class="container">
+        <div class="col-md-6 topheader">
+            <h1>Press release</h1>
+        </div>
+    </div>
+</div>
+
+<section class="section--pressrelease">
+<div class="container">
+<div class="row">
 <div class="pr">
 <h1>Nextcloud and Collabora bring deeper integration to document collaboration</h1>
 <h3>Integration adds previews, image insertion and sidebar with comments and sharing options</h3>
@@ -43,7 +60,6 @@ e-mail: <a href="mailto:pr@nextcloud.com">pr@nextcloud.com</a></br />
 Collabora Productivity<br />
 Jona Azizaj<br />
 e-mail: <a href="mailto:press@collabora.com">press@collabora.com</a></p>
-</div>
 
 <div class="row">
 <div class="col-md-4"><div class="thumbnail wp-caption alignnone" style="width: 100%"><a href="https://nextcloud.com/media/Collabora-insert-image.png"><img class="img-responsive size-medium" src="https://nextcloud.com/media/Collabora-insert-image.png" alt="" /></a> You can now insert images directly from your Nextcloud.</div></div>
@@ -54,3 +70,7 @@ e-mail: <a href="mailto:press@collabora.com">press@collabora.com</a></p>
 <div class="col-md-4"><div class="thumbnail wp-caption alignnone" style="width: 100%"><a href="https://nextcloud.com/media/Collabora-comments.png"><img class="img-responsive size-medium" src="https://nextcloud.com/media/Collabora-comments.png" alt="" /></a> View and reply to comments</div></div>
 <div class="col-md-4"><div class="thumbnail wp-caption alignnone" style="width: 100%"><a href="https://nextcloud.com/media/Collabora-avatar.png"><img class="img-responsive size-medium" src="https://nextcloud.com/media/Collabora-avatar.png" alt="" /></a> You can of course click any avatar to start a chat or sent an email</div></div>
 </div>
+
+</div>
+</div>
+</section>
