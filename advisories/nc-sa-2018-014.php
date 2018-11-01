@@ -16,7 +16,7 @@
         <p>A missing check could give unauthorized access to the previews of single file password protected shares.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>14.0.0</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>14.0.0</strong> (CVE-2018-16467)</li>
 
         </ul>
         <h3>Action Taken</h3>

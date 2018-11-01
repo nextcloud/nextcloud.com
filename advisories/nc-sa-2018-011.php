@@ -16,7 +16,7 @@
         <p>Missing state would not enforce the use of a second factor at login if the the provider of the second factor failed to load.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>14.0.0</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>14.0.0</strong> (CVE-2018-16465)</li>
 
         </ul>
         <h3>Action Taken</h3>

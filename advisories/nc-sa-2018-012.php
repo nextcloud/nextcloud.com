@@ -16,7 +16,7 @@
         <p>A missing access check could lead to continued access to password protected link shares when the owner had changed the password.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>14.0.0</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>14.0.0</strong> (CVE-2018-16464)</li>
 
         </ul>
         <h3>Action Taken</h3>

@@ -16,9 +16,9 @@
         <p>A bug causing session fixation could potentially allow an attacker to obtain access to password protected shares.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>14.0.0</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>13.0.3</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>12.0.8</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>14.0.0</strong> (CVE-2018-16463)</li>
+<li>Nextcloud Server &lt; <strong>13.0.3</strong> (CVE-2018-16463)</li>
+<li>Nextcloud Server &lt; <strong>12.0.8</strong> (CVE-2018-16463)</li>
 
         </ul>
         <h3>Action Taken</h3>

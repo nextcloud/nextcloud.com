@@ -16,9 +16,9 @@
         <p>Improper revalidation of permissions lead to not accepting access restrictions by acess tokens.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>14.0.0</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>13.0.6</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>12.0.11</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>14.0.0</strong> (CVE-2018-16466)</li>
+<li>Nextcloud Server &lt; <strong>13.0.6</strong> (CVE-2018-16466)</li>
+<li>Nextcloud Server &lt; <strong>12.0.11</strong> (CVE-2018-16466)</li>
 
         </ul>
         <h3>Action Taken</h3>
