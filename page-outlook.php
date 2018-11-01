@@ -100,7 +100,7 @@
 			</div>
             <div class="row">
                 <div class="col-md-6 revealOnScroll image--feature image--floated">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/activity-view.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/activity-view.png" alt="in action" /></a>
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-activities-nw.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-activities-nw.png" alt="in action" /></a>
 				</div>
                 <div class="col-md-6 revealOnScroll featureblock">
                     <p class="section--paragraph"><?php echo $l->t('The Add-in can be configured to automatically upload all attachments the user added to an email starting from a configurable size, for example, all files over 200kb.');?></p>
