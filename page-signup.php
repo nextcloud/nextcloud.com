@@ -72,7 +72,8 @@ $officialApps = [
     'fulltextsearch' => $l->t('Full text search'),
     'mindmaps' => $l->t('Mindmaps'),
     'passman' => $l->t('Passman'),
-    'drawio' => $l->t('Draw.io')
+    'drawio' => $l->t('Draw.io'),
+    'bookmarks' => $l->t('Bookmarks')
 ];
 
 $coreApps = ['files', 'calendar', 'contacts', 'spreed', 'mail', 'tasks', 'notes'];
