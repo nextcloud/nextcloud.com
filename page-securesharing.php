@@ -1,5 +1,11 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/securesharing.css" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/broken.jpg">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/broken.jpg">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/broken.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/broken.jpg">
 </head>
 <div class="background security-background">
 	<div class="container">
