@@ -21,6 +21,11 @@
 			<blockquote>Seventy-five percent of companies in these industries rely on email for file sharing and collaboration, while more than half use FTP sites.</blockquote>
 		</div>
 	</div>
+	<div class="row revealOnScroll">
+		<div class="col-md-8 col-md-offset-2">
+			<p class="section--paragraph text-center"><span class="avoidwrap">The public cloud is a risky solution! A McAfee survey showed that</span> <span class="avoidwrap"><a class="hyperlink" href="https://www.zdnet.com/article/report-1-in-4-public-cloud-users-has-had-data-stolen/">25% of organizations using public cloud suffered data theft.</a></span></p>
+		</div>
+	</div>
 </section>
 <section>
 <div class="container">
@@ -42,6 +47,7 @@
         <div class="col-md-6">
             <h3>Current 'solution': email</h3>
             <p class="section--paragraph">Over half of the teams managed by respondents is reported to use public, consumer grade file sharing services and email to share code, patches and other intellectual property within the organization as well as with customers. Forrester notes that these solutions neither protect intellectual property and competitive advantage but also offer little control or rights management, nor audit and tracking controls.</p>
+            <p class="section--paragraph">And indeed, the McAfee survey shows data loss and theft occur regularly. Change is needed.</p>
             <h3>Concerns about new technologies</h3>
             <p class="section--paragraph">But introducing a new technology can be disruptive. A key concern cited by 72% of the respondents is the creation of new content silos. Having to migrate data and manage it in a new location, the goals of simplifying work flows while strengthening governance will not be achieved.</p>
         </div>
@@ -58,9 +64,12 @@
             <img class="img-responsive acess__anywhere" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/access-anywhere.png" alt="access on any device" >
         </div>
         <div class="col-md-8">
-            <h2>Real solutions</h2>
+            <h2>A real solution</h2>
             <p class="section--paragraph">By providing businesses a <a class="hyperlink" href="https://nextcloud.com/blog/the-issue-with-public-cloud/">self hosted</a> file access, sync and share solution with powerful integration in existing infrastructure and storage solutions, Nextcloud makes data available to users wherever it is. No need for new storage solutions or moving all data over. Easy integration and quick deployment brings organizations immediately in a compliant, secure state.</p>
-            <p class="section--paragraph">Its familiar, easy to use interface on web, mobile and desktop allows users to work efficiently and be confident everybody has access to the same, latest version of data. Its enterprise capabilities ensure IT maintains <a class="hyperlink" href="<?php echo home_url('workflow') ?>">full control</a> over sharing, retention and availability of data within and across the boundaries of the organization. Learn more technical details about <a class="hyperlink" href="<?php echo home_url('files') ?>">Nextcloud Files here.</a></p>
+            <p class="section--paragraph__tittle">Secure with a low barrier to entry</p>
+            <p class="section--paragraph">Its familiar, easy to use interface on web, mobile and desktop allows users to work efficiently and be confident everybody has access to the same, latest version of data. Its enterprise capabilities ensure IT maintains <a class="hyperlink" href="<?php echo home_url('workflow') ?>">full control</a> over sharing, retention and availability of data within and across the boundaries of the organization.</p>
+            <p class="section--paragraph__tittle">Decentralized and hybrid</p>
+            <p class="section--paragraph">Last but not least, Nextcloud is a perfect fit for a <strong>Hybrid Cloud strategy,</strong> enabling universal access to data irrespective of where it is stored: on an internal network, in the cloud or even at a partner. Through <a class="hyperlink" href="<?php echo home_url('globalscale') ?>">Global Scale,</a> it is possible to host multiple separate Nextcloud servers to ensure data locality rules are while inter-server sharing and encryption of unsafe storage ensure data is both safe and seamlessly accessible at all times.</p>
 		</div>
     </div>
 </div>
@@ -74,7 +83,7 @@
             <div class="col-md-4 revealOnScroll">
                 <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
                 <p class="section--paragraph__tittle text-center">Why self-hosting?</p>
-                <p class="section--paragraph text-center">Simply keeping your data behind your company firewall rather than the cloud makes compliance and security so much easier.</p>
+                <p class="section--paragraph text-center">Simply keeping your data behind your company firewall rather than the cloud makes compliance and security easy.</p>
                 <p class="section--paragraph text-center">With Nextcloud, you don't lose the benefits of modern cloud technology!</p>
             </div>
             <div class="col-md-4 revealOnScroll">
@@ -119,6 +128,7 @@
         <div class="col-md-12">
             <h3>No new data silos</h3>
             <p class="section--paragraph">Modern organizations have data in a wide variety of silos like Sharepoint, Windows Network Drives, FTP sites and (often without knowledge of management) Dropbox or Google Drive. Nextcloud acts as a <a class="hyperlink" href="/storage">single file access, sync and share layer</a> across all these storage systems, integrating with enterprise native account handling like LDAP or SAML.</p>
+            <p class="section--paragraph">That does not exclude using public cloud, nor requires you to give up on data locality. Nextcloud fits perfectly in a hybrid cloud strategy, enabling access to data on Amazon S3 and other public storage technologies. Even cutting-edge Blockchain storage technologies like <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-joins-storj-labs-to-deliver-decentralized-secure-storage/">Storj.io</a> and Sia.tech are available to augment storage at extremely low cost.</p>
 		</div>
     </div>
 </div>
@@ -152,11 +162,26 @@
 <section>
 <div class="container">
     <div class="row revealOnScroll">
+        <div class="col-md-6 revealOnScroll image--floated">
+            <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/I5wcLS9xxMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+	    <div class="col-md-6">
+            <h3>At global scale and ensuring data locality</h3>
+			<p class="section--paragraph">Our unique <a href="<?php echo home_url('globalscale') ?>" class="hyperlink">Global Scale</a> technology enables multiple Nextcloud instances to work as one, enabling enterprises to maintain multiple locations. Local regulations to ensure data locality can be satisfied without user impact and scaling to millions of users can be done cost-effectively.</p>
+		</div>
+    </div>
+</div>
+</section>
+<section>
+<div class="container">
+    <div class="row revealOnScroll">
         <div class="col-md-12">
             <h2>Designed for the real world</h2>
             <p class="section--paragraph">Users can access data on a FTP drive shared with another company; while data stored on an external object storage could be encrypted using server-side encryption so the storage provider has no way to compromise their security.</p>
 
             <p class="section--paragraph">Meanwhile, files from the HR department are always enforced to be end-to-end encrypted on their clients, protecting their files from even the worst case of a full server breach.</p>
+
+            <p class="section--paragraph">In the back-end, IT can use a mix of local NFS or SharePoint storage, public S3 compatible storage and even blockchain technology to find the perfect mix between performance, reliability, security and cost.</p>
 
             <p class="section--paragraph">The layered approach to security makes sure users have the maximum amount of productivity in their web interface while making sure sensitive data receives the ultimate protection, client-to-client. Keeping it all in a single solution simplifies management and avoids mistakes from users or IT departments that might cause costly data leaks.</p>
         </div>
