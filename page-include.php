@@ -18,7 +18,7 @@
 		<div class="row">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Nextcloud Include');?></h1>
- 				<h2><code><?php echo $l->t('Supporting diversity in open source');?></code></h2>
+ 				<h2><code><?php echo $l->t('Supporting diversity, in and by way of, libre software');?></code></h2>
 			</div>
 		</div>
 	</div>
@@ -28,7 +28,7 @@
     <div class="container">
         <div class="row revealOnScroll">
             <div class="col-md-8 col-md-offset-2">
-                <p class="section--paragraph text-center"><?php echo $l->t('Diversity strengthens a community. The Nextcloud Include initiative helps underrepresented groups to join the Nextcloud project, building an inclusive and diverse space where we collaborate and develop world class software.');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Diversity strengthens Nextcloud and its community. Include helps everyone partake in development thereof.');?></p>
             </div>
         </div>
     </div>
@@ -43,17 +43,17 @@
 		<div class="col-md-4 revealOnScroll">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/conversation.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Mentoring');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('We provide mentoring to people new to our community.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Mentoring is provided for newcomers to our community.');?></p>
         </div>
 		<div class="col-md-4 revealOnScroll">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/travel.svg" /></div>
-			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Travel support');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('We sponsor the travel & accommodation for participation in Nextcloud events.');?></p>
+			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Travel and accomodation');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Get sponsored to participate in Nextcloud events.');?></p>
 		</div>
 		<div class="col-md-4 revealOnScroll">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/internship.svg" /></div>
-			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Internships');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('We hire students from underrepresented groups to intern at Nextcloud GmbH.');?></p>
+			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Internship');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Work your way from being a student into fair representation at Nextcloud GmbH.');?></p>
 		</div>
     </div>
 </div>
@@ -67,9 +67,9 @@
 		<div class="ilustration ilustration__expertise">
 			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/ilustration_matterexperts-new.svg"); ?>
 		</div>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('There are many areas in Nextcloud you can get involved in. From technical tasks like building an app, design, coding on the front or back-end to translation and helping out on the forums.');?></p>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We want to enable everyone to get involved and we recognize that the privileged nature of the tech community is an extra barrier for underrepresented groups. We hope to help lower that barrier by connecting you directly to somebody who wants to help you.');?></p>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We have a number of people who are happy to help you get started!');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Show your unique talent in finding something new to work on, there is already software, design, coding on the front or back-end and translation and helping out on the forums to pick from.');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We have mentally picked you regardless of your prior inclusion in the tech community. Overcome the barrier of dotted entry by connecting your dot directly to somebody who wants to help you.');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('The limits of the people available to help you get started is something you can exand on!');?></p>
 		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="mailto:include@nextcloud.com?subject=Getting involved in Nextcloud - mentorship"><?php echo $l->t('Find a mentor');?></a></p>
 	</div>
 </section>
@@ -83,9 +83,8 @@
 		<div class="ilustration ilustration__expertise">
 			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/people-cloud.svg"); ?>
 		</div>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('The Nextcloud community meets regularly at big hackweeks or smaller ad-hoc ones all over Europe. We also host our yearly Nextcloud Conference and attend many events like FOSDEM and SCALE.');?></p>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We want to support participants to join these events by sponsoring part or the whole of their transportation and accomodation costs.');?></p>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('If you would like to join a Nextcloud event, let us know! We typically support 80% of the travel & hotel costs but we can accommodate you if that would not be sufficient. Don\'t hesitate to reach out and ask!');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Join big hackweeks, smaller ad-hoc ones all over Europe, or hget help hosting your own somewhere else. There is a yearly Nextcloud Conference and official representation at many events, like FOSDEM and SCALE.');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Typically 80% of the travel & hotel costs are covered, and exceptions upwards of that can be made should you require. All that is asked of you is to ask of us to help.');?></p>
 		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="mailto:include@nextcloud.com?subject=Travel support request"><?php echo $l->t('Request travel support');?></a></p>
 	</div>
 </section>
@@ -99,9 +98,9 @@
 		<div class="ilustration ilustration__expertise">
 			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/security-new.svg"); ?>
 		</div>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud is always on the look-out for new talents and we\'d like to give beginning developers, marketeers and sales people a chance to learn practical skills with us!');?></p>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We encourage people from underrepresented groups to apply for these positions and to sent their resume.');?></p>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('You can find open positions on our jobs page but please don\'t hesitate to send you resume if there is nothing that fits you - we just might not yet know we need you!');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud is always on the look-out for new and hard found talent, and we\'d like to give beginning and aspiring developers, marketeers and new people a chance to learn practical skills with us.');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('If your talent is underrepresented, apply for open positions with your resume by going to the jobs page, or invent a position by reaching out in any other way.');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('You need know we know we don\'t know we need you.');?></p>
 		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="mailto:include@nextcloud.com?subject=Internship application"><?php echo $l->t('Send your resume');?></a></p>
 	</div>
 </section>
@@ -119,16 +118,15 @@
         </div>
 		<div class="row">
             <div class="col-md-10 col-md-offset-1 revealOnScroll">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Is there a problem in the Nextcloud community?');?></p>
-                <p class="section--paragraph"><?php echo $l->t('We are a very nice, friendly and welcoming community. But, like just saying "you are welcome to join the conference" to parents with kids without providing a playground is not enough, we need to be pro-active.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('So, with Include, we want to make a real effort to improve.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Open Source and tech in general values meritocracy and that is a great sentiment, but reality is that the we are not as meritocratic as we like to believe. Even software developers (ahum) are human and can\'t help taking non-technical factors into account when judging code and people. The result of that is that we structurally fail to value some contributions, even if they are of equal or better quality than others, simply because of whom they come from. On top of that, most tech environments have cultivated a very monochromatic, often downright toxic culture towards anyone who does not fit in. Usually the people in it don\'t notice it at all. Sadly, it is hard to empathize with people very different than us and humans rarely recognize the peculiarities and downsides of the culture they live in.');?></p>
+                <p class="section--paragraph__tittle"><?php echo $l->t('What is the Nextcloud community, and why are you not in it?');?></p>
+                <p class="section--paragraph"><?php echo $l->t('We are a very nice, we think, friendly and welcoming. Like a cat picture. Saying "you are welcome to join the conference" without providing a playground for parents is not enough, pro-activity is the order of the day.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Libre software is built on meritocracy, meaning capability is ideally the only barrier, try as we might, we fail sometimes at that. Even software autists (ahum) are human, and we can\'t help taking non-technical factors, like other people, into account when judging code. The resulting self-duality fails at valuing some contributions, even if equal or of better quality than others. Don\'t think you don\'t fit in, we are trying not to. The best thing we can do is extend in-group preference to everyone wishing to help, and by extention, the people you bring in to that effect. In terms of general society, we are different from it, and wish to expand the good sides of this with you.');?></p>
                 <p class="section--paragraph__tittle"><?php echo $l->t('Am I still welcome?');?></p>
-                <p class="section--paragraph"><?php echo $l->t('You are not part of any group of people that seems to be underrepresented at Nextcloud? You are of course just as welcome as before. This is a specific program that helps us support underrepresented groups. Trying to compensate for a structural disadvantage is not exact science, but Nextcloud is certainly no less open today to anyone as it was before we announced Include.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Mentorship, travel support and internships have always been available to anyone active in our community and will continue to be the way they always were.');?></p>
-                <p class="section--paragraph__tittle"><?php echo $l->t('Is Nextcloud Include only for developers?');?></p>
-                <p class="section--paragraph"><?php echo $l->t('No, certainly not, though we are of course a largely technical community trying to help people solve a societal and political issue. We welcome help with documentation, design, translation, and even marketing and sales!');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Did you know our website is entirely built in github including this page? Find a typo - you can propose an improvement using the same workflow as we use to build our software. The same goes for our documentation and translation, those, too, are collaborated on in the open.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('And still, you are the undisputed champion of our minds. Nextcloud is certainly no less open now than before we announced Include, and this is your special chance at being an untraditional champ.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Mentorship, travel support and internships have always been available to anyone active in our community and will continue to be.');?></p>
+                <p class="section--paragraph__tittle"><?php echo $l->t('Is Nextcloud Include only for developers, and/or people that like cat pictures?');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Fear not, as a largely technical community trying to help people solve societal issues, we welcome welcoming; documentation, design, translation, and even marketing and sales!');?></p>
+                <p class="section--paragraph"><?php echo $l->t('This very website can be hacked on via GitHub, including this page. Find a typoooo interesting, and propose an improvement using the same workflow used to build our software. The same goes for our documentation, and translation happens on its own platform.');?></p>
             </div>
 		</div>
 	</div>
@@ -138,7 +136,7 @@
 <section class="section--team">
 	<div class="container">
         <h1 class="section--heading-1 text-center">Mentors</h1>
-        <p class="section--paragraph text-center">Here are some of our mentors. We are in the process of adding more and you can join, too!</p>
+        <p class="section--paragraph text-center">Here are some of our mentors. The process of adding more needs you to join too.</p>
 	</div>
 	<div class="featurerow">
 	<div class="wrap container teamgroup">
@@ -153,7 +151,7 @@
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="https://camila.codes"><i class="fa-rss fa"></i></a> <a href="https://github.com/camilasan"><i class="fa-github fa"></i></a> <a href="https://www.linkedin.com/in/camilaayres"><i class="fa-linkedin fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Camila is from Brazil and has worked as front-end developer, with C#, Java and even Delphi. She got into open source doing C++/Qt development in the KDE community. After moving to Germany she worked with PHP, Ruby on Rails, AngluarJS, Go and Drupal 7. She's now a desktop client developer at Nextcloud but just might do other things than C++ sometimes.</p>
+				<p class="teamdescription">Camila is from Brazil and has worked as front-end developer, with C#, Java and even Delphi. She got into libre software doing C++/Qt development in the KDE community. After moving to Germany she worked with PHP, Ruby on Rails, AngluarJS, Go and Drupal 7. She\'s now a desktop client developer at Nextcloud, and does other things here and elsewhere than C++ sometimes.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -166,7 +164,7 @@
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jancborchardt"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jancborchardt"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Jan-Christoph is responsible for design on ownCloud since early 2011, continuing at Nextcloud. He pushes forward better design in open source through founding and contributing to several projects, giving talks, working with universities, and fostering the Open Source Design collective.</p>
+				<p class="teamdescription">Jan-Christoph is responsible for design on ownCloud since early 2011, continuing with Nextcloud. He pushes forward better design in libre software through founding and contributing to several projects, giving talks, working with universities, and fostering the Open Source Design collective.</p>
 			</div>
 		</div>
         <div class="col-md-4">
@@ -179,7 +177,7 @@
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><!--<a href="https://spreed.me/"><i class="fa-rss fa"></i></a>--> <a href="https://shiromarieke.github.io/"><i class="fa-rss fa"></i></a> <a href="https://github.com/shiromarieke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/shiromarieke"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Marie studied cultural journalism at the Berlin University of the Arts. She got involved in privacy and open source in 2014, when she started organizing CryptoParties in Berlin. She has worked on many campaigns, trainings and events about privacy, human rights, journalism and open source with the Center for Investigative Journalism, the Tor Project and the Courage Foundation, among others. </p>
+				<p class="teamdescription">Marie studied cultural journalism at the Berlin University of the Arts. She got involved in privacy protection and libre software in 2014, as she started organizing CryptoParties in Berlin. She has worked on many campaigns, trainings and events about privacy, human rights, journalism and open source with the Center for Investigative Journalism, for the Tor Project and the Courage Foundation, among others. </p>
 			</div>
         </div>
     </div>
@@ -196,8 +194,8 @@
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/history/frank.jpg" alt="in action"/></a>
         </div>
         <div class="col-md-6 revealOnScroll feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Where does this come from?');?></p>
-            <p class="section--paragraph"><?php echo $l->t('We have been putting in effort in diversity since we started our project, participating in ');?> <a class="hyperlink" href="https://railsgirlssummerofcode.org/blog/2018-07-23-welcome-to-team-popcorn"><?php echo $l->t('Rails Girls Summer of Code for example.');?></a> <?php echo $l->t(' When Nextcloud founder Frank Karlitschek');?> <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-founder-wins-innovation-award-donates-prize-money-to-open-source-diversity-fund"><?php echo $l->t('won the Reinhard von König award');?></a> <?php echo $l->t('he decided to donate its 20.000 euro prize money to the Nextcloud community to start a diversity program! That provided a great start for this and we hope it will be just the beginning: you can donate, too, if you want!');?></p>
+            <p class="section--paragraph__tittle"><?php echo $l->t('Why can we be trusted now?');?></p>
+            <p class="section--paragraph"><?php echo $l->t('You drive a hard bargain, presumed reader. Effort has been put in since the very start of our project, participating in ');?> <a class="hyperlink" href="https://railsgirlssummerofcode.org/blog/2018-07-23-welcome-to-team-popcorn"><?php echo $l->t('Rails Girls Summer of Code, for example.');?></a> <?php echo $l->t(' When Nextcloud founder Frank Karlitschek');?> <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-founder-wins-innovation-award-donates-prize-money-to-open-source-diversity-fund"><?php echo $l->t('won the Reinhard von König award');?></a> <?php echo $l->t('he decided to donate its 20.000 € prize money to the Nextcloud community to start Nextcloud Include. You can donate, too, if you want. Money and cat pictures accepted.');?></p>
             <a href="mailto:include@nextcloud.com" class="button button--blue button--arrow button--large"><?php echo $l->t('Contact us to donate');?></a>
         </div>
     </div>
@@ -207,7 +205,7 @@
         </div>
         <div class="col-md-8 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('Reinhard von Koenig Award');?></p>
-            <p class="section--paragraph"><?php echo $l->t('The bi-annual Reinhard von Koenig award is named after inventor Baron Reinhard von Koenig (1899-1992) and awarded at his former family castle Fachsenfeld in Aalen, located in East Württemberg, the region with the largest number of globally leading companies in Germany. In 1982, Baron von Keunig donated his entire estate and assets to the Fachsenfeld Foundation he founded, with the goal of promoting technological and cultural innovations. The criteria for the award requires that the prize is awarded to people who have developed new technological approaches to socially relevant challenges, shown technical courage and made a significant contribution to sustainable progress.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('The bi-annual Reinhard von Koenig award is named after inventor Baron Reinhard von Koenig (1899-1992) and awarded at his former family castle Fachsenfeld in Aalen, located in East Württemberg, the region with the largest number of globally leading companies in Germany. In 1982, Baron von Keunig donated his entire estate and assets to his founding of the Fachsenfeld Foundation, with the goal of promoting technological and cultural innovations. The criteria for the award requires that the prize is awarded to people who have developed new technological approaches to socially relevant challenges, shown technical courage and made a significant contribution to sustainable progress.');?></p>
             <a href="http://reinhard-von-koenig-preis.de/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
         </div>
     </div>
@@ -217,7 +215,7 @@
         </div>
         <div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('How is it managed?');?></p>
-            <p class="section--paragraph"><?php echo $l->t('To handle the money, we work together with the amazing KDE community which takes care of the financial part. This also means donations are tax-free in many countries!');?></p>
+            <p class="section--paragraph"><?php echo $l->t('To handle the money, we work together with the amazing KDE community which takes care of the financial part. This also means donations are tax-free in many countries.');?></p>
             <p class="section--paragraph"><?php echo $l->t('The spending of the money is decided on by a small group of Nextcloud diversity advocates, including Jan-Christoph Borchardt, Marie Gutbub and Camila San Martin Ayres.');?></p>
             <a href="https://ev.kde.org" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more about KDE e.V.');?></a>
         </div>
