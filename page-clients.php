@@ -4,7 +4,7 @@
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 	require(["require.config"], function() {
-		require(["modules/youtubePlayer"])
+		require(["modules/scrollingtohash"])
 	});
 </script>
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/linux.png">
@@ -36,8 +36,7 @@
 </section>
 
 
-<section class="section--desktop">
-<a name="desktop" id="desktop"></a>
+<section class="section--desktop" id="desktop">
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2 revealOnScroll feature--block">
@@ -90,8 +89,7 @@
     </div>
 </div>
 </section>
-<a name="mobile" id="mobile"></a>
-<section class="section--mobile">
+<section class="section--mobile" id="mobileid">
 	<div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 revealOnScroll feature--block">
@@ -114,8 +112,8 @@
             </div>
         </div>
 </section>
-<a name="ios" id="ios"></a>
-<section class="section--ios">
+
+<section class="section--ios" id="iosid">
 	<div class="container">
         <div class="row">
             <div class="col-md-6 revealOnScroll image--floated">
@@ -196,8 +194,8 @@
 </div>
 </section>
 
-<a name="android" id="android"></a>
-<section class="section--android">
+
+<section class="section--android" id="androidid">
 	<div class="container">
         <div class="row">
             <div class="col-md-6 revealOnScroll image--floated">

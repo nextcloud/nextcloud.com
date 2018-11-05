@@ -6,7 +6,7 @@ define(['jquery', 'lodash'],
                    init: function() {
                        if(window.location.hash) {
                            $('html, body').animate({
-                               scrollTop: $('#faq').offset().top
+                               scrollTop: $(window.location.hash).offset().top
                            }, 2000);
                        }
                    }
