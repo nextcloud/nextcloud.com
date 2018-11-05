@@ -76,6 +76,19 @@
 				<p class="teamdescription">Fabian worked for various industries always close to the customer and has been in the IT industry now for several years with a focus on customer relationship management. He is passionate about innovative and new technologies and his primary goal is to help our customers to fulfill their vision.</p>
 			</div>
 		</div>
+        <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/edeltraut.jpg" />
+				<h2 class="teamname">Edeltraut Bobb</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Sales coordinator</h3>
+					<h4 class="teamexpertise">Business administration</h4>
+					<h4 class="teamlocation">lives in Nuremberg, Germany</h4>
+					<p class="teamsocial"><!--<a href="https://www.linkedin.com/in/fabian-liedtke-4b4ba9135"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Fabian_Liedtke2"><i class="fa-xing fa"></i></a>--><!--<a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a>--> &nbsp; </p>
+				</div>
+				<p class="teamdescription">Edeltraut studied business administration and has over 13 years experience in domestic, international sales and the open source community. She believes customer satisfaction is based on bringing great customer service, delivered by a caring and friendly person, promptly, with the support of a practical problem-solving process. Edeltraut provides excellent administrative support to our sales team and to any busy sales operation.</p>
+			</div>
+		</div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/olivier.jpg" />
@@ -113,6 +126,18 @@
 						<a href="https://twitter.com/mathiasconradt"><i class="fa-twitter fa"></i></a> <a href="https://github.com/mathiasconradt"><i class="fa-github fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Mathias has 19 years entrepreneurial experience in software engineering and IT project management (Scrum, PRINCE2, ITIL), thereof 7 years in Hong Kong and China. Always focused on open source and free software, he previously worked with many other open source document and content management solutions for large customers such as Bayer, Vodafone, China Telecom, OTTO and many others.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/sascha.jpg" />
+				<h2 class="teamname">Sascha Wiswedel</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Senior Sales Engineer</h3>
+					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/wiswedel"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Sascha_Wiswedel"><i class="fa-xing fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Sascha has worked as account manager, sales engineer and application developer in the software industry and in the public sector. He is specialized in transformation and migration of data and processes. Sascha likes finding pragmatic solutions for grown environments and infrastructures.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -336,19 +361,6 @@
 				<p class="teamdescription">Dirk graduated from the University of Stuttgart, Germany and received his PhD from the University of Technology in Eindhoven. He worked on MPEG-4 video coding, panoramic video visualiation and compression for 3-D television at universities and research institutions in Europe and the United States and currently works on an open source H.265 decoding/encoding library.</p>
 			</div>
 		</div>
-        <div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/dogan.jpg" />
-				<h2 class="teamname">Doğan Can Uçar</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Server apps</h4>
-					<h4 class="teamlocation">lives in Frankfurt, Germany</h4>
-					<p class="teamsocial"><a href="http://www.dogan-ucar.de/"><i class="fa-rss fa"></i></a> <a href="https://github.com/doganoo"><i class="fa-github fa"></i></a> <a href="https://twitter.com/DoganUcar9"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Doğan is a software engineer working on finishing his masters degree in computer science and working on the Nextcloud server.</p>
-			</div>
-		</div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/georg.jpg" />
@@ -360,19 +372,6 @@
 					<p class="teamsocial"><a href="https://georg.coffee/"><i class="fa-rss fa"></i></a> <a href="https://github.com/georgehrke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/georgehrke"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Georg Ehrke is studying computer science at University of Rostock and maintainer of the Calendar app. He's been doing ownCloud, now Nextcloud, for many years and knows both the front and backend code well.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/harald.jpg" />
-				<h2 class="teamname">Harald Pfeifer</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Desktop Client</h4>
-					<h4 class="teamlocation">lives in Hollabrunn, Austria</h4>
-					<p class="teamsocial"><a href="https://github.com/pfiff45"><i class="fa-github fa"></i></a> <a href="https://twitter.com/HaPfeifer"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Harald does an internship for Software Engineering bachelor at the University of Applied Sciences Upper Austria.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -425,19 +424,6 @@
 					<p class="teamsocial"><a href="https://blog.juliushaertl.de/"><i class="fa-rss fa"></i></a> <a href="https://github.com/juliushaertl"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jus_42"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription"> Julius is involved in the Nextcloud community since the beginning, working on frontend and backend development of the server and apps like Deck. He is currently doing his master's degree in computer science at the University of Würzburg.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-				<h2 class="teamname">Leon Klingele</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Spreed.ME, Spreedbox, Embedded</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><a href="https://github.com/leonklingele"><i class="fa-github fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Leon is currently doing his Bachelor of Science at Media University, Stuttgart. His primary tasks lie in the development of the Spreedbox and Spreed.ME software components.</p>
 			</div>
 		</div>
         <div class="col-md-4">
