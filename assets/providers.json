@@ -396,19 +396,6 @@
          "imagename":"jaba.png"
       },
     {
-         "title":"Unixcorn Project",
-         "url":"https:\/\/unixcorn.org\/services",
-         "flags":[
-            "eu"
-         ],
-         "freeplans":true,
-         "supports":"both",
-         "specializes":[
-            "Unixcorn, a french project, aim to provide reliable hosting and good web services to all the people. Our Nextcloud instance is ready to use!"
-         ],
-         "imagename":"unixcorn.png"
-      },
-    {
          "title":"NbIServ",
          "url":"https:\/\/www.nbiserv.de\/de\/shop\/cloud",
          "flags":[
