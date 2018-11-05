@@ -37,7 +37,7 @@
 
 
 <section class="section--desktop">
-<a name="hosting" id="hosting"></a>
+<a name="desktop" id="desktop"></a>
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2 revealOnScroll feature--block">
@@ -90,7 +90,7 @@
     </div>
 </div>
 </section>
-
+<a name="mobile" id="mobile"></a>
 <section class="section--mobile">
 	<div class="container">
         <div class="row">
@@ -114,7 +114,7 @@
             </div>
         </div>
 </section>
-
+<a name="ios" id="ios"></a>
 <section class="section--ios">
 	<div class="container">
         <div class="row">
@@ -196,6 +196,7 @@
 </div>
 </section>
 
+<a name="android" id="android"></a>
 <section class="section--android">
 	<div class="container">
         <div class="row">
