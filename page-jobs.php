@@ -247,62 +247,6 @@
 				<p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
-            <a href="#linuxeng" data-toggle="collapse"><h3 class="jobs">Linux Kernel and Embedded Engineer<span class="icon-arrow"></span></h3></a>
-            <div id="linuxeng" class="collapse">
-                <p>To satisfy the demand for our Spreedbox, we are seeking a Linux kernel and embedded development expert to join our team in Stuttgart (but we are open to remote work!). In this role you are responsible for the technical foundation of this product.</p>
-                <p class="section--paragraph__tittle">Responsibilities:</p>
-                <ul>
-                    <li>Software development for Linux and C/C++</li>
-                    <li>Linux kernel driver development</li>
-                    <li>Documentation</li>
-                    <li>Build system maintenance</li>
-                    <li>Image building</li>
-                </ul>
-                <p class="section--paragraph__tittle">Required skills:</p>
-                <ul>
-                    <li>Experience with Linux and kernel driver development</li>
-                    <li>C/C++ and low level userland development experience</li>
-                    <li>German and English language skills</li>
-
-                </ul>
-                <p class="section--paragraph__tittle">What we offer:</p>
-                <ul>
-                    <li>An open team with a passion for working on and within the open source community</li>
-                    <li>Working on a product pushing the boundaries of technology and with a global user and contributor community</li>
-                    <li>A competitive salary</li>
-                    <li>Flexibility for a healthy work-life balance</li>
-                    <li>Time for personal growth and education</li>
-                </ul>
-                <p>We are looking for all people open to learning and growing into this role! If you are interested, shoot us an email at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a>.</p>
-            </div>
-            <a href="#qtdev" data-toggle="collapse"><h3 class="jobs">Qt Developer<span class="icon-arrow"></span></h3></a>
-            <div id="qtdev" class="collapse">
-                <p>We're looking for developers with experience in C++/Qt development to join our client team!</p>
-                <p>You would work with the engineering team to bring new features and improvements to our client for Windows, Linux and Mac. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-                <p class="section--paragraph__tittle">Responsibilities:</p>
-                <ul>
-                    <li>Cross-platform development, branding</li>
-                    <li>Writing documentation</li>
-                    <li>Build system maintenance, testing, packaging, releasing</li>
-                </ul>
-                <p class="section--paragraph__tittle">Required skills:</p>
-                <ul>
-                    <li>Technical experience with C++, Qt</li>
-                    <li>Teamworking capabilities</li>
-                    <li>Independence and self-reliance.</li>
-                    <li>Knowledge around open source technology</li>
-                </ul>
-                <p class="section--paragraph__tittle">What we offer:</p>
-                <ul>
-                    <li>A distributed, open team with a passion for working on and within the open source community</li>
-                    <li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
-                    <li>A competitive salary</li>
-                    <li>Flexibility for a healthy work-life balance</li>
-                    <li>Time for personal growth and education</li>
-                </ul>
-                <p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-            </div>
-
             <a href="#phpdev" data-toggle="collapse"><h3 class="jobs">PHP back-end developer<span class="icon-arrow"></span></h3></a>
             <div id="phpdev" class="collapse">
                 <p>We're looking for developers with experience in PHP back-end development to join our server team!</p>
