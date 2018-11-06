@@ -24,6 +24,7 @@
             <h1><?php echo $l->t('Contact us');?></h1>
             <p><?php echo $l->t('If you have any questions or comments on the website or have a business question, complete the form below and we\'ll get back to you!<br/><strong>If you need technical help, please do not use this form.</strong> If you are a customer, <a href="https://portal.nextcloud.com">use our support portal</a> and if not');?> <a href="<?php echo home_url('support') ?>"><?php echo $l->t('see here for support options.</a>');?></p>
             <p><?php echo $l->t('Support requests using this form <strong>will be ignored!</strong>');?></p>
+            <p><?php echo $l->t('If you have a question related to <strong>Simple Signup</strong>, please contact the provider where you signed up. Nextcloud has NO information from you, not even what provider you are with, so there is nothing we can do to help you.');?></p>
         </div>
     </div>
 

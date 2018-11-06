@@ -114,6 +114,7 @@ $coreApps = ['files', 'calendar', 'contacts', 'spreed', 'mail', 'tasks', 'notes'
             <p class="section--paragraph text-center"><?php echo $l->t('By proceeding, you agree with our privacy policy. In short, we only handle the minimum amount of user data for the purpose of enabling the provider to create a minimal account and do not store any personally identifiable data.'); ?></p>
             <div class="text-center">
             <a href="<?php echo home_url('privacy') ?>" target="_blank" class="button button--blue button--arrow button--large"><?php echo $l->t('Our privacy policy'); ?></a>
+            <p class="section--paragraph text-center"><?php echo $l->t('If there are any issues with your account, please note that we do NOT record any of your information on our side so we can not help you. Please contact the provider you signed up with.'); ?></p>
             </div>
         </div>
     </div>
