@@ -32,8 +32,8 @@
 				<div class="col-md-1">
 				</div>
 				<div class="col-md-10">
-				<div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
-				<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/jwhfeJlYBbM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<div data-type="youtube" data-video-id="GPkzeM6jqKE"></div>
+				<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/GPkzeM6jqKE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 				<div class="col-md-6 col-md-offset-3">
 					<p class="section--paragraph text-center"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud customers to easily and securely send files, folders or upload links to others from within Microsoft Outlook.<br>The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>
@@ -100,7 +100,7 @@
 			</div>
             <div class="row">
                 <div class="col-md-6 revealOnScroll image--feature image--floated">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/activity-view.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/activity-view.png" alt="in action" /></a>
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-activities-nw.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-activities-nw.png" alt="in action" /></a>
 				</div>
                 <div class="col-md-6 revealOnScroll featureblock">
                     <p class="section--paragraph"><?php echo $l->t('The Add-in can be configured to automatically upload all attachments the user added to an email starting from a configurable size, for example, all files over 200kb.');?></p>
