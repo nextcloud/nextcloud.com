@@ -12,9 +12,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-14-now-available-with-video-verification-signaltelegram-2fa-support-improved-collaboration-and-gdpr-compliance/">
+				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-enterprise-day-coming-march-12-2019/">
 				<span class="type">News</span>
-				<span class="message"><strong><?php echo $l->t('Nextcloud 14:');?></strong> <?php echo $l->t('Video verification, Signal/Telegram 2FA and more!');?></span>
+				<span class="message"><strong><?php echo $l->t('March 12 2019:');?></strong> <?php echo $l->t('Nextcloud Enterprise Day in Stuttgart!');?></span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Nextcloud - Protecting your data');?></h1>
@@ -55,6 +55,21 @@
 	</div>
 </section>
 
+<section class="section--enterprise-day">
+	<div class="container-fluid">
+			<div class="container">
+			<h2 class="section--heading-1 revealOnScroll">Enterprise Day</h2>
+            <ul class="section--paragraph revealOnScroll">
+                <li class="revealOnScroll"><i class="fa-check fa"></i> Get the most out of Nextcloud</li>
+                <li class="revealOnScroll"><i class="fa-check fa"></i> Speed up decision making</li>
+                <li class="revealOnScroll"><i class="fa-check fa"></i> Learn best practices</li>
+                <li class="revealOnScroll"><i class="fa-check fa"></i> Meet developers & decision makers</li>
+            </ul>
+			<p class="section--paragraph revealOnScroll">Join our Enterprise Day on March 12.<br/><em>Book now, before January 31 and get 50% off!</em></p>
+			<p class="section--paragraph revealOnScroll"><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Learn more and book</a></p>
+			</div>
+	</div>
+</section>
 
 <?php require get_template_directory().'/compliance.php';?>
 
@@ -151,6 +166,7 @@
 			</div>
 	</div>
 </section>-->
+
 
 <section class="underyourcontrol">
 <div class="container-fluid" id="perfect-for-home-and-business">

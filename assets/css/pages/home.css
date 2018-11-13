@@ -302,7 +302,7 @@
 }*/ }
 
 /**
- * Home page: Nextcloud Event
+ * Home page: Nextcloud Events
  */
 .section--conf {
   margin: 100px 0 100px 0;
@@ -333,6 +333,50 @@
       .section--conf .section--paragraph {
         width: 90%;
         padding-top: 10px; } }
+
+.section--enterprise-day {
+  margin: 100px 0 0 0;
+  padding: 80px 0 50px 0;
+  background-image: url("../../img/conference/enterprise-wide-2.jpg");
+  background-size: cover;
+  background-position: center;
+  /*   @media (max-width: $break-small) { */
+  /*     background-image: url('../../img/home/perfect-for-home-and-business-mobile.jpg'); */
+  /*   } */ }
+  .section--enterprise-day .btn-primary {
+    width: 430px; }
+  @media (min-width: 1600px) {
+    .section--enterprise-day {
+      padding-top: 120px;
+      padding-bottom: 180px; } }
+  @media (max-width: 768px) {
+    .section--enterprise-day .btn-primary {
+      width: 300px; }
+      .section--enterprise-day .btn-primary .icon-arrow {
+        background: url(../../img/arrow_right.svg) center/contain no-repeat;
+        position: absolute;
+        width: 20px;
+        height: 100%;
+        right: 20px;
+        top: 2px; } }
+  .section--enterprise-day .section--heading-1 {
+    color: white;
+    width: 469px; }
+    @media (max-width: 768px) {
+      .section--enterprise-day .section--heading-1 {
+        width: 100%; } }
+  .section--enterprise-day .section--paragraph {
+    color: white;
+    width: 469px; }
+    .section--enterprise-day .section--paragraph i {
+      color: white; }
+    @media (max-width: 768px) {
+      .section--enterprise-day .section--paragraph {
+        width: 90%;
+        padding-top: 10px; } }
+
+.section--compliance {
+  margin-top: 0px !important; }
 
 /**
 * Home page: Introducing Nextcloud X

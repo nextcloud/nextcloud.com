@@ -359,7 +359,7 @@
 
 
 /**
- * Home page: Nextcloud Event
+ * Home page: Nextcloud Events
  */
 
 .section--conf {
@@ -398,6 +398,65 @@
             padding-top: 10px;
         }
     }
+}
+
+.section--enterprise-day {
+    margin: 100px 0 0 0;
+    padding: 80px 0 50px 0;
+    background-image: url('../../img/conference/enterprise-wide-2.jpg');
+    background-size: cover;
+    background-position: center;
+    /*   @media (max-width: $break-small) { */
+    /*     background-image: url('../../img/home/perfect-for-home-and-business-mobile.jpg'); */
+    /*   } */
+
+    .btn-primary {
+        width: 430px;
+    }
+
+    @media (min-width: $very-wide) {
+        padding-top: 120px;
+        padding-bottom: 180px;
+    }
+
+    @media (max-width: $break-small) {
+        .btn-primary {
+            width: 300px;
+
+            .icon-arrow {
+                background: url(../../img/arrow_right.svg) center/contain no-repeat;
+                position: absolute;
+                width: 20px;
+                height: 100%;
+                right: 20px;
+                top: 2px;
+            }
+        }
+    }
+
+    .section--heading-1 {
+        color: white;
+        width: 469px;
+        @media (max-width: $break-small) {
+            width: 100%;
+        }
+    }
+
+    .section--paragraph {
+        color: white;
+		i {
+			color: white;
+		}
+        width: 469px;
+        @media (max-width: $break-small) {
+            width: 90%;
+            padding-top: 10px;
+        }
+    }
+}
+
+.section--compliance {
+	margin-top: 0px !important;
 }
 
 /**
