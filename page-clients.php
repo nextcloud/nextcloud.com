@@ -94,29 +94,29 @@
     <h2 class="text-center revealOnScroll"><?php echo $l->t('Desktop client in action');?></h2>
     <div class="row">
         <div class="col-md-4">
-            <a href="https://nextcloud.com/media/share-dialog.png"><img src="https://nextcloud.com/media/share-dialog.png" alt="" class="img-responsive" /></a>
+            <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/share-dialog.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/share-dialog.png" alt="" class="img-responsive" /></a>
             Easy to use sharing dialog
         </div>
         <div class="col-md-4">
-            <a href="https://nextcloud.com/media/share-dialog-options.png"><img src="https://nextcloud.com/media/share-dialog-options.png" alt="" class="img-responsive" /></a>
+            <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/share-dialog-options.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/share-dialog-options.png" alt="" class="img-responsive" /></a>
             Share dialog options only show when needed
         </div>
         <div class="col-md-4">
-            <a href="https://nextcloud.com/media/context-menu.png"><img src="https://nextcloud.com/media/context-menu.png" alt="" class="img-responsive" /></a>
+            <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/context-menu.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/context-menu.png" alt="" class="img-responsive" /></a>
             Open Nextcloud apps from the context menu
         </div>
     </div>
     <div class="row">
         <div class="col-md-4">
-            <a href="https://nextcloud.com/media/space-used.png"><img src="https://nextcloud.com/media/space-used.png" alt="" class="img-responsive" /></a>
+            <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/space-used.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/space-used.png" alt="" class="img-responsive" /></a>
             See how much storage you have left
         </div>
         <div class="col-md-4">
-            <a href="https://nextcloud.com/media/edit-ignored-files.png"><img src="https://nextcloud.com/media/edit-ignored-files.png" alt="" class="img-responsive" /></a>
+            <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/edit-ignored-files.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/edit-ignored-files.png" alt="" class="img-responsive" /></a>
             List which files should not be synced
         </div>
         <div class="col-md-4">
-        <a href="https://nextcloud.com/media/separate-activities.png"><img src="https://nextcloud.com/media/separate-activities.png" alt="" class="img-responsive" /></a>
+        <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/separate-activities.png"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/features/separate-activities.png" alt="" class="img-responsive" /></a>
         View and respond to activities and notifications
         </div>
     </div>
