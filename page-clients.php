@@ -7,10 +7,10 @@
 		require(["modules/scrollingtohash"])
 	});
 </script>
-<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/linux.png">
-<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/linux.png">
-<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/linux.png">
-<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/linux.png">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/laptop.jpg">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/laptop.jpg">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/laptop.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/laptop.jpg">
 </head>
 <div class="background clients-background">
 	<div class="container">
@@ -60,7 +60,7 @@
 <section class="section--desktop-features">
 <div class="container-fluid quote">
     <div class="container">
-        <h2 class="text-center revealOnScroll"><?php echo $l->t('desktop client features');?></h2>
+        <h2 class="text-center revealOnScroll"><?php echo $l->t('Desktop client features');?></h2>
         <div class="row">
             <div class="col-sm-4 revealOnScroll">
                 <p class="section--paragraph"><ul>
@@ -74,7 +74,8 @@
                 <p class="section--paragraph"><ul>
                 <li><?php echo $l->t('Receive notifications of server events like a new share or audio/video call');?></li>
                 <li><?php echo $l->t('Use the activity feed to track what happens on the server');?></li>
-                <li><?php echo $l->t('Protect your files with client side,');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('End-to-end encryption</a> (version >2.4)');?></li>
+                <li><?php echo $l->t('Immediately reply to notifications to join a call or accept a share');?></li>
+                <li><?php echo $l->t('Protect your files with client side,');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('End-to-end encryption</a> (version 2.5.0+)');?></li>
                 </ul></p>
             </div>
             <div class="col-sm-4 revealOnScroll">
@@ -88,7 +89,42 @@
         </div>
     </div>
 </div>
+<section class="section--desktop-screenshots">
+<div class="container">
+    <h2 class="text-center revealOnScroll"><?php echo $l->t('Desktop client in action');?></h2>
+    <div class="row">
+        <div class="col-md-4">
+            <a href="https://nextcloud.com/media/share-dialog.png"><img src="https://nextcloud.com/media/share-dialog.png" alt="" class="img-responsive" /></a>
+            Easy to use sharing dialog
+        </div>
+        <div class="col-md-4">
+            <a href="https://nextcloud.com/media/share-dialog-options.png"><img src="https://nextcloud.com/media/share-dialog-options.png" alt="" class="img-responsive" /></a>
+            Share dialog options only show when needed
+        </div>
+        <div class="col-md-4">
+            <a href="https://nextcloud.com/media/context-menu.png"><img src="https://nextcloud.com/media/context-menu.png" alt="" class="img-responsive" /></a>
+            Open Nextcloud apps from the context menu
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <a href="https://nextcloud.com/media/space-used.png"><img src="https://nextcloud.com/media/space-used.png" alt="" class="img-responsive" /></a>
+            See how much storage you have left
+        </div>
+        <div class="col-md-4">
+            <a href="https://nextcloud.com/media/edit-ignored-files.png"><img src="https://nextcloud.com/media/edit-ignored-files.png" alt="" class="img-responsive" /></a>
+            List which files should not be synced
+        </div>
+        <div class="col-md-4">
+        <a href="https://nextcloud.com/media/separate-activities.png"><img src="https://nextcloud.com/media/separate-activities.png" alt="" class="img-responsive" /></a>
+        View and respond to activities and notifications
+        </div>
+    </div>
+</div>
 </section>
+
+
+
 <section class="section--mobile" id="mobileid">
 	<div class="container">
         <div class="row">
