@@ -2,7 +2,7 @@
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/modules/compliance.css" rel="stylesheet">
 </head>
 <section class="section--compliance">
-<div class="container-fluid banner">
+<div class="container-fluid banner quote">
     <div class="container">
     <div class="row">
         <div class="col-md-6">

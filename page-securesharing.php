@@ -47,7 +47,7 @@
 </div>
 </section>
 <section class="section--compliance">
-<div class="container-fluid banner">
+<div class="container-fluid banner quote">
     <div class="container">
     <div class="row revealOnScroll">
         <div class="col-md-6">

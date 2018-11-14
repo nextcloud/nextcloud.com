@@ -91,7 +91,7 @@
 </section>
 
 <section class="section--benefits benefits">
-<div class="container-fluid banner">
+<div class="container-fluid banner quote">
     <div class="container">
     <div class="col-md-6">
         <p class="section--heading-1 section--text--center revealOnScroll">Benefits</p>

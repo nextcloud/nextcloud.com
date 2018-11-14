@@ -9596,21 +9596,16 @@ footer.page-footer {
 .benefits {
   /* benefits section with big image on the right & check list left */ }
   .benefits .banner {
-    background-color: #0082c9;
     position: relative;
     overflow: hidden; }
     .benefits .banner h2 {
-      text-align: left;
-      color: white; }
+      text-align: left; }
     .benefits .banner p {
       padding-top: 30px;
-      text-align: left;
-      color: white; }
+      text-align: left; }
     .benefits .banner li {
-      text-align: left;
-      color: white; }
+      text-align: left; }
     .benefits .banner .fa {
-      color: white;
       padding-right: 10px; }
     .benefits .banner .col-md-6 {
       padding: 80px 0px; }
@@ -9626,20 +9621,32 @@ footer.page-footer {
       margin-left: 55%;
       bottom: 0;
       left: 0; }
+    .benefits .banner .big-img-invert {
+      position: absolute;
+      height: 100%;
+      margin-right: 55%;
+      bottom: 0;
+      right: 0; }
+    .benefits .banner .small-img-invert {
+      position: absolute;
+      height: 100%;
+      margin-right: 55%;
+      bottom: 0;
+      right: 0; }
     @media (min-width: 1600px) {
-      .benefits .banner .small-img {
+      .benefits .banner .small-img, .benefits .banner .small-img-invert {
         display: none; }
-      .benefits .banner .big-img {
+      .benefits .banner .big-img, .benefits .banner .big-img-invert {
         display: inline; } }
     @media (max-width: 1600px) {
-      .benefits .banner .big-img {
+      .benefits .banner .big-img, .benefits .banner .big-img-invert {
         display: none; }
-      .benefits .banner .small-img {
+      .benefits .banner .small-img, .benefits .banner .small-img-invert {
         display: inline; } }
     @media (max-width: 991px) {
-      .benefits .banner .small-img {
+      .benefits .banner .small-img, .benefits .banner .small-img-invert {
         display: none; }
-      .benefits .banner .big-img {
+      .benefits .banner .big-img, .benefits .banner .big-img-invert {
         display: none; } }
 
 .section--text--center {

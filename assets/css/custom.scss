@@ -64,28 +64,23 @@
       font-size: 16px; } }
 .benefits { /* benefits section with big image on the right & check list left */
     	.banner {
-		background-color: $nextcloud-blue;
 		position: relative;
 		overflow: hidden;
 
 		h2 {
 			text-align: left;
-			color: white;
 		}
 
 		p {
 			padding-top: 30px;
 			text-align: left;
-			color: white;
 		}
 
 		li {
 			text-align: left;
-			color: white;
 		}
 
 		.fa {
-			color: white;
 			padding-right: 10px;
 		}
 
@@ -101,33 +96,50 @@
             left: 0;
 		}
 		.small-img {
-			position:absolute;
+			position: absolute;
 			height: 100%;
 			margin-left: 55%;
             bottom: 0;
             left: 0;
 		}
+
+		.big-img-invert {
+            position: absolute;
+            height: 100%;
+            margin-right: 55%;
+            bottom: 0;
+            right: 0;
+        }
+        .small-img-invert {
+            position: absolute;
+            height: 100%;
+            margin-right: 55%;
+            bottom: 0;
+            right: 0;
+        }
+
+
 		@media (min-width: $very-wide) {
-		.small-img {
+        .small-img,.small-img-invert {
 			display: none;
 			}
-		.big-img {
+        .big-img,.big-img-invert {
             display: inline;
             }
         }
 		@media (max-width: $very-wide) {
-		.big-img {
+        .big-img,.big-img-invert {
 			display: none;
 			}
-		.small-img {
+        .small-img,.small-img-invert {
             display: inline;
             }
         }
         @media (max-width: $break-big) {
-		.small-img {
+        .small-img,.small-img-invert {
 			display: none;
 			}
-		.big-img {
+        .big-img,.big-img-invert {
 			display: none;
 			}
 		}
