@@ -328,11 +328,11 @@
 				<h2 class="teamname">Christoph Wurst</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">JavaScript, Two-factor Auth and Mail</h4>
-					<h4 class="teamlocation">lives in Schrattenthal, Austria</h4>
+					<h4 class="teamexpertise">Front-end, Two-factor Authenthication and Mail</h4>
+					<h4 class="teamlocation">lives in Hadres, Austria</h4>
 					<p class="teamsocial"><a href="http://blog.wuc.me/"><i class="fa-rss fa"></i></a> <a href="https://github.com/ChristophWurst"><i class="fa-github fa"></i></a> <a href="https://twitter.com/ChristophWurst"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Christoph has been contributing to ownCloud since 2014. He is currently doing his Software Engineering master at the University of Applied Sciences Upper Austria.</p>
+				<p class="teamdescription">Christoph has been contributing to ownCloud since 2014. He has a master's degree in Software Engineering from the University of Applied Sciences Upper Austria.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
