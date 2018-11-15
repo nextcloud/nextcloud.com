@@ -67,7 +67,8 @@
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support engineers by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
-					<li class="nocheck" title="<?php echo $l->t('Our engineers walk you through the installation process where needed.');?>" rel="tooltip"><?php echo $l->t('Remote installation support');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Our engineers provide installation support and advice (remote 
+installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation advice');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Upgrades are disruptive. Our engineers will ensure yours will go smooth!');?>" rel="tooltip"><?php echo $l->t('Upgrade stand-by support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('We can guarantee turn-around times on mitigations and fixes for bugs.');?>" rel="tooltip"><?php echo $l->t('Optional SLA on fixes');?></li>
@@ -108,7 +109,8 @@
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support engineers by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: business hours');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support: business hours');?></li>
 					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
-					<li class="check" title="<?php echo $l->t('Our engineers walk you through the installation process where needed.');?>" rel="tooltip"><?php echo $l->t('Remote installation support');?></li>
+					<li class="check" title="<?php echo $l->t('Our engineers provide installation support and advice (remote 
+installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation advice');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Upgrades are disruptive. Our engineers will ensure yours will go smooth!');?>" rel="tooltip"><?php echo $l->t('Upgrade stand-by support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('We can guarantee turn-around times on mitigations and fixes for bugs.');?>" rel="tooltip"><?php echo $l->t('Optional SLA on fixes');?></li>
@@ -149,7 +151,8 @@
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support engineers by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: up to 24/7');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support: up to 24/7');?></li>
 					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
-					<li class="check" title="<?php echo $l->t('Our engineers walk you through the installation process where needed.');?>" rel="tooltip"><?php echo $l->t('Remote installation support');?></li>
+					<li class="check" title="<?php echo $l->t('Our engineers provide installation support and advice (remote 
+installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation advice');?></li>
 					<li class="check" title="<?php echo $l->t('Upgrades are disruptive. Our engineers will ensure yours will go smooth!');?>" rel="tooltip"><?php echo $l->t('Upgrade stand-by support');?></li>
 					<li class="check" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
 					<li class="check" title="<?php echo $l->t('We can guarantee turn-around times on mitigations and fixes for bugs.');?>" rel="tooltip"><?php echo $l->t('Optional SLA on fixes');?></li>
