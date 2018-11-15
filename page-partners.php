@@ -223,20 +223,26 @@
 				<p  class="partnertext">HostBill is a powerful and flexible, all-in-one automation, billing, client management and support platform for online businesses. It handles all aspects of running a successful hosting business, integrating with countless control panels, domain registrars and other tools, including Nextcloud.</p>
 			</div>
 			<div class="col-md-4">
+				<a href="http://www.onlyoffice.com" target="_blank" title="ONLYOFFICE">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/onlyoffice.png" title="ONLYOFFICE" />
+				</a>
+				<p class="partnertext">Ascensio System SIA develops ONLYOFFICE, a powerful office suite that comprises online editors for text documents, spreadsheets and presentations highly compatible with Microsoft Office, OpenDocument and all other popular file formats.</p>
+			</div>
+			<div class="col-md-4">
 				<a href="http://www.openinventionnetwork.com" target="_blank" title="OIN">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/oin.png" title="OIN" />
 				</a>
 				<p  class="partnertext">The Open Invention Network is a shared defensive patent pool with the mission to protect Linux.  Launched in 2005, OIN has strong industry support with backing from Google, IBM, NEC, Philips, Red Hat, Sony, SUSE, and Toyota.  Any company, project or developer that is working on Linux, GNU, Android or any other Linux-related software is welcome to join OIN, free of charge or royalties.</p>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="https://osb-alliance.com" target="_blank" title="Open Source Business Alliance">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/osballiance.png" title="The Open Source Business Alliance" />
 				</a>
 				<p  class="partnertext">The German language focused OSB Alliance is a collaboration of IT providers who want to push Open Source Software forward. As member Nextcloud GmbH helps push interoperability and open standards forward in the open cloud.</p>
 			</div>
-		</div>
-
-		<div class="row">
             <div class="col-md-4">
 				<a href="https://redhat.com" target="_blank" title="Red Hat Partnership">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/redhat.png" title="Red Hat Partnership" />
@@ -249,15 +255,15 @@
 				</a>
 				<p  class="partnertext">TWS is the official provider of Nexcloud iOS Client. The company has its headquarters in Italy and it mainly deals with design and development of web-based application software.</p>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/" target="_blank" title="Western Digital Labs">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/wdlabs.png" title="Western Digital Labs" />
 				</a>
 				<p  class="partnertext"><a href="http://wdlabs.wd.com/">WDLabs™</a> is a business growth incubator of storage solutions leader <a href="http://www.wdc.com/en/">Western Digital Corporation</a> (NASDAQ:WDC). We work with Western Digital Labs on the <a href="/box">Nextcloud Box project</a> to create a device that makes it easier for people to self-host their data.</p>
 			</div>
-		</div>
-
-		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.moodle.com/" target="_blank" title="Moodle">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/moodle.png" title="Moodle" />
