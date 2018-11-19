@@ -10710,6 +10710,10 @@ blockquote:after {
     /*         margin-top: 15px; */
     color: #757575;
     width: 50%; }
+  .section--whitepaper .newsletter, .whitepaper .newsletter {
+    padding-left: 15px; }
+    .section--whitepaper .newsletter input, .whitepaper .newsletter input {
+      margin-left: -15px; }
   .section--whitepaper .g-recaptcha, .whitepaper .g-recaptcha {
     /*         margin-left: auto !important; */
     /*         margin-right: auto !important; */

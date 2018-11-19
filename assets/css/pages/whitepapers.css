@@ -130,6 +130,13 @@ section {
     color: #757575;
     width: 100%;
     max-width: 300px; }
+  section .list .newsletter {
+    padding-left: 15px;
+    line-height: 1.2; }
+    section .list .newsletter small {
+      line-height: 1.2; }
+    section .list .newsletter input {
+      margin-left: -15px; }
 
 .section--blogs {
   padding: 0 0 100px 0; }

@@ -133,6 +133,16 @@ section {
 			width: 100%;
 			max-width: 300px;
 		}
+	    .newsletter {
+		padding-left: 15px;
+		line-height: 1.2;
+		small {
+			line-height: 1.2;
+		}
+		input {
+			margin-left: -15px;
+			}
+		}
 	}
 }
 

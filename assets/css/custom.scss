@@ -1126,8 +1126,6 @@ blockquote:after {
 		padding-top: 0px;
 	}
 
-
-
 	.button {
 		height: 40px;
 		line-height: 40px;
@@ -1153,6 +1151,13 @@ blockquote:after {
         right: 15px; }
     .button--arrow.button--blue:before {
         background: url(../img/common/arrow_right.svg) center/contain no-repeat; }*/
+
+    .newsletter {
+		padding-left: 15px;
+		input {
+			margin-left: -15px;
+		}
+	}
 
 	.g-recaptcha {
 /*         margin-left: auto !important; */
@@ -1206,4 +1211,6 @@ blockquote:after {
 			max-width: 500px;
 		}
 	}
+
 }
+
