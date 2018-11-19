@@ -34,7 +34,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <p class="section--paragraph text-center"><?php echo $l->t('ONLYOFFICE integration in Nextcloud empowers your users to collaborate on office documents with team members in real time.');?></p>
-            <p class="section--paragraph text-center"><?php echo $l->t('100% compatibility with Microsoft Office formats means perfect documents, every time.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Compatibility with Microsoft Office formats means perfect documents, every time.');?></p>
         </div>
     </div>
 </div>
@@ -61,37 +61,6 @@
     </div>
 </div>
 </section>
-
-<!--<section class="section--whitepaper quote">
-	<div class="container revealOnScroll">
-        <div class="row">
-			<div class="col-lg-8">
-                <h2 class="revealOnScroll"><?php echo $l->t('North-West University<br/> Case Study');?></h2>
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
-                    <p><label for="email"><?php echo $l->t('Get the free case study:');?><br>
-                    <?php echo $l->t('The North-West University of South Africa improves user storage mobility,<br /> collaboration and productivity with Nextcloud and Collabora Online.');?><br>
-                    <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-                    </div>
-                    </td>
-                    <input type="hidden" name="segmentId" value="48">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
-                    <div class="newsletter">
-                        <input type="hidden" name="newsletter" value="0" />
-<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
-                        <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a class="hyperlink" href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
-                    </div>
-                    <input class="button button--large" type="submit" value=" Get the case study "></p>
-                </form>
-            </div>
-        </div>
-        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/nwu-thumbnail-banner.png"/>
-	</div>
-</section>-->
-
 
 <section class="section--main">
 	<div class="container">
