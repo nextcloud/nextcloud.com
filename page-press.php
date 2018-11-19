@@ -19,28 +19,28 @@
     <a href="https://cloud.nextcloud.com/s/ZRmqqsd59rRPJoL" class="button button--large button--blue button--arrow">Press release and background</a>
     <h2>Press releases</h2>
     <ul>
-    <li><a href="<?php echo home_url('press/pr20181120') ?>">November 20, 2018: ONLYOFFICE and Nextcloud partner to deliver seamless collaboration for modern organizations</a></li>
-    <li><a href="<?php echo home_url('press/pr20181030') ?>">October 30, 2018: Nextcloud founder wins innovation award, donates prize money to open source diversity fund</a></li>
-    <li><a href="<?php echo home_url('press/pr20181018') ?>">October 18, 2018: Nextcloud and Collabora bring deeper integration to document collaboration</a></li>
-    <li><a href="<?php echo home_url('press/pr20180917') ?>">September 17, 2018: Rocket.Chat and Nextcloud announce partnership and integration</a></li>
-    <li><a href="<?php echo home_url('press/pr20180825-1') ?>">August 25, 2018: Nextcloud 14 Introducing Video Verification and Signal/Telegram 2FA support, Improved Collaboration and GDPR compliance</a></li>
-    <li><a href="<?php echo home_url('press/pr20180825-2') ?>">August 25, 2018: Japan to add millions of new nodes to federated Nextcloud network</a></li>
-    <li><a href="<?php echo home_url('press/pr20180825-3') ?>">August 25, 2018: Nextcloud lowers barrier to privacy-protecting personal cloud, introducing Simple Signup</a></li>
-    <li><a href="<?php echo home_url('press/pr20180523-1') ?>">May 23, 2018: Nextcloud releases GDPR Compliance kit for on-premises collaboration solution</a></li>
-    <li><a href="<?php echo home_url('press/pr20180523-2') ?>">May 23, 2018: Nextcloud and Red Hat partner to provide GDPR-compliance friendly on-premises collaboration solution</a></li>
-    <li><a href="<?php echo home_url('press/pr20180206') ?>">February 6, 2018: Self-Hosted Nextcloud 13 Brings End-to-end Encryption, Video/Text Chat and Enhanced Collaboration</a></li>
-    <li><a href="<?php echo home_url('press/pr20180123') ?>">January 23, 2018: Nextcloud secure file sync and share now available via GEANT and NRENs to educational market</a></li>
-    <li><a href="<?php echo home_url('press/pr20180111-2') ?>">January 11, 2018: Nextcloud achieves stellar growth in 2017 amid increasing awareness of compliance, control and data security among businesses</a></li>
-    <li><a href="<?php echo home_url('press/pr20180111') ?>">January 11, 2018: Nextcloud Talk provides fully self-hosted, complete audio/video and text communication platform</a></li>
-    <li><a href="<?php echo home_url('press/pr20180108') ?>">January 8, 2018: 100K app downloads in 2017 shows strong growth of self-hosted online office market</a></li>
-    <li><a href="<?php echo home_url('press/pr20171018/') ?>">October 18, 2017: Nextcloud and Purism Partner to Build and Include End-to-End Encrypted Storage Products and Services</a></li>
-    <li><a href="<?php echo home_url('press/pr20170927/') ?>">September 27, 2017: Nextcloud Launches First Native Integrated End-to-end Encryption in Enterprise File Sync and Share Solution</a></li>
-    <li><a href="<?php echo home_url('press/pr20170824/') ?>">August 24, 2017: Nextcloud iOS app Free for Download on App Store</a></li>
+        <li><a href="<?php echo home_url('press/pr20181120') ?>">November 20, 2018: ONLYOFFICE and Nextcloud partner to deliver seamless collaboration for modern organizations</a></li>
+        <li><a href="<?php echo home_url('press/pr20181030') ?>">October 30, 2018: Nextcloud founder wins innovation award, donates prize money to open source diversity fund</a></li>
+        <li><a href="<?php echo home_url('press/pr20181018') ?>">October 18, 2018: Nextcloud and Collabora bring deeper integration to document collaboration</a></li>
+        <li><a href="<?php echo home_url('press/pr20180917') ?>">September 17, 2018: Rocket.Chat and Nextcloud announce partnership and integration</a></li>
+        <li><a href="<?php echo home_url('press/pr20180825-1') ?>">August 25, 2018: Nextcloud 14 Introducing Video Verification and Signal/Telegram 2FA support, Improved Collaboration and GDPR compliance</a></li>
+        <li><a href="<?php echo home_url('press/pr20180825-2') ?>">August 25, 2018: Japan to add millions of new nodes to federated Nextcloud network</a></li>
+        <li><a href="<?php echo home_url('press/pr20180825-3') ?>">August 25, 2018: Nextcloud lowers barrier to privacy-protecting personal cloud, introducing Simple Signup</a></li>
+        <li><a href="<?php echo home_url('press/pr20180523-1') ?>">May 23, 2018: Nextcloud releases GDPR Compliance kit for on-premises collaboration solution</a></li>
+        <li><a href="<?php echo home_url('press/pr20180523-2') ?>">May 23, 2018: Nextcloud and Red Hat partner to provide GDPR-compliance friendly on-premises collaboration solution</a></li>
+        <li><a href="<?php echo home_url('press/pr20180206') ?>">February 6, 2018: Self-Hosted Nextcloud 13 Brings End-to-end Encryption, Video/Text Chat and Enhanced Collaboration</a></li>
+        <li><a href="<?php echo home_url('press/pr20180123') ?>">January 23, 2018: Nextcloud secure file sync and share now available via GEANT and NRENs to educational market</a></li>
+        <li><a href="<?php echo home_url('press/pr20180111-2') ?>">January 11, 2018: Nextcloud achieves stellar growth in 2017 amid increasing awareness of compliance, control and data security among businesses</a></li>
+        <li><a href="<?php echo home_url('press/pr20180111') ?>">January 11, 2018: Nextcloud Talk provides fully self-hosted, complete audio/video and text communication platform</a></li>
+        <li><a href="<?php echo home_url('press/pr20180108') ?>">January 8, 2018: 100K app downloads in 2017 shows strong growth of self-hosted online office market</a></li>
+        <li><a href="<?php echo home_url('press/pr20171018/') ?>">October 18, 2017: Nextcloud and Purism Partner to Build and Include End-to-End Encrypted Storage Products and Services</a></li>
+        <li><a href="<?php echo home_url('press/pr20170927/') ?>">September 27, 2017: Nextcloud Launches First Native Integrated End-to-end Encryption in Enterprise File Sync and Share Solution</a></li>
+        <li><a href="<?php echo home_url('press/pr20170824/') ?>">August 24, 2017: Nextcloud iOS app Free for Download on App Store</a></li>
         <li><a href="<?php echo home_url('press/pr20170807/') ?>">August 7, 2017: Nextcloud and Partners Announce Education Edition With Moodle, Zenodo and other integration features</a></li>
         <li><a href="<?php echo home_url('press/pr20170522/') ?>">May 22, 2017: Nextcloud announces Global Scale architecture as part of Nextcloud 12</a></li>
         <li><a href="<?php echo home_url('press/pr20170508/') ?>">May 8, 2017: Nextcloud and Adfinis SyGroup sign strategic partnership</a></li>
         <li><a href="<?php echo home_url('press/pr20170502/') ?>">May 2, 2017: Nextcloud 12 Beta Introduces the Next Generation of Secure Collaboration</a></li>
-    <li><a href="<?php echo home_url('press/pr20170307/') ?>">March 7, 2017: DASEQ and Nextcloud announce partnership</a></li>
+        <li><a href="<?php echo home_url('press/pr20170307/') ?>">March 7, 2017: DASEQ and Nextcloud announce partnership</a></li>
         <li><a href="<?php echo home_url('press/pr20161213/') ?>">December 13, 2016: Nextcloud 11 sets new standard for security and scalability</a></li>
         <li><a href="<?php echo home_url('press/pr20161027/') ?>">October 27, 2016: Nextcloud GmbH continues growth path with addition of Head of Sales</a></li>
         <li><a href="<?php echo home_url('press/pr20160929/') ?>">Semptember 29, 2016: Danish research and education network moves from ownCloud to Nextcloud</a></li>
