@@ -34,7 +34,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="1">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -54,7 +62,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="14">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -74,7 +90,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="11">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -94,7 +118,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="5">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -116,7 +148,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="48">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -137,7 +177,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="56">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -157,7 +205,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="12">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -177,7 +233,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="10">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -197,7 +261,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="4">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -210,7 +282,7 @@
 					<p class="section--paragraph__tittle"><?php echo $l->t('HackerOne Case study');?></p>
                     <p class="section--paragraph"><?php echo $l->t('Why Nextcloud puts Hacker-powered security front and center. A case study by HackerOne ');?></p>
                 </div>
-                    <a style="margin-top: 70px" class="button button--blue button--small" href="https://www.hackerone.com/resources/nextcloud-puts-hacker-powered-security-front-and-center"><?php echo $l->t('Download');?></a>
+                    <a style="margin-top: 130px" class="button button--blue button--small" href="https://www.hackerone.com/resources/nextcloud-puts-hacker-powered-security-front-and-center"><?php echo $l->t('Download');?></a>
 			</div>
 		</div>
 	</div>
@@ -240,7 +312,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="2">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -260,7 +340,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="15">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -280,7 +368,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="46">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -300,7 +396,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="13">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -322,7 +426,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="6">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -342,7 +454,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="7">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -362,7 +482,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="8">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -382,7 +510,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="9">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--blue button--small" type="submit" value="Download"></p>
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
 			</div>
 		</div>
@@ -403,7 +539,7 @@
                         <div id="RecaptchaField15"></div>
                     </div>
                     </td>
-                    <input type="hidden" name="segmentId" value="50">
+                    <input type="hidden" name="segmentId" value="58">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <div class="newsletter">
                         <input type="hidden" name="newsletter" value="0" />

@@ -128,6 +128,35 @@
 	</div>
 </section>
 
+<section class="section--whitepaper quote">
+	<div class="container revealOnScroll">
+        <div class="row">
+			<div class="col-lg-8">
+                <h2 class="revealOnScroll"><?php echo $l->t('Get our datasheet');?></h2>
+                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                    <p><label for="email"><?php echo $l->t('Download our Outlook Add-in datasheet!');?><br>
+                    <td colspan="2">
+                    <div class="">
+                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                    </div>
+                    </td>
+                    <input type="hidden" name="segmentId" value="58">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a class="hyperlink" href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--large" type="submit" value=" Get the datasheet "></p>
+                </form>
+            </div>
+        </div>
+        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/outlook-thumbnail-banner.png"/>
+	</div>
+</section>
+
 <section class="file-sharing">
 	<div class="container">
 		<div class="featurerow">

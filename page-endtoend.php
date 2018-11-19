@@ -135,7 +135,15 @@
                     </div>
                     </td>
                     <input type="hidden" name="segmentId" value="12">
-                    <input class="mail revealOnScroll" type="text" name="email" maxlength="80" placeholder="Enter your email"></label> <input class="button button--large revealOnScroll" type="submit" value=" Get the white paper "></p>
+                    <input class="mail revealOnScroll" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a class="hyperlink" href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+                    <input class="button button--large revealOnScroll" type="submit" value=" Get the white paper "></p>
                 </form>
                 <small><?php echo $l->t('Find the technical design (RFC) of our solution on');?> <a class="hyperlink" href="https://github.com/nextcloud/end_to_end_encryption_rfc">GitHub</a>.</small>
             </div>
