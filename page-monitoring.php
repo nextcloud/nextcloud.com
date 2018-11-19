@@ -38,16 +38,16 @@
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Track file activity');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The Nextcloud Activity app gives users a clear view on what is happening with their files.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('It provides users with an overview of recent changes like:
+			<p class="section--paragraph"><?php echo $l->t('It provides users with an overview of recent changes like:');?>
 			<ul>
-                <li>New or deleted files in shared folders</li>
-                <li>File modifications</li>
-                <li>Download of shared files</li>
-                <li>New comments or tags</li>
-                <li>Calendar invitations</li>
-                <li>Incoming calls or chat requests</li>
-                <li>and more!</li>
-			</ul>');?></p>
+                <li><?php echo $l->t('New or deleted files in shared folders');?></li>
+                <li><?php echo $l->t('File modifications');?></li>
+                <li><?php echo $l->t('Download of shared files');?></li>
+                <li><?php echo $l->t('New comments or tags');?></li>
+                <li><?php echo $l->t('Calendar invitations');?></li>
+                <li><?php echo $l->t('Incoming calls or chat requests');?></li>
+                <li><?php echo $l->t('and more!');?></li>
+			</ul></p>
 		</div>
 	</div>
 	<div class="row">
@@ -106,8 +106,13 @@
         </div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Integration in tools');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Monitoring and systems intelligence tools <a class="hyperlink" href="http://opennms.org/" target="_blank">openNMS</a> and <a class="hyperlink"  ref="https://splunkbase.splunk.com/apps/#/search/nextcloud/">Splunk</a> already have support for monitoring Nextcloud 10+ systems and <a class="hyperlink"  href="https://github.com/opennms-config-modules/nextcloud" target="_blank">the openNMS configuration module</a> can be easily modified for other tools like Nagios.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Monitoring and systems intelligence tools <a class="hyperlink" href="http://opennms.org/" target="_blank">openNMS</a> and <a class="hyperlink"  ref="https://splunkbase.splunk.com/apps/#/search/nextcloud/">Splunk</a> already have support for monitoring Nextcloud systems and');?> <a class="hyperlink"  href="https://github.com/opennms-config-modules/nextcloud" target="_blank"><?php echo $l->t('the openNMS configuration module');?></a> <?php echo $l->t('can be easily modified for other tools like Nagios.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Admins can also opt for logging to the systemd log, allowing them to manage all logs of the system in one place. When enabled, the audit log is in a separate file.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Read blogs by OpenNMS and Splunk about their Nextcloud integration:');?></p>
+			<ul>
+                <li><a class="hyperlink" href="https://nextcloud.com/blog/awesome-ways-you-can-use-the-splunk-app-for-nextcloud/">Awesome ways you can use the Splunk App for Nextcloud</a></li>
+                <li><a class="hyperlink" href="https://www.adventuresinoss.com/2016/08/25/nextcloud-and-opennms/">Nextcloud and OpenNMS</a></li>
+            </ul>
 		</div>
 	</div>
 	<div class="row">
@@ -155,7 +160,7 @@
             <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/auditlog.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/auditlog-nw.png" /></a>
 		</div>
 		<div class="col-md-6 revealOnScroll">
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud logs data in the nextcloud.log file provided in the root of its data directory. You can optionally record a full audit trail there, provided the ‘info’ log level is set. This can be used by Data Loss Prevention and Mobile Device Management tools as user agent information is available alongside extensive user, IP and date/time logs.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud logs data in the nextcloud.log file provided in the root of its data directory. You can optionally record a full audit trail in a separate audit log file. This can be used by Data Loss Prevention and Mobile Device Management tools as user agent information is available alongside extensive user, IP and date/time logs.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Audit logs provided include user session information, file handling, user management, sharing and other actions.');?></p>
 		</div>
 	</div>
