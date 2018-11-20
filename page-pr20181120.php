@@ -66,7 +66,11 @@ Nextcloud GmbH<br />
 Jos Poortvliet<br />
 Hirschstrasse 26<br />
 D-70173 Stuttgart, Germany<br />
-e-mail: <a href="mailto:pr@nextcloud.com">pr@nextcloud.com</a></br />
+e-mail: <a href="mailto:pr@nextcloud.com">pr@nextcloud.com</a><br /><br />
+Ascensio System SIA<br />
+Ksenia Fedoruk<br />
+Marketing Communications Manager<br />
+e-mail: <a href="mailto:kseniya.fedoruk@onlyoffice.com">kseniya.fedoruk@onlyoffice.com</a><br />
 
 
 <div class="row">
