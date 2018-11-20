@@ -49,8 +49,8 @@ Nextcloud's easy and quick deployment, open, modular architecture and emphasis o
 
 <p><strong>Links:</strong>
 <ul>
-<li>ONLYOFFICE announcement blog: <a href="http://www.onlyoffice.com/blog/onlyoffice-and-nextcloud-partnering-up">onlyoffice.com/blog</a></li>
-<li>Nextcloud announcement blog: <a href="https://nextcloud.com/blog/">nextcloud.com/blog</a></li>
+<li>ONLYOFFICE announcement blog: <a href="http://www.onlyoffice.com/blog/2018/11/onlyoffice-and-nextcloud-partner-to-deliver-seamless-collaboration-for-modern-organizations/">onlyoffice.com/blog</a></li>
+<li>Nextcloud announcement blog: <a href="https://nextcloud.com/blog/onlyoffice-and-nextcloud-partnering-up">nextcloud.com/blog</a></li>
 <li>About Nextcloud: <a href="https://nextcloud.com/about">nextcloud.com/about</a></li>
 <li>Information on Nextcloud website: <a href="https://nextcloud.com/onlyoffice">nextcloud.com/onlyoffice</a></li>
 <li>Information on ONLYOFFICE website <a href="https://www.onlyoffice.com/connectors-nextcloud.aspx">onlyoffice.com/connectors-nextcloud.aspx</a></li>
