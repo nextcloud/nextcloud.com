@@ -19,7 +19,7 @@
     <ul>
     <li><a href="#latest14">Nextcloud 14</a></li>
     <li><a href="#latest13">Nextcloud 13</a></li>
-    <li><a href="#latest12">Nextcloud 12</a></li>
+    <li><a href="#latest12">Nextcloud 12 (unsupported!)</a></li>
     <li><a href="#latest11">Nextcloud 11 (unsupported!)</a></li>
     <li><a href="#latest10">Nextcloud 10 (unsupported!)</a></li>
     <li><a href="#latest9">Nextcloud 9 (unsupported!)</a></li>
