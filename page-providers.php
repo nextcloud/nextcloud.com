@@ -7,7 +7,7 @@
     <img class="pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/empty1x1.png" alt="">
     <div class="container">
         <div class="col-md-6 topheader">
-            <h1>Nextcloud Server Changelog</h1>
+            <h1>Nextcloud Providers</h1>
         </div>
     </div>
 </div>
