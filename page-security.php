@@ -57,9 +57,8 @@
 		<h3><?php echo $l->t('Supported Product Versions');?></h3>
 		<p><strong><?php echo $l->t('Nextcloud Server:');?></strong></p>
 		<ul>
-            <li><?php echo $l->t('14.0.x (latest release)');?></li>
+			<li><?php echo $l->t('14.0.x (latest release)');?></li>
 			<li><?php echo $l->t('13.0.x (latest release)');?></li>
-			<li><?php echo $l->t('12.0.x (latest release)');?></li>
 		</ul>
 
 		<p><?php echo $l->t('You will find our Maintenance and Release Schedule <a class="hyperlink" href="https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule">on GitHub</a>. Please have a close look into the End of Life-section.');?></p>
