@@ -1,7 +1,7 @@
 <?php while (have_posts()) : the_post(); ?>
   <article <?php post_class(); ?>>
   <head>
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/blog.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blog.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
@@ -11,9 +11,8 @@
 </script>
 </head>
 <section class="section--blog-header">
-<div class="blog-background" style="background:url('<?php echo wp_get_attachment_image_url( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>') no-repeat; background-position:center; background-size:cover; background-color:#0082c9;">
+<div class="blog-background" style="background:url('<?php echo !empty(get_post_thumbnail_id( $post->ID ))? wp_get_attachment_image_url( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' )  :  bloginfo('template_directory').'/assets/img/headers/dots.png'; ?>') no-repeat; background-position:center; background-size:cover; background-color:#0082c9;">
 </div>
-
 <section class="section--content">
 <div class="container">
     <div class="row">
@@ -40,6 +39,7 @@
         </div>
     </div>
 </div>
+
 </section>
 <section class="section--footer">
 <div class="container">
