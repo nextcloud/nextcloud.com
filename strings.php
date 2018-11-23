@@ -64,9 +64,9 @@ $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.nextcloud.com/download/repos
 
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.nextcloud.com/server/prereleases/';
-$SERVER_TESTING_VERSION ='beta 2'; // nothing to test -> leave it empty
-$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-15.0.0beta2.tar.bz2';
-$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-15.0.0beta2.zip';
+$SERVER_TESTING_VERSION ='RC 1'; // nothing to test -> leave it empty
+$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-15.0.0RC1.tar.bz2';
+$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-15.0.0RC1.zip';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.nextcloud.com/server/installer/setup-nextcloud.php';
