@@ -26,7 +26,7 @@
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
-								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
+								<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
 							</div>
 							<p><?php echo $l->t('Looking for');?> <a class="hyperlink" href="<?php echo home_url('changelog') ?>"><?php echo $l->t('older versions or major releases</a>?');?></p>
 							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a class="hyperlink" href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab">a virtual machine or docker image</a> on Windows Server.</small>');?></p>
@@ -51,7 +51,7 @@
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
-								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
+								<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
 							</div>
 							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a class="hyperlink" href="#tab-cloud" title="Provides automated updates" role="tab" data-toggle="tab">a virtual machine or docker image</a> on Windows Server.</small>');?></p>
 							<p><?php echo $l->t('<small><strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a class="hyperlink" href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a>.</small>');?></p>
@@ -68,10 +68,10 @@
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
-								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
+								<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/serverwebui.png" alt="Nextcloud Server" />
 							</div>
 							<p><?php echo $l->t('<strong>Security note:</strong></br> We recommend a subscription to our low-traffic <a class="hyperlink" href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a> for notifications on updates and security issues. Find the <a class="hyperlink" href="<?php echo $NEXTCLOUD_GPG; ?>">public Nextcloud GPG key here</a>.');?></p>
-							<p><?php echo $l->t('Looking for repositories of');?> <a class="hyperlink" href="<?php echo home_url('changelog') ?>"><?php echo $l->t('previous major releases</a>?');?></p>
+							<p><?php echo $l->t('Looking for repositories of');?> <a class="hyperlink" href="<?php echo home_url('changelog') ?>"><?php echo $l->t('previous major releases?');?></a></p>
 							<p><?php echo $l->t('<small>Nextcloud Server does <strong>not</strong> support Microsoft Windows. We recommend using <a class="hyperlink" id="cloud" href="#tab-cloud" title="Easy deployment in a Virtual Machine" role="tab" data-toggle="tab">the Nextcloud Appliance</a> on Windows Server.</small>');?></p>
 						</div>
 					</div>
@@ -83,22 +83,22 @@
                                 <div class="col-md-6">
                                     <h5><?php echo $l->t('Home/SME appliance');?></h5>
                                     <p><?php echo $l->t('<a class="hyperlink" target="_blank" href="https://www.hanssonit.se/">T&M Hansson IT AB</a> maintains a VM designed to be the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure SSL/TLS connection.');?></p>
-                                    <p><?php echo $l->t('<a class="btn btn-lg btn-primary" href="https://www.hanssonit.se/nextcloud-vm/">Get Home/SME appliance</a>');?></p>
-                                    <p><?php echo $l->t('Find <a class="hyperlink" href="https://github.com/nextcloud/vm">source here</a>.');?></p>
+                                    <p><a class="btn btn-lg btn-primary" href="https://www.hanssonit.se/nextcloud-vm/"><?php echo $l->t('Get Home/SME appliance<');?>/a></p>
+                                    <p><a class="hyperlink" href="https://github.com/nextcloud/vm"><?php echo $l->t('Find source here');?></a>.</p>
                                 </div>
                                 <div class="col-md-6">
                                     <h5><?php echo $l->t('SME/Enterprise appliance');?></h5>
                                     <p><?php echo $l->t('Nextcloud GmbH maintains a free appliance built on the Univention Corporate Server (UCS) with easy graphical setup and web-based administration. It includes user management via LDAP as well as optional Collabora Online integration.');?></p>
-                                    <p><?php echo $l->t('<a class="btn btn-lg btn-primary" href="https://www.univention.com/products/univention-app-center/app-catalog/nextcloud/">Get SME/Enterprise appliance</a>');?></p>
-                                    <p><?php echo $l->t('Find <a class="hyperlink" href="https://github.com/nextcloud/univention-app">source here</a>.');?></p>
+                                    <p><a class="btn btn-lg btn-primary" href="https://www.univention.com/products/univention-app-center/app-catalog/nextcloud/"><?php echo $l->t('Get SME/Enterprise appliance');?></a></p>
+                                    <p><a class="hyperlink" href="https://github.com/nextcloud/univention-app"><?php echo $l->t('Find source here');?></a>.</p>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <h5><?php echo $l->t('Docker image');?></h5>
                                     <p><?php echo $l->t('Several Nextcloud community members maintain a Docker image. It supports a wide range of architectures and releases, features Apache/FPM, NGINX, various databases and more.');?></p>
-                                    <p><?php echo $l->t('<a class="btn btn-lg btn-primary" href="https://hub.docker.com/_/nextcloud/">Get Docker image</a>');?></p>
-                                    <p><?php echo $l->t('Find <a class="hyperlink" href="https://github.com/nextcloud/docker">source here</a>.');?></p>
+                                    <p><a class="btn btn-lg btn-primary" href="https://hub.docker.com/_/nextcloud/"><?php echo $l->t('Get Docker image');?></a></p>
+                                    <p><a class="hyperlink" href="https://github.com/nextcloud/docker"><?php echo $l->t('Find source here');?></a>.</p>
                                 </div>
                                 <div class="col-md-6">
                                     <h5><?php echo $l->t('Snap package');?></h5>
@@ -110,7 +110,7 @@
 						</div>
 						<div class="col-md-4">
 							<div class="thumbnail">
-								<img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/VMwelcome.png" alt="Nextcloud home user VM" />
+								<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/VMwelcome.png" alt="Nextcloud home user VM" />
 							</div>
 							<p><?php echo $l->t('<small><strong>Security note:</strong></br>To receive information about updates and security issues, we recommend a subscription to our low-traffic <a class="hyperlink" href="https://newsletter.nextcloud.com/?p=subscribe&id=1">newsletter</a>.</small>');?></p>
 							<p><?php echo $l->t('<small><strong>Release channels:</strong></br>We offer');?> <a class="hyperlink" href="<?php echo home_url('release-channels') ?>"><?php echo $l->t('Release Channels</a> with production, stable, beta and daily-branches. This gives you the opportunity to choose your balance between stability and features.</small> Most of our Appliances support these release channels or let you fix on specific major versions.');?></p>
@@ -133,7 +133,7 @@
 
 
 <div class="installers">
-	<div id="install-clients" class="container row PopupGetStarted">
+	<div id="install-clients" name="install-clients" class="container row PopupGetStarted">
 		<div class="instructions">
 			<div class="row">
 				<a href="#" class="close">&times;</a>
@@ -162,7 +162,7 @@
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
-								<img style="width: 100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/macsettings.png" alt="Desktop Client" />
+								<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/desktop/macsettings.png" alt="Desktop Client" />
 							</div>
 						</div>
 					</div>
@@ -208,7 +208,7 @@
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
-								<img style="margin: 0 auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/android.gif" alt="Nextcloud Mobile Client" />
+								<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/android.gif" alt="Nextcloud Mobile Client" />
 							</div>
 						</div>
 					</div>
@@ -287,24 +287,3 @@
         <!--  Mask instructions server -->
    <a href="#" class="mask"></a>
 </div>
-<script type="text/javascript">
-$('#packages').click(function () {
-	$("#tab-archive").removeClass("active");
-	$("#tab-packages").addClass("active");
-	$("#li-tab-archive").removeClass("active");
-	$("#li-tab-packages").addClass("active");
-});
-
-$(function() {
-	if (navigator.appVersion.indexOf("Win")!=-1) {
-		var e = document.getElementById("client-download-win");
-		e.className += ' btn-primary';
-	} else if(navigator.appVersion.indexOf("Mac")!=-1) {
-		var e = document.getElementById("client-download-mac");
-		e.className += " btn-primary";
-	} else if (navigator.appVersion.indexOf("X11")!=-1 || navigator.appVersion.indexOf("Linux")!=-1) {
-		var e = document.getElementById("client-download-linux");
-		e.className += ' btn-primary';
-	}
-});
-</script>

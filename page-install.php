@@ -2,7 +2,7 @@
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/install.css" rel="stylesheet">
     <script>
 	require(["require.config"], function() {
-		require(["bootstrap", "jquery"])
+		require(["jquery", "bootstrap", "pages/install"])
 	});
 </script>
 </head>
@@ -28,7 +28,7 @@
 		<h2><?php echo $l->t('Get Nextcloud Server');?></h2>
 		<p><?php echo $l->t('There are several ways to get your own Nextcloud for you and your data:');?></p>
 		<div class="btn-group">
-			<a style="background: #0082c9; color: white" class="btn btn-default btn-blue btn-large" href="#instructions-server">Download</a>
+			<a style="background: #0082c9; color: white" class="btn btn-default btn-blue btn-large" href="#instructions-server"  >Download</a>
 			<a class="btn btn-default btn-large" href="<?php echo home_url('devices') ?>">Devices</a>
 			<a class="btn btn-default btn-large" href="<?php echo home_url('providers') ?>">Providers</a>
 		</div>
@@ -125,17 +125,5 @@
 	</div>
 </div>
 <?php require get_template_directory().'/install-instructions.php'; ?>
-<script>
-    $(document).ready(function() {
-        $('#mobile').on('click', function () {
-            $("#tab-desktop, #li-tab-desktop").removeClass("active");
-            $("#tab-mobile, #li-tab-mobile").addClass("active"); 
-        });
-        $('#desktop').on('click', function () {
-            $("#tab-mobile, #li-tab-mobile").removeClass("active");
-            $("#tab-desktop, #li-tab-desktop").addClass("active");
-        });    
-    });
-</script>
 </div>
 </section>

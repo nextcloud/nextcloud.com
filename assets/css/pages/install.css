@@ -2567,12 +2567,36 @@ div.PopupGetStarted {
 div.PopupGetStarted div.row {
   margin: 0; }
 
+/* Add animation (Chrome, Safari, Opera) */
+@-webkit-keyframes FromTop {
+  from {
+    top: -100px;
+    opacity: 0; }
+  to {
+    top: 0px;
+    opacity: 1; } }
+/* Add animation (Standard syntax) */
+@keyframes FromTop {
+  from {
+    top: -100px;
+    opacity: 0; }
+  to {
+    top: 0px;
+    opacity: 1; } }
 div.PopupGetStarted div.instructions {
   background: white !important;
   /* I seem to have to enforce this, comes from main.min.css*/
-  margin-top: 70px !important;
+  position: absolute;
+  margin-top: 170px;
   padding: 10px;
-  border-radius: 4px; }
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: FromTop;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 0.5s;
+  /* Chrome, Safari, Opera */
+  animation-name: FromTop;
+  animation-duration: 0.5s; }
 
 a.mask {
   position: fixed;
@@ -2721,32 +2745,5 @@ a.btn-lg {
   hr.narrow {
     display: block;
     margin-top: 50px; } }
-/* Consulting page */
-.consulting .consultingname {
-  height: 30px; }
-
-.consulting .consultant-logo {
-  padding: 15px;
-  margin: auto;
-  width: 80%; }
-
-img.desaturate {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%); }
-
-.consulting .bannerhead {
-  text-align: center; }
-
-.consulting .flag {
-  margin: auto;
-  padding: 0px 5px; }
-
-.consulting .consultant-logo-partner {
-  padding: 15px;
-  margin: auto;
-  width: 100%; }
-
-.consulting .bannerfoot {
-  height: 180px; }
 
 /*# sourceMappingURL=install.css.map */
