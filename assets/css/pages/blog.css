@@ -2393,7 +2393,7 @@ html {
 
 body {
   height: 100%;
-  background-color: #0082c9; }
+  background-color: white; }
 
 section {
   height: 100%; }
@@ -2419,7 +2419,8 @@ section {
     border-top-left-radius: 10px;
     width: 100%;
     height: 40vh;
-    background-color: rgba(244, 248, 251, 0.9);
+    background-color: white;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 0px;
     padding-bottom: 0%; }
     @media (max-width: 768px) {
@@ -2433,6 +2434,7 @@ section {
     width: 100%;
     height: calc(100% - 40vh);
     background-color: white;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 0px; }
     @media (max-width: 768px) {
       .section--content .container .row .white {
@@ -2484,6 +2486,8 @@ section {
         text-decoration: none; }
 
 .section--footer .container .row .col-md-10 {
+  z-index: 15;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
   padding-top: 20px;
   padding-bottom: 100px;
   background: white; }
