@@ -142,8 +142,20 @@
 	</div>
 	<div class="featurerow">
 	<div class="wrap container teamgroup">
-
-	<div class="col-md-4">
+        <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/john.jpg" />
+				<h2 class="teamname">Barthélémy Briand</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Server, contacts, front-end and accessibility</h4>
+					<h4 class="teamlocation">lives in France</h4>
+					<p class="teamsocial"><a href="https://github.com/skjnldsv"><i class="fa-github fa"></i></a> <a href="https://twitter.com/skjnldsv"><i class="fa-twitter fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Barthélémy is a software engineer specialized in front-end development. He cares about the Contacts app; Design, UX and Accessibility and loves to mentor people in the areas of Javascript, Vue.js, HTML and CSS.</p>
+			</div>
+		</div>
+        <div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/camila.jpg" />
 				<h2 class="teamname">Camila San Martin Ayres</h2>
@@ -153,7 +165,20 @@
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="https://camila.codes"><i class="fa-rss fa"></i></a> <a href="https://github.com/camilasan"><i class="fa-github fa"></i></a> <a href="https://www.linkedin.com/in/camilaayres"><i class="fa-linkedin fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Camila is from Brazil and has worked as front-end developer, with C#, Java and even Delphi. She got into open source doing C++/Qt development in the KDE community. After moving to Germany she worked with PHP, Ruby on Rails, AngularJS, Go and Drupal 7. She's now a desktop client developer at Nextcloud but just might do other things than C++ sometimes.</p>
+				<p class="teamdescription">Camila is from Brazil and has worked as front-end developer, with C#, Java and even Delphi. She maintains our desktop client and is happy to help anyone get involved there. The app is written in C++ using the Qt toolkit.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/christoph.jpg" />
+				<h2 class="teamname">Christoph Wurst</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Front-end, Two-factor Authenthication and Mail</h4>
+					<h4 class="teamlocation">lives in Hadres, Austria</h4>
+					<p class="teamsocial"><a href="http://blog.wuc.me/"><i class="fa-rss fa"></i></a> <a href="https://github.com/ChristophWurst"><i class="fa-github fa"></i></a> <a href="https://twitter.com/ChristophWurst"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Christoph has a masters degree in Software Engineering, lives in Hadres (mind the r) and is happy to help people get into JavaScript, Mail coding, two-factor auth, Vue.js, PHP or Rust.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -166,7 +191,33 @@
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jancborchardt"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jancborchardt"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Jan-Christoph is responsible for design on ownCloud since early 2011, continuing at Nextcloud. He pushes forward better design in open source through founding and contributing to several projects, giving talks, working with universities, and fostering the Open Source Design collective.</p>
+				<p class="teamdescription">Jan-Christoph is responsible for design on ownCloud since early 2011, continuing at Nextcloud. He is happy to help anyone with getting involved in design and UX and around HTML and CSS.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Julius Härtl</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Server and apps</h4>
+					<h4 class="teamlocation">lives in Würzburg, Germany</h4>
+					<p class="teamsocial"><a href="https://blog.juliushaertl.de/"><i class="fa-rss fa"></i></a> <a href="https://github.com/juliushaertl"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jus_42"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Julius is a long time contributor, working on frontend and backend development of the server and apps like Deck while woring on his master's degree. If you like front-end or Kanban, JavaScript, Vue.js, PHP, HTML or CSS, he can get you up to speed in no time!</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/joas.jpg" />
+				<h2 class="teamname">Joas Schilling</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Co-founder, Activity, Workflow and Notifications</h4>
+					<h4 class="teamlocation">lives in Heilbronn, Germany</h4>
+					<p class="teamsocial"><a href="https://www.schilljs.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/nickvergessen"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Joas has been involved in open source for over a decade, studied at the University of Stuttgart and he can help you with Talk app, Server core, PHP, Database technology as well as things he developed like Notifications and Activities.</p>
 			</div>
 		</div>
         <div class="col-md-4">
@@ -179,9 +230,62 @@
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><!--<a href="https://spreed.me/"><i class="fa-rss fa"></i></a>--> <a href="https://shiromarieke.github.io/"><i class="fa-rss fa"></i></a> <a href="https://github.com/shiromarieke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/shiromarieke"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Marie studied cultural journalism at the Berlin University of the Arts. She got involved in privacy and open source in 2014, when she started organizing CryptoParties in Berlin. She has worked on many campaigns, trainings and events about privacy, human rights, journalism and open source with the Center for Investigative Journalism, the Tor Project and the Courage Foundation, among others. </p>
+				<p class="teamdescription">Marie studied cultural journalism at the Berlin University of the Arts. She is part of the Nextcloud marketing team and is more than happy to get anyone up to speed in marketing, writing and event organization.</p>
 			</div>
         </div>
+        <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marino.jpg" />
+				<h2 class="teamname">Marino Faggiana</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Apple iOS developer</h4>
+					<h4 class="teamlocation">lives in Vicenza, Italy</h4>
+					<p class="teamsocial"> <a href="https://github.com/marinofaggiana"><i class="fa-github fa"></i></a> <a href="https://twitter.com/marinofaggiana"><i class="fa-twitter fa"></i></a> <a href="https://www.linkedin.com/in/marino-faggiana-596569106/"><i class="fa-linkedin fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Marino studied telecommunications in Vicenza and can teach you about Apple App, Object-C, Swift, C C++ (Turbo Pascal if you really want) and assembly.</p>
+			</div>
+		</div>
+        <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mario.jpg" />
+				<h2 class="teamname">Mario Danic</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Android Development</h4>
+					<h4 class="teamlocation">lives in Croatia</h4>
+					<p class="teamsocial"> <a href="https://github.com/mario"><i class="fa-github fa"></i></a> <a href="https://twitter.com/mdjanic"><i class="fa-twitter fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Mario  studied Informatics and Organization and has been the lead dev on the open source projects Libburnia and Gnomebaker. He's happy to help anyone get into Android development, be it on the Talk or Files apps.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/roeland.jpg" />
+				<h2 class="teamname">Roeland Douma</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Security Lead</h3>
+					<h4 class="teamexpertise">Co-founder, Desktop Client, Sharing</h4>
+					<h4 class="teamlocation">lives in Zuidoostbeemster, Netherlands</h4>
+					<p class="teamsocial"><a href="http://rullzer.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/rullzer"><i class="fa-github fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Roeland has a MSc degree in Computer Science from the University of Amsterdam and takes care of the server, desktop client & security things in Nextcloud. If you want to work on C++, the server or, of course, security - count on him to help you!</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/tobias.jpg" />
+				<h2 class="teamname">Tobias Kaminsky</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Android Client</h4>
+					<h4 class="teamlocation">lives in Langen, Germany</h4>
+					<p class="teamsocial"><a href="https://github.com/tobiasKaminsky"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Tobias studied Sports and Computer Science in Darmstadt, is an experienced Java/Scala engineer and has a background in database development. He 'does Android' in Nextcloud and is happy to mentor you in that area, too!</p>
+			</div>
+		</div>
+
     </div>
     </div>
 </section>
