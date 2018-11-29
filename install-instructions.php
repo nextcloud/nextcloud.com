@@ -6,7 +6,7 @@
 				<div id="tab-archive" role="tabpanel" class="tab-pane active">
 					<div class="overlay-body row">
 						<div class="col-md-6">
-							<p><?php echo $l->t('The <strong>archive</strong> should be extracted in a folder your web server has access to. Latest stable version');?>:  <span class="label label-blue"><?php echo $VERSIONS_SERVER_FULL_STABLE; ?></span> (<a class="hyperlink" href="<?php echo home_url('changelog') ?>"><small><?php echo $l->t('Changelog');?></small></a>)</br>
+							<p><?php echo $l->t('The <strong>archive</strong> should be extracted in a folder your web server has access to. Latest stable version');?>:  <?php echo $VERSIONS_SERVER_FULL_STABLE; ?> (<a class="hyperlink" href="<?php echo home_url('changelog') ?>"><small><?php echo $l->t('Changelog');?></small></a>)</br>
 							<div class="downloadbutton">
 								<a style="background: #0082c9; color: white;" class="btn btn-default btn-large" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>"><?php echo $l->t('Download Nextcloud');?></a>
 							</div>
@@ -17,7 +17,7 @@
 							<a class="btn btn-default" data-toggle="collapse" href="#more">Details and Download options</a>
 							<div class="collapse" id="more">
 							<ol>
-								<li><?php echo $l->t('Download the');?> <a class="label label-blue" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">.tar.bz2</a> <?php echo $l->t('or');?> <a class="label label-blue" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">.zip</a> <?php echo $l->t('archive.');?></li>
+								<li><?php echo $l->t('Download the');?> <a class="hyperlink" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">.tar.bz2</a></a> <?php echo $l->t('or');?> <a class="hyperlink" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">.zip</a> <?php echo $l->t('archive.');?></li>
 								<li><?php echo $l->t('Check package integrity using MD5');?> (<a class="hyperlink" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_MD5; ?>">.tar.bz2</a> / <a class="hyperlink"  href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_MD5; ?>">.zip</a>) <?php echo $l->t('or');?> SHA256 (<a class="hyperlink"  href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_SHA256; ?>">.tar.bz2</a> / <a class="hyperlink"  href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_SHA256; ?>">.zip</a>)</li>
 								<li><?php echo $l->t('Verify the authenticity via PGP');?> (<a class="hyperlink" target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR_PGP; ?>">.tar.bz2 </a>/<a class="hyperlink" target="_blank" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP_PGP ?>">.zip</a>). <?php echo $l->t('The Nextcloud GPG key');?> <a class="hyperlink" target="_blank" href="<?php echo $NEXTCLOUD_GPG ; ?>"><?php echo $l->t('is here');?></a>.</li>
 							</ol>
@@ -82,29 +82,29 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <h5><?php echo $l->t('Home/SME appliance');?></h5>
-                                    <p><?php echo $l->t('<a class="hyperlink" target="_blank" href="https://www.hanssonit.se/">T&M Hansson IT AB</a> maintains a VM designed to be the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure SSL/TLS connection.');?></p>
-                                    <p><a class="btn btn-lg btn-primary" href="https://www.hanssonit.se/nextcloud-vm/"><?php echo $l->t('Get Home/SME appliance<');?>/a></p>
-                                    <p><a class="hyperlink" href="https://github.com/nextcloud/vm"><?php echo $l->t('Find source here');?></a>.</p>
+                                    <p><a class="hyperlink" target="_blank" href="https://www.hanssonit.se/">T&M Hansson IT AB</a> <?php echo $l->t('maintains a VM designed to be the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure SSL/TLS connection.');?></p>
+                                    <p><a class="btn btn-lg btn-primary" href="https://www.hanssonit.se/nextcloud-vm/" target="_blank"><?php echo $l->t('Get Home/SME appliance<');?>/a></p>
+                                    <p><a class="hyperlink" href="https://github.com/nextcloud/vm" target="_blank"><?php echo $l->t('Find source here');?></a>.</p>
                                 </div>
                                 <div class="col-md-6">
                                     <h5><?php echo $l->t('SME/Enterprise appliance');?></h5>
                                     <p><?php echo $l->t('Nextcloud GmbH maintains a free appliance built on the Univention Corporate Server (UCS) with easy graphical setup and web-based administration. It includes user management via LDAP as well as optional Collabora Online integration.');?></p>
-                                    <p><a class="btn btn-lg btn-primary" href="https://www.univention.com/products/univention-app-center/app-catalog/nextcloud/"><?php echo $l->t('Get SME/Enterprise appliance');?></a></p>
-                                    <p><a class="hyperlink" href="https://github.com/nextcloud/univention-app"><?php echo $l->t('Find source here');?></a>.</p>
+                                    <p><a class="btn btn-lg btn-primary" href="https://www.univention.com/products/univention-app-center/app-catalog/nextcloud/" target="_blank"><?php echo $l->t('Get SME/Enterprise appliance');?></a></p>
+                                    <p><a class="hyperlink" href="https://github.com/nextcloud/univention-app" target="_blank"><?php echo $l->t('Find source here');?></a>.</p>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <h5><?php echo $l->t('Docker image');?></h5>
                                     <p><?php echo $l->t('Several Nextcloud community members maintain a Docker image. It supports a wide range of architectures and releases, features Apache/FPM, NGINX, various databases and more.');?></p>
-                                    <p><a class="btn btn-lg btn-primary" href="https://hub.docker.com/_/nextcloud/"><?php echo $l->t('Get Docker image');?></a></p>
-                                    <p><a class="hyperlink" href="https://github.com/nextcloud/docker"><?php echo $l->t('Find source here');?></a>.</p>
+                                    <p><a class="btn btn-lg btn-primary" href="https://hub.docker.com/_/nextcloud/" target="_blank"><?php echo $l->t('Get Docker image');?></a></p>
+                                    <p><a class="hyperlink" href="https://github.com/nextcloud/docker" target="_blank"><?php echo $l->t('Find source here');?></a>.</p>
                                 </div>
                                 <div class="col-md-6">
                                     <h5><?php echo $l->t('Snap package');?></h5>
-                                    <p><?php echo $l->t('<a class="hyperlink" href="https://canonical.com">Canonical</a> and the Nextcloud community maintain a Nextcloud Snap, including release channels and quick and easy deployment for easy home use.');?></p>
-                                    <p><?php echo $l->t('<a class="btn btn-lg btn-primary" href="https://uappexplorer.com/snap/ubuntu/nextcloud">Get Snap package</a>');?></p>
-                                    <p><?php echo $l->t('Find <a class="hyperlink" href="https://github.com/nextcloud/nextcloud-snap">source here</a>.');?></p>
+                                    <p><a class="hyperlink" href="https://canonical.com">Canonical</a><?php echo $l->t(' and the Nextcloud community maintain a Nextcloud Snap, including release channels and quick and easy deployment for easy home use.');?></p>
+                                    <p><a class="btn btn-lg btn-primary" href="https://uappexplorer.com/snap/ubuntu/nextcloud" target="_blank"><?php echo $l->t('Get Snap package');?></a></p>
+                                    <p><a class="hyperlink" href="https://github.com/nextcloud/nextcloud-snap" target="_blank"><?php echo $l->t('Find source here.');?></a></p>
                                 </div>
                             </div>
 						</div>

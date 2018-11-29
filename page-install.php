@@ -27,9 +27,8 @@
 		<h2 class="text-center"><?php echo $l->t('Server');?></h2>
 		<p><?php echo $l->t('There are several ways to get your own Nextcloud for you and your data.');?></p>
         <p class="text-center"><a class="button button--blue button--large button--arrow" href="#instructions-server"  >Download server</a></p>
-        <p class="text-center"><a class="button button--white" href="<?php echo home_url('signup'); ?>"  >Sign up with a provider</a></p>
-        <p class="text-center"><a class="hyperlink" href="<?php echo home_url('devices') ?>">Buy devices</a> &nbsp; &nbsp;
-        <a class="hyperlink" href="<?php echo home_url('providers') ?>">Find a provider</a></p>
+        <p class="text-center"><a class="button button--white" href="<?php echo home_url('signup'); ?>">Sign up with a provider</a></p>
+        <p class="text-center"><a class="hyperlink" href="<?php echo home_url('devices') ?>">Buy devices</a> &nbsp; &nbsp; <a class="hyperlink" href="<?php echo home_url('providers') ?>">Find a provider</a></p>
 	</div>
 	<div class="col-md-4">
 		<hr class="narrow"></hr>
@@ -48,7 +47,8 @@
 		<h2 class="text-center"><?php echo $l->t('Mobile');?></h2>
 		<p><?php echo $l->t('Use your Nextcloud on the go with our Android and iOS apps.');?></p>
         <p class="text-center"><a class="button button--blue button--large button--arrow" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients">Mobile apps</a></p>
-	</div></div>
+	</div>
+	</div>
 <br />
 <br />
 
