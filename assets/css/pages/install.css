@@ -2517,7 +2517,7 @@ div#getapps p {
 img#sync-button {
   vertical-align: text-bottom; }
 
-div.numbadge {
+.numbadge {
   border-radius: 50%;
   width: 53px;
   height: 53px;
@@ -2527,8 +2527,16 @@ div.numbadge {
   padding-top: 4px;
   font-size: 21px;
   border: 4px solid white; }
-  div.numbadge i {
+  .numbadge i {
     color: white; }
+
+.devicebadge {
+  background: none;
+  width: 150px;
+  height: 150px;
+  font-size: 90px; }
+  .devicebadge i {
+    color: #0082c9; }
 
 div.numbadge.centre {
   margin-left: auto;

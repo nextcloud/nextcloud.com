@@ -198,7 +198,7 @@ img#sync-button {
     vertical-align: text-bottom;
 }
 
-div.numbadge {
+.numbadge {
     border-radius: 50%;
     width: 53px;
     height: 53px;
@@ -210,6 +210,16 @@ div.numbadge {
     border: 4px solid white;
     i {
         color: white;
+    }
+}
+
+.devicebadge {
+    background: none;
+    width: 150px;
+    height: 150px;
+    font-size: 90px;
+    i {
+        color: $nextcloud-blue;
     }
 }
 

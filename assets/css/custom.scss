@@ -905,6 +905,19 @@ body.advisories .content ul li {
         background: url(../img/common/arrow_right.svg) center/contain no-repeat; }*/
     .button--blue.button--dropdown:hover:before {
       background: url(../img/common/simple_arrow_down_white.svg) center/contain no-repeat; }
+    .button--white {
+/*         background-color: $nextcloud-blue; */
+        border: 1px solid $nextcloud-blue;
+        color: $nextcloud-blue;
+    }
+    .button--white:hover,
+    .button--white:focus {
+        background-color: $nextcloud-blue;
+        color: white;
+    }
+    .button--white.button--dropdown:hover:before {
+        background: url(../img/common/simple_arrow_down_blue.svg) center/contain no-repeat;
+    }
   .button--arrow {
     padding-right: 50px; }
     .button--arrow:before {

@@ -110,10 +110,20 @@ require get_template_directory() . '/strings.php';
                         <li class="nav__item">
                             <a href="<?php echo home_url('install/#instructions-server'); ?>">
                                 <div class="nav__logo">
-                                    <?php echo file_get_contents(get_template_directory()."/assets/img/icons/download.svg");?>
+                                    <?php echo file_get_contents(get_template_directory()."/assets/img/icons/server.svg");?>
                                 </div>
                                 <div class="nav__text">
-                                    <?php echo $l->t('<strong>Download</strong><br><small>For self-hosting on your server</small>'); ?>
+                                    <?php echo $l->t('<strong>Server packages</strong><br><small>For self-hosting on your server</small>'); ?>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="<?php echo home_url('install/#install-clients'); ?>">
+                                <div class="nav__logo">
+                                    <?php echo file_get_contents(get_template_directory()."/assets/img/icons/desktop.svg");?>
+                                </div>
+                                <div class="nav__text">
+                                    <?php echo $l->t('<strong>Mobile & desktop apps</strong><br><small>Windows, macOS, Linux, Android, iOS, …</small>'); ?>
                                 </div>
                             </a>
                         </li>
@@ -143,17 +153,7 @@ require get_template_directory() . '/strings.php';
                                     <?php echo file_get_contents(get_template_directory()."/assets/img/icons/enterprise.svg");?>
                                 </div>
                                 <div class="nav__text">
-                                    <?php echo $l->t('<strong>Enterprise Solution</strong><br><small>For mission-critical use</small>'); ?>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="<?php echo home_url('install/#install-clients'); ?>">
-                                <div class="nav__logo">
-                                    <?php echo file_get_contents(get_template_directory()."/assets/img/icons/phone.svg");?>
-                                </div>
-                                <div class="nav__text">
-                                    <?php echo $l->t('<strong>Clients</strong><br><small>For mobile or desktop</small>'); ?>
+                                    <?php echo $l->t('<strong>Enterprise solution</strong><br><small>For mission-critical use</small>'); ?>
                                 </div>
                             </a>
                         </li>
