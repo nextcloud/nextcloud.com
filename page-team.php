@@ -353,7 +353,7 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/dirk.jpg" />
 				<h2 class="teamname">Dirk Farin</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Research Scientist and Software Engineer</h3>
+					<h3 class="teamtitle">Research Scientist / Software Engineer</h3>
 					<h4 class="teamexpertise">WebRTC, Codecs, Spreed.ME</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><a href="http://www.dirk-farin.net/"><i class="fa-rss fa"></i></a> <a href="https://github.com/farindk"><i class="fa-github fa"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="fa-twitter fa"></i></a>--> </p>
