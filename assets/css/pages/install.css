@@ -2595,7 +2595,7 @@ div.PopupGetStarted div.instructions {
   background: white !important;
   /* I seem to have to enforce this, comes from main.min.css*/
   position: absolute;
-  margin-top: 170px;
+  margin-top: 130px;
   padding: 10px;
   border-radius: 4px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
