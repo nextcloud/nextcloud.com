@@ -15,12 +15,15 @@
 <section class="content">
 <div class="container">
 <p><address>Nextcloud GmbH<br/>
-Hirschstrasse 26<br/>
-70173 Stuttgart Germany<br/></address>
+Hauptmansreute 44a<br/>
+70192 Stuttgart Germany<br/></address>
 HRB 227086 (AG München)<br/>
 T +49 711 25 24 28 90<br/>
 <a href="<?php echo home_url('contact') ?>"><?php echo $l->t('contact form');?></a><br/>
 </p>
+<p>Visitors:
+<address>Hirschstrasse 26<br/>
+70173 Stuttgart Germany<br/></address>
 <p>
 Managing Director:<br/>
 Frank Karlitschek<br/></p>
