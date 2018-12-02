@@ -39,7 +39,7 @@
             <h3 class="section--intro"><?php echo $l->t('Test Nextcloud');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Testing upcoming Nextcloud Server releases is the best way of making sure the new release can do what you need it
                 to do. And of course, only if you report a problem to us we know about it and can fix it! If you have a bug to report,
-                find the <a class="hyperlink" href="https://github.com/nextcloud/server/blob/master/CONTRIBUTING.md">issue submission page</a>.');?></p>
+                find the <a class="hyperlink" href="https://github.com/nextcloud/server/blob/master/.github/CONTRIBUTING.md">issue submission page</a>.');?></p>
             <h3 class="section--intro"><?php echo $l->t('Design Nextcloud');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Help out with Nextcloud user interaction design or graphic design! Get involved on <a class="hyperlink"  href="design/">the design page</a>!');?></p>
             <h3 class="section--intro"><?php echo $l->t('Support Nextcloud development with bounties');?></h3>

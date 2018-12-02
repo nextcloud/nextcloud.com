@@ -30,7 +30,7 @@
         <li><?php echo $l->t('<a class="hyperlink" href="https://help.nextcloud.com/categories" target="_blank">the Nextcloud Forums</a>');?></li>
         <li><?php echo $l->t('<a class="hyperlink" href="irc://#nextcloud@freenode.net" target="_blank">the Nextcloud IRC chat channel</a> on freenode.net, also accessible via <a class="hyperlink" href="https://webchat.freenode.net/?channels=nextcloud" target="_blank">webchat</a>');?></li>
         <li><?php echo $l->t('You can ask over our social media, including in the <a class="hyperlink" href="https://plus.google.com/u/0/communities/103772002345255844369" target="_blank">Nextcloud Google Plus community</a>, the <a class="hyperlink" href="https://www.facebook.com/Nextcloud-1032807203462807/" target="_blank">Facebook page</a> or on <a class="hyperlink" href="https://twitter.com/search?q=%23nextcloud&src=typd" target="_blank">Twitter</a>');?></li>
-        <li><?php echo $l->t('Finally, you could report a issue at our <a class="hyperlink" href="https://github.com/nextcloud/server/blob/master/CONTRIBUTING.md" target="_blank">bug trackers</a> if you think you found a bug in Nextcloud itself');?></li>
+        <li><?php echo $l->t('Finally, you could report a issue at our <a class="hyperlink" href="https://github.com/nextcloud/server/blob/master/.github/CONTRIBUTING.md" target="_blank">bug trackers</a> if you think you found a bug in Nextcloud itself');?></li>
     </ul>
     <p><?php echo $l->t('Please understand that all these channels essentially consist of users like you helping each other out. Consider helping others out where you can, to contribute back for the help you get. This is the only way to keep a community like Nextcloud healthy and sustainable!');?></p>
 </div>
