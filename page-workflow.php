@@ -32,7 +32,7 @@
 <section class="section--workflow">
 <div class="container">
 	<div class="row">
-		<div class="col-md-6 revealOnScroll image--floated">
+		<div class="col-md-6 revealOnScroll image--floated image--feature new-img">
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/File_Access_Control_-_block_all_except_PDF.png" />
 		</div>
 		<div class="col-md-6 revealOnScroll">

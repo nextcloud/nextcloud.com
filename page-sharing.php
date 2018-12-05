@@ -50,12 +50,12 @@ require(["require.config"], function() {
             </div>
         </div>
         <div class="row feature--block">
-            <div class="col-md-6 revealOnScroll feature-img new-img">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/img/features/Files_Comments.png" class="img-responsive featureimg" />
+            <div class="col-md-6 revealOnScroll image--feature new-img">
+                <img src="<?php bloginfo('template_directory'); ?>/assets/img/features/Collabora_with_Talk_in_sidebar_1.png" class="img-responsive featureimg" />
             </div>
             <div class="col-md-6 revealOnScroll">
             <p class="section--paragraph__tittle"><?php echo $l->t('Work with others');?></p>
-                <p class="section--paragraph"><?php echo $l->t('You can comment on files and discuss options. Through');?> <a class="hyperlink" href="<?php echo home_url('collaboraonline') ?>"><?php echo $l->t('our Collabora Online integration</a> you can work together in real time on presentations or word documents and with');?> <a class="hyperlink" href="<?php echo home_url('Talk') ?>">Nextcloud Talk</a> <?php echo $l->t('you can seamlessly move a conversation in the comments to a chat or video call!');?></p>
+                <p class="section--paragraph"><?php echo $l->t('You can comment on files and discuss options. Through our integration of online office solutions like ');?> <a class="hyperlink" href="<?php echo home_url('collaboraonline') ?>">Collabora Online</a> <?php echo $l->t('and');?> <a class="hyperlink" href="<?php echo home_url('onlyoffice') ?>">ONLYOFFICE</a> <?php echo $l->t('you can work together in real time on presentations or Word documents. And with');?> <a class="hyperlink" href="<?php echo home_url('Talk') ?>">Nextcloud Talk</a> <?php echo $l->t('you can seamlessly move a conversation in the comments to a chat or video call!');?></p>
                 <p class="section--paragraph"><?php echo $l->t('You can find files using our full text search app or by giving them tags and searching for them. Searching through the comments is possible as well. Admins can use');?> <a class="hyperlink" href="<?php echo home_url('workflow') ?>"><?php echo $l->t('our Workflow tools</a> to automatically tag files uploaded by specific users, groups or by filetype and execute actions like converting files based on these tags.');?></p>
             </div>
         </div>
@@ -85,14 +85,14 @@ require(["require.config"], function() {
                 <ul>
                     <li><?php echo $l->t('Share with individual users, groups or create custom groups with the');?> <a class="hyperlink" href="https://apps.nextcloud.com/apps/circles">Circles app.</a></li>
                     <li><?php echo $l->t('Share photo galleries');?></li>
-                    <li><?php echo $l->t('Share public links read-only or with editing capabilities');?></li>
+                    <li><?php echo $l->t('Share public links read-only, view-only (no download) or with editing capabilities');?></li>
                     <li><?php echo $l->t('Attach notes to a share, either to a Nextcloud user or to a public link');?></li>
                     <li><?php echo $l->t('Share directly to users on other Nextcloud, ownCloud or Pydio servers (see below: <a class="hyperlink" href="#federation">federation</a>)');?></li>
                 </ul>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 image--floated revealOnScroll feature-img new-img">
+            <div class="col-md-6 image--floated revealOnScroll image--feature new-img">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/features/Admin_Sharing_Settings.png" class="img-responsive featureimg" />
             </div>
             <div class="col-md-6 revealOnScroll">

@@ -206,11 +206,12 @@
 			<p class="section--paragraph"><?php echo $l->t('Share the content of a single window or a full desktop screen for presentations with chat-partners.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Manage participants by inviting, muting or removing them.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Schedule meetings and be notified when they start.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Edit documents while chatting or having a call in the sidebar.');?></p>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6 revealOnScroll">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png" class="img-responsive featureimg" /></a>
+		<div class="col-md-6 revealOnScroll image--feature new-img">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/Collabora_with_Talk_in_sidebar_1.png" class="img-responsive featureimg" /></a>
 		</div>
 	<div class="col-md-6 revealOnScroll">
 		<p class="section--paragraph__tittle"><?php echo $l->t('Secure and private');?></p>

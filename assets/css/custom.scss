@@ -249,10 +249,8 @@ h5 {
 
 .featureimg {
 	@media (min-width: $break-big) {
-	margin-bottom: 200px;
 	}
 	@media (min-width: $very-wide) {
-	margin-bottom: 100px;
 	}
 }
 
@@ -265,45 +263,40 @@ h5 {
 	background-size: contain;
 	position: relative;
 	height: 460px;
-	margin-bottom: 2px;
 	@media (min-width: $break-small) {
 		background: url('../img/features/browser-chrome.png') no-repeat;
 		background-color: #C4E1F7;
 		background-position: center bottom;
 		background-size: contain;
 		position: relative;
-		margin-bottom: 2px;
+		border: 10px solid white;
 	}
 	@media (min-width: $break-big) {
 		height: 290px;
-		margin-bottom: 2px;
 	}
 	@media (min-width: $navbar-breaksize) {
 		height: 345px;
-		margin-bottom: 1px;
 	}
-	.featureimg {
+	img.featureimg {
 		width: 100%;
 		height: auto;
-		padding: 0 1.1% 0 1.1%;
+		padding: 0 1% 0 1%;
 		bottom: 0px;
 		left: 0px;
 		position: absolute;
+		margin-bottom: 0px;
 
 		@media (min-width: $break-small) {
 			bottom: 0px;
 			left: 0px;
 			position: absolute;
-			margin-bottom: 0px;
-			padding: 0 61px 0 61px;
+			padding: 0 60px 0 61px;
 		}
 		@media (min-width: $break-big) {
-			padding: 0 40px 0 40px;
-			margin-bottom: 0px;
+			padding: 0 39px 0 41px;
 		}
 		@media (min-width: $navbar-breaksize) {
-			padding: 0 49px 0 49px;
-			margin-bottom: 0px;
+			padding: 0 50px 0 51px;
 		}
 	}
 }
