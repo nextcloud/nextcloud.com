@@ -7,10 +7,10 @@ require(["require.config"], function() {
 	require(["pages/sharing", "modules/youtubePlayer"])
 });
 </script>
-<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/comments.png">
-<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/comments.png">
-<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/comments.png">
-<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/comments.png">
+<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Files_Comments.png">
+<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Files_Comments.png">
+<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Files_Comments.png">
+<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Files_Comments.png">
 </head>
 
 <div class="background sharing-background">
@@ -50,10 +50,10 @@ require(["require.config"], function() {
             </div>
         </div>
         <div class="row feature--block">
-            <div class="col-md-5 revealOnScroll">
-                <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/comments-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/comments-nw.png" class="img-responsive featureimg" /></a>
+            <div class="col-md-6 revealOnScroll feature-img new-img">
+                <img src="<?php bloginfo('template_directory'); ?>/assets/img/features/Files_Comments.png" class="img-responsive featureimg" />
             </div>
-            <div class="col-md-7 revealOnScroll">
+            <div class="col-md-6 revealOnScroll">
             <p class="section--paragraph__tittle"><?php echo $l->t('Work with others');?></p>
                 <p class="section--paragraph"><?php echo $l->t('You can comment on files and discuss options. Through');?> <a class="hyperlink" href="<?php echo home_url('collaboraonline') ?>"><?php echo $l->t('our Collabora Online integration</a> you can work together in real time on presentations or word documents and with');?> <a class="hyperlink" href="<?php echo home_url('Talk') ?>">Nextcloud Talk</a> <?php echo $l->t('you can seamlessly move a conversation in the comments to a chat or video call!');?></p>
                 <p class="section--paragraph"><?php echo $l->t('You can find files using our full text search app or by giving them tags and searching for them. Searching through the comments is possible as well. Admins can use');?> <a class="hyperlink" href="<?php echo home_url('workflow') ?>"><?php echo $l->t('our Workflow tools</a> to automatically tag files uploaded by specific users, groups or by filetype and execute actions like converting files based on these tags.');?></p>
@@ -92,8 +92,8 @@ require(["require.config"], function() {
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 image--floated revealOnScroll">
-                <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing_admin-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing_admin-nw.png" class="img-responsive featureimg" /></a>
+            <div class="col-md-6 image--floated revealOnScroll feature-img new-img">
+                <img src="<?php bloginfo('template_directory'); ?>/assets/img/features/Admin_Sharing_Settings.png" class="img-responsive featureimg" />
             </div>
             <div class="col-md-6 revealOnScroll">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Security capabilities');?></p>

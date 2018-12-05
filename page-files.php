@@ -175,8 +175,8 @@
 <section class="section--security">
 	<a name="security" id="security"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll image--feature">
-		<img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP.png" alt="in action" >
+		<div class="col-md-6 revealOnScroll image--feature new-img">
+		<img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP_2FA_auth.png" alt="in action" >
 		</div>
 
 		<div class="col-md-6 revealOnScroll feature--block">
@@ -236,9 +236,10 @@
 <section class="section--monitoring">
     <a name="monitoring" id="monitoring"></a>
     <div class="container">
-        <div class="col-md-6 revealOnScroll image--feature">
-            <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-nw.png" alt="in action"/></a>
+        <div class="col-md-6 revealOnScroll image--feature new-img">
+            <img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring.png" alt="in action"/>
         </div>
+        <div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('Compliance-ready monitoring');?></p>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud enables admins to monitor the health and performance of a Nextcloud system with a graphical UI and an API endpoint for monitoring apps. Fully audit-ready logs of user activity are generated.');?></p>
             <p class="section--paragraph__tittle"><?php echo $l->t('Tracking changes to user files');?></p>
@@ -269,8 +270,8 @@
 <section class="section--workflow">
 	<a name="workflow" id="workflow"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll image--floated image--feature">
-			<a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/file-access-control-nw.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/file-access-control-nw.png" alt="in action"/></a>
+		<div class="col-md-6 revealOnScroll image--floated image--feature new-img">
+			<img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/Workflow_-_PDF_conversion_automatically_for_finance_and_manual_by_team_leads.png" alt="in action"/>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Workflow management');?></p>
 			<p class="section--paragraph"><?php echo $l->t('With Nextcloud, system administrators can control and direct the flow of data between users on or between servers. Rule-based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements.');?></p>
@@ -397,17 +398,36 @@
 	</div>
 </section>
 
+<a name="onlineoffice" id="onlineoffice"></a>
 <section class="section--Collabora">
-	<a name="collabora" id="collabora"></a>
 	<div class="container">
-		<div class="col-md-6 image--floated image--feature revealOnScroll">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-nw.png"/></a>
+		<div class="col-md-6 image--floated image--feature revealOnScroll new-img">
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/Collabora_Online_-_versions_integration.png"/></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('View and edit documents with Collabora');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite with collaborative editing that works in all modern browsers.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Collabora Online supports editing documents in real-time with multiple other editors, showing high fidelity, WYSIWYG rendering and preserving the layout and formatting of documents.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Collabora Online supports dozens of document formats including <strong>DOC, DOCX, PPT, PPTX, XLS, XLSX + ODF, Import/View Visio, Publisher</strong> and many more...');?></p>
 			<a href="<?php echo home_url('collaboraonline') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Collabora Online Office');?></a>
+		</div>
+	</div>
+</section>
+
+<section class="section--ONLYOFFICE">
+	<div class="container">
+		<div class="col-md-6 image--floated image--feature revealOnScroll">
+			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-presentation.png"/></a>
+		</div>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Collaborate on documents with ONLYOFFICE');?></p>
+			<p class="section--paragraph"><?php echo $l->t('ONLYOFFICE integration in Nextcloud empowers your users to collaborate on office documents with team members in real time.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Compatibility with Microsoft Office formats means perfect documents, every time.');?></p>
+            <ul>
+            <li><?php echo $l->t('A modern and familiar user interface');?></li>
+            <li><?php echo $l->t('The same document rendering in every browser');?></li>
+            <li><?php echo $l->t('Low resource consumption on server and client');?></li>
+            <li><?php echo $l->t('Desktop level editing capabilities');?></li>
+                </ul>
+			<a href="<?php echo home_url('onlyoffice') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('ONLYOFFICE');?></a>
 		</div>
 	</div>
 </section>
