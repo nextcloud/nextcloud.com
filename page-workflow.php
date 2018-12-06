@@ -61,7 +61,7 @@
 <section class="section--workflow">
 <div class="container">
 	<div class="row">
-		<div class="col-md-6 revealOnScroll">
+		<div class="col-md-6 revealOnScroll image--feature">
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-tagging-retention-nw.png" class="img-responsive featureimg" />
 		</div>
 		<div class="col-md-6 revealOnScroll">
@@ -105,7 +105,7 @@
 <section class="section--workflow">
 <div class="container">
 	<div class="row">
-		<div class="col-md-6 revealOnScroll image--floated">
+		<div class="col-md-6 revealOnScroll image--feature image--floated">
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/FileAccessControl-at-home.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control-nw.png" class="img-responsive featureimg" /></a>
 		</div>
 		<div class="col-md-6 revealOnScroll">

@@ -234,13 +234,14 @@ h5 {
 /* 	margin-top: 52px; */
 }
 
-.image--floated {
-	float: right;
+@media (min-width $break-small) {
+	.image--floated {
+		float: right;
+	}
 }
-
 @media (max-width $break-small) {
 .image--floated {
-	float: none;
+	float: none !important;
 	}
 .image--feature {
 /* 	margin-top: 10px; */
@@ -290,13 +291,13 @@ h5 {
 			bottom: 0px;
 			left: 0px;
 			position: absolute;
-			padding: 0 8.2% 0 8.3%;
+			padding: 0 8.2% 0 8.4%;
 		}
 		@media (min-width: $break-big) {
 			padding: 0 8.3% 0 8.7%;
 		}
 		@media (min-width: $navbar-breaksize) {
-			padding: 0 8.9% 0 9%;
+			padding: 0 8.8% 0 9%;
 		}
 	}
 }
