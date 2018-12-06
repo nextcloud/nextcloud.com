@@ -9789,13 +9789,13 @@ h5 {
         bottom: 0px;
         left: 0px;
         position: absolute;
-        padding: 0 60px 0 61px; } }
+        padding: 0 8.2% 0 8.3%; } }
     @media (min-width: 991px) {
       .image--feature.new-img img.featureimg {
-        padding: 0 39px 0 41px; } }
+        padding: 0 8.3% 0 8.7%; } }
     @media (min-width: 1200px) {
       .image--feature.new-img img.featureimg {
-        padding: 0 50px 0 51px; } }
+        padding: 0 8.9% 0 9%; } }
 
 /*Colors*/
 /*Shadows*/
