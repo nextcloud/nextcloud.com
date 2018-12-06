@@ -12,9 +12,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-enterprise-day-coming-march-12-2019/">
+				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-15-goes-social-enforces-2fa-and-gives-you-a-new-generation-real-time-document-editing">
 				<span class="type">News</span>
-				<span class="message"><strong><?php echo $l->t('March 12 2019:');?></strong> <?php echo $l->t('Nextcloud Enterprise Day in Stuttgart!');?></span>
+				<span class="message"><strong><?php echo $l->t('Nextcloud goes social:');?></strong> <?php echo $l->t('Nextcloud 15 has arrived with next-gen 2FA and collaborative editing');?></span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Nextcloud - Protecting your data');?></h1>
@@ -194,7 +194,7 @@
 </div>
 </section>
 <section class="slideshow" id="slideshow">
-    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 14');?></h2>
+    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 15');?></h2>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
 		<li class="btn_carousel"><a href="#feature-1"></a></li>
@@ -205,47 +205,47 @@
     <div class="container">
         <div class="col-md-6 ">
         	<div class="container-image-center" id="imageTrigger">
-	            <img class="image-back" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-14.png">
+	            <img class="image-back" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-15.png">
 	            <div class="image-top-container">
-	            	<img class="img-responsive image-top image__desktop" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_14.png">
-	            	<img class="img-responsive image-top image__mobile" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_mobile_14.png">
+	            	<img class="img-responsive image-top image__desktop" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_15.png">
+	            	<img class="img-responsive image-top image__mobile" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_mobile_15.png">
 	            </div>
             </div>
         </div>
         <div class="texts-wrapper col-md-6">
-	        <div class="right-text-grey" data-slide="1">
-	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('Ultimate security and control');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('With Nextcloud 14 you can verify the identity of a share recipient in a video call before granting access to a share with Video Verification; and secure authentication with 2-factor authentication through SMS, Signal or Telegram.');?></p>
+	         <div class="right-text-grey" data-slide="1">
+	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('Work with others in real time');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('With integrated communication, Nextcloud 15 allows you to edit documents with colleagues while chatting or having a video call. Share with others through multiple unique public links protected with video verification and more!');?></p>
 	            <br/>
 	            <p>
-	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-14-focus-on-security-and-compliance/" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-15-goes-social-enforces-2fa-and-gives-you-a-new-generation-real-time-document-editing" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
-	         <div class="right-text-grey" data-slide="2">
-	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('Collaboration and communication');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 14 introduces the ability to add a note to shares, share files in a chat, search in comments, our next-gen server-to-server sharing technology Federation 2.0 and much more!');?></p>
+	        <div class="right-text-grey" data-slide="2">
+	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('Nextcloud goes social');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('Build an enterprise social network or join the fediverse! Nextcloud Social lets you share status updates and subscribe to the timeline of others, in a federated, distributed network of tens of thousands of servers!');?></p>
 	            <br/>
 	            <p>
-	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-14-now-available-with-video-verification-signaltelegram-2fa-support-improved-collaboration-and-gdpr-compliance/" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-15-goes-social-enforces-2fa-and-gives-you-a-new-generation-real-time-document-editing" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
 	        <div class="right-text-grey" data-slide="3">
-	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('More accessible than ever');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('Ease of use and accessibility are important to us and Nextcloud 14 introduces many improvements from an improved sidebar to a Dark and High Contrast theme, keyboard and screen reader access and much more.');?></p>
+	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('Next-generation security');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('More secure than ever, Nextcloud 15 introduces the ability to enforce two-factor authentication, 2FA through notifications, stricter CSP and V3 of our app-tokens to keep your data safe at all times.');?></p>
 	            <br/>
 	            <p>
-	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-14-the-most-accessible-nextcloud-ever/" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-15-goes-social-enforces-2fa-and-gives-you-a-new-generation-real-time-document-editing" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
 	        <div class="right-text-grey" data-slide="4">
-	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Perfect Compliance');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('This release introduces the Terms of Service app, complementing the existing array of capabilities that enables system administrators to ensure their server is 100% compliant with legal privacy regulations like the GDPR');?></p>
+	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Mobile and more');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('Our mobile clients now let you edit documents on the go, we introduced a new grid view and other design improvements, Nextcloud loads 2-3x faster, can convert files to PDF automatically and much, much more!');?></p>
 	            <br/>
 	            <p>
-	                <a class="button button--blue button--arrow button--large" href="<?php echo home_url('gdpr') ?>" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-15-goes-social-enforces-2fa-and-gives-you-a-new-generation-real-time-document-editing" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
         </div>
