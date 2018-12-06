@@ -9754,12 +9754,48 @@ h5 {
 
   .image--feature {
     /* 	margin-top: 10px; */ } }
-@media (min-width: 991px) {
-  .featureimg {
-    margin-bottom: 200px; } }
-@media (min-width: 1600px) {
-  .featureimg {
-    margin-bottom: 100px; } }
+/*  The new feature image  */
+.image--feature.new-img {
+  display: block;
+  background: url("../img/features/browser-chrome-crop.png") no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  position: relative;
+  height: 460px; }
+  @media (min-width: 768px) {
+    .image--feature.new-img {
+      background: url("../img/features/browser-chrome.png") no-repeat;
+      background-color: #C4E1F7;
+      background-position: center bottom;
+      background-size: contain;
+      position: relative;
+      border: 10px solid white; } }
+  @media (min-width: 991px) {
+    .image--feature.new-img {
+      height: 290px; } }
+  @media (min-width: 1200px) {
+    .image--feature.new-img {
+      height: 345px; } }
+  .image--feature.new-img img.featureimg {
+    width: 100%;
+    height: auto;
+    padding: 0 1% 0 1%;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    margin-bottom: 0px; }
+    @media (min-width: 768px) {
+      .image--feature.new-img img.featureimg {
+        bottom: 0px;
+        left: 0px;
+        position: absolute;
+        padding: 0 60px 0 61px; } }
+    @media (min-width: 991px) {
+      .image--feature.new-img img.featureimg {
+        padding: 0 39px 0 41px; } }
+    @media (min-width: 1200px) {
+      .image--feature.new-img img.featureimg {
+        padding: 0 50px 0 51px; } }
 
 /*Colors*/
 /*Shadows*/

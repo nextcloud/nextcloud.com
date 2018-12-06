@@ -91,8 +91,8 @@
 
 		<div class="featurerow">
 			<div class="row">
-				<div class="col-md-6 revealOnScroll">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/collabora.png" alt="in action" /></a>
+				<div class="col-md-6 revealOnScroll image--feature new-img">
+					<img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/Collabora_Online_-_versions_integration.png" alt="in action" />
 				</div>
 				<div class="col-md-6 revealOnScroll featureblock">
 					<h2 class="section--paragraph__tittle"><?php echo $l->t('Under your control');?></h2>
@@ -106,12 +106,33 @@
 
 <section class="collabora-screenshots">
 	<div class="container">
-        <div class="featurerow">
-            <h1 class="text-center"><?php echo $l->t('Well integrated');?></h1>
-            <div class="row">
-                <div class="col-md-4"><div class="text-center" style="width: 100%"><a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-insert-image-nw.png"><img class="img-responsive size-medium" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-insert-image-nw.png" alt="" /></a> <?php echo $l->t('Insert images directly from your Nextcloud.');?></div></div>
-                <div class="col-md-4"><div class="text-center" style="width: 100%"><a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-sharing-sidebar-nw.png"><img class="img-responsive size-medium" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-sharing-sidebar-nw.png" alt="" /></a> <?php echo $l->t('Access the Nextcloud sharing sidebar.');?></div></div>
-                <div class="col-md-4"><div class="text-center" style="width: 100%"><a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-comments-sidebar-nw.png"><img class="img-responsive size-medium" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-comments-sidebar-nw.png" alt="" /></a> <?php echo $l->t('View and reply to comments.');?></div></div>
+        <h2 class="section--heading-1 revealOnScroll text-center"><?php echo $l->t('Well integrated');?></h2>
+        <div class="row">
+        <p class="section--paragraph"><?php echo $l->t('Insert images directly from your Nextcloud.');?> <?php echo $l->t('Access the Nextcloud sharing sidebar.');?> <?php echo $l->t('Chat or have a call while editing.');?> <?php echo $l->t('View and reply to comments.');?></p>
+        </div>
+        <div class="row">
+            <div class="col-md-6 image--feature new-img">
+                <img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/Collabora_Online_design_insert_image.png" alt="" />
+            </div>
+            <div class="col-md-6 image--feature new-img">
+                <img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/Collabora_Online_-_versions_integration.png" alt="" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 image--feature new-img">
+                <img class="img-responsive featureimg"  src="<?php bloginfo('template_directory'); ?>/assets/img/features/Collabora_with_Talk_in_sidebar_1.png" alt="" />
+            </div>
+            <div class="col-md-6 image--feature new-img">
+                <img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/Collabora_Online_with_sidebar.png" alt="" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/PTvFeF1J1Ns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6">
+               <p class="section--paragraph__tittle"><?php echo $l->t('Mobile and desktop');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Collabora Online is not only available in the browser but also on our mobile platforms!');?></p>
             </div>
         </div>
     </div>

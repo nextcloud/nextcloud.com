@@ -249,10 +249,55 @@ h5 {
 
 .featureimg {
 	@media (min-width: $break-big) {
-	margin-bottom: 200px;
 	}
 	@media (min-width: $very-wide) {
-	margin-bottom: 100px;
+	}
+}
+
+/*  The new feature image  */
+
+.image--feature.new-img {
+	display: block;
+	background: url('../img/features/browser-chrome-crop.png') no-repeat;
+	background-position: center bottom;
+	background-size: contain;
+	position: relative;
+	height: 460px;
+	@media (min-width: $break-small) {
+		background: url('../img/features/browser-chrome.png') no-repeat;
+		background-color: #C4E1F7;
+		background-position: center bottom;
+		background-size: contain;
+		position: relative;
+		border: 10px solid white;
+	}
+	@media (min-width: $break-big) {
+		height: 290px;
+	}
+	@media (min-width: $navbar-breaksize) {
+		height: 345px;
+	}
+	img.featureimg {
+		width: 100%;
+		height: auto;
+		padding: 0 1% 0 1%;
+		bottom: 0px;
+		left: 0px;
+		position: absolute;
+		margin-bottom: 0px;
+
+		@media (min-width: $break-small) {
+			bottom: 0px;
+			left: 0px;
+			position: absolute;
+			padding: 0 60px 0 61px;
+		}
+		@media (min-width: $break-big) {
+			padding: 0 39px 0 41px;
+		}
+		@media (min-width: $navbar-breaksize) {
+			padding: 0 50px 0 51px;
+		}
 	}
 }
 

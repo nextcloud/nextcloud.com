@@ -32,8 +32,8 @@
 <section class="section--workflow">
 <div class="container">
 	<div class="row">
-		<div class="col-md-6 revealOnScroll image--floated">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control2-nw.png" /></a>
+		<div class="col-md-6 revealOnScroll image--floated image--feature new-img">
+			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/File_Access_Control_-_block_all_except_PDF.png" />
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Access on your terms');?></p>
@@ -62,7 +62,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 revealOnScroll">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/tagging-retention.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-tagging-retention-nw.png" class="img-responsive featureimg" /></a>
+			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-tagging-retention-nw.png" class="img-responsive featureimg" />
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Define automated Workflows and retention');?></p>
@@ -111,7 +111,7 @@
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('File access control at home');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Home users will find that the File Access Control app and other workflow tools can be used to prevent accidental sharing of sensitive data, adding an additional layer of protection to Nextcloud.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The example on the right ensures that files with the "protected" tag are not accessible outside the home network nor synced by the clients. <a class="hyperlink" href="https://nextcloud.com/?p=869" target="_blank">Learn more in our blog</a>.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The example on the right ensures that files with the "protected" tag are not accessible outside the home network nor synced by the clients.');?> <a class="hyperlink" href="https://nextcloud.com/blog/file-access-control-a-firewall-for-your-private-files-in-nextcloud/" target="_blank"><?php echo $l->t('Learn more in our blog');?></a>.</p>
 		</div>
 	</div>
 </div>

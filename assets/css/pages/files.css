@@ -2374,13 +2374,6 @@
 @media (max-width 768px) {
   .image--feature {
     margin-top: 10px; } }
-@media (min-width: 991px) {
-  .featureimg {
-    margin-bottom: 200px; } }
-@media (min-width: 1600px) {
-  .featureimg {
-    margin-bottom: 100px; } }
-
 section {
   margin: 180px 0; }
 
