@@ -2561,6 +2561,10 @@ hr {
     @media (max-width: 768px) {
       .PopupGetStarted .tab-content {
         margin-top: 100px; } }
+    .PopupGetStarted .tab-content .button {
+      /* get the text under the buttons on the desktop client tab to stay blue */ }
+      .PopupGetStarted .tab-content .button small {
+        color: #0082c9; }
 
 .PopupGetStarted:target, div.PopupGetStarted:target + a.mask {
   display: block;

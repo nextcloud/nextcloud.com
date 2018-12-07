@@ -983,26 +983,6 @@ body.advisories .content ul li {
 		border-radius: 30px;
 		padding: 0 10px;
 	}
-	&.button--blue {
-		background-color: $nextcloud-blue;
-		border: 1px solid white;
-		color: white;
-		i[class*='fa-'] {
-			color: white;
-			font-weight: 400;
-		}
-		&:hover,
-		&:focus,
-		&:active {
-			text-decoration: none;
-			background-color: white;
-			color: $nextcloud-blue;
-			border: solid 1px $nextcloud-blue;
-			i[class*='fa-'] {
-				color: $nextcloud-blue;
-				font-weight: 400;
-			}		}
-	}
     &.button--white {
 		background-color: white;
         border: 1px solid $nextcloud-blue;
@@ -1022,6 +1002,26 @@ body.advisories .content ul li {
 			color: $nextcloud-blue;
 			font-weight: 400;
 		}
+	}
+	&.button--blue {
+		background-color: $nextcloud-blue;
+		border: 1px solid white;
+		color: white;
+		i[class*='fa-'] {
+			color: white;
+			font-weight: 400;
+		}
+		&:hover,
+		&:focus,
+		&:active {
+			text-decoration: none;
+			background-color: white;
+			color: $nextcloud-blue;
+			border: solid 1px $nextcloud-blue;
+			i[class*='fa-'] {
+				color: $nextcloud-blue;
+				font-weight: 400;
+			}		}
 	}
 	&.button--arrow {
 		padding-right: 50px;
@@ -1120,20 +1120,20 @@ body.advisories .content ul li {
 		&.active:before {
 			background: url(../img/common/simple_arrow_down_white.svg) center/contain no-repeat;
 		}
-		&.button--blue {
-			&:hover:before,
-			&:focus:before,
-			&:active:before,
-			&.active:before {
-			background: url(../img/common/simple_arrow_down_white.svg) center/contain no-repeat;
-			}
-		}
 		&.button--white {
 				&:hover:before,
 				&:focus:before,
 				&:active:before,
 				&.active:before {
 				background: url(../img/common/simple_arrow_down_white.svg) center/contain no-repeat;
+			}
+		}
+		&.button--blue {
+			&:hover:before,
+			&:focus:before,
+			&:active:before,
+			&.active:before {
+			background: url(../img/common/simple_arrow_down_white.svg) center/contain no-repeat;
 			}
 		}
 

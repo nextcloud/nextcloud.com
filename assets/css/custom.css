@@ -10380,6 +10380,20 @@ body.advisories .content ul li {
     font-size: 12px;
     border-radius: 30px;
     padding: 0 10px; }
+  .button.button--white {
+    background-color: white;
+    border: 1px solid #0082c9;
+    color: #0082c9; }
+    .button.button--white:hover, .button.button--white:focus, .button.button--white:active {
+      background-color: #0082c9;
+      color: white;
+      border: 1px solid white; }
+      .button.button--white:hover i[class*='fa-'], .button.button--white:focus i[class*='fa-'], .button.button--white:active i[class*='fa-'] {
+        color: white;
+        font-weight: 400; }
+    .button.button--white i[class*='fa-'] {
+      color: #0082c9;
+      font-weight: 400; }
   .button.button--blue {
     background-color: #0082c9;
     border: 1px solid white;
@@ -10395,20 +10409,6 @@ body.advisories .content ul li {
       .button.button--blue:hover i[class*='fa-'], .button.button--blue:focus i[class*='fa-'], .button.button--blue:active i[class*='fa-'] {
         color: #0082c9;
         font-weight: 400; }
-  .button.button--white {
-    background-color: white;
-    border: 1px solid #0082c9;
-    color: #0082c9; }
-    .button.button--white:hover, .button.button--white:focus, .button.button--white:active {
-      background-color: #0082c9;
-      color: white;
-      border: 1px solid white; }
-      .button.button--white:hover i[class*='fa-'], .button.button--white:focus i[class*='fa-'], .button.button--white:active i[class*='fa-'] {
-        color: white;
-        font-weight: 400; }
-    .button.button--white i[class*='fa-'] {
-      color: #0082c9;
-      font-weight: 400; }
   .button.button--arrow {
     padding-right: 50px; }
     .button.button--arrow:before {
@@ -10474,9 +10474,9 @@ body.advisories .content ul li {
       transition: all 0.2s ease-in; }
     .button.button--dropdown:hover:before, .button.button--dropdown:focus:before, .button.button--dropdown:active:before, .button.button--dropdown.active:before {
       background: url(../img/common/simple_arrow_down_white.svg) center/contain no-repeat; }
-    .button.button--dropdown.button--blue:hover:before, .button.button--dropdown.button--blue:focus:before, .button.button--dropdown.button--blue:active:before, .button.button--dropdown.button--blue.active:before {
-      background: url(../img/common/simple_arrow_down_white.svg) center/contain no-repeat; }
     .button.button--dropdown.button--white:hover:before, .button.button--dropdown.button--white:focus:before, .button.button--dropdown.button--white:active:before, .button.button--dropdown.button--white.active:before {
+      background: url(../img/common/simple_arrow_down_white.svg) center/contain no-repeat; }
+    .button.button--dropdown.button--blue:hover:before, .button.button--dropdown.button--blue:focus:before, .button.button--dropdown.button--blue:active:before, .button.button--dropdown.button--blue.active:before {
       background: url(../img/common/simple_arrow_down_white.svg) center/contain no-repeat; }
     .button.button--dropdown.active:before {
       transform: rotate(180deg); }
