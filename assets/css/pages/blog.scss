@@ -129,12 +129,12 @@ section {
 					@media (max-width: $break-small) {
 							max-width: 90vw !important;
 					}
-					&.float-right {
+					&.alignright {
 						@media (max-width: $break-small) {
 							float: none;
 						}
 					}
-					&.float-left {
+					&.alignleft {
 						@media (max-width: $break-small) {
 							float: none;
 						}

@@ -2471,10 +2471,10 @@ section {
         .section--content .container .row .content img {
           max-width: 90vw !important; } }
       @media (max-width: 768px) {
-        .section--content .container .row .content img.float-right {
+        .section--content .container .row .content img.alignright {
           float: none; } }
       @media (max-width: 768px) {
-        .section--content .container .row .content img.float-left {
+        .section--content .container .row .content img.alignleft {
           float: none; } }
       .section--content .container .row .content img.size-medium {
         width: auto;
