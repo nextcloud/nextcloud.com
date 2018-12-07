@@ -245,6 +245,11 @@ hr {
 		@media(max-width: $break-small) {
 			margin-top: 100px;
 		}
+		.button { /* get the text under the buttons on the desktop client tab to stay blue */
+			small {
+				color: $nextcloud-blue;
+			}
+		}
 	}
 }
 
