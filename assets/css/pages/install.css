@@ -2392,26 +2392,6 @@
 footer {
   margin-top: 100px; }
 
-.btn {
-  border-radius: 50px;
-  line-height: 1.7; }
-
-.btn-default {
-  /* 	background: rgba(240,240,240,.9); */
-  /* 	border: 1px solid rgba(210,210,210,.9); */ }
-
-.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
-  /* 	background: white; */
-  /* 	border: 1px solid rgba(240,240,240,.9); */ }
-
-.btn-primary {
-  background: #0082C9;
-  border: 1px solid #0062C9;
-  color: #fff; }
-
-.mobileclientbuttons {
-  margin-top: 15px; }
-
 .numbadge {
   border-radius: 50%;
   width: 53px;
@@ -2561,10 +2541,6 @@ hr {
     @media (max-width: 768px) {
       .PopupGetStarted .tab-content {
         margin-top: 100px; } }
-    .PopupGetStarted .tab-content .button {
-      /* get the text under the buttons on the desktop client tab to stay blue */ }
-      .PopupGetStarted .tab-content .button small {
-        color: #0082c9; }
 
 .PopupGetStarted:target, div.PopupGetStarted:target + a.mask {
   display: block;

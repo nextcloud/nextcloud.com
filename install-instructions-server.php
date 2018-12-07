@@ -37,7 +37,7 @@
                             If you already run Nextcloud, refer to the');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html"><?php echo $l->t('upgrade manual.');?></a><br/>
                             <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Need enterprise support?</a>');?></p>
 
-                            <a class="button button--white button--small button--arrow--down" data-toggle="collapse" href="#more">Details and Download options</a>
+                            <a class="button button--white button--small button--arrow--down" data-toggle="collapse" href="#more"><?php echo $l->t('Details and download options');?></a>
                             <div class="collapse" id="more">
                                 <ol>
                                     <li><?php echo $l->t('Download the');?> <a class="hyperlink" href="<?php echo $DOWNLOAD_SERVER_STABLE_TAR; ?>">.tar.bz2</a></a> <?php echo $l->t('or');?> <a class="hyperlink" href="<?php echo $DOWNLOAD_SERVER_STABLE_ZIP; ?>">.zip</a> <?php echo $l->t('archive.');?></li>

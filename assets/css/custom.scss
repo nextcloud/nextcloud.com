@@ -944,17 +944,19 @@ body.advisories .content ul li {
 	position: relative;
 	text-align: center;
 	display: inline-block;
-	height: 50px;
-	line-height: 50px;
+	min-height: 50px;
+	min-width: 130px;
+	line-height: 16px;
 	font-weight: 600;
 	font-size: 16px;
 	text-decoration: none;
 	color: white;
 	border: solid 1px white;
-	padding: 0 30px;
-	border-radius: 30px;
+	padding: 15px 30px;
+	border-radius: 50px;
 	transition: all 0.3s ease 0s;
 	margin: 20px 0 20px 0;
+	vertical-align: middle;
 	&:hover,
 	&:focus,
 	&:active {
@@ -964,24 +966,22 @@ body.advisories .content ul li {
 		border: solid 1px $nextcloud-blue;
 	}
 	&.button--large {
-		height: 60px;
-		line-height: 60px;
+		padding: 20px 30px;
 		min-width: 200px;
 		font-size: 20px;
 	}
 	&.button--huge {
-		height: 80px;
-		line-height: 80px;
+		padding: 40px 35px;
 		min-width: 230px;
 		font-size: 24px;
-		border-radius: 60px;
+/* 		border-radius: 60px; */
 	}
 	&.button--small {
-		height: 30px;
-		line-height: 30px;
+		min-height: 30px;
+		padding: 10px 10px;
 		font-size: 12px;
-		border-radius: 30px;
-		padding: 0 10px;
+		line-height: 12px;
+/* 		border-radius: 30px; */
 	}
     &.button--white {
 		background-color: white;
@@ -1021,7 +1021,8 @@ body.advisories .content ul li {
 			i[class*='fa-'] {
 				color: $nextcloud-blue;
 				font-weight: 400;
-			}		}
+			}
+		}
 	}
 	&.button--arrow {
 		padding-right: 50px;
