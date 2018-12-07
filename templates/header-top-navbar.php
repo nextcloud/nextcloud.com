@@ -123,7 +123,7 @@ require get_template_directory() . '/strings.php';
                                     <?php echo file_get_contents(get_template_directory()."/assets/img/icons/desktop.svg");?>
                                 </div>
                                 <div class="nav__text">
-                                    <?php echo $l->t('<strong>Mobile & desktop apps</strong><br><small>Windows, macOS, Linux, Android, iOS, …</small>'); ?>
+                                    <?php echo $l->t('<strong>Desktop & mobile apps</strong><br><small>Windows, macOS, Linux, Android, iOS, …</small>'); ?>
                                 </div>
                             </a>
                         </li>
