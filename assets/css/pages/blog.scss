@@ -127,7 +127,7 @@ section {
 				img {
 					max-width: 100% !important;
 					@media (max-width: $break-small) {
-							max-width: 90vw !important;
+							max-width: 70vw !important;
 					}
 					&.alignright {
 						@media (max-width: $break-small) {
@@ -142,8 +142,8 @@ section {
 					&.size-medium {
 						width: auto;
 						height: auto;
-						max-width: 400px;
-						max-height: 400px;
+						max-width: 350px;
+						max-height: 350px;
 					}
 					&.size-thumbnail {
 						width: auto;

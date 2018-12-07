@@ -2469,7 +2469,7 @@ section {
       max-width: 100% !important; }
       @media (max-width: 768px) {
         .section--content .container .row .content img {
-          max-width: 90vw !important; } }
+          max-width: 70vw !important; } }
       @media (max-width: 768px) {
         .section--content .container .row .content img.alignright {
           float: none; } }
@@ -2479,8 +2479,8 @@ section {
       .section--content .container .row .content img.size-medium {
         width: auto;
         height: auto;
-        max-width: 400px;
-        max-height: 400px; }
+        max-width: 350px;
+        max-height: 350px; }
       .section--content .container .row .content img.size-thumbnail {
         width: auto;
         height: auto;
