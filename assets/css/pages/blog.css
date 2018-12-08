@@ -2443,18 +2443,28 @@ section {
     z-index: 10;
     background: white;
     margin-top: -5px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+    /* animation on zoom on images with a link */
+    /* alignment of images and divs */
+    /* images in various sizes */ }
     @media (min-width: 768px) {
       .section--content .container .row .content {
         margin-top: -40vh;
         padding-top: 0;
         background: none; } }
+    .section--content .container .row .content .blog-metadata {
+      padding-bottom: 20px;
+      margin-top: 0px; }
+      .section--content .container .row .content .blog-metadata img {
+        width: 20px !important; }
+      .section--content .container .row .content .blog-metadata a {
+        text-decoration: none; }
     .section--content .container .row .content h1 {
       margin-top: 25px;
       font-size: 50px;
       font-weight: 300; }
     .section--content .container .row .content h2 {
-      font-size: 20px; }
+      font-size: 36px; }
     .section--content .container .row .content blockquote p {
       display: inline; }
     .section--content .container .row .content ul {
@@ -2469,7 +2479,8 @@ section {
     .section--content .container .row .content figure {
       border: 1px solid #eee;
       padding: 5px;
-      border-radius: 10px; }
+      border-radius: 10px;
+      max-width: 100%; }
       .section--content .container .row .content figure img {
         float: none;
         width: 100%;
@@ -2486,7 +2497,8 @@ section {
       .section--content .container .row .content a.image--animate img {
         -moz-transition: all 0.3s;
         -webkit-transition: all 0.3s;
-        transition: all 0.3s; }
+        transition: all 0.3s;
+        box-shadow: 0 0 2px 1px #EEE; }
         @media (max-width: 768px) {
           .section--content .container .row .content .row > [class*='col-md'] > a img,
           .section--content .container .row .content a.image--animate img {
@@ -2527,11 +2539,7 @@ section {
           max-height: 90%; } }
       .section--content .container .row .content .size-medium img {
         padding: 5px 5px 5px 5px;
-        box-shadow: none; }
-    .section--content .container .row .content div[class*='size-'] {
-      padding: 0 15px; }
-      .section--content .container .row .content div[class*='size-'] img {
-        max-width: 100%; }
+        box-shadow: none !important; }
     .section--content .container .row .content .size-thumbnail {
       width: auto;
       height: auto;
@@ -2540,13 +2548,21 @@ section {
       box-shadow: 0 0 2px 1px #EEE;
       padding: 5px 5px 5px 5px; }
       .section--content .container .row .content .size-thumbnail img {
-        padding: 5px 5px 5px 5px; }
+        padding: 5px 5px 5px 5px;
+        box-shadow: none !important; }
     .section--content .container .row .content .size-full {
       width: auto;
       height: auto;
       max-width: 100%;
       max-height: 100%;
       box-shadow: 0 0 2px 1px #EEE; }
+      .section--content .container .row .content .size-full img {
+        padding: 5px 5px 5px 5px;
+        box-shadow: none !important; }
+    .section--content .container .row .content div[class*='size-'] {
+      padding: 0 15px; }
+      .section--content .container .row .content div[class*='size-'] img {
+        max-width: 100%; }
     .section--content .container .row .content .fullwidth,
     .section--content .container .row .content .banner {
       margin: 50px -50px;
@@ -2554,13 +2570,6 @@ section {
       width: calc(100% + 100px);
       /* account for double page margin */
       max-width: 100vw; }
-    .section--content .container .row .content .blog-metadata {
-      padding-bottom: 20px;
-      margin-top: 0px; }
-      .section--content .container .row .content .blog-metadata img {
-        width: 20px !important; }
-      .section--content .container .row .content .blog-metadata a {
-        text-decoration: none; }
 
 .section--footer .container .row .col-md-10 {
   z-index: 15;
