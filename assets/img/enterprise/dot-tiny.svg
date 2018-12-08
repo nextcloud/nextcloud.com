@@ -12,7 +12,7 @@
    viewBox="0 0 15.999999 15.999999"
    version="1.1"
    id="svg4"
-   sodipodi:docname="dot-small.svg"
+   sodipodi:docname="dot-tiny.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata10">
@@ -41,16 +41,16 @@
      id="namedview6"
      showgrid="false"
      inkscape:zoom="14.75"
-     inkscape:cx="-1.4915254"
+     inkscape:cx="-13.050847"
      inkscape:cy="8"
      inkscape:window-x="0"
      inkscape:window-y="240"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg4" />
   <circle
-     r="4"
-     cy="10"
-     cx="8.000001"
+     r="2.0999999"
+     cy="11.898304"
+     cx="8"
      style="font-weight:400;font-size:2474.95507812px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';text-align:start;letter-spacing:0;word-spacing:0;fill:#0082c9;fill-rule:evenodd;stroke-width:0.00532"
      font-weight="400"
      font-size="2474.955"

@@ -781,8 +781,9 @@ body.advisories .content ul li {
 
 /* Images */
 .alignright {
-  float: right;
-  margin: 1em 1em 1em 1em !important; }
+	float: right;
+	margin: 1em 1em 1em 1em;
+}
 
 .img-thumbnail {
   padding: 4px;
@@ -795,7 +796,8 @@ body.advisories .content ul li {
   transition: all .2s ease-in-out;
   display: inline-block;
   max-width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 /* All headers */
 .header {
