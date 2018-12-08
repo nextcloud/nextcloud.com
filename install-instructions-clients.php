@@ -6,14 +6,18 @@
 				<ul class="install-nav nav-tabs" role="tablist">
 					<li id="li-tab-desktop" class="active">
                         <a href="#tab-desktop" title="Download for desktop" role="tab" data-toggle="tab">
+                            <div>
                             <i class="fa-laptop"></i><br/>
                             <?php echo $l->t('Download for desktop');?>
+                            </div>
                         </a>
                     </li>
 					<li id="li-tab-mobile">
                         <a href="#tab-mobile" title="Download for mobile" role="tab" data-toggle="tab">
+                            <div>
                             <i class="fa-mobile"></i><br>
                             <?php echo $l->t('Download for mobile');?>
+                            </div>
                         </a>
                     </li>
 				</ul>
