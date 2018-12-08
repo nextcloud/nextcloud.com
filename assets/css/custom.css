@@ -10313,7 +10313,7 @@ body.advisories .content ul li {
 /* Images */
 .alignright {
   float: right;
-  margin: 1em 1em 1em 1em !important; }
+  margin: 1em 1em 1em 1em; }
 
 .img-thumbnail {
   padding: 4px;
