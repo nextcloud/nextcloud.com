@@ -2480,11 +2480,38 @@ section {
       border: 1px solid #eee;
       padding: 5px;
       border-radius: 10px;
-      max-width: 100%; }
+      max-width: 90%; }
+      @media (max-width: 768px) {
+        .section--content .container .row .content figure {
+          max-width: 80vw;
+          margin-left: auto;
+          margin-right: auto; } }
       .section--content .container .row .content figure img {
         float: none;
         width: 100%;
-        height: auto; }
+        height: auto;
+        box-shadow: none !important;
+        max-width: 100% !important; }
+      .section--content .container .row .content figure a {
+        overflow: hidden; }
+        @media (max-width: 768px) {
+          .section--content .container .row .content figure a {
+            margin-left: auto;
+            margin-right: auto; } }
+        .section--content .container .row .content figure a img {
+          -moz-transition: all 0.3s;
+          -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+          box-shadow: none;
+          max-width: 100%; }
+          @media (max-width: 768px) {
+            .section--content .container .row .content figure a img {
+              margin-left: auto;
+              margin-right: auto; } }
+        .section--content .container .row .content figure a:hover img {
+          -moz-transform: scale(1.1);
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
     .section--content .container .row .content .row > [class*='col-md'] > a,
     .section--content .container .row .content a.image--animate {
       margin: 2%;
