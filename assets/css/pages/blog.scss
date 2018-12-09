@@ -233,9 +233,19 @@ section {
 					width: auto;
 					height: auto;
 					max-width: 350px;
-					max-height: 350px;
+					max-height: 550px;
 					box-shadow: 0 0 2px 1px #EEE;
 					padding: 5px 5px 5px 5px;
+					article.video-wall {
+						@media (min-width: $break-small) {
+							min-width: 0px !important;
+							max-width: 100% !important;
+							max-height: 450px !important;
+							.video-link {
+								width: 100% !important;
+							}
+						}
+					}
 					@media (max-width: $break-small) {
 						max-width: 90%;
 						max-height: 90%;
