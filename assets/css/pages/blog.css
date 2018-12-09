@@ -2443,7 +2443,6 @@ section {
     z-index: 10;
     background: white;
     margin-top: -5px;
-    padding-top: 20px;
     padding-bottom: 30px;
     /* animation on zoom on images with a link */
     /* alignment of images and divs */
@@ -2451,7 +2450,7 @@ section {
     @media (min-width: 768px) {
       .section--content .container .row .content {
         margin-top: -40vh;
-        padding-top: 0;
+        padding-top: 20px;
         background: none; } }
     .section--content .container .row .content .blog-metadata {
       padding-bottom: 20px;

@@ -83,12 +83,11 @@ section {
 				z-index: 10;
 				@media (min-width: $break-small) {
 					margin-top: -40vh;
-					padding-top: 0;
+					padding-top: 20px;
 					background: none;
 				}
 				background: white;
 				margin-top: -5px;
-				padding-top: 20px;
 				padding-bottom: 30px;
 
 				.blog-metadata {
