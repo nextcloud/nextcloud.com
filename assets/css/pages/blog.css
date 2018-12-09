@@ -2460,10 +2460,14 @@ section {
       .section--content .container .row .content .blog-metadata a {
         text-decoration: none; }
     .section--content .container .row .content h1 {
-      margin-top: 25px;
+      margin-top: 120px;
       font-size: 50px;
       font-weight: 300; }
     .section--content .container .row .content h2 {
+      margin-top: 80px;
+      font-size: 36px; }
+    .section--content .container .row .content h3 {
+      margin-top: 50px;
       font-size: 36px; }
     .section--content .container .row .content blockquote p {
       display: inline; }
