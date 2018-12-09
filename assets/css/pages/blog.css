@@ -2443,6 +2443,7 @@ section {
     z-index: 10;
     background: white;
     margin-top: -5px;
+    padding-top: 20px;
     padding-bottom: 30px;
     /* animation on zoom on images with a link */
     /* alignment of images and divs */
