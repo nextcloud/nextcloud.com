@@ -37,9 +37,6 @@
 .section--header .col-md-8 p {
   text-align: center; }
 
-.image--floated {
-  float: right; }
-
 section {
   padding: 100px 0;
   min-width: 320px; }

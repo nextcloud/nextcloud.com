@@ -8,7 +8,7 @@
     background: linear-gradient(to bottom, $nextcloud-blue, #3e9ed8 100%, #d8d8d8);
     padding: 0;
     border-radius: 0 !important;
-    margin-bottom: 0px;
+    margin-bottom: 70px;
     height: 300px;
     min-height: 300px;
     max-height: 300px;
@@ -20,9 +20,6 @@
         background: url('../../img/headers/generic.png') no-repeat;
         background-size: cover;
         background-position: center;
-
-        @media (max-width: $break-big) {
-        }
     }
     @media (max-width: $break-big) {
         height: 200px;
@@ -33,169 +30,8 @@
 
 /* General */
 
-
-section {
-    padding: 50px 0 50px;
-    .section--heading-1 {
-        padding-bottom: 50px;
-    }
-    .section--paragraph--tittle {
-        padding: 0;
-    }
-	.feature-row {
-		padding: 60px 0 60px 0;
-	}
-}
-
-.img-responsive {
-    padding-top: 10px;
-    @media (min-width: $break-big) {
-        margin-bottom: 50px;
-    }
-    @media (min-width: $very-wide) {
-        /* 	margin-bottom: 0px; */
-    }
-}
-
-.image--floated {
-    float: right;
-}
-
-.separator{
-	margin: 100px 0 50px 0;
-	height: 40px;
-	background: #f6f6f6;
-}
-
-.video {
-	margin-bottom: 30px;
-}
-
 footer {
     margin-top: 100px;
-}
-
-
-/** Get Started/install Page **/
-
-h1, h2, h3 {
-    font-weight: 300;
-}
-h4 {
-    font-weight: 600;
-}
-h1 {
-    font-size: 45px;
-}
-h2 {
-    font-size: 35px;
-    margin-bottom: 12px;
-}
-h3 {
-    font-size: 27px;
-    margin: 12px 0;
-}
-h4 {
-    font-size: 22px;
-    margin: 12px 0;
-}
-h5 {
-    font-size: 22px;
-    margin: 12px 0;
-}
-
-.btn {
-    border-radius: 50px;
-    line-height: 1.7;
-}
-/* Put images in blog really in center */
-.aligncenter {
-    margin: auto auto !important;
-    max-width:100%;
-    height: auto;
-}
-
-
-.btn-default {
-    /* 	background: rgba(240,240,240,.9); */
-    /* 	border: 1px solid rgba(210,210,210,.9); */
-}
-
-.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
-    /* 	background: white; */
-    /* 	border: 1px solid rgba(240,240,240,.9); */
-}
-
-.btn-primary {
-    background: #0082C9;
-    border: 1px solid #0062C9;
-    color: #fff;
-}
-
-.no-underline a {
-    border: 0px none transparent !important;
-}
-
-@media (max-width: 1199px) {
-    .home #getapps .client-install {
-        margin-top: 10px;
-    }
-}
-
-@media (max-width: 767px) {
-    .home #getapps .client-install, .home #getapps .btn-group, .home #getapps h2 {
-        margin-top: 0;
-    }
-
-    a.home-ent-button {
-        display: block;
-        width: 290px;
-        margin: 10px auto 0 auto !important;
-    }
-
-    div#getapps div.install-buttons {
-        margin-bottom: 40px;
-    }
-}
-
-@media (max-width: 562px) {
-    .home #getapps .client-install {
-        margin-top: 10px;
-    }
-}
-
-.mobileclientbuttons {
-    margin-top: 15px;
-}
-
-div#getapps h2{
-    text-align: center;
-    font-weight:200;
-    font-size:30px;
-}
-
-div#getapps .row {
-    margin-top: 30px;
-    margin-bottom: 47px;
-    text-align: center;
-}
-
-div .vmlist {
-    margin-top: 5px !important;
-    margin-bottom: 5px !important;
-}
-
-div#getapps p {
-    margin-bottom: 20px;
-    margin-top: -20px;
-}
-
-#appstore, #googleplay, #desktopclient {
-opacity: 0.9;
-}
-
-img#sync-button {
-    vertical-align: text-bottom;
 }
 
 .numbadge {
@@ -223,50 +59,187 @@ img#sync-button {
     }
 }
 
-div.numbadge.centre {
+.numbadge.centre {
     margin-left: auto;
     margin-right: auto;
 }
 
-h3 {
-    font-weight: 600;
-}
-
-h4 {
-    margin-top: 30px;
-}
 hr {
+	margin-top: 130px;
     border-bottom: 1px dotted #0082C9;
 }
 
-hr.narrow, hr.wide {
+.narrow, .wide {
     display: none;
     margin-bottom: -28px;
 }
 
-hr.narrow {
+.narrow {
     margin-bottom: -27px;
 }
 
-div.col-md-3 {
-    margin-bottom: 45px;
+.label-blue {
+	color: white;
+	background-color: #0082C9;
+	border-radius: 10px;
+	padding: 5px 7px;
 }
 
-div.PopupGetStarted {
+.download--description {
+	h2 {
+		margin: 0 auto;
+		text-align: center;
+		font-size: 40px;
+	}
+	p {
+	    @media (max-width: $break-big) {
+			margin: 0 auto;
+			text-align: center;
+        }
+	}
+}
+
+.PopupGetStarted {
     height: auto;
     margin: 0 auto;
-    /*		 color: #0082C9; no need to repeat that here */
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
     z-index: 1000;
     display: none;
+
+	.instructions {
+		position: absolute;
+		max-width: 95%;
+		padding: 15px;
+		margin: 130px auto 0 auto;
+		background: white !important; /* I seem to have to enforce this, comes from main.min.css*/
+		border-radius: 4px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-webkit-animation-name: FromTop; /* Chrome, Safari, Opera */
+		-webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
+		animation-name: FromTop;
+		animation-duration: 0.5s;
+		.overlay-body {
+			.downloadbutton {
+				text-align: center;
+				position: relative;
+			}
+
+			.downloadbutton .btn {
+				padding: 20px;
+				font-size: 22px;
+			}
+		}
+	}
+
+	.close {
+		color: #575858;
+		font-size: 2.75em;
+		opacity: 0.8;
+		float: right;
+		margin-top: -25px;
+		margin-right: 15px;
+		z-index: 10;
+	}
+
+	.close:hover, .close:focus {
+		opacity: 1;
+		text-decoration: none;
+	}
+	ul.nav-tabs {
+		position: absolute;
+		margin-top: 0px;
+		font-size: 15px;
+		font-weight: 400;
+		border: none;
+		line-height: 1.6em;
+		@media(max-width: $break-small) {
+			margin-top: 40px;
+			font-size: 12px;
+			margin-left: -15px;
+			margin-right: -10px;
+		}
+		li {
+			width: 210px;
+			max-width: 32%;
+/* 			height: 85px; */
+			bottom: 0;
+			padding: 5px 0 5px 0;
+			text-align: center;
+			text-decoration: none;
+			margin: 0 0 30px 0;
+			border-bottom: 1px solid transparent;
+
+			@media(max-width: $break-small) {
+				min-height: 70px;
+				padding: 5px 0px 5px 0;
+			}
+			i {
+/* 				font-size: 13px; */
+			}
+			&:focus,
+			&:hover,
+			&:active,
+			&.active {
+				border-bottom: 1px solid #333;
+				a {
+					margin: 0 auto;
+					text-align: center;
+					border: none;
+					border-radius: none;
+					color: #555;
+					font-weight: 700;
+					i {
+						font-weight: 400;
+					}
+				}
+			}
+			a {
+				margin: 0 auto;
+				text-align: center;
+				border: none;
+				border-radius: none;
+				color: #555;
+				text-decoration: none;
+				&:focus,
+				&:hover,
+				&:active
+				&.active {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	.thumbnail {
+		box-shadow: 0 0 2px 1px #EEE;
+	}
+	.tab-content {
+		margin-top: 40px;
+		@media(max-width: $break-small) {
+			margin-top: 100px;
+		}
+	}
 }
 
-div.PopupGetStarted div.row{
-    margin: 0;
+.PopupGetStarted:target, div.PopupGetStarted:target+a.mask{
+    display: block;
+    opacity: 1;
 }
+
+.mask {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(29, 45, 68, 0.5);
+	z-index: 500;
+	display: none;
+}
+
+
 
 /* Add animation (Chrome, Safari, Opera) */
 @-webkit-keyframes FromTop {
@@ -279,192 +252,6 @@ div.PopupGetStarted div.row{
     from {top:-100px;opacity: 0;}
     to {top:0px;opacity:1;}
 }
-
-div.PopupGetStarted div.instructions{
-    background: white !important; /* I seem to have to enforce this, comes from main.min.css*/
-    position: absolute;
-    margin-top: 130px;
-    padding: 10px;
-    border-radius: 4px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	-webkit-animation-name: FromTop; /* Chrome, Safari, Opera */
-	-webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
-	animation-name: FromTop;
-	animation-duration: 0.5s;
-}
-
-a.mask {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(29, 45, 68, 0.5);
-    z-index: 500;
-    display: none;
-}
-
-.overlay-header {
-    background-color: rgba(240,240,240,.9);
-    border-radius: 4px;
-}
-
-.overlay-header h3 {
-    margin-left: 15px;
-}
-
-.overlay-header a.close {
-    margin-right: 15px;
-}
-
-.overlay-body {
-    padding-top: 10px;
-}
-
-.overlay-footer {
-    background-color: rgba(240,240,240,.9);
-    border-radius: 4px;
-}
-
-.overlay-footer a.btn {
-    float: right;
-    margin-right: 15px;
-}
-
-.overlay-footer p {
-    margin-bottom: 0px;
-}
-
-div.PopupGetStarted:target, div.PopupGetStarted:target+a.mask{
-    display: block;
-    opacity: 1;
-}
-
-.label-blue {
-    color: white;
-    background-color: #0082C9;
-    border-radius: 10px;
-    padding: 5px 7px;
-}
-
-.close {
-    color: #575858;
-    font-size: 2.75em;
-    opacity: 0.8;
-    float: right;
-    margin-top: -25px;
-
-}
-
-.close:hover, .close:focus {
-    opacity: 1;
-    text-decoration: none;
-}
-
-a.btn-lg {
-    font-size: 16px;
-}
-
-.installers ul.tabs {
-    padding: 5px 0 0 5px;
-}
-
-.installers ul.tabs li {
-    float: left;
-    list-style: none;
-    margin-left: 5px;
-    padding-left: 0;
-}
-
-.overlay-header, .overlay-footer {
-    padding: 8px;
-}
-
-#tab-archive .btn {
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-.downloadbutton {
-    text-align: center;
-    position: relative;
-}
-
-.downloadbutton .btn {
-    padding: 20px;
-    font-size: 22px;
-}
-
-
-.nav-tabs-bottom {
-    float: left;
-    li {
-        padding: 10px;
-        margin: 0 0px;
-        border: 1px solid #ddd;
-        border-top: 0;
-        border-radius: 0 0 5px 5px;
-        a {
-/*             color:gray; */
-        }
-    }
-}
-
-.nav-tabs-bottom,
-.nav-tabs-top {
-    border: 0;
-    margin:0 10px;
-}
-
-.nav-tabs>li.active a,
-.nav-tabs>li.active a:focus,
-.nav-tabs>li.active a:hover,
-.nav-tabs>li a,
-.nav-tabs>li a:focus,
-.nav-tabs>li a:hover {
-    margin: 0;
-    border: 0;
-    background: none;
-}
-
-
-.nav-tabs {
-   border-bottom: 0;
-    border-top: 1px solid #ddd;
-    padding: 0px;
-    li  {
-       margin-bottom: 0px;
-        margin-top:-1px;
-        margin-left: 0px;
-        a {
-           padding-top: 8px;
-            padding-bottom: 8px;
-            line-height: 20px;
-        }
-    }
-    .active {
-         	background-color: #eeeeee;
-        a {
-           color: #555555;
-            cursor: default;
-            background-color: #ffffff;
-            border-top-color: transparent !important;
-            border-bottom-color: #ddd;
-            border-left-color: #ddd;
-            border-right-color: #ddd;
-            -moz-border-radius:0px;
-            -webkit-border-radius:0px;
-            border-radius:0px;
-            -moz-border-radius-bottomright: 5px;
-            -webkit-border-bottom-right-radius: 5px;
-            border-bottom-right-radius: 5px;
-            -moz-border-radius-bottomleft: 5px;
-            -webkit-border-bottom-left-radius: 5px;
-            border-bottom-left-radius: 5px;
-        }
-    }
-}
-
 
 @media(min-width: 996px) {
     hr.wide {

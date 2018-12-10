@@ -57,9 +57,6 @@ section {
     .img-responsive {
       /* 	margin-bottom: 0px; */ } }
 
-.image--floated {
-  float: right; }
-
 .section--differences .banner {
   background-color: #0082c9;
   position: relative;

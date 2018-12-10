@@ -2371,9 +2371,6 @@
   background-position: center;
   background-size: cover; }
 
-@media (max-width 768px) {
-  .image--feature {
-    margin-top: 10px; } }
 section {
   margin: 180px 0; }
 

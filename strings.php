@@ -6,7 +6,7 @@ $VERSIONS_SERVER_MAJOR_STABLE = '15';
 $VERSIONS_SERVER_FULL_STABLE = '15.0.0';
 $VERSIONS_SERVER_MAJOR_DEVELOPMENT = '16.0.0';
 $VERSIONS_SERVER_MAJOR_DEV_DOCS = '15'; // Used in dev docs links
-$VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.5.0';
+$VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.5.1';
 $VERSIONS_CLIENT_DESKTOP_STABLE_SHORT = '2.5'; // For use in documentation link
 
 /* DOCUMENTATION */
@@ -24,9 +24,9 @@ $NEXTCLOUD_GPG = 'https://nextcloud.com/nextcloud.asc';
 
 // Desktop client stable
 $DOWNLOAD_CLIENT_DESKTOP_BASE = 'https://download.nextcloud.com/desktop/releases/';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Windows/Nextcloud-2.5.0-setup.exe';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Mac/Installer/Nextcloud-2.5.0.20181112.pkg	';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Linux/Nextcloud-2.5.0-x86_64.AppImage';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Windows/Nextcloud-2.5.1-setup.exe';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Mac/Installer/Nextcloud-2.5.1.20181204.pkg';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Linux/Nextcloud-2.5.1-x86_64.AppImage';
 $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES = 'https://github.com/nextcloud/client';
 // $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES.'.asc';
 
@@ -64,9 +64,9 @@ $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.nextcloud.com/download/repos
 
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.nextcloud.com/server/prereleases/';
-$SERVER_TESTING_VERSION ='RC 2'; // nothing to test -> leave it empty
-$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-15.0.0RC2.tar.bz2';
-$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-15.0.0RC2.zip';
+$SERVER_TESTING_VERSION ='RC 3'; // nothing to test -> leave it empty
+$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-15.0.0RC3.tar.bz2';
+$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-15.0.0RC3.zip';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.nextcloud.com/server/installer/setup-nextcloud.php';

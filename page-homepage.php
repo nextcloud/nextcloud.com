@@ -19,8 +19,8 @@
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Nextcloud - Protecting your data');?></h1>
 				<h2 class="jumbotron--lead"><?php echo $l->t('Building self-hosted products that allow you to be productive without losing control');?></h2>
-<!-- 				<a class="button button--large button--arrow" href="<?php echo home_url('signup') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Sign up');?></a> -->
-				<a class="button button--large button--arrow--down" href="#why-nextcloud" role="button" id="get-nextcloud-button"><?php echo $l->t('Learn more');?></a>
+				<a class="button button--large button--arrow button--white" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Get Nextcloud');?></a><br>
+				<a class="button button--large button--arrow--down button--blue" href="#why-nextcloud" role="button" id="get-nextcloud-button"><?php echo $l->t('Learn more');?></a>
 			</div>
 			<div class="col-md-6 topbanner">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/empty.png"> <!--empty image to ensure the viewport is big enough-->
