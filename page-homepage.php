@@ -218,7 +218,7 @@
 	            <p class="section--paragraph"><?php echo $l->t('With integrated communication, Nextcloud 15 allows you to edit documents with colleagues while chatting or having a video call. Share with others through multiple unique public links protected with video verification and more!');?></p>
 	            <br/>
 	            <p>
-	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-15-goes-social-enforces-2fa-and-gives-you-a-new-generation-real-time-document-editing" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/mobile-app-integration-for-online-office-talk-in-the-file-sidebar-and-much-improved-sharing/" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
@@ -227,7 +227,7 @@
 	            <p class="section--paragraph"><?php echo $l->t('Build an enterprise social network or join the fediverse! Nextcloud Social lets you share status updates and subscribe to the timeline of others, in a federated, distributed network of tens of thousands of servers!');?></p>
 	            <br/>
 	            <p>
-	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-15-goes-social-enforces-2fa-and-gives-you-a-new-generation-real-time-document-editing" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-introduces-social-features-joins-the-fediverse/" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
@@ -236,7 +236,7 @@
 	            <p class="section--paragraph"><?php echo $l->t('More secure than ever, Nextcloud 15 introduces the ability to enforce two-factor authentication, 2FA through notifications, stricter CSP and V3 of our app-tokens to keep your data safe at all times.');?></p>
 	            <br/>
 	            <p>
-	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-15-goes-social-enforces-2fa-and-gives-you-a-new-generation-real-time-document-editing" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/next-generation-2-factor-authentication-and-security-hardening/" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
@@ -245,7 +245,7 @@
 	            <p class="section--paragraph"><?php echo $l->t('Our mobile clients now let you edit documents on the go, we introduced a new grid view and other design improvements, Nextcloud loads 2-3x faster, can convert files to PDF automatically and much, much more!');?></p>
 	            <br/>
 	            <p>
-	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-15-goes-social-enforces-2fa-and-gives-you-a-new-generation-real-time-document-editing" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/new-grid-view-pdf-conversion-2-3x-faster-loading-dashboard-and-more/" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
         </div>
