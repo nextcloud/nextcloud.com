@@ -2463,6 +2463,10 @@ section {
       margin-top: 120px;
       font-size: 50px;
       font-weight: 300; }
+    .section--content .container .row .content h1:first-of-type {
+      margin-top: 20px;
+      font-size: 50px;
+      font-weight: 300; }
     .section--content .container .row .content h2 {
       margin-top: 80px;
       font-size: 36px; }
