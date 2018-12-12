@@ -2409,36 +2409,39 @@ section {
             padding-right: 50px; } }
 
 .section--content .container .row {
-  position: relative; }
-  .section--content .container .row .transparent {
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    margin-left: -50px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    width: 100%;
-    height: 40vh;
-    background-color: white;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-top: 0px;
-    padding-bottom: 0%; }
-    @media (max-width: 768px) {
-      .section--content .container .row .transparent {
-        display: none; } }
-  .section--content .container .row .white {
-    position: absolute;
-    top: 40vh;
-    z-index: -1;
-    margin-left: -50px;
-    width: 100%;
-    height: calc(100% - 40vh);
-    background-color: white;
-    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-top: 0px; }
-    @media (max-width: 768px) {
-      .section--content .container .row .white {
-        display: none; } }
+  position: relative;
+  /*.transparent {
+  	position: absolute;
+  	top: 0;
+  	z-index: -1;
+  	margin-left: -50px;
+  	border-top-right-radius: 10px;
+  	border-top-left-radius: 10px;
+  	width: 100%;
+  	height: 40vh;
+  	background-color: white;
+  	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	margin-top: 0px;
+  	padding-bottom: 0%;
+  	@media (max-width: $break-small) {
+  		display: none;
+  	}
+  }*/
+  			/*.white {
+  				position: absolute;
+  				top: -40vh;
+  				z-index: -1;
+  				margin-left: -50px;
+  				width: 100%;
+  				height: calc(100% - 40vh);
+  				background-color: white;
+  
+  				box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  				margin-top: 0px;
+  				@media (max-width: $break-small) {
+  					display: none;
+  				}
+  			}*/ }
   .section--content .container .row .content {
     z-index: 10;
     background: white;
@@ -2449,9 +2452,12 @@ section {
     /* images in various sizes */ }
     @media (min-width: 768px) {
       .section--content .container .row .content {
-        margin-top: -40vh;
+        margin-top: -50vh;
         padding-top: 20px;
-        background: none; } }
+        /* 					background: none; */
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19); } }
     .section--content .container .row .content .blog-metadata {
       padding-bottom: 20px;
       margin-top: 0px; }

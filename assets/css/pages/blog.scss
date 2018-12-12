@@ -48,7 +48,7 @@ section {
 	.container {
 		.row {
 			position: relative;
-			.transparent {
+			/*.transparent {
 				position: absolute;
 				top: 0;
 				z-index: -1;
@@ -64,27 +64,31 @@ section {
 				@media (max-width: $break-small) {
 					display: none;
 				}
-			}
-			.white {
+			}*/
+			/*.white {
 				position: absolute;
-				top: 40vh;
+				top: -40vh;
 				z-index: -1;
 				margin-left: -50px;
 				width: 100%;
 				height: calc(100% - 40vh);
 				background-color: white;
+
 				box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 				margin-top: 0px;
 				@media (max-width: $break-small) {
 					display: none;
 				}
-			}
+			}*/
 			.content {
 				z-index: 10;
 				@media (min-width: $break-small) {
-					margin-top: -40vh;
+					margin-top: -50vh;
 					padding-top: 20px;
-					background: none;
+/* 					background: none; */
+					border-top-right-radius: 10px;
+					border-top-left-radius: 10px;
+					box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 				}
 				background: white;
 				margin-top: -5px;
