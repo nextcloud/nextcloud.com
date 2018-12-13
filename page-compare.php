@@ -51,7 +51,6 @@
 					<li title="" rel="tooltip">Mobile Clients</li> <!--Mobile Clients-->
 					<li title="" rel="tooltip">Auto upload images/video</li> <!--Auto upload images/video-->
 					<li title="" rel="tooltip">Desktop clients</li> <!--Desktop clients-->
-					<li title="" rel="tooltip">Sync any local folder</li><!-- Sync any local folder-->
 					<li title="" rel="tooltip">LAN Synchronization</li> <!--LAN Synchronization-->
 					<li title="Allows third party to write apps that integrate apps in the cloud itself, adding functionality" rel="tooltip">Extensible with apps</li> <!--Extensible with apps-->
 					<li title="" rel="tooltip">Outlook integration</li> <!--Outlook integration-->
@@ -63,8 +62,10 @@
 					<li title="" rel="tooltip">Integrated Audio/Video/Text chat</li> <!--Audio/Video/Text chat-->
 					<li title="" rel="tooltip">Supported Groupware<br> (Calendar/Contacts/<br>Mail/Kanban)</li> <!--Calendar/Contact/Mail integration-->
 					<li title="" rel="tooltip">Mobile calendar/contact integration</li> <!--Mobile calendar/contact integration-->
-					<li title="" rel="tooltip">Online Office</li> <!--Online Office-->
+					<li title="" rel="tooltip">Online Office in web / mobile</li> <!--Online Office-->
 					<li title="Public link to folder recipient can upload to, which hides existing content of the shared folder" rel="tooltip">File Drop (customer file upload)</li> <!--File Drop (customer file upload)-->
+					<li title="Option to block downloading from a public link" rel="tooltip">Block downloads</li> <!-- Block downloads -->
+					<li title="Protect public links with Video Verification" rel="tooltip">Video Verification</li> <!-- Video Verification -->
 					<li title="Sharing between separate cloud instances of different vendors. Example, Nextcloud users can share files with users on Pydio and ownCloud servers." rel="tooltip">Inter-server sharing</li> <!--Inter-server sharing-->
                         <li class="cd-group">Accessibility</li> <!--Accessibility-->
 					<li title="" rel="tooltip">Keyboard/screen reader support</li> <!--Keyboard/screen reader support-->
@@ -94,7 +95,7 @@
 					<li title="" rel="tooltip">File Access Control</li> <!--File Access Control-->
 					<li title="Allow restricting mobile/desktop/third party applications access to filesystem or other data" rel="tooltip">App access rights</li> <!--App access rights-->
 						<li class="cd-group">Authentication</li> <!--Authentication-->
-					<li title="" rel="tooltip">2-factor authentication</li> <!--2-factor authentication-->
+					<li title="" rel="tooltip">enforcable 2-factor authentication</li> <!--2-factor authentication-->
 					<li title="" rel="tooltip">LDAP/AD</li> <!--LDAP/AD-->
 					<li title="Native SAML is implemented directly in the application without a requirements on external software like Apache modules. Native SAML is compatible with all webservers and supports group memberships, flexible session management, multiple identity providers and app specific passwords." rel="tooltip">Native SAML</li> <!-- Native SAML -->
 					<li title="Authentication through Apache modules allows eg SAML/ShibbolethADFS, OAuth, OpenID, CAS and more." rel="tooltip">Auth via env variable</li> <!--Auth via env variable-->
@@ -126,7 +127,6 @@
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Auto upload images/video-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i> <i class="fa fa-linux" aria-hidden="true"></i></li> <!--Desktop clients-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Sync any local folder-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="Over 150 apps available" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
 
@@ -139,8 +139,10 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="both Android/iOS (Android with integrated 3rd party tool)" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="With Collabora Online or ONLYOFFICE" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
+							<li title="With Collabora Online or ONLYOFFICE" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i> / <i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Block downloads -->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Inter-server sharing-->
                                 <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
@@ -200,7 +202,6 @@
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Auto upload images/video-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Desktop clients-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Sync any local folder-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="No third-party apps that can be integrated" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Extensible with apps-->
 
@@ -213,8 +214,10 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i> / <i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Block downloads -->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
 							    <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
@@ -274,7 +277,6 @@
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Auto upload images/video-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Desktop clients-->
-							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Sync any local folder-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="Limited to Microsoft Apps" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
 
@@ -287,8 +289,10 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
+							<li title="feature-limited in web and mobile UI compared to desktop" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i> / <i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Block downloads -->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
 							    <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
@@ -318,7 +322,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
-                            <li title="Supports multiple factors" rel="tooltip">U2F/OTP/SMS</li> <!--2-factor authentication-->
+                            <li title="Supports multiple 2nd factor options" rel="tooltip">U2F/OTP/SMS/Signal/ Telegram/notifications</li> <!--2-factor authentication-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Auth via env variable-->
@@ -348,7 +352,6 @@
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Auto upload images/video-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i> <i class="fa fa-linux" aria-hidden="true"></i></li> <!--Desktop clients-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Sync any local folder-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="Over 70 apps available" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
 
@@ -361,8 +364,10 @@
 							<li title="unsupported" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="Only as unsupported (Nextcloud-developed) third party apps" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="Unsupported. Available for iOS, Android possible with tool from Nextcloud partner" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i>/<i class="fa fa-check optional" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="With Collabora Online or ONLYOFFICE" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
+							<li title="With Collabora Online or ONLYOFFICE" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i> / <i class="fa fa-times" aria-hidden="true"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Block downloads -->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Inter-server sharing-->
                                 <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
@@ -383,7 +388,7 @@
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Terms-of-service-->
 							<li class="cd-group"></li> <!--Security features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Server side encryption-->
-							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Client side encryption-->
+							<li title="Only offering a web E2E solution without client support so failing to provide zero-knowledge protection" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Client side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Video Verification-->
 							<li title="Unsupported external app developed by community student" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--NIST compliant password policy-->
@@ -392,7 +397,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
-                            <li title="Only one factor" rel="tooltip">OTP</li> <!--2-factor authentication-->
+                            <li title="Can't be enforced, only supporting OTP" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--2-factor authentication-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Auth via env variable-->
@@ -422,7 +427,6 @@
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Auto upload images/video-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Desktop clients-->
-							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Sync any local folder-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="Limited Microsoft office integration" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
 
@@ -435,8 +439,10 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="not natively, third party app" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
+							<li title="Through Microsoft Office" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i> / <i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Block downloads -->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
                                 <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
@@ -496,7 +502,6 @@
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Auto upload images/video-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Desktop clients-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Sync any local folder-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="No third-party apps that can be integrated" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Extensible with apps-->
 
@@ -509,8 +514,10 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
+							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i> / <i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Block downloads -->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
                                 <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
@@ -569,7 +576,6 @@
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Auto upload images/video-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i> <i class="fa fa-linux" aria-hidden="true"></i></li> <!--Desktop clients-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Sync any local folder-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="Limited Microsoft office integration" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
 
@@ -582,8 +588,10 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i title="through Google Apps" rel="tooltip" class="fa fa-google" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
+							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i> / <i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Block downloads -->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
                                 <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
@@ -642,7 +650,6 @@
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Auto upload images/video-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Desktop clients-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Sync any local folder-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="Pretty wide range of apps" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
 
@@ -655,8 +662,10 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
+							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i> / <i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Block downloads -->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
 							    <li class="cd-group"></li> <!--Accessibility-->
                             <li title="could not find information" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
@@ -716,7 +725,6 @@
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Auto upload images/video-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Desktop clients-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Sync any local folder-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="No third-party apps that can be integrated" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Extensible with apps-->
 
@@ -729,8 +737,10 @@
 							<li title="Microsoft Lync plug-in" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
+							<li title="Microsoft Office 365" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i> / <i class="fa fa-check" aria-hidden="true"></i></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Drop (customer file upload)-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Block downloads -->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
 							    <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
@@ -788,6 +798,7 @@
 <section class="disclaimer">
 <div class="container">
 <p>Based on public information to our best knowledge, gathered September 2 2018. We understand the world is constantly changing, if you see we missed a feature or made a mistake, let us know. You can use <a href="<?php echo home_url('contact') ?>">our contact form.</a></p>
+<p>Note that end-to-end encryption in a browser is not the same as client-side encryption as it fails to protect adequately from the server (it does not offer 'zero-knowledge' protection). The security experts at the Brittish NCC Group have <a class="hyperlink" href="https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2011/august/javascript-cryptography-considered-harmful/">written on this subject,</a> considering javascript encryption in the browser "harmful".</p>
 </div>
 </section>
 
