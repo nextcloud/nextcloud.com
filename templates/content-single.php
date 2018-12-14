@@ -11,7 +11,7 @@
 </script>
 </head>
 <section class="section--blog-header">
-<div class="blog-background" style="background:url('<?php echo !empty(get_post_thumbnail_id( $post->ID ))? wp_get_attachment_image_url( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' )  :  bloginfo('template_directory').'/assets/img/headers/dots.png'; ?>') no-repeat; background-position:center; background-size:cover; background-color:#0082c9;">
+<div class="blog-background" style="background:url('<?php echo bloginfo('template_directory').'/assets/img/headers/dots.png'; ?>') no-repeat; background-position:center; background-size:cover; background-color:#0082c9;">
 </div>
 <section class="section--content">
 <div class="container">
