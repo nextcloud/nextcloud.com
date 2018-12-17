@@ -57,6 +57,7 @@
 		<h3><?php echo $l->t('Supported Product Versions');?></h3>
 		<p><strong><?php echo $l->t('Nextcloud Server:');?></strong></p>
 		<ul>
+            <li><?php echo $l->t('15.0.x (latest release)');?></li>
 			<li><?php echo $l->t('14.0.x (latest release)');?></li>
 			<li><?php echo $l->t('13.0.x (latest release)');?></li>
 		</ul>
