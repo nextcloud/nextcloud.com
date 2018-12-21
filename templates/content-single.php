@@ -1,7 +1,7 @@
 <?php while (have_posts()) : the_post(); ?>
   <article <?php post_class(); ?>>
   <head>
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blog.css?v=1">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blog.css?v=2">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
