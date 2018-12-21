@@ -10673,11 +10673,7 @@ blockquote {
     margin-top: 15px;
     padding-top: 0px; }
   .section--whitepaper .button, .whitepaper .button {
-    height: 40px;
-    line-height: 40px;
-    margin-left: 20px;
-    padding-left: 10px;
-    padding-right: 10px; }
+    margin-left: 20px; }
   .section--whitepaper .mail, .whitepaper .mail {
     height: 40px;
     border-radius: 40px;
