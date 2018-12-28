@@ -716,8 +716,8 @@
          "imagename":"cloudlay.png"
       },
     {
-         "title":"snowflake Ops AG",
-         "url":"https:\/\/snowflakeops.ch\/nextcloud",
+         "title":"Ops One AG",
+         "url":"https:\/\/opsone.ch\/nextcloud",
          "flags":[
             "ch",
             "de"
@@ -727,7 +727,7 @@
          "specializes":[
             "We offer managed servers optimized for Nextcloud, running on our fully redundant private cloud infrastructure in Zurich, Switzerland."
          ],
-         "imagename":"snowflake.png"
+         "imagename":"opsone.png"
       },
     {
          "title":"Next IT Level GmbH",
