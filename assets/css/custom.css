@@ -10347,7 +10347,7 @@ body.advisories .content ul li {
   position: relative;
   text-align: center;
   display: inline-block;
-  min-height: 50px;
+  /*	min-height: 50px;*/
   min-width: 130px;
   line-height: 16px;
   font-weight: 600;
