@@ -65,6 +65,14 @@ require(["require.config"], function() {
                     <input type="hidden" name="segmentId" value="2">
                     <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
                     <input class="button button--large" type="submit" value=" Get the Analysis ">
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
+                        <small>see our <a class="hyperlink" href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                    </div>
+
 
 
                     </p>
