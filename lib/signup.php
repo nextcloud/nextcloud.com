@@ -284,6 +284,7 @@ function get_statistics($params) {
 			return [];
 		}
 
+		set_time_limit(0);
 		$data = array_reduce($keys, function ($array, $key) {
 			global $redis;
 			$array[$key] = json_decode($redis->get($key));
