@@ -28,6 +28,21 @@
 
     <a name="latest15"></a>
 
+    <h3 id="15-0-2">Version 15.0.2 <small>January 11 2019</small></h3>
+    <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.2.tar.bz2">nextcloud-15.0.2.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.2.zip">nextcloud-15.0.2.zip</a></br>
+    Check the file integrity with:</br>
+    MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.2.tar.bz2.md5">nextcloud-15.0.2.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.2.zip.md5">nextcloud-15.0.2.zip.md5</a></br>
+    SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.2.tar.bz2.sha256">nextcloud-15.0.2.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.2.zip.sha256">nextcloud-15.0.2.zip.sha256</a></br>
+    SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.2.tar.bz2.sha512">nextcloud-15.0.2.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.2.zip.sha512">nextcloud-15.0.2.zip.sha512</a></br>
+    PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.2.tar.bz2.asc">nextcloud-15.0.2.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.2.zip.asc">nextcloud-15.0.2.zip.asc</a></p>
+
+    <h4>Changes</h4>
+    <ul>
+        <li><a href="https://github.com/nextcloud/server/pull/13479">Don't log parameters on user creation in case of error/exception (server#13479)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13506">RemoveClassifiedEventActivity: check if calendar still exists (server#13506)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/196">Broker: add timezone to CANCEL messages (3rdparty#196)</a></li>
+    </ul>
+
     <h3 id="15-0-1">Version 15.0.1 <small>January 10 2019</small></h3>
     <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.1.tar.bz2">nextcloud-15.0.1.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.1.zip">nextcloud-15.0.1.zip</a></br>
     Check the file integrity with:</br>
@@ -291,6 +306,21 @@
     </ul>
 
     <a name="latest14"></a>
+
+    <h3 id="14-0-6">Version 14.0.6 <small>January 11 2019</small></h3>
+    <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.6.tar.bz2">nextcloud-14.0.6.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.6.zip">nextcloud-14.0.6.zip</a></br>
+    Check the file integrity with:</br>
+    MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.6.tar.bz2.md5">nextcloud-14.0.6.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.6.zip.md5">nextcloud-14.0.6.zip.md5</a></br>
+    SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.6.tar.bz2.sha256">nextcloud-14.0.6.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.6.zip.sha256">nextcloud-14.0.6.zip.sha256</a></br>
+    SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.6.tar.bz2.sha512">nextcloud-14.0.6.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.6.zip.sha512">nextcloud-14.0.6.zip.sha512</a></br>
+    PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.6.tar.bz2.asc">nextcloud-14.0.6.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.6.zip.asc">nextcloud-14.0.6.zip.asc</a></p>
+
+    <h4>Changes</h4>
+    <ul>
+        <li><a href="https://github.com/nextcloud/server/pull/13480">Don't log parameters on user creation in case of error/exception (server#13480)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13507">RemoveClassifiedEventActivity: check if calendar still exists (server#13507)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/197">Broker: add timezone to CANCEL messages (3rdparty#197)</a></li>
+    </ul>
 
     <h3 id="14-0-5">Version 14.0.5 <small>January 10 2019</small></h3>
     <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.5.tar.bz2">nextcloud-14.0.5.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.5.zip">nextcloud-14.0.5.zip</a></br>
@@ -558,6 +588,19 @@
     <p><a href="https://nextcloud.com/blog/nextcloud-14-now-available-with-video-verification-signaltelegram-2fa-support-improved-collaboration-and-gdpr-compliance/">Our blog with more details is here.</a></p>
 
     <a name="latest13"></a>
+
+    <h3 id="13-0-10">Version 13.0.10 <small>January 11 2019</small></h3>
+    <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.10.tar.bz2">nextcloud-13.0.10.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.10.zip">nextcloud-13.0.10.zip</a></br>
+    Check the file integrity with:</br>
+    MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.10.tar.bz2.md5">nextcloud-13.0.10.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.10.zip.md5">nextcloud-13.0.10.zip.md5</a></br>
+    SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.10.tar.bz2.sha256">nextcloud-13.0.10.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.10.zip.sha256">nextcloud-13.0.10.zip.sha256</a></br>
+    SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.10.tar.bz2.sha512">nextcloud-13.0.10.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.10.zip.sha512">nextcloud-13.0.10.zip.sha512</a></br>
+    PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.10.tar.bz2.asc">nextcloud-13.0.10.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.10.zip.asc">nextcloud-13.0.10.zip.asc</a></p>
+
+    <h4>Changes</h4>
+    <ul>
+        <li><a href="https://github.com/nextcloud/server/pull/13508">RemoveClassifiedEventActivity: check if calendar still exists (server#13508)</a></li>
+    </ul>
 
     <h3 id="13-0-9">Version 13.0.9 <small>January 10 2019</small></h3>
     <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.9.tar.bz2">nextcloud-13.0.9.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.9.zip">nextcloud-13.0.9.zip</a></br>
