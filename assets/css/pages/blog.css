@@ -2452,7 +2452,7 @@ section {
     /* images in various sizes */ }
     @media (min-width: 768px) {
       .section--content .container .row .content {
-        margin-top: -50vh;
+        margin-top: -70vh;
         padding-top: 20px;
         /* 					background: none; */
         border-top-right-radius: 10px;
