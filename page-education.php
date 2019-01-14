@@ -91,6 +91,24 @@ require(["require.config"], function() {
 </div>
 </section>
 
+
+<div class="separator"></div>
+<section class="section--customerdetail">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-6 revealOnScroll">
+                <a><img class="img-responsive" src="https://nextcloud.com/media/Bern_luftaufnahme.png" alt="in action"/></a>
+            </div>
+            <div class="col-md-6 revealOnScroll feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Capital of Switzerland provides Nextcloud to 35.000 students and teachers');?></p>
+                <blockquote><?php echo $l->t('the largest open source order ever in Switzerland!');?></blockquote>
+                <p class="alignright" style="margin-top: -40px"><?php echo $l->t('-- Matthias Stürmer, EPP city councillor');?></p>
+                <a href="https://nextcloud.com/blog/next-big-open-source-win-capital-of-switzerland-moves-schools-to-nextcloud//" class="button button--blue button--arrow button--large"><?php echo $l->t('Announcement blog');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <a name="eduedition"></a>
 <div class="separator"></div>
 <section class="section--eduedition">
