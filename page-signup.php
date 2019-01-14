@@ -111,7 +111,7 @@ $coreApps = ['files', 'calendar', 'contacts', 'spreed', 'mail', 'tasks', 'notes'
             <div class="text-center">
             <a href="<?php echo home_url('privacy') ?>" target="_blank" class="button button--blue button--arrow button--large"><?php echo $l->t('Our privacy policy'); ?></a>
             <p class="section--paragraph text-center"><?php echo $l->t('If there are any issues with your account, please note that we do NOT record any of your information on our side so we can not help you. Please contact the provider you signed up with.'); ?></p>
-            <p class="section--paragraph text-center"><?php echo $l->t('* free services are, of course, paid somewhere, by someone. Often with your data! Our providers all give a free 2-5GB storage shared account but offer larger storage and more options like a dedicated setup for a fee, which funds the free accounts. Consider paying for your account, it helps them provide this service!'); ?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('* free services are of course paid somewhere by someone. The listed Nextcloud providers all give a free account with 2 to 5 GB storage but offer larger storage and more options like a dedicated setup for a fee, which funds the free accounts. Consider paying for your account, it helps them provide this service!'); ?></p>
             </div>
         </div>
     </div>
