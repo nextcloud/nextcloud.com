@@ -52,7 +52,7 @@
 
 <div id="providers" class="row">
 </div>
-<p><strong><?php echo $l->t('If you offer Nextcloud Server account hosting, you can be <a class="hyperlink" href="/providers/apply">listed on this page</a>. If you want to report an abuse by one of the providers listed above, you can send us an email to abuse@nextcloud.com.');?></strong></p>
+<!-- <p><strong><?php echo $l->t('If you offer Nextcloud Server account hosting, you can be <a class="hyperlink" href="/providers/apply">listed on this page</a>. If you want to report an abuse by one of the providers listed above, you can send us an email to abuse@nextcloud.com.');?></strong></p> -->
 
 <script type="text/javascript">
 // 	$( "#hostingboth" ).prop( "checked", true );
