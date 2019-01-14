@@ -329,7 +329,7 @@
     <div class="container">
     <div class="col-md-6">
         <p class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('Extend your cloud');?></p>
-        <p class="section--paragraph revealOnScroll"><?php echo $l->t('You can extend the functionality of your Nextcloud with extra features from the Nextcloud app store. Among the more than 150 apps you can find features that enhance sharing, including:');?></p>
+        <p class="section--paragraph revealOnScroll"><?php echo $l->t('You can extend the functionality of your Nextcloud with extra features from the Nextcloud app store. Among the more than 200 apps you can find features that enhance sharing, including:');?></p>
         <p class="section--paragraph">
         <ul>
         <li class="revealOnScroll"><i class="fa-check fa"></i> <?php echo $l->t('Groupware apps like Calendar, Contacts, Mail, News, Notes, Bookmarks and Tasks');?></li>

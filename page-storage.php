@@ -159,7 +159,7 @@
     <div class="container">
     <div class="col-md-6">
         <p class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('Extend your cloud');?></p>
-        <p class="section--paragraph revealOnScroll"><?php echo $l->t('You can extend the functionality of your Nextcloud with extra features from the Nextcloud app store. Among the more than 150 apps you can find a variety of storage solutions including Sia storage support, an innovative decentralized, blockchain based file storage technology.');?></p>
+        <p class="section--paragraph revealOnScroll"><?php echo $l->t('You can extend the functionality of your Nextcloud with extra features from the Nextcloud app store. Among the more than 200 apps you can find a variety of storage solutions including Sia storage support, an innovative decentralized, blockchain based file storage technology.');?></p>
         <div class="text-center morebuttondiv">
 			<a href="https://apps.nextcloud.com" class="button button--large button--arrow revealOnScroll"><?php echo $l->t('Appstore');?> <i class="icon-arrow-circle-o-right icon"></i></a>
         </div>
