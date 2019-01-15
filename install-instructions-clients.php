@@ -84,7 +84,7 @@
 							<p><?php echo $l->t('Nextcloud is using WebDAV, so you can also try out any other client you want!');?></p>
 							<p><?php echo $l->t('Compatible third party clients include:');?></p>
 							<ul>
-								<li><a class="hyperlink" href="https://davdroid.bitfire.at/">DAVDroid</a> <?php echo $l->t('supports Nextcloud Calendar, Tasks and Contacts, syncing your agenda, tasks and addressbook (android only, open source)');?></li>
+								<li><a class="hyperlink" href="https://www.davx5.com">DAVx⁵</a> <?php echo $l->t('supports Nextcloud Calendar, Tasks and Contacts, syncing your agenda, tasks and addressbook (android only, open source)');?></li>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
