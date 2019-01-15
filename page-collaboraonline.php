@@ -104,6 +104,24 @@
 	</div>
 </section>
 
+<section class="section--customerdetail">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-8 revealOnScroll feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('An Enterprise solution that works at scale');?></p>
+                <blockquote><?php echo $l->t('The users had no problems with Collabora Online; installing it had only a few tickets in half a year, it was easy to provide this service ... it just works.');?></blockquote>
+                <p class="alignright" style="margin-top: -40px"><?php echo $l->t('-- Thomas Hildmann, TU Berlin');?></p>
+<!--                 <a href="https://nextcloud.com/blog/next-big-open-source-win-capital-of-switzerland-moves-schools-to-nextcloud//" class="button button--blue button--arrow button--large"><?php echo $l->t('Announcement blog');?></a> -->
+            </div>
+            <div class="col-md-4 revealOnScroll">
+                <div class="text-center">
+                    <img class="img-responsive" src="https://nextcloud.com/media/TUB-Hauptgebaeude070710.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="collabora-screenshots">
 	<div class="container">
         <h2 class="section--heading-1 revealOnScroll text-center"><?php echo $l->t('Well integrated');?></h2>
