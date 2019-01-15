@@ -36,12 +36,12 @@
 <h3>Logo Usage Requirements</h3>
 <p>Do not alter the logo in any way or overlap it with additional logos or images.</p>
 
-<p>The logo is light blue (#0082c9) with white text/image. It should not be used differently, especially not inverted. The name "Nextcloud" can be optionally left out though, we provide logos without the text.</p>
+<p>The logo is light blue (#0082c9) with white text/image. It must not be used differently, especially not inverted. The name "Nextcloud" can be optionally left out though, we provide logos without the text.</p>
 
 <p>The typeface of the logo (or similar ones) should not be used anywhere else. Instead use <a href="https://en.wikipedia.org/wiki/Open_Sans" target="_blank">Open Sans</a>, in light weight. Use semibold sparingly and only for selected emphasis.</p>
 
 <h3>Branding Guidelines</h3>
-<p>When referring to Nextcloud make sure that it is spelled correctly. Nextcloud is one word and should not be separated into two words.</p>
+<p>When referring to Nextcloud make sure that it is spelled correctly. Nextcloud is one word and must not be separated into two words.</p>
 
 <h3>Contributing to Nextcloud</h3>
 <p>We encourage everybody to contribute to Nextcloud and become part of the Nextcloud community.</p>
