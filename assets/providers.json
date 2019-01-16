@@ -745,26 +745,6 @@
          "imagename":"nextitlevel.png"
       },
     {
-         "title":"ETES GmbH",
-         "url":"https:\/\/www.etes.de\/produkte\/nextcloud\/",
-         "flags":[
-            "de",
-            "ch",
-            "at",
-            "fr",
-            "be",
-            "lx",
-            "pl",
-            "nl"
-         ],
-         "freeplans":false,
-         "supports":"both",
-         "specializes":[
-            "ETES offers Nextcloud and other services in their own datacenter in Germany (ISO 27001)"
-         ],
-         "imagename":"etes.png"
-      },
-    {
          "title":"The Open Host",
          "url":"https:\/\/theopenhost.com\/nextcloud-hosting",
          "flags":[
