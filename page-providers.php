@@ -18,9 +18,9 @@
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 <script src="<?php echo get_template_directory_uri(); ?>/node_modules/jquery/dist/jquery.min.js"></script>
 <div class="row">
-    <div class="col-md-6 col-md-offset-3 text-center">
-        <h1><?php echo $l->t('Nextcloud providers');?></h1>
-        <p><?php echo $l->t('Nextcloud is a private cloud solution you can host wherever you want. On your own hardware,');?> <a class="hyperlink" href="<?php echo home_url('devices') ?>"><?php echo $l->t('a device you bought</a> or at a provider!');?><p>
+    <div class="col-md-6 col-md-offset-3">
+        <h1 class="text-center"><?php echo $l->t('Nextcloud providers');?></h1>
+        <p class="text-center"><?php echo $l->t('Nextcloud is a private cloud solution you can host wherever you want. On your own hardware,');?> <a class="hyperlink" href="<?php echo home_url('devices') ?>"><?php echo $l->t('a device you bought</a> or at a provider!');?><p>
     </div>
 </div>
 <div class="row">
