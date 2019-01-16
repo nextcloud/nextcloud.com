@@ -75,7 +75,7 @@
 
 	<h2 class="section--paragraph__tittle"><?php echo $l->t('The Nextcloud migration tool');?></h2>
 	<p class="section--paragraph"><?php echo $l->t('The easiest way to migrate is using our migration tool. This tool supports ownCloud 8.2 to ownCloud 10, migrating to the appropriate Nextcloud release automatically.');?></p>
-
+    <p class="section--paragraph"><?php echo $l->t('Note that ownCloud 10.0.10 can run on PHP 7.2 while Nextcloud 12 works, at most, with PHP 7.1, complicating migration. On Ubuntu you can switch the PHP version to 7.1 via <a href="https://launchpad.net/~ondrej/+archive/ubuntu/php">this PPA.</a>');?></p>
 	<p class="section--paragraph"><?php echo $l->t('Here\'s how to use the migrator.');?></p>
 
 	<p class="section--paragraph"><?php echo $l->t('
