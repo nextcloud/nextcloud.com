@@ -95,7 +95,7 @@
 	<li>This permission may be rescinded at any time, in which case you will have to remove the Nextcloud marks from your web site within 24 hours.</li>
 </ul>
 <h3>Merchandise</h3>
-<p>You are welcome to make use of the Nextcloud Marks to produce merchandise such as t-shirts, hats, bags, jackets, sweatshirts, mugs, and desktop wallpapers and give them to your friends, family, community members, provided there is no commercial interest behind it. You are required to request permission if you want to commercially distribute articles using the Nextcloud Marks (see Contact Information below to request permission).</p>
+<p>You are welcome to make use of the Nextcloud Marks to produce merchandise such as t-shirts, hats, bags, jackets, sweatshirts, mugs, and desktop wallpapers and give them to your friends, family, community members, provided there is no commercial interest behind it. You are required to request permission if you want to commercially distribute articles using the Nextcloud Marks or distribute them for promotion of your own commercial services (see Contact Information below to request permission).</p>
 
 <h3>Domain Names</h3>
 <p>If you want to include all or part of an Nextcloud Mark in a domain name, you should seek our permission (see Contact Information below to request permission). People naturally associate domain names with organizations whose names sound similar. Almost any use of an Nextcloud Mark in a domain name is likely to confuse someone, thus running afoul the overarching requirement that any use of an Nextcloud Mark not be confusing. By "domain name" we mean to refer to toplevel domains and second-level domains, but not sub-domains.</p>
@@ -154,6 +154,8 @@
 	<li>Your use of the Nextcloud Marks does not create the impression that you provide Nextcloud support, services or products that are related to or can be mistaken for Nextcloud support, services or products as provided by Nextcloud GmbH.</li>
 </ul>
 <p>We reserve the right to deny allowing your use of our trademark for any reason, including but not limited to a determination that your usage creates confusion for our users, damages or mis-represents our brand, is a breach of any of the stipulations above or for any other reason, at any time.</p>
+
+<p>Online advertising is excempt from this permission, that is, you are not allowed to use keyword based online marketing campaigns like Google Adwords, Facebook ads and similar to advertise your Nextcloud services.</p>
 
 <h3>Business Names</h3>
 <p>You can not include an Nextcloud Mark in the name of your company, business or product.</p>
