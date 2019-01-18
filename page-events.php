@@ -56,7 +56,7 @@ require(["require.config"], function() {
 				<p class="section--paragraph">Nextcloud is participating in trade shows and conferences to present our community and technology to visitors.<br/>
 				Below is a list of tradeshows and conferences where Nextcloud is represented! If you have questions and would like to meet us at an event, check out this list and <a class="hyperlink" href="https://help.nextcloud.com/c/conference">let us know on the forums</a> you will be there.</p>
 
-                <button  class="table-button" data-toggle="collapse" data-target="#2018">Events in 2018</button>
+<button  class="table-button" data-toggle="collapse" data-target="#2019">Events in 2019</button>
                 <div id="2018" class="collapse in">
                 <br>
                 <table class="table table-striped">
@@ -64,6 +64,55 @@ require(["require.config"], function() {
 						<th>Event</th>
 						<th>Location</th>
 						<th>Date</th>
+					</tr>
+					<tr>
+						<td><a class="hyperlink" target="_blank" http://www.didacta-cologne.com/didacta/index-3.php">SCALE 15x</a></td>
+						<td>Pasadena, USA</td>
+						<td>March 7-10</td>
+					</tr> 
+					<tr>
+						<td><a class="hyperlink" target="_blank" http://www.didacta-cologne.com/didacta/index-3.php">Didacta</a></td>
+						<td>Cologne, Germany</td>
+						<td>February 19-23</td>
+					</tr> 
+<tr>
+						<td><a class="hyperlink" target="_blank" https://fosdem.org/2019/">FOSDEM</a></td>
+						<td>Brussels, Belgium</td>
+						<td>February 2-3</td>
+					</tr> 
+					<tr>
+						<td><a class="hyperlink" target="_blank" href="https://www.univention-summit.de/">Univention Summit</a></td>
+						<td>Bremen, Germany</td>
+						<td>January 31-February 1</td>
+					</tr> 
+					<tr>
+						<td><a class="hyperlink" target="_blank" href="https://cs3.infn.it/home.html">CS3 cloud services workshop</a></td>
+						<td>Rome, Italy</td>
+						<td>January 8-30</td>
+					</tr> 
+				</table>
+			</div>
+<br>
+            <p class="section--paragraph">Is there a conference, trade show or other event close by and you want Nextcloud to be there? Please <a class="hyperlink" href="https://help.nextcloud.com/c/conference">get in touch</a> and let us know, we will do our best to help making it happen!</p>
+<p class="section--paragraph">Are you presenting about Nextcloud or running a booth at an upcoming event that should be listed here? Let us know <a class="hyperlink" href="https://help.nextcloud.com/c/conference">on the forums</a>!</p>
+<button  class="table-button" data-toggle="collapse" data-target="#2018">Events in 2018</button>
+                <div id="2018" class="collapse">
+                <br>
+                <table class="table table-striped">
+					<tr>
+						<th>Event</th>
+						<th>Location</th>
+						<th>Date</th>
+					</tr>
+<tr>
+						<td><a class="hyperlink" target="_blank" href="https://events.ccc.de/congress/2018/wiki/index.php/Assembly:Nextcloud">Chaos Communication Congress</a></td>
+						<td>Leipzig, Germany</td>
+						<td>December 27-30</td>
+					</tr>
+<tr>
+						<td><a class="hyperlink" target="_blank" href="https://www.opensourcesummit.paris/">Paris Open Source Summit</a></td>
+						<td>Paris, France</td>
+						<td>December 5-6</td>
 					</tr>
 					<tr>
 						<td><a class="hyperlink" target="_blank" href="https://www.it-sa.de/">IT-Security Messe & Congress</a></td>
@@ -128,8 +177,6 @@ require(["require.config"], function() {
 				</table>
 			</div>
             <br>
-            <p class="section--paragraph">Is there a conference, trade show or other event close by and you want Nextcloud to be there? Please <a class="hyperlink" href="https://help.nextcloud.com/c/conference">get in touch</a> and let us know, we will do our best to help making it happen!</p>
-            <p class="section--paragraph">Are you presenting about Nextcloud or running a booth at an upcoming event that should be listed here? Let us know  <a class="hyperlink" href="https://help.nextcloud.com/c/conference">on the forums</a>!</p>
             <button class="table-button" data-toggle="collapse" data-target="#2017">Events in 2017</button>
             <div id="2017" class="collapse">
             <br>
@@ -141,7 +188,7 @@ require(["require.config"], function() {
                 </tr>
                 <tr>
                     <td><a class="hyperlink" target="_blank" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Nextcloud_End_to_End_Encryption">Chaos Communication Congress</a></td>
-                    <td>Leipzich, Germany</td>
+                    <td>Leipzig, Germany</td>
                     <td>December 26-29</td>
                 </tr>
                 <tr>
