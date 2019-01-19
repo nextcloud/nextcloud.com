@@ -567,20 +567,6 @@
          "imagename":"netways.png"
       },
     {
-         "title":"manitu GmbH",
-         "url":"https:\/\/www.manitu.de\/webhosting\/nextcloud-hosting",
-         "flags":[
-            "de",
-            "all"
-         ],
-         "freeplans":false,
-         "supports":"both",
-         "specializes":[
-            "German web hosting with strict data privacy. Powered by 100% green energy. First class customer service."
-         ],
-         "imagename":"manitu.png"
-      },
-    {
          "title":"Cloudron",
          "url":"https:\/\/cloudron.io\/store\/com.nextcloud.cloudronapp.html",
          "flags":[
