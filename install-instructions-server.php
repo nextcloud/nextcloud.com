@@ -132,7 +132,7 @@
                                 <div class="col-md-6">
                                     <h5><?php echo $l->t('Snap package');?></h5>
                                     <p><a class="hyperlink" href="https://canonical.com">Canonical</a><?php echo $l->t(' and the Nextcloud community maintain a Nextcloud Snap, including release channels and quick and easy deployment for easy home use.');?></p>
-                                    <p><a class="button button--blue" href="https://uappexplorer.com/snap/ubuntu/nextcloud" target="_blank"><?php echo $l->t('Get Snap package');?></a></p>
+                                    <p><a class="button button--blue" href="https://snapcraft.io/nextcloud" target="_blank"><?php echo $l->t('Get Snap package');?></a></p>
                                     <p><a class="hyperlink" href="https://github.com/nextcloud/nextcloud-snap" target="_blank"><?php echo $l->t('Find source here.');?></a></p>
                                 </div>
                             </div>
