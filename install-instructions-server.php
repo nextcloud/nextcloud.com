@@ -125,7 +125,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <h5><?php echo $l->t('Docker image');?></h5>
-                                    <p><?php echo $l->t('Several Nextcloud community members maintain a Docker image. It supports a wide range of architectures and releases, features Apache/FPM, NGINX, various databases and more.');?></p>
+                                    <p><?php echo $l->t('Several Nextcloud community members maintain a Docker image. It supports a wide range of architectures, releases, various webservers, databases and more.');?></p>
                                     <p><a class="button button--blue" href="https://hub.docker.com/_/nextcloud/" target="_blank"><?php echo $l->t('Get Docker image');?></a></p>
                                     <p><a class="hyperlink" href="https://github.com/nextcloud/docker" target="_blank"><?php echo $l->t('Find source here');?></a>.</p>
                                 </div>
