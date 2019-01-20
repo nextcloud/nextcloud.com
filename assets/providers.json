@@ -1415,5 +1415,18 @@
             "Store, sync and share without compromising your privacy! Online office with Collabora optional. Hosted on our own hardware in Amsterdam."
         ],
         "imagename":"thegoodcloud.png"
+      },
+    {
+        "title":"Digipime",
+        "url":"https:\/\/digipime.com",
+        "flags":[
+            "es"
+        ],
+        "freeplans":false,
+        "supports":"organization",
+        "specializes":[
+            "We offer secure installation, personalization and dedicated hosting for Nextcloud in EU. Our services are oriented to business productivity"
+        ],
+        "imagename":"nextcloud-digipime.png"
       }
 ]
