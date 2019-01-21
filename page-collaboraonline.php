@@ -267,6 +267,10 @@ ProxyPass   /lool/adminws wss://127.0.0.1:9980/lool/adminws
 # Download as, Fullscreen presentation and Image upload operations
 ProxyPass           /lool https://127.0.0.1:9980/lool
 ProxyPassReverse    /lool https://127.0.0.1:9980/lool
+
+# Endpoint with information about availability of various features
+ProxyPass           /hosting/capabilities https://127.0.0.1:9980/hosting/capabilities retry=0
+ProxyPassReverse    /hosting/capabilities https://127.0.0.1:9980/hosting/capabilitie
 &lt;/VirtualHost&gt;
 			</code></pre></p>
 			<a name="update"></a>
