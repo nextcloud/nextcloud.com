@@ -270,7 +270,7 @@ ProxyPassReverse    /lool https://127.0.0.1:9980/lool
 
 # Endpoint with information about availability of various features
 ProxyPass           /hosting/capabilities https://127.0.0.1:9980/hosting/capabilities retry=0
-ProxyPassReverse    /hosting/capabilities https://127.0.0.1:9980/hosting/capabilitie
+ProxyPassReverse    /hosting/capabilities https://127.0.0.1:9980/hosting/capabilities
 &lt;/VirtualHost&gt;
 			</code></pre></p>
 			<a name="update"></a>
