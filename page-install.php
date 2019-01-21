@@ -27,7 +27,7 @@
 		<p><?php echo $l->t('There are several ways to get your own Nextcloud for you and your data.');?></p>
         <p class="text-center"><a class="button button--blue button--large" href="#instructions-server"  ><?php echo $l->t('Download for server');?></a></p>
         <p class="text-center"><a class="button button--white" href="<?php echo home_url('signup'); ?>"><?php echo $l->t('Sign up with a provider');?></a></p>
-        <p class="text-center"><a class="hyperlink" href="<?php echo home_url('devices') ?>">Buy devices</a> &nbsp; &nbsp; <a class="hyperlink" href="<?php echo home_url('providers') ?>"><?php echo $l->t('Find a provider');?></a></p>
+        <p class="text-center"><a class="hyperlink" href="<?php echo home_url('devices') ?>"><?php echo $l->t('Buy devices');?></a> &nbsp; &nbsp; <a class="hyperlink" href="<?php echo home_url('providers') ?>"><?php echo $l->t('Find a provider');?></a></p>
 	</div>
 	<div class="col-md-4">
 		<div class="numbadge centre devicebadge">
