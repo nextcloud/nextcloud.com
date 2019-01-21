@@ -47,17 +47,17 @@ require(["require.config"], function() {
 				</div>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
 				<h2>Nextcloud Conference</h2>
-				<p class="section--paragraph">The most exciting event on the yearly calendar for Nextcloud is of course our very own Nextcloud Conference! Over 150 Nextcloud community members get together for a full week. During week days, we write and discuss code while on the weekend we have an exciting, educational and inspirational program with keynotes, lightning talks and workshops around private, self-hosted cloud technologies.</p>
-				<p class="section--paragraph">You can read a report of our last conference <a class="hyperlink" href="https://nextcloud.com/blog/significant-growth-at-nextcloud-conference-brought-150-customers-colleagues-and-friends-together/">in this blog</a> and if you'd like to join in 2018 - mark these dates in your calendar:</p>
-				<h3>Augustus 23-30 2018 at the TU Berlin, Germany</h3>
+				<p class="section--paragraph">The most exciting event on the yearly calendar for Nextcloud is of course our very own Nextcloud Conference! Over 200 Nextcloud community members get together for a full week. During week days, we write and discuss code while on the weekend we have an exciting, educational and inspirational program with keynotes, lightning talks and workshops around private, self-hosted cloud technologies.</p>
+				<p class="section--paragraph">You can read a report of our last conference <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-conference-2018-millions-of-nec-routers-nextcloud-14-and-simple-signup/">in this blog</a> and if you'd like to join in 2019 - mark these dates in your calendar:</p>
+				<h3>September 14-15 at the Mathematics building of the TU Berlin, Germany</h3>
 				<a href="<?php echo home_url('conf') ?>" class="button button--blue button--large button--arrow">Learn more about the Nextcloud Conference</a>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/booth.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
 				<h2>Conferences, tradeshows and other events</h2>
 				<p class="section--paragraph">Nextcloud is participating in trade shows and conferences to present our community and technology to visitors.<br/>
 				Below is a list of tradeshows and conferences where Nextcloud is represented! If you have questions and would like to meet us at an event, check out this list and <a class="hyperlink" href="https://help.nextcloud.com/c/conference">let us know on the forums</a> you will be there.</p>
 
-<button  class="table-button" data-toggle="collapse" data-target="#2019">Events in 2019</button>
-                <div id="2018" class="collapse in">
+                <button  class="table-button" data-toggle="collapse" data-target="#2019">Events in 2019</button>
+                <div id="2019" class="collapse in">
                 <br>
                 <table class="table table-striped">
 					<tr>
@@ -66,36 +66,46 @@ require(["require.config"], function() {
 						<th>Date</th>
 					</tr>
 					<tr>
-						<td><a class="hyperlink" target="_blank" http://www.didacta-cologne.com/didacta/index-3.php">SCALE 15x</a></td>
+						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/blog/the-contributor-week-is-over-time-to-plan-for-the-next-one/">Nextcloud Contributor Week</a></td>
+						<td>Stuttgart, Germany</td>
+						<td>March 10-15</td>
+					</tr>
+					<tr>
+						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/training">Nextcloud Enterprise Day</a></td>
+						<td>Stuttgart, Germany</td>
+						<td>March 12</td>
+					</tr>
+					<tr>
+						<td><a class="hyperlink" target="_blank" href="https://www.socallinuxexpo.org/scale/17x">SCALE 17x</a></td>
 						<td>Pasadena, USA</td>
 						<td>March 7-10</td>
-					</tr> 
+					</tr>
 					<tr>
-						<td><a class="hyperlink" target="_blank" http://www.didacta-cologne.com/didacta/index-3.php">Didacta</a></td>
+						<td><a class="hyperlink" target="_blank" href="http://www.didacta-cologne.com/didacta/index-3.php">Didacta</a></td>
 						<td>Cologne, Germany</td>
 						<td>February 19-23</td>
-					</tr> 
-<tr>
-						<td><a class="hyperlink" target="_blank" https://fosdem.org/2019/">FOSDEM</a></td>
+					</tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" href="https://fosdem.org/2019/">FOSDEM</a></td>
 						<td>Brussels, Belgium</td>
 						<td>February 2-3</td>
-					</tr> 
+					</tr>
 					<tr>
 						<td><a class="hyperlink" target="_blank" href="https://www.univention-summit.de/">Univention Summit</a></td>
 						<td>Bremen, Germany</td>
 						<td>January 31-February 1</td>
-					</tr> 
+					</tr>
 					<tr>
 						<td><a class="hyperlink" target="_blank" href="https://cs3.infn.it/home.html">CS3 cloud services workshop</a></td>
 						<td>Rome, Italy</td>
 						<td>January 8-30</td>
-					</tr> 
+					</tr>
 				</table>
 			</div>
-<br>
+            <br>
             <p class="section--paragraph">Is there a conference, trade show or other event close by and you want Nextcloud to be there? Please <a class="hyperlink" href="https://help.nextcloud.com/c/conference">get in touch</a> and let us know, we will do our best to help making it happen!</p>
-<p class="section--paragraph">Are you presenting about Nextcloud or running a booth at an upcoming event that should be listed here? Let us know <a class="hyperlink" href="https://help.nextcloud.com/c/conference">on the forums</a>!</p>
-<button  class="table-button" data-toggle="collapse" data-target="#2018">Events in 2018</button>
+            <p class="section--paragraph">Are you presenting about Nextcloud or running a booth at an upcoming event that should be listed here? Let us know <a class="hyperlink" href="https://help.nextcloud.com/c/conference">on the forums</a>!</p>
+            <button  class="table-button" data-toggle="collapse" data-target="#2018">Events in 2018</button>
                 <div id="2018" class="collapse">
                 <br>
                 <table class="table table-striped">
@@ -104,12 +114,12 @@ require(["require.config"], function() {
 						<th>Location</th>
 						<th>Date</th>
 					</tr>
-<tr>
+                    <tr>
 						<td><a class="hyperlink" target="_blank" href="https://events.ccc.de/congress/2018/wiki/index.php/Assembly:Nextcloud">Chaos Communication Congress</a></td>
 						<td>Leipzig, Germany</td>
 						<td>December 27-30</td>
 					</tr>
-<tr>
+                    <tr>
 						<td><a class="hyperlink" target="_blank" href="https://www.opensourcesummit.paris/">Paris Open Source Summit</a></td>
 						<td>Paris, France</td>
 						<td>December 5-6</td>
