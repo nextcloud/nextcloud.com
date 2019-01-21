@@ -2378,6 +2378,67 @@
 body {
   background-color: #f4f8fb; }
 
+.section--blogroll input {
+  background: white url(../../img/icons/search.png) no-repeat scroll 4px 6px;
+  margin: 20px 5px;
+  padding: 0 15px 0 25px;
+  height: 35px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: thin;
+  color: #757575; }
+.section--blogroll button {
+  margin: 20px 5px;
+  padding: 0 15px;
+  height: 35px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: thin;
+  color: #757575; }
+.section--blogroll .post {
+  box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+  transition: all .5s ease;
+  background: white;
+  border-radius: 10px 10px 0 0;
+  margin: 20px 0; }
+  .section--blogroll .post:hover {
+    box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+    transition: all .3s ease;
+    transform: translate3D(0, -1px, 0); }
+  .section--blogroll .post .post--image {
+    width: 100%;
+    height: 200px;
+    background-color: #C4E1F7;
+    border-radius: 10px 10px 0 0;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important; }
+  .section--blogroll .post .post--content {
+    padding: 5px 10px 10px 10px; }
+    .section--blogroll .post .post--content .post--content--title {
+      margin-top: 0px;
+      display: block;
+      font-size: 21px;
+      line-height: 1;
+      padding: 3px;
+      text-align: left; }
+      .section--blogroll .post .post--content .post--content--title :hover {
+        color: #337ab7;
+        text-decoration: underline solid #337ab7; }
+    .section--blogroll .post .post--content .post--content--metadata {
+      text-align: center;
+      margin: 0 auto;
+      font-size: 9px;
+      font-style: italic;
+      /* 				padding: 3px; */ }
+    .section--blogroll .post .post--content .post--content--excerpt {
+      font-size: 12px;
+      padding: 3px;
+      text-align: left;
+      font-style: normal; }
+
 .section--grid {
   margin-top: 30px; }
   .section--grid #post-grid-635 {
@@ -2426,14 +2487,6 @@ body {
   margin-bottom: 0px; }
   .section--newsletter a {
     margin: 50px; }
-
-.section--old-blogs article header h2 {
-  line-height: 1; }
-  .section--old-blogs article header h2 a {
-    font-size: 40px;
-    text-decoration: none; }
-.section--old-blogs article header .published {
-  font-style: italic; }
 
 footer {
   margin-top: 0px; }

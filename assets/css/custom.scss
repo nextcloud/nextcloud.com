@@ -143,6 +143,30 @@
 	}
 }
 
+.screen-reader-text {
+	display: none;
+}
+
+.nav-previous,.nav-next {
+	a {
+		color: #6c6c6c;
+		text-decoration: none;
+		font-weight: 500;
+		border-bottom: none;
+		transition: all 0.5s ease;
+		text-decoration: none;
+		.post-title {
+			color: #a2a2a2;
+		}
+
+		:hover.post-title {
+			text-decoration: none;
+			color: #2a2a36;
+			border-bottom: solid 1px;
+		}
+	}
+}
+
 h1 {
   margin-bottom: 10px;
   font-size: 60px;

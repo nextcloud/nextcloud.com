@@ -9659,6 +9659,23 @@ footer.page-footer {
     text-decoration: none;
     color: #2a2a36; }
 
+.screen-reader-text {
+  display: none; }
+
+.nav-previous a, .nav-next a {
+  color: #6c6c6c;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: none;
+  transition: all 0.5s ease;
+  text-decoration: none; }
+  .nav-previous a .post-title, .nav-next a .post-title {
+    color: #a2a2a2; }
+  .nav-previous a :hover.post-title, .nav-next a :hover.post-title {
+    text-decoration: none;
+    color: #2a2a36;
+    border-bottom: solid 1px; }
+
 h1 {
   margin-bottom: 10px;
   font-size: 60px;

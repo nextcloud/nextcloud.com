@@ -11,6 +11,7 @@
         </div>
     </div>
 </div>
+This page is the broken, old, contribook-based news page
 
 <section class="content">
 <div class="container">

@@ -1,3 +1,4 @@
+<!-- This is the blog list. -->
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blogroll.css" rel="stylesheet">
 <!--<script>
@@ -17,26 +18,42 @@
 		</div>
 	</div>
 </div>
-<section class="section--old-blogs">
+<section class="section--blogroll">
 <div class="container">
-<?php if (!have_posts()) : ?>
-  <div class="alert alert-warning">
-    <?php _e('Sorry, no results were found.', 'roots'); ?>
-  </div>
-  <?php get_search_form(); ?>
-<?php endif; ?>
-
-<?php while (have_posts()) : the_post(); ?>
-  <?php get_template_part('templates/content', get_post_format()); ?>
-<?php endwhile; ?>
-
-<?php if ($wp_query->max_num_pages > 1) : ?>
-  <nav class="post-nav">
-    <ul class="pager">
-      <li class="previous"><?php next_posts_link(__('&larr; Older posts', 'roots')); ?></li>
-      <li class="next"><?php previous_posts_link(__('Newer posts &rarr;', 'roots')); ?></li>
-    </ul>
-  </nav>
-<?php endif; ?>
+<div class="row">
+    <div class="text-center">
+        <?php get_search_form(); ?>
+    </div>
+</div>
+    <?php if (!have_posts()) : ?>
+        <div class="alert alert-warning">
+            <?php _e('Sorry, no results were found.', 'roots'); ?>
+        </div>
+    <?php endif; ?>
+<div class="row">
+    <?php $i = 1; ?>
+    <?php while (have_posts()) : the_post(); ?>
+        <?php if ($i % 3 == 0) { ?> <!-- for every three posts we have to put in a row... -->
+            <div class="row">
+                <div class="col-md-4">
+                    <?php get_template_part('templates/content', get_post_format()); ?>
+                </div>
+            </div>
+        <?php } else { ?> <!-- no row needed... -->
+            <div class="col-md-4">
+                <?php get_template_part('templates/content', get_post_format()); ?>
+            </div>
+        <?php }  ?>
+        <?php $i++; ?>
+    <?php endwhile; ?>
+</div>
+    <?php if ($wp_query->max_num_pages > 1) : ?>
+    <nav class="post-nav">
+        <ul class="pager">
+        <li class="previous"><?php next_posts_link(__('&larr; Older posts', 'roots')); ?></li>
+        <li class="next"><?php previous_posts_link(__('Newer posts &rarr;', 'roots')); ?></li>
+        </ul>
+    </nav>
+    <?php endif; ?>
 </div>
 </section>

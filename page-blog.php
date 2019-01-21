@@ -1,3 +1,4 @@
+<!-- This is the postgrid page -->
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blogroll.css?v=1" rel="stylesheet">
 <!--<script>
@@ -17,7 +18,6 @@
 		</div>
 	</div>
 </div>
-
 <section class="section--grid">
 <div class="container">
 <?php echo do_shortcode("[post_grid id='3635']"); ?>

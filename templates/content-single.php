@@ -35,15 +35,22 @@
         </div>
     </div>
 </div>
-
+<style>
+</style>
 </section>
 <section class="section--footer">
 <div class="container">
     <div class="row">
     <div class="col-md-10 col-md-offset-1">
-    <footer>
-      <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
-    </footer>
+<!--     <footer> -->
+<!--       <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?> -->
+        <?php the_post_navigation( array(
+                'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next post:') . '</span> ' .
+                    '<span class="post-title">%title</span>',
+                'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous post:', '' ) . '</span> ' .
+                    '<span class="post-title">%title</span>',
+            ) ); ?>
+<!--     </footer> -->
     <?php comments_template('/templates/comments.php'); ?>
     </div>
     </div>
