@@ -18,7 +18,7 @@
         <header>
             <h2 class="post--content--title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             <div class="post--content--metadata">
-                <?php get_template_part('templates/entry-meta'); ?> in <?php the_category( ', ' ); ?> by <?php the_author( ' ' ); ?>
+                <?php get_template_part('templates/entry-meta'); ?> in <?php the_category( ', ' ); ?> by <?php the_author_posts_link(); ?>
             </div>
         </header>
         <div class="post--content--excerpt">

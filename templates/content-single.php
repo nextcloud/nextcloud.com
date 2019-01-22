@@ -28,6 +28,8 @@
                     <a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode(get_permalink()); ?>">
                         <img class="blog-social" src="<?php echo get_template_directory_uri(); ?>/assets/img/social/googleplus.png"></img>
                     </a>
+                <br>
+                <small>posted in <?php the_category( ', ' ); ?> by <?php the_author_posts_link(); ?></small>
                 </h2>
         <div class="entry-content">
             <?php the_content(); ?>

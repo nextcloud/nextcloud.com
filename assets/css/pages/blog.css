@@ -2459,12 +2459,19 @@ section {
         border-top-left-radius: 10px;
         box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19); } }
     .section--content .container .row .content .blog-metadata {
+      font-size: 20px;
       padding-bottom: 20px;
-      margin-top: 0px; }
+      margin-top: 0px;
+      line-height: 1; }
+      .section--content .container .row .content .blog-metadata .published {
+        margin-right: 15px; }
       .section--content .container .row .content .blog-metadata img {
-        width: 20px !important; }
+        width: 20px !important;
+        padding-bottom: 3px; }
       .section--content .container .row .content .blog-metadata a {
         text-decoration: none; }
+      .section--content .container .row .content .blog-metadata small {
+        font-size: 12px; }
     .section--content .container .row .content h1 {
       margin-top: 120px;
       font-size: 50px;
