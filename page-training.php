@@ -277,7 +277,7 @@
             <p class="section--paragraph  revealOnScroll">Basic Linux knowledge is required. All tech talks are done in English and German. Workshops are English.</p>
          </div>
     </div>-->
-    <p class="section--paragraph text-center"><a href="https://eventyay.com/e/571509c9/" class="button button--blue button--arrow button--large">Register now!</a></p>
+    <p class="section--paragraph text-center"><a href="https://eventyay.com/e/d1196adb/" class="button button--blue button--arrow button--large">Register now!</a></p>
 </div>
 </section>
 
