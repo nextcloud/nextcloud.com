@@ -115,7 +115,7 @@
 				<p class="teamdescription">Matthias worked for nine years as a 3rd level IT Engineer and IT Administrator. Acting as a broker between the customer, the Sales and Engineering department, his main focus is to give our clients the best possible advice. Matthias is passionate about innovative technology, enabling clients to collaborate securely while retaining ease-of-use.</p>
 			</div>
 		</div>
-		<div class="col-md-4">
+<!--	<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mathias.jpg" />
 				<h2 class="teamname">Mathias Conradt</h2>
@@ -127,7 +127,7 @@
 				</div>
 				<p class="teamdescription">Mathias has 19 years entrepreneurial experience in software engineering and IT project management (Scrum, PRINCE2, ITIL), thereof 7 years in Hong Kong and China. Always focused on open source and free software, he previously worked with many other open source document and content management solutions for large customers such as Bayer, Vodafone, China Telecom, OTTO and many others.</p>
 			</div>
-		</div>
+		</div> -->
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/sascha.jpg" />
