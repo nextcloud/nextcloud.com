@@ -1,5 +1,5 @@
 <head>
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/404.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 
@@ -12,7 +12,7 @@
     </div>
 </div>
 
-<section class="content">
+<section class="section--404">
 <div class="container">
 
     <h2>Page Not Found</h2>

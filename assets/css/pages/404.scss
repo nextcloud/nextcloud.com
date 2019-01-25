@@ -1,0 +1,63 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+@import '../../fonts/fork-awesome/css/fork-awesome.min';
+
+.generic-background {
+    background: -webkit-gradient(linear, left top, left bottom, from($nextcloud-blue), color-stop(100%, #3e9ed8), to(#d8d8d8));
+    background: linear-gradient(to bottom, $nextcloud-blue, #3e9ed8 100%, #d8d8d8);
+    padding: 0;
+    border-radius: 0 !important;
+    margin-bottom: 0px;
+    height: 30vh;
+    min-height: 400px;
+    max-height: 600px;
+
+    .pattern {
+        width:100%;
+        height:100%;
+        opacity: 0.1;
+        background: url('../../img/headers/generic.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        @media (max-width: $break-big) {
+        }
+    }
+    @media (max-width: $break-big) {
+        min-height: 200px;
+        max-height: 400px;
+    }
+}
+.input-group {
+	input {
+		background: rgb(255, 255, 255) url(../../img/icons/search.png) no-repeat scroll 10px 12px;
+		margin: 25px 10px;
+		padding: 0 25px 0 45px;
+		height: 45px;
+		border-radius: 30px;
+		border-style: solid;
+		border-color: lightgray;
+		border-width: thin;
+		color: #757575;
+		width: 300px;
+	}
+	button {
+		margin: 20px 5px;
+		padding: 0 25px;
+		height: 45px;
+		border-radius: 30px;
+		border-style: solid;
+		border-color: lightgray;
+		border-width: thin;
+		color: #757575;
+		&:hover {
+			color: white;
+			background-color: $nextcloud-blue;;
+		}
+	}
+}
+
+
+footer {
+	margin-top: 200px;
+}

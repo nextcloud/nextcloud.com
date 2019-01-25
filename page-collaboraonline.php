@@ -91,7 +91,7 @@
 
 		<div class="featurerow">
 			<div class="row">
-				<div class="col-md-6 revealOnScroll image--feature new-img">
+				<div class="col-md-6 revealOnScroll image--floated image--feature new-img">
 					<img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/Collabora_Online_-_versions_integration.png" alt="in action" />
 				</div>
 				<div class="col-md-6 revealOnScroll featureblock">
