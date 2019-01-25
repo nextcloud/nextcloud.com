@@ -15,7 +15,7 @@
 <section class="content">
 <div class="container">
     <h2>Current Release Information<br/><small> Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></small></h2>
-    <a class="button button--large button--blue button--arrow" target="_blank" href="https://nextcloud.com/blog/nextcloud-14-now-available-with-video-verification-signaltelegram-2fa-support-improved-collaboration-and-gdpr-compliance/">Announcement blog</a>
+    <a class="button button--large button--blue button--arrow" target="_blank" href="https://nextcloud.com/blog/nextcloud-15-goes-social-enforces-2fa-and-gives-you-a-new-generation-real-time-document-editing/">Announcement blog</a>
     <a href="https://cloud.nextcloud.com/s/ZRmqqsd59rRPJoL" class="button button--large button--blue button--arrow">Press release and background</a>
     <h2>Press releases</h2>
     <ul>
