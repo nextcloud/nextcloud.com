@@ -11,7 +11,7 @@
 </script>
 </head>
 <section class="section--blog-header">
-<div class="blog-background" style="background:url('<?php echo bloginfo('template_directory').'/assets/img/headers/dots.png'; ?>') no-repeat; background-position:center; background-size:cover; background-color:#0082c9;">
+<div class="blog-background">
 </div>
 <section class="section--content">
 <div class="container">
