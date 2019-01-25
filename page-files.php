@@ -408,7 +408,7 @@
 <section class="section--fulltextsearch">
 	<div class="container">
         <div class="row">
-            <div class="col-md-6 revealOnScroll image--feature">
+            <div class="col-md-6 revealOnScroll image--floated image--feature">
                 <a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/fulltextsearch.png"/></a>
             </div>
                 <p class="section--paragraph__tittle"><?php echo $l->t('Powerful search');?></p>

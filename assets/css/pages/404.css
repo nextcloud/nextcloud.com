@@ -2366,19 +2366,28 @@
   clip: auto; }
 
 /*# sourceMappingURL=fork-awesome.min.css.map */
-.blogroll-background {
-  background: url("../../img/headers/background-transparent.png") no-repeat;
-  background-color: #0082c9;
-  background-position: center;
-  background-size: cover;
-  height: 40vh;
-  min-height: 300px;
+.generic-background {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0082c9), color-stop(100%, #3e9ed8), to(#d8d8d8));
+  background: linear-gradient(to bottom, #0082c9, #3e9ed8 100%, #d8d8d8);
+  padding: 0;
+  border-radius: 0 !important;
+  margin-bottom: 0px;
+  height: 30vh;
+  min-height: 400px;
   max-height: 600px; }
+  .generic-background .pattern {
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background: url("../../img/headers/generic.png") no-repeat;
+    background-size: cover;
+    background-position: center; }
+  @media (max-width: 991px) {
+    .generic-background {
+      min-height: 200px;
+      max-height: 400px; } }
 
-body {
-  background-color: #f4f8fb; }
-
-.section--blogroll input {
+.input-group input {
   background: white url(../../img/icons/search.png) no-repeat scroll 10px 12px;
   margin: 25px 10px;
   padding: 0 25px 0 45px;
@@ -2389,7 +2398,7 @@ body {
   border-width: thin;
   color: #757575;
   width: 300px; }
-.section--blogroll button {
+.input-group button {
   margin: 20px 5px;
   padding: 0 25px;
   height: 45px;
@@ -2398,101 +2407,11 @@ body {
   border-color: lightgray;
   border-width: thin;
   color: #757575; }
-  .section--blogroll button:hover {
+  .input-group button:hover {
     color: white;
     background-color: #0082c9; }
-.section--blogroll .post {
-  box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
-  transition: all .5s ease;
-  background: white;
-  border-radius: 10px 10px 0 0;
-  margin: 20px 0; }
-  .section--blogroll .post:hover {
-    box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
-    transition: all .3s ease;
-    transform: translate3D(0, -1px, 0); }
-  .section--blogroll .post .post--image {
-    width: 100%;
-    height: 200px;
-    background-color: #C4E1F7;
-    border-radius: 10px 10px 0 0;
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important; }
-  .section--blogroll .post .post--content {
-    padding: 5px 10px 10px 10px; }
-    .section--blogroll .post .post--content .post--content--title {
-      margin-top: 0px;
-      display: block;
-      font-size: 21px;
-      line-height: 1;
-      padding: 3px;
-      text-align: left; }
-      .section--blogroll .post .post--content .post--content--title :hover {
-        color: #337ab7;
-        text-decoration: underline solid #337ab7; }
-    .section--blogroll .post .post--content .post--content--metadata {
-      text-align: center;
-      margin: 0 auto;
-      font-size: 9px;
-      font-style: italic;
-      /* 				padding: 3px; */ }
-    .section--blogroll .post .post--content .post--content--excerpt {
-      font-size: 12px;
-      padding: 3px;
-      text-align: left;
-      font-style: normal; }
-
-.section--grid {
-  margin-top: 30px; }
-  .section--grid #post-grid-635 {
-    background-color: #f4f8fb !important; }
-  .section--grid .post-grid .grid-nav-top .nav-search .search {
-    min-width: 300px;
-    height: 40px;
-    border-radius: 40px;
-    border-style: solid;
-    border-color: lightgray;
-    border-width: thin;
-    padding: 8px 8px 8px 30px;
-    /*         margin-top: 15px; */
-    color: #757575;
-    width: 50%; }
-  .section--grid .item {
-    border-radius: 5px;
-    box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
-    transition: all .5s ease; }
-  .section--grid .item:hover {
-    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
-    transition: all .3s ease;
-    transform: translate3D(0, -1px, 0); }
-  .section--grid .post-grid .grid-items {
-    padding-bottom: 30px; }
-    .section--grid .post-grid .grid-items .layer-media img {
-      border-radius: 0;
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
-      box-shadow: none;
-      object-fit: cover;
-      position: relative;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 300px;
-      height: 200px; }
-    @media (max-width: 768px) {
-      .section--grid .post-grid .grid-items .layer-media img {
-        width: 600px; } }
-  .section--grid .skin.flat .layer-content {
-    text-align: left padding 5px 10px; }
-  .section--grid .post-grid .pagination.lite .page-numbers {
-    color: #666; }
-
-.section--newsletter {
-  margin-bottom: 0px; }
-  .section--newsletter a {
-    margin: 50px; }
 
 footer {
-  margin-top: 0px; }
+  margin-top: 200px; }
 
-/*# sourceMappingURL=blogroll.css.map */
+/*# sourceMappingURL=404.css.map */

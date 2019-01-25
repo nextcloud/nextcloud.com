@@ -41,6 +41,7 @@ $l = new L10N('footer');
         <div class="col-sm-3">
             <h1  class="revealOnScroll"><?php echo($l->t('Resources')) ?></h1>
             <ul class="revealOnScroll">
+                <li><a href="<?php echo home_url('search') ?>"><?php echo $l->t('Search our website') ?></a></li>
                 <li><a href="<?php echo home_url('install') ?>"><?php echo $l->t('Download') ?></a></li>
                 <li><a href="https://apps.nextcloud.com"><?php echo $l->t('App Store') ?></a></li>
                 <li><a href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Admin manual') ?></a></li>
