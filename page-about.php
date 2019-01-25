@@ -28,6 +28,7 @@ require(["require.config"], function() {
             <div class="col-md-8 col-md-offset-2">
                 <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud offers industry-leading on-premises file sync and online collaboration technology. Our expertise is in combining the convenience and ease of use of consumer-grade solutions like Dropbox and Google Drive with the security, privacy and control business needs.');?></p>
                 <p class="section--paragraph text-center"><?php echo $l->t('Our self-hosted solutions ensure you know where data is, who has access, and that even meta-data does not leak.');?></p>
+
             </div>
         </div>
     </div>
@@ -128,7 +129,7 @@ require(["require.config"], function() {
 <div class="container">
     <div class="row">
 		<h2><?php echo $l->t('Media coverage');?></h2>
-		<p class="section--paragraph"><?php echo $l->t('We keep track of some of the mentions of Nextcloud in the press.');?></p>
+		<p class="section--paragraph"><?php echo $l->t('We keep track of some of the mentions of Nextcloud in the press.');?> Find our Press center <a href="<?php echo home_url('press') ?>" class="hyperlink">here.</a></p>
         <div class="row newsrow">
             <div class="col-md-4">
 				<a class="hyperlink" href="https://windowsreport.com/free-cloud-software-windows/" target="_blank" title="Windowsreport on Nextcloud and other solutions">
