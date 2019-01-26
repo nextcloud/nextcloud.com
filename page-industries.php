@@ -17,7 +17,7 @@ require(["require.config"], function() {
         <div class="container">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Focus on productivity');?></h1>
-				<h2><?php echo $l->t('No matter your business, Nextcloud has a solution for you');?></p>
+				<h2><?php echo $l->t('Nextcloud has a solution for every business, attuned to your needs');?></p>
 			</div>
 		</div>
 	</div>
@@ -35,3 +35,15 @@ require(["require.config"], function() {
 </section>
 
 <?php require get_template_directory().'/verticals.php';?>
+
+<section class="section--more">
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Can not find what you need?');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Every organization is unique, with different needs and challenges. We are more than happy to help you find the perfect solution for you.');?></p>
+            <a href="<?php echo home_url('buy') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Contact us now');?></a>
+		</div>
+	</div>
+</div>
+</section>
