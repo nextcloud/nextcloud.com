@@ -2595,11 +2595,21 @@ section {
       .section--content .container .row .content .size-medium img {
         padding: 5px 5px 5px 5px;
         box-shadow: none !important; }
-    .section--content .container .row .content .size-thumbnail {
+    .section--content .container .row .content .size-small {
       width: auto;
       height: auto;
       max-width: 200px;
       max-height: 200px;
+      box-shadow: 0 0 2px 1px #EEE;
+      padding: 5px 5px 5px 5px; }
+      .section--content .container .row .content .size-small img {
+        padding: 5px 5px 5px 5px;
+        box-shadow: none !important; }
+    .section--content .container .row .content .size-thumbnail {
+      width: auto;
+      height: auto;
+      max-width: 100px;
+      max-height: 100px;
       box-shadow: 0 0 2px 1px #EEE;
       padding: 5px 5px 5px 5px; }
       .section--content .container .row .content .size-thumbnail img {

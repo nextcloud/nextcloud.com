@@ -279,11 +279,23 @@ section {
 						box-shadow: none !important;
 					}
 				}
-				.size-thumbnail {
+				.size-small {
 					width: auto;
 					height: auto;
 					max-width: 200px;
 					max-height: 200px;
+					box-shadow: 0 0 2px 1px #EEE;
+					padding: 5px 5px 5px 5px;
+					img {
+						padding: 5px 5px 5px 5px;
+						box-shadow: none !important;
+					}
+				}
+				.size-thumbnail {
+					width: auto;
+					height: auto;
+					max-width: 100px;
+					max-height: 100px;
 					box-shadow: 0 0 2px 1px #EEE;
 					padding: 5px 5px 5px 5px;
 					img {
