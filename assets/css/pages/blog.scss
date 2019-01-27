@@ -44,6 +44,17 @@ section {
 .section--blog-header {
 }
 
+/*  This makes all links look more like on the rest of our website, even though it can also cause issues occasionally...  */
+a {
+	color: #a2a2a2;
+	font-weight: 500;
+	transition: all 0.5s ease;
+	:hover {
+		text-decoration: none;
+		color: #2a2a36;
+	}
+}
+
 .section--content {
 	.container {
 		.row {
@@ -94,6 +105,11 @@ section {
 				margin-top: -5px;
 				padding-bottom: 30px;
 
+				blockquote {
+					a {
+						color: #555;
+					}
+				}
 				.blog-metadata {
 					.published {
 						margin-right: 15px;
