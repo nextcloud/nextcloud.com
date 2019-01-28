@@ -15,7 +15,7 @@
 	<div class="background conf-background">
 		<div class="container">
 			<div class="col-md-6 topheader">
-				<h1>Nextcloud Conference 2018</h1>
+				<h1>Nextcloud Conference 2019</h1>
 				<h2  class="revealOnScroll">A week of collaboration, coding and fun!</h2>
 			</div>
 		</div>
@@ -27,10 +27,10 @@
 		<div class="col-sm-8 col-sm-offset-2">
 			<img class="conf-img revealOnScroll" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg" alt="logo"/>
 <!-- 			<h2 class="revealOnScroll"></h2> -->
-			<p class="section--paragraph__tittle">August 23-30, Technical University Berlin</p>
+			<p class="section--paragraph__tittle">September 14-15, Technical University Berlin</p>
 			<p class="section--paragraph">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
 			<!--<p class="section--paragraph"><a href="https://eventyay.com/e/77d26f89/" class="button button--arrow button--large button--blue">Register for free</a> <a href="https://nextcloud.com/livestream" class="button button--arrow button--large button--blue">Live stream <i class="icon-arrow-circle-o-right icon"></i></a> <a href="https://eventyay.com/e/77d26f89/cfs/" class="button button--arrow button--large button--blue">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p>-->
-            <p class="section--paragraph">The conference is over, <a href="https://nextcloud.com/blog/nextcloud-conference-2018-millions-of-nec-routers-nextcloud-14-and-simple-signup/">read our report!</a><br/>Stay tuned for the dates for 2019!</p>
+            <p class="section--paragraph">The 2018 conference is over, <a href="https://nextcloud.com/blog/nextcloud-conference-2018-millions-of-nec-routers-nextcloud-14-and-simple-signup/">read our report!</a><br/>Save the date for 2019!</p>
 		</div>
 	</div>
 </section>
@@ -45,37 +45,37 @@
             <table class="table">
             <tbody>
             <tr>
-            <th scope="row">Thursday<br> August 23</th>
-            <th scope="row">Friday<br> August 24</th>
-            <th scope="row">Saturday<br> August 25</th>
-            <th scope="row">Sunday<br> August 26</th>
-            <th scope="row">Monday<br> August 27</th>
-            <th scope="row">Tuesday<br> August 28</th>
-            <th scope="row">Wednesday<br> August 29</th>
-            <th scope="row">Thursday<br> August 30</th>
+            <th scope="row">Friday<br> September 13</th>
+            <th scope="row">Saturday<br> September 14</th>
+            <th scope="row">Sunday<br> September 15</th>
+            <th scope="row">Monday<br> September 16</th>
+            <th scope="row">Tuesday<br> September 17</th>
+            <th scope="row">Wednesday<br> September 18</th>
+            <th scope="row">Thursday<br> September 19</th>
+            <th scope="row">Friday<br> September 20</th>
             </tr>
             <tr>
             <td>Hackweek</td>
+            <td class="left">10:00 - <strong>Keynote</strong><br>
+            11:00 - <strong>Talks</strong><br>
+            13:00 - <strong>lunch</strong><br>
+            14:00 - <strong>Keynote</strong><br>
+            15:00 - <strong>workshops & lightning talks</strong></td>
+            <td class="left">10:00 - <strong>Keynote</strong><br>
+            11:00 - <strong>Talks</strong><br>
+            13:00 - <strong>lunch</strong><br>
+            14:00 - <strong>Keynote</strong><br>
+            15:00 - <strong>workshops & lightning talks</strong></td>
+            <td>Hackweek<!--, <strong><a href="<?php echo home_url('training') ?>">Enterprise Day</a></strong>--></td>
             <td>Hackweek</td>
-            <td class="left">10:00 - <strong>Keynote Frank Karlitschek</strong><br>
-            11:00 - <strong>lightning talks</strong><br>
-            13:00 - <strong>lunch</strong><br>
-            14:00 - <strong>Keynote Linus Neumann</strong><br>
-            15:00 - <strong>workshops</strong></td>
-            <td class="left">10:00 - <strong>Keynote Hans Erasmus</strong><br>
-            11:00 - <strong>lightning talks</strong><br>
-            13:00 - <strong>lunch</strong><br>
-            14:00 - <strong>Keynote RGSOC</strong><br>
-            15:00 - <strong>workshops</strong></td>
-            <td>Hackweek, <strong><a href="<?php echo home_url('training') ?>">Enterprise Day</a></strong></td>
             <td>Hackweek</td>
             <td>Hackweek</td>
             <td>Hackweek</td>
             </tr></tbody>
             </table>
             <div class="row text-center">
-            <a class="button button--large button--blue button--arrow" href="https://nextcloud.com/schedule/schedule.html">View the full schedule here</a>
-            <a class="button button--large button--blue button--arrow" href="https://nextcloud.com/schedule/speakers.html">See the speakers</a>
+<!--             <a class="button button--large button--blue button--arrow" href="https://nextcloud.com/schedule/schedule.html">View the full schedule here</a> -->
+<!--             <a class="button button--large button--blue button--arrow" href="https://nextcloud.com/schedule/speakers.html">See the speakers</a> -->
             </div>
         </div>
         </div>
@@ -106,22 +106,22 @@
 				<li>Translation &amp; Documentation</li>
 			</ul>
 <!-- 			<p class="section--paragraph revealOnScroll">People start coming in around 9am and the last usually leave around 9pm.</p> -->
-			<p class="section--paragraph revealOnScroll">Read our <a class="hyperlink" href="https://nextcloud.com/blog/significant-growth-at-nextcloud-conference-brought-150-customers-colleagues-and-friends-together/" target="_blank">blog on the Nextcloud Conference 2017</a> to get a feeling of the event.</p>
+			<p class="section--paragraph revealOnScroll">Read our <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-conference-2018-millions-of-nec-routers-nextcloud-14-and-simple-signup/" target="_blank">blog on the Nextcloud Conference 2018</a> to get a feeling of the event.</p>
 		</div>
 		<div class="col-sm-5 col-sm-offset-2">
 			<div class="icon revealOnScroll">
 			<i class="fa fa-comments-o"></i>
 			<h1>Talks &amp; Workshops</h1>
 			</div>
-			<p class="section--paragraph revealOnScroll">In the weekend of August 25 and 26 we have a program with talks and workshops to provide a chance to learn and improve coding skills on and around Nextcloud. For example:
+			<p class="section--paragraph revealOnScroll">In the weekend of September 14 and 15 we have a program with talks and workshops to provide a chance to learn and improve coding skills on and around Nextcloud. For example:
 			<ul class="revealOnScroll">
 				<li>Write your first nextcloud app</li>
 				<li>Intro to the Android app dev process, why you should join the design team and how we do performance testing</li>
 				<li>Status updates on the Calendar,  Theming and iOS apps</li>
 			</ul></p>
 <!-- 			<p class="section--paragraph revealOnScroll">Stay tuned for more information! We'll open registration later this year and expect our call for papers early 2018.</p> -->
-			<p class="section--paragraph revealOnScroll">On Monday the 27th we have a <a class="hyperlink" href="<?php echo home_url('training') ?>">special Enterprise day with a focus on enterprise and large scale Nextcloud usage.</a></p>
-			<p class="section--paragraph revealOnScroll">Check out <a class="hyperlink" href="http://sched.eventyay.com/NextcloudConference2018/tracks.html">the full program</a>!</p>
+<!-- 			<p class="section--paragraph revealOnScroll">On Monday the 27th we have a <a class="hyperlink" href="<?php echo home_url('training') ?>">special Enterprise day with a focus on enterprise and large scale Nextcloud usage.</a></p> -->
+<!-- 			<p class="section--paragraph revealOnScroll">Check out <a class="hyperlink" href="http://sched.eventyay.com/NextcloudConference2018/tracks.html">the full program</a>!</p> -->
 			<p>The talks will be live-streamed, stay tuned for more information!</p>
 <!-- 			<p class="section--paragraph revealOnScroll">Submit your session ideas in our <a class="hyperlink" href="https://eventyay.com/e/77d26f89/cfs/">call for papers</a> now!</p> -->
 <!--             <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p> -->
@@ -160,7 +160,8 @@
 			<h2 class="section--heading-1 revealOnScroll text-center">Travel support</h2>
 				<p class="text-center">We want to help everybody attend and participate in the Nextcloud conference! To support contributors who might not otherwise attend due to financial limitations, we provide up to 80% of flight and hotel cost reimbursement.</p>
 				<div class="text-center">
-					<a href="https://nextcloud.com/blog/nextcloud-conference-2018-contributor-travel-support-program/" class="button button--large button--arrow">Learn more</a>
+<!-- 					<a href="https://nextcloud.com/blog/nextcloud-conference-2018-contributor-travel-support-program/" class="button button--large button--arrow">Learn more</a> -->
+                <p class="text-center">Stay tuned, information is coming!</p>
 				</div>
 			</div>
 		</div>
@@ -170,9 +171,9 @@
 <section class="section--enterprise">
 	<div class="container-fluid">
 			<div class="container">
-			<h2 class="section--heading-1 revealOnScroll">For enterprise</h2>
-			<p class="section--paragraph revealOnScroll">Join our Enterprise training day Monday August 27.<br/>Book now, before July 15 and get 50% off!</p>
-			<p class="section--paragraph revealOnScroll"><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Learn more and book</a></p>
+<!-- 			<h2 class="section--heading-1 revealOnScroll">For enterprise</h2> -->
+<!-- 			<p class="section--paragraph revealOnScroll">Join our Enterprise training day Monday August 27.<br/>Book now, before July 15 and get 50% off!</p> -->
+<!-- 			<p class="section--paragraph revealOnScroll"><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Learn more and book</a></p> -->
 <!-- 			<p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">See the Friday Focus program in our blog!</a></p> -->
 <!-- 			<p class="section--paragraph revealOnScroll"><a class="button button--blue button--arrow button--large revealOnScroll" href="coming" role="button">Know all the features</a></p> -->
 			</div>
@@ -194,7 +195,8 @@
     <div class="row revealOnScroll">
         <div class="col-md-8 col-md-offset-2">
             <p class="section--paragraph revealOnScroll text-center">The event is free and provides catered lunch. We will provide up to 80% support of travel & accomodation costs during the event to people who have contributed to Nextcloud in one way or another. For instance, you can <a class="hyperlink" href="https://github.com/nextcloud/server/labels/good%20first%20issue">solve a good first issue</a>, <a class="hyperlink" href="https://nextcloud.com/design/">work on the design</a>, <a class="hyperlink" href="https://www.meetup.com/topics/nextcloud/">organize a local Nextcloud meetup</a>, <a class="hyperlink" href="https://nextcloud.com/contribute/">or contribute in other ways</a>.</p>
-            <p class="text-center"><a href="mailto:events@nextcloud.com?subject=%5BDiversity%20ticket%5D%20YOUR%20NAME&body=Link%20to%20your%20contribution" class="button button--arrow button--large button--blue text-center">Apply for support</a></p>
+            <p class="text-center">Stay tuned, information is coming!</p>
+<!--             <p class="text-center"><a href="mailto:events@nextcloud.com?subject=%5BDiversity%20ticket%5D%20YOUR%20NAME&body=Link%20to%20your%20contribution" class="button button--arrow button--large button--blue text-center">Apply for support</a></p> -->
             </div>
         </div>
     </div>
@@ -207,10 +209,10 @@
         <div class="col-md-8 col-md-offset-2">
             <h2  class="revealOnScroll">Partners!</h2>
             <p class="section--paragraph revealOnScroll">The event is made possible thanks to the generous donation of the location by the <a class="hyperlink" href="http://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and the financial and practical support of <a class="hyperlink" href="https://nextcloud.com">Nextcloud GmbH</a>.</p>
-            <p class="section--paragraph revealOnScroll">TUXEDO Computers contributes a number of loan laptops for workshop or hackweek attendees who need a device to work with but forgot their own. Media partners like Linux Magazine and Admin Magazine will cover the Nextcloud Conference! Our dear friends at openSUSE sponsored our party and had a booth at the event.</p>
+<!--             <p class="section--paragraph revealOnScroll">TUXEDO Computers contributes a number of loan laptops for workshop or hackweek attendees who need a device to work with but forgot their own. Media partners like Linux Magazine and Admin Magazine will cover the Nextcloud Conference! Our dear friends at openSUSE sponsored our party and had a booth at the event.</p> -->
         </div>
     </div>
-    <div class="row revealOnScroll">
+    <!--<div class="row revealOnScroll">
         <div class="col-md-4">
             <p class="section--paragraph revealOnScroll text-center"><a href="http://www.tu-berlin.de/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/tub-logo.png" alt="TUBerlin logo" class="aligncenter img-responsive" /></a></p>
         </div>
@@ -226,7 +228,7 @@
         <div class="col-md-4">
             <p class="section--paragraph revealOnScroll text-center"><a href="http://www.linux-magazine.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/LinuxMagazine.png" alt="LinuxMagazin logo" class="aligncenter img-responsive" /></a></p>
         </div>
-    </div>
+    </div>-->
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
         <p class="section--paragraph revealOnScroll">Contact us if you'd also like to contribute as partner!</p>
