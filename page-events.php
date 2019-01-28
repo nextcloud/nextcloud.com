@@ -1,15 +1,15 @@
 <head>
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/events.css">
-</head>
 <script>
 require(["require.config"], function() {
-	require(["bootstrap"])
+	require(["pages/scroll"])
 });
 </script>
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/events-small.jpg">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/events-small.jpg">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/events-small.jpg">
 <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/events-small.jpg">
+</head>
 <div class="background events-background">
 	<div class="container">
 		<div class="row">
@@ -56,7 +56,7 @@ require(["require.config"], function() {
 				<p class="section--paragraph">Nextcloud is participating in trade shows and conferences to present our community and technology to visitors.<br/>
 				Below is a list of tradeshows and conferences where Nextcloud is represented! If you have questions and would like to meet us at an event, check out this list and <a class="hyperlink" href="https://help.nextcloud.com/c/conference">let us know on the forums</a> you will be there.</p>
 
-                <button  class="table-button" data-toggle="collapse" data-target="#2019">Events in 2019</button>
+				<button  class="table-button" data-toggle="collapse" data-target="#2019">Events in 2019</button>
                 <div id="2019" class="collapse in">
                 <br>
                 <table class="table table-striped">
@@ -312,10 +312,10 @@ require(["require.config"], function() {
                     <td>February 4-5</td>
                 </tr>
             </table>
-                <a name="ts" id="ts"></a>
-            <h2>Travel support</h2>
-            <p class="section--paragraph">For the Conference, the Contributor Week and some events where we can use the help of some volunteers, we offer travel support. With this program, we cover 80% of your travel and hotel costs for a conference, and ask you to volunteer at the event. Please note that we can only offer travel support to a limited amount of our community members, so keep in mind that if we help cover your costs, the costs of another community member who may need it more than you can't be covered - only request travel support if you need it! If you want travel support, drop us an email at <a href="mailto:events@nextcloud.com">events@nextcloud.com</a>, introduce yourself and give us an estimation of your costs.</p>                
             </div>
+            <a name="ts" id="ts"></a>
+            <h2>Travel support</h2>
+            <p class="section--paragraph">For the Conference, the Contributor Week and some events where we can use the help of some volunteers, we offer travel support. With this program, we cover 80% of your travel and hotel costs for a conference, and ask you to volunteer at the event. Please note that we can only offer travel support to a limited amount of our community members, so keep in mind that if we help cover your costs, the costs of another community member who may need it more than you can't be covered - only request travel support if you need it! If you want travel support, drop us an email at <a href="mailto:events@nextcloud.com">events@nextcloud.com</a>, introduce yourself and give us an estimation of your costs.</p>
 		</div>
 	</div>
 </section>
