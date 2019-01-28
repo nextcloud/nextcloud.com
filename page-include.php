@@ -48,7 +48,7 @@
 		<div class="col-md-4 revealOnScroll">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/travel.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Travel support');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('We sponsor the travel & accommodation for participation in Nextcloud events.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('We sponsor the travel & accommodation to help people from underrepresented groups in opensource to join Nextcloud events.');?></p>
 		</div>
 		<div class="col-md-4 revealOnScroll">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/internship.svg" /></div>
@@ -84,8 +84,9 @@
 			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/people-cloud.svg"); ?>
 		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('The Nextcloud community meets regularly at big hackweeks or smaller ad-hoc ones all over Europe. We also host our yearly Nextcloud Conference and attend many events like FOSDEM and SCALE.');?></p>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We want to support participants to join these events by sponsoring part or the whole of their transportation and accomodation costs.');?></p>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('If you would like to join a Nextcloud event, let us know! We typically support 80% of the travel & hotel costs but we can accommodate you if that would not be sufficient. Don\'t hesitate to reach out and ask!');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We want to support participants from underrepresented groups in Open Source to join these events by sponsoring part or the whole of their transportation and accomodation costs.');?></p>
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('If you would like to join a Nextcloud event, let us know! We typically support 80% of the travel & hotel costs but we can accommodate you if that would not be sufficient. Don\'t hesitate to reach out and ask!');?></p>   
+          <p class="section--intro text-center revealOnScroll"><?php echo $l->t('If you don\'t think you are part of an underrepresented group in Open Source and need travel support, please do not reach out here. You can read more about our community travel support program <a href="https://nextcloud.com/events/#ts">here</a>.');?></p>
 		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="mailto:include@nextcloud.com?subject=Travel support request"><?php echo $l->t('Request travel support');?></a></p>
 	</div>
 </section>
@@ -137,157 +138,117 @@
 
 <section class="section--team">
 	<div class="container">
-        <h1 class="section--heading-1 text-center">Mentors</h1>
-        <p class="section--paragraph text-center">Here are some of our mentors. We are in the process of adding more and you can join, too!</p>
+        <h1 class="section--heading-1 text-center">Program coordinators</h1>    
+	</div>
+	<div class="featurerow">
+	<div class="wrap container teamgroup">
+       <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/camila.jpg" />
+				<h2 class="teamname">Camila</h2>
+				<div class="teammeta">
+					<h4 class="mentoring">Desktop app, C++</h4>
+				</div>
+			</div>
+			</div>
+			<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
+				<h2 class="teamname">Jan-Christoph</h2>
+				<div class="teammeta">
+					<h4 class="mentoring">Design, UX, HTML & CSS</h4>
+				</div>
+			</div>
+			</div>
+			<div class="col-md-4">
+			<div class="teamp">
+                    <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marie.jpg" />
+				<h2 class="teamname">Marie</h2>
+				<div class="teammeta">
+					<h4 class="mentoring">Event organization, marketing, writing, community, translations</h4>
+				</div>
+			</div>
+			</div>
+
+    </div>
+    </div>
+    <div class="container">
+        <h1 class="section--heading-1 text-center">Mentors</h1>    
 	</div>
 	<div class="featurerow">
 	<div class="wrap container teamgroup">
         <div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/john.jpg" />
-				<h2 class="teamname">Barthélémy Briand</h2>
+				<h2 class="teamname">Barthélémy</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Server, contacts, front-end and accessibility</h4>
-					<h4 class="teamlocation">lives in France</h4>
-					<p class="teamsocial"><a href="https://github.com/skjnldsv"><i class="fa-github fa"></i></a> <a href="https://twitter.com/skjnldsv"><i class="fa-twitter fa"></i></a></p>
+					<h4 class="mentoring">Contacts app, Design, UX, Accessibility, Javascript, Vue.js, HTML & CSS</h4>
 				</div>
-				<p class="teamdescription">Barthélémy is a software engineer specialized in front-end development. He cares about the Contacts app; Design, UX and Accessibility and loves to mentor people in the areas of Javascript, Vue.js, HTML and CSS.</p>
 			</div>
-		</div>
-        <div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/camila.jpg" />
-				<h2 class="teamname">Camila San Martin Ayres</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Desktop client</h4>
-					<h4 class="teamlocation">lives in Berlin, Germany</h4>
-					<p class="teamsocial"><a href="https://camila.codes"><i class="fa-rss fa"></i></a> <a href="https://github.com/camilasan"><i class="fa-github fa"></i></a> <a href="https://www.linkedin.com/in/camilasan"><i class="fa-linkedin fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Camila is from Brazil and has worked as front-end developer, with C#, Java and even Delphi. She maintains our desktop client and is happy to help anyone get involved there. The app is written in C++ using the Qt toolkit.</p>
 			</div>
-		</div>
-		<div class="col-md-4">
+			<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/christoph.jpg" />
-				<h2 class="teamname">Christoph Wurst</h2>
+				<h2 class="teamname">Christoph</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Front-end, Two-factor Authenthication and Mail</h4>
-					<h4 class="teamlocation">lives in Hadres, Austria</h4>
-					<p class="teamsocial"><a href="http://blog.wuc.me/"><i class="fa-rss fa"></i></a> <a href="https://github.com/ChristophWurst"><i class="fa-github fa"></i></a> <a href="https://twitter.com/ChristophWurst"><i class="fa-twitter fa"></i></a> </p>
+					<h4 class="mentoring">Mail app, two-factor auth, JavaScript, Vue.js, php, Rust</h4>
 				</div>
-				<p class="teamdescription">Christoph has a masters degree in Software Engineering, lives in Hadres (mind the r) and is happy to help people get into JavaScript, Mail coding, two-factor auth, Vue.js, PHP or Rust.</p>
 			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
-				<h2 class="teamname">Jan-Christoph Borchardt</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Design Lead</h3>
-					<h4 class="teamexpertise">Co-founder, Simplicity & Ease of Use</h4>
-					<h4 class="teamlocation">lives in Berlin, Germany</h4>
-					<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jancborchardt"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jancborchardt"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Jan-Christoph is responsible for design on ownCloud since early 2011, continuing at Nextcloud. He is happy to help anyone with getting involved in design and UX and around HTML and CSS.</p>
 			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/julius.jpg" />
-				<h2 class="teamname">Julius Härtl</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Server and apps</h4>
-					<h4 class="teamlocation">lives in Würzburg, Germany</h4>
-					<p class="teamsocial"><a href="https://blog.juliushaertl.de/"><i class="fa-rss fa"></i></a> <a href="https://github.com/juliushaertl"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jus_42"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Julius is a long time contributor, working on frontend and backend development of the server and apps like Deck while woring on his master's degree. If you like front-end or Kanban, JavaScript, Vue.js, PHP, HTML or CSS, he can get you up to speed in no time!</p>
-			</div>
-		</div>
-		<div class="col-md-4">
+			<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/joas.jpg" />
-				<h2 class="teamname">Joas Schilling</h2>
+				<h2 class="teamname">Joas</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Co-founder, Activity, Workflow and Notifications</h4>
-					<h4 class="teamlocation">lives in Heilbronn, Germany</h4>
-					<p class="teamsocial"><a href="https://www.schilljs.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/nickvergessen"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a> </p>
+					<h4 class="mentoring">Talk app, Server core, PHP, Database</h4>
 				</div>
-				<p class="teamdescription">Joas has been involved in open source for over a decade, studied at the University of Stuttgart and he can help you with Talk app, Server core, PHP, Database technology as well as things he developed like Notifications and Activities.</p>
 			</div>
-		</div>
-        <div class="col-md-4">
+			</div>
+			<div class="col-md-4">
 			<div class="teamp">
-                    <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marie.jpg" />
-				<h2 class="teamname">Marie Gutbub</h2>
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/julius.jpg" />
+				<h2 class="teamname">Julius</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Online Marketer</h3>
-					<h4 class="teamexpertise">Marketing and Content</h4>
-					<h4 class="teamlocation">lives in Berlin, Germany</h4>
-					<p class="teamsocial"><!--<a href="https://spreed.me/"><i class="fa-rss fa"></i></a>--> <a href="https://shiromarieke.github.io/"><i class="fa-rss fa"></i></a> <a href="https://github.com/shiromarieke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/shiromarieke"><i class="fa-twitter fa"></i></a> </p>
+					<h4 class="mentoring">Deck app, Javascript, Vue.js, PHP, HTML & CSS</h4>
 				</div>
-				<p class="teamdescription">Marie studied cultural journalism at the Berlin University of the Arts. She is part of the Nextcloud marketing team and is more than happy to get anyone up to speed in marketing, writing and event organization.</p>
 			</div>
-        </div>
-        <div class="col-md-4">
+			</div>
+			<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marino.jpg" />
-				<h2 class="teamname">Marino Faggiana</h2>
+				<h2 class="teamname">Marino</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Apple iOS developer</h4>
-					<h4 class="teamlocation">lives in Vicenza, Italy</h4>
-					<p class="teamsocial"> <a href="https://github.com/marinofaggiana"><i class="fa-github fa"></i></a> <a href="https://twitter.com/marinofaggiana"><i class="fa-twitter fa"></i></a> <a href="https://www.linkedin.com/in/marino-faggiana-596569106/"><i class="fa-linkedin fa"></i></a></p>
+					<h4 class="teamexpertise">Apple App, Object-C, Swift, C C++, Assembly</h4>
 				</div>
-				<p class="teamdescription">Marino studied telecommunications in Vicenza and can teach you about Apple App, Object-C, Swift, C C++ (Turbo Pascal if you really want) and assembly.</p>
 			</div>
-		</div>
-        <div class="col-md-4">
+			</div>
+			<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mario.jpg" />
-				<h2 class="teamname">Mario Danic</h2>
+				<h2 class="teamname">Mario</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Android Development</h4>
-					<h4 class="teamlocation">lives in Croatia</h4>
-					<p class="teamsocial"> <a href="https://github.com/mario"><i class="fa-github fa"></i></a> <a href="https://twitter.com/mdjanic"><i class="fa-twitter fa"></i></a></p>
+					<h4 class="mentoring">Talk Android app, Java</h4>
 				</div>
-				<p class="teamdescription">Mario  studied Informatics and Organization and has been the lead dev on the open source projects Libburnia and Gnomebaker. He's happy to help anyone get into Android development, be it on the Talk or Files apps.</p>
 			</div>
-		</div>
-		<div class="col-md-4">
+			</div>
+			<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/roeland.jpg" />
-				<h2 class="teamname">Roeland Douma</h2>
+				<h2 class="teamname">Roeland</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Security Lead</h3>
-					<h4 class="teamexpertise">Co-founder, Desktop Client, Sharing</h4>
-					<h4 class="teamlocation">lives in Zuidoostbeemster, Netherlands</h4>
-					<p class="teamsocial"><a href="http://rullzer.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/rullzer"><i class="fa-github fa"></i></a> </p>
+					<h4 class="mentoring">Server core, PHP, Desktop C++</h4>
 				</div>
-				<p class="teamdescription">Roeland has a MSc degree in Computer Science from the University of Amsterdam and takes care of the server, desktop client & security things in Nextcloud. If you want to work on C++, the server or, of course, security - count on him to help you!</p>
 			</div>
-		</div>
-		<div class="col-md-4">
+			</div>
+			<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/tobias.jpg" />
-				<h2 class="teamname">Tobias Kaminsky</h2>
+				<h2 class="teamname">Tobias</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Android Client</h4>
-					<h4 class="teamlocation">lives in Langen, Germany</h4>
-					<p class="teamsocial"><a href="https://github.com/tobiasKaminsky"><i class="fa-github fa"></i></a></p>
+					<h4 class="mentoring">Android app, Java</h4>
 				</div>
-				<p class="teamdescription">Tobias studied Sports and Computer Science in Darmstadt, is an experienced Java/Scala engineer and has a background in database development. He 'does Android' in Nextcloud and is happy to mentor you in that area, too!</p>
 			</div>
-		</div>
-
-    </div>
-    </div>
+			</div>        
 </section>
 
 <section class="section--background">
