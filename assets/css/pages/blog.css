@@ -2408,6 +2408,15 @@ section {
             padding-left: 50px;
             padding-right: 50px; } }
 
+/*  This makes all links look more like on the rest of our website, even though it can also cause issues occasionally...  */
+a {
+  color: #a2a2a2;
+  font-weight: 500;
+  transition: all 0.5s ease; }
+  a :hover {
+    text-decoration: none;
+    color: #2a2a36; }
+
 .section--content .container .row {
   position: relative;
   /*.transparent {
@@ -2458,6 +2467,8 @@ section {
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
         box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19); } }
+    .section--content .container .row .content blockquote a {
+      color: #555; }
     .section--content .container .row .content .blog-metadata {
       font-size: 20px;
       padding-bottom: 20px;
@@ -2595,11 +2606,21 @@ section {
       .section--content .container .row .content .size-medium img {
         padding: 5px 5px 5px 5px;
         box-shadow: none !important; }
-    .section--content .container .row .content .size-thumbnail {
+    .section--content .container .row .content .size-small {
       width: auto;
       height: auto;
       max-width: 200px;
       max-height: 200px;
+      box-shadow: 0 0 2px 1px #EEE;
+      padding: 5px 5px 5px 5px; }
+      .section--content .container .row .content .size-small img {
+        padding: 5px 5px 5px 5px;
+        box-shadow: none !important; }
+    .section--content .container .row .content .size-thumbnail {
+      width: auto;
+      height: auto;
+      max-width: 100px;
+      max-height: 100px;
       box-shadow: 0 0 2px 1px #EEE;
       padding: 5px 5px 5px 5px; }
       .section--content .container .row .content .size-thumbnail img {
