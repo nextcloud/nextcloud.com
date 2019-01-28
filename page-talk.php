@@ -234,7 +234,7 @@
 </section>
 
 <section class="section--getmobile">
-    <div class="container-fluid banner">
+    <div class="container-fluid banner quote">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-4 revealOnScroll">

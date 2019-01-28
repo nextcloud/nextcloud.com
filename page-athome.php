@@ -325,7 +325,7 @@
 </section>
 
 <section class="section--appstore benefits">
-<div class="container-fluid banner">
+<div class="container-fluid banner quote">
     <div class="container">
     <div class="col-md-6">
         <p class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('Extend your cloud');?></p>

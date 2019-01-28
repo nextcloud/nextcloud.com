@@ -167,7 +167,7 @@ require(["require.config"], function() {
 </section>
 
 <section class="section--explanation benefits">
-<div class="container-fluid banner">
+<div class="container-fluid banner quote">
     <div class="container">
         <div class="col-md-6">
             <h2 class="revealOnScroll"><?php echo $l->t('What are HIPAA and HITECH');?></h1>
@@ -260,7 +260,7 @@ require(["require.config"], function() {
 
 
 <section class="section--dicom">
-<div class="container-fluid banner">
+<div class="container-fluid banner quote">
     <div class="container">
         <div class="col-md-6">
             <h2 class="revealOnScroll"><?php echo $l->t('A DICOM viewer in Nextcloud');?></h1>

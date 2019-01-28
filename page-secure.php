@@ -271,7 +271,7 @@
     </div>
 </div>
 
-<div class="container-fluid banner">
+<div class="container-fluid banner quote">
     <div class="col-md-6">
         <h2 class="section--heading-1 section--text--center"><?php echo $l->t('Private Cloud Security Scan');?></h2>
         <p class="section--paragraph section--text--center"><?php echo $l->t('To help our system administrators assess the security of their private cloud server, we have developed the Private Cloud Security Scan.');?></p>
