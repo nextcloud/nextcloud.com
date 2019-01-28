@@ -94,7 +94,7 @@ require get_template_directory() . '/strings.php';
 						<li class="nav__item"><a href="<?php echo home_url('contribute'); ?>"><?php echo $l->t('How to contribute'); ?></a></li>
 						<li class="nav__item"><a href="https://github.com/nextcloud"><?php echo $l->t('Code on GitHub'); ?></a></li>
 <!-- 						<li class="nav__item"><a href="<?php echo home_url('news'); ?>"><?php echo $l->t('Contributor blogs'); ?></a></li> -->
-						<li class="nav__item"><a href="https://github.com/nextcloud/server/issues/new"><?php echo $l->t('Report a bug'); ?></a></li>
+						<li class="nav__item"><a href="https://github.com/nextcloud/server/issues/new/choose"><?php echo $l->t('Report a bug'); ?></a></li>
 						<li class="nav__item"><a href="<?php echo $DOCUMENTATION_DEVELOPER;?>"><?php echo $l->t('Developer Docs'); ?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('code-of-conduct'); ?>"><?php echo $l->t('Code of Conduct'); ?></a></li>
 <!--						<li class="nav__item"><a href="<?php echo home_url('contributors'); ?>"><?php echo $l->t('Community members'); ?></a></li>-->
