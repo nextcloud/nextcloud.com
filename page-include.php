@@ -70,7 +70,7 @@
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('There are many areas in Nextcloud you can get involved in. From technical tasks like building an app, design, coding on the front or back-end to translation and helping out on the forums.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We want to enable everyone to get involved and we recognize that the privileged nature of the tech community is an extra barrier for underrepresented groups. We hope to help lower that barrier by connecting you directly to somebody who wants to help you.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We have a number of people who are happy to help you get started!');?></p>
-		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="mailto:include@nextcloud.com?subject=Getting involved in Nextcloud - mentorship"><?php echo $l->t('Find a mentor');?></a></p>
+		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="https://nextcloud.com/include#mentors"><?php echo $l->t('Our mentors');?><a class="button button--blue button--arrow button--large" href="mailto:include@nextcloud.com?subject=Getting involved in Nextcloud - mentorship"><?php echo $l->t('Find a mentor');?></a></p>
 	</div>
 </section>
 
@@ -120,16 +120,18 @@
         </div>
 		<div class="row">
             <div class="col-md-10 col-md-offset-1 revealOnScroll">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Is there a problem in the Nextcloud community?');?></p>
-                <p class="section--paragraph"><?php echo $l->t('We are a very nice, friendly and welcoming community. But, like just saying "you are welcome to join the conference" to parents with kids without providing a playground is not enough, we need to be pro-active.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('So, with Include, we want to make a real effort to improve.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Open Source and tech in general values meritocracy and that is a great sentiment, but reality is that the we are not as meritocratic as we like to believe. Even software developers (ahum) are human and can\'t help taking non-technical factors into account when judging code and people. The result of that is that we structurally fail to value some contributions, even if they are of equal or better quality than others, simply because of whom they come from. On top of that, most tech environments have cultivated a very monochromatic, often downright toxic culture towards anyone who does not fit in. Usually the people in it don\'t notice it at all. Sadly, it is hard to empathize with people very different than us and humans rarely recognize the peculiarities and downsides of the culture they live in.');?></p>
-                <p class="section--paragraph__tittle"><?php echo $l->t('Am I still welcome?');?></p>
-                <p class="section--paragraph"><?php echo $l->t('You are not part of any group of people that seems to be underrepresented at Nextcloud? You are of course just as welcome as before. This is a specific program that helps us support underrepresented groups. Trying to compensate for a structural disadvantage is not exact science, but Nextcloud is certainly no less open today to anyone as it was before we announced Include.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Mentorship, travel support and internships have always been available to anyone active in our community and will continue to be the way they always were.');?></p>
-                <p class="section--paragraph__tittle"><?php echo $l->t('Is Nextcloud Include only for developers?');?></p>
-                <p class="section--paragraph"><?php echo $l->t('No, certainly not, though we are of course a largely technical community trying to help people solve a societal and political issue. We welcome help with documentation, design, translation, and even marketing and sales!');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Did you know our website is entirely built in github including this page? Find a typo - you can propose an improvement using the same workflow as we use to build our software. The same goes for our documentation and translation, those, too, are collaborated on in the open.');?></p>
+                <p class="section--paragraph__tittle"><?php echo $l->t('Can I contribute if I am not a programmer?');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Of course! Code is only one part of Nextcloud – as is design, marketing, documentation, translation, events and many other areas! There‘s many things you can contribute to, and we can offer help and mentorship. Don‘t hesitate to apply and tell us what you‘d like to help with!');?></p>
+		<p class="section--paragraph__tittle"><?php echo $l->t('Am I welcome if I don‘t have a lot of experience and/or skills in programming?');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Absolutely. We all started somewhere, and we welcome all levels of experience. This is why we have mentors: We want to help you to improve and learn from the community while contributing to Nextcloud! Whether you have doubts about your skills or not, just apply and we will figure it out.');?></p>
+		<p class="section--paragraph__tittle"><?php echo $l->t('Do you have a Code of Conduct?');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Yes, you can find it at <a href=“https://nextcloud.com/code-of-conduct/“ target=“_blank“>nextcloud.com/code-of-conduct/</a>.');?></p>
+		<p class="section--paragraph__tittle"><?php echo $l->t('Does Nextcloud welcome only people from underrepresented groups?');?></p>
+                <p class="section--paragraph"><?php echo $l->t('We welcome everyone. Nextcloud Include is our specific program for underrepresented people in open source, but there‘s many ways for everyone to join. For example, you could check our Contribute page at <a href=“https://nextcloud.com/contribute“>nextcloud.com/contribute</a>. ');?></p>
+		<p class="section--paragraph__tittle"><?php echo $l->t('I need travel support, but I am not part of any underrepresented groups – should I apply anyway?');?></p>
+                <p class="section--paragraph"><?php echo $l->t('No, please don‘t apply at Nextcloud Include if you are not part of an underrepresented group in open source. However, you are very much welcome to apply for <a href=“https://nextcloud.com/events#ts“>our community travel support programme</a>!');?></p>
+		<p class="section--paragraph__tittle"><?php echo $l->t('Why is Nextcloud Include needed?');?></p>
+                <p class="section--paragraph"><?php echo $l->t('We are a very nice, friendly and welcoming community. But, like just saying „you are welcome to join the conference“ to parents with kids without providing a playground is not enough, we need to be pro-active. For more info, <a href=“https://www.youtube.com/watch?v=qbyAYGjrywo“ target=“_blank“>watch our talk about the topic</a>.');?></p>
             </div>
 		</div>
 	</div>
@@ -172,6 +174,7 @@
 
     </div>
     </div>
+     <a name="mentors" id="mentors"></a>
     <div class="container">
         <h1 class="section--heading-1 text-center">Mentors</h1>    
 	</div>
