@@ -40,7 +40,7 @@
 @import 'modules/loading';
 @import 'modules/flags';
 @import 'modules/apps';
-@import '../fonts/fork-awesome/css/fork-awesome.min';
+@import 'vendor/fork-awesome/css/fork-awesome.min';
 
 // To remove everything above and split in other files
 .jumbotron--heading-1 {
@@ -897,7 +897,7 @@ span.avoidwrap {
 i[class*='fa-'] {
   font-style: normal;
   color: #555;
-  font-family: "fontawesome", fontawesome, "Font Awesome", Fontawesome !important;
+  font-family: "forkawesome", ForkAwesome, "Fork Awesome", Forkawesome !important;
   /* to override the Open Sans font set above */
 }
 
