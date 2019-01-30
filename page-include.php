@@ -70,7 +70,7 @@
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('There are many areas in Nextcloud you can get involved in. From technical tasks like building an app, design, coding on the front or back-end to translation and helping out on the forums.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We want to enable everyone to get involved and we recognize that the privileged nature of the tech community is an extra barrier for underrepresented groups. We hope to help lower that barrier by connecting you directly to somebody who wants to help you.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We have a number of people who are happy to help you get started!');?></p>
-		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="https://nextcloud.com/include#mentors"><?php echo $l->t('Our mentors');?><a class="button button--blue button--arrow button--large" href="mailto:include@nextcloud.com?subject=Getting involved in Nextcloud - mentorship"><?php echo $l->t('Find a mentor');?></a></p>
+		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="#mentors"><?php echo $l->t('Our mentors');?> <a class="button button--blue button--arrow button--large" href="mailto:include@nextcloud.com?subject=Getting involved in Nextcloud - mentorship"><?php echo $l->t('Find a mentor');?></a></p>
 	</div>
 </section>
 
@@ -85,7 +85,7 @@
 		</div>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('The Nextcloud community meets regularly at big hackweeks or smaller ad-hoc ones all over Europe. We also host our yearly Nextcloud Conference and attend many events like FOSDEM and SCALE.');?></p>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('We want to support participants from underrepresented groups in Open Source to join these events by sponsoring part or the whole of their transportation and accomodation costs.');?></p>
-		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('If you would like to join a Nextcloud event, let us know! We typically support 80% of the travel & hotel costs but we can accommodate you if that would not be sufficient. Don\'t hesitate to reach out and ask!');?></p>   
+		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('If you would like to join a Nextcloud event, let us know! We typically support 80% of the travel & hotel costs but we can accommodate you if that would not be sufficient. Don\'t hesitate to reach out and ask!');?></p>
           <p class="section--intro text-center revealOnScroll"><?php echo $l->t('If you don\'t think you are part of an underrepresented group in Open Source and need travel support, please do not reach out here. You can read more about our community travel support program <a href="https://nextcloud.com/events/#ts">here</a>.');?></p>
 		<p class="section--intro text-center revealOnScroll"><a class="button button--blue button--arrow button--large" href="mailto:include@nextcloud.com?subject=Travel support request"><?php echo $l->t('Request travel support');?></a></p>
 	</div>
@@ -121,17 +121,17 @@
 		<div class="row">
             <div class="col-md-10 col-md-offset-1 revealOnScroll">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Can I contribute if I am not a programmer?');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Of course! Code is only one part of Nextcloud – as is design, marketing, documentation, translation, events and many other areas! There‘s many things you can contribute to, and we can offer help and mentorship. Don‘t hesitate to apply and tell us what you‘d like to help with!');?></p>
-		<p class="section--paragraph__tittle"><?php echo $l->t('Am I welcome if I don‘t have a lot of experience and/or skills in programming?');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Of course! Code is only one part of Nextcloud – as is design, marketing, documentation, translation, events and many other areas! There are many things you can contribute to, and we can offer help and mentorship. Do not hesitate to apply and tell us what you\'d like to help with!');?></p>
+		<p class="section--paragraph__tittle"><?php echo $l->t('Am I welcome if I do not have a lot of experience and/or skills in programming?');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Absolutely. We all started somewhere, and we welcome all levels of experience. This is why we have mentors: We want to help you to improve and learn from the community while contributing to Nextcloud! Whether you have doubts about your skills or not, just apply and we will figure it out.');?></p>
 		<p class="section--paragraph__tittle"><?php echo $l->t('Do you have a Code of Conduct?');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Yes, you can find it at <a href=“https://nextcloud.com/code-of-conduct/“ target=“_blank“>nextcloud.com/code-of-conduct/</a>.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Yes, you can find it at');?> <a class="hyperlink" href="<?php echo home_url('code-of-conduct') ?>">nextcloud.com/code-of-conduct/</a>.</p>
 		<p class="section--paragraph__tittle"><?php echo $l->t('Does Nextcloud welcome only people from underrepresented groups?');?></p>
-                <p class="section--paragraph"><?php echo $l->t('We welcome everyone. Nextcloud Include is our specific program for underrepresented people in open source, but there‘s many ways for everyone to join. For example, you could check our Contribute page at <a href=“https://nextcloud.com/contribute“>nextcloud.com/contribute</a>. ');?></p>
+                <p class="section--paragraph"><?php echo $l->t('We welcome everyone. Nextcloud Include is our specific program for underrepresented people in open source, but there‘s many ways for everyone to join. For example, you could check our Contribute page at');?> <a class="hyperlink" href="<?php echo home_url('contribute') ?>">nextcloud.com/contribute</a>.</p>
 		<p class="section--paragraph__tittle"><?php echo $l->t('I need travel support, but I am not part of any underrepresented groups – should I apply anyway?');?></p>
-                <p class="section--paragraph"><?php echo $l->t('No, please don‘t apply at Nextcloud Include if you are not part of an underrepresented group in open source. However, you are very much welcome to apply for <a href=“https://nextcloud.com/events#ts“>our community travel support programme</a>!');?></p>
+                <p class="section--paragraph"><?php echo $l->t('No, please do not apply at Nextcloud Include if you are not part of an underrepresented group in open source. However, you are very much welcome to apply for');?> <a class="hyperlink" href="<?php echo home_url('events') ?>#ts"><?php echo $l->t('our community travel support program!');?></a></p>
 		<p class="section--paragraph__tittle"><?php echo $l->t('Why is Nextcloud Include needed?');?></p>
-                <p class="section--paragraph"><?php echo $l->t('We are a very nice, friendly and welcoming community. But, like just saying „you are welcome to join the conference“ to parents with kids without providing a playground is not enough, we need to be pro-active. For more info, <a href=“https://www.youtube.com/watch?v=qbyAYGjrywo“ target=“_blank“>watch our talk about the topic</a>.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('We are a very nice, friendly and welcoming community. But, like just saying „you are welcome to join the conference" to parents with kids without providing a playground is not enough, we need to be pro-active. For more info, <a class="hyperlink" href="https://www.youtube.com/watch?v=qbyAYGjrywo" target="_blank">watch our talk about the topic</a>.');?></p>
             </div>
 		</div>
 	</div>
@@ -139,119 +139,114 @@
 </section>
 
 <section class="section--team">
-	<div class="container">
-        <h1 class="section--heading-1 text-center">Program coordinators</h1>    
-	</div>
-	<div class="featurerow">
-	<div class="wrap container teamgroup">
-       <div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/camila.jpg" />
-				<h2 class="teamname">Camila</h2>
-				<div class="teammeta">
-					<h4 class="mentoring">Desktop app, C++</h4>
-				</div>
-			</div>
-			</div>
-			<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
-				<h2 class="teamname">Jan-Christoph</h2>
-				<div class="teammeta">
-					<h4 class="mentoring">Design, UX, HTML & CSS</h4>
-				</div>
-			</div>
-			</div>
-			<div class="col-md-4">
-			<div class="teamp">
-                    <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marie.jpg" />
-				<h2 class="teamname">Marie</h2>
-				<div class="teammeta">
-					<h4 class="mentoring">Event organization, marketing, writing, community, translations</h4>
-				</div>
-			</div>
-			</div>
-
-    </div>
-    </div>
-     <a name="mentors" id="mentors"></a>
-    <div class="container">
-        <h1 class="section--heading-1 text-center">Mentors</h1>    
-	</div>
-	<div class="featurerow">
-	<div class="wrap container teamgroup">
+<div class="container">
+    <h1 class="section--heading-1 text-center">Program coordinators</h1>
+	<div class="row">
         <div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/john.jpg" />
-				<h2 class="teamname">Barthélémy</h2>
-				<div class="teammeta">
-					<h4 class="mentoring">Contacts app, Design, UX, Accessibility, Javascript, Vue.js, HTML & CSS</h4>
-				</div>
-			</div>
-			</div>
-			<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/christoph.jpg" />
-				<h2 class="teamname">Christoph</h2>
-				<div class="teammeta">
-					<h4 class="mentoring">Mail app, two-factor auth, JavaScript, Vue.js, php, Rust</h4>
-				</div>
-			</div>
-			</div>
-			<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/joas.jpg" />
-				<h2 class="teamname">Joas</h2>
-				<div class="teammeta">
-					<h4 class="mentoring">Talk app, Server core, PHP, Database</h4>
-				</div>
-			</div>
-			</div>
-			<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/julius.jpg" />
-				<h2 class="teamname">Julius</h2>
-				<div class="teammeta">
-					<h4 class="mentoring">Deck app, Javascript, Vue.js, PHP, HTML & CSS</h4>
-				</div>
-			</div>
-			</div>
-			<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marino.jpg" />
-				<h2 class="teamname">Marino</h2>
-				<div class="teammeta">
-					<h4 class="teamexpertise">Apple App, Object-C, Swift, C C++, Assembly</h4>
-				</div>
-			</div>
-			</div>
-			<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mario.jpg" />
-				<h2 class="teamname">Mario</h2>
-				<div class="teammeta">
-					<h4 class="mentoring">Talk Android app, Java</h4>
-				</div>
-			</div>
-			</div>
-			<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/roeland.jpg" />
-				<h2 class="teamname">Roeland</h2>
-				<div class="teammeta">
-					<h4 class="mentoring">Server core, PHP, Desktop C++</h4>
-				</div>
-			</div>
-			</div>
-			<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/tobias.jpg" />
-				<h2 class="teamname">Tobias</h2>
-				<div class="teammeta">
-					<h4 class="mentoring">Android app, Java</h4>
-				</div>
-			</div>
-			</div>        
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/camila.jpg" />
+                <h2 class="teamname">Camila</h2>
+                <div class="teammeta">
+                    <h4 class="mentoring">Desktop app, C++</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
+                <h2 class="teamname">Jan-Christoph</h2>
+                <div class="teammeta">
+                    <h4 class="mentoring">Design, UX, HTML & CSS</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="teamp">
+                    <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marie.jpg" />
+                <h2 class="teamname">Marie</h2>
+                <div class="teammeta">
+                    <h4 class="mentoring">Event organization, marketing, writing, community, translations</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a name="mentors" id="mentors"></a>
+    <h1 class="section--heading-1 text-center">Mentors</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/john.jpg" />
+                <h2 class="teamname">Barthélémy</h2>
+                <div class="teammeta">
+                    <h4 class="mentoring">Contacts app, Design, UX, Accessibility, Javascript, Vue.js, HTML & CSS</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/christoph.jpg" />
+                <h2 class="teamname">Christoph</h2>
+                <div class="teammeta">
+                    <h4 class="mentoring">Mail app, two-factor auth, JavaScript, Vue.js, php, Rust</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/joas.jpg" />
+                <h2 class="teamname">Joas</h2>
+                <div class="teammeta">
+                    <h4 class="mentoring">Talk app, Server core, PHP, Database</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/julius.jpg" />
+                <h2 class="teamname">Julius</h2>
+                <div class="teammeta">
+                    <h4 class="mentoring">Deck app, Javascript, Vue.js, PHP, HTML & CSS</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marino.jpg" />
+                <h2 class="teamname">Marino</h2>
+                <div class="teammeta">
+                    <h4 class="teamexpertise">Apple App, Object-C, Swift, C C++, Assembly</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mario.jpg" />
+                <h2 class="teamname">Mario</h2>
+                <div class="teammeta">
+                    <h4 class="mentoring">Talk Android app, Java</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/roeland.jpg" />
+                <h2 class="teamname">Roeland</h2>
+                <div class="teammeta">
+                    <h4 class="mentoring">Server core, PHP, Desktop C++</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/tobias.jpg" />
+                <h2 class="teamname">Tobias</h2>
+                <div class="teammeta">
+                    <h4 class="mentoring">Android app, Java</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </section>
 
 <section class="section--background">

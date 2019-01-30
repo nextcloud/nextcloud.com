@@ -119,19 +119,19 @@ section {
   .section--team .teamdescription {
     margin: 20px; }
   .section--team .teamp {
-    min-height: 800px; }
+    min-height: 400px; }
   @media (max-width: 2000px) {
     .section--team .teamp {
-      min-height: 780px; } }
+      min-height: 380px; } }
   @media (max-width: 1910px) {
     .section--team .teamp {
-      min-height: 770px; } }
+      min-height: 370px; } }
   @media (max-width: 1450px) {
     .section--team .teamp {
-      min-height: 790px; } }
+      min-height: 390px; } }
   @media (max-width: 1200px) {
     .section--team .teamp {
-      min-height: 830px; } }
+      min-height: 430px; } }
   @media (max-width: 991px) {
     .section--team .teamp {
       min-height: auto; } }
