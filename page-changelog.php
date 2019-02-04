@@ -28,6 +28,63 @@
 
     <a name="latest15"></a>
 
+    <h3 id="15-0-3">Version 15.0.3 <small>February 7 2019</small></h3>
+    <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.3.tar.bz2">nextcloud-15.0.3.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.3.zip">nextcloud-15.0.3.zip</a></br>
+    Check the file integrity with:</br>
+    MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.3.tar.bz2.md5">nextcloud-15.0.3.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.3.zip.md5">nextcloud-15.0.3.zip.md5</a></br>
+    SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.3.tar.bz2.sha256">nextcloud-15.0.3.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.3.zip.sha256">nextcloud-15.0.3.zip.sha256</a></br>
+    SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.3.tar.bz2.sha512">nextcloud-15.0.3.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.3.zip.sha512">nextcloud-15.0.3.zip.sha512</a></br>
+    PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.3.tar.bz2.asc">nextcloud-15.0.3.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.3.zip.asc">nextcloud-15.0.3.zip.asc</a></p>
+
+    <h4>Changes</h4>
+    <ul>
+        <li><a href="https://github.com/nextcloud/server/pull/13036">Upload new files in objectstore to a .part path first (server#13036)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13384">Broker: add timezone to CANCEL messages (server#13384)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13546">Add strengthify.min files (server#13546)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13575">Fix click app names (server#13575)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13582">Principals can be principal/user/<name> or principal/<name> from lega… (server#13582)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13585">Correctly handle displaynames returned from the sharee API (server#13585)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13588">Don't close input stream when writing in encrypted file (server#13588)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13598">Bump pear/archive_tar to 1.4.5 (server#13598)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13609">Fix integer background job id type error (server#13609)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13611">Fix user settings label translation (server#13611)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13625">Fix app navigation flickering on hover (server#13625)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13636">Update URL for federation (server#13636)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13653">Fix colorizeSvg with transformations that contain a comma (,) (server#13653)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13665">Use warning background color & primary text color for setting warnings (server#13665)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13670">Fix template paramter (server#13670)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13740">Cache tokens when using swift's v2 authentication (server#13740)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13744">Cleanup shared lock if changing to exclusive lock failed (server#13744)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13758">Honor remember_login_cookie_lifetime (server#13758)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13761">Fix integration of social sharing into the link popover menu (server#13761)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13762">Respect user locale in natural sort comparator (server#13762)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13769">Call proper function when fetching link shares in the breadcrumb view (server#13769)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13771">Add acceptance tests for moving and copying files (server#13771)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13781">Show proper default locale (server#13781)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13792">Ignore non existing users when retrieving details of group members (server#13792)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13793">Remove .css fileending from accessibility user css route (server#13793)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13794">Add icon to restore activity (server#13794)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13804">Fix long comment in dark theme (server#13804)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13821">Bump bower from 1.8.4 to 1.8.8 in /build (server#13821)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13852">Fix for high contrast theme (server#13852)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13882">Always use multipart uploader for s3 uploads (server#13882)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13884">Fix paged search with multiple bases (LDAP) (server#13884)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13887">Fix dropping a folder on a folder row (server#13887)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13900">Fix updating the password of a link share when passwords are enforced (server#13900)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13904">Add fallback for trashbin original location (server#13904)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13905">Allow shared versions again in legacy backend (server#13905)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13906">Improve data directory write checking for NFS mounts (server#13906)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13915">Clean pending 2FA authentication on password reset (server#13915)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13918">Forward error message from password policy (server#13918)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13920">Remove warning in case of external storage error (server#13920)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13930">Handle mail send error gracefully (server#13930)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/214">Bump pear/archive_tar from 1.4.3 to 1.4.5 (3rdparty#214)</a></li>
+        <li><a href="https://github.com/nextcloud/activity/pull/338">Move to SCSS and fix app icon for dark theme (activity#338)</a></li>
+        <li><a href="https://github.com/nextcloud/files_videoplayer/pull/79">Fill screen in fullscreen mode for public videos. Fixes #77 (files_videoplayer#79)</a></li>
+        <li><a href="https://github.com/nextcloud/firstrunwizard/pull/105">Use target="_blank" and rel="noreferrer noopener" (firstrunwizard#105)</a></li>
+        <li><a href="https://github.com/nextcloud/notifications/pull/258">Fix notification documentation to reflect recent changes (notifications#258)</a></li>
+    </ul>
+
     <h3 id="15-0-2">Version 15.0.2 <small>January 11 2019</small></h3>
     <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.2.tar.bz2">nextcloud-15.0.2.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.2.zip">nextcloud-15.0.2.zip</a></br>
     Check the file integrity with:</br>
@@ -306,6 +363,45 @@
     </ul>
 
     <a name="latest14"></a>
+
+    <h3 id="14-0-7">Version 14.0.7 <small>February 7 2019</small></h3>
+    <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.7.tar.bz2">nextcloud-14.0.7.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.7.zip">nextcloud-14.0.7.zip</a></br>
+    Check the file integrity with:</br>
+    MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.7.tar.bz2.md5">nextcloud-14.0.7.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.7.zip.md5">nextcloud-14.0.7.zip.md5</a></br>
+    SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.7.tar.bz2.sha256">nextcloud-14.0.7.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.7.zip.sha256">nextcloud-14.0.7.zip.sha256</a></br>
+    SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.7.tar.bz2.sha512">nextcloud-14.0.7.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.7.zip.sha512">nextcloud-14.0.7.zip.sha512</a></br>
+    PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.7.tar.bz2.asc">nextcloud-14.0.7.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.7.zip.asc">nextcloud-14.0.7.zip.asc</a></p>
+
+    <h4>Changes</h4>
+    <ul>
+        <li><a href="https://github.com/nextcloud/server/pull/13035">Upload new files in objectstore to a .part path first (server#13035)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13385">Broker: add timezone to CANCEL messages (server#13385)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13558">Check anonymous OPTIONS requests file in root (not in subdir) (server#13558)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13583">Principals can be principal/user/<name> or principal/<name> from lega… (server#13583)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13599">Update pear/acrchive_tar to 1.4.5 (server#13599)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13637">Update URL for federation (server#13637)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13654">Fix colorizeSvg with transformations that contain a comma (,) (server#13654)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13666">Use warning background color & primary text color for setting warnings (server#13666)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13671">Fix template paramter (server#13671)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13708">Vcard avatar fixes (server#13708)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13741">Cache tokens when using swift's v2 authentication (server#13741)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13745">Cleanup shared lock if changing to exclusive lock failed (server#13745)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13763">Respect user locale in natural sort comparator (server#13763)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13767">Honor remember_login_cookie_lifetime (server#13767)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13782">Show proper default locale (server#13782)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13788">Add acceptance tests for moving and copying files (server#13788)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13822">Bump bower from 1.8.4 to 1.8.8 in /build (server#13822)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13888">Fix dropping a folder on a folder row (server#13888)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13901">Fix updating the password of a link share when passwords are enforced (server#13901)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13916">Clean pending 2FA authentication on password reset (server#13916)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13921">Forward error message from password policy (server#13921)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13922">Ignore non existing users when retrieving details of group members (server#13922)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13923">Fix paged search with multiple bases (LDAP) (server#13923)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13928">Remove .css fileending from accessibility user css route (server#13928)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13931">Handle mail send error gracefully (server#13931)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/215">Bump pear/archive_tar from 1.4.3 to 1.4.5 (3rdparty#215)</a></li>
+        <li><a href="https://github.com/nextcloud/notifications/pull/259">Fix notification documentation to reflect recent changes (notifications#259)</a></li>
+    </ul>
 
     <h3 id="14-0-6">Version 14.0.6 <small>January 11 2019</small></h3>
     <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.6.tar.bz2">nextcloud-14.0.6.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.6.zip">nextcloud-14.0.6.zip</a></br>
@@ -588,6 +684,27 @@
     <p><a href="https://nextcloud.com/blog/nextcloud-14-now-available-with-video-verification-signaltelegram-2fa-support-improved-collaboration-and-gdpr-compliance/">Our blog with more details is here.</a></p>
 
     <a name="latest13"></a>
+
+    <h3 id="13-0-11">Version 13.0.11 <small>February 7 2019</small></h3>
+    <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.11.tar.bz2">nextcloud-13.0.11.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.11.zip">nextcloud-13.0.11.zip</a></br>
+    Check the file integrity with:</br>
+    MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.11.tar.bz2.md5">nextcloud-13.0.11.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.11.zip.md5">nextcloud-13.0.11.zip.md5</a></br>
+    SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.11.tar.bz2.sha256">nextcloud-13.0.11.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.11.zip.sha256">nextcloud-13.0.11.zip.sha256</a></br>
+    SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.11.tar.bz2.sha512">nextcloud-13.0.11.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.11.zip.sha512">nextcloud-13.0.11.zip.sha512</a></br>
+    PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.11.tar.bz2.asc">nextcloud-13.0.11.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.11.zip.asc">nextcloud-13.0.11.zip.asc</a></p>
+
+    <h4>Changes</h4>
+    <ul>
+        <li><a href="https://github.com/nextcloud/server/pull/13584">Principals can be principal/user/<name> or principal/<name> from legacy installs (server#13584)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13600">Bump pear/archive_tar to 1.4.5 (server#13600)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13638">Update URL for federation (server#13638)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13707">Don't log parameters on user creation in case of error/exception (server#13707)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13746">Cleanup shared lock if changing to exclusive lock failed (server#13746)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13889">Fix dropping a folder on a folder row (server#13889)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/13917">Clean pending 2FA authentication on password reset (server#13917)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/216">Pear/archive_tar 1.4.5 (3rdparty#216)</a></li>
+        <li><a href="https://github.com/nextcloud/notifications/pull/260">Fix notification documentation to reflect recent changes (notifications#260)</a></li>
+    </ul>
 
     <h3 id="13-0-10">Version 13.0.10 <small>January 11 2019</small></h3>
     <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.10.tar.bz2">nextcloud-13.0.10.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-13.0.10.zip">nextcloud-13.0.10.zip</a></br>
