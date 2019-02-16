@@ -60,7 +60,7 @@
          "flags":[
             "nl",
             "fr",
-            "uk",
+            "gb",
             "be"
          ],
          "freeplans":false,
@@ -103,7 +103,7 @@
          "url":"https:\/\/www.web-shop-hosting.de\/nextcloud-hosting",
          "flags":[
             "de",
-            "uk",
+            "gb",
             "ru",
             "pl",
             "ua",
@@ -154,7 +154,7 @@
          "url":"https:\/\/rosehosting.com\/nextcloud-hosting.html",
          "flags":[
             "us",
-            "uk",
+            "gb",
             "ca",
             "de",
             "all"
@@ -307,7 +307,7 @@
             "de",
             "at",
             "ch",
-            "uk",
+            "gb",
             "us",
             "all"
          ],
@@ -400,7 +400,7 @@
          "url":"https:\/\/www.nbiserv.de\/de\/shop\/cloud",
          "flags":[
             "de",
-            "uk",
+            "gb",
             "ch",
             "at"
          ],
@@ -615,7 +615,7 @@
          "title":"GreenNet Ltd",
          "url":"https:\/\/www.greennet.org.uk\/internet-services\/cloud-storage",
          "flags":[
-            "uk",
+            "gb",
             "eu",
             "all"
          ],
@@ -633,7 +633,7 @@
             "nl",
             "de",
             "be",
-            "uk",
+            "gb",
             "fr",
             "eu",
             "all"
@@ -783,7 +783,7 @@
          "flags":[
             "it",
             "fr",
-            "uk",
+            "gb",
             "eu"
          ],
          "freeplans":true,
@@ -827,7 +827,7 @@
          "url":"https:\/\/silentinfotech.com\/services\/cloud\/nextcloud",
          "flags":[
             "us",
-            "uk",
+            "gb",
             "in",
             "ke",
             "ae",
@@ -875,7 +875,7 @@
             "at",
             "ch",
             "eu",
-            "uk",
+            "gb",
             "se",
             "is",
             "lu",
@@ -1045,7 +1045,7 @@
          "url":"https:\/\/www.dediserve.com\/dediserve-vault",
          "flags":[
             "ie",
-            "uk",
+            "gb",
             "us",
             "au",
             "in",
@@ -1136,7 +1136,7 @@
          "title":"CyanSpace",
          "url":"https:\/\/cyanspace.net",
          "flags":[
-            "uk"
+            "gb"
          ],
          "freeplans":false,
          "supports":"both",
@@ -1162,7 +1162,7 @@
          "title":"Webarchitects Co-operative",
          "url":"https:\/\/www.webarchitects.coop\/nextcloud",
          "flags":[
-            "uk"
+            "gb"
          ],
          "freeplans":false,
          "supports":"organization",
@@ -1203,7 +1203,7 @@
          "title":"Twist Development Limited",
          "url":"https:\/\/www.twistdevelopment.co.uk\/file-sharing",
          "flags":[
-            "uk"
+            "gb"
          ],
          "freeplans":false,
          "supports":"both",
@@ -1216,7 +1216,7 @@
          "title":"Thexyz Inc",
          "url":"https:\/\/www.thexyz.com\/nextcloud.php",
          "flags":[
-            "uk",
+            "gb",
             "ca",
             "us"
          ],
