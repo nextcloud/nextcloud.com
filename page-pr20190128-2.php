@@ -18,7 +18,7 @@
 <div class="pr">
 <h1>Nextcloud introduces Virtual Drive in Desktop Client to simplify desktop integration</h1>
 <h3>Tech Preview shows virtual drive in action, reducing need for users to manage storage manually</h3>
-<p><em>Stuttgart, January 28 2018</em> - Nextcloud GmbH, supplier of the most popular self-hosted content collaboration platform, introduces a Virtual Drive in the Nextcloud Desktop Client. The virtual drive, a standard technology in desktop synchronization clients, replaces the traditional files in a locally synchronized folder with a virtual view on all files the user has, available on demand and with a smart caching strategy.</p>
+<p><em>Stuttgart, January 28 2019</em> - Nextcloud GmbH, supplier of the most popular self-hosted content collaboration platform, introduces a Virtual Drive in the Nextcloud Desktop Client. The virtual drive, a standard technology in desktop synchronization clients, replaces the traditional files in a locally synchronized folder with a virtual view on all files the user has, available on demand and with a smart caching strategy.</p>
 
 <blockquote>The Desktop Client is a center piece of our synchronization strategy,</blockquote> noted Frank Karlitschek, CEO of Nextcloud GmbH. <blockquote>Thus it is important we keep pushing the boundaries and deliver on what customers ask for.</blockquote>
 
