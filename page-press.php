@@ -19,9 +19,9 @@
     <a href="https://cloud.nextcloud.com/s/ZRmqqsd59rRPJoL" class="button button--large button--blue button--arrow">Press release and background</a>
     <h2>Press releases</h2>
     <ul>
-        <li><a href="<?php echo home_url('press/pr20190128-1') ?>">January 28, 2018: Nextcloud momentum continues amid industry awareness of GDPR and data leak risks, doubles customer base in 2018</a></li>
-        <li><a href="<?php echo home_url('press/pr20190128-2') ?>">January 28, 2018: Nextcloud introduces Virtual Drive in Desktop Client to simplify desktop integration</a></li>
-        <li><a href="<?php echo home_url('press/pr20190128-3') ?>">January 28, 2018: Nextcloud launches Customer Advisory Board</a></li>
+        <li><a href="<?php echo home_url('press/pr20190128-1') ?>">January 28, 2019: Nextcloud momentum continues amid industry awareness of GDPR and data leak risks, doubles customer base in 2018</a></li>
+        <li><a href="<?php echo home_url('press/pr20190128-2') ?>">January 28, 2019: Nextcloud introduces Virtual Drive in Desktop Client to simplify desktop integration</a></li>
+        <li><a href="<?php echo home_url('press/pr20190128-3') ?>">January 28, 2019: Nextcloud launches Customer Advisory Board</a></li>
         <li><a href="<?php echo home_url('press/pr20181210') ?>">December 10, 2018: Nextcloud 15 introduces social networking, next-gen 2-factor authentication and innovative collaborative document editing abilities</a></li>
         <li><a href="<?php echo home_url('press/pr20181120') ?>">November 20, 2018: ONLYOFFICE and Nextcloud partner to deliver seamless collaboration for modern organizations</a></li>
         <li><a href="<?php echo home_url('press/pr20181030') ?>">October 30, 2018: Nextcloud founder wins innovation award, donates prize money to open source diversity fund</a></li>
