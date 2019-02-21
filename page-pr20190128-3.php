@@ -17,7 +17,7 @@
 <div class="row">
 <div class="pr">
 <h1>Nextcloud launches Customer Advisory Board</h1>
-<p><em>Stuttgart, January 28 2018</em> - Nextcloud GmbH, supplier of the most popular self-hosted content collaboration platform, introduces a Customer Advisory Board to help guide its development and decision making. The Advisory Board provides a platform for Nextcloud's Premium customers to have regular, direct communication with the Nextcloud management team, providing an opportunity to discuss their strategic needs and goals.</p>
+<p><em>Stuttgart, January 28 2019</em> - Nextcloud GmbH, supplier of the most popular self-hosted content collaboration platform, introduces a Customer Advisory Board to help guide its development and decision making. The Advisory Board provides a platform for Nextcloud's Premium customers to have regular, direct communication with the Nextcloud management team, providing an opportunity to discuss their strategic needs and goals.</p>
 
 <p>The Advisory Board will meet twice a year, on the evening before the bi-annual Nextcloud Enterprise day, for a dinner, presentation and discussion about strategic challenges. Quarterly conference calls and other communication channels will provide regular opportunities to discuss the roadmap and market developments.</p>
 
