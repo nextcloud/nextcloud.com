@@ -259,19 +259,6 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/artur.jpg" />
-				<h2 class="teamname">Artur Bergen</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Spreedbox, Spreed.ME, WebRTC</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><a href="https://de.linkedin.com/in/artur-bergen-3b113090"><i class="fa-rss fa"></i></a> <a href="https://github.com/artberg"><i class="fa-github fa"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="fa-twitter fa"></i></a>--> </p>
-				</div>
-				<p class="teamdescription">Artur graduated Interface Designer (B.A.) and he is currently doing his second Bachelor in Media Informatics (B.Sc.), Stuttgart. His primary tasks lie in the development of the Spreedbox and Spreed.ME hardware and software components.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/arthur.jpg" />
 				<h2 class="teamname">Arthur Schiwon</h2>
 				<div class="teammeta">
