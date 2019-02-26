@@ -38,7 +38,7 @@ Qloud MSP (Qinetics Services Sdn. Bhd) is a Malaysian based technology company s
 <p><strong>Links:</strong>
 <ul>
 <li>Announcement blog Nextcloud <a class="hyperlink" href="https://nextcloud.com/blog/qloud-msp-and-nextcloud-announce-partnership/">nextcloud.com/blog/qloud-msp-and-nextcloud-announce-partnership/</a>
-<li>Announcement blog Qloud MSP <a class="hyperlink" href="https://nextcloud.com/training">nextcloud.com/training/</a></li>
+<li>Announcement blog Qloud MSP <a class="hyperlink" href="https://www.qloud.my/category/press_release/">www.qloud.my/category/press_release/</a></li>
 <li>More information about Nextcloud <a class="hyperlink" href="https://nextcloud.com/about">nextcloud.com/about</a></li>
 <li>More information about Qloud MSP <a class="hyperlink" href="https://www.qloud.my/about-us/">www.qloud.my/about-us</a></li>
 <li>Nextcloud enterprise solutions <a class="hyperlink" href="https://nextcloud.com/enterprise">nextcloud.com/enterprise</a></li>
