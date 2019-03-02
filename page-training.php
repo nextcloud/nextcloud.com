@@ -77,7 +77,7 @@
                 </div>
                 <div class="col-lg-2 col-sm-3"><i class="fa fa-bed"></i></div>
                 <div class="col-lg-10 col-sm-9">
-                    <p class="section--paragraph revealOnScroll">Book your room at <a class="hyperlink" href="https://www.maritim.com/en/hotels/germany/hotel-stuttgart/hotel-overview">Maritim Hotel</a> with the discount code <code>Nextcloud</code></p>
+                    <p class="section--paragraph revealOnScroll">Book your room at <a class="hyperlink" href="https://www.maritim.com/en/hotels/germany/hotel-stuttgart/hotel-overview">Maritim Hotel</a><!-- with the discount code <code>Nextcloud</code>--></p>
                 </div>
                 <div class="col-lg-2 col-sm-3"><i class="fa fa-ticket"></i></div>
                 <div class="col-lg-10 col-sm-9">
