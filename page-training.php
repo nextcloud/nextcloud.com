@@ -66,26 +66,25 @@
 <!-- 			<small><a class="hyperlink" href="https://www.openstreetmap.org/?mlat=52.52279&amp;mlon=13.41288#map=18/52.52279/13.41288">View on Open Street Map</a></small> -->
 		</div>
 		<div class="col-md-4">
-		<div class="row">
-                <div class="col-lg-2 col-sm-3"><i class="fa fa-clock-o"></i></div>
-                <div class="col-lg-10 col-sm-9">
-                    <p class="section--paragraph revealOnScroll">Tuesday, March 12, 2019 from 8am to 5pm.</p>
-                </div>
-                <div class="col-lg-2 col-sm-3"><i class="fa fa-map"></i></div>
-                <div class="col-lg-10 col-sm-9">
-                    <p class="section--paragraph revealOnScroll">The <a class="hyperlink" href="https://www.liederhalle-stuttgart.de">Congress Centrum Liederhalle</a> in the center of Stuttgart</p>
-                </div>
-                <div class="col-lg-2 col-sm-3"><i class="fa fa-bed"></i></div>
-                <div class="col-lg-10 col-sm-9">
-                    <p class="section--paragraph revealOnScroll">Book your room at <a class="hyperlink" href="https://www.maritim.com/en/hotels/germany/hotel-stuttgart/hotel-overview">Maritim Hotel</a><!-- with the discount code <code>Nextcloud</code>--></p>
-                </div>
-                <div class="col-lg-2 col-sm-3"><i class="fa fa-ticket"></i></div>
-                <div class="col-lg-10 col-sm-9">
-                    <p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://eventyay.com/e/d1196adb/?code=EarlyBird">Early-bird tickets</a> only €200!<br/><em>(After January 31 regular €400)</em></p>
-                </div>
-			</div>
-			<p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/d1196adb/" class="button button--blue button--arrow button--large">Sign up now!</a></p>
-		</div>
+            <div class="row">
+                <i style="float:left; margin: 10px;" class="fa fa-clock-o"></i>
+                <p class="section--paragraph revealOnScroll">Tuesday, March 12, 2019 from 8am to 5pm.</p>
+            </div>
+            <div class="row">
+                <i style="float:left; margin: 10px;" class="fa fa-map"></i>
+                <p class="section--paragraph revealOnScroll">The <a class="hyperlink" href="https://www.liederhalle-stuttgart.de">Congress Centrum Liederhalle</a> in the center of Stuttgart</p>
+            </div>
+            <div class="row">
+                <i style="float:left; margin: 10px;" class="fa fa-bed"></i>
+                <p class="section--paragraph revealOnScroll">Book your room at <a class="hyperlink" href="https://www.maritim.com/en/hotels/germany/hotel-stuttgart/hotel-overview">Maritim Hotel</a><!-- with the discount code <code>Nextcloud</code>--></p>
+            </div>
+            <div class="row">
+                <i style="float:left; margin: 10px;" class="fa fa-ticket"></i>
+                <p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://eventyay.com/e/d1196adb/?code=EarlyBird">Early-bird tickets</a> only €200!<br/><em>(After January 31 regular €400)</em></p>
+            </div>
+                <p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/d1196adb/" class="button button--blue button--arrow button--large">Sign up now!</a></p>
+            </div>
+        </div>
     </div>
 </div>
 </section>
