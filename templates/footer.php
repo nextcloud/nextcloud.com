@@ -17,14 +17,19 @@ $l = new L10N('footer');
 </div>
 
 <script>
-    // let's hope ONE of these three removes the javascript warning.
+    window.onload = (function(){
+        // let's hope ONE of these removes the javascript warning.
 
-    // IE does not support the remove method
-	document.body.removeChild(document.querySelector(".alert--no-js"));
+        // IE does not support the remove method
+        if(document.querySelector(".alert--no-js"))
+            document.body.removeChild(document.querySelector(".alert--no-js"));
 
-	// another attempt, just adding the 'hide' class to make it display: none
-    var d = document.getElementById("no-js");
-    d.className += " hide";
+        // another attempt, just adding the 'hide' class to make it display: none
+        if(document.getElementById("no-js")) {
+            var d = document.getElementById("no-js");
+            d.className += " hide";
+        }
+    })();
 </script>
 
 <div class="cookiewarning" id="cookieConsent">
