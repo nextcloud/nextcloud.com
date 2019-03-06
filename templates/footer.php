@@ -20,15 +20,16 @@ $l = new L10N('footer');
     window.onload = (function(){
         // let's hope ONE of these removes the javascript warning.
 
-        // IE does not support the remove method
-        if(document.querySelector(".alert--no-js"))
-            document.body.removeChild(document.querySelector(".alert--no-js"));
-
-        // another attempt, just adding the 'hide' class to make it display: none
+        // first attempt, just adding the 'hide' class to make it display: none
         if(document.getElementById("no-js")) {
             var d = document.getElementById("no-js");
             d.className += " hide";
         }
+
+        // second attempt, let's just remove the entire thing. If it doesn't work... hope the first attempt did work. Note, IE does not support the remove method
+        if(document.querySelector("alert--no-js"))
+            document.body.removeChild(document.querySelector("alert--no-js"));
+
     })();
 </script>
 
