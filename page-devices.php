@@ -123,7 +123,7 @@ require(["require.config"], function() {
         </div>
         <div class="row revealOnScroll feature--block">
             <div class="col-md-5">
-                <a href="<?php echo home_url('spreedbox') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/spreedbox/spreedbox.png" class="img-responsive featureimg" /></a>
+                <a href="https://spreedbox.me/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/spreedbox/spreedbox.png" class="img-responsive featureimg" /></a>
             </div>
             <div class="col-md-7">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Spreedbox');?></p>
@@ -134,7 +134,7 @@ require(["require.config"], function() {
                 <div class="devices-tags">
                     <span>Commercial</span>
                 </div>
-                <a href="<?php echo home_url('spreedbox') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+                <a href="https://spreedbox.me/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
             </div>
         </div>
 
