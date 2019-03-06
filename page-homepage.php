@@ -58,15 +58,15 @@
 <section class="section--enterprise-day">
 	<div class="container-fluid">
 			<div class="container">
-			<h2 class="section--heading-1 revealOnScroll">Enterprise Day</h2>
-            <ul class="section--paragraph revealOnScroll">
-                <li class="revealOnScroll"><i class="fa-check fa"></i> Get the most out of Nextcloud</li>
-                <li class="revealOnScroll"><i class="fa-check fa"></i> Speed up decision making</li>
-                <li class="revealOnScroll"><i class="fa-check fa"></i> Learn best practices</li>
-                <li class="revealOnScroll"><i class="fa-check fa"></i> Meet developers & decision makers</li>
-            </ul>
-			<p class="section--paragraph revealOnScroll">Join our Enterprise Day on March 12.<br/><em>Book now, before January 31 and get 50% off!</em></p>
-			<p class="section--paragraph revealOnScroll"><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Learn more and book</a></p>
+                <h2 class="section--heading-1 revealOnScroll">Enterprise Day</h2>
+                <ul class="section--paragraph revealOnScroll">
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> Get the most out of Nextcloud</li>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> Speed up decision making</li>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> Learn best practices</li>
+                    <li class="revealOnScroll"><i class="fa-check fa"></i> Meet developers and decision makers</li>
+                </ul>
+                <p class="section--paragraph revealOnScroll">Join our Enterprise Day on March 12.<br/><em>Book now, before January 31 and get 50% off!</em></p>
+                <p class="section--paragraph revealOnScroll"><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Learn more and book</a></p>
 			</div>
 	</div>
 </section>
