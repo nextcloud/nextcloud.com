@@ -5,27 +5,26 @@ $l = new L10N('footer');
 
 ?>
 <style>
-.alert-no-js {
+.hide {
     display: none !important;
 }
-.no-js {
-    display: block !important;
-}
-.alert-no-js p {
-    display: inherit !important;
-}
-
 </style>
-<div class="alert alert--no-js no-js" id="no-js">
-  <div class="container">
+<div class="alert alert--no-js" id="no-js">
+  <div class="container" style="display: inherit">
 		<?php echo file_get_contents(get_template_directory_uri()."/assets/img/warning.svg"); ?>
-    <p><strong><?php echo $l->t('You have javascript disabled.'); ?></strong> <?php echo $l->t('We tried to make sure the basics of our website work but some functionality will be missing.'); ?></p>
+    <p style="display: inherit"><strong><?php echo $l->t('You have javascript disabled.'); ?></strong> <?php echo $l->t('We tried to make sure the basics of our website work but some functionality will be missing.'); ?></p>
   </div>
 </div>
 
 <script>
+    // let's hope ONE of these three removes the javascript warning.
+
     // IE does not support the remove method
 	document.body.removeChild(document.querySelector(".alert--no-js"));
+
+	// another attempt, just adding the 'hide' class to make it display: none
+    var d = document.getElementById("no-js");
+    d.className += " hide";
 </script>
 
 <div class="cookiewarning" id="cookieConsent">
