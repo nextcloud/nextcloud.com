@@ -1374,6 +1374,9 @@ blockquote {
 	.hyperlink {
 		color: white !important;
 	}
+	i[class*='fa-'] {
+		color: white !important;
+	}
 }
 
 /* Whitepaper sections */

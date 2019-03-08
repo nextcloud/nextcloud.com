@@ -136,27 +136,26 @@
                     <td>From Enterprise File Sync and Share to Content Collaboration Platform
 <!--                     <br><span class="break"><small>Gartner recently announced: the Enterprise File Sync and Share market is obsolete. Enterprises need more: a Content Collaboration Platform. Nextcloud has been working towards enabling employee productivity with its platform for years. Where are we today and where do we go?</small></span> -->
                     </td>
-<!--                     <td><span class="break">Frank Karlitschek</span></td> -->
+                    <td><span class="break">Frank Karlitschek <br><small>(Nextcloud)</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">9:00</th>
                     <td>Case study presentations
-                    <!--<br>
-                    <span class="break"><small>We present you three case studies:
-                    <ul>
-                    <li>North West University</li>
-                    <li>Konrad-Adenauer-Stiftung</li>
-                    <li>DEGES</li>
-                    </ul>
-                    </small></span>--></td>
-<!--                     <td><span class="break">Hans Erasmus, Fabian Liedtke</span></td> -->
+                    <br>
+                    <span class="break"><small>We present you two case studies:
+                        <ul>
+                            <li>City of Geneva</li>
+                            <li>Max Planck Institute</li>
+                        </ul>
+                    </span></td>
+                    <td><span class="break">Mr Jordi <small>(City of Geneva)</small><br> Andreas Rode <small>(Nextcloud)</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">9:30</th>
                     <td>Nextcloud and compliance (GDPR, HIPAA and more)
                     <!--<br>
                     <span class="break"><small></small></span>--></td>
-<!--                     <td><span class="break">Jos Poortvliet</span></td> -->
+                    <td><span class="break">Jos Poortvliet <br> <small>(Nextcloud)</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">10:00</th>
@@ -167,7 +166,7 @@
                     <td>Global Scale: Data locality, scalability and cost
                     <!--<br>
                     <span class="break"><small></small></span>--></td>
-<!--                     <td><span class="break">Bjoern Schiessle</span></td> -->
+                    <td><span class="break">Bjoern Schiessle <br> <small>(Nextcloud)</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">11:00</th>
@@ -176,10 +175,10 @@
                             <li>Collabora Online</li>
                             <li>Outlook Add-in</li>
                             <li>ONLYOFFICE</li>
-                            <li>Outlook Calendar/Contact integration</li>
+                            <li>Bareos Backup Solutions</li>
                         </ul>
                     </td>
-<!--                     <td><span class="break">Our partners</span></td> -->
+                    <td><span class="break">Our partners</span></td>
                     </tr>
                     <tr>
                     <th scope="row">12:00</th>
@@ -191,17 +190,22 @@
                     <td>Professional Services: two case studies
                     <!--<br>
                     <span class="break"><small></small></span>--></td>
-<!--                     <td><span class="break">Olivier Paroz</span></td> -->
+                    <td><span class="break">Olivier Paroz <br> <small>(Nextcloud)</small></span></td>
                     </tr>
                     <th scope="row">14:00</th>
                     <td>Nextcloud Capabilities<br>
                     <span class="break"><small><ul>
-                            <li>Files: universal access to data</li>
+                            <li>Files: universal access to data </li>
                             <li>Talk: integrated communication</li>
                             <li>Groupware: facilitating collaboration</li>
                             <li>Apps: an ecosystem that can do more for you</li>
                         </ul></small></span></td>
-<!--                     <td><span class="break">Jan-Christoph Borchardt</span></td> -->
+                    <td><span class="break">
+                            Jos Poortvliet <small>(Nextcloud)</small><br>
+                            Mario Danic <small>(Nextcloud)</small><br>
+                            Julius Haertl, Barthélémy Briand <small>(Nextcloud)</small><br>
+                            Arthur Schiwon <small>(Nextcloud)</small>
+                    </span></td>
                     </tr>
                     <tr>
                     <th scope="row">15:00</th>
@@ -210,37 +214,37 @@
                     <tr>
                     <th scope="row">15:30</th>
                     <td>Case study presentations
-                    <!--<br>
-                    <span class="break"><small>We present you three case studies:
+
+                    <br>
+                    <span class="break"><small>We present you two case studies:
                     <ul>
-                    <li>North West University</li>
-                    <li>Konrad-Adenauer-Stiftung</li>
-                    <li>DEGES</li>
-                    </ul>
-                    </small></span>--></td>
+                    <li>SIEMENS</li>
+                    <li>ARD/ZDF</li>
+                    </ul></span></td>
+                    <td><span class="break">Mr Münzer <small>(SIEMENS)</small><br> Konstanze Niedung <small>(Nextcloud)</small></span>
                     </tr>
                     <tr>
                     <th scope="row">16:00</th>
                     <td>Mobile productivity
-<!--                     <br><span class="break"><small>Nextcloud Groupware is designed to bring a series of small collaboration and communication tools into Nextcloud, helping teams work together productively and efficiently.</small></span></td> -->
-<!--                     <td><span class="break">Marius Blüm</span></td> -->
+                    </td>
+                    <td><span class="break">Tobias Kaminsky, Camila San Martin Ayres <small>(Nextcloud)</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">16:15</th>
                     <td>Security in Nextcloud
-<!--                     <br><span class="break"><small>Compliance is becoming an ever more important issue and many of our customers deploy Nextcloud to bring file exchange and communication under control, guaranteeing auditability of and control over data flows.</small></span></td> -->
-<!--                     <td><span class="break">Jos Poortvliet</span></td> -->
+                    </td>
+                    <td><span class="break">Roeland Douma <small>(Nextcloud)</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">16:30</th>
                     <td>Your input: what do you need from Nextcloud?
-<!--                     <br><span class="break"><small>As each organization has its needs in terms of infrastructure and organizational workflows, the Nextcloud Professional Services team provides the adjustments needed for an optimal fit.</small></span></td> -->
-<!--                     <td><span class="break">Olivier Paroz</span></td> -->
+                    </td>
+                    <td><!--<span class="break">Olivier Paroz</span>--></td>
                     </tr>
                     <tr>
                     <th scope="row">17:00</th>
                     <td><span class="break">Continuation of the conversation in a relaxed atmosphere
-<!--                     <br><small>Drinks and food with the Nextcloud team!</small></span></td> -->
+                    <br><small>Drinks and food with the Nextcloud team!</small></span></td>
                     </tr>
                 </tbody>
             </table>
