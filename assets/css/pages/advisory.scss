@@ -9,7 +9,7 @@
 }
 
 section {
-    padding: 50px 0 50px;
+    padding: 80px 80px;
     .section--heading-1 {
         padding-bottom: 50px;
     }
@@ -26,10 +26,66 @@ section {
         margin-top: 20px;
     }
 }
+.benefits {
+	.banner {
+		padding-left: 0px;
+		.col-md-6 {
+			padding: 30px 0;
+		}
+		p {
+			padding-top: 0px;
+		}
+	}
+	.big-img-invert {
+		right: unset;
+		left: 0;
+	}
+}
 
 .section--benefits {
     padding-top: 0;
     margin-top: 0;
     padding-bottom: 0;
-    margin-botton: 0;
+    margin-bottom: 0;
+}
+.section--memberquotes {
+	.picture {
+		position: relative;
+		height: 250px;
+		max-width: 300px;
+		padding: 0;
+		margin: 0 auto;
+		.pic-container {
+			position: absolute;
+			padding: 0px 30px 0px 30px;
+			bottom: 0;
+			width: 100%;
+			img {
+				margin-right: auto;
+				margin-left: auto;
+			}
+		}
+	}
+	.col-md-3 {
+		.section--paragraph__tittle {
+			margin-top: 5px;
+			line-height: 20px;
+			padding-bottom: 0px;
+		}
+		p, blockquote {
+			font-size: 13px;
+		}
+		blockquote:before {
+			font-size: 2em;
+			line-height: 0.1em;
+			margin-right: 0.1em;
+			vertical-align: -0.2em;
+		}
+		blockquote:after {
+			left: 7px;
+			font-size: 2em;
+			line-height: 0.1em;
+			margin-left: 0.1em;
+		}
+	}
 }
