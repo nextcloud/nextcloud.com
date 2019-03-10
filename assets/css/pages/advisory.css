@@ -48,7 +48,7 @@
 }
 
 section {
-  padding: 80px 80px;
+  padding: 80px 0px;
 }
 section .section--heading-1 {
   padding-bottom: 50px;
@@ -73,9 +73,11 @@ section p {
 .benefits .banner p {
   padding-top: 0px;
 }
-.benefits .big-img-invert {
-  right: unset;
-  left: 0;
+.benefits .banner .big-img {
+  margin-left: 60%;
+}
+.benefits .banner .big-img-invert {
+  margin-right: 60%;
 }
 
 .section--benefits {
@@ -87,7 +89,7 @@ section p {
 
 .section--memberquotes .picture {
   position: relative;
-  height: 250px;
+  height: 350px;
   max-width: 300px;
   padding: 0;
   margin: 0 auto;

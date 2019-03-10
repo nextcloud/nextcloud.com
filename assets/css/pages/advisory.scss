@@ -9,7 +9,7 @@
 }
 
 section {
-    padding: 80px 80px;
+    padding: 80px 0px;
     .section--heading-1 {
         padding-bottom: 50px;
     }
@@ -35,10 +35,12 @@ section {
 		p {
 			padding-top: 0px;
 		}
-	}
-	.big-img-invert {
-		right: unset;
-		left: 0;
+		.big-img {
+			margin-left: 60%;
+		}
+		.big-img-invert {
+			margin-right: 60%;
+		}
 	}
 }
 
@@ -51,7 +53,7 @@ section {
 .section--memberquotes {
 	.picture {
 		position: relative;
-		height: 250px;
+		height: 350px;
 		max-width: 300px;
 		padding: 0;
 		margin: 0 auto;
