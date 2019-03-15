@@ -63,12 +63,12 @@
         <div class="col-md-3 col-md-xs-6">
             <div class="picture">
                 <div class="pic-container">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/board/matthieu.lecorre.jpg"/>
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/board/peter.muenzer.jpg"/>
                 </div>
             </div>
-            <p class="section--paragraph__tittle text-center">Matthieu Le Corre</p>
-            <p class="section--paragraph text-center">UNCloud Project manager & IT technical manager for computer sciences, Université de Nantes</p>
-            <blockquote>As UNCloud, our Nextcloud instance, is a very structuring project for the Universite of Nantes,we appreciate the opportunity to share our feedback and participe to the future orientations of the NextCloud product</blockquote>
+            <p class="section--paragraph__tittle text-center">Peter Münzer</p>
+            <p class="section--paragraph text-center">Team Lead IT Service Management, Siemens AG</p>
+            <blockquote>It's always a pleasure working with professionals that keep an ear on the ground. Taking the chance to collaborate on the best solution, leads to success for us all.</blockquote>
         </div>
         <div class="col-md-3 col-md-xs-6">
             <div class="picture">
@@ -83,22 +83,22 @@
         <div class="col-md-3 col-md-xs-6">
             <div class="picture">
                 <div class="pic-container">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/board/ansa.jpg"/>
-                </div>
-            </div>
-            <p class="section--paragraph__tittle text-center">Anders Salling Andersen</p>
-            <p class="section--paragraph text-center">IT-System Administrator, Syddansk Universitet</p>
-            <blockquote>Great initiative, we find this to be very usefull indeed.</blockquote>
-        </div>
-        <div class="col-md-3 col-md-xs-6">
-            <div class="picture">
-                <div class="pic-container">
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/board/steve.jordi.jpg"/>
                 </div>
             </div>
             <p class="section--paragraph__tittle text-center">Steve Jordi</p>
             <p class="section--paragraph text-center">System engineer at the City of Geneva</p>
             <blockquote><!--As a public administration, the City of Geneva, Switzerland, has a legal mandatory need to keep a hand on its documents. They have to stay on Swiss territory and we need to be able to backup and restore them at will. We have specific best practices needs and requierements, but can also share them for others to benefit. -->Being part of the nextCloud Advisory Board is the best way for us to help shape the future of the product, for our own needs, but also to give back with our expertise to the community</blockquote>
+        </div>
+        <div class="col-md-3 col-md-xs-6">
+            <div class="picture">
+                <div class="pic-container">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/board/thomas.hildmann.jpg"/>
+                </div>
+            </div>
+            <p class="section--paragraph__tittle text-center">Dr.-Ing. Thomas Hildmann</p>
+            <p class="section--paragraph text-center">Head of the infrastructure department, TU Berlin</p>
+            <blockquote>I have had good experiences with Advisory Boards and am looking forward to a more frequent exchange of ideas and thoughts.</blockquote>
         </div>
     </div>
     <div class="row">
@@ -115,14 +115,24 @@
         <div class="col-md-3 col-md-xs-6">
             <div class="picture">
                 <div class="pic-container">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/board/thomas.hildmann.jpg"/>
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/board/ansa.jpg"/>
                 </div>
             </div>
-            <p class="section--paragraph__tittle text-center">Dr.-Ing. Thomas Hildmann</p>
-            <p class="section--paragraph text-center">Head of the infrastructure department, TU Berlin</p>
-            <blockquote>I have had good experiences with Advisory Boards and am looking forward to a more frequent exchange of ideas and thoughts.</blockquote>
+            <p class="section--paragraph__tittle text-center">Anders Salling Andersen</p>
+            <p class="section--paragraph text-center">IT-System Administrator, Syddansk Universitet</p>
+            <blockquote>Great initiative, we find this to be very usefull indeed.</blockquote>
         </div>
         <div class="col-md-3 col-md-xs-6">
+            <div class="picture">
+                <div class="pic-container">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/board/matthieu.lecorre.jpg"/>
+                </div>
+            </div>
+            <p class="section--paragraph__tittle text-center">Matthieu Le Corre</p>
+            <p class="section--paragraph text-center">UNCloud Project manager & IT technical manager for computer sciences, Université de Nantes</p>
+            <blockquote>As UNCloud, our Nextcloud instance, is a very structuring project for the Universite of Nantes,we appreciate the opportunity to share our feedback and participe to the future orientations of the NextCloud product</blockquote>
+        </div>
+<!--        <div class="col-md-3 col-md-xs-6">
             <div class="picture">
                 <div class="pic-container">
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/board/wolfgang.friedl.jpg"/>
@@ -131,8 +141,10 @@
             <p class="section--paragraph__tittle text-center">Wolfgang Friedl</p>
             <p class="section--paragraph text-center">Teamleiter / Team Lead Enterprise Content Management, BEIT GmbH</p>
             <blockquote>(placeholder)</blockquote>
-        </div>
-        <div class="col-md-3 col-md-xs-6">
+        </div>-->
+    </div>
+    <div class="row">
+<!--        <div class="col-md-3 col-md-xs-6">
             <div class="picture">
                 <div class="pic-container">
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/board/ian.eveans.jpg"/>
@@ -141,9 +153,7 @@
             <p class="section--paragraph__tittle text-center">Ian Evans</p>
             <p class="section--paragraph text-center">Systems Architect, Department of Finance, Services & Innovation (Australia)</p>
             <blockquote>(placeholder)</blockquote>
-        </div>
-    </div>
-    <div class="row">
+        </div>-->
     </div>
 </div>
 </section>
