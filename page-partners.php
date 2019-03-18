@@ -151,7 +151,7 @@
 				<p  class="partnertext">Sendin is a Dutch company specializing in the storage and shipping of files, building simple solutions so users need no manual. Our clients use our solutions to make their files and documents accessible in the cloud but also for paperless meetings and more.</p>
 			</div>
 			<div class="col-md-4">
-				<a href="https://www.stylez.co.jp/" target="_blank" title="Stylez">
+				<a href="https://nextcloud.stylez.co.jp/" target="_blank" title="Stylez">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/stylez.png" title="stylez logo" />
 				</a>
 				<p  class="partnertext">Since 2013, Stylez has grown by focusing on integration and Business Process Outsourcing. Today Stylez expands its scope into cloud and open source services, keeping up their focus on customers and quality.</p>
