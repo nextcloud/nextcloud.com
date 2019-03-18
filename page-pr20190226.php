@@ -32,7 +32,7 @@
 Nextcloud offers the industry-leading, fully open source, self-hosted Content Collaboration Platform, combining the easy user interface of consumer-grade cloud solutions with the security and compliance measures enterprises need. Nextcloud brings together universal access to data through mobile, desktop and web interfaces with next-generation, on-premise secure communication and collaboration features like real-time document editing, chat and video calls, putting them under direct control of IT and integrated with existing infrastructure.<br/>
 Nextcloud's easy and quick deployment, open, modular architecture and emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing file storage assets within and across the borders of their organization. For more information, visit <a href="https://nextcloud.com">nextcloud.com</a> or follow <a href="https://twitter.com/Nextclouders">@Nextclouders</a> on Twitter.</p>
 
-<p><strong>About Nextcloud</strong><br>
+<p><strong>About QLoud MSP</strong><br>
 Qloud MSP (Qinetics Services Sdn. Bhd) is a Malaysian based technology company specialized in Managed Services, IT outsourcing and Cloud Computing. Our solution is highly focus in driven customers business productivity while prioritizing data protection and control.</p>
 
 <p><strong>Links:</strong>
