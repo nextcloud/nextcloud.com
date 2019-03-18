@@ -55,7 +55,7 @@
 </div>
 </section>
 
-<section class="section--memberquotes">
+<!-- <section class="section--memberquotes">
 <div class="container">
     <p class="section--heading-1 section--text--center">Membership</p>
     <p class="section--paragraph section--text--center">Our board currently has a little over 20 members,<br> some of whom prefer to remain private.</p>
@@ -88,7 +88,7 @@
             </div>
             <p class="section--paragraph__tittle text-center">Steve Jordi</p>
             <p class="section--paragraph text-center">System engineer at the City of Geneva</p>
-            <blockquote><!--As a public administration, the City of Geneva, Switzerland, has a legal mandatory need to keep a hand on its documents. They have to stay on Swiss territory and we need to be able to backup and restore them at will. We have specific best practices needs and requierements, but can also share them for others to benefit. -->Being part of the nextCloud Advisory Board is the best way for us to help shape the future of the product, for our own needs, but also to give back with our expertise to the community</blockquote>
+            <blockquote>Being part of the nextCloud Advisory Board is the best way for us to help shape the future of the product, for our own needs, but also to give back with our expertise to the community</blockquote>
         </div>
         <div class="col-md-3 col-md-xs-6">
             <div class="picture">
@@ -132,7 +132,7 @@
             <p class="section--paragraph text-center">UNCloud Project manager & IT technical manager for computer sciences, Université de Nantes</p>
             <blockquote>As UNCloud, our Nextcloud instance, is a very structuring project for the Universite of Nantes,we appreciate the opportunity to share our feedback and participe to the future orientations of the NextCloud product</blockquote>
         </div>
-<!--        <div class="col-md-3 col-md-xs-6">
+        <div class="col-md-3 col-md-xs-6">
             <div class="picture">
                 <div class="pic-container">
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/board/wolfgang.friedl.jpg"/>
@@ -141,10 +141,10 @@
             <p class="section--paragraph__tittle text-center">Wolfgang Friedl</p>
             <p class="section--paragraph text-center">Teamleiter / Team Lead Enterprise Content Management, BEIT GmbH</p>
             <blockquote>(placeholder)</blockquote>
-        </div>-->
+        </div>
     </div>
     <div class="row">
-<!--        <div class="col-md-3 col-md-xs-6">
+        <div class="col-md-3 col-md-xs-6">
             <div class="picture">
                 <div class="pic-container">
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/board/ian.eveans.jpg"/>
@@ -153,10 +153,10 @@
             <p class="section--paragraph__tittle text-center">Ian Evans</p>
             <p class="section--paragraph text-center">Systems Architect, Department of Finance, Services & Innovation (Australia)</p>
             <blockquote>(placeholder)</blockquote>
-        </div>-->
+        </div>
     </div>
 </div>
-</section>
+</section> -->
 
 <section class="section--benefits benefits">
 <div class="container-fluid banner">
