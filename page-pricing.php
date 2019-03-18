@@ -67,7 +67,7 @@
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support engineers by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
-					<li class="nocheck" title="<?php echo $l->t('Our engineers provide installation support and advice (remote 
+					<li class="nocheck" title="<?php echo $l->t('Our engineers provide installation support and advice (remote
 installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation advice');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Upgrades are disruptive. Our engineers will ensure yours will go smooth!');?>" rel="tooltip"><?php echo $l->t('Upgrade stand-by support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
@@ -109,7 +109,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support engineers by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: business hours');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support: business hours');?></li>
 					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
-					<li class="check" title="<?php echo $l->t('Our engineers provide installation support and advice (remote 
+					<li class="check" title="<?php echo $l->t('Our engineers provide installation support and advice (remote
 installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation advice');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Upgrades are disruptive. Our engineers will ensure yours will go smooth!');?>" rel="tooltip"><?php echo $l->t('Upgrade stand-by support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
@@ -151,7 +151,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support engineers by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: up to 24/7');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our support engineers by phone in these times.');?>" rel="tooltip"><?php echo $l->t('Phone support: up to 24/7');?></li>
 					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
-					<li class="check" title="<?php echo $l->t('Our engineers provide installation support and advice (remote 
+					<li class="check" title="<?php echo $l->t('Our engineers provide installation support and advice (remote
 installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation advice');?></li>
 					<li class="check" title="<?php echo $l->t('Upgrades are disruptive. Our engineers will ensure yours will go smooth!');?>" rel="tooltip"><?php echo $l->t('Upgrade stand-by support');?></li>
 					<li class="check" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
@@ -196,7 +196,18 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
 			</div>
 		</div>
-		<div class="col-md-4">
+        <div class="col-md-4">
+			<div class="featureblock">
+				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/onlyoffice-document.png">
+				<p class="section--paragraph__tittle"><?php echo $l->t('ONLYOFFICE');?></p>
+				<p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('onlyoffice') ?>"><?php echo $l->t('ONLYOFFICE</a> delivers enterprise-grade real-time collaborative document editing to Nextcloud, with excellent Microsoft Office compatibility and a familiar user interface. ONLYOFFICE is available with the Standard or Enterprise subscription.');?></p>
+				<p class="section--paragraph price-big"><?php echo $l->t('Starting at € 15 to € 22/user/year');?></p>
+				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
+			</div>
+		</div>
+    </div>
+    <div class="row revealOnScroll">
+		<div class="col-md-offset-2 col-md-4">
 			<div class="featureblock">
 	<!--         <i class="fa-envelope fa"></i> -->
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-nw.png">
@@ -206,9 +217,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
 			</div>
         </div>
-	</div>
-	<div class="row revealOnScroll">
-		<div class="col-md-offset-2 col-md-4">
+		<div class="col-md-4">
 			<div class="featureblock">
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/theming-nw.png">
 				<p class="section--paragraph__tittle"><?php echo $l->t('Branding');?></p>
@@ -217,7 +226,9 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
 			</div>
 		</div>
-		<div class="col-md-4">
+	</div>
+	<div class="row revealOnScroll">
+		<div class="col-md-offset-2 col-md-4">
 			<div class="featureblock">
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/spreed-screenshare2-nw.png">
 				<p class="section--paragraph__tittle"><?php echo $l->t('Installation and configuration support');?></p>

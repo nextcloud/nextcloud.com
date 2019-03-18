@@ -38,8 +38,8 @@
 		</div>
         <div class="col-md-6 revealOnScroll">
             <p class="section--paragraph__tittle"><?php echo $l->t('Unique protection');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Nextcloud Talk goes further than other encrypted communication technologies by keeping metadata private.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('While public solutions like Whatsapp or Telegram might encrypt content, they and whomever monitors them still can see who you communicate with and when. With Nextcloud Talk meta data never leaves your server.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud talk protects your communication better than other team collaboration platforms like Microsoft Teams or Slack, making sure your data stays on your servers.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud Talk goes further than other encrypted communication technologies by keeping even metadata from leaking.');?></p>
             <p class="section--paragraph"><?php echo $l->t('This ensures you stay in complete control of communications.');?></p>
 		</div>
 	</div>
