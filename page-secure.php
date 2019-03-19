@@ -211,6 +211,7 @@
                     <?php echo file_get_contents(get_template_directory()."/assets/img/icons/encryption.svg"); ?>
                     <p class="section--paragraph__tittle"><?php echo $l->t('Encryption');?></p>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud uses industry-standard SSL/TLS encryption for data in transfer. Additionally, data at rest in storage can be encrypted using a default military grade AES-256 encryption with server-based or custom key management. Also optionally and on a per-folder base data can be');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('end-to-end encrypted</a> on the client with the server assisting in sharing and key management using a Zero-Knowledge model.');?>
+                    <p class="section--paragraph"><?php echo $l->t('Note that E2E is currently (early 2019) in beta. V2 is expected end summer 2019.');?></p>
                     </p>
                 </div>
                 <div class="col-md-4">
