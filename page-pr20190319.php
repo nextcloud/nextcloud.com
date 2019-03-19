@@ -207,6 +207,9 @@ Tomas Vondra, Technical director, Home at Cloud, Czech Republic<br>
 Marcus Toth, CEO, Beamy Lake GmbH, Austria<br>
 Christopher Atlan, Owner, Letter Opener GmbH, Austria<br>
 Dennis Nissen, CEO, naymspace GmbH & Co. KG, Germany<br>
+Max Seelemann, Co-Founder & Executive Director, Ulysses GmbH & Co. KG, Germany<br>
+Torsten Markmann, Managing Director, Uplinked UG, Germany<br>
+Pavel Volk, Owner, Pavel Volk - Bischofstein, Czech Republic<br>
 </em></p></div>
 
 <hr>
