@@ -55,7 +55,7 @@ if(isset($_POST['companymail'])) {
   }
     $string_exp = "/^[A-Za-z .'-]+$/";
   if(!preg_match($string_exp,$yourname)) {
-    $error_message .= 'The name you entered does not appear to be valid.<br />';
+//     $error_message .= 'The name you entered does not appear to be valid.<br />';
   }
   if (strlen($checksum) !== 75 || !strpos($checksum, ':')) {
         $error_message .= 'The checksum is not valid.<br />';
