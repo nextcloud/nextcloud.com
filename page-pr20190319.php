@@ -52,7 +52,7 @@ e-mail: <a href="mailto:pr@nextcloud.com">pr@nextcloud.com</a></p>
 
 <hr>
 
-<h1>Public letter to menbers of the European Parliament</h1>
+<h1>Public letter to members of the European Parliament</h1>
 <div style="float:right"><a href="https://nextcloud.com/press/pr20190319">March 19th, 2019</a></div>
 <p>Dear Members of the European Parliament,</p>
 <div style="font-weight: 150;">
@@ -210,6 +210,18 @@ Dennis Nissen, CEO, naymspace GmbH & Co. KG, Germany<br>
 Max Seelemann, Co-Founder & Executive Director, Ulysses GmbH & Co. KG, Germany<br>
 Torsten Markmann, Managing Director, Uplinked UG, Germany<br>
 Pavel Volk, Owner, Pavel Volk - Bischofstein, Czech Republic<br>
+Reinblau eG, Germany<br>
+Błażej Sołtowski, CEO & Co-Founder, MLabs sp. z o.o., Poland<br>
+Dennis Nissen, CEO, naymspace software GmbH & Co. KG, Germany<br>
+Maik Derstappen, CEO, Derico, Germany<br>
+Peter Faxe Lachenmair, Owner, lachenmair.info - it consulting, Germany<br>
+Redon Skikuli, Business Development, Collective68, Albania<br>
+Aris Ntatsis, CEO, Onscreen Web Services, Greece<br>
+Nikos Roussos, Founder, Autoverse, Greece<br>
+Eduardo Díaz Comellas, CEO, Ultreia Comunicaciones, SL, Spain<br>
+Ricardo Cristof Remmert-Fontes, Owner, Midvinter Holzhandwerk, Germany<br>
+Youthweb e.V., Germany<br>
+
 </em></p></div>
 
 <hr>
