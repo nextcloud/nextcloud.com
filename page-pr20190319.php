@@ -201,6 +201,13 @@ Ansgar H. Licher, Co-Founder &amp; CEO, Martin Werthmöller, Co-Founder &amp; CT
 
 <hr>
 
+<div style="font-weight: 150;"><h1>Signatories after publication</h1>
+<p><em>Mathias Bartholomäus, CEO and founder, studio.201 software GmbH, Germany<br>
+Tomas Vondra, Technical director, Home at Cloud, Czech Republic<br>
+Marcus Toth, CEO, Beamy Lake GmbH, Austria</em></p></div>
+
+<hr>
+
 <h1>Signing the letter <small>(after publication)</small></h1>
 <p>If you want to sign the public letter with your company, please fill in the form below.<br>Note that your company name will be added to a separate list below the existing signatories.</p>
 
