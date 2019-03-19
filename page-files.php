@@ -273,7 +273,8 @@
                 <p class="section--paragraph__tittle"><?php echo $l->t('Mobile and desktop clients');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud Files clients for Android, iOS and desktop systems allow users to sync and share files, in a fully secure way through an encrypted connection. The mobile clients feature automatic upload of pictures and videos users take and they can synchronize selected files and folders. The clients can handle multiple accounts, show all activity happening on the server and notify users of new events such as the availability of new shares.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud clients support');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('End-to-end Encryption</a> for ultimate security of enterprise data.');?></p>
-                <a href="<?php echo home_url('clients') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+                <p class="section--paragraph"><?php echo $l->t('Note that E2E is currently (early 2019) in beta. V2 is expected end summer 2019.');?></p>
+                   <a href="<?php echo home_url('clients') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
             </div>
         </div>
 	</div>
