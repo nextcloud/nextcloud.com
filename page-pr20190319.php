@@ -30,7 +30,7 @@ said Karlitschek.
 
 <p>At the end of March, the EU parliament will have to vote on the Copyright Directive. Two articles in this directive - Articles 11 and 13 - will seriously jeopardize the success of business enterprises.</p>
 
-<p>Find below a link to the open letter with its list of signatures.</p>
+<p>Find the open letter with its list of signatures below, as well as links to a downloadable PDF and our blog post.</p>
 
 <p><strong>About Nextcloud</strong><br>
 Nextcloud offers the industry-leading, fully open source, self-hosted Content Collaboration Platform, combining the easy user interface of consumer-grade cloud solutions with the security and compliance measures enterprises need. Nextcloud brings together universal access to data through mobile, desktop and web interfaces with next-generation, on-premise secure communication and collaboration features like real-time document editing, chat and video calls, putting them under direct control of IT and integrated with existing infrastructure.<br/>
@@ -50,8 +50,159 @@ Hirschstrasse 26<br />
 D-70173 Stuttgart, Germany<br />
 e-mail: <a href="mailto:pr@nextcloud.com">pr@nextcloud.com</a></p>
 
+<hr>
+
+<h1>Public letter to menbers of the European Parliament</h1>
+<div style="float:right"><a href="https://nextcloud.com/press/pr20190319">March 19th, 2019</a></div>
+<p>Dear Members of the European Parliament,</p>
+<div style="font-weight: 150;">
+The companies signing this letter to the European Parliament are urging you to <strong>vote against Articles 11 and 13</strong> of the proposed copyright directive. The text of the trilogue agreement would <strong>harm the European economy</strong> and seriously undermine the ability of European businesses to compete with big Internet giants like Google.<p></p>
+<p>We <strong>support the goal of the legislation</strong> to protect the rights of creators and publishers, but <strong>the proposed measures are inadequate</strong> to reap these benefits and also fail to strike a fair balance between creators and all other parts of society. The success of our business enterprises will be <strong>seriously jeopardized</strong> by these heavy-handed EU regulations.</p>
+<p>Especially Article 13 is dangerously experimenting with the core foundation of the Internet’s ecosystem. Making companies directly liable for the content of their users forces these businesses to make billions of legal decisions about the legality of content. Most companies are neither equipped nor capable of implementing the automatic content filtering mechanisms this requires, which are expensive and prone to error.</p>
+<p>Article 11 is creating a completely new intellectual property right for press publishers. The experience with similar laws in Germany and Spain raises serious doubts about the expected benefits, while the negative impact would be very real. An additional layer of exclusive rights would make it harder to clear the necessary legal hurdles to start new projects. <strong>It will make entrepreneurs more hesitant to just launch new projects.</strong> Europe would lose any chance to play a significant role on the world stage. Startups that build services based on aggregated online information would go out of business, and every company that publishes press summaries of their appearance in the media would be in violation of this law.</p>
+<p>Although the purpose of these regulations is to limit the powers of big US Internet companies like Google or Facebook, the proposed legislation would end up having the opposite effect. Article 13 requires filtering of massive amounts of data, requiring technology only the Internet giants have the resources to build. <strong>European companies will be thus forced to hand over their data to them, jeopardizing the independence of the European tech industry as well as the privacy of our users.</strong> European companies like ours will be hindered in their ability to compete or will have to abandon certain markets completely.</p>
+<p>Given all of these issues it is noteworthy that the final trilogue agreement lacks meaningful safeguards for small and medium enterprises. The broad scope of this law would most likely lead to less new companies being founded in Europe and existing companies moving their headquarters out of Europe. <strong>For all those reasons we urge every pro-Startup politician to vote against Article 11 and Article 13.</strong></p>
+<p>Sincerely,</p>
+<p><em>Frank Karlitschek, Founder &amp; CEO, Nextcloud GmbH, Germany<br>
+Jutta Steiner, CEO &amp; Founder, Parity, United Kingdom<br>
+Alan Duric, CTO/COO and Co-Founder, Wire, Switzerland<br>
+Jon Karlung, CEO Bahnhof AB, Sweden<br>
+Stefan Lingler, CTO, finderly Gmbh, Austria<br>
+Philippe Kalaf, CEO, Collabora Limited, United Kingdom<br>
+Till Faida, CEO, eyeo GmbH, Germany<br>
+Cătălin Frâncu, Founder, dexonline.ro, Romania<br>
+Ruth Schöllhammer, Chairwoman of the Managing Board, Deutscher Gründerverband, Germany<br>
+Sam Tuke, CEO, phpList, United Kingdom<br>
+Peter Ganten, Founder and CEO, Univention &amp; Chairman, Open Source Business Alliance, Germany<br>
+p≡p Security SA, Luxembourg<br>
+Lenard Koschwitz, Senior Director Global Policy, Allied for Startups, EU/Global<br>
+Erik Muttersbach, CTO, FreightHub, Germany<br>
+Nitrokey UG, Germany<br>
+Dom Hallas, Executive Director, The Coalition for a Digital Economy (COADEC), United Kingdom<br>
+Tobias Gerlinger, CEO, Owncloud, Germany<br>
+Adela Zábražná, Executive Manager, SAPIE – The Slovak Alliance for Innovation Economy, Slovakia<br>
+Travis Todd, Co-founder, Silicon Allee, Germany<br>
+Harald Kapper, CEO, Kapper Network-Communications GmbH, Austria<br>
+Tim Pritlove, Owner, Metaebene Personal Media, Germany<br>
+Bernd Hilmar, CEO,  VIRTEXXA Cloud Services SRL, Romania<br>
+Frank J. Dürring, Dipl.-Inf. (FH), CEO, condero Aktiengesellschaft, Germany<br>
+Markus Raunig, Managing Director, AustrianStartups, Austria<br>
+Mirko Lorenz, Co-founder and Co-CEO, Datawrapper, Germany<br>
+Brian Joseph, CEO, Kopano BV, Netherlands<br>
+Dr. Detlef Oertel and Erol Ülükmen, Managing Directors, uib gmbh, Germany<br>
+Julia Szopa, President of the Board, Startup Poland, Poland<br>
+Paolo Vecchi,CEO, Omnis Cloud, Luxembourg<br>
+Timo Hetzel, Managing Director, Undsoversum GmbH, Germany<br>
+Maddalena Falzoni, CEO, MaadiX, Spain<br>
+Ralf Becker, CEO, Birgit Becker, CEO, Egroupware GmbH, Germany<br>
+Gianmarco Carnovale, Chairman, Roma Startup, Italy<br>
+Ulrich Brandner, CEO, CIB software GmbH, Germany<br>
+Steffen Weber, CEO, ComputerBase GmbH, Germany<br>
+evenly GmbH, Germany<br>
+Pierre Beyssac, CEO &amp; Founder, Eriomem.net, France<br>
+Stefan Scholz, CEO, Zellwerk GmbH &amp; Co. KG, Germany<br>
+Schallert.com e.U., Austria<br>
+Factory, Germany<br>
+Nicolas Chauvat, CEO, Logilab, France<br>
+Maik Aussendorf, Managing Director, Bareos GmbH &amp; Co. KG, Germany<br>
+Richard Marx, COO, Assanti Insurance Technologies, Netherlands<br>
+Philippe Hemmel, President, Arawa, France<br>
+Fabio Natali, Director, Reckon Digital, United Kingdom<br>
+Sebastian Jabbusch, Founder and CEO, Public Impact UG, Germany<br>
+Labarama, Austria<br>
+Mario Behling, CEO, OpnTec GmbH, Germany<br>
+Daniel Hansson, Founder and Owner, T&amp;M Hansson IT AB, Sweden<br>
+Lars Fassmann, Founder and CEO, chemmedia AG, Germany<br>
+Alexander Todorov, CEO, Open Technologies Bulgaria, Ltd, Bulgaria<br>
+Dr. Detlef Hühnlein, CEO, ecsec GmbH, Germany<br>
+Tom Knienieder, CEO, peaknetworks e.U., Austria<br>
+Karsten Klein, CEO, metaeffekt GmbH, Germany<br>
+Thierry Leblond, CEO, Scille, France<br>
+Dirk Ahrnke, Managing Director, it:25, Germany<br>
+Gerhard Sternath, CEO/CFO, LINBIT HA-Solutions GmbH, Austria<br>
+Bernhard Reiter, Managing Director, Intevation GmbH, Germany<br>
+Alexey Volkov, Founder and CEO, On My Disk, Slovenia<br>
+Marcel van Duijvendijk, CEO, Wind Engineering Solutions, Netherlands<br>
+Bozena Jarosz, CEO, SecN UG, Germany<br>
+Dr.ir Rick van Rein, CTO, OpenFortress B.V., Netherlands<br>
+Dirk Kutsche, CEO, pro-ite GmbH, Germany<br>
+Anne Dillard, Pierre Fumet &amp; Cyril Lacoux, Managing Directors, EASTER-EGGS, France<br>
+Felix Arndt, CEO, fnordserver, Germany<br>
+Oscar Ortega, CEO, BTACTIC, Spain<br>
+Clemens Toennies, CEO, Blue Systems GmbH, Germany<br>
+Ajdin Gazija, CEO and Christian Machalitzky, CTO, NOBUGS IT GmbH, Austria<br>
+Dirk Breunich, CEO, Donner &amp; Doria Werbeagentur GmbH, Germany<br>
+Dennis Pennings, CTO, Good Cloud BV, Netherlands<br>
+Silvina Furnadzhieva, CEO, Double Click Systems Ltd., Bulgaria<br>
+Samuel John, CEO, OtoJig GmbH, Germany<br>
+Marius Quabeck, CEO, NerdZoom Media, Germany<br>
+Martin Wiederkehr, CEO &amp; Partner, Ops One AG, Switzerland<br>
+Mario Peshev, CEO, DevriX Ltd., Bulgaria<br>
+Steffen Lindner, CEO, Portknox.net, Germany<br>
+Tada.city, Netherlands<br>
+Omnis Systems Ltd, United Kingdom<br>
+Alexander Nimmervoll, Managing Director, Generalize-IT Solutions OG, Austria<br>
+Nadine Nüsse, CCO, Innovo Cloud GmbH, Germany<br>
+Christopher Neal, Director, Twist Development Limited, United Kingdom<br>
+Werner Klinger, CEO, Neodiffusion, France<br>
+Liane Hampe, Managing Director, xmera e.K., Germany<br>
+Markus Frei, Managing Director, Linuxfabrik, Switzerland<br>
+Dr. Richard Heigl, Co-Founder and CEO, Hallo Welt! GmbH, Germany<br>
+Sander Venema, Owner, Asteroid Interactive, Netherlands<br>
+Harald Dittmar, CEO, sys-pro GmbH, Germany<br>
+Daniel Huhardeaux, CEO, TOOTAi, France<br>
+Johan Poortvliet, Owner, Adjoadvies bv, Netherlands<br>
+Philipp Süß, Managing Owner, Ingenieurbüro Süß &amp; friends, Germany<br>
+Patricia Moncorgé, CEO, Editions D-BookeR, France<br>
+Ralf Guttmann, CEO, Hyperspace GmbH, Germany<br>
+Patrick Babonneau, CTO, Eralog, France<br>
+Thomas Michalak, Owner, Nimmerland Nextcloud Service, Germany<br>
+Huib Verweij, Owner, X-Scale, Netherlands<br>
+Nicolas Lantz,  Founder and CEO, UBICORE, France<br>
+Oliver Breidenbach, Director (CEO), Boinx Software Ltd., Germany<br>
+360ict, Netherlands<br>
+Just Software AG, Germany<br>
+Frédéric Da Vitoria, Owner, FDV Informatique, France<br>
+Stefan Vartolomeev, CEO &amp; Founder, Pisateli BG, Bulgaria<br>
+Claudia Behr, Owner, computer &amp; communication, Austria<br>
+Johan Bernhardsson, CEO, Kafit AB, Sweden<br>
+Clara Guinea Jaime, CEO, WIKIVITAS SL, Spain<br>
+Holger Schlichting, Managing Director, PRAXISFELD GmbH, Germany<br>
+Romain Hurdequint, Founder, The Daily Board Co., France<br>
+Jörg Günther, Main shareholder, AFI Solutions GmbH, Germany<br>
+Oslandia, France<br>
+Ingo Wichmann, CEO, Linuxhotel GmbH, Germany<br>
+Inventia Plus S.L., Spain<br>
+Jérémie Lesage, Company Manager, JECI SARL, France<br>
+Philip Bräunlich, Managing Director, Gerrit van Aaken, Managing Director, whitespace GmbH, Germany<br>
+Reinhold Baudisch, CEO, Michael Doberer, CEO, durchblicker.at, Austria<br>
+Robert Gavin, Managing Partner, Sören Tschiersch, Managing Partner, Flens IT Solutions GmbH, Germany<br>
+Hal Hughes, Director, TeeBase UK Ltd., United Kingdom<br>
+Sebastian Software GmbH, Germany<br>
+Florent Manens, CEO, BeeZim, France<br>
+Linnart Unger, Founder and Managing Director, Studio GOOD digital GmbH, Germany<br>
+Ing. Mag. Dr. Vincenz Leichtfried, CEO, LV7 Media Services, Austria<br>
+Mark Heckes, Managing Director, complingua GmbH, Germany<br>
+Andrej Stojanovič, CEO, A-com spletne storitve, Slovenia<br>
+Ingomar Otter, Director Technology &amp; Innovation, Valtech Mobility GmbH, Germany<br>
+Josef Mayerhofer, Executive Director, WVNET, Austria<br>
+Bär Tiger Wolf GmbH, Germany<br>
+Julien Fastré, Administrator, Champs Libres Cooperative SCRLFS, Belgium<br>
+fullstax GmbH &amp; CO. KG, Germany<br>
+Bauspenglerei Sukup-Groetzer OG, Austria<br>
+Biker-Boarder, Germany<br>
+Autonom Health GesundheitsbildungsGmbH, Austria<br>
+Nerdlichter AG, Germany<br>
+Tripple Internet Content Services, Austria<br>
+Yaltik, France<br>
+Konrad Koch, CTO, pantaBio AG, Germany<br>
+Nicolas Ducoulombier, Founder and CEO, Sébastien Ducoulombier, Founder and CEO, Julien Steinhauser, CEO, Les Développements Durables, France<br>
+Ansgar H. Licher, Co-Founder &amp; CEO, Martin Werthmöller, Co-Founder &amp; CTO, Lwsystems GmbH &amp; Co. KG, Germany</em></p></div>
+
+<hr>
+
 <h1>Signing the letter <small>(after publication)</small></h1>
-<p>If you want to sign the public letter with your company, please fill in the form below.<br>Note that your company name will be added to a separate list below the existing signatories on our blog.</p>
+<p>If you want to sign the public letter with your company, please fill in the form below.<br>Note that your company name will be added to a separate list below the existing signatories.</p>
 
 <?php
 
