@@ -91,7 +91,7 @@ if(isset($_POST['companymail'])) {
     $email_message .= "Company: ".clean_string($company)."\n";
     $email_message .= "Country: ".clean_string($country)."\n\n";
     $email_message .= "Thank you!\n\n";
-    $email_message .= "-- \nMarie Gutbub\n Marketing\n\noOo - Nextcloud Files, Groupware & Talk\nKeep your data secure and under your control\n\nT +49 711 25242890\nF +49 (711) 252 428 - 20\nE marie.gutbub@nextcloud.com\nW https://nextcloud.com\n\nNextcloud GmbH\nHirschstrasse 26, 70173 Stuttgart, Germany\nGF: Frank Karlitschek\nHRB 227086 (AG München)\n";
+    $email_message .= "-- \nJos Poortvliet\nHead of Marketing\n\noOo - Nextcloud Files, Groupware & Talk\nKeep your data secure and under your control\n\nT +49 711 25242890\nF +49 (711) 252 428 - 20\nE jos.poortvliet@nextcloud.com\nW https://nextcloud.com\n\nNextcloud GmbH\nHirschstrasse 26, 70173 Stuttgart, Germany\nGF: Frank Karlitschek\nHRB 227086 (AG München)\n";
 // create email headers
     $headers = 'From: marie@nextcloud.com'."\r\n".
     'Reply-To: '.$email_from."\r\n" .
