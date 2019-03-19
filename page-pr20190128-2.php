@@ -2,7 +2,11 @@
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pressrelease.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
-
+    <meta itemprop="image" content="https://nextcloud.com/media/Virtual-Drive-screenshot.png">
+    <meta name="twitter:image" content="https://nextcloud.com/media/Virtual-Drive-screenshot.png">
+    <meta name="twitter:image:src" content="https://nextcloud.com/media/Virtual-Drive-screenshot.png">
+    <meta property="og:image" content="https://nextcloud.com/media/Virtual-Drive-screenshot.png">
+</head>
 <div class="background generic-background">
     <img class="pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/empty1x1.png" alt="">
     <div class="container">
