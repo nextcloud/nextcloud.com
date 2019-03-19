@@ -204,7 +204,10 @@ Ansgar H. Licher, Co-Founder &amp; CEO, Martin Werthmöller, Co-Founder &amp; CT
 <div style="font-weight: 150;"><h1>Signatories after publication</h1>
 <p><em>Mathias Bartholomäus, CEO and founder, studio.201 software GmbH, Germany<br>
 Tomas Vondra, Technical director, Home at Cloud, Czech Republic<br>
-Marcus Toth, CEO, Beamy Lake GmbH, Austria</em></p></div>
+Marcus Toth, CEO, Beamy Lake GmbH, Austria<br>
+Christopher Atlan, Owner, Letter Opener GmbH, Austria<br>
+Dennis Nissen, CEO, naymspace GmbH & Co. KG, Germany<br>
+</em></p></div>
 
 <hr>
 
