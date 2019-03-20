@@ -13660,6 +13660,9 @@ blockquote:after {
   vertical-align: -0.7em;
   font-family: serif;
 }
+blockquote p {
+  margin-top: -40px;
+}
 
 /*  Mobile */
 @media (max-width: 768px) {
