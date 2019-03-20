@@ -106,8 +106,8 @@
 <!--         <p class="section--paragraph revealOnScroll"><small>The Enterprise Day takes place the day after the <a class="hyperlink" href="<?php echo home_url('conf') ?>">Nextcloud Conference</a>, an event for Nextcloud contributors. The Conference features talks, development workshops and keynotes on Saturday 25th and Sunday 26th of August.</small></p> -->
         <p class="section--paragraph revealOnScroll"><small>The Enterprise Day takes place on the 12th of March, 2019, in Stuttgart.</small></p>
     </div>
-    <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/workshop3.jpg">
-    <img class="small-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/workshop3.jpg">
+    <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/enterprise-day.jpg">
+    <img class="small-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/enterprise-day.jpg">
     </div>
 </div>
 </section>

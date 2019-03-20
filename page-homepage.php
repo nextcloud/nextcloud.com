@@ -55,7 +55,7 @@
 	</div>
 </section>
 
-<section class="section--enterprise-day">
+<!--<section class="section--enterprise-day">
 	<div class="container-fluid">
 			<div class="container">
                 <h2 class="section--heading-1 revealOnScroll">Enterprise Day</h2>
@@ -69,7 +69,7 @@
                 <p class="section--paragraph revealOnScroll"><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Learn more and book</a></p>
 			</div>
 	</div>
-</section>
+</section>-->
 
 <?php require get_template_directory().'/compliance.php';?>
 
