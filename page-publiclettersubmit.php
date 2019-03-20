@@ -76,7 +76,7 @@ if(isset($_POST['companymail'])) {
 			return str_replace($bad, "", $string);
 		}
 // the app review mailing list address
-    $email_from = "marie@nextcloud.com";
+    $email_from = "jos@nextcloud.com";
 
 	$email_subject = "Public letter against Art. 11 and 13 in name of ".clean_string($company);
 
@@ -93,7 +93,7 @@ if(isset($_POST['companymail'])) {
     $email_message .= "Thank you!\n\n";
     $email_message .= "-- \nJos Poortvliet\nHead of Marketing\n\noOo - Nextcloud Files, Groupware & Talk\nKeep your data secure and under your control\n\nT +49 711 25242890\nF +49 (711) 252 428 - 20\nE jos.poortvliet@nextcloud.com\nW https://nextcloud.com\n\nNextcloud GmbH\nHirschstrasse 26, 70173 Stuttgart, Germany\nGF: Frank Karlitschek\nHRB 227086 (AG München)\n";
 // create email headers
-    $headers = 'From: marie@nextcloud.com'."\r\n".
+    $headers = 'From: jos@nextcloud.com'."\r\n".
     'Reply-To: '.$email_from."\r\n" .
     'Content-Type: text/plain; charset=UTF-8'."\r\n";
 // store in log
