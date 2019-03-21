@@ -221,7 +221,33 @@ Nikos Roussos, Founder, Autoverse, Greece<br>
 Eduardo Díaz Comellas, CEO, Ultreia Comunicaciones, SL, Spain<br>
 Ricardo Cristof Remmert-Fontes, Owner, Midvinter Holzhandwerk, Germany<br>
 Youthweb e.V., Germany<br>
-
+Elio Quoshi, Founder, Ura Design, Albania<br>
+Jérôme Marchini, founder, paquerette.eu, France<br>
+Pedro Fernandes, Founder, TugaTech, Portugal<br>
+Fabian Spielberger, CEO, Pepper Media Holding GmbH, Germany<br>
+Jasir Baftijari, Founder, JABA e.K., Germany<br>
+Ole Emken, Co-Founder & CEO, medienweite GmbH & Co. KG, Germany<br>
+Daniel Weingart, Freelancer, Medien & Design, Germany<br>
+Christian Steiauf, Sales Manager, Endpoint Protector GmbH, Germany<br>
+Pierre Chevalier, géologue et informaticien, Sémofi, France<br>
+Bastian Allgeier, CEO, Bastian Allgeier GmbH, Germany<br>
+Julian Mair, Co-Founder, Hotel Tirolerhof des Mair Manfred & Co. KG, Italy<br>
+David Lopez, SerenaMail, Spain<br>
+Speed U Up, Austria<br>
+Daniel Bönisch, Founder and CEO, UEBERBIT GmbH, Germany<br>
+Jacobo Vidal, Co-Founder & CEO, Arengu, Spain<br>
+Michael Wegge, CEO & Founder, Firesource UG, Germany<br>
+Benjamin Schröter - CEO, Founder & Wolfram Bernhardt - CEO, Founder, Rhein-Spree Software Engineering GmbH, Germany<br>
+Valentin Born, owner, born2webdesign, Germany<br>
+Arnaud Launay, CEO, Cusae, France<br>
+Dr. Ingo Keck, CTO, Moringa Science Publishing UG, Germany<br>
+Peter Faxe Lachenmair, owner, lachenmair.info - it consulting, Germany<br>
+Georg Stefanowitsch, OHNE LIMIT, Germany<br>
+Eleftherios Tzouanakis, owner, CretaDrive, Greece<br>
+Peter Gierl (CTO), markt.de GmbH & Co KG, Germany<br>
+Konrad Greilich, Thomas Möhle, Marius Hoppe (Founders), Bitkomplex UG (haftungsbeschränkt), Germany<br>
+Damien Accorsi - Dirigeant, Algoo, France<br>
+Markus Winzer, Prokurist, E. Winzer GmbH & Co KG, Austria<br>
 </em></p></div>
 
 <hr>
