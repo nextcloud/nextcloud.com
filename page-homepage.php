@@ -17,7 +17,7 @@
 				<span class="message"><strong><?php echo $l->t('Nextcloud goes social:');?></strong> <?php echo $l->t('Nextcloud 15 has arrived with next-gen 2FA and collaborative editing');?></span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
-				<h1 class="jumbotron--heading-1"><?php echo $l->t('Nextcloud - Protecting your data');?></h1>
+				<h1 class="jumbotron--heading-1"><?php echo $l->t('Protecting your data');?></h1>
 				<h2 class="jumbotron--lead"><?php echo $l->t('Building self-hosted products that allow you to be productive without losing control');?></h2>
 				<a class="button button--large button--arrow button--white" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Get Nextcloud');?></a><br>
 				<a class="button button--large button--arrow--down button--blue" href="#why-nextcloud" role="button" id="get-nextcloud-button"><?php echo $l->t('Learn more');?></a>
