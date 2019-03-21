@@ -13714,7 +13714,7 @@ blockquote p {
 }
 /* Blue call to action bar */
 .quote {
-  padding: 40px 0 40px 0;
+  padding: 0;
   background: #0082c9;
   color: white !important;
 }
