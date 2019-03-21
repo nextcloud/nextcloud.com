@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/usermanagement.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/usermanagement.css?v=1" rel="stylesheet">
 <!-- <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script> -->
 <!--<script type="text/javascript">
     var CaptchaCallback = function() {
@@ -51,12 +51,10 @@
 
 <div class="container-fluid quote">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
-				<p class=""><?php echo $l->t('Learn more about how Nextcloud helps you keep your data secure.');?></p>
-				<div class="text-center morebuttondiv">
-					<a href="<?php echo home_url('secure') ?>" class="button button--large button--arrow"><?php echo $l->t('Security in Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
-				</div>
+		<div class="row revealOnScroll">
+            <p class="text-center"><?php echo $l->t('Learn more about how Nextcloud helps you keep your data secure.');?></p>
+            <div class="text-center morebuttondiv">
+                <a href="<?php echo home_url('secure') ?>" class="button button--large button--arrow"><?php echo $l->t('Security in Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 			</div>
 		</div>
 	</div>

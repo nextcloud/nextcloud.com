@@ -13714,9 +13714,12 @@ blockquote p {
 }
 /* Blue call to action bar */
 .quote {
-  padding: 0;
+  padding: 60px 0 60px 0;
   background: #0082c9;
   color: white !important;
+}
+.quote.banner, .quote.section--whitepaper {
+  padding: 0;
 }
 .quote p, .quote ul, .quote li {
   color: white !important;
@@ -13749,8 +13752,8 @@ blockquote p {
   }*/
 }
 .section--whitepaper .container, .whitepaper .container {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   position: relative;
 }
 .section--whitepaper h2, .whitepaper h2 {

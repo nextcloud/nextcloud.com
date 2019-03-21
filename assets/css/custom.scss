@@ -1365,7 +1365,10 @@ blockquote {
 /* Blue call to action bar */
 
 .quote {
-	padding: 0;
+	padding: 60px 0 60px 0;
+	&.banner, &.section--whitepaper {
+		padding: 0;
+	}
 	background: $nextcloud-blue;
 	color: white !important;
 	p,ul,li {
@@ -1386,8 +1389,8 @@ blockquote {
 .section--whitepaper, .whitepaper {
     padding: 0;
 	.container {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 30px;
+        padding-bottom: 30px;
 		position: relative;
 	}
 
