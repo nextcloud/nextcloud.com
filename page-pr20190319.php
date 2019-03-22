@@ -248,6 +248,42 @@ Peter Gierl (CTO), markt.de GmbH & Co KG, Germany<br>
 Konrad Greilich, Thomas Möhle, Marius Hoppe (Founders), Bitkomplex UG (haftungsbeschränkt), Germany<br>
 Damien Accorsi - Dirigeant, Algoo, France<br>
 Markus Winzer, Prokurist, E. Winzer GmbH & Co KG, Austria<br>
+Founder, Saber, UK<br>
+Fernando Alava, owner, PixyBit SLU, Spain<br>
+Xavier Colombel, CEO, Le Reacteur, France<br>
+CEO & Co-founder, Tiptapp, Sweden<br>
+Jerome Leclanche, Director, Goveni Limited, Ireland<br>
+Florian Traverse, CTO and founder, RockSolead, France<br>
+Christian Maas, Founder, myNFP, Germany<br>
+Tillmann Carlos Bielefeld, CEO, Maerketing Europe OÜ, Estonia<br>
+Evan Murs, owner, Opentruss - Ethicity, Ireland<br>
+Kenny Levinsen, Founder and CEO, Levinsen Software IVS, Denmark<br>
+Martijn Vos, founder, Vosdev, Netherlands<br>
+Thomas Schweizer-Bolzonello, CEO, Intelliance, Estonia<br>
+Founder, Screenaware UG, Germany<br>
+Florian Wesch, CEO, inlua GmbH & Co. KG, Germany<br>
+David Sinclair (CEO), Codebreeze, Sweden<br>
+Loris Cuoghi, Founder & CTO, AArtificiale, France<br>
+Vinay Sajip, Red Dove Consultants Limited, UK<br>
+Andrea Borghi, CEO, W Key s.r.l., Italy<br>
+Damjan Maticic, CEO, Koofr, Slovenia<br>
+Dmitriy Akulov, CEO, PerfOps, Poland<br>
+George Kastelakis, CEO, Ignimedia EE, Greece<br>
+Rasmus Porsager, Founder, Porsager IVS, Denmark<br>
+Sylvain Kerkour, CEO, Phaser Security France<br>
+Stefan Keller, CEO, Keller & Neudecker GdbR, Germany<br>
+Robin Jakobsson, Wavy AB, Sweden<br>
+Bert Defoor founder, Gardica, Belgium<br>
+Hakon Eide, CEO, Personal Software Ltd, UK<br>
+CTO, DreamApply.com, Estonia<br>
+Jan Rychter, Founder, PartsBox.io, Poland<br>
+Bart van Bragt, Founder, Bokt.nl, Netherlands<br>
+Dr. Bernd Niklas Klein, CTO, ZENNER IoT Solutions GmbH, Germany<br>
+Johan Christenson, CEO, City Network, Sweden<br>
+Dawid Wiktor, Founder & CEO, Media Scope Group, Estonia<br>
+Ghislain Fabre, Open-Elearning, France<br>
+Founder & CEO, Abilian SAS, France<br>
+Patrick Broeckers, CEO, opwoco GmbH, Germany<br>
 </em></p></div>
 
 <hr>

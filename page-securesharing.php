@@ -89,8 +89,8 @@
             <div class="col-md-4 revealOnScroll">
                 <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
                 <p class="section--paragraph__tittle text-center">Why self-hosting?</p>
-                <p class="section--paragraph text-center">Simply keeping your data behind your company firewall rather than the cloud makes compliance and security easy.</p>
-                <p class="section--paragraph text-center">With Nextcloud, you don't lose the benefits of modern cloud technology!</p>
+                <p class="section--paragraph text-center">Simply keeping your data behind your company firewall rather than in the cloud makes compliance and security easy.</p>
+                <p class="section--paragraph text-center">With Nextcloud, you don't lose the benefits of modern cloud collaboration and team productivity!</p>
             </div>
             <div class="col-md-4 revealOnScroll">
                 <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
