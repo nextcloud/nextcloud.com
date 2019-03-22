@@ -89,7 +89,6 @@
 		<h3><?php echo $l->t('Get Involved');?></h3>
 		<p><?php echo $l->t('If you want to help out with');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank" rel="tooltip" title="Developer Documentation"><?php echo $l->t('developing');?></a> <?php echo $l->t('and testing, grab a daily build. Find our');?> <a class="hyperlink" href="https://github.com/nextcloud" target="_blank"><?php echo $l->t('GitHub project here');?></a> <?php echo $l->t('and find our ');?> <a class="hyperlink" href="https://github.com/nextcloud/server/issues" target="_blank"><?php echo $l->t('issue tracker for the server here.');?></a></p>
 		<p><a class="button button--white button--small" href="<?php echo $DOWNLOAD_SERVER_DAILY_TAR; ?>" ><i class="fa-archive"></i>  <?php echo $l->t('Daily build');?></a></p>
-		<p><?php echo $l->t('Help test our clients:');?> <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>"><?php echo $l->t('Android Release Candidate client on Play store');?></a> and <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><?php echo $l->t('Android Beta client on F-Droid');?></a></p>
 		<?php if(!empty($SERVER_TESTING_VERSION)) { ?>
 		<p><?php echo $l->t('Latest testing version is ');?> <?php echo $SERVER_TESTING_VERSION; ?></p>
 		<p>
@@ -100,6 +99,7 @@
 			<a class="button button--white button--small" href="<?php echo $DOWNLOAD_SERVER_TAR_TESTING; ?>"><i class="fa-archive"></i> .tar.bz2</a>
 		<?php } ?>
 		<?php } ?>
+		<p><?php echo $l->t('Help test our clients:');?> <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>"><?php echo $l->t('Android Release Candidate client on Play store');?></a> and <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><?php echo $l->t('Android Beta client on F-Droid');?></a></p>
 		<?php if(!empty($VERSIONS_CLIENT_DESKTOP_TESTING)) { ?>
 			<h4><?php echo $l->t('Desktop Clients Testing ');?> <small><?php echo $VERSIONS_CLIENT_DESKTOP_TESTING; ?></small></h4>
 			<p><?php echo $l->t('Please report any issues to the');?> <a class="hyperlink" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES; ?>" target="_blank"><?php echo $l->t('issue tracker.');?></a></p>
