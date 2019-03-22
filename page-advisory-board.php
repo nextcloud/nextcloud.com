@@ -55,7 +55,7 @@
 </div>
 </section>
 
-<!-- <section class="section--memberquotes">
+<!--<section class="section--memberquotes">
 <div class="container">
     <p class="section--heading-1 section--text--center">Membership</p>
     <p class="section--paragraph section--text--center">Our board currently has a little over 20 members,<br> some of whom prefer to remain private.</p>
@@ -135,6 +135,18 @@
         <div class="col-md-3 col-md-xs-6">
             <div class="picture">
                 <div class="pic-container">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/board/felipe.padilha.jpg"/>
+                </div>
+            </div>
+            <p class="section--paragraph__tittle text-center">Felipe Padilha</p>
+            <p class="section--paragraph text-center">IT Deputy Director</p>
+            <blockquote>I'm happy to be part of the Nextcloud Customer Advisory Board and able to exchange experiences and visions from different markets aiming better cloud solutions</blockquote>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-md-xs-6">
+            <div class="picture">
+                <div class="pic-container">
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/board/wolfgang.friedl.jpg"/>
                 </div>
             </div>
@@ -142,8 +154,6 @@
             <p class="section--paragraph text-center">Teamleiter / Team Lead Enterprise Content Management, BEIT GmbH</p>
             <blockquote>(placeholder)</blockquote>
         </div>
-    </div>
-    <div class="row">
         <div class="col-md-3 col-md-xs-6">
             <div class="picture">
                 <div class="pic-container">
@@ -156,7 +166,7 @@
         </div>
     </div>
 </div>
-</section> -->
+</section>-->
 
 <section class="section--benefits benefits">
 <div class="container-fluid banner">
