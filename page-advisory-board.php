@@ -139,7 +139,7 @@
                 </div>
             </div>
             <p class="section--paragraph__tittle text-center">Felipe Padilha</p>
-            <p class="section--paragraph text-center">IT Deputy Director</p>
+            <p class="section--paragraph text-center">IT Deputy Director, AMX Contenido</p>
             <blockquote>I'm happy to be part of the Nextcloud Customer Advisory Board and able to exchange experiences and visions from different markets aiming better cloud solutions</blockquote>
         </div>
     </div>
