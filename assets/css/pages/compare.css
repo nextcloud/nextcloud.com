@@ -439,12 +439,15 @@ Main Components
   margin-left: auto;
   margin-right: auto;
 }
+<<<<<<< HEAD
 
 .cd-products-table .top-info .compare-button {
   display: inline-block;
   margin-top: 0px;
   margin-left: -8px;
 }
+=======
+>>>>>>> update comparison page
 
 .cd-products-table .top-info h3, .cd-products-table .top-info img {
   -webkit-transition: -webkit-transform 0.3s;
@@ -492,7 +495,11 @@ Main Components
 
 @media only screen and (min-width: 1170px) {
   .cd-products-table .top-info {
+<<<<<<< HEAD
     height: 220px;
+=======
+    height: 190px;
+>>>>>>> update comparison page
     width: 150px;
   }
 
@@ -763,12 +770,20 @@ No JS
 }
 
 .no-js .cd-products-table .top-info {
+<<<<<<< HEAD
   height: 175px;
+=======
+  height: 145px;
+>>>>>>> update comparison page
 }
 
 @media only screen and (min-width: 1170px) {
   .no-js .cd-products-table .top-info {
+<<<<<<< HEAD
     height: 278px;
+=======
+    height: 248px;
+>>>>>>> update comparison page
   }
 }
 .no-js .cd-products-columns .check {
@@ -815,5 +830,27 @@ No JS
   left: auto;
   margin: 0;
 }
+<<<<<<< HEAD
+=======
+
+.section--best {
+  padding: 80px 0;
+}
+.section--best .container-fluid {
+  max-width: 1700px;
+}
+.section--best .container-fluid h2 {
+  margin-bottom: 50px;
+}
+.section--best .container-fluid p {
+  margin-bottom: 10px;
+}
+.section--best .container-fluid p.section--paragraph__tittle {
+  margin-bottom: 15px;
+}
+.section--best .container-fluid .row {
+  margin-bottom: 40px;
+}
+>>>>>>> update comparison page
 
 /*# sourceMappingURL=compare.css.map */
