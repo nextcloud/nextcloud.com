@@ -284,6 +284,22 @@ Dawid Wiktor, Founder & CEO, Media Scope Group, Estonia<br>
 Ghislain Fabre, Open-Elearning, France<br>
 Founder & CEO, Abilian SAS, France<br>
 Patrick Broeckers, CEO, opwoco GmbH, Germany<br>
+Andreas Gebhard, CEO, Newthinking Communications GmbH, Germany<br>
+François Armand, CTO, Rudder.io, France<br>
+Tanel Raud, Owner and Manager, Hinnavaatlus OÜ, Eesti<br>
+Rene Saare, CTO, Folderit Ltd, Estonia<br>
+IBTC Rüdiger Alich, Markus Gerards und Marcel Weber GbR, Germany<br>
+Rory Koehler, CEO, Bibimapp Ltd, Ireland<br>
+Andreas Schroth, CEO, hPage Ltd., Malta<br>
+Stephan Fürnrohr (CEO), Selbstdenker AG, Germany<br>
+Mathias Höbinger, CEO and co-founder, ShapeDiver GmbH, Austria<br>
+Sebastian Denef, CEO & Co-Founder, OWN.space, Germany<br>
+Nicola, owner,, Alix Società cooperativa, Italy<br>
+Niall McCarthy, CEO, Crust Technology Ltd, Ireland<br>
+Francisco Puga, Co-Owner, iCarto, Spain<br>
+Sebastian Lasse, journalist, Redaktorcms, Germany<br>
+RebelWeb, Netherlands<br>
+Li Cai, CEO, Doypp GmbH, Germany<br>
 </em></p></div>
 
 <hr>
