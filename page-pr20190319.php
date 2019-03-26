@@ -303,7 +303,7 @@ Li Cai, CEO, Doypp GmbH, Germany<br>
 Simon Dückert, CEO, Cogneon GmbH, Germany<br>
 Maximilian Schieder, Zeug e.K., Germany<br>
 Morgan Leijström, CEO, Tribun AB, Sweden<br>
-Founder & CEO, OwnCube, Austria<br>
+Friedrich Stagl, Founder & CEO, OwnCube, Austria<br>
 </em></p></div>
 
 <hr>
