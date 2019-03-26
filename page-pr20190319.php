@@ -300,6 +300,10 @@ Francisco Puga, Co-Owner, iCarto, Spain<br>
 Sebastian Lasse, journalist, Redaktorcms, Germany<br>
 RebelWeb, Netherlands<br>
 Li Cai, CEO, Doypp GmbH, Germany<br>
+Simon Dückert, CEO, Cogneon GmbH, Germany<br>
+Maximilian Schieder, Zeug e.K., Germany<br>
+Morgan Leijström, CEO, Tribun AB, Sweden<br>
+Founder & CEO, OwnCube, Austria<br>
 </em></p></div>
 
 <hr>
