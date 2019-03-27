@@ -304,6 +304,7 @@ Simon Dückert, CEO, Cogneon GmbH, Germany<br>
 Maximilian Schieder, Zeug e.K., Germany<br>
 Morgan Leijström, CEO, Tribun AB, Sweden<br>
 Friedrich Stagl, Founder & CEO, OwnCube, Austria<br>
+GreenNet, UK
 </em></p></div>
 
 <hr>
