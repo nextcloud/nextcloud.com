@@ -1,4 +1,4 @@
-x<head>
+<head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/verticals.css" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
