@@ -70,6 +70,7 @@ if(isset($_POST['email'])) {
 //     $collabora = $_POST['collabora']; // required
 //     $collabora = $_POST['collabora']; // required
     $collaboraCheck = $_POST['collaboraCheck']  === 'collaboraCheck' ? 'yes' : 'no';
+    $onlyofficeCheck = $_POST['onlyofficeCheck']  === 'onlyofficeCheck' ? 'yes' : 'no';
     $outlook = $_POST['outlook'] === 'outlook' ? 'yes' : 'no';
     $remoteinstall = $_POST['remoteinstall'] === 'remoteinstall' ? 'yes' : 'no';
     $givenprice = $_POST['givenPrice'];
@@ -201,6 +202,9 @@ if(isset($_POST['email'])) {
                             $collaboraPrice = 17 * 99 + ($users - 99) * 16;
                         }
                     }
+                    if ($onlyofficeCheck === 'yes') {
+                    $onlyofficePrice = 935;
+                    }
 //                 }
                 // REMOTE INSTALL
                 if ($remoteinstall === 'yes') {
@@ -241,16 +245,18 @@ if(isset($_POST['email'])) {
                         $usersPrice *= 1.9;
                         $outlookPrice *= 1.9;
                         $collaboraPrice *= 1.9;
+                        $onlyofficePrice *= 2;
                         break;
                     case 3:
                         $usersPrice *= 2.75;
                         $outlookPrice *= 2.75;
                         $collaboraPrice *= 2.75;
+                        $onlyofficePrice *= 3;
                         break;
                 }
             }
 
-            $price = $usersPrice + $outlookPrice + $collaboraPrice + $remoteinstallPrice;
+            $price = $usersPrice + $outlookPrice + $collaboraPrice + $remoteinstallPrice + $onlyofficePrice;
             $price = round($price);
         }
 
@@ -294,6 +300,7 @@ if(isset($_POST['email'])) {
 		$email_message .= "Education/government/charity discount: " . clean_string($edugov) . "\n\n" . "Options:\n";
 		$email_message .= "Would like Outlook option (5€/user): " . clean_string($outlook) . "\n";
 		$email_message .= "Number of Collabora users (17€ for first 99, then 16€/user): " . clean_string($collaboraCheck) . "\n";
+		$email_message .= "Would like ONLYOFFICE option (935€ for first 250): " . clean_string($onlyofficeCheck) . "\n";
 		$email_message .= "Would like remote installation help (990 €): " . clean_string($remoteinstall) . "\n\n";
 		// 	$email_message .= "Would like Branding option: ".clean_string($branding)."\n";
 		// 	$email_message .= "Would like Spreed option: ".clean_string($spreed)."\n";
@@ -308,6 +315,7 @@ if(isset($_POST['email'])) {
             'Content-Type: text/plain; charset=UTF-8';
 		// Send the email
 		$recipients = ['patrick', 'jos', 'morris', 'andreas'];
+// 		$recipients = ['jos']; // for testing
 		$successfullySend = true;
 		foreach ($recipients as $recipient) {
 			$successfullySend &= mail($recipient . '@nextcloud.com', $email_subject, $email_message, $headers);

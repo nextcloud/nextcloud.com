@@ -53,7 +53,7 @@ imagedestroy($image);
 <div class="container">
 	<h2><?php echo $l->t('Nextcloud helps you be successful');?></h2>
 	<p><?php echo $l->t('You run your own Nextcloud server, keeping your data in-house and under control. A support subscription from Nextcloud makes sure it works.');?></p>
-	<?php echo $l->t('You will be able to contact our support team for a speedy answer to questions and fixes for problems you encounter; you can use our');?> <a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('migration support</a> or add additional capabilities with our');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>">Outlook add-in</a> <?php echo $l->t('or');?> <a class="hyperlink" href="<?php echo home_url('collabora') ?>">Online Office</a>. <?php echo $l->t('Learn about');?> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('what our Enterprise Subscription offers here</a> and see answers in our');?> <a class="hyperlink" href="<?php echo home_url('pricing/#FAQ') ?>"><?php echo $l->t('Frequently Asked Questions</a>');?></p>
+	<?php echo $l->t('You will be able to contact our support team for a speedy answer to questions and fixes for problems you encounter; you can use our');?> <a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('migration support</a> or add additional capabilities with our');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>">Outlook add-in</a> <?php echo $l->t('or');?> <a class="hyperlink" href="<?php echo home_url('collabora') ?>">Collabora</a>  <?php echo $l->t('or');?> <a class="hyperlink" href="<?php echo home_url('onlyoffice') ?>">ONLYOFFICE</a> Online Office</a> <?php echo $l->t('or');?>. <?php echo $l->t('Learn about');?> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('what our Enterprise Subscription offers here</a> and see answers in our');?> <a class="hyperlink" href="<?php echo home_url('pricing/#FAQ') ?>"><?php echo $l->t('Frequently Asked Questions</a>');?></p>
 	<p><?php echo $l->t('Using this form, you can order a Basic or Standard Support Subscription for up to 250 users. If you need more users, other options like branding or a Premium Support Subscription,');?> <a class="hyperlink" href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('please contact sales for a quote.</a>');?></p>
 	<div class="contact">
 		<h3><?php echo $l->t('Fill in the form below to receive a contract and invoice from us and get started!');?></h3>
@@ -116,6 +116,7 @@ imagedestroy($image);
 			<input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>" target="_blank"><?php echo $l->t('our Outlook add-in <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 5/user)');?></span><br/>
 			<p><h4><?php echo $l->t('Only with a Standard Subscription:');?></h4></p>
 			<input disabled id="collaboraCheck" type="checkbox" name="collaboraCheck" value="collaboraCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('collabora') ?>" target="_blank">Collabora Online <i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('(€ 17/user for the first 100, € 16/user after that)');?></span><br/>
+			<input disabled id="onlyofficeCheck" type="checkbox" name="onlyofficeCheck" value="onlyofficeCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('onlyoffice') ?>" target="_blank">ONLYOFFICE <i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('(€ 935 for the first 250 users)');?></span><br/>
 			<!-- Only show below when input above is enabled -->
 			<!--<div class="collaboraUserNumberChoiceDiv" id="collaboraUserNumberChoiceDiv" style="display:none;">
 				<p><?php echo $l->t('Select how many users need access to Collabora: ');?><br>
@@ -141,7 +142,7 @@ imagedestroy($image);
 			<h2 class="price"><?php echo $l->t('Price: ');?><span id="totalprice"></span><br></h2>
 			<p class="hidden"><input type="checkbox" name="dollars" value="dollars" onChange="doCalculation()"> <?php echo $l->t(' in dollars');?></p>
 			<p><?php echo $l->t('<label for="comments">Notes<br />
-			<textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Questions, comments? Interested in Spreed, Branding etcetera..."></textarea></label>');?></p>
+			<textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Questions, comments? Interested in Nextcloud Talk, Branding? Let us know and we can provide you an offer or answers to your questions."></textarea></label>');?></p>
 			<p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?> <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
 			<p>Note: all prices excl. VAT</p>
 			<p><label for="captcha"><?php echo $l->t('Please calculate the following sum');?> <span></span><br>
@@ -314,11 +315,13 @@ imagedestroy($image);
 		    var optionsPrice=0;
 			var collaboraPrice = 0;
 			var outlookPrice = 0;
+			var onlyofficePrice = 0;
 		    //Get a reference to the form id="orderform"
 		    var theForm = document.forms["orderform"];
 		    //Get a reference to the select id="users" and the other elements needed
 // 		    var includeCollaboraUsers = theForm.elements["collabora"];
 		    var includeCollaboraCheck = theForm.elements["collaboraCheck"];
+		    var includeOnlyofficeCheck = theForm.elements["onlyofficeCheck"];
 			var includeOutlook = theForm.elements["outlook"];
 			var includeRemoteinstall = theForm.elements["remoteinstall"];
 			// var includeBranding = theForm.elements["branding"];
@@ -326,7 +329,7 @@ imagedestroy($image);
 			var selectedUsersNumber = theForm.elements["users"];
 			var chosenEdition = theForm.elements["edition"];
 		    var edugovDiscount = theForm.elements["edugov"];
-
+            var contractLength = theForm.elements["duration"];
 		    //check if they are checked and if so, add the monies
 
 			// collabora, Outlook and remote install only with Standard
@@ -357,6 +360,10 @@ imagedestroy($image);
 				if(includeRemoteinstall.checked==true)
 				{
 					optionsPrice = optionsPrice + 990;
+				}
+				if(includeOnlyofficeCheck.checked==true)
+				{
+					optionsPrice = optionsPrice + (contractLength.value * 935);
 				}
 			}
 			return optionsPrice;
@@ -391,6 +398,7 @@ imagedestroy($image);
 			var theForm = document.forms["orderform"];
 // 			var includeCollaboraUsers = theForm.elements["collabora"];
 			var includeCollaboraCheck = theForm.elements["collaboraCheck"];
+			var includeOnlyofficeCheck = theForm.elements["onlyofficeCheck"];
 			var includeOutlook = theForm.elements["outlook"];
 			// var includeBranding = theForm.elements["branding"];
 			// var includeSpreed = theForm.elements["spreed"];
@@ -405,6 +413,7 @@ imagedestroy($image);
 			includeRemoteinstall.disabled = false;
 // 			includeCollaboraUsers.disabled = false;
 			includeCollaboraCheck.disabled = false;
+			includeOnlyofficeCheck.disabled = false;
 			includeOutlook.disabled = false;
 			// includeSpreed.disabled = false;
 			// includeBranding.disabled = false;
@@ -458,6 +467,7 @@ imagedestroy($image);
 				includeRemoteinstall.disabled = true;
 // 				includeCollaboraUsers.disabled = true;
 				includeCollaboraCheck.disabled = true;
+				includeOnlyofficeCheck.disabled = true;
 // 				includeOutlook.disabled = true;
 				// includeSpreed.disabled = true;
 				// includeBranding.disabled = true;
