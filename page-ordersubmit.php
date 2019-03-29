@@ -309,12 +309,12 @@ if(isset($_POST['email'])) {
 		$email_message .= "Signed terms: " . clean_string($terms) . "\n\n";
 
 		// create email headers
-		$headers = 'From: no-reply@nextcloud.com' . "\r\n" .
-			'Reply-To: ' . $email_from . "\r\n" .
+		$headers = 'From: sales@nextcloud.com' . "\r\n" .
+			'Reply-To: sales@nextcloud.com' . "\r\n" .
 			'Cc: ' . $email_from . "\r\n" .
             'Content-Type: text/plain; charset=UTF-8';
 		// Send the email
-		$recipients = ['patrick', 'jos', 'morris', 'andreas'];
+		$recipients = ['orders'];
 // 		$recipients = ['jos']; // for testing
 		$successfullySend = true;
 		foreach ($recipients as $recipient) {
