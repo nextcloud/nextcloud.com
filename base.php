@@ -156,9 +156,11 @@ if(isset($language[1])) {  // check if language is set.
 			}
 			if(!is_array($translatedFile) || !is_array($originalFile)) {
 				$storeToCache = false;
-			}
-
-			if (array_keys($translatedFile) !== array_keys($originalFile)) {
+			} else if (
+				is_array($translatedFile)
+				&& is_array($originalFile)
+				&& array_keys($translatedFile) !== array_keys($originalFile)
+			) {
 				$storeToCache = false;
 			}
 		}
