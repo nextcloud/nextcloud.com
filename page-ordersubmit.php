@@ -310,7 +310,7 @@ if(isset($_POST['email'])) {
 
 		// create email headers
 		$headers = 'From: sales@nextcloud.com' . "\r\n" .
-			'Reply-To: sales@nextcloud.com' . "\r\n" .
+			'Reply-To:  ' . $email_from . ', sales@nextcloud.com' . "\r\n" .
 			'Cc: ' . $email_from . "\r\n" .
             'Content-Type: text/plain; charset=UTF-8';
 		// Send the email
