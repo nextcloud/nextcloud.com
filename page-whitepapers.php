@@ -280,11 +280,24 @@
             <div class="row">
 				<div class="description">
 					<p class="section--paragraph__tittle"><?php echo $l->t('HackerOne Case study');?></p>
-                    <p class="section--paragraph"><?php echo $l->t('Why Nextcloud puts Hacker-powered security front and center. A case study by HackerOne ');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('Why Nextcloud puts Hacker-powered security front and center. A case study by HackerOne.');?></p>
                 </div>
                     <a style="margin-top: 130px" class="button button--blue button--small" href="https://www.hackerone.com/resources/nextcloud-puts-hacker-powered-security-front-and-center"><?php echo $l->t('Download');?></a>
 			</div>
 		</div>
+        <div class="col-md-3">
+            <div class="row wpthumbnail">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/bareos-thumbnail-banner.png"/>
+            </div>
+            <div class="row">
+                <div class="description">
+                    <p class="section--paragraph__tittle"><?php echo $l->t('Bareos Backup Whitepaper');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('How to backup Nextcloud efficiently and safely using the open source Bareos backup tool. Case study by Bareos.');?></p>
+                </div>
+                    <a style="margin-top: 130px" class="button button--blue button--small" href="
+https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?php echo $l->t('Download');?></a>
+            </div>
+        </div>
 	</div>
 </div>
 </section>
