@@ -238,6 +238,16 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
 			</div>
         </div>
+		<div class="col-md-4">
+			<div class="featureblock">
+				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/globalscale/final.svg">
+				<p class="section--paragraph__tittle"><?php echo $l->t('Global Scale setup');?></p>
+				<p class="section--paragraph"> <?php echo $l->t('Customers in need of a globally distributed setup with strong data locality requirements or scalability in the tens-of-millions have access to our Global Scale architecture.');?></p>
+				<p class="section--paragraph"><?php echo $l->t('We help set up and integrate the Global Scale components in your infrastructure.');?> <a class="hyperlink" href="<?php echo home_url('globalscale') ?>"><?php echo $l->t('Learn more about Global Scale.');?></a></p>
+				<p class="section--paragraph price-big"><?php echo $l->t('Custom pricing ');?></a></p>
+				<p class="section--paragraph price-small"><?php echo $l->t('(additional to a premium subscription)');?></p>
+			</div>
+        </div>
 	</div>
 </div>
 </section>
