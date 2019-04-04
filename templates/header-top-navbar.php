@@ -116,6 +116,7 @@ require get_template_directory() . '/strings.php';
 						<li class="nav__item"><a href="<?php echo home_url('partners'); ?>"><?php echo $l->t('Partners'); ?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('events'); ?>"><?php echo $l->t('Events'); ?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('jobs'); ?>"><?php echo $l->t('Jobs'); ?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('search'); ?>"><?php echo $l->t('Search our site'); ?></a></li>
 					</ul>
 				</li>
             </ul>
