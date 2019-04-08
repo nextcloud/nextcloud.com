@@ -946,12 +946,13 @@
          "title":"yourcloud.asia",
          "url":"https:\/\/yourcloud.asia\/",
          "flags":[
-            "hk"
+            "hk",
+            "tw"
          ],
          "freeplans":false,
          "supports":"consumer",
          "specializes":[
-            "Fast, safe and private cloud hosting in Asia. Take back control of your data!"
+            "Simple, fast and private cloud hosting in Asia. Support in English, in a local time zone. Encrypted local storage, with encrypted web connections. Take back control of your data!"
          ],
          "imagename":"yourcloudasia.png"
       },
