@@ -25,7 +25,7 @@
 		<p class="">We are a modern, distributed, open source company. It is our mission to provide our users and customers with the means for data storage, access and communication under their control; protecting their privacy and security.</p>
 
 		<p class="revealOnScroll">We pursue a fully-open strategy, keeping internal communication to a minimum while aiming to work, discuss and develop in public. We are a thriving, quickly growing company with a solid customer base. An open source background or experience contributing to Nextcloud is a big plus for job applicants! Expecially for developers we pursue a strong "hire from the community" strategy.</p>
-		<p class="revealOnScroll">Nextcloud actively strives for diversity and we'd like to especially encourage applications by members of underrepresented groups in tech.</p>
+		<p class="revealOnScroll">Nextcloud actively strives for diversity and we'd like to especially encourage applications by people from underrepresented groups in tech.</p>
 	</div>
 </section>
 
@@ -41,7 +41,7 @@
                 <p>Responsibilities:</p>
                 <ul>
                     <li><a href="https://github.com/nextcloud/desktop">Desktop client development</a> with C++ and Qt for <a href="https://github.com/nextcloud/desktop/wiki/How-to-compile-the-desktop-client">Windows, Mac OS and Linux</a>.</li>
-                    <li>Help with customer and <a href="https://github.com/nextcloud/desktop/issues">community Support</a>.</li>
+                    <li>Help with customer and <a href="https://github.com/nextcloud/desktop/issues">community support</a>.</li>
                     <li>Help with <a href="https://github.com/nextcloud/client-building">release building</a> for Windows, Mac OS and Linux.</li>
                 </ul>
                 <p>Required skills:</p>
@@ -49,17 +49,17 @@
                     <li>Technical experience with programming.</li>
                     <li>Teamworking capabilities.</li>
                     <li>Independence and self-reliance.</li>
-                    <li>Knowledge around open source workflow - pull requests and code review.</li>
+                    <li>Good understanding of open source workflows (pull requests and code review).</li>
                 </ul>
                 <p>What we offer:</p>
                 <ul>
                     <li>A distributed, open team with a passion for working on and within the <a href="https://nextcloud.com/blog/upcoming-nextcloud-contributorweek-june-24-28/">open source community</a>.</li>
-                    <li>Developing a product which pushes the boundaries of technology - e.g. <a href="https://nextcloud.com/blog/nextcloud-introduces-virtual-drive-in-desktop-client-to-simplify-desktop-integration/">Virtual Drive</a> and <a href="">end-to-end encryption</a> - with a global contributor community and users.</li>
+                    <li>Developing a product which pushes the boundaries of technology - e.g. <a href="https://nextcloud.com/blog/nextcloud-introduces-virtual-drive-in-desktop-client-to-simplify-desktop-integration/">Virtual Drive</a> and <a href="https://nextcloud.com/endtoend/">end-to-end encryption</a> - with a global community of contributors and users.</li>
                     <li>Flexibility for a healthy work-life balance - home office and flexible hours.</li>
                     <li>We have goals to achieve as a team but with time to pick what motivates you.</li>
                     <li>A competitive salary.</li>
                 </ul>
-                <p>We are looking for somebody with ambition and drive, who would like to grow and learn. That means if you do not yet fulfill the requirements but want to learn, apply! We especially encourage applications by members of underrepresented groups! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
+                <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! We especially encourage applications by people from underrepresented groups! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this position.</p>
             </div>
 
 			<a href="#accountmgr" data-toggle="collapse"><h3 class="jobs">Account Manager<span class="icon-arrow"></span></h3></a>
