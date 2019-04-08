@@ -1,0 +1,175 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.conf-background {
+  background: url("../../img/headers/conf-2018.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+section {
+  padding: 50px 0 50px; }
+  section .section--heading-1 {
+    padding-bottom: 50px; }
+  section .section--paragraph--tittle {
+    padding: 0; }
+  section .row {
+    padding: 20px 0 20px 0; }
+
+.section--intro {
+  text-align: center; }
+  .section--intro .section--paragraph__tittle {
+    padding: 5px 0 0 0; }
+  .section--intro .section--paragraph {
+    padding: 5px 0 15px 0; }
+  .section--intro img {
+    width: 50%;
+    /* 	max-width: 30vw; */
+    /* 	max-height: 30vh; */ }
+
+.section--program .overflow {
+  overflow-y: auto; }
+  .section--program .overflow .fixbox {
+    width: 1120px; }
+  .section--program .overflow th, .section--program .overflow td {
+    border-top: none;
+    padding: 12px;
+    text-align: center; }
+  .section--program .overflow .left {
+    text-align: left; }
+
+.section--speakers-keynote {
+  background: url("../../img/conference/keynotespeakers.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center; }
+  .section--speakers-keynote h1 {
+    text-shadow: 0px 0px 7px #000;
+    color: white;
+    margin-top: 300px; }
+
+.section--info {
+  padding: 70px 0 90px 0;
+  background: #0082c9; }
+  .section--info p {
+    color: white; }
+  .section--info h1 {
+    color: white;
+    margin: 0px 0 30px 0;
+    font-size: 50px; }
+  .section--info .hyperlink {
+    color: white; }
+  .section--info .icon {
+    text-align: center; }
+  .section--info i {
+    color: white;
+    font-size: 80px; }
+  .section--info li {
+    color: white;
+    margin: 2px 0 2px 0; }
+  .section--info .row {
+    padding: 60px 0 30px 0; }
+
+.section--speakers-community {
+  background: url("../../img/conference/communityspeakers.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center; }
+  .section--speakers-community h1 {
+    text-shadow: 0px 0px 7px #000;
+    color: white;
+    margin-top: 300px; }
+
+/*.section--call-for-papers {
+	margin: 50px 0 50px 0;
+	padding: 50px 0px;
+	background: $nextcloud-blue;
+	p {
+		color: white;
+	}
+	.hyperlink {
+		color: white;
+	}
+}*/
+.section--details {
+  padding: 120px 0 60px 0; }
+  .section--details .row {
+    padding: 40px 0 20px 0; }
+  .section--details img {
+    margin-top: 45px; }
+
+.section--enterprise {
+  /*     margin: 100px 0 100px 0; */
+  padding: 80px 0 50px 0;
+  background-image: url("../../img/conference/enterprise-wide-2.jpg");
+  background-size: cover;
+  background-position: center;
+  /*   @media (max-width: $break-small) { */
+  /*     background-image: url('../../img/home/perfect-for-home-and-business-mobile.jpg'); */
+  /*   } */ }
+  .section--enterprise .btn-primary {
+    width: 430px; }
+  @media (min-width: 1600px) {
+    .section--enterprise {
+      padding-top: 120px;
+      padding-bottom: 180px; } }
+  @media (max-width: 768px) {
+    .section--enterprise .btn-primary {
+      width: 300px; }
+      .section--enterprise .btn-primary .icon-arrow {
+        background: url(../../img/arrow_right.svg) center/contain no-repeat;
+        position: absolute;
+        width: 20px;
+        height: 100%;
+        right: 20px;
+        top: 2px; } }
+  .section--enterprise .section--heading-1 {
+    color: white;
+    width: 469px; }
+    @media (max-width: 768px) {
+      .section--enterprise .section--heading-1 {
+        width: 100%; } }
+  .section--enterprise .section--paragraph {
+    color: white;
+    width: 469px; }
+    @media (max-width: 768px) {
+      .section--enterprise .section--paragraph {
+        width: 90%;
+        padding-top: 10px; } }
+
+.section--about .row {
+  padding: 50px 0 100px 0; }
+.section--about .blog-social-icons img {
+  margin: 0 5% 0 5%;
+  width: 20%; }
+.section--about .blog-social-icons a:hover {
+  text-decoration: none; }
+
+/*# sourceMappingURL=conf.css.map */
