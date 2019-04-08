@@ -41,7 +41,7 @@
                             </div>
                             <p><?php echo $l->t('Follow the');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>installation"><?php echo $l->t('Nextcloud Admin Manuals</a> installation chapter.</br>
                             If you already run Nextcloud, refer to the');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/upgrade.html"><?php echo $l->t('upgrade manual.');?></a><br/>
-                            <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Need enterprise support?</a>');?></p>
+                            <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Need an enterprise solution?</a>');?></p>
 
                             <a class="button button--white button--small button--arrow--down" data-toggle="collapse" href="#more"><?php echo $l->t('Details and download options');?></a>
                             <div class="collapse" id="more">
