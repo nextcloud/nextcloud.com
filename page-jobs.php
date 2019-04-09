@@ -36,7 +36,7 @@
 
             <a href="#desktopdev" data-toggle="collapse"><h3 class="jobs">C++ Developer<span class="icon-arrow"></span></h3></a>
             <div id="desktopdev" class="collapse">
-                <p>We're looking for C++ developers to join our desktop client team!</p>
+                <p>We're looking for a C++ developer to join our desktop client team!</p>
                 <p>You would work with our small and agile team to bring new features and improvements to the desktop client application. You ideally have some open source experience, know your way a bit around git and Github and live in the CET timezone.</p>
                 <p>Responsibilities:</p>
                 <ul>
@@ -51,6 +51,7 @@
                     <li>Independence and self-reliance.</li>
                     <li>Understanding of open source workflows (pull requests and code review).</li>
                 </ul>
+                <p>If you have open source contributions, internship experience, or are a junior developer, you are very welcome to apply!</p>
                 <p>What we offer:</p>
                 <ul>
                     <li>A distributed, open team with a passion for working on and within the <a href="https://nextcloud.com/blog/upcoming-nextcloud-contributorweek-june-24-28/">open source community</a>.</li>
@@ -59,7 +60,7 @@
                     <li>We have goals to achieve as a team but with time to pick what motivates you.</li>
                     <li>A competitive salary.</li>
                 </ul>
-                <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! We especially encourage applications by people from underrepresented groups! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this position.</p>
+                <p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this position.</p>
             </div>
 
 			<a href="#accountmgr" data-toggle="collapse"><h3 class="jobs">Account Manager<span class="icon-arrow"></span></h3></a>
