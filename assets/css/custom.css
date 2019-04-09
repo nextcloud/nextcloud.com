@@ -13471,6 +13471,30 @@ body.advisories .content ul li {
 .button.button--arrow.button--blue:hover:before, .button.button--arrow.button--blue:focus:before, .button.button--arrow.button--blue:active:before, .button.button--arrow.button--blue.active:before {
   background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
 }
+.button.button--arrow--left {
+  padding-left: 50px;
+}
+.button.button--arrow--left:before {
+  content: "";
+  background: url(../img/common/arrow_left_blue.svg) center/contain no-repeat;
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 100%;
+  top: 0;
+  left: 25px;
+  transition: all 0.3s ease 0s;
+}
+.button.button--arrow--left:hover:before, .button.button--arrow--left:focus:before, .button.button--arrow--left:active:before, .button.button--arrow--left.active:before {
+  background: url(../img/common/arrow_left.svg) center/contain no-repeat;
+  left: 15px;
+}
+.button.button--arrow--left.button--blue:before {
+  background: url(../img/common/arrow_left.svg) center/contain no-repeat;
+}
+.button.button--arrow--left.button--blue:hover:before, .button.button--arrow--left.button--blue:focus:before, .button.button--arrow--left.button--blue:active:before {
+  background: url(../img/common/arrow_left_blue.svg) center/contain no-repeat;
+}
 .button.button--arrow--down {
   padding-right: 50px;
 }
