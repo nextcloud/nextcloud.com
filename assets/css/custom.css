@@ -5621,8 +5621,9 @@ nav a {
 }
 .nav .container .nav__sections .nav__section .nav__label {
   display: inline-block;
-  padding-left: 30px;
-  padding-bottom: 5px;
+  padding: 0 15px 5px 15px;
+  /* 					padding-left: 30px; */
+  /*                     padding-bottom: 5px; */
   color: white;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -5630,7 +5631,7 @@ nav a {
 }
 .nav .container .nav__sections .nav__section .nav__links {
   position: absolute;
-  padding: 20px 20px 20px 35px;
+  padding: 20px 20px 20px 20px;
   visibility: hidden;
   opacity: 0;
   list-style-type: none;
