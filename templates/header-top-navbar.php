@@ -76,7 +76,7 @@ require get_template_directory() . '/strings.php';
                         <hr>
                         <li class="nav__item"><a href="<?php echo home_url('outlook'); ?>"><?php echo $l->t('Outlook integration'); ?></a></li>
                         <li class="nav__item"><a href="<?php echo home_url('onlyoffice'); ?>"><?php echo $l->t('ONLYOFFICE online office'); ?></a></li>
-                        <li class="nav__item"><a href="<?php echo home_url('collabora'); ?>"><?php echo $l->t('Collabora online office'); ?></a></li>
+                        <li class="nav__item"><a href="<?php echo home_url('collaboraonline'); ?>"><?php echo $l->t('Collabora online office'); ?></a></li>
                         <li class="nav__item"><a href="<?php echo home_url('globalscale'); ?>"><?php echo $l->t('Global Scale'); ?></a></li>
                     </ul>
 				</li>

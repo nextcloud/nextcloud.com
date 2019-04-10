@@ -310,8 +310,7 @@
     </div>
     <div class="row">
         <div class="col-sm-6 revealOnScroll">
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('
-            Starting at EUR 5000/USD 6000 per year plus');?>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Starting at EUR 5000/USD 6000 per year plus');?>
             <ul>
                 <li><?php echo $l->t('EUR 25/USD 30 per user per year at 50 users');?></li>
                 <li><?php echo $l->t('EUR 12.5/USD 15 per user per year at 500 users');?></li>

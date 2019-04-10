@@ -49,7 +49,7 @@ Template Name: Search Page
         <li><a href="<?php echo home_url('workflow') ?>" class="hyperlink"><?php echo $l->t('Workflow handling');?></a></li>
         <li><a href="<?php echo home_url('outlook') ?>" class="hyperlink"><?php echo $l->t('Outlook and Thunderbird integration');?></a></li>
         <li><a href="<?php echo home_url('files') ?>" class="hyperlink"><?php echo $l->t('External Storage');?></a></li>
-        <li><a href="<?php echo home_url('collabora') ?>" class="hyperlink"><?php echo $l->t('Online document editing with Collabora Online');?></a></li>
+        <li><a href="<?php echo home_url('collaboraonline') ?>" class="hyperlink"><?php echo $l->t('Online document editing with Collabora Online');?></a></li>
         <li><a href="<?php echo home_url('onlyoffice') ?>" class="hyperlink"><?php echo $l->t('Online document editing with ONLYOFFICE');?></a></li>
         </ul>
     </ul>
