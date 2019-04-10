@@ -202,12 +202,12 @@ require get_template_directory() . '/strings.php';
 															English
 														</a>
                         </li>
-<!--                        <li class="nav__item nav__item__language">
+                        <li class="nav__item nav__item__language">
                             <a href="<?php echo site_url();?>/fr_FR/<?php echo $pagename;?>">
 															<span class="flag-icon flag-icon-fr"></span>
 															Français
 														</a>
-                        </li>-->
+                        </li>
                     </ul>
                 </li>
             </ul>
