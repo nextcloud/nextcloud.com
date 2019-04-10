@@ -63,7 +63,7 @@
 	line-height: 1.6;
 	font-weight: 500;
 }
-	@media (max-width $break-small) {
+	@media (max-width: $break-small) {
 	.jumbotron--lead {
 		font-size: 16px;
 	}

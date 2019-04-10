@@ -23,7 +23,7 @@
       line-height: 1.6;
       font-weight: 500;
 
-      @media (max-width $break-small) {
+      @media (max-width: $break-small) {
         font-size: ms(0, 16px)
       }
     }
