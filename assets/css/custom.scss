@@ -979,7 +979,7 @@ body.advisories .content ul li {
 	position: relative;
 	text-align: center;
 	display: inline-block;
-/*	min-height: 50px;*/
+	min-height: 50px;
 	min-width: 130px;
 	line-height: 16px;
 	font-weight: 600;
@@ -1009,14 +1009,12 @@ body.advisories .content ul li {
 		padding: 40px 35px;
 		min-width: 230px;
 		font-size: 24px;
-/* 		border-radius: 60px; */
 	}
 	&.button--small {
 		min-height: 30px;
 		padding: 10px 10px;
 		font-size: 12px;
 		line-height: 12px;
-/* 		border-radius: 30px; */
 	}
     &.button--white {
 		background-color: white;
@@ -1169,7 +1167,7 @@ body.advisories .content ul li {
 	}
 	&.button--dropdown {
 		padding: 0;
-		position: absolute;
+		height: 50px;
 		&:before {
 			content: "";
 			background: url(../img/common/simple_arrow_down_blue.svg) center/contain no-repeat;
@@ -1219,18 +1217,18 @@ body.advisories .content ul li {
 			background: transparent;
 			width: 100%;
 			display: none;
-		}
-		.dropdown-toggle:focus {
-			outline: 0;
-			opacity: 1;
-			visibility: visible;
-			z-index: 2;
-			border-width: 0 4px 5px 4px;
+			&:focus {
+				outline: 0;
+				opacity: 1;
+				visibility: visible;
+				z-index: 2;
+				border-width: 0 4px 5px 4px;
+			}
 		}
 		.dropdown-text {
 			cursor: pointer;
 			z-index: 2;
-			padding: 0 50px 0 30px;
+			padding: 15px 50px 15px 30px;
 		}
 		.dropdown-content {
 			-webkit-transition: all .25s ease;
@@ -1304,6 +1302,8 @@ body.advisories .content ul li {
 		}
 	}
 }
+
+
 
 /* A nice looking block quote */
 

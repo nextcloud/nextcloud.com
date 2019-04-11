@@ -12,7 +12,6 @@
 			<div class="col-md-6 topheader">
 				<h1>Nextcloud Conference 2017</h1>
 				<h2  class="revealOnScroll">August 22-29, Technical University Berlin</h2>
-				<p><a class="button button--small button--white button--arrow--left" href="https://nextcloud.com/blog/first-nextcloud-conference-was-a-great-success-videos-are-now-live/"> 2018</a> <a class="button button--small button--white button--arrow" href="<?php echo home_url('conf-2019') ?>"> 2018</a></p>
 			</div>
 		</div>
 	</div>
@@ -25,10 +24,20 @@
 <!-- 			<h2 class="revealOnScroll"></h2> -->
 <!-- 			<p class="section--paragraph__tittle revealOnScroll"></p> -->
 			<p class="section--paragraph revealOnScroll">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
-			<p class="section--paragraph revealOnScroll"><a href="https://nextcloud.com/schedule/2017/speakers.html" class="btn btn-lg btn-primary">The speakers</a> <a href="https://nextcloud.com/schedule/2017/schedule.html" class="btn btn-lg btn-primary">Full schedule <i class="icon-arrow-circle-o-right icon"></i></a></p>
+			<p class="section--paragraph revealOnScroll"><a href="https://nextcloud.com/schedule/2017/speakers.html" class="button button--large button--blue">The speakers</a> <a href="https://nextcloud.com/schedule/2017/schedule.html" class="button button--large button--blue">Full schedule <i class="icon-arrow-circle-o-right icon"></i></a></p>
 <!-- 			<p class="section--paragraph revealOnScroll"><a href="https://nextcloud.com/blog/lightning-talks-and-workshops-at-the-nextcloud-conference/" class="hyperlink" >See the program blog</a></p> -->
 			<p class="section--paragraph"><a class="hyperlink" href="https://nextcloud.com/blog/significant-growth-at-nextcloud-conference-brought-150-customers-colleagues-and-friends-together/">Report from the conference</a></p>
             <p class="section--paragraph"><a class="hyperlink" href="https://www.youtube.com/watch?list=PL4eBKdNy6FCHkFwlhUr6JORClr0-bUapV&v=NCo23LS3Yj4">Watch the talks on YouTube</a></p>
+            <div class="button button--white button--dropdown">
+                <input class="dropdown-toggle" type="text">
+                <div class="dropdown-text">Previous conferences</div>
+                <ul class="dropdown-content">
+                    <li><a href="<?php echo home_url('conf-2019') ?>">Nextcloud Conference 2019</a></li>
+                    <li><a href="<?php echo home_url('conf-2018') ?>">Nextcloud Conference 2018</a></li>
+                    <li><a href="<?php echo home_url('conf-2017') ?>">Nextcloud Conference 2017</a></li>
+                    <li><a href="<?php echo home_url('conf-2016') ?>">Nextcloud Conference 2016</a></li>
+                </ul>
+            </div>
 		</div>
 	</div>
 </section>

@@ -13,7 +13,6 @@
 			<div class="col-md-6 topheader">
 				<h1>Nextcloud Conference 2018</h1>
 				<h2  class="revealOnScroll">A week of collaboration, coding and fun!</h2>
-				<p><a class="button button--small button--white button--arrow--left" href="<?php echo home_url('conf-2017') ?>"> 2017</a> <a class="button button--small button--white button--arrow" href="<?php echo home_url('conf-2019') ?>"> 2019</a></p>
 			</div>
 		</div>
 	</div>
@@ -29,6 +28,16 @@
 			<!--<p class="section--paragraph"><a href="https://eventyay.com/e/77d26f89/" class="button button--arrow button--large button--blue">Register for free</a> <a href="https://nextcloud.com/livestream" class="button button--arrow button--large button--blue">Live stream <i class="icon-arrow-circle-o-right icon"></i></a>--> <!--<a href="https://eventyay.com/e/77d26f89/cfs/" class="button button--arrow button--large button--blue">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p>-->
 
 			<p class="section--paragraph revealOnScroll"><a href="https://nextcloud.com/blog/nextcloud-conference-2018-millions-of-nec-routers-nextcloud-14-and-simple-signup/" class="button button--arrow button--large button--blue">Conference report <i class="icon-arrow-circle-o-right icon"></i></a></p>
+			<div class="button button--white button--dropdown">
+                <input class="dropdown-toggle" type="text">
+                <div class="dropdown-text">Previous conferences</div>
+                <ul class="dropdown-content">
+                    <li><a href="<?php echo home_url('conf-2019') ?>">Nextcloud Conference 2019</a></li>
+                    <li><a href="<?php echo home_url('conf-2018') ?>">Nextcloud Conference 2018</a></li>
+                    <li><a href="<?php echo home_url('conf-2017') ?>">Nextcloud Conference 2017</a></li>
+                    <li><a href="<?php echo home_url('conf-2016') ?>">Nextcloud Conference 2016</a></li>
+                </ul>
+            </div>
 		</div>
 	</div>
 </section>
