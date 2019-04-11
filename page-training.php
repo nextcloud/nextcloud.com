@@ -1,13 +1,13 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/training.css" rel="stylesheet">
-<!--<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn.jpg">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn.jpg">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn.jpg">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn.jpg">
-<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn.jpg">-->
-<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/liederhalle-stuttgart.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn.jpg">
+<!--<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/liederhalle-stuttgart.jpg">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/liederhalle-stuttgart.jpg">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/liederhalle-stuttgart.jpg">
-<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/liederhalle-stuttgart.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/liederhalle-stuttgart.jpg">-->
 </head>
 <div class="training-background">
     <div class="container-fluid background">
@@ -25,7 +25,9 @@
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
             <p class="section--paragraph text-center">The Nextcloud Enterprise Day provides IT professionals like project managers and decision makers the opportunity to define their own strategy to get the most out of Nextcloud. Meet Nextcloud experts, learn best practices and build up skills!</p>
-            <p class="section--paragraph text-center"><a href="https://eventyay.com/e/d1196adb/" class="button button--blue button--arrow button--large">Sign up now!</a> <a href="#program" class="button button--blue button--arrow button--large">program</a></p>
+<!--             <p class="section--paragraph text-center"><a href="https://eventyay.com/e/d1196adb/" class="button button--blue button--arrow button--large">Sign up now!</a> <a href="#program" class="button button--blue button--arrow button--large">program</a></p> -->
+            <p class="section--paragraph text-center">The next Enterprise Day takes place on September 16, the day after the Nextcloud Conference, at the Park Inn at Berlin Alexanderplatz.</p>
+            <p class="section--paragraph text-center">Save the date and stay tuned for registration and program information!</p>
 
 		</div>
 	</div>
@@ -57,10 +59,10 @@
     <div class="row">
 		<div class="col-md-8 revealOnScroll">
             <div class="location">
-<!--                 <a href="https://www.google.com/maps/@52.5179389,13.4118667,616a,35y,39.28t/data=!3m1!1e3" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn.jpg" alt="talk" class="aligncenter" /></a> -->
-<!--                 <a class="overlay" href="https://www.google.com/maps/@52.5179389,13.4118667,616a,35y,39.28t/data=!3m1!1e3" target="_blank"><img  src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn-overlay.png" alt="talk" class="aligncenter" /></a> -->
-                <a href="https://www.google.com/maps/place/48%C2%B046'47.6%22N+9%C2%B010'08.2%22E/@48.779898,9.166767,1011m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d48.7798979!4d9.168955" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-liederhalle.jpg" alt="talk" class="aligncenter" /></a>
-                <a class="overlay" href="https://www.google.com/maps/place/48%C2%B046'47.6%22N+9%C2%B010'08.2%22E/@48.779898,9.166767,1011m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d48.7798979!4d9.168955" target="_blank"><img  src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-liederhalle-overlay.png" alt="talk" class="aligncenter" /></a>
+                 <a href="https://www.google.com/maps/@52.5179389,13.4118667,616a,35y,39.28t/data=!3m1!1e3" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn.jpg" alt="talk" class="aligncenter" /></a>
+                 <a class="overlay" href="https://www.google.com/maps/@52.5179389,13.4118667,616a,35y,39.28t/data=!3m1!1e3" target="_blank"><img  src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn-overlay.png" alt="talk" class="aligncenter" /></a>
+                <!-- <a href="https://www.google.com/maps/place/48%C2%B046'47.6%22N+9%C2%B010'08.2%22E/@48.779898,9.166767,1011m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d48.7798979!4d9.168955" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-liederhalle.jpg" alt="talk" class="aligncenter" /></a>
+                <a class="overlay" href="https://www.google.com/maps/place/48%C2%B046'47.6%22N+9%C2%B010'08.2%22E/@48.779898,9.166767,1011m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d48.7798979!4d9.168955" target="_blank"><img  src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-liederhalle-overlay.png" alt="talk" class="aligncenter" /></a>-->
 <!-- 			<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=13.408244848251345%2C52.521038921723246%2C13.417509198188784%2C52.524534620681585&amp;layer=mapnik&amp;marker=52.522786805974654%2C13.412877023220062" style="border: 1px solid black"></iframe> -->
             </div>
 <!-- 			<small><a class="hyperlink" href="https://www.openstreetmap.org/?mlat=52.52279&amp;mlon=13.41288#map=18/52.52279/13.41288">View on Open Street Map</a></small> -->
@@ -68,21 +70,23 @@
 		<div class="col-md-4">
             <div class="row">
                 <i style="float:left; margin: 10px;" class="fa fa-clock-o"></i>
-                <p class="section--paragraph revealOnScroll">Tuesday, March 12, 2019 from 8am to 5pm.</p>
+                <p class="section--paragraph revealOnScroll">Monday, March 16, 2019 from 8am to 5pm.</p>
             </div>
             <div class="row">
                 <i style="float:left; margin: 10px;" class="fa fa-map"></i>
-                <p class="section--paragraph revealOnScroll">The <a class="hyperlink" href="https://www.liederhalle-stuttgart.de">Congress Centrum Liederhalle</a> in the center of Stuttgart</p>
+                <p class="section--paragraph revealOnScroll">The <a class="hyperlink" href="https://www.parkinn-berlin.de">Park Inn hotel</a> at Berlin Alexanderplatz</p>
+                <!-- <p class="section--paragraph revealOnScroll">The <a class="hyperlink" href="https://www.liederhalle-stuttgart.de">Congress Centrum Liederhalle</a> in the center of Stuttgart</p> -->
             </div>
             <div class="row">
                 <i style="float:left; margin: 10px;" class="fa fa-bed"></i>
-                <p class="section--paragraph revealOnScroll">Book your room at <a class="hyperlink" href="https://www.maritim.com/en/hotels/germany/hotel-stuttgart/hotel-overview">Maritim Hotel</a><!-- with the discount code <code>Nextcloud</code>--></p>
+                <p class="section--paragraph revealOnScroll">Stay tuned for room reservation information!</p>
+                <p class="section--paragraph revealOnScroll">Book your room at <a class="hyperlink" href="https://www.maritim.com/en/hotels/germany/hotel-stuttgart/hotel-overview">Maritim Hotel</a><!-- with the discount code <code>Nextcloud</code> --></p>
             </div>
             <div class="row">
                 <i style="float:left; margin: 10px;" class="fa fa-ticket"></i>
-                <p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://eventyay.com/e/d1196adb/?code=EarlyBird">Early-bird tickets</a> only €200!<br/><em>(After January 31 regular €400)</em></p>
+                <p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://eventyay.com/e/d1196adb/?code=EarlyBird">Early-bird tickets</a> only €200!<br/><em>(After August 1st regular €400)</em></p>
             </div>
-                <p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/d1196adb/" class="button button--blue button--arrow button--large">Sign up now!</a></p>
+<!--                 <p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/d1196adb/" class="button button--blue button--arrow button--large">Sign up now!</a></p> -->
             </div>
         </div>
     </div>
@@ -103,8 +107,8 @@
         <li class="revealOnScroll"><i class="fa-check fa"></i> Meet other customers and partners</li>
         <li class="revealOnScroll"><i class="fa-check fa"></i> Find out what's on the Nextcloud road map and influence it</li>
         </ul>
-<!--         <p class="section--paragraph revealOnScroll"><small>The Enterprise Day takes place the day after the <a class="hyperlink" href="<?php echo home_url('conf') ?>">Nextcloud Conference</a>, an event for Nextcloud contributors. The Conference features talks, development workshops and keynotes on Saturday 25th and Sunday 26th of August.</small></p> -->
-        <p class="section--paragraph revealOnScroll"><small>The Enterprise Day takes place on the 12th of March, 2019, in Stuttgart.</small></p>
+        <p class="section--paragraph revealOnScroll"><small>The Enterprise Day takes place the day after the <a class="hyperlink" href="<?php echo home_url('conf') ?>">Nextcloud Conference</a>, an event for Nextcloud contributors. The Conference features talks, development workshops and keynotes on Saturday 14th and Sunday 15th of September.</small></p>
+        <p class="section--paragraph revealOnScroll"><small>The Enterprise Day takes place on the 16th of September, 2019, in Berlin.</small></p>
     </div>
     <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/enterprise-day.jpg">
     <img class="small-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/enterprise-day.jpg">
@@ -122,7 +126,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <!--<div class="col-md-8 col-md-offset-2">
         <div class="table-responsive-sm">
             <table class="table  table-hover">
                 <tbody>
@@ -134,7 +138,6 @@
                     <tr>
                     <th scope="row">8:30</th>
                     <td>From Enterprise File Sync and Share to Content Collaboration Platform
-<!--                     <br><span class="break"><small>Gartner recently announced: the Enterprise File Sync and Share market is obsolete. Enterprises need more: a Content Collaboration Platform. Nextcloud has been working towards enabling employee productivity with its platform for years. Where are we today and where do we go?</small></span> -->
                     </td>
                     <td><span class="break">Frank Karlitschek <br><small>(Nextcloud)</small></span></td>
                     </tr>
@@ -152,9 +155,7 @@
                     </tr>
                     <tr>
                     <th scope="row">9:30</th>
-                    <td>Nextcloud and compliance (GDPR, HIPAA and more)
-                    <!--<br>
-                    <span class="break"><small></small></span>--></td>
+                    <td>Nextcloud and compliance (GDPR, HIPAA and more)</td>
                     <td><span class="break">Jos Poortvliet <br> <small>(Nextcloud)</small></span></td>
                     </tr>
                     <tr>
@@ -163,9 +164,7 @@
                     </tr>
                     <tr>
                     <th scope="row">10:30</th>
-                    <td>Global Scale: Data locality, scalability and cost
-                    <!--<br>
-                    <span class="break"><small></small></span>--></td>
+                    <td>Global Scale: Data locality, scalability and cost</td>
                     <td><span class="break">Bjoern Schiessle <br> <small>(Nextcloud)</small></span></td>
                     </tr>
                     <tr>
@@ -188,8 +187,7 @@
                     <tr>
                     <th scope="row">13:30</th>
                     <td>Professional Services: two case studies
-                    <!--<br>
-                    <span class="break"><small></small></span>--></td>
+                    </td>
                     <td><span class="break">Olivier Paroz <br> <small>(Nextcloud)</small></span></td>
                     </tr>
                     <th scope="row">14:00</th>
@@ -239,7 +237,7 @@
                     <th scope="row">16:30</th>
                     <td>Your input: what do you need from Nextcloud?
                     </td>
-                    <td><!--<span class="break">Olivier Paroz</span>--></td>
+                    <td></td>
                     </tr>
                     <tr>
                     <th scope="row">17:00</th>
@@ -249,37 +247,17 @@
                 </tbody>
             </table>
         </div>
-            <p class="section--paragraph section--text--center"><small><em>The program can change without notification</em></small></p>
-<!--    <div class="row">
-        <div class="col-md-6 revealOnScroll image--feature">
-            <ul class="revealOnScroll">
-                <li>Configuring external storage the Right Way, covering SMB, NFS, Windows Network Drive, SharePoint and Object Storage</li>
-                <li>Optimizing Security and using Encryption</li>
-                <li>Secure web conferencing and chat</li>
-                <li>Backup and Restore your Nextcloud instance</li>
-                <li>Configuring Collabora Online</li>
-            </ul>
-        </div>
-        <div class="col-md-6">
-            <ul class="revealOnScroll">
-                <li>Installation, maintenance and basic troubleshooting of Nextcloud</li>
-                <li>Scaling up and improving performance of Nextcloud</li>
-                <li>Global scale: creating separation of data between data centers</li>
-                <li>Authentication with LDAP and SAML
-                <li>Getting the most out of sharing</li>
-            </ul>
-        </div>
-    </div>
+            <p class="section--paragraph section--text--center"><small><em>The program can change without notification</em></small></p>-->
     <div class="row">
         <div class="col-md-6">
-            <img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/workshop3.jpg">
+            <img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/workshop2.jpg">
         </div>
         <div class="col-md-6">
-            <p class="section--paragraph  revealOnScroll">We will also cover branding, clients, versioning & quotas, full-text search, virus scanner, outlook integration and more. Stay tuned for the detailed schedule and list of speakers!</p>
-            <p class="section--paragraph  revealOnScroll">Visitors should bring a laptop with 8GB ram, 16GB storage, wlan, USB2 or 3, administrator rights and virtual box/VMware or Hyper-V set up and ready to go.</p>
-            <p class="section--paragraph  revealOnScroll">Basic Linux knowledge is required. All tech talks are done in English and German. Workshops are English.</p>
+            <p class="section--paragraph  revealOnScroll">Expect case studies, presentations of Nextcloud partners like ONLYOFFICE, Collabora, Bareos and others as well as a big-picture overview over Nextcloud features and integrations.</p>
+            <p class="section--paragraph  revealOnScroll">We also cover security, compliance and performance considerations. Our goal is to help you optimize the productivity of your employees with the best possible content collaboration platform!</p>
+            <p class="section--paragraph  revealOnScroll">Stay tuned for the detailed schedule and list of speakers!</p>
          </div>
-    </div>-->
+    </div>
     <p class="section--paragraph text-center"><a href="https://eventyay.com/e/d1196adb/" class="button button--blue button--arrow button--large">Register now!</a></p>
 </div>
 </section>

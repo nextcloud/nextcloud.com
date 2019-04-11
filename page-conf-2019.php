@@ -169,10 +169,10 @@
 
 			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
 			<h2 class="section--heading-1 revealOnScroll text-center">Travel support</h2>
-				<p class="text-center">We want to help everybody attend and participate in the Nextcloud conference! To support contributors who might not otherwise attend due to financial limitations, we provide up to 80% of flight and hotel cost reimbursement.</p>
+				<p class="text-center">We want to help everybody attend and participate in the Nextcloud conference! To support contributors who might not otherwise attend due to financial limitations, we provide up to 80% of flight and hotel cost reimbursement. Submit your requests timely, we have a deadline!</p>
 				<div class="text-center">
-<!-- 					<a href="https://nextcloud.com/blog/nextcloud-conference-2018-contributor-travel-support-program/" class="button button--large button--arrow">Learn more</a> -->
-                <p class="text-center">Stay tuned, information is coming!</p>
+					<a href="https://nextcloud.com/blog/contributor-week-nextcloud-conference-time-to-apply-for-travel-support/" class="button button--large button--arrow">Learn more</a>
+<!--                <p class="text-center">Stay tuned, information is coming!</p>-->
 				</div>
 			</div>
 		</div>
@@ -182,11 +182,10 @@
 <section class="section--enterprise">
 	<div class="container-fluid">
 			<div class="container">
-<!-- 			<h2 class="section--heading-1 revealOnScroll">For enterprise</h2> -->
-<!-- 			<p class="section--paragraph revealOnScroll">Join our Enterprise training day Monday August 27.<br/>Book now, before July 15 and get 50% off!</p> -->
-<!-- 			<p class="section--paragraph revealOnScroll"><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Learn more and book</a></p> -->
+			<h2 class="section--heading-1 revealOnScroll">For enterprise</h2>
+			<p class="section--paragraph revealOnScroll">Join our Enterprise training day Monday September 16.<!--<br/>Book now, before July 15 and get 50% off!--></p>
+			<p class="section--paragraph revealOnScroll"><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Learn more and book</a></p>
 <!-- 			<p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">See the Friday Focus program in our blog!</a></p> -->
-<!-- 			<p class="section--paragraph revealOnScroll"><a class="button button--blue button--arrow button--large revealOnScroll" href="coming" role="button">Know all the features</a></p> -->
 			</div>
 	</div>
 </section>
