@@ -80,7 +80,7 @@
             <div class="row">
                 <i style="float:left; margin: 10px;" class="fa fa-bed"></i>
                 <p class="section--paragraph revealOnScroll">Stay tuned for room reservation information!</p>
-                <p class="section--paragraph revealOnScroll">Book your room at <a class="hyperlink" href="https://www.maritim.com/en/hotels/germany/hotel-stuttgart/hotel-overview">Maritim Hotel</a><!-- with the discount code <code>Nextcloud</code> --></p>
+               <!-- <p class="section--paragraph revealOnScroll">Book your room at <a class="hyperlink" href="https://www.maritim.com/en/hotels/germany/hotel-stuttgart/hotel-overview">Maritim Hotel</a>--><!-- with the discount code <code>Nextcloud</code> --></p>
             </div>
             <!--<div class="row">
                 <i style="float:left; margin: 10px;" class="fa fa-ticket"></i>
