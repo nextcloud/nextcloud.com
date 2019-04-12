@@ -5,6 +5,18 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Server: Improper share updates could result in extended data access (NC-SA-2019-003)</title>
+  <description>A bug could expose more data in reshared link shares than intended by the sharer.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-003</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-003</guid>
+  <pubDate>Fri, 12 Apr 2019 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Improper access control checks for share expiration date (NC-SA-2019-002)</title>
+  <description>A missing check could give recipient the possibility to extend the expiration date of a share they received.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-002&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-002</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-002</guid>
+  <pubDate>Fri, 12 Apr 2019 14:00:00 +0200</pubDate>
+ </item><item>
   <title>Server: Improper access control checks for single share previews (NC-SA-2018-014)</title>
   <description>A missing check could give unauthorized access to the previews of single file password protected shares.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-014&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-014</link>
