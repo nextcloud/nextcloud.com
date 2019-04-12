@@ -39,8 +39,8 @@
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
@@ -67,8 +67,8 @@
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
@@ -95,8 +95,8 @@
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
@@ -123,8 +123,8 @@
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
@@ -153,8 +153,8 @@
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
@@ -182,8 +182,8 @@
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
@@ -210,8 +210,8 @@
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
@@ -238,8 +238,8 @@
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
@@ -266,8 +266,8 @@
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
@@ -330,8 +330,8 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
@@ -358,8 +358,8 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
@@ -386,8 +386,8 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
@@ -414,8 +414,8 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
@@ -444,8 +444,8 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
@@ -472,8 +472,8 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
@@ -500,8 +500,8 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
@@ -528,8 +528,8 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>
@@ -558,8 +558,8 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a href="
                     </div>
                     <input class="button button--blue button--small" type="submit" value="Download"></p>
                 </form>

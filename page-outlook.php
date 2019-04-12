@@ -146,8 +146,8 @@
                         <input type="hidden" name="newsletter" value="0" />
 <!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
                         <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small>Inform me about new white papers and other relevant information</small><br/>
-                        <small>see our <a class="hyperlink" href="<?php echo home_url('privacy') ?>">privacy policy</a><br/></small>
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small>see our <a class="hyperlink" href="
                     </div>
                     <input class="button button--large" type="submit" value=" Get the datasheet "></p>
                 </form>
@@ -178,48 +178,48 @@
                     <thead>
                         <tr>
                             <th></th>
-                            <th>Free version</th>
-                            <th>Enterprise version</th>
+                            <th><?php echo $l->t('Free version');?></th>
+                            <th><?php echo $l->t('Enterprise version');?></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">Upload large files to your Nextcloud server</th>
+                            <th scope="row"><?php echo $l->t('Upload large files to your Nextcloud server');?></th>
                             <td class="text-center green">✔</td>
                             <td class="text-center green">✔</td>
                         </tr>
                         <tr>
-                            <th scope="row">Pausing uploads</th>
+                            <th scope="row"><?php echo $l->t('Pausing uploads');?></th>
                             <td class="text-center green">✔</td>
                             <td class="text-center green">✔</td>
                         </tr>
                         <tr>
-                            <th scope="row">Set expiration date</th>
+                            <th scope="row"><?php echo $l->t('Set expiration date');?></th>
                             <td class="text-center green">✔</td>
                             <td class="text-center green">✔</td>
                         </tr>
                         <tr>
-                            <th scope="row">Automatically upload attachments</th>
+                            <th scope="row"><?php echo $l->t('Automatically upload attachments');?></th>
                             <td class="text-center red">❌</td>
                             <td class="text-center green">✔</td>
                         </tr>
                         <tr>
-                            <th scope="row">Shared link custom password</th>
+                            <th scope="row"><?php echo $l->t('Shared link custom password');?></th>
                             <td class="text-center red">❌</td>
                             <td class="text-center green">✔</td>
                         </tr>
                         <tr>
-                            <th scope="row">Custom look for shared links via HTML</th>
+                            <th scope="row"><?php echo $l->t('Custom look for shared links via HTML');?></th>
                             <td class="text-center red">❌</td>
                             <td class="text-center green">✔</td>
                         </tr>
                         <tr>
-                            <th scope="row">Enterprise deployment capabilities</th>
+                            <th scope="row"><?php echo $l->t('Enterprise deployment capabilities');?></th>
                             <td class="text-center red">❌</td>
                             <td class="text-center green">✔</td>
                         </tr>
                         <tr>
-                            <th scope="row">Activity Tracker</th>
+                            <th scope="row"><?php echo $l->t('Activity Tracker');?></th>
                             <td class="text-center red">❌</td>
                             <td class="text-center green">✔</td>
                         </tr>
