@@ -258,7 +258,7 @@
             <p class="section--paragraph  revealOnScroll">Stay tuned for the detailed schedule and list of speakers!</p>
          </div>
     </div>
-    <p class="section--paragraph text-center"><a href="https://eventyay.com/e/d1196adb/" class="button button--blue button--arrow button--large">Register now!</a></p>
+<!--     <p class="section--paragraph text-center"><a href="https://eventyay.com/e/d1196adb/" class="button button--blue button--arrow button--large">Register now!</a></p> -->
 </div>
 </section>
 
