@@ -70,7 +70,7 @@
 		<div class="col-md-4">
             <div class="row">
                 <i style="float:left; margin: 10px;" class="fa fa-clock-o"></i>
-                <p class="section--paragraph revealOnScroll">Monday, March 16, 2019 from 8am to 5pm.</p>
+                <p class="section--paragraph revealOnScroll">Monday, September 16, 2019 from 8am to 5pm.</p>
             </div>
             <div class="row">
                 <i style="float:left; margin: 10px;" class="fa fa-map"></i>
@@ -82,10 +82,10 @@
                 <p class="section--paragraph revealOnScroll">Stay tuned for room reservation information!</p>
                 <p class="section--paragraph revealOnScroll">Book your room at <a class="hyperlink" href="https://www.maritim.com/en/hotels/germany/hotel-stuttgart/hotel-overview">Maritim Hotel</a><!-- with the discount code <code>Nextcloud</code> --></p>
             </div>
-            <div class="row">
+            <!--<div class="row">
                 <i style="float:left; margin: 10px;" class="fa fa-ticket"></i>
                 <p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://eventyay.com/e/d1196adb/?code=EarlyBird">Early-bird tickets</a> only €200!<br/><em>(After August 1st regular €400)</em></p>
-            </div>
+            </div>-->
 <!--                 <p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/d1196adb/" class="button button--blue button--arrow button--large">Sign up now!</a></p> -->
             </div>
         </div>
