@@ -1,5 +1,40 @@
 <hr>
 
+<h2>2019</h2>
+
+<h3>Nextcloud Server 15.0.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-003">Improper share updates could result in extended data access (NC-SA-2019-003)</a> 2019-04-12</li>
+	<li><a href="/security/advisory/?id=NC-SA-2019-002">Improper access control checks for share expiration date (NC-SA-2019-002)</a> 2019-04-12</li>
+</ul>
+
+<h3>Nextcloud Server 14.0.5</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-003">Improper share updates could result in extended data access (NC-SA-2019-003)</a> 2019-04-12</li>
+</ul>
+
+<h3>Nextcloud Server 13.0.9</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-003">Improper share updates could result in extended data access (NC-SA-2019-003)</a> 2019-04-12</li>
+</ul>
+
+<h3>Nextcloud Server 14.0.4</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-002">Improper access control checks for share expiration date (NC-SA-2019-002)</a> 2019-04-12</li>
+</ul>
+
+<h3>Nextcloud Server 13.0.8</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-002">Improper access control checks for share expiration date (NC-SA-2019-002)</a> 2019-04-12</li>
+</ul>
+
+<h3>Nextcloud Server 12.0.13</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-002">Improper access control checks for share expiration date (NC-SA-2019-002)</a> 2019-04-12</li>
+</ul>
+
+<hr>
+
 <h2>2018</h2>
 
 <h3>Nextcloud Server 14.0.0</h3>
