@@ -11,7 +11,7 @@
         <p>Risk level: <strong>Low</strong></p>
         <p>CVSS v3 Base Score: 9.6 (<a href="https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N">AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/284.html">Improper Access Control - Generic (CWE-284)</a></p>
-        <p>HackerOne report: <a href="https://hackerone.com/reports/231917">231917</a></p>
+        <p>HackerOne report: <a href="https://hackerone.com/reports/452854">452854</a></p>
         <h3>Description</h3>
         <p>A bug could expose more data in reshared link shares than intended by the sharer.</p>
         <h3>Affected Software</h3>
