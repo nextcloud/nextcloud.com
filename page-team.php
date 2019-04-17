@@ -278,7 +278,7 @@
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Server, contacts, front-end and accessibility</h4>
 					<h4 class="teamlocation">lives in France</h4>
-					<p class="teamsocial"><a href="https://github.com/skjnldsv"><i class="fa-github fa"></i></a> <a href="https://twitter.com/skjnldsv"><i class="fa-twitter fa"></i></a></p>
+                    <p class="teamsocial"></p>
 				</div>
 				<p class="teamdescription">Barthélémy is a software engineer specialized in front-end development. He cares about simplicity and ease of use and likes to create a smooth user experience for everyone. He has been part of the contacts and design team since 2016.</p>
 			</div>
