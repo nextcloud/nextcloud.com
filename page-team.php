@@ -371,7 +371,7 @@
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"> <a href="https://www.linkedin.com/in/greta-doçi-a18a2478/"><i class="fa-linkedin fa"></i></a> <a href="https://github.com/GretaD"><i class="fa-github fa"></i></a> <a href="https://twitter.com/GretaDoci"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Greta has finished her master studies in University of Tirana for Information and Communication Technology. She is an Albanian long-time Wikipedia contributor and Nextcloud advocate, doing a joint intership with Wikimedia Germany and Nextcloud.</p>
+				<p class="teamdescription">Greta has finished her master studies in University of Tirana for Information and Communication Technology. She is an Albanian long-time Wikipedia contributor and Nextcloud advocate, doing a joint internship with Wikimedia Germany and Nextcloud.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
