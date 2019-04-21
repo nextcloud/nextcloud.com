@@ -6882,7 +6882,7 @@ footer.page-footer p a:hover {
   /* 				margin-top: -5px; */
   color: white;
   height: 40px;
-  line-height: 40px;
+  line-height: 50px;
 }
 @media (max-width: 768px) {
   .second-menu .menu .buttons .button--blue {
@@ -12432,14 +12432,14 @@ footer.page-footer p a:hover {
 .section--heading-1 {
   font-size: 3.79688em;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 1.3;
   margin: 0;
   color: #333333;
 }
 @media (max-width: 768px) {
   .section--heading-1 {
     font-size: 2.53125em;
-    line-height: 1;
+    line-height: 1.2;
     margin-top: 0;
   }
 }
@@ -13375,7 +13375,7 @@ body.advisories .content ul li {
   display: inline-block;
   min-height: 50px;
   min-width: 130px;
-  line-height: 16px;
+  line-height: 24px;
   font-weight: 600;
   font-size: 16px;
   text-decoration: none;
