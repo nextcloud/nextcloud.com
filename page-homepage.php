@@ -12,9 +12,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-15-goes-social-enforces-2fa-and-gives-you-a-new-generation-real-time-document-editing">
+				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-16-introduces-machine-learning-based-security-and-usability-features-acl-permissions-and-cross-app-projects/">
 				<span class="type">News</span>
-				<span class="message"><strong><?php echo $l->t('Nextcloud goes social:');?></strong> <?php echo $l->t('Nextcloud 15 has arrived with next-gen 2FA and collaborative editing');?></span>
+				<span class="message"><strong><?php echo $l->t('Nextcloud 16');?></strong> <?php echo $l->t(' introduces machine learning based security and usability features, ACL permissions and cross-app projects');?></span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Protecting your data');?></h1>
@@ -30,9 +30,9 @@
 </div>
 
 <a name="why-nextcloud"></a>
-<section id="why-nextcloud">
+<section id="why-nextcloud" class="section--why">
 	<div class="container">
-		<h2 class=" section--heading-1 text-center revealOnScroll"><?php echo $l->t('Why Nextcloud?');?></h2>
+		<h2 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Why Nextcloud?');?></h2>
 		<div class="highlights">
 			<div class="highlights_align ">
 				<div class="privacy-icon" data-animation-path="img/home/privacy/" data-anim-loop="false" data-name="privacy"></div>
@@ -50,9 +50,11 @@
 				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Enjoy constant improvements from a thriving and transparent, entirely open-source community development model, free of lockins or paywalls. Enjoy the benefits of enterprise support when you need it.');?></p>
 			</div>
 		</div>
-		<p class="revealOnScroll text-center"><a class="button button--large button--blue button--arrow" href="<?php echo home_url('athome') ?>"><?php echo $l->t('Nextcloud at home');?></a>
-		<a class="button button--large button--blue button--arrow" href="<?php echo home_url('files') ?>"><?php echo $l->t('Nextcloud for Enterprises');?></a></p>
 	</div>
+	<div class="container">
+        <p class="revealOnScroll text-center"><a class="button button--large button--blue button--arrow" href="<?php echo home_url('athome') ?>"><?php echo $l->t('Nextcloud at home');?></a>
+        <a class="button button--large button--blue button--arrow" href="<?php echo home_url('files') ?>"><?php echo $l->t('Nextcloud for Enterprises');?></a></p>
+    </div>
 </section>
 
 <!--<section class="section--enterprise-day">
@@ -194,7 +196,7 @@
 </div>
 </section>
 <section class="slideshow" id="slideshow">
-    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 15');?></h2>
+    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 16');?></h2>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
 		<li class="btn_carousel"><a href="#feature-1"></a></li>
@@ -205,47 +207,47 @@
     <div class="container">
         <div class="col-md-6 ">
         	<div class="container-image-center" id="imageTrigger">
-	            <img class="image-back" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-15.png">
+	            <img class="image-back" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/introducing-nc-16.png">
 	            <div class="image-top-container">
-	            	<img class="img-responsive image-top image__desktop" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_15.png">
-	            	<img class="img-responsive image-top image__mobile" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_mobile_15.png">
+	            	<img class="img-responsive image-top image__desktop" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_16.png">
+	            	<img class="img-responsive image-top image__mobile" src="<?php echo get_template_directory_uri(); ?>/assets/img/home/sprite_screen_mobile_16.png">
 	            </div>
             </div>
         </div>
         <div class="texts-wrapper col-md-6">
 	         <div class="right-text-grey" data-slide="1">
-	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('Work with others in real time');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('With integrated communication, Nextcloud 15 allows you to edit documents with colleagues while chatting or having a video call. Share with others through multiple unique public links protected with video verification and more!');?></p>
+	            <h5 class="textTrigger" id="feature-1"><?php echo $l->t('Machine learning');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 16 employs a locally trained neural network to detect suspicous logins. And smart share and file recommendations help you get work done more efficiently!');?></p>
 	            <br/>
 	            <p>
-	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/mobile-app-integration-for-online-office-talk-in-the-file-sidebar-and-much-improved-sharing/" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-16-becomes-smarter-with-machine-learning-for-security-and-productivity/" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
 	        <div class="right-text-grey" data-slide="2">
-	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('Nextcloud goes social');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('Build an enterprise social network or join the fediverse! Nextcloud Social lets you share status updates and subscribe to the timeline of others, in a federated, distributed network of tens of thousands of servers!');?></p>
+	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('Access control lists help replace classic file servers');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 16 introduces support for access control lists to fill a role traditionally held by file servers like Windows Network Drive. Rights are set by the administrator and inherrited unless overridden at a deeper level.');?></p>
 	            <br/>
 	            <p>
-	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-introduces-social-features-joins-the-fediverse/" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-16-implements-access-control-lists-to-replace-classic-file-servers/" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
 	        <div class="right-text-grey" data-slide="3">
-	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('Next-generation security');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('More secure than ever, Nextcloud 15 introduces the ability to enforce two-factor authentication, 2FA through notifications, stricter CSP and V3 of our app-tokens to keep your data safe at all times.');?></p>
+	            <h5 class="textTrigger" id="feature-3"><?php echo $l->t('Projects: connecting your data');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('Nextcloud 16 introduces a deeper integration between the different types of information users work with. Through linking resources, projects of related items can be created and kept track off.');?></p>
 	            <br/>
 	            <p>
-	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/next-generation-2-factor-authentication-and-security-hardening/" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-16-allows-you-to-link-resources-to-keep-track-of-your-projects/" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
 
 	        <div class="right-text-grey" data-slide="4">
-	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Mobile and more');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('Our mobile clients now let you edit documents on the go, we introduced a new grid view and other design improvements, Nextcloud loads 2-3x faster, can convert files to PDF automatically and much, much more!');?></p>
+	            <h5 class="textTrigger" id="feature-4"><?php echo $l->t('Privacy and control first');?></h5>
+	            <p class="section--paragraph"><?php echo $l->t('Self hosting is the most reliable way to regain control over your data. Nextcloud 16 introduces the Privacy center, where users can see where their data is and who has access to it.');?></p>
 	            <br/>
 	            <p>
-	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/new-grid-view-pdf-conversion-2-3x-faster-loading-dashboard-and-more/" role="button"><?php echo $l->t('Learn more');?></a>
+	                <a class="button button--blue button--arrow button--large" href="https://nextcloud.com/blog/nextcloud-16-introduces-machine-learning-based-security-and-usability-features-acl-permissions-and-cross-app-projects/" role="button"><?php echo $l->t('Learn more');?></a>
 	            </p>
 	        </div>
         </div>

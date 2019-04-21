@@ -130,12 +130,13 @@
     }
 
     .announcement {
-      background-color:  rgba(0, 115, 178, 0.51);
+      max-width: 600px;
+		background-color:  rgba(0, 115, 178, 0.51);
       border-radius: 20px;
       padding: 0 12px 0 8px;
       text-decoration: none;
       color: white;
-      line-height: 26px;
+      line-height: 1.2;
       display: -webkit-inline-box;
       display: -ms-inline-flexbox;
       display: inline-flex;
@@ -220,14 +221,19 @@
   padding-top: 39px;
 }
 
-#why-nextcloud {
+.section--why {
+	padding-bottom: 80px;
+	a {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
   .highlights {
     display: -ms-flexbox;
     display: flex;
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
     margin: -16px 0 0 -16px;
-    padding: 0;
+    padding: 0 0 30px 0;
     list-style: none;
   }
 
