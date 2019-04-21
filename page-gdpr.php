@@ -265,7 +265,7 @@
         <div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('Monitoring and auditing logs');?></p>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud offers built-in powerful monitoring capabilities, enabling organizations to ensure smooth performance. Systems can be monitored using the web interface or through monitoring and systems intelligence tools like OpenNMS, Splunk, Nagios or others. A full auditing system logs all user actions, enabling fully compliant usage of file sync and share.');?></p>
-            <a href="/monitoring" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring and auditing');?></a>
+            <a href="<?php echo home_url('monitoring') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring and auditing');?></a>
         </div>
     </div>
     <div class="row feature-row">
@@ -294,7 +294,7 @@
     <div class="row feature-row">
         <div class="col-md-10 col-md-offset-1 revealOnScroll feature--block">
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud offers first-in-class, third-party verified security backed by a USD 5000 Security Bug Bounty program protecting against unauthorized access.');?></p>
-            <a href="/secure" class="button button--blue button--arrow button--large"><?php echo $l->t('Security in Nextcloud');?></a>
+            <a href="<?php echo home_url('secure') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Security in Nextcloud');?></a>
         </div>
     </div>
 </div>
@@ -398,16 +398,23 @@
             <p>
             <div class="row "><img class="responsive text-center" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/architecture-thumbnail-banner.png"/></div>
             <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
-                <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper');?><br>
-                <input class="mail text-center" type="text" name="email" maxlength="80" size="30" placeholder="<?php echo $l->t('Enter your email'); ?>"></label></p>
-                <td colspan="2" style="">
-                    <div style="margin-left: auto; width: 304px; height: 78px; margin-right: auto; text-align: center;">
-                        <div id="RecaptchaField2"></div>
+                    <p><label for="email"><?php echo $l->t('Download our Architecture whitepaper!');?><br>
+                    <td colspan="2">
+                    <div class="">
+                        <div id="RecaptchaField1"></div>
                     </div>
-                </td>
-                <input type="hidden" name="segmentId" value="1">
-                <input class="button button--blue button--large" type="submit" value=" Get the whitepaper ">
-            </form>
+                    </td>
+                    <input type="hidden" name="segmentId" value="1">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="<?php echo $l->t('Enter your email');?>"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
+                    </div>
+                    <input class="button button--blue button--large" type="submit" value=" <?php echo $l->t('Get the whitepaper');?> "></p>
+                </form>
             </p>
         </div>
     </div>
