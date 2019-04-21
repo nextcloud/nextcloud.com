@@ -106,8 +106,8 @@
 			<!--<p><?php echo $l->t('You can check the authenticity of the sources using this <a class="hyperlink" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES_PGP; ?>">PGP signature</a>.');?></p>-->
 			<div class="btn-group">
 				<a class="button button--white button--small" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_WIN; ?>"><i class="fa-windows"></i> Windows</a>
-				<a class="button button--white button--small" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_MAC; ?>"><i class="fa-apple"></i> macOS</a>
-                <a class="button button--white button--small" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX; ?>"><i class="fa-linux"></i> Linux</a>
+<!-- 				<a class="button button--white button--small" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_MAC; ?>"><i class="fa-apple"></i> macOS</a> -->
+<!--                 <a class="button button--white button--small" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX; ?>"><i class="fa-linux"></i> Linux</a> -->
             </div>
     <?php } ?></p>
 		<p><a class="hyperlink" href="<?php echo home_url('contribute') ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('The Nextcloud Contribute Page');?>"><?php echo $l->t('More ways to get involved!');?></a></p>
