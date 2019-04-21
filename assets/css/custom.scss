@@ -327,13 +327,14 @@ h5 {
 	background-size: contain;
 	position: relative;
 	height: 460px;
+	box-shadow: none !important;
 	@media (min-width: $break-small) {
 		background: url('../img/features/browser-chrome.png') no-repeat;
 		background-color: #C4E1F7;
 		background-position: center bottom;
 		background-size: contain;
 		position: relative;
-		border: 10px solid white;
+		border: 10px solid white !important;
 	}
 	@media (min-width: $break-big) {
 		height: 290px;

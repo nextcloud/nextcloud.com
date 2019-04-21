@@ -9784,7 +9784,8 @@ h5 {
   background-position: center bottom;
   background-size: contain;
   position: relative;
-  height: 460px; }
+  height: 460px;
+  box-shadow: none !important; }
   @media (min-width: 768px) {
     .image--feature.new-img {
       background: url("../img/features/browser-chrome.png") no-repeat;
@@ -9792,7 +9793,7 @@ h5 {
       background-position: center bottom;
       background-size: contain;
       position: relative;
-      border: 10px solid white; } }
+      border: 10px solid white !important; } }
   @media (min-width: 991px) {
     .image--feature.new-img {
       height: 290px; } }
