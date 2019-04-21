@@ -72,6 +72,7 @@
 					<li title="" rel="tooltip">WCAG 2.1 support</li> <!--WCAG 2.1 support-->
 					<li title="" rel="tooltip">Dyslexia-friendly font</li> <!--Dyslexia-friendly font-->
 						<li class="cd-group">Admin features</li> <!--Admin features-->
+                    <li title="Permissions on files and folders, inherited by default, can be overridden at any level." rel="tooltip">Access control lists</li> <!--Access control lists-->
 					<li title="" rel="tooltip">Content workflow automation</li> <!--Content workflow automation-->
 					<li title="" rel="tooltip">Automatic script execution</li> <!--Automatic script execution-->
 					<li title="files created, updated, shared, unshared and deleted by user or others, chat or call received etc" rel="tooltip">Real time notifications</li> <!--Real-time (push) notifications-->
@@ -96,6 +97,7 @@
 					<li title="Allow restricting mobile/desktop/third party applications access to filesystem or other data" rel="tooltip">App access rights</li> <!--App access rights-->
 						<li class="cd-group">Authentication</li> <!--Authentication-->
 					<li title="" rel="tooltip">enforcable 2-factor authentication</li> <!--2-factor authentication-->
+                    <li title="Uses machine learning technology to protect authentication" rel="tooltip">ML based suspicious login detection</li> <!--Suspicious Login Detection-->
 					<li title="" rel="tooltip">LDAP/AD</li> <!--LDAP/AD-->
 					<li title="Native SAML is implemented directly in the application without a requirements on external software like Apache modules. Native SAML is compatible with all webservers and supports group memberships, flexible session management, multiple identity providers and app specific passwords." rel="tooltip">Native SAML</li> <!-- Native SAML -->
 					<li title="Authentication through Apache modules allows eg SAML/ShibbolethADFS, OAuth, OpenID, CAS and more." rel="tooltip">Auth via env variable</li> <!--Auth via env variable-->
@@ -128,7 +130,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Auto upload images/video-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i> <i class="fa fa-linux" aria-hidden="true"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--LAN Synchronization-->
-							<li title="Over 150 apps available" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
+							<li title="Over 200 apps available" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
 
 							<li title="Free version for home/small business users, paid with more features for larger enterprises" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Outlook integration-->
 								<li class="cd-group"></li> <!--Server features-->
@@ -149,6 +151,7 @@
                             <li title="AAA with optional theme" class="green" rel="tooltip">AA/AAA</li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Dyslexia-friendly font-->
 								<li class="cd-group"></li> <!--Admin features-->
+                            <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Access control lists-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
@@ -172,7 +175,8 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
-                            <li title="Supports multiple factors" rel="tooltip">U2F/OTP/SMS<br>Signal/Telegram</li> <!--2-factor authentication-->
+                            <li title="Supports multiple factors" rel="tooltip">U2F/OTP/SMS Signal/Telegram notifications</li> <!--2-factor authentication-->
+                            <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Auth via env variable-->
@@ -224,6 +228,7 @@
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Dyslexia-friendly font-->
 								<li class="cd-group"></li> <!--Admin features-->
+                            <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Access control lists-->
 							<li title="Only via third party app" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
@@ -247,7 +252,8 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
-                            <li title="Multiple factors" rel="tooltip">U2F/OTP/SMS</li> <!--2-factor authentication-->
+                            <li title="Multiple factors" rel="tooltip">U2F/OTP/SMS notifications</li> <!--2-factor authentication-->
+                            <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Auth via env variable-->
@@ -299,6 +305,7 @@
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Dyslexia-friendly font-->
 								<li class="cd-group"></li> <!--Admin features-->
+                            <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Access control lists-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
@@ -322,7 +329,8 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
-                            <li title="Supports multiple 2nd factor options" rel="tooltip">U2F/OTP/SMS/Signal/ Telegram/notifications</li> <!--2-factor authentication-->
+                            <li title="Supports multiple 2nd factor options" rel="tooltip">U2F/OTP/SMS notifications</li> <!--2-factor authentication-->
+                            <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Auth via env variable-->
@@ -374,6 +382,7 @@
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Dyslexia-friendly font-->
 								<li class="cd-group"></li> <!--Admin features-->
+                            <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Access control lists-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
@@ -398,6 +407,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
                             <li title="Can't be enforced, only supporting OTP" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--2-factor authentication-->
+                            <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Auth via env variable-->
@@ -449,6 +459,7 @@
                             <li title="AAA with Box.com accessiblity site" rel="tooltip" class="green">AA/AAA</li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Dyslexia-friendly font-->
 								<li class="cd-group"></li> <!--Admin features-->
+                            <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Access control lists-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
@@ -473,6 +484,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
                             <li title="Supports multiple factors" rel="tooltip">SMS</li> <!--2-factor authentication-->
+                            <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Auth via env variable-->
@@ -524,6 +536,7 @@
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Dyslexia-friendly font-->
 								<li class="cd-group"></li> <!--Admin features-->
+                            <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Access control lists-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
@@ -548,6 +561,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
                             <li title="" rel="tooltip">SMS</li> <!--2-factor authentication-->
+                            <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Auth via env variable-->
@@ -598,6 +612,7 @@
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Dyslexia-friendly font-->
 								<li class="cd-group"></li> <!--Admin features-->
+                            <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Access control lists-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
@@ -622,6 +637,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
                             <li title="" rel="tooltip">SMS/U2F/OTP</li> <!--2-factor authentication-->
+                            <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Auth via env variable-->
@@ -672,6 +688,7 @@
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Dyslexia-friendly font-->
 								<li class="cd-group"></li> <!--Admin features-->
+                            <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Access control lists-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
@@ -696,6 +713,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
                             <li title="OTP only via Duo Push" rel="tooltip">OTP/SMS</li> <!--2-factor authentication-->
+                            <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Auth via env variable-->
@@ -747,6 +765,7 @@
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--WCAG 2.1 support-->
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Dyslexia-friendly font-->
 								<li class="cd-group"></li> <!--Admin features-->
+                            <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Access control lists-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Content workflow automation-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Automatic script execution-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Real-time (push) notifications-->
@@ -770,7 +789,8 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Access Control-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--App access rights-->
 								<li class="cd-group"></li> <!--Authentication-->
-								<li title="" rel="tooltip">SMS</li> <!--2-factor authentication-->
+							<li title="" rel="tooltip">SMS</li> <!--2-factor authentication-->
+                            <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Suspicious Login Detection-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LDAP/AD-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Native SAML -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Auth via env variable-->
