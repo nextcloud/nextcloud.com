@@ -2,10 +2,10 @@
 // Strings used through nextcloud.com
 
 /* VERSIONS */
-$VERSIONS_SERVER_MAJOR_STABLE = '15';
-$VERSIONS_SERVER_FULL_STABLE = '15.0.7';
-$VERSIONS_SERVER_MAJOR_DEVELOPMENT = '16.0.0';
-$VERSIONS_SERVER_MAJOR_DEV_DOCS = '15'; // Used in dev docs links
+$VERSIONS_SERVER_MAJOR_STABLE = '16';
+$VERSIONS_SERVER_FULL_STABLE = '16.0.0';
+$VERSIONS_SERVER_MAJOR_DEVELOPMENT = '17.0.0';
+$VERSIONS_SERVER_MAJOR_DEV_DOCS = '16'; // Used in dev docs links
 $VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.5.2';
 $VERSIONS_CLIENT_DESKTOP_STABLE_SHORT = '2.5'; // For use in documentation link
 
@@ -64,9 +64,9 @@ $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.nextcloud.com/download/repos
 
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.nextcloud.com/server/prereleases/';
-$SERVER_TESTING_VERSION ='16 RC 2'; // nothing to test -> leave it empty
-$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-16.0.0RC2.tar.bz2';
-$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-16.0.0RC2.zip';
+$SERVER_TESTING_VERSION =''; // nothing to test -> leave it empty
+$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-17.0.0BETA1.tar.bz2';
+$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-17.0.0BETA1.zip';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.nextcloud.com/server/installer/setup-nextcloud.php';
