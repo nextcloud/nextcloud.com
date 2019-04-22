@@ -262,8 +262,8 @@
 <section class="section--usermanagement">
 	<a name="storage" id="storage"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll image--feature">
-			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"/></a>
+        <div class="col-md-6 revealOnScroll image--feature new-img image--floated">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/usermanagement.png" alt="in action" ></a>
 		</div>
 			<p class="section--paragraph__tittle"><?php echo $l->t('Integrated account management');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud features built in account management with optional two-factor authentication, making it easy to handle creating and modifying accounts. If you have set up a LDAP, you can connect it to Nextcloud as well!');?></p>

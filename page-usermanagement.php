@@ -36,14 +36,25 @@
 <section class="section--builtin">
 <div class="container">
 	<div class="row">
-		<div class="col-md-6 revealOnScroll image--floated">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png" /></a>
+        <div class="col-md-6 revealOnScroll image--feature new-img image--floated">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/usermanagement.png" alt="in action" ></a>
 		</div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Easy user management');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Admins can create, modify, search and view user accounts using Nextcloud built-in user management. Name, disk quota, mail addresses and group membership can be handled and users can be given administrator privileges if needed.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('If you need to integrate Nextcloud with an existing system, take advantage of support for one or more LDAP directories instead of or in addition to local users. Nextcloud can secure logins with two-factor authentication and supports single sign-on through SAML, OAuth2, Kerberos and others.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('For large-scale solutions, performance optimization, additional tools and advice, see the ');?><a class="hyperlink" href="https://portal.nextcloud.com"><?php echo $l->t('Nextcloud customer portal.');?></a></p>
+		</div>
+	</div>
+	<div class="row">
+        <div class="col-md-6 revealOnScroll image--feature new-img">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/guest_account.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/guest_account.png" alt="in action" ></a>
+        </div>
+		<div class="col-md-6 revealOnScroll">
+			<p class="section--paragraph__tittle"><?php echo $l->t('Group admins');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The administrator can delegate some work by elevating some accounts to group administrator over specified groups. This allows them to create new users as members of these groups as well as delete and modify them.');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Guest accounts');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The guest accounts app enables users to create guest accounts for recipients. The administrator can determine what access rights these users need to have to external storage and apps.');?></p>
 		</div>
 	</div>
 </div>
