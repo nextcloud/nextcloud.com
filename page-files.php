@@ -177,7 +177,7 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-6 revealOnScroll image--feature new-img">
-            <img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP_2FA_auth.png" alt="in action" >
+                <img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP_2FA_auth.png" alt="in action" >
             </div>
 
             <div class="col-md-6 revealOnScroll feature--block">
@@ -362,8 +362,8 @@
 <section class="section--usermanagement">
 	<div class="container">
         <div class="row">
-            <div class="col-md-6 image--floated revealOnScroll image--feature">
-                <a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"/></a>
+            <div class="col-md-6 revealOnScroll image--feature new-img image--floated">
+                <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/usermanagement.png" alt="in action" ></a>
             </div>
                 <p class="section--paragraph__tittle"><?php echo $l->t('Integrated account management');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud features built-in account management with optional two-factor authentication as well as Single-sign-on support and integration with external user directories like LDAP or IMAP, SMB, FTP and more.');?></p>
