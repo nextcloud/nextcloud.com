@@ -1,3 +1,4 @@
+<!-- A single blog post -->
 <?php while (have_posts()) : the_post(); ?>
   <article <?php post_class(); ?>>
   <head>
@@ -11,8 +12,17 @@
 </script>
 </head>
 <section class="section--blog-header">
-<div class="blog-background">
+<div class="background blog-background">
+	<div class="container">
+		<div class="row">
+			<div class="topheader">
+<!-- 				<h1>The Nextcloud blog</h1> -->
+			</div>
+		</div>
+	</div>
 </div>
+</section>
+
 <section class="section--content">
 <div class="container">
     <div class="row">
@@ -37,8 +47,6 @@
         </div>
     </div>
 </div>
-<style>
-</style>
 </section>
 <section class="section--footer">
 <div class="container">
