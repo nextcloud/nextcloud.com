@@ -7,78 +7,119 @@
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto; }
-  @media (min-width: 768px) {
-    .container-widest .container-widest {
-      width: 738px; } }
-  @media (min-width: 992px) {
-    .container-widest .container-widest {
-      width: 962px; } }
-  @media (min-width: 1200px) {
-    .container-widest .container-widest {
-      width: 1170px; } }
-  @media (min-width: 1500px) {
-    .container-widest .container-widest {
-      width: 1470px; } }
-  @media (min-width: 1800px) {
-    .container-widest .container-widest {
-      width: 1770px; } }
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container-widest .container-widest {
+    width: 738px;
+  }
+}
+@media (min-width: 992px) {
+  .container-widest .container-widest {
+    width: 962px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-widest .container-widest {
+    width: 1170px;
+  }
+}
+@media (min-width: 1500px) {
+  .container-widest .container-widest {
+    width: 1470px;
+  }
+}
+@media (min-width: 1800px) {
+  .container-widest .container-widest {
+    width: 1770px;
+  }
+}
 
-/* gradient behind transparent nav */
-.nav:not(.scrolled) {
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
-  /* IE6-9 */ }
-
+/* @import '../modules/transparent-gradient'; */
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
-  position: absolute; }
+  position: absolute;
+}
 
-.blog-background {
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: white;
+}
+
+.section--blog-header .blog-background {
   background: url("../../img/headers/dots.png") no-repeat;
   background-color: #0082c9;
   background-position: center;
   background-size: cover;
-  height: 40vh; }
-  @media (min-width: 768px) {
-    .blog-background {
-      height: 100vh;
-      min-height: 800px; } }
-
-html {
-  height: 100%; }
-
-body {
-  height: 100%;
-  background-color: white; }
+  min-height: 0;
+  max-height: 600px;
+  height: 100px;
+}
+@media (min-width: 768px) {
+  .section--blog-header .blog-background {
+    height: 100px;
+  }
+}
+.section--blog-header .blog-background .topheader {
+  width: 50%;
+  max-width: 800px;
+  margin-left: 8.3333333333%;
+}
+.section--blog-header .blog-background .topheader h1 {
+  margin-bottom: 10px;
+  font-size: 50px;
+  line-height: 120%;
+  color: white;
+  font-weight: 300;
+}
+.section--blog-header .blog-background .topheader h2.blog-metadata {
+  font-size: 20px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  line-height: 1;
+  color: white;
+  text-shadow: none;
+}
+.section--blog-header .blog-background .topheader h2.blog-metadata .published {
+  margin-right: 15px;
+}
+.section--blog-header .blog-background .topheader h2.blog-metadata img {
+  width: 20px !important;
+  padding-bottom: 3px;
+}
+.section--blog-header .blog-background .topheader h2.blog-metadata small {
+  font-size: 12px;
+  color: white;
+  text-shadow: none;
+}
+.section--blog-header .blog-background .topheader h2.blog-metadata small a {
+  text-decoration: underline;
+  color: white;
+}
 
 section {
-  height: 100%; }
-  section .container {
-    height: 100%; }
-    section .container .row {
-      height: 100%; }
-      section .container .row .col-md-10 {
-        height: 100%; }
-        @media (min-width: 768px) {
-          section .container .row .col-md-10 {
-            padding-left: 50px;
-            padding-right: 50px; } }
-
-/*  This makes all links look more like on the rest of our website, even though it can also cause issues occasionally...  */
-a {
-  color: #a2a2a2;
-  font-weight: 500;
-  transition: all 0.5s ease; }
-  a :hover {
-    text-decoration: none;
-    color: #2a2a36; }
+  height: 100%;
+}
+section .container {
+  height: 100%;
+}
+section .container .row {
+  height: 100%;
+}
+section .container .row .col-md-10 {
+  height: 100%;
+}
+@media (min-width: 768px) {
+  section .container .row .col-md-10 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
 
 .section--content .container .row {
   position: relative;
@@ -99,222 +140,361 @@ a {
   		display: none;
   	}
   }*/
-  			/*.white {
-  				position: absolute;
-  				top: -40vh;
-  				z-index: -1;
-  				margin-left: -50px;
-  				width: 100%;
-  				height: calc(100% - 40vh);
-  				background-color: white;
-  
-  				box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
-  				margin-top: 0px;
-  				@media (max-width: $break-small) {
-  					display: none;
-  				}
-  			}*/ }
+  /*.white {
+  	position: absolute;
+  	top: -40vh;
+  	z-index: -1;
+  	margin-left: -50px;
+  	width: 100%;
+  	height: calc(100% - 40vh);
+  	background-color: white;
+
+  	box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  	margin-top: 0px;
+  	@media (max-width: $break-small) {
+  		display: none;
+  	}
+  }*/
+}
+.section--content .container .row .content {
+  z-index: 10;
+  background: white;
+  padding-bottom: 30px;
+  /* animation on zoom on images with a link */
+  /* images in various sizes */
+  /* alignment of images and divs */
+}
+@media (min-width: 768px) {
   .section--content .container .row .content {
-    z-index: 10;
-    background: white;
-    margin-top: -5px;
-    padding-bottom: 30px;
-    /* animation on zoom on images with a link */
-    /* alignment of images and divs */
-    /* images in various sizes */ }
-    @media (min-width: 768px) {
-      .section--content .container .row .content {
-        margin-top: -70vh;
-        padding-top: 20px;
-        /* 					background: none; */
-        border-top-right-radius: 10px;
-        border-top-left-radius: 10px;
-        box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19); } }
-    .section--content .container .row .content blockquote a {
-      color: #555; }
-    .section--content .container .row .content .blog-metadata {
-      font-size: 20px;
-      padding-bottom: 20px;
-      margin-top: 0px;
-      line-height: 1; }
-      .section--content .container .row .content .blog-metadata .published {
-        margin-right: 15px; }
-      .section--content .container .row .content .blog-metadata img {
-        width: 20px !important;
-        padding-bottom: 3px; }
-      .section--content .container .row .content .blog-metadata a {
-        text-decoration: none; }
-      .section--content .container .row .content .blog-metadata small {
-        font-size: 12px; }
-    .section--content .container .row .content h1 {
-      margin-top: 120px;
-      font-size: 50px;
-      font-weight: 300; }
-    .section--content .container .row .content h1:first-of-type {
-      margin-top: 20px;
-      font-size: 50px;
-      font-weight: 300; }
-    .section--content .container .row .content h2 {
-      margin-top: 80px;
-      font-size: 36px; }
-    .section--content .container .row .content h3 {
-      margin-top: 50px;
-      font-size: 22px; }
-    .section--content .container .row .content blockquote p {
-      display: inline; }
-    .section--content .container .row .content ul {
-      padding-left: 30px; }
-      .section--content .container .row .content ul li {
-        margin: 15px 0 0 0;
-        list-style-image: url("../../img/enterprise/dot-small.svg"); }
-      .section--content .container .row .content ul ul li {
-        margin: 3px 0 0 0;
-        list-style-image: url("../../img/enterprise/dot-tiny.svg");
-        font-size: 90%; }
-    .section--content .container .row .content figure {
-      border: 1px solid #eee;
-      padding: 5px;
-      border-radius: 10px;
-      max-width: 90%; }
-      @media (max-width: 768px) {
-        .section--content .container .row .content figure {
-          max-width: 80vw;
-          margin-left: auto;
-          margin-right: auto; } }
-      .section--content .container .row .content figure img {
-        float: none;
-        width: 100%;
-        height: auto;
-        box-shadow: none !important;
-        max-width: 100% !important; }
-      .section--content .container .row .content figure a {
-        overflow: hidden; }
-        @media (max-width: 768px) {
-          .section--content .container .row .content figure a {
-            margin-left: auto;
-            margin-right: auto; } }
-        .section--content .container .row .content figure a img {
-          -moz-transition: all 0.3s;
-          -webkit-transition: all 0.3s;
-          transition: all 0.3s;
-          box-shadow: none;
-          max-width: 100%; }
-          @media (max-width: 768px) {
-            .section--content .container .row .content figure a img {
-              margin-left: auto;
-              margin-right: auto; } }
-        .section--content .container .row .content figure a:hover img {
-          -moz-transform: scale(1.1);
-          -webkit-transform: scale(1.1);
-          transform: scale(1.1); }
-    .section--content .container .row .content .row > [class*='col-md'] > a,
-    .section--content .container .row .content a.image--animate {
-      margin: 2%;
-      overflow: hidden; }
-      @media (max-width: 768px) {
-        .section--content .container .row .content .row > [class*='col-md'] > a,
-        .section--content .container .row .content a.image--animate {
-          margin: 60px auto; } }
-      .section--content .container .row .content .row > [class*='col-md'] > a img,
-      .section--content .container .row .content a.image--animate img {
-        -moz-transition: all 0.3s;
-        -webkit-transition: all 0.3s;
-        transition: all 0.3s;
-        box-shadow: 0 0 2px 1px #EEE; }
-        @media (max-width: 768px) {
-          .section--content .container .row .content .row > [class*='col-md'] > a img,
-          .section--content .container .row .content a.image--animate img {
-            margin: 60px auto; } }
-      .section--content .container .row .content .row > [class*='col-md'] > a:hover img,
-      .section--content .container .row .content a.image--animate:hover img {
-        -moz-transform: scale(1.1);
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1); }
-    @media (max-width: 768px) {
-      .section--content .container .row .content .alignright {
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center; } }
-    @media (max-width: 768px) {
-      .section--content .container .row .content .alignleft {
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center; } }
-    @media (min-width: 768px) {
-      .section--content .container .row .content img {
-        max-width: 100%; } }
-    @media (max-width: 768px) {
-      .section--content .container .row .content img {
-        max-width: 70vw; } }
-    .section--content .container .row .content .size-medium {
-      width: auto;
-      height: auto;
-      max-width: 350px;
-      max-height: 550px;
-      box-shadow: 0 0 2px 1px #EEE;
-      padding: 5px 5px 5px 5px; }
-      @media (min-width: 768px) {
-        .section--content .container .row .content .size-medium article.video-wall {
-          min-width: 0px !important;
-          max-width: 100% !important;
-          max-height: 450px !important; }
-          .section--content .container .row .content .size-medium article.video-wall .video-link {
-            width: 100% !important; } }
-      @media (max-width: 768px) {
-        .section--content .container .row .content .size-medium {
-          max-width: 90%;
-          max-height: 90%; } }
-      .section--content .container .row .content .size-medium img {
-        padding: 5px 5px 5px 5px;
-        box-shadow: none !important; }
-    .section--content .container .row .content .size-small {
-      width: auto;
-      height: auto;
-      max-width: 200px;
-      max-height: 200px;
-      box-shadow: 0 0 2px 1px #EEE;
-      padding: 5px 5px 5px 5px; }
-      .section--content .container .row .content .size-small img {
-        padding: 5px 5px 5px 5px;
-        box-shadow: none !important; }
-    .section--content .container .row .content .size-thumbnail {
-      width: auto;
-      height: auto;
-      max-width: 100px;
-      max-height: 100px;
-      box-shadow: 0 0 2px 1px #EEE;
-      padding: 5px 5px 5px 5px; }
-      .section--content .container .row .content .size-thumbnail img {
-        padding: 5px 5px 5px 5px;
-        box-shadow: none !important; }
-    .section--content .container .row .content .size-full {
-      width: auto;
-      height: auto;
-      max-width: 100%;
-      max-height: 100%;
-      box-shadow: 0 0 2px 1px #EEE; }
-      .section--content .container .row .content .size-full img {
-        padding: 5px 5px 5px 5px;
-        box-shadow: none !important; }
-    .section--content .container .row .content div[class*='size-'] {
-      padding: 0 15px; }
-      .section--content .container .row .content div[class*='size-'] img {
-        max-width: 100%; }
-    .section--content .container .row .content .fullwidth,
-    .section--content .container .row .content .banner {
-      margin: 50px -50px;
-      /* cancel out page margin */
-      width: calc(100% + 100px);
-      /* account for double page margin */
-      max-width: 100vw; }
+    padding-top: 70px;
+  }
+}
+.section--content .container .row .content p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #555;
+  /*  This makes all links look more like on the rest of our website, even though it can also cause issues occasionally...  */
+  /*a {
+  	color: #a2a2a2;
+  	font-weight: 500;
+  	transition: all 0.5s ease;
+  	&:hover {
+  		text-decoration: none;
+  		color: #2a2a36;
+  	}
+  }*/
+}
+.section--content .container .row .content p a {
+  color: #a2a2a2;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: solid 1px;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+.section--content .container .row .content p a:hover {
+  text-decoration: none;
+  color: #2a2a36;
+}
+.section--content .container .row .content blockquote a {
+  /* 						color: #555; */
+}
+.section--content .container .row .content .blog-metadata {
+  font-size: 20px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  line-height: 1;
+}
+.section--content .container .row .content .blog-metadata .published {
+  margin-right: 15px;
+}
+.section--content .container .row .content .blog-metadata img {
+  width: 20px !important;
+  padding-bottom: 3px;
+}
+.section--content .container .row .content .blog-metadata a {
+  text-decoration: none;
+}
+.section--content .container .row .content .blog-metadata small {
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .section--content .container .row .content h1 {
+    margin-top: 120px;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .section--content .container .row .content h1:first-of-type {
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  .section--content .container .row .content h2 {
+    margin-top: 80px;
+    font-size: 36px;
+  }
+  .section--content .container .row .content h3 {
+    margin-top: 50px;
+    font-size: 22px;
+  }
+}
+.section--content .container .row .content h1 {
+  margin-top: 80px;
+  font-size: 35px;
+  font-weight: 300;
+}
+.section--content .container .row .content h1:first-of-type {
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: 300;
+}
+.section--content .container .row .content h2 {
+  margin-top: 60px;
+  font-size: 30px;
+}
+.section--content .container .row .content h3 {
+  margin-top: 40px;
+  font-size: 22px;
+}
+.section--content .container .row .content blockquote p {
+  display: inline;
+}
+.section--content .container .row .content ul {
+  padding-left: 30px;
+}
+.section--content .container .row .content ul li {
+  margin: 15px 0 0 0;
+  list-style-image: url("../../img/enterprise/dot-small.svg");
+}
+.section--content .container .row .content ul ul li {
+  margin: 3px 0 0 0;
+  list-style-image: url("../../img/enterprise/dot-tiny.svg");
+  font-size: 90%;
+}
+.section--content .container .row .content figure {
+  border: 1px solid #eee;
+  padding: 5px;
+  border-radius: 10px;
+  max-width: 90%;
+}
+@media (max-width: 768px) {
+  .section--content .container .row .content figure {
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.section--content .container .row .content figure img {
+  float: none;
+  width: 100%;
+  height: auto;
+  box-shadow: none !important;
+  max-width: 100% !important;
+}
+.section--content .container .row .content figure a {
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .section--content .container .row .content figure a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.section--content .container .row .content figure a img {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  box-shadow: none;
+  max-width: 100%;
+}
+@media (max-width: 768px) {
+  .section--content .container .row .content figure a img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.section--content .container .row .content figure a:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.section--content .container .row .content .row > [class*=col-md] > a,
+.section--content .container .row .content a.image--animate {
+  margin: 2%;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .section--content .container .row .content .row > [class*=col-md] > a,
+.section--content .container .row .content a.image--animate {
+    margin: 60px auto;
+  }
+}
+.section--content .container .row .content .row > [class*=col-md] > a img,
+.section--content .container .row .content a.image--animate img {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  box-shadow: 0 0 2px 1px #EEE;
+}
+@media (max-width: 768px) {
+  .section--content .container .row .content .row > [class*=col-md] > a img,
+.section--content .container .row .content a.image--animate img {
+    margin: 60px auto;
+  }
+}
+.section--content .container .row .content .row > [class*=col-md] > a:hover img,
+.section--content .container .row .content a.image--animate:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+@media (min-width: 768px) {
+  .section--content .container .row .content img {
+    max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .section--content .container .row .content img {
+    max-width: 70vw;
+  }
+}
+.section--content .container .row .content .size-thumbnail {
+  width: auto;
+  height: auto;
+  max-width: 100px;
+  max-height: 100px;
+  box-shadow: 0 0 2px 1px #EEE;
+  padding: 5px 5px 5px 5px;
+}
+.section--content .container .row .content .size-thumbnail img {
+  padding: 5px 5px 5px 5px;
+  box-shadow: none !important;
+}
+.section--content .container .row .content .size-small {
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+  box-shadow: 0 0 2px 1px #EEE;
+  padding: 5px 5px 5px 5px;
+}
+.section--content .container .row .content .size-small img {
+  padding: 5px 5px 5px 5px;
+  box-shadow: none !important;
+}
+.section--content .container .row .content .size-medium {
+  width: auto;
+  height: auto;
+  max-width: 350px;
+  max-height: 550px;
+  box-shadow: 0 0 2px 1px #EEE;
+  padding: 5px 5px 5px 5px;
+}
+@media (min-width: 768px) {
+  .section--content .container .row .content .size-medium article.video-wall {
+    min-width: 0px !important;
+    max-width: 100% !important;
+    max-height: 450px !important;
+  }
+  .section--content .container .row .content .size-medium article.video-wall .video-link {
+    width: 100% !important;
+  }
+}
+@media (max-width: 768px) {
+  .section--content .container .row .content .size-medium {
+    max-width: 90%;
+    max-height: 90%;
+  }
+}
+.section--content .container .row .content .size-medium img {
+  padding: 5px 5px 5px 5px;
+  box-shadow: none !important;
+}
+.section--content .container .row .content .size-large {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: auto;
+  height: auto;
+  max-width: 650px;
+  max-height: 100%;
+  box-shadow: 0 0 2px 1px #EEE;
+}
+.section--content .container .row .content .size-large img {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  box-shadow: none !important;
+}
+.section--content .container .row .content .size-full {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 0 0 2px 1px #EEE;
+}
+.section--content .container .row .content .size-full img {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  box-shadow: none !important;
+}
+.section--content .container .row .content div[class*=size-] {
+  padding: 0 15px;
+}
+.section--content .container .row .content div[class*=size-] img {
+  max-width: 100%;
+}
+.section--content .container .row .content .alignright, .section--content .container .row .content .align-right {
+  float: right;
+}
+@media (max-width: 768px) {
+  .section--content .container .row .content .alignright, .section--content .container .row .content .align-right {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+.section--content .container .row .content .alignleft, .section--content .container .row .content .align-left {
+  float: left;
+}
+@media (max-width: 768px) {
+  .section--content .container .row .content .alignleft, .section--content .container .row .content .align-left {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+.section--content .container .row .content .align-center, .section--content .container .row .content .aligncenter {
+  float: none;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+.section--content .container .row .content .fullwidth,
+.section--content .container .row .content .banner {
+  margin: 50px -150px;
+  /* cancel out page margin */
+  width: calc(100% + 300px);
+  /* account for double page margin */
+  max-width: 100vw;
+}
 
 .section--footer .container .row .col-md-10 {
   z-index: 15;
-  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  /* 				box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19); */
   padding-top: 20px;
   padding-bottom: 100px;
-  background: white; }
+  background: white;
+}
 
 /*# sourceMappingURL=blog.css.map */
