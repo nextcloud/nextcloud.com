@@ -1061,7 +1061,7 @@ body.advisories .content ul li {
 		padding-right: 50px;
 		&:before {
 			content: "";
-			background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
+			background: url(../img/common/arrow_right.svg) center/contain no-repeat;
 			position: absolute;
 			display: block;
 			width: 20px;
@@ -1074,7 +1074,7 @@ body.advisories .content ul li {
 		&:focus:before,
 		&:active:before,
 		&.active:before {
-			background: url(../img/common/arrow_right.svg) center/contain no-repeat;
+            background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
 			right: 15px;
 		}
 		&.button--blue {
@@ -1088,6 +1088,17 @@ body.advisories .content ul li {
 				background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
 			}
 		}
+		&.button--white {
+            &:before {
+                background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
+            }
+            &:hover:before,
+            &:focus:before,
+            &:active:before,
+            &.active:before {
+                background: url(../img/common/arrow_right.svg) center/contain no-repeat;
+            }
+        }
 	}
 	&.button--arrow--left {
 		padding-left: 50px;
@@ -1395,7 +1406,7 @@ blockquote {
 
 /* Blue call to action bar */
 
-.quote {
+.quote, .call-to-action {
 	padding: 60px 0 60px 0;
 	&.banner, &.section--whitepaper {
 		padding: 0;

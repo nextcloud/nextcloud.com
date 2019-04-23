@@ -129,7 +129,8 @@
    		<div class="row">
 			<div class="col-md-8 col-md-offset-2 revealOnScroll">
 				<div class="text-center morebuttondiv">
-					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a><br/>
+					<a href="https://www.onlyoffice.com/download.aspx" class="hyperlink"><?php echo $l->t('Get ONLYOFFICE for at home');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>
@@ -193,14 +194,14 @@
 		</div>
 	</div>
 </section>
-
 <div class="container-fluid call-to-action">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
 				<h1 class="section--heading-1 text-center"><?php echo $l->t('For home users');?></h1>
 				<div class="text-center morebuttondiv">
-					<a href="https://www.onlyoffice.com/download.aspx" class="button button--large button--arrow"><?php echo $l->t('Get ONLYOFFICE for at home');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a><br/>
+					<a href="https://www.onlyoffice.com/download.aspx" class="hyperlink"><?php echo $l->t('Get ONLYOFFICE for at home');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>

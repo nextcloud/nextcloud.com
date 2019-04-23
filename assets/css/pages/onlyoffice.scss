@@ -63,18 +63,3 @@ section {
         list-style-image: url("../../img/enterprise/check.svg");
     }
 }
-
-.call-to-action {
-    margin: 80px 0 0px 0;
-    padding: 50px 0px;
-    background: $nextcloud-blue;
-    color: white;
-    h1 {
-        color: white;
-        margin-top: 40px;
-        margin-bottom: 30px;
-    }
-    a {
-        color: white;
-    }
-}
