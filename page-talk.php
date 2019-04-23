@@ -73,8 +73,8 @@
                 <p class="section--paragraph">
                 <ul>
                     <li><?php echo $l->t('Mobile calls & chat with push notifications');?></li>
+                    <li><?php echo $l->t('Commands to enable integration with other tools');?></li>
                     <li><?php echo $l->t('Webinars & public web meetings*');?></li>
-                    <li><?php echo $l->t('Scaling to millions of users*');?></li>
                     <li><?php echo $l->t('SIP gate: dial in by phone*');?></li>
                 </ul></p>
             </div>
@@ -194,7 +194,6 @@
 			<p class="section--paragraph"><?php echo $l->t('Talk makes it easy to call customers and partners in one-to-one or group-scenarios.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Users can invite external chat participants with an URL into public rooms on the Nextcloud server.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The chat, which remains open even when the user leaves a call, enables participants to easily exchange messages, links and notes.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Files can be shared into the chat and will be available to all participants.');?></p>
 		</div>
 	</div>
 	<div class="row">
@@ -211,13 +210,35 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 revealOnScroll image--feature new-img">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/Collabora_with_Talk_in_sidebar_1.png" class="img-responsive featureimg" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png" class="img-responsive featureimg" /></a>
 		</div>
-	<div class="col-md-6 revealOnScroll">
-		<p class="section--paragraph__tittle"><?php echo $l->t('Secure and private');?></p>
-		<p class="section--paragraph"><?php echo $l->t('Calls are end-to-end encrypted so no communication can be intercepted.');?></p>
-		<p class="section--paragraph"><?php echo $l->t('Chat logs are stored securely on your own server.');?></p>
-		<p class="section--paragraph"><?php echo $l->t('The privacy of communication and its metadata is guaranteed by self-hosting Nextcloud Talk!');?></p>
+        <div class="col-md-6 revealOnScroll">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Commands for productivity');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Commands allows administrators to define actions users can call from a chat.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('These can sent their input back into the chat or kick off actions.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Commands are simple scripts, making it easy to integrate Nextcloud in business infrastructure.');?></p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 revealOnScroll image--floated image--feature new-img">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png" class="img-responsive featureimg" /></a>
+		</div>
+        <div class="col-md-6 revealOnScroll">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Integration with Nextcloud');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Documents can be shared directly into a chat from the Files app and are made available to all participants, both users and guests.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Projects integration enables linking of chat rooms with files, calendars, tasks and other resources for easy finding.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Our online office solutions provide a sidebar with Talk for chat and calls with the participants.');?></p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 revealOnScroll image--feature new-img">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/Collabora_with_Talk_in_sidebar_1.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/Collabora_with_Talk_in_sidebar_1.png" class="img-responsive featureimg" /></a>
+		</div>
+        <div class="col-md-6 revealOnScroll">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Secure and private');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Calls are end-to-end encrypted so no communication can be intercepted.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Chat logs are stored securely on your own server.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('The privacy of communication and its metadata is guaranteed by self-hosting Nextcloud Talk!');?></p>
 		</div>
 	</div>
     <div class="row">

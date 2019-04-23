@@ -102,8 +102,8 @@
         </div>
 	</div>
 	<div class="row">
-		<div class="col-md-6 revealOnScroll image--floated">
-			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-card-details-checklist-nw.png" />
+		<div class="col-md-6 revealOnScroll image--feature new-img image--floated">
+			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png" />
         </div>
         <div class="col-md-6 revealOnScroll"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Deck');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Manage your work with others');?></p>
