@@ -1426,6 +1426,11 @@ blockquote {
 	i[class*='fa-'] {
 		color: white !important;
 	}
+	.image--feature.new-img {
+		@media (min-width: $break-small) {
+			border: 10px solid $nextcloud-blue !important;
+		}
+	}
 }
 
 /* Whitepaper sections */

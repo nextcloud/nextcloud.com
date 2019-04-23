@@ -111,6 +111,7 @@
 		<div class="col-md-6 revealOnScroll">
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/LrF4jf1ROOc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
+		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Designed for humans');?></p>
 			<p class="section--paragraph"><?php echo $l->t('An efficient, easy to use interface is one of the main things that sets Nextcloud apart from the competition. Design is about more than being pretty. The goal is to allow users to get work done with the least amount of effort, making it obvious how to accomplish tasks and reducing the number of steps needed to do so.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Good design can be seen in the entire user interface and each release makes steps forward.');?></p>
@@ -138,13 +139,27 @@
 	</div>
 </section>
 
+<section class="section--privacy quote">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 revealOnScroll image--feature new-img image--floated">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/privacy_big.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/privacy.png" alt="in action" ></a>
+		</div>
+		<div class="col-md-6 revealOnScroll">
+			<p class="section--paragraph__tittle"><?php echo $l->t('Privacy center');?></p>
+			<p class="section--paragraph"><?php echo $l->t('What does privacy mean for you, and how can Nextcloud help you keep your data under control? In the settings you can find the Nextcloud Privacy center, where you can see where your data is and who has access to it.');?></p>
+		</div>
+    </div>
+</div>
+</section>
+
+
 <section class="section--clients">
 	<a name="clients" id="clients"></a>
 	<div class="container">
 		<div class="col-md-6 image--feature revealOnScroll">
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mobileDesktop.png">
 		</div>
-
 		<div class="col-md-6 revealOnScroll feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Mobile and desktop clients');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The free Nextcloud clients for Android, iOS and desktop systems allow you to sync and share files, in a fully secure way through an encrypted connection. The mobile clients feature automatic upload of pictures and videos you take and can synchronize select files and folders. The clients can handle multiple accounts, show all activity happening on your server and notify you of new events such as the availability of new shares.');?></p>
@@ -160,6 +175,7 @@
 		<div class="col-md-6 image--floated image--feature revealOnScroll">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png"/></a>
 		</div>
+		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Calendar and Contacts');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The Nextcloud Calendar and Contacts apps allow you to store, sync and share your plans and contacts. You can share with users or groups on your server or sync the calendar or contacts with your devices and access them wherever you are. The Calendar and Contacts app feature:');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Easy to use interface with views for days, weeks, months and years');?></p>
@@ -175,6 +191,7 @@
 		<div class="col-md-6 revealOnScroll image--feature">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png"/></a>
 		</div>
+		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Secure audio and video calls');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Operate your own secure and private audio/video communication service! You can access it through a browser, invite family or friends and collaborate in a group through secure, end to end encrypted audio and video communication. The WebRTC, peer to peer communication channel can not be intercepted even by the admin of the server. The talk app also supports chat and comes with mobile applications for Android and iOS so you can call others from your mobile phone!');?></p>
 			<a href="<?php echo home_url('talk') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Nextcloud Talk');?></a>
@@ -187,6 +204,7 @@
 		<div class="col-md-6 image--floated revealOnScroll">
 			<iframe width="100%" height="315" src="https://www.youtube.com/embed/S_842AQx3MQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
+		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Accessibility');?></p>
 			<p class="section--paragraph"><?php echo $l->t('To ensure Nextcloud is accessible to users with visual impairments, Nextcloud has extensive keyboard accessibility and screen reader support.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The colors used in Nextcloud meet the WCAG 2.0 AA standard for contrast and we created themes for users who need even higher support. Our High Contrast theme aims for WCAG 2.0 AAA compliance, while a Dyslexia-friendly font option helps people with reading disability. A Dark theme is also available.');?></p>
@@ -200,6 +218,7 @@
 		<div class="col-md-6 revealOnScroll image--feature">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/picocms-nw.png"/></a>
 		</div>
+		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Build your own website!');?></p>
 			<p class="section--paragraph"><?php echo $l->t('With PicoCMS you can create and manage websites with an address like: <code>https://cloud.example.com/sites/my_site/</code> You can edit the website as easy text (Markdown style) files in Nextcloud.');?></p>
             <p class="section--paragraph"><?php echo $l->t('You can make the pages visible for everyone or only for users or groups on your Nextcloud. You can also share the files that the website consists of so you can collaborate with others maintaining the site.');?></p>
@@ -214,6 +233,7 @@
 		<div class="col-md-6 image--feature image--floated revealOnScroll">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-nw.png"/></a>
 		</div>
+		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('View and edit documents with Collabora');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Collabora Online is a powerful LibreOffice-based online office suite with collaborative editing that works in all modern browsers.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Collabora Online supports editing your documents in real time with multiple other editors, showing high fidelity, WYSIWYG rendering and preserving the layout and formatting of your documents.');?></p>
@@ -265,6 +285,7 @@
         <div class="col-md-6 revealOnScroll image--feature new-img image--floated">
             <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/usermanagement.png" alt="in action" ></a>
 		</div>
+		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Integrated account management');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud features built in account management with optional two-factor authentication, making it easy to handle creating and modifying accounts. If you have set up a LDAP, you can connect it to Nextcloud as well!');?></p>
 			<a href="<?php echo home_url('usermanagement') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
@@ -278,6 +299,7 @@
 		<div class="col-md-6 revealOnScroll image--floated image--feature">
 			<a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/file-access-control-nw.png" alt="in action"/></a>
 		</div>
+		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Workflow management');?></p>
 			<p class="section--paragraph"><?php echo $l->t('With Nextcloud, system administrators can control and direct the flow of data between users on or between servers. The File Access Control app and other workflow tools can be used to prevent accidental sharing of sensitive data, adding an additional layer of protection to Nextcloud.');?></p>
 			<a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Workflow handling');?></a>
@@ -291,6 +313,7 @@
         <div class="col-md-6 revealOnScroll image--feature">
             <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-nw.png" alt="in action"/></a>
         </div>
+        <div class="col-md-6 revealOnScroll">
             <p class="section--paragraph__tittle"><?php echo $l->t('Tracking changes to your files');?></p>
             <p class="section--paragraph"><?php echo $l->t('The nextcloud Activity app shows file modifications, downloads of shares and changes to comments or tags, providing an overview in the browser, clients or via email notifications and an RSS feed.');?></p>
             <p class="section--paragraph__tittle"><?php echo $l->t('Monitoring your Nextcloud server');?></p>
@@ -306,6 +329,7 @@
 		<div class="col-md-6 image--floated revealOnScroll image--feature">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"/></a>
 		</div>
+		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('External storage, securely encrypted');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The external storage feature of Nextcloud gives you access to your data wherever it is. Nextcloud can access files stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but you can also access them using standard protocols such as NFS, (S)FTP, WebDAV and more.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The Encryption App can encrypt data at rest for both local and remote storage, protecting data stored on networks outside of your server. Nextcloud will keep your data where it is and retrieve it over a secure communication channel whenever you need to access it.');?></p>
@@ -319,6 +343,7 @@
 		<div class="col-md-6 revealOnScroll image--feature">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/fulltextsearch.png"/></a>
 		</div>
+		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Powerful search');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud includes a powerful full-text search engine capable of using ElasticSearch as back-end. Its flexible plugin-based interface enables search capabilities beyond files and accomodates other back-end solutions like Apache Solr.');?></p>
 		</div>

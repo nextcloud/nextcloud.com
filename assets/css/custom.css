@@ -10696,6 +10696,9 @@ blockquote {
     color: white !important; }
   .quote i[class*='fa-'], .call-to-action i[class*='fa-'] {
     color: white !important; }
+  @media (min-width: 768px) {
+    .quote .image--feature.new-img, .call-to-action .image--feature.new-img {
+      border: 10px solid #0082c9 !important; } }
 
 /* Whitepaper sections */
 .section--whitepaper, .whitepaper {
