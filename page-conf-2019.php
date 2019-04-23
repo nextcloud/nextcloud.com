@@ -16,8 +16,7 @@
 		<div class="container">
 			<div class="col-md-6 topheader">
 				<h1>Nextcloud Conference 2019</h1>
-				<h2>A week of collaboration, coding and fun!</h2>
-<!-- 				<p><a class="button button--small button--white button--arrow--left" href="<?php echo home_url('conf-2018') ?>"> 2018</a></p> -->
+				<h2>Collaboration, code and fun!</h2>
 			</div>
 		</div>
 	</div>
@@ -26,12 +25,11 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
-<!-- 			<img class="conf-img revealOnScroll" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg" alt="logo"/> -->
-<!-- 			<h2 class="revealOnScroll"></h2> -->
 			<p class="section--paragraph__tittle">September 14-15, Technical University Berlin</p>
 			<p class="section--paragraph">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
-			<!--<p class="section--paragraph"><a href="https://eventyay.com/e/77d26f89/" class="button button--arrow button--large button--blue">Register for free</a> <a href="https://nextcloud.com/livestream" class="button button--arrow button--large button--blue">Live stream <i class="icon-arrow-circle-o-right icon"></i></a> <a href="https://eventyay.com/e/77d26f89/cfs/" class="button button--arrow button--large button--blue">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p>-->
-            <p class="section--paragraph">The 2018 conference is over, <a href="https://nextcloud.com/blog/nextcloud-conference-2018-millions-of-nec-routers-nextcloud-14-and-simple-signup/">read our report!</a><br/>Save the date for 2019!</p>
+			<p>The event costs €20, and until June 31st we offer €15 Early bird tickets! Contributors get a free ticket - just <a href="mailto:events@nextcloud.com?subject=%5BContributor%20ticket%5D%20YOUR%20NAME&body=Link%20to%20your%20contribution" class="hyperlink">shoot us an email</a> with a link to your contribution(s) on github, transifex or otherwise! We provide catered lunch at the conference, you can find some hotel options further down the page.</a></p>
+			<p class="section--paragraph"><a href="https://eventyay.com/e/70d8ad61/" class="button button--arrow button--large button--blue">Register now - €20</a> <!--<a href="https://nextcloud.com/livestream" class="button button--arrow button--large button--blue">Live stream </a>--> <a href="https://eventyay.com/e/70d8ad61/cfs/" class="button button--arrow button--large button--blue">Submit a talk </a></p>
+<!--             <p class="section--paragraph">The 2018 conference is over, <a classy="hyperlink" href="https://nextcloud.com/blog/nextcloud-conference-2018-millions-of-nec-routers-nextcloud-14-and-simple-signup/">Read our report!</a></p> -->
             <div class="button button--white button--dropdown">
                 <input class="dropdown-toggle" type="text">
                 <div class="dropdown-text">Previous conferences</div>
@@ -131,10 +129,10 @@
 				<li>Status updates on the Calendar,  Theming and iOS apps</li>
 			</ul></p>
 <!-- 			<p class="section--paragraph revealOnScroll">Stay tuned for more information! We'll open registration later this year and expect our call for papers early 2018.</p> -->
-<!-- 			<p class="section--paragraph revealOnScroll">On Monday the 27th we have a <a class="hyperlink" href="<?php echo home_url('training') ?>">special Enterprise day with a focus on enterprise and large scale Nextcloud usage.</a></p> -->
+			<p class="section--paragraph revealOnScroll">On Monday the 16th we have a <a class="hyperlink" href="<?php echo home_url('training') ?>">special Enterprise day with a focus on enterprise and large scale Nextcloud usage.</a></p>
 <!-- 			<p class="section--paragraph revealOnScroll">Check out <a class="hyperlink" href="http://sched.eventyay.com/NextcloudConference2018/tracks.html">the full program</a>!</p> -->
 			<p>The talks will be live-streamed, stay tuned for more information!</p>
-<!-- 			<p class="section--paragraph revealOnScroll">Submit your session ideas in our <a class="hyperlink" href="https://eventyay.com/e/77d26f89/cfs/">call for papers</a> now!</p> -->
+			<p class="section--paragraph revealOnScroll">Submit your session ideas in our <a class="hyperlink" href="https://eventyay.com/e/70d8ad61//cfs/">call for papers</a> now!</p>
 <!--             <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p> -->
 		</div>
 	</div>
@@ -150,17 +148,17 @@
     </div>
 </section>-->
 
-<!--<section class="section--call-for-papers">
+<section class="section--call-for-papers">
 <div class="container">
 	<div class="row text-center">
 		<p class="section--paragraph__tittle revealOnScroll">We have opened our call for papers!</p>
 		<p class="section--paragraph revealOnScroll">You're invited to contribute your thoughts to our event.</p>
 		<div class="text-center morebuttondiv revealOnScroll">
-			<a href="https://eventyay.com/e/77d26f89/cfs/" class="button button--large button--blue button--arrow">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a>
+			<a href="https://eventyay.com/e/70d8ad61//cfs/" class="button button--large button--blue button--arrow">Submit a talk</a>
 		</div>
 	</div>
 </div>
-</section>-->
+</section>
 
 <div class="section--travelsupport">
 <div class="container-fluid quote">
@@ -170,6 +168,7 @@
 			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
 			<h2 class="section--heading-1 revealOnScroll text-center">Travel support</h2>
 				<p class="text-center">We want to help everybody attend and participate in the Nextcloud conference! To support contributors who might not otherwise attend due to financial limitations, we provide up to 80% of flight and hotel cost reimbursement. Submit your requests timely, we have a deadline!</p>
+				<p class="text-center">Contributors can get a free ticket - just <a href="mailto:events@nextcloud.com?subject=%5BContributor%20ticket%5D%20YOUR%20NAME&body=Link%20to%20your%20contribution" class="hyperlink">shoot us an email</a> with a link to your contribution(s) on github, transifex or otherwise!</p>
 				<div class="text-center">
 					<a href="https://nextcloud.com/blog/contributor-week-nextcloud-conference-time-to-apply-for-travel-support/" class="button button--large button--arrow">Learn more</a>
 <!--                <p class="text-center">Stay tuned, information is coming!</p>-->
@@ -183,7 +182,7 @@
 	<div class="container-fluid">
 			<div class="container">
 			<h2 class="section--heading-1 revealOnScroll">For enterprise</h2>
-			<p class="section--paragraph revealOnScroll">Join our Enterprise training day Monday September 16.<!--<br/>Book now, before July 15 and get 50% off!--></p>
+			<p class="section--paragraph revealOnScroll">Join our Enterprise training day Monday September 16.<br/><strong>Book until July 31st and get 50% off!</strong></p>
 			<p class="section--paragraph revealOnScroll"><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Learn more and book</a></p>
 <!-- 			<p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">See the Friday Focus program in our blog!</a></p> -->
 			</div>
@@ -204,9 +203,9 @@
     </div>
     <div class="row revealOnScroll">
         <div class="col-md-8 col-md-offset-2">
-            <p class="section--paragraph revealOnScroll text-center">The event is free and provides catered lunch. We will provide up to 80% support of travel & accomodation costs during the event to people who have contributed to Nextcloud in one way or another. For instance, you can <a class="hyperlink" href="https://github.com/nextcloud/server/labels/good%20first%20issue">solve a good first issue</a>, <a class="hyperlink" href="https://nextcloud.com/design/">work on the design</a>, <a class="hyperlink" href="https://www.meetup.com/topics/nextcloud/">organize a local Nextcloud meetup</a>, <a class="hyperlink" href="https://nextcloud.com/contribute/">or contribute in other ways</a>.</p>
-            <p class="text-center">Stay tuned, information is coming!</p>
-<!--             <p class="text-center"><a href="mailto:events@nextcloud.com?subject=%5BDiversity%20ticket%5D%20YOUR%20NAME&body=Link%20to%20your%20contribution" class="button button--arrow button--large button--blue text-center">Apply for support</a></p> -->
+            <p class="section--paragraph revealOnScroll text-center">We will provide up to 80% support of travel & accomodation costs during the event to people who have contributed to Nextcloud in one way or another. For instance, you can <a class="hyperlink" href="https://github.com/nextcloud/server/labels/good%20first%20issue">solve a good first issue</a>, <a class="hyperlink" href="https://nextcloud.com/design/">work on the design</a>, <a class="hyperlink" href="https://www.meetup.com/topics/nextcloud/">organize a local Nextcloud meetup</a>, <a class="hyperlink" href="https://nextcloud.com/contribute/">or contribute in other ways</a>.</p>
+<!--             <p class="text-center">Stay tuned, information is coming!</p> -->
+            <p class="text-center"><a href="mailto:events@nextcloud.com?subject=%5BDiversity%20ticket%5D%20YOUR%20NAME&body=Link%20to%20your%20contribution" class="button button--arrow button--large button--blue text-center">Apply for support</a></p>
             </div>
         </div>
     </div>
@@ -241,7 +240,7 @@
     </div>-->
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-        <p class="section--paragraph revealOnScroll">Contact us if you'd also like to contribute as partner!</p>
+        <p class="section--paragraph revealOnScroll"><a href="mailto:events@nextcloud.com?subject=%5Bpartnership&body=We%20want%20to%20partner%20up" class="hyperlink">Contact us</a> if you'd also like to contribute as partner!</p>
         </div>
     </div>
 </div>
@@ -259,7 +258,7 @@
 		<div class="col-md-6">
 			<p class="section--paragraph revealOnScroll"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/conference/talks.jpg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/talks_wee.jpg" style="width: 95%" alt="talk" class="aligncenter" /></a></p>
 			<h2  class="revealOnScroll">Entree</h2>
-			<p class="section--paragraph revealOnScroll">The Nextcloud Contributor Conference will be entirely open and free. We only ask you to <a class="hyperlink" href="https://eventyay.com/e/77d26f89/" target="_blank">register</a> to help us plan better for the event</p>
+			<p class="section--paragraph revealOnScroll"><p><a href="https://eventyay.com/e/70d8ad61/" class="hyperlink">The event costs €20,</a> and until June 31st we offer €15 Early bird tickets! Contributors get a free ticket - just <a href="mailto:events@nextcloud.com?subject=%5BContributor%20ticket%5D%20YOUR%20NAME&body=Link%20to%20your%20contribution" class="hyperlink">shoot us an email</a> with a link to your contribution(s) on github, transifex or otherwise! We provide catered lunch at the conference, you can find some hotel options further down the page.</a></p>
 		</div>
 	</div>
 	<div class="row revealOnScroll">

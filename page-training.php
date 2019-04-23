@@ -25,9 +25,9 @@
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
             <p class="section--paragraph text-center">The Nextcloud Enterprise Day provides IT professionals like project managers and decision makers the opportunity to define their own strategy to get the most out of Nextcloud. Meet Nextcloud experts, learn best practices and build up skills!</p>
-<!--             <p class="section--paragraph text-center"><a href="https://eventyay.com/e/d1196adb/" class="button button--blue button--arrow button--large">Sign up now!</a> <a href="#program" class="button button--blue button--arrow button--large">program</a></p> -->
+            <p class="section--paragraph text-center"><a href="https://eventyay.com/e/b4dd4aab/" class="button button--blue button--arrow button--large">Sign up now!</a> <!--<a href="#program" class="button button--blue button--arrow button--large">program</a>--></p>
             <p class="section--paragraph text-center">The next Enterprise Day takes place on September 16, the day after the Nextcloud Conference, at the Park Inn at Berlin Alexanderplatz.</p>
-            <p class="section--paragraph text-center">Save the date and stay tuned for registration and program information!</p>
+            <p class="section--paragraph text-center">Save the date and stay tuned for <!--registration and--> program information!</p>
 
 		</div>
 	</div>
@@ -37,35 +37,39 @@
 <section class="section--overview">
 <div class="container">
 	<div class="row">
-<!--         <p class="section--heading-1 section--text--center revealOnScroll">The facts:</p> -->
     </div>
-<!--    <div class="row">
+    <div class="row">
 		<div class="col-md-8 revealOnScroll">
-            <a href="https://www.google.com/maps/@52.5179389,13.4118667,616a,35y,39.28t/data=!3m1!1e3" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn.jpg" style="width: 95%" alt="talk" class="aligncenter" /></a>
+            <a href="https://www.google.com/maps/@52.5179389,13.4118667,616a,35y,39.28t/data=!3m1!1e3" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn.jpg" alt="talk" class="aligncenter" /></a>
+            <a class="overlay" href="https://www.google.com/maps/@52.5179389,13.4118667,616a,35y,39.28t/data=!3m1!1e3" target="_blank"><img  src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn-overlay.png" alt="talk" class="aligncenter" /></a>
 			<br/><small><a class="hyperlink" href="https://www.openstreetmap.org/?mlat=52.52279&amp;mlon=13.41288#map=18/52.52279/13.41288">View on Open Street Map</a></small>
 		</div>
 		<div class="col-md-4">
             <p class="section--paragraph__tittle">When</p>
-			<p class="section--paragraph revealOnScroll"><i class="fa fa-clock-o"></i> Monday August 27, 2018 from 9am to 6pm.</p>
+			<p class="section--paragraph revealOnScroll">
+			<i style="float:left; margin: 10px;" class="fa fa-clock-o"></i> Monday, September 16, 2019 from 8am to 6pm.</p>
             <p class="section--paragraph__tittle">Where</p>
-			<p class="section--paragraph revealOnScroll"><i class="fa fa-map"></i> The <a class="hyperlink" href="https://www.parkinn-berlin.de/en">Park Inn</a> at Berlin Alexanderplatz</p>
-			<p class="section--paragraph revealOnScroll"><i class="fa fa-bed"></i> Book at <a class="hyperlink" href="https://www.parkinn-berlin.de/en">Park Inn</a> with the discount code <code>Nextcloud</code></p>
+			<p class="section--paragraph revealOnScroll">
+			<i style="float:left; margin: 10px;" class="fa fa-map"></i>
+			The <a class="hyperlink" href="https://www.parkinn-berlin.de/en">Park Inn</a> at Berlin Alexanderplatz</p>
+			<p class="section--paragraph revealOnScroll">
+			<i style="float:left; margin: 10px;" class="fa fa-bed"></i>
+			Book at <a class="hyperlink" href="https://www.parkinn-berlin.de/en">Park Inn</a> with the discount code <code>Nextcloud</code></p>
 			<p class="section--paragraph__tittle">Pricing</p>
-			<p class="section--paragraph revealOnScroll"><i class="fa fa-ticket"></i> Entree is €300<br/>Book before July 15 and get 50% off!</p>
+			<p class="section--paragraph revealOnScroll">
+			<i style="float:left; margin: 10px;" class="fa fa-ticket"></i>
+			Entree is €400<br/>Book until July 31st and get 50% off!</p>
 			<p class="section--paragraph revealOnScroll"></p>
-			<p class="section--paragraph text-center revealOnScroll"><a href="" class="button button--blue button--arrow button--large">Sign up now!</a></p>
+			<p class="section--paragraph text-center revealOnScroll"><a href="https://eventyay.com/e/b4dd4aab/" class="button button--blue button--arrow button--large">Sign up now!</a></p>
 		</div>
-	</div>-->
-    <div class="row">
+	</div>
+    <!--<div class="row">
 		<div class="col-md-8 revealOnScroll">
             <div class="location">
-                 <a href="https://www.google.com/maps/@52.5179389,13.4118667,616a,35y,39.28t/data=!3m1!1e3" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn.jpg" alt="talk" class="aligncenter" /></a>
-                 <a class="overlay" href="https://www.google.com/maps/@52.5179389,13.4118667,616a,35y,39.28t/data=!3m1!1e3" target="_blank"><img  src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn-overlay.png" alt="talk" class="aligncenter" /></a>
-                <!-- <a href="https://www.google.com/maps/place/48%C2%B046'47.6%22N+9%C2%B010'08.2%22E/@48.779898,9.166767,1011m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d48.7798979!4d9.168955" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-liederhalle.jpg" alt="talk" class="aligncenter" /></a>
-                <a class="overlay" href="https://www.google.com/maps/place/48%C2%B046'47.6%22N+9%C2%B010'08.2%22E/@48.779898,9.166767,1011m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d48.7798979!4d9.168955" target="_blank"><img  src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-liederhalle-overlay.png" alt="talk" class="aligncenter" /></a>-->
-<!-- 			<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=13.408244848251345%2C52.521038921723246%2C13.417509198188784%2C52.524534620681585&amp;layer=mapnik&amp;marker=52.522786805974654%2C13.412877023220062" style="border: 1px solid black"></iframe> -->
+                 <a href="https://www.google.com/maps/place/48%C2%B046'47.6%22N+9%C2%B010'08.2%22E/@48.779898,9.166767,1011m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d48.7798979!4d9.168955" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-liederhalle.jpg" alt="talk" class="aligncenter" /></a>
+                <a class="overlay" href="https://www.google.com/maps/place/48%C2%B046'47.6%22N+9%C2%B010'08.2%22E/@48.779898,9.166767,1011m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d48.7798979!4d9.168955" target="_blank"><img  src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-liederhalle-overlay.png" alt="talk" class="aligncenter" /></a>
             </div>
-<!-- 			<small><a class="hyperlink" href="https://www.openstreetmap.org/?mlat=52.52279&amp;mlon=13.41288#map=18/52.52279/13.41288">View on Open Street Map</a></small> -->
+ 			<small><a class="hyperlink" href="https://www.openstreetmap.org/?mlat=52.52279&amp;mlon=13.41288#map=18/52.52279/13.41288">View on Open Street Map</a></small>
 		</div>
 		<div class="col-md-4">
             <div class="row">
@@ -74,21 +78,20 @@
             </div>
             <div class="row">
                 <i style="float:left; margin: 10px;" class="fa fa-map"></i>
-                <p class="section--paragraph revealOnScroll">The <a class="hyperlink" href="https://www.parkinn-berlin.de">Park Inn hotel</a> at Berlin Alexanderplatz</p>
-                <!-- <p class="section--paragraph revealOnScroll">The <a class="hyperlink" href="https://www.liederhalle-stuttgart.de">Congress Centrum Liederhalle</a> in the center of Stuttgart</p> -->
+                 <p class="section--paragraph revealOnScroll">The <a class="hyperlink" href="https://www.liederhalle-stuttgart.de">Congress Centrum Liederhalle</a> in the center of Stuttgart</p>
             </div>
             <div class="row">
                 <i style="float:left; margin: 10px;" class="fa fa-bed"></i>
                 <p class="section--paragraph revealOnScroll">Stay tuned for room reservation information!</p>
-               <!-- <p class="section--paragraph revealOnScroll">Book your room at <a class="hyperlink" href="https://www.maritim.com/en/hotels/germany/hotel-stuttgart/hotel-overview">Maritim Hotel</a>--><!-- with the discount code <code>Nextcloud</code> --></p>
+               <p class="section--paragraph revealOnScroll">Book your room at <a class="hyperlink" href="https://www.maritim.com/en/hotels/germany/hotel-stuttgart/hotel-overview">Maritim Hotel</a> with the discount code <code>Nextcloud</code> </p>
             </div>
-            <!--<div class="row">
+            <div class="row">
                 <i style="float:left; margin: 10px;" class="fa fa-ticket"></i>
-                <p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://eventyay.com/e/d1196adb/?code=EarlyBird">Early-bird tickets</a> only €200!<br/><em>(After August 1st regular €400)</em></p>
-            </div>-->
-<!--                 <p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/d1196adb/" class="button button--blue button--arrow button--large">Sign up now!</a></p> -->
+                <p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://eventyay.com/e/b4dd4aab/?code=EarlyBird">Early-bird tickets</a> only €200!<br/><em>(After August 1st regular €400)</em></p>
             </div>
-        </div>
+                 <p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/b4dd4aab/" class="button button--blue button--arrow button--large">Sign up now!</a></p>
+            </div>
+        </div>-->
     </div>
 </div>
 </section>
@@ -258,7 +261,7 @@
             <p class="section--paragraph  revealOnScroll">Stay tuned for the detailed schedule and list of speakers!</p>
          </div>
     </div>
-<!--     <p class="section--paragraph text-center"><a href="https://eventyay.com/e/d1196adb/" class="button button--blue button--arrow button--large">Register now!</a></p> -->
+<!--     <p class="section--paragraph text-center"><a href="https://eventyay.com/e/b4dd4aab/" class="button button--blue button--arrow button--large">Register now!</a></p> -->
 </div>
 </section>
 
