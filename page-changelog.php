@@ -17,6 +17,7 @@
     <p>We recommend you follow our <a href="<?php echo home_url('release-channels') ?>">Release Channels</a> to always have the latest and most secure Nextcloud Server version which fits your needs.</p>
     Go directly to the latest maintenance release of:
     <ul>
+    <li><a href="#latest16">Nextcloud 16</a></li>
     <li><a href="#latest15">Nextcloud 15</a></li>
     <li><a href="#latest14">Nextcloud 14</a></li>
     <li><a href="#latest13">Nextcloud 13 (unsupported!)</a></li>
@@ -24,6 +25,29 @@
     <li><a href="#latest11">Nextcloud 11 (unsupported!)</a></li>
     <li><a href="#latest10">Nextcloud 10 (unsupported!)</a></li>
     <li><a href="#latest9">Nextcloud 9 (unsupported!)</a></li>
+    </ul>
+
+    <a name="latest16"></a>
+
+    <h3 id="16-0-0">Version 16.0.0 <small>April 25 2019</small></h3>
+    <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.0.tar.bz2">nextcloud-16.0.0.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.0.zip">nextcloud-16.0.0.zip</a></br>
+    Check the file integrity with:</br>
+    MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.0.tar.bz2.md5">nextcloud-16.0.0.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.0.zip.md5">nextcloud-16.0.0.zip.md5</a></br>
+    SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.0.tar.bz2.sha256">nextcloud-16.0.0.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.0.zip.sha256">nextcloud-16.0.0.zip.sha256</a></br>
+    SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.0.tar.bz2.sha512">nextcloud-16.0.0.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.0.zip.sha512">nextcloud-16.0.0.zip.sha512</a></br>
+    PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.0.tar.bz2.asc">nextcloud-16.0.0.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.0.zip.asc">nextcloud-16.0.0.zip.asc</a></p>
+
+    <h4>Changes</h4>
+    <p>Nextcloud 16 is smarter than ever, with machine learning to detect suspicious logins and offering clever recommendations. Group Folders now sport access control lists so system administrators can easily manage who has access to what in organization-wide shares. We also introduce Projects, a way to easily relate and find related information like files, chats or tasks.</p>
+    <p>As this is a major release, the changelog is very long. Find an overview of what has been improved in this series of blog posts:</p>
+    <ul>
+        <li><a href="https://nextcloud.com/blog/nextcloud-16-becomes-smarter-with-machine-learning-for-security-and-productivity/">Nextcloud 16 becomes smarter with Machine Learning for security and productivity</a></li>
+        <li><a href="https://nextcloud.com/blog/nextcloud-16-implements-access-control-lists-to-replace-classic-file-servers/">ACL permissions for Groupfolders</a></li>
+        <li><a href="https://nextcloud.com/blog/nextcloud-16-allows-you-to-link-resources-to-keep-track-of-your-projects/">Nextcloud 16 allows you to link resources to keep track of your projects</a></li>
+        <li><a href="https://nextcloud.com/blog/talk-6.0-brings-commands-improved-user-experience-and-more/">Talk 6.0 brings commands, improved user experience and more</a></li>
+    </ul>
+    <ul>
+    TBD
     </ul>
 
     <a name="latest15"></a>
