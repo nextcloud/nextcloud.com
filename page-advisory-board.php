@@ -55,7 +55,7 @@
 </div>
 </section>
 
-<!--<section class="section--memberquotes">
+<section class="section--memberquotes">
 <div class="container">
     <p class="section--heading-1 section--text--center">Membership</p>
     <p class="section--paragraph section--text--center">Our board currently has a little over 20 members,<br> some of whom prefer to remain private.</p>
@@ -78,7 +78,7 @@
             </div>
             <p class="section--paragraph__tittle text-center">Andreas Reschke</p>
             <p class="section--paragraph text-center">Senior Linux Administrator, MAHLE International GmbH</p>
-            <blockquote>(placeholder)</blockquote>
+<!--             <blockquote>(placeholder)</blockquote> -->
         </div>
         <div class="col-md-3 col-md-xs-6">
             <div class="picture">
@@ -143,7 +143,7 @@
             <blockquote>I'm happy to be part of the Nextcloud Customer Advisory Board and able to exchange experiences and visions from different markets aiming better cloud solutions</blockquote>
         </div>
     </div>
-    <div class="row">
+    <!--<div class="row">
         <div class="col-md-3 col-md-xs-6">
             <div class="picture">
                 <div class="pic-container">
@@ -164,9 +164,9 @@
             <p class="section--paragraph text-center">Systems Architect, Department of Finance, Services & Innovation (Australia)</p>
             <blockquote>(placeholder)</blockquote>
         </div>
-    </div>
+    </div>-->
 </div>
-</section>-->
+</section>
 
 <section class="section--benefits benefits">
 <div class="container-fluid banner">
