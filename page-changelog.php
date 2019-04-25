@@ -47,7 +47,7 @@
         <li><a href="https://nextcloud.com/blog/talk-6.0-brings-commands-improved-user-experience-and-more/">Talk 6.0 brings commands, improved user experience and more</a></li>
     </ul>
     <ul>
-    TBD
+    <li>Coming soon, seems the github API can't deal with the size of our changelog 🙈</li>
     </ul>
 
     <a name="latest15"></a>
