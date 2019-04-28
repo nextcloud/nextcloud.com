@@ -19,9 +19,10 @@
     <a href="https://cloud.nextcloud.com/s/ZRmqqsd59rRPJoL" class="button button--large button--blue button--arrow">Press release and background</a>
     <h2>Press releases</h2>
     <ul>
-        <li><a href="<?php echo home_url('press/pr20190128-1') ?>">January 28, 2019: Nextcloud momentum continues amid industry awareness of GDPR and data leak risks, doubles customer base in 2018</a></li>
+        <li><a href="<?php echo home_url('press/pr20190425') ?>">April 25, 2019: Nextcloud 16 introduces machine learning based security and usability features, ACL permissions and more advanced project management capabilities</a></li>
         <li><a href="<?php echo home_url('press/pr20190319') ?>">March 19, 2019: 130 EU businesses sign open letter against Copyright directive (Art. 11 & 13)</a></li>
         <li><a href="<?php echo home_url('press/pr20190226') ?>">February 26, 2019: Qloud MSP and Nextcloud announce partnership</a></li>
+        <li><a href="<?php echo home_url('press/pr20190128-1') ?>">January 28, 2019: Nextcloud momentum continues amid industry awareness of GDPR and data leak risks, doubles customer base in 2018</a></li>
         <li><a href="<?php echo home_url('press/pr20190128-2') ?>">January 28, 2019: Nextcloud introduces Virtual Drive in Desktop Client to simplify desktop integration</a></li>
         <li><a href="<?php echo home_url('press/pr20190128-3') ?>">January 28, 2019: Nextcloud launches Customer Advisory Board</a></li>
         <li><a href="<?php echo home_url('press/pr20181210') ?>">December 10, 2018: Nextcloud 15 introduces social networking, next-gen 2-factor authentication and innovative collaborative document editing abilities</a></li>
