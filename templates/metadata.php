@@ -17,7 +17,7 @@
 <!-- Open Graph data -->
 <meta property="og:title" content="<?php wp_title('-', true, 'right'); ?>" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://nextcloud.com" />
+<meta property="og:url" content="<?php global $wp; echo home_url($wp->request); ?>" />
 <meta property="og:description" content="Nextcloud is an open source, self-hosted file share and communication platform. Access  &amp; sync your files, contacts, calendars  &amp; communicate and collaborate across your devices. You decide what happens with your data, where it is and who can access it!" />
 <meta property="og:site_name" content="Nextcloud" />
 <meta property="fb:admins" content="1032807203462807" />
