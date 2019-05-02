@@ -1,5 +1,5 @@
 @import '../variables';
-/* @import '../modules/transparent-gradient'; */
+@import '../modules/transparent-gradient';
 @import '../modules/transparent-navbar';
 
 html {
@@ -17,11 +17,7 @@ body {
 		background-color: #0082c9;
 		background-position: center;
 		background-size: cover;
-		min-height: 0;
-		max-height: 600px;
-		@media (min-width: $break-small) {
-			height: 100px;
-		}
+		min-height: 0px;
 		height: 100px;
 		.topheader {
 			width: 50%;

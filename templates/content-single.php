@@ -22,7 +22,6 @@
 	</div>
 </div>
 </section>
-
 <section class="section--content">
 <div class="container">
     <div class="row">
