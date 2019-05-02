@@ -28,17 +28,18 @@
 						<div class="col-md-6">
 							<p><?php echo $l->t('Latest stable version:');?> <?php echo $VERSIONS_CLIENT_DESKTOP_STABLE_FULL; ?>&nbsp;&nbsp;</p>
 							<p><?php echo $l->t('Use the desktop clients to keep your files synchronized between your Nextcloud server and your desktop. Select one or more directories on your local machine and always have access to your latest files wherever you are.');?></p>
-							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN; ?>" id="client-download-win" class="button button--white"><i class="icon-windows"></i>  Windows<br /><small>7, 8.x and 10</small></a>
-							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC; ?>" id="client-download-mac" class="button button--white"><i class="icon-apple"></i> macOS<br /><small>10.10+, 64 bit</small></a>
-							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX; ?>" id="client-download-linux" class="button button--white"><i class="icon-linux"></i> Linux<br /><small>AppImage</small></a>
+							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN; ?>" id="client-download-win" class="button button--white"><i class="fa-windows"></i>  Windows<br /><small>7, 8.x and 10</small></a>
+							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC; ?>" id="client-download-mac" class="button button--white"><i class="fa-apple"></i> macOS<br /><small>10.10+, 64 bit</small></a>
+							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX; ?>" id="client-download-linux" class="button button--white"><i class="fa-linux"></i> Linux<br /><small>AppImage</small></a>
 							<br><br>
-							<p><?php echo $l->t('Looking for the');?> <a class="hyperlink" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>"><?php echo $l->t('Sources</a>?');?>
+							<p><?php echo $l->t('find here:');?><br>
+							<i class="fa-book"></i> <a class="hyperlink" href="<?php echo $DOCUMENTATION_CLIENT_DESKTOP; ?>"><?php echo $l->t('documentation');?></a>
+							<br>
+							<i class="fa-code-fork"></i> <a class="hyperlink" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES; ?>"><?php echo $l->t('source code');?></a>
+							</p>
 							<p><?php echo $l->t('You can already find Nextcloud Desktop client packages included in openSUSE Tumbleweed, Arch Linux and Fedora. You can find Ubuntu/Debian packages <a class="hyperlink" href="https://launchpad.net/~nextcloud-devs/+archive/ubuntu/client">in this PPA</a>. Packages for Alpine Linux <a class="hyperlink" href="http://pkgs.alpinelinux.org/packages?name=nextcloud-client">over here</a>. See the latest state and more packages <a class="hyperlink" href="https://help.nextcloud.com/t/linux-packages-status/10216">in this post on our forums.</a> Can\'t find packages? Ask your distribution or contribute to creating them!');?></p>
 							<p><?php echo $l->t('Nextcloud is using WebDAV, so you can also try out any other client you want!');?></p>
-							<p><?php echo $l->t('Compatible clients include:');?></p>
-							<ul>
-								<li><a class="hyperlink" href="<?php echo home_url('outlook') ?>">Outlook & Thunderbird integration</a> <?php echo $l->t('Sync your files, calendars, contacts and tasks with Outlook or Mozilla Thunderbird');?></li>
-							</ul>
+							<p><?php echo $l->t('Try also our ');?><a class="hyperlink" href="<?php echo home_url('outlook') ?>">Outlook & Thunderbird integration:</a> <?php echo $l->t('Sync your files, calendars, contacts and tasks with Outlook or Mozilla Thunderbird');?></p>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
