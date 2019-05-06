@@ -215,7 +215,7 @@
         <div class="col-md-6 revealOnScroll">
             <p class="section--paragraph__tittle"><?php echo $l->t('Commands for productivity');?></p>
             <p class="section--paragraph"><?php echo $l->t('Commands allows administrators to define actions users can call from a chat.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('These can sent their input back into the chat or kick off actions.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('These can send their input back into the chat or kick off actions.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Commands are simple scripts, making it easy to integrate Nextcloud in business infrastructure.');?></p>
 		</div>
 	</div>
