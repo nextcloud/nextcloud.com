@@ -4068,8 +4068,7 @@ h5 {
   margin: 0 auto;
   text-align: center; }
 
-.no-js body nav {
-  opacity: 1 !important; }
+
   .no-js body nav .container .brand .logo:not(.scrolled):not(.menu-open) {
     background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
     background-position-x: -4620px; }

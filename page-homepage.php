@@ -28,6 +28,15 @@
 		</div>
 	</div>
 </div>
+<script>
+	var elements = ['jumbotron--heading-1', 'jumbotron--lead', 'topbanner', 'announcement'];
+
+	elements.forEach((element) => {
+		const selector = document.getElementsByClassName(element)[0];
+		selector.classList.remove('no-js');
+		selector.style.opacity = 0;
+	})
+</script>
 
 <a name="why-nextcloud"></a>
 <section id="why-nextcloud" class="section--why">

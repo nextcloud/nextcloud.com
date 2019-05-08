@@ -216,3 +216,13 @@ require get_template_directory() . '/strings.php';
 		</div>
 	</div>
 </nav>
+
+<script>
+    var selector = document.getElementById('nav');
+    selector.style.opacity = 0;
+</script>
+
+<style>
+.no-js body nav {
+  opacity: 1; }
+</style>
