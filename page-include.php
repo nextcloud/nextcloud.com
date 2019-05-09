@@ -107,38 +107,55 @@
 
 <div class="separator"></div>
 
+<?php
+
+$int1 = random_int(0, 15);
+$int2 = random_int(0, 50);
+$salt = bin2hex(random_bytes(5));
+$hash = hash('sha256', $salt . ($int1 + $int2));
+$checksum = $salt . ':' . $hash;
+
+$image = imagecreate(100, 20);
+$background_color = imagecolorallocate($image, 255, 255, 255);
+$text_color = imagecolorallocate($image, 0, 0, 0);
+imagestring($image, 5, 3, 2, $int1 . ' + ' . $int2, $text_color);
+
+ob_start();
+imagepng($image);
+$imagestring = ob_get_contents();
+ob_end_clean();
+imagedestroy($image);
+?>
+
 <div class="container">
-	<h2><?php echo $l->t('Apply');?></h2>
-	<p><?php echo $l->t('Here you can apply for mentorship, travel support or an internship with Nextcloud.');?></p>
+	<h2>Apply</h2>
+	<p>Here you can apply for mentorship, travel support or an internship with Nextcloud.</p>
 	<div class="contact">
-		<h3><?php echo $l->t('Please note that Nextcloud Include is focused on involving people from groups who are underrepresented in open source. It is not a general mentorship program. If you just need help getting started, check out our Contribution page at <a href="https://nextcloud.com/contribute" target="_blank">nextcloud.com/contribute</a>');?></h3>
-		<p><?php echo $l->t('Your answers to the following questions will help us better understand
-how we can help you join our community.');?></p>
+		<h3>Please note that Nextcloud Include is focused on involving people from groups who are underrepresented in open source. It is not a general mentorship program. If you just need help getting started, check out our Contribution page at <a href="https://nextcloud.com/contribute" target="_blank">nextcloud.com/contribute</a></h3>
+		<p>Your answers to the following questions will help us better understand how we can help you join our community.</p>
 		<form name="include" method="post" action="../includesubmit/">
-				<p><label for="yourname"><?php echo $l->t('Your name');?><br>
+				<p><label for="yourname">Your name<br>
 				<input  type="text" name="yourname" maxlength="60" size="60"></label></p>
 				<p><label for="email">Email<br>
-				<input  type="text" name="email" maxlength="80" size="60"></label></p>
-				<p><label for="who"><?php echo $l->t('Tell us a bit about yourself: Who are you, what is your relation to open source or Nextcloud?');?><br>
-				<input  type="text" name="who" maxlength="1000" cols="80" rows="8" placeholder="Tell us more about you">');?></label></p>
-				<p><label for="fit"><?php echo $l->t('Why do you think you fit in the program?');?><br>
-				<input  type="text" name="fit" maxlength="1000" cols="80" rows="8" placeholder="Tell us why you'd be a fit for Nextcloud Include">');?></label></p>
-				<p><label for="location"><?php echo $l->t('Where do you live?');?><br>
-				<input  type="text" name="location" maxlength="100" size="60" placeholder="City, Country">');?></label></p>
-				<p><label for="languages"><?php echo $l->t('Which languages can you speak/read/write in?');?><br>
-				<textarea name="languages" maxlength="200" size="60" placeholder="English, German, French, others?">');?></textarea></label></p>
-				<p><label for="os"><?php echo $l->t('Which operating system do you use?');?><br>
-				<textarea name="os" maxlength="200" size="60" placeholder="Windows, MacOS, Linux">');?></textarea></label></p>
-				<p><label for="contribute"><?php echo $l->t('How do you want to contribute?');?><br>
-				<textarea name="contribute" maxlength="1000" cols="80" rows="8" placeholder="Tell us how you'd want to contribute">');?></textarea></label></p>
-				<p><label for="links"><?php echo $l->t('Do you have a website, Github account or social media account you would be willing to share with us?');?><br>
-				<textarea name="links" maxlength="100" size="60" placeholder="Links">');?></textarea></label><br>
-				<textarea name="others" maxlength="100" size="60" placeholder="Others">');?></textarea></label></p>
-				<p><label for="others"><?php echo $l->t('Any other useful informations you would like to share with us?');?><br>
-				<textarea name="others" maxlength="2000" cols="80" rows="8" placeholder="<?php echo $l->t('Your message');?>"></textarea></label></p>
+				<input type="text" name="email" maxlength="100" size="60" ></label></p>
+				<p><label for="who">Tell us a bit about yourself: Who are you, what is your relation to open source or Nextcloud?<br>
+				<textarea name="who" maxlength="2000" cols="80" rows="8" placeholder="Tell us more about you"></textarea></label></p>
+				<p><label for="fit">Why do you think you fit in the program?<br>
+				<textarea name="fit" maxlength="2000" cols="80" rows="8" placeholder="Tell us why you'd be a fit for Nextcloud Include"></textarea></label></p>
+				<p><label for="location">Where do you live?<br>
+				<input  type="text" name="location" maxlength="100" size="60" placeholder="City, Country"></label></p>
+				<p><label for="languages">Which languages can you speak/read/write in?<br>
+				<input type="text" name="languages" maxlength="100" size="60" placeholder="English, German, French, others?"></textarea></label></p>
+				<p><label for="os">Which operating system do you use?<br>
+				<input type="text" name="os" maxlength="100" size="60" placeholder="Windows, MacOS, Linux"></textarea></label></p>
+				<p><label for="contribute">How do you want to contribute?<br>
+				<textarea name="contribute" maxlength="1000" cols="80" rows="8" placeholder="Tell us how you'd want to contribute"></textarea></label></p>
+				<p><label for="links">Do you have a website, Github account or social media account you would be willing to share with us?<br>
+				<textarea name="links" maxlength="2000" cols="80" rows="8" placeholder="Links"></textarea></label></p>
+				<p><label for="others">Any other useful informations you would like to share with us?<br>
+				<textarea name="others" maxlength="2000" cols="80" rows="8" placeholder="Your message"></textarea></label></p>
 				<td colspan="2" style="text-align:center">
-				<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-				<p><label for="captcha"><?php echo $l->t('Please calculate the following sum');?> <span></span><br>
+				<p><label for="captcha">Please calculate the following sum <span></span><br>
 				<img src="data:image/png;base64,<?php echo base64_encode($imagestring); ?>"><br>
 				<input  type="text" name="captcha" maxlength="20" size="20" placeholder="13"></label></p>
 				<input  type="hidden" name="checksum" value="<?php echo $checksum;?>">
