@@ -39,15 +39,12 @@
 
     <h4>Changes</h4>
     <p>Nextcloud 16 is smarter than ever, with machine learning to detect suspicious logins and offering clever recommendations. Group Folders now sport access control lists so system administrators can easily manage who has access to what in organization-wide shares. We also introduce Projects, a way to easily relate and find related information like files, chats or tasks.</p>
-    <p>As this is a major release, the changelog is very long. Find an overview of what has been improved in this series of blog posts:</p>
+    <p>As this is a major release, the changelog is too long to put here. Users can look on github milestones to find what has been merged. Find an overview of what has been improved in this series of blog posts:</p>
     <ul>
         <li><a href="https://nextcloud.com/blog/nextcloud-16-becomes-smarter-with-machine-learning-for-security-and-productivity/">Nextcloud 16 becomes smarter with Machine Learning for security and productivity</a></li>
         <li><a href="https://nextcloud.com/blog/nextcloud-16-implements-access-control-lists-to-replace-classic-file-servers/">ACL permissions for Groupfolders</a></li>
         <li><a href="https://nextcloud.com/blog/nextcloud-16-allows-you-to-link-resources-to-keep-track-of-your-projects/">Nextcloud 16 allows you to link resources to keep track of your projects</a></li>
         <li><a href="https://nextcloud.com/blog/talk-6.0-brings-commands-improved-user-experience-and-more/">Talk 6.0 brings commands, improved user experience and more</a></li>
-    </ul>
-    <ul>
-    <li>Coming soon, seems the github API can't deal with the size of our changelog 🙈</li>
     </ul>
 
     <a name="latest15"></a>
