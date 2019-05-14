@@ -100,6 +100,15 @@ require(["require.config"], function() {
 						<td>Berlin, Germany</td>
 						<td>May 29-30</td>
 </tr>
+						<td><a class="hyperlink" target="_blank" https://www.storage2day.de/</a></td>
+						<td>Heidelberg, Germany</td>
+						<td>May 17-19</td>
+</tr>
+<tr>
+						<td><a class="hyperlink" target="_blank" https://no-spy.org/">No-Spy Konferenz</a></td>
+						<td>Stuttgart, Germany</td>
+						<td>May 17-19</td>
+</tr>   
 					<tr>
 						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/blog/the-contributor-week-is-over-time-to-plan-for-the-next-one/">Nextcloud Contributor Week</a></td>
 						<td>Stuttgart, Germany</td>
