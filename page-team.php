@@ -355,10 +355,10 @@
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Calendar, Front-end</h4>
-					<h4 class="teamlocation">lives in Rostock, Germany</h4>
+					<h4 class="teamlocation">lives in Kiel, Germany</h4>
 					<p class="teamsocial"><a href="https://georg.coffee/"><i class="fa-rss fa"></i></a> <a href="https://github.com/georgehrke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/georgehrke"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Georg Ehrke is studying computer science at University of Rostock and maintainer of the Calendar app. He's been doing ownCloud, now Nextcloud, for many years and knows both the front and backend code well.</p>
+				<p class="teamdescription">Georg Ehrke studied computer science at University of Rostock and is the maintainer of the Calendar app since the very beginning. He's been doing ownCloud, now Nextcloud, for many years and knows both the front and backend code well.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
