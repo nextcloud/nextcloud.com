@@ -22,7 +22,7 @@
     height: 70vh;
     min-height: 600px;
     max-height: 800px;
-    background-image: url('../../img/enterprise/hero__enterprise.jpg');
+    background-image: url('../../img/headers/enterprise.jpg');
   }
 
   .topbanner {
@@ -41,105 +41,54 @@
   }
 }
 
-.what-you-get-section {
 
-  .container {
-    padding-top: ms(5);
-    padding-bottom: ms(5);
-
-    p {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
-  }
-}
-
-.section--expertise {
-
+section {
   .container {
     padding-top: ms(5);
     padding-bottom: ms(5);
 
     .section--intro {
       max-width: ms(9);
-      margin: 0 auto;
+      margin: 15px auto;
     }
 
     .ilustration {
-      svg {
-		display: block !important;
-		margin-left: auto !important;
-		margin-right: auto !important;
-	   }
-    }
-  }
-}
-
-.section--security {
-  .container{
-    padding-top: ms(5);
-    padding-bottom: ms(5);
-
-    .section--intro {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
-
-    .ilustration {
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 60px 0;
 		svg {
 			display: block !important;
 			margin-left: auto !important;
 			margin-right: auto !important;
+			max-width: 100%;
 		}
-    }
+	}
   }
+}
+
+.section--offer {
+	.container {
+		.section--intro {
+			max-width: ms(8);
+			margin: 15px auto;
+		}
+	}
+}
+
+.section--security {
+
 }
 
 .section--lifecycle {
 
-  .container{
-    padding-top: ms(5);
-    padding-bottom: ms(5);
-
-    .section--intro {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
-
-    .ilustration {
-      svg {
-		display: block !important;
-		margin-left: auto !important;
-		margin-right: auto !important;
-	  }
-    }
-  }
 }
 
 .section--globalscale {
-  .container{
-    padding-top: ms(5);
-    padding-bottom: ms(5);
 
-    .section--intro {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
-
-    .globalscale__ilustration {
-	svg {
-		display: block !important;
-		margin-left: auto !important;
-		margin-right: auto !important;
-	   }
-    }
-  }
 }
 
 .section--whitepaper {
-	.container {
-    padding-top: ms(5);
-	}
+
     .section--heading-1 {
         margin-bottom: 70px;
     }
@@ -161,11 +110,7 @@
     padding-bottom: 100px;
 }
 
-.ilustration {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 60px 0;
-}
+
 
 .section--customers {
 	position: relative;
