@@ -615,6 +615,20 @@
 
     <a name="latest14"></a>
 
+    <h3 id="14-0-12">Version 14.0.12 <small>May 17 2019</small></h3>
+    <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.12.tar.bz2">nextcloud-14.0.12.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.12.zip">nextcloud-14.0.12.zip</a></br>
+    Check the file integrity with:</br>
+    MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.12.tar.bz2.md5">nextcloud-14.0.12.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.12.zip.md5">nextcloud-14.0.12.zip.md5</a></br>
+    SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.12.tar.bz2.sha256">nextcloud-14.0.12.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.12.zip.sha256">nextcloud-14.0.12.zip.sha256</a></br>
+    SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.12.tar.bz2.sha512">nextcloud-14.0.12.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.12.zip.sha512">nextcloud-14.0.12.zip.sha512</a></br>
+    PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.12.tar.bz2.asc">nextcloud-14.0.12.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.12.zip.asc">nextcloud-14.0.12.zip.asc</a></p>
+
+    <h4>Changes</h4>
+    <ul>
+        <li><a href="https://github.com/nextcloud/server/pull/15570">DateTime is not yet in 14 (server#15570)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/15573">Update ca bundle (server#15573)</a></li>
+    </ul>
+
     <h3 id="14-0-11">Version 14.0.11 <small>May 16 2019</small></h3>
     <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.11.tar.bz2">nextcloud-14.0.11.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.11.zip">nextcloud-14.0.11.zip</a></br>
     Check the file integrity with:</br>
