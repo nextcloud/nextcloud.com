@@ -8,6 +8,7 @@
 	});
 </script>
 <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
+<meta name=”Description” content="Learn how Nextcloud helps you and your team members be productive with secure, easy to use collaboration and communication tools!">
 </head>
 <div class="background files-background second-menu">
 	<div class="container">

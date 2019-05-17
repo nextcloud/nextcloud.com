@@ -7,6 +7,7 @@
 	});
 </script>
 <title>Nextcloud - the most popular self-hosted Content Collaboration Platform!</title>
+<meta name=”Description” content="Nextcloud is the most deployed self-hosted file share and collaboration platform on the web. Access  &amp; collaborate across your devices. Your data remains under your control.">
 </head>
 <div class="jumbotron">
 	<img class="jumbotron__pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/pattern.png" alt="">

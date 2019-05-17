@@ -4,6 +4,7 @@
 <meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png">
 <meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png">
 <meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png">
+<meta name=”Description” content="Integrated communication, collaboration and planning capabilities for Nextcloud.">
 </head>
 <div class="background groupware-background">
 	<div class="container">

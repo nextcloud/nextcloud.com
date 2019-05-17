@@ -12,6 +12,7 @@
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/securityscan-nw.png">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/securityscan-nw.png">
 <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/securityscan-nw.png">
+<meta name=”Description” content="Nextcloud is the most secure private cloud solution - learn how it keeps your data safe!">
 </head>
 
 <div class=" background security-background">
@@ -634,6 +635,7 @@
                 <p class="section--paragraph__tittle"><?php echo $l->t('Machine learning based suspicious login detection');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud includes a machine learning technology which trains a neural network on successful logins on the instance and uses it to classify login attempts. Should it detect a login classified as suspicious by the trained model, it will notify the user and store an entry in the log for the system administrator.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('When the user is notified, they can terminate the suspicious session, and proceed to set a new password. The administrator can also take action, like disabling user accounts or forcing users to pick a new password.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Of course, the solution is designed to protect privacy and all data remains on your server!');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Learn more in our');?> <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-16-becomes-smarter-with-machine-learning-for-security-and-productivity/" target="_blank" rel="tooltip" title="announcement blog"><?php echo $l->t('announcement blog');?></a></p>
             </div>
         </div>

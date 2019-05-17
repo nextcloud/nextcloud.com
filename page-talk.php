@@ -4,6 +4,7 @@
 <meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png">
 <meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png">
 <meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png">
+<meta name=”Description” content="You need confidential communication? Find out how Talk is your solution!">
 </head>
 <div class="background talk-background">
 	<div class="container">
