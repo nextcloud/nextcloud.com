@@ -582,7 +582,12 @@
             <p class="section--paragraph section--text--center"><?php echo $l->t('Besides active security measures like authentication and encryption, Nextcloud protects your data without any need for administrator action');?></p>
         </div>
     </div>
+    <div class="col-md-offset-4 col-md-4">
+        <a href="https://twitter.com/ShieldedWeb/status/1129106904737820672"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/CSP.png" alt="Recognized quality" /></a>
+    </div>
     <div class="features--container revealOnScroll row">
+
+
         <div class="col-md-6">
             <div class="feature">
                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/find-data.svg">
@@ -599,20 +604,19 @@
         <div class="col-md-6">
             <div class="feature">
                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/secure-server.svg">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Security hardening');?></hp>
+                <p class="section--paragraph__tittle"><?php echo $l->t('Security hardening');?></p>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud employs a wide variety of extra security hardening capabilities, including:');?></p>
                     <ul>
                         <li><?php echo $l->t('Content Security Policy 3.0');?>
                             <ul>
                                 <p class="section--paragraph"><?php echo $l->t('CSP is a HTTP feature that allows the server to set specific restrictions on a resource when opened in a browser. Such as only allowing to load images or JavaScript from specific targets.');?></p>
                                 <p class="section--paragraph"><?php echo $l->t('CSP 3.0 is the latest, most strict version of the standard, increasing the barrier for  attackers to exploit a Cross-Site Scripting vulnerability.');?></p>
-                            </ul></li>
-                                <li><?php echo $l->t('Same-Site Cookies');?>
-                                    <ul>
-                                        <p class="section--paragraph"><?php echo $l->t('Same-Site cookies are a security measure supported by modern browsers that prevent CSRF vulnerabilities and protect your privacy further. Nextcloud enforces the same-site cookies to be present on every request by enforcing this within the request middle ware.');?></p>
-                                        <p class="section--paragraph"><?php echo $l->t('We include the __Host prefix to the cookie (if supported by browser and server). This mitigates cookie injection vulnerabilities within potential third-party software sharing the same second level domain.');?></p>
-                                    </ul>
-                                </li>
+                            </ul>
+                        </li>
+                        <li><?php echo $l->t('Same-Site Cookies');?>
+                            <ul>
+                                <p class="section--paragraph"><?php echo $l->t('Same-Site cookies are a security measure supported by modern browsers that prevent CSRF vulnerabilities and protect your privacy further. Nextcloud enforces the same-site cookies to be present on every request by enforcing this within the request middle ware.');?></p>
+                                <p class="section--paragraph"><?php echo $l->t('We include the __Host prefix to the cookie (if supported by browser and server). This mitigates cookie injection vulnerabilities within potential third-party software sharing the same second level domain.');?></p>
                             </ul>
                         </li>
                     </ul>
