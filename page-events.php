@@ -69,37 +69,47 @@ require(["require.config"], function() {
 						<td><a class="hyperlink" target="_blank" href="https://www.it-sa.de/">it-sa</a></td>
 						<td>Nuremberg, Germany</td>
 						<td>October 8-10</td>
-</tr>
-<tr>
+                    </tr>
+                    <tr>
 						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/conf">Nextcloud Contributor Week</a></td>
 						<td>Berlin, Germany</td>
 						<td>September 13 & 16-20</td>
-</tr>
-<tr>
+                    </tr>
+                    <tr>
 						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/training">Nextcloud Enterprise Day</a></td>
 						<td>Berlin, Germany</td>
 						<td>September 16</td>
-</tr>
-<tr>
+                    </tr>
+                    <tr>
 						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/conf/">Nextcloud Conference</a></td>
 						<td>Berlin, Germany</td>
 						<td>September 14-15</td>
-</tr>
-<tr>
+                    </tr>
+                    <tr>
 						<td><a class="hyperlink" target="_blank" https://nextcloud.com/blog/upcoming-nextcloud-contributorweek-june-24-28/">Nextcloud Contributor Week</a></td>
 						<td>Stuttgart, Germany</td>
 						<td>June 24-28</td>
-</tr>
-<tr>
+                    </tr>
+                    <tr>
 						<td><a class="hyperlink" target="_blank" href="https://www.infosecurityeurope.com/">Infosecurity Europe</a></td>
 						<td>London, UK</td>
 						<td>June 4-6</td>
-</tr>
-<tr>
+                    </tr>
+                    <tr>
 						<td><a class="hyperlink" target="_blank" href="https://opentechsummit.net/">OpenTechSummit</a></td>
 						<td>Berlin, Germany</td>
 						<td>May 29-30</td>
-</tr>
+                    </tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" https://www.storage2day.de/</a></td>
+						<td>Heidelberg, Germany</td>
+						<td>May 17-19</td>
+                    </tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" https://no-spy.org/">No-Spy Konferenz</a></td>
+						<td>Stuttgart, Germany</td>
+						<td>May 17-19</td>
+                    </tr>   
 					<tr>
 						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/blog/the-contributor-week-is-over-time-to-plan-for-the-next-one/">Nextcloud Contributor Week</a></td>
 						<td>Stuttgart, Germany</td>
