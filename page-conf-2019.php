@@ -198,14 +198,14 @@
     </div>
     <div class="row revealOnScroll">
         <div class="col-md-8 col-md-offset-2">
-            <p class="section--paragraph revealOnScroll text-center">Nextcloud is committed to support diversity and will provide support to people of underrepresented groups in tech. This includes people who belong to one or more of the following groups: women, people of color, nonbinary & gender non-conforming people, people with disabilities, and LGBTQIA+ people.</p>
+            <p class="section--paragraph revealOnScroll text-center">Nextcloud is committed to increase diversity and will provide support to people who are marginalized in tech. This includes women, people of color, nonbinary & gender non-conforming people, people with disabilities, and LGBTQIA+ people.</p>
         </div>
     </div>
     <div class="row revealOnScroll">
         <div class="col-md-8 col-md-offset-2">
-            <p class="section--paragraph revealOnScroll text-center">We will provide up to 80% support of travel & accomodation costs during the event to people who have contributed to Nextcloud in one way or another. For instance, you can <a class="hyperlink" href="https://github.com/nextcloud/server/labels/good%20first%20issue">solve a good first issue</a>, <a class="hyperlink" href="https://nextcloud.com/design/">work on the design</a>, <a class="hyperlink" href="https://www.meetup.com/topics/nextcloud/">organize a local Nextcloud meetup</a>, <a class="hyperlink" href="https://nextcloud.com/contribute/">or contribute in other ways</a>.</p>
+            <p class="section--paragraph revealOnScroll text-center">We will provide 80% support of travel & accomodation costs during the event, and entry is free. Having <a class="hyperlink" href="https://nextcloud.com/contribute/">contributed to Nextcloud</a> before is not necessary.</p>
 <!--             <p class="text-center">Stay tuned, information is coming!</p> -->
-            <p class="text-center"><a href="mailto:events@nextcloud.com?subject=%5BDiversity%20ticket%5D%20YOUR%20NAME&body=Link%20to%20your%20contribution" class="button button--arrow button--large button--blue text-center">Apply for support</a></p>
+            <p class="text-center"><a href="mailto:events@nextcloud.com?subject=%5BDiversity%20ticket%5D%20YOUR%20NAME&body=Your%20motivation%20to%20join%20and%20travel%20cost%20breakdown" class="button button--arrow button--large button--blue text-center">Apply for support</a></p>
             </div>
         </div>
     </div>
