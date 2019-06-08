@@ -197,16 +197,7 @@ imagedestroy($image);
 <div class="container">
     <h1 class="section--heading-1 text-center">Program coordinators</h1>
 	<div class="row">
-        <div class="col-md-4">
-            <div class="teamp">
-                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/camila.jpg" />
-                <h2 class="teamname">Camila</h2>
-                <div class="teammeta">
-                    <h4 class="mentoring">Desktop app, C++</h4>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="teamp">
                 <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
                 <h2 class="teamname">Jan-Christoph</h2>
@@ -215,7 +206,7 @@ imagedestroy($image);
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="teamp">
                     <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marie.jpg" />
                 <h2 class="teamname">Marie</h2>
@@ -336,7 +327,7 @@ imagedestroy($image);
         <div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('How is it managed?');?></p>
             <p class="section--paragraph"><?php echo $l->t('To handle the money, we work together with the amazing KDE community which takes care of the financial part. This also means donations are tax-free in many countries!');?></p>
-            <p class="section--paragraph"><?php echo $l->t('The spending of the money is decided on by a small group of Nextcloud diversity advocates, including Jan-Christoph Borchardt, Marie Gutbub and Camila San Martin Ayres.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('The spending of the money is decided on by a small group of Nextcloud diversity advocates, including Jan-Christoph Borchardt and Marie Gutbub.');?></p>
             <a href="https://ev.kde.org" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more about KDE e.V.');?></a>
         </div>
     </div>
