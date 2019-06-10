@@ -46,7 +46,7 @@
 					<li title="" rel="tooltip"><a href="https://nextcloud.com/blog/why-the-agpl-is-great-for-business-users/">License</a></li> <!--License-->
 					<li title="Limits imposed by either the purchased plan or your own infrastructure when self-hosting" rel="tooltip">Unlimited storage</li> <!-- Unlimited storage -->
 					<li title="" rel="tooltip">Large file support</li> <!--Large file support-->
-					<li title="" rel="tooltip">Self hosted/on premise</li> <!--Self hosted/on premise-->
+					<li title="" rel="tooltip">Self hosted/on premises</li> <!--Self hosted/on premises-->
 						<li class="cd-group">Clients</li> <!--Client-->
 					<li title="" rel="tooltip">Mobile Clients</li> <!--Mobile Clients-->
 					<li title="" rel="tooltip">Auto upload images/video</li> <!--Auto upload images/video-->
@@ -124,7 +124,7 @@
 							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Open Source</li> <!--License-->
 							<li title="The limit is customer infrastructure. There are no limits from the Nextcloud side." rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Large file support-->
-							<li title="can be hosted wherever you decide, including hybrid." rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Self hosted/on premise-->
+							<li title="can be hosted wherever you decide, including hybrid." rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Auto upload images/video-->
@@ -201,7 +201,7 @@
 							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Large file support-->
-							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Self hosted/on premise-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Auto upload images/video-->
@@ -278,7 +278,7 @@
 							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip">10GB</li> <!--Large file support-->
-							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Self hosted/on premise-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Auto upload images/video-->
@@ -355,7 +355,7 @@
 							<li title="[ownCloud Enterprise Edition] open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Large file support-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Self hosted/on premise-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Auto upload images/video-->
@@ -432,7 +432,7 @@
 							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
 							<li title="" rel="tooltip">Varies per plan</li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip">5GB</li> <!--Large file support-->
-							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Self hosted/on premise-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Auto upload images/video-->
@@ -509,7 +509,7 @@
 							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip">10GB</li> <!--Large file support-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Self hosted/on premise-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Auto upload images/video-->
@@ -585,7 +585,7 @@
 							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
 							<li title="" rel="tooltip">Varies per plan</li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip">20GB</li> <!--Large file support-->
-							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Self hosted/on premise-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Auto upload images/video-->
@@ -661,7 +661,7 @@
 							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
 							<li title="" rel="tooltip">max 10 TB</li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Large file support-->
-							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Self hosted/on premise-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Auto upload images/video-->
@@ -738,7 +738,7 @@
 							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip">2GB</li> <!--Large file support-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Self hosted/on premise-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Auto upload images/video-->
