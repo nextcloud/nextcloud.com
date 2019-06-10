@@ -1091,21 +1091,6 @@
          "imagename":"infmaster.png"
       },
     {
-         "title":"Own-Box",
-         "url":"https:\/\/own-box.de",
-         "flags":[
-            "de",
-            "ch",
-            "at"
-         ],
-         "freeplans":true,
-         "supports":"consumer",
-         "specializes":[
-            "Wir bieten eine unkommerzielle, unabhängige, verschlüsselte und in Deutschland gehostete Cloud."
-         ],
-         "imagename":"own-box.png"
-      },
-    {
          "title":"deskonline.cloud",
          "url":"https:\/\/deskonline.cloud",
          "flags":[
