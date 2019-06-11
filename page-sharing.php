@@ -1,3 +1,11 @@
+<!--
+
+This page has 3 different 'scroll-to' features:
+* #federation scrolls to the federation section
+* #videoverification scrolls to that section
+* everything else (for example #jos@cloud.nextcloud.com) will scroll to federation and enter the info after # as userID.
+
+-->
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/sharing.css" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
@@ -7,6 +15,7 @@ require(["require.config"], function() {
 	require(["pages/sharing", "modules/youtubePlayer"])
 });
 </script>
+
 <meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Files_Comments.png">
 <meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Files_Comments.png">
 <meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Files_Comments.png">
@@ -106,6 +115,7 @@ require(["require.config"], function() {
                 <p class="section--paragraph"><?php echo $l->t('Admins can control all these abilities, add trusted Federation servers and more');?></p>
             </div>
         </div>
+        <div id="videoverificationScroll"></div>
         <div class="row">
             <div class="col-md-6 revealOnScroll">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/Pffusr1bac4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
