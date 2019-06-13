@@ -84,6 +84,19 @@
 	</div>
 </section>-->
 
+<section class="section--conf">
+	<div class="container-fluid">
+			<div class="container">
+			<h2 class="section--heading-1 revealOnScroll">Nextcloud Conference</h2>
+			<p class="section--paragraph revealOnScroll">Join for talks, workshops & keynotes at your yearly conference!<br> September 14-15 in Berlin, Germany!<br>
+			Featuring our Enterprise Day on Monday September 16.</p>
+			<p class="section--paragraph revealOnScroll"><a href="<?php echo home_url('conf2019') ?>" class="button button--arrow button--large button--blue">Conference</a><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Enterprise Day</a></p>
+<!--  			<p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">See the Friday Focus program in our blog!</a></p> -->
+<!-- 			<p class="section--paragraph revealOnScroll"><a class="button button--blue button--arrow button--large revealOnScroll" href="coming" role="button">Know all the features</a></p> -->
+			</div>
+	</div>
+</section>
+
 <?php require get_template_directory().'/compliance.php';?>
 
 <section class="section--customers">
@@ -167,18 +180,6 @@
 </div>
 </section>
 
-<!--<section class="section--conf">
-	<div class="container-fluid">
-			<div class="container">
-			<h2 class="section--heading-1 revealOnScroll">Nextcloud Conference</h2>
-			<p class="section--paragraph revealOnScroll">Join our premier contributor event, August 23-30 in Berlin, Germany!<br>
-			Featuring our Enterprise Day Monday August 27.</p>
-			<p class="section--paragraph revealOnScroll"><a href="<?php echo home_url('conf') ?>" class="button button--arrow button--large button--blue">Contributor event</a><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Enterprise Day</a></p>
- 			<p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">See the Friday Focus program in our blog!</a></p>
-			<p class="section--paragraph revealOnScroll"><a class="button button--blue button--arrow button--large revealOnScroll" href="coming" role="button">Know all the features</a></p>
-			</div>
-	</div>
-</section>-->
 
 
 <section class="underyourcontrol">

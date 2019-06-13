@@ -391,6 +391,7 @@
     .section--heading-1 {
         color: white;
         width: 669px;
+        text-shadow: 0px 0px 1px black;
         @media (max-width: $break-small) {
             width: 100%;
         }
@@ -399,6 +400,7 @@
     .section--paragraph {
         color: white;
         width: 669px;
+        text-shadow: 0px 0px 1px black;
         @media (max-width: $break-small) {
             width: 90%;
             padding-top: 10px;
