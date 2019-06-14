@@ -150,7 +150,7 @@
                     <td>Security in Nextcloud
                     <br>
                     <span class="break"><small></small></span></td>
-                    <td><span class="break">Roeland Douma <br><small>(Nextcloud head of security)</small></span></td>
+                    <td><span class="break">Roeland Douma <br><small>(Nextcloud security lead)</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">9:30</th>
@@ -242,8 +242,16 @@
                     <span class="break"><small>GDPR, HIPAA and more</small></span></td>
                     <td><span class="break">Jos Poortvliet <small>Nextcloud head of marketing</small></span>
                     <th scope="row">16:00</th>
-                    <td>Nextcloud Clients & End-to-end Encryption</td>
+                    <td>Nextcloud Clients</td>
                     <td><span class="break">Nextcloud client engineers <!--<br> <small>(Nextcloud sales engineer)</small>--></span></td>
+                    </tr>
+                    <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td></span>
+                    <th scope="row">16:15</th>
+                    <td>End-to-end Encryption</td>
+                    <td><span class="break">Roeland Douma <br> <small>(Nextcloud security lead)</small></span></td>
                     </tr>
                 </tbody>
             </table>
