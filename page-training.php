@@ -232,8 +232,9 @@
                     <td><span class="break">Bjoern Schiessle <br> <small>Nextcloud sales engineer</small></span></td>
                     </tr>
                     <tr>
+                    <td></td>
                     <th scope="row">15:00</th>
-                    <td><span class="break">Break<br>
+                    <td colspan="3"><span class="break">Break<br>
                     <small>And a chance to talk to our partners at their booth!</small></span></td>
                     </tr>
                     <tr>
@@ -248,7 +249,7 @@
                     <tr>
                     <th scope="row"></th>
                     <td></td>
-                    <td></span>
+                    <td></td>
                     <th scope="row">16:15</th>
                     <td>End-to-end Encryption</td>
                     <td><span class="break">Roeland Douma <br> <small>Nextcloud security lead</small></span></td>
