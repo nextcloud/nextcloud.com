@@ -129,46 +129,40 @@
         </div>
     </div>
     <div class="row">
-        <!--<div class="col-md-8 col-md-offset-2">
-        <div class="table-responsive-sm">
-            <table class="table  table-hover">
+        <div class="col-md-8 col-md-offset-2">
+        <div class="table-responsive">
+            <table class="table table-hover">
                 <tbody>
                     <tr>
                     <th scope="row">8:00</th>
-                    <td><span class="break">Introductions, coffee and tea<br>
-                    <small>and a chance to network with the Nextcloud team</small></span></td>
+                    <td><span class="break">Introductions<br>
+                    <small>with coffee, tea and conversation!</small></span></td>
+                    <td></td>
                     </tr>
                     <tr>
                     <th scope="row">8:30</th>
-                    <td>From Enterprise File Sync and Share to Content Collaboration Platform
+                    <td>Opening: maximize team productivity by deep integration
                     </td>
-                    <td><span class="break">Frank Karlitschek <br><small>(Nextcloud)</small></span></td>
+                    <td><span class="break">Frank Karlitschek <br><small>(Nextcloud CEO & founder)</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">9:00</th>
-                    <td>Case study presentations
+                    <td>Security in Nextcloud
                     <br>
-                    <span class="break"><small>We present you two case studies:
-                        <ul>
-                            <li>City of Geneva</li>
-                            <li>Max Planck Institute</li>
-                        </ul>
-                    </span></td>
-                    <td><span class="break">Mr Jordi <small>(City of Geneva)</small><br> Andreas Rode <small>(Nextcloud)</small></span></td>
+                    <span class="break"><small></small></span></td>
+                    <td><span class="break">Roeland Douma <br><small>(Nextcloud head of security)</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">9:30</th>
-                    <td>Nextcloud and compliance (GDPR, HIPAA and more)</td>
-                    <td><span class="break">Jos Poortvliet <br> <small>(Nextcloud)</small></span></td>
+                    <td>Extending Nextcloud<br>
+                    <span class="break"><small>The apps delivering extensive communication & collaboration features</small><span class="break">
+                    </td>
+                    <td><span class="break">Sascha Wiswedel <br> <small>(Nextcloud sales engineer)</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">10:00</th>
-                    <td><span class="break">Break</span></td>
-                    </tr>
-                    <tr>
-                    <th scope="row">10:30</th>
-                    <td>Global Scale: Data locality, scalability and cost</td>
-                    <td><span class="break">Bjoern Schiessle <br> <small>(Nextcloud)</small></span></td>
+                    <td><span class="break">Break<br>
+                    <small>And a chance to talk to our partners at their booth!</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">11:00</th>
@@ -177,66 +171,88 @@
                             <li>Collabora Online</li>
                             <li>Outlook Add-in</li>
                             <li>ONLYOFFICE</li>
-                            <li>Bareos Backup Solutions</li>
                         </ul>
                     </td>
                     <td><span class="break">Our partners</span></td>
                     </tr>
                     <tr>
                     <th scope="row">12:00</th>
-                    <td><span class="break">Lunch</span></td>
+                    <td><span class="break">Lunch<br>
+                    <small>And a chance to see the Berlin from the clouds!</small></span></td>
                     </tr>
-                    <tr>
+                </tbody>
+            </table>
+            </div>
+            </div>
+            <div class="col-md-12">
+            <div class="table-responsive">
+            <table class="table table-hover">
+                <tbody>
                     <tr>
                     <th scope="row">13:30</th>
-                    <td>Professional Services: two case studies
-                    </td>
-                    <td><span class="break">Olivier Paroz <br> <small>(Nextcloud)</small></span></td>
+                    <td>Professional Services & Branding<br>
+                    <span class="break"><small>case study 1</small><span class="break"></td>
+                    <td><span class="break">Olivier Paroz <br> <small>(Nextcloud head of professional services)</small></span></td>
+                    <th scope="row">13:30</th>
+                    <td>Building workflows in Nextcloud</td>
+                    <td><span class="break">Joas Schilling <br> <small>(Nextcloud engineer)</small></span></td>
                     </tr>
+                    <tr>
+                    <th scope="row">13:45</th>
+                    <td>Professional Services & Branding<br>
+                    <span class="break"><small>case study 2</small></span></td>
+                    <td><span class="break">Olivier Paroz <br> <small>(Nextcloud head of professional services)</small></span></td>
+                    <th scope="row">13:45</th>
+                    <td>Infrastructure integration<br>
+                    <span class="break"><small>External storage & LDAP</small></span></td>
+                    <td><span class="break">Arthur Schiwon <br> <small>(Nextcloud engineer)</small></span></td>
+                    </tr>
+                    <tr>
                     <th scope="row">14:00</th>
-                    <td>Nextcloud Capabilities<br>
-                    <span class="break"><small><ul>
-                            <li>Files: universal access to data </li>
-                            <li>Talk: integrated communication</li>
-                            <li>Groupware: facilitating collaboration</li>
-                            <li>Apps: an ecosystem that can do more for you</li>
-                        </ul></small></span></td>
-                    <td><span class="break">
-                            Jos Poortvliet <small>(Nextcloud)</small><br>
-                            Mario Danic <small>(Nextcloud)</small><br>
-                            Julius Haertl, Barthélémy Briand <small>(Nextcloud)</small><br>
-                            Arthur Schiwon <small>(Nextcloud)</small>
-                    </span></td>
+                    <td>Two case study presentations<br>
+                    <span class="break"><!--<small>We present you two case studies-->
+                    <small>More information coming</small>
+                    <!--<ul>
+                    <li></li>
+                    <li></li>
+                    </ul></small>--></span></td>
+                    <td><span class="break">Nextcloud customers <small></small><!--<br> Nextcloud customer <small></small>--></span>
+                    <th scope="row">14:00</th>
+                    <td>Group folders</td>
+                    <td><span class="break">Matthias Wobben <br> <small>(Nextcloud sales engineer)</small></span></td>
+                    </tr>
+                    <tr>
+                    <th scope="row">14:30</th>
+                    <td>Two case study presentations<br>
+                    <span class="break"><small>More information coming</small></span></td>
+                    <td><span class="break">Nextcloud customers <br> <small></small></span></td>
+                    <th scope="row">14:30</th>
+                    <td>Global Scale<br>
+                    <small>Data locality, scalability and cost</small></td>
+                    <td><span class="break">Bjoern Schiessle <br> <small>(Nextcloud sales engineer)</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">15:00</th>
-                    <td><span class="break">Break</span></td>
-                    </tr>
-                    <tr>
-                    <th scope="row">15:30</th>
-                    <td>Case study presentations
-
-                    <br>
-                    <span class="break"><small>We present you two case studies:
-                    <ul>
-                    <li>SIEMENS</li>
-                    <li>ARD/ZDF</li>
-                    </ul></span></td>
-                    <td><span class="break">Mr Münzer <small>(SIEMENS)</small><br> Konstanze Niedung <small>(Nextcloud)</small></span>
+                    <td><span class="break">Break<br>
+                    <small>And a chance to talk to our partners at their booth!</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">16:00</th>
-                    <td>Mobile productivity
-                    </td>
-                    <td><span class="break">Tobias Kaminsky, Camila San Martin Ayres <small>(Nextcloud)</small></span></td>
+                    <td>Nextcloud and compliance<br>
+                    <span class="break"><small>GDPR, HIPAA and more</small></span></td>
+                    <td><span class="break">Jos Poortvliet <small>Nextcloud head of marketing</small></span>
+                    <th scope="row">16:00</th>
+                    <td>Nextcloud Clients & End-to-end Encryption</td>
+                    <td><span class="break">Nextcloud client engineers <!--<br> <small>(Nextcloud sales engineer)</small>--></span></td>
                     </tr>
-                    <tr>
-                    <th scope="row">16:15</th>
-                    <td>Security in Nextcloud
-                    </td>
-                    <td><span class="break">Roeland Douma <small>(Nextcloud)</small></span></td>
-                    </tr>
-                    <tr>
+                </tbody>
+            </table>
+            </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+            <div class="table-responsive">
+            <table class="table table-hover">
+                <tbody>
                     <th scope="row">16:30</th>
                     <td>Your input: what do you need from Nextcloud?
                     </td>
@@ -250,8 +266,8 @@
                 </tbody>
             </table>
         </div>
-            <p class="section--paragraph section--text--center"><small><em>The program can change without notification</em></small></p>-->
-    <div class="row">
+            <p class="section--paragraph section--text--center"><small><em>The program can change without notification</em></small></p>
+    <!--<div class="row">
         <div class="col-md-6">
             <img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/workshop2.jpg">
         </div>
@@ -260,7 +276,7 @@
             <p class="section--paragraph  revealOnScroll">We also cover security, compliance and performance considerations. Our goal is to help you optimize the productivity of your employees with the best possible content collaboration platform!</p>
             <p class="section--paragraph  revealOnScroll">Stay tuned for the detailed schedule and list of speakers!</p>
          </div>
-    </div>
+    </div>-->
 <!--     <p class="section--paragraph text-center"><a href="https://eventyay.com/e/b4dd4aab/" class="button button--blue button--arrow button--large">Register now!</a></p> -->
 </div>
 </section>
