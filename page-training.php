@@ -143,21 +143,21 @@
                     <th scope="row">8:30</th>
                     <td>Opening: maximize team productivity by deep integration
                     </td>
-                    <td><span class="break">Frank Karlitschek <br><small>(Nextcloud CEO & founder)</small></span></td>
+                    <td><span class="break">Frank Karlitschek <br><small>Nextcloud CEO & founder</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">9:00</th>
                     <td>Security in Nextcloud
                     <br>
                     <span class="break"><small></small></span></td>
-                    <td><span class="break">Roeland Douma <br><small>(Nextcloud security lead)</small></span></td>
+                    <td><span class="break">Roeland Douma <br><small>Nextcloud security lead</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">9:30</th>
                     <td>Extending Nextcloud<br>
                     <span class="break"><small>The apps delivering extensive communication & collaboration features</small><span class="break">
                     </td>
-                    <td><span class="break">Sascha Wiswedel <br> <small>(Nextcloud sales engineer)</small></span></td>
+                    <td><span class="break">Sascha Wiswedel <br> <small>Nextcloud sales engineer</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">10:00</th>
@@ -192,20 +192,20 @@
                     <th scope="row">13:30</th>
                     <td>Professional Services & Branding<br>
                     <span class="break"><small>case study 1</small><span class="break"></td>
-                    <td><span class="break">Olivier Paroz <br> <small>(Nextcloud head of professional services)</small></span></td>
+                    <td><span class="break">Olivier Paroz <br> <small>Nextcloud head of professional services</small></span></td>
                     <th scope="row">13:30</th>
                     <td>Building workflows in Nextcloud</td>
-                    <td><span class="break">Joas Schilling <br> <small>(Nextcloud engineer)</small></span></td>
+                    <td><span class="break">Joas Schilling <br> <small>Nextcloud engineer</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">13:45</th>
                     <td>Professional Services & Branding<br>
                     <span class="break"><small>case study 2</small></span></td>
-                    <td><span class="break">Olivier Paroz <br> <small>(Nextcloud head of professional services)</small></span></td>
+                    <td><span class="break">Olivier Paroz <br> <small>Nextcloud head of professional services</small></span></td>
                     <th scope="row">13:45</th>
                     <td>Infrastructure integration<br>
                     <span class="break"><small>External storage & LDAP</small></span></td>
-                    <td><span class="break">Arthur Schiwon <br> <small>(Nextcloud engineer)</small></span></td>
+                    <td><span class="break">Arthur Schiwon <br> <small>Nextcloud engineer</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">14:00</th>
@@ -219,7 +219,7 @@
                     <td><span class="break">Nextcloud customers <small></small><!--<br> Nextcloud customer <small></small>--></span>
                     <th scope="row">14:00</th>
                     <td>Group folders</td>
-                    <td><span class="break">Matthias Wobben <br> <small>(Nextcloud sales engineer)</small></span></td>
+                    <td><span class="break">Matthias Wobben <br> <small>Nextcloud sales engineer</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">14:30</th>
@@ -229,7 +229,7 @@
                     <th scope="row">14:30</th>
                     <td>Global Scale<br>
                     <small>Data locality, scalability and cost</small></td>
-                    <td><span class="break">Bjoern Schiessle <br> <small>(Nextcloud sales engineer)</small></span></td>
+                    <td><span class="break">Bjoern Schiessle <br> <small>Nextcloud sales engineer</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">15:00</th>
@@ -240,10 +240,10 @@
                     <th scope="row">16:00</th>
                     <td>Nextcloud and compliance<br>
                     <span class="break"><small>GDPR, HIPAA and more</small></span></td>
-                    <td><span class="break">Jos Poortvliet <small>Nextcloud head of marketing</small></span>
+                    <td><span class="break">Jos Poortvliet<br><small>Nextcloud head of marketing</small></span>
                     <th scope="row">16:00</th>
                     <td>Nextcloud Clients</td>
-                    <td><span class="break">Nextcloud client engineers <!--<br> <small>(Nextcloud sales engineer)</small>--></span></td>
+                    <td><span class="break">Nextcloud client engineers <!--<br> <small>Nextcloud sales engineer</small>--></span></td>
                     </tr>
                     <tr>
                     <th scope="row"></th>
@@ -251,7 +251,7 @@
                     <td></span>
                     <th scope="row">16:15</th>
                     <td>End-to-end Encryption</td>
-                    <td><span class="break">Roeland Douma <br> <small>(Nextcloud security lead)</small></span></td>
+                    <td><span class="break">Roeland Douma <br> <small>Nextcloud security lead</small></span></td>
                     </tr>
                 </tbody>
             </table>
