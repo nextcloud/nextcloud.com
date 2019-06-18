@@ -69,13 +69,15 @@
             11:00 - <strong>Talks</strong><br>
             13:00 - <strong>lunch</strong><br>
             14:00 - <strong>Keynote</strong><br>
-            15:00 - <strong>workshops & lightning talks</strong></td>
+            15:00 - <strong>workshops & lightning talks</strong><br>
+            19:00 - <strong>Party time</strong>
+            </td>
             <td class="left">10:00 - <strong>Keynote</strong><br>
             11:00 - <strong>Talks</strong><br>
             13:00 - <strong>lunch</strong><br>
             14:00 - <strong>Keynote</strong><br>
             15:00 - <strong>workshops & lightning talks</strong></td>
-            <td>Hackweek<!--, <strong><a href="<?php echo home_url('training') ?>">Enterprise Day</a></strong>--></td>
+            <td>Hackweek, <strong><a href="<?php echo home_url('training') ?>">Enterprise Day</a></strong></td>
             <td>Hackweek</td>
             <td>Hackweek</td>
             <td>Hackweek</td>
