@@ -100,6 +100,21 @@
     </div>
 </section>
 
+<section class="section--overview">
+<div class="container">
+    <!--<h2 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('EU Cybersecurity Act');?></h2>-->
+	<div class="row feature-row">
+		<div class="col-md-4 revealOnScroll">
+            <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/CSPcert.png" alt="in action"/></a>
+        </div>
+		<div class="col-md-8 revealOnScroll feature--block">
+			<p class="section--paragraph__tittle"><?php echo $l->t('EU Cybersecurity Act');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Explicitly designed to build on existing certifications like ISO 27001a or BSI C5, under the guidance of CSPCert a recommendation has been presented to the ENISA to define a European Cybersecurity Certification Scheme for Cloud Service Providers. The upcoming <a class="hyperlink" href="https://ec.europa.eu/commission/news/cybersecurity-act-2018-dec-11_en">Cybersecurity Act</a> defines three levels of assurance (Basic, Substantial and High) and provides a comprehensive set of rules, technical requirements, standards and procedures for assesment and certification.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud follows the strictest security protocols in the industry and anticipates to be ready for easy and quick certification of customer deployments once the Cybersecurity Act goes into effect.');?></p>
+		</div>
+    </div>
+</div>
+</section>
 
 <section class="section--explanation">
 <div class="container-fluid banner quote">
