@@ -81,8 +81,8 @@
             </div>
         </div>
         <div class="row">
-            <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('* with optional Spreed back-end');?></p>
-            <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('starting at Eur 5000/USD 6000');?></p>
+            <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('* with optional Nextcloud Talk High Performance Backend');?></p>
+            <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('starting at Eur 4000/USD 4500');?></p>
             <p class="section--paragraph text-center revealOnScroll"><a class="button button--medium" href="#pricing"><?php echo $l->t('Learn more');?></a></p>
         </div>
     </div>
@@ -183,7 +183,7 @@
 			<p class="section--paragraph__tittle"><?php echo $l->t('Designed for you');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is a fully self hosted, on-premises audio/video and chat communication service. It features web and mobile apps and is designed to offer the highest degree of security while being easy to use.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk lowers the barrier for communication and lets your team connect any time, any where, on any device, with each other, customers or partners.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('While Nextcloud Talk itself is free, the optional Spreed High Performance Back-end enables enterprise class scalability, reliability and features.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('While Nextcloud Talk itself is free, the optional Nextcloud Talk High Performance Backend enables enterprise class scalability, reliability and features.');?></p>
 		</div>
 	</div>
 	<div class="row">
@@ -285,7 +285,7 @@
 	<div class="row introduction">
         <div class="col-lg-6 col-lg-offset-3">
             <h1 class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('Enterprise Ready');?></h1>
-            <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('The optional Spreed High Performance back-end for large organizations by Struktur AG offers the capacity, reliability and features enterprises need to conduct their business privately, securely and efficiently.');?></p>
+            <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('The optional Nextcloud Talk High Performance Backend for large organizations by Struktur AG offers the capacity, reliability and features enterprises need to conduct their business privately, securely and efficiently.');?></p>
 		</div>
 	</div>
     <div class="row revealOnScroll">
@@ -317,7 +317,7 @@
     </div>
 	<div class="row">
         <div class="col-md-4 col-md-offset-4">
-            <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('The Spreed back-end improves connection speed and reliability, decreases server load and allows more people in a call by improving network efficiency.');?></p>
+            <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('The Nextcloud Talk High Performance Backend improves connection speed and reliability, decreases server load and allows more people in a call by improving network efficiency.');?></p>
         </div>
     </div>
 </div>
@@ -327,15 +327,15 @@
 <div class="container">
     <div class="row revealOnScroll">
         <h2 class="text-center"><?php echo $l->t('Pricing');?></h2>
-        <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('Spreed High Performance back-end');?></p>
+        <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('Nextcloud Talk High Performance Backend');?></p>
         <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('providing MCU, STUN, TURN and SIP gate');?></p>
     </div>
     <div class="row">
         <div class="col-sm-6 revealOnScroll">
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Starting at EUR 5000/USD 6000 per year plus');?>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Starting at EUR 4000/USD 4500 per year');?>
             <ul>
-                <li><?php echo $l->t('EUR 25/USD 30 per user per year at 50 users');?></li>
-                <li><?php echo $l->t('EUR 12.5/USD 15 per user per year at 500 users');?></li>
+                <li><?php echo $l->t('EUR 80/USD 90 per user per year at 50 users');?></li>
+                <li><?php echo $l->t('EUR 40/USD 45 per user per year at 500 users');?></li>
             </ul>
             <?php echo $l->t('further volume discounts at larger user numbers');?>
             </p>
