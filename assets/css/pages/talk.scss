@@ -26,6 +26,16 @@ section {
     text-align: center;
 }
 
+.section--compliance {
+	.feature-row {
+		margin-top: 50px;
+	}
+	h2 {
+		margin-bottom: 30px;
+	}
+
+}
+
 .section--benefits {
     @media (max-width: $break-small) {
         text-align: center;

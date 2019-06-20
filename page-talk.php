@@ -47,6 +47,38 @@
 </div>
 </section>
 
+<section class="section--compliance">
+<div class="container">
+	<div class="row feature-row">
+		<div class="col-md-6 col-md-offset-3 revealOnScroll">
+            <h2 class="text-center revealOnScroll"><?php echo $l->t('Compliance');?></h2>
+            <p class="section--paragraph text-center"><?php echo $l->t('Self-hosting communication simplifies compliance with national and international privacy and security regulations.<br>By relying on existing, vetted infrastructure, your current compliance and security processes apply to Nextcloud Talk.');?></p>
+        </div>
+    </div>
+	<div class="row feature-row">
+		<div class="col-md-4 revealOnScroll">
+            <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/gdpr-apps-nw.png" alt="GDPR apps"/></a>
+        </div>
+		<div class="col-md-8 revealOnScroll feature--block">
+			<p class="section--paragraph__tittle"><?php echo $l->t('GPDR, CCPA and more');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The GDPR (General Data Protection Regulation) makes organizations liable for any violations of user privacy and deviations from a high data security standard.<br>Legislation like the CCPA (California Consumer Privacy Act of 2018) brings similar regulation to other countries.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud has extensive GDPR compliance capabilities.');?></p>
+			<p class="section--paragraph revealOnScroll"><a class="button button--blue button--medium" href="<?php echo home_url('gdpr') ?>"><?php echo $l->t('Learn more');?></a></p>
+		</div>
+    </div>
+	<div class="row feature-row">
+		<div class="col-md-4 revealOnScroll">
+            <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/European_Commission.svg" alt="EU logo"/></a>
+        </div>
+		<div class="col-md-8 revealOnScroll feature--block">
+			<p class="section--paragraph__tittle"><?php echo $l->t('ePrivacy Regulation');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The <a class="hyperlink" href="https://ec.europa.eu/digital-single-market/en/news/stronger-privacy-rules-electronic-communications">upcoming EU ePrivacy Regulation</a> is designed as a complement to the GDPR. The objective is to reinforce trust and security in the Digital Single Market by ensuring that Europeans’ electronic communications are confidential regardless of the technology used. The ePrivacy Regulation protects the confidentiality of electronic communications and information on devices,  independently whether it is personal or non-personal data.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud is designed to protect the confidentiality of communications and fully prepares customers for the upcoming ePrivacy Regulation.');?></p>
+		</div>
+    </div>
+</div>
+</section>
+
 <section class="section--features">
 <div class="container-fluid quote">
     <div class="container">

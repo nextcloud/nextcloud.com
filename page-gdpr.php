@@ -113,6 +113,16 @@
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud follows the strictest security protocols in the industry and anticipates to be ready for easy and quick certification of customer deployments once the Cybersecurity Act goes into effect.');?></p>
 		</div>
     </div>
+    <div class="row feature-row">
+		<div class="col-md-4 revealOnScroll">
+            <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/.png" alt="in action"/></a>
+        </div>
+		<div class="col-md-8 revealOnScroll feature--block">
+			<p class="section--paragraph__tittle"><?php echo $l->t('CFR - Code of Federal Regulations Title 21');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud is ready for use in a FDA Title 21 CFR Part 11 compliant environment, if set up and run properly on appropriate infrastructure. Nextcloud features the required retention, versioning and auditing features and can integrate with signature application and validation solutions.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('As we do not operate Nextcloud for our customers nor control how they use it, as a on-premises hosted solution, Nextcloud itself can not be certified. However under a Nextcloud Subscription we can help review, validate and certify your compliance.');?></p>
+		</div>
+    </div>
 </div>
 </section>
 
