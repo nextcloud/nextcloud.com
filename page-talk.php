@@ -72,7 +72,7 @@
         </div>
 		<div class="col-md-8 revealOnScroll feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('ePrivacy Regulation');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The <a class="hyperlink" href="https://ec.europa.eu/digital-single-market/en/news/stronger-privacy-rules-electronic-communications">upcoming EU ePrivacy Regulation</a> is designed as a complement to the GDPR. The objective is to reinforce trust and security in the Digital Single Market by ensuring that Europeans’ electronic communications are confidential regardless of the technology used. The ePrivacy Regulation protects the confidentiality of electronic communications and information on devices,  independently whether it is personal or non-personal data.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The <a class="hyperlink" href="https://ec.europa.eu/digital-single-market/en/news/stronger-privacy-rules-electronic-communications">upcoming EU ePrivacy Regulation</a> is designed as a complement to the GDPR. The objective is to reinforce trust and security in the Digital Single Market by ensuring that electronic communications from Europeans are confidential regardless of the technology used. The ePrivacy Regulation protects the confidentiality of electronic communications and information on devices, independently whether it is personal or non-personal data.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud is designed to protect the confidentiality of communications and fully prepares customers for the upcoming ePrivacy Regulation.');?></p>
 		</div>
     </div>
@@ -103,13 +103,12 @@
                 </ul></p>
             </div>
             <div class="col-sm-4 revealOnScroll">
-                <p class="section--paragraph">
                 <ul>
                     <li><?php echo $l->t('Mobile calls & chat with push notifications');?></li>
                     <li><?php echo $l->t('Commands to enable integration with other tools');?></li>
                     <li><?php echo $l->t('Webinars & public web meetings*');?></li>
                     <li><?php echo $l->t('SIP gate: dial in by phone*');?></li>
-                </ul></p>
+                </ul>
             </div>
         </div>
         <div class="row">
@@ -365,11 +364,13 @@
     <div class="row">
         <div class="col-sm-6 revealOnScroll">
             <p class="section--paragraph revealOnScroll"><?php echo $l->t('Starting at EUR 4000/USD 4500 per year');?>
-            <ul>
+            </p>
+            <ul revealOnScroll>
                 <li><?php echo $l->t('EUR 80/USD 90 per user per year at 50 users');?></li>
                 <li><?php echo $l->t('EUR 40/USD 45 per user per year at 500 users');?></li>
             </ul>
-            <?php echo $l->t('further volume discounts at larger user numbers');?>
+            <p class="section--paragraph revealOnScroll">
+            <small><?php echo $l->t('(further volume discounts at larger user numbers available)');?></small>
             </p>
         </div>
         <div class="col-sm-6 revealOnScroll">
