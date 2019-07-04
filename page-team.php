@@ -168,15 +168,15 @@
 		</div>
         <div class="col-md-4">
 			<div class="teamp">
-                    <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marie.jpg" />
-				<h2 class="teamname">Marie Gutbub</h2>
+                    <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marinela.jpg" />
+				<h2 class="teamname">Marinela Gogo</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Online Marketer</h3>
 					<h4 class="teamexpertise">Marketing and Content</h4>
-					<h4 class="teamlocation">lives in Berlin, Germany</h4>
+					<h4 class="teamlocation">lives in Tirana, Albania</h4>
 					<p class="teamsocial"><!--<a href="https://spreed.me/"><i class="fa-rss fa"></i></a>--> <a href="https://shiromarieke.github.io/"><i class="fa-rss fa"></i></a> <a href="https://github.com/shiromarieke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/shiromarieke"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Marie studied cultural journalism at the Berlin University of the Arts. She got involved in privacy and open source in 2014, when she started organizing CryptoParties in Berlin. She has worked on many campaigns, trainings and events about privacy, human rights, journalism and open source with the Center for Investigative Journalism, the Tor Project and the Courage Foundation, among others. </p>
+				<p class="teamdescription">TBD</p>
 			</div>
         </div>
 <!--		<div class="col-md-4">
