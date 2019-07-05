@@ -53,7 +53,7 @@ require(["require.config"], function() {
         </div>
         <div class="row revealOnScroll feature--block">
             <div class="col-md-5">
-                <a href="https://shop.hanssonit.se/product/nextcloud-home-sme-server/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/box/ncsmeserver.png" class="img-responsive featureimg" /></a>
+                <a href="https://shop.hanssonit.se/product/nextcloud-home-sme-server/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/box/nuc.jpg" class="img-responsive featureimg" /></a>
             </div>
             <div class="col-md-7">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Home/SME Server');?></p>
