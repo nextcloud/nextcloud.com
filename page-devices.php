@@ -53,19 +53,19 @@ require(["require.config"], function() {
         </div>
         <div class="row revealOnScroll feature--block">
             <div class="col-md-5">
-                <a href="https://www.hanssonit.se/nextcloud-vm//"><img src="<?php bloginfo('template_directory'); ?>/assets/img/box/nextcloudpi.png" class="img-responsive featureimg" /></a>
+                <a href="https://shop.hanssonit.se/product/nextcloud-home-sme-server/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/box/ncsmeserver.png" class="img-responsive featureimg" /></a>
             </div>
             <div class="col-md-7">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Home/SME Server');?></p>
-                <p class="section--paragraph"><em><?php echo $l->t('Build your own Nextcloud Server!');?></em></p>
-                <p class="section--paragraph"><?php echo $l->t('The Nextcloud Home/SME Server is a Nextcloud instance that is preinstalled and preconfigured, and includes a management interface with all the tools you need to self host your private data in a single package.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Preferably you install it on a AMD64 architecture server, like a Intel NUC, you own WhiteBox Server, and enterprise HPe server, or similar. It could also be installed on a smaller device like a left-over laptop. It is based on a standard Ubuntu Server install.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Nextcloud VM is a community project that aims at making it easier for everyone to have control over their own data. It is free, thriving only on your help, feedback and support!');?></p>
+                <p class="section--paragraph"><em><?php echo $l->t('Get your own self-hosted cloud server!');?></em></p>
+                <p class="section--paragraph"><?php echo $l->t('The Nextcloud Home/SME Server is a Nextcloud server pre-configured and ready to boot once delivered. Just as the Nextcloud VM it includes easy to setup apps like Collabora, OnlyOffice, Talk and more.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Updates are managed with a easy-to-run update script shich updates the whole server in just one single command. The server is based on a powerful Intel 64-bit CPU (8:th-gen), M2 SSD + HDD, and 16 GB RAM.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('NThe Nextcloud Home/SME server is made by the guys behind the Nextcloud VM, and aims to be the easiset way to setup your own cloud - as a VM, or on your own bare-bone server.!');?></p>
                 <div class="devices-tags">
                     <span>Do-It-Yourself</span>
                     <span>Community</span>
                 </div>
-                <a href="https://github.com/nextcloud/vm/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+                <a href="https://shop.hanssonit.se/product/nextcloud-home-sme-server/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
             </div>
         </div>
         <div class="row revealOnScroll feature--block">
