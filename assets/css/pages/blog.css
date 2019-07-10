@@ -160,14 +160,15 @@ section .container .row .col-md-10 {
   text-decoration: none;
   color: #2a2a36;
 }
-.section--content .container .row .content p a:hover.button--blue {
-  /*to override settings from above...*/
-  color: #2a2a36;
-}
 .section--content .container .row .content p a.button--blue {
   /*to override settings from above...*/
   color: white;
   border: 1px solid white;
+}
+.section--content .container .row .content p a.button--blue:hover {
+  /*to override settings from above...*/
+  color: #0082c9;
+  border: solid 1px #0082c9;
 }
 .section--content .container .row .content blockquote a {
   /* 						color: #555; */
