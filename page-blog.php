@@ -1,6 +1,6 @@
 <!-- This is the postgrid page -->
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blogroll.css?v=2" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blogroll.css?v=3" rel="stylesheet">
 <!--<script>
 	require(["require.config"], function() {
 		require(["modules/youtubePlayer", "modules/submenu"])

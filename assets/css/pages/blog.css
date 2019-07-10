@@ -128,6 +128,38 @@ section .container .row .col-md-10 {
 
 .section--content .container .row {
   position: relative;
+  /*.transparent {
+  	position: absolute;
+  	top: 0;
+  	z-index: -1;
+  	margin-left: -50px;
+  	border-top-right-radius: 10px;
+  	border-top-left-radius: 10px;
+  	width: 100%;
+  	height: 40vh;
+  	background-color: white;
+  	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	margin-top: 0px;
+  	padding-bottom: 0%;
+  	@media (max-width: $break-small) {
+  		display: none;
+  	}
+  }*/
+  /*.white {
+  	position: absolute;
+  	top: -40vh;
+  	z-index: -1;
+  	margin-left: -50px;
+  	width: 100%;
+  	height: calc(100% - 40vh);
+  	background-color: white;
+
+  	box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  	margin-top: 0px;
+  	@media (max-width: $break-small) {
+  		display: none;
+  	}
+  }*/
 }
 .section--content .container .row .content {
   z-index: 10;
@@ -147,6 +179,15 @@ section .container .row .col-md-10 {
   line-height: 1.7;
   color: #555;
   /*  This makes all links look more like on the rest of our website, even though it can also cause issues occasionally...  */
+  /*a {
+  	color: #a2a2a2;
+  	font-weight: 500;
+  	transition: all 0.5s ease;
+  	&:hover {
+  		text-decoration: none;
+  		color: #2a2a36;
+  	}
+  }*/
 }
 .section--content .container .row .content p a {
   color: #a2a2a2;
@@ -157,15 +198,6 @@ section .container .row .col-md-10 {
   text-decoration: none;
 }
 .section--content .container .row .content p a:hover {
-  text-decoration: none;
-  color: #2a2a36;
-}
-.section--content .container .row .content p a .button.button--blue {
-  /*to override settings from above...*/
-  color: white;
-  border: 1px solid white;
-}
-.section--content .container .row .content p a .button.button--blue:hover {
   text-decoration: none;
   color: #2a2a36;
 }
