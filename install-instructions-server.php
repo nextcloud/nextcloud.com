@@ -117,7 +117,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <h5><?php echo $l->t('SME/Enterprise appliance');?></h5>
-                                    <p><?php echo $l->t('Nextcloud GmbH maintains a free appliance built on the Univention Corporate Server (UCS) with easy graphical setup and web-based administration. It includes user management via LDAP as well as optional Collabora Online integration.');?></p>
+                                    <p><?php echo $l->t('Nextcloud GmbH maintains a free appliance built on the Univention Corporate Server (UCS) with easy graphical setup and web-based administration. It includes user management via LDAP as well as optional online office integration.');?></p>
                                     <p><a class="button button--blue" href="https://www.univention.com/products/univention-app-center/app-catalog/nextcloud/" target="_blank"><?php echo $l->t('Get SME/Enterprise appliance');?></a></p>
                                     <p><a class="hyperlink" href="https://github.com/nextcloud/univention-app" target="_blank"><?php echo $l->t('Find source here');?></a>.</p>
                                 </div>
