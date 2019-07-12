@@ -62,7 +62,8 @@ require(["require.config"], function() {
                 <p class="section--paragraph"><?php echo $l->t('Updates are managed with a easy-to-run update script which updates the whole server in just one single command. The server is based on a powerful Intel 64-bit CPU (8:th-gen), 128 GB M2 SSD + 2 TB HDD, and 16 GB RAM.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Home/SME server is made by the team behind the Nextcloud VM, and aims to be the easiest way to setup your own cloud - now available as a bare-bone server!');?></p>
                 <div class="devices-tags">
-                    <span>Do-It-Yourself</span>
+                    <span>Managed</span>
+                    <span>Commercial</span>
                     <span>Community</span>
                 </div>
                 <a href="https://shop.hanssonit.se/product/nextcloud-home-sme-server/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
