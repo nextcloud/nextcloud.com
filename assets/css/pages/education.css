@@ -68,20 +68,21 @@ section .row {
   margin-bottom: 30px; }
 
 .section--customers {
+  margin-top: 150px;
   /* 	max-width: 100%; */
   position: relative; }
   .section--customers .container {
     padding-top: 8.54296875em;
     padding-bottom: 8.54296875em; }
   .section--customers .customerlist {
-    min-height: 400px; }
+    min-height: 300px; }
     .section--customers .customerlist .customer {
       position: relative; }
       .section--customers .customerlist .customer .customer-logo {
         float: center;
         height: 200px;
         position: relative;
-        line-height: 400px;
+        line-height: 180px;
         text-align: center;
         width: 80%;
         max-width: 60vw;
@@ -114,8 +115,8 @@ section .row {
           top: 0; }
         @media (max-width: 991px) {
           .section--customers .customerlist .customer .customer-logo {
-            height: 300px;
-            line-height: 300px; } }
+            height: 150px;
+            line-height: 150px; } }
         @media (max-width: 768px) {
           .section--customers .customerlist .customer .customer-logo {
             height: 200px;

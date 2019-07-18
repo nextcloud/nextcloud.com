@@ -41,6 +41,7 @@ section {
 }
 
 .section--customers {
+    margin-top: 150px;
 /* 	max-width: 100%; */
 	position: relative;
     .container {
@@ -48,14 +49,15 @@ section {
     padding-bottom: ms(5);
 	}
 	.customerlist {
-        min-height: 400px;
+        min-height: 300px;
+
         .customer {
             position: relative;
             .customer-logo {
                 float: center;
                 height: 200px;
                 position: relative;
-                line-height: 400px;
+                line-height: 180px;
                 text-align: center;
                 width: 80%;
                 max-width: 60vw;
@@ -83,8 +85,8 @@ section {
                     top: 0;
                     }
                 @media (max-width: $break-big) {
-                    height: 300px;
-                    line-height: 300px;
+                    height: 150px;
+                    line-height: 150px;
                 }
                 @media (max-width: $break-small) {
                     height: 200px;
