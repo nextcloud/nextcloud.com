@@ -210,13 +210,12 @@
                     <tr>
                     <th scope="row">14:00</th>
                     <td>Two case study presentations<br>
-                    <span class="break"><!--<small>We present you two case studies-->
-                    <small>More information coming</small>
-                    <!--<ul>
-                    <li></li>
-                    <li></li>
-                    </ul></small>--></span></td>
-                    <td><span class="break">Nextcloud customers <small></small><!--<br> Nextcloud customer <small></small>--></span>
+                    <span class="break"><small>We present you two case studies:
+                    <ul>
+                    <li>Renater</li>
+                    <li><small>Second presentation coming soon</small></li>
+                    </ul></small></span></td>
+                    <td><span class="break">Alexandre Salvat <br> <small>TBD</small><br> TBD <small></small></span>
                     <th scope="row">14:00</th>
                     <td>Group folders</td>
                     <td><span class="break">Matthias Wobben <br> <small>Nextcloud sales engineer</small></span></td>
@@ -224,8 +223,12 @@
                     <tr>
                     <th scope="row">14:30</th>
                     <td>Two case study presentations<br>
-                    <span class="break"><small>More information coming</small></span></td>
-                    <td><span class="break">Nextcloud customers <br> <small></small></span></td>
+                    <span class="break"><small>We present you two case studies:
+                    <ul>
+                    <li>University of Nantes</li>
+                    <li><small>Second presentation coming soon</small></li>
+                    </ul></small></span></td>
+                    <td><span class="break">Matthieu Le Corre <br> <small>Technical Manager Education Department, University of Nantes</small><br> TBD <small></small></span></td>
                     <th scope="row">14:30</th>
                     <td>Global Scale<br>
                     <small>Data locality, scalability and cost</small></td>
