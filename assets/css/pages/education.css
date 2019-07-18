@@ -2,6 +2,7 @@
 /*Shadows*/
 /*Breakpoints*/
 /* New widest container for headers */
+@import url(../../../node_modules/bootstrap-horizon/src/bootstrap-horizon.css);
 .container-widest {
   max-width: 1800px;
   padding-right: 15px;
@@ -72,51 +73,53 @@ section .row {
   .section--customers .container {
     padding-top: 8.54296875em;
     padding-bottom: 8.54296875em; }
-  .section--customers .customer {
-    position: relative; }
-    .section--customers .customer .customer-logo {
-      float: center;
-      height: 200px;
-      position: relative;
-      line-height: 400px;
-      text-align: center;
-      width: 100%;
-      max-width: 60vw;
-      margin-left: auto;
-      margin-right: auto;
-      vertical-align: middle;
-      /*			svg {
-      				vertical-align: middle;
-      				float:none;
-      				width: auto;
-      				height: 400px;
-      				padding-bottom: 100px;
-      			}*/ }
-      .section--customers .customer .customer-logo img {
-        max-width: 90%;
-        vertical-align: middle; }
-      .section--customers .customer .customer-logo .scaling-svg-container {
-        /* 				position: relative; */
-        height: 0;
-        width: 100%;
-        padding: 0;
-        padding-bottom: 100%;
-        /* override this inline for aspect ratio other than square */ }
-      .section--customers .customer .customer-logo svg {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        /* 		max-width: 50vw; */
-        left: 0;
-        top: 0; }
-      @media (max-width: 991px) {
-        .section--customers .customer .customer-logo {
-          height: 300px;
-          line-height: 300px; } }
-      @media (max-width: 768px) {
-        .section--customers .customer .customer-logo {
-          height: 200px;
-          line-height: 200px; } }
+  .section--customers .customerlist {
+    min-height: 400px; }
+    .section--customers .customerlist .customer {
+      position: relative; }
+      .section--customers .customerlist .customer .customer-logo {
+        float: center;
+        height: 200px;
+        position: relative;
+        line-height: 400px;
+        text-align: center;
+        width: 80%;
+        max-width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+        /*			svg {
+                        vertical-align: middle;
+                        float:none;
+                        width: auto;
+                        height: 400px;
+                        padding-bottom: 100px;
+                    }*/ }
+        .section--customers .customerlist .customer .customer-logo img {
+          max-width: 90%;
+          vertical-align: middle; }
+        .section--customers .customerlist .customer .customer-logo .scaling-svg-container {
+          /* 				position: relative; */
+          height: 0;
+          width: 100%;
+          padding: 0;
+          padding-bottom: 100%;
+          /* override this inline for aspect ratio other than square */ }
+        .section--customers .customerlist .customer .customer-logo svg {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          /* 		max-width: 50vw; */
+          left: 0;
+          top: 0; }
+        @media (max-width: 991px) {
+          .section--customers .customerlist .customer .customer-logo {
+            height: 300px;
+            line-height: 300px; } }
+        @media (max-width: 768px) {
+          .section--customers .customerlist .customer .customer-logo {
+            height: 200px;
+            line-height: 200px; } }
 
 .section--eduedition {
   padding: 100px 0 150px; }

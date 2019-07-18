@@ -46,7 +46,7 @@ require(["require.config"], function() {
 <section class="section--customers">
 <div class="container">
     <h2 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Some of our customers');?></h2>
-    <div class="row">
+    <div class="row customerlist">
 		<div class="col-sm-3 customer">
             <div class="customer-logo">
                 <a href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/tuberlin.png" /></a>
@@ -87,6 +87,41 @@ require(["require.config"], function() {
                 <a href="https://www.mpg.de/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/max-planck.png" /></a>
             </div>
         </div>
+        <div class="col-sm-3 customer">
+            <div class="customer-logo">
+                <a href="https://www.htw-berlin.de/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/HTW_Berlin.svg" /></a>
+            </div>
+        </div>
+        <div class="col-sm-3 customer">
+            <div class="customer-logo">
+                <a href="https://sib.fr/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/SIB.png" /></a>
+            </div>
+        </div>
+        <div class="col-sm-3 customer">
+            <div class="customer-logo">
+                <a href="https://www.jade-hs.de"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/JadeUniversity.png" /></a>
+            </div>
+        </div>
+        <div class="col-sm-3 customer">
+            <div class="customer-logo">
+                <a href="https://www.nationaalarchief.nl"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/national_archief.svg" /></a>
+            </div>
+        </div>
+        <div class="col-sm-offset-3 col-sm-3 customer">
+            <div class="customer-logo">
+                <a href="https://wikimedia.de/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/Wikimedia_Deutschland.svg" /></a>
+            </div>
+        </div>
+        <div class="col-sm-3 customer">
+            <div class="customer-logo">
+                <a href="https://www.tu-chemnitz.de/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/TU_Chemnitz.png" /></a>
+            </div>
+        </div>
+        <!--<div class="col-sm-3 customer">
+            <div class="customer-logo">
+                <a href=""><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/" /></a>
+            </div>
+        </div>-->
     </div>
 </div>
 </section>
