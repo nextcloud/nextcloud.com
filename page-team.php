@@ -89,6 +89,20 @@
 				<p class="teamdescription">Edeltraut studied business administration and has over 13 years experience in domestic, international sales and the open source community. She believes customer satisfaction is based on bringing great customer service, delivered by a caring and friendly person, promptly, with the support of a practical problem-solving process. Edeltraut provides excellent administrative support to our sales team and to any busy sales operation.</p>
 			</div>
 		</div>
+        <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/nina.jpg" />
+				<h2 class="teamname">Nina Cercy</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Account manager</h3>
+					<h4 class="teamexpertise">Compliance and cybersecurity</h4>
+					<h4 class="teamlocation">lives in Lyon, France</h4>
+					<p class="teamsocial"><!--<a href="https://spreed.me/"><i class="fa-rss fa"></i></a>--> <a href="https://github.com/NinaNC"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nlapalice"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Nina studied Business and Management at HEC Paris. Nina is specialized in GDPR compliance and cybersecurity. She works as an Account Manager on the French Market and she is based in Lyon. She co-directed <i>Numérique, reprendre le contrôle</i> in 2016.</p>
+			</div>
+		</div>
+
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/olivier.jpg" />
@@ -128,19 +142,18 @@
 				<p class="teamdescription">Matthias worked for nine years as a 3rd level IT Engineer and IT Administrator. Acting as a broker between the customer, the Sales and Engineering department, his main focus is to give our clients the best possible advice. Matthias is passionate about innovative technology, enabling clients to collaborate securely while retaining ease-of-use.</p>
 			</div>
 		</div>
-<!--	<div class="col-md-4">
+	<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mathias.jpg" />
-				<h2 class="teamname">Mathias Conradt</h2>
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Markus Windecker</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Senior Sales Engineer</h3>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><a href="http://www.conradt.de/"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/mathiasconradt/"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Mathias_Conradt"><i class="fa-xing fa"></i></a>
-						<a href="https://twitter.com/mathiasconradt"><i class="fa-twitter fa"></i></a> <a href="https://github.com/mathiasconradt"><i class="fa-github fa"></i></a></p>
+					<h3 class="teamtitle">Account and Partner Manager</h3>
+					<h4 class="teamlocation">lives in Herrenberg, Germany</h4>
+					<p class="teamsocial"><a href="http://www.linkedin.com/in/markus-windecker-43a723b2"><i class="fa-linkedin fa"></i></a></p>
 				</div>
-				<p class="teamdescription">Mathias has 19 years entrepreneurial experience in software engineering and IT project management (Scrum, PRINCE2, ITIL), thereof 7 years in Hong Kong and China. Always focused on open source and free software, he previously worked with many other open source document and content management solutions for large customers such as Bayer, Vodafone, China Telecom, OTTO and many others.</p>
+				<p class="teamdescription">Markus has over 19 years experience as Account and Partner manager at HP and Hewlett Packard Enterprise and Aruba.</p>
 			</div>
-		</div> -->
+		</div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/sascha.jpg" />
@@ -181,15 +194,15 @@
 		</div>
         <div class="col-md-4">
 			<div class="teamp">
-                    <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marie.jpg" />
-				<h2 class="teamname">Marie Gutbub</h2>
+                    <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marinela.jpg" />
+				<h2 class="teamname">Marinela Gogo</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Online Marketer</h3>
 					<h4 class="teamexpertise">Marketing and Content</h4>
-					<h4 class="teamlocation">lives in Berlin, Germany</h4>
+					<h4 class="teamlocation">lives in Tirana, Albania</h4>
 					<p class="teamsocial"><!--<a href="https://spreed.me/"><i class="fa-rss fa"></i></a>--> <a href="https://shiromarieke.github.io/"><i class="fa-rss fa"></i></a> <a href="https://github.com/shiromarieke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/shiromarieke"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Marie studied cultural journalism at the Berlin University of the Arts. She got involved in privacy and open source in 2014, when she started organizing CryptoParties in Berlin. She has worked on many campaigns, trainings and events about privacy, human rights, journalism and open source with the Center for Investigative Journalism, the Tor Project and the Courage Foundation, among others. </p>
+				<p class="teamdescription">Marinela studied Business Informatics in the Faculty of Economics, University of Tirana. She got involved in open source in 2015, first by contributing to open source projects and then, in 2016, she started co-organizing events or conferences in Tirana to promote software freedom, open knowledge and the importance of open source in the public sector.</p>
 			</div>
         </div>
 <!--		<div class="col-md-4">
