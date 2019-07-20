@@ -205,6 +205,9 @@ section {
   section .row {
     padding-top: 40px; }
 
+.section--documentation .button.button--small {
+  margin: 0 0 10px 0; }
+
 .featuretitle {
   text-align: center; }
 

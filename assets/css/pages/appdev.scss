@@ -27,9 +27,6 @@
     z-index: 0;
 }
 
-
-
-
 section {
 	padding: 50px 0;
 	.section--paragraph__tittle {
@@ -42,6 +39,13 @@ section {
  		padding-top: 40px;
  	}
 }
+
+.section--documentation {
+    .button.button--small {
+        margin: 0 0 10px 0;
+    }
+}
+
 
 .featuretitle {
     text-align: center;
