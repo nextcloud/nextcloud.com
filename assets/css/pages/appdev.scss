@@ -1,13 +1,38 @@
 @import '../variables';
 @import '../modules/transparent-navbar';
+@import '../modules/left-pill-bar';
 
-
-.talk-background {
-  background: url('../../img/headers/talk.jpg') no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 50px
+.appdev-background {
+  background-color: #0082c9;
+  height: 100%;
+/*   mask-image: radial-gradient(circle,rgba(0,0,0,0) 0,#000 100%); */
+/*   -webkit-mask-image: radial-gradient(circle,rgba(0,0,0,0) 0,#000 100%); */
+/*   opacity: .3; */
+  top: 0;
+  left: 0;
+  width: 100%;
 }
+
+.appdev-background::before {
+    content: "";
+    background: url('../../img/headers/devices.svg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.tab-content {
+    margin-top: 15px;
+    padding-top: 5px;
+}
+
+
 
 section {
 	padding: 50px 0;

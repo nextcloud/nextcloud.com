@@ -1,263 +1,61 @@
-/*Colors*/
-/*Shadows*/
-/*Breakpoints*/
-/* New widest container for headers */
-.container-widest {
-  max-width: 1800px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-@media (min-width: 768px) {
-  .container-widest .container-widest {
-    width: 738px;
-  }
-}
-@media (min-width: 992px) {
-  .container-widest .container-widest {
-    width: 962px;
-  }
-}
-@media (min-width: 1200px) {
-  .container-widest .container-widest {
-    width: 1170px;
-  }
-}
-@media (min-width: 1500px) {
-  .container-widest .container-widest {
-    width: 1470px;
-  }
-}
-@media (min-width: 1800px) {
-  .container-widest .container-widest {
-    width: 1770px;
-  }
-}
+/*
+Error: File to import not found or unreadable: ../modules/left-pill-bar.
+       Load path: /home/jospoortvliet/source/nextcloud.com/assets/css/pages
+        on line 3 of ./appdev.scss
 
-/* Make Navbar transparent */
-.nav:not(.scrolled) {
-  background-color: transparent;
-  position: absolute;
-}
+1: @import '../variables';
+2: @import '../modules/transparent-navbar';
+3: @import '../modules/left-pill-bar';
+4: 
+5: .appdev-background {
+6:   background-color: #0082c9;
+7:   height: 100%;
+8: /*   mask-image: radial-gradient(circle,rgba(0,0,0,0) 0,#000 100%); *\/
 
-.talk-background {
-  background: url("../../img/headers/talk.jpg") no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 50px;
-}
-
-section {
-  padding: 50px 0;
-}
-section .section--paragraph__tittle {
-  padding: 0;
-}
-section h2 {
-  padding-bottom: 0px;
-}
-section .row {
-  padding-top: 40px;
-}
-
-.featuretitle {
-  text-align: center;
-}
-
-.section--compliance .feature-row {
-  margin-top: 50px;
-}
-.section--compliance h2 {
-  margin-bottom: 30px;
-}
-
-@media (max-width: 768px) {
-  .section--benefits {
-    text-align: center;
-  }
-}
-.section--benefits i[class*=fa-] {
-  font-size: 40px;
-  display: block;
-  color: #0082c9;
-  text-align: center;
-  vertical-align: center;
-  padding-top: 20%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.section--benefits .icon {
-  max-width: 120px;
-}
-@media (max-width: 768px) {
-  .section--benefits .icon {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-.section--benefits .scaling-svg-container {
-  height: 0;
-  width: 100%;
-  padding: 0;
-  padding-bottom: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  /* override this inline for aspect ratio other than square */
-}
-@media (max-width: 768px) {
-  .section--benefits .scaling-svg-container {
-    position: relative;
-    margin-left: 0;
-  }
-}
-.section--benefits svg {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-}
-.section--benefits .list {
-  padding-top: 180px;
-}
-@media (max-width: 991px) {
-  .section--benefits img {
-    max-height: 500px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-.section--features {
-  margin: 50px 0;
-}
-.section--features li {
-  list-style-image: url("../../img/enterprise/check.svg");
-  list-style-position: inside;
-}
-
-.section--options {
-  margin-bottom: 30px;
-  /* end container-widest */
-}
-.section--options .container-widest {
-  /* end featureblock */
-}
-.section--options .container-widest .introduction {
-  padding-top: 50px;
-  padding-bottom: 0px;
-}
-.section--options .container-widest .introduction h1 {
-  margin-bottom: 30px;
-}
-.section--options .container-widest .row {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.section--options .container-widest .col-md-4 {
-  padding: 20px;
-}
-.section--options .container-widest .featureblock {
-  margin-top: 50px;
-  /* 			margin-bottom: 50px; */
-  padding: 20px;
-  border: solid 1px transparent;
-}
-.section--options .container-widest .featureblock:hover {
-  box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
-  border: solid 1px #fbfbfb;
-  border-radius: 8px;
-  transition: all 0.5s ease;
-}
-.section--options .container-widest .featureblock .section--paragraph__tittle {
-  text-align: center;
-}
-.section--options .container-widest .featureblock .section--paragraph {
-  text-align: center;
-}
-.section--options .container-widest .featureblock .img-responsive {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  margin-bottom: 50px;
-}
-
-/* end section */
-.section--getmobile {
-  margin-top: 80px;
-}
-.section--getmobile .banner {
-  height: 600px;
-  background-color: #0082c9;
-  position: relative;
-  overflow: hidden;
-}
-.section--getmobile .banner .img-responsive {
-  margin: auto;
-}
-.section--getmobile .banner .col-md-8 {
-  padding: 80px 0;
-}
-.section--getmobile .banner li, .section--getmobile .banner p, .section--getmobile .banner h2, .section--getmobile .banner h3 {
-  color: white;
-}
-.section--getmobile .banner .hyperlink {
-  color: white;
-}
-.section--getmobile .banner .row {
-  padding-top: 30px;
-}
-.section--getmobile .banner .big-img {
-  position: absolute;
-  max-width: 70%;
-  height: 100%;
-  top: 0px;
-  left: 50px;
-}
-.section--getmobile .banner .small-img {
-  position: absolute;
-  top: 0px;
-  height: 100%;
-}
-@media (max-width: 1600px) {
-  .section--getmobile .banner {
-    height: 400px;
-  }
-  .section--getmobile .banner .big-img {
-    display: none;
-  }
-  .section--getmobile .banner .col-md-8 {
-    padding: 30px 0;
-  }
-}
-@media (max-width: 991px) {
-  .section--getmobile .banner {
-    height: 650px;
-  }
-  .section--getmobile .banner .big-img {
-    display: none;
-  }
-  .section--getmobile .banner .small-img {
-    height: 75%;
-    top: 200px;
-    left: -20px;
-  }
-  .section--getmobile .banner .col-md-8 {
-    padding: 20px 0;
-  }
-  .section--getmobile .banner .mobileclientbuttons {
-    margin-left: 50%;
-  }
-}
-@media (min-width: 1600px) {
-  .section--getmobile .banner .small-img {
-    display: none;
-  }
-}
-
-footer {
-  margin-top: 0px;
-}
-
-/*# sourceMappingURL=talk.css.map */
+Backtrace:
+./appdev.scss:3
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/usr/lib64/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: ../modules/left-pill-bar.\A        Load path: /home/jospoortvliet/source/nextcloud.com/assets/css/pages\A         on line 3 of ./appdev.scss\A \A 1: @import '../variables';\A 2: @import '../modules/transparent-navbar';\A 3: @import '../modules/left-pill-bar';\A 4: \A 5: .appdev-background {\A 6:   background-color: #0082c9;\A 7:   height: 100%;\A 8: /*   mask-image: radial-gradient(circle,rgba(0,0,0,0) 0,#000 100%); */"; }
