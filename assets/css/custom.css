@@ -4068,16 +4068,15 @@ h5 {
   margin: 0 auto;
   text-align: center; }
 
-
-  .no-js body nav .container .brand .logo:not(.scrolled):not(.menu-open) {
-    background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
-    background-position-x: -4620px; }
-  .no-js body nav .container .nav__sections .nav__section .nav__links {
-    background-color: white; }
-    .no-js body nav .container .nav__sections .nav__section .nav__links .nav__item a {
-      display: block;
-      padding: 5px 10px 0 10px;
-      font-size: 16px; }
+.no-js body nav .container .brand .logo:not(.scrolled):not(.menu-open) {
+  background: url(../img/logo/logo_white_sprite.png) 0 0 no-repeat;
+  background-position-x: -4620px; }
+.no-js body nav .container .nav__sections .nav__section .nav__links {
+  background-color: white; }
+  .no-js body nav .container .nav__sections .nav__section .nav__links .nav__item a {
+    display: block;
+    padding: 5px 10px 0 10px;
+    font-size: 16px; }
 .no-js body .revealOnScroll {
   opacity: 1; }
 .no-js body .toptext {
@@ -5435,27 +5434,53 @@ footer.page-footer {
   height: 70vh;
   min-height: 600px;
   max-height: 800px;
-  position: relative;
-  opacity: 0; }
+  position: relative; }
   .background h1 {
     padding-top: 0;
     color: white;
-    opacity: 0;
     transform: translateY(50px); }
   .background h2 {
     color: white;
     font-size: 20px;
     line-height: 1.6;
     text-shadow: 0px 0px 10px #333;
-    opacity: 0;
     transform: translateY(50px); }
   .background .topheader {
-    position: absolute;
-    top: 30%;
-    margin: 0;
+    /*     position: absolute; */
+    /*     top: 30%; */
+    margin-top: 200px;
     padding: 0;
-    max-width: 600px;
-    opacity: 0; }
+    max-width: 600px; }
+  .background .topsidebar {
+    margin-top: 80px;
+    opacity: 1; }
+    .background .topsidebar .sidebarlist {
+      padding: 30px 20px 30px 20px;
+      opacity: 1;
+      width: 400px;
+      margin-left: auto;
+      margin-right: 0px; }
+      .background .topsidebar .sidebarlist .header {
+        background-color: lightgrey;
+        border-radius: 50px 50px 0 0;
+        color: black;
+        margin-bottom: 0;
+        font-size: 28px;
+        padding: 30px 50px 30px 50px; }
+      .background .topsidebar .sidebarlist .content {
+        padding: 10px;
+        margin-top: 0;
+        color: black;
+        background-color: white;
+        border-radius: 0 0 50px 50px; }
+        .background .topsidebar .sidebarlist .content ul {
+          padding: 0 40px 0 70px; }
+          .background .topsidebar .sidebarlist .content ul li {
+            list-style-image: url("../img/enterprise/check.svg");
+            /*                     list-style-position: inside; */ }
+        .background .topsidebar .sidebarlist .content .button {
+          width: 300px;
+          margin: 20px; }
 
 /* make sure a hero section doesn't have a padding on top either */
 .hero-section {
