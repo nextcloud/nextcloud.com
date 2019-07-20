@@ -5476,7 +5476,7 @@ footer.page-footer {
         .background .topsidebar .sidebarlist .content ul {
           padding: 0 40px 0 70px; }
           .background .topsidebar .sidebarlist .content ul li {
-            list-style-image: url("../../img/enterprise/check.svg");
+            list-style-image: url("../img/enterprise/check.svg");
             /*                     list-style-position: inside; */ }
         .background .topsidebar .sidebarlist .content .button {
           width: 300px;
@@ -10731,7 +10731,7 @@ blockquote {
           background-color: #0073B2;
           text-decoration: none;
           border-color: #204d74;
-  
+
   }*/
   /*    .button--arrow:hover:before {
           background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
