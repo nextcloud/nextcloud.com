@@ -1330,22 +1330,6 @@
          "imagename":"cloudnow.png"
       },
     {
-         "title":"innoXchain GmbH",
-         "url":"https:\/\/www.wolkesicher.de",
-         "flags":[
-            "at",
-            "de",
-            "ch",
-            "eu"
-         ],
-         "freeplans":true,
-         "supports":"both",
-         "specializes":[
-            "Wir bieten gemanagtes Nextcloud-Hosting datenschutzkonform nach DSGVO mit ISO 27001 zertifizierten Rechenzentren in Deutschland."
-         ],
-         "imagename":"wolkesicher.png"
-      },
-    {
          "title":"Big SAFEBOX Data",
          "url":"https:\/\/www.bsbdata.com\/servicio\/servidores-dedicados",
          "flags":[

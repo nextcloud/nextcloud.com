@@ -60,7 +60,7 @@
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/gdpr-apps-nw.png" alt="GDPR apps"/></a>
         </div>
 		<div class="col-md-8 revealOnScroll feature--block">
-			<p class="section--paragraph__tittle"><?php echo $l->t('GPDR, CCPA and more');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('GDPR, CCPA and more');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The GDPR (General Data Protection Regulation) makes organizations liable for any violations of user privacy and deviations from a high data security standard.<br>Legislation like the CCPA (California Consumer Privacy Act of 2018) brings similar regulation to other countries.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud has extensive GDPR compliance capabilities.');?></p>
 			<p class="section--paragraph revealOnScroll"><a class="button button--blue button--medium" href="<?php echo home_url('gdpr') ?>"><?php echo $l->t('Learn more');?></a></p>

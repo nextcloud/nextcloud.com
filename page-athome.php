@@ -106,9 +106,24 @@
 	</div>
 </section>
 
+<section class="section--files">
+	<a name="files" id="files"></a>
+	<div class="container">
+		<div class="col-md-6 revealOnScroll image--feature new-img">
+            <img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/Admin_Overview_Security_and_setup_warnings.png" alt="in action" >
+
+		</div>
+		<div class="col-md-6 revealOnScroll feature--block">
+			<p class="section--paragraph__tittle"><?php echo $l->t('Self-hosting made easy.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Running your own server takes work, but Nextcloud makes it easy as possible to run a reliable, secure service for you and your family. We give you tips and recommendations in the setup screen, warn you of updates and let you run an update with a few clicks in the web interface, provide a web installer and super easy-to-manage Snap and VM images and much more.');?></p>
+			<a href="<?php echo home_url('install') ?>/#instructions-server" class="button button--blue button--arrow button--large"><?php echo $l->t('Download options');?></a>
+		</div>
+	</div>
+</section>
+
 <section class="section--design">
 	<div class="container">
-		<div class="col-md-6 revealOnScroll">
+		<div class="col-md-6 revealOnScroll image--floated">
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/LrF4jf1ROOc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
 		<div class="col-md-6 revealOnScroll">
@@ -122,7 +137,7 @@
 <section class="section--security">
 	<a name="security" id="security"></a>
 	<div class="container">
-		<div class="col-md-6 revealOnScroll image--floated image--feature">
+		<div class="col-md-6 revealOnScroll image--feature">
 		<img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP.png" alt="in action" >
 		</div>
 
@@ -138,7 +153,6 @@
 		</div>
 	</div>
 </section>
-
 <section class="section--privacy quote">
 <div class="container">
     <div class="row">

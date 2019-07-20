@@ -587,9 +587,9 @@
 							<li title="" rel="tooltip">20GB</li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
 								<li class="cd-group"></li> <!--Client-->
-							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
+							<li title="free version only supports up to 3 client devices total" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Auto upload images/video-->
-							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i> <i class="fa fa-linux" aria-hidden="true"></i></li> <!--Desktop clients-->
+							<li title="free version only supports up to 3 client devices total" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="Limited Microsoft office integration" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
 
