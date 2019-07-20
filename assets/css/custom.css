@@ -9845,6 +9845,29 @@ h5 {
       .image--feature.new-img img.featureimg {
         padding: 0 8.8% 0 9%; } }
 
+.container-widest {
+  /* For the wider container (up to 1800px) we have to adjust the sizes */ }
+  .container-widest .image--feature.new-img {
+    height: 580px; }
+    @media (min-width: 991px) {
+      .container-widest .image--feature.new-img {
+        height: 180px; } }
+    @media (min-width: 1200px) {
+      .container-widest .image--feature.new-img {
+        height: 285px; } }
+    @media (min-width: 768px) {
+      .container-widest .image--feature.new-img img.featureimg {
+        bottom: 0px;
+        left: 0px;
+        position: absolute;
+        padding: 0 8.2% 0 8.4%; } }
+    @media (min-width: 991px) {
+      .container-widest .image--feature.new-img img.featureimg {
+        padding: 0 8.3% 0 8.7%; } }
+    @media (min-width: 1200px) {
+      .container-widest .image--feature.new-img img.featureimg {
+        padding: 0 8.8% 0 9%; } }
+
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
@@ -10731,7 +10754,7 @@ blockquote {
           background-color: #0073B2;
           text-decoration: none;
           border-color: #204d74;
-
+  
   }*/
   /*    .button--arrow:hover:before {
           background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
