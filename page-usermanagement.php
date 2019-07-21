@@ -28,7 +28,7 @@
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Integrated account management');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud features integration with external user directories like LDAP or others as well as built-in account management, two-factor authentication and Single-sign-on support.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud features integration with external user directories like LDAP, Active Directory or others as well as built-in account management, two-factor authentication and Single-sign-on support.');?></p>
 		</div>
 	</div>
 </div>
@@ -81,7 +81,8 @@
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('LDAP/Active Directory user management');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud features a high performance, full-featured LDAP application which lets users authenticate through their LDAP credentials. Group management, quotas and sharing permissions can be managed as usual. Nextcloud features LDAP group support, sharing, primary groups and easy configuration with auto-detection of LDAP attributes.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('For security reasons, the default LDAP configuration is fully read-only. A plugin infrastructure exists  with some experimental applications already available that enable administrators to manage an LDAP server through Nextcloud. Creating, updating and removing LDAP configurations can optionally be done through an external, REST-based API.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('For security reasons, the default LDAP configuration is fully read-only. Creating, updating and removing LDAP configurations can optionally be done through an external, REST-based API.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud 17 and newer optionally support limited LDAP/AD account management, enabling admins to create, modify or delete users in the connected user directory. Through a plugin-infrastructure, more capabilities can be added.');?></p>
 			<p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_user/user_auth_ldap_api.html"><?php echo $l->t('Find documentation here.');?></a></p>
 		</div>
 	</div>
@@ -119,13 +120,24 @@
 
 <section class="section--more">
 <div class="container">
-	<div class="row">
-		<div class="col-md-6 revealOnScroll image--floated">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/TOTP.png" class="img-responsive featureimg" /></a>
-		</div>
+	    <div class="row">
+        <div class="col-md-6 revealOnScroll image--feature new-img image--floated">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/Personal_Secuity_2FA_TOTP_Setup.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/Personal_Secuity_2FA_TOTP_Setup.png" alt="in action" ></a>
+        </div>
 		<div class="col-md-6 revealOnScroll">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Secure Authentication');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud supports securing authentication through Nextcloud itself with a plugin-based two-factor authentication method. Supported are, among others, TOTP, NFC, SMS, Signal/Telegram and U2F. Upon activation by the system administrator, users can activate 2FA in their personal settings.');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Multi-factor authentication');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud supports a wide variety of second factors and allows admins to enforce use of 2-factor authentication.');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('Second factors:');?></p>
+			<ul>
+                <li><?php echo $l->t('Time-based One-Time Password (TOTP, including Google Authenticator or similar apps');?></li>
+                <li><?php echo $l->t('Universal 2nd Factor hardware tokens (U2F, like Yubikeys or Nitrokeys, also supports NFC)');?></li>
+                <li><?php echo $l->t('Gateways: SMS, secure messaging apps Telegram, Signal and more');?></li>
+                <li><?php echo $l->t('Notification (just click to approve login on an existing device like phone)');?></li>
+                <li><?php echo $l->t('User backup code (User has to generate these in advance and store them in a safe location)');?></li>
+                <li><?php echo $l->t('Administrator backup code (creating those can be delegated to group admins)');?></li>
+			</ul>
+			<p class="section--paragraph"><?php echo $l->t('Any number of these can be enabled by the admin.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Active user sessions can be invalidated through a list, by removing the user in the admin settings or by changing passwords. Users can manage their own sessions and devices.');?></p>
 			<p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_user/two_factor-auth.html"><?php echo $l->t('Find documentation here.');?></a></p>
 		</div>
 	</div>

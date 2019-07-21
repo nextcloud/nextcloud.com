@@ -108,19 +108,6 @@ section {
   margin-bottom: 30px; }
 
 /* Sections */
-.section--explanation i[class*='fa-'] {
-  font-size: 60px;
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding-top: 20%; }
-.section--explanation .row {
-  padding: 5px 0 5px 0; }
-.section--explanation p.section--paragraph {
-  padding: 0; }
-.section--explanation p {
-  padding: 0; }
-
 .section--modern .modern--ilustration {
   background: url(../../img/globalscale/people.svg) no-repeat center/contain;
   /*       width: 950px; */
@@ -182,6 +169,18 @@ section {
       font-size: 15px;
       color: #6c6c6c; }
 
+.section--explanation i[class*='fa-'] {
+  font-size: 60px;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20%; }
+.section--explanation .row {
+  padding: 5px 0 5px 0; }
+.section--explanation p.section--paragraph {
+  padding: 0; }
+.section--explanation p {
+  padding: 0; }
 .section--explanation .banner {
   background-color: #0082c9;
   position: relative;

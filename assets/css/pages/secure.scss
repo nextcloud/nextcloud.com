@@ -1,5 +1,6 @@
 @import '../variables';
 @import '../modules/transparent-navbar';
+@import '../modules/left-pill-bar';
 
 .security-background {
     background-image: url("../../img/security/security.jpg");
@@ -15,13 +16,7 @@
 /* All headers */
 
 .featureblock {
-    padding: 140px 0;
-    //padding-top: 140px;
-
-    &--has-separator {
-        border-top: 1px solid #E8E8E8;
-    }
-
+    padding-top: 100px;
     .img-responsive {
         margin-left: auto;
         margin-right: auto;
@@ -48,6 +43,41 @@
             .section--paragraph {
                 padding-bottom: 5px;
                 padding-top: 10px;
+            }
+        }
+    }
+
+    .featuretabs {
+        padding-top: 70px;
+        .tab-content {
+            min-height: 300px;
+            .feature {
+                margin-top: 30px;
+                .icon {
+                    @media  (max-width: $break-big) {
+                        svg {
+                            display: inline;
+                            float: left;
+                            margin-right: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .nav-pills.brand-pills.nav-stacked {
+            padding-bottom: 60px;
+            @media  (max-width: $break-big) {
+                padding-bottom: 100px;
+            }
+            @media  (max-width: $break-small) {
+                padding-bottom: 0px;
+                .icon {
+                    svg {
+                        display: inline;
+                        float: left;
+                        margin-right: 15px;
+                    }
+                }
             }
         }
     }
@@ -112,6 +142,90 @@
 section {
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+
+.section--control {
+    .featuretabs {
+        .tab-content {
+            min-height: 380px;
+            @media  (max-width: $break-huge) {
+                min-height: 450px;
+            }
+            @media (max-width: $break-small) {
+                min-height: 450px;
+            }
+        }
+    }
+    .featureblock {
+        padding-top: 70px;
+        .nav-pills.brand-pills.nav-stacked {
+            padding-bottom: 90px;
+            @media  (max-width: $break-big) {
+                padding-bottom: 170px;
+            }
+            @media (max-width: $break-small) {
+                padding-bottom: 0px;
+            }
+        }
+    }
+}
+
+.section--integration {
+    .featureblock {
+/*         padding-top: 40px; */
+    }
+    .featuretabs {
+        .tab-content {
+            min-height: 400px;
+            @media  (max-width: $break-huge) {
+                min-height: 400px;
+            }
+            @media (max-width: $break-small) {
+                min-height: 350px;
+            }
+        }
+    }
+}
+
+.section--authentication {
+    .featureblock {
+        padding-top: 0;
+    }
+    .featuretabs {
+        .tab-content {
+            min-height: 400px;
+            @media  (max-width: $break-huge) {
+                min-height: 500px;
+            }
+            @media (max-width: $break-small) {
+                min-height: 450px;
+            }
+        }
+    }
+}
+
+
+.section--encryption {
+    padding: 0;
+    .container-fluid {
+    position: relative;
+        .container-widest {
+            padding: 60px 0;
+        }
+        .cover {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 40%;
+            background-image: url("../../img/features/attack_tree_virus.png");
+            background-position: top center;
+            background-size: cover;
+            @media  (max-width: $break-big) {
+                display: none;
+            }
+        }
+    }
 }
 
 /* Process image */
@@ -473,29 +587,45 @@ section {
     }
 }
 
-.banner {
-    background-color: $nextcloud-blue;
-    position: relative;
-    overflow: hidden;
+.section--scan {
+    margin: 120px 0 0 0;
+    padding: 0;
+    .container-fluid.banner {
+        background-color: $nextcloud-blue;
+        position: relative;
+        overflow: hidden;
+        min-height: 450px;
+        max-width: 2400px;
+        h2 {
+            text-align: left;
+            color: white;
+        }
 
-    h2 {
-        text-align: left;
-        color: white;
-    }
+        p {
+            padding-top: 30px;
+            text-align: left;
+            color: white;
+        }
 
-    p {
-        padding-top: 30px;
-        text-align: left;
-        color: white;
-    }
+        .col-md-6 {
+            padding: 80px 60px;
+        }
 
-    .col-md-6 {
-        padding: 80px 60px;
+        img {
+            position: absolute;
+            width: 40%;
+            bottom: 0;
+            max-width: 800px;
+            @media (max-width: $very-wide) {
+                width: 60%;
+            }
+            @media (max-width: $break-big) {
+                display: none;
+            }
+        }
     }
+}
 
-    img {
-        position: absolute;
-        width: 60%;
-        top: 60px;
-    }
+.section--getstarted {
+    margin: 70px 0 0 0;
 }

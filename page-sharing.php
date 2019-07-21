@@ -111,6 +111,7 @@ require(["require.config"], function() {
                     <li><?php echo $l->t('Passwords for public link shares');?></li>
                     <li><?php echo $l->t('Expiration date in internal or public link shares');?></li>
                     <li><a class="hyperlink" href="<?php echo home_url('file-drop') ?>"><?php echo $l->t('File-drop hides existing files, providing just an upload target');?></a></li>
+                    <li><a class="hyperlink" href="https://nextcloud.com/de/blog/secure-view-prevent-your-shared-files-from-getting-downloaded/"><?php echo $l->t('Hide Download <small>(Secure View)</small>');?></a></li>
                     <li><?php echo $l->t('Ultimate protection for email shares with Video Verification');?></li>
                 </ul>
                 <p class="section--paragraph"><?php echo $l->t('Admins can control all these abilities, add trusted Federation servers and more');?></p>
