@@ -148,11 +148,26 @@ require(["require.config"], function() {
 </div>
 </section>
 
+<section class="section--vdr">
+    <div class="container">
+        <div class="row feature-row">
+            <div class="col-md-6 revealOnScroll image--floated">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/vdr-link.jpg" alt="in action"/>
+            </div>
+            <div class="col-md-6 revealOnScroll feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Virtual Data Room');?></p>
+                <p class="section--paragraph"><?php echo $l->t('In settings where a firewall is needed between departments or organizations without impeding smooth and efficient collaboration, a separate Virtual Data Room can be set up. Nextcloud offers a wide range of unique features for VDR use and its on-premises nature offers unparalleled confidentiality and control.');?></p>
+                <a href="<?php echo home_url('virtual-data-room') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Virtual Data Rooms');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section--customerdetail">
 	<div class="container">
          <div class="row feature-row">
             <div class="col-md-6 revealOnScroll">
-                <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/assicuro.png" alt="in action"/></a>
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/assicuro.png" alt="in action"/>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Assicuro Private Insurance');?></p>
