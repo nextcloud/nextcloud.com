@@ -41,6 +41,14 @@
 			<p class="section--paragraph"><?php echo $l->t('Combined with');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>"><?php echo $l->t('our Secure Sharing Outlook addin</a> (and by disabling direct email attachments), File Access Control can play a crucial role in enforcing company policy on data sharing.');?></p>
 		</div>
 	</div>
+	<div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <p class="text-center"><?php echo $l->t('Get work done with the leading content collaboration platform.');?></p>
+            <div class="text-center morebuttondiv">
+                <a href="<?php echo home_url('buy') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+            </div>
+        </div>
+    </div>
 </div>
 </section>
 

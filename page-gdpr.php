@@ -80,6 +80,14 @@
                 </ul></p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <p class="text-center"><?php echo $l->t('Reduce risk, improve collaboration and auditability and cut operational expenses with the leading content collaboration platform.');?></p>
+                <div class="text-center morebuttondiv">
+                    <a href="<?php echo home_url('buy') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Contact us now');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

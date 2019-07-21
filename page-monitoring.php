@@ -58,9 +58,17 @@
 			<p class="section--paragraph__tittle"><?php echo $l->t('Configurable');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The Activity app allows users to enable or disable showing any of the events in their stream and to receive mail notifications only for the type of events they require.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Users can see what happened in the browser, choose to receive email notifications or follow changes through an RSS feed.');?></p>
-
 		</div>
 	</div>
+	<div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <p class="text-center"><?php echo $l->t('Regain control over data and communication with the leading content collaboration platform.');?></p>
+            <p class="text-center"><?php echo $l->t('Contact us now to learn how we can help you!');?></p>
+            <div class="text-center morebuttondiv">
+                <a href="<?php echo home_url('buy') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+            </div>
+        </div>
+    </div>
 </div>
 </section>
 

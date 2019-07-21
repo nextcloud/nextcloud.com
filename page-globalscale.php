@@ -66,6 +66,14 @@ require(["require.config"], function() {
 	<div class="container">
 		<h2 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('The Next Generation');?></h2>
 		<p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud Global Scale was designed to lift enterprise collaboration to a new level, overcoming limitations in building large scale file storage, sync & share solutions. It delivers significant cost savings and increased flexibility.');?></p>
+		<div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <p class="text-center"><?php echo $l->t('Improve productivity and communication while cutting operational expenses with the most scalable content collaboration platform.');?></p>
+                <div class="text-center morebuttondiv">
+                    <a href="<?php echo home_url('buy') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                </div>
+            </div>
+        </div>
 	</div>
 </section>
 
