@@ -48,13 +48,24 @@
 	</div>
 	<div class="row">
         <div class="col-md-6 revealOnScroll image--feature new-img">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/guest_account.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/guest_account.png" alt="in action" ></a>
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/guest_account.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/groupadmin.png" alt="in action" ></a>
         </div>
 		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Group admins');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The administrator can delegate some work by elevating some accounts to group administrator over specified groups. This allows them to create new users as members of these groups as well as delete and modify them.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('When enabled, group admins can also create 2-factor one-time login codes and do other administrative tasks like manage ACLs on Groupfolders.');?></p>
+		</div>
+	</div>
+	<div class="row">
+        <div class="col-md-6 revealOnScroll image--feature new-img image--floated">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/guest_account.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/guest_account.png" alt="in action" ></a>
+        </div>
+		<div class="col-md-6 revealOnScroll">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Guest accounts');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The guest accounts app enables users to create guest accounts for recipients. The administrator can determine what access rights these users need to have to external storage and apps.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('As guests have a special (hidden) group, administrators can use the Workflow and File Access Control capabilities to restrict, for example, users from downloading or sharing data. In Virtual Dataroom scenarios guest accounts can be given access to data read-only or with editing rights while blocking downloads and watermarking all files. Documents can shared with them through the Secure Mailbox feature from the Nextcloud Outlook Add-in which prevents the mail body and attachments from leaking.');?></p>
+            <a class="button button--blue button--arrow" href="<?php echo home_url('workflow') ?>"><?php echo $l->t('Workflow and File Access Control');?></a><br />
+            <a class="button button--blue button--arrow" href="<?php echo home_url('virtual-data-room') ?>"><?php echo $l->t('Virtual data room features');?></a>
 		</div>
 	</div>
 </div>
