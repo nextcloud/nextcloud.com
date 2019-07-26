@@ -29,6 +29,11 @@
 	<li><a href="/security/advisory/?id=NC-SA-2019-005">SQL injection in Android app content provider (NC-SA-2019-005)</a> 2019-07-26</li>
 </ul>
 
+<h3>lookup-server 0.3.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-010">SQL Injection in lookup-server (NC-SA-2019-010)</a> 2019-07-26</li>
+</ul>
+
 <h3>Nextcloud Server 15.0.1</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2019-001">Classification of calendar events is ignored by the activity stream (NC-SA-2019-001)</a> 2019-04-12</li>
