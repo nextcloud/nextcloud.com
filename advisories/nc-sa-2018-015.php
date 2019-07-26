@@ -16,7 +16,7 @@
         <p><p>A too permissive check allowed an installed application that contained the Nextcloud client package name to obtain access to the database of the Nextcloud application. At time of disclosure there are no applications with in the Google Play Store that fullfill this requirement.</p></p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Mobile &lt; <strong>3.2.0</strong> (CVE-2018-3765)</li>
+            <li>Nextcloud Android &lt; <strong>3.2.0</strong> (CVE-2018-3765)</li>
 
         </ul>
         <h3>Action Taken</h3>

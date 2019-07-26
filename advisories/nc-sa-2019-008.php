@@ -16,7 +16,7 @@
         <p><p>If an attacker has physical access to an Android smartphone without a screen lock, but with nextcloud installed and set up, they can circumvent the passcode protection by repeatedly opening and closing the app in a very short time.</p></p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Mobile &lt; <strong>3.6.1</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Android &lt; <strong>3.6.1</strong> (CVE assignment pending)</li>
 
         </ul>
         <h3>Action Taken</h3>

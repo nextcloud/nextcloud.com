@@ -16,7 +16,7 @@
         <p><p>The content provider of the app accepted arbitrary strings in the field list of the returned file list. This allowed an attacker to run harmful queries, destroying the local cache of the android app. The server data however was never in danger, so removing the account and setting it up again can fix all problems.</p></p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Mobile &lt; <strong>3.0.0</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Android &lt; <strong>3.0.0</strong> (CVE assignment pending)</li>
 
         </ul>
         <h3>Action Taken</h3>

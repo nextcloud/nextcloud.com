@@ -5,43 +5,49 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
-  <title>Mobile App: Query restriction bypass on exposed FileContentProvider in Android app (NC-SA-2019-011)</title>
+  <title>Android App: Query restriction bypass on exposed FileContentProvider in Android app (NC-SA-2019-011)</title>
   <description>&lt;p&gt;Not strictly enough sanitization allowed an attacker to get content information from protected tables when using custom queries.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-011&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-011</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-011</guid>
   <pubDate>Fri, 26 Jul 2019 12:00:00 +0200</pubDate>
  </item><item>
-  <title>Mobile App: Improper sanitization of HTML in directory names (NC-SA-2019-009)</title>
+  <title>lookup-server: SQL Injection in lookup-server (NC-SA-2019-010)</title>
+  <description>Improper sanitation of user input allowed any unauthenticated user to perform SQL injection attacks.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-010&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-010</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-010</guid>
+  <pubDate>Fri, 26 Jul 2019 12:00:00 +0200</pubDate>
+ </item><item>
+  <title>Android App: Improper sanitization of HTML in directory names (NC-SA-2019-009)</title>
   <description>&lt;p&gt;Some basic HTML tags were rendered as Markup in directory names.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-009&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-009</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-009</guid>
   <pubDate>Fri, 26 Jul 2019 12:00:00 +0200</pubDate>
  </item><item>
-  <title>Mobile App: Bypass lock protection in Android app (NC-SA-2019-008)</title>
+  <title>Android App: Bypass lock protection in Android app (NC-SA-2019-008)</title>
   <description>&lt;p&gt;If an attacker has physical access to an Android smartphone without a screen lock, but with nextcloud installed and set up, they can circumvent the passcode protection by repeatedly opening and closing the app in a very short time.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-008&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-008</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-008</guid>
   <pubDate>Fri, 26 Jul 2019 12:00:00 +0200</pubDate>
  </item><item>
-  <title>Mobile App: Thumbnails of files leaked via Android content provider (NC-SA-2019-007)</title>
+  <title>Android App: Thumbnails of files leaked via Android content provider (NC-SA-2019-007)</title>
   <description>&lt;p&gt;If an attacker has physical access to an Android smartphone without a screen lock, but with nextcloud installed and set up, he can easily access the nextcloud-files even if the nextcloud app is locked with a fingerprint or pin.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-007</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-007</guid>
   <pubDate>Fri, 26 Jul 2019 12:00:00 +0200</pubDate>
  </item><item>
-  <title>Mobile App: Bypass lock protection in Android app (NC-SA-2019-006)</title>
+  <title>Android App: Bypass lock protection in Android app (NC-SA-2019-006)</title>
   <description>&lt;p&gt;If an attacker has physical access to an Android smartphone without a screen lock, but with nextcloud installed and set up, they can easily access the nextcloud-files even if the nextcloud app is locked with a fingerprint or pin.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-006&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-006</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-006</guid>
   <pubDate>Fri, 26 Jul 2019 12:00:00 +0200</pubDate>
  </item><item>
-  <title>Mobile App: SQL injection in Android app content provider (NC-SA-2019-005)</title>
+  <title>Android App: SQL injection in Android app content provider (NC-SA-2019-005)</title>
   <description>&lt;p&gt;The content provider of the app accepted arbitrary strings in the field list of the returned file list. This allowed an attacker to run harmful queries, destroying the local cache of the android app. The server data however was never in danger, so removing the account and setting it up again can fix all problems.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-005&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-005</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-005</guid>
   <pubDate>Fri, 26 Jul 2019 12:00:00 +0200</pubDate>
  </item><item>
-  <title>Mobile App: Bypass lock protection in Android app (NC-SA-2019-004)</title>
+  <title>Android App: Bypass lock protection in Android app (NC-SA-2019-004)</title>
   <description>&lt;p&gt;Creating a fake multi-account and aborting the process would redirect the user to the default account of the device without asking for the lock pattern if one was set up.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-004&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-004</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-004</guid>
@@ -65,7 +71,7 @@
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-001</guid>
   <pubDate>Fri, 12 Apr 2019 14:00:00 +0200</pubDate>
  </item><item>
-  <title>Mobile App: Improper check for access to application database (NC-SA-2018-015)</title>
+  <title>Android App: Improper check for access to application database (NC-SA-2018-015)</title>
   <description>&lt;p&gt;A too permissive check allowed an installed application that contained the Nextcloud client package name to obtain access to the database of the Nextcloud application. At time of disclosure there are no applications with in the Google Play Store that fullfill this requirement.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-015&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-015</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-015</guid>
