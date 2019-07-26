@@ -16,7 +16,7 @@
         <p><p>Not strictly enough sanitization allowed an attacker to get content information from protected tables when using custom queries.</p></p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Mobile &lt; <strong>3.6.1</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Android &lt; <strong>3.6.1</strong> (CVE assignment pending)</li>
 
         </ul>
         <h3>Action Taken</h3>

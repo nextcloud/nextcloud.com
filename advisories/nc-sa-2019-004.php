@@ -16,7 +16,7 @@
         <p><p>Creating a fake multi-account and aborting the process would redirect the user to the default account of the device without asking for the lock pattern if one was set up.</p></p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Mobile &lt; <strong>3.6.1</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Android &lt; <strong>3.6.1</strong> (CVE assignment pending)</li>
 
         </ul>
         <h3>Action Taken</h3>
