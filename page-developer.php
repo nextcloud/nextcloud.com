@@ -17,7 +17,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Extend Nextcloud');?></h1>
+				<h1><?php echo $l->t('Build for Nextcloud');?></h1>
 				<h2><?php echo $l->t('Write chat bots, workflows, external storage or new apps');?></p>
 			</div>
 			<!--<div class="col-md-6 topsidebar">
@@ -138,7 +138,8 @@
                 <div class="col-md-6">
                     <p class="section--paragraph__tittle"><?php echo $l->t('Connect to Nextcloud');?></p>
                     <p class="section--paragraph"><?php echo $l->t('Download, add, remove and edit files, sharing and commenting on files and more.');?></p>
-                    <a class="button button--small button--blue" href="https://docs.nextcloud.com/server/16/developer_manual/client_apis/index.html"><?php echo $l->t('Client APIs');?></a>
+                    <a class="button button--small button--blue" href="https://docs.nextcloud.com/server/16/developer_manual/client_apis/index.html
+"><?php echo $l->t('Client APIs');?></a>
                     <p class="section--paragraph"><?php echo $l->t('Create, edit and remove users.');?></p>
                     <a class="button button--blue button--small" href="https://docs.nextcloud.com/server/16/admin_manual/configuration_user/user_provisioning_api.html"><?php echo $l->t('User provisioning');?></a>
                 </div>
@@ -164,6 +165,24 @@
 </div>
 </section>
 
+<section class="section--feature">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-6 ">
+                <a href="https://apps.nextcloud.com/apps/ocr"><img class="img-responsive" src="https://raw.githubusercontent.com/janis91/ocr/master/screenshots/sc4.png" alt="in action"/></a>
+            </div>
+            <div class="col-md-6  feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Featured: Nextcloud OCR');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The app uses tesseract-js in the browser in order to process images (png, jpeg, tiff) and PDFs and saves the output file to the source folder in nextcloud. That for example enables you to search in it.');?></p>
+                <a href="https://apps.nextcloud.com/apps/ocr" class="button button--blue button--arrow button--large"><?php echo $l->t('See the app');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section--publish">
+
+
 <section class="section--contact quote">
 <div class="container">
     <div class="row">
@@ -177,8 +196,22 @@
 </div>
 </section>
 
-<section class="section--options">
-	<a name="pricing" id="pricing"></a>
+<section class="section--feature">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-6 ">
+                <a href="https://apps.nextcloud.com/apps/ocr"><img class="img-responsive" src="https://gitlab.com/eneiluj/cospend-nc/wikis/uploads/044d9700ac6f7e1f965df4336f09b4ef/payb1.png" alt="in action"/></a>
+            </div>
+            <div class="col-md-6  feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Featured: Cospend');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Nextcloud Cospend is a group/shared budget manager. It was inspired by the great IHateMoney.<br> You can use it when you share a house, when you go on vacation with friends, whenever you share money with others.');?></p>
+                <a href="https://nextcloud.com/blog/cospend-another-bit-in-the-nextcloud-ecosystem/" class="button button--blue button--arrow button--large"><?php echo $l->t('Read the blog');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section--why">
 <div class="container-widest">
 	<div class="row introduction">
         <div class="col-lg-6 col-lg-offset-3">
@@ -192,7 +225,7 @@
                     <div class="featureblock">
                         <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
                         <p class="section--paragraph__tittle"><?php echo $l->t('Size matters');?></p>
-                        <p class="section--paragraph"><?php echo $l->t('There are between 200.000 and 300.000 Nextcloud servers on the web. A big audience exists for functionality which extends the most popular self-hosted productivity platform. The most popular apps on our app store are installed on over 100.000 servers and have millions of users!');?></p>
+                        <p class="section--paragraph"><?php echo $l->t('There are between 200.000 and 300.000 Nextcloud servers on the web with tens of millions of users between them. A big audience exists for functionality which extends the most popular self-hosted productivity platform. The most downloaded apps on our app store are installed on over 100.000 servers and have millions of users!');?></p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -210,6 +243,51 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="section--feature">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-6 ">
+                <a href="https://apps.nextcloud.com/apps/ocr"><img class="img-responsive" src="https://nextcloud.com/media/DICOM-viewer.jpg" alt="in action"/></a>
+            </div>
+            <div class="col-md-6  feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Featured: Digital Imaging for Medicine');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The DICOM Viewer allows the user to display and manipulate DICOM images with a streamlined sidebar and viewer, all without leaving Nextcloud. The sidebar parses DICOM files and displays all DICOM attributes, such as Patient ID, Patient Name, and Study Date/Time, in a convenient details panel. A critical search feature on the sidebar enables the user to quickly search for specific DICOM attributes.');?></p>
+                <a href="https://nextcloud.com/blog/digital-imaging-for-medicine-in-nextcloud/" class="button button--blue button--arrow button--large"><?php echo $l->t('Read the blog');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section--events">
+<div class="container-fluid quote">
+    <div class="container-widest">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <p class="section--heading-1 section--text--center">Events</p>
+                <p class="section--paragraph">Nextcloud attends and organizes events where you can learn more about building apps and integrations!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <a href="<?php echo home_url('conf') ?>"><img class="img-responsive eventcard" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/ncconfflyer2019.png"></a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://nextcloud.com/search/contributor+week"><img class="img-responsive eventcard" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/generic_contributor_week.png"></a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://fosdem.org"><img class="img-responsive eventcard" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/fosdem.png"></a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://nextcloud.com/blog/all-app-developers-put-your-hands-up-best-nextcloud-app-contest/"><img class="img-responsive eventcard" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/appcontest.png"></a>
+            </div>
+        </div>
+        <div class="text-center">
+            <a class="button button--large button--arrow" href="<?php echo home_url('events') ?>">More events</a>
         </div>
     </div>
 </div>
