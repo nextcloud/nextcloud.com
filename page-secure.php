@@ -184,8 +184,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                <p class="text-center"><?php echo $l->t('Regain control over data and communication with the leading content collaboration platform.');?></p>
-                <p class="text-center"><?php echo $l->t('Contact us now to learn how we can help you!');?></p>
+                <h2 class="text-center"><?php echo $l->t('Regain control');?></h2>
+                <p class="text-center"><?php echo $l->t('Protect your data and communication with the leading content collaboration platform. Contact us now to learn how we can help you!');?></p>
                 <div class="text-center morebuttondiv">
                     <a href="<?php echo home_url('buy') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
                 </div>
@@ -321,8 +321,8 @@
                     <li><?php echo $l->t('Security hardenings like brute-force detection, CSP and SCC');?></li>
                     <li><?php echo $l->t('Machine learning based suspicious login detection');?></li>
                     <li><?php echo $l->t('Automated security checks and warnings');?></li>
-                </li>
-                <a href="<?php echo home_url('usermanagement') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Advanced security features');?></a>
+                </ul>
+                <a href="<?php echo home_url('encryption') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Advanced security features');?></a>
             </div>
         </div>
     </div>
@@ -538,7 +538,8 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="feature notitle">
+            <div class="feature">
+                <img height="70px" class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/hacker-one-logo.png">
                 <p class="section--paragraph"><?php echo $l->t('Anyone reporting a security vulnerability in Nextcloud can earn up to $5000, making ours some of the highest security bug bounties in the open source industry. For more details, <a class="hyperlink" href="https://nextcloud.com/blog/introducing-the-nextcloud-bug-bounty-program/">see our announcement</a>, our <a class="hyperlink" href="https://nextcloud.com/blog/updates-about-the-nextcloud-bug-bounty-program/">update in 2017</a> and the <a class="hyperlink" href="https://www.hackerone.com/resources/nextcloud-puts-hacker-powered-security-front-and-center">HackerOne whitepaper in 2018</a>');?></p>
                 <blockquote>Nextcloud’s lightning fast response times are impressive and make them a model for how to build an efficient bug bounty triage and response process.</blockquote>
                 <p class="quote-by">-- Michiel Prins, co-founder HackerOne.</p>
