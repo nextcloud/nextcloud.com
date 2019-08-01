@@ -16,7 +16,7 @@
 <section class="content">
 <div class="container">
 <p><address>Nextcloud GmbH<br/>
-Hauptmansreute 44a<br/>
+Hauptmannsreute 44a<br/>
 70192 Stuttgart Germany<br/></address>
 HRB 227086 (AG München)<br/>
 T +49 711 25 24 28 90<br/>
