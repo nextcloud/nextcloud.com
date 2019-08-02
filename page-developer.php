@@ -17,7 +17,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Build for Nextcloud');?></h1>
+				<h1><?php echo $l->t('Develop for Nextcloud');?></h1>
 				<h2><?php echo $l->t('Write chat bots, workflows, external storage or new apps');?></p>
 			</div>
 			<!--<div class="col-md-6 topsidebar">
