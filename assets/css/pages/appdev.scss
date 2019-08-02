@@ -46,7 +46,15 @@ section {
     }
 }
 
+.section--getinvolved {
+    background-color: #eee;
+    .button.button--small {
+        margin: 0 0 10px 0;
+    }
+}
+
 .section--events {
+    padding: 0px;
 	.eventcard {
 		padding: 10px;
 	}
