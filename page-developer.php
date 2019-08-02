@@ -215,9 +215,6 @@
     </div>
 </section>
 
-<section class="section--publish">
-
-
 <section class="section--contact quote">
 <div class="container">
     <div class="row">
