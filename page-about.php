@@ -26,8 +26,8 @@ require(["require.config"], function() {
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud offers industry-leading on-premises file sync and online collaboration technology. Our expertise is in combining the convenience and ease of use of consumer-grade solutions like Dropbox and Google Drive with the security, privacy and control business needs.');?></p>
-                <p class="section--paragraph text-center"><?php echo $l->t('Our self-hosted solutions ensure you know where data is, who has access, and that even meta-data does not leak.');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud offers the industry-leading, on-premises content collaboration platform.');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Our technology combines the convenience and ease of use of consumer-grade solutions like Dropbox and Google Drive with the security, privacy and control business needs.');?></p>
 
             </div>
         </div>
@@ -49,7 +49,8 @@ require(["require.config"], function() {
     <div class="row">
         <h2><?php echo $l->t('Our key differentiators');?></h2>
         <p class="section--paragraph__tittle"><?php echo $l->t('Putting IT back in control');?></p>
-        <p class="section--paragraph"><?php echo $l->t('As a vendor of on-premises solutions, Nextcloud puts the customer in control over their data in the most literal and direct sense. Building on that, our products integrate powerful capabilities to control and monitor data exchange and communication, including our unique File Access Control and workflow features, extensive audit logs, fine-grained sharing controls and more.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('As a vendor of on-premises solutions, Nextcloud puts the customer in control over their data in the most literal and direct sense. Your data is in your data center, on a server managed by you, rather than floating somewhere in the cloud.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('Our products integrate powerful capabilities to control and monitor data exchange and communication, including our unique File Access Control and workflow features, extensive audit logs, fine-grained sharing controls and more.');?></p>
          <p class="section--paragraph__tittle"><?php echo $l->t('Security first');?></p>
         <p class="section--paragraph"><?php echo $l->t('Security is Nextcloud customers\' greatest concerns and our prime advantage over competitors. Nextcloud features a host of unique, innovative security technologies from brute force protection to advanced server side and integrated end-to-end, client side encryption with enterprise-grade key handling and a wide range of security hardenings. Our security has been reviewed by trusted third parties and is backed by a USD 5000 Security Bug Bounty Program, providing the confidence that data meant to stay private will stay private.');?></p>
 
@@ -59,11 +60,48 @@ require(["require.config"], function() {
 		<p class="section--paragraph"><?php echo $l->t('By working in the open within and with the wider developer- and user community, development is sped up, quality improved and alignment with needs of users improved.');?></p>
 		<p class="section--paragraph"><?php echo $l->t('Our unique approach to support gives customers what <strong>no other vendor can offer</strong>: direct access to core Nextcloud engineering expertise without a layer of support people between the customer and the knowledge they need.');?>  <a class="hyperlink" href="https://opensource.com/article/18/8/mixing-roles-engineering" target="_blank"><?php echo $l->t('Learn more on opensource.com.');?></a></p>
 		<p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('See our enterprise page</a> for more information about our Enterprise Support Subscriptions.');?></p>
-
         <h2><?php echo $l->t('Our company');?></h2>
-		<p class="section--paragraph"><?php echo $l->t('Nextcloud was started by ownCloud inventor <a class="hyperlink" href="https://karlitschek.de">Frank Karlitschek</a> and a dozen experienced open source entrepreneurs and engineers to empower users to take back control over their data and communication. We envisioned our company to develop the next generation open source Enterprise File Sync and Share and have been relentlessly pursuing that vision, raising the bar for self-hosted solutions.');?></p>
+		<h3><?php echo $l->t('Our mission:');?></h3>
+		<p class="section--paragraph"><strong><?php echo $l->t('We develop software for decentralized and federated clouds as alternative to centralized cloud services.');?></strong></p>
+        <h3><?php echo $l->t('Our principles:');?></h3>
+        <p class="section--paragraph">
+            <ul>
+                <li><strong><?php echo $l->t('Sustainability');?></strong><br />
+                <?php echo $l->t('We build a sustainable company, aiming for long term stability, not a short term sale.');?>
+                </li>
+                <li><strong><?php echo $l->t('Privacy and security');?></strong><br />
+                <?php echo $l->t('We believe that privacy is a fundamental human right. Everyone has the right of a secure communication. It’s the main motivation behind all our products.');?>
+                </li>
+                <li><strong><?php echo $l->t('User-centered design');?></strong><br />
+                <?php echo $l->t('We honor people’s time and mental load. That is why we make Nextcloud easy to use.');?>
+                </li>
+                <li><strong><?php echo $l->t('Trust');?></strong><br />
+                <?php echo $l->t('We trust each other to have shared goals and make decisions based on it. This enables remote and flexible work and decentralized, collaborative decision making over most things.');?>
+                </li>
+                <li><strong><?php echo $l->t('Open source');?></strong><br />
+                <?php echo $l->t('Everything we do is 100% open source. We do not do open core or proprietary extensions.');?>
+                </li>
+                <li><strong><?php echo $l->t('Open standards');?></strong><br />
+                <?php echo $l->t('We use and support open standards as much as possible. We don’t lock people in to proprietary formats. You can import and export everything.');?>
+                </li>
+                <li><strong><?php echo $l->t('Decentralisation');?></strong><br />
+                <?php echo $l->t('We are building decentralized products as alternative to centralized platforms. People can choose what they want and where they want it.');?>
+                </li>
+                <li><strong><?php echo $l->t('Community');?></strong><br />
+                <?php echo $l->t('Working in the open with a broad community leads to better results. We trust our community and empower them to take ownership over what they contribute to and have as much access to and control over it as legally and practically possible.');?>
+                </li>
+                <li><strong><?php echo $l->t('Inclusion and diversity');?></strong><br />
+                <?php echo $l->t('Diverse teams and communities make us better and more innovative. We support people marginalized in open source to get involved and thrive.');?>
+                </li>
+                <li><strong><?php echo $l->t('Accessibility');?></strong><br />
+                <?php echo $l->t('Accessibility is a fundamental human right and technology should be accessible to everyone.');?>
+                </li>
 
-		<p class="section--paragraph"><?php echo $l->t('The company was launched in 2016 as a spin-off from <a class="hyperlink" href="https://struktur.de" target="_blank">Struktur AG</a>, a leading web conferencing and financial planning software company since 1995, servicing customers like Deutsche Bank, Vodafone, BNP Paribas and many others. ');?></p>
+            </ul>
+        </p>
+
+        <h3><?php echo $l->t('History');?></h3>
+		<p class="section--paragraph"><?php echo $l->t('Nextcloud was started by <a class="hyperlink" href="https://karlitschek.de">Frank Karlitschek</a> and a dozen experienced open source entrepreneurs and engineers to empower users to take back control over their data and communication. We envisioned our company to develop the next generation open source Enterprise File Sync and Share and have been relentlessly pursuing that vision, raising the bar for self-hosted solutions.');?></p>
 
 		<p class="section--paragraph"><?php echo $l->t('Fully employee-funded and pursuing an organic-growth strategy, Nextcloud already turned profitable by the end of 2016 and had nearly tripled to 35 employees by the end of 2017. See our full ');?><a class="hyperlink" href="<?php echo home_url('team') ?>"><?php echo $l->t('team here.');?></a> </p>
 
