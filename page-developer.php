@@ -116,18 +116,18 @@
 		</div>
         <div class="col-md-6">
             <div class="row">
-                <div class="col-md-6">
-                    <a href="https://apps.nextcloud.com"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/appstore.png" class="img-responsive featureimg" /></a>
+                <div class="col-md-6 image--feature new-img">
+                    <a href="https://apps.nextcloud.com"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/appstore_nw.png" class="img-responsive featureimg" /></a>
                 </div>
                 <div class="col-md-6">
                     <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud apps');?></p>
-                    <p class="section--paragraph"><?php echo $l->t('Get started with building a Nextcloud App.');?></p>
-                    <a class="button button--small button--white" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/general/devenv.html"><?php echo $l->t('Developer setup');?></a><br />
+                    <p class="section--paragraph"><?php echo $l->t('Nextcloud apps can add entirely new functionality or modify and add features to existing apps.');?></p>
+<!--                    <a class="button button--small button--white" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/general/devenv.html"><?php echo $l->t('Developer setup');?></a><br />-->
                     <a class="button button--small button--white" href="https://apps.nextcloud.com/developer/apps/generate"><?php echo $l->t('App skeleton generator');?></a><br />
                     <a class="button button--small button--white" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app/index.html"><?php echo $l->t('App Developer intro');?></a><br />
                     <a class="button button--white button--small" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/api.html"><?php echo $l->t('API documentation');?></a><br />
                     <a class="button button--white button--small" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app/publishing.html"><?php echo $l->t('Publishing apps');?></a><br />
-                    <a class="button button--white button--small" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/design/index.html"><?php echo $l->t('App design guidelines');?></a>
+<!--                    <a class="button button--white button--small" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/design/index.html"><?php echo $l->t('App design guidelines');?></a>-->
                 </div>
             </div>
 		</div>
@@ -207,7 +207,7 @@
                 <a href="https://apps.nextcloud.com/apps/ocr"><img class="img-responsive" src="https://raw.githubusercontent.com/janis91/ocr/master/screenshots/sc4.png" alt="in action"/></a>
             </div>
             <div class="col-md-6  feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Featured: Nextcloud OCR');?></p>
+                <p class="section--paragraph__tittle"><?php echo $l->t('Featured community app: Nextcloud OCR');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The app uses tesseract-js in the browser in order to process images (png, jpeg, tiff) and PDFs and saves the output file to the source folder in nextcloud. That for example enables you to search in it.');?></p>
                 <a href="https://apps.nextcloud.com/apps/ocr" class="button button--blue button--arrow button--large"><?php echo $l->t('See the OCR app');?></a>
             </div>
@@ -235,7 +235,7 @@
                 <a href="https://apps.nextcloud.com/apps/ocr"><img class="img-responsive" src="https://gitlab.com/eneiluj/cospend-nc/wikis/uploads/044d9700ac6f7e1f965df4336f09b4ef/payb1.png" alt="in action"/></a>
             </div>
             <div class="col-md-6  feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Featured: Cospend');?></p>
+                <p class="section--paragraph__tittle"><?php echo $l->t('Featured community app: Cospend');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud Cospend is a group/shared budget manager. It was inspired by the great IHateMoney.<br> You can use it when you share a house, when you go on vacation with friends, whenever you share money with others.');?></p>
                 <a href="https://nextcloud.com/blog/cospend-another-bit-in-the-nextcloud-ecosystem/" class="button button--blue button--arrow button--large"><?php echo $l->t('Read about Cospend');?></a>
             </div>
@@ -287,7 +287,7 @@
                 <a href="https://apps.nextcloud.com/apps/ocr"><img class="img-responsive" src="https://nextcloud.com/media/DICOM-viewer.jpg" alt="in action"/></a>
             </div>
             <div class="col-md-6  feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Featured: Digital Imaging for Medicine');?></p>
+                <p class="section--paragraph__tittle"><?php echo $l->t('Featured community app: Digital Imaging for Medicine');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The DICOM Viewer allows the user to display and manipulate DICOM images with a streamlined sidebar and viewer, all without leaving Nextcloud. The sidebar parses DICOM files and displays all DICOM attributes, such as Patient ID, Patient Name, and Study Date/Time, in a convenient details panel. A critical search feature on the sidebar enables the user to quickly search for specific DICOM attributes.');?></p>
                 <a href="https://nextcloud.com/blog/digital-imaging-for-medicine-in-nextcloud/" class="button button--blue button--arrow button--large"><?php echo $l->t('Read about the DICOM viewer');?></a>
             </div>
