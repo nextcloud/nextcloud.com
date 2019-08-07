@@ -205,10 +205,11 @@ section {
   section .row {
     padding-top: 40px; }
 
-.section--documentation .button.button--small {
-  margin: 0 0 10px 0; }
+.section--documentation {
+  padding-bottom: 170px; }
 
 .section--getinvolved {
+  padding-top: 10px;
   background-color: #eee; }
   .section--getinvolved .button.button--small {
     margin: 0 0 10px 0; }

@@ -18,7 +18,7 @@
 		<div class="row">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Develop for Nextcloud');?></h1>
-				<h2><?php echo $l->t('Write chat bots, workflows, external storage or new apps');?></p>
+				<h2><?php echo $l->t('<span class="avoidwrap">Write new applications</span>, <span class="avoidwrap">extend Nextcloud</span> <span class="avoidwrap">or integrate other software</span>');?></p>
 			</div>
 			<!--<div class="col-md-6 topsidebar">
                 <div class="sidebarlist">
@@ -100,34 +100,41 @@
 <section class="section--documentation">
 <div class="container-widest">
    	<div class="row">
-		<div class="col-md-6">
-			<div class="row">
-                <div class="col-md-6 image--feature new-img">
-                    <a href="<?php echo home_url('talk') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png" class="img-responsive featureimg" /></a>
-                </div>
-                <div class="col-md-6">
-                    <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Talk');?></p>
-                    <p class="section--paragraph"><?php echo $l->t('Write a Nextcloud Talk command.');?></p>
-                    <a class="button button--small button--white" href="https://nextcloud-talk.readthedocs.io/en/latest/commands/"><?php echo $l->t('Commands documentation');?></a>
-                    <p class="section--paragraph"><?php echo $l->t('Interact with Nextcloud Talk through a REST API.');?></p>
-                    <a class="button button--white button--small" href="https://nextcloud-talk.readthedocs.io/en/latest/"><?php echo $l->t('API documentation');?></a>
-                </div>
-            </div>
-		</div>
         <div class="col-md-6">
             <div class="row">
                 <div class="col-md-6 image--feature new-img">
                     <a href="https://apps.nextcloud.com"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/appstore_nw.png" class="img-responsive featureimg" /></a>
                 </div>
                 <div class="col-md-6">
-                    <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud apps');?></p>
-                    <p class="section--paragraph"><?php echo $l->t('Nextcloud apps can add entirely new functionality or modify and add features to existing apps.');?></p>
-<!--                    <a class="button button--small button--white" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/general/devenv.html"><?php echo $l->t('Developer setup');?></a><br />-->
-                    <a class="button button--small button--white" href="https://apps.nextcloud.com/developer/apps/generate"><?php echo $l->t('App skeleton generator');?></a><br />
-                    <a class="button button--small button--white" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app/index.html"><?php echo $l->t('App Developer intro');?></a><br />
-                    <a class="button button--white button--small" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/api.html"><?php echo $l->t('API documentation');?></a><br />
-                    <a class="button button--white button--small" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app/publishing.html"><?php echo $l->t('Publishing apps');?></a><br />
-<!--                    <a class="button button--white button--small" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/design/index.html"><?php echo $l->t('App design guidelines');?></a>-->
+                    <p class="section--paragraph__tittle"><?php echo $l->t('Build a new application');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('Write new applications on top of the Nextcloud platform.');?></p>
+                    <ul>
+                        <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/general/devenv.html"><?php echo $l->t('Developer setup');?></a></li>
+                        <li><a class="hyperlink" href="https://apps.nextcloud.com/developer/apps/generate"><?php echo $l->t('App skeleton generator');?></a></li>
+                        <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app/index.html"><?php echo $l->t('App Developer intro');?></a></li>
+                        <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/api.html"><?php echo $l->t('API documentation');?></a></li>
+                        <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/design/index.html"><?php echo $l->t('App design guidelines');?></a></li>
+                        <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app/publishing.html"><?php echo $l->t('Publishing apps');?></a></li>
+                    </ul>
+                </div>
+            </div>
+		</div>
+		<div class="col-md-6">
+			<div class="row">
+                <div class="col-md-6 image--feature new-img">
+                    <a href="<?php echo home_url('talk') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png" class="img-responsive featureimg" /></a>
+                </div>
+                <div class="col-md-6">
+                    <p class="section--paragraph__tittle"><?php echo $l->t('Extend Nextcloud');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('Write a Nextcloud app to improve or change Nextcloud functionality.');?></p>
+                    <ul>
+                        <li><a class="hyperlink" href="https://github.com/nextcloud/dashboard/blob/master/README.md"><?php echo $l->t('Write a dashboard plugin');?></a></li>
+                        <!--<li><a class="hyperlink" href="tbd"><?php echo $l->t('Interact with Workflows');?></a></li>
+                        <li><a class="hyperlink" href="TBD"><?php echo $l->t('Manage guest app accounts');?></a></li>-->
+                        <li><a class="hyperlink" href="https://docs.nextcloud.com/server/15/developer_manual/core/theming.html"><?php echo $l->t('Write a theme to change the look and feel of Nextcloud');?></a></li>
+                        <li><a class="hyperlink" href="https://nextcloud-talk.readthedocs.io/en/latest/commands/"><?php echo $l->t('Write a Nextcloud Talk Command');?></a>
+                        <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>//app/two-factor-provider.html"><?php echo $l->t('Write a new 2factor authentication plugin');?></a>
+                    </ul>
                 </div>
             </div>
 		</div>
@@ -140,10 +147,14 @@
                 </div>
                 <div class="col-md-6">
                     <p class="section--paragraph__tittle"><?php echo $l->t('Connect to Nextcloud');?></p>
-                    <p class="section--paragraph"><?php echo $l->t('Download, add, remove and edit files, sharing and commenting on files and more.');?></p>
-                    <a class="button button--small button--white" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/client_apis/index.html"><?php echo $l->t('Client APIs');?></a>
-                    <p class="section--paragraph"><?php echo $l->t('Create, edit and remove users.');?></p>
-                    <a class="button button--white button--small" href="https://docs.nextcloud.com/server/16/admin_manual/configuration_user/user_provisioning_api.html"><?php echo $l->t('User provisioning');?></a>
+                    <p class="section--paragraph"><?php echo $l->t('Integrate an existing software into Nextcloud.');?></p>
+                    <ul>
+                        <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>client_apis/LoginFlow/index.html"><?php echo $l->t('Login Flow');?></a></li>
+                        <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/client_apis/index.html"><?php echo $l->t('Client APIs');?></a></li>
+                        <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>/configuration_user/user_provisioning_api.html"><?php echo $l->t('User provisioning via REST');?></a></li>
+                        <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app/users.html"><?php echo $l->t('Write a new user-management backend');?></a></li>
+                        <li><a class="hyperlink" href="https://nextcloud-talk.readthedocs.io/en/latest/"><?php echo $l->t('Nextcloud Talk REST API');?></a></li>
+                    </ul>
                 </div>
             </div>
 		</div>
@@ -153,11 +164,12 @@
                     <a href="<?php echo home_url('workflow') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/Workflow_-_create_tag_for_PDF_conversion.png" class="img-responsive featureimg" /></a>
                 </div>
                 <div class="col-md-6">
-                    <p class="section--paragraph__tittle"><?php echo $l->t('Other Nextcloud capabilities');?></p>
-                    <a class="button button--white button--small" href="https://github.com/nextcloud/dashboard/blob/master/README.md"><?php echo $l->t('Write a dashboard plugin');?></a><br/>
-                    <a class="button button--small button--white" href="tbd"><?php echo $l->t('Interact with Workflows');?></a><br/>
-                    <a class="button button--white button--small" href="TBD"><?php echo $l->t('Interact with external storage');?></a><br/>
-                    <a class="button button--white button--small" href="TBD"><?php echo $l->t('Manage guest app accounts');?></a>
+                    <p class="section--paragraph__tittle"><?php echo $l->t('Write new clients');?></p>
+                    <ul>
+                        <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>client_apis/LoginFlow/index.html"><?php echo $l->t('Login Flow');?></a></li>
+                        <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/client_apis/index.html"><?php echo $l->t('Client APIs');?></a></li>
+                        <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>android_library/index.html#nextcloud-android-library"><?php echo $l->t('Access Nextcloud through our Android library');?></a></li>
+                    </ul>
                 </div>
             </div>
 		</div>
@@ -170,31 +182,10 @@
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
             <h2 class="text-center"><?php echo $l->t('Get involved');?></h2>
-            <p class="section--paragraph"><em><?php echo $l->t('open source empowers you.');?></em> <?php echo $l->t('Where a software-as-a-service might allow you to tweak and build connectors, with Nextcloud you can go all the way and enhance the server itself or apps from other authors with new API\'s and core functionality.');?></p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            <a href="<?php echo home_url('files') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/conference/grouppic2017-small.jpg" class="img-responsive" /></a>
-        </div>
-        <div class="col-md-6">
-            <p class="section--paragraph"><?php echo $l->t('Contribute to Nextcloud server or apps: learn about setting up a development environment or read our security guidelines, coding style guildelines and more');?></p>
-            <a class="button button--small button--white" href="<?php echo home_url('code-of-conduct') ?>"><?php echo $l->t('Code of Conduct');?></a><br/>
-            <a class="button button--small button--white" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/general/devenv.html"><?php echo $l->t('Developer environment');?></a><br/>
-            <a class="button button--small button--white" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/general/security.html"><?php echo $l->t('Security guidelines');?></a><br/>
-            <a class="button button--small button--white" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/general/codingguidelines.html"><?php echo $l->t('Coding guidelines');?></a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6 image--floated">
-            <a href="<?php echo home_url('files') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/events/booth.jpg" class="img-responsive" /></a>
-        </div>
-        <div class="col-md-6">
-            <p class="section--paragraph"><?php echo $l->t('The "good first issue" tag in github makes it easier to get started. You can find them in most repositories, below a direct link for the server.');?></p>
-            <a class="button button--small button--white" href="https://github.com/nextcloud/server/labels/good%20first%20issue"><?php echo $l->t('Good first issues in the Server');?></a><br />
-            <a class="button button--small button--white" href="https://github.com/nextcloud"><?php echo $l->t('Our other repositories');?></a><br/>
-            <p class="section--paragraph"><?php echo $l->t('Contribute in other ways, like testing, promotion, helping out at conferences and more.');?></p>
-            <a class="button button--white button--small" href="<?php echo home_url('contribute') ?>"><?php echo $l->t('Contribute to Nextcloud in other ways');?></a>
+            <p class="section--paragraph"><em><?php echo $l->t('Open Source empowers you.');?></em> <?php echo $l->t('Where a software-as-a-service might allow you to tweak and build connectors, with Nextcloud you can go all the way and enhance the server itself or apps from other authors with new API\'s and core functionality.');?></p>
+            <div class="text-center">
+                <a class="button button--blue button--large button--arrow" href="<?php echo home_url('contribute') ?>"><?php echo $l->t('Contribute to Nextcloud');?></a>
+            </div>
         </div>
     </div>
 </div>
@@ -274,6 +265,9 @@
                         <p class="section--paragraph"><?php echo $l->t('If you build an app, script, extension or tool as a business endeavor, we will be happy to support your effort. We love our ecosystem and want you to benefit of it! Perhaps we can commercialize it together, with us reselling your product or feature to our customers.');?></p>
                     </div>
                 </div>
+            </div>
+            <div class="text-center">
+                <a class="button button--blue button--large button--arrow" href="<?php echo home_url('contribute') ?>"><?php echo $l->t('Contact us to learn more');?></a>
             </div>
         </div>
     </div>
