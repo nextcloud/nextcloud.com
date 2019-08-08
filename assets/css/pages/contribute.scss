@@ -18,7 +18,9 @@ footer.page-footer {
 .section--contribute {
 	padding-top: 30px;
 /* 	display: inline-block; */
-
+    .row {
+        padding-top: 50px;
+    }
 	.section--heading-1 {
 		padding: 80px 0 30px 0;
 	}
@@ -32,6 +34,9 @@ footer.page-footer {
 			text-align: left !important;
 		}
 	}
+	img {
+        padding: 15px;
+    }
 }
 
 .calltoaction {
