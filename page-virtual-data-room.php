@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/virtualdatarooms.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/virtualdatarooms.css?v=1" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/broken.jpg">
@@ -10,8 +10,8 @@
 <div class="background vdr-background">
 	<div class="container">
 		<div class="col-md-6 topheader">
-			<h1>Virtual Data Rooms</h1>
-			<h2><?php echo $l->t('Share sensitive files securely');?></h2>
+			<h1><?php echo $l->t('Virtual Data Rooms');?></h1>
+			<h2><?php echo $l->t('Keep your data close');?></h2>
 		</div>
 	</div>
 </div>
@@ -19,19 +19,18 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<p class="section--paragraph text-center"><?php echo $l->t('M&A transactions, loan syndication, private equity and venture capital transactions require the utmost confidentiality. Nextcloud VDR offers the ease of use that speeds up deal making while strict control over access and fine grained auditing ensure sensitive data remains secure.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('M&A transactions, loan syndication, private equity and venture capital transactions require the utmost confidentiality. And all that without any data leaving your organization.');?></p>
+
+			<p class="section--paragraph text-center"><?php echo $l->t('Forget about SAAS and outsourcing: an on-premises Nextcloud VDR offers the ease of use that speeds up deal making while strict control over access and fine grained auditing ensure sensitive data remains secure.');?></p>
 			<br>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<blockquote><?php echo $l->t('Virtual Data Rooms have revolutionized transaction processes with 24/7 global access and reduced risks. Nextcloud offers a controlled environment where confidentiality can be preserved, while work gets done.');?></blockquote>
+			<blockquote><?php echo $l->t('Virtual Data Rooms have revolutionized transaction processes with 24/7 global access and reduced risks, but sending data off-premises reduces control. Nextcloud offers a controlled environment where confidentiality can be preserved, while work gets done as efficient as with familiar consumer technology.');?></blockquote>
 		</div>
 	</div>
 </section>
-
-
-
 
 <section class="section--benefits">
 <div class="container-fluid quote">
@@ -39,23 +38,24 @@
         <h2 class="text-center"><?php echo $l->t('Key benefits');?></h2>
         <div class="row">
             <div class="col-md-4">
-                <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
-                <p class="section--paragraph__tittle text-center"><?php echo $l->t('A complete platform');?></p>
-                <p class="section--paragraph text-center"><?php echo $l->t('An easy, familiar user interface means efficient work. Nextcloud offers built in communication and collaboration technology, negating the need for multiple solutions.');?></p>
-            </div>
-            <div class="col-md-4">
-                <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
-                <p class="section--paragraph__tittle text-center"><?php echo $l->t('Military-grade security');?></p>
-                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud offers industry-first, unique solutions like Video Verification, machine-learning-driven suspicious login detection, extensive multi-factor authentication solutions and more.');?></p>
-            </div>
-            <div class="col-md-4">
                 <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/tools.svg" /></div>
                 <p class="section--paragraph__tittle text-center"><?php echo $l->t('Under your control');?></p>
                 <p class="section--paragraph text-center"><?php echo $l->t('Do not resort to outsourcing. Rather than hosting your sensitive company data with a third party, keep it 100% on premises while offering the highly secure access and communication facilities required by a partner or prospect.');?></p>
             </div>
+            <div class="col-md-4">
+                <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
+                <p class="section--paragraph__tittle text-center"><?php echo $l->t('A complete platform');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('An easy, familiar user interface means efficient work. Nextcloud is unique by offering the most extensive built in communication and collaboration technology in the industry, negating the complexity of running and connecting multiple separate solutions.');?></p>
+            </div>
+            <div class="col-md-4">
+                <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
+                <p class="section--paragraph__tittle text-center"><?php echo $l->t('Military-grade security');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud offers industry-first, unique solutions like Video Verification, machine-learning-driven suspicious login detection, extensive multi-factor authentication solutions and more. Extensive logging and monitoring show users, administrators and auditors the exact flow of data and who had access at what time.');?></p>
+            </div>
         </div>
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
+                <p class="text-center"><?php echo $l->t('Ensure fast, secure, high-value dealmaking and transactions with the content collaboration platform from the market leader.');?></p>
                 <p class="text-center"><?php echo $l->t('Contact us to learn how we can help you.');?></p>
 				<div class="text-center morebuttondiv">
 					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
@@ -81,10 +81,23 @@
 </div>
 </section>
 
+<section class="section--benefits">
+<div class="container-fluid quote">
+    <div class="container">
+        <h2 class="text-center"><?php echo $l->t('24/7 support');?></h2>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <p class="section--paragraph"><?php echo $l->t('Where competitors rely on a \'support team\' walling you off from the engineering knowledge you need, Nextcloud providers direct access to the real experts.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('After all, you need to get work done and can\'t afford first having to go through the "did you try to turn it off and on again" conversation before you get taken serious.');?></p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 <section>
 <div class="container">
 	<div class="row">
-        <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud VDR offers:');?></p>
+        <p class="section--paragraph__tittle"><?php echo $l->t('As leading content collaboration platform, Nextcloud has been designed for security and ease of use.');?><br/> <?php echo $l->t('A Nextcloud VDR offers:');?></p>
         <div class="col-md-6">
             <ul>
                 <li><?php echo $l->t('Activity tracking and audit log, real-time reporting');?></li>
@@ -97,20 +110,22 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <li><?php echo $l->t('Extensive security capabilites like:');?></li>
             <ul>
-                <li><?php echo $l->t('Multi-layer, military-grade encryption');?></li>
-                <li><?php echo $l->t('Advanced digital rights management');?></li>
-                <li><?php echo $l->t('multi-factor authentication');?></li>
-                <li><?php echo $l->t('Video Verification to ensure identity proof');?></li>
-                <li><?php echo $l->t('Extensive file access control mechanisms');?></li>
-                <li><?php echo $l->t('Watermarking of files');?></li>
+                <li><?php echo $l->t('Extensive security capabilites including:');?>
+                <ul>
+                    <li><?php echo $l->t('Multi-layer, military-grade encryption');?></li>
+                    <li><?php echo $l->t('Advanced digital rights management');?></li>
+                    <li><?php echo $l->t('multi-factor authentication');?></li>
+                    <li><?php echo $l->t('Video Verification to ensure identity proof');?></li>
+                    <li><?php echo $l->t('Extensive file access control mechanisms');?></li>
+                    <li><?php echo $l->t('Watermarking of files');?></li>
+                </ul></li>
             </ul>
         </div>
     </div>
     <div class="row">
         <div class="col-md-6">
-            <p class="section--paragraph"><?php echo $l->t('Require any customizations? Our Professional Services are at your disposal!');?> <a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('Let us know what you need.');?></a></p>
+            <p class="section--paragraph"><?php echo $l->t('Need your own virtual data room? Our professional services are at your disposal!');?> <a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('Let us know what you need.');?></a></p>
         </div>
 	</div>
 </div>
@@ -151,7 +166,11 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h2>Designed for the real world</h2>
+            <h2><?php echo $l->t('Real-world-tested');?></h2>
+            <p class="section--paragraph"><?php echo $l->t('Unlike most competitors, Nextcloud has been battle-hardened by extensive usage in a wide variety of scenarios. From an intuitive interface, crucial to keep support requests down at large universities, to extensive security features required in the financial sector, Nextcloud has been tuned to deliver what is needed to work efficiently.');?></p>
+
+            <p class="section--paragraph"><?php echo $l->t('Equally important, each of its capabilities can be tuned and, if needed, disabled, ensuring a minimum attack surface and less opportunities for costly mistakes.');?></p>
+
             <p class="section--paragraph"><?php echo $l->t('Users can access data on a FTP drive shared with another company, fully subject to the strict control by IT; while data stored on an external object storage could be encrypted using server-side encryption so the storage provider has no way to compromise their security.');?></p>
 
             <p class="section--paragraph"><?php echo $l->t('Meanwhile, files from a specific team can be enforced to be end-to-end encrypted on their clients, protecting their files from even the worst case of a full server breach.');?></p>

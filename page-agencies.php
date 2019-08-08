@@ -51,12 +51,48 @@ require(["require.config"], function() {
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
 		<h2 class="section--heading-1 text-center"><?php echo $l->t('Sharing big files');?></h2>
-            <p class="section--paragraph text-center"><?php echo $l->t('Media and advertisement companies work with large media files such as images, layouts and raw video footage. They need to be able to easily and quickly share them with colleagues, partners and clients.<br>
-            Nextcloud makes uploading and downloading large files via the browser, mobile devices or synced to desktops easy as pie and fast as lightning and works very well with your preferred creative tools such as Adobe InDesign, Lightroom, Illustrator, Photoshop and Premiere.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Media and advertisement companies work with large media files such as images, layouts and raw video footage. You need to be able to easily and quickly share them with colleagues, partners and clients.<br>
+            Nextcloud is the perfect solution.');?></p>
 		</div>
 	</div>
 </div>
 </section>
+
+<section class="section--overview">
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 revealOnScroll">
+			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/mobile.svg" /></div>
+			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Easy access anywhere');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Uploading and downloading large files via the browser, mobile devices or synced to desktops easy as pie and fast as lightning.');?></p>
+		</div>
+		<div class="col-md-4 revealOnScroll">
+			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/permissions.svg" /></div>
+			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Ultimate security');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Keeps your valuable files on your own infrastructure, saving costs, improving performance and keeping you in control!');?></p>
+		</div>
+		<div class="col-md-4 revealOnScroll">
+			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/machine.svg" /></div>
+			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Deep integration');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Works well with your preferred creative tools such as Adobe InDesign, Lightroom, Illustrator, Photoshop and Premiere.');?></p>
+		</div>
+	</div>
+	<div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <p class="text-center"><?php echo $l->t('Contact us now to learn how we can help you!');?></p>
+                <div class="text-center morebuttondiv">
+                    <a href="<?php echo home_url('buy') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                </div>
+            </div>
+        </div>
+</div>
+</section>
+
+
+
+
+
+
 
 
 <section class="section--collaboration">
@@ -79,6 +115,20 @@ require(["require.config"], function() {
             </div>
         </div>
                 <p class="section--paragraph"><blockquote><?php echo $l->t('The source of inspiration is in what you see and who you touch. Sharing with others and working together are central to creativity and results!');?></blockquote></p>
+        </div>
+    </div>
+    <div class="quote">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <p class="text-center"><?php echo $l->t('Reduce risk, improve customer communication and productivity while cutting operational expenses with the leading content collaboration platform.');?></p>
+                <p class="text-center"><?php echo $l->t('Contact us now to learn how we can help you!');?></p>
+                <div class="text-center morebuttondiv">
+                    <a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
         <div class="row">
             <div class="col-md-6 revealOnScroll image--floated">
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/comments-nw.png" alt="in action"/></a>

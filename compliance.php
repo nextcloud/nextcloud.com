@@ -36,6 +36,7 @@
                     </div>
                 </div>
             </div>
+            <a href="<?php echo home_url('buy') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Contact the experts now!');?> <i class="icon-arrow-circle-o-right icon"></i></a>
         </div>
         <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/medicaldevices.jpeg">
         <img class="small-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/medicaldevices-small.jpeg">

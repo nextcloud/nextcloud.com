@@ -2,20 +2,59 @@
 
 <h2>2019</h2>
 
-<h3>Nextcloud Server 15.0.0</h3>
+<h3>Android App 3.7.0</h3>
 <ul>
-	<li><a href="/security/advisory/?id=NC-SA-2019-003">Improper share updates could result in extended data access (NC-SA-2019-003)</a> 2019-04-12</li>
-	<li><a href="/security/advisory/?id=NC-SA-2019-002">Improper access control checks for share expiration date (NC-SA-2019-002)</a> 2019-04-12</li>
+	<li><a href="/security/advisory/?id=NC-SA-2019-009">Improper sanitization of HTML in directory names (NC-SA-2019-009)</a> 2019-07-26</li>
+</ul>
+
+<h3>Android App 3.6.2</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-007">Thumbnails of files leaked via Android content provider (NC-SA-2019-007)</a> 2019-07-26</li>
+</ul>
+
+<h3>Android App 3.6.1</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-011">Query restriction bypass on exposed FileContentProvider in Android app (NC-SA-2019-011)</a> 2019-07-26</li>
+	<li><a href="/security/advisory/?id=NC-SA-2019-008">Bypass lock protection in Android app (NC-SA-2019-008)</a> 2019-07-26</li>
+	<li><a href="/security/advisory/?id=NC-SA-2019-004">Bypass lock protection in Android app (NC-SA-2019-004)</a> 2019-07-26</li>
+</ul>
+
+<h3>Android App 3.3.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-006">Bypass lock protection in Android app (NC-SA-2019-006)</a> 2019-07-26</li>
+</ul>
+
+<h3>Android App 3.0.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-005">SQL injection in Android app content provider (NC-SA-2019-005)</a> 2019-07-26</li>
+</ul>
+
+<h3>lookup-server 0.3.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-010">SQL Injection in lookup-server (NC-SA-2019-010)</a> 2019-07-26</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.1</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-001">Classification of calendar events is ignored by the activity stream (NC-SA-2019-001)</a> 2019-04-12</li>
 </ul>
 
 <h3>Nextcloud Server 14.0.5</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2019-003">Improper share updates could result in extended data access (NC-SA-2019-003)</a> 2019-04-12</li>
+	<li><a href="/security/advisory/?id=NC-SA-2019-001">Classification of calendar events is ignored by the activity stream (NC-SA-2019-001)</a> 2019-04-12</li>
 </ul>
 
 <h3>Nextcloud Server 13.0.9</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2019-003">Improper share updates could result in extended data access (NC-SA-2019-003)</a> 2019-04-12</li>
+	<li><a href="/security/advisory/?id=NC-SA-2019-001">Classification of calendar events is ignored by the activity stream (NC-SA-2019-001)</a> 2019-04-12</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-003">Improper share updates could result in extended data access (NC-SA-2019-003)</a> 2019-04-12</li>
+	<li><a href="/security/advisory/?id=NC-SA-2019-002">Improper access control checks for share expiration date (NC-SA-2019-002)</a> 2019-04-12</li>
 </ul>
 
 <h3>Nextcloud Server 14.0.4</h3>
@@ -36,6 +75,11 @@
 <hr>
 
 <h2>2018</h2>
+
+<h3>Android App 3.2.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2018-015">Improper check for access to application database (NC-SA-2018-015)</a> 2019-07-26</li>
+</ul>
 
 <h3>Nextcloud Server 14.0.0</h3>
 <ul>

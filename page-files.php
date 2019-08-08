@@ -195,6 +195,21 @@
 	</div>
 </section>
 
+<section class="section--vdr">
+    <div class="container">
+        <div class="row feature-row">
+            <div class="col-md-6 revealOnScroll image--floated">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/vdr-link.jpg" alt="in action"/>
+            </div>
+            <div class="col-md-6 revealOnScroll feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Virtual Data Room');?></p>
+                <p class="section--paragraph"><?php echo $l->t('In settings where a firewall is needed between departments or organizations without impeding smooth and efficient collaboration, a separate Virtual Data Room can be set up. Nextcloud offers a wide range of unique features for VDR use and its on-premises nature offers unparalleled confidentiality and control.');?></p>
+                <a href="<?php echo home_url('virtual-data-room') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Virtual Data Rooms');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section--collaboration quote">
 	<div class="container">
         <div class="row">
@@ -205,6 +220,18 @@
                 <p class="section--paragraph__tittle"><?php echo $l->t('Seamless collaboration');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The core strength of Nextcloud is its ability to enhance team productivity on the go with an easy user interface on mobile, web and desktop and powerful integrated collaboration and communication capabilities.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Real-time notifications of shares or comments on mobile devices, built-in collaborative editing, seamless transition to chat and audio/video calls and a wide variety of productivity tools to handle mail, appointments, tasks and more can be enabled in Nextcloud.');?></p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1> </h1>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <p class="text-center"><?php echo $l->t('Improve collaboration and communication and reduce operational expenses with the leading content collaboration platform.');?></p>
+                <p class="text-center"><?php echo $l->t('Contact us now to learn how we can help you!');?></p>
+            <div class="text-center morebuttondiv">
+                <a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+            </div>
             </div>
         </div>
 	</div>

@@ -22,7 +22,7 @@ require(["require.config"], function() {
         <div class="container">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Nextcloud in Healthcare');?></h1>
-				<h2><?php echo $l->t('Secure, reliable and well integrated');?></p>
+				<h2><?php echo $l->t('On-premises security');?></p>
 			</div>
 		</div>
 	</div>
@@ -52,7 +52,7 @@ require(["require.config"], function() {
         <div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
                 <h2 class="revealOnScroll"><?php echo $l->t('Analysis: data in healthcare');?></h2>
-                <p class="revealOnScroll"><?php echo $l->t('We recommend to keep sensitive data on your own infrastructure instead of in a public cloud as the easiest and most cost-effective way of ensuring compliance.<br>Download our free healthcare security analysis.');?></p>
+                <p class="revealOnScroll"><?php echo $l->t('We recommend to keep sensitive data on your own infrastructure instead of in a public cloud as the easiest and most cost-effective way of ensuring compliance.<br />Download our free healthcare security analysis.');?></p>
 
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
 
@@ -129,6 +129,27 @@ require(["require.config"], function() {
 </div>
 </section>-->
 
+<section class="section--on-premise">
+<div class="container">
+	<h2 class="section--heading-1 revealOnScroll text-center"><?php echo $l->t('Stop outsourcing');?></h2>
+	<div class="row">
+		<div class="col-md-6 revealOnScroll feature--block">
+            <p class="section--paragraph__tittle"><?php echo $l->t('You need 100% certainty');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Email or public cloud solutions do not provide much security for sensitive data. Encryption is complicated and cumbersome to use, reducing the real benefits due to employees working around them or making mistakes.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Keeping data on your own infrastructure means you stay in control. Only then can you show your clients exactly where their sensitive documents are. Regulators can be certain that non-compliance with proper process is minimized.');?></p>
+			<a href="https://nextcloud.com/blog/the-issue-with-public-cloud/" class="button button--blue button--arrow button--large"><?php echo $l->t('Read our blog for more');?></a>
+        </div>
+        <div class="col-md-6 revealOnScroll feature--block">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Public clouds are not a safe solution');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Most consumer-grade solutions like Dropbox or Office 365 were not designed with privacy regulations and security concerns in mind, mixing data from consumers and businesses, spread out in data centers across the globe.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Rather than trying to work around their limitations, Nextcloud Files provides a security-first solution which puts you in complete control over the location and access policies of data with a private cloud solution.');?></p>
+			<a href="<?php echo home_url('buy') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Get started now');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+        </div>
+	</div>
+</div>
+</section>
+
+
 <a name="convenient"></a>
 <section class="section--convenient">
 	<div class="container">
@@ -161,6 +182,15 @@ require(["require.config"], function() {
                 <p class="section--paragraph__tittle"><?php echo $l->t('Multi-platform productivity');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Data needs to be available where the patient is. Tablets, mobile devices, laptops and desktops all have access to the same files at a moments notice thanks to the first-class Nextcloud clients.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Doctors and nurses can tag and comment on files for easy collaboration, roll back files to earlier versions or find deleted files in the trash. Real time collaborative editing and secure audio/video calls and chat complement the array of features aimed at enhancing productivity.');?></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <p class="text-center"><?php echo $l->t('Reduce risk, improve communication and cut operational expenses with the leading content collaboration platform.');?></p>
+                <p class="text-center"><?php echo $l->t('Contact us now to learn how we can help you!');?></p>
+                <div class="text-center morebuttondiv">
+                    <a href="<?php echo home_url('buy') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                </div>
             </div>
         </div>
     </div>

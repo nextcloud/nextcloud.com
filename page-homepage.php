@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/home.css?v=2" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/home.css?v=3" rel="stylesheet">
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
 <script>
 	require(["require.config"], function() {
@@ -21,13 +21,15 @@
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Protecting your data');?></h1>
 				<h2 class="jumbotron--lead"><?php echo $l->t('The self-hosted productivity platform that keeps you in control');?></h2>
-				<a class="button button--large button--arrow button--white" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Get Nextcloud');?></a><br>
-				<a class="button button--large button--arrow--down button--blue" href="#why-nextcloud" role="button" id="get-nextcloud-button"><?php echo $l->t('Learn more');?></a>
+				<a class="button button--large button--arrow button--white" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Get Nextcloud');?></a>
 			</div>
 			<div class="col-md-6 topbanner">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/empty.png"> <!--empty image to ensure the viewport is big enough-->
 			</div>
 		</div>
+	</div>
+	<div class="scrollbutton">
+        <a href="#scroll"><span></span><span></span><span></span><?php echo $l->t('');?></a>
 	</div>
 </div>
 <script>
@@ -39,6 +41,140 @@
 		selector.style.opacity = 0;
 	})
 </script>
+<a name="scroll"></a>
+
+<section class="section--products">
+	<div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="<?php echo home_url('files') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mobileDesktop.png" /></a>
+                <div class="row description">
+                    <div class="title">
+                        <div class="logo">
+                            <img style="fill:white !important;" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Files.svg" >
+                        </div>
+                        <div class="text">
+                            <?php echo $l->t('<strong>Nextcloud Files</strong><br><small>Enterprise File Sync and Share</small>');?>
+                        </div>
+                    </div>
+                    <p class="section--paragraph"><?php echo $l->t('Nextcloud Files offers an on-premise Universal File Access and sync platform with powerful collaboration capabilities and desktop, mobile and web interfaces.');?></p>
+                    <a href="<?php echo home_url('files') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <a href="<?php echo home_url('talk') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw.png"></a>
+                <div class="row description">
+                    <div class="title">
+                        <div class="logo">
+                            <img style="" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Talk.svg" >
+                        </div>
+                        <div class="text">
+                            <?php echo $l->t('<strong>Nextcloud Talk</strong><br><small>Calls, chat and web meetings</small>');?>
+                        </div>
+                    </div>
+                    <p class="section--paragraph"><?php echo $l->t('Nextcloud Talk delivers on-premises, private audio/video conferencing and text chat through browser and mobile interfaces with integrated screen sharing and SIP integration.');?></p>
+                    <a href="<?php echo home_url('talk') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <a href="<?php echo home_url('groupware') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png"></a>
+                <div class="row description">
+                    <div class="title">
+                        <div class="logo">
+                            <img style="" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/Nextcloud-Groupware.svg" >
+                        </div>
+                        <div class="text">
+                            <?php echo $l->t('<strong>Nextcloud Groupware</strong><br><small>Calendar, Contacts & Mail</small>');?>
+                        </div>
+                    </div>
+                    <p class="section--paragraph"><?php echo $l->t('Nextcloud Groupware integrates Calendar, Contacts, Mail and other productivity features to help teams get their work done faster, easier and on your terms.');?></p>
+                    <a href="<?php echo home_url('groupware') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section--customers quote">
+	<div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h2 class=" section--heading-1 text-center revealOnScroll"><?php echo $l->t('Powering collaboration');?></h2>
+                <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('<span class="avoidwrap">the most popular self-hosted collaboration solution</span> <span class="avoidwrap">for tens of millions of users</span> <span class="avoidwrap">at thousands of organizations</span> <span class="avoidwrap">across the globe</span>');?></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2 col-lg-2 customer">
+                <div class="customer-logo">
+                    <a href="https://nextcloud.com/blog/german-federal-administration-relies-on-nextcloud-as-a-secure-file-exchange-solution"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/itzbund.png" /></a>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-2 customer">
+                <div class="customer-logo">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/siemens.png" />
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-2 customer">
+                <div class="customer-logo">
+                    <a href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/tuberlin.png" /></a>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-2 customer">
+                <div class="customer-logo">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/Wikimedia_Deutschland.svg" /></a>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-2 customer">
+                <div class="customer-logo">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/randv.png" />
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-2 customer">
+                <div class="customer-logo">
+                    <a href="https://nextcloud.com/blog/nextcloud-is-the-one-and-only-solution-we-are-providing-to-our-end-customers-florian-hausleitner/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/Raiffeisen_Steiermark_modified.png" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2 col-lg-2 customer">
+                <div class="customer-logo">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/max-planck.png" />
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-2 customer">
+                <div class="customer-logo">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/DEGES_Logo.svg" /></a>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-2 customer">
+                <div class="customer-logo">
+                    <a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/regioit.png" /></a>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-2 customer">
+                <div class="customer-logo">
+                    <a href="https://nextcloud.com/blog/the-danish-research-and-education-network-moves-from-owncloud-to-nextcloud/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/deic.png" /></a>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-2 customer">
+                <div class="customer-logo">
+                    <a href="http://my.engineering.queensu.ca/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/queens.png" /></a>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-2 customer">
+                <div class="customer-logo">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/SIB.png" /></a>
+                </div>
+            </div>
+        </div>
+	<div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <p class="text-center revealOnScroll"><a class="button button--blue button--arrow button--large  revealOnScroll" href="<?php echo home_url('whitepapers') ?>"><?php echo $l->t('case studies & white papers');?></a></p>
+        </div>
+    </div>
+</div>
+</section>
 
 <a name="why-nextcloud"></a>
 <section id="why-nextcloud" class="section--why">
@@ -99,107 +235,6 @@
 
 <?php require get_template_directory().'/compliance.php';?>
 
-<section class="section--customers">
-	<div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <h2 class=" section--heading-1 text-center revealOnScroll"><?php echo $l->t('Powering collaboration');?></h2>
-                <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('<span class="avoidwrap">the most popular self-hosted collaboration solution</span> <span class="avoidwrap">for tens of millions of users</span> <span class="avoidwrap">at thousands of organizations</span> <span class="avoidwrap">across the globe</span>');?></p>
-            </div>
-        </div>
-        <div class="row revealOnScroll">
-            <div class="col-sm-4 col-lg-2 customer">
-                <div class="customer-logo">
-                    <a href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/tuberlin.png" /></a>
-                </div>
-            </div>
-            <div class="col-sm-4 col-lg-2 customer">
-                <div class="customer-logo">
-                    <a href="https://nextcloud.com/blog/german-federal-administration-relies-on-nextcloud-as-a-secure-file-exchange-solution"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/itzbund.png" /></a>
-                </div>
-            </div>
-            <div class="col-sm-4 col-lg-2 customer">
-                <div class="customer-logo">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/siemens.png" />
-                </div>
-            </div>
-            <div class="col-sm-4 col-lg-2 customer">
-                <div class="customer-logo">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/randv.png" />
-                </div>
-            </div>
-            <div class="col-sm-4 col-lg-2 customer">
-                <div class="customer-logo">
-                    <a href="https://nextcloud.com/blog/nextcloud-is-the-one-and-only-solution-we-are-providing-to-our-end-customers-florian-hausleitner/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/raiffeisen.png" /></a>
-                </div>
-            </div>
-            <div class="col-sm-4 col-lg-2 customer">
-                <div class="customer-logo">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/max-planck.png" />
-                </div>
-            </div>
-        </div>
-<!--        <div class="row">
-            <div class="col-sm-4 col-lg-2 customer">
-                <div class="customer-logo">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/hivos.png" /></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-lg-2 customer">
-                <div class="customer-logo">
-                    <a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/regioit.png" /></a>
-                </div>
-            </div>
-            <div class="col-sm-4 col-lg-2 customer">
-                <div class="customer-logo">
-                    <a href="https://nextcloud.com/blog/the-danish-research-and-education-network-moves-from-owncloud-to-nextcloud/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/deic.png" /></a>
-                </div>
-            </div>
-            <div class="col-sm-4 col-lg-2 customer">
-                <div class="customer-logo">
-                    <a href="http://my.engineering.queensu.ca/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/queens.png" /></a>
-                </div>
-            </div>
-            <div class="col-sm-4 col-lg-2 customer">
-                <div class="customer-logo">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/elkb.png" /></a>
-                </div>
-            </div>
-            <div class="col-sm-4 col-lg-2 customer">
-                <div class="customer-logo">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/vrbzo.png" /></a>
-                </div>
-            </div>
-        </div>-->
-	<div class="row">
-        <div class="col-md-6 col-md-offset-3">
-            <p class="text-center revealOnScroll"><a class="button button--blue button--arrow button--large  revealOnScroll" href="<?php echo home_url('whitepapers') ?>"><?php echo $l->t('case studies & white papers');?></a></p>
-        </div>
-    </div>
-</div>
-</section>
-
-
-
-<section class="underyourcontrol">
-<div class="container-fluid" id="perfect-for-home-and-business">
-		<div class="container">
-		<h2 class="section--heading-1 revealOnScroll"><?php echo $l->t('Under your control');?></h2>
-		<p class="section--paragraph revealOnScroll"><?php echo $l->t('Your teams are using email attachments, public chat apps, consumer file sharing tools and telephone to communicate and collaborate. Nextcloud puts enterprises back in control over their IT.');?></p>
-		<p class="section--paragraph revealOnScroll"><?php echo $l->t('We offer modern organizations the tools they need to host their own productivity enhancing replacements for cloud solutions.');?></p>
-		<li class="revealOnScroll"><?php echo $l->t('Protect your IT investment by re-using existing infrastructure');?></li>
-		<li class="revealOnScroll"><?php echo $l->t('Ensure compliance, security and flexibility');?></li>
-		<li class="revealOnScroll"><?php echo $l->t('Know where your data is, who has access and how it is used');?></li>
-		<li class="revealOnScroll"><?php echo $l->t('Facilitate secure collaboration and communication');?></li>
- 		<p><a class="button button--blue button--arrow button--large revealOnScroll" href="<?php echo home_url('files') ?>" role="button"><?php echo $l->t('Nextcloud Files</a>');?></p>
-		</div>
-</div>
-</section>
-
-<?php require get_template_directory().'/verticals.php';?>
-
-
 <section class="section--compare">
 <div class="calltoaction revealOnScroll">
 	<h1 class="section--heading-2 section--text--center"><?php echo $l->t('See how we stack up');?></h1>
@@ -207,6 +242,25 @@
 	<a href="<?php echo home_url('compare') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Compare Nextcloud to other solutions');?></a></p>
 </div>
 </section>
+
+
+<section class="section--underyourcontrol">
+<div class="container-fluid">
+    <div class="container">
+        <h2 class="section--heading-1 revealOnScroll"><?php echo $l->t('Losing control?');?></h2>
+        <p class="section--paragraph revealOnScroll"><?php echo $l->t('Your teams are using email attachments, public chat apps and consumer file sharing tools to communicate and collaborate. Regain control with Nextcloud.');?></p>
+        <li class="revealOnScroll"><?php echo $l->t('Host your own collaboration platform');?></li>
+        <li class="revealOnScroll"><?php echo $l->t('Protect your IT investment by re-using existing infrastructure');?></li>
+        <li class="revealOnScroll"><?php echo $l->t('Ensure compliance, security and flexibility');?></li>
+        <li class="revealOnScroll"><?php echo $l->t('Know where your data is, who has access and how it is used');?></li>
+        <li class="revealOnScroll"><?php echo $l->t('Facilitate secure collaboration and communication');?></li>
+        <a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+    </div>
+</div>
+</section>
+
+<?php require get_template_directory().'/verticals.php';?>
+
 <section class="slideshow" id="slideshow">
     <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 16');?></h2>
 	<div class="indicators">

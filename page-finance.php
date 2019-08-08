@@ -17,7 +17,7 @@ require(["require.config"], function() {
         <div class="container">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Financial services');?></h1>
-				<h2><?php echo $l->t('Nextcloud for compliant data control');?></p>
+				<h2><?php echo $l->t('FinTech for compliant data control');?></p>
 			</div>
 		</div>
 	</div>
@@ -54,6 +54,15 @@ require(["require.config"], function() {
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Complete control');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Knowing where data is and who has access is crucial in a heavily regulated industry. Nextcloud combines advanced data access controls with powerful monitoring and logging capabilities to ensure compliance and auditability.');?></p>
 		</div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <p class="text-center"><?php echo $l->t('Reduce risk, improve customer communication, develop new revenue sources and reduce operational expenses with the leading content collaboration platform.');?></p>
+            <p class="text-center"><?php echo $l->t('Contact us to learn how we can help you.');?></p>
+            <div class="text-center morebuttondiv">
+                <a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+            </div>
+        </div>
     </div>
 </div>
 </section>
@@ -139,11 +148,26 @@ require(["require.config"], function() {
 </div>
 </section>
 
+<section class="section--vdr">
+    <div class="container">
+        <div class="row feature-row">
+            <div class="col-md-6 revealOnScroll image--floated">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/vdr-link.jpg" alt="in action"/>
+            </div>
+            <div class="col-md-6 revealOnScroll feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Virtual Data Room');?></p>
+                <p class="section--paragraph"><?php echo $l->t('In settings where a firewall is needed between departments or organizations without impeding smooth and efficient collaboration, a separate Virtual Data Room can be set up. Nextcloud offers a wide range of unique features for VDR use and its on-premises nature offers unparalleled confidentiality and control.');?></p>
+                <a href="<?php echo home_url('virtual-data-room') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Virtual Data Rooms');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section--customerdetail">
 	<div class="container">
          <div class="row feature-row">
             <div class="col-md-6 revealOnScroll">
-                <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/assicuro.png" alt="in action"/></a>
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/assicuro.png" alt="in action"/>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Assicuro Private Insurance');?></p>
@@ -167,6 +191,7 @@ require(["require.config"], function() {
             <p class="section--paragraph__tittle"><?php echo $l->t('Public clouds are not a safe solution');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Most consumer-grade solutions like Dropbox or Office 365 were not designed with privacy regulations and security concerns in mind, mixing data from consumers and businesses, spread out in data centers across the globe.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Rather than trying to work around their limitations, Nextcloud Files provides a security-first solution which puts you in complete control over the location and access policies of data with a private cloud solution.');?></p>
+			<a href="<?php echo home_url('buy') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Get started now');?> <i class="icon-arrow-circle-o-right icon"></i></a>
         </div>
 	</div>
 </div>
@@ -237,10 +262,11 @@ require(["require.config"], function() {
                 <h2 class="text-center revealOnScroll"><?php echo $l->t('Financial firms provide trust');?></h2>
                 <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Banks, investment firms, insurance agencies and other financial service firms are entrusted with the most confidential knowledge of their clients. Breaking that trust, for example due to a data-leak, is a career-ending mistake.');?></p>
                 <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Nextcloud enables you to focus on your work, taking care that your data stays private and completely under your control!');?></p>
+                <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Take Nextcloud for a test drive now!!');?></p>
             </div>
         </div>
         <div class="row text-center">
-            <a href="<?php echo home_url('install') ?>" class="button button--arrow button--large"><?php echo $l->t('Try Nextcloud Files');?></a>
+            <a href="https://demo.nextcloud.com" class="button button--arrow button--large"><?php echo $l->t('Nextcloud Demo');?></a>
             <a href="<?php echo home_url('buy') ?>" class="button button--arrow button--large"><?php echo $l->t('Contact sales');?></a>
         </div>
     </div>

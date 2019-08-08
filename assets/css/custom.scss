@@ -1456,6 +1456,11 @@ blockquote {
 			border: 10px solid $nextcloud-blue !important;
 		}
 	}
+	.icon {
+        @media (max-width: $break-big) {
+            margin-top: 30px;
+        }
+    }
 }
 
 /* Whitepaper sections */

@@ -10746,6 +10746,9 @@ blockquote {
   @media (min-width: 768px) {
     .quote .image--feature.new-img, .call-to-action .image--feature.new-img {
       border: 10px solid #0082c9 !important; } }
+  @media (max-width: 991px) {
+    .quote .icon, .call-to-action .icon {
+      margin-top: 30px; } }
 
 /* Whitepaper sections */
 .section--whitepaper, .whitepaper {

@@ -4,10 +4,11 @@
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 
 <div class="background generic-background">
-    <img class="pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/empty1x1.png" alt="">
-    <div class="container">
-        <div class="col-md-6 topheader">
-            <h1>Press information</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 topheader">
+                <h1>Press information</h1>
+            </div>
         </div>
     </div>
 </div>
@@ -15,10 +16,12 @@
 <section class="content">
 <div class="container">
     <h2>Current Release Information<br/><small> Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></small></h2>
-    <a class="button button--large button--blue button--arrow" target="_blank" href="https://nextcloud.com/blog/nextcloud-15-goes-social-enforces-2fa-and-gives-you-a-new-generation-real-time-document-editing/">Announcement blog</a>
-    <a href="https://cloud.nextcloud.com/s/ZRmqqsd59rRPJoL" class="button button--large button--blue button--arrow">Press release and background</a>
+    <a class="button button--large button--blue button--arrow" target="_blank" href="https://nextcloud.com/blog/nextcloud-16-introduces-machine-learning-based-security-and-usability-features-acl-permissions-and-cross-app-projects/">Announcement blog</a>
+    <a href="<?php echo home_url('press/pr20190425') ?>" class="button button--large button--blue button--arrow">Press release and background</a>
     <h2>Press releases</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20190627') ?>">June 27, 2019: Nextcloud introduces collaborative rich text editor</a></li>
+        <li><a href="<?php echo home_url('press/pr20190515') ?>">May 15, 2019: Nitrokey and Nextcloud collaborate on securing private clouds</a></li>
         <li><a href="<?php echo home_url('press/pr20190425') ?>">April 25, 2019: Nextcloud 16 introduces machine learning based security and usability features, ACL permissions and more advanced project management capabilities</a></li>
         <li><a href="<?php echo home_url('press/pr20190319') ?>">March 19, 2019: 130 EU businesses sign open letter against Copyright directive (Art. 11 & 13)</a></li>
         <li><a href="<?php echo home_url('press/pr20190226') ?>">February 26, 2019: Qloud MSP and Nextcloud announce partnership</a></li>
