@@ -12,90 +12,6 @@
 	});
 </script>
 </head>
-<!-- <div style="background-image: linear-gradient(to left,#2F4360 0,#171F3B 100%); height: 100%; position: relative;"> -->
-<div class="background appdev-background">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Develop for Nextcloud');?></h1>
-				<h2><?php echo $l->t('<span class="avoidwrap">Write new applications</span>, <span class="avoidwrap">extend Nextcloud</span> <span class="avoidwrap">or integrate other software</span>');?></p>
-			</div>
-			<!--<div class="col-md-6 topsidebar">
-                <div class="sidebarlist">
-                    <div class="header">
-                        <p>this is amazing!</p>
-                    </div>
-                    <div class="content">
-                        <ul class="section--paragraph">
-                            <li>because I rock</li>
-                            <li>because you rock</li>
-                            <li>because we all rock!</li>
-                        </ul>
-                        <a class="button button--blue button--arrow" href="https://nextcloud.com">buy everything!</a>
-                    </div>
-                </div>
-			</div>-->
-		</div>
-	</div>
-</div>
-<!-- </div> -->
-
-<!--<section class="section--intro">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-                <p class="section--paragraph text-center"><?php echo $l->t('Time to be creative.');?></p>
-                <p class="section--paragraph text-center"><span class="avoidwrap"><?php echo $l->t('Everything you need to get started with Nextcloud development.');?></span></p>
-                <div class="text-center">
-                    <a href="install/#install-clients" class="button button--blue button--arrow button--large"><?php echo $l->t('Download now');?></a>
-                </div>
-			</div>
-		</div>
-	</div>
-</section>-->
-
-<!--<section>
-<div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="row">
-                <h2>Why build for Nextcloud?</h2>
-                <div role="tabpanel">
-                    <div class="col-sm-3">
-                        <ul class="nav nav-pills brand-pills nav-stacked" style="opacity: 1;" role="tablist">
-                            <li role="presentation" class="brand-nav active"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Size matters</a></li>
-                            <li role="presentation" class="brand-nav"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">Promotion</a></li>
-                            <li role="presentation" class="brand-nav"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Commercialize</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-9">
-                        <div class="tab-content">
-                            <div role="tabpanel" class="tab-pane active" id="tab1">
-                                <p>
-                                    With between 200.000 and 300.000 Nextcloud servers out there, a big audience exists for functionality which extends the most popular self-hosted productivity platform.
-                                </p>
-                            </div>
-                            <div role="tabpanel" class="tab-pane" id="tab2">
-                                <p>
-                                    If you create an app, extension or integration, Nextcloud will help you promote it! We are happy to work with you on a post for our blog, share the app over social media and you can talk about it at our conference.
-                                </p>
-                            </div>
-                            <div role="tabpanel" class="tab-pane" id="tab3">
-                                <p>
-                                    If you build an app, script, extension or tool as a business endeavor, we'd be happy to support your effort. We love our ecosystem and want everyone to be succesfull in it! Perhaps we can commercialize it together, with us reselling it to our customers.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-        tbd
-        </div>
-	</div>
-</div>
-</section>-->
 
 <section class="section--documentation">
 <div class="container">
@@ -110,6 +26,7 @@
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app/index.html"><?php echo $l->t('App Developer intro');?></a></li>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/api.html"><?php echo $l->t('API documentation');?></a></li>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/design/index.html"><?php echo $l->t('App design guidelines');?></a></li>
+                <li><a class="hyperlink" href="https://nextcloud-vue-components.netlify.com/"><?php echo $l->t('Nextcloud Vue guidelines');?></a></li>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app/publishing.html"><?php echo $l->t('Publishing apps');?></a></li>
             </ul>
         </div>
