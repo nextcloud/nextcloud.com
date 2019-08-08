@@ -16,18 +16,17 @@
         &:hover, &.active {
             border-left: 1px solid blue;
             font-weight: 700;
-     }
-    a {
-        color: #2a2a36;
-        background-color: transparent;
-        padding-left: 20px;
-        border-radius: 0;
-        margin: 0;
-    }
-
-    .tab-content {
-        margin-top: 15px;
-        padding-top: 5px;
-    }
+        }
+        a {
+          color: #2a2a36;
+          background-color: transparent;
+          padding-left: 20px;
+          border-radius: 0;
+          margin: 0;
+        }
+        .tab-content {
+          margin-top: 15px;
+          padding-top: 5px;
+        }
     }
 }

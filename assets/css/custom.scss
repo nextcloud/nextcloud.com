@@ -117,31 +117,7 @@
   font-size: 22px;
   font-weight: 300;
 }
-.section--paragraph__tittle {
-  font-size: 22px;
-  line-height: 30px;
-  font-weight: 600;
-  color: #2a2a36;
-}
-.section--paragraph {
-  font-size: 1.125em;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #6c6c6c;
-}
 
-.hyperlink {
-	color: #a2a2a2;
-	text-decoration: none;
-	font-weight: 500;
-	border-bottom: solid 1px;
-	transition: all 0.5s ease;
-	text-decoration: none;
-	:hover {
-		text-decoration: none;
-		color: #2a2a36;
-	}
-}
 
 .screen-reader-text {
 	display: none;
@@ -319,7 +295,6 @@ h5 {
 
 
 /*  The new feature image  */
-
 .image--feature.new-img {
 	display: block;
 	background: url('../img/features/browser-chrome-crop.png') no-repeat;
@@ -364,6 +339,32 @@ h5 {
 			padding: 0 8.8% 0 9%;
 		}
 	}
+}
+
+.container-widest { /* For the wider container (up to 1800px) we have to adjust the sizes */
+    .image--feature.new-img {
+        height: 580px;
+        @media (min-width: $break-big) {
+            height: 180px;
+        }
+        @media (min-width: $navbar-breaksize) {
+            height: 285px;
+        }
+        img.featureimg {
+            @media (min-width: $break-small) {
+                bottom: 0px;
+                left: 0px;
+                position: absolute;
+                padding: 0 8.2% 0 8.4%;
+            }
+            @media (min-width: $break-big) {
+                padding: 0 8.3% 0 8.7%;
+            }
+            @media (min-width: $navbar-breaksize) {
+                padding: 0 8.8% 0 9%;
+            }
+        }
+    }
 }
 
 /*Colors*/

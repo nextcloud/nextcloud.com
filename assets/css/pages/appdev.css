@@ -1,0 +1,234 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+/* This is a navigator with navigation left and content right. Inspired by Digital Ocean website. */
+.nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }
+  .nav:before, .nav:after {
+    content: " ";
+    display: table; }
+  .nav:after {
+    clear: both; }
+  .nav > li {
+    position: relative;
+    display: block; }
+    .nav > li > a {
+      position: relative;
+      display: block;
+      padding: 10px 15px; }
+      .nav > li > a:hover, .nav > li > a:focus {
+        text-decoration: none;
+        background-color: #eeeeee; }
+    .nav > li.disabled > a {
+      color: #777777; }
+      .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
+        color: #777777;
+        text-decoration: none;
+        background-color: transparent;
+        cursor: not-allowed; }
+  .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #eeeeee;
+    border-color: #337ab7; }
+  .nav .nav-divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5; }
+  .nav > li > a > img {
+    max-width: none; }
+
+.nav-tabs {
+  border-bottom: 1px solid #ddd; }
+  .nav-tabs > li {
+    float: left;
+    margin-bottom: -1px; }
+    .nav-tabs > li > a {
+      margin-right: 2px;
+      line-height: 1.428571429;
+      border: 1px solid transparent;
+      border-radius: 4px 4px 0 0; }
+      .nav-tabs > li > a:hover {
+        border-color: #eeeeee #eeeeee #ddd; }
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+      color: #555555;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-bottom-color: transparent;
+      cursor: default; }
+
+.nav-pills > li {
+  float: left; }
+  .nav-pills > li > a {
+    border-radius: 4px; }
+  .nav-pills > li + li {
+    margin-left: 2px; }
+  .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #337ab7; }
+
+.nav-stacked > li {
+  float: none; }
+  .nav-stacked > li + li {
+    margin-top: 2px;
+    margin-left: 0; }
+
+.nav-justified, .nav-tabs.nav-justified {
+  width: 100%; }
+  .nav-justified > li, .nav-tabs.nav-justified > li {
+    float: none; }
+    .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+      text-align: center;
+      margin-bottom: 5px; }
+  .nav-justified > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto; }
+  @media (min-width: 768px) {
+    .nav-justified > li, .nav-tabs.nav-justified > li {
+      display: table-cell;
+      width: 1%; }
+      .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+        margin-bottom: 0; } }
+
+.nav-tabs-justified, .nav-tabs.nav-justified {
+  border-bottom: 0; }
+  .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
+    margin-right: 0;
+    border-radius: 4px; }
+  .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
+  .nav-tabs-justified > .active > a:hover,
+  .nav-tabs.nav-justified > .active > a:hover,
+  .nav-tabs-justified > .active > a:focus,
+  .nav-tabs.nav-justified > .active > a:focus {
+    border: 1px solid #ddd; }
+  @media (min-width: 768px) {
+    .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
+      border-bottom: 1px solid #ddd;
+      border-radius: 4px 4px 0 0; }
+    .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
+    .nav-tabs-justified > .active > a:hover,
+    .nav-tabs.nav-justified > .active > a:hover,
+    .nav-tabs-justified > .active > a:focus,
+    .nav-tabs.nav-justified > .active > a:focus {
+      border-bottom-color: #fff; } }
+
+.tab-content > .tab-pane {
+  display: none; }
+.tab-content > .active {
+  display: block; }
+
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0; }
+
+.nav.nav-pills.brand-pills.nav-stacked {
+  position: relative !important;
+  padding: 5px 0 30px 0;
+  opacity: 1;
+  /* compensate for nav being set to opacity 0 by our top nav bar code */ }
+  .nav.nav-pills.brand-pills.nav-stacked li {
+    margin: 0;
+    border-left: 1px solid lightgray; }
+    .nav.nav-pills.brand-pills.nav-stacked li:hover, .nav.nav-pills.brand-pills.nav-stacked li.active {
+      border-left: 1px solid blue;
+      font-weight: 700; }
+    .nav.nav-pills.brand-pills.nav-stacked li a {
+      color: #2a2a36;
+      background-color: transparent;
+      padding-left: 20px;
+      border-radius: 0;
+      margin: 0; }
+    .nav.nav-pills.brand-pills.nav-stacked li .tab-content {
+      margin-top: 15px;
+      padding-top: 5px; }
+
+.appdev-background {
+  background-color: #0082c9;
+  height: 100%;
+  /*   mask-image: radial-gradient(circle,rgba(0,0,0,0) 0,#000 100%); */
+  /*   -webkit-mask-image: radial-gradient(circle,rgba(0,0,0,0) 0,#000 100%); */
+  /*   opacity: .3; */
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+.appdev-background::before {
+  content: "";
+  background: url("../../img/headers/devices.svg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0; }
+
+section {
+  padding: 50px 0; }
+  section .section--paragraph__tittle {
+    padding: 0; }
+  section h2 {
+    padding-bottom: 0px; }
+  section .row {
+    padding-top: 40px; }
+  section li {
+    list-style-image: url("../../img/enterprise/dot-tiny.svg"); }
+
+.section--documentation {
+  padding-bottom: 170px; }
+  .section--documentation .icon {
+    height: 100px; }
+
+.section--feature .icon {
+  height: 32px; }
+
+.section--getinvolved {
+  padding-top: 10px;
+  background-color: #eee; }
+  .section--getinvolved .button.button--small {
+    margin: 0 0 10px 0; }
+
+.section--events {
+  padding: 0px; }
+  .section--events .eventcard {
+    padding: 10px; }
+
+.featuretitle {
+  text-align: center; }
+
+footer {
+  margin-top: 0px; }
+
+/*# sourceMappingURL=appdev.css.map */
