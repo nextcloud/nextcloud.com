@@ -28,7 +28,7 @@
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
             <p class="section--paragraph text-center"><?php echo $l->t('Security is key for Nextcloud users.');?></p>
-            <p class="section--paragraph text-center"><?php echo $l->t('To protect your data, Nextcloud is designed with military-grade encryption and a large number of automatic security protections. To support the admin, automated checks warn of security problems.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('To protect your data, Nextcloud is designed with military-grade encryption and a large number of advanced security protections. To support the admin, automated checks warn of security problems.');?></p>
 		</div>
 	</div>
 </div>
@@ -270,7 +270,7 @@
     <div class="container-fluid quote">
         <div class="container">
             <h2 class="text-center"><?php echo $l->t('Need the best security?');?></h2>
-            <p class="section--paragraph section--text--center"><?php echo $l->t('A Nextcloud Enterprise Subscription provides you early access to security warnings, patches and mitigations.');?></p>
+            <p class="section--paragraph section--text--center"><?php echo $l->t('Nextcloud Enterprise provides early access to security warnings, updates and mitigations.');?></p>
             <p class="section--paragraph section--text--center"><?php echo $l->t('Nextcloud enables you to focus on your work, taking care that your data stays private and completely under your control!');?></p>
             <div class="row">
                 <div class="col-md-12">

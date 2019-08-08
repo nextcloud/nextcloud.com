@@ -323,6 +323,11 @@ section {
       @media (max-width: 991px) {
         .section--encryption .container-fluid .cover {
           display: none; } }
+  .section--encryption ul li {
+    list-style-image: url("../../img/enterprise/check.svg"); }
+
+.section--sharing ul li {
+  list-style-image: url("../../img/enterprise/check-blue.svg"); }
 
 /* Process image */
 .process {

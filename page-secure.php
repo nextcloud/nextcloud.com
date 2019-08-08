@@ -132,7 +132,7 @@
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('Administrators can set permissions on sharing and access to files using groups. Permissions of underlying storage, like Windows Network Drive access rights, are respected by Nextcloud');?></p>
                             <p class="section--paragraph"><?php echo $l->t('Sharing can be protected by passwords, expiration dates, hiding of existing files, blocking downloads and the enforcing of a video call before access is granted (Video Verification).');?></p>
-                            <a href="<?php echo home_url('sharing') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Sharing features');?></a>
+                            <a href="<?php echo home_url('sharing') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Sharing permissions');?></a>
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="control-tab3">
@@ -150,7 +150,7 @@
                                 <?php echo file_get_contents(get_template_directory()."/assets/img/icons/firewall.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('The powerful workflow tools in Nextcloud enable administrators to limit access to data in accordance to business and legal requirements and perform automatic actions like file conversion. Describe restrictions like "XLSX files from the HR department are not to be accessible outside company IP ranges" or "employees in the US shouldn\'t access customer data from European data centers" for Nextcloud to enforce.');?></p>
-                            <a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Workflow');?></a>
+                            <a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('File access control');?></a>
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="control-tab5">
@@ -238,7 +238,7 @@
                             <p class="section--paragraph"><?php echo $l->t('Nextcloud leverages existing data storage and database technologies so current security policies and governance processes can continue to be used to manage, control and secure operations with Nextcloud. Your IT department is fully in control.');?></p>
                         </div>
                     </div>
-                <a href="<?php echo home_url('usermanagement') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Storage integration');?></a>
+                <a href="<?php echo home_url('storage') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Storage integration');?></a>
                 </div>
             </div>
         </div>
