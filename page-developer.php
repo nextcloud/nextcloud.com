@@ -13,6 +13,17 @@
 </script>
 </head>
 
+<div class="background appdev-background">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 topheader">
+				<h1><?php echo $l->t('Develop for Nextcloud');?></h1>
+				<h2><?php echo $l->t('<span class="avoidwrap">Write new applications</span>, <span class="avoidwrap">extend Nextcloud</span> <span class="avoidwrap">or integrate other software</span>');?></p>
+			</div>
+		</div>
+	</div>
+</div>
+
 <section class="section--documentation">
 <div class="container">
    	<div class="row">
