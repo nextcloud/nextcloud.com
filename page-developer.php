@@ -140,6 +140,21 @@
     </div>
 </section>
 
+<section class="section--include">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-6 image--floated">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/verticals-small.jpg" alt="in action"/>
+            </div>
+            <div class="col-md-6  feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Include');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Diversity strengthens a community. The Nextcloud Include initiative helps underrepresented groups to join the Nextcloud project, building an inclusive and diverse space where we collaborate and develop world class software.');?></p>
+                <a href="<?php echo home_url('include') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Lear more and request mentoring');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section--why">
 <div class="container">
 	<div class="row introduction">
