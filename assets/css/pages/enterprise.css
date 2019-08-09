@@ -88,29 +88,59 @@
   zoom: 0.55;
 }
 
-section .container {
-  padding-top: 8.54296875em;
-  padding-bottom: 8.54296875em;
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 section .container .section--intro {
   max-width: 43.2487792969em;
   margin: 15px auto;
 }
-section .container .ilustration {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 60px 0;
-}
-section .container .ilustration svg {
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  max-width: 100%;
-}
 
 .section--offer .container .section--intro {
   max-width: 28.8325195313em;
   margin: 15px auto;
+}
+
+.section--benefits {
+  padding-top: 0;
+}
+.section--benefits h2 {
+  margin-top: 100px;
+}
+.section--benefits .ilustration {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.section--benefits .ilustration svg {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 100%;
+  max-height: 300px;
+}
+
+.section--scalability .content p, .section--reliability .content p, .section--compliance .content p, .section--security .content p {
+  font-size: 22px;
+  font-weight: 300;
+}
+.section--scalability .ilustration, .section--reliability .ilustration, .section--compliance .ilustration, .section--security .ilustration {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.section--scalability .ilustration svg, .section--reliability .ilustration svg, .section--compliance .ilustration svg, .section--security .ilustration svg {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 100%;
+  max-height: 500px;
+}
+
+.section--contact p {
+  font-size: 22px;
+  font-weight: 300;
 }
 
 .section--whitepaper {
@@ -122,11 +152,6 @@ section .container .ilustration svg {
 }
 .section--whitepaper form {
   padding-top: 20px;
-}
-
-.quote .container {
-  padding-top: 50px !important;
-  margin-top: 180px !important;
 }
 
 .section--compare {
