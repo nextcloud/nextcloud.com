@@ -13,8 +13,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 topheader">
-					<h1><?php echo $l->t('Enterprise Subscriptions');?></h1>
-					<h2><?php echo $l->t('An enterprise subscription provides you direct benefits, additional features and the confidence of knowing that your Nextcloud Files deployment is backed by the best available technical expertise and capabilities you need for your organization');?></h2>
+					<h1><?php echo $l->t('Nextcloud Enterprise');?></h1>
+					<h2><?php echo $l->t('Nextcloud Enterprise is pre-configured, optimized and hardened for the special needs of large scale, production-critical enterprise deployments. It is backed by a Nextcloud Subscription which gives you access to our expertise, partner services and more.');?></h2>
 				</div>
 			</div>
 		</div>
@@ -37,8 +37,8 @@
 	<div class="row">
         <div class="col-md-8 col-md-offset-2">
             <h1 class="header"><?php echo $l->t('Plans and Pricing<br>
-            for Nextcloud Files');?></h1>
-            <h3 class="text-center"><?php echo $l->t('Successfully host your private cloud thanks to a');?> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Nextcloud Subscription.');?></a></h3>
+            for Nextcloud Enterprise');?></h1>
+            <h3 class="text-center"><?php echo $l->t('Successfully host your private cloud');?><br /> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('with Nextcloud Enterprise.');?></a></h3>
 		</div>
     </div>
     <div class="row">
@@ -51,7 +51,7 @@
 				<h1 class="header"><?php echo $l->t('Features');?></h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check" title="<?php echo $l->t('Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.');?>" rel="tooltip"><?php echo $l->t('File sync and share');?></li>
+					<li class="check" title="<?php echo $l->t('Providing a secure, reliable, enterprise-ready product to sync and share data across platforms, internall and with third parties.');?>" rel="tooltip"><?php echo $l->t('Nextcloud Enterprise');?></li>
 					<li class="check" title="<?php echo $l->t('Nextcloud-branded iOS, Android and desktop apps are free.');?>" rel="tooltip"><?php echo $l->t('Mobile and desktop clients');?></li>
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
 					<li class="check" title="<?php echo $l->t('The AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
@@ -93,7 +93,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<h1 class=""><?php echo $l->t('Features');?></h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check" title="<?php echo $l->t('Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.');?>" rel="tooltip"><?php echo $l->t('File sync and share');?></li>
+					<li class="check" title="<?php echo $l->t('Providing a secure, reliable, enterprise-ready product to sync and share data across platforms, internall and with third parties.');?>" rel="tooltip"><?php echo $l->t('Nextcloud Enterprise');?></li>
 					<li class="check" title="<?php echo $l->t('Nextcloud-branded iOS, Android and desktop apps are free. Branding optional.');?>" rel="tooltip"><?php echo $l->t('Mobile and desktop clients');?></li>
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
 					<li class="check" title="<?php echo $l->t('The AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
@@ -135,7 +135,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<h1 class=""><?php echo $l->t('Features');?></h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check" title="<?php echo $l->t('Sync your files with our desktop and mobile clients, share them with other users on your server, with public links or across servers.');?>" rel="tooltip"><?php echo $l->t('File sync and share');?></li>
+					<li class="check" title="<?php echo $l->t('Providing a secure, reliable, enterprise-ready product to sync and share data across platforms, internall and with third parties.');?>" rel="tooltip"><?php echo $l->t('Nextcloud Enterprise');?></li>
 					<li class="check" title="<?php echo $l->t('Nextcloud-branded iOS, Android and desktop apps are free. Branding optional.');?>" rel="tooltip"><?php echo $l->t('Mobile and desktop clients');?></li>
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
 					<li class="check" title="<?php echo $l->t('The AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
@@ -322,20 +322,26 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				</div>
 				<div class="line noRevealOnScroll"></div>
 				<h2 class="noRevealOnScroll"><?php echo $l->t('Subscription and support');?></h2>
-				<div class="downarrow noRevealOnScroll"><a href="#why_pay" data-toggle="collapse"><h3><?php echo $l->t('Why would I pay for open source software?<span class="icon-arrow-down">');?></h3></a></div>
-				<div id="why_pay" class="collapse ">
-                    <p><?php echo $l->t('Nextcloud is used on anything from a raspberry pi for family calendar syncing to delivering secure team productivity for hundreds of thousands of employees at the German Federal Government, running on a large cluster with Global Scale. Those large enterprise deployments have vastly different needs from the hundreds of thousands of community users that deploy Nextcloud at home.');?></p>
-
-                    <p><?php echo $l->t('To better deliver on the needs of our customers, our customers have access to a special Nextcloud Enterprise build pre-configured, optimized and hardened for the special needs of large scale, production-critical enterprise deployments. Nextcloud Enterprise provides customers the following key benefits:');?></p>
+				<div class="downarrow noRevealOnScroll"><a href="#what_is_nce" data-toggle="collapse"><h3><?php echo $l->t('What is Nextcloud Enterprise?<span class="icon-arrow-down">');?></h3></a></div>
+				<div id="what_is_nce" class="collapse ">
+                    <p><?php echo $l->t('To better deliver on the needs of our customers, they have access to a special Nextcloud Enterprise build pre-configured, optimized and hardened for the special needs of large scale, production-critical enterprise deployments. Nextcloud Enterprise provides the following key benefits:');?></p>
 					<ul class="list">
 						<li class="check"><?php echo $l->t('Improved reliability.');?> <?php echo $l->t('Nextcloud Enterprise receives additional quality assurance to provide the highest degree of reliability and offers a longer life cycle.');?></li>
 						<li class="check"><?php echo $l->t('Improved scalability.');?> <?php echo $l->t('Nextcloud Enterprise is pre-configured and optimized for the needs of large scale production at enterprises, rather than home users.');?></li>
 						<li class="check"><?php echo $l->t('Improved security.');?> <?php echo $l->t('Nextcloud Enterprise customers get priority access to security and stability fixes to guarantee smooth operation out of the box.');?></li>
 						<li class="check"><?php echo $l->t('Certified integrity.');?> <?php echo $l->t('Nextcloud Enterprise is a guaranteed proven, certified code base for legal compliance like GDPR and HIPAA.');?></li>
                     </ul>
-                    <p><?php echo $l->t('Learn more in our press release.');?></p>
-
-                    <p><?php echo $l->t('Note that Nextcloud Enterprise is 100% open source. To find out what Nextcloud Enterprise means for private users, read our blog post.');?></p>
+                </div>
+                <div class="line noRevealOnScroll"></div>
+				<div class="downarrow noRevealOnScroll"><a href="#nce_for_community" data-toggle="collapse"><h3><?php echo $l->t('What does Nextcloud Enterprise mean for private users?<span class="icon-arrow-down">');?></h3></a></div>
+				<div id="nce_for_community" class="collapse">
+					<p><?php echo $l->t('Nextcloud is used on anything from a raspberry pi for family calendar syncing to delivering secure team productivity for hundreds of thousands of employees at the German Federal Government, running on a large cluster with Global Scale. Those large enterprise deployments have vastly different needs from the hundreds of thousands of community users that deploy Nextcloud at home.');?></p>
+					<p><?php echo $l->t('To better deliver on the needs of our customers, we make a special Nextcloud Enterprise build available to them. This build is derived from the same 100% open source code base from Github but pre-configured, optimized and hardened for the special needs of large scale, production-critical enterprise deployments.');?></p>
+					<p><strong><?php echo $l->t('100% open source');?></strong></p>
+					<p><?php echo $l->t('With Nextcloud Enterprise, we follow the model made popular by Red Hat, SUSE, MariaDB and many others with a fully open source, enterprise focused product available for customers.');?></p>
+					<p><?php echo $l->t('Nextcloud continues to be developed and improved as it is together with our large community of contributors and its releases continue to be the first to deliver new features and improvements to users.');?></p>
+					<p><?php echo $l->t('As home user, nothing is different, and Nextcloud should continue to be equally suitable for private or small business use. If you are working at a larger enterprise and want to know if Nextcloud Enterprise offers you relevant benefits, you can contact our sales team.');?></p>
+					<a class="button button--blue button--small" href="<?php echo home_url('contact') ?>" class="nav__label"><?php echo $l->t('Contact us');?></a>
 				</div>
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#what_I_get" data-toggle="collapse"><h3><?php echo $l->t('What does the subscription give me?<span class="icon-arrow-down">');?></h3></a></div>
@@ -394,7 +400,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#howbuy" data-toggle="collapse"><h3><?php echo $l->t('How do I buy Nextcloud subscriptions?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="howbuy" class="collapse">
-					<p><a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('Just contact us</a> or one of our partners. Our partners will help you set up Nextcloud and they act as your first point of contact.');?></p>
+					<p><?php echo $l->t('A Nextcloud Subscription is bundled with Nextcloud Enterprise.');?><a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('Just contact us</a> or one of our partners. Our partners will help you set up Nextcloud and they act as your first point of contact.');?></p>
 				</div>
 				<div class="line noRevealOnScroll"></div>
                 <h2 class="noRevealOnScroll"><?php echo $l->t('Licensing');?></h2>
