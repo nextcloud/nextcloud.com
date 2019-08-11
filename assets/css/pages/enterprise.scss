@@ -22,7 +22,7 @@
     height: 70vh;
     min-height: 600px;
     max-height: 800px;
-    background-image: url('../../img/enterprise/hero__enterprise.jpg');
+    background-image: url('../../img/headers/enterprise.jpg');
   }
 
   .topbanner {
@@ -41,105 +41,77 @@
   }
 }
 
-.what-you-get-section {
 
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
   .container {
-    padding-top: ms(5);
-    padding-bottom: ms(5);
 
-    p {
+    .section--intro {
       max-width: ms(9);
-      margin: 0 auto;
+      margin: 15px auto;
     }
   }
 }
 
-.section--expertise {
-
-  .container {
-    padding-top: ms(5);
-    padding-bottom: ms(5);
-
-    .section--intro {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
-
-    .ilustration {
-      svg {
-		display: block !important;
-		margin-left: auto !important;
-		margin-right: auto !important;
-	   }
-    }
-  }
+.section--offer {
+	.container {
+		.section--intro {
+			max-width: ms(8);
+			margin: 15px auto;
+		}
+	}
 }
 
-.section--security {
-  .container{
-    padding-top: ms(5);
-    padding-bottom: ms(5);
-
-    .section--intro {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
-
-    .ilustration {
+.section--benefits {
+	padding-top: 0;
+	h2 {
+		margin-top: 100px;
+	}
+	.ilustration {
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 60px 0;
 		svg {
 			display: block !important;
 			margin-left: auto !important;
 			margin-right: auto !important;
+			max-width: 100%;
+			max-height: 300px;
 		}
-    }
-  }
+	}
 }
 
-.section--lifecycle {
-
-  .container{
-    padding-top: ms(5);
-    padding-bottom: ms(5);
-
-    .section--intro {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
-
-    .ilustration {
-      svg {
-		display: block !important;
-		margin-left: auto !important;
-		margin-right: auto !important;
-	  }
-    }
-  }
+.section--scalability,.section--reliability,.section--compliance,.section--security {
+	.content {
+		p {
+			font-size: 22px;
+			font-weight: 300;
+		}
+	}
+	.ilustration {
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 60px 0;
+		svg {
+			display: block !important;
+			margin-left: auto !important;
+			margin-right: auto !important;
+			max-width: 100%;
+			max-height: 500px;
+		}
+	}
 }
 
-.section--globalscale {
-  .container{
-    padding-top: ms(5);
-    padding-bottom: ms(5);
-
-    .section--intro {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
-
-    .globalscale__ilustration {
-	svg {
-		display: block !important;
-		margin-left: auto !important;
-		margin-right: auto !important;
-	   }
-    }
-  }
+.section--contact {
+	p {
+		font-size: 22px;
+		font-weight: 300;
+	}
 }
 
 .section--whitepaper {
-	.container {
-    padding-top: ms(5);
-	}
+
     .section--heading-1 {
         margin-bottom: 70px;
     }
@@ -150,21 +122,8 @@
     margin-bottom: 0px;
 }
 
-.quote {
-	.container {
-	padding-top: 50px !important;
-	margin-top: 180px !important;
-	}
-}
-
 .section--compare {
     padding-bottom: 100px;
-}
-
-.ilustration {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 60px 0;
 }
 
 .section--customers {
