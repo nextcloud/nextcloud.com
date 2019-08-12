@@ -99,24 +99,7 @@ section {
 .section--overview {
 }
 
-.section--explanation {
-	i[class*='fa-'] {
-	font-size: 60px;
-	display: block;
-	color: #ffffff;
-	text-align: center;
-	padding-top: 20%;
-	}
-	.row {
-		padding: 5px 0 5px 0;
-	}
-	p.section--paragraph {
-		padding: 0;
-	}
-	p {
-		padding: 0;
-	}
-}
+
 
 .section--on-premise {
 }
@@ -211,6 +194,22 @@ section {
 }
 
 .section--explanation {
+    i[class*='fa-'] {
+        font-size: 60px;
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 20%;
+    }
+    .row {
+        padding: 5px 0 5px 0;
+    }
+    p.section--paragraph {
+        padding: 0;
+    }
+    p {
+        padding: 0;
+    }
     .banner {
         background-color: $nextcloud-blue;
         position: relative;

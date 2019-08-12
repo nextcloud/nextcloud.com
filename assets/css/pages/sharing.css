@@ -48,4 +48,7 @@ section {
 .row {
   padding-top: 60px; }
 
+.section--sharing ul li {
+  list-style-image: url("../../img/enterprise/check-blue.svg"); }
+
 /*# sourceMappingURL=sharing.css.map */

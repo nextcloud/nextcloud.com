@@ -78,6 +78,29 @@
             <p class="section--paragraph"><?php echo $l->t('Nextcloud integrates comments, chat and secuire audio/video calls, offers real-time notifications through mobile, web and desktop interfaces and integrates document viewing and editing all in one platform. It even comes with groupware functionalities like a calendar, task management and email functionality so meetings, plans, invitations and all the details they come with stay within the secure data room.');?></p>
         </div>
     </div>
+    <div class="row feature-row">
+        <div class="col-md-6">
+            <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/meeting.jpg" alt="in action"/></a>
+        </div>
+        <div class="col-md-6 feature--block">
+            <p class="section--paragraph__tittle"><?php echo $l->t('A real use case');?></p>
+            <p class="section--paragraph"><?php echo $l->t('To ensure 6 employees from a third party can check the books and approve a deal, a Nextcloud VDR is set up. The internal team of 11 employees each gets an account where they can freely upload and collaborate on documents, through their mobile devices as well as by editing, chat and calls in the browser. The 6 guests receive a guest account.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('The welcome mail guides the guests to set up their account with a password and a second factor of their choice: a hardware key, a one-time-password mechanism like Google Authenticator or an SMS. Then they can log in.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('The internal team can share files with the guests, with or without editing rights for the guest (on a per-file basis). Their Outlook email application will, when an email is written to a guest, automatically upload attachments as well as mail body to the VDR and simply notify the guest that a new message was received.');?></p>
+        </div>
+    </div>
+    <div class="row feature-row">
+        <div class="col-md-6">
+            <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/include.jpg" alt="in action"/></a>
+        </div>
+        <div class="col-md-6 feature--block">
+            <p class="section--paragraph"><?php echo $l->t('Besides email, users can comment on documents, which will notify a mentioned person or the document owner. Last but not least, real-time audio/video communication and chat are available, all within the VDR. This ensures no information, not even the content of emails or meta data of chat and calls can leak.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Aside from participating in communication when invited, the six guests can only ever see and, if they have the access rights, edit files. The files can not be downloaded, copied from or printed and are watermarked on the screen at all times. Guests can also not upload files unless a folder is made available to them where they can do so, nor connect with third party tools or clients to Nextcloud unless explicitly allowed. Any file has to be accessed securely through the browser or is not available.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('At the end of the process, the VDR is archived and any devices which were set up are remotely wiped by the administrator using the built-in remote wipe feature.');?></p>
+            <p class="section--paragraph"><strong><?php echo $l->t('Is this what you need?');?></strong>
+            <a href="<?php echo home_url('buy') ?>" class="hyperlink"><?php echo $l->t('Contact us and get started now.');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
+        </div>
+    </div>
 </div>
 </section>
 
@@ -102,6 +125,7 @@
             <ul>
                 <li><?php echo $l->t('Activity tracking and audit log, real-time reporting');?></li>
                 <li><?php echo $l->t('Built in secure communication with comments and audio/video chat');?></li>
+                <li><?php echo $l->t('Secure email box (prevent leaking of email content and attachments with Outlook integration)');?></li>
                 <li><?php echo $l->t('Advanced search within the whole VDR');?></li>
                 <li><?php echo $l->t('Extensive file compatibility');?></li>
                 <li><?php echo $l->t('Unlimited data and accounts');?></li>
@@ -112,14 +136,13 @@
         <div class="col-md-6">
             <ul>
                 <li><?php echo $l->t('Extensive security capabilites including:');?>
-                <ul>
-                    <li><?php echo $l->t('Multi-layer, military-grade encryption');?></li>
-                    <li><?php echo $l->t('Advanced digital rights management');?></li>
-                    <li><?php echo $l->t('multi-factor authentication');?></li>
-                    <li><?php echo $l->t('Video Verification to ensure identity proof');?></li>
-                    <li><?php echo $l->t('Extensive file access control mechanisms');?></li>
-                    <li><?php echo $l->t('Watermarking of files');?></li>
-                </ul></li>
+                <li><?php echo $l->t('Multi-layer, military-grade encryption');?></li>
+                <li><?php echo $l->t('Advanced digital rights management');?></li>
+                <li><?php echo $l->t('multi-factor authentication');?></li>
+                <li><?php echo $l->t('Video Verification to ensure identity proof');?></li>
+                <li><?php echo $l->t('Extensive file access control mechanisms');?></li>
+                <li><?php echo $l->t('Watermarking of files');?></li>
+                <li><?php echo $l->t('Remote wipe');?></li>
             </ul>
         </div>
     </div>
