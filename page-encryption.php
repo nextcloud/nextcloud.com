@@ -1,12 +1,10 @@
 <head>
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/secure.css?v=1" rel="stylesheet">
-    <script>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/encryption.css?v=1" rel="stylesheet">
+<!--    <script>
     require(["require.config"], function() {
-        require(["bootstrap", "pages/secure", "modules/youtubePlayer"])
+        require(["bootstrap"])
     });
-    </script>
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+    </script>-->
 
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/securityscan-nw.png">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/securityscan-nw.png">
