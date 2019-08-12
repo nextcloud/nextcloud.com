@@ -144,7 +144,7 @@
 		</div>
 	<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/markus.jpg" />
 				<h2 class="teamname">Markus Windecker</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Account and Partner Manager</h3>
