@@ -29,7 +29,7 @@
 		</div>
 	</div>
 	<div class="scrollbutton">
-        <a href="#scroll"><span></span><span></span><span></span><?php echo $l->t('');?></a>
+        <a href="#scroll"><span></span><span></span><span></span> </a>
 	</div>
 </div>
 <script>
