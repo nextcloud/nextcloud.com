@@ -34,6 +34,8 @@
             <p><?php echo $l->t('You can find your own Federated Cloud ID in your user settings. Give it to your friends so they can share files with you!');?></p>
             <h2><?php echo $l->t('More details');?></h2>
             <p><?php echo $l->t('Learn more in the Nextcloud');?> <a href="<?php echo $DOCUMENTATION_USER; ?>files/federated_cloud_sharing.html" target="_blank"><?php echo $l->t('user documentation</a> and');?> <a href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_files/federated_cloud_sharing_configuration.html"><?php echo $l->t('administrator documentation');?></a>.</p>
+            <p><?php echo $l->t('Want to learn more about sharing in Nextcloud?');?></p>
+            <a href="<?php echo home_url('sharing') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Sharing in Nextcloud');?></a>
         </div>
     </div>
 </div>
