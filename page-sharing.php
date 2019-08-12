@@ -98,7 +98,7 @@ require(["require.config"], function() {
                     <li><?php echo $l->t('Attach notes to a share, either to a Nextcloud user or to a public link');?></li>
                     <li><?php echo $l->t('Share directly to users on other Nextcloud, ownCloud or Pydio servers (see below: <a class="hyperlink" href="#federation">federation</a>)');?></li>
                     <li><?php echo $l->t('Extensive Virtual Data Room restrictions like watermarking, ability to limit documents to filling in forms or blocking download or printing, are available. Learn more on our Virtual Data Room page.');?>
-                    <a class="button button--blue" href="<?php echo home_url('secure-drop') ?>"><?php echo $l->t('Virtual Data Rooms');?></a></li>
+                    <a class="button button--blue" href="<?php echo home_url('virtual-data-room') ?>"><?php echo $l->t('Virtual Data Rooms');?></a></li>
                 </ul>
             </div>
         </div>
