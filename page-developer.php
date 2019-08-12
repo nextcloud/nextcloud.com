@@ -75,6 +75,7 @@
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>client_apis/LoginFlow/index.html"><?php echo $l->t('Login Flow');?></a></li>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/client_apis/index.html"><?php echo $l->t('Client APIs');?></a></li>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>android_library/index.html#nextcloud-android-library"><?php echo $l->t('Access Nextcloud through our Android library');?></a></li>
+                <li><a class="hyperlink" href="https://github.com/nextcloud/Android-SingleSignOn/#how-to-use-this-library"><?php echo $l->t('Connect your Android app to Nextcloud with Single Sign On');?></a></li>
             </ul>
         </div>
     </div>
