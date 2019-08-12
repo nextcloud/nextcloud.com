@@ -94,7 +94,7 @@ require(["require.config"], function() {
         </div>
         <div class="col-lg-2 col-md-3 col-sm-4 customer">
             <div class="customer-logo">
-                <a href="https://sib.fr/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/SIB.png" /></a>
+                <a href="https://renater.fr/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/logo-RENATER.png" /></a>
             </div>
         </div>
         <div class="col-lg-2 col-md-3 col-sm-4 customer">
