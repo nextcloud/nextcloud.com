@@ -182,7 +182,7 @@ function request_account($request) {
 				isset($decodedBody['data']['message']) &&
 				$decodedBody['data']['message'] === 'user already exists') {
 
-				return new WP_Error('username_already_used', 'User is already existing', array('status' => 400));
+				return new WP_Error('username_already_used', 'User already exists', array('status' => 400));
 			}
 		}
 		error_log('Provider did not returned 201: ' . json_encode($post));
@@ -229,6 +229,10 @@ function request_account($request) {
 function get_providers_list() {
 	// get providers list
 	$json = json_decode(file_get_contents(PROVIDERS_FILE));
+
+	if (!is_array($json)) {
+		return new WP_Error('unknown_error', 'Invalid provider file', array('status' => 400, 'json' => PROVIDERS_FILE));
+	}
 
 	// obfuscate keys
 	foreach ($json as $provider) {
