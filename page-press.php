@@ -20,6 +20,7 @@
     <a href="<?php echo home_url('press/pr20190425') ?>" class="button button--large button--blue button--arrow">Press release and background</a>
     <h2>Press releases</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20190814') ?>">August 14, 2019: 1000 French universities and research organizations gain access to secure, private collaboration platform</a></li>
         <li><a href="<?php echo home_url('press/pr20190627') ?>">June 27, 2019: Nextcloud introduces collaborative rich text editor</a></li>
         <li><a href="<?php echo home_url('press/pr20190515') ?>">May 15, 2019: Nitrokey and Nextcloud collaborate on securing private clouds</a></li>
         <li><a href="<?php echo home_url('press/pr20190425') ?>">April 25, 2019: Nextcloud 16 introduces machine learning based security and usability features, ACL permissions and more advanced project management capabilities</a></li>

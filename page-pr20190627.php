@@ -2,10 +2,10 @@
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pressrelease.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
-<meta itemprop="image" content="https://nextcloud.com/media/openletter_article13_social.png">
-<meta name="twitter:image" content="https://nextcloud.com/media/openletter_article13_social.png">
-<meta name="twitter:image:src" content="https://nextcloud.com/media/openletter_article13_social.png">
-<meta property="og:image" content="https://nextcloud.com/media/openletter_article13_social.png">
+<meta itemprop="image" content="https://nextcloud.com/media/Nextcloud-Text-screenshot.png">
+<meta name="twitter:image" content="https://nextcloud.com/media/Nextcloud-Text-screenshot.png">
+<meta name="twitter:image:src" content="https://nextcloud.com/media/Nextcloud-Text-screenshot.png">
+<meta property="og:image" content="https://nextcloud.com/media/Nextcloud-Text-screenshot.png">
 </head>
 <div class="background generic-background">
 	<div class="container">
