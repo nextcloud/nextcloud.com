@@ -30,6 +30,112 @@
 
     <a name="latest16"></a>
 
+<h3 id="16-0-4">Version 16.0.4 <small>August 16 2019</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.4.tar.bz2">nextcloud-16.0.4.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.4.zip">nextcloud-16.0.4.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.4.tar.bz2.md5">nextcloud-16.0.4.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.4.zip.md5">nextcloud-16.0.4.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.4.tar.bz2.sha256">nextcloud-16.0.4.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.4.zip.sha256">nextcloud-16.0.4.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.4.tar.bz2.sha512">nextcloud-16.0.4.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.4.zip.sha512">nextcloud-16.0.4.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.4.tar.bz2.asc">nextcloud-16.0.4.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.4.zip.asc">nextcloud-16.0.4.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+	<li><a href="https://github.com/nextcloud/server/pull/16254">Always set the display name for user shares (server#16254)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16325">Prevent undefined offset 0 in findByUserIdOrMail (server#16325)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16330">Use HTTP1.1 to read S3 objects (server#16330)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16338">Bump lodash.mergewith from 4.6.1 to 4.6.2 (server#16338)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16341">Bump lodash.merge from 4.6.1 to 4.6.2 (server#16341)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16352">Bump lodash from 4.17.11 to 4.17.13 (server#16352)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16405">Addsubtag should push to array (server#16405)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16414">Add catch for RuntimeException (server#16414)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16425">Only prevent disabling encrytion via the API (server#16425)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16432">Do not keep searching for recent (server#16432)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16437">Update operationprogressbar.js (server#16437)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16444">Fix File#putContents(string) on ObjectStorage (server#16444)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16500">Pass $configargs to openssl_pkey_export (server#16500)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16524">Nested recursion breaking max nested level for parent comment calculation (server#16524)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16527">Allow hidden smb shares (server#16527)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16536">Allow to provide supported calendar component set internally as a string (server#16536)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16541">Lock SCSS so we only run 1 job at a time (server#16541)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16543">Fix max contrast retrieval to limit minimum color for relative time (server#16543)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16561">Supresses disclosing the userid for LDAP users in the welcome mail (server#16561)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16562">Use a pattern to identify sensitive config keys (server#16562)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16564">Do not log locked files (server#16564)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16566">Log email shares in admin_audit log (server#16566)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16567">Change send to sent (server#16567)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16578">Do not log all locked exceptions (server#16578)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16598">Check the if we can actually access the storage cache for recent files (server#16598)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16607">Set proper defaults for v-tooltip usages (server#16607)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16610">Fix/xss/on favorite file (server#16610)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16627">Log circles and remote shares in admin_audit (server#16627)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16630">Make sure we only fetch the file by id for the actual owner (server#16630)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16633">Remove unncessary code block in share recommendations, fixed undefined var error (server#16633)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16637">Files_external: proper user context for sharing (server#16637)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16689">Properly return an int in the getId function of the cache (server#16689)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16691">Fix enable/disable user audit message (server#16691)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16695">Delay sending event from app init to when they are needed (server#16695)</a></li>
+	<li><a href="https://github.com/nextcloud/files_pdfviewer/pull/145">Fix download button shown in public share page with hidden downloads (files_pdfviewer#145)</a></li>
+	<li><a href="https://github.com/nextcloud/files_texteditor/pull/169">Change name from 'Text editor' to 'Plain text editor' to prevent confusion with 'Text' (files_texteditor#169)</a></li>
+	<li><a href="https://github.com/nextcloud/files_texteditor/pull/176">Run drone for webpack build (files_texteditor#176)</a></li>
+	<li><a href="https://github.com/nextcloud/files_videoplayer/pull/135">Bump lodash from 4.17.11 to 4.17.14 (files_videoplayer#135)</a></li>
+	<li><a href="https://github.com/nextcloud/firstrunwizard/pull/199">Bump lodash.mergewith from 4.6.1 to 4.6.2 (firstrunwizard#199)</a></li>
+	<li><a href="https://github.com/nextcloud/firstrunwizard/pull/200">Bump lodash.merge from 4.6.1 to 4.6.2 (firstrunwizard#200)</a></li>
+	<li><a href="https://github.com/nextcloud/firstrunwizard/pull/202">Bump lodash from 4.17.11 to 4.17.14 (firstrunwizard#202)</a></li>
+	<li><a href="https://github.com/nextcloud/firstrunwizard/pull/205">Bump fstream from 1.0.11 to 1.0.12 (firstrunwizard#205)</a></li>
+	<li><a href="https://github.com/nextcloud/notifications/pull/376">Bump lodash from 4.17.11 to 4.17.13 (notifications#376)</a></li>
+	<li><a href="https://github.com/nextcloud/notifications/pull/384">Trim the subject before encrypting the subject (notifications#384)</a></li>
+	<li><a href="https://github.com/nextcloud/notifications/pull/390">Align the notification subject vertically to the icon (notifications#390)</a></li>
+	<li><a href="https://github.com/nextcloud/notifications/pull/391">Fix notification body text alignment and text contrast (notifications#391)</a></li>
+	<li><a href="https://github.com/nextcloud/notifications/pull/392">Fix mention and actions layout (notifications#392)</a></li>
+	<li><a href="https://github.com/nextcloud/recommendations/pull/105">Bump lodash.mergewith from 4.6.1 to 4.6.2 (recommendations#105)</a></li>
+	<li><a href="https://github.com/nextcloud/recommendations/pull/107">Bump lodash from 4.17.11 to 4.17.14 (recommendations#107)</a></li>
+	<li><a href="https://github.com/nextcloud/recommendations/pull/120">Bump tar from 2.2.1 to 2.2.2 (recommendations#120)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/102">Bump cypress-image-snapshot from 3.0.1 to 3.0.2 (viewer#102)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/103">Bump babel-loader from 8.0.5 to 8.0.6 (viewer#103)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/104">Bump cypress-file-upload from 3.1.1 to 3.1.2 (viewer#104)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/109">Bump @babel/preset-env from 7.4.4 to 7.4.5 (viewer#109)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/116">Bump eslint-plugin-node from 9.0.1 to 9.1.0 (viewer#116)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/119">Bump cypress-testing-library from 3.0.1 to 4.0.0 (viewer#119)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/121">Bump nextcloud-vue from 0.11.3 to 0.11.4 (viewer#121)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/127">Bump webpack-cli from 3.3.2 to 3.3.3 (viewer#127)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/130">Bump file-loader from 3.0.1 to 4.0.0 (viewer#130)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/131">Bump cypress-image-snapshot from 3.1.0 to 3.1.1 (viewer#131)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/135">Bump webpack from 4.33.0 to 4.34.0 (viewer#135)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/137">Bump cypress-file-upload from 3.1.2 to 3.1.3 (viewer#137)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/138">Bump webpack-cli from 3.3.3 to 3.3.4 (viewer#138)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/139">Bump nextcloud-server from 0.15.9 to 0.15.10 (viewer#139)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/144">Bump webpack from 4.34.0 to 4.35.0 (viewer#144)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/152">Bump eslint-plugin-vue from 5.2.2 to 5.2.3 (viewer#152)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/153">Bump webpack-cli from 3.3.4 to 3.3.5 (viewer#153)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/154">Bump eslint-plugin-promise from 4.1.1 to 4.2.1 (viewer#154)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/155">Bump url-loader from 2.0.0 to 2.0.1 (viewer#155)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/156">Bump eslint-plugin-import from 2.17.3 to 2.18.0 (viewer#156)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/165">Bump eslint-loader from 2.1.2 to 2.2.1 (viewer#165)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/176">Bump webpack from 4.35.2 to 4.35.3 (viewer#176)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/178">Bump stylelint-scss from 3.8.0 to 3.9.1 (viewer#178)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/182">Bump eslint-plugin-import from 2.18.0 to 2.18.2 (viewer#182)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/187">Bump webpack-cli from 3.3.5 to 3.3.6 (viewer#187)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/188">Bump vue-loader from 15.7.0 to 15.7.1 (viewer#188)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/189">Bump webpack from 4.35.3 to 4.36.1 (viewer#189)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/194">Bump webpack from 4.36.1 to 4.38.0 (viewer#194)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/196">Bump url-loader from 2.0.1 to 2.1.0 (viewer#196)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/201">Bump lodash from 4.17.11 to 4.17.15 (viewer#201)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/202">Bump webpack from 4.38.0 to 4.39.0 (viewer#202)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/204">Bump webpack from 4.39.0 to 4.39.1 (viewer#204)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/47">Detect and switch fullscreen (viewer#47)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/66">Update version on master (viewer#66)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/67">Test actions (viewer#67)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/68">Revert "Test actions" (viewer#68)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/69">Bump nextcloud-vue from 0.9.5 to 0.10.0 (viewer#69)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/70">Bump eslint-plugin-import from 2.16.0 to 2.17.2 (viewer#70)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/71">Bump eslint-import-resolver-webpack from 0.11.0 to 0.11.1 (viewer#71)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/72">Bump webpack from 4.29.6 to 4.30.0 (viewer#72)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/73">Fix/loading/race condition (viewer#73)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/90">Bump webpack-cli from 3.3.1 to 3.3.2 (viewer#90)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/92">Bump eslint-plugin-node from 8.0.1 to 9.0.1 (viewer#92)</a></li>
+	<li><a href="https://github.com/nextcloud/viewer/pull/96">Bump webpack from 4.30.0 to 4.31.0 (viewer#96)</a></li>
+</ul>
+
     <h3 id="16-0-3">Version 16.0.3 <small>July 9 2019</small></h3>
     <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.3.tar.bz2">nextcloud-16.0.3.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.3.zip">nextcloud-16.0.3.zip</a></br>
     Check the file integrity with:</br>
@@ -168,6 +274,45 @@
     </ul>
 
     <a name="latest15"></a>
+
+<h3 id="15-0-11">Version 15.0.11 <small>August 16 2019</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.11.tar.bz2">nextcloud-15.0.11.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.11.zip">nextcloud-15.0.11.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.11.tar.bz2.md5">nextcloud-15.0.11.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.11.zip.md5">nextcloud-15.0.11.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.11.tar.bz2.sha256">nextcloud-15.0.11.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.11.zip.sha256">nextcloud-15.0.11.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.11.tar.bz2.sha512">nextcloud-15.0.11.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.11.zip.sha512">nextcloud-15.0.11.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.11.tar.bz2.asc">nextcloud-15.0.11.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.11.zip.asc">nextcloud-15.0.11.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+	<li><a href="https://github.com/nextcloud/server/pull/16224">Dont use part files for dav writes when the target folder doesn't have create permissions (server#16224)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16326">Prevent undefined offset 0 in findByUserIdOrMail (server#16326)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16344">Bump lodash.mergewith from 4.6.1 to 4.6.2 in /settings (server#16344)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16345">Bump lodash.merge from 4.6.1 to 4.6.2 in /settings (server#16345)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16346">Bump lodash.mergewith from 4.6.1 to 4.6.2 in /build (server#16346)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16348">Bump lodash from 4.17.11 to 4.17.14 in /apps/accessibility (server#16348)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16350">Bump lodash from 4.17.11 to 4.17.13 in /settings (server#16350)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16351">Bump lodash from 4.17.11 to 4.17.14 in /apps/updatenotification (server#16351)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16353">Bump lodash from 4.17.11 to 4.17.14 in /build (server#16353)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16357">Bump lodash from 4.17.11 to 4.17.14 in /apps/oauth2 (server#16357)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16426">Only prevent disabling encrytion via the API (server#16426)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16433">Do not keep searching for recent (server#16433)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16445">Fix File#putContents(string) on ObjectStorage (server#16445)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16537">Allow to provide supported calendar component set internally as a string (server#16537)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16548">Bump fstream from 1.0.11 to 1.0.12 in /build (server#16548)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16549">Bump fstream from 1.0.11 to 1.0.12 in /settings (server#16549)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16565">Use a pattern to identify sensitive config keys (server#16565)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16568">Change send to sent (server#16568)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16608">Set proper defaults for v-tooltip usages (server#16608)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16611">Fix/xss/on favorite file (server#16611)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16631">Make sure we only fetch the file by id for the actual owner (server#16631)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16690">Properly return an int in the getId function of the cache (server#16690)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16692">Fix enable/disable user audit message (server#16692)</a></li>
+	<li><a href="https://github.com/nextcloud/files_pdfviewer/pull/146">Fix download button shown in public share page with hidden downloads (files_pdfviewer#146)</a></li>
+	<li><a href="https://github.com/nextcloud/notifications/pull/377">Bump lodash from 4.17.10 to 4.17.14 (notifications#377)</a></li>
+	<li><a href="https://github.com/nextcloud/notifications/pull/385">Trim the subject before encrypting the subject (notifications#385)</a></li>
+</ul>
+
 
     <h3 id="15-0-10">Version 15.0.10 <small>July 9 2019</small></h3>
     <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.10.tar.bz2">nextcloud-15.0.10.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.10.zip">nextcloud-15.0.10.zip</a></br>
@@ -760,6 +905,33 @@
     </ul>
 
     <a name="latest14"></a>
+
+<h3 id="14-0-14">Version 14.0.14 <small>August 16 2019</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.14.tar.bz2">nextcloud-14.0.14.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.14.zip">nextcloud-14.0.14.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.14.tar.bz2.md5">nextcloud-14.0.14.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.14.zip.md5">nextcloud-14.0.14.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.14.tar.bz2.sha256">nextcloud-14.0.14.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.14.zip.sha256">nextcloud-14.0.14.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.14.tar.bz2.sha512">nextcloud-14.0.14.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.14.zip.sha512">nextcloud-14.0.14.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.14.tar.bz2.asc">nextcloud-14.0.14.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.14.zip.asc">nextcloud-14.0.14.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+	<li><a href="https://github.com/nextcloud/server/pull/16193">Forward OCSException to initiator (server#16193)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16342">Bump lodash.merge from 4.6.1 to 4.6.2 in /settings (server#16342)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16347">Bump lodash from 4.17.11 to 4.17.14 in /settings (server#16347)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16354">Bump lodash from 4.17.11 to 4.17.14 in /apps/oauth2 (server#16354)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16355">Bump lodash from 4.17.11 to 4.17.14 in /apps/updatenotification (server#16355)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16356">Bump lodash from 4.17.11 to 4.17.14 in /build (server#16356)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16358">Bump lodash from 4.17.11 to 4.17.14 in /apps/accessibility (server#16358)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16427">Only prevent disabling encrytion via the API (server#16427)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16434">Do not keep searching for recent (server#16434)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16609">Set proper defaults for v-tooltip usages (server#16609)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16612">Fix/xss/on favorite file (server#16612)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16648">Bump lodash.mergewith from 4.6.1 to 4.6.2 in /build (server#16648)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/16650">Bump fstream from 1.0.11 to 1.0.12 in /build (server#16650)</a></li>
+	<li><a href="https://github.com/nextcloud/notifications/pull/386">Trim the subject before encrypting the subject (notifications#386)</a></li>
+</ul>
+
 
     <h3 id="14-0-13">Version 14.0.13 <small>July 5 2019</small></h3>
     <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.13.tar.bz2">nextcloud-14.0.13.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-14.0.13.zip">nextcloud-14.0.13.zip</a></br>
