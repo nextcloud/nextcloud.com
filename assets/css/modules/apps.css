@@ -1,5 +1,7 @@
 [class^='app-'], [class*=' app-'] { background-repeat: no-repeat; background-position: center; background-size: 16px; min-width: 16px; min-height: 16px; }
 
+.app-audioplayer { background-image: url("../img/apps/audioplayer.svg"); }
+
 .app-bookmarks { background-image: url("../img/apps/bookmarks.svg"); }
 
 .app-calendar { background-image: url("../img/apps/calendar.svg"); }
