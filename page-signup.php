@@ -69,7 +69,8 @@ $officialApps = [
     'mindmaps' => $l->t('Mindmaps'),
     'passman' => $l->t('Passman'),
     'drawio' => $l->t('Draw.io'),
-    'bookmarks' => $l->t('Bookmarks')
+    'bookmarks' => $l->t('Bookmarks'),
+    'audioplayer' => $l->t('Audioplayer')
 ];
 
 $coreApps = ['files', 'calendar', 'contacts', 'spreed', 'mail', 'tasks', 'notes'];
