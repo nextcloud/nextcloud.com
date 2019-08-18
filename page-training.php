@@ -54,11 +54,11 @@
 			The <a class="hyperlink" href="https://www.parkinn-berlin.de/en">Park Inn</a> at Berlin Alexanderplatz</p>
 			<p class="section--paragraph revealOnScroll">
 			<i style="float:left; margin: 10px;" class="fa fa-bed"></i>
-			Book at <a class="hyperlink" href="https://www.parkinn-berlin.de/en">Park Inn</a> with the discount code <code>Nextcloud</code></p>
+			Book at <a class="hyperlink" href="https://www.parkinn-berlin.de/en">Park Inn</a> with the discount code <code>Nextcloud</code> <br><small>Rooms reserved until August 25</small></p>
 			<p class="section--paragraph__tittle">Pricing</p>
 			<p class="section--paragraph revealOnScroll">
 			<i style="float:left; margin: 10px;" class="fa fa-ticket"></i>
-			Entree is €400<br/>Book until July 31st and get 50% off!</p>
+			Entree is €400<br/>Book until August 15th and get 50% off!</p>
 			<p class="section--paragraph revealOnScroll"></p>
 			<p class="section--paragraph text-center revealOnScroll"><a href="https://eventyay.com/e/b4dd4aab/" class="button button--blue button--arrow button--large">Sign up now!</a></p>
 		</div>
