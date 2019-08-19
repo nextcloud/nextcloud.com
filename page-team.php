@@ -200,7 +200,7 @@
 					<h3 class="teamtitle">Online Marketer</h3>
 					<h4 class="teamexpertise">Marketing and Content</h4>
 					<h4 class="teamlocation">lives in Tirana, Albania</h4>
-					<p class="teamsocial"><!--<a href="https://spreed.me/"><i class="fa-rss fa"></i></a>--> <a href="https://shiromarieke.github.io/"><i class="fa-rss fa"></i></a> <a href="https://github.com/shiromarieke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/shiromarieke"><i class="fa-twitter fa"></i></a> </p>
+					<p class="teamsocial"><a href="https://web.facebook.com/marinela.gogo.3"><i class="fa-facebook fa"></i></a><!-- <a href=""><i class="fa-rss fa"></i></a> <a href=""><i class="fa-github fa"></i></a>--> <a href="https://twitter.com/MarinelaGogo"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Marinela studied Business Informatics in the Faculty of Economics, University of Tirana. She got involved in open source in 2015, first by contributing to open source projects and then, in 2016, she started co-organizing events or conferences in Tirana to promote software freedom, open knowledge and the importance of open source in the public sector.</p>
 			</div>
