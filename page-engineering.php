@@ -1,4 +1,4 @@
-x<head>
+<!-- x<head> -->
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/engineering.css" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
@@ -257,11 +257,11 @@ require(["require.config"], function() {
         <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Data protection');?></p>
         <h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Secure your data');?></h3>
         <div class="distribution--ilustration"></div>
-        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('While data needs to be at legal professionals\' finger tips at all times, the IT department must be able to ensure policies around securing and sharing sensitive documents are respected.');?></p>
+        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('While data needs to be at professionals\' finger tips at all times, the IT department must be able to ensure policies around securing and sharing sensitive documents are respected.');?></p>
     </div>
     <div class="row">
         <div class="col-md-10 col-md-offset-1 revealOnScroll feature--block">
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Legal documents are extremely sensitive. Clients care deeply about their privacy and keeping their data secure while regulators give heavy penalties for data leaks. Nextcloud offers you the tools to keep data compliant and safe.');?></p>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Theft of industry secrets is rampant in the high tech industry and valuable information has to be protected from competitors. Customer data can be extremely sensitive. Nextcloud offers you the tools to keep data compliant and safe.');?></p>
             <p class="section--paragraph revealOnScroll"><ul>
             <li><strong><?php echo $l->t('Legal compliance');?></strong><br/>
             <?php echo $l->t('Federal data protection and GDPR-compliant, protecting data sovereignty, keep the server location in your country.');?></li>
@@ -305,6 +305,16 @@ require(["require.config"], function() {
             <p class="section--paragraph revealOnScroll">
                 <?php echo $l->t('Seamless integration and ease of use with key features like offline recovery keys, auditing and HSM support make Nextcloud Encryption capabilities leading in the industry.');?>
             </p>
+        </div>
+    </div>
+    <div class="row feature-row">
+        <div class="col-md-6 revealOnScroll image--feature image--floated new-img">
+            <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ransomware-recovery.png" alt="in action"/></a>
+        </div>
+        <div class="col-md-6 revealOnScroll feature--block">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Best Ransomware protection in the industry');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Ransomware attacks are becoming more targetted as lots of money can be extracted from businesses and government organizations. While insurance can cover direct costs, the disruption to business is immense regardless. Nextcloud goes far beyond competing solutions, offering automated, one-click ransomware recovery tools.');?></p>
+            <a href="https://nextcloud.com/blog/amidst-rising-ransomware-costs-another-us-city-pays-hundreds-of-thousands-to-recover-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Ransomware risks and protection');?></a>
         </div>
     </div>
     <div class="row ncc--container">

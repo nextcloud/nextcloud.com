@@ -54,7 +54,7 @@
 }
 
 .healthcare-background {
-  background: url("../../img/headers/healthcare.jpeg") no-repeat;
+  background: url("../../img/headers/government.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   margin-bottom: 50px;
@@ -95,7 +95,7 @@ section .row {
 }
 
 .claim {
-  margin-top: -103px;
+  margin-top: -153px;
 }
 .claim__container {
   display: flex;
@@ -119,9 +119,9 @@ section .row {
   align-items: center;
 }
 .claim__brand__logo {
-  background: url("../../img/customers/nantes.png") no-repeat center/contain;
-  width: 46px;
-  height: 46px;
+  background: url("../../img/customers/FMI-wide.png") no-repeat center/contain;
+  width: 56px;
+  height: 56px;
 }
 .claim__brand__text {
   margin: 0;
@@ -405,4 +405,4 @@ footer {
   margin-top: 0px;
 }
 
-/*# sourceMappingURL=healthcare.css.map */
+/*# sourceMappingURL=government.css.map */
