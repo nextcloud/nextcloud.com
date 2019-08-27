@@ -574,6 +574,7 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
     <h2 class="section--heading-2 revealOnScroll"><?php echo $l->t('Interviews and blogs');?></h2>
     <p class="section--paragraph"><?php echo $l->t('We regularly cover customer interviews and case studies on our blog.');?></p>
     <p class="section--paragraph"><ul>
+        <li><a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-talk-offering-secure-corporate-messaging-for-scm-limited/">August 28, 2019 - Nextcloud Talk offering secure corporate messaging for SCM LIMITED</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/">August 27, 2019 - Amid escalating trade disputes, EU governments choose independence from US cloud providers</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/japan-to-add-millions-of-new-nodes-to-federated-nextcloud-network/">August 25, 2018 - Japan to add millions of new nodes to federated Nextcloud network</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/keeping-data-secure-at-a-globally-distributed-organization-konrad-adenauer-stiftung/">August 13, 2018 - Keeping data secure at a globally distributed organization: Konrad Adenauer Stiftung</a></li>
