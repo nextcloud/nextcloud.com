@@ -5,10 +5,10 @@ require(["require.config"], function() {
 	require(["bootstrap"])
 });
 </script>
-<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/dicom.jpg">
-<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/dicom.jpg">
-<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/dicom.jpg">
-<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/dicom.jpg">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/government.jpg">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/government.jpg">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/government.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/government.jpg">
 </head>
 <div class="healthcare-background second-menu">
     <div class="container-fluid background">
@@ -33,7 +33,7 @@ require(["require.config"], function() {
                 <p class="claim__brand__text">
                     - Thierry Markwitz, Sous Directeur at Infrastructures au Ministère de l’Interieur (French Ministry of Interior)
                 </p>
-                <a class="button button--blue button--small button--arrow" href="https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/">Learn more</a>
+                <a class="button button--blue button--small button--arrow" href="https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/"><?php echo $l->t('Learn more');?></a>
             </div>
         </div>
     </div>
