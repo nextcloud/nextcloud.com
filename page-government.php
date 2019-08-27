@@ -1,17 +1,10 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/healthcare.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/government.css" rel="stylesheet">
 <script>
 require(["require.config"], function() {
-	require(["pages/education", "modules/submenu", "bootstrap"])
+	require(["bootstrap"])
 });
 </script>
-<!--<script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
-<script type="text/javascript">
-    var CaptchaCallback = function() {
-        grecaptcha.render('RecaptchaField1', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
-        grecaptcha.render('RecaptchaField2', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
-    };
-</script>-->
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/dicom.jpg">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/dicom.jpg">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/dicom.jpg">
@@ -21,78 +14,24 @@ require(["require.config"], function() {
     <div class="container-fluid background">
         <div class="container">
 			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Nextcloud in Healthcare');?></h1>
-				<h2><?php echo $l->t('On-premises security');?></p>
+				<h1><?php echo $l->t('Nextcloud in Government');?></h1>
+				<h2><?php echo $l->t('Reclaiming Digital Sovreignty');?></p>
 			</div>
 		</div>
 	</div>
-    <div class="container-fluid menu" id="menuAnchor">
-		<div class="container buttons">
-            <a href="#convenient"><?php echo $l->t('convenient');?></a>
-<!-- 			<a href="#secure"><?php echo $l->t('secure');?></a> -->
-			<a href="#integrated"><?php echo $l->t('integrated');?></a>
-			<a href="#HIPAA"><?php echo $l->t('HIPAA');?></a>
-		</div>
-	</div>
+
 </div>
-
-<section class="section--intro">
-<div class="container">
-	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
-            <p class="section--paragraph text-center"><?php echo $l->t('Patient safety is the highest priority at health care and life science institutions. Nextcloud makes patient information available to healthcare professionals when they need it through an easy-to-use interface with the highest degree of reliability, security and privacy at reasonable cost.');?></p>
-		</div>
-	</div>
-</div>
-</section>
-
-
-<section class="section--whitepaper quote">
-	<div class="container revealOnScroll">
-        <div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-                <h2 class="revealOnScroll"><?php echo $l->t('Analysis: data in healthcare');?></h2>
-                <p class="revealOnScroll"><?php echo $l->t('We recommend to keep sensitive data on your own infrastructure instead of in a public cloud as the easiest and most cost-effective way of ensuring compliance.<br />Download our free healthcare security analysis.');?></p>
-
-                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
-
-                    <p><label for="email">
-                    <td colspan="2" style="text-align:center">
-                    <div class="">
-                        <div id="RecaptchaField1"></div>
-                    </div>
-                    </td>
-                    <input type="hidden" name="segmentId" value="2">
-                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
-                    <input class="button button--large" type="submit" value=" Get the Analysis ">
-                    <div class="newsletter">
-                        <input type="hidden" name="newsletter" value="0" />
-<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
-                        <input type="hidden" name="moreinfo" value="0" />
-                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
-                        <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
-                    </div>
-
-
-
-                    </p>
-                </form>
-            </div>
-        </div>
-<!--         <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/ldap-thumbnail-banner.png"/> -->
-	</div>
-</section>
 
 <section class="claim">
     <div class="container">
         <div class="col-md-10 col-md-offset-1 claim__container">
             <p class="claim__paragraph">
-                <?php echo $l->t('In the next 5 to 10 years, we can expect far more security issues, which will require bigger budgets, more staff and teaching best practices.');?>
+                <?php echo $l->t('The French government cares deeply about the safety of the data of their citizens and employees. With the on-premises content collaboration platform Nextcloud we have opted for a secure, easy to use solution from the leading European vendor.');?>
             </p>
             <div class="claim__brand">
                 <div class="claim__brand__logo"></div>
                 <p class="claim__brand__text">
-                    - Cédric Cartau, Chief Information Security Officer at <a class="hyperlink" href="https://www.digitalforallnow.com/en/what-are-the-implications-of-healthcare-data-security-interview-with-cedric-cartau/">Nantes University Hospital</a>
+                    - Thierry Markwitz, Sous Directeur at <a class="hyperlink" href="https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/">Infrastructures au Ministère de l’Interieur (French Ministry of Interior)</a>
                 </p>
             </div>
         </div>
@@ -100,8 +39,65 @@ require(["require.config"], function() {
 </section>
 
 
+<section class="section--intro">
+<div class="container">
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+            <p class="section--paragraph text-center"><?php echo $l->t('
+            digital sovreignty rocks
+            ');?></p>
+		</div>
+	</div>
+</div>
+</section>
 
-<!--<section class="section--customers">
+<section class="section--overview">
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 revealOnScroll">
+			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/mobile.svg" /></div>
+			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Modern Communication');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Communication via paper only is out of date. Clients expect from their government a modern, digital communication exchange, secure and discreet. In the office, at home and on the road.');?></p>
+		</div>
+		<div class="col-md-4 revealOnScroll">
+			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/permissions.svg" /></div>
+			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Ultimate security');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Choosing an on-premises product means you can guarantee your citizens that data never leaves your organization and remains 100% confidential.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Powerful server and client side encryption options provide ultimate protection for sensitive documents.');?></p>
+		</div>
+		<div class="col-md-4 revealOnScroll">
+			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/storage.svg" /></div>
+			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Independence');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Open Source means full control over your infrastructure. One of worlds most used and best understood software licenses protects your investment, guaranteeing complete vendor independence and zero risk of compliance issues.');?></p>
+		</div>
+	</div>
+	<div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <p class="text-center"><?php echo $l->t('Reduce risk, improve citizen communication and reduce operational expenses with the leading content collaboration platform.');?></p>
+            <p class="text-center"><?php echo $l->t('Contact us now to learn how we can help you!');?></p>
+            <div class="text-center morebuttondiv">
+                <a href="<?php echo home_url('buy') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="section--customerdetail">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-6 revealOnScroll">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/itzbund.png" alt="in action"/>
+            </div>
+            <div class="col-md-6 revealOnScroll feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('German Federal Government, ITZBund');?></p>
+                <p class="section--paragraph"><blockquote><?php echo $l->t('Nextcloud provides users with a modern, easy-to-use and productivity-oriented solution that enables efficient online and mobile collaboration and communication. ITZBund now provides an on-premises open source solution from a German provider to keep control over their own data.');?></blockquote></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section--customers">
 <div class="container">
     <h2 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Some of our customers');?></h2>
     <div class="row">
@@ -127,7 +123,8 @@ require(["require.config"], function() {
         </div>
     </div>
 </div>
-</section>-->
+</section>
+
 
 <section class="section--on-premise">
 <div class="container">

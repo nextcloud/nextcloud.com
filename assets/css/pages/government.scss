@@ -5,7 +5,7 @@
 
 
 .healthcare-background {
-  background: url("../../img/headers/healthcare.jpeg") no-repeat;
+  background: url("../../img/headers/government.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   margin-bottom: 50px
@@ -44,7 +44,7 @@ section {
 }
 
 .claim {
-    margin-top: -103px;
+    margin-top: -153px;
 
     &__container {
         display: flex;
@@ -70,9 +70,9 @@ section {
         align-items: center;
 
         &__logo {
-            background: url("../../img/customers/nantes.png") no-repeat center/contain;
-            width: 46px;
-            height: 46px;
+            background: url("../../img/customers/FMI-wide.png") no-repeat center/contain;
+            width: 56px;
+            height: 56px;
         }
 
         &__text {

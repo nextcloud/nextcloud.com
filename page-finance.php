@@ -60,7 +60,7 @@ require(["require.config"], function() {
             <p class="text-center"><?php echo $l->t('Reduce risk, improve customer communication, develop new revenue sources and reduce operational expenses with the leading content collaboration platform.');?></p>
             <p class="text-center"><?php echo $l->t('Contact us to learn how we can help you.');?></p>
             <div class="text-center morebuttondiv">
-                <a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                <a href="<?php echo home_url('buy') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
         </div>
     </div>
@@ -237,7 +237,6 @@ require(["require.config"], function() {
                 <p class="section--paragraph revealOnScroll"><?php echo $l->t('Sharing files across the borders of your organization can be done easily and securely with our file-drop feature.');?></p>
                 <p class="section--paragraph revealOnScroll"><?php echo $l->t('IT stays in control at all times, enforcing security policy with the File Access Control capabilities.');?></p>
                 <a href="<?php echo home_url('file-drop') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('File Drop');?></a>
-
             </div>
         </div>
         <div class="row feature-row">
@@ -318,7 +317,17 @@ require(["require.config"], function() {
         </div>
     </div>
     <div class="row feature-row">
-        <div class="col-md-6 revealOnScroll">
+        <div class="col-md-6 revealOnScroll image--feature new-img">
+            <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ransomware-recovery.png" alt="in action"/></a>
+        </div>
+        <div class="col-md-6 revealOnScroll feature--block">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Best Ransomware protection in the industry');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Ransomware attacks are becoming more targetted as lots of money can be extracted from businesses and government organizations. While insurance can cover direct costs, the disruption to business is immense regardless. Nextcloud goes far beyond competing solutions, offering automated, one-click ransomware recovery tools.');?></p>
+            <a href="https://nextcloud.com/blog/amidst-rising-ransomware-costs-another-us-city-pays-hundreds-of-thousands-to-recover-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Ransomware risks and protection');?></a>
+        </div>
+    </div>
+    <div class="row feature-row">
+        <div class="col-md-6 revealOnScroll image--floated ">
             <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/endtoend-server-nw.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/endtoend-server-nw.png" alt="in action" /></a>
         </div>
         <div class="col-md-6">

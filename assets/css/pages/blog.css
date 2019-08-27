@@ -170,9 +170,6 @@ section .container .row .col-md-10 {
   color: #0082c9;
   border: solid 1px #0082c9;
 }
-.section--content .container .row .content blockquote a {
-  /* 						color: #555; */
-}
 .section--content .container .row .content .blog-metadata {
   font-size: 20px;
   padding-bottom: 20px;
