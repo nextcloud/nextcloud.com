@@ -61,6 +61,7 @@ Nextcloud's easy and quick deployment, open, modular architecture and emphasis o
 <ul>
 <li><a href="https://www.handelsblatt.com/technik/it-internet/cloud-dienste-eu-staaten-setzen-auf-deutsches-start-up-nextcloud/24942352.html">coverage in Handelsblatt: EU-Staaten setzen auf deutsches Start-up Nextcloud</a> <small>(EU countries rely on German start-up Nextcloud)</small></li>
 <li><a href="https://www.handelsblatt.com/technik/it-internet/nextcloud-gruender-frank-karlitschek-wir-geben-den-staaten-die-hoheit-ueber-ihre-informationen-zurueck/24942392.html?ticket=ST-3141198-YyfVcc2TUWyZgqdcfai7-ap1">coverage in Handelsblatt: Interview with Frank Karlitschek</a> <small>(in German)</small></li>
+<li><a href="https://www.nextinpact.com/news/108156-le-ministere-linterieur-migre-sur-solution-libre-nextcloud.htm">coverage in Nextinpact: Le ministère de l’Intérieur migre sur la solution libre Nextcloud</a> <small>(Ministry of Interior moves to Libre Nextcloud)</small></li>
 <!--<li><a href=""></a></li>
 <li><a href=""></a></li>
 <li><a href=""></a></li>

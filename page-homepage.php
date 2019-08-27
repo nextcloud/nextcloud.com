@@ -14,9 +14,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-16-introduces-machine-learning-based-security-and-usability-features-acl-permissions-and-cross-app-projects/">
+				<a class="announcement" href="https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/">
 				<span class="type">News</span>
-				<span class="message"><strong><?php echo $l->t('Nextcloud 16');?></strong> <?php echo $l->t(' introduces machine learning based security and usability features, ACL permissions and cross-app projects');?></span>
+				<span class="message"><strong><?php echo $l->t('EU governments');?></strong> <?php echo $l->t(' choose independence from US cloud providers with Nextcloud');?></span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Protecting your data');?></h1>
@@ -117,6 +117,11 @@
             </div>
             <div class="col-sm-2 col-lg-2 customer">
                 <div class="customer-logo">
+                    <a href="https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/FMI-wide.png" /></a>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-2 customer">
+                <div class="customer-logo">
                     <a href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/tuberlin.png" /></a>
                 </div>
             </div>
@@ -130,13 +135,13 @@
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/randv.png" />
                 </div>
             </div>
+        </div>
+        <div class="row">
             <div class="col-sm-2 col-lg-2 customer">
                 <div class="customer-logo">
                     <a href="https://nextcloud.com/blog/nextcloud-is-the-one-and-only-solution-we-are-providing-to-our-end-customers-florian-hausleitner/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/Raiffeisen_Steiermark_modified.png" /></a>
                 </div>
             </div>
-        </div>
-        <div class="row">
             <div class="col-sm-2 col-lg-2 customer">
                 <div class="customer-logo">
                     <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/max-planck.png" />
@@ -155,11 +160,6 @@
             <div class="col-sm-2 col-lg-2 customer">
                 <div class="customer-logo">
                     <a href="https://nextcloud.com/blog/the-danish-research-and-education-network-moves-from-owncloud-to-nextcloud/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/deic.png" /></a>
-                </div>
-            </div>
-            <div class="col-sm-2 col-lg-2 customer">
-                <div class="customer-logo">
-                    <a href="http://my.engineering.queensu.ca/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/queens.png" /></a>
                 </div>
             </div>
             <div class="col-sm-2 col-lg-2 customer">

@@ -31,8 +31,9 @@ require(["require.config"], function() {
             <div class="claim__brand">
                 <div class="claim__brand__logo"></div>
                 <p class="claim__brand__text">
-                    - Thierry Markwitz, Sous Directeur at <a class="hyperlink" href="https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/">Infrastructures au Ministère de l’Interieur (French Ministry of Interior)</a>
+                    - Thierry Markwitz, Sous Directeur at Infrastructures au Ministère de l’Interieur (French Ministry of Interior)
                 </p>
+                <a class="button button--blue button--small button--arrow" href="https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/">Learn more</a>
             </div>
         </div>
     </div>
@@ -43,9 +44,7 @@ require(["require.config"], function() {
 <div class="container">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-            <p class="section--paragraph text-center"><?php echo $l->t('
-            digital sovreignty rocks
-            ');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Governments are moving away from foreign cloud providers amid rising concerns about digital sovreignty. Nextcloud has emerged as the most deployed self-hosted private cloud solution in government.');?></p>
 		</div>
 	</div>
 </div>
@@ -57,7 +56,7 @@ require(["require.config"], function() {
 		<div class="col-md-4 revealOnScroll">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/mobile.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Modern Communication');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('Communication via paper only is out of date. Clients expect from their government a modern, digital communication exchange, secure and discreet. In the office, at home and on the road.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Communication via paper only is out of date. Citizens expect from their government a modern, digital communication exchange, secure and discreet. In the office, at home and on the road.');?></p>
 		</div>
 		<div class="col-md-4 revealOnScroll">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/permissions.svg" /></div>
@@ -92,6 +91,7 @@ require(["require.config"], function() {
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('German Federal Government, ITZBund');?></p>
                 <p class="section--paragraph"><blockquote><?php echo $l->t('Nextcloud provides users with a modern, easy-to-use and productivity-oriented solution that enables efficient online and mobile collaboration and communication. ITZBund now provides an on-premises open source solution from a German provider to keep control over their own data.');?></blockquote></p>
+                <a class="button button--blue button--arrow" href="https://nextcloud.com/blog/german-federal-administration-relies-on-nextcloud-as-a-secure-file-exchange-solution/">Learn more</a>
             </div>
         </div>
     </div>
@@ -103,22 +103,22 @@ require(["require.config"], function() {
     <div class="row">
 		<div class="col-sm-3 customer">
             <div class="customer-logo">
-                <a href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/tuberlin.png" /></a>
+                <a href="https://nextcloud.com/blog/german-federal-administration-relies-on-nextcloud-as-a-secure-file-exchange-solution/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/itzbund.png" /></a>
             </div>
         </div>
 		<div class="col-sm-3 customer">
             <div class="customer-logo">
-                <a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/regioit.png" /></a>
+                <a href="https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/FMI.png" /></a>
             </div>
         </div>
         <div class="col-sm-3 customer">
             <div class="customer-logo">
-                <a href="https://nextcloud.com/blog/the-danish-research-and-education-network-moves-from-owncloud-to-nextcloud/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/deic.png" /></a>
+                <a href="https://www.nationaalarchief.nl"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/national_archief.svg" /></a>
             </div>
         </div>
         <div class="col-sm-3 customer">
             <div class="customer-logo">
-                <a href="http://my.engineering.queensu.ca/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/queens.png" /></a>
+                <a href="http://www.ville-geneve.ch/welcome-geneva/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/Geneva_city_insignia.gif" /></a>
             </div>
         </div>
     </div>
@@ -146,6 +146,21 @@ require(["require.config"], function() {
 </div>
 </section>
 
+<section class="section--customerdetail">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-6 revealOnScroll">
+                <a><img class="img-responsive" src="https://nextcloud.com/media/Bern_luftaufnahme.png" alt="in action"/></a>
+            </div>
+            <div class="col-md-6 revealOnScroll feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Capital of Switzerland provides Nextcloud to 35.000 students and teachers');?></p>
+                <blockquote><?php echo $l->t('the largest open source order ever in Switzerland!');?></blockquote>
+                <p class="alignright" style="margin-top: -40px"><?php echo $l->t('-- Matthias Stürmer, EPP city councillor');?></p>
+                <a href="https://nextcloud.com/blog/next-big-open-source-win-capital-of-switzerland-moves-schools-to-nextcloud//" class="button button--blue button--arrow button--large"><?php echo $l->t('Announcement blog');?></a>
+            </div>
+        </div>
+    </div>
+</section>
 
 <a name="convenient"></a>
 <section class="section--convenient">
@@ -154,11 +169,11 @@ require(["require.config"], function() {
             <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Easy access to data');?></p>
             <h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Putting the user first');?></h3>
             <div class="easy--ilustration"></div>
-            <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Protocols, status updates and test results can be stored safely and shared easily among the professionals who need access.');?></p>
+            <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Internal reports, citizen data and politically sensitive documents can be stored safely and shared easily among the professionals who need access.');?></p>
         </div>
         <div class="row">
             <div class="col-md-10 col-md-offset-1 revealOnScroll feature--block">
-                <p class="section--paragraph revealOnScroll"><?php echo $l->t('With the growing complexity of the medical profession comes increasing amounts of patient data. Having patient information available in a moments notice can save lives. Nextcloud is designed for ease of use, fitting familiar interfaces and lowering the barrier to sharing and data access.');?></p>
+                <p class="section--paragraph revealOnScroll"><?php echo $l->t('With the growing complexity of governance comes increasing amounts of data. Nextcloud is designed for ease of use, fitting familiar interfaces and lowering the barrier to sharing and data access.');?></p>
             </div>
         </div>
         <div class="row">
@@ -167,7 +182,7 @@ require(["require.config"], function() {
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Easy access');?></p>
-                <p class="section--paragraph"><?php echo $l->t('A first requirement for any secure solution to share data is that it does not force complexity on the user. Complexity leads to mistakes and mistakes can cost lives!');?></p>
+                <p class="section--paragraph"><?php echo $l->t('A first requirement for any secure solution to share data is that it does not force complexity on the user. Complexity leads to mistakes and mistakes can lead to data leaks!');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud makes accessing and sharing data a breeze, providing users a comfortable, familiar workspace.');?></p>
             </div>
         </div>
@@ -177,8 +192,8 @@ require(["require.config"], function() {
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Multi-platform productivity');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Data needs to be available where the patient is. Tablets, mobile devices, laptops and desktops all have access to the same files at a moments notice thanks to the first-class Nextcloud clients.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Doctors and nurses can tag and comment on files for easy collaboration, roll back files to earlier versions or find deleted files in the trash. Real time collaborative editing and secure audio/video calls and chat complement the array of features aimed at enhancing productivity.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Data needs to be available where the employees are. Tablets, mobile devices, laptops and desktops all have access to the same files at a moments notice thanks to the first-class Nextcloud clients.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Employees can tag and comment on files for easy collaboration, roll back files to earlier versions or find deleted files in the trash. Real time collaborative editing and secure audio/video calls and chat complement the array of features aimed at enhancing productivity.');?></p>
             </div>
         </div>
         <div class="row">
@@ -192,7 +207,24 @@ require(["require.config"], function() {
         </div>
     </div>
 </section>
-
+<section class="section--customerdetail">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-6 revealOnScroll">
+                <blockquote><?php echo $l->t('The need for Sweden as a country to have control over its information and the consequences of not having access to the information should be considered from the perspective of national security and sovereignty. In an international crisis or conflict, the willingness and ability of other countries to access, manipulate or deny access to information handled by a service provider should be considered.');?></blockquote>
+                <p class="alignright" style="margin-top: -40px"><?php echo $l->t('-- Swedish National Procurement Services');?></p>
+            </div>
+            <div class="col-md-6 revealOnScroll feature--block">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Sweden deploying Nextcloud');?></p>
+                <blockquote>The uncertainty about how the public sector may use cloud services creates problems</blockquote>
+                <p>Said Försäkringskassans cto, Mikael Norberg</p>
+                <p class="section--paragraph"><?php echo $l->t('Försäkringskassan is working on developing user functionality for such things as file storing internal messaging services, end-to-end encrypted and self hosted.');?></p>
+                <a href="https://computersweden.idg.se/2.2683/1.719614/statens-moln-forsakringskassan" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more (Swedish)');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--
 <section class="section--explanation benefits">
 <div class="container-fluid banner quote">
     <div class="container">
@@ -215,7 +247,7 @@ require(["require.config"], function() {
         <img class="small-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/medicaldevices-small.jpeg">
     </div>
 </div>
-</section>
+</section>-->
 
 <a name="secure"></a>
 <section class="section--secure">
@@ -224,12 +256,12 @@ require(["require.config"], function() {
         <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Data protection');?></p>
         <h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Secure your data');?></h3>
         <div class="distribution--ilustration"></div>
-        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('While data needs to be at medical professionals\' finger tips at all times, the IT department must be able to ensure policies around Protected Health Information are respected.');?></p>
+        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('While data needs to be at professionals\' finger tips at all times, the IT department must be able to ensure policies around sensitive data are respected.');?></p>
     </div>
     <div class="row">
         <div class="col-md-10 col-md-offset-1 revealOnScroll feature--block">
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Healthcare data is at the same time extremely sensitive and needs to be immediately accessible. Regulators are aware and privacy and security requirements are extremely strict with HIPAA and HITECH rules in the US matched in many other countries across the globe.');?></p>
-            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud is a popular self-hosted solution in healthcare for its ability to strictly control access to data and industry-leading security capabilities.');?></p>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Government data is at the same time extremely sensitive and needs to be immediately accessible. Regulators are aware and privacy and security requirements are extremely strict.');?></p>
+            <p class="section--paragraph revealOnScroll"><?php echo $l->t('Nextcloud is a popular self-hosted solution in government for its ability to strictly control access to data and industry-leading security capabilities.');?></p>
         </div>
     </div>
     <div class="row">
@@ -239,6 +271,7 @@ require(["require.config"], function() {
         <div class="col-md-6 revealOnScroll feature--block">
             <p class="section--paragraph__tittle"><?php echo $l->t('File Access Control');?></p>
             <p class="section--paragraph"><?php echo $l->t('The File Access Control feature of Nextcloud enables IT to codify legal and policy requirements, blocking unauthorized users uploading or downloading data following defined rules. Criteria include IP address ranges, group membership, file type and size, time and more. Data retention can be controlled as well, enabling administrators to limit the lifetime of certain files.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('For ultimate protection, the self-hosted collaboration solution can even be entirely firewalled off from the internet. This is the model employed by the Germand and French federal governments.');?></p>
             <a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('File Access Control');?></a>
         </div>
     </div>
@@ -297,7 +330,7 @@ require(["require.config"], function() {
 </section>
 
 
-<section class="section--dicom">
+<!--<section class="section--dicom">
 <div class="container-fluid banner quote">
     <div class="container">
         <div class="col-md-6">
@@ -315,7 +348,7 @@ require(["require.config"], function() {
         <div class="dicom-img"></div>
     </div>
 </div>
-</section>
+</section>-->
 
 
 
@@ -339,7 +372,7 @@ require(["require.config"], function() {
     <div class="row revealOnScroll ">
         <div class="col-md-6">
             <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/kerberos.svg");?>
-            <p class="section--paragraph"><?php echo $l->t('Nextcloud integrates in hospital infrastructure with support for SAML and Shibboleth, LDAP, Kerberos, Oauth, and other often used authentication mechanisms and runs on all enterprise Linux systems offering support options to match their life cycle.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud integrates in government infrastructure with support for SAML and Shibboleth, LDAP, Kerberos, Oauth, and other often used authentication mechanisms and runs on all enterprise Linux systems offering support options to match their life cycle.');?></p>
         </div>
         <div class="col-md-6">
             <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/storage.svg");?>
@@ -414,50 +447,6 @@ require(["require.config"], function() {
     <div class="row revealOnScroll">
         <div class="col-md-8 col-md-offset-2 featureblock">
         <p class="text-center"><a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('First class enterprise support with custom integration and security consulting available.');?></a></p>
-        </div>
-    </div>
-</div>
-</section>
-
-<div class="separator"></div>
-<a name="HIPAA"></a>
-<section class="section--hipaa">
-<div class="container">
-    <div class="row">
-        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud and HIPAA');?></p>
-        <h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('HIPAA COMPLIANCE STATEMENT');?></h3>
-        <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Updated August 1, 2017');?></p>
-    </div>
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1 revealOnScroll">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Introduction');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Nextcloud meets all Technical Safeguards requirements, supporting full compliance with the Health Insurance Portability and Accountability Act (HIPAA) of 1996. Nextcloud GmbH is committed to ensure its software keeps PHI (Protected Health Information) private and secure. We have implemented features, policies and procedures designed to ensure compliance with Federal and State information security laws, regulations, and rules, and monitor ongoing compliance efforts.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Nextcloud supports:
-            <ul>
-            <li>Advanced Access Control capabilities</li>
-            <li>Automatic expiration of passwords</li>
-            <li>Account lockout upon multiple failed log-in attempts</li>
-            <li>Automatic virus scans</li>
-            <li>Secure data backups</li>
-            <li>Audit-ready logging of all user actions</li>
-            <li>Data-at-rest, in-transit and full end-to-end encryption</li>
-            <li>Email verification and two-factor authentication</li>
-            </ul>');?></p>
-            <p class="section--paragraph"><?php echo $l->t('The self-hosted nature of Nextcloud ensures Nextcloud usage does not change existing compliance of infrastructure, provided features and capabilities are employed as required by HIPAA and other legislation. Nextcloud can advise in implementing a HIPAA compliant setup.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Nextcloud services are designed not to require that our employees gain access to any customer data. In case this is required for specific support cases, confidentiality agreements are signed with all employees and extensive security processes are in place to log, investigate and report any breaches.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('We understand that keeping your client’s information safe is of the utmost importance and Nextcloud GmbH will continue to provide its software and services in accordance with the relevant requirements of all state and federal laws and regulations, including, as applicable, HIPAA.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('For additional information regarding Nextcloud’s privacy practices as they relate to this website, please see our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('Privacy Statement</a>.');?></p>
-        </div>
-    </div>
-        <div class="row">
-        <div class="col-md-10 col-md-offset-1 revealOnScroll">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Questions');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Questions regarding Nextcloud’s HIPAA policies or compliance may be directed to:');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Nextcloud GmbH<br>
-            Attention: HIPAA Privacy Officer<br>
-            Hauptmannsreute 44A<br>
-            70192 Stuttgart Germany<br>
-            info@nextcloud.com');?></p>
         </div>
     </div>
 </div>
