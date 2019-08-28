@@ -66,6 +66,7 @@
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>/configuration_user/user_provisioning_api.html"><?php echo $l->t('User provisioning via REST');?></a></li>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app/users.html"><?php echo $l->t('Write a new user-management backend');?></a></li>
                 <li><a class="hyperlink" href="https://nextcloud-talk.readthedocs.io/en/latest/"><?php echo $l->t('Nextcloud Talk REST API');?></a></li>
+                <li><a class="hyperlink" href="https://www.tentwentyfour.lu/2019/08/27/nextcloud-link/"><?php echo $l->t('Third party node.js connector');?></a></li>
             </ul>
         </div>
         <div class="col-md-6">
