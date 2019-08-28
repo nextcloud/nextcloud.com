@@ -152,7 +152,7 @@ require(["require.config"], function() {
 	<div class="container">
          <div class="row feature-row">
             <div class="col-md-6 revealOnScroll">
-                <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/SCM_logo.svg" alt="SCM logo"/></a>
+                <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/SCM_team.jpg" alt="SCM picture"/></a>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Talk offering secure corporate messaging for SCM LIMITED');?></p>
