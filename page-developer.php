@@ -190,7 +190,7 @@
                 </div>
             </div>
             <div class="text-center">
-                <a class="button button--blue button--large button--arrow" href="<?php echo home_url('contribute') ?>"><?php echo $l->t('Contact us to learn more');?></a>
+                <a class="button button--blue button--large button--arrow" href="<?php echo home_url('contact') ?>"><?php echo $l->t('Contact us to learn more');?></a>
             </div>
         </div>
     </div>
