@@ -63,7 +63,7 @@ $l = new L10N('footer');
                 <li><a href="https://apps.nextcloud.com"><?php echo $l->t('App Store'); ?></a></li>
                 <li><a href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Admin manual'); ?></a></li>
                 <li><a href="<?php echo $DOCUMENTATION_USER; ?>"><?php echo $l->t('User manual'); ?></a></li>
-                <li><a href="<?php echo $DOCUMENTATION_DEVELOPER; ?>"><?php echo $l->t('Developer manual'); ?></a></li>
+                <li><a href="<?php echo home_url('developer'); ?>"><?php echo $l->t('Developer program'); ?></a></li>
                 <li><a href="<?php echo home_url('security'); ?>"><?php echo $l->t('Security'); ?></a></li>
                 <li><a href="https://github.com/nextcloud"><?php echo $l->t('Code on GitHub'); ?></a></li>
             </ul>
