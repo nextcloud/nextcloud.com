@@ -106,7 +106,7 @@
             <div class="col-md-6  feature--block">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/check.svg" class="icon" />
                 <p class="section--paragraph__tittle"><?php echo $l->t('Featured community app:');?> <br /> Nextcloud OCR</p>
-                <p class="section--paragraph"><?php echo $l->t('The app uses tesseract-js in the browser in order to process images (png, jpeg, tiff) and PDFs and saves the output file to the source folder in nextcloud. That for example enables you to search in it.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The app uses tesseract-js in the browser in order to extract text from images (png, jpeg, tiff) and PDFs and saves the output file to the source folder in nextcloud. That for example enables you to search in it.');?></p>
                 <a href="https://apps.nextcloud.com/apps/ocr" class="button button--blue button--arrow button--large"><?php echo $l->t('See the OCR app');?></a>
             </div>
         </div>
@@ -155,6 +155,19 @@
             </div>
         </div>
     </div>
+</section>
+
+<section class="section--contact quote">
+<div class="container">
+    <div class="row">
+        <h2 class="text-center"><?php echo $l->t('Have ideas on how to improve our developer information?');?></h2>
+        <p class="section--paragraph text-center"><?php echo $l->t('Sign up to our forum and join the discussion.');?></p>
+        <p class="section--paragraph text-center"><?php echo $l->t('We love to hear your thoughts!');?></p>
+        <div class="text-center morebuttondiv">
+            <a href="https://help.nextcloud.com/c/dev" class="button button-button--large button--arrow"><?php echo $l->t('Share your ideas');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+        </div>
+    </div>
+</div>
 </section>
 
 <section class="section--why">
