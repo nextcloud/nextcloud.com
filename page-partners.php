@@ -172,12 +172,12 @@
                 </a>
                 <p  class="partnertext">Zero Trust is a french company offering IT consulting, security audits and security solutions integration. We provide Nextcloud  for our customers in order to improve their data protection and compliance with RGDP and other regulations.</p>
             </div>
-<!--			<div class="col-md-4">
-				<a href="https://www.cyber-guardians.net" target="_blank" title="Cyber Guardians">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/cyberguardians.png" title="Cyber Guardians logo" />
+			<div class="col-md-4">
+				<a href="https://www.qloud.my" target="_blank" title="Qloud MSP">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/qloudmsp.png" title="Qloud MSP logo" />
 				</a>
-				<p  class="partnertext"></p>
-			</div>-->
+				<p  class="partnertext">Qloud MSP (Qinetics Services Sdn. Bhd) is a Malaysian based company specialized in managed services, IT outsourcing and cloud computing. Our solution are highly focused on customer business productivity while prioritizing data protection and control.</p>
+			</div>
 		</div>
 
         <div class="row">
