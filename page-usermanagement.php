@@ -150,6 +150,7 @@
 			<p class="section--paragraph"><?php echo $l->t('Any number of these can be enabled by the admin.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Active user sessions can be invalidated through a list, by removing the user in the admin settings or by changing passwords. Users can manage their own sessions and devices.');?></p>
 			<p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_user/two_factor-auth.html"><?php echo $l->t('Find documentation here.');?></a></p>
+			<p class="section--paragraph"><a class="hyperlink" href="https://nextcloud.com/blog/nitrokey-and-nextcloud-collaborate-on-securing-private-clouds/"><?php echo $l->t('OTP Nitrokey hardware has been certified with Nextcloud.');?></a> <?php echo $l->t('U2F, FIDO2 and HSM functionality is being developed.');?></p>
 		</div>
 	</div>
 </div>
