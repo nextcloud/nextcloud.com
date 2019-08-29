@@ -45,6 +45,16 @@ section {
     /* 			list-style-type: circle; */
     list-style-image: url("../../img/enterprise/check.svg");
     /* 		list-style-position:inside; */ }
+  section blockquote {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.7;
+    padding: 50px 30px;
+    color: #6c6c6c; }
+    section blockquote small {
+      display: inline; }
+    section blockquote small::before {
+      content: ''; }
 
 .section--compliance .banner {
   background-color: #0082c9;

@@ -27,6 +27,22 @@ section {
         list-style-image: url("../../img/enterprise/check.svg");
         /* 		list-style-position:inside; */
     }
+    blockquote {
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 1.7;
+        padding: 50px 30px;
+        color: #6c6c6c;
+        small {
+            display: inline;
+        }
+        small::before {
+            content: '';
+        }
+    }
+}
+
+.section--intro {
 }
 
 .section--compliance {
