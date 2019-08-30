@@ -1,10 +1,10 @@
 <head>
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/appdev.css?v=2" rel="stylesheet">
-    <meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png">
-    <meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png">
-    <meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png">
-    <meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png">
-    <meta name=”Description” content="You need confidential communication? Find out how Talk is your solution!">
+    <meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Nextcloudapps.png">
+    <meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Nextcloudapps.png">
+    <meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Nextcloudapps.png">
+    <meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Nextcloudapps.png">
+    <meta name=”Description” content="Develop for Nextcloud! Write a new app, extend Nextcloud or integrate other software.">
 
 <script>
 	require(["require.config"], function() {
@@ -23,7 +23,6 @@
 		</div>
 	</div>
 </div>
-
 <section class="section--documentation">
 <div class="container">
    	<div class="row">
@@ -203,7 +202,7 @@
                 </div>
             </div>
             <div class="text-center">
-                <a class="button button--blue button--large button--arrow" href="<?php echo home_url('contact') ?>"><?php echo $l->t('Contact us to learn more');?></a>
+                <a class="button button--blue button--large button--arrow" href="<?php echo home_url('appmarketing') ?>"><?php echo $l->t('Contact us to discuss!');?></a>
             </div>
         </div>
     </div>
