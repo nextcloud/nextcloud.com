@@ -22,6 +22,7 @@
 			<p class="section--paragraph text-center"><?php echo $l->t('M&A transactions, loan syndication, private equity and venture capital transactions require the utmost confidentiality. And all that without any data leaving your organization.');?></p>
 
 			<p class="section--paragraph text-center"><?php echo $l->t('Forget about SAAS and outsourcing: an on-premises Nextcloud VDR offers the ease of use that speeds up deal making while strict control over access and fine grained auditing ensure sensitive data remains secure.');?></p>
+
 			<br>
 		</div>
 	</div>
@@ -41,6 +42,9 @@
                 <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/tools.svg" /></div>
                 <p class="section--paragraph__tittle text-center"><?php echo $l->t('Under your control');?></p>
                 <p class="section--paragraph text-center"><?php echo $l->t('Do not resort to outsourcing. Rather than hosting your sensitive company data with a third party, keep it 100% on premises while offering the highly secure access and communication facilities required by a partner or prospect.');?></p>
+                <p class="section--paragraph text-center">
+
+                </p>
             </div>
             <div class="col-md-4">
                 <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>

@@ -32,6 +32,7 @@ require(["require.config"], function() {
 <!-- 			<a href="#secure"><?php echo $l->t('secure');?></a> -->
 			<a href="#integrated"><?php echo $l->t('integrated');?></a>
 			<a href="#HIPAA"><?php echo $l->t('HIPAA');?></a>
+			<a href="<?php echo home_url('gdpr') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/gdpr-compliant-blue.svg" /></a>
 		</div>
 	</div>
 </div>

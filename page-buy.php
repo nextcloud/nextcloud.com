@@ -50,6 +50,7 @@ imagedestroy($image);
 <div class="container">
 	<h2><?php echo $l->t('Nextcloud helps you be successful.');?></h2>
 	<p><?php echo $l->t('You run your own Nextcloud server, keeping your data in-house and under control. We make sure it works.');?></p>
+	<p><?php echo $l->t('All Nextcloud customers get access to our Nextcloud Enterprise build which is pre-configured, optimized and hardened for the special needs of large scale, production-critical enterprise deployments.');?></p>
 	<div class="contact">
 		<h3><?php echo $l->t('Contact us for more information and a quote fitting your use case.');?></h3>
 		<p><?php echo $l->t('Your answers to the following questions will help us better understand

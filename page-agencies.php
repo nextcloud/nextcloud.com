@@ -36,6 +36,7 @@ require(["require.config"], function() {
             <p class="claim__paragraph">
                 <?php echo $l->t('Nextcloud obsoletes inconvenient FTP servers, making sharing and collaboration seamless');?>
             </p>
+            <div class="icon text-center"><a href="<?php echo home_url('gdpr') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/gdpr-compliant-blue.svg" /></a></div>
             <!--<div class="claim__brand">
                 <div class="claim__brand__logo"></div>
                 <p class="claim__brand__text">

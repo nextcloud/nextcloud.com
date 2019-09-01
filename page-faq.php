@@ -19,7 +19,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid menu" id="menuAnchor">
+<!--	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
 			<a href="<?php echo home_url('pricing') ?>#plans"><?php echo $l->t('plans');?></a>
 			<a href="<?php echo home_url('pricing') ?>#options"><?php echo $l->t('options');?></a>
@@ -29,11 +29,12 @@
 			<a class="button button--blue" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a>
 			<a class="button button--blue" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise offering');?></a>
 		</div>
-	</div>
+	</div>-->
 </section>
 
+<section class="section--faq">
 <a name="faq" id="faq"></a>
-<div class="faq container-fluid">
+<div class="container-fluid">
 			<div class="text-center">
 				<h1 class="noRevealOnScroll"><?php echo $l->t('Frequently asked questions');?></h1>
 			</div>
@@ -190,3 +191,4 @@
 		</div>
 	</div>
 </div>
+</section>
