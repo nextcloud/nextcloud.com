@@ -28,6 +28,7 @@ require(["require.config"], function() {
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
             <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud enables secure file exchange between employees, clients and partners and makes your data available on all devices.');?></p>
+            <p class="section--paragraph text-center"><div class="icon text-center"><a href="<?php echo home_url('gdpr') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/gdpr-compliant-blue.svg" /></a></div></p>
 		</div>
 	</div>
 </div>

@@ -30,6 +30,7 @@ require(["require.config"], function() {
             <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud offers a unique on-premises solution for financial services companies.');?></p>
             <p class="section--paragraph text-center"><?php echo $l->t('Growing regulatory pressure and fast moving technology forces the financial services industry to improve operational efficiency while avoiding the risks that come with a move to public cloud technology.');?></p>
             <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud solves this without compromising security.');?></p>
+            <p class="section--paragraph text-center"><div class="icon text-center"><a href="<?php echo home_url('gdpr') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/gdpr-compliant-blue.svg" /></a></div></p>
 		</div>
 	</div>
 </div>
