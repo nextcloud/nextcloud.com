@@ -126,7 +126,7 @@
 				<div class="line noRevealOnScroll"></div>
 				<div class="downarrow noRevealOnScroll"><a href="#howbuy" data-toggle="collapse"><h3><?php echo $l->t('How do I buy Nextcloud subscriptions?<span class="icon-arrow-down">');?></h3></a></div>
 				<div id="howbuy" class="collapse">
-					<p><?php echo $l->t('A Nextcloud Subscription is bundled with Nextcloud Enterprise.');?><a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('Just contact us</a> or one of our partners. Our partners will help you set up Nextcloud and they act as your first point of contact.');?></p>
+					<p><?php echo $l->t('A Nextcloud Subscription is bundled with Nextcloud Enterprise.');?><a class="hyperlink" href="<?php echo home_url('buy') ?>"> <?php echo $l->t('Just contact us</a> or one of our partners. Our partners will help you set up Nextcloud and they act as your first point of contact.');?></p>
 				</div>
 				<div class="line noRevealOnScroll"></div>
                 <h2 class="noRevealOnScroll"><?php echo $l->t('Licensing');?></h2>
