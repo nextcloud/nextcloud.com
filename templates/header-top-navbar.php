@@ -85,7 +85,7 @@ require get_template_directory() . '/strings.php';
 					<ul class="nav__links">
                         <li class="nav__item"><a href="https://portal.nextcloud.com"><?php echo $l->t('Nextcloud Support'); ?></a></li>
                         <li class="nav__item"><a href="https://help.nextcloud.com"><?php echo $l->t('Community support'); ?></a></li>
-						<li class="nav__item"><a href="<?php echo home_url('pricing'); ?>#faq"><?php echo $l->t('FAQ'); ?></a></li>
+						<li class="nav__item"><a href="<?php echo home_url('faq'); ?>"><?php echo $l->t('FAQ'); ?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('pricing'); ?>"><?php echo $l->t('Pricing'); ?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('support'); ?>"><?php echo $l->t('Documentation'); ?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('whitepapers'); ?>"><?php echo $l->t('White papers'); ?></a></li>
