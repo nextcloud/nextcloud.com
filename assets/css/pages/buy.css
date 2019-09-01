@@ -7,39 +7,54 @@
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto; }
-  @media (min-width: 768px) {
-    .container-widest .container-widest {
-      width: 738px; } }
-  @media (min-width: 992px) {
-    .container-widest .container-widest {
-      width: 962px; } }
-  @media (min-width: 1200px) {
-    .container-widest .container-widest {
-      width: 1170px; } }
-  @media (min-width: 1500px) {
-    .container-widest .container-widest {
-      width: 1470px; } }
-  @media (min-width: 1800px) {
-    .container-widest .container-widest {
-      width: 1770px; } }
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container-widest .container-widest {
+    width: 738px;
+  }
+}
+@media (min-width: 992px) {
+  .container-widest .container-widest {
+    width: 962px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-widest .container-widest {
+    width: 1170px;
+  }
+}
+@media (min-width: 1500px) {
+  .container-widest .container-widest {
+    width: 1470px;
+  }
+}
+@media (min-width: 1800px) {
+  .container-widest .container-widest {
+    width: 1770px;
+  }
+}
 
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
-  position: absolute; }
+  position: absolute;
+}
 
 .buy-background {
-  background-image: url("../../img/enterprise/enterprise.jpg");
-  background-position: bottom 0 right 0; }
+  background-image: url("../../img/headers/enterprise.jpg");
+  background-position: bottom 0 right 0;
+}
 
 .contact {
   margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+}
 
 .contact > h3 {
   margin-top: 90px;
   margin-bottom: 20px;
-  text-align: left; }
+  text-align: left;
+}
 
 /*# sourceMappingURL=buy.css.map */

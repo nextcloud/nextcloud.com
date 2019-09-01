@@ -13,23 +13,20 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 topheader">
-					<h1><?php echo $l->t('Nextcloud Enterprise');?></h1>
-					<h2><?php echo $l->t('Nextcloud Enterprise is pre-configured, optimized and hardened for the special needs of large scale, production-critical enterprise deployments. It is backed by a Nextcloud Subscription which gives you access to our expertise, partner services and more.');?></h2>
+					<h1><?php echo $l->t('Nextcloud Enterprise FAQ');?></h1>
+					<h2><?php echo $l->t('Nextcloud Enterprise explained');?></h2>
 				</div>
 			</div>
 		</div>
 	</div>
-<!--	<div class="container-fluid menu" id="menuAnchor">
+	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
-			<a href="<?php echo home_url('pricing') ?>#plans"><?php echo $l->t('plans');?></a>
-			<a href="<?php echo home_url('pricing') ?>#options"><?php echo $l->t('options');?></a>
-			<a href="<?php echo home_url('pricing') ?>#discounts"><?php echo $l->t('discounts');?></a>
-			<a href="<?php echo home_url('faq') ?>"><?php echo $l->t('FAQ');?></a>
 			<a class="button button--blue" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('Order online');?></a>
 			<a class="button button--blue" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a>
+			<a class="button button--blue" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('pricing plans');?></a>
 			<a class="button button--blue" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise offering');?></a>
 		</div>
-	</div>-->
+	</div>
 </section>
 
 <section class="section--faq">

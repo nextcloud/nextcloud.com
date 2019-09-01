@@ -24,7 +24,7 @@
 			<a href="#plans"><?php echo $l->t('plans');?></a>
 			<a href="#options"><?php echo $l->t('options');?></a>
 			<a href="#discounts"><?php echo $l->t('discounts');?></a>
-			<a href="<?php echo home_url('faq') ?>"><?php echo $l->t('FAQ');?></a>
+			<a class="button button--blue" href="<?php echo home_url('faq') ?>"><?php echo $l->t('FAQ');?></a>
 			<a class="button button--blue" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('Order online');?></a>
 			<a class="button button--blue" href="<?php echo home_url('buy') ?>"><?php echo $l->t('get a quote');?></a>
 			<a class="button button--blue" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise offering');?></a>
@@ -172,21 +172,21 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 	</div>
 </div>
 <div class="container text-center">
-	<p class="revealOnScroll epricevat"><?php echo $l->t('Prices are in Euro per year and net/excl. VAT.');?></p>
-	<p class="revealOnScroll epricevat"><?php echo $l->t('Nextcloud subscriptions are available from 50 users and up.');?></p>
-	<p class="revealOnScroll epricevat"><?php echo $l->t('Nextcloud employees never gain access to your data as we do not offer hosting.');?></p>
-	<p class="revealOnScroll epricevat"><?php echo $l->t('Unless explicitly stated, Nextcloud 5x8 support is in UTC +01:00. Other times possible on request.');?></p>
-	<p class="revealOnScroll epricevat"><?php echo $l->t('Our Subscription offers direct access to Nextcloud engineering expertise without a layer of support people in between.');?></p>
+	<p class=" epricevat"><?php echo $l->t('Prices are in Euro per year and net/excl. VAT.');?></p>
+	<p class=" epricevat"><?php echo $l->t('Nextcloud subscriptions are available from 50 users and up.');?></p>
+	<p class=" epricevat"><?php echo $l->t('Nextcloud employees never gain access to your data as we do not offer hosting.');?></p>
+	<p class=" epricevat"><?php echo $l->t('Unless explicitly stated, Nextcloud 5x8 support is in UTC +01:00. Other times possible on request.');?></p>
+	<p class=" epricevat"><?php echo $l->t('Our Subscription offers direct access to Nextcloud engineering expertise without a layer of support people in between.');?></p>
 </div>
 
 <section class="section--options">
 	<a name="options" id="options"></a>
 <div class="container-widest">
 	<div class="introduction">
-		<h1 class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('Fitting your needs');?></h1>
-		<p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('On top of the benefits of a Nextcloud Subscription you can add several optional support and feature packages.');?></p>
+		<h1 class="section--heading-1 section--text--center "><?php echo $l->t('Fitting your needs');?></h1>
+		<p class="section--paragraph section--text--center "><?php echo $l->t('On top of the benefits of a Nextcloud Subscription you can add several optional support and feature packages.');?></p>
 	</div>
-    <div class="row revealOnScroll">
+    <div class="row ">
         <div class="col-md-offset-2 col-md-4">
 			<div class="featureblock">
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/collabora-nw.png">
@@ -206,7 +206,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 			</div>
 		</div>
     </div>
-    <div class="row revealOnScroll">
+    <div class="row ">
 		<div class="col-md-offset-2 col-md-4">
 			<div class="featureblock">
 	<!--         <i class="fa-envelope fa"></i> -->
@@ -227,7 +227,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 			</div>
 		</div>
 	</div>
-	<div class="row revealOnScroll">
+	<div class="row ">
 		<div class="col-md-offset-2 col-md-4">
 			<div class="featureblock">
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/spreed-screenshare2-nw.png">
@@ -255,17 +255,17 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 <section class="section--others">
 <div class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2 revealOnScroll">
-            <h2 class="text-center revealOnScroll"><?php echo $l->t('Synergy');?></h2>
-            <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('');?></p>
+        <div class="col-md-8 col-md-offset-2 ">
+            <h2 class="text-center "><?php echo $l->t('Synergy');?></h2>
+            <p class="section--paragraph text-center "><?php echo $l->t('');?></p>
         </div>
         <div class="row">
-            <div class="col-md-6 col-md-offset-3 revealOnScroll">
+            <div class="col-md-6 col-md-offset-3 ">
                 <p class="section--paragraph text-center"><?php echo $l->t('Also check out our other self-hosted products offering seamless integration in Nextcloud Files.');?></p>
             </div>
         </div>
     <div class="row">
-        <div class="col-md-5 col-md-offset-1 revealOnScroll">
+        <div class="col-md-5 col-md-offset-1 ">
 			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png" /></a>
 			<div class="row text-center"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Talk');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('secure online meetings, chat and web conferencing');?></p></div>
@@ -273,7 +273,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
                 <a href="<?php echo home_url('talk') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
 		</div>
-		<div class="col-md-5 revealOnScroll">
+		<div class="col-md-5 ">
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png" class="img-responsive" />
 			<div class="row text-center"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Groupware');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Team planning and email made easy');?></p></div>
@@ -288,14 +288,14 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 <a name="discounts" id="discounts"></a>
 <div class="container discounts">
 	<div class="row">
-		<h1 class="header revealOnScroll"><?php echo $l->t('Discounts');?></h1>
-		<div class="col-md-5 box revealOnScroll">
+		<h1 class="header "><?php echo $l->t('Discounts');?></h1>
+		<div class="col-md-5 box ">
             <?php echo file_get_contents(get_template_directory_uri().'/assets/img/enterprise/publicsector.svg'); ?>
             <p class="section--paragraph__tittle text-center"><?php echo $l->t('Public Sector');?></p>
             <p class="section--paragraph text-center"><?php echo $l->t('We provide interesting discount options to organizations in the public sector.');?></p>
             <p class="section--paragraph text-center"><a class="hyperlink"  href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('Contact us');?></a></p>
         </div>
-        <div class="col-md-5 col-md-offset-2 box revealOnScroll">
+        <div class="col-md-5 col-md-offset-2 box ">
             <?php echo file_get_contents(get_template_directory_uri().'/assets/img/enterprise/education.svg'); ?>
             <p class="section--paragraph__tittle text-center"><?php echo $l->t('Education');?></p>
             <p class="section--paragraph text-center"><?php echo $l->t('Organizations in the educational sector receive a significant discount on all subscriptions');?></p>

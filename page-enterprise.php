@@ -34,6 +34,7 @@
 			<a href="#scalability"><?php echo $l->t('scalability');?></a>
 			<a href="#security"><?php echo $l->t('security');?></a>
 			<a href="#integrity"><?php echo $l->t('integrity');?></a>
+			<a class="button button--blue" href="<?php echo home_url('faq') ?>"><?php echo $l->t('FAQ');?></a>
 			<a class="button button--blue" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('order online');?></a>
 			<a class="button button--blue" href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('get a quote');?></a>
 			<a class="button button--blue" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('pricing plans');?></a>
