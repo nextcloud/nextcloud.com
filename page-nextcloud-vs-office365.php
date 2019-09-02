@@ -172,8 +172,8 @@
                     </tr>
                     <tr>
                         <th scope="row">Other auth solutions</th>
-                        <td class="text-center">None</td>
                         <td class="text-center">Kerberos, OpenID, OAuth2, CAS<br/> direct connection to Samba or MySQL<br/> and more</td>
+                        <td class="text-center">None</td>
                     </tr>
                     <tr>
                         <th scope="row">File storage solutions</th>
@@ -188,23 +188,23 @@
                     </tr>
                     <tr>
                         <th scope="row">Full Audit trail</th>
-                        <td class="text-center">Limited to 90 days for some data</td>
                         <td class="text-center">Unlimited</td>
+                        <td class="text-center">Limited to 90 days for some data</td>
                     </tr>
                     <tr>
                         <th scope="row">Protection of metadata</th>
-                        <td class="text-center">Varies data streams go through<br /> global MS infrastructure</td>
                         <td class="text-center">100% secure</td>
+                        <td class="text-center">Varies data streams go through<br /> global MS infrastructure</td>
                     </tr>
                     <tr>
                         <th scope="row">GDPR compliance</th>
-                        <td class="text-center">Risky due to Cloud Act</td>
                         <td class="text-center">100% certified</td>
+                        <td class="text-center">Risky due to Cloud Act</td>
                     </tr>
                     <tr>
                         <th scope="row">Encryption</th>
-                        <td class="text-center">Server-side in MS data center</td>
                         <td class="text-center">Always on own infrastructure</td>
+                        <td class="text-center">Server-side in MS data center</td>
                     </tr>
                     <tr>
                         <th  scope="row"><h3>Communication and collaboration</h3></th>
