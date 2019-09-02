@@ -73,7 +73,9 @@ foreach($languages as $language) {
 
 //                      echo('translation percentage completed and reviewed for page: '.$pageName.' and language: '.$language.' is: '.$jsonResponse['completed'].' completed'.' and '.$jsonResponse['reviewed_percentage'].' reviewed'."\n".'If both are 100%, we proceed to sync the page.'."\n\n");
                     // temporarily disabled the reviewed percentage thing
-                        if(isset($jsonResponse['completed']) && $jsonResponse['completed'] === '100%' /*&& $jsonResponse['reviewed_percentage'] === '100%')*/ {
+                    //    if(isset($jsonResponse['completed']) && $jsonResponse['completed'] === '100%' && $jsonResponse['reviewed_percentage'] === '100%') {
+                    if(isset($jsonResponse['completed']) && $jsonResponse['completed'] === '100%') {
+
 //                              echo('syncing page: '.$pageName.' for language: '.$language."\n");
                                 $ch = curl_init();
                                 curl_setopt(
