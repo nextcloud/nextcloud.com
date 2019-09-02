@@ -36,10 +36,50 @@ section {
 	}
 	.fa-times {
 		color: red !important;
+        font-size: 25px;
 	}
 	.fa-check {
 		color: #16e300 !important;
+        font-size: 25px;
 	}
+	.tooltip {
+        position: relative;
+        border-bottom: 1px dotted black;
+    }
+    .tooltip span {
+        visibility: hidden;
+        width: 200px;
+        background-color: rgba(25, 25, 25, 0.80);
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 9;
+        top: 40px;
+        left: -110px;
+        margin-left:1em;
+        opacity: 0;
+        transition: opacity 1s;
+    }
+    .tooltip .tooltiptext::after {
+        content: " ";
+        position: absolute;
+        bottom: 100%;  /* At the top of the tooltip */
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent rgba(25, 25, 25, 0.80) transparent;
+    }
+    .tooltip input {
+        display:none;
+    }
+    .tooltip input:checked+span {
+        visibility: visible;
+        opacity: 1;
+    }
+
 }
 
 

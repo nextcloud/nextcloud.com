@@ -1,10 +1,10 @@
  <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/compare-individual.css" rel="stylesheet">
-</head>
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/comparison.png">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/comparison.png">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/comparison.png">
 <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/comparison.png">
+</head>
 <body>
 
 <div class="background compare-individual-background">
@@ -124,16 +124,35 @@
                         <th class="th.sm text-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/compare/office365.svg" alt="product logo" class="text-center logo"></th>
                     </tr>
                     <tr>
+                        <th scope="row">Pricing at 1000 users <small>(basic to extensive option)</small></th>
+                        <td class="text-center">$19000 - $75000</td>
+                        <td class="text-center">$48000 - $325,000/year</td>
+                    </tr>
+                    <tr>
                         <th scope="row">On-Premises/self-hosted</th>
                         <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
                         <td class="text-center"><i class="fa fa-times" aria-hidden="true"></i></td>
                     </tr>
                     <tr>
-                        <th scope="row">Pricing at 1000 users <small>(basic to extensive option)</small></th>
-                        <td class="text-center">$19000 - $75000</td>
-                        <td class="text-center">$48000 - $325,000/year</td>
+                        <th scope="row">Easy migration<br/><small>Vendor lock-in means you can't easily migrate to another solution</small></th>
+                        <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
+                        <td class="text-center"><i class="fa fa-times" aria-hidden="true"></i></td>
                     </tr>
-
+                    <tr>
+                        <th scope="row">Open Source<br/><small>Access to source code means you can audit the code and adjust functionality</small></th>
+                        <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
+                        <td class="text-center"><i class="fa fa-times" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Access through API<br/><small>Enables third party apps to interact with service</small></th>
+                        <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
+                        <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Extensible through apps</th>
+                        <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i><br/><small>Over 200 apps available</small></td>
+                        <td class="text-center"><i class="fa fa-times" aria-hidden="true"></i><br/><small>Only interaction through limited API</small></td>
+                    </tr>
                     <tr>
                         <th  scope="row"><h3>Storage and sync features</h3></th>
                         <th></th>
@@ -193,8 +212,8 @@
                     </tr>
                     <tr>
                         <th scope="row">Protection of metadata</th>
-                        <td class="text-center">100% secure</td>
-                        <td class="text-center">Varies data streams go through<br /> global MS infrastructure</td>
+                        <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
+                        <td class="text-center"><label class="tooltip"><i class="fa fa-times" aria-hidden="true"></i><input type="checkbox"><span class="tooltiptext">Several data streams (like authentication) always go through global MS infrastructure</span></label></td>
                     </tr>
                     <tr>
                         <th scope="row">GDPR compliance</th>
