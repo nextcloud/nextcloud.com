@@ -62,7 +62,7 @@
 					<li title="" rel="tooltip">Integrated Audio/Video/Text chat</li> <!--Audio/Video/Text chat-->
 					<li title="" rel="tooltip">Supported Groupware<br> (Calendar/Contacts/<br>Mail/Kanban)</li> <!--Calendar/Contact/Mail integration-->
 					<li title="" rel="tooltip">Mobile calendar/contact integration</li> <!--Mobile calendar/contact integration-->
-					<li title="" rel="tooltip">Online Office in web / mobile</li> <!--Online Office-->
+<!-- 					<li title="" rel="tooltip">Online Office in web / mobile</li> <!--Online Office--> -->
 					<li title="Public link to folder recipient can upload to, which hides existing content of the shared folder" rel="tooltip">File Drop (customer file upload)</li> <!--File Drop (customer file upload)-->
 					<li title="Option to block downloading from a public link" rel="tooltip">Block downloads</li> <!-- Block downloads -->
 					<li title="Protect public links with Video Verification" rel="tooltip">Video Verification</li> <!-- Video Verification -->
@@ -272,6 +272,7 @@
 							<div class="check"></div>
 							<h3>Office 365</h3>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/compare/office365.svg" alt="product logo">
+							<a class="button button--small button--blue compare-button" href="<?php echo home_url('nextcloud-vs-office365') ?>"><small><?php echo $l->t('Detailed comparison');?></small></a>
 						</div> <!-- .top-info -->
 
 						<ul class="cd-features-list">

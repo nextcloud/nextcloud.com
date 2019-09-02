@@ -391,7 +391,7 @@ Main Components
 
 .cd-products-table .top-info {
   position: relative;
-  height: 177px;
+  height: 217px;
   width: 150px;
   text-align: center;
   padding: 18px;
@@ -440,6 +440,12 @@ Main Components
   margin-right: auto;
 }
 
+.cd-products-table .top-info .compare-button {
+  display: inline-block;
+  margin-top: 0px;
+  margin-left: -8px;
+}
+
 .cd-products-table .top-info h3, .cd-products-table .top-info img {
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
@@ -486,7 +492,7 @@ Main Components
 
 @media only screen and (min-width: 1170px) {
   .cd-products-table .top-info {
-    height: 190px;
+    height: 220px;
     width: 150px;
   }
 
@@ -757,12 +763,12 @@ No JS
 }
 
 .no-js .cd-products-table .top-info {
-  height: 145px;
+  height: 175px;
 }
 
 @media only screen and (min-width: 1170px) {
   .no-js .cd-products-table .top-info {
-    height: 248px;
+    height: 278px;
   }
 }
 .no-js .cd-products-columns .check {
