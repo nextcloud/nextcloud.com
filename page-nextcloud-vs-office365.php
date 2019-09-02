@@ -177,8 +177,8 @@
                     </tr>
                     <tr>
                         <th scope="row">File storage solutions</th>
-                        <td class="text-center">WND/SharePoint</td>
                         <td class="text-center">WND/Sharepoint/NFS/Object Storage/FTP<br/> and many more</td>
+                        <td class="text-center">WND/SharePoint</td>
                     </tr>
 
                     <tr>
@@ -248,8 +248,8 @@
                     </tr>
                     <tr>
                         <th scope="row">Groupware</th>
-                        <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
                         <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i> <br/> <small>mail server not included</small></td>
+                        <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
                     </tr>
                     <tr>
                         <th scope="row">Mobile Device Management (Block devices, remote wipe, notification to devices)</th>
@@ -283,6 +283,11 @@
                     </tr>
                     <tr>
                         <th scope="row">Ransomware Recovery<br/><small>(automated recovery of data after ransomware attack based on file analysis)</small></th>
+                        <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
+                        <td class="text-center"><i class="fa fa-times" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">No vendor lock-in<br/><small>Make it easy to migrate to another solution</small></th>
                         <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
                         <td class="text-center"><i class="fa fa-times" aria-hidden="true"></i></td>
                     </tr>
