@@ -144,6 +144,7 @@
                 <li><?php echo $l->t('Universal 2nd Factor hardware tokens (U2F, like Yubikeys or Nitrokeys, also supports NFC)');?></li>
                 <li><?php echo $l->t('Gateways: SMS, secure messaging apps Telegram, Signal and more');?></li>
                 <li><?php echo $l->t('Notification (just click to approve login on an existing device like phone)');?></li>
+                <li><?php echo $l->t('Code in an email');?></li>
                 <li><?php echo $l->t('User backup code (User has to generate these in advance and store them in a safe location)');?></li>
                 <li><?php echo $l->t('Administrator backup code (creating those can be delegated to group admins)');?></li>
 			</ul>
