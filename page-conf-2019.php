@@ -28,7 +28,10 @@
 			<p class="section--paragraph__tittle">September 14-15, Technical University Berlin</p>
 			<p class="section--paragraph">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
 			<p>The event costs €20, and until July 31st we offer €15 Early bird tickets! Contributors get a free ticket - just <a href="mailto:events@nextcloud.com?subject=%5BContributor%20ticket%5D%20YOUR%20NAME&body=Link%20to%20your%20contribution" class="hyperlink">shoot us an email</a> with a link to your contribution(s) on github, transifex or otherwise! We provide catered lunch at the conference, you can find some hotel options further down the page.</a></p>
-			<p class="section--paragraph"><a href="https://eventyay.com/e/70d8ad61/" class="button button--arrow button--large button--blue">Get your ticket</a> <!--<a href="https://nextcloud.com/livestream" class="button button--arrow button--large button--blue">Live stream </a>--> <a href="https://eventyay.com/e/70d8ad61/cfs/" class="button button--arrow button--large button--blue">Submit a talk</a></p>
+			<p class="section--paragraph"><a href="https://eventyay.com/e/70d8ad61/" class="button button--arrow button--large button--blue">Get your ticket</a> <br /> <!--<a href="https://nextcloud.com/livestream" class="button button--arrow button--large button--blue">Live stream </a>--> <!--<a href="https://eventyay.com/e/70d8ad61/cfs/" class="button button--arrow button--large button--blue">Submit a talk</a>-->
+			<a href="https://eventyay.com/e/70d8ad61/schedule" class="button button--arrow button--blue">Schedule</a> <a href="https://eventyay.com/e/70d8ad61/sessions/s/all" class="button button--arrow button--blue">Sessions</a> <a href="https://eventyay.com/e/70d8ad61/speakers" class="button button--arrow button--blue">Speakers</a>
+
+			</p>
 <!--             <p class="section--paragraph">The 2018 conference is over, <a classy="hyperlink" href="https://nextcloud.com/blog/nextcloud-conference-2018-millions-of-nec-routers-nextcloud-14-and-simple-signup/">Read our report!</a></p> -->
             <div class="button button--white button--dropdown">
                 <input class="dropdown-toggle" type="text">
