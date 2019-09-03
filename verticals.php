@@ -27,7 +27,7 @@
             </div>
 		</div>
         <div class="col-md-4">
-			<a href="<?php echo home_url('legal') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/finance-small.jpg" /></a>
+			<a href="<?php echo home_url('finance') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/finance-small.jpg" /></a>
 			<div class="row text-center description">
                 <p class="section--paragraph__tittle"><a class="hyperlink" href="<?php echo home_url('finance') ?>"><?php echo $l->t('Financial Services');?></a></p>
                 <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud delivers confidentiality, security and compliance.');?></p>
@@ -36,21 +36,21 @@
     </div>
     <div class="row">
         <div class="col-md-4">
-			<a href="<?php echo home_url('engineering') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/government-small.jpg" /></a>
+			<a href="<?php echo home_url('government') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/government-small.jpg" /></a>
 			<div class="row text-center description">
                 <p class="section--paragraph__tittle"><a class="hyperlink" href="<?php echo home_url('government') ?>"><?php echo $l->t('Government');?></a></p>
                 <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud offers the ultimate control to protect digital sovreignty in Government.');?></p>
             </div>
         </div>
 		<div class="col-md-4">
-			<a href="<?php echo home_url('legal') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/globalscale-small.jpg" /></a>
+			<a href="<?php echo home_url('globalscale') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/globalscale-small.jpg" /></a>
 			<div class="row text-center description">
                 <p class="section--paragraph__tittle"><a class="hyperlink" href="<?php echo home_url('globalscale') ?>"><?php echo $l->t('Global scale');?></a></p>
                 <p class="section--paragraph text-center"><?php echo $l->t('Scale Nextcloud to hundreds of millions of users at comodity cost.');?></p>
             </div>
 		</div>
 		<div class="col-md-4">
-			<a href="<?php echo home_url('engineering') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/vdr-small.jpg" /></a>
+			<a href="<?php echo home_url('virtual-data-room') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/vdr-small.jpg" /></a>
 			<div class="row text-center description">
                 <p class="section--paragraph__tittle"><a class="hyperlink" href="<?php echo home_url('virtual-data-room') ?>"><?php echo $l->t('Virtual data rooms');?></a></p>
                 <p class="section--paragraph text-center"><?php echo $l->t('Securely conduct transactions using an on-premises Nextcloud virtual data room.');?></p>
