@@ -380,9 +380,9 @@ section {
 				.alignright, .align-right {
 					float: right;
 					@media (max-width: $break-small) {
-						float: none;
-						margin-left: auto;
-						margin-right: auto;
+						float: left;
+						margin-left: 10px;
+						margin-right: 100%;
 						text-align: center;
 					}
 				}
@@ -407,7 +407,18 @@ section {
 						margin: 50px -150px; /* cancel out page margin */
 						width: calc(100% + 300px); /* account for double page margin */
 						max-width: 100vw;
+						@media (max-width: $break-small) {
+							margin: 40px 0;
+							padding: 0;
+							width: 100%;
+							img {
+								max-width: 100%;
+								margin: 0;
+
+							}
+						}
 				}
+
 
 			}
 		}

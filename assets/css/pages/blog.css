@@ -428,9 +428,9 @@ section .container .row .col-md-10 {
 }
 @media (max-width: 768px) {
   .section--content .container .row .content .alignright, .section--content .container .row .content .align-right {
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
+    float: left;
+    margin-left: 10px;
+    margin-right: 100%;
     text-align: center;
   }
 }
@@ -458,6 +458,19 @@ section .container .row .col-md-10 {
   width: calc(100% + 300px);
   /* account for double page margin */
   max-width: 100vw;
+}
+@media (max-width: 768px) {
+  .section--content .container .row .content .fullwidth,
+.section--content .container .row .content .banner {
+    margin: 40px 0;
+    padding: 0;
+    width: 100%;
+  }
+  .section--content .container .row .content .fullwidth img,
+.section--content .container .row .content .banner img {
+    max-width: 100%;
+    margin: 0;
+  }
 }
 
 .section--footer .container .row .col-md-10 {
