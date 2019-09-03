@@ -118,6 +118,24 @@ require(["require.config"], function() {
 		<p class="section--paragraph"><?php echo $l->t('We keep track of some of the mentions of Nextcloud in the press.');?> Find our Press center <a href="<?php echo home_url('press') ?>" class="hyperlink">here.</a></p>
         <div class="row newsrow">
             <div class="col-md-4">
+				<a class="hyperlink" href="https://www.nextinpact.com/news/108156-le-ministere-linterieur-migre-sur-solution-libre-nextcloud.htm" target="_blank" title="Nextinpact about French ministry of Interior deploying Nextcloud (French)">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/nextinpact-no-text.png" title="Nextinpact about French ministry of Interior deploying Nextcloud (French)"/>
+				<span class="text">Nextinpact about French ministry of Interior deploying Nextcloud (French)</span>
+				</a>
+			</div>
+            <div class="col-md-4">
+				<a class="hyperlink" href="https://www.handelsblatt.com/technik/it-internet/nextcloud-gruender-frank-karlitschek-wir-geben-den-staaten-die-hoheit-ueber-ihre-informationen-zurueck/24942392.html" target="_blank" title="Handelsblatt interview with Frank (German)">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/handelsblatt-no-text.png" title="Handelsblatt interview with Frank (German)"/>
+				<span class="text">Handelsblatt interviews Frank (German)</span>
+				</a>
+			</div>
+            <div class="col-md-4">
+				<a class="hyperlink" href="https://www.zdnet.com/article/eu-turns-from-american-public-clouds-to-nextcloud-private-clouds/" target="_blank" title="ZDNet on EU moving to self-hosted clouds">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/ZDNet-no-text.png" title="ZDNet on EU moving to self-hosted clouds"/>
+				<span class="text">EU turns from American public clouds to Nextcloud private clouds</span>
+				</a>
+			</div>
+            <div class="col-md-4">
 				<a class="hyperlink" href="https://windowsreport.com/free-cloud-software-windows/" target="_blank" title="Windowsreport on Nextcloud and other solutions">
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/windowsreport.png" title="Windowsreport on Nextcloud and other solutions"/>
 				</a>
@@ -132,9 +150,6 @@ require(["require.config"], function() {
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/com-professional-14.png" title="Com! professional magazine on Nextcloud 14"/>
 				</a>
 			</div>
-
-
-
 			<div class="col-md-4">
 				<a class="hyperlink" href="https://www.itwire.com/technology-regulation/82947-cloud-vendor-nextcloud-offers-gdpr-compliance-kit.html" target="_blank" title="ITWire on the Nextcloud GDPR Compliance kit">
 				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/assets/img/history/itwire-gdpr.png" title="ITWire on the Nextcloud GDPR Compliance kit"/>

@@ -75,6 +75,17 @@ section .newsrow {
 }
 section .newsrow .col-md-4 {
   padding: 15px;
+  position: relative;
+}
+section .newsrow .col-md-4 span {
+  /* 				margin-top: -50px; */
+  color: #6c6c6c;
+  border-bottom: none;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  padding: 0 20px 0 10px;
+  font-size: 120%;
 }
 
 .section--differentiators .quote--container {
