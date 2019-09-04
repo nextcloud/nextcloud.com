@@ -34,9 +34,9 @@
   background-color: #0082c9;
   background-position: center;
   background-size: cover;
-  height: 30vh;
-  min-height: 300px;
-  max-height: 400px; }
+  height: 40vh;
+  min-height: 500px;
+  max-height: 800px; }
   .generic-background .topheader {
     margin-top: 70px; }
 
