@@ -6,6 +6,10 @@
 		require(["bootstrap"])
 	});
 </script>
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
 </head>
 <section class="hero-section">
 	<div class="background conf-background">
