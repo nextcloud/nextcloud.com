@@ -34,6 +34,8 @@
                 <a class="button button--large button--blue button--arrow" href="https://nextcloud.com/conf/speakers">See the speakers</a>
                 <a class="button button--large button--blue button--arrow" href="https://nextcloud.com/conf/sessions">See all the talks</a>
             </div>
+            <iframe src="http://twubs.com/embed/nextcloud/?messagesPerPage=5&headerBgColor=%231c6485&headerTextColor=%23ffffff" width="350" height="600" frameborder="0"><a href="https://twitter.com/search?q=%23nextcloud&f=live">#nextcloud</a></iframe>
+
 		</div>
 	</div>
 </section>
