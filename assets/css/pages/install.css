@@ -30,26 +30,15 @@
   position: absolute; }
 
 .generic-background {
-  background: -webkit-gradient(linear, left top, left bottom, from(#0082c9), color-stop(100%, #3e9ed8), to(#d8d8d8));
-  background: linear-gradient(to bottom, #0082c9, #3e9ed8 100%, #d8d8d8);
-  padding: 0;
-  border-radius: 0 !important;
-  margin-bottom: 70px;
-  height: 300px;
-  min-height: 300px;
-  max-height: 300px; }
-  .generic-background .pattern {
-    width: 100%;
-    height: 100%;
-    opacity: 0.1;
-    background: url("../../img/headers/generic.png") no-repeat;
-    background-size: cover;
-    background-position: center; }
-  @media (max-width: 991px) {
-    .generic-background {
-      height: 200px;
-      min-height: 200px;
-      max-height: 200px; } }
+  background: url("../../img/headers/background-transparent.png") no-repeat;
+  background-color: #0082c9;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  min-height: 500px;
+  max-height: 800px; }
+  .generic-background .topheader {
+    margin-top: 70px; }
 
 /* General */
 footer {
