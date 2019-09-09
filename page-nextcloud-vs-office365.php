@@ -78,7 +78,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-4 ">
-			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/mobile.svg" /></div>
+			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/storage.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Perfect fit');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Not all organizations have the same needs. With over 200 apps for Nextcloud, more than for any other on-premises solution, you can add the integration and functional enhancements you need.');?></p>
 		</div>
@@ -88,7 +88,7 @@
 			<p class="section--paragraph text-center"><?php echo $l->t('Nextcloud is an on-premises solution which makes maintaining compliance and data security easier. Our extensive auditing, monitoring, and file access control features as well as capabilities like End-to-end Encryption and Video Verification are unique in the industry.');?></p>
 		</div>
 		<div class="col-md-4 ">
-			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/storage.svg" /></div>
+			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/training.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Best user interface');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Nextcloud provides a far simpler and more integrated user interface, resulting in less calls to support and improved productivity of your teams.');?></p>
 		</div>
