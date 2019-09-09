@@ -29,22 +29,23 @@
     <h2 class="text-center revealOnScroll">What makes Nextcloud the best choice</h2>
     <div class="row">
         <div class="col-lg-4 col-sm-12 revealOnScroll">
-            <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
-            <p class="section--paragraph__tittle text-center">Best security</p>
-            <p class="section--paragraph text-center">Developed in a thoroughly security-focused process acredited by the experts from the NCC group, Nextcloud includes the most extensive range of advanced security features in the industry. Cutting edge  machine-learning based login protection, 2-factor authentication measures and brute force protection are complemented with unique capabilities like Video Verification and end-to-end and server-side encryption.</p>
-            <p class="section--paragraph text-center">Our security team achieves an under 1 hour average response time to security reports from our USD 5000 security bug bounty program, showing our dedication to keeping your data safe.</p>
+            <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
+            <p class="section--paragraph__tittle">Best security</p>
+            <p class="section--paragraph">Nextcloud is developed in a security-focused process as attested by a range of external experts and security pen-tests.</p>
+            <p class="section--paragraph">Industry-leading features include machine-learning based login protection, 2-factor authentication measures, brute force protection and unique capabilities like Video Verification, end-to-end and server-side encryption.
+            <p class="section--paragraph">We put our money where our mouth is: our USD 10.000 security bug bounty program brings top security expertise in, keeping your data safe.</p>
         </div>
         <div class="col-lg-4 col-sm-12 revealOnScroll">
-            <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
-            <p class="section--paragraph__tittle text-center">Largest ecosystem</p>
-            <p class="section--paragraph text-center">As the most deployed self-hosted file sync and content collaboration platform, Nextcloud offers the widest range of add-on capabilities and integrations in the industry. Over 200 'apps' offer powerful security capabilities, team productivity features and infrastructure integrations.</p>
-            <p class="section--paragraph text-center">Workflow capabilities, several online office solutions and a tool employing advanced entropy analysis to recover files from a ransomware attack, built by security researchers from a German university, are just some of the applications found in our app store.</p>
+            <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
+            <p class="section--paragraph__tittle">Largest ecosystem</p>
+            <p class="section--paragraph">As the most deployed self-hosted file sync and content collaboration platform, Nextcloud offers the widest range of add-on capabilities and integrations in the industry. Over 200 'apps' offer powerful security capabilities, team productivity features and infrastructure integrations.</p>
+            <p class="section--paragraph">Workflow capabilities, several online office solutions and a tool employing advanced entropy analysis to recover files from a ransomware attack, built by security researchers from a German university, are just some of the applications found in our app store.</p>
         </div>
         <div class="col-lg-4 col-sm-12 revealOnScroll">
-            <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/tools.svg" /></div>
-            <p class="section--paragraph__tittle text-center">Easiest to use</p>
-            <p class="section--paragraph text-center">Powerful capabilities often result in compolicated user interfaces, lowering productivity and hindering quick adoption in organizations. Without limiting their abilities, Nextcloud does not overwhelm users with unnessecary clutter. Our customers remark time and again how few support tickets it creates for their IT teams.</p>
-            <p class="section--paragraph text-center">Accessibility features like keyboard and screenreader navigation, WCAG 2.1 compliant contrast and a dyslexia-friendly font are available only in the leading on-premises team collaboration platform!</p>
+            <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/tools.svg" /></div>
+            <p class="section--paragraph__tittle">Easiest to use</p>
+            <p class="section--paragraph">Powerful capabilities often result in compolicated user interfaces, lowering productivity and hindering quick adoption in organizations. Without limiting their abilities, Nextcloud does not overwhelm users with unnessecary clutter. Our customers remark time and again how few support tickets it creates for their IT teams.</p>
+            <p class="section--paragraph">Accessibility features like keyboard and screenreader navigation, WCAG 2.1 compliant contrast and a dyslexia-friendly font are available only in the leading on-premises content collaboration platform!</p>
         </div>
     </div>
 </div>
