@@ -200,6 +200,15 @@ section {
     }
 }
 
+.section--partners {
+    .col-sm-4 {
+        max-width: 300px;
+        .svg-logo {
+/*             width: 100%; */
+        }
+    }
+}
+
 .section--about {
 	.row {
 		padding: 50px 0 100px 0;
