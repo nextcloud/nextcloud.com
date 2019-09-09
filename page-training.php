@@ -218,7 +218,7 @@
                     <td><span class="break">Alexandre Salvat <br> <small>Drive Project Manager - Pôle Projets Transverses et Innovation (P2TI), RENATER</small><br> TBD <small></small></span>
                     <th scope="row">14:00</th>
                     <td>Group folders</td>
-                    <td><span class="break">Matthias Wobben <br> <small>Nextcloud sales engineer</small></span></td>
+                    <td><span class="break">Sascha Wiswedel <br> <small>Nextcloud sales engineer</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">14:30</th>
