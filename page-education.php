@@ -117,6 +117,11 @@ require(["require.config"], function() {
                 <a href="https://www.tu-chemnitz.de/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/TU_Chemnitz.png" /></a>
             </div>
         </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 customer">
+            <div class="customer-logo">
+                <a href="https://www.meiji.ac.jp/cip/english/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/meiji.png" /></a>
+            </div>
+        </div>
         <!--<div class="col-lg-2 col-md-3 col-sm-4 customer">
             <div class="customer-logo">
                 <a href=""><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/" /></a>
