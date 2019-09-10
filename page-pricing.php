@@ -76,7 +76,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<h1 class="">Optional components</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook">Outlook Add-in</a>');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-collabora">Collabora Online Office</a>');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-onlyoffice">ONLYOFFICE</a>');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Use your coroporate design in branded and pre-configured sync clients for desktop and mobile.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a>');?></li>
@@ -127,7 +127,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<h1 class="">Optional components</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook">Outlook Add-in</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-collabora">Collabora Online Office</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-onlyoffice">ONLYOFFICE</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Use your coroporate design in branded and pre-configured sync clients for desktop and mobile.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a>');?></li>
@@ -178,7 +178,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<h1 class="">Optional components</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook">Outlook Add-in</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-collabora">Collabora Online Office</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-onlyoffice">ONLYOFFICE</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Use your coroporate design in branded and pre-configured sync clients for desktop and mobile.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a>');?></li>
