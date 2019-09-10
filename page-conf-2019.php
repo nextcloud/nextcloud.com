@@ -70,16 +70,20 @@
             <td>Hackweek</td>
             <td class="left">10:00 - <strong>Keynote</strong><br>
             11:00 - <strong>Talks</strong><br>
+            12:00 - <strong>Panel: Public money, public code</strong><br>
             13:00 - <strong>lunch</strong><br>
-            14:00 - <strong>Keynote</strong><br>
-            15:00 - <strong>workshops & lightning talks</strong><br>
-            19:00 - <strong>Party time</strong>
+            14:30 - <strong>lightning talks</strong><br>
+            16:00 - <strong>workshops</strong><br>
+            19:00 - <strong>🎉 Party time</strong>
             </td>
             <td class="left">10:00 - <strong>Keynote</strong><br>
             11:00 - <strong>Talks</strong><br>
+            12:00 - <strong>Panel: Making Open Source more diverse</strong><br>
             13:00 - <strong>lunch</strong><br>
-            14:00 - <strong>Keynote</strong><br>
-            15:00 - <strong>workshops & lightning talks</strong></td>
+            14:30 - <strong>Lightningtalks</strong><br>
+            15:00 - <strong>workshops</strong><br>
+            17:00 - <strong>Conference closing</strong><br>
+            17:30 - <strong>Afrika Hacktrip Movie</strong></td>
             <td>Hackweek, <strong><a href="<?php echo home_url('training') ?>">Enterprise Day</a></strong></td>
             <td>Hackweek</td>
             <td>Hackweek</td>
@@ -88,8 +92,9 @@
             </tr></tbody>
             </table>
             <div class="row text-center">
-<!--             <a class="button button--large button--blue button--arrow" href="https://nextcloud.com/schedule/schedule.html">View the full schedule here</a> -->
-<!--             <a class="button button--large button--blue button--arrow" href="https://nextcloud.com/schedule/speakers.html">See the speakers</a> -->
+            <a class="button button--large button--blue button--arrow" href="https://nextcloud.com/schedule">View the full schedule here</a>
+            <a class="button button--large button--blue button--arrow" href="https://nextcloud.com/speakers">See the speakers</a>
+            <a class="button button--large button--blue button--arrow" href="https://nextcloud.com/sessions">See all sessions</a>
             </div>
         </div>
         </div>
