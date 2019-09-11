@@ -73,6 +73,15 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('We can guarantee turn-around times on mitigations and fixes for bugs.');?>" rel="tooltip"><?php echo $l->t('Optional SLA on fixes');?></li>
 				</div>
+				<h1 class="">Optional components</h1>
+				<div class="line"></div>
+				<div class="list">
+					<li class="check" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook">Outlook Add-in</a>');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-collabora">Collabora Online Office</a>');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-onlyoffice">ONLYOFFICE</a>');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Use your coroporate design in branded and pre-configured sync clients for desktop and mobile.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a>');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Scale out Nextcloud to millions of users');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://nextcloud.com/globalscale/">Global Scale</a>');?></li>
+				</div>
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
 				<div class="list">
@@ -114,6 +123,15 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 					<li class="nocheck" title="<?php echo $l->t('Upgrades are disruptive. Our engineers will ensure yours will go smooth!');?>" rel="tooltip"><?php echo $l->t('Upgrade stand-by support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('We can guarantee turn-around times on mitigations and fixes for bugs.');?>" rel="tooltip"><?php echo $l->t('Optional SLA on fixes');?></li>
+				</div>
+				<h1 class="">Optional components</h1>
+				<div class="line"></div>
+				<div class="list">
+					<li class="check" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook">Outlook Add-in</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-collabora">Collabora Online Office</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-onlyoffice">ONLYOFFICE</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Use your coroporate design in branded and pre-configured sync clients for desktop and mobile.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a>');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Scale out Nextcloud to millions of users');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://nextcloud.com/globalscale/">Global Scale</a>');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
@@ -157,6 +175,15 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 					<li class="check" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
 					<li class="check" title="<?php echo $l->t('We can guarantee turn-around times on mitigations and fixes for bugs.');?>" rel="tooltip"><?php echo $l->t('Optional SLA on fixes');?></li>
 				</div>
+				<h1 class="">Optional components</h1>
+				<div class="line"></div>
+				<div class="list">
+					<li class="check" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook">Outlook Add-in</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-collabora">Collabora Online Office</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-onlyoffice">ONLYOFFICE</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Use your coroporate design in branded and pre-configured sync clients for desktop and mobile.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Scale out Nextcloud to millions of users');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://nextcloud.com/globalscale/">Global Scale</a>');?></li>
+				</div>
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
 				<div class="list">
@@ -188,19 +215,19 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 	</div>
     <div class="row ">
         <div class="col-md-offset-2 col-md-4">
-			<div class="featureblock">
+			<div class="featureblock" id="featureblock-collabora">
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/collabora-nw.png">
 				<p class="section--paragraph__tittle"><?php echo $l->t('Collabora Online Office');?></p>
-				<p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('collaboraonline') ?>"><?php echo $l->t('With Collabora Online Office</a> Nextcloud features an enterprise ready integrated online office enabling users to collaboratively edit docx, pptx and other office documents with colleagues, clients or partners. Collabora Online is available with the Standard or Enterprise subscription.');?></p>
+				<p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('collaboraonline') ?>"><?php echo $l->t('With Collabora Online Office</a> Nextcloud features an enterprise ready integrated online office enabling users to collaboratively edit docx, pptx and other office documents with colleagues, clients or partners. Collabora Online is available with the Standard or Premium subscription.');?></p>
 				<p class="section--paragraph price-big"><?php echo $l->t('starting at € 17/user/year');?></p>
 				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
 			</div>
 		</div>
         <div class="col-md-4">
-			<div class="featureblock">
+			<div class="featureblock" id="featureblock-onlyoffice">
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/onlyoffice-document.png">
 				<p class="section--paragraph__tittle"><?php echo $l->t('ONLYOFFICE');?></p>
-				<p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('onlyoffice') ?>"><?php echo $l->t('ONLYOFFICE</a> delivers enterprise-grade real-time collaborative document editing to Nextcloud, with excellent Microsoft Office compatibility and a familiar user interface. ONLYOFFICE is available with the Standard or Enterprise subscription.');?></p>
+				<p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('onlyoffice') ?>"><?php echo $l->t('ONLYOFFICE</a> delivers enterprise-grade real-time collaborative document editing to Nextcloud, with excellent Microsoft Office compatibility and a familiar user interface. ONLYOFFICE is available with the Standard or Premium subscription.');?></p>
 				<p class="section--paragraph price-big"><?php echo $l->t('Starting at € 15 to € 22/user/year');?></p>
 				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
 			</div>
@@ -208,20 +235,20 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
     </div>
     <div class="row ">
 		<div class="col-md-offset-2 col-md-4">
-			<div class="featureblock">
+			<div class="featureblock" id="featureblock-outlook">
 	<!--         <i class="fa-envelope fa"></i> -->
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-nw.png">
 				<p class="section--paragraph__tittle"><?php echo $l->t('Outlook Secure Sharing Add-in');?></p>
-				<p class="section--paragraph"><?php echo $l->t('Nextcloud optionally provides an');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>"><?php echo $l->t('Outlook Secure Sharing Add-in</a> enabling users to share and receive files in a secure way directly from Microsoft Outlook. The Outlook Secure Sharing Add-in can be added to a Basic, Standard or Enterprise subscription.');?></p>
+				<p class="section--paragraph"><?php echo $l->t('Nextcloud optionally provides an');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>"><?php echo $l->t('Outlook Secure Sharing Add-in</a> enabling users to share and receive files in a secure way directly from Microsoft Outlook. The Outlook Secure Sharing Add-in can be added to a Basic, Standard or Premium subscription.');?></p>
 				<p class="section--paragraph price-big"><?php echo $l->t('starting at € 5/user/year');?></p>
 				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
 			</div>
         </div>
 		<div class="col-md-4">
-			<div class="featureblock">
+			<div class="featureblock" id="featureblock-branding">
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/theming-nw.png">
 				<p class="section--paragraph__tittle"><?php echo $l->t('Branding');?></p>
-				<p class="section--paragraph"><?php echo $l->t('Nextcloud provides branding services, delivering sync clients (mobile and desktop) which use your corporate identity and are pre-configured to help your users get up and running in no time. Branding is optionally available with the Standard or Enterprise subscription.');?></p>
+				<p class="section--paragraph"><?php echo $l->t('Nextcloud provides branding services, delivering sync clients (mobile and desktop) which use your corporate identity and are pre-configured to help your users get up and running in no time. Branding is optionally available with the Standard or Premium subscription.');?></p>
 				<p class="section--paragraph price-big"><?php echo $l->t('starting at € 6000 yearly');?></p>
 				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
 			</div>
