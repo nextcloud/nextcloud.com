@@ -132,6 +132,33 @@ require(["require.config"], function() {
     </div>
 </section>
 
+<section>
+<div class="container">
+    <div class="row">
+        <h2 class="text-center"><?php echo $l->t('Feature highlight');?></h2>
+    </div>
+    <div class="row">
+        <p class="section--paragraph__tittle"><?php echo $l->t('Secure view in action');?></p>
+        <p class="section--paragraph"><?php echo $l->t('With secure view, our online office solutions can be configured to open PDF files, images and text files, making these files available in a watermark-protected way, while downloads and other apps are disabled using File Access Control. This setup is useful when data has to be protected from leaking but still has to be made available for review, as in a virtual data room scenario.');?></p>
+        <a class="button button--blue" href="<?php echo home_url('virtual-data-room') ?>"><?php echo $l->t('Virtual data rooms');?></a>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/Secure-View-admin-configuration.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/Secure-View-admin-configuration.png" alt="Configuring Secure View in Collabora" class="img-responsive"></a><br />
+            <?php echo $l->t('Configuring Secure View in Collabora');?>
+        </div>
+        <div class="col-md-4">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-view-tagging.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-view-tagging.png" alt="Setting a &#39;confidential&#39; tag" class="img-responsive"></a><br />
+            <?php echo $l->t('Setting a &#39;confidential&#39; tag');?>
+        </div>
+        <div class="col-md-4">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-view-watermarked.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-view-watermarked.png" alt="Secure view watermarked file" class="img-responsive"></a><br />
+            <?php echo $l->t('Secure view watermarked file');?>
+        </div>
+    </div>
+</div>
+</section>
+
 <section class="section--appstore benefits">
 <div class="container-fluid banner quote">
     <div class="container">

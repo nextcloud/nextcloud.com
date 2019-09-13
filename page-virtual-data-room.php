@@ -107,7 +107,56 @@
     </div>
 </div>
 </section>
-
+<section>
+<div class="container">
+    <div class="row">
+        <h2 class="text-center"><?php echo $l->t('Feature highlights');?></h2>
+    </div>
+    <div class="row">
+        <p class="section--paragraph__tittle"><?php echo $l->t('Secure view in action');?></p>
+        <p class="section--paragraph"><?php echo $l->t('With secure view, our online office solutions can be configured to open PDF files, images and text files, making these files available in a watermark-protected way, while downloads and other apps are disabled using File Access Control. This setup is useful when data has to be protected from leaking but still has to be made available for review, as in a virtual data room scenario.');?></p>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/Secure-View-admin-configuration.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/Secure-View-admin-configuration.png" alt="Configuring Secure View in Collabora" class="img-responsive"></a><br />
+            <?php echo $l->t('Configuring Secure View in Collabora');?>
+        </div>
+        <div class="col-md-4">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-view-tagging.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-view-tagging.png" alt="Setting a &#39;confidential&#39; tag" class="img-responsive"></a><br />
+            <?php echo $l->t('Setting a &#39;confidential&#39; tag');?>
+        </div>
+        <div class="col-md-4">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-view-watermarked.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-view-watermarked.png" alt="Secure view watermarked file" class="img-responsive"></a><br />
+            <?php echo $l->t('Secure view watermarked file');?>
+        </div>
+    </div>
+    <div class="row">
+        <p class="section--paragraph__tittle"><?php echo $l->t('Secure Mailbox');?></p>
+        <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in includes a secure mailbox feature. This feature protects the contents (body) of email from interception by providing the recipient with a notification that a new email was received. The recipient then has to log in on their (guest) account to access the email and its attachments.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('The body of the email is shown with the file attachments. Each email is a folder, linked to in the email notification.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('In the screenshots below, the user sends the link and password to the recipient by email. The user can take out the password and send it through another channel. Alternatively, when a guest account is set up for the recipient, the Outlook add-in will detect this and instead share the message to the guest account and include an internal link in the email. The recipient will have to log into their guest account to access the email.');?></p>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-writing-the-email.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-writing-the-email.png" alt="Secure Mailbox - Writing an email" class="img-responsive"></a><br />
+            <?php echo $l->t('Writing an email');?>
+        </div>
+        <div class="col-md-6">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-attaching-files-and-enabling-secure-mailbox-.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-attaching-files-and-enabling-secure-mailbox-.png" alt="Secure Mailbox - attaching files" class="img-responsive"></a><br />
+            <?php echo $l->t('Attaching files, enabling Secure Mailbox');?>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6"><a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure_mailbox-email-as-it-will-be-send-to-recipient.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-email-as-it-will-be-send-to-recipient.png" alt="Secure Mailbox - Email as it will be sent to recipient" class="img-responsive"></a><br />
+            <?php echo $l->t('Email as it will be sent to recipient');?>
+        </div>
+        <div class="col-md-6">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-recipient-view-of-secured-email-in-Nextcloud.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-recipient-view-of-secured-email-in-Nextcloud.png" alt="Secure Mailbox - Recipient view in Secure Mailbox in Nextcloud" class="img-responsive"></a><br />
+            <?php echo $l->t('Recipient view in Secure Mailbox in Nextcloud');?>
+        </div>
+    </div>
+</div>
+</section>
 <section class="section--benefits">
 <div class="container-fluid quote">
     <div class="container">
@@ -174,7 +223,7 @@
             <img class="img-responsive acess__anywhere" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/endtoend-android2-nw.png" alt="end-to-end encryption" >
         </div>
 	    <div class="col-md-6">
-            <h3><?php echo $l->t('With unique layered encryptio');?>n</h3>
+            <h3><?php echo $l->t('With unique layered encryption');?>n</h3>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud offers a supremely easy to use, well integrated file sync and share solution with an uniquely layered approach to security. Together with the support for nearly any storage technology, it features server-side encryption and offers the ability to employ');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('end-to-end, client side encryption');?></a> <?php echo $l->t('for a subset of user files. Rather than making it an either-or choice, your business can rely on utmost security where it is needed but keep collaborative online document editing and full-text search on the server over the rest of the stored data.');?></p>
 		</div>
     </div>

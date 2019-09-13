@@ -90,6 +90,39 @@
 </div>
 </section>
 
+<section>
+<div class="container">
+    <div class="row">
+        <h2 class="text-center"><?php echo $l->t('Feature highlight');?></h2>
+    </div>
+    <div class="row">
+        <p class="section--paragraph__tittle"><?php echo $l->t('Secure Mailbox');?></p>
+        <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in includes a secure mailbox feature. This feature protects the contents (body) of email from interception by providing the recipient with a notification that a new email was received. The recipient then has to log in on their (guest) account to access the email and its attachments.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('The body of the email is shown with the file attachments. Each email is a folder, linked to in the email notification.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('In the screenshots below, the user sends the link and password to the recipient by email. The user can take out the password and send it through another channel. Alternatively, when a guest account is set up for the recipient, the Outlook add-in will detect this and instead share the message to the guest account and include an internal link in the email. The recipient will have to log into their guest account to access the email.');?></p>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-writing-the-email.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-writing-the-email.png" alt="Secure Mailbox - Writing an email" class="img-responsive"></a><br />
+            <?php echo $l->t('Writing an email');?>
+        </div>
+        <div class="col-md-6">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-attaching-files-and-enabling-secure-mailbox-.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-attaching-files-and-enabling-secure-mailbox-.png" alt="Secure Mailbox - attaching files" class="img-responsive"></a><br />
+            <?php echo $l->t('Attaching files, enabling Secure Mailbox');?>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6"><a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure_mailbox-email-as-it-will-be-send-to-recipient.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-email-as-it-will-be-send-to-recipient.png" alt="Secure Mailbox - Email as it will be sent to recipient" class="img-responsive"></a><br />
+            <?php echo $l->t('Email as it will be sent to recipient');?>
+        </div>
+        <div class="col-md-6">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-recipient-view-of-secured-email-in-Nextcloud.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-recipient-view-of-secured-email-in-Nextcloud.png" alt="Secure Mailbox - Recipient view in Secure Mailbox in Nextcloud" class="img-responsive"></a><br />
+            <?php echo $l->t('Recipient view in Secure Mailbox in Nextcloud');?>
+        </div>
+    </div>
+</div>
+</section>
+
 <section class="section--file-sharing">
 	<div class="container">
         <div class="row featurerow">
