@@ -381,6 +381,21 @@
             <a class="button button--blue button--arrow" href="<?php echo home_url('sharing') ?>"><?php echo $l->t('More about sharing.');?></a>
         </div>
     </div>
+    <div class="row">
+        <p class="section--paragraph__tittle"><?php echo $l->t('Remote Wipe');?></p>
+        <p class="section--paragraph"><?php echo $l->t('While many companies have Mobile Device Management, thanks to build-in support, Remote Wipe will work on systems not under management of the company. This is useful for home users but also large universities and of course in a scenario where guest accounts were handed to a third party. If you permit downloading of documents by the third party, you can wipe the documents from their devices when the the collaboration has ended.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('Remote wipe can be used on a per-device basis by users and on a per-user base by the administrator.');?></p>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <a href="https://nextcloud.com/media/remote-wipe-user.png"><img src="https://nextcloud.com/media/remote-wipe-user.png" alt="Remote wipe as a user, per device" class="img-responsive"></a><br />
+            <?php echo $l->t('Remote wipe as a user, per device');?>
+        </div>
+        <div class="col-md-6">
+            <a href="https://nextcloud.com/media/remote-wipe-admin.png"><img src="https://nextcloud.com/media/remote-wipe-admin.png" alt="Remote wipe as admin, per user" class="img-responsive"></a><br />
+            <?php echo $l->t('Remote wipe as admin, per user');?>
+        </div>
+    </div>
 </div>
 </section>
 
