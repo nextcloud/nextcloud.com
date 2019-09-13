@@ -169,6 +169,21 @@
 			<p class="section--paragraph"><a class="hyperlink" href="https://nextcloud.com/blog/nitrokey-and-nextcloud-collaborate-on-securing-private-clouds/"><?php echo $l->t('OTP Nitrokey hardware has been certified with Nextcloud.');?></a> <?php echo $l->t('U2F, FIDO2 and HSM functionality is being developed.');?></p>
 		</div>
 	</div>
+	<div class="row">
+	<p class="section--paragraph__tittle"><?php echo $l->t('Some examples');?></p>
+        <div class="col-md-4">
+            <a href="https://nextcloud.com/media/enforce-2FA-for-guests.png"><img src="https://nextcloud.com/media/enforce-2FA-for-guests.png" alt="2FA enforcement settings, enforcing for guest users" class="img-responsive"></a><br />
+            <?php echo $l->t('2FA enforcement settings, enforcing for guest users');?>
+        </div>
+        <div class="col-md-4">
+            <a href="https://nextcloud.com/media/enforce-setup-2FA-on-login.png"><img src="https://nextcloud.com/media/enforce-setup-2FA-on-login.png" alt="2FA setup on first login" class="img-responsive"></a><br />
+            <?php echo $l->t('2FA setup on first login');?>
+        </div>
+        <div class="col-md-4">
+            <a href="https://nextcloud.com/media/2FA-admin-temporary-code-generator.png.png"><img src="https://nextcloud.com/media/2FA-admin-temporary-code-generator.png.png" alt="One-time login token creation" class="img-responsive"></a><br />
+            <?php echo $l->t('one-time login token creation');?>
+        </div>
+        </div>
 </div>
 
 <div class="container">
