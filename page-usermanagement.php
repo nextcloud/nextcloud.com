@@ -75,11 +75,11 @@
     </div>
     <div class="row">
         <div class="col-md-6">
-            <a href="https://nextcloud.com/media/remote-wipe-user.png"><img src="https://nextcloud.com/media/remote-wipe-user.png" alt="Remote wipe as a user, per device" class="img-responsive"></a><br />
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-user.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-user.png" alt="Remote wipe as a user, per device" class="img-responsive"></a><br />
             <?php echo $l->t('Remote wipe as a user, per device');?>
         </div>
         <div class="col-md-6">
-            <a href="https://nextcloud.com/media/remote-wipe-admin.png"><img src="https://nextcloud.com/media/remote-wipe-admin.png" alt="Remote wipe as admin, per user" class="img-responsive"></a><br />
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-admin.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-admin.png" alt="Remote wipe as admin, per user" class="img-responsive"></a><br />
             <?php echo $l->t('Remote wipe as admin, per user');?>
         </div>
     </div>
