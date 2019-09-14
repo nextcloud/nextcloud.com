@@ -1,12 +1,12 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/conf.css" rel="stylesheet">
-<meta http-equiv="refresh" content="60">
+<!-- <meta http-equiv="refresh" content="60"> -->
 <script>
 	require(["require.config"], function() {
 		require(["bootstrap"])
 	});
 </script>
-<meta http-equiv="refresh" content="30"/>
+<!-- <meta http-equiv="refresh" content="30"/> -->
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
@@ -28,8 +28,9 @@
 		<div class="col-sm-8 col-sm-offset-2">
 <!-- 			<img class="conf-img revealOnScroll" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018.jpg" alt="logo"/> -->
 <!-- 			<h2 class="revealOnScroll"></h2> -->
-			<p class="section--paragraph__tittle">stay tuned for our live stream!</p>
-			<p class="section--paragraph">Starting Saturday morning, September14, ~10:00 Berlin time.</p>
+			<!--<p class="section--paragraph__tittle">stay tuned for our live stream!</p>
+			<p class="section--paragraph">Starting Saturday morning, September14, ~10:00 Berlin time.</p>-->
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/494b_gEVgOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			<div class="row text-center">
                 <a class="button button--large button--blue button--arrow" href="https://nextcloud.com/conf/schedule">View the full schedule here</a>
                 <a class="button button--large button--blue button--arrow" href="https://nextcloud.com/conf/speakers">See the speakers</a>
