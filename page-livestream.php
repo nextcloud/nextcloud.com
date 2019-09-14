@@ -6,6 +6,7 @@
 		require(["bootstrap"])
 	});
 </script>
+<meta http-equiv="refresh" content="30"/>
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
