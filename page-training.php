@@ -195,7 +195,7 @@
                     <td><span class="break">Olivier Paroz <br> <small>Nextcloud head of professional services</small></span></td>
                     <th scope="row">13:30</th>
                     <td>Building workflows in Nextcloud</td>
-                    <td><span class="break">Joas Schilling <br> <small>Nextcloud engineer</small></span></td>
+                    <td><span class="break">Julius Härtl<br> <small>Nextcloud engineer</small></span></td>
                     </tr>
                     <tr>
                     <th scope="row">13:45</th>
@@ -232,7 +232,7 @@
                     <th scope="row">14:30</th>
                     <td>Global Scale<br>
                     <small>Data locality, scalability and cost</small></td>
-                    <td><span class="break">Bjoern Schiessle <br> <small>Nextcloud sales engineer</small></span></td>
+                    <td><span class="break">Jos Poortvliet<br> <small>Nextcloud sales engineer</small></span></td>
                     </tr>
                     <tr>
                     <td></td>
