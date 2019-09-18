@@ -1,9 +1,9 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/conf.css" rel="stylesheet">
-<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
-<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
-<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
-<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018-small.jpg">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/conf.css?v=2" rel="stylesheet">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2019-small.jpg">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2019-small.jpg">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2019-small.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2019-small.jpg">
 
 <script>
 	require(["require.config"], function() {
@@ -27,17 +27,18 @@
 		<div class="col-sm-8 col-sm-offset-2">
 			<p class="section--paragraph__tittle">September 14-15, Technical University Berlin</p>
 			<p class="section--paragraph">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
-			<p>The event costs €20, and until July 31st we offer €15 Early bird tickets! Contributors get a free ticket - just <a href="mailto:events@nextcloud.com?subject=%5BContributor%20ticket%5D%20YOUR%20NAME&body=Link%20to%20your%20contribution" class="hyperlink">shoot us an email</a> with a link to your contribution(s) on github, transifex or otherwise! We provide catered lunch at the conference, you can find some hotel options further down the page.</a></p>
-			<p class="section--paragraph"><a href="https://eventyay.com/e/70d8ad61/" class="button button--arrow button--large button--blue">Get your ticket</a> <br /> <a href="https://nextcloud.com/livestream" class="button button--arrow button--large button--blue">Live stream </a> <br /> <!--<a href="https://eventyay.com/e/70d8ad61/cfs/" class="button button--arrow button--large button--blue">Submit a talk</a>-->
-			<a href="https://eventyay.com/e/70d8ad61/schedule" class="button button--arrow button--blue">Schedule</a> <a href="https://eventyay.com/e/70d8ad61/sessions/s/all" class="button button--arrow button--blue">Sessions</a> <a href="https://eventyay.com/e/70d8ad61/speakers" class="button button--arrow button--blue">Speakers</a>
-
+			<!--<p>The event costs €20, and until July 31st we offer €15 Early bird tickets! Contributors get a free ticket - just <a href="mailto:events@nextcloud.com?subject=%5BContributor%20ticket%5D%20YOUR%20NAME&body=Link%20to%20your%20contribution" class="hyperlink">shoot us an email</a> with a link to your contribution(s) on github, transifex or otherwise! We provide catered lunch at the conference, you can find some hotel options further down the page.</a></p>
+			<p class="section--paragraph"><a href="https://eventyay.com/e/70d8ad61/" class="button button--arrow button--large button--blue">Get your ticket</a> <br /> <a href="https://nextcloud.com/livestream" class="button button--arrow button--large button--blue">Live stream </a> <br />--> <!--<a href="https://eventyay.com/e/70d8ad61/cfs/" class="button button--arrow button--large button--blue">Submit a talk</a>-->
+			<!--<a href="https://eventyay.com/e/70d8ad61/schedule" class="button button--arrow button--blue">Schedule</a> <a href="https://eventyay.com/e/70d8ad61/sessions/s/all" class="button button--arrow button--blue">Sessions</a> <a href="https://eventyay.com/e/70d8ad61/speakers" class="button button--arrow button--blue">Speakers</a>-->
+            <p class="section--paragraph">The conference is over! Nearly 250 participants over 3 days and over 1500 viewers on our livestream shared a great experience and we want to thank everybody involved for their participation.<br />
+            Six big announcemnts and many smaller were made. The live stream can still be viewed and we're working on putting videos online.
+            <br /><a href="https://nextcloud.com/blog/massive-series-of-announcements-over-weekend-from-nextcloud-conf-event-continues/" class="button button--arrow button--large button--blue">Read the report</a>
 			</p>
 <!--             <p class="section--paragraph">The 2018 conference is over, <a classy="hyperlink" href="https://nextcloud.com/blog/nextcloud-conference-2018-millions-of-nec-routers-nextcloud-14-and-simple-signup/">Read our report!</a></p> -->
             <div class="button button--white button--dropdown">
                 <input class="dropdown-toggle" type="text">
                 <div class="dropdown-text">Previous conferences</div>
                 <ul class="dropdown-content">
-                    <li><a href="<?php echo home_url('conf-2019') ?>">Nextcloud Conference 2019</a></li>
                     <li><a href="<?php echo home_url('conf-2018') ?>">Nextcloud Conference 2018</a></li>
                     <li><a href="<?php echo home_url('conf-2017') ?>">Nextcloud Conference 2017</a></li>
                     <li><a href="<?php echo home_url('conf-2016') ?>">Nextcloud Conference 2016</a></li>
@@ -125,7 +126,7 @@
 				<li>Translation &amp; Documentation</li>
 			</ul>
 <!-- 			<p class="section--paragraph ">People start coming in around 9am and the last usually leave around 9pm.</p> -->
-			<p class="section--paragraph ">Read our <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-conference-2018-millions-of-nec-routers-nextcloud-14-and-simple-signup/" target="_blank">blog on the Nextcloud Conference 2018</a> to get a feeling of the event.</p>
+			<p class="section--paragraph ">Read our <a class="hyperlink" href="https://nextcloud.com/blog/massive-series-of-announcements-over-weekend-from-nextcloud-conf-event-continues/" target="_blank">blog on the Nextcloud Conference 2019</a> to get a feeling of the event.</p>
 		</div>
 		<div class="col-sm-5 col-sm-offset-2">
 			<div class="icon ">
@@ -141,8 +142,8 @@
 <!-- 			<p class="section--paragraph ">Stay tuned for more information! We'll open registration later this year and expect our call for papers early 2018.</p> -->
 			<p class="section--paragraph ">On Monday the 16th we have a <a class="hyperlink" href="<?php echo home_url('training') ?>">special Enterprise day with a focus on enterprise and large scale Nextcloud usage.</a></p>
 <!-- 			<p class="section--paragraph ">Check out <a class="hyperlink" href="http://sched.eventyay.com/NextcloudConference2018/tracks.html">the full program</a>!</p> -->
-			<p>The talks will be live-streamed, stay tuned for more information!</p>
-			<p class="section--paragraph ">Submit your session ideas in our <a class="hyperlink" href="https://eventyay.com/e/70d8ad61//cfs/">call for papers</a> now!</p>
+<!-- 			<p>The talks will be live-streamed, stay tuned for more information!</p> -->
+<!-- 			<p class="section--paragraph ">Submit your session ideas in our <a class="hyperlink" href="https://eventyay.com/e/70d8ad61//cfs/">call for papers</a> now!</p> -->
 <!--             <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p> -->
 		</div>
 	</div>
@@ -164,7 +165,7 @@
 		<p class="section--paragraph__tittle ">We have opened our call for papers!</p>
 		<p class="section--paragraph ">You're invited to contribute your thoughts to our event.</p>
 		<div class="text-center morebuttondiv ">
-			<a href="https://eventyay.com/e/70d8ad61//cfs/" class="button button--large button--blue button--arrow">Submit a talk</a>
+<!-- 			<a href="https://eventyay.com/e/70d8ad61//cfs/" class="button button--large button--blue button--arrow">Submit a talk</a> -->
 		</div>
 	</div>
 </div>
