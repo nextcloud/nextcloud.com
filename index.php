@@ -1,6 +1,6 @@
-<!-- This is the blog list. -->
+<!-- This is the posts page. or maybe not. Check also page-blog.php! -->
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blogroll.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blogroll.css?v=3" rel="stylesheet">
 <!--<script>
 	require(["require.config"], function() {
 		require(["modules/youtubePlayer", "modules/submenu"])
@@ -34,11 +34,11 @@
     <?php $i = 1; ?>
     <?php while (have_posts()) : the_post(); ?>
         <?php if ($i % 3 == 0) { ?> <!-- for every three posts we have to put in a row... -->
-            <div class="row">
                 <div class="col-md-4">
                     <?php get_template_part('templates/content', get_post_format()); ?>
                 </div>
             </div>
+            <div class="row">
         <?php } else { ?> <!-- no row needed... -->
             <div class="col-md-4">
                 <?php get_template_part('templates/content', get_post_format()); ?>
@@ -57,3 +57,38 @@
     <?php endif; ?>
 </div>
 </section>
+
+<!--  old grid  -->
+<!--<section class="section--grid">
+<div class="container">
+<?php // echo do_shortcode("[post_grid id='3635']"); ?>
+</div>
+</section>-->
+
+<section class="section--newsletter">
+    <div class="container-fluid quote">
+        <h2 class="text-center revealOnScroll"><?php echo $l->t('Subscribe to our newsletter');?></h2>
+        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Want to be sure to never miss anything? Subscribe to our newsletter!');?></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 revealOnScroll">
+                    <div class="row text-center">
+                        <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1" class="button button--arrow button--large"><?php echo $l->t('Subscribe now');?></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- This is the blog list. -->
+<head>
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blogroll.css" rel="stylesheet">
+<!--<script>
+	require(["require.config"], function() {
+		require(["modules/youtubePlayer", "modules/submenu"])
+	});
+</script>-->
+</head>

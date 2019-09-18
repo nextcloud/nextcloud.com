@@ -1,4 +1,4 @@
-<!-- This is the postgrid page -->
+<!-- This is the posts page. or maybe not. Check also index.php! -->
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blogroll.css?v=3" rel="stylesheet">
 <!--<script>
@@ -34,11 +34,11 @@
     <?php $i = 1; ?>
     <?php while (have_posts()) : the_post(); ?>
         <?php if ($i % 3 == 0) { ?> <!-- for every three posts we have to put in a row... -->
-            <div class="row">
                 <div class="col-md-4">
                     <?php get_template_part('templates/content', get_post_format()); ?>
                 </div>
             </div>
+            <div class="row">
         <?php } else { ?> <!-- no row needed... -->
             <div class="col-md-4">
                 <?php get_template_part('templates/content', get_post_format()); ?>
