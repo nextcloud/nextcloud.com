@@ -88,11 +88,12 @@ require(["require.config"], function() {
                 <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/indiecomputing/ubosbox-nextcloud-on-nuc-model-a-on-500x375.png" class="img-responsive featureimg" /></a>
             </div>
             <div class="col-md-7">
-                <p class="section--paragraph__tittle"><?php echo $l->t('UBOSbox Nextcloud on NUC &ndash; Home Server');?></p>
-                <p class="section--paragraph"><em><?php echo $l->t('Fully-assembled home server based on Intel NUC with optional management service');?></em></p>
+                <p class="section--paragraph__tittle"><?php echo $l->t('UBOSbox Nextcloud on NUC &ndash; Home/Office Server');?></p>
+                <p class="section--paragraph"><em><?php echo $l->t('Fully-assembled based on Intel NUC with optional management service');?></em></p>
                 <ul class="section--paragraph" style="list-style-type: disc">
                     <li><?php echo $l->t('Preconfigured: UBOS Linux (pre-installed) and Nextcloud plus apps (auto-install on first boot)');?></li>
                     <li><?php echo $l->t('Designed for use without monitor and keyboard')?></li>
+                    <li><?php echo $l->t('Easy day-to-day management: upgrades, backups, network configuration and more are just a single command')?></li>
                     <li><?php echo $l->t('UBOS Live systems management service for automatic upgrades, remote systems diagnosis and troubleshooting (option)');?></li>
                 </ul>
                 <div class="devices-tags">
@@ -108,10 +109,11 @@ require(["require.config"], function() {
             </div>
             <div class="col-md-7">
                 <p class="section--paragraph__tittle"><?php echo $l->t('UBOSbox Nextcloud on Raspberry Pi &ndash; Home Server (kit)');?></p>
-                <p class="section--paragraph"><em><?php echo $l->t('Complete home server kit for the enthusiast; physical assembly (but no software installation) required');?></em></p>
+                <p class="section--paragraph"><em><?php echo $l->t('Complete kit for the enthusiast; physical assembly (but no software installation) required');?></em></p>
                 <ul class="section--paragraph" style="list-style-type: disc">
                     <li><?php echo $l->t('Preconfigured: UBOS Linux (pre-installed) and Nextcloud plus apps (auto-install on first boot)');?></li>
                     <li><?php echo $l->t('Designed for use without monitor and keyboard')?></li>
+                    <li><?php echo $l->t('Easy day-to-day management: upgrades, backups, network configuration and more are just a single command')?></li>
                     <li><?php echo $l->t('UBOS Live systems management service for automatic upgrades, remote systems diagnosis and troubleshooting (option)');?></li>
                 </ul>
                 <div class="devices-tags">
