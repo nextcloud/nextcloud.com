@@ -169,25 +169,25 @@
 				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
-<!--            <a href="#marketing" data-toggle="collapse"><h3 class="jobs">Marketing Manager<span class="icon-arrow"></span></h3></a>
+            <a href="#marketing" data-toggle="collapse"><h3 class="jobs">Marketing and event manager<span class="icon-arrow"></span></h3></a>
 			<div id="marketing" class="collapse">
 				<p>Our marketing team is looking for an enthusiastic new member to help explain the benefits of Nextcloud to our potential customers and users.</p>
-				<p>You would support and strengthen our marketing, helping us create blogs, website pages, flyers and other promotional materials as well as go to conferences, develop marketing automation and organize events. We're looking for somebody with a design background (or interest!) who's eager to learn and try new things!</p>
+				<p>You would support and strengthen our marketing, helping us design website pages, flyers and other promotional materials as well as organize our attendance to events or our yearly conference. We're looking for somebody with a design background (or interest!) who's eager to learn and try new things!</p>
 				<p class="section--paragraph__tittle">Responsibilities:</p>
 				<ul>
 					<li>Manage and improve our marketing materials (both German and English)</li>
-					<li>Create new white papers, case studies and interviews with customers and users</li>
 					<li>Design posters, flyers and backdrops for events</li>
 					<li>Organize events and our presence at conferences</li>
-					<li>Write blogs and other content for our or other websites</li>
+					<li>Help us manage PR and communication</li>
 				</ul>
 
 				<p class="section--paragraph__tittle">Required skills:</p>
 				<ul>
 					<li>Writing and speaking German language</li>
-					<li>Interest in messaging, public relations, </li>
-					<li>Being able to work independently, track progress and ask for help when needed</li>
+					<li>Interest in messaging, public relations</li>
+					<li>Able and interested in managing events</li>
 					<li>Print and/or web design background</li>
+					<li>Being able to work independently, track progress and ask for help when needed</li>
 				</ul>
 
 				<p class="section--paragraph__tittle">What we offer:</p>
@@ -199,7 +199,7 @@
 					<li>Time for personal growth and education</li>
 				</ul>
 				<p>We are looking for somebody with ambition and drive, who would like to grow and learn. German speaking and some design experience are really needed, but besides that, if you're willing to try new things, you will be fine! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your motivation and resume if you are interested in this role.</p>
-			</div>-->
+			</div>
 
 
             <a href="#jsdev" data-toggle="collapse"><h3 class="jobs">Javascript Developer<span class="icon-arrow"></span></h3></a>
