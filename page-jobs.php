@@ -172,7 +172,7 @@
             <a href="#marketing" data-toggle="collapse"><h3 class="jobs">Marketing and event manager<span class="icon-arrow"></span></h3></a>
 			<div id="marketing" class="collapse">
 				<p>Our marketing team is looking for an enthusiastic new member to help explain the benefits of Nextcloud to our potential customers and users.</p>
-				<p>You would support and strengthen our marketing, helping us design website pages, flyers and other promotional materials as well as organize our attendance to events or our yearly conference. We're looking for somebody with a design background (or interest!) who's eager to learn and try new things!</p>
+				<p>You would support and strengthen our marketing, helping us design website pages, flyers and other promotional materials as well as organize our attendance to events or our yearly conference. We are a small team so we also share work writing blogs, answering questions on social media, preparing announcements and more. So we're looking for somebody with a design background (or interest!) who's eager to learn and try new things!</p>
 				<p class="section--paragraph__tittle">Responsibilities:</p>
 				<ul>
 					<li>Manage and improve our marketing materials (both German and English)</li>
