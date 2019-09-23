@@ -48,7 +48,7 @@
         <div class="col-md-6 col-md-offset-3">
             <p class="text-center"><?php echo $l->t('Regain full control over the communication in your organization right now.');?></p>
             <div class="text-center morebuttondiv">
-                <a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                <a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow button--blue"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
         </div>
     </div>
