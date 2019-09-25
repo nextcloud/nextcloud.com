@@ -58,7 +58,7 @@
 			<p class="section--paragraph__tittle">Pricing</p>
 			<p class="section--paragraph revealOnScroll">
 			<i style="float:left; margin: 10px;" class="fa fa-ticket"></i>
-			Entree is €400<br/>Book until August 15th and get 50% off!</p>
+			Entree is €399.99<br/>Book until August 15th and get 50% off!</p>
 			<p class="section--paragraph revealOnScroll"></p>
 			<p class="section--paragraph text-center revealOnScroll"><a href="https://eventyay.com/e/b4dd4aab/" class="button button--blue button--arrow button--large">Sign up now!</a></p>
 		</div>
@@ -87,7 +87,7 @@
             </div>
             <div class="row">
                 <i style="float:left; margin: 10px;" class="fa fa-ticket"></i>
-                <p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://eventyay.com/e/b4dd4aab/?code=EarlyBird">Early-bird tickets</a> only €200!<br/><em>(After August 1st regular €400)</em></p>
+                <p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://eventyay.com/e/b4dd4aab/?code=EarlyBird">Early-bird tickets</a> only €200!<br/><em>(After August 1st regular €399.99)</em></p>
             </div>
                  <p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/b4dd4aab/" class="button button--blue button--arrow button--large">Sign up now!</a></p>
             </div>
