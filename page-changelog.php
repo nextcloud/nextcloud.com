@@ -29,6 +29,57 @@
     </ul>
 
     <a name="latest16"></a>
+<h3 id="16-0-5">Version 16.0.5 <small>September 27 2019</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.5.tar.bz2">nextcloud-16.0.5.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.5.zip">nextcloud-16.0.5.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.5.tar.bz2.md5">nextcloud-16.0.5.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.5.zip.md5">nextcloud-16.0.5.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.5.tar.bz2.sha256">nextcloud-16.0.5.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.5.zip.sha256">nextcloud-16.0.5.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.5.tar.bz2.sha512">nextcloud-16.0.5.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.5.zip.sha512">nextcloud-16.0.5.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.5.tar.bz2.asc">nextcloud-16.0.5.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.5.zip.asc">nextcloud-16.0.5.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/16745">Make possible to focus grid/list view toggle via keyboard (server#16745)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16753">Fix tracking of auto disabled apps in Updater (server#16753)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16802">Filter more configs (server#16802)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16818">Correctly remove apps without any releases (server#16818)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16826">Undefined variable response when server is no nextcloud anymore (server#16826)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16837">Change access handling of projects (server#16837)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16848">Only add the app-itunes-app tag if the id is set (server#16848)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16883">Use custom client URL in welcome emails (server#16883)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16891">Properly redirect if accessing invalid file though /f/ entrypoint (server#16891)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16896">Bump mixin-deep from 1.3.1 to 1.3.2 (server#16896)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16909">Only run integration tests when PHP was modified (server#16909)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16921">Ignore Enter key up event on menu button toggles (server#16921)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16991">Be sure to get the jailed path if the storage is a jail (server#16991)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16994">Remove orphaned calendar data from deleted subscriptions (server#16994)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16995">Only run code coverage CI on merge (server#16995)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16997">Returns 404 (server#16997)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17061">Properly initialize the CacheJail for sharing (server#17061)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17070">Fix SMB availability status + higher delay on auth issues (server#17070)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17091">When you click on thumbnail of a file, it should open the file not the sidebar (server#17091)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17099">Emit moveToTrash event only for the deleting user (server#17099)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17103">Fix opening apps with Ctrl+click (server#17103)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17155">Always use the folder icon depending on the mount type if not a share mount (server#17155)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17157">Don't send executionContexts for Clear-Site-Data (server#17157)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17197">Add uid to delete temp token query (server#17197)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17211">Fix l10n in federated file sharing (server#17211)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17250">Nextcloud 16.0.5 (server#17250)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17257">Fix spaces being collapsed in move dialog (server#17257)</a></li>
+        <li><a href="https://github.com/nextcloud/activity/pull/389">Better dark theme support (activity#389)</a></li>
+        <li><a href="https://github.com/nextcloud/activity/pull/390">Fix travis database tests (activity#390)</a></li>
+        <li><a href="https://github.com/nextcloud/files_texteditor/pull/174">Bump lodash from 4.17.11 to 4.17.14 (files_texteditor#174)</a></li>
+        <li><a href="https://github.com/nextcloud/files_texteditor/pull/183">Translate menu action (files_texteditor#183)</a></li>
+        <li><a href="https://github.com/nextcloud/files_videoplayer/pull/138">Bump mixin-deep from 1.3.1 to 1.3.2 (files_videoplayer#138)</a></li>
+        <li><a href="https://github.com/nextcloud/firstrunwizard/pull/211">Bump mixin-deep from 1.3.1 to 1.3.2 (firstrunwizard#211)</a></li>
+        <li><a href="https://github.com/nextcloud/nextcloud_announcements/pull/48">Randomize the interval. (nextcloud_announcements#48)</a></li>
+        <li><a href="https://github.com/nextcloud/nextcloud_announcements/pull/51">Improve the notification (nextcloud_announcements#51)</a></li>
+        <li><a href="https://github.com/nextcloud/notifications/pull/415">Also set the subject when the subject is not too long (notifications#415)</a></li>
+        <li><a href="https://github.com/nextcloud/notifications/pull/418">Bump eslint-utils from 1.3.1 to 1.4.2 (notifications#418)</a></li>
+        <li><a href="https://github.com/nextcloud/notifications/pull/420">The backports of #392 and #390 did not work out as expected (notifications#420)</a></li>
+        <li><a href="https://github.com/nextcloud/recommendations/pull/121">Bump mixin-deep from 1.3.1 to 1.3.2 (recommendations#121)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/221">Bump eslint-utils from 1.3.1 to 1.4.2 (viewer#221)</a></li>
+</ul
 
 <h3 id="16-0-4">Version 16.0.4 <small>August 16 2019</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.4.tar.bz2">nextcloud-16.0.4.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.4.zip">nextcloud-16.0.4.zip</a></br>
@@ -274,6 +325,41 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
     </ul>
 
     <a name="latest15"></a>
+
+<h3 id="15-0-12">Version 15.0.12 <small>September 27 2019</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.12.tar.bz2">nextcloud-15.0.12.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.12.zip">nextcloud-15.0.12.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.12.tar.bz2.md5">nextcloud-15.0.12.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.12.zip.md5">nextcloud-15.0.12.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.12.tar.bz2.sha256">nextcloud-15.0.12.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.12.zip.sha256">nextcloud-15.0.12.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.12.tar.bz2.sha512">nextcloud-15.0.12.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.12.zip.sha512">nextcloud-15.0.12.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.12.tar.bz2.asc">nextcloud-15.0.12.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.12.zip.asc">nextcloud-15.0.12.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/16803">Filter more configs (server#16803)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16825">Undefined variable response when server is no nextcloud anymore (server#16825)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16849">Only add the app-itunes-app tag if the id is set (server#16849)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16884">Use custom client URL in welcome emails (server#16884)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16897">Bump mixin-deep from 1.3.1 to 1.3.2 in /apps/accessibility (server#16897)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16900">Bump mixin-deep from 1.3.1 to 1.3.2 in /apps/oauth2 (server#16900)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16902">Bump mixin-deep from 1.3.1 to 1.3.2 in /apps/updatenotification (server#16902)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16904">Bump mixin-deep from 1.3.1 to 1.3.2 in /settings (server#16904)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16905">Bump mixin-deep from 1.3.1 to 1.3.2 in /build (server#16905)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16992">Be sure to get the jailed path if the storage is a jail (server#16992)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/16996">Only run code coverage CI on merge (server#16996)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17058">Returns 404 (server#17058)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17062">Properly initialize the CacheJail for sharing (server#17062)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17071">Fix SMB availability status + higher delay on auth issues (server#17071)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17100">Emit moveToTrash event only for the deleting user (server#17100)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17158">Don't send executionContexts for Clear-Site-Data (server#17158)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17198">Add uid to delete temp token query (server#17198)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17212">Fix l10n in federated file sharing (server#17212)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/17251">Nextcloud 15.0.12 (server#17251)</a></li>
+        <li><a href="https://github.com/nextcloud/nextcloud_announcements/pull/49">Randomize the interval. (nextcloud_announcements#49)</a></li>
+        <li><a href="https://github.com/nextcloud/nextcloud_announcements/pull/53">Stable16] Improve the notification (nextcloud_announcements#53)</a></li>
+        <li><a href="https://github.com/nextcloud/notifications/pull/419">Bump mixin-deep from 1.3.1 to 1.3.2 (notifications#419)</a></li>
+        <li><a href="https://github.com/nextcloud/notifications/pull/437">Bump tar from 4.4.1 to 4.4.11 (notifications#437)</a></li>
+</ul>
 
 <h3 id="15-0-11">Version 15.0.11 <small>August 16 2019</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.11.tar.bz2">nextcloud-15.0.11.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.11.zip">nextcloud-15.0.11.zip</a></br>
