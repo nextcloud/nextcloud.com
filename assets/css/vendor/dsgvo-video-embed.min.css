@@ -3,25 +3,25 @@ iframe {
 
 }
 .video-wall {
-    position:relative;
-    color:white;
-    display:inline-block;
-    min-height:18em;
-    min-width:28em;
-    margin:0;
-    background-color:#eee;
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    padding:0 1em ;
+    position: relative;
+    color: white;
+    display: inline-block;
+    min-height: 18em;
+    min-width: 28em;
+    margin: 0;
+    background-color: #eee;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 1em ;
 }
 
 .video-wall strong {
-    display:block;
-    text-align:center;
-    font-size: 0.7em;
+    display: block;
+    text-align: center;
+    font-size: 0.7em !important;
     width: 14em;
-    margin:0.1em auto;
+    margin: 0.1em auto;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -41,7 +41,7 @@ iframe {
 }
 
 .video-wall p {
-    font-size: 0.5em;
+    font-size: 0.5em !important;
     padding: 0.5em;
 }
 
@@ -66,36 +66,26 @@ iframe {
     border: 0;
 }
 
-.video-wall .video-link {
-    display: block;
-    white-space: nowrap;
-    font-size: .6em;
-    text-align: center;
-    width: 22em;
-    margin: 0.2em auto;
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
 .video-wall button {
-    -webkit-appearance: none;
-    cursor: pointer;
-    color: #444;
-    display: block;
-    width: 11.5em;
-    height: 4.25em;
-    border: 0 none;
-    border-radius: 0.75em;
-    padding: 0 0 0 5.5em;
-    text-align: left;
-    margin: 1em auto 3em auto;
+    -webkit-appearance: none !important;
+    cursor: pointer !important;
+    color: #444 !important;
+    display: block !important;
+    width: 11.5em !important;
+    height: 4.25em !important;
+    border: 0 none !important;
+    border-radius: 0.75em !important;
+    padding: 0 0 0 5.5em !important;
+    text-align: left !important;
+    margin: 1em auto 3em auto !important;
     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'%3E%3Cpath fill='%23ff0000' d='M11.109 17.625l7.562-3.906-7.562-3.953v7.859zM14 4.156c5.891 0 9.797 0.281 9.797 0.281 0.547 0.063 1.75 0.063 2.812 1.188 0 0 0.859 0.844 1.109 2.781 0.297 2.266 0.281 4.531 0.281 4.531v2.125s0.016 2.266-0.281 4.531c-0.25 1.922-1.109 2.781-1.109 2.781-1.062 1.109-2.266 1.109-2.812 1.172 0 0-3.906 0.297-9.797 0.297v0c-7.281-0.063-9.516-0.281-9.516-0.281-0.625-0.109-2.031-0.078-3.094-1.188 0 0-0.859-0.859-1.109-2.781-0.297-2.266-0.281-4.531-0.281-4.531v-2.125s-0.016-2.266 0.281-4.531c0.25-1.937 1.109-2.781 1.109-2.781 1.062-1.125 2.266-1.125 2.812-1.188 0 0 3.906-0.281 9.797-0.281v0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 1em center #eee;
-    opacity: 0.8;
-    background-size: 3.5em;
-    transition: background-color 0.3s;
+    opacity: 0.8 !important;
+    background-size: 3.5em !important;
+    transition: background-color 0.3s !important;
 }
 
 .video-wall button:hover {
-    color: black;;
-    background-color: white;;
-    opacity: 1;
+    color: black !important;
+    background-color: white !important;
+    opacity: 1 !important;
 }
