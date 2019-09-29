@@ -134,13 +134,21 @@
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/iPhone6s-talk-chat.png" alt="in action"/></a>
         </div>
         <div class="col-md-6 feature--block">
-        <h2>Future-ready: built in collaboration</h2>
-        <p>Gartner typically calls solutions in this space Enterprise File Sync and Share or EFSS. In the last years, the market has been moving on to providing a next generation EFSS, called Content Collaboration Platform, integrating online document editing, communication and planning capabilities complementing the file exchange technologies.</p>
-        <p>Nextcloud is a leading vendor in this new space, offering these capabilities with <a class="hyperlink" href="<?php echo home_url('groupware') ?>">Nextcloud Groupware</a> and <a class="hyperlink" href="<?php echo home_url('talk') ?>">Nextcloud Talk</a>, delivering seamless communication features integrated in Files. Users can attach a note to shares, comment on files, open a chat or even start a call directly, connecting files to these conversations to keep track of it all. Integrated email and calendaring connect projects and teams to the files they work with, and with Deck, Nextcloud provides a kanban board app which works together with all those.</p>
-        <p>All these functions are available on-the-go and work across organizational boundaries, allowing users to self-manage thanks to built in support for creating guest accounts by users as well as public sharing links that require no login but can be protected by a password.</p>
+            <h2>Future-ready: built in collaboration</h2>
+            <p>Gartner typically calls solutions in this space Enterprise File Sync and Share or EFSS. In the last years, the market has been moving on to providing a next generation EFSS, called Content Collaboration Platform, integrating online document editing, communication and planning capabilities complementing the file exchange technologies.</p>
+            <p>Nextcloud is a leading vendor in this new space, offering these capabilities with <a class="hyperlink" href="<?php echo home_url('groupware') ?>">Nextcloud Groupware</a> and <a class="hyperlink" href="<?php echo home_url('talk') ?>">Nextcloud Talk</a>, delivering seamless communication features integrated in Files. Users can attach a note to shares, comment on files, open a chat or even start a call directly, connecting files to these conversations to keep track of it all. Integrated email and calendaring connect projects and teams to the files they work with, and with Deck, Nextcloud provides a kanban board app which works together with all those.</p>
         </div>
     </div>
-
+        <div class="row feature-row">
+        <div class="col-md-6">
+            <div data-type="youtube" data-video-id="Nr7cGN6ZJM0"></div>
+            <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/Nr7cGN6ZJM0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-6 feature--block">
+            <p>Rather than tacked on after-the-fact through an external or third-party app that simply opens a new browser tab, Nextcloud has collaboration truly integrated. Watch the short video to see how a text editing session with chat and a video call on the side works.</p>
+            <p>All these functions are available on-the-go and work across organizational boundaries, allowing users to self-manage thanks to built in support for creating guest accounts by users as well as public sharing links that require no login but can be protected by a password.</p>
+        </div>
+    </div>
     <div class="row">
     <h2>Your advantages</h2>
         <div class="col-md-12">
@@ -159,7 +167,7 @@
         </div>
 	    <div class="col-md-8">
             <h3>Under IT's control</h3>
-            <p class="section--paragraph">No matter the storage solution used, Nextcloud can <a class="hyperlink" href="/workflow">ensure corporate policies are followed.</a> Sharing can be restricted through the file firewall, filtering on user properties like location or group, or file properties like (automatically or manually) assigned tags, file type and more. With storage transparent to users, generic data can remain where it is while IT can make sure that business critical or compliance-relevant information is stored on internal infrastructure and does not leave the company. Use our secure <a href="/secure-drop">File Drop</a> to let customers upload files to you in a easy and secure way!</p>
+            <p class="section--paragraph">No matter the storage solution used, Nextcloud can <a class="hyperlink" href="<?php echo home_url('workflow') ?>">ensure corporate policies are followed.</a> Sharing can be restricted through the file firewall, filtering on user properties like location or group, or file properties like (automatically or manually) assigned tags, file type and more. With storage transparent to users, generic data can remain where it is while IT can make sure that business critical or compliance-relevant information is stored on internal infrastructure and does not leave the company. Use our secure <a href="<?php echo home_url('secure-drop') ?>">File Drop</a> to let customers upload files to you in a easy and secure way!</p>
    		</div>
     </div>
 </div>
@@ -172,7 +180,7 @@
         </div>
 	    <div class="col-md-6">
             <h3>With uniquely layered encryption</h3>
-            <p class="section--paragraph">Nextcloud offers a supremely easy to use, well integrated file sync and share solution with an uniquely layered approach to security. Together with the support for nearly any storage technology, it features server-side encryption and offers the ability to employ <a href="/endtoend">end-to-end, client side encryption</a> for a subset of user files. Rather than making it an either-or choice, your business can rely on utmost security where it is needed but keep collaborative online document editing and full-text search on the server over the rest of the stored data.</p>
+            <p class="section--paragraph">Nextcloud offers a supremely easy to use, well integrated file sync and share solution with an uniquely layered approach to security. Together with the support for nearly any storage technology, it features server-side encryption and offers the ability to employ <a href="<?php echo home_url('encryption') ?>">end-to-end, client side encryption</a> for a subset of user files. Rather than making it an either-or choice, your business can rely on utmost security where it is needed but keep collaborative online document editing and full-text search on the server over the rest of the stored data.</p>
 		</div>
     </div>
 </div>
@@ -195,7 +203,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6 image--floated">
-            <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/I5wcLS9xxMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="100%" height="250" src="https://www.youtube-nocookie.com/embed/I5wcLS9xxMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
 	    <div class="col-md-6">
             <h3>At global scale and ensuring data locality</h3>

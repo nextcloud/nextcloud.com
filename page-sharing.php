@@ -59,8 +59,9 @@ require(["require.config"], function() {
             </div>
         </div>
         <div class="row feature--block">
-            <div class="col-md-6 revealOnScroll image--feature new-img">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/img/features/Collabora_with_Talk_in_sidebar_1.png" class="img-responsive featureimg" />
+            <div class="col-md-6">
+                <div data-type="youtube" data-video-id="Nr7cGN6ZJM0"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/Nr7cGN6ZJM0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 revealOnScroll">
             <p class="section--paragraph__tittle"><?php echo $l->t('Work with others');?></p>
@@ -154,6 +155,18 @@ require(["require.config"], function() {
         <div class="col-md-4">
             <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-view-watermarked.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-view-watermarked.png" alt="Secure view watermarked file" class="img-responsive"></a><br />
             <?php echo $l->t('Secure view watermarked file');?>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Realtime collaboration in a team');?></p>
+            <div data-type="youtube" data-video-id="Nr7cGN6ZJM0"></div>
+            <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/Nr7cGN6ZJM0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-6">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Watermarks and secure inbox');?></p>
+            <div data-type="youtube" data-video-id="nueL_hzDp-s"></div>
+            <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/nueL_hzDp-s" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </div>

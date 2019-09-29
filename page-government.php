@@ -1,5 +1,7 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/government.css?v=2" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 require(["require.config"], function() {
 	require(["bootstrap"])
@@ -15,7 +17,7 @@ require(["require.config"], function() {
         <div class="container">
 			<div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Nextcloud in Government');?></h1>
-				<h2><?php echo $l->t('Reclaiming Digital Sovreignty');?></p>
+				<h2><?php echo $l->t('Reclaiming Digital Sovereignty');?></p>
 			</div>
 		</div>
 	</div>
@@ -44,7 +46,7 @@ require(["require.config"], function() {
 <div class="container">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-            <p class="section--paragraph text-center"><?php echo $l->t('Governments are moving away from foreign cloud providers amid rising concerns about digital sovreignty. Nextcloud has emerged as the most deployed self-hosted private cloud solution in government.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Governments are moving away from foreign cloud providers amid rising concerns about digital sovereignty. Nextcloud has emerged as the most deployed self-hosted private cloud solution in government.');?></p>
 		</div>
 	</div>
 </div>
@@ -178,7 +180,8 @@ require(["require.config"], function() {
         </div>
         <div class="row">
             <div class="col-md-6 revealOnScroll">
-                <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/web-ui-nw.png" alt="in action"/></a>
+                <div data-type="youtube" data-video-id="Nr7cGN6ZJM0"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/Nr7cGN6ZJM0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Easy access');?></p>

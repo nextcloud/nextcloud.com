@@ -110,9 +110,10 @@
             <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-attaching-files-and-enabling-secure-mailbox-.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-attaching-files-and-enabling-secure-mailbox-.png" alt="Secure Mailbox - attaching files" class="img-responsive"></a><br />
             <?php echo $l->t('Attaching files, enabling Secure Mailbox');?>
         </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6"><a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure_mailbox-email-as-it-will-be-send-to-recipient.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-email-as-it-will-be-send-to-recipient.png" alt="Secure Mailbox - Email as it will be sent to recipient" class="img-responsive"></a><br />
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure_mailbox-email-as-it-will-be-send-to-recipient.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-email-as-it-will-be-send-to-recipient.png" alt="Secure Mailbox - Email as it will be sent to recipient" class="img-responsive"></a><br />
             <?php echo $l->t('Email as it will be sent to recipient');?>
         </div>
         <div class="col-md-6">
@@ -120,6 +121,12 @@
             <?php echo $l->t('Recipient view in Secure Mailbox in Nextcloud');?>
         </div>
     </div>
+    <!--<div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div data-type="youtube" data-video-id="nueL_hzDp-s"></div>
+            <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/nueL_hzDp-s" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>-->
 </div>
 </section>
 

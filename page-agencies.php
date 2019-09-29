@@ -142,7 +142,8 @@ require(["require.config"], function() {
         </div>
         <div class="row">
             <div class="col-md-6 revealOnScroll">
-                <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/talk-chat-nw.png" alt="in action"/></a>
+                <div data-type="youtube" data-video-id="Nr7cGN6ZJM0"></div>
+                <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/Nr7cGN6ZJM0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Communication the way you need it');?></p>

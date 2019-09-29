@@ -382,18 +382,14 @@
         </div>
     </div>
     <div class="row">
-        <p class="section--paragraph__tittle"><?php echo $l->t('Remote Wipe');?></p>
-        <p class="section--paragraph"><?php echo $l->t('While many companies have Mobile Device Management, thanks to build-in support, Remote Wipe will work on systems not under management of the company. This is useful for home users but also large universities and of course in a scenario where guest accounts were handed to a third party. If you permit downloading of documents by the third party, you can wipe the documents from their devices when the the collaboration has ended.');?></p>
-        <p class="section--paragraph"><?php echo $l->t('Remote wipe can be used on a per-device basis by users and on a per-user base by the administrator.');?></p>
-    </div>
-    <div class="row">
         <div class="col-md-6">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-user.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-user.png" alt="Remote wipe as a user, per device" class="img-responsive"></a><br />
-            <?php echo $l->t('Remote wipe as a user, per device');?>
+            <div data-type="youtube" data-video-id="oyWXMjb-6ik"></div>
+            <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/oyWXMjb-6ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="col-md-6">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-admin.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-admin.png" alt="Remote wipe as admin, per user" class="img-responsive"></a><br />
-            <?php echo $l->t('Remote wipe as admin, per user');?>
+            <p class="section--paragraph__tittle"><?php echo $l->t('Remote Wipe');?></p>
+            <p class="section--paragraph"><?php echo $l->t('While many companies have Mobile Device Management, thanks to build-in support, Remote Wipe will work on systems not under management of the company. This is useful for home users but also large universities and of course in a scenario where guest accounts were handed to a third party. If you permit downloading of documents by the third party, you can wipe the documents from their devices when the the collaboration has ended.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Remote wipe can be used on a per-device basis by users and on a per-user base by the administrator.');?></p>
         </div>
     </div>
 </div>
@@ -402,20 +398,20 @@
 <section class="section--vdr">
     <div class="container">
         <div class="row feature-row">
-            <div class="col-md-6 revealOnScroll">
+            <div class="col-md-6 image--floated  ">
                 <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/vdr-link.jpg" alt="in action"/>
             </div>
-            <div class="col-md-6 revealOnScroll feature--block">
+            <div class="col-md-6  feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Virtual Data Room');?></p>
                 <p class="section--paragraph"><?php echo $l->t('In settings where a firewall is needed between departments or organizations without impeding smooth and efficient collaboration, a separate Virtual Data Room can be set up. Nextcloud offers a wide range of unique features for VDR use and its on-premises nature offers unparalleled confidentiality and control.');?></p>
                 <a href="<?php echo home_url('virtual-data-room') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Virtual Data Rooms');?></a>
             </div>
         </div>
         <div class="row feature-row">
-            <div class="col-md-6 revealOnScroll image--floated image--feature new-img">
+            <div class="col-md-6 image--feature new-img">
                 <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ransomware-recovery.png" alt="in action"/></a>
             </div>
-            <div class="col-md-6 revealOnScroll feature--block">
+            <div class="col-md-6  feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Best Ransomware protection in the industry');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Ransomware attacks are becoming more targetted as lots of money can be extracted from businesses and government organizations. While insurance can cover direct costs, the disruption to business is immense regardless. Nextcloud goes far beyond competing solutions, offering automated, one-click ransomware recovery tools.');?></p>
                 <a href="https://nextcloud.com/blog/amidst-rising-ransomware-costs-another-us-city-pays-hundreds-of-thousands-to-recover-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Ransomware risks and protection');?></a>
@@ -527,7 +523,7 @@
                             <h3><?php echo $l->t('Response');?></h3>
                             <ul>
                                 <li><?php echo $l->t('We follow industry best practices in disclosing security issues fixed in a release: 2 weeks after the release ');?><a class="hyperlink" href="<?php echo home_url('security/advisories') ?>"><?php echo $l->t('advisories with CVE identifiers are published');?></a></li>
-                                <li><?php echo $l->t('We run a <a class="hyperlink" href="https://hackerone.com/nextcloud">successful bug bounty program with high payouts</a>, up to $5000');?></li>
+                                <li><?php echo $l->t('We run a <a class="hyperlink" href="https://hackerone.com/nextcloud">successful bug bounty program with high payouts</a>, up to $10.000');?></li>
                                 <li><?php echo $l->t('Statistics show a massive decrease of valid external security reports');?></li>
                             </ul>
                         </div>
@@ -547,7 +543,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <h2 class="section--heading-1 section--text--center"><?php echo $l->t('Security bug bounties');?></h2>
-            <p class="section--paragraph section--text--center"><?php echo $l->t('Nextcloud protects your security with an up to $ 5000 Security Bug Bounty program');?></p>
+            <p class="section--paragraph section--text--center"><?php echo $l->t('Nextcloud protects your security with an up to USD 10.000 Security Bug Bounty program');?></p>
         </div>
     </div>
     <div class="features--container row">
@@ -565,7 +561,7 @@
         <div class="col-md-6">
             <div class="feature">
                 <img height="70px" class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/hacker-one-logo.png">
-                <p class="section--paragraph"><?php echo $l->t('Anyone reporting a security vulnerability in Nextcloud can earn up to $5000, making ours some of the highest security bug bounties in the open source industry. For more details, <a class="hyperlink" href="https://nextcloud.com/blog/introducing-the-nextcloud-bug-bounty-program/">see our announcement</a>, our <a class="hyperlink" href="https://nextcloud.com/blog/updates-about-the-nextcloud-bug-bounty-program/">update in 2017</a> and the <a class="hyperlink" href="https://www.hackerone.com/resources/nextcloud-puts-hacker-powered-security-front-and-center">HackerOne whitepaper in 2018</a>');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Anyone reporting a security vulnerability in Nextcloud can earn up to $10.000, making ours some of the highest security bug bounties in the open source industry. For more details, <a class="hyperlink" href="https://nextcloud.com/blog/introducing-the-nextcloud-bug-bounty-program/">see our announcement</a>, our <a class="hyperlink" href="https://nextcloud.com/blog/updates-about-the-nextcloud-bug-bounty-program/">update in 2017</a> and the <a class="hyperlink" href="https://www.hackerone.com/resources/nextcloud-puts-hacker-powered-security-front-and-center">HackerOne whitepaper in 2018</a>');?></p>
                 <blockquote>Nextcloud’s lightning fast response times are impressive and make them a model for how to build an efficient bug bounty triage and response process.</blockquote>
                 <p class="quote-by">-- Michiel Prins, co-founder HackerOne.</p>
 

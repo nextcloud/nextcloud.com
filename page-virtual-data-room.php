@@ -155,6 +155,18 @@
             <?php echo $l->t('Recipient view in Secure Mailbox in Nextcloud');?>
         </div>
     </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Remote wipe');?></p>
+                <div data-type="youtube" data-video-id="oyWXMjb-6ik"></div>
+                <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/oyWXMjb-6ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Watermarks and secure inbox');?></p>
+                <div data-type="youtube" data-video-id="nueL_hzDp-s"></div>
+                <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/nueL_hzDp-s" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
 </div>
 </section>
 <section class="section--benefits">

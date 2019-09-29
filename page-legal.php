@@ -194,7 +194,8 @@ require(["require.config"], function() {
     <div class="container">
         <div class="row feature-row">
             <div class="col-md-6 revealOnScroll">
-                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/vdr-link.jpg" alt="in action"/>
+                <div data-type="youtube" data-video-id="nueL_hzDp-s"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/nueL_hzDp-s" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 revealOnScroll feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Virtual Data Room');?></p>
