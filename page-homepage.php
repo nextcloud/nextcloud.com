@@ -14,9 +14,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/">
+				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-17-brings-remote-wipe-collaborative-text-editor-and-next-generation-secure-watermarking/">
 				<span class="type">News</span>
-				<span class="message"><strong><?php echo $l->t('EU governments');?></strong> <?php echo $l->t(' choose independence from US cloud providers with Nextcloud');?></span>
+				<span class="message"><strong><?php echo $l->t('Nextcloud 17');?></strong> <?php echo $l->t(' brings remote wipe, collaborative text editor and next generation secure watermarking');?></span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Protecting your data');?></h1>
@@ -220,18 +220,18 @@
 	</div>
 </section>-->
 
-<section class="section--conf">
+<!--<section class="section--conf">
 	<div class="container-fluid">
 			<div class="container">
 			<h2 class="section--heading-1 revealOnScroll">Nextcloud Conference</h2>
 			<p class="section--paragraph revealOnScroll">Join for talks, workshops & keynotes at your yearly conference!<br> September 14-15 in Berlin, Germany!<br>
 			Featuring our Enterprise Day on Monday September 16.</p>
-			<p class="section--paragraph revealOnScroll"><a href="<?php echo home_url('conf2019') ?>" class="button button--arrow button--large button--blue">Conference</a><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Enterprise Day</a></p>
+			<p class="section--paragraph revealOnScroll"><a href="<?php echo home_url('conf2019') ?>" class="button button--arrow button--large button--blue">Conference</a><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Enterprise Day</a></p>-->
 <!--  			<p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">See the Friday Focus program in our blog!</a></p> -->
 <!-- 			<p class="section--paragraph revealOnScroll"><a class="button button--blue button--arrow button--large revealOnScroll" href="coming" role="button">Know all the features</a></p> -->
-			</div>
+<!--			</div>
 	</div>
-</section>
+</section>-->
 
 <?php require get_template_directory().'/compliance.php';?>
 
@@ -239,7 +239,7 @@
 <div class="calltoaction revealOnScroll">
 	<h1 class="section--heading-2 section--text--center"><?php echo $l->t('See how we stack up');?></h1>
 	<p class="section--paragraph section--text--center">
-	<a href="<?php echo home_url('compare') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Compare Nextcloud to other solutions');?></a></p>
+	<a href="<?php echo home_url('compare') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Compare Nextcloud to other solutions like Office365');?></a></p>
 </div>
 </section>
 
