@@ -186,7 +186,7 @@
 					<li>Writing and speaking German language</li>
 					<li>Interest in messaging, public relations</li>
 					<li>Able and interested in managing events</li>
-					<li>Print and/or web design background</li>
+					<li>Some print and/or web design background</li>
 					<li>Being able to work independently, track progress and ask for help when needed</li>
 				</ul>
 
@@ -197,8 +197,10 @@
 					<li>A competitive salary</li>
 					<li>Flexibility for a healthy work-life balance</li>
 					<li>Time for personal growth and education</li>
+					<li>We have flexible office hours and most of our team works from home.</li>
+					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
 				</ul>
-				<p>We are looking for somebody with ambition and drive, who would like to grow and learn. German speaking and some design experience are really needed, but besides that, if you're willing to try new things, you will be fine! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your motivation and resume if you are interested in this role.</p>
+				<p>We are looking for somebody who cares about their job and want to make a difference. We strive to provide the freedom and space so you can! German speaking, some design experience and being a generally organized person are important for this job, but besides that, if you're willing to try new things, you are an ideal candidate! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your motivation and resume if you are interested in this role.</p>
 			</div>
 
 
