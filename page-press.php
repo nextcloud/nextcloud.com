@@ -20,6 +20,7 @@
     <a href="<?php echo home_url('press/pr20190425') ?>" class="button button--large button--blue button--arrow">Press release and background</a>
     <h2>Press releases</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20190930') ?>">September 30, 2019: Nextcloud 17 brings remote wipe, collaborative text editor and next generation secure watermarking</a></li>
        <!--  <li><a href="<?php echo home_url('press/pr20190814') ?>">August 14, 2019: 1000 French universities and research organizations gain access to secure, private collaboration platform</a></li> -->
         <li><a href="<?php echo home_url('press/pr20190827') ?>">August 27, 2019: Amid escalating trade disputes, EU governments choose independence from US cloud providers</a></li>
         <li><a href="<?php echo home_url('press/pr20190627') ?>">June 27, 2019: Nextcloud introduces collaborative rich text editor</a></li>

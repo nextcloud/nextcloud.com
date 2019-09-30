@@ -2,15 +2,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title><?php wp_title('-', true, 'right'); ?></title>
 <meta name="author" content="Nextcloud">
-<meta itemprop="description" content="Nextcloud is the most deployed self-hosted file share and collaboration platform on the web. Access  &amp; collaborate across your devices. Your data remains under your control.">
-<meta name="description" content="Nextcloud is the most deployed self-hosted file share and collaboration platform on the web. Access  &amp; collaborate across your devices. Your data remains under your control.">
+<meta itemprop="description" content="Nextcloud is the most deployed on-premises file share and collaboration platform. Access &amp; collaborate across your devices. Your data remains under your control.">
+<meta name="description" content="Nextcloud is the most deployed on-premises file share and collaboration platform. Access &amp; collaborate across your devices. Your data remains under your control.">
 
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@nextclouders">
 <meta name="twitter:url" content="<?php global $wp; echo home_url( $wp->request ) ?>">
 <meta name="twitter:title" content="<?php wp_title('-', true, 'right'); ?>">
-<meta name="twitter:description" content="Nextcloud is the most deployed self-hosted file share and collaboration platform on the web. Access  &amp; collaborate across your devices. You stay in control over your data!">
+<meta name="twitter:description" content="Nextcloud is the most deployed on-premises file share and collaboration platform. Access &amp; collaborate across your devices. Your data remains under your control.">
 
 <!-- Twitter summary card with large image must be at least 280x150px -->
 
@@ -18,7 +18,7 @@
 <meta property="og:title" content="<?php wp_title('-', true, 'right'); ?>" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="<?php global $wp; echo home_url($wp->request); ?>" />
-<meta property="og:description" content="Nextcloud is the most deployed self-hosted file share and collaboration platform on the web. Access  &amp; collaborate across your devices. You decide what happens with your data, where it is and who can access it" />
+<meta property="og:description" content="Nextcloud is the most deployed on-premises file share and collaboration platform. Access &amp; collaborate across your devices. Your data remains under your control." />
 <meta property="og:site_name" content="Nextcloud" />
 <meta property="fb:admins" content="1032807203462807" />
 

@@ -13863,6 +13863,9 @@ blockquote p {
   color: #757575;
   width: 50%;
 }
+.section--whitepaper form, .whitepaper form {
+  margin-top: 40px;
+}
 .section--whitepaper .newsletter, .whitepaper .newsletter {
   padding-left: 15px;
 }
@@ -13880,19 +13883,6 @@ blockquote p {
   right: 0;
   height: 350px;
 }
-@media (max-width: 1200px) {
-  .section--whitepaper img, .whitepaper img {
-    position: relative;
-    width: 30vw;
-    height: auto;
-    margin-left: 30vw;
-    margin-top: 35px;
-    margin-bottom: -80px;
-  }
-  .section--whitepaper .col-lg-8, .whitepaper .col-lg-8 {
-    text-align: center;
-  }
-}
 @media (max-width: 991px) {
   .section--whitepaper img, .whitepaper img {
     position: relative;
@@ -13901,6 +13891,19 @@ blockquote p {
     margin-left: 20vw;
     margin-top: 35px;
     margin-bottom: -80px;
+  }
+  .section--whitepaper .col-lg-8, .whitepaper .col-lg-8 {
+    text-align: center;
+  }
+}
+@media (max-width: 1200px) {
+  .section--whitepaper img, .whitepaper img {
+    position: relative;
+    width: 30vw;
+    height: auto;
+    margin-left: 30vw;
+    margin-top: 35px;
+    margin-bottom: -30px;
   }
   .section--whitepaper .mail, .whitepaper .mail {
     width: 100%;

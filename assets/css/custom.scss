@@ -1481,8 +1481,10 @@ blockquote {
 /*         margin-top: 15px; */
 		color: #757575;
 		width: 50%;
-
-}
+	}
+	form {
+		margin-top: 40px;
+	}
 
 /*    .button--arrow:hover:before {
         background: url(../img/common/arrow_right_blue.svg) center/contain no-repeat;
@@ -1513,19 +1515,6 @@ blockquote {
     height: 350px;
 	}
 
-	@media (max-width: $navbar-breaksize) {
-		img {
-			position: relative;
-			width: 30vw;
-			height: auto;
-			margin-left: 30vw;
-            margin-top: 35px;
-            margin-bottom: -80px;
-		}
-		.col-lg-8 {
-			text-align: center;
-		}
-	}
 	@media (max-width: $break-big) {
 		img {
 			position: relative;
@@ -1534,8 +1523,20 @@ blockquote {
 			margin-left: 20vw;
             margin-top: 35px;
             margin-bottom: -80px;
-
-}
+		}
+		.col-lg-8 {
+			text-align: center;
+		}
+	}
+	@media (max-width: $navbar-breaksize) {
+		img {
+			position: relative;
+			width: 30vw;
+			height: auto;
+			margin-left: 30vw;
+            margin-top: 35px;
+            margin-bottom: -30px;
+		}
 		.mail {
 			width: 100%;
 			max-width: 400px;
@@ -1543,7 +1544,7 @@ blockquote {
 	}
 	.wp-center {
 		img {
-			position:relative;
+			position: relative;
 			width: auto;
 			height: 250px;
 			margin-left: auto;

@@ -303,7 +303,7 @@
                     <tr>
                         <th scope="row">Ransomware Recovery<br/><small>(automated recovery of data after ransomware attack based on file analysis)</small></th>
                         <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
-                        <td class="text-center"><i class="fa fa-times" aria-hidden="true"></i></td>
+                        <td class="text-center"><i class="fa fa-times" aria-hidden="true"></i><br /><small>Only time-based, after detection of ransomware based on file names. Risks overwriting useful changes and missing ransomware without predictable names.</small></td>
                     </tr>
                     <tr>
                         <th scope="row">No vendor lock-in<br/><small>Make it easy to migrate to another solution</small></th>

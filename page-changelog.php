@@ -18,15 +18,40 @@
     <p>We recommend you follow our <a href="<?php echo home_url('release-channels') ?>">Release Channels</a> to always have the latest and most secure Nextcloud Server version which fits your needs.</p>
     Go directly to the latest maintenance release of:
     <ul>
+    <li><a href="#latest16">Nextcloud 17</a></li>
     <li><a href="#latest16">Nextcloud 16</a></li>
     <li><a href="#latest15">Nextcloud 15</a></li>
-    <li><a href="#latest14">Nextcloud 14</a></li>
+    <li><a href="#latest14">Nextcloud 14 (unsupported!)</a></li>
     <li><a href="#latest13">Nextcloud 13 (unsupported!)</a></li>
     <li><a href="#latest12">Nextcloud 12 (unsupported!)</a></li>
     <li><a href="#latest11">Nextcloud 11 (unsupported!)</a></li>
     <li><a href="#latest10">Nextcloud 10 (unsupported!)</a></li>
     <li><a href="#latest9">Nextcloud 9 (unsupported!)</a></li>
     </ul>
+
+    <a name="latest17"></a>
+<h3 id="16-0-0">Version 17.0.0 <small>September 30 2019</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.0.tar.bz2">nextcloud-17.0.0.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.0.zip">nextcloud-17.0.0.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.0.tar.bz2.md5">nextcloud-17.0.0.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.0.zip.md5">nextcloud-17.0.0.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.0.tar.bz2.sha256">nextcloud-17.0.0.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.0.zip.sha256">nextcloud-17.0.0.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.0.tar.bz2.sha512">nextcloud-17.0.0.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.0.zip.sha512">nextcloud-17.0.0.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.0.tar.bz2.asc">nextcloud-17.0.0.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.0.zip.asc">nextcloud-17.0.0.zip.asc</a></p>
+
+<h4>Changes</h4>
+<p>Nextcloud 17 introduces a series of secure collaboration features including a collaborative text editor, remote wipe, updated secure view, improved two-factor-authentication and easier access than ever with deeper integration of large-scale storage like S3 and IBM Spectrum Scale.</p>
+<p>As this is a major release, the changelog is too long to put here. Users can look at github milestones to find what has been merged.</p>
+<p>A quick overview of what is new:</p>
+<ul>
+<li>💣 Remote Wipe allows users and administrators to forcibly clean files from remote devices, for example in case they are stolen.</li>
+<li>📝 Nextcloud Text, our new distraction-free, <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-introduces-collaborative-rich-text-editor/">collaborative rich text editor</a></li>
+<li>🔒 Improvements to secure view like enforcable watermarks enable virtual data room use</li>
+<li>🔐 Setup two-factor authentication after first login, admins can create one-time login tokens in the web UI and delegate this to group admins</li>
+<li>📧 secure mailbox in Outlook Add-in</li>
+<li>👥 LDAP write support makes it possible to manage users from Nextcloud</li>
+<li>💽 S3 versioning support, IBM Spectrum Scale integration and Global Scale with Collabora Online</li>
+</ul>
+<p>Read the <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-17-brings-remote-wipe-collaborative-text-editor-and-next-generation-secure-watermarking/">release announcement</a> and blogs it links to for more details.</p>
 
     <a name="latest16"></a>
 <h3 id="16-0-5">Version 16.0.5 <small>September 27 2019</small></h3>
