@@ -171,8 +171,7 @@
 
             <a href="#marketing" data-toggle="collapse"><h3 class="jobs">Marketing and event manager<span class="icon-arrow"></span></h3></a>
 			<div id="marketing" class="collapse">
-				<p>Our marketing team is looking for an enthusiastic new member to help explain the benefits of Nextcloud to our potential customers and users.</p>
-				<p>You would support and strengthen our marketing, helping us design website pages, flyers and other promotional materials as well as organize our attendance to events or our yearly conference. We are a small team so we also share work writing blogs, answering questions on social media, preparing announcements and more. So we're looking for somebody with a design background (or interest!) and some organizational skills who's eager to learn and try new things!</p>
+				<p>Our marketing team is looking for a new member: you would support and strengthen our marketing, helping us design website pages, flyers and other promotional materials as well as organize our attendance to events or our yearly conference. We are a small team so we also share work writing blogs, answering questions on social media, preparing announcements and more. We're looking for somebody with some adobe tools experience, who is organized and willing to learn and try new things!</p>
 				<p class="section--paragraph__tittle">Responsibilities:</p>
 				<ul>
 					<li>Manage and improve our marketing materials (both German and English)</li>
@@ -186,7 +185,7 @@
 					<li>Writing and speaking German language</li>
 					<li>Interest in messaging, public relations</li>
 					<li>Able and interested in managing events</li>
-					<li>Some print and/or web design background</li>
+					<li>Print and/or web design skills</li>
 					<li>Being able to work independently, track progress and ask for help when needed</li>
 				</ul>
 
@@ -200,7 +199,7 @@
 					<li>We have flexible office hours and most of our team works from home.</li>
 					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
 				</ul>
-				<p>We are looking for somebody who cares about their job and want to make a difference. We strive to provide the freedom and space so you can! German speaking, some design experience and being a generally organized person are important for this job, but besides that, if you're willing to try new things, you are an ideal candidate! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your motivation and resume if you are interested in this role.</p>
+				<p>We are looking for somebody who wants to make a difference. We strive to provide the freedom and space so you can! German speaking, some design experience and being a generally organized person are important for this job, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
 
