@@ -32,12 +32,12 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-4">
+			<!--<div class="col-md-4">
 				<a href="https://a4com.nl" target="_blank" title="A4Com">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/a4com.png" title="A4Com" />
 				</a>
 				<p class="partnertext">A4Com is a Dutch consulting firm. We are a solution provider for a wide array of strategic challenges and problems, in which new technology plays a significant role. We offer Nextcloud because we strongly believe a company should ensure the protection of data, IP and privacy of their clients.</p>
-			</div>
+			</div>-->
 			<div class="col-md-4">
 				<a href="https://adfinis-sygroup.ch/en" target="_blank" title="Adfinis SyGroup">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/adfinis.png" title="Adfinis SyGroup" />
@@ -51,21 +51,21 @@
 				<p class="partnertext">Arawa is a French IT company specialized in open source office and collaborative software. Arawa helps organizations to develop document collaboration while keeping control of their data. Arawa's large range of services, including setup, development, support and change management, is used to tailor projects to the specific needs of each organization.<br>
 				Visit <a href="https://www.arawa.fr">arawa.fr</a> or follow <a href="https://twitter.com/arawa_fr">@Arawa_fr</a> on Twitter.</p>
 			</div>
-		</div>
+<!--		</div>
 
-		<div class="row">
-			<div class="col-md-4">
+		<div class="row">-->
+			<!--<div class="col-md-4">
 				<a href="https://www.arcadis.com" target="_blank" title="Arcadis consulting">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/arcadis.png" title="Arcadis consulting" />
 				</a>
 				<p class="partnertext">Arcadis is part of the Spreedbox network in Australia, delivering the Nextcloud based Spreedboxes with services and support. Learn more on <a href="https://spreedbox.me">spreedbox.me</a></p>
-			</div>
-			<div class="col-md-4">
+			</div>-->
+			<!--<div class="col-md-4">
 				<a href="https://certilience.fr" target="_blank" title="Certilience">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/certilience.png" title="Certilience" />
 				</a>
 				<p class="partnertext">Founded in 2008, Certilience is an independent Computer Security Agency that supports clients by providing both aggressive and defensive cybersecurity solutions, and works along the following three main areas: Security Audits: mock hacking, internal / external system penetration tests; Consulting, System Engineering and Integration; Info-management: subcontract security equipment management. </p>
-			</div>
+			</div>-->
 			<div class="col-md-4">
 				<a href="https://www.dass-it.de/" target="_blank" title="Dass IT">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/dassit.png" title="Dass IT" />
@@ -117,32 +117,35 @@
 		</div>
 
 		<div class="row">
-			<div class="col-md-4">
+			<!--<div class="col-md-4">
 				<a href="https://www.omnis-systems.com/en/nextcloud/general-information" target="_blank" title="Omnis Systems">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/omnis.png" title="Omnis Systems" />
 				</a>
 				<p class="partnertext">Omnis Systems Ltd is a Value Added Distributor specialised in promoting a range of complementary enterprise grade and commercially backed Open Source and Linux based solutions.<br> We support partners that want to differentiate themselves by delivering platforms made to increase productivity, security and control on data while providing ease of use and integration.</p>
-			</div>
-			<div class="col-md-4">
+			</div>-->
+			<!--<div class="col-md-4">
 				<a href="http://open-dsi.fr/" target="_blank" title="Open-DSI">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/opendsi.png" title="open-DSI logo" />
 				</a>
 				<p  class="partnertext">Open-DSI is a French company which supports organizations and companies with their computing projects. Our specialty is the implementation of open source cloud computing solutions and outsourcing. Our solutions are based on three main building blocks: Nextcloud, ERP+CRM Dolibarr and WooCommerce.</p>
-			</div>
+			</div>-->
             <div class="col-md-4">
 				<a href="http://www.regioit.de/" target="_blank" title="Regioit">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/regioit.png" title="regioit logo" />
 				</a>
 				<p  class="partnertext">regio iT is a service provider with over 300 employees delivering solutions for communities, schools, non-profits as well as customers in the energy production and distribution space.</p>
 			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-4">
+			<!--<div class="col-md-4">
 				<a href="https://www.sendin.nl/nextcloud/" target="_blank" title="Sendin">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/sendin.png" title="sendin logo" />
 				</a>
 				<p  class="partnertext">Sendin is a Dutch company specializing in the storage and shipping of files, building simple solutions so users need no manual. Our clients use our solutions to make their files and documents accessible in the cloud but also for paperless meetings and more.</p>
+			</div>-->
+			<div class="col-md-4">
+				<a href="https://www.siedl.net/portfolio/nextcloud" target="_blank" title="Siedl">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/siedl.png" title="siedl logo" />
+				</a>
+				<p  class="partnertext">Since 2002, Siedl Networks has been delivering innovative and reliable open source IT solutions to companies, schools and non-profits throughout Austria. We help small and medium sized organizations run their on-premises file storage and collaboration solution, monitoring and supporting their infrastructure and taking care of maintenance and backup.</p>
 			</div>
 			<div class="col-md-4">
 				<a href="https://nextcloud.stylez.co.jp/" target="_blank" title="Stylez">
@@ -150,6 +153,9 @@
 				</a>
 				<p  class="partnertext">Since 2013, Stylez has grown by focusing on integration and Business Process Outsourcing. Today Stylez expands its scope into cloud and open source services, keeping up their focus on customers and quality.</p>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="http://sndkcorp.com/" target="_blank" title="SNDK-corp">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/sndk-corp.png" title="SNDK Corp logo" />
@@ -157,21 +163,21 @@
 				<p  class="partnertext">SNDK Corp founded in 2007 is an IT company Offering 360 degree Integrated Solutions taking Business to next level.<br>
 				Our Services and deep industry experiences includes Cloud, Virtualization, Open Source Linux & Network Solutions, Security, Software-Mobile APP & IoT.</p>
 			</div>
-		</div>
+<!--		</div>
 
-        <div class="row">
+        <div class="row">-->
             <div class="col-md-4">
                 <a href="https://www.teebase.eu" target="_blank" title="Teebase Ltd">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/teebase.png" title="Teebase logo" />
                 </a>
                 <p  class="partnertext">TeeBase UK Ltd offers an arsenal of devices and services for digital security to protect your data and intellectual property even when using the Internet. Be free from hackers, malware and ransomware that destroy shareholder value and ruin careers.</p>
             </div>
-            <div class="col-md-4">
+            <!--<div class="col-md-4">
             <a href="https://www.zerotrust.fr" target="_blank" title="Zero Trust">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/zerotrust.png" title="ZeroTrust logo" />
                 </a>
                 <p  class="partnertext">Zero Trust is a french company offering IT consulting, security audits and security solutions integration. We provide Nextcloud  for our customers in order to improve their data protection and compliance with RGDP and other regulations.</p>
-            </div>
+            </div>-->
 			<div class="col-md-4">
 				<a href="https://www.qloud.my" target="_blank" title="Qloud MSP">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/qloudmsp.png" title="Qloud MSP logo" />
