@@ -147,7 +147,7 @@
         </div>
         </div>
         <div class="row">
-            <div class="col-md-6"><a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure_mailbox-email-as-it-will-be-send-to-recipient.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-email-as-it-will-be-send-to-recipient.png" alt="Secure Mailbox - Email as it will be sent to recipient" class="img-responsive"></a><br />
+            <div class="col-md-6"><a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-email-as-it-will-be-send-to-recipient.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-email-as-it-will-be-send-to-recipient.png" alt="Secure Mailbox - Email as it will be sent to recipient" class="img-responsive"></a><br />
             <?php echo $l->t('Email as it will be sent to recipient');?>
         </div>
         <div class="col-md-6">
