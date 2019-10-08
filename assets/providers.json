@@ -902,15 +902,15 @@
          "imagename":"getcon.png"
       },
     {
-         "title":"Windcloud",
-         "url":"https:\/\/windcloud.org\/datenspeicher",
+         "title":"Windcloud 4.0 GmbH",
+         "url":"https:\/\/windcloud.de\/produkte",
          "flags":[
             "de"
          ],
          "freeplans":false,
          "supports":"organization",
          "specializes":[
-            "Windcloud - Your Green Data Center. Based on our renewable energy infrastructure we are your partner for cloud storage, -infrastructure, VMs..."
+            "CO2-neutral, hochverfügbar und DSGVO-konform – Wir betreiben Ihre Nextcloud in unseren eigenen Rechenzentren mit Windenergie im Norden Deutschlands."
          ],
          "imagename":"windcloud.png"
       },
