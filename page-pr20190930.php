@@ -25,7 +25,7 @@
 
 <h3>Extending Nextcloud's lead in the market, new security features complement industries' most extensive on-premises content collaboration platform</h3>
 
-<p><em>Stuttgart, September 30, 2019</em> -Nextcloud GmbH, supplier of the most popular on-premises content collaboration platform to protect digital sovreignty and privacy, announces the immediate availability of Nextcloud 17. This release introduces major improvements including remote wipe, a distraction-free text editor and singificant updates to secure view with the ability to enforce watermarks based on various properties of a file or a share. With this release comes a new service of Nextcloud GmbH to set up virtual data rooms for customers who need to provide access to extremely sensitive documents while preserving their confidentiality.</p>
+<p><em>Stuttgart, September 30, 2019</em> -Nextcloud GmbH, supplier of the most popular on-premises content collaboration platform to protect digital sovereignty and privacy, announces the immediate availability of Nextcloud 17. This release introduces major improvements including remote wipe, a distraction-free text editor and singificant updates to secure view with the ability to enforce watermarks based on various properties of a file or a share. With this release comes a new service of Nextcloud GmbH to set up virtual data rooms for customers who need to provide access to extremely sensitive documents while preserving their confidentiality.</p>
 
 <blockquote>The market is moving forward and customers are no longer satisfied with a simple file sync and share solution. Document collaboration and real-time collaboration need to be fully integrated, not tacked on as externally provided, third-party solutions.</blockquote>
 

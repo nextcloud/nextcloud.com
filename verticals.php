@@ -39,7 +39,7 @@
 			<a href="<?php echo home_url('government') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/government-small.jpg" /></a>
 			<div class="row text-center description">
                 <p class="section--paragraph__tittle"><a class="hyperlink" href="<?php echo home_url('government') ?>"><?php echo $l->t('Government');?></a></p>
-                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud offers the ultimate control to protect digital sovreignty in Government.');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud offers the ultimate control to protect digital sovereignty in Government.');?></p>
             </div>
         </div>
 		<div class="col-md-4">
