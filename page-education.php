@@ -483,7 +483,7 @@ require(["require.config"], function() {
     </div>
     <div class="row">
         <div class="col-md-10 col-md-offset-1  feature--block">
-            <p class="section--paragraph "><?php echo $l->t('Nextcloud offers first-in-class, third-party verified security backed by a USD 5000 Security Bug Bounty program protecting against unauthorized access. Data is protected through industry standard TLS when transported and as an extra layer of security, whole-disk encryption or built in, server-side encryption with support for external key management can be employed.');?></p>
+            <p class="section--paragraph "><?php echo $l->t('Nextcloud offers first-in-class, third-party verified security backed by a USD 10000 Security Bug Bounty program protecting against unauthorized access. Data is protected through industry standard TLS when transported and as an extra layer of security, whole-disk encryption or built in, server-side encryption with support for external key management can be employed.');?></p>
             <a href="<?php echo home_url('secure') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn about security');?></a>
         </div>
     </div>
