@@ -48,7 +48,7 @@ Nextcloud offers the industry-leading, fully open source, self-hosted Content Co
 Nextcloud's easy and quick deployment, open, modular architecture and emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing file storage assets within and across the borders of their organization. For more information, visit <a href="https://nextcloud.com">nextcloud.com</a> or follow <a href="https://twitter.com/Nextclouders">@Nextclouders</a> on Twitter.</p>
 
 <p><strong>About RENATER</strong> <br />
-Serving students, researchers, teachers and staff in the Education and Research community, RENATER offers a highly reliable and secure network simplifying collaboration and convergence in scientific and academic projects at the national level, but also at the European and international levels. For more information, visit <a href="https://renater.fr">renater.fr</a> or follow <a href="https://twitter.com/RENATERnews">@RENATERnews</a> on Twitter.</p>
+Serving students, researchers, teachers and staff in the Education and Research community, RENATER offers a highly reliable and secure network simplifying collaboration and convergence in scientific and academic projects at the national level, but also at the European and international levels. For more information, visit <a href="https://www.renater.fr">renater.fr</a> or follow <a href="https://twitter.com/RENATERnews">@RENATERnews</a> on Twitter.</p>
 <p><strong>Links</strong></p>
 <ul>
 <li><a href="https://nextcloud.com/blog/1000-french-universities-and-research-organizations-get-nextcloud">Announcement blog with more details</a></li>
