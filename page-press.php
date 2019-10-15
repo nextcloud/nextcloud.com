@@ -1,7 +1,7 @@
 <head>
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+<!--     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css"> -->
+<!--     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script> -->
 
 <div class="background generic-background">
 	<div class="container">
@@ -16,12 +16,12 @@
 <section class="content">
 <div class="container">
     <h2>Current Release Information<br/><small> Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></small></h2>
-    <a class="button button--large button--blue button--arrow" target="_blank" href="https://nextcloud.com/blog/nextcloud-16-introduces-machine-learning-based-security-and-usability-features-acl-permissions-and-cross-app-projects/">Announcement blog</a>
-    <a href="<?php echo home_url('press/pr20190425') ?>" class="button button--large button--blue button--arrow">Press release and background</a>
+    <a class="button button--large button--blue button--arrow" target="_blank" href="https://nextcloud.com/blog/nextcloud-17-brings-remote-wipe-collaborative-text-editor-and-next-generation-secure-watermarking/">Announcement blog</a>
+    <a href="<?php echo home_url('press/pr20190930') ?>" class="button button--large button--blue button--arrow">Press release and background</a>
     <h2>Press releases</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20191016') ?>">October 16, 2019: French universities and research organizations will gain access to secure, private collaboration platform</a></li>
         <li><a href="<?php echo home_url('press/pr20190930') ?>">September 30, 2019: Nextcloud 17 brings remote wipe, collaborative text editor and next generation secure watermarking</a></li>
-       <!--  <li><a href="<?php echo home_url('press/pr20190814') ?>">August 14, 2019: 1000 French universities and research organizations gain access to secure, private collaboration platform</a></li> -->
         <li><a href="<?php echo home_url('press/pr20190827') ?>">August 27, 2019: Amid escalating trade disputes, EU governments choose independence from US cloud providers</a></li>
         <li><a href="<?php echo home_url('press/pr20190627') ?>">June 27, 2019: Nextcloud introduces collaborative rich text editor</a></li>
         <li><a href="<?php echo home_url('press/pr20190515') ?>">May 15, 2019: Nitrokey and Nextcloud collaborate on securing private clouds</a></li>

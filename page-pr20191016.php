@@ -21,20 +21,20 @@
 <div class="container">
 <div class="row">
 <div class="pr">
-<h1>1000 French universities and research organizations gain access to secure, private collaboration platform</h1>
+<h1>French universities and research organizations will gain access to secure, private collaboration platform</h1>
 
 <h3>First solution in the world that will unify the identities provided by hundreds of organizations in a single private cloud solution, creating the largest such constellation of participants</h3>
 
-<p><em>Stuttgart, August 14 2018</em> - Nextcloud GmbH, supplier of the globally most deployed self-hosted content collaboration platform, announces that RENATER, the national research and educational network in France, is deploying Nextcloud for its over 1000 member organizations making Nextcloud available to up to 700.000 users. As a proven technology, Nextcloud's Global Scale is uniquely positioned to deliver reliable service at such numbers and is being integrated at RENATER.</p>
+<p><em>Stuttgart, August 14 2018</em> - Nextcloud GmbH, supplier of the globally most deployed self-hosted content collaboration platform, announces that RENATER, the national research and educational network in France, is testing Nextcloud for its community making Nextcloud available to up to 700.000 users. As a proven technology, Nextcloud's Global Scale is uniquely positioned to deliver reliable service at such numbers and is being integrated at RENATER.</p>
 
-<blockquote>Our mission at RENATER is enabling seamless collaboration between over a thousand institutions in France in a way that protects their safety and privacy. We study and experiment with Nextcloud Global Scale due to its advanced scalability capabilities and its reliability which fit the needs of our project.</blockquote>
+<blockquote>Our mission at RENATER is enabling seamless collaboration between over a thousand research and education institutions in France in order to protect the security and confidentiality of data. We study and experiment deeply Nextcloud Global Scale for its highly scalability capacities and its reliability that fit the needs of our project.</blockquote>
 <p>-- Alexandre Salvat, Drive Project Manager - Pôle Projets Transverses et Innovation (P2TI)</p>
 
 <p>Global Scale has been in live deployment since early 2017, since then showing its scalability capabilities at several other Nextcloud customers. Deployments of Nextcloud Global Scale have shown individual nodes that can scale to over 250.000 users as part of an integrated installation offering global service to a customer base of tens of millions.</p>
 
-<p>RENATER is currently testing with about 40 organizations and plans to roll out early 2020. As previous projects have gained in excess of 50.000 users in their first week of being available, RENATER works closely with Nextcloud engineers to ensure a reliable service from day one. A unique challenge this deployment faces is the requirement that each of the over a thousand of organizations can simply connect their existing IDP (Identity Provider) to the service. In collaboration with Nextcloud, its Global Scale technology was enhanced to support this, enabling seamless SAML based single sign-on for any of the members.</p>
+<p>RENATER is currently testing with about 40 organizations and plans to roll out early 2020. RENATER works closely with Nextcloud engineers to ensure a reliable service from day one. A unique challenge this deployment faces is the requirement that each of the over a thousand of organizations can simply connect their existing IDP (Identity Provider) to the service. In collaboration with Nextcloud, its Global Scale technology was enhanced to support this, enabling seamless SAML based single sign-on for any of the members.</p>
 
-<p>This will be the first and largest of any such deployments, delivering an unique solution to the French educational market. No process of syncing and centrally managing users will be required. Universities and research organizations will stay fully in control over their user management, while RENATER will be able to administer the Nextcloud instance independently of the user management.</p>
+<p>This will be an opportunity to deliver a unique secure interoperability solution. No process of syncing and centrally managing users will be required. Universities and research organizations will stay fully in control over their user management, while RENATER will be able to administer the Nextcloud instance independently of the user management.</p>
 
 <blockquote>We are proud to be advancing technological barriers together with RENATER, enabling cross-organizational collaboration and productivity for so many organizations in France. This is another case where our Global Scale architecture provides unique benefits to customers</blockquote>
 <p>-- Frank Karlitschek, CEO of Nextcloud GmbH.</p>
@@ -47,15 +47,17 @@
 Nextcloud offers the industry-leading, fully open source, self-hosted Content Collaboration Platform, combining the easy user interface of consumer-grade cloud solutions with the security and compliance measures enterprises need. Nextcloud brings together universal access to data through mobile, desktop and web interfaces with next-generation, on-premise secure communication and collaboration features like real-time document editing, chat and video calls, putting them under direct control of IT and integrated with existing infrastructure. <br />
 Nextcloud's easy and quick deployment, open, modular architecture and emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing file storage assets within and across the borders of their organization. For more information, visit <a href="https://nextcloud.com">nextcloud.com</a> or follow <a href="https://twitter.com/Nextclouders">@Nextclouders</a> on Twitter.</p>
 
+<p><strong>About RENATER</strong> <br />
+Serving students, researchers, teachers and staff in the Education and Research community, RENATER offers a highly reliable and secure network simplifying collaboration and convergence in scientific and academic projects at the national level, but also at the European and international levels. For more information, visit <a href="https://renater.fr">renater.fr</a> or follow <a href="https://twitter.com/RENATERnews">@RENATERnews</a> on Twitter.</p>
 <p><strong>Links</strong></p>
 <ul>
 <li><a href="https://nextcloud.com/blog/1000-french-universities-and-research-organizations-get-nextcloud">Announcement blog with more details</a></li>
-<li><a href="https://nextcloud.com/blog/nextcloud-introduces-collaborative-rich-text-editor/">Nextcloud Global Scale</a></li>
+<li><a href="https://nextcloud.com/globalscale">Nextcloud Global Scale</a></li>
 <li><a href="https://www.renater.fr">RENATER</a></li>
 <li><a href="https://nextcloud.com/training">Nextcloud Enterprise Day</a></li>
 <li><a href="https://www.jres.org">JRES 2019</a></li>
 </ul>
-
+<img class="img-responsive" src="https://nextcloud.com/media/logo-RENATER.png">
 </div>
 </div>
 </div>
