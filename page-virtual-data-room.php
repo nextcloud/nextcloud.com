@@ -175,7 +175,7 @@
         <h2 class="text-center"><?php echo $l->t('24/7 support');?></h2>
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <p class="section--paragraph text-center"><?php echo $l->t('Where competitors rely on a \'support team\' walling you off from the engineering knowledge you need, Nextcloud providers direct access to the real experts.');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Where competitors rely on a \'support team\' walling you off from the engineering knowledge you need, Nextcloud provides direct access to the real experts.');?></p>
                 <p class="section--paragraph text-center"><?php echo $l->t('After all, you need to get work done and can\'t afford first having to go through the "did you try to turn it off and on again" conversation before you get taken serious.');?></p>
             </div>
         </div>
