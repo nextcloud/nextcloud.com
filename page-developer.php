@@ -106,7 +106,7 @@
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/check.svg" class="icon" />
                 <p class="section--paragraph__tittle"><?php echo $l->t('Featured community app:');?> <br /> Nextcloud OCR</p>
                 <p class="section--paragraph"><?php echo $l->t('The app uses tesseract-js in the browser in order to extract text from images (png, jpeg, tiff) and PDFs and saves the output file to the source folder in nextcloud. That for example enables you to search in it.');?></p>
-                <a href="https://apps.nextcloud.com/apps/ocr" class="button button--blue button--arrow button--large"><?php echo $l->t('See the OCR app');?></a>
+                <a href="https://nextcloud.com/blog/unsung-heroes-of-the-nextcloud-community-janis-koehr/" class="button button--blue button--arrow button--large"><?php echo $l->t('Read the interview');?></a>
             </div>
         </div>
     </div>
