@@ -1,0 +1,127 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+
+.files-background {
+	background: url('../../img/headers/yourcloud.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+section {
+	margin: 180px 0;
+}
+
+.section--customers {
+    position: relative;
+	.section--paragraph {
+		margin: 40px 0;
+	}
+
+    .container {
+    }
+    .row {
+    margin-top: 50px;
+    }
+    .customer {
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+        .customer-logo {
+            padding-left: 10px;
+            padding-right: 10px;
+            max-width: 250px;
+            float: center;
+            position: relative;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            vertical-align: middle;
+			a img {
+				&:hover {
+					-webkit-filter: saturate(0%) contrast(.35) brightness(130%);
+					filter: saturate(0%) contrast(.35) brightness(130%);
+				}
+			}
+        }
+
+    }
+}
+
+.section--on-premise {
+	.section--heading-1 {
+		padding-bottom: 30px;
+	}
+}
+
+.acess__anywhere {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.section--files {
+	padding-top: 80px;
+}
+
+.section--whitepaper {
+	padding: 0;
+
+	h2 {
+		line-height: normal;
+	}
+}
+
+.section--outlook {
+	h1 {
+        /*margin-bottom: 10px;*/
+    }
+    p {
+        padding: 10px 0 30px 0;
+    }
+    .row {
+        padding-bottom: 10px;
+    }
+}
+
+
+.section--others {
+    margin: 0 0 0 0;
+    padding: 90px 0 70px 0;
+    background-color: #eee;
+    .row {
+        margin-bottom: 10px;
+    }
+    img {
+        padding: 20px;
+    }
+}
+
+.section--more {
+	.container-widest .row {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.section--heading-1 {
+		padding-bottom: 60px;
+	}
+
+	i[class*='fa-'] {
+		font-size: 60px;
+		display: block;
+		color: #0082c9;
+		text-align: center;
+		padding-top: 20%;
+	}
+}
+
+.section--getstarted {
+	margin-bottom: 0px;
+	a {
+		margin: 50px;
+	}
+}
+
+footer {
+	margin-top: 0px;
+}
