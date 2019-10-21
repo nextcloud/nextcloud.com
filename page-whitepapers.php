@@ -574,6 +574,7 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
     <h2 class="section--heading-2 revealOnScroll"><?php echo $l->t('Interviews and blogs');?></h2>
     <p class="section--paragraph"><?php echo $l->t('We regularly cover customer interviews and case studies on our blog.');?></p>
     <p class="section--paragraph"><ul>
+        <li><a class="hyperlink" href="https://nextcloud.com/blog/sib-delivering-nextcloud-to-educational-institutions/">October 21, 2019 - SIB: Delivering Nextcloud to educational institutions</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/1000-french-universities-and-research-organizations-get-nextcloud/">October 16, 2019 - 700.000 students at French universities and research organizations get access to Nextcloud</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-talk-offering-secure-corporate-messaging-for-scm-limited/">August 28, 2019 - Nextcloud Talk offering secure corporate messaging for SCM LIMITED</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/">August 27, 2019 - Amid escalating trade disputes, EU governments choose independence from US cloud providers</a></li>
