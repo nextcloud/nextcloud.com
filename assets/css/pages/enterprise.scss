@@ -3,42 +3,12 @@
 @import '../vendor/modular-scale/modular-scale';
 @import '../modules/transparent-gradient';
 
-.separator{
-  height: 40px;
-  background: #f6f6f6;
-}
-
 .enterprise-hero-section {
-   .background {
-    background-color: $nextcloud-blue;
-    background-image: none;
-    padding-bottom: 0;
-    padding-top: 0;
-    margin-bottom: 0;
-    background-repeat: no-repeat;
-    background-position: bottom 0 right 0;
-    background-size: cover;
-    border-radius: 0 !important;
-    height: 70vh;
-    min-height: 600px;
-    max-height: 800px;
     background-image: url('../../img/headers/enterprise.jpg');
-  }
-
-  .topbanner {
-    width: auto;
-    height: auto;
-    max-width: 90vw;
-    max-height: 90vh;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    position: absolute;
-    bottom: 0;
-    right: 0px;
-    float: right;
-    overflow: hidden;
-    zoom: 0.55;
-  }
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
 }
 
 
@@ -52,6 +22,11 @@ section {
       margin: 15px auto;
     }
   }
+}
+
+.separator{
+  height: 40px;
+  background: #f6f6f6;
 }
 
 .section--offer {
