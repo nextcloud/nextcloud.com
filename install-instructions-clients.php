@@ -26,7 +26,7 @@
 				<div id="tab-desktop" role="tabpanel" class="tab-pane active">
 					<div class="overlay-body row">
 						<div class="col-md-6">
-							<p><?php echo $l->t('Latest stable version:');?> <?php echo $VERSIONS_CLIENT_DESKTOP_STABLE_FULL; ?>&nbsp;&nbsp;</p>
+							<p><?php echo $l->t('Latest stable version:');?> <?php echo $VERSIONS_CLIENT_DESKTOP_STABLE_FULL; ?>&nbsp;<a href="https://github.com/nextcloud/desktop/releases"><?php echo $l->t('changelog');?></a>&nbsp;</p>
 							<p><?php echo $l->t('Use the desktop clients to keep your files synchronized between your Nextcloud server and your desktop. Select one or more directories on your local machine and always have access to your latest files wherever you are.');?></p>
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN; ?>" id="client-download-win" class="button button--white"><i class="fa-windows"></i>  Windows<br /><small>7, 8.x and 10</small></a>
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC; ?>" id="client-download-mac" class="button button--white"><i class="fa-apple"></i> macOS<br /><small>10.10+, 64 bit</small></a>

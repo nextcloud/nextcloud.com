@@ -7,7 +7,7 @@ $VERSIONS_SERVER_FULL_STABLE = '17.0.0';
 $VERSIONS_SERVER_MAJOR_DEVELOPMENT = '18.0.0';
 $VERSIONS_SERVER_MAJOR_DEV_DOCS = '17'; // Used in dev docs links
 $VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.6.0';
-$VERSIONS_CLIENT_DESKTOP_STABLE_SHORT = '2.5'; // For use in documentation link
+$VERSIONS_CLIENT_DESKTOP_STABLE_SHORT = '2.6'; // For use in documentation link
 
 /* DOCUMENTATION */
 $DOCUMENTATION_BASE = 'https://docs.nextcloud.com';
