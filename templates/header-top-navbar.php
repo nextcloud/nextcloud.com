@@ -97,10 +97,10 @@ require get_template_directory() . '/strings.php';
 					<ul class="nav__links">
 						<li class="nav__item"><a href="<?php echo home_url('contribute'); ?>"><?php echo $l->t('How to contribute'); ?></a></li>
 						<li class="nav__item"><a href="https://github.com/nextcloud"><?php echo $l->t('Code on GitHub'); ?></a></li>
-<!-- 						<li class="nav__item"><a href="<?php echo home_url('news'); ?>"><?php echo $l->t('Contributor blogs'); ?></a></li> -->
 						<li class="nav__item"><a href="https://github.com/nextcloud/server/issues/new/choose"><?php echo $l->t('Report a bug'); ?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('developer'); ?>"><?php echo $l->t('Developer program'); ?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('code-of-conduct'); ?>"><?php echo $l->t('Code of Conduct'); ?></a></li>
+ 						<li class="nav__item"><a href="<?php echo home_url('include'); ?>"><?php echo $l->t('Nextcloud Include'); ?></a></li>
 <!--						<li class="nav__item"><a href="<?php echo home_url('contributors'); ?>"><?php echo $l->t('Community members'); ?></a></li>-->
 						<li class="nav__item"><a href="<?php echo home_url('security'); ?>"><?php echo $l->t('Security information'); ?></a></li>
 					</ul>
