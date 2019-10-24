@@ -7,7 +7,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
-                <h1>Thread model</h1>
+                <h1>Threat model</h1>
             </div>
         </div>
     </div>
