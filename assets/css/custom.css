@@ -10333,9 +10333,6 @@ i[class*='fa-'] {
   font-family: "forkawesome", ForkAwesome, "Fork Awesome", Forkawesome !important;
   /* to override the Open Sans font set above */ }
 
-.revealOnScroll {
-  opacity: 1; }
-
 /* Bootstrap centered columns styles */
 .row-centered {
   text-align: center; }
