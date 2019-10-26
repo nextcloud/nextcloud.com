@@ -30,7 +30,7 @@
 <section class="section--details">
 <div class="container">
     <div class="row">
-        <div class="col-md-6 revealOnScroll">
+        <div class="col-md-6">
             <p><?php echo $l->t('You can choose a channel of your preference in the Administrator settings in your Nextcloud instance if you have installed Nextcloud from an archive. Learn more about the release channels below.');?></p>
             <p><?php echo $l->t('NOTE that you can <strong>only upgrade to a newer version</strong>. <em>Skipping major versions</em> when upgrading and <em>downgrading</em> to older versions is not supported by Nextcloud. If you went via \'beta\' to 14.0.0rc4 and stable is on 13.0.5, you have to wait until 14.0.0 or later is in stable until a new update will become available.');?></p>
             <p><?php echo $l->t('Nextcloud makes new versions incrementally available to user installations in the stable and production channels. When a major new version comes out, we wait about one week and only when no problems are found we start the roll out in steps of about 20% of our user base per week. In practice this means a new release is typically only available in the stable channel after the first minor release. Users can always upgrade sooner by choosing the beta channel, which typically tracks stable releases immediately after publishing.');?></p>

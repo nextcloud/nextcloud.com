@@ -26,7 +26,7 @@
 
 <section class="section--intro">
     <div class="container">
-        <div class="row revealOnScroll">
+        <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <p class="section--paragraph text-center"><?php echo $l->t('The Customer Advisory Board gives our valuable customers an opportunity to discuss their challenges & ideas with senior management of Nextcloud, help set strategic directions and learn of new technologies our engineers are working on.');?></p>
             </div>
@@ -39,14 +39,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <p class="section--heading-1 section--text--center revealOnScroll">Meeting opportunities</p>
-                <p class="section--paragraph revealOnScroll">Several yearly face to face meetings and conference calls provide the platform for the best alignment between the needs of our customers and our development direction.</p>
+                <p class="section--heading-1 section--text--center">Meeting opportunities</p>
+                <p class="section--paragraph">Several yearly face to face meetings and conference calls provide the platform for the best alignment between the needs of our customers and our development direction.</p>
                 <ul>
-                <li class="revealOnScroll"><i class="fa-check fa"></i> Quarterly conference calls reviewing the roadmap and new market developments</li>
-                <li class="revealOnScroll"><i class="fa-check fa"></i> Discussion and dinner the day before the bi-annual Nextcloud Enterprise Day</li>
-                <li class="revealOnScroll"><i class="fa-check fa"></i> Other direct contact opportunities with Nextcloud senior management through the year</li>
+                <li><i class="fa-check fa"></i> Quarterly conference calls reviewing the roadmap and new market developments</li>
+                <li><i class="fa-check fa"></i> Discussion and dinner the day before the bi-annual Nextcloud Enterprise Day</li>
+                <li><i class="fa-check fa"></i> Other direct contact opportunities with Nextcloud senior management through the year</li>
                 </ul>
-                <p class="section--paragraph revealOnScroll">Every Premium Subscription Nextcloud customer is offered a seat on the Advisory board.</p>
+                <p class="section--paragraph">Every Premium Subscription Nextcloud customer is offered a seat on the Advisory board.</p>
             </div>
         <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/meeting.jpg">
         <img class="small-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/meeting-square.jpg">
@@ -173,15 +173,15 @@
     <div class="row">
         <div class="container">
             <div class="col-md-6 col-md-offset-6">
-                <p class="section--heading-1 section--text--center revealOnScroll">Why participate?</p>
-                <p class="section--paragraph revealOnScroll">Several yearly face to face meetings and conference calls provide the platform for improved alignment between the needs of our customers and our development direction.</p>
+                <p class="section--heading-1 section--text--center">Why participate?</p>
+                <p class="section--paragraph">Several yearly face to face meetings and conference calls provide the platform for improved alignment between the needs of our customers and our development direction.</p>
                 <ul>
-                <li class="revealOnScroll"><i class="fa-check fa"></i> Gain unique insights in upcoming technologies</li>
-                <li class="revealOnScroll"><i class="fa-check fa"></i> Share needs and ideas from your business</li>
-                <li class="revealOnScroll"><i class="fa-check fa"></i> Hear what challenges others in the market face</li>
-                <li class="revealOnScroll"><i class="fa-check fa"></i> Help Nextcloud determine development priorities</li>
+                <li><i class="fa-check fa"></i> Gain unique insights in upcoming technologies</li>
+                <li><i class="fa-check fa"></i> Share needs and ideas from your business</li>
+                <li><i class="fa-check fa"></i> Hear what challenges others in the market face</li>
+                <li><i class="fa-check fa"></i> Help Nextcloud determine development priorities</li>
                 </ul>
-                <p class="section--paragraph revealOnScroll">Be part of building a vision for secure file exchange and teamwork in organizations of the future!</p>
+                <p class="section--paragraph">Be part of building a vision for secure file exchange and teamwork in organizations of the future!</p>
             </div>
         <img class="big-img-invert" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/meeting2.jpg">
         <img class="small-img-invert" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/meeting2-square.jpg">

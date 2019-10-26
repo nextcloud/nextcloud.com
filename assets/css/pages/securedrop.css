@@ -39,7 +39,7 @@
 section {
   margin-top: 150px;
   /* 	padding: 50px 0; */ }
-  section .section--paragraph__tittle {
+  section .section--paragraph__title {
     padding: 0; }
 
 .video {
@@ -51,7 +51,7 @@ section {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto; }
-  .section--overview .section--paragraph__tittle {
+  .section--overview .section--paragraph__title {
     /*         padding-bottom: 10px; */ }
   .section--overview .row {
     margin-bottom: 15px; }

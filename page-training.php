@@ -39,32 +39,32 @@
 	<div class="row">
     </div>
     <div class="row">
-		<div class="col-md-8 revealOnScroll">
+		<div class="col-md-8">
             <a href="https://www.google.com/maps/@52.5179389,13.4118667,616a,35y,39.28t/data=!3m1!1e3" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn.jpg" alt="talk" class="aligncenter" /></a>
             <a class="overlay" href="https://www.google.com/maps/@52.5179389,13.4118667,616a,35y,39.28t/data=!3m1!1e3" target="_blank"><img  src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-park-inn-overlay.png" alt="talk" class="aligncenter" /></a>
 			<br/><small><a class="hyperlink" href="https://www.openstreetmap.org/?mlat=52.52279&amp;mlon=13.41288#map=18/52.52279/13.41288">View on Open Street Map</a></small>
 		</div>
 		<div class="col-md-4">
             <p class="section--paragraph__tittle">When</p>
-			<p class="section--paragraph revealOnScroll">
+			<p class="section--paragraph">
 			<i style="float:left; margin: 10px;" class="fa fa-clock-o"></i> Monday, September 16, 2019 from 8am to 6pm.</p>
             <p class="section--paragraph__tittle">Where</p>
-			<p class="section--paragraph revealOnScroll">
+			<p class="section--paragraph">
 			<i style="float:left; margin: 10px;" class="fa fa-map"></i>
 			The <a class="hyperlink" href="https://www.parkinn-berlin.de/en">Park Inn</a> at Berlin Alexanderplatz</p>
-			<p class="section--paragraph revealOnScroll">
+			<p class="section--paragraph">
 			<i style="float:left; margin: 10px;" class="fa fa-bed"></i>
 			Book at <a class="hyperlink" href="https://www.parkinn-berlin.de/en">Park Inn</a> with the discount code <code>Nextcloud</code> <br><small>Rooms reserved until August 25</small></p>
 			<p class="section--paragraph__tittle">Pricing</p>
-			<p class="section--paragraph revealOnScroll">
+			<p class="section--paragraph">
 			<i style="float:left; margin: 10px;" class="fa fa-ticket"></i>
 			Entree is €399.99<br/>Book until August 15th and get 50% off!</p>
-			<p class="section--paragraph revealOnScroll"></p>
-			<p class="section--paragraph text-center revealOnScroll"><a href="https://eventyay.com/e/b4dd4aab/" class="button button--blue button--arrow button--large">Sign up now!</a></p>
+			<p class="section--paragraph"></p>
+			<p class="section--paragraph text-center"><a href="https://eventyay.com/e/b4dd4aab/" class="button button--blue button--arrow button--large">Sign up now!</a></p>
 		</div>
 	</div>
     <!--<div class="row">
-		<div class="col-md-8 revealOnScroll">
+		<div class="col-md-8">
             <div class="location">
                  <a href="https://www.google.com/maps/place/48%C2%B046'47.6%22N+9%C2%B010'08.2%22E/@48.779898,9.166767,1011m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d48.7798979!4d9.168955" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-liederhalle.jpg" alt="talk" class="aligncenter" /></a>
                 <a class="overlay" href="https://www.google.com/maps/place/48%C2%B046'47.6%22N+9%C2%B010'08.2%22E/@48.779898,9.166767,1011m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d48.7798979!4d9.168955" target="_blank"><img  src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/location-liederhalle-overlay.png" alt="talk" class="aligncenter" /></a>
@@ -74,22 +74,22 @@
 		<div class="col-md-4">
             <div class="row">
                 <i style="float:left; margin: 10px;" class="fa fa-clock-o"></i>
-                <p class="section--paragraph revealOnScroll">Monday, September 16, 2019 from 8am to 5pm.</p>
+                <p class="section--paragraph">Monday, September 16, 2019 from 8am to 5pm.</p>
             </div>
             <div class="row">
                 <i style="float:left; margin: 10px;" class="fa fa-map"></i>
-                 <p class="section--paragraph revealOnScroll">The <a class="hyperlink" href="https://www.liederhalle-stuttgart.de">Congress Centrum Liederhalle</a> in the center of Stuttgart</p>
+                 <p class="section--paragraph">The <a class="hyperlink" href="https://www.liederhalle-stuttgart.de">Congress Centrum Liederhalle</a> in the center of Stuttgart</p>
             </div>
             <div class="row">
                 <i style="float:left; margin: 10px;" class="fa fa-bed"></i>
-                <p class="section--paragraph revealOnScroll">Stay tuned for room reservation information!</p>
-               <p class="section--paragraph revealOnScroll">Book your room at <a class="hyperlink" href="https://www.maritim.com/en/hotels/germany/hotel-stuttgart/hotel-overview">Maritim Hotel</a> with the discount code <code>Nextcloud</code> </p>
+                <p class="section--paragraph">Stay tuned for room reservation information!</p>
+               <p class="section--paragraph">Book your room at <a class="hyperlink" href="https://www.maritim.com/en/hotels/germany/hotel-stuttgart/hotel-overview">Maritim Hotel</a> with the discount code <code>Nextcloud</code> </p>
             </div>
             <div class="row">
                 <i style="float:left; margin: 10px;" class="fa fa-ticket"></i>
-                <p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://eventyay.com/e/b4dd4aab/?code=EarlyBird">Early-bird tickets</a> only €200!<br/><em>(After August 1st regular €399.99)</em></p>
+                <p class="section--paragraph"><a class="hyperlink" href="https://eventyay.com/e/b4dd4aab/?code=EarlyBird">Early-bird tickets</a> only €200!<br/><em>(After August 1st regular €399.99)</em></p>
             </div>
-                 <p class="section--paragraph revealOnScroll"><a href="https://eventyay.com/e/b4dd4aab/" class="button button--blue button--arrow button--large">Sign up now!</a></p>
+                 <p class="section--paragraph"><a href="https://eventyay.com/e/b4dd4aab/" class="button button--blue button--arrow button--large">Sign up now!</a></p>
             </div>
         </div>-->
     </div>
@@ -100,18 +100,18 @@
 <div class="container-fluid banner quote">
     <div class="container">
     <div class="col-md-6">
-        <p class="section--heading-1 section--text--center revealOnScroll">Benefits</p>
-        <p class="section--paragraph revealOnScroll">At our Enterprise day you get an opportunity to discuss changing demands in business and their impact on IT security. Our experts will help you get ahead of the curve and benefit from the opportunities while avoiding the downsides of the cloud.</p>
+        <p class="section--heading-1 section--text--center">Benefits</p>
+        <p class="section--paragraph">At our Enterprise day you get an opportunity to discuss changing demands in business and their impact on IT security. Our experts will help you get ahead of the curve and benefit from the opportunities while avoiding the downsides of the cloud.</p>
         <ul>
-        <li class="revealOnScroll"><i class="fa-check fa"></i> Get the most out of Nextcloud for your business</li>
-        <li class="revealOnScroll"><i class="fa-check fa"></i> Speed up decision making, deployment, integration & development</li>
-        <li class="revealOnScroll"><i class="fa-check fa"></i> Learn best practices and unique skills from experts</li>
-        <li class="revealOnScroll"><i class="fa-check fa"></i> Meet the developers and decision makers of Nextcloud</li>
-        <li class="revealOnScroll"><i class="fa-check fa"></i> Meet other customers and partners</li>
-        <li class="revealOnScroll"><i class="fa-check fa"></i> Find out what's on the Nextcloud road map and influence it</li>
+        <li><i class="fa-check fa"></i> Get the most out of Nextcloud for your business</li>
+        <li><i class="fa-check fa"></i> Speed up decision making, deployment, integration & development</li>
+        <li><i class="fa-check fa"></i> Learn best practices and unique skills from experts</li>
+        <li><i class="fa-check fa"></i> Meet the developers and decision makers of Nextcloud</li>
+        <li><i class="fa-check fa"></i> Meet other customers and partners</li>
+        <li><i class="fa-check fa"></i> Find out what's on the Nextcloud road map and influence it</li>
         </ul>
-        <p class="section--paragraph revealOnScroll"><small>The Enterprise Day takes place the day after the <a class="hyperlink" href="<?php echo home_url('conf') ?>">Nextcloud Conference</a>, an event for Nextcloud contributors. The Conference features talks, development workshops and keynotes on Saturday 14th and Sunday 15th of September.</small></p>
-        <p class="section--paragraph revealOnScroll"><small>The Enterprise Day takes place on the 16th of September, 2019, in Berlin.</small></p>
+        <p class="section--paragraph"><small>The Enterprise Day takes place the day after the <a class="hyperlink" href="<?php echo home_url('conf') ?>">Nextcloud Conference</a>, an event for Nextcloud contributors. The Conference features talks, development workshops and keynotes on Saturday 14th and Sunday 15th of September.</small></p>
+        <p class="section--paragraph"><small>The Enterprise Day takes place on the 16th of September, 2019, in Berlin.</small></p>
     </div>
     <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/enterprise-day.jpg">
     <img class="small-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/enterprise-day.jpg">
@@ -284,9 +284,9 @@
             <img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/workshop2.jpg">
         </div>
         <div class="col-md-6">
-            <p class="section--paragraph  revealOnScroll">Expect case studies, presentations of Nextcloud partners like ONLYOFFICE, Collabora, Bareos and others as well as a big-picture overview over Nextcloud features and integrations.</p>
-            <p class="section--paragraph  revealOnScroll">We also cover security, compliance and performance considerations. Our goal is to help you optimize the productivity of your employees with the best possible content collaboration platform!</p>
-            <p class="section--paragraph  revealOnScroll">Stay tuned for the detailed schedule and list of speakers!</p>
+            <p class="section--paragraph ">Expect case studies, presentations of Nextcloud partners like ONLYOFFICE, Collabora, Bareos and others as well as a big-picture overview over Nextcloud features and integrations.</p>
+            <p class="section--paragraph ">We also cover security, compliance and performance considerations. Our goal is to help you optimize the productivity of your employees with the best possible content collaboration platform!</p>
+            <p class="section--paragraph ">Stay tuned for the detailed schedule and list of speakers!</p>
          </div>
     </div>-->
 <!--     <p class="section--paragraph text-center"><a href="https://eventyay.com/e/b4dd4aab/" class="button button--blue button--arrow button--large">Register now!</a></p> -->

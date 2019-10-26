@@ -24,7 +24,7 @@
 <section class="section--getinvolved">
 <div class="container">
 	<div class="row">
-		<div class="col-md-6 revealOnScroll">
+		<div class="col-md-6">
 			<h3 class="section--paragraph__tittle"><?php echo $l->t('Get involved');?></h3>
 			<ul>
                 <li><?php echo $l->t('We have a <a href="https://github.com/nextcloud/server/labels/design" target="_blank">Design label on GitHub</a> – check out these issues if you want to help and fix interface problems. This label is also in the other repositories for clients and apps.');?></li>
@@ -32,7 +32,7 @@
                 <li><?php echo $l->t('<a href="https://github.com/nextcloud/server/issues?q=label%3Adesign+label%3Ahigh+is%3Aopen" target="_blank">High priority design issues</a> are additionally marked with the »High« label – these we need to prioritize, and fixing any of those will make you everyone’s hero!');?></li>
             </ul>
 		</div>
-        <div class="col-md-6 revealOnScroll">
+        <div class="col-md-6">
 			<div data-type="youtube" data-video-id="5SAB0CY-iZ0"></div>
 			<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/5SAB0CY-iZ0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
@@ -43,7 +43,7 @@
 <section class="section--team">
 <div class="container">
 	<div class="row">
-		<div class="col-md-12 revealOnScroll">
+		<div class="col-md-12">
 			<h3 class="section--paragraph__tittle"><?php echo $l->t('Design team');?></h3>
 			<p><?php echo $l->t('There is an <strong>@nextcloud/designers group on GitHub</strong>. This enables people to just mention @nextcloud/designers in issues and pull requests to notify all designers. Otherwise you have to mention each one individually.');?></p>
 
@@ -65,7 +65,7 @@
     </div>
 
 	<div class="row">
-		<div class="col-md-12 revealOnScroll">
+		<div class="col-md-12">
             <h3 class="section--paragraph__tittle"><?php echo $l->t('Design guidelines');?></h3>
             <ul>
                 <li><?php echo $l->t('Software should work. Only put features into master when they are complete. It is better to not have a feature instead of having one that works poorly.');?></li>
@@ -84,7 +84,7 @@
     </div>
 
 	<div class="row">
-		<div class="col-md-12 revealOnScroll">
+		<div class="col-md-12">
             <h3 class="section--paragraph__tittle"><?php echo $l->t('More concrete HTML+CSS guidelines');?></h3>
             <ul>
                 <li><?php echo sprintf($l->t('HTML and CSS building blocks are in <a href="%s" target="_blank">our Design documentation</a>.'), $DOCUMENTATION_DEVELOPER . 'design/');?></li>
@@ -103,7 +103,7 @@
     </div>
 
 	<div class="row">
-		<div class="col-md-12 revealOnScroll">
+		<div class="col-md-12">
             <h3 class="section--paragraph__tittle"><?php echo $l->t('Further reading');?></h3>
 
             <ul>

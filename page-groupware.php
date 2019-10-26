@@ -31,19 +31,19 @@
 <section class="section--overview">
 <div class="container">
 	<div class="row">
-		<div class="col-md-4 revealOnScroll">
+		<div class="col-md-4">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/mobile.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Easy access, anywhere');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('An efficient, modern and easy-to-use web interface for small or large teams.');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Less distractions and deep integration in other Nextcloud products means more productivity, wherever you are!');?></p>
 		</div>
-		<div class="col-md-4 revealOnScroll">
+		<div class="col-md-4">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/permissions.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Ultimate security');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('An open source, self-hosted product.');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Emails, calendars and contacts are stored on your own infrastructure, without any third party ever gaining access.');?></p>
 		</div>
-		<div class="col-md-4 revealOnScroll">
+		<div class="col-md-4">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/storage.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Deep integration');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Native integration into iOS, Android, macOS, Windows, Linux, Outlook and Thunderbird.');?></p>
@@ -64,13 +64,13 @@
 <section class="section--keyfeatures">
 <div class="container">
     <div class="row">
-        <h2 class="text-center revealOnScroll"><?php echo $l->t('Key features');?></h2>
+        <h2 class="text-center"><?php echo $l->t('Key features');?></h2>
     </div>
 	<div class="row">
-		<div class="col-md-6 revealOnScroll">
+		<div class="col-md-6">
 			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png" />
         </div>
-        <div class="col-md-6 revealOnScroll"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Mail');?></p>
+        <div class="col-md-6"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Mail');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Send and receive emails in a breeze');?></p>
 			<p class="section--paragraph"><?php echo $l->t('<ul>
 			<li>Multiple accounts with unified inbox</li>
@@ -83,10 +83,10 @@
         </div>
 	</div>
 	<div class="row">
-		<div class="col-md-6 revealOnScroll image--floated">
+		<div class="col-md-6 image--floated">
 			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png" />
         </div>
-        <div class="col-md-6 revealOnScroll"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Calendar');?></p>
+        <div class="col-md-6"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Calendar');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Schedule work and meetings online');?></p>
 			<p class="section--paragraph"><?php echo $l->t('<ul>
 			<li>Create multiple calendars</li>
@@ -97,10 +97,10 @@
         </div>
 	</div>
 	<div class="row">
-		<div class="col-md-6 revealOnScroll">
+		<div class="col-md-6">
 			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/contacts-nw.png" />
         </div>
-        <div class="col-md-6 revealOnScroll"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Contacts');?></p>
+        <div class="col-md-6"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Contacts');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Keep your relations organized');?></p>
 			<p class="section--paragraph"><?php echo $l->t('<ul>
 			<li>Track birthdays of your contacts</li>
@@ -111,10 +111,10 @@
         </div>
 	</div>
 	<div class="row">
-		<div class="col-md-6 revealOnScroll image--feature new-img image--floated">
+		<div class="col-md-6 image--feature new-img image--floated">
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png" />
         </div>
-        <div class="col-md-6 revealOnScroll"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Deck');?></p>
+        <div class="col-md-6"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Deck');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Manage your work with others');?></p>
 			<p class="section--paragraph"><?php echo $l->t('<ul>
 			<li>Create any number of private or shared Kanban-style task boards</li>
@@ -125,7 +125,7 @@
         </div>
 	</div>	<div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-            <p class="section--paragraph revealOnScroll text-center"><?php echo $l->t('Nextcloud fluently integrates into your existing infrastructure while also providing its own. Note that Nextcloud Mail is a client for POP and/or IMAP-infrastructure; Nextcloud does not include a mail server.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud fluently integrates into your existing infrastructure while also providing its own. Note that Nextcloud Mail is a client for POP and/or IMAP-infrastructure; Nextcloud does not include a mail server.');?></p>
         </div>
 	</div>
 </div>
@@ -134,9 +134,9 @@
 <section class="section--advantages">
 <div class="container-fluid quote">
     <div class="row">
-        <h2 class="text-center revealOnScroll"><?php echo $l->t('Unique advantages');?></h2>
+        <h2 class="text-center"><?php echo $l->t('Unique advantages');?></h2>
     </div>
-    <div class="row revealOnScroll">
+    <div class="row">
         <div class="col-sm-4">
             <p class="section--paragraph__tittle"><?php echo $l->t('Integration');?></p>
             <p class="section--paragraph"><?php echo sprintf($l->t('
@@ -169,16 +169,16 @@
 <section class="section--outlook">
 	<div class="container">
 		<div class="featurerow">
-			<h2 class="text-center revealOnScroll"><?php echo $l->t('Sync Calendars and Contacts<br>with Microsoft Outlook');?></h1>
+			<h2 class="text-center"><?php echo $l->t('Sync Calendars and Contacts<br>with Microsoft Outlook');?></h1>
 			<div class="row ">
 				<div class="col-md-1">
 				</div>
-				<div class="col-md-10 image--feature revealOnScroll">
+				<div class="col-md-10 image--feature">
 					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/integration.png" alt="in action" />
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6 col-md-offset-3 featureblock revealOnScroll">
+				<div class="col-md-6 col-md-offset-3 featureblock">
 					<p class="text-center section--paragraph"><?php echo $l->t('With the Outlook CalDav Synchronizer, Outlook users can easily sync their events, tasks and contacts between Microsoft Outlook and their Nextcloud server.');?></p>
 				</div>
 			</div>
@@ -186,11 +186,11 @@
 
 		<div class="featurerow">
 			<div class="row ">
-				<div class="col-md-6 image--floated image--feature revealOnScroll">
+				<div class="col-md-6 image--floated image--feature">
 						<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-settings.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-settings.png" alt="in action" /></a>
 				</div>
 
-				<div class="col-md-6 featureblock revealOnScroll">
+				<div class="col-md-6 featureblock">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Full Outlook synchronization');?></p>
 					<p class="section--paragraph"><?php echo $l->t('The CalDAV and CardDAV plugin offers two-way sync for CalDAV calendars and tasks, CardDAV contacts and can also handle the Google native Contacts and Tasks API.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('The plugin handles Outlook categories, mapping CalDAV server colors to Outlook category colors and syncing calendars and tasks to the categories. The plugin also handles timezones and recurring events with exceptions and can deal with Outlook custom properties.');?></p>
@@ -200,10 +200,10 @@
 
 		<div class="featurerow">
 			<div class="row ">
-				<div class="col-md-6 image--feature revealOnScroll">
+				<div class="col-md-6 image--feature">
 					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-about.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-about.png" alt="in action" /></a>
 				</div>
-				<div class="col-md-6 featureblock revealOnScroll">
+				<div class="col-md-6 featureblock">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Features');?></p>
 					<p class="section--paragraph"><?php echo $l->t('The Outlook CalDav Synchronizer supports:
 					<ul>
@@ -231,10 +231,10 @@
 		<div class="featurerow">
 <!-- 			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
 			<div class="row">
-				<div class="col-md-6 image--feature image--floated revealOnScroll">
+				<div class="col-md-6 image--feature image--floated">
 					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb-2.png" alt="in action" />
 				</div>
-				<div class="col-md-6 featureblock revealOnScroll">
+				<div class="col-md-6 featureblock">
 					<p class="section--paragraph__tittle"><?php echo $l->t('Mozilla Thunderbird');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Thanks to the Mozilla Thunderbird Lightning Calendar add-in and the Cardbook Thunderbird Contacts add-in, Nextcloud Groupware integrates great into Thunderbird.');?></p>
 					<p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_USER; ?>pim/sync_thunderbird.html"><?php echo $l->t('Learn more in our documentation.');?></a></p>
@@ -248,8 +248,8 @@
 <section class="section--contact quote">
 <div class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2 revealOnScroll">
-            <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('
+        <div class="col-md-8 col-md-offset-2">
+            <p class="section--paragraph text-center"><?php echo $l->t('
             Nextcloud Groupware starts at EUR 750/year for 50 users with volume discounts.
             ');?></p>
         </div>

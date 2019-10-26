@@ -43,10 +43,10 @@
 
 
         <div class="row featurerow">
-            <div class="col-md-6 image--floated image--feature revealOnScroll">
+            <div class="col-md-6 image--floated image--feature">
                 <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-nw.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-nw.png" alt="in action" /></a>
             </div>
-            <div class="col-md-6 featureblock revealOnScroll">
+            <div class="col-md-6 featureblock">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Secure data and lower costs');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Secure Sharing Outlook Add-in takes away the IT headache caused by risky attachments.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Storing and sharing files securely through Nextcloud ensures company policies on data availability, retention and safety can be enforced. This enables system administrators for example to make sure attachments are run through the virus scanner, certain file types are protected from being shared outside the company or that retention policies are followed.');?></p>
@@ -67,9 +67,9 @@
 <section class="section--benefits">
 <div class="container-fluid quote">
     <div class="container">
-        <h2 class="text-center revealOnScroll"><?php echo $l->t('Key benefits');?></h2>
+        <h2 class="text-center"><?php echo $l->t('Key benefits');?></h2>
         <div class="row featurerow">
-            <div class="col-md-offset-1 col-md-6 revealOnScroll">
+            <div class="col-md-offset-1 col-md-6">
                 <p class="section--paragraph">
                 <ul>
                     <li><?php echo $l->t('Protect files with password and expiration date');?></li>
@@ -77,7 +77,7 @@
                     <li><?php echo $l->t('Use Workflow to automatically remove attachments after a set time');?></li>
                 </ul></p>
             </div>
-            <div class="col-md-5 revealOnScroll">
+            <div class="col-md-5">
                 <p class="section--paragraph">
                 <ul>
                     <li><?php echo $l->t('Keep inbox growth under control');?></li>
@@ -133,10 +133,10 @@
 <section class="section--file-sharing">
 	<div class="container">
         <div class="row featurerow">
-            <div class="col-md-6 revealOnScroll image--feature">
+            <div class="col-md-6 image--feature">
                     <iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/PZs7-qGkupk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
-            <div class="col-md-6 revealOnScroll featureblock">
+            <div class="col-md-6 featureblock">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Features');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in turns email attachments into Nextcloud links, manually or automatically. It can insert upload links where the recipient of the email can upload files to. Users can add passwords and expiration dates, the admin can enforce setting these if needed.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('New users can enjoy the user-friendly setup dialog to get going, and the Upload Files / Share Public Folder option is directly available in the ‘message’ tab.');?></p>
@@ -144,10 +144,10 @@
             </div>
         </div>
         <div class="row featurerow">
-            <div class="col-md-6 revealOnScroll image--feature image--floated">
+            <div class="col-md-6 image--feature image--floated">
                     <iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/S40EeolyUU4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
-            <div class="col-md-6 revealOnScroll featureblock">
+            <div class="col-md-6 featureblock">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Other features:');?></p>
                 <ul>
                     <li><?php echo $l->t('Activity tracker notifying about file uploads/downloads');?></li>
@@ -159,17 +159,17 @@
                     <li><?php echo $l->t('Multi Language support');?></li>
                     <li><?php echo $l->t('Branding');?></li>
                 </ul>
-                <p class="section--paragraph revealOnScroll"><?php echo $l->t('The add-in works with Microsoft Outlook 2010, 2013 and 2016 for Windows.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The add-in works with Microsoft Outlook 2010, 2013 and 2016 for Windows.');?></p>
             </div>
         </div>
 	</div>
 </section>
 
 <section class="section--whitepaper quote">
-	<div class="container revealOnScroll">
+	<div class="container">
         <div class="row featurerow">
 			<div class="col-lg-8">
-                <h2 class="revealOnScroll"><?php echo $l->t('Get our datasheet');?></h2>
+                <h2><?php echo $l->t('Get our datasheet');?></h2>
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <p><label for="email"><?php echo $l->t('Download our Outlook Add-in datasheet!');?><br>
                     <td colspan="2">
@@ -197,10 +197,10 @@
 <section class="file-sharing">
 	<div class="container">
         <div class="row featurerow">
-            <div class="col-md-6 image--feature image--floated revealOnScroll">
+            <div class="col-md-6 image--feature image--floated">
                 <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-publiclink-nw.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-publiclink-nw.png" alt="in action" /></a>
             </div>
-            <div class="col-md-6 featureblock revealOnScroll">
+            <div class="col-md-6 featureblock">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Free for home users');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud strives to provide private cloud solution for everyone so we worked with our partner to provide a <a class="hyperlink" href="https://nextcloud.com/blog/secure-outlook-add-in-is-now-available-for-testing-in-free-as-in-beer-version/">free version of the Secure Outlook Add-in</a>. Note that the free version is only meant for home users and small organizations and lacks many of the features of the enterprise version.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The free Secure Outlook Add-in features the core capabilities: sharing from your Nextcloud instance instead of sending insecure large attachments, with an optional expiration date. Branding is limited and some other features for enterprise usage are not included.');?></p>
@@ -273,7 +273,7 @@
 <section class="section--quote quote">
 <div class="container">
     <div class="row featurerow">
-        <div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
+        <div class="col-md-8 col-md-offset-2 featureblock">
             <p class="text-center"><?php echo $l->t('Pricing for the Nextcloud Secure Sharing Outlook Add-in starts at USD 5 per user per year with discounts for larger user numbers.');?></p>
             <div class="text-center">
                 <a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
@@ -287,10 +287,10 @@
 	<div class="container">
 <!-- 			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
         <div class="row featurerow">
-            <div class="col-md-6 image--feature image--floated revealOnScroll">
+            <div class="col-md-6 image--feature image--floated">
                 <a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/moztb.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb.png" alt="in action" /></a>
             </div>
-            <div class="col-md-6 featureblock revealOnScroll">
+            <div class="col-md-6 featureblock">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Mozilla Thunderbird');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Users of Mozilla Thunderbird will be delighted to hear that Nextcloud also provides a <a href="https://addons.mozilla.org/en-US/thunderbird/addon/nextcloud-filelink/">Thunderbird Filelink Addon!</a>');?></p>
                 <p class="section--paragraph"><?php echo $l->t('"Nextcloud for Filelink" is a Thunderbird extension which makes it easy to send large attachments with Thunderbird by automatically uploading them first to a Nextcloud server and by then inserting the link into the body of your email.');?></p>
@@ -303,27 +303,27 @@
 <section class="calendas-contacts">
 	<div class="container">
 		<div class="row featurerow">
-			<h1 class="section--heading-1 section--text--center revealOnScroll"><?php echo $l->t('Sync Calendars and Contacts');?></h1>
+			<h1 class="section--heading-1 section--text--center"><?php echo $l->t('Sync Calendars and Contacts');?></h1>
 			<div class="row  featurerow">
 				<div class="col-md-1">
 				</div>
-				<div class="col-md-10 image--feature revealOnScroll">
+				<div class="col-md-10 image--feature">
 					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-header.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-header.png" alt="in action" /></a>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6 col-md-offset-3 featureblock revealOnScroll">
+				<div class="col-md-6 col-md-offset-3 featureblock">
 					<p class="text-center section--paragraph"><?php echo $l->t('With the Outlook CalDav Synchronizer integration with Nextcloud, Outlook users can easily sync their events, tasks and contacts between Microsoft Outlook and their Nextcloud server.');?></p>
 				</div>
 			</div>
 		</div>
 
 		<div class="row featurerow">
-            <div class="col-md-6 image--floated image--feature revealOnScroll">
+            <div class="col-md-6 image--floated image--feature">
                     <a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-settings.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-settings.png" alt="in action" /></a>
             </div>
 
-            <div class="col-md-6 featureblock revealOnScroll">
+            <div class="col-md-6 featureblock">
                 <p class="section--paragraph__tittle"><?php echo $l->t('What it does');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The CalDAV and CardDAV plugin offers two-way sync for CalDAV calendars and tasks, CardDAV contacts and can also handle the Google native Contacts and Tasks API.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The plugin handles Outlook categories, mapping CalDAV server colors to Outlook category colors and syncing calendars and tasks to the categories. The plugin also handles timezones and recurring events with exceptions and can deal with Outlook custom properties.');?></p>
@@ -331,10 +331,10 @@
 		</div>
 
 		<div class="row featurerow">
-            <div class="col-md-6 image--feature revealOnScroll">
+            <div class="col-md-6 image--feature">
                 <a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-about.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-about.png" alt="in action" /></a>
             </div>
-            <div class="col-md-6 featureblock revealOnScroll">
+            <div class="col-md-6 featureblock">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Features');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Outlook CalDav Synchronizer supports:</br>
                 SSL/TLS, also with self-signed certificates and proxy;</br>
@@ -357,10 +357,10 @@
 	<div class="container">
 <!-- 			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
         <div class="row featurerow">
-            <div class="col-md-6 image--feature image--floated revealOnScroll">
+            <div class="col-md-6 image--feature image--floated">
                 <img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb-2.png" alt="in action" />
             </div>
-            <div class="col-md-6 featureblock revealOnScroll">
+            <div class="col-md-6 featureblock">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Mozilla Thunderbird');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Thanks to the Mozilla Thunderbird Lightning Calendar add-in and the Cardbook Thunderbird Contacts add-in, Nextcloud Groupware integrates great into Thunderbird.');?></p>
                 <p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_USER; ?>pim/sync_thunderbird.html"><?php echo $l->t('Learn more in our documentation.');?></a></p>

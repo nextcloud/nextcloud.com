@@ -15,7 +15,7 @@
 
 <section class="section--whitepapers">
 <div class="container">
-    <h1 class="section--heading-2 revealOnScroll"><?php echo $l->t('Whitepapers and case studies');?></h1>
+    <h1 class="section--heading-2"><?php echo $l->t('Whitepapers and case studies');?></h1>
     <p class="section--paragraph"><?php echo $l->t('The Nextcloud white papers and case studies give a deep-dive in Nextcloud technology, processes around security, scalability and real-world benefits of deployments.');?></p>
 	<div class="row list display-flex">
 		<div class="col-md-3">
@@ -306,7 +306,7 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
 
 <section class="section--whitepapers">
 <div class="container">
-    <h1 class="section--heading-2 revealOnScroll"><?php echo $l->t('Data sheets and Industry Analysis');?></h1>
+    <h1 class="section--heading-2"><?php echo $l->t('Data sheets and Industry Analysis');?></h1>
     <p class="section--paragraph"><?php echo $l->t('The experts at Nextcloud keep a close watch on the needs of enterprises. Our data sheets showcase the capabilities and benefits of Nextcloud while our Industry Analysis documents our insights in various industries.');?></p>
 	<div class="row list">
 		<div class="col-md-3">
@@ -571,7 +571,7 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
 
 <section class="section--blogs">
 <div class="container">
-    <h2 class="section--heading-2 revealOnScroll"><?php echo $l->t('Interviews and blogs');?></h2>
+    <h2 class="section--heading-2"><?php echo $l->t('Interviews and blogs');?></h2>
     <p class="section--paragraph"><?php echo $l->t('We regularly cover customer interviews and case studies on our blog.');?></p>
     <p class="section--paragraph"><ul>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/sib-delivering-nextcloud-to-educational-institutions/">October 21, 2019 - SIB: Delivering Nextcloud to educational institutions</a></li>
@@ -598,7 +598,7 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
 <div class="container-fluid quote">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
+			<div class="col-md-8 col-md-offset-2 featureblock">
 				<p class="text-center"><?php echo $l->t('Learn more about the Nextcloud Enterprise Subscription.');?></p>
 				<div class="text-center morebuttondiv">
 					<a href="<?php echo home_url('enterprise') ?>" class="button button--large button--arrow"><?php echo $l->t('Your way to success');?> <i class="icon-arrow-circle-o-right icon"></i></a>

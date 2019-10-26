@@ -44,8 +44,8 @@ $l = new L10N('footer');
 <footer class="page-footer">
     <div class="container">
         <div class="col-sm-3">
-            <h1 class="revealOnScroll"><?php echo $l->t('About Nextcloud'); ?></h1>
-            <ul class="revealOnScroll">
+            <h1><?php echo $l->t('About Nextcloud'); ?></h1>
+            <ul>
                 <li><a href="<?php echo home_url('about'); ?>"><?php echo $l->t('About us'); ?></a></li>
                 <li><a href="<?php echo home_url('contributors'); ?>"><?php echo $l->t('Community'); ?></a></li>
                 <li><a href="<?php echo home_url('events'); ?>"><?php echo $l->t('Events'); ?></a></li>
@@ -56,8 +56,8 @@ $l = new L10N('footer');
             </ul>
         </div>
         <div class="col-sm-3">
-            <h1  class="revealOnScroll"><?php echo $l->t('Resources'); ?></h1>
-            <ul class="revealOnScroll">
+            <h1 ><?php echo $l->t('Resources'); ?></h1>
+            <ul>
                 <li><a href="<?php echo home_url('search'); ?>"><?php echo $l->t('Search our website'); ?></a></li>
                 <li><a href="<?php echo home_url('install'); ?>"><?php echo $l->t('Download'); ?></a></li>
                 <li><a href="https://apps.nextcloud.com"><?php echo $l->t('App Store'); ?></a></li>
@@ -69,8 +69,8 @@ $l = new L10N('footer');
             </ul>
         </div>
         <div class="col-sm-3">
-            <h1 class="revealOnScroll"><?php echo $l->t('Interact'); ?></h1>
-            <ul  class="revealOnScroll">
+            <h1><?php echo $l->t('Interact'); ?></h1>
+            <ul >
                 <li><a href="<?php echo home_url('support'); ?>"><?php echo $l->t('Support'); ?></a></li>
                 <li><a href="https://webchat.freenode.net/?channels=nextcloud"><?php echo $l->t('IRC Channel'); ?></a></li>
                 <li><a href="https://help.nextcloud.com/categories"><?php echo $l->t('Forums'); ?></a></li>
@@ -81,8 +81,8 @@ $l = new L10N('footer');
             </ul>
         </div>
         <div class="col-sm-3">
-            <h1 class="revealOnScroll"><?php echo $l->t('Follow us'); ?></h1>
-            <ul  class="revealOnScroll">
+            <h1><?php echo $l->t('Follow us'); ?></h1>
+            <ul >
                 <li><a href="https://www.facebook.com/Nextclouders/"><?php echo $l->t('Facebook'); ?></a></li>
                 <li><a href="https://instagram.com/nextclouders"><?php echo $l->t('Instagram'); ?></a></li>
                 <li><a href="https://www.linkedin.com/company/10827569/"><?php echo $l->t('LinkedIn'); ?></a></li>
@@ -94,7 +94,7 @@ $l = new L10N('footer');
         </div>
     <div class="row">
 		<div class="col-sm-12 text-center">
-		<p  class="revealOnScroll">&copy; </font> <?php echo date('Y'); ?> Nextcloud GmbH</p>
+		<p >&copy; </font> <?php echo date('Y'); ?> Nextcloud GmbH</p>
 		</div>
 	</div>
   </div>

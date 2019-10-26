@@ -48,7 +48,7 @@ define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
 				},
 
 				removeRevealOnScroll: function(index, element) {
-					$(element).addClass('fade-in');
+// 					$(element).addClass('fade-in');
 				},
 
 				buttonDropdown: function() {
@@ -84,13 +84,13 @@ define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
 				},
 
 				revealOnScroll: function(event) {
-					var scrollTop = $(window).scrollTop();
-					$('.revealOnScroll:not(.fade-in)').each(function(index, element) {
-						var selectorOffset = $(element).offset();
-						if (scrollTop + window.innerHeight - 100 > selectorOffset.top) {
-							$(element).addClass('fade-in').velocity('transition.slideUpIn');
-						}
-					});
+// 					var scrollTop = $(window).scrollTop();
+// 					$('.revealOnScroll:not(.fade-in)').each(function(index, element) {
+// 						var selectorOffset = $(element).offset();
+// 						if (scrollTop + window.innerHeight - 100 > selectorOffset.top) {
+// 							$(element).addClass('fade-in').velocity('transition.slideUpIn');
+// 						}
+// 					});
 				},
 			};
 			main.init();

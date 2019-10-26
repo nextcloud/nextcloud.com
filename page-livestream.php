@@ -17,7 +17,7 @@
 		<div class="container">
 			<div class="col-md-6 topheader">
 				<h1>Nextcloud Conference 2019</h1>
-				<h2  class="revealOnScroll">A week of collaboration, coding and fun!</h2>
+				<h2>A week of collaboration, coding and fun!</h2>
 			</div>
 		</div>
 	</div>
@@ -26,8 +26,8 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
-<!-- 			<img class="conf-img revealOnScroll" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018.jpg" alt="logo"/> -->
-<!-- 			<h2 class="revealOnScroll"></h2> -->
+<!-- 			<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2018.jpg" alt="logo"/> -->
+<!-- 			<h2></h2> -->
 			<!--<p class="section--paragraph__tittle">stay tuned for our live stream!</p>
 			<p class="section--paragraph">Starting Saturday morning, September14, ~10:00 Berlin time.</p>-->
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/494b_gEVgOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

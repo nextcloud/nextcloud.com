@@ -40,10 +40,10 @@
     </div>
 </section>
 <section class="section--whitepaper quote">
-	<div class="container revealOnScroll">
+	<div class="container">
         <div class="row">
 			<div class="col-lg-8">
-                <h2 class="revealOnScroll"><?php echo $l->t('North-West University<br/> Case Study');?></h2>
+                <h2><?php echo $l->t('North-West University<br/> Case Study');?></h2>
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <p><label for="email"><?php echo $l->t('Get the free case study:');?><br>
                     <?php echo $l->t('The North-West University of South Africa improves user storage mobility,<br /> collaboration and productivity with Nextcloud and Collabora Online.');?><br>
@@ -89,13 +89,13 @@
 		<div class="featurerow">
 			<div class="row">
 <!-- 				</div> -->
-				<div class="col-md-6 featureblock revealOnScroll">
+				<div class="col-md-6 featureblock">
 					<h2 class="section--paragraph__tittle"><?php echo $l->t('View and edit documents directly in your Nextcloud');?></h2>
 					<p class="section--paragraph"><?php echo $l->t('Collabora Online supports editing your documents in real time with multiple other editors, showing high fidelity, WYSIWYG rendering and preserving the layout and formatting of your documents.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Users can insert and reply to comments and invite others without a Nextcloud account for anonymous editing of files with a public link shared folder.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Collabora Online supports dozens of document formats including <strong>DOC</strong>, <strong>DOCX</strong>, <strong>PPT</strong>, <strong>PPTX</strong>, <strong>XLS</strong>, <strong>XLSX + ODF</strong>, <strong>Import/View Visio</strong>, <strong>Publisher</strong> and many more...');?></p>
 				</div>
-				<div class="col-md-6 revealOnScroll">
+				<div class="col-md-6">
 					<div data-type="youtube" data-video-id="8iuSFKVl-xQ"></div>
 					<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/8iuSFKVl-xQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
@@ -105,10 +105,10 @@
 
 		<div class="featurerow">
 			<div class="row">
-				<div class="col-md-6 revealOnScroll image--floated image--feature new-img">
+				<div class="col-md-6 image--floated image--feature new-img">
 					<img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/Collabora_Online_-_versions_integration.png" alt="in action" />
 				</div>
-				<div class="col-md-6 revealOnScroll featureblock">
+				<div class="col-md-6 featureblock">
 					<h2 class="section--paragraph__tittle"><?php echo $l->t('Under your control');?></h2>
 					<p class="section--paragraph"><?php echo $l->t('Most people use online services for storing their data, communication and editing documents, often giving up control over their files in exchange for the convenience of online collaboration. With Nextcloud and Collabora Online, this is no longer a trade-off.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Collabora Online is <strong>Open Source</strong>, <strong>self-hosted</strong> and <strong>secure</strong>!');?></p>
@@ -121,13 +121,13 @@
 <section class="section--customerdetail">
 	<div class="container">
          <div class="row feature-row">
-            <div class="col-md-8 revealOnScroll feature--block">
+            <div class="col-md-8 feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('An Enterprise solution that works at scale');?></p>
                 <blockquote><?php echo $l->t('The users had no problems with Collabora Online; installing it had only a few tickets in half a year, it was easy to provide this service ... it just works.');?></blockquote>
                 <p class="alignright" style="margin-top: -40px"><?php echo $l->t('-- Thomas Hildmann, TU Berlin');?></p>
 <!--                 <a href="https://nextcloud.com/blog/next-big-open-source-win-capital-of-switzerland-moves-schools-to-nextcloud//" class="button button--blue button--arrow button--large"><?php echo $l->t('Announcement blog');?></a> -->
             </div>
-            <div class="col-md-4 revealOnScroll">
+            <div class="col-md-4">
                 <div class="text-center">
                     <img class="img-responsive" src="https://nextcloud.com/media/TUB-Hauptgebaeude070710.jpg" />
                 </div>
@@ -138,7 +138,7 @@
 
 <section class="collabora-screenshots">
 	<div class="container">
-        <h2 class="section--heading-1 revealOnScroll text-center"><?php echo $l->t('Well integrated');?></h2>
+        <h2 class="section--heading-1 text-center"><?php echo $l->t('Well integrated');?></h2>
         <div class="row">
         <p class="section--paragraph"><?php echo $l->t('Insert images directly from your Nextcloud.');?> <?php echo $l->t('Access the Nextcloud sharing sidebar.');?> <?php echo $l->t('Chat or have a call while editing.');?> <?php echo $l->t('View and reply to comments.');?></p>
         </div>
@@ -172,7 +172,7 @@
 <div class="container-fluid call-to-action">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 revealOnScroll">
+			<div class="col-md-8 col-md-offset-2">
 				<h1 class="section--heading-1 text-center"><?php echo $l->t('For Enterprises');?></h1>
 				<p class="text-center"><?php echo $l->t('Enterprise users who need a more reliable and scalable solution with long term support, guaranteed response times and security updates can take advantage of our');?> <a href="<?php echo home_url('enterprise') ?>" class="hyperlink"><?php echo $l->t('optional support contract</a> for Collabora Online.');?></p>
 				<div class="text-center morebuttondiv">
@@ -351,7 +351,7 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --re
 <div class="container-fluid call-to-action">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 featureblock revealOnScroll">
+			<div class="col-md-8 col-md-offset-2 featureblock">
 				<p class="text-center"><?php echo $l->t('Let us know what you think in the forums!');?></p>
 				<div class="text-center morebuttondiv">
 					<a href="https://help.nextcloud.com/c/support/collabora" class="button button--large button--arrow"><?php echo $l->t('Talk to us!');?> <i class="icon-arrow-circle-o-right icon"></i></a>
