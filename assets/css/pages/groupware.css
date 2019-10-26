@@ -39,7 +39,7 @@
 section {
   margin-top: 150px;
   /* 	padding: 50px 0; */ }
-  section .section--paragraph__tittle {
+  section .section--paragraph__title {
     padding: 0; }
 
 .section--overview {
@@ -51,7 +51,7 @@ section {
     .section--overview .icon img {
       width: 100%;
       height: auto; }
-  .section--overview .section--paragraph__tittle {
+  .section--overview .section--paragraph__title {
     /*         padding-bottom: 10px; */ }
   .section--overview .row {
     margin-bottom: 15px; }
