@@ -51,7 +51,7 @@ require(["require.config"], function() {
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
-                <h2 class="section--paragraph__tittle"><?php echo $l->t('Work, share, collaborate, enjoy');?></h2>
+                <h2 class="section--paragraph__title"><?php echo $l->t('Work, share, collaborate, enjoy');?></h2>
                 <p class="section--paragraph"><?php echo $l->t('Share images, documents or music with colleagues on your server, send password protected public links to friends and get notifications on your phone when a user on another Nextcloud server shares files directly with you. Use File Drop to let customers upload files to you in a easy and secure way!');?></p>
                 <a href="<?php echo home_url('file-drop') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn about File Drop');?></a>
                 <p class="section--paragraph"><?php echo $l->t('You can trust that when you share, Nextcloud makes sure you stay in control over your data. You can easily see a list of shares, remove or change permissions and restore older versions of files.');?></p>
@@ -64,7 +64,7 @@ require(["require.config"], function() {
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/Nr7cGN6ZJM0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Work with others');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Work with others');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('You can comment on files and discuss options. Through our integration of online office solutions like ');?> <a class="hyperlink" href="<?php echo home_url('collaboraonline') ?>">Collabora Online</a> <?php echo $l->t('and');?> <a class="hyperlink" href="<?php echo home_url('onlyoffice') ?>">ONLYOFFICE</a> <?php echo $l->t('you can work together in real time on presentations or Word documents. And with');?> <a class="hyperlink" href="<?php echo home_url('Talk') ?>">Nextcloud Talk</a> <?php echo $l->t('you can seamlessly move a conversation in the comments to a chat or video call!');?></p>
                 <p class="section--paragraph"><?php echo $l->t('You can find files using our full text search app or by giving them tags and searching for them. Searching through the comments is possible as well. Admins can use');?> <a class="hyperlink" href="<?php echo home_url('workflow') ?>"><?php echo $l->t('our Workflow tools</a> to automatically tag files uploaded by specific users, groups or by filetype and execute actions like converting files based on these tags.');?></p>
             </div>
@@ -74,7 +74,7 @@ require(["require.config"], function() {
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/NRhVP9rXHVY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Collaboration features');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Collaboration features');?></h3>
                 <ul>
                     <li><?php echo $l->t('Tag and comment on files, and see tags and comments by others');?></li>
                     <li><?php echo $l->t('Search by file name, tags, comments or file content (with the full-text search app) ');?></li>
@@ -91,7 +91,7 @@ require(["require.config"], function() {
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/puSDKV4ZdvA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Sharing features');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Sharing features');?></h3>
                 <ul>
                     <li><?php echo $l->t('Share with individual users, groups or create custom groups with the');?> <a class="hyperlink" href="https://apps.nextcloud.com/apps/circles">Circles app.</a></li>
                     <li><?php echo $l->t('Share photo galleries');?></li>
@@ -108,7 +108,7 @@ require(["require.config"], function() {
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/features/Admin_Sharing_Settings.png" class="img-responsive featureimg" />
             </div>
             <div class="col-md-6">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Security capabilities');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Security capabilities');?></h3>
                 <ul>
                     <li><?php echo $l->t('Passwords for public link shares');?></li>
                     <li><?php echo $l->t('Expiration date in internal or public link shares');?></li>
@@ -125,7 +125,7 @@ require(["require.config"], function() {
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/Pffusr1bac4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Video Verification');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Video Verification');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('In situations where extreme security is warranted and the identity of a recipient has to be verified with absolute certainty before they are granted access, Nextcloud includes the industry-first implementation of Video Verification.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Video Verification enforces a Nextcloud Talk video call before access is given to a share, making sure the identity of the recipient is properly checked. The call can be picked up through the Nextcloud Talk Mobile apps as well as the web interface.');?></p>
             </div>
@@ -139,7 +139,7 @@ require(["require.config"], function() {
         <h2 class="text-center"><?php echo $l->t('Feature highlight');?></h2>
     </div>
     <div class="row">
-        <p class="section--paragraph__tittle"><?php echo $l->t('Secure view in action');?></p>
+        <h3 class="section--paragraph__title"><?php echo $l->t('Secure view in action');?></h3>
         <p class="section--paragraph"><?php echo $l->t('With secure view, our online office solutions can be configured to open PDF files, images and text files, making these files available in a watermark-protected way, while downloads and other apps are disabled using File Access Control. This setup is useful when data has to be protected from leaking but still has to be made available for review, as in a virtual data room scenario.');?></p>
         <a class="button button--blue" href="<?php echo home_url('virtual-data-room') ?>"><?php echo $l->t('Virtual data rooms');?></a>
     </div>
@@ -159,12 +159,12 @@ require(["require.config"], function() {
     </div>
     <div class="row">
         <div class="col-md-6">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Realtime collaboration in a team');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Realtime collaboration in a team');?></h3>
             <div data-type="youtube" data-video-id="Nr7cGN6ZJM0"></div>
             <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/Nr7cGN6ZJM0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="col-md-6">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Watermarks and secure inbox');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Watermarks and secure inbox');?></h3>
             <div data-type="youtube" data-video-id="nueL_hzDp-s"></div>
             <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/nueL_hzDp-s" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
         </div>
@@ -176,7 +176,7 @@ require(["require.config"], function() {
 <div class="container-fluid banner quote">
     <div class="container">
     <div class="col-md-6">
-        <p class="section--heading-1 section--text--center"><?php echo $l->t('Extend your cloud');?></p>
+        <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Extend your cloud');?></h1>
         <p class="section--paragraph"><?php echo $l->t('You can extend the functionality of your Nextcloud with extra features from the Nextcloud app store. Among the more than 200 apps you can find features that enhance sharing, including:');?></p>
         <p class="section--paragraph">
         <ul>
@@ -214,7 +214,7 @@ require(["require.config"], function() {
 	</div>
 	<div class="row">
 			<div class="col-md-6 ">
-					<p class="section--paragraph__tittle"><?php echo $l->t('More details');?></p>
+					<h3 class="section--paragraph__title"><?php echo $l->t('More details');?></h3>
 					<p class="section--paragraph"><?php echo $l->t('Learn more in the Nextcloud');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_USER; ?>files/federated_cloud_sharing.html" target="_blank"><?php echo $l->t('user documentation</a> and');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_files/federated_cloud_sharing_configuration.html"><?php echo $l->t('administrator documentation</a>.');?></p>
 		</div>
 			<div class="col-md-6">

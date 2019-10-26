@@ -76,7 +76,7 @@
                 <a href="https://www.bayern-evangelisch.de/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/elkb.png" alt="elkb logo"/></a>
             </div>
             <div class="col-md-6  feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud offers collaboration solution to Evangelisch-Lutherische Kirche in Bayern');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud offers collaboration solution to Evangelisch-Lutherische Kirche in Bayern');?></h3>
                 <blockquote><?php echo $l->t('We deployed Nextcloud with Collabora some months ago. We are very happy with the user-acceptance of the sync&share function and hope to expand on Collabora usage as part of our plans to make Nextcloud a core component of our digital-workspace initiative.');?></blockquote>
                  - Bartel Pieterse, Fachbereichsleiter Kommunikation & Kollaboration (KIV), <a class="hyperlink" href="https://www.bayern-evangelisch.de/">ELKB</a>
             </div>
@@ -90,7 +90,7 @@
 			<div class="row">
 <!-- 				</div> -->
 				<div class="col-md-6 featureblock">
-					<h2 class="section--paragraph__tittle"><?php echo $l->t('View and edit documents directly in your Nextcloud');?></h2>
+					<h2 class="section--paragraph__title"><?php echo $l->t('View and edit documents directly in your Nextcloud');?></h2>
 					<p class="section--paragraph"><?php echo $l->t('Collabora Online supports editing your documents in real time with multiple other editors, showing high fidelity, WYSIWYG rendering and preserving the layout and formatting of your documents.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Users can insert and reply to comments and invite others without a Nextcloud account for anonymous editing of files with a public link shared folder.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Collabora Online supports dozens of document formats including <strong>DOC</strong>, <strong>DOCX</strong>, <strong>PPT</strong>, <strong>PPTX</strong>, <strong>XLS</strong>, <strong>XLSX + ODF</strong>, <strong>Import/View Visio</strong>, <strong>Publisher</strong> and many more...');?></p>
@@ -109,7 +109,7 @@
 					<img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/Collabora_Online_-_versions_integration.png" alt="in action" />
 				</div>
 				<div class="col-md-6 featureblock">
-					<h2 class="section--paragraph__tittle"><?php echo $l->t('Under your control');?></h2>
+					<h2 class="section--paragraph__title"><?php echo $l->t('Under your control');?></h2>
 					<p class="section--paragraph"><?php echo $l->t('Most people use online services for storing their data, communication and editing documents, often giving up control over their files in exchange for the convenience of online collaboration. With Nextcloud and Collabora Online, this is no longer a trade-off.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Collabora Online is <strong>Open Source</strong>, <strong>self-hosted</strong> and <strong>secure</strong>!');?></p>
 				</div>
@@ -122,7 +122,7 @@
 	<div class="container">
          <div class="row feature-row">
             <div class="col-md-8 feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('An Enterprise solution that works at scale');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('An Enterprise solution that works at scale');?></h3>
                 <blockquote><?php echo $l->t('The users had no problems with Collabora Online; installing it had only a few tickets in half a year, it was easy to provide this service ... it just works.');?></blockquote>
                 <p class="alignright" style="margin-top: -40px"><?php echo $l->t('-- Thomas Hildmann, TU Berlin');?></p>
 <!--                 <a href="https://nextcloud.com/blog/next-big-open-source-win-capital-of-switzerland-moves-schools-to-nextcloud//" class="button button--blue button--arrow button--large"><?php echo $l->t('Announcement blog');?></a> -->
@@ -138,7 +138,7 @@
 
 <section class="collabora-screenshots">
 	<div class="container">
-        <h2 class="section--heading-1 text-center"><?php echo $l->t('Well integrated');?></h2>
+        <h1 class="section--heading-1 text-center"><?php echo $l->t('Well integrated');?></h1>
         <div class="row">
         <p class="section--paragraph"><?php echo $l->t('Insert images directly from your Nextcloud.');?> <?php echo $l->t('Access the Nextcloud sharing sidebar.');?> <?php echo $l->t('Chat or have a call while editing.');?> <?php echo $l->t('View and reply to comments.');?></p>
         </div>
@@ -163,7 +163,7 @@
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/PTvFeF1J1Ns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
-               <p class="section--paragraph__tittle"><?php echo $l->t('Mobile and desktop');?></p>
+               <h3 class="section--paragraph__title"><?php echo $l->t('Mobile and desktop');?></h3>
 					<p class="section--paragraph"><?php echo $l->t('Collabora Online is not only available in the browser but also on our mobile platforms!');?></p>
             </div>
         </div>
@@ -187,7 +187,7 @@
 	<div class="container">
 		<div class="col-md-10 col-md-offset-1">
 			<div class="featurerow">
-				<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Collabora Online integration tutorial video');?></h2>
+				<h1 class="section--heading-1 section--text--center"><?php echo $l->t('Collabora Online integration tutorial video');?></h1>
 				<p class="section--paragraph text-center"><?php echo $l->t('We are able to provide a solution for Online Office for the entire Nextcloud community through our <a target="_blank" class="hyperlink" href="https://nextcloud.com/?p=589">partnership with Collabora</a> in an <strong>easy to use <a class="hyperlink" href="https://hub.docker.com/r/collabora/code">docker image</a> for developers and home users</strong>. Enterprise users looking for a more reliable solution should');?> <a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('contact Nextcloud Sales</a>.');?></p>
 				<div class="row">
 					<div class="col-md-1">
@@ -205,7 +205,7 @@
 			<h2 ><?php echo $l->t('Getting started in 3 steps');?></h2>
 			<p class="section--paragraph"><?php echo $l->t('We\'ll describe how to get Collabora Online running on your server and how to integrate it into your Nextcloud using the docker image Nextcloud and Collabora built.');?></p>
 
-			<h3 class="section--paragraph__tittle"><?php echo $l->t('Requirements');?></h3>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Requirements');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('To install it the following dependencies are required:');?></p>
 			<ol>
 				<li class="section--paragraph"><?php echo $l->t('A host that can run a Docker container');?></li>
@@ -215,7 +215,7 @@
 				<li class="section--paragraph"><?php echo $l->t('A valid SSL certificate for your Nextcloud');?></li>
 			</ol>
 			<p class="section--paragraph"><?php echo $l->t('<strong>Note:</strong> This guide does <em>NOT</em> cover self-signed certificates. If you use a self-signed certificate then you\'re mostly on your own ;-)');?></p>
-			<h3 class="section--paragraph__tittle"><?php echo $l->t('1. Install the Collabora Online server');?></h3>
+			<h3 class="section--paragraph__title"><?php echo $l->t('1. Install the Collabora Online server');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('The following steps will download the Collabora Online docker, make sure to replace "cloud.nextcloud.com" with the host that your own Nextcloud runs on. Also make sure to escape all dots with double backslashes (<code>\\</code>), since this string will be evaluated as a regular expression (and your bash \'eats\' the first backslash.) If you want to use the docker container with more than one Nextcloud, you\'ll need to use');?> <code>'domain=cloud\\.nextcloud\\.com\|second\\.nexcloud\\.com'</code> <?php echo $l->t('instead. (All hosts are separated by <code>\|</code>.)');?></p>
 			<p><pre><code class="docker">
                 docker pull collabora/code
@@ -227,7 +227,7 @@
             </code></pre></p>
             <p class="section--paragraph"><?php echo $l->t('This way you are not only limited to German, English, Italian, French and Spanish.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('That will be enough. Once you have done that the server will listen on "localhost:9980". Now we just need to configure the locally installed Apache reverse proxy.');?></p>
-			<h3 class="section--paragraph__tittle"><?php echo $l->t('2. Install the Apache reverse proxy');?></h3>
+			<h3 class="section--paragraph__title"><?php echo $l->t('2. Install the Apache reverse proxy');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('On a recent Ubuntu or Debian this should be possible using:');?></p>
 			<ol>
 				<li><code class="apache">apt-get install apache2</code></li>
@@ -289,7 +289,7 @@ ProxyPassReverse    /hosting/capabilities https://127.0.0.1:9980/hosting/capabil
 			</code></pre></p>
 			<a name="update"></a>
 			<p class="section--paragraph"><?php echo $l->t('After configuring these do restart your apache using <code>/etc/init.d/apache2 restart</code>.');?></p>
-			<h3 class="section--paragraph__tittle"><?php echo $l->t('3. Configure the app in Nextcloud');?></h3>
+			<h3 class="section--paragraph__title"><?php echo $l->t('3. Configure the app in Nextcloud');?></h3>
 			<ol>
 				<li class="section--paragraph"><?php echo $l->t('Go to the Apps section and choose "Office & text"');?></li>
 				<li class="section--paragraph"><?php echo $l->t('Install the "Collabora Online app"');?></li>

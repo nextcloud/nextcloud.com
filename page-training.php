@@ -45,17 +45,17 @@
 			<br/><small><a class="hyperlink" href="https://www.openstreetmap.org/?mlat=52.52279&amp;mlon=13.41288#map=18/52.52279/13.41288">View on Open Street Map</a></small>
 		</div>
 		<div class="col-md-4">
-            <p class="section--paragraph__tittle">When</p>
+            <h3 class="section--paragraph__title">When</h3>
 			<p class="section--paragraph">
 			<i style="float:left; margin: 10px;" class="fa fa-clock-o"></i> Monday, September 16, 2019 from 8am to 6pm.</p>
-            <p class="section--paragraph__tittle">Where</p>
+            <h3 class="section--paragraph__title">Where</h3>
 			<p class="section--paragraph">
 			<i style="float:left; margin: 10px;" class="fa fa-map"></i>
 			The <a class="hyperlink" href="https://www.parkinn-berlin.de/en">Park Inn</a> at Berlin Alexanderplatz</p>
 			<p class="section--paragraph">
 			<i style="float:left; margin: 10px;" class="fa fa-bed"></i>
 			Book at <a class="hyperlink" href="https://www.parkinn-berlin.de/en">Park Inn</a> with the discount code <code>Nextcloud</code> <br><small>Rooms reserved until August 25</small></p>
-			<p class="section--paragraph__tittle">Pricing</p>
+			<h3 class="section--paragraph__title">Pricing</h3>
 			<p class="section--paragraph">
 			<i style="float:left; margin: 10px;" class="fa fa-ticket"></i>
 			Entree is €399.99<br/>Book until August 15th and get 50% off!</p>
@@ -100,7 +100,7 @@
 <div class="container-fluid banner quote">
     <div class="container">
     <div class="col-md-6">
-        <p class="section--heading-1 section--text--center">Benefits</p>
+        <h1 class="section--heading-1 section--text--center">Benefits</h1>
         <p class="section--paragraph">At our Enterprise day you get an opportunity to discuss changing demands in business and their impact on IT security. Our experts will help you get ahead of the curve and benefit from the opportunities while avoiding the downsides of the cloud.</p>
         <ul>
         <li><i class="fa-check fa"></i> Get the most out of Nextcloud for your business</li>
@@ -124,7 +124,7 @@
 <div class="container">
 	<div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <p class="section--heading-1 section--text--center">Program</p>
+            <h1 class="section--heading-1 section--text--center">Program</h1>
             <p class="section--paragraph section--text--center">The Enterprise Day features a track of strategic sessions covering a wide range of enterprise use cases with a lot of time to discuss with our experts.</p>
         </div>
     </div>

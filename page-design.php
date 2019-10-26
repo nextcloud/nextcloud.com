@@ -25,7 +25,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-6">
-			<h3 class="section--paragraph__tittle"><?php echo $l->t('Get involved');?></h3>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Get involved');?></h3>
 			<ul>
                 <li><?php echo $l->t('We have a <a href="https://github.com/nextcloud/server/labels/design" target="_blank">Design label on GitHub</a> – check out these issues if you want to help and fix interface problems. This label is also in the other repositories for clients and apps.');?></li>
                 <li><?php echo $l->t('For easier issues and to get started, check out the <a href="https://github.com/nextcloud/server/issues?q=is%3Aopen+label%3A%22good+first+issue%22+label%3Adesign" target="_blank">Design issues also marked »good first issue«</a>');?></li>
@@ -44,7 +44,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<h3 class="section--paragraph__tittle"><?php echo $l->t('Design team');?></h3>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Design team');?></h3>
 			<p><?php echo $l->t('There is an <strong>@nextcloud/designers group on GitHub</strong>. This enables people to just mention @nextcloud/designers in issues and pull requests to notify all designers. Otherwise you have to mention each one individually.');?></p>
 
             <p><?php echo $l->t('The main people working on Nextcloud design are:');?></p>
@@ -66,7 +66,7 @@
 
 	<div class="row">
 		<div class="col-md-12">
-            <h3 class="section--paragraph__tittle"><?php echo $l->t('Design guidelines');?></h3>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Design guidelines');?></h3>
             <ul>
                 <li><?php echo $l->t('Software should work. Only put features into master when they are complete. It is better to not have a feature instead of having one that works poorly.');?></li>
                 <li><?php echo $l->t('Software should get out of the way. Do things automatically instead of offering configuration options. When people ask for a setting, find out what the root of the problem is and fix that instead. Also read <a href="http://ometer.com/preferences.html" target="_blank">»Choosing our Preferences«</a>.');?></li>
@@ -85,7 +85,7 @@
 
 	<div class="row">
 		<div class="col-md-12">
-            <h3 class="section--paragraph__tittle"><?php echo $l->t('More concrete HTML+CSS guidelines');?></h3>
+            <h3 class="section--paragraph__title"><?php echo $l->t('More concrete HTML+CSS guidelines');?></h3>
             <ul>
                 <li><?php echo sprintf($l->t('HTML and CSS building blocks are in <a href="%s" target="_blank">our Design documentation</a>.'), $DOCUMENTATION_DEVELOPER . 'design/');?></li>
                 <li><?php echo $l->t('We basically follow <a href="https://google.github.io/styleguide/htmlcssguide.html" target="_blank">Google’s HTML+CSS style guide</a>, with small exceptions:');?></p>
@@ -104,7 +104,7 @@
 
 	<div class="row">
 		<div class="col-md-12">
-            <h3 class="section--paragraph__tittle"><?php echo $l->t('Further reading');?></h3>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Further reading');?></h3>
 
             <ul>
                 <li><?php echo $l->t('Watch a short video on <a href="https://www.youtube.com/watch?v=5SAB0CY-iZ0" target="_blank">our design principles and how to get involved</a>.');?></li>

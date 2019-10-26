@@ -100,7 +100,7 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <h2 class=" section--heading-1 text-center"><?php echo $l->t('Powering collaboration');?></h2>
+                <h1 class=" section--heading-1 text-center"><?php echo $l->t('Powering collaboration');?></h1>
                 <p class="section--paragraph text-center"><?php echo $l->t('<span class="avoidwrap">the most popular self-hosted collaboration solution</span> <span class="avoidwrap">for tens of millions of users</span> <span class="avoidwrap">at thousands of organizations</span> <span class="avoidwrap">across the globe</span>');?></p>
             </div>
         </div>
@@ -179,7 +179,7 @@
 <a name="why-nextcloud"></a>
 <section id="why-nextcloud" class="section--why">
 	<div class="container">
-		<h2 class="section--heading-1 text-center"><?php echo $l->t('Why Nextcloud?');?></h2>
+		<h1 class="section--heading-1 text-center"><?php echo $l->t('Why Nextcloud?');?></h1>
 		<div class="highlights">
 			<div class="highlights_align ">
 				<div class="privacy-icon" data-animation-path="img/home/privacy/" data-anim-loop="false" data-name="privacy"></div>
@@ -207,7 +207,7 @@
 <!--<section class="section--enterprise-day">
 	<div class="container-fluid">
 			<div class="container">
-                <h2 class="section--heading-1">Enterprise Day</h2>
+                <h1 class="section--heading-1">Enterprise Day</h1>
                 <ul class="section--paragraph">
                     <li><i class="fa-check fa"></i> Get the most out of Nextcloud</li>
                     <li><i class="fa-check fa"></i> Speed up decision making</li>
@@ -223,7 +223,7 @@
 <!--<section class="section--conf">
 	<div class="container-fluid">
 			<div class="container">
-			<h2 class="section--heading-1">Nextcloud Conference</h2>
+			<h1 class="section--heading-1">Nextcloud Conference</h1>
 			<p class="section--paragraph">Join for talks, workshops & keynotes at your yearly conference!<br> September 14-15 in Berlin, Germany!<br>
 			Featuring our Enterprise Day on Monday September 16.</p>
 			<p class="section--paragraph"><a href="<?php echo home_url('conf2019') ?>" class="button button--arrow button--large button--blue">Conference</a><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Enterprise Day</a></p>-->
@@ -247,7 +247,7 @@
 <section class="section--underyourcontrol">
 <div class="container-fluid">
     <div class="container">
-        <h2 class="section--heading-1"><?php echo $l->t('Losing control?');?></h2>
+        <h1 class="section--heading-1"><?php echo $l->t('Losing control?');?></h1>
         <p class="section--paragraph"><?php echo $l->t('Your teams are using email attachments, public chat apps and consumer file sharing tools to communicate and collaborate. Regain control with Nextcloud.');?></p>
         <li><?php echo $l->t('Host your own collaboration platform');?></li>
         <li><?php echo $l->t('Protect your IT investment by re-using existing infrastructure');?></li>
@@ -262,7 +262,7 @@
 <?php require get_template_directory().'/verticals.php';?>
 
 <section class="slideshow" id="slideshow">
-    <h2 class="text-center section--heading-1"><?php echo $l->t('Introducing Nextcloud 17');?></h2>
+    <h1 class="text-center section--heading-1"><?php echo $l->t('Introducing Nextcloud 17');?></h1>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
 		<li class="btn_carousel"><a href="#feature-1"></a></li>

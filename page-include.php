@@ -42,17 +42,17 @@
 	<div class="row">
 		<div class="col-md-4">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/conversation.svg" /></div>
-			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Mentoring');?></p>
+			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Mentoring');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('We provide mentoring to people new to our community.');?></p>
         </div>
 		<div class="col-md-4">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/travel.svg" /></div>
-			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Travel support');?></p>
+			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Travel support');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('We sponsor the travel & accommodation to help people from underrepresented groups in opensource to join Nextcloud events.');?></p>
 		</div>
 		<div class="col-md-4">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/internship.svg" /></div>
-			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Internships');?></p>
+			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Internships');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('We hire students from underrepresented groups to intern at Nextcloud GmbH.');?></p>
 		</div>
     </div>
@@ -175,17 +175,17 @@ imagedestroy($image);
         </div>
 		<div class="row">
             <div class="col-md-10 col-md-offset-1">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Can I contribute if I am not a programmer?');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Can I contribute if I am not a programmer?');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Of course! Code is only one part of Nextcloud – as is design, marketing, documentation, translation, events and many other areas! There are many things you can contribute to, and we can offer help and mentorship. Do not hesitate to apply and tell us what you\'d like to help with!');?></p>
-		<p class="section--paragraph__tittle"><?php echo $l->t('Am I welcome if I do not have a lot of experience and/or skills in programming?');?></p>
+		<h3 class="section--paragraph__title"><?php echo $l->t('Am I welcome if I do not have a lot of experience and/or skills in programming?');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Absolutely. We all started somewhere, and we welcome all levels of experience. This is why we have mentors: We want to help you to improve and learn from the community while contributing to Nextcloud! Whether you have doubts about your skills or not, just apply and we will figure it out.');?></p>
-		<p class="section--paragraph__tittle"><?php echo $l->t('Do you have a Code of Conduct?');?></p>
+		<h3 class="section--paragraph__title"><?php echo $l->t('Do you have a Code of Conduct?');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Yes, you can find it at');?> <a class="hyperlink" href="<?php echo home_url('code-of-conduct') ?>">nextcloud.com/code-of-conduct/</a>.</p>
-		<p class="section--paragraph__tittle"><?php echo $l->t('Does Nextcloud welcome only people from underrepresented groups?');?></p>
+		<h3 class="section--paragraph__title"><?php echo $l->t('Does Nextcloud welcome only people from underrepresented groups?');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('We welcome everyone. Nextcloud Include is our specific program for underrepresented people in open source, but there‘s many ways for everyone to join. For example, you could check our Contribute page at');?> <a class="hyperlink" href="<?php echo home_url('contribute') ?>">nextcloud.com/contribute</a>.</p>
-		<p class="section--paragraph__tittle"><?php echo $l->t('I need travel support, but I am not part of any underrepresented groups – should I apply anyway?');?></p>
+		<h3 class="section--paragraph__title"><?php echo $l->t('I need travel support, but I am not part of any underrepresented groups – should I apply anyway?');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('No, please do not apply at Nextcloud Include if you are not part of an underrepresented group in open source. However, you are very much welcome to apply for');?> <a class="hyperlink" href="<?php echo home_url('events') ?>#ts"><?php echo $l->t('our community travel support program!');?></a></p>
-		<p class="section--paragraph__tittle"><?php echo $l->t('Why is Nextcloud Include needed?');?></p>
+		<h3 class="section--paragraph__title"><?php echo $l->t('Why is Nextcloud Include needed?');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('We are a very nice, friendly and welcoming community. But, like just saying „you are welcome to join the conference" to parents with kids without providing a playground is not enough, we need to be pro-active. For more info, <a class="hyperlink" href="https://www.youtube.com/watch?v=qbyAYGjrywo" target="_blank">watch our talk about the topic</a>.');?></p>
             </div>
 		</div>
@@ -305,7 +305,7 @@ imagedestroy($image);
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/history/frank.jpg" alt="in action"/></a>
         </div>
         <div class="col-md-6 feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Where does this come from?');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Where does this come from?');?></h3>
             <p class="section--paragraph"><?php echo $l->t('We have been putting in effort in diversity since we started our project, participating in ');?> <a class="hyperlink" href="https://railsgirlssummerofcode.org/blog/2018-07-23-welcome-to-team-popcorn"><?php echo $l->t('Rails Girls Summer of Code for example.');?></a> <?php echo $l->t(' When Nextcloud founder Frank Karlitschek');?> <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-founder-wins-innovation-award-donates-prize-money-to-open-source-diversity-fund"><?php echo $l->t('won the Reinhard von König award');?></a> <?php echo $l->t('he decided to donate its 20.000 euro prize money to the Nextcloud community to start a diversity program! That provided a great start for this and we hope it will be just the beginning: you can donate, too, if you want!');?></p>
             <a href="mailto:include@nextcloud.com" class="button button--blue button--arrow button--large"><?php echo $l->t('Contact us to donate');?></a>
         </div>
@@ -315,7 +315,7 @@ imagedestroy($image);
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/history/rk-award.png" alt="in action"/></a>
         </div>
         <div class="col-md-8 feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Reinhard von Koenig Award');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Reinhard von Koenig Award');?></h3>
             <p class="section--paragraph"><?php echo $l->t('The bi-annual Reinhard von Koenig award is named after inventor Baron Reinhard von Koenig (1899-1992) and awarded at his former family castle Fachsenfeld in Aalen, located in East Württemberg, the region with the largest number of globally leading companies in Germany. In 1982, Baron von Koenig donated his entire estate and assets to the Fachsenfeld Foundation he founded, with the goal of promoting technological and cultural innovations. The criteria for the award requires that the prize is awarded to people who have developed new technological approaches to socially relevant challenges, shown technical courage and made a significant contribution to sustainable progress.');?></p>
             <a href="http://reinhard-von-koenig-preis.de/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
         </div>
@@ -325,7 +325,7 @@ imagedestroy($image);
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/partners/kdeev.png" alt="in action"/></a>
         </div>
         <div class="col-md-6 feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('How is it managed?');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('How is it managed?');?></h3>
             <p class="section--paragraph"><?php echo $l->t('To handle the money, we work together with the amazing KDE community which takes care of the financial part. This also means donations are tax-free in many countries!');?></p>
             <p class="section--paragraph"><?php echo $l->t('The spending of the money is decided on by a small group of Nextcloud diversity advocates, including Jan-Christoph Borchardt and Marie Gutbub.');?></p>
             <a href="https://ev.kde.org" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more about KDE e.V.');?></a>

@@ -22,7 +22,7 @@
 		<div class="col-sm-8 col-sm-offset-2">
 <!-- 			<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/conf-logo.svg" alt="logo" /> -->
 <!-- 			<h2></h2> -->
-<!-- 			<p class="section--paragraph__tittle"></p> -->
+<!-- 			<h3 class="section--paragraph__title"></h3> -->
 			<p class="section--paragraph">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
 			<p class="section--paragraph"><a href="https://nextcloud.com/schedule/2017/speakers.html" class="button button--large button--blue">The speakers</a> <a href="https://nextcloud.com/schedule/2017/schedule.html" class="button button--large button--blue">Full schedule <i class="icon-arrow-circle-o-right icon"></i></a></p>
 <!-- 			<p class="section--paragraph"><a href="https://nextcloud.com/blog/lightning-talks-and-workshops-at-the-nextcloud-conference/" class="hyperlink" >See the program blog</a></p> -->
@@ -86,7 +86,7 @@
 <section class="section--call-for-papers">
 <div class="container">
 	<div class="row text-center">
-		<p class="section--paragraph__tittle">We have opened our call for papers!</p>
+		<h3 class="section--paragraph__title">We have opened our call for papers!</h3>
 		<p class="section--paragraph">You're invited to contribute your thoughts to our event.</p>
 		<div class="text-center morebuttondiv">
 			<a href="https://conf.nextcloud.com/conference/NextcloudConference2017/program/proposal/new" class="button button--large button--arrow">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a>
@@ -135,7 +135,7 @@
 <section class="section--fridayfocus">
 	<div class="container-fluid">
 			<div class="container">
-			<h2 class="section--heading-1">Friday Focus</h2>
+			<h1 class="section--heading-1">Friday Focus</h1>
 			<p class="section--paragraph">Friday August 25 we focus on large enterprise and educational installations of Nextcloud. Participate in workshops to get in-depth knowledge of Nextcloud, find out how to scale your installation efficiently and contribute your ideas.</p>
 			<p class="section--paragraph"><a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">See the Friday Focus program in our blog!</a></p>
 	<!-- 		<p class="section--paragraph"><a class="button button--blue button--arrow button--large" href="coming" role="button">Know all the features</a></p> -->

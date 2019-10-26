@@ -35,7 +35,7 @@
 <div class="container featureblock featureblock--has-separator">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h2 class="section--heading-1 section--text--center"><?php echo $l->t('Security advice');?></h2>
+            <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Security advice');?></h1>
             <p class="section--paragraph section--text--center"><?php echo $l->t('We make securing your system as easy as possible');?></p>
         </div>
     </div>
@@ -47,7 +47,7 @@
             <div class="col-md-6">
                 <div class="feature">
                     <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/verified-security.svg">
-                    <p class="section--paragraph__tittle"><?php echo $l->t('Automated checks and tips');?></p>
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Automated checks and tips');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud detects issues with its installation and warns when it finds unknown or modified files. Administrators can find security tips and warnings in the configuration screen.');?></p>
                     <p class="section--paragraph"><?php echo $l->t('Administrators can set password quality policies enforced by Nextcloud as well as limit or disable sharing, enforce expiration dates and passwords on shares, disable preview generation and more.');?></p>
                     <p class="section--paragraph"><?php echo $l->t('You can find more information on hardening your Nextcloud installation in our extensive');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_server/harden_server.html" target="_blank" rel="tooltip" title="Information for Admins"><?php echo $l->t('hardening guide</a>');?></p>
@@ -91,7 +91,7 @@
 <div class="container featureblock">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h2 class="section--heading-1 section--text--center"><?php echo $l->t('Encryption');?></h2>
+            <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Encryption');?></h1>
             <p class="section--paragraph section--text--center"><?php echo $l->t('Employ encryption for the highest degree of privacy and security');?></p>
         </div>
     </div>
@@ -107,21 +107,21 @@
         <div class="col-md-4">
             <div class="feature">
                 <?php echo file_get_contents(get_template_directory()."/assets/img/icons/saml.svg"); ?>
-                <p class="section--paragraph__tittle"><?php echo $l->t('Encrypted data transfer');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Encrypted data transfer');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud employs industry-standard TLS to encrypt data in transfer. Usage of Object Storage like Amazon S3 or other external storage systems can be secured through Server Side Encryption.');?></p>
             </div>
         </div>
         <div class="col-md-4">
             <div class="feature">
                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/vault.svg">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Encrypt data at rest');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Encrypt data at rest');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Server Side Encryption can also be used on local storage. However, inherent to the concept of server side encryption, encryption keys will be present in memory of the Nextcloud server during the time a user is logged in and could be retrieved by a determined attacker. We take care to ensure keys are not stored unencrypted on permanent storage and at rest keys are encrypted using a strong cipher.');?></p>
             </div>
         </div>
         <div class="col-md-4">
             <div class="feature">
                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/securitypolicies.svg">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Encrypt from client to client');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Encrypt from client to client');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('End-to-end Encryption client-side is available from Nextcloud 13 and newer as a folder-level option to keep extremely sensitive data fully secure even in case of a full server breach. The server facilitates key exchange for syncing between devices and sharing but has Zero Knowledge, that is, never has access to any of the data or keys in unencrypted form.');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('Learn more here.</a>');?></p>
             </div>
         </div>
@@ -133,7 +133,7 @@
         <div class="col-md-6">
             <div class="feature">
                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/virusscaning.svg">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Threat models and attack trees');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Threat models and attack trees');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('There is a number of important decisons to be made about encryption in Nextcloud. The various solutions come with advantages and downsides. Read our blog linked below to find out more about the properties of each solution.');?></p>
                 <p class="section--paragraph"><a class="button button--blue button--arrow" href="https://nextcloud.com/blog/encryption-in-nextcloud/" target="_blank" rel="tooltip" title="Encryption in Nextcloud"><?php echo $l->t('Encryption in Nextcloud');?></a></p>
             </div>
@@ -146,7 +146,7 @@
         <div class="col-md-6">
             <div class="feature">
                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/keys.svg">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Server-side encryption with flexible key handling');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Server-side encryption with flexible key handling');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud supports pluggable encryption key handling. If you have an external key server or Hardware Security Module, these can be made to work with Nextcloud.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Our default encryption key handling enables administrators to set a system wide recovery key for encrypted files,. This ensures that, even when users lose their password, files can always be decrypted. Encrypted files can be shared but after changing encryption settings, shares will have to be re-shared. Using our command line tools, data can be encrypted, decrypted or re-encrypted when needed.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('If you face a regulatory or compliance need to encrypt data at rest but do not need to actually secure this data, locally encrypting data using our built in key management may satisfy compliance requirements.');?></p>
@@ -161,7 +161,7 @@
         <div class="col-md-6">
             <div class="feature">
                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/securitypolicies.svg">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Seamless End-to-end Encryption on the clients');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Seamless End-to-end Encryption on the clients');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud features an enterprise-grade, seamlessly integrated solution for end-to-end encryption. It enables users to pick one or more folders on their desktop or mobile client for end-to-end encryption. Folders can be shared with other users and synced between devices but are never readable by the server.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('This solution is easy to use yet extremely secure thanks to its Zero-Knowledge server design and Cryptographic Identity Protection. It does not compromise security by using a browser to encrypt or decrypt files with code coming from the server and is not an all-or-nothing affair: any number of folders can be end-to-end encrypted. Sharing is secure without a need to exchange passwords and files don\'t need to be re-encrypted and re-uploaded when access rights for other users are changed.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Our solution is enterprise ready with support for a Hardware Security Module for issuing certificates, giving access to a full audit log and optionally allowing administrators to create an offline master recovery key.');?></p>
@@ -204,7 +204,7 @@
 <div class="container featureblock featureblock--has-separator">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h2 class="section--heading-1 section--text--center"><?php echo $l->t('Passive security measures');?></h2>
+            <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Passive security measures');?></h1>
             <p class="section--paragraph section--text--center"><?php echo $l->t('Besides active security measures like authentication and encryption, Nextcloud protects your data without any need for administrator action');?></p>
         </div>
     </div>
@@ -215,12 +215,12 @@
         <div class="col-md-6">
             <div class="feature">
                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/find-data.svg">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Brute Force Protection');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Brute Force Protection');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Brute Force Protection logs invalid login attempts and slows down multiple attempts from a single IP address (or IPv6 range). This feature is enabled by default and protects against an attacker who tries to guess a password from one or more users.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Password reset tokens are invalidated when critical information like user email has been changed to protect against phishing attacks.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud will ask system administrators for password confirmation on security critical actions.');?></p>
                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/camera.svg">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Rate Limiting');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Rate Limiting');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Rate Limiting allows a developer to specify how often an IP range or a user may send a request in a specific time period. This can be useful for expensive API calls, to prevent users from accessing too much data in a smaller attempt of time or harden bruteforce stuff further. It is used by Nextcloud apps to protect users from spam and overloading.');?></p>
                 <p class="section--paragraph"><a class="hyperlink" href="https://nextcloud.com/blog/security-in-nextcloud-12-bruteforce-protection-and-rate-limiting-for-developers/"><?php echo $l->t('Learn more about these protections in our blog.</a>');?></p>
             </div>
@@ -228,7 +228,7 @@
         <div class="col-md-6">
             <div class="feature">
                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/secure-server.svg">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Security hardening');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Security hardening');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud employs a wide variety of extra security hardening capabilities, including:');?></p>
                     <ul>
                         <li><?php echo $l->t('Content Security Policy 3.0');?>
@@ -255,7 +255,7 @@
         <div class="col-md-6">
             <div class="feature">
                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/machine.svg">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Machine learning based suspicious login detection');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Machine learning based suspicious login detection');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud includes a machine learning technology which trains a neural network on successful logins on the instance and uses it to classify login attempts. Should it detect a login classified as suspicious by the trained model, it will notify the user and store an entry in the log for the system administrator.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('When the user is notified, they can terminate the suspicious session, and proceed to set a new password. The administrator can also take action, like disabling user accounts or forcing users to pick a new password.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Of course, the solution is designed to protect privacy and all data remains on your server!');?></p>

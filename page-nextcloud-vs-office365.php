@@ -17,7 +17,7 @@
 </div>
 <section class="section--customers">
 <div class="container-fluid">
-<!--     <h2 class="section--heading-1 text-center "><?php echo $l->t('Some of our customers');?></h2> -->
+<!--     <h1 class="section--heading-1 text-center "><?php echo $l->t('Some of our customers');?></h1> -->
     <div class="row">
 		<div class="col-sm-12 customer">
             <div class="customer-logo">
@@ -79,17 +79,17 @@
 	<div class="row">
 		<div class="col-md-4 ">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/storage.svg" /></div>
-			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Perfect fit');?></p>
+			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Perfect fit');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Not all organizations have the same needs. With over 200 apps for Nextcloud, more than for any other on-premises solution, you can add the integration and functional enhancements you need.');?></p>
 		</div>
 		<div class="col-md-4 ">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/permissions.svg" /></div>
-			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Ultimate control');?></p>
+			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Ultimate control');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Nextcloud is an on-premises solution which makes maintaining compliance and data security easier. Our extensive auditing, monitoring, and file access control features as well as capabilities like End-to-end Encryption and Video Verification are unique in the industry.');?></p>
 		</div>
 		<div class="col-md-4 ">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/training.svg" /></div>
-			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Best user interface');?></p>
+			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Best user interface');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Nextcloud provides a far simpler and more integrated user interface, resulting in less calls to support and improved productivity of your teams.');?></p>
 		</div>
 	</div>
@@ -354,7 +354,7 @@
                 <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/itzbund.png" alt="in action"/>
             </div>
             <div class="col-md-6  feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('German Federal Government, ITZBund');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('German Federal Government, ITZBund');?></h3>
                 <p class="section--paragraph"><blockquote><?php echo $l->t('Nextcloud provides users with a modern, easy-to-use and productivity-oriented solution that enables efficient online and mobile collaboration and communication. ITZBund now provides an on-premises open source solution from a German provider to keep control over their own data.');?></blockquote></p>
                 <a class="button button--blue button--arrow" href="https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/"><?php echo $l->t('European Governments deploy Nextcloud');?></a>
             </div>
@@ -369,7 +369,7 @@
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/zenuity.png" alt="in action"/></a>
             </div>
             <div class="col-md-6 feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Zenuity - reshaping autonomous driving');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Zenuity - reshaping autonomous driving');?></h3>
                 <p class="section--paragraph"><blockquote><?php echo $l->t('Zenuity deployed Nextcloud for the purpose of safe and effective collaboration with our partner companies. We selected the product after comparing against several other alternatives. Particular advantages are the ability to run the service on premises and the good support for a wide range of client operating systems.');?></blockquote></p>
             </div>
         </div>
@@ -383,7 +383,7 @@
                 <a><img class="img-responsive" src="https://nextcloud.com/media/Bern_luftaufnahme.png" alt="in action"/></a>
             </div>
             <div class="col-md-6  feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Capital of Switzerland provides Nextcloud to 35.000 students and teachers');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Capital of Switzerland provides Nextcloud to 35.000 students and teachers');?></h3>
                 <blockquote><?php echo $l->t('the largest open source order ever in Switzerland!');?></blockquote>
                 <p class="alignright" style="margin-top: -40px"><?php echo $l->t('-- Matthias Stürmer, EPP city councillor');?></p>
                 <a href="https://nextcloud.com/blog/a-wave-of-cities-all-over-europe-moving-to-nextcloud/" class="button button--blue button--arrow"><?php echo $l->t('A wave of cities moving to Nextcloud');?></a>
@@ -426,7 +426,7 @@
             <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ransomware-recovery.png" alt="in action"/></a>
         </div>
         <div class="col-md-6  feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Best Ransomware protection in the industry');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Best Ransomware protection in the industry');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Ransomware attacks are becoming more targetted as lots of money can be extracted from businesses and government organizations. While insurance can cover direct costs, the disruption to business is immense regardless. Nextcloud goes far beyond competing solutions, offering automated, one-click ransomware recovery tools.');?></p>
             <a href="https://nextcloud.com/blog/amidst-rising-ransomware-costs-another-us-city-pays-hundreds-of-thousands-to-recover-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Ransomware risks and protection');?></a>
         </div>

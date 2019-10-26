@@ -28,7 +28,7 @@
    	<div class="row">
         <div class="col-md-6">
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/machine.svg" class="icon" />
-            <p class="section--paragraph__tittle"><?php echo $l->t('Build a new application');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Build a new application');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Write new applications on top of the Nextcloud platform.');?></p>
             <ul class="section--paragraph">
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/general/devenv.html"><?php echo $l->t('Developer setup');?></a></li>
@@ -42,7 +42,7 @@
         </div>
         <div class="col-md-6 image--feature ">
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/manual.svg" class="icon" />
-            <p class="section--paragraph__tittle"><?php echo $l->t('Extend Nextcloud');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Extend Nextcloud');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Write a Nextcloud app to improve or change Nextcloud functionality.');?></p>
             <ul class="section--paragraph">
                 <li><a class="hyperlink" href="https://github.com/nextcloud/dashboard/blob/master/README.md"><?php echo $l->t('Write a dashboard plugin');?></a></li>
@@ -57,7 +57,7 @@
 	<div class="row">
 		<div class="col-md-6">
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/check-lock.svg" class="icon" />
-            <p class="section--paragraph__tittle"><?php echo $l->t('Connect to Nextcloud');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Connect to Nextcloud');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Integrate an existing software into Nextcloud.');?></p>
             <ul class="section--paragraph">
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>client_apis/LoginFlow/index.html"><?php echo $l->t('Login Flow');?></a></li>
@@ -70,7 +70,7 @@
         </div>
         <div class="col-md-6">
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/mobile.svg" class="icon" />
-            <p class="section--paragraph__tittle"><?php echo $l->t('Write new clients');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Write new clients');?></h3>
             <ul class="section--paragraph">
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>client_apis/LoginFlow/index.html"><?php echo $l->t('Login Flow');?></a></li>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/client_apis/index.html"><?php echo $l->t('Client APIs');?></a></li>
@@ -104,7 +104,7 @@
             </div>
             <div class="col-md-6  feature--block">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/check.svg" class="icon" />
-                <p class="section--paragraph__tittle"><?php echo $l->t('Featured community app:');?> <br /> Nextcloud OCR</p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Featured community app:');?> <br /> Nextcloud OCR</h3>
                 <p class="section--paragraph"><?php echo $l->t('The app uses tesseract-js in the browser in order to extract text from images (png, jpeg, tiff) and PDFs and saves the output file to the source folder in nextcloud. That for example enables you to search in it.');?></p>
                 <a href="https://nextcloud.com/blog/unsung-heroes-of-the-nextcloud-community-janis-koehr/" class="button button--blue button--arrow button--large"><?php echo $l->t('Read the interview');?></a>
             </div>
@@ -133,7 +133,7 @@
             </div>
             <div class="col-md-6  feature--block">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/check.svg" class="icon" />
-                <p class="section--paragraph__tittle"><?php echo $l->t('Featured community app:');?> <br /> Digital Imaging for Medicine</p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Featured community app:');?> <br /> Digital Imaging for Medicine</h3>
                 <p class="section--paragraph"><?php echo $l->t('The DICOM Viewer allows the user to display and manipulate DICOM images with a streamlined sidebar and viewer, all without leaving Nextcloud. The sidebar parses DICOM files and displays all DICOM attributes, such as Patient ID, Patient Name, and Study Date/Time, in a convenient details panel. A critical search feature on the sidebar enables the user to quickly search for specific DICOM attributes.');?></p>
                 <a href="https://nextcloud.com/blog/digital-imaging-for-medicine-in-nextcloud/" class="button button--blue button--arrow button--large"><?php echo $l->t('Read about the DICOM viewer');?></a>
             </div>
@@ -148,7 +148,7 @@
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/verticals-small.jpg" alt="in action"/>
             </div>
             <div class="col-md-6  feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Include');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Include');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Diversity strengthens a community. The Nextcloud Include initiative helps underrepresented groups to join the Nextcloud project, building an inclusive and diverse space where we collaborate and develop world class software.');?></p>
                 <a href="<?php echo home_url('include') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Lear more and request mentoring');?></a>
             </div>
@@ -182,21 +182,21 @@
                 <div class="col-md-4">
                     <div class="featureblock">
                         <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
-                        <p class="section--paragraph__tittle"><?php echo $l->t('Big audience');?></p>
+                        <h3 class="section--paragraph__title"><?php echo $l->t('Big audience');?></h3>
                         <p class="section--paragraph"><?php echo $l->t('There are between 200.000 and 300.000 Nextcloud servers on the web with tens of millions of users between them. A big audience exists for functionality which extends the most popular self-hosted productivity platform. The most downloaded apps on our app store are installed on over 100.000 servers and have millions of users!');?></p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="featureblock">
                         <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/manual.svg" /></div>
-                        <p class="section--paragraph__tittle"><?php echo $l->t('Free promotion');?></p>
+                        <h3 class="section--paragraph__title"><?php echo $l->t('Free promotion');?></h3>
                         <p class="section--paragraph"><?php echo $l->t('We want you to be successful! If you create an app, extension or integration, Nextcloud will help you promote it. We are happy to work with you on a post for our blog, share the app over social media and you can present it at our conference.');?></p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="featureblock">
                         <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/2fa.svg" /></div>
-                        <p class="section--paragraph__tittle"><?php echo $l->t('Business opportunity');?></p>
+                        <h3 class="section--paragraph__title"><?php echo $l->t('Business opportunity');?></h3>
                         <p class="section--paragraph"><?php echo $l->t('If you build an app, script, extension or tool as a business endeavor, we will be happy to support your effort. We love our ecosystem and want you to benefit of it! Perhaps we can commercialize it together, with us reselling your product or feature to our customers.');?></p>
                     </div>
                 </div>
@@ -217,7 +217,7 @@
             </div>
             <div class="col-md-6  feature--block">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/check.svg" class="icon" />
-                <p class="section--paragraph__tittle"><?php echo $l->t('Featured community app:');?> <br /> Cospend</p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Featured community app:');?> <br /> Cospend</h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud Cospend is a group/shared budget manager. It was inspired by the great IHateMoney.<br> You can use it when you share a house, when you go on vacation with friends, whenever you share money with others.');?></p>
                 <a href="https://nextcloud.com/blog/cospend-another-bit-in-the-nextcloud-ecosystem/" class="button button--blue button--arrow button--large"><?php echo $l->t('Read about Cospend');?></a>
             </div>
@@ -230,7 +230,7 @@
     <div class="container-widest">
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
-                <p class="section--heading-1 section--text--center">Events</p>
+                <h1 class="section--heading-1 section--text--center">Events</h1>
                 <p class="section--paragraph">Nextcloud attends and organizes events where you can learn more about building apps and integrations!</p>
             </div>
         </div>

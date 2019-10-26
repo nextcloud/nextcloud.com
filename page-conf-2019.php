@@ -25,7 +25,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
-			<p class="section--paragraph__tittle">September 14-15, Technical University Berlin</p>
+			<h3 class="section--paragraph__title">September 14-15, Technical University Berlin</h3>
 			<p class="section--paragraph">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
 			<!--<p>The event costs €20, and until July 31st we offer €15 Early bird tickets! Contributors get a free ticket - just <a href="mailto:events@nextcloud.com?subject=%5BContributor%20ticket%5D%20YOUR%20NAME&body=Link%20to%20your%20contribution" class="hyperlink">shoot us an email</a> with a link to your contribution(s) on github, transifex or otherwise! We provide catered lunch at the conference, you can find some hotel options further down the page.</a></p>
 			<p class="section--paragraph"><a href="https://eventyay.com/e/70d8ad61/" class="button button--arrow button--large button--blue">Get your ticket</a> <br /> <a href="https://nextcloud.com/livestream" class="button button--arrow button--large button--blue">Live stream </a> <br />--> <!--<a href="https://eventyay.com/e/70d8ad61/cfs/" class="button button--arrow button--large button--blue">Submit a talk</a>-->
@@ -162,7 +162,7 @@
 <section class="section--call-for-papers">
 <div class="container">
 	<div class="row text-center">
-		<p class="section--paragraph__tittle ">We have opened our call for papers!</p>
+		<h3 class="section--paragraph__title ">We have opened our call for papers!</h3>
 		<p class="section--paragraph ">You're invited to contribute your thoughts to our event.</p>
 		<div class="text-center morebuttondiv ">
 <!-- 			<a href="https://eventyay.com/e/70d8ad61//cfs/" class="button button--large button--blue button--arrow">Submit a talk</a> -->
@@ -177,7 +177,7 @@
 		<div class="row">
 
 			<div class="col-md-8 col-md-offset-2 featureblock ">
-			<h2 class="section--heading-1  text-center">Travel support</h2>
+			<h1 class="section--heading-1  text-center">Travel support</h1>
 				<p class="text-center">We want to help everybody attend and participate in the Nextcloud conference! To support contributors who might not otherwise attend due to financial limitations, we provide up to 80% of flight and hotel cost reimbursement. Submit your requests timely, we have a deadline!</p>
 				<p class="text-center">Contributors can get a free ticket - just <a href="mailto:events@nextcloud.com?subject=%5BContributor%20ticket%5D%20YOUR%20NAME&body=Link%20to%20your%20contribution" class="hyperlink">shoot us an email</a> with a link to your contribution(s) on github, transifex or otherwise!</p>
 				<div class="text-center">
@@ -192,7 +192,7 @@
 <section class="section--enterprise">
 	<div class="container-fluid">
 			<div class="container">
-			<h2 class="section--heading-1 ">For enterprise</h2>
+			<h1 class="section--heading-1 ">For enterprise</h1>
 			<p class="section--paragraph ">Join our Enterprise training day Monday September 16.<br/><strong>Book until July 31st and get 50% off!</strong></p>
 			<p class="section--paragraph "><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Learn more and book</a></p>
 <!-- 			<p class="section--paragraph "><a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">See the Friday Focus program in our blog!</a></p> -->

@@ -23,7 +23,7 @@
 		<div class="col-sm-8 col-sm-offset-2">
 			<img class="conf-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017-2.jpg" alt="logo"/>
 <!-- 			<h2></h2> -->
-			<p class="section--paragraph__tittle">August 23-30, Technical University Berlin</p>
+			<h3 class="section--paragraph__title">August 23-30, Technical University Berlin</h3>
 			<p class="section--paragraph">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
 			<!--<p class="section--paragraph"><a href="https://eventyay.com/e/77d26f89/" class="button button--arrow button--large button--blue">Register for free</a> <a href="https://nextcloud.com/livestream" class="button button--arrow button--large button--blue">Live stream <i class="icon-arrow-circle-o-right icon"></i></a>--> <!--<a href="https://eventyay.com/e/77d26f89/cfs/" class="button button--arrow button--large button--blue">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a></p>-->
 
@@ -149,7 +149,7 @@
 <section class="section--call-for-papers">
 <div class="container">
 	<div class="row text-center">
-		<p class="section--paragraph__tittle">We have opened our call for papers!</p>
+		<h3 class="section--paragraph__title">We have opened our call for papers!</h3>
 		<p class="section--paragraph">You're invited to contribute your thoughts to our event.</p>
 		<div class="text-center morebuttondiv">
 			<a href="https://eventyay.com/e/77d26f89/cfs/" class="button button--large button--blue button--arrow">Submit a talk <i class="icon-arrow-circle-o-right icon"></i></a>
@@ -164,7 +164,7 @@
 		<div class="row">
 
 			<div class="col-md-8 col-md-offset-2 featureblock">
-			<h2 class="section--heading-1 text-center">Travel support</h2>
+			<h1 class="section--heading-1 text-center">Travel support</h1>
 				<p class="text-center">We want to help everybody attend and participate in the Nextcloud conference! To support contributors who might not otherwise attend due to financial limitations, we provide up to 80% of flight and hotel cost reimbursement.</p>
 				<div class="text-center">
 					<a href="https://nextcloud.com/blog/nextcloud-conference-2018-contributor-travel-support-program/" class="button button--large button--arrow">Learn more</a>
@@ -177,7 +177,7 @@
 <section class="section--enterprise">
 	<div class="container-fluid">
 			<div class="container">
-			<h2 class="section--heading-1">For enterprise</h2>
+			<h1 class="section--heading-1">For enterprise</h1>
 			<p class="section--paragraph">Join our Enterprise training day Monday August 27.<br/>Book now, before July 15 and get 50% off!</p>
 			<p class="section--paragraph"><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Learn more and book</a></p>
 <!-- 			<p class="section--paragraph"><a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">See the Friday Focus program in our blog!</a></p> -->

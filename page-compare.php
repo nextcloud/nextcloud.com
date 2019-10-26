@@ -30,20 +30,20 @@
     <div class="row">
         <div class="col-lg-4 col-sm-12">
             <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
-            <p class="section--paragraph__tittle">Best security</p>
+            <h3 class="section--paragraph__title">Best security</h3>
             <p class="section--paragraph">Nextcloud is developed in a security-focused process as attested by a range of external experts and security pen-tests.</p>
             <p class="section--paragraph">Industry-leading features include machine-learning based login protection, 2-factor authentication measures, brute force protection and unique capabilities like Video Verification, end-to-end and server-side encryption.
             <p class="section--paragraph">We put our money where our mouth is: our USD 10.000 security bug bounty program brings top security expertise in, keeping your data safe.</p>
         </div>
         <div class="col-lg-4 col-sm-12">
             <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
-            <p class="section--paragraph__tittle">Largest ecosystem</p>
+            <h3 class="section--paragraph__title">Largest ecosystem</h3>
             <p class="section--paragraph">As the most deployed self-hosted file sync and content collaboration platform, Nextcloud offers the widest range of add-on capabilities and integrations in the industry. Over 200 'apps' offer powerful security capabilities, team productivity features and infrastructure integrations.</p>
             <p class="section--paragraph">Workflow capabilities, several online office solutions and a tool employing advanced entropy analysis to recover files from a ransomware attack, built by security researchers from a German university, are just some of the applications found in our app store.</p>
         </div>
         <div class="col-lg-4 col-sm-12">
             <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/tools.svg" /></div>
-            <p class="section--paragraph__tittle">Easiest to use</p>
+            <h3 class="section--paragraph__title">Easiest to use</h3>
             <p class="section--paragraph">Powerful capabilities often result in compolicated user interfaces, lowering productivity and hindering quick adoption in organizations. Without limiting their abilities, Nextcloud does not overwhelm users with unnessecary clutter. Our customers remark time and again how few support tickets it creates for their IT teams.</p>
             <p class="section--paragraph">Accessibility features like keyboard and screenreader navigation, WCAG 2.1 compliant contrast and a dyslexia-friendly font are available only in the leading on-premises content collaboration platform!</p>
         </div>

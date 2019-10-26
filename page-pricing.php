@@ -217,7 +217,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
         <div class="col-md-offset-2 col-md-4">
 			<div class="featureblock" id="featureblock-collabora">
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/collabora-nw.png">
-				<p class="section--paragraph__tittle"><?php echo $l->t('Collabora Online Office');?></p>
+				<h3 class="section--paragraph__title"><?php echo $l->t('Collabora Online Office');?></h3>
 				<p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('collaboraonline') ?>"><?php echo $l->t('With Collabora Online Office</a> Nextcloud features an enterprise ready integrated online office enabling users to collaboratively edit docx, pptx and other office documents with colleagues, clients or partners. Collabora Online is available with the Standard or Premium subscription.');?></p>
 				<p class="section--paragraph price-big"><?php echo $l->t('starting at € 17/user/year');?></p>
 				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
@@ -226,7 +226,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
         <div class="col-md-4">
 			<div class="featureblock" id="featureblock-onlyoffice">
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/onlyoffice-document.png">
-				<p class="section--paragraph__tittle"><?php echo $l->t('ONLYOFFICE');?></p>
+				<h3 class="section--paragraph__title"><?php echo $l->t('ONLYOFFICE');?></h3>
 				<p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('onlyoffice') ?>"><?php echo $l->t('ONLYOFFICE</a> delivers enterprise-grade real-time collaborative document editing to Nextcloud, with excellent Microsoft Office compatibility and a familiar user interface. ONLYOFFICE is available with the Standard or Premium subscription.');?></p>
 				<p class="section--paragraph price-big"><?php echo $l->t('Starting at € 15 to € 22/user/year');?></p>
 				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
@@ -238,7 +238,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 			<div class="featureblock" id="featureblock-outlook">
 	<!--         <i class="fa-envelope fa"></i> -->
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-nw.png">
-				<p class="section--paragraph__tittle"><?php echo $l->t('Outlook Secure Sharing Add-in');?></p>
+				<h3 class="section--paragraph__title"><?php echo $l->t('Outlook Secure Sharing Add-in');?></h3>
 				<p class="section--paragraph"><?php echo $l->t('Nextcloud optionally provides an');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>"><?php echo $l->t('Outlook Secure Sharing Add-in</a> enabling users to share and receive files in a secure way directly from Microsoft Outlook. The Outlook Secure Sharing Add-in can be added to a Basic, Standard or Premium subscription.');?></p>
 				<p class="section--paragraph price-big"><?php echo $l->t('starting at € 5/user/year');?></p>
 				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
@@ -247,7 +247,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 		<div class="col-md-4">
 			<div class="featureblock" id="featureblock-branding">
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/theming-nw.png">
-				<p class="section--paragraph__tittle"><?php echo $l->t('Branding');?></p>
+				<h3 class="section--paragraph__title"><?php echo $l->t('Branding');?></h3>
 				<p class="section--paragraph"><?php echo $l->t('Nextcloud provides branding services, delivering sync clients (mobile and desktop) which use your corporate identity and are pre-configured to help your users get up and running in no time. Branding is optionally available with the Standard or Premium subscription.');?></p>
 				<p class="section--paragraph price-big"><?php echo $l->t('starting at € 6000 yearly');?></p>
 				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
@@ -258,7 +258,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 		<div class="col-md-offset-2 col-md-4">
 			<div class="featureblock">
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/spreed-screenshare2-nw.png">
-				<p class="section--paragraph__tittle"><?php echo $l->t('Installation and configuration support');?></p>
+				<h3 class="section--paragraph__title"><?php echo $l->t('Installation and configuration support');?></h3>
 				<p class="section--paragraph"><?php echo $l->t('Besides our <a class="hyperlink" href="https://docs.nextcloud.com">documentation</a>, <a class="hyperlink" href="https://portal.nextcloud.com">support portal</a> and basic support we optionally offer a one day remote installation support package.');?></p>
 				<p class="section--paragraph"><?php echo $l->t('Custom, multi-day or on-site installation or scalability consulting options are available as well.');?></p>
 				<p class="section--paragraph price-big"><?php echo $l->t('starting at € 990 one-time');?></p>
@@ -268,7 +268,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 		<div class="col-md-4">
 			<div class="featureblock">
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/globalscale/final.svg">
-				<p class="section--paragraph__tittle"><?php echo $l->t('Global Scale setup');?></p>
+				<h3 class="section--paragraph__title"><?php echo $l->t('Global Scale setup');?></h3>
 				<p class="section--paragraph"> <?php echo $l->t('Customers in need of a globally distributed setup with strong data locality requirements or scalability in the tens-of-millions have access to our Global Scale architecture.');?></p>
 				<p class="section--paragraph"><?php echo $l->t('We help set up and integrate the Global Scale components in your infrastructure.');?> <a class="hyperlink" href="<?php echo home_url('globalscale') ?>"><?php echo $l->t('Learn more about Global Scale.');?></a></p>
 				<p class="section--paragraph price-big"><?php echo $l->t('Custom pricing ');?></a></p>
@@ -294,7 +294,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
     <div class="row">
         <div class="col-md-5 col-md-offset-1 ">
 			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png" /></a>
-			<div class="row text-center"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Talk');?></p>
+			<div class="row text-center"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Talk');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('secure online meetings, chat and web conferencing');?></p></div>
 			<div class="text-center morebuttondiv">
                 <a href="<?php echo home_url('talk') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a>
@@ -302,7 +302,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 		</div>
 		<div class="col-md-5 ">
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png" class="img-responsive" />
-			<div class="row text-center"><p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Groupware');?></p>
+			<div class="row text-center"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Groupware');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Team planning and email made easy');?></p></div>
 			<div class="text-center morebuttondiv">
                 <a href="<?php echo home_url('groupware') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a>
@@ -318,13 +318,13 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 		<h1 class="header "><?php echo $l->t('Discounts');?></h1>
 		<div class="col-md-5 box ">
             <?php echo file_get_contents(get_template_directory_uri().'/assets/img/enterprise/publicsector.svg'); ?>
-            <p class="section--paragraph__tittle text-center"><?php echo $l->t('Public Sector');?></p>
+            <h3 class="section--paragraph__title text-center"><?php echo $l->t('Public Sector');?></h3>
             <p class="section--paragraph text-center"><?php echo $l->t('We provide interesting discount options to organizations in the public sector.');?></p>
             <p class="section--paragraph text-center"><a class="hyperlink"  href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('Contact us');?></a></p>
         </div>
         <div class="col-md-5 col-md-offset-2 box ">
             <?php echo file_get_contents(get_template_directory_uri().'/assets/img/enterprise/education.svg'); ?>
-            <p class="section--paragraph__tittle text-center"><?php echo $l->t('Education');?></p>
+            <h3 class="section--paragraph__title text-center"><?php echo $l->t('Education');?></h3>
             <p class="section--paragraph text-center"><?php echo $l->t('Organizations in the educational sector receive a significant discount on all subscriptions');?></p>
             <p class="section--paragraph text-center"><a class="hyperlink" href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('Contact us');?></a></p>
 		</div>

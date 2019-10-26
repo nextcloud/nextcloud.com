@@ -11,7 +11,7 @@
 </div>
 <section class="section--documentation">
 <div class="container">
-	<h2 class="section--heading-1"><?php echo $l->t('Documentation');?></h2>
+	<h1 class="section--heading-1"><?php echo $l->t('Documentation');?></h1>
 	<p><?php echo $l->t('The Nextcloud documentation for home users:');?></p>
 	<ul>
 		<li><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Admin manual');?></a></li>

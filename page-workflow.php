@@ -21,9 +21,9 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Users need to exchange data');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Users need to exchange data');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('The traditional shared data directory in companies has been informally augmented with attachments sent around by email as well as illicit usage of public cloud solutions like Dropbox. This brings significant legal, practical and financial risks.');?></p>
-			<p class="section--paragraph__tittle"><?php echo $l->t('IT needs to stay in control');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('IT needs to stay in control');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('A private cloud with File Access Control brings data back under IT policy.');?></p>
 		</div>
 	</div>
@@ -36,7 +36,7 @@
 			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/File_Access_Control_-_block_all_except_PDF.png" />
 		</div>
 		<div class="col-md-6">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Access on your terms');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Access on your terms');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Through File Access Control and automatic file tagging, Nextcloud gives administrators control over data access by enabling them to define strict rules requests need to adhere to. If users in certain groups or geographic regions should not be given access to certain file types or if data with a specific tag should not be shared outside the company, administrators can make sure their Nextcloud instance enforces these rules.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Combined with');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>"><?php echo $l->t('our Secure Sharing Outlook addin</a> (and by disabling direct email attachments), File Access Control can play a crucial role in enforcing company policy on data sharing.');?></p>
 		</div>
@@ -73,7 +73,7 @@
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-tagging-retention-nw.png" class="img-responsive featureimg" />
 		</div>
 		<div class="col-md-6">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Define automated Workflows and retention');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Define automated Workflows and retention');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('The Workflow engine expands the capabilities of auto tagging and File Access Control, enabling administrators to start any kind of actions based on triggers. Examples would be converting document file types to PDF upon upload by members of a specified group or emailing files put in a specified folder with a given tag to a given mail address.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('File retention and deletion can also be controlled based on tags set manually or automatically, ensuring legal or practical requirements for the longevity of data lifespans can be enforced.');?></p>
 		</div>
@@ -117,7 +117,7 @@
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/FileAccessControl-at-home.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control-nw.png" class="img-responsive featureimg" /></a>
 		</div>
 		<div class="col-md-6">
-			<p class="section--paragraph__tittle"><?php echo $l->t('File access control at home');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('File access control at home');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Home users will find that the File Access Control app and other workflow tools can be used to prevent accidental sharing of sensitive data, adding an additional layer of protection to Nextcloud.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The example on the right ensures that files with the "protected" tag are not accessible outside the home network nor synced by the clients.');?> <a class="hyperlink" href="https://nextcloud.com/blog/file-access-control-a-firewall-for-your-private-files-in-nextcloud/" target="_blank"><?php echo $l->t('Learn more in our blog');?></a>.</p>
 		</div>

@@ -40,7 +40,7 @@ require(["require.config"], function() {
 <div class="container">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Can not find what you need?');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Can not find what you need?');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Every organization is unique, with different needs and challenges. We are more than happy to help you find the perfect solution for you.');?></p>
             <a href="<?php echo home_url('buy') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Contact us now');?></a>
 		</div>

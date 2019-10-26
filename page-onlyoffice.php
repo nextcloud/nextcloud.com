@@ -45,17 +45,17 @@
 	<div class="row">
 		<div class="col-md-4">
 			<div class="text-center"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-spreadsheet.png"  /></div>
-			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Powerful spreadsheet editor');?></p>
+			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Powerful spreadsheet editor');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Organize and manage your data online in XLSX, ODS and CSV files with over 400 formulas and create colorful visualisations.');?></p>
         </div>
 		<div class="col-md-4">
 			<div class="text-center"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-presentation.png" /></div>
-			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Beautiful presentation builder');?></p>
+			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Beautiful presentation builder');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Express ideas in beautiful presentations stored  in PPTX and ODP or exported to PDF full of charts, shapes and images.');?></p>
 		</div>
 		<div class="col-md-4">
 			<div class="text-center"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-document.png" /></div>
-			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Complete document writer');?></p>
+			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Complete document writer');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Open, edit and collaborate on Word, ODT, PDF or HTML documents in real time with powerful formatting and layout capabilities.');?></p>
 		</div>
     </div>
@@ -71,7 +71,7 @@
 					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/html5.png" alt="in action" />
 				</div>
 				<div class="col-md-6 featureblock">
-					<h2 class="section--paragraph__tittle"><?php echo $l->t('Up-to-date technology');?></h2>
+					<h2 class="section--paragraph__title"><?php echo $l->t('Up-to-date technology');?></h2>
 					<p class="section--paragraph"><?php echo $l->t('ONLYOFFICE is built on the HTML5 Canvas, providing:');?></p>
 					<ul>
 					<li><?php echo $l->t('A modern and familiar user interface');?></li>
@@ -90,7 +90,7 @@
 					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/onlyoffice-integration.png" alt="in action" /></a>
 				</div>
 				<div class="col-md-6 featureblock">
-					<h2 class="section--paragraph__tittle"><?php echo $l->t('Integrated and on-premises');?></h2>
+					<h2 class="section--paragraph__title"><?php echo $l->t('Integrated and on-premises');?></h2>
 					<p class="section--paragraph"><?php echo $l->t('Instead of handing over data to a third party, ONLYOFFICE runs in your own data center, guaranteeing 100% confidentiality of the documents.');?></p>
 					<p class="section--paragraph"><?php echo $l->t('Integration in Nextcloud makes it easy to work on documents alone, with other Nextcloud users or with others whom participate through a publicly shared link.');?></p>
 				</div>
@@ -110,7 +110,7 @@
         </div>
 		<div class="row">
             <div class="col-sm-6">
-                <p class="section--paragraph__tittle"><?php echo $l->t('A complete solution');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('A complete solution');?></h3>
                 <p class="section--paragraph">
                 <ul>
                     <li><?php echo $l->t('Full desktop-level set of formatting and file handling capabilities');?></li>
@@ -118,7 +118,7 @@
                 </ul></p>
             </div>
             <div class="col-sm-6">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Under your control');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Under your control');?></h3>
                 <p class="section--paragraph">
                 <ul>
                     <li><?php echo $l->t('Deployed on your own servers, giving you full control over your data');?></li>
@@ -145,7 +145,7 @@
 			<div class="row">
 <!-- 				</div> -->
 				<div class="col-md-4">
-				<h2 class="section--paragraph__tittle"><?php echo $l->t('Advanced tools');?></h2>
+				<h2 class="section--paragraph__title"><?php echo $l->t('Advanced tools');?></h2>
 					<ul>
 					<li><?php echo $l->t('Edit inline charts;');?></li>
 					<li><?php echo $l->t('Group objects;');?></li>
@@ -154,7 +154,7 @@
 					<li><?php echo $l->t('Translation & Macros;');?></li>
                 </div>
                 <div class="col-md-4">
-                    <h2 class="section--paragraph__tittle"><?php echo $l->t('Great design');?></h2>
+                    <h2 class="section--paragraph__title"><?php echo $l->t('Great design');?></h2>
 					<li><?php echo $l->t('Work with auto-shapes;');?></li>
 					<li><?php echo $l->t('Add Text Art objects;');?></li>
 					<li><?php echo $l->t('Apply colour schemes;');?></li>
@@ -163,7 +163,7 @@
 					</ul>
 				</div>
 				<div class="col-md-4 featureblock">
-					<h2 class="section--paragraph__tittle"><?php echo $l->t('Perfect collaboration');?></h2>
+					<h2 class="section--paragraph__title"><?php echo $l->t('Perfect collaboration');?></h2>
 					<ul>
 					<li><?php echo $l->t('Public read only/read write links;');?></li>
                     <li><?php echo $l->t('Track changes, accept/reject changes;');?></li>
@@ -181,7 +181,7 @@
 					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/onlyoffice-integration-details.png" alt="in action" />
 				</div>
 				<div class="col-md-4 col-md-offset-2 featureblock">
-					<h2 class="section--paragraph__tittle"><?php echo $l->t('Seamless integration');?></h2>
+					<h2 class="section--paragraph__title"><?php echo $l->t('Seamless integration');?></h2>
 					<ul>
                         <li><?php echo $l->t('File creation, editing, saving;');?></li>
                         <li><?php echo $l->t('Conversion to OOXML formats;');?></li>

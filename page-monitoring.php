@@ -36,7 +36,7 @@
 			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/activity.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/activity-nw.png" alt="activity overview" /></a>
 		</div>
 		<div class="col-md-6">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Track file activity');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Track file activity');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('The Nextcloud Activity app gives users a clear view on what is happening with their files.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('It provides users with an overview of recent changes like:');?>
 			<ul>
@@ -55,7 +55,7 @@
 			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/activity-config.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/activity-config-nw.png" alt="activity settings" /></a>
 		</div>
 		<div class="col-md-6">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Configurable');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Configurable');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('The Activity app allows users to enable or disable showing any of the events in their stream and to receive mail notifications only for the type of events they require.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Users can see what happened in the browser, choose to receive email notifications or follow changes through an RSS feed.');?></p>
 		</div>
@@ -76,7 +76,7 @@
 <div class="container-fluid banner quote">
     <div class="container">
     <div class="col-md-6">
-        <p class="section--heading-1 section--text--center"><?php echo $l->t('Extend your cloud');?></p>
+        <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Extend your cloud');?></h1>
         <p class="section--paragraph"><?php echo $l->t('You can extend the functionality of your Nextcloud with extra features from the Nextcloud app store. Among the more than 100 apps you can find features that help you monitor and keep tabs on your data like:');?></p>
         <p class="section--paragraph">
         <ul>
@@ -104,7 +104,7 @@
 			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/monitoring-full.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-nw.png" alt="in action" /></a>
 		</div>
 		<div class="col-md-6">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Server Information');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Server Information');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud scales to millions of users and at that scale it is important to keep an eye on the health of a system. The Server Information app provides a way for admins to monitor the state and performance of a Nextcloud server installation. Besides the graphical UI, an API endpoint provided makes it possible for system administrators to import this data in their monitoring app so they can keep an eye on Nextcloud operations from the same place they monitor the rest of their infrastructure.');?></p>
 		</div>
 	</div>
@@ -113,7 +113,7 @@
 			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/grafana-dashboard.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/monitoring-app-nw.png" class="img-responsive featureimg" /></a>
         </div>
 		<div class="col-md-6">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Integration in tools');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Integration in tools');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Monitoring and systems intelligence tools <a class="hyperlink" href="http://opennms.org/" target="_blank">openNMS</a> and <a class="hyperlink"  ref="https://splunkbase.splunk.com/apps/#/search/nextcloud/">Splunk</a> already have support for monitoring Nextcloud systems and');?> <a class="hyperlink"  href="https://github.com/opennms-config-modules/nextcloud" target="_blank"><?php echo $l->t('the openNMS configuration module');?></a> <?php echo $l->t('can be easily modified for other tools like Nagios.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Admins can also opt for logging to the systemd log, allowing them to manage all logs of the system in one place. When enabled, the audit log is in a separate file.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Read blogs by OpenNMS and Splunk about their Nextcloud integration:');?></p>

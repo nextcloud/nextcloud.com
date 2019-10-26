@@ -51,7 +51,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <p class="section--paragraph__tittle text-center">Get started today!</p>
+            <h3 class="section--paragraph__title text-center">Get started today!</h3>
             <p class="section--paragraph text-center">Enhance employee productivity and increase cost efficiency with the market-leading on-premises content collaboration platform.</p>
             <p class="section--paragraph text-center"><a href="<?php echo home_url('enterprise/buy') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Contact us');?></a></p>
         </div>
@@ -84,9 +84,9 @@
         <div class="col-md-8">
             <h2>A real solution</h2>
             <p class="section--paragraph">By providing businesses a <a class="hyperlink" href="https://nextcloud.com/blog/the-issue-with-public-cloud/">self hosted</a> file access, sync and share solution with powerful integration in existing infrastructure and storage solutions, Nextcloud makes data available to users wherever it is. No need for new storage solutions or moving all data over. Easy integration and quick deployment brings organizations immediately in a compliant, secure state.</p>
-            <p class="section--paragraph__tittle">Secure with a low barrier to entry</p>
+            <h3 class="section--paragraph__title">Secure with a low barrier to entry</h3>
             <p class="section--paragraph">Its familiar, easy to use interface on web, mobile and desktop allows users to work efficiently and be confident everybody has access to the same, latest version of data. Its enterprise capabilities ensure IT maintains <a class="hyperlink" href="<?php echo home_url('workflow') ?>">full control</a> over sharing, retention and availability of data within and across the boundaries of the organization.</p>
-            <p class="section--paragraph__tittle">Decentralized and hybrid</p>
+            <h3 class="section--paragraph__title">Decentralized and hybrid</h3>
             <p class="section--paragraph">Last but not least, Nextcloud is a perfect fit for a <strong>Hybrid Cloud strategy,</strong> enabling universal access to data irrespective of where it is stored: on an internal network, in the cloud or even at a partner. Through <a class="hyperlink" href="<?php echo home_url('globalscale') ?>">Global Scale,</a> it is possible to host multiple separate Nextcloud servers to ensure data locality rules are while inter-server sharing and encryption of unsafe storage ensure data is both safe and seamlessly accessible at all times.</p>
 		</div>
     </div>
@@ -100,26 +100,26 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
-                <p class="section--paragraph__tittle text-center">Why self-hosting?</p>
+                <h3 class="section--paragraph__title text-center">Why self-hosting?</h3>
                 <p class="section--paragraph text-center">Simply keeping your data behind your company firewall rather than in the cloud makes compliance and security easy.</p>
                 <p class="section--paragraph text-center">With Nextcloud, you don't lose the benefits of modern cloud collaboration and team productivity!</p>
             </div>
             <div class="col-md-4">
                 <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
-                <p class="section--paragraph__tittle text-center">Why file sync and share?</p>
+                <h3 class="section--paragraph__title text-center">Why file sync and share?</h3>
                 <p class="section--paragraph text-center">Your FTP or Windows Network Drive simply don't suffice - employees work around, rather than with them, using Dropbox and other unsafe solutions.</p>
                 <p class="section--paragraph text-center">Nextcloud puts your IT back in control over your data.</p>
             </div>
             <div class="col-md-4">
                 <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/tools.svg" /></div>
-                <p class="section--paragraph__tittle text-center">Why Nextcloud?</p>
+                <h3 class="section--paragraph__title text-center">Why Nextcloud?</h3>
                 <p class="section--paragraph text-center">Nextcloud provides an unique combination of security and control over data without compromising usability.</p>
                 <p class="section--paragraph text-center">Being open source means no vendor lock in and an unprecedented degree of integration in enterprise infrastructure.</p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                <p class="section--paragraph__tittle text-center">Fast deployment: secure your data <strong>now</strong></p>
+                <h3 class="section--paragraph__title text-center">Fast deployment: secure your data <strong>now</strong></h3>
                 <p class="section--paragraph text-center">Nextcloud is famously easy to deploy and easy to use, a key reason behind its market leadership.</p>
             </div>
         </div>
@@ -192,7 +192,7 @@
             <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ransomware-recovery.png" alt="in action"/></a>
         </div>
         <div class="col-md-6 feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Best Ransomware protection in the industry');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Best Ransomware protection in the industry');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Ransomware attacks are becoming more targetted as lots of money can be extracted from businesses and government organizations. While insurance can cover direct costs, the disruption to business is immense regardless. Nextcloud goes far beyond competing solutions, offering automated, one-click ransomware recovery tools.');?></p>
             <a href="https://nextcloud.com/blog/amidst-rising-ransomware-costs-another-us-city-pays-hundreds-of-thousands-to-recover-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Ransomware risks and protection');?></a>
         </div>

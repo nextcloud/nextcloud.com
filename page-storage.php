@@ -30,7 +30,7 @@
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/mobileDesktop.png" class="img-responsive featureimg" />
 		</div>
 		<div class="col-md-6">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Unlock your data');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Unlock your data');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Avoid costly and disruptive migrations and retain your existing, compliant workflows and processes while enabling your employees to collaborate and work efficiently. Nextcloud unlocks corporate data silos, bringing together data from your existing storage systems in one seamless user interface.');?></p>
 			 <p class="section--paragraph"><?php echo $l->t('Your IT stays in control of the data thanks to powerful');?> <a class="hyperlink" href="<?php echo home_url('workflow') ?>"><?php echo $l->t('File Access Control</a> and');?> <a class="hyperlink" href="<?php echo home_url('monitoring') ?>"><?php echo $l->t('logging</a> capabilities.');?></p>
 		</div>
@@ -73,7 +73,7 @@
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png" /></a>
 		</div>
 		<div class="col-md-6">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Public, Private and Hybrid unified');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Public, Private and Hybrid unified');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Access existing storage silos like FTP, Windows Network Drives, SharePoint and Samba shares seamlessly through Nextcloud. Protect and optimize data usage in line with compliance and company policy by controlling sharing and performance for each external storage system.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Use Nextcloud to fine tune the balance between cost, availability, performance and security. Deploy multiple data storage systems in the public cloud or hosted with a trusted provider or on-premise.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('For large-scale storage solutions, performance optimization, additional tools and advice, see the ');?><a class="hyperlink" href="https://portal.nextcloud.com"><?php echo $l->t('Nextcloud customer portal.');?></a></p>
@@ -118,7 +118,7 @@
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw2.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw2-wee.png" class="img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Any storage technology you need');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Any storage technology you need');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Some of the storage technologies supported in Nextcloud include NFS and local storage as well as scalable, multi-bucket capable object storage like S3 and SWIFT compatible and CIFS/Windows Shares. Nextcloud can also seamlessly access files on (s)FTP, SharePoint systems and more.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Advanced capabilities and additional tools to enhance performance on large instances or using SAML and Kerberos tickets to authenticate to a SMB share are available and documented on the ');?><a class="hyperlink" href="https://portal.nextcloud.com"><?php echo $l->t('Nextcloud customer portal.');?></a></p>
 		</div>
@@ -146,7 +146,7 @@
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-nw-wee.png" class="img-responsive featureimg" /></a>
 		</div>
 		<div class="col-md-6">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Data securely encrypted');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Data securely encrypted');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Server side encryption can optionally be enabled on select external or primary storage to securely encrypt the data residing on them. Nextcloud supports external key management, a master recovery password and changing passwords by users. ');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Learn more about Nextcloud server side encryption ');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_files/encryption_configuration.html" target="_blank"><?php echo $l->t('in the documentation</a> and learn more about');?> <a class="hyperlink" href="<?php echo home_url('secure') ?>"><?php echo $l->t('security in Nextcloud</a>');?></p>
 		</div>
@@ -158,7 +158,7 @@
 <div class="container-fluid banner quote">
     <div class="container">
     <div class="col-md-6">
-        <p class="section--heading-1 section--text--center"><?php echo $l->t('Extend your cloud');?></p>
+        <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Extend your cloud');?></h1>
         <p class="section--paragraph"><?php echo $l->t('You can extend the functionality of your Nextcloud with extra features from the Nextcloud app store. Among the more than 200 apps you can find a variety of storage solutions including Sia storage support, an innovative decentralized, blockchain based file storage technology.');?></p>
         <div class="text-center morebuttondiv">
 			<a href="https://apps.nextcloud.com" class="button button--large button--arrow"><?php echo $l->t('Appstore');?> <i class="icon-arrow-circle-o-right icon"></i></a>

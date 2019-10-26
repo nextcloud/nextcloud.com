@@ -43,7 +43,7 @@
                 <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/whitepapers/gdpr-overview-thubmnail-banner.png" alt="whitepaper"/>
             </div>
             <div class="col-md-9 feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Clear documentation');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Clear documentation');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Compliance is a multi-step process and data can be in many locations. Our documentation helps administrators check if they have covered their bases and guides them through delivering on data access, modification and deletion requests.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('We offer both a high level overview as well as hands-on, concrete documentation for administrators:');?>
                 <ul>
@@ -54,7 +54,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <p class="section--paragraph__tittle"><?php echo $l->t('All bases covered');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('All bases covered');?></h3>
                 <ul>
                     <li class="check"><?php echo $l->t('How the GDPR data processing allowances apply to Nextcloud and when, where and how to ask for permission');?></li>
                     <li class="check"><?php echo $l->t('How to deal with public, in-house and B2B Nextcloud servers');?></li>
@@ -70,7 +70,7 @@
                     <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/gdpr-apps-nw.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/gdpr-apps-nw.png" alt=""/></a>
             </div>
             <div class="col-md-6 feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('GDPR Compliance Apps');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('GDPR Compliance Apps');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('To make compliance easier, Nextcloud offers a number of Compliance apps and capabilities.');?></p>
                 <p class="section--paragraph"><ul>
                     <li class="check"><?php echo $l->t('Configurable imprint and privacy links for your login page');?></li>
@@ -93,7 +93,7 @@
 
 <section class="section--customerdetail">
 	<div class="container">
-	<h2 class="section--heading-1 text-center"><?php echo $l->t('What our users say');?></h2>
+	<h1 class="section--heading-1 text-center"><?php echo $l->t('What our users say');?></h1>
          <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <a><img style="margin-bottom: 50px;" class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/gdpr-thanks.png" alt="Thank You from a customer"/></a>
@@ -110,13 +110,13 @@
 
 <section class="section--overview">
 <div class="container">
-    <!--<h2 class="section--heading-1 text-center"><?php echo $l->t('EU Cybersecurity Act');?></h2>-->
+    <!--<h1 class="section--heading-1 text-center"><?php echo $l->t('EU Cybersecurity Act');?></h1>-->
 	<div class="row feature-row">
 		<div class="col-md-4">
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/CSPcert.png" alt="in action"/></a>
         </div>
 		<div class="col-md-8 feature--block">
-			<p class="section--paragraph__tittle"><?php echo $l->t('EU Cybersecurity Act');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('EU Cybersecurity Act');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Explicitly designed to build on existing certifications like ISO 27001a or BSI C5, under the guidance of CSPCert a recommendation has been presented to the ENISA to define a European Cybersecurity Certification Scheme for Cloud Service Providers. The upcoming <a class="hyperlink" href="https://ec.europa.eu/commission/news/cybersecurity-act-2018-dec-11_en">Cybersecurity Act</a> defines three levels of assurance (Basic, Substantial and High) and provides a comprehensive set of rules, technical requirements, standards and procedures for assesment and certification.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud follows the strictest security protocols in the industry and anticipates to be ready for easy and quick certification of customer deployments once the Cybersecurity Act goes into effect.');?></p>
 		</div>
@@ -126,7 +126,7 @@
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/.png" alt="in action"/></a>
         </div>
 		<div class="col-md-8 feature--block">
-			<p class="section--paragraph__tittle"><?php echo $l->t('CFR - Code of Federal Regulations Title 21');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('CFR - Code of Federal Regulations Title 21');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud is ready for use in a FDA Title 21 CFR Part 11 compliant environment, if set up and run properly on appropriate infrastructure. Nextcloud features the required retention, versioning and auditing features and can integrate with signature application and validation solutions.');?></p>
             <p class="section--paragraph"><?php echo $l->t('As we do not operate Nextcloud for our customers nor control how they use it, as a on-premises hosted solution, Nextcloud itself can not be certified. However under a Nextcloud Subscription we can help review, validate and certify your compliance.');?></p>
 		</div>
@@ -144,7 +144,7 @@
                     <i class="fa-lock fa"></i>
                 </div>
                 <div class="col-md-10 featureblock">
-                    <p class="section--paragraph__tittle"><?php echo $l->t('Security and Encryption');?></p>
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Security and Encryption');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('The GDPR requires organizations to ensure adequate protection for private data, from encryption to clear and well implemented security practices.');?></p>
                 </div>
             </div>
@@ -153,7 +153,7 @@
                     <i class="fa-tablet fa"></i>
                 </div>
                 <div class="col-md-10 featureblock">
-                    <p class="section--paragraph__tittle"><?php echo $l->t('Availability and access');?></p>
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Availability and access');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Private users have a right to demand a full overview of what data is collected, including an export of what an organization has on them.');?></p>
                 </div>
             </div>
@@ -162,7 +162,7 @@
                     <i class="fa-money fa"></i>
                 </div>
                 <div class="col-md-10 featureblock">
-                    <p class="section--paragraph__tittle"><?php echo $l->t('Transparency and auditability');?></p>
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Transparency and auditability');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Upon request, an organization has to be able to show what they do with user data, who has (had) access and they must be able to modify or delete any data they have on private individuals.');?></p>
                 </div>
             </div>
@@ -176,17 +176,17 @@
 
 <section class="section--overview">
 <div class="container">
-    <h2 class="section--heading-1 text-center"><?php echo $l->t('How Nextcloud delivers');?></h2>
+    <h1 class="section--heading-1 text-center"><?php echo $l->t('How Nextcloud delivers');?></h1>
 	<div class="row">
 		<div class="col-md-6">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/permissions.svg" /></div>
-			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Ultimate security');?></p>
+			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Ultimate security');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Choosing a self-hosted product means you can guarantee your customers that data never leaves your company and remains 100% confidential.');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Powerful server and client side encryption options provide ultimate protection for sensitive documents.');?></p>
 		</div>
 		<div class="col-md-6">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/monitoring.svg" /></div>
-			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Complete control');?></p>
+			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Complete control');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Nextcloud combines advanced data access controls with powerful monitoring and logging capabilities to ensure compliance and auditability.');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Our Compliance Kit gives administrators the tools they need to export, update and delete user data.');?></p>
 		</div>
@@ -196,16 +196,16 @@
 
 <section class="section--on-premise">
 <div class="container">
-	<h2 class="section--heading-1 text-center"><?php echo $l->t('Why self hosting?');?></h2>
+	<h1 class="section--heading-1 text-center"><?php echo $l->t('Why self hosting?');?></h1>
 	<div class="row">
 		<div class="col-md-6 feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('You need 100% certainty');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('You need 100% certainty');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Email or public cloud solutions do not provide much security for sensitive data. Encryption is complicated and cumbersome to use, reducing the real benefits due to employees working around them or making mistakes.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Keeping data on your own infrastructure means you stay in control. Only then can you show your customers exactly where their sensitive documents are. Regulators can be certain that non-compliance with proper process is minimized.');?></p>
 
         </div>
         <div class="col-md-6 feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Public clouds are not a safe solution');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Public clouds are not a safe solution');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Most consumer-grade solutions like Dropbox or Office 365 were not designed with privacy regulations and security concerns in mind, mixing data from consumers and businesses, spread out in data centers across the globe.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Rather than trying to work around their limitations, Nextcloud Files provides a security-first solution which puts you in complete control over the location and access policies of data with a private cloud solution.');?></p>
         </div>
@@ -223,7 +223,7 @@
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/assicuro.png" alt="in action"/></a>
             </div>
             <div class="col-md-6 feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Assicuro Private Insurance');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Assicuro Private Insurance');?></h3>
                 <p class="section--paragraph"><blockquote><?php echo $l->t('Assicuro chose Nextcloud to ensure confidential data exchange with its over 3000 customers and partners, enabling customers to securily share confidential information e.g. insurance policies. Compared to other evaluated solutions, Nextcloud offered an easier user interface, and a professional and more secure, extensible platform.');?></blockquote></p>
             </div>
         </div>
@@ -286,7 +286,7 @@
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/file-access-control-nw.png" alt="in action"/></a>
         </div>
         <div class="col-md-6 feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('File Access Control');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('File Access Control');?></h3>
             <p class="section--paragraph"><?php echo $l->t('The File Access Control feature of Nextcloud enables IT to codify legal and policy requirements, blocking unauthorized users uploading or downloading data following defined rules. Criteria include IP address ranges, group membership, file type and size, time and more. Data retention can be controlled as well, enabling administrators to limit the lifetime of certain files.');?></p>
             <a href="/workflow" class="button button--blue button--arrow button--large"><?php echo $l->t('File Access Control');?></a>
         </div>
@@ -296,7 +296,7 @@
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-nw.png" alt="in action"/></a>
         </div>
         <div class="col-md-6 feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Monitoring and auditing logs');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Monitoring and auditing logs');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud offers built-in powerful monitoring capabilities, enabling organizations to ensure smooth performance. Systems can be monitored using the web interface or through monitoring and systems intelligence tools like OpenNMS, Splunk, Nagios or others. A full auditing system logs all user actions, enabling fully compliant usage of file sync and share.');?></p>
             <a href="<?php echo home_url('monitoring') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring and auditing');?></a>
         </div>
@@ -306,7 +306,7 @@
             <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/endtoend-server-nw.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/endtoend-server-nw.png" alt="in action" /></a>
         </div>
         <div class="col-md-6">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Encryption');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Encryption');?></h3>
             <p class="section--paragraph">
                 <?php echo $l->t('Nextcloud uses industry-standard SSL/TLS encryption for data in transfer. Data at rest in storage can be encrypted using a default military grade AES-256 encryption with server-based or custom key management. Optionally and on a per-folder base data can be <a class="hyperlink" href="/endtoend">end-to-end encrypted</a> on the client with the server assisting in sharing and key management using a Zero-Knowledge model.');?>
             </p>
@@ -335,14 +335,14 @@
 
 <section class="section--features">
     <div class="container">
-        <h2 class="section--heading-1 text-center"><?php echo $l->t('The best of both');?></h2>
+        <h1 class="section--heading-1 text-center"><?php echo $l->t('The best of both');?></h1>
         <p class="section--intro text-center"><?php echo $l->t('Compliance and security without losing productivity');?></p>
         <div class="row feature-row">
             <div class="col-md-6">
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/web-ui-nw.png" alt="in action"/></a>
             </div>
             <div class="col-md-6 feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Easy access');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Easy access');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('A first requirement for any secure solution to share data is that it does not force complexity on the user. Complexity leads to mistakes and mistakes are costly in many ways!');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud makes accessing and sharing data a breeze, providing users a comfortable, familiar workspace.');?></p>
             </div>
@@ -352,7 +352,7 @@
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/mobileDesktop.png" alt="in action"/></a>
             </div>
             <div class="col-md-6 feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Multi-platform productivity');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Multi-platform productivity');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Data needs to be available where your employees are. Tablets, mobile devices, laptops and desktops all have access to the same files at a moments notice thanks to the first-class Nextcloud clients.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Users can tag and comment on files for easy collaboration, roll back files to earlier versions or find deleted files in the trash. Real time collaborative editing and secure audio/video calls and chat complement the array of features aimed at enhancing productivity.');?></p>
             </div>
@@ -362,7 +362,7 @@
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/securedrop-email-nw.png" alt="in action"/></a>
             </div>
             <div class="col-md-6 feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Secure file exchange');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Secure file exchange');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Sharing files across the borders of your organization can be done easily and securely with our file-drop feature.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('IT stays in control at all times, enforcing security policy with the File Access Control capabilities.');?></p>
                 <a href="<?php echo home_url('file-drop') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('File Drop');?></a>
@@ -374,7 +374,7 @@
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/jwhfeJlYBbM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Integrated in email');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Integrated in email');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('To quickly and securely get data to your customers or receive documents from them, use the Nextcloud Secure Sharing Outlook Add-in. This avoids insecure and big attachments and instead provides a secure, trust-worthy file exchange that does not direct your customers to a third party but runs on your server and your domain.');?></p>
                 <a href="<?php echo home_url('outlook') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Email integration');?></a>
             </div>

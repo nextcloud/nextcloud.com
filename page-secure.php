@@ -43,7 +43,7 @@
 <div class="container featureblock">
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
-            <h2 class="section--heading-1 section--text--center"><?php echo $l->t('Verified Enterprise Class Security');?></h2>
+            <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Verified Enterprise Class Security');?></h1>
             <p class="section--paragraph">
                 <?php echo $l->t('Our customers care deeply about security and so do we. Nextcloud aligns with industry
                 standards such as Clause 14 of ISO/IEC27001-2013 and related standards, guidance and security principles.
@@ -98,7 +98,7 @@
 <div class="container  featureblock">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h2 class="section--heading-1 section--text--center"><?php echo $l->t('Under your control');?></h2>
+            <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Under your control');?></h1>
             <p class="section--paragraph section--text--center"><?php echo $l->t('Control is key to security. With Nextcloud, your IT department takes back control over its data, managed under its policies and procedures. Nextcloud integrates in the tooling you use in your data center like logging and intrusion detection and works with existing authentication mechanisms like SAML, Kerberos and LDAP. Nextcloud features:');?></p>
         </div>
     </div>
@@ -199,7 +199,7 @@
 <div class="container featureblock">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h2 class="section--heading-1 section--text--center"><?php echo $l->t('Integration');?></h2>
+            <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Integration');?></h1>
             <p class="section--paragraph section--text--center"><?php echo $l->t('New technology should fit into existing processes and infrastructure. Nextcloud enables you to leverage existing security investments.');?>
         </div>
     </div>
@@ -250,7 +250,7 @@
 <div class="container featureblock">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h2 class="section--heading-1 section--text--center"><?php echo $l->t('Authentication');?> </h2>
+            <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Authentication');?> </h1>
             <p class="section--paragraph section--text--center"><?php echo $l->t('Nearly any authentication and provisioning mechanism works with Nextcloud, making it easy to fit with your existing user management.');?> </p>
         </div>
     </div>
@@ -334,7 +334,7 @@
 <div class="container featureblock">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h2 class="section--heading-1 section--text--center"><?php echo $l->t('Protected Sharing');?></h2>
+            <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Protected Sharing');?></h1>
             <p class="section--paragraph section--text--center"><?php echo $l->t('For Nextcloud customers, securely exchanging data is key. Nextcloud offers industry standard protection mechanisms and adds innovative and unique capabilities like Video Verification.');?></p>
         </div>
     </div>
@@ -346,7 +346,7 @@
             <div class="col-md-6">
                 <div class="feature">
 <!--                     <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/kerberos.svg"> -->
-                    <p class="section--paragraph__tittle"><?php echo $l->t('Securing shared links');?></p>
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Securing shared links');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud features industry-leading protection for file shares.');?></p>
                     <ul>
                         <li><?php echo $l->t('Share password');?></li>
@@ -371,7 +371,7 @@
             <div class="col-md-6">
                 <div class="feature">
 <!--                     <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/kerberos.svg"> -->
-                    <p class="section--paragraph__tittle"><?php echo $l->t('Video Verification');?></p>
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Video Verification');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('In situations where extreme security is warranted and the identity of a recipient has to be verified with absolute certainty before they are granted access, Nextcloud includes the industry-first implementation of Video Verification.');?></p>
                     <p class="section--paragraph"><?php echo $l->t('Video Verification enforces a Nextcloud Talk video call before access is given to a share, making sure the identity of the recipient is properly checked. The call can be picked up through the Nextcloud Talk Mobile apps as well as the web interface.');?></p>
                 </div>
@@ -387,7 +387,7 @@
             <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/oyWXMjb-6ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="col-md-6">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Remote Wipe');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Remote Wipe');?></h3>
             <p class="section--paragraph"><?php echo $l->t('While many companies have Mobile Device Management, thanks to build-in support, Remote Wipe will work on systems not under management of the company. This is useful for home users but also large universities and of course in a scenario where guest accounts were handed to a third party. If you permit downloading of documents by the third party, you can wipe the documents from their devices when the the collaboration has ended.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Remote wipe can be used on a per-device basis by users and on a per-user base by the administrator.');?></p>
         </div>
@@ -402,7 +402,7 @@
                 <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/vdr-link.jpg" alt="in action"/>
             </div>
             <div class="col-md-6  feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Virtual Data Room');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Virtual Data Room');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('In settings where a firewall is needed between departments or organizations without impeding smooth and efficient collaboration, a separate Virtual Data Room can be set up. Nextcloud offers a wide range of unique features for VDR use and its on-premises nature offers unparalleled confidentiality and control.');?></p>
                 <a href="<?php echo home_url('virtual-data-room') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Virtual Data Rooms');?></a>
             </div>
@@ -412,7 +412,7 @@
                 <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ransomware-recovery.png" alt="in action"/></a>
             </div>
             <div class="col-md-6  feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Best Ransomware protection in the industry');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Best Ransomware protection in the industry');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Ransomware attacks are becoming more targetted as lots of money can be extracted from businesses and government organizations. While insurance can cover direct costs, the disruption to business is immense regardless. Nextcloud goes far beyond competing solutions, offering automated, one-click ransomware recovery tools.');?></p>
                 <a href="https://nextcloud.com/blog/amidst-rising-ransomware-costs-another-us-city-pays-hundreds-of-thousands-to-recover-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Ransomware risks and protection');?></a>
             </div>
@@ -423,7 +423,7 @@
 <section class="section--scan quote">
 <div class="container-fluid banner">
     <div class="col-md-6">
-        <h2 class="section--heading-1 section--text--center"><?php echo $l->t('Private Cloud Security Scan');?></h2>
+        <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Private Cloud Security Scan');?></h1>
         <p class="section--paragraph section--text--center"><?php echo $l->t('To help our system administrators assess the security of their private cloud server, we have developed the Private Cloud Security Scan.');?></p>
         <a class="button button--large button--arrow" href="https://scan.nextcloud.com" target="_blank"><?php echo $l->t('Check now');?></a>
     </div>
@@ -542,7 +542,7 @@
 <div class="container featureblock">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h2 class="section--heading-1 section--text--center"><?php echo $l->t('Security bug bounties');?></h2>
+            <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Security bug bounties');?></h1>
             <p class="section--paragraph section--text--center"><?php echo $l->t('Nextcloud protects your security with an up to USD 10.000 Security Bug Bounty program');?></p>
         </div>
     </div>
@@ -550,7 +550,7 @@
         <div class="col-md-6">
             <div class="feature">
                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/virusscaning.svg">
-                <p class="section--paragraph__tittle"><?php echo $l->t('HackerOne program');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('HackerOne program');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('We have partnered with the HackerOne platform because of its extraordinary popularity among IT security professionals. More than 3,000 hackers have reported over 24,000 bugs via the platform. Running <a class="hyperlink" href="https://hackerone.com/nextcloud">a program on HackerOne</a> allows us to quickly leverage the collective knowledge of a huge amount of these security experts.');?></p>
 
                 <blockquote>Nextcloud's commitment to responsiveness and putting security first puts them in the best position to attract top hacker talent to continue to supplement the good work their internal security team is doing to protect customers.</blockquote>

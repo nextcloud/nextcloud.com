@@ -67,13 +67,13 @@
 
 <div class="container">
 	<div class="col-md-8 col-md-offset-2">
-	<h2 class="section--heading-1"><?php echo $l->t('Why migrate: ownCloud vs Nextcloud');?></h2>
+	<h1 class="section--heading-1"><?php echo $l->t('Why migrate: ownCloud vs Nextcloud');?></h1>
 	<p class="section--paragraph"><?php echo $l->t('Nextcloud offers significant <a class="hyperlink" href="https://nextcloud.com/blog/tu-berlin-halves-database-load-by-migrating-22k-users-to-nextcloud/">performance</a>, <a class="hyperlink" href="https://nextcloud.com/secure">security</a> and <a class="hyperlink" href="https://nextcloud.com/comparison">feature improvements</a> over ownCloud');?> <?php echo $l->t('and our experienced support team has already helped several dozen customers with <a class="hyperlink" href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/">sometimes tens of thousands of users</a> migrate successfully. Our customers appreciate expert help from a German, employee-owned company set up to provide a long term relationship between customers and business. Last but not least, Nextcloud has by far the strongest expertise in large scale deployments, as is evident in our work on <a class="hyperlink" href="https://nextcloud.com/globalscale">Global Scale.</a>');?></p>
 	<p class="section--paragraph"><?php echo $l->t('Nextcloud is fully licensed under the AGPL, giving you <a class="hyperlink" href="https://nextcloud.com/blog/why-the-agpl-is-great-for-business-users/">all the benefits of open source</a> and avoiding any risk of mixing a proprietary enterprise edition with open source components.');?></p>
 	<p class="section--paragraph"><?php echo $l->t('First rate support as well as <a  class="hyperlink" href="https://nextcloud.com/blog/nextcloud-the-most-active-open-source-file-sync-and-share-project/">healthy development</a> happening in public are key to our offering. Employing over a dozen former ownCloud engineers as well as many other experienced software developers, we are in the best position to support you in keeping your data secure and easily accessible to your employees.');?></p>
 	<p class="section--paragraph"><?php echo $l->t('We can help you');?> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('with a support subscription</a> but you can also look for');?> <a class="hyperlink" href="<?php echo home_url('partners') ?>"><?php echo $l->t('support from one of our partners</a> and of course get <a class="hyperlink" href="https://help.nextcloud.com">community support on our forums.</a>');?></p>
 
-	<h2 class="section--paragraph__tittle"><?php echo $l->t('The Nextcloud migration tool');?></h2>
+	<h2 class="section--paragraph__title"><?php echo $l->t('The Nextcloud migration tool');?></h2>
 	<p class="section--paragraph"><?php echo $l->t('The easiest way to migrate is using our migration tool. This tool supports ownCloud 8.2 to ownCloud 10, migrating to the appropriate Nextcloud release automatically.');?></p>
     <p class="section--paragraph"><?php echo $l->t('Note that ownCloud 10.0.10 can run on PHP 7.2 while Nextcloud 12 works, at most, with PHP 7.1, complicating migration. On Ubuntu you can switch the PHP version to 7.1 via <a href="https://launchpad.net/~ondrej/+archive/ubuntu/php">this PPA.</a>');?></p>
 	<p class="section--paragraph"><?php echo $l->t('Here\'s how to use the migrator.');?></p>
@@ -94,7 +94,7 @@
     <p class="section--paragraph"><?php echo $l->t('In this video we show ownCloud, switch to the terminal, execute the commands to download the migrator and switch back to the browser to run it.');?></p>
 
 	<p class="section--paragraph"><?php echo $l->t('You can do the last step manually from the command line, which is adviced on large installations where the time-out on PHP via the web interface can be a problem. You can update from ownCloud 10.0.10 and older to Nextcloud 12.0.12 after which you can use our update to move to a newer Nextcloud release. We continuously monitor new releases, test them and enable upgrading but note that ownCloud is backporting a lot of big features to \'stable\' releases, which threatens stability and might make upgrading harder in the future.');?></p>
-    <h2 class="section--paragraph__tittle"><?php echo $l->t('The manual process');?></h2>
+    <h2 class="section--paragraph__title"><?php echo $l->t('The manual process');?></h2>
 	<p class="section--paragraph"><?php echo $l->t('Moving from ownCloud to Nextcloud follows the same process as a upgrade within either product. You can essentially follow our');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/manual_upgrade.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">usual upgrade documentation.</a>');?></p>
 
 	<p class="section--paragraph"><?php echo $l->t('The steps are as follows:');?></p>
@@ -109,7 +109,7 @@
 	<p class="section--paragraph"><?php echo $l->t('Find more details in');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>maintenance/manual_upgrade.html" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation">our documentation.</a>');?></p>
 
 	<p class="section--paragraph"><?php echo $l->t('Note that, as ownCloud does not reliably support skipping releases, upgrades have to go through all releases between the existing ownCloud release and the desired Nextcloud release. We will support upgrades from ownCloud 8.2 and onwards. If you are on an older release and need help, please visit our <a class="hyperlink" href="https://help.nextcloud.com">community support forums</a> or');?> <a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('contact our Sales team for a custom quote.</a>');?></p>
-	<h2 class="section--paragraph__tittle"><?php echo $l->t('Upgrade path');?></h2>
+	<h2 class="section--paragraph__title"><?php echo $l->t('Upgrade path');?></h2>
 	<p class="section--paragraph"><?php echo $l->t('Depending on your current ownCloud release, you have to follow a different upgrade path. Nextcloud 9.0 is compatible with ownCloud 9.0; Nextcloud 10.0 is compatible with ownCloud 9.1. You can not skip releases like going from ownCloud 8.0 to Nextcloud 10, that would be skipping ownCloud 8.1, 8.2 and 9.0. You can upgrade from an ownCloud release to a compatible Nextcloud release or one newer. We generally recommend to move to the latest Nextcloud release that is compatible first before upgrading.');?></p>
 	<p class="section--paragraph"><?php echo $l->t('This is the compatiblity overview:');?></p>
 	<ul>
@@ -129,7 +129,7 @@
 	</ul>
 	<p class="section--paragraph"><?php echo $l->t('When upgrading, make sure to enable apps after every upgrade step so they can run their own upgrade scripts. We have fixed this issue in Nextcloud 12: apps will no longer be disabled when upgrading on systems running PHP 7. Note that we recommend to move to Nextcloud as soon as possible, to ensure a more reliable upgrade process.');?></p>
 	<p class="section--paragraph"><?php echo $l->t('If you are on a very old ownCloud release or want more details, read our advanced and detailed upgrade documentation in our blog on how to <a  class="hyperlink" href="https://nextcloud.com/blog/protect-your-privacy-time-to-upgrade-to-nextcloud-11./">protect your privacy by upgrading to Nextcloud 11 or higher.</a> Note that upgrading from a Windows Server is not supported beyond moving over the data.');?></p>
-	<h2 class="section--paragraph__tittle"><?php echo $l->t('Settings');?></h2>
+	<h2 class="section--paragraph__title"><?php echo $l->t('Settings');?></h2>
 	<p class="section--paragraph"><?php echo $l->t('Nearly all ownCloud settings will be migrated to Nextcloud during the upgrade procedure. That means that internal and public (link) shares keep working, users keep their settings and you will retain app configuration, LDAP and external storage settings and more.');?></p>
 	<p class="section--paragraph"><?php echo $l->t('Settings from proprietary extensions from ownCloud which have open source replacements in Nextcloud, however, will sometimes need to be reconfigured. The following apps have a Nextcloud equivalent but need re-configuration:');?></p>
 	<ul>
@@ -140,10 +140,10 @@
 		<li class="section--paragraph"><?php echo $l->t('SharePoint');?></li>
 	</ul>
 	<p class="section--paragraph"><?php echo $l->t('The open source replacements of these apps in Nextcloud offer at least the same and typically more capabilities. Configuration settings not mentioned in this list will be carried over from ownCloud to Nextcloud during upgrade.');?>
-	<h2 class="section--paragraph__tittle"><?php echo $l->t('License Compliance');?></h2>
+	<h2 class="section--paragraph__title"><?php echo $l->t('License Compliance');?></h2>
 	<p class="section--paragraph"><?php echo $l->t('Nextcloud is licensed exclusively under the AGPL or less restrictive open source licenses, removing any risk of mixing incompatible licenses or other legal issues. If you have not made any changes to the code of ownCloud Server and did not develop custom ownCloud applications, you will not need to do anything to be in compliance with the open source licenses of Nextcloud. Note that theme changes or branding are unaffected by AGPL licensing. Find more information in our FAQ. Our sales team will be happy to <a class="hyperlink" href="');?><?php echo home_url('contact') ?>"><?php echo $l->t('answer any questions you have.</a>');?></p>
 
-	<h2 class="section--paragraph__tittle"><?php echo $l->t('Take over of support contract');?></h2>
+	<h2 class="section--paragraph__title"><?php echo $l->t('Take over of support contract');?></h2>
 	<p class="section--paragraph"><?php echo $l->t('Nextcloud will honor any valid contract with ownCloud which has started before the 2nd of June 2016 for free if a new agreement is signed for a period of at least 12 months.');?></p>
 
 	<p class="section--paragraph"><?php echo $l->t('<small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small>');?></p>

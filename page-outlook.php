@@ -27,7 +27,7 @@
 <section class="section--file-sharing">
 	<div class="container">
 		<div class="row featurerow">
-			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Secure File Sharing by email');?></h1>
+			<h1 class="section--heading-1 section--text--center"><?php echo $l->t('Secure File Sharing by email');?></h1>
 			<div class="row featurerow">
 				<div class="col-md-1">
 				</div>
@@ -47,7 +47,7 @@
                 <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-nw.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-nw.png" alt="in action" /></a>
             </div>
             <div class="col-md-6 featureblock">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Secure data and lower costs');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Secure data and lower costs');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('The Secure Sharing Outlook Add-in takes away the IT headache caused by risky attachments.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Storing and sharing files securely through Nextcloud ensures company policies on data availability, retention and safety can be enforced. This enables system administrators for example to make sure attachments are run through the virus scanner, certain file types are protected from being shared outside the company or that retention policies are followed.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Another significant advantage for IT departments is the savings in storage space for email servers. The add-in negates the need for storing large amounts of attachments in multiple email boxes and decreases network traffic.');?></p>
@@ -96,7 +96,7 @@
         <h2 class="text-center"><?php echo $l->t('Feature highlight');?></h2>
     </div>
     <div class="row">
-        <p class="section--paragraph__tittle"><?php echo $l->t('Secure Mailbox');?></p>
+        <h3 class="section--paragraph__title"><?php echo $l->t('Secure Mailbox');?></h3>
         <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in includes a secure mailbox feature. This feature protects the contents (body) of email from interception by providing the recipient with a notification that a new email was received. The recipient then has to log in on their (guest) account to access the email and its attachments.');?></p>
         <p class="section--paragraph"><?php echo $l->t('The body of the email is shown with the file attachments. Each email is a folder, linked to in the email notification.');?></p>
         <p class="section--paragraph"><?php echo $l->t('In the screenshots below, the user sends the link and password to the recipient by email. The user can take out the password and send it through another channel. Alternatively, when a guest account is set up for the recipient, the Outlook add-in will detect this and instead share the message to the guest account and include an internal link in the email. The recipient will have to log into their guest account to access the email.');?></p>
@@ -137,7 +137,7 @@
                     <iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/PZs7-qGkupk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 featureblock">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Features');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Features');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in turns email attachments into Nextcloud links, manually or automatically. It can insert upload links where the recipient of the email can upload files to. Users can add passwords and expiration dates, the admin can enforce setting these if needed.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('New users can enjoy the user-friendly setup dialog to get going, and the Upload Files / Share Public Folder option is directly available in the ‘message’ tab.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Add-in can be configured to automatically upload all attachments the user added to an email starting from a configurable size, for example, all files over 200kb.');?></p>
@@ -148,7 +148,7 @@
                     <iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/S40EeolyUU4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 featureblock">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Other features:');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Other features:');?></h3>
                 <ul>
                     <li><?php echo $l->t('Activity tracker notifying about file uploads/downloads');?></li>
                     <li><?php echo $l->t('Policy enforcement options');?></li>
@@ -201,14 +201,14 @@
                 <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-publiclink-nw.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-publiclink-nw.png" alt="in action" /></a>
             </div>
             <div class="col-md-6 featureblock">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Free for home users');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Free for home users');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud strives to provide private cloud solution for everyone so we worked with our partner to provide a <a class="hyperlink" href="https://nextcloud.com/blog/secure-outlook-add-in-is-now-available-for-testing-in-free-as-in-beer-version/">free version of the Secure Outlook Add-in</a>. Note that the free version is only meant for home users and small organizations and lacks many of the features of the enterprise version.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The free Secure Outlook Add-in features the core capabilities: sharing from your Nextcloud instance instead of sending insecure large attachments, with an optional expiration date. Branding is limited and some other features for enterprise usage are not included.');?></p>
             </div>
         </div>
         <div class="row featurerow">
             <div class="col-md-8 col-md-offset-2">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Two versions of the Outlook Add-in: Free and Enterprise.');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Two versions of the Outlook Add-in: Free and Enterprise.');?></h3>
                 <table class="table">
                     <thead>
                         <tr>
@@ -285,13 +285,13 @@
 
 <section class="file-sharing">
 	<div class="container">
-<!-- 			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
+<!-- 			<h1 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
         <div class="row featurerow">
             <div class="col-md-6 image--feature image--floated">
                 <a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/moztb.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb.png" alt="in action" /></a>
             </div>
             <div class="col-md-6 featureblock">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Mozilla Thunderbird');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Mozilla Thunderbird');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Users of Mozilla Thunderbird will be delighted to hear that Nextcloud also provides a <a href="https://addons.mozilla.org/en-US/thunderbird/addon/nextcloud-filelink/">Thunderbird Filelink Addon!</a>');?></p>
                 <p class="section--paragraph"><?php echo $l->t('"Nextcloud for Filelink" is a Thunderbird extension which makes it easy to send large attachments with Thunderbird by automatically uploading them first to a Nextcloud server and by then inserting the link into the body of your email.');?></p>
             </div>
@@ -324,7 +324,7 @@
             </div>
 
             <div class="col-md-6 featureblock">
-                <p class="section--paragraph__tittle"><?php echo $l->t('What it does');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('What it does');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('The CalDAV and CardDAV plugin offers two-way sync for CalDAV calendars and tasks, CardDAV contacts and can also handle the Google native Contacts and Tasks API.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The plugin handles Outlook categories, mapping CalDAV server colors to Outlook category colors and syncing calendars and tasks to the categories. The plugin also handles timezones and recurring events with exceptions and can deal with Outlook custom properties.');?></p>
             </div>
@@ -335,7 +335,7 @@
                 <a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-about.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-about.png" alt="in action" /></a>
             </div>
             <div class="col-md-6 featureblock">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Features');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Features');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('The Outlook CalDav Synchronizer supports:</br>
                 SSL/TLS, also with self-signed certificates and proxy;</br>
                 Auto discovery of calendars and address books;</br>
@@ -355,13 +355,13 @@
 </section>
 <section class="file-sharing">
 	<div class="container">
-<!-- 			<h2 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
+<!-- 			<h1 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
         <div class="row featurerow">
             <div class="col-md-6 image--feature image--floated">
                 <img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb-2.png" alt="in action" />
             </div>
             <div class="col-md-6 featureblock">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Mozilla Thunderbird');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Mozilla Thunderbird');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Thanks to the Mozilla Thunderbird Lightning Calendar add-in and the Cardbook Thunderbird Contacts add-in, Nextcloud Groupware integrates great into Thunderbird.');?></p>
                 <p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_USER; ?>pim/sync_thunderbird.html"><?php echo $l->t('Learn more in our documentation.');?></a></p>
             </div>

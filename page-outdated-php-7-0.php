@@ -16,7 +16,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Update for your Nextcloud');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Update for your Nextcloud');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Dear Nextcloud user,');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Our update check has noticed that your server is running PHP 7.0 or older. We want to inform you that Nextcloud releases newer than version 15 will no longer support these PHP releases. It is recommended to prepare an upgrade to a newer version of PHP. We will maintain Nextcloud 15 publicly until shortly after Nextcloud 17 is released, which is expected for the end of 2019.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Running a Nextcloud release without security and stability updates puts your data at risk.');?></p>

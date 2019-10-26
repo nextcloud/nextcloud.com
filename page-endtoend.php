@@ -51,7 +51,7 @@
 
 <section class="section--ultimate">
 <div class="container">
-    <p class="section--heading-1 section--text--center"><?php echo $l->t('Ultimate protection');?></h2>
+    <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Ultimate protection');?></h1>
     <div class="row">
         <div class="col-md-6 image--floated">
             <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/endtoend-server-nw.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/endtoend-server-nw.png" alt="in action" /></a>
@@ -75,7 +75,7 @@
 <div class="container-fluid banner quote">
     <div class="container">
     <div class="col-md-6">
-        <p class="section--heading-1 section--text--center"><?php echo $l->t('Unique capabilities');?></p>
+        <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Unique capabilities');?></h1>
         <ul>
         <li><i class="fa-check fa"></i> <?php echo $l->t('Any number of folders can be end to end encrypted.');?></li>
         <li><i class="fa-check fa"></i> <?php echo $l->t('Easily add a new device with a strong passcode consisting of 12 dictionary words.');?></li>
@@ -96,7 +96,7 @@
 
 <section class="section--identity">
 <div class="container">
-            <p class="section--heading-1 section--text--center"><?php echo $l->t('Cryptographic Identity Protection');?></h2>
+            <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Cryptographic Identity Protection');?></h1>
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <p class="section--paragraph">
@@ -155,7 +155,7 @@
 
 <section class="section--usecases">
 <div class="container">
-    <p class="section--heading-1 section--text--center"><?php echo $l->t('Enterprise-grade Encryption Solution');?></h2>
+    <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Enterprise-grade Encryption Solution');?></h1>
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <p class="section--paragraph">
@@ -171,7 +171,7 @@
             <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/encryption-nw.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/encryption-nw.png" alt="in action" /></a>
         </div>
         <div class="col-md-6">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Use cases');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Use cases');?></h3>
             <p class="section--paragraph">
                 <?php echo $l->t('Users can access data on a FTP drive shared with another company; while data stored on an external S3 compatible object storage could be encrypted using server-side encryption so the storage provider has no way to compromise their security.');?>
             </p>
@@ -185,7 +185,7 @@
 
 <section class="section--technology">
 <div class="container">
-    <p class="section--heading-1 section--text--center"><?php echo $l->t('Technical background');?></h2>
+    <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Technical background');?></h1>
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <p class="section--paragraph">
@@ -195,7 +195,7 @@
     </div>
     <div class="row">
         <div class="col-md-6">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Requirements');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Requirements');?></h3>
             <p class="section--paragraph">
                 <?php echo $l->t('We aimed to fulfill the following business and technical criteria.');?>
             </p>
@@ -209,7 +209,7 @@
             </p>
         </div>
         <div class="col-md-6">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Accepted feature loss');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Accepted feature loss');?></h3>
             <p class="section--paragraph">
                 <?php echo $l->t('We accept losing the following features:');?>
             </p>
@@ -234,7 +234,7 @@
             <a href="<?php bloginfo('template_directory'); ?>/assets/img/security/E2E-CreateAndSyncIdentity.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/E2E-CreateAndSyncIdentity.png" alt="in action" /></a>
         </div>
         <div class="col-md-5">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Enabling encryption');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Enabling encryption');?></h3>
             <p class="section--paragraph">
                 <?php echo $l->t('The encryption is based upon an asymmetric cryptographic system. Every user has exactly one private and public key pair.');?>
             </p>
@@ -259,7 +259,7 @@
             <a href="<?php bloginfo('template_directory'); ?>/assets/img/security/E2E-EncryptFoldersAndAddFiles.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/security/E2E-EncryptFoldersAndAddFiles.png" alt="in action" /></a>
         </div>
         <div class="col-md-10 col-md-offset-1">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Encrypting files');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Encrypting files');?></h3>
             <p class="section--paragraph">
                 <?php echo $l->t('Creating an end-to-end encrypted folder is done by flagging an empty folder as end-to-end encrypted, creating metadata, encrypting and uploading it. The process is protected by locking, with the client requesting a lock from the server and releasing it again after all changes are finished and uploaded.');?>
             </p>

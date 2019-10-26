@@ -31,7 +31,7 @@
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/conference/grouppic2016_wee.jpg" class="img-responsive" />
         </div>
         <div class="col-md-8">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Contribute to Nextcloud server or apps');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Contribute to Nextcloud server or apps');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Learn about setting up a development environment or read our security guidelines, coding style and more!');?></p>
             <p class="section--paragraph"><?php echo $l->t('Improve the Nextcloud Server:');?> <a class="hyperlink"  href="<?php echo $DOCUMENTATION_DEVELOPER; ?>core"><?php echo $l->t('server development documentation');?></a>, <a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>general"><?php echo $l->t('general guidelines and setup');?></a></p>
             <p class="section--paragraph"><?php echo $l->t('Get a bug fixed:');?> <a class="hyperlink"  href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker"><?php echo $l->t('bugtracker documentation');?></a></li>
@@ -47,7 +47,7 @@
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/events/booth.jpg" class="img-responsive" />
         </div>
         <div class="col-md-8">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Answer questions about Nextcloud use and development');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Answer questions about Nextcloud use and development');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Help answer questions users and developers have about Nextcloud!');?></p>
             <p class="section--paragraph"><a class="" href="https://help.nextcloud.com"><?php echo $l->t('Join the Nextcloud forums');?></a></p>
             <p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('code-of-conduct') ?>"><?php echo $l->t('Please be considerate of our code of conduct</a>. We want to provide a positive and enjoyable environment for everybody.');?></p>
@@ -58,7 +58,7 @@
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/headers/atwork-small.jpg" class="img-responsive" />
         </div>
         <div class="col-md-8">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Test Nextcloud');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Test Nextcloud');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Testing upcoming Nextcloud Server releases is the best way of making sure the new release can do what you need it
                 to do. And of course, only if you report a problem to us we know about it and can fix it! If you have a bug to report,
                 find the <a class="hyperlink" href="https://github.com/nextcloud/server/blob/master/.github/CONTRIBUTING.md">issue submission page</a>.');?></p>
@@ -69,7 +69,7 @@
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/headers/design-small.jpg" class="img-responsive" />
         </div>
         <div class="col-md-8">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Design Nextcloud');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Design Nextcloud');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Help out with Nextcloud user interaction design or graphic design! Get involved on <a class="hyperlink"  href="design/">the design page</a>!');?></p>
         </div>
     </div>
@@ -78,7 +78,7 @@
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/headers/ladies-that-foss.jpg" class="img-responsive" />
         </div>
         <div class="col-md-8">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Support Nextcloud development with bounties');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Support Nextcloud development with bounties');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Support Nextcloud development by offering some money on features you would like to have! <a class="hyperlink"  href="https://www.bountysource.com/teams/nextcloud" target="_blank">Check our Bountysource page</a>!');?>
             <p class="section--paragraph"><?php echo $l->t('Note that');?> <a class="hyperlink" href="<?php echo home_url('jobs') ?>"><?php echo $l->t('we are hiring</a>. We look especially for people who want to turn their passion into their job! When possible, we hire people from our active community base or from the wider open source community.');?></p>
         </div>

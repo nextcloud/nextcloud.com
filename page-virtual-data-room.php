@@ -40,7 +40,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/tools.svg" /></div>
-                <p class="section--paragraph__tittle text-center"><?php echo $l->t('Under your control');?></p>
+                <h3 class="section--paragraph__title text-center"><?php echo $l->t('Under your control');?></h3>
                 <p class="section--paragraph text-center"><?php echo $l->t('Do not resort to outsourcing. Rather than hosting your sensitive company data with a third party, keep it 100% on premises while offering the highly secure access and communication facilities required by a partner or prospect.');?></p>
                 <p class="section--paragraph text-center">
 
@@ -48,12 +48,12 @@
             </div>
             <div class="col-md-4">
                 <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
-                <p class="section--paragraph__tittle text-center"><?php echo $l->t('A complete platform');?></p>
+                <h3 class="section--paragraph__title text-center"><?php echo $l->t('A complete platform');?></h3>
                 <p class="section--paragraph text-center"><?php echo $l->t('An easy, familiar user interface means efficient work. Nextcloud is unique by offering the most extensive built in communication and collaboration technology in the industry, negating the complexity of running and connecting multiple separate solutions.');?></p>
             </div>
             <div class="col-md-4">
                 <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
-                <p class="section--paragraph__tittle text-center"><?php echo $l->t('Military-grade security');?></p>
+                <h3 class="section--paragraph__title text-center"><?php echo $l->t('Military-grade security');?></h3>
                 <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud offers industry-first, unique solutions like Video Verification, machine-learning-driven suspicious login detection, extensive multi-factor authentication solutions and more. Extensive logging and monitoring show users, administrators and auditors the exact flow of data and who had access at what time.');?></p>
             </div>
         </div>
@@ -77,7 +77,7 @@
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/iPhone6s-talk-chat.png" alt="in action"/></a>
         </div>
         <div class="col-md-6 feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Available-anywhere collaboration');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Available-anywhere collaboration');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Switching between different tools is more than cumbersome and inefficient: it also massively increases the chance for mistakes to result in data leaks. For a process as important as making a sensitive deal, you ca not risk an email send to the wrong address compromising your business.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud integrates comments, chat and secuire audio/video calls, offers real-time notifications through mobile, web and desktop interfaces and integrates document viewing and editing all in one platform. It even comes with groupware functionalities like a calendar, task management and email functionality so meetings, plans, invitations and all the details they come with stay within the secure data room.');?></p>
         </div>
@@ -87,7 +87,7 @@
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/meeting.jpg" alt="in action"/></a>
         </div>
         <div class="col-md-6 feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('A real use case');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('A real use case');?></h3>
             <p class="section--paragraph"><?php echo $l->t('To ensure 6 employees from a third party can check the books and approve a deal, a Nextcloud VDR is set up. The internal team of 11 employees each gets an account where they can freely upload and collaborate on documents, through their mobile devices as well as by editing, chat and calls in the browser. The 6 guests receive a guest account.');?></p>
             <p class="section--paragraph"><?php echo $l->t('The welcome mail guides the guests to set up their account with a password and a second factor of their choice: a hardware key, a one-time-password mechanism like Google Authenticator or an SMS. Then they can log in.');?></p>
             <p class="section--paragraph"><?php echo $l->t('The internal team can share files with the guests, with or without editing rights for the guest (on a per-file basis). Their Outlook email application will, when an email is written to a guest, automatically upload attachments as well as mail body to the VDR and simply notify the guest that a new message was received.');?></p>
@@ -113,7 +113,7 @@
         <h2 class="text-center"><?php echo $l->t('Feature highlights');?></h2>
     </div>
     <div class="row">
-        <p class="section--paragraph__tittle"><?php echo $l->t('Secure view in action');?></p>
+        <h3 class="section--paragraph__title"><?php echo $l->t('Secure view in action');?></h3>
         <p class="section--paragraph"><?php echo $l->t('With secure view, our online office solutions can be configured to open PDF files, images and text files, making these files available in a watermark-protected way, while downloads and other apps are disabled using File Access Control. This setup is useful when data has to be protected from leaking but still has to be made available for review, as in a virtual data room scenario.');?></p>
     </div>
     <div class="row">
@@ -131,7 +131,7 @@
         </div>
     </div>
     <div class="row">
-        <p class="section--paragraph__tittle"><?php echo $l->t('Secure Mailbox');?></p>
+        <h3 class="section--paragraph__title"><?php echo $l->t('Secure Mailbox');?></h3>
         <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in includes a secure mailbox feature. This feature protects the contents (body) of email from interception by providing the recipient with a notification that a new email was received. The recipient then has to log in on their (guest) account to access the email and its attachments.');?></p>
         <p class="section--paragraph"><?php echo $l->t('The body of the email is shown with the file attachments. Each email is a folder, linked to in the email notification.');?></p>
         <p class="section--paragraph"><?php echo $l->t('In the screenshots below, the user sends the link and password to the recipient by email. The user can take out the password and send it through another channel. Alternatively, when a guest account is set up for the recipient, the Outlook add-in will detect this and instead share the message to the guest account and include an internal link in the email. The recipient will have to log into their guest account to access the email.');?></p>
@@ -157,12 +157,12 @@
     </div>
         <div class="row">
             <div class="col-md-6">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Remote wipe');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Remote wipe');?></h3>
                 <div data-type="youtube" data-video-id="oyWXMjb-6ik"></div>
                 <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/oyWXMjb-6ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Watermarks and secure inbox');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Watermarks and secure inbox');?></h3>
                 <div data-type="youtube" data-video-id="nueL_hzDp-s"></div>
                 <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/nueL_hzDp-s" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -185,7 +185,7 @@
 <section>
 <div class="container">
 	<div class="row">
-        <p class="section--paragraph__tittle"><?php echo $l->t('As leading content collaboration platform, Nextcloud has been designed for security and ease of use.');?><br/> <?php echo $l->t('A Nextcloud VDR offers:');?></p>
+        <h3 class="section--paragraph__title"><?php echo $l->t('As leading content collaboration platform, Nextcloud has been designed for security and ease of use.');?><br/> <?php echo $l->t('A Nextcloud VDR offers:');?></h3>
         <div class="col-md-6">
             <ul>
                 <li><?php echo $l->t('Activity tracking and audit log, real-time reporting');?></li>
@@ -253,7 +253,7 @@
             <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ransomware-recovery.png" alt="in action"/></a>
         </div>
         <div class="col-md-6 feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Best Ransomware protection in the industry');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Best Ransomware protection in the industry');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Ransomware attacks are becoming more targetted as lots of money can be extracted from businesses and government organizations. While insurance can cover direct costs, the disruption to business is immense regardless. Nextcloud goes far beyond competing solutions, offering automated, one-click ransomware recovery tools.');?></p>
             <a href="https://nextcloud.com/blog/amidst-rising-ransomware-costs-another-us-city-pays-hundreds-of-thousands-to-recover-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Ransomware risks and protection');?></a>
         </div>

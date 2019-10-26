@@ -39,18 +39,18 @@ require(["require.config"], function() {
 	<div class="row">
 		<div class="col-md-4">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/mobile.svg" /></div>
-			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Modern Communication');?></p>
+			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Modern Communication');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Communication via paper only is out of date. Clients expect from their law firm, notary or tax adviser a modern, digital communication exchange, secure and discreet. In the office, at home and on the road.');?></p>
 		</div>
 		<div class="col-md-4">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/permissions.svg" /></div>
-			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Ultimate security');?></p>
+			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Ultimate security');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Choosing an on-premises product means you can guarantee your clients that data never leaves your company and remains 100% confidential.');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Powerful server and client side encryption options provide ultimate protection for sensitive documents.');?></p>
 		</div>
 		<div class="col-md-4">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/storage.svg" /></div>
-			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Independence');?></p>
+			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Independence');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Open Source means full control over your infrastructure. One of worlds most used and best understood software licenses protects your investment, guaranteeing complete vendor independence and zero risk of compliance issues.');?></p>
 		</div>
 	</div>
@@ -76,7 +76,7 @@ require(["require.config"], function() {
                     <i class="fa-commenting-o fa"></i>
                 </div>
                 <div class="col-md-10 featureblock">
-                    <p class="section--paragraph__tittle"><?php echo $l->t('Client communication');?></p>
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Client communication');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Modern, fast and cost-effective client communication: cheaper than letter mail, safer than e-mail.');?></p>
                 </div>
             </div>
@@ -85,7 +85,7 @@ require(["require.config"], function() {
                     <i class="fa-tablet fa"></i>
                 </div>
                 <div class="col-md-10 featureblock">
-                    <p class="section--paragraph__tittle"><?php echo $l->t('Paperless office');?></p>
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Paperless office');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Access your documents from anywhere, on a PC, tablet or smartphone.');?></p>
                 </div>
             </div>
@@ -94,7 +94,7 @@ require(["require.config"], function() {
                     <i class="fa-paragraph fa"></i>
                 </div>
                 <div class="col-md-10 featureblock">
-                    <p class="section--paragraph__tittle"><?php echo $l->t('Text recognition and full text search');?></p>
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Text recognition and full text search');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Scan and index documents with advanced text recognition (OCR) and full-text search.');?></p>
                 </div>
             </div>
@@ -103,7 +103,7 @@ require(["require.config"], function() {
                     <i class="fa-server fa"></i>
                 </div>
                 <div class="col-md-10 featureblock">
-                    <p class="section--paragraph__tittle"><?php echo $l->t('Document versioning and archiving');?></p>
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Document versioning and archiving');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Versioning and long-term archiving of your documents.');?></p>
                 </div>
             </div>
@@ -116,16 +116,16 @@ require(["require.config"], function() {
 
 <section class="section--on-premise">
 <div class="container">
-	<h2 class="section--heading-1 text-center"><?php echo $l->t('Why on-premises?');?></h2>
+	<h1 class="section--heading-1 text-center"><?php echo $l->t('Why on-premises?');?></h1>
 	<div class="row">
 		<div class="col-md-6 feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('You need 100% certainty');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('You need 100% certainty');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Email or public cloud solutions do not provide much security for sensitive data. Encryption is complicated and cumbersome to use.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Keeping data on your own infrastructure means you stay in control. Only then can you show your clients exactly where their sensitive documents are.');?></p>
 			<a href="https://nextcloud.com/blog/the-issue-with-public-cloud/" class="button button--blue button--arrow button--large"><?php echo $l->t('Read our blog for more');?></a>
         </div>
         <div class="col-md-6 feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Public clouds are not a safe solution');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Public clouds are not a safe solution');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Most consumer-grade solutions like Dropbox or Office 365 were not designed with privacy regulations and security concerns in mind, mixing data from consumers and businesses, spread out in data centers across the globe.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Rather than trying to work around their limitations, Nextcloud Files provides a security-first solution which puts you in complete control over the location and access policies of data with a private cloud solution.');?></p>
 			<a href="<?php echo home_url('buy') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Get started now');?> <i class="icon-arrow-circle-o-right icon"></i></a>
@@ -149,7 +149,7 @@ require(["require.config"], function() {
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/mobileDesktop.png" alt="in action"/></a>
             </div>
             <div class="col-md-6 feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Universal document access');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Universal document access');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Be confident that wherever you are, you have access to the documents you need in a moments notice, 100% secure. Tablets, mobile devices, laptops and desktops all have access to the same files at a moments notice thanks to the first-class Nextcloud clients.');?></p>
                 <a href="<?php echo home_url('clients') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Sync clients');?></a>
             </div>
@@ -160,7 +160,7 @@ require(["require.config"], function() {
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Secure document sharing');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Secure document sharing');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Provide your employees, clients and partners with documents for review or joint editing. Thanks to dedicated user and group management, everyone only sees what they really need to see.');?></p>
                 <a href="<?php echo home_url('sharing') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('More about sharing');?></a>
             </div>
@@ -171,7 +171,7 @@ require(["require.config"], function() {
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/jwhfeJlYBbM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Integrated in email');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Integrated in email');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('To quickly and securely get data to your clients or receive documents from them, use the Nextcloud Secure Sharing Outlook Add-in. This avoids insecure and big attachments and instead provides a secure, trust-worthy file exchange that does not direct your clients to a third party but runs on your server and your domain.');?></p>
                 <a href="<?php echo home_url('outlook') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Email integration');?></a>
             </div>
@@ -181,7 +181,7 @@ require(["require.config"], function() {
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ocr-nw.png" alt="in action"/></a>
             </div>
             <div class="col-md-6 feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('OCR and full-text search');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('OCR and full-text search');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud can easily be extended with powerful document management features like OCR and full-text search, enabling quick search in your documents.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud can be connected to any document scanner (Xerox, Canon, HP, etc.) that supports WebDAV as well as mobile scanning and OCR apps, such as ScanBot.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Extensive, open-standards based API\'s result in a low barrier to extension and integration in existing tools and workflows like RA Micro and ReNoStar.');?></p>
@@ -198,7 +198,7 @@ require(["require.config"], function() {
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/nueL_hzDp-s" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Virtual Data Room');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Virtual Data Room');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('In settings where a firewall is needed between departments or organizations without impeding smooth and efficient collaboration, a separate Virtual Data Room can be set up. Nextcloud offers a wide range of unique features for VDR use and its on-premises nature offers unparalleled confidentiality and control.');?></p>
                 <a href="<?php echo home_url('virtual-data-room') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Virtual Data Rooms');?></a>
             </div>
@@ -252,7 +252,7 @@ require(["require.config"], function() {
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/file-access-control-nw.png" alt="in action"/></a>
         </div>
         <div class="col-md-6 feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('File Access Control');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('File Access Control');?></h3>
             <p class="section--paragraph"><?php echo $l->t('The File Access Control feature of Nextcloud enables IT to codify legal and policy requirements, blocking unauthorized users uploading or downloading data following defined rules. Criteria include IP address ranges, group membership, file type and size, time and more. Data retention can be controlled as well, enabling administrators to limit the lifetime of certain files.');?></p>
             <a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('File Access Control');?></a>
         </div>
@@ -262,7 +262,7 @@ require(["require.config"], function() {
             <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ransomware-recovery.png" alt="in action"/></a>
         </div>
         <div class="col-md-6 feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Best Ransomware protection in the industry');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Best Ransomware protection in the industry');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Ransomware attacks are becoming more targetted as lots of money can be extracted from businesses and government organizations. While insurance can cover direct costs, the disruption to business is immense regardless. Nextcloud goes far beyond competing solutions, offering automated, one-click ransomware recovery tools.');?></p>
             <a href="https://nextcloud.com/blog/amidst-rising-ransomware-costs-another-us-city-pays-hundreds-of-thousands-to-recover-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Ransomware risks and protection');?></a>
         </div>
@@ -272,7 +272,7 @@ require(["require.config"], function() {
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-nw.png" alt="in action"/></a>
         </div>
         <div class="col-md-6 feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Monitoring and auditing logs');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Monitoring and auditing logs');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud offers built-in powerful monitoring capabilities, enabling organizations to ensure smooth performance. Systems can be monitored using the web interface or through monitoring and systems intelligence tools like OpenNMS, Splunk, Nagios or others. A full auditing system logs all user actions, enabling fully compliant usage of file sync and share.');?></p>
             <a href="<?php echo home_url('monitoring') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring and auditing');?></a>
         </div>
@@ -282,7 +282,7 @@ require(["require.config"], function() {
             <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/endtoend-server-nw.png"><img class="img-responsive screenshot" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/endtoend-server-nw.png" alt="in action" /></a>
         </div>
         <div class="col-md-6">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Encryption');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Encryption');?></h3>
             <p class="section--paragraph">
                 <?php echo $l->t('Nextcloud uses industry-standard SSL/TLS encryption for data in transfer. Data at rest in storage can be encrypted using a default military grade AES-256 encryption with server-based or custom key management. Optionally and on a per-folder base data can be');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('end-to-end encrypted');?></a> <?php echo $l->t('on the client with the server assisting in sharing and key management using a Zero-Knowledge model.');?>
             </p>

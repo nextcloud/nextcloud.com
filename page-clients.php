@@ -160,7 +160,7 @@
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/5yFKZze6TqM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('top-rated iOS app');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('top-rated iOS app');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud iOS app provides a way for users to access and sync files on the go in a easy and intuitive interface. The client is kept always up to date with the latest iOS versions and designed for both smaller and newer iPhones, iPhone X and iPad.');?></p>
                 <div class="row">
                 <div class="col-xs-6 mobileclientbuttons">
@@ -172,7 +172,7 @@
             </div>
         </div>
         <div class="row docscanner">
-            <p class="section--paragraph__tittle text-center"><?php echo $l->t('Document scanner in action');?></p>
+            <h3 class="section--paragraph__title text-center"><?php echo $l->t('Document scanner in action');?></h3>
             <br>
             <div class="col-xs-6 col-sm-4 col-lg-2">
                 <a href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-1.png"><img class="thumbnail img-thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-1.png" class="" ></a>
@@ -241,7 +241,7 @@
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/4oY7R14Ydno" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Well integrated Android app');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Well integrated Android app');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Android app makes accessing, syncing and sharing your files easy with its modern and intuitive interface. Our client supports Android 4.0 and later and works with a wide variety of screen sizes and Android features.');?></p>
                 <div class="row">
                     <div class="col-xs-6">

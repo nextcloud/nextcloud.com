@@ -67,7 +67,7 @@
 			<div id="accountmgr" class="collapse">
 				<p>We are looking for a passionate Account Manager who will partner with and ensure the long-term success of our customers.</p>
 				<p>Your account management responsibilities include developing long-term relationships with your portfolio of assigned customers, connecting with key business executives and stakeholders. You will liaise between customers and cross-functional internal teams to ensure the timely and successful delivery of our solutions according to customer needs.</p>
-				<p class="section--paragraph__tittle">Responsibilities:</p>
+				<h3 class="section--paragraph__title">Responsibilities:</h3>
 
 				<ul>
 					<li>Operate as the lead point of contact for any and all matters
@@ -87,7 +87,7 @@
 					<li>Assist with high severity requests or issue escalations as needed</li>
 				</ul>
 
-				<p class="section--paragraph__tittle">Required skills:</p>
+				<h3 class="section--paragraph__title">Required skills:</h3>
 
 				<ul>
 					<li>Proven account management or other relevant experience</li>
@@ -104,7 +104,7 @@
 					<li>Writing and speaking German and/or French language</li>
 				</ul>
 
-				<p class="section--paragraph__tittle">What we offer:</p>
+				<h3 class="section--paragraph__title">What we offer:</h3>
 
 				<ul>
 					<li>A distributed, open team with a passion for working on and within the open source community</li>
@@ -121,7 +121,7 @@
 			<div id="salesrep" class="collapse">
 				<p>We are looking for a passionate Sales Representative to work with prospective customers to determine if Nextcloud is a good fit for them.</p>
 				<p>Your responsibilities include building relationships with prospective customers and connecting with key business executives and stakeholders. You will research and develop market segments, work with Marketing to generate and classify leads, develop them to opportunities and work as part of our internal cross-functional internal teams to ensure the customers get timely information and fitting solutions to their problems.</p>
-				<p class="section--paragraph__tittle">Responsibilities:</p>
+				<h3 class="section--paragraph__title">Responsibilities:</h3>
 
 				<ul>
                     <li>Work with marketing on outreach, lead generation and classification of opportunities</li>
@@ -139,7 +139,7 @@
 					<li>Assist with high severity requests or issue escalations as needed</li>
 				</ul>
 
-				<p class="section--paragraph__tittle">Required skills:</p>
+				<h3 class="section--paragraph__title">Required skills:</h3>
 
 				<ul>
 					<li>Proven sales/account management or other relevant experience</li>
@@ -156,7 +156,7 @@
 					<li>Writing and speaking German and/or French language</li>
 				</ul>
 
-				<p class="section--paragraph__tittle">What we offer:</p>
+				<h3 class="section--paragraph__title">What we offer:</h3>
 
 				<ul>
 					<li>A distributed, open team with a passion for working on and within the open source community</li>
@@ -172,7 +172,7 @@
             <a href="#marketing" data-toggle="collapse"><h3 class="jobs">Marketing and event manager<span class="icon-arrow"></span></h3></a>
 			<div id="marketing" class="collapse">
 				<p>Our marketing team is looking for a new member: you would support and strengthen our marketing, helping us design website pages, flyers and other promotional materials as well as organize our attendance to events or our yearly conference. We are a small team so we also share work writing blogs, answering questions on social media, preparing announcements and more. We're looking for somebody with some adobe tools experience, who is organized and willing to learn and try new things!</p>
-				<p class="section--paragraph__tittle">Responsibilities:</p>
+				<h3 class="section--paragraph__title">Responsibilities:</h3>
 				<ul>
 					<li>Manage and improve our marketing materials (both German and English)</li>
 					<li>Design posters, flyers and backdrops for events</li>
@@ -180,7 +180,7 @@
 					<li>Help us manage PR and communication</li>
 				</ul>
 
-				<p class="section--paragraph__tittle">Required skills:</p>
+				<h3 class="section--paragraph__title">Required skills:</h3>
 				<ul>
 					<li>Writing and speaking German language</li>
 					<li>Interest in messaging, public relations</li>
@@ -189,7 +189,7 @@
 					<li>Being able to work independently, track progress and ask for help when needed</li>
 				</ul>
 
-				<p class="section--paragraph__tittle">What we offer:</p>
+				<h3 class="section--paragraph__title">What we offer:</h3>
 				<ul>
 					<li>A distributed, open team with a passion for working on and within the open source community</li>
 					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
@@ -207,13 +207,13 @@
             <div id="jsdev" class="collapse">
                 <p>We're looking for developers with experience in Javascript/front-end development to join our server team!</p>
                 <p>You would work with the engineering team to bring new features and improvements to the server user interface like our File management app or one of the many other applications like Calendar and Contacts, Announcements and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-                <p class="section--paragraph__tittle">Responsibilities:</p>
+                <h3 class="section--paragraph__title">Responsibilities:</h3>
                 <ul>
                     <li>Front end development (JS, PHP)</li>
                     <li>Cross platform testing</li>
                     <li>Quality assurance</li>
                 </ul>
-                <p class="section--paragraph__tittle">Required skills:</p>
+                <h3 class="section--paragraph__title">Required skills:</h3>
                 <ul>
                     <li>Deep technical experience with Javascript and perhaps a bit of PHP</li>
                     <li>WebRTC experience a plus</li>
@@ -221,7 +221,7 @@
                     <li>Independence and self-reliance.</li>
                     <li>Knowledge around open source technology</li>
                 </ul>
-                <p class="section--paragraph__tittle">What we offer:</p>
+                <h3 class="section--paragraph__title">What we offer:</h3>
                 <ul>
                     <li>A distributed, open team with a passion for working on and within the open source community</li>
                     <li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
@@ -237,7 +237,7 @@
 				<p>Technical sales engineers use their technical knowledge along with sales skills to provide advice and support on a range of products, for which a certain level of expertise is needed.</p>
 				<p>You work close together with sales and engineering and assist colleagues with bids and tenders for new clients from a technical perspective, working on proof of concept deployments and answering questions.</p>
 				<p>You like to work independently and self responsible on dedicated projects but like to also to exchange your knowledge with your colleagues.</p>
-				<p class="section--paragraph__tittle">Responsibilities:</p>
+				<h3 class="section--paragraph__title">Responsibilities:</h3>
 				<ul>
 					<li>persuading clients that a product or service best satisfies their needs in terms of quality, price and delivery</li>
 					<li>working closely together with sales on customer projects</li>
@@ -252,7 +252,7 @@
 					<li>helping in the design of custom-made products</li>
 					<li>providing training and producing support material for other members of the sales team</li>
 				</ul>
-				<p class="section--paragraph__tittle">Required skills:</p>
+				<h3 class="section--paragraph__title">Required skills:</h3>
 				<ul>
 					<li>Solid technical background for infrastructure set-ups in medium and large organizations</li>
 					<li>Sales skills</li>
@@ -266,7 +266,7 @@
 					<li>General programming skills in PHP, HTML, CSS</li>
 					<li>Writing and speaking German and/or French language</li>
 				</ul>
-				<p class="section--paragraph__tittle">What we offer:</p>
+				<h3 class="section--paragraph__title">What we offer:</h3>
 				<ul>
 					<li>A distributed, open team with a passion for working on and within the open source community</li>
 					<li>Promoting and selling a product which pushes the boundaries of technology and with a global user and contributor community</li>
@@ -281,21 +281,21 @@
             <div id="phpdev" class="collapse">
                 <p>We're looking for developers with experience in PHP back-end development to join our server team!</p>
                 <p>You would work with the engineering team to bring new features and improvements to the server back-end like new authentication or storage mechanisms, audio/video chat and more. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-                <p class="section--paragraph__tittle">Responsibilities:</p>
+                <h3 class="section--paragraph__title">Responsibilities:</h3>
                 <ul>
                     <li>Back end development (PHP)</li>
                     <li>Database design</li>
                     <li>Systems design</li>
                     <li>Quality assurance</li>
                 </ul>
-                <p class="section--paragraph__tittle">Required skills:</p>
+                <h3 class="section--paragraph__title">Required skills:</h3>
                 <ul>
                     <li>Technical experience with PHP and bit of HTML, CSS, Javascript</li>
                     <li>Teamworking capabilities</li>
                     <li>Independence and self-reliance.</li>
                     <li>Knowledge around open source technology</li>
                 </ul>
-                <p class="section--paragraph__tittle">What we offer:</p>
+                <h3 class="section--paragraph__title">What we offer:</h3>
                 <ul>
                     <li>A distributed, open team with a passion for working on and within the open source community</li>
                     <li>Developing a product which pushes the boundaries of technology and with a global user and contributor community</li>
@@ -365,14 +365,14 @@
             <div id="techwrite" class="collapse">
                 <p>We're looking for a technical writer to join our server team!</p>
                 <p>You would work with the engineering team to make sure Nextcloud features are well documented, ensure installation and handling of Nextcloud is described well and that people can find their way around in the product. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-                <p class="section--paragraph__tittle">Responsibilities:</p>
+                <h3 class="section--paragraph__title">Responsibilities:</h3>
                 <ul>
                     <li>Taking ownership of the Nextcloud documentation</li>
                     <li>Working with the Engineering team on the technical, developer and end user facing documentation</li>
                     <li>Proactively identifying areas that need further documentation</li>
                     <li>Editing, clarifying and proofreading documents written by others</li>
                 </ul>
-                <p class="section--paragraph__tittle">Required skills:</p>
+                <h3 class="section--paragraph__title">Required skills:</h3>
                 <ul>
                     <li>Confidence in writing and copy-editing English documentation</li>
                     <li>Knowledge about Linux and basic PHP knowledge</li>
@@ -382,7 +382,7 @@
                     <li>Independence and self-reliance.</li>
                     <li>Knowledge around open source technology</li>
                 </ul>
-                <p class="section--paragraph__tittle">What we offer:</p>
+                <h3 class="section--paragraph__title">What we offer:</h3>
                 <ul>
                     <li>A distributed, open team with a passion for working on and within the open source community</li>
                     <li>Working on a product which pushes the boundaries of technology and with a global user and contributor community</li>
@@ -397,14 +397,14 @@
             <div id="qa" class="collapse">
                 <p>We're looking for an engineer who can help us test and make Nextcloud rock stable!</p>
                 <p>You would work with the engineering team to make sure Nextcloud is stable and well tested, developing and maintaining test plans, executing them and working with others to improve the automated and manual testing processes. You ideally have open source experience, know your way around git and Github and you live in the CET timezone.</p>
-                <p class="section--paragraph__tittle">Responsibilities:</p>
+                <h3 class="section--paragraph__title">Responsibilities:</h3>
                 <ul>
                     <li>Taking ownership of the Nextcloud testing/QA process</li>
                     <li>Working with the Engineering team on testing and guiding community testing</li>
                     <li>Proactively identifying areas that need more/better testing</li>
                     <li>Testing, improving automated and manual testing infrastructure</li>
                 </ul>
-                <p class="section--paragraph__tittle">Required skills:</p>
+                <h3 class="section--paragraph__title">Required skills:</h3>
                 <ul>
                     <li>Experience managing and executing QA plans</li>
                     <li>Knowledge about Linux and basic PHP knowledge</li>
@@ -413,7 +413,7 @@
                     <li>Independence and self-reliance.</li>
                     <li>Knowledge around open source technology</li>
                 </ul>
-                <p class="section--paragraph__tittle">What we offer:</p>
+                <h3 class="section--paragraph__title">What we offer:</h3>
                 <ul>
                     <li>A distributed, open team with a passion for working on and within the open source community</li>
                     <li>Working on a product which pushes the boundaries of technology and with a global user and contributor community</li>

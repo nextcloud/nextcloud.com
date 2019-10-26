@@ -64,7 +64,7 @@ require(["require.config"], function() {
 
 <section class="section--offer quote">
 	<div class="container">
-		<h2 class="section--heading-1 text-center"><?php echo $l->t('The Next Generation');?></h2>
+		<h1 class="section--heading-1 text-center"><?php echo $l->t('The Next Generation');?></h1>
 		<p class="section--intro text-center"><?php echo $l->t('Nextcloud Global Scale was designed to lift enterprise collaboration to a new level, overcoming limitations in building large scale file storage, sync & share solutions. It delivers significant cost savings and increased flexibility.');?></p>
 		<div class="row">
             <div class="col-md-6 col-md-offset-3">

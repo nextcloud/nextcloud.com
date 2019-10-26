@@ -45,7 +45,7 @@ require(["require.config"], function() {
 
 <section class="section--customers">
 <div class="container-widest">
-    <h2 class="section--heading-1 text-center "><?php echo $l->t('Some of our customers');?></h2>
+    <h1 class="section--heading-1 text-center "><?php echo $l->t('Some of our customers');?></h1>
     <div class="row customerlist">
 		<div class="col-lg-2 col-md-3 col-sm-4 customer">
             <div class="customer-logo">
@@ -150,7 +150,7 @@ require(["require.config"], function() {
                 <a><img class="img-responsive" src="https://nextcloud.com/media/Bern_luftaufnahme.png" alt="in action"/></a>
             </div>
             <div class="col-md-6  feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Capital of Switzerland provides Nextcloud to 35.000 students and teachers');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Capital of Switzerland provides Nextcloud to 35.000 students and teachers');?></h3>
                 <blockquote><?php echo $l->t('the largest open source order ever in Switzerland!');?></blockquote>
                 <p class="alignright" style="margin-top: -40px"><?php echo $l->t('-- Matthias Stürmer, EPP city councillor');?></p>
                 <a href="https://nextcloud.com/blog/next-big-open-source-win-capital-of-switzerland-moves-schools-to-nextcloud//" class="button button--blue button--arrow button--large"><?php echo $l->t('Announcement blog');?></a>
@@ -163,7 +163,7 @@ require(["require.config"], function() {
 <div class="separator"></div>
 <section class="section--eduedition">
 <div class="container">
-    <h2 class="section--heading-1 text-center "><?php echo $l->t('Education Edition');?></h2>
+    <h1 class="section--heading-1 text-center "><?php echo $l->t('Education Edition');?></h1>
     <div class="row">
 		<div class="col-md-8 col-md-offset-2">
             <p class="section--paragraph text-center "><?php echo $l->t('The Nextcloud Education Edition is a bundle of about a dozen Nextcloud apps available for easy installation within the Nextcloud interface. The apps have been developed for the educational market in collaboration with research institutions and software vendors active in the educational sector. See below for a selection of the included apps.');?></p>
@@ -261,7 +261,7 @@ require(["require.config"], function() {
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/circles-nw.png" alt="in action"/></a>
             </div>
             <div class="col-md-6  feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Group management');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Group management');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Students and teachers have a variety of classes and work in always-changing teams and groups. Nextcloud supports their workflow with the <a href="https://apps.nextcloud.com/apps/circles">Circles app,</a> enabling users to create, share, join and leave groups of their own in which they can collaborate and share.');?></p>
             </div>
         </div>
@@ -270,7 +270,7 @@ require(["require.config"], function() {
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/mobileDesktop.png" alt="in action"/></a>
             </div>
             <div class="col-md-6  feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Multi-platform');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Multi-platform');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Universities can not dictate what devices are used by the students and need to support a wide range of tablets, phones, laptop and desktop operating systems. Nextcloud has excellent Android and iOS clients as well as Windows, Mac and Linux desktop apps that make data accessible on any device.');?></p>
             </div>
         </div>
@@ -280,7 +280,7 @@ require(["require.config"], function() {
                 <iframe width="100%" height="250" src="https://www.youtube-nocookie.com/embed/Nr7cGN6ZJM0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Productivity');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Productivity');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Students can tag and comment on files for easy collaboration, roll back files to earlier versions or find deleted files in the trash. Real time collaborative editing and secure audio/video calls and chat complement the array of features aimed at enhancing productivity.');?></p>
             </div>
         </div>
@@ -290,7 +290,7 @@ require(["require.config"], function() {
                 <iframe width="100%" height="250" src="https://www.youtube-nocookie.com/embed/oyWXMjb-6ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Remote Wipe');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Remote Wipe');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Thanks to build-in support in Nextcloud, remote wipe will work on systems not under MDM control, as is typically the case for student devices at universities.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Remote wipe can be used on a per-device basis by users and on a per-user base by the administrator.');?></p>
             </div>
@@ -306,7 +306,7 @@ require(["require.config"], function() {
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/regioit.png" alt="in action"/></a>
             </div>
             <div class="col-md-6  feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('regio IT offers ucloud4schools');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('regio IT offers ucloud4schools');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('In February 2017 regio IT migrated 3000 users to Nextcloud, delivering secure online file exchange and collaboration.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Today, regio iT is managing about 50.000 users, of which over 1000 using Collabora Online for online office, at hundreds of schools in Germany.');?></p>
                 <a href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/" class="button button--blue button--arrow button--large"><?php echo $l->t('blog about initial migration');?></a>
@@ -422,7 +422,7 @@ require(["require.config"], function() {
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/appstore.png" alt="in action"/></a>
         </div>
         <div class="col-md-6  feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Extensible');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Extensible');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud can be extended to offer integration in tools commonly used by universities like Moodle, Zenodo and others. It is possible to add mail, calendar and contact handling, audio-video calls, realtime collaborative and much more. The Nextcloud App store features dozens of apps covering a wide variety of use cases.');?></p>
             <a href="https://apps.nextcloud.com" class="button button--blue button--arrow button--large"><?php echo $l->t('Nextcloud Apps');?></a>
         </div>
@@ -445,7 +445,7 @@ require(["require.config"], function() {
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/file-access-control-nw.png" alt="in action"/></a>
         </div>
         <div class="col-md-6  feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('File Access Control');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('File Access Control');?></h3>
             <p class="section--paragraph"><?php echo $l->t('The File Access Control feature of Nextcloud enables IT to codify legal and policy requirements, blocking students and others from  uploading or downloading data following defined rules. Criteria include IP address ranges, group membership, file type, time and more. Data retention can be controlled as well, enabling universities to limit the lifetime of certain files.');?></p>
             <a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('File Access Control');?></a>
         </div>
@@ -455,7 +455,7 @@ require(["require.config"], function() {
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-nw.png" alt="in action"/></a>
         </div>
         <div class="col-md-6  feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Monitoring');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Monitoring');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud offers powerful monitoring capabilities built in, enabling institutions to ensure smooth performance. Systems can be monitored using the web interface or through monitoring and systems intelligence tools like OpenNMS, Splunk, Nagios or others.');?></p>
             <a href="<?php echo home_url('monitoring') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring');?></a>
         </div>
@@ -465,7 +465,7 @@ require(["require.config"], function() {
             <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ransomware-recovery.png" alt="in action"/></a>
         </div>
         <div class="col-md-6  feature--block">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Best Ransomware protection in the industry');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Best Ransomware protection in the industry');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Ransomware attacks are becoming more targetted as lots of money can be extracted from large organizations. While insurance can cover direct costs, the disruption to productivity is immense regardless. Nextcloud goes far beyond competing solutions, offering automated, one-click ransomware recovery tools so students can recover from individual or institute-wide attacks.');?></p>
             <a href="https://nextcloud.com/blog/amidst-rising-ransomware-costs-another-us-city-pays-hundreds-of-thousands-to-recover-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Ransomware risks and protection');?></a>
         </div>

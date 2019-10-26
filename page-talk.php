@@ -41,7 +41,7 @@
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png" class="img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Unique protection');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Unique protection');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud talk protects your communication better than other team collaboration platforms like Microsoft Teams or Slack, making sure your data stays on your servers.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud Talk goes further than other encrypted communication technologies by keeping even metadata from leaking.');?></p>
             <p class="section--paragraph"><?php echo $l->t('This ensures you stay in complete control of communications.');?></p>
@@ -71,7 +71,7 @@
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/gdpr-apps-nw.png" alt="GDPR apps"/></a>
         </div>
 		<div class="col-md-8  feature--block">
-			<p class="section--paragraph__tittle"><?php echo $l->t('GDPR, CCPA and more');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('GDPR, CCPA and more');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('The GDPR (General Data Protection Regulation) makes organizations liable for any violations of user privacy and deviations from a high data security standard.<br>Legislation like the CCPA (California Consumer Privacy Act of 2018) brings similar regulation to other countries.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud has extensive GDPR compliance capabilities.');?></p>
 			<p class="section--paragraph"><a class="button button--blue button--medium" href="<?php echo home_url('gdpr') ?>"><?php echo $l->t('Learn more');?></a></p>
@@ -82,7 +82,7 @@
             <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/European_Commission.svg" alt="EU logo"/></a>
         </div>
 		<div class="col-md-8  feature--block">
-			<p class="section--paragraph__tittle"><?php echo $l->t('ePrivacy Regulation');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('ePrivacy Regulation');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('The <a class="hyperlink" href="https://ec.europa.eu/digital-single-market/en/news/stronger-privacy-rules-electronic-communications">upcoming EU ePrivacy Regulation</a> is designed as a complement to the GDPR. The objective is to reinforce trust and security in the Digital Single Market by ensuring that electronic communications from Europeans are confidential regardless of the technology used. The ePrivacy Regulation protects the confidentiality of electronic communications and information on devices, independently whether it is personal or non-personal data.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud is designed to protect the confidentiality of communications and fully prepares customers for the upcoming ePrivacy Regulation.');?></p>
 		</div>
@@ -97,7 +97,7 @@
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/SCM_team.jpg" alt="SCM picture"/></a>
             </div>
             <div class="col-md-6  feature--block">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Talk offering secure corporate messaging for SCM LIMITED');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Talk offering secure corporate messaging for SCM LIMITED');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('When SCM was looking for a simple, secure and well designed messenger platform that could be hosted on-premises, a decision was made for Nextcloud Talk. A Professional Services project from Nextcloud GmbH provided several features SCM required and today, the legal, human resource, financial and PR experts of SCM can easily communicate and collaborate during their business trips.');?></p>
                 <a href="https://nextcloud.com/blog/nextcloud-talk-offering-secure-corporate-messaging-for-scm-limited/" class="button button--blue button--arrow button--large"><?php echo $l->t('Read the blog');?></a>
             </div>
@@ -153,7 +153,7 @@
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/clients/mobile/android-talk.png" class="img-responsive" />
         </div>
         <div class="col-md-6   benefits-images">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Benefits');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Benefits');?></h3>
             <div class="row benefits-images">
                 <div class="col-sm-3 col-lg-2 featureblock">
                     <div class="icon">
@@ -238,7 +238,7 @@
             <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/Nr7cGN6ZJM0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 		</div>
 		<div class="col-md-6">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Designed for privacy');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Designed for privacy');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is a fully self hosted, on-premises audio/video and chat communication service. It features web and mobile apps and is designed to offer the highest degree of security while being easy to use.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk lowers the barrier for communication and lets your team connect any time, any where, on any device, with each other, customers or partners.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('While Nextcloud Talk itself is free, the optional Nextcloud Talk High Performance Backend enables enterprise class scalability, reliability and features.');?></p>
@@ -249,7 +249,7 @@
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-nw.png" class="img-responsive featureimg" /></a>
 		</div>
 		<div class="col-md-6">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Private, group and public calls');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Private, group and public calls');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Talk makes it easy to call customers and partners in one-to-one or group-scenarios.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Users can invite external chat participants with an URL into public rooms on the Nextcloud server.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The chat, which remains open even when the user leaves a call, enables participants to easily exchange messages, links and notes.');?></p>
@@ -260,7 +260,7 @@
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
 		</div>
 		<div class="col-md-6">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Webinars and presentations');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Webinars and presentations');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Share the content of a single window or a full desktop screen for presentations with chat-partners.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Manage participants by inviting, muting or removing them.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Schedule meetings and be notified when they start.');?></p>
@@ -273,7 +273,7 @@
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png" class="img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Commands for productivity');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Commands for productivity');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Commands allows administrators to define actions users can call from a chat.');?></p>
             <p class="section--paragraph"><?php echo $l->t('These can send their input back into the chat or kick off actions.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Commands are simple scripts, making it easy to integrate Nextcloud in business infrastructure.');?></p>
@@ -284,7 +284,7 @@
 			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png" class="img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Integration with Nextcloud');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Integration with Nextcloud');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Documents can be shared directly into a chat from the Files app and are made available to all participants, both users and guests.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Projects integration enables linking of chat rooms with files, calendars, tasks and other resources for easy finding.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Our online office solutions provide a sidebar with Talk for chat and calls with the participants.');?></p>
@@ -295,7 +295,7 @@
             <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw.png" class="img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Secure and private');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Secure and private');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Calls are end-to-end encrypted so no communication can be intercepted.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Chat logs are stored securely on your own server.');?></p>
             <p class="section--paragraph"><?php echo $l->t('The privacy of communication and its metadata is guaranteed by self-hosting Nextcloud Talk!');?></p>
@@ -307,7 +307,7 @@
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/Pffusr1bac4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
         <div class="col-md-6">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Video Verification');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Video Verification');?></h3>
             <p class="section--paragraph"><?php echo $l->t('In situations where extreme security is warranted and the identity of a recipient has to be verified with absolute certainty before they are granted access, Nextcloud includes the industry-first implementation of Video Verification.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Video Verification enforces a Nextcloud Talk video call before access is given to a share, making sure the identity of the recipient is properly checked. The call can be picked up through the Nextcloud Talk Mobile apps as well as the web interface.');?></p>
         </div>
@@ -354,21 +354,21 @@
                 <div class="col-md-4">
                     <div class="featureblock">
                         <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
-                        <p class="section--paragraph__tittle"><?php echo $l->t('Dial-in anywhere');?></p>
+                        <h3 class="section--paragraph__title"><?php echo $l->t('Dial-in anywhere');?></h3>
                         <p class="section--paragraph"><?php echo $l->t('Let participants join through a phone line, wherever they are');?></p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="featureblock">
                         <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/manual.svg" /></div>
-                        <p class="section--paragraph__tittle"><?php echo $l->t('No limitations');?></p>
+                        <h3 class="section--paragraph__title"><?php echo $l->t('No limitations');?></h3>
                         <p class="section--paragraph"><?php echo $l->t('Improved connectivity behind firewalls and restrictive networks and more participants in a call');?></p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="featureblock">
                         <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/2fa.svg" /></div>
-                        <p class="section--paragraph__tittle"><?php echo $l->t('Get started quickly');?></p>
+                        <h3 class="section--paragraph__title"><?php echo $l->t('Get started quickly');?></h3>
                         <p class="section--paragraph"><?php echo $l->t('Remote installation support from a certified Nextcloud engineer');?></p>
                     </div>
                 </div>
