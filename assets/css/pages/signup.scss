@@ -5,7 +5,7 @@
 }
 
 .register-background {
-    background: url('../../img/headers/register.jpg') no-repeat;
+    background: url('../../img/headers/dots.png') no-repeat;
     background-position: center;
     background-size: cover;
     height: 70vh;
@@ -46,7 +46,7 @@ section {
     max-width: 100vw;
     position: relative;
     margin-top: -200px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     padding: 0;
     transform: translateY(15px);
     opacity: 0;
@@ -66,9 +66,14 @@ section {
 
 @media (max-width: 768px) {
     #register {
-        margin-top: -220px;
+        margin-top: -500px;
     }
     .background .topheader {
-        top: 20%;
+        top: 0px;
+        margin-top: 100px;
+    }
+
+    footer {
+        display: none;
     }
 }
