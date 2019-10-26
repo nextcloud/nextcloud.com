@@ -67,11 +67,11 @@
 
 <section class="section--newsletter">
     <div class="container-fluid quote">
-        <h2 class="text-center revealOnScroll"><?php echo $l->t('Subscribe to our newsletter');?></h2>
-        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Want to be sure to never miss anything? Subscribe to our newsletter!');?></p>
+        <h2 class="text-center"><?php echo $l->t('Subscribe to our newsletter');?></h2>
+        <p class="section--paragraph section--text--center"><?php echo $l->t('Want to be sure to never miss anything? Subscribe to our newsletter!');?></p>
         <div class="container">
             <div class="row">
-                <div class="col-md-12 revealOnScroll">
+                <div class="col-md-12">
                     <div class="row text-center">
                         <a href="https://newsletter.nextcloud.com/?p=subscribe&id=1" class="button button--arrow button--large"><?php echo $l->t('Subscribe now');?></a>
                     </div>

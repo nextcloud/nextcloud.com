@@ -100,8 +100,8 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <h2 class=" section--heading-1 text-center revealOnScroll"><?php echo $l->t('Powering collaboration');?></h2>
-                <p class="section--paragraph text-center revealOnScroll"><?php echo $l->t('<span class="avoidwrap">the most popular self-hosted collaboration solution</span> <span class="avoidwrap">for tens of millions of users</span> <span class="avoidwrap">at thousands of organizations</span> <span class="avoidwrap">across the globe</span>');?></p>
+                <h2 class=" section--heading-1 text-center"><?php echo $l->t('Powering collaboration');?></h2>
+                <p class="section--paragraph text-center"><?php echo $l->t('<span class="avoidwrap">the most popular self-hosted collaboration solution</span> <span class="avoidwrap">for tens of millions of users</span> <span class="avoidwrap">at thousands of organizations</span> <span class="avoidwrap">across the globe</span>');?></p>
             </div>
         </div>
         <div class="row">
@@ -170,7 +170,7 @@
         </div>
 	<div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <p class="text-center revealOnScroll"><a class="button button--blue button--arrow button--large  revealOnScroll" href="<?php echo home_url('whitepapers') ?>"><?php echo $l->t('case studies & white papers');?></a></p>
+            <p class="text-center"><a class="button button--blue button--arrow button--large " href="<?php echo home_url('whitepapers') ?>"><?php echo $l->t('case studies & white papers');?></a></p>
         </div>
     </div>
 </div>
@@ -179,27 +179,27 @@
 <a name="why-nextcloud"></a>
 <section id="why-nextcloud" class="section--why">
 	<div class="container">
-		<h2 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Why Nextcloud?');?></h2>
+		<h2 class="section--heading-1 text-center"><?php echo $l->t('Why Nextcloud?');?></h2>
 		<div class="highlights">
 			<div class="highlights_align ">
 				<div class="privacy-icon" data-animation-path="img/home/privacy/" data-anim-loop="false" data-name="privacy"></div>
-				<h4 class="revealOnScroll"><?php echo $l->t('Control');?></h4>
-				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Protect, control and monitor data and communication across your company. Guarantee compliance with business and legal requirements. Keep your data on servers you own, at all times. Nothing leaks, not even metadata.');?></p>
+				<h4><?php echo $l->t('Control');?></h4>
+				<p class="section--paragraph"><?php echo $l->t('Protect, control and monitor data and communication across your company. Guarantee compliance with business and legal requirements. Keep your data on servers you own, at all times. Nothing leaks, not even metadata.');?></p>
 			</div>
 			<div class="highlights_align">
 				<div class="flexibility-icon" data-animation-path="img/home/flexibility/" data-anim-loop="false" data-name="flexibility"></div>
-				<h4 class="revealOnScroll"><?php echo $l->t('Productivity');?></h4>
-				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Enable productivity across any platform, whether in the office or on the road, to share, collaborate and communicate across organizational boundaries. Nextcloud provides transparent access to data on any storage.');?></p>
+				<h4><?php echo $l->t('Productivity');?></h4>
+				<p class="section--paragraph"><?php echo $l->t('Enable productivity across any platform, whether in the office or on the road, to share, collaborate and communicate across organizational boundaries. Nextcloud provides transparent access to data on any storage.');?></p>
 			</div>
 			<div class="highlights_align">
 				<div class="community-icon" data-animation-path="img/home/community/" data-anim-loop="false" data-name="community"></div>
-				<h4 class="revealOnScroll"><?php echo $l->t('Community');?></h4>
-				<p class="section--paragraph revealOnScroll"><?php echo $l->t('Enjoy constant improvements from a thriving and transparent, entirely open-source community development model, free of lockins or paywalls. Enjoy the benefits of enterprise support when you need it.');?></p>
+				<h4><?php echo $l->t('Community');?></h4>
+				<p class="section--paragraph"><?php echo $l->t('Enjoy constant improvements from a thriving and transparent, entirely open-source community development model, free of lockins or paywalls. Enjoy the benefits of enterprise support when you need it.');?></p>
 			</div>
 		</div>
 	</div>
 	<div class="container">
-        <p class="revealOnScroll text-center"><a class="button button--large button--blue button--arrow" href="<?php echo home_url('athome') ?>"><?php echo $l->t('Nextcloud at home');?></a>
+        <p class="text-center"><a class="button button--large button--blue button--arrow" href="<?php echo home_url('athome') ?>"><?php echo $l->t('Nextcloud at home');?></a>
         <a class="button button--large button--blue button--arrow" href="<?php echo home_url('files') ?>"><?php echo $l->t('Nextcloud for Enterprises');?></a></p>
     </div>
 </section>
@@ -207,15 +207,15 @@
 <!--<section class="section--enterprise-day">
 	<div class="container-fluid">
 			<div class="container">
-                <h2 class="section--heading-1 revealOnScroll">Enterprise Day</h2>
-                <ul class="section--paragraph revealOnScroll">
-                    <li class="revealOnScroll"><i class="fa-check fa"></i> Get the most out of Nextcloud</li>
-                    <li class="revealOnScroll"><i class="fa-check fa"></i> Speed up decision making</li>
-                    <li class="revealOnScroll"><i class="fa-check fa"></i> Learn best practices</li>
-                    <li class="revealOnScroll"><i class="fa-check fa"></i> Meet developers and decision makers</li>
+                <h2 class="section--heading-1">Enterprise Day</h2>
+                <ul class="section--paragraph">
+                    <li><i class="fa-check fa"></i> Get the most out of Nextcloud</li>
+                    <li><i class="fa-check fa"></i> Speed up decision making</li>
+                    <li><i class="fa-check fa"></i> Learn best practices</li>
+                    <li><i class="fa-check fa"></i> Meet developers and decision makers</li>
                 </ul>
-                <p class="section--paragraph revealOnScroll">Join our Enterprise Day on March 12.<br/><em>Book now, before January 31 and get 50% off!</em></p>
-                <p class="section--paragraph revealOnScroll"><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Learn more and book</a></p>
+                <p class="section--paragraph">Join our Enterprise Day on March 12.<br/><em>Book now, before January 31 and get 50% off!</em></p>
+                <p class="section--paragraph"><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Learn more and book</a></p>
 			</div>
 	</div>
 </section>-->
@@ -223,12 +223,12 @@
 <!--<section class="section--conf">
 	<div class="container-fluid">
 			<div class="container">
-			<h2 class="section--heading-1 revealOnScroll">Nextcloud Conference</h2>
-			<p class="section--paragraph revealOnScroll">Join for talks, workshops & keynotes at your yearly conference!<br> September 14-15 in Berlin, Germany!<br>
+			<h2 class="section--heading-1">Nextcloud Conference</h2>
+			<p class="section--paragraph">Join for talks, workshops & keynotes at your yearly conference!<br> September 14-15 in Berlin, Germany!<br>
 			Featuring our Enterprise Day on Monday September 16.</p>
-			<p class="section--paragraph revealOnScroll"><a href="<?php echo home_url('conf2019') ?>" class="button button--arrow button--large button--blue">Conference</a><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Enterprise Day</a></p>-->
-<!--  			<p class="section--paragraph revealOnScroll"><a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">See the Friday Focus program in our blog!</a></p> -->
-<!-- 			<p class="section--paragraph revealOnScroll"><a class="button button--blue button--arrow button--large revealOnScroll" href="coming" role="button">Know all the features</a></p> -->
+			<p class="section--paragraph"><a href="<?php echo home_url('conf2019') ?>" class="button button--arrow button--large button--blue">Conference</a><a href="<?php echo home_url('training') ?>" class="button button--arrow button--large button--blue">Enterprise Day</a></p>-->
+<!--  			<p class="section--paragraph"><a class="hyperlink" href="https://nextcloud.com/blog/focus-friday-during-the-nextcloud-conference/">See the Friday Focus program in our blog!</a></p> -->
+<!-- 			<p class="section--paragraph"><a class="button button--blue button--arrow button--large" href="coming" role="button">Know all the features</a></p> -->
 <!--			</div>
 	</div>
 </section>-->
@@ -236,7 +236,7 @@
 <?php require get_template_directory().'/compliance.php';?>
 
 <section class="section--compare">
-<div class="calltoaction revealOnScroll">
+<div class="calltoaction">
 	<h1 class="section--heading-2 section--text--center"><?php echo $l->t('See how we stack up');?></h1>
 	<p class="section--paragraph section--text--center">
 	<a href="<?php echo home_url('compare') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Compare Nextcloud to other solutions like Office365');?></a></p>
@@ -247,13 +247,13 @@
 <section class="section--underyourcontrol">
 <div class="container-fluid">
     <div class="container">
-        <h2 class="section--heading-1 revealOnScroll"><?php echo $l->t('Losing control?');?></h2>
-        <p class="section--paragraph revealOnScroll"><?php echo $l->t('Your teams are using email attachments, public chat apps and consumer file sharing tools to communicate and collaborate. Regain control with Nextcloud.');?></p>
-        <li class="revealOnScroll"><?php echo $l->t('Host your own collaboration platform');?></li>
-        <li class="revealOnScroll"><?php echo $l->t('Protect your IT investment by re-using existing infrastructure');?></li>
-        <li class="revealOnScroll"><?php echo $l->t('Ensure compliance, security and flexibility');?></li>
-        <li class="revealOnScroll"><?php echo $l->t('Know where your data is, who has access and how it is used');?></li>
-        <li class="revealOnScroll"><?php echo $l->t('Facilitate secure collaboration and communication');?></li>
+        <h2 class="section--heading-1"><?php echo $l->t('Losing control?');?></h2>
+        <p class="section--paragraph"><?php echo $l->t('Your teams are using email attachments, public chat apps and consumer file sharing tools to communicate and collaborate. Regain control with Nextcloud.');?></p>
+        <li><?php echo $l->t('Host your own collaboration platform');?></li>
+        <li><?php echo $l->t('Protect your IT investment by re-using existing infrastructure');?></li>
+        <li><?php echo $l->t('Ensure compliance, security and flexibility');?></li>
+        <li><?php echo $l->t('Know where your data is, who has access and how it is used');?></li>
+        <li><?php echo $l->t('Facilitate secure collaboration and communication');?></li>
         <a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
     </div>
 </div>
@@ -262,7 +262,7 @@
 <?php require get_template_directory().'/verticals.php';?>
 
 <section class="slideshow" id="slideshow">
-    <h2 class="text-center section--heading-1 revealOnScroll"><?php echo $l->t('Introducing Nextcloud 17');?></h2>
+    <h2 class="text-center section--heading-1"><?php echo $l->t('Introducing Nextcloud 17');?></h2>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
 		<li class="btn_carousel"><a href="#feature-1"></a></li>
@@ -325,22 +325,22 @@
 <!--<section class="news-section">
 	<div class="container-fluid news" id="social-media">
 		<div class="container">
-			<h1 class="section--heading-1 revealOnScroll"><?php echo $l->t('Latest news');?></h1>
+			<h1 class="section--heading-1"><?php echo $l->t('Latest news');?></h1>
 			<div class="row">
 				<div class="col-md-4">
-					<h3 class="section--heading-1 revealOnScroll"><?php echo $l->t('Nextcloud News</a>');?></h3>
+					<h3 class="section--heading-1"><?php echo $l->t('Nextcloud News</a>');?></h3>
 					<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,4); } ?></span></p>
-					<a class="revealOnScroll" href="<?php echo home_url('news') ?>">more</a>
+					<a href="<?php echo home_url('news') ?>">more</a>
 				</div>
 				<div class="col-md-4">
-					<h3 class="revealOnScroll"><?php echo $l->t('Latest Tweets');?></h3>
+					<h3><?php echo $l->t('Latest Tweets');?></h3>
 					<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_MICROBLOG::show(0,2); } ?></span></p>
-					<a class="revealOnScroll" href="https://twitter.com/nextclouders">more</a>
+					<a href="https://twitter.com/nextclouders">more</a>
 				</div>
 				<div class="col-md-4">
-					<h3 class="revealOnScroll"><?php echo $l->t('Latest from the forum');?></h3>
+					<h3><?php echo $l->t('Latest from the forum');?></h3>
 					<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_FORUM::show(0,4); }?></span></p>
-					<a class="revealOnScroll" href="https://help.nextcloud.com">more</a>
+					<a href="https://help.nextcloud.com">more</a>
 				</div>
 			</div>
 		</div>
@@ -349,7 +349,7 @@
 
 <section class="stay-up-to-date">
 	<div class="container text-center">
-		<h5 class="section--heading-2 revealOnScroll"><?php echo $l->t('Stay up to date with latest enhancements');?></h5>
+		<h5 class="section--heading-2"><?php echo $l->t('Stay up to date with latest enhancements');?></h5>
 		<p class="section--paragraph"><?php echo $l->t('Subscribe to our newsletter and never miss anything');?></p>
 		<a class="button button--blue button--arrow button--large" href="https://newsletter.nextcloud.com/?p=subscribe&id=1" role="button"><?php echo $l->t('Subscribe');?></a>
 	</div>

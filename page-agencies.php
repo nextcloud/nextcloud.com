@@ -62,17 +62,17 @@ require(["require.config"], function() {
 <section class="section--overview">
 <div class="container">
 	<div class="row">
-		<div class="col-md-4 revealOnScroll">
+		<div class="col-md-4">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/mobile.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Easy access anywhere');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Uploading and downloading large files via the browser, mobile devices or synced to desktops easy as pie and fast as lightning.');?></p>
 		</div>
-		<div class="col-md-4 revealOnScroll">
+		<div class="col-md-4">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/permissions.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Ultimate security');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Keeps your valuable files on your own infrastructure, saving costs, improving performance and keeping you in control!');?></p>
 		</div>
-		<div class="col-md-4 revealOnScroll">
+		<div class="col-md-4">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/machine.svg" /></div>
 			<p class="section--paragraph__tittle text-center"><?php echo $l->t('Deep integration');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Works well with your preferred creative tools such as Adobe InDesign, Lightroom, Illustrator, Photoshop and Premiere.');?></p>
@@ -99,17 +99,17 @@ require(["require.config"], function() {
 <section class="section--collaboration">
 	<div class="container">
         <div class="row">
-            <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Exchange and share on your terms');?></p>
-            <h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Seamless Collaboration');?></h3>
+            <p class="section--intro text-center"><?php echo $l->t('Exchange and share on your terms');?></p>
+            <h3 class="section--heading-1 text-center"><?php echo $l->t('Seamless Collaboration');?></h3>
             <div class="easy--ilustration"></div>
-            <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Collaboration features in Nextcloud notify users of comments on a file and let them seamlessly switch to real-time chat or video call communication to discuss a campaign or design.');?></p>
+            <p class="section--intro text-center"><?php echo $l->t('Collaboration features in Nextcloud notify users of comments on a file and let them seamlessly switch to real-time chat or video call communication to discuss a campaign or design.');?></p>
         </div>
         <div class="row">
-            <div class="col-md-6 revealOnScroll">
+            <div class="col-md-6">
                 <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
-            <div class="col-md-6 revealOnScroll feature--block">
+            <div class="col-md-6 feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Internal and external sharing');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Creative minds from around the world can connect through Nextcloud, sharing their work in one location. Nextcloud lets you share any number large and small files with colleagues, customers and partners, seamlessly and easily.');?></p>
                 <a href="<?php echo home_url('sharing') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('More about sharing');?></a>
@@ -131,31 +131,31 @@ require(["require.config"], function() {
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-6 revealOnScroll image--floated">
+            <div class="col-md-6 image--floated">
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/comments-nw.png" alt="in action"/></a>
             </div>
-            <div class="col-md-6 revealOnScroll feature--block">
+            <div class="col-md-6 feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Discuss your work');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Users can comment on files and see what files have new comments. The interface auto-completes user names for easy mentioning of others so they get notified.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('With Nextcloud, sharing and collaboration are the same thing.');?></p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 revealOnScroll">
+            <div class="col-md-6">
                 <div data-type="youtube" data-video-id="Nr7cGN6ZJM0"></div>
                 <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/Nr7cGN6ZJM0" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col-md-6 revealOnScroll feature--block">
+            <div class="col-md-6 feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Communication the way you need it');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Any user avatar can be clicked to start a real-time chat or audio/video call, moving seamlessly from asynchronous communication to real-time.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud provides a single platform for communication, reducing the number of channels and making collaboration more efficient.');?></p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 revealOnScroll image--floated">
+            <div class="col-md-6 image--floated">
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/file-access-control-nw.png" alt="in action"/></a>
             </div>
-            <div class="col-md-6 revealOnScroll feature--block">
+            <div class="col-md-6 feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Secure, efficient Digital Asset Management');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Tags, automatic categorization and full text search make finding your files a breeze. Tune your work flow to optimize accessibility and efficiency.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud File Access Control feature ensures your data stays completely under your control, blocking unauthorized access according to definitions your IT team can set.');?></p> <p class="section--paragraph"><?php echo $l->t('Guarantee your customers 100% legal compliance and secure handling of even their most sensitive data!');?></p>
@@ -163,21 +163,21 @@ require(["require.config"], function() {
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 revealOnScroll">
+            <div class="col-md-6">
                 <div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/jwhfeJlYBbM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
-            <div class="col-md-6 revealOnScroll feature--block">
+            <div class="col-md-6 feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Secure sharing by mail');?></p>
-                <p class="section--paragraph revealOnScroll"><?php echo $l->t('A creative manager can easily share files to a remote freelancer or a photographer and vice-versa via the Nextcloud Secure Sharing Outlook Plugin, avoiding large email attachments, reducing traffic and increasing speed.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('A creative manager can easily share files to a remote freelancer or a photographer and vice-versa via the Nextcloud Secure Sharing Outlook Plugin, avoiding large email attachments, reducing traffic and increasing speed.');?></p>
                 <a href="<?php echo home_url('outlook') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Email integration');?></a>
             </div>
         </div>
         <div class="row feature-row">
-            <div class="col-md-6 revealOnScroll image--feature image--floated new-img">
+            <div class="col-md-6 image--feature image--floated new-img">
                 <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ransomware-recovery.png" alt="in action"/></a>
             </div>
-            <div class="col-md-6 revealOnScroll feature--block">
+            <div class="col-md-6 feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Best Ransomware protection in the industry');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Ransomware attacks are becoming more targetted as lots of money can be extracted from businesses and government organizations. While insurance can cover direct costs, the disruption to business is immense regardless. Nextcloud goes far beyond competing solutions, offering automated, one-click ransomware recovery tools.');?></p>
                 <a href="https://nextcloud.com/blog/amidst-rising-ransomware-costs-another-us-city-pays-hundreds-of-thousands-to-recover-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Ransomware risks and protection');?></a>
@@ -188,12 +188,12 @@ require(["require.config"], function() {
 
 <section class="section--getstarted">
     <div class="container-fluid quote">
-        <h2 class="text-center revealOnScroll"><?php echo $l->t('Advertising is all about collaboration.');?></h2>
-        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('You need to work efficiently with colleagues, partners and clients, without having to forego privacy and security.');?></p>
-        <p class="section--paragraph section--text--center revealOnScroll"><?php echo $l->t('Nextcloud enables you to focus on creativity, taking care that your data stays accessible and under your control!');?></p>
+        <h2 class="text-center"><?php echo $l->t('Advertising is all about collaboration.');?></h2>
+        <p class="section--paragraph section--text--center"><?php echo $l->t('You need to work efficiently with colleagues, partners and clients, without having to forego privacy and security.');?></p>
+        <p class="section--paragraph section--text--center"><?php echo $l->t('Nextcloud enables you to focus on creativity, taking care that your data stays accessible and under your control!');?></p>
         <div class="container">
             <div class="row">
-                <div class="col-md-12 featureblock revealOnScroll">
+                <div class="col-md-12 featureblock">
                     <div class="row text-center">
                         <a href="<?php echo home_url('install') ?>" class="button button--arrow button--large"><?php echo $l->t('Try Nextcloud Files');?></a>
                         <a href="<?php echo home_url('buy') ?>" class="button button--arrow button--large"><?php echo $l->t('Contact sales');?></a>
@@ -207,16 +207,16 @@ require(["require.config"], function() {
 <section class="section--limitations">
 	<div class="container">
         <div class="row">
-            <p class="section--intro text-center revealOnScroll"><?php echo $l->t('No limitations');?></p>
-            <h3 class="section--heading-1 text-center revealOnScroll"><?php echo $l->t('Wherever you are');?></h3>
+            <p class="section--intro text-center"><?php echo $l->t('No limitations');?></p>
+            <h3 class="section--heading-1 text-center"><?php echo $l->t('Wherever you are');?></h3>
             <div class="balancer--ilustration"></div>
-            <p class="section--intro text-center revealOnScroll"><?php echo $l->t('Nextcloud runs on your infrastructure, making data accessible to your team anywhere, anytime');?></p>
+            <p class="section--intro text-center"><?php echo $l->t('Nextcloud runs on your infrastructure, making data accessible to your team anywhere, anytime');?></p>
         </div>
         <div class="row">
-            <div class="col-md-6 revealOnScroll">
+            <div class="col-md-6">
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/securedrop-drop-nw.png" alt="in action"/></a>
             </div>
-            <div class="col-md-6 revealOnScroll feature--block">
+            <div class="col-md-6 feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Unlimited everything');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud has no limits other than the size of your file storage system. However big the file, however many you have or people you share with, Nextcloud will serve the users the data they need at lighting speed.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Whether you keep data on a NAS, FTP, NFS, Windows Network Drive, Amazon S3 or other object storage, Nextcloud provides seamless access, sharing and collaboration.');?></p>
@@ -224,11 +224,11 @@ require(["require.config"], function() {
             </div>
         </div>
        <div class="row">
-            <div class="col-md-6 revealOnScroll image--floated">
+            <div class="col-md-6 image--floated">
                 <div data-type="youtube" data-video-id="I5wcLS9xxMw"></div>
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/I5wcLS9xxMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
-            <div class="col-md-6 revealOnScroll feature--block">
+            <div class="col-md-6 feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('At any scale');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Offices all over the world? Need to keep data from Singapore and Brisbane separate from data in London and New York? Need some data in both places and others only in one?');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud Global Scale offers a unique solution to global availability of data at incredible cost efficiency. Store, edit and share files across any number of offices without limitations or losing control!');?></p>
@@ -241,7 +241,7 @@ require(["require.config"], function() {
 <section class="section--features">
 <div class="container-widest">
 	<h1 class="section--heading-1 section--text--center"><?php echo $l->t('Key features in Nextcloud');?></h1>
-    <div class="row revealOnScroll">
+    <div class="row">
         <div class="col-md-1 featureblock">
             <i class="fa-server fa"></i>
         </div>
@@ -261,7 +261,7 @@ require(["require.config"], function() {
         <p class=""><?php echo $l->t('Desktop and mobile clients for Windows/MacOS/Linux, Android and iOS complement the web interface, integrating in the file system. Nextcloud can also be reached through WebDAV.');?></p>
         </div>
     </div>
-    <div class="row revealOnScroll">
+    <div class="row">
         <div class="col-md-1 featureblock">
         <i class="fa-puzzle-piece fa"></i>
         </div>
@@ -281,7 +281,7 @@ require(["require.config"], function() {
         <p class=""><?php echo $l->t('Nextcloud offers fine-grained control from mobile, desktop or the Web over data access and sharing capabilities. Advanced quota management with configurable accounting of external storage and configurable file retention policies.');?></p>
         </div>
     </div>
-    <div class="row revealOnScroll">
+    <div class="row">
         <div class="col-md-8 col-md-offset-2 featureblock">
         <p class="text-center"><a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('First class enterprise support with custom integration and security consulting available</a>.');?></p>
         </div>

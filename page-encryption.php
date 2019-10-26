@@ -62,7 +62,7 @@
 	<div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <h2 class="revealOnScroll"><?php echo $l->t('Server-side Encryption');?></h2>
+                <h2><?php echo $l->t('Server-side Encryption');?></h2>
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <p><label for="email"><?php echo $l->t('Download our free whitepaper');?><br>
                      <td colspan="2" style="text-align:center">
@@ -176,7 +176,7 @@
 	<div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <h2 class="revealOnScroll"><?php echo $l->t('End-to-end Encryption');?></h2>
+                <h2><?php echo $l->t('End-to-end Encryption');?></h2>
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <p><label for="email"><?php echo $l->t('Download our free whitepaper');?><br>
                      <td colspan="2" style="text-align:center">

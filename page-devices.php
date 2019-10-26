@@ -16,7 +16,7 @@ require(["require.config"], function() {
 <div class="background sharing-background">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 revealOnScroll topheader">
+            <div class="col-md-6 topheader">
                 <h1><?php echo $l->t('Keep your server at home.');?></h1>
                 <h2><?php echo $l->t('Companies all around us build hardware Nextcloud runs on out of the box.');?></h2>
             </div>
@@ -34,7 +34,7 @@ require(["require.config"], function() {
 <section class="section--devices">
     <div class="container">
         <h4>Currently available</h4>
-        <div class="row revealOnScroll feature--block">
+        <div class="row feature--block">
             <div class="col-md-5">
                 <a href="https://ownyourbits.com/nextcloudpi/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/box/nextcloudpi.png" class="img-responsive featureimg" /></a>
             </div>
@@ -51,7 +51,7 @@ require(["require.config"], function() {
                 <a href="https://ownyourbits.com/nextcloudpi/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
             </div>
         </div>
-        <div class="row revealOnScroll feature--block">
+        <div class="row feature--block">
             <div class="col-md-5">
                 <a href="https://shop.hanssonit.se/product/nextcloud-home-sme-server/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/box/nuc2.jpg" class="img-responsive featureimg" /></a>
             </div>
@@ -69,7 +69,7 @@ require(["require.config"], function() {
                 <a href="https://shop.hanssonit.se/product/nextcloud-home-sme-server/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more and order');?></a>
             </div>
         </div>
-        <div class="row revealOnScroll feature--block">
+        <div class="row feature--block">
             <div class="col-md-5">
                 <a href="<?php bloginfo('template_directory'); ?>/assets/img/syncloud/syncloud.jpg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/syncloud/syncloud.jpg" class="img-responsive featureimg" /></a>
             </div>
@@ -83,7 +83,7 @@ require(["require.config"], function() {
                 <a href="http://syncloud.org" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
             </div>
         </div>
-        <div class="row revealOnScroll feature--block">
+        <div class="row feature--block">
             <div class="col-md-5">
                 <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/indiecomputing/ubosbox-nextcloud-on-nuc-model-a-on-500x375.png" class="img-responsive featureimg" /></a>
             </div>
@@ -103,7 +103,7 @@ require(["require.config"], function() {
                 <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more and order');?></a>
             </div>
         </div>
-        <div class="row revealOnScroll feature--block">
+        <div class="row feature--block">
             <div class="col-md-5">
                 <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-raspberrypi/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/indiecomputing/ubosbox-nextcloud-on-raspberrypi-on-500x375.png" class="img-responsive featureimg" /></a>
             </div>
@@ -126,7 +126,7 @@ require(["require.config"], function() {
         </div>
 
         <h4>Announced, but not yet available</h4>
-        <div class="row revealOnScroll feature--block">
+        <div class="row feature--block">
             <div class="col-md-5">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/box/MOX.png" class="img-responsive featureimg" />
             </div>
@@ -141,7 +141,7 @@ require(["require.config"], function() {
                 <a href="https://nextcloud.com/blog/turris-mox-adds-nextcloud-to-put-users-back-in-control-over-their-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
             </div>
         </div>
-        <div class="row revealOnScroll feature--block">
+        <div class="row feature--block">
             <div class="col-md-5">
                 <a href="https://spreedbox.me/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/spreedbox/spreedbox.png" class="img-responsive featureimg" /></a>
             </div>
@@ -159,7 +159,7 @@ require(["require.config"], function() {
         </div>
 
         <h4>Sold out, or not available any more</h4>
-        <div class="row revealOnScroll feature--block" id="nextcloud-box">
+        <div class="row feature--block" id="nextcloud-box">
             <div class="col-md-5">
                 <a href="<?php echo home_url('box') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/box/box-perspective.png" class="img-responsive featureimg" /></a>
             </div>
