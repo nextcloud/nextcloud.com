@@ -50,17 +50,10 @@
 section {
   padding-top: 80px;
   padding-bottom: 80px; }
-  section .container .section--intro {
-    max-width: 43.2487792969em;
-    margin: 15px auto; }
 
 .separator {
   height: 40px;
   background: #f6f6f6; }
-
-.section--offer .container .section--intro {
-  max-width: 28.8325195313em;
-  margin: 15px auto; }
 
 .section--benefits {
   padding-top: 0; }

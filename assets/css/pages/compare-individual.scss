@@ -23,13 +23,6 @@ section {
 	}
 }
 
-.section--intro {
-	blockquote {
-		font-size: 20px;
-		font-weight: 400;
-	}
-}
-
 .section--capabilities {
 	.logo {
 		max-width: 100px;
@@ -150,10 +143,6 @@ section {
 
 .section--integrated {
     .container {
-        .section--intro {
-            max-width: ms(9);
-            margin: 0 auto;
-        }
         .section--heading-1 {
             padding-bottom: 0px;
         }
@@ -182,10 +171,6 @@ section {
 		padding-bottom: 20px;
 		margin-left: 15px;
 		margin-right: 15px;
-		.section--intro {
-			max-width: ms(9);
-			margin: 0 auto;
-		}
 	}
 	.section--heading-1 {
 		padding-bottom: 60px;

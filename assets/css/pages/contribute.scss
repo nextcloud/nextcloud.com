@@ -11,10 +11,6 @@ footer.page-footer {
 	margin-top: 0;
 }
 
-.section--intro {
-    padding-top: 80px;
-}
-
 .section--contribute {
 	padding-top: 30px;
 /* 	display: inline-block; */
@@ -24,19 +20,6 @@ footer.page-footer {
 	.section--heading-1 {
 		padding: 80px 0 30px 0;
 	}
-
-	.section--intro {
-		font-weight: 600;
-		padding-top: 30px;
-        color: $dark-blue;
-
-		@media (max-width: $break-small) {
-			text-align: left !important;
-		}
-	}
-	img {
-        padding: 15px;
-    }
 }
 
 .calltoaction {

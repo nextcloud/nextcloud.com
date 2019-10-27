@@ -219,10 +219,10 @@ require(["require.config"], function() {
 <section class="section--modern">
 	<div class="container">
         <div class="row">
-            <p class="section--intro text-center"><?php echo $l->t('Features');?></p>
-            <h3 class="section--heading-1 text-center"><?php echo $l->t('Everything you need');?></h3>
+            <h3 class="section--intro text-center"><?php echo $l->t('Features');?></h3>
+            <h1 class="section--heading-1 text-center"><?php echo $l->t('Everything you need');?></h1>
             <div class="modern--ilustration"></div>
-            <p class="section--intro text-center"><?php echo $l->t('Nextcloud offers everything you need for efficient, secure document management.');?></p>
+            <h3 class="section--intro text-center"><?php echo $l->t('Nextcloud offers everything you need for efficient, secure document management.');?></h3>
         </div>
          <div class="row feature-row">
             <div class="col-md-6">
@@ -293,10 +293,10 @@ require(["require.config"], function() {
 <section class="section--secure">
 <div class="container">
     <div class="row">
-        <p class="section--intro text-center"><?php echo $l->t('Data protection');?></p>
-        <h3 class="section--heading-1 text-center"><?php echo $l->t('Secure your data');?></h3>
+        <h3 class="section--intro text-center"><?php echo $l->t('Data protection');?></h3>
+        <h1 class="section--heading-1 text-center"><?php echo $l->t('Secure your data');?></h1>
         <div class="distribution--ilustration"></div>
-        <p class="section--intro text-center"><?php echo $l->t('
+        <h3 class="section--intro text-center"><?php echo $l->t('
         While data needs to be at financial professionals\' finger tips at all times, the IT department must ensure that policies around securing and sharing sensitive documents are respected.');?></p>
     </div>
     <div class="row">

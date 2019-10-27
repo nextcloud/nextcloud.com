@@ -245,10 +245,10 @@ require(["require.config"], function() {
 <section class="section--easy">
 	<div class="container">
         <div class="row">
-            <p class="section--intro text-center "><?php echo $l->t('Ease of use');?></p>
-            <h3 class="section--heading-1 text-center "><?php echo $l->t('Simple yet powerful');?></h3>
+            <h3 class="section--intro text-center "><?php echo $l->t('Ease of use');?></h3>
+            <h1 class="section--heading-1 text-center "><?php echo $l->t('Simple yet powerful');?></h1>
             <div class="easy--ilustration"></div>
-            <p class="section--intro text-center "><?php echo $l->t('Usability is crucial for productivity and thus a key focus for Nextcloud. Many of our customers in the educational market chose Nextcloud explicitly for its ease of use.');?></p>
+            <h3 class="section--intro text-center "><?php echo $l->t('Usability is crucial for productivity and thus a key focus for Nextcloud. Many of our customers in the educational market chose Nextcloud explicitly for its ease of use.');?></h3>
         </div>
         <div class="row">
             <div class="col-md-10 col-md-offset-1  feature--block">
@@ -348,11 +348,11 @@ require(["require.config"], function() {
 <section class="section--scalability">
 <div class="container">
     <div class="row">
-        <p class="section--intro text-center "><?php echo $l->t('Scalability');?></p>
-        <h3 class="section--heading-1 text-center "><?php echo $l->t('Handles millions of users');?></h3>
+        <h3 class="section--intro text-center "><?php echo $l->t('Scalability');?></h3>
+        <h1 class="section--heading-1 text-center "><?php echo $l->t('Handles millions of users');?></h1>
         <div class="efficiency--ilustration"></div>
-        <p class="section--intro text-center "><?php echo $l->t('Universities deal with large amounts of data. In 2014, students at the TU Berlin had 10GB of storage assigned, growing to 30GB quota for students and 100GB for staff in 2017. The TU Berlin\'s 22.000 users are storing 70TB of data and changing over 80.000 files out of a total of over 100 million every day.');?></p>
-        <p class="section--intro text-center "><?php echo $l->t('Nextcloud handles such numbers with ease as evident at universities around the globe.');?></p>
+        <h3 class="section--intro text-center "><?php echo $l->t('Universities deal with large amounts of data. In 2014, students at the TU Berlin had 10GB of storage assigned, growing to 30GB quota for students and 100GB for staff in 2017. The TU Berlin\'s 22.000 users are storing 70TB of data and changing over 80.000 files out of a total of over 100 million every day.');?></h3>
+        <h3 class="section--intro text-center "><?php echo $l->t('Nextcloud handles such numbers with ease as evident at universities around the globe.');?></h3>
     </div>
     <div class="row  ">
         <div class="col-md-10 col-md-offset-1 feature--block">
@@ -435,10 +435,10 @@ require(["require.config"], function() {
 <section class="section--control">
 <div class="container">
     <div class="row">
-        <p class="section--intro text-center "><?php echo $l->t('Control');?></p>
-        <h3 class="section--heading-1 text-center "><?php echo $l->t('Secures your data');?></h3>
+        <h3 class="section--intro text-center "><?php echo $l->t('Control');?></h3>
+        <h1 class="section--heading-1 text-center "><?php echo $l->t('Secures your data');?></h1>
         <div class="distribution--ilustration"></div>
-        <p class="section--intro text-center "><?php echo $l->t('While data needs to be at users\' finger tips at any time, the IT department must to be able to ensure policies around protection of intellectual property, legal requirements and privacy are respected.');?></p>
+        <h3 class="section--intro text-center "><?php echo $l->t('While data needs to be at users\' finger tips at any time, the IT department must to be able to ensure policies around protection of intellectual property, legal requirements and privacy are respected.');?></h3>
     </div>
     <div class="row">
         <div class="col-md-6 ">

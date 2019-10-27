@@ -168,10 +168,10 @@ require(["require.config"], function() {
 <section class="section--convenient">
 	<div class="container">
         <div class="row">
-            <p class="section--intro text-center"><?php echo $l->t('Easy access to data');?></p>
-            <h3 class="section--heading-1 text-center"><?php echo $l->t('Putting the user first');?></h3>
+            <h3 class="section--intro text-center"><?php echo $l->t('Easy access to data');?></h3>
+            <h1 class="section--heading-1 text-center"><?php echo $l->t('Putting the user first');?></h1>
             <div class="easy--ilustration"></div>
-            <p class="section--intro text-center"><?php echo $l->t('Internal reports, citizen data and politically sensitive documents can be stored safely and shared easily among the professionals who need access.');?></p>
+            <h3 class="section--intro text-center"><?php echo $l->t('Internal reports, citizen data and politically sensitive documents can be stored safely and shared easily among the professionals who need access.');?></h3>
         </div>
         <div class="row">
             <div class="col-md-10 col-md-offset-1 feature--block">
@@ -256,10 +256,10 @@ require(["require.config"], function() {
 <section class="section--secure">
 <div class="container">
     <div class="row">
-        <p class="section--intro text-center"><?php echo $l->t('Data protection');?></p>
-        <h3 class="section--heading-1 text-center"><?php echo $l->t('Secure your data');?></h3>
+        <h3 class="section--intro text-center"><?php echo $l->t('Data protection');?></h3>
+        <h1 class="section--heading-1 text-center"><?php echo $l->t('Secure your data');?></h1>
         <div class="distribution--ilustration"></div>
-        <p class="section--intro text-center"><?php echo $l->t('While data needs to be at professionals\' finger tips at all times, the IT department must be able to ensure policies around sensitive data are respected.');?></p>
+        <h3 class="section--intro text-center"><?php echo $l->t('While data needs to be at professionals\' finger tips at all times, the IT department must be able to ensure policies around sensitive data are respected.');?></h3>
     </div>
     <div class="row">
         <div class="col-md-10 col-md-offset-1 feature--block">
@@ -359,11 +359,11 @@ require(["require.config"], function() {
 <section class="section--integrated">
 <div class="container">
     <div class="row">
-        <p class="section--intro text-center"><?php echo $l->t('Easy integration');?></p>
-        <h3 class="section--heading-1 text-center"><?php echo $l->t('Efficient deployment and management');?></h3>
+        <h3 class="section--intro text-center"><?php echo $l->t('Easy integration');?></h3>
+        <h1 class="section--heading-1 text-center"><?php echo $l->t('Efficient deployment and management');?></h1>
         <div class="efficiency--ilustration"></div>
-        <p class="section--intro text-center"><?php echo $l->t('Complexity is the enemy of security and Nextcloud is designed to offer quick and easy integration in existing infrastructure, leaving policies and procedures in place. Its powerful LDAP and storage integration seamlessly fits with existing user directories, Windows Network Drive, NFS and Sharepoint storage solutions.');?></p>
-        <p class="section--intro text-center"><?php echo $l->t('The result: a quick implementation at low cost, and easy maintenance making a self-hosted Nextcloud the cloud compliance solution with the lowest TCO.');?></p>
+        <h3 class="section--intro text-center"><?php echo $l->t('Complexity is the enemy of security and Nextcloud is designed to offer quick and easy integration in existing infrastructure, leaving policies and procedures in place. Its powerful LDAP and storage integration seamlessly fits with existing user directories, Windows Network Drive, NFS and Sharepoint storage solutions.');?></h3>
+        <h3 class="section--intro text-center"><?php echo $l->t('The result: a quick implementation at low cost, and easy maintenance making a self-hosted Nextcloud the cloud compliance solution with the lowest TCO.');?></h3>
     </div>
 </div>
 <div class="container">

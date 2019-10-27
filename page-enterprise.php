@@ -45,8 +45,8 @@
 <section class="section--offer">
 	<div class="container">
 		<h1 class="section--heading-1 text-center"><?php echo $l->t('Scaleable, secure and tested');?></h1>
-		<p class="section--intro text-center"><?php echo $l->t('Nextcloud Enterprise gives professional organizations software optimized and tested for mission critical environments.');?></p>
-		<p class="section--intro text-center"><?php echo $l->t('Nextcloud Enterprise is backed by a Nextcloud Subscription with the services and expertise needed for quick deployment and reliable service.');?></p>
+		<h3 class="section--intro text-center"><?php echo $l->t('Nextcloud Enterprise gives professional organizations software optimized and tested for mission critical environments.');?></h3>
+		<h3 class="section--intro text-center"><?php echo $l->t('Nextcloud Enterprise is backed by a Nextcloud Subscription with the services and expertise needed for quick deployment and reliable service.');?></h3>
 	</div>
 </section>
 
@@ -196,7 +196,7 @@
 <a name="capabilities" id="capabilities"></a>
 <section class="section--whitepaper">
     <div class="container">
-        <p class="section--intro text-center"><?php echo $l->t('What you need');?></p>
+        <h3 class="section--intro text-center"><?php echo $l->t('What you need');?></h3>
         <h1 class="text-center section--heading-1"><?php echo $l->t('Nextcloud Enterprise Capabilities');?></h1>
         <div class="row">
             <div class="col-md-6">

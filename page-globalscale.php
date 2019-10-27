@@ -65,7 +65,7 @@ require(["require.config"], function() {
 <section class="section--offer quote">
 	<div class="container">
 		<h1 class="section--heading-1 text-center"><?php echo $l->t('The Next Generation');?></h1>
-		<p class="section--intro text-center"><?php echo $l->t('Nextcloud Global Scale was designed to lift enterprise collaboration to a new level, overcoming limitations in building large scale file storage, sync & share solutions. It delivers significant cost savings and increased flexibility.');?></p>
+		<h3 class="section--intro text-center"><?php echo $l->t('Nextcloud Global Scale was designed to lift enterprise collaboration to a new level, overcoming limitations in building large scale file storage, sync & share solutions. It delivers significant cost savings and increased flexibility.');?></h3>
 		<div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <p class="text-center"><?php echo $l->t('Improve productivity and communication while cutting operational expenses with the most scalable content collaboration platform.');?></p>
@@ -79,11 +79,11 @@ require(["require.config"], function() {
 
 <section class="section--scalability">
 	<div class="container">
-		<p class="section--intro text-center"><?php echo $l->t('Scalability');?></p>
-		<h3 class="section--heading-1 text-center"><?php echo $l->t('Go orders of magnitude further');?></h3>
+		<h3 class="section--intro text-center"><?php echo $l->t('Scalability');?></h3>
+		<h1 class="section--heading-1 text-center"><?php echo $l->t('Go orders of magnitude further');?></h1>
 		<div class="scalability__ilustration"></div>
-		<p class="section--intro text-center"><?php echo $l->t('It is hard to scale typical on-premises file sync & share architectures over a hundred thousand users. The shared components like storage, database and load balancers become expensive bottlenecks.');?></p>
-		<p class="section--intro text-center"><?php echo $l->t('Nextcloud Global Scale is designed to scale to hundreds of millions of users.');?></p>
+		<h3 class="section--intro text-center"><?php echo $l->t('It is hard to scale typical on-premises file sync & share architectures over a hundred thousand users. The shared components like storage, database and load balancers become expensive bottlenecks.');?></h3>
+		<h3 class="section--intro text-center"><?php echo $l->t('Nextcloud Global Scale is designed to scale to hundreds of millions of users.');?></h3>
 	</div>
 </section>
 
@@ -91,11 +91,11 @@ require(["require.config"], function() {
 
 <section class="section--efficiency">
 	<div class="container">
-		<p class="section--intro text-center"><?php echo $l->t('Efficiency');?></p>
-		<h3 class="section--heading-1 text-center"><?php echo $l->t('Transform your cost structure');?></h3>
+		<h3 class="section--intro text-center"><?php echo $l->t('Efficiency');?></h3>
+		<h1 class="section--heading-1 text-center"><?php echo $l->t('Transform your cost structure');?></h1>
 		<div class="efficiency__ilustration"></div>
-		<p class="section--intro text-center"><?php echo $l->t('At the petabyte scale, storage costs skyrocket. Database licensing costs increase exponentially at the top end and caching and hardware load balancers baloon the Total Cost of Ownership of large private cloud deployments.');?></p>
-		<p class="section--intro text-center"><?php echo $l->t('Nextcloud Global Scale enables deployment on commodity hardware and software, dramatically decreasing costs for large systems.');?></p>
+		<h3 class="section--intro text-center"><?php echo $l->t('At the petabyte scale, storage costs skyrocket. Database licensing costs increase exponentially at the top end and caching and hardware load balancers baloon the Total Cost of Ownership of large private cloud deployments.');?></h3>
+		<h3 class="section--intro text-center"><?php echo $l->t('Nextcloud Global Scale enables deployment on commodity hardware and software, dramatically decreasing costs for large systems.');?></h3>
 	</div>
 </section>
 
@@ -103,20 +103,20 @@ require(["require.config"], function() {
 
 <section class="section--distribution">
 	<div class="container">
-		<p class="section--intro text-center"><?php echo $l->t('Flexibility');?></p>
-		<h3 class="section--heading-1 text-center"><?php echo $l->t('Finetune your business');?></h3>
+		<h3 class="section--intro text-center"><?php echo $l->t('Flexibility');?></h3>
+		<h1 class="section--heading-1 text-center"><?php echo $l->t('Finetune your business');?></h1>
 		<div class="distribution__ilustration"></div>
-		<p class="section--intro text-center"><?php echo $l->t('Legal, business, security and performance considerations dictate that data can be precisely positioned. Creating multiple independent instances to achieve low latency or keep data in a specific jurisdiction increases management costs, complexity and security risks.');?></p>
-		<p class="section--intro text-center"><?php echo $l->t('Nextcloud Global Scale distributes data over multiple data centers while acting as a unified instance to users and administrators.');?></p>
+		<h3 class="section--intro text-center"><?php echo $l->t('Legal, business, security and performance considerations dictate that data can be precisely positioned. Creating multiple independent instances to achieve low latency or keep data in a specific jurisdiction increases management costs, complexity and security risks.');?></h3>
+		<h3 class="section--intro text-center"><?php echo $l->t('Nextcloud Global Scale distributes data over multiple data centers while acting as a unified instance to users and administrators.');?></h3>
 	</div>
 </section>
 
 <section class="section--how">
 <div class="container">
-	<p class="section--intro text-center"><?php echo $l->t('Decentralize');?></p>
-	<h3 class="section--heading-1 text-center"><?php echo $l->t('How it works');?></h3>
+	<h3 class="section--intro text-center"><?php echo $l->t('Decentralize');?></h3>
+	<h1 class="section--heading-1 text-center"><?php echo $l->t('How it works');?></h1>
 <!-- 	<div class="lifecycle__ilustration"></div> -->
-	<p class="section--intro text-center"><?php echo $l->t('Nextcloud Global Scale works by decentralizing data to independent nodes and introducing three new components to manage the interaction between servers.');?></p>
+	<h3 class="section--intro text-center"><?php echo $l->t('Nextcloud Global Scale works by decentralizing data to independent nodes and introducing three new components to manage the interaction between servers.');?></h3>
 </div>
 
 <div class="container components">

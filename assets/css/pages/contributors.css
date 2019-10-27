@@ -43,13 +43,6 @@ footer.page-footer {
   .section--contributors .section--heading-1 {
     padding: 80px 0 30px 0;
     text-align: center; }
-  .section--contributors .section--intro {
-    font-weight: 600;
-    padding-top: 30px;
-    color: #2a2a36; }
-    @media (max-width: 768px) {
-      .section--contributors .section--intro {
-        text-align: left !important; } }
   .section--contributors blockquote {
     float: right; }
   .section--contributors .contributorgroup {

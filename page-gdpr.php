@@ -33,10 +33,10 @@
 <section class="section--gdpr-apps">
 	<div class="container">
         <div class="row">
-            <p class="section--intro text-center"><?php echo $l->t('Making compliance easy');?></p>
-            <h3 class="section--heading-1 text-center"><?php echo $l->t('Nextcloud Compliance Kit');?></h3>
+            <h3 class="section--intro text-center"><?php echo $l->t('Making compliance easy');?></h3>
+            <h1 class="section--heading-1 text-center"><?php echo $l->t('Nextcloud Compliance Kit');?></h1>
             <div class="modern--ilustration"></div>
-            <p class="section--intro text-center"><?php echo $l->t('Nextcloud offers everything you need for GDPR compliance.');?></p>
+            <h3 class="section--intro text-center"><?php echo $l->t('Nextcloud offers everything you need for GDPR compliance.');?></h3>
         </div>
          <div class="row">
             <div class="col-md-3">
@@ -262,10 +262,10 @@
 <section class="section--secure">
 <div class="container">
     <div class="row">
-        <p class="section--intro text-center"><?php echo $l->t('Data protection');?></p>
-        <h3 class="section--heading-1 text-center"><?php echo $l->t('Secure your data');?></h3>
+        <h3 class="section--intro text-center"><?php echo $l->t('Data protection');?></h3>
+        <h1 class="section--heading-1 text-center"><?php echo $l->t('Secure your data');?></h1>
         <div class="distribution--ilustration"></div>
-        <p class="section--intro text-center"><?php echo $l->t('While data needs to be available for employees at all times, the IT department must be able to ensure policies around securing and sharing personal data are respected.');?></p>
+        <h3 class="section--intro text-center"><?php echo $l->t('While data needs to be available for employees at all times, the IT department must be able to ensure policies around securing and sharing personal data are respected.');?></h3>
     </div>
     <div class="row">
         <div class="col-md-10 col-md-offset-1 feature--block">
@@ -336,7 +336,7 @@
 <section class="section--features">
     <div class="container">
         <h1 class="section--heading-1 text-center"><?php echo $l->t('The best of both');?></h1>
-        <p class="section--intro text-center"><?php echo $l->t('Compliance and security without losing productivity');?></p>
+        <h3 class="section--intro text-center"><?php echo $l->t('Compliance and security without losing productivity');?></h3>
         <div class="row feature-row">
             <div class="col-md-6">
                 <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/web-ui-nw.png" alt="in action"/></a>
@@ -403,11 +403,11 @@
 <section class="section--integrated">
 <div class="container">
     <div class="row">
-        <p class="section--intro text-center"><?php echo $l->t('Easy integration');?></p>
-        <h3 class="section--heading-1 text-center"><?php echo $l->t('Efficient deployment and management');?></h3>
+        <h3 class="section--intro text-center"><?php echo $l->t('Easy integration');?></h3>
+        <h1 class="section--heading-1 text-center"><?php echo $l->t('Efficient deployment and management');?></h1>
         <div class="efficiency--ilustration"></div>
-        <p class="section--intro text-center"><?php echo $l->t('Complexity is the enemy of security and Nextcloud is designed to offer quick and easy integration in existing infrastructure, leaving policies and procedures in place. Its powerful LDAP and storage integration seamlessly fits with existing user directories, Windows Network Drive, NFS and Sharepoint storage solutions.');?></p>
-        <p class="section--intro text-center"><?php echo $l->t('The result: a quick implementation at low cost, and easy maintenance making a self-hosted Nextcloud the cloud compliance solution with the lowest TCO.');?></p>
+        <h3 class="section--intro text-center"><?php echo $l->t('Complexity is the enemy of security and Nextcloud is designed to offer quick and easy integration in existing infrastructure, leaving policies and procedures in place. Its powerful LDAP and storage integration seamlessly fits with existing user directories, Windows Network Drive, NFS and Sharepoint storage solutions.');?></h3>
+        <h3 class="section--intro text-center"><?php echo $l->t('The result: a quick implementation at low cost, and easy maintenance making a self-hosted Nextcloud the cloud compliance solution with the lowest TCO.');?></h3>
     </div>
 </div>
 <div class="container">

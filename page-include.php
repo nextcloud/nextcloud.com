@@ -62,15 +62,15 @@
 <div class="separator"></div>
 <section class="section--mentoring">
 	<div class="container">
-		<p class="section--intro text-center"><?php echo $l->t('Mentoring');?></p>
-		<h3 class="section--heading-1 text-center"><?php echo $l->t('Help to get started');?></h3>
+		<h3 class="section--intro text-center"><?php echo $l->t('Mentoring');?></h3>
+		<h1 class="section--heading-1 text-center"><?php echo $l->t('Help to get started');?></h1>
 		<div class="ilustration ilustration__expertise">
 			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/ilustration_matterexperts-new.svg"); ?>
 		</div>
-		<p class="section--intro text-center"><?php echo $l->t('There are many areas in Nextcloud you can get involved in. From technical tasks like building an app, design, coding on the front or back-end to translation and helping out on the forums.');?></p>
-		<p class="section--intro text-center"><?php echo $l->t('We want to enable everyone to get involved and we recognize that the privileged nature of the tech community is an extra barrier for underrepresented groups. We hope to help lower that barrier by connecting you directly to somebody who wants to help you.');?></p>
-		<p class="section--intro text-center"><?php echo $l->t('We have a number of people who are happy to help you get started!');?></p>
-		<p class="section--intro text-center"><a class="button button--blue button--arrow button--large" href="#mentors"><?php echo $l->t('Our mentors');?></a></p>
+		<h3 class="section--intro text-center"><?php echo $l->t('There are many areas in Nextcloud you can get involved in. From technical tasks like building an app, design, coding on the front or back-end to translation and helping out on the forums.');?></h3>
+		<h3 class="section--intro text-center"><?php echo $l->t('We want to enable everyone to get involved and we recognize that the privileged nature of the tech community is an extra barrier for underrepresented groups. We hope to help lower that barrier by connecting you directly to somebody who wants to help you.');?></h3>
+		<h3 class="section--intro text-center"><?php echo $l->t('We have a number of people who are happy to help you get started!');?></h3>
+		<h3 class="section--intro text-center"><a class="button button--blue button--arrow button--large" href="#mentors"><?php echo $l->t('Our mentors');?></a></h3>
 	</div>
 </section>
 
@@ -78,15 +78,15 @@
 
 <section class="section--travelsupport">
 	<div class="container">
-		<p class="section--intro text-center"><?php echo $l->t('Travel Support');?></p>
-		<h3 class="section--heading-1 text-center"><?php echo $l->t('Participate in events');?></h3>
+		<h3 class="section--intro text-center"><?php echo $l->t('Travel Support');?></h3>
+		<h1 class="section--heading-1 text-center"><?php echo $l->t('Participate in events');?></h1>
 		<div class="ilustration ilustration__expertise">
 			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/people-cloud.svg"); ?>
 		</div>
-		<p class="section--intro text-center"><?php echo $l->t('The Nextcloud community meets regularly at big hackweeks or smaller ad-hoc ones all over Europe. We also host our yearly Nextcloud Conference and attend many events like FOSDEM and SCALE.');?></p>
-		<p class="section--intro text-center"><?php echo $l->t('We want to support participants from underrepresented groups in Open Source to join these events by sponsoring part or the whole of their transportation and accomodation costs.');?></p>
-		<p class="section--intro text-center"><?php echo $l->t('If you would like to join a Nextcloud event, let us know! We typically support 80% of the travel & hotel costs but we can accommodate you if that would not be sufficient. Don\'t hesitate to reach out and ask!');?></p>
-          <p class="section--intro text-center"><?php echo $l->t('If you don\'t think you are part of an underrepresented group in Open Source and need travel support, please do not reach out here. You can read more about our community travel support program <a href="https://nextcloud.com/events/#ts">here</a>.');?></p>
+		<h3 class="section--intro text-center"><?php echo $l->t('The Nextcloud community meets regularly at big hackweeks or smaller ad-hoc ones all over Europe. We also host our yearly Nextcloud Conference and attend many events like FOSDEM and SCALE.');?></h3>
+		<h3 class="section--intro text-center"><?php echo $l->t('We want to support participants from underrepresented groups in Open Source to join these events by sponsoring part or the whole of their transportation and accomodation costs.');?></h3>
+		<h3 class="section--intro text-center"><?php echo $l->t('If you would like to join a Nextcloud event, let us know! We typically support 80% of the travel & hotel costs but we can accommodate you if that would not be sufficient. Don\'t hesitate to reach out and ask!');?></h3>
+          <h3 class="section--intro text-center"><?php echo $l->t('If you don\'t think you are part of an underrepresented group in Open Source and need travel support, please do not reach out here. You can read more about our community travel support program <a href="https://nextcloud.com/events/#ts">here</a>.');?></h3>
 		</div>
 </section>
 
@@ -94,14 +94,14 @@
 
 <section class="section--travelsupport">
 	<div class="container">
-		<p class="section--intro text-center"><?php echo $l->t('Internship');?></p>
-		<h3 class="section--heading-1 text-center"><?php echo $l->t('Join Nextcloud GmbH');?></h3>
+		<h3 class="section--intro text-center"><?php echo $l->t('Internship');?></h3>
+		<h1 class="section--heading-1 text-center"><?php echo $l->t('Join Nextcloud GmbH');?></h1>
 		<div class="ilustration ilustration__expertise">
 			<?php echo file_get_contents(get_template_directory_uri()."/assets/img/enterprise/security-new.svg"); ?>
 		</div>
-		<p class="section--intro text-center"><?php echo $l->t('Nextcloud is always on the look-out for new talents and we\'d like to give beginning developers, marketeers and sales people a chance to learn practical skills with us!');?></p>
-		<p class="section--intro text-center"><?php echo $l->t('We encourage people from underrepresented groups to apply for these positions and to send their resume.');?></p>
-		<p class="section--intro text-center"><?php echo $l->t('You can find open positions on our jobs page but please don\'t hesitate to send you resume if there is nothing that fits you - we just might not yet know we need you!');?></p>
+		<h3 class="section--intro text-center"><?php echo $l->t('Nextcloud is always on the look-out for new talents and we\'d like to give beginning developers, marketeers and sales people a chance to learn practical skills with us!');?></h3>
+		<h3 class="section--intro text-center"><?php echo $l->t('We encourage people from underrepresented groups to apply for these positions and to send their resume.');?></h3>
+		<h3 class="section--intro text-center"><?php echo $l->t('You can find open positions on our jobs page but please don\'t hesitate to send you resume if there is nothing that fits you - we just might not yet know we need you!');?></h3>
 		</div>
 </section>
 

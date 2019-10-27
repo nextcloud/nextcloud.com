@@ -20,16 +20,6 @@ footer.page-footer {
 		text-align: center;
 	}
 
-	.section--intro {
-		font-weight: 600;
-		padding-top: 30px;
-        color: $dark-blue;
-
-		@media (max-width: $break-small) {
-			text-align: left !important;
-		}
-	}
-
 	blockquote {
 		float: right;
 	}

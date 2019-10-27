@@ -62,13 +62,6 @@ section {
   .section--team .section--heading-1 {
     padding: 80px 0 30px 0;
     text-align: center; }
-  .section--team .section--intro {
-    font-weight: 600;
-    padding-top: 30px;
-    color: #2a2a36; }
-    @media (max-width: 768px) {
-      .section--team .section--intro {
-        text-align: left !important; } }
   .section--team .teamgroup {
     padding-top: 100px;
     width: 95%;

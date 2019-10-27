@@ -19,17 +19,6 @@ section {
 		padding: 80px 0 30px 0;
 		text-align: center;
 	}
-
-	.section--intro {
-		font-weight: 600;
-		padding-top: 30px;
-        color: $dark-blue;
-
-		@media (max-width: $break-small) {
-			text-align: left !important;
-		}
-	}
-
     .newsrow {
         margin-top: 70px;
 		margin-bottom: 30px;

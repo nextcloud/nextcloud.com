@@ -117,9 +117,6 @@ section {
 .section--secure .container {
   padding-top: ms(5);
   padding-bottom: ms(5); }
-  .section--secure .container .section--intro {
-    max-width: ms(9);
-    margin: 0 auto; }
   .section--secure .container .distribution--ilustration {
     background: url(../../img/globalscale/balancer.svg) no-repeat center/contain;
     height: 600px;

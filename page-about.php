@@ -51,6 +51,7 @@ require(["require.config"], function() {
         <h3 class="section--paragraph__title"><?php echo $l->t('Putting IT back in control');?></h3>
         <p class="section--paragraph"><?php echo $l->t('As a vendor of on-premises solutions, Nextcloud puts the customer in control over their data in the most literal and direct sense. Your data is in your data center, on a server managed by you, rather than floating somewhere in the cloud.');?></p>
         <p class="section--paragraph"><?php echo $l->t('Our products integrate powerful capabilities to control and monitor data exchange and communication, including our unique File Access Control and workflow features, extensive audit logs, fine-grained sharing controls and more.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('Unlike competitors, we offer hosting strictly through partners and have absolutely no incentive to lock our customers into a SAAS solution.');?></p>
          <h3 class="section--paragraph__title"><?php echo $l->t('Security first');?></h3>
         <p class="section--paragraph"><?php echo $l->t('Security is Nextcloud customers\' greatest concerns and our prime advantage over competitors. Nextcloud features a host of unique, innovative security technologies from brute force protection to advanced server side and integrated end-to-end, client side encryption with enterprise-grade key handling and a wide range of security hardenings. Our security has been reviewed by trusted third parties and is backed by a USD 10000 Security Bug Bounty Program, providing the confidence that data meant to stay private will stay private.');?></p>
 
@@ -106,7 +107,7 @@ require(["require.config"], function() {
 		<p class="section--paragraph"><?php echo $l->t('Fully employee-funded and pursuing an organic-growth strategy, Nextcloud already turned profitable by the end of 2016 and had nearly tripled to 35 employees by the end of 2017. See our full ');?><a class="hyperlink" href="<?php echo home_url('team') ?>"><?php echo $l->t('team here.');?></a> </p>
 
         <p class="section--paragraph"><?php echo $l->t('By January 2018, <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">after record growth in 2017</a>, Nextcloud had become the most sought-after Enterprise File Sync and Share solution <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">according to Google Trends</a> and was widely recognized as leading the on-premises Enterprise File Sync and Share industry.');?></p>
-
+        <p class="section--paragraph"><?php echo $l->t('With an estimated over 250.000 Nextcloud servers online, no other on-premises content collaboration platform comes close in terms of installed base.');?></p>
 		<p class="section--paragraph"><?php echo $l->t('You can follow what we are up to');?> <a class="hyperlink" href="<?php echo home_url('news') ?>"><?php echo $l->t('in our blogs</a> and subscribe to <a class="hyperlink" href="https://newsletter.nextcloud.com">our newsletter.</a>');?></p>
 	</div>
 </section>

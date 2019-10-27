@@ -328,7 +328,7 @@
 			<h1 class="section--heading-1"><?php echo $l->t('Latest news');?></h1>
 			<div class="row">
 				<div class="col-md-4">
-					<h3 class="section--heading-1"><?php echo $l->t('Nextcloud News</a>');?></h3>
+					<h1 class="section--heading-1"><?php echo $l->t('Nextcloud News</a>');?></h1>
 					<p><span class="social-feed"><?php if(CONTRIBOOK) { CONTRIBOOK_NEWS::show(0,4); } ?></span></p>
 					<a href="<?php echo home_url('news') ?>">more</a>
 				</div>

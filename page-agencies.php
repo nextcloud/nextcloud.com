@@ -99,10 +99,10 @@ require(["require.config"], function() {
 <section class="section--collaboration">
 	<div class="container">
         <div class="row">
-            <p class="section--intro text-center"><?php echo $l->t('Exchange and share on your terms');?></p>
-            <h3 class="section--heading-1 text-center"><?php echo $l->t('Seamless Collaboration');?></h3>
+            <h3 class="section--intro text-center"><?php echo $l->t('Exchange and share on your terms');?></h3>
+            <h1 class="section--heading-1 text-center"><?php echo $l->t('Seamless Collaboration');?></h1>
             <div class="easy--ilustration"></div>
-            <p class="section--intro text-center"><?php echo $l->t('Collaboration features in Nextcloud notify users of comments on a file and let them seamlessly switch to real-time chat or video call communication to discuss a campaign or design.');?></p>
+            <h3 class="section--intro text-center"><?php echo $l->t('Collaboration features in Nextcloud notify users of comments on a file and let them seamlessly switch to real-time chat or video call communication to discuss a campaign or design.');?></h3>
         </div>
         <div class="row">
             <div class="col-md-6">
@@ -207,10 +207,10 @@ require(["require.config"], function() {
 <section class="section--limitations">
 	<div class="container">
         <div class="row">
-            <p class="section--intro text-center"><?php echo $l->t('No limitations');?></p>
-            <h3 class="section--heading-1 text-center"><?php echo $l->t('Wherever you are');?></h3>
+            <h3 class="section--intro text-center"><?php echo $l->t('No limitations');?></h3>
+            <h1 class="section--heading-1 text-center"><?php echo $l->t('Wherever you are');?></h1>
             <div class="balancer--ilustration"></div>
-            <p class="section--intro text-center"><?php echo $l->t('Nextcloud runs on your infrastructure, making data accessible to your team anywhere, anytime');?></p>
+            <h3 class="section--intro text-center"><?php echo $l->t('Nextcloud runs on your infrastructure, making data accessible to your team anywhere, anytime');?></h3>
         </div>
         <div class="row">
             <div class="col-md-6">
