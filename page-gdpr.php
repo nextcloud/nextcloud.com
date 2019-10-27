@@ -123,7 +123,7 @@
     </div>
     <div class="row feature-row">
 		<div class="col-md-4">
-            <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/.png" alt="in action"/></a>
+            <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/CFRPart11.png" alt="in action"/></a>
         </div>
 		<div class="col-md-8 feature--block">
 			<h3 class="section--paragraph__title"><?php echo $l->t('CFR - Code of Federal Regulations Title 21');?></h3>
