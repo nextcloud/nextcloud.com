@@ -47,12 +47,12 @@
                 </p>
             </div>
             <div class="col-md-4">
-                <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
+                <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
                 <h3 class="section--paragraph__title text-center"><?php echo $l->t('A complete platform');?></h3>
                 <p class="section--paragraph text-center"><?php echo $l->t('An easy, familiar user interface means efficient work. Nextcloud is unique by offering the most extensive built in communication and collaboration technology in the industry, negating the complexity of running and connecting multiple separate solutions.');?></p>
             </div>
             <div class="col-md-4">
-                <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
+                <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
                 <h3 class="section--paragraph__title text-center"><?php echo $l->t('Military-grade security');?></h3>
                 <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud offers industry-first, unique solutions like Video Verification, machine-learning-driven suspicious login detection, extensive multi-factor authentication solutions and more. Extensive logging and monitoring show users, administrators and auditors the exact flow of data and who had access at what time.');?></p>
             </div>
@@ -78,8 +78,8 @@
         </div>
         <div class="col-md-6 feature--block">
             <h3 class="section--paragraph__title"><?php echo $l->t('Available-anywhere collaboration');?></h3>
-            <p class="section--paragraph"><?php echo $l->t('Switching between different tools is more than cumbersome and inefficient: it also massively increases the chance for mistakes to result in data leaks. For a process as important as making a sensitive deal, you ca not risk an email send to the wrong address compromising your business.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Nextcloud integrates comments, chat and secuire audio/video calls, offers real-time notifications through mobile, web and desktop interfaces and integrates document viewing and editing all in one platform. It even comes with groupware functionalities like a calendar, task management and email functionality so meetings, plans, invitations and all the details they come with stay within the secure data room.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Switching between different tools is more than cumbersome and inefficient: it also massively increases the chance for mistakes to result in data leaks. For a process as important as making a sensitive deal, you can not risk an email send to the wrong address compromising your business.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud integrates comments, chat and secure audio/video calls, offers real-time notifications through mobile, web and desktop interfaces and integrates document viewing and editing all in one platform. It even comes with groupware functionalities like a calendar, task management and email functionality so meetings, plans, invitations and all the details they come with stay within the secure data room.');?></p>
         </div>
     </div>
     <div class="row feature-row">

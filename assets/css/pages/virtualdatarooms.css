@@ -37,7 +37,9 @@
     .vdr-background .topheader h1 {
       margin-top: 0; }
 
-/* All headers */
+.section--intro p {
+  margin-top: 20px; }
+
 section {
   margin-top: 70px;
   margin-bottom: 70px; }
