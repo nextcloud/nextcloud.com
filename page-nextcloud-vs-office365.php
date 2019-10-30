@@ -392,7 +392,7 @@
     </div>
 </section>
 
-<section>
+<section class="section--details">
 <div class="container">
     <div class="row">
         <div class="col-md-4 image--floated  image--feature">
@@ -422,7 +422,7 @@
 		</div>
     </div>
     <div class="row feature-row">
-        <div class="col-md-6  image--feature image--floated new-img">
+        <div class="col-md-6  image--feature new-img">
             <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/ransomware-recovery.png" alt="in action"/></a>
         </div>
         <div class="col-md-6  feature--block">
@@ -433,6 +433,7 @@
     </div>
 </div>
 </section>
+
 
 
 <a name="integrated"></a>
@@ -534,3 +535,5 @@
     </div>
 </div>
 </section>
+
+<?php require get_template_directory().'/verticals.php';?>

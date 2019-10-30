@@ -8,8 +8,6 @@
 }
 
 section {
-	margin-top: 70px;
-	margin-bottom: 70px;
     ul {
         padding-left: 30px;
     }
@@ -18,12 +16,18 @@ section {
         list-style-image: url("../../img/enterprise/check-blue.svg");
         /* 		list-style-position:inside; */
     }
+}
+
+.section--overview {
     .row {
-		margin-top: 60px;
-	}
+        margin-top: 60px;
+    }
 }
 
 .section--capabilities {
+    .row {
+        margin-top: 60px;
+    }
 	.logo {
 		max-width: 100px;
 	}
@@ -159,6 +163,11 @@ section {
     }
 }
 
+.section--details {
+    .row {
+        margin-top: 60px;
+    }
+}
 
 .section--features {
 /*	background-color: #eee;*/

@@ -7,7 +7,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
-                <h1>Need help?</h1>
+                <h1>Have a question?</h1>
             </div>
         </div>
     </div>

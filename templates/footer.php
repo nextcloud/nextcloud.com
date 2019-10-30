@@ -47,7 +47,7 @@ $l = new L10N('footer');
             <h1><?php echo $l->t('About Nextcloud'); ?></h1>
             <ul>
                 <li><a href="<?php echo home_url('about'); ?>"><?php echo $l->t('About us'); ?></a></li>
-                <li><a href="<?php echo home_url('contributors'); ?>"><?php echo $l->t('Community'); ?></a></li>
+<!--                 <li><a href="<?php echo home_url('contributors'); ?>"><?php echo $l->t('Community'); ?></a></li> --><!-- broken atm -->
                 <li><a href="<?php echo home_url('events'); ?>"><?php echo $l->t('Events'); ?></a></li>
                 <li><a href="<?php echo home_url('jobs'); ?>"><?php echo $l->t('Jobs'); ?></a></li>
                 <li><a href="<?php echo home_url('/community/code-of-conduct/'); ?>"><?php echo $l->t('Code of Conduct'); ?></a></li>

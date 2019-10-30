@@ -33,18 +33,18 @@
   background-image: url("../../img/headers/vdr.jpg");
   background-position: bottom 0 right 0; }
 
-section {
-  margin-top: 70px;
-  margin-bottom: 70px; }
-  section ul {
-    padding-left: 30px; }
-  section li {
-    /* 			list-style-type: circle; */
-    list-style-image: url("../../img/enterprise/check-blue.svg");
-    /* 		list-style-position:inside; */ }
-  section .row {
-    margin-top: 60px; }
+section ul {
+  padding-left: 30px; }
+section li {
+  /* 			list-style-type: circle; */
+  list-style-image: url("../../img/enterprise/check-blue.svg");
+  /* 		list-style-position:inside; */ }
 
+.section--overview .row {
+  margin-top: 60px; }
+
+.section--capabilities .row {
+  margin-top: 60px; }
 .section--capabilities .logo {
   max-width: 100px; }
 .section--capabilities .fa-times {
@@ -155,6 +155,9 @@ section {
   position: relative;
   margin-top: 10px;
   margin-bottom: 10px; }
+
+.section--details .row {
+  margin-top: 60px; }
 
 .section--features {
   /*	background-color: #eee;*/

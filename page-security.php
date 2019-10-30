@@ -7,7 +7,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
-                <h1>Nextcloud Server Changelog</h1>
+                <h1>Security and advisories</h1>
             </div>
         </div>
     </div>
