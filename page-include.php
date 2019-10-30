@@ -1,5 +1,5 @@
 <head>
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/include.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/include.css?v=1">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>

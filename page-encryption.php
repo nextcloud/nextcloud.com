@@ -1,5 +1,5 @@
 <head>
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/encryption.css?v=1" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/encryption.css?v=2" rel="stylesheet">
 <!--    <script>
     require(["require.config"], function() {
         require(["bootstrap"])

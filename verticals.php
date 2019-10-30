@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/modules/vertical.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/modules/vertical.css?v=1" rel="stylesheet">
 </head>
 <section class="section--vertical">
 <div class="container">

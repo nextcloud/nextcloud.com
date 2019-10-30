@@ -7,7 +7,7 @@ This page has 3 different 'scroll-to' features:
 
 -->
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/sharing.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/sharing.css?v=1" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>

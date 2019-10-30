@@ -4,7 +4,7 @@
         require(["pages/signup"])
     });
 </script>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/signup.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/signup.css?v=1" rel="stylesheet">
 <!-- Social media images. Putting in all images, hoping the sites are clever enough to pick the right. If not - png is last, and probably fine. it IS an animated png, properly shown at least in Chrome and Firefox... -->
 
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/common/yourdata.mp4">

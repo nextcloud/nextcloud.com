@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/conf.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/conf.css?v=1" rel="stylesheet">
 <!-- <meta http-equiv="refresh" content="60"> -->
 <script>
 	require(["require.config"], function() {

@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/box.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/box.css?v=1" rel="stylesheet">
 	<script>
 		require(["require.config"], function() {
 			require(["pages/box"])

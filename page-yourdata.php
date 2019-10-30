@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/yourdata.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/yourdata.css?v=1" rel="stylesheet">
 <meta itemprop="image" content="https://nextcloud.com/media/animation.png">
 <meta name="twitter:image" content="https://nextcloud.com/media/animation.png">
 <meta name="twitter:image:src" content="https://nextcloud.com/media/animation.png">
