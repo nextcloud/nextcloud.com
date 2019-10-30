@@ -1,9 +1,14 @@
 @import '../variables';
 @import '../modules/transparent-navbar';
+@import '../vendor/modular-scale/modular-scale';
+@import '../modules/transparent-gradient';
 
 .pricing-background {
   background-image: url('../../img/headers/enterprise.jpg');
 	background-position: bottom 0 right 0;
+    .menu {
+        margin-top: -100px;
+    }
 }
 
 .plans {

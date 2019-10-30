@@ -46,6 +46,8 @@
   background-size: cover;
   margin-bottom: 50px;
   padding-bottom: 0px; }
+  .enterprise-hero-section .menu {
+    margin-top: -100px; }
 
 section {
   padding-top: 80px;

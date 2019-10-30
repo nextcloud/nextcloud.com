@@ -310,7 +310,7 @@
 <section class="section--workflow">
 	<a name="workflow" id="workflow"></a>
 	<div class="container">
-		<div class="col-md-6 image--floated image--feature">
+		<div class="col-md-6 image--feature">
 			<a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/file-access-control-nw.png" alt="in action"/></a>
 		</div>
 		<div class="col-md-6">
@@ -324,7 +324,7 @@
 <section class="section--monitoring">
     <a name="monitoring" id="monitoring"></a>
     <div class="container">
-        <div class="col-md-6 image--feature">
+        <div class="col-md-6 image--feature image--floated">
             <a><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring-nw.png" alt="in action"/></a>
         </div>
         <div class="col-md-6">
@@ -340,7 +340,7 @@
 <section class="section--storage">
 	<a name="storage" id="storage"></a>
 	<div class="container">
-		<div class="col-md-6 image--floated image--feature">
+		<div class="col-md-6 image--feature">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"/></a>
 		</div>
 		<div class="col-md-6">
@@ -354,7 +354,7 @@
 
 <section class="section--fulltextsearch">
 	<div class="container">
-		<div class="col-md-6 image--feature">
+		<div class="col-md-6 image--feature image--floated">
 			<a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/fulltextsearch.png"/></a>
 		</div>
 		<div class="col-md-6">

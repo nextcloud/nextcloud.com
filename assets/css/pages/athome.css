@@ -46,7 +46,7 @@
     margin-bottom: 100px; } }
 
 section {
-  margin: 180px 0; }
+  margin: 50px 0; }
 
 .section--on-premise .row {
   padding-bottom: 20px; }
@@ -134,6 +134,9 @@ section {
 .section--outlook .row {
   padding-bottom: 10px; }
 
+.section--privacy {
+  /*     padding: 0;     */ }
+
 .section--others {
   margin: 0 0 0 0;
   padding: 90px 70px 70px 70px;
@@ -156,6 +159,7 @@ section {
   padding-top: 20%; }
 
 .section--getstarted {
+  padding-bottom: 0px;
   margin-bottom: 0px; }
   .section--getstarted a {
     margin: 50px; }

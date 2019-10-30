@@ -15,7 +15,7 @@
 <meta name=”Description” content="Nextcloud is the most secure private cloud solution - learn how it keeps your data safe!">
 </head>
 
-<div class=" background security-background">
+<div class="background security-background">
     <div class="container">
         <div class="col-md-6 topheader">
             <h1><?php echo $l->t('Security and authentication');?></h1>

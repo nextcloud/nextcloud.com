@@ -10,17 +10,15 @@
 	});
 	</script>
 </head>
-<section class="buy-hero-section second-menu">
-	<div class="container-fluid background buy-background">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 topheader">
-					<h1><?php echo $l->t('Order Nextcloud');?></h1>
-					<h2><?php echo $l->t('Order your Nextcloud subscription online');?></h2>
-				</div>
-			</div>
-		</div>
-	</div>
+<section class="buy-hero-section background buy-background second-menu">
+    <div class="container background">
+        <div class="row">
+            <div class="col-md-6 topheader">
+                <h1><?php echo $l->t('Order Nextcloud');?></h1>
+                <h2><?php echo $l->t('Order your Nextcloud subscription online');?></h2>
+            </div>
+        </div>
+    </div>
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
             <a class="button button--blue" href="<?php echo home_url('faq') ?>"><?php echo $l->t('FAQ');?></a>

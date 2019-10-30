@@ -27,7 +27,7 @@
 
 
 section {
-	margin: 180px 0;
+	margin: 50px 0;
 }
 
 .section--hosting {
@@ -171,7 +171,9 @@ section {
     }
 }
 
-
+.section--privacy {
+/*     padding: 0;     */
+}
 .section--others {
     margin: 0 0 0 0;
     padding: 90px 70px 70px 70px;
@@ -204,6 +206,7 @@ section {
 }
 
 .section--getstarted {
+    padding-bottom: 0px;
 	margin-bottom: 0px;
 	a {
 		margin: 50px;

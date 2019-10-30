@@ -35,7 +35,7 @@
   background-size: cover; }
 
 section {
-  margin: 180px 0; }
+  margin: 50px 0; }
 
 .section--customers {
   position: relative; }
@@ -104,7 +104,8 @@ section {
   padding-top: 20%; }
 
 .section--getstarted {
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  padding-bottom: 0; }
   .section--getstarted a {
     margin: 50px; }
 

@@ -19,15 +19,13 @@
 <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/legal2.jpg">
 </head>
 
-<section class="enterprise-hero-section second-menu">
-	<div class="container-fluid background">
-		<div class="container">
-			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('Nextcloud Enterprise');?></h1>
-				<h2><?php echo $l->t('The enterprise-ready Content Collaboration Platform');?></h2>
-			</div>
-		</div>
-	</div>
+<section class="enterprise-hero-section background second-menu">
+    <div class="container background">
+        <div class="col-md-6 topheader">
+            <h1><?php echo $l->t('Nextcloud Enterprise');?></h1>
+            <h2><?php echo $l->t('The enterprise-ready Content Collaboration Platform');?></h2>
+        </div>
+    </div>
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
 			<a href="#reliability"><?php echo $l->t('reliability');?></a>
