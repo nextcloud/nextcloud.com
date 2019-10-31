@@ -213,7 +213,7 @@
 	<div class="container">
          <div class="row feature-row">
             <div class="col-md-6 ">
-                <a href="https://apps.nextcloud.com/apps/cospend"><img class="img-responsive" src="https://gitlab.com/eneiluj/cospend-nc/wikis/uploads/044d9700ac6f7e1f965df4336f09b4ef/payb1.png" alt="in action"/></a>
+                <a href="https://apps.nextcloud.com/apps/cospend"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/cospend.png" alt="in action"/></a>
             </div>
             <div class="col-md-6  feature--block">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/common/check.svg" class="icon" />
