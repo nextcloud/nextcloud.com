@@ -33,6 +33,9 @@ require(["require.config"], function() {
 		</div>
 		<div class="col-md-8 col-md-offset-2">
 			<p class="section--paragraph text-center"><?php echo $l->t('<span class="avoidwrap">Nextcloud Global Scale delivers a true globally scalable solution</span> <span class="avoidwrap">for deployments with hundreds of millions of users<span>, <span class="avoidwrap">giving unprecedented control over the locality of data</span> <span class="avoidwrap">and delivering dramatic cost reduction</span>');?></p>
+
+			<blockquote class=""><?php echo $l->t('Global Scale has been in production since 2017 in a commercial setup for tens of millions of users across 4 continents. Several other customers have deployed or began experimenting with Global Scale in the last years.');?></blockquote>
+            <p class="section--paragraph"><?php echo $l->t('Learn more about our <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-and-collabora-scale-real-time-collaboration-to-hundreds-of-millions-of-users/">integration with Collabora Online</a> and how <a class="hyperlink" href="https://nextcloud.com/press/pr20191016/">French universities experiment with Global Scale.</a>');?></p>
 		</div>
 	</div>
 </div>
