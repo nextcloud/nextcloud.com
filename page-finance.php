@@ -121,7 +121,7 @@ require(["require.config"], function() {
                 </div>
                 <div class="col-md-10 featureblock">
                     <h3 class="section--paragraph__title"><?php echo $l->t('Decentralized collaboration');?></h3>
-                    <p class="section--paragraph"><?php echo $l->t('Tokio, London, New York - enable employees to access data and work together across devices without IT ever losing sight.');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('Tokyo, London, New York - enable employees to access data and work together across devices without IT ever losing sight.');?></p>
                 </div>
             </div>
             <div class="row">
