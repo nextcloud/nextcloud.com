@@ -454,6 +454,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marco.jpg" />
+				<h2 class="teamname">Marco Ambrosini</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Design and frontend</h4>
+					<h4 class="teamlocation">lives in Italy</h4>
+					<p class="teamsocial"> <a href="https://github.com/ma12-co"><i class="fa-github fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Marco is a front end developer that cares deeply about design and user experience. He is part of the talk and design teams.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mario.jpg" />
 				<h2 class="teamname">Mario Danic</h2>
 				<div class="teammeta">
