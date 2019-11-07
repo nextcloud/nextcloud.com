@@ -59,7 +59,8 @@ section {
 
 .section--providers {
   padding: 30px 0;
-  background-color: #0082c9; }
+  background-color: #0082c9;
+}
 
 #register {
   width: 600px;
@@ -71,7 +72,8 @@ section {
   transform: translateY(15px);
   opacity: 0;
   animation: 1s ease-out 3s 1 slideUpOnLoad;
-  animation-fill-mode: forwards; }
+  animation-fill-mode: forwards;
+}
 
 @keyframes slideUpOnLoad {
   0% {
@@ -82,13 +84,16 @@ section {
     opacity: 1; } }
 @media (max-width: 768px) {
   #register {
-    margin-top: -500px; }
+    margin-top: -500px;
+}
 
-  .background .topheader {
+.background .topheader {
     top: 0px;
-    margin-top: 100px; }
+    margin-top: 100px;
+}
 
-  footer {
-    display: none; } }
+footer {
+    display: none; }
+}
 
 /*# sourceMappingURL=signup.css.map */
