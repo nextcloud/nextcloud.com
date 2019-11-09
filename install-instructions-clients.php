@@ -29,9 +29,11 @@
 							<p><?php echo $l->t('Latest stable version:');?> <?php echo $VERSIONS_CLIENT_DESKTOP_STABLE_FULL; ?>&nbsp;<a href="https://github.com/nextcloud/desktop/releases"><?php echo $l->t('changelog');?></a>&nbsp;</p>
 							<p><?php echo $l->t('Use the desktop clients to keep your files synchronized between your Nextcloud server and your desktop. Select one or more directories on your local machine and always have access to your latest files wherever you are.');?></p>
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN; ?>" id="client-download-win" class="button button--white"><i class="fa-windows"></i>  Windows<br /><small>7, 8.x and 10</small></a>
-							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC; ?>" id="client-download-mac" class="button button--white"><i class="fa-apple"></i> macOS<br /><small>10.10+, 64 bit</small></a>
+							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC; ?>" id="client-download-mac" class="button button--white"><i class="fa-apple"></i> macOS<br /><small>10.12+, 64 bit</small></a>
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX; ?>" id="client-download-linux" class="button button--white"><i class="fa-linux"></i> Linux<br /><small>AppImage</small></a>
-							<br><br>
+							<br>
+							<p><i class="fa-apple"></i>&nbsp;<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC_LEGACY; ?>">Mac OS 10.10+ (legacy)</a></p>
+							<br>
 							<p><?php echo $l->t('find here:');?><br>
 							<i class="fa-book"></i> <a class="hyperlink" href="<?php echo $DOCUMENTATION_CLIENT_DESKTOP; ?>"><?php echo $l->t('documentation');?></a>
 							<br>
