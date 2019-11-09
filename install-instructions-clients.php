@@ -55,32 +55,31 @@
 						<div class="col-md-6">
 							<p><?php echo $l->t('The Nextcloud mobile apps are available in various app stores.');?></p>
 							<p><?php echo $l->t('The apps allow you to access, sync and upload your data and feature instant upload for fotos and videos, upload management and more features.');?></p>
-							<br />
-							<div class="row">
-								<div class="col-xs-6">
+							<div class="row mobileclientbuttons">
+								<div class="col-xs-4">
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID; ?>">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"></a><br />
-									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>"><?php echo $l->t('Beta client');?></a>
+									<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/googleplay.png"></a><br />
 								</div>
-								<div class="col-xs-6">
+								<div class="col-xs-4">
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID; ?>">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a><br />
-									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><?php echo $l->t('Beta client');?></a>
+									<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/fdroid.png"></a><br />
 								</div>
-								<div class="col-xs-6 mobileclientbuttons">
+								<div class="col-xs-4">
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
+									<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
 									</a>
 								</div>
 							</div>
-							<p> <a class="hyperlink" href="https://github.com/nextcloud/ios"><?php echo $l->t('Find iOS Sources here</a>, <a class="hyperlink" href="https://github.com/nextcloud/android">Android Sources here</a>, <a class="hyperlink" href="https://download.nextcloud.com/android">direct APK download here</a> and <a class="hyperlink" href="https://github.com/nextcloud/windows-uwp">Windows Mobile sources here</a>.');?></p>
-							<div class="row">
-								<div class="col-xs-6 mobileclientbuttons">
+							<p><a class="hyperlink" href="https://github.com/nextcloud/ios"><?php echo $l->t('Find iOS Sources here</a>, <a class="hyperlink" href="https://github.com/nextcloud/android">Android Sources here</a>, <a class="hyperlink" href="https://download.nextcloud.com/android">direct APK download here</a> and <a class="hyperlink" href="https://github.com/nextcloud/windows-uwp">Windows Mobile sources here</a>.');?></p>
+							<p><?php echo $l->t('Beta clients:');?> <a target="_blank" class="hyperlink" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>"><i class="fa-android"></i> Android</a> - <a target="_blank" class="hyperlink" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><i class="fa-android"></i> fdroid</a> - <a target="_blank" class="hyperlink" href="https://testflight.apple.com/join/GjNbfo2a"><i class="fa-apple"></i> iOS</a></p>
+                            </ul>
+							<div class="row mobileclientbuttons">
+								<div class="col-xs-4">
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_WIN; ?>">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/windowsstore.png">
+									<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/windowsstore.png">
 									</a>
 								</div>
-								<div class="col-xs-6">
+								<div class="col-xs-8">
 									<p><?php echo $l->t('<strong>Note:</strong> The Windows app is still in testing, use at your own risk and <a class="hyperlink" href="https://github.com/nextcloud/windows-uwp/issues">let us know about your experience.</a>');?></p>
 								</div>
 							</div>
