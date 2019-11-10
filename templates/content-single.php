@@ -2,7 +2,7 @@
 <?php while (have_posts()) : the_post(); ?>
   <article <?php post_class(); ?>>
   <head>
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blog.css?v=2">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blog.css?v=3">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
@@ -11,23 +11,24 @@
 	});
 </script>
 </head>
-<section class="section--blog-header">
 <div class="background blog-background">
 	<div class="container">
 		<div class="row">
 			<div class="topheader">
 <!-- 				<h1>The Nextcloud blog</h1> -->
+
 			</div>
 		</div>
 	</div>
 </div>
-</section>
+
 <section class="section--content">
 <div class="container">
     <div class="row">
         <div class="content col-md-10 col-md-offset-1">
-            <h1><?php the_title(); ?></h1>
-            <h2 class="blog-metadata"><?php get_template_part('templates/entry-meta'); ?>
+            <div class="blog-title-and-subtitle"> <!-- If you move this section in the topheader class above, it works fine, but Jan et all like it more here... -->
+                <h1><?php the_title(); ?></h1>
+                <h2 class="blog-metadata"><?php get_template_part('templates/entry-meta'); ?>
                     <a target="_blank" href="https://twitter.com/intent/tweet/?url=<?php echo urlencode(get_permalink()); ?>&via=nextclouders&hashtags=nextcloud">
                         <img class="blog-social" src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitterround.png"></img>
                     </a>
@@ -40,9 +41,10 @@
                 <br>
                 <small>posted in <?php the_category( ', ' ); ?> by <?php the_author_posts_link(); ?></small>
                 </h2>
-        <div class="entry-content">
-            <?php the_content(); ?>
-        </div>
+            </div>
+            <div class="entry-content">
+                <?php the_content(); ?>
+            </div>
         </div>
     </div>
 </div>
