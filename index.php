@@ -1,6 +1,6 @@
 <!-- This is the posts page. Most likely. But if not... check also page-blog.php! -->
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blogroll.css?v=5" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blogroll.css?v=6" rel="stylesheet">
 <!--<script>
 	require(["require.config"], function() {
 		require(["modules/youtubePlayer", "modules/submenu"])
