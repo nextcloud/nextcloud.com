@@ -458,9 +458,9 @@
 				<h2 class="teamname">Marco Ambrosini</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Design and frontend</h4>
-					<h4 class="teamlocation">lives in Italy</h4>
-					<p class="teamsocial"> <a href="https://github.com/ma12-co"><i class="fa-github fa"></i></a></p>
+					<h4 class="teamexpertise">Frontend and design</h4>
+					<h4 class="teamlocation">lives in Barcelona, spain</h4>
+					<p class="teamsocial"> <a href="https://github.com/ma12-co"><i class="fa-github fa"></i></a> <a href="https://twitter.com/ma12_co"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Marco is a front end developer that cares deeply about design and user experience. He is part of the talk and design teams.</p>
 			</div>
