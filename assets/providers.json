@@ -673,20 +673,6 @@
          "imagename":"prohosting.png"
       },
     {
-         "title":"SpeiBox",
-         "url":"https:\/\/speibox.de",
-         "flags":[
-            "de",
-            "at"
-         ],
-         "freeplans":false,
-         "supports":"both",
-         "specializes":[
-            "SpeiBox is your managed Nextcloud hosting provider: your files, safe, in Germany. You can expand your SpeiBox to a collaboration tool!"
-         ],
-         "imagename":"spreibox.png"
-      },
-    {
          "title":"sitorix GmbH",
          "url":"https:\/\/www.cloudlay.com",
          "flags":[
