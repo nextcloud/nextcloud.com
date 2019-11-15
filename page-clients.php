@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/clients.css?v=1" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/clients.css" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
@@ -66,26 +66,28 @@
             <div class="row">
                 <div class="col-sm-4">
                     <p class="section--paragraph"><ul>
-                    <li><?php echo $l->t('Select any number of local folders to keep in sync with specified remote folders');?></li>
-                    <li><?php echo $l->t('Exempt any number of subfolders in a synced folder from being synced');?></li>
-                    <li><?php echo $l->t('Optional warning in case a very big new subfolder was added');?></li>
-                    <li><?php echo $l->t('Easily pause and resume syncing');?></li>
+                        <li><?php echo $l->t('Select any number of local folders to keep in sync with specified remote folders');?></li>
+                        <li><?php echo $l->t('Exempt any number of subfolders in a synced folder from being synced');?></li>
+                        <li><?php echo $l->t('Optional warning in case a very big new subfolder was added');?></li>
+                        <li><?php echo $l->t('Easily pause and resume syncing');?></li>
+                        <li><?php echo $l->t('Remote wipe to clean data and accounts from the client');?></li>
+
                     </ul></p>
                 </div>
                 <div class="col-sm-4">
                     <p class="section--paragraph"><ul>
-                    <li><?php echo $l->t('Receive notifications of server events like a new share or audio/video call');?></li>
-                    <li><?php echo $l->t('Use the activity feed to track what happens on the server');?></li>
-                    <li><?php echo $l->t('Immediately reply to notifications to join a call or accept a share');?></li>
-                    <li><?php echo $l->t('Protect your files with client side,');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('End-to-end encryption</a> (version 2.5.0+)');?></li>
+                        <li><?php echo $l->t('Receive notifications of server events like a new share or audio/video call');?></li>
+                        <li><?php echo $l->t('Use the activity feed to track what happens on the server');?></li>
+                        <li><?php echo $l->t('Immediately reply to notifications to join a call or accept a share');?></li>
+                        <li><?php echo $l->t('Protect your files with client side,');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('End-to-end encryption</a> (version 2.7.0+)');?></li>
                     </ul></p>
                 </div>
                 <div class="col-sm-4">
                     <p class="section--paragraph"><ul>
-                    <li><?php echo $l->t('Easily configure a proxy or set bandwidth throttling');?></li>
-                    <li><?php echo $l->t('Enjoy convenient file manager integration for easy sharing');?></li>
-                    <li><?php echo $l->t('Branding support for ');?><a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise customers');?></a></li>
-                    <li><?php echo $l->t('Set up multiple accounts');?></li>
+                        <li><?php echo $l->t('Easily configure a proxy or set bandwidth throttling');?></li>
+                        <li><?php echo $l->t('Enjoy convenient file manager integration for easy sharing');?></li>
+                        <li><?php echo $l->t('Branding support for ');?><a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('enterprise customers');?></a></li>
+                        <li><?php echo $l->t('Set up multiple accounts with different servers');?></li>
                     </ul></p>
                 </div>
             </div>
@@ -160,7 +162,7 @@
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/5yFKZze6TqM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 feature--block">
-                <h3 class="section--paragraph__title"><?php echo $l->t('top-rated iOS app');?></h3>
+                <p class="section--paragraph__tittle"><?php echo $l->t('top-rated iOS app');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud iOS app provides a way for users to access and sync files on the go in a easy and intuitive interface. The client is kept always up to date with the latest iOS versions and designed for both smaller and newer iPhones, iPhone X and iPad.');?></p>
                 <div class="row">
                 <div class="col-xs-6 mobileclientbuttons">
@@ -172,7 +174,7 @@
             </div>
         </div>
         <div class="row docscanner">
-            <h3 class="section--paragraph__title text-center"><?php echo $l->t('Document scanner in action');?></h3>
+            <p class="section--paragraph__tittle text-center"><?php echo $l->t('Document scanner in action');?></p>
             <br>
             <div class="col-xs-6 col-sm-4 col-lg-2">
                 <a href="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-1.png"><img class="thumbnail img-thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/ios-scanner-1.png" class="" ></a>
@@ -207,6 +209,7 @@
                     <li><?php echo $l->t('Edit files on the phone built in or using other apps installed on your iPhone or iPad.');?></li>
                     <li><?php echo $l->t('Add, rename, copy, move and delete files and folders');?></li>
                     <li><?php echo $l->t('Keep your favorite files available offline');?></li>
+                    <li><?php echo $l->t('Real-time collaborative document editing');?></li>
                     </ul></p>
                 </div>
                 <div class="col-sm-4">
@@ -226,6 +229,7 @@
                     <li><?php echo $l->t('Auto-upload of photos and videos with custom file naming and folder sorting, wifi-only upload and HEIC support');?></li>
                     <li><?php echo $l->t('iOS 11 Files Integration');?></li>
                     <li><?php echo $l->t('Trash and versions integration');?></li>
+                    <li><?php echo $l->t('Remote wipe to clean data and accounts from the client');?></li>
                     </ul></p>
                 </div>
             </div>
@@ -241,7 +245,7 @@
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/4oY7R14Ydno" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="col-md-6 feature--block">
-                <h3 class="section--paragraph__title"><?php echo $l->t('Well integrated Android app');?></h3>
+                <p class="section--paragraph__tittle"><?php echo $l->t('Well integrated Android app');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Android app makes accessing, syncing and sharing your files easy with its modern and intuitive interface. Our client supports Android 4.0 and later and works with a wide variety of screen sizes and Android features.');?></p>
                 <div class="row">
                     <div class="col-xs-6">
@@ -271,7 +275,7 @@
                     <li><?php echo $l->t('Local and server-side search');?></li>
                     <li><?php echo $l->t('Add, rename, copy, move and delete files and folders');?></li>
                     <li><?php echo $l->t('Keep your favorite files available offline');?></li>
-                    <li><?php echo $l->t('Restore deleted files (needs at least Nextcloud 14)');?></li>
+                    <li><?php echo $l->t('Restore deleted files');?></li>
                     </ul></p>
                 </div>
                 <div class="col-sm-4">
@@ -282,7 +286,9 @@
                     <li><?php echo $l->t('Auto-configuration of Contacts and Calendar integration through DAVDroid');?></li>
                     <li><?php echo $l->t('Client-side,');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('End-to-end encryption');?></a></li>
                     <li><?php echo $l->t('Support for server push notifications and file activity feed');?></li>
-                    <li><?php echo $l->t('View and reply to comments on files (needs at least Nextcloud 14)');?></li>
+                    <li><?php echo $l->t('View and reply to comments on files');?></li>
+                    <li><?php echo $l->t('Real-time collaborative document editing');?></li>
+                    <li><?php echo $l->t('Remote wipe to clean data and accounts from the client');?></li>
                     </ul></p>
                 </div>
                 <div class="col-sm-4">
