@@ -388,8 +388,11 @@
         </div>
         <div class="col-md-6">
             <h3 class="section--paragraph__title"><?php echo $l->t('Remote Wipe');?></h3>
-            <p class="section--paragraph"><?php echo $l->t('While many companies have Mobile Device Management, thanks to build-in support, Remote Wipe will work on systems not under management of the company. This is useful for home users but also large universities and of course in a scenario where guest accounts were handed to a third party. If you permit downloading of documents by the third party, you can wipe the documents from their devices when the the collaboration has ended.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('While Nextcloud supports Mobile Device Management solutions, thanks to build-in support, remote wipe will work on systems not under management of the company. This is useful for home users but also large universities and of course in a scenario where guest accounts were handed to a third party. If you permit downloading of documents by the third party, you can wipe the documents from their devices when the the collaboration has ended.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Remote wipe can be used on a per-device basis by users and on a per-user base by the administrator.');?></p>
+        </div>
+        <div class="row text-center">
+            <a class="button button--blue button--arrow" href="<?php echo home_url('usermanagement') ?>"><?php echo $l->t('More about user management.');?></a>
         </div>
     </div>
 </div>
