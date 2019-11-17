@@ -601,12 +601,14 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
 <div class="container">
     <h2 class="section--heading-2"><?php echo $l->t('Interviews and blogs');?></h2>
     <p class="section--paragraph"><?php echo $l->t('We regularly cover customer interviews and case studies on our blog.');?></p>
-    <p class="section--paragraph"><ul>
+    <ul>
+        <li><a class="hyperlink" href="https://nextcloud.com/blog/deges-handling-22-billion-worth-of-complex-infrastructure-projects/">November 11, 2019 - DEGES: handling 22 billion worth of complex infrastructure projects</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/sib-delivering-nextcloud-to-educational-institutions/">October 21, 2019 - SIB: Delivering Nextcloud to educational institutions</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/1000-french-universities-and-research-organizations-get-nextcloud/">October 16, 2019 - 700.000 students at French universities and research organizations get access to Nextcloud</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-talk-offering-secure-corporate-messaging-for-scm-limited/">August 28, 2019 - Nextcloud Talk offering secure corporate messaging for SCM LIMITED</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/">August 27, 2019 - Amid escalating trade disputes, EU governments choose independence from US cloud providers</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/japan-to-add-millions-of-new-nodes-to-federated-nextcloud-network/">August 25, 2018 - Japan to add millions of new nodes to federated Nextcloud network</a></li>
+        <li><a class="hyperlink" href="https://nextcloud.com/blog/case-study-north-west-university-in-south-africa-using-nextcloud-and-collabora/">Jun 14, 2018 - Case Study: North-West University in South Africa using Nextcloud and Collabora</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/keeping-data-secure-at-a-globally-distributed-organization-konrad-adenauer-stiftung/">August 13, 2018 - Keeping data secure at a globally distributed organization: Konrad Adenauer Stiftung</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/next-big-open-source-win-capital-of-switzerland-moves-schools-to-nextcloud/">May 16, 2018 - Capital of Switzerland moves schools to Nextcloud</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/a-wave-of-cities-all-over-europe-moving-to-nextcloud/">April 19, 2018 - A wave of cities all over Europe moving to Nextcloud </a></li>
@@ -620,7 +622,7 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
 <!--         <li><a class="hyperlink" href="https://nextcloud.com/blog/privacy-is-the-main-reason-to-pick-the-nextcloud-solution-netcloud-ag/">February 8, 2017 - Privacy is the main reason to pick the Nextcloud solution: Netcloud AG</a></li> -->
 <!--         <li><a class="hyperlink" href="https://nextcloud.com/blog/sendin-ceo-nextcloud-is-the-best-solution-that-the-market-offers-nowadays/">December 29, 2016 - Nextcloud is the best solution that the market offers nowadays: CEO Sendin</a></li> -->
         <li><a class="hyperlink" href="https://nextcloud.com/blog/the-danish-research-and-education-network-moves-from-owncloud-to-nextcloud/">September 29, 2016 - The Danish research and education network moves from ownCloud to Nextcloud</a></li>
-    </ul></p>
+    </ul>
 </section>
 
 <div class="container-fluid quote">
