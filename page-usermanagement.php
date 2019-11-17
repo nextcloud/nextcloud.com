@@ -71,18 +71,23 @@
         </div>
         <div class="col-md-6">
             <h3 class="section--paragraph__title"><?php echo $l->t('Remote Wipe');?></h3>
-            <p class="section--paragraph"><?php echo $l->t('While many companies have Mobile Device Management, thanks to build-in support, Remote Wipe will work on systems not under management of the company. This is useful for home users but also large universities and of course in a scenario where guest accounts were handed to a third party. If you permit downloading of documents by the third party, you can wipe the documents from their devices when the the collaboration has ended.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('While Nextcloud supports Mobile Device Management solutions, thanks to build-in support, remote wipe will work on systems not under management of the company. This is useful for home users but also large universities and of course in a scenario where guest accounts were handed to a third party. If you permit downloading of documents by the third party, you can wipe the documents from their devices when the the collaboration has ended.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Remote wipe can be used on a per-device basis by users and on a per-user base by the administrator.');?></p>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-4">
             <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-user.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-user.png" alt="Remote wipe as a user, per device" class="img-responsive"></a><br />
             <?php echo $l->t('Remote wipe as a user, per device');?>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
             <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-admin.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/remote-wipe-admin.png" alt="Remote wipe as admin, per user" class="img-responsive"></a><br />
             <?php echo $l->t('Remote wipe as admin, per user');?>
+        </div>
+        <div class="col-md-4">
+            <div data-type="youtube" data-video-id="QmR86-LsGus"></div>
+            <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/QmR86-LsGus" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe><br />
+            <?php echo $l->t('Demo of remote wipe in the desktop client');?>
         </div>
     </div>
 </div>
