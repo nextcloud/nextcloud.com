@@ -65,6 +65,31 @@ require(["require.config"], function() {
 						<th>Location</th>
 						<th>Date</th>
 					</tr>
+                     <tr>
+						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/blog/nextcloud-onlyoffice-webinar-this-wednesday/">Nextcloud - ONLYOFFICE webinar</a></td>
+						<td>Worldwide</td>
+						<td>November 20</td>
+                    </tr>
+
+ <tr>
+						<td><a class="hyperlink" target="_blank" href="https://www.storage-forum.de/">Storage-Forum</a></td>
+						<td>Leipzig, Germany</td>
+						<td>November 28-29</td>
+                    </tr>
+
+<tr>
+						<td><a class="hyperlink" target="_blank" href="https://www.jres.org/en/home/">JRES</a></td>
+						<td>Dijon, France</td>
+						<td>December 3-6</td>
+                    </tr>
+
+<tr>
+						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/blog/nextcloud-team-coming-soon-to-nurnberg-paris/">Open Source Summit</a></td>
+						<td>Paris, France</td>
+						<td>December 10&11</td>
+                    </tr>
+
+
                     <tr>
 						<td><a class="hyperlink" target="_blank" href="https://www.it-sa.de/">it-sa</a></td>
 						<td>Nuremberg, Germany</td>
