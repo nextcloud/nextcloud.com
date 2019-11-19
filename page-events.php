@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/events.css?v=1">
 <script>
 require(["require.config"], function() {
-	require(["pages/scroll"])
+	require(["bootstrap"])
 });
 </script>
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/events-small.jpg">
@@ -56,7 +56,7 @@ require(["require.config"], function() {
 				<p class="section--paragraph">Nextcloud is participating in trade shows and conferences to present our community and technology to visitors.<br/>
 				Below is a list of tradeshows and conferences where Nextcloud is represented! If you have questions and would like to meet us at an event, check out this list and <a class="hyperlink" href="https://help.nextcloud.com/c/conference">let us know on the forums</a> you will be there.</p>
 
-				<button  class="table-button" data-toggle="collapse" data-target="#2019">Events in 2019</button>
+                <a class="button button--blue" href="#2019" data-toggle="collapse">Events in 2019</a>
                 <div id="2019" class="collapse in">
                 <br>
                 <table class="table table-striped">
@@ -109,7 +109,7 @@ require(["require.config"], function() {
 						<td><a class="hyperlink" target="_blank" https://no-spy.org/">No-Spy Konferenz</a></td>
 						<td>Stuttgart, Germany</td>
 						<td>May 17-19</td>
-                    </tr>   
+                    </tr>
 					<tr>
 						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/blog/the-contributor-week-is-over-time-to-plan-for-the-next-one/">Nextcloud Contributor Week</a></td>
 						<td>Stuttgart, Germany</td>
@@ -150,7 +150,7 @@ require(["require.config"], function() {
             <br>
             <p class="section--paragraph">Is there a conference, trade show or other event close by and you want Nextcloud to be there? Please <a class="hyperlink" href="https://help.nextcloud.com/c/conference">get in touch</a> and let us know, we will do our best to help making it happen!</p>
             <p class="section--paragraph">Are you presenting about Nextcloud or running a booth at an upcoming event that should be listed here? Let us know <a class="hyperlink" href="https://help.nextcloud.com/c/conference">on the forums</a>!</p>
-            <button  class="table-button" data-toggle="collapse" data-target="#2018">Events in 2018</button>
+            <a class="button button--blue" href="#2018" data-toggle="collapse">Events in 2018</a>
                 <div id="2018" class="collapse">
                 <br>
                 <table class="table table-striped">
@@ -232,7 +232,7 @@ require(["require.config"], function() {
 				</table>
 			</div>
             <br>
-            <button class="table-button" data-toggle="collapse" data-target="#2017">Events in 2017</button>
+            <a class="button button--blue" href="#2017" data-toggle="collapse">Events in 2017</a>
             <div id="2017" class="collapse">
             <br>
             <table class="table table-striped">
