@@ -182,7 +182,7 @@
 				<a href="https://www.qloud.my" target="_blank" title="Qloud MSP">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/qloudmsp.png" title="Qloud MSP logo" />
 				</a>
-				<p  class="partnertext">Qloud MSP (Qinetics Services Sdn. Bhd) is a Malaysian based company specialized in managed services, IT outsourcing and cloud computing. Our solution are highly focused on customer business productivity while prioritizing data protection and control.</p>
+				<p  class="partnertext">Qloud MSP (Qinetics MSP Sdn. Bhd) is a Malaysian based company specialized in managed services, IT outsourcing and cloud computing. Our solution are highly focused on customer business productivity while prioritizing data protection and control.</p>
 			</div>
 		</div>
 
