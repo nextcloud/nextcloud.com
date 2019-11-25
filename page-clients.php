@@ -114,7 +114,6 @@
             <h3 class="section--paragraph__title"><?php echo $l->t('Add accounts easily with a QR code');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Adding a Nextcloud client on the desktop is easy as the browser login can be used. This means setting up the desktop client often just requires clicking an approval button. On mobile, though, Nextcloud uses secure tokens, besides the username-password method.');?></p>
             <p class="section--paragraph"><?php echo $l->t('To simplify setting up the clients and save the user time, a simple scan of a QR code allows users to set up their mobile clients in a quick and convenient way.');?></p>
-
         </div>
     </div>
 </div>

@@ -244,10 +244,21 @@
                             </ul>
                         </li>
                     </ul>
-                    <p class="section--paragraph"><a class="hyperlink" href="https://nextcloud.com/?p=1334"><?php echo $l->t('Learn more about hardening features in our blog.');?></a></p>
-                </div>
+                <p class="section--paragraph"><a class="hyperlink" href="https://nextcloud.com/?p=1334"><?php echo $l->t('Learn more about hardening features in our blog.');?></a></p>
             </div>
         </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 image--feature">
+            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/HaveIBeenPwned.png" alt="password settings" ></a>
+        </div>
+        <div class="col-md-6">
+            <h3 class="section--paragraph__title"><?php echo $l->t('Password security enforcement');?></h3>
+            <p class="section--paragraph"><?php echo $l->t('Password security is extremely important and Nextcloud follows the latest and most strict standards.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('We go beyond these standards, checking passwords against the database of compromised accounts and passwords from well known security researcher Troy Hunt. This optional but highly recommended feature ensures users can not reuse a password which has been compromised on another website already. Read our blog to learn how this feature protects your users.');?></p>
+            <a class="button button--blue button--arrow" href="https://nextcloud.com/blog/nextcloud-will-check-passwords-against-database-of-haveibeenpwned/"><?php echo $l->t('Blog on HaveIBeenPwned check');?></a>
+        </div>
+    </div>
     <div class="features--container row">
         <div class="col-md-6 image--floated image--feature new-img screenshot">
             <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/suspicious-login-settings.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/suspicious-login-settings.png" /></a>

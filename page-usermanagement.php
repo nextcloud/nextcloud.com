@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/usermanagement.css?v=2" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/usermanagement.css?v=3" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 
@@ -54,7 +54,7 @@
 	</div>
 	<div class="row">
         <div class="col-md-6  image--feature new-img image--floated">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/guest_account.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/guest_account.png" alt="in action" ></a>
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/guest_account.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/guest_account.png" alt="creating a guest account" ></a>
         </div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Guest accounts');?></h3>
@@ -65,9 +65,32 @@
 		</div>
 	</div>
     <div class="row">
+        <div class="col-md-6 image--feature">
+            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/HaveIBeenPwned.png" alt="password settings" ></a>
+        </div>
+		<div class="col-md-6">
+			<h3 class="section--paragraph__title"><?php echo $l->t('Password security enforcement');?></h3>
+			<p class="section--paragraph"><?php echo $l->t('Password security is extremely important and Nextcloud follows the latest and most strict standards.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('We go beyond these standards, checking passwords against the database of compromised accounts and passwords from well known security researcher Troy Hunt. This optional but highly recommended feature ensures users can not reuse a password which has been compromised on another website already. Read our blog to learn how this feature protects your users.');?></p>
+            <a class="button button--blue button--arrow" href="https://nextcloud.com/blog/nextcloud-will-check-passwords-against-database-of-haveibeenpwned/"><?php echo $l->t('Blog on HaveIBeenPwned check');?></a>
+		</div>
+	</div>
+    <div class="row">
+        <div class="col-md-6 image--floated">
+            <div data-type="youtube" data-video-id="8bS4-JELEdk"></div>
+            <iframe width="100%" height="300" src="https://www.youtube-nocookie.com/embed/vKJCThXEPXk" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-6">
+            <h3 class="section--paragraph__title"><?php echo $l->t('Add accounts easily with a QR code');?></h3>
+            <p class="section--paragraph"><?php echo $l->t('See how easy it is for a Nextcloud user to add new accounts on their mobile devices.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Our powerful clients are among the best rated file sync and share clients in the industry and easy to use!');?></p>
+            <a class="button button--blue button--arrow" href="<?php echo home_url('clients') ?>"><?php echo $l->t('Learn about our clients');?></a>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-md-6">
             <div data-type="youtube" data-video-id="oyWXMjb-6ik"></div>
-            <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/oyWXMjb-6ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="300" src="https://www.youtube-nocookie.com/embed/oyWXMjb-6ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="col-md-6">
             <h3 class="section--paragraph__title"><?php echo $l->t('Remote Wipe');?></h3>
@@ -86,7 +109,7 @@
         </div>
         <div class="col-md-4">
             <div data-type="youtube" data-video-id="QmR86-LsGus"></div>
-            <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/QmR86-LsGus" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe><br />
+            <iframe width="100%" height="200" src="https://www.youtube-nocookie.com/embed/QmR86-LsGus" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe><br />
             <?php echo $l->t('Demo of remote wipe in the desktop client');?>
         </div>
     </div>
@@ -152,6 +175,23 @@
 </section>
 
 <section class="section--more">
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png" class="img-responsive featureimg" /></a>
+		</div>
+		<div class="col-md-6">
+			<h3 class="section--paragraph__title"><?php echo $l->t('Automated or manual provisioning');?></h3>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud offers an easy-to-use, REST-based provisioning API to create and configure user accounts. It is possible to create, edit, delete and query user attributes, query, set and remove groups, set quota and query total storage used in Nextcloud.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The API enables an admin to query for active Nextcloud applications, application info, and to enable or disable an app remotely. HTTP requests can be used via a Basic Auth header to easily integrate workflows with existing tools and infrastructure.');?></p>
+			<p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_user/user_provisioning_api.html"><?php echo $l->t('Find documentation here.');?></a></p>
+		</div>
+	</div>
+</div>
+</section>
+
+
 <div class="container">
 	    <div class="row">
         <div class="col-md-6  image--feature new-img image--floated">
@@ -221,16 +261,20 @@
 </div>
 
 <div class="container">
-	<div class="row">
-		<div class="col-md-6">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/api.png" class="img-responsive featureimg" /></a>
-		</div>
-		<div class="col-md-6">
-			<h3 class="section--paragraph__title"><?php echo $l->t('Automated or manual provisioning');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud offers an easy-to-use, REST-based provisioning API to create and configure user accounts. It is possible to create, edit, delete and query user attributes, query, set and remove groups, set quota and query total storage used in Nextcloud.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The API enables an admin to query for active Nextcloud applications, application info, and to enable or disable an app remotely. HTTP requests can be used via a Basic Auth header to easily integrate workflows with existing tools and infrastructure.');?></p>
-			<p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_user/user_provisioning_api.html"><?php echo $l->t('Find documentation here.');?></a></p>
-		</div>
-	</div>
+    <div class="features--container row">
+        <div class="col-md-6 image--feature new-img screenshot">
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/suspicious-login-settings.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/suspicious-login-settings.png" /></a>
+        </div>
+        <div class="col-md-6">
+            <div class="feature">
+                <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/machine.svg">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Machine learning based suspicious login detection');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('Nextcloud includes a machine learning technology which trains a neural network on successful logins on the instance and uses it to classify login attempts. Should it detect a login classified as suspicious by the trained model, it will notify the user and store an entry in the log for the system administrator.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('When the user is notified, they can terminate the suspicious session, and proceed to set a new password. The administrator can also take action, like disabling user accounts or forcing users to pick a new password.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Of course, the solution is designed to protect privacy and all data remains on your server!');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Learn more in our');?> <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-16-becomes-smarter-with-machine-learning-for-security-and-productivity/" target="_blank" rel="tooltip" title="announcement blog"><?php echo $l->t('announcement blog');?></a></p>
+            </div>
+        </div>
+    </div>
 </div>
 </section>
