@@ -163,15 +163,20 @@
 				<p  class="partnertext">SNDK Corp founded in 2007 is an IT company Offering 360 degree Integrated Solutions taking Business to next level.<br>
 				Our Services and deep industry experiences includes Cloud, Virtualization, Open Source Linux & Network Solutions, Security, Software-Mobile APP & IoT.</p>
 			</div>
-<!--		</div>
-
-        <div class="row">-->
             <div class="col-md-4">
                 <a href="https://www.teebase.eu" target="_blank" title="Teebase Ltd">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/teebase.png" title="Teebase logo" />
                 </a>
                 <p  class="partnertext">TeeBase UK Ltd offers an arsenal of devices and services for digital security to protect your data and intellectual property even when using the Internet. Be free from hackers, malware and ransomware that destroy shareholder value and ruin careers.</p>
             </div>
+            <div class="col-md-4">
+                <a href="https://cloud.tab.digital" target="_blank" title="Tab.digital">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/tab.png" title="Tab.digital logo" />
+                </a>
+                <p class="partnertext">TAB Digital is a private company based in the EU, helping customers build private collaboration systems and clouds in EU and Russia. Want to build a Nextcloud solution and have a provider take care of it? <a class="hyperlink" href="https://cloud.tab.digital">Contact us!</a></p>
+            </div>
+        </div>
+        <div class="row">
             <!--<div class="col-md-4">
             <a href="https://www.zerotrust.fr" target="_blank" title="Zero Trust">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/zerotrust.png" title="ZeroTrust logo" />
@@ -185,9 +190,6 @@
 				<p  class="partnertext">Qloud MSP (Qinetics MSP Sdn. Bhd) is a Malaysian based company specialized in managed services, IT outsourcing and cloud computing. Our solution are highly focused on customer business productivity while prioritizing data protection and control.</p>
 			</div>
 		</div>
-
-        <div class="row">
-        </div>
     </div>
 </section>
 
@@ -225,6 +227,13 @@
 				</a>
 				<p  class="partnertext">HostBill is a powerful and flexible, all-in-one automation, billing, client management and support platform for online businesses. It handles all aspects of running a successful hosting business, integrating with countless control panels, domain registrars and other tools, including Nextcloud.</p>
 			</div>
+			<div class="col-md-4">
+				<a href="http://nitrokey.com" target="_blank" title="Nitrokey">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/nitrokey.png" title="Nitrokey" />
+				</a>
+				<p class="partnertext">Nitrokey is a German developer of hardware security keys. Their hardware is open source, enabling users to verify its security themselves. Nextcloud and Nitrokey work together on secure and easy authentication solutions around open standards.</p>
+			</div>
+
 			<div class="col-md-4">
 				<a href="http://www.onlyoffice.com" target="_blank" title="ONLYOFFICE">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/onlyoffice.png" title="ONLYOFFICE" />
