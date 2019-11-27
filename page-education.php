@@ -291,7 +291,7 @@ require(["require.config"], function() {
             </div>
             <div class="col-md-6">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Remote Wipe');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('Thanks to build-in support in Nextcloud, remote wipe will work on systems not under MDM control, as is typically the case for student devices at universities.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Thanks to built-in support in Nextcloud, remote wipe will work on systems not under MDM control, as is typically the case for student devices at universities.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Remote wipe can be used on a per-device basis by users and on a per-user base by the administrator.');?></p>
             </div>
         </div>

@@ -283,7 +283,7 @@
         <div class="texts-wrapper col-md-6">
 	         <div class="right-text-grey" data-slide="1">
 	            <h5 class="textTrigger" id="feature-2"><?php echo $l->t('Remote wipe');?></h5>
-	            <p class="section--paragraph"><?php echo $l->t('Thanks to build in support, remote wipe will work on devices not under MDM management like from guest users or students at universities. Users can wipe their own devices individually, admins can wipe all devices from a user.');?></p>
+	            <p class="section--paragraph"><?php echo $l->t('Thanks to built-in support, remote wipe will work on devices not under MDM management like from guest users or students at universities. Users can wipe their own devices individually, admins can wipe all devices from a user.');?></p>
 	            <br/>
 	            <p>
 	                <a class="button button--blue button--arrow button--large" href="https://www.youtube.com/watch?v=oyWXMjb-6ik" role="button"><?php echo $l->t('Learn more');?></a>
