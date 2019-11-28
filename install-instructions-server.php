@@ -111,7 +111,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <h5><?php echo $l->t('Home/SME appliance');?></h5>
-                                    <p><a class="hyperlink" target="_blank" href="https://www.hanssonit.se/">T&M Hansson IT AB</a> <?php echo $l->t('maintains a VM designed to be the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure SSL/TLS connection.');?></p>
+                                    <p><a class="hyperlink" target="_blank" href="https://www.hanssonit.se/">T&M Hansson IT AB</a> <?php echo $l->t('maintains a VM designed to be the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure TLS connection.');?></p>
                                     <p><a class="button button--blue" href="https://www.hanssonit.se/nextcloud-vm/" target="_blank"><?php echo $l->t('Get Home/SME appliance<');?>/a></p>
                                     <p><a class="hyperlink" href="https://github.com/nextcloud/vm" target="_blank"><?php echo $l->t('Find source here');?></a>.</p>
                                 </div>
