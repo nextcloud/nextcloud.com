@@ -136,7 +136,7 @@
 				<div class="teammeta">
 					<h3 class="teamtitle">Senior Sales Engineer</h3>
 					<h4 class="teamexpertise">Sales and Customer Relationships</h4>
-					<h4 class="teamlocation">lives in Berlin, Germany</h4>
+					<h4 class="teamlocation">lives in Hamburg, Germany</h4>
 					<p class="teamsocial"><a href="https://wobben.net/"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/wobben-matthias/"><i class="fa-linkedin fa"></i></a> <a href="https://twitter.com/wobben"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Matthias worked for nine years as a 3rd level IT Engineer and IT Administrator. Acting as a broker between the customer, the Sales and Engineering department, his main focus is to give our clients the best possible advice. Matthias is passionate about innovative technology, enabling clients to collaborate securely while retaining ease-of-use.</p>
@@ -161,7 +161,7 @@
 				<div class="teammeta">
 					<h3 class="teamtitle">Senior Sales Engineer</h3>
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/wiswedel"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Sascha_Wiswedel"><i class="fa-xing fa"></i></a></p>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/wiswedel"><i class="fa-linkedin fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Sascha has worked as account manager, sales engineer and application developer in the software industry and in the public sector. He is specialized in transformation and migration of data and processes. Sascha likes finding pragmatic solutions for grown environments and infrastructures.</p>
 			</div>
