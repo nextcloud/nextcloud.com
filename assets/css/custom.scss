@@ -283,13 +283,13 @@ h5 {
 /* 	margin-top: 52px; */
 }
 
-@media (min-width: $break-big) {
+@media (min-width: $break-small) {
 	.image--floated {
 		float: right;
 	}
 }
 
-@media (max-width: $break-big) {
+@media (max-width: $break-small) {
 .image--floated {
 	float: none !important;
 	}
