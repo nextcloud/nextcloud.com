@@ -5,10 +5,10 @@
         require(["bootstrap", "pages/secure"])
     });
 </script>
-<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/broken.jpg">
-<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/broken.jpg">
-<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/broken.jpg">
-<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/broken.jpg">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/collaboration6.jpg">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/collaboration6.jpg">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/collaboration6.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/collaboration6.jpg">
 
 </head>
 <div class="background security-background">
