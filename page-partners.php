@@ -173,7 +173,7 @@
                 <a href="https://cloud.tab.digital" target="_blank" title="Tab.digital">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/tab.png" title="Tab.digital logo" />
                 </a>
-                <p class="partnertext">TAB Digital is a private company based in the EU, helping customers build private collaboration systems and clouds in EU and Russia. Want to build a Nextcloud solution and have a provider take care of it? <a class="hyperlink" href="https://cloud.tab.digital">Contact us!</a></p>
+                <p class="partnertext">TAB Digital is a private company based in the EU, helping customers build private collaboration systems and clouds in EU and Russia. The newest technology and high staff competence will help you to build you success. Want to build a Nextcloud solution and have a provider take care of it? <a class="hyperlink" href="https://cloud.tab.digital">Contact us!</a></p>
             </div>
         </div>
         <div class="row">
