@@ -374,22 +374,22 @@
                 <div class="col-md-4">
                     <div class="featureblock">
                         <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
-                        <p class="section--paragraph__tittle"><?php echo $l->t('Dial-in anywhere');?></p>
-                        <p class="section--paragraph"><?php echo $l->t('Let participants join through a phone line, wherever they are');?></p>
+                        <p class="section--paragraph__tittle text-center"><?php echo $l->t('Dial-in anywhere');?></p>
+                        <p class="section--paragraph text-center"><?php echo $l->t('Let participants join through a phone line, wherever they are');?></p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="featureblock">
                         <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/manual.svg" /></div>
-                        <p class="section--paragraph__tittle"><?php echo $l->t('No limitations');?></p>
-                        <p class="section--paragraph"><?php echo $l->t('Improved connectivity behind firewalls and restrictive networks and more participants in a call');?></p>
+                        <p class="section--paragraph__tittle text-center"><?php echo $l->t('No limitations');?></p>
+                        <p class="section--paragraph text-center"><?php echo $l->t('Improved connectivity behind firewalls and restrictive networks and more participants in a call');?></p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="featureblock">
                         <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/2fa.svg" /></div>
-                        <p class="section--paragraph__tittle"><?php echo $l->t('Get started quickly');?></p>
-                        <p class="section--paragraph"><?php echo $l->t('Remote installation support from a certified Nextcloud engineer');?></p>
+                        <p class="section--paragraph__tittle text-center"><?php echo $l->t('Get started quickly');?></p>
+                        <p class="section--paragraph text-center"><?php echo $l->t('Remote installation support from a certified Nextcloud engineer');?></p>
                     </div>
                 </div>
             </div>
