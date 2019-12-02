@@ -5,10 +5,15 @@
     padding: 90px 0px 70px;
     background-color: #eee;
     .row {
-        margin-bottom: 10px;
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+        margin-bottom: 20px !important;
+        h3 {
+            margin-top: 0 !important;
+        }
     }
     img {
-        padding: 20px;
+        padding: 20px !important;
     }
     .description {
 		min-height: 100px;
