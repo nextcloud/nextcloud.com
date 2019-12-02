@@ -16,7 +16,7 @@
 <div class=" background security-background">
     <div class="container">
         <div class="col-md-6 topheader">
-            <h1><?php echo $l->t('Ecryption and hardening');?></h1>
+            <h1><?php echo $l->t('Encryption and hardening');?></h1>
             <h2><?php echo $l->t('Providing optimal security for your data and communication');?></h2>
         </div>
     </div>
