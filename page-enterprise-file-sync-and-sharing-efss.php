@@ -32,6 +32,9 @@
 		</div>
 	</div>
 </section>
+
+<div class="separator"></div>
+
 <section class="section--keyfeatures">
 <div class="container">
     <div class="row">
@@ -61,18 +64,18 @@
         <h2 class="text-center">What it looks like</h2>
     </div>
 	<div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
            <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/Files_Sharing_Share_Link_Permissions.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/Files_Sharing_Share_Link_Permissions.png" alt="file view" ></a><br />
            A typical EFSS web interface showing files and a sidebar with sharing options for the selected file
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
            <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/text-and-talk.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/text-and-talk.png" alt="sidebar with talk" ></a><br />
            More advanced solutions allow real-time document editing and communication in one interface
         </div>
-        <div class="col-md-4">
+       <!-- <div class="col-md-6">
            <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/android-UI.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/android-UI.png" alt="access on any device" ></a><br />
             These features are all available on mobile so team members can work wherever they want
-        </div>
+        </div>-->
 	</div>
 </div>
 </section>
@@ -190,6 +193,8 @@
     </div>
 </div>
 </section>
+
+
 <section class="">
 <div class="container">
     <div class="row">
@@ -223,6 +228,11 @@
             <p class="section--paragraph text-center">Being open source means no vendor lock in and an unprecedented degree of integration in enterprise infrastructure.</p>
         </div>
     </div>
+</div>
+</section>
+<section class="section--conclusion">
+<div class="container-fluid">
+<div class="container">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
             <p class="section--paragraph__tittle text-center">Fast deployment: secure your data <strong>now</strong></p>
@@ -230,6 +240,7 @@
             <p class="section--paragraph text-center"><a href="<?php echo home_url('enterprise/buy') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Contact us');?></a></p>
         </div>
     </div>
+</div>
 </div>
 </section>
 <section>
