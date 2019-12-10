@@ -44,7 +44,7 @@
         <div class="col-lg-4 col-sm-12">
             <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/tools.svg" /></div>
             <h3 class="section--paragraph__title">Easiest to use</h3>
-            <p class="section--paragraph">Powerful capabilities often result in compolicated user interfaces, lowering productivity and hindering quick adoption in organizations. Without limiting their abilities, Nextcloud does not overwhelm users with unnessecary clutter. Our customers remark time and again how few support tickets it creates for their IT teams.</p>
+            <p class="section--paragraph">Powerful capabilities often result in complicated user interfaces, lowering productivity and hindering quick adoption in organizations. Without limiting their abilities, Nextcloud does not overwhelm users with unnessecary clutter. Our customers remark time and again how few support tickets it creates for their IT teams.</p>
             <p class="section--paragraph">Accessibility features like keyboard and screenreader navigation, WCAG 2.1 compliant contrast and a dyslexia-friendly font are available only in the leading on-premises content collaboration platform!</p>
         </div>
     </div>
