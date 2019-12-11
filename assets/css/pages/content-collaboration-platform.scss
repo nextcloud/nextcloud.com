@@ -1,0 +1,83 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+
+.ccp-background {
+    background-image: url("../../img/headers/collaboration.jpg");
+    background-position: center center;
+}
+
+.section--intro {
+    p {
+        margin-top: 20px;
+    }
+}
+
+
+.benefits {
+    .banner {
+        padding-left: 0px;
+        position: relative;
+        .col-md-6 {
+            h3 {
+                font-size: 26px;
+            }
+
+            padding: 30px;
+            p {
+                padding-top: 0px;
+            }
+            .banner-image--ccp {
+                background-image: url("../../img/headers/collaboration5.jpg");
+            }
+            .banner-image--issue {
+                background-image: url("../../img/headers/collaboration3.jpg");
+            }
+            .banner-image--solution {
+                background-image: url("../../img/headers/collaboration6.jpg");
+            }
+            .banner-image, .banner-image-inverted {
+                position: absolute;
+                height: 100%;
+                margin-left: 60%;
+                background-size: cover;
+                background-position: center center;
+                width: 50vw;
+                top: 0;
+                @media (max-width: $break-small) {
+                    display: none;
+                }
+            }
+            .banner-image {
+                right: 100%;
+            }
+            .banner-image-inverted {
+                right: -50vw;
+            }
+        }
+
+    }
+}
+
+.section--benefits {
+    .row {
+        margin-top: 50px;
+    }
+}
+
+.section--features {
+    h1 {
+        margin-bottom: 80px;
+    }
+    h3 {
+        margin-top: 0;
+    }
+
+    ul {
+        li.check {
+            list-style-image: url("../../img/enterprise/check.svg");
+            list-style-position: inside;
+            color: #555555;
+        }
+    }
+}
