@@ -82,10 +82,10 @@
 				<p  class="partnertext">DASEQ is delivering Nextcloud as integral part of their OpenSource solution framework which consists of open source technology, services and training as well as security solutions.</p>
 			</div>
 			<div class="col-md-4">
-				<a href="https://360ict.nl/" target="_blank" title="360ICT">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/360ict.png" title="360ICT logo" />
+				<a href="https://thegood.cloud/" target="_blank" title="The Good Cloud">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/goodcloud.png" title="The Good Cloud logo" />
 				</a>
-				<p  class="partnertext">In a world where business depends on ICT, 360 ICT delivers garantees in the form of hard SLA's while remaining as approachable as a local ICT company for small and medium businesses. Our strength: solid, solution-focused and personal.</p>
+				<p  class="partnertext">The Good Cloud (based in the Netherlands) is fully committed to ensuring the privacy of all its users. They offer user-friendly and flexible subscriptions that are easy to share with multiple users. The Good Cloud is an ideal partner for professionals, offering a variety of business subscriptions and personalized services.</p>
 			</div>
 			<div class="col-md-4">
 				<a href="https://www.hkn.de/nextcloud-cloud-speicher" target="_blank" title="HKN">
