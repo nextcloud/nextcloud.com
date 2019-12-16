@@ -175,11 +175,11 @@ require get_template_directory() . '/strings.php';
                         </li>
                     </ul>
                 </li>
-                <li class="ghost-btn">
+                <!--<li class="ghost-btn">
                     <a href="https://demo.nextcloud.com/" class="nav__label">
                         <?php echo $l->t('Demo'); ?>
                     </a>
-                </li>
+                </li>-->
                 <li class="ghost-btn">
                     <a href="<?php echo home_url('gdpr'); ?>" class="nav__label">
                         <?php echo $l->t('GDPR'); ?>
