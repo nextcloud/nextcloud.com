@@ -435,7 +435,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Server side encryption-->
 							<li title="Only offering a web E2E solution without client support so failing to provide zero-knowledge protection" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Client side encryption-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Video Verification-->
-							<li title="Unsupported external app developed by community student" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Brute force hacking protection-->
+							<li title="There is an unsupported external app developed by community student which is not compatible with any current release" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Brute force hacking protection-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--NIST compliant password policy-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Web UI secured with CSP 3.0-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--With same-site cookies-->
