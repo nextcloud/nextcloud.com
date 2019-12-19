@@ -2,11 +2,17 @@
 @import '../modules/transparent-navbar';
 
 .jumbotron {
-  background: -webkit-gradient(linear, left top, left bottom, from($nextcloud-blue), color-stop(100%, #3e9ed8), to(#d8d8d8));
-  background: linear-gradient(to bottom, $nextcloud-blue, #3e9ed8 100%, #d8d8d8);
+/*   background: -webkit-gradient(linear, left top, left bottom, from($nextcloud-blue), color-stop(100%, #3e9ed8), to(#d8d8d8)); */
+  /*background: linear-gradient(to bottom, $nextcloud-blue, #3e9ed8 100%, #d8d8d8);*/
+  background-image: url('../../img/logo/background.svg'), linear-gradient(40deg, #0082c9 0%, rgba(28,175,255,1) 100%);
+
+  background-position: 50% 50%;
+  background-repeat: repeat;
+  background-size: 275px, contain;
+  background-attachment: fixed; /* fix background gradient */
   padding: 0;
   margin-bottom: 0;
-  background-size: 100% auto, cover;
+/*   background-size: 100% auto, cover; */
   height: 100vh;
   min-height: 700px;
   border-radius: 0 !important;

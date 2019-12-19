@@ -10,7 +10,7 @@
 <meta name=”Description” content="Nextcloud is the most deployed self-hosted file share and collaboration platform on the web. Access  &amp; collaborate across your devices. Your data remains under your control.">
 </head>
 <div class="jumbotron">
-	<img class="jumbotron__pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/pattern.png" alt="">
+<!-- 	<img class="jumbotron__pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/" alt=""> -->
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
@@ -19,7 +19,7 @@
 				<span class="message"><strong><?php echo $l->t('Nextcloud 17');?></strong> <?php echo $l->t(' brings remote wipe, collaborative text editor and next generation secure watermarking');?></span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
-				<h1 class="jumbotron--heading-1"><?php echo $l->t('Protecting your data');?></h1>
+				<h1 class="jumbotron--heading-1"><?php echo $l->t('Regain control');?></h1>
 				<h2 class="jumbotron--lead"><?php echo $l->t('The self-hosted productivity platform that keeps you in control');?></h2>
 				<a class="button button--large button--arrow button--white" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Get Nextcloud');?></a>
 			</div>

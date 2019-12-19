@@ -306,7 +306,7 @@ nav a {
                             .nav__logo {
                                 width: 45px;
                                 min-height: 15px;
-                                float:left;
+                                float: left;
                                 vertical-align: middle;
                                 svg {
                                     margin-top: 5px;
@@ -342,6 +342,45 @@ nav a {
                             }
                         }
                     }
+                    ul .nav__item {
+						a {
+                            padding: 3px 10px 0 0px;
+                            font-size: 12px;
+							/* logo in front of text */
+                            .nav__logo {
+                                width: 35px;
+                                min-height: 15px;
+                                svg {
+                                    margin-top: 3px;
+                                    padding: 5px 4px 0 0;
+                                    height: 30px;
+                                    width: 30px;
+                                }
+                            }
+                            .nav__text {
+                                line-height: 1;
+                                padding: 5px 15px 5px 0;
+                                strong {
+                                    line-height: 1.0;
+                                    font-size: 15px;
+                                }
+                            }
+                            &:hover {
+                                opacity: 0.6;
+                                text-decoration: none;
+								@media (min-width: $break-big) {
+									top: 50px;
+								}
+                            }
+                        }
+						&:not(:last-of-type) {
+                            a {
+                                padding-bottom: 2px;
+                            }
+                        }
+					}
+
+
                 }
             }
         }
