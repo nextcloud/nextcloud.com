@@ -1,0 +1,143 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.ccp-background {
+  background-image: url("../../img/headers/collaboration.jpg");
+  background-position: center center; }
+
+.section--intro p {
+  margin-top: 20px; }
+
+.section--about {
+  position: relative;
+  height: 500px;
+  /*     position: relative; */ }
+  .section--about .icon-background {
+    /*         background-image: url("../../img/headers/collaboration.jpg"); */
+    background-color: #0082c9;
+    background-image: url("../../img/headers/pattern.svg");
+    background-image: url("../../img/headers/pattern.svg"), linear-gradient(40deg, #0082c9 0%, #1cafff 100%);
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    background-size: 275px, contain;
+    background-attachment: fixed;
+    /* fix background gradient */
+    min-height: 100%;
+    /* fix sticky footer */
+    height: auto; }
+    @media (max-width: 768px) {
+      .section--about .icon-background {
+        /*             display: none; */ } }
+  .section--about .image {
+    position: absolute;
+    left: 30vw;
+    height: 400px; }
+    .section--about .image .img-responsive {
+      vertical-align: middle;
+      margin: 0;
+      height: 400px;
+      padding: 50px 0; }
+  .section--about .text {
+    position: absolute;
+    right: 0;
+    background: white;
+    height: 400px;
+    width: 50vw;
+    padding: 30px; }
+    .section--about .text h3 {
+      font-size: 26px;
+      width: 500px; }
+    .section--about .text p {
+      padding-top: 0px;
+      width: 500px; }
+
+.section--mainbenefits {
+  position: relative;
+  /*     position: relative; */ }
+  .section--mainbenefits .banner-image--ccp {
+    /*         background-image: url("../../img/headers/collaboration.jpg"); */
+    background-color: #0082c9;
+    background-image: url("../../img/headers/pattern.svg");
+    background-image: url("../../img/headers/pattern.svg"), linear-gradient(40deg, #0082c9 0%, #1cafff 100%);
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    background-size: 275px, contain;
+    background-attachment: fixed;
+    /* fix background gradient */
+    min-height: 100%;
+    /* fix sticky footer */
+    height: auto; }
+  .section--mainbenefits .banner-image--issue {
+    background-image: url("../../img/headers/collaboration3.jpg"); }
+  .section--mainbenefits .banner-image--solution {
+    background-image: url("../../img/headers/collaboration6.jpg"); }
+  .section--mainbenefits .banner-image, .section--mainbenefits .banner-image-inverted {
+    background-size: cover;
+    background-position: center center; }
+    @media (max-width: 768px) {
+      .section--mainbenefits .banner-image, .section--mainbenefits .banner-image-inverted {
+        display: none; } }
+  .section--mainbenefits .col-md-6 {
+    background: white;
+    padding: 30px; }
+    .section--mainbenefits .col-md-6 h3 {
+      font-size: 26px; }
+    .section--mainbenefits .col-md-6 p {
+      padding-top: 0px; }
+
+.section--on-premise {
+  position: relative; }
+  .section--on-premise .gradient {
+    background: #36383f;
+    background: -webkit-radial-gradient(center, ellipse, #36383f 0%, #1a1d22 60%, #000 90%);
+    background: radial-gradient(ellipse at center, #36383f 0%, #1a1d22 60%, #000 90%);
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; }
+  .section--on-premise .section--heading-1, .section--on-premise h3, .section--on-premise p {
+    color: white; }
+
+.section--benefits .row {
+  margin-top: 50px; }
+
+.section--features h1 {
+  margin-bottom: 80px; }
+.section--features h3 {
+  margin-top: 0; }
+.section--features ul li.check {
+  list-style-image: url("../../img/enterprise/check.svg");
+  list-style-position: inside;
+  color: #555555; }
+
+/*# sourceMappingURL=hub.css.map */

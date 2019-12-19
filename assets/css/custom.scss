@@ -1454,7 +1454,7 @@ blockquote.twitter-tweet {
 	&.banner, &.section--whitepaper {
 		padding: 0;
 	}
-	background: $nextcloud-blue;
+	background: linear-gradient(40deg, #0082c9 0%, rgba(28,175,255,1) 100%);
 	color: white !important;
 	p,ul,li {
 		color: white !important;
