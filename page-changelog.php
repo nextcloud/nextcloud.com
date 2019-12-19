@@ -30,6 +30,60 @@
     </ul>
 
     <a name="latest17"></a>
+<h3 id="17-0-2">Version 17.0.2 <small>December 20 2019</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.2.tar.bz2">nextcloud-17.0.2.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.2.zip">nextcloud-17.0.2.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.2.tar.bz2.md5">nextcloud-17.0.2.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.2.zip.md5">nextcloud-17.0.2.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.2.tar.bz2.sha256">nextcloud-17.0.2.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.2.zip.sha256">nextcloud-17.0.2.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.2.tar.bz2.sha512">nextcloud-17.0.2.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.2.zip.sha512">nextcloud-17.0.2.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.2.tar.bz2.asc">nextcloud-17.0.2.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.2.zip.asc">nextcloud-17.0.2.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+	<li><a href="https://github.com/nextcloud/server/pull/17851">Actually return the quote when getting global storage info (server#17851)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17858">Also set X-OC-Mtime header for files that are smaller than 10MB (server#17858)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17883">FIX: horizontal scrolling on mobile due to tab accessibility navigation 'skip to content' positioned at a fixed position (server#17883)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17916">Fix reshare with circle (server#17916)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17919">Bump icewind/searchdav (server#17919)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17925">Make timeout a optional parameter (server#17925)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17928">Check quota before transfer ownership (server#17928)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17945">Re-acquired expired shared locks on large file uploads (server#17945)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17952">Pass through ServerNotAvailableException on app init (server#17952)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18036">Do not check for updates if we have no internet (server#18036)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18040">Convert more columns to bigint (server#18040)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18043">Fix installing with MySQL 8.0.4+ (server#18043)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18047">Uid can be false when the user record does not exit (server#18047)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18050">Update the CRL (server#18050)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18054">Make chunksize (used to check for gone LDAP users) configurable (server#18054)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18075">Remove objectstore credentials (server#18075)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18100">Incorrect integer value: '' for column 'password_invalid' while migra… (server#18100)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18156">Trim the login name (server#18156)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18186">Delay creation of the cert bundle (server#18186)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18189">Handle token insert conflicts (server#18189)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18198">Throw an invalid token exception is token is marked outdated (server#18198)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18205">Backport #18120 (server#18205)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18221">Mark "Talk" active on /call/token URLs (server#18221)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18247">Allow to unfavorite all files (server#18247)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18252">Hide the tooltip if the list row is rerendered (server#18252)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18306">Move overwritehost check to isTrustedDomain (server#18306)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18307">Convert various columns in oc_mounts to bigint (server#18307)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18332">Do not disable authentication apps (server#18332)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18337">Sharee API GS fixes (server#18337)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18352">Handle IPv6 addresses with an explict incoming interface at the end (server#18352)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18355">Adding share type circles (server#18355)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18358">Fix restoring shared versions (server#18358)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18366">Support more IPv6 addresses in the RefreshWebcalJob (server#18366)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18375">Bump the CRL (server#18375)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18386">Allow to detect mimetype by content (server#18386)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18419">Bump serialize-javascript and handlebars (server#18419)</a></li>
+	<li><a href="https://github.com/nextcloud/3rdparty/pull/351">Update icewind/searchdav to 1.0.2 (3rdparty#351)</a></li>
+	<li><a href="https://github.com/nextcloud/activity/pull/407">Is_dir can be null on blacklisted files (activity#407)</a></li>
+	<li><a href="https://github.com/nextcloud/activity/pull/412">Remove debug log (activity#412)</a></li>
+	<li><a href="https://github.com/nextcloud/notifications/pull/471">Stable17 Use @nextcloud/axios so the csrf token gets refreshed (notifications#471)</a></li>
+	<li><a href="https://github.com/nextcloud/notifications/pull/495">Fix header icon hover & focus feedback (notifications#495)</a></li>
+	<li><a href="https://github.com/nextcloud/notifications/pull/499">Fix cutting of multibyte characters (notifications#499)</a></li>
+	<li><a href="https://github.com/nextcloud/notifications/pull/506">Do not send push notifications when nothing was deleted (notifications#506)</a></li>
+</ul>
 
 <h3 id="17-0-1">Version 17.0.1 <small>November 9 2019</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.1.tar.bz2">nextcloud-17.0.1.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.1.zip">nextcloud-17.0.1.zip</a></br>
@@ -122,6 +176,54 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p>Read the <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-17-brings-remote-wipe-collaborative-text-editor-and-next-generation-secure-watermarking/">release announcement</a> and blogs it links to for more details.</p>
 
     <a name="latest16"></a>
+
+<h3 id="16-0-7">Version 16.0.7 <small>December 20 2019</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.7.tar.bz2">nextcloud-16.0.7.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.7.zip">nextcloud-16.0.7.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.7.tar.bz2.md5">nextcloud-16.0.7.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.7.zip.md5">nextcloud-16.0.7.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.7.tar.bz2.sha256">nextcloud-16.0.7.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.7.zip.sha256">nextcloud-16.0.7.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.7.tar.bz2.sha512">nextcloud-16.0.7.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.7.zip.sha512">nextcloud-16.0.7.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.7.tar.bz2.asc">nextcloud-16.0.7.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.7.zip.asc">nextcloud-16.0.7.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+	<li><a href="https://github.com/nextcloud/server/pull/17852">Actually return the quote when getting global storage info (server#17852)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17857">Also set X-OC-Mtime header for files that are smaller than 10MB (server#17857)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17884">FIX: horizontal scrolling on mobile due to tab accessibility navigation 'skip to content' positioned at a fixed position (server#17884)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17906">Don't use an undefined index if not needed (server#17906)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17910">Always check via http and https whether htaccess is working (server#17910)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17927">Check quota before transfer ownership (server#17927)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17929">Make timeout a optional parameter (server#17929)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17933">Bump icewind/searchdav (server#17933)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17944">Re-acquired expired shared locks on large file uploads (server#17944)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17953">Pass through ServerNotAvailableException on app init (server#17953)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18037">Do not check for updates if we have no internet (server#18037)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18041">Convert more columns to bigint (server#18041)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18044">Fix installing with MySQL 8.0.4+ (server#18044)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18048">Uid can be false when the user record does not exit (server#18048)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18051">Update the CRL (server#18051)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18055">Make chunksize (used to check for gone LDAP users) configurable (server#18055)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18116">Incorrect integer value: '' for column 'password_invalid' while migra… (server#18116)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18129">Use old node LTS to build handlebars (server#18129)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18183">Trim the login name (server#18183)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18187">Delay creation of the cert bundle (server#18187)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18248">Allow to unfavorite all files (server#18248)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18259">Mark files_rightclick as shipped so it's marked as official (server#18259)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18284">Fix removing groups that have a slash in the name (server#18284)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18308">Move overwritehost check to isTrustedDomain (server#18308)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18309">Convert various columns in oc_mounts to bigint (server#18309)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18333">Do not disable authentication apps (server#18333)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18347">ShareeAPI GS fixes (server#18347)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18356">Adding share type circles (server#18356)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18367">Support more IPv6 addresses in the RefreshWebcalJob (server#18367)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18376">Bump the CRL (server#18376)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18387">Stable17] Allow to detect mimetype by content (server#18387)</a></li>
+	<li><a href="https://github.com/nextcloud/3rdparty/pull/352">Update icewind/searchdav to 1.0.2 (3rdparty#352)</a></li>
+	<li><a href="https://github.com/nextcloud/activity/pull/413">Remove debug log (activity#413)</a></li>
+	<li><a href="https://github.com/nextcloud/notifications/pull/489">The token id is an int (notifications#489)</a></li>
+	<li><a href="https://github.com/nextcloud/notifications/pull/500">Fix cutting of multibyte characters (notifications#500)</a></li>
+</ul>
+
 
 <h3 id="16-0-6">Version 16.0.6 <small>November 9 2019</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.6.tar.bz2">nextcloud-16.0.6.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.6.zip">nextcloud-16.0.6.zip</a></br>
@@ -487,6 +589,34 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
     </ul>
 
     <a name="latest15"></a>
+
+<h3 id="15-0-14">Version 15.0.14 <small>December 20 2019</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.14.tar.bz2">nextcloud-15.0.14.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.14.zip">nextcloud-15.0.14.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.14.tar.bz2.md5">nextcloud-15.0.14.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.14.zip.md5">nextcloud-15.0.14.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.14.tar.bz2.sha256">nextcloud-15.0.14.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.14.zip.sha256">nextcloud-15.0.14.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.14.tar.bz2.sha512">nextcloud-15.0.14.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.14.zip.sha512">nextcloud-15.0.14.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.14.tar.bz2.asc">nextcloud-15.0.14.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.14.zip.asc">nextcloud-15.0.14.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+	<li><a href="https://github.com/nextcloud/server/pull/17853">Actually return the quote when getting global storage info (server#17853)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17911">Always check via http and https whether htaccess is working (server#17911)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/17954">Pass through ServerNotAvailableException on app init (server#17954)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18049">Uid can be false when the user record does not exit (server#18049)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18052">Update the CRL (server#18052)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18106">Revert "Load additional scripts on help page" (server#18106)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18117">Incorrect integer value: '' for column 'password_invalid' while migra… (server#18117)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18190">Delay creation of the cert bundle (server#18190)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18214">Correctly remove apps without any releases (server#18214)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18285">Fix removing groups that have a slash in the name (server#18285)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18310">Convert various columns in oc_mounts to bigint (server#18310)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18357">Adding share type circles (server#18357)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18368">Support more IPv6 addresses in the RefreshWebcalJob (server#18368)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18377">Bump the CRL (server#18377)</a></li>
+	<li><a href="https://github.com/nextcloud/server/pull/18388">Stable17] Allow to detect mimetype by content (server#18388)</a></li>
+	<li><a href="https://github.com/nextcloud/activity/pull/414">Remove debug log (activity#414)</a></li>
+</ul>
 
  <h3 id="15-0-13">Version 15.0.13 <small>November 9 2019</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.13.tar.bz2">nextcloud-15.0.13.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-15.0.13.zip">nextcloud-15.0.13.zip</a></br>
