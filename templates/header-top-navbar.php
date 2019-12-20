@@ -3,6 +3,75 @@ require get_template_directory() . '/strings.php';
 ?>
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 17, 2020 14:59:59").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="clock"
+//   document.getElementById("clock").innerHTML = days + "d" + hours + ":" + minutes + ":" + seconds;
+
+  if (hours < 10) {
+  hours = "0" + hours;
+  }
+  if (minutes < 10) {
+  minutes = "0" + minutes;
+  }
+  if (seconds < 10) {
+  seconds = "0" + seconds;
+  }
+  document.getElementById("clockday").innerHTML = days;
+  document.getElementById("clockhour").innerHTML = hours;
+  document.getElementById("clockmin").innerHTML = minutes;
+  document.getElementById("clocksec").innerHTML = seconds;
+
+
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("clock").innerHTML = "Announcement";
+  }
+}, 1000);
+</script>
+<style>
+#clockday,#clockhour,#clockmin,#clocksec {
+    background-color: white;
+    color: black;
+    margin: 0 1px;
+    border-bottom: 6px solid #0082c9;
+    font-size: 80%;
+    padding: 0 1px;
+}
+
+.nav .container .right-buttons .ghost-btn.clock a::before {
+    display: none;
+}
+
+.nav .container .right-buttons .ghost-btn.clock a:hover {
+    border-bottom: 10px solid #0082c9;
+}
+
+.nav .container .right-buttons li.clock {
+padding-left: 0;
+}
+</style>
+
+
 <nav class="nav" id="nav">
 <!-- To finish -->
 	<div class="mobile-bg-container">
@@ -209,6 +278,11 @@ require get_template_directory() . '/strings.php';
 														</a>
                         </li>
                     </ul>
+                </li>
+                <li class="ghost-btn clock">
+                    <a href="https://nextcloud.com/countdown/" class="nav__label">
+                        <span id="clockday"></span><span id="clockhour"></span><span id="clockmin"></span><span id="clocksec"></span>
+                    </a>
                 </li>
             </ul>
 			</div>
