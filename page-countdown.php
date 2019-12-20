@@ -149,7 +149,7 @@ $(document).ready(function(){
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
             <p class="section--paragraph__tittle"><?php echo $l->t('Be a part of it!');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Join us at our Berlin office, Tempelhofer Ufer 23-24 on January 17, 14:00.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Join us at our Berlin office, Tempelhofer Ufer 23-24 on January 17, 13:00.');?></p>
 		</div>
 	</div>
 	<div class="row program">
@@ -160,7 +160,7 @@ $(document).ready(function(){
                     <tr>
                     <th scope="row">13:00</th>
                     <td><span class="break">Welcome<br>
-                    <small>with some drinks and conversation!</small></span></td>
+                    <small>with drinks and conversation.</small></span></td>
                     <td></td>
                     </tr>
                     <tr>
@@ -170,23 +170,29 @@ $(document).ready(function(){
                     <td><span class="break">Frank Karlitschek <br><small>Nextcloud CEO & founder</small></span></td>
                     </tr>
                     <tr>
-                    <th scope="row">15:00</th>
-                    <td>Deep dive, discussion and demo
+                    <th scope="row">15:30</th>
+                    <td>A second announcement.
                     <br>
                     <span class="break"><small></small></span></td>
-                    <td><span class="break">The Nextcloud team</td>
+                    <td><span class="break">Nextcloud and ...</td>
                     </tr>
                     <tr>
                     <th scope="row">17:00</th>
                     <td>Drinks<br>
-                    <span class="break"><small> and food on us!</small><span class="break">
+                    <span class="break"><small> and snacks on us!</small><span class="break">
                     </td>
                     <td><span class="break">Everybody</td>
                     </tr>
                 </tbody>
             </table>
-            </div>
-            </div>
+        </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <p>Can't make it? No worries, we'll have a <strong>live video stream</strong> right here!</p>
+        </div>
+    </div>
 </div>
 </section>
 
