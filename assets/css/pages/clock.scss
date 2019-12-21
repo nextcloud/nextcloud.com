@@ -33,6 +33,10 @@
                 width: 460px;
                 height: 150px;
             }
+            @media (max-width: $break-small) {
+                width: 345px;
+                height: 113px;
+            }
             p {
                 width: 100%;
                 display: inline-block;
@@ -49,6 +53,11 @@
                         padding-top: 5px;
                         margin-top: -10px;
                     }
+                    @media (max-width: $break-small) {
+                        font-size: 2em;
+                        padding-top: 3px;
+                        margin-top: -8px;
+                    }
                 }
                 &.strings{
                     width: 100%;
@@ -60,6 +69,10 @@
                     @media (max-width: $break-big) {
                         font-size: 1em;
                         padding: 5px 0;
+                    }
+                    @media (max-width: $break-big) {
+                        font-size: 0.7em;
+                        padding: 3px 0;
                     }
                 }
             }
@@ -77,9 +90,15 @@
             box-shadow: 5px 6px 9px 1px rgba(53, 53, 53, 0.5);
             @media (max-width: $break-big) {
                 width: 105px;
-                height: 120px;
+                height: 100px;
                 padding: 10px 0 0 0;
                 margin: 15px 6px 0 0;
+            }
+            @media (max-width: $break-small) {
+                width: 78.75px;
+                height: 70px;
+                padding: 8px 0 0 0;
+                margin: 12px 4px 0 0;
             }
         }
     }

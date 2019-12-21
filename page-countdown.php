@@ -149,7 +149,7 @@ $(document).ready(function(){
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
             <p class="section--paragraph__tittle"><?php echo $l->t('Be a part of it!');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Join us at our Berlin office, Tempelhofer Ufer 23-24 on January 17, 13:00.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Join us at our Berlin office we share with Wikipedia at Tempelhofer Ufer 23-24 on January 17, 13:00.');?></p>
 		</div>
 	</div>
 	<div class="row program">
