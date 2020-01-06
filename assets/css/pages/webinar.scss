@@ -1,0 +1,22 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+@import '../modules/left-pill-bar';
+
+.webinar-background {
+    background-image: url("../../img/headers/gears.jpg");
+    background-position: center center;
+    .topheader {
+
+    }
+}
+
+/* All headers */
+
+
+
+.section--join {
+    padding: 20px 0 100px 0;
+    .program {
+        padding-top: 40px;
+    }
+}
