@@ -71,20 +71,27 @@ section {
           justify-content: center;
           align-items: center;
 
-          .quote--brand--logo {
-              background: url("../../img/conference/der-spiegel-logo.png") no-repeat center/contain;
-              width: 46px;
-              height: 46px;
+          .quote--spiegel--logo {
+              background: url("../../img/history/der-spiegel-logo.png") no-repeat center/contain;
+              width: 90px;
+              height: 45px;
           }
 
-          .quote--brand--text a {
-              margin: 0;
-              padding: 0 0 0 10px;
-              font-weight: 600;
-              text-transform: uppercase;
-              font-size: 15px;
-              color: $medium-grey;
+          .quote--handelsblatt--logo {
+              background: url("../../img/history/handelsblatt.webp") no-repeat center/contain;
+              width: 140px;
+              height: 30px;
           }
+			.quote--register--logo {
+				background: url("../../img/history/the_register.png") no-repeat center/contain;
+				width: 140px;
+				height: 30px;
+			}
+			.quote--nextinpact--logo {
+				background: url("../../img/history/nextinpact.png") no-repeat center/contain;
+				width: 140px;
+				height: 30px;
+			}
       }
   }
 }

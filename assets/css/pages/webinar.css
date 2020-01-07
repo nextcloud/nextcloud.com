@@ -7,262 +7,231 @@
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto; }
-  @media (min-width: 768px) {
-    .container-widest .container-widest {
-      width: 738px; } }
-  @media (min-width: 992px) {
-    .container-widest .container-widest {
-      width: 962px; } }
-  @media (min-width: 1200px) {
-    .container-widest .container-widest {
-      width: 1170px; } }
-  @media (min-width: 1500px) {
-    .container-widest .container-widest {
-      width: 1470px; } }
-  @media (min-width: 1800px) {
-    .container-widest .container-widest {
-      width: 1770px; } }
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container-widest .container-widest {
+    width: 738px;
+  }
+}
+@media (min-width: 992px) {
+  .container-widest .container-widest {
+    width: 962px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-widest .container-widest {
+    width: 1170px;
+  }
+}
+@media (min-width: 1500px) {
+  .container-widest .container-widest {
+    width: 1470px;
+  }
+}
+@media (min-width: 1800px) {
+  .container-widest .container-widest {
+    width: 1770px;
+  }
+}
 
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
-  position: absolute; }
+  position: absolute;
+}
 
 /* This is a navigator with navigation left and content right. Inspired by Digital Ocean website. */
 .nav {
   margin-bottom: 0;
   padding-left: 0;
-  list-style: none; }
-  .nav:before, .nav:after {
-    content: " ";
-    display: table; }
-  .nav:after {
-    clear: both; }
-  .nav > li {
-    position: relative;
-    display: block; }
-    .nav > li > a {
-      position: relative;
-      display: block;
-      padding: 10px 15px; }
-      .nav > li > a:hover, .nav > li > a:focus {
-        text-decoration: none;
-        background-color: #eeeeee; }
-    .nav > li.disabled > a {
-      color: #777777; }
-      .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
-        color: #777777;
-        text-decoration: none;
-        background-color: transparent;
-        cursor: not-allowed; }
-  .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    background-color: #eeeeee;
-    border-color: #337ab7; }
-  .nav .nav-divider {
-    height: 1px;
-    margin: 9px 0;
-    overflow: hidden;
-    background-color: #e5e5e5; }
-  .nav > li > a > img {
-    max-width: none; }
+  list-style: none;
+}
+.nav:before, .nav:after {
+  content: " ";
+  display: table;
+}
+.nav:after {
+  clear: both;
+}
+.nav > li {
+  position: relative;
+  display: block;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+.nav > li.disabled > a {
+  color: #777777;
+}
+.nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
+  color: #777777;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: #eeeeee;
+  border-color: #337ab7;
+}
+.nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.nav > li > a > img {
+  max-width: none;
+}
 
 .nav-tabs {
-  border-bottom: 1px solid #ddd; }
-  .nav-tabs > li {
-    float: left;
-    margin-bottom: -1px; }
-    .nav-tabs > li > a {
-      margin-right: 2px;
-      line-height: 1.428571429;
-      border: 1px solid transparent;
-      border-radius: 4px 4px 0 0; }
-      .nav-tabs > li > a:hover {
-        border-color: #eeeeee #eeeeee #ddd; }
-    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-      color: #555555;
-      background-color: #fff;
-      border: 1px solid #ddd;
-      border-bottom-color: transparent;
-      cursor: default; }
-
+  border-bottom: 1px solid #ddd;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.428571429;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+.nav-tabs > li > a:hover {
+  border-color: #eeeeee #eeeeee #ddd;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #555555;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  cursor: default;
+}
 .nav-pills > li {
-  float: left; }
-  .nav-pills > li > a {
-    border-radius: 4px; }
-  .nav-pills > li + li {
-    margin-left: 2px; }
-  .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-    color: #fff;
-    background-color: #337ab7; }
+  float: left;
+}
+.nav-pills > li > a {
+  border-radius: 4px;
+}
+.nav-pills > li + li {
+  margin-left: 2px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #337ab7;
+}
 
 .nav-stacked > li {
-  float: none; }
-  .nav-stacked > li + li {
-    margin-top: 2px;
-    margin-left: 0; }
+  float: none;
+}
+.nav-stacked > li + li {
+  margin-top: 2px;
+  margin-left: 0;
+}
 
 .nav-justified, .nav-tabs.nav-justified {
-  width: 100%; }
+  width: 100%;
+}
+.nav-justified > li, .nav-tabs.nav-justified > li {
+  float: none;
+}
+.nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
   .nav-justified > li, .nav-tabs.nav-justified > li {
-    float: none; }
-    .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
-      text-align: center;
-      margin-bottom: 5px; }
-  .nav-justified > .dropdown .dropdown-menu {
-    top: auto;
-    left: auto; }
-  @media (min-width: 768px) {
-    .nav-justified > li, .nav-tabs.nav-justified > li {
-      display: table-cell;
-      width: 1%; }
-      .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
-        margin-bottom: 0; } }
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
 
 .nav-tabs-justified, .nav-tabs.nav-justified {
-  border-bottom: 0; }
+  border-bottom: 0;
+}
+.nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
+.nav-tabs-justified > .active > a:hover,
+.nav-tabs-justified > .active > a:focus {
+  border: 1px solid #ddd;
+}
+@media (min-width: 768px) {
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
-    margin-right: 0;
-    border-radius: 4px; }
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
   .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
-  .nav-tabs-justified > .active > a:hover,
-  .nav-tabs.nav-justified > .active > a:hover,
-  .nav-tabs-justified > .active > a:focus,
-  .nav-tabs.nav-justified > .active > a:focus {
-    border: 1px solid #ddd; }
-  @media (min-width: 768px) {
-    .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
-      border-bottom: 1px solid #ddd;
-      border-radius: 4px 4px 0 0; }
-    .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
-    .nav-tabs-justified > .active > a:hover,
-    .nav-tabs.nav-justified > .active > a:hover,
-    .nav-tabs-justified > .active > a:focus,
-    .nav-tabs.nav-justified > .active > a:focus {
-      border-bottom-color: #fff; } }
+.nav-tabs-justified > .active > a:hover,
+.nav-tabs-justified > .active > a:focus {
+    border-bottom-color: #fff;
+  }
+}
 
 .tab-content > .tab-pane {
-  display: none; }
+  display: none;
+}
 .tab-content > .active {
-  display: block; }
+  display: block;
+}
 
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
   border-top-right-radius: 0;
-  border-top-left-radius: 0; }
+  border-top-left-radius: 0;
+}
 
 .nav.nav-pills.brand-pills.nav-stacked {
   position: relative !important;
   padding: 5px 0 30px 0;
   opacity: 1;
-  /* compensate for nav being set to opacity 0 by our top nav bar code */ }
-  .nav.nav-pills.brand-pills.nav-stacked li {
-    margin: 0;
-    border-left: 1px solid lightgray; }
-    .nav.nav-pills.brand-pills.nav-stacked li:hover, .nav.nav-pills.brand-pills.nav-stacked li.active {
-      border-left: 1px solid blue;
-      font-weight: 700; }
-    .nav.nav-pills.brand-pills.nav-stacked li a {
-      color: #2a2a36;
-      background-color: transparent;
-      padding-left: 20px;
-      border-radius: 0;
-      margin: 0; }
-    .nav.nav-pills.brand-pills.nav-stacked li .tab-content {
-      margin-top: 15px;
-      padding-top: 5px; }
+  /* compensate for nav being set to opacity 0 by our top nav bar code */
+}
+.nav.nav-pills.brand-pills.nav-stacked li {
+  margin: 0;
+  border-left: 1px solid lightgray;
+}
+.nav.nav-pills.brand-pills.nav-stacked li:hover, .nav.nav-pills.brand-pills.nav-stacked li.active {
+  border-left: 1px solid blue;
+  font-weight: 700;
+}
+.nav.nav-pills.brand-pills.nav-stacked li a {
+  color: #2a2a36;
+  background-color: transparent;
+  padding-left: 20px;
+  border-radius: 0;
+  margin: 0;
+}
+.nav.nav-pills.brand-pills.nav-stacked li .tab-content {
+  margin-top: 15px;
+  padding-top: 5px;
+}
 
-.security-background {
-  background-color: black;
-  background-image: url("../../img/headers/crash.jpg");
-  background-position: bottom 0 right 0;
-  z-index: -1; }
-
+.webinar-background {
+  background-image: url("../../img/headers/gears.jpg");
+  background-position: center center;
+}
 /* All headers */
-.section--clock {
-  margin-top: -250px; }
-  @media (max-width: 991px) {
-    .section--clock {
-      margin-top: -125px; } }
-  .section--clock .clock {
-    /*         width: 920px; */
-    margin-left: auto;
-    margin-right: auto; }
-    .section--clock .clock div#countdown {
-      width: 920px;
-      height: 300px;
-      overflow: hidden;
-      color: #353535; }
-      @media (max-width: 991px) {
-        .section--clock .clock div#countdown {
-          width: 460px;
-          height: 150px; } }
-      @media (max-width: 768px) {
-        .section--clock .clock div#countdown {
-          width: 345px;
-          height: 113px; } }
-      .section--clock .clock div#countdown p {
-        width: 100%;
-        display: inline-block;
-        text-align: center; }
-        .section--clock .clock div#countdown p.numbers {
-          width: 100%;
-          height: 85%;
-          background: #FFFFFF;
-          margin-top: -25px;
-          padding-top: 10px;
-          font-size: 6em; }
-          @media (max-width: 991px) {
-            .section--clock .clock div#countdown p.numbers {
-              font-size: 3em;
-              padding-top: 5px;
-              margin-top: -10px; } }
-          @media (max-width: 768px) {
-            .section--clock .clock div#countdown p.numbers {
-              font-size: 2em;
-              padding-top: 3px;
-              margin-top: -8px; } }
-        .section--clock .clock div#countdown p.strings {
-          width: 100%;
-          height: auto;
-          padding: 10px 0;
-          background: #0082c9;
-          color: #FFFFFF;
-          font-size: 1.5em; }
-          @media (max-width: 991px) {
-            .section--clock .clock div#countdown p.strings {
-              font-size: 1em;
-              padding: 5px 0; } }
-          @media (max-width: 991px) {
-            .section--clock .clock div#countdown p.strings {
-              font-size: 0.7em;
-              padding: 3px 0; } }
-    .section--clock .clock div.cd-box {
-      width: 210px;
-      height: 240px;
-      background: #FFFFFF;
-      float: left;
-      padding: 25px 0 0 0;
-      margin: 30px 15px 0 0;
-      -webkit-box-shadow: 5px 6px 9px 1px rgba(53, 53, 53, 0.5);
-      -moz-box-shadow: 5px 6px 9px 1px rgba(53, 53, 53, 0.5);
-      box-shadow: 5px 6px 9px 1px rgba(53, 53, 53, 0.5); }
-      @media (max-width: 991px) {
-        .section--clock .clock div.cd-box {
-          width: 105px;
-          height: 100px;
-          padding: 10px 0 0 0;
-          margin: 15px 6px 0 0; } }
-      @media (max-width: 768px) {
-        .section--clock .clock div.cd-box {
-          width: 78.75px;
-          height: 70px;
-          padding: 8px 0 0 0;
-          margin: 12px 4px 0 0; } }
-
 .section--join {
-  padding: 20px 0 100px 0; }
-  .section--join .program {
-    padding-top: 40px; }
+  padding: 20px 0 100px 0;
+}
+.section--join .program {
+  padding-top: 40px;
+}
 
-/*# sourceMappingURL=clock.css.map */
+/*# sourceMappingURL=webinar.css.map */
