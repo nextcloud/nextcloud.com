@@ -123,12 +123,12 @@
 				</a>
 				<p class="partnertext">Omnis Systems Ltd is a Value Added Distributor specialised in promoting a range of complementary enterprise grade and commercially backed Open Source and Linux based solutions.<br> We support partners that want to differentiate themselves by delivering platforms made to increase productivity, security and control on data while providing ease of use and integration.</p>
 			</div>-->
-			<!--<div class="col-md-4">
+			<div class="col-md-4">
 				<a href="http://open-dsi.fr/" target="_blank" title="Open-DSI">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/opendsi.png" title="open-DSI logo" />
 				</a>
 				<p  class="partnertext">Open-DSI is a French company which supports organizations and companies with their computing projects. Our specialty is the implementation of open source cloud computing solutions and outsourcing. Our solutions are based on three main building blocks: Nextcloud, ERP+CRM Dolibarr and WooCommerce.</p>
-			</div>-->
+			</div>
             <div class="col-md-4">
 				<a href="http://www.regioit.de/" target="_blank" title="Regioit">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/regioit.png" title="regioit logo" />
