@@ -102,21 +102,27 @@
 				</a>
 				<p  class="partnertext">Founded in 2006 IT25 GmbH provides solutions for collaboration and exchange of information with a strong focus on supporting customers to install, integrate and safely operate on-premises and cloud based systems.</p>
 			</div>
+            <div class="col-md-4">
+				<a href="http://www.itservicenet.net" target="_blank" title="itservice-net">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/itservicenet.png" title="itservicenet logo" />
+				</a>
+				<p  class="partnertext">ITServicenet has over 2 decades experience managing open source servers and developing software. They handle virtualization, High Availability, monitoring and storage, helping customers set up and manage a powerful, reliable infrastructure.</p>
+			</div>
 			<div class="col-md-4">
 				<a href="http://www.netcloud.ch/" target="_blank" title="Netcloud AG">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/netcloud.png" title="netcloud logo" />
 				</a>
 				<p  class="partnertext">Netcloud AG is a Winterthur (Zurich)-based company with 130 employees. Core competencies include consulting, designing, implementing and operating IT infrastructure solutions around Cisco technology, borderless networks, data-center and unified communications solutions.</p>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.nobugs.gmbh/" target="_blank" title="NOBUGS IT GMBH">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/nobugs.png" title="nobugs logo" />
 				</a>
 				<p  class="partnertext">NOBUGS IT GmbH provides IT cloud msp/bsp solutions for small and big businesses in Austria. We are currently located in Terfens, Austria, serving customers all over Tyrol and bordering states. As service providers we believe that managed services are the future. As such, we try to improve a customer’s workflow through approved hard- and software solutions and to preemptively act on system failures to facilitate scalability.</p>
 			</div>
-		</div>
-
-		<div class="row">
 			<!--<div class="col-md-4">
 				<a href="https://www.omnis-systems.com/en/nextcloud/general-information" target="_blank" title="Omnis Systems">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/omnis.png" title="Omnis Systems" />
@@ -147,15 +153,15 @@
 				</a>
 				<p  class="partnertext">Since 2002, Siedl Networks has been delivering innovative and reliable open source IT solutions to companies, schools and non-profits throughout Austria. We help small and medium sized organizations run their on-premises file storage and collaboration solution, monitoring and supporting their infrastructure and taking care of maintenance and backup.</p>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="https://nextcloud.stylez.co.jp/" target="_blank" title="Stylez">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/stylez.png" title="stylez logo" />
 				</a>
 				<p  class="partnertext">Since 2013, Stylez has grown by focusing on integration and Business Process Outsourcing. Today Stylez expands its scope into cloud and open source services, keeping up their focus on customers and quality.</p>
 			</div>
-		</div>
-
-		<div class="row">
 			<div class="col-md-4">
 				<a href="http://sndkcorp.com/" target="_blank" title="SNDK-corp">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/sndk-corp.png" title="SNDK Corp logo" />
@@ -169,14 +175,14 @@
                 </a>
                 <p  class="partnertext">TeeBase UK Ltd offers an arsenal of devices and services for digital security to protect your data and intellectual property even when using the Internet. Be free from hackers, malware and ransomware that destroy shareholder value and ruin careers.</p>
             </div>
+        </div>
+        <div class="row">
             <div class="col-md-4">
                 <a href="https://cloud.tab.digital" target="_blank" title="Tab.digital">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/tab.png" title="Tab.digital logo" />
                 </a>
                 <p class="partnertext">TAB Digital is a private company based in the EU, helping customers build private collaboration systems and clouds in EU and Russia. The newest technology and high staff competence will help you to build you success. Want to build a Nextcloud solution and have a provider take care of it? <a class="hyperlink" href="https://cloud.tab.digital">Contact us!</a></p>
             </div>
-        </div>
-        <div class="row">
             <!--<div class="col-md-4">
             <a href="https://www.zerotrust.fr" target="_blank" title="Zero Trust">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/zerotrust.png" title="ZeroTrust logo" />
