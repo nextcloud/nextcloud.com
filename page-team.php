@@ -116,6 +116,20 @@
 				<p class="teamdescription">Olivier studied Economics and Information and Communications Systems Management at the University of Geneva. He contributed to ownCloud for several years and has close to 20 years experience in Consulting, Business Development and large scale deployments. He has helped customers in a broad range of industies both in the private and public sector, with a focus on open source, usability, security and privacy.</p>
 			</div>
 		</div>
+
+        <div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+                <h2 class="teamname">Marija Pushelja</h2>
+                <div class="teammeta">
+                    <h3 class="teamtitle">Marketing and PR</h3>
+                    <h4 class="teamexpertise">Marketing and PR</h4>
+                    <h4 class="teamlocation">lives in Berlin, Germany</h4>
+                    <p class="teamsocial"><a href="https://www.linkedin.com/in/marija-puselja"><i class="fa-rss fa"></i></a></p>
+                </div>
+                <p class="teamdescription">Originally from Croatia, Marija has a degree in Journalism and Public Relations. She finds her inspiration in the strength of visual delivery of information through photography, as much as she admires the creativity of witty and intelligent writing and finally, a well-executed layout and design.</p>
+            </div>
+        </div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/bjoern.jpg" />
@@ -379,12 +393,12 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/greta.jpg" />
 				<h2 class="teamname">Greta Doçi</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineering intern</h3>
+					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Front-end</h4>
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"> <a href="https://www.linkedin.com/in/greta-doçi-a18a2478/"><i class="fa-linkedin fa"></i></a> <a href="https://github.com/GretaD"><i class="fa-github fa"></i></a> <a href="https://twitter.com/GretaDoci"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Greta has finished her master studies in University of Tirana for Information and Communication Technology. She is an Albanian long-time Wikipedia contributor and Nextcloud advocate, doing a joint internship with Wikimedia Germany and Nextcloud.</p>
+				<p class="teamdescription">Greta has finished her master studies in University of Tirana for Information and Communication Technology. She is an Albanian long-time Wikipedia contributor and Nextcloud advocate. She joined our front-end developer team after completing a joint internship with Wikimedia Deutschland and Nextcloud.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
