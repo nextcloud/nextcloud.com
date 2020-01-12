@@ -106,7 +106,7 @@
 				<a href="http://www.itservicenet.net" target="_blank" title="itservice-net">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/itservicenet.png" title="itservicenet logo" />
 				</a>
-				<p  class="partnertext">ITServicenet has over 2 decades experience managing open source servers and developing software. They handle virtualization, High Availability, monitoring and storage, helping customers set up and manage a powerful, reliable infrastructure.</p>
+				<p  class="partnertext">An italian Company, ITServicenet has over 2 decades experience managing open source servers and developing software. They handle virtualization, high availability, monitoring and storage, helping customers set up and manage a powerful, reliable infrastructure. ITServicenet offers support in italian language for Nextcloud.</p>
 			</div>
 			<div class="col-md-4">
 				<a href="http://www.netcloud.ch/" target="_blank" title="Netcloud AG">
