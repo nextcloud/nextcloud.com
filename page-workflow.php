@@ -22,6 +22,11 @@
 <section class="section--header">
 <div class="container">
 	<div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+			<iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/Yid1haOiBcY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+    </div>
+    <div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Build automated flows');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Flow makes it easy to automate repetitive, boring tasks and build efficient team collaboration workflows.');?></p>
@@ -31,8 +36,6 @@
 	</div>
 </div>
 </section>
-
-
 
 <section class="section--workflow">
 <div class="container">
