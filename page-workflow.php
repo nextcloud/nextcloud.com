@@ -19,7 +19,7 @@
 		</div>
 	</div>
 </div>
-<section class="section--header">
+<section class="section--intro">
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
@@ -28,10 +28,10 @@
     </div>
     <div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<h3 class="section--paragraph__title"><?php echo $l->t('Build automated flows');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('Flow makes it easy to automate repetitive, boring tasks and build efficient team collaboration workflows.');?></p>
-			<h3 class="section--paragraph__title"><?php echo $l->t('Protect and retire data');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('Advanced file access control and retention capabilities enable IT to block unauthorized access and ensure files are retired in time.');?></p>
+			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Build automated flows');?></h3>
+			<p class="section--paragraph text-center"><?php echo $l->t('Flow makes it easy to automate repetitive, boring tasks and build efficient team collaboration workflows.');?></p>
+			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Protect and retire data');?></h3>
+			<p class="section--paragraph text-center"><?php echo $l->t('Advanced file access control and retention capabilities enable IT to block unauthorized access and ensure files are retired in time.');?></p>
 		</div>
 	</div>
 </div>
@@ -89,7 +89,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 featureblock">
-				<p class=""><?php echo $l->t('Learn more about how Nextcloud helps you keep your data secure.');?></p>
+				<p class="text-center"><?php echo $l->t('Learn more about how Nextcloud helps you keep your data secure.');?></p>
 				<div class="text-center morebuttondiv">
 					<a href="<?php echo home_url('secure') ?>" class="button button--large button--arrow"><?php echo $l->t('Security in Nextcloud');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
