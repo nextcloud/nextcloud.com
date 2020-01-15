@@ -119,8 +119,8 @@
 
         <div class="col-md-4">
             <div class="teamp">
-                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-                <h2 class="teamname">Marija Pushelja</h2>
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marija.jpg" />
+                <h2 class="teamname">Marija Puselja</h2>
                 <div class="teammeta">
                     <h3 class="teamtitle">Marketing and PR</h3>
                     <h4 class="teamexpertise">Marketing and PR</h4>
@@ -503,6 +503,19 @@
 					<p class="teamsocial"> <a href="https://github.com/daita"><i class="fa-github fa"></i></a> <a href="https://twitter.com/AnArtificialOwl"><i class="fa-twitter fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Maxence has extensive experience in PHP and Java/android development as well as database and network management. He is the principal author and maintainer of the Nextant full-text search app.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/michael.jpg" />
+				<h2 class="teamname">Michael Schuster</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Desktop Client</h4>
+					<h4 class="teamlocation">lives in Hamburg, Germany</h4>
+					<p class="teamsocial"> <a href="https://github.com/misch7"><i class="fa-github fa"></i></a> <a href="https://twitter.com/misch711"><i class="fa-twitter fa"></i></a> <a href="https://schuster.ms"><i class="fa-rss fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Michael Schuster has been working in C, C++ and web tech for over 20 years and P Software engineering experience of 20+ years, doing game development, docker and linux work and more. He is passionate about free and open software and control about your own data.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
