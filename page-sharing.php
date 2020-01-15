@@ -83,6 +83,8 @@ require(["require.config"], function() {
                     <li><?php echo $l->t('Real-time push notifications on comments, mentions and new shares');?></li>
                     <li><?php echo $l->t('Edit documents with others using real-time document editors like Collabora Online or ONLYOFFICE.');?></li>
                     <li><?php echo $l->t('Smoothly transition between commenting on files to chat or video calls');?></li>
+                    <li><?php echo $l->t('Transfer ownership of files and folders to other users');?></li>
+                    <li><?php echo $l->t('Lock files so others know you are working with them');?></li>
                 </ul>
             </div>
         </div>
@@ -97,7 +99,8 @@ require(["require.config"], function() {
                     <li><?php echo $l->t('Share photo galleries');?></li>
                     <li><?php echo $l->t('Share public links read-only, secure view (no download/print/copy-paste) or with editing capabilities');?></li>
                     <li><?php echo $l->t('Attach notes to a share, either to a Nextcloud user or to a public link');?></li>
-                    <li><?php echo $l->t('Share directly to users on other Nextcloud, ownCloud or Pydio servers (see below: <a class="hyperlink" href="#federation">federation</a>)');?></li>
+                    <li><?php echo $l->t('Share directly to users on other Nextcloud, ownCloud or Pydio servers (see below:');?> <a class="hyperlink" href="#federation">federation</a>)</li>
+                    <li><?php echo $l->t('Choose to automatically accept all incoming shares, or choose to accept them on a case by case basis');?></li>
                     <li><?php echo $l->t('Extensive Virtual Data Room restrictions like watermarking, ability to limit documents to filling in forms or blocking download or printing, are available. Learn more on our Virtual Data Room page.');?>
                     <a class="button button--blue" href="<?php echo home_url('virtual-data-room') ?>"><?php echo $l->t('Virtual Data Rooms');?></a></li>
                 </ul>
