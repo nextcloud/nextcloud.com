@@ -68,7 +68,7 @@
     </div>
 	<div class="row">
 		<div class="col-md-6 image--feature new-img">
-			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail.png" />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail.png"><img alt="pic of mail in action" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail.png" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Mail');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Send and receive emails in a breeze');?></p>
@@ -84,7 +84,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 image--floated image--feature new-img">
-			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png"><img class="img-responsive featureimg" alt="pic of calendar in action" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Calendar');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Schedule work and meetings online');?></p>
