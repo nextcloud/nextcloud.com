@@ -1,18 +1,20 @@
 <head>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/workflow.css?v=1" rel="stylesheet">
 <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
-<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control2-nw.png">
-<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control2-nw.png">
-<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control2-nw.png">
-<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control2-nw.png">
+<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png">
+<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png">
+<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png">
+<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png">
 </head>
 
 <div class="background workflow-background">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
-				<h1><?php echo $l->t('File Access Control and Workflows');?></h1>
-				<h2><?php echo $l->t('Manage, control and secure the flow of data on your Nextcloud server');?></p>
+				<h1><?php echo $l->t('Automate repetitive tasks');?></h1>
+				<h2><?php echo $l->t('Automate, control and secure the flow of data on your Nextcloud server');?></p>
 			</div>
 		</div>
 	</div>
@@ -21,19 +23,32 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<h3 class="section--paragraph__title"><?php echo $l->t('Users need to exchange data');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('The traditional shared data directory in companies has been informally augmented with attachments sent around by email as well as illicit usage of public cloud solutions like Dropbox. This brings significant legal, practical and financial risks.');?></p>
-			<h3 class="section--paragraph__title"><?php echo $l->t('IT needs to stay in control');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('A private cloud with File Access Control brings data back under IT policy.');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Build automated flows');?></h3>
+			<p class="section--paragraph"><?php echo $l->t('Flow makes it easy to automate repetitive, boring tasks and build efficient team collaboration workflows.');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Protect and retire data');?></h3>
+			<p class="section--paragraph"><?php echo $l->t('Advanced file access control and retention capabilities enable IT to block unauthorized access and ensure files are retired in time.');?></p>
 		</div>
 	</div>
 </div>
 </section>
+
+
+
 <section class="section--workflow">
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 image--floated image--feature new-img">
-			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/File_Access_Control_-_block_all_except_PDF.png" />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png"><img class="img-responsive featureimg" alt="pic of flow in action"  src="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png" /></a>
+		</div>
+		<div class="col-md-6">
+			<h3 class="section--paragraph__title"><?php echo $l->t('Automate tasks');?></h3>
+			<p class="section--paragraph"><?php echo $l->t('Flow makes it easy to automate repetitive, boring tasks. For example, let\'s say you are a sales person and send quotes as PDF. You set up a flow that turns documents into a PDF when you add a tag, say \'to-pdf\'. Or, say you want to put a message in your teams\' chat room when a partner uploads files in a specific folder.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Apps can include flow elements like triggers or actions, and separate flow apps can be build. If you are interested in building for flow, check our');?> <a class="hyperlink" href="<?php echo home_url('developer') ?>"><?php echo $l->t('Developer documentation');?></a>.</p>
+		</div>
+	</div>
+    <div class="row">
+		<div class="col-md-6 image--floated image--feature new-img">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-admin.png"><img class="img-responsive featureimg" alt="pic of flow in action" src="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-admin.png" /></a>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Access on your terms');?></h3>
@@ -50,6 +65,21 @@
         </div>
     </div>
 </div>
+</section>
+
+<section class="section--feature">
+	<div class="container">
+         <div class="row">
+            <div class="col-md-6 ">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/qnNZafE7ECM" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Featured community app:');?> <br /> Nextcloud Data Analytics</h3>
+                <p class="section--paragraph"><?php echo $l->t('A great example of flow integration is the Data Analytics app by developer Marcel \'Rello\' Scherello. This application is designed to turn data into reports, tracking and analyzing data which can be imported through an API. Data Analytics provides modular datasources, a realtime or storage backend and flexibile visualization. Its flow integration allows it to monitor files for updates or act on other events on Nextcloud.');?></p>
+                <a href="https://github.com/Rello/analytics/wiki/Flow-integration" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
+            </div>
+        </div>
+    </div>
 </section>
 
 <div class="container-fluid quote">
