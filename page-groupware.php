@@ -20,6 +20,11 @@
 <section class="section--intro">
 <div class="container">
 	<div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+			<iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/tbd" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+    </div>
+	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 <!-- 			<p class="section--paragraph text-center"><?php echo $l->t('Modern organizations rely on always-available access to communication and planning through browser and mobile applications to improve productivity in their teams.');?></p> -->
 			<p class="section--paragraph text-center"><?php echo $l->t('Nextcloud Groupware offers easy-to-use web mail, calendaring and contacts that helps your team get things done quicker and easier, integrated with Nextcloud Files.');?></p>
@@ -68,7 +73,7 @@
     </div>
 	<div class="row">
 		<div class="col-md-6 image--feature new-img">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail.png"><img alt="pic of mail in action" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail.png" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail.png"><img alt="screenshot of mail in action" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail.png" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Mail');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Send and receive emails in a breeze');?></p>
@@ -112,7 +117,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 image--feature new-img image--floated">
-			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png" />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png" alt="a project in deck" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Deck');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Manage your work with others');?></p>

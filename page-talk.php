@@ -23,6 +23,11 @@
 
 <section class="section--intro">
 	<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+			<iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/tbd" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+    </div>
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
                 <p class="section--paragraph text-center"><span class="avoidwrap"><?php echo $l->t('Meetings with colleagues, customers and partners');?></span> - <span class="avoidwrap"><?php echo $l->t('have a personal conversation with one click.');?></span></p>
