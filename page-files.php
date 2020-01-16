@@ -111,38 +111,6 @@
 	</div>
 </section>
 
-<section class="section--design">
-	<div class="container">
-        <div class="row">
-                <div class="col-md-6">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/LrF4jf1ROOc" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                    <h3 class="section--paragraph__title"><?php echo $l->t('Designed for humans');?></h3>
-                    <p class="section--paragraph"><?php echo $l->t('An efficient, easy to use interface is one of the main things that sets Nextcloud apart from the competition. Design is about more than being pretty. The goal is to allow users to get work done with the least amount of effort, making it obvious how to accomplish tasks and reducing the number of steps needed to do so.');?></p>
-                    <p class="section--paragraph"><?php echo $l->t('Good design can be seen in the entire user interface and each release makes steps forward.');?></p>
-                </div>
-            </div>
-	</div>
-</section>
-
-<a name="send" id="send"></a>
-<section class="section--sharing">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 image--floated">
-                <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
-                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="col-md-6">
-                <h3 class="section--paragraph__title"><?php echo $l->t('Secure file exchange');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('Nextcloud Files enables hospitals, banks, notaries and government agencies to securely send files to and receive files from customers, patients, clients or partners.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('The easy web and mobile interfaces of Nextcloud Files allow users to share files with other users on the server, to create and send password-protected public links, to let others upload files to the private cloud and to get notifications on phone and desktop when a user on another cloud server shares files.');?></p>
-                <a href="<?php echo home_url('file-drop') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Secure file exchange');?></a><br>
-            </div>
-        </div>
-    </div>
-</section>
-
 <section class="section--workspaces">
     <div class="container">
         <div class="row">
@@ -186,6 +154,39 @@
         </div>
 	</div>
 </section>
+
+<section class="section--design">
+	<div class="container">
+        <div class="row">
+                <div class="col-md-6 image--floated">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/LrF4jf1ROOc" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Designed for humans');?></h3>
+                    <p class="section--paragraph"><?php echo $l->t('An efficient, easy to use interface is one of the main things that sets Nextcloud apart from the competition. Design is about more than being pretty. The goal is to allow users to get work done with the least amount of effort, making it obvious how to accomplish tasks and reducing the number of steps needed to do so.');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('Good design can be seen in the entire user interface and each release makes steps forward.');?></p>
+                </div>
+            </div>
+	</div>
+</section>
+
+<a name="send" id="send"></a>
+<section class="section--sharing">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
+                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Secure file exchange');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('Nextcloud Files enables hospitals, banks, notaries and government agencies to securely send files to and receive files from customers, patients, clients or partners.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The easy web and mobile interfaces of Nextcloud Files allow users to share files with other users on the server, to create and send password-protected public links, to let others upload files to the private cloud and to get notifications on phone and desktop when a user on another cloud server shares files.');?></p>
+                <a href="<?php echo home_url('file-drop') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Secure file exchange');?></a><br>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <?php require get_template_directory().'/compliance.php';?>
 
