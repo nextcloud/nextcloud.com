@@ -11,7 +11,7 @@
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/gears.jpg">
 <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/gears.jpg">
 <meta name=”Description” content="Nextcloud is the most secure private cloud solution - learn how it keeps your data safe!">
-
+<meta http-equiv="refresh" content="60">
 
 <script>
 
