@@ -515,7 +515,7 @@
 					<h4 class="teamlocation">lives in Hamburg, Germany</h4>
 					<p class="teamsocial"> <a href="https://github.com/misch7"><i class="fa-github fa"></i></a> <a href="https://twitter.com/misch711"><i class="fa-twitter fa"></i></a> <a href="https://schuster.ms"><i class="fa-rss fa"></i></a></p>
 				</div>
-				<p class="teamdescription">Michael Schuster has been working in C, C++ and web tech for over 20 years and P Software engineering experience of 20+ years, doing game development, docker and linux work and more. He is passionate about free and open software and control about your own data.</p>
+				<p class="teamdescription">Michael Schuster has been working in C, C++ and web tech for over 20 years, doing game development, docker and Linux work and more. He is passionate about free and open software and control about your own data.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
