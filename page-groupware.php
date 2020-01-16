@@ -67,14 +67,14 @@
         <h2 class="text-center"><?php echo $l->t('Key features');?></h2>
     </div>
 	<div class="row">
-		<div class="col-md-6">
-			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png" />
+		<div class="col-md-6 image--feature new-img">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail.png"><img alt="pic of mail in action" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail.png" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Mail');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Send and receive emails in a breeze');?></p>
 			<p class="section--paragraph"><?php echo $l->t('<ul>
 			<li>Multiple accounts with unified inbox</li>
-			<li>Easy-to-use folder management</li>
+			<li>Recognizes travel itineraries and adds them to calendar</li>
 			<li>Supports end-to-end encryption using OpenPGP</li>
 			</ul>
 			<br>
@@ -83,15 +83,15 @@
         </div>
 	</div>
 	<div class="row">
-		<div class="col-md-6 image--floated">
-			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png" />
+		<div class="col-md-6 image--floated image--feature new-img">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png"><img class="img-responsive featureimg" alt="pic of calendar in action" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Calendar');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Schedule work and meetings online');?></p>
 			<p class="section--paragraph"><?php echo $l->t('<ul>
-			<li>Create multiple calendars</li>
+			<li>Create and share multiple calendars</li>
             <li>Integrate external calendar resources (WebCal)</li>
-			<li>Share your calendars with your team or make them public</li>
+			<li>Book resources through a busy view or plan a Talk meeting</li>
 			</ul>
 			');?></p>
         </div>
