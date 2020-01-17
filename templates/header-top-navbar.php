@@ -291,7 +291,7 @@ padding-left: 0;
                 </li>
                 <li class="ghost-btn clock">
                     <a href="https://nextcloud.com/countdown/" class="nav__label">
-                        <span id="clockday"></span><span id="clockhour"></span><span id="clockmin"></span><span id="clocksec"></span>
+                        Livestream
                     </a>
                 </li>
             </ul>
