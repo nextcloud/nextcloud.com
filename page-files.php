@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/files.css?v=1" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/files.css?v=2" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
@@ -35,7 +35,7 @@
 <div class="container">
     <div class="row">
 		<div class="col-md-10 col-md-offset-1 video">
-            <stream src="fa1b52828b602f72cf1bcfab61f74fb4" controls autoplay></stream>
+            <stream src="fa1b52828b602f72cf1bcfab61f74fb4" controls autoplay poster="<?php bloginfo('template_directory'); ?>/assets/img/features/main_screenshot.png"></stream>
             <script data-cfasync="false" defer type="text/javascript"
             src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=fa1b52828b602f72cf1bcfab61f74fb4"></script>
 		</div>

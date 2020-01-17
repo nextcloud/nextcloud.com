@@ -25,7 +25,7 @@
 	<div class="container">
     <div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-			<stream src="58bf7b0f3ae662ee1d6b368099c8c94f" controls autoplay></stream>
+			<stream src="58bf7b0f3ae662ee1d6b368099c8c94f" controls autoplay poster="<?php bloginfo('template_directory'); ?>/assets/img/features/text-and-talk.png"></stream>
             <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=58bf7b0f3ae662ee1d6b368099c8c94f"></script>
 		</div>
     </div>
