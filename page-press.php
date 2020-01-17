@@ -20,6 +20,8 @@
     <a href="<?php echo home_url('press/pr20190930') ?>" class="button button--large button--blue button--arrow">Press release and background</a>
     <h2>Press releases</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20200117-1') ?>">January 17, 2020: IONOS and Nextcloud together for more data sovereignty</a></li>
+        <li><a href="<?php echo home_url('press/pr20200117-2') ?>">January 17, 2020: Nextcloud challenges SAAS vendors with launch of Hub</a></li>
         <li><a href="<?php echo home_url('press/pr20191016') ?>">October 16, 2019: French universities and research organizations will gain access to secure, private collaboration platform</a></li>
         <li><a href="<?php echo home_url('press/pr20190930') ?>">September 30, 2019: Nextcloud 17 brings remote wipe, collaborative text editor and next generation secure watermarking</a></li>
         <li><a href="<?php echo home_url('press/pr20190827') ?>">August 27, 2019: Amid escalating trade disputes, EU governments choose independence from US cloud providers</a></li>
