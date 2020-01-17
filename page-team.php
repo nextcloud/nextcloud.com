@@ -312,7 +312,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/john.jpg" />
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/barth.jpg" />
 				<h2 class="teamname">Barthélémy Briand</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
