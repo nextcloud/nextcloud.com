@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/talk.css?v=3" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/talk.css?v=4" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 
