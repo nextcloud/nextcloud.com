@@ -14,9 +14,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-17-brings-remote-wipe-collaborative-text-editor-and-next-generation-secure-watermarking/">
+				<a class="announcement" href="https://nextcloud.com/blog/the-new-standard-in-on-premises-team-collaboration-nextcloud-hub/">
 				<span class="type">News</span>
-				<span class="message"><strong><?php echo $l->t('Nextcloud 17');?></strong> <?php echo $l->t(' brings remote wipe, collaborative text editor and next generation secure watermarking');?></span>
+				<span class="message"><strong><?php echo $l->t('Nextcloud Hub');?>:</strong> <?php echo $l->t(' The new standard in on-premises team collaboration');?></span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Regain control');?></h1>
