@@ -285,6 +285,14 @@
 
 }
 
+.section--intro {
+    p {
+        margin-top: 20px;
+    }
+    .video .video-js {
+        background-color: transparent !important;
+    }
+}
 
 /**
 * Home page: Why Nextcloud?
@@ -344,6 +352,58 @@
         }
     }
 }
+
+
+.section--hub {
+    position: relative;
+    height: 500px;
+    /*     position: relative; */
+    .icon-background {
+        /*         background-image: url("../../img/headers/collaboration.jpg"); */
+        background-color: #0082c9;
+        background-image: url('../../img/headers/pattern.svg');
+        background-image: url('../../img/logo/background.svg'), linear-gradient(40deg, #0082c9 0%, rgba(28,175,255,1) 100%);
+        background-position: 50% 50%;
+        background-repeat: repeat;
+        background-size: 275px, contain;
+        background-attachment: fixed; /* fix background gradient */
+        min-height: 100%; /* fix sticky footer */
+        height: auto;
+        @media (max-width: $break-small) {
+            /*             display: none; */
+        }
+    }
+    .image {
+        position: absolute;
+        left:30vw;
+        height: 400px;
+        .img-responsive {
+            vertical-align: middle;
+            margin: 0;
+            height: 400px;
+            padding: 50px 0;
+        }
+    }
+
+    .text {
+        position: absolute;
+        right: 0;
+        background: white;
+        height: 400px;
+        width: 50vw;
+        h3 {
+            font-size: 26px;
+            width: 500px;
+        }
+
+        padding: 30px;
+        p {
+            padding-top: 0px;
+            width: 500px;
+        }
+    }
+}
+
 
 .section--why {
 	padding-bottom: 80px;

@@ -25,7 +25,8 @@
 	<div class="container">
     <div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-			<iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/tbd" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<stream src="58bf7b0f3ae662ee1d6b368099c8c94f" controls autoplay></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=58bf7b0f3ae662ee1d6b368099c8c94f"></script>
 		</div>
     </div>
 		<div class="row">

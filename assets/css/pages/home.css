@@ -245,6 +245,11 @@
     opacity: 1; }
   100% {
     opacity: 0; } }
+.section--intro p {
+  margin-top: 20px; }
+.section--intro .video .video-js {
+  background-color: transparent !important; }
+
 /**
 * Home page: Why Nextcloud?
 */
@@ -292,6 +297,49 @@
           font-size: 22px; }
         .section--products .description .title .text small {
           opacity: 0.8; }
+
+.section--hub {
+  position: relative;
+  height: 500px;
+  /*     position: relative; */ }
+  .section--hub .icon-background {
+    /*         background-image: url("../../img/headers/collaboration.jpg"); */
+    background-color: #0082c9;
+    background-image: url("../../img/headers/pattern.svg");
+    background-image: url("../../img/logo/background.svg"), linear-gradient(40deg, #0082c9 0%, #1cafff 100%);
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    background-size: 275px, contain;
+    background-attachment: fixed;
+    /* fix background gradient */
+    min-height: 100%;
+    /* fix sticky footer */
+    height: auto; }
+    @media (max-width: 768px) {
+      .section--hub .icon-background {
+        /*             display: none; */ } }
+  .section--hub .image {
+    position: absolute;
+    left: 30vw;
+    height: 400px; }
+    .section--hub .image .img-responsive {
+      vertical-align: middle;
+      margin: 0;
+      height: 400px;
+      padding: 50px 0; }
+  .section--hub .text {
+    position: absolute;
+    right: 0;
+    background: white;
+    height: 400px;
+    width: 50vw;
+    padding: 30px; }
+    .section--hub .text h3 {
+      font-size: 26px;
+      width: 500px; }
+    .section--hub .text p {
+      padding-top: 0px;
+      width: 500px; }
 
 .section--why {
   padding-bottom: 80px; }

@@ -37,6 +37,11 @@
 section {
   margin: 50px 0; }
 
+.section--intro p {
+  margin-top: 20px; }
+.section--intro .video .video-js {
+  background-color: transparent !important; }
+
 .section--customers {
   position: relative; }
   .section--customers .section--paragraph {

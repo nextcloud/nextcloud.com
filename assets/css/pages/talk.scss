@@ -22,6 +22,16 @@ section {
  	}
 }
 
+.section--intro {
+    p {
+        margin-top: 20px;
+    }
+    .video .video-js {
+        background-color: transparent !important;
+    }
+}
+
+
 .featuretitle {
     text-align: center;
 }

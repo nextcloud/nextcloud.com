@@ -44,6 +44,11 @@ section {
   section .row {
     padding-top: 40px; }
 
+.section--intro p {
+  margin-top: 20px; }
+.section--intro .video .video-js {
+  background-color: transparent !important; }
+
 .featuretitle {
   text-align: center; }
 

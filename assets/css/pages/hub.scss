@@ -7,11 +7,99 @@
     background-position: center center;
 }
 
+.background h2 .button {
+    text-shadow: none;
+}
+
+
 .section--intro {
     p {
         margin-top: 20px;
     }
+    .video .video-js {
+        background-color: transparent !important;
+    }
 }
+
+.section--products {
+    margin: 0 0 0 0;
+    padding: 90px 0 70px 0;
+    /*     background-color: #eee; */
+    .row {
+        margin-bottom: 10px;
+    }
+    img {
+        padding: 20px;
+    }
+    .description {
+        min-height: 100px;
+        margin: 0 20px;
+        .title {
+            display: block;
+            padding: 5px 10px 0 0;
+            font-size: 18px;
+            /*             color: white; */
+            .logo {
+                width: 65px;
+                min-height: 25px;
+                float:left;
+                vertical-align: middle;
+                img {
+                    margin-top: 0px;
+                    padding: 4px 5px 0 0;
+                    height: 60px;
+                    width: 60px;
+                }
+            }
+            .text {
+                line-height: 1;
+                padding: 10px 0 10px 0;
+                strong {
+                    line-height: 1.2;
+                    font-weight: normal;
+                    font-size: 22px;
+                }
+                small {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
+
+
+.section--more {
+    .container-widest .row {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .section--heading-1 {
+        padding-bottom: 60px;
+    }
+
+    i[class*='fa-'] {
+        font-size: 60px;
+        display: block;
+        color: #0082c9;
+        text-align: center;
+        padding-top: 20%;
+    }
+    .icon {
+        text-align: center;
+        padding-top: 20%;
+        display: block;
+        svg {
+            display: inline;
+/*             float: left; */
+/*             margin-right: 15px; */
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+
+
 
 .section--about {
     position: relative;
@@ -21,7 +109,7 @@
         /*         background-image: url("../../img/headers/collaboration.jpg"); */
         background-color: #0082c9;
         background-image: url('../../img/headers/pattern.svg');
-        background-image: url('../../img/headers/pattern.svg'), linear-gradient(40deg, #0082c9 0%, rgba(28,175,255,1) 100%);
+        background-image: url('../../img/logo/background.svg'), linear-gradient(40deg, #0082c9 0%, rgba(28,175,255,1) 100%);
         background-position: 50% 50%;
         background-repeat: repeat;
         background-size: 275px, contain;
@@ -63,6 +151,64 @@
     }
 }
 
+.section--overview {
+    .featuretabs {
+        padding-top: 70px;
+        .tab-content {
+            min-height: 300px;
+            .feature {
+                margin-top: 30px;
+                .icon {
+                    @media  (max-width: $break-big) {
+                        svg {
+                            display: inline;
+                            float: left;
+                            margin-right: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .nav-pills.brand-pills.nav-stacked {
+            padding-bottom: 60px;
+            @media  (max-width: $break-big) {
+                padding-bottom: 100px;
+            }
+            @media  (max-width: $break-small) {
+                padding-bottom: 0px;
+                .icon {
+                    svg {
+                        display: inline;
+                        float: left;
+                        margin-right: 15px;
+                    }
+                }
+            }
+            li {
+                a {
+                    color: #6c6c6c;
+                }
+                .icon {
+                    svg {
+                        height: 26px;
+                        width: 26px;
+                        display: inline;
+                        float: left;
+                        margin-right: 15px;
+                    }
+                }
+                &.active > a, &.active > a:hover, &.active > a:focus {
+                    color: #6c6c6c;;
+                    background-color: #FFF;
+                    border: none;
+                    border-bottom: 1px solid gray;
+                    border-radius: 0;
+                }
+            }
+
+        }
+    }
+}
 
 .section--mainbenefits {
     position: relative;

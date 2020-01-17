@@ -35,7 +35,9 @@
 <div class="container">
     <div class="row">
 		<div class="col-md-10 col-md-offset-1 video">
-			<iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/tbd" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <stream src="fa1b52828b602f72cf1bcfab61f74fb4" controls autoplay></stream>
+            <script data-cfasync="false" defer type="text/javascript"
+            src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=fa1b52828b602f72cf1bcfab61f74fb4"></script>
 		</div>
 		<div class="col-md-8 col-md-offset-2">
 			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Enterprise File Sync and Share');?></h3>
@@ -88,8 +90,8 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-6  image--floated">
-                <div data-type="youtube" data-video-id="tbd"></div>
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/tbd" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                <stream src="6644f6c1e7c0a5e3ff5b877e07ed1dea" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/text-and-talk.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=6644f6c1e7c0a5e3ff5b877e07ed1dea"></script>
             </div>
                 <h3 class="section--paragraph__title"><?php echo $l->t('Seamless collaboration');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('The core strength of Nextcloud is its ability to enhance team productivity on the go with an easy user interface on mobile, web and desktop and powerful integrated document collaboration and communication capabilities.');?></p>
@@ -115,7 +117,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/o8DNaeEnXkg" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                <stream src="438ffb5360ced41ccc9849a7e41973a6" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/workspaces.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=438ffb5360ced41ccc9849a7e41973a6"></script>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Rich workspaces');?></h3>
@@ -129,7 +132,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 image--floated">
-                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/Li38SmjKNkA" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                <stream src="b2bff2b8e183f558fcfcb64f41851d9d" controls  poster="<?php bloginfo('template_directory'); ?>/assets/img/features/lock_file.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=b2bff2b8e183f558fcfcb64f41851d9d"></script>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Lock files');?></h3>
@@ -144,7 +148,8 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-6">
-                <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/Yid1haOiBcY" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                <stream src="75499b40ed321ef2eb0ff5cc2a95e7cf" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-admin.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=75499b40ed321ef2eb0ff5cc2a95e7cf"></script>
             </div>
                 <h3 class="section--paragraph__title"><?php echo $l->t('Workflow management');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('With Nextcloud, system administrators can control and direct the flow of data between users on or between servers. Rule-based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements.');?></p>

@@ -43,6 +43,37 @@
 </script>
 <a name="scroll"></a>
 
+<section class="section--intro">
+<div class="container">
+	<div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+			<stream src="eb1384b4fa48d8f47abdec5051bc922d" controls autoplay></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=eb1384b4fa48d8f47abdec5051bc922d"></script>
+		</div>
+    </div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+                <p class="section--paragraph text-center"><?php echo $l->t('Share and collaborate on documents, send and receive email, manage your calendar and have video chats without data leaks');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('As fully on-premises solution, Nextcloud Hub provides the benefits of online collaboration without the compliance and security risks.');?></p>
+		</div>
+	</div>
+</div>
+</section>
+
+<section class="section--hub">
+<div class="container-fluid icon-background">
+        <div class="image">
+            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-hub-logos-white.svg" alt="in action"/>
+        </div>
+        <div class="text">
+            <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Hub');?></h3>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud Hub is the first completely integrated on-premises content collaboration platform on the market, ready for a new generation of users who expect seamless online collaboration capabilities out of the box.');?></p>
+            <a href="<?php echo home_url('hub') ?>" class="button button--blue"><?php echo $l->t('Learn more');?></a>
+        </div>
+
+</div>
+</section>
+
 <section class="section--products">
 	<div class="container">
         <div class="row">
@@ -95,6 +126,7 @@
         </div>
     </div>
 </section>
+
 
 <section class="section--customers quote">
 	<div class="container">
@@ -261,7 +293,7 @@
 
 <?php require get_template_directory().'/verticals.php';?>
 
-<section class="slideshow" id="slideshow">
+<!--<section class="slideshow" id="slideshow">
     <h1 class="text-center section--heading-1"><?php echo $l->t('Introducing Nextcloud 17');?></h1>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
@@ -320,7 +352,7 @@
 	        </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <!--<section class="news-section">
 	<div class="container-fluid news" id="social-media">
