@@ -105,16 +105,6 @@ $(document).ready(function(){
         </div>
     </div>
 </div>
-
-<section>
-    <div class="container">
-        <div class="row text-center">
-            <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/9Sx8_9ZSWzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div>
-</section>
-
-
 <section class="section--clock">
     <div class="container">
         <div class="clock">
@@ -140,6 +130,17 @@ $(document).ready(function(){
     </div>
 </div>
 </section>
+
+
+<section>
+    <div class="container">
+        <div class="row text-center">
+            <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/9Sx8_9ZSWzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+
+
 
 <!--<section class="section--intro">
 <div class="container">
