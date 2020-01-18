@@ -21,7 +21,7 @@
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-			<stream src="3e135d59fff771d1909c4b8d588d5800" controls autoplay poster="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png"></stream>
+			<stream src="3e135d59fff771d1909c4b8d588d5800" controls autoplay poster="<?php bloginfo('template_directory'); ?>/assets/img/features/groupware-video.png"></stream>
             <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=3e135d59fff771d1909c4b8d588d5800"></script>
 		</div>
     </div>
