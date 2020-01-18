@@ -43,18 +43,18 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p>Nextcloud Hub is the first completely integrated on-premises content collaboration platform on the market, ready for a new generation of users who expect seamless online collaboration capabilities out of the box.</p>
 <p>With this release, we made a change to what we ship. Nextcloud 17 is now Nextcloud Hub 18. Nextcloud Hub comes with a number of new apps which get installed by default on installation (but not shipped as part of the tarball/zip). Nextcloud 17 users can just upgrade as usual to 18, we encourage you to install the new and improved apps like Talk, Calendar, Mail, ONLYOFFICE and more. You will get notified of this recommendation on upgrade!</p>
 <p>As this is a major release, the changelog is too long to put here. Users can look at github milestones to find what has been merged. A quick overview of what is new:</p>
-<ul style="list-style-image: none;">
-<li>🗄 Files - features an improved sidebar, accepting internal shares &amp; folder owner transfership
-<ul style="list-style-image: none;">
-<li>🗃 Workspaces brings context to your folders, facilitating collaboration in one place.</li>
-<li>🔏 File locking prevents conflicts editing shared files with others</li>
+<ul>
+<li style="list-style: none; list-style-image: none;">📁 Files - features an improved sidebar, accepting internal shares &amp; folder owner transfership
+<ul style="margin-top: 0;">
+<li style="list-style: none; list-style-image: none;">🗃 Workspaces brings context to your folders, facilitating collaboration in one place.</li>
+<li style="list-style: none; list-style-image: none;">🔏 File locking prevents conflicts editing shared files with others</li>
 </ul></li>
-<li>🤖 Flow - Brings extensive, easy to use workflow capabilities to Nextcloud. Automatically turn documents in PDFs, send messages to chat rooms and more!</li>
-<li>📝 ONLYOFFICE - Built in ONLYOFFICE makes collaborative editing of Microsoft Office documents accessible to everyone</li>
-<li>🖼 Photos - A brand new image gallery makes finding, browsing and sharing your images easier than ever before.</li>
-<li>📅 Calendar 2.0 - Calendar 2.0 books Talk meetings, brings busy view for meetings and resource booking and more</li>
-<li>📩 Mail - Mail 1.0 recognizes itineraries, handles rich text mails and more</li>
-<li>🗣 Talk - rewritten user interface brings message delivery notifications, circles support, message replies and flow integration</li>
+<li style="list-style: none; list-style-image: none;">🤖 Flow - Brings extensive, easy to use workflow capabilities to Nextcloud. Automatically turn documents in PDFs, send messages to chat rooms and more!</li>
+<li style="list-style: none; list-style-image: none;">📝 ONLYOFFICE - Built in ONLYOFFICE makes collaborative editing of Microsoft Office documents accessible to everyone</li>
+<li style="list-style: none; list-style-image: none;">📸 Photos - A brand new image gallery makes finding, browsing and sharing your images easier than ever before.</li>
+<li style="list-style: none; list-style-image: none;">📅 Calendar 2.0 - Calendar 2.0 books Talk meetings, brings busy view for meetings and resource booking and more</li>
+<li style="list-style: none; list-style-image: none;">📩 Mail - Mail 1.0 recognizes itineraries, handles rich text mails and more</li>
+<li style="list-style: none; list-style-image: none;">🗣 Talk - rewritten user interface brings message delivery notifications, circles support, message replies and flow integration</li>
 </ul>
 <p>Read the <a class="hyperlink" href="https://nextcloud.com/blog/the-new-standard-in-on-premises-team-collaboration-nextcloud-hub/">release announcement</a> for more details.</p>
 
