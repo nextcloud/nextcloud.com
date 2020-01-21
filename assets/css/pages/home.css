@@ -318,28 +318,33 @@
     @media (max-width: 768px) {
       .section--hub .icon-background {
         /*             display: none; */ } }
-  .section--hub .image {
-    position: absolute;
-    left: 30vw;
-    height: 400px; }
-    .section--hub .image .img-responsive {
-      vertical-align: middle;
-      margin: 0;
-      height: 400px;
-      padding: 50px 0; }
+  .section--hub .col-md-6 {
+    min-height: 1px; }
+  .section--hub .with-image {
+    position: relative; }
+    .section--hub .with-image .image {
+      position: absolute;
+      right: 0;
+      height: 400px; }
+      .section--hub .with-image .image .img-responsive {
+        vertical-align: middle;
+        margin: 0;
+        height: 400px;
+        padding: 50px 0; }
   .section--hub .text {
-    position: absolute;
-    right: 0;
+    /*         position: absolute; */
+    /*         right: 0; */
+    margin-top: -1px;
     background: white;
     height: 400px;
-    width: 50vw;
+    /*         width: 50vw; */
     padding: 30px; }
     .section--hub .text h3 {
       font-size: 26px;
-      width: 500px; }
+      /*             width: 500px; */ }
     .section--hub .text p {
       padding-top: 0px;
-      width: 500px; }
+      /*             width: 500px; */ }
 
 .section--why {
   padding-bottom: 80px; }

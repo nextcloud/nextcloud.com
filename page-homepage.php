@@ -62,15 +62,22 @@
 
 <section class="section--hub">
 <div class="container-fluid icon-background">
-        <div class="image">
-            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-hub-logos-white.svg" alt="in action"/>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 with-image">
+                <div class="image">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-hub-logos-white.svg" alt="in action"/>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="text">
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Hub');?></h3>
+                    <p class="section--paragraph"><?php echo $l->t('Nextcloud Hub is the first completely integrated on-premises content collaboration platform on the market, ready for a new generation of users who expect seamless online collaboration capabilities out of the box.');?></p>
+                    <a href="<?php echo home_url('hub') ?>" class="button button--blue"><?php echo $l->t('Learn more');?></a>
+                </div>
+            </div>
         </div>
-        <div class="text">
-            <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Hub');?></h3>
-            <p class="section--paragraph"><?php echo $l->t('Nextcloud Hub is the first completely integrated on-premises content collaboration platform on the market, ready for a new generation of users who expect seamless online collaboration capabilities out of the box.');?></p>
-            <a href="<?php echo home_url('hub') ?>" class="button button--blue"><?php echo $l->t('Learn more');?></a>
-        </div>
-
+    </div>
 </div>
 </section>
 
