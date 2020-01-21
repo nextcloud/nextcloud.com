@@ -90,7 +90,7 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-6  image--floated">
-                <stream src="6644f6c1e7c0a5e3ff5b877e07ed1dea" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/text-and-talk.png"></stream>
+                <stream src="6644f6c1e7c0a5e3ff5b877e07ed1dea" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/documents-video.png"></stream>
                 <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=6644f6c1e7c0a5e3ff5b877e07ed1dea"></script>
             </div>
                 <h3 class="section--paragraph__title"><?php echo $l->t('Seamless collaboration');?></h3>
