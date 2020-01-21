@@ -35,7 +35,7 @@
 <div class="container">
     <div class="row">
 		<div class="col-md-10 col-md-offset-1 video">
-            <stream src="fa1b52828b602f72cf1bcfab61f74fb4" controls autoplay poster="<?php bloginfo('template_directory'); ?>/assets/img/features/main_screenshot.png"></stream>
+            <stream src="fa1b52828b602f72cf1bcfab61f74fb4" controls autoplay poster="<?php bloginfo('template_directory'); ?>/assets/img/features/files-video.png"></stream>
             <script data-cfasync="false" defer type="text/javascript"
             src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=fa1b52828b602f72cf1bcfab61f74fb4"></script>
 		</div>

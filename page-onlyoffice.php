@@ -27,8 +27,9 @@
 <section class="section--video">
 <div class="container">
     <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-            <iframe height="500" width="auto" src="https://www.youtube-nocookie.com/embed/piI5LvYfv2o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div class="col-md-12">
+            <stream src="6644f6c1e7c0a5e3ff5b877e07ed1dea" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/documents-video.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=6644f6c1e7c0a5e3ff5b877e07ed1dea"></script>
         </div>
     </div>
     <div class="row">
