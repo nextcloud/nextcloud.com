@@ -31,10 +31,10 @@
 <meta name="twitter:image:src" content="<?php echo $image[0]; ?>">
 <meta property="og:image" content="<?php echo $image[0]; ?>">
 <?php else: ?>
-<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/home/top-banner.png">
-<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/home/top-banner.png">
-<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/home/top-banner.png">
-<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/home/top-banner.png">
+<meta itemprop="image" content="https://nextcloud.com/media/hub-video.png">
+<meta name="twitter:image" content="https://nextcloud.com/media/hub-video.png">
+<meta name="twitter:image:src" content="https://nextcloud.com/media/hub-video.png">
+<meta property="og:image" content="https://nextcloud.com/media/hub-video.png">
 <?php endif; ?>
 
 <meta name="theme-color" content="#0082c9">
