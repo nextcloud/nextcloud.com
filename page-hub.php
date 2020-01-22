@@ -428,21 +428,6 @@
 <section class="section--accessibility">
 	<div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/S_842AQx3MQ" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
-            </div>
-                <h3 class="section--paragraph__title"><?php echo $l->t('Accessibility');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('To ensure Nextcloud is accessible to users with visual impairments, Nextcloud has extensive keyboard accessibility and screen reader support.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('The colors used in Nextcloud meet the WCAG 2.0 AA standard for contrast and we created themes for users who need even higher support. Our High Contrast theme aims for WCAG 2.0 AAA compliance, while a Dyslexia-friendly font option helps people with reading disability. A Dark theme is also available.');?></p>
-            </div>
-        </div>
-	</div>
-</section>
-
-
-<section class="section--accessibility">
-	<div class="container">
-        <div class="row">
             <div class="col-md-6 image--floated">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/S_842AQx3MQ" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
