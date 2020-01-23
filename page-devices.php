@@ -66,7 +66,7 @@ require(["require.config"], function() {
                     <span>Commercial</span>
                     <span>Community</span>
                 </div>
-                <a href="https://shop.hanssonit.se/product/nextcloud-home-sme-server/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more and order');?></a>
+                <a href="https://shop.hanssonit.se/product-category/nextcloud/home-sme-server/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more and order');?></a>
             </div>
         </div>
         <div class="row feature--block">
