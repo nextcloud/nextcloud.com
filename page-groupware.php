@@ -1,9 +1,9 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/groupware.css?v=2" rel="stylesheet">
-<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png">
-<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png">
-<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png">
-<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png">
+<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/groupware-video.png">
+<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/groupware-video.png">
+<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/groupware-video.png">
+<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/groupware-video.png">
 <meta name=”Description” content="Integrated communication, collaboration and planning capabilities for Nextcloud.">
 </head>
 <div class="background groupware-background">

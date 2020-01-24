@@ -7,6 +7,10 @@
 		require(["modules/submenu"])
 	});
 </script>
+<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/files-video.png">
+<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/files-video.png">
+<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/files-video.png">
+<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/files-video.png">
 <meta name=”Description” content="Learn how Nextcloud Files helps you and your team members be productive with secure, easy to use collaboration and communication tools!">
 </head>
 <div class="background files-background second-menu">

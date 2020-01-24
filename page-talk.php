@@ -3,10 +3,10 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 
-<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png">
-<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png">
-<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png">
-<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png">
+<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-video.png">
+<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-video.png">
+<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-video.png">
+<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-video.png">
 <meta name=”Description” content="You need confidential communication? Find out how Talk is your solution!">
 
 </head>
