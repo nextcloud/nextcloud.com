@@ -16,7 +16,7 @@
         <p><p>Some basic HTML tags were rendered as Markup in directory names.</p></p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Android &lt; <strong>3.7.0</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Android &lt; <strong>3.7.0</strong> (CVE-2019-5450)</li>
 
         </ul>
         <h3>Action Taken</h3>

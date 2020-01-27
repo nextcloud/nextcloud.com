@@ -16,11 +16,11 @@
         <p><p>If an attacker has physical access to an Android smartphone without a screen lock, but with nextcloud installed and set up, he can easily access the nextcloud-files even if the nextcloud app is locked with a fingerprint or pin.</p></p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Android &lt; <strong>3.6.2</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Android &lt; <strong>3.6.2</strong> (CVE-2019-5452)</li>
 
         </ul>
         <h3>Action Taken</h3>
-        <p>The error has been fixed.</p>
+        <p>The file is now delivered with a content-type of "application/octet-stream".</p>
         <h3>Resolution</h3>
         <p><p>It is recommended that users upgrade to version 3.6.2.</p></p>
         <h3>Acknowledgements</h3>
