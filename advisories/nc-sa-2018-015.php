@@ -20,7 +20,7 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The error has been fixed.</p></p>
+        <p>The error has been fixed.</p>
         <h3>Resolution</h3>
         <p><p>It is recommended that users upgrade to version 3.2.0.</p></p>
         <h3>Acknowledgements</h3>

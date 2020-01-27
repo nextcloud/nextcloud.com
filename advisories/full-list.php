@@ -2,6 +2,51 @@
 
 <h2>2019</h2>
 
+<h3>iOS App 2.24.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-017">Login and token disclosure to other Nextcloud services (NC-SA-2019-017)</a> 2019-11-12</li>
+</ul>
+
+<h3>Nextcloud Server 17.0.1</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-012">File-drop content is visible through the gallery app (NC-SA-2019-012)</a> 2019-10-22</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.6</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-012">File-drop content is visible through the gallery app (NC-SA-2019-012)</a> 2019-10-22</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.13</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-012">File-drop content is visible through the gallery app (NC-SA-2019-012)</a> 2019-10-22</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.8</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-015">Group admins can create users with IDs of system folders (NC-SA-2019-015)</a> 2019-08-12</li>
+</ul>
+
+<h3>Nextcloud Server 14.0.11</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-015">Group admins can create users with IDs of system folders (NC-SA-2019-015)</a> 2019-08-12</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.2</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-004">Reflected XSS in svg logo generation (NC-SA-2019-004)</a> 2019-08-02</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.9</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-004">Reflected XSS in svg logo generation (NC-SA-2019-004)</a> 2019-08-02</li>
+</ul>
+
+<h3>Nextcloud Server 14.0.13</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-004">Reflected XSS in svg logo generation (NC-SA-2019-004)</a> 2019-08-02</li>
+</ul>
+
 <h3>Android App 3.7.0</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2019-009">Improper sanitization of HTML in directory names (NC-SA-2019-009)</a> 2019-07-26</li>
@@ -16,7 +61,6 @@
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2019-011">Query restriction bypass on exposed FileContentProvider in Android app (NC-SA-2019-011)</a> 2019-07-26</li>
 	<li><a href="/security/advisory/?id=NC-SA-2019-008">Bypass lock protection in Android app (NC-SA-2019-008)</a> 2019-07-26</li>
-	<li><a href="/security/advisory/?id=NC-SA-2019-004">Bypass lock protection in Android app (NC-SA-2019-004)</a> 2019-07-26</li>
 </ul>
 
 <h3>Android App 3.3.0</h3>
@@ -32,6 +76,31 @@
 <h3>lookup-server 0.3.0</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2019-010">SQL Injection in lookup-server (NC-SA-2019-010)</a> 2019-07-26</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.2</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-014">Server-Side request forgery in New-Subscription feature of the calendar app (NC-SA-2019-014)</a> 2019-07-04</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.9</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-014">Server-Side request forgery in New-Subscription feature of the calendar app (NC-SA-2019-014)</a> 2019-07-04</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.2</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-016">User IDs and Nextcloud server leaked to Nextcloud Lookup server with disabled settings (NC-SA-2019-016)</a> 2019-06-26</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.9</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-016">User IDs and Nextcloud server leaked to Nextcloud Lookup server with disabled settings (NC-SA-2019-016)</a> 2019-06-26</li>
+</ul>
+
+<h3>Nextcloud Server 14.0.13</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-016">User IDs and Nextcloud server leaked to Nextcloud Lookup server with disabled settings (NC-SA-2019-016)</a> 2019-06-26</li>
 </ul>
 
 <h3>Nextcloud Server 15.0.1</h3>
@@ -227,20 +296,20 @@
 
 <h2>2016</h2>
 
+<h3>Nextcloud Server 9.0.54</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2016-011">Content-Spoofing in &quot;dav&quot; app (NC-SA-2016-011)</a> 2016-10-10</li>
+	<li><a href="/security/advisory/?id=NC-SA-2016-010">Content-Spoofing in &quot;files&quot; app (NC-SA-2016-010)</a> 2016-10-10</li>
+	<li><a href="/security/advisory/?id=NC-SA-2016-007">Improper authorization check on removing shares (NC-SA-2016-007)</a> 2016-10-10</li>
+	<li><a href="/security/advisory/?id=NC-SA-2016-006">SMB User Authentication Bypass (NC-SA-2016-006)</a> 2016-10-10</li>
+</ul>
+
 <h3>Nextcloud Server 10.0.1</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2016-011">Content-Spoofing in &quot;dav&quot; app (NC-SA-2016-011)</a> 2016-10-10</li>
 	<li><a href="/security/advisory/?id=NC-SA-2016-010">Content-Spoofing in &quot;files&quot; app (NC-SA-2016-010)</a> 2016-10-10</li>
 	<li><a href="/security/advisory/?id=NC-SA-2016-009">Reflected XSS in Gallery application (NC-SA-2016-009)</a> 2016-10-10</li>
 	<li><a href="/security/advisory/?id=NC-SA-2016-008">Stored XSS in CardDAV image export (NC-SA-2016-008)</a> 2016-10-10</li>
-	<li><a href="/security/advisory/?id=NC-SA-2016-006">SMB User Authentication Bypass (NC-SA-2016-006)</a> 2016-10-10</li>
-</ul>
-
-<h3>Nextcloud Server 9.0.54</h3>
-<ul>
-	<li><a href="/security/advisory/?id=NC-SA-2016-011">Content-Spoofing in &quot;dav&quot; app (NC-SA-2016-011)</a> 2016-10-10</li>
-	<li><a href="/security/advisory/?id=NC-SA-2016-010">Content-Spoofing in &quot;files&quot; app (NC-SA-2016-010)</a> 2016-10-10</li>
-	<li><a href="/security/advisory/?id=NC-SA-2016-007">Improper authorization check on removing shares (NC-SA-2016-007)</a> 2016-10-10</li>
 	<li><a href="/security/advisory/?id=NC-SA-2016-006">SMB User Authentication Bypass (NC-SA-2016-006)</a> 2016-10-10</li>
 </ul>
 
