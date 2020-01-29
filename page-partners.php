@@ -69,15 +69,22 @@
 				<p class="partnertext">Founded in 2008, Certilience is an independent Computer Security Agency that supports clients by providing both aggressive and defensive cybersecurity solutions, and works along the following three main areas: Security Audits: mock hacking, internal / external system penetration tests; Consulting, System Engineering and Integration; Info-management: subcontract security equipment management. </p>
 			</div>-->
 			<div class="col-md-4">
+				<a href="https://bloosite.com" target="_blank" title="bloosite">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/bloosite.png" title="Certilience" />
+				</a>
+				<p class="partnertext">Swiss Cloud Solution provider bloosite specializes in development and operation of secure virtual desktop and server solutions as well as storage, network, security and voice services. The innovative Swiss company's comprehensive offering is available both as an appliance for a local installation and as cloud services from multiple highly secured Swiss data centers.<br />
+                Customers receive a modern network, server and communication infrastructure tailored to their individual needs with maximum security, performance and availability guaranteed by Service Level Agreements.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4">
 				<a href="https://www.dass-it.de/" target="_blank" title="Dass IT">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/dassit.png" title="Dass IT" />
 				</a>
 				<p  class="partnertext">dass IT GmbH in Cologne , founded in 2004 by former senior consultants of Suse Linux, is primarily a system integrator, offering support and consulting around Linux and Open Source Software. As a long-standing owncloud partner dass IT can help you migrate from ownCloud to Nextcloud or to build a private cloud from scratch.</p>
 				<a class="button button--white" href="https://www.dass-it.de/">Learn more</a>
 			</div>
-		</div>
-
-		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.daseq.de/produkte/nextcloud/" target="_blank" title="DASEQ">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/daseq.png" title="DASEQ" />
@@ -92,6 +99,9 @@
 				<p  class="partnertext">The Good Cloud (based in the Netherlands) is fully committed to ensuring the privacy of all its users. They offer user-friendly and flexible subscriptions that are easy to share with multiple users. The Good Cloud is an ideal partner for professionals, offering a variety of business subscriptions and personalized services.</p>
 				<a class="button button--white" href="https://thegood.cloud/">Learn more</a>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="https://www.hkn.de/nextcloud-cloud-speicher" target="_blank" title="HKN">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/hkn.png" title="hkn" />
@@ -99,9 +109,6 @@
 				<p  class="partnertext">Started in 1996 and now a team of 10 strong, HKN has been betting on scaleable, open source clusters since its inception. HKN offers bigger organizations a scaleable, HA-capable, resilient platform with Nextcloud that is hosted in their own data centers in three German cities. HKN offers optional 'hybrid' cloud solutions, with an internally, on-premises hosted Nextcloud at the customer working seamlessly with a Nextcloud hosted by HKN.</p>
 				<a class="button button--white" href="https://www.hkn.de/nextcloud-cloud-speicher">Learn more</a>
 			</div>
-		</div>
-
-		<div class="row">
             <div class="col-md-4">
 				<a href="https://www.ionos.de/enterprise-cloud/nextcloud" target="_blank" title="IT25">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/ionos.png" title="IONOS" />
@@ -116,6 +123,9 @@
 				<p  class="partnertext">Founded in 2006 IT25 GmbH provides solutions for collaboration and exchange of information with a strong focus on supporting customers to install, integrate and safely operate on-premises and cloud based systems.</p>
 				<a class="button button--white" href="https://www.it25.de/">Learn more</a>
 			</div>
+		</div>
+
+		<div class="row">
             <div class="col-md-4">
 				<a href="http://www.itservicenet.net" target="_blank" title="itservice-net">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/itservicenet.png" title="itservicenet logo" />
@@ -123,9 +133,6 @@
 				<p  class="partnertext">An italian Company, ITServicenet has over 2 decades experience managing open source servers and developing software. They handle virtualization, high availability, monitoring and storage, helping customers set up and manage a powerful, reliable infrastructure. ITServicenet offers support in italian language for Nextcloud.</p>
 				<a class="button button--white" href="http://www.itservicenet.net">Learn more</a>
 			</div>
-		</div>
-
-		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.netcloud.ch/" target="_blank" title="Netcloud AG">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/netcloud.png" title="netcloud logo" />
@@ -146,6 +153,9 @@
 				</a>
 				<p class="partnertext">Omnis Systems Ltd is a Value Added Distributor specialised in promoting a range of complementary enterprise grade and commercially backed Open Source and Linux based solutions.<br> We support partners that want to differentiate themselves by delivering platforms made to increase productivity, security and control on data while providing ease of use and integration.</p>
 			</div>-->
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="http://open-dsi.fr/" target="_blank" title="Open-DSI">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/opendsi.png" title="open-DSI logo" />
@@ -153,9 +163,6 @@
 				<p  class="partnertext">Open-DSI is a French company which supports organizations and companies with their computing projects. Our specialty is the implementation of open source cloud computing solutions and outsourcing. Our solutions are based on three main building blocks: Nextcloud, ERP+CRM Dolibarr and WooCommerce.</p>
 				<a class="button button--white" href="http://open-dsi.fr/">Learn more</a>
 			</div>
-		</div>
-
-		<div class="row">
             <div class="col-md-4">
 				<a href="http://www.regioit.de/" target="_blank" title="Regioit">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/regioit.png" title="regioit logo" />
@@ -176,6 +183,8 @@
 				<p  class="partnertext">Since 2002, Siedl Networks has been delivering innovative and reliable open source IT solutions to companies, schools and non-profits throughout Austria. We help small and medium sized organizations run their on-premises file storage and collaboration solution, monitoring and supporting their infrastructure and taking care of maintenance and backup.</p>
 				<a class="button button--white" href="https://www.siedl.net/portfolio/nextcloud">Learn more</a>
 			</div>
+        </div>
+        <div class="row">
 			<div class="col-md-4">
 				<a href="https://nextcloud.stylez.co.jp/" target="_blank" title="Stylez">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/stylez.png" title="stylez logo" />
@@ -183,8 +192,6 @@
 				<p  class="partnertext">Since 2013, Stylez has grown by focusing on integration and Business Process Outsourcing. Today Stylez expands its scope into cloud and open source services, keeping up their focus on customers and quality.</p>
 				<a class="button button--white" href="https://nextcloud.stylez.co.jp/">Learn more</a>
 			</div>
-        </div>
-        <div class="row">
 			<div class="col-md-4">
 				<a href="http://sndkcorp.com/" target="_blank" title="SNDK-corp">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/sndk-corp.png" title="SNDK Corp logo" />
@@ -200,6 +207,8 @@
                 <p  class="partnertext">TeeBase UK Ltd offers an arsenal of devices and services for digital security to protect your data and intellectual property even when using the Internet. Be free from hackers, malware and ransomware that destroy shareholder value and ruin careers.</p>
                 <a class="button button--white" href="https://www.teebase.eu">Learn more</a>
             </div>
+        </div>
+        <div class="row">
             <div class="col-md-4">
                 <a href="https://cloud.tab.digital" target="_blank" title="Tab.digital">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/tab.png" title="Tab.digital logo" />
