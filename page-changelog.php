@@ -59,6 +59,37 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p>Read the <a class="hyperlink" href="https://nextcloud.com/blog/the-new-standard-in-on-premises-team-collaboration-nextcloud-hub/">release announcement</a> for more details.</p>
 
     <a name="latest17"></a>
+
+<h3 id="17-0-3">Version 17.0.3 <small>January 31 2020</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.3.tar.bz2">nextcloud-17.0.3.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.3.zip">nextcloud-17.0.3.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.3.tar.bz2.md5">nextcloud-17.0.3.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.3.zip.md5">nextcloud-17.0.3.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.3.tar.bz2.sha256">nextcloud-17.0.3.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.3.zip.sha256">nextcloud-17.0.3.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.3.tar.bz2.sha512">nextcloud-17.0.3.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.3.zip.sha512">nextcloud-17.0.3.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.3.tar.bz2.asc">nextcloud-17.0.3.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.3.zip.asc">nextcloud-17.0.3.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/18399">Fix comments search result to work with multibyte strings (server#18399)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/18467">Fix listing users in groups with slash in the name (server#18467)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/18475">Fix Office preview generation (server#18475)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/18488">Use File Node API for more download cases, skip unreadable files (server#18488)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/18694">Restore old behavior allowing to set custom appstore (server#18694)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/18706">Fix broken upgrade caused by undefined method call (server#18706)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/18734">Trash bin: fix exception triggered if no correct fileId is provided. (server#18734)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/18747">Cache group existence early to save useless requests to LDAP (server#18747)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/18758">Do not rerender the selection menu on show (server#18758)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/18792">Set direct login after password reset (server#18792)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/18880">Properly handle resources in ReminderService (server#18880)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/18932">Dont throw undefined index errors for storages that have no owner set (server#18932)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/19014">Always use the latest timestamp for merged activities (server#19014)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/19069">Fix loaded controller check (server#19069)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/19076">When a user was deleted remove them from applicable list, unless... (server#19076)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/19159">AppFetcher: Distinguish between fileName and endpointName (server#19159)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/19188">Use themed favicon-fb (server#19188)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/369">GitHub actions/lint (viewer#369)</a></li>
+</ul>
+
 <h3 id="17-0-2">Version 17.0.2 <small>December 20 2019</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.2.tar.bz2">nextcloud-17.0.2.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.2.zip">nextcloud-17.0.2.zip</a></br>
 Check the file integrity with:</br>
@@ -205,6 +236,29 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p>Read the <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-17-brings-remote-wipe-collaborative-text-editor-and-next-generation-secure-watermarking/">release announcement</a> and blogs it links to for more details.</p>
 
     <a name="latest16"></a>
+
+<h3 id="16-0-8">Version 16.0.8 <small>January 31 2020</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.8.tar.bz2">nextcloud-16.0.8.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.8.zip">nextcloud-16.0.8.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.8.tar.bz2.md5">nextcloud-16.0.8.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.8.zip.md5">nextcloud-16.0.8.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.8.tar.bz2.sha256">nextcloud-16.0.8.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.8.zip.sha256">nextcloud-16.0.8.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.8.tar.bz2.sha512">nextcloud-16.0.8.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.8.zip.sha512">nextcloud-16.0.8.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.8.tar.bz2.asc">nextcloud-16.0.8.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.8.zip.asc">nextcloud-16.0.8.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/18400">Fix comments search result to work with multibyte strings (server#18400)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/18440">Bump nextcloud-vue-collections to 0.4.2 (server#18440)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/18489">Use File Node API for more download cases, skip unreadable files (server#18489)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/18581">Allow inline styles for theming images (server#18581)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/18748">Cache group existence early to save useless requests to LDAP (server#18748)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/18759">Do not rerender the selection menu on show (server#18759)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/18933">Dont throw undefined index errors for storages that have no owner set (server#18933)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/19015">Always use the latest timestamp for merged activities (server#19015)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/19016">Fix restoring shared versions (server#19016)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/19077">When a user was deleted remove them from applicable list, unless... (server#19077)</a></li>
+        <li><a href="https://github.com/nextcloud/notifications/pull/524">Bump handlebars from 4.1.2 to 4.3.0 (notifications#524)</a></li>
+</ul>
 
 <h3 id="16-0-7">Version 16.0.7 <small>December 20 2019</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.7.tar.bz2">nextcloud-16.0.7.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.7.zip">nextcloud-16.0.7.zip</a></br>
