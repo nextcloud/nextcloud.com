@@ -102,6 +102,13 @@
 		</div>
 
 		<div class="row">
+		<div class="col-md-4">
+				<a href="https://hbps.co.za" target="_blank" title="HBPS">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/hbps.png" title="hbps" />
+				</a>
+				<p  class="partnertext">We pride ourselves in listening to our clients as we believe that every customer is different and unique. Our service offering is not a one-size-fits-all solution to everyone. By truly listening to our customers we can help to customise and tailor our solutions to be fit for purpose to solve the problem at hand. HBPS is focused on helping companies take back control of what is rightly yours: your data. We want to empower our customers by helping them understand how the magic of data works and how it can help them to be future fit.</p>
+				<a class="button button--white" href="https://hbps.co.za">Learn more</a>
+			</div>
 			<div class="col-md-4">
 				<a href="https://www.hkn.de/nextcloud-cloud-speicher" target="_blank" title="HKN">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/hkn.png" title="hkn" />
