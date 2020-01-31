@@ -13,7 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/288.html">Authentication Bypass Using an Alternate Path or Channel (CWE-288)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/490946">490946</a></p>
         <h3>Description</h3>
-        <p><p>Creating a fake multi-account and aborting the process would redirect the user to the default account of the device without asking for the lock pattern if one was set up.</p></p>
+        <p>Creating a fake multi-account and aborting the process would redirect the user to the default account of the device without asking for the lock pattern if one was set up.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Android &lt; <strong>3.6.1</strong> (CVE-2019-5455)</li>
@@ -22,7 +22,7 @@
         <h3>Action Taken</h3>
         <p>The error has been fixed.</p>
         <h3>Resolution</h3>
-        <p><p>It is recommended that users upgrade to version 3.6.1.</p></p>
+        <p>It is recommended that users upgrade to version 3.6.1.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

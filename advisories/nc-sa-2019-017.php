@@ -13,7 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/657.html">Violation of Secure Design Principles (CWE-657)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/672623">672623</a></p>
         <h3>Description</h3>
-        <p>Violation of Secure Design Principles in the iOS App 2.24.0 causes the app to leak its login and token to other Nextcloud services when search e.g. for federated users or registering for push notifications.</p>
+        <p>Violation of Secure Design Principles in the iOS App 2.23.0 causes the app to leak its login and token to other Nextcloud services when search e.g. for federated users or registering for push notifications.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Ios &lt; <strong>2.24.0</strong> (CVE assignment pending)</li>

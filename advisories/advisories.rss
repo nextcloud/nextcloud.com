@@ -6,7 +6,7 @@
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
   <title>iOS App: Login and token disclosure to other Nextcloud services (NC-SA-2019-017)</title>
-  <description>Violation of Secure Design Principles in the iOS App 2.24.0 causes the app to leak its login and token to other Nextcloud services when search e.g. for federated users or registering for push notifications.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-017&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Violation of Secure Design Principles in the iOS App 2.23.0 causes the app to leak its login and token to other Nextcloud services when search e.g. for federated users or registering for push notifications.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-017&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-017</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-017</guid>
   <pubDate>Tue, 12 Nov 2019 13:00:00 +0100</pubDate>
@@ -29,6 +29,12 @@
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-014</guid>
   <pubDate>Thu, 04 Jul 2019 14:00:00 +0200</pubDate>
  </item><item>
+  <title>Circles App: Removing emails from circles does not revoke access to shared items (NC-SA-2019-013)</title>
+  <description>Improper authorization in the Circles app 0.17.7 causes retaining access when an email address was removed from a circle.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-013&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-013</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-013</guid>
+  <pubDate>Sun, 06 Oct 2019 14:00:00 +0200</pubDate>
+ </item><item>
   <title>Server: File-drop content is visible through the gallery app (NC-SA-2019-012)</title>
   <description>Improper authorization in Nextcloud server 17.0.0 causes leaking of previews and files when a file-drop share link is opened via the gallery app.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-012&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-012</link>
@@ -36,43 +42,43 @@
   <pubDate>Tue, 22 Oct 2019 14:00:00 +0200</pubDate>
  </item><item>
   <title>Android App: Query restriction bypass on exposed FileContentProvider in Android app (NC-SA-2019-011)</title>
-  <description>&lt;p&gt;Not strictly enough sanitization allowed an attacker to get content information from protected tables when using custom queries.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-011&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Not strictly enough sanitization allowed an attacker to get content information from protected tables when using custom queries.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-011&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-011</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-011</guid>
   <pubDate>Fri, 26 Jul 2019 12:00:00 +0200</pubDate>
  </item><item>
-  <title>lookup-server: SQL Injection in lookup-server (NC-SA-2019-010)</title>
+  <title>Lookup server: SQL Injection in lookup-server (NC-SA-2019-010)</title>
   <description>Improper sanitation of user input allowed any unauthenticated user to perform SQL injection attacks.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-010&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-010</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-010</guid>
   <pubDate>Fri, 26 Jul 2019 12:00:00 +0200</pubDate>
  </item><item>
   <title>Android App: Improper sanitization of HTML in directory names (NC-SA-2019-009)</title>
-  <description>&lt;p&gt;Some basic HTML tags were rendered as Markup in directory names.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-009&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Some basic HTML tags were rendered as Markup in directory names.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-009&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-009</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-009</guid>
   <pubDate>Fri, 26 Jul 2019 12:00:00 +0200</pubDate>
  </item><item>
   <title>Android App: Bypass lock protection in Android app (NC-SA-2019-008)</title>
-  <description>&lt;p&gt;If an attacker has physical access to an Android smartphone without a screen lock, but with nextcloud installed and set up, they can circumvent the passcode protection by repeatedly opening and closing the app in a very short time.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-008&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>If an attacker has physical access to an Android smartphone without a screen lock, but with nextcloud installed and set up, they can circumvent the passcode protection by repeatedly opening and closing the app in a very short time.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-008&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-008</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-008</guid>
   <pubDate>Fri, 26 Jul 2019 12:00:00 +0200</pubDate>
  </item><item>
   <title>Android App: Thumbnails of files leaked via Android content provider (NC-SA-2019-007)</title>
-  <description>&lt;p&gt;If an attacker has physical access to an Android smartphone without a screen lock, but with nextcloud installed and set up, he can easily access the nextcloud-files even if the nextcloud app is locked with a fingerprint or pin.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>If an attacker has physical access to an Android smartphone without a screen lock, but with nextcloud installed and set up, he can easily access the nextcloud-files even if the nextcloud app is locked with a fingerprint or pin.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-007</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-007</guid>
   <pubDate>Fri, 26 Jul 2019 12:00:00 +0200</pubDate>
  </item><item>
   <title>Android App: Bypass lock protection in Android app (NC-SA-2019-006)</title>
-  <description>&lt;p&gt;If an attacker has physical access to an Android smartphone without a screen lock, but with nextcloud installed and set up, they can easily access the nextcloud-files even if the nextcloud app is locked with a fingerprint or pin.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-006&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>If an attacker has physical access to an Android smartphone without a screen lock, but with nextcloud installed and set up, they can easily access the nextcloud-files even if the nextcloud app is locked with a fingerprint or pin.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-006&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-006</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-006</guid>
   <pubDate>Fri, 26 Jul 2019 12:00:00 +0200</pubDate>
  </item><item>
   <title>Android App: SQL injection in Android app content provider (NC-SA-2019-005)</title>
-  <description>&lt;p&gt;The content provider of the app accepted arbitrary strings in the field list of the returned file list. This allowed an attacker to run harmful queries, destroying the local cache of the android app. The server data however was never in danger, so removing the account and setting it up again can fix all problems.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-005&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>The content provider of the app accepted arbitrary strings in the field list of the returned file list. This allowed an attacker to run harmful queries, destroying the local cache of the android app. The server data however was never in danger, so removing the account and setting it up again can fix all problems.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-005&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-005</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-005</guid>
   <pubDate>Fri, 26 Jul 2019 12:00:00 +0200</pubDate>
@@ -102,7 +108,7 @@
   <pubDate>Fri, 12 Apr 2019 14:00:00 +0200</pubDate>
  </item><item>
   <title>Android App: Improper check for access to application database (NC-SA-2018-015)</title>
-  <description>&lt;p&gt;A too permissive check allowed an installed application that contained the Nextcloud client package name to obtain access to the database of the Nextcloud application. At time of disclosure there are no applications with in the Google Play Store that fullfill this requirement.&lt;/p&gt;&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-015&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>A too permissive check allowed an installed application that contained the Nextcloud client package name to obtain access to the database of the Nextcloud application. At time of disclosure there are no applications with in the Google Play Store that fullfill this requirement.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2018-015&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2018-015</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2018-015</guid>
   <pubDate>Fri, 26 Jul 2019 10:00:00 +0200</pubDate>
@@ -324,7 +330,7 @@
   <pubDate>Tue, 19 Jul 2016 10:26:09 +0200</pubDate>
  </item><item>
   <title>Server: Stored XSS in &quot;gallery&quot; application (NC-SA-2016-001)</title>
-  <description>Due to a recent migration of the Gallery app to the new sharing endpoint a parameter changed from an integer to a string value. This value wasn't sanitized before and was thus now vulnerable to a Cross-Site-Scripting attack.To exploit this vulnerability an authenticated attacker has to share a folder with someone else, get them to open the shared folder in the Gallery app and open the sharing window there.Since Nextcloud employes a strict Content-Security-Policy this vulnerability is only exploitable in browsers not supporting Content-Security-Policy. You can check at &lt;a href=&quot;http://caniuse.com/#feat=contentsecuritypolicy&quot;&gt;caniuse.com&lt;/a&gt; whether your browser supports CSP.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-001&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <description>Due to a recent migration of the Gallery app to the new sharing endpoint a parameter changed from an integer to a string value. This value wasn't sanitized before and was thus now vulnerable to a Cross-Site-Scripting attack.To exploit this vulnerability an authenticated attacker has to share a folder with someone else, get them to open the shared folder in the Gallery app and open the sharing window there. Since Nextcloud employs a strict Content-Security-Policy this vulnerability is only exploitable in browsers not supporting Content-Security-Policy. You can check at &lt;a href=&quot;http://caniuse.com/#feat=contentsecuritypolicy&quot;&gt;caniuse.com&lt;/a&gt; whether your browser supports CSP.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2016-001&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2016-001</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2016-001</guid>
   <pubDate>Tue, 19 Jul 2016 10:26:09 +0200</pubDate>
