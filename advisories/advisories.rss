@@ -5,6 +5,84 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Server: Event details leaked when sharing a non-public calendar event (NC-SA-2020-013)</title>
+  <description>Improper preservation of permissions in Nextcloud Server 14.0.3 causes the event details to be leaked when sharing a non-public event.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-013&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-013</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-013</guid>
+  <pubDate>Thu, 15 Nov 2018 01:00:00 +0100</pubDate>
+ </item><item>
+  <title>Server: Improper permission preservation on reshares (NC-SA-2020-012)</title>
+  <description>Improper permissions preservation in Nextcloud Server 16.0.1 causes sharees to be able to reshare with write permissions when sharing the mount point of a share they received, as a public link.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-012&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-012</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-012</guid>
+  <pubDate>Thu, 27 Jun 2019 02:00:00 +0200</pubDate>
+ </item><item>
+  <title>Talk App: Name of private conversations leaked when linked via projects to a shared item (NC-SA-2020-011)</title>
+  <description>Improper access control in Nextcloud Talk 6.0.3 leaks the existance and the name of private conversations when linked them to another shared item via the projects feature.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-011&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-011</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-011</guid>
+  <pubDate>Mon, 29 Jul 2019 02:00:00 +0200</pubDate>
+ </item><item>
+  <title>Deck App: Improper neutralization of item names in projects feature (NC-SA-2020-010)</title>
+  <description>Improper neutralization of file names, conversation names and board names in Nextcloud Server 16.0.3, Nextcloud Talk 6.0.3 and Nextcloud Deck 0.6.5 causes an XSS when linking them with each others in a project.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-010&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-010</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-010</guid>
+  <pubDate>Mon, 29 Jul 2019 02:00:00 +0200</pubDate>
+ </item><item>
+  <title>Talk App: Improper neutralization of item names in projects feature (NC-SA-2020-009)</title>
+  <description>Improper neutralization of file names, conversation names and board names in Nextcloud Server 16.0.3, Nextcloud Talk 6.0.3 and Nextcloud Deck 0.6.5 causes an XSS when linking them with each others in a project.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-009&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-009</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-009</guid>
+  <pubDate>Mon, 29 Jul 2019 02:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Improper neutralization of item names in projects feature (NC-SA-2020-008)</title>
+  <description>Improper neutralization of file names, conversation names and board names in Nextcloud Server 16.0.3, Nextcloud Talk 6.0.3 and Nextcloud Deck 0.6.5 causes an XSS when linking them with each others in a project.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-008&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-008</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-008</guid>
+  <pubDate>Mon, 29 Jul 2019 02:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Reflected XSS in redirect of the Updater (NC-SA-2020-007)</title>
+  <description>Missing escaping of HTML in the Updater of Nextcloud 15.0.5 allowed a reflected XSS when starting the updater from a malicious location.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-007&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-007</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-007</guid>
+  <pubDate>Tue, 26 Mar 2019 01:00:00 +0100</pubDate>
+ </item><item>
+  <title>Server: Duplicate setup of second factor allowed (NC-SA-2020-006)</title>
+  <description>A missing check in Nextcloud Server 17.0.0 allowed an attacker to set up a new second factor when trying to login.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-006&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-006</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-006</guid>
+  <pubDate>Fri, 25 Oct 2019 02:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Missing default timeout on HTTP requests (NC-SA-2020-005)</title>
+  <description>Dangling remote share attempts in Nextcloud 16 allow a DNS pollution when running long.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-005&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-005</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-005</guid>
+  <pubDate>Wed, 04 Sep 2019 02:00:00 +0200</pubDate>
+ </item><item>
+  <title>Android App: Bypass lock protection in Android app (NC-SA-2020-004)</title>
+  <description>A wrong check for the system time in the Android App 3.9.0 causes a bypass of the lock protection when changing the time of the system to the past.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-004&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-004</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-004</guid>
+  <pubDate>Thu, 05 Dec 2019 01:00:00 +0100</pubDate>
+ </item><item>
+  <title>iOS App: Missing sanitization in iOS App allows XSS (NC-SA-2020-003)</title>
+  <description>Missing sanitization in the iOS App 2.24.4 causes an XSS when opening malicious HTML files.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-003</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-003</guid>
+  <pubDate>Wed, 20 Nov 2019 01:00:00 +0100</pubDate>
+ </item><item>
+  <title>Server: Workflow rules only check the file extension for the mimetype instead of the content (NC-SA-2020-002)</title>
+  <description>A bug in Nextcloud Server 17.0.1 causes the workflow rules to depend their behaviour on the file extension when checking file mimetypes.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-002&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-002</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-002</guid>
+  <pubDate>Wed, 04 Dec 2019 01:00:00 +0100</pubDate>
+ </item><item>
+  <title>Server: 2FA sessions not properly expired on password change (NC-SA-2020-001)</title>
+  <description>A bug in Nextcloud Server 15.0.2 causes pending 2FA logins to not be correctly expired when the password of the user is reset.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-001&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-001</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-001</guid>
+  <pubDate>Mon, 01 Apr 2019 02:00:00 +0200</pubDate>
+ </item><item>
   <title>iOS App: Login and token disclosure to other Nextcloud services (NC-SA-2019-017)</title>
   <description>Violation of Secure Design Principles in the iOS App 2.23.0 causes the app to leak its login and token to other Nextcloud services when search e.g. for federated users or registering for push notifications.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-017&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-017</link>

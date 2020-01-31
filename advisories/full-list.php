@@ -1,5 +1,115 @@
 <hr>
 
+<h2>2020</h2>
+
+<h3>Android App 3.9.1</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-004">Bypass lock protection in Android app (NC-SA-2020-004)</a> 2019-12-05</li>
+</ul>
+
+<h3>Nextcloud Server 17.0.2</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-002">Workflow rules only check the file extension for the mimetype instead of the content (NC-SA-2020-002)</a> 2019-12-04</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.7</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-002">Workflow rules only check the file extension for the mimetype instead of the content (NC-SA-2020-002)</a> 2019-12-04</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.14</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-002">Workflow rules only check the file extension for the mimetype instead of the content (NC-SA-2020-002)</a> 2019-12-04</li>
+</ul>
+
+<h3>iOS App 2.25.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-003">Missing sanitization in iOS App allows XSS (NC-SA-2020-003)</a> 2019-11-20</li>
+</ul>
+
+<h3>Nextcloud Server 17.0.1</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-006">Duplicate setup of second factor allowed (NC-SA-2020-006)</a> 2019-10-25</li>
+</ul>
+
+<h3>Nextcloud Server 17.0.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-005">Missing default timeout on HTTP requests (NC-SA-2020-005)</a> 2019-09-04</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.4</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-008">Improper neutralization of item names in projects feature (NC-SA-2020-008)</a> 2019-07-29</li>
+</ul>
+
+<h3>Deck App 0.6.6</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-010">Improper neutralization of item names in projects feature (NC-SA-2020-010)</a> 2019-07-29</li>
+</ul>
+
+<h3>Talk App 6.0.4</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-011">Name of private conversations leaked when linked via projects to a shared item (NC-SA-2020-011)</a> 2019-07-29</li>
+	<li><a href="/security/advisory/?id=NC-SA-2020-009">Improper neutralization of item names in projects feature (NC-SA-2020-009)</a> 2019-07-29</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.2</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-012">Improper permission preservation on reshares (NC-SA-2020-012)</a> 2019-06-27</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.9</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-012">Improper permission preservation on reshares (NC-SA-2020-012)</a> 2019-06-27</li>
+</ul>
+
+<h3>Nextcloud Server 14.0.13</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-012">Improper permission preservation on reshares (NC-SA-2020-012)</a> 2019-06-27</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.3</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-001">2FA sessions not properly expired on password change (NC-SA-2020-001)</a> 2019-04-01</li>
+</ul>
+
+<h3>Nextcloud Server 14.0.7</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-001">2FA sessions not properly expired on password change (NC-SA-2020-001)</a> 2019-04-01</li>
+</ul>
+
+<h3>Nextcloud Server 13.0.11</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-001">2FA sessions not properly expired on password change (NC-SA-2020-001)</a> 2019-04-01</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.6</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-007">Reflected XSS in redirect of the Updater (NC-SA-2020-007)</a> 2019-03-26</li>
+</ul>
+
+<h3>Nextcloud Server 14.0.9</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-007">Reflected XSS in redirect of the Updater (NC-SA-2020-007)</a> 2019-03-26</li>
+</ul>
+
+<h3>Nextcloud Server 14.0.4</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-013">Event details leaked when sharing a non-public calendar event (NC-SA-2020-013)</a> 2018-11-15</li>
+</ul>
+
+<h3>Nextcloud Server 13.0.8</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-013">Event details leaked when sharing a non-public calendar event (NC-SA-2020-013)</a> 2018-11-15</li>
+</ul>
+
+<h3>Nextcloud Server 12.0.13</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-013">Event details leaked when sharing a non-public calendar event (NC-SA-2020-013)</a> 2018-11-15</li>
+</ul>
+
+<hr>
+
 <h2>2019</h2>
 
 <h3>iOS App 2.24.0</h3>
