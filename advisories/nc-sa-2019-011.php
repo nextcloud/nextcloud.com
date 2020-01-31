@@ -13,7 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/89.html">Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') (CWE-89)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/518669">518669</a></p>
         <h3>Description</h3>
-        <p><p>Not strictly enough sanitization allowed an attacker to get content information from protected tables when using custom queries.</p></p>
+        <p>Not strictly enough sanitization allowed an attacker to get content information from protected tables when using custom queries.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Android &lt; <strong>3.6.1</strong> (CVE assignment pending)</li>
@@ -22,7 +22,7 @@
         <h3>Action Taken</h3>
         <p>The error has been fixed.</p>
         <h3>Resolution</h3>
-        <p><p>It is recommended that users upgrade to version 3.6.1 or later.</p></p>
+        <p>It is recommended that users upgrade to version 3.6.1 or later.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

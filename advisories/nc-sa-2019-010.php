@@ -16,7 +16,7 @@
         <p>Improper sanitation of user input allowed any unauthenticated user to perform SQL injection attacks.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Lookup-server &lt; <strong>0.3.0</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Lookup-server &lt; <strong>0.3.0</strong> (CVE-2019-5476)</li>
 
         </ul>
         <h3>Action Taken</h3>

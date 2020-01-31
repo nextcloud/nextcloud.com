@@ -16,9 +16,9 @@
         <p>A missing check revealed the name of confidential events and private events to all users of a shared calendar.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>15.0.1</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>14.0.5</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>13.0.9</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>15.0.1</strong> (CVE-2019-5449)</li>
+<li>Nextcloud Server &lt; <strong>14.0.5</strong> (CVE-2019-5449)</li>
+<li>Nextcloud Server &lt; <strong>13.0.9</strong> (CVE-2019-5449)</li>
 
         </ul>
         <h3>Action Taken</h3>

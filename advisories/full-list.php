@@ -22,6 +22,16 @@
 	<li><a href="/security/advisory/?id=NC-SA-2019-012">File-drop content is visible through the gallery app (NC-SA-2019-012)</a> 2019-10-22</li>
 </ul>
 
+<h3>Circles App 0.17.8</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-013">Removing emails from circles does not revoke access to shared items (NC-SA-2019-013)</a> 2019-10-06</li>
+</ul>
+
+<h3>Circles App 0.16.11</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-013">Removing emails from circles does not revoke access to shared items (NC-SA-2019-013)</a> 2019-10-06</li>
+</ul>
+
 <h3>Nextcloud Server 15.0.8</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2019-015">Group admins can create users with IDs of system folders (NC-SA-2019-015)</a> 2019-08-12</li>
@@ -73,7 +83,7 @@
 	<li><a href="/security/advisory/?id=NC-SA-2019-005">SQL injection in Android app content provider (NC-SA-2019-005)</a> 2019-07-26</li>
 </ul>
 
-<h3>lookup-server 0.3.0</h3>
+<h3>Lookup server 0.3.0</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2019-010">SQL Injection in lookup-server (NC-SA-2019-010)</a> 2019-07-26</li>
 </ul>
