@@ -16,7 +16,7 @@
         <p>Violation of Secure Design Principles in the iOS App 2.23.0 causes the app to leak its login and token to other Nextcloud services when search e.g. for federated users or registering for push notifications.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Ios &lt; <strong>2.24.0</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Ios &lt; <strong>2.24.0</strong> (CVE-2019-15611)</li>
 
         </ul>
         <h3>Action Taken</h3>

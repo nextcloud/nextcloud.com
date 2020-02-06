@@ -16,9 +16,9 @@
         <p>Improper preservation of permissions in Nextcloud Server 14.0.3 causes the event details to be leaked when sharing a non-public event.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>14.0.4</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>13.0.8</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>12.0.13</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>14.0.4</strong> (CVE-2020-8117)</li>
+<li>Nextcloud Server &lt; <strong>13.0.8</strong> (CVE-2020-8117)</li>
+<li>Nextcloud Server &lt; <strong>12.0.13</strong> (CVE-2020-8117)</li>
 
         </ul>
         <h3>Action Taken</h3>

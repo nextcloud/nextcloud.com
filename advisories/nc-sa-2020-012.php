@@ -16,9 +16,9 @@
         <p>Improper permissions preservation in Nextcloud Server 16.0.1 causes sharees to be able to reshare with write permissions when sharing the mount point of a share they received, as a public link.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>16.0.2</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>15.0.9</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>14.0.13</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>16.0.2</strong> (CVE-2019-15621)</li>
+<li>Nextcloud Server &lt; <strong>15.0.9</strong> (CVE-2019-15621)</li>
+<li>Nextcloud Server &lt; <strong>14.0.13</strong> (CVE-2019-15621)</li>
 
         </ul>
         <h3>Action Taken</h3>

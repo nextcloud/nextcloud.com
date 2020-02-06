@@ -16,7 +16,7 @@
         <p>Improper neutralization of file names, conversation names and board names in Nextcloud Server 16.0.3, Nextcloud Talk 6.0.3 and Nextcloud Deck 0.6.5 causes an XSS when linking them with each others in a project.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Deck &lt; <strong>0.6.6</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Deck &lt; <strong>0.6.6</strong> (CVE-2019-15619)</li>
 
         </ul>
         <h3>Action Taken</h3>

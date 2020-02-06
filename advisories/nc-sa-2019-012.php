@@ -16,9 +16,9 @@
         <p>Improper authorization in Nextcloud server 17.0.0 causes leaking of previews and files when a file-drop share link is opened via the gallery app.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>17.0.1</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>16.0.6</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>15.0.13</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>17.0.1</strong> (CVE-2020-8119)</li>
+<li>Nextcloud Server &lt; <strong>16.0.6</strong> (CVE-2020-8119)</li>
+<li>Nextcloud Server &lt; <strong>15.0.13</strong> (CVE-2020-8119)</li>
 
         </ul>
         <h3>Action Taken</h3>

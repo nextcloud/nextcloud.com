@@ -16,10 +16,10 @@
         <p>A missing check could give recipient the possibility to extend the expiration date of a share they received.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>15.0.0</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>14.0.4</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>13.0.8</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>12.0.13</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>15.0.0</strong> (CVE-2020-8122)</li>
+<li>Nextcloud Server &lt; <strong>14.0.4</strong> (CVE-2020-8122)</li>
+<li>Nextcloud Server &lt; <strong>13.0.8</strong> (CVE-2020-8122)</li>
+<li>Nextcloud Server &lt; <strong>12.0.13</strong> (CVE-2020-8122)</li>
 
         </ul>
         <h3>Action Taken</h3>

@@ -16,7 +16,7 @@
         <p>A wrong check for the system time in the Android App 3.9.0 causes a bypass of the lock protection when changing the time of the system to the past.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Android &lt; <strong>3.9.1</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Android &lt; <strong>3.9.1</strong> (CVE-2019-15615)</li>
 
         </ul>
         <h3>Action Taken</h3>

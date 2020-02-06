@@ -16,7 +16,7 @@
         <p>Dangling remote share attempts in Nextcloud 16 allow a DNS pollution when running long.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>17.0.0</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>17.0.0</strong> (CVE-2019-15616)</li>
 
         </ul>
         <h3>Action Taken</h3>

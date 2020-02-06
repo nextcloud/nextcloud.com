@@ -16,9 +16,9 @@
         <p>A bug could expose more data in reshared link shares than intended by the sharer.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>15.0.0</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>14.0.5</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>13.0.9</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>15.0.0</strong> (CVE-2020-8121)</li>
+<li>Nextcloud Server &lt; <strong>14.0.5</strong> (CVE-2020-8121)</li>
+<li>Nextcloud Server &lt; <strong>13.0.9</strong> (CVE-2020-8121)</li>
 
         </ul>
         <h3>Action Taken</h3>

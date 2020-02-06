@@ -16,8 +16,8 @@
         <p>Improper Input Validation in Nextcloud Server 15.0.7 allows group admins to create users with IDs of system folders.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>15.0.8</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>14.0.11</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>15.0.8</strong> (CVE-2019-15624)</li>
+<li>Nextcloud Server &lt; <strong>14.0.11</strong> (CVE-2019-15624)</li>
 
         </ul>
         <h3>Action Taken</h3>
