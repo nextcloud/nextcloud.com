@@ -16,9 +16,9 @@
         <p>A bug in Nextcloud Server 17.0.1 causes the workflow rules to depend their behaviour on the file extension when checking file mimetypes.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>17.0.2</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>16.0.7</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>15.0.14</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>17.0.2</strong> (CVE-2019-15613)</li>
+<li>Nextcloud Server &lt; <strong>16.0.7</strong> (CVE-2019-15613)</li>
+<li>Nextcloud Server &lt; <strong>15.0.14</strong> (CVE-2019-15613)</li>
 
         </ul>
         <h3>Action Taken</h3>

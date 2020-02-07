@@ -16,7 +16,7 @@
         <p>Missing sanitization in the iOS App 2.24.4 causes an XSS when opening malicious HTML files.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Ios &lt; <strong>2.25.0</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Ios &lt; <strong>2.25.0</strong> (CVE-2019-15614)</li>
 
         </ul>
         <h3>Action Taken</h3>

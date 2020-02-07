@@ -154,17 +154,17 @@
 
 <h3>Nextcloud Server 16.0.2</h3>
 <ul>
-	<li><a href="/security/advisory/?id=NC-SA-2019-004">Reflected XSS in svg logo generation (NC-SA-2019-004)</a> 2019-08-02</li>
+	<li><a href="/security/advisory/?id=NC-SA-2019-018">Reflected XSS in svg logo generation (NC-SA-2019-018)</a> 2019-08-02</li>
 </ul>
 
 <h3>Nextcloud Server 15.0.9</h3>
 <ul>
-	<li><a href="/security/advisory/?id=NC-SA-2019-004">Reflected XSS in svg logo generation (NC-SA-2019-004)</a> 2019-08-02</li>
+	<li><a href="/security/advisory/?id=NC-SA-2019-018">Reflected XSS in svg logo generation (NC-SA-2019-018)</a> 2019-08-02</li>
 </ul>
 
 <h3>Nextcloud Server 14.0.13</h3>
 <ul>
-	<li><a href="/security/advisory/?id=NC-SA-2019-004">Reflected XSS in svg logo generation (NC-SA-2019-004)</a> 2019-08-02</li>
+	<li><a href="/security/advisory/?id=NC-SA-2019-018">Reflected XSS in svg logo generation (NC-SA-2019-018)</a> 2019-08-02</li>
 </ul>
 
 <h3>Android App 3.7.0</h3>
@@ -181,6 +181,7 @@
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2019-011">Query restriction bypass on exposed FileContentProvider in Android app (NC-SA-2019-011)</a> 2019-07-26</li>
 	<li><a href="/security/advisory/?id=NC-SA-2019-008">Bypass lock protection in Android app (NC-SA-2019-008)</a> 2019-07-26</li>
+	<li><a href="/security/advisory/?id=NC-SA-2019-004">Bypass lock protection in Android app (NC-SA-2019-004)</a> 2019-07-26</li>
 </ul>
 
 <h3>Android App 3.3.0</h3>

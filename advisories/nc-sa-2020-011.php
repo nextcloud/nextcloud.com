@@ -16,7 +16,7 @@
         <p>Improper access control in Nextcloud Talk 6.0.3 leaks the existance and the name of private conversations when linked them to another shared item via the projects feature.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Talk &lt; <strong>6.0.4</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Talk &lt; <strong>6.0.4</strong> (CVE-2019-15620)</li>
 
         </ul>
         <h3>Action Taken</h3>

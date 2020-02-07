@@ -16,8 +16,8 @@
         <p>Missing escaping of HTML in the Updater of Nextcloud 15.0.5 allowed a reflected XSS when starting the updater from a malicious location.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>15.0.6</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>14.0.9</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>15.0.6</strong> (CVE-2019-15618)</li>
+<li>Nextcloud Server &lt; <strong>14.0.9</strong> (CVE-2019-15618)</li>
 
         </ul>
         <h3>Action Taken</h3>

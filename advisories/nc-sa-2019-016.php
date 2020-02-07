@@ -16,9 +16,9 @@
         <p>Exposure of Private Information in Nextcloud Server 16.0.1 causes the server to send it's domain and user IDs to the Nextcloud Lookup Server without any further data when the Lookup server is disabled.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>16.0.2</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>15.0.9</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>14.0.13</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>16.0.2</strong> (CVE-2019-15623)</li>
+<li>Nextcloud Server &lt; <strong>15.0.9</strong> (CVE-2019-15623)</li>
+<li>Nextcloud Server &lt; <strong>14.0.13</strong> (CVE-2019-15623)</li>
 
         </ul>
         <h3>Action Taken</h3>

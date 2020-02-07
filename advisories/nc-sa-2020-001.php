@@ -16,9 +16,9 @@
         <p>A bug in Nextcloud Server 15.0.2 causes pending 2FA logins to not be correctly expired when the password of the user is reset.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>15.0.3</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>14.0.7</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>13.0.11</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>15.0.3</strong> (CVE-2019-15612)</li>
+<li>Nextcloud Server &lt; <strong>14.0.7</strong> (CVE-2019-15612)</li>
+<li>Nextcloud Server &lt; <strong>13.0.11</strong> (CVE-2019-15612)</li>
 
         </ul>
         <h3>Action Taken</h3>

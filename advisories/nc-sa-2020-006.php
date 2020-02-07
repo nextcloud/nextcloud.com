@@ -16,7 +16,7 @@
         <p>A missing check in Nextcloud Server 17.0.0 allowed an attacker to set up a new second factor when trying to login.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>17.0.1</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>17.0.1</strong> (CVE-2019-15617)</li>
 
         </ul>
         <h3>Action Taken</h3>

@@ -83,6 +83,12 @@
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-001</guid>
   <pubDate>Mon, 01 Apr 2019 02:00:00 +0200</pubDate>
  </item><item>
+  <title>Server: Reflected XSS in svg logo generation (NC-SA-2019-018)</title>
+  <description>A reflected Cross-Site Scripting vunerability was discovered in the svg generation.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-018&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-018</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-018</guid>
+  <pubDate>Fri, 02 Aug 2019 14:00:00 +0200</pubDate>
+ </item><item>
   <title>iOS App: Login and token disclosure to other Nextcloud services (NC-SA-2019-017)</title>
   <description>Violation of Secure Design Principles in the iOS App 2.23.0 causes the app to leak its login and token to other Nextcloud services when search e.g. for federated users or registering for push notifications.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-017&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-017</link>
@@ -161,11 +167,11 @@
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-005</guid>
   <pubDate>Fri, 26 Jul 2019 12:00:00 +0200</pubDate>
  </item><item>
-  <title>Server: Reflected XSS in svg logo generation (NC-SA-2019-004)</title>
-  <description>A reflected Cross-Site Scripting vunerability was discovered in the svg generation.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-004&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <title>Android App: Bypass lock protection in Android app (NC-SA-2019-004)</title>
+  <description>Creating a fake multi-account and aborting the process would redirect the user to the default account of the device without asking for the lock pattern if one was set up.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-004&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2019-004</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2019-004</guid>
-  <pubDate>Fri, 02 Aug 2019 14:00:00 +0200</pubDate>
+  <pubDate>Fri, 26 Jul 2019 12:00:00 +0200</pubDate>
  </item><item>
   <title>Server: Improper share updates could result in extended data access (NC-SA-2019-003)</title>
   <description>A bug could expose more data in reshared link shares than intended by the sharer.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2019-003&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>

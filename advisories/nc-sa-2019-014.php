@@ -16,8 +16,8 @@
         <p>An authenticated server-side request forgery in Nextcloud server 16.0.1 allowed to detect local and remote services when adding a new subscription in the calendar application.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>16.0.2</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>15.0.9</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>16.0.2</strong> (CVE-2020-8118)</li>
+<li>Nextcloud Server &lt; <strong>15.0.9</strong> (CVE-2020-8118)</li>
 
         </ul>
         <h3>Action Taken</h3>

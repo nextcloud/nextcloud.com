@@ -16,8 +16,8 @@
         <p>Improper authorization in the Circles app 0.17.7 causes retaining access when an email address was removed from a circle.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Circles &lt; <strong>0.17.8</strong> (CVE assignment pending)</li>
-<li>Nextcloud Circles &lt; <strong>0.16.11</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Circles &lt; <strong>0.17.8</strong> (CVE-2019-15610)</li>
+<li>Nextcloud Circles &lt; <strong>0.16.11</strong> (CVE-2019-15610)</li>
 
         </ul>
         <h3>Action Taken</h3>
