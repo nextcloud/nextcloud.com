@@ -72,8 +72,7 @@
 				<a href="https://bloosite.com" target="_blank" title="bloosite">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/bloosite.png" title="Certilience" />
 				</a>
-				<p class="partnertext">Swiss Cloud Solution provider bloosite specializes in development and operation of secure virtual desktop and server solutions as well as storage, network, security and voice services. The innovative Swiss company's comprehensive offering is available both as an appliance for a local installation and as cloud services from multiple highly secured Swiss data centers.<br />
-                Customers receive a modern network, server and communication infrastructure tailored to their individual needs with maximum security, performance and availability guaranteed by Service Level Agreements.</p>
+				<p class="partnertext">bloosite helps SMEs keep up with rapidly changing markets by providing convenient IT solutions to suit their evolving business models. Companies benefit from a ready-to-use package with a usage-dependent pricing model as well as from a sound knowledge in IT-security. The innovative Swiss company’s comprehensive offering is available from local installation to highly secured Swiss data centers.</p>
 			</div>
 		</div>
 
