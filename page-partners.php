@@ -73,6 +73,7 @@
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/bloosite.png" title="Certilience" />
 				</a>
 				<p class="partnertext">bloosite helps SMEs keep up with rapidly changing markets by providing convenient IT solutions to suit their evolving business models. Companies benefit from a ready-to-use package with a usage-dependent pricing model as well as from a sound knowledge in IT-security. The innovative Swiss company’s comprehensive offering is available from local installation to highly secured Swiss data centers.</p>
+				<a class="button button--white" href="https://bloosite.com">Learn more</a>
 			</div>
 		</div>
 
