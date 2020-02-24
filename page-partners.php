@@ -141,6 +141,15 @@
 				<a class="button button--white" href="http://www.itservicenet.net">Learn more</a>
 			</div>
 			<div class="col-md-4">
+				<a href="http://www.kafit.se/" target="_blank" title="kafit AB">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/kafit.png" title="kafit logo" />
+				</a>
+				<p  class="partnertext">Kafit AB is a Swedish company that strives to always be at the forefront of how open source can be used and implemented in our own operations and, by extension, how it can benefit our customers. One of those solutions is Nextcloud.<br />
+                With security in hardware, software and the all so humble humans, our services are often more thoughtful than our customer expects.<br />
+<!--                We take pride in the delivery of services and products and get our recommendations from customers that realize the value of this.</p>-->
+				<a class="button button--white" href="http://kafit.se/">Learn more</a>
+			</div>
+			<div class="col-md-4">
 				<a href="http://www.netcloud.ch/" target="_blank" title="Netcloud AG">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/netcloud.png" title="netcloud logo" />
 				</a>
