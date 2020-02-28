@@ -29,7 +29,8 @@
 	</div>
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<p class="section--paragraph text-center"><span class="avoidwrap">The public cloud is a risky solution! A McAfee survey showed that</span> <span class="avoidwrap"><a class="hyperlink" href="https://www.zdnet.com/article/report-1-in-4-public-cloud-users-has-had-data-stolen/">25% of organizations using public cloud suffered data theft.</a></span></p>
+			<p class="section--paragraph text-center"><span class="avoidwrap">Public consumer clouds are a risk! A McAfee survey showed that</span> <span class="avoidwrap"><a class="hyperlink" href="https://www.zdnet.com/article/report-1-in-4-public-cloud-users-has-had-data-stolen/">25% of organizations using public cloud suffered data theft.</a></span></p>
+			<p class="section--paragraph text-center"><span class="avoidwrap">A 2020 study from Code42 concluded employers fail to stop employees from</span> <span class="avoidwrap"><a class="hyperlink" href="https://www.helpnetsecurity.com/2020/02/25/cloud-based-collaboration-tools/">syncing company files to personal cloud accounts.</a></span></p>
         </div>
 	</div>
 </section>
@@ -75,6 +76,43 @@
     </div>
 </div>
 </section>
+
+<section class="section--issues">
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h2>The 10 issues with data silos</h2>
+            <p class="section--paragraph">Employees in modern organizations use tens, sometimes dozens different online services for tracking tasks, tickets, managing blogs, updating documentation, editing files, communicating with partners and more. But this outgrowth of IT services complicates work and multiplies the risk of data leaks.</p>
+        </div>
+    </div>
+	<div class="row">
+        <div class="col-md-6">
+            <h3 class="section--paragraph__title">5x inefficiency and waste of time</h3>
+                <ul>
+                    <ol>1. Tools don't connect so data is uploaded to multiple places and employees lose track of what is where</ol>
+                    <ol>2. More different services means more frequent service disruption that blocks employees from working</ol>
+                    <ol>3. Each tool has a different user interface, requiring more of training and causing mistakes</ol>
+                    <ol>4. Nobody knows who has access to what tool and who manages which accounts</ol>
+                    <ol>5. The IT department loses track of the services and ends up paying for unused accounts</ol>
+                </ul>
+        </div>
+        <div class="col-md-6">
+            <h3 class="section--paragraph__title">5x security risks</h3>
+            <ul>
+                <ol>1. Uploading data to multiple platforms means multiplying the risk of a data breach</ol>
+                <ol>2. Loss of visibility and ability to track where data is and who has access</ol>
+                <ol>3. Complicated reporting on data breach causes compliance issues</ol>
+                <ol>4. Central or connected authentication and storage means breach in one is breach in all</ol>
+                <ol>5. Password re-use by employees across platforms means even a breach in a low-risk service risks all</ol>
+            </ul>
+		</div>
+    </div>
+    <hr>
+    <div class="col-md-8 col-md-offset-2"><blockquote><span class="avoidwrap">You thought that a breach in a non-critical online tool is low-risk?</span> <span class="avoidwrap">Guess what, the hacked passwords were re-used on critical company infrastructure.</span></blockquote></div>
+</div>
+</section>
+
+
 <section class="section--solution">
 <div class="container">
 	<div class="row">
