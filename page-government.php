@@ -216,6 +216,7 @@ require(["require.config"], function() {
             <div class="col-md-6">
                 <blockquote><?php echo $l->t('The need for Sweden as a country to have control over its information and the consequences of not having access to the information should be considered from the perspective of national security and sovereignty. In an international crisis or conflict, the willingness and ability of other countries to access, manipulate or deny access to information handled by a service provider should be considered.');?></blockquote>
                 <p class="alignright" style="margin-top: -40px"><?php echo $l->t('-- Swedish National Procurement Services');?></p>
+                <p class="section--paragraph"><?php echo $l->t('In a report from mid 2019, the Dutch government came to a similar conclusion with regards to data protection, recommending its own government departments against using');?> <a href="https://www.rijksoverheid.nl/documenten/rapporten/2019/06/11/data-protection-impact-assessment-windows-10-enterprise" class="hyperlink">Microsoft Office 365.</a></p>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Sweden deploying Nextcloud');?></h3>
