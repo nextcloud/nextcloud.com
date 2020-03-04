@@ -26,10 +26,10 @@
 <div class="second-menu">
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
+            <a href="#collaboration"><span class="avoidwrap"><?php echo $l->t('Collaboration');?></span></a>
+			<a href="#workflow"><span class="avoidwrap"><?php echo $l->t('Workflow');?></span></a>
 			<a href="#send"><span class="avoidwrap"><?php echo $l->t('File exchange');?></span></a>
 			<a href="#clients"><span class="avoidwrap"><?php echo $l->t('Clients');?></span></a>
-			<a href="#workflow"><span class="avoidwrap"><?php echo $l->t('Workflow');?></span></a>
-			<a href="#storage"><span class="avoidwrap"><?php echo $l->t('External storage');?></span></a>
 			<a href="#integrations"><span class="avoidwrap"><?php echo $l->t('Integrations');?></span></a>
 		</div>
 	</div>
@@ -91,6 +91,7 @@
 </section>
 
 <section class="section--collaboration quote">
+    <a name="collaboration" id="collaboration"></a>
 	<div class="container">
         <div class="row">
             <div class="col-md-6  image--floated">
