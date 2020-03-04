@@ -82,9 +82,10 @@
 					<li title="Limits imposed by either the purchased plan or your own infrastructure when self-hosting" rel="tooltip">Unlimited storage</li> <!-- Unlimited storage -->
 					<li title="" rel="tooltip">Large file support</li> <!--Large file support-->
 					<li title="" rel="tooltip">Self hosted/on premises</li> <!--Self hosted/on premises-->
+					<li title="" rel="tooltip">Scalability limits</li> <!--Scalability limits-->
 						<li class="cd-group">Clients</li> <!--Client-->
 					<li title="" rel="tooltip">Mobile Clients</li> <!--Mobile Clients-->
-					<li title="" rel="tooltip">Auto upload images/video</li> <!--Auto upload images/video-->
+					<li title="" rel="tooltip">Auto upload images/video/other files</li> <!-- Auto upload images/video/other files -->
 					<li title="" rel="tooltip">Desktop clients</li> <!--Desktop clients-->
 					<li title="" rel="tooltip">LAN Synchronization</li> <!--LAN Synchronization-->
 					<li title="Allows third party to write apps that integrate apps in the cloud itself, adding functionality" rel="tooltip">Extensible with apps</li> <!--Extensible with apps-->
@@ -92,16 +93,18 @@
 						<li class="cd-group">Server features</li> <!--Server features-->
 					<li title="file name search/full text search" rel="tooltip">Full text search</li> <!--Full text search-->
 					<li title="" rel="tooltip">File Versioning</li> <!--File Versioning-->
+					<li title="Block a file temporarily from being edited while you work offline with it" rel="tooltip">File Locking/checkout</li> <!--File Locking-->
 					<li title="" rel="tooltip">File Metadata</li> <!--File Metadata-->
-					<li title="" rel="tooltip">View PDF, images, video</li> <!--View PDF, images, video-->
+					<li title="" rel="tooltip">View PDF, images, video, gallery</li> <!--View PDF, images, video, gallery-->
 					<li title="" rel="tooltip">Integrated Audio/Video/Text chat</li> <!--Audio/Video/Text chat-->
-					<li title="" rel="tooltip">Supported Groupware<br> (Calendar/Contacts/<br>Mail/Kanban)</li> <!--Calendar/Contact/Mail integration-->
+					<li title="" rel="tooltip">Integrated Groupware<br> (Calendar/Contacts/<br>Mail/Kanban)</li> <!--Calendar/Contact/Mail integration-->
 					<li title="" rel="tooltip">Mobile calendar/contact integration</li> <!--Mobile calendar/contact integration-->
  					<li title="" rel="tooltip">Online Office in web / mobile</li> <!--Online Office-->
 					<li title="Public link to folder recipient can upload to, which hides existing content of the shared folder" rel="tooltip">File Drop (customer file upload)</li> <!--File Drop (customer file upload)-->
 					<li title="Option to block downloading from a public link" rel="tooltip">Block downloads</li> <!-- Block downloads -->
 					<li title="Protect public links with Video Verification" rel="tooltip">Video Verification</li> <!-- Video Verification -->
 					<li title="Sharing between separate cloud instances of different vendors. Example, Nextcloud users can share files with users on Pydio and ownCloud servers." rel="tooltip">Inter-server sharing</li> <!--Inter-server sharing-->
+					<li title="Add context to a folder by having a space to add comments, notes and todo lists" rel="tooltip">Workspaces</li> <!-- Workspaces -->
                         <li class="cd-group">Accessibility</li> <!--Accessibility-->
 					<li title="" rel="tooltip">Keyboard/screen reader support</li> <!--Keyboard/screen reader support-->
 					<li title="" rel="tooltip">WCAG 2.1 support</li> <!--WCAG 2.1 support-->
@@ -160,9 +163,11 @@
 							<li title="The limit is customer infrastructure. There are no limits from the Nextcloud side." rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Large file support-->
 							<li title="can be hosted wherever you decide, including hybrid." rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
+							<li title="" rel="tooltip">Single instance: 100K active users <br />
+							Global Scale: hundreds of millions</li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Mobile Clients-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Auto upload images/video-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i> / <i class="fa fa-check" aria-hidden="true"></i> / <i class.="fa fa-check" aria-hidden="true"></i></li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i> <i class="fa fa-linux" aria-hidden="true"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="Over 200 apps available" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
@@ -171,8 +176,9 @@
 								<li class="cd-group"></li> <!--Server features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Full text search-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Versioning-->
+							<li title="Does NOT block collaborative editing" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Metadata-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="both Android/iOS (Android with integrated 3rd party tool)" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
@@ -181,6 +187,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Inter-server sharing-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Workspaces -->
                                 <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
                             <li title="AAA with optional theme" class="green" rel="tooltip">AA/AAA</li> <!--WCAG 2.1 support-->
@@ -237,9 +244,10 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
+							<li title="5K in one group, 10K for educational organizations, unclear limits otherwise" rel="tooltip">5K/10K/unlimited</li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Auto upload images/video-->
+							<li title="can do files with external app" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i> / <i class="fa fa-check" aria-hidden="true"></i> / <i class.="fa fa-times" aria-hidden="true"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="No third-party apps that can be integrated" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Extensible with apps-->
@@ -248,8 +256,9 @@
 								<li class="cd-group"></li> <!--Server features-->
 							<li title="" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Full text search-->
 							<li title="" rel="tooltip">limited</li> <!--File Versioning-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Metadata-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
@@ -258,6 +267,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Workspaces -->
 							    <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--WCAG 2.1 support-->
@@ -315,9 +325,10 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip">10GB</li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
+							<li title="" rel="tooltip">500K</li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Auto upload images/video-->
+							<li title="Can be done with external app" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i> / <i class="fa fa-check" aria-hidden="true"></i> / <i class.="fa fa-times" aria-hidden="true"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="Limited to Microsoft Apps" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
@@ -326,8 +337,9 @@
 								<li class="cd-group"></li> <!--Server features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Full text search-->
 							<li title="Only for MS Office files" rel="tooltip">limited</li> <!--File Versioning-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Metadata-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
@@ -336,6 +348,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
+							<li title="Can pin files to the top of a folder, which gives a big preview." rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i>*</li> <!-- Workspaces -->
 							    <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--WCAG 2.1 support-->
@@ -392,9 +405,10 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
+                            <li title="" rel="tooltip">20K</li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Auto upload images/video-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i> / <i class="fa fa-check" aria-hidden="true"></i> / <i class.="fa fa-times" aria-hidden="true"></i></li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i> <i class="fa fa-linux" aria-hidden="true"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="Over 70 apps available" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
@@ -403,8 +417,9 @@
 								<li class="cd-group"></li> <!--Server features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Full text search-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Versioning-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Metadata-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="unsupported" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="Only as unsupported (Nextcloud-developed) third party apps" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="Unsupported. Available for iOS, Android possible with tool from Nextcloud partner" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i>/<i class="fa fa-check optional" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
@@ -413,6 +428,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Inter-server sharing-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Workspaces -->
                                 <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--WCAG 2.1 support-->
@@ -469,9 +485,10 @@
 							<li title="" rel="tooltip">Varies per plan</li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip">5GB</li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
+							<li title="Some limitations exist but nothing is clearly documented" rel="tooltip">Unlimited</li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
-							<li title="" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Auto upload images/video-->
+							<li title="Only paid. Files can be done with external app" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i> / <i class="fa fa-usd" aria-hidden="true"></i> / <i class.="fa fa-times" aria-hidden="true"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="Limited Microsoft office integration" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
@@ -480,8 +497,9 @@
 								<li class="cd-group"></li> <!--Server features-->
 							<li title="" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Full text search-->
 							<li title="25-50 revisions depending on plan" rel="tooltip">limited</li> <!--File Versioning-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Locking-->
 							<li title="Varies per plan" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--File Metadata-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="not natively, third party app" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
@@ -490,6 +508,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Workspaces -->
                                 <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
                             <li title="AAA with Box.com accessiblity site" rel="tooltip" class="green">AA/AAA</li> <!--WCAG 2.1 support-->
@@ -546,9 +565,10 @@
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip">10GB</li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
+							<li title="2K users in a share, more limits exist but not clearly documented" rel="tooltip">2K/unclear</li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
-							<li title="" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Auto upload images/video-->
+							<li title="Extra paid feature. Files can be done with third party app" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i> / <i class="fa fa-check" aria-hidden="true"></i> / <i class.="fa fa-times" aria-hidden="true"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="No third-party apps that can be integrated" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Extensible with apps-->
@@ -557,8 +577,9 @@
 								<li class="cd-group"></li> <!--Server features-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Full text search-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Versioning-->
+							<li title="not available in web UI or WebDAV" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>*</li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Metadata-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
@@ -567,6 +588,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Workspaces -->
                                 <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--WCAG 2.1 support-->
@@ -622,9 +644,10 @@
 							<li title="" rel="tooltip">Varies per plan</li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip">20GB</li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
+							<li title="" rel="tooltip">Unlimited</li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="free version only supports up to 3 client devices total" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
-							<li title="" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Auto upload images/video-->
+							<li title="Files can be done with third party app" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i> / <i class="fa fa-check" aria-hidden="true"></i> / <i class.="fa fa-times" aria-hidden="true"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="free version only supports up to 3 client devices total" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="Limited Microsoft office integration" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
@@ -633,8 +656,9 @@
 								<li class="cd-group"></li> <!--Server features-->
 							<li title="" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--Full text search-->
 							<li title="Max 1 month, up to 1 year with Business subscription" rel="tooltip">limited</li> <!--File Versioning-->
+							<li title="only for business edition" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Locking-->
 							<li title="Only with business subscription" rel="tooltip"><i class="fa fa-usd" aria-hidden="true"></i></li> <!--File Metadata-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i>/<i class="fa fa-check" aria-hidden="true"></i>/<i title="through Google Apps" rel="tooltip" class="fa fa-google" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
@@ -643,6 +667,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Workspaces -->
                                 <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--WCAG 2.1 support-->
@@ -696,11 +721,12 @@
 						<ul class="cd-features-list">
 							<li title="open source = any OSI approved license. Anything else is proprietary." rel="tooltip">Proprietary</li> <!--License-->
 							<li title="" rel="tooltip">max 10 TB</li> <!-- Unlimited storage -->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Large file support-->
+							<li title="" rel="tooltip">25GB</li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
+							<li title="various file limitations exist, unclear user limits" rel="tooltip">unclear</li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
-							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Auto upload images/video-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i> / <i class="fa fa-times" aria-hidden="true"></i> / <i class.="fa fa-times" aria-hidden="true"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="Pretty wide range of apps" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Extensible with apps-->
@@ -709,8 +735,9 @@
 								<li class="cd-group"></li> <!--Server features-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Full text search-->
 							<li title="max 3 revisions" rel="tooltip">limited</li> <!--File Versioning-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Metadata-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i>/<i class="fa fa-times" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
@@ -719,6 +746,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Workspaces -->
 							    <li class="cd-group"></li> <!--Accessibility-->
                             <li title="could not find information" rel="tooltip"><i class="fa fa-check optional" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--WCAG 2.1 support-->
@@ -775,9 +803,10 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip">2GB</li> <!--Large file support-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
+							<li title="real limites are unclear" rel="tooltip">Unlimited*</li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></li> <!--Mobile Clients-->
-							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Auto upload images/video-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i> / <i class="fa fa-times" aria-hidden="true"></i> / <i class.="fa fa-times" aria-hidden="true"></i>*</li> <!-- Auto upload images/video/other files -->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--LAN Synchronization-->
 							<li title="No third-party apps that can be integrated" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Extensible with apps-->
@@ -786,8 +815,9 @@
 								<li class="cd-group"></li> <!--Server features-->
 							<li title="" rel="tooltip">limited</li> <!--Full text search-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Versioning-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--File Metadata-->
-							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video-->
+							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="Microsoft Lync plug-in" rel="tooltip"><i class="fa fa-clock-o" aria-hidden="true"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Mobile calendar/contact integration-->
@@ -796,6 +826,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Video Verification -->
 							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Inter-server sharing-->
+							<li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!-- Workspaces -->
 							    <li class="cd-group"></li> <!--Accessibility-->
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--Keyboard/screen reader support-->
                             <li title="" rel="tooltip"><i class="fa fa-times" aria-hidden="true"></i></li> <!--WCAG 2.1 support-->
