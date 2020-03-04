@@ -84,7 +84,7 @@
 			<li>Supports end-to-end encryption using OpenPGP</li>
 			</ul>
 			<br>
-			<small><strong>Note:</strong> Nextcloud Mail is a client for POP or IMAP servers;<br>Nextcloud does not include a mail server.</small>
+			<small><strong>Note:</strong> Nextcloud Mail is a client for IMAP servers;<br>Nextcloud does not include a mail server.</small>
 			');?></p>
         </div>
 	</div>
@@ -131,7 +131,7 @@
         </div>
 	</div>	<div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-            <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud fluently integrates into your existing infrastructure while also providing its own. Note that Nextcloud Mail is a client for POP and/or IMAP-infrastructure; Nextcloud does not include a mail server.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud fluently integrates into your existing infrastructure while also providing its own. Note that Nextcloud Mail is a client for IMAP-infrastructure; Nextcloud does not include a mail server.');?></p>
         </div>
 	</div>
 </div>
@@ -161,7 +161,7 @@
         <div class="col-sm-4">
             <h3 class="section--paragraph__title"><?php echo $l->t('Control');?></h3>
             <p class="section--paragraph"><?php echo $l->t('
-            Nextcloud Groupware is built to host yourself and work with existing SMTP and IMAP/POP3 servers. This simplifies compliance by putting you in control. Nextcloud supports you with excellent monitoring and audit-ready logging functionality.') ?><br>
+            Nextcloud Groupware is built to host yourself and work with existing SMTP and IMAP servers. This simplifies compliance by putting you in control. Nextcloud supports you with excellent monitoring and audit-ready logging functionality.') ?><br>
             <a class="hyperlink" href="<?php echo home_url('monitoring') ?>"><?php echo $l->t('Learn more about monitoring and logging</a>
             ');?></p>
         </div>
@@ -217,7 +217,7 @@
 					<li>Auto discovery of calendars and address books;</li>
 					<li>Configurable sync time range filter;</li>
 					<li>Time-triggered-sync and sync changes from Outlook immediately;</li>
-					<li>and it can use server settings from an Outlook IMAP/POP3 account profile.</li>
+					<li>and it can use server settings from an Outlook IMAP account profile.</li>
 					</ul>');?></p>
 <!--					<div class="row">
 						<div class="wrapper--buttons">
