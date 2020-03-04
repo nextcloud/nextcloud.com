@@ -1,4 +1,4 @@
-<!-- s<head> -->
+<!-- <!-- s<head> --> -->
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/modules/jquery-321.min.js"></script>
 <script>
 	require(["require.config"], function() {
@@ -163,7 +163,7 @@
 							<li title="The limit is customer infrastructure. There are no limits from the Nextcloud side." rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!-- Unlimited storage -->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Large file support-->
 							<li title="can be hosted wherever you decide, including hybrid." rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i></li> <!--Self hosted/on premises-->
-							<li title="single cluster: up to 100K active users. With Global Scale: unlimited." rel="tooltip"><small>unlimited</small></li> <!--Scalability limits-->
+							<li title="single cluster: up to 100K active users. With Global Scale: unlimited." rel="tooltip">Unlimited</li> <!--Scalability limits-->
 								<li class="cd-group"></li> <!--Client-->
 							<li title="" rel="tooltip"><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li> <!--Mobile Clients-->
 							<li title="" rel="tooltip"><i class="fa fa-check" aria-hidden="true"></i> / <i class="fa fa-check" aria-hidden="true"></i> / <i class.="fa fa-check" aria-hidden="true"></i></li> <!-- Auto upload images/video/other files -->
