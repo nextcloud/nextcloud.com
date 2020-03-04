@@ -141,7 +141,7 @@
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Lock files');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('File locking helps users prevent conflicts with colleagues who are trying to edit the same files. While office documents and notes can be edited in real time in the browser, some files have to be downloaded to make changes. Lock the file and colisions are avoided! Other users can easily contact you in chat or by a comment to ask what is going on.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('File locking helps users prevent conflicts with colleagues who are trying to edit the same files. While office documents and notes can be edited in real time in the browser, some files have to be downloaded to make changes. Lock the file and collisions are avoided! Other users can easily contact you in chat or by a comment to ask what is going on.');?></p>
             </div>
         </div>
     </div>
