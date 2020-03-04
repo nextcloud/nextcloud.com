@@ -156,6 +156,7 @@
                 <stream src="75499b40ed321ef2eb0ff5cc2a95e7cf" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-admin.png"></stream>
                 <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=75499b40ed321ef2eb0ff5cc2a95e7cf"></script>
             </div>
+            <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Workflow management');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('With Nextcloud, system administrators can control and direct the flow of data between users on or between servers. Rule-based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud puts IT in control of user data and keeps it safe.');?></p>
@@ -171,6 +172,7 @@
                 <div class="col-md-6 image--floated">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/LrF4jf1ROOc" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
                 </div>
+                <div class="col-md-6 feature--block">
                     <h3 class="section--paragraph__title"><?php echo $l->t('Designed for humans');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('An efficient, easy to use interface is one of the main things that sets Nextcloud apart from the competition. Design is about more than being pretty. The goal is to allow users to get work done with the least amount of effort, making it obvious how to accomplish tasks and reducing the number of steps needed to do so.');?></p>
                     <p class="section--paragraph"><?php echo $l->t('Good design can be seen in the entire user interface and each release makes steps forward.');?></p>
@@ -187,7 +189,7 @@
                 <div data-type="youtube" data-video-id="AhFnbB-a7ik"></div>
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Secure file exchange');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud Files enables hospitals, banks, notaries and government agencies to securely send files to and receive files from customers, patients, clients or partners.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The easy web and mobile interfaces of Nextcloud Files allow users to share files with other users on the server, to create and send password-protected public links, to let others upload files to the private cloud and to get notifications on phone and desktop when a user on another cloud server shares files.');?></p>
@@ -231,7 +233,7 @@
                 <div data-type="youtube" data-video-id="jwhfeJlYBbM"></div>
                 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/jwhfeJlYBbM" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 feature--block">
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud users to easily and securely send files, folders or upload links to others from within Microsoft Outlook. The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>
                 <p><a href="<?php echo home_url('outlook') ?>" class="button button--arrow button--large"><?php echo $l->t('Secure Sharing Outlook Add-in');?></a></p>
             </div>
@@ -258,6 +260,7 @@
             <div class="col-md-6 image--floated image--feature">
                 <a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/fulltextsearch.png"/></a>
             </div>
+            <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Powerful search');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud includes a powerful full-text search engine capable of using ElasticSearch as back-end. Its flexible plugin-based interface enables search capabilities beyond files and accommodates other back-end solutions like Apache Solr.');?></p>
                 <a href="https://apps.nextcloud.com/apps/fulltextsearch" class="button button--blue button--arrow button--large"><?php echo $l->t('In the App store');?></a>
