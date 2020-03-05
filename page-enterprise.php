@@ -4,7 +4,7 @@
 		require(["modules/slideshow", "modules/submenu"])
 	});
 </script>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/enterprise.css?v=4" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/enterprise.css?v=5" rel="stylesheet">
 <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 <!--<script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit" async defer></script>
 <script type="text/javascript">
@@ -28,10 +28,6 @@
     </div>
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
-			<a href="#reliability"><?php echo $l->t('reliability');?></a>
-			<a href="#scalability"><?php echo $l->t('scalability');?></a>
-			<a href="#security"><?php echo $l->t('security');?></a>
-			<a href="#integrity"><?php echo $l->t('integrity');?></a>
 			<a class="button button--blue" href="<?php echo home_url('faq') ?>"><?php echo $l->t('FAQ');?></a>
 			<a class="button button--blue" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('order online');?></a>
 			<a class="button button--blue" href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('get a quote');?></a>

@@ -1,5 +1,5 @@
 <head>
-	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pricing.css?v=4" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pricing.css?v=5" rel="stylesheet">
 	<script>
 	require(["require.config"], function() {
 		require(["pages/pricing", "modules/submenu", "bootstrap"])
@@ -246,7 +246,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 			<div class="featureblock" id="featureblock-branding">
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/theming-nw.png">
 				<h3 class="section--paragraph__title"><?php echo $l->t('Branding');?></h3>
-				<p class="section--paragraph"><?php echo $l->t('Nextcloud provides branding services, delivering sync clients (mobile and desktop) which use your corporate identity and are pre-configured to help your users get up and running in no time. Branding is optionally available with the Standard or Premium subscription.');?></p>
+				<p class="section--paragraph"><?php echo $l->t('Nextcloud provides branding services, delivering sync clients (mobile and desktop) which use your corporate identity and are pre-configured to help your users get up and running in no time, with optional MDM and MSI packaging and deployment options. Branding is optionally available with the Standard or Premium subscription.');?><a href="https://nextcloud.com/blog/branded-nextcloud-clients/" class="hyperlink"><?php echo $l->t('Read this blog for details.');?></a></p>
 				<p class="section--paragraph price-big"><?php echo $l->t('starting at € 6000 yearly');?></p>
 				<p class="section--paragraph price-small"><?php echo $l->t('(subject to further volume and other discounts)');?></p>
 			</div>
