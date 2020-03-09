@@ -49,10 +49,10 @@
 </div>
 <div class="row">
     <div class="col-md-10 col-md-offset-1">
-        <h3>Community hosting</h3>
-        <p class=""><?php echo $l->t('Community providers who offer anything from a Virtual Machine with Nextcloud you have to manage yourself to a fully handled Nextcloud account where you just have to log in, maintained the your provider. Some providers offer (limited) free tiers.');?></p>
+        <h2>Community hosting</h2>
+        <p class=""><?php echo $l->t('Community providers who offer anything from a Virtual Machine with Nextcloud you have to manage to a fully handled Nextcloud account where you just have to log in, maintained by the provider. Some providers offer free tiers.');?></p>
         <p class=""><?php echo $l->t('Please note that we have no formal relationship with any of these providers and take no responsibility for their services or quality. If you want to be sure to get quality service with the backing of Nextcloud engineers,');?> <a class="hyperlink" href="<?php echo home_url('contact') ?>"><?php echo $l->t('get in contact with us</a>');?> <a class="hyperlink" href="<?php echo home_url('partners') ?>"><?php echo $l->t('or one of our partners.</a>');?></p>
-        <p class=""><?php echo $l->t('Find them on ');?><a href="https://github.com/nextcloud/providers">Github</a>.</p>
+        <a class="button button--blue" href="https://github.com/nextcloud/providers" target="_blank"><?php echo $l->t('Find them on');?> GitHub</a>
     </div>
 </div>
 </section>
