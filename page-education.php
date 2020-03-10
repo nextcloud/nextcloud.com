@@ -252,7 +252,7 @@ require(["require.config"], function() {
         </div>
         <div class="row">
             <div class="col-md-10 col-md-offset-1  feature--block">
-                <p class="section--paragraph "><?php echo $l->t('Privately, students are used to consumer clouds from Google, Apple, Microsoft, Dropbox and others which make sharing, editing and communicating a breeze. A first requirement for any secure solution to replace them is that it does not force complexity on the user. Forbidding usage of Dropbox or other public clouds will not make them disappear unless a credible alternative is provided!');?></p>
+                <p class="section--paragraph "><?php echo $l->t('Privately, students are used to consumer clouds from Google, Apple, Microsoft, Dropbox and others which make sharing, editing and communicating a breeze. A first requirement for any secure solution to replace them is that it does not force complexity on the user. Forbidding usage of Dropbox or other SaaS clouds will not make them disappear unless a credible alternative is provided!');?></p>
                 <p class="section--paragraph "><?php echo $l->t('Nextcloud is as easy to use as public non-enterprise clouds, providing users a comfortable, familiar workspace.');?></p>
             </div>
         </div>

@@ -199,8 +199,8 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <p class="section--paragraph text-center"><span class="avoidwrap">The public cloud is a risky solution! A McAfee survey showed that</span> <span class="avoidwrap"><a class="hyperlink" href="https://www.zdnet.com/article/report-1-in-4-public-cloud-users-has-had-data-stolen/">25% of organizations using public cloud suffered data theft.</a></span></p>
-            <p class="section--paragraph text-center"><a class="button button--blue button--arrow" href="https://nextcloud.com/blog/the-issue-with-public-cloud/"><?php echo $l->t('Learn about the risks of public cloud');?></a></p>
+            <p class="section--paragraph text-center"><span class="avoidwrap">SaaS in public clouds is a risky solution! A McAfee survey showed that</span> <span class="avoidwrap"><a class="hyperlink" href="https://www.zdnet.com/article/report-1-in-4-public-cloud-users-has-had-data-stolen/">25% of organizations using public cloud suffered data theft.</a></span></p>
+            <p class="section--paragraph text-center"><a class="button button--blue button--arrow" href="https://nextcloud.com/blog/the-issue-with-public-cloud/"><?php echo $l->t('Learn about the risks of public SaaS clouds');?></a></p>
         </div>
     </div>
 </div>
@@ -212,7 +212,7 @@
         <div class="col-md-4">
             <div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
             <p class="section--paragraph__tittle text-center">Why self-hosting?</p>
-            <p class="section--paragraph text-center">Simply keeping your data behind your company firewall rather than in the cloud makes compliance and security easy.</p>
+            <p class="section--paragraph text-center">Simply keeping your data behind your company firewall or at a local hosting provider rather than in an US cloud makes compliance and security easy.</p>
             <p class="section--paragraph text-center">With Nextcloud, you don't lose the benefits of modern cloud collaboration and team productivity!</p>
         </div>
         <div class="col-md-4">
@@ -262,7 +262,7 @@
         <div class="col-md-12">
             <h3>No new data silos</h3>
             <p class="section--paragraph">Modern organizations have data in a wide variety of silos like Sharepoint, Windows Network Drives, FTP sites and (often without knowledge of management) Dropbox or Google Drive. Nextcloud acts as a <a class="hyperlink" href="<?php echo home_url('storage') ?>">single file access, sync and share layer</a> across all these storage systems, integrating with enterprise native account handling like LDAP or SAML.</p>
-            <p class="section--paragraph">That does not exclude using public cloud, nor requires you to give up on data locality. Nextcloud fits perfectly in a hybrid cloud strategy, enabling access to data on Amazon S3 and other public storage technologies. Even cutting-edge Blockchain storage technologies like <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-joins-storj-labs-to-deliver-decentralized-secure-storage/">Storj.io</a> and Sia.tech are available to augment storage at extremely low cost.</p>
+            <p class="section--paragraph">That does not exclude using public cloud, nor requires you to give up on data locality. Nextcloud fits perfectly in a hybrid cloud strategy, enabling access to data on Amazon S3 and other public storage technologies. Even cutting-edge Blockchain storage technologies like <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-joins-storj-labs-to-deliver-decentralized-secure-storage/">Storj.io</a> and Sia.tech are available to augment storage at extremely low cost. Moreover, using trusted, local providers like IONOS or hosting.de means you can trust data stays under a jurisdiction that protects your business secrets.</p>
 		</div>
     </div>
 </div>

@@ -23,7 +23,7 @@
 
 <p><blockquote>GDPR compliance is a major concern for many of our customers. Our GDPR Compliance Kit essentially takes these concerns away with regards to the file handling, collaboration and communication capabilities as offered by Nextcloud.</blockquote> stated Andreas Rode, head of sales.</p>
 
-<p>The GDPR requires businesses and other organizations who handle data from private users to offer clarity about how they use this data as well as a way to access, rectify or delete it. When dealing with a public cloud vendor, data leaves the control sphere of the business and a Data Processing Agreement needs to be signed with the cloud vendor. The business then has to ensure processes are set up to deal with GDPR related requests to be compliant. Keeping data in-house by self hosting negates the need for dealing with one more external party, keeping the whole process in-house and simplifying compliance.</p>
+<p>The GDPR requires businesses and other organizations who handle data from private users to offer clarity about how they use this data as well as a way to access, rectify or delete it. When dealing with a Saas/public cloud vendor, data leaves the control sphere of the business and a Data Processing Agreement needs to be signed with the cloud vendor. The business then has to ensure processes are set up to deal with GDPR related requests to be compliant. Keeping data in-house by self hosting negates the need for dealing with one more external party, keeping the whole process in-house and simplifying compliance.</p>
 
 <p>Today, Nextcloud also announces a partnership with Red Hat to offer full-stack in-house storage and solutions to help customers with GDPR compliance.</p>
 

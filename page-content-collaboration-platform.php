@@ -73,17 +73,17 @@
 	<div class="row">
 		<div class="col-md-6 feature--block">
             <h3 class="section--paragraph__title"><?php echo $l->t('Users need collaboration');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('Whatever your company does to enforce compliance, some of your enterprise data is already floating in one or more Public Clouds.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Whatever your company does to enforce compliance, some of your enterprise data is already floating in one or more SaaS clouds.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('People have to get work done and new generations of employees know what tools they want. So they share documents as mail attachments to Gmail addresses, use Trello or share with Dropbox. The question is not "to Cloud or not to Cloud" but "which Cloud?" and <strong>"how to re-gain control?"</strong>');?></p>
         </div>
         <div class="col-md-6 feature--block">
-            <h3 class="section--paragraph__title"><?php echo $l->t('Public clouds are not a safe solution');?></h3>
+            <h3 class="section--paragraph__title"><?php echo $l->t('SaaS is not a safe solution');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Most consumer-grade solutions like Dropbox or Office 365 were not designed with privacy regulations and security concerns in mind, mixing data from consumers and businesses, spread out in data centers across the globe.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Rather than trying to work around their limitations, Nextcloud Files provides a security-first solution which puts IT in complete control over the location and access policies of data with a hybrid or private cloud solution.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Rather than trying to work around their limitations, Nextcloud Files provides a security-first solution which puts IT in complete control over the location and access policies of data with a hybrid, private or lcoally hosted trusted cloud solution.');?></p>
         </div>
 	</div>
     <div class="row">
-        <p class="section--paragraph text-center"><a href="https://nextcloud.com/blog/the-issue-with-public-cloud/" class="button button--blue button--arrow button--large"><?php echo $l->t('The risk of public clouds');?></a></p>
+        <p class="section--paragraph text-center"><a href="https://nextcloud.com/blog/the-issue-with-public-cloud/" class="button button--blue button--arrow button--large"><?php echo $l->t('The risk of SaaS');?></a></p>
 	</div>
 </div>
 </section>
