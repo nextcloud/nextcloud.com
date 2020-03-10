@@ -214,21 +214,6 @@
     .section--mainbenefits .col-md-6 p {
       padding-top: 0px; }
 
-.section--on-premise {
-  position: relative; }
-  .section--on-premise .gradient {
-    background: #36383f;
-    background: -webkit-radial-gradient(center, ellipse, #36383f 0%, #1a1d22 60%, #000 90%);
-    background: radial-gradient(ellipse at center, #36383f 0%, #1a1d22 60%, #000 90%);
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%; }
-  .section--on-premise .section--heading-1, .section--on-premise h3, .section--on-premise p {
-    color: white; }
-
 .section--benefits .row {
   margin-top: 50px; }
 
