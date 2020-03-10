@@ -194,7 +194,7 @@
 </div>
 </section>
 
-<?php require get_template_directory().'/on-premises.php';?>
+<?php require get_template_directory().'/onpremises.php';?>
 
 <section class="section--customerdetail">
 	<div class="container">

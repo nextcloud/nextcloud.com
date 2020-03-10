@@ -132,7 +132,7 @@ require(["require.config"], function() {
 </div>
 </section>-->
 
-<?php require get_template_directory().'/on-premises.php';?>
+<?php require get_template_directory().'/onpremises.php';?>
 
 
 <a name="convenient"></a>
