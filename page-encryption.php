@@ -50,7 +50,7 @@
                     <h3 class="section--paragraph__title"><?php echo $l->t('Automated checks and tips');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud detects issues with its installation and warns when it finds unknown or modified files. Administrators can find security tips and warnings in the configuration screen.');?></p>
                     <p class="section--paragraph"><?php echo $l->t('Administrators can set password quality policies enforced by Nextcloud as well as limit or disable sharing, enforce expiration dates and passwords on shares, disable preview generation and more.');?></p>
-                    <p class="section--paragraph"><?php echo $l->t('You can find more information on hardening your Nextcloud installation in our extensive');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_server/harden_server.html" target="_blank" rel="tooltip" title="Information for Admins"><?php echo $l->t('hardening guide</a>');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('You can find more information on hardening your Nextcloud installation in our extensive');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/harden_server.html" target="_blank" rel="tooltip" title="Information for Admins"><?php echo $l->t('hardening guide</a>');?></p>
                     <p class="section--paragraph"><?php echo $l->t('We provide the <a class="hyperlink" href="https://scan.nextcloud.com">Nextcloud Security Scanner</a> to check the security of your private cloud server.');?></p>
                 </div>
             </div>
