@@ -2,6 +2,41 @@
 
 <h2>2020</h2>
 
+<h3>Desktop Client 2.6.3</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-016">Code injection in Nextcloud Desktop Client for macOS (NC-SA-2020-016)</a> 2020-02-17</li>
+</ul>
+
+<h3>Nextcloud Server 18.0.1</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-015">Secure view shares can be downloaded by manipulating the URL (NC-SA-2020-015)</a> 2020-02-07</li>
+</ul>
+
+<h3>Nextcloud Server 17.0.4</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-015">Secure view shares can be downloaded by manipulating the URL (NC-SA-2020-015)</a> 2020-02-07</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.10</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-015">Secure view shares can be downloaded by manipulating the URL (NC-SA-2020-015)</a> 2020-02-07</li>
+</ul>
+
+<h3>Nextcloud Server 17.0.2</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-014">SSRF protection bypass in calendar subscriptions (NC-SA-2020-014)</a> 2019-12-12</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.7</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-014">SSRF protection bypass in calendar subscriptions (NC-SA-2020-014)</a> 2019-12-12</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.14</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-014">SSRF protection bypass in calendar subscriptions (NC-SA-2020-014)</a> 2019-12-12</li>
+</ul>
+
 <h3>Android App 3.9.1</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2020-004">Bypass lock protection in Android app (NC-SA-2020-004)</a> 2019-12-05</li>
