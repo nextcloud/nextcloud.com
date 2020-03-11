@@ -44,11 +44,15 @@
 .section--pressrelease {
   padding: 50px 0 50px; }
   .section--pressrelease h1 {
-    font-size: 40px;
+    font-size: 48px;
     margin-bottom: 0px; }
+  .section--pressrelease h2 {
+    font-size: 30px;
+    margin-top: 50px;
+    /* 		font-style: italic; */ }
   .section--pressrelease h3 {
     font-size: 20px;
-    margin-top: 0px;
+    margin-top: 20px;
     font-style: italic; }
   .section--pressrelease p {
     margin-top: 15px; }
