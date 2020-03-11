@@ -73,7 +73,7 @@
         </div>
 	</div>
 	<div class="row">
-	<p class="section--paragraph text-center"><!--<a class="hyperlink" href="<?php echo home_url('contributors') ?>"><?php echo $l->t('See the people behind Nextcloud!</a>');?>--><a href="https://nextcloud.com/blog/the-issue-with-public-cloud/" class="button button--blue button--arrow button--large"><?php echo $l->t('Our blog about public clouds');?></a></p>
+	<p class="section--paragraph text-center"><!--<a class="hyperlink" href="<?php echo home_url('contributors') ?>"><?php echo $l->t('See the people behind Nextcloud!</a>');?>--><a href="https://nextcloud.com/blog/the-issue-with-public-cloud/" class="button button--blue button--arrow button--large"><?php echo $l->t('Our blog about public clouds and SaaS');?></a></p>
 	</div>
 	<div class="row">
 	<div class="col-md-6">
