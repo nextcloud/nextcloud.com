@@ -20,7 +20,7 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p>The file is now delivered with a content-type of "application/octet-stream".</p>
+        <p>The error has been fixed.</p>
         <h3>Resolution</h3>
         <p>It is recommended that users upgrade to version 3.6.2.</p>
         <h3>Acknowledgements</h3>

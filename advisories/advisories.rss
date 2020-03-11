@@ -5,6 +5,24 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Desktop Client: Code injection in Nextcloud Desktop Client for macOS (NC-SA-2020-016)</title>
+  <description>A code injection in Nextcloud Desktop Client 2.6.2 for macOS allowed to load arbitrary code when starting the client with DYLD_INSERT_LIBRARIES set in the enviroment.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-016&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-016</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-016</guid>
+  <pubDate>Mon, 17 Feb 2020 01:00:00 +0100</pubDate>
+ </item><item>
+  <title>Server: Secure view shares can be downloaded by manipulating the URL (NC-SA-2020-015)</title>
+  <description>A missing access control check in Nextcloud Server 18.0.0 causes hide-download shares to be downloadable when appending /download to the URL.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-015&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-015</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-015</guid>
+  <pubDate>Fri, 07 Feb 2020 01:00:00 +0100</pubDate>
+ </item><item>
+  <title>Server: SSRF protection bypass in calendar subscriptions (NC-SA-2020-014)</title>
+  <description>A missing check for IPv4 nested inside IPv6 in Nextcloud server 17.0.1 allowed a SSRF when subscribing to a malicious calendar URL.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-014&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-014</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-014</guid>
+  <pubDate>Thu, 12 Dec 2019 01:00:00 +0100</pubDate>
+ </item><item>
   <title>Server: Event details leaked when sharing a non-public calendar event (NC-SA-2020-013)</title>
   <description>Improper preservation of permissions in Nextcloud Server 14.0.3 causes the event details to be leaked when sharing a non-public event.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-013&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-013</link>
