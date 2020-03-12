@@ -1,5 +1,5 @@
 <head>
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pressrelease.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pressrelease.css?v=1" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <meta itemprop="image" content="https://nextcloud.com/wp-content/themes/next/assets/img/history/Google_Trends_11_march_2016-2020.png">
@@ -74,6 +74,7 @@
 <li>RENATER deploying Nextcloud for French universities and research institutes: <a href="https://nextcloud.com/press/pr20191016">nextcloud.com/press</a></li>
 <li>Partnership with IONOS: <a href="https://nextcloud.com/press/pr20200117-1">nextcloud.com/press</a></li>
 <li>Announcement of Nextcloud Hub: <a href="https://nextcloud.com/press/pr20200117-2">nextcloud.com/press</a></li>
+<li>Blog and discussion about this press release: <a href="https://nextcloud.com/blog/nextcloud-doubles-order-intake-and-customer-base-remains-profitable-and-independent/">nextcloud.com/blog</a></li>
 </ul>
 
 <h2>Press contact:</h2>
