@@ -192,6 +192,6 @@ Our purpose here is to control the experience of Nextcloud business users. To be
 
 <h2>License for these Guidelines</h2>
 <p>These Guidelines are published under Version 3 of the Creative Commons Attribution Share-Alike License, and are derived in part from the openSUSE Trademark Guidelines (April 20, 2015), which in turn is derived in part from the OpenSolaris Trademark Policy 1.0 (May 5, 2008), the Ubuntu and Mozilla Trademark guidelines.</p>
-<p>We reserve the right to make changes to the guidelines at any time without notification. We last updated the guidelines on August 31 2019.</p>
+<p>We reserve the right to make changes to the guidelines at any time without notification. We last updated the guidelines on March 12 2020.</p>
 </div>
 </section>
