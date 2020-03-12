@@ -2,10 +2,10 @@
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pressrelease.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
-<meta itemprop="image" content="https://nextcloud.com/wp-content/themes/next/assets/img/customers/FMI-wide.png">
-<meta name="twitter:image" content="https://nextcloud.com/wp-content/themes/next/assets/img/customers/FMI-wide.png">
-<meta name="twitter:image:src" content="https://nextcloud.com/wp-content/themes/next/assets/img/customers/FMI-wide.png">
-<meta property="og:image" content="https://nextcloud.com/wp-content/themes/next/assets/img/customers/FMI-wide.png">
+<meta itemprop="image" content="https://nextcloud.com/wp-content/themes/next/assets/img/features/hub-video.png">
+<meta name="twitter:image" content="https://nextcloud.com/wp-content/themes/next/assets/img/features/hub-video.png">
+<meta name="twitter:image:src" content="https://nextcloud.com/wp-content/themes/next/assets/img/features/hub-video.png">
+<meta property="og:image" content="https://nextcloud.com/wp-content/themes/next/assets/img/features/hub-video.png">
 </head>
 <div class="background generic-background">
 	<div class="container">
