@@ -31,10 +31,6 @@ define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
 
 				consoleMessage: function() {
 					console.log('%c\nNextcloud, A safe home for all your data', 'font-size:20px');
-					console.log(
-						'%c',
-						'font-size: 100px; background: white url(' + window.location + 'wp-content/themes/next/assets/img/logo/logo_nextcloud_blue.png) no-repeat left bottom; background-repeat: no-repeat; background-size: 100px 64px;'
-					);
 				},
 
 				checkScrollPosition: function() {
