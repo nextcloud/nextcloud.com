@@ -118,12 +118,10 @@
 		<div class="col-md-6">
         <p class="section--paragraph__tittle"><?php echo $l->t('Why metadata and self hosting matter');?></p>
             <p class="section--paragraph"><?php echo $l->t('Metadata, often described as everything except the content of your communications, has less legal protections but can be incredibly revealing. From a list of who somebody talks to and when, much can be inferred!');?> <a class="hyperlink" href="https://ssd.eff.org/en/module/why-metadata-matters"><?php echo $l->t('The Electronic Frontier Foundation explains it well on their site.');?></a></p>
-            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">So turns out <a href="https://twitter.com/wire?ref_src=twsrc%5Etfw">@wire</a> changed ownership, didn&#39;t really notify anyone as per their own privacy policy, and worst of all it&#39;s to a US entity. It&#39;s been proven time after time we shouldn&#39;t place our data (or trust) into US entities. I used wire because it was different. Cc <a href="https://twitter.com/Snowden?ref_src=twsrc%5Etfw">@Snowden</a> <a href="https://t.co/i2cwAhMaTQ">https://t.co/i2cwAhMaTQ</a></p>&mdash; Peter Sunde Kolmisoppi (@brokep) <a href="https://twitter.com/brokep/status/1194392575442067456?ref_src=twsrc%5Etfw">November 12, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph"><?php echo $l->t('Of course, service providers might promise not to store and track such meta data, but governments will simply force them if need be. This was shown when log-free email provider Posteo was ordered to store logs of its customers by the German Constitutional Court.');?> <a href="https://www.zdnet.com/article/log-free-email-provider-posteo-you-must-log-user-ip-addresses-court-rules/" class="hyperlink"><?php echo $l->t('Read about this on ZDNet.');?></a></p>
-            <p class="section--paragraph"><?php echo $l->t('And that is not even mentioning the fact that even privacy-focused, Swiss-based companies can suddenly be sold to a foreign entity.');?></a></p>
-            <p class="section--paragraph"><?php echo $l->t('Like with the content of communication, the best way to protect metadata is to ensure it never leaks for your infrastructure in the first place.');?></a></p>
+            <p class="section--paragraph"><?php echo $l->t('And that is not even mentioning the fact that even privacy-focused companies can suddenly be sold to a foreign entity. Like with the content of communication, the best way to protect metadata is to ensure it never leaks for your infrastructure in the first place.');?></a></p>
         </div>
     </div>
 </div>
