@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/hub.css?v=1" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/hub.css?v=2" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/collaboration-small.jpg">
@@ -267,74 +267,6 @@
         </div>
     </div>
 </section>-->
-<!--
-
-<section class="section--overview">
-<div class="container">
-	<div class="row">
-		<div class="col-md-4">
-			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/mobile.svg" /></div>
-			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Easy access anywhere');?></h3>
-			<p class="section--paragraph text-center"><?php echo $l->t('A modern and easy-to-use web interface, desktop clients and mobile apps.');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('Real-time collaboration and instant access to all data from any device, anywhere!');?></p>
-		</div>
-		<div class="col-md-4">
-			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/permissions.svg" /></div>
-			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Ultimate security');?></h3>
-			<p class="section--paragraph text-center"><?php echo $l->t('An open source, self-hosted product. Powerful on-server and End-to-end Encryption.');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('Files are stored inside your company infrastructure, without any third party ever gaining access.');?></p>
-		</div>
-		<div class="col-md-4">
-			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/storage.svg" /></div>
-			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Deep integration');?></h3>
-			<p class="section--paragraph text-center"><?php echo $l->t('Access data from FTP, Windows Network Drive, SharePoint, NFS, Object storage and more.');?></p>
-			<p class="section--paragraph text-center"><?php echo $l->t('Simple deployment, configuration and integration lower costs and decrease risk while leveraging existing IT investments.');?></p>
-		</div>
-	</div>
-</div>
-</section>-->
-<!--
-<section class="section--about">
-<div class="container-fluid icon-background">
-        <div class="image">
-            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-hub-logos-white.svg" alt="in action"/>
-        </div>
-        <div class="text">
-            <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Hub');?></h3>
-            <p class="section--paragraph"><?php echo $l->t('');?></p>
-            <p class="section--paragraph"><?php echo $l->t('');?></p>
-            <a href="<?php echo home_url('install') ?>" class="button button--blue"><?php echo $l->t('Get started');?></a>
-        </div>
-
-</div>
-</section>-->
-
-<!--<section class="section--sovereignty ">
-<div class="container-fluid banner banner-image--issue">
-    <div class="container">
-        <div class="col-md-6 col-md-offset-6">
-			<h3 class="section--paragraph__title"><?php echo $l->t('Data sovereignty and SAAS');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('The main issue with solutions like Google Apps and Office 365 is <strong>data sovereignty.</strong>');?></p>
-			<p class="section--paragraph"><?php echo $l->t('To use these platforms, enterprises have to hand over their sensitive data to the vendor. This brings security and compliance risks.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('A wide range of work-arounds for this problem exist, from complicated key management solutions to external encryption tools. But despite the added costs and complexity they bring, the fundamental issue remains that one has to ultimately trust the vendor with their data.');?></p>
-        </div>
-    </div>
-</div>
-<div class="container-fluid banner-image--solution">
-    <div class="container">
-        <div class="col-md-6">
-            <h3 class="section--paragraph__title"><?php echo $l->t('The solution: on-premises');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('The vast majority of businesses has existing hosting and storage solutions in place, monitored and certified through the years. Building on this existing base using an on-premises solution gives a massive advantage in terms of quick deployment, compliance and security.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud has emerged as the most deployed solution in this space, delivering the widest range of integrated capabilities with the highest security standards.');?></p>
-            <p class=""><?php echo $l->t('Contact Nextcloud now to learn how we can help you.');?>
-			<a href="<?php echo home_url('buy') ?>" class="button button--small"><?php echo $l->t('Contact us');?></a></p>
-        </div>
-    </div>
-</div>
-</section>-->
-
-
-
 
 <?php require get_template_directory().'/onpremises.php';?>
 
