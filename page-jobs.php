@@ -24,7 +24,7 @@
 
 		<p class="">We are a modern, distributed, open source company. It is our mission to provide our users and customers with the means for data storage, access and communication under their control; protecting their privacy and security.</p>
 
-		<p>We pursue a fully-open strategy, keeping internal communication to a minimum while aiming to work, discuss and develop in public. We are a thriving, quickly growing company with a solid customer base. An open source background or experience contributing to Nextcloud is a big plus for job applicants! Expecially for developers we pursue a strong "hire from the community" strategy.</p>
+		<p>We pursue a fully-open strategy, keeping internal communication to a minimum while aiming to work, discuss and develop in public. We are a thriving, quickly growing company with a solid customer base. An open source background or experience contributing to Nextcloud is a big plus for job applicants! Especially for developers we pursue a strong "hire from the community" strategy.</p>
 		<p>Nextcloud actively strives for diversity and we'd like to especially encourage applications by people from underrepresented groups in tech.</p>
 	</div>
 </section>
@@ -169,7 +169,7 @@
 				<p>We are looking for somebody with ambition and drive who would like to grow and learn. That means that if you don't fulfill the requirements yet but want to learn, apply! Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
 			</div>
 
-            <a href="#marketing" data-toggle="collapse"><h3 class="jobs">Marketing and event manager<span class="icon-arrow"></span></h3></a>
+            <!--<a href="#marketing" data-toggle="collapse"><h3 class="jobs">Marketing and event manager<span class="icon-arrow"></span></h3></a>
 			<div id="marketing" class="collapse">
 				<p>Our marketing team is looking for a new member: you would support and strengthen our marketing, helping us design website pages, flyers and other promotional materials as well as organize our attendance to events or our yearly conference. We are a small team so we also share work writing blogs, answering questions on social media, preparing announcements and more. We're looking for somebody with some adobe tools experience, who is organized and willing to learn and try new things!</p>
 				<h3 class="section--paragraph__title">Responsibilities:</h3>
@@ -200,7 +200,7 @@
 					<li>We are flexible and open for part time work or somebody with a different background looking for a career switch! If you are unsure if you're a good fit - just apply and we'll figure it out together.</li>
 				</ul>
 				<p>We are looking for somebody who wants to make a difference. We strive to provide the freedom and space so you can! German speaking, some design experience and being a generally organized person are important for this job, but besides that, if you're willing to try new things, you are an ideal candidate! We especially encourage applications by people from underrepresented groups. Contact us at <a href="mailto:jobs@nextcloud.com">jobs@nextcloud.com</a> with your resume if you are interested in this role.</p>
-			</div>
+			</div>-->
 
 
             <a href="#jsdev" data-toggle="collapse"><h3 class="jobs">Javascript Developer<span class="icon-arrow"></span></h3></a>
