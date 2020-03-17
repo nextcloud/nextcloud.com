@@ -16,7 +16,7 @@
         <p>A code injection in Nextcloud Desktop Client 2.6.2 for macOS allowed to load arbitrary code when starting the client with DYLD_INSERT_LIBRARIES set in the enviroment.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Desktop &lt; <strong>2.6.3</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Desktop &lt; <strong>2.6.3</strong> (CVE-2020-8140)</li>
 
         </ul>
         <h3>Action Taken</h3>
