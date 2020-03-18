@@ -17,7 +17,7 @@
 	<li><a href="/security/advisory/?id=NC-SA-2020-015">Secure view shares can be downloaded by manipulating the URL (NC-SA-2020-015)</a> 2020-02-07</li>
 </ul>
 
-<h3>Nextcloud Server 16.0.10</h3>
+<h3>Nextcloud Server 16.0.9</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2020-015">Secure view shares can be downloaded by manipulating the URL (NC-SA-2020-015)</a> 2020-02-07</li>
 </ul>
@@ -86,6 +86,11 @@
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2020-011">Name of private conversations leaked when linked via projects to a shared item (NC-SA-2020-011)</a> 2019-07-29</li>
 	<li><a href="/security/advisory/?id=NC-SA-2020-009">Improper neutralization of item names in projects feature (NC-SA-2020-009)</a> 2019-07-29</li>
+</ul>
+
+<h3>Groupfolders App 4.0.4</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-017">Renaming an item to a protected hidden folder deletes the target (NC-SA-2020-017)</a> 2019-07-15</li>
 </ul>
 
 <h3>Nextcloud Server 16.0.2</h3>

@@ -16,9 +16,9 @@
         <p>A missing check for IPv4 nested inside IPv6 in Nextcloud server 17.0.1 allowed a SSRF when subscribing to a malicious calendar URL.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>17.0.2</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>16.0.7</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>15.0.14</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>17.0.2</strong> (CVE-2020-8138)</li>
+<li>Nextcloud Server &lt; <strong>16.0.7</strong> (CVE-2020-8138)</li>
+<li>Nextcloud Server &lt; <strong>15.0.14</strong> (CVE-2020-8138)</li>
 
         </ul>
         <h3>Action Taken</h3>
