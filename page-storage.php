@@ -82,6 +82,22 @@
 </div>
 </section>
 
+<div class="separator"></div>
+<section class="section--customerdetail">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-6 image--floated">
+                <a><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/ibm-spectrum-scale.png" alt="IBM Spectrum Scale logo"/></a>
+            </div>
+            <div class="col-md-6  feature--block">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Consistent file system view with Nextcloud and IBM Spectrum Scale');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('A collaboration between Nextcloud and IBM has made the leading large scale file storage and leading content collaboration platform a perfect match for storing, sharing and working with large volumes of data. A integration tool developed with IBM for the German particle accellerator DESY and the University of Augsburg receives Spectrum Scale Watch events every time a file is changed in the Spectrum Scale file system.');?></p>
+                <a href="https://nextcloud.com/blog/consistent-file-system-view-with-nextcloud-and-ibm-spectrum-scale/" class="button button--blue button--arrow button--large"><?php echo $l->t('Announcement blog');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section--whitepaper quote">
 	<div class="container">
         <div class="row">

@@ -286,41 +286,47 @@
 				<p  class="partnertext">HostBill is a powerful and flexible, all-in-one automation, billing, client management and support platform for online businesses. It handles all aspects of running a successful hosting business, integrating with countless control panels, domain registrars and other tools, including Nextcloud.</p>
 			</div>
 			<div class="col-md-4">
+				<a href="http://ibm.com" target="_blank" title="IBM">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/ibm.png" title="IBM" />
+				</a>
+				<p class="partnertext">IBM offers a wide range of digital solutions and consulting. Nextcloud and IBM work together in various areas including support for the IBM Spectrum Scale file system.</p>
+			</div>
+			<div class="col-md-4">
 				<a href="http://nitrokey.com" target="_blank" title="Nitrokey">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/nitrokey.png" title="Nitrokey" />
 				</a>
 				<p class="partnertext">Nitrokey is a German developer of hardware security keys. Their hardware is open source, enabling users to verify its security themselves. Nextcloud and Nitrokey work together on secure and easy authentication solutions around open standards.</p>
 			</div>
+        </div>
+
+        <div class="row">
 			<div class="col-md-4">
 				<a href="http://www.onlyoffice.com" target="_blank" title="ONLYOFFICE">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/onlyoffice.png" title="ONLYOFFICE" />
 				</a>
 				<p class="partnertext">Ascensio System SIA develops ONLYOFFICE, a powerful office suite that comprises online editors for text documents, spreadsheets and presentations highly compatible with Microsoft Office, OpenDocument and all other popular file formats.</p>
 			</div>
-        </div>
-		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.openinventionnetwork.com" target="_blank" title="OIN">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/oin.png" title="OIN" />
 				</a>
 				<p  class="partnertext">The Open Invention Network is a shared defensive patent pool with the mission to protect Linux.  Launched in 2005, OIN has strong industry support with backing from Google, IBM, NEC, Philips, Red Hat, Sony, SUSE, and Toyota.  Any company, project or developer that is working on Linux, GNU, Android or any other Linux-related software is welcome to join OIN, free of charge or royalties.</p>
 			</div>
-
 			<div class="col-md-4">
 				<a href="https://osb-alliance.com" target="_blank" title="Open Source Business Alliance">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/osballiance.png" title="The Open Source Business Alliance" />
 				</a>
 				<p  class="partnertext">The German language focused OSB Alliance is a collaboration of IT providers who want to push Open Source Software forward. As member Nextcloud GmbH helps push interoperability and open standards forward in the open cloud.</p>
 			</div>
+		</div>
+
+		<div class="row">
             <div class="col-md-4">
 				<a href="https://redhat.com" target="_blank" title="Red Hat Partnership">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/redhat.png" title="Red Hat Partnership" />
 				</a>
 				<p  class="partnertext">Red Hat is the world's leading provider of reliable and high-performing open source cloud, Linux, middleware, storage and virtualization technologies. As Red Hat Advanced Business Partner, Nextcloud offers integrated solutions to its customers.</p>
 			</div>
-		</div>
-
-		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.twsweb.it/" target="_blank" title="TWS">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/tws.png" title="TWS" />
@@ -333,6 +339,9 @@
 				</a>
 				<p  class="partnertext"><a href="http://wdlabs.wd.com/">WDLabs™</a> is a business growth incubator of storage solutions leader <a href="http://www.wdc.com/en/">Western Digital Corporation</a> (NASDAQ:WDC). We work with Western Digital Labs on the <a href="/box">Nextcloud Box project</a> to create a device that makes it easier for people to self-host their data.</p>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.moodle.com/" target="_blank" title="Moodle">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/moodle.png" title="Moodle" />
