@@ -1,16 +1,12 @@
 @import '../variables';
 @import '../modules/transparent-navbar';
 
-.sharing-background {
-  background: url('../../img/headers/sharing.jpg') no-repeat;
+.permissions-background {
+  background: url('../../img/headers/collaboration6.jpg') no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-
-.section--federation {
-	padding-top: 80px;
-}
 
 section {
 	padding: 100px 0;
@@ -35,7 +31,6 @@ section {
         }
     }
 }
-
 
 .section--appstore {
     padding-bottom: 0;

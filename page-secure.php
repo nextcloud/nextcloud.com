@@ -131,8 +131,8 @@
                                 <?php echo file_get_contents(get_template_directory()."/assets/img/icons/permissions.svg"); ?>
                             </div>
                             <p class="section--paragraph"><?php echo $l->t('Administrators can set permissions on sharing and access to files using groups. Permissions of underlying storage, like Windows Network Drive access rights, are respected by Nextcloud');?></p>
-                            <p class="section--paragraph"><?php echo $l->t('Sharing can be protected by passwords, expiration dates, hiding of existing files, blocking downloads and the enforcing of a video call before access is granted (Video Verification).');?></p>
-                            <a href="<?php echo home_url('sharing') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Sharing permissions');?></a>
+                            <p class="section--paragraph"><?php echo $l->t('Sharing can be protected by passwords, expiration dates, hiding of existing files, blocking downloads and the enforcing of a video call before access is granted (Video Verification). There is also support for ACLs on team folders.');?></p>
+                            <a href="<?php echo home_url('permissions') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Sharing permissions');?></a>
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="control-tab3">

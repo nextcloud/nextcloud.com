@@ -189,7 +189,7 @@
     <h2>Your advantages</h2>
         <div class="col-md-12">
             <h3>No new data silos</h3>
-            <p class="section--paragraph">Modern organizations have data in a wide variety of silos like Sharepoint, Windows Network Drives, FTP sites and (often without knowledge of management) Dropbox or Google Drive. Nextcloud acts as a <a class="hyperlink" href="/storage">single file access, sync and share layer</a> across all these storage systems, integrating with enterprise native account handling like LDAP or SAML.</p>
+            <p class="section--paragraph">Modern organizations have data in a wide variety of silos like Sharepoint, Windows Network Drives, FTP sites and (often without knowledge of management) Dropbox or Google Drive. Nextcloud acts as a <a class="hyperlink" href="<?php echo home_url('storage') ?>">single file access, sync and share layer</a> across all these storage systems, integrating with enterprise native account handling like LDAP or SAML.</p>
             <p class="section--paragraph">That does not exclude using public cloud, nor requires you to give up on data locality. Nextcloud fits perfectly in a hybrid cloud strategy, enabling access to data on Amazon S3 and other public storage technologies. Even cutting-edge Blockchain storage technologies like <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-joins-storj-labs-to-deliver-decentralized-secure-storage/">Storj.io</a> and Sia.tech are available to augment storage at extremely low cost.</p>
 		</div>
     </div>
@@ -203,7 +203,7 @@
         </div>
 	    <div class="col-md-8">
             <h3>Under IT's control</h3>
-            <p class="section--paragraph">No matter the storage solution used, Nextcloud can <a class="hyperlink" href="<?php echo home_url('workflow') ?>">ensure corporate policies are followed.</a> Sharing can be restricted through the file firewall, filtering on user properties like location or group, or file properties like (automatically or manually) assigned tags, file type and more. With storage transparent to users, generic data can remain where it is while IT can make sure that business critical or compliance-relevant information is stored on internal infrastructure and does not leave the company. Use our secure <a href="<?php echo home_url('secure-drop') ?>">File Drop</a> to let customers upload files to you in a easy and secure way!</p>
+            <p class="section--paragraph">No matter the storage solution used, Nextcloud can <a class="hyperlink" href="<?php echo home_url('workflow') ?>">ensure corporate policies are followed.</a> Sharing can be restricted through the file firewall, filtering on user properties like location or group, or file properties like (automatically or manually) assigned tags, file type and more. Extensive sharing permissions and restrictions are available, as are <a class="hyperlink" href="<?php echo home_url('permissions') ?>">Access Control Lists</a> for shared folder structures. With storage transparent to users, generic data can remain where it is while IT can make sure that business critical or compliance-relevant information is stored on internal infrastructure and does not leave the company. Use our secure <a href="<?php echo home_url('file-drop') ?>">File Drop</a> to let customers upload files to you in a easy and secure way!</p>
    		</div>
     </div>
 </div>

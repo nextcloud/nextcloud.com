@@ -101,7 +101,7 @@ require(["require.config"], function() {
                     <li><?php echo $l->t('Attach notes to a share, either to a Nextcloud user or to a public link');?></li>
                     <li><?php echo $l->t('Share directly to users on other Nextcloud, ownCloud or Pydio servers (see below:');?> <a class="hyperlink" href="#federation">federation</a>)</li>
                     <li><?php echo $l->t('Choose to automatically accept all incoming shares, or choose to accept them on a case by case basis');?></li>
-                    <li><?php echo $l->t('Extensive Virtual Data Room restrictions like watermarking, ability to limit documents to filling in forms or blocking download or printing, are available. Learn more on our Virtual Data Room page.');?>
+                    <li><?php echo $l->t('Basic Virtual Data Room restrictions like watermarking, ability to limit documents to filling in forms or blocking download or printing, are available. Learn more on our Virtual Data Room page.');?>
                     <a class="button button--blue" href="<?php echo home_url('virtual-data-room') ?>"><?php echo $l->t('Virtual Data Rooms');?></a></li>
                 </ul>
             </div>
@@ -120,6 +120,7 @@ require(["require.config"], function() {
                     <li><?php echo $l->t('Ultimate protection for email shares with Video Verification');?></li>
                 </ul>
                 <p class="section--paragraph"><?php echo $l->t('Admins can control all these abilities, add trusted Federation servers and more');?></p>
+                <a class="button button--blue" href="<?php echo home_url('permissions') ?>"><?php echo $l->t('Permissions');?></a>
             </div>
         </div>
         <div id="videoverificationScroll"></div>
