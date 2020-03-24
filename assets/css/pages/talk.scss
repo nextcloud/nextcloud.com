@@ -2,11 +2,14 @@
 @import '../modules/transparent-navbar';
 
 
-.talk-background {
-  background: url('../../img/headers/talk.jpg') no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 50px
+
+.talk-hero-section {
+    background-image: url('../../img/headers/talk.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+
 }
 
 section {
@@ -53,7 +56,7 @@ section {
 	i[class*='fa-'] {
 		font-size: 40px;
 		display: block;
-		color: #0082c9;
+		color: $nextcloud-blue;
 		text-align: center;
 		vertical-align: center;
 		padding-top: 20%;
@@ -63,8 +66,8 @@ section {
     .icon {
             max-width: 120px;
             @media (max-width: $break-small) {
-                margin-left:auto;
-                margin-right:auto;
+                margin-left: auto;
+                margin-right :auto;
             }
     }
     .scaling-svg-container {
@@ -107,7 +110,7 @@ section {
 	}
 	li {
 		list-style-image: url("../../img/enterprise/check.svg");
-		list-style-position:inside;
+		list-style-position: inside;
 	}
 }
 

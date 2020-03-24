@@ -2,6 +2,11 @@
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/talk.css?v=4" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+<script>
+	require(["require.config"], function() {
+		require(["modules/submenu"])
+	});
+</script>
 
 <meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-video.png">
 <meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-video.png">
@@ -10,16 +15,22 @@
 <meta name=”Description” content="You need confidential communication? Find out how Talk is your solution!">
 
 </head>
-<div class="background talk-background">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 topheader">
+
+<section class="talk-hero-section background second-menu">
+    <div class="container background">
+        <div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Nextcloud Talk');?></h1>
 				<h2><?php echo $l->t('Screensharing, online meetings & web conferencing without data leaks.');?></p>
-			</div>
+        </div>
+    </div>
+	<div class="container-fluid menu" id="menuAnchor">
+		<div class="container buttons">
+			<a class="button button--blue" href="#pricing"><?php echo $l->t('pricing');?></a>
+			<a class="button button--blue" href="#scalability"><?php echo $l->t('scalability');?></a>
+			<a class="button button--blue" href="#features"><?php echo $l->t('features');?></a>
 		</div>
 	</div>
-</div>
+</section>
 
 <section class="section--intro">
 	<div class="container">
@@ -35,6 +46,7 @@
                 <p class="section--paragraph text-center"><span class="avoidwrap"><?php echo $l->t('Keep conversations private with Nextcloud Talk.');?></span></p>
                 <div class="text-center">
                     <!--<a href="install/#install-clients" class="button button--blue button--arrow button--large"><?php echo $l->t('Download now');?></a>-->
+                    <!-- <?php echo home_url('pricing') ?>-->
                 </div>
 			</div>
 		</div>
@@ -130,6 +142,7 @@
 
 
 <section class="section--features">
+<a name="features" id="features"></a>
 <div class="container-fluid quote">
     <div class="container">
         <h2 class="text-center"><?php echo $l->t('Key capabilities');?></h2>
@@ -164,7 +177,7 @@
         <div class="row">
             <p class="section--paragraph text-center"><?php echo $l->t('* with optional Nextcloud Talk High Performance Backend');?></p>
             <p class="section--paragraph text-center"><?php echo $l->t('starting at Eur 4000/USD 4500');?></p>
-            <p class="section--paragraph text-center"><a class="button button--medium" href="#pricing"><?php echo $l->t('Learn more');?></a></p>
+            <p class="section--paragraph text-center"><a class="button button--medium" href="#hpb"><?php echo $l->t('Learn more');?></a></p>
         </div>
     </div>
 </div>
@@ -363,8 +376,48 @@
     </div>
 </section>
 
+<section class="section--scalability">
+<a name="scalability" id="scalability"></a>
+<div class="container">
+	<div class="row">
+	<h1 class="text-center"><?php echo $l->t('Scalability');?></h1>
+		<div class="col-md-6 image--floated">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-P2P.svg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-P2P.svg" class="img-responsive" /></a>
+		</div>
+		<div class="col-md-6">
+			<p class="section--paragraph__tittle"><?php echo $l->t('Easy for private use');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is designed for easy installation and operation. Nextcloud hosts a STUN server to facilitate usage behind firewalls and we recommend the installation of a local TURN server to improve connectivity further.');?> <a class="hyperlink" href="https://help.nextcloud.com/t/howto-setup-nextcloud-talk-with-turn-server/30794)"><?php echo $l->t('Find documentation on installing a TURN server here.');?></a></p>
+			<p class="section--paragraph"><?php echo $l->t('The peer to peer nature of Talk does inflate network traffic, creating one incoming and sending stream per other participant. This places practical limitations on calls that depend on network capabilities. A typical private Nextcloud Talk setup should handle dozens of calls with each up to 4-6 participants.');?></p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-SFU.svg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-SFU.svg" class="img-responsive" /></a>
+		</div>
+		<div class="col-md-6">
+			<p class="section--paragraph__tittle"><?php echo $l->t('Scaling in enterprise setup');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud automatically mutes audio and video when entering a call in chat rooms with more than 5 members. Only when a user actively enables audio and video will a stream be send. Sending audio and video is the biggest limiting factor, with most asymetric internet connections bottlenecked on upstream bandwidth.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The High Performance Back-end offered by Nextcloud partner Struktur includes a Selective Forward Unit (SFU) which solves this bottleneck by receiving one stream from each user and forwarding it as needed. This allows scaling a single call to about 30-50 active participants.');?></p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 image--floated">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
+		</div>
+		<div class="col-md-6">
+			<p class="section--paragraph__tittle"><?php echo $l->t('Scaling further: webinars, school classes');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Webinars and other large scale broadcasting type calls are possible with hundreds of participants. The High Performance Back-end setup includes special features for this.');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('High Performance Back-end');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The HPB also lowers the load from calls on the Nextcloud server, taking care of \'signaling\' and enables connecting a SIP gate so users can dial in by phone into calls.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The HPB runs on-premises, like Nextcloud itself. It comes with dedicated bandwidth and processing needs and is available through Nextcloud GmbH.');?></p>
+		</div>
+	</div>
+</div>
+</section>
+
+
 <section class="section--options">
-	<a name="pricing" id="pricing"></a>
+<a name="hpb" id="hpb"></a>
 <div class="container-widest">
 	<div class="row introduction">
         <div class="col-lg-6 col-lg-offset-3">
@@ -408,6 +461,7 @@
 </section>
 
 <section class="section--contact quote">
+<a name="pricing" id="pricing"></a>
 <div class="container">
     <div class="row">
         <h2 class="text-center"><?php echo $l->t('Pricing');?></h2>

@@ -5387,7 +5387,8 @@ footer.page-footer {
   will-change: transform;
   transition: transform 500ms ease;
   transform: translate3d(0px, 0px, 0px);
-  opacity: 0; }
+  opacity: 0;
+  margin-top: -100px; }
   .second-menu .menu.hidedPrincipalNavigation {
     transform: translate3d(0px, -100px, 0px); }
   .second-menu .menu .buttons {
@@ -5450,6 +5451,9 @@ footer.page-footer {
         text-decoration: none; }
       .second-menu .menu .buttons .button--blue:before {
         background: none; }
+    .second-menu .menu .buttons .button.button--blue.active {
+      background-color: white !important;
+      border: 1px solid #0082c9; }
 
 .background {
   padding-bottom: 0;

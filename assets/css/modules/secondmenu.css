@@ -1,6 +1,29 @@
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
 .second-menu .menu {
   background: #fbfbfb;
   border-top: solid 1px #e4e4e4;
@@ -11,7 +34,8 @@
   will-change: transform;
   transition: transform 500ms ease;
   transform: translate3d(0px, 0px, 0px);
-  opacity: 0; }
+  opacity: 0;
+  margin-top: -100px; }
   .second-menu .menu.hidedPrincipalNavigation {
     transform: translate3d(0px, -100px, 0px); }
   .second-menu .menu .buttons {
@@ -66,7 +90,7 @@
       /* 				margin-top: -5px; */
       color: white;
       height: 40px;
-      line-height: 40px; }
+      line-height: 50px; }
       @media (max-width: 768px) {
         .second-menu .menu .buttons .button--blue {
           margin-top: 10px; } }
@@ -74,5 +98,8 @@
         text-decoration: none; }
       .second-menu .menu .buttons .button--blue:before {
         background: none; }
+    .second-menu .menu .buttons .button.button--blue.active {
+      background-color: white;
+      border: 1px solid #0082c9; }
 
 /*# sourceMappingURL=secondmenu.css.map */

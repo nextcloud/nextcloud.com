@@ -12,9 +12,9 @@
     	transition: transform 500ms ease;
     	transform: translate3d(0px, 0px, 0px);
     	opacity: 0;
+        margin-top: -100px;
 
-
-	    &.hidedPrincipalNavigation {
+        &.hidedPrincipalNavigation {
 	    	transform: translate3d(0px, -100px, 0px);
 	    }
 
@@ -83,6 +83,7 @@
 					background: none;
 				}
 			}
+
 			.button--blue {
 				float: right;
 				font-size: 14px;
@@ -106,6 +107,10 @@
 					background: none;
 				}
 			}
+            .button.button--blue.active {
+                background-color: white;
+                border: 1px solid $nextcloud-blue;
+            }
 		}
 	}
 }

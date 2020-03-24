@@ -29,11 +29,12 @@
   background-color: transparent;
   position: absolute; }
 
-.talk-background {
-  background: url("../../img/headers/talk.jpg") no-repeat;
+.talk-hero-section {
+  background-image: url("../../img/headers/talk.jpg");
   background-position: center;
   background-size: cover;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  padding-bottom: 0px; }
 
 section {
   padding: 50px 0; }
