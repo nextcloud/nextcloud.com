@@ -31,7 +31,7 @@
     </ul>
 
     <a name="latest18"></a>
-<h3 id="18-0-3">Version 18.0.3 <small>March 13 2020</small></h3>
+<h3 id="18-0-3">Version 18.0.3 <small>March 23 2020</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.3.tar.bz2">nextcloud-18.0.3.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.3.zip">nextcloud-18.0.3.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.3.tar.bz2.md5">nextcloud-18.0.3.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.3.zip.md5">nextcloud-18.0.3.zip.md5</a></br>
@@ -216,7 +216,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
     <a name="latest17"></a>
 
-<h3 id="17-0-5">Version 17.0.5 <small>March 13 2020</small></h3>
+<h3 id="17-0-5">Version 17.0.5 <small>March 23 2020</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.5.tar.bz2">nextcloud-17.0.5.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.5.zip">nextcloud-17.0.5.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.5.tar.bz2.md5">nextcloud-17.0.5.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.5.zip.md5">nextcloud-17.0.5.zip.md5</a></br>
