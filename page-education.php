@@ -176,23 +176,6 @@ require(["require.config"], function() {
             <p class="section--paragraph "><?php echo $l->t('The Moodle integration offers users the ability to access files from Nextcloud, adding, removing or sharing them from within Moodle. More features are in development through a collaboration between Moodle Pty Ltd and Nextcloud GmbH.');?></p>
         </div>
         <div class="col-sm-4 app-feature">
-            <img class="img-responsive " src="<?php bloginfo('template_directory'); ?>/assets/img/features/zenodo-nw.png" />
-            <h2 class="section--heading-2 text-center ">Zenodo</h2>
-            <p class="section--paragraph "><?php echo $l->t('The Zenodo Publishing app enables researchers to publish papers on the popular Zenodo.org platform, developed and supported by European Science Accellerators CERN.');?></p>
-        </div>
-        <div class="col-sm-4 app-feature">
-            <img class="img-responsive " src="<?php bloginfo('template_directory'); ?>/assets/img/features/orcid-nw.png" />
-            <h2 class="section--heading-2 text-center ">SAML</h2>
-            <p class="section--paragraph "><?php echo $l->t('Educational organizations often use SAML, Shibboleth and Kerberos. These and more authentication mechanisms are available in the Education Edition.');?></p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-4 app-feature">
-            <img class="img-responsive " src="<?php bloginfo('template_directory'); ?>/assets/img/features/circles-nw.png" />
-            <h2 class="section--heading-2 text-center ">Circles</h2>
-            <p class="section--paragraph "><?php echo $l->t('Developed for DeiC, the collective of Danish universities, Circles facilitates the collaboration in always-changing groups that students and teachers participate in.');?></p>
-        </div>
-        <div class="col-sm-4 app-feature">
             <img class="img-responsive " src="<?php bloginfo('template_directory'); ?>/assets/img/features/dashboard-nw.png" />
             <h2 class="section--heading-2 text-center ">Dashboard</h2>
             <p class="section--paragraph "><?php echo $l->t('The Dashboard app came from a collaboration with regio iT and is used at hundreds of schools in Europe. It provides a quick overview of file changes, calendar events and more.');?></p>
