@@ -386,7 +386,7 @@
 		</div>
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Easy for private use');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is designed for easy installation and operation. Nextcloud hosts a STUN server to facilitate usage behind firewalls and we recommend the installation of a local TURN server to improve connectivity further. Note that calls get fully routed through a TURN server, causing a lot of network traffic.');?> <a class="hyperlink" href="https://help.nextcloud.com/t/howto-setup-nextcloud-talk-with-turn-server/30794"><?php echo $l->t('Find documentation on installing a TURN server here.');?></a></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is designed for easy installation and operation. Nextcloud hosts a STUN server to facilitate usage behind firewalls and we recommend the installation of a local TURN server to improve connectivity further. Note that calls get fully routed through a TURN server, causing a lot of network traffic.');?> <a class="hyperlink" href="https://nextcloud-talk.readthedocs.io/en/latest/TURN/"><?php echo $l->t('Find documentation on installing a TURN server here.');?></a></p>
 			<p class="section--paragraph"><?php echo $l->t('The peer to peer nature of Talk does inflate network traffic, creating one incoming and sending stream per other participant. This places practical limitations on calls that depend on network capabilities. A typical private Nextcloud Talk setup should handle dozens of calls with each up to 4-6 participants, more if all participants have a good network connection.');?></p>
 		</div>
 	</div>
