@@ -8,10 +8,10 @@
 // });
 </script>
 
-<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/ibm-spectrum-scalepng">
-<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/ibm-spectrum-scale.png">
-<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/ibm-spectrum-scale.png">
-<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/ibm-spectrum-scale.png">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/ibm-spectrum-scalepng">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/ibm-spectrum-scale.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/ibm-spectrum-scale.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/ibm-spectrum-scale.png">
 </head>
 
 <div class="background ibm-background">

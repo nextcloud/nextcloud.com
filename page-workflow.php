@@ -3,10 +3,10 @@
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/workflow.css?v=1" rel="stylesheet">
 <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
-<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png">
-<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png">
-<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png">
-<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/flow-as-user.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/flow-as-user.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/flow-as-user.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/flow-as-user.png">
 </head>
 
 <div class="background workflow-background">

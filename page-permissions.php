@@ -8,10 +8,10 @@ require(["require.config"], function() {
 });
 </script>
 
-<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing.png">
-<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing.png">
-<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing.png">
-<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/sharing.png">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/sharing.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/sharing.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/sharing.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/sharing.png">
 </head>
 
 <div class="background permissions-background">

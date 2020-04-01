@@ -1,9 +1,9 @@
 <head>
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/appdev.css?v=2" rel="stylesheet">
-    <meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Nextcloudapps.png">
-    <meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Nextcloudapps.png">
-    <meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Nextcloudapps.png">
-    <meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Nextcloudapps.png">
+    <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/Nextcloudapps.png">
+    <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/Nextcloudapps.png">
+    <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/Nextcloudapps.png">
+    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/Nextcloudapps.png">
     <meta name=”Description” content="Develop for Nextcloud! Write a new app, extend Nextcloud or integrate other software.">
 
 <script>

@@ -16,10 +16,10 @@ require(["require.config"], function() {
 });
 </script>
 
-<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Files_Comments.png">
-<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Files_Comments.png">
-<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Files_Comments.png">
-<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Files_Comments.png">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/Files_Comments.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/Files_Comments.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/Files_Comments.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/Files_Comments.png">
 </head>
 
 <div class="background sharing-background">

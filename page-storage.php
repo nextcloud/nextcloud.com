@@ -7,10 +7,10 @@
         grecaptcha.render('RecaptchaField2', {'sitekey' : '<?php echo RECAPTCHA_SITEKEY; ?>'});
     };
 </script>-->
-<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png">
-<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png">
-<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png">
-<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/externalstorage.png">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/externalstorage.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/externalstorage.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/externalstorage.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/externalstorage.png">
 </head>
 <div class="background storage-background">
 	<div class="container">

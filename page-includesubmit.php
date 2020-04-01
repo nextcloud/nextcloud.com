@@ -1,10 +1,10 @@
 <head>
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/include.css">
 
-<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/include.png">
-<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/include.png">
-<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/include.png">
-<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/include.png">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/include.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/include.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/include.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/include.png">
 </head>
 
 <div class="background include-background">
