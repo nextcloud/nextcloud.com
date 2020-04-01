@@ -54,6 +54,13 @@
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
 					<li class="check" title="<?php echo $l->t('The AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
 				</div>
+				<h1 class="header">Nextcloud modules available</h1>
+				<div class="line"></div>
+				<div class="list">
+					<li class="check" title="<?php echo $l->t('Makes it easy to sync, share and collaborate on your files');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://nextcloud.com/files/">Nextcloud Files</a>');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Secure online meetings, chat and web conferencing');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-talk">Nextcloud Talk</a>');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Team planning and email made easy');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-groupware">Nextcloud Groupware</a>');?></li>
+				</div>
 				<h1 class="header"><?php echo $l->t('Benefits');?></h1>
 				<div class="line"></div>
 				<div class="list">
@@ -105,6 +112,13 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
 					<li class="check" title="<?php echo $l->t('The AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
 				</div>
+				<h1 class="header">Nextcloud modules available</h1>
+				<div class="line"></div>
+				<div class="list">
+					<li class="check" title="<?php echo $l->t('Makes it easy to sync, share and collaborate on your files');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://nextcloud.com/files/">Nextcloud Files</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Secure online meetings, chat and web conferencing');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-talk">Nextcloud Talk</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Team planning and email made easy');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-groupware">Nextcloud Groupware</a>');?></li>
+				</div>
 				<h1 class="header"><?php echo $l->t('Benefits');?></h1>
 				<div class="line"></div>
 				<div class="list">
@@ -155,6 +169,13 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 					<li class="check" title="<?php echo $l->t('Nextcloud-branded iOS, Android and desktop apps are free. Branding optional.');?>" rel="tooltip"><?php echo $l->t('Mobile and desktop clients');?></li>
 					<li class="check" title="<?php echo $l->t('Powerful enterprise features like SAML authentication, Windows Network Drive support, password policies, audit-ready logging, workflow handling and more.');?>" rel="tooltip"><?php echo $l->t('Enterprise capabilities');?></li>
 					<li class="check" title="<?php echo $l->t('The AGPL license provides legal certainty for all customers and users.');?>" rel="tooltip"><?php echo $l->t('Fully Open Source');?></li>
+				</div>
+				<h1 class="header">Nextcloud modules available</h1>
+				<div class="line"></div>
+				<div class="list">
+					<li class="check" title="<?php echo $l->t('Makes it easy to sync, share and collaborate on your files');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://nextcloud.com/files/">Nextcloud Files</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Secure online meetings, chat and web conferencing');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-talk">Nextcloud Talk</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Team planning and email made easy');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-groupware">Nextcloud Groupware</a>');?></li>
 				</div>
 				<h1 class="header"><?php echo $l->t('Benefits');?></h1>
 				<div class="line"></div>
@@ -290,7 +311,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
             </div>
         </div>
     <div class="row">
-        <div class="col-md-5 col-md-offset-1 ">
+        <div class="col-md-5 col-md-offset-1 " id="featureblock-talk">
 			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png" /></a>
 			<div class="row text-center"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Talk');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('secure online meetings, chat and web conferencing');?></p></div>
@@ -298,7 +319,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
                 <a href="<?php echo home_url('talk') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
 		</div>
-		<div class="col-md-5 ">
+		<div class="col-md-5 " id="featureblock-groupware">
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png" class="img-responsive" />
 			<div class="row text-center"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Groupware');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Team planning and email made easy');?></p></div>
