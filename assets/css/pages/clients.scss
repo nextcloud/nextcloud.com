@@ -35,7 +35,7 @@ section {
 
 .section--mobile, .section--ios {
 	.container {
-		.row {
+		.row.vertical-image-list {
 			overflow: hidden;
 			img {
 				margin: 30px auto;
