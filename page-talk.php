@@ -333,9 +333,10 @@
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Secure and private');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Calls are end-to-end encrypted so no communication can be intercepted.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Calls are end-to-end encrypted so no communication can be intercepted.');?>*</p>
             <p class="section--paragraph"><?php echo $l->t('Chat logs are stored securely on your own server.');?></p>
             <p class="section--paragraph"><?php echo $l->t('The privacy of communication and its metadata is guaranteed by self-hosting Nextcloud Talk!');?></p>
+            <p class="section--paragraph"><small>* <?php echo $l->t('Individual and group calls are 100% end to end encrypted without the High-performance Backend. When the HPB is used, all calls are routed through it. The HPB is self-hosted as well so no data leaks outside the server.');?></small></p>
 		</div>
 	</div>
     <div class="row">
@@ -387,7 +388,8 @@
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Easy for private use');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is designed for easy installation and operation. Nextcloud hosts a STUN server to facilitate usage behind firewalls and we recommend the installation of a local TURN server to improve connectivity further. Note that calls get fully routed through a TURN server, causing a lot of network traffic.');?> <a class="hyperlink" href="https://nextcloud-talk.readthedocs.io/en/latest/TURN/"><?php echo $l->t('Find documentation on installing a TURN server here.');?></a></p>
-			<p class="section--paragraph"><?php echo $l->t('The peer to peer nature of Talk does inflate network traffic, creating one incoming and sending stream per other participant. This places practical limitations on calls that depend on network capabilities. A typical private Nextcloud Talk setup should handle dozens of calls with each up to 4-6 participants, more if all participants have a good network connection.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The peer to peer nature of Talk does inflate network traffic, creating one incoming and sending stream per other participant. This places practical limitations on calls that depend on network capabilities. A typical private Nextcloud Talk setup should handle dozens of calls with each up to 4-6 participants, up to 20 if all participants have a good network connection and do not use video.');?></p>
+			<p class="section--paragraph"><a href="https://github.com/nextcloud/spreed/#scalability"><?php echo $l->t('If you want to have a call with many people, see tips in our documentation.');?></a></p>
 		</div>
 	</div>
 	<div class="row">
@@ -396,8 +398,8 @@
 		</div>
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Scaling in enterprise setup');?></p>
-			<p class="section--paragraph"><?php echo $l->t('To help with scaling, Nextcloud automatically disables video when entering a call in chat rooms with 5 or more  members. Only when a user actively enables video will the stream be send. Sending audio and video is the biggest limiting factor, with most asymetric internet connections bottlenecked on upstream bandwidth.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The High Performance Back-end offered by Nextcloud partner Struktur includes a Selective Forward Unit (SFU) which solves this bottleneck by receiving one stream from each user and forwarding it as needed. This allows scaling a single call to about 30-50 active participants.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('To help with scaling, users can disable video Sending audio and video, as well as the compute power required to decode the video streams on clients, are the biggest limiting factors, with most asymetric internet connections bottlenecked on upstream bandwidth and laptops and mobile devices especially having trouble decoding multipe 480P/30FPS video streams.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The High Performance Back-end offered by Nextcloud partner Struktur includes a Selective Forward Unit (SFU) which solves this bottleneck by receiving one stream from each user and forwarding it as needed. This allows scaling a single call to about 30-50 active participants, up to hundreds when doing a webinar.');?></p>
 		</div>
 	</div>
 	<div class="row">
