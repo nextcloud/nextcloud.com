@@ -256,6 +256,7 @@
     .row {
         margin-top: 50px;
     }
+    padding-bottom: 0px;
 }
 
 .section--features {
@@ -273,4 +274,8 @@
             color: #555555;
         }
     }
+}
+
+footer {
+    margin-top: 0px;
 }

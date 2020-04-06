@@ -450,13 +450,13 @@
             </ul>
 
             <p class="section--paragraph"><?php echo $l->t('Switching between different tools is more than cumbersome and inefficient: it also increases the chance for mistakes that can result in data leaks.');?></p>
-<!--             <p class="section--paragraph"><?php echo $l->t('Having a complete, all-in-one solution offers s');?></p> -->
+            <p class="section--paragraph"><?php echo $l->t('Having a complete, all-in-one solution offers s');?></p>
         </div>
     </div>
 
 </div>
-</section>-->
-<!--
+</section>
+
 <section class="section--more">
 	<a name="more" id="more"></a>
 <div class="container-widest">

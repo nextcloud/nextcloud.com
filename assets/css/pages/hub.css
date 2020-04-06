@@ -214,8 +214,10 @@
     .section--mainbenefits .col-md-6 p {
       padding-top: 0px; }
 
-.section--benefits .row {
-  margin-top: 50px; }
+.section--benefits {
+  padding-bottom: 0px; }
+  .section--benefits .row {
+    margin-top: 50px; }
 
 .section--features h1 {
   margin-bottom: 80px; }
@@ -225,5 +227,8 @@
   list-style-image: url("../../img/enterprise/check.svg");
   list-style-position: inside;
   color: #555555; }
+
+footer {
+  margin-top: 0px; }
 
 /*# sourceMappingURL=hub.css.map */
