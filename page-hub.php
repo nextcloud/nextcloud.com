@@ -380,7 +380,7 @@
 	</div>
 </section>
 
-<section class="section--vdr">
+<!--<section class="section--vdr">
     <div class="container">
         <div class="row feature-row">
             <div class="col-md-6">
@@ -393,7 +393,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <section class="section--benefits">
 <div class="container-fluid quote">
@@ -428,7 +428,7 @@
 	</div>
 </div>
 </section>
-<!--
+
 <section class="section--features">
 <div class="container">
     <h1 class="section--heading-1 text-center"><?php echo $l->t('What sets Nextcloud apart');?></h1>
@@ -450,7 +450,7 @@
             </ul>
 
             <p class="section--paragraph"><?php echo $l->t('Switching between different tools is more than cumbersome and inefficient: it also increases the chance for mistakes that can result in data leaks.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Having a complete, all-in-one solution offers s');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Having a complete, all-in-one solution simplifies the IT infrastructure for both users and the IT team, improving productivity and security.');?></p>
         </div>
     </div>
 
@@ -558,7 +558,7 @@
         </div>
     </div>
 </div>
-</section>-->
+</section>
 
 
 
