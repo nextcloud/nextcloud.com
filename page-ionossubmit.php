@@ -248,8 +248,8 @@ if(isset($_POST['email'])) {
 			'Cc: ' . $email_from . "\r\n" .
             'Content-Type: text/plain; charset=UTF-8';
 		// Send the email
-// 		$recipients = ['orders'];
-		$recipients = ['jos']; // for testing
+		$recipients = ['orders'];
+// 		$recipients = ['jos']; // for testing
 		$successfullySend = true;
 		foreach ($recipients as $recipient) {
 			$successfullySend &= mail($recipient . '@nextcloud.com', $email_subject, $email_message, $headers);
@@ -264,8 +264,8 @@ if(isset($_POST['email'])) {
 
 		if ($successfullySend) {
 			?>
-            <h1>Thanks for ordering a Nextcloud Support Subscription!</h1>
-            <p>We are preparing a contract and invoice. Check your inbox for a reply in the next 5 working days.</p>
+            <h1>Thanks for your order!</h1>
+            <p>We are preparing a contract and invoice, as well as deployment. Check your inbox for a contract and login details on the next working day.</p>
             <p>We received following details:</p>
             <pre><?php
 				echo $email_message;
@@ -286,7 +286,7 @@ if(isset($_POST['email'])) {
 
     ?>
         <h1>Something went wrong!</h1>
-    <p>We had some troubles processing your Nextcloud Support Subscription request.</p>
+    <p>We had some troubles processing your order request.</p>
     <p>
     <?php
     echo $e->getMessage();
