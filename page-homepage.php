@@ -14,9 +14,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/the-new-standard-in-on-premises-team-collaboration-nextcloud-hub/">
+				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-ionos-and-viakom-announce-online-collaboration-platform-for-educational-institutions-public-authorities-and-smes-made-in-germany/">
 				<span class="type">News</span>
-				<span class="message"><strong><?php echo $l->t('Nextcloud Hub');?>:</strong> <?php echo $l->t(' The new standard in on-premises team collaboration');?></span>
+				<span class="message"><strong><?php echo $l->t('Made in Germany');?>:</strong> <?php echo $l->t(' Schools, governments and SMB get a collaboration platform they can trust');?></span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Regain control');?></h1>
