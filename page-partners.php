@@ -127,7 +127,7 @@
 
 		<div class="row">
             <div class="col-md-4">
-				<a href="https://www.ionos.de/enterprise-cloud/nextcloud" target="_blank" title="IT25">
+				<a href="https://www.ionos.de/enterprise-cloud/nextcloud" target="_blank" title="IONOS">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/ionos.png" title="IONOS" />
 				</a>
 				<p class="partnertext">With more than eight million customer contracts, IONOS is the leading European provider of cloud infrastructure, cloud services and hosting services. The product portfolio offers everything that companies need to be successful in the cloud: from domains, classic websites and do-it-yourself solutions, online marketing tools to full-fledged servers and an IaaS solution. The portfolio is aimed at freelancers, business people and consumers as well as corporate customers with complex IT requirements. The 1&1 IONOS brand family includes STRATO, Arsys, Fasthosts, home.pl, InterNetX, SEDO, United Domains and World4You.</p>
