@@ -216,7 +216,7 @@ if(isset($_POST['email'])) {
 
     if($error_message === '') {
 		// the app review mailing list address
-		$email_subject = "Order_form from " . clean_string($organization);
+		$email_subject = "IONOS_Viakom_Order_form from " . clean_string($organization);
 
 		$email_message = "";
 		$email_message .= "Name: " . clean_string($yourname) . "\n";
