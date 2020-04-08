@@ -21,7 +21,7 @@
 <div class="container">
 <div class="row">
 <div class="pr">
-<p>Deutsche Version unter</p>
+<p><a href="#german">Deutsche Version unter</a></p>
 <h1>German cloud giants launch GDPR-compliant collaboration platform for schools, government agencies and SMB</h1>
 <p>Homeschooling and home office just became compliant with privacy regulations and easy: Nextcloud, IONOS and the managed service provider Viakom today make available a collaboration solution that enables GDPR-compliant and secure collaboration. The offer is aimed in particular at schools, authorities and small and medium-sized companies. The solution is based on the Nextcloud Hub application, including all the functions that users expect from a modern collaboration platform: telephony, chat and video conferencing system, collaborative document processing, a mail server and client as well as task and calendar management. The solution can be operated via easy mobile, desktop and web interfaces. It is hosted in the German IONOS data centers and distributed and administered by Viakom.</p>
 <p>The GDPR-compliant, fully managed solution can be implemented within 24 hours. In contrast to foreign SaaS solutions, thanks to the cooperation of three German companies, users have no data protection issues and data leaks to worry about.</p>
@@ -58,7 +58,7 @@ jos.poortvliet<a href="mailto:pr@nextcloud.com">@nextcloud.com</a></p>
 <p>Matthias Damerow<br />
 Phone: +49 461 430 920 0<br />
 matthias.damerow<a href="https://mailto:marketing@viakom.de">@viakom.de</a></p>
-
+<a name="german"></a>
 <h1>Deutsche Cloud-Spezialisten starten DSGVO-konforme Kollaborationsplattform für Schulen, Behörden und Mittelstand</h1>
 <p>So geht Homeschooling und Home Office datenschutzkonform und einfach: Nextcloud, IONOS und der Managed Service Provider Viakom bieten seit heute eine Kollaborations-Lösung an, die eine DSGVO-konforme und sichere Zusammenarbeit ermöglicht. Das Angebot richtet sich insbesondere an Schulen, Behörden sowie kleinere und mittelständische Unternehmen. Hinter der Lösung steht die Anwendung Nextcloud Hub, inklusive aller Funktionen, die Nutzer von einer modernen Kollaborationsplattform erwarten: Telefonie,  Chat- und Videokonferenzsystem, gemeinsame Dokumentenbearbeitung, ein Mailserver und -client sowie eine Aufgaben- und Kalenderverwaltung. Die Lösung ist über eine einfache mobile, Desktop- und Web-Oberfläche bedienbar. Sie wird in den deutschen IONOS Rechenzentren gehosted und von Viakom vertrieben und gem.</p>
 <p>Die DSGVO-konforme, vollständig verwaltete Lösung kann innerhalb von 24 Stunden implementiert werden. Im Gegensatz zu ausländischen SaaS-Lösungen haben die Anwender dank der Kooperation dreier deutscher Unternehmen keinerlei Datenschutzrisiken und Sicherheitslücken zu befürchten.</p>
