@@ -30,14 +30,14 @@ if(isset($_POST['email'])) {
     ?>
             <section class="section--whitepaper">
                 <div class="container text-center">
-                    <h3>Sorry, there was an error with the form you submitted</h3>
-                    <p>The error(s) detected:<br/>
+                    <h3><?php echo $l->t('Sorry, there was an error with the form you submitted');?></h3>
+                    <p><?php echo $l->t('The error(s) detected:');?><br/>
                         <?php
                         echo $error . "<br />";
                         ?>
                     </p>
-                    <p>Use the back key to go to the previous page and fix the
-                        issue!</p>
+                    <p><?php echo $l->t('Use the back key to go to the previous page and fix the
+                        issue!');?></p>
                 </div>
             </section>
             <?php
@@ -264,9 +264,9 @@ if(isset($_POST['email'])) {
 
 		if ($successfullySend) {
 			?>
-            <h1>Thanks for your order!</h1>
-            <p>We are preparing a contract and invoice, as well as deployment. Check your inbox for a contract and login details on the next working day.</p>
-            <p>We received following details:</p>
+            <h1><?php echo $l->t('Thanks for your order!');?></h1>
+            <p><?php echo $l->t('We are preparing a contract and invoice, as well as deployment. Check your inbox for a contract and login details on the next working day.');?></p>
+            <p><?php echo $l->t('We received following details:');?></p>
             <pre><?php
 				echo $email_message;
 				?></pre>
@@ -275,8 +275,8 @@ if(isset($_POST['email'])) {
 			// TODO: log something here
 			error_log('could not send all emails - ' . $email_message . json_encode($_POST));
 			?>
-            <h1>Something went wrong!</h1>
-            <p>We had some troubles processing your Nextcloud Support Subscription request. Please try again later.</p>
+            <h1><?php echo $l->t('Something went wrong!');?></h1>
+            <p><?php echo $l->t('We had some troubles processing your Nextcloud Support Subscription request. Please try again later.');?></p>
 			<?php
 		}
 	}
@@ -285,8 +285,8 @@ if(isset($_POST['email'])) {
 } catch (ValidationException $e) {
 
     ?>
-        <h1>Something went wrong!</h1>
-    <p>We had some troubles processing your order request.</p>
+        <h1><?php echo $l->t('Something went wrong!');?></h1>
+    <p><?php echo $l->t('We had some troubles processing your order request.');?></p>
     <p>
     <?php
     echo $e->getMessage();
