@@ -191,7 +191,7 @@ if(isset($_POST['email'])) {
 //             }
 
             $price = $usersPrice + $outlookPrice;
-            $price = round($price, 1);
+            $price = round($price, 2);
         }
 
 //     }

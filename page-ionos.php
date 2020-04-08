@@ -183,9 +183,9 @@ imagedestroy($image);
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
             <h1 class="text-center">Order form</h1>
-            <p><?php echo $l->t('Using this form, you can order an instant Nextcloud Hub deployment for up to 200 users. If you need more users, other options like branding or a Premium Subscription,');?> <a class="hyperlink" href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('please contact us for a quote.</a>');?></p>
+            <p><?php echo $l->t('Using this form, you can ask for an offer for an instant Nextcloud Hub deployment for up to 200 users. If you need more users, other options like branding or a Premium Subscription,');?> <a class="hyperlink" href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('please contact us for a quote.</a>');?></p>
             <div class="contact">
-                <h3><?php echo $l->t('Fill in the form below to receive a contract and invoice from us and get started!');?></h3>
+                <h3><?php echo $l->t('Fill in the form below to receive an offer and contract from us and get started!');?></h3>
                 <hr>
                 <form id="orderform" name="orderform" method="post" action="../ionossubmit/">
                     <p><label for="yourname"><?php echo $l->t('Contact person');?> *<br>
@@ -210,7 +210,7 @@ imagedestroy($image);
                     <input  type="text" name="vat" maxlength="60" size="60" placeholder="DE123456789"></label></p>
                     <h3><?php echo $l->t('Your order');?></h3>
                     <hr>
-                    <p><label for="users"><?php echo $l->t('Number of seats');?><br>
+                    <p><label for="users"><?php echo $l->t('Number of users, at a price of 9.50 euro per user per month');?><br>
                     <select name="users" onChange="setUsers()">
                         <?php
                             for ($i=1; $i<=200; $i++)
@@ -271,7 +271,7 @@ imagedestroy($image);
         <!-- 			<input disabled type="checkbox" name="remoteinstall" value="remoteinstall" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include one day remote installation/integration support (mail, telephone, video call) (€ 990)');?></span><br/> -->
                     <!--<input disabled type="checkbox" name="branding" value="branding" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include branded clients (Eur 6000)');?></span><br/>-->
                     </p>
-                    <h2 class="price"><?php echo $l->t('Price: ');?><span id="totalprice"></span><br></h2>
+                    <h2 class="price"><?php echo $l->t('Price per month: ');?><span id="totalprice"></span><br></h2>
                     <p class="hidden"><input type="checkbox" name="dollars" value="dollars" onChange="doCalculation()"> <?php echo $l->t(' in dollars');?></p>
                     <p><?php echo $l->t('<label for="comments">Notes<br />
                     <textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Questions, comments, special needs? Do you represent a government, educational or charitable business? Let us know and we can provide you a custom offer or answers to your questions."></textarea></label>');?></p>
@@ -431,19 +431,19 @@ imagedestroy($image);
 			var inDollars = theForm.elements["dollars"];
 // 			var edugovDiscount = theForm.elements["edugov"];
 		    //Each function returns a number so by calling them we add the values they return together
-		    var finalPrice = getUsersPrice() + getOptionsPrice();
+		    var finalPrice = round_to_precision(getUsersPrice() + getOptionsPrice(), 0.5);
 
 			//display the result (dollars or euro's)
 			if(inDollars.checked==false)
 			{
-				document.getElementById('totalprice').innerHTML = " € "+round_to_precision(finalPrice, 0.5);
+				document.getElementById('totalprice').innerHTML = " € "+finalPrice.toFixed(2);
 		    }
 		    if(inDollars.checked==true)
 			{
 			var finalPrice = finalPrice * 1.1;
-				document.getElementById('totalprice').innerHTML = " $ "+round_to_precision(finalPrice, 0.5);
+				document.getElementById('totalprice').innerHTML = " $ "+finalPrice.toFixed(2);
 			}
-			return +round_to_precision(finalPrice, 0.5);
+			return +finalPrice.toFixed(2);
 		}
 		var firstCall = true;
 		function checkSubscription() {
