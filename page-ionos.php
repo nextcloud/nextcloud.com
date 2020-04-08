@@ -211,7 +211,7 @@ imagedestroy($image);
                     <h3><?php echo $l->t('Your order');?></h3>
                     <hr>
                     <p><label for="users"><?php echo $l->t('Number of users, at a price of 9.50 euro per user per month.');?><br />
-                    <?php echo $l->t('Special pricing for education, government and larger numbers on request in Notes section.');?><br />
+                    <em><?php echo $l->t('Special pricing for education, government and larger numbers on request in Notes section.');?></em><br />
                     <select name="users" onChange="setUsers()">
                         <?php
                             for ($i=1; $i<=200; $i++)
