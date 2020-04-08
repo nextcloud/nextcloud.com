@@ -15,7 +15,8 @@
         <div class="row">
             <div class="col-md-6 topheader">
                 <h1><?php echo $l->t('Get  Nextcloud now');?></h1>
-                <h2><?php echo $l->t('Viakom deploys Nextcloud Hub on IONOS for you today');?></h2>
+                <h2><?php echo $l->t('Viakom deploys Nextcloud Hub on IONOS for you today');?><br /><a class="button button--small" href="#order"><?php echo $l->t('Order now');?></a></h2>
+
             </div>
         </div>
     </div>
@@ -53,6 +54,7 @@ imagedestroy($image);
 		<div class="col-md-8 col-md-offset-2">
                 <p class="section--paragraph text-center"><?php echo $l->t('Share and collaborate on documents, send and receive email, manage your calendar and have video chats without data leaks.');?></p>
                 <p class="section--paragraph text-center"><?php echo $l->t('Hosted in the trusted and security-certified German data centers of IONOS and protected and managed by the capable engineers of Viakom, Nextcloud Hub provides the benefits of online collaboration without the compliance and security risks.');?></p>
+                <p class="text-center"><a class="button button--blue" href="#order"><?php echo $l->t('Order now');?></a></p>
 		</div>
 	</div>
 </div>
@@ -175,114 +177,119 @@ imagedestroy($image);
 		</div>
 	</div>
 </section>
-
+<a name="order"></a>
 <section class="section--form">
 <div class="container">
-	<p><?php echo $l->t('Using this form, you can order an instant Nextcloud Hub deployment for up to 200 users. If you need more users, other options like branding or a Premium Subscription,');?> <a class="hyperlink" href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('please contact us for a quote.</a>');?></p>
-	<div class="contact">
-		<h3><?php echo $l->t('Fill in the form below to receive a contract and invoice from us and get started!');?></h3>
-		<hr>
-		<form id="orderform" name="orderform" method="post" action="../ionossubmit/">
-			<p><label for="yourname"><?php echo $l->t('Contact person');?> *<br>
-			<input  type="text" name="yourname" maxlength="60" size="60" placeholder="John Doe" onChange="doCalculation()"></label>
-			<span id="yourname-error" class="error"></span>
-			</p>
-			<p><label for="email"><?php echo $l->t('Email');?> *<br>
-			<input  type="text" name="email" maxlength="80" size="60" placeholder="john@example.org" onChange="doCalculation()"></label>
-			<span id="email-error" class="error"></span>
-			</p>
-			<p><label for="organization"><?php echo $l->t('Organization');?> *<br>
-			<input  type="text" name="organization" maxlength="100" size="60" placeholder="Example AG" onChange="doCalculation()"></label></p>
-			<p><label for="website"><?php echo $l->t('Website');?><br>
-			<input  type="text" name="website" maxlength="100" size="60" placeholder="https://example.org"></label></p>
-			<p><label for="phone"><?php echo $l->t('Phone number');?> * <span>(<?php echo $l->t('Please include your country code');?>)</span><br>
-			<input  type="text" name="phone" maxlength="40" size="60" placeholder="(+49 1234) 567 890" onChange="doCalculation()"></label></p>
-			<p><label for="address"><?php echo $l->t('Address');?> *<br />
-			<textarea  name="address" maxlength="1000" cols="62" rows="5" placeholder="Langer Weg 6, 61169 Friedberg, GERMANY" onChange="doCalculation()"></textarea></label></p>
-			<p><label for="address"><?php echo $l->t('Billing address');?> <span>(<?php echo $l->t('Only needed if different from above address');?>)</span><br />
-			<textarea  name="billing" maxlength="1000" cols="62" rows="5" placeholder="Langer Weg 8, 61169 Friedberg, GERMANY"></textarea></label></p>
-			<p><label for="vat"><?php echo $l->t('VAT ID');?> <span><?php echo $l->t('(Europe only)');?></span><br>
-			<input  type="text" name="vat" maxlength="60" size="60" placeholder="DE123456789"></label></p>
-			<h3><?php echo $l->t('Your order');?></h3>
-			<hr>
-			<p><label for="users"><?php echo $l->t('Number of seats');?><br>
-			<select name="users" onChange="setUsers()">
-				<?php
-                    for ($i=1; $i<=200; $i++)
-                    {
-                        ?>
-                            <option value="<?php echo $i;?>"><?php echo $i;?></option>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+            <h1 class="text-center">Order form</h1>
+            <p><?php echo $l->t('Using this form, you can order an instant Nextcloud Hub deployment for up to 200 users. If you need more users, other options like branding or a Premium Subscription,');?> <a class="hyperlink" href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('please contact us for a quote.</a>');?></p>
+            <div class="contact">
+                <h3><?php echo $l->t('Fill in the form below to receive a contract and invoice from us and get started!');?></h3>
+                <hr>
+                <form id="orderform" name="orderform" method="post" action="../ionossubmit/">
+                    <p><label for="yourname"><?php echo $l->t('Contact person');?> *<br>
+                    <input  type="text" name="yourname" maxlength="60" size="60" placeholder="John Doe" onChange="doCalculation()"></label>
+                    <span id="yourname-error" class="error"></span>
+                    </p>
+                    <p><label for="email"><?php echo $l->t('Email');?> *<br>
+                    <input  type="text" name="email" maxlength="80" size="60" placeholder="john@example.org" onChange="doCalculation()"></label>
+                    <span id="email-error" class="error"></span>
+                    </p>
+                    <p><label for="organization"><?php echo $l->t('Organization');?> *<br>
+                    <input  type="text" name="organization" maxlength="100" size="60" placeholder="Example AG" onChange="doCalculation()"></label></p>
+                    <p><label for="website"><?php echo $l->t('Website');?><br>
+                    <input  type="text" name="website" maxlength="100" size="60" placeholder="https://example.org"></label></p>
+                    <p><label for="phone"><?php echo $l->t('Phone number');?> * <span>(<?php echo $l->t('Please include your country code');?>)</span><br>
+                    <input  type="text" name="phone" maxlength="40" size="60" placeholder="(+49 1234) 567 890" onChange="doCalculation()"></label></p>
+                    <p><label for="address"><?php echo $l->t('Address');?> *<br />
+                    <textarea  name="address" maxlength="1000" cols="62" rows="5" placeholder="Langer Weg 6, 61169 Friedberg, GERMANY" onChange="doCalculation()"></textarea></label></p>
+                    <p><label for="address"><?php echo $l->t('Billing address');?> <span>(<?php echo $l->t('Only needed if different from above address');?>)</span><br />
+                    <textarea  name="billing" maxlength="1000" cols="62" rows="5" placeholder="Langer Weg 8, 61169 Friedberg, GERMANY"></textarea></label></p>
+                    <p><label for="vat"><?php echo $l->t('VAT ID');?> <span><?php echo $l->t('(Europe only)');?></span><br>
+                    <input  type="text" name="vat" maxlength="60" size="60" placeholder="DE123456789"></label></p>
+                    <h3><?php echo $l->t('Your order');?></h3>
+                    <hr>
+                    <p><label for="users"><?php echo $l->t('Number of seats');?><br>
+                    <select name="users" onChange="setUsers()">
                         <?php
-                    }
-                ?>
-			</select></label></p>
-<!-- 			<p class="question"><label for="edition"><?php echo $l->t('Which Nextcloud Support Subscription are you interested in?');?></p> -->
-<!-- 			<p class="details"><?php echo $l->t('Our Basic subscription offers email support with a 3 day response time,<br/> Standard offers business hours phone support with a 2 day response time.');?></p> -->
-<!-- 			<select id="edition" name="edition" onChange="doCalculation()"> -->
-<!-- 				<option default value="basic">Basic</option> -->
-<!-- 				<option value="standard">Standard</option> -->
-<!-- 				<option value="premium">Premium</option> -->
-<!-- 			</select></label> -->
-			<!--<div class="getenterprisequote" id="getenterprisequote" style="display:none;">
-			<p><a class="hyperlink" href="<?php echo home_url('pricing') ?>" target="_blank"><?php echo $l->t('See details on pricing ');?><i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('or ask');?> <a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('a quote from our sales team ');?><i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('for the premium subscription.');?></p></div>
-			</p>-->
-<!-- 			<p><label for="duration"><?php echo $l->t('Length of contract (paid in advance)');?><br> -->
-<!-- 			<select name="duration" onChange="doCalculation()"> -->
-<!-- 				<option default value="1">One year</option> -->
-<!-- 				<option value="2"><?php echo $l->t('2 years (2nd year 10% discount)');?></option> -->
-<!-- 				<option value="3"><?php echo $l->t('3 years (3rd year 15% discount)');?></option> -->
-<!-- 			</select></label><br> -->
-			<!--<p><label for="edugov"><?php echo $l->t('Are you an education/government/charitable organization (discounts may apply)?');?><br>
-			<select name="edugov" onChange="doCalculation()">
-				<option default value="no"><?php echo $l->t('none');?></option>
-				<option value="edu"><?php echo $l->t('Education');?></option>
-				<option value="gov"><?php echo $l->t('Government');?></option>
-				<option value="charity"><?php echo $l->t('Charitable');?></option>
-			</select></label>-->
-			<p><h3><?php echo $l->t('Optional features:');?></h3></p>
-			<input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>" target="_blank"><?php echo $l->t('our Outlook add-in <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 0.5/user/month)');?></span><br/>
-<!-- 			<p><h4><?php echo $l->t('Only with a Standard Subscription:');?></h4></p> -->
-<!-- 			<input disabled id="collaboraCheck" type="checkbox" name="collaboraCheck" value="collaboraCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('collaboraonline') ?>" target="_blank">Collabora Online <i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('(€ 17/user for the first 100, € 16/user after that)');?></span><br/> -->
-<!-- 			<input disabled id="onlyofficeCheck" type="checkbox" name="onlyofficeCheck" value="onlyofficeCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('onlyoffice') ?>" target="_blank">ONLYOFFICE <i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('(€ 935 for the first 250 users)');?></span><br/> -->
-			<!-- Only show below when input above is enabled -->
-			<!--<div class="collaboraUserNumberChoiceDiv" id="collaboraUserNumberChoiceDiv" style="display:none;">
-				<p><?php echo $l->t('Select how many users need access to Collabora: ');?><br>
-				<select disabled name="collabora" onChange="doCalculation()">
-					<option value="0">0</option>
-					<option value="25">25</option>
-					<option value="50">50</option>
-					<option value="75">75</option>
-					<option value="100">100</option>
-					<option value="150">150</option>
-					<option value="200">200</option>
-					<option value="250">250</option>
-				</select>
-				</p><p class="collaboraNote"><small><strong><?php echo $l->t('Please note:');?></strong></br>
-				<span id="minUsers"><?php echo $l->t('You need at least 25% Collabora seats');?></span><br>
-				<span id="maxUsers"><?php echo $l->t('You can not have more Collabora seats than Nextcloud seats');?></span>
-				</small></p>
-			</div>-->
-			<!--<input disabled type="checkbox" name="spreed" value="spreed" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('webrtc') ?>" target="_blank">Spreed audio/video chat</a> (Eur 5/user)');?></span><br/>-->
-<!-- 			<input disabled type="checkbox" name="remoteinstall" value="remoteinstall" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include one day remote installation/integration support (mail, telephone, video call) (€ 990)');?></span><br/> -->
-			<!--<input disabled type="checkbox" name="branding" value="branding" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include branded clients (Eur 6000)');?></span><br/>-->
-			</p>
-			<h2 class="price"><?php echo $l->t('Price: ');?><span id="totalprice"></span><br></h2>
-			<p class="hidden"><input type="checkbox" name="dollars" value="dollars" onChange="doCalculation()"> <?php echo $l->t(' in dollars');?></p>
-			<p><?php echo $l->t('<label for="comments">Notes<br />
-			<textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Questions, comments, special needs? Do you represent a government, educational or charitable business? Let us know and we can provide you a custom offer or answers to your questions."></textarea></label>');?></p>
-			<p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?> <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
-			<p>Note: all prices excl. VAT</p>
-			<p><label for="captcha"><?php echo $l->t('Please calculate the following sum');?> <span></span><br>
-			<img src="data:image/png;base64,<?php echo base64_encode($imagestring); ?>"><br>
-			<input  type="text" name="captcha" maxlength="20" size="20" placeholder="13"></label></p>
-			<input  type="hidden" name="checksum" value="<?php echo $checksum;?>">
-			<td colspan="2" style="text-align:center">
-			<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-			<input type="submit" name="submit" value=" Order Now " disabled="disabled" class="button button--blue"><br />
-			<span id="form-error"><?php echo $l->t('Some required fields are not filled.'); ?></span>
-		</form>
+                            for ($i=1; $i<=200; $i++)
+                            {
+                                ?>
+                                    <option value="<?php echo $i;?>"><?php echo $i;?></option>
+                                <?php
+                            }
+                        ?>
+                    </select></label></p>
+        <!-- 			<p class="question"><label for="edition"><?php echo $l->t('Which Nextcloud Support Subscription are you interested in?');?></p> -->
+        <!-- 			<p class="details"><?php echo $l->t('Our Basic subscription offers email support with a 3 day response time,<br/> Standard offers business hours phone support with a 2 day response time.');?></p> -->
+        <!-- 			<select id="edition" name="edition" onChange="doCalculation()"> -->
+        <!-- 				<option default value="basic">Basic</option> -->
+        <!-- 				<option value="standard">Standard</option> -->
+        <!-- 				<option value="premium">Premium</option> -->
+        <!-- 			</select></label> -->
+                    <!--<div class="getenterprisequote" id="getenterprisequote" style="display:none;">
+                    <p><a class="hyperlink" href="<?php echo home_url('pricing') ?>" target="_blank"><?php echo $l->t('See details on pricing ');?><i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('or ask');?> <a class="hyperlink" href="<?php echo home_url('buy') ?>"><?php echo $l->t('a quote from our sales team ');?><i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('for the premium subscription.');?></p></div>
+                    </p>-->
+        <!-- 			<p><label for="duration"><?php echo $l->t('Length of contract (paid in advance)');?><br> -->
+        <!-- 			<select name="duration" onChange="doCalculation()"> -->
+        <!-- 				<option default value="1">One year</option> -->
+        <!-- 				<option value="2"><?php echo $l->t('2 years (2nd year 10% discount)');?></option> -->
+        <!-- 				<option value="3"><?php echo $l->t('3 years (3rd year 15% discount)');?></option> -->
+        <!-- 			</select></label><br> -->
+                    <!--<p><label for="edugov"><?php echo $l->t('Are you an education/government/charitable organization (discounts may apply)?');?><br>
+                    <select name="edugov" onChange="doCalculation()">
+                        <option default value="no"><?php echo $l->t('none');?></option>
+                        <option value="edu"><?php echo $l->t('Education');?></option>
+                        <option value="gov"><?php echo $l->t('Government');?></option>
+                        <option value="charity"><?php echo $l->t('Charitable');?></option>
+                    </select></label>-->
+                    <p><h3><?php echo $l->t('Optional features:');?></h3></p>
+                    <input disabled type="checkbox" name="outlook" value="outlook" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>" target="_blank"><?php echo $l->t('our Outlook add-in <i class="fa fa-external-link" aria-hidden="true"></i></a> (€ 0.5/user/month)');?></span><br/>
+        <!-- 			<p><h4><?php echo $l->t('Only with a Standard Subscription:');?></h4></p> -->
+        <!-- 			<input disabled id="collaboraCheck" type="checkbox" name="collaboraCheck" value="collaboraCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('collaboraonline') ?>" target="_blank">Collabora Online <i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('(€ 17/user for the first 100, € 16/user after that)');?></span><br/> -->
+        <!-- 			<input disabled id="onlyofficeCheck" type="checkbox" name="onlyofficeCheck" value="onlyofficeCheck" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('onlyoffice') ?>" target="_blank">ONLYOFFICE <i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('(€ 935 for the first 250 users)');?></span><br/> -->
+                    <!-- Only show below when input above is enabled -->
+                    <!--<div class="collaboraUserNumberChoiceDiv" id="collaboraUserNumberChoiceDiv" style="display:none;">
+                        <p><?php echo $l->t('Select how many users need access to Collabora: ');?><br>
+                        <select disabled name="collabora" onChange="doCalculation()">
+                            <option value="0">0</option>
+                            <option value="25">25</option>
+                            <option value="50">50</option>
+                            <option value="75">75</option>
+                            <option value="100">100</option>
+                            <option value="150">150</option>
+                            <option value="200">200</option>
+                            <option value="250">250</option>
+                        </select>
+                        </p><p class="collaboraNote"><small><strong><?php echo $l->t('Please note:');?></strong></br>
+                        <span id="minUsers"><?php echo $l->t('You need at least 25% Collabora seats');?></span><br>
+                        <span id="maxUsers"><?php echo $l->t('You can not have more Collabora seats than Nextcloud seats');?></span>
+                        </small></p>
+                    </div>-->
+                    <!--<input disabled type="checkbox" name="spreed" value="spreed" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include');?> <a class="hyperlink" href="<?php echo home_url('webrtc') ?>" target="_blank">Spreed audio/video chat</a> (Eur 5/user)');?></span><br/>-->
+        <!-- 			<input disabled type="checkbox" name="remoteinstall" value="remoteinstall" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include one day remote installation/integration support (mail, telephone, video call) (€ 990)');?></span><br/> -->
+                    <!--<input disabled type="checkbox" name="branding" value="branding" onChange="doCalculation()"> <span class="optional"><?php echo $l->t(' Include branded clients (Eur 6000)');?></span><br/>-->
+                    </p>
+                    <h2 class="price"><?php echo $l->t('Price: ');?><span id="totalprice"></span><br></h2>
+                    <p class="hidden"><input type="checkbox" name="dollars" value="dollars" onChange="doCalculation()"> <?php echo $l->t(' in dollars');?></p>
+                    <p><?php echo $l->t('<label for="comments">Notes<br />
+                    <textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Questions, comments, special needs? Do you represent a government, educational or charitable business? Let us know and we can provide you a custom offer or answers to your questions."></textarea></label>');?></p>
+                    <p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?> <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                    <p>Note: all prices excl. VAT</p>
+                    <p><label for="captcha"><?php echo $l->t('Please calculate the following sum');?> <span></span><br>
+                    <img src="data:image/png;base64,<?php echo base64_encode($imagestring); ?>"><br>
+                    <input  type="text" name="captcha" maxlength="20" size="20" placeholder="13"></label></p>
+                    <input  type="hidden" name="checksum" value="<?php echo $checksum;?>">
+                    <td colspan="2" style="text-align:center">
+                    <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                    <input type="submit" name="submit" value=" Order Now " disabled="disabled" class="button button--blue"><br />
+                    <span id="form-error"><?php echo $l->t('Some required fields are not filled.'); ?></span>
+                </form>
+            </div>
 	</div>
 </div>
+</section>
 
 <script>
 		// if we need to do something when the user number is changed...
