@@ -82,7 +82,7 @@
 				<a href="https://www.dass-it.de/" target="_blank" title="Dass IT">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/dassit.png" title="Dass IT" />
 				</a>
-				<p  class="partnertext">dass IT GmbH in Cologne , founded in 2004 by former senior consultants of Suse Linux, is primarily a system integrator, offering support and consulting around Linux and Open Source Software. As a long-standing owncloud partner dass IT can help you migrate from ownCloud to Nextcloud or to build a private cloud from scratch.</p>
+				<p  class="partnertext">dass IT GmbH in Cologne, founded in 2004 by former senior consultants of Suse Linux, is primarily a system integrator, offering support and consulting around Linux and Open Source Software. dass IT can help you build and run a private cloud infrastructure or migrate an existing ownCloud to Nextcloud.</p>
 				<a class="button button--white" href="https://www.dass-it.de/">Learn more</a>
 			</div>
 			<div class="col-md-4">
