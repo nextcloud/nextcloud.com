@@ -5,7 +5,7 @@
   "authors": ["Kraig Walker"],
   "notes": [{
     "name": "Responding to Force Touch Events from JavaScript",
-    "href": "https://developer.apple.com/library/prerelease/mac/documentation/AppleApplications/Conceptual/SafariJSProgTopics/Articles/RespondingtoForceTouchEventsfromJavaScript.html"
+    "href": "https://developer.apple.com/library/archive/documentation/AppleApplications/Conceptual/SafariJSProgTopics/RespondingtoForceTouchEventsfromJavaScript.html"
   }]
 }
 !*/
@@ -17,7 +17,7 @@ Force Touch events are available in OS X 10.11 and later on devices equipped wit
 */
 define(['Modernizr', 'hasEvent', 'prefixed'], function(Modernizr, hasEvent, prefixed) {
   Modernizr.addTest('forcetouch', function() {
-		// github.com/Modernizr/Modernizr/issues/1613
+    // github.com/Modernizr/Modernizr/issues/1613
     // Test if the browser supports the force touch event progression (see notes link)
     if (!hasEvent(prefixed('mouseforcewillbegin', window, false), window)) {
       return false;

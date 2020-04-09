@@ -27,13 +27,20 @@ define(['Modernizr', 'prefixed', 'addTest'], function(Modernizr, prefixed, addTe
     } catch (e) {
     }
 
-    if (!!indexeddb) {
+    if (indexeddb) {
       var testDBName = 'modernizr-' + Math.random();
-      var req = indexeddb.open(testDBName);
+      var req;
+      try {
+        req = indexeddb.open(testDBName);
+      } catch (e) {
+        addTest('indexeddb', false);
+        return;
+      }
 
-      req.onerror = function() {
-        if (req.error && req.error.name === 'InvalidStateError') {
+      req.onerror = function(event) {
+        if (req.error && (req.error.name === 'InvalidStateError' || req.error.name === 'UnknownError')) {
           addTest('indexeddb', false);
+          event.preventDefault();
         } else {
           addTest('indexeddb', true);
           detectDeleteDatabase(indexeddb, testDBName);

@@ -4,17 +4,16 @@
   "property": "webglextensions",
   "tags": ["webgl", "graphics"],
   "builderAliases": ["webgl_extensions"],
-  "async" : true,
+  "async": true,
   "authors": ["Ilmari Heikkinen"],
-  "knownBugs": [],
   "notes": [{
     "name": "Kronos extensions registry",
-    "href": "http://www.khronos.org/registry/webgl/extensions/"
+    "href": "https://www.khronos.org/registry/webgl/extensions/"
   }]
 }
 !*/
 /* DOC
-Detects support for OpenGL extensions in WebGL. It's `true` if the [WebGL extensions API](https://developer.mozilla.org/en-US/docs/Web/WebGL/Using_Extensions) is supported, then exposes the supported extensions as subproperties, e.g.:
+Detects support for OpenGL extensions in WebGL. It's `true` if the [WebGL extensions API](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Using_Extensions) is supported, then exposes the supported extensions as subproperties, e.g.:
 
 ```javascript
 if (Modernizr.webglextensions) {

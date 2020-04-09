@@ -1,12 +1,11 @@
 /*!
 {
   "name": "canvas winding support",
-  "property": ["canvaswinding"],
+  "property": "canvaswinding",
   "tags": ["canvas"],
-  "async" : false,
   "notes": [{
     "name": "Article",
-    "href": "https://blogs.adobe.com/webplatform/2013/01/30/winding-rules-in-canvas/"
+    "href": "https://web.archive.org/web/20170825024655/http://blogs.adobe.com/webplatform/2013/01/30/winding-rules-in-canvas/"
   }]
 }
 !*/

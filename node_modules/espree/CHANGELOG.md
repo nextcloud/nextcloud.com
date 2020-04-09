@@ -1,3 +1,32 @@
+v3.5.4 - March 4, 2018
+
+* 706167b Upgrade: acorn 5.5.0 (#369) (Toru Nagashima)
+
+v3.5.3 - February 2, 2018
+
+* 70f9859 Upgrade: acorn 5.4.0 (#367) (Toru Nagashima)
+* cea4823 Chore: Adding .gitattributes file (#366) (Kevin Partington)
+* 4160aee Upgrade: acorn v5.3.0 (#365) (Toru Nagashima)
+
+v3.5.2 - November 10, 2017
+
+* 019b70a Fix: Remove blockBindings from docs (fixes #307, fixes #339) (#356) (Jan Pilzer)
+* b2016cb Chore: refactoring rest/spread properties (#361) (Toru Nagashima)
+* 59c9d06 Chore: upgrade acorn@5.2 (fixes #358) (#360) (Toru Nagashima)
+* 06c35c9 Chore: add .npmrc (#359) (Toru Nagashima)
+
+v3.5.1 - September 15, 2017
+
+* 5eb1388 Fix: Fix parsing of async keyword-named object methods (#352) (#353) (Mark Banner)
+
+v3.5.0 - August 5, 2017
+
+* 4d442a1 Update: add initial support for ES2018 (#348) (Teddy Katz)
+* d4bdcb6 Fix: Make template token objects adhere to token object structure (#343) (Ian Christian Myers)
+* 9ac671a Upgrade: acorn to 5.1.1 (#347) (Teddy Katz)
+* 16e1fec Docs: Specify default values of options (fixes #325) (#342) (Jan Pilzer)
+* be85b8e Fix: async shorthand properties (fixes #340) (#341) (Toru Nagashima)
+
 v3.4.3 - May 5, 2017
 
 * 343590a Fix: add AwaitExpression to espree.Syntax (fixes #331) (#332) (Teddy Katz)

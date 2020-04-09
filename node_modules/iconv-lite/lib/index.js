@@ -2,7 +2,7 @@
 
 // Some environments don't have global Buffer (e.g. React Native).
 // Solution would be installing npm modules "buffer" and "stream" explicitly.
-var Buffer = require("buffer").Buffer;
+var Buffer = require("safer-buffer").Buffer;
 
 var bomHandling = require("./bom-handling"),
     iconv = module.exports;
@@ -34,7 +34,7 @@ iconv.decode = function decode(buf, encoding, options) {
             iconv.skipDecodeWarning = true;
         }
 
-        buf = new Buffer("" + (buf || ""), "binary"); // Ensure buffer.
+        buf = Buffer.from("" + (buf || ""), "binary"); // Ensure buffer.
     }
 
     var decoder = iconv.getDecoder(encoding, options);
@@ -65,7 +65,7 @@ iconv.getCodec = function getCodec(encoding) {
         iconv.encodings = require("../encodings"); // Lazy load all encoding definitions.
     
     // Canonicalize encoding name: strip all non-alphanumeric chars and appended year.
-    var enc = (''+encoding).toLowerCase().replace(/[^0-9a-z]|:\d{4}$/g, "");
+    var enc = iconv._canonicalizeEncoding(encoding);
 
     // Traverse iconv.encodings to find actual codec.
     var codecOptions = {};
@@ -108,6 +108,11 @@ iconv.getCodec = function getCodec(encoding) {
     }
 }
 
+iconv._canonicalizeEncoding = function(encoding) {
+    // Canonicalize encoding name: strip all non-alphanumeric chars and appended year.
+    return (''+encoding).toLowerCase().replace(/:\d{4}$|[^0-9a-z]/g, "");
+}
+
 iconv.getEncoder = function getEncoder(encoding, options) {
     var codec = iconv.getCodec(encoding),
         encoder = new codec.encoder(options, codec);
@@ -144,5 +149,5 @@ if (nodeVer) {
 }
 
 if ("Ā" != "\u0100") {
-    console.error("iconv-lite warning: javascript files are loaded not with utf-8 encoding. See https://github.com/ashtuchkin/iconv-lite/wiki/Javascript-source-file-encodings for more info.");
+    console.error("iconv-lite warning: javascript files use encoding different from utf-8. See https://github.com/ashtuchkin/iconv-lite/wiki/Javascript-source-file-encodings for more info.");
 }

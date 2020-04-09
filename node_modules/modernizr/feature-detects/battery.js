@@ -5,9 +5,9 @@
   "aliases": ["battery-api"],
   "builderAliases": ["battery_api"],
   "tags": ["device", "media"],
-  "authors": ["Paul Sayre"],
+  "authors": ["Paul Sayre", "Alex Bradley (@abrad1212)"],
   "notes": [{
-    "name": "MDN documentation",
+    "name": "MDN Docs",
     "href": "https://developer.mozilla.org/en/DOM/window.navigator.mozBattery"
   }]
 }
@@ -16,5 +16,5 @@
 Detect support for the Battery API, for accessing information about the system's battery charge level.
 */
 define(['Modernizr', 'prefixed'], function(Modernizr, prefixed) {
-  Modernizr.addTest('batteryapi', !!prefixed('battery', navigator), {aliases: ['battery-api']});
+  Modernizr.addTest('batteryapi', !!prefixed('battery', navigator) || !!prefixed('getBattery', navigator), {aliases: ['battery-api']});
 });
