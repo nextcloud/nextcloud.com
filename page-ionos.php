@@ -214,13 +214,14 @@ imagedestroy($image);
                     <em><?php echo $l->t('Special pricing for education, government and larger numbers on request in Notes section.');?></em><br />
                     <select name="users" onChange="setUsers()">
                         <?php
-                            for ($i=1; $i<=200; $i++)
+                            for ($i=5; $i<=200; $i++)
                             {
                                 ?>
                                     <option value="<?php echo $i;?>"><?php echo $i;?></option>
                                 <?php
                             }
                         ?>
+                            <option value="201"><?php echo $l->t('more');?></option>
                     </select></label></p>
         <!-- 			<p class="question"><label for="edition"><?php echo $l->t('Which Nextcloud Support Subscription are you interested in?');?></p> -->
         <!-- 			<p class="details"><?php echo $l->t('Our Basic subscription offers email support with a 3 day response time,<br/> Standard offers business hours phone support with a 2 day response time.');?></p> -->
@@ -274,8 +275,8 @@ imagedestroy($image);
                     </p>
                     <h2 class="price"><?php echo $l->t('Price per month: ');?><span id="totalprice"></span><br></h2>
                     <p class="hidden"><input type="checkbox" name="dollars" value="dollars" onChange="doCalculation()"> <?php echo $l->t(' in dollars');?></p>
-                    <p><?php echo $l->t('<label for="comments">Notes<br />
-                    <textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="Questions, comments, special needs? Do you represent a government, educational or charitable business? Let us know and we can provide you a custom offer or answers to your questions."></textarea></label>');?></p>
+                    <p><label for="comments">Notes<br />
+                    <textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="<?php echo $l->t('Questions, comments, special needs? Do you represent a government, educational or charitable business or need more than 200 users? Let us know and we can provide you a custom offer or answers to your questions.');?>"></textarea></label></p>
                     <p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?> <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
                     <p>Note: all prices excl. VAT</p>
                     <p><label for="captcha"><?php echo $l->t('Please calculate the following sum');?> <span></span><br>
@@ -311,13 +312,14 @@ imagedestroy($image);
 		    var selectedUsersNumber = theForm.elements["users"];
 			var edugovDiscount = theForm.elements["edugov"];
 		    //set users price based on the number of users chosen and the edition. Yes, we could calculate this but that is complicated and it is easier updated as well this way.
-            console.log(selectedUsersNumber.value);
+//             console.log(selectedUsersNumber.value);
 			usersPrice = usersNumber.value * 9.5;
 
 			// apply multi-year discount and edu/gov/charity discount
 			usersPrice = multiYearDiscount(edugovcharDiscount(usersPrice));
 
 		    //finally we return usersPrice
+// 		    console.log(usersPrice.value);
 		    return usersPrice;
 		}
 
@@ -411,7 +413,7 @@ imagedestroy($image);
 			// collabora, Outlook and remote install only with Standard
 			if(includeOutlook.checked==true)
 			{
-				outlookPrice = multiYearDiscount(selectedUsersNumber.value * 5);
+				outlookPrice = multiYearDiscount(selectedUsersNumber.value * 0.5);
 				// apply edu/gov/charity discount
 				outlookPrice = edugovcharDiscount(outlookPrice);
 				optionsPrice = optionsPrice + outlookPrice;
@@ -433,19 +435,26 @@ imagedestroy($image);
 // 			var edugovDiscount = theForm.elements["edugov"];
 		    //Each function returns a number so by calling them we add the values they return together
 		    var finalPrice = round_to_precision(getUsersPrice() + getOptionsPrice(), 0.5);
-
+            var selectedUsersNumber = theForm.elements["users"];
 			//display the result (dollars or euro's)
-			if(inDollars.checked==false)
-			{
-				document.getElementById('totalprice').innerHTML = " € "+finalPrice.toFixed(2);
-		    }
-		    if(inDollars.checked==true)
-			{
-			var finalPrice = finalPrice * 1.1;
-				document.getElementById('totalprice').innerHTML = " $ "+finalPrice.toFixed(2);
-			}
-			return +finalPrice.toFixed(2);
-		}
+// 			if(usersNumber<201) {
+                if(inDollars.checked==false)
+                {
+                    document.getElementById('totalprice').innerHTML = " € "+finalPrice.toFixed(2);
+                }
+                if(inDollars.checked==true)
+                {
+                var finalPrice = finalPrice * 1.1;
+                    document.getElementById('totalprice').innerHTML = " $ "+finalPrice.toFixed(2);
+                }
+//             }
+            console.log(selectedUsersNumber.value);
+            if(selectedUsersNumber.value == "201")
+            {
+                document.getElementById('totalprice').innerHTML = "custom";
+            }
+                return +finalPrice.toFixed(2);
+        }
 		var firstCall = true;
 		function checkSubscription() {
 			//disable optional features when basic subscription is chosen; enable submit button when terms are accepted

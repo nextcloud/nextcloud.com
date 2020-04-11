@@ -208,6 +208,7 @@ if(isset($_POST['email'])) {
         error_log("JS ($givenprice)calculated something different than PHP ($price) " . json_encode($_POST));
     }
 
+
     function clean_string($string) {
         $bad = array("content-type","bcc:","to:","cc:","href");
         $string = str_replace($bad,"",$string);
@@ -215,6 +216,10 @@ if(isset($_POST['email'])) {
     }
 
     if($error_message === '') {
+        if($users == "201") {
+            $givenprice = "requesting quote";
+            $users = "more than 200, details below";
+        }
 		// the app review mailing list address
 		$email_subject = "IONOS_Viakom_Order_form from " . clean_string($organization);
 
@@ -248,8 +253,9 @@ if(isset($_POST['email'])) {
 			'Cc: ' . $email_from . "\r\n" .
             'Content-Type: text/plain; charset=UTF-8';
 		// Send the email
-		$recipients = ['orders'];
-// 		$recipients = ['jos']; // for testing
+// 		$recipients = ['orders'];
+		$recipients = ['sales'];
+		$recipients = ['jos']; // for testing
 		$successfullySend = true;
 		foreach ($recipients as $recipient) {
 			$successfullySend &= mail($recipient . '@nextcloud.com', $email_subject, $email_message, $headers);
