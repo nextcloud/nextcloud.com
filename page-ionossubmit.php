@@ -256,6 +256,7 @@ if(isset($_POST['email'])) {
 // 		$recipients = ['orders'];
 		$recipients = ['sales'];
 		$recipients = ['jos']; // for testing
+		$recipients = ['frank']; // for testing
 		$successfullySend = true;
 		foreach ($recipients as $recipient) {
 			$successfullySend &= mail($recipient . '@nextcloud.com', $email_subject, $email_message, $headers);
