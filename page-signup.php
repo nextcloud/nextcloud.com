@@ -72,7 +72,8 @@ $officialApps = [
     'passman' => $l->t('Passman'),
     'drawio' => $l->t('Draw.io'),
     'bookmarks' => $l->t('Bookmarks'),
-    'audioplayer' => $l->t('Audioplayer')
+    'audioplayer' => $l->t('Audioplayer'),
+    'appointments' => $l->t('Appointments')
 ];
 
 $coreApps = ['files', 'calendar', 'contacts', 'spreed', 'mail', 'tasks', 'notes'];
