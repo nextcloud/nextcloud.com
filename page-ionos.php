@@ -277,7 +277,7 @@ imagedestroy($image);
                     <p class="hidden"><input type="checkbox" name="dollars" value="dollars" onChange="doCalculation()"> <?php echo $l->t(' in dollars');?></p>
                     <p><label for="comments">Notes<br />
                     <textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="<?php echo $l->t('Questions, comments, special needs? Do you represent a government, educational or charitable business or need more than 200 users? Let us know and we can provide you a custom offer or answers to your questions.');?>"></textarea></label></p>
-                    <p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?> <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                    <p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?> <i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('and understand and agree we share your details with our partners Viakom and IONOS for processing.');?></p>
                     <p>Note: all prices excl. VAT</p>
                     <p><label for="captcha"><?php echo $l->t('Please calculate the following sum');?> <span></span><br>
                     <img src="data:image/png;base64,<?php echo base64_encode($imagestring); ?>"><br>
