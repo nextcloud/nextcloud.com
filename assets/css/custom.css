@@ -5452,7 +5452,7 @@ footer.page-footer {
       .second-menu .menu .buttons .button--blue:before {
         background: none; }
     .second-menu .menu .buttons .button.button--blue.active {
-      background-color: white !important;
+      background-color: white;
       border: 1px solid #0082c9; }
 
 .background {
@@ -7239,6 +7239,9 @@ footer.page-footer {
   min-width: 16px;
   min-height: 16px; }
 
+.app-appointments {
+  background-image: url("../img/apps/appointments.svg"); }
+
 .app-audioplayer {
   background-image: url("../img/apps/audioplayer.svg"); }
 
@@ -7254,15 +7257,14 @@ footer.page-footer {
 .app-contacts {
   background-image: url("../img/apps/contacts.svg"); }
 
-.app-files,
-.app-core {
-  background-image: url("../img/apps/files.svg"); }
-
 .app-deck {
   background-image: url("../img/apps/deck.svg"); }
 
 .app-drawio {
   background-image: url("../img/apps/drawio.svg"); }
+
+.app-files {
+  background-image: url("../img/apps/files.svg"); }
 
 .app-fulltextsearch {
   background-image: url("../img/apps/fulltextsearch.svg"); }
@@ -7285,6 +7287,9 @@ footer.page-footer {
 .app-passman {
   background-image: url("../img/apps/passman.svg"); }
 
+.app-photos {
+  background-image: url("../img/apps/photos.svg"); }
+
 .app-spreed {
   background-image: url("../img/apps/spreed.svg"); }
 
@@ -7293,6 +7298,9 @@ footer.page-footer {
 
 .app-twofactor_totp {
   background-image: url("../img/apps/twofactor_totp.svg"); }
+
+.app-twofactor_u2f {
+  background-image: url("../img/apps/twofactor_u2f.svg"); }
 
 /*!
  *  Fork Awesome 1.1.0, originaly by Dave Gandy - http://forkawesome.github.io/Fork-Awesome/

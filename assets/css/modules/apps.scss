@@ -6,6 +6,9 @@
   min-height: 16px;
 }
 
+.app-appointments {
+    background-image: url('../img/apps/appointments.svg');
+}
 .app-audioplayer {
     background-image: url('../img/apps/audioplayer.svg');
 }
@@ -21,15 +24,14 @@
 .app-contacts {
     background-image: url('../img/apps/contacts.svg');
 }
-.app-files,
-.app-core {
-    background-image: url('../img/apps/files.svg');
-}
 .app-deck {
     background-image: url('../img/apps/deck.svg');
 }
 .app-drawio {
     background-image: url('../img/apps/drawio.svg');
+}
+.app-files {
+    background-image: url('../img/apps/files.svg');
 }
 .app-fulltextsearch {
     background-image: url('../img/apps/fulltextsearch.svg');
@@ -52,6 +54,9 @@
 .app-passman {
     background-image: url('../img/apps/passman.svg');
 }
+.app-photos {
+    background-image: url('../img/apps/photos.svg');
+}
 .app-spreed {
     background-image: url('../img/apps/spreed.svg');
 }
@@ -60,4 +65,7 @@
 }
 .app-twofactor_totp {
     background-image: url('../img/apps/twofactor_totp.svg');
+}
+.app-twofactor_u2f {
+    background-image: url('../img/apps/twofactor_u2f.svg');
 }
