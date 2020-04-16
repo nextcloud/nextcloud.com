@@ -22,7 +22,7 @@
 <h2>The Nextcloud Marks</h2>
 <p>Nextcloud and the Nextcloud Logo is a registered trademark of <a href="http://nextcloud.com" target="_blank">Nextcloud GmbH.</a> in Germany and/or other countries.</p>
 
-<p>These guidelines cover the following marks pertaining both to the product name and the logo: Nextcloud and the blue/white cloud logo with or without the word Nextcloud. This set of marks is collectively referred to as the "Nextcloud Marks."</p>
+<p>These guidelines cover the following marks pertaining both to the product names and the logo: "Nextcloud" and the blue/white cloud logo with or without the word Nextcloud; the service "Nextcloud Enterprise"; and our products: "Nextcloud Files"; "Nextcloud Groupware" and "Nextcloud Talk". This set of marks is collectively referred to as the "Nextcloud Marks."</p>
 
 <h2>General Guidelines for Using the Nextcloud Marks</h2>
 
@@ -56,7 +56,7 @@
 <p>You may use the Nextcloud Marks to identify your Nextcloud installation under the following conditions:</p>
 <ul>
 <li>You have not made any modifications to the Nextcloud Server itself. You are of course allowed to make modifications, but then you MUST remove our trademarks as it is no longer Nextcloud. Modifications to the Nextcloud Server here are defined as those which would would require you to provide them in source form to any user who asks under the <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank">license of the AGPLv3</a>.</li>
-<li>If you advertise your server to third parties (for example on a website), note that you have to follow all stipulations in the <a href="#advertising">Advertising section</a></li>
+<li>If you advertise your server or any of your services related to Nextcloud to third parties (for example on a website), note that you have to follow all stipulations in the <a href="#advertising">Advertising section</a> and we expect you to respect our copyright. That means, do not use our texts, images or other copy and content from our website.</li>
 </ul>
 <p>Note that enabling Nextcloud apps from our <strong>official app store</strong> and the basic configuration of your server are not considered changes or modifications to Nextcloud. Disabling or removing apps we ship by default (which includes Talk, Groupware, our updater, our support app, Pictures and others) or <strong>adding apps which are not in our app store</strong> IS considered a modification of Nextcloud and requires complete <strong>removing of our branding and marks.</strong></p>
 
@@ -173,8 +173,11 @@ Our purpose here is to control the experience of Nextcloud business users. To be
 	<li>Your description, advertising, or other use does not contain content that could be construed as distasteful, offensive, or controversial, and only does contain content that is appropriate for all age groups;</li>
 	<li>Your use of the Nextcloud Marks does not include or imply any commitment by the Nextcloud Community to provide support, service, indemnification, or updates; and</li>
 	<li>Your use of the Nextcloud Marks does not create the impression that you provide Nextcloud support, services or products that are related to or can be mistaken for Nextcloud support, services or products as provided by Nextcloud GmbH.</li>
+	<li>You must explicitly make clear that your service is not backed by or supported by Nextcloud GmbH and you must link to https://nextcloud.com/enterprise so prospective customers can appreciate the difference and make an informed decision. For this, you can state something like <em>"This service is not backed by <a href="https://nextcloud.com/enterprise"> Nextcloud GmbH services</a>"</em> in a style that fits with the rest of the page where you describe your service or pricing.</li>
 </ul>
 <p>We reserve the right to deny allowing your use of our trademark for any reason, including but not limited to a determination that your usage creates confusion for our users, damages or mis-represents our brand, is a breach of any of the stipulations above or for any other reason, at any time.</p>
+<p><strong>Explicit exemptions:<strong></p>
+<p>The use of the Nextcloud marks for the service "Nextcloud Enterprise"; and our products: "Nextcloud Files"; "Nextcloud Groupware" and "Nextcloud Talk" are explicitly reserved for use by Nextcloud GmbH and certified partners.</p>
 
 <p>Online advertising is excempt from this permission, that is, you are not allowed to use keyword based online marketing campaigns like Google Adwords, Facebook ads and similar to advertise your Nextcloud services.</p>
 
@@ -192,6 +195,6 @@ Our purpose here is to control the experience of Nextcloud business users. To be
 
 <h2>License for these Guidelines</h2>
 <p>These Guidelines are published under Version 3 of the Creative Commons Attribution Share-Alike License, and are derived in part from the openSUSE Trademark Guidelines (April 20, 2015), which in turn is derived in part from the OpenSolaris Trademark Policy 1.0 (May 5, 2008), the Ubuntu and Mozilla Trademark guidelines.</p>
-<p>We reserve the right to make changes to the guidelines at any time without notification. We last updated the guidelines on March 12 2020.</p>
+<p>We reserve the right to make changes to the guidelines at any time without notification. We last updated the guidelines on April 16 2020.</p>
 </div>
 </section>
