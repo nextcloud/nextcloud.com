@@ -173,9 +173,9 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<h1 class="header">Nextcloud modules available</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check" title="<?php echo $l->t('Makes it easy to sync, share and collaborate on your files');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://nextcloud.com/files/">Nextcloud Files</a>');?></li>
-					<li class="check" title="<?php echo $l->t('Secure online meetings, chat and web conferencing');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-talk">Nextcloud Talk</a>');?></li>
-					<li class="check" title="<?php echo $l->t('Team planning and email made easy');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-groupware">Nextcloud Groupware</a>');?></li>
+					<li class="check" title="<?php echo $l->t('Makes it easy to sync, share and collaborate on your files');?>" rel="tooltip"><a class="hyperlink" href="https://nextcloud.com/files/"><?php echo $l->t('Nextcloud Files');?></a></li>
+					<li class="check" title="<?php echo $l->t('Secure online meetings, chat and web conferencing');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-talk"><?php echo $l->t('Nextcloud Talk');?></a></li>
+					<li class="check" title="<?php echo $l->t('Team planning and email made easy');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-groupware"><?php echo $l->t('Nextcloud Groupware');?></a></li>
 				</div>
 				<h1 class="header"><?php echo $l->t('Benefits');?></h1>
 				<div class="line"></div>
