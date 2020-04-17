@@ -286,7 +286,7 @@ imagedestroy($image);
                     <td colspan="2" style="text-align:center">
                     <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
                     <input type="submit" name="submit" value=" Order Now " disabled="disabled" class="button button--blue"><br />
-                    <span id="form-error"><?php echo $l->t('Some required fields are not filled.'); ?></span>
+                    <span id="form-error"><?php echo $l->t('Some required fields are not filled. Scroll up to check what the problem is. Note the form does not support special characters.'); ?></span>
                 </form>
             </div>
 	</div>
