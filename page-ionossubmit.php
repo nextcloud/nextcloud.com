@@ -254,9 +254,9 @@ if(isset($_POST['email'])) {
             'Content-Type: text/plain; charset=UTF-8';
 		// Send the email
 // 		$recipients = ['orders'];
-		$recipients = ['sales'];
-		$recipients = ['jos']; // for testing
-		$recipients = ['frank']; // for testing
+// 		$recipients = ['sales', 'jos', 'frank'];
+		$recipients = ['jos','sales','frank']; // for testing
+// 		$recipients = ['frank']; // for testing
 		$successfullySend = true;
 		foreach ($recipients as $recipient) {
 			$successfullySend &= mail($recipient . '@nextcloud.com', $email_subject, $email_message, $headers);
