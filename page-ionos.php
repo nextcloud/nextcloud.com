@@ -575,7 +575,7 @@ imagedestroy($image);
 					yourName.classList.remove('error');
 					yourNameError.html('');
 				} else {
-					var message = '<?php echo $l->t("The name you entered does not appear to be valid.");?>';
+					var message = '<?php echo $l->t("The name you entered does not appear to be valid. Please only use characters a-z and A-Z.");?>';
 					yourNameError.html('<br />'  + message);
 					yourName.classList.add('error');
 					enableSubmitButton = false;
@@ -593,7 +593,7 @@ imagedestroy($image);
 					email.classList.remove('error');
 					emailError.html('');
 				} else {
-					var message = '<?php echo $l->t("The email address you entered does not appear to be valid.");?>';
+					var message = '<?php echo $l->t("The email address you entered does not appear to be valid. Please only use characters a-z and A-Z and numbers.");?>';
 					emailError.html('<br />'  + message);
 					email.classList.add('error');
 					enableSubmitButton = false;
