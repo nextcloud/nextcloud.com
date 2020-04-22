@@ -399,7 +399,7 @@
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Scaling in enterprise setup');?></p>
 			<p class="section--paragraph"><?php echo $l->t('To help with scaling, users can disable video. Sending audio and video, as well as the compute power required to decode the video streams on clients, are the biggest limiting factors, with most asymetric internet connections bottlenecked on upstream bandwidth and laptops and mobile devices especially having trouble decoding multipe 480P/30FPS video streams.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Also note that the current releases of Firefox and Safari have a number of limitations in their handling of online video calls that increase bandwidth use significantly. Using Chrome based browsers decreases the needed bandwidth and allows more participants in a call.');?></p>
+<!-- 			<p class="section--paragraph"><?php echo $l->t('Also note that the current releases of Firefox and Safari have a number of limitations in their handling of online video calls that increase bandwidth use significantly. Using Chrome based browsers decreases the needed bandwidth and allows more participants in a call.');?></p> -->
 			<p class="section--paragraph"><?php echo $l->t('The High Performance Back-end offered by Nextcloud partner Struktur includes a Selective Forward Unit (SFU) which solves this bottleneck by receiving one stream from each user and forwarding it as needed. This allows scaling a single call to about 30-50 active participants, up to hundreds when doing a webinar.');?></p>
 		</div>
 	</div>
