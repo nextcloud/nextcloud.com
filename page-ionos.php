@@ -196,7 +196,7 @@ imagedestroy($image);
                     <input  type="text" name="email" maxlength="80" size="60" placeholder="john@example.org" onChange="doCalculation()"></label>
                     <span id="email-error" class="error"></span>
                     </p>
-                    <p><label for="organization"><?php echo $l->t('Organization');?> *<br>
+                    <p><label for="organization"><?php echo $l->t('Organization');?> * <small>(<?php echo $l->t('Note that this offer is not available for private customers');?>)</small><br>
                     <input  type="text" name="organization" maxlength="100" size="60" placeholder="Example AG" onChange="doCalculation()"></label></p>
                     <p><label for="website"><?php echo $l->t('Website');?><br>
                     <input  type="text" name="website" maxlength="100" size="60" placeholder="https://example.org"></label></p>
