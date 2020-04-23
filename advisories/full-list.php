@@ -2,6 +2,22 @@
 
 <h2>2020</h2>
 
+<h3>Mail App 1.1.4</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-020">Mail app not verifying TLS host of mail servers (NC-SA-2020-020)</a> 2020-03-24</li>
+</ul>
+
+<h3>Nextcloud Server 18.0.3</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-019">XSS in Files PDF viewer (NC-SA-2020-019)</a> 2020-03-18</li>
+	<li><a href="/security/advisory/?id=NC-SA-2020-018">Missing ownership check on remote wipe endpoint (NC-SA-2020-018)</a> 2020-03-18</li>
+</ul>
+
+<h3>Nextcloud Server 17.0.5</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-018">Missing ownership check on remote wipe endpoint (NC-SA-2020-018)</a> 2020-03-18</li>
+</ul>
+
 <h3>Desktop Client 2.6.3</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2020-016">Code injection in Nextcloud Desktop Client for macOS (NC-SA-2020-016)</a> 2020-02-17</li>
