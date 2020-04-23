@@ -248,19 +248,28 @@ if(isset($_POST['email'])) {
 		$email_message .= "Signed terms: " . clean_string($terms) . "\n\n";
 
 		// create email headers
-		$headers = 'From: sales@nextcloud.com' . "\r\n" .
+// 		$headers = 'From: sales@nextcloud.com' . "\r\n" .
+// 			'Reply-To:  ' . $email_from . ', sales@nextcloud.com' . "\r\n" .
+// 			'Cc: ' . $email_from . "\r\n" .
+//             'Content-Type: text/plain; charset=UTF-8';
+            $headers = 'From: sales@nextcloud.com' . "\r\n" .
 			'Reply-To:  ' . $email_from . ', sales@nextcloud.com' . "\r\n" .
-			'Cc: ' . $email_from . "\r\n" .
             'Content-Type: text/plain; charset=UTF-8';
 		// Send the email
 // 		$recipients = ['orders'];
 // 		$recipients = ['sales', 'jos', 'frank'];
-		$recipients = ['jos','sales','frank']; // for testing
+		$recipients = ['jos','viakom-sales','frank'];
+// 		$recipients = ['jos','jos.poortvliet',]; // for testing
 // 		$recipients = ['frank']; // for testing
 		$successfullySend = true;
 		foreach ($recipients as $recipient) {
 			$successfullySend &= mail($recipient . '@nextcloud.com', $email_subject, $email_message, $headers);
 		}
+		// send to user themselves
+
+		$email_message_user = "Thank you for your submission! The form contents below have been send to our sales team.\n\n" . $email_message;
+
+		mail($email_from, $email_subject, $email_message_user, $headers);
         // store in log
         $data = [
                 'subject' => $email_subject,
@@ -277,6 +286,7 @@ if(isset($_POST['email'])) {
             <pre><?php
 				echo $email_message;
 				?></pre>
+				<p><?php echo $l->t('Find a copy in your inbox.');?></p>
 			<?php
 		} else {
 			// TODO: log something here
