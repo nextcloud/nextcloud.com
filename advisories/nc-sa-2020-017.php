@@ -16,7 +16,7 @@
         <p>Improper access control in Groupfolders app 4.0.3 allowed to delete hidden directories when when renaming an accessible item to the same name.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Groupfolders &lt; <strong>4.0.4</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Groupfolders &lt; <strong>4.0.4</strong> (CVE-2020-8153)</li>
 
         </ul>
         <h3>Action Taken</h3>
