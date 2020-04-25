@@ -31,13 +31,13 @@
     </ul>
 
     <a name="latest18"></a>
-<h3 id="18-0-3">Version 18.0.3 <small>April 24 2020</small></h3>
-<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.3.tar.bz2">nextcloud-18.0.3.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.3.zip">nextcloud-18.0.3.zip</a></br>
+<h3 id="18-0-4">Version 18.0.4 <small>April 24 2020</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.4.tar.bz2">nextcloud-18.0.4.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.4.zip">nextcloud-18.0.4.zip</a></br>
 Check the file integrity with:</br>
-MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.3.tar.bz2.md5">nextcloud-18.0.3.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.3.zip.md5">nextcloud-18.0.3.zip.md5</a></br>
-SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.3.tar.bz2.sha256">nextcloud-18.0.3.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.3.zip.sha256">nextcloud-18.0.3.zip.sha256</a></br>
-SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.3.tar.bz2.sha512">nextcloud-18.0.3.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.3.zip.sha512">nextcloud-18.0.3.zip.sha512</a></br>
-PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.3.tar.bz2.asc">nextcloud-18.0.3.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.3.zip.asc">nextcloud-18.0.3.zip.asc</a></p>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.4.tar.bz2.md5">nextcloud-18.0.4.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.4.zip.md5">nextcloud-18.0.4.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.4.tar.bz2.sha256">nextcloud-18.0.4.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.4.zip.sha256">nextcloud-18.0.4.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.4.tar.bz2.sha512">nextcloud-18.0.4.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.4.zip.sha512">nextcloud-18.0.4.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.4.tar.bz2.asc">nextcloud-18.0.4.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.4.zip.asc">nextcloud-18.0.4.zip.asc</a></p>
 
 <h4>Changes</h4>
 <ul>
