@@ -1,4 +1,4 @@
-<!-- <!-- s<head> --> -->
+<head
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/modules/jquery-321.min.js"></script>
 <script>
 	require(["require.config"], function() {
@@ -6,11 +6,11 @@
 	});
 </script>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/compare.css?v=1" rel="stylesheet">
-</head>
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/comparison.png">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/comparison.png">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/comparison.png">
 <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/comparison.png">
+</head>
 <body>
 
 <section class="compare-hero-section">
