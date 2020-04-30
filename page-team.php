@@ -63,6 +63,18 @@
 				<p class="teamdescription">Andreas studied Economics and has 20 years experience in Business Development, Partner- and Sales Management. Andreas worked for companies like Oracle, EMC, Yahoo and Google and also for start ups in the Cloud Computing and Online Marketing space.</p>
 			</div>
 		</div>
+	<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/markus.jpg" />
+				<h2 class="teamname">Markus Windecker</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Account and Partner Manager</h3>
+					<h4 class="teamlocation">lives in Herrenberg, Germany</h4>
+					<p class="teamsocial"><a href="http://www.linkedin.com/in/markus-windecker-43a723b2"><i class="fa-linkedin fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Markus has over 19 years experience as Account and Partner manager at HP and Hewlett Packard Enterprise and Aruba.</p>
+			</div>
+		</div>		
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/fabian.jpg" />
@@ -76,6 +88,32 @@
 				<p class="teamdescription">Fabian worked for various industries always close to the customer and has been in the IT industry now for several years with a focus on customer relationship management. He is passionate about innovative and new technologies and his primary goal is to help our customers to fulfill their vision.</p>
 			</div>
 		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/andre.jpg" />
+				<h2 class="teamname">André Höche</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Account manager</h3>
+					<h4 class="teamexpertise">Sales</h4>
+					<h4 class="teamlocation">lives in Germany</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/andré-höche-195aa910"><i class="fa-linkedin fa"></i></a></p>
+				</div>
+				<p class="teamdescription">........</p>
+			</div>
+		</div>				
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/olivier.jpg" />
+				<h2 class="teamname">Olivier Paroz</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Head of Professional Services</h3>
+					<h4 class="teamexpertise">Consulting and Sales</h4>
+					<h4 class="teamlocation">lives in Basel, Switzerland</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/olivierparoz"><i class="fa-rss fa"></i></a> <a href="https://github.com/oparoz"><i class="fa-github fa"></i></a> <a href="https://twitter.com/oparoz"><i class="fa-twitter fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Olivier studied Economics and Information and Communications Systems Management at the University of Geneva. He contributed to ownCloud for several years and has close to 20 years experience in Consulting, Business Development and large scale deployments. He has helped customers in a broad range of industies both in the private and public sector, with a focus on open source, usability, security and privacy.</p>
+			</div>
+		</div>		
         <div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/edeltraut.jpg" />
@@ -102,34 +140,19 @@
 				<p class="teamdescription">Nina studied Business and Management at HEC Paris. Nina is specialized in GDPR compliance and cybersecurity. She works as an Account Manager on the French Market and she is based in Lyon. She co-directed <i>Numérique, reprendre le contrôle</i> in 2016.</p>
 			</div>
 		</div>
-
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/olivier.jpg" />
-				<h2 class="teamname">Olivier Paroz</h2>
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vanessa.jpg" />
+				<h2 class="teamname">Vanessa Steeg</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Head of Professional Services</h3>
-					<h4 class="teamexpertise">Consulting and Sales</h4>
-					<h4 class="teamlocation">lives in Basel, Switzerland</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/olivierparoz"><i class="fa-rss fa"></i></a> <a href="https://github.com/oparoz"><i class="fa-github fa"></i></a> <a href="https://twitter.com/oparoz"><i class="fa-twitter fa"></i></a></p>
+					<h3 class="teamtitle">Project Manager</h3>
+					<h4 class="teamexpertise">Marketing, Media design and Project Management</h4>
+					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+					<p class="teamsocial"><!--<a href="http://blog.jospoortvliet.com/"><i class="fa-rss fa"></i></a>--> <!--<a href="https://github.com/jospoortvliet"><i class="fa-github fa"></i></a>--> <!--<a href="https://twitter.com/vanesteeg"><i class="fa-twitter fa"></i></a>--> &nbsp;</p>
 				</div>
-				<p class="teamdescription">Olivier studied Economics and Information and Communications Systems Management at the University of Geneva. He contributed to ownCloud for several years and has close to 20 years experience in Consulting, Business Development and large scale deployments. He has helped customers in a broad range of industies both in the private and public sector, with a focus on open source, usability, security and privacy.</p>
+				<p class="teamdescription">Vanessa has a degree in Media Design and qualifications as Executive Assistant in various languages (German, English and Spanish). Her experience ranges from project management to graphic design, marketing and communication.</p>
 			</div>
 		</div>
-
-        <div class="col-md-4">
-            <div class="teamp">
-                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marija.jpg" />
-                <h2 class="teamname">Marija Puselja</h2>
-                <div class="teammeta">
-                    <h3 class="teamtitle">Marketing and PR</h3>
-                    <h4 class="teamexpertise">Marketing and PR</h4>
-                    <h4 class="teamlocation">lives in Berlin, Germany</h4>
-                    <p class="teamsocial"><a href="https://www.linkedin.com/in/marija-puselja"><i class="fa-rss fa"></i></a></p>
-                </div>
-                <p class="teamdescription">Originally from Croatia, Marija has a degree in Journalism and Public Relations. She finds her inspiration in the strength of visual delivery of information through photography, as much as she admires the creativity of witty and intelligent writing and finally, a well-executed layout and design.</p>
-            </div>
-        </div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/bjoern.jpg" />
@@ -156,18 +179,6 @@
 				<p class="teamdescription">Matthias worked for nine years as a 3rd level IT Engineer and IT Administrator. Acting as a broker between the customer, the Sales and Engineering department, his main focus is to give our clients the best possible advice. Matthias is passionate about innovative technology, enabling clients to collaborate securely while retaining ease-of-use.</p>
 			</div>
 		</div>
-	<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/markus.jpg" />
-				<h2 class="teamname">Markus Windecker</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Account and Partner Manager</h3>
-					<h4 class="teamlocation">lives in Herrenberg, Germany</h4>
-					<p class="teamsocial"><a href="http://www.linkedin.com/in/markus-windecker-43a723b2"><i class="fa-linkedin fa"></i></a></p>
-				</div>
-				<p class="teamdescription">Markus has over 19 years experience as Account and Partner manager at HP and Hewlett Packard Enterprise and Aruba.</p>
-			</div>
-		</div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/sascha.jpg" />
@@ -178,19 +189,6 @@
 					<p class="teamsocial"><a href="https://www.linkedin.com/in/wiswedel"><i class="fa-linkedin fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Sascha has worked as account manager, sales engineer and application developer in the software industry and in the public sector. He is specialized in transformation and migration of data and processes. Sascha likes finding pragmatic solutions for grown environments and infrastructures.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/patrick.jpg" />
-				<h2 class="teamname">Patrick Walther</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Sales Manager</h3>
-					<h4 class="teamexpertise">Sales and Finance</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><!--<a href="https://www.schilljs.com/"><i class="fa-rss fa"></i></a>--> <!--<a href="https://github.com/nickvergessen"><i class="fa-github fa"></i></a>--> <!--<a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a>--> &nbsp; </p>
-				</div>
-				<p class="teamdescription">Patrick was co-founder of struktur AG in 2000, responsible for sales and finance. He held several sales and marketing positions at IBM and Oracle, adding up to more than two decades of experience in the IT industry.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -207,8 +205,8 @@
 			</div>
 		</div>
         <div class="col-md-4">
-			<div class="teamp">
-                    <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marinela.jpg" />
+		<div class="teamp">
+        <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marinela.jpg" />
 				<h2 class="teamname">Marinela Gogo</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Online Marketer</h3>
@@ -218,7 +216,20 @@
 				</div>
 				<p class="teamdescription">Marinela studied Business Informatics in the Faculty of Economics, University of Tirana. She got involved in open source in 2015, first by contributing to open source projects and then, in 2016, she started co-organizing events or conferences in Tirana to promote software freedom, open knowledge and the importance of open source in the public sector.</p>
 			</div>
+    </div>
+    <div class="col-md-4">
+        <div class="teamp">
+            <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marija.jpg" />
+            <h2 class="teamname">Marija Puselja</h2>
+            <div class="teammeta">
+                <h3 class="teamtitle">Marketing and PR</h3>
+                <h4 class="teamexpertise">Marketing and PR</h4>
+                <h4 class="teamlocation">lives in Berlin, Germany</h4>
+                <p class="teamsocial"><a href="https://www.linkedin.com/in/marija-puselja"><i class="fa-rss fa"></i></a></p>
+            </div>
+            <p class="teamdescription">Originally from Croatia, Marija has a degree in Journalism and Public Relations. She finds her inspiration in the strength of visual delivery of information through photography, as much as she admires the creativity of witty and intelligent writing and finally, a well-executed layout and design.</p>
         </div>
+    </div>        
 <!--		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/lukas.jpg" />
@@ -247,19 +258,6 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vanessa.jpg" />
-				<h2 class="teamname">Vanessa Steeg</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Project Manager</h3>
-					<h4 class="teamexpertise">Marketing, Media design and Project Management</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><!--<a href="http://blog.jospoortvliet.com/"><i class="fa-rss fa"></i></a>--> <!--<a href="https://github.com/jospoortvliet"><i class="fa-github fa"></i></a>--> <!--<a href="https://twitter.com/vanesteeg"><i class="fa-twitter fa"></i></a>--> &nbsp;</p>
-				</div>
-				<p class="teamdescription">Vanessa has a degree in Media Design and qualifications as Executive Assistant in various languages (German, English and Spanish). Her experience ranges from project management to graphic design, marketing and communication.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
 				<h2 class="teamname">Jan-Christoph Borchardt</h2>
 				<div class="teammeta">
@@ -269,6 +267,19 @@
 					<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jancborchardt"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jancborchardt"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Jan-Christoph is responsible for design on ownCloud since early 2011, continuing at Nextcloud. He pushes forward better design in open source through founding and contributing to several projects, giving talks, working with universities, and fostering the Open Source Design collective.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/patrick.jpg" />
+				<h2 class="teamname">Patrick Walther</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Sales Manager</h3>
+					<h4 class="teamexpertise">Sales and Finance</h4>
+					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+					<p class="teamsocial"><!--<a href="https://www.schilljs.com/"><i class="fa-rss fa"></i></a>--> <!--<a href="https://github.com/nickvergessen"><i class="fa-github fa"></i></a>--> <!--<a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a>--> &nbsp; </p>
+				</div>
+				<p class="teamdescription">Patrick was co-founder of struktur AG in 2000, responsible for sales and finance. He held several sales and marketing positions at IBM and Oracle, adding up to more than two decades of experience in the IT industry.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
