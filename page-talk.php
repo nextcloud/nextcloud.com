@@ -411,7 +411,7 @@
 			<p class="section--paragraph__tittle"><?php echo $l->t('Scaling further: webinars, school classes');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Webinars and other large scale broadcasting type calls are possible with hundreds of participants. The High Performance Back-end setup includes special features for this.');?></p>
 			<p class="section--paragraph__tittle"><?php echo $l->t('High Performance Back-end');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The HPB also lowers the load from calls on the Nextcloud server, taking care of \'signaling\' and enables connecting a SIP gate so users can dial in by phone into calls.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The HPB also lowers the load from calls on the Nextcloud server, taking care of \'signaling\' and optionally enables connecting a SIP gate so users can dial in by phone into calls.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The HPB runs on-premises, like Nextcloud itself. Customers should be aware that it has significant dedicated bandwidth and processing needs. The HPB is available through Nextcloud GmbH.');?></p>
 		</div>
 	</div>
@@ -469,7 +469,7 @@
     <div class="row">
         <h2 class="text-center"><?php echo $l->t('Pricing');?></h2>
         <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud Talk High Performance Backend');?></p>
-        <p class="section--paragraph text-center"><?php echo $l->t('providing SFU, STUN, TURN and SIP gate');?></p>
+        <p class="section--paragraph text-center"><?php echo $l->t('providing SFU, STUN, TURN and optional SIP gate');?></p>
     </div>
     <div class="row">
         <div class="col-sm-6">
