@@ -81,7 +81,7 @@ require(["require.config"], function() {
         <p class="section--paragraph">
             <ul>
                 <li><strong><?php echo $l->t('Sustainability');?></strong><br />
-                <?php echo $l->t('We build a sustainable company, aiming for long term stability, not a short term sale.');?>
+                <?php echo $l->t('We build a sustainable company, aiming for long term stability, not a short term sale. So no growth at all cost: protect people, society and the environment.');?>
                 </li>
                 <li><strong><?php echo $l->t('Privacy and security');?></strong><br />
                 <?php echo $l->t('We believe that privacy is a fundamental human right. Everyone has the right of a secure communication. It’s the main motivation behind all our products.');?>
