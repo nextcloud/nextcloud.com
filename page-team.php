@@ -207,7 +207,7 @@
 					<h3 class="teamtitle">Account manager</h3>
 					<h4 class="teamexpertise">Compliance and cybersecurity</h4>
 					<h4 class="teamlocation">lives in Lyon, France</h4>
-					<p class="teamsocial"><!--<a href="https://spreed.me/"><i class="fa-rss fa"></i></a>--> <a href="https://github.com/NinaNC"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nlapalice"><i class="fa-twitter fa"></i></a> </p>
+					<p class="teamsocial"> <a href="https://github.com/NinaNC"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nlapalice"><i class="fa-twitter fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Nina studied Business and Management at HEC Paris. Nina is specialized in GDPR compliance and cybersecurity. She works as an Account Manager on the French Market and she is based in Lyon. She co-directed <i>Numérique, reprendre le contrôle</i> in 2016.</p>
 			</div>
@@ -232,7 +232,7 @@
 					<h3 class="teamtitle">Sales &amp; Project Manager</h3>
 					<h4 class="teamexpertise">Sales, Marketing, Media design and Project Management</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><!--<a href="http://blog.jospoortvliet.com/"><i class="fa-rss fa"></i></a>--> <!--<a href="https://github.com/jospoortvliet"><i class="fa-github fa"></i></a>--> <!--<a href="https://twitter.com/vanesteeg"><i class="fa-twitter fa"></i></a>--> &nbsp;</p>
+					<p class="teamsocial">&nbsp;</p>
 				</div>
 				<p class="teamdescription">Vanessa has a degree in Media Design and qualifications as Executive Assistant in various languages (German, English and Spanish). Her experience ranges from project management to graphic design, marketing and communication.</p>
 			</div>
@@ -268,19 +268,6 @@
 				<p class="teamdescription">Marinela studied Business Informatics in the Faculty of Economics, University of Tirana. She got involved in open source in 2015, first by contributing to open source projects and then, in 2016, she started co-organizing events or conferences in Tirana to promote software freedom, open knowledge and the importance of open source in the public sector.</p>
 			</div>
         </div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marius.jpg" />
-				<h2 class="teamname">Marius Blüm</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Customer Service</h3>
-					<h4 class="teamexpertise">Support and Documentation</h4>
-					<h4 class="teamlocation">lives in Heilbronn, Germany</h4>
-					<p class="teamsocial"><a href="https://github.com/MariusBluem"><i class="fa-github fa"></i></a> <a href="https://twitter.com/MariusBluem"><i class="fa-twitter fa"></i></a></p>
-				</div>
-				<p class="teamdescription">Marius was active in Nextcloud since day one, contributing in various forms to documentation, website, support and more. He is studying and works part time.</p>
-			</div>
-		</div>
     </div>
     <div class="row">
         <h2>Engineering and support</h2>
@@ -455,6 +442,19 @@
 				<p class="teamdescription"> Julius is involved in the Nextcloud community since the beginning, working on frontend and backend development of the server and apps like Deck. He is currently doing his master's degree in computer science at the University of Würzburg.</p>
 			</div>
 		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marco.jpg" />
+				<h2 class="teamname">Marco Ambrosini</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Frontend and design</h4>
+					<h4 class="teamlocation">lives in Barcelona, spain</h4>
+					<p class="teamsocial"> <a href="https://github.com/ma12-co"><i class="fa-github fa"></i></a> <a href="https://twitter.com/ma12_co"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Marco is a front end developer that cares deeply about design and user experience. He is part of the talk and design teams.</p>
+			</div>
+		</div>
         <div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marino.jpg" />
@@ -470,19 +470,6 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marco.jpg" />
-				<h2 class="teamname">Marco Ambrosini</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Frontend and design</h4>
-					<h4 class="teamlocation">lives in Barcelona, spain</h4>
-					<p class="teamsocial"> <a href="https://github.com/ma12-co"><i class="fa-github fa"></i></a> <a href="https://twitter.com/ma12_co"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Marco is a front end developer that cares deeply about design and user experience. He is part of the talk and design teams.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mario.jpg" />
 				<h2 class="teamname">Mario Danic</h2>
 				<div class="teammeta">
@@ -492,6 +479,19 @@
 					<p class="teamsocial"> <a href="https://github.com/mario"><i class="fa-github fa"></i></a> <a href="https://twitter.com/mdjanic"><i class="fa-twitter fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Mario is part of the Nextcloud Android application development team. He studied Informatics and Organization and has been leading Libburnia and Gnomebaker, popular open source projects, for over a decade.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marius.jpg" />
+				<h2 class="teamname">Marius Blüm</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Customer Service</h3>
+					<h4 class="teamexpertise">Support and Documentation</h4>
+					<h4 class="teamlocation">lives in Heilbronn, Germany</h4>
+					<p class="teamsocial"><a href="https://github.com/MariusBluem"><i class="fa-github fa"></i></a> <a href="https://twitter.com/MariusBluem"><i class="fa-twitter fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Marius was active in Nextcloud since day one, contributing in various forms to documentation, website, support and more. He is studying and works part time.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
