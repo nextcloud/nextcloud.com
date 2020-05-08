@@ -22,7 +22,9 @@
 	</div>
 	<div class="featurerow">
 	<div class="wrap container teamgroup">
-
+    <div class="row">
+	<h2>Management team</h2>
+	</div>
 	<div class="row">
 		<div class="col-md-4">
 			<div class="teamp">
@@ -37,19 +39,19 @@
 				<p class="teamdescription">Frank founded the ownCloud project in 2010 to put home users and enterprises back in control of their data. To bring file sync and share technology to the next level and better align to the needs of users and customers he founded Nextcloud in 2016 and has been tirelessly working to realize his vision ever since.</p>
 			</div>
 		</div>
-<!--		<div class="col-md-4">
+		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/niels.jpg" />
 				<h2 class="teamname">Niels Mache</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Managing Director</h3>
+					<h3 class="teamtitle">Chairman of the board</h3>
 					<h4 class="teamexpertise">Founder</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"> <a href="https://twitter.com/nielsmache"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Currently managing director at <a href="http://www.struktur.de/">Struktur AG</a> and Nextcloud GmbH, Niels was a co-founder of delix GmbH, one of the first Linux service providers, and of Red Hat Deutschland GmbH. During this time he led Red Hat Deutschland's development department as Director of Development, among other positions.</p>
+				<p class="teamdescription">Currently managing director at <a href="http://www.struktur.de/">Struktur AG</a>, Niels was a co-founder of delix GmbH, one of the first Linux service providers, and of Red Hat Deutschland GmbH. During this time he led Red Hat Deutschland's development department as Director of Development, among other positions.</p>
 			</div>
-		</div>-->
+		</div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/andreas.jpg" />
@@ -63,18 +65,102 @@
 				<p class="teamdescription">Andreas studied Economics and has 20 years experience in Business Development, Partner- and Sales Management. Andreas worked for companies like Oracle, EMC, Yahoo and Google and also for start ups in the Cloud Computing and Online Marketing space.</p>
 			</div>
 		</div>
-	<div class="col-md-4">
+		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/markus.jpg" />
-				<h2 class="teamname">Markus Windecker</h2>
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jos.jpg" />
+				<h2 class="teamname">Jos Poortvliet</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Account and Partner Manager</h3>
-					<h4 class="teamlocation">lives in Herrenberg, Germany</h4>
-					<p class="teamsocial"><a href="http://www.linkedin.com/in/markus-windecker-43a723b2"><i class="fa-linkedin fa"></i></a></p>
+					<h3 class="teamtitle">Head of Marketing</h3>
+					<h4 class="teamexpertise">Co-founder, Marketing and Communication</h4>
+					<h4 class="teamlocation">lives in Berlin, Germany</h4>
+					<p class="teamsocial"><a href="http://blog.jospoortvliet.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jospoortvliet"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jospoortvliet"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Markus has over 19 years experience as Account and Partner manager at HP and Hewlett Packard Enterprise and Aruba.</p>
+				<p class="teamdescription">Jos graduated in Psychology from the University of Utrecht and did project and service level management at Royal Bank of Scottland, KPN and the Dutch Department of Education. He has over a decade open source marketing and PR experience, previously working as Community Manager for SUSE Linux and ownCloud Inc.</p>
 			</div>
-		</div>		
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/olivier.jpg" />
+				<h2 class="teamname">Olivier Paroz</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Head of Professional Services</h3>
+					<h4 class="teamexpertise">Consulting and Sales</h4>
+					<h4 class="teamlocation">lives in Basel, Switzerland</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/olivierparoz"><i class="fa-rss fa"></i></a> <a href="https://github.com/oparoz"><i class="fa-github fa"></i></a> <a href="https://twitter.com/oparoz"><i class="fa-twitter fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Olivier studied Economics and Information and Communications Systems Management at the University of Geneva. He contributed to ownCloud for several years and has close to 20 years experience in Consulting, Business Development and large scale deployments. He has helped customers in a broad range of industies both in the private and public sector, with a focus on open source, usability, security and privacy.</p>
+			</div>
+		</div>
+        <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/patrick.jpg" />
+				<h2 class="teamname">Patrick Walther</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Head of finance</h3>
+					<h4 class="teamexpertise">Sales, accounting and finance</h4>
+					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+					<p class="teamsocial"> &nbsp; </p>
+				</div>
+				<p class="teamdescription">Patrick was co-founder of struktur AG in 2000, responsible for sales and finance. He held several sales and marketing positions at IBM and Oracle, adding up to more than two decades of experience in the IT industry.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/roeland.jpg" />
+				<h2 class="teamname">Roeland Douma</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Head of engineering</h3>
+					<h4 class="teamexpertise">Co-founder, Security, Desktop Client, Sharing</h4>
+					<h4 class="teamlocation">lives in Zuidoostbeemster, Netherlands</h4>
+					<p class="teamsocial"><a href="http://rullzer.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/rullzer"><i class="fa-github fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Roeland has been working on improving private file sharing since 2015. He has a MSc degree in Computer Science from the University of Amsterdam, having done research for his PhD in cache partitioning for real time systems. He is in charge of engineering and support and works on various security hardenings.</p>
+			</div>
+		</div>
+    </div>
+    <div class="row">
+    <h2>Sales team</h2>
+    </div>
+    <div class="row">
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">André Höche</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Account Manager</h3>
+					<h4 class="teamexpertise">Sales</h4>
+					<h4 class="teamlocation">Lives in Karlsruhe, Germany</h4>
+					<p class="teamsocial"><a href="https://www.linkedin.com/in/andré-höche-195aa910"><i class="fa-linkedin fa"></i></a>  <a href="https://www.xing.com/profile/Andre_Hoeche"><i class="fa-xing fa"></i></a></p>
+				</div>
+				<p class="teamdescription">With over 15 years of experience in IT, software development, and Operations, André worked for several companies like Nero, Citrix Online, 1&amp;1 and Open-Xchange. He has worked with a wide range of customers and partners, always with a strong focus on customer needs and requirements. Striving for user's privacy and security using open source software is what keeps him going.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/bjoern.jpg" />
+				<h2 class="teamname">Björn Schießle</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Senior Sales Engineer</h3>
+					<h4 class="teamexpertise">Co-founder, Consulting and Sales</h4>
+					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+					<p class="teamsocial"><a href="https://schiessle.org/"><i class="fa-rss fa"></i></a> <a href="https://mastodon.social/@bjoern"><i class="fa-mastodon fa"></i></a> <a href="https://twitter.com/schiessle"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Björn is a computer scientist, graduated at the University of Stuttgart. He conducted research in the area of cloud robotics before he joined ownCloud in 2012 and later co-founded Nextcloud. Björn has a deep knowledge about all technical and legal aspects of Free and Open Source Software. After working for several years as a software engineer, he uses his in-depth knowledge to provide the best possible solutions to our customers.</p>
+			</div>
+		</div>
+        <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/edeltraut.jpg" />
+				<h2 class="teamname">Edeltraut Bobb</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Sales coordinator</h3>
+					<h4 class="teamexpertise">Business administration</h4>
+					<h4 class="teamlocation">lives in Nuremberg, Germany</h4>
+					<p class="teamsocial">&nbsp; </p>
+				</div>
+				<p class="teamdescription">Edeltraut studied business administration and has over 13 years experience in domestic, international sales and the open source community. She believes customer satisfaction is based on bringing great customer service, delivered by a caring and friendly person, promptly, with the support of a practical problem-solving process. Edeltraut provides excellent administrative support to our sales team and to any busy sales operation.</p>
+			</div>
+		</div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/fabian.jpg" />
@@ -88,43 +174,29 @@
 				<p class="teamdescription">Fabian worked for various industries always close to the customer and has been in the IT industry now for several years with a focus on customer relationship management. He is passionate about innovative and new technologies and his primary goal is to help our customers to fulfill their vision.</p>
 			</div>
 		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/andre.jpg" />
-				<h2 class="teamname">André Höche</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Account Manager</h3>
-					<h4 class="teamexpertise">Sales</h4>
-					<h4 class="teamlocation">Lives in Karlsruhe, Germany</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/andré-höche-195aa910"><i class="fa-linkedin fa"></i></a>  <a href="https://www.xing.com/profile/Andre_Hoeche"><i class="fa-xing fa"></i></a></p>
-				</div>
-				<p class="teamdescription">With over 15 years of experience in IT, software development, and Operations, André worked for several companies like Nero, Citrix Online, 1&1 and Open-Xchange. He has worked with a wide range of customers and partners, always with a strong focus on customer needs and requirements. Striving for user's privacy and security using open source software is what keeps him going.</p>
-			</div>
-		</div>				
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/olivier.jpg" />
-				<h2 class="teamname">Olivier Paroz</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Head of Professional Services</h3>
-					<h4 class="teamexpertise">Consulting and Sales</h4>
-					<h4 class="teamlocation">lives in Basel, Switzerland</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/olivierparoz"><i class="fa-rss fa"></i></a> <a href="https://github.com/oparoz"><i class="fa-github fa"></i></a> <a href="https://twitter.com/oparoz"><i class="fa-twitter fa"></i></a></p>
-				</div>
-				<p class="teamdescription">Olivier studied Economics and Information and Communications Systems Management at the University of Geneva. He contributed to ownCloud for several years and has close to 20 years experience in Consulting, Business Development and large scale deployments. He has helped customers in a broad range of industies both in the private and public sector, with a focus on open source, usability, security and privacy.</p>
-			</div>
-		</div>		
         <div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/edeltraut.jpg" />
-				<h2 class="teamname">Edeltraut Bobb</h2>
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/markus.jpg" />
+				<h2 class="teamname">Markus Windecker</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Sales coordinator</h3>
-					<h4 class="teamexpertise">Business administration</h4>
-					<h4 class="teamlocation">lives in Nuremberg, Germany</h4>
-					<p class="teamsocial"><!--<a href="https://www.linkedin.com/in/fabian-liedtke-4b4ba9135"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Fabian_Liedtke2"><i class="fa-xing fa"></i></a>--><!--<a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a>--> &nbsp; </p>
+					<h3 class="teamtitle">Account and Partner Manager</h3>
+					<h4 class="teamlocation">lives in Herrenberg, Germany</h4>
+					<p class="teamsocial"><a href="http://www.linkedin.com/in/markus-windecker-43a723b2"><i class="fa-linkedin fa"></i></a></p>
 				</div>
-				<p class="teamdescription">Edeltraut studied business administration and has over 13 years experience in domestic, international sales and the open source community. She believes customer satisfaction is based on bringing great customer service, delivered by a caring and friendly person, promptly, with the support of a practical problem-solving process. Edeltraut provides excellent administrative support to our sales team and to any busy sales operation.</p>
+				<p class="teamdescription">Markus has over 19 years experience as Account and Partner manager at HP and Hewlett Packard Enterprise and Aruba.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/matthias.jpg" />
+				<h2 class="teamname">Matthias Wobben</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Senior Sales Engineer</h3>
+					<h4 class="teamexpertise">Sales and Customer Relationships</h4>
+					<h4 class="teamlocation">lives in Hamburg, Germany</h4>
+					<p class="teamsocial"><a href="https://wobben.net/"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/wobben-matthias/"><i class="fa-linkedin fa"></i></a> <a href="https://twitter.com/wobben"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Matthias worked for nine years as a 3rd level IT Engineer and IT Administrator. Acting as a broker between the customer, the Sales and Engineering department, his main focus is to give our clients the best possible advice. Matthias is passionate about innovative technology, enabling clients to collaborate securely while retaining ease-of-use.</p>
 			</div>
 		</div>
         <div class="col-md-4">
@@ -142,45 +214,6 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vanessa.jpg" />
-				<h2 class="teamname">Vanessa Steeg</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Project Manager</h3>
-					<h4 class="teamexpertise">Marketing, Media design and Project Management</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><!--<a href="http://blog.jospoortvliet.com/"><i class="fa-rss fa"></i></a>--> <!--<a href="https://github.com/jospoortvliet"><i class="fa-github fa"></i></a>--> <!--<a href="https://twitter.com/vanesteeg"><i class="fa-twitter fa"></i></a>--> &nbsp;</p>
-				</div>
-				<p class="teamdescription">Vanessa has a degree in Media Design and qualifications as Executive Assistant in various languages (German, English and Spanish). Her experience ranges from project management to graphic design, marketing and communication.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/bjoern.jpg" />
-				<h2 class="teamname">Björn Schießle</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Senior Sales Engineer</h3>
-					<h4 class="teamexpertise">Co-founder, Consulting and Sales</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><a href="https://schiessle.org/"><i class="fa-rss fa"></i></a> <a href="https://mastodon.social/@bjoern"><i class="fa-mastodon fa"></i></a> <a href="https://twitter.com/schiessle"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Björn is a computer scientist, graduated at the University of Stuttgart. He conducted research in the area of cloud robotics before he joined ownCloud in 2012 and later co-founded Nextcloud. Björn has a deep knowledge about all technical and legal aspects of Free and Open Source Software. After working for several years as a software engineer, he uses his in-depth knowledge to provide the best possible solutions to our customers.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/matthias.jpg" />
-				<h2 class="teamname">Matthias Wobben</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Senior Sales Engineer</h3>
-					<h4 class="teamexpertise">Sales and Customer Relationships</h4>
-					<h4 class="teamlocation">lives in Hamburg, Germany</h4>
-					<p class="teamsocial"><a href="https://wobben.net/"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/wobben-matthias/"><i class="fa-linkedin fa"></i></a> <a href="https://twitter.com/wobben"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Matthias worked for nine years as a 3rd level IT Engineer and IT Administrator. Acting as a broker between the customer, the Sales and Engineering department, his main focus is to give our clients the best possible advice. Matthias is passionate about innovative technology, enabling clients to collaborate securely while retaining ease-of-use.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/sascha.jpg" />
 				<h2 class="teamname">Sascha Wiswedel</h2>
 				<div class="teammeta">
@@ -193,20 +226,38 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jos.jpg" />
-				<h2 class="teamname">Jos Poortvliet</h2>
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vanessa.jpg" />
+				<h2 class="teamname">Vanessa Steeg</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Head of Marketing</h3>
-					<h4 class="teamexpertise">Co-founder, Marketing and Communication</h4>
-					<h4 class="teamlocation">lives in Berlin, Germany</h4>
-					<p class="teamsocial"><a href="http://blog.jospoortvliet.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jospoortvliet"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jospoortvliet"><i class="fa-twitter fa"></i></a> </p>
+					<h3 class="teamtitle">Sales &amp; Project Manager</h3>
+					<h4 class="teamexpertise">Sales, Marketing, Media design and Project Management</h4>
+					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+					<p class="teamsocial"><!--<a href="http://blog.jospoortvliet.com/"><i class="fa-rss fa"></i></a>--> <!--<a href="https://github.com/jospoortvliet"><i class="fa-github fa"></i></a>--> <!--<a href="https://twitter.com/vanesteeg"><i class="fa-twitter fa"></i></a>--> &nbsp;</p>
 				</div>
-				<p class="teamdescription">Jos graduated in Psychology from the University of Utrecht and did project and service level management at Royal Bank of Scottland, KPN and the Dutch Department of Education. He has over a decade open source marketing and PR experience, previously working as Community Manager for SUSE Linux and ownCloud Inc.</p>
+				<p class="teamdescription">Vanessa has a degree in Media Design and qualifications as Executive Assistant in various languages (German, English and Spanish). Her experience ranges from project management to graphic design, marketing and communication.</p>
 			</div>
 		</div>
+	</div>
+    <div class="row">
+        <h2>Marketing team</h2>
+    </div>
+    <div class="row">
         <div class="col-md-4">
-		<div class="teamp">
-        <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marinela.jpg" />
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marija.jpg" />
+                <h2 class="teamname">Marija Puselja</h2>
+                <div class="teammeta">
+                    <h3 class="teamtitle">Online Marketer</h3>
+                    <h4 class="teamexpertise">Marketing and PR</h4>
+                    <h4 class="teamlocation">lives in Berlin, Germany</h4>
+                    <p class="teamsocial"><a href="https://www.linkedin.com/in/marija-puselja"><i class="fa-rss fa"></i></a></p>
+                </div>
+                <p class="teamdescription">Originally from Croatia, Marija has a degree in Journalism and Public Relations. She finds her inspiration in the strength of visual delivery of information through photography, as much as she admires the creativity of witty and intelligent writing and finally, a well-executed layout and design.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="teamp">
+            <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marinela.jpg" />
 				<h2 class="teamname">Marinela Gogo</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Online Marketer</h3>
@@ -216,85 +267,7 @@
 				</div>
 				<p class="teamdescription">Marinela studied Business Informatics in the Faculty of Economics, University of Tirana. She got involved in open source in 2015, first by contributing to open source projects and then, in 2016, she started co-organizing events or conferences in Tirana to promote software freedom, open knowledge and the importance of open source in the public sector.</p>
 			</div>
-    </div>
-    <div class="col-md-4">
-        <div class="teamp">
-            <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marija.jpg" />
-            <h2 class="teamname">Marija Puselja</h2>
-            <div class="teammeta">
-                <h3 class="teamtitle">Marketing and PR</h3>
-                <h4 class="teamexpertise">Marketing and PR</h4>
-                <h4 class="teamlocation">lives in Berlin, Germany</h4>
-                <p class="teamsocial"><a href="https://www.linkedin.com/in/marija-puselja"><i class="fa-rss fa"></i></a></p>
-            </div>
-            <p class="teamdescription">Originally from Croatia, Marija has a degree in Journalism and Public Relations. She finds her inspiration in the strength of visual delivery of information through photography, as much as she admires the creativity of witty and intelligent writing and finally, a well-executed layout and design.</p>
         </div>
-    </div>        
-<!--		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="What I look like when not eaten by a shark" src="<?php bloginfo('template_directory'); ?>/assets/img/people/lukas.jpg" />
-				<h2 class="teamname">Lukas Reschke</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Security Lead</h3>
-					<h4 class="teamexpertise">Co-founder, Security</h4>
-					<h4 class="teamlocation">lives in St. Gallen, Switzerland</h4>
-					<p class="teamsocial"><a href="https://statuscode.ch/"><i class="fa-rss fa"></i></a> <a href="https://github.com/LukasReschke"><i class="fa-github fa"></i></a> <a href="https://twitter.com/LukasReschke"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Lukas has been contributing to ownCloud since 2012 and is responsible for many of the security hardenings in the code. He has worked as security assessment and forensic investigator, reviewing security, giving trainings and dealing with breaches at Fortune 500 companies and several of the largest Swiss financial institutes.</p>
-			</div>
-		</div>-->
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/roeland.jpg" />
-				<h2 class="teamname">Roeland Douma</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Security Lead</h3>
-					<h4 class="teamexpertise">Co-founder, Desktop Client, Sharing</h4>
-					<h4 class="teamlocation">lives in Zuidoostbeemster, Netherlands</h4>
-					<p class="teamsocial"><a href="http://rullzer.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/rullzer"><i class="fa-github fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Roeland has been working on improving private file sharing since 2015. He has a MSc degree in Computer Science from the University of Amsterdam, having done research for his PhD in cache partitioning for real time systems. He is in charge of our HackerOne program and works on various security hardenings.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
-				<h2 class="teamname">Jan-Christoph Borchardt</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Design Lead</h3>
-					<h4 class="teamexpertise">Co-founder, Simplicity & Ease of Use</h4>
-					<h4 class="teamlocation">lives in Berlin, Germany</h4>
-					<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jancborchardt"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jancborchardt"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Jan-Christoph is responsible for design on ownCloud since early 2011, continuing at Nextcloud. He pushes forward better design in open source through founding and contributing to several projects, giving talks, working with universities, and fostering the Open Source Design collective.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/patrick.jpg" />
-				<h2 class="teamname">Patrick Walther</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Sales Manager</h3>
-					<h4 class="teamexpertise">Sales and Finance</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><!--<a href="https://www.schilljs.com/"><i class="fa-rss fa"></i></a>--> <!--<a href="https://github.com/nickvergessen"><i class="fa-github fa"></i></a>--> <!--<a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a>--> &nbsp; </p>
-				</div>
-				<p class="teamdescription">Patrick was co-founder of struktur AG in 2000, responsible for sales and finance. He held several sales and marketing positions at IBM and Oracle, adding up to more than two decades of experience in the IT industry.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/brian.jpg" />
-				<h2 class="teamname">Brian Krause</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Support Engineer</h3>
-					<h4 class="teamexpertise">Spreed.ME, Customer Service</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><a href="https://www.xing.com/profile/Brian_Krause"><i class="fa-xing fa"></i></a> <!--<a href="https://github.com/longsleep"><i class="fa-github fa"></i></a> <a href="https://twitter.com/rullzer"><i class="fa-twitter fa"></i></a>--></p>
-				</div>
-				<p class="teamdescription">Brian has a degree as IT-Systemkaufmann, decades of professional experience in IT Customer Service, Support and Sales and joined Struktur AG in 2010 as Customer Care representative. As first contact person for Nextcloud, Struktur AG and Spreed he makes sure you get the best possible support.</p>
-			</div>
-		</div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/marius.jpg" />
@@ -308,6 +281,11 @@
 				<p class="teamdescription">Marius was active in Nextcloud since day one, contributing in various forms to documentation, website, support and more. He is studying and works part time.</p>
 			</div>
 		</div>
+    </div>
+    <div class="row">
+        <h2>Engineering and support</h2>
+    </div>
+    <div class="row">
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/arthur.jpg" />
@@ -332,6 +310,19 @@
                     <p class="teamsocial"></p>
 				</div>
 				<p class="teamdescription">Barthélémy is a software engineer specialized in front-end development. He cares about simplicity and ease of use and likes to create a smooth user experience for everyone. He has been part of the contacts and design team since 2016.</p>
+			</div>
+		</div>
+        <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/brian.jpg" />
+				<h2 class="teamname">Brian Krause</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Support Engineer</h3>
+					<h4 class="teamexpertise">Spreed.ME, Customer Service</h4>
+					<h4 class="teamlocation">lives in Berlin, Germany</h4>
+					<p class="teamsocial"><a href="https://www.xing.com/profile/Brian_Krause"><i class="fa-xing fa"></i></a></p>
+				</div>
+				<p class="teamdescription">Brian has a degree as IT-Systemkaufmann, decades of professional experience in IT Customer Service, Support and Sales and joined Struktur AG in 2010 as Customer Care representative. As first contact person for Nextcloud, Struktur AG and Spreed he makes sure you get the best possible support.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
@@ -375,19 +366,6 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/dirk.jpg" />
-				<h2 class="teamname">Dirk Farin</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Research Scientist / Software Engineer</h3>
-					<h4 class="teamexpertise">WebRTC, Codecs, Spreed.ME</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><a href="http://www.dirk-farin.net/"><i class="fa-rss fa"></i></a> <a href="https://github.com/farindk"><i class="fa-github fa"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="fa-twitter fa"></i></a>--> </p>
-				</div>
-				<p class="teamdescription">Dirk graduated from the University of Stuttgart, Germany and received his PhD from the University of Technology in Eindhoven. He worked on MPEG-4 video coding, panoramic video visualiation and compression for 3-D television at universities and research institutions in Europe and the United States and currently works on an open source H.265 decoding/encoding library.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/georg.jpg" />
 				<h2 class="teamname">Georg Ehrke</h2>
 				<div class="teammeta">
@@ -423,6 +401,19 @@
 					<p class="teamsocial"><!--<a href="https://www.stdin.xyz/"><i class="fa-rss fa"></i></a>--> <a href="https://github.com/Ivansss"><i class="fa-github fa"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="fa-twitter fa"></i></a>--> </p>
 				</div>
 				<p class="teamdescription">Ivan graduated as CS engineer from the University of the Basque Country and has been developing the Spreed.ME iOS app since 2013. He has also been working on server monitoring and iOS support.</p>
+			</div>
+		</div>
+        <div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jan.jpg" />
+				<h2 class="teamname">Jan-Christoph Borchardt</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Design Lead</h3>
+					<h4 class="teamexpertise">Co-founder, Simplicity & Ease of Use</h4>
+					<h4 class="teamlocation">lives in Berlin, Germany</h4>
+					<p class="teamsocial"><a href="https://jancborchardt.net/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jancborchardt"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jancborchardt"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Jan-Christoph is responsible for design on ownCloud since early 2011, continuing at Nextcloud. He pushes forward better design in open source through founding and contributing to several projects, giving talks, working with universities, and fostering the Open Source Design collective.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
