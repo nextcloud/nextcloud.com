@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>The Nextcloud Podcast</title>
+    <googleplay:author>Nextcloud</googleplay:author>
+    <itunes:author>Nextcloud</itunes:author>
+    <itunes:subtitle>Stay up to date with the Nextcloud community!</itunes:subtitle>
+    <itunes:summary>The Nextcloud Podcast interviews Nextcloud community members, contributors, users and others, keeping you up to date on what is happening.</itunes:summary>
+    <description>The Nextcloud Podcast interviews Nextcloud community members, contributors, users and others, keeping you up to date on what is happening.</description>
+    <googleplay:image href="https://nextcloud.com/media/nextcloud-podcast-logo.png"/>
+    <itunes:image href="https://nextcloud.com/media/nextcloud-podcast-logo.png" />
+    <itunes:category text="Category Name"/></itunes:category>
+    <itunes:owner>
+        <itunes:name>Nextcloud GmbH</itunes:name>
+        <itunes:email>podcast@nextcloud.com</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>no</itunes:explicit>
+    <language>en-us</language>
+    <link>https://nextcloud.com/podcast/</link>
+
+<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+    <item>
+      <title>Welcome to our first Nextcloud Podcast!</title>
+      <itunes:summary>In this very first episode we introduce our podcast, discussing with Nextcloud designer and community manager Jan Christoph Borchardt what our podcast will be covering going forward.</itunes:summary>
+      <description>In this very first episode we introduce our podcast, discussing with Nextcloud designer and community manager Jan Christoph Borchardt what our podcast will be covering going forward.</description>
+      <pubDate>Thu, 14 May 2020 12:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/podcasts/ncpodcast-episode1.mp3"
+                 type="audio/mpeg" length="34216300"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:duration>30:00</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>http://nextcloud.com/podcast/</guid>
+      <link>http://nextcloud.com/podcast/</link>
+    </item>
+    <!--END REPEAT-->
+
+
+
+    </channel>
+</rss>

@@ -1,0 +1,81 @@
+{
+  "version": 5,
+  "show": {
+    "title": "Nextcloud Podcast",
+    "subtitle": "subtitle",
+    "summary": "summary.",
+    "poster": "/assets/image.jpg",
+    "link": "https://nextcloud.com/podcast"
+  },
+   "transcripts": "../wp-content/themes/next/assets/podcast/episodes/episode1-transcripts.json",
+  "chapters": "../wp-content/themes/next/assets/podcast/episodes/episode1-chapters.json",
+  "title": "title",
+  "subtitle": "subtitle",
+  "summary": "bla",
+  "publicationDate": "2019-10-01T11:00:44+01:00",
+  "poster": "/assets/image.jpg",
+  "duration": "01:53:23.298",
+  "link": "https://nextcloud.com",
+  "audio": [
+    {
+      "url": "https://download.nextcloud.com/podcast/episode/ncpodcast-episode-1.m4a",
+      "size": "71862603",
+      "title": "MPEG-4 AAC Audio (m4a)",
+      "mimeType": "audio/mp4"
+    },
+    {
+      "url": "https://download.nextcloud.com/podcast/episode/ncpodcast-episode-1.opus",
+      "size": "64346759",
+      "title": "Opus Audio (opus)",
+      "mimeType": "audio/opus"
+    },
+    {
+      "url": "https://download.nextcloud.com/podcast/episode/ncpodcast-episode-1.oga",
+      "size": "97786195",
+      "title": "Ogg Vorbis Audio (oga)",
+      "mimeType": "audio/ogg"
+    },
+    {
+      "url": "https://download.nextcloud.com/podcast/episode/ncpodcast-episode-1.mp3",
+      "size": "95522160",
+      "title": "MP3 Audio (mp3)",
+      "mimeType": "audio/mpeg"
+    }
+  ],
+  "files": [
+    {
+      "url": "https://download.nextcloud.com/podcast/episode/ncpodcast-episode-1.m4a",
+      "size": "71862603",
+      "title": "Episode",
+      "mimeType": "audio/mp4"
+    },
+    {
+      "url": "https://download.nextcloud.com/podcast/episode/ncpodcast-episode-1.pdf",
+      "size": "284672",
+      "title": "Prospekt",
+      "mimeType": "application/pdf"
+    },
+    {
+      "url": "https://download.nextcloud.com/podcast/episode/ncpodcast-episode-1.txt",
+      "size": "132090",
+      "title": "Transkripte",
+      "mimeType": "text/plain"
+    }
+  ],
+  "chapters": "fixtures/chapters.json",
+  "contributors": [
+    {
+      "id": "1",
+      "name": "author1",
+      "avatar": "/assets/image1.jpg",
+      "group": { "id": "1", "slug": "onair", "title": "On Air" }
+    },
+    {
+      "id": "77",
+      "name": "author2",
+      "avatar": "/assets/image2.jpg",
+      "group": { "id": "1", "slug": "onair", "title": "On Air" }
+    }
+  ],
+  "transcripts": "fixtures/transcripts.json"
+}
