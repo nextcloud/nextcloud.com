@@ -74,6 +74,8 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<h1 class="">Optional components</h1>
 				<div class="line"></div>
 				<div class="list">
+					<li class="nocheck" title="<?php echo $l->t('Secure online meetings, chat and web conferencing');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-talk"><?php echo $l->t('Nextcloud Talk');?></a></li>
+					<li class="nocheck" title="<?php echo $l->t('Team planning and email made easy');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-groupware"><?php echo $l->t('Nextcloud Groupware');?></a></li>
 					<li class="check" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook">Outlook Add-in</a>');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-collabora">Collabora Online Office</a>');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-onlyoffice">ONLYOFFICE</a>');?></li>
@@ -125,6 +127,8 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<h1 class="">Optional components</h1>
 				<div class="line"></div>
 				<div class="list">
+					<li class="check" title="<?php echo $l->t('Secure online meetings, chat and web conferencing');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-talk"><?php echo $l->t('Nextcloud Talk');?></a></li>
+					<li class="check" title="<?php echo $l->t('Team planning and email made easy');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-groupware"><?php echo $l->t('Nextcloud Groupware');?></a></li>
 					<li class="check" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook">Outlook Add-in</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-collabora">Collabora Online Office</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-onlyoffice">ONLYOFFICE</a>');?></li>
@@ -176,6 +180,8 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<h1 class="">Optional components</h1>
 				<div class="line"></div>
 				<div class="list">
+					<li class="check" title="<?php echo $l->t('Secure online meetings, chat and web conferencing');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-talk"><?php echo $l->t('Nextcloud Talk');?></a></li>
+					<li class="check" title="<?php echo $l->t('Team planning and email made easy');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-groupware"><?php echo $l->t('Nextcloud Groupware');?></a></li>
 					<li class="check" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook">Outlook Add-in</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-collabora">Collabora Online Office</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-onlyoffice">ONLYOFFICE</a>');?></li>
@@ -290,7 +296,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
             </div>
         </div>
     <div class="row">
-        <div class="col-md-5 col-md-offset-1 ">
+        <div class="col-md-5 col-md-offset-1 " id="featureblock-talk">
 			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/spreed-nw.png" /></a>
 			<div class="row text-center"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Talk');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('secure online meetings, chat and web conferencing');?></p></div>
@@ -298,7 +304,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
                 <a href="<?php echo home_url('talk') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
 		</div>
-		<div class="col-md-5 ">
+		<div class="col-md-5 " id="featureblock-groupware">
 			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png" class="img-responsive" />
 			<div class="row text-center"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Groupware');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Team planning and email made easy');?></p></div>
@@ -328,4 +334,3 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 		</div>
 	</div>
 </div>
-
