@@ -22,6 +22,9 @@ window.podlovePlayer("#podcast-player", "<?php echo get_template_directory_uri()
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-podcast-logo.png">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-podcast-logo.png">
 <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-podcast-logo.png">
+
+<link type="application/rss+xml" rel="alternate"
+      title="Title_Value" href="https://nextcloud.com/podcast-feed.xml"/>
 </head>
 
 <div class="background permissions-background">

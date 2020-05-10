@@ -57,11 +57,11 @@
   },
   "playlist": "../wp-content/themes/next/assets/podcast/playlist.json",
   "subscribe-button": {
-    "feed": "https://nextcloud.com/podcast/m4a/",
+    "feed": "https://nextcloud.com/podcast-feed.xml",
     "clients": [
       {
         "id": "apple-podcasts",
-        "service": "id934797989"
+        "service": "id934797989 - to change"
       },
       {
         "id": "antenna-pod"
@@ -84,7 +84,7 @@
       },
       {
         "id": "google-podcasts",
-        "service": "https://nextcloud.com/podcast/m4a/"
+        "service": "https://nextcloud.com/podcast-feed.xml"
       },
       {
         "id": "gpodder"
@@ -109,7 +109,7 @@
       },
       {
         "id": "pocket-casts",
-        "service": "https://nextcloud.com/podcast/m4a/"
+        "service": "https://nextcloud.com/podcast-feed.xml"
       },
       {
         "id": "pod-grasp"
