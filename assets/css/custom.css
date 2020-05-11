@@ -3431,7 +3431,7 @@ tbody.collapse.in {
 .section--intro {
   font-size: 22px;
   font-weight: 300; }
-.section--paragraph__tittle {
+.section--paragraph__tittle, .section--paragraph__title {
   font-size: 22px;
   line-height: 30px;
   font-weight: 600;
@@ -4009,7 +4009,7 @@ template, [hidden] {
 .section--intro {
   font-size: 22px;
   font-weight: 300; }
-.section--paragraph__tittle {
+.section--paragraph__tittle, .section--paragraph__title {
   font-size: 22px;
   line-height: 30px;
   font-weight: 600;

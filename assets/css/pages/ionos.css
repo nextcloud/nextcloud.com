@@ -225,5 +225,9 @@
   margin-top: 90px;
   margin-bottom: 20px;
   text-align: left; }
+.section--form ul {
+  padding-left: 30px; }
+.section--form li {
+  list-style-image: url("../../img/enterprise/check.svg"); }
 
 /*# sourceMappingURL=ionos.css.map */

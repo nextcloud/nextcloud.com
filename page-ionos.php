@@ -278,7 +278,7 @@ imagedestroy($image);
                     <p><label for="comments">Notes<br />
                     <textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="<?php echo $l->t('Questions, comments, special needs? Do you represent a government, educational or charitable business or need more than 200 users? Let us know and we can provide you a custom offer or answers to your questions.');?>"></textarea></label></p>
                     <p><input type="checkbox" name="terms" value="terms" onChange="doCalculation()"> <?php echo $l->t('I have read and agree to the');?> <a class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/files/termsfornextcloudorder.pdf"><?php echo $l->t('terms and conditions');?> <i class="fa fa-external-link" aria-hidden="true"></i></a> <?php echo $l->t('and understand and agree we share your details with our partners Viakom and IONOS for processing.');?></p>
-                    <p>Note: all prices excl. VAT</p>
+                    <p><?php echo $l->t('Note: all prices excl. VAT');?></p>
                     <p><label for="captcha"><?php echo $l->t('Please calculate the following sum');?> <span></span><br>
                     <img src="data:image/png;base64,<?php echo base64_encode($imagestring); ?>"><br>
                     <input  type="text" name="captcha" maxlength="20" size="20" placeholder="13"></label></p>
@@ -290,6 +290,16 @@ imagedestroy($image);
                 </form>
             </div>
 	</div>
+	<div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+            <p class="section--paragraph__title"><?php echo $l->t('Notes');?></p>
+            <ul>
+            <li class="section--paragraph"><?php echo $l->t('The subscription can be cancelled monthly.');?></li>
+            <li class="section--paragraph"><?php echo $l->t('5GB storage per user is included. Additional storage is available with prices starting at Eur 2,00/month for 50GB.');?></li>
+            <li class="section--paragraph"><?php echo $l->t('Multiple backup options available, depending on storage needs.');?></li>
+            <li class="section--paragraph"><?php echo $l->t('Education and government pricing available with discounts up to 80%.');?></li>
+        </div>
+    </div>
 </div>
 </section>
 
