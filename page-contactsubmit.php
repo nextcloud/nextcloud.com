@@ -98,10 +98,11 @@ if(isset($_POST['email'])) {
   if(strlen($error_message) > 0) {
     died($error_message);
   } else {
-		function clean_string($string) {
-			$bad = array("content-type", "bcc:", "to:", "cc:", "href");
-			return str_replace($bad, "", $string);
-		}
+        function clean_string($string) {
+            $bad = array("content-type","bcc:","to:","cc:","href");
+            $string = str_replace($bad,"",$string);
+            return htmlspecialchars($string);
+        }
 // the app review mailing list address
     $email_message = "Form details below.\n\n";
     $email_to = "sales@nextcloud.com";
