@@ -81,13 +81,14 @@ if(isset($_POST['email'])) {
     }
     $string_exp = "/^((\+|00)\d{1,3})?(\d+|\s+)+\d$/";
 
-    if(strlen($error_message) > 0) {
-        died($error_message);
-    } else {
-    function clean_string($string) {
-        $bad = array("content-type", "bcc:", "to:", "cc:", "href");
-        return str_replace($bad, "", $string);
-    }
+  if(strlen($error_message) > 0) {
+    died($error_message);
+  } else {
+        function clean_string($string) {
+            $bad = array("content-type","bcc:","to:","cc:","href");
+            $string = str_replace($bad,"",$string);
+            return htmlspecialchars($string);
+        }
 
 // create mail message
     $email_to = "include@nextcloud.com";

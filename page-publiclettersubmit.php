@@ -71,10 +71,11 @@ if(isset($_POST['companymail'])) {
   if(strlen($error_message) > 0) {
     died($error_message);
   } else {
-		function clean_string($string) {
-			$bad = array("content-type", "bcc:", "to:", "cc:", "href");
-			return str_replace($bad, "", $string);
-		}
+        function clean_string($string) {
+            $bad = array("content-type","bcc:","to:","cc:","href");
+            $string = str_replace($bad,"",$string);
+            return htmlspecialchars($string);
+        }
 // the app review mailing list address
     $email_from = "jos@nextcloud.com";
 
