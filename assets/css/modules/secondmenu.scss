@@ -1,6 +1,9 @@
 @import "../variables.scss";
 
+
+
 .second-menu {
+        margin-bottom: 150px !important;
 	.menu {
 		background: #fbfbfb;
 		border-top: solid 1px #e4e4e4;
@@ -12,7 +15,7 @@
     	transition: transform 500ms ease;
     	transform: translate3d(0px, 0px, 0px);
     	opacity: 0;
-        margin-top: -100px;
+        margin-top: 0px !important;
 
         &.hidedPrincipalNavigation {
 	    	transform: translate3d(0px, -100px, 0px);
