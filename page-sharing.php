@@ -97,7 +97,7 @@ require(["require.config"], function() {
                 <ul>
                     <li><?php echo $l->t('Share with individual users, groups or create custom groups with the');?> <a class="hyperlink" href="https://apps.nextcloud.com/apps/circles">Circles app.</a></li>
                     <li><?php echo $l->t('Share photo galleries');?></li>
-                    <li><?php echo $l->t('Share public links read-only,');?> <a class="hyperlink" href="https://nextcloud.com/de/blog/secure-view-prevent-your-shared-files-from-getting-downloaded/)"><?php echo $l->t('secure view (no download/print/copy-paste)');?></a> <?php echo $l->t('or with editing capabilities');?></li>
+                    <li><?php echo $l->t('Share public links read-only,');?> <a class="hyperlink" href="https://nextcloud.com/blog/secure-view-prevent-your-shared-files-from-getting-downloaded"><?php echo $l->t('secure view (no download/print/copy-paste)');?></a> <?php echo $l->t('or with editing capabilities');?></li>
                     <li><?php echo $l->t('Attach notes to a share, either to a Nextcloud user or to a public link');?></li>
                     <li><?php echo $l->t('Share directly to users on other Nextcloud, ownCloud or Pydio servers (see below:');?> <a class="hyperlink" href="#federation">federation</a>)</li>
                     <li><?php echo $l->t('Choose to automatically accept all incoming shares, or choose to accept them on a case by case basis');?></li>
