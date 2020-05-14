@@ -117,9 +117,22 @@
 				<p class="teamdescription">Roeland has been working on improving private file sharing since 2015. He has a MSc degree in Computer Science from the University of Amsterdam, having done research for his PhD in cache partitioning for real time systems. He is in charge of engineering and support and works on various security hardenings.</p>
 			</div>
 		</div>
+        <div class="col-md-4">
+            <div class="teamp">
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vanessa.jpg" />
+                <h2 class="teamname">Vanessa Steeg</h2>
+                <div class="teammeta">
+                    <h3 class="teamtitle">Management/executive assistant</h3>
+                    <h4 class="teamexpertise">Sales, marketing, design and project management</h4>
+                    <h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+                    <p class="teamsocial">&nbsp;</p>
+                </div>
+                <p class="teamdescription">Vanessa has a degree in Media Design and qualifications as Executive Assistant in various languages (German, English and Spanish). Her experience ranges from project management to graphic design, marketing and communication.</p>
+            </div>
+        </div>
     </div>
     <div class="row">
-    <h2>Sales team</h2>
+        <h2>Account management</h2>
     </div>
     <div class="row">
 		<div class="col-md-4">
@@ -128,24 +141,11 @@
 				<h2 class="teamname">André Höche</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Account Manager</h3>
-					<h4 class="teamexpertise">Sales</h4>
+					<h4 class="teamexpertise">Sales and account management</h4>
 					<h4 class="teamlocation">Lives in Karlsruhe, Germany</h4>
 					<p class="teamsocial"><a href="https://www.linkedin.com/in/andré-höche-195aa910"><i class="fa-linkedin fa"></i></a>  <a href="https://www.xing.com/profile/Andre_Hoeche"><i class="fa-xing fa"></i></a></p>
 				</div>
 				<p class="teamdescription">With over 15 years of experience in IT, software development, and Operations, André worked for several companies like Nero, Citrix Online, 1&amp;1 and Open-Xchange. He has worked with a wide range of customers and partners, always with a strong focus on customer needs and requirements. Striving for user's privacy and security using open source software is what keeps him going.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/bjoern.jpg" />
-				<h2 class="teamname">Björn Schießle</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Senior Sales Engineer</h3>
-					<h4 class="teamexpertise">Co-founder, Consulting and Sales</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><a href="https://schiessle.org/"><i class="fa-rss fa"></i></a> <a href="https://mastodon.social/@bjoern"><i class="fa-mastodon fa"></i></a> <a href="https://twitter.com/schiessle"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Björn is a computer scientist, graduated at the University of Stuttgart. He conducted research in the area of cloud robotics before he joined ownCloud in 2012 and later co-founded Nextcloud. Björn has a deep knowledge about all technical and legal aspects of Free and Open Source Software. After working for several years as a software engineer, he uses his in-depth knowledge to provide the best possible solutions to our customers.</p>
 			</div>
 		</div>
         <div class="col-md-4">
@@ -180,23 +180,24 @@
 				<h2 class="teamname">Markus Windecker</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Account and Partner Manager</h3>
+					<h4 class="teamexpertise">Sales and account management</h4>
 					<h4 class="teamlocation">lives in Herrenberg, Germany</h4>
 					<p class="teamsocial"><a href="http://www.linkedin.com/in/markus-windecker-43a723b2"><i class="fa-linkedin fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Markus has over 19 years experience as Account and Partner manager at HP and Hewlett Packard Enterprise and Aruba.</p>
 			</div>
 		</div>
-		<div class="col-md-4">
+        <div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/matthias.jpg" />
-				<h2 class="teamname">Matthias Wobben</h2>
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Nils Kühne-Hellmessen</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Senior Sales Engineer</h3>
-					<h4 class="teamexpertise">Sales and Customer Relationships</h4>
-					<h4 class="teamlocation">lives in Hamburg, Germany</h4>
-					<p class="teamsocial"><a href="https://wobben.net/"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/wobben-matthias/"><i class="fa-linkedin fa"></i></a> <a href="https://twitter.com/wobben"><i class="fa-twitter fa"></i></a> </p>
+					<h3 class="teamtitle">Account manager</h3>
+					<h4 class="teamexpertise">Sales and account management</h4>
+					<h4 class="teamlocation">lives in Wassertrüdingen, Germany</h4>
+					<p class="teamsocial"> <a href="https://www.xing.com/profile/Nils_KuehneHellmessen/"><i class="fa-xing fa"></i></a> <a href="https://mastodon.social/@ringel72"><i class="fa-mastodon fa"></i></a> <a href="diaspora://ringel72@diaspora.psyco.fr"><i class="fa-diaspora fa"></i></a></p>
 				</div>
-				<p class="teamdescription">Matthias worked for nine years as a 3rd level IT Engineer and IT Administrator. Acting as a broker between the customer, the Sales and Engineering department, his main focus is to give our clients the best possible advice. Matthias is passionate about innovative technology, enabling clients to collaborate securely while retaining ease-of-use.</p>
+				<p class="teamdescription">After an apprenticeship in publishing and a communication management study, Nils worked over 20 years in different industries. Stations in the management of marketing, sales, and account management followed each other and all with a strong customer focus.</p>
 			</div>
 		</div>
         <div class="col-md-4">
@@ -212,32 +213,51 @@
 				<p class="teamdescription">Nina studied Business and Management at HEC Paris. Nina is specialized in GDPR compliance and cybersecurity. She works as an Account Manager on the French Market and she is based in Lyon. She co-directed <i>Numérique, reprendre le contrôle</i> in 2016.</p>
 			</div>
 		</div>
+    </div>
+	<div class="row">
+    <h2>Sales engineering</h2>
+    </div>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/bjoern.jpg" />
+				<h2 class="teamname">Björn Schießle</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Senior Sales Engineer</h3>
+					<h4 class="teamexpertise">Co-founder, Consulting and Sales</h4>
+					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
+					<p class="teamsocial"><a href="https://schiessle.org/"><i class="fa-rss fa"></i></a> <a href="https://mastodon.social/@bjoern"><i class="fa-mastodon fa"></i></a> <a href="https://twitter.com/schiessle"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Björn is a computer scientist, graduated at the University of Stuttgart. He conducted research in the area of cloud robotics before he joined ownCloud in 2012 and later co-founded Nextcloud. Björn has a deep knowledge about all technical and legal aspects of Free and Open Source Software. After working for several years as a software engineer, he uses his in-depth knowledge to provide the best possible solutions to our customers.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/matthias.jpg" />
+				<h2 class="teamname">Matthias Wobben</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Senior Sales Engineer</h3>
+					<h4 class="teamexpertise">Sales and Customer Relationships</h4>
+					<h4 class="teamlocation">lives in Hamburg, Germany</h4>
+					<p class="teamsocial"><a href="https://wobben.net/"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/wobben-matthias/"><i class="fa-linkedin fa"></i></a> <a href="https://twitter.com/wobben"><i class="fa-twitter fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Matthias worked for nine years as a 3rd level IT Engineer and IT Administrator. Acting as a broker between the customer, the Sales and Engineering department, his main focus is to give our clients the best possible advice. Matthias is passionate about innovative technology, enabling clients to collaborate securely while retaining ease-of-use.</p>
+			</div>
+		</div>
 		<div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/sascha.jpg" />
 				<h2 class="teamname">Sascha Wiswedel</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Senior Sales Engineer</h3>
+					<h4 class="teamexpertise">Customer consulting</h4>
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="https://www.linkedin.com/in/wiswedel"><i class="fa-linkedin fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Sascha has worked as account manager, sales engineer and application developer in the software industry and in the public sector. He is specialized in transformation and migration of data and processes. Sascha likes finding pragmatic solutions for grown environments and infrastructures.</p>
 			</div>
 		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vanessa.jpg" />
-				<h2 class="teamname">Vanessa Steeg</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Sales &amp; Project Manager</h3>
-					<h4 class="teamexpertise">Sales, Marketing, Media design and Project Management</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial">&nbsp;</p>
-				</div>
-				<p class="teamdescription">Vanessa has a degree in Media Design and qualifications as Executive Assistant in various languages (German, English and Spanish). Her experience ranges from project management to graphic design, marketing and communication.</p>
-			</div>
-		</div>
-	</div>
+    </div>
     <div class="row">
         <h2>Marketing team</h2>
     </div>
@@ -248,7 +268,7 @@
                 <h2 class="teamname">Marija Puselja</h2>
                 <div class="teammeta">
                     <h3 class="teamtitle">Online Marketer</h3>
-                    <h4 class="teamexpertise">Marketing and PR</h4>
+                    <h4 class="teamexpertise">Event management, design and PR</h4>
                     <h4 class="teamlocation">lives in Berlin, Germany</h4>
                     <p class="teamsocial"><a href="https://www.linkedin.com/in/marija-puselja"><i class="fa-rss fa"></i></a></p>
                 </div>
@@ -261,7 +281,7 @@
 				<h2 class="teamname">Marinela Gogo</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Online Marketer</h3>
-					<h4 class="teamexpertise">Marketing and Content</h4>
+					<h4 class="teamexpertise">Customer relations and content</h4>
 					<h4 class="teamlocation">lives in Tirana, Albania</h4>
 					<p class="teamsocial"><a href="https://web.facebook.com/marinela.gogo.3"><i class="fa-facebook fa"></i></a><!-- <a href=""><i class="fa-rss fa"></i></a> <a href=""><i class="fa-github fa"></i></a>--> <a href="https://twitter.com/MarinelaGogo"><i class="fa-twitter fa"></i></a> </p>
 				</div>
@@ -439,7 +459,33 @@
 					<h4 class="teamlocation">lives in Würzburg, Germany</h4>
 					<p class="teamsocial"><a href="https://blog.juliushaertl.de/"><i class="fa-rss fa"></i></a> <a href="https://github.com/juliushaertl"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jus_42"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription"> Julius is involved in the Nextcloud community since the beginning, working on frontend and backend development of the server and apps like Deck. He is currently doing his master's degree in computer science at the University of Würzburg.</p>
+				<p class="teamdescription">Julius is involved in the Nextcloud community since the beginning, working on frontend and backend development of the server and apps like Deck. He is currently doing his master's degree in computer science at the University of Würzburg.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Julien Veyssier</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Full stack/app developer</h4>
+					<h4 class="teamlocation">lives in Montpellier, France</h4>
+					<p class="teamsocial"><a href="https://framapiaf.org/@eneiluj"><i class="fa-mastodon fa"></i></a> <a href="https://github.com/eneiluj"><i class="fa-github fa"></i></a> <a href="https://gitlab.com/eneiluj"><i class="fa-gitlab fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Julien has a master's degree in computer science and does public research for 10 years as scientific computing engineer in biology and geographical data processing. He loves interactive maps, collaborative tools, and is passionate about the Free Software movement. He started contributing to ownCloud and then Nextcloud five years ago and has developed 6 apps since then. He has much experience in data processing and computing optimization.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Kevin Ottens</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Software Engineer</h3>
+					<h4 class="teamexpertise">Desktop client</h4>
+					<h4 class="teamlocation">lives in Toulouse, France</h4>
+					<p class="teamsocial"><a href="https://ervin.ipsquad.net"><i class="fa-rss fa"></i></a> <a href="https://github.com/er-vin"><i class="fa-github fa"></i></a> <a href="https://mamot.fr/@ervin"><i class="fa-mastodon fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Kevin Ottens has a Ph.D. in artificial intelligence which led him to focus on Ontology engineering and multi-agent systems. As a student, he fell in love with the KDE community and never stopped contributing code. Lately, he has been also helping with the community stewardship, for instance participating in the creation of the KDE Manifesto. Nowadays he spends time rethinking his job via a strong interest in software craftsmanship and graphics facilitation.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
