@@ -41,19 +41,6 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/niels.jpg" />
-				<h2 class="teamname">Niels Mache</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Chairman of the board</h3>
-					<h4 class="teamexpertise">Founder</h4>
-					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"> <a href="https://twitter.com/nielsmache"><i class="fa-twitter fa"></i></a> </p>
-				</div>
-				<p class="teamdescription">Currently managing director at <a href="http://www.struktur.de/">Struktur AG</a>, Niels was a co-founder of delix GmbH, one of the first Linux service providers, and of Red Hat Deutschland GmbH. During this time he led Red Hat Deutschland's development department as Director of Development, among other positions.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/andreas.jpg" />
 				<h2 class="teamname">Andreas Rode</h2>
 				<div class="teammeta">
