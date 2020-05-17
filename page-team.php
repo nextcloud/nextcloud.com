@@ -23,7 +23,7 @@
 	<div class="featurerow">
 	<div class="wrap container teamgroup">
     <div class="row">
-	<h2>Management team</h2>
+	<h2>Management</h2>
 	</div>
 	<div class="row">
 		<div class="col-md-4">
@@ -83,7 +83,7 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/patrick.jpg" />
 				<h2 class="teamname">Patrick Walther</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Head of finance</h3>
+					<h3 class="teamtitle">Sales manager</h3>
 					<h4 class="teamexpertise">Sales, accounting and finance</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"> &nbsp; </p>
@@ -96,7 +96,7 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/roeland.jpg" />
 				<h2 class="teamname">Roeland Douma</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Head of engineering</h3>
+					<h3 class="teamtitle">Security lead</h3>
 					<h4 class="teamexpertise">Co-founder, Security, Desktop Client, Sharing</h4>
 					<h4 class="teamlocation">lives in Zuidoostbeemster, Netherlands</h4>
 					<p class="teamsocial"><a href="http://rullzer.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/rullzer"><i class="fa-github fa"></i></a> </p>
@@ -246,7 +246,7 @@
 		</div>
     </div>
     <div class="row">
-        <h2>Marketing team</h2>
+        <h2>Marketing</h2>
     </div>
     <div class="row">
         <div class="col-md-4">
@@ -548,7 +548,7 @@
 					<h3 class="teamtitle">Software Engineer</h3>
 					<h4 class="teamexpertise">Desktop Client</h4>
 					<h4 class="teamlocation">lives in Hamburg, Germany</h4>
-					<p class="teamsocial"> <a href="https://github.com/misch7"><i class="fa-github fa"></i></a> <a href="https://twitter.com/misch711"><i class="fa-twitter fa"></i></a> <a href="https://schuster.ms"><i class="fa-rss fa"></i></a></p>
+					<p class="teamsocial"> <a href="https://github.com/misch7"><i class="fa-github fa"></i></a> </p>
 				</div>
 				<p class="teamdescription">Michael Schuster has been working in C, C++ and web tech for over 20 years, doing game development, docker and Linux work and more. He is passionate about free and open software and control about your own data.</p>
 			</div>
