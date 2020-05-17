@@ -109,7 +109,7 @@
                 <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/vanessa.jpg" />
                 <h2 class="teamname">Vanessa Steeg</h2>
                 <div class="teammeta">
-                    <h3 class="teamtitle">Management/executive assistant</h3>
+                    <h3 class="teamtitle">Executive assistant</h3>
                     <h4 class="teamexpertise">Sales, marketing, design and project management</h4>
                     <h4 class="teamlocation">lives in Stuttgart, Germany</h4>
                     <p class="teamsocial">&nbsp;</p>
