@@ -11,6 +11,7 @@
 		<div class="row">
 			<div class="col-md-6 topheader">
                 <h1><?php echo $l->t('Get Nextcloud');?></h1>
+                <h2><code><?php echo $l->t('Get a server and connect to it with our clients');?></code></h2>
             </div>
         </div>
     </div>
