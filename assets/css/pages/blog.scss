@@ -204,8 +204,11 @@ section {
 				}
 
 				blockquote {
+                    display: inline;
 					p {
-						display: inline;
+                            display: block;
+                            margin-top: 10px;
+                            margin-left: 31px;
 					}
 				}
 
