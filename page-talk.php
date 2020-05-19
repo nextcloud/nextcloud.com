@@ -56,8 +56,8 @@
 <section class="">
 <div class="container">
    	<div class="row">
-		<div class="col-md-6">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png" class="img-responsive featureimg" /></a>
+        <div class="col-md-6  image--feature new-img">
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-promoted-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-promoted-view.png" class="img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Unique protection');?></p>
@@ -79,7 +79,7 @@
 	<div class="container">
          <div class="row feature-row">
             <div class="col-md-6 image--floated">
-                <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/SCM_team.jpg" alt="SCM picture"/></a>
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/SCM_team.jpg" alt="SCM picture"/>
             </div>
             <div class="col-md-6  feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Talk offering secure corporate messaging for SCM LIMITED');?></p>
@@ -132,8 +132,8 @@
             <p class="section--paragraph"><?php echo $l->t('Metadata, often described as everything except the content of your communications, has less legal protections but can be incredibly revealing. From a list of who somebody talks to and when, much can be inferred!');?> <a class="hyperlink" href="https://ssd.eff.org/en/module/why-metadata-matters"><?php echo $l->t('The Electronic Frontier Foundation explains it well on their site.');?></a></p>
 		</div>
         <div class="col-md-6">
-            <p class="section--paragraph"><?php echo $l->t('Of course, service providers might promise not to store and track such meta data, but governments can simply force them if need be. For example, in the UK providers have been forced to record the website visits of their customers.');?> <a href="https://techcrunch.com/2016/11/29/yes-the-uk-now-has-a-law-to-log-web-users-browsing-behavior-hack-devices-and-limit-encryption/" class="hyperlink"><?php echo $l->t('Read about it on Techcrunch.');?></a></p>
-            <p class="section--paragraph"><?php echo $l->t('And that is not even mentioning the fact that even privacy-focused companies can suddenly be sold to a foreign entity. Like with the content of communication, the best way to protect metadata is to ensure it never leaks for your infrastructure in the first place.');?></a></p>
+            <p class="section--paragraph"><?php echo $l->t('Of course, service providers might promise not to store and track such meta data, but governments can simply force them if need be. For example, in the UK providers have been forced to record the website visits of their customers.');?> <a target="_blank" href="https://techcrunch.com/2016/11/29/yes-the-uk-now-has-a-law-to-log-web-users-browsing-behavior-hack-devices-and-limit-encryption/" class="hyperlink"><?php echo $l->t('Read about it on Techcrunch.');?></a></p>
+            <p class="section--paragraph"><?php echo $l->t('And that is not even mentioning the fact that even privacy-focused companies can suddenly be sold to a foreign entity. Like with the content of communication, the best way to protect metadata is to ensure it never leaks from your infrastructure in the first place.');?></a></p>
         </div>
     </div>
 </div>
@@ -282,8 +282,8 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-nw.png" class="img-responsive featureimg" /></a>
+		<div class="col-md-6  image--feature new-img">
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-view.png" class="img-responsive featureimg" /></a>
 		</div>
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Private, group and public calls');?></p>
@@ -294,7 +294,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 image--floated">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
 		</div>
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Webinars and presentations');?></p>
@@ -307,7 +307,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6  image--feature new-img">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png" class="img-responsive featureimg" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png" class="img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Commands for productivity');?></p>
@@ -318,18 +318,19 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6  image--floated image--feature new-img">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png" class="img-responsive featureimg" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png" class="img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Integration with Nextcloud');?></p>
             <p class="section--paragraph"><?php echo $l->t('Documents can be shared directly into a chat from the Files app and are made available to all participants, both users and guests.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Projects integration enables linking of chat rooms with files, calendars, tasks and other resources for easy finding.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Our online office solutions provide a sidebar with Talk for chat and calls with the participants.');?></p>
+            <blockquote class="section--paragraph"><?php echo $l->t('Drag a document into a chat and edited with other participants during a video call');?></blockquote>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-6  image--feature">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw.png" class="img-responsive featureimg" /></a>
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw.png" class="img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Secure and private');?></p>
@@ -383,7 +384,7 @@
 	<div class="row">
 	<h1 class="text-center"><?php echo $l->t('Scalability');?></h1>
 		<div class="col-md-6 image--floated">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-P2P.svg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-P2P.svg" class="img-responsive" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-P2P.svg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-P2P.svg" class="img-responsive" /></a>
 		</div>
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Easy for private use');?></p>
@@ -394,7 +395,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-SFU.svg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-SFU.svg" class="img-responsive" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-SFU.svg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-SFU.svg" class="img-responsive" /></a>
 		</div>
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Scaling in enterprise setup');?></p>
@@ -405,7 +406,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 image--floated">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
 		</div>
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Scaling further: webinars, school classes');?></p>
