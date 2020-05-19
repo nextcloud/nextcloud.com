@@ -37,7 +37,7 @@
 </blockquote>
 <p>-- Frank Karlitschek, CEO of Nextcloud GmbH</p>
 <p><strong>Improvements in Talk 9</strong></p>
-<p>The main improvements coming in the Nextcloud 9 release will include:</p>
+<p>The main improvements coming in the Talk 9 release will include:</p>
 <ul>
 <li>Smarter integration of document handling with introduction of drag’n’drop and of files in a chat, viewing or collaboratively editing documents in a call or chat and an option for users to decide where shared documents are stored</li>
 <li>Grid view option, scrolling participant list in normal view, and manual selection of ‘promoted’ speaker</li>
@@ -109,7 +109,7 @@ jos.poortvliet<a href="mailto:pr@nextcloud.com">@nextcloud.com]</a></p>
 </blockquote>
 <p>-- Frank Karlitschek, der Geschäftsführer und Gründer von Nextcloud GmbH</p>
 <p>Verbesserungen in Talk 9</p>
-<p>Zu den größten Verbesserungen in der Version Nextcloud 9 werden die folgenden gehören:</p>
+<p>Zu den größten Verbesserungen in der Version Talk 9 werden die folgenden gehören:</p>
 <ul>
 <li>Eine bessere Integration der Dokumentenbearbeitung mit Einführung von Drag’n’Drop und von Dateien in einem Chat, Anzeigen oder gemeinsames Bearbeiten von Dokumenten in einem Anruf oder Chat und eine Option für Benutzer, zu entscheiden, wo gemeinsam bearbeitete Dokumente gespeichert werden</li>
 <li>Optionale Grid-Ansicht, Verbesserungen der Skalierbarkeit der Anrufansicht und manuelle Auswahl des ‘beförderten’ Sprechers</li>
