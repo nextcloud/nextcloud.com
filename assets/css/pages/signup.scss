@@ -5,7 +5,7 @@
 }
 
 .register-background {
-    background: url('../../img/headers/dots.png') no-repeat;
+    background: url('../../img/headers/hub_background.png') no-repeat;
     background-position: center;
     background-size: cover;
     height: 70vh;
@@ -37,7 +37,9 @@ section {
 
 .section--providers {
     padding: 30px 0;
-    background-color: $nextcloud-blue;
+    background: url('../../img/headers/hub_background.png') no-repeat;
+    background-position: center bottom;
+    background-size: cover;
 }
 
 
