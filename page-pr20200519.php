@@ -53,7 +53,7 @@
 <p><strong>With this release, Nextcloud Talk cements its position as the only on-premises content collaboration platform on the market with native integrated audio/video chat ready for large organizations. This provides the best solution for thousands of organizations across the globe to keep their communication confidential and prevent their data from leaking.</strong></p>
 <h2>About Nextcloud</h2>
 <p>Nextcloud Hub is the industry-leading, fully open source, on-premises team productivity platform, combining the easy user interface of consumer-grade cloud solutions with the security and compliance measures enterprises need. Nextcloud Hub brings together universal access to data through mobile, desktop and web interfaces with next-generation, on-premise secure communication and collaboration features like real-time document editing, chat and video calls, putting them under direct control of IT and integrated with existing infrastructure.</p>
-<p>Nextcloud’s easy and quick deployment, open, modular architecture and emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing file storage assets within and across the borders of their organization. For more information, visit <a href="https://nextcloud.com">nextcloud.com</a> or follow <span class="citation" data-cites="Nextclouders">[@Nextclouders]</span>(https://twitter.com/Nextclouders) on Twitter.</p>
+<p>Nextcloud’s easy and quick deployment, open, modular architecture and emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing file storage assets within and across the borders of their organization. For more information, visit <a href="https://nextcloud.com">nextcloud.com</a> or follow <a href="https://twitter.com/Nextclouders">@Nextclouders</a> on Twitter.</p>
 <h2>Links</h2>
 <ul>
 <li><a href="https://nextcloud.com/talk">Nextcloud Talk</a></li>
@@ -92,7 +92,7 @@
 <h2>Press contacts</h2>
 <p>Jos Poortvliet<br />
 Phone: +49 (0) 171 121 7528<br />
-jos.poortvliet<a href="mailto:pr@nextcloud.com">@nextcloud.com]</a></p>
+jos.poortvliet<a href="mailto:pr@nextcloud.com">@nextcloud.com</a></p>
 <h2>German version</h2>
 <h1>Talk 9: Großer Schritt vorwärts für Teamgespräche, effiziente Arbeitsabläufe und Open-Source-Backend</h1>
 <p><em>Neue Version macht das <strong>hochleistungsfähige Back-End Open Source verfügbar</strong>, verbessert die Skalierbarkeit, führt die Grid-Ansicht ein und erleichtert die gemeinsame Nutzung und Bearbeitung von Dokumenten</em></p>
@@ -117,11 +117,15 @@ jos.poortvliet<a href="mailto:pr@nextcloud.com">@nextcloud.com]</a></p>
 <li>Mobile Anwendungen führen Offline-Unterstützung ein, eine große Benutzeroberfläche, die in der Android-Anwendung neu erstellt wurde, sowie Verbesserungen der Zugänglichkeit und Benutzerfreundlichkeit für iOS</li>
 </ul>
 <p>Weitere Verbesserungen umfassen Back-End-Clustering zur Verbesserung der Skalierbarkeit der Server-Einrichtung, verbessertes Verbindungsmanagement und Fehlerbehandlung, verbesserte Handhabung beim Hinzufügen von Teilnehmern, die Möglichkeit für Moderatoren, die Mikrofone der Teilnehmer abzuschalten, und die Möglichkeit, das Erstellen von Gesprächen auf eine bestimmte Gruppe zu beschränken.</p>
-<p>Die meisten Leistungsverbesserungen und Auswahlmöglichkeiten für die Videoqualität wurden auch für Nextcloud Talk 8 zur Verfügung gestellt, so dass auch Nutzer der aktuellen Versionen des Nextcloud Hubs Zugang zu einem reibungsloseren Gesprächserlebnis haben. Die Funktionsverbesserungen werden Teil von Nextcloud Talk 9 sein, die von der kommenden Version 19 des Nextcloud Hubs abhängig sein wird.</p>
+<blockquote>
+<p>Wir waren beeindruckt von der schnellen Abwicklung und den schnellen Verbesserungen, die in enger Zusammenarbeit zwischen den Nextcloud-Ingenieuren, unserem Team und unseren Kunden im öffentlichen Sektor möglich sind. und wir freuen uns, dass die durch diese Zusammenarbeit erzielten Leistungsverbesserungen die breitere Open Source-Community erreichen</p>
+</blockquote>
+<p>-- Peer Heinlein, CEO und Gründer von Heinlein Support</p>
+<p>Die meisten Leistungsverbesserungen und Auswahlmöglichkeiten für die Videoqualität, die gemeinsam mit Heinlein-Technikern entwickelt wurden, wurden auch für Nextcloud Talk 8 zur Verfügung gestellt, so dass auch Nutzer der aktuellen Versionen des Nextcloud Hubs Zugang zu einem reibungsloseren Gesprächserlebnis haben. Die Funktionsverbesserungen werden Teil von Nextcloud Talk 9 sein, die von der kommenden Version 19 des Nextcloud Hubs abhängig sein wird.</p>
 <p><strong>Mit dieser Version festigt Nextcloud Talk seine Position als einzige Enterprise-ready, On-Premises Plattform für Zusammenarbeit mit nativem integriertem Audio- / Video-Chat auf dem Markt. Talk ist die bereits die beste Lösung für tausende Unternehmen auf der ganzen Wetl, die ihre Kommunikation vertraulich behandeln wollen und somit verhindern, dass ihre Daten verloren gehen.</strong></p>
 <h2>Über Nextcloud</h2>
 <p>Nextcloud bietet die branchenführende Open-Source-Softwarelösung für on-premises Datenverarbeitung und -kommunikation, die die einfache Benutzeroberfläche von Consumer-Grade-Cloud-Lösungen mit den für Unternehmen erforderlichen Sicherheits- und Compliance-Maßnahmen kombiniert. Nextcloud vereint den universellen Zugriff auf Daten über mobile, Desktop- und Web-Interfaces mit innovativen, sicheren Kommunikations- und Kollaborationsfunktionen wie Dokumentenbearbeitung in Echtzeit, Chat und Videoanrufe, die unter direkter Kontrolle der IT und in die bestehende Infrastruktur integriert werden.</p>
-<p>Mit seiner einfachen und schnellen Bereitstellung, seiner offenen, modularen Architektur und der Betonung von Sicherheits- und fortschrittlichen Föderationsfunktionen ermöglicht Nextcloud modernen Unternehmen, ihre vorhandenen Dateispeicheranlagen innerhalb und außerhalb der Grenzen ihres Unternehmens zu optimieren. Für weitere Informationen besuchen Sie <a href="https://nextcloud.com">nextcloud.com</a> oder folgen Sie <span class="citation" data-cites="Nextclouders">[@Nextclouders]</span>(https://twitter.com/Nextclouders) auf Twitter.</p>
+<p>Mit seiner einfachen und schnellen Bereitstellung, seiner offenen, modularen Architektur und der Betonung von Sicherheits- und fortschrittlichen Föderationsfunktionen ermöglicht Nextcloud modernen Unternehmen, ihre vorhandenen Dateispeicheranlagen innerhalb und außerhalb der Grenzen ihres Unternehmens zu optimieren. Für weitere Informationen besuchen Sie <a href="https://nextcloud.com">nextcloud.com</a> oder folgen Sie <a href="https://twitter.com/Nextclouders">@Nextclouders</a> auf Twitter.</p>
 <h2>Links</h2>
 <ul>
 <li><a href="https://nextcloud.com/talk">Nextcloud Talk</a></li>
@@ -134,7 +138,7 @@ jos.poortvliet<a href="mailto:pr@nextcloud.com">@nextcloud.com]</a></p>
 <h2>Graphics</h2>
 <div class="row">
     <div class="col-md-4">
-        <a target="_blank" href="https://nextcloud.com/media/drag-and-dropping-a-file.png"><img src="https://nextcloud.com/media/drag-and-dropping-a-file.png" alt="drag'n'drop file in Talk 9" class="img-responsive" /></a><br />Drag'n'dropping a file in the chat
+        <a target="_blank" href="https://nextcloud.com/media/drag-and-dropping-a-file.png"><img src="https://nextcloud.com/media/drag-and-dropping-a-file.png" alt="drag'n'drop file in Talk 9" class="img-responsive" /></a><br />Dropping a file in the chat
     </div>
         <div class="col-md-4">
         <a target="_blank" href="https://nextcloud.com/media/view-files-in-Talk-compressed.png"><img src="https://nextcloud.com/media/view-files-in-Talk-compressed.png" alt="Viewing files in Talk 9" class="img-responsive" /></a><br />Viewing a video in Talk
@@ -157,7 +161,7 @@ jos.poortvliet<a href="mailto:pr@nextcloud.com">@nextcloud.com]</a></p>
 <h2>Press contacts</h2>
 <p>Jos Poortvliet<br />
 Phone: +49 (0) 171 121 7528<br />
-jos.poortvliet<a href="mailto:pr@nextcloud.com">@nextcloud.com]</a></p>
+jos.poortvliet<a href="mailto:pr@nextcloud.com">@nextcloud.com</a></p>
 </div>
 </div>
 </div>
