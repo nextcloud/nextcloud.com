@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Nextcloud Podcast</title>
+<!--  podcast player scripts - see https://docs.podlove.org/podlove-web-player/embedding.html -->
+<script src="https://cdn.podlove.org/web-player/5.x/embed.js"></script>
+<script>
+const RSS_URL = "podcast-feed.rss";
+const config_URL = "config.json";
+const version = 5;
+const show = {
+            title: "Nextcloud Podcast",
+            subtitle: "Nextcloud's own podcast",
+            summary: "Every week we will talk about a subject concerning the community, data privacy and digital sovereignty",
+            poster: "podcast.png",
+            link: "https://nextcloud.com/podcast"
+        };
+
+Promise.all([
+    fetch(RSS_URL)
+    .then(rss_response => rss_response.text()),
+    fetch(config_URL)
+    .then(config_response => config_response.json())
+]).then((response) => {
+    const rss_data = new window.DOMParser().parseFromString(response[0], "text/xml");
+    const episodes_nodes = rss_data.querySelectorAll("item");
+    let config_data = response[1];
+
+    let episodes_list = [];
+    let chapters = [];
+    episodes_nodes.forEach(episode => {
+        let audio_object = {
+            url: episode.querySelector("enclosure").getAttribute("url"),
+            size: episode.querySelector("enclosure").getAttribute("length"),
+            title: episode.querySelector("title").textContent,
+            mimeType: episode.querySelector("enclosure").getAttribute("type")
+        };
+        let episode_config = {
+            version: version,
+            show: show,
+            title: episode.querySelector("title").textContent,
+            subtitle: episode.getElementsByTagName("itunes:subtitle")[0].textContent,
+            summary: episode.getElementsByTagName("itunes:summary")[0].textContent,
+            publicationDate: episode.querySelector("pubDate").textContent,
+            poster: "podcast.png",
+            duration: episode.getElementsByTagName("itunes:duration")[0].textContent,
+            link: episode.querySelector("link").textContent,
+            chapters: [],
+            audio: [ audio_object ],
+            contributors: [
+                {
+                    id: "",
+                    name: "",
+                    avatar: "",
+                    group: { "id": "", "slug": "", "title": "" }
+                }
+            ]
+        };
+        episodes_list.push(episode_config);
+
+        let episode_object = {
+            title: episode_config.title,
+            duration: episode_config.duration,
+            href: episode_config.link,
+            image: "author.jpg",
+            config: {}
+        };
+        chapters.push(episode_object);
+    });
+
+    // add config for each episode in chapters
+    let episode_number = 0;
+    chapters.forEach(chapter => {
+        chapter.config = episodes_list[episode_number];
+        episode_number++;
+    });
+
+    // add chapters to episodes
+    episodes_list.forEach(episode => {
+        episode.chapters = chapters;
+
+        // remove the current episode itself from the current playlist
+        episode.chapters = episode.chapters.filter(ep => ep.title != episode.title);
+    });
+
+    config_data.playlist = chapters;
+    window.podlovePlayer("#podcast-player", episodes_list[0], config_data)
+    .then(store => {
+        store.subscribe(() => {
+        console.log(store.getState());
+        });
+    });
+
+});
+</script>
+<!--  podcast player scripts -->
+
+</head>
+<body>
+
+<h1>Nextcloud Podcast</h1>
+<!--         podcast player will be displayed here             -->
+<div id="podcast-player"></div>
+<!--         podcast player will be displayed here             -->
+
+
+
+</body>
+
+
+</html>
+
+
+
+
