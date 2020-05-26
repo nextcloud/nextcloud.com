@@ -28,7 +28,7 @@ Promise.all([
     let config_data = response[1];
 
     let episodes_list = [];
-    let chapters = [];
+    let playlist = [];
     episodes_nodes.forEach(episode => {
         let audio_object = {
             url: episode.querySelector("enclosure").getAttribute("url"),
@@ -36,26 +36,30 @@ Promise.all([
             title: episode.querySelector("title").textContent,
             mimeType: episode.querySelector("enclosure").getAttribute("type")
         };
+
+        /**
+        * Episode related Information
+        */
         let episode_config = {
-            version: version,
-            show: show,
-            title: episode.querySelector("title").textContent,
-            subtitle: episode.getElementsByTagName("itunes:subtitle")[0].textContent,
-            summary: episode.getElementsByTagName("itunes:summary")[0].textContent,
-            publicationDate: episode.querySelector("pubDate").textContent,
-            poster: "podcast.png",
-            duration: episode.getElementsByTagName("itunes:duration")[0].textContent,
-            link: episode.querySelector("link").textContent,
-            chapters: [],
-            audio: [ audio_object ],
-            contributors: [
-                {
-                    id: "",
-                    name: "",
-                    avatar: "",
-                    group: { "id": "", "slug": "", "title": "" }
-                }
-            ]
+                version: version,
+                show: show,
+                title: episode.querySelector("title").textContent,
+                subtitle: episode.getElementsByTagName("itunes:subtitle")[0].textContent,
+                summary: episode.getElementsByTagName("itunes:summary")[0].textContent,
+                publicationDate: episode.querySelector("pubDate").textContent,
+                poster: "podcast.png",
+                duration: episode.getElementsByTagName("itunes:duration")[0].textContent,
+                link: episode.querySelector("link").textContent,
+                audio: [ audio_object ],
+                playlist: [],
+                contributors: [
+                    {
+                        id: "",
+                        name: "",
+                        avatar: "",
+                        group: { "id": "", "slug": "", "title": "" }
+                    }
+                ]
         };
         episodes_list.push(episode_config);
 
@@ -66,25 +70,22 @@ Promise.all([
             image: "author.jpg",
             config: {}
         };
-        chapters.push(episode_object);
+        playlist.push(episode_object);
     });
 
-    // add config for each episode in chapters
+    // add config for each episode in playlist
     let episode_number = 0;
-    chapters.forEach(chapter => {
-        chapter.config = episodes_list[episode_number];
+    playlist.forEach(episode => {
+        episode.config = episodes_list[episode_number];
         episode_number++;
     });
 
-    // add chapters to episodes
+    // add playlist to episodes
     episodes_list.forEach(episode => {
-        episode.chapters = chapters;
-
-        // remove the current episode itself from the current playlist
-        episode.chapters = episode.chapters.filter(ep => ep.title != episode.title);
+        episode.playlist = playlist;
     });
 
-    config_data.playlist = chapters;
+    config_data.playlist = playlist;
     window.podlovePlayer("#podcast-player", episodes_list[0], config_data)
     .then(store => {
         store.subscribe(() => {
