@@ -58,7 +58,7 @@
 <ul>
 <li><a href="https://nextcloud.com/talk">Nextcloud Talk</a></li>
 <li><a href="https://nextcloud.com/blog/open-sourcing-talk-back-end-rc-of-talk-9-brings-lots-of-improvements/">Announcement blog</a></li>
-<li><a href="https://nextcloud.com/press/pr20200518">Link to this press release</a></li>
+<li><a href="https://nextcloud.com/press/pr20200519">Link to this press release</a></li>
 <li><a href="https://github.com/strukturag/nextcloud-spreed-signaling">Source code of signaling server by Struktur AG</a></li>
 <li><a href="https://www.spreed.eu/contact-nextcloud-talk-high-performance-backend/">Struktur AG hosted offering</a></li>
 <li><a href="https://heinlein-support.de">Heinlein Support</a></li>
@@ -130,7 +130,7 @@ jos.poortvliet<a href="mailto:pr@nextcloud.com">@nextcloud.com</a></p>
 <ul>
 <li><a href="https://nextcloud.com/talk">Nextcloud Talk</a></li>
 <li><a href="https://nextcloud.com/blog/open-sourcing-talk-back-end-rc-of-talk-9-brings-lots-of-improvements/">Announcement blog</a></li>
-<li><a href="https://nextcloud.com/press/pr20200518">Link to this press release</a></li>
+<li><a href="https://nextcloud.com/press/pr20200519">Link to this press release</a></li>
 <li><a href="https://github.com/strukturag/nextcloud-spreed-signaling">Source code of signaling server by Struktur AG</a></li>
 <li><a href="https://www.spreed.eu/de/nextcloud-talk-high-performance-backend/">Struktur AG hosted offering</a></li>
 <li><a href="https://heinlein-support.de">Heinlein Support</a></li>
