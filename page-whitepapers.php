@@ -137,7 +137,7 @@
             <div class="row">
 				<div class="description">
 					<h3 class="section--paragraph__title"><?php echo $l->t('German Radio and TV');?></h3>
-                    <p class="section--paragraph"><?php echo $l->t('IVZ, Germany’s public radio and television deploys Nextcloud for efficient file exchange and online content collaboration through ONLYOFFICE.');?></p>
+                    <p class="section--paragraph"><?php echo $l->t('IVZ, Germany’s public radio and television deploys Nextcloud with ONLYOFFICE for efficient file exchange and online content collaboration.');?></p>
                 </div>
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
                     <td colspan="2">

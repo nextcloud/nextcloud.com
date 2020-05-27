@@ -131,9 +131,9 @@ require(["require.config"], function() {
 	<div class="container ">
         <div class="row">
 			<div class="col-lg-8">
-                <h2 class=""><?php echo $l->t('IVZ, Germany’s public radio and television deploys Nextcloud for efficient file exchange and online content collaboration through ONLYOFFICE.');?></h2>
+                <h2 class=""><?php echo $l->t('Efficient file exchange and collaboration in the Newsroom.');?></h2>
                 <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
-                    <p><label for="email"><?php echo $l->t('Download our free case study: <br /> ARD/ZDF Box secures journalism across the globe!');?><br>
+                    <p><label for="email"><?php echo $l->t('Download our free case study: <br /> Germany’s public radio and television deploys Nextcloud');?><br>
                     <td colspan="2" style="text-align:center">
                     <div class="">
                         <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
