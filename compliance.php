@@ -4,7 +4,6 @@
 <section class="section--compliance">
 <div class="container-fluid banner quote">
     <div class="container">
-    <div class="row">
         <div class="col-md-6">
             <h2><?php echo $l->t('Compliant by design');?></h2>
             <h3><?php echo $l->t('HIPAA, GDPR and more');?></h3>
@@ -40,7 +39,6 @@
         </div>
         <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/medicaldevices.jpeg">
         <img class="small-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/medicaldevices-small.jpeg">
-    </div>
     </div>
 </div>
 </section>
