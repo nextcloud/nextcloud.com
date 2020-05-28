@@ -301,6 +301,8 @@ section {
             max-height: 450px !important; }
             .section--content .container .row .content .size-medium .article.video-wall .video-link {
               width: 100% !important; } }
+        .section--content .container .row .content .size-medium .article.video-wall img {
+          max-width: 100%; }
         @media (max-width: 768px) {
           .section--content .container .row .content .size-medium {
             width: 90vw;

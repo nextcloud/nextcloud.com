@@ -346,6 +346,9 @@ section {
 								width: 100% !important;
 							}
 						}
+						img {
+                            max-width: 100%;
+                        }
 					}
 					@media (max-width: $break-small) {
                         width: 90vw;
