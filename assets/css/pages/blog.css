@@ -266,7 +266,7 @@ section {
           max-width: 100%; } }
       @media (max-width: 768px) {
         .section--content .container .row .content img {
-          max-width: 70vw; } }
+          max-width: 100%; } }
       .section--content .container .row .content .size-thumbnail {
         width: auto;
         height: auto;
