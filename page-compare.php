@@ -26,26 +26,26 @@
 </section>
 <section class="section--best">
 <div class="container-fluid">
-    <h2 class="text-center">What makes Nextcloud the best choice</h2>
+    <h2 class="text-center"><?php echo $l->t('What makes Nextcloud the best choice');?></h2>
     <div class="row">
         <div class="col-lg-4 col-sm-12">
             <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/firewall.svg" /></div>
-            <h3 class="section--paragraph__title">Best security</h3>
-            <p class="section--paragraph">Nextcloud is developed in a security-focused process as attested by a range of external experts and security pen-tests.</p>
-            <p class="section--paragraph">Industry-leading features include machine-learning based login protection, 2-factor authentication measures, brute force protection and unique capabilities like Video Verification, end-to-end and server-side encryption.
-            <p class="section--paragraph">We put our money where our mouth is: our USD 10.000 security bug bounty program brings top security expertise in, keeping your data safe.</p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Best security');?></h3>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud is developed in a security-focused process as attested by a range of external experts and security pen-tests.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Industry-leading features include machine-learning based login protection, 2-factor authentication measures, brute force protection and unique capabilities like Video Verification, end-to-end and server-side encryption.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('We put our money where our mouth is: our USD 10.000 security bug bounty program brings top security expertise in, keeping your data safe.');?></p>
         </div>
         <div class="col-lg-4 col-sm-12">
             <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
-            <h3 class="section--paragraph__title">Largest ecosystem</h3>
-            <p class="section--paragraph">As the most deployed self-hosted file sync and content collaboration platform, Nextcloud offers the widest range of add-on capabilities and integrations in the industry. Over 200 'apps' offer powerful security capabilities, team productivity features and infrastructure integrations.</p>
-            <p class="section--paragraph">Workflow capabilities, several online office solutions and a tool employing advanced entropy analysis to recover files from a ransomware attack, built by security researchers from a German university, are just some of the applications found in our app store.</p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Largest ecosystem');?></h3>
+            <p class="section--paragraph"><?php echo $l->t('As the most deployed self-hosted file sync and content collaboration platform, Nextcloud offers the widest range of add-on capabilities and integrations in the industry. Over 200 'apps' offer powerful security capabilities, team productivity features and infrastructure integrations.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Workflow capabilities, several online office solutions and a tool employing advanced entropy analysis to recover files from a ransomware attack, built by security researchers from a German university, are just some of the applications found in our app store.');?></p>
         </div>
         <div class="col-lg-4 col-sm-12">
             <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/tools.svg" /></div>
-            <h3 class="section--paragraph__title">Easiest to use</h3>
-            <p class="section--paragraph">Powerful capabilities often result in complicated user interfaces, lowering productivity and hindering quick adoption in organizations. Without limiting their abilities, Nextcloud does not overwhelm users with unnessecary clutter. Our customers remark time and again how few support tickets it creates for their IT teams.</p>
-            <p class="section--paragraph">Accessibility features like keyboard and screenreader navigation, WCAG 2.1 compliant contrast and a dyslexia-friendly font are available only in the leading on-premises content collaboration platform!</p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Easiest to use');?></h3>
+            <p class="section--paragraph"><?php echo $l->t('Powerful capabilities often result in complicated user interfaces, lowering productivity and hindering quick adoption in organizations. Without limiting their abilities, Nextcloud does not overwhelm users with unnecessary clutter. Our customers remark time and again how few support tickets it creates for their IT teams.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Accessibility features like keyboard and screenreader navigation, WCAG 2.1 compliant contrast and a dyslexia-friendly font are available only in the leading on-premises content collaboration platform');?>!</p>
         </div>
     </div>
 </div>
@@ -53,7 +53,7 @@
 <hr>
 <section class="section--comparision">
 <div class="container">
-    <h1 class="text-center">Compare products</h1>
+    <h1 class="text-center"><?php echo $l->t('Compare products');?></h1>
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
             <p><?php echo $l->t('See how Nextcloud compares to these popular closed-source services, and switch to a more open and transparent solution to protect your data!');?></p>
@@ -67,7 +67,7 @@
 	</section> <!-- .cd-intro -->
 	<section class="cd-products-comparison-table">
 		<header>
-			<h2><small>Click on or hover items to learn more.<br/>You can pick a few items and filter the list to only show those.</small></h2>
+			<h2><small><?php echo $l->t('Click on or hover items to learn more.');?><br/><?php echo $l->t('You can pick a few items and filter the list to only show those.');?></small></h2>
 			<div class="actions">
 			<br />
 				<a href="#0" class="reset">Reset</a>
@@ -913,8 +913,8 @@
 </section>
 <section class="disclaimer">
 <div class="container">
-<p>Based on public information to our best knowledge, gathered September 2 2018. We understand the world is constantly changing, if you see we missed a feature or made a mistake, let us know. You can use <a href="<?php echo home_url('contact') ?>">our contact form.</a></p>
-<p>Note that end-to-end encryption in a browser is not the same as client-side encryption as it fails to protect adequately from the server (it does not offer 'zero-knowledge' protection). The security experts at the Brittish NCC Group have <a class="hyperlink" href="https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2011/august/javascript-cryptography-considered-harmful/">written on this subject,</a> considering javascript encryption in the browser "harmful".</p>
+<p><?php echo $l->t('Based on public information to our best knowledge, gathered September 2 2018. We understand the world is constantly changing, if you see we missed a feature or made a mistake, let us know.');?> You can use <a href="<?php echo home_url('contact') ?>">our contact form.</a></p>
+<p><?php echo $l->t('Note that end-to-end encryption in a browser is not the same as client-side encryption as it fails to protect adequately from the server (it does not offer 'zero-knowledge' protection). The security experts at the Brittish NCC Group have <a class="hyperlink" href="https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2011/august/javascript-cryptography-considered-harmful/">written on this subject,</a> considering javascript encryption in the browser "harmful".');?></p>
 </div>
 </section>
 
