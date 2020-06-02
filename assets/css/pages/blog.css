@@ -202,6 +202,8 @@ section {
           margin: 3px 0 0 0;
           list-style-image: url("../../img/enterprise/dot-tiny.svg");
           font-size: 90%; }
+      .section--content .container .row .content .row {
+        margin-top: 20px; }
       .section--content .container .row .content figure {
         border: 1px solid #eee;
         padding: 5px;
