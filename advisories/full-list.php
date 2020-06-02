@@ -2,6 +2,21 @@
 
 <h2>2020</h2>
 
+<h3>Talk App 8.0.8</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-021">Code injection possible with malformed Nextcloud Talk chat commands (NC-SA-2020-021)</a> 2020-04-20</li>
+</ul>
+
+<h3>Talk App 7.0.3</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-021">Code injection possible with malformed Nextcloud Talk chat commands (NC-SA-2020-021)</a> 2020-04-20</li>
+</ul>
+
+<h3>Talk App 6.0.5</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-021">Code injection possible with malformed Nextcloud Talk chat commands (NC-SA-2020-021)</a> 2020-04-20</li>
+</ul>
+
 <h3>Mail App 1.1.4</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2020-020">Mail app not verifying TLS host of mail servers (NC-SA-2020-020)</a> 2020-03-24</li>
@@ -336,16 +351,6 @@
 	<li><a href="/security/advisory/?id=NC-SA-2018-010">Improper validation of permissions (NC-SA-2018-010)</a> 2018-10-25</li>
 </ul>
 
-<h3>Nextcloud Server 13.0.6</h3>
-<ul>
-	<li><a href="/security/advisory/?id=NC-SA-2018-010">Improper validation of permissions (NC-SA-2018-010)</a> 2018-10-25</li>
-</ul>
-
-<h3>Nextcloud Server 12.0.11</h3>
-<ul>
-	<li><a href="/security/advisory/?id=NC-SA-2018-010">Improper validation of permissions (NC-SA-2018-010)</a> 2018-10-25</li>
-</ul>
-
 <h3>Nextcloud Server 13.0.3</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2018-013">Session fixation on public share page (NC-SA-2018-013)</a> 2018-10-25</li>
@@ -354,6 +359,16 @@
 <h3>Nextcloud Server 12.0.8</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2018-013">Session fixation on public share page (NC-SA-2018-013)</a> 2018-10-25</li>
+</ul>
+
+<h3>Nextcloud Server 13.0.6</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2018-010">Improper validation of permissions (NC-SA-2018-010)</a> 2018-10-25</li>
+</ul>
+
+<h3>Nextcloud Server 12.0.11</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2018-010">Improper validation of permissions (NC-SA-2018-010)</a> 2018-10-25</li>
 </ul>
 
 <h3>Nextcloud Server 13.0.5</h3>
@@ -473,20 +488,20 @@
 
 <h2>2016</h2>
 
-<h3>Nextcloud Server 9.0.54</h3>
-<ul>
-	<li><a href="/security/advisory/?id=NC-SA-2016-011">Content-Spoofing in &quot;dav&quot; app (NC-SA-2016-011)</a> 2016-10-10</li>
-	<li><a href="/security/advisory/?id=NC-SA-2016-010">Content-Spoofing in &quot;files&quot; app (NC-SA-2016-010)</a> 2016-10-10</li>
-	<li><a href="/security/advisory/?id=NC-SA-2016-007">Improper authorization check on removing shares (NC-SA-2016-007)</a> 2016-10-10</li>
-	<li><a href="/security/advisory/?id=NC-SA-2016-006">SMB User Authentication Bypass (NC-SA-2016-006)</a> 2016-10-10</li>
-</ul>
-
 <h3>Nextcloud Server 10.0.1</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2016-011">Content-Spoofing in &quot;dav&quot; app (NC-SA-2016-011)</a> 2016-10-10</li>
 	<li><a href="/security/advisory/?id=NC-SA-2016-010">Content-Spoofing in &quot;files&quot; app (NC-SA-2016-010)</a> 2016-10-10</li>
 	<li><a href="/security/advisory/?id=NC-SA-2016-009">Reflected XSS in Gallery application (NC-SA-2016-009)</a> 2016-10-10</li>
 	<li><a href="/security/advisory/?id=NC-SA-2016-008">Stored XSS in CardDAV image export (NC-SA-2016-008)</a> 2016-10-10</li>
+	<li><a href="/security/advisory/?id=NC-SA-2016-006">SMB User Authentication Bypass (NC-SA-2016-006)</a> 2016-10-10</li>
+</ul>
+
+<h3>Nextcloud Server 9.0.54</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2016-011">Content-Spoofing in &quot;dav&quot; app (NC-SA-2016-011)</a> 2016-10-10</li>
+	<li><a href="/security/advisory/?id=NC-SA-2016-010">Content-Spoofing in &quot;files&quot; app (NC-SA-2016-010)</a> 2016-10-10</li>
+	<li><a href="/security/advisory/?id=NC-SA-2016-007">Improper authorization check on removing shares (NC-SA-2016-007)</a> 2016-10-10</li>
 	<li><a href="/security/advisory/?id=NC-SA-2016-006">SMB User Authentication Bypass (NC-SA-2016-006)</a> 2016-10-10</li>
 </ul>
 

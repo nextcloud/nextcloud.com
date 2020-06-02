@@ -16,7 +16,7 @@
         <p>An outdated 3rd party library in the Files PDF viewer for Nextcloud Server 18.0.2 caused a Cross-site scripting vulnerability when opening a malicious PDF.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>18.0.3</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>18.0.3</strong> (CVE-2020-8155)</li>
 
         </ul>
         <h3>Action Taken</h3>

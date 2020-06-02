@@ -16,7 +16,7 @@
         <p>A missing verification of the TLS host in Nextcloud Mail 1.1.3 allowed a man in the middle attack.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Mail &lt; <strong>1.1.4</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Mail &lt; <strong>1.1.4</strong> (CVE-2020-8156)</li>
 
         </ul>
         <h3>Action Taken</h3>
