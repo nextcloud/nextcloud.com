@@ -10792,11 +10792,13 @@ blockquote.twitter-tweet {
     padding: 0 10px; } }
 /* Blue call to action bar */
 .quote, .call-to-action {
-  padding: 60px 0 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: linear-gradient(40deg, #0082c9 0%, #1cafff 100%);
   color: white !important; }
   .quote.banner, .quote.section--whitepaper, .call-to-action.banner, .call-to-action.section--whitepaper {
-    padding: 0; }
+    padding-top: 0;
+    padding-bottom: 0; }
   .quote p, .quote ul, .quote li, .call-to-action p, .call-to-action ul, .call-to-action li {
     color: white !important; }
   .quote h1, .quote h2, .quote h3, .quote h4, .quote h5, .quote h6, .call-to-action h1, .call-to-action h2, .call-to-action h3, .call-to-action h4, .call-to-action h5, .call-to-action h6 {

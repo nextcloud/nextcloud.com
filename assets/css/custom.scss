@@ -1450,9 +1450,11 @@ blockquote.twitter-tweet {
 /* Blue call to action bar */
 
 .quote, .call-to-action {
-	padding: 60px 0 60px 0;
+	padding-top: 60px;
+    padding-bottom: 60px;
 	&.banner, &.section--whitepaper {
-		padding: 0;
+		padding-top: 0;
+        padding-bottom: 0;
 	}
 	background: linear-gradient(40deg, #0082c9 0%, rgba(28,175,255,1) 100%);
 	color: white !important;
