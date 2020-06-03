@@ -188,6 +188,8 @@ section {
         margin-top: 40px;
         font-size: 22px; }
       .section--content .container .row .content blockquote {
+        margin-top: 30px;
+        margin-bottom: 20px;
         display: inline; }
         .section--content .container .row .content blockquote p {
           display: block;
