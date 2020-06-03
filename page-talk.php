@@ -267,7 +267,7 @@
 </div>
 </section>
 
-<section class="section--introduction">
+<section class="section--features-images">
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 image--floated">
@@ -293,6 +293,29 @@
 		</div>
 	</div>
 	<div class="row">
+		<div class="col-md-6  image--floated  image--feature new-img">
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png" class="img-responsive featureimg" /></a>
+		</div>
+        <div class="col-md-6">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Collaboration within Nextcloud');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Documents can be shared directly into a chat from the Files app and are made available to all participants, both users and guests.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Projects integration enables linking of chat rooms with files, calendars, tasks and other resources for easy finding.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Our online office solutions provide a sidebar with Talk for chat and calls with the participants.');?></p>
+            <blockquote class="section--paragraph"><?php echo $l->t('Drag a document into a chat and edit it with other participants during a video call');?></blockquote>
+		</div>
+	</div>
+	<div class="row">
+        <div class="col-md-4">
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-drop-file-in-call.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-drop-file-in-call.png" class="img-responsive featureimg" alt="<?php echo $l->t('Dropping a file in a call in Talk');?>" /></a><br /><?php echo $l->t('Dropping a file in a call in Talk');?>
+        </div>
+        <div class="col-md-4">
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-view-file.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-view-file.png" class="img-responsive featureimg" alt="<?php echo $l->t('Viewing a video during a chat in Talk');?>" /></a><br /><?php echo $l->t('Viewing a video during a chat in Talk');?>
+        </div>
+        <div class="col-md-4">
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png" class="img-responsive featureimg" alt="<?php echo $l->t('Editing a document during a call in Talk');?>" /></a><br /><?php echo $l->t('Editing a document during a call in Talk');?>
+        </div>
+    </div>
+	<div class="row">
 		<div class="col-md-6 image--floated">
 			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
 		</div>
@@ -301,7 +324,6 @@
 			<p class="section--paragraph"><?php echo $l->t('Share the content of a single window or a full desktop screen for presentations with chat-partners.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Manage participants by inviting, muting or removing them.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Schedule meetings and be notified when they start.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Edit documents while chatting or having a call in the sidebar.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('A lobby is provided for guests to wait until the call starts.');?></p>
 		</div>
 	</div>
@@ -317,20 +339,8 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6  image--floated image--feature new-img">
-			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png" class="img-responsive featureimg" /></a>
-		</div>
-        <div class="col-md-6">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Integration with Nextcloud');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Documents can be shared directly into a chat from the Files app and are made available to all participants, both users and guests.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Projects integration enables linking of chat rooms with files, calendars, tasks and other resources for easy finding.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Our online office solutions provide a sidebar with Talk for chat and calls with the participants.');?></p>
-            <blockquote class="section--paragraph"><?php echo $l->t('Drag a document into a chat and edited with other participants during a video call');?></blockquote>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-6  image--feature">
-            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw.png" class="img-responsive featureimg" /></a>
+		<div class="col-md-6  image--floated  image--feature">
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-6-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-6-view.png" class="img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Secure and private');?></p>
@@ -341,7 +351,7 @@
 		</div>
 	</div>
     <div class="row">
-        <div class="col-md-6 image--floated">
+        <div class="col-md-6">
         <div data-type="youtube" data-video-id="Pffusr1bac4"></div>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/Pffusr1bac4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
