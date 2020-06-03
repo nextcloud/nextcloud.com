@@ -21,7 +21,7 @@
 <div class="container">
 <div class="row">
 <div class="pr">
-<p><em>Deutsche Version unten</em></p>
+<p><a href="#german"><em>Deutsche Version unten</em></a></p>
 <h1>Talk 9: big step forward for team calls, efficient work flows and open source back-end</h1>
 <p><em>New release <strong>open sources the high-performance back-end,</strong> improves scalability, introduces Grid View, and makes sharing and collaborative editing documents easier.</em></p>
 <p><em>Stuttgart, May 20, 2020</em> - Nextcloud GmbH is glad to announce the upcoming major release of Nextcloud Talk that will include significant improvements for teams collaborating remotely, including easy document sharing with drag’n’drop, in-call collaborative document editing and significant modifications to facilitate calls with more participants. Together with this release, our partner Struktur AG makes the high-performance back-end available under the AGPL license. A first release candidate of Talk 9 is available today and the final release is expected in about two weeks. Most of the improvements in the area of performance and scalability have been backported to the stable Talk 8 series, making them available to users right now.</p>
@@ -93,6 +93,7 @@
 <p>Jos Poortvliet<br />
 Phone: +49 (0) 171 121 7528<br />
 jos.poortvliet<a href="mailto:pr@nextcloud.com">@nextcloud.com</a></p>
+<a name="german"></a>
 <h2>German version</h2>
 <h1>Talk 9: Großer Schritt vorwärts für Teamgespräche, effiziente Arbeitsabläufe und Open-Source-Backend</h1>
 <p><em>Neue Version macht das <strong>hochleistungsfähige Back-End Open Source verfügbar</strong>, verbessert die Skalierbarkeit, führt die Grid-Ansicht ein und erleichtert die gemeinsame Nutzung und Bearbeitung von Dokumenten</em></p>

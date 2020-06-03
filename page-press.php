@@ -21,6 +21,7 @@
     <a href="<?php echo home_url('press/pr20200117-2') ?>" class="button button--large button--white button--arrow">Press release</a>
     <h2>Press releases 2020</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20200603') ?>">June 3, 2020: Nextcloud Hub brings productivity to home office workers</a></li>
         <li><a href="<?php echo home_url('press/pr20200519') ?>">May 19, 2020: Talk 9: big step forward for team calls, efficient work flows and open source back-end</a></li>
         <li><a href="<?php echo home_url('press/pr20200430') ?>">April 30, 2020: Massachusetts General Hospital and Nextcloud support fight against COVID</a></li>
         <li><a href="<?php echo home_url('press/pr20200408') ?>">April 8, 2020: German cloud giants launch GDPR-compliant collaboration platform for schools, government agencies and SMB</a></li>
