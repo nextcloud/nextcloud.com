@@ -147,7 +147,7 @@
         </div>
         <div class="col-md-3 featureblock">
         <p class=""><?php echo $l->t('Seamlessly edit office documents together with others, take notes while in a video call.');?></p>
-        <a href="<?php echo home_url('onlyoffice') ?>" class="button button--white button--arrow"><?php echo $l->t('Learn more about ONLYOFFICE');?></a>
+        <a href="<?php echo home_url('collabora') ?>" class="button button--white button--arrow"><?php echo $l->t('Learn more about Collabora Online');?></a>
         </div>
     </div>
     <div class="row">
@@ -275,19 +275,18 @@
         <div class="row">
 
             <div class="col-md-6 image--floated image--feature">
-                <a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-presentation.png"/></a>
+                <a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"/></a>
             </div>
-                <h3 class="section--paragraph__title"><?php echo $l->t('Collaborate on documents with ONLYOFFICE');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('ONLYOFFICE integration in Nextcloud empowers your users to collaborate on office documents with team members in real time.');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Collaborate on documents with Collabora');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('Collabora Online integration in Nextcloud empowers your users to collaborate on office documents with team members in real time.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Compatibility with Microsoft Office formats means perfect documents, every time.');?></p>
                 <ul>
                 <li><?php echo $l->t('Shipping by default in Nextcloud Hub');?></li>
                 <li><?php echo $l->t('A modern and familiar user interface');?></li>
                 <li><?php echo $l->t('The same document rendering in every browser');?></li>
-                <li><?php echo $l->t('Low resource consumption on server and client');?></li>
                 <li><?php echo $l->t('Desktop level editing capabilities');?></li>
                     </ul>
-                <a href="<?php echo home_url('onlyoffice') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('ONLYOFFICE');?></a>
+                <a href="<?php echo home_url('collabora') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Collabora Online');?></a>
             </div>
         </div>
 	</div>
