@@ -18,6 +18,7 @@
     <p>We recommend you follow our <a href="<?php echo home_url('release-channels') ?>">Release Channels</a> to always have the latest and most secure Nextcloud Server version which fits your needs.</p>
     Go directly to the latest maintenance release of:
     <ul>
+    <li><a href="#latest18">Nextcloud 19</a></li>
     <li><a href="#latest18">Nextcloud 18</a></li>
     <li><a href="#latest17">Nextcloud 17</a></li>
     <li><a href="#latest16">Nextcloud 16</a></li>
@@ -29,6 +30,25 @@
     <li><a href="#latest10">Nextcloud 10 (unsupported!)</a></li>
     <li><a href="#latest9">Nextcloud 9 (unsupported!)</a></li>
     </ul>
+
+    <a name="latest19"></a>
+<h3 id="19-0-0">Version 19.0.0 <small>June 3 2020</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.tar.bz2">nextcloud-19.0.0⎄.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.zip">nextcloud-19.0.0⎄.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.tar.bz2.md5">nextcloud-19.0.0⎄.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.zip.md5">nextcloud-19.0.0⎄.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.tar.bz2.sha256">nextcloud-19.0.0⎄.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.zip.sha256">nextcloud-19.0.0⎄.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.tar.bz2.sha512">nextcloud-19.0.0⎄.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.zip.sha512">nextcloud-19.0.0⎄.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.tar.bz2.asc">nextcloud-19.0.0⎄.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.zip.asc">nextcloud-19.0.0⎄.zip.asc</a></p>
+
+<h4>Changes</h4>
+<p>Nextcloud Hub v19, code name “home office”, represents a big step forward for remote collaboration in teams. This release brings document collaboration to video chats, introduces password-less login and improves performance.</p>
+<p>As this is a major release, the changelog is too long to put here. Users can look at github milestones to find what has been merged. A quick overview of what is new:</p>
+<ul>
+<li style="list-style: none; list-style-image: none;">🔒 password-less authentication and many other security measures</li>
+<li style="list-style: none; list-style-image: none;">📝 Talk 9 with built-in office document editing courtesy of Collabora, a grid view & more</li>
+<li style="list-style: none; list-style-image: none;">🚀 MUCH improved performance, 📆 Deck integration in Calendar, 🙇 guest account groups and more!</li>
+</ul>
+<p>Read the <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-hub-brings-productivity-to-home-office/">release announcement</a> for more details.</p>
 
     <a name="latest18"></a>
 <h3 id="18-0-4">Version 18.0.4 <small>April 24 2020</small></h3>

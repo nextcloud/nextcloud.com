@@ -14,9 +14,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-ionos-and-viakom-announce-online-collaboration-platform-for-educational-institutions-public-authorities-and-smes-made-in-germany/">
+				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-hub-brings-productivity-to-home-office/">
 				<span class="type">News</span>
-				<span class="message"><strong><?php echo $l->t('Made in Germany');?>:</strong> <?php echo $l->t(' Schools, governments and SMB get a collaboration platform they can trust');?></span>
+				<span class="message"><strong><?php echo $l->t('Your home office');?>:</strong> <?php echo $l->t(' New release of Nextcloud Hub facilitates remote work.');?></span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Regain control');?></h1>
