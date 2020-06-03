@@ -17,7 +17,7 @@
 <div class="container">
     <h2>Current Release Information</h2>
     <h3>Nextcloud <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></h3>
-    <a class="button button--large button--white button--arrow" target="_blank" href="https://nextcloud.com/blog/the-new-standard-in-on-premises-team-collaboration-nextcloud-hub/">Announcement blog</a><br />
+    <a class="button button--large button--white button--arrow" target="_blank" href="https://nextcloud.com/blog/nextcloud-hub-brings-productivity-to-home-office/">Announcement blog</a><br />
     <a href="<?php echo home_url('press/pr20200117-2') ?>" class="button button--large button--white button--arrow">Press release</a>
     <h2>Press releases 2020</h2>
     <ul>
