@@ -361,6 +361,16 @@
             <p class="section--paragraph"><?php echo $l->t('Video Verification enforces a Nextcloud Talk video call before access is given to a share, making sure the identity of the recipient is properly checked. The call can be picked up through the Nextcloud Talk Mobile apps as well as the web interface.');?></p>
         </div>
     </div>
+    <div class="row">
+		<div class="col-md-6  image--floated   image--feature new-img">
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/password-less-webauthn.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/password-less-webauthn.png" class="img-responsive featureimg" /></a>
+		</div>
+        <div class="col-md-6">
+            <p class="section--paragraph__tittle"><?php echo $l->t('A platform you can trust');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud Talk benefits from the many security, encryption and authentication capabilities of Nextcloud.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Multi-layered encryption, brute force protection, artificial-intelligence based suspicious login detection, password-less login and the backing of our USD 10.000 security bug bounty program provide customers the confidence that their communication and collaboration remains confidential.');?></p>
+		</div>
+	</div>
 </div>
 </section>
 

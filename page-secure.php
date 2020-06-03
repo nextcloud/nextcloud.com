@@ -290,6 +290,7 @@
                                 <?php echo file_get_contents(get_template_directory()."/assets/img/icons/2fa.svg"); ?>
                             </div>
                              <p class="section--paragraph"><?php echo $l->t('Nextcloud includes a variety of second factors like TOTP, U2F and SMS gateaways. 2-factor authentication can be enforced and user sessions and devices can be managed.');?></p>
+                              <p class="section--paragraph"><?php echo $l->t('Nextcloud is also among the first in the industry to provide support for the WebAuthn standard, enabling password-less authentication and support for Windows Hello, varous FIDO2 keys and other standards-compliant authentication devices');?></p>
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="authentication-tab4">
