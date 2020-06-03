@@ -114,6 +114,17 @@ section {
 	}
 }
 
+.section--features-images {
+	margin: 50px 0;
+	.row {
+        margin-top: 50px;
+    }
+	li {
+		list-style-image: url("../../img/common/white-check.svg");
+		list-style-position: inside;
+	}
+}
+
 .section--options {
 	margin-bottom: 30px;
 
