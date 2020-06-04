@@ -1,0 +1,142 @@
+{
+  "base": "/player/",
+  "activeTab": "chapters",
+  "theme": {
+    "tokens": {
+      "brand": "#0082c9",
+      "brandDark": "#0082c9",
+      "brandDarkest": "#0082c9",
+      "brandLightest": "#ebf8ff",
+      "shadeDark": "#0082c9",
+      "shadeBase": "#0082c9",
+      "contrast": "#000",
+      "alt": "#fff"
+    },
+    "fonts": {
+      "ci": {
+        "name": "Open-Sans",
+        "family": [
+          "Open-Sans",
+          "OpenSans",
+          "Sans",
+          "Arial",
+          "sans-serif"
+        ],
+        "weight": 900,
+        "src": ["../wp-content/themes/next/assets/fonts/Open-Sans-Regular-v15.ttf"]
+      },
+      "regular": {
+        "name": "Open-Sans-Light",
+        "family": [
+          "Open-Sans-Light",
+          "OpenSansLight",
+          "Calibri",
+          "Candara",
+          "Arial",
+          "Helvetica",
+          "sans-serif"
+        ],
+        "weight": 300,
+        "src": ["../wp-content/themes/next/assets/fonts/Open-Sans-Light-v15.ttf"]
+      },
+      "bold": {
+        "name": "Open-Sans-SemiBold",
+        "family": [
+          "Open-Sans-SemiBold",
+          "OpenSansSemiBold",
+          "Calibri",
+          "Candara",
+          "Arial",
+          "Helvetica",
+          "sans-serif"
+        ],
+        "weight": 700,
+        "src": ["../wp-content/themes/next/assets/fonts/Open-Sans-SemiBold-v15.ttf"]
+      }
+    }
+  },
+  "playlist": "../wp-content/themes/next/assets/podcast/playlist.json",
+  "subscribe-button": {
+    "feed": "https://nextcloud.com/podcast-feed.rss",
+    "clients": [
+      {
+        "id": "apple-podcasts",
+        "service": "id934797989 - to change"
+      },
+      {
+        "id": "antenna-pod"
+      },
+      {
+        "id": "beyond-pod"
+      },
+      {
+        "id": "castro"
+      },
+      {
+        "id": "clementine"
+      },
+      {
+        "id": "deezer",
+        "service": "deezer-id"
+      },
+      {
+        "id": "downcast"
+      },
+      {
+        "id": "google-podcasts",
+        "service": "https://nextcloud.com/podcast-feed.rss"
+      },
+      {
+        "id": "gpodder"
+      },
+      {
+        "id": "itunes"
+      },
+      {
+        "id": "i-catcher"
+      },
+      {
+        "id": "instacast"
+      },
+      {
+        "id": "overcast"
+      },
+      {
+        "id": "player-fm"
+      },
+      {
+        "id": "pocket-casts"
+      },
+      {
+        "id": "pocket-casts",
+        "service": "https://nextcloud.com/podcast-feed.rss"
+      },
+      {
+        "id": "pod-grasp"
+      },
+      {
+        "id": "podcast-addict"
+      },
+      {
+        "id": "podcast-republic"
+      },
+      {
+        "id": "podcat"
+      },
+      {
+        "id": "podscout"
+      },
+      {
+        "id": "rss-radio"
+      },
+      {
+        "id": "rss"
+      }
+    ]
+  },
+  "share": {
+    "channels": ["facebook", "twitter", "mail", "link"],
+    "outlet": "./",
+    "sharePlaytime": true
+  }
+}
