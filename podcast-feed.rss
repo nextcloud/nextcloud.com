@@ -5,7 +5,7 @@
     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>The Nextcloud Podcast</title>
-    <pubDate>Thu, 28 May 2020 12:00:00 GMT</pubDate>
+    <pubDate>Fri, 05 Jun 2020 12:00:00 GMT</pubDate>
     <googleplay:author>Nextcloud</googleplay:author>
     <itunes:author>Nextcloud</itunes:author>
     <itunes:owner>
@@ -44,13 +44,17 @@
       <itunes:summary>In this very first episode we introduce our podcast, discussing with Nextcloud designer and community manager Jan Christoph Borchardt what our podcast will be covering going forward.</itunes:summary>
       <itunes:duration>00:35:59.749</itunes:duration>
       <description>In this very first episode we introduce our podcast, discussing with Nextcloud designer and community manager Jan Christoph Borchardt what our podcast will be covering going forward.</description>
-      <pubDate>Thu, 28 May 2020 12:00:00 GMT</pubDate>
+      <pubDate>Fri, 05 Jun 2020 12:00:00 GMT</pubDate>
       <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_001.mp3"
                  type="audio/mpeg" length="30367713"/>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_001.opus"
+                 type="audio/opus" length="24049966"/>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_001.m4a"
+                 type="audio/x-m4a" length="22135297"/>
       <itunes:author>Nextcloud</itunes:author>
       <itunes:explicit>no</itunes:explicit>
       <guid>Nextcloud_Podcast_001</guid>
-      <link>http://nextcloud.com/blog/introducing-the-nextcloud-podcast</link>
+      <link>https://nextcloud.com/blog/introducing-the-nextcloud-podcast/</link>
     </item>
     <!--END REPEAT-->
 
