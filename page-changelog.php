@@ -33,12 +33,12 @@
 
     <a name="latest19"></a>
 <h3 id="19-0-0">Version 19.0.0 <small>June 3 2020</small></h3>
-<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.tar.bz2">nextcloud-19.0.0⎄.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.zip">nextcloud-19.0.0⎄.zip</a></br>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0.tar.bz2">nextcloud-19.0.0.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0.zip">nextcloud-19.0.0.zip</a></br>
 Check the file integrity with:</br>
-MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.tar.bz2.md5">nextcloud-19.0.0⎄.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.zip.md5">nextcloud-19.0.0⎄.zip.md5</a></br>
-SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.tar.bz2.sha256">nextcloud-19.0.0⎄.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.zip.sha256">nextcloud-19.0.0⎄.zip.sha256</a></br>
-SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.tar.bz2.sha512">nextcloud-19.0.0⎄.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.zip.sha512">nextcloud-19.0.0⎄.zip.sha512</a></br>
-PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.tar.bz2.asc">nextcloud-19.0.0⎄.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0⎄.zip.asc">nextcloud-19.0.0⎄.zip.asc</a></p>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0.tar.bz2.md5">nextcloud-19.0.0.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0.zip.md5">nextcloud-19.0.0.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0.tar.bz2.sha256">nextcloud-19.0.0.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0.zip.sha256">nextcloud-19.0.0.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0.tar.bz2.sha512">nextcloud-19.0.0.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0.zip.sha512">nextcloud-19.0.0.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0.tar.bz2.asc">nextcloud-19.0.0.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.0.zip.asc">nextcloud-19.0.0.zip.asc</a></p>
 
 <h4>Changes</h4>
 <p>Nextcloud Hub v19, code name “home office”, represents a big step forward for remote collaboration in teams. This release brings document collaboration to video chats, introduces password-less login and improves performance.</p>
