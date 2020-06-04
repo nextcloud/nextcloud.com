@@ -47,8 +47,8 @@
       <itunes:duration>00:35:59.749</itunes:duration>
       <description>In this very first episode we introduce our podcast, discussing with Nextcloud designer and community manager Jan Christoph Borchardt what our podcast will be covering going forward.</description>
       <pubDate>Fri, 05 Jun 2020 12:00:00 GMT</pubDate>
-      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_001.mp3"
-                 type="audio/mpeg" length="30367713"/>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_001.m4a"
+                 type="audio/x-m4a" length="22135297"/>
       <itunes:author>Nextcloud</itunes:author>
       <itunes:explicit>no</itunes:explicit>
       <guid>Nextcloud_Podcast_001</guid>

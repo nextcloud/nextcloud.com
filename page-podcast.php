@@ -106,7 +106,7 @@ Promise.all([
 <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-podcast-logo.png">
 
 <link type="application/rss+xml" rel="alternate"
-      title="Title_Value" href="https://nextcloud.com/podcast-feed.xml"/>
+      title="Title_Value" href="https://nextcloud.com/podcast-feed.rss"/>
 </head>
 
 <div class="background permissions-background">
@@ -137,6 +137,9 @@ Promise.all([
                 </div>
             </div>
         </div>
+        <div class="row">
+        <div class="text-center"><p>Subscribe now!</p>
+        <a href="https://nextcloud.com/podcast-feed.rss"><i class="fa fa-rss" aria-hidden="true"></i> mp3</a><br/><a href="https://nextcloud.com/podcast-feed-opus.rss"><i class="fa fa-rss" aria-hidden="true"></i> OPUS</a><br/><a href="https://nextcloud.com/podcast-feed-m4a.rss"><i class="fa fa-rss" aria-hidden="true"></i> aac/m4a</a></p>
     </div>
 </section>
 
