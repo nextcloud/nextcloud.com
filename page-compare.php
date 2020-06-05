@@ -38,7 +38,7 @@
         <div class="col-lg-4 col-sm-12">
             <div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/people.svg" /></div>
             <h3 class="section--paragraph__title"><?php echo $l->t('Largest ecosystem');?></h3>
-            <p class="section--paragraph"><?php echo $l->t('As the most deployed self-hosted file sync and content collaboration platform, Nextcloud offers the widest range of add-on capabilities and integrations in the industry. Over 200 'apps' offer powerful security capabilities, team productivity features and infrastructure integrations.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('As the most deployed self-hosted file sync and content collaboration platform, Nextcloud offers the widest range of add-on capabilities and integrations in the industry. Over 200 \'apps\' offer powerful security capabilities, team productivity features and infrastructure integrations.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Workflow capabilities, several online office solutions and a tool employing advanced entropy analysis to recover files from a ransomware attack, built by security researchers from a German university, are just some of the applications found in our app store.');?></p>
         </div>
         <div class="col-lg-4 col-sm-12">
@@ -914,7 +914,7 @@
 <section class="disclaimer">
 <div class="container">
 <p><?php echo $l->t('Based on public information to our best knowledge, gathered September 2 2018. We understand the world is constantly changing, if you see we missed a feature or made a mistake, let us know.');?> You can use <a href="<?php echo home_url('contact') ?>">our contact form.</a></p>
-<p><?php echo $l->t('Note that end-to-end encryption in a browser is not the same as client-side encryption as it fails to protect adequately from the server (it does not offer 'zero-knowledge' protection). The security experts at the Brittish NCC Group have <a class="hyperlink" href="https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2011/august/javascript-cryptography-considered-harmful/">written on this subject,</a> considering javascript encryption in the browser "harmful".');?></p>
+<p><?php echo $l->t('Note that end-to-end encryption in a browser is not the same as client-side encryption as it fails to protect adequately from the server (it does not offer \'zero-knowledge\' protection). The security experts at the Brittish NCC Group have <a class="hyperlink" href="https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2011/august/javascript-cryptography-considered-harmful/">written on this subject,</a> considering javascript encryption in the browser "harmful".');?></p>
 </div>
 </section>
 
