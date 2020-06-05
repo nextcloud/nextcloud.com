@@ -5,7 +5,7 @@
     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>The Nextcloud Podcast</title>
-    <pubDate>Fri, 05 Jun 2020 12:00:00 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2020 12:00:00 GMT</pubDate>
     <googleplay:author>Nextcloud</googleplay:author>
     <language>en</language>
     <copyright>All rights reserved</copyright>
@@ -33,10 +33,8 @@
         <itunes:category text="Tech News" />
     </itunes:category>
     <itunes:keywords>Nextcloud, open source, self-hosting, cloud, community, programming, privacy, security</itunes:keywords>
-    <copyright>&#xA9;2020</copyright>
     <itunes:explicit>no</itunes:explicit>
-    <language>en-us</language>
-    <atom:link href="https://nextcloud.com/podcast-feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nextcloud.com/podcast-feed.rss" rel="self" type="application/rss+xml" />
     <link>https://nextcloud.com/podcast/</link>
 
 <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
@@ -44,14 +42,14 @@
       <title>Welcome to our first Nextcloud Podcast!</title>
       <itunes:subtitle>In this episode we introduce the Nextcloud Podcast.</itunes:subtitle>
       <itunes:summary>In this very first episode we introduce our podcast, discussing with Nextcloud designer and community manager Jan Christoph Borchardt what our podcast will be covering going forward.</itunes:summary>
-      <itunes:duration>00:35:59.749</itunes:duration>
+      <itunes:duration>00:35:59</itunes:duration>
       <description>In this very first episode we introduce our podcast, discussing with Nextcloud designer and community manager Jan Christoph Borchardt what our podcast will be covering going forward.</description>
-      <pubDate>Fri, 05 Jun 2020 12:00:00 GMT</pubDate>
+      <pubDate>Mon, 08 Jun 2020 12:00:00 GMT</pubDate>
       <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_001.mp3"
                  type="audio/mpeg" length="30367713"/>
       <itunes:author>Nextcloud</itunes:author>
       <itunes:explicit>no</itunes:explicit>
-      <guid>Nextcloud_Podcast_001</guid>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_001.mp3</guid>
       <link>https://nextcloud.com/blog/introducing-the-nextcloud-podcast/</link>
     </item>
     <!--END REPEAT-->
