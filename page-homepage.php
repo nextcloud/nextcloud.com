@@ -85,7 +85,7 @@
 	<div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <a href="<?php echo home_url('files') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mobileDesktop.png" /></a>
+                <a href="<?php echo home_url('files') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mobileDesktop-small.png" /></a>
                 <div class="row description">
                     <div class="title">
                         <div class="logo">
@@ -101,7 +101,7 @@
             </div>
 
             <div class="col-sm-4">
-                <a href="<?php echo home_url('talk') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw.png"></a>
+                <a href="<?php echo home_url('talk') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw-small.png"></a>
                 <div class="row description">
                     <div class="title">
                         <div class="logo">
@@ -116,7 +116,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <a href="<?php echo home_url('groupware') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png"></a>
+                <a href="<?php echo home_url('groupware') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw-small.png"></a>
                 <div class="row description">
                     <div class="title">
                         <div class="logo">
