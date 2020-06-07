@@ -1,5 +1,5 @@
 <head>
-<link class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/about.css?v=3" rel="stylesheet">
+<link class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/about.css?v=4" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
@@ -37,7 +37,7 @@ require(["require.config"], function() {
 
 <section class="section--differentiators">
 <div class="container">
-         <div class="row quote--container">
+         <div class="row floating--quote--container">
             <blockquote class="quote--paragraph">Nextcloud is a counter model to the typical cloud offerings of large US providers such as Microsoft.</blockquote>
         <div class="quote--brand">
             <a href="http://www.spiegel.de/netzwelt/web/open-source-software-nextcloud-baut-die-bundescloud-a-1203261.html"><div class="quote--spiegel--logo"></div></a>
@@ -52,7 +52,7 @@ require(["require.config"], function() {
          <h3 class="section--paragraph__title"><?php echo $l->t('Security first');?></h3>
         <p class="section--paragraph"><?php echo $l->t('Security is Nextcloud customers\' greatest concerns and our prime advantage over competitors. Nextcloud features a host of unique, innovative security technologies from brute force protection to advanced server side and integrated end-to-end, client side encryption with enterprise-grade key handling and a wide range of security hardenings. Our security has been reviewed by trusted third parties and is backed by a USD 10000 Security Bug Bounty Program, providing the confidence that data meant to stay private will stay private.');?></p>
     </div>
-    <div class="row quote--container">
+    <div class="row floating--quote--container">
             <blockquote class="quote--paragraph">European governments rely on German start-up Nextcloud.</blockquote>
             <div class="quote--brand">
                 <a href="https://www.handelsblatt.com/technik/it-internet/cloud-dienste-eu-staaten-setzen-auf-deutsches-start-up-nextcloud/24942352.html"><div class="quote--handelsblatt--logo"></div></a>
@@ -65,14 +65,37 @@ require(["require.config"], function() {
 		<p class="section--paragraph"><?php echo $l->t('By working in the open within and with the wider developer- and user community, development is sped up, quality improved and alignment with needs of users improved.');?></p>
 		<p class="section--paragraph"><?php echo $l->t('Our unique approach to support gives customers what <strong>no other vendor can offer</strong>: direct access to core Nextcloud engineering expertise without a layer of support people between the customer and the knowledge they need.');?>  <a class="hyperlink" href="https://opensource.com/article/18/8/mixing-roles-engineering" target="_blank"><?php echo $l->t('Learn more on opensource.com.');?></a></p>
 		<p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('See our enterprise page</a> for more information about our Enterprise Support Subscriptions.');?></p>
-
     </div>
-    <div class="row quote--container">
-            <blockquote class="quote--paragraph">Nextcloud hit the ground running</blockquote>
-            <div class="quote--brand">
-                <a href="https://www.theregister.co.uk/2016/07/28/open_source_insider_open_source_forkery/"><div class="quote--register--logo"></div></a>
+</div>
+<div class="container-widest">
+    <div class="row">
+        <div class="col-lg-4 col-md-6">
+            <div class="quote--container">
+                <blockquote class="quote--paragraph">The golden standard for hosting your own cloud.</blockquote>
+                <div class="quote--brand">
+                    <a href="https://www.androidpolice.com/2020/06/07/the-best-free-and-open-source-alternatives-to-google-drive-on-android/"><div class="quote--androidpolice--logo"></div></a>
+                </div>
             </div>
         </div>
+        <div class="col-lg-4  col-md-6">
+            <div class="quote--container">
+                <blockquote class="quote--paragraph">With the Nextcloud on-premise content collaboration platform, [the French government has] opted for a secure and easy-to-use solution from the leading European provider</blockquote>
+                <div class="quote--brand">
+                    <a href="https://www.nextinpact.com/news/108156-le-ministere-linterieur-migre-sur-solution-libre-nextcloud.htm"><div class="quote--nextinpact--logo"></div></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="quote--container">
+                <blockquote class="quote--paragraph">I store everything in NextCloud</blockquote>
+                <div class="quote--brand">
+                    <a href="https://www.wired.com/story/how-to-sync-your-data-everywhere/"><div class="quote--wired--logo"></div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
     <div class="row">
         <h2><?php echo $l->t('Our company');?></h2>
 		<h3><?php echo $l->t('Our mission:');?></h3>
@@ -114,18 +137,17 @@ require(["require.config"], function() {
             </ul>
         </p>
     </div>
-        <div class="row quote--container">
-            <blockquote class="quote--paragraph">With the Nextcloud on-premise content collaboration platform, [the French government has] opted for a secure and easy-to-use solution from the leading European provider</blockquote>
-            <div class="quote--brand">
-                <a href="https://www.nextinpact.com/news/108156-le-ministere-linterieur-migre-sur-solution-libre-nextcloud.htm"><div class="quote--nextinpact--logo"></div></a>
-            </div>
+    <div class="row floating--quote--container">
+        <blockquote class="quote--paragraph">Nextcloud hit the ground running</blockquote>
+        <div class="quote--brand">
+            <a href="https://www.theregister.co.uk/2016/07/28/open_source_insider_open_source_forkery/"><div class="quote--register--logo"></div></a>
         </div>
+    </div>
     <div class="row">
         <h3><?php echo $l->t('History');?></h3>
 		<p class="section--paragraph"><?php echo $l->t('Nextcloud was started by <a class="hyperlink" href="https://karlitschek.de">Frank Karlitschek</a> and a dozen experienced open source entrepreneurs and engineers to empower users to take back control over their data and communication. We envisioned our company to develop the next generation open source Enterprise File Sync and Share and have been relentlessly pursuing that vision, raising the bar for self-hosted solutions.');?></p>
 
 		<p class="section--paragraph"><?php echo $l->t('Fully employee-funded and pursuing an organic-growth strategy, Nextcloud already turned profitable by the end of 2016 and had nearly tripled to 35 employees by the end of 2017. See our full ');?><a class="hyperlink" href="<?php echo home_url('team') ?>"><?php echo $l->t('team here.');?></a> </p>
-
         <p class="section--paragraph"><?php echo $l->t('By January 2018, <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">after record growth in 2017</a>, Nextcloud had become the most sought-after Enterprise File Sync and Share solution <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-grew-customer-base-7x-added-over-6.6-million-lines-of-code-and-doubled-its-team-in-2017/">according to Google Trends</a> and was widely recognized as leading the on-premises Enterprise File Sync and Share industry.');?></p>
         <p class="section--paragraph"><?php echo $l->t('With an estimated over 250.000 Nextcloud servers online, no other on-premises content collaboration platform comes close in terms of installed base.');?></p>
 		<p class="section--paragraph"><?php echo $l->t('You can follow what we are up to');?> <a class="hyperlink" href="<?php echo home_url('news') ?>"><?php echo $l->t('in our blogs</a> and subscribe to <a class="hyperlink" href="https://newsletter.nextcloud.com">our newsletter.</a>');?></p>

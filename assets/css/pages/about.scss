@@ -42,29 +42,42 @@ section {
 
 
 .section--differentiators {
-	.quote--container {
-		display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-      padding: 40px 40px 30px 40px ;
-      background: #FFFFFF;
-      border: 1px solid #FCFCFC;
-      -webkit-box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
-      box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
-	  margin: 30px 20px;
-		@media (min-width: $break-big) {
-			float: right;
-			width: 40%;
-			min-width: 300px;
-		}
-
+	.floating--quote--container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 40px 30px 40px ;
+        background: #FFFFFF;
+        border: 1px solid #FCFCFC;
+        box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
+        margin: 30px 20px;
+        @media (min-width: $break-big) {
+            float: right;
+            width: 40%;
+            min-width: 300px;
+        }
       blockquote {
           font-style: italic;
           font-size: 1.6em;
           margin: 0;
       }
-
+    }
+    .quote--container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 20px 15px 20px ;
+        background: #FFFFFF;
+        border: 1px solid #FCFCFC;
+        box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
+        margin: 20px 5%;
+        @media (min-width: $break-big) {
+            width: 90%;
+        }
+    }
+    .floating--quote--container,.quote--container {
       .quote--brand {
           padding-top: 5px;
           display: flex;
@@ -73,27 +86,37 @@ section {
 
           .quote--spiegel--logo {
               background: url("../../img/history/der-spiegel-logo.png") no-repeat center/contain;
-              width: 90px;
-              height: 45px;
+              width: 200px;
+              height: 70px;
           }
-
           .quote--handelsblatt--logo {
               background: url("../../img/history/handelsblatt.webp") no-repeat center/contain;
-              width: 140px;
-              height: 30px;
+              width: 240px;
+              height: 70px;
           }
 			.quote--register--logo {
 				background: url("../../img/history/the_register.png") no-repeat center/contain;
-				width: 140px;
-				height: 30px;
+				width: 240px;
+				height: 70px;
 			}
 			.quote--nextinpact--logo {
 				background: url("../../img/history/nextinpact.png") no-repeat center/contain;
-				width: 140px;
-				height: 30px;
+				width: 240px;
+				height: 70px;
 			}
-      }
-  }
+			.quote--androidpolice--logo {
+				background: url("../../img/history/androidpolice.png") no-repeat center/contain;
+				width: 200px;
+				height: 90px;
+			}
+			.quote--wired--logo {
+				background: url("../../img/history/wired.png") no-repeat center/contain;
+				width: 200px;
+				height: 90px;
+
+			}
+        }
+    }
 }
 
 
