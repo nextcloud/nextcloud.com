@@ -713,6 +713,27 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 
     <a name="latest16"></a>
 
+<h3 id="16-0-11">Version 16.0.11 <small>June 9 2020</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.11.tar.bz2">nextcloud-16.0.11.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.11.zip">nextcloud-16.0.11.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.11.tar.bz2.md5">nextcloud-16.0.11.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.11.zip.md5">nextcloud-16.0.11.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.11.tar.bz2.sha256">nextcloud-16.0.11.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.11.zip.sha256">nextcloud-16.0.11.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.11.tar.bz2.sha512">nextcloud-16.0.11.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.11.zip.sha512">nextcloud-16.0.11.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.11.tar.bz2.asc">nextcloud-16.0.11.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.11.zip.asc">nextcloud-16.0.11.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/20604">Fix IE11 upload fallback methods (server#20604)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/20621">Fix jsunit tests (server#20621)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/20758">Fix public layout header title & description (server#20758)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/20765">Fix Argon2 options checks (server#20765)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/20810">Clarified trash bin retention by storage shortage override in config.sample.php (server#20810)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/20968">Bump handlebars from 4.1.1 to 4.6.0 in /build (server#20968)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21056">Caching and compression for app store requests (server#21056)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/184">Prevent download, printing and text selection when download is hidden (files_pdfviewer#184)</a></li>
+</ul>
+
+
 <h3 id="16-0-10">Version 16.0.10 <small>April 25 2020</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.10.tar.bz2">nextcloud-16.0.10.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-16.0.10.zip">nextcloud-16.0.10.zip</a></br>
 Check the file integrity with:</br>
