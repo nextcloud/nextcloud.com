@@ -61,7 +61,7 @@
     "clients": [
       {
         "id": "apple-podcasts",
-        "service": "id934797989 - to change"
+        "service": "idXXXXX"
       },
       {
         "id": "antenna-pod"
@@ -77,7 +77,7 @@
       },
       {
         "id": "deezer",
-        "service": "deezer-id"
+        "service": "1341532"
       },
       {
         "id": "downcast"
@@ -109,7 +109,7 @@
       },
       {
         "id": "pocket-casts",
-        "service": "https://nextcloud.com/podcast-feed.rss"
+        "service": "od0k8ofm"
       },
       {
         "id": "pod-grasp"
