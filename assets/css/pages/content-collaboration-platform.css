@@ -70,10 +70,49 @@
 .section--benefits .row {
   margin-top: 50px; }
 
+.section--products {
+  margin: 0 0 0 0;
+  padding: 90px 0 70px 0;
+  /*     background-color: #eee; */ }
+  .section--products .row {
+    margin-bottom: 10px; }
+  .section--products img {
+    padding: 20px; }
+  .section--products .description {
+    min-height: 100px;
+    margin: 0 20px; }
+    .section--products .description .title {
+      display: block;
+      padding: 5px 10px 0 0;
+      font-size: 18px;
+      /*             color: white; */ }
+      .section--products .description .title .logo {
+        width: 65px;
+        min-height: 25px;
+        float: left;
+        vertical-align: middle; }
+        .section--products .description .title .logo img {
+          margin-top: 0px;
+          padding: 4px 5px 0 0;
+          height: 60px;
+          width: 60px; }
+      .section--products .description .title .text {
+        line-height: 1;
+        padding: 10px 0 10px 0; }
+        .section--products .description .title .text strong {
+          line-height: 1.2;
+          font-weight: normal;
+          font-size: 22px; }
+        .section--products .description .title .text small {
+          opacity: 0.8; }
+
 .section--features h1 {
   margin-bottom: 80px; }
 .section--features h3 {
   margin-top: 0; }
+.section--features .video {
+  margin-top: 50px;
+  margin-bottom: 70px; }
 .section--features ul li.check {
   list-style-image: url("../../img/enterprise/check.svg");
   list-style-position: inside;

@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/home.css?v=7" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/home.css?v=8" rel="stylesheet">
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
 <script>
 	require(["require.config"], function() {
@@ -84,8 +84,10 @@
 <section class="section--products">
 	<div class="container">
         <div class="row">
-            <div class="col-sm-4">
-                <a href="<?php echo home_url('files') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mobileDesktop-small.png" /></a>
+            <div class="col-md-4">
+                <stream src="fa1b52828b602f72cf1bcfab61f74fb4" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/files-video.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript"
+                src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=fa1b52828b602f72cf1bcfab61f74fb4"></script>
                 <div class="row description">
                     <div class="title">
                         <div class="logo">
@@ -100,8 +102,9 @@
                 </div>
             </div>
 
-            <div class="col-sm-4">
-                <a href="<?php echo home_url('talk') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw-small.png"></a>
+            <div class="col-md-4">
+                <stream src="58bf7b0f3ae662ee1d6b368099c8c94f" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-video.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=58bf7b0f3ae662ee1d6b368099c8c94f"></script>
                 <div class="row description">
                     <div class="title">
                         <div class="logo">
@@ -115,8 +118,9 @@
                     <a href="<?php echo home_url('talk') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <a href="<?php echo home_url('groupware') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw-small.png"></a>
+            <div class="col-md-4">
+                <stream src="3e135d59fff771d1909c4b8d588d5800" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/groupware-video.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=3e135d59fff771d1909c4b8d588d5800"></script>
                 <div class="row description">
                     <div class="title">
                         <div class="logo">
@@ -134,7 +138,21 @@
     </div>
 </section>
 
-
+<section class="section--homeoffice">
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+            <h1 class="section--heading-1 text-center"><?php echo $l->t('Home Office');?></h1>
+            <p class="text-center"><?php echo $l->t('Why Nextcloud is the perfect home office platform');?></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+            <stream src="4b66104c586170a4dc5b6ebbed80b193" controls preload poster="https://nextcloud.com/media/Home-Office-video-thumb.jpg"></stream> <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=4b66104c586170a4dc5b6ebbed80b193"></script>
+        </div>
+    </div>
+</div>
+</section>
 <section class="section--customers quote">
 	<div class="container">
         <div class="row">
