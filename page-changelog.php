@@ -51,6 +51,29 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p>Read the <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-hub-brings-productivity-to-home-office/">release announcement</a> for more details.</p>
 
     <a name="latest18"></a>
+
+<h3 id="18-0-6">Version 18.0.6 <small>June 10 2020</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.6.tar.bz2">nextcloud-18.0.6.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.6.zip">nextcloud-18.0.6.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.6.tar.bz2.md5">nextcloud-18.0.6.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.6.zip.md5">nextcloud-18.0.6.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.6.tar.bz2.sha256">nextcloud-18.0.6.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.6.zip.sha256">nextcloud-18.0.6.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.6.tar.bz2.sha512">nextcloud-18.0.6.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.6.zip.sha512">nextcloud-18.0.6.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.6.tar.bz2.asc">nextcloud-18.0.6.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.6.zip.asc">nextcloud-18.0.6.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/21129">[stable18] simplify getGroups, fixing wrong chunking logic (server#21129)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21160">[stable18] [stable18] Fix password changes in link and mail shares (server#21160)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21201">[stable18] Do not only catch Exceptions but any Throwable during rmt share delete (server#21201)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21211">[stable18] Fix the Talk verification (server#21211)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21227">[stable18] Prevent harder to share your root (server#21227)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21230">[stable18] Fix password reset saying Admin changed my password when reset from login page (server#21230)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21248">[stable18] Fix empty event UUID reminder notifications (server#21248)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21306">Init fileinfo for all tabs (server#21306)</a></li>
+        <li><a href="https://github.com/nextcloud/files_pdfviewer/pull/188">[stable18] Allow downloads in sandboxed iframe (files_pdfviewer#188)</a></li>
+</ul>
+
+
 <h3 id="18-0-5">Version 18.0.5 <small>June 4 2020</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.5.tar.bz2">nextcloud-18.0.5.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.5.zip">nextcloud-18.0.5.zip</a></br>
     Check the file integrity with:</br>
