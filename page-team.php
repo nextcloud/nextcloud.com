@@ -390,11 +390,11 @@
 				<h2 class="teamname">Ivan Sein</h2>
 				<div class="teammeta">
 					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Monitoring and WebRTC</h4>
+					<h4 class="teamexpertise">Talk and iOS</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><!--<a href="https://www.stdin.xyz/"><i class="fa-rss fa"></i></a>--> <a href="https://github.com/Ivansss"><i class="fa-github fa"></i></a> <!--<a href="https://twitter.com/rullzer"><i class="fa-twitter fa"></i></a>--> </p>
 				</div>
-				<p class="teamdescription">Ivan graduated as CS engineer from the University of the Basque Country and has been developing the Spreed.ME iOS app since 2013. He has also been working on server monitoring and iOS support.</p>
+				<p class="teamdescription">Ivan graduated as CS engineer from the University of the Basque Country and is involved in Nextcloud Talk development since the beginning. He is also the principal author and maintainer of the Nextcloud Talk iOS app.</p>
 			</div>
 		</div>
         <div class="col-md-4">
