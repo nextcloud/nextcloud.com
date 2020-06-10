@@ -139,7 +139,7 @@ Promise.all([
         </div>
         <div class="row">
         <div class="text-center"><p>Subscribe now!</p>
-        <a href="https://nextcloud.com/podcast-feed.rss"><i class="fa fa-rss" aria-hidden="true"></i> mp3</a><br/><a href="https://nextcloud.com/podcast-feed-opus.rss"><i class="fa fa-rss" aria-hidden="true"></i> OPUS</a><br/><a href="https://nextcloud.com/podcast-feed-m4a.rss"><i class="fa fa-rss" aria-hidden="true"></i> aac/m4a</a><br/><a href="https://open.spotify.com/show/622xNEOPDzAltHbCh5MF9x"><i class="fa fa-rss" aria-hidden="true"></i> on spotify</a></p>
+        <a href="https://nextcloud.com/podcast-feed.rss"><i class="fa fa-rss" aria-hidden="true"></i> mp3</a><br/><a href="https://nextcloud.com/podcast-feed-opus.rss"><i class="fa fa-rss" aria-hidden="true"></i> OPUS</a><br/><a href="https://nextcloud.com/podcast-feed-m4a.rss"><i class="fa fa-rss" aria-hidden="true"></i> aac/m4a</a><br/><a href="https://open.spotify.com/show/622xNEOPDzAltHbCh5MF9x"><i class="fa fa-rss" aria-hidden="true"></i> on spotify</a><br/><a href="https://podcasts.apple.com/de/podcast/the-nextcloud-podcast/id1517381474"><i class="fa fa-rss" aria-hidden="true"></i> on apple podcast/itunes</a></p>
     </div>
 </section>
 
