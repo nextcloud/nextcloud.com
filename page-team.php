@@ -428,12 +428,12 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/joas.jpg" />
 				<h2 class="teamname">Joas Schilling</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Co-founder, Activity, Workflow and Notifications</h4>
-					<h4 class="teamlocation">lives in Heilbronn, Germany</h4>
+					<h3 class="teamtitle">Talk Lead</h3>
+					<h4 class="teamexpertise">Co-founder, Security, Server and Talk</h4>
+					<h4 class="teamlocation">lives near Stuttgart, Germany</h4>
 					<p class="teamsocial"><a href="https://www.schilljs.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/nickvergessen"><i class="fa-github fa"></i></a> <a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Joas has been involved in open source for over a decade, being a core member of the phpBB™ developer team and has been working on ownCloud code since late 2013. He graduated from the University of Stuttgart and developed the Notifications and Activities technology in Nextcloud.</p>
+				<p class="teamdescription">Joas has been involved in open source since 2006, being a core member of the phpBB™ developer team and has been working on ownCloud code since late 2013. He graduated from the University of Stuttgart and is the Team Lead of Nextcloud's WebRTC chat and video solution Nextcloud Talk.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
