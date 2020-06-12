@@ -224,6 +224,22 @@ require(["require.config"], function() {
 	</div>
 </section>
 
+<section class="section--customerdetail">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-6 ">
+                <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/nantes-oo.png" alt="in action"/></a>
+            </div>
+            <div class="col-md-6  feature--block">
+                <h3 class="section--paragraph__title"><?php echo $l->t('University of Nantes deployed its online collaboration platform based on Nextcloud and ONLYOFFICE');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('The University of Nantes transformed its sharing platform into a whole digital collaboration environment UNCloud, based on open source solutions Nextcloud and ONLYOFFICE');?></p>
+                <p class="section--paragraph"><?php echo $l->t('After the test phase, the service UNCloud (cloud of the University of Nantes) was successfully deployed in 2018 for students, teachers, and employees.');?></p>
+                <a href="https://www.onlyoffice.com/blog/2020/05/how-the-university-of-nantes-deployed-its-online-collaboration-platform-based-on-nextcloud-and-onlyoffice/" class="button button--blue button--arrow button--large"><?php echo $l->t('blog by OnlyOffice');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <a name="easy"></a>
 <section class="section--easy">
 	<div class="container">
