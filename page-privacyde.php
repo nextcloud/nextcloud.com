@@ -18,7 +18,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <h1>Datenschutzerklärung</h1>
-            <p><small>Diese Richtlinie gilt für die Datenschutzrichtlinie unserer Website nach deutschem Recht. Weitere Informationen und nicht deutsche Gerichtsbarkeiten finden Sie in unserer <a href="<?php echo home_url('privacyde') ?>" class="hyperlink">globalen Datenschutzrichtlinie in englischer Sprache.</a></small></p>
+            <p><small>Diese Richtlinie gilt für die Datenschutzrichtlinie unserer Website nach deutschem Recht. Weitere Informationen und nicht deutsche Gerichtsbarkeiten finden Sie in unserer <a href="<?php echo home_url('privacy') ?>" class="hyperlink">globalen Datenschutzrichtlinie in englischer Sprache.</a></small></p>
             <h2>Datenschutz</h2>
             <p>Wir haben diese Datenschutzerklärung (Fassung 12.06.2020-311185601) verfasst, um Ihnen gemäß der Vorgaben der <a href="https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679&amp;tid=311185601" target="_blank" rel="noopener">Datenschutz-Grundverordnung (EU) 2016/679</a> zu erklären, welche Informationen wir sammeln, wie wir Daten verwenden und welche Entscheidungsmöglichkeiten Sie als Besucher dieser Webseite haben.</p>
             <p>Leider liegt es in der Natur der Sache, dass diese Erklärungen sehr technisch klingen, wir haben uns bei der Erstellung jedoch bemüht die wichtigsten Dinge so einfach und klar wie möglich zu beschreiben.</p>
