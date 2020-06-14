@@ -220,6 +220,19 @@
 		</div>
 		<div class="col-md-4">
 			<div class="teamp">
+				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
+				<h2 class="teamname">Dimitri Rupp</h2>
+				<div class="teammeta">
+					<h3 class="teamtitle">Sales Engineer</h3>
+					<h4 class="teamexpertise">Engineering and project management</h4>
+					<h4 class="teamlocation">lives in Vienna, Austria</h4>
+					<p class="teamsocial"><a href="https://infeather.one/"><i class="fa-rss fa"></i></a> <a href="https://www.linkedin.com/in/dimitrirupp/"><i class="fa-linkedin fa"></i></a> <a href="https://www.facebook.com/dimitri.rupp.54"><i class="fa-facebook fa"></i></a> </p>
+				</div>
+				<p class="teamdescription">Dimitri has a commercial and business organization education. With more than 20 years of experiences in system administration and project management, including working abroad for a well-known European cybersecurity company. Dimitri loves intelligent software solutions which are supporting work processes in the most efficient and intuitive way. He is ambitious to provide first-class support and collaboration with a strong focus to bring your Nextcloud project to excellent success.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/matthias.jpg" />
 				<h2 class="teamname">Matthias Wobben</h2>
 				<div class="teammeta">
@@ -499,19 +512,6 @@
 					<p class="teamsocial"> <a href="https://github.com/marinofaggiana"><i class="fa-github fa"></i></a> <a href="https://twitter.com/marinofaggiana"><i class="fa-twitter fa"></i></a> <a href="https://www.linkedin.com/in/marino-faggiana-596569106/"><i class="fa-linkedin fa"></i></a></p>
 				</div>
 				<p class="teamdescription">Marino studied telecommunications in Vicenza. While studing engineering at Padua University he founded software company T.W.S. He is the principal author of Crypto Cloud, a popular iOS application which became the base for the Nextcloud iOS app. He is fond of microelectronics, telecommunications and information technology.</p>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mario.jpg" />
-				<h2 class="teamname">Mario Danic</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Software Engineer</h3>
-					<h4 class="teamexpertise">Android Development</h4>
-					<h4 class="teamlocation">lives in Croatia</h4>
-					<p class="teamsocial"> <a href="https://github.com/mario"><i class="fa-github fa"></i></a> <a href="https://twitter.com/mdjanic"><i class="fa-twitter fa"></i></a></p>
-				</div>
-				<p class="teamdescription">Mario is part of the Nextcloud Android application development team. He studied Informatics and Organization and has been leading Libburnia and Gnomebaker, popular open source projects, for over a decade.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
