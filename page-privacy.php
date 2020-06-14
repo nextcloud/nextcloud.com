@@ -36,7 +36,7 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             <h2><?php echo $l->t('Nextcloud Privacy Policy');?></h2>
-            <p><?php echo $l->t('Our privacy policy is written to help you find out how Nextcloud handles 'Personally identifiable information' (PII). PII is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.');?></p>
+            <p><?php echo $l->t('Our privacy policy is written to help you find out how Nextcloud handles "Personally identifiable information ("PII). PII is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.');?></p>
             <h3><?php echo $l->t('What personal information do we collect from the people that visit our blog, website or app?');?></h3>
             <p><?php echo $l->t('Like most websites, nextcloud.com collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. nextcloud.com’s purpose in collecting non-personally identifying information is to better understand how nextcloud.com’s visitors use its website. From time to time, nextcloud.com may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website.');?></p>
             <p><?php echo $l->t('nextcloud.com also collects potentially personally-identifying information like Internet Protocol (IP) addresses. nextcloud.com does not use such information to identify its visitors, however, and does not disclose such information to third parties unless legally obliged to do so.');?></p>
@@ -81,7 +81,7 @@
             <h3><?php echo $l->t('According to the California Online Privacy Protection Act (CalOPPA) we agree to the following:');?></h3>
             <p><?php echo $l->t('Users can visit our site anonymously.');?></p>
             <p><?php echo $l->t('Once this privacy policy is created, we will add a link to it on our home page or as a minimum on the first significant page after entering our website.');?></p>
-            <p><?php echo $l->t('Our Privacy Policy link includes the word 'Privacy' and can be easily be found on the page specified above.');?></p>
+            <p><?php echo $l->t('Our Privacy Policy link includes the word "Privacy" and can be easily be found on the page specified above.');?></p>
             <p><?php echo $l->t('Users will be notified of any privacy policy changes on our Privacy Policy Page.');?></p>
             <p><?php echo $l->t('Users are able to change their personal information:');?></p>
             <ul>
