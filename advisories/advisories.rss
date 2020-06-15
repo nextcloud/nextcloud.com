@@ -5,6 +5,24 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Deck App: Missing permission check on resharing a board (NC-SA-2020-025)</title>
+  <description>Improper access control in Nextcloud Deck 0.8.0 allowed an attacker to reshare boards shared with them with more permissions than they had themselves.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-025&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-025</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-025</guid>
+  <pubDate>Wed, 08 Apr 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Contacts App: Limit contacts photo uploading to images (NC-SA-2020-024)</title>
+  <description>A missing file type check in Nextcloud Contacts 3.2.0 allowed a malicious user to upload any file as avatars.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-024&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-024</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-024</guid>
+  <pubDate>Thu, 16 Apr 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Deck App: Improper access control allows injecting tasks into other users decks (NC-SA-2020-022)</title>
+  <description>Improper access control in Nextcloud Deck 1.0.0 allowed an attacker to inject tasks into other users decks.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-022&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-022</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-022</guid>
+  <pubDate>Fri, 15 May 2020 14:00:00 +0200</pubDate>
+ </item><item>
   <title>Talk App: Code injection possible with malformed Nextcloud Talk chat commands (NC-SA-2020-021)</title>
   <description>A too lax check in Nextcloud Talk 6.0.4, 7.0.2 and 8.0.7 allowed a code injection when a not correctly sanitized talk command was added by an administrator.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-021&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-021</link>
