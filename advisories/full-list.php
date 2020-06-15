@@ -2,6 +2,11 @@
 
 <h2>2020</h2>
 
+<h3>Deck App 1.0.1</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-022">Improper access control allows injecting tasks into other users decks (NC-SA-2020-022)</a> 2020-05-15</li>
+</ul>
+
 <h3>Talk App 8.0.8</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2020-021">Code injection possible with malformed Nextcloud Talk chat commands (NC-SA-2020-021)</a> 2020-04-20</li>
@@ -15,6 +20,16 @@
 <h3>Talk App 6.0.5</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2020-021">Code injection possible with malformed Nextcloud Talk chat commands (NC-SA-2020-021)</a> 2020-04-20</li>
+</ul>
+
+<h3>Contacts App 3.3.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-024">Limit contacts photo uploading to images (NC-SA-2020-024)</a> 2020-04-16</li>
+</ul>
+
+<h3>Deck App 0.8.1</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-025">Missing permission check on resharing a board (NC-SA-2020-025)</a> 2020-04-08</li>
 </ul>
 
 <h3>Mail App 1.1.4</h3>
