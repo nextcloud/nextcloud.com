@@ -41,20 +41,6 @@
          "imagename":"hostiso.png"
       },
 	{
-         "title":"OwnCube e.U.",
-         "url":"https:\/\/owncube.com",
-         "flags":[
-            "de",
-            "all"
-         ],
-         "freeplans":true,
-		 "supports":"both",
-         "specializes":[
-            "OwnCube - open source cloud hosting since 2012. Nextcloud Single and Admin, own apps, design, users, ... More than 30 data center locations worldwide."
-         ],
-         "imagename":"owncube.png"
-      },
-	{
          "title":"Kinamo SA",
          "url":"https:\/\/www.kinamo.be\/en\/cloud\/storage",
          "flags":[
