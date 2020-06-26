@@ -68,8 +68,8 @@
             <p><?php echo $l->t('Yes. Cookies are small files that a site or its service provider transfers to your computer hard drive through your Web browser (if you allow) that enables the site or service provider systems to recognize your browser and capture and remember certain information. Cookies are used to help us understand your preferences based on previous or current site activity, which enables us to provide you with improved services. We also use cookies to help us compile aggregate data about site traffic and site interaction so that we can offer better site experiences and tools in the future.');?></p>
             <p><?php echo $l->t('We use cookies to:');?></p>
             <ul>
-            <li><?php echo $l->t('Understand and save user preferences for future visits.');?></li>
-            <li><?php echo $l->t('Compile aggregate data about site traffic and site interactions in order to offer better site experiences and tools in the future. We do not use third-party services (like Google Analytics) that track this information on our behalf.');?></li>
+                <li><?php echo $l->t('Understand and save user preferences for future visits.');?></li>
+                <li><?php echo $l->t('Compile aggregate data about site traffic and site interactions in order to offer better site experiences and tools in the future. We do not use third-party services (like Google Analytics) that track this information on our behalf.');?></li>
             </ul>
             <p><?php echo $l->t('You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser (like Internet Explorer or firefox) settings. Each browser is a little different, so look at your browser Help menu to learn the correct way to modify your cookies settings.');?></p>
             <p><?php echo $l->t('If you disable cookies, some minor features might be disabled.');?></p>
@@ -87,7 +87,7 @@
             <ul>
                 <li><?php echo $l->t('By emailing us');?></li>
                 <li><?php echo $l->t('By calling us');?></li>
-            </ul>');?></p>
+            </ul>
             <h3><?php echo $l->t('How does our site handle do not track signals?');?></h3>
             <p><?php echo $l->t('We honor do not track signals and do not track, plant cookies, or use advertising when a Do Not Track (DNT) browser mechanism is in place.');?></p>
 
@@ -100,8 +100,10 @@
             <h3><?php echo $l->t('CAN SPAM Act');?></h3>
             <p><?php echo $l->t('The CAN-SPAM Act is a law that sets the rules for commercial email, establishes requirements for commercial messages, gives recipients the right to have emails stopped from being sent to them, and spells out tough penalties for violations.');?></p>
             <h3><?php echo $l->t('We collect your email address in order to:');?></h3>
-            <li><?php echo $l->t('Send information, respond to inquiries, and/or other requests or questions.');?></p>
-            <li><?php echo $l->t('Market to our mailing list or continue to send emails to our clients after the original transaction has occurred.');?></p>
+            <ul>
+                <li><?php echo $l->t('Send information, respond to inquiries, and/or other requests or questions.');?></li>
+                <li><?php echo $l->t('Market to our mailing list or continue to send emails to our clients after the original transaction has occurred.');?></li>
+            </ul>
             <h3><?php echo $l->t('To be in accordance with CANSPAM we agree to the following:');?></h3>
             <ul>
                 <li><?php echo $l->t('NOT use false or misleading subjects or email addresses.');?></li>
