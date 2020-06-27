@@ -100,7 +100,7 @@
 					<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/8iuSFKVl-xQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 			</div>
-			<p class="section--paragraph"><?php echo $l->t('Collabora Online Development Edition (CODE) is free and under heavy development, adding features and improvements all the time! Enterprise users have access to the more stable, scalable Collabora Online Enterprise version through a Nextcloud support subscription.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Collabora Online Development Edition (CODE) is free and under heavy development, adding features and improvements all the time, but beware that it is <string>limited to 10 open documents only</strong>, so it is only suitable for small teams or as demo version! Enterprise users have access to the more stable, scalable Collabora Online Enterprise version through a Nextcloud support subscription.');?></p>
 		</div>
 
 		<div class="featurerow">
@@ -132,6 +132,16 @@
                     <img class="img-responsive" src="https://nextcloud.com/media/TUB-Hauptgebaeude070710.jpg" />
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="collabora-screenshots">
+	<div class="container">
+        <h1 class="section--heading-1 text-center"><?php echo $l->t('Limitations');?></h1>
+        <div class="row">
+        <p class="section--paragraph"><?php echo $l->t('Collabora Development Edition is offered for free, but is limited to 10 open documents, so it is suitable for small teams only or for demo purposes.');?> </p>
         </div>
     </div>
 </section>
@@ -338,7 +348,7 @@ docker run -t -d -p 127.0.0.1:9980:9980 -e 'domain=cloud\\.nextcloud\\.com' --re
 				<li class="section--paragraph"><?php echo $l->t('<strong>Issue:</strong> <code>We are sorry, this is an unexpected connection error. Please try again.</code> error.<br />
 				The Collabora Online app doesn\'t work at the moment, if you enable it only for certain groups. Remove the group filter in the App section.');?></li>
 				<li class="section--paragraph"><?php echo $l->t('<strong>Issue:</strong> Collabora Online doesn\'t handle my 100 users.<br/>
-				This docker image is designed for home usage with a limited numbers of users and open documents. If you need a more scalable solution, consider');?> <a href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('a support subscription</a> for a reliable, business-ready online office experience.');?></li>
+				This docker image is designed for home usage with a limited numbers of users and 10 open documents. If you need a more scalable solution, consider');?> <a href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('a support subscription</a> for a reliable, business-ready online office experience.');?></li>
 				<li class="section--paragraph"><?php echo $l->t('<strong>Issue:</strong> Collabora Online doesn\'t work with Encryption.<br/>
 				Yes, this is currently unsupported.');?></li>
 			</ul>
