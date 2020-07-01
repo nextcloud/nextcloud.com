@@ -124,8 +124,6 @@ require(["require.config"], function() {
                 <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-raspberrypi/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more and order');?></a>
             </div>
         </div>
-
-        <h4>Announced, but not yet available</h4>
         <div class="row feature--block">
             <div class="col-md-5">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/box/MOX.png" class="img-responsive featureimg" />
@@ -141,6 +139,8 @@ require(["require.config"], function() {
                 <a href="https://nextcloud.com/blog/turris-mox-adds-nextcloud-to-put-users-back-in-control-over-their-data/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
             </div>
         </div>
+
+        <h4>Sold out, or not available any more</h4>
         <div class="row feature--block">
             <div class="col-md-5">
                 <a href="https://spreedbox.me/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/spreedbox/spreedbox.png" class="img-responsive featureimg" /></a>
@@ -157,8 +157,6 @@ require(["require.config"], function() {
                 <a href="https://spreedbox.me/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
             </div>
         </div>
-
-        <h4>Sold out, or not available any more</h4>
         <div class="row feature--block" id="nextcloud-box">
             <div class="col-md-5">
                 <a href="<?php echo home_url('box') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/box/box-perspective.png" class="img-responsive featureimg" /></a>
