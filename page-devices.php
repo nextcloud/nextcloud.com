@@ -42,7 +42,7 @@ require(["require.config"], function() {
                 <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Home/SME Server');?></h3>
                 <p class="section--paragraph"><em><?php echo $l->t('Get your own self-hosted cloud server!');?></em></p>
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Home/SME Server is a Nextcloud server pre-configured with Nextcloud and ready to boot once delivered. Just as the Nextcloud VM it includes easy to setup apps like Collabora, OnlyOffice, Talk and more.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('Updates are managed with a easy-to-run update script which updates the whole server in just one single command. The server is based on a powerful Intel 64-bit CPU (10:th-gen), 250 GB M2 PCIe SSD + 2/4 TB HDD/SSD, and 16/32 GB RAM.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Updates are managed with a easy-to-run update script which updates the whole server in just one single command. The server is based on a powerful Intel 64-bit CPU (10:th-gen), 500 GB M2 PCIe SSD + 2/4 TB HDD/SSD, and 16/32 GB RAM.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Home/SME server is made by the team behind the Nextcloud VM, and aims to be the easiest way to setup your own cloud - now available as a bare-bone server!');?></p>
                 <div class="devices-tags">
                     <span>Managed</span>
