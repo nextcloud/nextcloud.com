@@ -57,18 +57,9 @@
                 <li>To follow up with them after correspondence (live chat, email or phone inquiries)</li>
             </ul>
             <h3>Podlove</h3>
-            <p>We use the wordpress Podlove plugin to serve podcast on <a href="https://nextcloud.com/podcasts">nextcloud.com/podcasts.</a></p>
-            <p>Both <strong>Podlove Subscribe Button</strong> and <strong>Podlove Web Player</strong> are served by <a href="https://www.keycdn.com">keycdn.com</a> (<a href="https://www.keycdn.com/gdpr">keycdn GDPR statement</a>).</p>
+            <p>We use the Podlove player to serve podcast on <a href="https://nextcloud.com/podcasts">nextcloud.com/podcasts.</a></p>
 
-            <p>Podlove Publisher tracks download statistics. IP adresses are used to determine an estimated geographic location (city or state level).</p>
-
-            <p>IP addresses are stored temporarily (up to 48 hours) as part of a request id. This is necessary because the podcast owner needs to know how often episodes are downloaded to prove the viability of her/his endeavours.</p>
-
-            <p>To determine a realistic download number, the system must be able to recognise repeated access to the same file by the same user. The only reliable way to achieve this is by considering the IP address in combination with the User Agent. Using an anonymised IP address is not possible because it would lead to wrong results. An access to the same file by the same user on different days can be considered separate downloads, therefore it is necessary to store IPs for only up to 48 hours.</p>
-
-            <p>After 48 hours request ids are <em>salted</em> in a way that makes it impossible to restore the original IP address.</p>
-
-            <p>The User Agent is stored as well.</p>
+            <p>The <strong>Podlove Web Player</strong> is served by <a href="https://www.keycdn.com">keycdn.com</a> (<a href="https://www.keycdn.com/gdpr">keycdn GDPR statement</a>).</p>
 
             <h3>Mautic</h3>
             <p>We use the open source <a class="hyperlink" href="https://mautic.org">Mautic marketing automation tool.</a> This is used for actions like emailing a whitepaper to people who entered their email address to receive it. If you enter an email address on our site, you agree with that (otherwise we can't sent you that white paper either). We might sent follow-up emails (like a reminder if you didn't download the white paper, or a notification of a new white paper), from which you can opt-out on the bottom of the emails.</p>
@@ -152,7 +143,7 @@
             </p>
             <p><small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small></p>
 
-            <p>Last Edited on 2019-09-25</p>
+            <p>Last Edited on 2020-07-02</p>
         </div>
     </div>
 </div>
