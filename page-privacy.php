@@ -55,6 +55,11 @@
                 <li><?php echo $l->t('To send periodic emails regarding your order or other products and services.');?></li>
                 <li><?php echo $l->t('To follow up with them after correspondence (live chat, email or phone inquiries)');?></li>
             </ul>
+            <h3>Podlove</h3>
+            <p>We use the Podlove player to serve podcast on <a href="https://nextcloud.com/podcasts">nextcloud.com/podcasts.</a></p>
+
+            <p>The <strong>Podlove Web Player</strong> is served by <a href="https://www.keycdn.com">keycdn.com</a> (<a href="https://www.keycdn.com/gdpr">keycdn GDPR statement</a>).</p>
+
             <h3><?php echo $l->t('Mautic');?></h3>
             <p><?php echo $l->t('We use the open source <a class="hyperlink" href="https://mautic.org">Mautic marketing automation tool.</a> This is used for actions like emailing a whitepaper to people who entered their email address to receive it. If you enter an email address on our site, you agree with that (otherwise we can not sent you that white paper either). We might sent follow-up emails (like a reminder if you did not download the white paper, or a notification of a new white paper), from which you can opt-out on the bottom of the emails.');?></p>
             <p><?php echo $l->t('In line with our business strategy of not monetizing home and small business users but aim for large enterprises, our goal is to ONLY track employees of companies using their work email. We try to drop all home/private users from the database as soon as we find out they are private users, of course after we have sent them the white paper they asked for. For example, we remove contacts with an @gmail or @icloud address and keep obviously business related addresses (@acme @example-ltd @placeholder-corp.com). For those we then might follow up on a End-to-end Encryption white paper download a week later with an offer to download our Server-side Encryption white paper; or sent a follow-up email suggesting to read a new blog about encryption we wrote. Our goal is to keep potential customers informed and help them in their journey to become a Nextcloud user and customer, without bothering others. ');?></p>
