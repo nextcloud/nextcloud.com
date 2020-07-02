@@ -103,24 +103,31 @@ require(["require.config"], function() {
 <div class="container">
     <h1 class="section--heading-1 text-center"><?php echo $l->t('Some of our customers');?></h1>
     <div class="row">
-		<div class="col-sm-3 customer">
+		<div class="col-sm-4 customer">
             <div class="customer-logo">
                 <a href="https://nextcloud.com/blog/german-federal-administration-relies-on-nextcloud-as-a-secure-file-exchange-solution/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/itzbund.png" /></a>
             </div>
         </div>
-		<div class="col-sm-3 customer">
+		<div class="col-sm-4 customer">
             <div class="customer-logo">
                 <a href="https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/FMI.png" /></a>
             </div>
         </div>
-        <div class="col-sm-3 customer">
+        <div class="col-sm-4 customer">
             <div class="customer-logo">
                 <a href="https://www.nationaalarchief.nl"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/national_archief.svg" /></a>
             </div>
         </div>
-        <div class="col-sm-3 customer">
+    </div>
+    <div class="row">
+        <div class="col-sm-4 customer">
             <div class="customer-logo">
                 <a href="http://www.ville-geneve.ch/welcome-geneva/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/Geneva_city_insignia.gif" /></a>
+            </div>
+        </div>
+        <div class="col-sm-4 customer">
+            <div class="customer-logo">
+                <a href="https://www.mfa.gov.af/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/mfa.png" /></a>
             </div>
         </div>
     </div>
