@@ -7,10 +7,10 @@
 		require(["pages/collabora", "modules/youtubePlayer", "modules/codeHighlights"])
 	});
 </script>
-<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/headers/include.jpg">
-<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/headers/include.jpg">
-<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/headers/include.jpg">
-<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/headers/include.jpg">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/include.jpg">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/include.jpg">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/include.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/include.jpg">
 </head>
 
 <div class="background include-background">

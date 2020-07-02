@@ -103,50 +103,67 @@ require(["require.config"], function() {
 <div class="container">
     <h1 class="section--heading-1 text-center"><?php echo $l->t('Some of our customers');?></h1>
     <div class="row">
-		<div class="col-sm-3 customer">
+		<div class="col-sm-4 customer">
             <div class="customer-logo">
                 <a href="https://nextcloud.com/blog/german-federal-administration-relies-on-nextcloud-as-a-secure-file-exchange-solution/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/itzbund.png" /></a>
             </div>
         </div>
-		<div class="col-sm-3 customer">
+		<div class="col-sm-4 customer">
             <div class="customer-logo">
                 <a href="https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/FMI.png" /></a>
             </div>
         </div>
-        <div class="col-sm-3 customer">
+        <div class="col-sm-4 customer">
             <div class="customer-logo">
                 <a href="https://www.nationaalarchief.nl"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/national_archief.svg" /></a>
             </div>
         </div>
-        <div class="col-sm-3 customer">
+    </div>
+    <div class="row">
+        <div class="col-sm-4 customer">
             <div class="customer-logo">
                 <a href="http://www.ville-geneve.ch/welcome-geneva/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/Geneva_city_insignia.gif" /></a>
+            </div>
+        </div>
+        <div class="col-sm-4 customer">
+            <div class="customer-logo">
+                <a href="https://www.mfa.gov.af/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/mfa.png" /></a>
             </div>
         </div>
     </div>
 </div>
 </section>
 
-
-<section class="section--on-premise">
-<div class="container">
-	<h1 class="section--heading-1 text-center"><?php echo $l->t('Stop outsourcing');?></h1>
-	<div class="row">
-		<div class="col-md-6 feature--block">
-            <h3 class="section--paragraph__title"><?php echo $l->t('You need 100% certainty');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('Email or public cloud solutions do not provide much security for sensitive data. Encryption is complicated and cumbersome to use, reducing the real benefits due to employees working around them or making mistakes.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Keeping data on your own infrastructure means you stay in control. Only then can you show your clients exactly where their sensitive documents are. Regulators can be certain that non-compliance with proper process is minimized.');?></p>
-			<a href="https://nextcloud.com/blog/the-issue-with-public-cloud/" class="button button--blue button--arrow button--large"><?php echo $l->t('Read our blog for more');?></a>
+<section class="section--whitepaper quote">
+	<div class="container ">
+        <div class="row">
+			<div class="col-lg-8">
+                <h2 class=""><?php echo $l->t('Efficient file exchange and collaboration in the Newsroom.');?></h2>
+                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                    <p><label for="email"><?php echo $l->t('Download our free case study: <br /> Germany’s public radio and television deploys Nextcloud');?><br>
+                    <td colspan="2" style="text-align:center">
+                    <div class="">
+                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                    </div>
+                    </td>
+                    <input type="hidden" name="segmentId" value="93">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
+                    </div>
+                    <input class="button button--large" type="submit" value=" Get the case study "></p>
+                </form>
+            </div>
         </div>
-        <div class="col-md-6 feature--block">
-            <h3 class="section--paragraph__title"><?php echo $l->t('Public clouds are not a safe solution');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('Most consumer-grade solutions like Dropbox or Office 365 were not designed with privacy regulations and security concerns in mind, mixing data from consumers and businesses, spread out in data centers across the globe.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Rather than trying to work around their limitations, Nextcloud Files provides a security-first solution which puts you in complete control over the location and access policies of data with a private cloud solution.');?></p>
-			<a href="<?php echo home_url('buy') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Get started now');?> <i class="icon-arrow-circle-o-right icon"></i></a>
-        </div>
+        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/ivz-thumbnail-banner.png"/>
 	</div>
-</div>
 </section>
+
+<?php require get_template_directory().'/onpremises.php';?>
 
 <section class="section--customerdetail">
 	<div class="container">
@@ -216,6 +233,7 @@ require(["require.config"], function() {
             <div class="col-md-6">
                 <blockquote><?php echo $l->t('The need for Sweden as a country to have control over its information and the consequences of not having access to the information should be considered from the perspective of national security and sovereignty. In an international crisis or conflict, the willingness and ability of other countries to access, manipulate or deny access to information handled by a service provider should be considered.');?></blockquote>
                 <p class="alignright" style="margin-top: -40px"><?php echo $l->t('-- Swedish National Procurement Services');?></p>
+                <p class="section--paragraph"><?php echo $l->t('In a report from mid 2019, the Dutch government came to a similar conclusion with regards to data protection, recommending its own government departments against using');?> <a href="https://www.rijksoverheid.nl/documenten/rapporten/2019/06/11/data-protection-impact-assessment-windows-10-enterprise" class="hyperlink">Microsoft Office 365.</a></p>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Sweden deploying Nextcloud');?></h3>

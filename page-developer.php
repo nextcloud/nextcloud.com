@@ -1,9 +1,9 @@
 <head>
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/appdev.css?v=3" rel="stylesheet">
-    <meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Nextcloudapps.png">
-    <meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Nextcloudapps.png">
-    <meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Nextcloudapps.png">
-    <meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Nextcloudapps.png">
+    <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/Nextcloudapps.png">
+    <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/Nextcloudapps.png">
+    <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/Nextcloudapps.png">
+    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/Nextcloudapps.png">
     <meta name=”Description” content="Develop for Nextcloud! Write a new app, extend Nextcloud or integrate other software.">
 
 <script>
@@ -46,7 +46,7 @@
             <p class="section--paragraph"><?php echo $l->t('Write a Nextcloud app to improve or change Nextcloud functionality.');?></p>
             <ul class="section--paragraph">
                 <li><a class="hyperlink" href="https://github.com/nextcloud/dashboard/blob/master/README.md"><?php echo $l->t('Write a dashboard plugin');?></a></li>
-                <li><a class="hyperlink" href="https://cloud.nextcloud.com/s/6iEewNCJX5EPiya"><?php echo $l->t('Interact with Workflows');?></a></li>
+                <li><a class="hyperlink" href="https://docs.nextcloud.com/server/latest/developer_manual/app/flow.html"><?php echo $l->t('Interact with Workflows');?></a></li>
                 <!--<li><a class="hyperlink" href="TBD"><?php echo $l->t('Manage guest app accounts');?></a></li>-->
                 <li><a class="hyperlink" href="https://docs.nextcloud.com/server/15/developer_manual/core/theming.html"><?php echo $l->t('Write a theme to change the look and feel of Nextcloud');?></a></li>
                 <li><a class="hyperlink" href="https://nextcloud-talk.readthedocs.io/en/latest/commands/"><?php echo $l->t('Write a Nextcloud Talk Command');?></a>

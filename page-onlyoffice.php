@@ -7,10 +7,10 @@
 		require(["pages/collabora", "modules/youtubePlayer", "modules/codeHighlights"])
 	});
 </script>
-<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice.png">
-<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice.png">
-<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice.png">
-<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice.png">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/onlyoffice.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/onlyoffice.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/onlyoffice.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/onlyoffice.png">
 </head>
 
 <div class="background onlyoffice-background">
@@ -27,8 +27,9 @@
 <section class="section--video">
 <div class="container">
     <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-            <iframe height="500" width="auto" src="https://www.youtube-nocookie.com/embed/piI5LvYfv2o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div class="col-md-12">
+            <stream src="6644f6c1e7c0a5e3ff5b877e07ed1dea" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/documents-video.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=6644f6c1e7c0a5e3ff5b877e07ed1dea"></script>
         </div>
     </div>
     <div class="row">
@@ -38,6 +39,36 @@
         </div>
     </div>
 </div>
+</section>
+
+<section class="section--whitepaper quote">
+	<div class="container">
+        <div class="row">
+			<div class="col-lg-8">
+                <h2><?php echo $l->t('North-West University<br/> Case Study');?></h2>
+                <form name="whitepaper" method="post" action="<?php echo get_template_directory_uri()."/mautic-submit.php" ?>">
+                    <p><label for="email"><?php echo $l->t('Get the free case study:');?><br>
+                    <?php echo $l->t('The North-West University of South Africa improves user storage mobility,<br /> collaboration and productivity with Nextcloud and ONLYOFFICE.');?><br>
+                    <td colspan="2" style="text-align:center">
+                    <div class="">
+                        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
+                    </div>
+                    </td>
+                    <input type="hidden" name="segmentId" value="90">
+                    <input class="mail" type="text" name="email" maxlength="80" placeholder="Enter your email"></label>
+                    <div class="newsletter">
+                        <input type="hidden" name="newsletter" value="0" />
+<!--                         <input type="checkbox" name="newsletter" value="1"> <small>Sign me up for the Nextcloud newsletter</small><br/> -->
+                        <input type="hidden" name="moreinfo" value="0" />
+                        <input type="checkbox" name="moreinfo" value="1"> <small><?php echo $l->t('Inform me about new white papers and other relevant information');?></small><br/>
+                        <small><?php echo $l->t('See our');?> <a class="hyperlink" href="<?php echo home_url('privacy') ?>"><?php echo $l->t('privacy policy');?></a></small>
+                    </div>
+                    <input class="button button--large" type="submit" value=" Get the case study "></p>
+                </form>
+            </div>
+        </div>
+        <img class="responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/whitepapers/nwu-thumbnail-banner.png"/>
+	</div>
 </section>
 
 <section class="section--overview">

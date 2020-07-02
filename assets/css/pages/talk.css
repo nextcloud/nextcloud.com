@@ -29,11 +29,12 @@
   background-color: transparent;
   position: absolute; }
 
-.talk-background {
-  background: url("../../img/headers/talk.jpg") no-repeat;
+.talk-hero-section {
+  background-image: url("../../img/headers/talk.jpg");
   background-position: center;
   background-size: cover;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  padding-bottom: 0px; }
 
 section {
   padding: 50px 0; }
@@ -43,6 +44,11 @@ section {
     padding-bottom: 0px; }
   section .row {
     padding-top: 40px; }
+
+.section--intro p {
+  margin-top: 20px; }
+.section--intro .video .video-js {
+  background-color: transparent !important; }
 
 .featuretitle {
   text-align: center; }
@@ -99,7 +105,15 @@ section {
 .section--features {
   margin: 50px 0; }
   .section--features li {
-    list-style-image: url("../../img/enterprise/check.svg");
+    list-style-image: url("../../img/common/white-check.svg");
+    list-style-position: inside; }
+
+.section--features-images {
+  margin: 50px 0; }
+  .section--features-images .row {
+    margin-top: 50px; }
+  .section--features-images li {
+    list-style-image: url("../../img/common/white-check.svg");
     list-style-position: inside; }
 
 .section--options {

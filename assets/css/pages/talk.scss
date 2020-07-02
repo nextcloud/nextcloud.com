@@ -2,11 +2,14 @@
 @import '../modules/transparent-navbar';
 
 
-.talk-background {
-  background: url('../../img/headers/talk.jpg') no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 50px
+
+.talk-hero-section {
+    background-image: url('../../img/headers/talk.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+
 }
 
 section {
@@ -21,6 +24,16 @@ section {
  		padding-top: 40px;
  	}
 }
+
+.section--intro {
+    p {
+        margin-top: 20px;
+    }
+    .video .video-js {
+        background-color: transparent !important;
+    }
+}
+
 
 .featuretitle {
     text-align: center;
@@ -43,7 +56,7 @@ section {
 	i[class*='fa-'] {
 		font-size: 40px;
 		display: block;
-		color: #0082c9;
+		color: $nextcloud-blue;
 		text-align: center;
 		vertical-align: center;
 		padding-top: 20%;
@@ -53,8 +66,8 @@ section {
     .icon {
             max-width: 120px;
             @media (max-width: $break-small) {
-                margin-left:auto;
-                margin-right:auto;
+                margin-left: auto;
+                margin-right :auto;
             }
     }
     .scaling-svg-container {
@@ -96,8 +109,19 @@ section {
 	.container {
 	}
 	li {
-		list-style-image: url("../../img/enterprise/check.svg");
-		list-style-position:inside;
+		list-style-image: url("../../img/common/white-check.svg");
+		list-style-position: inside;
+	}
+}
+
+.section--features-images {
+	margin: 50px 0;
+	.row {
+        margin-top: 50px;
+    }
+	li {
+		list-style-image: url("../../img/common/white-check.svg");
+		list-style-position: inside;
 	}
 }
 

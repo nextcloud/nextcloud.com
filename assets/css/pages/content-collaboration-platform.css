@@ -1,0 +1,121 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.ccp-background {
+  background-image: url("../../img/headers/collaboration.jpg");
+  background-position: center center; }
+
+.section--intro p {
+  margin-top: 20px; }
+
+.benefits .banner {
+  padding-left: 0px;
+  position: relative; }
+  .benefits .banner .col-md-6 {
+    padding: 30px; }
+    .benefits .banner .col-md-6 h3 {
+      font-size: 26px; }
+    .benefits .banner .col-md-6 p {
+      padding-top: 0px; }
+    .benefits .banner .col-md-6 .banner-image--ccp {
+      background-image: url("../../img/headers/collaboration5.jpg"); }
+    .benefits .banner .col-md-6 .banner-image--issue {
+      background-image: url("../../img/headers/collaboration3.jpg"); }
+    .benefits .banner .col-md-6 .banner-image--solution {
+      background-image: url("../../img/headers/collaboration6.jpg"); }
+    .benefits .banner .col-md-6 .banner-image, .benefits .banner .col-md-6 .banner-image-inverted {
+      position: absolute;
+      height: 100%;
+      margin-left: 60%;
+      background-size: cover;
+      background-position: center center;
+      width: 50vw;
+      top: 0; }
+      @media (max-width: 768px) {
+        .benefits .banner .col-md-6 .banner-image, .benefits .banner .col-md-6 .banner-image-inverted {
+          display: none; } }
+    .benefits .banner .col-md-6 .banner-image {
+      right: 100%; }
+    .benefits .banner .col-md-6 .banner-image-inverted {
+      right: -50vw; }
+
+.section--benefits .row {
+  margin-top: 50px; }
+
+.section--products {
+  margin: 0 0 0 0;
+  padding: 90px 0 70px 0;
+  /*     background-color: #eee; */ }
+  .section--products .row {
+    margin-bottom: 10px; }
+  .section--products img {
+    padding: 20px; }
+  .section--products .description {
+    min-height: 100px;
+    margin: 0 20px; }
+    .section--products .description .title {
+      display: block;
+      padding: 5px 10px 0 0;
+      font-size: 18px;
+      /*             color: white; */ }
+      .section--products .description .title .logo {
+        width: 65px;
+        min-height: 25px;
+        float: left;
+        vertical-align: middle; }
+        .section--products .description .title .logo img {
+          margin-top: 0px;
+          padding: 4px 5px 0 0;
+          height: 60px;
+          width: 60px; }
+      .section--products .description .title .text {
+        line-height: 1;
+        padding: 10px 0 10px 0; }
+        .section--products .description .title .text strong {
+          line-height: 1.2;
+          font-weight: normal;
+          font-size: 22px; }
+        .section--products .description .title .text small {
+          opacity: 0.8; }
+
+.section--features h1 {
+  margin-bottom: 80px; }
+.section--features h3 {
+  margin-top: 0; }
+.section--features .video {
+  margin-top: 50px;
+  margin-bottom: 70px; }
+.section--features ul li.check {
+  list-style-image: url("../../img/enterprise/check.svg");
+  list-style-position: inside;
+  color: #555555; }
+
+/*# sourceMappingURL=content-collaboration-platform.css.map */

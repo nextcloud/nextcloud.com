@@ -1,6 +1,257 @@
 <hr>
 
+<h2>2020</h2>
+
+<h3>Deck App 1.0.1</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-022">Improper access control allows injecting tasks into other users decks (NC-SA-2020-022)</a> 2020-05-15</li>
+</ul>
+
+<h3>Talk App 8.0.8</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-021">Code injection possible with malformed Nextcloud Talk chat commands (NC-SA-2020-021)</a> 2020-04-20</li>
+</ul>
+
+<h3>Talk App 7.0.3</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-021">Code injection possible with malformed Nextcloud Talk chat commands (NC-SA-2020-021)</a> 2020-04-20</li>
+</ul>
+
+<h3>Talk App 6.0.5</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-021">Code injection possible with malformed Nextcloud Talk chat commands (NC-SA-2020-021)</a> 2020-04-20</li>
+</ul>
+
+<h3>Contacts App 3.3.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-024">Limit contacts photo uploading to images (NC-SA-2020-024)</a> 2020-04-16</li>
+</ul>
+
+<h3>Deck App 0.8.1</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-025">Missing permission check on resharing a board (NC-SA-2020-025)</a> 2020-04-08</li>
+</ul>
+
+<h3>Mail App 1.1.4</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-020">Mail app not verifying TLS host of mail servers (NC-SA-2020-020)</a> 2020-03-24</li>
+</ul>
+
+<h3>Nextcloud Server 18.0.3</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-019">XSS in Files PDF viewer (NC-SA-2020-019)</a> 2020-03-18</li>
+	<li><a href="/security/advisory/?id=NC-SA-2020-018">Missing ownership check on remote wipe endpoint (NC-SA-2020-018)</a> 2020-03-18</li>
+</ul>
+
+<h3>Nextcloud Server 17.0.5</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-018">Missing ownership check on remote wipe endpoint (NC-SA-2020-018)</a> 2020-03-18</li>
+</ul>
+
+<h3>Desktop Client 2.6.3</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-016">Code injection in Nextcloud Desktop Client for macOS (NC-SA-2020-016)</a> 2020-02-17</li>
+</ul>
+
+<h3>Nextcloud Server 18.0.1</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-015">Secure view shares can be downloaded by manipulating the URL (NC-SA-2020-015)</a> 2020-02-07</li>
+</ul>
+
+<h3>Nextcloud Server 17.0.4</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-015">Secure view shares can be downloaded by manipulating the URL (NC-SA-2020-015)</a> 2020-02-07</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.9</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-015">Secure view shares can be downloaded by manipulating the URL (NC-SA-2020-015)</a> 2020-02-07</li>
+</ul>
+
+<h3>Nextcloud Server 17.0.2</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-014">SSRF protection bypass in calendar subscriptions (NC-SA-2020-014)</a> 2019-12-12</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.7</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-014">SSRF protection bypass in calendar subscriptions (NC-SA-2020-014)</a> 2019-12-12</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.14</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-014">SSRF protection bypass in calendar subscriptions (NC-SA-2020-014)</a> 2019-12-12</li>
+</ul>
+
+<h3>Android App 3.9.1</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-004">Bypass lock protection in Android app (NC-SA-2020-004)</a> 2019-12-05</li>
+</ul>
+
+<h3>Nextcloud Server 17.0.2</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-002">Workflow rules only check the file extension for the mimetype instead of the content (NC-SA-2020-002)</a> 2019-12-04</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.7</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-002">Workflow rules only check the file extension for the mimetype instead of the content (NC-SA-2020-002)</a> 2019-12-04</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.14</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-002">Workflow rules only check the file extension for the mimetype instead of the content (NC-SA-2020-002)</a> 2019-12-04</li>
+</ul>
+
+<h3>iOS App 2.25.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-003">Missing sanitization in iOS App allows XSS (NC-SA-2020-003)</a> 2019-11-20</li>
+</ul>
+
+<h3>Nextcloud Server 17.0.1</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-006">Duplicate setup of second factor allowed (NC-SA-2020-006)</a> 2019-10-25</li>
+</ul>
+
+<h3>Nextcloud Server 17.0.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-005">Missing default timeout on HTTP requests (NC-SA-2020-005)</a> 2019-09-04</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.4</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-008">Improper neutralization of item names in projects feature (NC-SA-2020-008)</a> 2019-07-29</li>
+</ul>
+
+<h3>Deck App 0.6.6</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-010">Improper neutralization of item names in projects feature (NC-SA-2020-010)</a> 2019-07-29</li>
+</ul>
+
+<h3>Talk App 6.0.4</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-011">Name of private conversations leaked when linked via projects to a shared item (NC-SA-2020-011)</a> 2019-07-29</li>
+	<li><a href="/security/advisory/?id=NC-SA-2020-009">Improper neutralization of item names in projects feature (NC-SA-2020-009)</a> 2019-07-29</li>
+</ul>
+
+<h3>Groupfolders App 4.0.4</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-017">Renaming an item to a protected hidden folder deletes the target (NC-SA-2020-017)</a> 2019-07-15</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.2</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-012">Improper permission preservation on reshares (NC-SA-2020-012)</a> 2019-06-27</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.9</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-012">Improper permission preservation on reshares (NC-SA-2020-012)</a> 2019-06-27</li>
+</ul>
+
+<h3>Nextcloud Server 14.0.13</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-012">Improper permission preservation on reshares (NC-SA-2020-012)</a> 2019-06-27</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.3</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-001">2FA sessions not properly expired on password change (NC-SA-2020-001)</a> 2019-04-01</li>
+</ul>
+
+<h3>Nextcloud Server 14.0.7</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-001">2FA sessions not properly expired on password change (NC-SA-2020-001)</a> 2019-04-01</li>
+</ul>
+
+<h3>Nextcloud Server 13.0.11</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-001">2FA sessions not properly expired on password change (NC-SA-2020-001)</a> 2019-04-01</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.6</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-007">Reflected XSS in redirect of the Updater (NC-SA-2020-007)</a> 2019-03-26</li>
+</ul>
+
+<h3>Nextcloud Server 14.0.9</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-007">Reflected XSS in redirect of the Updater (NC-SA-2020-007)</a> 2019-03-26</li>
+</ul>
+
+<h3>Nextcloud Server 14.0.4</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-013">Event details leaked when sharing a non-public calendar event (NC-SA-2020-013)</a> 2018-11-15</li>
+</ul>
+
+<h3>Nextcloud Server 13.0.8</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-013">Event details leaked when sharing a non-public calendar event (NC-SA-2020-013)</a> 2018-11-15</li>
+</ul>
+
+<h3>Nextcloud Server 12.0.13</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-013">Event details leaked when sharing a non-public calendar event (NC-SA-2020-013)</a> 2018-11-15</li>
+</ul>
+
+<hr>
+
 <h2>2019</h2>
+
+<h3>iOS App 2.24.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-017">Login and token disclosure to other Nextcloud services (NC-SA-2019-017)</a> 2019-11-12</li>
+</ul>
+
+<h3>Nextcloud Server 17.0.1</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-012">File-drop content is visible through the gallery app (NC-SA-2019-012)</a> 2019-10-22</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.6</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-012">File-drop content is visible through the gallery app (NC-SA-2019-012)</a> 2019-10-22</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.13</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-012">File-drop content is visible through the gallery app (NC-SA-2019-012)</a> 2019-10-22</li>
+</ul>
+
+<h3>Circles App 0.17.8</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-013">Removing emails from circles does not revoke access to shared items (NC-SA-2019-013)</a> 2019-10-06</li>
+</ul>
+
+<h3>Circles App 0.16.11</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-013">Removing emails from circles does not revoke access to shared items (NC-SA-2019-013)</a> 2019-10-06</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.8</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-015">Group admins can create users with IDs of system folders (NC-SA-2019-015)</a> 2019-08-12</li>
+</ul>
+
+<h3>Nextcloud Server 14.0.11</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-015">Group admins can create users with IDs of system folders (NC-SA-2019-015)</a> 2019-08-12</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.2</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-018">Reflected XSS in svg logo generation (NC-SA-2019-018)</a> 2019-08-02</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.9</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-018">Reflected XSS in svg logo generation (NC-SA-2019-018)</a> 2019-08-02</li>
+</ul>
+
+<h3>Nextcloud Server 14.0.13</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-018">Reflected XSS in svg logo generation (NC-SA-2019-018)</a> 2019-08-02</li>
+</ul>
 
 <h3>Android App 3.7.0</h3>
 <ul>
@@ -29,9 +280,34 @@
 	<li><a href="/security/advisory/?id=NC-SA-2019-005">SQL injection in Android app content provider (NC-SA-2019-005)</a> 2019-07-26</li>
 </ul>
 
-<h3>lookup-server 0.3.0</h3>
+<h3>Lookup server 0.3.0</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2019-010">SQL Injection in lookup-server (NC-SA-2019-010)</a> 2019-07-26</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.2</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-014">Server-Side request forgery in New-Subscription feature of the calendar app (NC-SA-2019-014)</a> 2019-07-04</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.9</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-014">Server-Side request forgery in New-Subscription feature of the calendar app (NC-SA-2019-014)</a> 2019-07-04</li>
+</ul>
+
+<h3>Nextcloud Server 16.0.2</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-016">User IDs and Nextcloud server leaked to Nextcloud Lookup server with disabled settings (NC-SA-2019-016)</a> 2019-06-26</li>
+</ul>
+
+<h3>Nextcloud Server 15.0.9</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-016">User IDs and Nextcloud server leaked to Nextcloud Lookup server with disabled settings (NC-SA-2019-016)</a> 2019-06-26</li>
+</ul>
+
+<h3>Nextcloud Server 14.0.13</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2019-016">User IDs and Nextcloud server leaked to Nextcloud Lookup server with disabled settings (NC-SA-2019-016)</a> 2019-06-26</li>
 </ul>
 
 <h3>Nextcloud Server 15.0.1</h3>
@@ -90,16 +366,6 @@
 	<li><a href="/security/advisory/?id=NC-SA-2018-010">Improper validation of permissions (NC-SA-2018-010)</a> 2018-10-25</li>
 </ul>
 
-<h3>Nextcloud Server 13.0.6</h3>
-<ul>
-	<li><a href="/security/advisory/?id=NC-SA-2018-010">Improper validation of permissions (NC-SA-2018-010)</a> 2018-10-25</li>
-</ul>
-
-<h3>Nextcloud Server 12.0.11</h3>
-<ul>
-	<li><a href="/security/advisory/?id=NC-SA-2018-010">Improper validation of permissions (NC-SA-2018-010)</a> 2018-10-25</li>
-</ul>
-
 <h3>Nextcloud Server 13.0.3</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2018-013">Session fixation on public share page (NC-SA-2018-013)</a> 2018-10-25</li>
@@ -108,6 +374,16 @@
 <h3>Nextcloud Server 12.0.8</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2018-013">Session fixation on public share page (NC-SA-2018-013)</a> 2018-10-25</li>
+</ul>
+
+<h3>Nextcloud Server 13.0.6</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2018-010">Improper validation of permissions (NC-SA-2018-010)</a> 2018-10-25</li>
+</ul>
+
+<h3>Nextcloud Server 12.0.11</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2018-010">Improper validation of permissions (NC-SA-2018-010)</a> 2018-10-25</li>
 </ul>
 
 <h3>Nextcloud Server 13.0.5</h3>

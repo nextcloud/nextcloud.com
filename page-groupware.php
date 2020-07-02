@@ -1,9 +1,9 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/groupware.css?v=1" rel="stylesheet">
-<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png">
-<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png">
-<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png">
-<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/groupware.css?v=2" rel="stylesheet">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/groupware-video.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/groupware-video.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/groupware-video.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/groupware-video.png">
 <meta name=”Description” content="Integrated communication, collaboration and planning capabilities for Nextcloud.">
 </head>
 <div class="background groupware-background">
@@ -19,6 +19,12 @@
 
 <section class="section--intro">
 <div class="container">
+	<div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+			<stream src="3e135d59fff771d1909c4b8d588d5800" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/groupware-video.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=3e135d59fff771d1909c4b8d588d5800"></script>
+		</div>
+    </div>
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 <!-- 			<p class="section--paragraph text-center"><?php echo $l->t('Modern organizations rely on always-available access to communication and planning through browser and mobile applications to improve productivity in their teams.');?></p> -->
@@ -67,31 +73,31 @@
         <h2 class="text-center"><?php echo $l->t('Key features');?></h2>
     </div>
 	<div class="row">
-		<div class="col-md-6">
-			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail-nw.png" />
+		<div class="col-md-6 image--feature new-img">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail.png"><img alt="screenshot of mail in action" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail.png" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Mail');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Send and receive emails in a breeze');?></p>
 			<p class="section--paragraph"><?php echo $l->t('<ul>
 			<li>Multiple accounts with unified inbox</li>
-			<li>Easy-to-use folder management</li>
+			<li>Recognizes travel itineraries and adds them to calendar</li>
 			<li>Supports end-to-end encryption using OpenPGP</li>
 			</ul>
 			<br>
-			<small><strong>Note:</strong> Nextcloud Mail is a client for POP or IMAP servers;<br>Nextcloud does not include a mail server.</small>
+			<small><strong>Note:</strong> Nextcloud Mail is a client for IMAP servers;<br>Nextcloud does not include a mail server.</small>
 			');?></p>
         </div>
 	</div>
 	<div class="row">
-		<div class="col-md-6 image--floated">
-			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png" />
+		<div class="col-md-6 image--floated image--feature new-img">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png"><img class="img-responsive featureimg" alt="pic of calendar in action" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Calendar');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Schedule work and meetings online');?></p>
 			<p class="section--paragraph"><?php echo $l->t('<ul>
-			<li>Create multiple calendars</li>
+			<li>Create and share multiple calendars</li>
             <li>Integrate external calendar resources (WebCal)</li>
-			<li>Share your calendars with your team or make them public</li>
+			<li>Book resources through a busy view or plan a Talk meeting</li>
 			</ul>
 			');?></p>
         </div>
@@ -112,7 +118,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 image--feature new-img image--floated">
-			<img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png" />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png" alt="a project in deck" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Deck');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Manage your work with others');?></p>
@@ -125,7 +131,7 @@
         </div>
 	</div>	<div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-            <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud fluently integrates into your existing infrastructure while also providing its own. Note that Nextcloud Mail is a client for POP and/or IMAP-infrastructure; Nextcloud does not include a mail server.');?></p>
+            <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud fluently integrates into your existing infrastructure while also providing its own. Note that Nextcloud Mail is a client for IMAP-infrastructure; Nextcloud does not include a mail server.');?></p>
         </div>
 	</div>
 </div>
@@ -155,7 +161,7 @@
         <div class="col-sm-4">
             <h3 class="section--paragraph__title"><?php echo $l->t('Control');?></h3>
             <p class="section--paragraph"><?php echo $l->t('
-            Nextcloud Groupware is built to host yourself and work with existing SMTP and IMAP/POP3 servers. This simplifies compliance by putting you in control. Nextcloud supports you with excellent monitoring and audit-ready logging functionality.') ?><br>
+            Nextcloud Groupware is built to host yourself and work with existing SMTP and IMAP servers. This simplifies compliance by putting you in control. Nextcloud supports you with excellent monitoring and audit-ready logging functionality.') ?><br>
             <a class="hyperlink" href="<?php echo home_url('monitoring') ?>"><?php echo $l->t('Learn more about monitoring and logging</a>
             ');?></p>
         </div>
@@ -211,7 +217,7 @@
 					<li>Auto discovery of calendars and address books;</li>
 					<li>Configurable sync time range filter;</li>
 					<li>Time-triggered-sync and sync changes from Outlook immediately;</li>
-					<li>and it can use server settings from an Outlook IMAP/POP3 account profile.</li>
+					<li>and it can use server settings from an Outlook IMAP account profile.</li>
 					</ul>');?></p>
 <!--					<div class="row">
 						<div class="wrapper--buttons">

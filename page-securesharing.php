@@ -29,7 +29,8 @@
 	</div>
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<p class="section--paragraph text-center"><span class="avoidwrap">The public cloud is a risky solution! A McAfee survey showed that</span> <span class="avoidwrap"><a class="hyperlink" href="https://www.zdnet.com/article/report-1-in-4-public-cloud-users-has-had-data-stolen/">25% of organizations using public cloud suffered data theft.</a></span></p>
+			<p class="section--paragraph text-center"><span class="avoidwrap">Public consumer clouds are a risk! A McAfee survey showed that</span> <span class="avoidwrap"><a class="hyperlink" href="https://www.zdnet.com/article/report-1-in-4-public-cloud-users-has-had-data-stolen/">25% of organizations using public cloud suffered data theft.</a></span></p>
+			<p class="section--paragraph text-center"><span class="avoidwrap">A 2020 study from Code42 concluded employers fail to stop employees from</span> <span class="avoidwrap"><a class="hyperlink" href="https://www.helpnetsecurity.com/2020/02/25/cloud-based-collaboration-tools/">syncing company files to personal cloud accounts.</a></span></p>
         </div>
 	</div>
 </section>
@@ -75,6 +76,41 @@
     </div>
 </div>
 </section>
+
+<section class="section--issues">
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h2>10 issues with data silos</h2>
+            <p class="section--paragraph">Employees in modern organizations use tens, sometimes dozens different online services for tracking tasks, tickets, managing blogs, updating documentation, editing files, communicating with partners and more. But this outgrowth of IT services complicates work and multiplies the risk of data leaks.</p>
+        </div>
+    </div>
+	<div class="row">
+        <div class="col-md-6">
+            <h3 class="section--paragraph__title">5x inefficiency and waste of time</h3>
+            <p class="section--paragraph">1. Tools don't connect so data is uploaded to multiple places and employees lose track of what is where</p>
+            <p class="section--paragraph">2. More different services means more frequent service disruption that blocks employees from working</p>
+            <p class="section--paragraph">3. Each tool has a different user interface, requiring more of training and causing mistakes</p>
+            <p class="section--paragraph">4. Nobody knows who has access to what tool and who manages which accounts</p>
+            <p class="section--paragraph">5. The IT department loses track of the services and ends up paying for unused accounts</p>
+        </div>
+        <div class="col-md-6">
+            <h3 class="section--paragraph__title">5x security risks</h3>
+            <ul>
+                <p class="section--paragraph">1. Uploading data to multiple platforms means multiplying the risk of a data breach</p>
+                <p class="section--paragraph">2. Loss of visibility and ability to track where data is and who has access</p>
+                <p class="section--paragraph">3. Complicated reporting on data breach causes compliance issues</p>
+                <p class="section--paragraph">4. Central or connected authentication and storage means breach in one is breach in all</p>
+                <p class="section--paragraph">5. Password re-use by employees across platforms means even a breach in a low-risk service risks all</p>
+            </ul>
+		</div>
+    </div>
+    <hr>
+    <div class="col-md-8 col-md-offset-2"><blockquote><span class="avoidwrap">You thought that a breach in a non-critical online tool is low-risk?</span> <span class="avoidwrap">Guess what, the hacked passwords were re-used on critical company infrastructure.</span></blockquote></div>
+</div>
+</section>
+
+
 <section class="section--solution">
 <div class="container">
 	<div class="row">
@@ -153,7 +189,7 @@
     <h2>Your advantages</h2>
         <div class="col-md-12">
             <h3>No new data silos</h3>
-            <p class="section--paragraph">Modern organizations have data in a wide variety of silos like Sharepoint, Windows Network Drives, FTP sites and (often without knowledge of management) Dropbox or Google Drive. Nextcloud acts as a <a class="hyperlink" href="/storage">single file access, sync and share layer</a> across all these storage systems, integrating with enterprise native account handling like LDAP or SAML.</p>
+            <p class="section--paragraph">Modern organizations have data in a wide variety of silos like Sharepoint, Windows Network Drives, FTP sites and (often without knowledge of management) Dropbox or Google Drive. Nextcloud acts as a <a class="hyperlink" href="<?php echo home_url('storage') ?>">single file access, sync and share layer</a> across all these storage systems, integrating with enterprise native account handling like LDAP or SAML.</p>
             <p class="section--paragraph">That does not exclude using public cloud, nor requires you to give up on data locality. Nextcloud fits perfectly in a hybrid cloud strategy, enabling access to data on Amazon S3 and other public storage technologies. Even cutting-edge Blockchain storage technologies like <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-joins-storj-labs-to-deliver-decentralized-secure-storage/">Storj.io</a> and Sia.tech are available to augment storage at extremely low cost.</p>
 		</div>
     </div>
@@ -167,7 +203,7 @@
         </div>
 	    <div class="col-md-8">
             <h3>Under IT's control</h3>
-            <p class="section--paragraph">No matter the storage solution used, Nextcloud can <a class="hyperlink" href="<?php echo home_url('workflow') ?>">ensure corporate policies are followed.</a> Sharing can be restricted through the file firewall, filtering on user properties like location or group, or file properties like (automatically or manually) assigned tags, file type and more. With storage transparent to users, generic data can remain where it is while IT can make sure that business critical or compliance-relevant information is stored on internal infrastructure and does not leave the company. Use our secure <a href="<?php echo home_url('secure-drop') ?>">File Drop</a> to let customers upload files to you in a easy and secure way!</p>
+            <p class="section--paragraph">No matter the storage solution used, Nextcloud can <a class="hyperlink" href="<?php echo home_url('workflow') ?>">ensure corporate policies are followed.</a> Sharing can be restricted through the file firewall, filtering on user properties like location or group, or file properties like (automatically or manually) assigned tags, file type and more. Extensive sharing permissions and restrictions are available, as are <a class="hyperlink" href="<?php echo home_url('permissions') ?>">Access Control Lists</a> for shared folder structures. With storage transparent to users, generic data can remain where it is while IT can make sure that business critical or compliance-relevant information is stored on internal infrastructure and does not leave the company. Use our secure <a href="<?php echo home_url('file-drop') ?>">File Drop</a> to let customers upload files to you in a easy and secure way!</p>
    		</div>
     </div>
 </div>

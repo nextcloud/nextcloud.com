@@ -181,7 +181,7 @@
 		<div class="col-md-6">
 			<div class="icon text-center"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/permissions.svg" /></div>
 			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Ultimate security');?></h3>
-			<p class="section--paragraph text-center"><?php echo $l->t('Choosing a self-hosted product means you can guarantee your customers that data never leaves your company and remains 100% confidential.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('Choosing a self-hosted product means you can guarantee your customers that data never leaves your company and remains 100% confidential.');?> <?php echo $l->t('You can run Nextcloud in your own datacenter, on rented dedicated servers or a local, trusted cloud provider to ensure the right balance between control, costs and flexibility.');?></p>
 			<p class="section--paragraph text-center"><?php echo $l->t('Powerful server and client side encryption options provide ultimate protection for sensitive documents.');?></p>
 		</div>
 		<div class="col-md-6">
@@ -194,27 +194,7 @@
 </div>
 </section>
 
-<section class="section--on-premise">
-<div class="container">
-	<h1 class="section--heading-1 text-center"><?php echo $l->t('Why self hosting?');?></h1>
-	<div class="row">
-		<div class="col-md-6 feature--block">
-            <h3 class="section--paragraph__title"><?php echo $l->t('You need 100% certainty');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('Email or public cloud solutions do not provide much security for sensitive data. Encryption is complicated and cumbersome to use, reducing the real benefits due to employees working around them or making mistakes.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Keeping data on your own infrastructure means you stay in control. Only then can you show your customers exactly where their sensitive documents are. Regulators can be certain that non-compliance with proper process is minimized.');?></p>
-
-        </div>
-        <div class="col-md-6 feature--block">
-            <h3 class="section--paragraph__title"><?php echo $l->t('Public clouds are not a safe solution');?></h3>
-			<p class="section--paragraph"><?php echo $l->t('Most consumer-grade solutions like Dropbox or Office 365 were not designed with privacy regulations and security concerns in mind, mixing data from consumers and businesses, spread out in data centers across the globe.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Rather than trying to work around their limitations, Nextcloud Files provides a security-first solution which puts you in complete control over the location and access policies of data with a private cloud solution.');?></p>
-        </div>
-	</div>
-    <div class="text-center">
-        <a href="https://nextcloud.com/blog/the-issue-with-public-cloud/" class="button button--blue button--arrow button--large"><?php echo $l->t('Read our blog for more');?></a>
-    </div>
-</div>
-</section>
+<?php require get_template_directory().'/onpremises.php';?>
 
 <section class="section--customerdetail">
 	<div class="container">

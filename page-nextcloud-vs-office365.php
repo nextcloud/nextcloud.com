@@ -271,6 +271,16 @@
                         <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
                     </tr>
                     <tr>
+                        <th scope="row">Task/project management</th>
+                        <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i> <br/> <small>Kanban, task list. No GANT chart view currently</small></td>
+                        <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Workspaces <br /> <small>(a collaborative space associated with each folder for context, todo lists, notes etc)</small></th>
+                        <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
+                        <td class="text-center"><i class="fa fa-times" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
                         <th scope="row">Mobile Device Management (Block devices, remote wipe, notification to devices)</th>
                         <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
                         <td class="text-center"><i class="fa fa-times" aria-hidden="true"></i></td>
@@ -306,7 +316,7 @@
                         <td class="text-center"><i class="fa fa-times" aria-hidden="true"></i><br /><small>Only time-based, after detection of ransomware based on file names. Risks overwriting useful changes and missing ransomware without predictable names.</small></td>
                     </tr>
                     <tr>
-                        <th scope="row">No vendor lock-in<br/><small>Make it easy to migrate to another solution</small></th>
+                        <th scope="row">No vendor lock-in<br/><small>Make it easy to migrate to another solution by using open standards</small></th>
                         <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i></td>
                         <td class="text-center"><i class="fa fa-times" aria-hidden="true"></i></td>
                     </tr>

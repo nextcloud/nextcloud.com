@@ -283,13 +283,13 @@ h5 {
 /* 	margin-top: 52px; */
 }
 
-@media (min-width: $break-big) {
+@media (min-width: $break-small) {
 	.image--floated {
 		float: right;
 	}
 }
 
-@media (max-width: $break-big) {
+@media (max-width: $break-small) {
 .image--floated {
 	float: none !important;
 	}
@@ -1450,11 +1450,13 @@ blockquote.twitter-tweet {
 /* Blue call to action bar */
 
 .quote, .call-to-action {
-	padding: 60px 0 60px 0;
+	padding-top: 60px;
+    padding-bottom: 60px;
 	&.banner, &.section--whitepaper {
-		padding: 0;
+		padding-top: 0;
+        padding-bottom: 0;
 	}
-	background: $nextcloud-blue;
+	background: linear-gradient(40deg, #0082c9 0%, rgba(28,175,255,1) 100%);
 	color: white !important;
 	p,ul,li {
 		color: white !important;

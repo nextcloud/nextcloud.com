@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/home.css?v=6" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/home.css?v=8" rel="stylesheet">
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
 <script>
 	require(["require.config"], function() {
@@ -10,16 +10,16 @@
 <meta name=”Description” content="Nextcloud is the most deployed self-hosted file share and collaboration platform on the web. Access  &amp; collaborate across your devices. Your data remains under your control.">
 </head>
 <div class="jumbotron">
-	<img class="jumbotron__pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/pattern.png" alt="">
+<!-- 	<img class="jumbotron__pattern" src="<?php echo get_template_directory_uri(); ?>/assets/img/" alt=""> -->
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-17-brings-remote-wipe-collaborative-text-editor-and-next-generation-secure-watermarking/">
+				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-hub-brings-productivity-to-home-office/">
 				<span class="type">News</span>
-				<span class="message"><strong><?php echo $l->t('Nextcloud 17');?></strong> <?php echo $l->t(' brings remote wipe, collaborative text editor and next generation secure watermarking');?></span>
+				<span class="message"><strong><?php echo $l->t('Your home office');?>:</strong> <?php echo $l->t('New release of Nextcloud Hub facilitates remote work.');?></span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
-				<h1 class="jumbotron--heading-1"><?php echo $l->t('Protecting your data');?></h1>
+				<h1 class="jumbotron--heading-1"><?php echo $l->t('Regain control');?></h1>
 				<h2 class="jumbotron--lead"><?php echo $l->t('The self-hosted productivity platform that keeps you in control');?></h2>
 				<a class="button button--large button--arrow button--white" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Get Nextcloud');?></a>
 			</div>
@@ -43,11 +43,51 @@
 </script>
 <a name="scroll"></a>
 
+<section class="section--intro">
+<div class="container">
+	<div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+			<stream src="eb1384b4fa48d8f47abdec5051bc922d" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/hub-video.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=eb1384b4fa48d8f47abdec5051bc922d"></script>
+		</div>
+    </div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+                <p class="section--paragraph text-center"><?php echo $l->t('Share and collaborate on documents, send and receive email, manage your calendar and have video chats without data leaks');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('As fully on-premises solution, Nextcloud Hub provides the benefits of online collaboration without the compliance and security risks.');?></p>
+		</div>
+	</div>
+</div>
+</section>
+
+<section class="section--hub">
+<div class="container-fluid icon-background">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 with-image">
+                <div class="image">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-hub-logos-white.svg" alt="in action"/>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="text">
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Hub');?></h3>
+                    <p class="section--paragraph"><?php echo $l->t('Nextcloud Hub is the first completely integrated on-premises content collaboration platform on the market, ready for a new generation of users who expect seamless online collaboration capabilities out of the box.');?></p>
+                    <a href="<?php echo home_url('hub') ?>" class="button button--blue"><?php echo $l->t('Learn more');?></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
 <section class="section--products">
 	<div class="container">
         <div class="row">
-            <div class="col-sm-4">
-                <a href="<?php echo home_url('files') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mobileDesktop.png" /></a>
+            <div class="col-md-4">
+                <stream src="fa1b52828b602f72cf1bcfab61f74fb4" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/files-video.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript"
+                src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=fa1b52828b602f72cf1bcfab61f74fb4"></script>
                 <div class="row description">
                     <div class="title">
                         <div class="logo">
@@ -62,8 +102,9 @@
                 </div>
             </div>
 
-            <div class="col-sm-4">
-                <a href="<?php echo home_url('talk') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw.png"></a>
+            <div class="col-md-4">
+                <stream src="58bf7b0f3ae662ee1d6b368099c8c94f" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-video.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=58bf7b0f3ae662ee1d6b368099c8c94f"></script>
                 <div class="row description">
                     <div class="title">
                         <div class="logo">
@@ -77,8 +118,9 @@
                     <a href="<?php echo home_url('talk') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <a href="<?php echo home_url('groupware') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar-nw.png"></a>
+            <div class="col-md-4">
+                <stream src="3e135d59fff771d1909c4b8d588d5800" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/groupware-video.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=3e135d59fff771d1909c4b8d588d5800"></script>
                 <div class="row description">
                     <div class="title">
                         <div class="logo">
@@ -96,6 +138,21 @@
     </div>
 </section>
 
+<section class="section--homeoffice">
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+            <h1 class="section--heading-1 text-center"><?php echo $l->t('Home Office');?></h1>
+            <p class="text-center"><?php echo $l->t('Why Nextcloud is the perfect home office platform');?></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+            <stream src="4b66104c586170a4dc5b6ebbed80b193" controls preload poster="https://nextcloud.com/media/Home-Office-video-thumb.jpg"></stream> <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=4b66104c586170a4dc5b6ebbed80b193"></script>
+        </div>
+    </div>
+</div>
+</section>
 <section class="section--customers quote">
 	<div class="container">
         <div class="row">
@@ -261,7 +318,7 @@
 
 <?php require get_template_directory().'/verticals.php';?>
 
-<section class="slideshow" id="slideshow">
+<!--<section class="slideshow" id="slideshow">
     <h1 class="text-center section--heading-1"><?php echo $l->t('Introducing Nextcloud 17');?></h1>
 	<div class="indicators">
 		<ul class="carousel_dots"></ul>
@@ -320,7 +377,7 @@
 	        </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <!--<section class="news-section">
 	<div class="container-fluid news" id="social-media">

@@ -1,9 +1,9 @@
 <head>
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/appdev.css?v=2" rel="stylesheet">
-    <meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Nextcloudapps.png">
-    <meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Nextcloudapps.png">
-    <meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Nextcloudapps.png">
-    <meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/Nextcloudapps.png">
+    <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/Nextcloudapps.png">
+    <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/Nextcloudapps.png">
+    <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/Nextcloudapps.png">
+    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/Nextcloudapps.png">
     <meta name=”Description” content="Develop for Nextcloud! Write a new app, extend Nextcloud or integrate other software.">
 
 <script>
@@ -103,10 +103,11 @@ if(isset($_POST['email'])) {
   if(strlen($error_message) > 0) {
     died($error_message);
   } else {
-		function clean_string($string) {
-			$bad = array("content-type", "bcc:", "to:", "cc:", "href");
-			return str_replace($bad, "", $string);
-		}
+        function clean_string($string) {
+            $bad = array("content-type","bcc:","to:","cc:","href");
+            $string = str_replace($bad,"",$string);
+            return htmlspecialchars($string);
+        }
 // the app review mailing list address
     $email_message = "Form details below.\n\n";
     $email_to = "frank@nextcloud.com";

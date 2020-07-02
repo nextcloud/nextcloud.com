@@ -7,10 +7,10 @@ require(["require.config"], function() {
 	require(["pages/education", "modules/submenu", "bootstrap", "modules/youtubePlayer"])
 });
 </script>
-<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/moodle-nw.png">
-<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/moodle-nw.png">
-<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/moodle-nw.png">
-<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/moodle-nw.png">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/moodle-nw.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/moodle-nw.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/moodle-nw.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/moodle-nw.png">
 <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 </head>
 <div class="education-background second-menu">
@@ -176,23 +176,6 @@ require(["require.config"], function() {
             <p class="section--paragraph "><?php echo $l->t('The Moodle integration offers users the ability to access files from Nextcloud, adding, removing or sharing them from within Moodle. More features are in development through a collaboration between Moodle Pty Ltd and Nextcloud GmbH.');?></p>
         </div>
         <div class="col-sm-4 app-feature">
-            <img class="img-responsive " src="<?php bloginfo('template_directory'); ?>/assets/img/features/zenodo-nw.png" />
-            <h2 class="section--heading-2 text-center ">Zenodo</h2>
-            <p class="section--paragraph "><?php echo $l->t('The Zenodo Publishing app enables researchers to publish papers on the popular Zenodo.org platform, developed and supported by European Science Accellerators CERN.');?></p>
-        </div>
-        <div class="col-sm-4 app-feature">
-            <img class="img-responsive " src="<?php bloginfo('template_directory'); ?>/assets/img/features/orcid-nw.png" />
-            <h2 class="section--heading-2 text-center ">SAML</h2>
-            <p class="section--paragraph "><?php echo $l->t('Educational organizations often use SAML, Shibboleth and Kerberos. These and more authentication mechanisms are available in the Education Edition.');?></p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-4 app-feature">
-            <img class="img-responsive " src="<?php bloginfo('template_directory'); ?>/assets/img/features/circles-nw.png" />
-            <h2 class="section--heading-2 text-center ">Circles</h2>
-            <p class="section--paragraph "><?php echo $l->t('Developed for DeiC, the collective of Danish universities, Circles facilitates the collaboration in always-changing groups that students and teachers participate in.');?></p>
-        </div>
-        <div class="col-sm-4 app-feature">
             <img class="img-responsive " src="<?php bloginfo('template_directory'); ?>/assets/img/features/dashboard-nw.png" />
             <h2 class="section--heading-2 text-center ">Dashboard</h2>
             <p class="section--paragraph "><?php echo $l->t('The Dashboard app came from a collaboration with regio iT and is used at hundreds of schools in Europe. It provides a quick overview of file changes, calendar events and more.');?></p>
@@ -241,6 +224,22 @@ require(["require.config"], function() {
 	</div>
 </section>
 
+<section class="section--customerdetail">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-6 ">
+                <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/nantes-oo.png" alt="in action"/></a>
+            </div>
+            <div class="col-md-6  feature--block">
+                <h3 class="section--paragraph__title"><?php echo $l->t('University of Nantes deployed its online collaboration platform based on Nextcloud and ONLYOFFICE');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('The University of Nantes transformed its sharing platform into a whole digital collaboration environment UNCloud, based on open source solutions Nextcloud and ONLYOFFICE');?></p>
+                <p class="section--paragraph"><?php echo $l->t('After the test phase, the service UNCloud (cloud of the University of Nantes) was successfully deployed in 2018 for students, teachers, and employees.');?></p>
+                <a href="https://www.onlyoffice.com/blog/2020/05/how-the-university-of-nantes-deployed-its-online-collaboration-platform-based-on-nextcloud-and-onlyoffice/" class="button button--blue button--arrow button--large"><?php echo $l->t('blog by OnlyOffice');?></a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <a name="easy"></a>
 <section class="section--easy">
 	<div class="container">
@@ -252,7 +251,7 @@ require(["require.config"], function() {
         </div>
         <div class="row">
             <div class="col-md-10 col-md-offset-1  feature--block">
-                <p class="section--paragraph "><?php echo $l->t('Privately, students are used to consumer clouds from Google, Apple, Microsoft, Dropbox and others which make sharing, editing and communicating a breeze. A first requirement for any secure solution to replace them is that it does not force complexity on the user. Forbidding usage of Dropbox or other public clouds will not make them disappear unless a credible alternative is provided!');?></p>
+                <p class="section--paragraph "><?php echo $l->t('Privately, students are used to consumer clouds from Google, Apple, Microsoft, Dropbox and others which make sharing, editing and communicating a breeze. A first requirement for any secure solution to replace them is that it does not force complexity on the user. Forbidding usage of Dropbox or other SaaS clouds will not make them disappear unless a credible alternative is provided!');?></p>
                 <p class="section--paragraph "><?php echo $l->t('Nextcloud is as easy to use as public non-enterprise clouds, providing users a comfortable, familiar workspace.');?></p>
             </div>
         </div>

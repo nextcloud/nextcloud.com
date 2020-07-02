@@ -11,14 +11,14 @@
         <p>Risk level: <strong>Low</strong></p>
         <p>CVSS v3 Base Score: 2.4 (<a href="https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:N/A:N">AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:N/A:N</a>)</p>
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/287.html">Improper Authentication (CWE-287)</a></p>
-        <p>HackerOne report: <a href="https://hackerone.com/reports/231917">231917</a></p>
+        <p>HackerOne report: <a href="https://hackerone.com/reports/476615">476615</a></p>
         <h3>Description</h3>
         <p>A missing check revealed the name of confidential events and private events to all users of a shared calendar.</p>
         <h3>Affected Software</h3>
         <ul>
-            <li>Nextcloud Server &lt; <strong>15.0.1</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>14.0.5</strong> (CVE assignment pending)</li>
-<li>Nextcloud Server &lt; <strong>13.0.9</strong> (CVE assignment pending)</li>
+            <li>Nextcloud Server &lt; <strong>15.0.1</strong> (CVE-2019-5449)</li>
+<li>Nextcloud Server &lt; <strong>14.0.5</strong> (CVE-2019-5449)</li>
+<li>Nextcloud Server &lt; <strong>13.0.9</strong> (CVE-2019-5449)</li>
 
         </ul>
         <h3>Action Taken</h3>

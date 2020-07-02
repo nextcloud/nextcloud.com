@@ -35,8 +35,8 @@
                     <a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode(get_permalink()); ?>">
                         <img class="blog-social" src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.png"></img>
                     </a>
-                    <a target="_blank" href="https://plus.google.com/share?url=<?php echo urlencode(get_permalink()); ?>">
-                        <img class="blog-social" src="<?php echo get_template_directory_uri(); ?>/assets/img/social/googleplus.png"></img>
+                    <a target="_blank" href="https://mastodon.xyz/@nextcloud">
+                        <img class="blog-social" src="<?php echo get_template_directory_uri(); ?>/assets/img/social/mastodon.png"></img>
                     </a>
                 <br>
                 <small>posted in <?php the_category( ', ' ); ?> by <?php the_author_posts_link(); ?></small>

@@ -7,46 +7,34 @@
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto;
-}
-@media (min-width: 768px) {
-  .container-widest .container-widest {
-    width: 738px;
-  }
-}
-@media (min-width: 992px) {
-  .container-widest .container-widest {
-    width: 962px;
-  }
-}
-@media (min-width: 1200px) {
-  .container-widest .container-widest {
-    width: 1170px;
-  }
-}
-@media (min-width: 1500px) {
-  .container-widest .container-widest {
-    width: 1470px;
-  }
-}
-@media (min-width: 1800px) {
-  .container-widest .container-widest {
-    width: 1770px;
-  }
-}
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
 
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
-  position: absolute;
-}
+  position: absolute; }
 
 .background .topheader {
-  top: 25%;
-}
+  top: 25%; }
 
 .register-background {
-  background: url("../../img/headers/dots.png") no-repeat;
+  background-color: #0082c9;
+  background-image: linear-gradient(90deg, #0082c9 0%, #1cafffff 100%);
   background-position: center;
   background-size: cover;
   height: 70vh;
@@ -55,31 +43,27 @@
   /*    border-radius: 0 !important;
    *   height: 70vh;
    *   min-height: 600px;
-   *   max-height: 800px;*/
-}
-.register-background h3 {
-  font-size: 30px;
-  font-weight: 500;
-  color: white;
-}
+   *   max-height: 800px;*/ }
+  .register-background h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: white; }
 
 section {
-  padding: 50px 0 50px;
-}
-section .section--heading-1 {
-  padding-bottom: 50px;
-}
-section .section--paragraph--tittle {
-  padding: 0;
-}
-section .row {
-  padding: 20px 0 20px 0;
-}
+  padding: 50px 0 50px; }
+  section .section--heading-1 {
+    padding-bottom: 50px; }
+  section .section--paragraph--tittle {
+    padding: 0; }
+  section .row {
+    padding: 20px 0 20px 0; }
 
 .section--providers {
   padding: 30px 0;
   background-color: #0082c9;
-}
+  background-image: linear-gradient(90deg, #0082c9 0%, #1cafffff 100%);
+  background-position: center;
+  background-size: cover; }
 
 #register {
   width: 600px;
@@ -91,32 +75,24 @@ section .row {
   transform: translateY(15px);
   opacity: 0;
   animation: 1s ease-out 3s 1 slideUpOnLoad;
-  animation-fill-mode: forwards;
-}
+  animation-fill-mode: forwards; }
 
 @keyframes slideUpOnLoad {
   0% {
     transform: translateY(15px);
-    opacity: 0;
-  }
+    opacity: 0; }
   100% {
     transform: translateY(0px);
-    opacity: 1;
-  }
-}
+    opacity: 1; } }
 @media (max-width: 768px) {
   #register {
-    margin-top: -380px;
-  }
+    margin-top: -380px; }
 
   .background .topheader {
     top: 0px;
-    margin-top: 100px;
-  }
+    margin-top: 100px; }
 
   footer {
-    display: none;
-  }
-}
+    display: none; } }
 
 /*# sourceMappingURL=signup.css.map */

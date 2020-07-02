@@ -1,5 +1,5 @@
 <head>
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css?v=1" rel="stylesheet">
 <!--     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css"> -->
 <!--     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script> -->
 
@@ -15,10 +15,42 @@
 
 <section class="content">
 <div class="container">
-    <h2>Current Release Information<br/><small> Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></small></h2>
-    <a class="button button--large button--blue button--arrow" target="_blank" href="https://nextcloud.com/blog/nextcloud-17-brings-remote-wipe-collaborative-text-editor-and-next-generation-secure-watermarking/">Announcement blog</a>
-    <a href="<?php echo home_url('press/pr20190930') ?>" class="button button--large button--blue button--arrow">Press release and background</a>
-    <h2>Press releases</h2>
+    <h2>Current Release Information</h2>
+    <h3>Nextcloud <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></h3>
+    <a class="button button--large button--white button--arrow" target="_blank" href="https://nextcloud.com/blog/nextcloud-hub-brings-productivity-to-home-office/">Announcement blog</a><br />
+    <a href="<?php echo home_url('press/pr20200117-2') ?>" class="button button--large button--white button--arrow">Press release</a>
+    <h2>Press releases 2020</h2>
+    <ul>
+        <li><a href="<?php echo home_url('press/pr20200616') ?>">June 16, 2020: Nextcloud Mail introduces Machine Learning for Priority Inbox</a></li>
+        <li><a href="<?php echo home_url('press/pr20200603') ?>">June 3, 2020: Nextcloud Hub brings productivity to home office workers</a></li>
+        <li><a href="<?php echo home_url('press/pr20200519') ?>">May 19, 2020: Talk 9: big step forward for team calls, efficient work flows and open source back-end</a></li>
+        <li><a href="<?php echo home_url('press/pr20200430') ?>">April 30, 2020: Massachusetts General Hospital and Nextcloud support fight against COVID</a></li>
+        <li><a href="<?php echo home_url('press/pr20200408') ?>">April 8, 2020: German cloud giants launch GDPR-compliant collaboration platform for schools, government agencies and SMB</a></li>
+        <li><a href="<?php echo home_url('press/pr20200312') ?>">March 12, 2020: Nextcloud doubles order intake and customer base, remains profitable and independent</a></li>
+        <li><a href="<?php echo home_url('press/pr20200117-1') ?>">January 17, 2020: IONOS and Nextcloud together for more data sovereignty</a></li>
+        <li><a href="<?php echo home_url('press/pr20200117-2') ?>">January 17, 2020: Nextcloud challenges SAAS vendors with launch of Hub</a></li>
+        <li>See below for press releases from 2019 and before.</li>
+    </ul>
+
+    <h2>Latest News and Annoucements</h2>
+    <?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 5, 'format' => 'html' ) ); ?>
+    <h2>Nextcloud Resources</h2>
+    <!-- <p>Find an overview of Nextcloud history <a href="/history">on our history page</a> and an overview with <a href="/faq">frequently asked questions in our FAQ</a>.</p> -->
+    <a href="<?php echo home_url('hub') ?>" class="button button--blue">Key Features of Nextcloud Hub</a>
+    <a href="<?php echo home_url('install') ?>" class="button button--blue">Download Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></a>
+    <div class="row">
+        <div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/files/screenshots.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/screenshots.png" style="width: 100%" alt="Download a zip file with screenshots" class="img-thumbnail"></a></div>
+        <div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/files/videos.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/videofiles.png" style="width: 100%" alt="Download a zip file with video files" class="img-thumbnail"></a></div>
+        <div class="col-md-3"><a href="https://www.youtube.com/c/Nextcloud"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/youtube.png" style="width: 100%" alt="View the Nextcloud community YouTube channel" class="img-thumbnail"></a></div>
+    <!-- 		<div class="col-md-3"><a href="/nine"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/newfeatures.png" style="width: 100%" alt="See what is new in Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>" class="img-thumbnail"></a></div> -->
+    </div>
+    <h2>Branding and Trademark Guidelines</h2>
+    <p>Our general Trademark guidelines <a href="<?php echo home_url('trademarks') ?>">can be found here</a>.
+
+    <!-- Find graphics like posters, stickers, flyers, release banners and other designs in our <a href="https://github.com/nextcloud/promo">promo github account</a>.</p>-->
+    <h2>Inquiries</h2>
+    <p>For press inquiries, please contact <a href="mailto:pr@nextcloud.com" target="_blank">our marketing and PR team</a>.<p>
+    <h2>Older press releases</h2>
     <ul>
         <li><a href="<?php echo home_url('press/pr20191016') ?>">October 16, 2019: French universities and research organizations will gain access to secure, private collaboration platform</a></li>
         <li><a href="<?php echo home_url('press/pr20190930') ?>">September 30, 2019: Nextcloud 17 brings remote wipe, collaborative text editor and next generation secure watermarking</a></li>
@@ -68,23 +100,5 @@
         <li><a href="<?php echo home_url('press/pr20160602') ?>">June 2nd, 2016: Core Contributors Fork Into Nextcloud</a></li>
     </ul>
 
-    <h2>Latest News and Annoucements</h2>
-    <?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 5, 'format' => 'html' ) ); ?>
-    <h2>Nextcloud Resources</h2>
-    <!-- <p>Find an overview of Nextcloud history <a href="/history">on our history page</a> and an overview with <a href="/faq">frequently asked questions in our FAQ</a>.</p> -->
-    <a href="<?php echo home_url('features') ?>" class="btn btn-lg btn-default">Key Features of Nextcloud</a>
-    <a href="<?php echo home_url('install') ?>" class="btn btn-lg btn-default">Download Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?></a>
-    <div class="row">
-        <div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/files/screenshots.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/screenshots.png" style="width: 100%" alt="Download a zip file with screenshots" class="img-thumbnail"></a></div>
-        <div class="col-md-3"><a href="<?php echo get_template_directory_uri(); ?>/assets/files/Logo_files.zip"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/logofiles.png" style="width: 100%" alt="Download a zip file with logo files" class="img-thumbnail"></a></div>
-        <div class="col-md-3"><a href="https://www.youtube.com/c/Nextcloud"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/youtube.png" style="width: 100%" alt="View the Nextcloud community YouTube channel" class="img-thumbnail"></a></div>
-    <!-- 		<div class="col-md-3"><a href="/nine"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/screenshots/newfeatures.png" style="width: 100%" alt="See what is new in Nextcloud Server <?php echo $VERSIONS_SERVER_MAJOR_STABLE; ?>" class="img-thumbnail"></a></div> -->
-    </div>
-    <h2>Branding and Trademark Guidelines</h2>
-    <p>Our general Trademark guidelines <a href="<?php echo home_url('trademarks') ?>">can be found here</a>.
-
-    <!-- Find graphics like posters, stickers, flyers, release banners and other designs in our <a href="https://github.com/nextcloud/promo">promo github account</a>.</p>-->
-    <h2>Inquiries</h2>
-    <p>For press inquiries, please contact <a href="mailto:pr@nextcloud.com" target="_blank">our marketing and PR team</a>.<p>
 </div>
 </section>

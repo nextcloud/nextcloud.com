@@ -4,7 +4,7 @@
         require(["pages/signup"])
     });
 </script>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/signup.css?v=2" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/signup.css?v=3" rel="stylesheet">
 <!-- Social media images. Putting in all images, hoping the sites are clever enough to pick the right. If not - png is last, and probably fine. it IS an animated png, properly shown at least in Chrome and Firefox... -->
 
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/common/yourdata.mp4">
@@ -72,7 +72,8 @@ $officialApps = [
     'passman' => $l->t('Passman'),
     'drawio' => $l->t('Draw.io'),
     'bookmarks' => $l->t('Bookmarks'),
-    'audioplayer' => $l->t('Audioplayer')
+    'audioplayer' => $l->t('Audioplayer'),
+    'appointments' => $l->t('Appointments')
 ];
 
 $coreApps = ['files', 'calendar', 'contacts', 'spreed', 'mail', 'tasks', 'notes'];

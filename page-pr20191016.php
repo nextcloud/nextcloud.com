@@ -25,7 +25,7 @@
 
 <h3>First solution in the world that will unify the identities provided by hundreds of organizations in a single private cloud solution, creating the largest such constellation of participants</h3>
 
-<p><em>Stuttgart, August 14 2018</em> - Nextcloud GmbH, supplier of the globally most deployed self-hosted content collaboration platform, announces that RENATER, the national research and educational network in France, is testing Nextcloud for its community making Nextcloud available to up to 700.000 users. As a proven technology, Nextcloud's Global Scale is uniquely positioned to deliver reliable service at such numbers and is being integrated at RENATER.</p>
+<p><em>Stuttgart, October 16 2019</em> - Nextcloud GmbH, supplier of the globally most deployed self-hosted content collaboration platform, announces that RENATER, the national research and educational network in France, is testing Nextcloud for its community making Nextcloud available to up to 700.000 users. As a proven technology, Nextcloud's Global Scale is uniquely positioned to deliver reliable service at such numbers and is being integrated at RENATER.</p>
 
 <blockquote>Our mission at RENATER is enabling seamless collaboration between over a thousand research and education institutions in France in order to protect the security and confidentiality of data. We study and experiment deeply Nextcloud Global Scale for its highly scalability capacities and its reliability that fit the needs of our project.</blockquote>
 <p>-- Alexandre Salvat, Drive Project Manager - Pôle Projets Transverses et Innovation (P2TI)</p>

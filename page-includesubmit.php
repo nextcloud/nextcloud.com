@@ -1,10 +1,10 @@
 <head>
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/include.css">
 
-<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/include.png">
-<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/include.png">
-<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/include.png">
-<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/include.png">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/include.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/include.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/include.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/include.png">
 </head>
 
 <div class="background include-background">
@@ -81,13 +81,14 @@ if(isset($_POST['email'])) {
     }
     $string_exp = "/^((\+|00)\d{1,3})?(\d+|\s+)+\d$/";
 
-    if(strlen($error_message) > 0) {
-        died($error_message);
-    } else {
-    function clean_string($string) {
-        $bad = array("content-type", "bcc:", "to:", "cc:", "href");
-        return str_replace($bad, "", $string);
-    }
+  if(strlen($error_message) > 0) {
+    died($error_message);
+  } else {
+        function clean_string($string) {
+            $bad = array("content-type","bcc:","to:","cc:","href");
+            $string = str_replace($bad,"",$string);
+            return htmlspecialchars($string);
+        }
 
 // create mail message
     $email_to = "include@nextcloud.com";

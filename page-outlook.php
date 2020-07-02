@@ -7,10 +7,10 @@
 	});
 </script>
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/outlook.css?v=1">
-<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-nw.png">
-<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-nw.png">
-<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-nw.png">
-<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-nw.png">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-nw.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-nw.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-nw.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-nw.png">
 </head>
 
 <div class="background outlook-background">

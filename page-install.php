@@ -11,6 +11,7 @@
 		<div class="row">
 			<div class="col-md-6 topheader">
                 <h1><?php echo $l->t('Get Nextcloud');?></h1>
+                <h2><code><?php echo $l->t('Get a server and connect to it with our clients');?></code></h2>
             </div>
         </div>
     </div>
@@ -107,9 +108,15 @@
 			<p><?php echo $l->t('Please report any issues to the');?> <a class="hyperlink" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES; ?>" target="_blank"><?php echo $l->t('issue tracker.');?></a></p>
 			<!--<p><?php echo $l->t('You can check the authenticity of the sources using this <a class="hyperlink" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES_PGP; ?>">PGP signature</a>.');?></p>-->
 			<div class="btn-group">
-				<a class="button button--white button--small" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_WIN; ?>"><i class="fa-windows"></i> Windows</a>
-<!-- 				<a class="button button--white button--small" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_MAC; ?>"><i class="fa-apple"></i> macOS</a> -->
-<!--                 <a class="button button--white button--small" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX; ?>"><i class="fa-linux"></i> Linux</a> -->
+				<?php if(!empty($DOWNLOAD_CLIENT_DESKTOP_TEST_WIN)) { ?>
+					<a class="button button--white button--small" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_WIN; ?>"><i class="fa-windows"></i> Windows</a>
+				<?php } ?></p>
+				<?php if(!empty($DOWNLOAD_CLIENT_DESKTOP_TEST_MAC)) { ?>
+					<a class="button button--white button--small" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_MAC; ?>"><i class="fa-apple"></i> macOS</a>
+				 <?php } ?></p>
+				 <?php if(!empty($DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX)) { ?>
+					<a class="button button--white button--small" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX; ?>"><i class="fa-linux"></i> Linux</a>
+				<?php } ?></p>
             </div>
     <?php } ?></p>
 		<p><a class="hyperlink" href="<?php echo home_url('contribute') ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('The Nextcloud Contribute Page');?>"><?php echo $l->t('More ways to get involved!');?></a></p>

@@ -11,12 +11,12 @@
 	<script type="text/javascript">
 		var templateUrl = '<?= get_bloginfo('template_url'); ?>';
 	</script>
-
 	<script data-main="<?php echo get_template_directory_uri(); ?>/assets/js/require.config.js"
 	src="<?php echo get_template_directory_uri(); ?>/node_modules/requirejs/require.min.js">
 	</script>
 
 	<script>
+	requirejs.config({ waitSeconds: 0 });
 	require(["require.config"], function() {
 		require(["modules/header", "main", "modernizr", "modules/cookieconsent"])
 	});

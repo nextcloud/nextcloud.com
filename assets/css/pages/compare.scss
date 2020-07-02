@@ -222,28 +222,31 @@
 	.cd-features-list {
 		padding-left: 0;
 		margin: 0;
+        li {
+            font-size: 1.4rem;
+            font-weight: bold;
+            height: 80px;
+            padding: 5px;
+            border-color: #e6e6e6;
+            border-style: solid;
+            border-top-width: 1px;
+            border-right-width: 1px;
+            margin-top: 0;
+            margin-left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            small {
+                line-heigt: 16px;
+            }
+        }
+        .long {
+            height: 160px;
+        }
 	}
 
-	.cd-features-list li {
-	font-size: 1.4rem;
-	font-weight: bold;
-	height: 80px;
-	padding: 19px 40px 20px 40px;
-	border-color: #e6e6e6;
-	border-style: solid;
-	border-top-width: 1px;
-	border-right-width: 1px;
-	margin-top: 0;
-	margin-left: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	overflow: hidden;
-	}
 
-	.cd-features-list .long {
-		height: 160px;
-	}
 
 	.cd-features-list .cd-group {
 		height: 60px;

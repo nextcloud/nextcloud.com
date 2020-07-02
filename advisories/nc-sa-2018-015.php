@@ -13,20 +13,20 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/284.html">Improper Access Control (CWE-284)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/331302">331302</a></p>
         <h3>Description</h3>
-        <p><p>A too permissive check allowed an installed application that contained the Nextcloud client package name to obtain access to the database of the Nextcloud application. At time of disclosure there are no applications with in the Google Play Store that fullfill this requirement.</p></p>
+        <p>A too permissive check allowed an installed application that contained the Nextcloud client package name to obtain access to the database of the Nextcloud application. At time of disclosure there are no applications with in the Google Play Store that fullfill this requirement.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Android &lt; <strong>3.2.0</strong> (CVE-2018-3765)</li>
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The error has been fixed.</p></p>
+        <p>The error has been fixed.</p>
         <h3>Resolution</h3>
-        <p><p>It is recommended that users upgrade to version 3.2.0.</p></p>
+        <p>It is recommended that users upgrade to version 3.2.0.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>
-            <li><a href="TBD" target="_blank" rel="noreferrer">TBD - Vulnerability discovery and disclosure.</a></li>
+            <li>NA - Vulnerability discovery and disclosure.</li>
         </ul>
         <br/>
         <small style="color:grey">This advisory is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</small>

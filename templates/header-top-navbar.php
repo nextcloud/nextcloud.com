@@ -25,34 +25,44 @@ require get_template_directory() . '/strings.php';
 
 				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Products');?></a>
 					<ul class="nav__links ">
-						<li class="nav__item">
-                            <a href="<?php echo home_url('files');?>">
+                        <li class="nav__item">
+                            <a href="<?php echo home_url('hub');?>">
                             <div class="nav__logo">
                                 <?php echo file_get_contents(get_template_directory()."/assets/img/logo/Nextcloud-Files.svg");?>
                             </div>
-                            <div class="nav__text"><?php echo $l->t('<strong>Nextcloud Files</strong><br><small>File Sync and Share</small>');?></div>
+                            <div class="nav__text"><?php echo $l->t('<strong>Nextcloud Hub</strong><br><small>Content collaboration platform</small>');?></div>
                         </a>
                         </li>
-						<li class="nav__item">
-							<a href="<?php echo home_url('talk');?>">
+                        <ul>
+                            <li class="nav__item">
+                                <a href="<?php echo home_url('files');?>">
                                 <div class="nav__logo">
-                                    <?php echo file_get_contents(get_template_directory()."/assets/img/logo/Nextcloud-Talk.svg");?>
+                                    <?php echo file_get_contents(get_template_directory()."/assets/img/logo/Nextcloud-Files.svg");?>
                                 </div>
-                                <div class="nav__text">
-                                    <?php echo $l->t('<strong>Nextcloud Talk</strong><br><small>Calls, chat and web meetings</small>'); ?>
-                                </div>
+                                <div class="nav__text"><?php echo $l->t('<strong>Nextcloud Files</strong><br><small>File Sync and Share</small>');?></div>
                             </a>
-                        </li>
-						<li class="nav__item">
-                            <a href="<?php echo home_url('groupware'); ?>">
-                                <div class="nav__logo">
-                                    <?php echo file_get_contents(get_template_directory()."/assets/img/logo/Nextcloud-Groupware.svg");?>
-                                </div>
-                                <div class="nav__text">
-                                    <?php echo $l->t('<strong>Nextcloud Groupware</strong><br><small>Calendar, Contacts & Mail</small>'); ?>
-                                </div>
-                            </a>
-                        </li>
+                            </li>
+                            <li class="nav__item">
+                                <a href="<?php echo home_url('talk');?>">
+                                    <div class="nav__logo">
+                                        <?php echo file_get_contents(get_template_directory()."/assets/img/logo/Nextcloud-Talk.svg");?>
+                                    </div>
+                                    <div class="nav__text">
+                                        <?php echo $l->t('<strong>Nextcloud Talk</strong><br><small>Calls, chat and web meetings</small>'); ?>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="<?php echo home_url('groupware'); ?>">
+                                    <div class="nav__logo">
+                                        <?php echo file_get_contents(get_template_directory()."/assets/img/logo/Nextcloud-Groupware.svg");?>
+                                    </div>
+                                    <div class="nav__text">
+                                        <?php echo $l->t('<strong>Nextcloud Groupware</strong><br><small>Calendar, Contacts & Mail</small>'); ?>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
 						<li class="nav__item">
                             <a href="<?php echo home_url('athome'); ?>">
                                 <div class="nav__logo">
@@ -75,8 +85,8 @@ require get_template_directory() . '/strings.php';
                         </li>
                         <hr>
                         <li class="nav__item"><a href="<?php echo home_url('outlook'); ?>"><?php echo $l->t('Outlook integration'); ?></a></li>
-                        <li class="nav__item"><a href="<?php echo home_url('onlyoffice'); ?>"><?php echo $l->t('ONLYOFFICE online office'); ?></a></li>
                         <li class="nav__item"><a href="<?php echo home_url('collaboraonline'); ?>"><?php echo $l->t('Collabora online office'); ?></a></li>
+                        <li class="nav__item"><a href="<?php echo home_url('onlyoffice'); ?>"><?php echo $l->t('ONLYOFFICE online office'); ?></a></li>
                     </ul>
 				</li>
 

@@ -235,7 +235,7 @@
                 <p class="section--paragraph text-center"><?php echo $l->t('With the Nextcloud clients for Android and iOS you can sync, edit and share your files in a fully secure way through an encrypted connection.');?></p>
             </div>
         </div>
-        <div class="row">
+        <div class="row vertical-image-list">
             <div class="col-sm-3 col-xs-6">
                 <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/iPhoneX.png" alt="in action" >
             </div>
@@ -249,8 +249,24 @@
                 <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/mobile/android2.png" alt="in action" >
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/edit-documents-on-the-go.jpg" alt="in action" >
+            </div>
+            <div class="col-md-6">
+                <p class="section--paragraph__tittle"><?php echo $l->t('Integrated collaboration');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The mobile clients feature integrated real-time document editing. Nextcloud Text is used for note taking with Markdown files, Microsoft Office compatible document editing on-the-go is available through Collabora Online or ONLYOFFICE when these installed on the server.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The clients also allow users to comment on documents, add a note to a shared file, view and act on server notification like a request to accept a file share or approve a login, see activity for any file and much more. Productivity is guaranteed, wherever you are!');?></p>
+            </div>
+        </div>
     </div>
 </section>
+
+</section>
+
+
+
+
 
 <section class="section--ios" id="iosid">
 	<div class="container">
@@ -406,6 +422,26 @@
     </div>
 </section>
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/utf-in-android.jpg" alt="in action" ><br />
+            <?php echo $l->t('Plug in a UTF key for authentication');?>
+        </div>
+        <div class="col-md-3">
+            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/android-rich-workspaces.png" alt="in action" ><br />
+            <?php echo $l->t('See and edit notes above your folders');?>
+        </div>
+        <div class="col-md-3">
+            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/android-upload1.png" alt="in action" ><br />
+            <?php echo $l->t('Configure upload');?>
+        </div>
+        <div class="col-md-3">
+            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/android-conflict1.png" alt="in action" ><br />
+            <?php echo $l->t('Handle file conflicts');?>
+        </div>
+    </div>
+</div>
 
 <section class="section--intro">
 	<div class="container">

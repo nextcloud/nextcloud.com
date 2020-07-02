@@ -60,6 +60,7 @@
 			<h3 class="section--paragraph__title"><?php echo $l->t('Guest accounts');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('The guest accounts app enables users to create guest accounts for recipients. The administrator can determine what access rights these users need to have to external storage and apps.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('As guests have a special (hidden) group, administrators can use the Workflow and File Access Control capabilities to restrict, for example, users from downloading or sharing data. In Virtual Dataroom scenarios guest accounts can be given access to data read-only or with editing rights while blocking downloads and watermarking all files. Documents can shared with them through the Secure Mailbox feature from the Nextcloud Outlook Add-in which prevents the mail body and attachments from leaking.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Upon creation, users can designate a group to a guest account.');?></p>
             <a class="button button--blue button--arrow" href="<?php echo home_url('workflow') ?>"><?php echo $l->t('Workflow and File Access Control');?></a><br />
             <a class="button button--blue button--arrow" href="<?php echo home_url('virtual-data-room') ?>"><?php echo $l->t('Virtual data room features');?></a>
 		</div>
@@ -204,6 +205,7 @@
 			<ul>
                 <li><?php echo $l->t('Time-based One-Time Password (TOTP, including Google Authenticator or similar apps');?></li>
                 <li><?php echo $l->t('Universal 2nd Factor hardware tokens (U2F, like Yubikeys or Nitrokeys, also supports NFC)');?></li>
+                <li><?php echo $l->t('FIDO2 and WebAuthn compatibility, allowing use of hardware tokens, Windows Hello, FaceID and other FIDO2 compatible technologies to authenticate users or function as second factor. Passwordless login with WebAuthn is supported.');?></li>
                 <li><?php echo $l->t('Gateways: SMS, secure messaging apps Telegram, Signal and more');?></li>
                 <li><?php echo $l->t('Notification (just click to approve login on an existing device like phone)');?></li>
                 <li><?php echo $l->t('Code in an email');?></li>
@@ -213,7 +215,7 @@
 			<p class="section--paragraph"><?php echo $l->t('Any number of these can be enabled by the admin.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Active user sessions can be invalidated through a list, by removing the user in the admin settings or by changing passwords. Users can manage their own sessions and devices.');?></p>
 			<p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>configuration_user/two_factor-auth.html"><?php echo $l->t('Find documentation here.');?></a></p>
-			<p class="section--paragraph"><a class="hyperlink" href="https://nextcloud.com/blog/nitrokey-and-nextcloud-collaborate-on-securing-private-clouds/"><?php echo $l->t('OTP Nitrokey hardware has been certified with Nextcloud.');?></a> <?php echo $l->t('U2F, FIDO2 and HSM functionality is being developed.');?></p>
+			<p class="section--paragraph"><a class="hyperlink" href="https://nextcloud.com/blog/nitrokey-and-nextcloud-collaborate-on-securing-private-clouds/"><?php echo $l->t('OTP and FIDO2 Nitrokey hardware has been certified with Nextcloud.');?></a> <?php echo $l->t('HSM functionality is being developed.');?></p>
 		</div>
 	</div>
 	<div class="row">

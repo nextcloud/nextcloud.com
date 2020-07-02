@@ -49,15 +49,13 @@
                 <p class="section--paragraph text-center"><?php echo $l->t('Scale Nextcloud to hundreds of millions of users at comodity cost.');?></p>
             </div>
 		</div>
-		<div class="col-md-4">
+<!--		<div class="col-md-4">
 			<a href="<?php echo home_url('virtual-data-room') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/vdr-small.jpg" /></a>
 			<div class="row text-center description">
                 <h3 class="section--paragraph__title"><a class="hyperlink" href="<?php echo home_url('virtual-data-room') ?>"><?php echo $l->t('Virtual data rooms');?></a></h3>
                 <p class="section--paragraph text-center"><?php echo $l->t('Securely conduct transactions using an on-premises Nextcloud virtual data room.');?></p>
             </div>
-        </div>
-    </div>
-    <div class="row">
+        </div>-->
         <div class="col-md-4">
 			<a href="<?php echo home_url('agencies') ?>" ><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/media-small.jpg" /></a>
 			<div class="row text-center description">
@@ -65,7 +63,9 @@
                 <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud provides easy and efficient collaboration on large files.');?></p>
             </div>
 		</div>
-		<div class="col-md-4">
+    </div>
+    <div class="row">
+		<div class="col-md-4 col-md-offset-2">
 			<a href="<?php echo home_url('legal') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/legal-small.jpg" /></a>
 			<div class="row text-center description">
                 <h3 class="section--paragraph__title"><a class="hyperlink" href="<?php echo home_url('legal') ?>"><?php echo $l->t('Lawyers and Notaries');?></a></h3>

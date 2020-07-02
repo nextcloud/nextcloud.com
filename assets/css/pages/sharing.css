@@ -51,4 +51,7 @@ section {
 .section--sharing ul li {
   list-style-image: url("../../img/enterprise/check-blue.svg"); }
 
+.section--appstore {
+  padding-bottom: 0; }
+
 /*# sourceMappingURL=sharing.css.map */

@@ -1,34 +1,52 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/talk.css?v=3" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/talk.css?v=5" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+<script>
+	require(["require.config"], function() {
+		require(["modules/submenu"])
+	});
+</script>
 
-<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png">
-<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png">
-<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png">
-<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/talk-video.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/talk-video.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/talk-video.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/talk-video.png">
 <meta name=”Description” content="You need confidential communication? Find out how Talk is your solution!">
 
 </head>
-<div class="background talk-background">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 topheader">
+
+<section class="talk-hero-section background second-menu">
+    <div class="container background">
+        <div class="col-md-6 topheader">
 				<h1><?php echo $l->t('Nextcloud Talk');?></h1>
 				<h2><?php echo $l->t('Screensharing, online meetings & web conferencing without data leaks.');?></p>
-			</div>
+        </div>
+    </div>
+	<div class="container-fluid menu" id="menuAnchor">
+		<div class="container buttons">
+			<a class="button button--blue" href="#pricing"><?php echo $l->t('pricing');?></a>
+			<a class="button button--blue" href="#scalability"><?php echo $l->t('scalability');?></a>
+			<a class="button button--blue" href="#features"><?php echo $l->t('features');?></a>
 		</div>
 	</div>
-</div>
+</section>
 
 <section class="section--intro">
 	<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+			<stream src="58bf7b0f3ae662ee1d6b368099c8c94f" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-video.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=58bf7b0f3ae662ee1d6b368099c8c94f"></script>
+		</div>
+    </div>
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
                 <p class="section--paragraph text-center"><span class="avoidwrap"><?php echo $l->t('Meetings with colleagues, customers and partners');?></span> - <span class="avoidwrap"><?php echo $l->t('have a personal conversation with one click.');?></span></p>
                 <p class="section--paragraph text-center"><span class="avoidwrap"><?php echo $l->t('Keep conversations private with Nextcloud Talk.');?></span></p>
                 <div class="text-center">
                     <!--<a href="install/#install-clients" class="button button--blue button--arrow button--large"><?php echo $l->t('Download now');?></a>-->
+                    <!-- <?php echo home_url('pricing') ?>-->
                 </div>
 			</div>
 		</div>
@@ -38,8 +56,8 @@
 <section class="">
 <div class="container">
    	<div class="row">
-		<div class="col-md-6">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-chat-nw.png" class="img-responsive featureimg" /></a>
+        <div class="col-md-6  image--feature new-img">
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-promoted-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-promoted-view.png" class="img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Unique protection');?></p>
@@ -61,7 +79,7 @@
 	<div class="container">
          <div class="row feature-row">
             <div class="col-md-6 image--floated">
-                <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/SCM_team.jpg" alt="SCM picture"/></a>
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/SCM_team.jpg" alt="SCM picture"/>
             </div>
             <div class="col-md-6  feature--block">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Nextcloud Talk offering secure corporate messaging for SCM LIMITED');?></p>
@@ -112,12 +130,10 @@
 		<div class="col-md-6">
         <p class="section--paragraph__tittle"><?php echo $l->t('Why metadata and self hosting matter');?></p>
             <p class="section--paragraph"><?php echo $l->t('Metadata, often described as everything except the content of your communications, has less legal protections but can be incredibly revealing. From a list of who somebody talks to and when, much can be inferred!');?> <a class="hyperlink" href="https://ssd.eff.org/en/module/why-metadata-matters"><?php echo $l->t('The Electronic Frontier Foundation explains it well on their site.');?></a></p>
-            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">So turns out <a href="https://twitter.com/wire?ref_src=twsrc%5Etfw">@wire</a> changed ownership, didn&#39;t really notify anyone as per their own privacy policy, and worst of all it&#39;s to a US entity. It&#39;s been proven time after time we shouldn&#39;t place our data (or trust) into US entities. I used wire because it was different. Cc <a href="https://twitter.com/Snowden?ref_src=twsrc%5Etfw">@Snowden</a> <a href="https://t.co/i2cwAhMaTQ">https://t.co/i2cwAhMaTQ</a></p>&mdash; Peter Sunde Kolmisoppi (@brokep) <a href="https://twitter.com/brokep/status/1194392575442067456?ref_src=twsrc%5Etfw">November 12, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</div>
         <div class="col-md-6">
-            <p class="section--paragraph"><?php echo $l->t('Of course, service providers might promise not to store and track such meta data, but governments will simply force them if need be. This was shown when log-free email provider Posteo was ordered to store logs of its customers by the German Constitutional Court.');?> <a href="https://www.zdnet.com/article/log-free-email-provider-posteo-you-must-log-user-ip-addresses-court-rules/" class="hyperlink"><?php echo $l->t('Read about this on ZDNet.');?></a></p>
-            <p class="section--paragraph"><?php echo $l->t('And that is not even mentioning the fact that even privacy-focused, Swiss-based companies can suddenly be sold to a foreign entity.');?></a></p>
-            <p class="section--paragraph"><?php echo $l->t('Like with the content of communication, the best way to protect metadata is to ensure it never leaks for your infrastructure in the first place.');?></a></p>
+            <p class="section--paragraph"><?php echo $l->t('Of course, service providers might promise not to store and track such meta data, but governments can simply force them if need be. For example, in the UK providers have been forced to record the website visits of their customers.');?> <a target="_blank" href="https://techcrunch.com/2016/11/29/yes-the-uk-now-has-a-law-to-log-web-users-browsing-behavior-hack-devices-and-limit-encryption/" class="hyperlink"><?php echo $l->t('Read about it on Techcrunch.');?></a></p>
+            <p class="section--paragraph"><?php echo $l->t('And that is not even mentioning the fact that even privacy-focused companies can suddenly be sold to a foreign entity. Like with the content of communication, the best way to protect metadata is to ensure it never leaks from your infrastructure in the first place.');?></a></p>
         </div>
     </div>
 </div>
@@ -126,6 +142,7 @@
 
 
 <section class="section--features">
+<a name="features" id="features"></a>
 <div class="container-fluid quote">
     <div class="container">
         <h2 class="text-center"><?php echo $l->t('Key capabilities');?></h2>
@@ -160,7 +177,7 @@
         <div class="row">
             <p class="section--paragraph text-center"><?php echo $l->t('* with optional Nextcloud Talk High Performance Backend');?></p>
             <p class="section--paragraph text-center"><?php echo $l->t('starting at Eur 4000/USD 4500');?></p>
-            <p class="section--paragraph text-center"><a class="button button--medium" href="#pricing"><?php echo $l->t('Learn more');?></a></p>
+            <p class="section--paragraph text-center"><a class="button button--medium" href="#hpb"><?php echo $l->t('Learn more');?></a></p>
         </div>
     </div>
 </div>
@@ -250,7 +267,7 @@
 </div>
 </section>
 
-<section class="section--introduction">
+<section class="section--features-images">
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 image--floated">
@@ -265,8 +282,8 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-nw.png" class="img-responsive featureimg" /></a>
+		<div class="col-md-6  image--feature new-img">
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-view.png" class="img-responsive featureimg" /></a>
 		</div>
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Private, group and public calls');?></p>
@@ -276,21 +293,43 @@
 		</div>
 	</div>
 	<div class="row">
+		<div class="col-md-6  image--floated  image--feature new-img">
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png" class="img-responsive featureimg" /></a>
+		</div>
+        <div class="col-md-6">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Collaboration within Nextcloud');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Documents can be shared directly into a chat from the Files app and are made available to all participants, both users and guests.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Projects integration enables linking of chat rooms with files, calendars, tasks and other resources for easy finding.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Our online office solutions provide a sidebar with Talk for chat and calls with the participants.');?></p>
+            <blockquote class="section--paragraph"><?php echo $l->t('Drag a document into a chat and edit it with other participants during a video call');?></blockquote>
+		</div>
+	</div>
+	<div class="row">
+        <div class="col-md-4">
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-drop-file-in-call.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-drop-file-in-call.png" class="img-responsive featureimg" alt="<?php echo $l->t('Dropping a file in a call in Talk');?>" /></a><br /><?php echo $l->t('Dropping a file in a call in Talk');?>
+        </div>
+        <div class="col-md-4">
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-view-file.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-view-file.png" class="img-responsive featureimg" alt="<?php echo $l->t('Viewing a video during a chat in Talk');?>" /></a><br /><?php echo $l->t('Viewing a video during a chat in Talk');?>
+        </div>
+        <div class="col-md-4">
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png" class="img-responsive featureimg" alt="<?php echo $l->t('Editing a document during a call in Talk');?>" /></a><br /><?php echo $l->t('Editing a document during a call in Talk');?>
+        </div>
+    </div>
+	<div class="row">
 		<div class="col-md-6 image--floated">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
 		</div>
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Webinars and presentations');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Share the content of a single window or a full desktop screen for presentations with chat-partners.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Manage participants by inviting, muting or removing them.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Schedule meetings and be notified when they start.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Edit documents while chatting or having a call in the sidebar.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('A lobby is provided for guests to wait until the call starts.');?></p>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-6  image--feature new-img">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png" class="img-responsive featureimg" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png" class="img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Commands for productivity');?></p>
@@ -300,29 +339,19 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6  image--floated image--feature new-img">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png" class="img-responsive featureimg" /></a>
-		</div>
-        <div class="col-md-6">
-            <p class="section--paragraph__tittle"><?php echo $l->t('Integration with Nextcloud');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Documents can be shared directly into a chat from the Files app and are made available to all participants, both users and guests.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Projects integration enables linking of chat rooms with files, calendars, tasks and other resources for easy finding.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Our online office solutions provide a sidebar with Talk for chat and calls with the participants.');?></p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-6  image--feature">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-devices-nw.png" class="img-responsive featureimg" /></a>
+		<div class="col-md-6  image--floated  image--feature">
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-6-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-6-view.png" class="img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Secure and private');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Calls are end-to-end encrypted so no communication can be intercepted.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Calls are end-to-end encrypted so no communication can be intercepted.');?>*</p>
             <p class="section--paragraph"><?php echo $l->t('Chat logs are stored securely on your own server.');?></p>
             <p class="section--paragraph"><?php echo $l->t('The privacy of communication and its metadata is guaranteed by self-hosting Nextcloud Talk!');?></p>
+            <p class="section--paragraph"><small>* <?php echo $l->t('Individual and group calls are 100% end to end encrypted without the High-performance Backend. When the HPB is used, all calls are routed through it. The HPB is self-hosted as well so no data leaks outside the server.');?></small></p>
 		</div>
 	</div>
     <div class="row">
-        <div class="col-md-6 image--floated">
+        <div class="col-md-6">
         <div data-type="youtube" data-video-id="Pffusr1bac4"></div>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/Pffusr1bac4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
@@ -332,6 +361,16 @@
             <p class="section--paragraph"><?php echo $l->t('Video Verification enforces a Nextcloud Talk video call before access is given to a share, making sure the identity of the recipient is properly checked. The call can be picked up through the Nextcloud Talk Mobile apps as well as the web interface.');?></p>
         </div>
     </div>
+    <div class="row">
+		<div class="col-md-6  image--floated   image--feature new-img">
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/password-less-webauthn.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/password-less-webauthn.png" class="img-responsive featureimg" /></a>
+		</div>
+        <div class="col-md-6">
+            <p class="section--paragraph__tittle"><?php echo $l->t('A platform you can trust');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud Talk benefits from the many security, encryption and authentication capabilities of Nextcloud.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Multi-layered encryption, brute force protection, artificial-intelligence based suspicious login detection, password-less login and the backing of our USD 10.000 security bug bounty program provide customers the confidence that their communication and collaboration remains confidential.');?></p>
+		</div>
+	</div>
 </div>
 </section>
 
@@ -359,8 +398,50 @@
     </div>
 </section>
 
+<section class="section--scalability">
+<a name="scalability" id="scalability"></a>
+<div class="container">
+	<div class="row">
+	<h1 class="text-center"><?php echo $l->t('Scalability');?></h1>
+		<div class="col-md-6 image--floated">
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-P2P.svg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-P2P.svg" class="img-responsive" /></a>
+		</div>
+		<div class="col-md-6">
+			<p class="section--paragraph__tittle"><?php echo $l->t('Easy for private use');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is designed for easy installation and operation. Nextcloud hosts a STUN server to facilitate usage behind firewalls and we recommend the installation of a local TURN server to improve connectivity further. Note that calls get fully routed through a TURN server, causing a lot of network traffic.');?> <a class="hyperlink" href="https://nextcloud-talk.readthedocs.io/en/latest/TURN/"><?php echo $l->t('Find documentation on installing a TURN server here.');?></a></p>
+			<p class="section--paragraph"><?php echo $l->t('The peer to peer nature of Talk does inflate network traffic, creating one incoming and sending stream per other participant. This places practical limitations on calls that depend on network capabilities. A typical private Nextcloud Talk setup should handle dozens of calls with each up to 4-6 participants, up to 20 if all participants have a good network connection and do not use video.');?></p>
+			<p class="section--paragraph"><a href="https://github.com/nextcloud/spreed/#scalability"><?php echo $l->t('If you want to have a call with many people, see tips in our documentation.');?></a></p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-SFU.svg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-SFU.svg" class="img-responsive" /></a>
+		</div>
+		<div class="col-md-6">
+			<p class="section--paragraph__tittle"><?php echo $l->t('Scaling in enterprise setup');?></p>
+			<p class="section--paragraph"><?php echo $l->t('To help with scaling, users can disable video. Sending audio and video, as well as the compute power required to decode the video streams on clients, are the biggest limiting factors, with most asymetric internet connections bottlenecked on upstream bandwidth and laptops and mobile devices especially having trouble decoding multipe 480P/30FPS video streams.');?></p>
+<!-- 			<p class="section--paragraph"><?php echo $l->t('Also note that the current releases of Firefox and Safari have a number of limitations in their handling of online video calls that increase bandwidth use significantly. Using Chrome based browsers decreases the needed bandwidth and allows more participants in a call.');?></p> -->
+			<p class="section--paragraph"><?php echo $l->t('The High Performance Back-end offered by Nextcloud partner Struktur includes a Selective Forward Unit (SFU) which solves this bottleneck by receiving one stream from each user and forwarding it as needed. This allows scaling a single call to about 30-50 active participants, up to hundreds when doing a webinar.');?></p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 image--floated">
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
+		</div>
+		<div class="col-md-6">
+			<p class="section--paragraph__tittle"><?php echo $l->t('Scaling further: webinars, school classes');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Webinars and other large scale broadcasting type calls are possible with hundreds of participants. The High Performance Back-end setup includes special features for this.');?></p>
+			<p class="section--paragraph__tittle"><?php echo $l->t('High Performance Back-end');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The HPB also lowers the load from calls on the Nextcloud server, taking care of \'signaling\' and optionally enables connecting a SIP gate so users can dial in by phone into calls.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The HPB runs on-premises, like Nextcloud itself. Customers should be aware that it has significant dedicated bandwidth and processing needs. The HPB is available through Nextcloud GmbH.');?></p>
+		</div>
+	</div>
+</div>
+</section>
+
+
 <section class="section--options">
-	<a name="pricing" id="pricing"></a>
+<a name="hpb" id="hpb"></a>
 <div class="container-widest">
 	<div class="row introduction">
         <div class="col-lg-6 col-lg-offset-3">
@@ -404,11 +485,12 @@
 </section>
 
 <section class="section--contact quote">
+<a name="pricing" id="pricing"></a>
 <div class="container">
     <div class="row">
         <h2 class="text-center"><?php echo $l->t('Pricing');?></h2>
         <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud Talk High Performance Backend');?></p>
-        <p class="section--paragraph text-center"><?php echo $l->t('providing MCU, STUN, TURN and SIP gate');?></p>
+        <p class="section--paragraph text-center"><?php echo $l->t('providing SFU, STUN, TURN and optional SIP gate');?></p>
     </div>
     <div class="row">
         <div class="col-sm-6">

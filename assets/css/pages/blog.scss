@@ -11,7 +11,7 @@ body {
 }
 
 .background.blog-background {
-	background: url('../../img/headers/dots.png') no-repeat;
+	background: url('../../img/headers/hub_background-thin.png') no-repeat;
 	background-color: #0082c9;
 	background-position: center;
 	background-size: cover;
@@ -204,8 +204,13 @@ section {
 				}
 
 				blockquote {
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                    display: inline;
 					p {
-						display: inline;
+                            display: block;
+                            margin-top: 10px;
+                            margin-left: 31px;
 					}
 				}
 
@@ -223,6 +228,10 @@ section {
 						}
 					}
 				}
+				.row {
+                    padding-top: 40px;
+                    padding-bottom: 20px;
+                }
 
 				figure {
 					border: 1px solid #eee;
@@ -300,7 +309,7 @@ section {
 						max-width: 100%;
 					}
 					@media (max-width: $break-small) {
-							max-width: 70vw;
+							max-width: 100%;
 					}
 				}
 				.size-thumbnail {
@@ -334,7 +343,7 @@ section {
 					max-height: 550px;
 					box-shadow: 0 0 2px 1px #EEE;
 					padding: 5px 5px 5px 5px;
-					article.video-wall {
+					.article.video-wall {
 						@media (min-width: $break-small) {
 							min-width: 0px !important;
 							max-width: 100% !important;
@@ -343,10 +352,18 @@ section {
 								width: 100% !important;
 							}
 						}
+						img {
+                            max-width: 100%;
+                        }
 					}
 					@media (max-width: $break-small) {
-						max-width: 90%;
-						max-height: 90%;
+                        width: 90vw;
+                        height: auto;
+                        box-shadow: 0 0 2px 1px #EEE;
+                        padding: 5px 5px 5px 5px;
+                        float: none !important;
+                        margin: 10px auto !important;
+                        display: block;
 					}
 					img {
 						padding: 5px 5px 5px 5px;
