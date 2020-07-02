@@ -54,23 +54,6 @@ require(["require.config"], function() {
         </div>
         <div class="row feature--block">
             <div class="col-md-5">
-                <a href="https://ownyourbits.com/nextcloudpi/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/box/nextcloudpi.png" class="img-responsive featureimg" /></a>
-            </div>
-            <div class="col-md-7">
-                <h3 class="section--paragraph__title"><?php echo $l->t('NextcloudPi');?></h3>
-                <p class="section--paragraph"><em><?php echo $l->t('Build your own Nextcloud device!');?></em></p>
-                <p class="section--paragraph"><?php echo $l->t('NextCloudPi is a Nextcloud instance that is preinstalled and preconfigured, and includes a management interface with all the tools you need to self host your private data in a single package.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('You can install it on a Raspberry Pi or a variety of other development boards as well as on a standard Debian install that is running on bigger devices like a Intel NUC, old laptop, desktop or a full server.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('NextCloudPi is a community project that aims at making it easier for everyone to have control over their own data. It is free, thriving only on your help, feedback and support!');?></p>
-                <div class="devices-tags">
-                    <span>Do-It-Yourself</span>
-                    <span>Community</span>
-                </div>
-                <a href="https://ownyourbits.com/nextcloudpi/" class="button button--blue button--arrow button--large"><?php echo $l->t('Learn more');?></a>
-            </div>
-        </div>
-        <div class="row feature--block">
-            <div class="col-md-5">
                 <a href="<?php bloginfo('template_directory'); ?>/assets/img/syncloud/syncloud.jpg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/syncloud/syncloud.jpg" class="img-responsive featureimg" /></a>
             </div>
             <div class="col-md-7">
