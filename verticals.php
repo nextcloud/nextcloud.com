@@ -46,7 +46,7 @@
 			<a href="<?php echo home_url('globalscale') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/globalscale-small.jpg" /></a>
 			<div class="row text-center description">
                 <h3 class="section--paragraph__title"><a class="hyperlink" href="<?php echo home_url('globalscale') ?>"><?php echo $l->t('Global scale');?></a></h3>
-                <p class="section--paragraph text-center"><?php echo $l->t('Scale Nextcloud to hundreds of millions of users at comodity cost.');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Scale Nextcloud to hundreds of millions of users at commodity cost.');?></p>
             </div>
 		</div>
 <!--		<div class="col-md-4">
