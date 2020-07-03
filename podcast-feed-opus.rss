@@ -55,7 +55,20 @@
       <link>https://nextcloud.com/blog/introducing-the-nextcloud-podcast/</link>
     </item>
     <!--END REPEAT-->
-
+        <item>
+      <title>Part two of our conversation with Nextcloud designer, Jan</title>
+      <itunes:subtitle>In this episode we continue our conversation and turn towards the subject of design.</itunes:subtitle>
+      <itunes:summary>In this episode we continue our conversation and turn towards the subject of design.</itunes:summary>
+      <itunes:duration>00:50:49</itunes:duration>
+      <description>In this episode we continue our conversation and turn towards the subject of design. What is design, how does Nextcloud do it and why is it so important?</description>
+      <pubDate>Mon, 06 Jul 2020 12:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_002.opus"
+                 type="audio/mpeg" length="33352260"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_002.opus</guid>
+      <link>https://nextcloud.com/blog/introducing-the-nextcloud-podcast/</link>
+    </item>
 
 
     </channel>
