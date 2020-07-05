@@ -36,7 +36,7 @@ require(["require.config"], function() {
         <h4>Currently available</h4>
         <div class="row feature--block">
             <div class="col-md-5">
-                <a href="https://shop.hanssonit.se/product-category/nextcloud/home-sme-server/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/box/nuc2.jpg" class="img-responsive featureimg" /></a>
+                <a href="https://shop.hanssonit.se/product-category/nextcloud/home-sme-server/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/box/nuc10side.jpeg" class="img-responsive featureimg" /></a>
             </div>
             <div class="col-md-7">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Home/SME Server');?></h3>
