@@ -173,15 +173,16 @@
 				<p  class="partnertext">NOBUGS IT GmbH provides IT cloud msp/bsp solutions for small and big businesses in Austria. We are currently located in Terfens, Austria, serving customers all over Tyrol and bordering states. As service providers we believe that managed services are the future. As such, we try to improve a customer’s workflow through approved hard- and software solutions and to preemptively act on system failures to facilitate scalability.</p>
 				<a class="button button--white" href="http://www.nobugs.gmbh/">Learn more</a>
 			</div>
-			<!--<div class="col-md-4">
-				<a href="https://www.omnis-systems.com/en/nextcloud/general-information" target="_blank" title="Omnis Systems">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/omnis.png" title="Omnis Systems" />
-				</a>
-				<p class="partnertext">Omnis Systems Ltd is a Value Added Distributor specialised in promoting a range of complementary enterprise grade and commercially backed Open Source and Linux based solutions.<br> We support partners that want to differentiate themselves by delivering platforms made to increase productivity, security and control on data while providing ease of use and integration.</p>
-			</div>-->
         </div>
 
         <div class="row">
+			<div class="col-md-4">
+				<a href="https://nws.netways.de" target="_blank" title="Netways">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/netways.png" title="Netways" />
+				</a>
+				<p class="partnertext">NETWAYS' expertise is in the data center space, taking care of monitoring and  metrics, automatisation as well as training and support. With the NETWAYS Web Services they run managed services, hosting customer infrastructure, and are expanding in the areas of Open Stack and Kubernetes. With 70 employees and headquartered in Nuremberg, NETWAYS can offer in-depth consulting and advice to customers.</p>
+				<a class="button button--white" href="http://nws.netways.de/">Learn more</a>
+			</div>
 			<div class="col-md-4">
 				<a href="http://open-dsi.fr/" target="_blank" title="Open-DSI">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/opendsi.png" title="open-DSI logo" />
@@ -202,6 +203,9 @@
 				</a>
 				<p  class="partnertext">Sendin is a Dutch company specializing in the storage and shipping of files, building simple solutions so users need no manual. Our clients use our solutions to make their files and documents accessible in the cloud but also for paperless meetings and more.</p>
 			</div>-->
+        </div>
+
+        <div class="row">
 			<div class="col-md-4">
 				<a href="https://www.siedl.net/portfolio/nextcloud" target="_blank" title="Siedl">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/siedl.png" title="siedl logo" />
@@ -209,9 +213,6 @@
 				<p  class="partnertext">Since 2002, Siedl Networks has been delivering innovative and reliable open source IT solutions to companies, schools and non-profits throughout Austria. We help small and medium sized organizations run their on-premises file storage and collaboration solution, monitoring and supporting their infrastructure and taking care of maintenance and backup.</p>
 				<a class="button button--white" href="https://www.siedl.net/portfolio/nextcloud">Learn more</a>
 			</div>
-        </div>
-
-        <div class="row">
 			<div class="col-md-4">
 				<a href="https://nextcloud.stylez.co.jp/" target="_blank" title="Stylez">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/stylez.png" title="stylez logo" />
@@ -227,6 +228,9 @@
 				Our Services and deep industry experiences includes Cloud, Virtualization, Open Source Linux & Network Solutions, Security, Software-Mobile APP & IoT.</p>
 				<a class="button button--white" href="http://sndkcorp.com/">Learn more</a>
 			</div>
+        </div>
+
+        <div class="row">
             <div class="col-md-4">
                 <a href="https://www.teebase.eu" target="_blank" title="Teebase Ltd">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/teebase.png" title="Teebase logo" />
@@ -234,9 +238,6 @@
                 <p  class="partnertext">TeeBase UK Ltd offers an arsenal of devices and services for digital security to protect your data and intellectual property even when using the Internet. Be free from hackers, malware and ransomware that destroy shareholder value and ruin careers.</p>
                 <a class="button button--white" href="https://www.teebase.eu">Learn more</a>
             </div>
-        </div>
-
-        <div class="row">
             <div class="col-md-4">
                 <a href="https://cloud.tab.digital" target="_blank" title="Tab.digital">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/tab.png" title="Tab.digital logo" />
@@ -251,6 +252,10 @@
                 <p class="partnertext">Viakom GmbH is a managed service provider and software development company specializing in ICT solutions for the B2B market. The Viakom experts and specialists from the sister company Nextrag Solutions GmbH combine know-how in the areas of managed service consulting, software development and sales and support. In-house software developments in the area of ​​(Vo)IP technology and monitoring have been in use by well-known telecommunications network operators since 2009.</p>
                 <a class="button button--white" href="https://viakom.de/unsere-produkte/managed-nextcloud/">Learn more</a>
             </div>
+
+        </div>
+
+        <div class="row">
             <!--<div class="col-md-4">
             <a href="https://www.zerotrust.fr" target="_blank" title="Zero Trust">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/zerotrust.png" title="ZeroTrust logo" />
