@@ -11,6 +11,8 @@ require(["require.config"], function() {
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/government.jpg">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/government.jpg">
 <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/government.jpg">
+
+
 </head>
 <div class="healthcare-background second-menu">
     <div class="container-fluid background">
@@ -21,7 +23,6 @@ require(["require.config"], function() {
 			</div>
 		</div>
 	</div>
-
 </div>
 
 <section class="claim">
@@ -100,38 +101,50 @@ require(["require.config"], function() {
 </section>
 
 <section class="section--customers">
-<div class="container">
+<div class="container-widest">
     <h1 class="section--heading-1 text-center"><?php echo $l->t('Some of our customers');?></h1>
     <div class="row">
-		<div class="col-sm-4 customer">
+		<div class="col-sm-4 col-lg-2 col-lg-offset-1 customer">
             <div class="customer-logo">
                 <a href="https://nextcloud.com/blog/german-federal-administration-relies-on-nextcloud-as-a-secure-file-exchange-solution/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/itzbund.png" /></a>
             </div>
         </div>
-		<div class="col-sm-4 customer">
+		<div class="col-sm-4 col-lg-2 customer">
             <div class="customer-logo">
                 <a href="https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/FMI.png" /></a>
             </div>
         </div>
-        <div class="col-sm-4 customer">
+        <div class="col-sm-4 col-lg-2 customer">
             <div class="customer-logo">
                 <a href="https://www.nationaalarchief.nl"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/national_archief.svg" /></a>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-4 customer">
+        <div class="col-sm-4 col-lg-2 customer">
             <div class="customer-logo">
                 <a href="http://www.ville-geneve.ch/welcome-geneva/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/Geneva_city_insignia.gif" /></a>
             </div>
         </div>
-        <div class="col-sm-4 customer">
+        <div class="col-sm-4 col-lg-2 customer">
             <div class="customer-logo">
                 <a href="https://www.mfa.gov.af/"><img class="" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/mfa.png" /></a>
             </div>
         </div>
     </div>
 </div>
+</section>
+
+<section class="section--customerdetail">
+	<div class="container">
+         <div class="row feature-row">
+            <div class="col-md-6">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/mfa.png" alt="in action"/>
+            </div>
+            <div class="col-md-6 feature--block">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Ministry of Foreign Affairs, Afghanistan');?></h3>
+                <p class="section--paragraph"><blockquote><?php echo $l->t('As a government organization, protecting sensitive data is important to us. With Nextcloud we have a self-hosted, well-supported solution that offers great team collaboration while keeping data secure and on-premises');?></blockquote></p>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="section--whitepaper quote">
@@ -227,6 +240,7 @@ require(["require.config"], function() {
         </div>
     </div>
 </section>
+
 <section class="section--customerdetail">
 	<div class="container">
          <div class="row feature-row">
@@ -245,30 +259,7 @@ require(["require.config"], function() {
         </div>
     </div>
 </section>
-<!--
-<section class="section--explanation benefits">
-<div class="container-fluid banner quote">
-    <div class="container">
-        <div class="col-md-6">
-            <h2><?php echo $l->t('What are HIPAA and HITECH');?></h1>
-            <p class="section--paragraph"><?php echo $l->t('The Health Insurance Portability and Accountability Act is a US law designed to provide privacy standards to protect patients\' medical records and other health information provided to health plans, doctors, hospitals and other health care providers.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('HIPAA mandates industry-wide standards for protection and confidentiality of protected health information (PHI), both technical and in terms of processes.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('the HITECH Act widens the scope of privacy and security protections available under HIPAA; it increases the potential legal liability for non-compliance; and it provides for more enforcement.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Learn more:');?>
-            <ul>
-            <li><a class="hyperlink" href="https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/combined-regulation-text/index.html">HIPAA combined regulation text</a></li>
-            <li><a class="hyperlink" href="https://www.hhs.gov/hipaa/for-professionals/faq">HIPAA FAQ</a></li>
-            <li><a class="hyperlink" href="https://www.hhs.gov/hipaa/for-professionals/privacy/index.html">HIPAA privacy rules</a></li>
-            <li><a class="hyperlink" href="https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html">HIPAA security regulations</a></li>
-            <li><a class="hyperlink" href="https://www.hhs.gov/sites/default/files/ocr/privacy/hipaa/administrative/securityrule/techsafeguards.pdf">HIPAA security technical safeguards requirements</a></li>
-            </ul></p>
-            <p class="section--paragraph"><?php echo $l->t('Nextcloud fits seamlessly in a HIPAA compliant infrastructure. <a class="hyperlink" href="#HIPAA">More details below</a>.');?></p>
-        </div>
-        <img class="big-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/medicaldevices.jpeg">
-        <img class="small-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/headers/medicaldevices-small.jpeg">
-    </div>
-</div>
-</section>-->
+
 
 <a name="secure"></a>
 <section class="section--secure">
@@ -349,29 +340,6 @@ require(["require.config"], function() {
     </div>
 </div>
 </section>
-
-
-<!--<section class="section--dicom">
-<div class="container-fluid banner quote">
-    <div class="container">
-        <div class="col-md-6">
-            <h2><?php echo $l->t('A DICOM viewer in Nextcloud');?></h1>
-            <p class="section--paragraph"><?php echo $l->t('Digital Imaging and Communications in Medicine (DICOM)
-            is the international standard to handle medical images, ubiquitous worldwide in radiological imaging devices and systems.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('A third party developed a DICOM viewer for Nextcloud, enabling medical professionals to view and modify DICOM files. It parses and displays patient information, enabling viewing of images with informational overlays including Computed Radiography (CR), Computed Tomography (CT), Digital Radiography (DX), Mammography (MG), and Magnetic Resonance (MR).');?></p>
-            <p class="section--paragraph"><?php echo $l->t('The DICOM viewer is a powerful example of the capabilities of Nextcloud and how it can be extended and integrated to support the workflow of professionals.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Learn more:');?>
-            <ul>
-            <li><a class="hyperlink" href="https://nextcloud.com/blog/digital-imaging-for-medicine-in-nextcloud/"><?php echo $l->t('Introducing the Nextcloud DICOM viewer');?></a></li>
-            <li><a class="hyperlink" href="https://apps.nextcloud.com/apps/dicomviewer"><?php echo $l->t('The DICOM viewer in our App Store');?></a></li>
-            </ul></p>
-        </div>
-        <div class="dicom-img"></div>
-    </div>
-</div>
-</section>-->
-
-
 
 <a name="integrated"></a>
 <section class="section--integrated">
