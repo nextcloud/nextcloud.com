@@ -37,6 +37,20 @@
     <atom:link href="https://nextcloud.com/podcast-feed.rss" rel="self" type="application/rss+xml" />
     <link>https://nextcloud.com/podcast/</link>
 
+    <item>
+      <title>Part two of our conversation with Nextcloud designer, Jan</title>
+      <itunes:subtitle>In this episode we continue our conversation and turn towards the subject of design.</itunes:subtitle>
+      <itunes:summary>In this episode we continue our conversation and turn towards the subject of design.</itunes:summary>
+      <itunes:duration>00:50:49</itunes:duration>
+      <description>In this episode we continue our conversation and turn towards the subject of design. What is design, how does Nextcloud do it and why is it so important?</description>
+      <pubDate>Mon, 06 Jul 2020 12:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_002.mp3"
+                 type="audio/mpeg" length="42824657"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_002.mp3</guid>
+      <link>https://nextcloud.com/blog/nextcloud-podcast-part-ii-lets-talk-about-design/</link>
+    </item>
 <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
     <item>
       <title>Welcome to our first Nextcloud Podcast!</title>
@@ -53,19 +67,5 @@
       <link>https://nextcloud.com/blog/introducing-the-nextcloud-podcast/</link>
     </item>
     <!--END REPEAT-->
-    <item>
-      <title>Part two of our conversation with Nextcloud designer, Jan</title>
-      <itunes:subtitle>In this episode we continue our conversation and turn towards the subject of design.</itunes:subtitle>
-      <itunes:summary>In this episode we continue our conversation and turn towards the subject of design.</itunes:summary>
-      <itunes:duration>00:50:49</itunes:duration>
-      <description>In this episode we continue our conversation and turn towards the subject of design. What is design, how does Nextcloud do it and why is it so important?</description>
-      <pubDate>Mon, 06 Jul 2020 12:00:00 GMT</pubDate>
-      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_002.mp3"
-                 type="audio/mpeg" length="42824657"/>
-      <itunes:author>Nextcloud</itunes:author>
-      <itunes:explicit>no</itunes:explicit>
-      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_002.mp3</guid>
-      <link>https://nextcloud.com/blog/nextcloud-podcast-part-ii-lets-talk-about-design/</link>
-    </item>
     </channel>
 </rss>
