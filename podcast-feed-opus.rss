@@ -58,7 +58,7 @@
       <title>Welcome to our first Nextcloud Podcast!</title>
       <itunes:subtitle>In this episode we introduce the Nextcloud Podcast.</itunes:subtitle>
       <itunes:summary>In this very first episode we introduce our podcast, discussing with Nextcloud designer and community manager Jan Christoph Borchardt what our podcast will be covering going forward.</itunes:summary>
-      <itunes:duration>00:35:59.749</itunes:duration>
+      <itunes:duration>00:35:59</itunes:duration>
       <description>In this very first episode we introduce our podcast, discussing with Nextcloud designer and community manager Jan Christoph Borchardt what our podcast will be covering going forward.</description>
       <pubDate>Fri, 05 Jun 2020 12:00:00 GMT</pubDate>
             <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_001.opus"
