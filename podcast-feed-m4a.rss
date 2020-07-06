@@ -61,7 +61,7 @@
       <description>In this episode we continue our conversation and turn towards the subject of design. What is design, how does Nextcloud do it and why is it so important?</description>
       <pubDate>Mon, 06 Jul 2020 12:00:00 GMT</pubDate>
       <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_002.m4a"
-                 type="audio/mpeg" length="31219556"/>
+                 type="audio/x-m4a" length="31219556"/>
       <itunes:author>Nextcloud</itunes:author>
       <itunes:explicit>no</itunes:explicit>
       <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_002.m4a</guid>
