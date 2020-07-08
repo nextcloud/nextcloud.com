@@ -655,6 +655,14 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
     <h2 class="section--heading-2"><?php echo $l->t('Interviews and blogs');?></h2>
     <p class="section--paragraph"><?php echo $l->t('We regularly cover customer interviews and case studies on our blog.');?></p>
     <ul>
+        <?php $whitepaper_posts = get_posts( array( 'numberposts' => 50, 'category' => get_cat_ID('whitepaper') ) );
+        foreach ($whitepaper_posts as $wpost) { ?>
+            <?php $dat = date_create_from_format('Y-m-d H:i:s', $wpost->post_date); ?>
+            <li><a class="hyperlink" href="<?php echo wp_get_canonical_url($wpost->ID);?>"><?php echo date_format($dat, 'F, j, Y');?> - <?php echo $wpost->post_title;?></a></li>
+        <?php } ; ?>
+    </ul>
+
+<!--    <ul>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/customer-success-story-germanys-public-radio-and-television-deploys-nextcloud/">May 28, 2020 - Customer success story: Germany’s public radio and television deploys Nextcloud</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-and-onlyoffice-improve-user-storage-mobility-and-document-collaboration-in-north-west-university/">May 12, 2020 - Nextcloud and ONLYOFFICE improve user storage mobility and document collaboration in North-West University</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/deges-handling-22-billion-worth-of-complex-infrastructure-projects/">November 11, 2019 - DEGES: handling 22 billion worth of complex infrastructure projects</a></li>
@@ -669,16 +677,13 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
         <li><a class="hyperlink" href="https://nextcloud.com/blog/next-big-open-source-win-capital-of-switzerland-moves-schools-to-nextcloud/">May 16, 2018 - Capital of Switzerland moves schools to Nextcloud</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/a-wave-of-cities-all-over-europe-moving-to-nextcloud/">April 19, 2018 - A wave of cities all over Europe moving to Nextcloud </a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/german-federal-administration-relies-on-nextcloud-as-a-secure-file-exchange-solution">April 18, 2018 - German Federal Administration relies on Nextcloud as a secure file exchange solution</a></li>
-<!--         <li><a class="hyperlink" href="https://nextcloud.com/blog/partner-casestudy-intel-onapp-is-the-cloud-your-organization-needs/">March 28, 2018 - Partner Case Study: Intel OnApp is the cloud your organization needs</a></li> -->
         <li><a class="hyperlink" href="https://nextcloud.com/blog/one-of-the-organizations-behind-panama-papers-uses-nextcloud/">February 28, 2018 - One of the organizations behind reporting on the Panama Papers uses Nextcloud</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/the-capital-of-albania-moves-to-nextcloud/">July 25, 2017 - The capital of Albania moves to Nextcloud</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/">July 12, 2017 - 9 German Educational and Research institutions move to Nextcloud as part of TU Berlin migration, more coming</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/veiligheidsregio-brabant-zuidoost-moving-to-nextcloud/">March 30, 2017 - Veiligheidsregio Brabant-Zuidoost: moving to Nextcloud</a></li>
         <li><a class="hyperlink" href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/">February 16, 2017 - 3000 users at ucloud4schools migrated to Nextcloud 11 by regio iT</a></li>
-<!--         <li><a class="hyperlink" href="https://nextcloud.com/blog/privacy-is-the-main-reason-to-pick-the-nextcloud-solution-netcloud-ag/">February 8, 2017 - Privacy is the main reason to pick the Nextcloud solution: Netcloud AG</a></li> -->
-<!--         <li><a class="hyperlink" href="https://nextcloud.com/blog/sendin-ceo-nextcloud-is-the-best-solution-that-the-market-offers-nowadays/">December 29, 2016 - Nextcloud is the best solution that the market offers nowadays: CEO Sendin</a></li> -->
         <li><a class="hyperlink" href="https://nextcloud.com/blog/the-danish-research-and-education-network-moves-from-owncloud-to-nextcloud/">September 29, 2016 - The Danish research and education network moves from ownCloud to Nextcloud</a></li>
-    </ul>
+    </ul>-->
 </section>
 
 <div class="container-fluid quote">
