@@ -44,19 +44,15 @@
 
         <div class="row featurerow">
             <div class="col-md-6 image--floated image--feature">
-                <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-nw.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-nw.png" alt="in action" /></a>
+                <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-email-share-link.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-email-share-link.png" alt="in action" /></a>
             </div>
             <div class="col-md-6 featureblock">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Secure data and lower costs');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('The Secure Sharing Outlook Add-in takes away the IT headache caused by risky attachments.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Storing and sharing files securely through Nextcloud ensures company policies on data availability, retention and safety can be enforced. This enables system administrators for example to make sure attachments are run through the virus scanner, certain file types are protected from being shared outside the company or that retention policies are followed.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Another significant advantage for IT departments is the savings in storage space for email servers. The add-in negates the need for storing large amounts of attachments in multiple email boxes and decreases network traffic.');?></p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <p class="text-center"><?php echo $l->t('Improve communication and collaboration today. Contact us to learn how we can help you.');?></p>
-                <div class="text-center morebuttondiv">
+                 <p class="section--paragraph"><?php echo $l->t('Improve communication and collaboration today. Contact us to learn how we can help you.');?></p>
+                <div class="morebuttondiv">
                     <a href="<?php echo home_url('buy') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
                 </div>
             </div>
@@ -69,15 +65,7 @@
     <div class="container">
         <h2 class="text-center"><?php echo $l->t('Key benefits');?></h2>
         <div class="row featurerow">
-            <div class="col-md-offset-1 col-md-6">
-                <p class="section--paragraph">
-                <ul>
-                    <li><?php echo $l->t('Protect files with password and expiration date');?></li>
-                    <li><?php echo $l->t('Use File Access Control to limit access by unauthorized users');?></li>
-                    <li><?php echo $l->t('Use Workflow to automatically remove attachments after a set time');?></li>
-                </ul></p>
-            </div>
-            <div class="col-md-5">
+            <div class="col-md-offset-1 col-md-5">
                 <p class="section--paragraph">
                 <ul>
                     <li><?php echo $l->t('Keep inbox growth under control');?></li>
@@ -85,10 +73,76 @@
                     <li><?php echo $l->t('Easily share file upload links');?></li>
                 </ul></p>
             </div>
+            <div class="col-md-6">
+                <p class="section--paragraph">
+                <ul>
+                    <li><?php echo $l->t('Protect the content and attachments of mails with Secure Mail');?></li>
+                    <li><?php echo $l->t('Use File Access Control to limit access by unauthorized users');?></li>
+                    <li><?php echo $l->t('Use Workflow to automatically remove attachments after a set time');?></li>
+                </ul></p>
+            </div>
         </div>
     </div>
 </div>
 </section>
+
+
+<section class="section--file-sharing">
+	<div class="container">
+        <div class="row featurerow">
+            <div class="col-md-6 image--feature">
+                    <iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/PZs7-qGkupk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6 featureblock">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Features');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in turns email attachments into Nextcloud links, manually or automatically. It can insert upload links where the recipient of the email can upload files to. Users can add passwords and expiration dates, the admin can enforce setting these if needed.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('New users can enjoy the user-friendly setup dialog to get going, and the Upload Files / Share Public Folder option is directly available in the ‘message’ tab.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The Add-in can be configured to automatically upload all attachments the user added to an email starting from a configurable size, for example, all files over 200kb.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Users can also use the easy file selection dialog to insert links to files on their Nextcloud storage.');?></p>
+            </div>
+        </div>
+        <div class="row featurerow">
+            <div class="col-md-6 image--feature image--floated">
+                  <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-secure-email.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-secure-email.png" alt="in action" /></a>
+            </div>
+            <div class="col-md-6 featureblock">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Secure Mailbox');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('The Secure Mailbox feature protects the content as well as attachments from emails. It uploads the email body and can automatically create guest accounts for recipients. With account protections like 2-factor authentication, brute-force protection and suspiscious login detection, this provides the level of security that banks, notaries or hospitals need to exchange confidential information with their clients or patients.');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Other features:');?></h3>
+                <ul>
+                    <li><?php echo $l->t('Users can pick files from the local desktop or from the Nextcloud server');?></li>
+                    <li><?php echo $l->t('Activity tracker notifies sender about file uploads/downloads');?></li>
+                    <li><?php echo $l->t('App follows server policy enforcement options');?></li>
+                    <li><?php echo $l->t('App features customizable upload path');?></li>
+                    <li><?php echo $l->t('Domain whitelisting');?></li>
+                    <li><?php echo $l->t('Multi Language support');?></li>
+                    <li><?php echo $l->t('Branding');?></li>
+                    <li><?php echo $l->t('Server app for configuration');?></li>
+                </ul>
+                <p class="section--paragraph"><?php echo $l->t('The add-in works with Microsoft Outlook 2010, 2013, 2016 and 2020 for Windows.');?></p>
+            </div>
+        </div>
+	</div>
+</section>
+
+<section class="section--file-sharing">
+	<div class="container">
+        <div class="row featurerow">
+            <div class="col-md-4 image--feature">
+                <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-share-files-uploading.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-share-files-uploading.png" alt="in action" /></a> <br /><?php echo $l->t('Uploading files');?>
+            </div>
+            <div class="col-md-4 image--feature">
+                <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-share-files-password.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-share-files-password.png" alt="in action" /></a><br /><?php echo $l->t('Setting a password');?>
+            </div>
+            <div class="col-md-4 image--feature">
+                <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-configuration-server-app.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-configuration-server-app.png" alt="in action" /></a><br /><?php echo $l->t('Configuration in the Nextcloud app');?>
+            </div>
+        </div>
+	</div>
+</section>
+
+</section>
+
 
 <section>
 <div class="container">
@@ -103,17 +157,7 @@
     </div>
     <div class="row">
         <div class="col-md-6">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-writing-the-email.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-writing-the-email.png" alt="Secure Mailbox - Writing an email" class="img-responsive"></a><br />
-            <?php echo $l->t('Writing an email');?>
-        </div>
-        <div class="col-md-6">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-attaching-files-and-enabling-secure-mailbox-.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-attaching-files-and-enabling-secure-mailbox-.png" alt="Secure Mailbox - attaching files" class="img-responsive"></a><br />
-            <?php echo $l->t('Attaching files, enabling Secure Mailbox');?>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure_mailbox-email-as-it-will-be-send-to-recipient.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-email-as-it-will-be-send-to-recipient.png" alt="Secure Mailbox - Email as it will be sent to recipient" class="img-responsive"></a><br />
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-secure-email.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-secure-email.png" alt="Secure Mailbox - Email as it will be sent to recipient" class="img-responsive"></a><br />
             <?php echo $l->t('Email as it will be sent to recipient');?>
         </div>
         <div class="col-md-6">
@@ -121,48 +165,7 @@
             <?php echo $l->t('Recipient view in Secure Mailbox in Nextcloud');?>
         </div>
     </div>
-    <!--<div class="row">
-        <div class="col-md-6 col-md-offset-3">
-            <div data-type="youtube" data-video-id="nueL_hzDp-s"></div>
-            <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/nueL_hzDp-s" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div>-->
 </div>
-</section>
-
-<section class="section--file-sharing">
-	<div class="container">
-        <div class="row featurerow">
-            <div class="col-md-6 image--feature">
-                    <iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/PZs7-qGkupk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-            <div class="col-md-6 featureblock">
-                <h3 class="section--paragraph__title"><?php echo $l->t('Features');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in turns email attachments into Nextcloud links, manually or automatically. It can insert upload links where the recipient of the email can upload files to. Users can add passwords and expiration dates, the admin can enforce setting these if needed.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('New users can enjoy the user-friendly setup dialog to get going, and the Upload Files / Share Public Folder option is directly available in the ‘message’ tab.');?></p>
-                <p class="section--paragraph"><?php echo $l->t('The Add-in can be configured to automatically upload all attachments the user added to an email starting from a configurable size, for example, all files over 200kb.');?></p>
-            </div>
-        </div>
-        <div class="row featurerow">
-            <div class="col-md-6 image--feature image--floated">
-                    <iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/S40EeolyUU4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-            <div class="col-md-6 featureblock">
-                <h3 class="section--paragraph__title"><?php echo $l->t('Other features:');?></h3>
-                <ul>
-                    <li><?php echo $l->t('Activity tracker notifying about file uploads/downloads');?></li>
-                    <li><?php echo $l->t('Policy enforcement options');?></li>
-                    <li><?php echo $l->t('Customizable upload path');?></li>
-                </ul>
-                <ul>
-                    <li><?php echo $l->t('Domain whitelisting');?></li>
-                    <li><?php echo $l->t('Multi Language support');?></li>
-                    <li><?php echo $l->t('Branding');?></li>
-                </ul>
-                <p class="section--paragraph"><?php echo $l->t('The add-in works with Microsoft Outlook 2010, 2013 and 2016 for Windows.');?></p>
-            </div>
-        </div>
-	</div>
 </section>
 
 <section class="section--whitepaper quote">
@@ -208,13 +211,16 @@
         </div>
         <div class="row featurerow">
             <div class="col-md-8 col-md-offset-2">
-            <h3 class="section--paragraph__title"><?php echo $l->t('Two versions of the Outlook Add-in: Free and Enterprise.');?></h3>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Version comparison');?></h3>
+            <p class="section--paragraph"><?php echo $l->t('There are four versions of the Outlook Add-in: Free, Basic, Professional and Premium.');?></p>
                 <table class="table">
                     <thead>
                         <tr>
                             <th></th>
-                            <th><?php echo $l->t('Free version');?></th>
-                            <th><?php echo $l->t('Enterprise version');?></th>
+                            <th><?php echo $l->t('Free');?></th>
+                            <th><?php echo $l->t('Basic');?></th>
+                            <th><?php echo $l->t('Professional');?></th>
+                            <th><?php echo $l->t('Premium');?></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -222,9 +228,13 @@
                             <th scope="row"><?php echo $l->t('Upload large files to your Nextcloud server');?></th>
                             <td class="text-center green">✔</td>
                             <td class="text-center green">✔</td>
+                            <td class="text-center green">✔</td>
+                            <td class="text-center green">✔</td>
                         </tr>
                         <tr>
                             <th scope="row"><?php echo $l->t('Pausing uploads');?></th>
+                            <td class="text-center green">✔</td>
+                            <td class="text-center green">✔</td>
                             <td class="text-center green">✔</td>
                             <td class="text-center green">✔</td>
                         </tr>
@@ -232,30 +242,56 @@
                             <th scope="row"><?php echo $l->t('Set expiration date');?></th>
                             <td class="text-center green">✔</td>
                             <td class="text-center green">✔</td>
+                            <td class="text-center green">✔</td>
+                            <td class="text-center green">✔</td>
                         </tr>
                         <tr>
                             <th scope="row"><?php echo $l->t('Automatically upload attachments');?></th>
                             <td class="text-center red">❌</td>
+                            <td class="text-center green">✔</td>
+                            <td class="text-center green">✔</td>
                             <td class="text-center green">✔</td>
                         </tr>
                         <tr>
                             <th scope="row"><?php echo $l->t('Shared link custom password');?></th>
                             <td class="text-center red">❌</td>
                             <td class="text-center green">✔</td>
-                        </tr>
-                        <tr>
-                            <th scope="row"><?php echo $l->t('Custom look for shared links via HTML');?></th>
-                            <td class="text-center red">❌</td>
+                            <td class="text-center green">✔</td>
                             <td class="text-center green">✔</td>
                         </tr>
                         <tr>
                             <th scope="row"><?php echo $l->t('Enterprise deployment capabilities');?></th>
                             <td class="text-center red">❌</td>
                             <td class="text-center green">✔</td>
+                            <td class="text-center green">✔</td>
+                            <td class="text-center green">✔</td>
                         </tr>
                         <tr>
                             <th scope="row"><?php echo $l->t('Activity Tracker');?></th>
                             <td class="text-center red">❌</td>
+                            <td class="text-center green">✔</td>
+                            <td class="text-center green">✔</td>
+                            <td class="text-center green">✔</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><?php echo $l->t('Nextcloud app for central configuration');?></th>
+                            <td class="text-center red">❌</td>
+                            <td class="text-center green">✔</td>
+                            <td class="text-center green">✔</td>
+                            <td class="text-center green">✔</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><?php echo $l->t('Custom look for shared links via HTML');?></th>
+                            <td class="text-center red">❌</td>
+                            <td class="text-center red">❌</td>
+                            <td class="text-center green">✔</td>
+                            <td class="text-center green">✔</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><?php echo $l->t('Secure Mail');?></th>
+                            <td class="text-center red">❌</td>
+                            <td class="text-center green">❌</td>
+                            <td class="text-center green">❌</td>
                             <td class="text-center green">✔</td>
                         </tr>
                     </tbody>
