@@ -201,7 +201,7 @@
 	<div class="container">
         <div class="row featurerow">
             <div class="col-md-6 image--feature image--floated">
-                <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-publiclink-nw.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-publiclink-nw.png" alt="in action" /></a>
+                <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-pick-date-public-share.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-pick-date-public-share.png" alt="in action" /></a>
             </div>
             <div class="col-md-6 featureblock">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Free for home users');?></h3>
