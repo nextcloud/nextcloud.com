@@ -29,6 +29,7 @@
 			<p class="section--paragraph">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
 			<p class="section--paragraph">The event is taking place as a LIVE online event!</a></p>
 			<p class="section--paragraph"><a href="https://eventyay.com/e/0917096d" class="button button--arrow button--large button--blue">Get your ticket</a>  <a href="https://eventyay.com/e/0917096d/cfs" class="button button--arrow button--large button--blue">Submit a talk</a>
+			<h3>As 2020 is the year of working from home, our theme this year is <strong>#HomeOffice</strong></h3>
 			<p>Everyone who has signed up will get information on how to participate. If you don't sign up you can follow the live stream but you won't have an account that allows you to interact with other participants!</p>
 			<a href="https://nextcloud.com/livestream" class="button button--arrow button--large button--blue">Live stream</a>
 			<!--<a href="https://eventyay.com/e/70d8ad61/schedule" class="button button--arrow button--blue">Schedule</a> <a href="https://eventyay.com/e/70d8ad61/sessions/s/all" class="button button--arrow button--blue">Sessions</a> <a href="https://eventyay.com/e/70d8ad61/speakers" class="button button--arrow button--blue">Speakers</a>-->
@@ -71,6 +72,12 @@
                 </ul>
             </div>
 		</div>
+		<div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+            <p class="section--paragraph">This year our theme and inspiration is <strong>working from home</strong> - at your <strong>home office</strong>! Below a nice video explaining why #Nextcloud is awesome for #homeoffice.</p>
+            <stream src="4b66104c586170a4dc5b6ebbed80b193" controls preload poster="https://nextcloud.com/media/Home-Office-video-thumb.jpg"></stream> <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=4b66104c586170a4dc5b6ebbed80b193"></script>
+        </div>
+    </div>
         <div class="row text-center">
             <h2 class="">Program overview</h2>
 		</div>
