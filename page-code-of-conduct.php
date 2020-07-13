@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/code-of-conduct.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/code-of-conduct.css?v=1" rel="stylesheet">
 </head>
 <section class="hero-section second-menu">
 	<div class="background contributors-background">
@@ -12,28 +12,32 @@
 	</div>
 </section>
 
+<section class="section--main">
 <div class="container">
-	<div class="col-md-8 col-md-offset-2">
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <h2 class="section--paragraph__tittle"><?php echo $l->t('Preamble');?></h2>
 
-  <h2 class="section--paragraph__tittle"><?php echo $l->t('Preamble');?></h2>
-
-	<p class="section--paragraph"><?php echo $l->t('In the Nextcloud community, participants from all over the world come together to create Free Software for a free internet. This is made possible by the support, hard work and enthusiasm of thousands of people, including those who create and use Nextcloud software.');?></p>
-	<p class="section--paragraph"><?php echo $l->t('This document offers some guidance to ensure Nextcloud participants can cooperate effectively in a positive and inspiring atmosphere, and to explain how together we can strengthen and support each other.');?></p>
-  <p class="section--paragraph"><?php echo $l->t('This Code of Conduct is shared by all contributors and users who engage with the Nextcloud team and its community services.');?></p>
-
+        <p class="section--paragraph"><?php echo $l->t('In the Nextcloud community, participants from all over the world come together to create Free Software for a free internet. This is made possible by the support, hard work and enthusiasm of thousands of people, including those who create and use Nextcloud software.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('This document offers some guidance to ensure Nextcloud participants can cooperate effectively in a positive and inspiring atmosphere, and to explain how together we can strengthen and support each other.');?></p>
+        <p class="section--paragraph"><?php echo $l->t('This Code of Conduct is shared by all contributors and users who engage with the Nextcloud team and its community services.');?></p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
   <h2 class="section--paragraph__tittle"><?php echo $l->t('Overview');?></h2>
 
   <p class="section--paragraph"><?php echo $l->t('This Code of Conduct presents a summary of the shared values and “common sense” thinking in our community. The basic social ingredients that hold our project together include:');?></p>
 
   <ul>
-		<li class="section--paragraph"><?php echo $l->t('- Be considerate');?></li>
-		<li class="section--paragraph"><?php echo $l->t('- Be respectful');?></li>
-		<li class="section--paragraph"><?php echo $l->t('- Be collaborative');?></li>
-    <li class="section--paragraph"><?php echo $l->t('- Be pragmatic');?></li>
-    <li class="section--paragraph"><?php echo $l->t('- Support others in the community');?></li>
-    <li class="section--paragraph"><?php echo $l->t('- Get support from others in the community');?></li>
+		<li class="checkmark"><?php echo $l->t('Be considerate');?></li>
+		<li class="checkmark"><?php echo $l->t('Be respectful');?></li>
+		<li class="checkmark"><?php echo $l->t('Be collaborative');?></li>
+        <li class="checkmark"><?php echo $l->t('Be pragmatic');?></li>
+        <li class="checkmark"><?php echo $l->t('Support others in the community');?></li>
+        <li class="checkmark"><?php echo $l->t('Get support from others in the community');?></li>
 	</ul>
-
+    <h3><?php echo $l->t('Our community');?></h3>
   <p class="section--paragraph"><?php echo $l->t('Our community is made up of several groups of individuals and organizations which can roughly be divided into two groups:');?></p>
 
   <ul>
@@ -87,9 +91,9 @@
   <p class="section--paragraph"><?php echo $l->t('The authors of this document would like to thank the Nextcloud community and those who have worked to create such a dynamic environment to share in and who offered their thoughts and wisdom in the authoring of this document. We would also like to thank other vibrant communities that have helped shape this document with their own examples, especially KDE.');?></p>
   </div>
 </div>
+</section>
   <div class="calltoaction">
 		<h1 class="section--heading-2 section--text--center"><?php echo $l->t('Let\'s make Nextcloud Rock!');?></h1>
 		<p class="section--paragraph section--text--center"><?php echo $l->t('You can <a class="hyperlink" href="/contribute/">get involved, too</a>.');?></p>
   </div>
 </div>
-</section>
