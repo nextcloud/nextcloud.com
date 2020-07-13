@@ -16,7 +16,7 @@
 		<div class="container">
 			<div class="col-md-6 topheader">
 				<h1>Nextcloud Conference 2020 - </h1>
-				<h2>Live@#HomeOffice</h2>
+				<h2>Virtual space@#HomeOffice</h2>
 			</div>
 		</div>
 	</div>
@@ -25,12 +25,12 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
-			<h3 class="section--paragraph__title">October 3-4, <a class="hyperlink" href="https://www.bum.berlin/">bUm</a>/LIVE! online</h3>
+			<h3 class="section--paragraph__title">October 3-4, <a class="hyperlink" href="https://www.bum.berlin/">bUm</a>/live virtual online space 🛰</h3>
 			<p class="section--paragraph">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
-			<p class="section--paragraph">The event is taking place as a LIVE online event!</a></p>
+			<p class="section--paragraph">The event is taking place as a live online event space 🛰👾</a></p>
 			<p class="section--paragraph"><a href="https://eventyay.com/e/0917096d" class="button button--arrow button--large button--blue">Get your ticket</a>  <a href="https://eventyay.com/e/0917096d/cfs" class="button button--arrow button--large button--blue">Submit a talk</a>
 			<h3>As 2020 is the year of working from home, our theme this year is <strong>#HomeOffice</strong></h3>
-			<p>Everyone who has signed up will get information on how to participate. If you don't sign up you can follow the live stream but you won't have an account that allows you to interact with other participants!</p>
+			<p>Everyone who has signed up will get information on how to participate. 👾 If you don't sign up you can follow the live 🛰 stream but you won't have an account that allows you to interact with other participants!</p>
 			<a href="https://nextcloud.com/livestream" class="button button--arrow button--large button--blue">Live stream</a>
 			<!--<a href="https://eventyay.com/e/70d8ad61/schedule" class="button button--arrow button--blue">Schedule</a> <a href="https://eventyay.com/e/70d8ad61/sessions/s/all" class="button button--arrow button--blue">Sessions</a> <a href="https://eventyay.com/e/70d8ad61/speakers" class="button button--arrow button--blue">Speakers</a>-->
             <!--<p class="section--paragraph">The conference is over! Nearly 250 participants over 3 days and over 1500 viewers on our livestream shared a great experience and we want to thank everybody involved for their participation.<br />
@@ -61,14 +61,14 @@
             <div class="col-md-8 col-md-offset-2">
                 <p class="section--paragraph">Due to the current 😷 crisis, the conference will be a bit different this year. We want to facilitate the same sharing of ideas and collaboration as we always do, in a remote-friendly way. Our plan is as follows:</p>
                 <ul>
-                    <li class="checkmark">Participants get an account on the Nextcloud conference server 👤</li>
-                    <li class="checkmark">You participate through a LIVE <a class="hyperlink" href="<?php echo home_url('talk') ?>">Talk</a>  📽 🗒️ video and text chat</li>
-                    <li class="checkmark">Every talk is followed by a LIVE Q&A ❓ session</li>
-                    <li class="checkmark">Your questions guide our LIVE interviews 🎤 with speakers and sponsors</li>
-                    <li class="checkmark">Ask questions at our LIVE 🗣️ virtual booths </li>
-                    <li class="checkmark">We stream LIVE pictures 📷 a live blog and social media</li>
-                    <li class="checkmark">Team chats 👥, LIVE workshops and much more!</li>
-                    <li class="checkmark">Join our PARTY 🎉 - a relaxed, casual chat about the <em>meaning of LIVE</em> <small>(42)</small></li>
+                    <li class="checkmark">Participants 👾 get an account on the Nextcloud conference server 👤</li>
+                    <li class="checkmark">You participate through a live 🛰 <a class="hyperlink" href="<?php echo home_url('talk') ?>">Talk</a>  📽 🗒️ video and text chat</li>
+                    <li class="checkmark">Every talk is followed by a live 🛰 Q&A ❓ session</li>
+                    <li class="checkmark">Your questions guide our live 🛰 interviews 🎤 with speakers and sponsors</li>
+                    <li class="checkmark">Ask questions at our live 🛰 🗣️ virtual booths </li>
+                    <li class="checkmark">We stream live 🛰 pictures 📷 a live blog and social media</li>
+                    <li class="checkmark">Team chats 👥, live 🛰 workshops and much more!</li>
+                    <li class="checkmark">Join our PARTY 🎉 - a relaxed, casual chat about the <em>meaning of live</em> 🛰👾 <small>(42)</small></li>
                 </ul>
             </div>
 		</div>
@@ -110,10 +110,10 @@
             19:00 - <strong>🎉 Party time</strong>
             </td>
             <td>break day!</td>
-            <td>Hackweek</td>
-            <td>Hackweek</td>
-            <td>Hackweek</td>
-            <td>Hackweek</td>
+            <td>🛰👾 Hackweek</td>
+            <td>🛰👾 Hackweek</td>
+            <td>🛰👾 Hackweek</td>
+            <td>🛰👾 Hackweek</td>
             </tr></tbody>
             </table>
             <div class="row text-center">
@@ -186,8 +186,8 @@
 <section class="section--call-for-papers">
 <div class="container">
 	<div class="row text-center">
-		<h3 class="section--paragraph__title ">We have opened our call for papers!</h3>
-		<p class="section--paragraph ">You're invited to contribute your thoughts to our event.</p>
+		<h3 class="section--paragraph__title ">We have opened our call for papers!<br />👾 unite and submit talks!</h3>
+		<p class="section--paragraph ">You're invited to contribute your thoughts to our event for remote transmission 🛰</p>
 		<div class="text-center morebuttondiv ">
 			<a href="https://eventyay.com/e/0917096d/cfs" class="button button--large button--blue button--arrow">Submit a talk</a>
 		</div>
