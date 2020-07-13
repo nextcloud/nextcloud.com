@@ -68,7 +68,7 @@
                     <li class="checkmark">Ask questions at our LIVE 🗣️ virtual booths </li>
                     <li class="checkmark">We stream LIVE pictures 📷 a live blog and social media</li>
                     <li class="checkmark">Team chats 👥, LIVE workshops and much more!</li>
-                    <li class="checkmark">Join our PARTY 🎉 - a relaxed, casual chat about the <em>meaing of life</em> <small>(42)</small></li>
+                    <li class="checkmark">Join our PARTY 🎉 - a relaxed, casual chat about the <em>meaning of LIVE</em> <small>(42)</small></li>
                 </ul>
             </div>
 		</div>
