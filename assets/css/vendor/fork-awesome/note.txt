@@ -1,0 +1,1 @@
+fonts are actually in assets/fonts, the fonts folder here is from the original fontawesome. if you get a new version of fontawesome, replace the assets in the assets/fonts folder too!

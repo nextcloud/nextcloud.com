@@ -21,49 +21,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 	 * Pages that still use the old layout and haven't been migrated
 	 */
 	$oldPages = [
-		'404',
-		'5years',
 // 		'about',
-		'advisories',
-		'advisory',
-		'agreement',
-		'android',
-		'appform',
-		'appform-submit',
-		'apply',
-		'apply2',
-		'changelog',
-		'code-of-conduct',
-// 		'collaboraonline',
-		'community',
-// 		'conf',
-		'conference-program',
-		'confinfo',
-		'confsubscribe',
-		'connect',
-		'consulting',
-		'contact',
-// 		'contactform',
-// 		'contactsubmit',
-// 		'contribute',
-// 		'contributors',
-// 		'design',
-		'desktop',
-//		'devices',
-// 		'events',
-		'faq',
-		'federation',
-		'hackathon',
-		'history',
-		'impressum',
-		'install',
-		'install-backup',
-		'meetups',
-		'news',
-		'newsletter',
-		'nine',
-		'pidrive',
-		'policy',
 		'pr20160602',
 		'pr20160614',
 		'pr20160705',
@@ -84,37 +42,8 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 		'pr20170807',
 		'pr20170824',
 		'pr20170927',
-        'pr20171018',
-        'pr20180108',
-        'pr20180111',
-        'pr20180111-2',
-        'pr20180123',
-        'pr20180206',
-		'press',
-		'privacy',
-		'promote',
-		'providers',
-// 		'providersubmit',
-//		'release-channels',
-// 		'salessubmit',
-// 		'securesharesubmit',
-// 		'securesharing',
-		'security',
-// 		'sharing',
-		'speaking',
-		'spreedbox',
-// 		'support',
-// 		'team',
-		'thanks',
-		'thankyou',
-// 		'ordersubmit',
-		'theming',
-		'threat-model',
-		'trademarks',
-		'translation',
+    'pr20171018',
 		'user',
-//		'webrtc',
-// 		'workflow'
 
 	];
 	function is_blog()
@@ -126,7 +55,7 @@ if(is_page('oc-news') || is_page('blogfeed')) {
 
 	$currentPage = strtolower(get_post()->post_name);
 	$oldPage = true;
-	if (in_array($currentPage, $oldPages) || is_blog()) {
+	if (in_array($currentPage, $oldPages)) {
 		// It's an old page, use the old template
 		ob_clean();
 		ob_start();
@@ -200,9 +129,14 @@ $echoed = false;
 $hl = '';
 $path = parse_url(site_url())['path'];
 $language = explode('/', substr($_SERVER['REQUEST_URI'], strlen($path)));
-if(isset($language[1]) && $language[1] === 'de') {
-	$hl = strtolower((string)$language[1]);
-	if (ctype_alnum($hl) && strlen($hl) === 2) {
+if(isset($language[1])) {  // check if language is set.
+	if (strlen($hl) == 2) {
+	$hl = strtolower((string)$language[1]); // lowercase two-character country codes
+	} else {
+	$hl = (string)$language[1];
+	}
+	// check if $hl is either a 2-character alphanumeric code or a regexp matched, 5-character xx_YY style code
+	if ( (ctype_alnum($hl) && strlen($hl) === 2) || (preg_match("/^[a-z]{2}_[A-Z]{2}/",$language[1]) && strlen($hl) == 5) ) {
 		$l10nFiles = [
 			get_post()->post_name,
 			'header-navbar',
@@ -222,9 +156,11 @@ if(isset($language[1]) && $language[1] === 'de') {
 			}
 			if(!is_array($translatedFile) || !is_array($originalFile)) {
 				$storeToCache = false;
-			}
-
-			if (array_keys($translatedFile) !== array_keys($originalFile)) {
+			} else if (
+				is_array($translatedFile)
+				&& is_array($originalFile)
+				&& array_keys($translatedFile) !== array_keys($originalFile)
+			) {
 				$storeToCache = false;
 			}
 		}

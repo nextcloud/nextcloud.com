@@ -1,0 +1,134 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+@import '../modules/left-pill-bar';
+
+.security-background {
+    background-image: url("../../img/security/security.jpg");
+    background-position: bottom 0 right 0;
+
+    .topheader {
+        h1 {
+            margin-top: 0;
+        }
+    }
+}
+
+/* All headers */
+
+.featureblock {
+    padding-top: 100px;
+    .img-responsive {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 36px;
+        margin-bottom: 17px;
+    }
+
+    .features--container {
+        padding-top: 100px;
+        display: inline-block;
+
+        .section--paragraph {
+            padding-bottom: 10px;
+        }
+
+        .feature {
+            padding: 15px 0;
+
+            .icon {
+                margin-top: 15px;
+				margin-bottom: 3px;
+            }
+
+            .section--paragraph {
+                padding-bottom: 5px;
+                padding-top: 10px;
+            }
+        }
+    }
+
+    @media  (max-width: $break-small) {
+        .screenshot {
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+    }
+
+    h2 {
+        color: #2a2a36;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    h3 {
+        text-align: left;
+        font-size: 30px;
+    }
+
+    .row {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+section {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+/* security badges */
+
+.section--encryption {
+    padding: 0;
+    .container-fluid {
+    position: relative;
+        .container-widest {
+            padding: 60px 0;
+        }
+        .cover {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 40%;
+            background-image: url("../../img/features/attack_tree_virus.png");
+            background-position: top center;
+            background-size: cover;
+            @media  (max-width: $break-big) {
+                display: none;
+            }
+        }
+    }
+    ul {
+        li {
+            list-style-image: url("../../img/enterprise/check.svg");
+        }
+    }
+}
+
+.section--sharing {
+    ul {
+        li {
+            list-style-image: url("../../img/enterprise/check-blue.svg");
+        }
+    }
+}
+
+.section--bounties {
+	.quote-by {
+		margin-top: -35px;
+		margin-bottom: 30px;
+	}
+	@media  (min-width: $break-big) {
+		.notitle {
+			margin-top: 100px;
+		}
+    }
+}
+
+
+.section--getstarted {
+    margin: 70px 0 0 0;
+    padding-bottom: 0;
+}

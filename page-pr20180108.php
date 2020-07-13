@@ -1,3 +1,21 @@
+<head>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pressrelease.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+
+<div class="background generic-background">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 topheader">
+                <h1>Press release</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="section--pressrelease">
+<div class="container">
+<div class="row">
 <div class="pr">
 <h1>100K app downloads in 2017 shows strong growth of self-hosted online office market</h1>
 
@@ -37,3 +55,7 @@ Jona Azizaj<br />
 e-mail: <a href="mailto:jona.azizaj@collabora.com">jona.azizaj@collabora.com
 </p>
 </div>
+
+</div>
+</div>
+</section>

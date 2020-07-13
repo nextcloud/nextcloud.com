@@ -1,0 +1,202 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+
+.compare-individual-background {
+    background-image: url("../../img/headers/vdr.jpg");
+    background-position: bottom 0 right 0;
+}
+
+section {
+    ul {
+        padding-left: 30px;
+    }
+    li {
+        /* 			list-style-type: circle; */
+        list-style-image: url("../../img/enterprise/check-blue.svg");
+        /* 		list-style-position:inside; */
+    }
+}
+
+.section--overview {
+    .row {
+        margin-top: 60px;
+    }
+}
+
+.section--capabilities {
+    .row {
+        margin-top: 60px;
+    }
+	.logo {
+		max-width: 100px;
+	}
+	.fa-times {
+		color: red !important;
+        font-size: 25px;
+	}
+	.fa-check {
+		color: #16e300 !important;
+        font-size: 25px;
+	}
+	.tooltip {
+        position: relative;
+        border-bottom: 1px dotted black;
+    }
+    .tooltip span {
+        visibility: hidden;
+        width: 200px;
+        background-color: rgba(25, 25, 25, 0.80);
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 9;
+        top: 40px;
+        left: -110px;
+        margin-left:1em;
+        opacity: 0;
+        transition: opacity 1s;
+    }
+    .tooltip .tooltiptext::after {
+        content: " ";
+        position: absolute;
+        bottom: 100%;  /* At the top of the tooltip */
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent rgba(25, 25, 25, 0.80) transparent;
+    }
+    .tooltip input {
+        display:none;
+    }
+    .tooltip input:checked+span {
+        visibility: visible;
+        opacity: 1;
+    }
+
+}
+
+
+.section--customers {
+/* 	max-width: 100%; */
+	position: relative;
+	padding-top: 0;
+	margin-top: 0;
+	.container-fluid {
+		height: 160px;
+		overflow: hidden;
+		padding-top: 0;
+		margin-top: 0;
+		padding-bottom: ms(1);
+		width: 100%;
+/* 		max-width: 1600px; */
+		overflow-x: hidden;
+		.row {
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 5px;
+			.customer {
+				position: relative;
+				height: 150px;
+				position: relative;
+				.customer-logo {
+					display: inline-block;
+					-webkit-filter: saturate(0%) contrast(0.4) brightness(100%);
+					filter: saturate(0%) contrast(0.4) brightness(100%);
+		/* 			line-height: 400px; */
+					text-align: center;
+					vertical-align: middle;
+					img {
+						padding: 5px;
+						display: inline;
+						height: 150px;
+						max-width: 90%;
+						vertical-align: middle;
+					}
+					.scaling-svg-container {
+		/* 				position: relative; */
+						height: 0;
+						width: 100%;
+						padding: 0;
+						padding-bottom: 100%;
+						/* override this inline for aspect ratio other than square */
+						}
+					svg {
+						position: absolute;
+						height: 100%;
+						width: 100%;
+				/* 		max-width: 50vw; */
+						left: 0;
+						top: 0;
+						}
+		/*			svg {
+						vertical-align: middle;
+						float:none;
+						width: auto;
+						height: 400px;
+						padding-bottom: 100px;
+					}*/
+				}
+			}
+		}
+	}
+}
+
+.section--integrated {
+    .container {
+        .section--heading-1 {
+            padding-bottom: 0px;
+        }
+        .efficiency--ilustration {
+            background: url(../../img/globalscale/splitup.svg) no-repeat center/contain;
+            height: 600px;
+            max-width: 100%;
+            max-height: 60vw;
+            margin: 0 auto;
+            position: relative;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.section--details {
+    .row {
+        margin-top: 60px;
+    }
+}
+
+.section--features {
+/*	background-color: #eee;*/
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin: 0 0 0 0;
+
+	.container-widest .row {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.section--heading-1 {
+		padding-bottom: 60px;
+	}
+	i[class*='fa-'] {
+	font-size: 60px;
+	display: block;
+	color: #0082c9;
+	text-align: center;
+	padding-top: 20%;
+	}
+
+	row {
+		padding: 0px;
+	}
+}
+
+footer {
+    margin-top: 0px;
+}

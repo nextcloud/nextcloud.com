@@ -1,6 +1,29 @@
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -9,7 +32,7 @@
 .section-top-jumbotron {
   background-color: #252323;
   position: relative; }
-  .section-top-jumbotron .container h2 {
+  .section-top-jumbotron .container h1 {
     color: white;
     padding: 150px 0 75px 0;
     line-height: 1.4; }
@@ -25,7 +48,8 @@
   background-color: white;
   height: 100%;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  padding-top: 250px; }
   .section-data-home h2 {
     padding-top: 280px; }
   .section-data-home p {
@@ -74,7 +98,10 @@
     .section-getbox .container .wrapper-text h2 {
       color: white; }
     .section-getbox .container .wrapper-text p {
-      padding-top: 10px; }
+      padding-top: 10px;
+      color: white; }
+      .section-getbox .container .wrapper-text p a {
+        color: white; }
     .section-getbox .container .wrapper-text .btn-primary {
       margin-top: 20px; }
       .section-getbox .container .wrapper-text .btn-primary:before {

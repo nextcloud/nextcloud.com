@@ -8,13 +8,12 @@
   min-height: 600px;
   max-height: 800px;
   position: relative;
-  opacity: 0;
 
   h1 {
     padding-top: 0;
     color: white;
-    opacity: 0;
     transform: translateY(50px);
+    text-shadow: 0px 0px 10px #333;
   }
 
   h2 {
@@ -22,19 +21,56 @@
     font-size: 20px;
     line-height: 1.6;
     text-shadow: 0px 0px 10px #333;
-    opacity: 0;
     transform: translateY(50px);
+    font-weight: 400;
   }
 
   .topheader {
-    position: absolute;
-    top: 30%;
-    margin: 0;
+/*     position: absolute; */
+/*     top: 30%; */
+    margin-top: 200px;
     padding: 0;
     max-width: 600px;
-    opacity: 0;
   }
+    .topsidebar {
+        margin-top: 200px;
+        opacity: 1;
+        .sidebarlist {
+            padding: 30px 20px 30px 20px;
+            opacity: 1;
+            width: 400px;
+            margin-left: auto;
+            margin-right: 0px;
+            .header {
+                background-color: #d3d3d3e8;
+                border-radius: 50px 50px 0 0;
+                color: black;
+                margin-bottom: 0;
+                font-size: 28px;
+                padding: 30px 50px 30px 50px;
+            }
+            .content {
+                padding: 10px;
+                margin-top: 0;
+                color: black;
+                background-color: #ffffffe8;
+                border-radius: 0 0 50px 50px;
+                ul {
+                    padding: 0 40px 0 70px;
+                    li {
+                        list-style-image: url("../img/enterprise/check.svg");
+                        /*                     list-style-position: inside; */
+                    }
+                }
+                .button {
+                    width: 300px;
+                    margin: 20px;
+                }
+            }
+        }
+    }
 }
+
 
 /* make sure a hero section doesn't have a padding on top either */
 .hero-section {

@@ -153,7 +153,7 @@ define(['jquery', 'lodash', 'enquire', 'bodymovin', 'headroom', 'headroomJquery'
 				},
 
 				backgroundDropdown: function(event) {
-					var cssPadding = 30,
+					var cssPadding = 10,
 						bg = $(this.variables.navBackgroundSelector),
 						bgWrapper = $(this.variables.navBackgroundWrapper),
 						selectedDropdown = $(event.currentTarget).find(this.variables.linksSelector),
@@ -162,7 +162,7 @@ define(['jquery', 'lodash', 'enquire', 'bodymovin', 'headroom', 'headroomJquery'
 						windowWidth = $(this.variables.navigationSelector).outerWidth(),
 						navigationWidth = $('.nav .container').outerWidth(),
 						marginNavigation = (windowWidth - navigationWidth) / 2,
-						backgroundDropdownPosition = $(event.currentTarget).offset().left + cssPadding + ($(event.currentTarget).innerWidth() - cssPadding) /2 - width/2 - marginNavigation;
+						backgroundDropdownPosition = $(event.currentTarget).offset().left + 5 + ($(event.currentTarget).innerWidth() - cssPadding) /2 - width/2 - marginNavigation;
 
 					setTimeout(_.bind(this.setBackgroundDropdown, this, bg));
 					bgWrapper.addClass(this.variables.linksVisibleClass);

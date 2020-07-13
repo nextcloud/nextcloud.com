@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>The Nextcloud Podcast</title>
+    <pubDate>Mon, 08 Jun 2020 12:00:00 GMT</pubDate>
+    <googleplay:author>Nextcloud</googleplay:author>
+    <language>en</language>
+    <copyright>All rights reserved</copyright>
+    <itunes:author>Nextcloud</itunes:author>
+    <itunes:owner>
+        <itunes:name>Nextcloud GmbH</itunes:name>
+        <itunes:email>podcast@nextcloud.com</itunes:email>
+    </itunes:owner>
+    <itunes:subtitle>Stay up to date with the Nextcloud community!</itunes:subtitle>
+    <itunes:summary>The Nextcloud Podcast interviews Nextcloud community members, contributors, users and others, keeping you up to date on what is happening.</itunes:summary>
+    <description>The Nextcloud Podcast interviews Nextcloud community members, contributors, users and others, keeping you up to date on what is happening.</description>
+    <googleplay:image href="https://nextcloud.com/media/nextcloud-podcast-logo.png"/>
+    <itunes:image href="https://nextcloud.com/media/nextcloud-podcast-logo.png" />
+    <image>
+        <url>https://nextcloud.com/media/nextcloud-podcast-logo.png</url>
+        <title>Nextcloud podcast logo</title>
+        <link>https://nextcloud.com/podcast</link>
+    </image>
+    <googleplay:category text="Technology"/>
+    <itunes:category text="Technology"/>
+    <itunes:category text="Business">
+        <itunes:category text="Entrepreneurship" />
+    </itunes:category>
+     <itunes:category text="News">
+        <itunes:category text="Tech News" />
+    </itunes:category>
+    <itunes:keywords>Nextcloud, open source, self-hosting, cloud, community, programming, privacy, security</itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <atom:link href="https://nextcloud.com/podcast-feed-m4a.rss" rel="self" type="application/rss+xml" />
+    <link>https://nextcloud.com/podcast/</link>
+
+        <item>
+      <title>Part two of our conversation with Nextcloud designer, Jan</title>
+      <itunes:subtitle>In this episode we continue our conversation and turn towards the subject of design.</itunes:subtitle>
+      <itunes:summary>In this episode we continue our conversation and turn towards the subject of design.</itunes:summary>
+      <itunes:duration>00:50:49</itunes:duration>
+      <description>In this episode we continue our conversation and turn towards the subject of design. What is design, how does Nextcloud do it and why is it so important?</description>
+      <pubDate>Mon, 06 Jul 2020 12:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_002.m4a"
+                 type="audio/x-m4a" length="31219556"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_002.m4a</guid>
+      <link>https://nextcloud.com/blog/nextcloud-podcast-part-ii-lets-talk-about-design/</link>
+    </item>
+<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+    <item>
+      <title>Welcome to our first Nextcloud Podcast!</title>
+      <itunes:subtitle>In this episode we introduce the Nextcloud Podcast.</itunes:subtitle>
+      <itunes:summary>In this very first episode we introduce our podcast, discussing with Nextcloud designer and community manager Jan Christoph Borchardt what our podcast will be covering going forward.</itunes:summary>
+      <itunes:duration>00:35:59</itunes:duration>
+      <description>In this very first episode we introduce our podcast, discussing with Nextcloud designer and community manager Jan Christoph Borchardt what our podcast will be covering going forward.</description>
+      <pubDate>Fri, 05 Jun 2020 12:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_001.m4a"
+                 type="audio/x-m4a" length="22135297"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_001.m4a</guid>
+      <link>https://nextcloud.com/blog/introducing-the-nextcloud-podcast/</link>
+    </item>
+    <!--END REPEAT-->
+
+
+    </channel>
+</rss>

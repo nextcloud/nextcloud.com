@@ -1,0 +1,147 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.include-background {
+  background-image: url("../../img/headers/include.jpg");
+  background-size: cover;
+  background-position: center; }
+
+section {
+  padding: 50px 0 50px; }
+  section .section--heading-1 {
+    padding-bottom: 50px; }
+  section .section--paragraph--tittle {
+    padding: 0; }
+  section p {
+    padding-bottom: 10px; }
+  section .ilustration {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px; }
+    section .ilustration svg {
+      display: block !important;
+      height: 300px !important;
+      width: auto !important;
+      margin-left: auto !important;
+      margin-right: auto !important; }
+
+.section--overview p {
+  margin-top: 20px; }
+
+.section--team {
+  padding-top: 80px;
+  /* 	display: inline-block; */ }
+  .section--team .section--heading-1 {
+    padding: 80px 0 30px 0;
+    text-align: center; }
+  .section--team .teamgroup {
+    padding-top: 100px;
+    width: 95%;
+    max-width: 1600px; }
+  .section--team .teamgroup .featuretitle {
+    text-align: center; }
+  .section--team .teamp {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 7%;
+    padding-top: 30px;
+    padding-bottom: 5px; }
+  .section--team .teamimg {
+    width: 50%;
+    display: block;
+    margin: 0 auto !important; }
+  .section--team .teamname {
+    text-align: center;
+    font-size: 28px; }
+  .section--team .teammeta {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+    color: #777;
+    line-height: 1; }
+  .section--team .teamtitle {
+    margin: 6px;
+    font-size: 22px; }
+  .section--team h4 {
+    color: #9c9c9c; }
+  .section--team .teamexpertise {
+    margin: 2px;
+    font-size: 14px; }
+  .section--team .teamlocation {
+    margin: 2px;
+    font-size: 14px; }
+  .section--team .teamsocial {
+    margin: 15px;
+    font-size: 30px;
+    height: 40px; }
+    .section--team .teamsocial i[class*='fa-'] {
+      color: #9c9c9c !important; }
+  .section--team .teamsocial a {
+    color: #AAA;
+    transition: all .2s; }
+  .section--team .teamsocial a:hover {
+    color: #0082C9; }
+  .section--team .teamdescription {
+    margin: 20px; }
+  .section--team .teamp {
+    min-height: 400px; }
+  @media (max-width: 2000px) {
+    .section--team .teamp {
+      min-height: 380px; } }
+  @media (max-width: 1910px) {
+    .section--team .teamp {
+      min-height: 370px; } }
+  @media (max-width: 1450px) {
+    .section--team .teamp {
+      min-height: 390px; } }
+  @media (max-width: 1200px) {
+    .section--team .teamp {
+      min-height: 430px; } }
+  @media (max-width: 991px) {
+    .section--team .teamp {
+      min-height: auto; } }
+
+.section--background .feature-row {
+  padding-bottom: 60px; }
+
+.call-to-action {
+  margin: 80px 0 0px 0;
+  padding: 50px 0px;
+  background: #0082c9;
+  color: white; }
+  .call-to-action h1 {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 30px; }
+  .call-to-action a {
+    color: white; }
+
+/*# sourceMappingURL=include.css.map */

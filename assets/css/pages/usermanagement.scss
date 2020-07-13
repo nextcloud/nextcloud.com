@@ -13,14 +13,10 @@
 	}
 }
 
-.image--floated {
-	float: right;
-}
-
 section {
 	padding: 100px 0;
 
-	.section--paragraph__tittle {
+	.section--paragraph__title {
 		padding: 0;
 	}
 }
@@ -30,11 +26,11 @@ section {
 }
 
 .section--builtin {
-    padding-bottom: 0;
+/*     padding-bottom: 0; */
 }
 
 .section--more {
-    padding-bottom: 0;
+/*     padding-bottom: 0; */
 }
 
 .row {
@@ -45,6 +41,3 @@ section {
     text-align: center;
 }
 
-footer {
-    margin-top: 0px;
-}

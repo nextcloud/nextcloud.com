@@ -1,0 +1,40 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+.contributors-background {
+  background: url("../../img/headers/code-of-conduct.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer.page-footer {
+	margin-top: 0;
+}
+
+.section--main {
+    li.checkmark {
+        /* 			list-style-type: circle; */
+        list-style-image: url("../../img/enterprise/check-blue.svg");
+        /* 		list-style-position:inside; */
+    }
+}
+
+
+.calltoaction {
+	margin-top: 50px;
+	background-color: $nextcloud-blue;
+	padding: 50px 0;
+	color: white;
+
+	.section--heading-2 {
+		color: white;
+	}
+
+	.section--paragraph {
+		color: white;
+	}
+
+	.hyperlink {
+		color: white;
+	}
+}

@@ -7,9 +7,6 @@
   background-size: cover;
 }
 
-.image--floated{
-	float: right;
-}
 
 .section--federation {
 	padding-top: 80px;
@@ -18,7 +15,7 @@
 section {
 	padding: 100px 0;
 
-	.section--paragraph__tittle {
+	.section--paragraph__title {
 		padding: 0;
 	}
 }
@@ -29,4 +26,17 @@ section {
 
 .row {
 	padding-top: 60px;
+}
+
+.section--sharing {
+    ul {
+        li {
+            list-style-image: url("../../img/enterprise/check-blue.svg");
+        }
+    }
+}
+
+
+.section--appstore {
+    padding-bottom: 0;
 }

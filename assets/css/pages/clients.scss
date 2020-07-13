@@ -9,7 +9,7 @@
 
 section {
 	padding: 50px 0;
-	.section--paragraph__tittle {
+	.section--paragraph__title {
 		padding: 0;
 	}
 	.row {
@@ -33,9 +33,9 @@ section {
 	}
 }
 
-.section--mobile {
+.section--mobile, .section--ios {
 	.container {
-		.row {
+		.row.vertical-image-list {
 			overflow: hidden;
 			img {
 				margin: 30px auto;

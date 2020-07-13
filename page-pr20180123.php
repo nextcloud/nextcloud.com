@@ -1,3 +1,21 @@
+<head>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pressrelease.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+
+<div class="background generic-background">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 topheader">
+                <h1>Press release</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="section--pressrelease">
+<div class="container">
+<div class="row">
 <div class="pr">
 <h1>Nextcloud secure file sync and share now available via GEANT and NRENs to educational market</h1>
 
@@ -31,3 +49,7 @@ D-70173 Stuttgart, Germany<br />
 e-mail: <a href="mailto:pr@nextcloud.com">pr@nextcloud.com</a><br /><br />
 </p>
 </div>
+
+</div>
+</div>
+</section>

@@ -1,23 +1,86 @@
 @import '../variables';
 @import '../modules/transparent-navbar';
+
+
 .conf-background {
   background: url("../../img/headers/team.jpg") no-repeat;
   background-position: center;
   background-size: cover;
+  .topheader {
+		.hyperlink {
+			color: white;
+			text-decoration: none;
+			font-weight: 500;
+			border-bottom: solid 1px;
+			transition: all 0.5s ease;
+			text-decoration: none;
+			:hover {
+				color: #f0f0f0;
+				border-bottom: solid 2px;
+			}
+		}
+	}
 }
 
+section {
+    padding: 50px 0 50px;
+    .section--heading-1 {
+        padding-bottom: 50px;
+    }
+    .section--paragraph--tittle {
+        padding: 0;
+    }
+    .row {
+        padding: 20px 0 20px 0;
+    }
+}
 
 .section--intro {
-	margin: 120px 0;
 	text-align: center;
 
-	.section--paragraph__tittle {
+	.section--paragraph__title {
 	padding: 5px 0 0 0;
 	}
 
 	.section--paragraph {
 		padding: 5px 0 15px 0;
 	}
+
+	img {
+	width: 50%;
+/* 	max-width: 30vw; */
+/* 	max-height: 30vh; */
+	}
+
+}
+
+.section--program {
+    .overflow {
+        overflow-y: auto;
+        .fixbox {
+            width: 1120px
+        }
+        th,td  {
+            border-top: none;
+            padding: 12px;
+            text-align: center;
+        }
+        .left {
+            text-align: left;
+        }
+    }
+}
+
+.section--speakers-keynote {
+    background: url('../../img/conference/keynotespeakers.jpg');
+    height:500px;
+    background-size:cover;
+    background-position: center;
+    h1 {
+        text-shadow: 0px 0px 7px #000;
+        color: white;
+        margin-top:300px;
+    }
 }
 
 .section--info {
@@ -50,6 +113,18 @@
 	}
 }
 
+.section--speakers-community {
+    background: url('../../img/conference/communityspeakers.jpg');
+    height:500px;
+    background-size:cover;
+    background-position: center;
+    h1 {
+        text-shadow: 0px 0px 7px #000;
+        color: white;
+        margin-top:300px;
+    }
+}
+
 /*.section--call-for-papers {
 	margin: 50px 0 50px 0;
 	padding: 50px 0px;
@@ -63,17 +138,20 @@
 }*/
 
 .section--details {
-    margin: 120px 0 60px 0;
+    padding: 120px 0 60px 0;
 	.row {
-        margin: 80px 0 40px 0;
+        padding: 40px 0 20px 0;
+	}
+	img {
+		margin-top: 45px;
 	}
 }
 
 
-.section--fridayfocus {
-    margin: 100px 0 100px 0;
+.section--enterprise {
+/*     margin: 100px 0 100px 0; */
     padding: 80px 0 50px 0;
-    background-image: url('../../img/conference/workshop.jpg');
+    background-image: url('../../img/conference/enterprise-wide-2.jpg');
     background-size: cover;
     background-position: center;
     /*   @media (max-width: $break-small) { */
@@ -105,23 +183,28 @@
     }
 
     .section--heading-1 {
-        width: 469px;
         color: white;
-
+        width: 469px;
         @media (max-width: $break-small) {
-            color: white;
             width: 100%;
         }
     }
 
     .section--paragraph {
-        color: #ffffff;
+        color: white;
         width: 469px;
-        padding-top: 30px;
-        padding-bottom: 30px;
         @media (max-width: $break-small) {
             width: 90%;
             padding-top: 10px;
+        }
+    }
+}
+
+.section--partners {
+    .col-sm-4 {
+        max-width: 300px;
+        .svg-logo {
+/*             width: 100%; */
         }
     }
 }

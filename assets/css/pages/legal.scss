@@ -3,6 +3,7 @@
 @import '../vendor/modular-scale/modular-scale';
 @import '../modules/transparent-gradient';
 
+
 .legal-background {
   background: url("../../img/headers/legal.jpg") no-repeat;
   background-position: center;
@@ -98,24 +99,7 @@ section {
 .section--overview {
 }
 
-.section--explanation {
-	i[class*='fa-'] {
-	font-size: 60px;
-	display: block;
-	color: #ffffff;
-	text-align: center;
-	padding-top: 20%;
-	}
-	.row {
-		padding: 5px 0 5px 0;
-	}
-	p.section--paragraph {
-		padding: 0;
-	}
-	p {
-		padding: 0;
-	}
-}
+
 
 .section--on-premise {
 }
@@ -140,11 +124,6 @@ section {
   .container {
     padding-top: ms(5);
     padding-bottom: ms(5);
-
-    .section--intro {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
 
     .distribution--ilustration {
       background: url(../../img/globalscale/balancer.svg) no-repeat center/contain;
@@ -210,6 +189,22 @@ section {
 }
 
 .section--explanation {
+    i[class*='fa-'] {
+        font-size: 60px;
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 20%;
+    }
+    .row {
+        padding: 5px 0 5px 0;
+    }
+    p.section--paragraph {
+        padding: 0;
+    }
+    p {
+        padding: 0;
+    }
     .banner {
         background-color: $nextcloud-blue;
         position: relative;
@@ -269,10 +264,6 @@ section {
 
 .section--integrated {
     .container {
-        .section--intro {
-            max-width: ms(9);
-            margin: 0 auto;
-        }
         .section--heading-1 {
             padding-bottom: 0px;
         }
@@ -300,10 +291,6 @@ section {
 		padding-bottom: 20px;
 		margin-left: 15px;
 		margin-right: 15px;
-		.section--intro {
-			max-width: ms(9);
-			margin: 0 auto;
-		}
 	}
 	.section--heading-1 {
 		padding-bottom: 60px;

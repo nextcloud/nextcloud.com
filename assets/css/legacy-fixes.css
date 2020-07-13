@@ -1,2 +1,52 @@
-html{margin-top:0 !important}footer p{padding:0 !important;padding-top:20px !important}.navbar:not(.scrolled) .btn-primary{border-color:white}@media (max-width: 1200px){.Header-Navigation .navbar .overlay-menu ul .btn-primary a{padding:0 !important}}
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
+/**
+ * This file contains fixes for legacy pages
+ */
+html {
+  margin-top: 0 !important; }
+
+footer p {
+  padding: 0 !important;
+  padding-top: 20px !important; }
+
+.navbar:not(.scrolled) .btn-primary {
+  border-color: white; }
+
+.collapse.in p:first-child,
+.collapsing p:first-child {
+  margin: 0; }
+
+.Header-Navigation .navbar .overlay-menu ul .btn-primary a {
+  /*   width: 169px; */
+  /*   height: 52px; */
+  /*   bottom: 4px; */ }
+  @media (max-width: 1200px) {
+    .Header-Navigation .navbar .overlay-menu ul .btn-primary a {
+      padding: 0 !important; } }
+
 /*# sourceMappingURL=legacy-fixes.css.map */

@@ -6,6 +6,11 @@
   background-size: cover;
 }
 
+section {
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
 .featurerow {
 	margin-top: 100px;
 	padding-bottom: 50px;
@@ -34,14 +39,18 @@
 	}
 }
 
-.quote {
-	margin: 80px 0 50px 0;
+.section--file-sharing {
+    ul {
+        list-style-type: none;
+    }
+}
+
+.section--benefits {
+	margin: 50px 0;
 	padding: 50px 0px;
-	background: $nextcloud-blue;
-	p {
-		color: white;
-	}
-	.hyperlink {
-		color: white;
+	li {
+		list-style-image: url("../../img/enterprise/check.svg");
+		list-style-position: inside;
 	}
 }
+

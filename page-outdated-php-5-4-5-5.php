@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/outdated.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/outdated.css?v=1" rel="stylesheet">
 </head>
 
 <div class="background outdated-background">
@@ -16,7 +16,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<p class="section--paragraph__tittle"><?php echo $l->t('Update for your Nextcloud');?></p>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Update for your Nextcloud');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Dear Nextcloud user,');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Our update check has noticed that your server is running PHP 5.4 or PHP 5.5. Nextcloud releases newer than version 10 do not support these PHP releases. We no longer provide public bug and security fixes to Nextcloud 10.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Running a Nextcloud release without security and stability updates puts your data at risk. We strongly recommend to upgrade to Nextcloud 11 at the earliest convenience. This version requires at least PHP 5.6 on your server.');?></p>

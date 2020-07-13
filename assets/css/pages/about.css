@@ -1,6 +1,29 @@
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -20,53 +43,91 @@ section {
   section .section--heading-1 {
     padding: 80px 0 30px 0;
     text-align: center; }
-  section .section--intro {
-    font-weight: 600;
-    padding-top: 30px;
-    color: #2a2a36; }
-    @media (max-width: 768px) {
-      section .section--intro {
-        text-align: left !important; } }
   section .newsrow {
     margin-top: 70px;
     margin-bottom: 30px; }
     section .newsrow .col-md-4 {
-      padding: 15px; }
+      padding: 15px;
+      position: relative; }
+      section .newsrow .col-md-4 span {
+        /* 				margin-top: -50px; */
+        color: #6c6c6c;
+        border-bottom: none;
+        text-decoration: none;
+        position: absolute;
+        top: 50%;
+        padding: 0 20px 0 10px;
+        font-size: 120%; }
 
-.section--products {
-  margin: 80px 0 0 0;
-  padding: 90px 0 70px 0;
-  background-color: #eee; }
-  .section--products .row {
-    margin-bottom: 10px; }
-  .section--products img {
-    padding: 20px; }
-  .section--products .description {
-    min-height: 100px;
-    margin: 0 20px; }
-    .section--products .description .title {
-      display: block;
-      padding: 5px 10px 0 0;
-      font-size: 18px;
-      /*             color: white; */ }
-      .section--products .description .title .logo {
-        width: 65px;
-        min-height: 25px;
-        float: left;
-        vertical-align: middle; }
-        .section--products .description .title .logo img {
-          margin-top: 0px;
-          padding: 4px 5px 0 0;
-          height: 60px;
-          width: 60px; }
-      .section--products .description .title .text {
-        line-height: 1;
-        padding: 10px 0 10px 0; }
-        .section--products .description .title .text strong {
-          line-height: 1.2;
-          font-weight: normal;
-          font-size: 22px; }
-        .section--products .description .title .text small {
-          opacity: 0.8; }
+.section--differentiators .floating--quote--container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 40px 30px 40px;
+  background: #FFFFFF;
+  border: 1px solid #FCFCFC;
+  box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
+  margin: 30px 20px; }
+  @media (min-width: 991px) {
+    .section--differentiators .floating--quote--container {
+      float: right;
+      width: 40%;
+      min-width: 300px; } }
+  .section--differentiators .floating--quote--container blockquote {
+    font-style: italic;
+    font-size: 1.6em;
+    margin: 0; }
+.section--differentiators .quote--container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px 15px 20px;
+  background: #FFFFFF;
+  border: 1px solid #FCFCFC;
+  box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
+  margin: 20px 5%; }
+  @media (min-width: 991px) {
+    .section--differentiators .quote--container {
+      width: 90%; } }
+.section--differentiators .floating--quote--container .quote--brand, .section--differentiators .quote--container .quote--brand {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .section--differentiators .floating--quote--container .quote--brand .quote--spiegel--logo, .section--differentiators .quote--container .quote--brand .quote--spiegel--logo {
+    background: url("../../img/history/der-spiegel-logo.png") no-repeat center/contain;
+    width: 200px;
+    height: 70px; }
+  .section--differentiators .floating--quote--container .quote--brand .quote--handelsblatt--logo, .section--differentiators .quote--container .quote--brand .quote--handelsblatt--logo {
+    background: url("../../img/history/handelsblatt.webp") no-repeat center/contain;
+    width: 240px;
+    height: 70px; }
+  .section--differentiators .floating--quote--container .quote--brand .quote--register--logo, .section--differentiators .quote--container .quote--brand .quote--register--logo {
+    background: url("../../img/history/the_register.png") no-repeat center/contain;
+    width: 240px;
+    height: 70px; }
+  .section--differentiators .floating--quote--container .quote--brand .quote--nextinpact--logo, .section--differentiators .quote--container .quote--brand .quote--nextinpact--logo {
+    background: url("../../img/history/nextinpact.png") no-repeat center/contain;
+    width: 240px;
+    height: 70px; }
+  .section--differentiators .floating--quote--container .quote--brand .quote--androidpolice--logo, .section--differentiators .quote--container .quote--brand .quote--androidpolice--logo {
+    background: url("../../img/history/androidpolice.png") no-repeat center/contain;
+    width: 200px;
+    height: 90px; }
+  .section--differentiators .floating--quote--container .quote--brand .quote--wired--logo, .section--differentiators .quote--container .quote--brand .quote--wired--logo {
+    background: url("../../img/history/wired.png") no-repeat center/contain;
+    width: 200px;
+    height: 90px; }
+
+.img-responsive {
+  padding-top: 10px; }
+  @media (min-width: 991px) {
+    .img-responsive {
+      margin-bottom: 50px; } }
+  @media (min-width: 1600px) {
+    .img-responsive {
+      /* 	margin-bottom: 0px; */ } }
 
 /*# sourceMappingURL=about.css.map */

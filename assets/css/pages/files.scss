@@ -1,32 +1,26 @@
 @import '../variables';
 @import '../modules/transparent-navbar';
 
+
 .files-background {
 	background: url('../../img/headers/yourcloud.jpg') no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
-@media (max-width $break-small) {
-	.image--feature {
-		margin-top: 10px;
-	}
-}
-
-.featureimg {
-	@media (min-width: $break-big) {
-		margin-bottom: 200px;
-	}
-
-	@media (min-width: $very-wide) {
-		margin-bottom: 100px;
-	}
-}
-
-
 section {
-	margin: 180px 0;
+    margin: 50px 0;
 }
+
+.section--intro {
+    p {
+        margin-top: 20px;
+    }
+    .video .video-js {
+        background-color: transparent !important;
+    }
+}
+
 
 .section--hosting {
 }
@@ -72,63 +66,6 @@ section {
 	}
 }
 
-.section--compliance {
-	.banner {
-        background-color: $nextcloud-blue;
-        position: relative;
-        overflow: hidden;
-		.col-md-6 {
-			padding: 40px 0;
-		}
-		li,p,h2,h3 {
-        color: white;
-		}
-
-        .hyperlink {
-            color: white;
-        }
-
-        .row {
-			padding: 0px 0px;
-		}
-
-        .fa {
-            color: white;
-            padding-right: 10px;
-        }
-
-        .learnmore {
-            padding: 20px 0px;
-			.col-sm-6 {
-				padding: 20px 0px;
-			}
-        }
-
-        .big-img {
-            position: absolute;
-            max-width: 70%;
-            height: 100%;
-            /*         top: 60px; */
-            margin-left: 30px;
-        }
-        .small-img {
-            position:absolute;
-            height: 100%;
-            margin-left: 30px;
-        }
-        @media (max-width: $very-wide) {
-            .big-img {
-                display: none;
-            }
-        }
-        @media (min-width: $very-wide) {
-            .small-img {
-                display: none;
-            }
-        }
-    }
-}
-
 .acess__anywhere {
 	width: 400px;
 	margin: 0 auto;
@@ -161,7 +98,7 @@ section {
 
 .section--others {
     margin: 0 0 0 0;
-    padding: 90px 70px 70px 70px;
+    padding: 90px 0 70px 0;
     background-color: #eee;
     .row {
         margin-bottom: 10px;
@@ -192,6 +129,7 @@ section {
 
 .section--getstarted {
 	margin-bottom: 0px;
+    padding-bottom: 0;
 	a {
 		margin: 50px;
 	}

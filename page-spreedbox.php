@@ -1,7 +1,21 @@
-<!-- <?php get_template_part('templates/parts/title'); ?> -->
-<div class="page-header">
-	<h1><?php echo $l->t('Spreedbox: Most private video chat and file exchange');?></h1>
+<head>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+
+<div class="background generic-background">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 topheader">
+                <h1>Spreedbox</h1>
+            </div>
+        </div>
+    </div>
 </div>
+
+<section class="content">
+<div class="container">
+	<h2><?php echo $l->t('The most private video chat and file exchange');?></h2>
 
 <div class="row featurerow topfeature">
 	<div class="col-md-5">
@@ -90,3 +104,5 @@
 	$("a.youtube").YouTubePopup({ hideTitleBar: true });
 // });
 </script>
+</div>
+</section>

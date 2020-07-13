@@ -4,14 +4,18 @@
     <?php require get_template_directory().'/templates/metadata.php';?>
 
 	<!-- New styles -->
-	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/old/header.css" rel="stylesheet">
-	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/modules/footer.css" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/old/header.css?v=2" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/modules/footer.css?v=2" rel="stylesheet">
+
+	<!-- GDPR - block YouTube by default -->
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 
 	<!-- Fixes for the new style on legacy pages -->
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/legacy-fixes.css" rel="stylesheet">
 
 	<!-- Old styles below -->
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/old/main.min.css" />
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/old/main.min.css?v=2" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/old/font-awesome.css"/>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/old/styles.css"/>
 	<script type="text/javascript">

@@ -1,0 +1,298 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container-widest .container-widest {
+    width: 738px;
+  }
+}
+@media (min-width: 992px) {
+  .container-widest .container-widest {
+    width: 962px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-widest .container-widest {
+    width: 1170px;
+  }
+}
+@media (min-width: 1500px) {
+  .container-widest .container-widest {
+    width: 1470px;
+  }
+}
+@media (min-width: 1800px) {
+  .container-widest .container-widest {
+    width: 1770px;
+  }
+}
+
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute;
+}
+
+.generic-background {
+  background: url("../../img/headers/background-transparent.png") no-repeat;
+  background-color: #0082c9;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  min-height: 400px;
+  max-height: 600px;
+}
+.generic-background .topheader {
+  margin-top: 120px;
+}
+
+/* General */
+footer {
+  margin-top: 100px;
+}
+
+.numbadge {
+  border-radius: 50%;
+  width: 53px;
+  height: 53px;
+  color: white;
+  background: #0082C9;
+  text-align: center;
+  padding-top: 4px;
+  font-size: 21px;
+  border: 4px solid white;
+}
+.numbadge i {
+  color: white;
+}
+
+.devicebadge {
+  background: none;
+  width: 150px;
+  height: 150px;
+  font-size: 90px;
+}
+.devicebadge i {
+  color: #0082c9;
+}
+
+.numbadge.centre {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  margin-top: 130px;
+  border-bottom: 1px dotted #0082C9;
+}
+
+.narrow, .wide {
+  display: none;
+  margin-bottom: -28px;
+}
+
+.narrow {
+  margin-bottom: -27px;
+}
+
+.label-blue {
+  color: white;
+  background-color: #0082C9;
+  border-radius: 10px;
+  padding: 5px 7px;
+}
+
+.download--description h2 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 40px;
+}
+@media (max-width: 991px) {
+  .download--description p {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.PopupGetStarted {
+  height: auto;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+}
+.PopupGetStarted .instructions {
+  position: absolute;
+  max-width: 95%;
+  padding: 15px;
+  margin: 130px auto 0 auto;
+  background: white !important;
+  /* I seem to have to enforce this, comes from main.min.css*/
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: FromTop;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 0.5s;
+  /* Chrome, Safari, Opera */
+  animation-name: FromTop;
+  animation-duration: 0.5s;
+}
+.PopupGetStarted .instructions .overlay-body .downloadbutton {
+  text-align: center;
+  position: relative;
+}
+.PopupGetStarted .instructions .overlay-body .downloadbutton .btn {
+  padding: 20px;
+  font-size: 22px;
+}
+.PopupGetStarted .close {
+  color: #575858;
+  font-size: 2.75em;
+  opacity: 0.8;
+  float: right;
+  margin-top: -25px;
+  margin-right: 15px;
+  z-index: 10;
+}
+.PopupGetStarted .close:hover, .PopupGetStarted .close:focus {
+  opacity: 1;
+  text-decoration: none;
+}
+.PopupGetStarted ul.nav-tabs {
+  position: absolute;
+  margin-top: 0px;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  line-height: 1.6em;
+}
+@media (max-width: 768px) {
+  .PopupGetStarted ul.nav-tabs {
+    margin-top: 40px;
+    font-size: 12px;
+    margin-left: -15px;
+    margin-right: -10px;
+  }
+}
+.PopupGetStarted ul.nav-tabs li {
+  width: 210px;
+  max-width: 32%;
+  /* 			height: 85px; */
+  bottom: 0;
+  padding: 5px 0 5px 0;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 0 30px 0;
+  border-bottom: 1px solid transparent;
+}
+@media (max-width: 768px) {
+  .PopupGetStarted ul.nav-tabs li {
+    min-height: 70px;
+    padding: 5px 0px 5px 0;
+  }
+}
+.PopupGetStarted ul.nav-tabs li i {
+  /* 				font-size: 13px; */
+}
+.PopupGetStarted ul.nav-tabs li:focus, .PopupGetStarted ul.nav-tabs li:hover, .PopupGetStarted ul.nav-tabs li:active, .PopupGetStarted ul.nav-tabs li.active {
+  border-bottom: 1px solid #333;
+}
+.PopupGetStarted ul.nav-tabs li:focus a, .PopupGetStarted ul.nav-tabs li:hover a, .PopupGetStarted ul.nav-tabs li:active a, .PopupGetStarted ul.nav-tabs li.active a {
+  margin: 0 auto;
+  text-align: center;
+  border: none;
+  border-radius: none;
+  color: #555;
+  font-weight: 700;
+}
+.PopupGetStarted ul.nav-tabs li:focus a i, .PopupGetStarted ul.nav-tabs li:hover a i, .PopupGetStarted ul.nav-tabs li:active a i, .PopupGetStarted ul.nav-tabs li.active a i {
+  font-weight: 400;
+}
+.PopupGetStarted ul.nav-tabs li a {
+  margin: 0 auto;
+  text-align: center;
+  border: none;
+  border-radius: none;
+  color: #555;
+  text-decoration: none;
+}
+.PopupGetStarted ul.nav-tabs li a:focus, .PopupGetStarted ul.nav-tabs li a:hover, .PopupGetStarted ul.nav-tabs li a:active .PopupGetStarted ul.nav-tabs li a.active {
+  text-decoration: none;
+}
+.PopupGetStarted .thumbnail {
+  box-shadow: 0 0 2px 1px #EEE;
+}
+.PopupGetStarted .tab-content {
+  margin-top: 40px;
+}
+@media (max-width: 768px) {
+  .PopupGetStarted .tab-content {
+    margin-top: 100px;
+  }
+}
+.PopupGetStarted .mobileclientbuttons {
+  margin-top: 30px;
+}
+
+.PopupGetStarted:target, div.PopupGetStarted:target + a.mask {
+  display: block;
+  opacity: 1;
+}
+
+.mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(29, 45, 68, 0.5);
+  z-index: 500;
+  display: none;
+}
+
+/* Add animation (Chrome, Safari, Opera) */
+@-webkit-keyframes FromTop {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+/* Add animation (Standard syntax) */
+@keyframes FromTop {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+@media (min-width: 996px) {
+  hr.wide {
+    display: block;
+  }
+}
+@media (max-width: 996px) {
+  hr.narrow {
+    display: block;
+    margin-top: 50px;
+  }
+}
+
+/*# sourceMappingURL=install.css.map */

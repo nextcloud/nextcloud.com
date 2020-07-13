@@ -1,5 +1,22 @@
-<?php get_template_part( 'templates/parts/title'); ?>
-<div class="sub-nav"><a href="<?php echo home_url('/security') ?>">Security overview</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="<?php echo home_url('/security/advisories') ?>">Security Advisories</a>
+<head>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+
+<div class="background generic-background">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 topheader">
+                <h1>Threat model</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="content">
+<div class="container">
+
+<div class="sub-nav"><a class="hyperlink" href="<?php echo home_url('/security') ?>">Security overview</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class="hyperlink" href="<?php echo home_url('/security/advisories') ?>">Security Advisories</a>
 </div>
 <h2>Threat model & accepted risks</h2>
 <p>This page is constantly evolving. So check back over time to see new additions.</p>
@@ -19,7 +36,7 @@
 <p>Nextcloud can be configured to encrypt data at rest. This has two options: server-wide key (default since Nextcloud 13) or per-user key. With the former, the keys are on the server and thus the only protection offered is against external storage. With per-user keys, the keys are encrypted by the user password and handled as securely as possible, thus securing data when the user is not logged in. We are aware that a Nextcloud administrator could still intercept the user password to manually decrypt the encryption key. We do thus only consider attack scenarios bounty-worthy if they include an external storage vector or, with per-user-keys, data-at-rest.</p>
 
 <h3>Client-side encryption</h3>
-<p>Nextcloud client-side (or end-to-end) encryption is designed to protect user data from the server in nearly all scenario's, <a href="https://github.com/nextcloud/end_to_end_encryption_rfc">as described in the RFC.</a> Any way to circumvent the protection as covered by the <a href="https://github.com/nextcloud/end_to_end_encryption_rfc/blob/master/RFC.md#security-properties">security properties</a> would be treated by us as a security issue. Note that, as of May 2018, the client-side or end-to-end encryption feature is not considered 'finished' and no bug bounties are paid out until it is released as a final, stable version, expected mid/late 2018.</p>
+<p>Nextcloud client-side (or end-to-end) encryption is designed to protect user data from the server in nearly all scenario's, <a href="https://github.com/nextcloud/end_to_end_encryption_rfc">as described in the RFC.</a> Any way to circumvent the protection as covered by the <a href="https://github.com/nextcloud/end_to_end_encryption_rfc/blob/master/RFC.md#security-properties">security properties</a> would be treated by us as a security issue. Note that, as of May 2018, the client-side or end-to-end encryption feature is not considered 'finished' and no bug bounties are paid out until it is released as a final, stable version, expected in 2020.</p>
 
 <h3>Features intentionally marked as insecure</h3>
 <p>Some features in Nextcloud are intentionally marked as insecure and disabled by default (plus have a big warning above them). One example includes the preview providers such as the LibreOffice preview provider. At the moment we consider vulnerabilities
@@ -47,3 +64,5 @@ in those disabled features as not bounty-worthy.</p>
 <p>Nextcloud ships with multiple features that perform sending requests to other hosts, we do consider this accepted behaviour and advocate people to deploy Nextcloud into its own seggregated network segment.</p>
 
 <p><em>Page last modified on May 5, 2018</em></p>
+</div>
+</section>

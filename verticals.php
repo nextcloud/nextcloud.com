@@ -1,49 +1,84 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/modules/vertical.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/modules/vertical.css?v=1" rel="stylesheet">
 </head>
 <section class="section--vertical">
 <div class="container">
     <div class="row">
-        <h2 class="text-center revealOnScroll"><?php echo $l->t('Serving your needs');?></h2>
+        <h2 class="text-center"><?php echo $l->t('Serving your needs');?></h2>
     </div>
     <div class="row">
-        <div class="col-md-6 col-md-offset-3 revealOnScroll">
-            <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud is committed to provide technology that is a perfect fit for your organization!');?></p>
+        <div class="col-md-6 col-md-offset-3">
+            <p class="section--paragraph text-center top-text"><?php echo $l->t('Nextcloud is committed to provide technology that is a perfect fit for your organization!');?></p>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-3 revealOnScroll">
+        <div class="col-md-4">
 			<a href="<?php echo home_url('healthcare') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/healthcare-small.jpg" /></a>
 			<div class="row text-center description">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Healthcare');?></p>
+                <h3 class="section--paragraph__title"><a class="hyperlink" href="<?php echo home_url('healthcare') ?>"><?php echo $l->t('Healthcare');?></a></h3>
                 <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud provides the highest security for protected health information.');?></p>
-                <p class="section--paragraph text-center"><a class="button button--blue button-small" href="<?php echo home_url('healthcare') ?>"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
             </div>
 		</div>
-		<div class="col-md-3 revealOnScroll">
+		<div class="col-md-4">
 			<a href="<?php echo home_url('education') ?>" ><img src="<?php bloginfo('template_directory'); ?>/assets/img/headers/education-small.jpg" class="img-responsive" /></a>
 			<div class="row text-center description">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Education');?></p>
+                <h3 class="section--paragraph__title"><a class="hyperlink" href="<?php echo home_url('education') ?>" ><?php echo $l->t('Education');?></a></h3>
                 <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud has unique features for research and academic institutions.');?></p>
-                <p class="section--paragraph text-center"><a class="button button--blue button-small"href="<?php echo home_url('education') ?>" ><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
             </div>
 		</div>
-		<div class="col-md-3 revealOnScroll">
+        <div class="col-md-4">
+			<a href="<?php echo home_url('finance') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/finance-small.jpg" /></a>
+			<div class="row text-center description">
+                <h3 class="section--paragraph__title"><a class="hyperlink" href="<?php echo home_url('finance') ?>"><?php echo $l->t('Financial Services');?></a></h3>
+                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud delivers confidentiality, security and compliance.');?></p>
+            </div>
+		</div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+			<a href="<?php echo home_url('government') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/government-small.jpg" /></a>
+			<div class="row text-center description">
+                <h3 class="section--paragraph__title"><a class="hyperlink" href="<?php echo home_url('government') ?>"><?php echo $l->t('Government');?></a></h3>
+                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud offers the ultimate control to protect digital sovereignty in Government.');?></p>
+            </div>
+        </div>
+		<div class="col-md-4">
+			<a href="<?php echo home_url('globalscale') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/globalscale-small.jpg" /></a>
+			<div class="row text-center description">
+                <h3 class="section--paragraph__title"><a class="hyperlink" href="<?php echo home_url('globalscale') ?>"><?php echo $l->t('Global scale');?></a></h3>
+                <p class="section--paragraph text-center"><?php echo $l->t('Scale Nextcloud to hundreds of millions of users at commodity cost.');?></p>
+            </div>
+		</div>
+<!--		<div class="col-md-4">
+			<a href="<?php echo home_url('virtual-data-room') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/vdr-small.jpg" /></a>
+			<div class="row text-center description">
+                <h3 class="section--paragraph__title"><a class="hyperlink" href="<?php echo home_url('virtual-data-room') ?>"><?php echo $l->t('Virtual data rooms');?></a></h3>
+                <p class="section--paragraph text-center"><?php echo $l->t('Securely conduct transactions using an on-premises Nextcloud virtual data room.');?></p>
+            </div>
+        </div>-->
+        <div class="col-md-4">
 			<a href="<?php echo home_url('agencies') ?>" ><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/media-small.jpg" /></a>
 			<div class="row text-center description">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Media and Advertising');?></p>
+                <h3 class="section--paragraph__title"><a class="hyperlink" href="<?php echo home_url('agencies') ?>" ><?php echo $l->t('Media and Advertising');?></a></h3>
                 <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud provides easy and efficient collaboration on large files.');?></p>
-                <p class="section--paragraph text-center"><a class="button button--blue button-small"href="<?php echo home_url('agencies') ?>" ><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
             </div>
 		</div>
-        <div class="col-md-3 revealOnScroll">
+    </div>
+    <div class="row">
+		<div class="col-md-4 col-md-offset-2">
 			<a href="<?php echo home_url('legal') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/legal-small.jpg" /></a>
 			<div class="row text-center description">
-                <p class="section--paragraph__tittle"><?php echo $l->t('Lawyers and Notaries');?></p>
+                <h3 class="section--paragraph__title"><a class="hyperlink" href="<?php echo home_url('legal') ?>"><?php echo $l->t('Lawyers and Notaries');?></a></h3>
                 <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud assures your clients that their documents stay 100% confidential.');?></p>
-                <p class="section--paragraph text-center"><a class="button button--blue button-small"href="<?php echo home_url('legal') ?>"><?php echo $l->t('Learn more');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
             </div>
 		</div>
+		<div class="col-md-4">
+			<a href="<?php echo home_url('engineering') ?>"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/headers/engineering-small.jpg" /></a>
+			<div class="row text-center description">
+                <h3 class="section--paragraph__title"><a class="hyperlink" href="<?php echo home_url('engineering') ?>"><?php echo $l->t('Construction and manufacturing');?></a></h3>
+                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud has the easy, efficient UI engineers need to deliver on time.');?></p>
+            </div>
+        </div>
     </div>
 </div>
 </section>

@@ -1,14 +1,11 @@
 <div class="row page-content-header">
-<div class="col-md-4">
+<div class="col-md-12">
     <h1>Security Advisory</h1>
     <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
-    <div class="col-md-4">
-        <?php get_template_part('advisories/advisory-side'); ?>
-    </div>
-    <div class="col-md-8">
+    <div class="col-md-12">
         <h2>Improper authorization check on removing shares (NC-SA-2016-007)</h2>
         <p>10th October 2016</p>
         <p>Risk level: <strong>Low</strong></p>
@@ -16,8 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/285.html">Improper Authorization (CWE-285)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/153905">153905</a></p>
         <h3>Description</h3>
-        <p><p>The Sharing Backend as implemented in Nextcloud does differentiate between shares to users and groups. In case of a received group share, users should be able to unshare the file to themselves but not to the whole group. The previous API implementation did simply unshare the file to all users in the group.</p>
-</p>
+        <p>The Sharing Backend as implemented in Nextcloud does differentiate between shares to users and groups. In case of a received group share, users should be able to unshare the file to themselves but not to the whole group. The previous API implementation did simply unshare the file to all users in the group.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>9.0.54</strong> (CVE-2016-9464)</li>
@@ -33,8 +29,9 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>Additional access control checks have been added to the sharing API.</p>
-</p>
+        <p>Additional access control checks have been added to the sharing API.</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to Nextcloud 9.0.54 or 10.0.0.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

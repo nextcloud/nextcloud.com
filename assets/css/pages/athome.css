@@ -1,11 +1,35 @@
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
   position: absolute; }
 
+/* @import '../modules/font-awesome.min'; */
 .features-background {
   background: url("../../img/headers/yourcloud.jpg") no-repeat;
   background-position: center;
@@ -22,7 +46,7 @@
     margin-bottom: 100px; } }
 
 section {
-  margin: 180px 0; }
+  margin: 50px 0; }
 
 .section--on-premise .row {
   padding-bottom: 20px; }
@@ -110,6 +134,9 @@ section {
 .section--outlook .row {
   padding-bottom: 10px; }
 
+.section--privacy {
+  /*     padding: 0;     */ }
+
 .section--others {
   margin: 0 0 0 0;
   padding: 90px 70px 70px 70px;
@@ -132,6 +159,7 @@ section {
   padding-top: 20%; }
 
 .section--getstarted {
+  padding-bottom: 0px;
   margin-bottom: 0px; }
   .section--getstarted a {
     margin: 50px; }

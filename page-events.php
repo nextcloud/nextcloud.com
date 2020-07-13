@@ -1,11 +1,15 @@
 <head>
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/events.css">
-</head>
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/events.css?v=1">
 <script>
 require(["require.config"], function() {
 	require(["bootstrap"])
 });
 </script>
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/events-small.jpg">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/events-small.jpg">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/events-small.jpg">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/headers/events-small.jpg">
+</head>
 <div class="background events-background">
 	<div class="container">
 		<div class="row">
@@ -43,23 +47,152 @@ require(["require.config"], function() {
 				</div>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2017.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
 				<h2>Nextcloud Conference</h2>
-				<p class="section--paragraph">The most exciting event on the yearly calendar for Nextcloud is of course our very own Nextcloud Conference! Over 150 Nextcloud community members get together for a full week. During week days, we write and discuss code while on the weekend we have an exciting, educational and inspirational program with keynotes, lightning talks and workshops around private, self-hosted cloud technologies.</p>
-				<p class="section--paragraph">You can read a report of our last conference <a class="hyperlink" href="https://nextcloud.com/blog/significant-growth-at-nextcloud-conference-brought-150-customers-colleagues-and-friends-together/">in this blog</a> and if you'd like to join in 2018 - mark these dates in your calendar:</p>
-				<h3>Augustus 23-30 2018 at the TU Berlin, Germany</h3>
+				<p class="section--paragraph">The most exciting event on the yearly calendar for Nextcloud is of course our very own Nextcloud Conference! Over 200 Nextcloud community members get together for a full week. During week days, we write and discuss code while on the weekend we have an exciting, educational and inspirational program with keynotes, lightning talks and workshops around private, self-hosted cloud technologies.</p>
+				<p class="section--paragraph">You can read a report of our last conference <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-conference-2018-millions-of-nec-routers-nextcloud-14-and-simple-signup/">in this blog</a> and if you'd like to join in 2019 - mark these dates in your calendar:</p>
+				<h3>September 14-15 at the Mathematics building of the TU Berlin, Germany</h3>
 				<a href="<?php echo home_url('conf') ?>" class="button button--blue button--large button--arrow">Learn more about the Nextcloud Conference</a>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/booth.jpg" style="width: 400px" title="" alt="" class="img-thumbnail alignright">
 				<h2>Conferences, tradeshows and other events</h2>
 				<p class="section--paragraph">Nextcloud is participating in trade shows and conferences to present our community and technology to visitors.<br/>
 				Below is a list of tradeshows and conferences where Nextcloud is represented! If you have questions and would like to meet us at an event, check out this list and <a class="hyperlink" href="https://help.nextcloud.com/c/conference">let us know on the forums</a> you will be there.</p>
 
-                <button  class="table-button" data-toggle="collapse" data-target="#2018">Events in 2018</button>
-                <div id="2018" class="collapse in">
+                <a class="button button--blue" href="#2019" data-toggle="collapse">Events in 2019</a>
+                <div id="2019" class="collapse in">
                 <br>
                 <table class="table table-striped">
 					<tr>
 						<th>Event</th>
 						<th>Location</th>
 						<th>Date</th>
+					</tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/blog/nextcloud-team-coming-soon-to-nurnberg-paris/">Open Source Summit</a></td>
+						<td>Paris, France</td>
+						<td>December 10&11</td>
+                    </tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" href="https://www.jres.org/en/home/">JRES</a></td>
+						<td>Dijon, France</td>
+						<td>December 3-6</td>
+                    </tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" href="https://www.storage-forum.de/">Storage-Forum</a></td>
+						<td>Leipzig, Germany</td>
+						<td>November 28-29</td>
+                    </tr>
+                     <tr>
+						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/blog/nextcloud-onlyoffice-webinar-this-wednesday/">Nextcloud - ONLYOFFICE webinar</a></td>
+						<td>Worldwide</td>
+						<td>November 20</td>
+                    </tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" href="https://www.it-sa.de/">it-sa</a></td>
+						<td>Nuremberg, Germany</td>
+						<td>October 8-10</td>
+                    </tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/conf">Nextcloud Contributor Week</a></td>
+						<td>Berlin, Germany</td>
+						<td>September 13 & 16-20</td>
+                    </tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/training">Nextcloud Enterprise Day</a></td>
+						<td>Berlin, Germany</td>
+						<td>September 16</td>
+                    </tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/conf/">Nextcloud Conference</a></td>
+						<td>Berlin, Germany</td>
+						<td>September 14-15</td>
+                    </tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" https://nextcloud.com/blog/upcoming-nextcloud-contributorweek-june-24-28/">Nextcloud Contributor Week</a></td>
+						<td>Stuttgart, Germany</td>
+						<td>June 24-28</td>
+                    </tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" href="https://www.infosecurityeurope.com/">Infosecurity Europe</a></td>
+						<td>London, UK</td>
+						<td>June 4-6</td>
+                    </tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" href="https://opentechsummit.net/">OpenTechSummit</a></td>
+						<td>Berlin, Germany</td>
+						<td>May 29-30</td>
+                    </tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" https://www.storage2day.de/</a></td>
+						<td>Heidelberg, Germany</td>
+						<td>May 17-19</td>
+                    </tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" https://no-spy.org/">No-Spy Konferenz</a></td>
+						<td>Stuttgart, Germany</td>
+						<td>May 17-19</td>
+                    </tr>
+					<tr>
+						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/blog/the-contributor-week-is-over-time-to-plan-for-the-next-one/">Nextcloud Contributor Week</a></td>
+						<td>Stuttgart, Germany</td>
+						<td>March 10-15</td>
+					</tr>
+					<tr>
+						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/training">Nextcloud Enterprise Day</a></td>
+						<td>Stuttgart, Germany</td>
+						<td>March 12</td>
+					</tr>
+					<tr>
+						<td><a class="hyperlink" target="_blank" href="https://www.socallinuxexpo.org/scale/17x">SCALE 17x</a></td>
+						<td>Pasadena, USA</td>
+						<td>March 7-10</td>
+					</tr>
+					<tr>
+						<td><a class="hyperlink" target="_blank" href="http://www.didacta-cologne.com/didacta/index-3.php">Didacta</a></td>
+						<td>Cologne, Germany</td>
+						<td>February 19-23</td>
+					</tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" href="https://fosdem.org/2019/">FOSDEM</a></td>
+						<td>Brussels, Belgium</td>
+						<td>February 2-3</td>
+					</tr>
+					<tr>
+						<td><a class="hyperlink" target="_blank" href="https://www.univention-summit.de/">Univention Summit</a></td>
+						<td>Bremen, Germany</td>
+						<td>January 31-February 1</td>
+					</tr>
+					<tr>
+						<td><a class="hyperlink" target="_blank" href="https://cs3.infn.it/home.html">CS3 cloud services workshop</a></td>
+						<td>Rome, Italy</td>
+						<td>January 8-30</td>
+					</tr>
+				</table>
+			</div>
+            <br>
+            <p class="section--paragraph">Is there a conference, trade show or other event close by and you want Nextcloud to be there? Please <a class="hyperlink" href="https://help.nextcloud.com/c/conference">get in touch</a> and let us know, we will do our best to help making it happen!</p>
+            <p class="section--paragraph">Are you presenting about Nextcloud or running a booth at an upcoming event that should be listed here? Let us know <a class="hyperlink" href="https://help.nextcloud.com/c/conference">on the forums</a>!</p>
+            <a class="button button--blue" href="#2018" data-toggle="collapse">Events in 2018</a>
+                <div id="2018" class="collapse">
+                <br>
+                <table class="table table-striped">
+					<tr>
+						<th>Event</th>
+						<th>Location</th>
+						<th>Date</th>
+					</tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" href="https://events.ccc.de/congress/2018/wiki/index.php/Assembly:Nextcloud">Chaos Communication Congress</a></td>
+						<td>Leipzig, Germany</td>
+						<td>December 27-30</td>
+					</tr>
+                    <tr>
+						<td><a class="hyperlink" target="_blank" href="https://www.opensourcesummit.paris/">Paris Open Source Summit</a></td>
+						<td>Paris, France</td>
+						<td>December 5-6</td>
+					</tr>
+					<tr>
+						<td><a class="hyperlink" target="_blank" href="https://www.it-sa.de/">IT-Security Messe & Congress</a></td>
+						<td>Nuremberg, Germany</td>
+						<td>October 9-11</td>
 					</tr>
 					<tr>
 						<td><a class="hyperlink" target="_blank" href="https://nextcloud.com/conf/">Nextcloud Conference 2018</a></td>
@@ -119,9 +252,7 @@ require(["require.config"], function() {
 				</table>
 			</div>
             <br>
-            <p class="section--paragraph">Is there a conference, trade show or other event close by and you want Nextcloud to be there? Please <a class="hyperlink" href="https://help.nextcloud.com/c/conference">get in touch</a> and let us know, we will do our best to help making it happen!</p>
-            <p class="section--paragraph">Are you presenting about Nextcloud or running a booth at an upcoming event that should be listed here? Let us know  <a class="hyperlink" href="https://help.nextcloud.com/c/conference">on the forums</a>!</p>
-            <button class="table-button" data-toggle="collapse" data-target="#2017">Events in 2017</button>
+            <a class="button button--blue" href="#2017" data-toggle="collapse">Events in 2017</a>
             <div id="2017" class="collapse">
             <br>
             <table class="table table-striped">
@@ -132,7 +263,7 @@ require(["require.config"], function() {
                 </tr>
                 <tr>
                     <td><a class="hyperlink" target="_blank" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Nextcloud_End_to_End_Encryption">Chaos Communication Congress</a></td>
-                    <td>Leipzich, Germany</td>
+                    <td>Leipzig, Germany</td>
                     <td>December 26-29</td>
                 </tr>
                 <tr>
@@ -247,6 +378,9 @@ require(["require.config"], function() {
                 </tr>
             </table>
             </div>
+            <a name="ts" id="ts"></a>
+            <h2>Travel support</h2>
+            <p class="section--paragraph">For the Conference, the Contributor Week and some events where we can use the help of some volunteers, we offer travel support. With this program, we cover 80% of your travel and hotel costs for a conference, and ask you to volunteer at the event. Please note that we can only offer travel support to a limited amount of our community members, so keep in mind that if we help cover your costs, the costs of another community member who may need it more than you can't be covered - only request travel support if you need it! If you want travel support, drop us an email at <a href="mailto:events@nextcloud.com">events@nextcloud.com</a>, introduce yourself and give us an estimation of your costs.</p>
 		</div>
 	</div>
 </section>

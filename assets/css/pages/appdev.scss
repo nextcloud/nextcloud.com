@@ -1,0 +1,82 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+@import '../modules/left-pill-bar';
+
+.appdev-background {
+  background-color: #0082c9;
+  height: 100%;
+/*   mask-image: radial-gradient(circle,rgba(0,0,0,0) 0,#000 100%); */
+/*   -webkit-mask-image: radial-gradient(circle,rgba(0,0,0,0) 0,#000 100%); */
+/*   opacity: .3; */
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.appdev-background::before {
+    content: "";
+    background: url('../../img/headers/devices.svg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+section {
+	padding: 50px 0;
+	.section--paragraph__title {
+		padding: 0;
+	}
+	h2 {
+ 		padding-bottom: 0px;
+ 	}
+ 	.row {
+ 		padding-top: 40px;
+ 	}
+ 	li {
+        list-style-image: url("../../img/enterprise/dot-tiny.svg");
+    }
+}
+
+.section--documentation {
+    padding-bottom: 170px;
+    .icon {
+        height: 100px;
+    }
+}
+
+.section--feature {
+    .icon {
+        height: 32px;
+    }
+}
+
+.section--getinvolved {
+    padding-top: 10px;
+    background-color: #eee;
+    .button.button--small {
+        margin: 0 0 10px 0;
+    }
+}
+
+.section--events {
+    padding: 0px;
+	.eventcard {
+		padding: 10px;
+	}
+}
+
+.featuretitle {
+    text-align: center;
+}
+
+
+footer {
+    margin-top: 0px;
+}
+

@@ -1,6 +1,8 @@
 @import '../variables';
 @import '../modules/transparent-navbar';
 
+
+
 .team-background {
   background: url("../../img/headers/enterprise-team.jpg") no-repeat;
   background-position: center;
@@ -18,16 +20,6 @@ footer.page-footer {
 	.section--heading-1 {
 		padding: 80px 0 30px 0;
 		text-align: center;
-	}
-
-	.section--intro {
-		font-weight: 600;
-		padding-top: 30px;
-        color: $dark-blue;
-
-		@media (max-width: $break-small) {
-			text-align: left !important;
-		}
 	}
 
 
@@ -90,18 +82,19 @@ footer.page-footer {
 		margin: 15px;
 		font-size: 30px;
 		height: 40px;
-		i[class*='fa-'] {
-		color: #9c9c9c !important;
-		}
-	}
-
-	.teamsocial a {
-		color: #AAA;
-		transition: all .2s;
-	}
-
-	.teamsocial a:hover {
-		color:  #0082C9;
+        a {
+            color: #9c9c9c;
+            i[class*='fa-'] {
+                color: #9c9c9c;
+            }
+            transition: all .2s;
+            &:hover {
+                i[class*='fa-'] {
+                    color: #0082C9;
+                }
+                color:  #0082C9;
+            }
+        }
 	}
 
 	.teamdescription {

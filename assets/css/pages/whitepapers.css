@@ -1,6 +1,29 @@
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -13,9 +36,6 @@
 
 .section--header .col-md-8 p {
   text-align: center; }
-
-.image--floated {
-  float: right; }
 
 section {
   padding: 100px 0;
@@ -33,8 +53,8 @@ section {
     section .list .wpthumbnail img {
       max-height: 250px; }
   section .list .description {
-    /* 			height: 180px; */ }
-  section .list .section--paragraph__tittle {
+    height: 180px; }
+  section .list .section--paragraph__title {
     padding: 0;
     font-size: 18px; }
   section .list .section--paragraph {
@@ -107,6 +127,13 @@ section {
     color: #757575;
     width: 100%;
     max-width: 300px; }
+  section .list .newsletter {
+    padding-left: 15px;
+    line-height: 1.2; }
+    section .list .newsletter small {
+      line-height: 1.2; }
+    section .list .newsletter input {
+      margin-left: -15px; }
 
 .section--blogs {
   padding: 0 0 100px 0; }

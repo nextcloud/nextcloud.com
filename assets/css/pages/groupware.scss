@@ -1,7 +1,6 @@
 @import '../variables';
 @import '../modules/transparent-navbar';
 /* @import '../modules/vertical'; */
-
 .groupware-background {
   background: url("../../img/headers/groupware.jpg") no-repeat;
   background-position: center;
@@ -9,18 +8,24 @@
   margin-bottom: 50px
 }
 
-.image--floated{
-	float: right;
-}
-
 section {
 	margin-top: 150px;
 /* 	padding: 50px 0; */
 
-	.section--paragraph__tittle {
+	.section--paragraph__title {
 		padding: 0;
 	}
 }
+
+.section--intro {
+    p {
+        margin-top: 20px;
+    }
+    .video .video-js {
+        background-color: transparent !important;
+    }
+}
+
 
 
 .section--overview {
@@ -35,7 +40,7 @@ section {
             height: auto;
         }
     }
-    .section--paragraph__tittle {
+    .section--paragraph__title {
 /*         padding-bottom: 10px; */
     }
     .row {
@@ -79,7 +84,7 @@ section {
 
 .section--contact {
     margin: 100px 0 0 0;
-    padding: 90px 70px 70px 70px;
+    padding: 90px 0 70px 0;
     background: $nextcloud-blue;
 
     p {

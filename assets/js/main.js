@@ -31,10 +31,6 @@ define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
 
 				consoleMessage: function() {
 					console.log('%c\nNextcloud, A safe home for all your data', 'font-size:20px');
-					console.log(
-						'%c',
-						'font-size: 100px; background: white url(' + window.location + 'wp-content/themes/next/assets/img/logo/logo_nextcloud_blue.png) no-repeat left bottom; background-repeat: no-repeat; background-size: 100px 64px;'
-					);
 				},
 
 				checkScrollPosition: function() {
@@ -48,7 +44,7 @@ define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
 				},
 
 				removeRevealOnScroll: function(index, element) {
-					$(element).addClass('fade-in');
+// 					$(element).addClass('fade-in');
 				},
 
 				buttonDropdown: function() {
@@ -84,13 +80,13 @@ define(['jquery', 'lodash', 'enquire', 'TweenMax', 'velocity'],
 				},
 
 				revealOnScroll: function(event) {
-					var scrollTop = $(window).scrollTop();
-					$('.revealOnScroll:not(.fade-in)').each(function(index, element) {
-						var selectorOffset = $(element).offset();
-						if (scrollTop + window.innerHeight - 100 > selectorOffset.top) {
-							$(element).addClass('fade-in').velocity('transition.slideUpIn');
-						}
-					});
+// 					var scrollTop = $(window).scrollTop();
+// 					$('.revealOnScroll:not(.fade-in)').each(function(index, element) {
+// 						var selectorOffset = $(element).offset();
+// 						if (scrollTop + window.innerHeight - 100 > selectorOffset.top) {
+// 							$(element).addClass('fade-in').velocity('transition.slideUpIn');
+// 						}
+// 					});
 				},
 			};
 			main.init();

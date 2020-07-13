@@ -50,24 +50,24 @@ try {
 
 
     // check captcha. Comment it out for local testing of the form!
-    if (!defined('RECAPTCHA_SECRET') || RECAPTCHA_SECRET === '' || !isset($_POST['g-recaptcha-response'])) {
-        throw new HintException('Captcha code is missing.');
-    }
-    $ch = curl_init();
-
-    curl_setopt($ch, CURLOPT_URL, 'https://www.google.com/recaptcha/api/siteverify');
-    curl_setopt($ch, CURLOPT_POST, 1);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-    $server_output = curl_exec($ch);
-    $server_output = json_decode($server_output, true);
-
-    curl_close($ch);
-
-    if (!isset($server_output['success']) || $server_output['success'] !== true) {
-        throw new HintException('The captcha result was invalid.');
-    }
+//     if (!defined('RECAPTCHA_SECRET') || RECAPTCHA_SECRET === '' || !isset($_POST['g-recaptcha-response'])) {
+//         throw new HintException('Captcha code is missing.');
+//     }
+//     $ch = curl_init();
+//
+//     curl_setopt($ch, CURLOPT_URL, 'https://www.google.com/recaptcha/api/siteverify');
+//     curl_setopt($ch, CURLOPT_POST, 1);
+//     curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
+//     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+//
+//     $server_output = curl_exec($ch);
+//     $server_output = json_decode($server_output, true);
+//
+//     curl_close($ch);
+//
+//     if (!isset($server_output['success']) || $server_output['success'] !== true) {
+//         throw new HintException('The captcha result was invalid.');
+//     }
 
     // Authentication
     $settings = array(
@@ -109,14 +109,28 @@ try {
     // step two: determine segmentId
     $segmentId = $_POST['segmentId'];
 
-    // TODO way to resend the email if contact is already subscripted - asked Mautic support if they have any suggestions how to do it
-
     // ignore errors in the above... don't care if the person wasn't in there
     // add the contact to the segment (this will typically result in an action being taken, like a mail sent)
     $response = $segmentApi->addContact($segmentId, $contactId);
     if (!isset($response['success'])) {
         throw new \Exception('Something went wrong. Adding user to segment failed, error ' . $response);
     }
+
+    // determine if we need to enable the GDPR boolean
+    if(($_POST['moreinfo'] == '1')) {
+        // step one: create segmentApi
+        $segmentApi2 = $api->newApi("segments", $auth, $apiUrl);
+        // step two: determine segmentId - this is 60
+        $segmentId2 = '60';
+        // add the contact to the segment (this will get the GDPR boolean property set to true)
+        $response2 = $segmentApi2->addContact($segmentId2, $contactId);
+
+        if (!isset($response2['success'])) {
+            throw new \Exception('Something went wrong. Adding user to segment failed, error ' . $response);
+        }
+    }
+
+
     ?>
     <h3>Thank you for requesting a white paper, case study or datasheet!</h3>
     <p>It has been sent to <?php echo($email_to); ?></p>
@@ -143,7 +157,6 @@ try {
         'Line' => $exception->getLine(),
     );
     error_log(json_encode($data));
-
     ?>
     <h3 >I'm sorry</h3>
     <p>There was a problem on our side.</p>

@@ -1,0 +1,57 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.contributors-background {
+  background: url("../../img/headers/code-of-conduct.jpeg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+footer.page-footer {
+  margin-top: 0; }
+
+.section--main li.checkmark {
+  /* 			list-style-type: circle; */
+  list-style-image: url("../../img/enterprise/check-blue.svg");
+  /* 		list-style-position:inside; */ }
+
+.calltoaction {
+  margin-top: 50px;
+  background-color: #0082c9;
+  padding: 50px 0;
+  color: white; }
+  .calltoaction .section--heading-2 {
+    color: white; }
+  .calltoaction .section--paragraph {
+    color: white; }
+  .calltoaction .hyperlink {
+    color: white; }
+
+/*# sourceMappingURL=code-of-conduct.css.map */

@@ -19,71 +19,113 @@ section {
 		padding: 80px 0 30px 0;
 		text-align: center;
 	}
-
-	.section--intro {
-		font-weight: 600;
-		padding-top: 30px;
-        color: $dark-blue;
-
-		@media (max-width: $break-small) {
-			text-align: left !important;
-		}
-	}
-
     .newsrow {
         margin-top: 70px;
 		margin-bottom: 30px;
 
 		.col-md-4 {
 			padding: 15px;
+			position: relative;
+			span {
+/* 				margin-top: -50px; */
+				color: #6c6c6c;
+				border-bottom: none;
+				text-decoration: none;
+				position: absolute;
+				top: 50%;
+				padding: 0 20px 0 10px;
+				font-size: 120%;
+			}
 		}
     }
 }
 
-.section--products {
-    margin: 80px 0 0 0;
-    padding: 90px 0 70px 0;
-    background-color: #eee;
-    .row {
-        margin-bottom: 10px;
-    }
-    img {
-        padding: 20px;
-    }
-    .description {
-        min-height: 100px;
-        margin: 0 20px;
-        .title {
-            display: block;
-            padding: 5px 10px 0 0;
-            font-size: 18px;
-/*             color: white; */
-            .logo {
-                width: 65px;
-                min-height: 25px;
-                float:left;
-                vertical-align: middle;
-                img {
-                    margin-top: 0px;
-                    padding: 4px 5px 0 0;
-                    height: 60px;
-                    width: 60px;
-                }
-            }
-            .text {
-                line-height: 1;
-                padding: 10px 0 10px 0;
-                strong {
-                    line-height: 1.2;
-                    font-weight: normal;
-                    font-size: 22px;
-                }
-                small {
-                    opacity: 0.8;
-                }
-            }
+
+.section--differentiators {
+	.floating--quote--container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 40px 30px 40px ;
+        background: #FFFFFF;
+        border: 1px solid #FCFCFC;
+        box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
+        margin: 30px 20px;
+        @media (min-width: $break-big) {
+            float: right;
+            width: 40%;
+            min-width: 300px;
         }
+      blockquote {
+          font-style: italic;
+          font-size: 1.6em;
+          margin: 0;
+      }
+    }
+    .quote--container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 20px 15px 20px ;
+        background: #FFFFFF;
+        border: 1px solid #FCFCFC;
+        box-shadow: 0 1px 40px 0 rgba(0,0,0,0.14);
+        margin: 20px 5%;
+        @media (min-width: $break-big) {
+            width: 90%;
+        }
+    }
+    .floating--quote--container,.quote--container {
+      .quote--brand {
+          padding-top: 5px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .quote--spiegel--logo {
+              background: url("../../img/history/der-spiegel-logo.png") no-repeat center/contain;
+              width: 200px;
+              height: 70px;
+          }
+          .quote--handelsblatt--logo {
+              background: url("../../img/history/handelsblatt.webp") no-repeat center/contain;
+              width: 240px;
+              height: 70px;
+          }
+			.quote--register--logo {
+				background: url("../../img/history/the_register.png") no-repeat center/contain;
+				width: 240px;
+				height: 70px;
+			}
+			.quote--nextinpact--logo {
+				background: url("../../img/history/nextinpact.png") no-repeat center/contain;
+				width: 240px;
+				height: 70px;
+			}
+			.quote--androidpolice--logo {
+				background: url("../../img/history/androidpolice.png") no-repeat center/contain;
+				width: 200px;
+				height: 90px;
+			}
+			.quote--wired--logo {
+				background: url("../../img/history/wired.png") no-repeat center/contain;
+				width: 200px;
+				height: 90px;
+
+			}
+        }
+    }
+}
 
 
+.img-responsive {
+    padding-top: 10px;
+    @media (min-width: $break-big) {
+        margin-bottom: 50px;
+    }
+    @media (min-width: $very-wide) {
+        /* 	margin-bottom: 0px; */
     }
 }

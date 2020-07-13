@@ -1,6 +1,29 @@
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -41,9 +64,6 @@ section {
   @media (min-width: 1600px) {
     .img-responsive {
       /* 	margin-bottom: 0px; */ } }
-
-.image--floated {
-  float: right; }
 
 .separator {
   margin: 100px 0 50px 0;
@@ -141,9 +161,6 @@ section {
 .section--convenient .container {
   padding-top: 8.54296875em;
   padding-bottom: 8.54296875em; }
-  .section--convenient .container .section--intro {
-    max-width: 43.2487792969em;
-    margin: 0 auto; }
   .section--convenient .container .feature--block {
     padding-bottom: 60px; }
   .section--convenient .container .easy--ilustration {
@@ -163,9 +180,6 @@ section {
 .section--secure .container {
   padding-top: 8.54296875em;
   padding-bottom: 8.54296875em; }
-  .section--secure .container .section--intro {
-    max-width: 43.2487792969em;
-    margin: 0 auto; }
   .section--secure .container .distribution--ilustration {
     background: url(../../img/globalscale/balancer.svg) no-repeat center/contain;
     height: 600px;
@@ -180,6 +194,7 @@ section {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-top: 70px;
   padding: 40px 40px 30px 40px;
   background: #FFFFFF;
   border: 1px solid #FCFCFC;
@@ -228,22 +243,6 @@ section {
   .section--explanation .banner .col-md-6 {
     padding: 80px 0px;
     /* 			margin-left: 10% */ }
-  .section--explanation .banner .big-img {
-    position: absolute;
-    max-width: 70%;
-    height: 100%;
-    /*         top: 60px; */
-    margin-left: 30px; }
-  .section--explanation .banner .small-img {
-    position: absolute;
-    height: 100%;
-    margin-left: 30px; }
-  @media (max-width: 1600px) {
-    .section--explanation .banner .big-img {
-      display: none; } }
-  @media (min-width: 1600px) {
-    .section--explanation .banner .small-img {
-      display: none; } }
 
 .section--dicom .banner {
   background-color: #0082c9;
@@ -278,9 +277,6 @@ section {
     background-position: 65% 50%;
     background-size: cover; }
 
-.section--integrated .container .section--intro {
-  max-width: 43.2487792969em;
-  margin: 0 auto; }
 .section--integrated .container .section--heading-1 {
   padding-bottom: 0px; }
 .section--integrated .container .efficiency--ilustration {
@@ -303,9 +299,6 @@ section {
     padding-bottom: 20px;
     margin-left: 15px;
     margin-right: 15px; }
-    .section--features .container-widest .row .section--intro {
-      max-width: 43.2487792969em;
-      margin: 0 auto; }
   .section--features .section--heading-1 {
     padding-bottom: 60px; }
   .section--features i[class*='fa-'] {

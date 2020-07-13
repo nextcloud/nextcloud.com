@@ -2,6 +2,7 @@
 @import '../modules/transparent-navbar';
 @import '../vendor/modular-scale/modular-scale';
 @import '../modules/transparent-gradient';
+@import '../../../node_modules/bootstrap-horizon/src/bootstrap-horizon.css';
 
 .separator{
 	margin: 100px 0 50px 0;
@@ -24,9 +25,7 @@
 /* 	margin-bottom: 0px; */
 	}
 }
-.image--floated{
-	float: right;
-}
+
 
 section {
 	.section--paragraph--tittle {
@@ -42,62 +41,67 @@ section {
 }
 
 .section--customers {
+    margin-top: 150px;
 /* 	max-width: 100%; */
 	position: relative;
     .container {
 	padding-top: ms(5);
     padding-bottom: ms(5);
 	}
-	.customer {
-		position: relative;
-		.customer-logo {
-			float: center;
-			height: 200px;
-			position: relative;
-			line-height: 400px;
-			text-align:center;
-			width: 100%;
-			max-width: 60vw;
-			margin-left: auto;
-			margin-right: auto;
-			vertical-align: middle;
-			img {
-				max-width: 90%;
-				vertical-align: middle;
-			}
-			.scaling-svg-container {
-/* 				position: relative; */
-				height: 0;
-				width: 100%;
-				padding: 0;
-				padding-bottom: 100%;
-				/* override this inline for aspect ratio other than square */
-				}
-			svg {
-				position: absolute;
-				height: 100%;
-				width: 100%;
-		/* 		max-width: 50vw; */
-				left: 0;
-				top: 0;
-				}
-			@media (max-width: $break-big) {
-				height: 300px;
-				line-height: 300px;
-			}
-			@media (max-width: $break-small) {
-				height: 200px;
-				line-height: 200px;
-			}
+	.customerlist {
+        min-height: 300px;
 
-/*			svg {
-				vertical-align: middle;
-				float:none;
-				width: auto;
-				height: 400px;
-				padding-bottom: 100px;
-			}*/
-		}
+        .customer {
+            position: relative;
+            .customer-logo {
+                float: center;
+                height: 200px;
+                position: relative;
+                line-height: 180px;
+                text-align: center;
+                width: 80%;
+                max-width: 60vw;
+                margin-left: auto;
+                margin-right: auto;
+                vertical-align: middle;
+                img {
+                    max-width: 90%;
+                    vertical-align: middle;
+                }
+                .scaling-svg-container {
+    /* 				position: relative; */
+                    height: 0;
+                    width: 100%;
+                    padding: 0;
+                    padding-bottom: 100%;
+                    /* override this inline for aspect ratio other than square */
+                    }
+                svg {
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+            /* 		max-width: 50vw; */
+                    left: 0;
+                    top: 0;
+                    }
+                @media (max-width: $break-big) {
+                    height: 150px;
+                    line-height: 150px;
+                }
+                @media (max-width: $break-small) {
+                    height: 200px;
+                    line-height: 200px;
+                }
+
+    /*			svg {
+                    vertical-align: middle;
+                    float:none;
+                    width: auto;
+                    height: 400px;
+                    padding-bottom: 100px;
+                }*/
+            }
+        }
 	}
 }
 
@@ -118,10 +122,6 @@ section {
     padding-top: ms(5);
     padding-bottom: ms(5);
 
-    .section--intro {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
 	.feature--block {
 		padding-bottom: 60px;
 	}
@@ -145,10 +145,6 @@ section {
     padding-top: ms(5);
     padding-bottom: ms(5);
 
-    .section--intro {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
 
     .efficiency--ilustration {
       background: url(../../img/globalscale/splitup.svg) no-repeat center/contain;
@@ -168,11 +164,6 @@ section {
   .container{
     padding-top: ms(5);
     padding-bottom: ms(5);
-
-    .section--intro {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
 
     .distribution--ilustration {
       background: url(../../img/globalscale/balancer.svg) no-repeat center/contain;
@@ -238,20 +229,16 @@ section {
 		padding-bottom: 20px;
 		margin-left: 15px;
 		margin-right: 15px;
-		.section--intro {
-			max-width: ms(9);
-			margin: 0 auto;
-		}
 	}
 	.section--heading-1 {
 		padding-bottom: 60px;
 	}
-	i[class*='fa-'] {
-	font-size: 60px;
-	display: block;
-	color: #0082c9;
-	text-align: center;
-	padding-top: 20%;
+        i[class*='fa-'] {
+        font-size: 60px;
+        display: block;
+        color: #0082c9;
+        text-align: center;
+        padding-top: 20%;
 	}
 
 	row {
@@ -262,24 +249,4 @@ section {
 
 footer {
     margin-top: 0px;
-}
-
-.quote {
-	margin: 0 0 0 0;
-/* 	padding: 70px 0 70px 0; */
-	padding-top: 90px;
-	background: $nextcloud-blue;
-	color: white;
-	h2 {
-		color: white;
-	}
-	.row {
-		margin-bottom: 0px;
-	}
-	p {
-		color: white;
-	}
-	.hyperlink {
-		color: white;
-	}
 }

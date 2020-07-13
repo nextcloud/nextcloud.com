@@ -1,14 +1,11 @@
 <div class="row page-content-header">
-<div class="col-md-4">
+<div class="col-md-12">
     <h1>Security Advisory</h1>
     <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
-    <div class="col-md-4">
-        <?php get_template_part('advisories/advisory-side'); ?>
-    </div>
-    <div class="col-md-8">
+    <div class="col-md-12">
         <h2>Read-only share recipient can restore old versions of file (NC-SA-2016-005)</h2>
         <p>19th July 2016</p>
         <p>Risk level: <strong>Low</strong></p>
@@ -16,8 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/275.html">Permission Issues (CWE-275)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/146067">146067</a></p>
         <h3>Description</h3>
-        <p><p>The restore capability of Nextcloud was not verifying whether an user has only read-only access to a share. Thus an user with read-only access was able to restore old versions.</p>
-</p>
+        <p>The restore capability of Nextcloud was not verifying whether an user has only read-only access to a share. Thus an user with read-only access was able to restore old versions.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>9.0.52</strong> (CVE-2016-9462)</li>
@@ -27,8 +23,9 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The permission check is now also performed on restore actions.</p>
-</p>
+        <p>The permission check is now also performed on restore actions.</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to Nextcloud 9.0.52.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

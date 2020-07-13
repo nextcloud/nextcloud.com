@@ -1,0 +1,37 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+.ibm-background {
+  background: url('../../img/headers/ibm.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+section {
+	padding: 100px 0;
+
+	.section--paragraph__title {
+		padding: 0;
+	}
+}
+
+.feature--block {
+    padding-top: 60px;
+}
+
+.row {
+	padding-top: 60px;
+}
+
+.section--sharing {
+    ul {
+        li {
+            list-style-image: url("../../img/enterprise/check-blue.svg");
+        }
+    }
+}
+
+.section--appstore {
+    padding-bottom: 0;
+}

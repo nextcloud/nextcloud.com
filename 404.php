@@ -1,18 +1,28 @@
 <head>
-	<link class="hyperlink" href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/fourohfour.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/404.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 </head>
 
-<section class="fourohfour">
-
+<div class="background generic-background">
 	<div class="container">
+		<div class="row">
+			<div class="col-md-6 topheader">
+                <h1>404</h1>
+            </div>
+        </div>
+    </div>
+</div>
 
-		<h1>404</h1>
-		<h2>Page Not Found</h2>
+<section class="section--404">
+<div class="container">
 
-		<p>Sorry, but the page you were trying to view does not exist. Try searching instead:</p>
+    <h2>Page Not Found</h2>
 
-		<?php get_search_form(); ?>
+    <p>Sorry, but the page you were trying to view does not exist. Try searching instead:</p>
 
-	</div>
+    <?php get_search_form(); ?>
+
+</div>
 
 </section>

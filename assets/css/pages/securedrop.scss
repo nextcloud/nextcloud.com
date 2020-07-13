@@ -9,15 +9,13 @@
   margin-bottom: 50px
 }
 
-.image--floated{
-	float: right;
-}
+
 
 section {
 	margin-top: 150px;
 /* 	padding: 50px 0; */
 
-	.section--paragraph__tittle {
+	.section--paragraph__title {
 		padding: 0;
 	}
 }
@@ -34,7 +32,7 @@ section {
         margin-left: auto;
         margin-right: auto;
     }
-    .section--paragraph__tittle {
+    .section--paragraph__title {
 /*         padding-bottom: 10px; */
     }
     .row {
@@ -51,7 +49,8 @@ section {
             margin-bottom: 50px;
         }
         li {
-            list-style: none;
+            list-style-image: url("../../img/enterprise/check.svg");
+            list-style-position: inside;
             color: white;
         }
     }
@@ -68,7 +67,7 @@ section {
 
 .section--contact {
 	margin: 100px 0 0 0;
-    padding: 90px 70px 70px 70px;
+    padding: 90px 0 70px 0;
     background: $nextcloud-blue;
 
 	p {

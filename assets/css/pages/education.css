@@ -1,6 +1,30 @@
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
+/* New widest container for headers */
+@import url(../../../node_modules/bootstrap-horizon/src/bootstrap-horizon.css);
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -35,9 +59,6 @@
   .img-responsive {
     /* 	margin-bottom: 0px; */ } }
 
-.image--floated {
-  float: right; }
-
 section .section--paragraph--tittle {
   padding: 0; }
 section .row {
@@ -47,56 +68,59 @@ section .row {
   margin-bottom: 30px; }
 
 .section--customers {
+  margin-top: 150px;
   /* 	max-width: 100%; */
   position: relative; }
   .section--customers .container {
     padding-top: 8.54296875em;
     padding-bottom: 8.54296875em; }
-  .section--customers .customer {
-    position: relative; }
-    .section--customers .customer .customer-logo {
-      float: center;
-      height: 200px;
-      position: relative;
-      line-height: 400px;
-      text-align: center;
-      width: 100%;
-      max-width: 60vw;
-      margin-left: auto;
-      margin-right: auto;
-      vertical-align: middle;
-      /*			svg {
-      				vertical-align: middle;
-      				float:none;
-      				width: auto;
-      				height: 400px;
-      				padding-bottom: 100px;
-      			}*/ }
-      .section--customers .customer .customer-logo img {
-        max-width: 90%;
-        vertical-align: middle; }
-      .section--customers .customer .customer-logo .scaling-svg-container {
-        /* 				position: relative; */
-        height: 0;
-        width: 100%;
-        padding: 0;
-        padding-bottom: 100%;
-        /* override this inline for aspect ratio other than square */ }
-      .section--customers .customer .customer-logo svg {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        /* 		max-width: 50vw; */
-        left: 0;
-        top: 0; }
-      @media (max-width: 991px) {
-        .section--customers .customer .customer-logo {
-          height: 300px;
-          line-height: 300px; } }
-      @media (max-width: 768px) {
-        .section--customers .customer .customer-logo {
-          height: 200px;
-          line-height: 200px; } }
+  .section--customers .customerlist {
+    min-height: 300px; }
+    .section--customers .customerlist .customer {
+      position: relative; }
+      .section--customers .customerlist .customer .customer-logo {
+        float: center;
+        height: 200px;
+        position: relative;
+        line-height: 180px;
+        text-align: center;
+        width: 80%;
+        max-width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+        /*			svg {
+                        vertical-align: middle;
+                        float:none;
+                        width: auto;
+                        height: 400px;
+                        padding-bottom: 100px;
+                    }*/ }
+        .section--customers .customerlist .customer .customer-logo img {
+          max-width: 90%;
+          vertical-align: middle; }
+        .section--customers .customerlist .customer .customer-logo .scaling-svg-container {
+          /* 				position: relative; */
+          height: 0;
+          width: 100%;
+          padding: 0;
+          padding-bottom: 100%;
+          /* override this inline for aspect ratio other than square */ }
+        .section--customers .customerlist .customer .customer-logo svg {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          /* 		max-width: 50vw; */
+          left: 0;
+          top: 0; }
+        @media (max-width: 991px) {
+          .section--customers .customerlist .customer .customer-logo {
+            height: 150px;
+            line-height: 150px; } }
+        @media (max-width: 768px) {
+          .section--customers .customerlist .customer .customer-logo {
+            height: 200px;
+            line-height: 200px; } }
 
 .section--eduedition {
   padding: 100px 0 150px; }
@@ -109,9 +133,6 @@ section .row {
 .section--easy .container {
   padding-top: 8.54296875em;
   padding-bottom: 8.54296875em; }
-  .section--easy .container .section--intro {
-    max-width: 43.2487792969em;
-    margin: 0 auto; }
   .section--easy .container .feature--block {
     padding-bottom: 60px; }
   .section--easy .container .easy--ilustration {
@@ -128,9 +149,6 @@ section .row {
 .section--scalability .container {
   padding-top: 8.54296875em;
   padding-bottom: 8.54296875em; }
-  .section--scalability .container .section--intro {
-    max-width: 43.2487792969em;
-    margin: 0 auto; }
   .section--scalability .container .efficiency--ilustration {
     background: url(../../img/globalscale/splitup.svg) no-repeat center/contain;
     height: 600px;
@@ -144,9 +162,6 @@ section .row {
 .section--control .container {
   padding-top: 8.54296875em;
   padding-bottom: 8.54296875em; }
-  .section--control .container .section--intro {
-    max-width: 43.2487792969em;
-    margin: 0 auto; }
   .section--control .container .distribution--ilustration {
     background: url(../../img/globalscale/balancer.svg) no-repeat center/contain;
     height: 600px;
@@ -195,9 +210,6 @@ section .row {
     padding-bottom: 20px;
     margin-left: 15px;
     margin-right: 15px; }
-    .section--features .container-widest .row .section--intro {
-      max-width: 43.2487792969em;
-      margin: 0 auto; }
   .section--features .section--heading-1 {
     padding-bottom: 60px; }
   .section--features i[class*='fa-'] {
@@ -211,20 +223,5 @@ section .row {
 
 footer {
   margin-top: 0px; }
-
-.quote {
-  margin: 0 0 0 0;
-  /* 	padding: 70px 0 70px 0; */
-  padding-top: 90px;
-  background: #0082c9;
-  color: white; }
-  .quote h2 {
-    color: white; }
-  .quote .row {
-    margin-bottom: 0px; }
-  .quote p {
-    color: white; }
-  .quote .hyperlink {
-    color: white; }
 
 /*# sourceMappingURL=education.css.map */

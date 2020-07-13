@@ -13,9 +13,6 @@
 	}
 }
 
-.image--floated {
-	float: right;
-}
 
 section {
 	padding: 100px 0;
@@ -40,9 +37,9 @@ section {
 			}
 		}
 		.description {
-/* 			height: 180px; */
+			height: 180px;
 		}
-		.section--paragraph__tittle {
+		.section--paragraph__title {
 			padding: 0;
 			font-size: 18px;
 		}
@@ -132,6 +129,16 @@ section {
 			color: #757575;
 			width: 100%;
 			max-width: 300px;
+		}
+	    .newsletter {
+		padding-left: 15px;
+		line-height: 1.2;
+		small {
+			line-height: 1.2;
+		}
+		input {
+			margin-left: -15px;
+			}
 		}
 	}
 }

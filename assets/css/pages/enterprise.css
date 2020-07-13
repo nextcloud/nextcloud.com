@@ -1,6 +1,29 @@
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -8,114 +31,80 @@
 
 /* gradient behind transparent nav */
 .nav:not(.scrolled) {
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
   /* IE6-9 */ }
+
+.enterprise-hero-section {
+  background-image: url("../../img/headers/enterprise.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+  padding-bottom: 0px; }
+  .enterprise-hero-section .menu {
+    margin-top: -100px; }
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px; }
 
 .separator {
   height: 40px;
   background: #f6f6f6; }
 
-.enterprise-hero-section .background {
-  background-color: #0082c9;
-  background-image: none;
-  padding-bottom: 0;
-  padding-top: 0;
-  margin-bottom: 0;
-  background-repeat: no-repeat;
-  background-position: bottom 0 right 0;
-  background-size: cover;
-  border-radius: 0 !important;
-  height: 70vh;
-  min-height: 600px;
-  max-height: 800px;
-  background-image: url("../../img/enterprise/hero__enterprise.jpg"); }
-.enterprise-hero-section .topbanner {
-  width: auto;
-  height: auto;
-  max-width: 90vw;
-  max-height: 90vh;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-  position: absolute;
-  bottom: 0;
-  right: 0px;
-  float: right;
-  overflow: hidden;
-  zoom: 0.55; }
+.section--benefits {
+  padding-top: 0; }
+  .section--benefits h2 {
+    margin-top: 100px; }
+  .section--benefits .ilustration {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 0; }
+    .section--benefits .ilustration svg {
+      display: block !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      max-width: 100%;
+      max-height: 300px; }
 
-.what-you-get-section .container {
-  padding-top: 8.54297em;
-  padding-bottom: 8.54297em; }
-  .what-you-get-section .container p {
-    max-width: 43.24878em;
-    margin: 0 auto; }
+.section--scalability .content p, .section--reliability .content p, .section--compliance .content p, .section--security .content p {
+  font-size: 22px;
+  font-weight: 300; }
+.section--scalability .ilustration, .section--reliability .ilustration, .section--compliance .ilustration, .section--security .ilustration {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 0; }
+  .section--scalability .ilustration svg, .section--reliability .ilustration svg, .section--compliance .ilustration svg, .section--security .ilustration svg {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 100%;
+    max-height: 500px; }
 
-.section--expertise .container {
-  padding-top: 8.54297em;
-  padding-bottom: 8.54297em; }
-  .section--expertise .container .section--intro {
-    max-width: 43.24878em;
-    margin: 0 auto; }
-  .section--expertise .container .ilustration__expertise {
-    margin-left: 15%; }
-
-.section--security .container {
-  padding-top: 8.54297em;
-  padding-bottom: 8.54297em; }
-  .section--security .container .section--intro {
-    max-width: 43.24878em;
-    margin: 0 auto; }
-  .section--security .container .security__ilustration {
-    margin-left: 12%; }
-
-.section--lifecycle .container {
-  padding-top: 8.54297em;
-  padding-bottom: 8.54297em; }
-  .section--lifecycle .container .section--intro {
-    max-width: 43.24878em;
-    margin: 0 auto; }
-  .section--lifecycle .container .lifecycle__ilustration {
-    margin-left: 8%; }
-
-.section--globalscale .container {
-  padding-top: 8.54297em;
-  padding-bottom: 8.54297em; }
-  .section--globalscale .container .section--intro {
-    max-width: 43.24878em;
-    margin: 0 auto; }
+.section--contact p {
+  font-size: 22px;
+  font-weight: 300; }
 
 .section--whitepaper {
   padding-bottom: 0px;
   margin-bottom: 0px; }
-  .section--whitepaper .container {
-    padding-top: 8.54297em; }
   .section--whitepaper .section--heading-1 {
     margin-bottom: 70px; }
   .section--whitepaper form {
     padding-top: 20px; }
 
-.quote .container {
-  padding-top: 50px !important;
-  margin-top: 180px !important; }
-
 .section--compare {
   padding-bottom: 100px; }
-
-.ilustration {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 60px 0; }
 
 .section--customers {
   position: relative; }
   .section--customers .container {
-    padding-top: 8.54297em; }
+    padding-top: 8.54296875em; }
     .section--customers .container p {
       margin-top: 30px; }
   .section--customers .customer {

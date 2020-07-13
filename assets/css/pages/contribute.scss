@@ -12,21 +12,13 @@ footer.page-footer {
 }
 
 .section--contribute {
-	padding-top: 80px;
+	padding-top: 30px;
 /* 	display: inline-block; */
-
+    .row {
+        padding-top: 50px;
+    }
 	.section--heading-1 {
 		padding: 80px 0 30px 0;
-	}
-
-	.section--intro {
-		font-weight: 600;
-		padding-top: 30px;
-        color: $dark-blue;
-
-		@media (max-width: $break-small) {
-			text-align: left !important;
-		}
 	}
 }
 
