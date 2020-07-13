@@ -4,9 +4,8 @@
 .section-top-jumbotron {
 	background-color: #252323;
 	position: relative;
-
 	.container {
-		h2{
+		h1 {
 			color: white;
 			padding: 150px 0 75px 0;
 			line-height: 1.4;
@@ -28,6 +27,7 @@
 	height: 100%;
 	width: 100%;
 	text-align: center;
+    padding-top: 250px;
 
 
 	h2 {
@@ -104,6 +104,10 @@
 
 			p {
 				padding-top: 10px;
+                color: white;
+                a {
+                    color: white;
+                }
 			}
 
 			.btn-primary {

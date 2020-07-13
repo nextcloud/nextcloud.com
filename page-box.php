@@ -19,8 +19,8 @@
 		<h1 class="section--heading-1 section--text--center "><?php echo $l->t('Bring your data home');?></h1>
 		<p class="section--intro section--text--center "><?php echo $l->t('The Nextcloud Box is your private cloud. It stores your data and enables
 		you to sync between your devices and share with others.');?></p>
-		<a class="button button--blue button--arrow button--large" href="<?php echo home_url('athome') ?>" role="button"><?php echo $l->t('know Nextcloud</a>');?>
-		<h6 class="section--paragraph__title"><?php echo $l->t('Unfortunately, the box is sold out.');?></h6>
+		<a class="button button--blue button--arrow button--large" href="<?php echo home_url('athome') ?>" role="button"><?php echo $l->t('About Nextcloud');?></a>
+		<h6 class="section--paragraph__title"><?php echo $l->t('Unfortunately, the project has ended.');?></h6>
 		<p class="section--paragraph"><?php echo $l->t('Western Digital has shut down their <a class="hyperlink" href="https://www.digitaltrends.com/computing/wdlabs-may-close-raspberry-pi/">research team WDLabs</a> which produced the box. Read our <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-box-updates-raspberry-pi-3-nextcloud-12-and-looking-for-a-new-provider/">last status update blog on the Nextcloud Box</a> for more details.');?></p>
         <p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('devices') ?>"><?php echo $l->t('Check out our devices page for alternatives.');?></a></p>
         <a class="button button--blue button--arrow button--large" href="<?php echo home_url('devices') ?>" role="button"><?php echo $l->t('other devices</a>');?>
@@ -126,10 +126,10 @@
 		<div class="col-xs-8 col-centered">
 			<h3 class="section--heading-2 text-center"><?php echo $l->t('Partners');?></h3>
 			<h3 class="section--intro text-center"><?php echo $l->t('The Nextcloud Box was developed in a partnership with WDLabs and Canonical and is one of');?> <a class="hyperlink" href="<?php echo home_url('devices') ?>"><?php echo $l->t('multiple devices</a> from Nextcloud partners. It is a reference device, meant to inspire and invite anyone to build their own.');?> <a class="hyperlink" href="<?php echo home_url('contact') ?>"><?php echo $l->t('Get in contact</a> if you\'re interested in building a Nextcloud Box like device!');?></h3>
-			<h3 class="section--intro text-center"><?php echo $l->t('Find a case study on the <a class="hyperlink" href="https://pages.ubuntu.com/Nextcloud-CS.html">development of the Nextcloud Box on the Ubuntu website</a>. Learn more about delivering Snaps on consumer devices <a class="hyperlink" href="https://insights.ubuntu.com/webinar/using-snaps-to-deliver-enterprise-and-consumer-software-with-nextcloud/">in this webinar.</a>');?></h3>
+			<h3 class="section--intro text-center"><?php echo $l->t('Find a blog on the <a class="hyperlink" href="https://ubuntu.com/blog/the-nextcloud-box-a-review-of-building-an-iot-device-with-snaps">development of the Nextcloud Box on the Ubuntu website</a>. Learn more about delivering Snaps on consumer devices <a class="hyperlink" href="https://insights.ubuntu.com/webinar/using-snaps-to-deliver-enterprise-and-consumer-software-with-nextcloud/">in this webinar.</a>');?></h3>
 			<div class="wrapper-images">
-				<a target="_blank" href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/"><div class="logo-wd"></div></a>
-				<a target="_blank" href="https://developer.ubuntu.com/en/snappy/"><div class="logo-ubuntu"></div></a>
+				<a target="_blank" href="#"><div class="logo-wd"></div></a>
+				<a target="_blank" href="https://snapcraft.io/docs/getting-started/"><div class="logo-ubuntu"></div></a>
 			</div>
 		</div>
 	</div>

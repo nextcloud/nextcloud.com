@@ -32,7 +32,7 @@
 .section-top-jumbotron {
   background-color: #252323;
   position: relative; }
-  .section-top-jumbotron .container h2 {
+  .section-top-jumbotron .container h1 {
     color: white;
     padding: 150px 0 75px 0;
     line-height: 1.4; }
@@ -48,7 +48,8 @@
   background-color: white;
   height: 100%;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  padding-top: 250px; }
   .section-data-home h2 {
     padding-top: 280px; }
   .section-data-home p {
@@ -97,7 +98,10 @@
     .section-getbox .container .wrapper-text h2 {
       color: white; }
     .section-getbox .container .wrapper-text p {
-      padding-top: 10px; }
+      padding-top: 10px;
+      color: white; }
+      .section-getbox .container .wrapper-text p a {
+        color: white; }
     .section-getbox .container .wrapper-text .btn-primary {
       margin-top: 20px; }
       .section-getbox .container .wrapper-text .btn-primary:before {
