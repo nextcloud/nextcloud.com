@@ -119,7 +119,7 @@
                     <li><?php echo $l->t('Branding');?></li>
                     <li><?php echo $l->t('Server app for configuration');?></li>
                 </ul>
-                <p class="section--paragraph"><?php echo $l->t('The add-in works with Microsoft Outlook 2010, 2013, 2016 and 2020 for Windows.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The add-in works with Microsoft Outlook 2010, 2013, 2016 and 365 for Windows.');?></p>
             </div>
         </div>
 	</div>
