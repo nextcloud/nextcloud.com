@@ -142,7 +142,7 @@
             Frank Karlitschek<br/>');?></p>
             <p><?php echo $l->t('<small>All product names and trademarks are the property of their respective owners, which might in no way be associated or affiliated with Nextcloud.</small>');?></p>
 
-            <p><?php echo $l->t('Last Edited on 2020-06-14');?></p>
+            <p><?php echo $l->t('Last Edited on 2020-07-13');?></p>
         </div>
     </div>
 </div>
