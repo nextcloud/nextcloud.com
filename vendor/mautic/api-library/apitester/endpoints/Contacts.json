@@ -1,0 +1,19 @@
+[
+    "contacts",
+    "contacts/{id}",
+    "contacts/list/fields",
+    "contacts/list/owners",
+    "contacts/new",
+    "contacts/batch/new",
+    "contacts/batch/edit",
+    "contacts/batch/delete",
+    "contacts/{id}/edit",
+    "contacts/{id}/delete",
+    "contacts/{id}/notes",
+    "contacts/{id}/segments",
+    "contacts/{id}/campaigns",
+    "contacts/{id}/points/plus/{points}",
+    "contacts/{id}/points/minus/{points}",
+    "contacts/{id}/points/times/{points}",
+    "contacts/{id}/points/divide/{points}"
+]

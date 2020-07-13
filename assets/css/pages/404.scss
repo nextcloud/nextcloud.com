@@ -1,0 +1,51 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+
+.generic-background {
+    background: url('../../img/headers/background-transparent.png') no-repeat;
+    background-color: #0082c9;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    min-height: 500px;
+    max-height: 800px;
+    .topheader {
+        margin-top: 70px;
+    }
+}
+
+
+.input-group {
+	input {
+		background: rgb(255, 255, 255) url(../../img/icons/search.png) no-repeat scroll 10px 12px;
+		margin: 25px 10px;
+		padding: 0 25px 0 45px;
+		height: 45px;
+		border-radius: 30px;
+		border-style: solid;
+		border-color: lightgray;
+		border-width: thin;
+		color: #757575;
+		width: 300px;
+	}
+	button {
+		margin: 20px 5px;
+		padding: 0 25px;
+		height: 45px;
+		border-radius: 30px;
+		border-style: solid;
+		border-color: lightgray;
+		border-width: thin;
+		color: #757575;
+		&:hover {
+			color: white;
+			background-color: $nextcloud-blue;;
+		}
+	}
+}
+
+
+footer {
+	margin-top: 200px;
+}

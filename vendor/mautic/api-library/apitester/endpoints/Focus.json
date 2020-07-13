@@ -1,0 +1,10 @@
+[
+    "focus",
+    "focus/{id}",
+    "focus/new",
+    "focus/batch/new",
+    "focus/batch/edit",
+    "focus/batch/delete",
+    "focus/{id}/edit",
+    "focus/{id}/delete"
+]

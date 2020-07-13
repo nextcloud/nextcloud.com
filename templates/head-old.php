@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html class="no-js" itemscope itemtype="http://schema.org/Organization" <?php language_attributes(); ?>>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title><?php wp_title('-', true, 'right'); ?></title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta itemprop="name" content="Nextcloud">
-	<meta itemprop="description" content="Nextcloud is an open source, self-hosted file sync and share and communication app platform. Access  &amp; sync your files, contacts, calendars  &amp; communicate and collaborate across your devices. You decide what happens with your data, where it is and who can access it!">
-	<meta name="description" content="Nextcloud is an open source, self-hosted file sync and share and communication app platform. Access  &amp; sync your files, contacts, calendars  &amp; communicate and collaborate across your devices. You decide what happens with your data, where it is and who can access it!">
-	<meta itemprop="image" content="https://nextcloud.com/wp-content/themes/nextcloudorgnew/assets/img/home/ncsplash.png">
-	<meta name="theme-color" content="#0082c9">
-	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/common/favicon.png" />
-	<link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/assets/img/common/favicon.png" />
+    <?php require get_template_directory().'/templates/metadata.php';?>
 
 	<!-- New styles -->
-	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/old/header.css" rel="stylesheet">
-	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/modules/footer.css" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/old/header.css?v=2" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/modules/footer.css?v=2" rel="stylesheet">
+
+	<!-- GDPR - block YouTube by default -->
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 
 	<!-- Fixes for the new style on legacy pages -->
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/legacy-fixes.css" rel="stylesheet">
 
 	<!-- Old styles below -->
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/old/main.min.css" />
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/old/main.min.css?v=2" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/old/font-awesome.css"/>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/old/styles.css"/>
 	<script type="text/javascript">

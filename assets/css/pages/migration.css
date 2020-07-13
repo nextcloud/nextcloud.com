@@ -1,106 +1,188 @@
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container-widest .container-widest {
+    width: 738px;
+  }
+}
+@media (min-width: 992px) {
+  .container-widest .container-widest {
+    width: 962px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-widest .container-widest {
+    width: 1170px;
+  }
+}
+@media (min-width: 1500px) {
+  .container-widest .container-widest {
+    width: 1470px;
+  }
+}
+@media (min-width: 1800px) {
+  .container-widest .container-widest {
+    width: 1770px;
+  }
+}
+
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
-  position: absolute; }
+  position: absolute;
+}
 
 .migration-background {
   background-image: url("../../img/headers/migration.jpg");
   background-position: center;
-  background-size: cover; }
-  @media (max-width: 1200px) {
-    .migration-background {
-      min-height: 1050px !important;
-      max-height: 1200px !important; } }
-  @media (max-width: 768px) {
-    .migration-background .topheader {
-      top: 20% !important; } }
+  background-size: cover;
+}
+@media (max-width: 1200px) {
+  .migration-background {
+    min-height: 1050px !important;
+    max-height: 1200px !important;
+  }
+}
+@media (max-width: 768px) {
+  .migration-background .topheader {
+    top: 20% !important;
+  }
+}
+.migration-background .topquote {
+  position: absolute;
+  top: 55%;
+  left: 60%;
+  margin: 0;
+  padding: 0;
+  max-width: 500px;
+  /* 	Fix width issues */
+}
+@media (max-width: 1600px) {
   .migration-background .topquote {
-    position: absolute;
-    top: 55%;
-    left: 60%;
-    margin: 0;
-    padding: 0;
+    max-width: 390px;
+  }
+}
+@media (max-width: 1200px) {
+  .migration-background .topquote {
+    max-width: 95%;
     max-width: 500px;
-    /* 	Fix width issues */ }
-    @media (max-width: 1600px) {
-      .migration-background .topquote {
-        max-width: 390px; } }
-    @media (max-width: 1200px) {
-      .migration-background .topquote {
-        max-width: 95%;
-        max-width: 500px;
-        top: 70%;
-        left: 25%;
-        margin-right: 5px; } }
-    @media (max-width: 768px) {
-      .migration-background .topquote {
-        top: 65%;
-        left: 8%; } }
-    .migration-background .topquote .carousel-inner {
-      height: 100%;
-      min-height: 300px; }
-    .migration-background .topquote .carousel-control.left {
-      background-image: none;
-      background: transparent; }
-      @media (max-width: 768px) {
-        .migration-background .topquote .carousel-control.left {
-          display: none; } }
-    .migration-background .topquote .carousel-control.right {
-      background-image: none;
-      background: transparent; }
-      @media (max-width: 768px) {
-        .migration-background .topquote .carousel-control.right {
-          display: none; } }
-    .migration-background .topquote .carousel-control .glyphicon-chevron-left, .migration-background .topquote .carousel-control .icon-prev {
-      background: url(../../img/previous-white.svg) center/contain no-repeat;
-      left: -50%;
-      font-size: 0px;
-      color: transparent; }
-    .migration-background .topquote .carousel-control .glyphicon-chevron-right, .migration-background .topquote .carousel-control .icon-next {
-      background: url(../../img/next-white.svg) center/contain no-repeat;
-      right: -40%;
-      font-size: 0px;
-      color: transparent; }
-    .migration-background .topquote h2 {
-      text-align: right;
-      color: white;
-      opacity: 1; }
-      .migration-background .topquote h2 a {
-        transition: all 0.5s ease;
-        color: white;
-        border-bottom: solid 1px white;
-        text-decoration: none; }
-        .migration-background .topquote h2 a:hover {
-          text-decoration: none;
-          color: #a2a2a2;
-          border-bottom: solid 1px #a2a2a2; }
-    .migration-background .topquote h3 {
-      color: white;
-      font-size: 18px;
-      text-align: left; }
-      .migration-background .topquote h3 .big {
-        font-weight: 600; }
-    .migration-background .topquote .row {
-      width: 100%; }
-    .migration-background .topquote .carousel {
-      width: 100%; }
+    top: 70%;
+    left: 25%;
+    margin-right: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .migration-background .topquote {
+    top: 65%;
+    left: 8%;
+  }
+}
+.migration-background .topquote .carousel-inner {
+  height: 100%;
+  min-height: 300px;
+}
+.migration-background .topquote .carousel-control.left {
+  background-image: none;
+  background: transparent;
+}
+@media (max-width: 768px) {
+  .migration-background .topquote .carousel-control.left {
+    display: none;
+  }
+}
+.migration-background .topquote .carousel-control.right {
+  background-image: none;
+  background: transparent;
+}
+@media (max-width: 768px) {
+  .migration-background .topquote .carousel-control.right {
+    display: none;
+  }
+}
+.migration-background .topquote .carousel-control .glyphicon-chevron-left, .migration-background .topquote .carousel-control .icon-prev {
+  background: url(../../img/previous-white.svg) center/contain no-repeat;
+  left: -50%;
+  font-size: 0px;
+  color: transparent;
+}
+.migration-background .topquote .carousel-control .glyphicon-chevron-right, .migration-background .topquote .carousel-control .icon-next {
+  background: url(../../img/next-white.svg) center/contain no-repeat;
+  right: -40%;
+  font-size: 0px;
+  color: transparent;
+}
+.migration-background .topquote h2 {
+  text-align: right;
+  color: white;
+  opacity: 1;
+}
+.migration-background .topquote h2 a {
+  transition: all 0.5s ease;
+  color: white;
+  border-bottom: solid 1px white;
+  text-decoration: none;
+}
+.migration-background .topquote h2 a:hover {
+  text-decoration: none;
+  color: #a2a2a2;
+  border-bottom: solid 1px #a2a2a2;
+}
+.migration-background .topquote h3 {
+  color: white;
+  font-size: 18px;
+  text-align: left;
+}
+.migration-background .topquote h3 .big {
+  font-weight: 600;
+}
+.migration-background .topquote .row {
+  width: 100%;
+}
+.migration-background .topquote .carousel {
+  width: 100%;
+}
 
-.section--paragraph__tittle {
-  padding-top: 50px; }
+.section--reasons .floated-quote {
+  float: right;
+  width: 450px;
+  max-width: 50%;
+  margin: 20px -150px 20px 20px;
+}
+.section--reasons .floated-quote blockquote {
+  margin: 0 0 -20px 0;
+}
+.section--reasons .floated-quote .referee {
+  width: 120px;
+  margin-left: 15px;
+}
+
+.section--paragraph__title {
+  padding-top: 50px;
+}
 
 .section--heading-1 {
-  padding: 80px 0 50px 0; }
+  padding: 80px 0 50px 0;
+}
 
-small {
+.section--paragraph small {
   padding: 50px 0 0 0;
-  display: block; }
+  display: block;
+}
 
 footer {
-  margin-top: 70px; }
-  footer small {
-    padding: 0 0 0 0; }
+  margin-top: 70px;
+}
+footer small {
+  padding: 0 0 0 0;
+}
 
 /*# sourceMappingURL=migration.css.map */

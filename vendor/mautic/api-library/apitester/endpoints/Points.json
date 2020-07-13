@@ -1,0 +1,18 @@
+[
+    "points",
+    "points/{id}",
+    "points/new",
+    "points/batch/new",
+    "points/batch/edit",
+    "points/batch/delete",
+    "points/{id}/edit",
+    "points/{id}/delete",
+    "points/triggers",
+    "points/triggers/{id}",
+    "points/triggers/new",
+    "points/triggers/batch/new",
+    "points/triggers/batch/edit",
+    "points/triggers/batch/delete",
+    "points/triggers/{id}/edit",
+    "points/triggers/{id}/delete"
+]

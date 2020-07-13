@@ -1,6 +1,29 @@
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -10,14 +33,57 @@
   background: url("../../img/headers/team.jpg") no-repeat;
   background-position: center;
   background-size: cover; }
+  .conf-background .topheader .hyperlink {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: solid 1px;
+    transition: all 0.5s ease;
+    text-decoration: none; }
+    .conf-background .topheader .hyperlink :hover {
+      color: #f0f0f0;
+      border-bottom: solid 2px; }
+
+section {
+  padding: 50px 0 50px; }
+  section .section--heading-1 {
+    padding-bottom: 50px; }
+  section .section--paragraph--tittle {
+    padding: 0; }
+  section .row {
+    padding: 20px 0 20px 0; }
 
 .section--intro {
-  margin: 120px 0;
   text-align: center; }
-  .section--intro .section--paragraph__tittle {
+  .section--intro .section--paragraph__title {
     padding: 5px 0 0 0; }
   .section--intro .section--paragraph {
     padding: 5px 0 15px 0; }
+  .section--intro img {
+    width: 50%;
+    /* 	max-width: 30vw; */
+    /* 	max-height: 30vh; */ }
+
+.section--program .overflow {
+  overflow-y: auto; }
+  .section--program .overflow .fixbox {
+    width: 1120px; }
+  .section--program .overflow th, .section--program .overflow td {
+    border-top: none;
+    padding: 12px;
+    text-align: center; }
+  .section--program .overflow .left {
+    text-align: left; }
+
+.section--speakers-keynote {
+  background: url("../../img/conference/keynotespeakers.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center; }
+  .section--speakers-keynote h1 {
+    text-shadow: 0px 0px 7px #000;
+    color: white;
+    margin-top: 300px; }
 
 .section--info {
   padding: 70px 0 90px 0;
@@ -41,6 +107,16 @@
   .section--info .row {
     padding: 60px 0 30px 0; }
 
+.section--speakers-community {
+  background: url("../../img/conference/communityspeakers.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center; }
+  .section--speakers-community h1 {
+    text-shadow: 0px 0px 7px #000;
+    color: white;
+    margin-top: 300px; }
+
 /*.section--call-for-papers {
 	margin: 50px 0 50px 0;
 	padding: 50px 0px;
@@ -53,51 +129,55 @@
 	}
 }*/
 .section--details {
-  margin: 120px 0 60px 0; }
+  padding: 120px 0 60px 0; }
   .section--details .row {
-    margin: 80px 0 40px 0; }
+    padding: 40px 0 20px 0; }
+  .section--details img {
+    margin-top: 45px; }
 
-.section--fridayfocus {
-  margin: 100px 0 100px 0;
+.section--enterprise {
+  /*     margin: 100px 0 100px 0; */
   padding: 80px 0 50px 0;
-  background-image: url("../../img/conference/workshop.jpg");
+  background-image: url("../../img/conference/enterprise-wide-2.jpg");
   background-size: cover;
   background-position: center;
   /*   @media (max-width: $break-small) { */
   /*     background-image: url('../../img/home/perfect-for-home-and-business-mobile.jpg'); */
   /*   } */ }
-  .section--fridayfocus .btn-primary {
+  .section--enterprise .btn-primary {
     width: 430px; }
   @media (min-width: 1600px) {
-    .section--fridayfocus {
+    .section--enterprise {
       padding-top: 120px;
       padding-bottom: 180px; } }
   @media (max-width: 768px) {
-    .section--fridayfocus .btn-primary {
+    .section--enterprise .btn-primary {
       width: 300px; }
-      .section--fridayfocus .btn-primary .icon-arrow {
+      .section--enterprise .btn-primary .icon-arrow {
         background: url(../../img/arrow_right.svg) center/contain no-repeat;
         position: absolute;
         width: 20px;
         height: 100%;
         right: 20px;
         top: 2px; } }
-  .section--fridayfocus .section--heading-1 {
-    width: 469px;
-    color: white; }
+  .section--enterprise .section--heading-1 {
+    color: white;
+    width: 469px; }
     @media (max-width: 768px) {
-      .section--fridayfocus .section--heading-1 {
-        color: white;
+      .section--enterprise .section--heading-1 {
         width: 100%; } }
-  .section--fridayfocus .section--paragraph {
-    color: #ffffff;
-    width: 469px;
-    padding-top: 30px;
-    padding-bottom: 30px; }
+  .section--enterprise .section--paragraph {
+    color: white;
+    width: 469px; }
     @media (max-width: 768px) {
-      .section--fridayfocus .section--paragraph {
+      .section--enterprise .section--paragraph {
         width: 90%;
         padding-top: 10px; } }
+
+.section--partners .col-sm-4 {
+  max-width: 300px; }
+  .section--partners .col-sm-4 .svg-logo {
+    /*             width: 100%; */ }
 
 .section--about .row {
   padding: 50px 0 100px 0; }

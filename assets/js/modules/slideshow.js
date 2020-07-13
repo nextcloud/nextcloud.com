@@ -166,9 +166,9 @@ define(['jquery', 'lodash', 'enquire', 'scrollMagic', 'hammer', 'inview'],
 
 					var sectionHeadingheight = $('#slideshow').find('.section--heading-1').height();
 					var currentImageDevice = $('.image-back').height() + sectionHeadingheight + 200;
-					$(this.variables.slideshowIndicatorsSelector).css({
-						'top': currentImageDevice + 'px'
-					});
+// 					$(this.variables.slideshowIndicatorsSelector).css({
+// 						'top': currentImageDevice + 'px'
+// 					});
 					$(this.variables.indicatorSlideshow).on('click', _.bind(this.indicatorsAnchorMobile, this));
 				},
 

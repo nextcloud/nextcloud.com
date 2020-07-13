@@ -37,15 +37,18 @@ class L10N {
 
 	/**
 	 * Gets the currently used language either from the hl parameter or the current domain
+	 * Checks if the length is either 2 or 5 and if it is either alphanumeric or matches the xx_XX format
 	 *
 	 * @return string
 	 */
 	private function getCurrentLanguage() {
 		$path = parse_url(site_url())['path'];
 		$language = explode('/', substr($_SERVER['REQUEST_URI'], strlen($path)));
-		if(isset($language[1]) && strlen($language[1]) === 2) {
-			if(ctype_alnum($language[1])) {
-				return $language[1];
+		if(isset($language[1])) {
+            if(strlen($language[1]) === 2 || strlen($language[1]) === 5) {
+                if(ctype_alnum($language[1]) || preg_match("/^[a-z]{2}_[A-Z]{2}/",$language[1])) {
+                    return $language[1];
+                }
 			}
 		}
 

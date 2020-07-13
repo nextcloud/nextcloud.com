@@ -1,0 +1,65 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+@import '../vendor/modular-scale/modular-scale';
+
+
+.generic-background {
+    background: url('../../img/headers/background-transparent.png') no-repeat;
+    background-color: #0082c9;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    min-height: 300px;
+    max-height: 400px;
+    .topheader {
+        margin-top: 70px;
+    }
+}
+
+/* General */
+
+
+.section--pressrelease {
+    padding: 50px 0 50px;
+
+	h1 {
+		font-size: 48px;
+		margin-bottom: 0px;
+	}
+
+    h2 {
+		font-size: 30px;
+		margin-top: 50px;
+/* 		font-style: italic; */
+	}
+
+	h3 {
+		font-size: 20px;
+		margin-top: 20px;
+		font-style: italic;
+	}
+
+	p {
+		margin-top: 15px;
+	}
+
+	blockquote {
+		margin: 0 0 -20px 0;
+	}
+
+	ul {
+		list-style-type: disc;
+	}
+	li {
+		margin-top: 0px;
+	}
+
+}
+
+.row {
+	margin-top: 20px;
+}
+
+footer {
+    margin-top: 100px;
+}

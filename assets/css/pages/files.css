@@ -1,0 +1,120 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+.files-background {
+  background: url("../../img/headers/yourcloud.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+section {
+  margin: 50px 0; }
+
+.section--intro p {
+  margin-top: 20px; }
+.section--intro .video .video-js {
+  background-color: transparent !important; }
+
+.section--customers {
+  position: relative; }
+  .section--customers .section--paragraph {
+    margin: 40px 0; }
+  .section--customers .row {
+    margin-top: 50px; }
+  .section--customers .customer {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px; }
+    .section--customers .customer .customer-logo {
+      -webkit-filter: saturate(0%) contrast(0.35) brightness(130%);
+      filter: saturate(0%) contrast(0.35) brightness(130%);
+      padding-left: 10px;
+      padding-right: 10px;
+      max-width: 250px;
+      float: center;
+      position: relative;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      vertical-align: middle; }
+
+.section--on-premise .section--heading-1 {
+  padding-bottom: 30px; }
+
+.acess__anywhere {
+  width: 400px;
+  margin: 0 auto; }
+
+.section--files {
+  padding-top: 80px; }
+
+.section--whitepaper {
+  padding: 0; }
+  .section--whitepaper h2 {
+    line-height: normal; }
+
+.section--outlook h1 {
+  /*margin-bottom: 10px;*/ }
+.section--outlook p {
+  padding: 10px 0 30px 0; }
+.section--outlook .row {
+  padding-bottom: 10px; }
+
+.section--others {
+  margin: 0 0 0 0;
+  padding: 90px 0 70px 0;
+  background-color: #eee; }
+  .section--others .row {
+    margin-bottom: 10px; }
+  .section--others img {
+    padding: 20px; }
+
+.section--more .container-widest .row {
+  margin-left: 5px;
+  margin-right: 5px; }
+.section--more .section--heading-1 {
+  padding-bottom: 60px; }
+.section--more i[class*='fa-'] {
+  font-size: 60px;
+  display: block;
+  color: #0082c9;
+  text-align: center;
+  padding-top: 20%; }
+
+.section--getstarted {
+  margin-bottom: 0px;
+  padding-bottom: 0; }
+  .section--getstarted a {
+    margin: 50px; }
+
+footer {
+  margin-top: 0px; }
+
+/*# sourceMappingURL=files.css.map */

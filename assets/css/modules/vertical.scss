@@ -1,0 +1,37 @@
+@import '../variables';
+
+.section--vertical {
+    margin: 0 0 0 0;
+    padding: 90px 0px 70px;
+    background-color: #eee;
+    .row {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+        margin-bottom: 20px !important;
+        h3 {
+            margin-top: 0 !important;
+        }
+    }
+    img {
+        padding: 20px !important;
+    }
+    .description {
+		min-height: 100px;
+
+	}
+	.button--blue {
+		text-decoration: none;
+		color: $nextcloud-blue;
+		background-color: transparent;
+		border: solid 1px $nextcloud-blue;
+	}
+	.button--blue:hover {
+		text-decoration: none;
+		color: white;
+		background-color: $nextcloud-blue;
+	}
+	.button--small {
+		width: 100%;
+		max-width: 300px;
+	}
+}

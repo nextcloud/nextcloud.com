@@ -15,9 +15,15 @@
 	<div class="container">
 		<blockquote class="text-center"><?php echo $l->t('An open source project is its contributors');?></blockquote>
 		<p class="section--paragraph"><?php echo $l->t('Over 1000 people have code in Nextcloud. About a 10th of those have direct access to the code in our repository, contributing regularly. Besides coders, there are designers, Nextcloud advocates, translators, forum admins and many others who are part of our community. Below you see a random selection of our awesome members.');?></p>
-		<p class="section--paragraph"><?php echo $l->t('If you want to be listed just <a class="hyperlink" href="https://github.com/orgs/nextcloud/people">set yourself as public in our GitHub organization</a>. If you want to take part in our community, learn more about the different <a class="hyperlink" href="https://nextcloud.com/contribute/">ways to contribute</a>.');?></p>
+		<p class="section--paragraph"><?php echo $l->t('If you want to be listed just <a class="hyperlink" href="https://github.com/orgs/nextcloud/people">set yourself as public in our GitHub organization.</a> If you want to take part in our community, learn more about the different');?> <a class="hyperlink" href="<?php echo home_url('contribute') ?>"><?php echo $l->t('ways to contribute.</a>');?></p>
+        <div class="row">
+            <div class="col-md-4">
+                <script type='text/javascript' src='https://www.openhub.net/p/nextcloud/widgets/project_factoids_stats?format=js'></script>
+            </div>
+        </div>
+    </div>
 
-		</div>
+	</div>
 		<div class="wrap container contributorgroup">
 
 
@@ -54,5 +60,5 @@
 
 <div class="calltoaction">
 		<h1 class="section--heading-2 section--text--center"><?php echo $l->t('Let\'s make Nextcloud Rock!');?></h1>
-		<p class="section--paragraph section--text--center"><?php echo $l->t('You can <a class="hyperlink" href="/contribute/">get involved, too</a>.');?></p>
+		<p class="section--paragraph section--text--center"><a class="hyperlink" href="<?php echo home_url('contribute') ?>"><?php echo $l->t('You can get involved, too.</a>');?></p>
 </div>

@@ -7,14 +7,44 @@
   background-size: cover;
 }
 
-.section--paragraph__tittle {
-	padding: 0;
+section {
+	padding: 50px 0;
+	.section--paragraph__title {
+		padding: 0;
+	}
+	.row {
+		padding-top: 80px;
+	}
+	h2 {
+		padding-bottom: 40px;
+	}
+	ul {
+		padding-left: 30px;
+	}
+	li {
+/* 			list-style-type: circle; */
+			list-style-image: url("../../img/enterprise/check.svg");
+/* 		list-style-position:inside; */
+	}
+	.quote {
+		.row {
+			padding-top: 0px;
+		}
+	}
 }
 
-.section--desktop {
-	padding: 100px 0;
+.section--mobile, .section--ios {
+	.container {
+		.row.vertical-image-list {
+			overflow: hidden;
+			img {
+				margin: 30px auto;
+/* 				max-width: 70vw; */
+				max-width: 90%;
+				max-height: 400px;
+			}
+		}
+	}
 }
 
-.section--mobile {
-	padding: 100px 0;
-}
+

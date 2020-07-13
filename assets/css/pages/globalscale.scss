@@ -14,9 +14,6 @@
   margin-bottom: 50px
 }
 
-.image--floated{
-	float: right;
-}
 
 section {
 	margin-top: 150px;
@@ -55,11 +52,6 @@ section {
     padding-top: ms(5);
     padding-bottom: ms(5);
 
-    .section--intro {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
-
     .scalability__ilustration {
       background: url(../../img/globalscale/usage.svg) no-repeat center/contain;
 /*       width: 950px; */
@@ -78,11 +70,6 @@ section {
   .container{
     padding-top: ms(5);
     padding-bottom: ms(5);
-
-    .section--intro {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
 
     .efficiency__ilustration {
       background: url(../../img/globalscale/splitup.svg) no-repeat center/contain;
@@ -103,10 +90,6 @@ section {
     padding-top: ms(5);
     padding-bottom: ms(5);
 
-    .section--intro {
-      max-width: ms(9);
-      margin: 0 auto;
-    }
 
     .distribution__ilustration {
       background: url(../../img/globalscale/distribution.svg) no-repeat center/contain;
@@ -129,12 +112,6 @@ section {
 	.container{
 		padding-top: ms(5);
 		padding-bottom: ms(5);
-
-		.section--intro {
-		max-width: ms(9);
-		margin: 0 auto;
-		}
-
 	}
 /* 	.container { */
 		.components {
@@ -202,10 +179,4 @@ section {
 
 footer {
     margin-top: 0px;
-}
-
-.quote {
-	margin: 0 0 0 0;
-	padding: 70px;
-	padding-top: 90px;
 }

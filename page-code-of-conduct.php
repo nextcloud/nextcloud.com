@@ -87,10 +87,9 @@
   <p class="section--paragraph"><?php echo $l->t('The authors of this document would like to thank the Nextcloud community and those who have worked to create such a dynamic environment to share in and who offered their thoughts and wisdom in the authoring of this document. We would also like to thank other vibrant communities that have helped shape this document with their own examples, especially KDE.');?></p>
   </div>
 </div>
-
-
   <div class="calltoaction">
 		<h1 class="section--heading-2 section--text--center"><?php echo $l->t('Let\'s make Nextcloud Rock!');?></h1>
 		<p class="section--paragraph section--text--center"><?php echo $l->t('You can <a class="hyperlink" href="/contribute/">get involved, too</a>.');?></p>
   </div>
 </div>
+</section>

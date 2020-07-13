@@ -1,0 +1,48 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
+/* @import '../modules/transparent-navbar'; */
+/* @import '../modules/vertical'; */
+.yourdata-background {
+  background: url("../../img/headers/yourdata.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 70px; }
+
+section {
+  margin-top: 70px; }
+  section .section--paragraph__title {
+    margin-top: 70px; }
+
+.section--text p {
+  text-align: justify;
+  font-size: 1.3em;
+  line-height: 1.7; }
+
+footer {
+  margin-top: 100px; }
+
+/*# sourceMappingURL=yourdata.css.map */

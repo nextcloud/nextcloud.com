@@ -1,14 +1,11 @@
 <div class="row page-content-header">
-<div class="col-md-4">
+<div class="col-md-12">
     <h1>Security Advisory</h1>
     <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
-    <div class="col-md-4">
-        <?php get_template_part('advisories/advisory-side'); ?>
-    </div>
-    <div class="col-md-8">
+    <div class="col-md-12">
         <h2>Permission increase on re-sharing via OCS API (NC-SA-2017-001)</h2>
         <p>5th February 2017</p>
         <p>Risk level: <strong>Medium</strong></p>
@@ -16,9 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/275.html">Permission Issues (CWE-275)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/169680">169680</a></p>
         <h3>Description</h3>
-        <p><p>A permission related issue within the OCS sharing API allowed an authenticated adversary to reshare shared files with an increasing permission set. This may allow an attacker to edit files in a share despite having only a 'read' permission set.</p>
-<p>Note that this only affects folders and files that the adversary has at least read-only permissions for.</p>
-</p>
+        <p>A permission related issue within the OCS sharing API allowed an authenticated adversary to reshare shared files with an increasing permission set. This may allow an attacker to edit files in a share despite having only a 'read' permission set.Note that this only affects folders and files that the adversary has at least read-only permissions for.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>10.0.2</strong> (CVE-2017-0883)</li>
@@ -26,8 +21,9 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The permissions are now properly checked on the OCS endpoint.</p>
-</p>
+        <p>The permissions are now properly checked on the OCS endpoint.</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to Nextcloud 9.0.55 or 10.0.2.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

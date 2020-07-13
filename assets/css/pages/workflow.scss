@@ -6,13 +6,8 @@
   background-position: center;
   background-size: cover;
 }
-
-.col-md-8 p {
+.section--header {
   text-align: center;
-}
-
-.image--floated {
-	float: right;
 }
 
 .section--desktop {
@@ -22,7 +17,7 @@
 section {
 	padding: 100px 0;
 
-	.section--paragraph__tittle {
+	.section--paragraph__title {
 		padding: 0;
 	}
 }

@@ -1,0 +1,10 @@
+[
+    "assets",
+    "assets/{id}",
+    "assets/new",
+    "assets/batch/new",
+    "assets/batch/edit",
+    "assets/batch/delete",
+    "assets/{id}/edit",
+    "assets/{id}/delete"
+]

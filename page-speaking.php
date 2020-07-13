@@ -1,9 +1,26 @@
+<head>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+
+<div class="background generic-background">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 topheader">
+                <h1>Speaking about Nextcloud</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="content">
+<div class="container">
 <div class="page-header">
-	<h1><a href="/events">Events</a> > <a href="/events/conference-program">Conference program</a> > Speaking</h1>
+	<h2><a href="<?php echo home_url('/events') ?>">Events</a> > <a href="<?php echo home_url('/events/conference-program') ?>">Conference program</a> > Speaking</h2>
 </div>
 <div class="sub-nav">
 	<a href="/events/Meetups">Meetups</a>&nbsp;&nbsp;
-	|&nbsp;&nbsp;<a href="/events/meetups">Conference Program</a>&nbsp;&nbsp;
+	|&nbsp;&nbsp;<a href="<?php echo home_url('/events/meetups') ?>">Conference Program</a>&nbsp;&nbsp;
 <!-- 	|&nbsp;&nbsp;<a href="/events/contactform">Contact</a> -->
 </div>
 <div class="row">
@@ -74,7 +91,6 @@
 	<h4>Final steps</h4>
 	<p>While making slides, keep in mind what your key messages are. Summarize frequently, repetition makes your audience remember! Summarize after each message section, mention what you discussed and what comes next.</p>
 	<p>Finally tell people where to find more information/get it/how to contact you, and add a slide where they can ask questions. Done!</p>
-	<picture: practice.jpg by woodleywonderworks on flickr>
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/practice.jpg" style="width: 400px" title="picture from woodleywonderworks on flickr" alt="picture from woodleywonderworks on flickr" class="img-thumbnail alignright">
 	<h3>3. Study</h3>
 	<p>Now the slides are done, but you're not.</p>
@@ -90,7 +106,6 @@
 	<h4>Final preparation</h4>
 	<p>Take your improved and adjusted notes and try to condense them down to very few words; or use strategic bolding on the text to create a backup for yourself. In any case, put the end result, be it short or full text, on paper (printed) or in the notes section of the slides. If, at any point during the presentation, you get stuck, you can resort to reading for a few seconds!</p>
 	<p>Your practice will ensure it is unlikely you will get really stuck. Yes, you might go off track, but the notes will pull you back, no worries. Don't rely too much on them - they are a backup plan!</p>
-	<picture: presentation.jpg by tomwsulcer on wikimedia>
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/presentation.jpg" style="width: 400px" title="picture from tomwsulcer on wikipedia" alt="picture from tomwsulcer on wikipedia" class="img-thumbnail alignright">
 	<h3>4. Speak</h3>
 	<p>Now it is time for the actual talk. Now first of all: <em>you will be nervous</em>. And that is a good thing: some healthy nerves will keep your performance top-notch! So do not worry about it, nobody will notice.</p>
@@ -105,3 +120,5 @@
 	<p><em>You can find many more tips on the web. These are a few good ones: <a href="http://blog.hubspot.com/blog/tabid/6307/bid/5975/10-Rules-to-Instantly-Improve-Your-Presentations.aspx">10 rules to instantly improve your presentations</a></em></p>
 	</div>
 </div>
+</div>
+</section>

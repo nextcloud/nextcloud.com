@@ -1,0 +1,54 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
+.section--vertical {
+  margin: 0 0 0 0;
+  padding: 90px 0px 70px;
+  background-color: #eee; }
+  .section--vertical .row {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important; }
+    .section--vertical .row h3 {
+      margin-top: 0 !important; }
+  .section--vertical img {
+    padding: 20px !important; }
+  .section--vertical .description {
+    min-height: 100px; }
+  .section--vertical .button--blue {
+    text-decoration: none;
+    color: #0082c9;
+    background-color: transparent;
+    border: solid 1px #0082c9; }
+  .section--vertical .button--blue:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #0082c9; }
+  .section--vertical .button--small {
+    width: 100%;
+    max-width: 300px; }
+
+/*# sourceMappingURL=vertical.css.map */

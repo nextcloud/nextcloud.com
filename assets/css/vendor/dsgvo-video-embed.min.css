@@ -1,0 +1,101 @@
+iframe {
+    display: inline-block;
+	width: 100%;
+    min-height: 300px;
+}
+
+.video-wall {
+    position: relative;
+    color: white;
+    display: inline-block;
+    min-height: 15em;
+    min-width: 10em;
+    margin: 0;
+    background-color: #eee;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 0.2em ;
+	width: 100% !important;
+}
+
+.video-wall strong { /* we don't bother to show this anymore... */
+	display: block;
+	display: none;
+    width: 14em;
+    margin: 0.1em auto;
+    text-align: center;
+/*     background-color: rgba(238, 238, 238, 0.6); */
+	color: white;
+    text-shadow: 0px 0px 3px #000;
+    font-size: 0.7em !important;
+}
+
+.video-wall .dsgvo-text {
+	position: absolute;
+	bottom: 0;
+	left: calc(50% - 15em);
+    text-shadow: 0px 0px 3px #000;
+    display: block;
+	width: 30em;
+    margin: 0.2em auto;
+    overflow-y: auto;
+    color: black !important;
+    text-shadow: none;
+    background-color: #eee;
+    opacity: 0.8;
+    height: 8em;
+}
+
+.video-wall p {
+    font-size: 0.5em !important;
+    padding: 0.5em;
+}
+
+.video-wall a {
+    color: inherit;
+    border: 0;
+}
+
+.video-wall a {
+    color: inherit;
+    border: 0;
+}
+
+.video-wall .dsgvo-text a {
+    color: black !important;
+    border: 0;
+}
+
+.video-wall a:hover {
+    color: inherit;
+    text-decoration: underline;
+    border: 0;
+}
+
+.video-wall button {
+	position: absolute;
+	left: calc(50% - 5.7em);
+    top: calc(50% - 3.5em);
+    -webkit-appearance: none !important;
+    cursor: pointer !important;
+    color: #444 !important;
+    display: block !important;
+    width: 11.5em !important;
+    height: 4.25em !important;
+    border: 0 none !important;
+    border-radius: 0.75em !important;
+    padding: 0 0 0 5.5em !important;
+    text-align: left !important;
+    margin: 1em auto 3em auto !important;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'%3E%3Cpath fill='%23ff0000' d='M11.109 17.625l7.562-3.906-7.562-3.953v7.859zM14 4.156c5.891 0 9.797 0.281 9.797 0.281 0.547 0.063 1.75 0.063 2.812 1.188 0 0 0.859 0.844 1.109 2.781 0.297 2.266 0.281 4.531 0.281 4.531v2.125s0.016 2.266-0.281 4.531c-0.25 1.922-1.109 2.781-1.109 2.781-1.062 1.109-2.266 1.109-2.812 1.172 0 0-3.906 0.297-9.797 0.297v0c-7.281-0.063-9.516-0.281-9.516-0.281-0.625-0.109-2.031-0.078-3.094-1.188 0 0-0.859-0.859-1.109-2.781-0.297-2.266-0.281-4.531-0.281-4.531v-2.125s-0.016-2.266 0.281-4.531c0.25-1.937 1.109-2.781 1.109-2.781 1.062-1.125 2.266-1.125 2.812-1.188 0 0 3.906-0.281 9.797-0.281v0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 1em center #eee;
+    opacity: 0.8 !important;
+    background-size: 3.5em !important;
+    transition: background-color 0.3s !important;
+}
+
+.video-wall button:hover {
+    color: black !important;
+    background-color: white !important;
+    opacity: 1 !important;
+}

@@ -1,14 +1,11 @@
 <div class="row page-content-header">
-<div class="col-md-4">
+<div class="col-md-12">
     <h1>Security Advisory</h1>
     <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
-    <div class="col-md-4">
-        <?php get_template_part('advisories/advisory-side'); ?>
-    </div>
-    <div class="col-md-8">
+    <div class="col-md-12">
         <h2>Content-Spoofing in "dav" app (NC-SA-2016-011)</h2>
         <p>10th October 2016</p>
         <p>Risk level: <strong>Low</strong></p>
@@ -16,8 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/451.html">User Interface (UI) Misrepresentation of Critical Information (CWE-451)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/149798">149798</a></p>
         <h3>Description</h3>
-        <p><p>The exception message displayed on the DAV endpoints contained partially user-controllable input leading to a potential misrepresentation of information.</p>
-</p>
+        <p>The exception message displayed on the DAV endpoints contained partially user-controllable input leading to a potential misrepresentation of information.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>10.0.1</strong> (CVE-2016-9468)</li>
@@ -31,8 +27,9 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The user-controlled content has been removed from the exception message.</p>
-</p>
+        <p>The user-controlled content has been removed from the exception message.</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to Nextcloud 9.0.54 or 10.0.1.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

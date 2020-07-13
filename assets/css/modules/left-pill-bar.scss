@@ -1,0 +1,32 @@
+/* This is a navigator with navigation left and content right. Inspired by Digital Ocean website. */
+
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables.scss';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/clearfix.scss';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/nav-divider.scss';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/border-radius.scss';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navs.scss';
+
+.nav.nav-pills.brand-pills.nav-stacked {
+    position: relative !important;
+    padding: 5px 0 30px 0;
+    opacity: 1; /* compensate for nav being set to opacity 0 by our top nav bar code */
+    li {
+        margin: 0;
+        border-left: 1px solid lightgray;
+        &:hover, &.active {
+            border-left: 1px solid blue;
+            font-weight: 700;
+        }
+        a {
+          color: #2a2a36;
+          background-color: transparent;
+          padding-left: 20px;
+          border-radius: 0;
+          margin: 0;
+        }
+        .tab-content {
+          margin-top: 15px;
+          padding-top: 5px;
+        }
+    }
+}

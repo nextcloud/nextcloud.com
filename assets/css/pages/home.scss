@@ -2,11 +2,17 @@
 @import '../modules/transparent-navbar';
 
 .jumbotron {
-  background: -webkit-gradient(linear, left top, left bottom, from($nextcloud-blue), color-stop(100%, #3e9ed8), to(#d8d8d8));
-  background: linear-gradient(to bottom, $nextcloud-blue, #3e9ed8 100%, #d8d8d8);
+/*   background: -webkit-gradient(linear, left top, left bottom, from($nextcloud-blue), color-stop(100%, #3e9ed8), to(#d8d8d8)); */
+  /*background: linear-gradient(to bottom, $nextcloud-blue, #3e9ed8 100%, #d8d8d8);*/
+  background-image: url('../../img/logo/background.svg'), linear-gradient(40deg, #0082c9 0%, rgba(28,175,255,1) 100%);
+
+  background-position: 50% 50%;
+  background-repeat: repeat;
+  background-size: 275px, contain;
+  background-attachment: fixed; /* fix background gradient */
   padding: 0;
   margin-bottom: 0;
-  background-size: 100% auto, cover;
+/*   background-size: 100% auto, cover; */
   height: 100vh;
   min-height: 700px;
   border-radius: 0 !important;
@@ -96,6 +102,8 @@
     top: 30vh;
     padding-left: 0;
     margin-left: 0;
+	z-index: 2;
+
 
     .button {
       opacity: 0;
@@ -105,10 +113,22 @@
 
     .jumbotron--heading-1,
     .jumbotron--lead {
-      opacity: 0;
+      opacity: 1;
       -webkit-transform: translateY(50px);
               transform: translateY(50px);
     }
+    .jumbotron--lead {
+		@media (max-width: $break-small) {
+			text-shadow: 0px 0px 5px #000000;
+		}
+	}
+
+	.button {
+		@media (max-width: $break-small) {
+/* 			text-shadow: 0px 0px 5px #000000; */
+/* 			background: #0082c9cc; */
+		}
+	}
 
     @media (max-width: $break-big) {
       top: 120px;
@@ -116,12 +136,13 @@
     }
 
     .announcement {
-      background-color:  rgba(0, 115, 178, 0.51);
+      max-width: 600px;
+		background-color:  rgba(0, 115, 178, 0.51);
       border-radius: 20px;
-      padding: 0 12px 0 5px;
+      padding: 0 12px 0 8px;
       text-decoration: none;
       color: white;
-      line-height: 26px;
+      line-height: 1.2;
       display: -webkit-inline-box;
       display: -ms-inline-flexbox;
       display: inline-flex;
@@ -153,8 +174,9 @@
       }
 
       .message {
-        margin: 0 16px 0 6px;
+        margin: 10px 16px 10px 10px;
         font-size: 13px;
+        line-height: 1em;
 
         @media (max-width: $break-small) {
           font-size: 15px;
@@ -189,16 +211,225 @@
       }
     }
   }
+  .scrollbutton a {
+      position: absolute;
+      bottom: 6px;
+      left: 25%;
+      z-index: 2;
+      display: inline-block;
+      -webkit-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+      color: #fff;
+      letter-spacing: .1em;
+      text-decoration: none;
+      transition: opacity .3s;
+  }
+  .scrollbutton a:hover {
+      opacity: .5;
+  }
+  .scrollbutton a {
+      padding-top: 80px;
+  }
+  .scrollbutton a span {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 24px;
+      height: 24px;
+      margin-left: -12px;
+      border-left: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      -webkit-animation: sdb07 2s infinite;
+      animation: sdb07 2s infinite;
+      opacity: 0;
+      box-sizing: border-box;
+  }
+  .scrollbutton a span:nth-of-type(1) {
+      -webkit-animation-delay: 0s;
+      animation-delay: 0s;
+  }
+  .scrollbutton a span:nth-of-type(2) {
+      top: 16px;
+      -webkit-animation-delay: .15s;
+      animation-delay: .15s;
+  }
+  .scrollbutton a span:nth-of-type(3) {
+      top: 32px;
+      -webkit-animation-delay: .3s;
+      animation-delay: .3s;
+  }
+  @-webkit-keyframes sdb07 {
+      0% {
+          opacity: 0;
+      }
+      50% {
+          opacity: 1;
+      }
+      100% {
+          opacity: 0;
+      }
+  }
+  @keyframes sdb07 {
+      0% {
+          opacity: 0;
+      }
+      50% {
+          opacity: 1;
+      }
+      100% {
+          opacity: 0;
+      }
+  }
+
 }
 
-#why-nextcloud {
+.section--intro {
+    p {
+        margin-top: 20px;
+    }
+    .video .video-js {
+        background-color: transparent !important;
+    }
+}
+
+/**
+* Home page: Why Nextcloud?
+*/
+.icon-row {
+  padding-bottom: 100px;
+}
+.icon-row img {
+  height: 200px;
+}
+.icon-row h4 {
+  padding-top: 39px;
+}
+
+.section--products {
+    margin: 0 0 0 0;
+    padding: 90px 0 70px 0;
+/*     background-color: #eee; */
+    .row {
+        margin-bottom: 10px;
+    }
+    img {
+        padding: 20px;
+    }
+    .description {
+        min-height: 100px;
+        margin: 0 20px;
+        .title {
+            display: block;
+            padding: 5px 10px 0 0;
+            font-size: 18px;
+            /*             color: white; */
+            .logo {
+                width: 65px;
+                min-height: 25px;
+                float:left;
+                vertical-align: middle;
+                img {
+                    margin-top: 0px;
+                    padding: 4px 5px 0 0;
+                    height: 60px;
+                    width: 60px;
+                }
+            }
+            .text {
+                line-height: 1;
+                padding: 10px 0 10px 0;
+                strong {
+                    line-height: 1.2;
+                    font-weight: normal;
+                    font-size: 22px;
+                }
+                small {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
+
+.section--homeoffice {
+    p {
+        margin-bottom: 50px;
+    }
+}
+
+.section--hub {
+    position: relative;
+    height: 500px;
+    /*     position: relative; */
+    .icon-background {
+        /*         background-image: url("../../img/headers/collaboration.jpg"); */
+        background-color: #0082c9;
+        background-image: url('../../img/headers/pattern.svg');
+        background-image: url('../../img/logo/background.svg'), linear-gradient(40deg, #0082c9 0%, rgba(28,175,255,1) 100%);
+        background-position: 50% 50%;
+        background-repeat: repeat;
+        background-size: 275px, contain;
+        background-attachment: fixed; /* fix background gradient */
+        min-height: 100%; /* fix sticky footer */
+        height: auto;
+        @media (max-width: $break-small) {
+            /*             display: none; */
+        }
+    }
+    .col-md-6 {
+        min-height: 1px;
+    }
+    .with-image {
+        position: relative;
+        .image {
+            position: absolute;
+            right: 0;
+            height: 400px;
+            .img-responsive {
+                vertical-align: middle;
+                margin: 0;
+                height: 400px;
+                padding: 50px 0;
+            }
+        }
+    }
+
+    .text {
+/*         position: absolute; */
+/*         right: 0; */
+        margin-top: -1px;
+        background: white;
+        height: 400px;
+/*         width: 50vw; */
+        h3 {
+            font-size: 26px;
+/*             width: 500px; */
+        }
+
+        padding: 30px;
+        p {
+            padding-top: 0px;
+/*             width: 500px; */
+        }
+    }
+}
+
+
+.section--why {
+	padding-bottom: 80px;
+	a {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
   .highlights {
     display: -ms-flexbox;
     display: flex;
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
     margin: -16px 0 0 -16px;
-    padding: 0;
+    padding: 0 0 30px 0;
     list-style: none;
   }
 
@@ -261,21 +492,171 @@
   text-indent: -30px;
 }
 
+.section--customers {
+    padding-top: 60px;
+	padding-bottom: 90px;
+    position: relative;
+    .container {
+    }
+    .row {
+    margin-top: 50px;
+    }
+    .customer {
+        margin-top: 30px;
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+        .customer-logo {
+
+            -webkit-filter: saturate(0%) contrast(0.4) brightness(400%);
+            filter: saturate(0%) contrast(0.4) brightness(400%);
+
+            max-width: 250px;
+            float: center;
+/*             height: 200px; */
+            position: relative;
+/*             line-height: 200px; */
+            text-align:center;
+/*             width: 100%; */
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            vertical-align: middle;
+/*            img {
+                max-width: 90%;
+                vertical-align: middle;
+            }
+            .scaling-svg-container {
+                height: 0;
+                width: 100%;
+                padding: 0;
+                padding-bottom: 100%;
+            }
+            svg {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                left: 0;
+                top: 0;
+            }
+            @media (max-width: $break-big) {
+                height: 150px;
+                line-height: 150px;
+            }
+            @media (max-width: $break-small) {
+                height: 100px;
+                line-height: 100px;
+            }*/
+
+            /*			svg {
+             *			vertical-align: middle;
+             *			float:none;
+             *			width: auto;
+             *			height: 400px;
+             *			padding-bottom: 100px;
+        }*/
+        }
+    }
+}
 
 
 /**
-* Home page: Why Nextcloud?
-*/
-.icon-row {
-  padding-bottom: 100px;
-}
-.icon-row img {
-  height: 200px;
-}
-.icon-row h4 {
-  padding-top: 39px;
+ * Home page: Nextcloud Events
+ */
+
+.section--conf {
+    margin: 100px 0 0 0;
+    padding: 50px 0 0 0;
+    background-image: url('../../img/headers/team.jpg');
+    background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
+
+    .button {
+        margin-right: 30px;
+    }
+
+    @media (min-width: $very-wide) {
+        padding-top: 120px;
+        padding-bottom: 180px;
+    }
+
+    .section--heading-1 {
+        color: white;
+        width: 669px;
+        text-shadow: 0px 0px 1px black;
+        @media (max-width: $break-small) {
+            width: 100%;
+        }
+    }
+
+    .section--paragraph {
+        color: white;
+        width: 669px;
+        text-shadow: 0px 0px 1px black;
+        @media (max-width: $break-small) {
+            width: 90%;
+            padding-top: 10px;
+        }
+    }
 }
 
+.section--enterprise-day {
+    margin: 100px 0 0 0;
+    padding: 80px 0 50px 0;
+    background-image: url('../../img/conference/enterprise-day-wide.jpg');
+    background-size: cover;
+    background-position: center;
+
+    .btn-primary {
+        width: 430px;
+    }
+
+    @media (min-width: $very-wide) {
+        padding-top: 120px;
+        padding-bottom: 180px;
+    }
+
+    @media (max-width: $break-small) {
+        .btn-primary {
+            width: 300px;
+
+            .icon-arrow {
+                background: url(../../img/arrow_right.svg) center/contain no-repeat;
+                position: absolute;
+                width: 20px;
+                height: 100%;
+                right: 20px;
+                top: 2px;
+            }
+        }
+    }
+
+    .section--heading-1 {
+        color: white;
+        width: 469px;
+        @media (max-width: $break-small) {
+            width: 100%;
+        }
+    }
+
+    .section--paragraph {
+        color: white;
+		i {
+			color: white;
+		}
+        width: 469px;
+        @media (max-width: $break-small) {
+            width: 90%;
+            padding-top: 10px;
+        }
+    }
+}
+
+.section--compliance {
+	margin-top: 0px !important;
+}
 
 /**
 * Home page: Introducing Nextcloud X
@@ -320,6 +701,83 @@
   }
 }
 
+.Section-Introducing-Nextcloud {
+    background-color: transparent;
+    overflow: hidden;
+    height: 200vh;
+    position: relative;
+    padding-top: 130px;
+    @media (max-width: $navbar-breaksize) {
+        padding-top: 60px;
+        height: 100vh;
+    }
+
+    .img_carousel {
+        padding-top: 100px;
+        position:relative;
+        @media (max-height: 800px) {
+            padding-top: 60px;
+        }
+
+        img {
+            float: right;
+            width: 582px;
+            height: 474px;
+            @media (max-height: 800px) {
+                width: 490px;
+                height: 402px;
+            }
+        }
+    }
+
+    .indicators {
+        -webkit-transition: all .5s;
+        transition: all .5s;
+        opacity: 1;
+        position: absolute;
+        z-index: 2;
+        bottom: 50vh;
+        right: 0;
+        @media (max-width: $break-small) {
+            display: none;
+        }
+
+        .btn_carousel{
+            margin-top: 10px;
+            width: 14px;
+            height: 14px;
+            color: transparent;
+            border: 1px solid $nextcloud-blue;
+            background-color: $nextcloud-blue;
+            border-radius: 50%;
+            padding: 0;
+            -webkit-transform: scale(.5);
+            transform: scale(.5);
+            -webkit-transition: all 250ms ease-in-out;
+            transition: all 250ms ease-in-out;
+        }
+
+        .btn_carousel.active{
+            background-color: transparent;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+    }
+}
+
+#pinContainer {
+width: 100%;
+height: 100vh;
+overflow: hidden;
+}
+
+.panel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
 
 /**
 * Home page: Stay up to date
@@ -330,7 +788,7 @@
 * Home page: perfect-for-home-and-business
 */
 
-#perfect-for-home-and-business {
+.section--underyourcontrol {
   margin-top: 100px;
   padding-top: 80px;
   padding-bottom: 50px;
@@ -341,7 +799,6 @@
   @media (max-width: $break-small) {
     background-image: url('../../img/home/perfect-for-home-and-business-mobile.jpg');
   }
-
 
   .btn-primary {
     width: 430px;
@@ -357,7 +814,7 @@
       width: 300px;
 
       .icon-arrow {
-        background: url(../../img/arrow_right.svg) center/contain no-repeat;
+        background: url(../../img/common/arrow_right.svg) center/contain no-repeat;
         position: absolute;
         width: 20px;
         height: 100%;
@@ -377,12 +834,16 @@
       text-align: left;
     }
   }
-
+	li {
+		color: white !important;
+		list-style-image: url("../../img/common/white-check.svg");
+		list-style-position:inside;
+	}
   .section--paragraph {
-    color: #ffffff;
+    color: white;
     width: 469px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     @media (max-width: $break-small) {
       width: 90%;
       padding-top: 10px;
@@ -422,81 +883,6 @@
   padding-top: 130px;
 }
 
-.Section-Introducing-Nextcloud {
-  background-color: transparent;
-  overflow: hidden;
-  height: 200vh;
-  position: relative;
-  padding-top: 130px;
-  @media (max-width: $navbar-breaksize) {
-    padding-top: 60px;
-    height: 100vh;
-  }
-
-  .img_carousel {
-    padding-top: 100px;
-    position:relative;
-    @media (max-height: 800px) {
-      padding-top: 60px;
-    }
-
-    img {
-      float: right;
-      width: 582px;
-      height: 474px;
-      @media (max-height: 800px) {
-        width: 490px;
-        height: 402px;
-      }
-    }
-  }
-
-  .indicators {
-    -webkit-transition: all .5s;
-    transition: all .5s;
-    opacity: 1;
-    position: absolute;
-    z-index: 2;
-    bottom: 50vh;
-    right: 0;
-    @media (max-width: $break-small) {
-      display: none;
-    }
-
-    .btn_carousel{
-      margin-top: 10px;
-      width: 14px;
-      height: 14px;
-      color: transparent;
-      border: 1px solid $nextcloud-blue;
-      background-color: $nextcloud-blue;
-      border-radius: 50%;
-      padding: 0;
-      -webkit-transform: scale(.5);
-      transform: scale(.5);
-      -webkit-transition: all 250ms ease-in-out;
-      transition: all 250ms ease-in-out;
-    }
-
-    .btn_carousel.active{
-      background-color: transparent;
-      -webkit-transform: scale(1);
-      transform: scale(1);
-    }
-  }
-}
-
-#pinContainer {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.panel {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
 
 
 .news-section {
@@ -662,5 +1048,5 @@
 }
 
 .section--compare {
-  padding-bottom: 100px;
+  padding-top: 70px;
 }

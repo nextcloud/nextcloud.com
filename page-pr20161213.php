@@ -23,7 +23,7 @@
 	<p>Learn more about Nextcloud 11 on <a href="https://nextcloud.com/?p=1332">our release blog</a>
 
 	<p><strong>About Nextcloud</strong></br />
-	Nextcloud offers a unique-in-the-industry fully open source solution for on-premise data handling and communication with an uncompromising focus on security and privacy. Nextcloud brings together universal access to data with next-generation secure communication and collaboration capabilities under direct control of IT and integrated with existing compliant infrastructure. Nextcloud's open, modular architecture, emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing assets within and across the borders of their organization. For more information, visit <a href="https://nextcloud.com">https://nextcloud.com</a> or follow <a href="https://twitter.com/nextclouders">@Nextclouders on Twitter.</a></p>
+	Nextcloud offers a unique-in-the-industry fully open source solution for on-premises data handling and communication with an uncompromising focus on security and privacy. Nextcloud brings together universal access to data with next-generation secure communication and collaboration capabilities under direct control of IT and integrated with existing compliant infrastructure. Nextcloud's open, modular architecture, emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing assets within and across the borders of their organization. For more information, visit <a href="https://nextcloud.com">https://nextcloud.com</a> or follow <a href="https://twitter.com/nextclouders">@Nextclouders on Twitter.</a></p>
 
 	<p><strong>Links:</strong>
 	<ul>

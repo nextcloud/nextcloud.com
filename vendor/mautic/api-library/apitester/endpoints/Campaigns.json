@@ -1,0 +1,16 @@
+[
+    "campaigns",
+    "campaigns/{id}",
+    "campaigns/new",
+    "campaigns/batch/new",
+    "campaigns/batch/edit",
+    "campaigns/batch/delete",
+    "campaigns/{id}/edit",
+    "campaigns/{id}/delete",
+    "campaigns/{id}/contact/{contactId}/add",
+    "campaigns/{id}/contact/{contactId}/remove",
+    "campaigns/events",
+    "campaigns/events/{id}",
+    "campaigns/events/{eventId}/contact/{contactId}/edit",
+    "campaigns/events/batch/edit"
+]

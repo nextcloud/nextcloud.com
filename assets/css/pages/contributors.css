@@ -1,6 +1,29 @@
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -20,13 +43,6 @@ footer.page-footer {
   .section--contributors .section--heading-1 {
     padding: 80px 0 30px 0;
     text-align: center; }
-  .section--contributors .section--intro {
-    font-weight: 600;
-    padding-top: 30px;
-    color: #2a2a36; }
-    @media (max-width: 768px) {
-      .section--contributors .section--intro {
-        text-align: left !important; } }
   .section--contributors blockquote {
     float: right; }
   .section--contributors .contributorgroup {

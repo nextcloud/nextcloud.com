@@ -1,14 +1,11 @@
 <div class="row page-content-header">
-<div class="col-md-4">
+<div class="col-md-12">
     <h1>Security Advisory</h1>
     <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
-    <div class="col-md-4">
-        <?php get_template_part('advisories/advisory-side'); ?>
-    </div>
-    <div class="col-md-8">
+    <div class="col-md-12">
         <h2>DOM XSS vulnerability in search dialogue (NC-SA-2017-007)</h2>
         <p>8th May 2017</p>
         <p>Risk level: <strong>Low</strong></p>
@@ -16,16 +13,16 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/79.html">Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') (CWE-79)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/213227">213227</a></p>
         <h3>Description</h3>
-        <p><p>Inadequate escaping lead to XSS vulnerability in the search module. To be exploitable an user has to write or paste malicious content into the search dialogue.</p>
-</p>
+        <p>Inadequate escaping lead to XSS vulnerability in the search module. To be exploitable an user has to write or paste malicious content into the search dialogue.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>11.0.3</strong> (CVE-2017-0890)</li>
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The content is now properly escaped, furthermore for Nextcloud 12 we have <a href="https://statuscode.ch/2017/03/CSP-unsafe-eval-and-jquery/">hardened jQuery</a> to prevent such CSP bypasses.</p>
-</p>
+        <p>The content is now properly escaped, furthermore for Nextcloud 12 we have <a href="https://statuscode.ch/2017/03/CSP-unsafe-eval-and-jquery/">hardened jQuery</a> to prevent such CSP bypasses.</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to Nextcloud 11.0.3.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

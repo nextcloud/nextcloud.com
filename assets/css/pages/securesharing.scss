@@ -1,0 +1,121 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+
+.security-background {
+    background-image: url("../../img/security/security.jpg");
+    background-position: bottom 0 right 0;
+
+    .topheader {
+        h1 {
+            margin-top: 0;
+        }
+    }
+}
+
+/* All headers */
+
+
+section {
+	margin-top: 70px;
+	margin-bottom: 70px;
+    ul {
+        padding-left: 30px;
+    }
+    li {
+        /* 			list-style-type: circle; */
+        list-style-image: url("../../img/enterprise/check.svg");
+        /* 		list-style-position:inside; */
+    }
+    blockquote {
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 1.7;
+        padding: 50px 30px;
+        color: #6c6c6c;
+        small {
+            display: inline;
+        }
+        small::before {
+            content: '';
+        }
+    }
+}
+
+
+.section--compliance {
+    .banner {
+        background-color: $nextcloud-blue;
+        position: relative;
+        overflow: hidden;
+        .col-md-6 {
+            padding: 40px 0;
+        }
+        li,p,h2,h3 {
+            color: white;
+        }
+
+        .hyperlink {
+            color: white;
+        }
+
+        .row {
+            padding: 0px 0px;
+        }
+
+        .fa {
+            color: white;
+            padding-right: 10px;
+        }
+
+        .learnmore {
+            padding: 20px 0px;
+            .col-sm-6 {
+                padding: 20px 0px;
+            }
+        }
+
+        .big-img {
+            position: absolute;
+/*             max-width: 170%; */
+            height: 100%;
+            /*         top: 60px; */
+            margin-left: 30px;
+        }
+        .small-img {
+            position:absolute;
+            height: 100%;
+            margin-left: 30px;
+        }
+        @media (max-width: $break-big) {
+            .big-img {
+                display: none;
+            }
+        }
+        @media (min-width: $break-big) {
+            .small-img {
+                display: none;
+            }
+        }
+    }
+}
+
+.section--solution {
+    .acess__anywhere {
+        margin: 100px 50px 50px 50px;
+        max-width: 80%;
+        height: auto;
+        max-height: 300px;
+    }
+}
+
+.section--benefits {
+    p {
+        padding-top: 10px;
+    }
+    .row {
+        padding-top: 30px;
+    }
+
+}
+

@@ -16,7 +16,7 @@
 <p>Prospective visitors can register for the conference on <a href="https://conf.nextcloud.com">conf.nextcloud.com</a></p>
 
 <p>About Nextcloud</br />
-Nextcloud offers a unique-in-the-industry fully open source solution for on-premise data handling and communication with a uncompromising focus on security and privacy. Nextcloud brings together universal access to data with next-generation secure communication and collaboration capabilities under direct control of IT and integrated with existing compliant infrastructure. Nextcloud's open, modular architecture, emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing assets within and across the borders of their organization. For more information, visit https://nextcloud.com or follow @Nextclouders on Twitter.</p>
+Nextcloud offers a unique-in-the-industry fully open source solution for on-premises data handling and communication with a uncompromising focus on security and privacy. Nextcloud brings together universal access to data with next-generation secure communication and collaboration capabilities under direct control of IT and integrated with existing compliant infrastructure. Nextcloud's open, modular architecture, emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing assets within and across the borders of their organization. For more information, visit https://nextcloud.com or follow @Nextclouders on Twitter.</p>
 
 <p><strong>Links:</strong><br />
 About Nextcloud: <a href="https://nextcloud.com/about">nextcloud.com/about</a><br />

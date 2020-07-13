@@ -1,6 +1,29 @@
 /*Colors*/
 /*Shadows*/
 /*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
 /* Make Navbar transparent */
 .nav:not(.scrolled) {
   background-color: transparent;
@@ -20,13 +43,6 @@ footer.page-footer {
   .section--team .section--heading-1 {
     padding: 80px 0 30px 0;
     text-align: center; }
-  .section--team .section--intro {
-    font-weight: 600;
-    padding-top: 30px;
-    color: #2a2a36; }
-    @media (max-width: 768px) {
-      .section--team .section--intro {
-        text-align: left !important; } }
   .section--team .teamgroup {
     padding-top: 100px;
     width: 95%;
@@ -67,13 +83,15 @@ footer.page-footer {
     margin: 15px;
     font-size: 30px;
     height: 40px; }
-    .section--team .teamsocial i[class*='fa-'] {
-      color: #9c9c9c !important; }
-  .section--team .teamsocial a {
-    color: #AAA;
-    transition: all .2s; }
-  .section--team .teamsocial a:hover {
-    color: #0082C9; }
+    .section--team .teamsocial a {
+      color: #9c9c9c;
+      transition: all .2s; }
+      .section--team .teamsocial a i[class*='fa-'] {
+        color: #9c9c9c; }
+      .section--team .teamsocial a:hover {
+        color: #0082C9; }
+        .section--team .teamsocial a:hover i[class*='fa-'] {
+          color: #0082C9; }
   .section--team .teamdescription {
     margin: 20px; }
   .section--team .teamp {

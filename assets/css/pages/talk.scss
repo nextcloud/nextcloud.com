@@ -1,0 +1,253 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+
+
+.talk-hero-section {
+    background-image: url('../../img/headers/talk.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+
+}
+
+section {
+	padding: 50px 0;
+	.section--paragraph__title {
+		padding: 0;
+	}
+	h2 {
+ 		padding-bottom: 0px;
+ 	}
+ 	.row {
+ 		padding-top: 40px;
+ 	}
+}
+
+.section--intro {
+    p {
+        margin-top: 20px;
+    }
+    .video .video-js {
+        background-color: transparent !important;
+    }
+}
+
+
+.featuretitle {
+    text-align: center;
+}
+
+.section--compliance {
+	.feature-row {
+		margin-top: 50px;
+	}
+	h2 {
+		margin-bottom: 30px;
+	}
+
+}
+
+.section--benefits {
+    @media (max-width: $break-small) {
+        text-align: center;
+    }
+	i[class*='fa-'] {
+		font-size: 40px;
+		display: block;
+		color: $nextcloud-blue;
+		text-align: center;
+		vertical-align: center;
+		padding-top: 20%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+    .icon {
+            max-width: 120px;
+            @media (max-width: $break-small) {
+                margin-left: auto;
+                margin-right :auto;
+            }
+    }
+    .scaling-svg-container {
+        height: 0;
+        width: 100%;
+        padding: 0;
+        padding-bottom: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        /* override this inline for aspect ratio other than square */
+
+        @media (max-width: $break-small) {
+            position: relative;
+            margin-left: 0;
+            }
+        }
+    svg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        }
+
+	.list {
+		padding-top: 180px;
+	}
+	@media (max-width: $break-big) {
+		img {
+			max-height: 500px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}
+
+.section--features {
+	margin: 50px 0;
+	.container {
+	}
+	li {
+		list-style-image: url("../../img/common/white-check.svg");
+		list-style-position: inside;
+	}
+}
+
+.section--features-images {
+	margin: 50px 0;
+	.row {
+        margin-top: 50px;
+    }
+	li {
+		list-style-image: url("../../img/common/white-check.svg");
+		list-style-position: inside;
+	}
+}
+
+.section--options {
+	margin-bottom: 30px;
+
+	.container-widest {
+		.introduction {
+			padding-top: 50px;
+			padding-bottom: 0px;
+			h1 {
+				margin-bottom: 30px;
+			}
+		}
+		.row {
+		margin-left: 5px;
+		margin-right: 5px;
+		}
+
+		.col-md-4 {
+			padding: 20px;
+		}
+
+		.featureblock {
+			margin-top: 50px;
+/* 			margin-bottom: 50px; */
+			padding: 20px;
+			border: solid 1px transparent;
+			&:hover{
+				box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.14);
+				border: solid 1px #fbfbfb;
+				border-radius: 8px;
+				transition: all 0.5s ease;
+			}
+
+			.section--paragraph__title {
+				text-align: center;
+			}
+
+			.section--paragraph {
+				text-align: center;
+			}
+
+			.img-responsive {
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 0px;
+				margin-bottom: 50px;
+			}
+		} /* end featureblock */
+	} /* end container-widest */
+} /* end section */
+
+.section--getmobile {
+    margin-top: 80px;
+    .banner {
+        height: 600px;
+        background-color: $nextcloud-blue;
+        position: relative;
+        overflow: hidden;
+
+        .img-responsive {
+            margin: auto;
+        }
+
+        .col-md-8 {
+            padding: 80px 0;
+        }
+        li,p,h2,h3 {
+            color: white;
+        }
+        .hyperlink {
+            color: white;
+        }
+
+        .row {
+            padding-top: 30px;
+        }
+
+        .big-img {
+            position: absolute;
+            max-width: 70%;
+            height: 100%;
+            top: 0px;
+            left: 50px;
+        }
+        .small-img {
+            position:absolute;
+            top: 0px;
+            height: 100%;
+        }
+        @media (max-width: $very-wide) {
+            height: 400px;
+            .big-img {
+                display: none;
+            }
+            .col-md-8 {
+                padding: 30px 0;
+            }
+        }
+        @media (max-width: $break-big) {
+            height: 650px;
+            .big-img {
+                display: none;
+            }
+            .small-img {
+                height: 75%;
+                top: 200px;
+                left:-20px;
+            }
+            .col-md-8 {
+                padding: 20px 0;
+            }
+            .mobileclientbuttons {
+                margin-left:50%;
+            }
+        }
+        @media (min-width: $very-wide) {
+            .small-img {
+                display: none;
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: 0px;
+}
+

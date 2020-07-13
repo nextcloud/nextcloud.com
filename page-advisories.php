@@ -1,8 +1,22 @@
+<head>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/generic.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+
+<div class="background generic-background">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 topheader">
+                <h1><?php echo $l->t('Security Advisories');?></h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="content">
+<div class="container">
 <div class="row page-content-header">
-	<div class="col-md-5">
-		<h1><?php echo $l->t('Security Advisories');?></h1>
-	</div>
-	<div class="col-md-5 col-md-offset-2">
+	<div class="col-md-3 col-md-offset-9">
 		<form role="form" action="/security/advisory/" method="get">
 			<input name="id" type="text" class="form-control" placeholder="Advisory identifier">
 			<button type="submit" class="btn btn-default">Go</button>
@@ -14,19 +28,9 @@
 <div class="row" style="
     margin-top: 20px;
 ">
-	<div class="col-md-4">
-		<h2><?php
- echo $l->t('Nextcloud Server');?></h2><br>
-		<?php get_template_part('advisories/server-list-part');?>
-	</div>
-	<div class="col-md-4">
-		<h2><?php
- echo $l->t('Desktop Clients');?></h2><br>
-                <?php get_template_part('advisories/desktop-list-part');?>
-	</div>
-	<div class="col-md-4">
-		<h2><?php
- echo $l->t('Mobile Clients');?></h2><br>
-                <?php get_template_part('advisories/mobile-list-part');?>
+	<div class="col-md-12">
+		<?php get_template_part('advisories/full-list');?>
 	</div>
 </div>
+</div>
+</section>

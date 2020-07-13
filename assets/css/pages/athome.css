@@ -1,0 +1,170 @@
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
+/* Make Navbar transparent */
+.nav:not(.scrolled) {
+  background-color: transparent;
+  position: absolute; }
+
+/* @import '../modules/font-awesome.min'; */
+.features-background {
+  background: url("../../img/headers/yourcloud.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+@media (max-width 768px) {
+  .image--feature {
+    margin-top: 10px; } }
+@media (min-width: 991px) {
+  .featureimg {
+    margin-bottom: 200px; } }
+@media (min-width: 1600px) {
+  .featureimg {
+    margin-bottom: 100px; } }
+
+section {
+  margin: 50px 0; }
+
+.section--on-premise .row {
+  padding-bottom: 20px; }
+
+.section--customers {
+  position: relative; }
+  .section--customers .section--paragraph {
+    margin: 40px 0; }
+  .section--customers .row {
+    margin-top: 50px; }
+  .section--customers .customer {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px; }
+    .section--customers .customer .customer-logo {
+      /*-webkit-filter: grayscale(100%);*/
+      filter: saturate(0%) contrast(0.35) brightness(130%);
+      max-width: 250px;
+      float: center;
+      position: relative;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      vertical-align: middle; }
+
+.section--on-premise .section--heading-1 {
+  padding-bottom: 40px; }
+.section--on-premise .row {
+  padding-bottom: 40px; }
+.section--on-premise .statistics {
+  padding: 40px 0 40px 25px; }
+
+.section--compliance .banner {
+  background-color: #0082c9;
+  position: relative;
+  overflow: hidden; }
+  .section--compliance .banner .col-md-6 {
+    padding: 40px 0; }
+  .section--compliance .banner li, .section--compliance .banner p, .section--compliance .banner h2, .section--compliance .banner h3 {
+    color: white; }
+  .section--compliance .banner .hyperlink {
+    color: white; }
+  .section--compliance .banner .row {
+    padding: 0px 0px; }
+  .section--compliance .banner .fa {
+    color: white;
+    padding-right: 10px; }
+  .section--compliance .banner .learnmore {
+    padding: 20px 0px; }
+    .section--compliance .banner .learnmore .col-sm-6 {
+      padding: 20px 0px; }
+  .section--compliance .banner .big-img {
+    position: absolute;
+    max-width: 70%;
+    height: 100%;
+    /*         top: 60px; */
+    margin-left: 30px; }
+  .section--compliance .banner .small-img {
+    position: absolute;
+    height: 100%;
+    margin-left: 30px; }
+  @media (max-width: 1600px) {
+    .section--compliance .banner .big-img {
+      display: none; } }
+  @media (min-width: 1600px) {
+    .section--compliance .banner .small-img {
+      display: none; } }
+
+.acess__anywhere {
+  width: 400px;
+  margin: 0 auto; }
+
+.section--files {
+  padding-top: 80px; }
+
+.section--whitepaper {
+  padding: 0; }
+  .section--whitepaper h2 {
+    line-height: normal; }
+
+.section--outlook h1 {
+  /*margin-bottom: 10px;*/ }
+.section--outlook p {
+  padding: 10px 0 30px 0; }
+.section--outlook .row {
+  padding-bottom: 10px; }
+
+.section--privacy {
+  /*     padding: 0;     */ }
+
+.section--others {
+  margin: 0 0 0 0;
+  padding: 90px 70px 70px 70px;
+  background-color: #eee; }
+  .section--others .row {
+    margin-bottom: 10px; }
+  .section--others img {
+    padding: 20px; }
+
+.section--more .container-widest .row {
+  margin-left: 5px;
+  margin-right: 5px; }
+.section--more .section--heading-1 {
+  padding-bottom: 60px; }
+.section--more i[class*='fa-'] {
+  font-size: 60px;
+  display: block;
+  color: #0082c9;
+  text-align: center;
+  padding-top: 20%; }
+
+.section--getstarted {
+  padding-bottom: 0px;
+  margin-bottom: 0px; }
+  .section--getstarted a {
+    margin: 50px; }
+
+footer {
+  margin-top: 0px; }
+
+/*# sourceMappingURL=athome.css.map */

@@ -1,0 +1,25 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+.outdated-background {
+  background: url('../../img/headers/outdated.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section-letter {
+	.section--paragraph {
+		padding-top: 10px;
+	}
+}
+
+section {
+	padding: 100px 0;
+
+	.section--paragraph__title {
+		padding: 10px 0 20px 0;
+	}
+	.row {
+		padding-top: 60px;
+	}
+}

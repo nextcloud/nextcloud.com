@@ -1,14 +1,11 @@
 <div class="row page-content-header">
-<div class="col-md-4">
+<div class="col-md-12">
     <h1>Security Advisory</h1>
     <a href="/security/advisories/">Back to advisories</a>
 </div>
 </div>
 <div class="row">
-    <div class="col-md-4">
-        <?php get_template_part('advisories/advisory-side'); ?>
-    </div>
-    <div class="col-md-8">
+    <div class="col-md-12">
         <h2>Creation of folders in read-only folders despite lacking permissions (NC-SA-2017-002)</h2>
         <p>5th February 2017</p>
         <p>Risk level: <strong>Low</strong></p>
@@ -16,9 +13,7 @@
         <p>CWE: <a href="https://cwe.mitre.org/data/definitions/275.html">Permission Issues (CWE-275)</a></p>
         <p>HackerOne report: <a href="https://hackerone.com/reports/169680">169680</a></p>
         <h3>Description</h3>
-        <p><p>Due to a logical error in the file caching layer an authenticated adversary is able to create empty folders inside a shared folder.</p>
-<p>Note that this only affects folders and files that the adversary has at least read-only permissions for.</p>
-</p>
+        <p>Due to a logical error in the file caching layer an authenticated adversary is able to create empty folders inside a shared folder.Note that this only affects folders and files that the adversary has at least read-only permissions for.</p>
         <h3>Affected Software</h3>
         <ul>
             <li>Nextcloud Server &lt; <strong>10.0.2</strong> (CVE-2017-0884)</li>
@@ -26,8 +21,9 @@
 
         </ul>
         <h3>Action Taken</h3>
-        <p><p>The file cache operation is now only performed if the file system operation succeeded.</p>
-</p>
+        <p>The file cache operation is now only performed if the file system operation succeeded.</p>
+        <h3>Resolution</h3>
+        <p>It is recommended that all instances are upgraded to Nextcloud 9.0.55 or 10.0.2.</p>
         <h3>Acknowledgements</h3>
         <p>The Nextcloud team thanks the following people for their research and responsible disclosure of the above advisory:</p>
         <ul>

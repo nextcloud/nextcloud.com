@@ -2,6 +2,14 @@
 /*
 Template Name: Blog Planet RSS Page
 */
+
+header('Content-Type: application/rss+xml; charset=UTF-8');
+header('X-Nextcloud: disabled');
+
+echo "";
+die();
+# Patched in by morris to reduce the load
+
 ?>
 
 <?php

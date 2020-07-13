@@ -1,7 +1,7 @@
 <div class="pr">
 <h1>DASEQ and Nextcloud sign strategic partnership</h1>
 
-<p>Stuttgart, March 7 2017 --- DASEQ and Nextcloud have signed a strategic partnership to sell the nextcloud open-source solution for on-premise data processing and communications. As part of its comprehensive offering of open source technology, services, training and security solutions, DASEQ is now providing comprehensive integration services for Nextcloud.</p>
+<p>Stuttgart, March 7 2017 --- DASEQ and Nextcloud have signed a strategic partnership to sell the nextcloud open-source solution for on-premises data processing and communications. As part of its comprehensive offering of open source technology, services, training and security solutions, DASEQ is now providing comprehensive integration services for Nextcloud.</p>
 
 <p><em>"We're proud to partner with the experts from DASEQ in bringing data control back to customers. In these times of constant threats of corporate espionage, ransomware combined with increasing compliance requirements and issues, knowing where your data is has become a key requirement,"</em> said Frank karlitschek, Managing Director at Nextcloud. <em>"Add to that the opportunities to monetize data directly or through improving processes and services giving rise to competitive advantages, more and more businesses search for self hosted solutions for business-critical data. With over 20 years experience in the Open Source business market, DASEQ is well positioned to assist customers in complicated deployments with high security and scalability requirements."</em></p>
 
@@ -13,7 +13,7 @@ Being one of the leading Red Hat training partners, DASEQ provides Red Hat Train
 For more information please visit <a href="https://www.daseq.de">their website</a> or <a href="https://twitter.com/Daseq">follow @Daseq on twitter.</a></p>
 
 <p><strong>About Nextcloud</strong></br />
-Nextcloud offers a unique-in-the-industry fully open source solution for on-premise data handling and communication with an uncompromising focus on security and privacy. Nextcloud brings together universal access to data with next-generation secure communication and collaboration capabilities under direct control of IT and integrated with existing compliant infrastructure. Nextcloud's open, modular architecture, emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing assets within and across the borders of their organization. For more information, visit <a href="https://nextcloud.com">https://nextcloud.com</a> or follow <a href="https://twitter.com/nextclouders">@Nextclouders on Twitter.</a></p>
+Nextcloud offers a unique-in-the-industry fully open source solution for on-premises data handling and communication with an uncompromising focus on security and privacy. Nextcloud brings together universal access to data with next-generation secure communication and collaboration capabilities under direct control of IT and integrated with existing compliant infrastructure. Nextcloud's open, modular architecture, emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing assets within and across the borders of their organization. For more information, visit <a href="https://nextcloud.com">https://nextcloud.com</a> or follow <a href="https://twitter.com/nextclouders">@Nextclouders on Twitter.</a></p>
 
 <p><strong>Links:</strong><br />
 About Nextcloud: <a href="https://nextcloud.com/about">nextcloud.com/about</a><br />

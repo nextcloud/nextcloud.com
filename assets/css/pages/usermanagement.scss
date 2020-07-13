@@ -1,0 +1,43 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+.usermanagement-background {
+  background: url('../../img/headers/usermanagement.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section--header {
+	.col-md-8 p {
+	text-align: center;
+	}
+}
+
+section {
+	padding: 100px 0;
+
+	.section--paragraph__title {
+		padding: 0;
+	}
+}
+
+.section--header {
+	padding: 40px 0;
+}
+
+.section--builtin {
+/*     padding-bottom: 0; */
+}
+
+.section--more {
+/*     padding-bottom: 0; */
+}
+
+.row {
+    padding-top: 60px;
+}
+
+.featuretitle {
+    text-align: center;
+}
+

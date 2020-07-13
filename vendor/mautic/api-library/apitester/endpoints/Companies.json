@@ -1,0 +1,12 @@
+[
+    "companies",
+    "companies/{id}",
+    "companies/new",
+    "companies/batch/new",
+    "companies/batch/edit",
+    "companies/batch/delete",
+    "companies/{id}/edit",
+    "companies/{id}/delete",
+    "companies/{id}/contact/{contactId}/add",
+    "companies/{id}/contact/{contactId}/remove"
+]

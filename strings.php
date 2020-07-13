@@ -1,19 +1,20 @@
 <?php
-// Strings used throughout Nextcloud.org.
+// Strings used through nextcloud.com
 
 /* VERSIONS */
-$VERSIONS_SERVER_MAJOR_STABLE = '12';
-$VERSIONS_SERVER_FULL_STABLE = '12.0.3';
-$VERSIONS_SERVER_MAJOR_DEVELOPMENT = '13';
-$VERSIONS_SERVER_MAJOR_DEV_DOCS = '12'; // Used in dev docs links
-$VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.3.2';
-$VERSIONS_CLIENT_DESKTOP_STABLE_SHORT = '2.3'; // For use in documentation link
+$VERSIONS_SERVER_MAJOR_STABLE = '19';
+$VERSIONS_SERVER_FULL_STABLE = '19.0.0';
+$VERSIONS_SERVER_MAJOR_DEVELOPMENT = '20';
+$VERSIONS_SERVER_MAJOR_DEV_DOCS = '19'; // Used in dev docs links
+$VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '2.6.5';
+$VERSIONS_CLIENT_DESKTOP_STABLE_SHORT = '2.6'; // For use in documentation link
 
 /* DOCUMENTATION */
 $DOCUMENTATION_BASE = 'https://docs.nextcloud.com';
-$DOCUMENTATION_DEVELOPER = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR_DEV_DOCS.'/developer_manual/';
+$DOCUMENTATION_DEVELOPER = $DOCUMENTATION_BASE.'/server/latest/developer_manual/';
 $DOCUMENTATION_ADMIN = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR_STABLE.'/admin_manual/';
-$DOCUMENTATION_USER = $DOCUMENTATION_BASE.'/server/'.$VERSIONS_SERVER_MAJOR_STABLE.'/user_manual/';
+$DOCUMENTATION_USER = $DOCUMENTATION_BASE.'/server/latest/user_manual/';
+$DOCUMENTATION_BUGTRACKER = $DOCUMENTATION_BASE.'/server/latest/developer_manual/bugtracker/';
 $DOCUMENTATION_CLIENT_DESKTOP = $DOCUMENTATION_BASE.'/desktop/'.$VERSIONS_CLIENT_DESKTOP_STABLE_SHORT;
 // $VERSIONS_VM = '9.0.2-1.1-201605101540';
 // $VM_UBUNTU_RELEASE = '14.04';
@@ -23,23 +24,24 @@ $NEXTCLOUD_GPG = 'https://nextcloud.com/nextcloud.asc';
 
 // Desktop client stable
 $DOWNLOAD_CLIENT_DESKTOP_BASE = 'https://download.nextcloud.com/desktop/releases/';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Windows/Nextcloud-2.3.2.1-setup.exe';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Mac/Installer/Nextcloud-2.3.2.1.pkg';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Linux/Nextcloud-2.3.2-x86_64.AppImage';
-$DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES = 'https://github.com/nextcloud/client_theming';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Windows/latest';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Mac/Installer/latest';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC_LEGACY = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Mac/Installer/latest-legacy';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_LINUX = $DOWNLOAD_CLIENT_DESKTOP_BASE.'Linux/latest';
+$DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES = 'https://github.com/nextcloud/desktop';
 // $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES.'.asc';
 
 // Desktop client testing
-$VERSIONS_CLIENT_DESKTOP_TESTING = '';
+$VERSIONS_CLIENT_DESKTOP_TESTING = '2.7.0beta2';
 $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE= 'https://download.nextcloud.com/desktop/prereleases/';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'Windows/Nextcloud-2.3.2.1beta-setup.exe';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'Mac/Nextcloud-2.3.2.1beta.pkg';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX = 'https://github.com/nextcloud/client_theming';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'Windows/Nextcloud-2.7.0.15621-beta2-20200709.exe';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'Mac/Nextcloud-qt5.12.8-2.7.0.20200709beta2.pkg';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'Linux/Nextcloud-2.7.0.20200709-beta2-x86_64.AppImage';
 $DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_WIN = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'';
 $DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_MAC = $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'';
 $DOWNLOAD_CLIENT_DESKTOP_TESTPILOT_LINUX = '';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES= $DOWNLOAD_CLIENT_DESKTOP_TEST_BASE.'';
-$DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES.'.asc';
+$DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES= $DOWNLOAD_CLIENT_DESKTOP_STABLE_SOURCES.'';
+// $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES_PGP = $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES.'.asc';
 
 // Server
 $DOWNLOAD_SERVER_BASE = 'https://download.nextcloud.com/server/';
@@ -64,8 +66,8 @@ $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.nextcloud.com/download/repos
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.nextcloud.com/server/prereleases/';
 $SERVER_TESTING_VERSION =''; // nothing to test -> leave it empty
-$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-12.0.1RC5.tar.bz2';
-$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-12.0.1RC5.zip';
+$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-19.0.0RC2.tar.bz2';
+$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-19.0.0RC2.zip';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.nextcloud.com/server/installer/setup-nextcloud.php';
@@ -83,14 +85,15 @@ $DOWNLOAD_VM_VMX   = $DOWNLOAD_VM_BASE.'Ubuntu_'.$VM_UBUNTU_RELEASE.'-nextcloud-
 // Mobile clients
 $DOWNLOAD_CLIENT_MOBILE_IOS = 'https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8';
 $DOWNLOAD_CLIENT_MOBILE_ANDROID = 'https://play.google.com/store/apps/details?id=com.nextcloud.client';
+$DOWNLOAD_CLIENT_MOBILE_ANDROID_TALK = 'https://play.google.com/store/apps/details?id=com.nextcloud.talk2';
+$DOWNLOAD_CLIENT_MOBILE_IOS_TALK = 'https://itunes.apple.com/us/app/nextcloud-talk/id1296825574';
 $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA = 'https://play.google.com/apps/testing/com.nextcloud.client';
-// $DOWNLOAD_CLIENT_MOBILE_BLACKBERRY = 'https://appworld.blackberry.com/webstore/content/59955931/';
 $DOWNLOAD_CLIENT_MOBILE_FDROID = 'https://f-droid.org/packages/com.nextcloud.client/';
+$DOWNLOAD_CLIENT_MOBILE_FDROID_TALK = 'https://f-droid.org/packages/com.nextcloud.client/';
 $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA = 'https://f-droid.org/packages/com.nextcloud.android.beta/';
-// $DOWNLOAD_CLIENT_MOBILE_AMAZON = 'https://www.amazon.com/Nextcloud-Inc/dp/B00944PQMK';
 $DOWNLOAD_CLIENT_MOBILE_WIN = 'https://www.microsoft.com/store/apps/9nblggh532xq';
 
 // Outlook Add-in
-$DOWNLOAD_OUTLOOK_ADDON_FREE = 'https://download.nextcloud.com/outlook/20170818/';
+$DOWNLOAD_OUTLOOK_ADDON_FREE = 'https://download.nextcloud.com/outlook/';
 
 ?>

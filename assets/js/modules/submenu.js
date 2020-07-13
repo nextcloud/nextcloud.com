@@ -4,7 +4,7 @@ define(['jquery', 'lodash', 'enquire', 'velocity', 'velocityUI', 'scrollMagic'],
 	    'use strict';
 	    var subMenuModule = {
 	        init: function() {
-
+            console.log('starting submenu function');
             	$(this.variables.menuAnchorSelector).velocity('transition.fadeIn', 1000 );
 
 					enquire.register('screen and (max-width: 480px)', {
@@ -42,8 +42,7 @@ define(['jquery', 'lodash', 'enquire', 'velocity', 'velocityUI', 'scrollMagic'],
 				smothscrollToggleActive: function() {
 					$('a[href^="#"]:not([data-toggle="collapse"])').click(function(event) {
 						var id = $(this).attr('href');
-
-						var target = $(id).offset().top;
+						var target = $(id).offset().top - 200;
 						$('html, body').animate({scrollTop:target}, 500);
 						event.preventDefault();
 

@@ -40,15 +40,31 @@ if(isset($_POST['email'])) {
         !isset($_POST['email']) ||
         !isset($_POST['organization']) ||
         !isset($_POST['phone']) ||
-        !isset($_POST['comments'])) {
+        !isset($_POST['comments']) ||
+        !isset($_POST['checksum']) ||
+        !isset($_POST['captcha'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all fields?'); }
     $yourname = $_POST['yourname']; // required
     $organization= $_POST['organization']; // required
     $phone= $_POST['phone']; // required
     $email_from = $_POST['email']; // required
     $comments = $_POST['comments']; // required
+    $checksum = $_POST['checksum']; // required
+    $captcha = $_POST['captcha'];
     $error_message = "";
-    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
+    if (strlen($checksum) !== 75 || !strpos($checksum, ':')) {
+        $error_message .= 'The checksum is not valid.<br />';
+    } else {
+        list($salt, $expectedHash) = explode(':', $checksum, 2);
+        $hash = hash('sha256', $salt . $captcha);
+
+        if ($hash !== $expectedHash) {
+            $error_message .= 'The captcha result you entered does not appear to be correct.<br />';
+        }
+    }
+
+
+    $email_exp = '/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
   if(!preg_match($email_exp,$email_from)) {
     $error_message .= 'The email address you entered does not appear to be valid.<br />';
   }
@@ -63,33 +79,34 @@ if(isset($_POST['email'])) {
   if(strlen($comments) < 8) {
     $error_message .= 'Your input is pretty short! <br />';
   }
-  if(RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
-    $url = 'https://www.google.com/recaptcha/api/siteverify';
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_POST, 1);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    $server_output = curl_exec($ch);
-    $server_output = json_decode($server_output, true);
-    curl_close($ch);
-    if (!isset($server_output['success']) || $server_output['success'] !== true) {
-      $error_message .= 'The captcha result was invalid.<br />';
-    }
-  } else {
-    $error_message .= 'Captcha code is missing.<br />';
-  }
+//   if(RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
+//     $url = 'https://www.google.com/recaptcha/api/siteverify';
+//     $ch = curl_init();
+//     curl_setopt($ch, CURLOPT_URL, $url);
+//     curl_setopt($ch, CURLOPT_POST, 1);
+//     curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
+//     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+//     $server_output = curl_exec($ch);
+//     $server_output = json_decode($server_output, true);
+//     curl_close($ch);
+//     if (!isset($server_output['success']) || $server_output['success'] !== true) {
+//       $error_message .= 'The captcha result was invalid.<br />';
+//     }
+//   } else {
+//     $error_message .= 'Captcha code is missing.<br />';
+//   }
   if(strlen($error_message) > 0) {
     died($error_message);
   } else {
-		function clean_string($string) {
-			$bad = array("content-type", "bcc:", "to:", "cc:", "href");
-			return str_replace($bad, "", $string);
-		}
+        function clean_string($string) {
+            $bad = array("content-type","bcc:","to:","cc:","href");
+            $string = str_replace($bad,"",$string);
+            return htmlspecialchars($string);
+        }
 // the app review mailing list address
     $email_message = "Form details below.\n\n";
     $email_to = "sales@nextcloud.com";
-    $email_subject = "Contacts_form";
+    $email_subject = "Nextcloud Contact Form: ".clean_string($organization);
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Organization: ".clean_string($organization)."\n";
@@ -98,7 +115,16 @@ if(isset($_POST['email'])) {
 // create email headers
     $headers = 'From: no-reply@nextcloud.com'."\r\n".
     'Reply-To: '.$email_from."\r\n" .
+    'Content-Type: text/plain; charset=UTF-8'."\r\n" .
     'Cc: '.$email_from;
+// store in log
+    $data = [
+            'to' => $email_to,
+            'subject' => $email_subject,
+            'message' => $email_message,
+            'headers' => $headers,
+    ];
+    file_put_contents('/var/log/sales-leads.txt', json_encode($data) . PHP_EOL, FILE_APPEND | LOCK_EX);
 // Send the email to the list
     @mail($email_to, $email_subject, $email_message, $headers);
 // Second email to subscribe to the mailing list

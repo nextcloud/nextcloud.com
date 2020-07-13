@@ -1,0 +1,10 @@
+[
+    "forms",
+    "forms/{id}",
+    "forms/new",
+    "forms/batch/new",
+    "forms/batch/edit",
+    "forms/batch/delete",
+    "forms/{id}/edit",
+    "forms/{id}/delete"
+]

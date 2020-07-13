@@ -1,5 +1,6 @@
 <head>
-<script>
+<meta charset="utf-8">
+    <script>
 	require(["require.config"], function() {
 		require(["pages/enterprise"])
 	});
@@ -47,7 +48,9 @@ if(isset($_POST['email'])) {
         !isset($_POST['email']) ||
         !isset($_POST['organization']) ||
         !isset($_POST['phone']) ||
-        !isset($_POST['address'])) {
+        !isset($_POST['address']) ||
+        !isset($_POST['checksum']) ||
+        !isset($_POST['captcha'])) {
 
         died('<li>Not all required fields are set (name, email, organization, phone number and address are required).</li>');
     }
@@ -67,6 +70,7 @@ if(isset($_POST['email'])) {
 //     $collabora = $_POST['collabora']; // required
 //     $collabora = $_POST['collabora']; // required
     $collaboraCheck = $_POST['collaboraCheck']  === 'collaboraCheck' ? 'yes' : 'no';
+    $onlyofficeCheck = $_POST['onlyofficeCheck']  === 'onlyofficeCheck' ? 'yes' : 'no';
     $outlook = $_POST['outlook'] === 'outlook' ? 'yes' : 'no';
     $remoteinstall = $_POST['remoteinstall'] === 'remoteinstall' ? 'yes' : 'no';
     $givenprice = $_POST['givenPrice'];
@@ -74,7 +78,22 @@ if(isset($_POST['email'])) {
     //$branding = $_POST['branding'];
     $dollars = $_POST['dollars'];
     $terms = $_POST['terms'] === 'terms' ? 'yes' : 'no';
+    $checksum = $_POST['checksum']; // required
+    $captcha = $_POST['captcha'];
     $error_message = "";
+
+
+    if (strlen($checksum) !== 75 || !strpos($checksum, ':')) {
+        $error_message .= 'The checksum is not valid.<br />';
+    } else {
+        list($salt, $expectedHash) = explode(':', $checksum, 2);
+        $hash = hash('sha256', $salt . $captcha);
+
+        if ($hash !== $expectedHash) {
+            $error_message .= 'The captcha result you entered does not appear to be correct.<br />';
+        }
+    }
+
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
     if(!preg_match($email_exp,$email_from)) {
         $error_message .= '<li>The email address you entered does not appear to be valid.</li>';
@@ -90,27 +109,27 @@ if(isset($_POST['email'])) {
     //   if(strlen($comments) < 8) {
     //     $error_message .= 'Your input is pretty short! <br />';
     //   }
-      if(RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
-        $url = 'https://www.google.com/recaptcha/api/siteverify';
-        $ch = curl_init();
-
-        curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-        $server_output = curl_exec($ch);
-
-        $server_output = json_decode($server_output, true);
-
-        curl_close($ch);
-
-        if (!isset($server_output['success']) || $server_output['success'] !== true) {
-          $error_message .= 'The captcha result was invalid.<br />';
-        }
-      } else {
-        $error_message .= 'Captcha code is missing.<br />';
-      }
+//       if(RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
+//         $url = 'https://www.google.com/recaptcha/api/siteverify';
+//         $ch = curl_init();
+//
+//         curl_setopt($ch, CURLOPT_URL, $url);
+//         curl_setopt($ch, CURLOPT_POST, 1);
+//         curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => RECAPTCHA_SECRET, 'response' => $_POST['g-recaptcha-response'])));
+//         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+//
+//         $server_output = curl_exec($ch);
+//
+//         $server_output = json_decode($server_output, true);
+//
+//         curl_close($ch);
+//
+//         if (!isset($server_output['success']) || $server_output['success'] !== true) {
+//           $error_message .= 'The captcha result was invalid.<br />';
+//         }
+//       } else {
+//         $error_message .= 'Captcha code is missing.<br />';
+//       }
 
     if ($terms !== 'yes') {
         $error_message .= '<li>Terms need to be signed.</li>';
@@ -183,6 +202,9 @@ if(isset($_POST['email'])) {
                             $collaboraPrice = 17 * 99 + ($users - 99) * 16;
                         }
                     }
+                    if ($onlyofficeCheck === 'yes') {
+                    $onlyofficePrice = 935;
+                    }
 //                 }
                 // REMOTE INSTALL
                 if ($remoteinstall === 'yes') {
@@ -223,16 +245,18 @@ if(isset($_POST['email'])) {
                         $usersPrice *= 1.9;
                         $outlookPrice *= 1.9;
                         $collaboraPrice *= 1.9;
+                        $onlyofficePrice *= 2;
                         break;
                     case 3:
                         $usersPrice *= 2.75;
                         $outlookPrice *= 2.75;
                         $collaboraPrice *= 2.75;
+                        $onlyofficePrice *= 3;
                         break;
                 }
             }
 
-            $price = $usersPrice + $outlookPrice + $collaboraPrice + $remoteinstallPrice;
+            $price = $usersPrice + $outlookPrice + $collaboraPrice + $remoteinstallPrice + $onlyofficePrice;
             $price = round($price);
         }
 
@@ -255,59 +279,73 @@ if(isset($_POST['email'])) {
         $string = str_replace($bad,"",$string);
         return htmlspecialchars($string);
     }
-    // the app review mailing list address
-	$email_subject = "Order_form from ".clean_string($organization);
 
-    $email_message = "";
-    $email_message .= "Name: ".clean_string($yourname)."\n";
-    $email_message .= "Email: ".clean_string($email_from)."\n";
-    $email_message .= "Organization: ".clean_string($organization)."\n";
-    $email_message .= "Website: ".clean_string($website)."\n";
-    $email_message .= "Phone number: ".clean_string($phone)."\n";
-	$email_message .= "Address: ".clean_string($address)."\n";
-	$email_message .= "Billing address: ".clean_string($billing)."\n";
-	$email_message .= "VAT ID: ".clean_string($vat)."\n";
-    $email_message .= "Comments: ".clean_string($comments)."\n\n"."*Order details* \n";
-    $email_message .= "Number of users: ".clean_string($users)."\n";
-	$email_message .= "Edition: ".clean_string($edition)."\n";
-    $email_message .= "How many years: ".clean_string($duration)."\n";
-    $email_message .= "Education/government/charity discount: ".clean_string($edugov)."\n\n"."Options:\n";
-	$email_message .= "Would like Outlook option (5€/user): ".clean_string($outlook)."\n";
-	$email_message .= "Number of Collabora users (17€ for first 99, then 16€/user): ".clean_string($collaboraCheck)."\n";
-	$email_message .= "Would like remote installation help (990 €): ".clean_string($remoteinstall)."\n\n";
-    // 	$email_message .= "Would like Branding option: ".clean_string($branding)."\n";
-    // 	$email_message .= "Would like Spreed option: ".clean_string($spreed)."\n";
-	$email_message .= "Price: ".clean_string($givenprice)."\n";
-	//$email_message .= "Would like to pay in dollars: ".clean_string($dollars)."\n";
-	$email_message .= "Signed terms: ".clean_string($terms)."\n\n";
+    if($error_message === '') {
+		// the app review mailing list address
+		$email_subject = "Order_form from " . clean_string($organization);
 
-    // create email headers
-    $headers = 'From: no-reply@nextcloud.com'."\r\n".
-    'Reply-To: '.$email_from."\r\n" .
-    'Cc: '.$email_from;
-    // Send the email
-    $recipients = ['patrick', 'jos', 'morris', 'andreas'];
-    $successfullySend = true;
-    foreach ($recipients as $recipient) {
-        $successfullySend &= mail($recipient . '@nextcloud.com', $email_subject, $email_message, $headers);
-    }
+		$email_message = "";
+		$email_message .= "Name: " . clean_string($yourname) . "\n";
+		$email_message .= "Email: " . clean_string($email_from) . "\n";
+		$email_message .= "Organization: " . clean_string($organization) . "\n";
+		$email_message .= "Website: " . clean_string($website) . "\n";
+		$email_message .= "Phone number: " . clean_string($phone) . "\n";
+		$email_message .= "Address: " . clean_string($address) . "\n";
+		$email_message .= "Billing address: " . clean_string($billing) . "\n";
+		$email_message .= "VAT ID: " . clean_string($vat) . "\n";
+		$email_message .= "Comments: " . clean_string($comments) . "\n\n" . "*Order details* \n";
+		$email_message .= "Number of users: " . clean_string($users) . "\n";
+		$email_message .= "Edition: " . clean_string($edition) . "\n";
+		$email_message .= "How many years: " . clean_string($duration) . "\n";
+		$email_message .= "Education/government/charity discount: " . clean_string($edugov) . "\n\n" . "Options:\n";
+		$email_message .= "Would like Outlook option (5€/user): " . clean_string($outlook) . "\n";
+		$email_message .= "Number of Collabora users (17€ for first 99, then 16€/user): " . clean_string($collaboraCheck) . "\n";
+		$email_message .= "Would like ONLYOFFICE option (935€ for first 250): " . clean_string($onlyofficeCheck) . "\n";
+		$email_message .= "Would like remote installation help (990 €): " . clean_string($remoteinstall) . "\n\n";
+		// 	$email_message .= "Would like Branding option: ".clean_string($branding)."\n";
+		// 	$email_message .= "Would like Spreed option: ".clean_string($spreed)."\n";
+		$email_message .= "Price: " . clean_string($givenprice) . "\n";
+		//$email_message .= "Would like to pay in dollars: ".clean_string($dollars)."\n";
+		$email_message .= "Signed terms: " . clean_string($terms) . "\n\n";
 
-    if ($successfullySend) {
-        ?>
-        <h1>Thanks for ordering a Nextcloud Support Subscription!</h1>
-        <p>We are preparing a contract and invoice. Check your inbox for a reply in the next 5 working days.</p>
-        <p>We received following details:</p><pre><?php
-        echo $email_message;
-        ?></pre>
-        <?php
-    } else {
-        // TODO: log something here
-        error_log('could not send all emails - ' . $email_message . json_encode($_POST));
-        ?>
+		// create email headers
+		$headers = 'From: sales@nextcloud.com' . "\r\n" .
+			'Reply-To:  ' . $email_from . ', sales@nextcloud.com' . "\r\n" .
+			'Cc: ' . $email_from . "\r\n" .
+            'Content-Type: text/plain; charset=UTF-8';
+		// Send the email
+		$recipients = ['orders'];
+// 		$recipients = ['jos']; // for testing
+		$successfullySend = true;
+		foreach ($recipients as $recipient) {
+			$successfullySend &= mail($recipient . '@nextcloud.com', $email_subject, $email_message, $headers);
+		}
+        // store in log
+        $data = [
+                'subject' => $email_subject,
+                'message' => $email_message,
+                'headers' => $headers,
+        ];
+        file_put_contents('/var/log/sales-leads.txt', json_encode($data) . PHP_EOL, FILE_APPEND | LOCK_EX);
+
+		if ($successfullySend) {
+			?>
+            <h1>Thanks for ordering a Nextcloud Support Subscription!</h1>
+            <p>We are preparing a contract and invoice. Check your inbox for a reply in the next 5 working days.</p>
+            <p>We received following details:</p>
+            <pre><?php
+				echo $email_message;
+				?></pre>
+			<?php
+		} else {
+			// TODO: log something here
+			error_log('could not send all emails - ' . $email_message . json_encode($_POST));
+			?>
             <h1>Something went wrong!</h1>
-        <p>We had some troubles processing your Nextcloud Support Subscription request. Please try again later.</p>
-        <?php
-    }
+            <p>We had some troubles processing your Nextcloud Support Subscription request. Please try again later.</p>
+			<?php
+		}
+	}
 }
 
 } catch (ValidationException $e) {

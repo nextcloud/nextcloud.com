@@ -13,12 +13,15 @@ $warning: #FFF054;
 /*Shadows*/
 $elevation-shadow-1: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
 
+$color-loading: #969696;
+$color-loading-dark: #bbbbbb;
 
 $font-stack: 'Open Sans', Frutiger, Calibri, 'Myriad Pro', Myriad, sans-serif;
 
 /*Breakpoints*/
 $break-small: 768px;
 $break-big: 991px;
+$break-huge: 1320px;
 $very-wide: 1600px;
 $navbar-breaksize: 1200px;
 
@@ -33,4 +36,39 @@ $navbar-breaksize: 1200px;
 	position: absolute;
     top: 50%;
     transform: translate(0, -50%);
+}
+
+/* New widest container for headers */
+.container-widest {
+    max-width: 1800px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    @media (min-width: $break-small) {
+        .container-widest {
+            width: 738px;
+        }
+    }
+    @media (min-width: 992px) {
+        .container-widest {
+            width: 962px;
+        }
+    }
+    @media (min-width: 1200px) {
+        .container-widest {
+            width: 1170px;
+        }
+    }
+    @media (min-width: 1500px) {
+        .container-widest {
+            width: 1470px;
+        }
+    }
+    @media (min-width: 1800px) {
+        .container-widest {
+            width: 1770px;
+        }
+    }
+
 }
