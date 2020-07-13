@@ -13,6 +13,7 @@
 			<div class="col-md-6 topheader">
 				<h1>Nextcloud Conference 2018</h1>
 				<h2>A week of collaboration, coding and fun!</h2>
+				<a href="<?php echo home_url('conf-2020') ?>" class="button button--arrow button--large button--blue">Go to conf 2020!</a>
 			</div>
 		</div>
 	</div>

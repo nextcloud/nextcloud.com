@@ -17,6 +17,7 @@
 			<div class="col-md-6 topheader">
 				<h1>Nextcloud Conference 2019</h1>
 				<h2>Collaboration, code and fun!</h2>
+				<a href="<?php echo home_url('conf-2020') ?>" class="button button--arrow button--large button--blue">Go to conf 2020!</a>
 			</div>
 		</div>
 	</div>

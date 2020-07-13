@@ -12,6 +12,7 @@
 			<div class="col-md-6 topheader">
 				<h1>Nextcloud Conference 2017</h1>
 				<h2>August 22-29, Technical University Berlin</h2>
+				<a href="<?php echo home_url('conf-2020') ?>" class="button button--arrow button--large button--blue">Go to conf 2020!</a>
 			</div>
 		</div>
 	</div>
