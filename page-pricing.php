@@ -80,6 +80,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 					<li class="nocheck" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-collabora">Collabora Online Office</a>');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-onlyoffice">ONLYOFFICE</a>');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Use your coroporate design in branded and pre-configured sync clients for desktop and mobile.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a>');?></li>
+					<li class="nocheck" title="<?php echo $l->t('support for additional apps not covered in the normal subscription.');?>" rel="tooltip"><?php echo $l->t('Subscription extensions');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Scale out Nextcloud to millions of users');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://nextcloud.com/globalscale/">Global Scale</a>');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
@@ -133,6 +134,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-collabora">Collabora Online Office</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-onlyoffice">ONLYOFFICE</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Use your coroporate design in branded and pre-configured sync clients for desktop and mobile.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a>');?></li>
+					<li class="nocheck" title="<?php echo $l->t('support for additional apps not covered in the normal subscription.');?>" rel="tooltip"><?php echo $l->t('Subscription extensions');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Scale out Nextcloud to millions of users');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://nextcloud.com/globalscale/">Global Scale</a>');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
@@ -186,6 +188,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-collabora">Collabora Online Office</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-onlyoffice">ONLYOFFICE</a>');?></li>
 					<li class="check" title="<?php echo $l->t('Use your coroporate design in branded and pre-configured sync clients for desktop and mobile.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a>');?></li>
+					<li class="check" title="<?php echo $l->t('support for additional apps not covered in the normal subscription.');?>" rel="tooltip"><?php echo $l->t('Subscription extensions');?></li>
 					<li class="check" title="<?php echo $l->t('Scale out Nextcloud to millions of users');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://nextcloud.com/globalscale/">Global Scale</a>');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
