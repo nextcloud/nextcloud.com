@@ -32,6 +32,7 @@
                 <input class="dropdown-toggle" type="text">
                 <div class="dropdown-text">Previous conferences</div>
                 <ul class="dropdown-content">
+                    <li><a href="<?php echo home_url('conf-2020') ?>">Nextcloud Conference 2020</a></li>
                     <li><a href="<?php echo home_url('conf-2019') ?>">Nextcloud Conference 2019</a></li>
                     <li><a href="<?php echo home_url('conf-2018') ?>">Nextcloud Conference 2018</a></li>
                     <li><a href="<?php echo home_url('conf-2017') ?>">Nextcloud Conference 2017</a></li>
