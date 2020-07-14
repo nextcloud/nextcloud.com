@@ -15,7 +15,7 @@
 	<div class="background conf-background">
 		<div class="container">
 			<div class="col-md-6 topheader">
-				<h1>Nextcloud Conference 2020 - </h1>
+				<h1>Nextcloud Conference 2020</h1>
 				<h2>Virtual space@#HomeOffice</h2>
 			</div>
 		</div>
