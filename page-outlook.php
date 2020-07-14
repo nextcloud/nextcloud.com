@@ -36,7 +36,7 @@
 				<iframe width="100%" height="550" src="https://www.youtube-nocookie.com/embed/GPkzeM6jqKE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 				<div class="col-md-6 col-md-offset-3">
-					<p class="section--paragraph text-center"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud customers to easily and securely send files, folders or upload links to others from within Microsoft Outlook.<br>The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>
+					<p class="section--paragraph text-center"><?php echo $l->t('The Sendent Outlook Add-in enables Nextcloud customers to easily and securely send files, folders or upload links to others from within Microsoft Outlook.<br>The Add-in can replace attachments, automatically uploading files to Nextcloud and insert a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>
 				</div>
 			</div>
 		</div>
@@ -48,7 +48,7 @@
             </div>
             <div class="col-md-6 featureblock">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Secure data and lower costs');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('The Secure Sharing Outlook Add-in takes away the IT headache caused by risky attachments.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The Sendent Outlook Add-in takes away the IT headache caused by risky attachments.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Storing and sharing files securely through Nextcloud ensures company policies on data availability, retention and safety can be enforced. This enables system administrators for example to make sure attachments are run through the virus scanner, certain file types are protected from being shared outside the company or that retention policies are followed.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Another significant advantage for IT departments is the savings in storage space for email servers. The add-in negates the need for storing large amounts of attachments in multiple email boxes and decreases network traffic.');?></p>
                  <p class="section--paragraph"><?php echo $l->t('Improve communication and collaboration today. Contact us to learn how we can help you.');?></p>
@@ -95,7 +95,7 @@
             </div>
             <div class="col-md-6 featureblock">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Features');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in turns email attachments into Nextcloud links, manually or automatically. It can insert upload links where the recipient of the email can upload files to. Users can add passwords and expiration dates, the admin can enforce setting these if needed.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The Sendent Outlook Add-in turns email attachments into Nextcloud links, manually or automatically. It can insert upload links where the recipient of the email can upload files to. Users can add passwords and expiration dates, the admin can enforce setting these if needed.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('New users can enjoy the user-friendly setup dialog to get going, and the Upload Files / Share Public Folder option is directly available in the ‘message’ tab.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Add-in can be configured to automatically upload all attachments the user added to an email starting from a configurable size, for example, all files over 200kb.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Users can also use the easy file selection dialog to insert links to files on their Nextcloud storage.');?></p>
@@ -106,8 +106,8 @@
                   <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-secure-email.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/outlook-secure-email.png" alt="in action" /></a>
             </div>
             <div class="col-md-6 featureblock">
-                <h3 class="section--paragraph__title"><?php echo $l->t('Secure Mailbox');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('The Secure Mailbox feature protects the content as well as attachments from emails. It uploads the email body and can automatically create guest accounts for recipients. With account protections like 2-factor authentication, brute-force protection and suspiscious login detection, this provides the level of security that banks, notaries or hospitals need to exchange confidential information with their clients or patients.');?></p>
+                <h3 class="section--paragraph__title"><?php echo $l->t('Secure Mail');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('The Secure Mail feature protects the content as well as attachments from emails. It uploads the email body and can automatically create guest accounts for recipients. With account protections like 2-factor authentication, brute-force protection and suspiscious login detection, this provides the level of security that banks, notaries or hospitals need to exchange confidential information with their clients or patients.');?></p>
                 <h3 class="section--paragraph__title"><?php echo $l->t('Other features:');?></h3>
                 <ul>
                     <li><?php echo $l->t('Users can pick files from the local desktop or from the Nextcloud server');?></li>
@@ -150,19 +150,19 @@
         <h2 class="text-center"><?php echo $l->t('Feature highlight');?></h2>
     </div>
     <div class="row">
-        <h3 class="section--paragraph__title"><?php echo $l->t('Secure Mailbox');?></h3>
-        <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in includes a secure mailbox feature. This feature protects the contents (body) of email from interception by providing the recipient with a notification that a new email was received. The recipient then has to log in on their (guest) account to access the email and its attachments.');?></p>
+        <h3 class="section--paragraph__title"><?php echo $l->t('Secure Mail');?></h3>
+        <p class="section--paragraph"><?php echo $l->t('The Sendent Outlook Add-in includes a secure mailbox feature. This feature protects the contents (body) of email from interception by providing the recipient with a notification that a new email was received. The recipient then has to log in on their (guest) account to access the email and its attachments.');?></p>
         <p class="section--paragraph"><?php echo $l->t('The body of the email is shown with the file attachments. Each email is a folder, linked to in the email notification.');?></p>
         <p class="section--paragraph"><?php echo $l->t('In the screenshots below, the user sends the link and password to the recipient by email. The user can take out the password and send it through another channel. Alternatively, when a guest account is set up for the recipient, the Outlook add-in will detect this and instead share the message to the guest account and include an internal link in the email. The recipient will have to log into their guest account to access the email.');?></p>
     </div>
     <div class="row">
         <div class="col-md-6">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-secure-email.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-secure-email.png" alt="Secure Mailbox - Email as it will be sent to recipient" class="img-responsive"></a><br />
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-secure-email.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/outlook-secure-email.png" alt="Secure Mail - Email as it will be sent to recipient" class="img-responsive"></a><br />
             <?php echo $l->t('Email as it will be sent to recipient');?>
         </div>
         <div class="col-md-6">
-            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-recipient-view-of-secured-email-in-Nextcloud.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-recipient-view-of-secured-email-in-Nextcloud.png" alt="Secure Mailbox - Recipient view in Secure Mailbox in Nextcloud" class="img-responsive"></a><br />
-            <?php echo $l->t('Recipient view in Secure Mailbox in Nextcloud');?>
+            <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-recipient-view-of-secured-email-in-Nextcloud.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/secure-mailbox-recipient-view-of-secured-email-in-Nextcloud.png" alt="Secure Mail - Recipient view in Secure Mail in Nextcloud" class="img-responsive"></a><br />
+            <?php echo $l->t('Recipient view in Secure Mail in Nextcloud');?>
         </div>
     </div>
 </div>
@@ -310,7 +310,7 @@
 <div class="container">
     <div class="row featurerow">
         <div class="col-md-8 col-md-offset-2 featureblock">
-            <p class="text-center"><?php echo $l->t('Pricing for the Nextcloud Secure Sharing Outlook Add-in starts at USD 5 per user per year with discounts for larger user numbers.');?></p>
+            <p class="text-center"><?php echo $l->t('Pricing for the Sendent Outlook Add-in starts at €6,48 per user per year with discounts for larger user numbers.');?></p>
             <div class="text-center">
                 <a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
