@@ -5,6 +5,18 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Preferred providers: Possible denial of service when entering a long password (NC-SA-2020-028)</title>
+  <description>Improper check of inputs in Preferred providers app 1.6.0 allowed to perform a denial of service attack when using a very long password.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-028&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-028</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-028</guid>
+  <pubDate>Tue, 16 Jun 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Password of share by mail is not hashed when given on the create share call (NC-SA-2020-026)</title>
+  <description>A logic error in Nextcloud Server 19.0.0 caused a plaintext storage of the share password when it was given on the initial create API call.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-026&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-026</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-026</guid>
+  <pubDate>Thu, 04 Jun 2020 14:00:00 +0200</pubDate>
+ </item><item>
   <title>Deck App: Missing permission check on resharing a board (NC-SA-2020-025)</title>
   <description>Improper access control in Nextcloud Deck 0.8.0 allowed an attacker to reshare boards shared with them with more permissions than they had themselves.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-025&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-025</link>
@@ -16,6 +28,12 @@
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-024</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-024</guid>
   <pubDate>Thu, 16 Apr 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Increase random used for encryption (NC-SA-2020-023)</title>
+  <description>A too small set of random characters being used for encryption in Nextcloud Server 18.0.4 allowed decryption in shorter time than intended.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-023&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-023</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-023</guid>
+  <pubDate>Thu, 04 Jun 2020 14:00:00 +0200</pubDate>
  </item><item>
   <title>Deck App: Improper access control allows injecting tasks into other users decks (NC-SA-2020-022)</title>
   <description>Improper access control in Nextcloud Deck 1.0.0 allowed an attacker to inject tasks into other users decks.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-022&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
