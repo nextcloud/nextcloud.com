@@ -2,6 +2,36 @@
 
 <h2>2020</h2>
 
+<h3>Preferred providers 1.7.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-028">Possible denial of service when entering a long password (NC-SA-2020-028)</a> 2020-06-16</li>
+</ul>
+
+<h3>Nextcloud Server 19.0.1</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-026">Password of share by mail is not hashed when given on the create share call (NC-SA-2020-026)</a> 2020-06-04</li>
+</ul>
+
+<h3>Nextcloud Server 18.0.6</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-026">Password of share by mail is not hashed when given on the create share call (NC-SA-2020-026)</a> 2020-06-04</li>
+</ul>
+
+<h3>Nextcloud Server 19.0.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-023">Increase random used for encryption (NC-SA-2020-023)</a> 2020-06-04</li>
+</ul>
+
+<h3>Nextcloud Server 18.0.5</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-023">Increase random used for encryption (NC-SA-2020-023)</a> 2020-06-04</li>
+</ul>
+
+<h3>Nextcloud Server 17.0.7</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-023">Increase random used for encryption (NC-SA-2020-023)</a> 2020-06-04</li>
+</ul>
+
 <h3>Deck App 1.0.1</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2020-022">Improper access control allows injecting tasks into other users decks (NC-SA-2020-022)</a> 2020-05-15</li>
