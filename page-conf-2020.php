@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/conf.css?v=3" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/conf.css?v=4" rel="stylesheet">
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2019-small.jpg">
 <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2019-small.jpg">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/conference/grouppic2019-small.jpg">
