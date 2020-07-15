@@ -25,9 +25,9 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
-			<h3 class="section--paragraph__title">October 3-4, <a class="hyperlink" href="https://www.bum.berlin/">bUm</a>/live virtual online space 🛰</h3>
+			<h3 class="section--paragraph__title">October 3-4, <a class="hyperlink" href="https://www.bum.berlin/">bUm</a>/live online</h3>
 			<p class="section--paragraph">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
-			<p class="section--paragraph">The event is taking place as a live online event space 🛰👾</a></p>
+			<p class="section--paragraph">Join from wherever you are - the event is taking place as a live online event space 🛰👾</a></p>
 			<p class="section--paragraph"><a href="https://eventyay.com/e/0917096d" class="button button--arrow button--large button--blue">Get your ticket</a>  <a href="https://eventyay.com/e/0917096d/cfs" class="button button--arrow button--large button--blue">Submit a talk</a>
 			<h3>As 2020 is the year of working from home, our theme this year is <strong>#HomeOffice</strong></h3>
 			<p>Everyone who has signed up will get information on how to participate. 👾 If you don't sign up you can follow the live 🛰 stream but you won't have an account that allows you to interact with other participants!</p>
@@ -69,7 +69,7 @@
                     <li class="checkmark">Ask questions at our live 🛰 🗣️ virtual booths </li>
                     <li class="checkmark">We stream live 🛰 pictures 📷 a live blog and social media using #Nc2020</li>
                     <li class="checkmark">Team chats 👥, live 🛰 workshops and much more!</li>
-                    <li class="checkmark">Join our PARTY 🎉 - a relaxed, casual chat about the <em>meaning of live</em> 🛰👾 <small>(42)</small></li>
+                    <li class="checkmark">Join our PARTY 🎉 - a relaxed, casual chat about the <em>meaning of live</em> 🤖 <small>(42)</small></li>
                 </ul>
             </div>
 		</div>
