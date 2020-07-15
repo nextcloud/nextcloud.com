@@ -44,6 +44,23 @@
       color: #f0f0f0;
       border-bottom: solid 2px; }
 
+.conf-2020-background {
+  background: url("../../img/headers/space.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: center -20vh;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .conf-2020-background .topheader .hyperlink {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: solid 1px;
+    transition: all 0.5s ease;
+    text-decoration: none; }
+    .conf-2020-background .topheader .hyperlink :hover {
+      color: #f0f0f0;
+      border-bottom: solid 2px; }
+
 section {
   padding: 50px 0 50px; }
   section .section--heading-1 {

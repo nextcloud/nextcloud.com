@@ -12,7 +12,7 @@
 </script>
 </head>
 <section class="hero-section">
-	<div class="background conf-background">
+	<div class="background conf-2020-background">
 		<div class="container">
 			<div class="col-md-6 topheader">
 				<h1>Nextcloud Conference 2020</h1>
@@ -55,6 +55,7 @@
 <section class="section--program">
     <div class="container">
         <div class="row text-center">
+            <p class="section--paragraph"><strong>Our official Nextcloud conference 2020 hashtag is #Nc2020 - let's connect! </strong></p>
             <h1 class="">Online event</h1>
 		</div>
 		<div class="row">
@@ -66,7 +67,7 @@
                     <li class="checkmark">Every talk is followed by a live 🛰 Q&A ❓ session</li>
                     <li class="checkmark">Your questions guide our live 🛰 interviews 🎤 with speakers and sponsors</li>
                     <li class="checkmark">Ask questions at our live 🛰 🗣️ virtual booths </li>
-                    <li class="checkmark">We stream live 🛰 pictures 📷 a live blog and social media</li>
+                    <li class="checkmark">We stream live 🛰 pictures 📷 a live blog and social media using #Nc2020</li>
                     <li class="checkmark">Team chats 👥, live 🛰 workshops and much more!</li>
                     <li class="checkmark">Join our PARTY 🎉 - a relaxed, casual chat about the <em>meaning of live</em> 🛰👾 <small>(42)</small></li>
                 </ul>
