@@ -54,19 +54,20 @@ html, body {
       border-bottom: solid 2px; }
 
 .conf-2020-background {
+  height: 700px !important;
   background: url("../../img/headers/space.jpg") no-repeat;
   background-repeat: no-repeat;
   background-size: unset;
   background-position: center center; }
-  @media (max-width: 768px) {
-    .conf-2020-background {
-      background-position: -1100px -20vh; } }
   @supports not (-webkit-overflow-scrolling: touch) {
     .conf-2020-background {
       /* CSS for other than iOS devices */
       background-position: center -20vh;
       background-attachment: fixed;
       background-size: cover; } }
+  @media (max-width: 768px) {
+    .conf-2020-background {
+      background-position: 65% -20vh; } }
   .conf-2020-background .topheader .hyperlink {
     color: white;
     text-decoration: none;
