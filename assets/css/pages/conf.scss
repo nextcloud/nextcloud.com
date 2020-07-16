@@ -18,11 +18,7 @@ html, body {
     background-attachment: fixed;
     background-position: 60% top;
     background-size: auto 700px;
-    @media (min-width: 1000px) {
-        background-attachment: fixed;
-        background-position: 70% -1000px;
-        background-size: cover;
-    }
+    background-attachment: fixed;
     @media (min-width: 2000px) {
         background-attachment: fixed;
         background-position: center top;

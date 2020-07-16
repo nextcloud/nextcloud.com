@@ -43,12 +43,8 @@ html, body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 60% top;
-  background-size: auto 700px; }
-  @media (min-width: 1000px) {
-    .hero-section-conf2020 {
-      background-attachment: fixed;
-      background-position: 70% -1000px;
-      background-size: cover; } }
+  background-size: auto 700px;
+  background-attachment: fixed; }
   @media (min-width: 2000px) {
     .hero-section-conf2020 {
       background-attachment: fixed;
