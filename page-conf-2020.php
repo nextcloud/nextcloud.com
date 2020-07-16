@@ -349,11 +349,14 @@
     </div>
     <div class="row">
         <div class="blog-social-icons col-md-6 col-md-offset-2">
-            <a target="_blank" href="https://twitter.com/intent/tweet/?url=<?php echo urlencode(get_permalink()); ?>&via=nextclouders&hashtags=nextcloud,homeoffice,privacy">
+            <a target="_blank" href="https://twitter.com/intent/tweet/?url=<?php echo urlencode(get_permalink()); ?>&via=nextclouders&hashtags=nc2020">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/social/twitterround.png"></img>
             </a>
             <a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode(get_permalink()); ?>">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/social/facebook.png"></img>
+            </a>
+            <a target="_blank" href="https://mastodon.xyz/@nextcloud">
+                <img class="blog-social" src="<?php echo get_template_directory_uri(); ?>/assets/img/social/mastodon.png"></img>
             </a>
         </div>
     </div>
