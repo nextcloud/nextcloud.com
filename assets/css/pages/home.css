@@ -298,6 +298,16 @@
         .section--products .description .title .text small {
           opacity: 0.8; }
 
+.section--ionos {
+  margin: 0 0 0 0;
+  padding: 90px 0px 70px;
+  background-color: #eee; }
+  @media (min-width: 768px) {
+    .section--ionos .section--paragraph__title {
+      margin-top: 50px; } }
+  .section--ionos h1 {
+    margin-bottom: 30px; }
+
 .section--homeoffice p {
   margin-bottom: 50px; }
 

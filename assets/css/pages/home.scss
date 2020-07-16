@@ -353,6 +353,20 @@
     }
 }
 
+.section--ionos {
+	margin: 0 0 0 0;
+    padding: 90px 0px 70px;
+    background-color: #eee;
+	@media (min-width: $break-small) {
+        .section--paragraph__title {
+            margin-top: 50px;
+        }
+    }
+	h1 {
+		margin-bottom: 30px;
+	}
+}
+
 .section--homeoffice {
     p {
         margin-bottom: 50px;
