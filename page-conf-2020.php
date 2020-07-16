@@ -11,7 +11,7 @@
 	});
 </script>
 </head>
-<section class="hero-section">
+<section class="hero-section hero-section-conf2020">
 	<div class="background conf-2020-background">
 		<div class="container">
 			<div class="col-md-6 topheader">
