@@ -64,7 +64,7 @@
 			<li><a class="hyperlink" href="<?php echo $DOCUMENTATION_CLIENT_DESKTOP; ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('Desktop client');?>"><?php echo $l->t('Desktop client');?></a></li>
 			<li><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud administrator Documentation');?>"><?php echo $l->t('Admins</a>');?></li>
 			<li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('Nextcloud Developer Documentation');?>"><?php echo $l->t('Developers</a>');?></li>
-			<li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker/" target="_blank" rel="tooltip" title="<?php echo $l->t('Information for Testers');?>"><?php echo $l->t('Testers');?></a></li>
+			<li><a class="hyperlink" href="<?php echo $DOCUMENTATION_BUGTRACKER; ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('Information for Testers');?>"><?php echo $l->t('Testers');?></a></li>
 		</ul>
 	</div>
 	<div class="col-md-4">

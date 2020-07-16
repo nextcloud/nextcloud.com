@@ -34,7 +34,7 @@
             <h3 class="section--paragraph__title"><?php echo $l->t('Contribute to Nextcloud server or apps');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Learn about setting up a development environment or read our security guidelines, coding style and more!');?></p>
             <p class="section--paragraph"><?php echo $l->t('Improve the Nextcloud Server:');?> <a class="hyperlink"  href="<?php echo $DOCUMENTATION_DEVELOPER; ?>core"><?php echo $l->t('server development documentation');?></a>, <a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>general"><?php echo $l->t('general guidelines and setup');?></a></p>
-            <p class="section--paragraph"><?php echo $l->t('Get a bug fixed:');?> <a class="hyperlink"  href="<?php echo $DOCUMENTATION_DEVELOPER; ?>bugtracker"><?php echo $l->t('bugtracker documentation');?></a></li>
+            <p class="section--paragraph"><?php echo $l->t('Get a bug fixed:');?> <a class="hyperlink"  href="<?php echo $DOCUMENTATION_BUGTRACKER; ?>"><?php echo $l->t('bugtracker documentation');?></a></li>
             <p class="section--paragraph"><?php echo $l->t('Learn to write Nextcloud code. (Try your hands on a <a class="hyperlink"  href="https://github.com/nextcloud/server/labels/good%20first%20issue" target="_blank">good first issue</a> or get started with <a class="hyperlink" href="https://nextcloud.com/blog/get-involved-in-nextcloud-by-reviewing-pulls/">reviewing pull requests</a>)');?></li>
             <p class="section--paragraph"><a class="hyperlink" href="https://transifex.com/nextcloud"><?php echo $l->t('Help translate Nextcloud.');?></a></li>
             <p class="section--paragraph"><?php echo $l->t('Talk to us on our
