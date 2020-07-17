@@ -184,11 +184,11 @@
 				<a class="button button--white" href="http://nws.netways.de/">Learn more</a>
 			</div>
 			<div class="col-md-4">
-				<a href="http://open-dsi.fr/" target="_blank" title="Open-DSI">
+				<a href="https://www.open-dsi.fr/collaborer-nextcloud/" target="_blank" title="Open-DSI">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/opendsi.png" title="open-DSI logo" />
 				</a>
 				<p  class="partnertext">Open-DSI is a French company which supports organizations and companies with their computing projects. Our specialty is the implementation of open source cloud computing solutions and outsourcing. Our solutions are based on three main building blocks: Nextcloud, ERP+CRM Dolibarr and WooCommerce.</p>
-				<a class="button button--white" href="http://open-dsi.fr/">Learn more</a>
+				<a class="button button--white" href="https://www.open-dsi.fr/collaborer-nextcloud/">Learn more</a>
 			</div>
             <div class="col-md-4">
 				<a href="http://www.regioit.de/" target="_blank" title="Regioit">
