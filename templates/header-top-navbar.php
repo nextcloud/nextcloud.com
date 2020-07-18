@@ -12,8 +12,8 @@ require get_template_directory() . '/strings.php';
 	<div class="container">
     <a class="storage-insider" target="_blank" href="https://nextcloud.com/blog/cloud-computing-insider-award-vote-now/">
         <span class="si-icon"><i class="fa-bullseye fa"></i></span>
-        <span class="si-title">Your vote counts!</span>
-        <span class="si-par">Insiders Award</span>
+        <span class="si-title">Vote for us!</span>
+        <span class="si-par">Support Nextcloud</span>
             </a>
 		<div class="nav__bg-wrapper">
 			<div class="nav__bg"></div>

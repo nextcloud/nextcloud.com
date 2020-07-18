@@ -4916,14 +4916,14 @@ nav a {
 * insiders vote button
 */
 .nav .container .storage-insider {
-  background-color: #0082c9;
+  background-color: white;
   position: absolute;
-  background: #0082c9;
+  background: white;
   border-radius: 0 0 5px 5px;
   top: -20px;
   left: 100px;
-  width: 170px;
-  height: 40px;
+  width: 150px;
+  height: 45px;
   padding-top: 10px;
   z-index: 999; }
   .nav .container .storage-insider:hover {
@@ -4948,15 +4948,15 @@ nav a {
     font-size: 13px;
     font-weight: 700;
     margin-bottom: 3px;
-    padding-left: 48px;
+    padding-left: 43px;
     line-height: 7px;
     display: block;
-    color: #fff; }
+    color: #0082c9; }
   .nav .container .storage-insider .si-par {
     font-size: 11px;
-    padding-left: 48px;
+    padding-left: 43px;
     display: block;
-    color: #fff; }
+    color: #0082c9; }
 
 /**
 *Changed default media querys for navigation in bootstrap
