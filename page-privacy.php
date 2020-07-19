@@ -122,7 +122,7 @@
             <p><?php echo $l->t('If at any time you would like to unsubscribe from receiving future emails follow the instructions at the bottom of each email and we will promptly remove you from correspondence by that tool. Note that you have to unsubscribe separately from our newsletter and our marketing automation tool.');?></p>
 
             <h3><?php echo $l->t('Website source');?></h3>
-            <p><?php echo $l->t('The source code of the website can be found in <a class="hyperlink" href="https://github.com/nextcloud/nextcloud.com">our GitHub repo</a>. It is licensed under the <a class="hyperlink" href="https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License">AGPLv3 license</a>. Note that graphics and trademarks are of course not licensed freely, nor is text content. The license covers the code of the site.');?></p>
+            <p><?php echo $l->t('The source code of the website can be found in <a class="hyperlink" href="https://github.com/nextcloud/nextcloud.com">our GitHub repository</a>. It is licensed under the <a class="hyperlink" href="https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License">AGPLv3 license</a>. Note that graphics and trademarks are of course not licensed freely, nor is text content. The license covers the code of the site.');?></p>
 
             <h2><?php echo $l->t('Contact');?></h2>
             <p><?php echo $l->t('If there are any questions regarding this privacy policy you may contact us using the information below.');?></p>
