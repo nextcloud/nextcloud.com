@@ -19,7 +19,7 @@
         <div class="col-md-8 col-md-offset-2">
             <p><?php echo $l->t('If you have technical questions or need support,');?> <a href="<?php echo home_url('support') ?>"><?php echo $l->t('check out the options on our support page.</a>');?>
             <h2><?php echo $l->t('Talk to us online!');?></h2>
-            <p><?php echo $l->t('Most of our contributors are active in <a href="irc://#nextcloud-dev@freenode.net" target="_blank">the Nextcloud development IRC channel</a> on freenode.net, also accessible via <a href="https://webchat.freenode.net/?channels=nextcloud-dev" target="_blank">webchat</a>. We are also very active <a href="https://help.nextcloud.com" target="_blank">on our forums</a>.');?> <a href="<?php echo home_url('contribute') ?>"><?php echo $l->t('Get involved!!</a>');?></p>
+            <p><?php echo $l->t('As a home user, best use <a href="https://help.nextcloud.com" target="_blank">our forums</a> for questions.');?> <a href="<?php echo home_url('contribute') ?>"><?php echo $l->t('Get involved!!</a>');?></p>
             </div>
         <div class="col-md-8 col-md-offset-2">
             <h1><?php echo $l->t('Contact us');?></h1>
