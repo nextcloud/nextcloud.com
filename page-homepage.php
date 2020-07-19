@@ -313,7 +313,7 @@
 <div class="calltoaction">
 	<h1 class="section--heading-2 section--text--center"><?php echo $l->t('See how we stack up');?></h1>
 	<p class="section--paragraph section--text--center">
-	<a href="<?php echo home_url('compare') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Compare Nextcloud to other solutions like Office365');?></a></p>
+	<a href="<?php echo home_url('compare') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Compare Nextcloud to other solutions like Office 365');?></a></p>
 </div>
 </section>
 
