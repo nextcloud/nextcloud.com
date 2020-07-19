@@ -9,38 +9,50 @@
 		</div>
 	</div>
 </div>
+
 <section class="section--documentation">
 <div class="container">
-	<h1 class="section--heading-1"><?php echo $l->t('Documentation');?></h1>
-	<p><?php echo $l->t('The Nextcloud documentation for home users:');?></p>
-	<ul>
-		<li><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Admin manual');?></a></li>
-		<li><a class="hyperlink" href="<?php echo $DOCUMENTATION_USER; ?>"><?php echo $l->t('User manual');?></a></li>
-		<li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>"><?php echo $l->t('Developer manual');?></a></li>
-	</ul>
-	<p><?php echo $l->t('Use and enjoy the more than 100 community developed apps from our built in app store, browse them on <a class="hyperlink" href="https://apps.nextcloud.com" target="_blank">online</a>. Find');?> <a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>installation/apps_management_installation.html"><?php echo $l->t('documentation on handling Apps here</a>.');?></p>
+	<div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <h2 class="text-center"><?php echo $l->t('Documentation');?></h2>
+            <p class="section--paragraph"><?php echo $l->t('The Nextcloud documentation:');?></p>
+            <ul>
+                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>"><?php echo $l->t('Admin manual');?></a></li>
+                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_USER; ?>"><?php echo $l->t('User manual');?></a></li>
+                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>"><?php echo $l->t('Developer manual');?></a></li>
+            </ul>
+            <p class="section--paragraph"><?php echo $l->t('Customers can log in to our customer portal with their credentials for additional information on scalability and performance for large instances, enterprise database configuration tuning and more. Access our');?> <a class="hyperlink" href="https://portal.nextcloud.com" target="_blank"><?php echo $l->t('Customer Portal here.');?></a></p>
+            <p class="section--paragraph"><?php echo $l->t('Not a customer? Improve team productivity now with the leading content collaboration platform.');?></p>
+             <a href="<?php echo home_url('buy') ?>" class="button button--white button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+        </div>
+    </div>
 </div>
 </section>
 
-<section class="section--help">
+<section class="section--options">
 <div class="container">
-	<h2><?php echo $l->t('Help from others');?></h2>
-	<p><?php echo $l->t('You can ask for help in our community support channels:');?></p>
-    <ul>
-        <li><?php echo $l->t('<a class="hyperlink" href="https://help.nextcloud.com/categories" target="_blank">the Nextcloud Forums</a>');?></li>
-        <li><?php echo $l->t('<a class="hyperlink" href="irc://#nextcloud@freenode.net" target="_blank">the Nextcloud IRC chat channel</a> on freenode.net, also accessible via <a class="hyperlink" href="https://webchat.freenode.net/?channels=nextcloud" target="_blank">webchat</a>');?></li>
-        <li><?php echo $l->t('You can ask over our social media, including the <a class="hyperlink" href="https://www.facebook.com/Nextcloud-1032807203462807/" target="_blank">Facebook page</a> or on <a class="hyperlink" href="https://twitter.com/search?q=%23nextcloud&src=typd" target="_blank">Twitter</a>');?></li>
-        <li><?php echo $l->t('Finally, you could report a issue at our <a class="hyperlink" href="https://github.com/nextcloud/server/blob/master/.github/CONTRIBUTING.md" target="_blank">bug trackers</a> if you think you found a bug in Nextcloud itself');?></li>
-    </ul>
-    <p><?php echo $l->t('Please understand that all these channels essentially consist of users like you helping each other out. Consider helping others out where you can, to contribute back for the help you get. This is the only way to keep a community like Nextcloud healthy and sustainable!');?></p>
-</div>
-</section>
-
-<section class="section--enterprise">
-<div class="container">
-    <h2><?php echo $l->t('Enterprise support');?></h2>
-    <p><?php echo $l->t('If you run Nextcloud in a mission critical environment with large numbers of users and big amounts of data and need the certainty of support from the experts behind the Nextcloud technology, a');?> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>" target="_blank"><?php echo $l->t('Enterprise Subscription from Nextcloud</a> is available with email and phone support.');?></p>
-    <p><?php echo $l->t('Our unique approach to support gives you what <strong>no other vendor can offer</strong>: direct access to core Nextcloud engineering expertise without a layer of support people between you and what you need!');?> <a class="hyperlink" href="https://opensource.com/article/18/8/mixing-roles-engineering" target="_blank"><?php echo $l->t('Learn more on opensource.com.');?></a></p>
+	<h2 class="text-center">Support options</h2>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/family.svg" /></div>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Help for home users');?></h3>
+			<p class="section--paragraph"><?php echo $l->t('Home users can ask for help in our forums.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Please understand that our forum essentially consist of users like you helping each other out. Consider helping others out where you can, to contribute back for the help you get. This is the only way to keep a community like Nextcloud healthy and sustainable!');?></p>
+			<a class="button button--blue" href="https://help.nextcloud.com/categories" target="_blank"><?php echo $l->t('Forums');?></a>
+		</div>
+		<div class="col-md-4">
+			<div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/training.svg" /></div>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Enterprise support');?></h4>
+            <p class="section--paragraph"><?php echo $l->t('If you run Nextcloud in a mission critical environment, you need an enterprise platform. Nextcloud Enterprise is our tested and certified enterprise product for medium and large businesses, governments and educational institutes. It is backed by our support and gives access to our customer portal and consulting services.');?></a></p>
+            <a class="button button--blue" href="<?php echo home_url('enterprise') ?>" target="_blank"><?php echo $l->t('Enterprise');?> </a>
+		</div>
+		<div class="col-md-4">
+			<div class="icon"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/virusscaning.svg" /></div>
+			<h3 class="section--paragraph__title"><?php echo $l->t('Reporting bugs');?></h3>
+			<p class="section--paragraph"><?php echo $l->t('Once you have found the root cause of a bug and it is an issue in Nextcloud itself, report it in our bug tracker. Please keep in mind that this is NOT a support channel and only meant for reporting confirmed issues. Code examples and debugging information is needed and support requests will be closed. Use our forums for help with debugging issues.');?></p>
+			<a class="button button--blue" href="https://github.com/nextcloud/server/issues/new" target="_blank"><?php echo $l->t('report a bug');?></a>
+		</div>
+	</div>
 </div>
 </section>
 

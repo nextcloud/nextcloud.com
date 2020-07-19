@@ -8,35 +8,30 @@
 }
 
 section {
-    padding: 50px 0 50px;
-    .section--heading-1 {
-        padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 40px;
+}
+
+.section--documentation {
+    li {
+        /* 			list-style-type: circle; */
+        list-style-image: url("../../img/common/check-as-blue-arrow.svg");
+        /* 		list-style-position:inside; */
     }
-    .section--paragraph--tittle {
-        padding: 0;
+}
+
+.section--options {
+/*     margin-top: 100px; */
+    .icon {
+        width: 100px;
+        height: auto;
+        margin: 50px 0 30px 0;
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
     .row {
-        padding: 20px 0 20px 0;
-		.feature--block {
-		}
+        margin-bottom: 15px;
     }
-	.feature-row {
-		padding: 60px 0 60px 0;
-	}
-}
-
-.img-responsive {
-    padding-top: 10px;
-    @media (min-width: $break-big) {
-        margin-bottom: 50px;
-    }
-    @media (min-width: $very-wide) {
-        /* 	margin-bottom: 0px; */
-    }
-}
-
-.separator{
-	margin: 100px 0 50px 0;
-	height: 40px;
-	background: #f6f6f6;
 }

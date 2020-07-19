@@ -35,28 +35,24 @@
   background-size: cover; }
 
 section {
-  padding: 50px 0 50px; }
-  section .section--heading-1 {
-    padding-bottom: 50px; }
-  section .section--paragraph--tittle {
-    padding: 0; }
-  section .row {
-    padding: 20px 0 20px 0; }
-  section .feature-row {
-    padding: 60px 0 60px 0; }
+  padding-top: 50px;
+  margin-top: 40px; }
 
-.img-responsive {
-  padding-top: 10px; }
-  @media (min-width: 991px) {
-    .img-responsive {
-      margin-bottom: 50px; } }
-  @media (min-width: 1600px) {
-    .img-responsive {
-      /* 	margin-bottom: 0px; */ } }
+.section--documentation li {
+  /* 			list-style-type: circle; */
+  list-style-image: url("../../img/common/check-as-blue-arrow.svg");
+  /* 		list-style-position:inside; */ }
 
-.separator {
-  margin: 100px 0 50px 0;
-  height: 40px;
-  background: #f6f6f6; }
+.section--options {
+  /*     margin-top: 100px; */ }
+  .section--options .icon {
+    width: 100px;
+    height: auto;
+    margin: 50px 0 30px 0; }
+    .section--options .icon img {
+      width: 100%;
+      height: auto; }
+  .section--options .row {
+    margin-bottom: 15px; }
 
 /*# sourceMappingURL=support.css.map */
