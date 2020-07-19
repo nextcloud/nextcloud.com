@@ -26,7 +26,7 @@
 				<div id="tab-desktop" role="tabpanel" class="tab-pane active">
 					<div class="overlay-body row">
 						<div class="col-md-6">
-							<p><?php echo $l->t('Latest stable version:');?> <?php echo $VERSIONS_CLIENT_DESKTOP_STABLE_FULL; ?>&nbsp;<a href="https://github.com/nextcloud/desktop/releases"><?php echo $l->t('changelog');?></a>&nbsp;</p>
+<!-- 							<p><?php echo $l->t('Latest stable version:');?> <?php echo $VERSIONS_CLIENT_DESKTOP_STABLE_FULL; ?>&nbsp;<a href="https://github.com/nextcloud/desktop/releases"><?php echo $l->t('changelog');?></a>&nbsp;</p> -->
 							<p><?php echo $l->t('Use the desktop clients to keep your files synchronized between your Nextcloud server and your desktop. Select one or more directories on your local machine and always have access to your latest files wherever you are.');?></p>
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_WIN; ?>" id="client-download-win" class="button button--white"><i class="fa-windows"></i>  Windows<br /><small>7, 8.x and 10</small></a>
 							<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC; ?>" id="client-download-mac" class="button button--white"><i class="fa-apple"></i> macOS<br /><small>10.12+, 64 bit</small></a>
@@ -70,19 +70,9 @@
 									</a>
 								</div>
 							</div>
-							<p><a class="hyperlink" href="https://github.com/nextcloud/ios"><?php echo $l->t('Find iOS Sources here</a>, <a class="hyperlink" href="https://github.com/nextcloud/android">Android Sources here</a>, <a class="hyperlink" href="https://download.nextcloud.com/android">direct APK download here</a> and <a class="hyperlink" href="https://github.com/nextcloud/windows-uwp">Windows Mobile sources here</a>.');?></p>
+							<p><a class="hyperlink" href="https://github.com/nextcloud/ios"><?php echo $l->t('Find iOS Sources here</a>, <a class="hyperlink" href="https://github.com/nextcloud/android">Android Sources here</a> and <a class="hyperlink" href="https://download.nextcloud.com/android">direct APK download here</a>.');?></p>
 							<p><?php echo $l->t('Beta clients:');?> <a target="_blank" class="hyperlink" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>"><i class="fa-android"></i> Android</a> - <a target="_blank" class="hyperlink" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><i class="fa-android"></i> fdroid</a> - <a target="_blank" class="hyperlink" href="https://testflight.apple.com/join/GjNbfo2a"><i class="fa-apple"></i> iOS</a></p>
                             </ul>
-							<div class="row mobileclientbuttons">
-								<div class="col-xs-4">
-									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_WIN; ?>">
-									<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/windowsstore.png">
-									</a>
-								</div>
-								<div class="col-xs-8">
-									<p><?php echo $l->t('<strong>Note:</strong> The Windows app is still in testing, use at your own risk and <a class="hyperlink" href="https://github.com/nextcloud/windows-uwp/issues">let us know about your experience.</a>');?></p>
-								</div>
-							</div>
 							<p><?php echo $l->t('Nextcloud is using WebDAV, so you can also try out any other client you want!');?></p>
 							<p><?php echo $l->t('Compatible third party clients include:');?></p>
 							<ul>
