@@ -59,6 +59,18 @@
 </div>
 </section>
 
+<div class="container">
+    <div class="container">
+		<div class="row">
+			<div class="text-center">
+                <h2>Apply</h2>
+                <p>Use this form to apply for mentorship, travel support or an internship with Nextcloud.</p>
+                <p><a class="button button--blue button--arrow" href="https://cloud.nextcloud.com/apps/forms/7x6yQHNpZDbgC3EP">Apply now</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="separator"></div>
 <section class="section--mentoring">
 	<div class="container">
@@ -108,61 +120,24 @@
 <div class="separator"></div>
 
 <?php
-
-$int1 = random_int(0, 15);
-$int2 = random_int(0, 50);
-$salt = bin2hex(random_bytes(5));
-$hash = hash('sha256', $salt . ($int1 + $int2));
-$checksum = $salt . ':' . $hash;
-
-$image = imagecreate(100, 20);
-$background_color = imagecolorallocate($image, 255, 255, 255);
-$text_color = imagecolorallocate($image, 0, 0, 0);
-imagestring($image, 5, 3, 2, $int1 . ' + ' . $int2, $text_color);
-
-ob_start();
-imagepng($image);
-$imagestring = ob_get_contents();
-ob_end_clean();
-imagedestroy($image);
+//
+// $int1 = random_int(0, 15);
+// $int2 = random_int(0, 50);
+// $salt = bin2hex(random_bytes(5));
+// $hash = hash('sha256', $salt . ($int1 + $int2));
+// $checksum = $salt . ':' . $hash;
+//
+// $image = imagecreate(100, 20);
+// $background_color = imagecolorallocate($image, 255, 255, 255);
+// $text_color = imagecolorallocate($image, 0, 0, 0);
+// imagestring($image, 5, 3, 2, $int1 . ' + ' . $int2, $text_color);
+//
+// ob_start();
+// imagepng($image);
+// $imagestring = ob_get_contents();
+// ob_end_clean();
+// imagedestroy($image);
 ?>
-
-<div class="container">
-	<h2>Apply</h2>
-	<p>Here you can apply for mentorship, travel support or an internship with Nextcloud.</p>
-	<div class="contact">
-		<h3>Please note that Nextcloud Include is focused on involving people from groups who are underrepresented in open source. It is not a general mentorship program. If you just need help getting started, check out our Contribution page at <a href="https://nextcloud.com/contribute" target="_blank">nextcloud.com/contribute</a></h3>
-		<p>Your answers to the following questions will help us better understand how we can help you join our community.</p>
-		<form name="include" method="post" action="../includesubmit/">
-				<p><label for="yourname">Your name<br>
-				<input  type="text" name="yourname" maxlength="60" size="60"></label></p>
-				<p><label for="email">Email<br>
-				<input type="text" name="email" maxlength="100" size="60" ></label></p>
-				<p><label for="who">Tell us a bit about yourself: Who are you, what is your relation to open source or Nextcloud?<br>
-				<textarea name="who" maxlength="2000" cols="80" rows="8" placeholder="Tell us more about you"></textarea></label></p>
-				<p><label for="fit">Why do you think you fit in the program?<br>
-				<textarea name="fit" maxlength="2000" cols="80" rows="8" placeholder="Tell us why you'd be a fit for Nextcloud Include"></textarea></label></p>
-				<p><label for="location">Where do you live?<br>
-				<input  type="text" name="location" maxlength="100" size="60" placeholder="City, Country"></label></p>
-				<p><label for="languages">Which languages can you speak/read/write in?<br>
-				<input type="text" name="languages" maxlength="100" size="60" placeholder="English, German, French, others?"></textarea></label></p>
-				<p><label for="os">Which operating system do you use?<br>
-				<input type="text" name="os" maxlength="100" size="60" placeholder="Windows, MacOS, Linux"></textarea></label></p>
-				<p><label for="contribute">How do you want to contribute?<br>
-				<textarea name="contribute" maxlength="1000" cols="80" rows="8" placeholder="Tell us how you'd want to contribute"></textarea></label></p>
-				<p><label for="links">Do you have a website, Github account or social media account you would be willing to share with us?<br>
-				<textarea name="links" maxlength="2000" cols="80" rows="8" placeholder="Links"></textarea></label></p>
-				<p><label for="others">Any other useful informations you would like to share with us?<br>
-				<textarea name="others" maxlength="2000" cols="80" rows="8" placeholder="Your message"></textarea></label></p>
-				<td colspan="2" style="text-align:center">
-				<p><label for="captcha">Please calculate the following sum <span></span><br>
-				<img src="data:image/png;base64,<?php echo base64_encode($imagestring); ?>"><br>
-				<input  type="text" name="captcha" maxlength="20" size="20" placeholder="13"></label></p>
-				<input  type="hidden" name="checksum" value="<?php echo $checksum;?>">
-				<input type="submit" value=" Submit inquiry " class="button button--blue">
-		</form>
-	</div>
-</div>
 
 <section class="section--advantages">
 <div class="container-fluid quote">
@@ -221,7 +196,7 @@ imagedestroy($image);
     <div class="row">
         <div class="col-md-4">
             <div class="teamp">
-                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/john.jpg" />
+                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/barth.jpg" />
                 <h2 class="teamname">Barthélémy</h2>
                 <div class="teammeta">
                     <h4 class="mentoring">Contacts app, Design, UX, Accessibility, Javascript, Vue.js, HTML & CSS</h4>
@@ -261,15 +236,6 @@ imagedestroy($image);
                 <h2 class="teamname">Marino</h2>
                 <div class="teammeta">
                     <h4 class="teamexpertise">Apple App, Object-C, Swift, C C++, Assembly</h4>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="teamp">
-                <img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/mario.jpg" />
-                <h2 class="teamname">Mario</h2>
-                <div class="teammeta">
-                    <h4 class="mentoring">Talk Android app, Java</h4>
                 </div>
             </div>
         </div>
