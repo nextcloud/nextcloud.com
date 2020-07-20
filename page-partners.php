@@ -283,8 +283,8 @@
 		</div>
 		<div class="row">
 			<div class="col-md-4">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/assanti.png" title="Assanti" />
-				<p>Assanti is a technology company with a focus on the insurance industry based in the Netherlands. Assanti delivers secure share and storage solutions for insurance brokers built on Nextcloud and develops the Nextcloud Secure Sharing Outlook Addin.</p>
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/sendent.png" title="Assanti" />
+				<p>Sendent develops the Sendent Outlook Addin, helping customers easily and securily send and receive files with Outlook and Nextcloud.</p>
 			</div>
 			<div class="col-md-4">
 				<a href="https://www.canonical.com/" target="_blank" title="Canonical">
