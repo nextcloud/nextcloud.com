@@ -35,6 +35,7 @@
             <p><?php echo $l->t('NOTE that you can <strong>only upgrade to a newer version</strong>. <em>Skipping major versions</em> when upgrading and <em>downgrading</em> to older versions is not supported by Nextcloud. If you went via \'beta\' to 14.0.0rc4 and stable is on 13.0.5, you have to wait until 14.0.0 or later is in stable until a new update will become available.');?></p>
             <h3><?php echo $l->t('Where is my new stable release?');?></h3>
             <p><?php echo $l->t('Nextcloud makes new versions <strong>incrementally available</strong> to user installations in the Stable channel. When a major new version comes out, we wait about one week and only when no problems are found we start the roll out in steps of about 20% of our user base per week. In practice this means a new release is typically only available in the stable channel <strong>after the first minor release.</strong> Users can always upgrade sooner by choosing the beta channel, which typically tracks stable releases immediately after publishing.');?></p>
+            <p><?php echo $l->t('After upgrading to the new major release from the Beta channel, you can switch back to stable where you will be notified of minor releases as usual.');?></p>
         </div>
             <div class="col-md-6">
                 <iframe width="100%" height="300" src="https://www.youtube.com/embed/3hsQNPlQOSE" frameborder="0" allowfullscreen></iframe>
