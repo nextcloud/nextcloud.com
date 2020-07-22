@@ -56,9 +56,12 @@
                 <li><?php echo $l->t('To follow up with them after correspondence (live chat, email or phone inquiries)');?></li>
             </ul>
             <h3>Podlove</h3>
-            <p>We use the Podlove player to serve podcast on <a href="https://nextcloud.com/podcasts">nextcloud.com/podcasts.</a></p>
+            <p><?php echo $l->t('We use the Podlove player to serve podcast on');?> <a href="https://nextcloud.com/podcasts">nextcloud.com/podcasts.</a></p>
 
-            <p>The <strong>Podlove Web Player</strong> is served by <a href="https://www.keycdn.com">keycdn.com</a> (<a href="https://www.keycdn.com/gdpr">keycdn GDPR statement</a>).</p>
+            <p><?php echo $l->t('The <strong>Podlove Web Player</strong> is served by');?> <a href="https://www.keycdn.com">keycdn.com</a> (<a href="https://www.keycdn.com/gdpr">keycdn GDPR statement</a>).</p>
+
+            <h3>Videos</h3>
+            <p><?php echo $l->t('Videos on our website are served by');?> <a href="https://www.cloudflare.com">cloudflare</a> (<a href="https://www.cloudflare.com/de-de/gdpr/introduction/">cloudflare GDPR statement</a>).</p>
 
             <h3><?php echo $l->t('Mautic');?></h3>
             <p><?php echo $l->t('We use the open source <a class="hyperlink" href="https://mautic.org">Mautic marketing automation tool.</a> This is used for actions like emailing a whitepaper to people who entered their email address to receive it. If you enter an email address on our site, you agree with that (otherwise we can not sent you that white paper either). We might sent follow-up emails (like a reminder if you did not download the white paper, or a notification of a new white paper), from which you can opt-out on the bottom of the emails.');?></p>
