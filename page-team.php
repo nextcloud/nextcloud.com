@@ -122,19 +122,6 @@
         <h2>Account management</h2>
     </div>
     <div class="row">
-		<div class="col-md-4">
-			<div class="teamp">
-				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/person.jpg" />
-				<h2 class="teamname">André Höche</h2>
-				<div class="teammeta">
-					<h3 class="teamtitle">Account Manager</h3>
-					<h4 class="teamexpertise">Sales and account management</h4>
-					<h4 class="teamlocation">Lives in Karlsruhe, Germany</h4>
-					<p class="teamsocial"><a href="https://www.linkedin.com/in/andré-höche-195aa910"><i class="fa-linkedin fa"></i></a>  <a href="https://www.xing.com/profile/Andre_Hoeche"><i class="fa-xing fa"></i></a></p>
-				</div>
-				<p class="teamdescription">With over 15 years of experience in IT, software development, and Operations, André worked for several companies like Nero, Citrix Online, 1&amp;1 and Open-Xchange. He has worked with a wide range of customers and partners, always with a strong focus on customer needs and requirements. Striving for user's privacy and security using open source software is what keeps him going.</p>
-			</div>
-		</div>
         <div class="col-md-4">
 			<div class="teamp">
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/edeltraut.jpg" />
