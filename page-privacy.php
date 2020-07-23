@@ -19,6 +19,7 @@
         <div class="col-md-8 col-md-offset-2">
             <h2><?php echo $l->t('Introduction and summary');?></h2>
             <p><small><a href="<?php echo home_url('privacyde') ?>" class="hyperlink">Deutsche Datenschutzerklärung hier</a></small></p>
+            <p><small><?php echo $l->t('These Terms of Service were originally written in English (US). We may translate these terms into other languages. In the event of a conflict between a translated version of these Terms of Service and the English version, the English version will control.');?></p></small></p>
             <p><?php echo $l->t('We recognize that privacy is extremely important to all visitors to our website. We do not share any individual information with anybody without your permission.');?></p>
             <p><?php echo $l->t('<strong>To download a whitepaper</strong>, you have to enter your email address. Unless you <strong>opt in</strong> for more information, we <em>immediately delete your mail address</em> from our database after sending the whitepaper.');?></p>
             <p><?php echo $l->t('<strong>Our website</strong> ocasionally embeds content, like YouTube videos (behind a click-through wall) and others. We do not share any of your data with the parties behind them, however, they can gather some information when you watch a video or click the captcha. We are always looking for ways to decrease data sharing here and input is welcome.');?></p>
