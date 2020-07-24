@@ -20,7 +20,7 @@ Hauptmannsreute 44a<br/>
 70192 Stuttgart Germany<br/></address>
 HRB 227086 (AG München)<br/>
 T +49 711 25 24 28 90<br/>
-USt-IdNr.: DE307093598<br/>
+VAT-ID / USt-IdNr.: DE307093598<br/>
 <a href="<?php echo home_url('contact') ?>"><?php echo $l->t('contact form');?></a><br/>
 </p>
 <p>Visitors:
