@@ -241,22 +241,12 @@
 				<a class="button button--white" href="http://sndkcorp.com/">Learn more</a>
 			</div>
             <div class="col-md-4">
-                <a href="https://www.teebase.eu" target="_blank" title="Teebase Ltd">
-                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/teebase.png" title="Teebase logo" />
-                </a>
-                <p  class="partnertext">TeeBase UK Ltd offers an arsenal of devices and services for digital security to protect your data and intellectual property even when using the Internet. Be free from hackers, malware and ransomware that destroy shareholder value and ruin careers.</p>
-                <a class="button button--white" href="https://www.teebase.eu">Learn more</a>
-            </div>
-            <div class="col-md-4">
                 <a href="https://cloud.tab.digital" target="_blank" title="Tab.digital">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/tab.png" title="Tab.digital logo" />
                 </a>
                 <p class="partnertext">TAB Digital is a private company based in the EU, helping customers build private collaboration systems and clouds in EU and Russia. The newest technology and high staff competence will help you to build you success. Want to build a Nextcloud solution and have a provider take care of it? <a class="hyperlink" href="https://cloud.tab.digital">Contact us!</a></p>
                 <a class="button button--white" href="https://cloud.tab.digital">Learn more</a>
             </div>
-        </div>
-
-        <div class="row">
             <div class="col-md-4">
                 <a href="https://viakom.de/unsere-produkte/managed-nextcloud/" target="_blank" title="Viakom">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/viakom.png" title="Viakom logo" />
@@ -264,21 +254,7 @@
                 <p class="partnertext">Viakom GmbH is a managed service provider and software development company specializing in ICT solutions for the B2B market. The Viakom experts and specialists from the sister company Nextrag Solutions GmbH combine know-how in the areas of managed service consulting, software development and sales and support. In-house software developments in the area of ​​(Vo)IP technology and monitoring have been in use by well-known telecommunications network operators since 2009.</p>
                 <a class="button button--white" href="https://viakom.de/unsere-produkte/managed-nextcloud/">Learn more</a>
             </div>
-
-            <!--<div class="col-md-4">
-            <a href="https://www.zerotrust.fr" target="_blank" title="Zero Trust">
-                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/zerotrust.png" title="ZeroTrust logo" />
-                </a>
-                <p  class="partnertext">Zero Trust is a french company offering IT consulting, security audits and security solutions integration. We provide Nextcloud  for our customers in order to improve their data protection and compliance with RGDP and other regulations.</p>
-            </div>-->
-			<div class="col-md-4">
-				<a href="https://www.qloud.my" target="_blank" title="Qloud MSP">
-				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/qloudmsp.png" title="Qloud MSP logo" />
-				</a>
-				<p  class="partnertext">Qloud MSP (Qinetics MSP Sdn. Bhd) is a Malaysian based company specialized in managed services, IT outsourcing and cloud computing. Our solution are highly focused on customer business productivity while prioritizing data protection and control.</p>
-				<a class="button button--white" href="https://www.qloud.my">Learn more</a>
-			</div>
-		</div>
+        </div>
     </div>
 </section>
 
