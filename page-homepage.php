@@ -14,9 +14,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-hub-brings-productivity-to-home-office/">
+				<a class="announcement" href="https://nextcloud.com/blog/breaking-news-ecj-rules-us-cloud-services-fundamentally-incompatible-with-eu-privacy-laws/">
 				<span class="type">News</span>
-				<span class="message"><strong><?php echo $l->t('Your home office');?>:</strong> <?php echo $l->t('New release of Nextcloud Hub facilitates remote work.');?></span>
+				<span class="message"><strong><?php echo $l->t('BREAKING NEWS');?>:</strong> <?php echo $l->t('ECJ rules US Cloud services incompatible with EU Privacy laws');?></span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Regain control');?></h1>
