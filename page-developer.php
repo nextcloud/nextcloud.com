@@ -31,13 +31,13 @@
             <h3 class="section--paragraph__title"><?php echo $l->t('Build a new application');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Write new applications on top of the Nextcloud platform.');?></p>
             <ul class="section--paragraph">
-                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/general/devenv.html"><?php echo $l->t('Developer setup');?></a></li>
-                <li><a class="hyperlink" href="https://apps.nextcloud.com/developer/apps/generate"><?php echo $l->t('App skeleton generator');?></a></li>
-                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app/index.html"><?php echo $l->t('App Developer intro');?></a></li>
-                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/api.html"><?php echo $l->t('API documentation');?></a></li>
+                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>"><?php echo $l->t('Developer setup');?></a></li>
+                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>app_development/intro"><?php echo $l->t('App skeleton generator');?></a></li>
+                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app_development/intro"><?php echo $l->t('App Developer intro');?></a></li>
+                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>digging_deeper/api.html"><?php echo $l->t('API documentation');?></a></li>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/design/index.html"><?php echo $l->t('App design guidelines');?></a></li>
                 <li><a class="hyperlink" href="https://nextcloud-vue-components.netlify.com/"><?php echo $l->t('Nextcloud Vue guidelines');?></a></li>
-                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app/publishing.html"><?php echo $l->t('Publishing apps');?></a></li>
+                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>app_publishing_maintenance/index.html"><?php echo $l->t('Publishing apps');?></a></li>
             </ul>
         </div>
         <div class="col-md-6 image--feature ">
@@ -46,11 +46,11 @@
             <p class="section--paragraph"><?php echo $l->t('Write a Nextcloud app to improve or change Nextcloud functionality.');?></p>
             <ul class="section--paragraph">
                 <li><a class="hyperlink" href="https://github.com/nextcloud/dashboard/blob/master/README.md"><?php echo $l->t('Write a dashboard plugin');?></a></li>
-                <li><a class="hyperlink" href="https://docs.nextcloud.com/server/latest/developer_manual/app/flow.html"><?php echo $l->t('Interact with Workflows');?></a></li>
+                <li><a class="hyperlink" href="https://docs.nextcloud.com/server/latest/developer_manual/digging_deeper/flow.html"><?php echo $l->t('Interact with Workflows');?></a></li>
                 <!--<li><a class="hyperlink" href="TBD"><?php echo $l->t('Manage guest app accounts');?></a></li>-->
-                <li><a class="hyperlink" href="https://docs.nextcloud.com/server/15/developer_manual/core/theming.html"><?php echo $l->t('Write a theme to change the look and feel of Nextcloud');?></a></li>
+                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>basics/front-end/theming.html"><?php echo $l->t('Write a theme to change the look and feel of Nextcloud');?></a></li>
                 <li><a class="hyperlink" href="https://nextcloud-talk.readthedocs.io/en/latest/commands/"><?php echo $l->t('Write a Nextcloud Talk Command');?></a>
-                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>//app/two-factor-provider.html"><?php echo $l->t('Write a new 2factor authentication plugin');?></a>
+                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>digging_deeper/two-factor-provider.html"><?php echo $l->t('Write a new 2factor authentication plugin');?></a>
             </ul>
         </div>
 	</div>
@@ -63,7 +63,7 @@
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>client_apis/LoginFlow/index.html"><?php echo $l->t('Login Flow');?></a></li>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/client_apis/index.html"><?php echo $l->t('Client APIs');?></a></li>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>/configuration_user/user_provisioning_api.html"><?php echo $l->t('User provisioning via REST');?></a></li>
-                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app/users.html"><?php echo $l->t('Write a new user-management backend');?></a></li>
+                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>digging_deeper/users.html"><?php echo $l->t('Write a new user-management backend');?></a></li>
                 <li><a class="hyperlink" href="https://nextcloud-talk.readthedocs.io/en/latest/"><?php echo $l->t('Nextcloud Talk REST API');?></a></li>
                 <li><a class="hyperlink" href="https://www.tentwentyfour.lu/2019/08/27/nextcloud-link/"><?php echo $l->t('Third party node.js connector');?></a></li>
             </ul>
@@ -74,7 +74,7 @@
             <ul class="section--paragraph">
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>client_apis/LoginFlow/index.html"><?php echo $l->t('Login Flow');?></a></li>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/client_apis/index.html"><?php echo $l->t('Client APIs');?></a></li>
-                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>android_library/index.html#nextcloud-android-library"><?php echo $l->t('Access Nextcloud through our Android library');?></a></li>
+                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>client_apis/android_library/index.html#nextcloud-android-library"><?php echo $l->t('Access Nextcloud through our Android library');?></a></li>
                 <li><a class="hyperlink" href="https://github.com/nextcloud/Android-SingleSignOn/#how-to-use-this-library"><?php echo $l->t('Connect your Android app to Nextcloud with Single Sign On');?></a></li>
             </ul>
         </div>
