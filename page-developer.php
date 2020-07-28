@@ -32,8 +32,8 @@
             <p class="section--paragraph"><?php echo $l->t('Write new applications on top of the Nextcloud platform.');?></p>
             <ul class="section--paragraph">
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>"><?php echo $l->t('Developer setup');?></a></li>
-                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>app_development/intro"><?php echo $l->t('App skeleton generator');?></a></li>
-                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app_development/intro"><?php echo $l->t('App Developer intro');?></a></li>
+                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>app_development/intro.html"><?php echo $l->t('App skeleton generator');?></a></li>
+                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/app_development/intro.html"><?php echo $l->t('App Developer intro');?></a></li>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>digging_deeper/api.html"><?php echo $l->t('API documentation');?></a></li>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/design/index.html"><?php echo $l->t('App design guidelines');?></a></li>
                 <li><a class="hyperlink" href="https://nextcloud-vue-components.netlify.com/"><?php echo $l->t('Nextcloud Vue guidelines');?></a></li>
