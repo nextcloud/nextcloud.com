@@ -179,6 +179,13 @@
 
         <div class="row">
 			<div class="col-md-4">
+				<a href="http://www.networkers.pl/" target="_blank" title="Networkers">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/networkers.png" title="networkers logo" />
+				</a>
+				<p  class="partnertext">Networkers delivers solutions for IT systems, data centers and DevOps environments. We sell NextCloud Enterprise in Poland with Polish support and can fully implement and operate a NextCloud environment with all the infrastructure on which it will run. All needed hard- and software can be delivered and installed and Networkers has partnerships with a number of other large organizations to deliver a wide range of solutions.</p>
+				<a class="button button--white" href="http://www.networkers.pl/private-cloud">Learn more</a>
+			</div>
+			<div class="col-md-4">
 				<a href="http://www.nobugs.gmbh/" target="_blank" title="NOBUGS IT GMBH">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/nobugs.png" title="nobugs logo" />
 				</a>
@@ -192,6 +199,9 @@
 				<p class="partnertext">NETWAYS' expertise is in the data center space, taking care of monitoring and  metrics, automatisation as well as training and support. With the NETWAYS Web Services they run managed services, hosting customer infrastructure, and are expanding in the areas of Open Stack and Kubernetes. With 70 employees and headquartered in Nuremberg, NETWAYS can offer in-depth consulting and advice to customers.</p>
 				<a class="button button--white" href="http://nws.netways.de/">Learn more</a>
 			</div>
+        </div>
+
+        <div class="row">
 			<div class="col-md-4">
 				<a href="https://www.open-dsi.fr/collaborer-nextcloud/" target="_blank" title="Open-DSI">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/opendsi.png" title="open-DSI logo" />
@@ -199,9 +209,6 @@
 				<p  class="partnertext">Open-DSI is a French company which supports organizations and companies with their computing projects. Our specialty is the implementation of open source cloud computing solutions and outsourcing. Our solutions are based on three main building blocks: Nextcloud, ERP+CRM Dolibarr and WooCommerce.</p>
 				<a class="button button--white" href="https://www.open-dsi.fr/collaborer-nextcloud/">Learn more</a>
 			</div>
-        </div>
-
-        <div class="row">
             <div class="col-md-4">
 				<a href="http://www.regioit.de/" target="_blank" title="Regioit">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/regioit.png" title="regioit logo" />
@@ -222,6 +229,9 @@
 				<p  class="partnertext">Since 2002, Siedl Networks has been delivering innovative and reliable open source IT solutions to companies, schools and non-profits throughout Austria. We help small and medium sized organizations run their on-premises file storage and collaboration solution, monitoring and supporting their infrastructure and taking care of maintenance and backup.</p>
 				<a class="button button--white" href="https://www.siedl.net/portfolio/nextcloud">Learn more</a>
 			</div>
+        </div>
+
+        <div class="row">
 			<div class="col-md-4">
 				<a href="https://nextcloud.stylez.co.jp/" target="_blank" title="Stylez">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/stylez.png" title="stylez logo" />
@@ -229,9 +239,6 @@
 				<p  class="partnertext">Since 2013, Stylez has grown by focusing on integration and Business Process Outsourcing. Today Stylez expands its scope into cloud and open source services, keeping up their focus on customers and quality.</p>
 				<a class="button button--white" href="https://nextcloud.stylez.co.jp/">Learn more</a>
 			</div>
-        </div>
-
-        <div class="row">
 			<div class="col-md-4">
 				<a href="http://sndkcorp.com/" target="_blank" title="SNDK-corp">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/sndk-corp.png" title="SNDK Corp logo" />
@@ -247,6 +254,9 @@
                 <p class="partnertext">TAB Digital is a private company based in the EU, helping customers build private collaboration systems and clouds in EU and Russia. The newest technology and high staff competence will help you to build you success. Want to build a Nextcloud solution and have a provider take care of it? <a class="hyperlink" href="https://cloud.tab.digital">Contact us!</a></p>
                 <a class="button button--white" href="https://cloud.tab.digital">Learn more</a>
             </div>
+        </div>
+
+        <div class="row">
             <div class="col-md-4">
                 <a href="https://viakom.de/unsere-produkte/managed-nextcloud/" target="_blank" title="Viakom">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/viakom.png" title="Viakom logo" />
