@@ -134,6 +134,14 @@ section {
 								border: solid 1px #0082c9;
 							}
 						}
+						&.button--white {  /*to override settings from above...*/
+							color: #0082c9;
+							border: 1px solid #0082c9;
+							&:hover {  /*to override settings from above...*/
+								color: white;
+								border: solid 1px white;
+							}
+						}
 					}
 
 				}
