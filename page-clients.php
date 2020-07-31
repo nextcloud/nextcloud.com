@@ -27,7 +27,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost!');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud gives you access to your data and communication wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost!');?></p>
                 <div class="text-center">
                     <a href="<?php echo home_url('install/#install-clients') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Download now');?></a>
                 </div>
@@ -36,12 +36,27 @@
 	</div>
 </section>
 
+<section class="section--feature">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/edit-documents-on-the-go.jpg" alt="in action" >
+        </div>
+        <div class="col-md-6">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Files, notes, chat, calendars, passwords and more');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud Hub features a wide range of communication and collaboration capabilities. These are reflected in a wide variety of mobile apps from Nextcloud GmbH, the wider Nextcloud community as well as independent, third party apps that can communicate with Nextcloud servers thanks to our use of open standards.');?></p>
+            <p class="section--paragraph"><a class="hyperlink" href="https://apps.nextcloud.com/integrations"><?php echo $l->t('Find dozens of apps and connection tools in our app store.');?></a></p>
+            <a class="button button--white button-arrow button--small" href="https://apps.nextcloud.com/categories/integration?search=android"><i class="fa-android"></i> <?php echo $l->t('Apps for Android');?></a> <a class="button button--white button-arrow button--small" href="https://apps.nextcloud.com/categories/integration?search=iOS"><i class="fa-apple"></i> <?php echo $l->t('Apps for iOS');?></a>
+        </div>
+    </div>
+</div>
+</section>
 
 <section class="section--feature">
 <div class="container">
     <div class="row">
-        <h2 class="text-center"><?php echo $l->t('General features');?></h2>
-        <p class="section--paragraph text-center"><?php echo $l->t('All clients support a common set of features.');?></p>
+        <h2 class="text-center"><?php echo $l->t('Nextcloud Files');?></h2>
+        <p class="section--paragraph text-center"><?php echo $l->t('All Nextcloud Files clients support a common set of features.');?></p>
         <div class="row">
             <div class="col-sm-4">
                 <ul>
@@ -262,7 +277,6 @@
     </div>
 </section>
 
-</section>
 
 
 
