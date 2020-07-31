@@ -120,6 +120,14 @@ hr {
 				font-size: 22px;
 			}
 		}
+		.appicon {
+            svg {
+                width: 26px;
+                height:26px;
+                margin-bottom: -5px;
+                margin-right: 5px;
+            }
+        }
 	}
 
 	.close {

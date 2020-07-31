@@ -102,7 +102,9 @@
 			<a class="button button--white button--small" href="<?php echo $DOWNLOAD_SERVER_TAR_TESTING; ?>"><i class="fa-archive"></i> .tar.bz2</a>
 		<?php } ?>
 		<?php } ?>
-		<p><?php echo $l->t('Help test our clients:');?> <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>"><?php echo $l->t('Android Release Candidate client on Play store');?></a> and <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><?php echo $l->t('Android Beta client on F-Droid');?></a></p>
+		<p><?php echo $l->t('Help test our clients:');?> <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>"><i class="fa-android"></i> <?php echo $l->t('Android Release Candidate client on Play store');?></a> and <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><i class="fa-android"></i> <?php echo $l->t('Android Beta client on F-Droid');?></a>. <?php echo $l->t('For iOS');?>, <a target="_blank" class="hyperlink" href="https://testflight.apple.com/join/GjNbfo2a"><i class="fa-apple"></i> <?php echo $l->t('join Testflight iOS');?></a></p></p>
+
+
 		<?php if(!empty($VERSIONS_CLIENT_DESKTOP_TESTING)) { ?>
 			<h4><?php echo $l->t('Desktop Clients Testing ');?> <small><?php echo $VERSIONS_CLIENT_DESKTOP_TESTING; ?></small></h4>
 			<p><?php echo $l->t('Please report any issues to the');?> <a class="hyperlink" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_SOURCES; ?>" target="_blank"><?php echo $l->t('issue tracker.');?></a></p>

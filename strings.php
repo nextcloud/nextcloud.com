@@ -89,7 +89,7 @@ $DOWNLOAD_CLIENT_MOBILE_ANDROID_TALK = 'https://play.google.com/store/apps/detai
 $DOWNLOAD_CLIENT_MOBILE_IOS_TALK = 'https://itunes.apple.com/us/app/nextcloud-talk/id1296825574';
 $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA = 'https://play.google.com/apps/testing/com.nextcloud.client';
 $DOWNLOAD_CLIENT_MOBILE_FDROID = 'https://f-droid.org/packages/com.nextcloud.client/';
-$DOWNLOAD_CLIENT_MOBILE_FDROID_TALK = 'https://f-droid.org/packages/com.nextcloud.client/';
+$DOWNLOAD_CLIENT_MOBILE_FDROID_TALK = 'https://f-droid.org/en/packages/com.nextcloud.talk2';
 $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA = 'https://f-droid.org/packages/com.nextcloud.android.beta/';
 $DOWNLOAD_CLIENT_MOBILE_WIN = 'https://www.microsoft.com/store/apps/9nblggh532xq';
 
