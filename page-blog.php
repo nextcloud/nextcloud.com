@@ -1,6 +1,7 @@
 <!-- This is the posts page. or *probably* not. Check also index.php! -->
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/blogroll.css?v=11" rel="stylesheet">
+<link rel="alternate" type="application/rss+xml" href="/blogfeed" title="What is going on in and around Nextcloud?">
 <!--<script>
 	require(["require.config"], function() {
 		require(["modules/youtubePlayer", "modules/submenu"])
