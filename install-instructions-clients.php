@@ -34,6 +34,8 @@
 							<br>
 							<p><i class="fa-apple"></i>&nbsp;<a href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_STABLE_MAC_LEGACY; ?>">Mac OS 10.10+ (legacy)</a></p>
 							<br>
+							<p><?php echo $l->t('Looking for integration apps like browser add-ins for Passwords, a feedreader and more? Check our app store for integrations!');?></p>
+							<p><a class="button button--white button--arrow" href="https://apps.nextcloud.com/categories/integration"> Integrations</a></p>
 							<p><?php echo $l->t('find here:');?><br>
 							<i class="fa-book"></i> <a class="hyperlink" href="<?php echo $DOCUMENTATION_CLIENT_DESKTOP; ?>"><?php echo $l->t('documentation');?></a>
 							<br>
@@ -88,11 +90,9 @@
 									</a>
 								</div>
 							</div>
-							<p><?php echo $l->t('Nextcloud is using WebDAV, so you can also try out any other client you want!');?></p>
-							<p><?php echo $l->t('Compatible third party clients include:');?></p>
-							<ul>
-								<li><a class="hyperlink" href="https://www.davx5.com">DAVx⁵</a> <?php echo $l->t('supports Nextcloud Calendar, Tasks and Contacts, syncing your agenda, tasks and addressbook (android only, open source)');?></li>
-                            </ul>
+							<p><?php echo $l->t('Looking for mobile apps for Deck, News, Passwords and more? Check our app store!');?></p>
+							<p><a class="button button--blue button--arrow button--small" href="https://apps.nextcloud.com/categories/integration?search=android"><i class="fa-android"></i> Android Apps</a> <a class="button button--blue button--arrow button--small" href="https://apps.nextcloud.com/categories/integration?search=ios"><i class="fa-apple"></i> iOS Apps</a></p>
+							<p><?php echo $l->t('Nextcloud is using standards like CalDAV, WebDAV and IMAP so many independent third party clients can connect to it.');?></p>
 						</div>
 						<div class="col-md-6">
 							<div class="thumbnail">
