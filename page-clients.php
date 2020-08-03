@@ -27,7 +27,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud gives you access to your data and communication wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost!');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud gives you access to your data and communication wherever you are. Our easy to use desktop and mobile clients are available for all major platforms for free!');?></p>
                 <div class="text-center">
                     <a href="<?php echo home_url('install/#install-clients') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Download now');?></a>
                 </div>

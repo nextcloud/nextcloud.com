@@ -91,7 +91,6 @@ $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA = 'https://play.google.com/apps/testing/com
 $DOWNLOAD_CLIENT_MOBILE_FDROID = 'https://f-droid.org/packages/com.nextcloud.client/';
 $DOWNLOAD_CLIENT_MOBILE_FDROID_TALK = 'https://f-droid.org/en/packages/com.nextcloud.talk2';
 $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA = 'https://f-droid.org/packages/com.nextcloud.android.beta/';
-$DOWNLOAD_CLIENT_MOBILE_WIN = 'https://www.microsoft.com/store/apps/9nblggh532xq';
 
 // Outlook Add-in
 $DOWNLOAD_OUTLOOK_ADDON_FREE = 'https://www.sendent.nl/sendent-free/?lang=en';

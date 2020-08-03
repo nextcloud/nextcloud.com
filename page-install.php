@@ -102,7 +102,7 @@
 			<a class="button button--white button--small" href="<?php echo $DOWNLOAD_SERVER_TAR_TESTING; ?>"><i class="fa-archive"></i> .tar.bz2</a>
 		<?php } ?>
 		<?php } ?>
-		<p><?php echo $l->t('Help test our clients:');?> <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>"><i class="fa-android"></i> <?php echo $l->t('Android Release Candidate client on Play store');?></a> and <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><i class="fa-android"></i> <?php echo $l->t('Android Beta client on F-Droid');?></a>. <?php echo $l->t('For iOS');?>, <a target="_blank" class="hyperlink" href="https://testflight.apple.com/join/GjNbfo2a"><i class="fa-apple"></i> <?php echo $l->t('join Testflight iOS');?></a></p></p>
+		<p><?php echo $l->t('Help test our clients:');?> <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_ANDROID_BETA; ?>"><i class="fa-android"></i> <?php echo $l->t('Android Release Candidate client on Play store');?></a> and <a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_FDROID_BETA; ?>"><i class="fa-android"></i> <?php echo $l->t('Android Beta client on F-Droid');?></a>. <?php echo $l->t('For iOS');?>, <a target="_blank" class="hyperlink" href="https://testflight.apple.com/join/GjNbfo2a"><i class="fa-apple"></i> <?php echo $l->t('join Testflight for iOS');?></a></p></p>
 
 
 		<?php if(!empty($VERSIONS_CLIENT_DESKTOP_TESTING)) { ?>
