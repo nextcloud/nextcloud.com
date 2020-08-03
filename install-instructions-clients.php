@@ -69,7 +69,7 @@
 								</div>
 								<div class="col-xs-4">
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS; ?>">
-									<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
+									<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.svg">
 									</a>
 								</div>
 							</div>
@@ -86,7 +86,7 @@
 								</div>
 								<div class="col-xs-4">
 									<a target="_blank" href="<?php echo $DOWNLOAD_CLIENT_MOBILE_IOS_TALK; ?>">
-									<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.png">
+									<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/clients/buttons/appstore.svg">
 									</a>
 								</div>
 							</div>
