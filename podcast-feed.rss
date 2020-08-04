@@ -38,6 +38,20 @@
     <link>https://nextcloud.com/podcast/</link>
 
     <item>
+      <title>Frank Karlitschek on remote working</title>
+      <itunes:subtitle>Our third episode is a conversation about remote work with Nextcloud CEO Frank Karlitschek.</itunes:subtitle>
+      <itunes:summary>On our third podcast, host Ingo discusses working remote with Nextcloud CEO Frank Karlitschek. Nextcloud is a company centered around remote work, hiring the best and most motivated people wherever they live. With some team members as far from our Stuttgart office as Hawaii and Cape Verde force us to work efficiently across time zones and vast distances. Frank and Ingo cover the what, why and how of working remotely, and discuss how Nextcloud itself is an important tool in how we collaborate.</itunes:summary>
+      <itunes:duration>00:31:46</itunes:duration>
+      <description>On our third podcast, host Ingo discusses working remote with Nextcloud CEO Frank Karlitschek. Nextcloud is a company centered around remote work, hiring the best and most motivated people wherever they live. With some team members as far from our Stuttgart office as Hawaii and Cape Verde force us to work efficiently across time zones and vast distances. Frank and Ingo cover the what, why and how of working remotely, and discuss how Nextcloud itself is an important tool in how we collaborate.</description>
+      <pubDate>Tue, 04 Aug 2020 14:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_003.mp3"
+                 type="audio/mpeg" length="26819619"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_003.mp3</guid>
+      <link>https://nextcloud.com/blog/nextcloud-podcast-pt-iii-frank-karlitschek-on-remote-working/</link>
+    </item>
+    <item>
       <title>Part two of our conversation with Nextcloud designer, Jan</title>
       <itunes:subtitle>In this episode we continue our conversation and turn towards the subject of design.</itunes:subtitle>
       <itunes:summary>In this episode we continue our conversation and turn towards the subject of design.</itunes:summary>
