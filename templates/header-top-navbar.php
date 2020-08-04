@@ -32,7 +32,7 @@ require get_template_directory() . '/strings.php';
                         <li class="nav__item">
                             <a href="<?php echo home_url('hub');?>">
                             <div class="nav__logo">
-                                <?php echo file_get_contents(get_template_directory()."/assets/img/logo/Nextcloud-Files.svg");?>
+                                <?php echo file_get_contents(get_template_directory()."/assets/img/logo/nextcloud_logo_only.svg");?>
                             </div>
                             <div class="nav__text"><?php echo $l->t('<strong>Nextcloud Hub</strong><br><small>Content collaboration platform</small>');?></div>
                         </a>
