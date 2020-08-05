@@ -5,11 +5,47 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Desktop Client: Missing memory corruption protection on Windows release built (NC-SA-2020-035)</title>
+  <description>Missing ASLR and DEP protections in Nextcloud Desktop Client 2.6.4 for windows allowed to corrupt memory.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-035&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-035</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-035</guid>
+  <pubDate>Fri, 10 Jul 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Desktop Client: Memory Leak in OCUtil.dll library in Desktop client can lead to DoS (NC-SA-2020-034)</title>
+  <description>A memory leak in the OCUtil.dll library used by Nextcloud Desktop Client 2.6.4 can lead to a DoS against the host system.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-034&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-034</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-034</guid>
+  <pubDate>Fri, 10 Jul 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Desktop Client: Linux client is vulnerable to directory traversal when downloading files (NC-SA-2020-032)</title>
+  <description>Missing sanitization of a server response in Nextcloud Desktop Client 2.6.4 for Linux allowed a malicious Nextcloud Server to store files outside of the dedicated sync directory.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-032&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-032</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-032</guid>
+  <pubDate>Fri, 10 Jul 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Desktop Client: Clear text storage of proxy parameters and passwords (NC-SA-2020-031)</title>
+  <description>A cleartext storage of sensitive information in Nextcloud Desktop Client 2.6.4 gave away information about used proxies and their authentication credentials.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-031&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-031</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-031</guid>
+  <pubDate>Fri, 10 Jul 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Desktop Client: Arbitrary code execution in desktop client via OpenSSL config (NC-SA-2020-030)</title>
+  <description>A code injection in Nextcloud Desktop Client 2.6.4 allowed to load arbitrary code when placing a malicious OpenSSL config into a fixed directory.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-030&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-030</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-030</guid>
+  <pubDate>Fri, 10 Jul 2020 14:00:00 +0200</pubDate>
+ </item><item>
   <title>Preferred providers: Possible denial of service when entering a long password (NC-SA-2020-028)</title>
   <description>Improper check of inputs in Preferred providers app 1.6.0 allowed to perform a denial of service attack when using a very long password.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-028&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-028</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-028</guid>
   <pubDate>Tue, 16 Jun 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Desktop Client: XSS in desktop client via invalid server address on login form (NC-SA-2020-027)</title>
+  <description>A cross-site scripting error in Nextcloud Desktop client 2.6.4 allowed to present any html (including local links) when responding with invalid data on the login attempt.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-027&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-027</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-027</guid>
+  <pubDate>Fri, 10 Jul 2020 14:00:00 +0200</pubDate>
  </item><item>
   <title>Server: Password of share by mail is not hashed when given on the create share call (NC-SA-2020-026)</title>
   <description>A logic error in Nextcloud Server 19.0.0 caused a plaintext storage of the share password when it was given on the initial create API call.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-026&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
