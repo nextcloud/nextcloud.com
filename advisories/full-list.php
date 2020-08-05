@@ -2,6 +2,16 @@
 
 <h2>2020</h2>
 
+<h3>Desktop Client 2.6.5</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-035">Missing memory corruption protection on Windows release built (NC-SA-2020-035)</a> 2020-07-10</li>
+	<li><a href="/security/advisory/?id=NC-SA-2020-034">Memory Leak in OCUtil.dll library in Desktop client can lead to DoS (NC-SA-2020-034)</a> 2020-07-10</li>
+	<li><a href="/security/advisory/?id=NC-SA-2020-032">Linux client is vulnerable to directory traversal when downloading files (NC-SA-2020-032)</a> 2020-07-10</li>
+	<li><a href="/security/advisory/?id=NC-SA-2020-031">Clear text storage of proxy parameters and passwords (NC-SA-2020-031)</a> 2020-07-10</li>
+	<li><a href="/security/advisory/?id=NC-SA-2020-030">Arbitrary code execution in desktop client via OpenSSL config (NC-SA-2020-030)</a> 2020-07-10</li>
+	<li><a href="/security/advisory/?id=NC-SA-2020-027">XSS in desktop client via invalid server address on login form (NC-SA-2020-027)</a> 2020-07-10</li>
+</ul>
+
 <h3>Preferred providers 1.7.0</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2020-028">Possible denial of service when entering a long password (NC-SA-2020-028)</a> 2020-06-16</li>
