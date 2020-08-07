@@ -122,7 +122,7 @@
             <div class="feature">
                 <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/securitypolicies.svg">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Encrypt from client to client');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('End-to-end Encryption client-side is available from Nextcloud 13 and newer as a folder-level option to keep extremely sensitive data fully secure even in case of a full server breach. The server facilitates key exchange for syncing between devices and sharing but has Zero Knowledge, that is, never has access to any of the data or keys in unencrypted form.');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('Learn more here.</a>');?></p>
+                <p class="section--paragraph"><?php echo $l->t('End-to-end Encryption client-side is available from Nextcloud desktop client 3.0 and newer as a folder-level option to keep extremely sensitive data fully secure even in case of a full server breach. The server facilitates key exchange for syncing between devices and sharing but has Zero Knowledge, that is, never has access to any of the data or keys in unencrypted form.');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('Learn more here.</a>');?></p>
             </div>
         </div>
     </div>
