@@ -247,7 +247,7 @@
 				</div>
 				<div class="col-md-6 featureblock">
 					<h3 class="section--paragraph__title"><?php echo $l->t('Mozilla Thunderbird');?></h3>
-					<p class="section--paragraph"><?php echo $l->t('Nextcloud also provides a <a class="hyperlink" href="https://addons.mozilla.org/en-US/thunderbird/addon/nextcloud-filelink/">Thunderbird Filelink Addon!</a> This Thunderbird extension makes it easy to send large attachments with Thunderbird by automatically uploading them first to a Nextcloud server and by then inserting the link into the body of your email.');?></p>
+					<p class="section--paragraph"><?php echo $l->t('Nextcloud also provides a <a class="hyperlink" href="https://addons.thunderbird.net/en-US/thunderbird/addon/filelink-nextcloud-owncloud/">Thunderbird Filelink Addon!</a> This Thunderbird extension makes it easy to send large attachments with Thunderbird by automatically uploading them first to a Nextcloud server and by then inserting the link into the body of your email.');?></p>
 				</div>
 			</div>
 		</div>
