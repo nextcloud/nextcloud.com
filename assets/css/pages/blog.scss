@@ -284,6 +284,9 @@ section {
 						}
 					}
 				}
+				iframe {
+                    border-style: none;
+                }
 
 				/* animation on zoom on images with a link */
 				.row>[class*='col-md']>a,

@@ -251,6 +251,8 @@ section {
             -moz-transform: scale(1.1);
             -webkit-transform: scale(1.1);
             transform: scale(1.1); }
+      .section--content .container .row .content iframe {
+        border-style: none; }
       .section--content .container .row .content .row > [class*='col-md'] > a,
       .section--content .container .row .content a.image--animate {
         margin: 2%;
