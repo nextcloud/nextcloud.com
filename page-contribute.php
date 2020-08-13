@@ -49,7 +49,7 @@
         <div class="col-md-8">
             <h3 class="section--paragraph__title"><?php echo $l->t('Answer questions about Nextcloud use and development');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Help answer questions users and developers have about Nextcloud!');?></p>
-            <p class="section--paragraph"><a class="" href="https://help.nextcloud.com"><?php echo $l->t('Join the Nextcloud forums');?></a></p>
+            <p class="section--paragraph"><a class="button button--blue button--arrow" href="https://help.nextcloud.com"><?php echo $l->t('Join the Nextcloud forums');?></a></p>
             <p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('code-of-conduct') ?>"><?php echo $l->t('Please be considerate of our code of conduct</a>. We want to provide a positive and enjoyable environment for everybody.');?></p>
         </div>
     </div>
@@ -59,9 +59,8 @@
         </div>
         <div class="col-md-8">
             <h3 class="section--paragraph__title"><?php echo $l->t('Test Nextcloud');?></h3>
-            <p class="section--paragraph"><?php echo $l->t('Testing upcoming Nextcloud Server releases is the best way of making sure the new release can do what you need it
-                to do. And of course, only if you report a problem to us we know about it and can fix it! If you have a bug to report,
-                find the <a class="hyperlink" href="https://github.com/nextcloud/server/blob/master/.github/CONTRIBUTING.md">issue submission page</a>.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Testing upcoming Nextcloud Server releases is the best way of making sure the new release can do what you need it to do. And of course, only if you report a problem to us we know about it and can fix it! If you have a bug to report,
+                see the <a class="hyperlink" href="https://github.com/nextcloud/server/blob/master/.github/CONTRIBUTING.md">issue submission page</a>.');?></p>
         </div>
     </div>
     <div class="row">
@@ -70,7 +69,7 @@
         </div>
         <div class="col-md-8">
             <h3 class="section--paragraph__title"><?php echo $l->t('Design Nextcloud');?></h3>
-            <p class="section--paragraph"><?php echo $l->t('Help out with Nextcloud user interaction design or graphic design! Get involved on <a class="hyperlink"  href="design/">the design page</a>!');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Help out with Nextcloud user interaction design or graphic design!');?> <a class="hyperlink"  href="<?php echo home_url('design') ?>"><?php echo $l->t('Get involved on the design page!');?></a></p>
         </div>
     </div>
     <div class="row">
@@ -78,9 +77,9 @@
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/headers/ladies-that-foss.jpg" class="img-responsive" />
         </div>
         <div class="col-md-8">
-            <h3 class="section--paragraph__title"><?php echo $l->t('Support Nextcloud development with bounties');?></h3>
-            <p class="section--paragraph"><?php echo $l->t('Support Nextcloud development by offering some money on features you would like to have! <a class="hyperlink"  href="https://www.bountysource.com/teams/nextcloud" target="_blank">Check our Bountysource page</a>!');?>
-            <p class="section--paragraph"><?php echo $l->t('Note that');?> <a class="hyperlink" href="<?php echo home_url('jobs') ?>"><?php echo $l->t('we are hiring</a>. We look especially for people who want to turn their passion into their job! When possible, we hire people from our active community base or from the wider open source community.');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Do an internship or work at Nextcloud');?></h3>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud occasionally hires contributors as interns. It is best to ask the employees you work with about this, or send an inquiry to our jobs email address. To help equallize opportunities for tech jobs for people in underrepresented groups in tech, we have our Include program. You can submit a request for mentoring there, which can turn into an internship as well.');?> <a class="hyperlink" href="<?php echo home_url('include') ?>"><?php echo $l->t('Learn more about Include here.');?></a></p>
+            <p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('jobs') ?>"><?php echo $l->t('Also, we are hiring.');?></a> <?php echo $l->t('We look especially for people who want to turn their passion into their job! When possible, we hire people from our active community base or from the wider open source community.');?></p>
         </div>
     </div>
 </div>
