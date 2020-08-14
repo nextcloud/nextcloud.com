@@ -88,6 +88,7 @@ $l = new L10N('footer');
                 <li><a href="https://youtube.com/nextcloud"><?php echo $l->t('YouTube'); ?></a></li>
                 <li><a href="https://twitter.com/nextclouders"><?php echo $l->t('Twitter'); ?></a></li>
                 <li><a href="https://mastodon.xyz/@nextcloud"><?php echo $l->t('Mastodon'); ?></a></li>
+                <li><a href="<?php echo home_url('podcast'); ?>"><?php echo $l->t('Podcast'); ?></a></li>
                 <li><a href="<?php echo home_url('blogfeed'); ?>">RSS <?php echo $l->t('Feed'); ?></a></li>
             </ul>
         </div>

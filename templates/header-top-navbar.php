@@ -115,7 +115,7 @@ require get_template_directory() . '/strings.php';
 						<li class="nav__item"><a href="<?php echo home_url('developer'); ?>"><?php echo $l->t('Developer program'); ?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('code-of-conduct'); ?>"><?php echo $l->t('Code of Conduct'); ?></a></li>
  						<li class="nav__item"><a href="<?php echo home_url('include'); ?>"><?php echo $l->t('Nextcloud Include'); ?></a></li>
-<!--						<li class="nav__item"><a href="<?php echo home_url('contributors'); ?>"><?php echo $l->t('Community members'); ?></a></li>-->
+ 						<li class="nav__item"><a href="<?php echo home_url('podcast'); ?>"><?php echo $l->t('Nextcloud Podcast'); ?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('security'); ?>"><?php echo $l->t('Security information'); ?></a></li>
 					</ul>
 				</li>
