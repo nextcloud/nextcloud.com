@@ -26,10 +26,10 @@
 <section class="section--documentation">
 <div class="container">
    	<div class="row">
-        <div class="col-md-6">
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/machine.svg" class="icon" />
             <h3 class="section--paragraph__title"><?php echo $l->t('Build a new application');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Write new applications on top of the Nextcloud platform.');?></p>
+        <div class="col-md-6">
             <ul class="section--paragraph">
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>"><?php echo $l->t('Developer setup');?></a></li>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>app_development/intro.html"><?php echo $l->t('App skeleton generator');?></a></li>
@@ -41,9 +41,6 @@
             </ul>
         </div>
         <div class="col-md-6 image--feature ">
-            <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/manual.svg" class="icon" />
-            <h3 class="section--paragraph__title"><?php echo $l->t('Extend Nextcloud');?></h3>
-            <p class="section--paragraph"><?php echo $l->t('Write a Nextcloud app to improve or change Nextcloud functionality.');?></p>
             <ul class="section--paragraph">
                 <li><a class="hyperlink" href="https://github.com/nextcloud/dashboard/blob/master/README.md"><?php echo $l->t('Write a dashboard plugin');?></a></li>
                 <li><a class="hyperlink" href="https://docs.nextcloud.com/server/latest/developer_manual/digging_deeper/flow.html"><?php echo $l->t('Interact with Workflows');?></a></li>
@@ -51,31 +48,27 @@
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>basics/front-end/theming.html"><?php echo $l->t('Write a theme to change the look and feel of Nextcloud');?></a></li>
                 <li><a class="hyperlink" href="https://nextcloud-talk.readthedocs.io/en/latest/commands/"><?php echo $l->t('Write a Nextcloud Talk Command');?></a>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>digging_deeper/two-factor-provider.html"><?php echo $l->t('Write a new 2factor authentication plugin');?></a>
+                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>digging_deeper/users.html"><?php echo $l->t('Write a new user-management backend');?></a></li>
             </ul>
         </div>
 	</div>
 	<div class="row">
-		<div class="col-md-6">
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/check-lock.svg" class="icon" />
-            <h3 class="section--paragraph__title"><?php echo $l->t('Connect to Nextcloud');?></h3>
-            <p class="section--paragraph"><?php echo $l->t('Integrate an existing software into Nextcloud.');?></p>
+            <h3 class="section--paragraph__title"><?php echo $l->t('Open Collaboration Services');?></h3>
+            <p class="section--paragraph"><?php echo $l->t('Integrate an existing software or client into Nextcloud.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('The Open Collaboration Services is an open standard and we welcome third party integration and input!');?> <a href="https://open-collaboration-services.org" class="hyperlink"><?php echo $l->t('Learn more.');?></a></p>
+		<div class="col-md-6">
             <ul class="section--paragraph">
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>client_apis/LoginFlow/index.html"><?php echo $l->t('Login Flow');?></a></li>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/client_apis/index.html"><?php echo $l->t('Client APIs');?></a></li>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_ADMIN; ?>/configuration_user/user_provisioning_api.html"><?php echo $l->t('User provisioning via REST');?></a></li>
-                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>digging_deeper/users.html"><?php echo $l->t('Write a new user-management backend');?></a></li>
-                <li><a class="hyperlink" href="https://nextcloud-talk.readthedocs.io/en/latest/"><?php echo $l->t('Nextcloud Talk REST API');?></a></li>
-                <li><a class="hyperlink" href="https://www.tentwentyfour.lu/2019/08/27/nextcloud-link/"><?php echo $l->t('Third party node.js connector');?></a></li>
             </ul>
         </div>
         <div class="col-md-6">
-            <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/mobile.svg" class="icon" />
-            <h3 class="section--paragraph__title"><?php echo $l->t('Write new clients');?></h3>
             <ul class="section--paragraph">
-                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>client_apis/LoginFlow/index.html"><?php echo $l->t('Login Flow');?></a></li>
-                <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>/client_apis/index.html"><?php echo $l->t('Client APIs');?></a></li>
+                <li><a class="hyperlink" href="https://nextcloud-talk.readthedocs.io/en/latest/"><?php echo $l->t('Nextcloud Talk REST API');?></a></li>
                 <li><a class="hyperlink" href="<?php echo $DOCUMENTATION_DEVELOPER; ?>client_apis/android_library/index.html#nextcloud-android-library"><?php echo $l->t('Access Nextcloud through our Android library');?></a></li>
-                <li><a class="hyperlink" href="https://github.com/nextcloud/Android-SingleSignOn/#how-to-use-this-library"><?php echo $l->t('Connect your Android app to Nextcloud with Single Sign On');?></a></li>
+                <li><a class="hyperlink" href="https://github.com/nextcloud/ios-communication-library"><?php echo $l->t('Access Nextcloud through our iOS library');?></a></li>
             </ul>
         </div>
     </div>
@@ -230,8 +223,8 @@
     <div class="container-widest">
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
-                <h1 class="section--heading-1 section--text--center">Events</h1>
-                <p class="section--paragraph">Nextcloud attends and organizes events where you can learn more about building apps and integrations!</p>
+                <h1 class="section--heading-1 section--text--center"><?php echo $l->t('Events');?></h1>
+                <p class="section--paragraph"><?php echo $l->t('Nextcloud attends and organizes events where you can learn more about building apps and integrations!');?></p>
             </div>
         </div>
         <div class="row">
