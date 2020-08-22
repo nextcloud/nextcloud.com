@@ -14,7 +14,7 @@
 		.box {
 			position: relative;
 			z-index: 2;
-			background: url("../../img/box/box_front.png") no-repeat;
+			background: url("../../img/devices/box_front.png") no-repeat;
 			width: 689px;
 			height: 569.8px;
 			margin: 0 auto -300px auto;
@@ -55,7 +55,7 @@
 		border-top: 1px solid #E8E8E8;
 
 		.box-open {
-			background: url("../../img/box/box-open.png") no-repeat;
+			background: url("../../img/devices/box-open.png") no-repeat;
 			width: 651px;
 			height: 476px;
 			margin-top: 120px;
@@ -120,7 +120,7 @@
 		}
 
 		.box-perspective {
-			background: url("../../img/box/box-perspective.png") no-repeat;
+			background: url("../../img/devices/box-perspective.png") no-repeat;
 			width: 692px;
 			height: 485px;
 		    background-repeat: no-repeat;
@@ -139,7 +139,7 @@
 	.container {
 
 		.assembly {
-			background: url("../../img/box/assembly.png") no-repeat;
+			background: url("../../img/devices/assembly.png") no-repeat;
 			width: 639px;
 			height: 541px;
 		    margin: 0 auto;
@@ -214,7 +214,7 @@
 			margin-top: 25px;
 
 			.logo-wd {
-			background: url("../../img/box/wd-logo.svg") no-repeat;
+			background: url("../../img/devices/wd-logo.svg") no-repeat;
 			width: 245.8px;
 			height: 58.7px;
 		    display: inline-block;
@@ -223,7 +223,7 @@
 			}
 
 			.logo-ubuntu {
-			background: url("../../img/box/ubuntu-logo.svg") no-repeat;
+			background: url("../../img/devices/ubuntu-logo.svg") no-repeat;
 			width: 242.5px;
 			height: 60px;
 		    display: inline-block;

@@ -7,10 +7,10 @@ require(["require.config"], function() {
     require(["pages/devices"])
 });
 </script>
-<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/box/assembly.png">
-<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/box/assembly.png">
-<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/box/assembly.png">
-<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/box/assembly.png">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/devices/assembly.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/devices/assembly.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/devices/assembly.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/devices/assembly.png">
 </head>
 
 <div class="background sharing-background">
@@ -36,7 +36,7 @@ require(["require.config"], function() {
         <h4>Currently available</h4>
         <div class="row feature--block">
             <div class="col-md-5">
-                <a href="https://shop.hanssonit.se/product-category/nextcloud/home-sme-server/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/box/nuc10side.jpeg" class="img-responsive featureimg" /></a>
+                <a href="https://shop.hanssonit.se/product-category/nextcloud/home-sme-server/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/nuc10side.jpeg" class="img-responsive featureimg" /></a>
             </div>
             <div class="col-md-7">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Home/SME Server');?></h3>
@@ -54,7 +54,7 @@ require(["require.config"], function() {
         </div>
         <div class="row feature--block">
             <div class="col-md-5">
-                <a href="<?php bloginfo('template_directory'); ?>/assets/img/syncloud/syncloud.jpg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/syncloud/syncloud.jpg" class="img-responsive featureimg" /></a>
+                <a href="<?php bloginfo('template_directory'); ?>/assets/img/devices/syncloud.jpg"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/syncloud.jpg" class="img-responsive featureimg" /></a>
             </div>
             <div class="col-md-7">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Syncloud');?></h3>
@@ -68,7 +68,7 @@ require(["require.config"], function() {
         </div>
         <div class="row feature--block">
             <div class="col-md-5">
-                <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/indiecomputing/ubosbox-nextcloud-on-nuc-model-a-on-500x375.png" class="img-responsive featureimg" /></a>
+                <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-nuc/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/ubosbox-nextcloud-on-nuc-model-a-on-500x375.png" class="img-responsive featureimg" /></a>
             </div>
             <div class="col-md-7">
                 <h3 class="section--paragraph__title"><?php echo $l->t('UBOSbox Nextcloud on NUC &ndash; Home/Office Server');?></h3>
@@ -88,7 +88,7 @@ require(["require.config"], function() {
         </div>
         <div class="row feature--block">
             <div class="col-md-5">
-                <a href="https://www.homedrive.io/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/homedrive/logo_600x600.png" class="img-responsive featureimg" /></a>
+                <a href="https://www.homedrive.io/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/homedrive.png" class="img-responsive featureimg" /></a>
             </div>
             <div class="col-md-7">
                 <h3 class="section--paragraph__title"><?php echo $l->t('HomeDrive');?></h3>
@@ -107,7 +107,7 @@ require(["require.config"], function() {
         </div>
         <div class="row feature--block">
             <div class="col-md-5">
-                <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-raspberrypi/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/indiecomputing/ubosbox-nextcloud-on-raspberrypi-on-500x375.png" class="img-responsive featureimg" /></a>
+                <a href="https://indiecomputing.com/products/ubosbox-nextcloud-on-raspberrypi/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/ubosbox-nextcloud-on-raspberrypi-on-500x375.png" class="img-responsive featureimg" /></a>
             </div>
             <div class="col-md-7">
                 <h3 class="section--paragraph__title"><?php echo $l->t('UBOSbox Nextcloud on Raspberry Pi &ndash; Home Server (kit)');?></h3>
@@ -128,7 +128,7 @@ require(["require.config"], function() {
         </div>
         <div class="row feature--block">
             <div class="col-md-5">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/img/box/MOX.png" class="img-responsive featureimg" />
+                <img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/MOX.png" class="img-responsive featureimg" />
             </div>
             <div class="col-md-7">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Turris MOX: Cloud');?></h3>
@@ -145,7 +145,7 @@ require(["require.config"], function() {
         <h4>Sold out, or not available any more</h4>
         <div class="row feature--block">
             <div class="col-md-5">
-                <a href="https://spreedbox.me/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/spreedbox/spreedbox.png" class="img-responsive featureimg" /></a>
+                <a href="https://spreedbox.me/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/spreedbox.png" class="img-responsive featureimg" /></a>
             </div>
             <div class="col-md-7">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Spreedbox');?></h3>
@@ -161,7 +161,7 @@ require(["require.config"], function() {
         </div>
         <div class="row feature--block" id="nextcloud-box">
             <div class="col-md-5">
-                <a href="<?php echo home_url('box') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/box/box-perspective.png" class="img-responsive featureimg" /></a>
+                <a href="<?php echo home_url('box') ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/devices/box-perspective.png" class="img-responsive featureimg" /></a>
             </div>
             <div class="col-md-7">
                 <h3 class="section--paragraph__title"><em><?php echo $l->t('Nextcloud Box');?></em></h3>
