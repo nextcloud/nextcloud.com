@@ -94,9 +94,9 @@ require(["require.config"], function() {
                 <h3 class="section--paragraph__title"><?php echo $l->t('HomeDrive');?></h3>
                 <p class="section--paragraph"><em><?php echo $l->t('Easy Nextcloud hosting at home. Access your data anywhere in the world.');?></em></p>
                 <ul class="section--paragraph" style="list-style-type: disc">
-                    <li><?php echo $l->t('HomeDrive provides an easy way to host Nextcloud at your home. It requires zero configuration to work, and automatically updates itself.)');?></li>
-                    <li><?php echo $l->t('Setting up HomeDrive is as simple as plugging it into your home router. You can start accessing your data under a custom domain name from everywhere in the world right away.')?></li>
-                    <li><?php echo $l->t('Traffics from and to your HomeDrive server are end-to-end encrypted to ensure security and your privacy.')?></li>
+                    <li><?php echo $l->t('HomeDrive provides an easy way to host Nextcloud at your home. It requires zero configuration to work, and automatically updates itself.');?></li>
+                    <li><?php echo $l->t('Setting up HomeDrive is as simple as plugging it into your home router. You can start accessing your data under a custom domain name from anywhere in the world right away.')?></li>
+                    <li><?php echo $l->t('Traffic from and to your HomeDrive server is end-to-end encrypted to ensure security and your privacy.')?></li>
                 </ul>
                 <div class="devices-tags">
                     <span>Commercial</span>
