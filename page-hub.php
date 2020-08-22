@@ -217,6 +217,11 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="text-center">
+                <a href="<?php echo home_url('whitepapers') ?>" class="button button--blue button--arrow"><?php echo $l->t('Case studies and more');?></a>
+            </div>
+        </div>
 <!--        <div class="row">
             <div class="col-sm-4 col-lg-2 customer">
                 <div class="customer-logo">
@@ -253,20 +258,137 @@
 	</div>
 </section>
 
-<!--<section class="section--customerdetail">
+<section class="section--usecases">
 	<div class="container">
-         <div class="row feature-row">
-            <div class="col-md-6">
-                <a href="https://www.bayern-evangelisch.de/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/customers/elkb.png" alt="elkb logo"/></a>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1 class="section--heading-1 text-center"><?php echo $l->t('What can Hub do for me?');?></h1>
+                <p class="section--paragraph text-center"><?php echo $l->t('As a comprehensive platform, Nextcloud Hub has a wide range of abilities not easy to explain with a few bullet points. Find below 2 scenarios that visualize some real-world use of Nextcloud Hub!');?></p>
             </div>
-            <div class="col-md-6  feature--block">
-                <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud offers collaboration solution to Evangelisch-Lutherische Kirche in Bayern');?></h3>
-                <blockquote><?php echo $l->t('We deployed Nextcloud with Collabora some months ago. We are very happy with the user-acceptance of the sync&share function and hope to expand on Collabora usage as part of our plans to make Nextcloud a core component of our digital-workspace initiative.');?></blockquote>
-                 - Bartel Pieterse, Fachbereichsleiter Kommunikation & Kollaboration (KIV), <a class="hyperlink" href="https://www.bayern-evangelisch.de/">ELKB</a>
+        </div>
+         <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Writing and gaining approval for a public proposal document: Project X');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('<strong>Goal:</strong> write a proposal document with a team of people, then having it reviewed by the board and approved for release');?></p>
+                <p class="section--paragraph"><?php echo $l->t('<strong>Tools:</strong> Files, Talk, Groupware, Collabora Online, tags, comments, groups, dashboard, Circles, Guests');?></p>
+                <a href="#workflow1" data-toggle="collapse" class="button button--blue button--arrow--down"><?php echo $l->t('Read the full scenario');?><span class="icon-arrow-down"></a>
+				<div id="workflow1" class="collapse ">
+                    <p class="section--paragraph"><strong><?php echo $l->t('Personas involved:');?></strong></p>
+                    <ul>
+                        <li><?php echo $l->t('owner');?></li>
+                        <li><?php echo $l->t('2 team members');?></li>
+                        <li><?php echo $l->t('4 board members, one of whom dedicated to project');?></li>
+                        <li><?php echo $l->t('2 external consultants');?></li>
+                    </ul>
+                    <p class="section--paragraph"><strong><?php echo $l->t('Setup in advance');?></strong></p>
+                    <ul>
+                        <li><?php echo $l->t('Default Nextcloud Hub + Circles and Guests apps');?></li>
+                        <li><?php echo $l->t('User accounts for board, team members, owner');?></li>
+                        <li><?php echo $l->t('Group for the board members and one for the team members');?></li>
+                    </ul>
+                    <h3>Setting the first meeting</h3>
+                    <ul>
+                    <li>The owner opens Nextcloud Mail and writes an email to the team members, 1 board member and 2 external consultants by selecting them from the address book and explains the project, including a timeline with an initial meeting, asking for some time slots for the external consultants.</li>
+                    <li>The consultants share possible time slots.</li>
+                    <li>The owner opens Nextcloud Calendar and creates an appointment for the team plus the board member and external consultants, using the busy-view to find a time most suitable. The owner clicks the “create Talk room” to include a chat and video call room link for the meeting.</li>
+                    <li>after the appointment is sent out, the owner goes to the Talk room and names it “Project X meeting room”.</li>
+                    </ul>
+                    <h3>Creating a project and a team</h3>
+                    <ul>
+                    <li>The owner plans their own time, creating a Deck board named “Project X” and populating it with tasks that need to be done.</li>
+                    <li>The owner goes to the Circles app and creates a circle of the team members called Project X (this is a custom group).</li>
+                    <li>The owner creates a new document (+ icon -&gt; new Text document) and writes an agenda draft, then shares it with the Project X circle, adding a note to the share: please, give feedback on the draft agenda!</li>
+                    </ul>
+                    <h3>Discuss the agenda</h3>
+                    <ul>
+                    <li>The team members get notified of the share, read the note and review the document, providing feedback as comments in the sidebar (The owner receives a notification when a comment is made) or just editing it right away.</li>
+                    <li>After agreement on the agenda is reached, the owner shares the agenda in the meeting room that was created earlier, simply sharing to “Project X meeting room”. Now everybody, including the board member and consultants, have access to it.</li>
+                    <li>To easily manage all documents related to the project, the owner adds the agenda document, the Deck board “Project X” and the meeting room “Project X meeting room” to the “Project X” project.</li>
+                    </ul>
+                    <h3>The first meeting</h3>
+                    <ul>
+                    <li>On the day of the meeting, all members get notified by Nextcloud of the meeting and join the room for the call. The document with the agenda can be seen and edited by all members (access rights could have been restricted by the owner but in practice, we believe that such restrictions are rarely needed).</li>
+                    <li>After the meeting, the owner shares the Deck board “Project X” with the circle and schedules a call with the team members to go over the tasks, assign them and get to work.</li>
+                    </ul>
+                    <h3>Getting to work</h3>
+                    <ul>
+                    <li>The owner creates a new office document for the proposal, and writes a first rough draft. Then the owners shares this draft with the Project X circle and adds a note or comments with some questions. The owner also adds it to the “Project X” project. The owner also tags the file with “work in progress”.</li>
+                    <li>all team members can see the project in their Dashboard and see all files connected to it that they have access to. Each member can add more documents, chat rooms, tasks, calendars or other elements to the Project. Other members will then see those IF they are shared with them, if not the relation remains private.</li>
+                    <li>By change tracking and comments in the document, the team discusses and improves the document. At any time, a real-time chat can be had in the sidebar of the document, or even a video call can be started.</li>
+                    <li>Todo items are managed in Deck, with tasks and deadlines assigned and all participants getting notified when relevant tasks change status, as per their notification settings.</li>
+                    </ul>
+                    <h3>Review and approval</h3>
+                    <ul>
+                    <li>Once the draft has progressed sufficiently, it can be shared with the consultants for their input. First the tag on the document is changed to “for external review”, as a File Access Control rule is in place that blocks external access to files with the “work in progress” tag.</li>
+                    <li>Once the document is ready, it can be shared to the board group, and a Talk meeting is scheduled in the Calendar to discuss the document and gain approval.</li>
+                    <li>Once the document is approved, the tag is changed from “for external review” to “finished” which can trigger automatic conversion to PDF and publishing on a third party platform.</li>
+                    </ul>
+				</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Turning an idea into a new office layout');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('<strong>Goal:</strong> Find support for an idea in the office and get it approved');?></p>
+                <p class="section--paragraph"><?php echo $l->t('<strong>Tools:</strong> Files, Talk, Groupware, Circles, Flow, Social, Forms, Anti-virus, Ransomware Protection');?></p>
+                <a href="#workflow2" data-toggle="collapse" class="button button--blue button--arrow--down"><?php echo $l->t('Read the full scenario');?><span class="icon-arrow-down"></a>
+				<div id="workflow2" class="collapse ">
+                    <p class="section--paragraph"><strong><?php echo $l->t('Personas involved:');?></strong></p>
+                    <ul>
+                        <li><?php echo $l->t('Principal');?></li>
+                        <li><?php echo $l->t('Colleagues in the office');?></li>
+                        <li><?php echo $l->t('Management');?></li>
+                        <li><?php echo $l->t('Office manager');?></li>
+                        <li><?php echo $l->t('External office supplies firm');?></li>
+                    </ul>
+                    <p class="section--paragraph"><strong><?php echo $l->t('Setup in advance:');?></strong></p>
+                    <ul>
+                        <li><?php echo $l->t('Default Nextcloud Hub plus Forms, Social, Circles,  Anti-virus, Ransomware Protection apps');?></li>
+                        <li><?php echo $l->t('User accounts for all participants');?></li>
+                        <li><?php echo $l->t('Group for the the team members, group for management');?></li>
+                        <li><?php echo $l->t('Circle (custom group) of team members and Principal');?></li>
+                    </ul>
+                    <h3>The idea</h3>
+                    <ul>
+                    <li>During train commute, Principal writes down a good idea, to set up phone booths in the office to deal with noisy calls, in the Nextcloud Notes app on his phone.</li>
+                    <li>The next office day, Principal accesses the Notes from his browser and shares the idea through Nextcloud Social, their internal social media platform. A few colleagues like his post.</li>
+                    <li>Principal brings his iPad to lunch, creating a new Text document for a quick outline of the plan.</li>
+                    </ul>
+                    <h3>Gathering input</h3>
+                    <ul>
+                    <li>Principal creates an open circle, a custom group anyone interested in contributing to the idea can join, with the name Phone Booth. He shares this on Social so others can see it and join.</li>
+                    <li>He puts together a quick survey in Nextcloud Forms, asking basic questions on what people would need in such a phone booth. He shares the link on Social and gives access to the results to the Phone Booth circle. Several colleagues provide input in the survey.</li>
+                    </ul>
+                    <h3>Working with the team</h3>
+                    <ul>
+                    <li>Principal creates a chat room for the Circle in Talk on his iPad. He shares the document he is working on into the room and asks for feedback, pointing also to the survey answers he shared earlier.</li>
+                    <li>The team member calls him using Talk and Principal picks up on his iPad to discuss the document they are editing together, going over the feedback from the survey.</li>
+                    <li>Later at home, Principal drops a few images of phone booth designs he found on the internet in the chat for all to see. The nicest 2 images are added to the document.</li>
+                    <li>Principal now creates a folder with the document and images and describes the basics of the idea in the Workspace area above the folder so a quick glance will show a recipient what it is about. He shares the folder with the Phone Booth circle, too, and throws in a PDF export of the results of the survey.</li>
+                    <li>Principal sets up a quick ‘Flow’ to get notified with a chat message in the phone booths chat room whenever changes are made in the folder.</li>
+                    </ul>
+                    <h3>Receiving an offer</h3>
+                    <ul>
+                    <li>The next day, Principal shares the folder wwith the office manager to asks if she can get an idea of the costs.</li>
+                    <li>The office manager shares the folder through a public link with their office supplies firm, asking if they can provide such a phone booth. In a note with the share she asks them to provide at least 2 options. She gives them upload rights so they can simply upload a pdf with an offer in the folder, which they do.</li>
+                    <li>The next morning, when checking his dashboard in the morning, Principal sees the chat message notifying them the offer was uploaded. Two team members already signaled their approval of the more expensive offer in the chat.</li>
+                    </ul>
+                    <h3>Management feedback</h3>
+                    <ul>
+                    <li>Principal shares the folder with his manager, adding a note to the share asking if she could bring this up with senior management if she likes the idea. As her status in Nextcloud is set to ‘traveling’, he also sends an email to her boss.</li>
+                    <li>Her laptop has downloaded the folder to her laptop so during her flight she can check the proposal and check the budget. She adds a line for phone booths in the budget proposal spreadsheet for the next month.</li>
+                    </ul>
+                    <h3>A malware attack interrupts</h3>
+                    <ul>
+                    <li>After landing, her laptop syncs her changes but the sync is stopped: the anti-virus scanner on the server has discovered a malware infection. It stopped the sync and warned the system administrator and the manager.</li>
+                    <li>There seems to have been a ransomware active for a while already, which as been slowly encrypting files over the last weeks. Because of this, many files have been modified since the first files were encrypted and thus restoring a backup from before the first infection would undo weeks of work. Luckily, the Nextcloud Ransomware Protection app allows one-click recovery of her data to un-encrypted data. The app has analyzed the files of the manager and for each file, can roll back to the version just before they were encrypted.</li>
+                    <li>After all data was recovered, the manager can share the spreadsheet. The other managers react in chat on the budget. Once the team has all added their signoff tags it gets sent automatically to the finance back-office for processing through a flow configured in Nextcloud Flow.</li>
+                    </ul>
+				</div>
             </div>
         </div>
     </div>
-</section>-->
+</section>
 
 <?php require get_template_directory().'/onpremises.php';?>
 
