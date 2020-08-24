@@ -29,7 +29,7 @@ require(["require.config"], function() {
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <p class="section--paragraph text-center"><?php echo $l->t('Securely sharing and collaborating on documents requires strong acces control mechanisms. Nextcloud features a variety of sharing mechanisms and associated control solutions like ACLs and sharing permissions.');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Securely sharing and collaborating on documents requires strong access control mechanisms. Nextcloud features a variety of sharing mechanisms and associated control solutions like ACLs and sharing permissions.');?></p>
             </div>
         </div>
     </div>
