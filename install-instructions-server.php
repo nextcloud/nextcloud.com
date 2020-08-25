@@ -109,17 +109,11 @@
                     <div class="overlay-body row">
                         <div class="col-md-8">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <h5><?php echo $l->t('Home/SME appliance');?></h5>
-                                    <p><a class="hyperlink" target="_blank" href="https://www.hanssonit.se/">T&M Hansson IT AB</a> <?php echo $l->t('maintains a VM designed to be the easiest way for less technical users to get Nextcloud up and running. It builds on Ubuntu Linux and is fully set up and configured with a secure TLS connection.');?></p>
-                                    <p><a class="button button--blue" href="https://www.hanssonit.se/nextcloud-vm/" target="_blank"><?php echo $l->t('Get Home/SME appliance<');?>/a></p>
-                                    <p><a class="hyperlink" href="https://github.com/nextcloud/vm" target="_blank"><?php echo $l->t('Find source here');?></a>.</p>
-                                </div>
-                                <div class="col-md-6">
-                                    <h5><?php echo $l->t('SME/Enterprise appliance');?></h5>
-                                    <p><?php echo $l->t('Nextcloud GmbH maintains a free appliance built on the Univention Corporate Server (UCS) with easy graphical setup and web-based administration. It includes user management via LDAP as well as optional online office integration.');?></p>
-                                    <p><a class="button button--blue" href="https://www.univention.com/products/univention-app-center/app-catalog/nextcloud/" target="_blank"><?php echo $l->t('Get SME/Enterprise appliance');?></a></p>
-                                    <p><a class="hyperlink" href="https://github.com/nextcloud/univention-app" target="_blank"><?php echo $l->t('Find source here');?></a>.</p>
+                                <div class="col-md-12">
+                                    <h5><?php echo $l->t('Virtual Machine image');?></h5>
+                                    <p><?php echo $l->t('The Nextcloud VM is designed to be an easy way for less technical users to get Nextcloud up and running or to test it out. It builds on Ubuntu Linux and makes configuration easy.');?></p>
+                                    <p><a class="button button--blue" href="https://download.nextcloud.com/vm/Nextcloud-VM.ova" target="_blank"><?php echo $l->t('Download the VM');?></a></p>
+                                    <p><a class="hyperlink" href="https://github.com/nextcloud/vm" target="_blank"><?php echo $l->t('Find source here');?></a>. <?php echo $l->t('If you are looking for a more extensive virtual machine with many scripts to set up advanced functionality, ');?><a class="hyperlink" href="https://www.hanssonit.se/nextcloud-vm/" target="_blank"><?php echo $l->t('try the VM of Hansson IT.');?></a></p>
                                 </div>
                             </div>
                             <div class="row">
