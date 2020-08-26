@@ -82,6 +82,31 @@
             <p class="section--paragraph"><a class="hyperlink" href="<?php echo home_url('jobs') ?>"><?php echo $l->t('Also, we are hiring.');?></a> <?php echo $l->t('We look especially for people who want to turn their passion into their job! When possible, we hire people from our active community base or from the wider open source community.');?></p>
         </div>
     </div>
+        <div class="row">
+        <div class="col-md-4">
+            <img src="<?php bloginfo('template_directory'); ?>/assets/img/events/presentation.jpg" class="img-responsive" />
+        </div>
+        <div class="col-md-8">
+            <h3 class="section--paragraph__title"><?php echo $l->t('Help promote Nextcloud');?></h3>
+            <p class="section--paragraph"><?php echo $l->t('Just telling other people about Nextcloud is already immensely helpful! Use social media, real life, or write a review at the many websites that review software. Some links below! You can also represent us at events, giving a talk for example.');?> <a class="hyperlink" href="<?php echo home_url('events') ?>"><?php echo $l->t('Learn more about Nextcloud events here.');?></a></p>
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- Begin SF Tag -->
+                    <div class="sf-root" data-id="2973658" data-badge="light-default" style="width:100%">
+                        <a href="https://sourceforge.net/software/product/NextCloud/" target="_blank">View NextCloud On SourceForge.net</a>
+                    </div>
+                    <script type="text/javascript">(function () {var sc=document.createElement('script');sc.type='text/javascript';sc.async=true;sc.src='https://b.sf-syn.com/badge_js?slug=NextCloud';var p=document.getElementsByTagName('script')[0];p.parentNode.insertBefore(sc, p);})();
+                    </script>
+                    <!-- End SF Tag -->
+                </div>
+                <div class="col-md-9">
+                <a class="button button--white button--arrow" href="https://alternativeto.net/software/nextcloud/ 81">Alternative.to</a>
+                <a class="button button--white button--arrow" href="https://www.capterra.com/reviews/161572/NextCloud/new">Capterra</a>
+                <a class="button button--white button--arrow" href="https://www.g2crowd.com/products/nextcloud/take_survey">G2Crowd</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </section>
 
