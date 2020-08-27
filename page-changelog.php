@@ -32,6 +32,80 @@
     </ul>
 
     <a name="latest19"></a>
+
+<h3 id="19-0-2">Version 19.0.2 <small>August 28 2020</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.2.tar.bz2">nextcloud-19.0.2.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.2.zip">nextcloud-19.0.2.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.2.tar.bz2.md5">nextcloud-19.0.2.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.2.zip.md5">nextcloud-19.0.2.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.2.tar.bz2.sha256">nextcloud-19.0.2.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.2.zip.sha256">nextcloud-19.0.2.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.2.tar.bz2.sha512">nextcloud-19.0.2.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.2.zip.sha512">nextcloud-19.0.2.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.2.tar.bz2.asc">nextcloud-19.0.2.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.2.zip.asc">nextcloud-19.0.2.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/21782">[stable19] lower minimum search length to 2 characters (server#21782)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21804">[stable19] Call openssl_pkey_export with $config and log errors. (server#21804)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21806">[stable19] Improve error reporting on sharing errors (server#21806)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21840">[stable19] Do not log RequestedRangeNotSatisfiable exceptions in DAV (server#21840)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21857">[stable19] Fix parsing of language code (server#21857)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21876">[stable19] fix typo in revokeShare() (server#21876)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21917">[stable19] Discourage webauthn user interaction (server#21917)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21935">[stable19] Encryption is ready if master key is enabled (server#21935)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21939">[stable19] Disable fragile comments tests (server#21939)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21953">[stable19] Do not double encode the userid in webauthn login (server#21953)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21955">[stable19] update icewind/smb to 3.2.6 (server#21955)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21967">[stable19] Respect default share permissions (server#21967)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21975">[stable19] allow admin to configure the max trashbin size (server#21975)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21978">[stable19] Fix risky test in twofactor_backupcodes (server#21978)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21981">[stable19] Fix PHPUnit deprecation warnings (server#21981)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21983">[stable19] fix moving files from external storage to object store trashbin (server#21983)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21991">[stable19] Ignore whitespace in sharing by mail (server#21991)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22036">[stable19] Properly fetch translation for remote wipe confirmation dialog (server#22036)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22044">[stable19] parse_url returns null in case a parameter is not found (server#22044)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22050">Bump elliptic from 6.5.2 to 6.5.3 (server#22050)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22053">[stable19] Correctly remove usergroup shares on removing group members (server#22053)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22064">[stable19] Fix height to big for iPhone when using many apps (server#22064)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22069">[stable19] reset the cookie internally in new API when abandoning paged results op (server#22069)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22070">[stable19] Add Guzzle's InvalidArgumentException (server#22070)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22091">[stable19] contactsmanager shall limit number of results early (server#22091)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22094">[stable19] Fix browser freeze on long password input (server#22094)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22118">[stable19] Search also the email and displayname in user mangement for groups (server#22118)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22121">[stable19] Ensured large image is unloaded from memory when generating previews (server#22121)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22131">[stable19] fix display of remote users in incoming share notifications (server#22131)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22171">[stable19] Reuse cache for directory mtime/size if filesystem changes can be ignored (server#22171)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22178">[stable19] Remove unexpected argument (server#22178)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22181">[stable19] Do not exit if available space cannot be determined on file transfer (server#22181)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22183">[stable19] Fix empty 'more' apps navigation after installing an app (server#22183)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22192">[stable19] Fix default log_rotate_size in config.sample.php (server#22192)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22203">[stable19] shortcut in reading nested group members when IN_CHAIN is available (server#22203)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22208">[stable19] Fix chmod on file descriptor (server#22208)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22209">[stable19] Do clearstatcache() on rmdir (server#22209)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22210">[stable19] SSE enhancement of file signature (server#22210)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22215">[stable19] remove logging message carrying no valuable information (server#22215)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22232">[stable19] Add app config option to disable "Email was changed by admin" activity (server#22232)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22239">[stable19] Delete chunks if the move on an upload failed (server#22239)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22247">[stable19] Silence duplicate session warnings (server#22247)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22252">[3rdparty] Doctrine: Fix unquoted stmt fragments backslash escaping (server#22252)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22300">[stable19] Allow to disable share emails (server#22300)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22302">[stable19] Show disabled user count in occ user:report (server#22302)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22303">Bump 3rdparty to last stable19 commit (server#22303)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22309">[stable19] fixing a logged deprecation message (server#22309)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22333">[stable19] CalDAV: Add ability to limit sharing to owner (server#22333)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22337">[stable19] Only copy the link when updating a share or no password was forced (server#22337)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22341">[stable19] Remove encryption option for nextcloud external storage (server#22341)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22348">[stable19] l10n:Correct appid for WebAuthn (server#22348)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22355">[stable19] Properly search for users when limittogroups is enabled (server#22355)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22381">[stable19] SSE: make legacy format opt in (server#22381)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22387">[stable19] Update the CRL (server#22387)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22400">[stable19] Fix missing FN from federated contact (server#22400)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22414">[stable19] fix event icon sizes and text alignment (server#22414)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/457">[stable19] Bump stecman/symfony-console-completion from 0.8.0 to 0.11.0 (3rdparty#457)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/474">[stable19] Add Guzzle's InvalidArgumentException (3rdparty#474)</a></li>
+        <li><a href="https://github.com/nextcloud/3rdparty/pull/486">[stable19] Doctrine: Fix unquoted stmt fragments backslash escaping (3rdparty#486)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/545">[stable19] Fix cypress (viewer#545)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/558">Move to webpack vue global config & bump deps (viewer#558)</a></li>
+</ul>
+
 <h3 id="19-0-1">Version 19.0.1 <small>July 17 2020</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.1.tar.bz2">nextcloud-19.0.1.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-19.0.1.zip">nextcloud-19.0.1.zip</a></br>
 Check the file integrity with:</br>
@@ -139,6 +213,61 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p>Read the <a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-hub-brings-productivity-to-home-office/">release announcement</a> for more details.</p>
 
     <a name="latest18"></a>
+
+<h3 id="18-0-8">Version 18.0.8 <small>August 28 2020</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.8.tar.bz2">nextcloud-18.0.8.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.8.zip">nextcloud-18.0.8.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.8.tar.bz2.md5">nextcloud-18.0.8.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.8.zip.md5">nextcloud-18.0.8.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.8.tar.bz2.sha256">nextcloud-18.0.8.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.8.zip.sha256">nextcloud-18.0.8.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.8.tar.bz2.sha512">nextcloud-18.0.8.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.8.zip.sha512">nextcloud-18.0.8.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.8.tar.bz2.asc">nextcloud-18.0.8.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.8.zip.asc">nextcloud-18.0.8.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/20842">[stable18] Do not filter id matching userId on non-user-share shares (server#20842)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21783">[stable18] lower minimum search length to 2 characters (server#21783)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21807">[stable18] Improve error reporting on sharing errors (server#21807)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21841">[stable18] Do not log RequestedRangeNotSatisfiable exceptions in DAV (server#21841)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21877">[stable18] fix typo in revokeShare() (server#21877)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21936">[stable18] Encryption is ready if master key is enabled (server#21936)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21956">[stable18] update icewind/smb to 3.2.6 (server#21956)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21961">[stable18] Fix parsing of language code (server#21961)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21976">[stable18] allow admin to configure the max trashbin size (server#21976)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21979">[stable18] Fix risky test in twofactor_backupcodes (server#21979)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21982">[stable18] fix moving files from external storage to object store trashbin (server#21982)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21992">[stable18] Ignore whitespace in sharing by mail (server#21992)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22035">[stable18]  Properly fetch translation for remote wipe confirmation dialog (server#22035)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22051">Bump elliptic from 6.5.2 to 6.5.3 (server#22051)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22054">[stable18] Correctly remove usergroup shares on removing group members (server#22054)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22058">[stable18] Fix PHPUnit deprecation warnings (server#22058)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22071">[stable18] Fix height to big for iPhone when using many apps (server#22071)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22172">[stable18] Reuse cache for directory mtime/size if filesystem changes can be ignored (server#22172)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22179">[stable18] Remove unexpected argument (server#22179)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22182">[stable18] Do not exit if available space cannot be determined on file transfer (server#22182)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22184">[stable18] Fix empty 'more' apps navigation after installing an app (server#22184)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22191">[stable18] Fix default log_rotate_size in config.sample.php (server#22191)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22204">[stable18] shortcut in reading nested group members when IN_CHAIN is available (server#22204)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22207">[stable18] Fix chmod on file descriptor (server#22207)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22212">[stable18] SSE enhancement of file signature (server#22212)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22233">[stable18] Add app config option to disable "Email was changed by admin" activity (server#22233)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22240">[stable18] Delete chunks if the move on an upload failed (server#22240)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22268">[stable18] Fix browser freeze on long password input (server#22268)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22301">[stable18] Show disabled user count in occ user:report (server#22301)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22306">[stable18] Allow to disable share emails (server#22306)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22310">[stable18] fixing a logged deprecation message (server#22310)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22338">[stable18] Only copy the link when updating a share or no password was forced (server#22338)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22343">[stable18] Remove encryption option for nextcloud external storage (server#22343)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22388">[stable18] Update the CRL (server#22388)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22401">[stable18] Fix missing FN from federated contact (server#22401)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22405">[stable18] Make legacy format opt-in (server#22405)</a></li>
+        <li><a href="https://github.com/nextcloud/firstrunwizard/pull/368">Bump elliptic from 6.5.2 to 6.5.3 (firstrunwizard#368)</a></li>
+        <li><a href="https://github.com/nextcloud/notifications/pull/710">Bump elliptic from 6.4.1 to 6.5.3 (notifications#710)</a></li>
+        <li><a href="https://github.com/nextcloud/recommendations/pull/255">Bump elliptic from 6.5.2 to 6.5.3 (recommendations#255)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/552">Fix babel (viewer#552)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/556">Bump elliptic from 6.5.2 to 6.5.3 (viewer#556)</a></li>
+</ul>
+
+
 <h3 id="18-0-7">Version 18.0.7 <small>July 17 2020</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.7.tar.bz2">nextcloud-18.0.7.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-18.0.7.zip">nextcloud-18.0.7.zip</a></br>
 Check the file integrity with:</br>
@@ -546,6 +675,35 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
 <p>Read the <a class="hyperlink" href="https://nextcloud.com/blog/the-new-standard-in-on-premises-team-collaboration-nextcloud-hub/">release announcement</a> for more details.</p>
 
     <a name="latest17"></a>
+
+<h3 id="17-0-9">Version 17.0.9 <small>August 28 2020</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.9.tar.bz2">nextcloud-17.0.9.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.9.zip">nextcloud-17.0.9.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.9.tar.bz2.md5">nextcloud-17.0.9.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.9.zip.md5">nextcloud-17.0.9.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.9.tar.bz2.sha256">nextcloud-17.0.9.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.9.zip.sha256">nextcloud-17.0.9.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.9.tar.bz2.sha512">nextcloud-17.0.9.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.9.zip.sha512">nextcloud-17.0.9.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.9.tar.bz2.asc">nextcloud-17.0.9.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.9.zip.asc">nextcloud-17.0.9.zip.asc</a></p>
+
+<h4>Changes</h4>
+<ul>
+        <li><a href="https://github.com/nextcloud/server/pull/21842">Do not log RequestedRangeNotSatisfiable exceptions in DAV (server#21842)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21878">Fix typo in revokeShare() (server#21878)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21937">Encryption is ready if master key is enabled (server#21937)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/21980">Fix risky test in twofactor_backupcodes (server#21980)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22180">Remove unexpected argument (server#22180)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22185">Fix empty 'more' apps navigation after installing an app (server#22185)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22193">Fix default log_rotate_size in config.sample.php (server#22193)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22213">SSE enhancement of file signature (server#22213)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22241">Delete chunks if the move on an upload failed (server#22241)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22344">Remove encryption option for nextcloud external storage (server#22344)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22389">Update the CRL (server#22389)</a></li>
+        <li><a href="https://github.com/nextcloud/server/pull/22390">Make legacy format opt-in (server#22390)</a></li>
+        <li><a href="https://github.com/nextcloud/firstrunwizard/pull/367">Bump elliptic from 6.4.1 to 6.5.3 (firstrunwizard#367)</a></li>
+        <li><a href="https://github.com/nextcloud/notifications/pull/707">Bump elliptic from 6.4.1 to 6.5.3 (notifications#707)</a></li>
+        <li><a href="https://github.com/nextcloud/recommendations/pull/256">Bump elliptic from 6.5.0 to 6.5.3 (recommendations#256)</a></li>
+        <li><a href="https://github.com/nextcloud/viewer/pull/554">Bump elliptic from 6.4.1 to 6.5.3 (viewer#554)</a></li>
+</ul>
+
 <h3 id="17-0-8">Version 17.0.8 <small>July 17 2020</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.8.tar.bz2">nextcloud-17.0.8.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-17.0.8.zip">nextcloud-17.0.8.zip</a></br>
 Check the file integrity with:</br>
