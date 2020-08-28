@@ -3,7 +3,7 @@
 
 /* VERSIONS */
 $VERSIONS_SERVER_MAJOR_STABLE = '19';
-$VERSIONS_SERVER_FULL_STABLE = '19.0.1';
+$VERSIONS_SERVER_FULL_STABLE = '19.0.2';
 $VERSIONS_SERVER_MAJOR_DEVELOPMENT = '20';
 $VERSIONS_SERVER_MAJOR_DEV_DOCS = '19'; // Used in dev docs links
 $VERSIONS_CLIENT_DESKTOP_STABLE_FULL = '3.0.1';
@@ -65,9 +65,9 @@ $DOWNLOAD_SERVER_PACKAGES_DAILY = 'https://download.nextcloud.com/download/repos
 
 // Testing
 $DOWNLOAD_SERVER_PACKAGES_TESTING = 'https://download.nextcloud.com/server/prereleases/';
-$SERVER_TESTING_VERSION =''; // nothing to test -> leave it empty
-$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-19.0.0RC2.tar.bz2';
-$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-19.0.0RC2.zip';
+$SERVER_TESTING_VERSION ='beta2'; // nothing to test -> leave it empty
+$DOWNLOAD_SERVER_TAR_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-20.0.0beta2.tar.bz2';
+$DOWNLOAD_SERVER_ZIP_TESTING ='https://download.nextcloud.com/server/prereleases/nextcloud-20.0.0beta2.zip';
 
 // web installer
 $DOWNLOAD_SERVER_WEB_INSTALLER = 'https://download.nextcloud.com/server/installer/setup-nextcloud.php';
