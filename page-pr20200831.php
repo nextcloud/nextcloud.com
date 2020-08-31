@@ -40,7 +40,7 @@
 <ul>
 <li>Anti-virus app for Nextcloud (this includes now Kaspersky Scan Engine support): <a href="https://apps.nextcloud.com/apps/files_antivirus">https://apps.nextcloud.com/apps/files_antivirus</a></li>
 <li>Kaspersky information page about acquiring the Scan Engine: <a href="https://www.kaspersky.com/partners/technology/solutions">https://www.kaspersky.com/partners/technology/solutions</a></li>
-<li>Kaspersky press release: <a href="https://cloud.nextcloud.com/s/kTiWjxoMgrL876r">https://cloud.nextcloud.com/s/kTiWjxoMgrL876r</a></li>
+<li>Kaspersky press release: <a href="https://cloud.nextcloud.com/s/KqzAcLsZSCKWfmJ">https://cloud.nextcloud.com/s/KqzAcLsZSCKWfmJ</a></li>
 <li>Announcement blog: <a href="https://nextcloud.com/blog/nextcloud-and-kaspersky-partner-up-to-protect-users-from-malicious-files/">https://nextcloud.com/blog/nextcloud-and-kaspersky-partner-up-to-protect-users-from-malicious-files/</a></li>
 <li>This press release: <a href="https://nextcloud.com/press/pr20200803">https://nextcloud.com/press/pr20200803</a></li>
 </ul>
