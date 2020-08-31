@@ -21,6 +21,7 @@
     <a href="<?php echo home_url('press/pr20200117-2') ?>" class="button button--large button--white button--arrow">Press release</a>
     <h2>Press releases 2020</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20200831') ?>">August 31, 2020: Nextcloud and Kaspersky partner up to protect users from malicious files</a></li>
         <li><a href="<?php echo home_url('press/pr20200818') ?>">August 18, 2020: Production ready end-to-end encryption and new user interface for desktop client 3.0</a></li>
         <li><a href="<?php echo home_url('press/pr20200728') ?>">July 28, 2020: Nextcloud introduces Forms to protect privacy-sensitive survey data</a></li>
         <li><a href="<?php echo home_url('press/pr20200616') ?>">June 16, 2020: Nextcloud Mail introduces Machine Learning for Priority Inbox</a></li>
