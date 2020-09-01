@@ -96,7 +96,7 @@ require get_template_directory() . '/strings.php';
 
 				<li class="nav__section"><a class="nav__label"><?php echo $l->t('Support'); ?></a>
 					<ul class="nav__links">
-                        <li class="nav__item"><a href="https://portal.nextcloud.com"><?php echo $l->t('Enterprise Support'); ?></a></li>
+                        <li class="nav__item"><a href="https://portal.nextcloud.com"><?php echo $l->t('Enterprise support'); ?></a></li>
                         <li class="nav__item"><a href="https://help.nextcloud.com"><?php echo $l->t('Community support'); ?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('faq'); ?>"><?php echo $l->t('FAQ'); ?></a></li>
 						<li class="nav__item"><a href="<?php echo home_url('pricing'); ?>"><?php echo $l->t('Pricing'); ?></a></li>
