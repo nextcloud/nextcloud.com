@@ -10,7 +10,7 @@
 <div class="background compare-individual-background">
 	<div class="container">
 		<div class="col-md-6 topheader">
-			<h1><?php echo $l->t('Nextcloud versus Microsoft Office 365');?></h1>
+			<h1><?php echo $l->t('Nextcloud versus Microsoft 365');?></h1>
 				<h2><?php echo $l->t('The most deployed alternative to Office365');?></h2>
 		</div>
 	</div>
@@ -105,20 +105,54 @@
 </div>
 </section>
 
+<section class="section--reasons quote">
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h2 class="text-center"><?php echo $l->t('Six key reasons to choose Nextcloud over 365');?></h2>
+        </div>
+    </div>
+	<div class="row">
+		<div class="col-md-6 ">
+            <h3 class="section--paragraph__title"><?php echo $l->t('Three business benefits of Nextcloud');?></h3>
+			<ul>
+                <p>1. <strong><?php echo $l->t('Legal compliance');?></strong> - <?php echo $l->t('Privacy Shield, GDPR, California Privacy Act, none of those legal headaches matter if you keep your data in-house or on servers you control.');?></p>
+                <p>2. <strong><?php echo $l->t('Vendor Lock-in');?></strong> - <?php echo $l->t('The bigger picture is that your needs and wants and those of Microsoft are not always aligned. If they want to push some technology, you can not turn it off. If they abandon something, you will lose access to it. Not so with Nextcloud!');?></p>
+                <p>3. <strong><?php echo $l->t('Security and transparency');?></strong> - <?php echo $l->t('Those are the two sides of the same coin! You can audit the code of Nextcloud or pay a security firm to do that for you, making sure it does what we claim it does and nothing more.');?></p>
+			</ul>
+        </div>
+		<div class="col-md-6 ">
+			<h3 class="section--paragraph__title"><?php echo $l->t('Three practical benefits of Nextcloud');?></h3>
+			<ul>
+                <p>1. <strong><?php echo $l->t('You control updates');?></strong> - <?php echo $l->t('No more walking in on Monday morning to an inbox full of support requests due to broken workflows after an update you did not know was coming.');?></p>
+                <p>2. <strong><?php echo $l->t('You control the code');?></strong> - <?php echo $l->t('Add, modify or remove any functionality you want, at any time, or build custom integration in any platform you want, including in-house tech.');?></p>
+                <p>3. <strong><?php echo $l->t('You run your cloud');?></strong> - <?php echo $l->t('You now have the opportunity to consolidate your data floating on all kinds of public clouds in one place.');?></p>
+			</ul>
+	</div>
+</div>
+</section>
+
 <section class="section--risk">
 <div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h2 class="text-center"><?php echo $l->t('Privacy Shield is down');?></h2>
+        </div>
+    </div>
 	<div class="row">
 		<div class="col-md-6 ">
             <a href="https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2020/06/30/data-protection-impact-assessment-office-365-for-the-web-and-mobile-office-apps/DPIA+Office+for+the+Web+and+mobile+Office+apps+30+June+2020.pdf"><img src="https://nextcloud.com/media/DPIA.png" alt="" class="img-responsive" /></a><br /> DPIA commisioned by the Dutch government shows a series of issues in Office 365
+			<p class="section--paragraph"><?php echo $l->t('More details:');?></p>
+			<ul>
+			<li><a class="hyperlink" href="https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2020/06/30/data-protection-impact-assessment-office-365-for-the-web-and-mobile-office-apps/DPIA+Office+for+the+Web+and+mobile+Office+apps+30+June+2020.pdf" target="_blank">Data Protection Impact Assesment by Dutch Government mid 2020</a></li>
+			<li><a class="hyperlink" href="https://www.euractiv.com/section/digital/news/schrems-charts-us-surveillance-pushback-after-ecj-ruling/" target="_blank">Another round of legal challenges against US firms threatening their ability to offer any GPDR compliant services.</a></li>
+			<li><a class="hyperlink" href="https://nextcloud.com/blog/eu-court-withdraw-personal-data-of-eu-citizens-from-us-cloud-services-immediately/" target="_blank">Highest EU court: withdraw personal data of EU citizens from US cloud services immediately.</a></li>
+			</ul>
 		</div>
 		<div class="col-md-6 ">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Office 365 not GDPR compliant');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Use of Office 365 adds significantly to compliance risks. Like many other SaaS solutions, it, fails to follow the requirements and risk business data as a Data Protection Impact Assesment of Office 365 by the Dutch government showed again in mid 2020. This after serious flaws were found and promised to be fixed first in early 2019 and again later that year. Legal challenges are mounted continuously and can cause significant harm.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Links:');?></p>
-			<ul>
-			<li><a class="hyperlink" href="https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2020/06/30/data-protection-impact-assessment-office-365-for-the-web-and-mobile-office-apps/DPIA+Office+for+the+Web+and+mobile+Office+apps+30+June+2020.pdf" target="_blank">Data Protection Impact Assesment by Dutch Government mid 2020</a></li>
-			<li><a class="hyperlink" href="https://www.euractiv.com/section/digital/news/schrems-charts-us-surveillance-pushback-after-ecj-ruling/" target="_blank">Another round of legal challenges against US firms threatening their ability to offer any GPDR compliant services.</a></li>
-			</ul>
+			<p class="section--paragraph"><?php echo $l->t('This harm became particularly clear after the EU Court of Justice struck down Privacy Shield, effectively nullifying GDPR compliance for US cloud services. In essence the ruling means that US companies can not handle data in compliance with the GDPR. European data centers or Standard Contractual Clauses (SCCs) are no solution, as access to data already defines a data transfer and US law supersedes contract law. The only legal solution to regain compliance with EU law is to immediately stop data transfers to the US businesses and repatriate data currently residing with them.');?></p>
 	</div>
 </div>
 </section>
