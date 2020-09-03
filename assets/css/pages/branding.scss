@@ -1,0 +1,68 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+
+.branding-background {
+  background: url("../../img/headers/clients.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section {
+	padding: 50px 0;
+	.section--paragraph__title {
+		padding: 0;
+	}
+	.row {
+		padding-top: 80px;
+	}
+	h2 {
+		padding-bottom: 40px;
+	}
+	ul {
+		padding-left: 30px;
+	}
+	li {
+/* 			list-style-type: circle; */
+			list-style-image: url("../../img/enterprise/check.svg");
+/* 		list-style-position:inside; */
+	}
+	.quote {
+		.row {
+			padding-top: 0px;
+		}
+	}
+}
+
+.section--comparison {
+    .table {
+        thead {
+            tr {
+                td {
+                    padding: 1mm 0mm 1mm 1mm;
+                    background-color: $nextcloud-blue;
+                }
+                p {
+                    color: white;
+                }
+                td:not(:first-child) {
+                    p {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        tbody {
+            tr {
+                td:not(:first-child) {
+                    padding: 0mm 0mm 0.97mm 0.97mm;
+                    text-align: center;
+                }
+                td:last-child {
+                    padding: 0mm 0.97mm 0.97mm 0.97mm;
+                }
+            }
+        }
+    }
+}
+
+
