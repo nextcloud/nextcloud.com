@@ -8,10 +8,10 @@ require(["require.config"], function() {
 });
 </script>
 
-<meta itemprop="image" content="https://nextcloud.com/media/branded-tubcloud.png">
-<meta name="twitter:image" content="https://nextcloud.com/media/branded-tubcloud.png">
-<meta name="twitter:image:src" content="https://nextcloud.com/media/branded-tubcloud.png">
-<meta property="og:image" content="https://nextcloud.com/media/branded-tubcloud.png">
+<meta itemprop="image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/manzcloud.png">
+<meta name="twitter:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/manzcloud.png">
+<meta name="twitter:image:src" content="<?php bloginfo('template_directory'); ?>/assets/img/features/manzcloud.png">
+<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/assets/img/features/manzcloud.png">
 </head>
 
 <div class="background branding-background">
@@ -57,7 +57,7 @@ require(["require.config"], function() {
         </div>
         <div class="row feature--block">
             <div class="col-md-6 image--feature new-img">
-                 <a href="https://nextcloud.com/media/branded-tubcloud.png"><img src="https://nextcloud.com/media/branded-tubcloud.png" class="img-responsive" /></a>
+                 <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/manzcloud.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/manzcloud.png" class="img-responsive" /></a>
             </div>
             <div class="col-md-6">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Advanced enterprise branding');?></h3>
