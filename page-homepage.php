@@ -21,7 +21,7 @@
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Regain control');?></h1>
 				<h2 class="jumbotron--lead"><?php echo $l->t('The self-hosted productivity platform that keeps you in control');?></h2>
-				<a class="button button--large button--arrow button--white" href="<?php echo home_url('install') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Get Nextcloud');?></a>
+				<a class="button button--large button--arrow button--white" href="https://try.nextcloud.com" role="button" id="get-nextcloud-button"><?php echo $l->t('Try Nextcloud now');?></a>
 			</div>
 			<div class="col-md-6 topbanner">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/home/empty.png"> <!--empty image to ensure the viewport is big enough-->

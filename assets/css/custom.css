@@ -4577,6 +4577,12 @@ nav a {
           font-size: 16px; }
           .nav .container .right-buttons .nav__section .nav__label.top-navbar-svg {
             padding-left: 20px; }
+          .nav .container .right-buttons .nav__section .nav__label.button {
+            color: #0082c9;
+            padding-top: 7px;
+            margin: 0; }
+            .nav .container .right-buttons .nav__section .nav__label.button:hover {
+              color: white; }
         .nav .container .right-buttons .nav__section .nav__links {
           position: absolute;
           padding: 20px 40px 20px 30px;

@@ -485,6 +485,14 @@ nav a {
                     &.top-navbar-svg {
                         padding-left:20px;
                     }
+                    &.button {
+                        color: $nextcloud-blue;
+                        padding-top: 7px;
+                        margin: 0;
+                        &:hover {
+                            color: white;
+                        }
+                    }
                 }
 
                 .nav__links {
