@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/home.css?v=9" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/home.css?v=10" rel="stylesheet">
 <?php if(CONTRIBOOK) { require(dirname(__FILE__).'/../../../contribook/main/contribook/lib_contribook.php'); } ?>
 <script>
 	require(["require.config"], function() {
@@ -73,7 +73,7 @@
                 <div class="text">
                     <h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Hub');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('Nextcloud Hub is the first completely integrated on-premises content collaboration platform on the market, ready for a new generation of users who expect seamless online collaboration capabilities out of the box.');?></p>
-                    <a href="<?php echo home_url('hub') ?>" class="button button--blue"><?php echo $l->t('Learn more');?></a>
+                    <a href="<?php echo home_url('hub') ?>" class="button button--blue"><?php echo $l->t('More about Hub');?></a>
                 </div>
             </div>
         </div>

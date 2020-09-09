@@ -15,27 +15,20 @@
 }
 
 
-section {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  .container {
-  }
-}
-
 .separator{
   height: 40px;
   background: #f6f6f6;
 }
 
-.section--offer {
-	.container {
-	}
+.section--intro {
+    margin-top: 140px; // needed for second menu
 }
 
 .section--benefits {
-	padding-top: 0;
+	padding-top: 0; // due to margin-top above h2
 	h2 {
 		margin-top: 100px;
+        margin-bottom: 0px; // due to images having lots of white space above them
 	}
 	.ilustration {
 		max-width: 900px;

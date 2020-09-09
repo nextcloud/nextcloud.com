@@ -210,47 +210,61 @@
     }
 }
 
-.section--mainbenefits {
+.section--hub {
     position: relative;
-/*     position: relative; */
-    .banner-image--ccp {
-/*         background-image: url("../../img/headers/collaboration.jpg"); */
+    .icon-background {
         background-color: #0082c9;
         background-image: url('../../img/headers/pattern.svg');
-        background-image: url('../../img/headers/pattern.svg'), linear-gradient(40deg, #0082c9 0%, rgba(28,175,255,1) 100%);
+        background-image: url('../../img/logo/background.svg'), linear-gradient(40deg, #0082c9 0%, rgba(28,175,255,1) 100%);
         background-position: 50% 50%;
         background-repeat: repeat;
         background-size: 275px, contain;
         background-attachment: fixed; /* fix background gradient */
         min-height: 100%; /* fix sticky footer */
         height: auto;
-    }
-
-    .banner-image--issue {
-        background-image: url("../../img/headers/collaboration3.jpg");
-    }
-    .banner-image--solution {
-        background-image: url("../../img/headers/collaboration6.jpg");
-    }
-    .banner-image, .banner-image-inverted {
-        background-size: cover;
-        background-position: center center;
         @media (max-width: $break-small) {
-            display: none;
         }
     }
     .col-md-6 {
+        min-height: 1px;
+    }
+    .with-image {
+        position: relative;
+        .image {
+            position: absolute;
+            right: 25%;
+            height: 400px;
+            .img-responsive {
+                vertical-align: middle;
+                margin: 0;
+                height: 400px;
+                padding: 50px 0;
+            }
+        }
+    }
+
+    .text {
         background: white;
+        border-radius: 25px;
+        box-shadow: 3px 0 10px rgba(0, 0, 0,.3);
         h3 {
             font-size: 26px;
         }
 
-        padding: 30px;
+        padding: 10px 20px 20px 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
         p {
             padding-top: 0px;
         }
+        li.check {
+            list-style-image: url("../../img/enterprise/check.svg");
+            list-style-position: inside;
+            color: #555555;
+        }
     }
 }
+
 
 .section--benefits {
     .row {
