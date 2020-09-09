@@ -4425,7 +4425,7 @@ nav a {
       transition: 0.3s;
       will-change: opacity;
       z-index: -2;
-      top: 50px; }
+      top: 65px; }
       .nav .container .nav__bg-wrapper.is-visible {
         visibility: visible;
         opacity: 1; }
@@ -4532,7 +4532,8 @@ nav a {
           transform: translateX(-50%) translateZ(1px); }
           @media (min-width: 991px) {
             .nav .container .nav__sections .nav__section:hover .nav__links {
-              top: 50px; } }
+              top: 50px;
+              padding-top: 35px; } }
         .nav .container .nav__sections .nav__section .nav__label {
           display: inline-block;
           padding: 0 15px 5px 25px;
@@ -4583,7 +4584,8 @@ nav a {
                 text-decoration: none; }
                 @media (min-width: 991px) {
                   .nav .container .nav__sections .nav__section .nav__links .nav__item a:hover {
-                    top: 50px; } }
+                    top: 50px;
+                    padding-top: 35px; } }
             .nav .container .nav__sections .nav__section .nav__links .nav__item:not(:last-of-type) a {
               padding-bottom: 7px; }
           .nav .container .nav__sections .nav__section .nav__links ul .nav__item a {
@@ -4671,7 +4673,8 @@ nav a {
             /*                         margin-top: 30px; */ }
           @media (min-width: 991px) {
             .nav .container .right-buttons .nav__section:hover .nav__links {
-              top: 50px; } }
+              top: 50px;
+              padding-top: 35px; } }
         .nav .container .right-buttons .nav__section .nav__label {
           display: inline-block;
           padding: 0 15px 5px 15px;
@@ -4683,18 +4686,17 @@ nav a {
             padding-left: 20px; }
           @media (min-width: 993px) {
             .nav .container .right-buttons .nav__section .nav__label.button {
+              background-color: white;
               color: #0082c9;
               padding-top: 12px;
               margin: -10px 0 -10px 0;
-              z-index: -1;
               opacity: 1 !important;
-              font-weight: 400;
-              /*                         border: 1px solid white; */ }
+              font-weight: 400; }
               .nav .container .right-buttons .nav__section .nav__label.button:hover {
-                color: white;
-                background-color: #0082c9;
-                z-index: -1;
-                opacity: 1 !important; } }
+                border: 1px solid white;
+                color: white !important;
+                background-color: #0082c9 !important;
+                /*                                 background-color: red !important; */ } }
         .nav .container .right-buttons .nav__section .nav__links {
           position: absolute;
           padding: 20px 40px 20px 30px;
@@ -4706,7 +4708,8 @@ nav a {
           /* Keep language item a bit closer to the contact button */ }
           @media (min-width: 991px) {
             .nav .container .right-buttons .nav__section .nav__links {
-              top: 50px; } }
+              top: 50px;
+              padding-top: 35px; } }
           .nav .container .right-buttons .nav__section .nav__links .nav__item__language {
             padding: 2px 2px 2px 5px;
             margin: 0px; }
