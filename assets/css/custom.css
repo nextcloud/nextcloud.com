@@ -4451,7 +4451,7 @@ nav a {
             white-space: nowrap; }
             .nav .container .nav__sections .nav__section .nav__links .nav__item a {
               display: block;
-              padding: 5px 10px 0 0px;
+              padding: 10px 10px 0 0px;
               font-size: 16px;
               color: #555;
               /* logo in front of text */ }
@@ -4481,9 +4481,9 @@ nav a {
                   .nav .container .nav__sections .nav__section .nav__links .nav__item a:hover {
                     top: 50px; } }
             .nav .container .nav__sections .nav__section .nav__links .nav__item:not(:last-of-type) a {
-              padding-bottom: 5px; }
+              padding-bottom: 7px; }
           .nav .container .nav__sections .nav__section .nav__links ul .nav__item a {
-            padding: 3px 10px 0 0px;
+            padding: 7px 10px 0 0;
             font-size: 12px;
             /* logo in front of text */ }
             .nav .container .nav__sections .nav__section .nav__links ul .nav__item a .nav__logo {
@@ -4507,7 +4507,7 @@ nav a {
                 .nav .container .nav__sections .nav__section .nav__links ul .nav__item a:hover {
                   top: 50px; } }
           .nav .container .nav__sections .nav__section .nav__links ul .nav__item:not(:last-of-type) a {
-            padding-bottom: 2px; }
+            padding-bottom: 5px; }
     .nav .container .right-buttons {
       position: absolute;
       top: 0;

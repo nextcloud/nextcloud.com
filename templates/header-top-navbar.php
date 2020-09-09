@@ -78,6 +78,16 @@ require get_template_directory() . '/strings.php';
                             </a>
                         </li>
                         <li class="nav__item">
+                            <a href="<?php echo home_url('enterprise'); ?>">
+                                <div class="nav__logo">
+                                    <?php echo file_get_contents(get_template_directory()."/assets/img/icons/enterprise.svg");?>
+                                </div>
+                                <div class="nav__text">
+                                    <?php echo $l->t('<strong>Nextcloud Enterprise</strong><br><small>For mission-critical use</small>'); ?>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item">
                             <a href="<?php echo home_url('industries'); ?>">
                                 <div class="nav__logo">
                                     <?php echo file_get_contents(get_template_directory()."/assets/img/icons/industries.svg");?>
