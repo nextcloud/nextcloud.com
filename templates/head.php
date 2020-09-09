@@ -7,6 +7,7 @@
 <!-- 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet"> -->
 	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/custom.css?v=21" rel="stylesheet">
 
+
 	<?php wp_head(); ?>
 	<script type="text/javascript">
 		var templateUrl = '<?= get_bloginfo('template_url'); ?>';
