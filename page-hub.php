@@ -17,7 +17,7 @@
 		<div class="col-md-6 topheader">
 			<h1><?php echo $l->t('Nextcloud Hub');?></h1>
 			<h2><?php echo $l->t('A new generation of online collaboration');?><br /> <?php echo $l->t('that puts you in control');?><br/>
-			<a class="button button--blue" href="<?php echo home_url('install') ?>">Get started now</a></h2>
+			<a class="button button--blue" href="https://try.nextcloud.com"><?php echo $l->t('Try Hub now');?></a></h2>
 <!-- 			<p><a class="button button--blue" href="<?php echo home_url('install') ?>">Get started now</a></p> -->
 		</div>
 <!--		<div class="topsidebar">
@@ -106,16 +106,25 @@
 </section>
 
 
-<section class="section--mainbenefits">
-<div class="container-fluid banner-image--ccp">
+<section class="section--hub">
+<div class="container-fluid icon-background">
     <div class="container">
-        <div class="col-md-6">
-            <h3 class="section--paragraph__title"><?php echo $l->t('Why Nextcloud Hub');?></h3>
-            <p class="section--paragraph"><?php echo $l->t('Hosted on-premises');?></p>
-			<p class="section--paragraph"><?php echo $l->t('100% open source');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Very easy to use');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Integration in infrastructure');?></p>
-			<p class="section--paragraph"><?php echo $l->t('Security and encryption');?></p>
+        <div class="row">
+            <div class="col-md-6 with-image">
+                <div class="image">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/nextcloud-hub-logos-white.svg" alt="in action"/>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="text">
+                    <h3 class="section--paragraph__title"><?php echo $l->t('Why Nextcloud Hub');?></h3>
+                    <li class="check"><?php echo $l->t('Hosted on-premises');?></li>
+                    <li class="check"><?php echo $l->t('100% open source');?></li>
+                    <li class="check"><?php echo $l->t('Very easy to use');?></li>
+                    <li class="check"><?php echo $l->t('Integration in infrastructure');?></li>
+                    <li class="check"><?php echo $l->t('Security and encryption');?></li>
+                </div>
+            </div>
         </div>
     </div>
 </div>

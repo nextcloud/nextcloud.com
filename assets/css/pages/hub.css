@@ -180,14 +180,12 @@
       border-bottom: 1px solid gray;
       border-radius: 0; }
 
-.section--mainbenefits {
-  position: relative;
-  /*     position: relative; */ }
-  .section--mainbenefits .banner-image--ccp {
-    /*         background-image: url("../../img/headers/collaboration.jpg"); */
+.section--hub {
+  position: relative; }
+  .section--hub .icon-background {
     background-color: #0082c9;
     background-image: url("../../img/headers/pattern.svg");
-    background-image: url("../../img/headers/pattern.svg"), linear-gradient(40deg, #0082c9 0%, #1cafff 100%);
+    background-image: url("../../img/logo/background.svg"), linear-gradient(40deg, #0082c9 0%, #1cafff 100%);
     background-position: 50% 50%;
     background-repeat: repeat;
     background-size: 275px, contain;
@@ -196,23 +194,34 @@
     min-height: 100%;
     /* fix sticky footer */
     height: auto; }
-  .section--mainbenefits .banner-image--issue {
-    background-image: url("../../img/headers/collaboration3.jpg"); }
-  .section--mainbenefits .banner-image--solution {
-    background-image: url("../../img/headers/collaboration6.jpg"); }
-  .section--mainbenefits .banner-image, .section--mainbenefits .banner-image-inverted {
-    background-size: cover;
-    background-position: center center; }
-    @media (max-width: 768px) {
-      .section--mainbenefits .banner-image, .section--mainbenefits .banner-image-inverted {
-        display: none; } }
-  .section--mainbenefits .col-md-6 {
+  .section--hub .col-md-6 {
+    min-height: 1px; }
+  .section--hub .with-image {
+    position: relative; }
+    .section--hub .with-image .image {
+      position: absolute;
+      right: 25%;
+      height: 400px; }
+      .section--hub .with-image .image .img-responsive {
+        vertical-align: middle;
+        margin: 0;
+        height: 400px;
+        padding: 50px 0; }
+  .section--hub .text {
     background: white;
-    padding: 30px; }
-    .section--mainbenefits .col-md-6 h3 {
+    border-radius: 25px;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.3);
+    padding: 10px 20px 20px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    .section--hub .text h3 {
       font-size: 26px; }
-    .section--mainbenefits .col-md-6 p {
+    .section--hub .text p {
       padding-top: 0px; }
+    .section--hub .text li.check {
+      list-style-image: url("../../img/enterprise/check.svg");
+      list-style-position: inside;
+      color: #555555; }
 
 .section--benefits {
   padding-bottom: 0px; }
