@@ -354,8 +354,7 @@
 }
 
 .section--ionos {
-	margin: 0 0 0 0;
-    padding: 90px 0px 70px;
+	margin-top: 50px;
     background-color: #eee;
 	@media (min-width: $break-small) {
         .section--paragraph__title {
@@ -375,10 +374,7 @@
 
 .section--hub {
     position: relative;
-    height: 500px;
-    /*     position: relative; */
     .icon-background {
-        /*         background-image: url("../../img/headers/collaboration.jpg"); */
         background-color: #0082c9;
         background-image: url('../../img/headers/pattern.svg');
         background-image: url('../../img/logo/background.svg'), linear-gradient(40deg, #0082c9 0%, rgba(28,175,255,1) 100%);
@@ -389,7 +385,6 @@
         min-height: 100%; /* fix sticky footer */
         height: auto;
         @media (max-width: $break-small) {
-            /*             display: none; */
         }
     }
     .col-md-6 {
@@ -399,7 +394,7 @@
         position: relative;
         .image {
             position: absolute;
-            right: 0;
+            right: 25%;
             height: 400px;
             .img-responsive {
                 vertical-align: middle;
@@ -411,21 +406,18 @@
     }
 
     .text {
-/*         position: absolute; */
-/*         right: 0; */
-        margin-top: -1px;
         background: white;
-        height: 400px;
-/*         width: 50vw; */
+        border-radius: 25px;
+        box-shadow: 3px 0 10px rgba(0, 0, 0,.3);
         h3 {
             font-size: 26px;
-/*             width: 500px; */
         }
 
-        padding: 30px;
+        padding: 10px 20px 0 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
         p {
             padding-top: 0px;
-/*             width: 500px; */
         }
     }
 }
