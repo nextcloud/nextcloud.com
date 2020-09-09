@@ -36,18 +36,22 @@
 	</div>
 </section>
 
-<section class="section--offer">
+<section class="section--intro">
 	<div class="container">
-		<h1 class="section--heading-1 text-center"><?php echo $l->t('Scaleable, secure and tested');?></h1>
-		<h3 class="section--intro text-center"><?php echo $l->t('Nextcloud Enterprise gives professional organizations software optimized and tested for mission critical environments.');?></h3>
-		<h3 class="section--intro text-center"><?php echo $l->t('Nextcloud Enterprise is backed by a Nextcloud Subscription with the services and expertise needed for quick deployment and reliable service.');?></h3>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h1 class="text-center"><?php echo $l->t('Scaleable, secure and tested');?></h1>
+                    <p class="text-center"><?php echo $l->t('Nextcloud Enterprise gives professional organizations software optimized and tested for mission critical environments.');?></p>
+                    <p class="text-center"><?php echo $l->t('Nextcloud Enterprise is backed by a Nextcloud Subscription with the services and expertise needed for quick deployment and reliable service.');?></p>
+            </div>
+		</div>
 	</div>
 </section>
 
 <!-- <div class="separator"></div> -->
 
 <section class="section--benefits">
-<!--    <h1 class="section--heading-1 text-center"><?php echo $l->t('Nextcloud Enterprise Delivers');?></h1>
+<!--    <h1 class="text-center"><?php echo $l->t('Nextcloud Enterprise Delivers');?></h1>
     <p class="text-center"><?php echo $l->t('Your Nextcloud subscription enables you to successfully deploy and manage your Nextcloud instances, complimenting your IT resources and increasing the efficiency and reliability of your service.');?></p>-->
 	<div class="container">
         <div class="row">
@@ -255,7 +259,7 @@
 
 <section class="section--customers">
 <div class="container">
-    <h1 class="section--heading-1 text-center"><?php echo $l->t('Nextcloud in Education');?></h1>
+    <h1 class="text-center"><?php echo $l->t('Nextcloud in Education');?></h1>
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
             <p class="section--paragraph text-center"><?php echo $l->t('With the Nextcloud Education Edition a unique offering is available providing Moodle integration, Zenodo publishing, SAML authentication, collaboration features and more.');?></p>

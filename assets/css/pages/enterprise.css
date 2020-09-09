@@ -49,18 +49,18 @@
   .enterprise-hero-section .menu {
     margin-top: -100px; }
 
-section {
-  padding-top: 80px;
-  padding-bottom: 80px; }
-
 .separator {
   height: 40px;
   background: #f6f6f6; }
 
+.section--intro {
+  margin-top: 140px; }
+
 .section--benefits {
   padding-top: 0; }
   .section--benefits h2 {
-    margin-top: 100px; }
+    margin-top: 100px;
+    margin-bottom: 0px; }
   .section--benefits .ilustration {
     max-width: 900px;
     margin: 0 auto;
