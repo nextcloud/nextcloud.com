@@ -485,12 +485,21 @@ nav a {
                     &.top-navbar-svg {
                         padding-left:20px;
                     }
-                    &.button {
-                        color: $nextcloud-blue;
-                        padding-top: 7px;
-                        margin: 0;
-                        &:hover {
-                            color: white;
+                    @media (min-width: 993px) {
+                        &.button {
+                            color: $nextcloud-blue;
+                            padding-top: 12px;
+                            margin: -10px 0 -10px 0;
+                            z-index: -1;
+                            opacity: 1 !important;
+                            font-weight: 400;
+    /*                         border: 1px solid white; */
+                            &:hover {
+                                color: white;
+                                background-color: $nextcloud-blue;
+                                z-index: -1;
+                                opacity: 1 !important;
+                            }
                         }
                     }
                 }

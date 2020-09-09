@@ -4577,12 +4577,20 @@ nav a {
           font-size: 16px; }
           .nav .container .right-buttons .nav__section .nav__label.top-navbar-svg {
             padding-left: 20px; }
-          .nav .container .right-buttons .nav__section .nav__label.button {
-            color: #0082c9;
-            padding-top: 7px;
-            margin: 0; }
-            .nav .container .right-buttons .nav__section .nav__label.button:hover {
-              color: white; }
+          @media (min-width: 993px) {
+            .nav .container .right-buttons .nav__section .nav__label.button {
+              color: #0082c9;
+              padding-top: 12px;
+              margin: -10px 0 -10px 0;
+              z-index: -1;
+              opacity: 1 !important;
+              font-weight: 400;
+              /*                         border: 1px solid white; */ }
+              .nav .container .right-buttons .nav__section .nav__label.button:hover {
+                color: white;
+                background-color: #0082c9;
+                z-index: -1;
+                opacity: 1 !important; } }
         .nav .container .right-buttons .nav__section .nav__links {
           position: absolute;
           padding: 20px 40px 20px 30px;
