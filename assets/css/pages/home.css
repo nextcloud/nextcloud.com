@@ -79,7 +79,7 @@
   .jumbotron p {
     margin-top: 50px; }
   .jumbotron .topbanner {
-    background: url(../../img/home/top-banner@2x.png) bottom 0 right 0/contain no-repeat;
+    background: url(../../img/home/top-homeimage@2x.png) bottom 0 right 0/contain no-repeat;
     width: auto;
     height: auto;
     max-width: 55vw;
@@ -95,11 +95,11 @@
     transform: translateY(50px); }
     @media (max-width: 768px) {
       .jumbotron .topbanner {
-        background-image: url("../../img/home/top-banner@2x_mobile.png");
+        background-image: url("../../img/home/top-homeimage@2x_mobile.png");
         padding-top: 100%; } }
     @media (min-width: 768px) and (max-width: 991px) {
       .jumbotron .topbanner {
-        background-image: url("../../img/home/top-banner@2x_mobile.png");
+        background-image: url("../../img/home/top-homeimage@2x_mobile.png");
         padding-top: 55%; } }
   .jumbotron .topbanner img {
     width: 100%;
