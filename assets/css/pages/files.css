@@ -34,9 +34,6 @@
   background-position: center;
   background-size: cover; }
 
-section {
-  margin: 50px 0; }
-
 .section--intro p {
   margin-top: 20px; }
 .section--intro .video .video-js {
@@ -108,10 +105,9 @@ section {
   text-align: center;
   padding-top: 20%; }
 
-.section--getstarted {
-  margin-bottom: 0px;
-  padding-bottom: 0; }
-  .section--getstarted a {
+.section--getstarted.quote {
+  margin: 0 !important; }
+  .section--getstarted.quote a {
     margin: 50px; }
 
 footer {

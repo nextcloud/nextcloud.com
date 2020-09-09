@@ -3,7 +3,7 @@
 
 
 .second-menu {
-        margin-bottom: 150px !important;
+/*         margin-bottom: 150px !important; */
 	.menu {
 		background: #fbfbfb;
 		border-top: solid 1px #e4e4e4;
@@ -52,16 +52,17 @@
 
 				&:focus {
 					text-decoration: none;
+                    color: black;
 				}
 
 				&.active {
 					text-decoration: none;
-					color: white;
+					color: $nextcloud-blue;
 				}
 
 				&:hover {
 					text-decoration: none;
-					color: white;
+					color: $nextcloud-blue;
 				}
 			}
 

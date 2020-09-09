@@ -8,10 +8,6 @@
 	background-size: cover;
 }
 
-section {
-    margin: 50px 0;
-}
-
 .section--intro {
     p {
         margin-top: 20px;
@@ -127,9 +123,8 @@ section {
 	}
 }
 
-.section--getstarted {
-	margin-bottom: 0px;
-    padding-bottom: 0;
+.section--getstarted.quote {
+	margin: 0 !important;
 	a {
 		margin: 50px;
 	}

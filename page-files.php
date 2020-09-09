@@ -273,8 +273,8 @@
 <?php require get_template_directory().'/verticals.php';?>
 
 
-<section class="section--getstarted">
-    <div class="container-fluid quote">
+<section class="section--getstarted quote">
+    <div class="container-fluid">
         <h2 class="text-center"><?php echo $l->t('Get started now');?></h2>
         <p class="section--paragraph section--text--center"><?php echo $l->t('Try out Nextcloud server for FREE or get a quote');?></p>
         <div class="container">
