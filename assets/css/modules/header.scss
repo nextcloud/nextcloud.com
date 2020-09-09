@@ -299,7 +299,7 @@ nav a {
 
                         a {
                             display: block;
-                            padding: 5px 10px 0 0px;
+                            padding: 10px 10px 0 0px;
                             font-size: 16px;
                             color: $medium-dark;
 							/* logo in front of text */
@@ -338,13 +338,13 @@ nav a {
 
                         &:not(:last-of-type) {
                             a {
-                                padding-bottom: 5px;
+                                padding-bottom: 7px;
                             }
                         }
                     }
                     ul .nav__item {
 						a {
-                            padding: 3px 10px 0 0px;
+                            padding: 7px 10px 0 0;
                             font-size: 12px;
 							/* logo in front of text */
                             .nav__logo {
@@ -375,7 +375,7 @@ nav a {
                         }
 						&:not(:last-of-type) {
                             a {
-                                padding-bottom: 2px;
+                                padding-bottom: 5px;
                             }
                         }
 					}
