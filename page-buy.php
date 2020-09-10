@@ -48,25 +48,27 @@ imagedestroy($image);
 
 <div class="container">
 	<h2><?php echo $l->t('Nextcloud helps you be successful.');?></h2>
-	<p><?php echo $l->t('You run your own Nextcloud server, keeping your data in-house and under control. We make sure it works.');?></p>
+	<p><?php echo $l->t('You control your Nextcloud server, keeping your data secure. We make sure it works reliably, at all times.');?></p>
 	<p><?php echo $l->t('All Nextcloud customers get access to our Nextcloud Enterprise build which is pre-configured, optimized and hardened for the special needs of large scale, production-critical enterprise deployments.');?></p>
 	<div class="contact">
 		<h3><?php echo $l->t('Contact us for more information and a quote fitting your use case.');?></h3>
 		<p><?php echo $l->t('Your answers to the following questions will help us better understand
-your project.');?></p>
+your project and give a realistic quote.');?><br /> <?php echo $l->t('Mandatory questions are marked with a * but please note that the more information we have, the less emails we have to exchange before we can give you a quote! Our prices heavily depend on support level, number of users and additonal services like Talk, online office and more.');?></p>
 		<form name="sales" method="post" action="../salessubmit/">
-				<p><label for="yourname"><?php echo $l->t('Your name');?><br>
+				<p><label for="yourname"><?php echo $l->t('Your name');?>*<br>
 				<input  type="text" name="yourname" maxlength="60" size="60"></label></p>
-				<p><label for="email">Email<br>
+				<p><label for="email">Email*<br>
 				<input  type="text" name="email" maxlength="80" size="60"></label></p>
-				<p><label for="organization"><?php echo $l->t('Organization<br>
-				<input  type="text" name="organization" maxlength="100" size="60" placeholder="Name of your organization">');?></label></p>
-				<p><label for="phone"><?php echo $l->t('Phone number<br>
-				<input  type="text" name="phone" maxlength="40" size="60" placeholder="Please include country code">');?></label></p>
-				<p><label for="users"><?php echo $l->t('Number of users over next 12 months (estimation)<br>
-				<input  type="text" name="users" maxlength="80" size="60" placeholder="Our pricing starts at 50 users.">');?></label></p>
-				<p><label for="SLA"><?php echo $l->t('What kind of response time do you require?<br>
-				<textarea name="SLA" maxlength="120" cols="70" rows="2" placeholder="24/7, business hours, within 3 days, etc">');?></textarea></label></p>
+				<p><label for="organization"><?php echo $l->t('Organization');?>*<br>
+				<input  type="text" name="organization" maxlength="100" size="60" placeholder="<?php echo $l->t('Name of your organization');?>"></label></p>
+				<p><label for="role"><?php echo $l->t('Your role');?>*<br>
+				<input  type="text" name="role" maxlength="100" size="60" placeholder="<?php echo $l->t('Your job title');?>"></label></p>
+				<p><label for="phone"><?php echo $l->t('Phone number');?>*<br>
+				<input  type="text" name="phone" maxlength="40" size="60" placeholder="<?php echo $l->t('Please include country code (00 or +XX)');?>"></label></p>
+				<p><label for="users"><?php echo $l->t('Number of users over next 12 months (estimation)');?>*<br>
+				<input  type="text" name="users" maxlength="80" size="60" placeholder="<?php echo $l->t('Under 50 users we might recommend one of our qualified partners.');?>"></label></p>
+				<p><label for="SLA"><?php echo $l->t('What kind of response time do you require?');?><br>
+				<textarea name="SLA" maxlength="120" cols="70" rows="2" placeholder="<?php echo $l->t('24/7, business hours, within 3 days, etc');?>"></textarea></label></p>
 				<div class="row">
                     <h3><?php echo $l->t('Your needs');?></h3>
                     <div class="col-md-6">
@@ -94,6 +96,13 @@ your project.');?></p>
                             <option value="yes"><?php echo $l->t('Yes');?></option>
                             <option value="no"><?php echo $l->t('No');?></option>
                         </select></label></p>
+                        <p><label for="partner"><?php echo $l->t('Can we allow one of our certified local partners reach out to you with an offer if we feel they can service you more appropriately?');?>* <br />
+                        <select name="partner">
+                            <option value="yes"><?php echo $l->t('Yes');?></option>
+                            <option value="no"><?php echo $l->t('No');?></option>
+                        </select></label><br />
+                        <a href="<?php echo home_url('partners') ?>" class="hyperlink"><?php echo $l->t('See a list of our partners here.');?></a>
+                        </p>
                     </div>
                     <div class="col-md-6">
                         <p><label for="collabora"><?php echo $l->t('Would you be interested in editing office documents online?');?><br>
@@ -124,15 +133,17 @@ your project.');?></p>
                         <input  type="text" name="LTS" maxlength="80" size="60" placeholder="<?php echo $l->t('If yes, how many years?');?>"></label></p>
                     </div>
                 </div>
-				<p><label for="comments"><?php echo $l->t('Your message');?><br />
+				<p><label for="comments"><?php echo $l->t('Your message');?>*<br />
 				<textarea name="comments" maxlength="2000" cols="80" rows="8" placeholder="<?php echo $l->t('Let us know how we can help you!');?>"></textarea></label></p>
+				<p><input type="checkbox" id="gdprcheck" name="gdprcheck" value="gdprchecked"><label for="gdprcheck"> <?php echo $l->t('I agree with the Nextcloud privacy policy and understand my data will be processed so Nextcloud can reach out to me.');?>*<br /></p>
 				<td colspan="2" style="text-align:center">
 				<div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITEKEY; ?>"></div>
-				<p><label for="captcha"><?php echo $l->t('Please calculate the following sum');?> <span></span><br>
+				<p><label for="captcha"><?php echo $l->t('Please calculate the following sum');?>* <span></span><br>
 				<img src="data:image/png;base64,<?php echo base64_encode($imagestring); ?>"><br>
 				<input  type="text" name="captcha" maxlength="20" size="20" placeholder="13"></label></p>
 				<input  type="hidden" name="checksum" value="<?php echo $checksum;?>">
 				<input type="submit" value=" Submit inquiry " class="button button--blue">
 		</form>
+		<p><?php echo $l->t('We respect your privacy! If you fill in this form, we will reach out to send you an offer and might also contact you with relevant information like a local event or workshop we are organizing. We never sell your data - any mails you get will be from us, or, if you agreed to be brought in contact with them, one of our Nextcloud service partners.');?> <a href="<?php echo home_url('privacy') ?>" class="hyperlink"><?php echo $l->t('See our privacy policy here.');?></a></p>
 	</div>
 </div>

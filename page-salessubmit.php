@@ -25,7 +25,8 @@ if(isset($_POST['email'])) {
             <section class="section--whitepaper">
                 <div class="container text-center">
                     <h3>Sorry, there was an error with the form you submitted</h3>
-                    <p>The error(s) detected:<br/>
+                    <p>Did you fill in all mandatory fields?<br />
+                    The error(s) detected include:<br/>
                         <?php
                         echo $error . "<br />";
                         ?>
@@ -42,15 +43,17 @@ if(isset($_POST['email'])) {
         !isset($_POST['organization']) ||
         !isset($_POST['phone']) ||
         !isset($_POST['users']) ||
+        !isset($_POST['role']) ||
         !isset($_POST['comments']) ||
         !isset($_POST['checksum']) ||
         !isset($_POST['captcha'])) {
-        died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all fields?'); }
+        died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all mandatory fields?'); }
     $yourname = $_POST['yourname']; // required
     $organization= $_POST['organization']; // required
     $phone = $_POST['phone']; // required
     $email_from = $_POST['email']; // required
     $users = $_POST['users']; // required
+    $role = $_POST['role']; // required
     $comments = $_POST['comments']; // required
     $SLA = $_POST['SLA'];
     $LTS = $_POST['LTS'];
@@ -62,7 +65,9 @@ if(isset($_POST['email'])) {
     $webconferencing = $_POST['webconferencing'];
     $outlook = $_POST['outlook'];
     $branding = $_POST['branding'];
+    $partner = $_POST['partner'];
     $checksum = $_POST['checksum']; // required
+    $gdprcheck = $_POST['gdprcheck'];
     $captcha = $_POST['captcha'];
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/';
@@ -72,6 +77,9 @@ if(isset($_POST['email'])) {
     $string_exp = "/^[A-Za-z .'-]+$/";
   if(!preg_match($string_exp,$yourname)) {
     $error_message .= 'The name you entered does not appear to be valid.<br />';
+  }
+  if(!($gdprcheck=="gdprchecked")) {
+    $error_message .= 'You did not agree with our privacy policy so we would not be allowed to read and reply to your inquiry.<br />';
   }
   if (strlen($checksum) !== 75 || !strpos($checksum, ':')) {
         $error_message .= 'The checksum is not valid.<br />';
@@ -126,6 +134,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Phone number: ".clean_string($phone)."\n";
     $email_message .= "Organization: ".clean_string($organization)."\n";
+    $email_message .= "Role: ".clean_string($role)."\n";
     $email_message .= "How many users do you expect in 12 months? ".clean_string($users)."\n";
     $email_message .= "What SLA do you expect? ".clean_string($SLA)."\n";
     $email_message .= "What maintenance lifecycle do you need? ".clean_string($LTS)."\n";
@@ -137,6 +146,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Would you be interested in secure webconferencing and audio and video calls? ".clean_string($webconferencing)."\n";
     $email_message .= "Would you be interested in our Secure Sharing add-in for Outlook? ".clean_string($outlook)."\n";
     $email_message .= "Would you be interested in branded clients? ".clean_string($branding)."\n";
+    $email_message .= "Can we hand over your data to a partner? ".clean_string($partner)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
 
 // create email headers
