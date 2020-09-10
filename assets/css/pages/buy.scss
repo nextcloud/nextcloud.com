@@ -5,12 +5,13 @@
 
 .buy-background {
   background-image: url("../../img/headers/enterprise.jpg");
-  background-position: bottom 0 right 0;
-  min-height: 700px;
+  background-position: center 0 right 0;
+  min-height: 400px;
   .menu {
       margin-top: -100px;
   }
 }
+
 
 .contact {
 	margin-top: 50px;
@@ -21,4 +22,15 @@
 	margin-top: 90px;
 	margin-bottom: 20px;
 	text-align: left;
+}
+
+.section--welcome {
+    padding-top: 150px;
+}
+
+.section--contact-form {
+    padding-top: 0px;
+    p {
+            margin-bottom: 16px;
+        }
 }
