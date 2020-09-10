@@ -39,6 +39,7 @@ if(isset($_POST['email'])) {
     if(!isset($_POST['yourname']) ||
         !isset($_POST['email']) ||
         !isset($_POST['organization']) ||
+        !isset($_POST['role']) ||
         !isset($_POST['phone']) ||
         !isset($_POST['comments']) ||
         !isset($_POST['checksum']) ||
@@ -46,10 +47,12 @@ if(isset($_POST['email'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all fields?'); }
     $yourname = $_POST['yourname']; // required
     $organization= $_POST['organization']; // required
+    $role = $_POST['role']; // required
     $phone= $_POST['phone']; // required
     $email_from = $_POST['email']; // required
     $comments = $_POST['comments']; // required
     $checksum = $_POST['checksum']; // required
+    $gdprcheck = $_POST['gdprcheck'];
     $captcha = $_POST['captcha'];
     $error_message = "";
     if (strlen($checksum) !== 75 || !strpos($checksum, ':')) {
@@ -78,6 +81,9 @@ if(isset($_POST['email'])) {
 //     }
   if(strlen($comments) < 8) {
     $error_message .= 'Your input is pretty short! <br />';
+  }
+    if(!($gdprcheck=="gdprchecked")) {
+    $error_message .= 'You did not agree with our privacy policy so we would not be allowed to read and reply to your inquiry.<br />';
   }
 //   if(RECAPTCHA_SECRET !== '' && isset($_POST['g-recaptcha-response'])) {
 //     $url = 'https://www.google.com/recaptcha/api/siteverify';
@@ -110,6 +116,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Organization: ".clean_string($organization)."\n";
+    $email_message .= "Role: ".clean_string($role)."\n";
     $email_message .= "Phone: ".clean_string($phone)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
 // create email headers
