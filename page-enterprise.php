@@ -31,6 +31,7 @@
 			<a class="button button--blue" href="<?php echo home_url('faq') ?>"><?php echo $l->t('FAQ');?></a>
 			<a class="button button--blue" href="<?php echo home_url('enterprise/order') ?>"><?php echo $l->t('order online');?></a>
 			<a class="button button--blue" href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('get a quote');?></a>
+			<a class="button button--blue" href="<?php echo home_url('trial') ?>"><?php echo $l->t('Start a trial');?></a>
 			<a class="button button--blue" href="<?php echo home_url('pricing') ?>"><?php echo $l->t('pricing plans');?></a>
 		</div>
 	</div>
