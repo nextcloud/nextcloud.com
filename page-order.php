@@ -50,12 +50,22 @@ ob_end_clean();
 imagedestroy($image);
 ?>
 
+<section class="section--welcome">
 <div class="container">
-	<h2><?php echo $l->t('Nextcloud helps you be successful');?></h2>
-	<p><?php echo $l->t('You run your own Nextcloud server, keeping your data in-house and under control. Nextcloud Enterprise is the solution you need. Nextcloud Enterprise is software optimized and tested for mission critical environments and gives you priority access to security and stability fixes. Nextcloud Enterprise is backed by a Nextcloud Subscription with the services and expertise needed for quick deployment and reliable service.');?></p>
-	<?php echo $l->t('You will be able to contact our support team for a speedy answer to questions and fixes for problems you encounter; you can use our');?> <a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('migration support</a> or add additional capabilities with our');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>">Outlook add-in</a> <?php echo $l->t('or');?> <a class="hyperlink" href="<?php echo home_url('collaboraonline') ?>">Collabora</a>  <?php echo $l->t('or');?> <a class="hyperlink" href="<?php echo home_url('onlyoffice') ?>">ONLYOFFICE</a> Online Office</a> <?php echo $l->t('or');?>. <?php echo $l->t('Learn about');?> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('what Nextcloud Enterprise offers here</a> and see answers in our');?> <a class="hyperlink" href="<?php echo home_url('faq') ?>"><?php echo $l->t('Frequently Asked Questions</a>');?>.</p>
-	<p><?php echo $l->t('Using this form, you can order a Basic or Standard Subscription for up to 250 users. If you need more users, other options like branding or a Premium Subscription,');?> <a class="hyperlink" href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('please contact sales for a quote.</a>');?></p>
-	<div class="contact">
+    <div class="row">
+        <div class="col-md-12">
+            <h2><?php echo $l->t('Nextcloud helps you be successful');?></h2>
+            <p><?php echo $l->t('You run your own Nextcloud server, keeping your data in-house and under control. Nextcloud Enterprise is the solution you need. Nextcloud Enterprise is software optimized and tested for mission critical environments and gives you priority access to security and stability fixes. Nextcloud Enterprise is backed by a Nextcloud Subscription with the services and expertise needed for quick deployment and reliable service.');?></p>
+            <?php echo $l->t('You will be able to contact our support team for a speedy answer to questions and fixes for problems you encounter; you can use our');?> <a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('migration support</a> or add additional capabilities with our');?> <a class="hyperlink" href="<?php echo home_url('outlook') ?>">Outlook add-in</a> <?php echo $l->t('or');?> <a class="hyperlink" href="<?php echo home_url('collaboraonline') ?>">Collabora</a>  <?php echo $l->t('or');?> <a class="hyperlink" href="<?php echo home_url('onlyoffice') ?>">ONLYOFFICE</a> Online Office</a> <?php echo $l->t('or');?>. <?php echo $l->t('Learn about');?> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('what Nextcloud Enterprise offers here</a> and see answers in our');?> <a class="hyperlink" href="<?php echo home_url('faq') ?>"><?php echo $l->t('Frequently Asked Questions</a>');?>.</p>
+            <p><?php echo $l->t('Using this form, you can order a Basic or Standard Subscription for up to 250 users. If you need more users, other options like branding or a Premium Subscription,');?> <a class="hyperlink" href="<?php echo home_url('enterprise/buy') ?>"><?php echo $l->t('please contact sales for a quote.</a>');?></p>
+        </div>
+	</div>
+</div>
+</section>
+<section class="section--order-form">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
 		<h3><?php echo $l->t('Fill in the form below to receive a contract and invoice from us and get started!');?></h3>
 		<hr>
 		<form id="orderform" name="orderform" method="post" action="../ordersubmit/">
@@ -156,7 +166,7 @@ imagedestroy($image);
 		</form>
 	</div>
 </div>
-
+</section>
 <script>
 		// if we need to do something when the user number is changed...
 		function setUsers() {

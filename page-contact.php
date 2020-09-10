@@ -13,7 +13,7 @@
     </div>
 </div>
 
-<section class="content">
+<section class="section--welcome">
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
@@ -28,7 +28,7 @@
             <p><?php echo $l->t('If you have a question related to an user account signed through <strong>Simple Signup</strong>, please contact the provider where you signed up. Nextcloud has NO information from you, not even what provider you are with, so there is nothing we can do to help you.');?></p>
         </div>
     </div>
-
+</div>
     <?php
 
     $int1 = random_int(0, 15);
@@ -49,6 +49,7 @@
     imagedestroy($image);
     ?>
 
+<div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <form name="contact" method="post" action="contactsubmit/">
