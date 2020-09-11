@@ -113,7 +113,7 @@
         <div class="col-md-6 col-md-offset-3">
             <h2 class="text-center"><?php echo $l->t('Get started now!');?></h2>
             <p class="text-center"><?php echo $l->t('We are dedicated to your success as Nextcloud customer. Make sure you have the best solution.');?></p>
-            <p class="text-center"><a class="button button--white button--arrow" href="<?php echo home_url('buy') ?>"><?php echo $l->t('Contact us');?></a></p>
+            <p class="text-center"><a class="button button--white button--arrow" href="<?php echo home_url('trial') ?>"><?php echo $l->t('Test Nextcloud Enterprise');?></a></p>
         </div>
     </div>
 </div>
