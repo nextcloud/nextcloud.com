@@ -4,7 +4,7 @@
 		require(["pages/enterprise"])
 	});
 </script>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/enterprise.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/enterprise.css?v=1" rel="stylesheet">
 </head>
 <section class="enterprise-hero-section second-menu">
 	<div class="container-fluid background">
