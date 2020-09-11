@@ -41,10 +41,7 @@ if(isset($_POST['email'])) {
     if(!isset($_POST['yourname']) ||
         !isset($_POST['email']) ||
         !isset($_POST['organization']) ||
-        !isset($_POST['phone']) ||
         !isset($_POST['users']) ||
-        !isset($_POST['role']) ||
-        !isset($_POST['comments']) ||
         !isset($_POST['checksum']) ||
         !isset($_POST['captcha'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all mandatory fields?'); }
@@ -53,18 +50,14 @@ if(isset($_POST['email'])) {
     $phone = $_POST['phone']; // required
     $email_from = $_POST['email']; // required
     $users = $_POST['users']; // required
-    $role = $_POST['role']; // required
-    $comments = $_POST['comments']; // required
-    $SLA = $_POST['SLA'];
-    $LTS = $_POST['LTS'];
-    $needphonesupport = $_POST['need-phone-support'];
-    $needsupportmanager = $_POST['need-support-manager'];
+    $role = $_POST['role'];
+    $comments = $_POST['comments'];
     $needsetuphelp = $_POST['need-setup-help'];
+    $hostedoronprem = $_POST['hosted-or-onprem'];
     $clustering = $_POST['clustering'];
     $collabora = $_POST['collabora'];
     $webconferencing = $_POST['webconferencing'];
     $outlook = $_POST['outlook'];
-    $branding = $_POST['branding'];
     $partner = $_POST['partner'];
     $checksum = $_POST['checksum']; // required
     $gdprcheck = $_POST['gdprcheck'];
@@ -127,25 +120,21 @@ if(isset($_POST['email'])) {
         }
 // the app review mailing list address
 //     $email_to = "sales@nextcloud.com";
-    $email_message = "Quote request form details below.\n\n";
+    $email_message = "Trial request form details below.\n\n";
     $email_to = "sales@nextcloud.com";
-	$email_subject = "Nextcloud Enterprise Subscription: ".clean_string($organization);
+	$email_subject = "Nextcloud Enterprise Trial: ".clean_string($organization);
     $email_message .= "Name: ".clean_string($yourname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Phone number: ".clean_string($phone)."\n";
     $email_message .= "Organization: ".clean_string($organization)."\n";
     $email_message .= "Role: ".clean_string($role)."\n";
     $email_message .= "How many users do you expect in 12 months? ".clean_string($users)."\n";
-    $email_message .= "What SLA do you expect? ".clean_string($SLA)."\n";
-    $email_message .= "What maintenance lifecycle do you need? ".clean_string($LTS)."\n";
-    $email_message .= "Do you require phone support? ".clean_string($needphonesupport)."\n";
-    $email_message .= "Would you be interested in a dedicated Support Account Manager? ".clean_string($needsupportmanager)."\n";
     $email_message .= "Would you require assistance to set up the service or to design/review the architecture? ".clean_string($needsetuphelp)."\n";
+    $email_message .= "Do you need a hosted or on-premises trial? ".clean_string($hostedoronprem)."\n";
     $email_message .= "Are you using any sort of clustering for the application, database or storage? ".clean_string($clustering)."\n";
     $email_message .= "Would you be interested in editing office documents online? ".clean_string($collabora)."\n";
     $email_message .= "Would you be interested in secure webconferencing and audio and video calls? ".clean_string($webconferencing)."\n";
     $email_message .= "Would you be interested in our Secure Sharing add-in for Outlook? ".clean_string($outlook)."\n";
-    $email_message .= "Would you be interested in branded clients? ".clean_string($branding)."\n";
     $email_message .= "Can we hand over your data to a partner? ".clean_string($partner)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
 
