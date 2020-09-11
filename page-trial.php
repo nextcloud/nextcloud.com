@@ -51,7 +51,7 @@ imagedestroy($image);
     <div class="row">
         <div class="col-md-12">
             <h2><?php echo $l->t('See how Nextcloud works for you');?></h2>
-            <p><?php echo $l->t('To determine if Nextcloud is fit for your use case, we offer trails of Nextcloud Enterprise on a hosted instance as well as trial licenses for testing on your own infrastructure.');?></p>
+            <p><?php echo $l->t('To determine if Nextcloud is fit for your use case, we offer trials of Nextcloud Enterprise on a hosted instance as well as trial licenses for testing on your own infrastructure.');?></p>
             <p><?php echo $l->t('Our Nextcloud Enterprise build is pre-configured, optimized and hardened for the special needs of large scale, production-critical enterprise deployments. Backed by our subscription and support, it provides you with the best possible Nextcloud experience, ');?></p>
         </div>
 	</div>
@@ -70,7 +70,7 @@ imagedestroy($image);
             <div class="col-md-12">
                 <p><label for="yourname"><?php echo $l->t('Your name');?>*<br>
                 <input  type="text" name="yourname" maxlength="60" size="60"></label></p>
-                <p><label for="email">Email*<br>
+                <p><label for="email">Corporate email*<br>
                 <input  type="text" name="email" maxlength="80" size="60"></label></p>
                 <p><label for="organization"><?php echo $l->t('Organization');?>*<br>
                 <input  type="text" name="organization" maxlength="100" size="60" placeholder="<?php echo $l->t('Name of your organization');?>"></label></p>

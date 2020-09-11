@@ -55,6 +55,7 @@
             <form name="contact" method="post" action="contactsubmit/">
             <div class="row">
                 <div class="col-md-8">
+                <?php echo $l->t('* mandatory question');?>
                     <p><label for="yourname"><?php echo $l->t('Your name');?>*<br>
                     <input  type="text" name="yourname" maxlength="60" size="60"></label></p>
                     <p><label for="email">Email*<br>
@@ -65,10 +66,10 @@
                     <input  type="text" name="role" maxlength="100" size="60" placeholder="<?php echo $l->t('Your job title');?>"></label></p>
                     <p><label for="phone"><?php echo $l->t('Phone number');?>*<br>
                     <input  type="text" name="phone" maxlength="40" size="60" placeholder="<?php echo $l->t('Please include country code (00 or +XX)');?>"></label></p>
-                    <p><label for="comments"><?php echo $l->t('Your message');?><br />
+                    <p><label for="comments"><?php echo $l->t('Your message');?>*<br />
                     <textarea  name="comments" maxlength="2000" cols="80" rows="8" placeholder="<?php echo $l->t('Let us know how we can help you!');?>"></textarea></label></p>
                     <p><input type="checkbox" id="gdprcheck" name="gdprcheck" value="gdprchecked"><label for="gdprcheck"> <?php echo $l->t('I agree with the Nextcloud privacy policy and understand my data will be processed so Nextcloud can reach out to me.');?>*<br /></p>
-                    <p><label for="captcha"><?php echo $l->t('Please calculate the following sum');?> <span></span><br>
+                    <p><label for="captcha"><?php echo $l->t('Please calculate the following sum');?>* <span></span><br>
                     <img src="data:image/png;base64,<?php echo base64_encode($imagestring); ?>"><br>
                     <input  type="text" name="captcha" maxlength="20" size="20" placeholder="13"></label></p>
                     <input  type="hidden" name="checksum" value="<?php echo $checksum;?>">
