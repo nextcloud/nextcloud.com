@@ -72,9 +72,10 @@ if(isset($_POST['email'])) {
     $error_message .= 'The email address you entered does not appear to be valid.<br />';
   }
     $string_exp = "/^[A-Za-z .'-]+$/";
-  if(!preg_match($string_exp,$yourname)) {
-    $error_message .= 'The name you entered does not appear to be valid.<br />';
-  }
+// remove checking name
+//   if(!preg_match($string_exp,$yourname)) {
+//     $error_message .= 'The name you entered does not appear to be valid.<br />';
+//   }
     $string_exp = "/^((\+|00)\d{1,3})?(\d+|\s+)+\d$/";
 //   if(!preg_match($string_exp,$phone)) {   -- remove checking on phone number, it's been a pita.
 //     $error_message .= 'The phone number you entered does not appear to be valid, did you add a country code like +49?<br />';

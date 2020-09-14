@@ -68,9 +68,10 @@ if(isset($_POST['email'])) {
     $error_message .= 'The email address you entered does not appear to be valid.<br />';
   }
     $string_exp = "/^[A-Za-z .'-]+$/";
-  if(!preg_match($string_exp,$yourname)) {
-    $error_message .= 'The name you entered does not appear to be valid.<br />';
-  }
+// remove checking name
+//   if(!preg_match($string_exp,$yourname)) {
+//     $error_message .= 'The name you entered does not appear to be valid.<br />';
+//   }
   if(!($gdprcheck=="gdprchecked")) {
     $error_message .= 'You did not agree with our privacy policy so we would not be allowed to read and reply to your inquiry.<br />';
   }
