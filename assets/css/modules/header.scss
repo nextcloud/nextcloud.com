@@ -132,7 +132,7 @@ nav a {
             transition: 0.3s;
             will-change: opacity;
             z-index: -2;
-            top: 50px;
+            top: 65px;
 
             &.is-visible {
                 visibility: visible;
@@ -269,6 +269,7 @@ nav a {
                         transform:translateX(-50%) translateZ(1px);
 						@media (min-width: $break-big) {
 							top: 50px;
+                            padding-top: 35px;
 						}
                     }
                 }
@@ -332,6 +333,7 @@ nav a {
                                 text-decoration: none;
 								@media (min-width: $break-big) {
 									top: 50px;
+                                    padding-top: 35px;
 								}
                             }
                         }
@@ -470,6 +472,7 @@ nav a {
                         transform:translateX(-50%) translateZ(1px);
 						@media (min-width: $break-big) {
 							top: 50px;
+                            padding-top: 35px;
 						}
                     }
                 }
@@ -485,6 +488,22 @@ nav a {
                     &.top-navbar-svg {
                         padding-left:20px;
                     }
+                    @media (min-width: 993px) {
+                        &.button {
+                            background-color: white;
+                            color: $nextcloud-blue;
+                            padding-top: 12px;
+                            margin: -10px 0 -10px 0;
+                            opacity: 1 !important;
+                            font-weight: 400;
+                            &:hover {
+                                border: 1px solid white;
+                                color: white !important;
+                                background-color: $nextcloud-blue !important;
+/*                                 background-color: red !important; */
+                            }
+                        }
+                    }
                 }
 
                 .nav__links {
@@ -497,6 +516,7 @@ nav a {
                     transition-delay: 0.1s;
 					@media (min-width: $break-big) {
 							top: 50px;
+                            padding-top: 35px;
 						}
 					/* Keep language item a bit closer to the contact button */
                     .nav__item__language {
