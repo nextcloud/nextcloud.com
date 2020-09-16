@@ -4520,6 +4520,10 @@ nav a {
       .nav .container .nav__sections .nav__section {
         padding: 15px 0 15px 0;
         position: relative; }
+        @media (min-width: 991px) {
+          .nav .container .nav__sections .nav__section .nav__links {
+            top: 50px;
+            padding-top: 35px; } }
         .nav .container .nav__sections .nav__section:hover .nav__label {
           opacity: 0.6;
           cursor: default;
@@ -4530,10 +4534,6 @@ nav a {
           position: absolute;
           left: 50%;
           transform: translateX(-50%) translateZ(1px); }
-          @media (min-width: 991px) {
-            .nav .container .nav__sections .nav__section:hover .nav__links {
-              top: 50px;
-              padding-top: 35px; } }
         .nav .container .nav__sections .nav__section .nav__label {
           display: inline-block;
           padding: 0 15px 5px 25px;
@@ -4579,13 +4579,13 @@ nav a {
                   font-size: 18px; }
                 .nav .container .nav__sections .nav__section .nav__links .nav__item a .nav__text small {
                   opacity: 0.8; }
+              @media (min-width: 991px) {
+                .nav .container .nav__sections .nav__section .nav__links .nav__item a {
+                  top: 50px;
+                  padding-top: 15px; } }
               .nav .container .nav__sections .nav__section .nav__links .nav__item a:hover {
                 opacity: 0.6;
                 text-decoration: none; }
-                @media (min-width: 991px) {
-                  .nav .container .nav__sections .nav__section .nav__links .nav__item a:hover {
-                    top: 50px;
-                    padding-top: 35px; } }
             .nav .container .nav__sections .nav__section .nav__links .nav__item:not(:last-of-type) a {
               padding-bottom: 7px; }
           .nav .container .nav__sections .nav__section .nav__links ul .nav__item a {
@@ -4606,12 +4606,12 @@ nav a {
               .nav .container .nav__sections .nav__section .nav__links ul .nav__item a .nav__text strong {
                 line-height: 1.0;
                 font-size: 15px; }
+            @media (min-width: 991px) {
+              .nav .container .nav__sections .nav__section .nav__links ul .nav__item a {
+                top: 50px; } }
             .nav .container .nav__sections .nav__section .nav__links ul .nav__item a:hover {
               opacity: 0.6;
               text-decoration: none; }
-              @media (min-width: 991px) {
-                .nav .container .nav__sections .nav__section .nav__links ul .nav__item a:hover {
-                  top: 50px; } }
           .nav .container .nav__sections .nav__section .nav__links ul .nav__item:not(:last-of-type) a {
             padding-bottom: 5px; }
     .nav .container .right-buttons {
@@ -4619,6 +4619,13 @@ nav a {
       top: 0;
       right: 0;
       /*             margin-top: 15px; */ }
+      .nav .container .right-buttons .get-nc-button {
+        display: none !important; }
+      @media (min-width: 991px) {
+        .nav .container .right-buttons .get-nc-nobutton {
+          display: none !important; }
+        .nav .container .right-buttons .get-nc-button {
+          display: inline-block !important; } }
       .nav .container .right-buttons .ghost-btn {
         text-align: center;
         position: relative;
@@ -4655,6 +4662,10 @@ nav a {
       .nav .container .right-buttons .nav__section {
         padding: 15px 0 15px 0;
         position: relative; }
+        @media (min-width: 991px) {
+          .nav .container .right-buttons .nav__section .nav__links {
+            top: 50px;
+            padding-top: 35px; } }
         .nav .container .right-buttons .nav__section:hover .nav__label {
           opacity: 0.6;
           cursor: default;
@@ -4671,10 +4682,6 @@ nav a {
           .nav .container .right-buttons .nav__section:hover .nav__links:not(:root:root) {
             /* This breaks safari. */
             /*                         margin-top: 30px; */ }
-          @media (min-width: 991px) {
-            .nav .container .right-buttons .nav__section:hover .nav__links {
-              top: 50px;
-              padding-top: 35px; } }
         .nav .container .right-buttons .nav__section .nav__label {
           display: inline-block;
           padding: 0 15px 5px 15px;
