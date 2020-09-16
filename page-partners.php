@@ -196,15 +196,22 @@
 				<a class="button button--white" href="https://www.open-dsi.fr/collaborer-nextcloud/">Learn more</a>
 			</div>
             <div class="col-md-4">
+				<a href="https://www.procilon.de/pesa-cloud-plattform" target="_blank" title="Procilon">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/procilon.png" title="procilon logo" />
+				</a>
+				<p  class="partnertext">The procilon GROUP specializes in the development of cryptographic security-software 'Made in Germany'. Using Cloud based security components, procilon can provide various options of electronic signatures and services. That includes eIDAS-compliant qualified remote signatures, end-to-end data encryption and secure Identity- & Access-Management. Thus, procilon cloud services complement industry-specific applications and customer portals with cryptographic elements for a security-driven user experience.</p>
+				<a class="button button--white" href="https://www.procilon.de/pesa-cloud-plattform">Learn more</a>
+			</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
 				<a href="https://www.qloud.my" target="_blank" title="Qloud MSP">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/qloudmsp.png" title="Qloud MSP logo" />
 				</a>
 				<p  class="partnertext">Qloud MSP (Qinetics MSP Sdn. Bhd) is a Malaysian based company specialized in managed services, IT outsourcing and cloud computing. Our solution are highly focused on customer business productivity while prioritizing data protection and control.</p>
 				<a class="button button--white" href="https://www.qloud.my">Learn more</a>
 			</div>
-        </div>
-
-        <div class="row">
             <div class="col-md-4">
 				<a href="http://www.regioit.de/" target="_blank" title="Regioit">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/regioit.png" title="regioit logo" />
@@ -219,6 +226,9 @@
 				<p  class="partnertext">Since 2002, Siedl Networks has been delivering innovative and reliable open source IT solutions to companies, schools and non-profits throughout Austria. We help small and medium sized organizations run their on-premises file storage and collaboration solution, monitoring and supporting their infrastructure and taking care of maintenance and backup.</p>
 				<a class="button button--white" href="https://www.siedl.net/portfolio/nextcloud">Learn more</a>
 			</div>
+        </div>
+
+        <div class="row">
 			<div class="col-md-4">
 				<a href="https://nextcloud.stylez.co.jp/" target="_blank" title="Stylez">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/stylez.png" title="stylez logo" />
@@ -226,9 +236,6 @@
 				<p  class="partnertext">Since 2013, Stylez has grown by focusing on integration and Business Process Outsourcing. Today Stylez expands its scope into cloud and open source services, keeping up their focus on customers and quality.</p>
 				<a class="button button--white" href="https://nextcloud.stylez.co.jp/">Learn more</a>
 			</div>
-        </div>
-
-        <div class="row">
 			<div class="col-md-4">
 				<a href="http://sndkcorp.com/" target="_blank" title="SNDK-corp">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/sndk-corp.png" title="SNDK Corp logo" />
@@ -244,6 +251,9 @@
                 <p class="partnertext">TAB Digital is a private company based in the EU, helping customers build private collaboration systems and clouds in EU and Russia. The newest technology and high staff competence will help you to build you success. Want to build a Nextcloud solution and have a provider take care of it? <a class="hyperlink" href="https://cloud.tab.digital">Contact us!</a></p>
                 <a class="button button--white" href="https://cloud.tab.digital">Learn more</a>
             </div>
+        </div>
+
+        <div class="row">
             <div class="col-md-4">
                 <a href="https://viakom.de/unsere-produkte/managed-nextcloud/" target="_blank" title="Viakom">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/viakom.png" title="Viakom logo" />
