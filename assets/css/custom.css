@@ -5553,6 +5553,9 @@ footer.page-footer {
 
 .second-menu {
   /*         margin-bottom: 150px !important; */ }
+  @media (max-width: 991px) {
+    .second-menu .scrollmagic-pin-spacer {
+      display: none !important; } }
   .second-menu .menu {
     background: #fbfbfb;
     border-top: solid 1px #e4e4e4;
