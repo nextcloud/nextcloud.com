@@ -67,42 +67,40 @@
         </div>
 		<div class="row">
             <div class="col-sm-3">
-                <p class="section--paragraph"><?php echo $l->t('
-                <li>Attractive, easy interface</li>
-                <li>Unlimited shares and upload folders</li>
-                <li>Show/hide existing files</li>
-                <li>Edit/rename without link change</li>
-                ');?></p>
+                <p class="section--paragraph">
+                <li><?php echo $l->t('Attractive, easy interface');?></li>
+                <li><?php echo $l->t('Unlimited shares and upload folders');?></li>
+                <li><?php echo $l->t('Show/hide existing files');?></li>
+                <li><?php echo $l->t('Edit/rename without link change');?></li>
+               </p>
             </div>
             <div class="col-sm-3">
-                <p class="section--paragraph"><?php echo $l->t('
-                <li>(Push) notifications</li>
-                <li>pdf/video/image preview</li>
-                <li>Templated sharing emails</li>
-                <li>Mobile and desktop clients</li>
-                ');?></p>
+                <p class="section--paragraph">
+                <li><?php echo $l->t('(Push) notifications ');?></li>
+                <li><?php echo $l->t('pdf/video/image preview');?></li>
+                <li><?php echo $l->t('Templated sharing emails');?></li>
+                <li><?php echo $l->t('Mobile and desktop clients');?></li>
+                </p>
             </div>
             <div class="col-sm-3">
-                <p class="section--paragraph"><?php echo $l->t('
-                <li>Read only/write permissions</li>
-                <li>File retention</li>
-                <li>Comprehensive audit tracking</li>
-                <li>Anti-virus scanning</li>
-                ');?></p>
+                <p class="section--paragraph">
+                <li><?php echo $l->t('Read only/write permissions');?></li>
+                <li><?php echo $l->t('File retention');?></li>
+                <li><?php echo $l->t('Comprehensive audit tracking');?></li>
+                <li><?php echo $l->t('Anti-virus scanning');?></li>
+                </p>
             </div>
             <div class="col-sm-3">
-                <p class="section--paragraph"><?php echo $l->t('
-                <li>Password protection</li>
-                <li>Expiration date</li>
-                <li>Encryption at rest & in transit</li>
-                <li>Data remains on-premise</li>
-                ');?></p>
+                <p class="section--paragraph">
+                <li><?php echo $l->t('Password protection');?></li>
+                <li><?php echo $l->t('Expiration date');?></li>
+                <li><?php echo $l->t('Encryption at rest & in transit');?></li>
+                <li><?php echo $l->t('Data remains on-premise');?></li>
+                </p>
             </div>
         </div>
         <div class="row">
-        <p class="section--paragraph text-center"><?php echo $l->t('
-        Your own server = under your control
-        ');?></p>
+        <p class="section--paragraph text-center"><?php echo $l->t('Your own server = under your control');?></p>
         <p class="section--paragraph text-center"><a class="hyperlink" href="<?php echo home_url('gdpr') ?>"><em><?php echo $l->t('
         HIPAA, GLBA, NERC CIP, SOX, PCI compliance');?></em></a></p>
         </div>
@@ -154,6 +152,16 @@
 			<p class="section--paragraph"><?php echo $l->t('Data remains, at all times, on-premise, under full authority of IT. File Drop supports a wide range of storage technologies including NFS, SMB and Windows Network Drive, Sharepoint, Object Storage and many more.');?> <a class="hyperlink" href="<?php echo home_url('storage') ?>"><?php echo $l->t('Learn more about External Storage here</a>.');?></p>
 		</div>
 	</div>
+    <div class="row">
+		<div class="col-md-3">
+			<img src="<?php bloginfo('template_directory'); ?>/assets/img/partners/kaspersky.png" class="img-responsive" />
+		</div>
+		<div class="col-md-9">
+			<h3 class="section--paragraph__title"><?php echo $l->t('Integrated virus scanning');?></h3>
+			<p class="section--paragraph"><?php echo $l->t('Nextcloud offers an optional virus scanning tool, capable of using multiple back-ends. The free ClamAV tool is available, while in partnership with Kaspersky, their on-premises Kaspersky Scan Engine can be used to scan uploaded files for malware.');?></p>
+<!-- 			<p class="section--paragraph"><?php echo $l->t('Data remains, at all times, on-premise, under full authority of IT. File Drop supports a wide range of storage technologies including NFS, SMB and Windows Network Drive, Sharepoint, Object Storage and many more.');?> <a class="hyperlink" href="<?php echo home_url('storage') ?>"><?php echo $l->t('Learn more about External Storage here</a>.');?></p> -->
+		</div>
+	</div>
 </div>
 </section>
 
@@ -163,7 +171,7 @@
         <div class="col-md-8 col-md-offset-2">
             <p class="section--paragraph text-center"><?php echo $l->t('Secure your file exchange with clients right now.');?></p>
             <div class="text-center morebuttondiv">
-                <a href="<?php echo home_url('pricing') ?>" class="button button--large button--arrow"><?php echo $l->t('Pricing');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                <a href="<?php echo home_url('trial') ?>" class="button button--large button--arrow"><?php echo $l->t('Request a trial');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
         </div>
     </div>
