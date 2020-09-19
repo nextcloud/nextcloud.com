@@ -298,6 +298,7 @@ imagedestroy($image);
             <li class="section--paragraph"><?php echo $l->t('5GB storage per user is included. Additional storage is available with prices starting at Eur 2,00/month for 50GB.');?></li>
             <li class="section--paragraph"><?php echo $l->t('Multiple backup options available, depending on storage needs.');?></li>
             <li class="section--paragraph"><?php echo $l->t('Education and government pricing available with discounts up to 80%.');?></li>
+            <li class="section--paragraph"><?php echo $l->t('IONOS hosting is currently only available for customers in Europe.');?></li>
         </div>
     </div>
 </div>
