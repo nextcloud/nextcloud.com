@@ -302,6 +302,12 @@
 
 		<div class="row">
             <div class="col-md-4">
+				<a href="https://office.hancom.com/" target="_blank" title="Hancom">
+				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/hancom.png" title="Hancom logo" />
+				</a>
+				<p  class="partnertext">With more than 30 years in productivity applications, HANCOM has been providing a powerful productivity solution optimized for collaboration in diverse workplaces. We deliver a consistent, professional-grade experience and supports essential office applications - word processor, spreadsheet, presentation and PDF tool across multiple platforms including Windows OS, Mobile and Web to offer boundless office productivity environments.</p>
+			</div>
+            <div class="col-md-4">
 				<a href="https://hostbillapp.com/products-services/nextcloud/" target="_blank" title="HostBill">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/hostbill.png" title="HostBill logo" />
 				</a>
@@ -313,15 +319,15 @@
 				</a>
 				<p class="partnertext">IBM offers a wide range of digital solutions and consulting. Nextcloud and IBM work together in various areas including support for the IBM Spectrum Scale file system.</p>
 			</div>
+        </div>
+
+        <div class="row">
 			<div class="col-md-4">
 				<a href="http://nitrokey.com" target="_blank" title="Nitrokey">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/nitrokey.png" title="Nitrokey" />
 				</a>
 				<p class="partnertext">Nitrokey is a German developer of hardware security keys. Their hardware is open source, enabling users to verify its security themselves. Nextcloud and Nitrokey work together on secure and easy authentication solutions around open standards.</p>
 			</div>
-        </div>
-
-        <div class="row">
 			<div class="col-md-4">
 				<a href="http://www.onlyoffice.com" target="_blank" title="ONLYOFFICE">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/onlyoffice.png" title="ONLYOFFICE" />
@@ -334,15 +340,15 @@
 				</a>
 				<p  class="partnertext">The Open Invention Network is a shared defensive patent pool with the mission to protect Linux.  Launched in 2005, OIN has strong industry support with backing from Google, IBM, NEC, Philips, Red Hat, Sony, SUSE, and Toyota.  Any company, project or developer that is working on Linux, GNU, Android or any other Linux-related software is welcome to join OIN, free of charge or royalties.</p>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="https://osb-alliance.com" target="_blank" title="Open Source Business Alliance">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/osballiance.png" title="The Open Source Business Alliance" />
 				</a>
 				<p  class="partnertext">The German language focused OSB Alliance is a collaboration of IT providers who want to push Open Source Software forward. As member Nextcloud GmbH helps push interoperability and open standards forward in the open cloud.</p>
 			</div>
-		</div>
-
-		<div class="row">
             <div class="col-md-4">
 				<a href="https://redhat.com" target="_blank" title="Red Hat Partnership">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/redhat.png" title="Red Hat Partnership" />
@@ -355,15 +361,15 @@
 				</a>
 				<p  class="partnertext">TWS is the official provider of Nexcloud iOS Client. The company has its headquarters in Italy and it mainly deals with design and development of web-based application software.</p>
 			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-4">
 				<a href="http://wdlabs.wd.com/products/wd-pidrive-1tb-kit/" target="_blank" title="Western Digital Labs">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/wdlabs.png" title="Western Digital Labs" />
 				</a>
 				<p  class="partnertext"><a href="http://wdlabs.wd.com/">WDLabs™</a> is a business growth incubator of storage solutions leader <a href="http://www.wdc.com/en/">Western Digital Corporation</a> (NASDAQ:WDC). We work with Western Digital Labs on the <a href="/box">Nextcloud Box project</a> to create a device that makes it easier for people to self-host their data.</p>
 			</div>
-		</div>
-
-		<div class="row">
 			<div class="col-md-4">
 				<a href="http://www.moodle.com/" target="_blank" title="Moodle">
 				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/partners/moodle.png" title="Moodle" />
