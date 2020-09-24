@@ -37,7 +37,22 @@
     <atom:link href="https://nextcloud.com/podcast-feed-m4a.rss" rel="self" type="application/rss+xml" />
     <link>https://nextcloud.com/podcast/</link>
 
-
+    <item>
+      <title>Interview with Rhys Davies from Canonical</title>
+      <itunes:subtitle>On our fourth podcast, host Ingo interviews Rhys Davies from Canonical about the Nextcloud Ubuntu Appliance.</itunes:subtitle>
+      <itunes:summary>On our fourth podcast, host Ingo interviews Rhys Davies from Canonical about the Nextcloud Ubuntu Appliance. Find out what the Ubuntu appliances are all about, and what the benefits of Nextcloud as an appliance are.
+      </itunes:summary>
+      <itunes:duration>00:28:12</itunes:duration>
+      <description>On our fourth podcast, host Ingo interviews Rhys Davies from Canonical about the Nextcloud Ubuntu Appliance. Find out what the Ubuntu appliances are all about, and what the benefits of Nextcloud as an appliance are.
+      </description>
+      <pubDate>Fri, 25 Sept 2020 9:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_004.m4a"
+                 type="audio/x-m4a" length="17368281"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_004.m4a</guid>
+      <link>https://nextcloud.com/blog/our-fourth-nextcloud-podcast-interview-with-rhys-davies/</link>
+    </item>
     <item>
       <title>Frank Karlitschek on remote working</title>
       <itunes:subtitle>Our third episode is a conversation about remote work with Nextcloud CEO Frank Karlitschek.</itunes:subtitle>

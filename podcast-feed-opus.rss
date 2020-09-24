@@ -39,7 +39,22 @@
     <atom:link href="https://nextcloud.com/podcast-feed.xml" rel="self" type="application/rss+xml" />
     <link>https://nextcloud.com/podcast/</link>
 
-
+    <item>
+      <title>Interview with Rhys Davies from Canonical</title>
+      <itunes:subtitle>On our fourth podcast, host Ingo interviews Rhys Davies from Canonical about the Nextcloud Ubuntu Appliance.</itunes:subtitle>
+      <itunes:summary>On our fourth podcast, host Ingo interviews Rhys Davies from Canonical about the Nextcloud Ubuntu Appliance. Find out what the Ubuntu appliances are all about, and what the benefits of Nextcloud as an appliance are.
+      </itunes:summary>
+      <itunes:duration>00:28:12</itunes:duration>
+      <description>On our fourth podcast, host Ingo interviews Rhys Davies from Canonical about the Nextcloud Ubuntu Appliance. Find out what the Ubuntu appliances are all about, and what the benefits of Nextcloud as an appliance are.
+      </description>
+      <pubDate>Fri, 25 Sept 2020 9:00:00 GMT</pubDate>
+      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_004.opus"
+                 type="audio/opus" length="19732792"/>
+      <itunes:author>Nextcloud</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_004.opus</guid>
+      <link>https://nextcloud.com/blog/our-fourth-nextcloud-podcast-interview-with-rhys-davies/</link>
+    </item>
     <item>
       <title>Frank Karlitschek on remote working</title>
       <itunes:subtitle>Our third episode is a conversation about remote work with Nextcloud CEO Frank Karlitschek.</itunes:subtitle>
@@ -47,8 +62,7 @@
       <itunes:duration>00:31:46</itunes:duration>
       <description>On our third podcast, host Ingo discusses working remote with Nextcloud CEO Frank Karlitschek. Nextcloud is a company centered around remote work, hiring the best and most motivated people wherever they live. With some team members as far from our Stuttgart office as Hawaii and Cape Verde force us to work efficiently across time zones and vast distances. Frank and Ingo cover the what, why and how of working remotely, and discuss how Nextcloud itself is an important tool in how we collaborate.</description>
       <pubDate>Tue, 04 Aug 2020 14:00:00 GMT</pubDate>
-      <enclosure url="https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_003.opus"
-                 type="audio/opus" length="24497568"/>
+
       <itunes:author>Nextcloud</itunes:author>
       <itunes:explicit>no</itunes:explicit>
       <guid>https://download.nextcloud.com/.podcasts/Nextcloud_Podcast_003.opus</guid>
