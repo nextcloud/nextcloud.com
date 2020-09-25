@@ -53,7 +53,7 @@
         </div>
 	</div>
 	<div class="row">
-            <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/check-lock.svg" class="icon" />
+            <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/OCS_icon_color.svg" class="icon" />
             <h3 class="section--paragraph__title"><?php echo $l->t('Open Collaboration Services');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Integrate an existing software or client into Nextcloud.');?></p>
             <p class="section--paragraph"><?php echo $l->t('The Open Collaboration Services is an open standard and we welcome third party integration and input!');?> <a href="https://open-collaboration-services.org" class="hyperlink"><?php echo $l->t('Learn more.');?></a></p>
