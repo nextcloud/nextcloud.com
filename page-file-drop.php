@@ -31,7 +31,7 @@
 			<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AhFnbB-a7ik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
 		<div class="col-md-6 col-md-offset-3">
-			<p class="section--paragraph text-center"><?php echo $l->t('Nextcloud Files enables hospitals, banks, notaries and government agencies to securely send files to and receive files from customers, patients, clients or partners.');?></p>
+			<p class="section--paragraph text-center"><?php echo $l->t('The File Drop feature in Nextcloud Files enables customers, patients, clients or partners to upload files for you in a secure cloud folder you shared through a hyperlink.');?></p>
 		</div>
 	</div>
 </div>
