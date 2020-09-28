@@ -2,6 +2,36 @@
 
 <h2>2020</h2>
 
+<h3>Nextcloud Server 19.0.2</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-037">PIN for passwordless WebAuthn is asked for but not verified (NC-SA-2020-037)</a> 2020-08-25</li>
+</ul>
+
+<h3>Preferred providers 1.8.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-033">Missing rate limit on signup page (NC-SA-2020-033)</a> 2020-08-03</li>
+</ul>
+
+<h3>Nextcloud Server 19.0.1</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-029">Re-Sharing allows increase of privileges (NC-SA-2020-029)</a> 2020-07-16</li>
+</ul>
+
+<h3>Nextcloud Server 18.0.7</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-029">Re-Sharing allows increase of privileges (NC-SA-2020-029)</a> 2020-07-16</li>
+</ul>
+
+<h3>Nextcloud Server 17.0.8</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-029">Re-Sharing allows increase of privileges (NC-SA-2020-029)</a> 2020-07-16</li>
+</ul>
+
+<h3>Deck App 1.0.5</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-036">Access control missing while viewing the attachments in the 'All boards' (NC-SA-2020-036)</a> 2020-07-15</li>
+</ul>
+
 <h3>Desktop Client 2.6.5</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2020-035">Missing memory corruption protection on Windows release built (NC-SA-2020-035)</a> 2020-07-10</li>
