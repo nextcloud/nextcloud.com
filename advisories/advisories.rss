@@ -5,6 +5,18 @@
  <link>https://nextcloud.com/security/advisories/</link>
  <description>The Nextcloud security advisories as a RSS feed</description>
  <ttl>1800</ttl><item>
+  <title>Server: PIN for passwordless WebAuthn is asked for but not verified (NC-SA-2020-037)</title>
+  <description>A wrong configuration in Nextcloud Server 19.0.1 incorrectly made the user feel the passwordless WebAuthn is also a two factor verification by asking for the PIN of the passwordless WebAuthn but not verifying it.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-037&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-037</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-037</guid>
+  <pubDate>Tue, 25 Aug 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Deck App: Access control missing while viewing the attachments in the 'All boards' (NC-SA-2020-036)</title>
+  <description>Missing access control in Nextcloud Deck 1.0.4 caused an insecure direct object reference allowing an attacker to view all attachments.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-036&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-036</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-036</guid>
+  <pubDate>Wed, 15 Jul 2020 14:00:00 +0200</pubDate>
+ </item><item>
   <title>Desktop Client: Missing memory corruption protection on Windows release built (NC-SA-2020-035)</title>
   <description>Missing ASLR and DEP protections in Nextcloud Desktop Client 2.6.4 for windows allowed to corrupt memory.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-035&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-035</link>
@@ -16,6 +28,12 @@
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-034</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-034</guid>
   <pubDate>Fri, 10 Jul 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Preferred providers: Missing rate limit on signup page (NC-SA-2020-033)</title>
+  <description>A missing rate limit in the Preferred Providers app 1.7.0 allowed an attacker to set the password an uncontrolled amount of times.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-033&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-033</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-033</guid>
+  <pubDate>Mon, 03 Aug 2020 14:00:00 +0200</pubDate>
  </item><item>
   <title>Desktop Client: Linux client is vulnerable to directory traversal when downloading files (NC-SA-2020-032)</title>
   <description>Missing sanitization of a server response in Nextcloud Desktop Client 2.6.4 for Linux allowed a malicious Nextcloud Server to store files outside of the dedicated sync directory.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-032&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
@@ -34,6 +52,12 @@
   <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-030</link>
   <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-030</guid>
   <pubDate>Fri, 10 Jul 2020 14:00:00 +0200</pubDate>
+ </item><item>
+  <title>Server: Re-Sharing allows increase of privileges (NC-SA-2020-029)</title>
+  <description>A logic error in Nextcloud Server 19.0.0 caused a privilege escalation allowing malicious users to reshare with higher permissions than they got assigned themselves.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-029&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+  <link>https://nextcloud.com/security/advisory/?id=nC-SA-2020-029</link>
+  <guid isPermaLink="true">https://nextcloud.com/security/advisory/?id=nC-SA-2020-029</guid>
+  <pubDate>Thu, 16 Jul 2020 14:00:00 +0200</pubDate>
  </item><item>
   <title>Preferred providers: Possible denial of service when entering a long password (NC-SA-2020-028)</title>
   <description>Improper check of inputs in Preferred providers app 1.6.0 allowed to perform a denial of service attack when using a very long password.&lt;br/&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://nextcloud.com/security/advisory/?id=nC-SA-2020-028&quot;&gt;For more information please consult the official advisory.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
