@@ -30,6 +30,15 @@
         </div>
         <div class="row ">
             <div class="col-md-6 image--feature">
+                    <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/status.gif"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/status.gif" alt="Set your status" /></a>
+            </div>
+            <div class="col-md-6 featureblock">
+                <h3 class="section--paragraph__tittle"><?php echo $l->t('Set your status');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('On top of the dashboard, users can set their status, to show to colleagues what they are up to - traveling, working from home, concentrating, and so on. This status is then visible in Talk and other apps.');?></p>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-6 image--floated image--feature">
                     <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/dashboard_add_widgets.gif"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/dashboard_add_widgets.gif" alt="adding widgets" /></a>
             </div>
             <div class="col-md-6 featureblock">
@@ -38,8 +47,8 @@
             </div>
         </div>
         <div class="row ">
-            <div class="col-md-6 image--floated image--feature">
-                    <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/dashboard_configure_twitter.gif"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/dashboard_configure_twitter.gif" alt="in action" /></a>
+            <div class="col-md-6 image--feature">
+                    <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/dashboard_configure_twitter.gif"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/dashboard_configure_twitter.gif" alt="configure twitter" /></a>
             </div>
             <div class="col-md-6 featureblock">
                 <h3 class="section--paragraph__tittle"><?php echo $l->t('Many widgets available');?></h3>
@@ -51,11 +60,11 @@
         </div>
         <div class="row ">
             <div class="col-md-6 image--feature">
-                    <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/dashboard_re-arrange_widgets.gif"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/dashboard_re-arrange_widgets.gif" alt="in action" /></a><br />
+                    <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/dashboard_re-arrange_widgets.gif"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/dashboard_re-arrange_widgets.gif" alt="re-arranging widgets" /></a><br />
                     <?php echo $l->t('Move the widgets where you want them!');?>
             </div>
             <div class="col-md-6 image--feature">
-                    <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/dashboard_view_files.gif"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/dashboard_view_files.gif" alt="in action" /></a><br />
+                    <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/dashboard_view_files.gif"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/dashboard_view_files.gif" alt="viewing files" /></a><br />
                     <?php echo $l->t('View and edit files directly from the dashboard');?>
             </div>
         </div>
