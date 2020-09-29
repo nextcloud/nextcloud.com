@@ -112,7 +112,8 @@
         <p class="section--paragraph text-center"><?php echo $l->t('Stuck with your app?');?></p>
         <p class="section--paragraph text-center"><?php echo $l->t('We love to help!');?></p>
         <div class="text-center morebuttondiv">
-            <a href="https://help.nextcloud.com/c/dev" class="button button-button--large button--arrow"><?php echo $l->t('Get help on the forums');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+            <a href="https://help.nextcloud.com/c/dev" class="button button-button--large button--arrow"><?php echo $l->t('Get help on the forums');?> <i class="icon-arrow-circle-o-right icon"></i></a><br />
+            <a href="https://cloud.nextcloud.com/call/xs25tz5y" class="button button-button--large button--arrow"><?php echo $l->t('Join our dev chat');?> <i class="icon-arrow-circle-o-right icon"></i></a>
         </div>
     </div>
 </div>
