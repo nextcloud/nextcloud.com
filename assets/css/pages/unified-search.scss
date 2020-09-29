@@ -1,0 +1,40 @@
+@import '../variables';
+@import '../modules/transparent-navbar';
+/* @import '../modules/vertical'; */
+.unified-search-background {
+  background: url("../../img/headers/unified-search.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px
+}
+
+section {
+	margin-top: 150px;
+/* 	padding: 50px 0; */
+
+	.section--paragraph__title {
+		padding: 0;
+	}
+}
+
+.section--intro {
+    p {
+        margin-top: 20px;
+    }
+    .video .video-js {
+        background-color: transparent !important;
+    }
+}
+
+
+
+.section--features {
+    .row {
+        margin-bottom: 150px;
+    }
+}
+
+
+footer {
+    margin-top: 0px;
+}
