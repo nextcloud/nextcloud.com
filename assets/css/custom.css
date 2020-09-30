@@ -10744,3 +10744,42 @@ blockquote.twitter-tweet {
     max-width: 500px; }
 
 /*# sourceMappingURL=custom.css.map */
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+}
+
+.overlay-wrapper {
+	position: relative;
+	width: 90vw !important;
+	height: 90vh !important;
+	background-color: white;
+	margin: auto;
+	border-radius: 44px;
+	padding: 22px;
+}
+
+.overlay-content {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	z-index: 2;
+	scrollbar-width: thin;
+	width: 100%;
+	height: 100%;
+}
+
+.overlay-close {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+	z-index: 3;
+	margin: 0;
+	width: 44px;
+	height: 44px;
+}

@@ -104,7 +104,7 @@
 		</div>
 	</div>
 	<div class="container">
-        <p class="text-center"><a class="button button--large button--blue button--arrow" href="<?php echo home_url('athome') ?>"><?php echo $l->t('Nextcloud at home');?></a>
+        <p class="text-center"><a class=" overlay-trigger button button--large button--blue button--arrow" href="<?php echo home_url('athome') ?>"><?php echo $l->t('Nextcloud at home');?></a>
         <a class="button button--large button--blue button--arrow" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Nextcloud for Enterprises');?></a></p>
     </div>
 </section>
@@ -431,3 +431,5 @@
 		<a class="button button--blue button--arrow button--large" href="https://newsletter.nextcloud.com/?p=subscribe&id=1" role="button"><?php echo $l->t('Subscribe');?></a>
 	</div>
 </section>
+
+<?php require get_template_directory().'/overlay.php'; ?>

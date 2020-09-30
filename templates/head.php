@@ -19,7 +19,7 @@
 	<script>
 	requirejs.config({ waitSeconds: 0 });
 	require(["require.config"], function() {
-		require(["modules/header", "main", "modernizr", "modules/cookieconsent"])
+		require(["modules/header", "main", "overlay", "modernizr", "modules/cookieconsent"])
 	});
 	</script>
 

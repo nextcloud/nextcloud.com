@@ -10,7 +10,7 @@
 </script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
-<div class="background features-background second-menu">
+<div class="background hide-in-overlay features-background second-menu">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">
@@ -20,7 +20,7 @@
 		</div>
 	</div>
 </div>
-<div class="second-menu">
+<div class="second-menu hide-in-overlay">
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
 			<a href="#hosting"><span class="avoidwrap"><?php echo $l->t('Your files');?></span></a>
