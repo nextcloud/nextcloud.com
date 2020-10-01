@@ -1,17 +1,16 @@
 /**
  * Overlay functionality
  * 
- * This functionality allows to open a linked page in an overlay dialog, instead
- * of routing to the clicked link. 
+ * This functionality allows to open a linked page or image in an overlay.
  * 
  * Usage:
  * - open the php file of the page in which you want the overlay to appear 
  * - Include this line at the bottom of the page (be sure to veryfy the 
  * path to overlay.php):
  * `<?php require get_template_directory().'/overlay.php'; ?>`
- * - Add the class `overlay-trigger` to each <a> element that should open the 
- * overlay instead of routing to a different page. Note: the <a> elements 
- * must have a valid href attribute
+ * - Add the class `overlay-trigger` to each <a> or <img> element that should
+ * open the overlay. Note: the <a> elements must have a valid href attribute
+ * and the image elements must have a valid src attribute;
  * - If there's anything you want to hide in the overlayed page, add the class 
  * `hide-in-overlay` to the html tags are to be hidden.
  * 
@@ -45,13 +44,20 @@ define(['jquery',],
 			$('.overlay').hide();
 			$('.overlay-trigger').on('click', function(event) {
 				event.preventDefault();
-				$.get(event.target.href, function(r) { 
-					if (r) {
+				if (event.target.href) {
+					$.get(event.target.href, function(r) {
+						$('.overlay-wrapper').show();
+						$('.overlay-image').hide();
 						$('.overlay-content').append(r);
 						$('.hide-in-overlay').hide();
-						openOverlay();
-					}
-				});
+					});
+					openOverlay();
+				} else if(event.target.src) {
+					$('.overlay-wrapper').hide();
+					$('.overlay-image').attr('src', event.target.src);
+					$('.overlay-image').show();
+					openOverlay();
+				} 
 			});
 			
 			// Close the overlay when clicking on the close button

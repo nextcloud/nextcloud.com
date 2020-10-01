@@ -10800,3 +10800,14 @@ blockquote.twitter-tweet {
 	width: 48px;
 	height:48px;
 }
+
+.overlay-image {
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+	padding: 2vh 2vw;
+}
+
+img.overlay-trigger {
+	cursor: pointer;
+}
