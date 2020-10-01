@@ -1,6 +1,21 @@
 define(['jquery',],
 	function ($) {
 		$(document).ready(function() {
+			/**
+			 * Fade in the overlay
+			 */
+			var openOverlay = function() {
+				$('.overlay').fadeIn('800');
+			};
+			/**
+			 * Fade out the overlay and clear content
+			 */
+			var closeOverlay = function() {
+				$('.overlay').fadeOut('800');
+				// Remove the content
+				$('overlay-content').empty();
+			};
+			
 			$('.overlay').hide();
 			$('.overlay-trigger').on('click', function(event) {
 				event.preventDefault();
@@ -8,24 +23,19 @@ define(['jquery',],
 					if (r) {
 						$('.overlay-content').append(r);
 						$('.hide-in-overlay').hide();
-						$('.overlay').fadeIn('800');
+						openOverlay();
 					}
 				});
 			});
+			
 			// Close the overlay when clicking on the close button
-			$('.overlay-close').on('click', function() {
-				$('.overlay').fadeOut('800');
-			});
+			$('.overlay-close').on('click',closeOverlay);
 			/** Click outside */
 			// Stop event propagation when clicking inside the content
 			$('.overlay-content').click(function(event) {
 				event.stopPropagation();
 			});
 			// Close the overlay when clicking outside
-			$('.overlay').on('click', function() {
-				$('.overlay').fadeOut('800');
-				// Remove the content
-				$('overlay-content').empty();
-			});
+			$('.overlay').on('click', closeOverlay);
 		});
 	});
