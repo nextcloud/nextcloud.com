@@ -25,7 +25,7 @@ define(['jquery',],
 			 */
 			var openOverlay = function() {
 				$('.overlay').fadeIn('800');
-				$('#nav').fadeOut();
+				$('#nav').hide();
 				$('#menuAnchor').hide();
 				$('.page-footer').hide();
 			};
@@ -36,10 +36,10 @@ define(['jquery',],
 				// Remove the content
 				$('.overlay-content').empty();
 				$('.overlay').fadeOut('800');
-				$('#nav').fadeIn();
-				$('#nav').css('opacity', 1);
 				$('#menuAnchor').show();
 				$('.page-footer').show();
+				$('#nav').show();
+				$('#nav').css('opacity', 1);
 			};
 			
 			$('.overlay').hide();
