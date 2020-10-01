@@ -6,6 +6,7 @@ define(['jquery',],
 			 */
 			var openOverlay = function() {
 				$('.overlay').fadeIn('800');
+				$('#menuAnchor').hide();
 			};
 			/**
 			 * Fade out the overlay and clear content
@@ -20,6 +21,7 @@ define(['jquery',],
 			$('.overlay-trigger').on('click', function(event) {
 				event.preventDefault();
 				$.get(event.target.href, function(r) { 
+					console.log(r);
 					if (r) {
 						$('.overlay-content').append(r);
 						$('.hide-in-overlay').hide();

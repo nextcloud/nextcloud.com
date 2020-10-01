@@ -106,7 +106,7 @@
 			<p class="section--paragraph__tittle"><?php echo $l->t('GDPR, CCPA and more');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The GDPR (General Data Protection Regulation) makes organizations liable for any violations of user privacy and deviations from a high data security standard.<br>Legislation like the CCPA (California Consumer Privacy Act of 2018) brings similar regulation to other countries.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud has extensive GDPR compliance capabilities.');?></p>
-			<p class="section--paragraph"><a class="button button--blue button--medium" href="<?php echo home_url('gdpr') ?>"><?php echo $l->t('Learn more');?></a></p>
+			<p class="section--paragraph"><a class="overlay-trigger button button--blue button--medium" href="<?php echo home_url('gdpr') ?>"><?php echo $l->t('Learn more');?></a></p>
 		</div>
     </div>
 	<div class="row feature-row">
@@ -513,3 +513,4 @@
 </div>
 </section>
 <?php require get_template_directory().'/verticals.php';?>
+<?php require get_template_directory().'/overlay.php'; ?>
