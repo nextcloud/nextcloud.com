@@ -10,7 +10,7 @@
 </script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
-<div class="background hide-in-overlay features-background second-menu">
+<div class="background features-background second-menu">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 topheader">

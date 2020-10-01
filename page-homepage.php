@@ -104,7 +104,7 @@
 		</div>
 	</div>
 	<div class="container">
-        <p class="text-center"><a class=" overlay-trigger button button--large button--blue button--arrow" href="<?php echo home_url('athome') ?>"><?php echo $l->t('Nextcloud at home');?></a>
+        <p class="text-center"><a class="button button--large button--blue button--arrow" href="<?php echo home_url('athome') ?>"><?php echo $l->t('Nextcloud at home');?></a>
         <a class="button button--large button--blue button--arrow" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Nextcloud for Enterprises');?></a></p>
     </div>
 </section>
