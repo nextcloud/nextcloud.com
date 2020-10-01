@@ -142,21 +142,21 @@
         </div>
         <div class="col-md-3 featureblock">
         <p class=""><?php echo $l->t('Nextcloud Flow enables users to automate repetitive tasks and optimize business processes.');?></p>
-        <a href="<?php echo home_url('workflow') ?>" class="button button--white button--arrow"><?php echo $l->t('Learn more about Flow');?></a>
+        <a href="<?php echo home_url('workflow') ?>" class="overlay-trigger button button--white button--arrow"><?php echo $l->t('Learn more about Flow');?></a>
         </div>
         <div class="col-md-1 featureblock">
         <i class="fa-hdd fa"></i>
         </div>
         <div class="col-md-3 featureblock">
         <p class=""><?php echo $l->t('Access existing storage silos like FTP, Windows Network Drives, SharePoint, Object Storage and Samba shares seamlessly through Nextcloud. ');?></p>
-        <a href="<?php echo home_url('storage') ?>" class="button button--white button--arrow"><?php echo $l->t('Learn more about external storage');?></a>
+        <a href="<?php echo home_url('storage') ?>" class="overlay-trigger button button--white button--arrow"><?php echo $l->t('Learn more about external storage');?></a>
         </div>
         <div class="col-md-1 featureblock">
         <i class="fa-file-text fa"></i>
         </div>
         <div class="col-md-3 featureblock">
         <p class=""><?php echo $l->t('Seamlessly edit office documents together with others, take notes while in a video call.');?></p>
-        <a href="<?php echo home_url('collabora') ?>" class="button button--white button--arrow"><?php echo $l->t('Learn more about Collabora Online');?></a>
+        <a href="<?php echo home_url('collabora') ?>" class="overlay-trigger button button--white button--arrow"><?php echo $l->t('Learn more about Collabora Online');?></a>
         </div>
     </div>
     <div class="row">
@@ -165,21 +165,21 @@
         </div>
         <div class="col-md-3 featureblock">
         <p class=""><?php echo $l->t('Manage users locally or authenticate through LDAP / Active Directory, Kerberos and Shibboleth / SAML 2.0 and more');?></p>
-        <a href="<?php echo home_url('usermanagement') ?>" class="button button--white button--arrow"><?php echo $l->t('Learn more about user management');?></a>
+        <a href="<?php echo home_url('usermanagement') ?>" class="overlay-trigger button button--white button--arrow"><?php echo $l->t('Learn more about user management');?></a>
         </div>
         <div class="col-md-1 featureblock">
         <i class="fa-key fa"></i>
         </div>
         <div class="col-md-3 featureblock">
         <p class=""><?php echo $l->t('Secure data with powerful file access control, multi-layer encryption, machine-learning based authentication protection and advanced ransomware recovery capabilities');?></p>
-        <a href="<?php echo home_url('secure') ?>" class="button button--white button--arrow"><?php echo $l->t('Learn more about security');?></a>
+        <a href="<?php echo home_url('secure') ?>" class="overlay-trigger button button--white button--arrow"><?php echo $l->t('Learn more about security');?></a>
         </div>
         <div class="col-md-1 featureblock">
         <i class="fa-certificate fa"></i>
         </div>
         <div class="col-md-3 featureblock">
         <p class=""><?php echo $l->t('Extend Nextcloud further with a wide variety of apps on our app store or build your own');?></p>
-        <a href="<?php echo home_url('developer') ?>" class="button button--white button--arrow"><?php echo $l->t('Learn more about app development');?></a>
+        <a href="<?php echo home_url('developer') ?>" class="overlay-trigger button button--white button--arrow"><?php echo $l->t('Learn more about app development');?></a>
         </div>
     </div>
 </div>
@@ -689,7 +689,7 @@
     </div>
 </div>
 </section>
-
+<?php require get_template_directory().'/overlay.php'; ?>
 
 
 
