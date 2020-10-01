@@ -228,7 +228,7 @@
         </div>
         <div class="row">
             <div class="text-center">
-                <a href="<?php echo home_url('whitepapers') ?>" class="button button--blue button--arrow"><?php echo $l->t('Case studies and more');?></a>
+                <a href="<?php echo home_url('whitepapers') ?>" class="overlay-trigger button button--blue button--arrow"><?php echo $l->t('Case studies and more');?></a>
             </div>
         </div>
 <!--        <div class="row">
@@ -417,7 +417,7 @@
                 <li><?php echo $l->t('The same document rendering in every browser');?></li>
                 <li><?php echo $l->t('Desktop level editing capabilities');?></li>
                     </ul>
-                <a href="<?php echo home_url('collabora') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Collabora Online');?></a>
+                <a href="<?php echo home_url('collabora') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Collabora Online');?></a>
             </div>
         </div>
 	</div>
@@ -440,7 +440,7 @@
                 <p class="section--paragraph"><?php echo $l->t('');?></p>
                 <p class="section--paragraph"><?php echo $l->t('<i class="fa-key fa"></i> we integrate unique in-transit, server-side and client-side end-to-end encryption technologies.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('');?></p>
-                <a href="<?php echo home_url('secure') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Security in Nextcloud');?></a>
+                <a href="<?php echo home_url('secure') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Security in Nextcloud');?></a>
             </div>
 		</div>
 	</div>
@@ -459,7 +459,7 @@
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud enables admins to monitor the health and performance of a Nextcloud system with a graphical UI and an API endpoint for monitoring apps. Fully audit-ready logs of user activity are generated.');?></p>
                 <h3 class="section--paragraph__title"><?php echo $l->t('Tracking changes to user files');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud Files lets users track file modifications, downloads of shares and changes to comments or tags, providing an overview in the browser, clients or via email notifications and an RSS feed.');?></p>
-                <a href="<?php echo home_url('monitoring') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Monitoring and compliance');?></a>
+                <a href="<?php echo home_url('monitoring') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Monitoring and compliance');?></a>
             </div>
         </div>
     </div>
@@ -490,7 +490,7 @@
                 <h3 class="section--paragraph__title"><?php echo $l->t('External storage, securely encrypted');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('The external storage feature of Nextcloud gives users access to their data wherever it is. Nextcloud Files can access data stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but can also access file storage solutions using standard protocols such as NFS, (S)FTP, WebDAV and more.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Encryption App can encrypt data at rest for both local and remote storage, protecting data stored on networks outside of user infrastructure. Keys can be handled by an external key management server or stored locally, on the server.');?></p>
-                <a href="<?php echo home_url('storage') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('External storage');?></a>
+                <a href="<?php echo home_url('storage') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('External storage');?></a>
             </div>
         </div>
 	</div>
@@ -504,7 +504,7 @@
             </div>
                 <h3 class="section--paragraph__title"><?php echo $l->t('Integrated account management');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud features built-in account management with optional two-factor authentication as well as Single-sign-on support and integration with external user directories like LDAP or IMAP, SMB, FTP and more.');?></p>
-                <a href="<?php echo home_url('usermanagement') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('User management');?></a>
+                <a href="<?php echo home_url('usermanagement') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('User management');?></a>
             </div>
         </div>
 	</div>
@@ -551,7 +551,7 @@
                 <p class="text-center"><?php echo $l->t('Ensure efficient and secure team productivity the content collaboration platform from the market leader.');?></p>
                 <p class="text-center"><?php echo $l->t('Contact us to learn how we can help you.');?></p>
 				<div class="text-center morebuttondiv">
-					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact us');?></a>
+					<a href="<?php echo home_url('buy') ?>" class="overlay-trigger button button--large button--arrow"><?php echo $l->t('Contact us');?></a>
 				</div>
             </div>
         </div>
