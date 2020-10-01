@@ -6,22 +6,27 @@ define(['jquery',],
 			 */
 			var openOverlay = function() {
 				$('.overlay').fadeIn('800');
+				$('#nav').fadeOut();
 				$('#menuAnchor').hide();
+				$('.page-footer').hide();
 			};
 			/**
 			 * Fade out the overlay and clear content
 			 */
 			var closeOverlay = function() {
-				$('.overlay').fadeOut('800');
 				// Remove the content
-				$('overlay-content').empty();
+				$('.overlay-content').empty();
+				$('.overlay').fadeOut('800');
+				$('#nav').fadeIn();
+				$('#nav').css('opacity', 1);
+				$('#menuAnchor').show();
+				$('.page-footer').show();
 			};
 			
 			$('.overlay').hide();
 			$('.overlay-trigger').on('click', function(event) {
 				event.preventDefault();
 				$.get(event.target.href, function(r) { 
-					console.log(r);
 					if (r) {
 						$('.overlay-content').append(r);
 						$('.hide-in-overlay').hide();
