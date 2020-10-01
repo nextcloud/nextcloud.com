@@ -406,7 +406,7 @@
         <div class="row">
 
             <div class="col-md-6 image--floated image--feature">
-                <a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"/></a>
+                <a class="overlay-trigger" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"/></a>
             </div>
                 <h3 class="section--paragraph__title"><?php echo $l->t('Collaborate on documents with Collabora');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Collabora Online integration in Nextcloud empowers your users to collaborate on office documents with team members in real time.');?></p>
@@ -429,7 +429,7 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-6 image--feature new-img">
-                <img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP_2FA_auth.png" alt="in action" >
+                <a class="overlay-trigger" href="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP_2FA_auth.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP_2FA_auth.png" alt="in action" ></a>
             </div>
 
             <div class="col-md-6 feature--block">
@@ -452,7 +452,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 image--feature new-img image--floated">
-                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring.png" alt="Screenshot of file monitoring"/></a>
+                <a class="overlay-trigger" href="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring.png" alt="Screenshot of file monitoring"/></a>
             </div>
             <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Compliance-ready monitoring');?></h3>
@@ -485,7 +485,7 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-6 image--feature">
-                <a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"/></a>
+                <a class="overlay-trigger" href="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/external-storage-nw.png"/></a>
             </div>
                 <h3 class="section--paragraph__title"><?php echo $l->t('External storage, securely encrypted');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('The external storage feature of Nextcloud gives users access to their data wherever it is. Nextcloud Files can access data stored with a wide variety of popular cloud service providers such as Amazon, Google and Dropbox, but can also access file storage solutions using standard protocols such as NFS, (S)FTP, WebDAV and more.');?></p>
@@ -500,7 +500,7 @@
 	<div class="container">
         <div class="row">
             <div class="col-md-6 image--feature new-img image--floated">
-                <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/usermanagement.png" alt="in action" ></a>
+                <a class="overlay-trigger" href="<?php bloginfo('template_directory'); ?>/assets/img/features/usermanagement.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/usermanagement.png" alt="in action" ></a>
             </div>
                 <h3 class="section--paragraph__title"><?php echo $l->t('Integrated account management');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud features built-in account management with optional two-factor authentication as well as Single-sign-on support and integration with external user directories like LDAP or IMAP, SMB, FTP and more.');?></p>
