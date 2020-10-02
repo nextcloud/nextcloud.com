@@ -21,6 +21,12 @@
     <a href="<?php echo home_url('press/pr20200117-2') ?>" class="button button--large button--white button--arrow">Press release</a>
     <h2>Press releases 2020</h2>
     <ul>
+        <li><a href="<?php echo home_url('press/pr20201003-0') ?>">October 3, 2020: Nextcloud Hub 20 debuts Dashboard, unifies search, becomes an integration platform</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-1') ?>">October 3, 2020: Nextcloud becomes an integration platform with Microsoft, Google, Slack, Moodle, Github, Jira, Dropbox, Matrix and more</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-2') ?>">October 3, 2020: Nextcloud announces Gitlab integration at Nextcloud Conference</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-3') ?>">October 3, 2020: Nextcloud and Hancom partner up to provide users a secure, real-time co-authoring experience</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-4') ?>">October 3, 2020: Moodle and Nextcloud announce further integration steps at Nextcloud Conference</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-5') ?>">October 3, 2020: Zammad and Nextcloud announce collaboration at Nextcloud Conference</a></li>
         <li><a href="<?php echo home_url('press/pr20200831') ?>">August 31, 2020: Nextcloud and Kaspersky partner up to protect users from malicious files</a></li>
         <li><a href="<?php echo home_url('press/pr20200818') ?>">August 18, 2020: Production ready end-to-end encryption and new user interface for desktop client 3.0</a></li>
         <li><a href="<?php echo home_url('press/pr20200728') ?>">July 28, 2020: Nextcloud introduces Forms to protect privacy-sensitive survey data</a></li>
