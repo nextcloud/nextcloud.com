@@ -100,7 +100,7 @@
     </div>
 	<div class="row feature-row">
 		<div class="col-md-4">
-            <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/gdpr-apps-nw.png" alt="GDPR apps"/></a>
+            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/gdpr-apps-nw.png" alt="GDPR apps"/>
         </div>
 		<div class="col-md-8  feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('GDPR, CCPA and more');?></p>
@@ -111,7 +111,7 @@
     </div>
 	<div class="row feature-row">
 		<div class="col-md-4">
-            <a><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/European_Commission.svg" alt="EU logo"/></a>
+            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/European_Commission.svg" alt="EU logo"/>
         </div>
 		<div class="col-md-8  feature--block">
 			<p class="section--paragraph__tittle"><?php echo $l->t('ePrivacy Regulation');?></p>
@@ -320,7 +320,7 @@
 	</div>
     <div class="row">
 		<div class="col-md-6 image--feature new-img">
-			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk_bridge_slack_matrix.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk_bridge_slack_matrix.png" class="img-responsive featureimg" alt="<?php echo $l->t('Bridging Slack and Matrix into a room');?>" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk_bridge_slack_matrix.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk_bridge_slack_matrix.png" class="overlay-trigger img-responsive featureimg" alt="<?php echo $l->t('Bridging Slack and Matrix into a room');?>" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Bridging with other networks');?></p>
@@ -331,13 +331,13 @@
 	</div>
 	<div class="row">
         <div class="col-md-4">
-            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png" class="img-responsive featureimg" /></a><br /><?php echo $l->t('Connect chat rooms to files, tasks and other data using Projects');?>
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png" class="overlay-trigger img-responsive featureimg" /></a><br /><?php echo $l->t('Connect chat rooms to files, tasks and other data using Projects');?>
         </div>
         <div class="col-md-4">
-            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-view-file.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-view-file.png" class="img-responsive featureimg" alt="<?php echo $l->t('Viewing a video during a chat in Talk');?>" /></a><br /><?php echo $l->t('Viewing a video during a chat in Talk');?>
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-view-file.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-view-file.png" class="overlay-trigger img-responsive featureimg" alt="<?php echo $l->t('Viewing a video during a chat in Talk');?>" /></a><br /><?php echo $l->t('Viewing a video during a chat in Talk');?>
         </div>
         <div class="col-md-4">
-            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png" class="img-responsive featureimg" alt="<?php echo $l->t('Editing a document during a call in Talk');?>" /></a><br /><?php echo $l->t('Editing a document during a call in Talk');?>
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png" class="overlay-trigger img-responsive featureimg" alt="<?php echo $l->t('Editing a document during a call in Talk');?>" /></a><br /><?php echo $l->t('Editing a document during a call in Talk');?>
         </div>
     </div>
 	<div class="row">
