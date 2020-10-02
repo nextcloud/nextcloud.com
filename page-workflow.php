@@ -41,7 +41,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 image--floated image--feature new-img">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png"><img class="img-responsive featureimg" alt="pic of flow in action"  src="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png"><img class="overlay-trigger img-responsive featureimg" alt="pic of flow in action"  src="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-user.png" /></a>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Automate tasks');?></h3>
@@ -51,7 +51,7 @@
 	</div>
     <div class="row">
 		<div class="col-md-6 image--floated image--feature new-img">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-admin.png"><img class="img-responsive featureimg" alt="pic of flow in action" src="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-admin.png" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-admin.png"><img class="overlay-trigger img-responsive featureimg" alt="pic of flow in action" src="<?php bloginfo('template_directory'); ?>/assets/img/features/flow-as-admin.png" /></a>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Access on your terms');?></h3>
@@ -103,7 +103,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 image--feature">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-tagging-retention-nw.png" class="img-responsive featureimg" />
+			<img src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-tagging-retention-nw.png" class="overlay-trigger img-responsive featureimg" />
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('Define automated Workflows and retention');?></h3>
@@ -147,7 +147,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 image--feature image--floated">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/FileAccessControl-at-home.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control-nw.png" class="img-responsive featureimg" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/FileAccessControl-at-home.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/file-access-control-nw.png" class="overlay-trigger img-responsive featureimg" /></a>
 		</div>
 		<div class="col-md-6">
 			<h3 class="section--paragraph__title"><?php echo $l->t('File access control at home');?></h3>
@@ -170,3 +170,4 @@
 		</div>
 	</div>
 </div>-->
+<?php require get_template_directory().'/overlay.php'; ?>

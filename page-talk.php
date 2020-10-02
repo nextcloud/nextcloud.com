@@ -57,7 +57,7 @@
 <div class="container">
    	<div class="row">
         <div class="col-md-6  image--feature new-img">
-			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-promoted-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-promoted-view.png" class="img-responsive featureimg" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-promoted-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-promoted-view.png" class="img-responsive featureimg overlay-trigger" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Unique protection');?></p>
@@ -106,7 +106,7 @@
 			<p class="section--paragraph__tittle"><?php echo $l->t('GDPR, CCPA and more');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The GDPR (General Data Protection Regulation) makes organizations liable for any violations of user privacy and deviations from a high data security standard.<br>Legislation like the CCPA (California Consumer Privacy Act of 2018) brings similar regulation to other countries.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud has extensive GDPR compliance capabilities.');?></p>
-			<p class="section--paragraph"><a class="button button--blue button--medium" href="<?php echo home_url('gdpr') ?>"><?php echo $l->t('Learn more');?></a></p>
+			<p class="section--paragraph"><a class="overlay-trigger button button--blue button--medium" href="<?php echo home_url('gdpr') ?>"><?php echo $l->t('Learn more');?></a></p>
 		</div>
     </div>
 	<div class="row feature-row">
@@ -283,7 +283,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6  image--feature new-img">
-			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-view.png" class="img-responsive featureimg" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-view.png" class="overlay-trigger img-responsive featureimg" /></a>
 		</div>
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Private, group and public calls');?></p>
@@ -294,7 +294,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6  image--floated  image--feature new-img">
-			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png" class="img-responsive featureimg" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png" class="overlay-trigger img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Collaboration within Nextcloud');?></p>
@@ -317,7 +317,7 @@
     </div>
 	<div class="row">
 		<div class="col-md-6 image--floated">
-			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
 		</div>
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Webinars and presentations');?></p>
@@ -329,7 +329,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6  image--feature new-img">
-			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png" class="img-responsive featureimg" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png" class="overlay-trigger img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Commands for productivity');?></p>
@@ -340,7 +340,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6  image--floated  image--feature">
-            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-6-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-6-view.png" class="img-responsive featureimg" /></a>
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-6-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-6-view.png" class="overlay-trigger img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Secure and private');?></p>
@@ -363,7 +363,7 @@
     </div>
     <div class="row">
 		<div class="col-md-6  image--floated   image--feature new-img">
-            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/password-less-webauthn.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/password-less-webauthn.png" class="img-responsive featureimg" /></a>
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/password-less-webauthn.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/password-less-webauthn.png" class="overlay-trigger img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('A platform you can trust');?></p>
@@ -513,3 +513,4 @@
 </div>
 </section>
 <?php require get_template_directory().'/verticals.php';?>
+<?php require get_template_directory().'/overlay.php'; ?>

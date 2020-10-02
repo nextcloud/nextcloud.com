@@ -160,7 +160,7 @@
                 <h3 class="section--paragraph__title"><?php echo $l->t('Workflow management');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('With Nextcloud, system administrators can control and direct the flow of data between users on or between servers. Rule-based file tagging and responding to these tags as well as other triggers like physical location, user group, file properties and request type enables administrators to specifically deny access to, convert, delete or retain data following business or legal requirements.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud puts IT in control of user data and keeps it safe.');?></p>
-                <a href="<?php echo home_url('workflow') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Workflow handling');?></a>
+                <a href="<?php echo home_url('workflow') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Workflow handling');?></a>
             </div>
         </div>
 	</div>
@@ -193,7 +193,7 @@
                 <h3 class="section--paragraph__title"><?php echo $l->t('Secure file exchange');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud Files enables hospitals, banks, notaries and government agencies to securely send files to and receive files from customers, patients, clients or partners.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The easy web and mobile interfaces of Nextcloud Files allow users to share files with other users on the server, to create and send password-protected public links, to let others upload files to the private cloud and to get notifications on phone and desktop when a user on another cloud server shares files.');?></p>
-                <a href="<?php echo home_url('file-drop') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Secure file exchange');?></a><br>
+                <a href="<?php echo home_url('file-drop') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Secure file exchange');?></a><br>
             </div>
         </div>
     </div>
@@ -215,7 +215,7 @@
                 <p class="section--paragraph"><?php echo $l->t('Nextcloud Files clients for Android, iOS and desktop systems allow users to sync and share files, in a fully secure way through an encrypted connection. The mobile clients feature automatic upload of pictures and videos users take and they can synchronize selected files and folders. The clients can handle multiple accounts, show all activity happening on the server and notify users of new events such as the availability of new shares.');?></p>
                 <!--<p class="section--paragraph"><?php echo $l->t('The Nextcloud clients support');?> <a class="hyperlink" href="<?php echo home_url('endtoend') ?>"><?php echo $l->t('End-to-end Encryption</a> for ultimate security of enterprise data.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Note that E2E is currently (2019) in beta. V2 is expected end summer 2020.');?></p>-->
-                   <a href="<?php echo home_url('clients') ?>" class="button button--blue button--arrow button--large"><?php echo $l->t('Nextcloud clients');?></a>
+                   <a href="<?php echo home_url('clients') ?>" class="button button--blue button--arrow button--large overlay-trigger"><?php echo $l->t('Nextcloud clients');?></a>
             </div>
         </div>
 	</div>
@@ -235,7 +235,7 @@
             </div>
             <div class="col-md-6 feature--block">
                 <p class="section--paragraph"><?php echo $l->t('The Nextcloud Secure Sharing Outlook Add-in enables Nextcloud users to easily and securely send files, folders or upload links to others from within Microsoft Outlook. The Add-in can replace attachments, automatically uploading files to Nextcloud and inserting a secure link in the email. It also makes it easy for users to provide others with a secure file upload link.');?></p>
-                <p><a href="<?php echo home_url('outlook') ?>" class="button button--arrow button--large"><?php echo $l->t('Secure Sharing Outlook Add-in');?></a></p>
+                <p><a href="<?php echo home_url('outlook') ?>" class="button button--arrow button--large overlay-trigger"><?php echo $l->t('Secure Sharing Outlook Add-in');?></a></p>
             </div>
         </div>
     </div>
@@ -289,3 +289,4 @@
         </div>
     </div>
 </section>
+<?php require get_template_directory().'/overlay.php'; ?>

@@ -431,3 +431,5 @@
 		<a class="button button--blue button--arrow button--large" href="https://newsletter.nextcloud.com/?p=subscribe&id=1" role="button"><?php echo $l->t('Subscribe');?></a>
 	</div>
 </section>
+
+<?php require get_template_directory().'/overlay.php'; ?>
