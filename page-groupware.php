@@ -74,7 +74,7 @@
     </div>
 	<div class="row">
 		<div class="col-md-6 image--feature new-img">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail.png"><img alt="screenshot of mail in action" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail.png" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_threaded_view.png"><img alt="<?php echo $l->t('screenshot of mail reading emails');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_threaded_view.png" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Mail');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Send and receive emails in a breeze');?></p>
@@ -88,9 +88,19 @@
 			');?></p>
         </div>
 	</div>
+    <div class="row">
+		<div class="col-md-6 image--feature">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_mailbox_management.png"><img alt="<?php echo $l->t('screenshot of mailbox management in action');?>" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_mailbox_management.png" /></a><br />
+			<?php echo $l->t('Mailbox management');?>
+        </div>
+		<div class="col-md-6 image--feature">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_itinerary.png"><img alt="<?php echo $l->t('screenshot of mail itinerary reading in action');?>" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_itinerary.png" /></a><br />
+            <?php echo $l->t('Adding an ittinerary to the Calendar');?>
+        </div>
+	</div>
 	<div class="row">
-		<div class="col-md-6 image--floated image--feature new-img">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png"><img class="overlay-trigger img-responsive featureimg" alt="pic of calendar in action" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" /></a>
+		<div class="col-md-6 image--floated image--feature">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png"><img class="overlay-trigger img-responsive featureimg" alt="<?php echo $l->t('pic of calendar in action');?>" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Calendar');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Schedule work and meetings online');?></p>
@@ -100,6 +110,16 @@
 			<li>Book resources through a busy view or plan a Talk meeting</li>
 			</ul>
 			');?></p>
+        </div>
+	</div>
+    <div class="row">
+		<div class="col-md-6 image--feature">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_list_view.png"><img alt="<?php echo $l->t('Calendar list view');?>" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_list_view.png" /></a><br />
+			<?php echo $l->t('Calendar list view');?>
+        </div>
+		<div class="col-md-6 image--feature">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_day_view.png"><img alt="<?php echo $l->t('Calendar day view');?>" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_day_view.png" /></a><br />
+            <?php echo $l->t('Calendar day view');?>
         </div>
 	</div>
 	<div class="row">
@@ -129,7 +149,18 @@
 			</ul>
 			');?></p>
         </div>
-	</div>	<div class="row">
+	</div>
+    <div class="row">
+		<div class="col-md-6 image--feature">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/deck_modal_card_view.png"><img alt="<?php echo $l->t('Viewing a card in Deck');?>" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck_modal_card_view.png" /></a><br />
+			<?php echo $l->t('Viewing a card in Deck');?>
+        </div>
+		<div class="col-md-6 image--feature">
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/deck_in_calendar.png"><img alt="<?php echo $l->t('Deck integration in Calendar');?>" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck_in_calendar.png" /></a><br />
+            <?php echo $l->t('Deck integration in Calendar');?>
+        </div>
+	</div>
+	<div class="row">
         <div class="col-sm-8 col-sm-offset-2">
             <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud fluently integrates into your existing infrastructure while also providing its own. Note that Nextcloud Mail is a client for IMAP-infrastructure; Nextcloud does not include a mail server.');?></p>
         </div>

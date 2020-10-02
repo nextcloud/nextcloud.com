@@ -154,6 +154,7 @@
                     <li><?php echo $l->t('Self-hosted so no leaking of metadata');?></li>
                     <li><?php echo $l->t('Encrypted, peer-to-peer audio/video calls');?></li>
                     <li><?php echo $l->t('WebRTC for cross-platform support');?></li>
+                    <li><?php echo $l->t('Powerful bridging capabilities with other platforms');?></li>
                 </ul></p>
             </div>
             <div class="col-sm-4">
@@ -263,6 +264,18 @@
                     <p class="section--paragraph"><?php echo $l->t('<strong>Be mobile</strong><br>Mobile clients & browser support');?></p>
                 </div>
 			</div>
+            <div class="row">
+                <div class="col-sm-3 col-lg-2 featureblock">
+                    <div class="icon">
+                        <div class="scaling-svg-container">
+                            <?php echo file_get_contents(get_template_directory_uri()."/assets/img/icons/group.svg"); ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-9 col-lg-10 featureblock">
+                    <p class="section--paragraph"><?php echo $l->t('<strong>Stay Connected</strong><br>Bridge with other chat networks');?></p>
+                </div>
+			</div>
         </div>
 </div>
 </section>
@@ -294,7 +307,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6  image--floated  image--feature new-img">
-			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png" class="overlay-trigger img-responsive featureimg" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/Talk_upload.gif"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/Talk_upload.gif" class="overlay-trigger img-responsive featureimg" alt="<?php echo $l->t('Dropping a file in a call in Talk');?>" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Collaboration within Nextcloud');?></p>
@@ -304,9 +317,20 @@
             <blockquote class="section--paragraph"><?php echo $l->t('Drag a document into a chat and edit it with other participants during a video call');?></blockquote>
 		</div>
 	</div>
+    <div class="row">
+		<div class="col-md-6 image--feature new-img">
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk_bridge_slack_matrix.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk_bridge_slack_matrix.png" class="img-responsive featureimg" alt="<?php echo $l->t('Bridging Slack and Matrix into a room');?>" /></a>
+		</div>
+        <div class="col-md-6">
+            <p class="section--paragraph__tittle"><?php echo $l->t('Bridging with other networks');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Nextcloud Bridging allows the connection of Talk rooms to one or more channels on other services like IRC, Slack, Microsoft Teams, Matrix, Mattermost, XMPP and many more.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('A bridge sends any messages from the third party network into the Talk room where it was configured, and any messages put in the Talk room to the bridget third party network.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Multiple networks can be bridged into a single Nextcloud Talk room, so messages can go from Slack to Teams and IRC via Nextcloud.');?></p>
+		</div>
+	</div>
 	<div class="row">
         <div class="col-md-4">
-            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-drop-file-in-call.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-drop-file-in-call.png" class="img-responsive featureimg" alt="<?php echo $l->t('Dropping a file in a call in Talk');?>" /></a><br /><?php echo $l->t('Dropping a file in a call in Talk');?>
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png" class="img-responsive featureimg" /></a><br /><?php echo $l->t('Connect chat rooms to files, tasks and other data using Projects');?>
         </div>
         <div class="col-md-4">
             <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-view-file.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-view-file.png" class="img-responsive featureimg" alt="<?php echo $l->t('Viewing a video during a chat in Talk');?>" /></a><br /><?php echo $l->t('Viewing a video during a chat in Talk');?>
@@ -339,8 +363,8 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6  image--floated  image--feature">
-            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-6-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-6-view.png" class="overlay-trigger img-responsive featureimg" /></a>
+		<div class="col-md-6  image--floated  image--feature new-img">
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/Talk_settings.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/Talk_settings.png" class="overlay-trigger img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Secure and private');?></p>
@@ -409,8 +433,8 @@
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Easy for private use');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Nextcloud Talk is designed for easy installation and operation. Nextcloud hosts a STUN server to facilitate usage behind firewalls and we recommend the installation of a local TURN server to improve connectivity further. Note that calls get fully routed through a TURN server, causing a lot of network traffic.');?> <a class="hyperlink" href="https://nextcloud-talk.readthedocs.io/en/latest/TURN/"><?php echo $l->t('Find documentation on installing a TURN server here.');?></a></p>
-			<p class="section--paragraph"><?php echo $l->t('The peer to peer nature of Talk does inflate network traffic, creating one incoming and sending stream per other participant. This places practical limitations on calls that depend on network capabilities. A typical private Nextcloud Talk setup should handle dozens of calls with each up to 4-6 participants, up to 20 if all participants have a good network connection and do not use video.');?></p>
-			<p class="section--paragraph"><a href="https://github.com/nextcloud/spreed/#scalability"><?php echo $l->t('If you want to have a call with many people, see tips in our documentation.');?></a></p>
+			<p class="section--paragraph"><?php echo $l->t('The peer to peer nature of Talk does inflate network traffic, creating one incoming and sending stream per other participant. This places practical limitations on calls that depend on network capabilities. A typical private Nextcloud Talk setup should handle dozens of calls with each up to 6-10 participants, up to 20 if all participants have a good network connection and do not use video.');?></p>
+			<p class="section--paragraph"><a class="hyperlink" href="https://github.com/nextcloud/spreed/#scalability"><?php echo $l->t('If you want to have a call with many people, see tips in our documentation.');?></a></p>
 		</div>
 	</div>
 	<div class="row">
@@ -425,15 +449,16 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6 image--floated">
-			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
+		<div class="col-md-6 image--floated  image--feature new-img">
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-setup.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/HPB-setup.png" /></a>
 		</div>
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Scaling further: webinars, school classes');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Webinars and other large scale broadcasting type calls are possible with hundreds of participants. The High Performance Back-end setup includes special features for this.');?></p>
 			<p class="section--paragraph__tittle"><?php echo $l->t('High Performance Back-end');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The HPB also lowers the load from calls on the Nextcloud server, taking care of \'signaling\' and optionally enables connecting a SIP gate so users can dial in by phone into calls.');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The HPB runs on-premises, like Nextcloud itself. Customers should be aware that it has significant dedicated bandwidth and processing needs. The HPB is available through Nextcloud GmbH.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The HPB runs on-premises, like Nextcloud itself, or through a hosted offering by Struktur AG. Customers should be aware that it has significant dedicated bandwidth and processing needs. The HPB is available through Nextcloud GmbH.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('Sign up for a free 30 day test of the hosted HPB offering of Struktur AG in the Talk settings page.');?></p>
 		</div>
 	</div>
 </div>
