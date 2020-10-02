@@ -156,7 +156,7 @@
         </div>
         <div class="col-md-3 featureblock">
         <p class=""><?php echo $l->t('Seamlessly edit office documents together with others, take notes while in a video call.');?></p>
-        <a href="<?php echo home_url('collabora') ?>" class="overlay-trigger button button--white button--arrow"><?php echo $l->t('Learn more about Collabora Online');?></a>
+        <a href="<?php echo home_url('collaboraonline') ?>" class="overlay-trigger button button--white button--arrow"><?php echo $l->t('Learn more about Collabora Online');?></a>
         </div>
     </div>
     <div class="row">
@@ -421,7 +421,7 @@
 <section class="section--ONLYOFFICE">
 	<div class="container">
         <div class="row">
-            <div class="col-md-6 image--floated image--feature">
+            <div class="col-md-6 image--floated image--feature new-img">
                 <a class="overlay-trigger" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"/></a>
             </div>
            <div class="col-md-6 feature--block">

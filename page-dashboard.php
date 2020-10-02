@@ -20,7 +20,7 @@
 <div class="container">
 	<div class="row">
         <div class="col-md-10 col-md-offset-1 video">
-			<stream src="b5442e477fa8b39c31119a1f2321ddcf" controls loop poster="<?php bloginfo('template_directory'); ?>/assets/img/features/nextcloud20.png"></stream>
+			<stream src="b5442e477fa8b39c31119a1f2321ddcf" controls loop preload mute autoplay  poster="<?php bloginfo('template_directory'); ?>/assets/img/features/nextcloud20.png"></stream>
             <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=b5442e477fa8b39c31119a1f2321ddcf"></script>
 		</div>
     </div>

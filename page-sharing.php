@@ -85,6 +85,7 @@ require(["require.config"], function() {
                     <li><?php echo $l->t('Smoothly transition between commenting on files to chat or video calls');?></li>
                     <li><?php echo $l->t('Transfer ownership of files and folders to other users');?></li>
                     <li><?php echo $l->t('Lock files so others know you are working with them');?></li>
+                    <li><?php echo $l->t('Add a description to public links so you can keep them apart');?></li>
                 </ul>
             </div>
         </div>
