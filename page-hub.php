@@ -401,13 +401,30 @@
 
 <?php require get_template_directory().'/onpremises.php';?>
 
+
+<section class="section--dashboard">
+<div class="container">
+	<div class="row">
+        <div class="col-md-6 image--feature">
+			<stream src="b5442e477fa8b39c31119a1f2321ddcf" controls loop poster="<?php bloginfo('template_directory'); ?>/assets/img/features/nextcloud20.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=b5442e477fa8b39c31119a1f2321ddcf"></script>
+		</div>
+		<div class="col-md-6 feature--block">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Start your day informed');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('The Nextcloud Dashboard is your starting point of the day, giving you an overview of your upcoming appointments, urgent emails, chat messages, incoming tickets, latest tweets and much more! Users can set their status so others know what they are up to..');?></p>
+                <a href="<?php echo home_url('dashboard') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Dashboard features');?></a>
+		</div>
+	</div>
+</div>
+</section>
+
 <section class="section--ONLYOFFICE">
 	<div class="container">
         <div class="row">
-
             <div class="col-md-6 image--floated image--feature">
                 <a class="overlay-trigger" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-edit-document.png"/></a>
             </div>
+           <div class="col-md-6 feature--block">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Collaborate on documents with Collabora');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('Collabora Online integration in Nextcloud empowers your users to collaborate on office documents with team members in real time.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Compatibility with Microsoft Office formats means perfect documents, every time.');?></p>
@@ -423,12 +440,28 @@
 	</div>
 </section>
 
+<section class="section--search">
+	<div class="container">
+        <div class="row">
+            <div class="col-md-6 image--feature">
+                <stream src="d496e44cb39e8570a52a22259545aec4" controls loop poster="<?php bloginfo('template_directory'); ?>/assets/img/features/search_moodle_course_module.png"></stream>
+                <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=d496e44cb39e8570a52a22259545aec4"></script>
+            </div>
+           <div class="col-md-6 feature--block">
+                <h3 class="section--paragraph__tittle"><?php echo $l->t('Find everything in one place');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('On the top-right of your Nextcloud window, a search glass shows search results from all over Nextcloud. Additional search providers can be installed and over a dozen different search providers are available to show you Github issues, Moodle courses, Jira tickets and more.');?></p>
+                <a href="<?php echo home_url('unified-search') ?>" class="overlay-trigger button button--blue button--arrow button--large"><?php echo $l->t('Unified search');?></a>
+            </div>
+        </div>
+	</div>
+</section>
+
 
 <section class="section--security">
 	<a name="security" id="security"></a>
 	<div class="container">
         <div class="row">
-            <div class="col-md-6 image--feature new-img">
+            <div class="col-md-6 image--floated image--feature new-img">
                 <a class="overlay-trigger" href="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP_2FA_auth.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/TOTP_2FA_auth.png" alt="in action" ></a>
             </div>
 
@@ -446,12 +479,11 @@
 	</div>
 </section>
 
-
 <section class="section--monitoring">
     <a name="monitoring" id="monitoring"></a>
     <div class="container">
         <div class="row">
-            <div class="col-md-6 image--feature new-img image--floated">
+            <div class="col-md-6 image--feature new-img">
                 <a class="overlay-trigger" href="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/monitoring.png" alt="Screenshot of file monitoring"/></a>
             </div>
             <div class="col-md-6 feature--block">

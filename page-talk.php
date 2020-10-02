@@ -306,8 +306,9 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6  image--floated  image--feature new-img">
-			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/Talk_upload.gif"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/Talk_upload.gif" class="overlay-trigger img-responsive featureimg" alt="<?php echo $l->t('Dropping a file in a call in Talk');?>" /></a>
+		<div class="col-md-6  image--floated  image--feature">
+			<stream src="8c70d0777e1c971aad0640cad4593875" controls loop autoplay poster="<?php bloginfo('template_directory'); ?>/assets/img/features/Talk_upload_files.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=8c70d0777e1c971aad0640cad4593875"></script>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Collaboration within Nextcloud');?></p>

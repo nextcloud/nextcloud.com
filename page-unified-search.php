@@ -1,9 +1,9 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/unified-search.css?v=1" rel="stylesheet">
-<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/groupware-video.png">
-<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/groupware-video.png">
-<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/groupware-video.png">
-<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/groupware-video.png">
+<meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/search_moodle_course_module.png">
+<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/search_moodle_course_module.png">
+<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/search_moodle_course_module.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/search_moodle_course_module.png">
 <meta name=”Description” content="Integrated email communication in Nextcloud.">
 </head>
 <div class="background unified-search-background">
@@ -16,18 +16,25 @@
 		</div>
 	</div>
 </div>
+<section class="section--intro">
+<div class="container">
+	<div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+			<stream src="d496e44cb39e8570a52a22259545aec4" controls loop poster="<?php bloginfo('template_directory'); ?>/assets/img/features/search_moodle_course_module.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=d496e44cb39e8570a52a22259545aec4"></script>
+		</div>
+    </div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+                <h3 class="section--paragraph__tittle"><?php echo $l->t('Find everything in one place');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('On the top-right of your Nextcloud window, a search glass shows search results from all over Nextcloud. Additional search providers can be installed and over a dozen different search providers are available to show you Github issues, Moodle courses, Jira tickets and more');?></p>
+		</div>
+	</div>
+</div>
+</section>
 
 <section class="section--features">
 	<div class="container">
-        <div class="row ">
-            <div class="col-md-6 image--floated image--feature">
-                    <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/unified_search.gif"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/unified_search.gif" alt="Unified search in action" /></a>
-            </div>
-            <div class="col-md-6 featureblock">
-                <h3 class="section--paragraph__tittle"><?php echo $l->t('Find everything in one place');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('On the top-right of your Nextcloud window, a search glass shows search results from all over Nextcloud. Additional search providers can be installed and over a dozen different search providers can offer you results.');?></p>
-            </div>
-        </div>
         <div class="row ">
             <div class="col-md-6 image--feature new-img">
                     <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/search_moodle_course_module.png"><img class="img-responsive featureimg" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/search_moodle_course_module.png" alt="Searching Moodle courses and modules" /></a>
