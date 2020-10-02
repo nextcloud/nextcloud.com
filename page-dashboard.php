@@ -17,6 +17,25 @@
 	</div>
 </div>
 
+
+
+<section class="section--intro">
+<div class="container">
+	<div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+			<stream src="b5442e477fa8b39c31119a1f2321ddcf" controls poster="<?php bloginfo('template_directory'); ?>/assets/img/features/hub-video.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=b5442e477fa8b39c31119a1f2321ddcf"></script>
+		</div>
+    </div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+                <h3 class="section--paragraph__tittle text-center"><?php echo $l->t('Start your day informed');?></h3>
+                <p class="section--paragraph text-center"><?php echo $l->t('The Nextcloud Dashboard is your starting point of the day, giving you an overview of your upcoming appointments, urgent emails, chat messages, incoming tickets, latest tweets and much more! Users can add the widgets they like and change the background to their liking.');?></p>
+		</div>
+	</div>
+</div>
+</section>
+
 <section class="section--features">
 	<div class="container">
         <div class="row ">
@@ -24,8 +43,7 @@
                     <a href="<?php bloginfo('template_directory'); ?>/assets/img/features/dashboard_change_background.gif"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/dashboard_change_background.gif" alt="changing background" /></a>
             </div>
             <div class="col-md-6 featureblock">
-                <h3 class="section--paragraph__tittle"><?php echo $l->t('Start your day informed');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('The Nextcloud Dashboard is your starting point of the day, giving you an overview of your upcoming appointments, urgent emails, chat messages, incoming tickets, latest tweets and much more! Users can add the widgets they like and change the background to their liking.');?></p>
+
             </div>
         </div>
         <div class="row ">
