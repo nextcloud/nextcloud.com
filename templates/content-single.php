@@ -66,5 +66,6 @@
     </div>
     </div>
 </section>
+<?php require get_template_directory().'/overlay.php'; ?>
   </article>
 <?php endwhile; ?>
