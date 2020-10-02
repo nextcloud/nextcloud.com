@@ -57,7 +57,7 @@
 <div class="container">
    	<div class="row">
         <div class="col-md-6  image--feature new-img">
-			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-promoted-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-promoted-view.png" class="img-responsive featureimg" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-promoted-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-promoted-view.png" class="img-responsive featureimg overlay-trigger" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Unique protection');?></p>
@@ -283,7 +283,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6  image--feature new-img">
-			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-view.png" class="img-responsive featureimg" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-view.png" class="overlay-trigger img-responsive featureimg" /></a>
 		</div>
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Private, group and public calls');?></p>
@@ -294,7 +294,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6  image--floated  image--feature new-img">
-			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png" class="img-responsive featureimg" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-project-starfish.png" class="overlay-trigger img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Collaboration within Nextcloud');?></p>
@@ -317,7 +317,7 @@
     </div>
 	<div class="row">
 		<div class="col-md-6 image--floated">
-			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png"><img class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-screensharing-other-nw.png" /></a>
 		</div>
 		<div class="col-md-6">
 			<p class="section--paragraph__tittle"><?php echo $l->t('Webinars and presentations');?></p>
@@ -329,7 +329,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6  image--feature new-img">
-			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png" class="img-responsive featureimg" /></a>
+			<a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/command-help.png" class="overlay-trigger img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Commands for productivity');?></p>
@@ -340,7 +340,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6  image--floated  image--feature">
-            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-6-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-6-view.png" class="img-responsive featureimg" /></a>
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-6-view.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/talk-grid-6-view.png" class="overlay-trigger img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('Secure and private');?></p>
@@ -363,7 +363,7 @@
     </div>
     <div class="row">
 		<div class="col-md-6  image--floated   image--feature new-img">
-            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/password-less-webauthn.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/password-less-webauthn.png" class="img-responsive featureimg" /></a>
+            <a target="_blank" href="<?php bloginfo('template_directory'); ?>/assets/img/features/password-less-webauthn.png"><img src="<?php bloginfo('template_directory'); ?>/assets/img/features/password-less-webauthn.png" class="overlay-trigger img-responsive featureimg" /></a>
 		</div>
         <div class="col-md-6">
             <p class="section--paragraph__tittle"><?php echo $l->t('A platform you can trust');?></p>
