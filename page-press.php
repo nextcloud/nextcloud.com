@@ -27,6 +27,7 @@
         <li><a href="<?php echo home_url('press/pr20201003-3') ?>">October 3, 2020: Nextcloud and Hancom partner up to provide users a secure, real-time co-authoring experience</a></li>
         <li><a href="<?php echo home_url('press/pr20201003-4') ?>">October 3, 2020: Moodle and Nextcloud announce further integration steps at Nextcloud Conference</a></li>
         <li><a href="<?php echo home_url('press/pr20201003-5') ?>">October 3, 2020: Zammad and Nextcloud announce collaboration at Nextcloud Conference</a></li>
+        <li><a href="<?php echo home_url('press/pr20201003-6') ?>">October 3, 2020: Nextcloud and Struktur offer easy 30 day trial and integrated signup for hosted HPB in Talk 10</a></li>
         <li><a href="<?php echo home_url('press/pr20200831') ?>">August 31, 2020: Nextcloud and Kaspersky partner up to protect users from malicious files</a></li>
         <li><a href="<?php echo home_url('press/pr20200818') ?>">August 18, 2020: Production ready end-to-end encryption and new user interface for desktop client 3.0</a></li>
         <li><a href="<?php echo home_url('press/pr20200728') ?>">July 28, 2020: Nextcloud introduces Forms to protect privacy-sensitive survey data</a></li>

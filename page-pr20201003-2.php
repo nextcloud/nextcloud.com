@@ -1,9 +1,9 @@
 <head>
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/pressrelease.css" rel="stylesheet">
-<meta itemprop="image" content="https://nextcloud.com/media/Forms.png">
-<meta name="twitter:image" content="https://nextcloud.com/media/Forms.png">
-<meta name="twitter:image:src" content="https://nextcloud.com/media/Forms.png">
-<meta property="og:image" content="https://nextcloud.com/media/Forms.png">
+<meta itemprop="image" content="https://nextcloud.com/media/search.gitlab.130.png">
+<meta name="twitter:image" content="https://nextcloud.com/media/search.gitlab.130.png">
+<meta name="twitter:image:src" content="https://nextcloud.com/media/search.gitlab.130.png">
+<meta property="og:image" content="https://nextcloud.com/media/search.gitlab.130.png">
 </head>
 <div class="background generic-background">
 	<div class="container">
@@ -21,17 +21,11 @@
 <div class="pr">
 <h1>Nextcloud announces Gitlab integration at Nextcloud Conference</h1>
 <p><em>October 3, 2020, Berlin</em> - Nextcloud GmbH, provider of the most deployed on-premises content collaboration platform, today announced the result of integration efforts with GitLab at the Nextcloud Conference in Berlin, Germany. Both platforms are available under open source licenses and designed for on-premises hosting or cloud hosting, giving customers control over security, compliance and cost factors and protecting their digital sovereignty.</p>
-<blockquote>
-<p>“With GitLab, customers get a complete CI/CD and security toolchain in a single application that spans the entire software development lifecycle,”</p>
-</blockquote>
+<blockquote>With GitLab, customers get a complete CI/CD and security toolchain in a single application that spans the entire software development lifecycle,</blockquote>
 <p>said Brandon Jung, VP of alliances at GitLab.</p>
-<blockquote>
-<p>“It is great to see an open source project like Nextcloud integrate with GitLab, providing value to our shared customers and users across the globe. The power of open source is deep integration and collaboration, and this development is a great example of that.”</p>
-</blockquote>
+<blockquote>It is great to see an open source project like Nextcloud integrate with GitLab, providing value to our shared customers and users across the globe. The power of open source is deep integration and collaboration, and this development is a great example of that.</blockquote>
 <p>With Nextcloud 20, an integration app provides Dashboard widgets with a GitLab todo overview and support for finding GitLab repositories and other content using Nextcloud’s new unified search. The integration features make it easier for Nextcloud users to track the state of GitLab work, improving response times and efficiency.</p>
-<blockquote>
-<p>With Nextcloud we offer a platform for real-time collaboration and communication. The new integration with GitLab offers capabilities in Nextcloud to create a more integrated experience for users, bringing the two platforms closer together. Users can see urgent tasks on their dashboard and plan work in the morning, or quickly find issues using the search.</p>
-</blockquote>
+<blockquote>With Nextcloud we offer a platform for real-time collaboration and communication. The new integration with GitLab offers capabilities in Nextcloud to create a more integrated experience for users, bringing the two platforms closer together. Users can see urgent tasks on their dashboard and plan work in the morning, or quickly find issues using the search.</blockquote>
 <p>-- Frank Karlitschek, Founder and CEO at Nextcloud GmbH</p>
 <p>The integration capabilities were demonstrated in a keynote by Nextcloud CEO Frank Karlitschek this weekend at the Nextcloud Conference in Berlin.</p>
 <p>The integration app is available from the Nextcloud app store for the just released Nextcloud 20 right now. Customers integrated with Gitlab and Nextcloud environment can contact Nextcloud GmbH.</p>
