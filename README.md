@@ -30,7 +30,7 @@ process easy and effective for everyone involved.
 
 ### Notes
 
-* Please don't commit straight into the master or live branches, these branches should remain as stable as possible, and changes should be discussed amongst the community.
+* Please don't commit straight into the master or live branches, these branches should remain as stable as possible, and changes should be discussed within the community.
 * If you are changing SCSS files during development, following command for automatic compilation is recommended:
   * `sass --watch [location to scss files]`
   

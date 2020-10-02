@@ -20,7 +20,7 @@
 		</div>
 	</div>
 </div>
-<div class="second-menu">
+<div class="second-menu hide-in-overlay">
 	<div class="container-fluid menu" id="menuAnchor">
 		<div class="container buttons">
 			<a href="#hosting"><span class="avoidwrap"><?php echo $l->t('Your files');?></span></a>

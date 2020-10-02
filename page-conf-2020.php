@@ -28,11 +28,11 @@
 			<h3 class="section--paragraph__title">October 3-4, <a class="hyperlink" href="https://www.bum.berlin/">bUm</a>/live online</h3>
 			<p class="section--paragraph">Annually bringing the global Nextcloud Contributor Community together for a week of coding, design, discussion, talks & fun.</p>
 			<p class="section--paragraph">Join from wherever you are - the event is taking place as a live online event space 🛰👾</a></p>
-			<p class="section--paragraph"><a href="https://eventyay.com/e/0917096d" class="button button--arrow button--large button--blue">Get your ticket</a>  <a href="https://eventyay.com/e/0917096d/cfs" class="button button--arrow button--large button--blue">Submit a talk</a>
+			<p class="section--paragraph"><a href="https://eventyay.com/e/0917096d" class="button button--arrow button--large button--blue">Get your ticket</a>  <!--<a href="https://eventyay.com/e/0917096d/cfs" class="button button--arrow button--large button--blue">Submit a talk</a>-->
 			<h3>As 2020 is the year of working from home, our theme this year is <strong>#HomeOffice</strong></h3>
 			<p>Everyone who has signed up will get information on how to participate. 👾 If you don't sign up you can follow the live 🛰 stream but you won't have an account that allows you to interact with other participants!</p>
 			<a href="https://nextcloud.com/livestream" class="button button--arrow button--large button--blue">Live stream</a>
-			<!--<a href="https://eventyay.com/e/70d8ad61/schedule" class="button button--arrow button--blue">Schedule</a> <a href="https://eventyay.com/e/70d8ad61/sessions/s/all" class="button button--arrow button--blue">Sessions</a> <a href="https://eventyay.com/e/70d8ad61/speakers" class="button button--arrow button--blue">Speakers</a>-->
+			<a href="https://eventyay.com/e/0917096d/schedule" class="button button--arrow button--blue">Schedule</a> <a href="https://eventyay.com/e/0917096d/sessions/s/all" class="button button--arrow button--blue">Sessions</a> <a href="https://eventyay.com/e/0917096d/speakers" class="button button--arrow button--blue">Speakers</a>
             <!--<p class="section--paragraph">The conference is over! Nearly 250 participants over 3 days and over 1500 viewers on our livestream shared a great experience and we want to thank everybody involved for their participation.<br />
             Six big announcemnts and many smaller were made. The live stream can still be viewed and we're working on putting videos online.
             <br /><a href="https://nextcloud.com/blog/massive-series-of-announcements-over-weekend-from-nextcloud-conf-event-continues/" class="button button--arrow button--large button--blue">Read the report</a>-->
@@ -55,7 +55,7 @@
 <section class="section--program">
     <div class="container">
         <div class="row text-center">
-            <p class="section--paragraph"><strong>Our official Nextcloud conference 2020 hashtag is #Nc2020 - let's connect! </strong></p>
+            <p class="section--paragraph"><strong>Our official Nextcloud conference 2020 hashtag is #nextcloudconf2020 - let's connect! </strong></p>
             <h1 class="">Online event</h1>
 		</div>
 		<div class="row">
@@ -67,7 +67,7 @@
                     <li class="checkmark">Every talk is followed by a live 🛰 Q&A ❓ session</li>
                     <li class="checkmark">Your questions guide our live 🛰 interviews 🎤 with speakers and sponsors</li>
                     <li class="checkmark">Ask questions at our live 🛰 🗣️ virtual booths </li>
-                    <li class="checkmark">We stream live 🛰 pictures 📷 a live blog and social media using #Nc2020</li>
+                    <li class="checkmark">We stream live 🛰 pictures 📷 a live blog and social media using #nextcloudconf2020</li>
                     <li class="checkmark">Team chats 👥, live 🛰 workshops and much more!</li>
                     <li class="checkmark">Join our PARTY 🎉 - a relaxed, casual chat about the <em>meaning of live</em> 🤖 <small>(42)</small></li>
                 </ul>
@@ -166,10 +166,10 @@
 			</ul></p>
 <!-- 			<p class="section--paragraph ">Stay tuned for more information! We'll open registration later this year and expect our call for papers early 2018.</p> -->
 <!--			<p class="section--paragraph ">On Monday the 16th we have a <a class="hyperlink" href="<?php echo home_url('training') ?>">special Enterprise day with a focus on enterprise and large scale Nextcloud usage.</a></p>-->
-<!-- 			<p class="section--paragraph ">Check out <a class="hyperlink" href="http://sched.eventyay.com/NextcloudConference2018/tracks.html">the full program</a>!</p> -->
+			<p class="section--paragraph ">Check out <a class="hyperlink" href="https://eventyay.com/e/0917096d/calendar">the full program</a>!</p>
 <!-- 			<p>The talks will be live-streamed, stay tuned for more information!</p> -->
-			<p class="section--paragraph ">Submit your session ideas in our <a class="hyperlink" href="https://eventyay.com/e/0917096d/cfs">call for papers</a> now!</p>
-<!--             <p class="section--paragraph"><a class="hyperlink" href="https://player.cloud.wowza.com/hosted/rpfqrcyp/player.html">Follow the talks streamed online</a></p> -->
+<!-- 			<p class="section--paragraph ">Submit your session ideas in our <a class="hyperlink" href="https://eventyay.com/e/0917096d/cfs">call for papers</a> now!</p> -->
+            <p class="section--paragraph"><a class="hyperlink" href="https://nextcloud.com/livestream">Follow the talks streamed online</a></p>
 		</div>
 	</div>
 <!-- 			<p class="section--paragraph text-center ">This is a hands-on event. <strong>Bring your laptop!</strong></p> -->
@@ -184,7 +184,7 @@
     </div>
 </section>-->
 
-<section class="section--call-for-papers">
+<!--<section class="section--call-for-papers">
 <div class="container">
 	<div class="row text-center">
 		<h3 class="section--paragraph__title ">We have opened our call for papers!<br />👾 unite and submit talks!</h3>
@@ -194,7 +194,7 @@
 		</div>
 	</div>
 </div>
-</section>
+</section>-->
 
 <!--<div class="section--travelsupport">
 <div class="container-fluid quote">

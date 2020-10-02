@@ -74,7 +74,7 @@
     </div>
 	<div class="row">
 		<div class="col-md-6 image--feature new-img">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_threaded_view.png"><img alt="<?php echo $l->t('screenshot of mail reading emails');?>" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_threaded_view.png" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_threaded_view.png"><img alt="<?php echo $l->t('screenshot of mail reading emails');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_threaded_view.png" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Mail');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Send and receive emails in a breeze');?></p>
@@ -100,7 +100,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 image--floated image--feature">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png"><img class="img-responsive featureimg" alt="<?php echo $l->t('pic of calendar in action');?>" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png"><img class="overlay-trigger img-responsive featureimg" alt="<?php echo $l->t('pic of calendar in action');?>" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar.png" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Calendar');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Schedule work and meetings online');?></p>
@@ -124,7 +124,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6">
-			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/contacts-nw.png" />
+			<img class="overlay-trigger img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/contacts-nw.png" />
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Contacts');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Keep your relations organized');?></p>
@@ -138,7 +138,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6 image--feature new-img image--floated">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png"><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png" alt="a project in deck" /></a>
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png"><img class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck-projects.png" alt="a project in deck" /></a>
         </div>
         <div class="col-md-6"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Deck');?></h3>
 			<p class="section--paragraph"><?php echo $l->t('Manage your work with others');?></p>
@@ -296,6 +296,7 @@
     </div>
 </div>
 </section>
+<?php require get_template_directory().'/overlay.php'; ?>
 
 <?php
 include get_template_directory() . '/verticals.php';
