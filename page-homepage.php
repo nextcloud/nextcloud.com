@@ -14,9 +14,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 toptext ">
-				<a class="announcement" href="https://nextcloud.com/blog/breaking-news-ecj-rules-us-cloud-services-fundamentally-incompatible-with-eu-privacy-laws/">
+				<a class="announcement" href="https://nextcloud.com/blog/nextcloud-hub-20-debuts-dashboard-unifies-search-and-notifications-integrates-with-other-technologies/">
 				<span class="type">News</span>
-				<span class="message"><strong><?php echo $l->t('BREAKING');?>:</strong> <?php echo $l->t('ECJ rules US Cloud services incompatible with EU Privacy laws');?></span>
+				<span class="message"><strong><?php echo $l->t('Nextcloud 20');?>:</strong> <?php echo $l->t('Dashboard, unified search, integration with third party platforms and more!');?></span>
 				<?php echo file_get_contents(get_template_directory_uri()."/assets/img/next.svg"); ?>
 				</a>
 				<h1 class="jumbotron--heading-1"><?php echo $l->t('Regain control');?></h1>
