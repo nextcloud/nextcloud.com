@@ -35,7 +35,7 @@
 <h2>Links</h2>
 <ul>
 <li><a href="https://nextcloud.com/about">nextcloud.com/about</a></li>
-<li><a href="https://office.handcom.com/nextcloud">office.handcom.com/nextcloud</a></li>
+<li><a href="https://office.hancom.com/nextcloud">office.hancom.com/nextcloud</a></li>
 <li><a href="https://www.hancomgroup.com/en/main">www.hancomgroup.com/en/main</a></li>
 </ul>
 <h2>Press contacts</h2>
