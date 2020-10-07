@@ -86,7 +86,7 @@
         <div class="col-md-8 col-md-offset-2">
         <h2><?php echo $l->t('Visit us!');?></h2>
         <p><address>Nextcloud GmbH<br/>
-        Hirschstrasse 26, 3rd Floor<br/>
+        Hirschstrasse 26, 4th Floor<br/>
         70173 Stuttgart Germany<br/></address>
         HRB 227086 (AG München)<br/>
         T +49 711 25 24 28 90<br/>
