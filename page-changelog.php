@@ -18,6 +18,7 @@
     <p>We recommend you follow our <a href="<?php echo home_url('release-channels') ?>">Release Channels</a> to always have the latest and most secure Nextcloud Server version which fits your needs.</p>
     Go directly to the latest maintenance release of:
     <ul>
+    <li><a href="#latest20">Nextcloud 20</a></li>
     <li><a href="#latest19">Nextcloud 19</a></li>
     <li><a href="#latest18">Nextcloud 18</a></li>
     <li><a href="#latest17">Nextcloud 17</a></li>
@@ -30,6 +31,38 @@
     <li><a href="#latest10">Nextcloud 10 (unsupported!)</a></li>
     <li><a href="#latest9">Nextcloud 9 (unsupported!)</a></li>
     </ul>
+
+
+    <a name="latest20"></a>
+<h3 id="20-0-0">Version 20.0.0<small>October 3 2020</small></h3>
+<p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.0.tar.bz2">nextcloud-20.0.0.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.0.zip">nextcloud-20.0.0.zip</a></br>
+Check the file integrity with:</br>
+MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.0.tar.bz2.md5">nextcloud-20.0.0.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.0.zip.md5">nextcloud-20.0.0.zip.md5</a></br>
+SHA256: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.0.tar.bz2.sha256">nextcloud-20.0.0.tar.bz2.sha256</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.0.zip.sha256">nextcloud-20.0.0.zip.sha256</a></br>
+SHA512: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.0.tar.bz2.sha512">nextcloud-20.0.0.tar.bz2.sha512</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.0.zip.sha512">nextcloud-20.0.0.zip.sha512</a></br>
+PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.0.tar.bz2.asc">nextcloud-20.0.0.tar.bz2.asc</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.0.zip.asc">nextcloud-20.0.0.zip.asc</a></p>
+
+<h4>Changes</h4>
+<p>The three biggest features we introduce with Nextcloud 20 are:</p>
+<ul>
+<li>🏁 Our new dashboard provides a great starting point for the day with over a dozen widgets ranging from Twitter and Github to Moodle and Zammad already available</li>
+<li>🔍 Search was unified, bringing search results of Nextcloud apps as well as external services like Gitlab, Jira and Discourse in one place</li>
+<li>🗨 Talk introduced bridging to other platforms including MS Teams, Slack, IRC, Matrix and a dozen others</li>
+</ul>
+👾 Some other improvements we want to highlight include:
+<ul>
+<li>📢 Notifications and Activities were brought together, making sure you won’t miss anything important</li>
+<li>🟢 We added a ‘status’ setting so you can communicate to other users what you are up to</li>
+<li>🗨 Talk also brings dashboard and search integration, emoji picker, upload view, camera and microphone settings, mute and more</li>
+<li>📅 Calendar integrates in dashboard and search, introduced a list view and design improvements</li>
+<li>📫 Mail introduces threaded view, mailbox management and more</li>
+<li>🗂 Deck integrates with dashboard and search, introduces Calendar integration, modal view for card editing and series of smaller improvements</li>
+<li>↕ Flow adds push notification and webhooks so other web apps can easily integrate with Nextcloud</li>
+<li>🗒 Text introduced direct linking to files in Nextcloud</li>
+<li>🗄 Files lets you add a description to public link shares</li>
+</ul>
+<p><a href="https://nextcloud.com/blog/nextcloud-hub-20-debuts-dashboard-unifies-search-and-notifications-integrates-with-other-technologies/">Read the full announcement on our blog.</a></p>
+<p>An exhaustive changelog would be unreasonably long, but one can always see our entire development history in github. For the core Server repository, see for example <a href="https://github.com/nextcloud/server/milestone/117?closed=1">here the 783 pull requests merged for Milestone 20.</a></p>
 
     <a name="latest19"></a>
 <h3 id="19-0-3">Version 19.0.3 <small>September 10 2020</small></h3>
