@@ -44,7 +44,7 @@
 <p>Nextcloud GmbH<br />
 Jos Poortvliet<br />
 Phone: +49 (0) 171 121 7528<br />
-Email: jos.poortvliet<span class="citation" data-cites="nextcloud.com">[@nextcloud.com]</span>(mailto:pr@nextcloud.com)</p>
+Email: <a href="mailto:pr@nextcloud.com" class="email">jos.poortvliet@nextcloud.com</a></p>
 <p>Struktur AG<br />
 Patrick Walther<br />
 Phone: +49 (711) 252 428 - 90<br />
