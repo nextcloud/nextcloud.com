@@ -5,6 +5,10 @@ process easy and effective for everyone involved.
 
 ## Setup of a local development environment
 
+### [Quick docker setup](https://github.com/ma12-co/docker-nc-web)
+
+### Manual setup
+
 1. Install Wordpress >= 3.8.1
   * Must be in the document root of the webserver (otherwise images won't load :( )
   * Enter what you like for site title, admin user and password, none of this is stored in git
