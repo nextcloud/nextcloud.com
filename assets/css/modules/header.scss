@@ -389,20 +389,22 @@ nav a {
         }
 
         .right-buttons {
-            position: absolute;
+			position: absolute;
             top: 0;
             right: 0;
 /*             margin-top: 15px; */
             // hide the Get Nextcloud button when on a small screen.
                 .get-nc-button {
-                    display: none !important;
+					cursor: pointer !important;
+					display: none !important;
+
                 }
             @media (min-width: $break-big) {
                 .get-nc-nobutton {
                     display: none !important;
                 }
                 .get-nc-button {
-                    display: inline-block !important;
+					display: inline-block !important;
                 }
             }
 
@@ -1138,5 +1140,3 @@ nav a {
    from { background-position-x:    0px; }
      to { background-position-x: -4620px; }
 }
-
-

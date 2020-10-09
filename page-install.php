@@ -1,6 +1,6 @@
 <head>
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/install.css?=v2" rel="stylesheet">
-    <script>
+	<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/install.css?=v2" rel="stylesheet">
+	<script>
 	require(["require.config"], function() {
 		require(["jquery", "bootstrap", "pages/install"])
 	});
@@ -10,35 +10,34 @@
 
 <section class="content">
 <div class="container">
-
-<div class="row download--description">
-	<div class="col-md-4">
-		<div class="numbadge centre devicebadge">
-			<i class="fa-server"></i>
+	<div class="install-section blue-border">
+		<div class="numbadge install-page__number">
+			<p>1</p>
 		</div>
-		<h2><?php echo $l->t('Server');?></h2>
-		<p><?php echo $l->t('There are several ways to get your own Nextcloud for you and your data.');?></p>
-        <p class="text-center"><a class="button button--blue button--large" href="#instructions-server"  ><?php echo $l->t('Download for server');?></a></p>
-        <p class="text-center"><a class="button button--white" href="<?php echo home_url('signup'); ?>"><?php echo $l->t('Sign up with a provider');?></a></p>
-        <p class="text-center"><a class="hyperlink" href="<?php echo home_url('devices') ?>"><?php echo $l->t('Buy devices');?></a> &nbsp; &nbsp; <a class="hyperlink" href="<?php echo home_url('providers') ?>"><?php echo $l->t('Find a provider');?></a> <br> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Enterprise Solutions');?></a></p>
+		<img class="install-illustration" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/secure-server.svg" />
+		<h3><?php echo $l->t('Get your Nextcloud server up and running');?></h3>
+		<p class="install-description"><?php echo $l->t('With Nextcloud you control where your documents, photos and chat messages are! Choose one of our recommended providers or download our server software and run it where you want.');?></p>
+		<p><a class="button button--blue overlay-trigger" href="<?php echo site_url('signup') ?>"><?php echo $l->t('Recommended provider</a>');?>
+		<a class="button button--white" href="<?php echo home_url('install/#instructions-server') ?>"><?php echo $l->t('Other options</a>');?></p>
 	</div>
-	<div class="col-md-4">
-		<div class="numbadge centre devicebadge">
-			<i class="fa-laptop"></i>
+	<div class="install-section blue-border">
+		<div class="numbadge install-page__number">
+			<p>2</p>
 		</div>
-		<h2><?php echo $l->t('Desktop');?></h2>
-		<p><?php echo $l->t('Connect to your Nextcloud with our clients for Windows, macOS and Linux.');?></p>
-		<p class="text-center"><a class="button button--blue button--large" href="#install-clients" rel="tooltip" id="desktop" data-toggle="popover" title="Desktop Clients"><?php echo $l->t('Download for desktop');?></a></p>
+		<img class="install-illustration" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/mobile.svg" />
+		<h3><?php echo $l->t('Get Nextcloud on all your devices');?></h2>
+		<p class="install-description"><?php echo $l->t('Android, iOS, Windows, Mac or linux? We’ve got you covered. Once your server is set up, you can install the Nextcloud client on all your devices.');?></p>
+		<p><a class="button button--blue" href="<?php echo home_url('install/#install-clients') ?>"><?php echo $l->t('Get the Nextcloud clients </a>');?></p>
 	</div>
-	<div class="col-md-4">
-		<div class="numbadge centre devicebadge">
-			<i class="fa-mobile"></i>
+	<div class="install-section install-section--last">
+		<div class="numbadge install-page__number">
+			<p>3</p>
 		</div>
-		<h2><?php echo $l->t('Mobile');?></h2>
-		<p><?php echo $l->t('Use your Nextcloud on the go with our Android and iOS apps.');?></p>
-        <p class="text-center"><a class="button button--blue button--large" href="#install-clients" rel="tooltip" id="mobile" data-toggle="popover" title="Mobile Clients"><?php echo $l->t('Mobile apps');?></a></p>
+		<img class="install-illustration" src="<?php bloginfo('template_directory'); ?>/assets/img/icons/check-lock.svg" />
+		<h3><?php echo $l->t('Explore the app universe');?></h2>
+		<p class="install-description"><?php echo $l->t('You can extend the functionality of Nextcloud, and connect a wide variety of mobile and third-party apps to Nextcloud.');?></p>
+		<p><a class="button button--blue" href="https://apps.nextcloud.com/" target="blank"><?php echo $l->t('Browse the apps</a>');?></p>
 	</div>
-</div>
 
 
 
@@ -71,7 +70,7 @@
 		</ul>
 		<p><?php echo $l->t('These consist of users helping each other. Consider helping out others, too!');?><br />
 		<p><?php echo $l->t('Browse dozens of free apps and services you could use with your Nextcloud on');?>
-        <a class="hyperlink" href="https://apps.nextcloud.com" target="_blank" rel="tooltip" title="App Store"><?php echo $l->t('the Nextcloud app store.');?></a></p>
+		<a class="hyperlink" href="https://apps.nextcloud.com" target="_blank" rel="tooltip" title="App Store"><?php echo $l->t('the Nextcloud app store.');?></a></p>
 		<p><a class="button button--blue" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('Enterprise support</a>');?></p></p>
 	</div>
 	<a name="testing"></a>
@@ -87,7 +86,7 @@
 		<p><?php echo $l->t('Latest testing version is ');?> <?php echo $SERVER_TESTING_VERSION; ?></p>
 		<p>
 		<?php if(!empty($DOWNLOAD_SERVER_ZIP_TESTING)) { ?>
-			      <a class="button button--white button--small" href="<?php echo $DOWNLOAD_SERVER_ZIP_TESTING; ?>" ><i class="fa-archive"></i> .zip</a>
+				  <a class="button button--white button--small" href="<?php echo $DOWNLOAD_SERVER_ZIP_TESTING; ?>" ><i class="fa-archive"></i> .zip</a>
 		<?php } ?>
 		<?php if(!empty($DOWNLOAD_SERVER_TAR_TESTING)) { ?>
 			<a class="button button--white button--small" href="<?php echo $DOWNLOAD_SERVER_TAR_TESTING; ?>"><i class="fa-archive"></i> .tar.bz2</a>
@@ -110,13 +109,14 @@
 				 <?php if(!empty($DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX)) { ?>
 					<a class="button button--white button--small" href="<?php echo $DOWNLOAD_CLIENT_DESKTOP_TEST_LINUX; ?>"><i class="fa-linux"></i> Linux</a>
 				<?php } ?></p>
-            </div>
-    <?php } ?></p>
+			</div>
+	<?php } ?></p>
 		<p><a class="hyperlink" href="<?php echo home_url('contribute') ?>" target="_blank" rel="tooltip" title="<?php echo $l->t('The Nextcloud Contribute Page');?>"><?php echo $l->t('More ways to get involved!');?></a></p>
 
 	</div>
 </div>
 <?php require get_template_directory().'/install-instructions-server.php'; ?>
 <?php require get_template_directory().'/install-instructions-clients.php'; ?>
+<?php require get_template_directory().'/overlay.php'; ?>
 </div>
 </section>

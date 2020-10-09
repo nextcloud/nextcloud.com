@@ -4693,6 +4693,7 @@ nav a {
             padding-left: 20px; }
           @media (min-width: 993px) {
             .nav .container .right-buttons .nav__section .nav__label.button {
+			  cursor: pointer;
               background-color: white;
               color: #0082c9;
               padding-top: 12px;
@@ -10810,4 +10811,45 @@ blockquote.twitter-tweet {
 
 img.overlay-trigger {
 	cursor: pointer;
+}
+
+.blue-border {
+	border-left: 4px solid var(--wp-admin-theme-color);
+}
+
+h3 {
+	font-weight: bold;
+}
+
+.install-section {
+	padding-left: 48px;
+	margin-top: -11px;
+	padding-bottom: 48px;
+	margin-left: 16px;
+}
+
+.install-section--last {
+	margin-left: 20px;
+}
+
+.install-page__number {
+	position: absolute;
+	margin-left: -77px;
+	margin-top: -10px;
+	justify-content: center;
+	line-height: 26px;
+	font-weight: bolder;
+	font-size: 22px !important;
+}
+
+.install-illustration {
+	position: absolute;
+	z-index: -20;
+	opacity: .1;
+	height: 215px;
+	right: 20vw;
+}
+
+.install-description {
+	margin-right:20vw;
 }

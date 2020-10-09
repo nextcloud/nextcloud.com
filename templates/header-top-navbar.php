@@ -146,7 +146,7 @@ require get_template_directory() . '/strings.php';
             </ul>
             <ul class="right-buttons">
                 <li class="nav__section">
-                <a class="nav__label get-nc-button button button--white"><?php echo $l->t('Get Nextcloud'); ?></a>
+                <a class="nav__label get-nc-button button button--white" href="<?php echo home_url('install'); ?>"><?php echo $l->t('Get Nextcloud'); ?></a>
                 <a class="nav__label get-nc-nobutton"><?php echo $l->t('Get Nextcloud'); ?></a>
                     <ul class="nav__links ">
                         <li class="nav__item">
