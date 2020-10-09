@@ -1,5 +1,7 @@
 <head>
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/whitepapers.css?v=1" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 </head>
 
 <div class="background whitepapers-background">
@@ -650,6 +652,23 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
 </div>
 </section>
 
+<section class="section--videos">
+<div class="container">
+    <h2 class="section--heading-2"><?php echo $l->t('Videos and talks');?></h2>
+    <p class="section--paragraph"><?php echo $l->t('At our events customers sometimes talk about their use of Nextcloud.');?></p>
+    <div class="row">
+        <div class="col-md-4">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/_4TcDrH7PkE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-4">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/MnOE4dOuYP4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-4">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/_JYU8b3gXFw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+
 <section class="section--blogs">
 <div class="container">
     <h2 class="section--heading-2"><?php echo $l->t('Interviews and blogs');?></h2>
@@ -661,29 +680,6 @@ https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?ph
             <li><a class="hyperlink" href="<?php echo wp_get_canonical_url($wpost->ID);?>"><?php echo date_format($dat, 'F, j, Y');?> - <?php echo $wpost->post_title;?></a></li>
         <?php } ; ?>
     </ul>
-
-<!--    <ul>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/customer-success-story-germanys-public-radio-and-television-deploys-nextcloud/">May 28, 2020 - Customer success story: Germany’s public radio and television deploys Nextcloud</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-and-onlyoffice-improve-user-storage-mobility-and-document-collaboration-in-north-west-university/">May 12, 2020 - Nextcloud and ONLYOFFICE improve user storage mobility and document collaboration in North-West University</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/deges-handling-22-billion-worth-of-complex-infrastructure-projects/">November 11, 2019 - DEGES: handling 22 billion worth of complex infrastructure projects</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/sib-delivering-nextcloud-to-educational-institutions/">October 21, 2019 - SIB: Delivering Nextcloud to educational institutions</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/1000-french-universities-and-research-organizations-get-nextcloud/">October 16, 2019 - 700.000 students at French universities and research organizations get access to Nextcloud</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-talk-offering-secure-corporate-messaging-for-scm-limited/">August 28, 2019 - Nextcloud Talk offering secure corporate messaging for SCM LIMITED</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/eu-governments-choose-independence-from-us-cloud-providers-with-nextcloud/">August 27, 2019 - Amid escalating trade disputes, EU governments choose independence from US cloud providers</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/nextcloud-and-hackerone-publish-case-study/">September 12, 2018 - Nextcloud and HackerOne publish case study</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/japan-to-add-millions-of-new-nodes-to-federated-nextcloud-network/">August 25, 2018 - Japan to add millions of new nodes to federated Nextcloud network</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/case-study-north-west-university-in-south-africa-using-nextcloud-and-collabora/">Jun 14, 2018 - Case Study: North-West University in South Africa using Nextcloud and Collabora</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/keeping-data-secure-at-a-globally-distributed-organization-konrad-adenauer-stiftung/">August 13, 2018 - Keeping data secure at a globally distributed organization: Konrad Adenauer Stiftung</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/next-big-open-source-win-capital-of-switzerland-moves-schools-to-nextcloud/">May 16, 2018 - Capital of Switzerland moves schools to Nextcloud</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/a-wave-of-cities-all-over-europe-moving-to-nextcloud/">April 19, 2018 - A wave of cities all over Europe moving to Nextcloud </a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/german-federal-administration-relies-on-nextcloud-as-a-secure-file-exchange-solution">April 18, 2018 - German Federal Administration relies on Nextcloud as a secure file exchange solution</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/one-of-the-organizations-behind-panama-papers-uses-nextcloud/">February 28, 2018 - One of the organizations behind reporting on the Panama Papers uses Nextcloud</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/the-capital-of-albania-moves-to-nextcloud/">July 25, 2017 - The capital of Albania moves to Nextcloud</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/9-german-educational-and-research-institutions-move-to-nextcloud-as-part-of-tu-berlin-migration-more-coming/">July 12, 2017 - 9 German Educational and Research institutions move to Nextcloud as part of TU Berlin migration, more coming</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/veiligheidsregio-brabant-zuidoost-moving-to-nextcloud/">March 30, 2017 - Veiligheidsregio Brabant-Zuidoost: moving to Nextcloud</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/3000-users-at-ucloud4schools-migrated-to-nextcloud-11-by-regio-it/">February 16, 2017 - 3000 users at ucloud4schools migrated to Nextcloud 11 by regio iT</a></li>
-        <li><a class="hyperlink" href="https://nextcloud.com/blog/the-danish-research-and-education-network-moves-from-owncloud-to-nextcloud/">September 29, 2016 - The Danish research and education network moves from ownCloud to Nextcloud</a></li>
-    </ul>-->
 </section>
 
 <div class="container-fluid quote">
