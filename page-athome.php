@@ -8,7 +8,7 @@
 		require(["modules/youtubePlayer", "modules/submenu"])
 	});
 </script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 </head>
 <div class="background features-background second-menu">
 	<div class="container">
