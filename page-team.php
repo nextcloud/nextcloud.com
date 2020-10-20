@@ -197,12 +197,12 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/bjoern.jpg" />
 				<h2 class="teamname">Björn Schießle</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Senior Sales Engineer</h3>
+					<h3 class="teamtitle">PreSales Lead</h3>
 					<h4 class="teamexpertise">Co-founder, Consulting and Sales</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
-					<p class="teamsocial"><a href="https://schiessle.org/"><i class="fa-rss fa"></i></a> <a href="https://mastodon.social/@bjoern"><i class="fa-mastodon fa"></i></a> <a href="https://twitter.com/schiessle"><i class="fa-twitter fa"></i></a> </p>
+					<p class="teamsocial"><a href="https://schiessle.org/"><i class="fa-rss fa"></i></a> <a href="https://mastodon.social/@bjoern"><i class="fa-mastodon fa"></i></a> <a href="https://twitter.com/schiessle"><i class="fa-twitter fa"></i></a>  <a href="https://www.linkedin.com/in/schiessle/"><i class="fa-linkedin fa"></i></a> </p>
 				</div>
-				<p class="teamdescription">Björn is a computer scientist, graduated at the University of Stuttgart. He conducted research in the area of cloud robotics before he joined ownCloud in 2012 and later co-founded Nextcloud. Björn has a deep knowledge about all technical and legal aspects of Free and Open Source Software. After working for several years as a software engineer, he uses his in-depth knowledge to provide the best possible solutions to our customers.</p>
+				<p class="teamdescription">Björn is a computer scientist, graduated at the University of Stuttgart. He conducted research in the area of cloud robotics before he joined ownCloud in 2012 and later co-founded Nextcloud. Björn has a deep knowledge about all technical and legal aspects of Free and Open Source Software. After working for several years as a software engineer he became a sales engineer, using his in-depth knowledge to provide the best possible solutions to our customers.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
