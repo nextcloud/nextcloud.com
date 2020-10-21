@@ -1,10 +1,10 @@
 <head>
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/onlyoffice.css?v=1">
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/pages/onlyoffice.css?v=1">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
 	require(["require.config"], function() {
-		require(["pages/collabora", "modules/youtubePlayer", "modules/codeHighlights"])
+		require(["pages/collabora"])
 	});
 </script>
 <meta itemprop="image" content="<?php echo get_template_directory_uri(); ?>/assets/img/features/onlyoffice.png">
@@ -75,17 +75,17 @@
 <div class="container-widest">
 	<div class="row">
 		<div class="col-md-4">
-			<div class="text-center"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-spreadsheet.png"  /></div>
+			<div class="text-center"><img class="overlay-trigger img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-spreadsheet.png"  /></div>
 			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Powerful spreadsheet editor');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Organize and manage your data online in XLSX, ODS and CSV files with over 400 formulas and create colorful visualisations.');?></p>
         </div>
 		<div class="col-md-4">
-			<div class="text-center"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-presentation.png" /></div>
+			<div class="text-center"><img class="overlay-trigger img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-presentation.png" /></div>
 			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Beautiful presentation builder');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Express ideas in beautiful presentations stored  in PPTX and ODP or exported to PDF full of charts, shapes and images.');?></p>
 		</div>
 		<div class="col-md-4">
-			<div class="text-center"><img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-document.png" /></div>
+			<div class="text-center"><img class="overlay-trigger img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/img/features/onlyoffice-document.png" /></div>
 			<h3 class="section--paragraph__title text-center"><?php echo $l->t('Complete document writer');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Open, edit and collaborate on Word, ODT, PDF or HTML documents in real time with powerful formatting and layout capabilities.');?></p>
 		</div>
@@ -99,7 +99,8 @@
 			<div class="row">
 <!-- 				</div> -->
 				<div class="col-md-6 image--floated">
-					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/html5.png" alt="in action" />
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/pgSaYsgI6NU" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
 				</div>
 				<div class="col-md-6 featureblock">
 					<h2 class="section--paragraph__title"><?php echo $l->t('Up-to-date technology');?></h2>
@@ -118,7 +119,7 @@
 		<div class="featurerow">
 			<div class="row">
 				<div class="col-md-6">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/onlyoffice-integration.png" alt="in action" /></a>
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/collabora-spreadsheet.png"><img class="img-responsive overlay-trigger" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/onlyoffice-integration.png" alt="in action" /></a>
 				</div>
 				<div class="col-md-6 featureblock">
 					<h2 class="section--paragraph__title"><?php echo $l->t('Integrated and on-premises');?></h2>
@@ -161,7 +162,7 @@
 			<div class="col-md-8 col-md-offset-2">
 				<div class="text-center morebuttondiv">
 					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Request a quote');?> <i class="icon-arrow-circle-o-right icon"></i></a><br/>
-					<a href="https://www.onlyoffice.com/download.aspx" class="hyperlink"><?php echo $l->t('Get ONLYOFFICE for at home');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="https://www.onlyoffice.com/download.aspx" class="hyperlink"><?php echo $l->t('Get ONLYOFFICE for home use');?> <i class="icon-arrow-circle-o-right icon"></i></a>
 				</div>
 			</div>
 		</div>
@@ -238,3 +239,4 @@
 		</div>
 	</div>
 </div>
+<?php require get_template_directory().'/overlay.php'; ?>
