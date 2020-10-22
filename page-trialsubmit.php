@@ -47,6 +47,9 @@ if(isset($_POST['email'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all mandatory fields?'); }
     $yourname = $_POST['yourname']; // required
     $organization= $_POST['organization']; // required
+    $organization= $_POST['country']; // required
+    $organization= $_POST['orgsize']; // required
+    $organization= $_POST['partnertype']; // required
     $phone = $_POST['phone']; // required
     $email_from = $_POST['email']; // required
     $users = $_POST['users']; // required
@@ -128,10 +131,13 @@ if(isset($_POST['email'])) {
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Phone number: ".clean_string($phone)."\n";
     $email_message .= "Organization: ".clean_string($organization)."\n";
+    $email_message .= "Country: ".clean_string($country)."\n";
+    $email_message .= "Organization size: ".clean_string($orgsize)."\n";
     $email_message .= "Role: ".clean_string($role)."\n";
     $email_message .= "How many users do you expect in 12 months? ".clean_string($users)."\n";
     $email_message .= "Would you require assistance to set up the service or to design/review the architecture? ".clean_string($needsetuphelp)."\n";
     $email_message .= "Do you need a hosted or on-premises trial? ".clean_string($hostedoronprem)."\n";
+    $email_message .= "Once in production, would you prefer hosted, on-prem but self-managed or managed on-prem? ".clean_string($partnertype)."\n";
     $email_message .= "Are you using any sort of clustering for the application, database or storage? ".clean_string($clustering)."\n";
     $email_message .= "Would you be interested in editing office documents online? ".clean_string($collabora)."\n";
     $email_message .= "Would you be interested in secure webconferencing and audio and video calls? ".clean_string($webconferencing)."\n";

@@ -70,10 +70,21 @@ imagedestroy($image);
             <div class="col-md-12">
                 <p><label for="yourname"><?php echo $l->t('Your name');?>*<br>
                 <input  type="text" name="yourname" maxlength="60" size="60"></label></p>
-                <p><label for="email">Corporate email*<br>
+                <p><label for="email">Business email*<br>
                 <input  type="text" name="email" maxlength="80" size="60"></label></p>
                 <p><label for="organization"><?php echo $l->t('Organization');?>*<br>
                 <input  type="text" name="organization" maxlength="100" size="60" placeholder="<?php echo $l->t('Name of your organization');?>"></label></p>
+                <p><label for="country"><?php echo $l->t('Country');?>*<br>
+                <input  type="text" name="country" maxlength="100" size="60" placeholder="<?php echo $l->t('Country your company is headquartered in');?>"></label></p>
+                <p><label for="orgsize"><?php echo $l->t('Size of organization');?>*<br>
+                <select id="orgsize" name="orgsize">
+                    <option value="under-20">under 20 employees</option>
+                    <option value="20to49">20-49 employees</option>
+                    <option value="50to199">50-199 employees</option>
+                    <option value="200-999">200-999 employees</option>
+                    <option value="999-99999">1000-9.999 employees</option>
+                    <option value="over100000">over 10.000 employees</option>
+                </select></p>
                 <p><label for="role"><?php echo $l->t('Your role');?><br>
                 <input  type="text" name="role" maxlength="100" size="60" placeholder="<?php echo $l->t('Your job title');?>"></label></p>
                 <p><label for="phone"><?php echo $l->t('Phone number');?><br>
@@ -85,6 +96,14 @@ imagedestroy($image);
                     <option value="hosted"><?php echo $l->t('Hosted');?></option>
                     <option value="onpremises"><?php echo $l->t('On-premises');?></option>
                 </select></label></p>
+                <p><label for="partnertype"><?php echo $l->t('When you go in production, are you looking for a hosted solution, on-premises with in-house management, or on-premises but managed by a Nextcloud partner?');?><br>
+                <select name="partnertype">
+                    <option value="hosted"><?php echo $l->t('Hosted');?></option>
+                    <option value="onpremises"><?php echo $l->t('On-premises (self-managed)');?></option>
+                    <option value="onpremmanaged"><?php echo $l->t('On-premises, managed by Nextcloud partner');?></option>
+                    <option value="unsure"><?php echo $l->t('Not sure yet');?></option>
+                </select></label></p>
+
                 <p><label for="need-setup-help"><?php echo $l->t('Would you require assistance to set up the service or to design/review the architecture?');?><br>
                 <select name="need-setup-help">
                     <option value="unsure"><?php echo $l->t('Not sure');?></option>
@@ -135,7 +154,8 @@ imagedestroy($image);
                 <p><label for="comments"><?php echo $l->t('Any more details, questions or information?');?><br />
                 <textarea name="comments" maxlength="2000" cols="80" rows="8" placeholder="<?php echo $l->t('Let us know how we can help you!');?>"></textarea></label></p>
                 <p>
-                    <label for="partner"><?php echo $l->t('Can we allow one of our certified local partners reach out to you with an offer if we feel they can service you more appropriately?');?>* <br />
+                    <label for="partner"><?php echo $l->t('Can we allow one of our certified local partners reach out to you with an offer if we feel they can service you more appropriately?');?>*<br />
+                    <strong><?php echo $l->t('Note:');?></strong> <?php echo $l->t('Organizations with less than 100 users will receive an trial setup from one of our partners and choosing No here means we can not help you.');?><br />
                     <select name="partner">
                         <option value="yes"><?php echo $l->t('Yes');?></option>
                         <option value="no"><?php echo $l->t('No');?></option>
