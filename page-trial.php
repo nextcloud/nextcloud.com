@@ -51,8 +51,10 @@ imagedestroy($image);
     <div class="row">
         <div class="col-md-12">
             <h2><?php echo $l->t('See how Nextcloud works for you');?></h2>
-            <p><?php echo $l->t('To determine if Nextcloud is fit for your use case, we offer trials of Nextcloud Enterprise on a hosted instance as well as trial licenses for testing on your own infrastructure.');?></p>
-            <p><?php echo $l->t('Our Nextcloud Enterprise build is pre-configured, optimized and hardened for the special needs of large scale, production-critical enterprise deployments. Backed by our subscription and support, it provides you with the best possible Nextcloud experience, ');?></p>
+            <p><?php echo $l->t('To determine if Nextcloud is fit for your use case, we offer trials of Nextcloud Enterprise on a hosted instance as well as trial licenses for testing on your own infrastructure. Our team is ready to support you with a Proof of Concept for free¹.');?></p>
+            <p><?php echo $l->t('Our Nextcloud Enterprise build is pre-configured, optimized and hardened for the special needs of large scale, production-critical enterprise deployments. Backed by our subscription and support, it provides you with the best possible Nextcloud experience.');?></p>
+            <blockquote><?php echo $l->t('Our experiences show the chance of success for a proof of concept grows ten fold with our support, so contact us today!');?></blockquote>
+            <p><?php echo $l->t('-- Andreas Rode, Nextcloud CGO');?></p>
         </div>
 	</div>
 </div>
@@ -176,6 +178,7 @@ imagedestroy($image);
     <div class="row">
         <div class="col-md-12">
             <p><?php echo $l->t('We respect your privacy! If you fill in this form, we will reach out to send you an offer and might also contact you with relevant information like a local event or workshop we are organizing. We never sell your data - any mails you get will be from us, or, if you agreed to be brought in contact with them, one of our Nextcloud service partners.');?> <a href="<?php echo home_url('privacy') ?>" class="hyperlink"><?php echo $l->t('See our privacy policy here.');?></a></p>
+            <p><?php echo $l->t('¹ At the discretion of Nextcloud GmbH. A typical POC is supported at no cost by our sales engineers.');?></p>
         </div>
     </div>
 </div>

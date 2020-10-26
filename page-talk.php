@@ -171,7 +171,7 @@
                     <li><?php echo $l->t('Mobile calls & chat with push notifications');?></li>
                     <li><?php echo $l->t('Commands to enable integration with other tools');?></li>
                     <li><?php echo $l->t('Webinars & public web meetings*');?></li>
-                    <li><?php echo $l->t('SIP gate: dial in by phone*');?></li>
+                    <li><?php echo $l->t('SIP bridge: dial in by phone*');?></li>
                 </ul>
             </div>
         </div>
@@ -457,7 +457,7 @@
 			<p class="section--paragraph__tittle"><?php echo $l->t('Scaling further: webinars, school classes');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Webinars and other large scale broadcasting type calls are possible with hundreds of participants. The High Performance Back-end setup includes special features for this.');?></p>
 			<p class="section--paragraph__tittle"><?php echo $l->t('High Performance Back-end');?></p>
-			<p class="section--paragraph"><?php echo $l->t('The HPB also lowers the load from calls on the Nextcloud server, taking care of \'signaling\' and optionally enables connecting a SIP gate so users can dial in by phone into calls.');?></p>
+			<p class="section--paragraph"><?php echo $l->t('The HPB also lowers the load from calls on the Nextcloud server, taking care of \'signaling\' and optionally enables connecting a SIP bridge so users can dial in by phone into calls.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('The HPB runs on-premises, like Nextcloud itself, or through a hosted offering by Struktur AG. Customers should be aware that it has significant dedicated bandwidth and processing needs. The HPB is available through Nextcloud GmbH.');?></p>
 			<p class="section--paragraph"><?php echo $l->t('Sign up for a free 30 day test of the hosted HPB offering of Struktur AG in the Talk settings page.');?></p>
 		</div>
@@ -516,7 +516,7 @@
     <div class="row">
         <h2 class="text-center"><?php echo $l->t('Pricing');?></h2>
         <p class="section--paragraph text-center"><?php echo $l->t('Nextcloud Talk High Performance Backend');?></p>
-        <p class="section--paragraph text-center"><?php echo $l->t('providing SFU, STUN, TURN and optional SIP gate');?></p>
+        <p class="section--paragraph text-center"><?php echo $l->t('providing SFU, STUN, TURN and optional SIP bridge');?></p>
     </div>
     <div class="row">
         <div class="col-sm-6">
