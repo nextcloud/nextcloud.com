@@ -298,8 +298,10 @@
     .row {
         margin-bottom: 10px;
     }
-    img {
-        padding: 20px;
+    .image--feature.new-img {
+        @media (min-width: $break-small) {
+            border: 10px solid #eee !important;
+        }
     }
 }
 
