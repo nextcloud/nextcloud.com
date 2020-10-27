@@ -61,7 +61,7 @@ require(["require.config"], function() {
             </div>
             <div class="col-md-6">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Advanced enterprise branding');?></h3>
-                <p class="section--paragraph"><?php echo $l->t(' Nextcloud offers a client branding service as part of their Nextcloud Enterprise subscription (Standard and Premium) to Nextcloud Customers. Branded clients dramatically enhance your user corporate experience. They are pre-configured for the correct server so that the end user does not have to choose a Nextcloud server but can immediately proceed to enter their login credentials. They use the customers’ logo and name in the app drawer instead of the Nextcloud logo and name and more customization can be made. Nextcloud offers the apps as APK and xCode project for publishing through a customer developer account.');?></p>
+                <p class="section--paragraph"><?php echo $l->t(' Nextcloud offers a client branding service as part of Professional Services to Nextcloud Customers. Branded clients dramatically enhance your user corporate experience. They are pre-configured for the correct server so that the end user does not have to choose a Nextcloud server but can immediately proceed to enter their login credentials. They use the customers’ logo and name in the app drawer instead of the Nextcloud logo and name and more customization can be made. Nextcloud offers the apps as APK and xCode project for publishing through a customer developer account.');?></p>
                 <ul>
                     <li><?php echo $l->t('Pre-configured server address for faster setup');?></li>
                     <li><?php echo $l->t('Removal of links to Nextcloud community, community hosting solutions and private servers');?></li>
@@ -69,7 +69,7 @@ require(["require.config"], function() {
                     <li><?php echo $l->t('Custom help page and contact email');?></li>
                     <li><?php echo $l->t('Optional custom Push Proxy');?></li>
                     <li><?php echo $l->t('Full control over release management and app store entry');?></li>
-                    <li><?php echo $l->t('Support for MDM solutions for mobile, MSI deployment for desktop (Premium only)');?></li>
+                    <li><?php echo $l->t('Optional support for MDM solutions for mobile, MSI deployment for desktop');?></li>
                 </ul>
             </div>
         </div>
@@ -82,7 +82,7 @@ require(["require.config"], function() {
          <div class="col-md-8 col-md-offset-2">
             <h2 class="text-center"><?php echo $l->t('Comparison');?></h2>
                 <h3 class="section--paragraph__title"><?php echo $l->t('Deployment and control with MDM and MSI');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('Many larger organizations have tools to manage their deployments of desktop and mobile apps. For mobile apps, various tools provide so-called Mobile Device Management services. Nextcloud supports this as part of our Nextcloud Enterprise Premium Subscription. With this also come branded desktop clients as MSI packages for easy roll-out in large organizations.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Many larger organizations have tools to manage their deployments of desktop and mobile apps. For mobile apps, various tools provide so-called Mobile Device Management services. Nextcloud supports this with the Client Branding Plus option. With this also come branded desktop clients as MSI packages for easy roll-out in large organizations.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Here is a complete overview of the Nextcloud branded client options.');?></p>
             </div>
         </div>
@@ -96,13 +96,13 @@ require(["require.config"], function() {
                                     <p><strong><small>Supported capabilities</small></strong></p>
                                 </td>
                                 <td>
-                                    <p><strong><small>Free</small></strong></p>
+                                    <p><strong><small>Included</small></strong></p>
                                 </td>
                                 <td>
-                                    <p><strong><small>Standard</small></strong></p>
+                                    <p><strong><small>Client Branding</small></strong></p>
                                 </td>
                                 <td>
-                                    <p><strong><small>Premium</small></strong></p>
+                                    <p><strong><small>Client Branding Plus</small></strong></p>
                                 </td>
                             </tr>
                         </thead>
@@ -217,7 +217,7 @@ require(["require.config"], function() {
                             </tr>
                         </tbody>
                     </table>
-                </div>Client Branding Plus<
+                </div>
                 <small>* Mobile only</small>
                 <h3>Web user interface</h3>
                 <div class="table-responsive">
@@ -231,10 +231,10 @@ require(["require.config"], function() {
                                     <p><strong><small>Included</small></strong></p>
                                 </td>
                                 <td>
-                                    <p><strong><small>Standard</small></strong></p>
+                                    <p><strong><small>Client Branding</small></strong></p>
                                 </td>
-                                <td>
-                                    <p><strong><small>Premium</small></strong></p>
+                                <td style="padding: 0.97mm;" bgcolor="#0082c9">
+                                    <p><strong><small>Client Branding Plus</small></strong></p>
                                 </td>
                             </tr>
                         </thead>

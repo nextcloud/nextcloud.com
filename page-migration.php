@@ -88,8 +88,7 @@
                 </div>
             </div>
             <p class="section--paragraph"><?php echo $l->t('First rate support as well as <a  class="hyperlink" href="https://nextcloud.com/blog/nextcloud-the-most-active-open-source-file-sync-and-share-project/">healthy development</a> happening in public are key to our offering. Employing over a dozen former ownCloud engineers as well as many other experienced software developers, we are in the best position to support you in keeping your data secure and easily accessible to your employees.');?></p>
-            <p class="section--paragraph"><?php echo $l->t('We can help you');?> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('with Nextcloud Enterprise</a> but you can also look for');?> <a class="hyperlink" href="<?php echo home_url('partners') ?>"><?php echo $l->t('an offer from one of our partners</a> and of course ask other home users <a class="hyperlink" href="https://help.nextcloud.com">on our forums.</a>');?></p>
-            <p class="section--paragraph"><?php echo $l->t('Help migrating from ownCloud to Nextcloud is free. For migration from other solutions, support is included with your Premium subscription.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('We can help you');?> <a class="hyperlink" href="<?php echo home_url('enterprise') ?>"><?php echo $l->t('with a support subscription</a> but you can also look for');?> <a class="hyperlink" href="<?php echo home_url('partners') ?>"><?php echo $l->t('support from one of our partners</a> and of course get <a class="hyperlink" href="https://help.nextcloud.com">community support on our forums.</a>');?></p>
         </div>
     </div>
     <div class="row">
@@ -104,12 +103,6 @@
             <li><a class="hyperlink" href="https://nextcloud.com/blog/the-danish-research-and-education-network-moves-from-owncloud-to-nextcloud/">September 29, 2016 - The Danish research and education network moves from ownCloud to Nextcloud</a></li>
         </ul>
     </div>
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-                <h2 class="section--heading-2"><?php echo $l->t('Why migrate:');?><br> <?php echo $l->t('Nextcloud vs other solutions');?></h2>
-            <p class="section--paragraph"><?php echo $l->t('Nextcloud customers migrate from a wide range of other solutions. Premium customers receive free migration assistance from solutions like Dracoon or SharePoint. Limitations apply, ask your sales representative!');?></p>
-        </div>
-    </div>
 </div>
 </section>
 
@@ -117,7 +110,7 @@
 <div class="container">
 <div class="row">
 <div class="col-md-8 col-md-offset-2">
-	<h1 class="section--paragraph__tittle"><?php echo $l->t('The ownCloud-to-Nextcloud migration tool');?></h1>
+	<h1 class="section--paragraph__tittle"><?php echo $l->t('The Nextcloud migration tool');?></h1>
 	<p class="section--paragraph"><?php echo $l->t('The easiest way to migrate is using our migration tool. This tool supports ownCloud 8.2 to ownCloud 10, migrating to the appropriate Nextcloud release automatically.');?></p>
     <p class="section--paragraph"><?php echo $l->t('Note that ownCloud 10.0.10 can run on PHP 7.2 while Nextcloud 12 works, at most, with PHP 7.1, complicating migration. On Ubuntu you can switch the PHP version to 7.1 via <a href="https://launchpad.net/~ondrej/+archive/ubuntu/php">this PPA.</a>');?></p>
     <p class="section--paragraph"><?php echo $l->t('Over time it has become harder and harder to migrate due to changes on both sides and mis-matches of the required PHP versions. If you run into such issues or have an ownCloud version newer than 10.0.10, you can search and ask for help <a href="https://help.nextcloud.com/search?q=migration">on our forums</a>. For custom enterprise migrations,');?> <a href="<?php echo home_url('buy') ?>"><?php echo $l->t('contact our sales team.');?></a></p>
