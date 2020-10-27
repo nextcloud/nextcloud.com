@@ -141,7 +141,7 @@
 	<div class="container">
         <h1 class="section--heading-1 text-center"><?php echo $l->t('Limitations');?></h1>
         <div class="row">
-        <p class="section--paragraph"><?php echo $l->t('Collabora Development Edition is offered for free, but is limited to 10 open documents, so it is suitable for small teams only or for demo purposes.');?> </p>
+        <p class="section--paragraph"><?php echo $l->t('Collabora Development Edition is offered for free, but continuously developed and not guaranteed to be stable.');?> </p>
         </div>
     </div>
 </section>
