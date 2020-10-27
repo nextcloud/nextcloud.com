@@ -95,7 +95,7 @@
             </div>
             <div class="col-md-6 featureblock">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Features');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('The Sendent Outlook Add-in turns email attachments into Nextcloud links, manually or automatically. It can insert upload links where the recipient of the email can upload files to. Users can add passwords and expiration dates, the admin can enforce setting these if needed.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The Sendent Outlook Add-in turns email attachments into Nextcloud links, manually or automatically. It can insert upload links where the recipient of the email can upload files to. Users can add passwords and expiration dates, the admin can enforce these settings if needed.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('New users can enjoy the user-friendly setup dialog to get going, and the Upload Files / Share Public Folder option is directly available in the ‘message’ tab.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The Add-in can be configured to automatically upload all attachments the user added to an email starting from a configurable size, for example, all files over 200kb.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('Users can also use the easy file selection dialog to insert links to files on their Nextcloud storage.');?></p>

@@ -270,7 +270,7 @@
             </div>
             <div class="col-md-6">
                 <p class="section--paragraph__tittle"><?php echo $l->t('Integrated collaboration');?></p>
-                <p class="section--paragraph"><?php echo $l->t('The mobile clients feature integrated real-time document editing. Nextcloud Text is used for note taking with Markdown files, Microsoft Office compatible document editing on-the-go is available through Collabora Online or ONLYOFFICE when these installed on the server.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('The mobile clients feature integrated real-time document editing. Nextcloud Text is used for note taking with Markdown files, Microsoft Office compatible document editing on-the-go is available through Collabora Online or ONLYOFFICE when these are installed on the server.');?></p>
                 <p class="section--paragraph"><?php echo $l->t('The clients also allow users to comment on documents, add a note to a shared file, view and act on server notification like a request to accept a file share or approve a login, see activity for any file and much more. Productivity is guaranteed, wherever you are!');?></p>
             </div>
         </div>
