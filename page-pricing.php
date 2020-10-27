@@ -77,7 +77,7 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<div class="list">
 					<li class="nocheck" title="<?php echo $l->t('Secure online meetings, chat and web conferencing');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-talk"><?php echo $l->t('Nextcloud Talk');?></a></li>
 					<li class="nocheck" title="<?php echo $l->t('Team planning and email made easy');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-groupware"><?php echo $l->t('Nextcloud Groupware');?></a></li>
-					<li class="check" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook">Outlook Add-in</a>');?></li>
+					<li class="optional" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook">Outlook Add-in</a>');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-collabora">Collabora Online Office</a>');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-onlyoffice">ONLYOFFICE</a>');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Use your coroporate design in branded and pre-configured sync clients for desktop and mobile.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a>');?></li>
@@ -87,10 +87,10 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="price" title="<?php echo $l->t('Pricing starts at 50 users. Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('50 users: €1900');?></li>
-					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('100 users: €3400');?></li>
-					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Additional pricing tiers are available up to 10 million users');?></li>
-					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
+					<li class="ball" title="<?php echo $l->t('Pricing starts at 50 users. Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('50 users: €1900');?></li>
+					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('100 users: €3400');?></li>
+					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Additional pricing tiers are available up to 10 million users');?></li>
+					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
 				</div>
 				<a class="button button--blue button--arrow button--large" href="<?php echo home_url('enterprise/buy') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
@@ -129,22 +129,22 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<h1 class="">Optional components</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check" title="<?php echo $l->t('Secure online meetings, chat and web conferencing');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-talk"><?php echo $l->t('Nextcloud Talk');?></a></li>
-					<li class="check" title="<?php echo $l->t('Team planning and email made easy');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-groupware"><?php echo $l->t('Nextcloud Groupware');?></a></li>
-					<li class="check" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook">Outlook Add-in</a>');?></li>
-					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-collabora">Collabora Online Office</a>');?></li>
-					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-onlyoffice">ONLYOFFICE</a>');?></li>
-					<li class="check" title="<?php echo $l->t('Use your coroporate design in branded and pre-configured sync clients for desktop and mobile.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a>');?></li>
+					<li class="optional" title="<?php echo $l->t('Secure online meetings, chat and web conferencing');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-talk"><?php echo $l->t('Nextcloud Talk');?></a></li>
+					<li class="optional" title="<?php echo $l->t('Team planning and email made easy');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-groupware"><?php echo $l->t('Nextcloud Groupware');?></a></li>
+					<li class="optional" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook">Outlook Add-in</a>');?></li>
+					<li class="optional" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-collabora">Collabora Online Office</a>');?></li>
+					<li class="optional" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-onlyoffice">ONLYOFFICE</a>');?></li>
+					<li class="optional" title="<?php echo $l->t('Use your coroporate design in branded and pre-configured sync clients for desktop and mobile.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a>');?></li>
 					<li class="nocheck" title="<?php echo $l->t('support for additional apps not covered in the normal subscription.');?>" rel="tooltip"><?php echo $l->t('Subscription extensions');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Scale out Nextcloud to millions of users');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://nextcloud.com/globalscale/">Global Scale</a>');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="price" title="<?php echo $l->t('Pricing starts at 50 users. Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('50 users: €3400');?></li>
-					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('100 users: €6100');?></li>
-					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Additional pricing tiers are available up to 10 million users');?></li>
-					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
+					<li class="ball" title="<?php echo $l->t('Pricing starts at 50 users. Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('50 users: €3400');?></li>
+					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('100 users: €6100');?></li>
+					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Additional pricing tiers are available up to 10 million users');?></li>
+					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
 				</div>
 				<a class="button button--blue button--arrow button--large" href="<?php echo home_url('enterprise/buy') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
 			</div>
@@ -183,22 +183,22 @@ installation call optional)');?>" rel="tooltip"><?php echo $l->t('Installation a
 				<h1 class="">Optional components</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="check" title="<?php echo $l->t('Secure online meetings, chat and web conferencing');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-talk"><?php echo $l->t('Nextcloud Talk');?></a></li>
-					<li class="check" title="<?php echo $l->t('Team planning and email made easy');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-groupware"><?php echo $l->t('Nextcloud Groupware');?></a></li>
-					<li class="check" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook">Outlook Add-in</a>');?></li>
-					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-collabora">Collabora Online Office</a>');?></li>
-					<li class="check" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-onlyoffice">ONLYOFFICE</a>');?></li>
-					<li class="check" title="<?php echo $l->t('Use your coroporate design in branded and pre-configured sync clients for desktop and mobile.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a>');?></li>
-					<li class="check" title="<?php echo $l->t('support for additional apps not covered in the normal subscription.');?>" rel="tooltip"><?php echo $l->t('Subscription extensions');?></li>
-					<li class="check" title="<?php echo $l->t('Scale out Nextcloud to millions of users');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://nextcloud.com/globalscale/">Global Scale</a>');?></li>
+					<li class="optional" title="<?php echo $l->t('Secure online meetings, chat and web conferencing');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-talk"><?php echo $l->t('Nextcloud Talk');?></a></li>
+					<li class="optional" title="<?php echo $l->t('Team planning and email made easy');?>" rel="tooltip"><a class="hyperlink" href="#featureblock-groupware"><?php echo $l->t('Nextcloud Groupware');?></a></li>
+					<li class="optional" title="<?php echo $l->t('Share and receive files in a secure way directly from Microsoft Outlook.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-outlook">Outlook Add-in</a>');?></li>
+					<li class="optional" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-collabora">Collabora Online Office</a>');?></li>
+					<li class="optional" title="<?php echo $l->t('Edit office documents collaboratively from within Nextcloud.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-onlyoffice">ONLYOFFICE</a>');?></li>
+					<li class="optional" title="<?php echo $l->t('Use your coroporate design in branded and pre-configured sync clients for desktop and mobile.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a>');?></li>
+					<li class="optional" title="<?php echo $l->t('support for additional apps not covered in the normal subscription.');?>" rel="tooltip"><?php echo $l->t('Subscription extensions');?></li>
+					<li class="optional" title="<?php echo $l->t('Scale out Nextcloud to millions of users');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="https://nextcloud.com/globalscale/">Global Scale</a>');?></li>
 				</div>
 				<h1 class="">Pricing</h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="price" title="<?php echo $l->t('Pricing starts at 50 users. Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('50 users: €4900');?></li>
-					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('100 users: €8900');?></li>
-					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('Additional pricing tiers are available up to 10 million users');?></li>
-					<li class="price" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
+					<li class="ball" title="<?php echo $l->t('Pricing starts at 50 users. Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('50 users: €4900');?></li>
+					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('100 users: €8900');?></li>
+					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('Additional pricing tiers are available up to 10 million users');?></li>
+					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
 				</div>
 				<a name="extracosts" id="extracosts"></a> <!--has to be here due to header-->
 				<a class="button button--blue button--arrow button--large" href="<?php echo home_url('enterprise/buy') ?>" role="button" id="get-nextcloud-button"><?php echo $l->t('Request offer');?> <span class="icon-arrow"></span></a>
