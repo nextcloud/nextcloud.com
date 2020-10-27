@@ -109,7 +109,7 @@ PGP (<a href="https://nextcloud.com/nextcloud.asc">Key</a>): <a href="https://do
         <li><a href="https://github.com/nextcloud/viewer/pull/643">Fix cypress branch (viewer#643)</a></li>
 </ul>
 
-<h3 id="20-0-0">Version 20.0.0<small>October 3 2020</small></h3>
+<h3 id="20-0-0">Version 20.0.0<small> October 3 2020</small></h3>
 <p>Download: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.0.tar.bz2">nextcloud-20.0.0.tar.bz2</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.0.zip">nextcloud-20.0.0.zip</a></br>
 Check the file integrity with:</br>
 MD5: <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.0.tar.bz2.md5">nextcloud-20.0.0.tar.bz2.md5</a> or <a href="https://download.nextcloud.com/server/releases/nextcloud-20.0.0.zip.md5">nextcloud-20.0.0.zip.md5</a></br>
