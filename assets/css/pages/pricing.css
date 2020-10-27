@@ -252,8 +252,9 @@
   background-color: #eee; }
   .section--others .row {
     margin-bottom: 10px; }
-  .section--others img {
-    padding: 20px; }
+  @media (min-width: 768px) {
+    .section--others .image--feature.new-img {
+      border: 10px solid #eee !important; } }
 
 /* Discount section */
 .discounts {
