@@ -47,9 +47,9 @@ if(isset($_POST['email'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted - did you fill in all mandatory fields?'); }
     $yourname = $_POST['yourname']; // required
     $organization= $_POST['organization']; // required
-    $organization= $_POST['country']; // required
-    $organization= $_POST['orgsize']; // required
-    $organization= $_POST['partnertype']; // required
+    $country= $_POST['country']; // required
+    $orgsize= $_POST['orgsize']; // required
+    $partnertype= $_POST['partnertype']; // required
     $phone = $_POST['phone']; // required
     $email_from = $_POST['email']; // required
     $users = $_POST['users']; // required
