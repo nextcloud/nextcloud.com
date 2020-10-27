@@ -31,7 +31,7 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/frank.jpg" />
 				<h2 class="teamname">Frank Karlitschek</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Managing Director</h3>
+					<h3 class="teamtitle">Chief Executive Officer</h3>
 					<h4 class="teamexpertise">Founder</h4>
 					<h4 class="teamlocation">lives in Stuttgart, Germany</h4>
 					<p class="teamsocial"><a href="https://karlitschek.de/"><i class="fa-rss fa"></i></a> <a href="https://github.com/karlitschek"><i class="fa-github fa"></i></a> <a href="https://twitter.com/fkarlitschek"><i class="fa-twitter fa"></i></a> </p>
@@ -44,7 +44,7 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/andreas.jpg" />
 				<h2 class="teamname">Andreas Rode</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Head of Sales</h3>
+					<h3 class="teamtitle">Chief Commercial Officer</h3>
 					<h4 class="teamexpertise">Sales and Partnerships</h4>
 					<h4 class="teamlocation">lives in Hannover, Germany</h4>
 					<p class="teamsocial"><a href="https://www.linkedin.com/in/andreas-rode-8296434/"><i class="fa-linkedin fa"></i></a><!--<a href="https://github.com/nickvergessen"><i class="fa-github fa"></i></a>--> <!--<a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a>--> &nbsp; </p>
@@ -57,7 +57,7 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/jos.jpg" />
 				<h2 class="teamname">Jos Poortvliet</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Head of Marketing</h3>
+					<h3 class="teamtitle">Director Marketing</h3>
 					<h4 class="teamexpertise">Co-founder, Marketing and Communication</h4>
 					<h4 class="teamlocation">lives in Berlin, Germany</h4>
 					<p class="teamsocial"><a href="http://blog.jospoortvliet.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/jospoortvliet"><i class="fa-github fa"></i></a> <a href="https://twitter.com/jospoortvliet"><i class="fa-twitter fa"></i></a> </p>
@@ -70,7 +70,7 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/olivier.jpg" />
 				<h2 class="teamname">Olivier Paroz</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Head of Professional Services</h3>
+					<h3 class="teamtitle">Sales Manager France</h3>
 					<h4 class="teamexpertise">Consulting and Sales</h4>
 					<h4 class="teamlocation">lives in Basel, Switzerland</h4>
 					<p class="teamsocial"><a href="https://www.linkedin.com/in/olivierparoz"><i class="fa-rss fa"></i></a> <a href="https://github.com/oparoz"><i class="fa-github fa"></i></a> <a href="https://twitter.com/oparoz"><i class="fa-twitter fa"></i></a></p>
@@ -96,8 +96,8 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/roeland.jpg" />
 				<h2 class="teamname">Roeland Douma</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Security lead</h3>
-					<h4 class="teamexpertise">Co-founder, Security, Desktop Client, Sharing</h4>
+					<h3 class="teamtitle">‘Server Engineering and Support Lead</h3>
+					<h4 class="teamexpertise">Co-founder, Security, Sharing</h4>
 					<h4 class="teamlocation">lives in Zuidoostbeemster, Netherlands</h4>
 					<p class="teamsocial"><a href="http://rullzer.com/"><i class="fa-rss fa"></i></a> <a href="https://github.com/rullzer"><i class="fa-github fa"></i></a> </p>
 				</div>
@@ -140,7 +140,7 @@
 				<img class="img-responsive img-circle teamimg" alt="photo" src="<?php bloginfo('template_directory'); ?>/assets/img/people/fabian.jpg" />
 				<h2 class="teamname">Fabian Liedtke</h2>
 				<div class="teammeta">
-					<h3 class="teamtitle">Account manager</h3>
+					<h3 class="teamtitle">Senior Account manager</h3>
 					<h4 class="teamexpertise">Sales and Partnerships</h4>
 					<h4 class="teamlocation">lives in Hamburg, Germany</h4>
 					<p class="teamsocial"><a href="https://www.linkedin.com/in/fabian-liedtke-4b4ba9135"><i class="fa-linkedin fa"></i></a> <a href="https://www.xing.com/profile/Fabian_Liedtke2"><i class="fa-xing fa"></i></a><!--<a href="https://twitter.com/nickvergessen"><i class="fa-twitter fa"></i></a>--> &nbsp; </p>
