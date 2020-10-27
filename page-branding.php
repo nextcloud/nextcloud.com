@@ -1,5 +1,5 @@
 <head>
-<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/branding.css?v=1" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/assets/css/pages/branding.css?v=2" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/vendor/dsgvo-video-embed.min.css">
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/dsgvo-video-embed.min.js"></script>
 <script>
@@ -61,7 +61,7 @@ require(["require.config"], function() {
             </div>
             <div class="col-md-6">
                 <h3 class="section--paragraph__title"><?php echo $l->t('Advanced enterprise branding');?></h3>
-                <p class="section--paragraph"><?php echo $l->t(' Nextcloud offers a client branding service as part of their Nextcloud Enterprise subscription (Standard and Premium) to Nextcloud Customers. Branded clients dramatically enhance your user corporate experience. They are pre-configured for the correct server so that the end user does not have to choose a Nextcloud server but can immediately proceed to enter their login credentials. They use the customers’ logo and name in the app drawer instead of the Nextcloud logo and name and more customization can be made. Nextcloud offers the apps as APK and xCode project for publishing through a customer developer account.');?></p>
+                <p class="section--paragraph"><?php echo $l->t('Nextcloud offers a client branding service as part of their Nextcloud Enterprise subscription (Standard and Premium) to Nextcloud Customers. Branded clients dramatically enhance your user corporate experience. They are pre-configured for the correct server so that the end user does not have to choose a Nextcloud server but can immediately proceed to enter their login credentials. They use the customers’ logo and name in the app drawer instead of the Nextcloud logo and name and more customization can be made. Nextcloud offers the apps as APK and xCode project for publishing through a customer developer account.');?></p>
                 <ul>
                     <li><?php echo $l->t('Pre-configured server address for faster setup');?></li>
                     <li><?php echo $l->t('Removal of links to Nextcloud community, community hosting solutions and private servers');?></li>
@@ -217,7 +217,7 @@ require(["require.config"], function() {
                             </tr>
                         </tbody>
                     </table>
-                </div>Client Branding Plus<
+                </div>
                 <small>* Mobile only</small>
                 <h3>Web user interface</h3>
                 <div class="table-responsive">
