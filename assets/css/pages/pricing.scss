@@ -292,15 +292,23 @@
 /* Other Products section */
 
 .section--others {
+    background-image: url('../../img/logo/background.svg'), linear-gradient(40deg, #0082c9 0%, rgba(28,175,255,1) 100%);
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    background-size: 275px, contain;
+    background-attachment: fixed; /* fix background gradient */
+    min-height: 100%; /* fix sticky footer */
+    height: auto;
     margin: 200px 0 0 0;
     padding: 90px 0 70px 0;
-    background-color: #eee;
+    //background-color: #eee;
     .row {
         margin-bottom: 10px;
     }
     .image--feature.new-img {
+        background-color: transparent !important;
         @media (min-width: $break-small) {
-            border: 10px solid #eee !important;
+            border: none !important;
         }
     }
 }

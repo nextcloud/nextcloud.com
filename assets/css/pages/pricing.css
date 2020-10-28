@@ -247,14 +247,24 @@
 /* end section */
 /* Other Products section */
 .section--others {
+  background-image: url("../../img/logo/background.svg"), linear-gradient(40deg, #0082c9 0%, #1cafff 100%);
+  background-position: 50% 50%;
+  background-repeat: repeat;
+  background-size: 275px, contain;
+  background-attachment: fixed;
+  /* fix background gradient */
+  min-height: 100%;
+  /* fix sticky footer */
+  height: auto;
   margin: 200px 0 0 0;
-  padding: 90px 0 70px 0;
-  background-color: #eee; }
+  padding: 90px 0 70px 0; }
   .section--others .row {
     margin-bottom: 10px; }
-  @media (min-width: 768px) {
-    .section--others .image--feature.new-img {
-      border: 10px solid #eee !important; } }
+  .section--others .image--feature.new-img {
+    background-color: transparent !important; }
+    @media (min-width: 768px) {
+      .section--others .image--feature.new-img {
+        border: none !important; } }
 
 /* Discount section */
 .discounts {

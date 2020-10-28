@@ -213,16 +213,16 @@
 	<p class=" epricevat"><?php echo $l->t('Our Subscription offers direct access to Nextcloud engineering expertise without a layer of support people in between.');?></p>
 </div>
 
-<section class="section--others">
+<section class="section--others quote">
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2 ">
-            <h2 class="text-center "><?php echo $l->t('Synergy');?></h2>
+            <h2 class="text-center "><?php echo $l->t('Nextcloud Hub');?></h2>
             <p class="section--paragraph text-center "><?php echo $l->t('');?></p>
         </div>
         <div class="row">
             <div class="col-md-6 col-md-offset-3 ">
-                <p class="section--paragraph text-center"><?php echo $l->t('Learn more about our other self-hosted products offering seamless integration in Nextcloud Files.');?></p>
+                <p class="section--paragraph text-center"><?php echo $l->t('Benefit from the synergies of a full content collaboration platform seamlessly integrated with our other self-hosted products.');?></p>
             </div>
         </div>
     <div class="row">
@@ -233,7 +233,7 @@
 			<div class="row text-center"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Talk');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('secure online meetings, chat and web conferencing');?></p></div>
 			<div class="text-center morebuttondiv">
-                <a href="<?php echo home_url('talk') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Nextcloud Talk');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                <a href="<?php echo home_url('talk') ?>" class="button button--transparent button--large button--arrow"><?php echo $l->t('Nextcloud Talk');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
 		</div>
 		<div class="col-md-6">
@@ -243,7 +243,7 @@
 			<div class="row text-center"><h3 class="section--paragraph__title"><?php echo $l->t('Nextcloud Groupware');?></h3>
 			<p class="section--paragraph text-center"><?php echo $l->t('Team planning and email made easy');?></p></div>
 			<div class="text-center morebuttondiv">
-                <a href="<?php echo home_url('groupware') ?>" class="button button--blue button--large button--arrow"><?php echo $l->t('Nextcloud Groupware');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+                <a href="<?php echo home_url('groupware') ?>" class="button button--transparent button--large button--arrow"><?php echo $l->t('Nextcloud Groupware');?> <i class="icon-arrow-circle-o-right icon"></i></a>
             </div>
 		</div>
     </div>
