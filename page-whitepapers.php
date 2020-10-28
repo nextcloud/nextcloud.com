@@ -377,8 +377,7 @@
                     <h3 class="section--paragraph__title"><?php echo $l->t('Bareos Backup Whitepaper');?></h3>
                     <p class="section--paragraph"><?php echo $l->t('How to backup Nextcloud efficiently and safely using the open source Bareos backup tool. Case study by Bareos.');?></p>
                 </div>
-                    <a style="margin-top: 130px" class="button button--blue button--small" href="
-https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?php echo $l->t('Download');?></a>
+                    <a style="margin-top: 130px" class="button button--blue button--small" href="https://www.bareos.com/en/company_news/whitepaper-bareos-nextcloud-en.html"><?php echo $l->t('Download');?></a>
             </div>
         </div>
 	</div>
