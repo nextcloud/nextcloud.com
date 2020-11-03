@@ -21,7 +21,7 @@
     <li><a href="#latest20">Nextcloud 20</a></li>
     <li><a href="#latest19">Nextcloud 19</a></li>
     <li><a href="#latest18">Nextcloud 18</a></li>
-    <li><a href="#latest17">Nextcloud 17</a></li>
+    <li><a href="#latest17">Nextcloud 17 (unsupported!)</a></li>
     <li><a href="#latest16">Nextcloud 16 (unsupported!)</a></li>
     <li><a href="#latest15">Nextcloud 15 (unsupported!)</a></li>
     <li><a href="#latest14">Nextcloud 14 (unsupported!)</a></li>
