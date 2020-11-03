@@ -172,8 +172,8 @@
 					<li class="check" title="<?php echo $l->t('Some migrations are included, ask your sales representative for details');?>" rel="tooltip"><a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration support¹</a>');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support engineers by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: up to 24/7');?></li>
 					<li class="check" title="<?php echo $l->t('Use your corporate design in branded and pre-configured sync clients for desktop and mobile. MDM included.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a> (MDM included)');?></li>
-					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting¹');?></li>
 					<li class="check" title="<?php echo $l->t('Our engineers provide installation support and advice (remote installation call possible)');?>" rel="tooltip"><?php echo $l->t('Remote installation¹');?></li>
+					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting¹');?></li>
 					<li class="check" title="<?php echo $l->t('Upgrades can be disruptive. Our engineers will ensure yours will go smooth!');?>" rel="tooltip"><?php echo $l->t('Upgrade stand-by support¹');?></li>
 					<li class="check" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
 				</div>
