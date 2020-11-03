@@ -69,7 +69,7 @@
 					<li class="nocheck" title="<?php echo $l->t('Our engineers provide installation support and advice (remote installation call possible)');?>" rel="tooltip"><?php echo $l->t('Remote installation¹');?></li>
 					<li class="nocheck" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Upgrades can be disruptive. Our engineers will ensure yours will go smooth!');?>" rel="tooltip"><?php echo $l->t('Upgrade stand-by support¹');?></li>
-					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required. We will support your clustered instance.');?>" rel="tooltip"><?php echo $l->t('Clustered instances');?></li>
 				</div>
 				<h1 class=""><?php echo $l->t('Optional components');?></h1>
 				<div class="line"></div>
@@ -122,7 +122,7 @@
 					<li class="check" title="<?php echo $l->t('Our engineers provide installation support and advice (remote installation call possible)');?>" rel="tooltip"><?php echo $l->t('Remote installation¹');?></li>
 					<li class="nocheck" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting¹');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Upgrades can be disruptive. Our engineers will ensure yours will go smooth!');?>" rel="tooltip"><?php echo $l->t('Upgrade stand-by support¹');?></li>
-					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
+					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required. We will support your clustered instance.');?>" rel="tooltip"><?php echo $l->t('Clustered instances');?></li>
 				</div>
 				<h1 class=""><?php echo $l->t('Optional components');?></h1>
 				<div class="line"></div>
@@ -175,7 +175,7 @@
 					<li class="check" title="<?php echo $l->t('Our engineers provide installation support and advice (remote installation call possible)');?>" rel="tooltip"><?php echo $l->t('Remote installation¹');?></li>
 					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting¹');?></li>
 					<li class="check" title="<?php echo $l->t('Upgrades can be disruptive. Our engineers will ensure yours will go smooth!');?>" rel="tooltip"><?php echo $l->t('Upgrade stand-by support¹');?></li>
-					<li class="check" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required.');?>" rel="tooltip"><?php echo $l->t('Clustering support');?></li>
+					<li class="check" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required. We will support your clustered instance.');?>" rel="tooltip"><?php echo $l->t('Clustered instances');?></li>
 				</div>
 				<h1 class=""><?php echo $l->t('Optional components');?></h1>
 				<div class="line"></div>
