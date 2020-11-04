@@ -62,7 +62,7 @@
                 <p class="text-center"><?php echo $l->t('Ensure fast, secure, high-value dealmaking and transactions with the content collaboration platform from the market leader.');?></p>
                 <p class="text-center"><?php echo $l->t('Contact us to learn how we can help you.');?></p>
 				<div class="text-center morebuttondiv">
-					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact us');?> </a>
 				</div>
             </div>
         </div>
@@ -80,6 +80,7 @@
             <h3 class="section--paragraph__title"><?php echo $l->t('Available-anywhere collaboration');?></h3>
             <p class="section--paragraph"><?php echo $l->t('Switching between different tools is more than cumbersome and inefficient: it also massively increases the chance for mistakes to result in data leaks. For a process as important as making a sensitive deal, you can not risk an email send to the wrong address compromising your business.');?></p>
             <p class="section--paragraph"><?php echo $l->t('Nextcloud integrates comments, chat and secure audio/video calls, offers real-time notifications through mobile, web and desktop interfaces and integrates document viewing and editing all in one platform. It even comes with groupware functionalities like a calendar, task management and email functionality so meetings, plans, invitations and all the details they come with stay within the secure data room.');?></p>
+            <p class="section--paragraph"><?php echo $l->t('Note: A wide range of features exists in the VDR space, and like any solution, Nextcloud covers some and not others. Configuring a virtual data room in Nextcloud requires an analysis of security and functionality requirements and careful configuration.');?> <a class="hyperlink" href="https://portal.nextcloud.com/article/nextcloud-and-virtual-data-room-configuration-59.html"><?php echo $l->t('See our customer portal for details.');?></a></p>
         </div>
     </div>
     <div class="row feature-row">
@@ -102,7 +103,10 @@
             <p class="section--paragraph"><?php echo $l->t('Aside from participating in communication when invited, the six guests can only ever see and, if they have the access rights, edit files. The files can not be downloaded, copied from or printed and are watermarked on the screen at all times. Guests can also not upload files unless a folder is made available to them where they can do so, nor connect with third party tools or clients to Nextcloud unless explicitly allowed. Any file has to be accessed securely through the browser or is not available.');?></p>
             <p class="section--paragraph"><?php echo $l->t('At the end of the process, the VDR is archived and any devices which were set up are remotely wiped by the administrator using the built-in remote wipe feature.');?></p>
             <p class="section--paragraph"><strong><?php echo $l->t('Is this what you need?');?></strong>
-            <a href="<?php echo home_url('buy') ?>" class="hyperlink"><?php echo $l->t('Contact us and get started now.');?> <i class="icon-arrow-circle-o-right icon"></i></a></p>
+            <p class="section--paragraph"><?php echo $l->t('Customers can log into our customer portal for details on how to configure Nextcloud for this scenario.');?>
+            <a class="hyperlink" href="https://portal.nextcloud.com/article/nextcloud-and-virtual-data-room-configuration-59.html"> <?php echo $l->t('Nextcloud and Virtual Data Room configuration');?> <i class="fa-arrow-circle-o-right fa"></i></a></p>
+            <a href="<?php echo home_url('buy') ?>" class="button button--white button--arrow"><?php echo $l->t('Contact us');?></a> </p>
+
         </div>
     </div>
 </div>
@@ -155,18 +159,20 @@
             <?php echo $l->t('Recipient view in Secure Mailbox in Nextcloud');?>
         </div>
     </div>
-        <div class="row">
-            <div class="col-md-6">
-                <h3 class="section--paragraph__title"><?php echo $l->t('Remote wipe');?></h3>
-                <div data-type="youtube" data-video-id="oyWXMjb-6ik"></div>
-                <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/oyWXMjb-6ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="col-md-6">
-                <h3 class="section--paragraph__title"><?php echo $l->t('Watermarks and secure inbox');?></h3>
-                <div data-type="youtube" data-video-id="nueL_hzDp-s"></div>
-                <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/nueL_hzDp-s" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
-            </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="section--paragraph__title"><?php echo $l->t('Remote wipe');?></h3>
+            <div data-type="youtube" data-video-id="oyWXMjb-6ik"></div>
+            <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/oyWXMjb-6ik" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
         </div>
+        <div class="col-md-6">
+            <h3 class="section--paragraph__title"><?php echo $l->t('Watermarks and secure inbox');?></h3>
+            <div data-type="youtube" data-video-id="nueL_hzDp-s"></div>
+            <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/nueL_hzDp-s" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row">
+                <p class="section--paragraph"><?php echo $l->t('Note: Some mentioned features are optional and most require additional configuration. Configuring a virtual data room in Nextcloud requires an analysis of security and functionality requirements.');?> <a class="hyperlink" href="https://portal.nextcloud.com/article/nextcloud-and-virtual-data-room-configuration-59.html"><?php echo $l->t('See our customer portal for details and a walk-through of the process.');?></a></p>
 </div>
 </section>
 <section class="section--benefits">
@@ -286,7 +292,7 @@
 			<div class="col-md-8 col-md-offset-2 featureblock">
 				<p class="text-center"><?php echo $l->t('With military-grade security and first-class communication and collaboration technology, Nextcloud offers the full array of functions needed to do due dilligence without giving up control over your data. Contact us today to get started!');?></p>
 				<div class="text-center morebuttondiv">
-					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact us');?> <i class="icon-arrow-circle-o-right icon"></i></a>
+					<a href="<?php echo home_url('buy') ?>" class="button button--large button--arrow"><?php echo $l->t('Contact us');?></a>
 				</div>
 			</div>
 		</div>
