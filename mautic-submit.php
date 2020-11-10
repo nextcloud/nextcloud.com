@@ -158,8 +158,8 @@ try {
     );
     error_log(json_encode($data));
     ?>
-    <h3 >I'm sorry</h3>
+    <h3>Apologies</h3>
     <p>There was a problem on our side.</p>
-    <p>Please use the back key to go to <br/>the previous page and retry again, or <br /> <a href="https://nextcloud.com/contact">contact us.</a></p>
+    <p>Please <a href="https://nextcloud.com/contact">contact us</a> and ask for the whitepaper you tried to download.</p>
     <?php
 }
