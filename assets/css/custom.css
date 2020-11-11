@@ -5660,11 +5660,11 @@ footer.page-footer {
   .background .topheader {
     /*     position: absolute; */
     /*     top: 30%; */
-    margin-top: 200px;
+    margin-top: 150px;
     padding: 0;
     max-width: 600px; }
   .background .topsidebar {
-    margin-top: 200px;
+    margin-top: 150px;
     opacity: 1; }
     .background .topsidebar .sidebarlist {
       padding: 30px 20px 30px 20px;

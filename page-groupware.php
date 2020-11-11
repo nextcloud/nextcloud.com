@@ -90,11 +90,11 @@
 	</div>
     <div class="row">
 		<div class="col-md-6 image--feature">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_mailbox_management.png"><img alt="<?php echo $l->t('screenshot of mailbox management in action');?>" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_mailbox_management.png" /></a><br />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_mailbox_management.png"><img alt="<?php echo $l->t('screenshot of mailbox management in action');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_mailbox_management.png" /></a><br />
 			<?php echo $l->t('Mailbox management');?>
         </div>
 		<div class="col-md-6 image--feature">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_itinerary.png"><img alt="<?php echo $l->t('screenshot of mail itinerary reading in action');?>" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_itinerary.png" /></a><br />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_itinerary.png"><img alt="<?php echo $l->t('screenshot of mail itinerary reading in action');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/mail_itinerary.png" /></a><br />
             <?php echo $l->t('Adding an ittinerary to the Calendar');?>
         </div>
 	</div>
@@ -114,11 +114,11 @@
 	</div>
     <div class="row">
 		<div class="col-md-6 image--feature">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_list_view.png"><img alt="<?php echo $l->t('Calendar list view');?>" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_list_view.png" /></a><br />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_list_view.png"><img alt="<?php echo $l->t('Calendar list view');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_list_view.png" /></a><br />
 			<?php echo $l->t('Calendar list view');?>
         </div>
 		<div class="col-md-6 image--feature">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_day_view.png"><img alt="<?php echo $l->t('Calendar day view');?>" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_day_view.png" /></a><br />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_day_view.png"><img alt="<?php echo $l->t('Calendar day view');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/calendar_day_view.png" /></a><br />
             <?php echo $l->t('Calendar day view');?>
         </div>
 	</div>
@@ -152,11 +152,11 @@
 	</div>
     <div class="row">
 		<div class="col-md-6 image--feature">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/deck_modal_card_view.png"><img alt="<?php echo $l->t('Viewing a card in Deck');?>" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck_modal_card_view.png" /></a><br />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/deck_modal_card_view.png"><img alt="<?php echo $l->t('Viewing a card in Deck');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck_modal_card_view.png" /></a><br />
 			<?php echo $l->t('Viewing a card in Deck');?>
         </div>
 		<div class="col-md-6 image--feature">
-			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/deck_in_calendar.png"><img alt="<?php echo $l->t('Deck integration in Calendar');?>" class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck_in_calendar.png" /></a><br />
+			<a href="<?php bloginfo('template_directory'); ?>/assets/img/features/deck_in_calendar.png"><img alt="<?php echo $l->t('Deck integration in Calendar');?>" class="overlay-trigger img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/deck_in_calendar.png" /></a><br />
             <?php echo $l->t('Deck integration in Calendar');?>
         </div>
 	</div>
@@ -224,7 +224,7 @@
 		<div class="featurerow">
 			<div class="row ">
 				<div class="col-md-6 image--floated image--feature">
-						<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-settings.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-settings.png" alt="in action" /></a>
+						<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-settings.png"><img class="overlay-trigger img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-settings.png" alt="in action" /></a>
 				</div>
 
 				<div class="col-md-6 featureblock">
@@ -238,7 +238,7 @@
 		<div class="featurerow">
 			<div class="row ">
 				<div class="col-md-6 image--feature">
-					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-about.png"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-about.png" alt="in action" /></a>
+					<a href="<?php bloginfo('template_directory'); ?>/assets/img/outlook/calendar-about.png"><img class="overlay-trigger img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/calendar-about.png" alt="in action" /></a>
 				</div>
 				<div class="col-md-6 featureblock">
 					<h3 class="section--paragraph__title"><?php echo $l->t('Features');?></h3>
@@ -269,7 +269,7 @@
 <!-- 			<h1 class="section--heading-1 section--text--center"><?php echo $l->t('Mozilla Thunderbird');?></h1> -->
 			<div class="row">
 				<div class="col-md-6 image--feature image--floated">
-					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb-2.png" alt="in action" />
+					<img class="overlay-trigger img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/outlook/moztb-2.png" alt="in action" />
 				</div>
 				<div class="col-md-6 featureblock">
 					<h3 class="section--paragraph__title"><?php echo $l->t('Mozilla Thunderbird');?></h3>
@@ -277,7 +277,7 @@
 					<p class="section--paragraph"><a class="hyperlink" href="<?php echo $DOCUMENTATION_USER; ?>pim/sync_thunderbird.html"><?php echo $l->t('Learn more in our documentation.');?></a></p>
 				</div>
 			</div>
-		</div>
+<!-- 		</div> -->
 	</div>
 </section>
 

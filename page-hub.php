@@ -145,7 +145,7 @@
         <a href="<?php echo home_url('workflow') ?>" class="overlay-trigger button button--white button--arrow"><?php echo $l->t('Learn more about Flow');?></a>
         </div>
         <div class="col-md-1 featureblock">
-        <i class="fa-hdd fa"></i>
+        <i class="fa-hdd-o fa"></i>
         </div>
         <div class="col-md-3 featureblock">
         <p class=""><?php echo $l->t('Access existing storage silos like FTP, Windows Network Drives, SharePoint, Object Storage and Samba shares seamlessly through Nextcloud. ');?></p>
