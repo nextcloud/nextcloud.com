@@ -56,21 +56,18 @@
 .section--intro {
   margin-top: 140px; }
 
-.section--benefits {
-  padding-top: 0; }
-  .section--benefits h2 {
-    margin-top: 100px;
-    margin-bottom: 0px; }
-  .section--benefits .ilustration {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 60px 0; }
-    .section--benefits .ilustration svg {
-      display: block !important;
-      margin-left: auto !important;
-      margin-right: auto !important;
-      max-width: 100%;
-      max-height: 300px; }
+.section--benefits h2 {
+  margin-bottom: 3px; }
+.section--benefits .ilustration {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px; }
+  .section--benefits .ilustration svg {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 100%;
+    max-height: 300px; }
 
 .section--scalability .content p, .section--reliability .content p, .section--compliance .content p, .section--security .content p {
   font-size: 22px;
