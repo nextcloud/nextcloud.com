@@ -188,7 +188,7 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="both Android/iOS (Android with integrated 3rd party tool)" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="With Collabora Online, ONLYOFFICE or MS Office Online" rel="tooltip"><div><i class="fa fa-check"></i> / <i class="fa fa-check"></i><br /><small>Collabora/ONLYOFFICE MS Office</small></div></li> <!--Online Office-->
+							<li title="With Collabora Online, ONLYOFFICE, Hancom Office or MS Office Online" rel="tooltip"><div><i class="fa fa-check"></i> / <i class="fa fa-check"></i><br />4 options</div></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!-- Video Verification -->
@@ -444,7 +444,7 @@
 							<li title="unsupported" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Audio/Video/Text chat-->
 							<li title="Only as unsupported (Nextcloud-developed) third party apps" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
 							<li title="Unsupported. Available for iOS, Android possible with tool from Nextcloud partner" rel="tooltip"><i class="fa fa-check optional"></i>/<i class="fa fa-check optional"></i></li> <!--Mobile calendar/contact integration-->
-							<li title="" rel="tooltip"><div><i class="fa fa-check"></i> / <i class="fa fa-times"></i><br /><small>Collabora/ONLYOFFICE MS Office</small></div></li> <!--Online Office-->
+							<li title="Collabora Online, OnlyOffice, MS Office Online" rel="tooltip"><div><i class="fa fa-check"></i> / <i class="fa fa-times"></i><br /><small>3 options</small></div></li> <!--Online Office-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Drop (customer file upload)-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Block downloads -->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!-- Video Verification -->
