@@ -36,11 +36,10 @@ require(["require.config"], function() {
 				<div class="alignright"><a href="<?php echo get_template_directory_uri(); ?>/assets/img/events/fosdem18.jpg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/events/fosdem18.jpg" style="width: 400px" title="" alt="" class="img-thumbnail"></a>
 				<p class="text-center">Our awesome team at FOSDEM 2018!</p></div>
 				<h2>Meetups</h2>
-				<p class="section--paragraph">Nextcloud community members get together in meetups to learn, share ideas and work on Nextcloud. Meetups are informal meetings which are typically held in the evening and can be focused on development, user or business topics. You can take part as a speaker, participant or promoter. Meetups are typically held once a month and are open to anyone. Below is a list of local meetup groups.</p>
-				<script type="text/javascript" src="https://www.meetup.com/embed/largest/nextcloud/"></script>
-				<p class="section--paragraph">Find the next Meetup dates and more on <a class="hyperlink" target="_blank" href="https://nextcloud.meetup.com/">nextcloud.meetup.com</a></p>
+				<p class="section--paragraph">Nextcloud community members get together in meetups to learn, share ideas and work on Nextcloud. Meetups are informal meetings which are typically held in the evening and can be focused on development, user or business topics. You can take part as a speaker, participant or promoter. Meetups are typically held once a month and are open to anyone. You can find the meetups managed on our discourse forum.</p>
+				<p class="section--paragraph">Find the next Meetup dates and more on <a class="hyperlink" target="_blank" href="https://help.nextcloud.com/c/events/25">help.nextcloud.com</a></p>
 				<div class="row" style="text-align: center">
-					<p class="section--paragraph"><a target="_blank" href="https://nextcloud.meetup.com/" class="btn btn-lg btn-default">
+					<p class="section--paragraph"><a target="_blank" href="https://help.nextcloud.com/c/events/25" class="btn btn-lg btn-default">
 					<i class="icon-group"></i> Join a Meetup!</a>
 					<a target="_blank"  href="<?php echo home_url('events/meetups') ?>" class="btn btn-lg btn-default">
 					<i class="icon-lightbulb-o"></i> Organize a Meetup!</a></p>
