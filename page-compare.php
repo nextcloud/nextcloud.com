@@ -95,6 +95,8 @@
 					<li title="" rel="tooltip">File Versioning</li> <!--File Versioning-->
 					<li title="Block a file temporarily from being edited while you work offline with it" rel="tooltip">File Locking/checkout</li> <!--File Locking-->
 					<li title="" rel="tooltip">File Metadata</li> <!--File Metadata-->
+					<li title="" rel="tooltip">Multiple link shares</li> <!--Multiple shares-->
+					<li title="Add a note for the sharee / identify shares with name or note" rel="tooltip">Share Metadata</li> <!--Share Metadata-->
 					<li title="" rel="tooltip">View PDF, images, video, gallery</li> <!--View PDF, images, video, gallery-->
 					<li title="" rel="tooltip">Integrated Audio/Video/Text chat</li> <!--Audio/Video/Text chat-->
 					<li title="" rel="tooltip">Integrated Groupware<br> (Calendar/Contacts/<br>Mail/Kanban)</li> <!--Calendar/Contact/Mail integration-->
@@ -180,6 +182,8 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Versioning-->
 							<li title="Does NOT block collaborative editing" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Multiple shares-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i> / <i class="fa fa-check"></i></li> <!--Share Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Calendar/Contact/Mail integration-->
@@ -263,6 +267,8 @@
 							<li title="" rel="tooltip">limited</li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i></li> <!--Share Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Calendar/Contact/Mail integration-->
@@ -347,6 +353,8 @@
 							<li title="Only for MS Office files" rel="tooltip">limited</li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i></li> <!--Share Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Calendar/Contact/Mail integration-->
@@ -430,6 +438,8 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--Multiple shares-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i></li> <!--Share Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="unsupported" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Audio/Video/Text chat-->
 							<li title="Only as unsupported (Nextcloud-developed) third party apps" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
@@ -506,13 +516,14 @@
 							<li title="" rel="tooltip"><i class="fa fa-apple"></i> <i class="fa fa-windows"></i></li> <!--Desktop clients-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--LAN Synchronization-->
 							<li title="Limited Microsoft office integration" rel="tooltip"><i class="fa fa-check"></i></li> <!--Extensible with apps-->
-
 							<li title="" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Outlook integration-->
 								<li class="cd-group"></li> <!--Server features-->
 							<li title="" rel="tooltip"><i class="fa fa-usd"></i></li> <!--Full text search-->
 							<li title="25-50 revisions depending on plan" rel="tooltip">limited</li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
 							<li title="Varies per plan" rel="tooltip"><i class="fa fa-usd"></i></li> <!--File Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i></li> <!--Share Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Audio/Video/Text chat-->
 							<li title="not natively, third party app" rel="tooltip"><i class="fa fa-clock-o"></i></li> <!--Calendar/Contact/Mail integration-->
@@ -596,6 +607,8 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Versioning-->
 							<li title="not available in web UI or WebDAV" rel="tooltip"><i class="fa fa-check"></i>*</li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i></li> <!--Share Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
@@ -678,6 +691,8 @@
 							<li title="Max 1 month, up to 1 year with Business subscription" rel="tooltip">limited</li> <!--File Versioning-->
 							<li title="only for business edition" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
 							<li title="Only with business subscription" rel="tooltip"><i class="fa fa-usd"></i></li> <!--File Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i></li> <!--Share Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i class="fa fa-check"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i>/<i class="fa fa-check"></i>/<i title="through Google Apps" rel="tooltip" class="fa fa-google"></i></li> <!--Calendar/Contact/Mail integration-->
@@ -760,6 +775,8 @@
 							<li title="max 3 revisions" rel="tooltip">limited</li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i></li> <!--Share Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i>/<i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
@@ -843,6 +860,8 @@
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Versioning-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Locking-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--File Metadata-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Multiple shares-->
+							<li title="" rel="tooltip"><i class="fa fa-times"></i> / <i class="fa fa-times"></i></li> <!--Share Metadata-->
 							<li title="" rel="tooltip"><i class="fa fa-check"></i></li> <!--View PDF, images, video, gallery-->
 							<li title="Microsoft Lync plug-in" rel="tooltip"><i class="fa fa-clock-o"></i></li> <!--Audio/Video/Text chat-->
 							<li title="" rel="tooltip"><i class="fa fa-times"></i></li> <!--Calendar/Contact/Mail integration-->
