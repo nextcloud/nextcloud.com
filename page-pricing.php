@@ -66,7 +66,7 @@
 					<li class="check" title="<?php echo $l->t('Some migrations are included, ask your sales representative for details.');?>" rel="tooltip"><a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration support¹</a>');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support engineers by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Use your corporate design in branded and pre-configured sync clients for desktop and mobile.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a>');?></li>
-					<li class="nocheck" title="<?php echo $l->t('Our engineers provide installation support and advice (remote installation call possible)');?>" rel="tooltip"><?php echo $l->t('Remote installation¹');?></li>
+					<li class="nocheck" title="<?php echo $l->t('We will review your Nextcloud instance after you set it up and assist you in its configuration and fine-tuning');?>" rel="tooltip"><?php echo $l->t('Installation review¹');?></li>
 					<li class="nocheck" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Upgrades can be disruptive. Our engineers will ensure yours will go smooth!');?>" rel="tooltip"><?php echo $l->t('Upgrade stand-by support¹');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required. We will support your clustered instance.');?>" rel="tooltip"><?php echo $l->t('Clustered instances');?></li>
@@ -119,7 +119,7 @@
 					<li class="check" title="<?php echo $l->t('Some migrations are included, ask your sales representative for details');?>" rel="tooltip"><a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration support¹</a>');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support engineers by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: business hours');?></li>
 					<li class="check" title="<?php echo $l->t('Use your corporate design in branded and pre-configured sync clients for desktop and mobile.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a>');?></li>
-					<li class="check" title="<?php echo $l->t('Our engineers provide installation support and advice (remote installation call possible)');?>" rel="tooltip"><?php echo $l->t('Remote installation¹');?></li>
+					<li class="check" title="<?php echo $l->t('We will review your Nextcloud instance after you set it up and assist you in its configuration and fine-tuning');?>" rel="tooltip"><?php echo $l->t('Installation review¹');?></li>
 					<li class="nocheck" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting¹');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Upgrades can be disruptive. Our engineers will ensure yours will go smooth!');?>" rel="tooltip"><?php echo $l->t('Upgrade stand-by support¹');?></li>
 					<li class="nocheck" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required. We will support your clustered instance.');?>" rel="tooltip"><?php echo $l->t('Clustered instances');?></li>
@@ -172,7 +172,7 @@
 					<li class="check" title="<?php echo $l->t('Some migrations are included, ask your sales representative for details');?>" rel="tooltip"><a class="hyperlink" href="<?php echo home_url('migration') ?>"><?php echo $l->t('Migration support¹</a>');?></li>
 					<li class="check" title="<?php echo $l->t('You can contact our capable and responsive support engineers by email and expect a quick response time.');?>" rel="tooltip"><?php echo $l->t('Email support: up to 24/7');?></li>
 					<li class="check" title="<?php echo $l->t('Use your corporate design in branded and pre-configured sync clients for desktop and mobile. MDM included.');?>" rel="tooltip"><?php echo $l->t('<a class="hyperlink" href="#featureblock-branding">Branding</a> (MDM included)');?></li>
-					<li class="check" title="<?php echo $l->t('Our engineers provide installation support and advice (remote installation call possible)');?>" rel="tooltip"><?php echo $l->t('Remote installation¹');?></li>
+					<li class="check" title="<?php echo $l->t('We will review your Nextcloud instance after you set it up and assist you in its configuration and fine-tuning');?>" rel="tooltip"><?php echo $l->t('Installation review¹');?></li>
 					<li class="check" title="<?php echo $l->t('If you need access to experienced engineers to built custom solutions for your unique needs.');?>" rel="tooltip"><?php echo $l->t('Custom consulting¹');?></li>
 					<li class="check" title="<?php echo $l->t('Upgrades can be disruptive. Our engineers will ensure yours will go smooth!');?>" rel="tooltip"><?php echo $l->t('Upgrade stand-by support¹');?></li>
 					<li class="check" title="<?php echo $l->t('Once you need to scale Nextcloud to large numbers of users, a full clustering solution is required. We will support your clustered instance.');?>" rel="tooltip"><?php echo $l->t('Clustered instances');?></li>
@@ -282,7 +282,7 @@
 				<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/features/spreed-screenshare2-nw.png">
 				<h3 class="section--paragraph__title"><?php echo $l->t('Installation and configuration support');?></h3>
 				<p class="section--paragraph"><?php echo $l->t('Besides our <a class="hyperlink" href="https://docs.nextcloud.com">documentation</a>, <a class="hyperlink" href="https://portal.nextcloud.com">support portal</a> and basic support we offer remote installation support, help with upgrading and migrations from other solutions.');?></p>
-				<p class="section--paragraph"><?php echo $l->t('We care about your success. Remote installation and configuration support included with all Standard and Premium subscriptions. Premium customers also receive free upgrade and migration support¹.');?></p>
+				<p class="section--paragraph"><?php echo $l->t('We care about your success. Installation review and configuration support is included with all Standard and Premium subscriptions. Premium customers also receive free upgrade and migration support¹.');?></p>
 				<p class="section--paragraph"><?php echo $l->t('Custom, multi-day or on-site installation or scalability consulting options are available as well.');?></p>
 				<p class="section--paragraph"><small><?php echo $l->t('¹ Restrictions apply. Ask your sales representative for details.');?></small></p>
 			</div>
