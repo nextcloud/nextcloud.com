@@ -2,6 +2,28 @@
 
 <h2>2020</h2>
 
+<h3>Nextcloud Server 20.0.0</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-041">Improper integrity protection of server-side encryption keys (NC-SA-2020-041)</a> 2020-10-03</li>
+	<li><a href="/security/advisory/?id=NC-SA-2020-040">Improper confidentiality protection of server-side encryption keys (NC-SA-2020-040)</a> 2020-10-03</li>
+</ul>
+
+<h3>Nextcloud Server 19.0.2</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-039">Downgrade encryption scheme and break integrity through known-plaintext attack (NC-SA-2020-039)</a> 2020-08-26</li>
+	<li><a href="/security/advisory/?id=NC-SA-2020-038">Message Authentication Codes calculated by the Default Encryption Module allow an attacker to silently overwrite blocks in a file (NC-SA-2020-038)</a> 2020-08-26</li>
+</ul>
+
+<h3>Nextcloud Server 18.0.8</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-038">Message Authentication Codes calculated by the Default Encryption Module allow an attacker to silently overwrite blocks in a file (NC-SA-2020-038)</a> 2020-08-26</li>
+</ul>
+
+<h3>Nextcloud Server 17.0.10</h3>
+<ul>
+	<li><a href="/security/advisory/?id=NC-SA-2020-038">Message Authentication Codes calculated by the Default Encryption Module allow an attacker to silently overwrite blocks in a file (NC-SA-2020-038)</a> 2020-08-26</li>
+</ul>
+
 <h3>Nextcloud Server 19.0.2</h3>
 <ul>
 	<li><a href="/security/advisory/?id=NC-SA-2020-037">PIN for passwordless WebAuthn is asked for but not verified (NC-SA-2020-037)</a> 2020-08-25</li>
