@@ -46,3 +46,18 @@
         </div>
 	</div>
 </section>
+
+<section class="section--fulltextsearch">
+	<div class="container">
+        <div class="row">
+            <div class="col-md-6 image--floated image--feature">
+                <a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/fulltextsearch.png"/></a>
+            </div>
+            <div class="col-md-6 feature--block">
+                <h3 class="section--paragraph__title"><?php echo $l->t('Powerful search');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('Nextcloud includes a powerful full-text search engine capable of using ElasticSearch as back-end. Its flexible plugin-based interface enables search capabilities beyond files and accommodates other back-end solutions like Apache Solr.');?></p>
+                <a href="https://apps.nextcloud.com/apps/fulltextsearch" class="button button--blue button--arrow button--large"><?php echo $l->t('In the App store');?></a>
+            </div>
+        </div>
+	</div>
+</section>

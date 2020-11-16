@@ -19,6 +19,7 @@
         <div class="col-md-8 col-md-offset-2">
             <p><?php echo $l->t('If you have technical questions or need support,');?> <a href="<?php echo home_url('support') ?>"><?php echo $l->t('check out the options on our support page.</a>');?>
             <p><?php echo $l->t('As a home user, best use our forums for questions.');?> <a href="https://help.nextcloud.com" target="_blank"><?php echo $l->t('Find our forums here.');?></a></p>
+            <p><?php echo $l->t('If you have questions about what Nextcloud can do for you,');?> <a href="<?php echo home_url('search') ?>" target="_blank"><?php echo $l->t('search our website.');?></a></p>
             </div>
         <div class="col-md-8 col-md-offset-2">
             <h1><?php echo $l->t('Contact us');?></h1>

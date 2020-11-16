@@ -39,18 +39,21 @@ Template Name: Search Page
     <h3>Nextcloud capabilities</h3>
 
     <ul>
+        <li><a href="<?php echo home_url('hub') ?>" class="hyperlink"><?php echo $l->t('Nextcloud Hub overview');?></a></li>
         <li><a href="<?php echo home_url('files') ?>" class="hyperlink"><?php echo $l->t('Nextcloud Files overview');?></a></li>
         <li><a href="<?php echo home_url('files') ?>" class="hyperlink"><?php echo $l->t('Nextcloud Talk overview');?></a></li>
         <li><a href="<?php echo home_url('files') ?>" class="hyperlink"><?php echo $l->t('Nextcloud Groupware overview');?></a></li>
         <li><a href="<?php echo home_url('clients') ?>" class="hyperlink"><?php echo $l->t('Mobile and desktop clients');?></a></li>
         <li><a href="<?php echo home_url('sharing') ?>" class="hyperlink"><?php echo $l->t('Secure file sharing abilities');?></a></li>
         <li><a href="<?php echo home_url('file-drop') ?>" class="hyperlink"><?php echo $l->t('Customer file upload (file drop)');?></a></li>
+        <li><a href="<?php echo home_url('dashboard') ?>" class="hyperlink"><?php echo $l->t('Dashboard');?></a></li>
+        <li><a href="<?php echo home_url('unified-search') ?>" class="hyperlink"><?php echo $l->t('Search');?></a></li>
         <li><a href="<?php echo home_url('storage') ?>" class="hyperlink"><?php echo $l->t('Storage options (FTP, NFS, Windows Network Drive, SharePoint and more)');?></a></li>
         <li><a href="<?php echo home_url('usermanagement') ?>" class="hyperlink"><?php echo $l->t('User management and authentication (LDAP, SAML, 2FA)');?></a></li>
         <li><a href="<?php echo home_url('monitoring') ?>" class="hyperlink"><?php echo $l->t('Monitoring and auditing');?></a></li>
         <li><a href="<?php echo home_url('workflow') ?>" class="hyperlink"><?php echo $l->t('Workflow handling');?></a></li>
+        <li><a href="<?php echo home_url('globalscale') ?>" class="hyperlink"><?php echo $l->t('Scalability');?></a></li>
         <li><a href="<?php echo home_url('outlook') ?>" class="hyperlink"><?php echo $l->t('Outlook and Thunderbird integration');?></a></li>
-        <li><a href="<?php echo home_url('files') ?>" class="hyperlink"><?php echo $l->t('External Storage');?></a></li>
         <li><a href="<?php echo home_url('collaboraonline') ?>" class="hyperlink"><?php echo $l->t('Online document editing with Collabora Online');?></a></li>
         <li><a href="<?php echo home_url('onlyoffice') ?>" class="hyperlink"><?php echo $l->t('Online document editing with ONLYOFFICE');?></a></li>
         </ul>
@@ -59,7 +62,9 @@ Template Name: Search Page
     <h3>Security and Compliance</h3>
         <ul>
             <li><a href="<?php echo home_url('secure') ?>" class="hyperlink"><?php echo $l->t('Security overview');?></a></li>
+            <li><a href="<?php echo home_url('encryption') ?>" class="hyperlink"><?php echo $l->t('Encryption overview');?></a></li>
             <li><a href="<?php echo home_url('endtoend') ?>" class="hyperlink"><?php echo $l->t('End-to-end encryption');?></a></li>
+            <li><a href="<?php echo home_url('virtual-data-room') ?>" class="hyperlink"><?php echo $l->t('Virtual Data Rooms');?></a></li>
             <li><a href="<?php echo home_url('security') ?>" class="hyperlink"><?php echo $l->t('Security reports');?></a></li>
             <li><a href="<?php echo home_url('gdpr') ?>" class="hyperlink"><?php echo $l->t('Compliance (GDPR, HIPAA)');?></a></li>
         </ul>

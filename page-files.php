@@ -254,19 +254,21 @@
 </div>
 </section>
 
-<section class="section--fulltextsearch">
-	<div class="container">
-        <div class="row">
-            <div class="col-md-6 image--floated image--feature">
-                <a><img class="img-responsive featureimg" src="<?php bloginfo('template_directory'); ?>/assets/img/features/fulltextsearch.png"/></a>
-            </div>
-            <div class="col-md-6 feature--block">
-                <h3 class="section--paragraph__title"><?php echo $l->t('Powerful search');?></h3>
-                <p class="section--paragraph"><?php echo $l->t('Nextcloud includes a powerful full-text search engine capable of using ElasticSearch as back-end. Its flexible plugin-based interface enables search capabilities beyond files and accommodates other back-end solutions like Apache Solr.');?></p>
-                <a href="https://apps.nextcloud.com/apps/fulltextsearch" class="button button--blue button--arrow button--large"><?php echo $l->t('In the App store');?></a>
-            </div>
-        </div>
+<section class="section--search">
+<div class="container">
+	<div class="row">
+        <div class="col-md-10 col-md-offset-1 video">
+			<stream src="d496e44cb39e8570a52a22259545aec4" controls loop preload mute autoplay poster="<?php bloginfo('template_directory'); ?>/assets/img/features/search_moodle_course_module.png"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=d496e44cb39e8570a52a22259545aec4"></script>
+		</div>
+    </div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+                <h3 class="section--paragraph__tittle"><?php echo $l->t('Find everything in one place');?></h3>
+                <p class="section--paragraph"><?php echo $l->t('On the top-right of your Nextcloud window, a search glass shows search results from all over Nextcloud. Additional search providers can be installed and over a dozen different search providers are available to show you Github issues, Moodle courses, Jira tickets and more');?></p>
+		</div>
 	</div>
+</div>
 </section>
 
 
