@@ -50,6 +50,9 @@
 .app-notes {
   background-image: url("../img/apps/notes.svg"); }
 
+.app-onlyoffice {
+  background-image: url("../img/apps/onlyoffice.svg"); }
+
 .app-passman {
   background-image: url("../img/apps/passman.svg"); }
 
@@ -67,5 +70,3 @@
 
 .app-twofactor_u2f {
   background-image: url("../img/apps/twofactor_u2f.svg"); }
-
-/*# sourceMappingURL=apps.css.map */

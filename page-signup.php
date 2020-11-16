@@ -66,6 +66,7 @@ $officialApps = [
     'gallery' => $l->t('Gallery'),
     'photos' => $l->t('Photos'),
     'collabora' => $l->t('Collabora Online'),
+    'onlyoffice' => $l->t('Onlyoffice'),
     'deck' => $l->t('Deck'),
     'fulltextsearch' => $l->t('Full text search'),
     'mindmaps' => $l->t('Mindmaps'),

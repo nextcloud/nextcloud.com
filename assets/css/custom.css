@@ -7464,6 +7464,9 @@ footer.page-footer {
 .app-notes {
   background-image: url("../img/apps/notes.svg"); }
 
+.app-onlyoffice {
+  background-image: url("../img/apps/onlyoffice.svg"); }
+
 .app-passman {
   background-image: url("../img/apps/passman.svg"); }
 
@@ -10742,72 +10745,3 @@ blockquote.twitter-tweet {
   .section--whitepaper .wp-center .mail, .whitepaper .wp-center .mail {
     width: 100%;
     max-width: 500px; }
-
-/*# sourceMappingURL=custom.css.map */
-.overlay {
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 100vh;
-	width: 100vw;
-	z-index: 1;
-	background-color: rgba(0, 0, 0, 0.5);
-	display: flex;
-}
-
-.overlay-wrapper {
-	position: relative;
-	width: 90vw !important;
-	height: 90vh !important;
-	background-color: white;
-	margin: auto;
-	border-radius: 44px;
-	padding: 22px;
-}
-
-.overlay-content {
-	overflow-y: scroll;
-	overflow-x: hidden;
-	z-index: 2;
-	scrollbar-width: thin;
-	width: 100%;
-	height: 100%;
-}
-
-.overlay-close {
-	position: fixed;
-	top: 1vh;
-	right: 1vw;
-	z-index: 3;
-	margin: 0;
-	width: 48px;
-	height: 48px;
-	background-color: transparent;
-	border: none;
-	padding: 0;
-}
-
-.overlay-close:focus {
-	border: 2px solid white;
-	border-radius: 4px;
-}
-
-
-.icon-close {
-	display: block;
-	background: url(../img/close-24px.svg);
-	background-size: 48px;
-	width: 48px;
-	height:48px;
-}
-
-.overlay-image {
-	object-fit: contain;
-	width: 100%;
-	height: 100%;
-	padding: 2vh 2vw;
-}
-
-img.overlay-trigger {
-	cursor: pointer;
-}
