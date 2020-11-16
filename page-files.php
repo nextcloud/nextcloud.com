@@ -266,7 +266,7 @@
 		<div class="col-md-8 col-md-offset-2">
                 <h3 class="section--paragraph__tittle"><?php echo $l->t('Find everything in one place');?></h3>
                 <p class="section--paragraph"><?php echo $l->t('On the top-right of your Nextcloud window, a search glass shows search results from all over Nextcloud. Additional search providers can be installed and over a dozen different search providers are available to show you Github issues, Moodle courses, Jira tickets and more');?></p>
-                <p><a href="<?php echo home_url('unified-search') ?>" class="button button--arrow"><?php echo $l->t('Unified Search');?></a></p>
+                <p><a href="<?php echo home_url('unified-search') ?>" class="overlay-trigger button button--blue button--arrow"><?php echo $l->t('Unified Search');?></a></p>
 		</div>
 	</div>
 </div>
