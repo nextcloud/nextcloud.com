@@ -45,7 +45,7 @@
 		<div class="col-md-4 table-column">
 			<div class="table-header basic">
 				<h1 class="header"><?php echo $l->t('Basic');?></h1>
-				<h2 class="header"><?php echo $l->t('Starting at 100 users for 3400€/year');?></h2>
+				<h2 class="header"><?php echo $l->t('Starting at 100 users for 34€ per user per year');?></h2>
 			</div>
 			<div class="table-content">
 				<h1 class="header"><?php echo $l->t('Features');?></h1>
@@ -87,8 +87,8 @@
 				<h1 class=""><?php echo $l->t('Pricing');?></h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="ball" title="<?php echo $l->t('Pricing starts at 100 users. Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('100 users: €3400');?></li>
-					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('200 users: €5400');?></li>
+					<li class="ball" title="<?php echo $l->t('Pricing starts at 100 users. Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('100 users: €34 per user per year');?></li>
+					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('200 users: €27 per user per year');?></li>
 					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Additional pricing tiers are available up to millions of users');?></li>
 					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
 				</div>
@@ -98,7 +98,7 @@
 		<div class="col-md-4 table-column">
 			<div class="table-header standard">
 				<h1 class=""><?php echo $l->t('Standard');?></h1>
-				<h2 class=""><?php echo $l->t('Starting at 100 users for 6100€/year');?></h2>
+				<h2 class=""><?php echo $l->t('Starting at 100 users for 61€ per user per year');?></h2>
 			</div>
 			<div class="table-content">
 				<h1 class=""><?php echo $l->t('Features');?></h1>
@@ -140,8 +140,8 @@
 				<h1 class=""><?php echo $l->t('Pricing');?></h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="ball" title="<?php echo $l->t('Pricing starts at 100 users. Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('100 users: €6100');?></li>
-					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('200 users: €9100');?></li>
+					<li class="ball" title="<?php echo $l->t('Pricing starts at 100 users. Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('100 users: €61 per user per year');?></li>
+					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('200 users: €45.50 per user per year');?></li>
 					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Additional pricing tiers are available up to millions of users');?></li>
 					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
 				</div>
@@ -151,7 +151,7 @@
 		<div class="col-md-4 table-column highlight">
 			<div class="table-header premium">
 				<h1 class=""><?php echo $l->t('Premium');?></h1>
-				<h2 class=""><?php echo $l->t('Starting at 100 users for 8900€/year');?></h2>
+				<h2 class=""><?php echo $l->t('Starting at 100 users for 89€ per user year');?></h2>
 			</div>
 			<div class="table-content">
 				<h1 class=""><?php echo $l->t('Features');?></h1>
@@ -193,8 +193,8 @@
 				<h1 class=""><?php echo $l->t('Pricing');?></h1>
 				<div class="line"></div>
 				<div class="list">
-					<li class="ball" title="<?php echo $l->t('Pricing starts at 100 users. Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('100 users: €8900');?></li>
-					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('200 users: €13.900');?></li>
+					<li class="ball" title="<?php echo $l->t('Pricing starts at 100 users. Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('100 users: €89 per user per year');?></li>
+					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('200 users: €69.50 per user per year');?></li>
 					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market vertical.');?>" rel="tooltip"><?php echo $l->t('Additional pricing tiers are available up to millions of users');?></li>
 					<li class="ball" title="<?php echo $l->t('Contact us for a quote relevant for your specific market.');?>" rel="tooltip"><?php echo $l->t('Framework agreements available');?></li>
 				</div>
