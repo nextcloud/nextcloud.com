@@ -6,7 +6,10 @@
 .pricing-background {
     background-image: url('../../img/headers/enterprise.jpg');
 	background-position: bottom 0 right 0;
-    min-height: 700px;
+    min-height: 800px;
+    .background {
+        max-height: 700px;
+    }
     .menu {
         margin-top: -100px;
     }
