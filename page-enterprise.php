@@ -59,15 +59,15 @@
             </div>
             <div class="col-md-6 benefit">
                 <h2><?php echo $l->t('Stability');?></h2>
-                <p>The reliable platform for large organizations.</p>
+                <p><?php echo $l->t('The reliable platform for large organizations.');?></p>
                 <p>
-                • Additional testing and quality assurance<br />
-                • Early critical bug fixes and hot fixes<br />
-                • Upgrade standby: we ensure smooth upgrades with advice and help<br />
-                • Support delivered directly by our engineers<br />
-                • Dedicated support account manager<br />
-                • Enterprise grade SLA up to 24/7<br />
-                • Up to 5-10 years of long term support for stable Nextcloud releases</p>
+                • <?php echo $l->t('Additional testing and quality assurance');?><br />
+                • <?php echo $l->t('Early critical bug fixes and hot fixes');?><br />
+                • <?php echo $l->t('Upgrade standby: we ensure smooth upgrades with advice and help');?><br />
+                • <?php echo $l->t('Support delivered directly by our engineers');?><br />
+                • <?php echo $l->t('Dedicated support account manager');?><br />
+                • <?php echo $l->t('Enterprise grade SLA up to 24/7');?><br />
+                • <?php echo $l->t('Up to 5-10 years of long term support for stable Nextcloud releases');?></p>
             </div>
         </div>
         <div class="row">
@@ -78,12 +78,12 @@
             </div>
             <div class="col-md-6 benefit">
                 <h2><?php echo $l->t('Security');?></h2>
-                <p>Advanced security capabilities to customers.</p>
+                <p>Advanced security capabilities to customers.');?></p>
                 <p>
-                • Early security patches<br />
-                • Enterprise-grade security features and hardening<br />
-                • Early notifications about critical security issues<br />
-                • Pro active security consulting to review and harden your instance</p>
+                • <?php echo $l->t('Early security patches');?><br />
+                • <?php echo $l->t('Enterprise-grade security features and hardening');?><br />
+                • <?php echo $l->t('Early notifications about critical security issues');?><br />
+                • <?php echo $l->t('Pro active security consulting to review and harden your instance');?></p>
             </div>
         </div>
         <div class="row">
@@ -94,12 +94,12 @@
             </div>
             <div class="col-md-6 benefit">
                 <h2><?php echo $l->t('Expertise');?></h2>
-                <p>Direct access to Nextcloud engineering expertise without call center people in between.</p>
+                <p>Direct access to Nextcloud engineering expertise without call center people in between.');?></p>
                 <p>
-                • Early security patches<br />
-                • Enterprise-grade security features and hardening<br />
-                • Early notifications about critical security issues<br />
-                • Pro active security consulting to review and harden your instance</p>
+                • <?php echo $l->t('Early security patches');?><br />
+                • <?php echo $l->t('Enterprise-grade security features and hardening');?><br />
+                • <?php echo $l->t('Early notifications about critical security issues');?><br />
+                • <?php echo $l->t('Pro active security consulting to review and harden your instance');?></p>
             </div>
         </div>
     </div>
@@ -127,11 +127,11 @@
             </div>
             <div class="col-md-6 benefit">
                 <h2><?php echo $l->t('Influence');?></h2>
-                <p>Customer needs drive us, and your requirements are on the top of our todo.</p>
+                <p><?php echo $l->t('Customer needs drive us, and your requirements are on the top of our todo.');?></p>
                 <p>
-                • Access to decision makers at Nextcloud<br />
-                • Influence on road map<br />
-                • Seat at the product advisory board</p>
+                • <?php echo $l->t('Access to decision makers at Nextcloud');?><br />
+                • <?php echo $l->t('Influence on road map');?><br />
+                • <?php echo $l->t('Seat at the product advisory board');?></p>
             </div>
         </div>
         <div class="row">
@@ -142,12 +142,12 @@
             </div>
             <div class="col-md-6 benefit">
                 <h2><?php echo $l->t('Functionality');?></h2>
-                <p>Additional capabilities ready to provide what your teams need to be productive.</p>
+                <p><?php echo $l->t('Additional capabilities ready to provide what your teams need to be productive.');?></p>
                 <p>
-                • Custom integration<br />
-                • Branding<br />
-                • Outlook integration<br />
-                • Access to add-ons from partner companies like: Collabora Online, ONLYOFFICE, Kaspersky, and many more</p>
+                • <?php echo $l->t('Custom integration');?><br />
+                • <?php echo $l->t('Branding');?><br />
+                • <?php echo $l->t('Outlook integration');?><br />
+                • <?php echo $l->t('Access to add-ons from partner companies like: Collabora Online, ONLYOFFICE, Kaspersky, and many more');?></p>
             </div>
         </div>
         <div class="row">
@@ -158,10 +158,10 @@
             </div>
             <div class="col-md-6 benefit">
                 <h2><?php echo $l->t('Compliance');?></h2>
-                <p>A proven, certified code base for legal compliance legislation.</p>
+                <p><?php echo $l->t('A proven, certified code base for legal compliance legislation.');?></p>
                 <p>
-                • Guarantee that all code is secure, proven and certified for GDPR and HIPAA compliance<br />
-                • Access to enterprise GDPR documentation and compliance expertise necessary for data requests</p>
+                • <?php echo $l->t('Guarantee that all code is secure, proven and certified for GDPR and HIPAA compliance');?><br />
+                • <?php echo $l->t('Access to enterprise GDPR documentation and compliance expertise necessary for data requests');?></p>
         </div>
     </div>
 </section>
