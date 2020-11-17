@@ -7485,6 +7485,90 @@ footer.page-footer {
 .app-twofactor_u2f {
   background-image: url("../img/apps/twofactor_u2f.svg"); }
 
+/*Colors*/
+/*Shadows*/
+/*Breakpoints*/
+/* New widest container for headers */
+.container-widest {
+  max-width: 1800px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container-widest .container-widest {
+      width: 738px; } }
+  @media (min-width: 992px) {
+    .container-widest .container-widest {
+      width: 962px; } }
+  @media (min-width: 1200px) {
+    .container-widest .container-widest {
+      width: 1170px; } }
+  @media (min-width: 1500px) {
+    .container-widest .container-widest {
+      width: 1470px; } }
+  @media (min-width: 1800px) {
+    .container-widest .container-widest {
+      width: 1770px; } }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex; }
+
+.overlay-wrapper {
+  position: relative;
+  width: 90vw !important;
+  height: 90vh !important;
+  background-color: white;
+  margin: auto;
+  border-radius: 44px;
+  padding: 22px; }
+
+.overlay-content {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: 2;
+  scrollbar-width: thin;
+  width: 100%;
+  height: 100%; }
+
+.overlay-close {
+  position: fixed;
+  top: 1vh;
+  right: 1vw;
+  z-index: 3;
+  margin: 0;
+  width: 48px;
+  height: 48px;
+  background-color: transparent;
+  border: none;
+  padding: 0; }
+  .overlay-close:focus {
+    border: 2px solid white;
+    border-radius: 4px; }
+
+.icon-close {
+  display: block;
+  background: url(../img/close-24px.svg);
+  background-size: 48px;
+  width: 48px;
+  height: 48px; }
+
+.overlay-image {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  padding: 2vh 2vw; }
+
+img.overlay-trigger {
+  cursor: pointer; }
+
 /*!
  *  Fork Awesome 1.1.0, originaly by Dave Gandy - http://forkawesome.github.io/Fork-Awesome/
  *  License - http://forkawesome.github.io/Fork-Awesome//license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -10745,3 +10829,5 @@ blockquote.twitter-tweet {
   .section--whitepaper .wp-center .mail, .whitepaper .wp-center .mail {
     width: 100%;
     max-width: 500px; }
+
+/*# sourceMappingURL=custom.css.map */
