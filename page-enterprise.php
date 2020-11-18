@@ -96,10 +96,11 @@
                 <h2><?php echo $l->t('Expertise');?></h2>
                 <p>Direct access to Nextcloud engineering expertise without call center people in between.');?></p>
                 <p>
-                • <?php echo $l->t('Early security patches');?><br />
-                • <?php echo $l->t('Enterprise-grade security features and hardening');?><br />
-                • <?php echo $l->t('Early notifications about critical security issues');?><br />
-                • <?php echo $l->t('Pro active security consulting to review and harden your instance');?></p>
+                • <?php echo $l->t('Full proof of concept package where our experts help you integrate Nextcloud in your infrastructure');?><br />
+                • <?php echo $l->t('Migration assistance: We help to migrate from your previous solution');?><br />
+                • <?php echo $l->t('Access to enterprise documentation and the knowledge base');?><br />
+                • <?php echo $l->t('Access to expertise around scaling, security and best practices');?></p>
+                • <?php echo $l->t('Access to optional workshops and training');?></p>
             </div>
         </div>
     </div>
